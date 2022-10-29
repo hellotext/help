@@ -1,0 +1,368 @@
+---
+---
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* sRGB color. */
+:root {
+  --banana: rgb(255, 237, 20);
+  --banana-20: rgb(255, 251, 208);
+  --banana-40: rgb(255, 248, 161);
+  --banana-60: rgb(255, 244, 114);
+  --banana-80: rgb(255, 241, 67);
+  --blush: rgb(255, 220, 244);
+  --blush-20: rgb(255, 248, 252);
+  --blush-40: rgb(255, 242, 250);
+  --blush-60: rgb(255, 235, 247);
+  --blush-80: rgb(255, 229, 245);
+  --indigo: rgb(85, 10, 171);
+  --indigo-20: rgb(222, 206, 238);
+  --indigo-40: rgb(187, 157, 221);
+  --indigo-60: rgb(153, 108, 205);
+  --indigo-80: rgb(119, 59, 188);
+  --lavender: rgb(221, 196, 255);
+  --lavender-light: rgb(240, 229, 255);
+  --night: rgb(23, 3, 55);
+  --night-5: rgb(243, 242, 245);
+  --night-10: rgb(231, 229, 234);
+  --night-20: rgb(209, 205, 214);
+  --night-40: rgb(161, 155, 174);
+  --night-60: rgb(114, 104, 132);
+  --night-80: rgb(67, 54, 93);
+  --seafoam: rgb(165, 255, 163);
+  --seafoam-20: rgb(237, 255, 237);
+  --seafoam-40: rgb(219, 255, 218);
+  --seafoam-60: rgb(201, 255, 200);
+  --seafoam-80: rgb(183, 255, 181);
+  --tiger: rgb(255, 76, 0);
+  --tiger-20: rgb(255, 223, 204);
+  --tiger-40: rgb(254, 190, 153);
+  --tiger-60: rgb(254, 158, 102);
+  --tiger-80: rgb(253, 125, 51);
+}
+
+/* Display-P3 color, when supported. */
+@supports (color: color(display-p3)) {
+  :root {
+    --banana: color(display-p3 1.0000 0.9294 0.0784);
+    --banana-20: color(display-p3 1.0000 0.9843 0.8157);
+    --banana-40: color(display-p3 1.0000 0.9725 0.6314);
+    --banana-60: color(display-p3 1.0000 0.9569 0.4471);
+    --banana-80: color(display-p3 1.0000 0.9451 0.2627);
+    --blush: color(display-p3 1 0.8707 0.9531);
+    --blush-20: color(display-p3 1 0.9725 0.9882);
+    --blush-40: color(display-p3 1 0.9490 0.9804);
+    --blush-60: color(display-p3 1 0.9216 0.9686);
+    --blush-80: color(display-p3 1 0.8980 0.9608);
+    --indigo: color(display-p3 0.3333 0.0392 0.6706);
+    --indigo-20: color(display-p3 0.8706 0.8078 0.9333);
+    --indigo-40: color(display-p3 0.7333 0.6157 0.8667);
+    --indigo-60: color(display-p3 0.6000 0.4235 0.8039);
+    --indigo-80: color(display-p3 0.4667 0.2314 0.7373);
+    --lavender: color(display-P3 0.8510 0.7726 1.0000);
+    --lavender-light: color(display-P3 0.9333 0.8980 1.0000);
+    --night: color(display-P3 0.0784 0.0157 0.2039);
+    --night-5: color(display-P3 0.9529 0.9490 0.9608);
+    --night-10: color(display-P3 0.9059 0.8980 0.9176);
+    --night-20: color(display-P3 0.8196 0.8039 0.8392);
+    --night-40: color(display-P3 0.6314 0.6078 0.6824);
+    --night-60: color(display-P3 0.4471 0.4078 0.5176);
+    --night-80: color(display-P3 0.2627 0.2118 0.3647);
+    --seafoam: color(display-P3 0.6471 1.0000 0.6392);
+    --seafoam-20: color(display-P3 0.9294 1.0000 0.9294);
+    --seafoam-40: color(display-P3 0.8588 1.0000 0.8549);
+    --seafoam-60: color(display-P3 0.7882 1.0000 0.7843);
+    --seafoam-80: color(display-P3 0.7176 1.0000 0.7098);
+    --tiger: color(display-P3 0.9882 0.3646 0.0000);
+    --tiger-20: color(display-P3 1.0000 0.8745 0.8000);
+    --tiger-40: color(display-P3 0.9961 0.7451 0.6000);
+    --tiger-60: color(display-P3 0.9961 0.6196 0.4000);
+    --tiger-80: color(display-P3 0.9922 0.4902 0.2000);
+  }
+}
+
+@font-face {
+  font-family: "GT Walsheim";
+  src: url("../fonts/GT-Walsheim-Regular.woff2");  
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT Walsheim";
+  src: url("../fonts/GT-Walsheim-Regular-Oblique.woff2");  
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "GT Walsheim";
+  src: url("../fonts/GT-Walsheim-Medium.woff2");  
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT Walsheim";
+  src: url("../fonts/GT-Walsheim-Medium-Oblique.woff2");  
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "GT Walsheim";
+  src: url("../fonts/GT-Walsheim-Bold.woff2");  
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT Walsheim";
+  src: url("../fonts/GT-Walsheim-Bold-Oblique.woff2");  
+  font-weight: bold;
+  font-style: italic;
+}
+
+@layer base {
+  body {
+    color: var(--night);
+  }
+}
+
+@layer utilities {
+  .default-focus {
+    @apply focus:outline-none focus:ring-4 focus:border-indigo-40 focus:ring-indigo-20 ;
+  }
+}
+
+* {
+  @apply antialiased;
+}
+
+a.active {
+  @apply text-tiger;
+}
+
+body {
+  font-family: "GT Walsheim", "system-ui", "-apple-system", "Helvetica", "Arial", "sans-serif";
+  margin: 0;
+}
+
+body > header { 
+  @apply bg-lavender;
+
+  &.main {
+    background-image: url("/images/smile.svg");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 900px;  
+  }
+
+  nav {
+    @apply flex items-center space-x-4;
+  }
+
+  .container-input {
+    @apply w-full z-10;
+  }
+
+  .search-input {
+    @apply rounded-lg py-2 pr-3 pl-12 text-lg font-medium cursor-pointer outline-none;
+    /* border focus:default-focus transition duration-100 text-base hover:border-night-20 transition duration-100; */
+    background-image: url("/images/icons/search.svg");
+    background-size: 16px;
+    background-position: 18px center;
+    background-repeat: no-repeat;
+
+    &.large {            
+      @apply text-xl py-6 pr-6 pl-20 rounded-xl w-full !mt-6;
+      background-size: 24px;
+      background-position: 36px center;
+      max-width: 768px;
+    }
+  }
+  
+}
+
+body > header .container {
+  @apply flex items-center;
+}
+
+section > .container {
+  @apply space-y-10;
+}
+
+h1 {
+  @apply text-4xl font-bold tracking-tight;
+}
+
+h1.big-title {
+  @apply text-6xl font-bold tracking-tight;
+}
+
+h2 {
+  @apply text-2xl font-bold tracking-tight;
+}
+
+h3 {
+  @apply text-xl font-medium;
+}
+
+.brand-container {
+  @apply grow flex;
+}
+
+.container {
+  @apply py-10 px-5 mx-auto w-11/12;
+  max-width: 1200px;
+}
+
+.default-button {
+  @apply py-2.5 px-6 hover:opacity-80 rounded-full font-medium;
+
+  text-decoration: none;
+}
+
+.button-tiger {
+  @apply default-button bg-tiger;
+  color: white;  
+}
+
+.button-blush {
+  @apply default-button bg-blush;
+}
+
+.content-item {
+  @apply border rounded-xl p-8 space-y-1 block;
+}
+
+.content-item p {
+  @apply text-night-60;
+}
+
+.breadcrumb {
+  @apply text-night-60 flex items-center space-x-0.5;
+}
+
+.header-topic {
+  @apply flex flex-col items-center space-y-3;
+}
+
+.header-guide {
+  @apply flex flex-col space-y-3;
+}
+
+/* Home */
+
+.header-search {
+  @apply flex-col space-y-2 text-center pb-56 relative;
+
+  .header-smile {
+    @apply z-0 m-auto absolute bottom-0;
+  }
+
+  .caption {
+    @apply text-tiger text-sm uppercase font-medium;
+  }
+}
+
+.popular-guides-wrapper {
+  @apply mx-6 relative z-10;
+
+  .popular-guides-container {
+    @apply border rounded-xl py-5 -mt-32 mb-12 max-w-[1300px] mx-auto;
+    background-color: white;
+  
+    .container {
+      @apply space-y-8;
+    }
+  
+    .popular-guides {
+      @apply gap-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3;
+    }
+    
+    .popular-guide {
+      @apply border-r;
+
+      .guide-topic {
+        @apply text-[13px] text-night-60 uppercase font-medium;
+      }
+      
+      .guide-title {
+        @apply font-medium text-lg;
+      }
+    }
+  }
+}
+
+.topic-container {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12 w-full;
+
+  .content-item {
+    @apply text-center;
+  }
+  
+  .content-item p {
+    @apply w-10/12 m-auto;
+  }
+}
+
+/* Guide List */
+
+.container-guides {
+  @apply max-w-[768px] m-auto space-y-8;
+}
+
+/* Guide */
+
+.container-guide {
+  @apply flex space-x-10;
+
+  aside {
+    @apply hidden w-3/12 md:block space-y-6;
+
+    a {
+      @apply font-medium text-lg;
+    }
+
+    .nav-guide {
+      @apply ml-3 space-y-6;
+    }
+  }
+
+  section {
+    @apply grow space-y-8 w-9/12;
+
+    article {
+      @apply space-y-4;
+
+      ul {
+        @apply list-disc pl-10 space-y-1;
+      }
+
+      &.guide-contact-us {
+        @apply border-t flex flex-col items-start pt-6;
+      }
+    }
+  }
+}
+
+/* Footer */
+
+footer > .container { 
+  @apply flex
+}
+
+.footer-languages {
+  @apply flex space-x-4 ml-auto;
+
+  .active {
+    @apply font-bold text-night;
+  }
+}
+
+.avatar-icon {
+  @apply rounded-full ;
+  display: inline-block;
+}

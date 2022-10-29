@@ -1,0 +1,10 @@
+<footer>
+  <div class="container">
+    <div>&copy; Hellotext</div>
+    <div class="footer-languages">
+        {% for lang in site.languages %}
+          <a href="/{% if lang != 'en' %}{{ lang }}{% endif %}" class="{% if lang == site.lang%}active{% endif %}">{{ site.data.languages[lang] }}</a>
+        {% endfor %}
+    </div>
+  </div>
+</footer>

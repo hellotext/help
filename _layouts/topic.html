@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }} | Hellotext</title>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <header>
+      {% include header.html %}
+    </header>
+    <section>
+      <div class="container">
+        <header class="header-topic">
+          <div class="breadcrumb">
+            <a href="{{ site.baseurl }}/">{% t help_center %}</a>
+            <div><img src="/images/icons/right.svg" width="22" height="22" /></div>
+            <div>{{ site.translations[site.lang][page.permalink].title }}</div>
+          </div>
+          <h1 class="big-title">{{ site.translations[site.lang][page.permalink].title }}</h1>
+        </header>
+        
+        <div class="container-guides">
+          {% assign topics = site[page.permalink] | where: "languages", site.lang %}
+          {% for guide in topics %}
+            <a href="{{ site.baseurl }}{{ guide.url }}" class="content-item">
+              <h2>{{ guide[site.lang].title }}</h2>
+              <p>{{ guide[site.lang].description }}</p>
+            </a>
+          {% endfor %}
+        </div>
+
+      </div>
+    </section>
+    {% include footer.html %}
+  </body>
+</html>

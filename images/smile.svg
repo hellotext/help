@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="459px" height="150px" viewBox="0 0 459 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="brand">
+    <title>Fill-4</title>
+    <style>
+        /* sRGB color. */
+        :root {
+            --tiger: rgb(255, 76, 0);
+        }
+
+        /* Display-P3 color, when supported. */
+        @supports (color: color(display-p3)) {
+        :root {
+            --tiger: color(display-P3 0.9882 0.3646 0.0000);
+        }
+        }
+
+        .brand g {
+            color: var(--tiger);
+        }
+    </style>
+    <g id="All-Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.0-Homepage" transform="translate(-907.000000, -2999.000000)" fill="currentColor" fill-rule="nonzero">
+            <g id="Benefits" transform="translate(144.000000, 1165.000000)">
+                <g id="Measure" transform="translate(672.000000, 1273.000000)">
+                    <g id="Main-/-Product-Images-/-Measure" transform="translate(50.000000, 362.000000)">
+                        <g id="Smile-background" transform="translate(41.000000, 199.000000)">
+                            <path d="M299.772598,240.428239 C217.754411,145.853888 217.754411,4.160317 299.780216,-90.4216686 C306.354775,-98.0025797 306.042426,-109.339592 298.957444,-116.439539 L266.572221,-148.893169 C258.816833,-156.672574 246.063866,-156.313759 238.780809,-148.083928 C126.411476,-21.1704623 126.403858,171.177034 238.773191,298.082865 C246.056248,306.312696 258.809215,306.671511 266.564603,298.89974 L298.949826,266.446111 C306.034807,259.346163 306.347156,248.009151 299.772598,240.428239" id="Fill-4" transform="translate(229.500000, 75.000000) scale(-1, 1) rotate(-90.000000) translate(-229.500000, -75.000000) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

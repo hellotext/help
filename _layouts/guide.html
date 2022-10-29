@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }} | Hellotext</title>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <header>
+      {% include header.html %}
+    </header>
+    <div class="container container-guide">
+      <aside>
+        {% assign topics = site.topics | where: "languages", site.lang %}
+        {% for topic in topics %}
+          <p><a href="{{ site.baseurl }}{{ topic.url }}" class="nav-topic">{% t {{ topic.permalink }}.title %}</a></p>
+          {% if topic.permalink == page.topic %}
+            <div class="nav-guide">
+              {% assign guides = site[page.topic] | where: "languages", site.lang %}
+              {% for guide in guides %}
+                <p><a href="{{ site.baseurl }}{{ guide.url }}" class="nav-guide {% if guide.title == page.title %}active{% endif %}">{{ guide[site.lang].title }}</a></p>
+              {% endfor %}  
+            </div>        
+          {% endif %}
+        {% endfor %}      
+      </aside>
+      <section>
+        <header class="header-guide">
+          <div class="breadcrumb">
+            <a href="{{ site.baseurl }}/">{% t help_center %}</a>
+            <div><img src="/images/icons/right.svg" width="22" height="22" /></div>
+            {% assign topic = site.topics | where: "permalink", page.topic | first %}
+            <div><a href="{{ site.baseurl }}{{ topic.url }}">{% t {{ topic.permalink }}.title %}</a></div>
+            <div><img src="/images/icons/right.svg" width="22" height="22" /></div>
+            <div>{{ page[site.lang].title }}</div>
+          </div>
+          <h1>{{ page[site.lang].title }}</h1>
+        </header>
+
+        <article>
+          {{ content }}
+        </article>     
+        <article class="guide-contact-us">
+          <h3>{% t havent_found_your_answer %}</h3>
+          <a href="https://www.hellotext.com/contact/" class="button-blush" target="_blank">{% t contact_us %}</a>
+        </article>   
+      </section>
+    </div>
+    {% include footer.html %}
+  </body>
+</html>

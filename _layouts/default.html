@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{% t help_center %} | Hellotext</title>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <header class="main">
+      {% include header.html %}
+      <div class="container header-search">
+        <div class="caption">{% t help_center %}</div>
+        <h1 class="big-title">{% t how_can_we_help %}</h1>
+        <div class="container-input">
+          <input type="text" class="search-input large" placeholder="{% t search %}" />
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="popular-guides-wrapper">
+        <div class="popular-guides-container">
+          <div class="container">
+            <h2>{% t popular_articles %}</h2>
+            {% assign guides = site.documents | where: "popular", true | where: "languages", site.lang %}
+            <div class="popular-guides">
+              {% for guide in guides %}
+                <div class="popular-guide">
+                  {% assign topic = site.topics | where: "permalink", guide.topic | first %}
+                  <div class="guide-topic">{% t {{ topic.permalink }}.title %}</div>
+                  <a class="guide-title" href="{{ site.baseurl }}{{guide.url}}">{{ guide[site.lang].title }}</a>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        {{ content }}
+      </div>
+    </section>
+    {% include footer.html %}
+  </body>
+</html>
