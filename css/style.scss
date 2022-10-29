@@ -174,13 +174,13 @@ body > header {
     background-size: 16px;
     background-position: 18px center;
     background-repeat: no-repeat;
+  }
 
-    &.large {            
-      @apply text-xl py-6 pr-6 pl-20 rounded-xl w-full !mt-6;
-      background-size: 24px;
-      background-position: 36px center;
-      max-width: 768px;
-    }
+  .search-input.large {            
+    @apply text-xl py-6 pr-6 pl-20 rounded-xl w-full !mt-6;
+    background-size: 24px;
+    background-position: 36px center;
+    max-width: 768px;
   }
   
 }
@@ -269,32 +269,33 @@ h3 {
 
 .popular-guides-wrapper {
   @apply mx-6 relative z-10;
-
-  .popular-guides-container {
-    @apply border rounded-xl py-5 -mt-32 mb-12 max-w-[1300px] mx-auto;
-    background-color: white;
-  
-    .container {
-      @apply space-y-8;
-    }
-  
-    .popular-guides {
-      @apply gap-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3;
-    }
-    
-    .popular-guide {
-      @apply border-r;
-
-      .guide-topic {
-        @apply text-[13px] text-night-60 uppercase font-medium;
-      }
-      
-      .guide-title {
-        @apply font-medium text-lg;
-      }
-    }
-  }
 }
+
+.popular-guides-container {
+  @apply border rounded-xl py-5 -mt-32 mb-12 max-w-[1300px] mx-auto;
+  background-color: white;
+}
+
+.popular-guides-container .container {
+  @apply space-y-8;
+}
+
+.popular-guides-container .popular-guides {
+  @apply gap-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3;
+}
+
+.popular-guides-container .popular-guide {
+  @apply border-r;
+}
+
+.popular-guides-container .popular-guide .guide-topic {
+  @apply text-[13px] text-night-60 uppercase font-medium;
+}
+  
+.popular-guides-container .popular-guide .guide-title {
+  @apply font-medium text-lg;
+}
+
 
 .topic-container {
   @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12 w-full;
