@@ -52,6 +52,9 @@ collections:
     output: true
     permalink: /:name
   campaigns:
+    order:
+      - creating-a-campaign.html
+      - campaign-reporting.html
     output: true
   getting-started:
     output: true
