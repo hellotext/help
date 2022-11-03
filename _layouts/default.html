@@ -23,7 +23,7 @@
             <h2>{% t popular_articles %}</h2>
             {% assign guides = site.documents | where: "popular", true | where: "languages", site.lang %}
             <div class="popular-guides">
-              {% for guide in guides %}
+              {% for guide in guides limit:6 %}
                 <div class="popular-guide">
                   {% assign topic = site.topics | where: "permalink", guide.topic | first %}
                   <div class="guide-topic">{% t {{ topic.permalink }}.title %}</div>
