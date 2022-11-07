@@ -2,10 +2,10 @@
 languages: ["en", "es"]
 
 en:
-  title: Acquiring a Keyword
+  title: Acquiring a keyword
   description: Keywords are simple words that customers can send to a short code to subscribe.
 es:
-  title: Obteniendo un Keyword
+  title: Obteniendo un keyword
   description: Los keywords son palabras que los clientes pueden enviar a un código corto para suscribirse.
 
 permalink: acquiring-a-keyword

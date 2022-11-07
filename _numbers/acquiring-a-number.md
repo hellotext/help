@@ -2,10 +2,10 @@
 languages: ["en", "es"]
 
 en:
-  title: Acquiring a Number
+  title: Acquiring a number
   description: Obtain exclusive mobile phone lines that are immediately ready-to-use.
 es:
-  title: Obteniendo un Número
+  title: Obteniendo un número
   description: Obtén líneas de telefonía móvil exclusivas listas para usar de inmediato. 
 
 permalink: acquiring-a-number
