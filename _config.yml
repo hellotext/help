@@ -50,17 +50,25 @@ collections:
       - audience.html
       - developers.html
     output: true
-    permalink: /:name
   campaigns:
     order:
-      - creating-a-campaign.html
-      - campaign-reporting.html
+      - creating-a-campaign.md
+      - campaign-reporting.md
     output: true
   audience:
     output: true
   numbers: 
+    order:
+      - acquiring-a-number.md
+      - migrating-an-existing-number.md
+      - acquiring-a-keyword.md
+      - obtaining-an-exclusive-shortcode.md
     output: true
   team: 
+    order:
+      - understanding-team-roles.md
+      - assigning-conversations.md
+      - transferring-ownership.md
     output: true
   developers:
     output: true
