@@ -28,7 +28,7 @@ Es posible excluir ciertas audiencias seleccionándolas primero y luego haciendo
 
 Para que una audiencia permanezca excluida, su etiqueta debe decir *Excluir*.
 
-## Redactar su mensaje
+## Redactar tu mensaje
 
 Tómate tu tiempo para pensar en un buen mensaje. Imagínate a ti mismo como el destinatario. ¿Cómo te sentirías al recibir este mensaje de texto?
 
