@@ -9,7 +9,7 @@ es:
   description: Comprenda cómo realizar un seguimiento de las acciones de sus clientes.
 
 permalink: setting-up-your-business
-permalink_es: seguimiento-de-eventos
+permalink_es: comenzando-con-tu-negocio
 
 layout: guide
 topic: getting-started
