@@ -8,7 +8,7 @@ es:
   title: Seguimiento de Eventos
   description: Comprenda cómo realizar un seguimiento de las acciones de sus clientes.
 
-permalink: tracking-eventos
+permalink: tracking-events
 permalink_es: seguimiento-de-eventos
 
 layout: guide
