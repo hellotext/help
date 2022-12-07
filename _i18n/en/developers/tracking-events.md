@@ -1,4 +1,4 @@
-One of the most powerful marketing techniques is the ability to track what your customers do when they interact with your brand, being at your site or your store. Tracking your customers actions is as important for reporting as it is to also reach them more precisely with promotions and with active selling by your team.
+One of the most powerful marketing techniques is the ability to track what your customers do when they interact with your brand. This could be when they browse your site or visit your physical store. Tracking your customers actions in an unified way unlocks an unprecedented number of possibilities: segment your audience based on their behavior to reach them with better precision campaigns, trigger automations based on what customers do and let your team use this data as it happens as opportunities to engage and sell more.
 
 One of the key aspects that makes Hellotext unique is its ability to easily track all the important actions that your customers perform from any source that matters to you: that can be what they do at your eCommerce site, your physical retail shop or in any other valuable interaction.
 

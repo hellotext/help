@@ -5,8 +5,8 @@ en:
   title: Tracking events
   description: Understand how to track your customers actions.
 es:
-  title: Seguimiento de Eventos
-  description: Comprenda cómo realizar un seguimiento de las acciones de sus clientes.
+  title: Seguimiento de eventos
+  description: Comprende cómo realizar un seguimiento de las acciones de tus clientes.
 
 permalink: tracking-events
 permalink_es: seguimiento-de-eventos
