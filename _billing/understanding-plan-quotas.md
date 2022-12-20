@@ -9,7 +9,7 @@ es:
   description: Comprende qué está incluido en tu plan y cómo funciona los consumos.
 
 permalink: understanding-plan-quotas
-permalink_es: listas
+permalink_es: conociendo-los-consumos-del-plan
 
 layout: guide
 topic: billing
