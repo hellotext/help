@@ -16,7 +16,7 @@ Scanning the QR code with their phone is all it takes to quickly and easily subs
 
 ## Creating a QR Code
 
-To set up a QR code as a capture method, go to the *Captures* section and click on *New capture method*. Then, select *QR code*. 
+To set up a QR code, go to the *Captures* section and click on *New capture method*. Then, select *QR code*. 
 
 If you have phone numbers or short codes associated with your business, you can choose one of these as the number that customers will send the opt-in message to. 
 
