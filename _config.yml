@@ -36,11 +36,14 @@ plugins:
   - jekyll-redirect-from
 
 languages: ["en", "es"]
+exclude_from_localizations: []
 
 algolia:
   application_id: WURCDLSM2D
   index_name: hellotext-help
   search_only_api_key: 32a31859dbe7f63f5cd8ff11af0c8b70
+  files_to_exclude: 
+    - _i18n/.yml
 
 collections:
   topics:
