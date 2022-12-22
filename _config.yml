@@ -33,6 +33,7 @@ github_username:  hellotext
 plugins:
   - jekyll-multiple-languages-plugin
   - jekyll-postcss
+  - jekyll-redirect-from
 
 languages: ["en", "es"]
 
@@ -50,6 +51,10 @@ collections:
       - audience.html
       - numbers.html
       - team.html
+      - journeys.html
+      - captures.html
+      - billing.html
+      - integrations.html
       - developers.html
     output: true
   campaigns:
@@ -72,13 +77,6 @@ collections:
       - assigning-conversations.md
       - transferring-ownership.md
     output: true
-  developers:
-    output: true
-    order:
-      - tracking-events.md
-      - tracking-on-campaigns-and-journeys.md
-      - tracking-unidentified-customers.md
-      - external-tracking.md
   getting-started:
     output: true
   billing:
@@ -95,6 +93,14 @@ collections:
       - custom-journey.md
   integrations:
     output: true
+  developers:
+    output: true
+    order:
+      - tracking-events.md
+      - tracking-on-campaigns-and-journeys.md
+      - tracking-unidentified-customers.md
+      - external-tracking.md
+      - api.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
