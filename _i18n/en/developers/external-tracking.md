@@ -18,8 +18,8 @@ HTTParty.post "https://api.hellotext.com/v1/attribution/events",
   },
   body: { 
     action: "product.purchased",
-    product_id: "vxqQJ3Yg",
-    profile_id: "PROFILE_ID"
+    product: "vxqQJ3Yg",
+    profile: "PROFILE_ID"
   }.to_json
 ```
 

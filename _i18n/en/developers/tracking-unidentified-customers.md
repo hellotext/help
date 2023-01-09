@@ -30,7 +30,7 @@ HTTParty.post "https://api.hellotext.com/v1/sessions/HELLOTEXT_SESSION_ID",
     "Content-Type" => "application/json"
   },
   body: { 
-    profile_id: "PROFILE_ID"
+    profile: "PROFILE_ID"
   }.to_json
 ```
 
@@ -42,7 +42,7 @@ If the request was made correctly the API should respond with a HTTP Status code
 {
   "id": "WBAkaqNz",  
   "type": "session",
-  "profile_id": "MzYwlE50",
+  "profile": "MzYwlE50",
   "created_at": 1665684173,
 }
 ```
