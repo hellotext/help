@@ -41,7 +41,7 @@ Para obtener la sesión actual, simplemente llama a `Hellotext.session`:
 
 ```javascript
 Hellotext.session
-// Returns c7a42761-f34d-41a2-b078-6a8172690350
+// Returns bBJn9vR15yPaYkWmR2QK0jopMeNxrA6l
 ```
 
 Realiza la siguiente solicitud a la API:

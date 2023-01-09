@@ -10,7 +10,7 @@ This help you overcome the 160-character limit of text messages leaving more spa
 
 You can share shorten links to your messages on Campaigns and Journeys.
 
-When customers click on a short link they are redirected to the original URL. Hellotext  attaches a GET parameter to the original URL called `hellotext_session_id` containing a session identifier uniquely generated from each click.
+When customers click on a short link they are redirected to the original URL. Hellotext  attaches a GET parameter to the original URL called `hellotext_session` containing a session identifier uniquely generated from each click.
 
 Every time a customer clicks on a short link an event will be created and will appear on his profile's activities. Clicks are also aggregated to the reports of the campaign or journey.
 
@@ -25,13 +25,13 @@ If your integration is not yet supported or if you have your own custom implemen
 Begin by installing the library.
 
 ```bash
-npm install hellotext
+npm install @hellotext/hellotext
 ```
 
 Import the library into your app.
 
 ```javascript
-import Hellotext from "hellotext";
+import Hellotext from "@hellotext/hellotext";
 ```
 
 Initialize the library passing the public `HELLOTEXT_BUSINESS_ID` identifier that represents the business.
@@ -62,7 +62,7 @@ To obtain the current session, simple call `Hellotext.session`:
 
 ```javascript
 Hellotext.session
-// Returns c7a42761-f34d-41a2-b078-6a8172690350
+// Returns bBJn9vR15yPaYkWmR2QK0jopMeNxrA6l
 ```
 
 You can then track events sending a `POST` request directly to the API. 
