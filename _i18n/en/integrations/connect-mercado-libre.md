@@ -6,6 +6,7 @@ By connecting your Mercado Libre seller account, you can:
 * Automatically create customer profiles, including details like phone numbers, for future promotions.
 * Manage all post-sale communications from the Inbox.
 * Send post-sale automatic replies using pre-built journey templates.
+* Manage notes from sales directly in Hellotext.
 
 If you're an business selling on multiple channels, connecting your Mercado Libre account can help you keep all your customer profiles in one place, with a complete history of past purchases. This makes it easier to create targeted campaigns that aggregate the data from customers who have purchased on Mercado Libre.
 
@@ -20,7 +21,6 @@ To connect your Mercado Libre account, follow these steps:
 5. You will be asked to confirm that you want to authorize Hellotext to access your account. Click *Authorize* to grant Hellotext access.
 6. That's it! From now on, you'll start seeing new sales directly in the Inbox and customer data will be automatically tracked.
 
-## Important clarification
+## Notice on updates
 
-Due to the way Mercado Libre works with 3rd party applications (such as Hellotext). New Orders, Messages and Notes might take up to an hour 
-to be displayed on Hellotext.
+Please note that due to Mercado Libre's integration limitations, in some cases there may be a delay of up to one hour for new orders, messages, and notes to appear in Hellotext.
