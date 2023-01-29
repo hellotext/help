@@ -20,7 +20,7 @@ Para conectar tu cuenta de Mercado Libre, sigue estos pasos:
 5. Se te pedirá que confirmes que quieres autorizar a Hellotext a acceder a tu cuenta. Haz clic en Autorizar para otorgar acceso a Hellotext.
 6. ¡Eso es todo! A partir de ahora, empezarás a ver las nuevas ventas directamente en la bandeja de entrada y los datos de los clientes se rastrearán automáticamente.
 
-## Otros informaciónes
+## Aclaración importante
 
 Debido a la forma en que Mercado Libre funciona con aplicaciones de terceros (como Hellotext). Los nuevos órdenes, mensajes y notas pueden tardar hasta una hora
 que se mostrará en Hellotext.
