@@ -19,3 +19,8 @@ To connect your Mercado Libre account, follow these steps:
 4. You will be redirected to Mercado Libre and may be prompted to sign in if you're not already logged in.
 5. You will be asked to confirm that you want to authorize Hellotext to access your account. Click *Authorize* to grant Hellotext access.
 6. That's it! From now on, you'll start seeing new sales directly in the Inbox and customer data will be automatically tracked.
+
+## Other information
+
+Due to the way Mercado Libre works with 3rd party applications (such as Hellotext). New Orders, Messages and Notes might take up to an hour 
+to be displayed on Hellotext.
