@@ -23,4 +23,4 @@ Este es un rol ideal para quienes realizan actividades de marketing o tienen age
 Este es un rol similar al del propietario de la cuenta.
 
 * Puede hacer todo lo que puede hacer un propietario, excepto eliminar el negocio.
-* Puede hacer todo lo que hacen los gerentes.
+* Puede hacer todo lo que hacen los managers.
