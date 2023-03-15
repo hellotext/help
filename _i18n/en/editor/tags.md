@@ -3,23 +3,23 @@ various places amount the platform, such as the Campaigns, Journeys, and the Inb
 
 It provides a set of powerful built-in features that allows you to enrich your messages with dynamic content, images, and links.
 
-Liquid tags are a set of reserved words that you can use to compose a message with dynamic content.
+Tags are a set of reserved words that you can use to compose a message with dynamic content.
 Dynamic content allows you to write messages that are unique for each profile. It can be used to inject the profile's name,
 their age, birthday, or any other property that you have defined for your business.
 
-### The Anatomy of a Liquid Tag
+### The Anatomy of a Tag
 
-We mentioned that liquid tags are reserved keywords in the editor. Tags are reserved words written between 
-an opening and closing curly brace. For example, the tag `{name}` is a liquid tag that will be replaced with the
+We mentioned that tags are reserved keywords in the editor. Tags are reserved words written between 
+an opening and closing curly brace. For example, the tag `{name}` is a tag that will be replaced with the
 full name of the profile. Common tags include `{name}`, `{birthday}`, `{first_name}`, `{last_name}`, `{phone}` that is 
 provided by default. But, you're not limited to these set of tags, you can also target properties defined by your business as well.
 
-By default, liquid properties are removed from the output when the profile does not have the attribute. 
+By default, properties are removed from the output when the profile does not have the attribute. 
 For example, if you are targeting a `{company}` property in your message and the profile does not have that property
 the word `{company}` will be removed from the message being sent to the profile. If you don't want to have the property removed. You can 
 use default values for a tag, read below for further information.
 
-Liquid tags can also have a default value, default values are useful when you want to have a fallback 
+Tags can also have a default value, default values are useful when you want to have a fallback 
 value in case the profile does not have the attribute you're targeting.
 You can provide a default value for a tag by adding a pipe character `|` and the default value before closing the tag.
 For example, the tag `{company|friend}` will be replaced with company property assigned to the profile, and if the
@@ -32,7 +32,7 @@ A valid tag consists of the following
 - A closing brace `}`
 - Optional values can be provided by using a pipe `|` operator and the fallback value after it.
 
-### Liquid tags and properties
+### Tags and properties
 
 We mentioned that you can also target custom properties in your business in the tags.
 You can target the properties by their kind, i.e `text`, `url`, `date`, etc. Or by their name, if the name is set.

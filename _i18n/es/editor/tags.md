@@ -7,19 +7,19 @@ Las etiquetas líquidas son un conjunto de palabras reservadas que puede usar pa
 El contenido dinámico le permite escribir mensajes únicos para cada perfil. Se puede usar para inyectar el nombre del perfil,
 su edad, cumpleaños o cualquier otra propiedad que haya definido para su negocio.
 
-### La anatomía de una etiqueta líquida
+### La anatomía de una etiqueta
 
-Mencionamos que las etiquetas líquidas son palabras clave reservadas en el editor. Las etiquetas son palabras reservadas escritas entre
+Mencionamos que las etiquetas son palabras clave reservadas en el editor. Las etiquetas son palabras reservadas escritas entre
 una llave de apertura y cierre. Por ejemplo, la etiqueta `{name}` es una etiqueta líquida que se reemplazará con la
 nombre completo del perfil. Las etiquetas comunes incluyen `{name}`, `{birthday}`, `{first_name}`, `{last_name}`, `{phone`} que es
 proporcionado por defecto. Pero, no está limitado a este conjunto de etiquetas, también puede apuntar a propiedades definidas por su negocio.
 
-De forma predeterminada, las propiedades líquidas se eliminan de la salida cuando el perfil no tiene el atributo.
+De forma predeterminada, las propiedades se eliminan de la salida cuando el perfil no tiene el atributo.
 Por ejemplo, si está apuntando a una propiedad `{company}` en su mensaje y el perfil no tiene esa propiedad
 la palabra `{company}` se eliminará del mensaje que se envía al perfil. Si no desea que se elimine la propiedad. Puede
 use valores predeterminados para una etiqueta, lea a continuación para obtener más información
 
-Las etiquetas líquidas también pueden tener un valor predeterminado, los valores predeterminados son útiles cuando desea tener un respaldo
+Las etiquetas también pueden tener un valor predeterminado, los valores predeterminados son útiles cuando desea tener un respaldo
 valor en caso de que el perfil no tenga el atributo al que se dirige.
 Puede proporcionar un valor predeterminado para una etiqueta agregando un carácter de barra vertical `|` y el valor predeterminado antes de cerrar la etiqueta.
 Por ejemplo, la etiqueta `{company|amigo}` se reemplazará con la propiedad de la empresa asignada al perfil, y si el
@@ -32,7 +32,7 @@ Una etiqueta válida consta de lo siguiente
 - na llave de cierre `}`
 - Se pueden proporcionar valores opcionales mediante el uso de un operador de canalización `|` y el valor de reserva después de él.
 
-### Las etiquetas líquidas y properidades
+### Las etiquetas y properidades
 
 Mencionamos que también puede apuntar a propiedades personalizadas en su negocio en las etiquetas.
 Puede orientar las propiedades por su tipo, es decir, `text`, `url`, `date`, etc. O por su nombre, si el nombre está establecido.
