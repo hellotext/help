@@ -11,8 +11,13 @@ their age, birthday, or any other property that you have defined for your busine
 
 We mentioned that liquid tags are reserved keywords in the editor. Tags are reserved words written between 
 an opening and closing curly brace. For example, the tag `{name}` is a liquid tag that will be replaced with the
-full name of the profile. Common tags include `{name}`, `{birthday}`, `{first_name}`, `{last_name}`, `{phone`} that is 
+full name of the profile. Common tags include `{name}`, `{birthday}`, `{first_name}`, `{last_name}`, `{phone}` that is 
 provided by default. But, you're not limited to these set of tags, you can also target properties defined by your business as well.
+
+By default, liquid properties are removed from the output when the profile does not have the attribute. 
+For example, if you are targeting a `{company}` property in your message and the profile does not have that property
+the word `{company}` will be removed from the message being sent to the profile. If you don't want to have the property removed. You can 
+use default values for a tag, read below for further information.
 
 Liquid tags can also have a default value, default values are useful when you want to have a fallback 
 value in case the profile does not have the attribute you're targeting.

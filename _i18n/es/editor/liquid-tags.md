@@ -14,6 +14,11 @@ una llave de apertura y cierre. Por ejemplo, la etiqueta `{name}` es una etiquet
 nombre completo del perfil. Las etiquetas comunes incluyen `{name}`, `{birthday}`, `{first_name}`, `{last_name}`, `{phone`} que es
 proporcionado por defecto. Pero, no está limitado a este conjunto de etiquetas, también puede apuntar a propiedades definidas por su negocio.
 
+De forma predeterminada, las propiedades líquidas se eliminan de la salida cuando el perfil no tiene el atributo.
+Por ejemplo, si está apuntando a una propiedad `{company}` en su mensaje y el perfil no tiene esa propiedad
+la palabra `{company}` se eliminará del mensaje que se envía al perfil. Si no desea que se elimine la propiedad. Puede
+use valores predeterminados para una etiqueta, lea a continuación para obtener más información
+
 Las etiquetas líquidas también pueden tener un valor predeterminado, los valores predeterminados son útiles cuando desea tener un respaldo
 valor en caso de que el perfil no tenga el atributo al que se dirige.
 Puede proporcionar un valor predeterminado para una etiqueta agregando un carácter de barra vertical `|` y el valor predeterminado antes de cerrar la etiqueta.
