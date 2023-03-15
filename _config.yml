@@ -59,6 +59,7 @@ collections:
       - billing.html
       - integrations.html
       - developers.html
+      - editor.html
     output: true
   campaigns:
     order:
@@ -104,6 +105,10 @@ collections:
       - tracking-unidentified-customers.md
       - external-tracking.md
       - api.md
+  editor:
+    output: true
+    order:
+      - liquid-tags.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
