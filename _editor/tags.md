@@ -8,8 +8,8 @@ es:
   title: Etiquetas
   description: Aprender cómo puedes usar etiquetas personalizadas para escribir contenido dinámico que sea único para cada perfil.
 
-permalink: editor-tags
-permalink_es: editor-etiquetas
+permalink: editor/tags
+permalink_es: editor/etiquetas
 
 layout: guide
 topic: editor
