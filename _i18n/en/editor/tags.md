@@ -10,7 +10,7 @@ their age, birthday, or any other property that you have defined for your busine
 ### The Anatomy of a Tag
 
 We mentioned that tags are reserved keywords in the editor. Tags are reserved words written between 
-an opening and closing curly brace. For example, the tag `{name}` is a tag that will be replaced with the
+an opening and closing curly brace. For example, the tag `{full_name}` is a tag that will be replaced with the
 full name of the profile. Common tags include `{name}`, `{birthday}`, `{first_name}`, `{last_name}`, `{phone}` that is 
 provided by default. But, you're not limited to these set of tags, you can also target properties defined by your business as well.
 

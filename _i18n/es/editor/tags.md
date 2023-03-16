@@ -10,7 +10,7 @@ su edad, cumpleaños o cualquier otra propiedad que haya definido para su negoci
 ### La anatomía de una etiqueta
 
 Mencionamos que las etiquetas son palabras clave reservadas en el editor. Las etiquetas son palabras reservadas escritas entre
-una llave de apertura y cierre. Por ejemplo, la etiqueta `{name}` es una etiqueta líquida que se reemplazará con la
+una llave de apertura y cierre. Por ejemplo, la etiqueta `{full_name}` es una etiqueta líquida que se reemplazará con la
 nombre completo del perfil. Las etiquetas comunes incluyen `{name}`, `{birthday}`, `{first_name}`, `{last_name}`, `{phone`} que es
 proporcionado por defecto. Pero, no está limitado a este conjunto de etiquetas, también puede apuntar a propiedades definidas por su negocio.
 
