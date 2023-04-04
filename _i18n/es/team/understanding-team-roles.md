@@ -16,6 +16,7 @@ Este es un rol ideal para quienes realizan actividades de marketing o tienen age
 
 * Puede administrar campañas y ver sus informes.
 * Puede gestionar capturas.
+* Puede administrar rutas.
 * Puede hacer todo lo que hacen los agentes.
 
 ### Administrador

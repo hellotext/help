@@ -16,6 +16,7 @@ This is a role ideal for those who perform marketing activities or have agents i
 
 * Can manage campaigns and see their reports.
 * Can manage captures.
+* Can manage journeys.
 * Can do everything agents do. 
 
 ### Administrador
