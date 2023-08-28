@@ -2,7 +2,7 @@
 languages: ["en", "es"]
 
 en:
-  title: Shortlink CNAME alias
+  title: Alias Short Link CNAME
   description: This guide will help you to set up Short Link aliasing.
 es:
   title: Alias CNAME para enlaces cortos
