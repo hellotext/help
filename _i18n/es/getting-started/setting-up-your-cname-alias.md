@@ -37,3 +37,16 @@ registro correcto, consulta la documentación de tu proveedor de DNS.
 <div class="note">
     Nota: Los cambios de DNS pueden tardar hasta 24 horas en propagarse.
 </div>
+
+Después de configurar el alias en Hellotext, Hellotext comenzará a usar el alias configurado cuando se haya verificado.
+que el alias esté configurado correctamente en su proveedor de DNS y pueda recibir llamadas. Una vez que verifiquemos que el alias
+apunta con éxito a `hello.link`, comenzaremos a usar el alias para enlaces cortos. Hellotext solo comenzará a usar el alias
+una vez que se verifica el alias, podrá saber con seguridad que los enlaces cortos enviados a sus clientes se pueden abrir.
+
+## Notas sobre cómo cambiar el alias
+
+Los alias se utilizan en los mensajes enviados a los clientes; después de configurar el alias en un dominio específico, debes tener cuidado al cambiarlo nuevamente.
+Si cambia el alias, Hellotext comenzará a usar ese alias inmediatamente después de haberlo verificado.
+Sin embargo, los mensajes que se enviaron antes de que se cambiara el alias seguirán usando el alias anterior. Esto significa que cuando cambias el alias,
+debe configurar redireccionamientos correctos a `hello.link` para el alias anterior, de modo que los clientes aún puedan abrir los enlaces cortos que se les enviaron antes de que se cambiara el alias.
+Hellotext no es responsable de enrutar enlaces cortos antiguos al destino correcto, por lo que debes asegurarte de que el alias anterior siga siendo válido.
