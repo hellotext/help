@@ -30,8 +30,8 @@ Y luego ingrese un nombre de dominio en el campo CNAME, asegúrese de que el cna
 
 
 Navega a tu proveedor de DNS y crea un registro CNAME que apunte tu subdominio al dominio predeterminado de tu sitio. 
-Por ejemplo, si deseas usar el subdominio `www.myshop.com` para Enlaces Cortos, 
-crea un registro CNAME que apunte `www.myshop.com` a `hello.link`. Para obtener más información sobre cómo crear el 
+Por ejemplo, si deseas usar el subdominio `shop.mysite.com` para Enlaces Cortos, 
+crea un registro CNAME que apunte `shop.mysite.com` a `hello.link`. Para obtener más información sobre cómo crear el 
 registro correcto, consulta la documentación de tu proveedor de DNS.
 
 ## Configurar un dominio apex
