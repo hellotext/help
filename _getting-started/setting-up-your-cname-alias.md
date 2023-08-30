@@ -8,8 +8,8 @@ es:
   title: Alias CNAME para enlaces cortos
   description: Esta guía te ayudará a configurar un alias para enlaces cortos.
 
-permalink: setting-up-shortlink-cname-alias
-permalink_es: configurando-un-alias-cname-para-enlaces-cortos
+permalink: setting-up-shortlink-alias
+permalink_es: configurando-alias-para-enlaces-cortos
 
 layout: guide
 topic: getting-started

@@ -32,7 +32,7 @@ For example, if you want to use the subdomain `shop.mysite.com` for Short Links,
 create a CNAME record that points `shop.mysite.com` to `hello.link`.
 For more information about how to create the correct record, see your DNS provider's documentation.
 
-## Configuración de un dominio apex
+## Configuring an apex domain
 
 To set up an apex domain, such as example.com, you must configure a custom domain in your business settings and at least one ALIAS, ANAME, or A record with your DNS provider.
 For example, if instead of using the subdomain `shop.mysite.com` for Short Links, you want to use the apex domain `mysite.com`,
