@@ -25,11 +25,18 @@ To configure the alias, you need to have be an Administrator or Owner of the bus
 Firstly, login to your account, and go to the business' settings page. Click on _Edit Business_
 Then, enter a your domain name in the CNAME field, make sure that the cname corresponds to a domain that you own.
 
-## Configuring the alias on your DNS provider
+## Configuring a subdomain
 
 Navigate to your DNS provider and create a CNAME record that points your subdomain to the default domain for your site. 
-For example, if you want to use the subdomain `www.myshop.com` for Short Links, 
-create a CNAME record that points `www.myshop.com` to `hello.link`.
+For example, if you want to use the subdomain `shop.mysite.com` for Short Links, 
+create a CNAME record that points `shop.mysite.com` to `hello.link`.
+For more information about how to create the correct record, see your DNS provider's documentation.
+
+## Configuración de un dominio apex
+
+To set up an apex domain, such as example.com, you must configure a custom domain in your business settings and at least one ALIAS, ANAME, or A record with your DNS provider.
+For example, if instead of using the subdomain `shop.mysite.com` for Short Links, you want to use the apex domain `mysite.com`,
+you need to create an ALIAS, ANAME, or A record that points `mysite.com` to `hello.link`.
 For more information about how to create the correct record, see your DNS provider's documentation.
 
 <div class="note">
@@ -37,9 +44,7 @@ For more information about how to create the correct record, see your DNS provid
 </div>
 
 After you configure the alias on Hellotext, Hellotext will start using the configured alias when it has verified 
-that the alias is configured correctly on your DNS provider and can receive calls. Once we verify that the alias 
-successfully points to `hello.link`, we will start using the alias for Short Links. Hellotext will only start using the alias
-once the alias is verified, so you can safely know that Short Links sent to your customers can be opened.
+that the alias is configured correctly on your DNS provider and can receive calls.
 
 ## Verification Process
 

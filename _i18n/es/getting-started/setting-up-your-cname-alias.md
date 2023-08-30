@@ -26,7 +26,7 @@ En primer lugar, inicie sesión en su cuenta y vaya a la página de configuraci�
 Y luego ingrese un nombre de dominio en el campo CNAME, asegúrese de que el cname corresponda a un dominio que usted posea.
 
 
-## Configurar el alias en su proveedor de DNS
+## Configurar un subdominio
 
 
 Navega a tu proveedor de DNS y crea un registro CNAME que apunte tu subdominio al dominio predeterminado de tu sitio. 
@@ -34,14 +34,18 @@ Por ejemplo, si deseas usar el subdominio `www.myshop.com` para Enlaces Cortos,
 crea un registro CNAME que apunte `www.myshop.com` a `hello.link`. Para obtener más información sobre cómo crear el 
 registro correcto, consulta la documentación de tu proveedor de DNS.
 
+## Configurar un dominio apex
+
+Para configurar un dominio ápice, como por ejemplo `example.com`, debes configurar un dominio personalizado en la configuración de tu negocio y al menos un registro ALIAS, ANAME o A con tu proveedor de DNS.
+Por ejemplo, si en lugar de utilizar el subdominio `shop.mysite.com` para Enlaces Cortos, deseas usar el dominio ápice `mysite.com`, debes crear un registro ALIAS, ANAME o A que apunte `mysite.com` a `hello.link`.
+Para obtener más información sobre cómo crear el registro correcto, consulta la documentación de tu proveedor de DNS.
+
 <div class="note">
     Nota: Los cambios de DNS pueden tardar hasta 24 horas en propagarse.
 </div>
 
 Después de configurar el alias en Hellotext, Hellotext comenzará a usar el alias configurado cuando se haya verificado.
-que el alias esté configurado correctamente en su proveedor de DNS y pueda recibir llamadas. Una vez que verifiquemos que el alias
-apunta con éxito a `hello.link`, comenzaremos a usar el alias para enlaces cortos. Hellotext solo comenzará a usar el alias
-una vez que se verifica el alias, podrá saber con seguridad que los enlaces cortos enviados a sus clientes se pueden abrir.
+que el alias esté configurado correctamente en su proveedor de DNS y pueda recibir llamadas.
 
 ## Verificar el alias
 
