@@ -46,7 +46,7 @@ For more information about how to create the correct record, see your DNS provid
 After you configure the alias on Hellotext, Hellotext will start using the configured alias when it has verified 
 that the alias is configured correctly on your DNS provider and can receive calls.
 
-## Verification Process
+## <a id='verification' href='#verification' class='navigator'>Verification Process</a>
 
 Hellotext attempts to verify the alias by pinging it every 5 minutes. 
 Once the ping is successfully, this means the the ping has traveled from Hellotext to your DNS provider and back to Hellotext.

@@ -387,3 +387,7 @@ footer > .container {
 .note {
   @apply bg-night-10 rounded-lg p-4;
 }
+
+.navigator {
+  @apply focus:outline-none outline-none;
+}
