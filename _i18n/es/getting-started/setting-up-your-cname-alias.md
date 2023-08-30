@@ -43,6 +43,13 @@ que el alias esté configurado correctamente en su proveedor de DNS y pueda reci
 apunta con éxito a `hello.link`, comenzaremos a usar el alias para enlaces cortos. Hellotext solo comenzará a usar el alias
 una vez que se verifica el alias, podrá saber con seguridad que los enlaces cortos enviados a sus clientes se pueden abrir.
 
+## Verificar el alias
+
+Hellotext intenta verificar el alias haciéndole ping cada 5 minutos.
+Una vez que el ping se realiza con éxito, esto significa que el ping ha viajado desde Hellotext hasta tu proveedor de DNS y ha vuelto a Hellotext.
+Esto indica que el alias está configurado correctamente y Hellotext comenzará a usar el alias para enlaces cortos en ese momento.
+Cuando actualices el alias, Hellotext iniciará nuevamente el proceso de verificación
+
 ## Notas sobre cómo cambiar el alias
 
 Los alias se utilizan en los mensajes enviados a los clientes; después de configurar el alias en un dominio específico, debes tener cuidado al cambiarlo nuevamente.

@@ -41,6 +41,13 @@ that the alias is configured correctly on your DNS provider and can receive call
 successfully points to `hello.link`, we will start using the alias for Short Links. Hellotext will only start using the alias
 once the alias is verified, so you can safely know that Short Links sent to your customers can be opened.
 
+## Verification Process
+
+Hellotext attempts to verify the alias by pinging it every 5 minutes. 
+Once the ping is successfully, this means the the ping has traveled from Hellotext to your DNS provider and back to Hellotext.
+This means that the alias is configured correctly and Hellotext will start using the alias for Short Links at that point.
+When you update the alias, Hellotext will start the verification process again.
+
 ## Notes on Changing the Alias
 
 Aliases are used in messages sent to customers, after setting the alias to a specific domain, you should be careful when changing it again.
