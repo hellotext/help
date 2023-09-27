@@ -2,7 +2,7 @@
 
 <div class="note">
     Nota: El alias de enlace corto es parte de la función <i>White Label</i>.
-    Consulta nuestros <a href="https://www.hellotext.com/pricing" class="active" target="_blank">Precios</a> para obtener más información.
+    Consulta nuestros <a href="https://www.hellotext.com/es/pricing" class="active" target="_blank">Precios</a> para obtener más información.
 </div>
 
 Hellotext genera enlaces cortos que se utilizan para recopilar información del cliente y realizar un seguimiento de su actividad en su sitio.
