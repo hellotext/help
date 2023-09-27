@@ -84,42 +84,42 @@
 
 @font-face {
   font-family: "GT Walsheim";
-  src: url("../fonts/GT-Walsheim-Regular.woff2");  
+  src: url("../fonts/GT-Walsheim-Regular.woff2");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "GT Walsheim";
-  src: url("../fonts/GT-Walsheim-Regular-Oblique.woff2");  
+  src: url("../fonts/GT-Walsheim-Regular-Oblique.woff2");
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
   font-family: "GT Walsheim";
-  src: url("../fonts/GT-Walsheim-Medium.woff2");  
+  src: url("../fonts/GT-Walsheim-Medium.woff2");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "GT Walsheim";
-  src: url("../fonts/GT-Walsheim-Medium-Oblique.woff2");  
+  src: url("../fonts/GT-Walsheim-Medium-Oblique.woff2");
   font-weight: 500;
   font-style: italic;
 }
 
 @font-face {
   font-family: "GT Walsheim";
-  src: url("../fonts/GT-Walsheim-Bold.woff2");  
+  src: url("../fonts/GT-Walsheim-Bold.woff2");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: "GT Walsheim";
-  src: url("../fonts/GT-Walsheim-Bold-Oblique.woff2");  
+  src: url("../fonts/GT-Walsheim-Bold-Oblique.woff2");
   font-weight: bold;
   font-style: italic;
 }
@@ -149,14 +149,14 @@ body {
   margin: 0;
 }
 
-body > header { 
+body > header {
   @apply bg-lavender;
 
   &.main {
     background-image: url("/images/smile.svg");
     background-repeat: no-repeat;
     background-position: bottom center;
-    background-size: 900px;  
+    background-size: 900px;
   }
 
   nav {
@@ -176,13 +176,13 @@ body > header {
     background-repeat: no-repeat;
   }
 
-  .search-input.large {            
+  .search-input.large {
     @apply text-xl py-6 pr-6 pl-20 rounded-xl w-full !mt-6;
     background-size: 24px;
     background-position: 36px center;
     max-width: 768px;
   }
-  
+
 }
 
 body > header .container {
@@ -230,7 +230,7 @@ h4 {
 
 .button-tiger {
   @apply default-button bg-tiger;
-  color: white;  
+  color: white;
 }
 
 .button-blush {
@@ -295,7 +295,7 @@ h4 {
 .popular-guides-container .popular-guide .guide-topic {
   @apply text-[13px] text-night-60 uppercase font-medium;
 }
-  
+
 .popular-guides-container .popular-guide .guide-title {
   @apply font-medium text-lg;
 }
@@ -307,7 +307,7 @@ h4 {
   .content-item {
     @apply text-center;
   }
-  
+
   .content-item p {
     @apply w-10/12 m-auto;
   }
@@ -367,7 +367,7 @@ h4 {
 
 /* Footer */
 
-footer > .container { 
+footer > .container {
   @apply flex
 }
 
@@ -382,4 +382,12 @@ footer > .container {
 .avatar-icon {
   @apply rounded-full ;
   display: inline-block;
+}
+
+.note {
+  @apply bg-night-10 rounded-lg p-4;
+}
+
+.navigator {
+  @apply focus:outline-none outline-none;
 }

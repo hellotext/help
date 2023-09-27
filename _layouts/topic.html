@@ -20,7 +20,7 @@
           </div>
           <h1 class="big-title">{{ site.translations[site.lang][page.permalink].title }}</h1>
         </header>
-        
+
         <div class="container-guides">
           {% assign topics = site[page.permalink] | where: "languages", site.lang %}
           {% for guide in topics %}

@@ -20,10 +20,10 @@
               {% assign guides = site[page.topic] | where: "languages", site.lang %}
               {% for guide in guides %}
                 <p><a href="{{ site.baseurl }}{{ guide.url }}" class="nav-guide {% if guide.title == page.title %}active{% endif %}">{{ guide[site.lang].title }}</a></p>
-              {% endfor %}  
-            </div>        
+              {% endfor %}
+            </div>
           {% endif %}
-        {% endfor %}      
+        {% endfor %}
       </aside>
       <section>
         <header class="header-guide">
@@ -40,11 +40,11 @@
 
         <article>
           {{ content }}
-        </article>     
+        </article>
         <article class="guide-contact-us">
           <h3>{% t havent_found_your_answer %}</h3>
           <a href="https://www.hellotext.com/contact/" class="button-blush" target="_blank">{% t contact_us %}</a>
-        </article>   
+        </article>
       </section>
     </div>
     {% include footer.html %}
