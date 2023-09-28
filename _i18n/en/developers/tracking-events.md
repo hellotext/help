@@ -12,6 +12,7 @@ For example, examples of actions are:
 
 ### Cart actions
 
+* `cart.abandoned` A cart was abandoned.
 * `cart.added` Added an item to the cart.
 * `cart.removed` Removed an item from the cart.
 
@@ -20,7 +21,8 @@ For example, examples of actions are:
 * `order.placed` Order has been placed.
 * `order.confirmed` Order has been confirmed by you.
 * `order.cancelled` Order has been cancelled either by you or your customer.
-* `order.shipped` Order has been shipped to your customer. 
+* `order.shipped` Order has been shipped to your customer.
+* `order.delivered` Order has been delivered to your customer.
 
 ### Product actions
 
