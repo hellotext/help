@@ -13,7 +13,7 @@ permalink_es: seguimiento-de-clientes-no-identificados
 
 layout: guide
 topic: developers
-popular: true
+popular: false
 ---
 
 {% translate_file developers/tracking-unidentified-customers.md %}

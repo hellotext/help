@@ -2,18 +2,18 @@
 languages: ["en", "es"]
 
 en:
-  title: Alias Short Link CNAME
-  description: This guide will help you to set up Short Link aliasing.
+  title: Setting up a custom domain for short links
+  description: This guide will help you to set up a custom domain to use on your short links.
 es:
-  title: Alias CNAME para enlaces cortos
-  description: Esta guía te ayudará a configurar un alias para enlaces cortos.
+  title: Configurar dominio personalizado para enlaces cortos
+  description: Esta guía te ayudará a configurar tu propio dominio para los enlaces cortos.
 
-permalink: setting-up-shortlink-alias
-permalink_es: configurando-alias-para-enlaces-cortos
+permalink: setting-up-custom-shortlink-domain
+permalink_es: configurando-dominio-para-enlaces-cortos
 
 layout: guide
 topic: getting-started
-popular: true
+popular: false
 ---
 
 {% translate_file getting-started/setting-up-your-cname-alias.md %}

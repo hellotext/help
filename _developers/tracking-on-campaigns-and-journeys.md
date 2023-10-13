@@ -13,7 +13,7 @@ permalink_es: seguimiento-en-campañas-y-rutas
 
 layout: guide
 topic: developers
-popular: true
+popular: false
 ---
 
 {% translate_file developers/tracking-on-campaigns-and-journeys.md %}

@@ -13,7 +13,7 @@ permalink_es: listas
 
 layout: guide
 topic: audience
-popular: true
+popular: false
 ---
 
 {% translate_file audience/lists.md %}

@@ -13,7 +13,7 @@ permalink_es: explicacion-de-tarifas
 
 layout: guide
 topic: billing
-popular: false
+popular: true
 ---
 
 {% translate_file billing/how-pricing-works.md %}
