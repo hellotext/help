@@ -13,7 +13,7 @@ Here's a what you should see. Make sure to select your preferred marketing metho
 
 ## Wix
 
-### Setps
+### Steps
 - Go to [Wix Sites](https://manage.wix.com/studio/sites).
 - Select the Site you want to update.
 - Click on "Settings" in the side bar.
