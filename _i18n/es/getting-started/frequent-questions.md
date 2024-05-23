@@ -106,9 +106,9 @@ Esto te permite crear comunicaciones altamente relevantes que resuenan con tus c
 
 ---
 
-**¿Existe un límite en la cantidad de Conversiones o mensajes que puedo enviar con Hellotext?**
+**¿Existe un límite en la cantidad de mensajes que puedo enviar con Hellotext?**
 
-No hay límites fijos en la cantidad de Conversiones o mensajes que puedes enviar con Hellotext.
+No hay límites fijos en la cantidad de mensajes que puedes enviar con Hellotext.
 
 Las cantidades específicas dependen del plan elegido y sus respectivos créditos.
 
