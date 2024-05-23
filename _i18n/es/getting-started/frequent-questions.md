@@ -90,19 +90,9 @@ SMS internacionales = 1 crédito
 
 Conversaciones de Marketing de WhatsApp* = 2 créditos
 
-Conversión** = 6 créditos
-
 \* Sigue los criterios de WhatsApp Business: las conversaciones son sesiones de mensajes de 24 horas entre tu y tus clientes. Se abren cuando se envían y entregan mensajes de formulario de plantilla. Las conversaciones de servicio siguen los criterios de "Conversaciones en periodo gratuito".
 
 ** Una conversión comprende una acción deseada, específica y rastreable, directamente relacionada y en respuesta a llamadas a la acción definidas, como una venta, cobrar una oferta promocional o canjear cupones, ya sea a través de conversaciones de SMS o WhatsApp o campañas en línea y fuera de línea. Son contabilizadas una vez que la interacción deriva en una conversión.
-
----
-
-**¿Qué es considerado una Conversión?**
-
-Las conversiones se refieren a acciones específicas y rastreables en respuesta a CTA definidas, como lograr una venta, cobrar una oferta promocional o un canje, ya sea a través de conversaciones por SMS o WhatsApp o campañas en línea y fuera de línea.
-
-Hellotext permite rasterear y medir estos Engagements, lo que brinda información valiosa sobre las preferencias, el comportamiento del cliente y la efectividad de la campaña.
 
 ---
 
