@@ -100,9 +100,9 @@ This allows you to create highly targeted and relevant communications that reson
 
 ---
 
-**Is there a limit to the number of conversions I can achieve or messages I can send with Hellotext?**
+**Is there a limit to the number of messages I can send with Hellotext?**
 
-There are no fixed limits on the number of conversions you can achieve or messages you can send with Hellotext.
+There are no fixed limits on the number of messages you can send with Hellotext.
 
 The specific amounts depend on the plan and credit pool you choose.
 
