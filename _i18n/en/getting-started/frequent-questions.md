@@ -84,19 +84,9 @@ International SMS = 1 credit
 
 WhatsApp Conversations* = 2 credits
 
-Conversion** = 6 credits
-
 \* Follows WhatsApp Business criteria: Conversations are 24-hour message threads between you and your customers. They are opened when Template form messages are sent and delivered. Service Conversations follow the "Free Tier Conversations" criteria.
 
 \** Conversions comprise a desired specific and traceable action directly related and in response to defined Call to actions, such as a Sale, cashing in a promo offer or redeeming coupons whether it is through SMS or WhatsApp conversations or online and offline campaigns. These are tallied once the interaction turns into a conversion.
-
----
-
-**What is defined as Conversion?**
-
-Conversions refer to traceable specific actions in response to defined Call to Actions, such as a Sale, cashing in a promo offer or redeeming coupons whether it is through SMS or WhatsApp conversations or online and offline campaigns.
-
-Hellotext enables you to track and measure these engagements, providing valuable insights into customer preferences, behavior, and campaign effectiveness.
 
 ---
 
