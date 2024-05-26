@@ -144,11 +144,11 @@ body > header {
   @apply bg-night text-white;
 
   &.main {
+    @apply bg-position-y-[75px] lg:bg-position-y-[150px]
     background-image: url("/images/smile.svg");
     background-repeat: no-repeat;
     background-position-x: center;
     background-size: 2000px;
-    background-position-y: calc(100% + 300px)
   }
 
   nav {
