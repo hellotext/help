@@ -140,6 +140,10 @@
   @apply antialiased;
 }
 
+.container section article a {
+  @apply text-tiger;
+}
+
 a.active {
   @apply text-tiger;
 }

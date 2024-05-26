@@ -1,4 +1,0 @@
-#!/usr/bin/env ruby
-
-port = ARGV[0] || 4000
-system("bundle exec jekyll serve --port #{port} --livereload")
