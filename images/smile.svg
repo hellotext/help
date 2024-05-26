@@ -4,18 +4,18 @@
     <style>
         /* sRGB color. */
         :root {
-            --tiger: rgb(255, 76, 0);
+            --lavender: rgb(217, 197, 255);
         }
 
         /* Display-P3 color, when supported. */
         @supports (color: color(display-p3)) {
         :root {
-            --tiger: color(display-P3 0.9882 0.3646 0.0000);
+            --lavender: color(display-p3 0.8504 0.7714 1);
         }
         }
 
         .brand g {
-            color: var(--tiger);
+            color: var(--lavender);
         }
     </style>
     <g id="All-Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">

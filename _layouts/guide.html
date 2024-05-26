@@ -15,15 +15,20 @@
       <aside>
         {% assign topics = site.topics | where: "languages", site.lang %}
         {% for topic in topics %}
-          <p><a href="{{ site.baseurl }}{{ topic.url }}" class="nav-topic">{% t {{ topic.permalink }}.title %}</a></p>
-          {% if topic.permalink == page.topic %}
-            <div class="nav-guide">
-              {% assign guides = site[page.topic] | where: "languages", site.lang %}
-              {% for guide in guides %}
-                <p><a href="{{ site.baseurl }}{{ guide.url }}" class="nav-guide {% if guide.title == page.title %}active{% endif %}">{{ guide[site.lang].title }}</a></p>
-              {% endfor %}
+          <div class="container-guide-category-container">
+            <div class="container-guide-category">
+              <a href="{{ site.baseurl }}{{ topic.url }}"><img src="/images/icons/categories/{{ topic.permalink }}.svg" width="28" height="28" /></a>
+              <a href="{{ site.baseurl }}{{ topic.url }}" class="nav-topic">{% t {{ topic.permalink }}.title %}</a>
             </div>
-          {% endif %}
+            {% if topic.permalink == page.topic %}
+              <div class="nav-guide">
+                {% assign guides = site[page.topic] | where: "languages", site.lang %}
+                {% for guide in guides %}
+                  <p><a href="{{ site.baseurl }}{{ guide.url }}" class="{% if guide.title == page.title %}active{% endif %}">{{ guide[site.lang].title }}</a></p>
+                {% endfor %}
+              </div>
+            {% endif %}
+          </div>
         {% endfor %}
       </aside>
       <section>
@@ -43,7 +48,7 @@
           {{ content }}
         </article>
         <article class="guide-contact-us">
-          <h3>{% t havent_found_your_answer %}</h3>
+          <h4>{% t havent_found_your_answer %}</h4>
           <a href="https://www.hellotext.com/contact/" class="button-blush" target="_blank">{% t contact_us %}</a>
         </article>
       </section>
