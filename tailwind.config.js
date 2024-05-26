@@ -5,7 +5,7 @@ module.exports = {
     "./_posts/*.md",
     "./*.html",
   ],
-  darkMode: false,
+  darkMode: "media",
   theme: {
     // customColorPalette: {
     //   utilities: {
@@ -113,16 +113,6 @@ module.exports = {
     "bg-banana-10",
     "bg-seafoam-30",
     "bg-lavender-60",
-    "hover:shadow-blush",
-    "hover:shadow-tiger-10",
-    "hover:shadow-banana-10",
-    "hover:shadow-seafoam-30",
-    "hover:shadow-lavender-60",
-    "shadow-blush",
-    "shadow-tiger-10",
-    "shadow-banana-10",
-    "shadow-seafoam-30",
-    "shadow-lavender-60",
     "border-lavender",
     "border-tiger-40",
     "border-banana-60",
