@@ -144,7 +144,7 @@ body > header {
   @apply bg-night text-white;
 
   &.main {
-    @apply bg-position-y-[75px] lg:bg-position-y-[150px]
+    @apply bg-[center_bottom_-300px];
     background-image: url("/images/smile.svg");
     background-repeat: no-repeat;
     background-position-x: center;
