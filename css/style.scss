@@ -247,7 +247,7 @@ h4 {
 /* Home */
 
 .header-search {
-  @apply flex-col space-y-2 text-center pb-36 lg:pb-56 relative;
+  @apply flex-col space-y-2 text-center pb-32 lg:pb-44 relative lg:max-w-3xl;
 
   .header-smile {
     @apply z-0 m-auto absolute bottom-0;
