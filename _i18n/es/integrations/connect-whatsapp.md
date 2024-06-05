@@ -177,6 +177,7 @@ Haz clic en *Profile* y desde Official business account haz clic en *Submit requ
    
 Si la opción Submit request está deshabilitada, asegúrate primero de haber añadido un método de pago a tu cuenta de WhatsApp Business y de que tu empresa ya esté verificada.
 
+<a name="problemas"></a>
 ## Solución de problemas
 
 #### No puedo añadir un método de pago

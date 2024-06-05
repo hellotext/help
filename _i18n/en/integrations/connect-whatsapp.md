@@ -177,6 +177,7 @@ Click on *Profile* and from Official business account click on *Submit request* 
    
 If Submit request is disabled make sure first that you have added a payment method to your WhatsApp Business Account and you have your business already verified.
 
+<a name="troubleshooting"></a>
 ## Troubleshooting
 
 #### Can't add a payment method
