@@ -1,6 +1,14 @@
 If you have a store on the Wix platform, you can easily connect it to Hellotext.
 
-By connecting your Wix store, you will be able to track all your customers' activities, automatically creating profiles with their data and feeding them with their activities such as abandoned carts, completed orders, and more.
+By connecting your Wix store, you will be able to track all your customers' activities, automatically creating profiles with their data and feeding them with their activities.
+
+The following activities are automatically tracked:
+
+* Abandoned carts
+* Cart updates
+* Applied coupons
+* Completed orders
+* Updated orders
 
 With this information, you can create segmented audiences and much more effective promotional campaigns.
 
