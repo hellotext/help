@@ -10,7 +10,7 @@ One way to obtain their consent is through the subscription acceptance checkbox 
 
 To do this, you can activate the subscription acceptance checkbox on the Wix purchase form.
 
-Visit the [management panel](https://manage.wix.com/studio/sites) of your Wix sites and select the site you want to update.
+Visit the **[management panel](https://manage.wix.com/studio/sites)** of your Wix sites and select the site you want to update.
 
 From the left menu, go to the *Settings* section and then click on the first option, *Checkout*.
 

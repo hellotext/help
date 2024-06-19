@@ -10,7 +10,7 @@ Una manera de obtener su consentimiento es mediante la casilla de aceptación de
 
 Para ello, puedes activar la casilla de aceptación de suscripción en el formulario de compra de Wix. 
 
-Visita el [panel de gestión](https://manage.wix.com/studio/sites) de tus sitios en Wix y selecciona el sitio que deseas actualizar.
+Visita el **[panel de gestión](https://manage.wix.com/studio/sites)** de tus sitios en Wix y selecciona el sitio que deseas actualizar.
 
 Desde el menú de la izquierda, visita la sección de *Ajustes* y luego haz clic en la primera opción, *Página de pago*.
 
