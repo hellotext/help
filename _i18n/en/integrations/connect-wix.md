@@ -51,3 +51,5 @@ From now on, you will start seeing your customers' activities reflected in the A
 You can click on each profile to see the activity history they perform on your eCommerce site.
 
 With this information, you can create segments for campaign sending and automations from the Routes section.
+
+Remember to enable the **[Subscription opt-in checkbox on the checkout page](/wix-checkout)** on your Wix site to obtain your customers' consent to receive promotions.

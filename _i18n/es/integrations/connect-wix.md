@@ -51,3 +51,5 @@ A partir de ahora, comenzarás a ver reflejada la actividad de tus clientes desd
 Podrás hacer clic en cada perfil para ver el historial de actividades que realizan en tu eCommerce.
 
 Con esta información, podrás crear segmentos para el envío de campañas y automatizaciones desde la sección Rutas.
+
+Recuerda activar la **[Casilla de aceptación de suscripción en el formulario de compra](/es/wix-checkout)** de tu sitio Wix para obtener el consentimiento de tus clientes para recibir promociones.
