@@ -1,14 +1,16 @@
 ---
 layout: default
 ---
-<h2>{% t browse_our_guides %}</h2>
+<h3>{% t browse_our_guides %}</h3>
 
 <div class="topic-container">
   {% assign topics = site.topics | where: "languages", site.lang %}
   {% for topic in topics %}
-    <a href="{{ site.baseurl }}{{ topic.url }}" class="content-item">
-      <h2>{% t {{ topic.permalink }}.title %}</h2>
+    <a href="{{ site.baseurl }}{{ topic.url }}" class="content-item bg-{{topic.bg}} {{topic.bg}} hover:border-{{topic.border}} ">
+      <img src="/images/icons/categories/{{ topic.permalink }}.svg" width="60" height="60" class="guide-topic-icon" />
+      <div class="topic-title">{% t {{ topic.permalink }}.title %}</div>
       <p>{% t {{ topic.permalink }}.description %}</p>
+      <img src="/images/icons/arrow-right.svg" width="10" />
     </a>
   {% endfor %}
 </div>

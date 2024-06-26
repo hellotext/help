@@ -5,8 +5,11 @@
     <title>{% t help_center %} | Hellotext</title>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="icon" type="image/x-icon" href="images/brand-favicon.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% include gtm_head.html %}
   </head>
   <body>
+    {% include gtm_body.html %}
     <header class="main">
       {% include header.html %}
       <div class="container header-search">
@@ -20,14 +23,20 @@
       <div class="popular-guides-wrapper">
         <div class="popular-guides-container">
           <div class="container">
-            <h2>{% t popular_articles %}</h2>
+            <h3>{% t popular_articles %}</h3>
             {% assign guides = site.documents | where: "popular", true | where: "languages", site.lang %}
             <div class="popular-guides">
               {% for guide in guides limit:6 %}
                 <div class="popular-guide">
                   {% assign topic = site.topics | where: "permalink", guide.topic | first %}
-                  <div class="guide-topic">{% t {{ topic.permalink }}.title %}</div>
+                  <div class="guide-topic-container">
+                    <a href="{{ site.baseurl }}{{ topic.url }}"><img src="/images/icons/categories/{{ guide.topic }}.svg" width="28" height="28" /></a>
+                    <div class="guide-topic">
+                      <a href="{{ site.baseurl }}{{ topic.url }}">{% t {{ topic.permalink }}.title %}</a>
+                    </div>
+                  </div>
                   <a class="guide-title" href="{{ site.baseurl }}{{guide.url}}">{{ guide[site.lang].title }}</a>
+                  <div class="guide-description">{{ guide[site.lang].description }}</div>
                 </div>
               {% endfor %}
             </div>

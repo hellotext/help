@@ -5,8 +5,11 @@
     <title>{{ site.translations[site.lang][page.permalink].title }} | Hellotext</title>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="icon" type="image/x-icon" href="images/brand-favicon.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% include gtm_head.html %}
   </head>
   <body>
+    {% include gtm_body.html %}
     <header>
       {% include header.html %}
     </header>
@@ -18,15 +21,19 @@
             <div><img src="/images/icons/right.svg" width="22" height="22" /></div>
             <div>{{ site.translations[site.lang][page.permalink].title }}</div>
           </div>
-          <h1 class="big-title">{{ site.translations[site.lang][page.permalink].title }}</h1>
+          <div class="header-topic-title">
+            <img src="/images/icons/categories/{{ page.permalink }}.svg" width="60" height="60" class="guide-topic-icon" />
+            <h1 class="big-title">{{ site.translations[site.lang][page.permalink].title }}</h1>
+          </div>
         </header>
 
         <div class="container-guides">
           {% assign topics = site[page.permalink] | where: "languages", site.lang %}
           {% for guide in topics %}
             <a href="{{ site.baseurl }}{{ guide.url }}" class="content-item">
-              <h2>{{ guide[site.lang].title }}</h2>
+              <h4>{{ guide[site.lang].title }}</h4>
               <p>{{ guide[site.lang].description }}</p>
+              <img src="/images/icons/arrow-right.svg" width="10" />
             </a>
           {% endfor %}
         </div>

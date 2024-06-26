@@ -7,6 +7,7 @@
 /* sRGB color. */
 :root {
   --banana: rgb(255, 237, 20);
+  --banana-10: rgb(255, 253, 231);
   --banana-20: rgb(255, 251, 208);
   --banana-40: rgb(255, 248, 161);
   --banana-60: rgb(255, 244, 114);
@@ -22,6 +23,7 @@
   --indigo-60: rgb(153, 108, 205);
   --indigo-80: rgb(119, 59, 188);
   --lavender: rgb(221, 196, 255);
+  --lavender-60: rgb(245, 240, 255);
   --lavender-light: rgb(240, 229, 255);
   --night: rgb(23, 3, 55);
   --night-5: rgb(243, 242, 245);
@@ -32,10 +34,12 @@
   --night-80: rgb(67, 54, 93);
   --seafoam: rgb(165, 255, 163);
   --seafoam-20: rgb(237, 255, 237);
+  --seafoam-30: rgb(228, 255, 227);
   --seafoam-40: rgb(219, 255, 218);
   --seafoam-60: rgb(201, 255, 200);
   --seafoam-80: rgb(183, 255, 181);
   --tiger: rgb(255, 76, 0);
+  --tiger-10: rgb(255, 239, 229);
   --tiger-20: rgb(255, 223, 204);
   --tiger-40: rgb(254, 190, 153);
   --tiger-60: rgb(254, 158, 102);
@@ -43,9 +47,10 @@
 }
 
 /* Display-P3 color, when supported. */
-@supports (color: color(display-p3)) {
+@supports (color: color(display-p3 1 1 1)) {
   :root {
     --banana: color(display-p3 1.0000 0.9294 0.0784);
+    --banana-10: color(display-p3 1 0.9922 0.9059);
     --banana-20: color(display-p3 1.0000 0.9843 0.8157);
     --banana-40: color(display-p3 1.0000 0.9725 0.6314);
     --banana-60: color(display-p3 1.0000 0.9569 0.4471);
@@ -61,6 +66,7 @@
     --indigo-60: color(display-p3 0.6000 0.4235 0.8039);
     --indigo-80: color(display-p3 0.4667 0.2314 0.7373);
     --lavender: color(display-P3 0.8510 0.7726 1.0000);
+    --lavender-60: color(display-P3 0.9608 0.9412 1);
     --lavender-light: color(display-P3 0.9333 0.8980 1.0000);
     --night: color(display-P3 0.0784 0.0157 0.2039);
     --night-5: color(display-P3 0.9529 0.9490 0.9608);
@@ -71,10 +77,12 @@
     --night-80: color(display-P3 0.2627 0.2118 0.3647);
     --seafoam: color(display-P3 0.6471 1.0000 0.6392);
     --seafoam-20: color(display-P3 0.9294 1.0000 0.9294);
+    --seafoam-30: color(display-P3 0.8941 1 0.8902);
     --seafoam-40: color(display-P3 0.8588 1.0000 0.8549);
     --seafoam-60: color(display-P3 0.7882 1.0000 0.7843);
     --seafoam-80: color(display-P3 0.7176 1.0000 0.7098);
     --tiger: color(display-P3 0.9882 0.3646 0.0000);
+    --tiger-10: color(display-P3 1 0.9373 0.898);
     --tiger-20: color(display-P3 1.0000 0.8745 0.8000);
     --tiger-40: color(display-P3 0.9961 0.7451 0.6000);
     --tiger-60: color(display-P3 0.9961 0.6196 0.4000);
@@ -83,45 +91,24 @@
 }
 
 @font-face {
-  font-family: "GT Walsheim";
-  src: url("../fonts/GT-Walsheim-Regular.woff2");
+  font-family: "Object Sans";
+  src: url("../fonts/PPObjectSans-Regular.woff2");  
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "GT Walsheim";
-  src: url("../fonts/GT-Walsheim-Regular-Oblique.woff2");
-  font-weight: 400;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "GT Walsheim";
-  src: url("../fonts/GT-Walsheim-Medium.woff2");
+  font-family: "Object Sans";
+  src: url("../fonts/PPObjectSans-Medium.woff2");  
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "GT Walsheim";
-  src: url("../fonts/GT-Walsheim-Medium-Oblique.woff2");
-  font-weight: 500;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "GT Walsheim";
-  src: url("../fonts/GT-Walsheim-Bold.woff2");
-  font-weight: bold;
+  font-family: "Object Sans";
+  src: url("../fonts/PPObjectSans-Medium.woff2");  
+  font-weight: 600;
   font-style: normal;
-}
-
-@font-face {
-  font-family: "GT Walsheim";
-  src: url("../fonts/GT-Walsheim-Bold-Oblique.woff2");
-  font-weight: bold;
-  font-style: italic;
 }
 
 @layer base {
@@ -140,7 +127,7 @@
   @apply antialiased;
 }
 
-.container section article a {
+.container section article a:not(.button-blush) {
   @apply text-tiger;
 }
 
@@ -149,18 +136,19 @@ a.active {
 }
 
 body {
-  font-family: "GT Walsheim", "system-ui", "-apple-system", "Helvetica", "Arial", "sans-serif";
+  font-family: "Object Sans", "system-ui", "-apple-system", "Helvetica", "Arial", "sans-serif";
   margin: 0;
 }
 
 body > header {
-  @apply bg-lavender;
+  @apply bg-night text-white;
 
   &.main {
+    @apply bg-[center_bottom_-300px];
     background-image: url("/images/smile.svg");
     background-repeat: no-repeat;
-    background-position: bottom center;
-    background-size: 900px;
+    background-position-x: center;
+    background-size: 2000px;
   }
 
   nav {
@@ -168,7 +156,7 @@ body > header {
   }
 
   .container-input {
-    @apply w-full z-10 h-24;
+    @apply w-full z-10;
   }
 
   .search-input {
@@ -198,23 +186,23 @@ section > .container {
 }
 
 h1 {
-  @apply text-4xl font-bold tracking-tight;
+  @apply text-4xl lg:text-7xl font-medium tracking-tighter;
 }
 
 h1.big-title {
-  @apply text-6xl font-bold tracking-tight;
+  @apply text-5xl lg:text-7xl font-medium tracking-tighter;
 }
 
 h2 {
-  @apply text-2xl font-bold tracking-tight;
+  @apply text-3xl lg:text-6xl font-medium tracking-tighter;
 }
 
 h3 {
-  @apply text-xl font-medium;
+  @apply text-3xl lg:text-5xl font-medium tracking-tighter mb-10 lg:mb-16;
 }
 
 h4 {
-  @apply text-lg font-medium;
+  @apply text-2xl lg:text-4xl font-medium tracking-tighter;
 }
 
 .brand-container {
@@ -222,13 +210,12 @@ h4 {
 }
 
 .container {
-  @apply py-10 px-5 mx-auto w-11/12;
+  @apply py-10 lg:px-5 mx-auto w-11/12;
   max-width: 1200px;
 }
 
 .default-button {
   @apply py-2.5 px-6 hover:opacity-80 rounded-full font-medium;
-
   text-decoration: none;
 }
 
@@ -238,23 +225,19 @@ h4 {
 }
 
 .button-blush {
-  @apply default-button bg-blush;
-}
-
-.content-item {
-  @apply border rounded-xl p-8 space-y-1 block;
-}
-
-.content-item p {
-  @apply text-night-60;
+  @apply default-button bg-blush text-night;
 }
 
 .breadcrumb {
-  @apply text-night-60 flex items-center space-x-0.5;
+  @apply text-night-60 flex items-center space-x-0.5 border-b w-full pb-6;
 }
 
 .header-topic {
-  @apply flex flex-col items-center space-y-3;
+  @apply flex flex-col space-y-8 mt-8  mb-12 lg:mb-20;
+}
+
+.header-topic-title {
+  @apply flex space-x-6 items-center;
 }
 
 .header-guide {
@@ -264,7 +247,7 @@ h4 {
 /* Home */
 
 .header-search {
-  @apply flex-col space-y-2 text-center pb-56 relative;
+  @apply flex-col space-y-2 text-center pb-32 lg:pb-44 relative lg:max-w-3xl;
 
   .header-smile {
     @apply z-0 m-auto absolute bottom-0;
@@ -275,73 +258,164 @@ h4 {
   }
 }
 
+section > .container {
+  @apply pt-0 lg:pt-4;
+}
+
 .popular-guides-wrapper {
-  @apply mx-6 relative z-10;
+  @apply relative z-10;
 }
 
 .popular-guides-container {
-  @apply border rounded-xl py-5 -mt-32 mb-12 max-w-[1300px] mx-auto;
+  @apply  rounded-xl mt-2 max-w-[1300px] mx-auto lg:mt-4;
   background-color: white;
 }
 
-.popular-guides-container .container {
-  @apply space-y-8;
-}
-
 .popular-guides-container .popular-guides {
-  @apply gap-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3;
+  @apply gap-8 grid grid-cols-1 lg:grid-cols-2;
 }
 
 .popular-guides-container .popular-guide {
-  @apply border-r;
+  @apply border-b space-y-2 pb-8;
+}
+
+.popular-guides-container .guide-topic-container {
+  @apply flex items-center space-x-2 pb-4;
 }
 
 .popular-guides-container .popular-guide .guide-topic {
-  @apply text-[13px] text-night-60 uppercase font-medium;
+  @apply text-sm text-night-60 hover:opacity-90 uppercase font-medium;
 }
 
 .popular-guides-container .popular-guide .guide-title {
-  @apply font-medium text-lg;
+  @apply font-medium text-lg lg:text-2xl hover:text-tiger tracking-tight;
+}
+
+.popular-guides-container .popular-guide .guide-description {
+  @apply text-night-40 w-10/12 text-balance;
+}
+
+.content-item {
+  @apply text-left transition space-y-3 border rounded-xl p-8 block;
+
+  &.seafoam-30:hover {
+    @apply hover:shadow-seafoam-30;
+  }
+
+  &.tiger-10:hover {
+    @apply hover:shadow-tiger-10;
+  }
+
+  &.lavender-60:hover {
+    @apply hover:shadow-lavender-60;
+  }
+
+  &.banana-10:hover {
+    @apply hover:shadow-banana-10;
+  }
+
+  &:hover {
+    @apply hover:shadow-lg;
+  }
 }
 
 
 .topic-container {
-  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12 w-full;
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full;
 
   .content-item {
-    @apply text-center;
+    @apply border-transparent;
   }
 
   .content-item p {
-    @apply w-10/12 m-auto;
+    @apply w-10/12 text-balance text-night-60;
+  }
+  .guide-topic-icon {
+    @apply mb-12;
+  }
+
+  .topic-title {
+    @apply text-lg lg:text-2xl font-medium tracking-tight;
   }
 }
 
 /* Guide List */
 
 .container-guides {
-  @apply max-w-[768px] m-auto space-y-8;
+  @apply max-w-full m-auto grid lg:grid-cols-2 gap-8;
+
+  .content-item {
+
+    h4 {
+      @apply lg:mt-16;
+    }
+
+    p {
+      @apply text-lg;
+    }
+
+    &:hover {
+      @apply border-tiger-40 shadow-tiger-10;
+      h4 {
+        @apply text-tiger;
+      }
+    }
+  }
+
 }
+
 
 /* Guide */
 
 .container-guide {
-  @apply flex space-x-10;
+  @apply flex lg:gap-x-20 mt-4;
 
   aside {
-    @apply hidden w-3/12 md:block space-y-6;
+    @apply hidden w-3/12 lg:block space-y-6;
 
-    a {
-      @apply font-medium text-lg;
+    .container-guide-category-container {
+      @apply border-b pb-5 space-y-6;
+    }
+
+    .container-guide-category {
+      @apply flex items-center space-x-2;
+
+      & > a {
+        @apply font-medium text-lg hover:text-night-80;
+      }
     }
 
     .nav-guide {
-      @apply ml-3 space-y-6;
+      @apply ml-4 space-y-4;
+
+      a {
+        @apply hover:text-night-80;
+      }
+
+      a.active {
+        @apply hover:text-tiger-80 font-medium;
+      }
     }
   }
 
   section {
-    @apply grow space-y-8 w-9/12;
+    @apply grow space-y-8 lg:w-9/12;
+
+    h1 {
+      @apply lg:text-6xl pt-8;
+    }
+
+    h2 {
+      @apply lg:text-4xl pt-8 pb-1;
+    }
+
+    h3 {
+      @apply lg:text-3xl pt-6 pb-1;
+    }
+
+    h4 {
+      @apply lg:text-2xl pt-4 pb-1;
+    }
 
     article {
       @apply space-y-4;
@@ -363,7 +437,7 @@ h4 {
       }
 
       &.guide-contact-us {
-        @apply border-t flex flex-col items-start pt-6;
+        @apply border-t flex flex-row w-full pt-8 pb-8 lg:pb-20 items-center justify-between;
       }
     }
   }
