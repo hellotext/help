@@ -98,7 +98,15 @@ Hellotext would simply load the contents inside the respective elements without 
 Hellotext ships Forms with a boilerplate HTML layout so that you can style them according to your preference and brand guidelines.
 Hellotext forms have bare minimum styling to ensure that they look good on any website. No colors, no borders, no padding, just the form elements with specific layouts.
 
-### JavaScript Events
+
+## Hellotext Attribution
+
+Hellotext logo is displayed at the bottom-right of the form. This is to ensure that your subscribers know that the form is powered by Hellotext, and that their data is secure and protected.
+This is part of our _White Label_ policy, it is required that this logo be displayed and kept visible on the form. Unless the package you subscribe to has the _White Label_ feature enabled.
+Please refer to our [Pricing](https://www.hellotext.com/pricing) for more information regarding available packages and the features.
+
+
+## JavaScript Events
 
 Forms rely on [Hellotext.js](https://github.com/hellotext/hellotext.js), it's required to install Hellotext.js to dynamically populate the form. The following events are dispatched by Hellotext.js
 

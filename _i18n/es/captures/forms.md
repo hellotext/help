@@ -105,7 +105,18 @@ Hellotext envía formularios con un diseño básico en HTML para que puedas esti
 de marca. Los formularios de Hellotext tienen estilos mínimos para asegurar que se vean bien en cualquier sitio web. 
 Sin colores, sin bordes, sin rellenos, solo los elementos del formulario con diseños específicos.
 
-### Eventos de JavaScript
+## Hellotext Attribution
+
+El logo de Hellotext se muestra en la esquina inferior derecha del formulario. 
+Esto asegura que tus suscriptores sepan que el formulario está impulsado por Hellotext y que sus datos están seguros y protegidos.
+
+Esto forma parte de nuestra política de "White Label". Es necesario que este logo se muestre y se mantenga visible en el 
+formulario, a menos que el paquete al que te suscribas tenga la función de "White Label" habilitada.
+
+Para más información sobre los paquetes disponibles y las características, 
+consulta nuestra [Página de Precios](https://www.hellotext.com/pricing).
+
+## Eventos de JavaScript
 
 Los formularios dependen de [Hellotext.js](https://github.com/hellotext/hellotext.js), es necesario instalar Hellotext.js para poblar dinámicamente el formulario. A continuación se describen los eventos despachados por Hellotext.js:
 
