@@ -392,6 +392,15 @@ footer > .container {
   @apply bg-night-10 rounded-lg p-4;
 }
 
+.note--lavender-light {
+  @apply bg-lavender-light p-4 rounded-lg flex items-center space-x-2;
+}
+
 .navigator {
   @apply focus:outline-none outline-none;
+}
+
+svg {
+  width: 1.2rem;
+  height: 2rem;
 }
