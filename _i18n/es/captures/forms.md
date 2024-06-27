@@ -4,11 +4,70 @@ como Nombre y Apellido, o propiedades personalizadas que has creado para tu list
 ## Crear un formulario
 
 Para crear un nuevo formulario, visita la sección de **Capturas** en el panel de control y haz clic en **Nueva Captura**. 
+
+<img src="images/captures/forms/es/new-capture-method.jpg" alt="" width="768" />
+
 De las opciones disponibles, selecciona **Formulario Web** y serás dirigido al Editor de Formularios.
+
+<img src="images/captures/forms/es/click-form.jpg" alt="" width="768" />
+
+## Entendiendo los componentes
+
+### Hero
+
+<img src="images/captures/forms/es/component-header.jpg" alt="" width="768" />
+
+El Hero es el encabezado del formulario. Es lo primero que ven tus suscriptores cuando se carga el formulario. 
+Hellotext, al cargar el formulario, busca un elemento HTML con el atributo `data-form-hero` y carga el contenido dentro de él. 
+Si no encuentra el elemento, Hellotext crea manualmente el encabezado y lo añade al principio del formulario, asegurándose de que sea el primer componente en el elemento.
+
+### Inputs
+
+<img src="images/captures/forms/es/component-inputs.jpg" alt="" width="768" />
+
+Los Inputs son los campos que tus suscriptores necesitan completar. Puedes especificar qué campos son obligatorios y cuáles no en el editor de formularios.
+En el editor de formularios, puedes agregar cualquier campo basado en una propiedad existente y controlar si el campo es obligatorio o no. Para cada Input, Hellotext genera un elemento HTML que se ve así
+
+```html
+<article>
+  <label for=":id"></label>
+  <input type=":type" id=":id" name=":name" placeholder=":placeholder" required>
+  <div data-error-container></div>
+</article>
+```
+
+Al igual que con el Hero, Hellotext busca un elemento HTML dentro del formulario con el identificador `data-form-inputs` 
+y carga los inputs dentro de él. El elemento `data-error-container` se utiliza y se muestra solo cuando el usuario intenta enviar el formulario y no ha completado campo/s obligatorio/s.
+
+### Button
+
+<img src="images/captures/forms/es/component-button.jpg" alt="" width="768" />
+
+El botón del formulario es donde se realiza la presentación del formulario. 
+Hellotext busca un elemento `button` con el atributo `data-form-button` y carga el botón dentro de él. 
+Si no encuentra el elemento, Hellotext crea manualmente el botón y lo añade al formulario después de la sección de Inputs.
+
+### Notice
+
+<img src="images/captures/forms/es/component-footer.jpg" alt="" width="768" />
+
+El Notice es el pie de página del formulario. Es lo último que verán tus suscriptores cuando se muestra el formulario. 
+Hellotext busca un elemento HTML con el atributo `data-form-notice` y carga el contenido dentro de él. 
+Si no encuentra el elemento, Hellotext crea manualmente el pie de página y lo añade al formulario después de la sección del botón.
+
+### Seguridad
+
+Hellotext previene el robo de identidad y la suplantación de otras personas mediante la Autenticación de Dos Factores (2FA). 
+Cuando un suscriptor completa el formulario, Hellotext envía un código de Contraseña de Un Solo Uso (OTP) al suscriptor. 
+Si el suscriptor ingresa su correo electrónico, se envía un correo electrónico a esa dirección; de lo contrario, se envía un SMS a su número de teléfono.
+
+Hasta que se ingrese un OTP válido, los datos no se mostrarán en el panel de control ni contribuirán al marketing de atribución. 
+Esto protege eficazmente a los clientes y a tu negocio contra bots y otros actores malintencionados.
+
 
 ## Entendiendo el código generado
 
-Después de crear tu formulario, Hellotext te dará un fragmento de código que puedes opcionalmente insertar en tu sitio web, 
+Después de crear tu formulario, Hellotext te dará un fragmento de código que puedes opcionalmente insertar en tu sitio web,
 el cual se verá como el siguiente.
 
 ```html
@@ -34,51 +93,6 @@ el cual se verá como el siguiente.
     Asegúrate de instalar <a class="active" target="_blank" href="https://github.com/hellotext/hellotext.js">Hellotext.js</a> para poblar dinámicamente el formulario.
   </p>
 </div>
-
-## Entendiendo los componentes
-
-### Hero
-
-El Hero es el encabezado del formulario. Es lo primero que ven tus suscriptores cuando se carga el formulario. 
-Hellotext, al cargar el formulario, busca un elemento HTML con el atributo `data-form-hero` y carga el contenido dentro de él. 
-Si no encuentra el elemento, Hellotext crea manualmente el encabezado y lo añade al principio del formulario, asegurándose de que sea el primer componente en el elemento.
-
-### Inputs
-
-Los Inputs son los campos que tus suscriptores necesitan completar. Puedes especificar qué campos son obligatorios y cuáles no en el editor de formularios.
-En el editor de formularios, puedes agregar cualquier campo basado en una propiedad existente y controlar si el campo es obligatorio o no. Para cada Input, Hellotext genera un elemento HTML que se ve así
-
-```html
-<article>
-  <label for=":id"></label>
-  <input type=":type" id=":id" name=":name" placeholder=":placeholder" required>
-  <div data-error-container></div>
-</article>
-```
-
-Al igual que con el Hero, Hellotext busca un elemento HTML dentro del formulario con el identificador `data-form-inputs` 
-y carga los inputs dentro de él. El elemento `data-error-container` se utiliza y se muestra solo cuando el usuario intenta enviar el formulario y no ha completado campo/s obligatorio/s.
-
-### Button
-
-El botón del formulario es donde se realiza la presentación del formulario. 
-Hellotext busca un elemento `button` con el atributo `data-form-button` y carga el botón dentro de él. 
-Si no encuentra el elemento, Hellotext crea manualmente el botón y lo añade al formulario después de la sección de Inputs.
-
-### Notice
-
-El Notice es el pie de página del formulario. Es lo último que verán tus suscriptores cuando se muestra el formulario. 
-Hellotext busca un elemento HTML con el atributo `data-form-notice` y carga el contenido dentro de él. 
-Si no encuentra el elemento, Hellotext crea manualmente el pie de página y lo añade al formulario después de la sección del botón.
-
-### Seguridad
-
-Hellotext previene el robo de identidad y la suplantación de otras personas mediante la Autenticación de Dos Factores (2FA). 
-Cuando un suscriptor completa el formulario, Hellotext envía un código de Contraseña de Un Solo Uso (OTP) al suscriptor. 
-Si el suscriptor ingresa su correo electrónico, se envía un correo electrónico a esa dirección; de lo contrario, se envía un SMS a su número de teléfono.
-
-Hasta que se ingrese un OTP válido, los datos no se mostrarán en el panel de control ni contribuirán al marketing de atribución. 
-Esto protege eficazmente a los clientes y a tu negocio contra bots y otros actores malintencionados.
 
 ### Personalización del diseño del formulario
 
