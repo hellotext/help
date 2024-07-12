@@ -54,5 +54,5 @@ To add a Link sticker
 1. Capture or upload content to your story
 2. Select the **Sticker** tool. This may be placed differently depending on which version of Instagram you're using.
 3. Tap the “Link” sticker, here you should paste the shareable link for the created Instagram Story
-4. Place the sticker on your story, do any other modifications needed.
+4. Place the sticker on your story, do any other modifications needed
 5. Publish your story
