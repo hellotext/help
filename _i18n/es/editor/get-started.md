@@ -21,5 +21,14 @@ Para eliminar el formato, selecciona el texto y haz clic en los atajos nuevament
 
 Para hacer que una sección de texto sea cursiva, selecciona la parte del texto que deseas formatear y haz clic en los atajos,
 
-- <kbd> Ctrl </kbd> + <kbd> I</kbd> en Windows
+- <kbd> Ctrl</kbd> + <kbd> I</kbd> en Windows
 - <kbd>⌘ Command</kbd> + <kbd>I</kbd> en Mac
+
+#### Enlaces
+
+Los Enlaces son creados usando el elemento de Enlace en el Editor. El elemento de Enlace es un elemento especial que te permite crear un enlace que puede ser incrustado en tu mensaje.
+El elemento de Enlace tiene el siguiente icono <img style='display: inline;'  src="{{site.url}}/images/icons/link.svg">
+y se encuentra en la barra de herramientas del Editor. Puedes abrir la herramienta de enlace a través de estos atajos,
+
+- <kbd> Ctrl</kbd> + <kbd>K</kbd> en Windows
+- <kbd>⌘ Command</kbd> + <kbd>K</kbd> en Mac

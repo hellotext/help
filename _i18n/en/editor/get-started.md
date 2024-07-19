@@ -26,7 +26,7 @@ To make a text section italic, select the piece of text you want to format, and 
 
 Links are created by using the link element in the Editor. The link element is a special element that allows you to create a link that can be embedded in your message.
 The link element has the following icon <img style='display: inline;'  src="{{site.url}}/images/icons/link.svg">
-and is located in the Editor's toolbar. You can open the click through these shortcuts,
+and is located in the Editor's toolbar. You can open the link tool through these shortcuts,
 
 - <kbd> Ctrl</kbd> + <kbd>K</kbd> on Windows
 - <kbd>⌘ Command</kbd> + <kbd>K</kbd> on Mac
