@@ -5,17 +5,17 @@ como Nombre y Apellido, o propiedades personalizadas que has creado para tu list
 
 Para crear un nuevo formulario, visita la sección de **Capturas** en el panel de control y haz clic en **Nueva Captura**. 
 
-<img src="images/captures/forms/es/new-capture-method.jpg" alt="" width="768" />
+<img src="images/captures/forms/es/new-capture-method.jpeg" alt="" width="768" />
 
 De las opciones disponibles, selecciona **Formulario Web** y serás dirigido al Editor de Formularios.
 
-<img src="images/captures/forms/es/click-form.jpg" alt="" width="768" />
+<img src="images/captures/forms/es/click-form.jpeg" alt="" width="768" />
 
 ## Entendiendo los componentes
 
 ### Hero
 
-<img src="images/captures/forms/es/component-header.jpg" alt="" width="768" />
+<img src="images/captures/forms/es/component-header.jpeg" alt="" width="768" />
 
 El Hero es el encabezado del formulario. Es lo primero que ven tus suscriptores cuando se carga el formulario. 
 Hellotext, al cargar el formulario, busca un elemento HTML con el atributo `data-form-hero` y carga el contenido dentro de él. 
@@ -23,7 +23,7 @@ Si no encuentra el elemento, Hellotext crea manualmente el encabezado y lo añad
 
 ### Inputs
 
-<img src="images/captures/forms/es/component-inputs.jpg" alt="" width="768" />
+<img src="images/captures/forms/es/component-inputs.jpeg" alt="" width="768" />
 
 Los Inputs son los campos que tus suscriptores necesitan completar. Puedes especificar qué campos son obligatorios y cuáles no en el editor de formularios.
 En el editor de formularios, puedes agregar cualquier campo basado en una propiedad existente y controlar si el campo es obligatorio o no. Para cada Input, Hellotext genera un elemento HTML que se ve así
@@ -41,7 +41,7 @@ y carga los inputs dentro de él. El elemento `data-error-container` se utiliza 
 
 ### Button
 
-<img src="images/captures/forms/es/component-button.jpg" alt="" width="768" />
+<img src="images/captures/forms/es/component-button.jpeg" alt="" width="768" />
 
 El botón del formulario es donde se realiza la presentación del formulario. 
 Hellotext busca un elemento `button` con el atributo `data-form-button` y carga el botón dentro de él. 
@@ -49,7 +49,7 @@ Si no encuentra el elemento, Hellotext crea manualmente el botón y lo añade al
 
 ### Notice
 
-<img src="images/captures/forms/es/component-footer.jpg" alt="" width="768" />
+<img src="images/captures/forms/es/component-footer.jpeg" alt="" width="768" />
 
 El Notice es el pie de página del formulario. Es lo último que verán tus suscriptores cuando se muestra el formulario. 
 Hellotext busca un elemento HTML con el atributo `data-form-notice` y carga el contenido dentro de él. 

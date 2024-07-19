@@ -5,17 +5,17 @@ or custom properties you have created for your subscriber list.
 
 To create a new Form, visit the **Captures** section on the dashboard, and click on **New Capture**. 
 
-<img src="images/captures/forms/en/new-capture-method.jpg" alt="" width="768" />
+<img src="images/captures/forms/en/new-capture-method.jpeg" alt="" width="768" />
 
 From available options to choose from, select **Website Form** and you will be taken to the Form Editor.
 
-<img src="images/captures/forms/en/click-form.jpg" alt="" width="768" />
+<img src="images/captures/forms/en/click-form.jpeg" alt="" width="768" />
 
 ## Understanding Components
 
 ### Hero
 
-<img src="images/captures/forms/en/component-header.jpg" alt="" width="768" />
+<img src="images/captures/forms/en/component-header.jpeg" alt="" width="768" />
 
 The Hero is the header of the form. It is the first thing that your subscribers see when the form is loaded. 
 Hellotext, when loading the form looks for an HTML element with the `data-form-hero` attribute and load the content inside it.
@@ -23,7 +23,7 @@ If the element is not found, Hellotext creates the header manually, and prepends
 
 ### Inputs
 
-<img src="images/captures/forms/en/component-inputs.jpg" alt="" width="768" />
+<img src="images/captures/forms/en/component-inputs.jpeg" alt="" width="768" />
 
 The Inputs are the fields that your subscribers need to fill, you can specify which fields are required and which one are not in the Form editor. 
 In the form editor, you can add any field based on an existing property, and control whether the field is required or not. For each Input, Hellotext generates an HTML element that looks like this
@@ -41,14 +41,14 @@ The `data-error-container` element is used and displayed only when the user trie
 
 ### Button
 
-<img src="images/captures/forms/en/component-button.jpg" alt="" width="768" />
+<img src="images/captures/forms/en/component-button.jpeg" alt="" width="768" />
 
 The Button is where the form's submission happens. Hellotext looks for a `button` element with the `data-form-button` attribute and loads the button inside it. 
 If the element is not found, Hellotext creates the button manually, and appends it to the form after the Inputs section.
 
 ### Notice
 
-<img src="images/captures/forms/en/component-footer.jpg" alt="" width="768" />
+<img src="images/captures/forms/en/component-footer.jpeg" alt="" width="768" />
 
 The Notice is the footer of the form. It is the last thing that your subscribers will see when the form is shown. 
 Hellotext looks for an HTML element with the `data-form-notice` attribute and loads the content inside it. 
