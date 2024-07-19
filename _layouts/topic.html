@@ -31,8 +31,10 @@
           {% assign topics = site[page.permalink] | where: "languages", site.lang %}
           {% for guide in topics %}
             <a href="{{ site.baseurl }}{{ guide.url }}" class="content-item">
-              <h4>{{ guide[site.lang].title }}</h4>
-              <p>{{ guide[site.lang].description }}</p>
+              <div class="title-container">
+                <h4>{{ guide[site.lang].title }}</h4>
+                <p>{{ guide[site.lang].description }}</p>
+              </div>
               <img src="/images/icons/arrow-right.svg" width="10" />
             </a>
           {% endfor %}

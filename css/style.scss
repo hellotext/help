@@ -128,7 +128,7 @@
 }
 
 .container section article a:not(.button-blush) {
-  @apply text-tiger;
+  @apply text-tiger ;
 }
 
 a.active {
@@ -220,16 +220,16 @@ h4 {
 }
 
 .button-tiger {
-  @apply default-button bg-tiger;
+  @apply default-button bg-tiger whitespace-nowrap;
   color: white;
 }
 
 .button-blush {
-  @apply default-button bg-blush text-night;
+  @apply default-button bg-blush text-night whitespace-nowrap;
 }
 
 .breadcrumb {
-  @apply text-night-60 flex items-center space-x-0.5 border-b w-full pb-6;
+  @apply text-night-60 flex flex-wrap items-center space-x-0.5 border-b w-full pb-6;
 }
 
 .header-topic {
@@ -296,7 +296,7 @@ section > .container {
 }
 
 .content-item {
-  @apply text-left transition space-y-3 border rounded-xl p-8 block;
+  @apply text-left transition space-y-3 border rounded-xl p-6 lg:p-8 block;
 
   &.seafoam-30:hover {
     @apply hover:shadow-seafoam-30;
@@ -321,37 +321,48 @@ section > .container {
 
 
 .topic-container {
-  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full;
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 w-full;
 
   .content-item {
-    @apply border-transparent;
+    @apply border-transparent space-y-6 lg:space-y-8;
+
+    .topic-title-container {
+      @apply space-y-2 lg:space-y-2;
+
+      .topic-title { 
+        @apply text-xl lg:text-2xl font-medium tracking-tight;
+      }
+  
+      p {
+        @apply w-10/12 text-balance text-night-60;
+      }
+    }
+
+    .guide-topic-icon {
+      @apply mb-6 lg:mb-12;
+    }
   }
 
-  .content-item p {
-    @apply w-10/12 text-balance text-night-60;
-  }
-  .guide-topic-icon {
-    @apply mb-12;
-  }
-
-  .topic-title {
-    @apply text-lg lg:text-2xl font-medium tracking-tight;
-  }
 }
 
 /* Guide List */
 
 .container-guides {
-  @apply max-w-full m-auto grid lg:grid-cols-2 gap-8;
+  @apply max-w-full m-auto grid lg:grid-cols-2 gap-6 lg:gap-8;
 
   .content-item {
+    @apply space-y-4 lg:space-y-6;
 
-    h4 {
-      @apply lg:mt-16;
-    }
+    .title-container {
+      @apply space-y-2 lg:space-y-3;
 
-    p {
-      @apply text-lg;
+      h4 {
+        @apply lg:mt-16;
+      }
+  
+      p {
+        @apply text-lg;
+      }  
     }
 
     &:hover {

@@ -8,8 +8,10 @@ layout: default
   {% for topic in topics %}
     <a href="{{ site.baseurl }}{{ topic.url }}" class="content-item bg-{{topic.bg}} {{topic.bg}} hover:border-{{topic.border}} ">
       <img src="/images/icons/categories/{{ topic.permalink }}.svg" width="60" height="60" class="guide-topic-icon" />
-      <div class="topic-title">{% t {{ topic.permalink }}.title %}</div>
-      <p>{% t {{ topic.permalink }}.description %}</p>
+      <div class="topic-title-container">
+        <div class="topic-title">{% t {{ topic.permalink }}.title %}</div>
+        <p>{% t {{ topic.permalink }}.description %}</p>
+      </div>
       <img src="/images/icons/arrow-right.svg" width="10" />
     </a>
   {% endfor %}
