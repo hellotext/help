@@ -8,8 +8,8 @@ es:
   title: Enlaces en historias de Instagram
   description: Permite a tus fans suscribirse fácilmente a tu negocio directamente desde una historia de Instagram.
 
-permalink: instagram-story-link
-permalink_es: enlaces-en-historias-de-instagram
+permalink: captures/instagram-story
+permalink_es: captures/historias-de-instagram
 
 layout: guide
 topic: captures
