@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -48,7 +48,7 @@ algolia:
   application_id: WURCDLSM2D
   index_name: hellotext-help
   search_only_api_key: 32a31859dbe7f63f5cd8ff11af0c8b70
-  files_to_exclude: 
+  files_to_exclude:
     - _i18n/.yml
 
 collections:
@@ -74,14 +74,14 @@ collections:
     output: true
   audience:
     output: true
-  numbers: 
+  numbers:
     order:
       - acquiring-a-number.md
       - migrating-an-existing-number.md
       - acquiring-a-keyword.md
       - obtaining-an-exclusive-shortcode.md
     output: true
-  team: 
+  team:
     order:
       - understanding-team-roles.md
       - assigning-conversations.md
@@ -114,6 +114,7 @@ collections:
   editor:
     output: true
     order:
+      - get-started.md
       - links.md
       - tags.md
 
