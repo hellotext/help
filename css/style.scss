@@ -92,21 +92,21 @@
 
 @font-face {
   font-family: "Object Sans";
-  src: url("../fonts/PPObjectSans-Regular.woff2");  
+  src: url("../fonts/PPObjectSans-Regular.woff2");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Object Sans";
-  src: url("../fonts/PPObjectSans-Medium.woff2");  
+  src: url("../fonts/PPObjectSans-Medium.woff2");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Object Sans";
-  src: url("../fonts/PPObjectSans-Medium.woff2");  
+  src: url("../fonts/PPObjectSans-Medium.woff2");
   font-weight: 600;
   font-style: normal;
 }
@@ -439,7 +439,7 @@ section > .container {
         @apply list-decimal pl-10 space-y-1;
       }
 
-      code {
+      code, kbd {
         @apply bg-night-10 rounded px-1 py-0.5 text-sm text-night-80 font-medium;
       }
 
