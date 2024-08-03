@@ -20,7 +20,7 @@ Ten en cuenta que es posible que se te solicite permitir que Hellotext acceda a 
 
 - Safari: Preferencias > Sitios web > Ubicación. Elige `hellotext.com` y selecciona Preguntar.
 - Firefox: Herramientas > Información de la página > Permisos > Acceder a tu ubicación. Selecciona Siempre preguntar.
-- Chrome: Menú de hamburguesa > Configuración > Mostrar configuración avanzada. En la sección Privacidad, haz clic en Configuración de contenido. En el cuadro de diálogo resultante, encuentra la sección Ubicación y selecciona Preguntar cuando un sitio intente… Finalmente, haz clic en Administrar excepciones y elimina los permisos que otorgaste a los sitios que te interesan.
+- Chrome: Menú de hamburguesa > Configuración > Mostrar configuración avanzada. En la sección Privacidad, haz clic en Configuración de contenido. En el cuadro de diálogo resultante, encuentra la sección Ubicación y selecciona Preguntar cuando un sitio intente… Finalmente, haz clic en Administrar excepciones y elimina los permisos que otorgaste a Hellotext.
 
 Además, es posible que necesites habilitar el navegador para acceder a tu ubicación. Aquí tienes cómo puedes habilitar el acceso a la ubicación en diferentes sistemas operativos:
 

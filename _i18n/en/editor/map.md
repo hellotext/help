@@ -27,7 +27,7 @@ If you cannot see the prompt, please check your browser settings to ensure that 
 
 - Safari: Preferences > Websites > Location. Choose `hellotext.com` and Select Ask.
 - Firefox: Tools > Page Info > Permissions > Access Your Location. Select Always Ask.
-- Chrome: Hamburger Menu > Settings > Show advanced settings. In the Privacy section, click Content Settings. In the resulting dialog, find the Location section and select Ask when a site tries to…. Finally, click Manage Exceptions and remove the permissions you granted to the sites you are interested in.
+- Chrome: Hamburger Menu > Settings > Show advanced settings. In the Privacy section, click Content Settings. In the resulting dialog, find the Location section and select Ask when a site tries to…. Finally, click Manage Exceptions and remove the permissions you granted to Hellotext.
 
 In addition, you may need to enable the browser to access your location. Here's how you can enable location access on different operating systems:
 
