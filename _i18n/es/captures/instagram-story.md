@@ -48,7 +48,7 @@ Comparte este enlace en tu nueva historia de Instagram como lo harías con un en
 
 Ahora tus clientes podrán suscribirse directamente desde tu historia de Instagram.
 
-## Compartir en Instagram #{#howto-share-instagram}
+## Compartir en Instagram {#howto-share-instagram}
 
 Usa la etiqueta de Enlace para añadir un enlace a tu historia de Instagram. Cuando las personas toquen la etiqueta, serán redirigidas.
 
