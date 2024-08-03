@@ -61,3 +61,11 @@ si su empresa tiene dos propiedades de `checkbox` llamadas `has-logged-In` y `ac
 al orientar la propiedad por su tipo `{checkbox}`, usaremos automáticamente la primera propiedad de texto con respecto al orden definido en la página de audiencia.
 
 **TL;DR** use el tipo solo cuando hay una sola propiedad. Utilice el nombre de la propiedad cuando haya varias propiedades del mismo tipo.
+
+### Reglas de Nomenclatura
+
+Por defecto, Hellotext genera nombres de propiedades basados en el tipo de propiedad. Sin embargo, eres libre de modificar el nombre a algo que tenga sentido para tu negocio.
+Al nombrar propiedades, debes seguir estas reglas:
+
+- Las propiedades no pueden comenzar con un número. Por ejemplo, `1 Nombre` no es un nombre de propiedad válido.
+- Las propiedades no pueden contener llaves. Por ejemplo, `{nombre}` no es un nombre de propiedad válido.
