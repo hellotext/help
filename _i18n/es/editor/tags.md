@@ -62,7 +62,7 @@ al orientar la propiedad por su tipo `{checkbox}`, usaremos automáticamente la 
 
 **TL;DR** use el tipo solo cuando hay una sola propiedad. Utilice el nombre de la propiedad cuando haya varias propiedades del mismo tipo.
 
-### Reglas de Nomenclatura
+### Reglas de Nomenclatura {#rules}
 
 Por defecto, Hellotext genera nombres de propiedades basados en el tipo de propiedad. Sin embargo, eres libre de modificar el nombre a algo que tenga sentido para tu negocio.
 Al nombrar propiedades, debes seguir estas reglas:

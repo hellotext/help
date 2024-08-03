@@ -60,7 +60,7 @@ when targeting the property by it's kind `{checkbox}` we will automatically use 
 
 **TL;DR** use the kind only when there's a single property. Use the property's name when there are multiple properties with the same kind.
 
-### Naming Rules
+### Naming Rules {#rules}
 
 By default, Hellotext generates property names based on the property type. But, you are free to modify the name to something that makes sense to your business.
 When naming properties, you should follow these rules:
