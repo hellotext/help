@@ -57,12 +57,14 @@ Si no encuentra el elemento, Hellotext crea manualmente el pie de página y lo a
 
 ### Seguridad
 
-Hellotext previene el robo de identidad y la suplantación de otras personas mediante la Autenticación de Dos Factores (2FA). 
-Cuando un suscriptor completa el formulario, Hellotext envía un código de Contraseña de Un Solo Uso (OTP) al suscriptor. 
-Si el suscriptor ingresa su correo electrónico, se envía un correo electrónico a esa dirección; de lo contrario, se envía un SMS a su número de teléfono.
+Hellotext previene el robo de identidad y la suplantación de otras personas. Además, Hellotext asegura que cualquier dato existente que tengas no sea alterado con datos no confiables. ¿Cómo?
 
-Hasta que se ingrese un OTP válido, los datos no se mostrarán en el panel de control ni contribuirán al marketing de atribución. 
-Esto protege eficazmente a los clientes y a tu negocio contra bots y otros actores malintencionados.
+Cuando creas un formulario que tiene una propiedad de _Teléfono_ o _Correo Electrónico_, una vez que la entidad llena el formulario, Hellotext envía un enlace de verificación al correo electrónico y/o número de teléfono que la entidad ha ingresado.
+
+- Si han ingresado un correo electrónico, se envía un correo a esa dirección específica. Una vez que se haga clic en el enlace, el correo electrónico se verifica.
+- Si han ingresado un número de teléfono, se envía un SMS a ese número de teléfono específico. Una vez que se haga clic en el enlace, el número de teléfono se verifica.
+
+Una vez que todos los datos verificables han sido verificados, los datos se consideran _confiables_.
 
 
 ## Entendiendo el código generado

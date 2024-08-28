@@ -56,11 +56,15 @@ If the element is not found, Hellotext creates the footer manually, and appends 
 
 ### Security
 
-Hellotext prevents identity theft and impersonation of other people via Two-Factor Authentication (2FA). 
-When a subscriber fills the form, Hellotext sends a One Time Password (OTP) code to the subscriber. If the subscriber enters their email, an email is sent to them, otherwise an SMS is sent to their phone number.
+Hellotext prevents identity theft and impersonation of other people. Additionally, Hellotext ensures that any existing data
+you have is not tampered with unreliable data. How?
 
-Until a valid OTP has been entered, data will not show up on the dashboard and will not contribute to attribution marketing. Effectively protecting customers and your business from bots, and other malicious actors.
+When you create a form that has a _Phone_ or _Email_ property. Once the entity fills the form. Hellotext sends a verification link to the email and/or phone number that the entity has entered.
 
+- If they have filled in an email, an email is sent to that specific email address. Once clicked, the email is verified. 
+- If they have filled in a phone number, an SMS is sent to that specific phone number. Once clicked, the phone number is verified. 
+
+Once all verifiable data has been verified, the data is considered to be _reliable_.
 
 ## Understanding the generated code
 
