@@ -64,7 +64,12 @@ When you create a form that has a _Phone_ or _Email_ property. Once the entity f
 - If they have filled in an email, an email is sent to that specific email address. Once clicked, the email is verified. 
 - If they have filled in a phone number, an SMS is sent to that specific phone number. Once clicked, the phone number is verified. 
 
-Once all verifiable data has been verified, the data is considered to be _reliable_.
+Once all verifiable data has been verified, the data is considered to be _verified_.
+
+Once verification of a submission is complete, Hellotext performs an automatic merge (if needed) of all profiles
+that have the same email and/or phone number. After automatic merging, if a property has multiple values,
+it will be visible in the Audience page and the you can see the values that were merged and decide which one
+to ignore and which one to accept.
 
 ## Understanding the generated code
 

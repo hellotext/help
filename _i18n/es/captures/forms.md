@@ -66,6 +66,10 @@ Cuando creas un formulario que tiene una propiedad de _Teléfono_ o _Correo Elec
 
 Una vez que todos los datos verificables han sido verificados, los datos se consideran _confiables_.
 
+Una vez que se completa la verificación de un envío, Hellotext realiza una combinación automática (si es necesario) de todos los perfiles.
+que tengan el mismo correo electrónico y/o número de teléfono. Después de la fusión automática, si una propiedad tiene varios valores,
+Será visible en la página Audiencia y podrá ver los valores que se fusionaron y decidir cuál.
+ignorar y cuál aceptar.
 
 ## Entendiendo el código generado
 
