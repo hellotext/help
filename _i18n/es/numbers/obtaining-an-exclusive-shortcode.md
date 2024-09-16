@@ -10,11 +10,13 @@ Si tu empresa planea enviar una mayor cantidad de mensajes o si debe asegurarse 
 
 A partir de los planes Scale en adelante, un código corto exclusivo en un país ya está incluido en el plan cuando se firma como un acuerdo anual. Los acuerdos anuales también se pueden pagar mensualmente.
 
-Es posible solicitar un código corto exclusivo, disponible en todas las operadoras móviles por $ 1,500 USD por mes por país.
+Es posible solicitar un código corto exclusivo, disponible en todas las operadoras móviles en los siguientes países:
+
+* Colombia
+* Estados Unidos
+* Uruguay
 
 Un código corto exclusivo requiere que firmes un acuerdo anual que se puede pagar mensualmente.
-
-Cada código corto exclusivo adquirido incluye 30,000 mensajes SMS para enviar a todos los operadoras móviles sin costo adicional.
 
 ## Solicitud de un código corto
 

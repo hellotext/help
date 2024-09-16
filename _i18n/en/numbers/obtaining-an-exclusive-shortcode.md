@@ -10,11 +10,13 @@ If your business plans to send a higher number of messages or if you must ensure
 
 Starting on Scale plans onwards one exclusive short code in one country is already included in the plan when signed as an anual agreement. Annual agreements can also be paid monthly.
 
-It is possible to request an exclusive short code, available on all mayor networks for $1,500 USD per month per country.
+It is possible to request an exclusive short code, available on all mayor networks on these countries:
+
+* Colombia
+* United States
+* Uruguay
 
 An exclusive short code requires you to sign an annual agreement, payable on monthly basis. 
-
-Each exclusive short code purchased includes 30,000 SMS messages to send to all network providers for no additional cost.
 
 ## Requesting a short code
 
