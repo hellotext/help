@@ -59,3 +59,11 @@ if your business has two `checkbox` properties named `has-logged-In` and `active
 when targeting the property by it's kind `{checkbox}` we will automatically use the first text property with respect to the ordering defined in the audience page.
 
 **TL;DR** use the kind only when there's a single property. Use the property's name when there are multiple properties with the same kind.
+
+### Naming Rules {#rules}
+
+By default, Hellotext generates property names based on the property type. But, you are free to modify the name to something that makes sense to your business.
+When naming properties, you should follow these rules:
+
+- Properties cannot start with a number. For example, `1st-name` is not a valid property name.
+- Properties cannot contain curly braces. For example, `{name}` is not a valid property name.
