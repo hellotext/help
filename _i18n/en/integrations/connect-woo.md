@@ -15,7 +15,7 @@ With this information, you'll be able to create segmented audiences and much mor
 
 ## Download Plugin
 
-Download **[the latest version](https://github.com/hellotext/hellotext-wordpress/archive/refs/tags/v1.2.0.zip)** of the Hellotext plugin for WooCommerce.
+Download **[the latest version](https://github.com/hellotext/hellotext-wordpress/archive/refs/tags/v1.2.1.zip)** of the Hellotext plugin for WooCommerce.
 
 ## Installation
 
