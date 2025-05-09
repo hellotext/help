@@ -68,9 +68,11 @@ Hellotext incluye los tipos de objetos más comunes, adecuados para la mayoría 
 
 De manera similar a las etiquetas de perfil, también puedes apuntar a las propiedades de los objetos en tus etiquetas. El formato general de una etiqueta de objeto puede ser uno de los siguientes:
 
-1. `{object_name.property_name}`
-2. `{object_name.property_kind}`
-3. `{object_name.property_id}`
+1. `{singular_name.property_name}`
+2. `{singular_name.property_kind}`
+3. `{singular_name.property_id}`
+
+El Nombre Singular es el nombre del objeto autogenerado cuando creas un nuevo Objeto.
 
 Por ejemplo, dado un objeto personalizado llamado Appointment (Cita), que consta de dos propiedades: `Booked At` (Reservado en) y `Room` (Sala), puedes apuntar a los valores mediante:
 
