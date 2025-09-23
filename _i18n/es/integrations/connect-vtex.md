@@ -1,7 +1,3 @@
-Of course! Here’s your text translated into Spanish:
-
----
-
 Cuando conectas tu tienda VTEX a Infobip con nuestra aplicación Exchange, puedes:
 
 - Sincronizar los datos de tus clientes en Perfiles para que puedas contactarlos fácilmente por WhatsApp o SMS.
