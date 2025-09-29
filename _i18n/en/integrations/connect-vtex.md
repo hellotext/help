@@ -25,8 +25,9 @@ Application keys allow the external system to access your account, so your VTEX 
 1. Click the Generate New button.
 2. In the Label field, enter the application key's purpose. It will help you identify the Hellotext key easily if you have other internal API keys.
 3. Add **Roles** by clicking it which grants admin privilege to the API key.
-4. Click Generate.
-5. Copy the Application Token and save it in a safe place. It is displayed only once.
+4. Click on Generate.
+5. You will see a link generated for the token. Copy the URL and paste it into your browser to obtain the key and the application token.
+6. Copy the Key and the Application Token and save them in a safe place. They are only shown once.
 
 #### Add the credentials to Hellotext
 
