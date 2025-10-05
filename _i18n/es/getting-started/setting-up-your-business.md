@@ -54,13 +54,6 @@ Los miembros de tu equipo pueden unirse a tu empresa en Hellotext e interactuar 
 
 * **[Diferencias entre roles de equipo](/diferencias-entre-roles-de-equipo)**
 
-## Adquirir o migrar un número
-
-Sigue leyendo:
-
-* **[Obteniendo un número](/obteniendo-un-numero)**
-* **[Migrar un número existente](/migrar-un-numero-existente)**
-
 ## Sigue aumentando tu audiencia
 
 Continua construyendo tu audiencia con la ayuda de cualquiera de las herramientas de captura disponibles:

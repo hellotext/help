@@ -55,13 +55,6 @@ Team members can join your business on Hellotext and actively interact with your
 
 * **[Understanding team roles](/understanding-team-roles)**
 
-## Acquire or migrate a number
-
-Keep reading:
-
-* **[Acquiring a number](/acquiring-a-number)**
-* **[Migrating an existing number](/migrating-an-existing-number)**
-
 ## Keep growing your audience
 
 Continue building your audience with the help of any of the capture tools available:
