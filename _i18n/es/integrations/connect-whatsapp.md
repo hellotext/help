@@ -190,17 +190,23 @@ Puedes pedir a tu proveedor de servicios anterior que elimine tu línea de créd
 
 #### ¿Necesito pagar tanto a Meta como a Hellotext?
 
-Sí. Hellotext cobra un cargo fijo de 2 créditos por cualquier conversación iniciada, ya sea por un cliente o por ti. Una conversación se abre durante 24 horas y durante este período todos los mensajes en la conversación no tienen cargo.
+Hellotext usa un modelo basado en performance: pagas **2–5 %** de los ingresos atribuidos a Hellotext. **[Más sobre Tarifas](es/explicacion-de-tarifas)**.
+ 
+**Regla clave:** cada mes pagas un solo concepto—el mayor entre: piso del plan, tarifa por performance, costo de SMS o tarifa variable por mensajes (US $ 2 por cada 1.000). La tarifa variable solo se cobra si es mayor que los otros tres.
 
-Meta típicamente te da una cierta cantidad de conversaciones iniciadas por el cliente sin cargo y también cobra por cada conversación que inicias. Las tarifas varían de un país a otro. Sugerimos consultar nuestra página de [**Precios**](https://www.hellotext.com/pricing) para ver los precios más recientes que Meta cobra por una conversación iniciada por una empresa en tu país. 
+Esto significa que los mensajes con IA por WhatsApp/Instagram/Webchat suelen estar incluidos; la tarifa variable solo aplica en meses donde piso, performance y SMS sean **menores** que ese monto. 
 
-Para ver el precio más reciente, desde la fila *Créditos* haz clic en *Ver tabla*.
+<div class="note">
+  <strong>Importante</strong>: los costos de conversaciones de WhatsApp son cobrados por separado por Meta y no forman parte de tu factura de Hellotext. <strong><a href="https://business.whatsapp.com/products/platform-pricing#rates" target="_blank">Ver tarifas de Meta</a></strong>.
+</div>
 
-Estos costos generados por Meta se pagan directamente a Meta por ti con el método de pago que asociaste a tu cuenta de WhatsApp Business.
+#### ¿El cargo es por mensaje o por conversación?
 
-#### ¿El cargo es por empresa o por conversación?
+Ni Hellotext ni Meta cobran por cada mensaje individual.
 
-Hellotext y Meta no cobran por mensajes, sino por conversación. Una conversación se abre durante 24 horas y durante este período todos los mensajes en la conversación no tienen cargo.
+En Meta, cada mensaje de plantilla abre una conversación de 72 horas, dentro de la cual todos los mensajes posteriores (ya sean del negocio o del cliente) no tienen costo.
+
+En Hellotext, la tarifa variable de US $ 2 por cada 1.000 se aplica por volumen de mensajes solo cuando ninguno de los otros conceptos (piso, performance o SMS) es mayor.
 
 #### ¿Cuáles son los límites de envío?
 
