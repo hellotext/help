@@ -1,352 +1,194 @@
-**What is Hellotext?**
+## What is Hellotext?
 
-Hellotext is a cutting-edge Platform designed to help businesses bloom by connecting them with their customers in a more direct and impactful way.
+Hellotext is an AI-powered conversational automation platform designed to help eCommerce businesses sell more without relying on manual message sending.
 
-We put engagement driven conversions and your specific needs at the center stage through personalized communication and business intelligence, allowing you to track and understand your audience's actions and preferences once they subscribe.
+Connect your store, and Hellotext takes care of the rest: it detects sales opportunities, sends personalized messages through WhatsApp, SMS, or Instagram, and measures the real impact on your revenue.
 
-From their browsing habits to their clicks, purchases, and spending patterns, Hellotext provides in-depth insights and a dynamic approach that help you develop effective engagement strategies and drive interactions into conversions.
+You can think of it as a sales autopilot that works day and night, keeping your brand’s tone and holding conversations that convert.
 
-We go beyond customer management and data collection and provide the tools that help you put that information to work. Our platform serves as a centralized hub allowing your team to collaborate and streamline your customer engagement by managing or automatizing campaigns or communication in one powerful multi-channel inbox.
+## What channels can I use?
 
-By leveraging the valuable customer insights and business intelligence obtained by Hellotext, you can deliver tailored exceptional experiences and drive meaningful engagement to strengthen the bond with your customers, foster deeper brand loyalty and achieve conversions.
+Hellotext operates on the channels where your customers already are: WhatsApp, Instagram Direct, Facebook Messenger, Webchat, MercadoLibre, and SMS.
 
-With Hellotext, you're not just gathering data – you're unlocking the power of engagement to boost your business into overdrive.
+Messages sent via WhatsApp, Instagram, Facebook Messenger, or Webchat are covered under the fair-use policy; SMS messages are billed separately depending on country and plan. This way, you can combine channels without worrying about unexpected costs.
 
----
+## What are AI agents?
 
-**What can I do with Hellotext?**
+Every action in Hellotext — checking an order, recommending a product, recovering a cart, or answering a question — is handled by a specialized agent.
 
-With Hellotext you can harness the full potential of real-time dynamic tracking, enrich your database by harvesting valuable feedback and in-depth behavioral insights.
+These agents are small intelligences that understand user intent (for example: *“I want to know my shipment”*) and act automatically.
 
-You can expand your reach by capturing new audiences and fine-tune your marketing and communication efforts with real-time campaign monitoring.
+Some examples:
 
-Yo can craft personalized customer journeys, deliver targeted promotions, automate workflows, streamline and engage in meaningful conversations, and unlock the true power of your customer data to drive business growth and customer satisfaction.
+* **Transactional agents:** order tracking, returns, shipping status.
+* **Decision agents:** product recommendations or upselling.
+* **Support agents:** responses to FAQs.
+* **Enrichment agents:** capture missing data (“What’s your size?”).
+* **Guardrails:** ensure tone, privacy, and compliance.
+* **Predictors:** optimize send time or detect abandonment risk.
+* **Escalators:** hand off to a human when needed.
 
----
+Together, these agents allow your business to serve, recommend, and sell automatically — always with human-level judgment.
 
-**How does Hellotext work?**
+## What are playbooks?
 
-Hellotext focuses on your marketing needs and prioritizes business goals over company or audience size.
+Playbooks are prebuilt automations that combine business logic with AI to create complete experiences.
+For example:
 
-Our credit-based plans are designed to provide flexibility and value, empowering businesses of all sizes to bloom.
+* *Abandoned Cart* recovers forgotten carts.
+* *Browse Recovery* reconnects with visitors who didn’t buy.
+* *Back-in-Stock* alerts customers when a product returns.
+* *VIP Club* nurtures your best customers.
+* *Order Update + AI Support* informs and assists during delivery.
 
-Pick the plan that best suits your needs, adjust it to fit your strategy (not the other way around), import or capture your audience and start turning your credits into impactful engagement and conversions.
+Each playbook has a base flow (when, to whom, and with what limits) that AI personalizes according to behavior, purchase history, and context. It’s a simple, effective way to keep campaigns always active and sounding human.
 
-With Hellotext, you only pay for the impact you make.
+## Can I keep manual control over what the AI does?
 
----
+Yes. Hellotext doesn’t replace your judgment — it amplifies it.
 
-**Is Hellotext suitable for my business?**
+You can review and approve messages, adjust text or discounts, pause campaigns, or activate manual mode whenever needed.
 
-Hellotext’s Pay As You Grow model is designed to provide flexibility and value to our customers by presenting a range of plans that cater to different business needs and budgets.
+The system even explains why it takes each decision (“Because you…”), allowing you to learn from and trust the AI without losing visibility or control.
 
-Our tailored approach focuses on goals and needs over company or audience size, allowing businesses of all sizes to thrive.
+## How does Hellotext avoid sending too many messages or at the wrong times?
 
-Either big or small, our revolutionary approach will fuel your business to become great.
+The platform includes a Communications Governor (CG), a “governor” that regulates the message flow for each customer.
+This system applies:
 
----
+* **Quiet hours** (configurable silent periods).
+* **Frequency limits** by category (promotions, service, reminders).
+* **Deduplication** across campaigns.
+* **Channel prioritization** (chooses the most effective medium for each context).
 
-**How does the credit system work in Hellotext?**
+Everything also passes through Guardrails for tone and compliance, and through STO (Send-Time Optimization), which calculates the best send time based on customer behavior.
 
-Our credit-based system puts conversion through engagement at the forefront of your strategy and you in control of your communication success.
+## What is Send-Time Optimization (STO)?
 
-Alongside Hellotext's core features, each plan includes a predefined pool of monthly credits that you can transform into engagement fuel.
+STO is one of Hellotext’s most powerful intelligences.
 
-Depending on your strategy or goals you have the power to allocate these credits strategically sending impactful messages or triggering conversions. Each message sent or conversion achieved consumes a certain number of credits.
+It analyzes each contact’s open and response habits and selects a 30-minute window where the conversion probability is highest.
 
-Hellotext provides detailed documentation and guidelines to help you understand credit consumption and optimize your messaging strategy for maximum efficiency.
+You can schedule your sends or let STO distribute them automatically for maximum performance.
 
-If you happen to run out of credits during a specific month you can continue engaging and sending messages at a nominal over-usage price per credit or pause your campaigns until your credit pool replenishes with the start of the next month.
+## How does performance-based pricing work?
 
-If this happens frequently or you expect to consume as much credits in the upcoming months, you can upgrade your plan or purchase additional credit bundles.
+Hellotext doesn’t charge you for using the tool, but for the results it generates.
 
-Choose the plan with the credit load that better accommodates to your needs and transform them into engagement fuel. See conversion table.
+You pay a percentage (2 – 5%) of the sales attributed to Hellotext, plus a monthly plan based on your stage.
 
----
+Each month, the “pay once” rule applies: you only pay the highest among:
 
-**What happens if I run out of credits?**
+* your plan value,
+* the performance fee, or
+* the variable message cost (US $2 per 1,000 messages).
 
-Even if you run out of credits there is no stopping your growth, you can continue engaging and sending messages at a nominal over-usage price per credit.
+You never pay more than one of these in the same month. **[More about Pricing](/how-pricing-works)**.
 
-If you anticipate higher credit consumption in the upcoming months, you have the option to upgrade your plan or purchase additional credit bundles.
+## What counts as an attributed sale?
 
----
+Hellotext attributes a sale only when it was the last non-direct click before purchase.
 
-**What's the credit conversion rate?**
+Attribution remains valid:
 
-Third Party Private Messages = 1/10th of a credit
+* **24 hours** after a received message (for the impacted phone), or
+* **7 days** if the buyer clicks a Hellotext short link on the same device.
 
-Outgoing SMS from Migrated Number = 1/10th of a credit
+Sales entered manually or conversations resolved by human agents are not counted.
 
-Outgoing local SMS = 1 credit
+You can learn more about **[how we attribute sales](/how-we-attribute-sales)**.
 
-International SMS = 1 credit
+## Are AI messages unlimited?
 
-WhatsApp Conversations* = 2 credits
+In practice, yes. As long as the performance fee exceeds message costs, there’s no extra charge.
 
-\* Follows WhatsApp Business criteria: Conversations are 24-hour message threads between you and your customers. They are opened when Template form messages are sent and delivered. Service Conversations follow the "Free Tier Conversations" criteria.
+If in a given month performance is lower, a symbolic fee of US $2 per additional 1,000 messages applies.
 
-\** Conversions comprise a desired specific and traceable action directly related and in response to defined Call to actions, such as a Sale, cashing in a promo offer or redeeming coupons whether it is through SMS or WhatsApp conversations or online and offline campaigns. These are tallied once the interaction turns into a conversion.
+The idea is that your investment grows only when your sales do.
 
----
+## Do I also have to pay Meta for WhatsApp?
 
-**Can I customize and personalize messages with Hellotext?**
+Yes. WhatsApp Business conversation rates are billed directly by Meta and are not included in your Hellotext invoice.
 
-Absolutely! Hellotext offers robust customization and personalization features.
+You can check updated rates on the **[official Meta site](https://business.whatsapp.com/products/platform-pricing#rates)**.
 
-You can tailor your messages to reflect your brand's voice, include dynamic content based on customer attributes, and leverage merge tags to insert personalized information.
+## What plans exist?
 
-This allows you to create highly targeted and relevant communications that resonate with your customers, resulting in increased engagement and better outcomes.
+Hellotext adapts to every growth stage:
 
----
+* **Starter (Free):** ideal to start and test.
+* **Small (US $74/month):** includes AI and basic automations.
+* **Grow (US $299/month):** designed for higher-volume teams.
+* **Enterprise:** custom plan with 24/7 support.
 
-**Is there a limit to the number of messages I can send with Hellotext?**
+The performance fee decreases as your sales grow (5% → 3% → 2%).
 
-There are no fixed limits on the number of messages you can send with Hellotext.
+## How much history is kept?
 
-The specific amounts depend on the plan and credit pool you choose.
+Depends on the plan:
 
-You have the flexibility to allocate credits based on your messaging requirements and desired engagements.
+* **Starter:** 2 months
+* **Small:** 6 months
+* **Grow / Enterprise:** full history under retention policy.
 
-If you anticipate higher usage, you can upgrade your plan or purchase additional credits to accommodate your needs. Even if you run out of credits, you can continue engaging and sending messages at a nominal over-usage price per credit.
+## How do I capture and update my contacts?
 
----
+You can import lists (CSV or integrations) and generate new contacts with widgets, links, or QR codes.
 
-**How many SMS and how many WhatsApps can I send?**
+Hellotext also automatically enriches profiles with conversational data such as size, preferences, or location — making every message more relevant and human.
 
-The number of SMS and WhatsApp messages you can send depends on the plan you choose with its available credit pool and the way you allocate them.
+## What platforms does it integrate with?
 
-Each message sent consumes a certain number of credits based on the destination and message type. As long as you have remaining credits, you can send and engage.
+Hellotext easily connects with your eCommerce, CRM, and logistics tools.
 
-Even if you run out of credits there is no stopping your growth, you can continue engaging and sending messages at a nominal over-usage price per credit.
+It also supports custom HTTP requests and webhooks to automate shipments, sync inventory, or create advanced reports.
 
-Hellotext provides detailed documentation and guidelines to help you understand credit consumption and optimize your messaging strategy for maximum efficiency.
+## How does Hellotext protect my brand’s privacy and tone?
 
----
+Before each send, the Guardrails module analyzes and adjusts the message to comply with privacy laws, avoid sensitive language, and maintain consistency with your brand identity.
 
-**Can I send international messages?**
+The system also enforces opt-in/opt-out, quiet hours, and frequency limits — ensuring ethical, respectful conversations.
 
-Yes. Hellotext supports international messaging.
+## Can I send scheduled or instant campaigns?
 
-You can send SMS and WhatsApp messages to customers located in different countries.
+Yes. You can plan sends with a specific date and time or launch them instantly.
 
-However, it's advisable to review the pricing and coverage details for international messaging within the Hellotext platform, since international SMS may incur additional costs depending on the destination.
+The AI can also determine the best send time for each customer, balancing performance and experience.
 
-International WhatsApp conversations are not subject to additional costs.
+## What kind of reports does Hellotext offer?
 
----
+The main dashboard clearly shows your results:
 
-**Does Hellotext allow third-party integrations?**
+* Generated and attributed revenue.
+* Performance by channel and playbook.
+* Click, conversion, and opt-out rates.
+* Alerts, anomalies, and actionable insights.
 
-Definitely! Hellotext allows seamless third-party integrations through our comprehensive and user-friendly API.
+All within an interactive Revenue Funnel that shows where you’re winning and where you can improve.
 
-Our API allows you to easily connect and interact with Hellotext's features and functionalities, enabling the exchange of data between your systems and ours.
+## What happens if a customer replies or data is missing?
 
-This integration flexibility empowers you to create custom workflows, automate processes, and extend the capabilities of Hellotext within your existing technology ecosystem.
+Hellotext uses an intelligent micro-delegation system: if an agent needs extra information, it asks a single question, saves the answer, and continues the original flow.
 
----
+Example: “Could you tell me your order number?” → saves it → resumes tracking without restarting the conversation.
 
-**Is Hellotext integrated with eCommerce platforms?**
+## How is a conversation escalated to a human?
 
-Indeed! Hellotext is integrated with the more popular eCommerce sites.
+If the AI detects confusion, frustration, or off-policy topics, it executes escalate.human and transfers the conversation to a real agent.
 
-Furthermore Hellotext provides API integrations that allow businesses to connect their existing eCommerce platforms or systems with the Hellotext platform allowing them to harness the power of messaging to drive customer interactions, send order notifications, provide personalized customer support, and facilitate transactional messaging.
+The complete history and context are preserved so the human agent can continue seamlessly without losing information.
 
-The integration between Hellotext and eCommerce platforms helps businesses streamline their communication and leverage the benefits of messaging for their online store operations.
+## What support levels does Hellotext offer?
 
----
+* **Starter:** email support (~24h response).
+* **Small:** priority email or WhatsApp support (~8h).
+* **Grow:** dedicated account manager (~4h).
+* **Enterprise:** full 24/7 support with priority response.
 
-**Can I integrate Hellotext with my existing customer management system?**
+## How do I get started?
 
-Yes. Hellotext offers integration capabilities with various CRM and third party systems.
+1. Connect your store (Shopify, VTEX, WooCommerce, etc.).
+2. Activate your first playbooks, like *Welcome* or *Cart Saver*.
+3. Customize your messages and watch your first attributed sales appear.
 
-Our platform provides a comprehensive API and guides to facilitate seamless integration with your existing systems, allowing you to sync customer data, automate workflows, and enhance the overall efficiency of your customer engagement processes.
-
-Integration options may vary depending on your specific CRM or system requirements.
-
----
-
-**How does Hellotext handle opt-outs and unsubscribe requests?**
-
-Hellotext provides opt-out and unsubscribe functionalities complying with regulations and customer preferences.
-
-When a customer opts out or requests to unsubscribe, our platform automatically manages their preferences, ensuring they no longer receive messages from your business.
-
-This helps you maintain compliance, protect your sender reputation, and uphold a positive customer experience.
-
----
-
-**How secure is the Hellotext platform for handling customer data?**
-
-Hellotext complies with both international and local data protection regulations.
-
-Furthermore, when you subscribe to our service, we formalize a Data Protection Agreement that outlines the responsibilities and obligations of both parties in terms of data protection and treatment.
-
-This ensures that your data is handled and safeguarded in compliance with the highest standards of data privacy and security.
-
-For more information read our [Data Protection Agreement](https://www.hellotext.com/data-protection).
-
-## **About the platform**
-
-**What is the Hellotext Hub?**
-
-The Hellotext Hub is the core feature of the platform serving as a single interface where your team can collaborate on designing and managing campaigns, complete with an omni-channel inbox where your team members can manage and streamline customer SMS and WhatsApp conversations, collaborate between each other using private notes and mentions and maintain a unified view of customer interactions.
-
-The Hellotext Hub enhances team productivity, improves communication, and enables seamless customer engagement.
-
----
-
-**What can Team Members do?**
-
-Team Members in Hellotext have specific roles to ensure effective management and efficient collaboration between team members.
-
-Different roles have different credentials and clearances that determine how much access they have to sensitive information.
-
-*Agent*
-This is the role with the least amount of privileges only able to manage profiles and conversations.
-
-*Manager*
-Along with all the privileges Agents have, Team Managers are also able to manage campaigns and access reports, manage captures and program journeys.
-This is a role ideal for members with marketing responsibilities or have agents in charge.
-
-*Administrator*
-Along with every privilege Managers have, Admins manage all billings and account settings except account deletion.
-
-*Owner*
-Along with all the privileges Administrators have they are the only capable of deleting the business account.
-
----
-
-**Does Hellotext support automated campaigns?**
-
-Absolutely! Hellotext allows you to program and schedule campaigns and provides built-in tools to create customized automated journeys. You can set up predefined messages and actions to be sent at a specific time or set them off based on programmed triggers, conditions, or customer actions.
-
-This powerful features enable you to engage with your customers at the right time, delivering relevant messages when it really matters.
-
-You can nurture leads, send transactional notifications or promos, avoid cart abandonment and provide personalized experiences throughout the entire customer journey, ensuring a seamless and tailored communication experience.
-
----
-
-**How do I add my contacts?**
-
-Adding contacts to Hellotext is quick and easy.
-
-You have multiple options to import your contacts, whether it's in bulk, through integrations with existing databases or CRM systems, or using our built-in capture tools.
-
-Each contact will generate a detailed profile that will continuously evolve becoming more rich and comprehensive as it feeds from data and activity tracking.
-
-You also have the flexibility to manually add or refine profiles, create customized segments, and utilize our dynamic segmentation tools to keep your contacts organized and ready for engaging with personalized messages.
-
----
-
-**Are there any limitations on the number of contacts or subscribers I can have with Hellotext?**
-
-Hellotext offers scalable solutions to accommodate businesses of all sizes.
-
-Although there is no limit on the number of contacts or subscribers you can have, depending on your plan there is a limited amount of subscribers you can fully track each month.
-
-But don't worry, if your customer base grows you can grow with it and upgrade your plan or purchase additional trackable profiles to engage with your larger audience effectively.
-
----
-
-**Is there a limit to the number of contacts I can reach per campaign?**
-
-There is no specific limit on the number of contacts you can reach in a campaign.
-
-However, if a campaign is to be broadcasted to more than 100 contacts, it will undergo a pre-approval process to ensure compliance with our guidelines.
-
-This process typically takes about 10 minutes to complete.
-
----
-
-**How does Tracking work?**
-
-Hellotext provides powerful tracking capabilities to monitor customer activity (once they subscribe) and the performance of your messages and campaigns.
-
-Tracking your customers actions all across the board unlocks an unprecedented number of possibilities: segment your audience based on their behavior to reach them with better and more precise campaigns, trigger automations based on what customers do and let your team use this data as it happens as opportunities to engage and sell more.
-
-Although there isn’t a limit to the amount of profiles you can add to your audience and interact with, there is a limit to how many profiles you can track.
-
-Each plan has a predefined amount of profiles you can track each month to check what your customers do when they interact with your brand all across each platform.
-
-If you desire to track more profiles than the preset amount in your plan, you can purchase additional trackable profiles or directly upgrade to a plan with a larger amount of monthly trackable profiles.
-
-Performance tracking on the other hand is unlimited allowing you to track various metrics such as delivery status, open rates, click-through rates and conversion rates.
-
-Furthermore, Hellotext tracks and measures the financial impact and revenue of your campaigns in real-time. This valuable data allows you to assess the effectiveness of your campaigns, optimize your messaging strategies, and make data-driven decisions to enhance customer engagement and drive better results.
-
----
-
-**Do I need a dedicated phone number?**
-
-No, you don't necessarily need a dedicated phone number to use Hellotext.
-
-Although you can migrate your existing line, Hellotext offers shared short codes (or dedicated ones depending on your plan) that you can utilize for your messaging campaigns.
-
-These shared short codes allow you to send SMS and WhatsApp messages without the need for a dedicated phone number, making it convenient and cost-effective for businesses.
-
----
-
-**Can I use Hellotext for both SMS and WhatsApp communication?**
-
-Yes. Hellotext supports both SMS and WhatsApp communication.
-
-You can leverage the platform to send and engage with customers through SMS messages or WhatsApp messaging app.
-
-Hellotext's omni-channel inbox enables you to reach customers on their preferred communication channels, even switching channels seamlessly without loosing a thread, enhancing the effectiveness of your messaging campaigns.
-
----
-
-**Can I schedule messages to be sent at specific times with Hellotext?**
-
-Yes. Hellotext provides scheduling functionality, allowing you to plan and schedule messages to be sent at specific times.
-
-This feature enables you to automate your messaging and ensures that your messages reach recipients at the optimal time for maximum impact and engagement, driving conversions even when you are not around.
-
----
-
-**What type of reports does Hellotext provide?**
-
-Hellotext offers real time profile and campaign activity reports so you can make decisions based on key metrics and valuable insights to repeat, adjust or even change your strategy.
-
-Furthermore, predictive and proactive reports provide diagnosis, suggested courses of action to optimize, correct or prevent events, forecast sales peaks and valleys, predict future purchases, restock notifications, product push and much more.
-
-Hellotext also provides team performance reports with  metrics such as average time to answer, customer satisfaction, revenue generated among others.
-
-Profile tracking reports that allow you to monitor the behavior and interactions of your subscribers with your campaigns identifying patters and weak spots.
-
-You can track their engagement with your messages, including the actions they take such as link clicks, form submissions, product purchases, items added to the cart, pages viewed, refunds, QR code scans, or any custom action specific to your business such as identifying the most and least engaged individuals.
-
-This level of tracking provides deeper insights into individual subscriber activity and helps you tailor your messaging and offers to their specific interests and preferences.
-
-Campaign trackings provide comprehensive reporting features that give you insights into the performance of your messaging campaigns. You can access metrics such as message delivery status, open rates, click-through rates, conversion rates, and engagement analytics. 
-
-These reports help you evaluate the effectiveness of your campaigns, measure ROI, and make data-driven decisions to optimize your messaging strategies.
-
-These powerful reporting features, combined with profile activity tracking, empower you to optimize your messaging campaigns, deliver highly targeted content, and achieve better results for your business.
-
----
-
-**What kind of support or assistance is available for Hellotext users?**
-
-Hellotext offers various support options to assist its users.
-
-You can access documentation, guides, and tutorials to learn how to use the platform effectively.
-
-Additionally, Hellotext provides customer support channels such as email or live chat to address any questions or concerns you may have. The support team is dedicated to helping you maximize the benefits of Hellotext and ensuring a smooth experience for your messaging needs.
-
----
-
-**What is White Glove support?**
-
-Only available in the Scale Plan, Hellotext's White Glove support is our premium and priority service that provides personalized assistance and expert guidance to optimize your messaging campaigns.
-
-With dedicated support and consultancy, our team becomes an extension of yours, helping you set up campaigns, configure advanced features, and achieve optimal results.
-
----
-
-**What is Agency Consulting Service?**
-
-The Agency Consulting Service is a Paid add-on solution for hands-on campaign management.
-
-From strategy development to execution, optimization, and reporting, our experts handle every aspect of your marketing campaigns with precision and care to maximize your ROI and unleash your brand's potential.
+Hellotext handles the rest — AI, timing, and optimization. From day one, your dashboard shows results, metrics, and improvement suggestions.
