@@ -489,3 +489,15 @@ svg {
   width: 1.2rem;
   height: 2rem;
 }
+
+.container-guide blockquote {
+  margin-left: 1em;
+  border-left: 4px solid var(--night-20);
+  padding-left: 1em;
+  font-style: italic;
+  font-weight: 500;
+  color: var(--night-60);
+  line-height: 1.5;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
