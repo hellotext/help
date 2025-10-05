@@ -3,10 +3,10 @@ languages: ["en", "es"]
 
 en:
   title: How pricing works
-  description: Say goodbye to size constraints and hello to a dynamic and flexible approach.
+  description: "Performance‑based pricing: pay only the highest item each month."
 es:
   title: Explicación de tarifas
-  description: Dile adiós a las limitaciones de crecimiento y dale la bienvenida a un enfoque dinámico y flexible.
+  description: "Precios por performance: pagas solo el concepto mayor cada mes."
 
 permalink: how-pricing-works
 permalink_es: explicacion-de-tarifas
