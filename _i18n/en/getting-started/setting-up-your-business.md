@@ -32,8 +32,6 @@ Now that you the business account is ready, get started by connecting your exist
 
 Connecting your eCommerce make it easier to start building your customer profiles with their complete history of activity in real-time.
 
-Currently we offer integration with Mercado Libre.
-
 ## Send a campaign
 
 As your audience starts to grow, continue creating your first campaign and reach your audience.

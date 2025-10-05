@@ -1,41 +1,100 @@
-Para ver el uso actual del plan existente, visita la sección *Opciones*, haz clic en la página *Uso y facturación* y luego en el enlace *Resumen de uso* para expandir sus resultados.
+- **[Qué medimos cada mes](#qué-medimos-cada-mes)**
+- **[Componentes de facturación](#componentes-de-facturación)**
+- **[Fórmula de facturación](#fórmula-de-facturación)**
+- **[Ejemplos de cálculo](#ejemplos-de-cálculo)**
+- **[Cómo leer tu factura](#cómo-leer-tu-factura)**
+- **[Preguntas frecuentes](#preguntas-frecuentes)**
 
-Si se requiere una cuota adicional, es posible actualizar el plan. En caso contrario, los excesos en el consumo se facturan como extras.
+## Qué medimos cada mes
 
-## SMS
+Aplicamos una regla única: pagás solo el monto mayor entre estos cuatro conceptos del mes (no se suman):
 
-Los planes ofrecen diferentes paquetes de mensajes SMS locales incluidos sin costo adicional.
+1. **Piso del plan**
+2. **Tarifa por performance** (**2–5 %**) sobre ingresos atribuidos
+3. **Costo de SMS** (según país/plan)
+4. **Tarifa variable por mensajes** (**US $ 2/1.000**) — solo si es mayor a los tres anteriores
 
-Los mensajes incluidos en la cuota del plan se pueden usar en todas las formas de interacción con los clientes, como campañas, bandeja de entrada y rutas.
+## Componentes de facturación
 
-Las cuotas de SMS se restablecen al comienzo de cada mes. Si el total de SMS enviados durante un mes supera la cuota permitida, los mensajes adicionales se cobrarán por separado.
+### 1) Tarifa por performance (2–5 %)
 
-Los precios de SMS se establecen según el país y son los mismos para códigos cortos y números de teléfono locales, con la excepción de las líneas telefónicas migradas, donde el cargo por mensaje enviado es 1/10 del precio de SMS en ese país.
+% aplicado a ventas atribuibles a mensajes/canales de Hellotext dentro de la ventana vigente. Escalas por plan: **3 %** desde **US$ 2.500** (Small), **2 %** desde **US$ 15.000** (Grow), **1 %** desde **US$ 250.000** (Enterprise). 
 
-Actualmente no cobramos por los SMS recibidos.
+> **Atribución (regla actualizada):** *last non‑direct click*; 24 h por teléfono impactado; 7 días si el shopper hace click en tu short link en el mismo dispositivo; excluye manuales, ventas no vinculadas y compras en conversaciones atendidas por un humano.
 
-### SMS internacionales
+### 2) Mensajes multicanal con IA (fair‑use)
 
-Los SMS incluidos en la cuota están disponibles para el país donde se adquiere el plan. Este suele ser el país donde opera el negocio.
+Incluidos sin costo cuando **piso**, **% performance** o **SMS** son mayores que la tarifa variable. Si todos son menores, se aplica US $ 2 por cada 1.000 mensajes. Nunca se cobran ambos: se factura el mayor. 
 
-A veces, los negocios pueden interactuar con clientes en diferentes países. Los mensajes SMS internacionales no están incluidos en la cuota del plan y siempre se cobran por separado.
+### 3) SMS por país
 
-### Mercado Libre
+Costos por mensaje en moneda local; participan de la regla “pagás solo el mayor”. Ver tabla en [Explicación de tarifas](https://www.hellotext.com/precios#sms) para valores vigentes. 
 
-Actualmente no cobramos por mensajes de Mercado Libre ya sea enviados o recibidos.
+### 4) Piso del plan
 
-## Líneas telefónicas
+Mínimo mensual del plan. Si el resto de los conceptos es menor, pagás el piso; si alguno es mayor, pagás ese. 
 
-Los planes incluyen una serie de líneas de telefonía móvil locales para adquirir o migrar sin costo adicional.
+## Fórmula de facturación
 
-Las líneas telefónicas migradas también cuentan como parte del total de líneas  disponible en el plan.
+_Cargo Hellotext del mes = máx { Piso del plan, Tarifa por performance, 
+Costo de SMS, Tarifa variable (US$ 2/1.000) }_
 
-Es posible adquirir líneas telefónicas adicionales al exceder la cuota de líneas telefónicas disponibles en el plan actual.
+<div class="note">
+<strong>Nota:</strong> la tarifa variable solo aplica si es la mayor del mes; no se suma a ningún otro concepto. 
+</div>
 
-Las líneas adicionales se cobran por separado mensualmente.
+## Ejemplos de cálculo
 
-## Palabras clave
+**Escenario 1: Mes con buen performance (Starter)**
 
-Los planes también pueden incluir palabras clave sin costo adicional.
+* Ingresos atribuidos: **US$ 2.000** → 5 % = **US$ 100**
+* Mensajes multicanal: **10.000** → **US$ 20** (variable)
+* SMS: **US$ 0**
+* Piso: **US$ 0**
+  **Pagás a Hellotext:** **US$ 100** (mayor). **WhatsApp (Meta):** aparte. 
 
-Las palabras clave adicionales también se pueden comprar por separado.
+**Escenario 2:  Mes de poco performance y alto volumen (Small)**
+
+* % performance: **US$ 30**
+* Mensajes multicanal: **50.000** → **US$ 100** (variable)
+* SMS: **US$ 0**
+* Piso Small: **US$ 74**
+  **Pagás a Hellotext:** **US$ 100** (la variable es la mayor).
+
+**Escenario 3:  SMS domina**
+
+* % performance: **US$ 60**
+* Mensajes multicanal: **40.000** → **US$ 80** (variable)
+* **SMS: US$ 150**
+* Piso Small: **US$ 74**
+  **Pagás a Hellotext:** **US$ 150** (SMS). *Variable no aplica.* 
+
+**Escenario 4:  Piso domina**
+
+* % performance: **US$ 0**
+* Mensajes multicanal: **10.000** → **US$ 20** (variable)
+* SMS: **US$ 0**
+* **Piso Small: US$ 74**
+  **Pagás a Hellotext:** **US$ 74** (piso). *Variable no aplica.* 
+
+## Cómo leer tu factura
+
+* **Concepto cobrado:** verás uno de los cuatro (piso / performance / SMS / tarifa variable).
+* **WhatsApp (Meta):** figura en tu factura de Meta, no en la de Hellotext.
+* **Detalle de volumen:** el panel de actividad muestra mensajes enviados e ingresos atribuidos del período. 
+
+## Preguntas frecuentes
+
+**¿Qué ventas se consideran “atribuibles”?**
+
+Aquellas en las que Hellotext fue el último click no‑directo antes de la compra, dentro de 24 h por teléfono impactado, o 7 días si el shopper hizo click en tu short link en el mismo dispositivo. No contamos manuales, ventas no vinculadas y compras en conversaciones atendidas por humanos.
+
+**¿Dónde veo las tarifas de SMS y los países disponibles?**
+
+En la tabla de Tarifas de SMS por país de [Explicación de tarifas](https://www.hellotext.com/precios).
+
+Se cobran en moneda local y entran en la regla del monto mayor. 
+
+**¿Qué incluye cada plan además del precio?**
+
+Miembros, acceso a playbooks, niveles de soporte y historial de actividad, más funciones avanzadas en planes superiores (Grow/Enterprise). 

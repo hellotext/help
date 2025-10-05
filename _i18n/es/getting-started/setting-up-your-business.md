@@ -31,8 +31,6 @@ Ahora que la cuenta de negocio está lista, comienza conectando tu plataformas d
 
 Conectar tu eCommerce hace que sea más fácil comenzar a construir perfiles de clientes con su historial completo de actividad en tiempo real.
 
-Actualmente ofrecemos integración con Mercado Libre.
-
 ## Enviar una campaña
 
 A medida que tu audiencia comienza a crecer, continua creando tu primera campaña para llegarle a tu audiencia.
