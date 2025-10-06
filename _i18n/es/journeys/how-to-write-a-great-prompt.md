@@ -1,10 +1,10 @@
-En Hellotext, cada Agente de IA comienza con un único y sencillo ingrediente: su prompt.
+En Hellotext, cada Agente de IA comienza con un ingrediente único y sencillo: el prompt.
 
 El prompt define la personalidad, el tono, el propósito y los límites del agente.
 
 Es lo que transforma una automatización abstracta en una verdadera voz de marca, capaz de vender, asistir o cautivar a los clientes como si fuera una persona de tu propio equipo.
 
-Escribir un gran prompt tiene menos que ver con la técnica y más con la claridad y la intención. Cuanto mejor definas quién es el agente, cómo debe hablar y qué no debe hacer nunca, más fielmente representará a tu marca.
+Escribir un gran prompt no tiene tanto que ver con la técnica sino mas bien con la claridad y la intención. Cuanto mejor definas quién es el agente, cómo debe hablar y qué no debe hacer nunca, más fielmente representará a tu marca.
 
 En este artículo:
 
@@ -29,7 +29,7 @@ Cada agente en Hellotext puede realizar una amplia gama de acciones de forma aut
 
 También puede buscar en URLs o documentos que adjuntes —como una sección de preguntas frecuentes, una guía de políticas o un manual de producto—, de modo que siempre responda con información verificada en lugar de adivinar.
 
-Los agentes pueden recopilar y guardar cualquier propiedad de perfil de cliente que elijas, desde el nombre y la ciudad hasta la talla o los intereses preferidos. También pueden decidir cuándo escalar una conversación a un humano, siguiendo las reglas que definas en el Editor de Recorridos.
+Los agentes pueden recopilar y guardar cualquier propiedad de perfil de cliente que elijas, desde el nombre y la ciudad hasta la talla o los intereses preferidos. También pueden decidir cuándo escalar una conversación a un humano, siguiendo las reglas que definas en el Editor de Rutas.
 
 Y, lo más importante, cada mensaje que envían pasa por los controles de privacidad y tono de Hellotext, garantizando una voz de marca coherente y el cumplimiento normativo en todos los canales.
 
@@ -93,9 +93,9 @@ Si quieres que el agente recopile o actualice datos de perfil durante las conver
 “Cada vez que un cliente mencione su ciudad o talla, guarda esa información automáticamente en su perfil.”
 
 También puedes darle instrucciones sobre cómo manejar las derivaciones:
-“Si el cliente expresa insatisfacción o menciona un reembolso, escala el caso al equipo humano ‘Mesa de Devoluciones’.”
+“Si el cliente expresa insatisfacción o menciona un reembolso, escala el caso al equipo humano ‘Devoluciones’.”
 
-Detrás de escena, el Supervisor enruta estas intenciones —ya sean recomendaciones de producto, preguntas de soporte o actualizaciones de perfil— hacia los agentes correspondientes definidos en tu espacio de trabajo.
+Detrás de escena, el Supervisor de Hellotext enruta estas intenciones —ya sean recomendaciones de producto, preguntas de soporte o actualizaciones de perfil— hacia los agentes correspondientes definidos en tu espacio de trabajo.
 
 ## Un ejemplo de prompt modelo
 
@@ -134,12 +134,7 @@ Y recuerda: el prompt no es estático. Revisa las conversaciones de tus agentes 
 
 Cuando una conversación comienza, el Supervisor de Hellotext interpreta la intención detrás de cada mensaje —ya sea una consulta sobre pedidos, una recomendación de producto o una pregunta de soporte— y la dirige al agente adecuado.
 
-Cada respuesta pasa por varios servicios antes de llegar al cliente:
-
-1. El **Creative Lab** redacta el mensaje según tu tono y contenido.
-2. El módulo **Guardrails** verifica que el texto cumpla con las normas de privacidad, tono y estilo de la marca.
-3. El motor de **Optimización del Momento de Envío (STO)** determina el momento ideal para entregar el mensaje.
-4. El **Channel Dispatcher** lo envía por el canal correcto —WhatsApp, SMS, Instagram o Webchat.
+Cada respuesta pasa por varios servicios antes de llegar al cliente.
 
 Tu prompt es la base sobre la que operan todos estos sistemas. Define cómo la inteligencia, la automatización y la personalidad de tu marca se unen en una experiencia coherente.
 
