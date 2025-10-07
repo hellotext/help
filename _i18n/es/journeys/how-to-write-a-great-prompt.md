@@ -8,18 +8,17 @@ Escribir un gran prompt no tiene tanto que ver con la técnica sino mas bien con
 
 En este artículo:
 
-* **[Qué pueden hacer los agentes por defecto](#what-agents-can-do-by-default)**
-* **[La anatomía de un buen prompt](#the-anatomy-of-a-good-prompt)**
-
-  * **[Identidad](#identity)**
-  * **[Tono](#tone)**
-  * **[Contexto](#context)**
-  * **[Comportamiento y límites](#behavior-and-boundaries)**
-* **[Enriquecer el prompt con conocimiento y reglas](#enriching-the-prompt-with-knowledge-and-rules)**
-* **[Un ejemplo de prompt modelo](#a-model-prompt-example)**
-* **[Buenas prácticas](#best-practices)**
-* **[Cómo Hellotext usa tu prompt](#how-hellotext-uses-your-prompt)**
-* **[Reflexión final](#final-reflection)**
+* **[Qué pueden hacer los agentes por defecto](#qué-pueden-hacer-los-agentes-por-defecto)**
+* **[La anatomía de un buen prompt](#la-anatomía-de-un-buen-prompt)**
+  * **[Identidad](#identidad)**
+  * **[Tono](#tono)**
+  * **[Contexto](#contexto)**
+  * **[Comportamiento y límites](#comportamiento-y-límites)**
+* **[Enriquecer el prompt con conocimiento y reglas](#enriquecer-el-prompt-con-conocimiento-y-reglas)**
+* **[Un ejemplo de prompt modelo](#un-ejemplo-de-prompt-modelo)**
+* **[Buenas prácticas](#buenas-prácticas)**
+* **[Cómo Hellotext usa tu prompt](#cómo-hellotext-usa-tu-prompt)**
+* **[Reflexión final](#reflexión-final)**
 
 ## Qué pueden hacer los agentes por defecto
 
