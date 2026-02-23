@@ -1,17 +1,17 @@
-Al utilizar las herramientas de captura de Historias de Instagram, puedes crear un enlace especial de protocolo SMS o WhatsApp 
+Al utilizar las herramientas de captura de Link Compartible, puedes crear un enlace especial de protocolo SMS o WhatsApp 
 que permite a los usuarios suscribirse directamente a tu negocio. 
-El enlace, al ser clicado, abrirá la aplicación de Mensajes o WhatsApp predeterminada en los teléfonos de tus clientes, permitiéndoles suscribirse con un solo toque. Así, podrás saber quiénes y qué porcentaje de tus suscriptores provienen de Instagram.
+El enlace, al ser clicado, abrirá la aplicación de Mensajes o WhatsApp predeterminada en los teléfonos de tus clientes, permitiéndoles suscribirse con un solo toque. Así, podrás saber quiénes y qué porcentaje de tus suscriptores provienen de este enlace.
 
 Cuando los usuarios hagan clic en el enlace, dependiendo de la configuración que hiciste al crear la captura, 
 se abrirá su aplicación de SMS o WhatsApp con un mensaje de suscripción predefinido y el número de teléfono. Todo lo que tienen que hacer es tocar *Enviar* y estarán suscritos a tu negocio.
 
 Solo tienen que pulsar *Enviar* y estarán suscritos a tu negocio. 
 
-Además, puedes usar las historias de Instagram para ofrecer incentivos para unirse, como cupones, descuentos en futuras compras y acceso a productos exclusivos.
+Además, puedes usar los links compartibles para ofrecer incentivos para unirse, como cupones, descuentos en futuras compras y acceso a productos exclusivos.
 
-## Crear enlace de captura para historia de Instagram
+## Crear un Link Compartible
 
-Para crear una captura para compartir en Instagram, desde la sección *Capturas*, haz clic en *Nuevo método de captura*. Luego, selecciona *Enlace para historia de Instagram*.
+Para crear un Link Compartible, desde la sección *Capturas*, haz clic en *Nuevo método de captura*. Luego, selecciona *Link Compartible*.
 
 ### Elige la aplicación que quieres que se abra con el enlace.
 
@@ -44,18 +44,18 @@ Este viaje se enviará al suscriptor en lugar del mensaje predeterminado.
 
 Ve al último paso y copia el enlace proporcionado.
 
-Comparte este enlace en tu nueva historia de Instagram como lo harías con un enlace regular.
+Comparte este enlace como lo harías con un enlace regular.
 
-Ahora tus clientes podrán suscribirse directamente desde tu historia de Instagram.
+Ahora tus clientes podrán suscribirse directamente desde tu link compartible.
 
 ## Compartir en Instagram {#howto-share-instagram}
 
-Usa la etiqueta de Enlace para añadir un enlace a tu historia de Instagram. Cuando las personas toquen la etiqueta, serán redirigidas.
+Usa la etiqueta de Enlace para añadir el link compartible a tu historia. Cuando las personas toquen la etiqueta, serán redirigidas.
 
 Para añadir una etiqueta de Enlace:
 
 1. Captura o sube contenido a tu historia.
 2. Selecciona la herramienta de **Sticker**. Esto puede estar ubicado en diferentes lugares dependiendo de la versión de Instagram que estés utilizando.
-3. Toca la etiqueta de “Enlace” y pega el enlace compartible para la historia de Instagram creada.
+3. Toca la etiqueta de "Enlace" y pega el link compartible creado.
 4. Coloca la etiqueta en tu historia y haz cualquier otra modificación necesaria
 5. Publica tu historia.
