@@ -206,22 +206,23 @@ section > .container {
 
 h1, h2, h3 {
   font-family: var(--font-heading);
+  font-weight: 600;
 }
 
 h1 {
-  @apply text-4xl lg:text-7xl font-medium tracking-tighter;
+  @apply text-4xl lg:text-7xl tracking-tighter;
 }
 
 h1.big-title {
-  @apply text-5xl lg:text-7xl font-medium tracking-tighter;
+  @apply text-5xl lg:text-7xl tracking-tighter;
 }
 
 h2 {
-  @apply text-3xl lg:text-6xl font-medium tracking-tighter;
+  @apply text-3xl lg:text-6xl tracking-tighter;
 }
 
 h3 {
-  @apply text-3xl lg:text-5xl font-medium tracking-tighter mb-10 lg:mb-16;
+  @apply text-3xl lg:text-5xl tracking-tighter mb-10 lg:mb-16;
 }
 
 h4 {
