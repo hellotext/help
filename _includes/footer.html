@@ -3,7 +3,17 @@
     <div>&copy; Hellotext</div>
     <div class="footer-languages">
         {% for lang in site.languages %}
-          <a href="/{% if lang != 'en' %}{{ lang }}{% endif %}" class="{% if lang == site.lang%}active{% endif %}">{{ site.data.languages[lang] }}</a>
+          {% if page.permalink_es %}
+            {% if lang == 'en' %}
+              {% assign lang_url = '/' | append: page.permalink %}
+            {% else %}
+              {% assign lang_url = '/es/' | append: page.permalink_es %}
+            {% endif %}
+          {% else %}
+            {% assign lang_url = '/' %}
+            {% if lang != 'en' %}{% assign lang_url = '/es' %}{% endif %}
+          {% endif %}
+          <a href="{{ lang_url }}" class="{% if lang == site.lang%}active{% endif %}">{{ site.data.languages[lang] }}</a>
         {% endfor %}
     </div>
   </div>
