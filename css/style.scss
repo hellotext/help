@@ -4,6 +4,11 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+/* Font variables. */
+:root {
+  --font-heading: "Bagoss", "Object Sans", "system-ui", "-apple-system", "Helvetica", "Arial", "sans-serif";
+}
+
 /* sRGB color. */
 :root {
   --banana: rgb(255, 237, 20);
@@ -88,6 +93,20 @@
     --tiger-60: color(display-P3 0.9961 0.6196 0.4000);
     --tiger-80: color(display-P3 0.9922 0.4902 0.2000);
   }
+}
+
+@font-face {
+  font-family: "Bagoss";
+  src: url("../fonts/BagossExtended-Medium.woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bagoss";
+  src: url("../fonts/BagossExtended-SemiBold.woff2");
+  font-weight: 600;
+  font-style: normal;
 }
 
 @font-face {
@@ -183,6 +202,10 @@ body > header .container {
 
 section > .container {
   @apply space-y-10;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-heading);
 }
 
 h1 {
