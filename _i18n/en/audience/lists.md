@@ -27,9 +27,9 @@ Another quick way to add contacts into lists is from the *Audience* section by s
 
 ## Renaming a list
 
-From the *Audience* section simply point over the list title that want to rename over the left side of the page. 
+From the *Audience* section simply point over the list title that you want to rename over the left side of the page.
 
-An edit icon will be visible on its right. Click on the icon. A pane will be opened on right side. 
+An edit icon will be visible on its right. Click on the icon. A pane will be opened on the right side.
 
 Rename the title and click on *Save Changes*.
 
@@ -37,12 +37,12 @@ Rename the title and click on *Save Changes*.
 
 Removing a list only removes the list itself and does not remove the contacts themselves that it may contain.
 
-From the *Audience* section simply point over the list title that want to remove over the left side of the page. 
+From the *Audience* section simply point over the list title that you want to remove over the left side of the page.
 
-An edit icon will be visible on its right. Click on the icon. A pane will be opened on right side. 
+An edit icon will be visible on its right. Click on the icon. A pane will be opened on the right side.
 
 Click on the trash icon near the bottom right area of the pane. 
 
-A confirmation dialog will ask you confirm the list deletion. 
+A confirmation dialog will ask you to confirm the list deletion.
 
 Click on *Delete* to confirm the action.

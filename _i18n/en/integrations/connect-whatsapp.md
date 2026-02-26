@@ -12,14 +12,14 @@ Before you start make sure about the following:
 * Make sure you have admin access to your company’s Meta Business account.
 
 #### You have an available phone number to use for WhatsApp.
-* You can use a phone number already registered with WhatsApp or WhatsApp Business. If you do so, you must first delete their WhatsApp account [**following these instructions**](https://faq.whatsapp.com/3059780464322392/). Please note that any existing conversation will be deleted and they will not be recoverable. If you want to keep your conversations we suggest using a new phone number.
-* If you already have a WhatsApp Business Platform account (already connected to similar service to Hellotext) you will be likely able to proceed without the account deletion. However any existing conversation will not be imported.
-* You must be able to receive SMS or phone calls in this phone number.
+* You can use a phone number already registered with WhatsApp or WhatsApp Business. If you do so, you must first delete your WhatsApp account [**following these instructions**](https://faq.whatsapp.com/3059780464322392/). Please note that any existing conversations will be deleted and cannot be recovered. If you want to keep your conversations we suggest using a new phone number.
+* If you already have a WhatsApp Business Platform account (already connected to similar service to Hellotext) you will be likely able to proceed without the account deletion. However, any existing conversations will not be imported.
+* You must be able to receive SMS or phone calls on this phone number.
 * You can use Hellotext’s acquired phone numbers or acquire a new phone number if you don’t have one already.
 
 ## Getting started
 
-To get started, sign in to Hellotext, choose your business and click in *Settings*.
+To get started, sign in to Hellotext, choose your business and click on *Settings*.
 
 Visit the section *Integrations* and click on *Browse integrations*.
 
@@ -35,7 +35,7 @@ In the next screen, mark the two checkboxes only if you have a Meta Business Sui
 
 #### Connect your WhatsApp
 
-Click on *Create your WhatsApp Business Profile*. This will open a embedded sign-up form from Meta as a popup. 
+Click on *Create your WhatsApp Business Profile*. This will open an embedded sign-up form from Meta as a popup. 
 
 <div class="note">
   If the popup doesn't open make sure that the browser is not blocking popups. Sometimes it is required to allow the browser to open popups.
@@ -43,9 +43,9 @@ Click on *Create your WhatsApp Business Profile*. This will open a embedded sign
 
 <img src="images/integrations/whatsapp/en/create-profile.jpeg" alt="" width="768" />
 
-Follow the steps in the popups. This is a straight-forward process.
+Follow the steps in the popups. This is a straightforward process.
 
-Begin by making sure you are logged on Facebook with the account that has access to your Meta Business Suite Account and click *Continue*. This will authorize Hellotext to have access only to your name and Facebook profile picture.
+Begin by making sure you are logged in to Facebook with the account that has access to your Meta Business Suite Account and click *Continue*. This will authorize Hellotext to have access only to your name and Facebook profile picture.
 
 <img src="images/integrations/whatsapp/en/facebook1.jpeg" alt="" width="500" />
 
@@ -57,7 +57,7 @@ Create a new business portfolio if you don't have one yet or choose an existing 
 
 <img src="images/integrations/whatsapp/en/facebook3.jpeg" alt="" width="500" />
 
-You can choose an existing WhatsApp Business Account and a WhatsApp Business Profile (phone number). If you don't have one previusly created you can create one in the next step. Click on *Next*.
+You can choose an existing WhatsApp Business Account and a WhatsApp Business Profile (phone number). If you don't have one previously created you can create one in the next step. Click on *Next*.
 
 <img src="images/integrations/whatsapp/en/facebook4.jpeg" alt="" width="500" />
 
@@ -65,7 +65,7 @@ Type the name of your company and the name of your business that you want to dis
 
 <img src="images/integrations/whatsapp/en/facebook5.jpeg" alt="" width="500" />
 
-Enter the phone number that you want to use with WhatsApp. You need to have SMS or voice access to phone number as you will receive a verification code in the next step. Choose between text message or phone call for receiving the verification code and click *Next*.
+Enter the phone number that you want to use with WhatsApp. You need to have SMS or voice access to the phone number as you will receive a verification code in the next step. Choose between text message or phone call for receiving the verification code and click *Next*.
 
 <img src="images/integrations/whatsapp/en/facebook6.jpeg" alt="" width="500" />
 
@@ -77,7 +77,7 @@ Congratulations! Your WhatsApp number is created and connected. Click *Finish* t
 
 <img src="images/integrations/whatsapp/en/facebook8.jpeg" alt="" width="500" />
 
-From the Hellotext wizard you should see confirmation message like this below. Click on **Continue**.
+From the Hellotext wizard you should see a confirmation message like this below. Click on **Continue**.
 
 <img src="images/integrations/whatsapp/en/profile-created.jpeg" alt="" width="768" />
 
@@ -111,7 +111,7 @@ You should be able to see your connected WhatsApp numbers.
 
 #### Associate a payment method on WhatsApp
 
-In order to be able to send messages to your customers you need to set up a payment method on Meta. You can associate a credit card or a credit line if you are already using Meta Ads to your new WhatsApp Account 
+In order to be able to send messages to your customers you need to set up a payment method on Meta. You can associate a credit card or a credit line if you are already using Meta Ads with your new WhatsApp Account.
 
 Visit the [**Meta WhatsApp Manager**](https://business.facebook.com/wa/manage/home/) page from the WhatsApp account you want to associate a payment method, select the three dots and click on *Manage account settings*.
 
@@ -151,7 +151,7 @@ From the Verification area click on *Start verification* and follow the steps. Y
 
 <img src="images/integrations/whatsapp/en/verification-1.jpeg" alt="" width="768" />
 
-This process can take severals days while Meta reviews your documentation so we recommend to start it as early as possible to increase your sending limits and to prevent Meta deactivating your WhatsApp account.
+This process can take several days while Meta reviews your documentation, so we recommend starting it as early as possible to increase your sending limits and to prevent Meta from deactivating your WhatsApp account.
 
 <img src="images/integrations/whatsapp/en/verification-2.jpeg" alt="" width="768" />
 
@@ -160,7 +160,7 @@ This process can take severals days while Meta reviews your documentation so we 
 <p>Once your account is verified, you can apply for a green badge in your WhatsApp Business Account. This is recommended as it increases trust and gives reassurance to customers that they are communicating with your business.</p>
 
 <div class="note">
-  Before you apply to a green badge you need to have a WhatsApp Business Account created with at least one verified phone number, a payment method associated to your WhatsApp Business Account and you need to complete your business verification.
+  Before you apply for a green badge you need to have a WhatsApp Business Account created with at least one verified phone number, a payment method associated with your WhatsApp Business Account and you need to complete your business verification.
 </div>
 
 Visit the [**Meta WhatsApp Manager**](https://business.facebook.com/wa/manage/home/), click on *Account tools* and select *Phone numbers*.
@@ -182,7 +182,7 @@ If Submit request is disabled make sure first that you have added a payment meth
 
 #### Can't add a payment method
 
-If your WhatsApp Business Platform Account was previusly associated to a different provider and the provider was a BSP (managed the payments) it may be required that your service provider removes the line of credit from your account before you can add yours. 
+If your WhatsApp Business Platform Account was previously associated with a different provider and the provider was a BSP (managed the payments) it may be required that your service provider removes the line of credit from your account before you can add yours. 
 
 You can ask your previous service provider to remove your line of credit from your account before attempting again.
 
@@ -212,15 +212,15 @@ In Hellotext, the variable fee of US $ 2 per 1,000 applies based on message volu
 
 Meta monitors the quality of the messages you send to your customers. 
 
-Meta typically begins allowing 250 business initiated conversations during a 24-hour window and it increases to 1,000 once you verify your business. 
+Meta typically begins allowing 250 business-initiated conversations during a 24-hour window and it increases to 1,000 once you verify your business. 
 
-We recommend to check your quality rating often and make sure you rating is high. 
+We recommend checking your quality rating often and making sure your rating is high. 
 
 To see the quality of your WhatsApp Business Account numbers visit the [**Phone numbers**](https://business.facebook.com/wa/manage/phone-numbers) section.
 
 <img src="images/integrations/whatsapp/en/quality-rating.jpeg" alt="" width="768" />
 
-If you maintain your quality rating high Meta will increase the number of messages you can send every 24 hour to 10,000, 100,000 or unlimited. 
+If you maintain your quality rating high, Meta will increase the number of messages you can send every 24 hours to 10,000, 100,000 or unlimited. 
 
 You can get more information about the current messaging limits of each of your phone numbers by clicking on the *Settings* icon.
 

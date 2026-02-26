@@ -56,15 +56,15 @@ Consulta la [**documentación de uso de la biblioteca**](https://github.com/hell
 
 A veces, es posible que desees realizar un seguimiento de los eventos que ocurrieron fuera del navegador, por ejemplo, es posible que desees realizar un seguimiento de los eventos directamente en el lado del servidor de tu sistema, o en un momento en el que el cliente no esté presente.
 
-Esto es posible capturando el identificador de sesión y almacenándolo en tu sistema para usarlo más tarde cunado quieras marcar un evento asociado a esta sesión.
+Esto es posible capturando el identificador de sesión y almacenándolo en tu sistema para usarlo más tarde cuando quieras rastrear un evento asociado a esta sesión.
 
-Para obtener la sesión actual, simplemente llame a `Hellotext.session`:
+Para obtener la sesión actual, simplemente llama a `Hellotext.session`:
 
 ```javascript
 Hellotext.session
 // Returns bBJn9vR15yPaYkWmR2QK0jopMeNxrA6l
 ```
 
-Luego puede rastrear eventos enviando una solicitud 'POST' directamente a la API.
+Luego puedes rastrear eventos enviando una solicitud `POST` directamente a la API.
 
 Más información sobre [**Seguimiento externo**](/seguimiento-externo)

@@ -5,8 +5,8 @@ Los Enlaces son creados usando el elemento de Enlace en el Editor. El elemento d
 El elemento de Enlace tiene el siguiente icono <img style='display: inline;'  src="{{site.url}}/images/icons/link.svg">
 y se encuentra en la barra de herramientas del Editor.
 
-Los Enlaces titnen la siguiente estructura: `hello.link/XXXXXX` donde `XXXXXX` es el identificador único del enlace.
+Los Enlaces tienen la siguiente estructura: `hello.link/XXXXXX` donde `XXXXXX` es el identificador único del enlace.
 
-Cuando estos enlaces son clickeados. Redireccionamos al usuario a la URL especificada cuando se creó el Enlace y adjuntaremos un identificador `hello_session`
+Cuando estos enlaces son clicados, redireccionamos al usuario a la URL especificada cuando se creó el Enlace y adjuntaremos un identificador `hello_session`
 a la URL. Este identificador es usado para identificar al usuario y puede ser usado para rastrear las acciones realizadas por el usuario.
-Puedes ver nuestra <a class="active" href='https://github.com/hellotext/hellotext.js'>Libreria de JavaScript</a> que te ayudas con eventos relacionados al rastreo.
+Puedes ver nuestra <a class="active" href='https://github.com/hellotext/hellotext.js'>Librería de JavaScript</a> que te ayuda con eventos relacionados al rastreo.

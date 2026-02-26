@@ -16,9 +16,9 @@ Hay dos formas sencillas de agregar un contacto a una lista.
 
 Si estás en una conversación, puedes hacer clic en los tres puntos cerca de la información de contacto y seleccionar *Editar*. Se abrirá un panel en el lado derecho con las propiedades del contacto para editar.
 
-Al hacer clic en el campo *Listas* aparecerá la lista de listas existentes. Puedes seleccionar tantos como quieras.
+Al hacer clic en el campo *Listas* aparecerá la lista de listas existentes. Puedes seleccionar tantas como quieras.
 
-Haga clic en *Guardar cambios* para confirmar los cambios.
+Haz clic en *Guardar cambios* para confirmar los cambios.
 
 El contacto ahora pertenece a las listas seleccionadas. Para asegurarse de que sea así, visita la página de contactos de la Lista, navegando a la sección *Audiencia* y haz clic en el nombre de la lista en el lado izquierdo de la página. El contacto debe estar visible dentro de la lista.
 

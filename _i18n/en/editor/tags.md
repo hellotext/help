@@ -1,5 +1,5 @@
 The Editor is the input you use when writing a message. It is present in 
-various places amount the platform, such as the Campaigns, Journeys, and the Inbox.
+various places around the platform, such as the Campaigns, Journeys, and the Inbox.
 
 It provides a set of powerful built-in features that allows you to enrich your messages with dynamic content, images, and links.
 
@@ -56,15 +56,15 @@ For the remaining properties, you can target by their kind and their custom name
 for these properties is that when you have multiple properties of the same kind, 
 targeting with the kind becomes ambiguous. For example,
 if your business has two `checkbox` properties named `has-logged-In` and `active-in-last-month`,
-when targeting the property by it's kind `{checkbox}` we will automatically use the first text property with respect to the ordering defined in the audience page.
+when targeting the property by its kind `{checkbox}` we will automatically use the first text property with respect to the ordering defined in the audience page.
 
 **TL;DR** use the kind only when there's a single property. Use the property's name when there are multiple properties with the same kind.
 
 ### Object tags 
 
-Hellotext ships with the most common types of Objects that is suitable for most ecommerce sites. These include
+Hellotext ships with the most common types of Objects that are suitable for most ecommerce sites. These include
 `app`, `product`, `cart`, `order`, `coupon`, `order` and `refund` objects. In addition, you can also create your custom objects,
-or modify the existing ones by adding extra properties that is specific to your business' needs. 
+or modify the existing ones by adding extra properties that are specific to your business's needs. 
 
 Similarly to profile tags, you can also target the properties of the objects in your tags. The general format of an object tag can be one of the following 
 

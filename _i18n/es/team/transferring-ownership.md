@@ -10,7 +10,7 @@ El nuevo propietario debe ser un miembro existente del equipo del negocio. Si a�
 
 Desde la sección *Opciones*, haz clic en *Equipo* en el lado izquierdo de la página.
 
-Haz clic sobre los tres puntos cerca de la derecha del miembro del equipo al que desea transferir la propiedad.
+Haz clic sobre los tres puntos cerca de la derecha del miembro del equipo al que deseas transferir la propiedad.
 
 Haz clic en *Transferir negocio* en el menú desplegado e ingresa tu contraseña actual para iniciar la transferencia.
 

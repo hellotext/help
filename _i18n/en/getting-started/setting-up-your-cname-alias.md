@@ -16,7 +16,7 @@ Short Links will be displayed in the following format when sending to customers:
 
 Aliasing a Short Link allows you to specify a specific domain to use instead of `hello.link`.
 
-It helps to make your messages more personalized as your customers to recognize the domain and automatically trust the link, this can be useful when building brand loyalty.
+It helps to make your messages more personalized, as your customers will recognize the domain and automatically trust the link. This can be useful when building brand loyalty.
 
 For example, if you own the domain `mydomain.com`, you can alias your Short Links to use `mydomain.com` instead of `hello.link`.
 
@@ -26,11 +26,11 @@ Short Links will be displayed in the following format when sending to customers:
 
 ## Configuring the alias on Hellotext
 
-To configure the alias, you need to have be an Administrator or Owner of the business.
+To configure the alias, you need to be an Administrator or Owner of the business.
 
 Firstly, login to your account, and go to the business' settings page. Click on _Edit Business_.
 
-Enter a your domain name in the CNAME field, make sure that the CNAME corresponds to a domain that you own.
+Enter your domain name in the CNAME field, and make sure that the CNAME corresponds to a domain that you own.
 
 ## Configuring a subdomain
 
@@ -59,7 +59,7 @@ After you configure the alias on Hellotext, Hellotext will start using the confi
 
 Hellotext attempts to verify the alias by pinging it every 5 minutes.
 
-Once the ping is successfully, this means the the ping has traveled from Hellotext to your DNS provider and back to Hellotext.
+Once the ping is successful, this means the ping has traveled from Hellotext to your DNS provider and back to Hellotext.
 
 This means that the alias is configured correctly and Hellotext will start using the alias for Short Links at that point.
 

@@ -17,7 +17,7 @@ Hellotext usa un modelo basado en resultados: pagas **2 % a 5 %** de las ven
 
 
 <div class="note">
-  <strong>Importante</strong>: los costos de WhatsApp de Meta se cobran por separado por Meta. Hellotext no los incluye en tu factura. <strong><a href="https://business.whatsapp.com/products/platform-pricing#rates" target="_blank">Mas información</a></strong>.
+  <strong>Importante</strong>: los costos de WhatsApp de Meta se cobran por separado por Meta. Hellotext no los incluye en tu factura. <strong><a href="https://business.whatsapp.com/products/platform-pricing#rates" target="_blank">Más información</a></strong>.
 </div>
 
 ## Cómo funciona el modelo
@@ -96,7 +96,7 @@ Los mensajes con IA en WhatsApp/Instagram/Webchat están incluidos sin costo sie
 * **(b)** tu tarifa por performance (2–5 %)
 * **(c)** tus costos de SMS del mes.
 
-Solo si los tres son menores, se cobra la tarifa variable de US $ 2 por cada 1.000 mensajes (nunca demás de los otros conceptos). *(Regla “pagas solo el mayor”)*.
+Solo si los tres son menores, se cobra la tarifa variable de US $ 2 por cada 1.000 mensajes (nunca además de los otros conceptos). *(Regla “pagas solo el mayor”)*.
 
 ## Tarifas de SMS por país
 

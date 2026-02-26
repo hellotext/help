@@ -1,4 +1,4 @@
-Una de las técnicas de marketing más poderosas es la capacidad de rastrear lo que hacen tus clientes cuando interactúan con tu marca. Esto podría ser cuando navegan por tu sitio o visitan tu tienda física. El seguimiento de las acciones de tu clientes de manera unificada desbloquea una cantidad sin precedentes de posibilidades: segmenta tu audiencia en función de su comportamiento para llegar a ellos con campañas de mayor precisión, activea automatizaciones en función de lo que hacen los clientes y deje que tu equipo use estos datos a medida que ocurren como oportunidades para participar y vender más.
+Una de las técnicas de marketing más poderosas es la capacidad de rastrear lo que hacen tus clientes cuando interactúan con tu marca. Esto podría ser cuando navegan por tu sitio o visitan tu tienda física. El seguimiento de las acciones de tus clientes de manera unificada desbloquea una cantidad sin precedentes de posibilidades: segmenta tu audiencia en función de su comportamiento para llegar a ellos con campañas de mayor precisión, activa automatizaciones en función de lo que hacen los clientes y deja que tu equipo use estos datos a medida que ocurren como oportunidades para participar y vender más.
 
 Uno de los aspectos clave que hace que Hellotext sea único es su capacidad para rastrear fácilmente todas las acciones importantes que realizan tus clientes sin importar cual sea su origen: por ejemplo lo que hacen en tu eCommerce, tu comercio físico o en cualquier otro lugar.
 
@@ -20,7 +20,7 @@ Por ejemplo, ejemplos de acciones son:
 
 * `order.placed` Se ha realizado el pedido.
 * `order.confirmed` Confirmaste el pedido.
-* `order.cancelled` El pedido ha sido cancelado por tí o tú cliente.
+* `order.cancelled` El pedido ha sido cancelado por ti o tu cliente.
 * `order.shipped` El pedido ha sido enviado a tu cliente.
 * `order.delivered` El pedido ha sido entregado a tu cliente.
 
@@ -78,13 +78,13 @@ Es el objeto que se crea cuando realizas un seguimiento de una acción de un cli
 
 ### Mercado Libre
 
-Si vendes en Mercado Libre, rastreas las compras de tus clientes automáticamente.
+Si vendes en Mercado Libre, puedes rastrear las compras de tus clientes automáticamente.
 
 Simplemente conecta tu cuenta de Mercado Libre en pocos clics y comenzarás a rastrear los siguientes eventos de inmediato:
 
 * `order.confirmed` Has confirmado el pedido.
 * `order.shipped` El pedido ha sido enviado a tu cliente.
-* `order.cancelled` El pedido ha sido cancelado por tí o tú cliente.
+* `order.cancelled` El pedido ha sido cancelado por ti o tu cliente.
 * `refund.requested` Un cliente solicitó un reembolso.
 * `refund.received` Realizaste un reembolso a su cliente.
 
@@ -92,7 +92,7 @@ Simplemente conecta tu cuenta de Mercado Libre en pocos clics y comenzarás a ra
 
 ### Seguimiento con Javascript
 
-Para realizar un seguimiento de los eventos del lado del cliente, puedes usar la libreria de javascript **[Hellotext.js](https://github.com/hellotext/hellotext.js)**.
+Para realizar un seguimiento de los eventos del lado del cliente, puedes usar la librería de Javascript **[Hellotext.js](https://github.com/hellotext/hellotext.js)**.
 
 Consulta el repositorio de Github en **[hellotext/hellotext.js](https://github.com/hellotext/hellotext.js)** para ver las últimas instrucciones de instalación y configuración.
 

@@ -1,6 +1,6 @@
 Al invitar a tu equipo a tu negocio en Hellotext, es posible que quieras limitar el acceso que tienen y asegurarte que el alcance de sus privilegios estén acorde a sus responsabilidades.
 
-Para ello ofrecemos la posibilidad de asignar  diferentes roles a cada miembro del equipo. No todos necesitan ver todo y al establecer el rol correcto te aseguras de que las partes más sensibles estén disponibles solo para los miembros del equipo apropiados.
+Para ello ofrecemos la posibilidad de asignar diferentes roles a cada miembro del equipo. No todos necesitan ver todo y al establecer el rol correcto te aseguras de que las partes más sensibles estén disponibles solo para los miembros del equipo apropiados.
 
 ### Agente
 

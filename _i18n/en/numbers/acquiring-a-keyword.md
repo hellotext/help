@@ -2,13 +2,13 @@ Keywords are simple words that customers can send to a short code to subscribe.
 
 If you don't own a dedicated short code and still want to offer your customers an easy way for them to subscribe, you can acquire a keyword on any of the available shared short codes.
 
-For example, you may obtain the keyword SHOES on the short code 4884 to ask your subscriber to join: 
+For example, you may obtain the keyword SHOES on the short code 4884 to ask your subscribers to join:
 
 *Send SHOES to 4884 to subscribe and get 15% OFF your next purchase*.
 
-You can also setup a custom journey and send an automatic response with a discount coupon when a new customer subscribes using this keyword.
+You can also set up a custom journey and send an automatic response with a discount coupon when a new customer subscribes using this keyword.
 
-Keywords are an easy way to get subscribers offline and they do very well on printed media like ads, flyers, posters or packaged goods. 
+Keywords are an easy way to get subscribers offline and they do very well on printed media like ads, flyers, posters or packaged goods.
 
 ## How to obtain a keyword
 

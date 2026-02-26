@@ -53,5 +53,3 @@ Always create an audience called **"test"** that includes your personal number a
 ## Inbox
 
 Be sure to mark conversations as closed when the interaction with a customer has ended. This way, you’ll keep your inbox organized and know which conversations still need a response.
-
-Feel free to copy and paste this markdown for your use! Let me know if you’d like further adjustments!

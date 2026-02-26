@@ -8,7 +8,7 @@ By connecting your Mercado Libre seller account, you can:
 * Send post-sale automatic replies using pre-built journey templates.
 * Manage notes from sales directly in Hellotext.
 
-If you're an business selling on multiple channels, connecting your Mercado Libre account can help you keep all your customer profiles in one place, with a complete history of past purchases. This makes it easier to create targeted campaigns that aggregate the data from customers who have purchased on Mercado Libre.
+If you're a business selling on multiple channels, connecting your Mercado Libre account can help you keep all your customer profiles in one place, with a complete history of past purchases. This makes it easier to create targeted campaigns that aggregate the data from customers who have purchased on Mercado Libre.
 
 ## Connect your Mercado Libre account
 

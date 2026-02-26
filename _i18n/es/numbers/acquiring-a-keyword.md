@@ -1,7 +1,7 @@
 
 Los keywords son palabras que tus clientes pueden enviar a un código corto para suscribirse.
 
-Si no tienes un código corto dedicado y aún deseas ofrecer tus sus clientes una manera fácil de suscribirse, puedes adquirir un keyword en cualquiera de los códigos cortos compartidos disponibles.
+Si no tienes un código corto dedicado y aún deseas ofrecer a tus clientes una manera fácil de suscribirse, puedes adquirir un keyword en cualquiera de los códigos cortos compartidos disponibles.
 
 Por ejemplo, puedes obtener el keyword ZAPATOS en el código corto 4884 para pedirle a su suscriptor que se una, por ejemplo:
 
@@ -36,6 +36,6 @@ Puedes ver y administrar tus keywords desde la pestaña *Keywords* en la página
 
 Dependiendo de tu plan actual, puedes tener una cierta cantidad de keywords que puedes usar sin costo adicional.
 
-Puede ver cuántos keywords tienes disponibles en tu plan desde la pestaña *Keywords* en la página *Números* o también mientras obtienes un nuevo keyword  en el momento de la selección y confirmación final.
+Puedes ver cuántos keywords tienes disponibles en tu plan desde la pestaña *Keywords* en la página *Números* o también mientras obtienes un nuevo keyword en el momento de la selección y confirmación final.
 
 Si necesitas más keywords fuera del límite de su plan actual, el precio por palabra clave adicional es de $50 USD por mes.

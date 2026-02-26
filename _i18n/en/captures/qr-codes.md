@@ -1,4 +1,4 @@
-Using QR codes to subscribe to SMS messaging can be a useful tool for eCommerce,  retail and consumer packaged goods (CPG) industries. 
+Using QR codes to subscribe to SMS messaging can be a useful tool for eCommerce, retail and consumer packaged goods (CPG) industries.
 
 Here are some examples of how QR codes can be used in these contexts:
 
@@ -26,7 +26,7 @@ You can also customize the pre-filled message that customers will send to subscr
 
 ### Assigning coupons and journeys
 
-On the next step, you have the option to choose what happens after your customer subscribe. 
+On the next step, you have the option to choose what happens after your customer subscribes.
 
 By default, a welcome message is sent to the subscriber. 
 

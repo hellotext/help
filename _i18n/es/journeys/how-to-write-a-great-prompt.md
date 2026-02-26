@@ -4,7 +4,7 @@ El prompt define la personalidad, el tono, el propósito y los límites del agen
 
 Es lo que transforma una automatización abstracta en una verdadera voz de marca, capaz de vender, asistir o cautivar a los clientes como si fuera una persona de tu propio equipo.
 
-Escribir un gran prompt no tiene tanto que ver con la técnica sino mas bien con la claridad y la intención. Cuanto mejor definas quién es el agente, cómo debe hablar y qué no debe hacer nunca, más fielmente representará a tu marca.
+Escribir un gran prompt no tiene tanto que ver con la técnica sino más bien con la claridad y la intención. Cuanto mejor definas quién es el agente, cómo debe hablar y qué no debe hacer nunca, más fielmente representará a tu marca.
 
 En este artículo:
 

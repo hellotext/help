@@ -1,4 +1,4 @@
-If you need more control over your journeys, custom journey are here to help. 
+If you need more control over your journeys, custom journeys are here to help.
 
 While we have a range of pre-defined templates to cover common journey needs, custom journeys give you the possibility to create more expressive automations better adjusted to your needs.
 
@@ -40,7 +40,7 @@ This is a great way to customize the flow of the journey based on different cond
 
 ### Wait 
 
-"The *Wait* step is a timer that pauses the journey until the specified time has elapsed. By default, journeys do not have any waiting time, so all steps are processed one after the other.
+The *Wait* step is a timer that pauses the journey until the specified time has elapsed. By default, journeys do not have any waiting time, so all steps are processed one after the other.
 
 For example, you can use a wait step to set a two-hour delay before sending a cart abandonment reminder after someone adds an item to their cart.
 
@@ -50,4 +50,4 @@ To save your changes to the journey, click the *Save Changes* button in the top 
 
 By default, all journeys remain in draft mode until they are published.
 
-When you are ready to activate the journey, click *Publish*. To deactivate the journey later, click *Make inactive*."
+When you are ready to activate the journey, click *Publish*. To deactivate the journey later, click *Make inactive*.

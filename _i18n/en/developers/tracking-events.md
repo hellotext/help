@@ -1,4 +1,4 @@
-One of the most powerful marketing techniques is the ability to track what your customers do when they interact with your brand. This could be when they browse your site or visit your physical store. Tracking your customers actions in an unified way unlocks an unprecedented number of possibilities: segment your audience based on their behavior to reach them with better precision campaigns, trigger automations based on what customers do and let your team use this data as it happens as opportunities to engage and sell more.
+One of the most powerful marketing techniques is the ability to track what your customers do when they interact with your brand. This could be when they browse your site or visit your physical store. Tracking your customers' actions in a unified way unlocks an unprecedented number of possibilities: segment your audience based on their behavior to reach them with better precision campaigns, trigger automations based on what customers do and let your team use this data as it happens as opportunities to engage and sell more.
 
 One of the key aspects that makes Hellotext unique is its ability to easily track all the important actions that your customers perform from any source that matters to you: that can be what they do at your eCommerce site, your physical retail shop or in any other valuable interaction.
 
@@ -31,7 +31,7 @@ For example, examples of actions are:
 
 ### Coupon actions
 
-* `coupon.redeemed` A coupon was redeem by a customer.
+* `coupon.redeemed` A coupon was redeemed by a customer.
 
 ### Refund actions
 
@@ -78,7 +78,7 @@ It is the object that is created when you track an action of a customer.
 
 ### Mercado Libre
 
-If you sell on Mercado Libre you track track your customers purchases automatically. 
+If you sell on Mercado Libre you can track your customers' purchases automatically.
 
 Simply connect your Mercado Libre account with just a few clicks and you will start tracking the following events immediately:
 

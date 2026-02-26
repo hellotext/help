@@ -68,4 +68,4 @@ HTTParty.post "https://api.hellotext.com/v1/profiles",
 
 La respuesta devolverá el identificador del perfil.
 
-Utilice este identificador de perfil ahora para adjuntar la sesión siguiendo las instrucciones descritas en *Adjuntar sesión a un perfil existente*.
+Utiliza este identificador de perfil ahora para adjuntar la sesión siguiendo las instrucciones descritas en *Adjuntar sesión a un perfil existente*.

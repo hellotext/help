@@ -6,7 +6,7 @@ Habilitar el registro de marketing le permitirá recopilar el correo electrónic
 - Vaya a [Configuración de pago / Checkout Settings](https://admin.shopify.com/settings/checkout).
 - Vaya a "Opciones de Marketing"/"Marketing options".
 - Seleccione Email, SMS o ambas.
-- Listo!
+- ¡Listo!
 
 Esto es lo que debería ver. Asegúrese de seleccionar su método de marketing preferido o ambos.
 ![Shopify Marketing Options](images/captures/shopify-marketing-options.png)

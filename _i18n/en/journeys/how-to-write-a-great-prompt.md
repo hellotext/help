@@ -132,7 +132,7 @@ And remember: the prompt is not static. Review your agents’ conversations from
 
 ## How Hellotext uses your prompt
 
-When a conversation starts, Hellotext’s Supervisor reads the intent behind each message, whether it’s an order inquiry, a product recommendation, or a support question and routes it to the correct agent.
+When a conversation starts, Hellotext’s Supervisor reads the intent behind each message, whether it’s an order inquiry, a product recommendation, or a support question, and routes it to the correct agent.
 
 Each response passes through several services before it reaches the customer:
 

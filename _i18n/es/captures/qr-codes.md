@@ -40,7 +40,7 @@ Este viaje se enviará al suscriptor en lugar del mensaje predeterminado.
 
 ## Obtener el código QR
 
-Una vez que hayas terminado, continua al último paso para descargar tu código QR en formato SVG.
+Una vez que hayas terminado, continúa al último paso para descargar tu código QR en formato SVG.
 
 SVG es un formato vectorial, lo que significa que tu código QR siempre se verá bien, independientemente de su tamaño. Es ideal para utilizar en materiales impresos, en el packaging o en la web.
 

@@ -18,14 +18,14 @@ From available options to choose from, select **Website Form** and you will be t
 <img src="images/captures/forms/en/component-header.jpeg" alt="" width="768" />
 
 The Hero is the header of the form. It is the first thing that your subscribers see when the form is loaded. 
-Hellotext, when loading the form looks for an HTML element with the `data-form-hero` attribute and load the content inside it.
+Hellotext, when loading the form, looks for an HTML element with the `data-form-hero` attribute and loads the content inside it.
 If the element is not found, Hellotext creates the header manually, and prepends it to the form, making sure that it is the first component in the element.
 
 ### Inputs
 
 <img src="images/captures/forms/en/component-inputs.jpeg" alt="" width="768" />
 
-The Inputs are the fields that your subscribers need to fill, you can specify which fields are required and which one are not in the Form editor. 
+The Inputs are the fields that your subscribers need to fill. You can specify which fields are required and which ones are not in the Form editor. 
 In the form editor, you can add any field based on an existing property, and control whether the field is required or not. For each Input, Hellotext generates an HTML element that looks like this
 
 ```html
@@ -68,7 +68,7 @@ Once all verifiable data has been verified, the data is considered to be _verifi
 
 Once verification of a submission is complete, Hellotext performs an automatic merge (if needed) of all profiles
 that have the same email and/or phone number. After automatic merging, if a property has multiple values,
-it will be visible in the Audience page and the you can see the values that were merged and decide which one
+it will be visible in the Audience page and you can see the values that were merged and decide which one
 to ignore and which one to accept.
 
 ## Understanding the generated code
@@ -131,7 +131,7 @@ Please refer to our [Pricing](https://www.hellotext.com/pricing) for more inform
 
 ## JavaScript Events
 
-Forms rely on [Hellotext.js](https://github.com/hellotext/hellotext.js), it's required to install Hellotext.js to dynamically populate the form. The following events are dispatched by Hellotext.js
+Forms rely on [Hellotext.js](https://github.com/hellotext/hellotext.js); it is required to install Hellotext.js to dynamically populate the form. The following events are dispatched by Hellotext.js
 
 - `forms:collected` - Dispatched when Hellotext collects all the forms. Collection means that Hellotext has contacted the API and fetched the form data. The event's payload is the array of forms that were collected.
 - `form:completed` - Dispatched when the user fills all required inputs in the form, and successfully completes the One Time Password code we send. 

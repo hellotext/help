@@ -12,9 +12,9 @@ y a dónde fueron redirigidos.
 
 Por defecto, Hellotext genera enlaces cortos utilizando el dominio `hello.link`. Los enlaces cortos se mostrarán en el siguiente formato al enviar a los clientes: `hello.link/XXXXXX`.
 
-Alias de un enlace corto le permite especificar un dominio específico para usar en lugar de `hello.link`.
+El alias de un enlace corto le permite especificar un dominio específico para usar en lugar de `hello.link`.
 
-Ayuda a hacer su mensajes más personalizados ya que sus clientes reconocen el dominio y confían automáticamente en el enlace, esto puede ser útil cuando se construye la lealtad de la marca.
+Ayuda a hacer sus mensajes más personalizados, ya que sus clientes reconocen el dominio y confían automáticamente en el enlace. Esto puede ser útil cuando se construye la lealtad de la marca.
 
 Por ejemplo, si usted es dueño del dominio `mydomain.com`, puede alias sus enlaces cortos para usar `mydomain.com` en lugar de `hello.link`.
 
@@ -26,9 +26,9 @@ Los enlaces cortos se mostrarán en el siguiente formato al enviar a los cliente
 
 Para configurar el alias, debe ser un administrador o propietario del negocio.
 
-En primer lugar, inicie sesión en su cuenta y vaya a la página de configuración del negocio. Haga clic en _Editar negocio_
+En primer lugar, inicie sesión en su cuenta y vaya a la página de configuración del negocio. Haga clic en _Editar negocio_.
 
-Y luego ingrese un nombre de dominio en el campo CNAME, asegúrese de que el cname corresponda a un dominio que usted posea.
+Luego ingrese un nombre de dominio en el campo CNAME y asegúrese de que el CNAME corresponda a un dominio que usted posea.
 
 ## Configurar un subdominio
 
@@ -60,15 +60,14 @@ Una vez que el ping se realiza con éxito, esto significa que el ping ha viajado
 
 Esto indica que el alias está configurado correctamente y Hellotext comenzará a usar el alias para enlaces cortos en ese momento.
 
-Cuando actualices el alias, Hellotext iniciará nuevamente el proceso de verificación
+Cuando actualices el alias, Hellotext iniciará nuevamente el proceso de verificación.
 
 ## Notas sobre cómo cambiar el alias
 
 Los alias se utilizan en los mensajes enviados a los clientes; después de configurar el alias en un dominio específico, debes tener cuidado al cambiarlo nuevamente.
 
-Si cambia el alias, Hellotext comenzará a usar ese alias inmediatamente después de haberlo verificado.
+Si cambias el alias, Hellotext comenzará a usar ese alias inmediatamente después de haberlo verificado.
 
-Sin embargo, los mensajes que se enviaron antes de que se cambiara el alias seguirán usando el alias anterior. Esto significa que cuando cambias el alias,
-debe configurar redireccionamientos correctos a `hello.link` para el alias anterior, de modo que los clientes aún puedan abrir los enlaces cortos que se les enviaron antes de que se cambiara el alias.
+Sin embargo, los mensajes que se enviaron antes de que se cambiara el alias seguirán usando el alias anterior. Esto significa que cuando cambias el alias, debes configurar redireccionamientos correctos a `hello.link` para el alias anterior, de modo que los clientes aún puedan abrir los enlaces cortos que se les enviaron antes de que se cambiara el alias.
 
 Hellotext no es responsable de enrutar enlaces cortos antiguos al destino correcto, por lo que debes asegurarte de que el alias anterior siga siendo válido.

@@ -1,7 +1,7 @@
 The editor is the main tool you use to create and write effective, dynamic, and engaging messages for your customers. 
 It is packed with many features that allow you to use it for a variety of purposes, from sending simple messages to creating complex journeys that guide your customers through a series of steps.
 
-It has different tools that enable you to enrich the message with attachments(images, videos, etc), emojis, links, sharing contact cards, and more.
+It has different tools that enable you to enrich the message with attachments (images, videos, etc.), emojis, links, sharing contact cards, and more.
 This guide is for people who want to know the various features of the editor and how to use them effectively.
 
 ### How to format your messages 

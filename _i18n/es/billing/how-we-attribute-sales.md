@@ -19,7 +19,7 @@ Con este mecanismo te aseguras de que solo las ventas que se originan a partir d
 * **Ventas no generadas por Hellotext**: cualquier compra que no haya tenido un impacto directo a través de la plataforma.
 * **Enlaces enviados por tu equipo**: enlaces (incluidos los cortos) que tu equipo distribuye directamente en las conversaciones.
 * **Eventos creados manualmente**: acciones de seguimiento o registro de ventas que configures manualmente fuera de Hellotext.
-* **Ordenes no confirmadas, canceladas, o devoluciones**: Solo atribuimos ordenes confirmadas y excluimos devoluciones.
+* **Órdenes no confirmadas, canceladas o con devoluciones**: solo atribuimos órdenes confirmadas y excluimos devoluciones.
 
 ### Resumen
 

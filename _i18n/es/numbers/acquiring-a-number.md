@@ -1,10 +1,10 @@
-Puede obtener líneas de telefonía móvil exclusivas que están listas para usar de inmediato. 
+Puedes obtener líneas de telefonía móvil exclusivas que están listas para usar de inmediato.
 
 Puedes usar estos números dedicados para enviar tus campañas, recibir mensajes de clientes y configurar WhatsApp.
 
 ## Cómo obtener un número
 
-Desde la página *Opciones*, visita *Números*  desde el menú en el lado izquierdo de la página.
+Desde la página *Opciones*, visita *Números* desde el menú en el lado izquierdo de la página.
 
 En la sección Números, *Configure un nuevo número de palabra clave*.
 

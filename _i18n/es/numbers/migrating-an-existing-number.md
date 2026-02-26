@@ -4,7 +4,7 @@ Migra tus números de teléfono móvil existentes y aprovecha todos los benefici
 
 Para migrar un número existente, debes enviarnos la tarjeta SIM física del número y nosotros nos encargamos de configurarlo rápidamente y dejarlo listo en tu cuenta.
 
-Ponte en contacto con tu executivo de cuenta para organizar la entrega de la tarjeta SIM. Una vez que la recibimos, el proceso es bastante rápido y no es necesario que hagas nada más de tu parte.
+Ponte en contacto con tu ejecutivo de cuenta para organizar la entrega de la tarjeta SIM. Una vez que la recibimos, el proceso es bastante rápido y no es necesario que hagas nada más de tu parte.
 
 Tenga en cuenta que actualmente solo soportamos SMS (tanto para enviar como para recibir). El soporte para llamadas de voz se agregará en el futuro. Si actualmente recibes llamadas telefónicas en este número, puede que no sea una buena idea migrarlo a Hellotext todavía.
 
@@ -12,7 +12,7 @@ Tenga en cuenta que actualmente solo soportamos SMS (tanto para enviar como para
 
 Si ya posees un código corto y ya tienes los acuerdos con los operadores móviles, es posible migrarlo a Hellotext.
 
-Ponte en contacto con tu executivo de cuenta para coordinar los próximos pasos. Nuestro equipo te proporcionará los detalles que debes enviar a los operadores para configurar el número corto en la plataforma Hellotext.
+Ponte en contacto con tu ejecutivo de cuenta para coordinar los próximos pasos. Nuestro equipo te proporcionará los detalles que debes enviar a los operadores para configurar el número corto en la plataforma Hellotext.
 
 ## Precios
 

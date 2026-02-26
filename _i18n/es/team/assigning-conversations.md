@@ -12,7 +12,7 @@ Selecciona una conversación de la *Bandeja*.
 
 Las conversaciones que quedan sin asignar se pueden asignar fácilmente a tí simplemente haciendo clic en el botón *Asignarme* cerca de la parte superior derecha de la conversación.
 
-Una alternativa más conveniente es simplemente responder en la conversación. Mientras la conversación aún no esté asignada, se te asignará automáticamente cuando envies un mensaje.
+Una alternativa más conveniente es simplemente responder en la conversación. Mientras la conversación aún no esté asignada, se te asignará automáticamente cuando envíes un mensaje.
 
 Si la conversación ya está asignada a otra persona, puedes re-asignársela a tí haciendo clic en los tres puntos cerca de la parte superior derecha de la conversación, selecciona *Asignar* y luego seleccionate a tí en la lista.
 

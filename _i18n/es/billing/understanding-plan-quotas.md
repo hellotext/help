@@ -53,7 +53,7 @@ Costo de SMS, Tarifa variable (US$ 2/1.000) }_
 * Piso: **US$ 0**
   **Pagas a Hellotext:** **US$ 100** (mayor). **WhatsApp (Meta):** aparte. 
 
-**Escenario 2:  Mes de poco performance y alto volumen (Small)**
+**Escenario 2: Mes de poco performance y alto volumen (Small)**
 
 * % performance: **US$ 30**
 * Mensajes multicanal: **50.000** → **US$ 100** (variable)
@@ -61,7 +61,7 @@ Costo de SMS, Tarifa variable (US$ 2/1.000) }_
 * Piso Small: **US$ 74**
   **Pagas a Hellotext:** **US$ 100** (la variable es la mayor).
 
-**Escenario 3:  SMS domina**
+**Escenario 3: SMS domina**
 
 * % performance: **US$ 60**
 * Mensajes multicanal: **40.000** → **US$ 80** (variable)
@@ -69,7 +69,7 @@ Costo de SMS, Tarifa variable (US$ 2/1.000) }_
 * Piso Small: **US$ 74**
   **Pagas a Hellotext:** **US$ 150** (SMS). *Variable no aplica.* 
 
-**Escenario 4:  Piso domina**
+**Escenario 4: Piso domina**
 
 * % performance: **US$ 0**
 * Mensajes multicanal: **10.000** → **US$ 20** (variable)

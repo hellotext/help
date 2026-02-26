@@ -1,8 +1,8 @@
-If you are new to Hellotext start here. This guide will help you through the first steps to set up your business. 
+If you are new to Hellotext, start here. This guide will help you through the first steps to set up your business.
 
-This is a simple guide just to get you started covering some of the most basics aspects. 
+This is a simple guide just to get you started, covering some of the most basic aspects.
 
-We always encourage to read the guides covering each of the topics in detail. 
+We always encourage you to read the guides covering each of the topics in detail.
 
 ## Create the business
 
@@ -22,15 +22,15 @@ You will be asked to enter a credit card to activate your plan. You will not be 
 
 If you prefer to skip the credit and plan to make payments via bank deposits, choose *Wire deposit* instead and continue.
 
-Newly created businesses are always invoiced under a prepaid agreement. This means that in order to activate you trial you need to make a refundable deposit first.
+Newly created businesses are always invoiced under a prepaid agreement. This means that in order to activate your trial you need to make a refundable deposit first.
 
 Businesses with invoicing agreement as *credit* can activate a trial without a bank deposit.
 
 ## Connect your eCommerce
 
-Now that you the business account is ready, get started by connecting your existing eCommerce platforms.
+Now that the business account is ready, get started by connecting your existing eCommerce platforms.
 
-Connecting your eCommerce make it easier to start building your customer profiles with their complete history of activity in real-time.
+Connecting your eCommerce makes it easier to start building your customer profiles with their complete history of activity in real-time.
 
 ## Send a campaign
 
@@ -49,9 +49,9 @@ Keep reading:
 
 You sent your first campaigns and now customers are responding back with inquiries that appear directly on the Inbox. 
 
-Now it's probably a good moment to invite another team member to help you managing these incoming conversations.
+Now it's probably a good moment to invite another team member to help you manage these incoming conversations.
 
-Team members can join your business on Hellotext and actively interact with your customers either by responding their inquires or actively initiating conversation based on their activities. 
+Team members can join your business on Hellotext and actively interact with your customers either by responding to their inquiries or actively initiating conversations based on their activities.
 
 * **[Understanding team roles](/understanding-team-roles)**
 

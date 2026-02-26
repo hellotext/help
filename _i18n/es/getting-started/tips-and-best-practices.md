@@ -54,5 +54,3 @@ Crea una audiencia llamada **"test"** que incluya tu número personal y el de al
 ## Bandeja
 
 Recuerda marcar las conversaciones como cerradas cuando la interacción con un cliente haya finalizado. De esta forma, mantendrás tu bandeja organizada y sabrás qué conversaciones aún necesitan atención.
-
-You can now copy and paste this markdown format directly. Let me know if you need further modifications!

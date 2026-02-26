@@ -1,6 +1,6 @@
 Segments let you create lists of subscribers based on conditions which are automatically managed in real-time without having to do it manually.
 
-Reach your audience based on their characteristics (like location, age, gender) , their behavior (what they purchased, how much they spent) or any possible combination of both.
+Reach your audience based on their characteristics (like location, age, gender), their behavior (what they purchased, how much they spent) or any possible combination of both.
 
 Segments are updated in real-time and always contain those subscribers matching the current conditions specified.
 
@@ -15,7 +15,7 @@ These are the properties of your subscribers. You can provide this information u
 * **Gender**
 * **Age** 
 * **Location**: Select cities, entire regions or countries.
-* **Device**: If subscribed via a web capture such as a pop-up or if clicked on short link o the tracker is installed on your website and the subscriber is associated to the session it is possible to target by kind of device (desktop, mobile, tablet), device brand, OS.
+* **Device**: If subscribed via a web capture such as a pop-up or if clicked on a short link or the tracker is installed on your website and the subscriber is associated to the session it is possible to target by kind of device (desktop, mobile, tablet), device brand, OS.
 * **Mobile operator**
 * **Subscription method**: How they subscribed to your list: keyword, short code or phone number, QR code or capture.
 * **Custom properties**: Any custom defined property that you previously created.
@@ -24,14 +24,14 @@ These are the properties of your subscribers. You can provide this information u
 
 Actions performed on your audience can be used for segmentation and are in fact one of the most powerful and effective ways to segment.
 
-Some actions like when a short link is clicked as automatically tracked as events. If you connect your eCommerce website with one of our ready-to-go implementations like Mercado Libre you will benefit for real-time reporting events performed by your subscribers such as the products they purchased and the amount spent. 
+Some actions like when a short link is clicked as automatically tracked as events. If you connect your eCommerce website with one of our ready-to-go implementations like Mercado Libre you will benefit from real-time reporting events performed by your subscribers such as the products they purchased and the amount spent. 
 
-Some examples of activities you can use for segment:
+Some examples of activities you can use for segmentation:
 
 * **Clicked on a short link**: When a subscriber clicked a short link from a message campaign you have sent. 
 * **Viewed a product or visited a page** 
 * **Added items to the cart**
-* **Purchase a product**
+* **Purchased a product**
 * **Installed an app**
 * **Completed a form** 
 * **Custom actions**: Any custom action created by you.
@@ -53,9 +53,9 @@ It takes a few seconds to start seeing the subscribers in your newly created seg
 
 ## Edit a segment
 
-From the *Audience* section simply move the mouse over the segment title that want to edit on the left side. 
+From the *Audience* section simply move the mouse over the segment title that you want to edit on the left side.
 
-An edit icon will be visible on its right. Click on the icon. A pane will be opened on right side of the page. 
+An edit icon will be visible on its right. Click on the icon. A pane will be opened on the right side of the page.
 
 After you are done editing your segment click on *Save Changes*.
 
@@ -65,13 +65,13 @@ It can take a few seconds to refresh the segment and reflect your new changes.
 
 Removing a segment only removes the segment itself and does not delete the contacts that it may contain.
 
-From the *Audience* section simply move the mouse over the segment title that want to remove on the left side. 
+From the *Audience* section simply move the mouse over the segment title that you want to remove on the left side.
 
-An edit icon will be visible on its right. Click on the icon. A pane will be opened on right side of the page. 
+An edit icon will be visible on its right. Click on the icon. A pane will be opened on the right side of the page.
 
 Click on the trash icon near the bottom right area of the pane. 
 
-A confirmation dialog will ask you confirm the list deletion. 
+A confirmation dialog will ask you to confirm the segment deletion.
 
 Click on *Delete* to confirm the action.
 

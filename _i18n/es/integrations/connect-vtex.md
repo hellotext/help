@@ -26,8 +26,8 @@ Las claves de aplicación permiten que el sistema externo acceda a tu cuenta, po
 2. En el campo Etiqueta, ingresa el propósito de la clave de aplicación. Esto te ayudará a identificar fácilmente la clave de Hellotext si tienes otras claves de API internas.
 3. Agrega **Roles** haciendo clic en ellos para otorgar privilegios de administrador a la clave de API.
 4. Haz clic en Generar.
-5. Verás un enlace generado al token. Copia la URL y pegala en el navegador para obtener la clave y el token de aplicación.
-6. Copia la Clave y el Token de Aplicación y guárdalo en un lugar seguro. Solo se muestra una vez.
+5. Verás un enlace generado al token. Copia la URL y pégala en el navegador para obtener la clave y el token de aplicación.
+6. Copia la Clave y el Token de Aplicación y guárdalos en un lugar seguro. Solo se muestran una vez.
 
 #### Agregar las credenciales en Hellotext
 

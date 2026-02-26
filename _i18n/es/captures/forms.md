@@ -66,9 +66,9 @@ Cuando creas un formulario que tiene una propiedad de _Teléfono_ o _Correo Elec
 
 Una vez que todos los datos verificables han sido verificados, los datos se consideran _confiables_.
 
-Una vez que se completa la verificación de un envío, Hellotext realiza una combinación automática (si es necesario) de todos los perfiles.
+Una vez que se completa la verificación de un envío, Hellotext realiza una combinación automática (si es necesario) de todos los perfiles
 que tengan el mismo correo electrónico y/o número de teléfono. Después de la fusión automática, si una propiedad tiene varios valores,
-Será visible en la página Audiencia y podrá ver los valores que se fusionaron y decidir cuál.
+será visible en la página Audiencia y podrás ver los valores que se fusionaron y decidir cuál
 ignorar y cuál aceptar.
 
 ## Entendiendo el código generado
@@ -103,7 +103,7 @@ el cual se verá como el siguiente.
 ### Personalización del diseño del formulario
 
 Hellotext define un diseño fijo para los formularios. Sin embargo, puedes anular este diseño si lo deseas. 
-Para cambiar dónde carga Hellotext los componentes del formulario, puedes agregar componentes de plantilla que Hellotext poblara en lugar de crear.
+Para cambiar dónde carga Hellotext los componentes del formulario, puedes agregar componentes de plantilla que Hellotext poblará en lugar de crear.
 
 Por ejemplo, si deseas mostrar el componente de botón después del componente de aviso,
 puedes definir los elementos `data-form-notice` y `data-form-button` como elementos vacíos. 

@@ -2,9 +2,9 @@ Aprende a crear campañas de mensajes de texto dirigidas a tu audiencia con comu
 
 Las campañas de mensajes de texto son una de las formas más efectivas de captar la atención de tus clientes, con mensajes cortos y cautivadores que la mayoría de tus destinatarios leerán casi de inmediato.
 
-Son especialmente efectivos para aumentar las ventas o generar anticipación. Las posibilidades que brindan los mensajes de texto para desbloquear nuevas oportunidades de ingresos sean prácticamente infinitas, en especial cuando forman parte de la estrategia habitual de comunicación y promoción de tu negocio.
+Son especialmente efectivos para aumentar las ventas o generar anticipación. Las posibilidades que brindan los mensajes de texto para desbloquear nuevas oportunidades de ingresos son prácticamente infinitas, en especial cuando forman parte de la estrategia habitual de comunicación y promoción de tu negocio.
 
-Para crear una nueva campaña, visite la sección *Campañas* y haga clic en el botón *Nueva campaña* cerca de la parte superior derecha de la página.
+Para crear una nueva campaña, visita la sección *Campañas* y haz clic en el botón *Nueva campaña* cerca de la parte superior derecha de la página.
 
 ## Seleccionar una audiencia
 

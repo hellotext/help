@@ -1,5 +1,5 @@
-El Editor es la entrada que utiliza al escribir un mensaje. Esta presente en
-varios lugares ocupan la plataforma, como las campañas, los rutas y la bandeja.
+El Editor es la entrada que utiliza al escribir un mensaje. Está presente en
+varios lugares de la plataforma, como las campañas, las rutas y la bandeja.
 
 Proporciona un conjunto de potentes funciones integradas que le permiten enriquecer sus mensajes con contenido dinámico, imágenes y enlaces.
 
@@ -11,8 +11,8 @@ su edad, cumpleaños o cualquier otra propiedad que haya definido para su negoci
 
 Mencionamos que las etiquetas son palabras clave reservadas en el editor. Las etiquetas son palabras reservadas escritas entre
 una llave de apertura y cierre. Por ejemplo, la etiqueta `{full_name}` es una etiqueta líquida que se reemplazará con la
-nombre completo del perfil. Las etiquetas comunes incluyen `{name}`, `{birthday}`, `{first_name}`, `{last_name}`, `{phone`} que es
-proporcionado por defecto. Pero, no está limitado a este conjunto de etiquetas, también puede apuntar a propiedades definidas por su negocio.
+nombre completo del perfil. Las etiquetas comunes incluyen `{name}`, `{birthday}`, `{first_name}`, `{last_name}`, `{phone}` que son
+proporcionadas por defecto. Pero, no está limitado a este conjunto de etiquetas, también puede apuntar a propiedades definidas por su negocio.
 
 De forma predeterminada, las propiedades se eliminan de la salida cuando el perfil no tiene el atributo.
 Por ejemplo, si está apuntando a una propiedad `{company}` en su mensaje y el perfil no tiene esa propiedad
@@ -29,17 +29,15 @@ Una etiqueta válida consta de lo siguiente
 
 - Una llave de apertura `{`.
 - Una palabra clave reservada ofrecida por Hellotext o un tipo de propiedad, es decir, "company".
-- na llave de cierre `}`
+- Una llave de cierre `}`
 - Se pueden proporcionar valores opcionales mediante el uso de un operador de canalización `|` y el valor de reserva después de él.
 
-### Las etiquetas y properidades
+### Las etiquetas y propiedades
 
 Mencionamos que también puede apuntar a propiedades personalizadas en su negocio en las etiquetas.
 Puede orientar las propiedades por su tipo, es decir, `text`, `url`, `date`, etc. O por su nombre, si el nombre está establecido.
 
-A complete list of property kinds
-
-Una lista completa de tipos de propertidades
+Una lista completa de tipos de propiedades
 
 - `age`
 - `birthday`

@@ -24,11 +24,11 @@ Estas son las propiedades de tus suscriptores. Puede proporcionar esta informaci
 
 Cualquiera de las acciones registradas por tu audiencia se pueden utilizar para la segmentación y, de hecho, son una de las formas más poderosas y efectivas de segmentar.
 
-Algunas acciones, como cuando se hace clic en un enlace corto, se rastrean automáticamente como eventos. Si conectas tu eCommerce con una de nuestras implementaciones listas para usar como Mercado Libre, te beneficiarás recibiendo automáticamente todos los eventos realizados por sus suscriptores, como por ejemplo los productos que compraron y el monto gastados.
+Algunas acciones, como cuando se hace clic en un enlace corto, se rastrean automáticamente como eventos. Si conectas tu eCommerce con una de nuestras implementaciones listas para usar como Mercado Libre, te beneficiarás recibiendo automáticamente todos los eventos realizados por tus suscriptores, como por ejemplo los productos que compraron y el monto gastado.
 
 Algunos ejemplos de actividades que puedes utilizar en segmentos:
 
-* **Hizo clic en un enlace corto**: cuando un suscriptor hizo clic en un enlace corto de una campaña de mensajes text texto enviada.
+* **Hizo clic en un enlace corto**: cuando un suscriptor hizo clic en un enlace corto de una campaña de mensajes de texto enviada.
 * **Visualizó un producto o visitó una página**
 * **Artículos agregados al carrito**
 * **Comprar un producto**
@@ -71,6 +71,6 @@ Un icono de edición será visible a la derecha del nombre. Haz clic en el icono
 
 Haz clic en el ícono de la papelera cerca del área inferior derecha del panel.
 
-Un cuadro de diálogo de confirmación te pedirá que confirme la eliminación de la lista.
+Un cuadro de diálogo de confirmación te pedirá que confirmes la eliminación del segmento.
 
 Haz clic en *Eliminar* para confirmar la acción.

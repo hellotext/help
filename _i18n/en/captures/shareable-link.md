@@ -1,6 +1,4 @@
-By using the Shareable Link capture tools, you can create a special SMS or WhatsApp protocol link that allows users to subscribe directly to your business, the clicked link will open the default Messages or WhatsApp app on 
-your customers' phones, allowing them a one-tap subscription method. Then you can know who and what rate of your subscribers are 
-from this link.
+By using the Shareable Link capture tools, you can create a special SMS or WhatsApp protocol link that allows users to subscribe directly to your business. When clicked, the link will open the default Messages or WhatsApp app on your customers' phones, allowing them a one-tap subscription method. You can then see who subscribed and what proportion of your subscribers came from this link.
 
 When users click the link, depending on the configuration you made when creating the capture, either their SMS app or WhatsApp will open with a pre-filled opt-in message and phone number. 
 All they have to do is tap *Send* and they'll be subscribed to your business. 
@@ -27,7 +25,7 @@ You can also customize the pre-filled message that customers will send to subscr
 
 ### Assigning coupons and journeys
 
-On the next step, you have the option to choose what happens after your customer subscribe. 
+On the next step, you have the option to choose what happens after your customer subscribes.
 
 By default, a welcome message is sent to the subscriber. 
 

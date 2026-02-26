@@ -53,7 +53,7 @@ SMS costs, Variable fee (US$ 2/1,000) }*
 * Floor: **US$ 0**
   **You pay Hellotext:** **US$ 100** (highest). **WhatsApp (Meta):** billed separately.
 
-**Scenario 2:  Low performance and high volume month (Small)**
+**Scenario 2: Low performance and high volume month (Small)**
 
 * Performance %: **US$ 30**
 * Multichannel messages: **50,000** → **US$ 100** (variable)
@@ -61,7 +61,7 @@ SMS costs, Variable fee (US$ 2/1,000) }*
 * Small floor: **US$ 74**
   **You pay Hellotext:** **US$ 100** (the variable is the highest).
 
-**Scenario 3:  SMS dominates**
+**Scenario 3: SMS dominates**
 
 * Performance %: **US$ 60**
 * Multichannel messages: **40,000** → **US$ 80** (variable)
@@ -69,7 +69,7 @@ SMS costs, Variable fee (US$ 2/1,000) }*
 * Small floor: **US$ 74**
   **You pay Hellotext:** **US$ 150** (SMS). *Variable does not apply.*
 
-**Scenario 4:  Floor dominates**
+**Scenario 4: Floor dominates**
 
 * Performance %: **US$ 0**
 * Multichannel messages: **10,000** → **US$ 20** (variable)

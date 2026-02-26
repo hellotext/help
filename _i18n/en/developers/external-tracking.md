@@ -1,6 +1,6 @@
 Sometimes you may want to track events that happened outside the visitor browser. For example, you may want to track events on the server-side of your system, or at some time when the customer is not present.
 
-You can track events sending a `POST` request directly to the API and passing either the profile identifier or the session identifier. 
+You can track events by sending a `POST` request directly to the API and passing either the profile identifier or the session identifier.
 
 The following examples use ruby's [**HTTParty**](https://github.com/jnunemaker/httparty) library. This may vary depending on the programming language, but the nature of the request remains the same.
 
@@ -8,7 +8,7 @@ When making a request to the API make sure to authenticate by setting the `Autho
 
 ### Tracking by profile
 
-You can track events directly to profiles simply specifying the profile identifier when tracking the event. If the profile doesn't exist on Hellotext you must create it first. We recommend reading the [**API reference for creating a profile**](https://www.hellotext.com/api#create_a_profile).
+You can track events directly to profiles by simply specifying the profile identifier when tracking the event. If the profile doesn't exist on Hellotext you must create it first. We recommend reading the [**API reference for creating a profile**](https://www.hellotext.com/api#create_a_profile).
 
 ```ruby
 HTTParty.post "https://api.hellotext.com/v1/attribution/events", 
@@ -35,9 +35,9 @@ If the request was made correctly the API should respond with a HTTP Status code
 
 ### Tracking by session
 
-This is perfectly possible by capturing the session identifier and keep it on your system to use it later when tracking an event.
+This is perfectly possible by capturing the session identifier and keeping it on your system to use it later when tracking an event.
 
-To obtain the current session, simple call `Hellotext.session`:
+To obtain the current session, simply call `Hellotext.session`:
 
 ```javascript
 Hellotext.session

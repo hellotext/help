@@ -20,7 +20,7 @@ Los segmentos aprovechan todos los eventos realizados por tu audiencia y permite
 
 Puedes segmentar entre las características de tus suscriptores (como ubicación, edad, sexo), su comportamiento (lo que compraron, cuánto gastaron) o cualquier combinación posible de ambas.
 
-En menos de un minutos puedes crear poderosos segmentos como:
+En menos de un minuto puedes crear poderosos segmentos como:
 
 * *Clientes fieles que gastaron más de cierta cantidad durante un período de tiempo.*
 * *Todas las personas que no hayan realizado una compra en los últimos 30 días.*

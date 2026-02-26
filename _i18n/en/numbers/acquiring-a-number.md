@@ -1,6 +1,6 @@
 You can obtain exclusive mobile phone lines that are immediately ready-to-use. 
 
-You can use these dedicated numbers to send your campaigns, receive messages from customers and setup WhatsApp.
+You can use these dedicated numbers to send your campaigns, receive messages from customers and set up WhatsApp.
 
 ## How to obtain a number
 

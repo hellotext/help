@@ -5,7 +5,7 @@ This is useful for sharing your store's location, a meeting point, or any other 
 ### Prerequisites
 
 The map tool will only be enabled when you have enabled an integration that supports Geolocation. For example, 
-SMS do not support Geolocation, so the map tool will not be available when creating an SMS message. However,
+SMS does not support Geolocation, so the map tool will not be available when creating an SMS message. However,
 WhatsApp supports Geolocation, so the map tool will be available when creating a WhatsApp message.
 
 Right now, of the integrations we support, only WhatsApp supports Geolocation. 
@@ -19,7 +19,7 @@ Once you have chosen the desired location, compose the message you want to send,
 
 ### Using accurate location {#accurate-location}
 
-The map tools initially shows a location based on your IP address. This location may not be accurate to the street level.
+The map tool initially shows a location based on your IP address. This location may not be accurate to the street level.
 If you want an accurate location, you can click on <img style='display: inline;'  src="{{site.url}}/images/icons/editor/aim.svg"> icon to get your exact location.
 
 Please be aware that you may be prompted to allow Hellotext to access your location. 
@@ -31,5 +31,5 @@ If you cannot see the prompt, please check your browser settings to ensure that 
 
 In addition, you may need to enable the browser to access your location. Here's how you can enable location access on different operating systems:
 
-- Apple(MacOS, iOS, etc): System Preferences > Security & Privacy > Location Services. Locate your browser and allow it to access your location.
+- Apple (MacOS, iOS, etc.): System Preferences > Security & Privacy > Location Services. Locate your browser and allow it to access your location.
 - Windows: Start > Settings > Privacy > Location. Turn on the location service.

@@ -57,5 +57,5 @@ Para añadir una etiqueta de Enlace:
 1. Captura o sube contenido a tu historia.
 2. Selecciona la herramienta de **Sticker**. Esto puede estar ubicado en diferentes lugares dependiendo de la versión de Instagram que estés utilizando.
 3. Toca la etiqueta de "Enlace" y pega el link compartible creado.
-4. Coloca la etiqueta en tu historia y haz cualquier otra modificación necesaria
+4. Coloca la etiqueta en tu historia y haz cualquier otra modificación necesaria.
 5. Publica tu historia.

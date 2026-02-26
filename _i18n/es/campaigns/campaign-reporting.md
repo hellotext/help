@@ -2,9 +2,9 @@ Uno de los grandes beneficios de las campañas son sus completos informes y mét
 
 Con los informes de campaña, tienes una vista detallada sobre su efectividad y cómo interactuaron tus suscriptores: desde su primer clic en el enlace compartido hasta que realizó una compra.
 
-Estos informes brindan información detallada para ayudarte a comprender cuanto vendiste, qué productos prefirieron más los clientes y, no menos importante, cómodo seguir optimizando y entregando campañas aún mejores en el futuro.
+Estos informes brindan información detallada para ayudarte a comprender cuánto vendiste, qué productos prefirieron más los clientes y, no menos importante, cómo seguir optimizando y entregando campañas aún mejores en el futuro.
 
-Para ver el informe de una campaña, desde la sección *Campañas* y simplemente haz clic en el título de cualquier campaña entregada cuya información deseas ver. Solo puedes ver los informes de las campañas que ya se entregaron.
+Para ver el informe de una campaña, ve a la sección *Campañas* y simplemente haz clic en el título de cualquier campaña entregada cuya información deseas ver. Solo puedes ver los informes de las campañas que ya se entregaron.
 
 ### Selección de un período
 

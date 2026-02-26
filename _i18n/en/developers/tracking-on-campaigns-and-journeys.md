@@ -6,19 +6,19 @@ Luckily enough, this is exactly the purpose behind using Campaigns and the good 
 
 A short link is simply a way to reduce the length of a URL to something that looks like `hello.link/3lsnvh`. 
 
-This help you overcome the 160-character limit of text messages leaving more space for the message. On text messages also shorter links also feels more inviting. 
+This helps you overcome the 160-character limit of text messages, leaving more space for the message. On text messages, shorter links also feel more inviting.
 
-You can share shorten links to your messages on Campaigns and Journeys.
+You can share shortened links in your messages on Campaigns and Journeys.
 
-When customers click on a short link they are redirected to the original URL. Hellotext  attaches a GET parameter to the original URL called `hellotext_session` containing a session identifier uniquely generated from each click.
+When customers click on a short link they are redirected to the original URL. Hellotext attaches a GET parameter to the original URL called `hellotext_session` containing a session identifier uniquely generated for each click.
 
-Every time a customer clicks on a short link an event will be created and will appear on his profile's activities. Clicks are also aggregated to the reports of the campaign or journey.
+Every time a customer clicks on a short link, an event will be created and will appear on their profile's activities. Clicks are also aggregated to the reports of the campaign or journey.
 
 ## Getting started tracking
 
 If your site runs with any of the platforms we already offer integration support, you can connect it to start tracking events automatically. 
 
-If your integration is not yet supported or if you have your own custom implementation, you can start tracking events installing the [**Hellotext.js**](https://github.com/hellotext/hellotext.js) library.
+If your integration is not yet supported or if you have your own custom implementation, you can start tracking events by installing the [**Hellotext.js**](https://github.com/hellotext/hellotext.js) library.
 
 ### Setup the library on your site
 
@@ -54,11 +54,11 @@ Please refer to the [**library usage documentation**](https://github.com/hellote
 
 ## Tracking server-side events
 
-Sometimes you may want to track events that happened outside the browser, for example you may want to track events directly on the server-side of your system, or at time where the customer may not be present. 
+Sometimes you may want to track events that happened outside the browser, for example you may want to track events directly on the server-side of your system, or at a time when the customer may not be present.
 
-This is possible by capturing the session identifier and store it on your system to use it later when you want to track an event associated to this session.
+This is possible by capturing the session identifier and storing it on your system to use it later when you want to track an event associated with this session.
 
-To obtain the current session, simple call `Hellotext.session`:
+To obtain the current session, simply call `Hellotext.session`:
 
 ```javascript
 Hellotext.session

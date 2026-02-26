@@ -1,4 +1,4 @@
-As your business start growing the list of contacts and subscribers, you will likely want next to learn how to organize and segment them in ways that will make it easier to reach them.
+As your business starts growing the list of contacts and subscribers, you will likely want to learn how to organize and segment them in ways that will make it easier to reach them.
 
 Hellotext provides two easy ways to organize your subscribers: lists and segments.
 
@@ -8,13 +8,13 @@ In this guide you will learn the differences between the simple concept of lists
 
 Lists are the simplest way to organize contacts and subscribers. 
 
-They are convenient way to group contacts together and its ideal when you just starting with a few contacts and managing them manually is not a problem.
+They are a convenient way to group contacts together and are ideal when you are just starting with a few contacts and managing them manually is not a problem.
 
 More on **[Lists](/lists)**.
 
 ## Segments
 
-As the number of contacts start to grow you may find it difficult to organize them manually. To make this easier and really take your audience targeting to its next stage, we recommend using Segments.
+As the number of contacts starts to grow you may find it difficult to organize them manually. To make this easier and really take your audience targeting to its next stage, we recommend using Segments.
 
 Segments leverage all the recorded events performed by your audience and let you create automatically updated lists of subscribers based on who they are and what they do.
 

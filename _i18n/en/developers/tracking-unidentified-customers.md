@@ -2,9 +2,9 @@ Sometimes you may want to start tracking events from new visitors to your site w
 
 To help you start collecting events for them, the [**Hellotext.js**](https://github.com/hellotext/hellotext.js) library creates a new session identifier for every new visitor when it is not already set.
 
-You can store this session identifier and later attach it to the profile when it becomes known, for example when the visitor registers or logins into the site.
+You can store this session identifier and later attach it to the profile when it becomes known, for example when the visitor registers or logs into the site.
 
-Assuming you have the [**Hellotext.js**](https://github.com/hellotext/hellotext.js) already installed and configured, to obtain the current session, simple call the method `Hellotext.session`:
+Assuming you have the [**Hellotext.js**](https://github.com/hellotext/hellotext.js) already installed and configured, to obtain the current session, simply call the method `Hellotext.session`:
 
 ```javascript
 Hellotext.session
@@ -15,9 +15,9 @@ Keep this value on your system as you will need to send it back using the API wh
 
 ## Attach session to an existing profile
 
-Once the visitor becomes known, for example after he logins into your site, you should make an API request to associate the unidentified session to his customer profile. 
+Once the visitor becomes known, for example after they log into your site, you should make an API request to associate the unidentified session with their customer profile.
 
-Once the session is associated all tracked events associated to the session will become part of the customer profile.
+Once the session is associated, all tracked events associated with the session will become part of the customer profile.
 
 The following example uses ruby's [**HTTParty**](https://github.com/jnunemaker/httparty) library. This may vary depending on the programming language, but the nature of the request remains the same.
 
