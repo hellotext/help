@@ -54,6 +54,8 @@ will unlock true behaviourla insights into what your customers do on the website
 - Cart Modifications (additions or removals)
 - Order Placement
 
+<a name="affiliate"></a>
+
 #### Affiliate Setup
 
 In this step. You are asked to setup Hellotext as an affiliate on your VTEX account.

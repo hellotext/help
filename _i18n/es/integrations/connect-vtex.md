@@ -52,6 +52,8 @@ En este paso, se te pedirá instalar el pixel de Hellotext en tu cuenta de VTEX.
 - Modificaciones del carrito (agregados o eliminaciones)
 - Realización de pedidos
 
+<a name="affiliate"></a>
+
 #### Configuración de Afiliado
 
 En este paso, se te pedirá configurar Hellotext como un afiliado en tu cuenta de VTEX.
