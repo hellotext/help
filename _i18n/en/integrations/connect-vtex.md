@@ -36,3 +36,44 @@ Application keys allow the external system to access your account, so your VTEX 
 3. Choose VTEX in the list of available integrations.
 
 Follow the wizard to set up your account. Make sure you copy and paste the App Key and App Token.
+
+#### Domain Setup
+
+In this step. You will be asked to choose the primary storefront domain for your application when you have many
+connected domains connected to your VTEX account. Make sure you choose the exact domain your catalog is hosted on.
+
+Based on the domain you chose, Hellotext will construct Product and SKU urls for the AI Agents.
+
+#### Pixel Installation
+
+In this step. You are asked to install the Hellotext pixel on your VTEX account. Installing the pixel
+will unlock true behaviourla insights into what your customers do on the website. Including,
+
+- Page Views
+- Product Views
+- Cart Modifications (additions or removals)
+- Order Placement
+
+#### Affiliate Setup
+
+In this step. You are asked to setup Hellotext as an affiliate on your VTEX account.
+This helps Hellotext receive real-time notifications about changes to your catalog, including price change, inventory or
+products added and removed from the storefront to help keep recommendations accurate and up-to date.
+
+1. Go to your admin dashboard on VTEX. i.e. `shop.myvtex.com/admin`. Replace `shop` with your VTEX account name.
+2. On the left side, scroll down to **Store Settings** > **Orders** > click on **Settings**.
+3. On the settings page for Orders, next to **General** tab, click on **Affiliates**
+4. Click on **New Affiliate** button on the top-right of the page.
+
+Fill in the Affiliate form with the following information
+
+- Name: **Hellotext**
+- ID: Any identifier of your own choosing. VTEX limits identifiers to 3 characters. This helps you quickly identify Hellotext if you have many Affiliates.
+- Sales Channel: Choose the sales channel which you want Hellotext to receive notifications from. Type `1` which is your primary Sales channel.
+- Note: If you have catalogs on multiple sales channels, you need to repeat this process for all the active sales channels your catalog is on.
+- Email: Type in **support@hellotext.com**.
+- Search Endpoint: This will be revelaed to you on the Setup Wizard. This endpoint is unique for all VTEX accounts.
+
+Once completed. Click on Save.
+
+For more information view an affiliate <a href="https://help.vtex.com/docs/tutorials/configuring-affiliates">setup on VTEX.</a>
