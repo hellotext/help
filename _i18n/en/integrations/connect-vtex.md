@@ -74,7 +74,7 @@ Fill in the Affiliate form with the following information
 - Sales Channel: Choose the sales channel which you want Hellotext to receive notifications from. Type `1` which is your primary Sales channel.
 - Note: If you have catalogs on multiple sales channels, you need to repeat this process for all the active sales channels your catalog is on.
 - Email: Type in **support@hellotext.com**.
-- Search Endpoint: This will be revelaed to you on the Setup Wizard. This endpoint is unique for all VTEX accounts.
+- Search Endpoint: This will be revelaed to you on the Setup Wizard.
 
 Once completed. Click on Save.
 

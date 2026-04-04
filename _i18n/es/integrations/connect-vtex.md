@@ -71,7 +71,7 @@ Completa el formulario de Afiliado con la siguiente información:
 - Canal de venta: Selecciona el canal de ventas del cual quieres que Hellotext reciba notificaciones. Escribe `1`, que es tu canal principal.
 - Nota: Si tienes catálogos en múltiples canales de venta, debes repetir este proceso para todos los canales activos donde esté tu catálogo.
 - Email: Escribe **[support@hellotext.com](mailto:support@hellotext.com)**
-- Search Endpoint: Este se te mostrará en el Setup Wizard. Este endpoint es único para cada cuenta VTEX.
+- Search Endpoint: Este se te mostrará en el Setup Wizard.
 
 Una vez completado, haz clic en Guardar.
 
