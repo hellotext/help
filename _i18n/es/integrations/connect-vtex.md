@@ -52,6 +52,40 @@ En este paso, se te pedirá instalar el pixel de Hellotext en tu cuenta de VTEX.
 - Modificaciones del carrito (agregados o eliminaciones)
 - Realización de pedidos
 
+<a name="checkout"></a>
+
+#### Seguimiento del Embudo de Checkout
+
+El píxel de Hellotext rastrea la actividad en la tienda, pero no puede ejecutarse dentro del módulo de checkout de VTEX, ya que es una aplicación separada. Para capturar la identidad del comprador durante el checkout (email, teléfono, nombre) y habilitar la atribución de checkouts abandonados, agrega el script de checkout de Hellotext a tu tienda.
+
+1. Ve al panel de administración de VTEX. Por ejemplo: `shop.myvtex.com/admin`. Reemplaza `shop` con el nombre de tu cuenta VTEX.
+2. En el menú de la izquierda, desplázate hasta **Configuración de la Tienda** > **Checkout** > haz clic en **Configuración**.
+3. En la página de configuración de Checkout, haz clic en el **ícono de engranaje** de la configuración del sitio que deseas editar.
+4. Haz clic en la pestaña **Código** en la parte superior de la página.
+5. En la lista de archivos, selecciona **checkout6-custom.js**.
+6. Pega el siguiente código al final del archivo:
+
+```javascript
+// Hellotext Checkout Funnel
+(function () {
+  var script = document.createElement("script");
+  script.src =
+    "https://cdn.jsdelivr.net/npm/@hellotext/vtex-checkout@latest/dist/funnel.js";
+  script.onload = function () {
+    Hellotext.initialize("YOUR_BUSINESS_ID");
+  };
+  document.head.appendChild(script);
+})();
+```
+
+7. Reemplaza `YOUR_BUSINESS_ID` con tu ID de negocio de Hellotext, que puedes encontrar en **Configuración** > **Negocio** en tu panel de Hellotext.
+
+Haz clic en **Guardar**.
+
+Una vez guardado, Hellotext identificará a los compradores en cuanto ingresen su email o teléfono durante el checkout, incluso si no completan la compra.
+
+Para más información, consulta el código fuente de <a href="https://github.com/hellotext/vtex-checkout">vtex-checkout</a>.
+
 <a name="affiliate"></a>
 
 #### Configuración de Afiliado

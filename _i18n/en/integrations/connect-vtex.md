@@ -47,12 +47,44 @@ Based on the domain you chose, Hellotext will construct Product and SKU urls for
 #### Pixel Installation
 
 In this step. You are asked to install the Hellotext pixel on your VTEX account. Installing the pixel
-will unlock true behaviourla insights into what your customers do on the website. Including,
+will unlock true insights into what your customers do on the website. Including,
 
 - Page Views
 - Product Views
 - Cart Modifications (additions or removals)
 - Order Placement
+
+<a name="checkout"></a>
+
+#### Checkout Funnel Tracking
+
+The Hellotext pixel tracks activity on the storefront but cannot run inside VTEX's checkout module, which is a separate application. To capture shopper identity during checkout (email, phone, name) and enable abandoned checkout attribution, add the Hellotext checkout script to your store.
+
+1. Go to your admin dashboard on VTEX. i.e. `shop.myvtex.com/admin`. Replace `shop` with your VTEX account name.
+2. On the left side, scroll down to **Store Settings** > **Checkout** > click on **Settings**.
+3. On the settings page for Checkout, click the **gear icon** on the site configuration you want to edit.
+4. Click on the **Code** tab at the top of the page.
+5. In the file list, select **checkout6-custom.js**.
+6. Paste the following code at the end of the file:
+
+```javascript
+// Hellotext Checkout Funnel
+(function() {
+  var script = document.createElement('script');
+  script.src = "https://cdn.jsdelivr.net/npm/@hellotext/vtex-checkout@latest/dist/funnel.js";
+  script.onload = function() {
+    Hellotext.initialize('YOUR_BUSINESS_ID');
+  };
+  document.head.appendChild(script);
+})();
+
+7. Replace `YOUR_BUSINESS_ID` with your Hellotext business ID, which you can find in Settings > Business on your Hellotext dashboard.
+
+Click Save.
+
+Once saved, Hellotext will identify shoppers as soon as they enter their email or phone during checkout, even if they dont complete the purchase.
+
+Fore more information. Checkout the source code of <a href="https://github.com/hellotext/vtex-checkout">vtex-checkout</a>.
 
 <a name="affiliate"></a>
 
@@ -79,3 +111,4 @@ Fill in the Affiliate form with the following information
 Once completed. Click on Save.
 
 For more information view an affiliate <a href="https://help.vtex.com/docs/tutorials/configuring-affiliates">setup on VTEX.</a>
+```
