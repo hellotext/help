@@ -69,14 +69,16 @@ The Hellotext pixel tracks activity on the storefront but cannot run inside VTEX
 
 ```javascript
 // Hellotext Checkout Funnel
-(function() {
-  var script = document.createElement('script');
-  script.src = "https://cdn.jsdelivr.net/npm/@hellotext/vtex-checkout@latest/dist/funnel.js";
-  script.onload = function() {
-    Hellotext.initialize('YOUR_BUSINESS_ID');
+(function () {
+  var script = document.createElement("script");
+  script.src =
+    "https://cdn.jsdelivr.net/npm/@hellotext/vtex-checkout@latest/dist/funnel.js";
+  script.onload = function () {
+    Hellotext.initialize("YOUR_BUSINESS_ID");
   };
   document.head.appendChild(script);
 })();
+```
 
 7. Replace `YOUR_BUSINESS_ID` with your Hellotext business ID, which you can find in Settings > Business on your Hellotext dashboard.
 
@@ -111,4 +113,7 @@ Fill in the Affiliate form with the following information
 Once completed. Click on Save.
 
 For more information view an affiliate <a href="https://help.vtex.com/docs/tutorials/configuring-affiliates">setup on VTEX.</a>
+
+```
+
 ```
