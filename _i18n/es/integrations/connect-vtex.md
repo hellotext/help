@@ -70,7 +70,7 @@ El píxel de Hellotext rastrea la actividad en la tienda, pero no puede ejecutar
 (function () {
   var script = document.createElement("script");
   script.src =
-    "https://cdn.jsdelivr.net/npm/@hellotext/vtex-checkout@latest/dist/funnel.js";
+    "https://cdn.jsdelivr.net/npm/@hellotext/vtex-checkout@1/dist/funnel.js";
   script.onload = function () {
     Hellotext.initialize("YOUR_BUSINESS_ID");
   };
