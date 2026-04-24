@@ -42,9 +42,9 @@ For more information about how to create the correct record, see your DNS provid
 
 ## Configuring an apex domain
 
-To set up an apex domain, such as example.com, you must configure a custom domain in your business settings and at least one ALIAS, ANAME, or A record with your DNS provider.
+To set up an apex domain, such as `example.com`, you must configure a custom domain in your business settings and create an ALIAS or ANAME record with your DNS provider.
 
-For example, if instead of using the subdomain `shop.mysite.com` for Short Links, you want to use the apex domain `mysite.com`, you need to create an ALIAS, ANAME, or A record that points `mysite.com` to `hello.link`.
+For example, if instead of using the subdomain `shop.mysite.com` for Short Links, you want to use the apex domain `mysite.com`, you need to create an ALIAS or ANAME record that points `mysite.com` to `hello.link`.
 
 For more information about how to create the correct record, see your DNS provider's documentation.
 

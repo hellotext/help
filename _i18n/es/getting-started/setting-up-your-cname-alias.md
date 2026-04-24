@@ -40,9 +40,9 @@ Para obtener más información sobre cómo crear el registro correcto, consulta 
 
 ## Configurar un dominio apex
 
-Para configurar un dominio ápice, como por ejemplo `example.com`, debes configurar un dominio personalizado en la configuración de tu negocio y al menos un registro ALIAS, ANAME o A con tu proveedor de DNS.
+Para configurar un dominio ápice, como por ejemplo `example.com`, debes configurar un dominio personalizado en la configuración de tu negocio y crear un registro ALIAS o ANAME con tu proveedor de DNS.
 
-Por ejemplo, si en lugar de utilizar el subdominio `shop.mysite.com` para Enlaces Cortos, deseas usar el dominio ápice `mysite.com`, debes crear un registro ALIAS, ANAME o A que apunte `mysite.com` a `hello.link`.
+Por ejemplo, si en lugar de utilizar el subdominio `shop.mysite.com` para Enlaces Cortos, deseas usar el dominio ápice `mysite.com`, debes crear un registro ALIAS o ANAME que apunte `mysite.com` a `hello.link`.
 
 Para obtener más información sobre cómo crear el registro correcto, consulta la documentación de tu proveedor de DNS.
 
