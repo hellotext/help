@@ -1,0 +1,33 @@
+name: Build
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Reads Ruby version from .ruby-version and installs gems.
+      # bundler-cache: true runs bundle install (non-frozen) so it resolves the
+      # x86_64-linux platform that the darwin-only Gemfile.lock doesn't include.
+      - uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+
+      # Reads Node version from .nvmrc (18) and caches Yarn downloads.
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: yarn
+
+      - run: yarn install --frozen-lockfile
+
+      # Exact command Netlify uses to publish the site (see netlify.toml).
+      # Plain `bundle exec jekyll build` fails — jekyll-postcss requires
+      # JEKYLL_ENV=production for a one-off build without the dev server.
+      - name: Build site
+        run: JEKYLL_ENV=production bundle exec jekyll build
