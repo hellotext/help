@@ -23,6 +23,62 @@ With this mechanism you can be sure that only sales that stem from an impact mad
 * **Manually created events**: follow‑up or sales recording actions that you set up manually outside of Hellotext.
 * **Unconfirmed, canceled, or returned orders**: we attribute only confirmed orders and exclude returns.
 
+## What Happens When Your Team Joins the Conversation?
+
+A sale is not automatically removed from attribution just because a teammate participates in the conversation. We look at who commercially drove the sale before the customer purchased.
+
+### Human Support Does Not Automatically Remove Attribution
+
+If a teammate answers a support question, confirms availability, helps with sizing, or gives general assistance, the sale can still be attributed to Hellotext when the commercial path was driven by Hellotext.
+
+For example, Hellotext may recommend products, the customer may ask whether a size is available, and a teammate may reply that the size is in stock. If the customer then purchases from the product recommendation, the sale may still be attributed because the teammate helped with support but did not take over the commercial sale.
+
+### Human Sales Actions Can Remove Attribution
+
+If a teammate performs a commercial action before the purchase, that can make the sale human‑driven instead of Hellotext‑driven. Human commercial actions include:
+
+* sending a coupon,
+* recommending products,
+* sharing a product link,
+* sharing a checkout link,
+* manually recording a sale.
+
+For example, if Hellotext recommends a product and a teammate later sends a different product link or a coupon, the sale may not be attributed to Hellotext because the teammate became the commercial driver.
+
+### The Latest Commercial Action Matters
+
+When both Hellotext and a teammate perform sales actions, we look at the order of those actions before the purchase.
+
+Hellotext may keep attribution when a teammate answers a question, Hellotext later sends a product recommendation or checkout link, and the customer purchases after Hellotext’s action.
+
+Attribution may be removed when Hellotext sends a product recommendation, a teammate later sends a coupon or checkout link, and the customer purchases after the teammate’s action.
+
+### Human Takeover and Escalated Conversations
+
+Sometimes a teammate may take over the sale even without sending a coupon or product link. If the conversation shows a sustained human‑led exchange immediately before the purchase, the sale may be considered human‑driven.
+
+If Hellotext explicitly hands off the conversation to a human and the sale happens after that handoff, the sale may also be treated as human‑owned rather than Hellotext‑attributed. This helps ensure Hellotext is credited only when it was still driving the sale.
+
+## How We Explain Attribution Decisions
+
+For each sale we review for attribution, we aim to show the evidence behind the decision, such as:
+
+* the campaign, journey, or AI playbook that received credit,
+* the message or event that originated the attribution,
+* whether a teammate participated,
+* whether the teammate’s participation changed attribution,
+* the AI and human sales actions considered before purchase.
+
+When needed, Hellotext may use AI to generate a plain‑language explanation from the underlying attribution evidence. The explanation should summarize the facts, not invent new ones.
+
+Example explanations include:
+
+* Sale was attributed because Hellotext recommended products before purchase and no human sales action was found.
+* Human participated, but only answered a support question. The commercial action came from Hellotext.
+* Human replied after the purchase, so the reply did not affect attribution.
+* Sale was not attributed to Hellotext because a teammate sent a coupon before the purchase.
+* Sale was not attributed to Hellotext because the conversation was escalated to a human before the purchase.
+
 ### Summary
 
 Hellotext assigns revenue only to the channels that use our solution, ensuring your pricing model aligns with actual performance. If you have any questions about a specific case, feel free to contact us. We’re here to help you grow!
