@@ -21,6 +21,62 @@ Con este mecanismo te aseguras de que solo las ventas que se originan a partir d
 * **Eventos creados manualmente**: acciones de seguimiento o registro de ventas que configures manualmente fuera de Hellotext.
 * **Órdenes no confirmadas, canceladas o con devoluciones**: solo atribuimos órdenes confirmadas y excluimos devoluciones.
 
+## ¿Qué pasa cuando tu equipo se suma a la conversación?
+
+Una venta no se elimina automáticamente de la atribución solo porque una persona de tu equipo participe en la conversación. Revisamos quién impulsó comercialmente la venta antes de que el cliente comprara.
+
+### El soporte humano no elimina automáticamente la atribución
+
+Si una persona del equipo responde una consulta de soporte, confirma disponibilidad, ayuda con talles o medidas, o brinda asistencia general, la venta puede seguir atribuida a Hellotext cuando el recorrido comercial fue impulsado por Hellotext.
+
+Por ejemplo, Hellotext puede recomendar productos, el cliente puede preguntar si hay un talle disponible y una persona del equipo puede confirmar que está en stock. Si luego el cliente compra desde la recomendación de producto, la venta puede seguir atribuida porque el equipo ayudó con soporte, pero no tomó el control comercial de la venta.
+
+### Las acciones comerciales humanas pueden eliminar la atribución
+
+Si una persona del equipo realiza una acción comercial antes de la compra, la venta puede pasar a considerarse impulsada por una persona en lugar de Hellotext. Las acciones comerciales humanas incluyen:
+
+* enviar un cupón,
+* recomendar productos,
+* compartir un enlace de producto,
+* compartir un enlace de checkout,
+* registrar manualmente una venta.
+
+Por ejemplo, si Hellotext recomienda un producto y luego una persona del equipo envía otro enlace de producto o un cupón, la venta puede no atribuirse a Hellotext porque esa persona pasó a ser quien impulsó comercialmente la compra.
+
+### Importa la última acción comercial
+
+Cuando Hellotext y una persona del equipo realizan acciones comerciales, revisamos el orden de esas acciones antes de la compra.
+
+Hellotext puede mantener la atribución cuando una persona del equipo responde una pregunta, Hellotext luego envía una recomendación de producto o un enlace de checkout, y el cliente compra después de la acción de Hellotext.
+
+La atribución puede eliminarse cuando Hellotext envía una recomendación de producto, una persona del equipo luego envía un cupón o un enlace de checkout, y el cliente compra después de la acción de esa persona.
+
+### Toma de control humana y conversaciones escaladas
+
+A veces una persona del equipo puede tomar control de la venta incluso sin enviar un cupón o un enlace de producto. Si la conversación muestra un intercambio sostenido liderado por una persona justo antes de la compra, la venta puede considerarse impulsada por el equipo.
+
+Si Hellotext deriva explícitamente la conversación a una persona y la venta ocurre después de esa derivación, la venta también puede tratarse como perteneciente al equipo en lugar de atribuida a Hellotext. Esto ayuda a garantizar que Hellotext reciba crédito solo cuando todavía estaba impulsando la venta.
+
+## Cómo explicamos las decisiones de atribución
+
+Para cada venta que revisamos para atribución, buscamos mostrar la evidencia detrás de la decisión, por ejemplo:
+
+* la campaña, ruta o playbook de IA que recibió el crédito,
+* el mensaje o evento que originó la atribución,
+* si participó una persona del equipo,
+* si esa participación cambió la atribución,
+* las acciones comerciales de IA y humanas consideradas antes de la compra.
+
+Cuando sea necesario, Hellotext puede usar IA para generar una explicación en lenguaje simple a partir de la evidencia de atribución. La explicación debe resumir los hechos, no inventar información nueva.
+
+Algunos ejemplos de explicaciones:
+
+* La venta se atribuyó porque Hellotext recomendó productos antes de la compra y no se encontró ninguna acción comercial humana.
+* Participó una persona, pero solo respondió una consulta de soporte. La acción comercial vino de Hellotext.
+* La persona respondió después de la compra, por lo que su respuesta no afectó la atribución.
+* La venta no se atribuyó a Hellotext porque una persona del equipo envió un cupón antes de la compra.
+* La venta no se atribuyó a Hellotext porque la conversación fue derivada a una persona antes de la compra.
+
 ### Resumen
 
 Hellotext solo asigna ingresos a los canales que utilizan nuestra solución, garantizando que tu modelo de tarifas se alinee con el rendimiento real. Si tienes alguna duda sobre un caso específico, no dudes en contactarnos. ¡Estamos aquí para ayudarte a crecer!
