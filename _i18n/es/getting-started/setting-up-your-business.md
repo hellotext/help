@@ -26,6 +26,8 @@ Los negocios nuevos siempre se facturan en régimen de pre-pago. Esto significa 
 
 Los comercios con acuerdo de facturación como *crédito* pueden activar una prueba sin depósito bancario.
 
+Los negocios prepago nuevos pueden enviar SMS desde el inicio, pero el envío por SMS puede comenzar con un límite diario temporal mientras Hellotext revisa la calidad de sus envíos. Lee más sobre **[los límites de envío SMS para negocios nuevos](/es/limites-de-envio-sms-para-negocios-nuevos)**.
+
 ## Conecta tu eCommerce
 
 Ahora que la cuenta de negocio está lista, comienza conectando tus plataformas de eCommerce.
