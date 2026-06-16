@@ -3,7 +3,7 @@ En Hellotext diseñamos nuestro modelo de tarifas para que el crecimiento de tu 
 ## Modelo de atribución: Last Click Non‑Direct
 
 * **Último clic no directo**: atribuimos la venta únicamente cuando el cliente llega a tu tienda **por medio de Hellotext** (WhatsApp o SMS).
-* Si la compra se originó en otra fuente (Meta, Google, email, etc.), detectamos la coincidencia y **cancelamos la atribución**.
+* Antes de atribuir la venta, revisamos el último clic trackeado antes de la compra. Si ese último clic tiene UTMs o parámetros de tracking de otro canal (Meta, Google, email, etc.), consideramos ese canal como la última fuente comercial y **cancelamos la atribución a Hellotext**, incluso si Hellotext había impactado al cliente antes.
 
 ## Ventana de atribución
 1. **Impacto inicial**
@@ -17,6 +17,7 @@ Con este mecanismo te aseguras de que solo las ventas que se originan a partir d
 ## Escenarios en los que no atribuimos ventas
 
 * **Ventas no generadas por Hellotext**: cualquier compra que no haya tenido un impacto directo a través de la plataforma.
+* **UTM diferente en el último clic**: si el último clic trackeado antes de la compra tiene UTMs o parámetros de tracking de otro canal, cancelamos la atribución a Hellotext.
 * **Enlaces enviados por tu equipo**: enlaces (incluidos los cortos) que tu equipo distribuye directamente en las conversaciones.
 * **Eventos creados manualmente**: acciones de seguimiento o registro de ventas que configures manualmente fuera de Hellotext.
 * **Órdenes no confirmadas, canceladas o con devoluciones**: solo atribuimos órdenes confirmadas. Las cancelaciones o devoluciones totales reducen los ingresos atribuidos a cero, y las devoluciones parciales reducen el monto atribuido al valor neto final de la orden.
@@ -88,6 +89,7 @@ Algunos ejemplos de explicaciones:
 * Participó una persona, pero solo respondió una consulta de soporte. La acción comercial vino de Hellotext.
 * La persona respondió después de la compra, por lo que su respuesta no afectó la atribución.
 * Una persona modificó la orden después de la compra, por lo que la atribución se mantuvo en Hellotext pero el monto atribuido se ajustó al valor final de la orden.
+* La venta no se atribuyó a Hellotext porque el último clic antes de la compra tenía UTMs de otro canal.
 * La venta no se atribuyó a Hellotext porque una persona del equipo envió un cupón antes de la compra.
 * La venta no se atribuyó a Hellotext porque la conversación fue derivada a una persona antes de la compra.
 
