@@ -90,7 +90,7 @@ Example explanations include:
 * Sale was attributed because Hellotext recommended products before purchase and no human sales action was found.
 * Human participated, but only answered a support question. The commercial action came from Hellotext.
 * Human replied after the purchase, so the reply did not affect attribution.
-* Human changed the order after purchase, so attribution remained with Hellotext but the attributed amount was adjusted to the final order value.
+* Human changed the order after purchase, so attribution remained with Hellotext but the attributed amount followed the refund and cap rules.
 * Sale was not attributed to Hellotext because the last click before purchase had UTMs from another channel.
 * Sale was not attributed to Hellotext because a teammate sent a coupon before the purchase.
 * Sale was not attributed to Hellotext because the conversation was escalated to a human before the purchase.

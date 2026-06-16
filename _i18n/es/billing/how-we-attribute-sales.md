@@ -88,7 +88,7 @@ Algunos ejemplos de explicaciones:
 * La venta se atribuyó porque Hellotext recomendó productos antes de la compra y no se encontró ninguna acción comercial humana.
 * Participó una persona, pero solo respondió una consulta de soporte. La acción comercial vino de Hellotext.
 * La persona respondió después de la compra, por lo que su respuesta no afectó la atribución.
-* Una persona modificó la orden después de la compra, por lo que la atribución se mantuvo en Hellotext pero el monto atribuido se ajustó al valor final de la orden.
+* Una persona modificó la orden después de la compra, por lo que la atribución se mantuvo en Hellotext pero el monto atribuido siguió las reglas de devolución y tope.
 * La venta no se atribuyó a Hellotext porque el último clic antes de la compra tenía UTMs de otro canal.
 * La venta no se atribuyó a Hellotext porque una persona del equipo envió un cupón antes de la compra.
 * La venta no se atribuyó a Hellotext porque la conversación fue derivada a una persona antes de la compra.
