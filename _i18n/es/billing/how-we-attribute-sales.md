@@ -10,7 +10,7 @@ En Hellotext diseñamos nuestro modelo de tarifas para que el crecimiento de tu 
 Cuando envías un mensaje a un cliente con un enlace corto a tu e‑commerce, se abre una ventana de **24  horas** para que esa interacción genere la compra.
 
 2. **Extensión automática**
-Si el usuario hace clic en el enlace dentro de esas 24 horas, extendemos la ventana en ese dispositivo por **7 días adicionales**.
+Si el usuario hace clic en el enlace, extendemos la ventana en ese dispositivo por **7 días adicionales**.
 
 Con este mecanismo te aseguras de que solo las ventas que se originan a partir de un impacto realizado en Hellotext se contabilizan como atribuibles.
 
@@ -19,7 +19,7 @@ Con este mecanismo te aseguras de que solo las ventas que se originan a partir d
 * **Ventas no generadas por Hellotext**: cualquier compra que no haya tenido un impacto directo a través de la plataforma.
 * **Enlaces enviados por tu equipo**: enlaces (incluidos los cortos) que tu equipo distribuye directamente en las conversaciones.
 * **Eventos creados manualmente**: acciones de seguimiento o registro de ventas que configures manualmente fuera de Hellotext.
-* **Órdenes no confirmadas, canceladas o con devoluciones**: solo atribuimos órdenes confirmadas y excluimos devoluciones.
+* **Órdenes no confirmadas, canceladas o con devoluciones**: solo atribuimos órdenes confirmadas. Las cancelaciones o devoluciones totales reducen los ingresos atribuidos a cero, y las devoluciones parciales reducen el monto atribuido al valor neto final de la orden.
 
 ## ¿Qué pasa cuando tu equipo se suma a la conversación?
 
@@ -30,6 +30,19 @@ Una venta no se elimina automáticamente de la atribución solo porque una perso
 Si una persona del equipo responde una consulta de soporte, confirma disponibilidad, ayuda con talles o medidas, o brinda asistencia general, la venta puede seguir atribuida a Hellotext cuando el recorrido comercial fue impulsado por Hellotext.
 
 Por ejemplo, Hellotext puede recomendar productos, el cliente puede preguntar si hay un talle disponible y una persona del equipo puede confirmar que está en stock. Si luego el cliente compra desde la recomendación de producto, la venta puede seguir atribuida porque el equipo ayudó con soporte, pero no tomó el control comercial de la venta.
+
+### El soporte posterior a la compra no rompe la atribución
+
+Si Hellotext generó la compra original antes de cualquier intervención humana, las acciones de soporte posteriores a la creación de la orden no eliminan la atribución. Esto incluye cambios de color o talle, correcciones de dirección, gestión de cambios, ediciones operativas de la orden y seguimiento de soporte.
+
+En estos casos, la persona del equipo gestionó una solicitud de soporte posterior a la compra. No generó la venta original.
+
+Si el valor de la orden cambia después de la compra atribuida originalmente, ajustamos el monto atribuido de forma justa:
+
+* Si el valor final de la orden es el mismo, el monto atribuido se mantiene igual.
+* Si el valor final de la orden es menor después de un cambio o una devolución parcial, el monto atribuido se reduce al valor final de la orden.
+* Si el valor final de la orden es mayor después de un cambio de soporte, el monto atribuido se limita al valor original atribuido.
+* Si la orden se cancela o se devuelve por completo, el monto atribuido pasa a cero.
 
 ### Las acciones comerciales humanas pueden eliminar la atribución
 
@@ -74,6 +87,7 @@ Algunos ejemplos de explicaciones:
 * La venta se atribuyó porque Hellotext recomendó productos antes de la compra y no se encontró ninguna acción comercial humana.
 * Participó una persona, pero solo respondió una consulta de soporte. La acción comercial vino de Hellotext.
 * La persona respondió después de la compra, por lo que su respuesta no afectó la atribución.
+* Una persona modificó la orden después de la compra, por lo que la atribución se mantuvo en Hellotext pero el monto atribuido se ajustó al valor final de la orden.
 * La venta no se atribuyó a Hellotext porque una persona del equipo envió un cupón antes de la compra.
 * La venta no se atribuyó a Hellotext porque la conversación fue derivada a una persona antes de la compra.
 
