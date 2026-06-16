@@ -26,6 +26,8 @@ Newly created businesses are always invoiced under a prepaid agreement. This mea
 
 Businesses with invoicing agreement as *credit* can activate a trial without a bank deposit.
 
+New prepaid businesses can send SMS right away, but SMS may start with a temporary daily limit while Hellotext reviews sending quality. Learn more about **[SMS sending limits for new businesses](/sms-sending-limits-for-new-businesses)**.
+
 ## Connect your eCommerce
 
 Now that the business account is ready, get started by connecting your existing eCommerce platforms.
