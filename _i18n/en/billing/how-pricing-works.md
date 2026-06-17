@@ -11,7 +11,7 @@
 
 ## Summary
 
-Hellotext uses a results‑based model: you pay **2% to 5%** of revenue attributable to campaigns, journeys, or AI agents. Each plan has a monthly minimum (“floor”).
+Hellotext uses a results‑based model: you pay a **2% to 5%** performance fee on revenue attributable to campaigns, journeys, or AI agents. In the plans in this guide, Starter uses 5%, Small 4%, Grow 3%, and Pro 2.5%. Each plan has a monthly minimum (“floor”).
 
 **Key rule:** each month you pay only **one** line item—the highest of plan minimum, performance fee, SMS costs, or variable messaging fee (US$ 2 per 1,000). The four are never added together.
 
@@ -27,15 +27,23 @@ Hellotext uses a results‑based model: you pay **2% to 5%** of revenue attribut
 
 ## Plans and what each includes
 
-Channels on every plan: **WhatsApp** (Meta bills separately), **Instagram Direct**, **Webchat**, **MercadoLibre**, and **SMS**. <strong><a href="https://www.hellotext.com/pricing" target="_blank">See pricing</a></strong>.
+Channels on every plan: **WhatsApp** (Meta bills separately), **Instagram Direct**, **Facebook Messenger**, **Webchat**, **Mercado Libre**, and **SMS**. <strong><a href="https://www.hellotext.com/pricing" target="_blank">See pricing</a></strong>.
 
 <div class="ht-plans">
   <div class="ht-plan">
     <h3>Starter</h3>
-    <p class="ht-price">Free</p>
+    <p class="ht-price">US$ 0/month</p>
     <p class="ht-perf"><strong>Performance:</strong> 5% on attributed revenue</p>
     <ul class="ht-list">
       <li><strong>Team:</strong> 1 member</li>
+      <li><strong>Channels:</strong> WhatsApp (Meta billed separately), Instagram Direct, Facebook Messenger, Webchat, Mercado Libre, and SMS</li>
+      <li><strong>WhatsApp:</strong> 1 verified line</li>
+      <li><strong>Integrations:</strong> Wix, Shopify, Woo, Mercado Libre, and VTEX</li>
+      <li><strong>Capture:</strong> Webchat, Popups, QR Code, and Forms</li>
+      <li><strong>Automation:</strong> Cart Saver, chatbots, and Journeys</li>
+      <li><strong>Campaigns:</strong> SMS and WhatsApp</li>
+      <li><strong>Reporting:</strong> basic real-time reporting</li>
+      <li><strong>Profiles:</strong> unlimited customer profiles and templates</li>
       <li><strong>Playbooks:</strong> Some (limited)</li>
       <li><strong>Support:</strong> Standard email (≤ 24 business hours)</li>
       <li><strong>History:</strong> 2 months</li>
@@ -44,11 +52,17 @@ Channels on every plan: **WhatsApp** (Meta bills separately), **Instagram Direct
 
   <div class="ht-plan">
     <h3>Small</h3>
-    <p class="ht-price">US$ 74/month</p>
-    <p class="ht-perf"><strong>Performance:</strong> 3% from <span class="nowrap">US$ 2,500</span> in attributed revenue</p>
+    <p class="ht-price">US$ 74/month <span class="ht-price-note">US$ 67/month paid yearly</span></p>
+    <p class="ht-perf"><strong>Performance:</strong> 4% from <span class="nowrap">US$ 2,000</span> in attributed revenue</p>
     <ul class="ht-list">
       <li><strong>Team:</strong> Unlimited</li>
-      <li><strong>Playbooks:</strong> Most</li>
+      <li><strong>Includes:</strong> Everything in Starter</li>
+      <li><strong>Playbooks:</strong> 8 AI enabled eCommerce playbooks</li>
+      <li><strong>Branding:</strong> remove Hellotext brand from Webchat and Forms</li>
+      <li><strong>Links:</strong> use your domain name in short links</li>
+      <li><strong>Reporting:</strong> advanced reporting</li>
+      <li><strong>Operations:</strong> custom actions and conversation assignment</li>
+      <li><strong>SMS:</strong> included according to country and plan</li>
       <li><strong>Support:</strong> Priority (email and WhatsApp, ≤ 8 business hours)</li>
       <li><strong>History:</strong> 6 months</li>
     </ul>
@@ -56,39 +70,60 @@ Channels on every plan: **WhatsApp** (Meta bills separately), **Instagram Direct
 
   <div class="ht-plan">
     <h3>Grow</h3>
-    <p class="ht-price">US$ 299/month</p>
-    <p class="ht-perf"><strong>Performance:</strong> 2% from <span class="nowrap">US$ 15,000</span> in attributed revenue</p>
+    <p class="ht-price">US$ 299/month <span class="ht-price-note">US$ 269/month paid yearly</span></p>
+    <p class="ht-perf"><strong>Performance:</strong> 3% from <span class="nowrap">US$ 10,000</span> in attributed revenue</p>
     <ul class="ht-list">
-      <li><strong>Team:</strong> Unlimited</li>
-      <li><strong>Playbooks:</strong> All</li>
+      <li><strong>Team:</strong> Unlimited plus AI agents</li>
+      <li><strong>Includes:</strong> Everything in Small</li>
+      <li><strong>Playbooks:</strong> 30 AI enabled eCommerce playbooks</li>
+      <li><strong>WhatsApp:</strong> 2 verified lines</li>
+      <li><strong>AI:</strong> 2 custom AI agents</li>
+      <li><strong>Automation:</strong> HTTP Requests in Automations</li>
       <li><strong>Support:</strong> Account Manager (≤ 4 business hours)</li>
       <li><strong>History:</strong> Full</li>
     </ul>
   </div>
+
+  <div class="ht-plan">
+    <h3>Pro</h3>
+    <p class="ht-price">US$ 699/month</p>
+    <p class="ht-perf"><strong>Performance:</strong> 2.5% from <span class="nowrap">US$ 30,000</span> in attributed revenue</p>
+    <ul class="ht-list">
+      <li><strong>Includes:</strong> Everything in Grow</li>
+      <li><strong>ERP:</strong> customer, order, and stock integration</li>
+      <li><strong>Retail:</strong> 15 retail stores included</li>
+      <li><strong>Retail AI:</strong> unlimited custom playbooks and AI agents</li>
+      <li><strong>Teams:</strong> team visibility and advanced rules</li>
+      <li><strong>Response:</strong> team response-time rules</li>
+      <li><strong>APIs:</strong> custom agents with external API access</li>
+      <li><strong>SMS:</strong> included</li>
+      <li><strong>Support:</strong> Dedicated executive (≤ 2 business hours)</li>
+    </ul>
+  </div>
 </div>
 
-<strong>Channels on every plan:</strong> WhatsApp (Meta bills separately), Instagram Direct, Webchat, MercadoLibre, and SMS (see rates).
+<strong>Channels on every plan:</strong> WhatsApp (Meta bills separately), Instagram Direct, Facebook Messenger, Webchat, Mercado Libre, and SMS (see rates).
 
-<strong>Advanced features (upper plans):</strong> remove branding on Forms/Webchat, HTTP Requests in Automations, custom objects, short links with your domain, SLA 99.5%, custom actions, exclusive shortcodes.
+<strong>Enterprise:</strong> plans for requirements of millions of SMS or WhatsApp deliveries, enterprise-level support, exclusive short codes, and 99.5% SLA.
 
 <style>
   .ht-plans { display:grid; gap:16px; grid-template-columns:1fr; }
-  @media (min-width: 760px) { .ht-plans { grid-template-columns:1fr 1fr; } }
-  @media (min-width: 1180px) { .ht-plans { grid-template-columns:1fr 1fr 1fr; } }
+  @media (min-width: 760px) { .ht-plans { grid-template-columns:repeat(2, minmax(0, 1fr)); } }
   .ht-plan { border:1px solid var(--border-color, #e5e7eb); border-radius:12px; padding:16px; background:var(--surface, #fff); }
   .ht-plan h3 { margin:0 0 4px; font-size:1.1rem; }
   .ht-price { margin:0 0 4px; font-weight:700; }
+  .ht-price-note { display:block; font-size:0.92rem; font-weight:500; }
   .ht-perf { margin:0 0 8px; }
   .ht-list { margin:0; padding-left:18px; }
   .ht-note { margin-top:8px; font-size:0.95rem; }
   .nowrap { white-space:nowrap; }
 </style>
 
-> **Advanced features (upper plans):** remove branding on Forms/Webchat, HTTP Requests in Automations, custom objects, short links with your domain, SLA 99.5%, custom actions, exclusive shortcodes.
+> **Upper plans:** Pro adds retail, ERP, and team capabilities; Enterprise covers custom enterprise volume and delivery requirements.
 
 ## AI‑powered messages (fair‑use policy)
 
-AI messages on WhatsApp/Instagram/Webchat are included at no extra cost whenever **any** of the following three is **higher** than the variable fee:
+AI messages on WhatsApp, Instagram Direct, Facebook Messenger, and Webchat are included at no extra cost whenever **any** of the following three is **higher** than the variable fee:
 
 * **(a)** your plan minimum,
 * **(b)** your performance fee (2–5%)
@@ -114,7 +149,7 @@ Charged per message in local currency and vary by plan. They follow the same “
 **Scenario 1: Starter with strong performance**
 
 * Attributed revenue: **US$ 2,000** → 5% = **US$ 100**
-* WA/IG/Webchat messages: **10,000** → **US$ 20** (variable)
+* Multichannel messages: **10,000** → **US$ 20** (variable)
 * SMS: **US$ 0**
 * Floor: **US$ 0**
   **You pay Hellotext:** **US$ 100** (highest). **WhatsApp (Meta):** billed separately.

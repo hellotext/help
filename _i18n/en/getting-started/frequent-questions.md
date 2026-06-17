@@ -8,7 +8,7 @@ You can think of it as a sales autopilot that works day and night, keeping your 
 
 ## What channels can I use?
 
-Hellotext operates on the channels where your customers already are: WhatsApp, Instagram Direct, Facebook Messenger, Webchat, MercadoLibre, and SMS.
+Hellotext operates on the channels where your customers already are: WhatsApp, Instagram Direct, Facebook Messenger, Webchat, Mercado Libre, and SMS.
 
 Messages sent via WhatsApp, Instagram, Facebook Messenger, or Webchat are covered under the fair-use policy; SMS messages are billed separately depending on country and plan. This way, you can combine channels without worrying about unexpected costs.
 
@@ -80,7 +80,8 @@ You pay a percentage (2 – 5%) of the sales attributed to Hellotext, plus a mon
 Each month, the “pay once” rule applies: you only pay the highest among:
 
 * your plan value,
-* the performance fee, or
+* the performance fee,
+* SMS costs, or
 * the variable message cost (US $2 per 1,000 messages).
 
 You never pay more than one of these in the same month. **[More about Pricing](/how-pricing-works)**.
@@ -100,7 +101,7 @@ You can learn more about **[how we attribute sales](/how-we-attribute-sales)**.
 
 ## Are AI messages unlimited?
 
-In practice, yes. As long as the performance fee exceeds message costs, there’s no extra charge.
+In practice, yes. As long as your plan value, performance fee, or SMS costs exceed the variable message cost, there’s no extra charge.
 
 If in a given month performance is lower, a symbolic fee of US $2 per additional 1,000 messages applies.
 
@@ -119,9 +120,10 @@ Hellotext adapts to every growth stage:
 * **Starter (Free):** ideal to start and test.
 * **Small (US $74/month):** includes AI and basic automations.
 * **Grow (US $299/month):** designed for higher-volume teams.
+* **Pro (US $699/month):** designed for retail, ERP, and advanced team operations.
 * **Enterprise:** custom plan with 24/7 support.
 
-The performance fee decreases as your sales grow (5% → 3% → 2%).
+The performance fee decreases as your sales grow (5% → 4% → 3% → 2.5%; Enterprise from 2%).
 
 ## How much history is kept?
 
@@ -129,7 +131,7 @@ Depends on the plan:
 
 * **Starter:** 2 months
 * **Small:** 6 months
-* **Grow / Enterprise:** full history under retention policy.
+* **Grow / Pro / Enterprise:** full history under retention policy.
 
 ## How do I capture and update my contacts?
 

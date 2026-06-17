@@ -18,7 +18,7 @@ Aplicamos una regla única: pagas solo el monto mayor entre estos cuatro concept
 
 ### 1) Tarifa por performance (2–5 %)
 
-% aplicado a ventas atribuibles a mensajes/canales de Hellotext dentro de la ventana vigente. Escalas por plan: **3 %** desde **US$ 2.500** (Small), **2 %** desde **US$ 15.000** (Grow), **1 %** desde **US$ 250.000** (Enterprise). 
+% aplicado a ventas atribuibles a mensajes/canales de Hellotext dentro de la ventana vigente. Escalas por plan: **5 %** (Starter), **4 %** desde **US$ 2.000** (Small), **3 %** desde **US$ 10.000** (Grow), **2,5 %** desde **US$ 30.000** (Pro) y **2 %** desde **US$ 100.000** (Enterprise).
 
 > **Atribución (regla actualizada):** *last non‑direct click*; 24 h por teléfono impactado; 7 días si el shopper hace click en tu short link en el mismo dispositivo; excluye manuales, ventas no vinculadas y compras en conversaciones atendidas por un humano.
 
@@ -97,4 +97,4 @@ Se cobran en moneda local y entran en la regla del monto mayor.
 
 **¿Qué incluye cada plan además del precio?**
 
-Miembros, acceso a playbooks, niveles de soporte y historial de actividad, más funciones avanzadas en planes superiores (Grow/Enterprise). 
+Miembros, acceso a playbooks, niveles de soporte y historial de actividad, más funciones avanzadas en planes superiores (Grow/Pro/Enterprise).

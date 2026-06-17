@@ -190,7 +190,7 @@ You can ask your previous service provider to remove your line of credit from yo
 
 #### Do I need to pay both Meta and Hellotext?
 
-Hellotext uses a performance-based model: you pay **2–5%** of the revenue attributed to Hellotext. **[More about Pricing](/how-pricing-works)**.
+Hellotext uses a performance-based model: you pay **2–5%** of the revenue attributed to Hellotext, depending on your plan. **[More about Pricing](/how-pricing-works)**.
 
 **Key rule:** each month you pay a single item—the highest among: plan minimum, performance fee, SMS cost, or variable messaging fee (US $ 2 per 1,000). The variable fee is only charged if it’s higher than the other three.
 
