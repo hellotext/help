@@ -190,7 +190,7 @@ Puedes pedir a tu proveedor de servicios anterior que elimine tu línea de créd
 
 #### ¿Necesito pagar tanto a Meta como a Hellotext?
 
-Hellotext usa un modelo basado en performance: pagas **2–5 %** de los ingresos atribuidos a Hellotext. **[Más sobre Tarifas](es/explicacion-de-tarifas)**.
+Hellotext usa un modelo basado en performance: pagas **2–5 %** de los ingresos atribuidos a Hellotext, según tu plan. **[Más sobre Tarifas](es/explicacion-de-tarifas)**.
  
 **Regla clave:** cada mes pagas un solo concepto—el mayor entre: piso del plan, tarifa por performance, costo de SMS o tarifa variable por mensajes (US $ 2 por cada 1.000). La tarifa variable solo se cobra si es mayor que los otros tres.
 
