@@ -8,7 +8,10 @@ Si faltan perfiles de cliente, productos, órdenes o configuración de canales, 
 
 Revisa si la tienda o integración está conectada, si los datos recientes se están sincronizando y si el perfil de cliente afectado tiene los datos esperados.
 
-Sigue leyendo: [Resumen de configuración e integraciones]({% link _integrations/setup-overview.md %}).
+Sigue leyendo:
+
+- [Resumen de configuración e integraciones]({% link _integrations/setup-overview.md %})
+- [Soluciona señales o actividad faltante]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %})
 
 ## 2. Revisa el canal y el remitente
 
@@ -43,6 +46,7 @@ Recuerda que otro click comercial, una acción comercial humana, cancelaciones o
 Sigue leyendo:
 
 - [Links con tracking]({% link _analytics-reporting-attribution/tracked-links.md %})
+- [Soluciona señales o actividad faltante]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %})
 - [Reportes de campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %})
 - [Atribución de ventas]({% link _analytics-reporting-attribution/sales-attribution.md %})
 - [Seguimiento de eventos]({% link _developers/tracking-events.md %})

@@ -4,6 +4,8 @@ Those signals help Hellotext decide when to trigger a playbook, update a segment
 
 For the broader product concept, start with [What are signals?]({% link _journeys/what-are-signals.md %}).
 
+If events are not appearing where expected, use [Troubleshoot missing signals or activity]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %}) to check identity, action names, integrations, triggers, and reports.
+
 ## Understanding Actions
 
 Actions are the generic activities that your customers do.

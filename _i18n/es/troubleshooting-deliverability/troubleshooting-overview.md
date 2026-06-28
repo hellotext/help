@@ -35,6 +35,8 @@ Si conversiones, eventos o ingresos atribuidos no coinciden con lo esperado, rev
 
 Sigue leyendo: [Resumen de analítica, reportes y atribución]({% link _analytics-reporting-attribution/analytics-overview.md %}).
 
+Si falta una señal, evento, actualización de perfil, segmento, disparador de playbook o métrica de reporte, empieza con [Soluciona señales o actividad faltante]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %}).
+
 ## Inbox y flujos del equipo
 
 Si las conversaciones no las está gestionando la persona correcta, o si la performance de respuesta parece incorrecta, revisa asignación, roles, ownership y configuración de tiempos de respuesta.

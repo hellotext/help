@@ -32,6 +32,7 @@ Keep reading:
 
 - [What are signals?]({% link _journeys/what-are-signals.md %})
 - [Tracking events]({% link _developers/tracking-events.md %})
+- [Troubleshoot missing signals or activity]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %})
 
 ## Before comparing results
 

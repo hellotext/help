@@ -79,6 +79,7 @@ Los pasos comunes incluyen:
 
 - [Resumen de configuración]({% link _integrations/setup-overview.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
+- [Soluciona señales o actividad faltante]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %})
 - [Seguimiento de eventos]({% link _developers/tracking-events.md %})
 - [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})
 - [Primeros pasos con rutas]({% link _journeys/getting-started-with-journeys.md %})

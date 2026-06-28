@@ -79,6 +79,7 @@ Common setup steps include:
 
 - [Setup overview]({% link _integrations/setup-overview.md %})
 - [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})
+- [Troubleshoot missing signals or activity]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %})
 - [Tracking events]({% link _developers/tracking-events.md %})
 - [Playbooks and automation overview]({% link _journeys/playbooks-overview.md %})
 - [Getting started with journeys]({% link _journeys/getting-started-with-journeys.md %})

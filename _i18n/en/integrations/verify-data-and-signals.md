@@ -132,10 +132,13 @@ Common causes include:
 
 Fix the missing data first, then repeat the same end-to-end test.
 
+If you need to diagnose where the signal stopped after launch, keep reading: [Troubleshoot missing signals or activity]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %}).
+
 ## Related guides
 
 - [Setup overview]({% link _integrations/setup-overview.md %})
 - [What are signals?]({% link _journeys/what-are-signals.md %})
+- [Troubleshoot missing signals or activity]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %})
 - [Tracking events]({% link _developers/tracking-events.md %})
 - [Choose your first playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [Capture tools overview]({% link _captures/capture-overview.md %})

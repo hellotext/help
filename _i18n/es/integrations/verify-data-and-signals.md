@@ -132,10 +132,13 @@ Las causas comunes incluyen:
 
 Corrige primero el dato faltante y luego repite la misma prueba completa.
 
+Si necesitas diagnosticar dónde se detuvo la señal después de lanzar, sigue leyendo: [Soluciona señales o actividad faltante]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %}).
+
 ## Guías relacionadas
 
 - [Resumen de configuración]({% link _integrations/setup-overview.md %})
 - [Qué son las señales]({% link _journeys/what-are-signals.md %})
+- [Soluciona señales o actividad faltante]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %})
 - [Seguimiento de eventos]({% link _developers/tracking-events.md %})
 - [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [Resumen de herramientas de captura]({% link _captures/capture-overview.md %})

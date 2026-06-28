@@ -4,6 +4,8 @@ Esas señales ayudan a Hellotext a decidir cuándo activar un playbook, actualiz
 
 Para el concepto general del producto, empieza por [Qué son las señales]({% link _journeys/what-are-signals.md %}).
 
+Si los eventos no aparecen donde esperas, usa [Soluciona señales o actividad faltante]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %}) para revisar identidad, nombres de acciones, integraciones, disparadores y reportes.
+
 ## Comprendiendo las acciones
 
 Las acciones son las actividades genéricas que realizan tus clientes.

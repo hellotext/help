@@ -32,6 +32,7 @@ Sigue leyendo:
 
 - [Qué son las señales]({% link _journeys/what-are-signals.md %})
 - [Seguimiento de eventos]({% link _developers/tracking-events.md %})
+- [Soluciona señales o actividad faltante]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %})
 
 ## Antes de comparar resultados
 

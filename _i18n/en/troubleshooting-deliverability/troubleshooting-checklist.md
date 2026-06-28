@@ -8,7 +8,10 @@ If customer profiles, products, orders, or channel settings are missing or stale
 
 Check whether the store or integration is connected, whether recent data is syncing, and whether the affected customer profile has the data you expected.
 
-Keep reading: [Setup and integrations overview]({% link _integrations/setup-overview.md %}).
+Keep reading:
+
+- [Setup and integrations overview]({% link _integrations/setup-overview.md %})
+- [Troubleshoot missing signals or activity]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %})
 
 ## 2. Check the channel and sender
 
@@ -43,6 +46,7 @@ Remember that another commercial click, a human sales action, cancellations, or 
 Keep reading:
 
 - [Tracked links]({% link _analytics-reporting-attribution/tracked-links.md %})
+- [Troubleshoot missing signals or activity]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %})
 - [Campaign reporting]({% link _analytics-reporting-attribution/campaign-reporting.md %})
 - [Sales attribution]({% link _analytics-reporting-attribution/sales-attribution.md %})
 - [Tracking events]({% link _developers/tracking-events.md %})

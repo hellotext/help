@@ -35,6 +35,8 @@ If conversions, events, or attributed revenue do not match expectations, check w
 
 Keep reading: [Analytics, reporting, and attribution overview]({% link _analytics-reporting-attribution/analytics-overview.md %}).
 
+If a signal, event, profile update, segment, playbook trigger, or report metric is missing, start with [Troubleshoot missing signals or activity]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %}).
+
 ## Inbox and team workflows
 
 If conversations are not being handled by the right person, or response performance looks off, check assignment, roles, ownership, and response-time configuration.
