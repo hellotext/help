@@ -60,6 +60,7 @@ Use what you learn to adjust the prompt, timing, branch conditions, or template 
 - [Getting started with journeys]({% link _journeys/getting-started-with-journeys.md %})
 - [Custom journey]({% link _journeys/custom-journey.md %})
 - [How to write a great agent prompt]({% link _journeys/how-to-write-a-great-prompt.md %})
+- [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [Setup overview]({% link _integrations/setup-overview.md %})
 - [Capture tools overview]({% link _captures/capture-overview.md %})
 - [Message editor overview]({% link _numbers/message-editor-overview.md %})

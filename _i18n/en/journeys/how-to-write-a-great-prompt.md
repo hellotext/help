@@ -97,6 +97,8 @@ You can also instruct it on how to handle handoffs:
 
 Behind the scenes, the Supervisor routes these intents — whether product recommendation, support question, or profile update — through the appropriate agents defined in your workspace.
 
+Keep reading: [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %}).
+
 ## A Model prompt example
 
 Here’s a full, clean example you can adapt for your own brand.

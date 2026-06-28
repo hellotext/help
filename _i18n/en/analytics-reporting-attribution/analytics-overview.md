@@ -43,8 +43,11 @@ When reviewing performance, check:
 - Whether another channel was the last commercial click before purchase.
 - Whether a human teammate took over the commercial sale before purchase.
 
+If you are reviewing your first launch, start with [Measure success in your first 7 days]({% link _getting-started/measure-success-first-7-days.md %}).
+
 ## Related guides
 
+- [Measure success in your first 7 days]({% link _getting-started/measure-success-first-7-days.md %})
 - [Create a campaign]({% link _campaigns/creating-a-campaign.md %})
 - [Pricing, billing, and plans overview]({% link _billing/billing-overview.md %})
 - [Developers and API overview]({% link _developers/developers-overview.md %})

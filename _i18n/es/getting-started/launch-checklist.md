@@ -104,6 +104,7 @@ Mira crecimiento de audiencia, respuestas, clics, actividad de playbooks, report
 
 Sigue leyendo:
 
+- [Mide el éxito en tus primeros 7 días]({% link _getting-started/measure-success-first-7-days.md %})
 - [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})
 - [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [Reportes de Campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %})

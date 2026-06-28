@@ -112,4 +112,5 @@ If you are unsure, start smaller. Choose one goal, one channel, one audience, an
 - [Playbooks and automation overview]({% link _journeys/playbooks-overview.md %})
 - [Campaigns and broadcasts overview]({% link _campaigns/campaigns-overview.md %})
 - [Inbox and conversations overview]({% link _team/inbox-overview.md %})
+- [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [Choose your first playbook]({% link _journeys/choose-your-first-playbook.md %})

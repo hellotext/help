@@ -104,10 +104,13 @@ Después de la primera semana, revisa:
 
 Después decide qué ajustar, pausar o ampliar.
 
+Sigue leyendo: [Mide el éxito en tus primeros 7 días]({% link _getting-started/measure-success-first-7-days.md %}).
+
 ## Guías relacionadas
 
 - [Checklist de lanzamiento]({% link _getting-started/launch-checklist.md %})
 - [Checklist antes de enviar]({% link _getting-started/go-live-checklist.md %})
+- [Mide el éxito en tus primeros 7 días]({% link _getting-started/measure-success-first-7-days.md %})
 - [Cómo funciona Hellotext]({% link _getting-started/how-hellotext-works.md %})
 - [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})

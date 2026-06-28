@@ -60,6 +60,7 @@ Usa lo aprendido para ajustar el prompt, tiempos, condiciones de ramas o textos 
 - [Primeros pasos con rutas]({% link _journeys/getting-started-with-journeys.md %})
 - [Ruta personalizada]({% link _journeys/custom-journey.md %})
 - [Cómo escribir un gran prompt para tu agente]({% link _journeys/how-to-write-a-great-prompt.md %})
+- [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [Resumen de configuración]({% link _integrations/setup-overview.md %})
 - [Resumen de herramientas de captura]({% link _captures/capture-overview.md %})
 - [Resumen del editor de mensajes]({% link _numbers/message-editor-overview.md %})

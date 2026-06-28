@@ -112,4 +112,5 @@ Si no estás seguro, empieza más pequeño. Elige un objetivo, un canal, una aud
 - [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})
 - [Resumen de campañas y broadcasts]({% link _campaigns/campaigns-overview.md %})
 - [Resumen de inbox y conversaciones]({% link _team/inbox-overview.md %})
+- [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})

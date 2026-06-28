@@ -43,8 +43,11 @@ Al revisar performance, verifica:
 - Si otro canal fue el último click comercial antes de la compra.
 - Si una persona del equipo tomó control comercial de la venta antes de la compra.
 
+Si estás revisando tu primer lanzamiento, empieza por [Mide el éxito en tus primeros 7 días]({% link _getting-started/measure-success-first-7-days.md %}).
+
 ## Guías relacionadas
 
+- [Mide el éxito en tus primeros 7 días]({% link _getting-started/measure-success-first-7-days.md %})
 - [Crea una campaña]({% link _campaigns/creating-a-campaign.md %})
 - [Resumen de precios, facturación y planes]({% link _billing/billing-overview.md %})
 - [Resumen de desarrolladores y API]({% link _developers/developers-overview.md %})

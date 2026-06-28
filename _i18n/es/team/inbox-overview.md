@@ -4,6 +4,8 @@ El inbox reúne respuestas de clientes, preguntas de soporte, seguimiento de ór
 
 Si estás comparando el Inbox con playbooks y campañas, empieza por [Cómo funciona Hellotext]({% link _getting-started/how-hellotext-works.md %}).
 
+Si estás configurando derivaciones de IA o playbooks, lee [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %}).
+
 ## Cómo se mueven las conversaciones en el inbox
 
 Una conversación puede empezar cuando un cliente responde a un mensaje, escribe por un canal conectado o necesita atención después de un playbook, ruta, orden o evento registrado.
@@ -19,6 +21,8 @@ Cada conversación debería tener un responsable claro cuando una persona necesi
 Usa asignaciones para decidir quién es responsable de la siguiente respuesta. Esto evita que los clientes esperen mientras varias personas asumen que alguien más está gestionando la conversación.
 
 Sigue leyendo: [Asigna conversaciones]({% link _team/assigning-conversations.md %}).
+
+Si la conversación fue derivada por un agente de IA, playbook o ruta, revisa también [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %}).
 
 ## Usa roles según responsabilidades
 

@@ -4,6 +4,8 @@ The inbox brings together customer replies, support questions, order follow-up, 
 
 If you are comparing the Inbox with playbooks and campaigns, start with [How Hellotext works]({% link _getting-started/how-hellotext-works.md %}).
 
+If you are setting up AI or playbook escalations, read [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %}).
+
 ## How conversations move through the inbox
 
 A conversation can start when a customer replies to a message, writes through a connected channel, or needs attention after a playbook, route, order, or tracked event.
@@ -19,6 +21,8 @@ Every conversation should have a clear owner when a person needs to respond.
 Use assignments to decide who is responsible for the next reply. This keeps customers from waiting while multiple teammates assume someone else is handling the conversation.
 
 Keep reading: [Assign conversations]({% link _team/assigning-conversations.md %}).
+
+If the conversation was escalated by an AI agent, playbook, or route, also review [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %}).
 
 ## Use roles to match responsibilities
 

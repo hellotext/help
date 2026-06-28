@@ -96,6 +96,8 @@ También puedes darle instrucciones sobre cómo manejar las derivaciones:
 
 Detrás de escena, el Supervisor de Hellotext enruta estas intenciones —ya sean recomendaciones de producto, preguntas de soporte o actualizaciones de perfil— hacia los agentes correspondientes definidos en tu espacio de trabajo.
 
+Sigue leyendo: [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %}).
+
 ## Un ejemplo de prompt modelo
 
 Aquí tienes un ejemplo completo y claro que puedes adaptar para tu propia marca.
@@ -115,7 +117,7 @@ Aquí tienes un ejemplo completo y claro que puedes adaptar para tu propia marca
 >
 > Guarda automáticamente el nombre, la ciudad y las tallas preferidas del cliente para futuras interacciones.
 >
-> Escala cualquier consulta compleja sobre inventario, ventas al por mayor o colaboraciones especiales al equipo humano “Atención al Cliente”.
+> Deriva cualquier consulta compleja sobre inventario, ventas al por mayor o colaboraciones especiales al equipo humano “Atención al Cliente”.
 
 Este prompt es simple pero completo: define la voz, el propósito, el alcance y los límites. Está escrito en el mismo tono natural que experimentarán los clientes.
 

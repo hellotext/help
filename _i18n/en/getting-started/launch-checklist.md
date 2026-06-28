@@ -104,6 +104,7 @@ Look at audience growth, replies, clicks, playbook activity, campaign reporting,
 
 Keep reading:
 
+- [Measure success in your first 7 days]({% link _getting-started/measure-success-first-7-days.md %})
 - [Playbooks and automation overview]({% link _journeys/playbooks-overview.md %})
 - [Choose your first playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [Campaign Reporting]({% link _analytics-reporting-attribution/campaign-reporting.md %})
