@@ -62,4 +62,8 @@ Los miembros de tu equipo pueden unirse a tu empresa en Hellotext e interactuar 
 Continúa construyendo tu audiencia con la ayuda de cualquiera de las herramientas de captura disponibles:
 
 * Códigos QR
-* **[Obteniendo un keyword](/obteniendo-un-keyword)**
+* Links compartibles
+* Formularios
+* Opt-in en checkout
+
+Sigue leyendo: **[Resumen de herramientas de captura](/es/resumen-herramientas-captura)**.

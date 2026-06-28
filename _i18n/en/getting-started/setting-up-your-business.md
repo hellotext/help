@@ -61,5 +61,9 @@ Team members can join your business on Hellotext and actively interact with your
 
 Continue building your audience with the help of any of the capture tools available:
 
-* QR Codes
-* **[Keywords](/acquiring-a-keyword)**
+* QR codes
+* Shareable links
+* Forms
+* Checkout opt-in
+
+Keep reading: **[Capture tools overview](/capture-tools-overview)**.

@@ -76,9 +76,7 @@ collections:
     output: true
   numbers:
     order:
-      - acquiring-a-number.md
-      - migrating-an-existing-number.md
-      - acquiring-a-keyword.md
+      - messaging-overview.md
       - obtaining-an-exclusive-shortcode.md
     output: true
   team:
@@ -91,6 +89,7 @@ collections:
   getting-started:
     output: true
     order:
+      - launch-checklist.md
       - setting-up-your-business.md
       - frequent-questions.md
       - tips-and-best-practices.md
@@ -105,8 +104,12 @@ collections:
   captures:
     output: true
     order:
+      - capture-overview.md
       - qr-codes.md
       - shareable-link.md
+      - forms.md
+      - shopify-checkout.md
+      - wix-checkout.md
   journeys:
     output: true
     order:
@@ -114,6 +117,14 @@ collections:
       - custom-journey.md
   integrations:
     output: true
+    order:
+      - setup-overview.md
+      - connect-wix.md
+      - connect-woo.md
+      - connect-vtex.md
+      - connect-mercado-libre.md
+      - connect-whatsapp.md
+      - connect-catalog-to-whatsapp.md
   developers:
     output: true
     order:
