@@ -28,7 +28,10 @@ Reports are stronger when Hellotext receives useful customer activity from your 
 
 If your store is connected through a supported integration, many events may be tracked automatically. If you have a custom setup, use Hellotext.js or the API to send events.
 
-Keep reading: [Tracking events]({% link _developers/tracking-events.md %}).
+Keep reading:
+
+- [What are signals?]({% link _journeys/what-are-signals.md %})
+- [Tracking events]({% link _developers/tracking-events.md %})
 
 ## Before comparing results
 

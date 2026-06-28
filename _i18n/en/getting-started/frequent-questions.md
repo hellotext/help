@@ -41,6 +41,7 @@ Playbooks use signals to decide when to act, which customer should receive atten
 
 Keep reading:
 
+- [What are signals?]({% link _journeys/what-are-signals.md %})
 - [Playbooks and automation overview]({% link _journeys/playbooks-overview.md %})
 - [Tracking events]({% link _developers/tracking-events.md %})
 

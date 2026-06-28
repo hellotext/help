@@ -41,6 +41,7 @@ Los playbooks usan señales para decidir cuándo actuar, qué cliente necesita a
 
 Sigue leyendo:
 
+- [Qué son las señales]({% link _journeys/what-are-signals.md %})
 - [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})
 - [Seguimiento de eventos]({% link _developers/tracking-events.md %})
 

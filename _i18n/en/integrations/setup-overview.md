@@ -25,6 +25,8 @@ Choose the guide that matches your store:
 
 After connecting, check that customers, orders, and recent activity are appearing in Hellotext before you build playbooks, routes, or campaigns from that data.
 
+Keep reading: [What are signals?]({% link _journeys/what-are-signals.md %}).
+
 ### 3. Connect WhatsApp if you will use it
 
 Connect WhatsApp before you create WhatsApp captures, playbooks, routes, or campaigns.

@@ -2,6 +2,8 @@ Tracking events turns customer behavior into signals Hellotext can use across cu
 
 Those signals help Hellotext decide when to trigger a playbook, update a segment, enrich a customer profile, support an agent, or attribute revenue to the right action.
 
+For the broader product concept, start with [What are signals?]({% link _journeys/what-are-signals.md %}).
+
 ## Understanding Actions
 
 Actions are the generic activities that your customers do.

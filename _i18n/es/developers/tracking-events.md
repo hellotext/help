@@ -2,6 +2,8 @@ El seguimiento de eventos convierte el comportamiento de tus clientes en señale
 
 Esas señales ayudan a Hellotext a decidir cuándo activar un playbook, actualizar un segmento, enriquecer un perfil de cliente, asistir a un agente o atribuir ingresos a la acción correcta.
 
+Para el concepto general del producto, empieza por [Qué son las señales]({% link _journeys/what-are-signals.md %}).
+
 ## Comprendiendo las acciones
 
 Las acciones son las actividades genéricas que realizan tus clientes.

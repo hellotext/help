@@ -28,7 +28,10 @@ Los reportes son más fuertes cuando Hellotext recibe actividad útil de cliente
 
 Si tu tienda está conectada con una integración soportada, muchos eventos pueden rastrearse automáticamente. Si tienes una implementación personalizada, usa Hellotext.js o la API para enviar eventos.
 
-Sigue leyendo: [Seguimiento de eventos]({% link _developers/tracking-events.md %}).
+Sigue leyendo:
+
+- [Qué son las señales]({% link _journeys/what-are-signals.md %})
+- [Seguimiento de eventos]({% link _developers/tracking-events.md %})
 
 ## Antes de comparar resultados
 

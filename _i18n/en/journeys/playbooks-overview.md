@@ -6,6 +6,8 @@ A playbook can be an autonomous mission, an AI agent, a journey route, a campaig
 
 Signals can include carts, browsing activity, purchases, stock changes, birthdays, replies, customer profile properties, and channel eligibility.
 
+Keep reading: [What are signals?]({% link _journeys/what-are-signals.md %}).
+
 ## Choose the right playbook type
 
 Use a **prebuilt playbook** when the goal is common and the recommended mission already fits your business. This is usually the fastest way to launch.
@@ -45,6 +47,7 @@ Use what you learn to adjust the prompt, timing, branch conditions, or template 
 
 ## Related guides
 
+- [What are signals?]({% link _journeys/what-are-signals.md %})
 - [Getting started with journeys]({% link _journeys/getting-started-with-journeys.md %})
 - [Custom journey]({% link _journeys/custom-journey.md %})
 - [How to write a great agent prompt]({% link _journeys/how-to-write-a-great-prompt.md %})

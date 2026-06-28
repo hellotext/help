@@ -6,6 +6,8 @@ Un playbook puede ser una misión autónoma, un agente de IA, una ruta, una camp
 
 Las señales pueden incluir carritos, navegación, compras, cambios de stock, cumpleaños, respuestas, propiedades del perfil de cliente y elegibilidad por canal.
 
+Sigue leyendo: [Qué son las señales]({% link _journeys/what-are-signals.md %}).
+
 ## Elige el tipo de playbook correcto
 
 Usa un **playbook preconstruido** cuando el objetivo es común y la misión recomendada ya encaja con tu negocio. Normalmente es la forma más rápida de lanzar.
@@ -45,6 +47,7 @@ Usa lo aprendido para ajustar el prompt, tiempos, condiciones de ramas o textos 
 
 ## Guías relacionadas
 
+- [Qué son las señales]({% link _journeys/what-are-signals.md %})
 - [Primeros pasos con rutas]({% link _journeys/getting-started-with-journeys.md %})
 - [Ruta personalizada]({% link _journeys/custom-journey.md %})
 - [Cómo escribir un gran prompt para tu agente]({% link _journeys/how-to-write-a-great-prompt.md %})
