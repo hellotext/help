@@ -144,7 +144,7 @@ Se cobran por mensaje en moneda local y varían según el plan. Participan en la
 * Si el shopper hace click en tu short link de Hellotext en ese mismo dispositivo, la ventana se extiende a 7 días.
 * No atribuimos: entradas manuales, ventas generales de la tienda no vinculadas a mensajes de Hellotext, ni compras ocurridas en conversaciones atendidas por un miembro humano del equipo.
 
-**[Cómo atribuimos las ventas](/es/como-atribuimos-las-ventas)**
+**[Cómo atribuimos las ventas]({% link _billing/how-we-attribute-sales.md %})**
 
 ## Ejemplos de facturación
 

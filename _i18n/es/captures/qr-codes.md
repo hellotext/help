@@ -36,7 +36,7 @@ Sin embargo, si has creado algún cupón, puedes elegir incluirlo en el mensaje 
 
 Alternativamente, puedes seleccionar una ruta que hayas creado para reemplazar el mensaje de bienvenida predeterminado.
 
-Este viaje se enviará al suscriptor en lugar del mensaje predeterminado.
+Esta ruta se enviará al suscriptor en lugar del mensaje predeterminado.
 
 ## Obtener el código QR
 

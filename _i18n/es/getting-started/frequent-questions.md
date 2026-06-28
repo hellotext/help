@@ -84,7 +84,7 @@ Cada mes se aplica la regla “pay once”: solo abonas el mayor entre:
 * el costo de SMS, o
 * el costo variable por mensajes (US $ 2 cada 1.000).
 
-Nunca pagas más de uno de estos conceptos en el mismo mes. **[Más sobre Tarifas](es/explicacion-de-tarifas)**.
+Nunca pagas más de uno de estos conceptos en el mismo mes. **[Más sobre Tarifas]({% link _billing/how-pricing-works.md %})**.
 
 ## ¿Qué se considera una venta atribuida?
 
@@ -97,7 +97,7 @@ La atribución se mantiene:
 
 No se cuentan ventas ingresadas manualmente ni conversaciones resueltas por agentes humanos. 
 
-Si quieres puedes saber más sobre **[cómo atribuimos las ventas](/es/como-atribuimos-las-ventas)**.
+Si quieres puedes saber más sobre **[cómo atribuimos las ventas]({% link _billing/how-we-attribute-sales.md %})**.
 
 ## ¿Los mensajes con IA son ilimitados?
 

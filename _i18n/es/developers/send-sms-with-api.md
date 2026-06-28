@@ -91,7 +91,7 @@ Conoce más acá {shortlink:https://www.tunegocio.com}
 
 Hellotext reemplazará esa instrucción por un enlace corto al momento de enviar el mensaje.
 
-Si quieres usar tu propio dominio para enlaces cortos, consulta la guía de [dominio personalizado para enlaces cortos](/es/configurando-dominio-para-enlaces-cortos).
+Si quieres usar tu propio dominio para enlaces cortos, consulta la guía de [dominio personalizado para enlaces cortos]({% link _getting-started/setting-up-your-cname-alias.md %}).
 
 ## Perfiles de cliente
 

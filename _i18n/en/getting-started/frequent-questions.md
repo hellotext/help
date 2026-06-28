@@ -84,7 +84,7 @@ Each month, the “pay once” rule applies: you only pay the highest among:
 * SMS costs, or
 * the variable message cost (US $2 per 1,000 messages).
 
-You never pay more than one of these in the same month. **[More about Pricing](/how-pricing-works)**.
+You never pay more than one of these in the same month. **[More about Pricing]({% link _billing/how-pricing-works.md %})**.
 
 ## What counts as an attributed sale?
 
@@ -97,7 +97,7 @@ Attribution remains valid:
 
 Sales entered manually or conversations resolved by human agents are not counted.
 
-You can learn more about **[how we attribute sales](/how-we-attribute-sales)**.
+You can learn more about **[how we attribute sales]({% link _billing/how-we-attribute-sales.md %})**.
 
 ## Are AI messages unlimited?
 

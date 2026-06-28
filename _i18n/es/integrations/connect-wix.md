@@ -52,4 +52,4 @@ Podrás hacer clic en cada perfil para ver el historial de actividades que reali
 
 Con esta información, podrás crear segmentos para el envío de campañas y automatizaciones desde la sección Rutas.
 
-Recuerda activar la **[Casilla de aceptación de suscripción en el formulario de compra](/es/wix-checkout)** de tu sitio Wix para obtener el consentimiento de tus clientes para recibir promociones.
+Recuerda activar la **[Casilla de aceptación de suscripción en el formulario de compra]({% link _captures/wix-checkout.md %})** de tu sitio Wix para obtener el consentimiento de tus clientes para recibir promociones.

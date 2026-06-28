@@ -26,7 +26,7 @@ Los negocios nuevos siempre se facturan en régimen de pre-pago. Esto significa 
 
 Los comercios con acuerdo de facturación como *crédito* pueden activar una prueba sin depósito bancario.
 
-Los negocios prepago nuevos pueden enviar SMS desde el inicio, pero el envío por SMS puede comenzar con un límite diario temporal mientras Hellotext revisa la calidad de sus envíos. Lee más sobre **[los límites de envío SMS para negocios nuevos](/es/limites-de-envio-sms-para-negocios-nuevos)**.
+Los negocios prepago nuevos pueden enviar SMS desde el inicio, pero el envío por SMS puede comenzar con un límite diario temporal mientras Hellotext revisa la calidad de sus envíos. Lee más sobre **[los límites de envío SMS para negocios nuevos]({% link _billing/sms-sending-limits-for-new-businesses.md %})**.
 
 ## Conecta tu eCommerce
 
@@ -44,8 +44,8 @@ También puedes limitar tus campañas a audiencias específicas utilizando *Segm
 
 Sigue leyendo:
 
-* **[Crear una campaña](/crear-una-campaña)**
-* **[Mejor segmentación mediante segmentos](/segmentos)**
+* **[Crear una campaña]({% link _campaigns/creating-a-campaign.md %})**
+* **[Mejor segmentación mediante segmentos]({% link _audience/segments.md %})**
 
 ## Invitar a un miembro del equipo
 
@@ -55,7 +55,7 @@ Ahora es probablemente un buen momento para invitar a otro miembro del equipo pa
 
 Los miembros de tu equipo pueden unirse a tu empresa en Hellotext e interactuar activamente con los clientes, ya sea respondiendo a sus consultas o iniciando activamente una conversación en función de sus actividades.
 
-* **[Diferencias entre roles de equipo](/diferencias-entre-roles-de-equipo)**
+* **[Diferencias entre roles de equipo]({% link _team/understanding-team-roles.md %})**
 
 ## Sigue aumentando tu audiencia
 
@@ -66,4 +66,4 @@ Continúa construyendo tu audiencia con la ayuda de cualquiera de las herramient
 * Formularios
 * Opt-in en checkout
 
-Sigue leyendo: **[Resumen de herramientas de captura](/es/resumen-herramientas-captura)**.
+Sigue leyendo: **[Resumen de herramientas de captura]({% link _captures/capture-overview.md %})**.

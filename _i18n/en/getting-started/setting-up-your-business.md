@@ -26,7 +26,7 @@ Newly created businesses are always invoiced under a prepaid agreement. This mea
 
 Businesses with invoicing agreement as *credit* can activate a trial without a bank deposit.
 
-New prepaid businesses can send SMS right away, but SMS may start with a temporary daily limit while Hellotext reviews sending quality. Learn more about **[SMS sending limits for new businesses](/sms-sending-limits-for-new-businesses)**.
+New prepaid businesses can send SMS right away, but SMS may start with a temporary daily limit while Hellotext reviews sending quality. Learn more about **[SMS sending limits for new businesses]({% link _billing/sms-sending-limits-for-new-businesses.md %})**.
 
 ## Connect your eCommerce
 
@@ -44,8 +44,8 @@ You can also narrow your campaigns to specific targeted audiences using *Segment
 
 Keep reading:
 
-* **[Creating a campaign](/creating-a-campaign)** 
-* **[Better targeting using Segments](/segments)** 
+* **[Creating a campaign]({% link _campaigns/creating-a-campaign.md %})**
+* **[Better targeting using Segments]({% link _audience/segments.md %})**
 
 ## Invite a team member
 
@@ -55,7 +55,7 @@ Now it's probably a good moment to invite another team member to help you manage
 
 Team members can join your business on Hellotext and actively interact with your customers either by responding to their inquiries or actively initiating conversations based on their activities.
 
-* **[Understanding team roles](/understanding-team-roles)**
+* **[Understanding team roles]({% link _team/understanding-team-roles.md %})**
 
 ## Keep growing your audience
 
@@ -66,4 +66,4 @@ Continue building your audience with the help of any of the capture tools availa
 * Forms
 * Checkout opt-in
 
-Keep reading: **[Capture tools overview](/capture-tools-overview)**.
+Keep reading: **[Capture tools overview]({% link _captures/capture-overview.md %})**.

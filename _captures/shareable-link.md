@@ -8,8 +8,11 @@ es:
   title: Link Compartible
   description: Permite a tus fans suscribirse fácilmente a tu negocio directamente desde un link compartible.
 
-permalink: captures/shareable-link
-permalink_es: captures/link-compartible
+permalink: shareable-link
+permalink_es: link-compartible
+redirect_from:
+  - /captures/shareable-link
+  - /captures/link-compartible
 
 layout: guide
 topic: captures

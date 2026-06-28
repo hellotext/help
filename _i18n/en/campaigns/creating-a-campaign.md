@@ -20,7 +20,7 @@ You can include multiple Lists and Segments in your selection by clicking the <i
 
 The aggregated total of subscribers to reach will be visible on the right side of the page.
 
-Learn more on **[Lists and Segments](/lists-and-segments)**
+Learn more on **[Lists and Segments]({% link _audience/lists-and-segments.md %})**
 
 ### Excluding audiences
 

@@ -20,7 +20,7 @@ Puedes incluir múltiples Listas y Segmentos en tu selección haciendo clic en e
 
 El total agregado de suscriptores a alcanzar será visible en el lado derecho de la página.
 
-Más información sobre **[Listas y segmentos](/lists-and-segments)**
+Más información sobre **[Listas y segmentos]({% link _audience/lists-and-segments.md %})**
 
 ### Excluyendo audiencias
 
