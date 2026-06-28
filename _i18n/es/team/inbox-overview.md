@@ -2,6 +2,8 @@ Usa el inbox para gestionar las conversaciones que necesitan atención de tu equ
 
 El inbox reúne respuestas de clientes, preguntas de soporte, seguimiento de órdenes y conversaciones que un playbook, ruta o agente de IA deriva a una persona.
 
+Si estás comparando el Inbox con playbooks y campañas, empieza por [Cómo funciona Hellotext]({% link _getting-started/how-hellotext-works.md %}).
+
 ## Cómo se mueven las conversaciones en el inbox
 
 Una conversación puede empezar cuando un cliente responde a un mensaje, escribe por un canal conectado o necesita atención después de un playbook, ruta, orden o evento registrado.

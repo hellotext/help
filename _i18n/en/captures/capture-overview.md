@@ -37,3 +37,4 @@ Test every capture before sharing it with customers. For QR codes, scan the fina
 - Create a [form]({% link _captures/forms.md %}).
 - Set up [Shopify checkout opt-in]({% link _captures/shopify-checkout.md %}).
 - Set up [Wix checkout opt-in]({% link _captures/wix-checkout.md %}).
+- Understand [who you can message]({% link _audience/consent-and-subscriber-status.md %}).

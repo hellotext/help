@@ -19,6 +19,8 @@ Buenos casos para una ruta:
 
 Un carrito abandonado puede existir de más de una forma: como una plantilla de ruta simple con pasos fijos, o como un playbook con IA que decide de forma más dinámica usando señales y contexto del cliente.
 
+Sigue leyendo: [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
+
 ## Cuándo usar otro tipo de playbook
 
 Usa un playbook más autónomo o un agente de IA cuando la experiencia necesita decidir en tiempo real.

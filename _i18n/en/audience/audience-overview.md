@@ -8,6 +8,8 @@ A customer profile is the record Hellotext builds for each customer. It can incl
 
 A subscriber is a customer profile that has opted in to receive messages on a channel. Before sending, confirm that the audience has consent for the channel you plan to use.
 
+Keep reading: [Who can I message? Consent and subscriber status]({% link _audience/consent-and-subscriber-status.md %}).
+
 ## Lists and segments
 
 Use **lists** when you want to manually group customer profiles into a fixed audience.
@@ -39,6 +41,7 @@ Before launching a campaign, playbook, or route, check:
 ## Related guides
 
 - [Create and manage lists]({% link _audience/lists.md %})
+- [Who can I message? Consent and subscriber status]({% link _audience/consent-and-subscriber-status.md %})
 - [Build segments]({% link _audience/segments.md %})
 - [Create a campaign]({% link _campaigns/creating-a-campaign.md %})
 - [Playbooks and automation overview]({% link _journeys/playbooks-overview.md %})

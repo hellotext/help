@@ -8,6 +8,8 @@ Un perfil de cliente es el registro que Hellotext construye para cada cliente. P
 
 Un suscriptor es un perfil de cliente que aceptó recibir mensajes por un canal. Antes de enviar, confirma que la audiencia tenga consentimiento para el canal que vas a usar.
 
+Sigue leyendo: [A quién puedo escribirle: consentimiento y estado de suscripción]({% link _audience/consent-and-subscriber-status.md %}).
+
 ## Listas y segmentos
 
 Usa **listas** cuando quieres agrupar perfiles de cliente manualmente en una audiencia fija.
@@ -39,6 +41,7 @@ Antes de lanzar una campaña, playbook o ruta, revisa:
 ## Guías relacionadas
 
 - [Crea y gestiona listas]({% link _audience/lists.md %})
+- [A quién puedo escribirle: consentimiento y estado de suscripción]({% link _audience/consent-and-subscriber-status.md %})
 - [Crea segmentos]({% link _audience/segments.md %})
 - [Crea una campaña]({% link _campaigns/creating-a-campaign.md %})
 - [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})

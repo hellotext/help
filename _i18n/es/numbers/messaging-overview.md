@@ -30,5 +30,6 @@ Antes de lanzar una campaña, playbook o ruta, confirma que:
 
 - [Códigos cortos exclusivos]({% link _numbers/exclusive-short-codes.md %})
 - [Conecta WhatsApp]({% link _integrations/connect-whatsapp.md %})
+- [A quién puedo escribirle: consentimiento y estado de suscripción]({% link _audience/consent-and-subscriber-status.md %})
 - [Resumen de herramientas de captura]({% link _captures/capture-overview.md %})
 - [Resumen del editor de mensajes]({% link _numbers/message-editor-overview.md %})

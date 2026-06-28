@@ -16,6 +16,8 @@ If the signal is not available yet, set up tracking or integrations before choos
 
 Keep reading: [What are signals?]({% link _journeys/what-are-signals.md %}).
 
+For cart recovery specifically, see [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
+
 ## Choose by first goal
 
 | If your first goal is... | Start with... | Why |
@@ -75,7 +77,10 @@ Then adjust one thing at a time: audience, trigger, timing, message, offer, prom
 ## Related guides
 
 - [Playbooks and automation overview]({% link _journeys/playbooks-overview.md %})
+- [First wins starter pack]({% link _getting-started/first-wins-starter-pack.md %})
 - [What are signals?]({% link _journeys/what-are-signals.md %})
+- [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})
+- [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %})
 - [Getting started with journeys]({% link _journeys/getting-started-with-journeys.md %})
 - [Capture tools overview]({% link _captures/capture-overview.md %})
 - [Campaigns and broadcasts overview]({% link _campaigns/campaigns-overview.md %})

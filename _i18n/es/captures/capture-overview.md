@@ -37,3 +37,4 @@ Prueba cada captura antes de compartirla con clientes. Para códigos QR, escanea
 - Crea un [formulario]({% link _captures/forms.md %}).
 - Configura el [opt-in en checkout de Shopify]({% link _captures/shopify-checkout.md %}).
 - Configura el [opt-in en checkout de Wix]({% link _captures/wix-checkout.md %}).
+- Entiende [a quién puedes escribirle]({% link _audience/consent-and-subscriber-status.md %}).

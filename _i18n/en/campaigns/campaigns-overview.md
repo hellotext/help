@@ -2,6 +2,8 @@ Use campaigns when you want to send a one-time message to a selected audience.
 
 Campaigns are useful for announcements, promotions, product launches, restocks, event reminders, and other moments where the same message should reach many customers at once.
 
+If you are comparing campaigns with playbooks and the Inbox, start with [How Hellotext works]({% link _getting-started/how-hellotext-works.md %}).
+
 ## Campaigns vs. playbooks and routes
 
 Use a **campaign** when you decide the audience, message, and send time.
@@ -38,6 +40,7 @@ Keep reading: [Campaign reporting]({% link _analytics-reporting-attribution/camp
 - [Create a campaign]({% link _campaigns/creating-a-campaign.md %})
 - [Campaign reporting]({% link _analytics-reporting-attribution/campaign-reporting.md %})
 - [Messaging channels overview]({% link _numbers/messaging-overview.md %})
+- [How Hellotext works: playbooks, campaigns, and Inbox]({% link _getting-started/how-hellotext-works.md %})
 - [Playbooks and automation overview]({% link _journeys/playbooks-overview.md %})
 - [Tracked links]({% link _analytics-reporting-attribution/tracked-links.md %})
 - [Personalization tags]({% link _audience/personalization-tags.md %})

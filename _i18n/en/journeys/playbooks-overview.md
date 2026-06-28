@@ -2,6 +2,8 @@ Use playbooks and automations when Hellotext should read customer signals, decid
 
 A playbook is a repeatable system trained for a business mission. It reads signals, decides what should happen for each customer, and acts through the right channel within the limits you set.
 
+If you are comparing playbooks with campaigns and the Inbox, start with [How Hellotext works]({% link _getting-started/how-hellotext-works.md %}).
+
 A playbook can be an autonomous mission, an AI agent, a journey route, a campaign, or a capture depending on the job it performs.
 
 Signals can include carts, browsing activity, purchases, stock changes, birthdays, replies, customer profile properties, and channel eligibility.
@@ -17,6 +19,8 @@ Use a **prebuilt playbook** when the goal is common and the recommended mission 
 Use an **AI playbook or AI agent** when the experience needs to respond conversationally, use product or policy knowledge, recommend items, answer frequent questions, collect customer information, or decide when to escalate.
 
 Use a **journey route** when you need a multi-step customer flow with a trigger, messages, waits, conditions, branches, and handoffs. A basic abandoned-cart follow-up can be a route template; an AI abandoned-cart playbook can make more dynamic decisions based on signals and customer context.
+
+For that specific choice, see [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
 
 Use a **campaign** when you want a one-time send to a selected audience, and a **capture** when the goal is to collect subscribers or customer data.
 
@@ -50,7 +54,9 @@ Use what you learn to adjust the prompt, timing, branch conditions, or template 
 ## Related guides
 
 - [What are signals?]({% link _journeys/what-are-signals.md %})
+- [How Hellotext works: playbooks, campaigns, and Inbox]({% link _getting-started/how-hellotext-works.md %})
 - [Choose your first playbook]({% link _journeys/choose-your-first-playbook.md %})
+- [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %})
 - [Getting started with journeys]({% link _journeys/getting-started-with-journeys.md %})
 - [Custom journey]({% link _journeys/custom-journey.md %})
 - [How to write a great agent prompt]({% link _journeys/how-to-write-a-great-prompt.md %})

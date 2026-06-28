@@ -2,6 +2,10 @@ Usa este checklist cuando estás configurando Hellotext por primera vez o prepar
 
 El objetivo es confirmar que tu cuenta, señales, canales, capturas y primer playbook, ruta o envío estén listos antes de que los clientes empiecen a recibir mensajes.
 
+Si eres nuevo en el producto, empieza por [Qué es Hellotext]({% link _getting-started/what-is-hellotext.md %}).
+
+Si estás eligiendo entre playbooks, campañas y flujos del Inbox, lee [Cómo funciona Hellotext]({% link _getting-started/how-hellotext-works.md %}).
+
 ## 1. Crea y revisa tu negocio
 
 Crea tu negocio, elige el país principal donde opera y selecciona el plan que se ajuste a tu etapa.
@@ -22,6 +26,8 @@ Empieza por la integración que corresponda a tu tienda:
 - [Conecta Mercado Libre]({% link _integrations/connect-mercado-libre.md %})
 
 Si usas funciones de comercio en WhatsApp, revisa también [Conecta tu catálogo a WhatsApp]({% link _integrations/connect-catalog-to-whatsapp.md %}).
+
+Antes de lanzar algo basado en estos datos, [verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %}).
 
 ## 3. Conecta tus canales de mensajería
 
@@ -70,6 +76,9 @@ Antes de ampliar, prueba con tu propio número y algunos miembros del equipo. Re
 Sigue leyendo:
 
 - [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})
+- [Cómo funciona Hellotext]({% link _getting-started/how-hellotext-works.md %})
+- [Primeros logros recomendados]({% link _getting-started/first-wins-starter-pack.md %})
+- [Checklist antes de enviar]({% link _getting-started/go-live-checklist.md %})
 - [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [Primeros pasos con rutas]({% link _journeys/getting-started-with-journeys.md %})
 - [Crear una Campaña]({% link _campaigns/creating-a-campaign.md %})

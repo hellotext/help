@@ -4,7 +4,11 @@ Hellotext is a decision system for commerce teams. It reads customer and busines
 
 Use it to recover carts, drive repeat purchases, reactivate customers, answer conversations, and measure revenue without building every flow manually.
 
-Start with the [launch checklist]({% link _getting-started/launch-checklist.md %}) if you are setting up Hellotext for the first time.
+Keep reading:
+
+- [What is Hellotext?]({% link _getting-started/what-is-hellotext.md %})
+- [How Hellotext works: playbooks, campaigns, and Inbox]({% link _getting-started/how-hellotext-works.md %})
+- [Launch checklist]({% link _getting-started/launch-checklist.md %})
 
 ## Where should I start?
 
@@ -82,6 +86,7 @@ Unlike a fixed flow, a playbook can use signals to decide what to do for each cu
 
 Keep reading:
 
+- [How Hellotext works: playbooks, campaigns, and Inbox]({% link _getting-started/how-hellotext-works.md %})
 - [Campaigns and broadcasts overview]({% link _campaigns/campaigns-overview.md %})
 - [Playbooks and automation overview]({% link _journeys/playbooks-overview.md %})
 

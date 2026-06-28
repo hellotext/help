@@ -2,6 +2,8 @@ Use the inbox to manage the conversations that need attention from your team.
 
 The inbox brings together customer replies, support questions, order follow-up, and conversations that a playbook, route, or AI agent escalates to a person.
 
+If you are comparing the Inbox with playbooks and campaigns, start with [How Hellotext works]({% link _getting-started/how-hellotext-works.md %}).
+
 ## How conversations move through the inbox
 
 A conversation can start when a customer replies to a message, writes through a connected channel, or needs attention after a playbook, route, order, or tracked event.

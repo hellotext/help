@@ -57,6 +57,8 @@ Before sending messages broadly, run a small end-to-end test:
 - Send a test message through the channel you connected.
 - Check that links, captures, and replies behave as expected.
 
+For a fuller checklist, use [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %}).
+
 ## Troubleshooting checklist
 
 If an integration does not behave as expected, review the basics first:

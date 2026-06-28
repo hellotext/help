@@ -19,6 +19,8 @@ Good journey use cases include:
 
 An abandoned cart can exist in more than one form: a simple route template with fixed steps, or an AI playbook that decides more dynamically based on signals and customer context.
 
+Keep reading: [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
+
 ## When to use another playbook type
 
 Use a more autonomous playbook or AI agent when the experience needs to decide in real time.

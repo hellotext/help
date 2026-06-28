@@ -2,6 +2,8 @@ Usa playbooks y automatizaciones cuando Hellotext debe leer señales de clientes
 
 Un playbook es un sistema reutilizable entrenado para una misión de negocio. Lee señales, decide qué debería pasar con cada cliente y actúa por el canal correcto dentro de los límites que definas.
 
+Si estás comparando playbooks con campañas e Inbox, empieza por [Cómo funciona Hellotext]({% link _getting-started/how-hellotext-works.md %}).
+
 Un playbook puede ser una misión autónoma, un agente de IA, una ruta, una campaña o una captura según el trabajo que realiza.
 
 Las señales pueden incluir carritos, navegación, compras, cambios de stock, cumpleaños, respuestas, propiedades del perfil de cliente y elegibilidad por canal.
@@ -17,6 +19,8 @@ Usa un **playbook preconstruido** cuando el objetivo es común y la misión reco
 Usa un **playbook con IA o agente de IA** cuando la experiencia necesita responder conversacionalmente, usar conocimiento de productos o políticas, recomendar artículos, responder preguntas frecuentes, recopilar información del cliente o decidir cuándo escalar.
 
 Usa una **ruta** cuando necesitas un flujo de clientes paso a paso con disparador, mensajes, esperas, condiciones, ramas y derivaciones. Un seguimiento básico de carrito abandonado puede ser una plantilla de ruta; un playbook de carrito abandonado con IA puede decidir de forma más dinámica usando señales y contexto del cliente.
+
+Para esa decisión específica, mira [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
 
 Usa una **campaña** cuando quieres un envío puntual a una audiencia seleccionada, y una **captura** cuando el objetivo es recolectar suscriptores o datos de clientes.
 
@@ -50,7 +54,9 @@ Usa lo aprendido para ajustar el prompt, tiempos, condiciones de ramas o textos 
 ## Guías relacionadas
 
 - [Qué son las señales]({% link _journeys/what-are-signals.md %})
+- [Cómo funciona Hellotext: playbooks, campañas e Inbox]({% link _getting-started/how-hellotext-works.md %})
 - [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
+- [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %})
 - [Primeros pasos con rutas]({% link _journeys/getting-started-with-journeys.md %})
 - [Ruta personalizada]({% link _journeys/custom-journey.md %})
 - [Cómo escribir un gran prompt para tu agente]({% link _journeys/how-to-write-a-great-prompt.md %})

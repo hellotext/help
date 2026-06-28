@@ -57,6 +57,8 @@ Antes de enviar mensajes de forma masiva, haz una prueba completa en pequeño:
 - Envía un mensaje de prueba por el canal que conectaste.
 - Revisa que los links, capturas y respuestas funcionen como esperas.
 
+Para un checklist más completo, usa [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %}).
+
 ## Checklist de solución de problemas
 
 Si una integración no se comporta como esperas, revisa primero lo básico:

@@ -30,5 +30,6 @@ Before launching a campaign, playbook, or route, confirm that:
 
 - [Exclusive short codes]({% link _numbers/exclusive-short-codes.md %})
 - [Connect WhatsApp]({% link _integrations/connect-whatsapp.md %})
+- [Who can I message? Consent and subscriber status]({% link _audience/consent-and-subscriber-status.md %})
 - [Capture tools overview]({% link _captures/capture-overview.md %})
 - [Message editor overview]({% link _numbers/message-editor-overview.md %})

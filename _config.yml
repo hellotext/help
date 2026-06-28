@@ -75,6 +75,7 @@ collections:
   audience:
     order:
       - audience-overview.md
+      - consent-and-subscriber-status.md
       - personalization-tags.md
       - lists-and-segments.md
       - lists.md
@@ -105,7 +106,11 @@ collections:
   getting-started:
     output: true
     order:
+      - what-is-hellotext.md
+      - how-hellotext-works.md
+      - first-wins-starter-pack.md
       - launch-checklist.md
+      - go-live-checklist.md
       - setting-up-your-business.md
       - frequent-questions.md
       - tips-and-best-practices.md
@@ -130,6 +135,7 @@ collections:
       - playbooks-overview.md
       - what-are-signals.md
       - choose-your-first-playbook.md
+      - abandoned-cart-route-vs-ai-playbook.md
       - getting-started-with-journeys.md
       - custom-journey.md
       - how-to-write-a-great-prompt.md
@@ -137,6 +143,7 @@ collections:
     output: true
     order:
       - setup-overview.md
+      - verify-data-and-signals.md
       - custom-domain-for-short-links.md
       - connect-wix.md
       - connect-woo.md

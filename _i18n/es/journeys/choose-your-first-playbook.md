@@ -16,6 +16,8 @@ Si la señal todavía no está disponible, configura tracking o integraciones an
 
 Sigue leyendo: [Qué son las señales]({% link _journeys/what-are-signals.md %}).
 
+Para recuperación de carritos específicamente, mira [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
+
 ## Elige por primer objetivo
 
 | Si tu primer objetivo es... | Empieza con... | Por qué |
@@ -75,7 +77,10 @@ Después ajusta una cosa por vez: audiencia, disparador, timing, mensaje, oferta
 ## Guías relacionadas
 
 - [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})
+- [Primeros logros recomendados]({% link _getting-started/first-wins-starter-pack.md %})
 - [Qué son las señales]({% link _journeys/what-are-signals.md %})
+- [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
+- [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %})
 - [Primeros pasos con rutas]({% link _journeys/getting-started-with-journeys.md %})
 - [Resumen de herramientas de captura]({% link _captures/capture-overview.md %})
 - [Resumen de campañas y broadcasts]({% link _campaigns/campaigns-overview.md %})
