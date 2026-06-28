@@ -1,53 +1,53 @@
-If you need more control over your journeys, custom journeys are here to help.
+Use a custom automation when a prebuilt playbook does not match the flow you need.
 
-While we have a range of pre-defined templates to cover common journey needs, custom journeys give you the possibility to create more expressive automations better adjusted to your needs.
+A custom automation gives you an empty canvas. You choose the trigger, add the steps, define the timing, and decide when customers should continue, branch, receive a message, or leave automation.
 
-You can see custom journeys as an empty canvas that you configure from scratch.
+## Select a trigger
 
-To get started, visit the *Journeys* section and click *New Journey*, then choose the *Custom Journey* option.
+The trigger is the customer action that starts the automation.
 
-### Select a trigger
+To select it:
 
-To select the trigger for your journey, follow these steps:
+1. Open the beginning of the flow.
+2. Choose the action that should start the automation.
+3. Confirm the trigger.
 
-1. Click on the circle labeled *Journey Begin*. This will open a pane on the right-hand side.
-2. Choose the action that the customer must perform to initiate the journey. You can select from our pre-defined actions or use a custom action you have created.
-3. Click *Confirm* to set the trigger.
+The trigger can be a standard event, such as a subscription, cart update, product view, purchase, or message. It can also be a custom event if your account tracks one.
 
-With the trigger in place, you can now start adding steps to your journey.
+## Add steps
 
-## Steps explained
+Automations move in sequence from one step to the next.
 
-Journeys are processed in a sequential order, moving from one step to the next. 
+To add a step, drag it into the flow where it should happen.
 
-To add a step to your journey, simply drag it from the left area and place it between two existing steps on the black line in the middle. The new step will be inserted in between those steps.
+Common step types include:
 
-There are various types of steps available to choose from:
+### Send a message
 
-### Send a message 
+Use this step to send a message to the customer.
 
-The *Send a message* step allows you to send a message to the customer. 
-
-You can include shortlinks, tags, and coupons in your message. 
-
-If the journey was triggered by an event associated with a product (such as adding an item to a cart or making a purchase), you can use tags specifically targeting those products.
+Messages can include short links, tags, coupons, and product information when the trigger includes product context.
 
 ### Condition
 
-The *Condition* step lets you set rules and criteria that must be met in order for the journey to continue on its current path. If the criteria are not met, the journey will branch off onto a different path. 
+Use a condition when the flow should split based on customer data or behavior.
 
-This is a great way to customize the flow of the journey based on different conditions. You can create multiple branches from the same condition step.
+For example, you can send one path to customers who purchased and another path to customers who did not.
 
-### Wait 
+### Wait
 
-The *Wait* step is a timer that pauses the journey until the specified time has elapsed. By default, journeys do not have any waiting time, so all steps are processed one after the other.
+Use a wait step to pause the flow before the next action.
 
-For example, you can use a wait step to set a two-hour delay before sending a cart abandonment reminder after someone adds an item to their cart.
+For example, you can wait two hours before sending an abandoned cart reminder.
 
-## Saving and publishing the journey
+### Human handoff
 
-To save your changes to the journey, click the *Save Changes* button in the top right corner of the page. 
+Use handoff rules when the automation should stop and a person should take over the conversation.
 
-By default, all journeys remain in draft mode until they are published.
+This is especially important for support questions, refunds, complex product questions, or unhappy customers.
 
-When you are ready to activate the journey, click *Publish*. To deactivate the journey later, click *Make inactive*.
+## Save and publish
+
+Click **Save Changes** while you work. Custom automations stay inactive until you publish them.
+
+When you are ready, click **Publish**. To stop the automation later, make it inactive.

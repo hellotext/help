@@ -2,11 +2,11 @@
 languages: ["en", "es"]
 
 en:
-  title: Getting started with journeys
-  description: Set up automations that are activated based on your customers' interactions.
+  title: Getting started with playbooks
+  description: Use templates and automated flows to respond to customer behavior.
 es:
-  title: Primeros pasos con rutas
-  description: Configura procesos automatizados que se activan en función de las interacciones de tus clientes.
+  title: Primeros pasos con playbooks
+  description: Usa plantillas y flujos automatizados para responder al comportamiento de tus clientes.
 
 permalink: getting-started-with-journeys
 permalink_es: primeros-pasos-con-rutas

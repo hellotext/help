@@ -1,25 +1,44 @@
-Con rutas, puedes configurar procesos automatizados que se activan en función de las interacciones de tus clientes con tu negocio.
+Los playbooks te ayudan a lanzar flujos automatizados a partir de momentos comunes del cliente: una nueva suscripción, un carrito abandonado, una compra reciente, interés en un producto o una conversación de soporte.
 
-Las rutas son una herramienta poderosa para interactuar con tus clientes y promover más ventas.
+Cada playbook se construye como una ruta: un disparador seguido de pasos como mensajes, esperas, condiciones, ramas y derivaciones.
 
-Por ejemplo, puedes crear una ruta que envíe un mensaje de bienvenida con un código de descuento a los clientes cuando se suscriban. También puedes usar rutas para recuperar carros abandonados enviando un recordatorio con un descuento unas horas después de que un cliente deje artículos en su carrito de compras.
+## Cómo funcionan los playbooks
 
-Las rutas son extremadamente flexibles y sus posibilidades son infinitas. Te ofrecemos una variedad de plantillas prediseñadas que puedes activar fácilmente para los escenarios más comunes, pero también puedes crear rutas completamente personalizadas desde cero.
+Un playbook empieza cuando un cliente realiza una acción. Esa acción puede venir de una herramienta de captura, la integración de tu tienda, una campaña, un evento personalizado o una conversación.
 
-### Cómo funcionan las rutas
+Después del disparador, Hellotext mueve al cliente por el flujo en orden. Según el playbook, el flujo puede enviar un mensaje, esperar un tiempo, revisar una condición, recomendar productos, aplicar un cupón o derivar la conversación a una persona.
 
-Las rutas se activan con acciones realizadas por tus clientes. Puedes iniciar cualquier ruta basándote en cualquier acción, incluso en acciones personalizadas que hayas definido.
+## Empieza desde una plantilla
 
-Las rutas avanzan a través de una serie predeterminada de pasos en un orden específico. Estos pasos pueden incluir mensajes de texto, condiciones que te permiten dividir la ruta en diferentes caminos y intervalos de tiempo de espera.
+Usa una plantilla cuando quieres lanzar rápidamente un flujo probado.
 
-### Cómo crear una ruta
+Ejemplos comunes:
 
-Visita la sección de *Rutas* y haz clic en el botón *Nueva ruta*.
+- Dar la bienvenida a un nuevo suscriptor.
+- Recuperar un carrito abandonado.
+- Hacer seguimiento después de una compra.
+- Recomendar productos desde un catálogo.
+- Responder preguntas frecuentes con un agente de IA.
 
-Se te presentarán diferentes plantillas. Selecciona la que quieras habilitar para acceder al editor de journeys.
+Para crear uno, ve al área de automatización en Hellotext, elige una plantilla, revisa el disparador y los pasos, y ajusta el texto, tiempos y canal antes de publicar.
 
-El flujo de la ruta se volverá visible empezando desde su disparador y continuando a través de cada paso. Puedes personalizar cualquiera de los pasos presentados.
+## Revisa antes de publicar
 
-Haz clic en *Guardar cambios* para asegurarte de que tus cambios no se pierden. No te preocupes, la ruta aún no está activada.
+Antes de publicar, verifica que:
 
-Cuando estés listo, puedes presionar *Publicar* para que tu ruta se publique. Si lo prefieres, también puedes despublicarla haciendo clic en *Desactivar*.
+- El disparador coincida con el comportamiento al que quieres reaccionar.
+- El canal esté conectado y listo.
+- La audiencia y reglas de consentimiento sean correctas.
+- Los mensajes suenen como tu marca.
+- Los links, cupones, etiquetas y recomendaciones de producto funcionen.
+- Cualquier derivación a un equipo humano sea clara.
+
+Haz clic en **Guardar cambios** mientras trabajas. El playbook permanece inactivo hasta que lo publiques.
+
+Cuando esté listo, haz clic en **Publicar**. Para detenerlo más adelante, desactívalo.
+
+## Próximos pasos
+
+Si una plantilla no se ajusta a lo que necesitas, crea una [automatización personalizada]({% link _journeys/custom-journey.md %}).
+
+Si el flujo usa un agente de IA, revisa [cómo escribir un gran prompt para tu agente]({% link _journeys/how-to-write-a-great-prompt.md %}).

@@ -29,7 +29,7 @@ Every agent in Hellotext can perform a wide range of actions automatically. It c
 
 It can also search across URLs or documents you attach—such as a FAQ, policy guide, or product manual—so that it always answers from verified information rather than guessing.
 
-Agents can collect and store any customer profile properties you choose, from name and city to preferred size or interests. They can also decide when to escalate a conversation to a human, following rules you define in the Journey Editor.
+Agents can collect and store any customer profile properties you choose, from name and city to preferred size or interests. They can also decide when to escalate a conversation to a human, following rules you define in the automation editor.
 
 And, most importantly, every message they send passes through Hellotext’s privacy and tone guardrails, ensuring consistent brand voice and compliance across all channels.
 

@@ -2,11 +2,11 @@
 languages: ["en", "es"]
 
 en:
-  title: Custom journey
-  description: Create more expressive automations better adjusted to your needs.
+  title: Custom automation
+  description: Create a custom flow when a template is not enough.
 es:
-  title: Ruta personalizada
-  description: Crea automatizaciones más expresivas mejor ajustadas a tus necesidades.
+  title: Automatización personalizada
+  description: Crea un flujo personalizado cuando una plantilla no es suficiente.
 
 permalink: custom-journey
 permalink_es: ruta-personalizada
