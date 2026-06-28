@@ -2,6 +2,8 @@ Con Hellotext puedes conectar una cuenta de WhatsApp nueva o existente para gest
 
 Esta es una guía paso a paso para ayudarte a configurar tu cuenta de WhatsApp con Hellotext.
 
+Si WhatsApp ya está conectado y quieres decidir cómo usarlo en Inbox, playbooks, rutas, campañas, capturas y comercio, lee [Fundamentos del canal de WhatsApp]({% link _numbers/whatsapp-channel-fundamentals.md %}).
+
 ## Antes de empezar
 
 Antes de empezar asegúrate de lo siguiente:
@@ -106,6 +108,8 @@ Ahora terminaste la integración con WhatsApp y Hellotext. Puedes comenzar a env
 Deberías poder ver tus números de WhatsApp conectados.
 
 <img src="images/integrations/whatsapp/es/ready.jpeg" alt="" width="768" />
+
+Luego, revisa [Fundamentos del canal de WhatsApp]({% link _numbers/whatsapp-channel-fundamentals.md %}) para preparar consentimiento, plantillas, responsables de Inbox, playbooks, campañas y reportes antes de lanzar.
 
 ## Próximos pasos
 

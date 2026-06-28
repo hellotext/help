@@ -10,6 +10,8 @@ Usa **WhatsApp** cuando tus clientes prefieren chatear, cuando quieres conversac
 
 Muchos negocios usan ambos: SMS para alcance y WhatsApp para conversaciones más ricas y soporte.
 
+Sigue leyendo: [Fundamentos del canal de WhatsApp]({% link _numbers/whatsapp-channel-fundamentals.md %}).
+
 ## Opciones de remitente SMS
 
 Usa un **código corto exclusivo** cuando envías mayor volumen o necesitas un código corto usado sólo por tu negocio.
@@ -29,6 +31,7 @@ Antes de lanzar una campaña, playbook o ruta, confirma que:
 ## Configuración relacionada
 
 - [Códigos cortos exclusivos]({% link _numbers/exclusive-short-codes.md %})
+- [Fundamentos del canal de WhatsApp]({% link _numbers/whatsapp-channel-fundamentals.md %})
 - [Conecta WhatsApp]({% link _integrations/connect-whatsapp.md %})
 - [A quién puedo escribirle: consentimiento y estado de suscripción]({% link _audience/consent-and-subscriber-status.md %})
 - [Resumen de herramientas de captura]({% link _captures/capture-overview.md %})

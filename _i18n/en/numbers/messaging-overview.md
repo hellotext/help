@@ -10,6 +10,8 @@ Use **WhatsApp** when your customers already prefer chat, when you want richer c
 
 Many businesses use both: SMS for reach and WhatsApp for richer conversations and support.
 
+Keep reading: [WhatsApp channel fundamentals]({% link _numbers/whatsapp-channel-fundamentals.md %}).
+
 ## SMS sender options
 
 Use an **exclusive short code** when you send at higher volume or need a short code used only by your business.
@@ -29,6 +31,7 @@ Before launching a campaign, playbook, or route, confirm that:
 ## Related setup
 
 - [Exclusive short codes]({% link _numbers/exclusive-short-codes.md %})
+- [WhatsApp channel fundamentals]({% link _numbers/whatsapp-channel-fundamentals.md %})
 - [Connect WhatsApp]({% link _integrations/connect-whatsapp.md %})
 - [Who can I message? Consent and subscriber status]({% link _audience/consent-and-subscriber-status.md %})
 - [Capture tools overview]({% link _captures/capture-overview.md %})
