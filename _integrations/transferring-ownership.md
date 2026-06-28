@@ -13,8 +13,8 @@ permalink: transferring-ownership
 permalink_es: transfiriendo-el-negocio
 
 layout: guide
-topic: team
+topic: integrations
 popular: false
 ---
 
-{% translate_file team/transferring-ownership.md %}
+{% translate_file integrations/transferring-ownership.md %}

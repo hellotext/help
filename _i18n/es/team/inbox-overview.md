@@ -38,7 +38,7 @@ Sigue leyendo: [Tiempo de respuesta y reglas de respuesta]({% link _team/underst
 
 Algunas tareas de equipo afectan el control de la cuenta más que la gestión diaria de conversaciones. Mantén los cambios de propiedad como acciones deliberadas y limitadas al administrador correcto.
 
-Sigue leyendo: [Transfiere la propiedad del negocio]({% link _team/transferring-ownership.md %}).
+Sigue leyendo: [Transfiere la propiedad del negocio]({% link _integrations/transferring-ownership.md %}).
 
 ## Responder con el editor de mensajes
 

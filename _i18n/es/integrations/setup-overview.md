@@ -10,6 +10,8 @@ Antes de empezar, asegúrate de tener acceso de administrador a la tienda, marke
 
 Para integraciones de eCommerce, ten a mano claves de API, tokens o acceso al plugin. Para WhatsApp, confirma que puedes recibir SMS o llamadas en el número que quieres conectar.
 
+Si debe cambiar el propietario del negocio, completa esa tarea de acceso antes de hacer cambios más amplios de configuración. Sigue leyendo: [Transfiere la propiedad del negocio]({% link _integrations/transferring-ownership.md %}).
+
 ### 2. Conecta tu plataforma de eCommerce
 
 Conecta la plataforma donde viven tus clientes, productos, carritos, órdenes y actividad de compra.

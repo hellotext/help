@@ -38,7 +38,7 @@ Keep reading: [Response times and response rules]({% link _team/understanding-re
 
 Some team tasks affect account control rather than daily conversation handling. Keep ownership changes deliberate and limit them to the right administrator.
 
-Keep reading: [Transfer business ownership]({% link _team/transferring-ownership.md %}).
+Keep reading: [Transfer business ownership]({% link _integrations/transferring-ownership.md %}).
 
 ## Replying with the message editor
 

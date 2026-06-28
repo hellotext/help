@@ -10,6 +10,8 @@ Before you start, make sure you have admin access to the store, marketplace, Met
 
 For commerce integrations, keep API keys, tokens, or plugin access ready. For WhatsApp, confirm that you can receive SMS or voice calls on the phone number you want to connect.
 
+If the business owner needs to change, complete that account-access task before making broader setup changes. Keep reading: [Transfer business ownership]({% link _integrations/transferring-ownership.md %}).
+
 ### 2. Connect your commerce platform
 
 Connect the platform where your customers, products, carts, orders, and purchase activity live.
