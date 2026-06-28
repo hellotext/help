@@ -64,7 +64,7 @@ Obtén más información en **[Referencia de API para acciones](https://www.hell
 
 ## Comprender los eventos
 
-Un evento es el objeto que crea una relación entre una acción y el suscriptor en un momento determinado.
+Un evento es el objeto que crea una relación entre una acción y un perfil de cliente en un momento determinado.
 
 Es el objeto que se crea cuando realizas un seguimiento de una acción de un cliente.
 

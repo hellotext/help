@@ -1,6 +1,6 @@
 A medida que tu empresa comience a crecer sus perfiles de cliente y suscriptores, también querrás comenzar a organizarlos y segmentarlos de manera que sea más fácil llegar a ellos.
 
-Hellotext proporciona dos formas sencillas de organizar a tus suscriptores: listas y segmentos.
+Hellotext proporciona dos formas sencillas de organizar perfiles de cliente: listas y segmentos.
 
 En esta guía aprenderás las diferencias entre el concepto más sencillo de listas y los poderosos segmentos, capaces de segmentar tu audiencia en base a criterios específicos de forma automática y en tiempo real.
 
@@ -16,9 +16,9 @@ Más información sobre **[Crea y gestiona listas]({% link _audience/lists.md %}
 
 A medida que la cantidad de perfiles de cliente comience a crecer, es posible que te resulte difícil organizarlos manualmente. Para simplificar esta tarea y para realmente llevar la segmentación de tu audiencia al siguiente nivel, recomendamos usar Segmentos.
 
-Los segmentos aprovechan todos los eventos realizados por tu audiencia y permiten crear listas de suscriptores actualizadas automáticamente en función de quiénes son y qué hacen.
+Los segmentos aprovechan los eventos realizados por tu audiencia y permiten crear grupos de perfiles de cliente actualizados automáticamente en función de quiénes son y qué hacen.
 
-Puedes segmentar entre las características de tus suscriptores (como ubicación, edad, sexo), su comportamiento (lo que compraron, cuánto gastaron) o cualquier combinación posible de ambas.
+Puedes segmentar según las características de tus perfiles de cliente (como ubicación, edad, género), su comportamiento (lo que compraron, cuánto gastaron) o cualquier combinación posible de ambas.
 
 En menos de un minuto puedes crear poderosos segmentos como:
 
@@ -31,7 +31,7 @@ También puedes crear combinaciones más creativas como:
 
 * *Mujeres de Montevideo interesadas en carteras y productos de belleza que no hayan comprado en los últimos 90 días*.
 
-Los segmentos se actualizan en tiempo real y siempre contienen aquellos suscriptores que coinciden con las condiciones actuales especificadas.
+Los segmentos se actualizan en tiempo real y siempre contienen los perfiles de cliente que coinciden con las condiciones actuales.
 
 Recomendamos utilizar Segmentos para crear las demografías a las que deseas llegar en tus campañas promocionales.
 

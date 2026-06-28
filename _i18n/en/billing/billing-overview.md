@@ -28,7 +28,7 @@ Attributed revenue matters because it can affect results-based billing and repor
 
 Use the attribution guide when you need to understand attribution windows, last-click rules, human team participation, cancellations, refunds, and why a sale was or was not attributed to Hellotext.
 
-Keep reading: [Sales attribution]({% link _billing/how-we-attribute-sales.md %}).
+Keep reading: [Sales attribution]({% link _analytics-reporting-attribution/how-we-attribute-sales.md %}).
 
 ## SMS limits for new businesses
 
@@ -41,6 +41,6 @@ Keep reading: [SMS sending limits for new businesses]({% link _billing/sms-sendi
 ## Related guides
 
 - [Messaging channels overview]({% link _numbers/messaging-overview.md %})
-- [Campaign reporting]({% link _campaigns/campaign-reporting.md %})
+- [Campaign reporting]({% link _analytics-reporting-attribution/campaign-reporting.md %})
 - [Audience and segmentation overview]({% link _audience/audience-overview.md %})
 - [Setup and integrations overview]({% link _integrations/setup-overview.md %})

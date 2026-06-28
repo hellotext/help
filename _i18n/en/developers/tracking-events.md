@@ -64,7 +64,7 @@ Learn more on the **[API Reference for Actions](https://www.hellotext.com/api#ac
 
 ## Understanding Events
 
-An event is the object that creates a relationship between an action and the subscriber at a particular time. 
+An event is the object that creates a relationship between an action and a customer profile at a particular time.
 
 It is the object that is created when you track an action of a customer.
 

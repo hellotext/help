@@ -1,6 +1,6 @@
 As your business starts growing its customer profiles and subscribers, you will likely want to learn how to organize and segment them in ways that will make it easier to reach them.
 
-Hellotext provides two easy ways to organize your subscribers: lists and segments.
+Hellotext provides two easy ways to organize customer profiles: lists and segments.
 
 In this guide you will learn the differences between the simple concept of lists and the powerful segments, capable of segmenting your audience based on specified criteria automatically and in real-time.
 
@@ -16,9 +16,9 @@ More on **[Create and manage lists]({% link _audience/lists.md %})**.
 
 As the number of customer profiles starts to grow, you may find it difficult to organize them manually. To make this easier and really take your audience targeting to its next stage, we recommend using Segments.
 
-Segments leverage all the recorded events performed by your audience and let you create automatically updated lists of subscribers based on who they are and what they do.
+Segments leverage recorded events performed by your audience and let you create automatically updated groups of customer profiles based on who they are and what they do.
 
-You can segment between the characteristics of your subscribers (like location, age, gender), their behavior (what they purchased, how much they spent) or any possible combination of both. 
+You can segment by the characteristics of your customer profiles (like location, age, gender), their behavior (what they purchased, how much they spent), or any possible combination of both.
 
 It takes less than one minute to start creating segments like:
 
@@ -31,7 +31,7 @@ And even more creative combinations like:
 
 * *Women from Montevideo interested in bags and beauty products who have not purchased over the last 90 days*. 
 
-Segments are updated in real-time and always contain those subscribers matching the current conditions specified. 
+Segments are updated in real time and always contain the customer profiles matching the current conditions.
 
 We recommend using Segments for building the specific demographics that you want to reach in your promotional campaigns. 
 

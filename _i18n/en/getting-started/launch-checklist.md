@@ -89,8 +89,8 @@ Look at audience growth, replies, clicks, campaign reporting, and attributed sal
 
 Keep reading:
 
-- [Campaign Reporting]({% link _campaigns/campaign-reporting.md %})
-- [How we attribute sales]({% link _billing/how-we-attribute-sales.md %})
+- [Campaign Reporting]({% link _analytics-reporting-attribution/campaign-reporting.md %})
+- [How we attribute sales]({% link _analytics-reporting-attribution/how-we-attribute-sales.md %})
 
 ## Optional before launch
 

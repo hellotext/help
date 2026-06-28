@@ -12,8 +12,8 @@ permalink: how-we-attribute-sales
 permalink_es: como-atribuimos-las-ventas
 
 layout: guide
-topic: billing
+topic: analytics-reporting-attribution
 popular: true
 ---
 
-{% translate_file billing/how-we-attribute-sales.md %}
+{% translate_file analytics-reporting-attribution/how-we-attribute-sales.md %}

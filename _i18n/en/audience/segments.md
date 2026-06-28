@@ -1,34 +1,34 @@
-Segments let you create lists of subscribers based on conditions which are automatically managed in real-time without having to do it manually.
+Segments let you create dynamic groups of customer profiles based on conditions that are managed automatically in real time.
 
 Reach your audience based on their characteristics (like location, age, gender), their behavior (what they purchased, how much they spent) or any possible combination of both.
 
-Segments are updated in real-time and always contain those subscribers matching the current conditions specified.
+Segments are updated in real time and always contain the customer profiles that match the current conditions.
 
 We recommend using Segments for building the specific demographics that you want to reach in your promotional campaigns.
 
 ## Type of segments
 
-### Subscriber's Characteristics
+### Customer profile characteristics
 
-These are the properties of your subscribers. You can provide this information using any of the Integrations available or providing them from your source or CRM using the API.
+These are the properties of your customer profiles. You can provide this information using any available integration, from your own source, from your CRM, or through the API.
 
 * **Gender**
 * **Age** 
 * **Location**: Select cities, entire regions or countries.
-* **Device**: If subscribed via a web capture such as a pop-up or if clicked on a short link or the tracker is installed on your website and the subscriber is associated to the session it is possible to target by kind of device (desktop, mobile, tablet), device brand, OS.
+* **Device**: If the customer profile subscribed through a web capture such as a pop-up, clicked a short link, or is associated with a tracked website session, you can target by device type (desktop, mobile, tablet), device brand, or OS.
 * **Mobile operator**
 * **Subscription source**: How they subscribed, such as QR code, shareable link, form, checkout opt-in, capture, channel, or short code.
 * **Custom properties**: Any custom defined property that you previously created.
 
-### Subscriber's Activity
+### Customer activity
 
 Actions performed on your audience can be used for segmentation and are in fact one of the most powerful and effective ways to segment.
 
-Some actions like when a short link is clicked as automatically tracked as events. If you connect your eCommerce website with one of our ready-to-go implementations like Mercado Libre you will benefit from real-time reporting events performed by your subscribers such as the products they purchased and the amount spent. 
+Some actions, such as short link clicks, are automatically tracked as events. If you connect your eCommerce website with one of our ready-to-go implementations like Mercado Libre, Hellotext can receive real-time events performed by customer profiles, such as products purchased and amount spent.
 
 Some examples of activities you can use for segmentation:
 
-* **Clicked on a short link**: When a subscriber clicked a short link from a message campaign you have sent.
+* **Clicked on a short link**: When a customer clicked a short link from a campaign you sent.
 * **Viewed a product or visited a page** 
 * **Added items to the cart**
 * **Purchased a product**
@@ -49,7 +49,7 @@ You can add additional conditions to the same segment clicking on the *Or* and *
 
 When you are ready with your segment click on *Save Changes*. 
 
-It takes a few seconds to start seeing the subscribers in your newly created segment. 
+It takes a few seconds to start seeing customer profiles in your newly created segment.
 
 ## Edit a segment
 

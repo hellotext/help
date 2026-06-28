@@ -12,7 +12,7 @@ Los reportes de campaña te ayudan a revisar entrega, interacción, clicks, conv
 
 Usa reportes de campaña cuando necesites evaluar un broadcast, comparar performance de mensajes o decidir qué mejorar antes de la próxima campaña.
 
-Sigue leyendo: [Reportes de campaña]({% link _campaigns/campaign-reporting.md %}).
+Sigue leyendo: [Reportes de campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %}).
 
 ## Atribución
 
@@ -20,7 +20,7 @@ La atribución explica cuándo Hellotext recibe crédito por una venta y cuándo
 
 Usa la guía de atribución cuando necesites entender reglas de last-click, ventanas de atribución, participación del equipo humano, cancelaciones, devoluciones y ajustes de ingresos.
 
-Sigue leyendo: [Atribución de ventas]({% link _billing/how-we-attribute-sales.md %}).
+Sigue leyendo: [Atribución de ventas]({% link _analytics-reporting-attribution/how-we-attribute-sales.md %}).
 
 ## Datos de tracking
 

@@ -89,8 +89,8 @@ Mira crecimiento de audiencia, respuestas, clics, reportes de campaña y ventas 
 
 Sigue leyendo:
 
-- [Reportes de Campaña]({% link _campaigns/campaign-reporting.md %})
-- [Cómo atribuimos las ventas]({% link _billing/how-we-attribute-sales.md %})
+- [Reportes de Campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %})
+- [Cómo atribuimos las ventas]({% link _analytics-reporting-attribution/how-we-attribute-sales.md %})
 
 ## Opcional antes de salir en vivo
 

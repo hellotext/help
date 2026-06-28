@@ -15,7 +15,7 @@ Antes de empezar asegúrate de lo siguiente:
 * Puedes usar un número de teléfono ya registrado con WhatsApp o WhatsApp Business. Si es así, primero debes eliminar la cuenta de WhatsApp [**siguiendo estas instrucciones**](https://faq.whatsapp.com/3059780464322392/). Ten en cuenta que cualquier conversación existente se eliminará y no se podrán recuperar. Si deseas conservar tus conversaciones, te sugerimos usar un nuevo número de teléfono.
 * Si ya tienes una cuenta de WhatsApp Business Platform (ya conectada a un servicio similar a Hellotext), probablemente podrás proceder sin la eliminación de la cuenta. Sin embargo, cualquier conversación existente no se importará.
 * Debes poder recibir SMS o llamadas telefónicas en este número de teléfono.
-* Puedes usar los números de teléfono adquiridos por Hellotext o adquirir un nuevo número de teléfono si aún no tienes uno.
+* Usa un número de teléfono que tu negocio ya controle. Hellotext no provee ni migra números de WhatsApp durante esta configuración.
 
 ## Empezando
 

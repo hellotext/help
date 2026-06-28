@@ -7,6 +7,8 @@ Troubleshooting usually starts in one of four places:
 - Tracking, reporting, and attribution.
 - Inbox operations and team workflows.
 
+If you are not sure where the issue belongs, start with the [troubleshooting checklist]({% link _troubleshooting-deliverability/troubleshooting-checklist.md %}).
+
 ## Setup and integrations
 
 If customer profiles, products, orders, or channel settings are missing or stale, start by checking the integration and setup path.
@@ -25,7 +27,7 @@ For channel setup context, keep reading: [Messaging channels overview]({% link _
 
 If a campaign result looks lower than expected, review the selected audience, channel, message content, links, timing, and report metrics before comparing results.
 
-Keep reading: [Campaign reporting]({% link _campaigns/campaign-reporting.md %}).
+Keep reading: [Campaign reporting]({% link _analytics-reporting-attribution/campaign-reporting.md %}).
 
 ## Tracking and attribution
 

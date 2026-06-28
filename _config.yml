@@ -71,7 +71,6 @@ collections:
     order:
       - campaigns-overview.md
       - creating-a-campaign.md
-      - campaign-reporting.md
     output: true
   audience:
     order:
@@ -84,7 +83,9 @@ collections:
   analytics-reporting-attribution:
     order:
       - analytics-overview.md
+      - campaign-reporting.md
       - tracked-links.md
+      - how-we-attribute-sales.md
     output: true
   numbers:
     order:
@@ -116,7 +117,6 @@ collections:
       - billing-overview.md
       - how-pricing-works.md
       - understanding-plan-quotas.md
-      - how-we-attribute-sales.md
       - sms-sending-limits-for-new-businesses.md
   captures:
     output: true
@@ -157,6 +157,7 @@ collections:
   troubleshooting-deliverability:
     order:
       - troubleshooting-overview.md
+      - troubleshooting-checklist.md
     output: true
 
 # Exclude from processing.

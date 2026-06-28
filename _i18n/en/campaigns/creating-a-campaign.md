@@ -56,7 +56,7 @@ For this to work, you previously need to have installed the *Hellotext.js* track
 
 ### Add tags
 
-Make your messages more personal by referencing the properties of the subscriber. For example, display their name using the tag _{name}_. The delivered message will replace the tag with the name of the subscriber.
+Make your messages more personal by referencing customer profile properties. For example, display the profile's name using the tag _{name}_. The delivered message will replace the tag with the customer profile's name.
 
 You can find tags for all your customer profile properties such as:
 
@@ -68,7 +68,7 @@ You can find tags for all your customer profile properties such as:
 
 ### Setting a default value
 
-Not all your subscribers are likely to have the property you want to use in a tag set. For example, not everyone in your subscriber list may have a name. Depending on how you craft your message, this can make the message read oddly if no value is shown.
+Not every customer profile is likely to have the property you want to use in a tag. For example, not every campaign recipient may have a name. Depending on how you craft your message, this can make the message read oddly if no value is shown.
 
 To solve this, you can pass a default value inside your tag separated by the pipe like _{name|customer}_.
 
@@ -76,7 +76,7 @@ If your message is for example:
 
 * *Dear **{name&#124;customer}**, we have a special offer...*
 
-For a subscriber without his name it will be sent as:
+For a recipient without a name, it will be sent as:
 
 * *Dear **customer**, we have a special offer...*
 

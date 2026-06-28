@@ -28,7 +28,7 @@ Los ingresos atribuidos importan porque pueden afectar la facturación basada en
 
 Usa la guía de atribución cuando necesites entender ventanas de atribución, reglas de last-click, participación del equipo humano, cancelaciones, devoluciones y por qué una venta fue o no atribuida a Hellotext.
 
-Sigue leyendo: [Atribución de ventas]({% link _billing/how-we-attribute-sales.md %}).
+Sigue leyendo: [Atribución de ventas]({% link _analytics-reporting-attribution/how-we-attribute-sales.md %}).
 
 ## Límites SMS para negocios nuevos
 
@@ -41,6 +41,6 @@ Sigue leyendo: [Límites de envío SMS para negocios nuevos]({% link _billing/sm
 ## Guías relacionadas
 
 - [Resumen de canales de mensajería]({% link _numbers/messaging-overview.md %})
-- [Reportes de campaña]({% link _campaigns/campaign-reporting.md %})
+- [Reportes de campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %})
 - [Resumen de audiencia y segmentación]({% link _audience/audience-overview.md %})
 - [Resumen de configuración e integraciones]({% link _integrations/setup-overview.md %})

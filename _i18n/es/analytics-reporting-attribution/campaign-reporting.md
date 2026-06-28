@@ -1,6 +1,6 @@
 Uno de los grandes beneficios de las campañas son sus completos informes y métricas detalladas de participación de cada usuario.
 
-Con los informes de campaña, tienes una vista detallada sobre su efectividad y cómo interactuaron tus suscriptores: desde su primer clic en el enlace compartido hasta que realizó una compra.
+Con los informes de campaña, tienes una vista detallada sobre su efectividad y cómo interactuaron los clientes: desde su primer click en el enlace compartido hasta que realizaron una compra.
 
 Estos informes brindan información detallada para ayudarte a comprender cuánto vendiste, qué productos prefirieron más los clientes y, no menos importante, cómo seguir optimizando y entregando campañas aún mejores en el futuro.
 
@@ -31,8 +31,8 @@ Desde el reporte es posible ver detalles de:
 
 ## Actividad de la campaña
 
-Cada acción realizada por un suscriptor que interactuó con la campaña se registrará como un evento y se mostrará en la sección *Actividad* del informe.
+Cada acción realizada por un cliente que interactuó con la campaña se registrará como un evento y se mostrará en la sección *Actividad* del informe.
 
 Las actividades se actualizan en tiempo real y se mostrarán nuevos eventos sin tener que recargar la página.
 
-También puedes acotar los resultados buscando por suscriptor o las acciones registradas.
+También puedes acotar los resultados buscando por perfil de cliente o por acción registrada.

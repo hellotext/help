@@ -31,12 +31,12 @@ Keep reading: [Understanding Lists and Segments]({% link _audience/lists-and-seg
 
 After delivery, review clicks, conversions, customer activity, attributed revenue, and any replies that need follow-up in the inbox.
 
-Keep reading: [Campaign reporting]({% link _campaigns/campaign-reporting.md %}).
+Keep reading: [Campaign reporting]({% link _analytics-reporting-attribution/campaign-reporting.md %}).
 
 ## Related guides
 
 - [Create a campaign]({% link _campaigns/creating-a-campaign.md %})
-- [Campaign reporting]({% link _campaigns/campaign-reporting.md %})
+- [Campaign reporting]({% link _analytics-reporting-attribution/campaign-reporting.md %})
 - [Messaging channels overview]({% link _numbers/messaging-overview.md %})
 - [Playbooks and automation overview]({% link _journeys/playbooks-overview.md %})
 - [Tracked links]({% link _analytics-reporting-attribution/tracked-links.md %})

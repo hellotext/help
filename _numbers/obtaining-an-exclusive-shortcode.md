@@ -2,15 +2,18 @@
 languages: ["en", "es"]
 
 en:
-  title: Obtaining an exclusive short code
-  description: Send campaigns and receive messages on a short code exclusively used by your business.
+  title: Exclusive short codes
+  description: Learn when to use a short code exclusively assigned to your business.
 
 es:
-  title: Obtener un número corto exclusivo
-  description: Envía campañas y recibe mensajes en un código corto de uso exclusivo para tu negocio.
+  title: Códigos cortos exclusivos
+  description: Aprende cuándo usar un código corto asignado exclusivamente a tu negocio.
 
-permalink: obtaining-an-exclusive-shortcode
-permalink_es: obtener-un-numero-corto-exclusivo
+permalink: exclusive-short-codes
+permalink_es: codigos-cortos-exclusivos
+redirect_from:
+  - /obtaining-an-exclusive-shortcode
+  - /obtener-un-numero-corto-exclusivo
 
 layout: guide
 topic: numbers

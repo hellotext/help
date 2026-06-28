@@ -50,4 +50,4 @@ Keep reading: [Tracking unidentified customers]({% link _developers/tracking-uni
 - [External tracking]({% link _developers/external-tracking.md %})
 - [Track campaign and automation links]({% link _developers/tracking-on-campaigns-and-journeys.md %})
 - [Setup and integrations overview]({% link _integrations/setup-overview.md %})
-- [Sales attribution]({% link _billing/how-we-attribute-sales.md %})
+- [Sales attribution]({% link _analytics-reporting-attribution/how-we-attribute-sales.md %})

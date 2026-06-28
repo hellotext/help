@@ -1,6 +1,6 @@
 One of the great benefits of campaigns is their powerful reporting and detailed metrics of user engagement.
 
-With campaign reports, you have a detailed view about its effectiveness and how your subscribers interacted: from their first click on the shared link all the way until a purchase was made.
+With campaign reports, you have a detailed view of effectiveness and how customers interacted: from their first click on the shared link all the way until a purchase was made.
 
 These reports provide incredible insight to help you understand how much revenue they generated, what products customers preferred most, and no less importantly, valuable feedback to keep optimizing and delivering even better campaigns in the future.
 
@@ -31,8 +31,8 @@ From the reporting it is possible to view details of:
 
 ## Campaign activity
 
-Every action performed by a subscriber who interacted with the campaign will be recorded as an event and shown at the *Activity* section of the report.
+Every action performed by a customer who interacted with the campaign will be recorded as an event and shown in the *Activity* section of the report.
 
 Activities are updated in real-time and new events will be shown without having to reload the page.
 
-You can also narrow the results by searching by subscriber or the actions recorded.
+You can also narrow the results by searching by customer profile or recorded action.

@@ -56,7 +56,7 @@ Para que esto funcione, debes haber instalado previamente el rastreador *Hellote
 
 ### Agregar etiquetas
 
-Haz que tus mensajes sean más personales haciendo referencia a las propiedades del suscriptor. Por ejemplo, mostrar su nombre usando la etiqueta _{name}_. El mensaje entregado reemplazará la etiqueta con el nombre del suscriptor.
+Haz que tus mensajes sean más personales haciendo referencia a las propiedades del perfil de cliente. Por ejemplo, puedes mostrar su nombre usando la etiqueta _{name}_. El mensaje entregado reemplazará la etiqueta con el nombre del perfil de cliente.
 
 Puedes encontrar etiquetas para todas las propiedades del perfil de cliente, como:
 
@@ -68,7 +68,7 @@ Puedes encontrar etiquetas para todas las propiedades del perfil de cliente, com
 
 ### Establecer un valor predeterminado
 
-Es probable que no todos tus suscriptores tengan un valor en la propiedad de la etiqueta que deseas usar. Por ejemplo, es posible que no todos los destinatarios de tu campaña tengan un nombre asociado. Dependiendo de cómo elabores tu mensaje, esto puede hacer que el mensaje se lea extraño si no se muestra ningún valor.
+Es probable que no todos los perfiles de cliente tengan un valor en la propiedad que deseas usar en una etiqueta. Por ejemplo, es posible que no todos los destinatarios de tu campaña tengan un nombre asociado. Dependiendo de cómo elabores tu mensaje, esto puede hacer que el mensaje se lea extraño si no se muestra ningún valor.
 
 Para resolver esto, puedes pasar un valor predeterminado dentro de tu etiqueta separado por el caracter de separación o *pipe* en inglés como _ {name|cliente}_.
 
@@ -76,7 +76,7 @@ Si tu mensaje es por ejemplo:
 
 * *Estimado **{name&#124;cliente}**, tenemos una oferta especial...*
 
-Para un suscriptor sin su nombre se enviará como:
+Para un destinatario sin nombre se enviará como:
 
 * *Estimado **cliente**, tenemos una oferta especial...*
 

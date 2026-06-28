@@ -31,12 +31,12 @@ Sigue leyendo: [Diferencias entre Listas y Segmentos]({% link _audience/lists-an
 
 Después de la entrega, revisa clicks, conversiones, actividad de clientes, ingresos atribuidos y cualquier respuesta que necesite seguimiento en el inbox.
 
-Sigue leyendo: [Reportes de campaña]({% link _campaigns/campaign-reporting.md %}).
+Sigue leyendo: [Reportes de campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %}).
 
 ## Guías relacionadas
 
 - [Crea una campaña]({% link _campaigns/creating-a-campaign.md %})
-- [Reportes de campaña]({% link _campaigns/campaign-reporting.md %})
+- [Reportes de campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %})
 - [Resumen de canales de mensajería]({% link _numbers/messaging-overview.md %})
 - [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})
 - [Links con tracking]({% link _analytics-reporting-attribution/tracked-links.md %})

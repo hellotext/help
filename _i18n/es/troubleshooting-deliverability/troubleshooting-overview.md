@@ -7,6 +7,8 @@ La solución de problemas normalmente empieza en uno de cuatro lugares:
 - Tracking, reportes y atribución.
 - Operación del inbox y flujos del equipo.
 
+Si no estás seguro de dónde pertenece el problema, empieza por el [checklist de solución de problemas]({% link _troubleshooting-deliverability/troubleshooting-checklist.md %}).
+
 ## Configuración e integraciones
 
 Si faltan perfiles de cliente, productos, órdenes o configuración de canales, o si la información parece desactualizada, empieza revisando el camino de integración y configuración.
@@ -25,7 +27,7 @@ Para contexto de configuración de canales, sigue leyendo: [Resumen de canales d
 
 Si el resultado de una campaña parece menor a lo esperado, revisa audiencia, canal, contenido del mensaje, links, timing y métricas del reporte antes de comparar resultados.
 
-Sigue leyendo: [Reportes de campaña]({% link _campaigns/campaign-reporting.md %}).
+Sigue leyendo: [Reportes de campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %}).
 
 ## Tracking y atribución
 

@@ -12,8 +12,8 @@ permalink: campaign-reporting
 permalink_es: reportes-de-campaña
 
 layout: guide
-topic: campaigns
+topic: analytics-reporting-attribution
 popular: true
 ---
 
-{% translate_file campaigns/campaign-reporting.md %}
+{% translate_file analytics-reporting-attribution/campaign-reporting.md %}

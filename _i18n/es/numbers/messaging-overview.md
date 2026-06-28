@@ -28,7 +28,7 @@ Antes de lanzar una campaña o automatización, confirma que:
 
 ## Configuración relacionada
 
-- [Obtén un código corto exclusivo]({% link _numbers/obtaining-an-exclusive-shortcode.md %})
+- [Códigos cortos exclusivos]({% link _numbers/obtaining-an-exclusive-shortcode.md %})
 - [Conecta WhatsApp]({% link _integrations/connect-whatsapp.md %})
 - [Resumen de herramientas de captura]({% link _captures/capture-overview.md %})
 - [Resumen del editor de mensajes]({% link _numbers/message-editor-overview.md %})

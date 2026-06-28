@@ -1,10 +1,10 @@
-Campaigns are typically sent from mobile phone numbers previously acquired or migrated, or from 4-5 digit short codes that are shared among different business on Hellotext.
+SMS campaigns can be sent from approved senders available on your Hellotext account or from 4-5 digit short codes that are shared among different businesses on Hellotext.
 
 Customers can reply back to messages received from a shared short code and their reply will appear on the Inbox of the business. It's also possible to continue a conversation with a customer using a shared short code.
 
 However, this is not always ideal. Other businesses may be also using the same short code when sending their campaigns. We try to minimize the impact by extending the number of short codes but it is still possible that a subscriber receives a message from a different business after yours. When the subscriber replies, the message will be associated to the business they received the last message from, and in this case it will be a different business than yours.
 
-If your business plans to send a higher number of messages or if you must ensure that the short code is only used by your business it is possible to request an exclusive short code.
+If your business plans to send a higher number of messages, or if you must ensure that the short code is only used by your business, it is possible to request an exclusive short code.
 
 ## Pricing
 

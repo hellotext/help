@@ -50,4 +50,4 @@ Sigue leyendo: [Seguimiento de clientes no identificados]({% link _developers/tr
 - [Seguimiento de origen externo]({% link _developers/external-tracking.md %})
 - [Seguimiento de links en campañas y automatizaciones]({% link _developers/tracking-on-campaigns-and-journeys.md %})
 - [Resumen de configuración e integraciones]({% link _integrations/setup-overview.md %})
-- [Atribución de ventas]({% link _billing/how-we-attribute-sales.md %})
+- [Atribución de ventas]({% link _analytics-reporting-attribution/how-we-attribute-sales.md %})
