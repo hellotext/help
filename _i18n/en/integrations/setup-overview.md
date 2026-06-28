@@ -18,6 +18,7 @@ Connect the platform where your customers, products, carts, orders, and purchase
 
 Choose the guide that matches your store:
 
+- [Connect Shopify]({% link _integrations/connect-shopify.md %})
 - [Connect Wix]({% link _integrations/connect-wix.md %})
 - [Connect WooCommerce]({% link _integrations/connect-woo.md %})
 - [Connect VTEX]({% link _integrations/connect-vtex.md %})

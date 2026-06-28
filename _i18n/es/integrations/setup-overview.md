@@ -18,6 +18,7 @@ Conecta la plataforma donde viven tus clientes, productos, carritos, órdenes y 
 
 Elige la guía que corresponde a tu tienda:
 
+- [Conecta Shopify]({% link _integrations/connect-shopify.md %})
 - [Conecta Wix]({% link _integrations/connect-wix.md %})
 - [Conecta WooCommerce]({% link _integrations/connect-woo.md %})
 - [Conecta VTEX]({% link _integrations/connect-vtex.md %})

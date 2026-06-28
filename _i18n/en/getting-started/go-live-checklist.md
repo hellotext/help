@@ -113,6 +113,7 @@ Pausing early is better than letting a preventable issue reach more customers.
 
 - [Launch checklist]({% link _getting-started/launch-checklist.md %})
 - [First wins starter pack]({% link _getting-started/first-wins-starter-pack.md %})
+- [Implementation paths]({% link _getting-started/implementation-paths.md %})
 - [Who can I message? Consent and subscriber status]({% link _audience/consent-and-subscriber-status.md %})
 - [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})
 - [Messaging channels overview]({% link _numbers/messaging-overview.md %})

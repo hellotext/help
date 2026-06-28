@@ -113,6 +113,7 @@ Pausar temprano es mejor que dejar que un problema evitable llegue a más client
 
 - [Checklist de lanzamiento]({% link _getting-started/launch-checklist.md %})
 - [Primeros logros recomendados]({% link _getting-started/first-wins-starter-pack.md %})
+- [Caminos de implementación]({% link _getting-started/implementation-paths.md %})
 - [A quién puedo escribirle: consentimiento y estado de suscripción]({% link _audience/consent-and-subscriber-status.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Resumen de canales de mensajería]({% link _numbers/messaging-overview.md %})

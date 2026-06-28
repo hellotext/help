@@ -78,6 +78,7 @@ Keep reading:
 - [Playbooks and automation overview]({% link _journeys/playbooks-overview.md %})
 - [How Hellotext works]({% link _getting-started/how-hellotext-works.md %})
 - [First wins starter pack]({% link _getting-started/first-wins-starter-pack.md %})
+- [Implementation paths]({% link _getting-started/implementation-paths.md %})
 - [Go-live checklist before you send]({% link _getting-started/go-live-checklist.md %})
 - [Choose your first playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [Getting started with journeys]({% link _journeys/getting-started-with-journeys.md %})
