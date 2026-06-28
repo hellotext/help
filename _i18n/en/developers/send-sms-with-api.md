@@ -91,7 +91,7 @@ Learn more here {shortlink:https://www.tunegocio.com}
 
 Hellotext will replace that instruction with a short link when the message is sent.
 
-If you want to use your own short link domain, see the [custom domain for short links guide]({% link _getting-started/setting-up-your-cname-alias.md %}).
+If you want to use your own short link domain, see the [custom domain for short links guide]({% link _integrations/custom-domain-for-short-links.md %}).
 
 ## Customer profiles
 

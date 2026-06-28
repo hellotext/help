@@ -20,7 +20,7 @@ Attribution explains when Hellotext receives credit for a sale and when it does 
 
 Use attribution guidance when you need to understand last-click rules, attribution windows, human team participation, cancellations, refunds, and revenue adjustments.
 
-Keep reading: [Sales attribution]({% link _analytics-reporting-attribution/how-we-attribute-sales.md %}).
+Keep reading: [Sales attribution]({% link _analytics-reporting-attribution/sales-attribution.md %}).
 
 ## Tracking data
 

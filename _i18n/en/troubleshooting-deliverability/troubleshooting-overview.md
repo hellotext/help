@@ -19,7 +19,7 @@ Keep reading: [Setup and integrations overview]({% link _integrations/setup-over
 
 If a message is not delivered, first check the channel used, sender configuration, consent, available balance or plan access, and any temporary sending limits.
 
-For SMS-specific limits on new prepaid businesses, keep reading: [SMS sending limits for new businesses]({% link _billing/sms-sending-limits-for-new-businesses.md %}).
+For SMS-specific limits on new prepaid businesses, keep reading: [SMS sending limits for new businesses]({% link _troubleshooting-deliverability/sms-sending-limits-for-new-businesses.md %}).
 
 For channel setup context, keep reading: [Messaging channels overview]({% link _numbers/messaging-overview.md %}).
 

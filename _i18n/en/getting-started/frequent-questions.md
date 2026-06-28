@@ -97,7 +97,7 @@ Attribution remains valid:
 
 Sales entered manually or conversations resolved by human agents are not counted.
 
-You can learn more about **[how we attribute sales]({% link _analytics-reporting-attribution/how-we-attribute-sales.md %})**.
+You can learn more about **[how we attribute sales]({% link _analytics-reporting-attribution/sales-attribution.md %})**.
 
 ## Are AI messages unlimited?
 

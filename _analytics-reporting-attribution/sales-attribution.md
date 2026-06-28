@@ -16,4 +16,4 @@ topic: analytics-reporting-attribution
 popular: true
 ---
 
-{% translate_file analytics-reporting-attribution/how-we-attribute-sales.md %}
+{% translate_file analytics-reporting-attribution/sales-attribution.md %}

@@ -1,69 +1,74 @@
-Si eres nuevo en Hellotext, comienza aquí. Esta guía te ayudará a través de los primeros pasos para configurar tu negocio.
+Usa esta guía cuando estás creando un negocio nuevo en Hellotext o revisando un negocio existente antes del lanzamiento.
 
-Esta es una guía simple solo para que comiences a cubrir algunos de los aspectos más básicos.
+Para ver el orden completo de lanzamiento, empieza por el [checklist de lanzamiento]({% link _getting-started/launch-checklist.md %}).
 
-Recomendamos leer las demás guías que cubren cada uno de los temas en detalle.
+## Antes de empezar
 
-## Crear el negocio
+Asegúrate de tener claro:
 
-Si aún no tienes una cuenta de usuario, **[ponte en contacto con nuestro equipo de ventas](https://www.hellotext.com/demo)**.
+- El nombre del negocio y el país principal.
+- Quién debe ser propietario del negocio en Hellotext.
+- Quién necesita acceso de administrador durante la configuración.
+- Qué plataforma de eCommerce, marketplace o sistema personalizado debería conectarse primero.
+- Qué canal de mensajería vas a usar primero, normalmente WhatsApp o SMS.
 
-Si aún no has creado un negocio, inicia sesión en Hellotext y haz clic en *Nuevo negocio*.
+Si todavía no tienes acceso a Hellotext, contacta a tu representante de Hellotext o solicita una demo desde el [sitio de Hellotext](https://www.hellotext.com/demo).
 
-En la sección *Negocio nuevo*, se te pedirá que ingreses el nombre del negocio, elige un nombre de usuario para el negocio para que tu equipo tenga acceso y el país principal en el que trabajas.
+## Crea o revisa el negocio
 
-### Selecciona un plan
+Cuando crees un negocio, usa un nombre y un username que tu equipo pueda reconocer. El país debería coincidir con el lugar donde opera principalmente el negocio, porque puede afectar la configuración de canales, precios y facturación.
 
-Se te pedirá que selecciones el plan que mejor se adapte a tu negocio.
+Antes de conectar integraciones o enviar mensajes, confirma que:
 
-Todos los planes incluyen un período de prueba gratuito de 30 días.
+- El nombre del negocio es correcto.
+- El username es fácil de identificar para tu equipo.
+- El país es correcto.
+- La cuenta propietaria es la indicada.
+- Los usuarios administradores que configurarán integraciones tienen acceso.
 
-Se te pedirá que ingreses una tarjeta de crédito para activar tu plan. No se te cobrará durante el período de prueba.
+Si la cuenta propietaria no es la correcta, resuélvelo antes de hacer cambios más amplios de configuración. Sigue leyendo: [Transfiere la propiedad del negocio]({% link _integrations/transferring-ownership.md %}).
 
-Si prefieres omitir el crédito y planeas realizar pagos a través de depósitos bancarios, elige *Depósito por transferencia bancaria* y continúa.
+## Confirma el contexto de facturación y plan
 
-Los negocios nuevos siempre se facturan en régimen de pre-pago. Esto significa que para activar tu versión de prueba, primero debes hacer un depósito reembolsable.
+Tu plan determina qué está incluido, cómo se cuentan los consumos y qué reglas de facturación aplican.
 
-Los comercios con acuerdo de facturación como *crédito* pueden activar una prueba sin depósito bancario.
-
-Los negocios prepago nuevos pueden enviar SMS desde el inicio, pero el envío por SMS puede comenzar con un límite diario temporal mientras Hellotext revisa la calidad de sus envíos. Lee más sobre **[los límites de envío SMS para negocios nuevos]({% link _billing/sms-sending-limits-for-new-businesses.md %})**.
-
-## Conecta tu eCommerce
-
-Ahora que la cuenta de negocio está lista, comienza conectando tus plataformas de eCommerce.
-
-Conectar tu eCommerce hace que sea más fácil comenzar a construir perfiles de cliente con su historial completo de actividad en tiempo real.
-
-## Enviar una campaña
-
-A medida que tu audiencia comienza a crecer, continúa creando tu primera campaña para llegar a tu audiencia.
-
-Se creativo y piensa en un buen mensaje con el que puedas captar la atención y el interés de tus clientes. ¿Un descuento en su próxima compra? ¿Un nuevo producto que esperaban? ¿Algún inventario antiguo para mover? Las posibilidades y oportunidades para aumentar las ventas y generar más participación son infinitas.
-
-También puedes limitar tus campañas a audiencias específicas utilizando *Segmentos*.
+Usa las guías de facturación cuando necesites entender mínimos del plan, tarifas por performance, costos SMS, tarifas variables por mensajes o facturas.
 
 Sigue leyendo:
 
-* **[Crear una campaña]({% link _campaigns/creating-a-campaign.md %})**
-* **[Mejor segmentación mediante segmentos]({% link _audience/segments.md %})**
+- [Modelo de precios]({% link _billing/how-pricing-works.md %})
+- [Uso y consumos del plan]({% link _billing/understanding-plan-quotas.md %})
 
-## Invitar a un miembro del equipo
+Para precios actuales de planes y tablas de tarifas SMS, revisa siempre la página pública de [precios de Hellotext](https://www.hellotext.com/precios).
 
-Enviaste tus primeras campañas y ahora los clientes responden con consultas que aparecen directamente en la bandeja de entrada.
+Los negocios prepago nuevos pueden enviar SMS desde el inicio, pero el envío por SMS puede comenzar con un límite diario temporal mientras Hellotext revisa la calidad de sus envíos. Sigue leyendo: [Límites de envío SMS para negocios nuevos]({% link _troubleshooting-deliverability/sms-sending-limits-for-new-businesses.md %}).
 
-Ahora es probablemente un buen momento para invitar a otro miembro del equipo para que te ayude a administrar estas conversaciones entrantes.
+## Conecta tu fuente de datos
 
-Los miembros de tu equipo pueden unirse a tu empresa en Hellotext e interactuar activamente con los clientes, ya sea respondiendo a sus consultas o iniciando activamente una conversación en función de sus actividades.
+Conecta la plataforma donde viven los datos de clientes, órdenes, productos, carritos y compras. Esto ayuda a Hellotext a crear perfiles de cliente, personalizar mensajes y atribuir resultados desde el comienzo.
 
-* **[Diferencias entre roles de equipo]({% link _team/understanding-team-roles.md %})**
+Empieza por el resumen de configuración y después elige la guía que coincida con tu tienda o marketplace.
 
-## Sigue aumentando tu audiencia
+Sigue leyendo: [Resumen de configuración e integraciones]({% link _integrations/setup-overview.md %}).
 
-Continúa construyendo tu audiencia con la ayuda de cualquiera de las herramientas de captura disponibles:
+## Conecta tu primer canal de mensajería
 
-* Códigos QR
-* Links compartibles
-* Formularios
-* Opt-in en checkout
+Antes de crear capturas, campañas o automatizaciones, confirma qué canal deberían usar tus clientes para recibir mensajes y responder.
 
-Sigue leyendo: **[Resumen de herramientas de captura]({% link _captures/capture-overview.md %})**.
+Usa el resumen de mensajería para decidir qué preparar para SMS, WhatsApp y configuración de remitentes.
+
+Sigue leyendo: [Resumen de canales de mensajería]({% link _numbers/messaging-overview.md %}).
+
+## Invita a las personas correctas
+
+Invita a quienes van a configurar el negocio, revisar reportes, responder conversaciones o gestionar clientes desde el Inbox.
+
+Usa los roles con cuidado: da acceso de administrador solo a quienes deberían gestionar configuración, facturación, integraciones o permisos del equipo.
+
+Sigue leyendo: [Roles y permisos de equipo]({% link _team/understanding-team-roles.md %}).
+
+## Continúa con el lanzamiento
+
+Cuando el acceso, el contexto de facturación, los datos, los canales y el equipo estén listos, continúa con capturas, tu primera audiencia y un envío de prueba pequeño.
+
+Sigue leyendo: [Checklist de lanzamiento]({% link _getting-started/launch-checklist.md %}).

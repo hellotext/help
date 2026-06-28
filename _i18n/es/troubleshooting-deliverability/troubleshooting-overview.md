@@ -19,7 +19,7 @@ Sigue leyendo: [Resumen de configuración e integraciones]({% link _integrations
 
 Si un mensaje no se entrega, primero revisa el canal usado, la configuración del remitente, consentimiento, saldo o acceso del plan, y cualquier límite temporal de envío.
 
-Para límites específicos de SMS en negocios prepago nuevos, sigue leyendo: [Límites de envío SMS para negocios nuevos]({% link _billing/sms-sending-limits-for-new-businesses.md %}).
+Para límites específicos de SMS en negocios prepago nuevos, sigue leyendo: [Límites de envío SMS para negocios nuevos]({% link _troubleshooting-deliverability/sms-sending-limits-for-new-businesses.md %}).
 
 Para contexto de configuración de canales, sigue leyendo: [Resumen de canales de mensajería]({% link _numbers/messaging-overview.md %}).
 

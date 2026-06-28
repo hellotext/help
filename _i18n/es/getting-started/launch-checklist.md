@@ -8,7 +8,7 @@ Crea tu negocio, elige el país principal donde opera y selecciona el plan que s
 
 Antes de continuar, confirma que el nombre del negocio, usuario, país, configuración de facturación y acceso del equipo estén correctos.
 
-Sigue leyendo: [Comenzando con tu negocio]({% link _getting-started/setting-up-your-business.md %}).
+Sigue leyendo: [Configura tu negocio]({% link _getting-started/setting-up-your-business.md %}).
 
 ## 2. Conecta tu plataforma de comercio
 
@@ -68,7 +68,7 @@ Después envía a una audiencia enfocada antes de expandir el envío a todos.
 Sigue leyendo:
 
 - [Crear una Campaña]({% link _campaigns/creating-a-campaign.md %})
-- [Consejos y mejores prácticas]({% link _getting-started/tips-and-best-practices.md %})
+- [Mejores prácticas para el primer lanzamiento]({% link _getting-started/tips-and-best-practices.md %})
 
 ## 7. Invita a quienes van a responder
 
@@ -90,10 +90,10 @@ Mira crecimiento de audiencia, respuestas, clics, reportes de campaña y ventas 
 Sigue leyendo:
 
 - [Reportes de Campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %})
-- [Cómo atribuimos las ventas]({% link _analytics-reporting-attribution/how-we-attribute-sales.md %})
+- [Cómo atribuimos las ventas]({% link _analytics-reporting-attribution/sales-attribution.md %})
 
 ## Opcional antes de salir en vivo
 
-Configura un [dominio personalizado para enlaces cortos]({% link _getting-started/setting-up-your-cname-alias.md %}) si quieres usar links con tu marca desde el inicio.
+Configura un [dominio personalizado para enlaces cortos]({% link _integrations/custom-domain-for-short-links.md %}) si quieres usar links con tu marca desde el inicio.
 
-Revisa [los límites de envío SMS para negocios nuevos]({% link _billing/sms-sending-limits-for-new-businesses.md %}) si tus primeros envíos van a usar SMS.
+Revisa [los límites de envío SMS para negocios nuevos]({% link _troubleshooting-deliverability/sms-sending-limits-for-new-businesses.md %}) si tus primeros envíos van a usar SMS.

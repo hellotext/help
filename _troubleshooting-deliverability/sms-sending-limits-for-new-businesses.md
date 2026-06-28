@@ -12,8 +12,8 @@ permalink: sms-sending-limits-for-new-businesses
 permalink_es: limites-de-envio-sms-para-negocios-nuevos
 
 layout: guide
-topic: billing
+topic: troubleshooting-deliverability
 popular: false
 ---
 
-{% translate_file billing/sms-sending-limits-for-new-businesses.md %}
+{% translate_file troubleshooting-deliverability/sms-sending-limits-for-new-businesses.md %}

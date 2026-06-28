@@ -142,7 +142,7 @@ Charged per message in local currency and vary by plan. They follow the same “
 * If the shopper clicks your Hellotext short link on that same device, the window extends to 7 days.
 * We don’t attribute: manual entries, general store sales not tied to Hellotext messages, or purchases that occur in conversations handled by a human team member.
 
-**[How we attribute sales]({% link _analytics-reporting-attribution/how-we-attribute-sales.md %})**
+**[How we attribute sales]({% link _analytics-reporting-attribution/sales-attribution.md %})**
 
 ## Billing examples
 

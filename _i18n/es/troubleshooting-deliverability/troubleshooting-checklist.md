@@ -19,7 +19,7 @@ Revisa el remitente, el consentimiento para ese canal, el acceso de la cuenta, s
 Sigue leyendo:
 
 - [Resumen de canales de mensajería]({% link _numbers/messaging-overview.md %})
-- [Límites de envío SMS para negocios nuevos]({% link _billing/sms-sending-limits-for-new-businesses.md %})
+- [Límites de envío SMS para negocios nuevos]({% link _troubleshooting-deliverability/sms-sending-limits-for-new-businesses.md %})
 - [Conecta WhatsApp]({% link _integrations/connect-whatsapp.md %})
 
 ## 3. Revisa audiencia y configuración del mensaje
@@ -44,7 +44,7 @@ Sigue leyendo:
 
 - [Links con tracking]({% link _analytics-reporting-attribution/tracked-links.md %})
 - [Reportes de campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %})
-- [Atribución de ventas]({% link _analytics-reporting-attribution/how-we-attribute-sales.md %})
+- [Atribución de ventas]({% link _analytics-reporting-attribution/sales-attribution.md %})
 - [Seguimiento de eventos]({% link _developers/tracking-events.md %})
 
 ## 5. Revisa ownership del inbox y flujo de respuesta

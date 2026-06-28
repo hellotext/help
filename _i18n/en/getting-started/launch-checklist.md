@@ -68,7 +68,7 @@ Then send to a focused audience before expanding to everyone.
 Keep reading:
 
 - [Creating a Campaign]({% link _campaigns/creating-a-campaign.md %})
-- [Tips and best practices]({% link _getting-started/tips-and-best-practices.md %})
+- [First launch best practices]({% link _getting-started/tips-and-best-practices.md %})
 
 ## 7. Invite the people who will answer replies
 
@@ -90,10 +90,10 @@ Look at audience growth, replies, clicks, campaign reporting, and attributed sal
 Keep reading:
 
 - [Campaign Reporting]({% link _analytics-reporting-attribution/campaign-reporting.md %})
-- [How we attribute sales]({% link _analytics-reporting-attribution/how-we-attribute-sales.md %})
+- [How we attribute sales]({% link _analytics-reporting-attribution/sales-attribution.md %})
 
 ## Optional before launch
 
-Set up a [custom domain for short links]({% link _getting-started/setting-up-your-cname-alias.md %}) if you want branded links from the beginning.
+Set up a [custom domain for short links]({% link _integrations/custom-domain-for-short-links.md %}) if you want branded links from the beginning.
 
-Review [SMS sending limits for new businesses]({% link _billing/sms-sending-limits-for-new-businesses.md %}) if your first sends will use SMS.
+Review [SMS sending limits for new businesses]({% link _troubleshooting-deliverability/sms-sending-limits-for-new-businesses.md %}) if your first sends will use SMS.

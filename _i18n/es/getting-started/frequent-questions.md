@@ -97,7 +97,7 @@ La atribución se mantiene:
 
 No se cuentan ventas ingresadas manualmente ni conversaciones resueltas por agentes humanos. 
 
-Si quieres puedes saber más sobre **[cómo atribuimos las ventas]({% link _analytics-reporting-attribution/how-we-attribute-sales.md %})**.
+Si quieres puedes saber más sobre **[cómo atribuimos las ventas]({% link _analytics-reporting-attribution/sales-attribution.md %})**.
 
 ## ¿Los mensajes con IA son ilimitados?
 

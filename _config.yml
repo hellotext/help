@@ -85,7 +85,7 @@ collections:
       - analytics-overview.md
       - campaign-reporting.md
       - tracked-links.md
-      - how-we-attribute-sales.md
+      - sales-attribution.md
     output: true
   numbers:
     order:
@@ -93,7 +93,7 @@ collections:
       - message-editor-overview.md
       - message-editor-basics.md
       - share-a-location.md
-      - obtaining-an-exclusive-shortcode.md
+      - exclusive-short-codes.md
     output: true
   team:
     order:
@@ -109,14 +109,12 @@ collections:
       - setting-up-your-business.md
       - frequent-questions.md
       - tips-and-best-practices.md
-      - setting-up-your-cname-alias.md
   billing:
     output: true
     order:
       - billing-overview.md
       - how-pricing-works.md
       - understanding-plan-quotas.md
-      - sms-sending-limits-for-new-businesses.md
   captures:
     output: true
     order:
@@ -137,6 +135,7 @@ collections:
     output: true
     order:
       - setup-overview.md
+      - custom-domain-for-short-links.md
       - connect-wix.md
       - connect-woo.md
       - connect-vtex.md
@@ -158,6 +157,7 @@ collections:
     order:
       - troubleshooting-overview.md
       - troubleshooting-checklist.md
+      - sms-sending-limits-for-new-businesses.md
     output: true
 
 # Exclude from processing.

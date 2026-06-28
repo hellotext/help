@@ -1,55 +1,77 @@
-Some tips and recommendations to help you start getting the most out of Hellotext from day one.
+Use these practices with the [launch checklist]({% link _getting-started/launch-checklist.md %}) when you are preparing your first real sends.
 
-## General
+The goal is to learn from a controlled launch before you expand to a larger audience.
 
-#### Night Hours
+## Start with a small audience
 
-Set up Hellotext to prevent automations and campaigns from being sent at inconvenient times for your customers. Choose the time range during which you prefer not to contact them.
+Create a test audience with your own number and a few teammates. Send the message to that audience first so you can review the real customer experience on the actual channel.
 
-> **Example:** A customer added a product to their cart at 6:30 p.m. but didn’t complete the purchase. You have an automation scheduled to send a WhatsApp reminder 8 hours later. Without Hellotext’s "Night Hours" setting, the message would be sent at 2:30 a.m. However, since you configured your night hours between 7:00 p.m. and 9:00 a.m., the message will be sent at 9:00 a.m. the next day.
+Before sending to customers, check:
 
-#### Bundles and Extra Credits
+- The sender or WhatsApp number is the one you expected.
+- The message is clear without needing extra context.
+- Links open the right page and use tracking when needed.
+- Opt-out or unsubscribe copy is present when required.
+- Replies arrive in the Inbox and can be assigned.
 
-Your Hellotext plan includes credits, but we know some months you may need more. For those cases, we offer **Bundles**. Simply contact your Account Manager and let them know which Bundle you need. Bundles come with special pricing, so make sure to purchase one before using extra credits.
+Keep reading: [Create a campaign]({% link _campaigns/creating-a-campaign.md %}).
 
-## Templates
+## Send to customers with a clear relationship
 
-Save frequently used messages as templates so you don’t have to write them from scratch. The most common templates include:
+For the first customer send, choose people who recently interacted with your business or clearly opted in to hear from you.
 
-- Welcome message
-- Order status
-- Payment methods
+Avoid cold, stale, or unverified lists. A focused first send gives you cleaner signals about content, timing, deliverability, and replies.
 
-## Capture Tools
+Keep reading: [Lists vs. segments]({% link _audience/lists-and-segments.md %}).
 
-Use discount codes to encourage customers to fill out forms with their information.
+## Keep the message simple
 
-#### QR Codes
+Write the first message around one action. Avoid combining too many offers, links, questions, or explanations in the same send.
 
-Make sure to customize the title of your QR code, preferably using the name of the location where it will be placed. This will allow you to track the statistics for each QR code and know exactly which location it corresponds to.
+Good first sends usually answer:
 
-#### Instagram
+- Why is the customer receiving this?
+- What is useful about it?
+- What should the customer do next?
 
-Add a QR code to your Instagram account a couple of times a month to capture information from followers and stay in constant contact with them.
+Keep reading: [Message editor overview]({% link _numbers/message-editor-overview.md %}).
 
-#### Forms
+## Respect timing and frequency
 
-Create categories in your user profiles that will automatically populate when customers fill out a form with their information.
+Review quiet hours, channel expectations, and frequency before launching campaigns or automations.
 
-> **Example:** You own a pet accessories store and create a category called "pet name" in your user profiles. When building the form, this category will appear as a blank field for the customer to fill in with their pet's name. Hellotext will automatically store this information in the corresponding category.
+If an automation waits several hours before sending a message, make sure the final send time still feels reasonable for the customer.
 
-### Audience
+For playbooks and journeys, check the trigger, delay, audience, channel, and stopping rules before turning them on.
 
-#### Segments
+Keep reading: [Playbooks and automation overview]({% link _journeys/playbooks-overview.md %}).
 
-Take the time to create segments for your different categories, products, and price ranges. Make sure to assign clear names to each segment so you can always choose the one that best fits your campaigns. Hellotext will automatically update these segments to ensure each customer is placed in the most relevant one.
+## Name capture tools clearly
 
-## Campaigns
+Use names that explain where each capture tool is used. For example, name a QR code after the store, event, packaging insert, or counter where customers will scan it.
 
-Always create an audience called **"test"** that includes your personal number and those of a few team members (no more than three). This way, you can review how the campaigns look before sending them to your customers.
+Clear names make reporting easier later because you can tell which source created each customer profile.
 
-> **Small print:** When drafting a WhatsApp campaign, you'll see a small line at the bottom that says *“Send STOP to unsubscribe from promotions”*. This is what we call small print. It allows users to automatically unsubscribe from promotional messages. If a user sends **STOP** after receiving a campaign, they’ll be unsubscribed, but their profile will remain active in your database.
+Keep reading: [Capture tools overview]({% link _captures/capture-overview.md %}).
 
-## Inbox
+## Use customer profile data deliberately
 
-Be sure to mark conversations as closed when the interaction with a customer has ended. This way, you’ll keep your inbox organized and know which conversations still need a response.
+Use forms, checkout opt-ins, and integrations to collect useful customer profile data. Keep field names clear so your team understands what each property means.
+
+When you build segments, use names that describe the intended audience instead of only describing the rule.
+
+Keep reading:
+
+- [Audience and segmentation overview]({% link _audience/audience-overview.md %})
+- [Personalization tags]({% link _audience/personalization-tags.md %})
+
+## Watch the first responses
+
+After the first send, watch replies, opt-outs, failed messages, clicks, and attributed sales before changing too many settings at once.
+
+Close conversations when the interaction is finished so the Inbox stays clean and response-time metrics remain useful.
+
+Keep reading:
+
+- [Inbox and conversations overview]({% link _team/inbox-overview.md %})
+- [Campaign reporting]({% link _analytics-reporting-attribution/campaign-reporting.md %})

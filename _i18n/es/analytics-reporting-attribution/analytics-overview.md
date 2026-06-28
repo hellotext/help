@@ -20,7 +20,7 @@ La atribución explica cuándo Hellotext recibe crédito por una venta y cuándo
 
 Usa la guía de atribución cuando necesites entender reglas de last-click, ventanas de atribución, participación del equipo humano, cancelaciones, devoluciones y ajustes de ingresos.
 
-Sigue leyendo: [Atribución de ventas]({% link _analytics-reporting-attribution/how-we-attribute-sales.md %}).
+Sigue leyendo: [Atribución de ventas]({% link _analytics-reporting-attribution/sales-attribution.md %}).
 
 ## Datos de tracking
 

@@ -19,7 +19,7 @@ Check the sender, consent for that channel, account access, balance or plan limi
 Keep reading:
 
 - [Messaging channels overview]({% link _numbers/messaging-overview.md %})
-- [SMS sending limits for new businesses]({% link _billing/sms-sending-limits-for-new-businesses.md %})
+- [SMS sending limits for new businesses]({% link _troubleshooting-deliverability/sms-sending-limits-for-new-businesses.md %})
 - [Connect WhatsApp]({% link _integrations/connect-whatsapp.md %})
 
 ## 3. Review audience and message setup
@@ -44,7 +44,7 @@ Keep reading:
 
 - [Tracked links]({% link _analytics-reporting-attribution/tracked-links.md %})
 - [Campaign reporting]({% link _analytics-reporting-attribution/campaign-reporting.md %})
-- [Sales attribution]({% link _analytics-reporting-attribution/how-we-attribute-sales.md %})
+- [Sales attribution]({% link _analytics-reporting-attribution/sales-attribution.md %})
 - [Tracking events]({% link _developers/tracking-events.md %})
 
 ## 5. Check inbox ownership and response workflow

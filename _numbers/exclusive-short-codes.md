@@ -20,4 +20,4 @@ topic: numbers
 popular: false
 ---
 
-{% translate_file numbers/obtaining-an-exclusive-shortcode.md %}
+{% translate_file numbers/exclusive-short-codes.md %}
