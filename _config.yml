@@ -58,6 +58,7 @@ collections:
       - best-practices.html
       - campaigns.html
       - audience.html
+      - analytics-reporting-attribution.html
       - numbers.html
       - team.html
       - journeys.html
@@ -79,6 +80,10 @@ collections:
       - lists-and-segments.md
       - lists.md
       - segments.md
+    output: true
+  analytics-reporting-attribution:
+    order:
+      - analytics-overview.md
     output: true
   numbers:
     order:
@@ -104,9 +109,10 @@ collections:
   billing:
     output: true
     order:
+      - billing-overview.md
       - how-pricing-works.md
-      - how-we-attribute-sales.md
       - understanding-plan-quotas.md
+      - how-we-attribute-sales.md
       - sms-sending-limits-for-new-businesses.md
   captures:
     output: true
@@ -137,12 +143,13 @@ collections:
   developers:
     output: true
     order:
+      - developers-overview.md
+      - api.md
+      - send-sms-with-api.md
       - tracking-events.md
       - tracking-on-campaigns-and-journeys.md
       - tracking-unidentified-customers.md
       - external-tracking.md
-      - send-sms-with-api.md
-      - api.md
   editor:
     output: true
     order:

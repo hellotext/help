@@ -1,4 +1,4 @@
-After sending a campaign or activating a journey you will want to learn about its results: how customers engaged and behaved. And ideally, you also would like to keep this information in such a way that it can be re-used in future marketing campaigns.
+After sending a campaign or activating an automation, you will want to learn about its results: how customers engaged and behaved. Ideally, you also want to keep this information so it can be reused in future campaigns and automations.
 
 Luckily enough, this is exactly the purpose behind using Campaigns and the good news is that it is made simple to implement. 
 
@@ -8,11 +8,11 @@ A short link is simply a way to reduce the length of a URL to something that loo
 
 This helps you overcome the 160-character limit of text messages, leaving more space for the message. On text messages, shorter links also feel more inviting.
 
-You can share shortened links in your messages on Campaigns and Journeys.
+You can share shortened links in campaign and automation messages.
 
 When customers click on a short link they are redirected to the original URL. Hellotext attaches a GET parameter to the original URL called `hellotext_session` containing a session identifier uniquely generated for each click.
 
-Every time a customer clicks on a short link, an event will be created and will appear on their profile's activities. Clicks are also aggregated to the reports of the campaign or journey.
+Every time a customer clicks on a short link, an event is created and appears in the customer profile activity. Clicks are also aggregated in the campaign or automation reports.
 
 ## Getting started tracking
 
@@ -67,4 +67,4 @@ Hellotext.session
 
 You can then track events sending a `POST` request directly to the API. 
 
-Learn more on [**External tracking**](/external-tracking)
+Learn more: [**External tracking**]({% link _developers/external-tracking.md %}).
