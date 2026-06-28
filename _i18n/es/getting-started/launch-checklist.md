@@ -70,6 +70,7 @@ Antes de ampliar, prueba con tu propio número y algunos miembros del equipo. Re
 Sigue leyendo:
 
 - [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})
+- [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [Primeros pasos con rutas]({% link _journeys/getting-started-with-journeys.md %})
 - [Crear una Campaña]({% link _campaigns/creating-a-campaign.md %})
 - [Mejores prácticas para el primer lanzamiento]({% link _getting-started/tips-and-best-practices.md %})
@@ -94,6 +95,7 @@ Mira crecimiento de audiencia, respuestas, clics, actividad de playbooks, report
 Sigue leyendo:
 
 - [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})
+- [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [Reportes de Campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %})
 - [Cómo atribuimos las ventas]({% link _analytics-reporting-attribution/sales-attribution.md %})
 

@@ -70,6 +70,7 @@ Before going broad, test with your own number and a few teammates. Review how it
 Keep reading:
 
 - [Playbooks and automation overview]({% link _journeys/playbooks-overview.md %})
+- [Choose your first playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [Getting started with journeys]({% link _journeys/getting-started-with-journeys.md %})
 - [Creating a Campaign]({% link _campaigns/creating-a-campaign.md %})
 - [First launch best practices]({% link _getting-started/tips-and-best-practices.md %})
@@ -94,6 +95,7 @@ Look at audience growth, replies, clicks, playbook activity, campaign reporting,
 Keep reading:
 
 - [Playbooks and automation overview]({% link _journeys/playbooks-overview.md %})
+- [Choose your first playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [Campaign Reporting]({% link _analytics-reporting-attribution/campaign-reporting.md %})
 - [How we attribute sales]({% link _analytics-reporting-attribution/sales-attribution.md %})
 

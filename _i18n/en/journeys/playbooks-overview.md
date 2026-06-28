@@ -10,6 +10,8 @@ Keep reading: [What are signals?]({% link _journeys/what-are-signals.md %}).
 
 ## Choose the right playbook type
 
+If you are deciding where to start, use [Choose your first playbook]({% link _journeys/choose-your-first-playbook.md %}).
+
 Use a **prebuilt playbook** when the goal is common and the recommended mission already fits your business. This is usually the fastest way to launch.
 
 Use an **AI playbook or AI agent** when the experience needs to respond conversationally, use product or policy knowledge, recommend items, answer frequent questions, collect customer information, or decide when to escalate.
@@ -48,6 +50,7 @@ Use what you learn to adjust the prompt, timing, branch conditions, or template 
 ## Related guides
 
 - [What are signals?]({% link _journeys/what-are-signals.md %})
+- [Choose your first playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [Getting started with journeys]({% link _journeys/getting-started-with-journeys.md %})
 - [Custom journey]({% link _journeys/custom-journey.md %})
 - [How to write a great agent prompt]({% link _journeys/how-to-write-a-great-prompt.md %})
