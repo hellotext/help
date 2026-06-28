@@ -45,7 +45,7 @@ Los negocios prepago nuevos pueden enviar SMS desde el inicio, pero el envío po
 
 ## Conecta tu fuente de datos
 
-Conecta la plataforma donde viven los datos de clientes, órdenes, productos, carritos y compras. Esto ayuda a Hellotext a crear perfiles de cliente, personalizar mensajes y atribuir resultados desde el comienzo.
+Conecta la plataforma donde viven los datos de clientes, órdenes, productos, carritos y compras. Esto ayuda a Hellotext a crear perfiles de cliente, leer señales, personalizar mensajes y atribuir resultados desde el comienzo.
 
 Empieza por el resumen de configuración y después elige la guía que coincida con tu tienda o marketplace.
 
@@ -53,7 +53,7 @@ Sigue leyendo: [Resumen de configuración e integraciones]({% link _integrations
 
 ## Conecta tu primer canal de mensajería
 
-Antes de crear capturas, campañas o automatizaciones, confirma qué canal deberían usar tus clientes para recibir mensajes y responder.
+Antes de crear capturas, playbooks, rutas o campañas, confirma qué canal deberían usar tus clientes para recibir mensajes y responder.
 
 Usa el resumen de mensajería para decidir qué preparar para SMS, WhatsApp y configuración de remitentes.
 
@@ -69,6 +69,6 @@ Sigue leyendo: [Roles y permisos de equipo]({% link _team/understanding-team-rol
 
 ## Continúa con el lanzamiento
 
-Cuando el acceso, el contexto de facturación, los datos, los canales y el equipo estén listos, continúa con capturas, tu primera audiencia y un envío de prueba pequeño.
+Cuando el acceso, el contexto de facturación, los datos, los canales y el equipo estén listos, continúa con capturas, tu primera audiencia y tu primer playbook, ruta o envío de prueba pequeño.
 
 Sigue leyendo: [Checklist de lanzamiento]({% link _getting-started/launch-checklist.md %}).

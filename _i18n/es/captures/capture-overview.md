@@ -20,7 +20,7 @@ Confirma que el canal esté conectado y listo para recibir opt-ins.
 
 Escribe un mensaje de opt-in claro para que tus clientes entiendan a qué se están sumando.
 
-Decide qué debería pasar después de que alguien se suscribe, como enviar un mensaje de bienvenida, aplicar un cupón o iniciar una automatización.
+Decide qué debería pasar después de que alguien se suscribe, como enviar un mensaje de bienvenida, aplicar un cupón, iniciar una ruta o activar un playbook.
 
 ## Haz que las capturas sean fáciles de medir
 

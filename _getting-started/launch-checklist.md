@@ -3,10 +3,10 @@ languages: ["en", "es"]
 
 en:
   title: Launch checklist
-  description: Follow this order to get your business ready before you send your first messages.
+  description: Follow this order to get your business ready before your first playbook, route, or send.
 es:
   title: Checklist de lanzamiento
-  description: Sigue este orden para dejar tu negocio listo antes de enviar tus primeros mensajes.
+  description: Sigue este orden para dejar tu negocio listo antes de tu primer playbook, ruta o envío.
 
 permalink: launch-checklist
 permalink_es: checklist-lanzamiento

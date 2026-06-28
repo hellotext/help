@@ -1,4 +1,4 @@
-Usa esta guía para decidir qué configuración de mensajería necesitas antes de enviar campañas, responder conversaciones o captar suscriptores.
+Usa esta guía para decidir qué configuración de mensajería necesitas antes de lanzar playbooks, rutas, campañas, respuestas o capturas de suscriptores.
 
 Hellotext puede usar distintos canales y tipos de remitente según cómo deberían interactuar los clientes con tu negocio. Empieza por el canal que tus clientes esperan usar y luego confirma la configuración de remitente que encaje con tu volumen, país y flujo de suscripción.
 
@@ -14,11 +14,11 @@ Muchos negocios usan ambos: SMS para alcance y WhatsApp para conversaciones más
 
 Usa un **código corto exclusivo** cuando envías mayor volumen o necesitas un código corto usado sólo por tu negocio.
 
-Si no sabes qué remitente SMS está disponible para tu cuenta, contacta a tu representante de Hellotext antes de crear la campaña o automatización.
+Si no sabes qué remitente SMS está disponible para tu cuenta, contacta a tu representante de Hellotext antes de crear la campaña, playbook o ruta.
 
 ## Antes de enviar
 
-Antes de lanzar una campaña o automatización, confirma que:
+Antes de lanzar una campaña, playbook o ruta, confirma que:
 
 - El remitente o código corto esté activo.
 - Probaste mensajes entrantes y salientes.

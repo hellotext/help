@@ -1,6 +1,6 @@
-After sending a campaign or activating a journey, you will want to learn about its results: how customers engaged and behaved. Ideally, you also want to keep this information so it can be reused in future campaigns and journeys.
+After sending a campaign, activating a route, or enabling a playbook, you will want to learn how customers engaged and behaved. Ideally, you also want to keep that behavior as signals Hellotext can reuse later.
 
-Luckily enough, this is exactly the purpose behind using campaigns and journeys, and the good news is that it is simple to implement.
+This is the purpose of tracking links and events: connect each click back to a customer profile, session, report, and future decision.
 
 ## Short links and sessions
 
@@ -8,11 +8,11 @@ A short link is simply a way to reduce the length of a URL to something that loo
 
 This helps you overcome the 160-character limit of text messages, leaving more space for the message. On text messages, shorter links also feel more inviting.
 
-You can share shortened links in campaign and journey messages.
+You can share shortened links in campaign, route, playbook, and Inbox messages.
 
 When customers click on a short link they are redirected to the original URL. Hellotext attaches a GET parameter to the original URL called `hellotext_session` containing a session identifier uniquely generated for each click.
 
-Every time a customer clicks on a short link, an event is created and appears in the customer profile activity. Clicks are also aggregated in campaign or journey reports.
+Every time a customer clicks on a short link, an event is created and appears in the customer profile activity. Clicks can also be aggregated in campaign, route, or playbook reports when that report is available.
 
 ## Getting started tracking
 

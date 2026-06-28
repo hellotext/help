@@ -97,7 +97,7 @@ If you want to use your own short link domain, see the [custom domain for short 
 
 You do not need to create a profile in advance to make a one-off send to a number using `destination`.
 
-However, if you also want to keep customer profile history, segment audiences, or reuse that data in campaigns and automations, you can:
+However, if you also want to keep customer profile history, segment audiences, or reuse that data in campaigns, playbooks, or routes, you can:
 
 * Import customer profiles from the Hellotext interface.
 * Create profiles programmatically with the [API reference for creating profiles](https://www.hellotext.com/api#create_a_profile).

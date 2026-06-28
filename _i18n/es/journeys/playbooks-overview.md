@@ -1,18 +1,18 @@
-Usa playbooks y automatizaciones cuando Hellotext debe reaccionar al comportamiento de tus clientes sin que alguien de tu equipo envíe cada mensaje manualmente.
+Usa playbooks y automatizaciones cuando Hellotext debe leer señales de clientes, decidir qué hacer después y actuar sin que alguien de tu equipo envíe cada mensaje manualmente.
 
 Un playbook es un sistema reutilizable entrenado para una misión de negocio. Lee señales, decide qué debería pasar con cada cliente y actúa por el canal correcto dentro de los límites que definas.
 
-Un playbook puede ser una ruta, una campaña, una captura o un agente de IA según el trabajo que realiza.
+Un playbook puede ser una misión autónoma, un agente de IA, una ruta, una campaña o una captura según el trabajo que realiza.
 
 Las señales pueden incluir carritos, navegación, compras, cambios de stock, cumpleaños, respuestas, propiedades del perfil de cliente y elegibilidad por canal.
 
 ## Elige el tipo de playbook correcto
 
-Usa una **ruta** cuando necesitas un flujo de clientes paso a paso con disparador, mensajes, esperas, condiciones, ramas y derivaciones. Recuperador de Carritos y Constructor de Rutas son ejemplos de playbooks de tipo ruta.
-
 Usa un **playbook preconstruido** cuando el objetivo es común y la misión recomendada ya encaja con tu negocio. Normalmente es la forma más rápida de lanzar.
 
-Usa un **agente de IA** cuando la experiencia necesita responder conversacionalmente, usar conocimiento de productos o políticas, recomendar artículos, recopilar información del cliente o decidir cuándo escalar.
+Usa un **playbook con IA o agente de IA** cuando la experiencia necesita responder conversacionalmente, usar conocimiento de productos o políticas, recomendar artículos, responder preguntas frecuentes, recopilar información del cliente o decidir cuándo escalar.
+
+Usa una **ruta** cuando necesitas un flujo de clientes paso a paso con disparador, mensajes, esperas, condiciones, ramas y derivaciones. Un seguimiento básico de carrito abandonado puede ser una plantilla de ruta; un playbook de carrito abandonado con IA puede decidir de forma más dinámica usando señales y contexto del cliente.
 
 Usa una **campaña** cuando quieres un envío puntual a una audiencia seleccionada, y una **captura** cuando el objetivo es recolectar suscriptores o datos de clientes.
 
@@ -20,7 +20,7 @@ Usa una **campaña** cuando quieres un envío puntual a una audiencia selecciona
 
 Confirma que los datos y canales de los que depende estén listos.
 
-Para playbooks de eCommerce, asegúrate de que la integración de tu tienda esté conectada y que la actividad reciente aparezca en los perfiles de cliente.
+Para playbooks de eCommerce, asegúrate de que la integración de tu tienda esté conectada y que la actividad reciente aparezca en los perfiles de cliente como señales utilizables.
 
 Para playbooks de WhatsApp, asegúrate de que WhatsApp esté conectado y aprobado antes de enviar clientes al flujo.
 

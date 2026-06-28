@@ -1,4 +1,4 @@
-Use this guide to decide which messaging setup you need before sending campaigns, answering replies, or collecting subscribers.
+Use this guide to decide which messaging setup you need before launching playbooks, routes, campaigns, replies, or subscriber captures.
 
 Hellotext can use different channels and sender types depending on how customers should interact with your business. Start with the channel customers expect, then confirm the sender setup that fits your volume, country, and subscription flow.
 
@@ -14,11 +14,11 @@ Many businesses use both: SMS for reach and WhatsApp for richer conversations an
 
 Use an **exclusive short code** when you send at higher volume or need a short code used only by your business.
 
-If you are not sure which SMS sender is available for your account, contact your Hellotext representative before building the campaign or automation.
+If you are not sure which SMS sender is available for your account, contact your Hellotext representative before building the campaign, playbook, or route.
 
 ## Before you send
 
-Before launching a campaign or automation, confirm that:
+Before launching a campaign, playbook, or route, confirm that:
 
 - The sender or short code is active.
 - You have tested inbound and outbound messages.

@@ -1,6 +1,6 @@
 Usa este checklist cuando estás configurando Hellotext por primera vez o preparando un negocio nuevo para salir en vivo.
 
-El objetivo es confirmar que tu cuenta, datos, canales, capturas y primeros envíos estén listos antes de que los clientes empiecen a recibir mensajes.
+El objetivo es confirmar que tu cuenta, señales, canales, capturas y primer playbook, ruta o envío estén listos antes de que los clientes empiecen a recibir mensajes.
 
 ## 1. Crea y revisa tu negocio
 
@@ -12,7 +12,7 @@ Sigue leyendo: [Configura tu negocio]({% link _getting-started/setting-up-your-b
 
 ## 2. Conecta tu plataforma de comercio
 
-Conecta la plataforma donde viven tus datos de clientes, pedidos y productos. Esto ayuda a Hellotext a crear perfiles de cliente, entender la actividad de compra y atribuir resultados.
+Conecta la plataforma donde viven tus datos de clientes, pedidos y productos. Esto ayuda a Hellotext a crear perfiles de cliente, leer señales de comercio, entender la actividad de compra y atribuir resultados.
 
 Empieza por la integración que corresponda a tu tienda:
 
@@ -37,7 +37,7 @@ Sigue leyendo: [Resumen de canales de mensajería]({% link _numbers/messaging-ov
 
 ## 4. Agrega al menos una herramienta de captura
 
-Antes de enviar campañas, asegúrate de que los clientes tengan una forma clara de suscribirse.
+Antes de lanzar campañas, playbooks o rutas, asegúrate de que los clientes tengan una forma clara de suscribirse.
 
 Empieza con la captura que mejor coincida con el lugar donde tus clientes tienen más probabilidad de sumarse:
 
@@ -59,14 +59,18 @@ Sigue leyendo:
 - [Diferencias entre Listas y Segmentos]({% link _audience/lists-and-segments.md %})
 - [Llega mejor a tu audiencia con Segmentos]({% link _audience/segments.md %})
 
-## 6. Envía una primera campaña pequeña
+## 6. Lanza un primer playbook, ruta o campaña enfocado
 
-Antes de enviar masivamente, crea una audiencia de prueba con tu número y algunos miembros del equipo. Envía una campaña de prueba, revisa cómo se ve en el canal real y confirma links, texto de baja, tono y horario.
+Elige un primer objetivo antes de ampliar: recuperar carritos abandonados, hacer seguimiento post-compra, responder preguntas frecuentes, captar suscriptores o enviar un anuncio puntual.
 
-Después envía a una audiencia enfocada antes de expandir el envío a todos.
+Usa un playbook preconstruido cuando la misión ya existe. Usa una ruta cuando necesitas un flujo paso a paso predecible. Usa una campaña cuando necesitas un envío puntual a una audiencia seleccionada.
+
+Antes de ampliar, prueba con tu propio número y algunos miembros del equipo. Revisa cómo se ve en el canal real y confirma links, texto de baja, tono, timing y reglas de derivación.
 
 Sigue leyendo:
 
+- [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})
+- [Primeros pasos con rutas]({% link _journeys/getting-started-with-journeys.md %})
 - [Crear una Campaña]({% link _campaigns/creating-a-campaign.md %})
 - [Mejores prácticas para el primer lanzamiento]({% link _getting-started/tips-and-best-practices.md %})
 
@@ -83,12 +87,13 @@ Sigue leyendo:
 
 ## 8. Revisa los primeros resultados
 
-Después de tus primeros envíos, revisa qué pasó antes de cambiar demasiadas cosas al mismo tiempo.
+Después de tu primer lanzamiento, revisa qué pasó antes de cambiar demasiadas cosas al mismo tiempo.
 
-Mira crecimiento de audiencia, respuestas, clics, reportes de campaña y ventas atribuidas.
+Mira crecimiento de audiencia, respuestas, clics, actividad de playbooks, reportes de campaña y ventas atribuidas.
 
 Sigue leyendo:
 
+- [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})
 - [Reportes de Campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %})
 - [Cómo atribuimos las ventas]({% link _analytics-reporting-attribution/sales-attribution.md %})
 

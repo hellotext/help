@@ -20,7 +20,7 @@ Confirm that the channel is connected and ready to receive opt-ins.
 
 Write a clear opt-in message so customers understand what they are joining.
 
-Decide what should happen after someone subscribes, such as sending a welcome message, applying a coupon, or starting an automation.
+Decide what should happen after someone subscribes, such as sending a welcome message, applying a coupon, starting a route, or triggering a playbook.
 
 ## Keep captures easy to measure
 

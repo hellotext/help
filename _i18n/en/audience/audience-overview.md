@@ -22,13 +22,13 @@ Audience data can help you:
 
 - Target campaigns and broadcasts.
 - Personalize messages with profile properties.
-- Trigger or branch automations.
+- Trigger playbooks or branch routes.
 - Understand purchase behavior and product interest.
 - Give the inbox team more context before replying.
 
 ## Before sending to an audience
 
-Before launching a campaign or automation, check:
+Before launching a campaign, playbook, or route, check:
 
 - The audience matches the message.
 - The customer profiles have consent for the channel.

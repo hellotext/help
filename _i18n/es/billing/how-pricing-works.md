@@ -11,7 +11,7 @@
 
 ## Resumen
 
-Hellotext usa un modelo basado en resultados: pagas una tarifa por performance de **2 % a 5 %** de las ventas atribuibles a campañas, journeys o agentes de IA. En los planes de esta guía, Starter usa 5 %, Small 4 %, Grow 3 % y Pro 2,5 %. Cada plan tiene un mínimo mensual (“piso”).
+Hellotext usa un modelo basado en resultados: pagas una tarifa por performance de **2 % a 5 %** de las ventas atribuibles a campañas, playbooks, rutas o agentes de IA. En los planes de esta guía, Starter usa 5 %, Small 4 %, Grow 3 % y Pro 2,5 %. Cada plan tiene un mínimo mensual (“piso”).
 
 **Regla clave:** cada mes pagas un solo concepto—el mayor entre piso del plan, tarifa por performance, costo de SMS o tarifa variable por mensajes (US $ 2 por cada 1.000). Nunca se suman los cuatro. 
 
@@ -41,7 +41,7 @@ Canales en todos los planes: **WhatsApp** (Meta factura aparte), **Instagram Dir
       <li><strong>WhatsApp:</strong> 1 línea verificada</li>
       <li><strong>Integraciones:</strong> Wix, Shopify, Woo, Mercado Libre y VTEX</li>
       <li><strong>Captura:</strong> Webchat, Popups, Código QR y Formularios</li>
-      <li><strong>Automatización:</strong> Cart Saver, chatbots y Journeys</li>
+      <li><strong>Automatización:</strong> playbooks iniciales, plantillas de rutas y automatización de chat</li>
       <li><strong>Campañas:</strong> SMS y WhatsApp</li>
       <li><strong>Reportes:</strong> básicos en tiempo real</li>
       <li><strong>Perfiles:</strong> ilimitados y plantillas</li>

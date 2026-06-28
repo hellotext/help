@@ -2,7 +2,7 @@ En Hellotext, cada Agente de IA comienza con un ingrediente único y sencillo: e
 
 El prompt define la personalidad, el tono, el propósito y los límites del agente.
 
-Es lo que transforma una automatización abstracta en una verdadera voz de marca, capaz de vender, asistir o cautivar a los clientes como si fuera una persona de tu propio equipo.
+Es lo que convierte un agente de IA o playbook en una verdadera voz de marca, capaz de vender, asistir o cautivar a los clientes como si fuera una persona de tu propio equipo.
 
 Escribir un gran prompt no tiene tanto que ver con la técnica sino más bien con la claridad y la intención. Cuanto mejor definas quién es el agente, cómo debe hablar y qué no debe hacer nunca, más fielmente representará a tu marca.
 
@@ -28,7 +28,7 @@ Cada agente en Hellotext puede realizar una amplia gama de acciones de forma aut
 
 También puede buscar en URLs o documentos que adjuntes —como una sección de preguntas frecuentes, una guía de políticas o un manual de producto—, de modo que siempre responda con información verificada en lugar de adivinar.
 
-Los agentes pueden recopilar y guardar cualquier propiedad de perfil de cliente que elijas, desde el nombre y la ciudad hasta la talla o los intereses preferidos. También pueden decidir cuándo escalar una conversación a un humano, siguiendo las reglas que definas en el editor de automatizaciones.
+Los agentes pueden recopilar y guardar cualquier propiedad de perfil de cliente que elijas, desde el nombre y la ciudad hasta la talla o los intereses preferidos. También pueden decidir cuándo escalar una conversación a un humano, siguiendo las reglas de derivación que definas.
 
 Y, lo más importante, cada mensaje que envían pasa por los controles de privacidad y tono de Hellotext, garantizando una voz de marca coherente y el cumplimiento normativo en todos los canales.
 
@@ -135,7 +135,7 @@ Cuando una conversación comienza, el Supervisor de Hellotext interpreta la inte
 
 Cada respuesta pasa por varios servicios antes de llegar al cliente.
 
-Tu prompt es la base sobre la que operan todos estos sistemas. Define cómo la inteligencia, la automatización y la personalidad de tu marca se unen en una experiencia coherente.
+Tu prompt es la base sobre la que operan todos estos sistemas. Define cómo la inteligencia, las reglas de negocio y la personalidad de tu marca se unen en una experiencia coherente.
 
 ## Reflexión final
 

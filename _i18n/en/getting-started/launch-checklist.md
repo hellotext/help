@@ -1,6 +1,6 @@
 Use this checklist when you are setting up Hellotext for the first time or preparing a new business to go live.
 
-The goal is to make sure your account, data, channels, captures, and first sends are ready before customers start receiving messages.
+The goal is to make sure your account, signals, channels, captures, and first playbook, route, or send are ready before customers start receiving messages.
 
 ## 1. Create and review your business
 
@@ -12,7 +12,7 @@ Keep reading: [Setting up your business]({% link _getting-started/setting-up-you
 
 ## 2. Connect your commerce platform
 
-Connect the platform where your customer, order, and product data lives. This helps Hellotext build customer profiles, understand purchase activity, and attribute results.
+Connect the platform where your customer, order, and product data lives. This helps Hellotext build customer profiles, read commerce signals, understand purchase activity, and attribute results.
 
 Start with the integration that matches your store:
 
@@ -37,7 +37,7 @@ Keep reading: [Messaging channels overview]({% link _numbers/messaging-overview.
 
 ## 4. Add at least one capture tool
 
-Before you send campaigns, make sure customers have a clear way to subscribe.
+Before you launch campaigns, playbooks, or routes, make sure customers have a clear way to subscribe.
 
 Start with the capture that matches where customers are most likely to join:
 
@@ -59,14 +59,18 @@ Keep reading:
 - [Understanding Lists and Segments]({% link _audience/lists-and-segments.md %})
 - [Better targeting using Segments]({% link _audience/segments.md %})
 
-## 6. Send a small first campaign
+## 6. Launch one focused playbook, route, or campaign
 
-Before sending broadly, create a test audience with your own number and a few teammates. Send a test campaign, review how it looks on the actual channel, and confirm links, opt-out copy, tone, and timing.
+Choose one first outcome before expanding: recover abandoned carts, follow up after purchase, answer frequent questions, collect subscribers, or send a one-time announcement.
 
-Then send to a focused audience before expanding to everyone.
+Use a prebuilt playbook when the mission is already available. Use a route when you need a predictable step-by-step flow. Use a campaign when you need a one-time send to a selected audience.
+
+Before going broad, test with your own number and a few teammates. Review how it looks on the actual channel and confirm links, opt-out copy, tone, timing, and handoff rules.
 
 Keep reading:
 
+- [Playbooks and automation overview]({% link _journeys/playbooks-overview.md %})
+- [Getting started with journeys]({% link _journeys/getting-started-with-journeys.md %})
 - [Creating a Campaign]({% link _campaigns/creating-a-campaign.md %})
 - [First launch best practices]({% link _getting-started/tips-and-best-practices.md %})
 
@@ -83,12 +87,13 @@ Keep reading:
 
 ## 8. Check the first results
 
-After your first sends, review what happened before changing too many things at once.
+After your first launch, review what happened before changing too many things at once.
 
-Look at audience growth, replies, clicks, campaign reporting, and attributed sales.
+Look at audience growth, replies, clicks, playbook activity, campaign reporting, and attributed sales.
 
 Keep reading:
 
+- [Playbooks and automation overview]({% link _journeys/playbooks-overview.md %})
 - [Campaign Reporting]({% link _analytics-reporting-attribution/campaign-reporting.md %})
 - [How we attribute sales]({% link _analytics-reporting-attribution/sales-attribution.md %})
 

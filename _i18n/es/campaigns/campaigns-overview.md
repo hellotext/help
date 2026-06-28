@@ -2,11 +2,11 @@ Usa campañas cuando quieres enviar un mensaje puntual a una audiencia seleccion
 
 Las campañas son útiles para anuncios, promociones, lanzamientos de productos, reposiciones, recordatorios de eventos y otros momentos donde el mismo mensaje debe llegar a muchos clientes a la vez.
 
-## Campañas vs. automatizaciones
+## Campañas vs. playbooks y rutas
 
 Usa una **campaña** cuando tú decides la audiencia, el mensaje y el momento de envío.
 
-Usa un **playbook o automatización** cuando Hellotext debería reaccionar automáticamente al comportamiento del cliente, como una suscripción, evento de carrito, compra o conversación de soporte.
+Usa un **playbook** cuando Hellotext debe reaccionar a señales y decidir la siguiente acción para una misión de negocio. Usa una **ruta** cuando necesitas un flujo paso a paso predecible con esperas, mensajes, condiciones y derivaciones.
 
 ## Antes de crear una campaña
 

@@ -11,7 +11,7 @@
 
 ## Summary
 
-Hellotext uses a results‑based model: you pay a **2% to 5%** performance fee on revenue attributable to campaigns, journeys, or AI agents. In the plans in this guide, Starter uses 5%, Small 4%, Grow 3%, and Pro 2.5%. Each plan has a monthly minimum (“floor”).
+Hellotext uses a results‑based model: you pay a **2% to 5%** performance fee on revenue attributable to campaigns, playbooks, routes, or AI agents. In the plans in this guide, Starter uses 5%, Small 4%, Grow 3%, and Pro 2.5%. Each plan has a monthly minimum (“floor”).
 
 **Key rule:** each month you pay only **one** line item—the highest of plan minimum, performance fee, SMS costs, or variable messaging fee (US$ 2 per 1,000). The four are never added together.
 
@@ -40,7 +40,7 @@ Channels on every plan: **WhatsApp** (Meta bills separately), **Instagram Direct
       <li><strong>WhatsApp:</strong> 1 verified line</li>
       <li><strong>Integrations:</strong> Wix, Shopify, Woo, Mercado Libre, and VTEX</li>
       <li><strong>Capture:</strong> Webchat, Popups, QR Code, and Forms</li>
-      <li><strong>Automation:</strong> Cart Saver, chatbots, and Journeys</li>
+      <li><strong>Automation:</strong> starter playbooks, route templates, and chat automation</li>
       <li><strong>Campaigns:</strong> SMS and WhatsApp</li>
       <li><strong>Reporting:</strong> basic real-time reporting</li>
       <li><strong>Profiles:</strong> unlimited customer profiles and templates</li>

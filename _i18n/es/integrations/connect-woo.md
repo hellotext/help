@@ -11,7 +11,7 @@ Las siguientes actividades se rastrean automáticamente:
 - Órdenes realizadas
 - Órdenes actualizadas
 
-Con esta información, podrás crear audiencias segmentadas y campañas promocionales mucho más efectivas.
+Con esta información, Hellotext puede construir perfiles de cliente más completos, crear segmentos, activar playbooks o rutas y medir qué ocurre después de cada mensaje.
 
 ## Descargar Plugin
 
@@ -91,8 +91,8 @@ Haz clic en *Save Changes* para guardar los cambios.
 
 ## Siguientes pasos
 
-A partir de ahora, comenzarás a ver reflejada la actividad de tus clientes desde la sección de Audiencia o desde la Bandeja.
+A partir de ahora, comenzarás a ver reflejada la actividad de tus clientes en Audiencia y en el Inbox.
 
 Podrás hacer clic en cada perfil para ver el historial de actividades que realizan en tu eCommerce.
 
-Con esta información, podrás crear segmentos para el envío de campañas y automatizaciones desde la sección Rutas.
+Usa esta actividad como señales para segmentos, playbooks, rutas, segmentación de campañas y reportes.

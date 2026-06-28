@@ -1,6 +1,6 @@
 Usa esta guía para decidir qué conectar primero cuando estás configurando Hellotext.
 
-La configuración funciona mejor cuando conectas las fuentes de datos antes de lanzar capturas, campañas o automatizaciones. Así Hellotext puede crear perfiles de cliente, registrar actividad y atribuir resultados desde el comienzo.
+La configuración funciona mejor cuando conectas las fuentes de datos antes de lanzar capturas, playbooks, rutas o campañas. Así Hellotext puede crear perfiles de cliente, convertir actividad en señales y atribuir resultados desde el comienzo.
 
 ## Orden de configuración recomendado
 
@@ -23,11 +23,11 @@ Elige la guía que corresponde a tu tienda:
 - [Conecta VTEX]({% link _integrations/connect-vtex.md %})
 - [Conecta Mercado Libre]({% link _integrations/connect-mercado-libre.md %})
 
-Después de conectar, revisa que los clientes, órdenes y actividad reciente aparezcan en Hellotext antes de crear campañas o automatizaciones basadas en esos datos.
+Después de conectar, revisa que los clientes, órdenes y actividad reciente aparezcan en Hellotext antes de crear playbooks, rutas o campañas basadas en esos datos.
 
 ### 3. Conecta WhatsApp si lo vas a usar
 
-Conecta WhatsApp antes de crear capturas, campañas o automatizaciones de WhatsApp.
+Conecta WhatsApp antes de crear capturas, playbooks, rutas o campañas de WhatsApp.
 
 Si vendes por WhatsApp, conecta primero tu plataforma de eCommerce y después conecta tu catálogo de productos a WhatsApp.
 

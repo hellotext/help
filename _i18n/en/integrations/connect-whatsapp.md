@@ -1,4 +1,4 @@
-With Hellotext you can connect a new or existing WhatsApp account to manage all your customer conversations in one place, send targeted campaigns and create automations.
+With Hellotext you can connect a new or existing WhatsApp account to manage customer conversations, run WhatsApp playbooks or routes, send targeted campaigns, and let AI agents respond when appropriate.
 
 This is a step-by-step guide to help you set up your WhatsApp account with Hellotext.
 
@@ -99,7 +99,7 @@ WhatsApp Business Account Profiles can have multiple phone numbers. You can eith
 
 #### Finish
 
-Now you have finished the integration with WhatsApp and Hellotext and you can begin sending and receiving messages from customers, create automations and send campaigns. Click on *Close*.
+Now you have finished the integration with WhatsApp and Hellotext. You can begin sending and receiving customer messages, enabling WhatsApp playbooks or routes, and sending campaigns. Click on *Close*.
 
 <img src="images/integrations/whatsapp/en/done.jpeg" alt="" width="768" />
 

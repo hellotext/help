@@ -1,6 +1,6 @@
-Use these practices with the [launch checklist]({% link _getting-started/launch-checklist.md %}) when you are preparing your first real sends.
+Use these practices with the [launch checklist]({% link _getting-started/launch-checklist.md %}) when you are preparing your first real playbook, route, or send.
 
-The goal is to learn from a controlled launch before you expand to a larger audience.
+The goal is to learn from a controlled launch before you expand to a larger audience or enable more automation.
 
 ## Start with a small audience
 
@@ -38,11 +38,11 @@ Keep reading: [Message editor overview]({% link _numbers/message-editor-overview
 
 ## Respect timing and frequency
 
-Review quiet hours, channel expectations, and frequency before launching campaigns or automations.
+Review quiet hours, channel expectations, and frequency before launching campaigns, playbooks, or routes.
 
 If an automation waits several hours before sending a message, make sure the final send time still feels reasonable for the customer.
 
-For playbooks and journeys, check the trigger, delay, audience, channel, and stopping rules before turning them on.
+For playbooks and routes, check the trigger, delay, audience, channel, and stopping rules before turning them on.
 
 Keep reading: [Playbooks and automation overview]({% link _journeys/playbooks-overview.md %}).
 
@@ -67,7 +67,7 @@ Keep reading:
 
 ## Watch the first responses
 
-After the first send, watch replies, opt-outs, failed messages, clicks, and attributed sales before changing too many settings at once.
+After the first launch, watch replies, opt-outs, failed messages, clicks, playbook decisions, handoffs, and attributed sales before changing too many settings at once.
 
 Close conversations when the interaction is finished so the Inbox stays clean and response-time metrics remain useful.
 

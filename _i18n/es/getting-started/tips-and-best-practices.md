@@ -1,6 +1,6 @@
-Usa estas prácticas junto con el [checklist de lanzamiento]({% link _getting-started/launch-checklist.md %}) cuando estés preparando tus primeros envíos reales.
+Usa estas prácticas junto con el [checklist de lanzamiento]({% link _getting-started/launch-checklist.md %}) cuando estés preparando tu primer playbook, ruta o envío real.
 
-El objetivo es aprender con un lanzamiento controlado antes de ampliar la audiencia.
+El objetivo es aprender con un lanzamiento controlado antes de ampliar la audiencia o activar más automatización.
 
 ## Empieza con una audiencia pequeña
 
@@ -38,7 +38,7 @@ Sigue leyendo: [Resumen del editor de mensajes]({% link _numbers/message-editor-
 
 ## Respeta horarios y frecuencia
 
-Revisa horarios silenciosos, expectativas del canal y frecuencia antes de lanzar campañas o automatizaciones.
+Revisa horarios silenciosos, expectativas del canal y frecuencia antes de lanzar campañas, playbooks o rutas.
 
 Si una automatización espera varias horas antes de enviar un mensaje, asegúrate de que el horario final siga siendo razonable para el cliente.
 
@@ -67,7 +67,7 @@ Sigue leyendo:
 
 ## Observa las primeras respuestas
 
-Después del primer envío, mira respuestas, bajas, mensajes fallidos, clics y ventas atribuidas antes de cambiar demasiadas configuraciones a la vez.
+Después del primer lanzamiento, mira respuestas, bajas, mensajes fallidos, clics, decisiones de playbooks, derivaciones y ventas atribuidas antes de cambiar demasiadas configuraciones a la vez.
 
 Cierra conversaciones cuando la interacción haya terminado para mantener el Inbox limpio y que las métricas de tiempo de respuesta sigan siendo útiles.
 

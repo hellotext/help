@@ -1,10 +1,10 @@
 Use the inbox to manage the conversations that need attention from your team.
 
-The inbox brings together customer replies, support questions, order follow-up, and conversations that an automation or AI agent escalates to a person.
+The inbox brings together customer replies, support questions, order follow-up, and conversations that a playbook, route, or AI agent escalates to a person.
 
 ## How conversations move through the inbox
 
-A conversation can start when a customer replies to a message, writes through a connected channel, or needs attention after an automation, order, or tracked event.
+A conversation can start when a customer replies to a message, writes through a connected channel, or needs attention after a playbook, route, order, or tracked event.
 
 Your team can keep the conversation unassigned, assign it to a teammate, reassign it to someone else, or close it when no further action is needed.
 
@@ -22,7 +22,7 @@ Keep reading: [Assign conversations]({% link _team/assigning-conversations.md %}
 
 Roles define what each teammate can see and do.
 
-Agents usually focus on conversations and customer profiles. Managers can also manage marketing and automation work. Administrators can manage broader business settings.
+Agents usually focus on conversations and customer profiles. Managers can also manage marketing, playbook, and automation work. Administrators can manage broader business settings.
 
 Keep reading: [Team roles and permissions]({% link _team/understanding-team-roles.md %}).
 

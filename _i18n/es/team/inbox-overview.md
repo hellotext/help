@@ -1,10 +1,10 @@
 Usa el inbox para gestionar las conversaciones que necesitan atención de tu equipo.
 
-El inbox reúne respuestas de clientes, preguntas de soporte, seguimiento de órdenes y conversaciones que una automatización o agente de IA deriva a una persona.
+El inbox reúne respuestas de clientes, preguntas de soporte, seguimiento de órdenes y conversaciones que un playbook, ruta o agente de IA deriva a una persona.
 
 ## Cómo se mueven las conversaciones en el inbox
 
-Una conversación puede empezar cuando un cliente responde a un mensaje, escribe por un canal conectado o necesita atención después de una automatización, orden o evento registrado.
+Una conversación puede empezar cuando un cliente responde a un mensaje, escribe por un canal conectado o necesita atención después de un playbook, ruta, orden o evento registrado.
 
 Tu equipo puede mantener la conversación sin asignar, asignarla a un colaborador, reasignarla a otra persona o cerrarla cuando no requiere más acción.
 
@@ -22,7 +22,7 @@ Sigue leyendo: [Asigna conversaciones]({% link _team/assigning-conversations.md 
 
 Los roles definen qué puede ver y hacer cada colaborador.
 
-Los agentes suelen enfocarse en conversaciones y perfiles de cliente. Los managers también pueden gestionar tareas de marketing y automatización. Los administradores pueden manejar configuraciones más amplias del negocio.
+Los agentes suelen enfocarse en conversaciones y perfiles de cliente. Los managers también pueden gestionar tareas de marketing, playbooks y automatización. Los administradores pueden manejar configuraciones más amplias del negocio.
 
 Sigue leyendo: [Roles y permisos de equipo]({% link _team/understanding-team-roles.md %}).
 

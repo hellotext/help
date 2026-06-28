@@ -10,7 +10,7 @@ The following activities are automatically tracked:
 * Completed orders
 * Updated orders
 
-With this information, you can create segmented audiences and much more effective promotional campaigns.
+With this information, Hellotext can build richer customer profiles, create segments, trigger playbooks or routes, and measure what happens after each message.
 
 ## Connect your Wix site
 
@@ -46,10 +46,10 @@ If you see your Wix site, your integration has been successfully completed.
 
 ## Next steps
 
-From now on, you will start seeing your customers' activities reflected in the Audience section or the Inbox.
+From now on, you will start seeing customer activity reflected in Audience and the Inbox.
 
 You can click on each profile to see the activity history they perform on your eCommerce site.
 
-With this information, you can create segments for campaign sending and automations from the Routes section.
+Use this activity as signals for segments, playbooks, routes, campaign targeting, and reporting.
 
 Remember to enable the **[Subscription opt-in checkbox on the checkout page]({% link _captures/wix-checkout.md %})** on your Wix site to obtain your customers' consent to receive promotions.

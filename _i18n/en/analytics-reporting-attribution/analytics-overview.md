@@ -1,8 +1,8 @@
-Use analytics and reporting to understand what happened after Hellotext sent a message, triggered an automation, or drove traffic back to your store.
+Use analytics and reporting to understand what happened after Hellotext sent a message, activated a playbook or route, or drove traffic back to your store.
 
 This section connects three related questions:
 
-- How did a campaign or automation perform?
+- How did a campaign, playbook, or route perform?
 - Which customer actions happened after the message?
 - Which revenue was attributed to Hellotext?
 
@@ -24,7 +24,7 @@ Keep reading: [Sales attribution]({% link _analytics-reporting-attribution/sales
 
 ## Tracking data
 
-Reports are stronger when Hellotext receives useful customer activity from your store, site, integrations, or API.
+Reports are stronger when Hellotext receives useful customer activity from your store, site, integrations, or API as signals.
 
 If your store is connected through a supported integration, many events may be tracked automatically. If you have a custom setup, use Hellotext.js or the API to send events.
 

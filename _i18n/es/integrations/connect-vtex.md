@@ -1,7 +1,7 @@
-Cuando conectas tu tienda VTEX a Infobip con nuestra aplicación Exchange, puedes:
+Cuando conectas tu tienda VTEX a Hellotext con nuestra aplicación Exchange, puedes:
 
-- Sincronizar los datos de tus clientes en Perfiles para que puedas contactarlos fácilmente por WhatsApp o SMS.
-- Instalar el píxel de Hellotext que rastrea la actividad de los clientes en tu sitio web y envía los datos a Hellotext para una mejor medición de ROI y KPI, ayudándote a entender el rendimiento de tus campañas.
+- Sincronizar datos de clientes en perfiles de cliente para que Hellotext pueda usarlos en segmentación, mensajería, playbooks y reportes.
+- Instalar el píxel de Hellotext para rastrear actividad de clientes en tu sitio web y convertir esa actividad en señales para atribución, recomendaciones, playbooks, campañas y medición de ROI.
 
 ### Lo que necesitarás
 
@@ -45,7 +45,7 @@ Basado en el dominio que elijas, Hellotext construirá las URLs de Productos y S
 
 #### Instalación del Pixel
 
-En este paso, se te pedirá instalar el pixel de Hellotext en tu cuenta de VTEX. Instalar el pixel desbloqueará verdaderos insights de comportamiento sobre lo que hacen tus clientes en el sitio web, incluyendo:
+En este paso, se te pedirá instalar el píxel de Hellotext en tu cuenta de VTEX. Instalar el píxel desbloquea información de comportamiento sobre lo que hacen tus clientes en el sitio web, incluyendo:
 
 - Vistas de página
 - Vistas de productos

@@ -22,7 +22,7 @@ Sigue leyendo: [Checklist de lanzamiento]({% link _getting-started/launch-checkl
 
 ## ¿Qué debería conectar primero?
 
-Conecta tu plataforma de comercio o fuente de datos antes de lanzar capturas, campañas o automatizaciones. Así Hellotext puede usar perfiles de cliente, productos, órdenes y actividad para segmentar, personalizar y atribuir resultados.
+Conecta tu plataforma de comercio o fuente de datos antes de lanzar capturas, playbooks, rutas o campañas. Así Hellotext puede usar perfiles de cliente, productos, órdenes y señales para segmentar, personalizar, decidir y atribuir resultados.
 
 Después, conecta el canal de mensajería que vas a usar primero, como WhatsApp o SMS.
 

@@ -35,7 +35,7 @@ Keep reading: [Send SMS with the API]({% link _developers/send-sms-with-api.md %
 
 Use tracking when you want Hellotext to understand actions from your site, store, backend, or custom integration.
 
-Tracked events can help you segment audiences, trigger automations, attribute revenue, and give the inbox team more context.
+Tracked events can help you segment audiences, trigger playbooks or routes, attribute revenue, and give the inbox team more context.
 
 Keep reading: [Tracking events]({% link _developers/tracking-events.md %}).
 
@@ -48,6 +48,6 @@ Keep reading: [Tracking unidentified customers]({% link _developers/tracking-uni
 ## Related guides
 
 - [External tracking]({% link _developers/external-tracking.md %})
-- [Track campaign and automation links]({% link _developers/tracking-on-campaigns-and-journeys.md %})
+- [Track campaign, route, and playbook links]({% link _developers/tracking-on-campaigns-and-journeys.md %})
 - [Setup and integrations overview]({% link _integrations/setup-overview.md %})
 - [Sales attribution]({% link _analytics-reporting-attribution/sales-attribution.md %})

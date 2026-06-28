@@ -77,7 +77,7 @@ If Hellotext explicitly hands off the conversation to a human and the sale happe
 
 For each sale we review for attribution, we aim to show the evidence behind the decision, such as:
 
-* the campaign, journey, or AI playbook that received credit,
+* the campaign, route, or AI playbook that received credit,
 * the message or event that originated the attribution,
 * whether a teammate participated,
 * whether the teammate’s participation changed attribution,

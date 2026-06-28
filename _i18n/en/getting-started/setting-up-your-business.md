@@ -45,7 +45,7 @@ New prepaid businesses can send SMS right away, but SMS may start with a tempora
 
 ## Connect your data source
 
-Connect the platform where customer, order, product, cart, and purchase activity lives. This helps Hellotext build customer profiles, personalize messages, and attribute results from the beginning.
+Connect the platform where customer, order, product, cart, and purchase activity lives. This helps Hellotext build customer profiles, read signals, personalize messages, and attribute results from the beginning.
 
 Start with the setup overview, then choose the guide that matches your store or marketplace.
 
@@ -53,7 +53,7 @@ Keep reading: [Setup and integrations overview]({% link _integrations/setup-over
 
 ## Connect your first messaging channel
 
-Before you create captures, campaigns, or automations, confirm which channel customers should use to hear from you and reply.
+Before you create captures, playbooks, routes, or campaigns, confirm which channel customers should use to hear from you and reply.
 
 Use the messaging overview to decide what to prepare for SMS, WhatsApp, and sender setup.
 
@@ -69,6 +69,6 @@ Keep reading: [Team roles and permissions]({% link _team/understanding-team-role
 
 ## Continue with launch
 
-Once account access, billing context, data, channels, and team access are ready, continue with captures, your first audience, and a small test send.
+Once account access, billing context, data, channels, and team access are ready, continue with captures, your first audience, and your first playbook, route, or small test send.
 
 Keep reading: [Launch checklist]({% link _getting-started/launch-checklist.md %}).

@@ -1,6 +1,6 @@
 Use this guide to decide what to connect first when you are setting up Hellotext.
 
-Setup works best when you connect data sources before you launch captures, campaigns, or automations. That way Hellotext can build customer profiles, track activity, and attribute results from the beginning.
+Setup works best when you connect data sources before you launch captures, playbooks, routes, or campaigns. That way Hellotext can build customer profiles, turn activity into signals, and attribute results from the beginning.
 
 ## Recommended setup order
 
@@ -23,11 +23,11 @@ Choose the guide that matches your store:
 - [Connect VTEX]({% link _integrations/connect-vtex.md %})
 - [Connect Mercado Libre]({% link _integrations/connect-mercado-libre.md %})
 
-After connecting, check that customers, orders, and recent activity are appearing in Hellotext before you build campaigns or automations from that data.
+After connecting, check that customers, orders, and recent activity are appearing in Hellotext before you build playbooks, routes, or campaigns from that data.
 
 ### 3. Connect WhatsApp if you will use it
 
-Connect WhatsApp before you create WhatsApp captures, WhatsApp campaigns, or WhatsApp automations.
+Connect WhatsApp before you create WhatsApp captures, playbooks, routes, or campaigns.
 
 If you sell through WhatsApp, connect the commerce platform first and then connect your product catalog to WhatsApp.
 

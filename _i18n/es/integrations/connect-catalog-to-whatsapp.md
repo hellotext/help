@@ -72,7 +72,7 @@ Con el catálogo listo, ahora toca conectar tu número de WhatsApp Business a He
 
 6. Completa el proceso de registro (Embedded Signup) hasta el final.
 
-Cuando termines, Hellotext comenzará a sincronizar tus productos automáticamente. A partir de ese momento podrás utilizarlos en tus Playbooks, campañas, conversaciones del Inbox y respuestas automáticas de tus agentes de IA.
+Cuando termines, Hellotext comenzará a sincronizar tus productos automáticamente. A partir de ese momento podrás utilizarlos en playbooks, campañas, conversaciones del Inbox, agentes de IA y recomendaciones de producto.
 
 ## ¿Qué puedes esperar después?
 
@@ -81,4 +81,4 @@ Una vez que el catálogo está conectado:
 * Tus clientes podrán ver productos y añadirlos al carrito directamente dentro de WhatsApp.
 * Podrán pagar sin abandonar la conversación.
 * El checkout utilizado será el de tu tienda, y cada pago generará una orden real en Shopify, VTEX, WooCommerce o la plataforma que tengas conectada.
-* Podrás aprovechar el catálogo en todas las funciones de Hellotext que lo requieren: Playbooks, campañas, agentes IA, recomendaciones automáticas, etc.
+* Podrás aprovechar el catálogo en todas las funciones de Hellotext que lo requieren: playbooks, campañas, agentes de IA, recomendaciones automáticas, etc.

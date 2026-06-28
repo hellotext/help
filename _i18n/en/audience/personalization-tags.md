@@ -1,5 +1,5 @@
 The message editor is the input you use when writing a message. It is present in
-various places around the platform, such as campaigns, journeys, playbooks, and the inbox.
+various places around the platform, such as campaigns, routes, playbooks, and the inbox.
 
 It provides built-in features that let you enrich messages with dynamic content, images, and links.
 

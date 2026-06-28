@@ -1,4 +1,4 @@
-Use the message editor whenever you write content for Hellotext conversations, campaigns, journeys, and playbooks.
+Use the message editor whenever you write content for Hellotext conversations, campaigns, routes, and playbooks.
 
 The editor helps you create messages that are clear, trackable, and personalized for each customer profile.
 
@@ -17,7 +17,7 @@ You may see the editor in places such as:
 
 - The inbox, when replying to a customer.
 - Campaigns and broadcasts, when creating a one-time send.
-- Journeys and playbooks, when writing automated messages.
+- Routes and playbooks, when writing automated messages.
 
 Available tools can vary by channel. For example, SMS supports text and links, while WhatsApp can support richer message types such as locations.
 

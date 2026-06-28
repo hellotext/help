@@ -7,7 +7,7 @@
 
 Hellotext genera enlaces cortos que se utilizan para hacer tracking de la actividad del cliente después de que hace clic desde un mensaje.
 
-Con los enlaces cortos, puedes saber qué campaña, ruta o playbook envió el mensaje al cliente, cuándo hizo clic en el enlace corto y a dónde fue redirigido.
+Con los enlaces cortos, puedes saber qué campaña, ruta, playbook o conversación del Inbox envió el mensaje al cliente, cuándo hizo clic en el enlace corto y a dónde fue redirigido.
 
 Por defecto, Hellotext genera enlaces cortos utilizando el dominio `hello.link`. Los enlaces cortos se mostrarán en el siguiente formato al enviar a los clientes: `hello.link/XXXXXX`.
 

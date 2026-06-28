@@ -1,18 +1,18 @@
-Use playbooks and automations when Hellotext should react to customer behavior without someone on your team manually sending every message.
+Use playbooks and automations when Hellotext should read customer signals, decide what to do next, and act without someone on your team manually sending every message.
 
 A playbook is a repeatable system trained for a business mission. It reads signals, decides what should happen for each customer, and acts through the right channel within the limits you set.
 
-A playbook can be a journey, a campaign, a capture, or an AI agent depending on the job it performs.
+A playbook can be an autonomous mission, an AI agent, a journey route, a campaign, or a capture depending on the job it performs.
 
 Signals can include carts, browsing activity, purchases, stock changes, birthdays, replies, customer profile properties, and channel eligibility.
 
 ## Choose the right playbook type
 
-Use a **journey** when you need a multi-step customer flow with a trigger, messages, waits, conditions, branches, and handoffs. Cart Saver and Journey Builder are examples of journey playbooks.
-
 Use a **prebuilt playbook** when the goal is common and the recommended mission already fits your business. This is usually the fastest way to launch.
 
-Use an **AI agent** when the experience needs to respond conversationally, use product or policy knowledge, recommend items, collect customer information, or decide when to escalate.
+Use an **AI playbook or AI agent** when the experience needs to respond conversationally, use product or policy knowledge, recommend items, answer frequent questions, collect customer information, or decide when to escalate.
+
+Use a **journey route** when you need a multi-step customer flow with a trigger, messages, waits, conditions, branches, and handoffs. A basic abandoned-cart follow-up can be a route template; an AI abandoned-cart playbook can make more dynamic decisions based on signals and customer context.
 
 Use a **campaign** when you want a one-time send to a selected audience, and a **capture** when the goal is to collect subscribers or customer data.
 
@@ -20,7 +20,7 @@ Use a **campaign** when you want a one-time send to a selected audience, and a *
 
 Confirm that the data and channels it depends on are ready.
 
-For commerce playbooks, make sure your store integration is connected and recent activity appears on customer profiles.
+For commerce playbooks, make sure your store integration is connected and recent activity appears on customer profiles as usable signals.
 
 For WhatsApp playbooks, make sure WhatsApp is connected and approved before sending customers into the flow.
 
@@ -34,7 +34,7 @@ For SMS playbooks, make sure your account has an active sender or short code ava
 - Wait steps give customers enough time before the next follow-up.
 - Conditions and branches send people down the right path.
 - Coupons, links, tags, and product recommendations are working.
-- Human handoff rules are clear when a conversation should leave the journey or agent.
+- Human handoff rules are clear when a conversation should leave the route or agent.
 - Frequency, consent, and quiet-hour limits are clear so playbooks do not compete for the same customer.
 
 ## Keep improving after launch

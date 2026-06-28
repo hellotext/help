@@ -22,7 +22,7 @@ Keep reading: [Launch checklist]({% link _getting-started/launch-checklist.md %}
 
 ## What should I connect first?
 
-Connect your commerce platform or data source before launching captures, campaigns, or automations. That gives Hellotext the customer profiles, products, orders, and activity needed for targeting, personalization, and attribution.
+Connect your commerce platform or data source before launching captures, playbooks, routes, or campaigns. That gives Hellotext the customer profiles, products, orders, and signals needed for targeting, personalization, decisions, and attribution.
 
 After that, connect the messaging channel you plan to use first, such as WhatsApp or SMS.
 

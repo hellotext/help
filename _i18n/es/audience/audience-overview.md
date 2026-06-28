@@ -22,13 +22,13 @@ Los datos de audiencia pueden ayudarte a:
 
 - Segmentar campañas y broadcasts.
 - Personalizar mensajes con propiedades de perfil.
-- Disparar o ramificar automatizaciones.
+- Disparar playbooks o ramificar rutas.
 - Entender comportamiento de compra e interés en productos.
 - Dar más contexto al equipo de inbox antes de responder.
 
 ## Antes de enviar a una audiencia
 
-Antes de lanzar una campaña o automatización, revisa:
+Antes de lanzar una campaña, playbook o ruta, revisa:
 
 - La audiencia coincide con el mensaje.
 - Los perfiles de cliente tienen consentimiento para el canal.

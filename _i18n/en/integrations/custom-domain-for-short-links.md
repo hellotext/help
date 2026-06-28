@@ -7,7 +7,7 @@
 
 Hellotext generates short links that are used to track customer activity after they click from a message.
 
-With short links, you can know which campaign, journey, or playbook sent the message to the customer, when they clicked the short link, and where they were redirected.
+With short links, you can know which campaign, route, playbook, or Inbox conversation sent the message to the customer, when they clicked the short link, and where they were redirected.
 
 By default, Hellotext generates Short Links using the domain `hello.link`.
 
