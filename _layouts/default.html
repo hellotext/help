@@ -15,7 +15,22 @@
       <div class="container header-search">
         <div class="caption">{% t help_center %}</div>
         <h1 class="big-title">{% t how_can_we_help %}</h1>
-        <div class="container-input">
+        <div class="container-input search-container" data-search data-search-url="{{ site.baseurl }}/search.json" data-search-empty="{% t search_empty %}">
+          <label class="sr-only" for="search-input">{% t search %}</label>
+          <input
+            class="search-input large"
+            id="search-input"
+            type="search"
+            name="q"
+            placeholder="{% t search_placeholder %}"
+            autocomplete="off"
+            role="combobox"
+            aria-autocomplete="list"
+            aria-expanded="false"
+            aria-controls="search-results"
+            data-search-input
+          >
+          <div class="search-results" id="search-results" role="listbox" data-search-results hidden></div>
         </div>
       </div>
     </header>
@@ -48,5 +63,6 @@
       </div>
     </section>
     {% include footer.html %}
+    <script src="/js/search.js" defer></script>
   </body>
 </html>

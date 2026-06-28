@@ -178,8 +178,12 @@ body > header {
     @apply w-full z-10;
   }
 
+  .search-container {
+    @apply relative z-30;
+  }
+
   .search-input {
-    @apply rounded-lg py-2 pr-3 pl-12 text-lg font-medium cursor-pointer outline-none;
+    @apply rounded-lg py-2 pr-3 pl-12 text-lg font-medium text-night cursor-pointer outline-none;
     /* border focus:default-focus transition duration-100 text-base hover:border-night-20 transition duration-100; */
     background-image: url("/images/icons/search.svg");
     background-size: 16px;
@@ -192,6 +196,65 @@ body > header {
     background-size: 24px;
     background-position: 36px center;
     max-width: 768px;
+  }
+
+  .search-input::placeholder {
+    @apply text-night-40;
+  }
+
+  .search-input::-webkit-search-cancel-button {
+    @apply cursor-pointer;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    margin-left: 12px;
+    background-color: var(--night-60);
+    -webkit-mask: url("/images/icons/close.svg") center / 18px 18px no-repeat;
+    mask: url("/images/icons/close.svg") center / 18px 18px no-repeat;
+  }
+
+  .search-results {
+    @apply absolute left-1/2 top-full z-20 mt-3 w-full max-w-3xl -translate-x-1/2 overflow-hidden rounded-xl bg-white text-left ring-1 ring-night-10;
+    box-shadow: 0 24px 64px rgba(23, 3, 55, 0.18), 0 8px 20px rgba(23, 3, 55, 0.12);
+  }
+
+  .search-result {
+    @apply block border-b border-night-5 px-5 py-4 text-night transition hover:bg-night-5;
+  }
+
+  .search-results-keyboard .search-result:hover:not(.search-result-selected) {
+    @apply bg-white;
+  }
+
+  .search-result-selected {
+    @apply bg-night-5;
+  }
+
+  .search-result:last-child {
+    @apply border-b-0;
+  }
+
+  .search-result-topic,
+  .search-result-title,
+  .search-result-description {
+    @apply block;
+  }
+
+  .search-result-topic {
+    @apply mb-1 text-xs font-medium uppercase text-tiger;
+  }
+
+  .search-result-title {
+    @apply text-lg font-medium;
+  }
+
+  .search-result-description {
+    @apply mt-1 text-sm text-night-60;
+  }
+
+  .search-empty {
+    @apply px-5 py-4 text-center text-night-60;
   }
 
 }

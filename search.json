@@ -1,0 +1,18 @@
+---
+layout: null
+permalink: /search.json
+languages: ["en", "es"]
+---
+[
+  {% assign guides = site.documents | where: "layout", "guide" | where: "languages", site.lang %}
+  {% for guide in guides %}
+    {% assign topic = site.topics | where: "permalink", guide.topic | first %}
+    {
+      "title": {{ guide[site.lang].title | jsonify }},
+      "description": {{ guide[site.lang].description | jsonify }},
+      "topic": {{ site.translations[site.lang][guide.topic].title | jsonify }},
+      "url": {{ site.baseurl | append: guide.url | jsonify }},
+      "content": {{ guide.content | strip_html | normalize_whitespace | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
