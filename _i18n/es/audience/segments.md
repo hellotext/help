@@ -17,7 +17,7 @@ Estas son las propiedades de tus suscriptores. Puede proporcionar esta informaci
 * **Ubicación**: Puedes especificar ciudades, regiones o países.
 * **Dispositivo**: si se suscribe a través de una captura web como un pop-up o si se hace clic en un enlace corto o incluso si el tracker está instalado en tu sitio web y el suscriptor está asociado a la sesión, es posible segmentar por el tipo de dispositivo con el que haya accedido (computadora de escritorio, móvil, tableta), marca del dispositivo o sistema operativo.
 * **Operador móvil**
-* **Método de suscripción**: Cómo se suscribieron a tu lista: mediante palabra clave, código corto o número de teléfono, código QR o captura.
+* **Origen de suscripción**: Cómo se suscribieron, por ejemplo código QR, link compartible, formulario, opt-in en checkout, captura, canal o código corto.
 * **Propiedades personalizadas**: cualquier propiedad personalizada definida que hayas creado previamente.
 
 ### Actividad del suscriptor
@@ -28,7 +28,7 @@ Algunas acciones, como cuando se hace clic en un enlace corto, se rastrean autom
 
 Algunos ejemplos de actividades que puedes utilizar en segmentos:
 
-* **Hizo clic en un enlace corto**: cuando un suscriptor hizo clic en un enlace corto de una campaña de mensajes de texto enviada.
+* **Hizo clic en un enlace corto**: cuando un suscriptor hizo clic en un enlace corto de una campaña enviada.
 * **Visualizó un producto o visitó una página**
 * **Artículos agregados al carrito**
 * **Comprar un producto**
@@ -63,7 +63,7 @@ Puede tomar unos segundos actualizar el segmento y reflejar los nuevos cambios.
 
 ## Eliminando un segmento
 
-Eliminar un segmento solo elimina el segmento en sí y no elimina los contactos que pueda contener.
+Eliminar un segmento solo elimina el segmento en sí y no elimina los perfiles de cliente que pueda contener.
 
 Desde la sección *Audiencia* y en el área izquierda de la página, posiciónate sobre el título del segmento que deseas eliminar.
 

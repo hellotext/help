@@ -67,7 +67,7 @@ Todo pasa además por Guardrails que revisan tono y cumplimiento y por STO (Send
 
 STO es una de las inteligencias más potentes de Hellotext.
 
-Analiza hábitos de apertura y respuesta de cada contacto y selecciona una ventana de 30 minutos en la que la probabilidad de conversión es mayor.
+Analiza hábitos de apertura y respuesta de cada perfil de cliente y selecciona una ventana de 30 minutos en la que la probabilidad de conversión es mayor.
 
 Puedes programar tus envíos o dejar que STO los distribuya automáticamente para alcanzar el máximo rendimiento. 
 
@@ -133,9 +133,9 @@ Depende del plan:
 * **Small:** 6 meses
 * **Grow / Pro / Enterprise:** historial completo bajo política de retención.
 
-## ¿Cómo capturo y actualizo mis contactos?
+## ¿Cómo capturo y actualizo perfiles de cliente?
 
-Puedes importar listas (CSV o integraciones) y generar nuevos contactos con widgets, links o códigos QR.
+Puedes importar listas (CSV o integraciones) y generar nuevos perfiles de cliente con widgets, links o códigos QR.
 
 Hellotext también enriquece automáticamente los perfiles con datos conversacionales: talla, preferencias, ubicación, etc.
 De esta forma, cada mensaje se vuelve más relevante y humano.  

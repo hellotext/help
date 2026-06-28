@@ -1,4 +1,4 @@
-As your business starts growing the list of contacts and subscribers, you will likely want to learn how to organize and segment them in ways that will make it easier to reach them.
+As your business starts growing its customer profiles and subscribers, you will likely want to learn how to organize and segment them in ways that will make it easier to reach them.
 
 Hellotext provides two easy ways to organize your subscribers: lists and segments.
 
@@ -6,15 +6,15 @@ In this guide you will learn the differences between the simple concept of lists
 
 ## Lists
 
-Lists are the simplest way to organize contacts and subscribers. 
+Lists are the simplest way to organize customer profiles and subscribers.
 
-They are a convenient way to group contacts together and are ideal when you are just starting with a few contacts and managing them manually is not a problem.
+They are a convenient way to group customer profiles together and are ideal when you are just starting with a small audience and managing it manually is not a problem.
 
-More on **[Lists](/lists)**.
+More on **[Create and manage lists]({% link _audience/lists.md %})**.
 
 ## Segments
 
-As the number of contacts starts to grow you may find it difficult to organize them manually. To make this easier and really take your audience targeting to its next stage, we recommend using Segments.
+As the number of customer profiles starts to grow, you may find it difficult to organize them manually. To make this easier and really take your audience targeting to its next stage, we recommend using Segments.
 
 Segments leverage all the recorded events performed by your audience and let you create automatically updated lists of subscribers based on who they are and what they do.
 
@@ -35,4 +35,4 @@ Segments are updated in real-time and always contain those subscribers matching 
 
 We recommend using Segments for building the specific demographics that you want to reach in your promotional campaigns. 
 
-More on **[Segments](/segments)**.
+More on **[Build segments]({% link _audience/segments.md %})**.

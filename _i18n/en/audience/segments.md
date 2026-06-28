@@ -17,7 +17,7 @@ These are the properties of your subscribers. You can provide this information u
 * **Location**: Select cities, entire regions or countries.
 * **Device**: If subscribed via a web capture such as a pop-up or if clicked on a short link or the tracker is installed on your website and the subscriber is associated to the session it is possible to target by kind of device (desktop, mobile, tablet), device brand, OS.
 * **Mobile operator**
-* **Subscription method**: How they subscribed to your list: keyword, short code or phone number, QR code or capture.
+* **Subscription source**: How they subscribed, such as QR code, shareable link, form, checkout opt-in, capture, channel, or short code.
 * **Custom properties**: Any custom defined property that you previously created.
 
 ### Subscriber's Activity
@@ -28,7 +28,7 @@ Some actions like when a short link is clicked as automatically tracked as event
 
 Some examples of activities you can use for segmentation:
 
-* **Clicked on a short link**: When a subscriber clicked a short link from a message campaign you have sent. 
+* **Clicked on a short link**: When a subscriber clicked a short link from a message campaign you have sent.
 * **Viewed a product or visited a page** 
 * **Added items to the cart**
 * **Purchased a product**
@@ -63,7 +63,7 @@ It can take a few seconds to refresh the segment and reflect your new changes.
 
 ## Removing a segment
 
-Removing a segment only removes the segment itself and does not delete the contacts that it may contain.
+Removing a segment only removes the segment itself and does not delete the customer profiles that it may contain.
 
 From the *Audience* section simply move the mouse over the segment title that you want to remove on the left side.
 
@@ -74,4 +74,3 @@ Click on the trash icon near the bottom right area of the pane.
 A confirmation dialog will ask you to confirm the segment deletion.
 
 Click on *Delete* to confirm the action.
-

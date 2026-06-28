@@ -1,6 +1,6 @@
-Aprende a crear campañas de mensajes de texto dirigidas a tu audiencia con comunicaciones y promociones que generen más ingresos y atención hacia tu marca.
+Aprende a crear campañas dirigidas a tu audiencia con comunicaciones y promociones que generen más ingresos y atención hacia tu marca.
 
-Las campañas de mensajes de texto son una de las formas más efectivas de captar la atención de tus clientes, con mensajes cortos y cautivadores que la mayoría de tus destinatarios leerán casi de inmediato.
+Las campañas son una de las formas más efectivas de captar la atención de tus clientes con mensajes cortos y relevantes en el momento correcto.
 
 Son especialmente efectivos para aumentar las ventas o generar anticipación. Las posibilidades que brindan los mensajes de texto para desbloquear nuevas oportunidades de ingresos son prácticamente infinitas, en especial cuando forman parte de la estrategia habitual de comunicación y promoción de tu negocio.
 
@@ -32,11 +32,13 @@ Para que una audiencia permanezca excluida, su etiqueta debe decir *Excluir*.
 
 Tómate tu tiempo para pensar en un buen mensaje. Imagínate a ti mismo como el destinatario. ¿Cómo te sentirías al recibir este mensaje de texto?
 
-Por lo general, los mensajes cortos y efectivos funcionan mejor que aquellos más largos. Tu campaña se enviará en formato SMS. Los SMS tienen un límite de 160 caracteres. Si incluyes caracteres que originalmente no se admiten en la especificación GSM-7 (como acentos y emojis), se realizará una conversión de codificación a UCS-2 y la longitud total por mensaje SMS se reducirá a 80 caracteres.
+Por lo general, los mensajes cortos y efectivos funcionan mejor que aquellos más largos.
 
-Si tu mensaje excede este límite, se requerirá un SMS adicional. Siempre que sea posible, tratamos de fusionar diferentes SMS en un solo mensaje y, cuando esto no sea posible, el mensaje se enviará en mensajes SMS separados.
+Si tu campaña usa SMS, ten en cuenta la longitud del mensaje. Los SMS tienen un límite de 160 caracteres. Si incluyes caracteres que originalmente no se admiten en la especificación GSM-7, como acentos y emojis, se realizará una conversión de codificación a UCS-2 y la longitud total por mensaje SMS se reducirá a 80 caracteres.
 
-Un contador con los caracteres de SMS restantes y la cantidad de mensajes SMS que esta campaña consumirá por suscriptor siempre está disponible en el área inferior derecha de la redacción.
+Si tu mensaje SMS excede este límite, se requerirá un SMS adicional. Siempre que sea posible, Hellotext intenta fusionar diferentes SMS en un solo mensaje y, cuando esto no sea posible, el mensaje se enviará en mensajes SMS separados.
+
+Un contador con los caracteres de SMS restantes y la cantidad de mensajes SMS que esta campaña consumirá por suscriptor estará disponible en el área de redacción cuando aplique SMS.
 
 Una vista previa del mensaje está disponible en el lado derecho de la página. Puede ayudar a darte una idea de cómo se vería el mensaje cuando se divide en diferentes SMS.
 
@@ -56,7 +58,7 @@ Para que esto funcione, debes haber instalado previamente el rastreador *Hellote
 
 Haz que tus mensajes sean más personales haciendo referencia a las propiedades del suscriptor. Por ejemplo, mostrar su nombre usando la etiqueta _{name}_. El mensaje entregado reemplazará la etiqueta con el nombre del suscriptor.
 
-Puedes encontrar etiquetas para todas sus propiedades de contacto, como:
+Puedes encontrar etiquetas para todas las propiedades del perfil de cliente, como:
 
 * *{name}*
 * *{last_name}*
@@ -82,11 +84,15 @@ Para un suscriptor sin su nombre se enviará como:
 
 Puedes hacer referencia a cupones ya creados. Hacer referencia a los cupones en lugar de escribirlos manualmente te brinda mejores informes y comprensión del impacto que tuvieron en los resultados de tu campaña.
 
-### Elegir remitente
+### Elegir canal y remitente
 
-Los mensajes se envían utilizando las mejores rutas posibles. Hellotext lo gestiona automáticamente, así que no tienes que preocuparte de esto.
+Elige el canal y remitente que correspondan a la audiencia y objetivo de la campaña.
 
-Aún así, puedes especificar cualquiera de los números de teléfono que tengas asociado como el remitente, incluido cualquier código corto que puedas haber asociado.
+Para campañas SMS, asegúrate de que tu cuenta tenga un remitente activo o código corto disponible antes de lanzar.
+
+Para campañas de WhatsApp, asegúrate de que tu cuenta de WhatsApp esté conectada y lista antes de enviar.
+
+Sigue leyendo: **[Resumen de canales de mensajería]({% link _numbers/messaging-overview.md %})**.
 
 ## Programar y entregar
 

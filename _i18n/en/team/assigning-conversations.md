@@ -24,7 +24,7 @@ Click on the three dots near the top right of the conversation, select *Assign* 
 
 This conversation will now appear on the team member's Inbox.
 
-### Closing conversation
+### Close a conversation
 
 When conversations no longer require any further action they can simply be marked as completed (also referred to as closed). This will simply archive the conversation from the Inbox.
 

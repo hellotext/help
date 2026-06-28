@@ -67,7 +67,7 @@ Everything also passes through Guardrails for tone and compliance, and through S
 
 STO is one of Hellotext’s most powerful intelligences.
 
-It analyzes each contact’s open and response habits and selects a 30-minute window where the conversion probability is highest.
+It analyzes each customer profile's open and response habits and selects a 30-minute window where the conversion probability is highest.
 
 You can schedule your sends or let STO distribute them automatically for maximum performance.
 
@@ -133,9 +133,9 @@ Depends on the plan:
 * **Small:** 6 months
 * **Grow / Pro / Enterprise:** full history under retention policy.
 
-## How do I capture and update my contacts?
+## How do I capture and update customer profiles?
 
-You can import lists (CSV or integrations) and generate new contacts with widgets, links, or QR codes.
+You can import lists (CSV or integrations) and generate new customer profiles with widgets, links, or QR codes.
 
 Hellotext also automatically enriches profiles with conversational data such as size, preferences, or location — making every message more relevant and human.
 

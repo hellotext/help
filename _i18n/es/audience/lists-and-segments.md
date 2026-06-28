@@ -1,4 +1,4 @@
-A medida que tu empresa comience a crecer la lista de contactos y suscriptores, también querrás comenzar a organizarlos y segmentarlos de manera que sea más fácil llegar a ellos.
+A medida que tu empresa comience a crecer sus perfiles de cliente y suscriptores, también querrás comenzar a organizarlos y segmentarlos de manera que sea más fácil llegar a ellos.
 
 Hellotext proporciona dos formas sencillas de organizar a tus suscriptores: listas y segmentos.
 
@@ -6,15 +6,15 @@ En esta guía aprenderás las diferencias entre el concepto más sencillo de lis
 
 ## Listas
 
-Las listas son la forma más sencilla de organizar contactos y suscriptores.
+Las listas son la forma más sencilla de organizar perfiles de cliente y suscriptores.
 
-Son una forma conveniente de agrupar contactos y es ideal cuando comienzas con unos pocos contactos y administrarlos manualmente no es un problema.
+Son una forma conveniente de agrupar perfiles de cliente y son ideales cuando comienzas con una audiencia pequeña y administrarla manualmente no es un problema.
 
-Más información sobre **[Listas](/es/listas)**.
+Más información sobre **[Crea y gestiona listas]({% link _audience/lists.md %})**.
 
 ## Segmentos
 
-A medida que la cantidad de contactos comience a crecer, es posible que te resulte difícil organizarlos manualmente. Para simplificar esta tarea y para realmente llevar la segmentación de tu audiencia al siguiente nivel, recomendamos usar Segmentos.
+A medida que la cantidad de perfiles de cliente comience a crecer, es posible que te resulte difícil organizarlos manualmente. Para simplificar esta tarea y para realmente llevar la segmentación de tu audiencia al siguiente nivel, recomendamos usar Segmentos.
 
 Los segmentos aprovechan todos los eventos realizados por tu audiencia y permiten crear listas de suscriptores actualizadas automáticamente en función de quiénes son y qué hacen.
 
@@ -35,4 +35,4 @@ Los segmentos se actualizan en tiempo real y siempre contienen aquellos suscript
 
 Recomendamos utilizar Segmentos para crear las demografías a las que deseas llegar en tus campañas promocionales.
 
-Más información sobre **[Segmentos](/es/segmentos)**.
+Más información sobre **[Crea segmentos]({% link _audience/segments.md %})**.

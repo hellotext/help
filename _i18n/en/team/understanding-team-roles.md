@@ -8,7 +8,7 @@ This is the role with the least amount of privileges.
 
 Ideal for agents who will be mostly taking care of conversations.
 
-* Can manage conversations and contacts.
+* Can manage conversations and customer profiles.
 
 ### Manager
 
@@ -16,7 +16,7 @@ This is a role ideal for those who perform marketing activities or have agents i
 
 * Can manage campaigns and see their reports.
 * Can manage captures.
-* Can manage journeys.
+* Can manage playbooks and automations.
 * Can do everything agents do. 
 
 ### Administrator

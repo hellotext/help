@@ -24,6 +24,6 @@ Si lo deseas, también puedes marcar la casilla *Marcada de forma predeterminada
 
 ¡Listo! A partir de ahora, tus usuarios podrán darte el consentimiento para recibir futuras promociones. 
 
-En Hellotext, verás que los perfiles de clientes con consentimiento aparecerán como *Suscritos* en verde.
+En Hellotext, verás que los perfiles de cliente con consentimiento aparecerán como *Suscritos* en verde.
 
 <img src="images/captures/wix/es/profile-subscribed.jpeg" alt="" width="250" />

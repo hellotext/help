@@ -1,6 +1,6 @@
 Usa esta guía para decidir qué conectar primero cuando estás configurando Hellotext.
 
-La configuración funciona mejor cuando conectas las fuentes de datos antes de lanzar capturas, campañas o automatizaciones. Así Hellotext puede crear perfiles de clientes, registrar actividad y atribuir resultados desde el comienzo.
+La configuración funciona mejor cuando conectas las fuentes de datos antes de lanzar capturas, campañas o automatizaciones. Así Hellotext puede crear perfiles de cliente, registrar actividad y atribuir resultados desde el comienzo.
 
 ## Orden de configuración recomendado
 

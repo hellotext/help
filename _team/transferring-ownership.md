@@ -2,11 +2,11 @@
 languages: ["en", "es"]
 
 en:
-  title: Transferring ownership
+  title: Transfer business ownership
   description: Learn how to transfer the ownership of the business to another user account.
 
 es:
-  title: Transfiriendo el negocio
+  title: Transfiere la propiedad del negocio
   description: Aprende a transferir tu negocio en Hellotext a otra cuenta de usuario.
 
 permalink: transferring-ownership

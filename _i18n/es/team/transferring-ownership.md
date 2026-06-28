@@ -4,7 +4,7 @@ Esta es una acción que solo puede ser iniciada por la cuenta de usuario que act
 
 Transferir el negocio a otra cuenta de usuario significa que ya no podrás controlar esta cuenta y el nuevo propietario también puede eliminarte como miembro del equipo del negocio.
 
-El nuevo propietario debe ser un miembro existente del equipo del negocio. Si aún no es miembro, puede invitarlo a crear una cuenta y luego de que se una al negocio, será posible iniciar la transferencia del negocio.
+El nuevo propietario debe ser un miembro existente del equipo del negocio. Si aún no es miembro, puedes invitarlo a crear una cuenta y, después de que se una al negocio, será posible iniciar la transferencia del negocio.
 
 ## Transferencia del negocio
 

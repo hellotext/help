@@ -52,7 +52,7 @@ Keep reading: [Capture tools overview]({% link _captures/capture-overview.md %})
 
 Create or review the audience you will contact first.
 
-Use lists when you need a fixed group of contacts. Use segments when you want Hellotext to update the audience automatically based on customer data or behavior.
+Use lists when you need a fixed group of customer profiles. Use segments when you want Hellotext to update the audience automatically based on customer data or behavior.
 
 Keep reading:
 

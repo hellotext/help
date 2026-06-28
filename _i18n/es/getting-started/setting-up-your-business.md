@@ -32,7 +32,7 @@ Los negocios prepago nuevos pueden enviar SMS desde el inicio, pero el envío po
 
 Ahora que la cuenta de negocio está lista, comienza conectando tus plataformas de eCommerce.
 
-Conectar tu eCommerce hace que sea más fácil comenzar a construir perfiles de clientes con su historial completo de actividad en tiempo real.
+Conectar tu eCommerce hace que sea más fácil comenzar a construir perfiles de cliente con su historial completo de actividad en tiempo real.
 
 ## Enviar una campaña
 

@@ -69,10 +69,16 @@ collections:
     output: true
   campaigns:
     order:
+      - campaigns-overview.md
       - creating-a-campaign.md
       - campaign-reporting.md
     output: true
   audience:
+    order:
+      - audience-overview.md
+      - lists-and-segments.md
+      - lists.md
+      - segments.md
     output: true
   numbers:
     order:
@@ -81,9 +87,10 @@ collections:
     output: true
   team:
     order:
-      - understanding-team-roles.md
+      - inbox-overview.md
       - assigning-conversations.md
       - understanding-response-times.md
+      - understanding-team-roles.md
       - transferring-ownership.md
     output: true
   getting-started:

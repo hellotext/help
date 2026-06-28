@@ -2,10 +2,10 @@
 languages: ["en", "es"]
 
 en:
-  title: Better targeting using Segments
+  title: Build segments
   description: Take your audience segmentation to the next level using Segments.
 es:
-  title: Llega mejor a tu audiencia con Segmentos
+  title: Crea segmentos
   description: Lleva la segmentación de tu audiencia al siguiente nivel usando Segmentos.
 
 permalink: segments

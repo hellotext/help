@@ -12,7 +12,7 @@ Sigue leyendo: [Comenzando con tu negocio]({% link _getting-started/setting-up-y
 
 ## 2. Conecta tu plataforma de comercio
 
-Conecta la plataforma donde viven tus datos de clientes, pedidos y productos. Esto ayuda a Hellotext a crear perfiles de clientes, entender la actividad de compra y atribuir resultados.
+Conecta la plataforma donde viven tus datos de clientes, pedidos y productos. Esto ayuda a Hellotext a crear perfiles de cliente, entender la actividad de compra y atribuir resultados.
 
 Empieza por la integración que corresponda a tu tienda:
 
@@ -52,7 +52,7 @@ Sigue leyendo: [Resumen de herramientas de captura]({% link _captures/capture-ov
 
 Crea o revisa la audiencia a la que vas a contactar primero.
 
-Usa listas cuando necesites un grupo fijo de contactos. Usa segmentos cuando quieras que Hellotext actualice la audiencia automáticamente según datos o comportamiento del cliente.
+Usa listas cuando necesites un grupo fijo de perfiles de cliente. Usa segmentos cuando quieras que Hellotext actualice la audiencia automáticamente según datos o comportamiento del cliente.
 
 Sigue leyendo:
 

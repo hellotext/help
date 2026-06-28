@@ -14,7 +14,7 @@ Usa un **agente de IA** cuando la experiencia necesita responder conversacionalm
 
 Confirma que los datos y canales de los que depende estén listos.
 
-Para playbooks de eCommerce, asegúrate de que la integración de tu tienda esté conectada y que la actividad reciente aparezca en los perfiles de clientes.
+Para playbooks de eCommerce, asegúrate de que la integración de tu tienda esté conectada y que la actividad reciente aparezca en los perfiles de cliente.
 
 Para playbooks de WhatsApp, asegúrate de que WhatsApp esté conectado y aprobado antes de enviar clientes al flujo.
 

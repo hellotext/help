@@ -6,7 +6,7 @@ If your business is still being reviewed, you can send up to 50 SMS messages eve
 
 SMS carriers and recipients respond better to businesses that send relevant, expected messages. The temporary limit gives Hellotext time to review the quality of your sends, including things like:
 
-- Whether contacts have a clear reason to receive your messages.
+- Whether customer profiles have a clear reason to receive your messages.
 - Whether the content matches your business and the customer relationship.
 - Whether messages avoid spammy, misleading, or unusually high-volume patterns.
 - Whether your sending behavior keeps opt-outs and complaints low.

@@ -6,7 +6,7 @@ Si tu negocio aún está en revisión, puedes enviar hasta 50 SMS cada 24 horas.
 
 Los carriers y los destinatarios responden mejor a negocios que envían mensajes relevantes y esperados. El límite temporal le da tiempo a Hellotext para revisar la calidad de tus envíos, incluyendo aspectos como:
 
-- Si los contactos tienen una razón clara para recibir tus mensajes.
+- Si los perfiles de cliente tienen una razón clara para recibir tus mensajes.
 - Si el contenido coincide con tu negocio y la relación con el cliente.
 - Si los mensajes evitan patrones spammy, confusos o de volumen inusual.
 - Si tus envíos mantienen bajas las bajas y quejas.
