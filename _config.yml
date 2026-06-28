@@ -66,7 +66,6 @@ collections:
       - billing.html
       - developers.html
       - troubleshooting-deliverability.html
-      - editor.html
     output: true
   campaigns:
     order:
@@ -84,10 +83,14 @@ collections:
   analytics-reporting-attribution:
     order:
       - analytics-overview.md
+      - tracked-links.md
     output: true
   numbers:
     order:
       - messaging-overview.md
+      - message-editor-overview.md
+      - message-editor-basics.md
+      - share-a-location.md
       - obtaining-an-exclusive-shortcode.md
     output: true
   team:
@@ -154,14 +157,6 @@ collections:
     order:
       - troubleshooting-overview.md
     output: true
-  editor:
-    output: true
-    order:
-      - editor-overview.md
-      - get-started.md
-      - links.md
-      - tags.md
-      - map.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -23,7 +23,7 @@ Available tools can vary by channel. For example, SMS supports text and links, w
 
 ## Related guides
 
-- [Message editor basics]({% link _editor/get-started.md %})
-- [Tracked links]({% link _editor/links.md %})
-- [Personalization tags]({% link _editor/tags.md %})
-- [Share a location]({% link _editor/map.md %})
+- [Message editor basics]({% link _numbers/message-editor-basics.md %})
+- [Tracked links]({% link _analytics-reporting-attribution/tracked-links.md %})
+- [Personalization tags]({% link _audience/personalization-tags.md %})
+- [Share a location]({% link _numbers/share-a-location.md %})

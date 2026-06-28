@@ -8,12 +8,15 @@ es:
   title: Conceptos básicos del editor de mensajes
   description: Aprende a usar las funciones básicas de formato de texto del editor de mensajes de Hellotext.
 
-permalink: editor/get-started
-permalink_es: editor/empezar
+permalink: message-editor-basics
+permalink_es: conceptos-basicos-editor-mensajes
+redirect_from:
+  - /editor/get-started
+  - /editor/empezar
 
 layout: guide
-topic: editor
+topic: numbers
 popular: false
 ---
 
-{% translate_file editor/get-started.md %}
+{% translate_file numbers/message-editor-basics.md %}

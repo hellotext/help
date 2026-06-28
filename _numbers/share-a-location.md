@@ -8,12 +8,15 @@ es:
   title: Comparte una ubicación
   description: Aprende a compartir una ubicación desde el editor de mensajes de Hellotext.
 
-permalink: editor/tools/map
-permalink_es: editor/herramientas/mapa
+permalink: share-a-location
+permalink_es: compartir-ubicacion
+redirect_from:
+  - /editor/tools/map
+  - /editor/herramientas/mapa
 
 layout: guide
-topic: editor
+topic: numbers
 popular: false
 ---
 
-{% translate_file editor/map.md %}
+{% translate_file numbers/share-a-location.md %}

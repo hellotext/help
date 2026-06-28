@@ -44,3 +44,5 @@ Use what you learn to adjust the prompt, timing, branch conditions, or template 
 - [How to write a great agent prompt]({% link _journeys/how-to-write-a-great-prompt.md %})
 - [Setup overview]({% link _integrations/setup-overview.md %})
 - [Capture tools overview]({% link _captures/capture-overview.md %})
+- [Message editor overview]({% link _numbers/message-editor-overview.md %})
+- [Personalization tags]({% link _audience/personalization-tags.md %})

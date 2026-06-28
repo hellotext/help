@@ -23,7 +23,7 @@ Las herramientas disponibles pueden variar según el canal. Por ejemplo, SMS sop
 
 ## Guías relacionadas
 
-- [Conceptos básicos del editor de mensajes]({% link _editor/get-started.md %})
-- [Links con tracking]({% link _editor/links.md %})
-- [Etiquetas de personalización]({% link _editor/tags.md %})
-- [Comparte una ubicación]({% link _editor/map.md %})
+- [Conceptos básicos del editor de mensajes]({% link _numbers/message-editor-basics.md %})
+- [Links con tracking]({% link _analytics-reporting-attribution/tracked-links.md %})
+- [Etiquetas de personalización]({% link _audience/personalization-tags.md %})
+- [Comparte una ubicación]({% link _numbers/share-a-location.md %})

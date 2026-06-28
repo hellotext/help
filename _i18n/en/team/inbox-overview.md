@@ -39,3 +39,9 @@ Keep reading: [Response times and response rules]({% link _team/understanding-re
 Some team tasks affect account control rather than daily conversation handling. Keep ownership changes deliberate and limit them to the right administrator.
 
 Keep reading: [Transfer business ownership]({% link _team/transferring-ownership.md %}).
+
+## Replying with the message editor
+
+When a teammate replies from the inbox, the message editor provides formatting, tracked links, personalization tags, and supported rich content for the active channel.
+
+Keep reading: [Message editor overview]({% link _numbers/message-editor-overview.md %}).

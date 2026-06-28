@@ -10,10 +10,13 @@ es:
 
 permalink: message-editor-overview
 permalink_es: resumen-editor-mensajes
+redirect_from:
+  - /editor
+  - /editor/
 
 layout: guide
-topic: editor
+topic: numbers
 popular: false
 ---
 
-{% translate_file editor/editor-overview.md %}
+{% translate_file numbers/message-editor-overview.md %}

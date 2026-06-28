@@ -44,3 +44,5 @@ Usa lo aprendido para ajustar el prompt, tiempos, condiciones de ramas o textos 
 - [Cómo escribir un gran prompt para tu agente]({% link _journeys/how-to-write-a-great-prompt.md %})
 - [Resumen de configuración]({% link _integrations/setup-overview.md %})
 - [Resumen de herramientas de captura]({% link _captures/capture-overview.md %})
+- [Resumen del editor de mensajes]({% link _numbers/message-editor-overview.md %})
+- [Etiquetas de personalización]({% link _audience/personalization-tags.md %})

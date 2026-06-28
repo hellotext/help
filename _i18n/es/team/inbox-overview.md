@@ -39,3 +39,9 @@ Sigue leyendo: [Tiempo de respuesta y reglas de respuesta]({% link _team/underst
 Algunas tareas de equipo afectan el control de la cuenta más que la gestión diaria de conversaciones. Mantén los cambios de propiedad como acciones deliberadas y limitadas al administrador correcto.
 
 Sigue leyendo: [Transfiere la propiedad del negocio]({% link _team/transferring-ownership.md %}).
+
+## Responder con el editor de mensajes
+
+Cuando alguien del equipo responde desde el inbox, el editor de mensajes ofrece formato, links con tracking, etiquetas de personalización y contenido enriquecido soportado para el canal activo.
+
+Sigue leyendo: [Resumen del editor de mensajes]({% link _numbers/message-editor-overview.md %}).

@@ -8,12 +8,15 @@ es:
   title: Links con tracking
   description: Aprende cómo los links de Hellotext ayudan a recolectar analítica de campañas, rutas y conversaciones.
 
-permalink: editor/links
-permalink_es: editor/enlaces
+permalink: tracked-links
+permalink_es: links-con-tracking
+redirect_from:
+  - /editor/links
+  - /editor/enlaces
 
 layout: guide
-topic: editor
+topic: analytics-reporting-attribution
 popular: false
 ---
 
-{% translate_file editor/links.md %}
+{% translate_file analytics-reporting-attribution/tracked-links.md %}

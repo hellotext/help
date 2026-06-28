@@ -39,3 +39,5 @@ Keep reading: [Campaign reporting]({% link _campaigns/campaign-reporting.md %}).
 - [Campaign reporting]({% link _campaigns/campaign-reporting.md %})
 - [Messaging channels overview]({% link _numbers/messaging-overview.md %})
 - [Playbooks and automation overview]({% link _journeys/playbooks-overview.md %})
+- [Tracked links]({% link _analytics-reporting-attribution/tracked-links.md %})
+- [Personalization tags]({% link _audience/personalization-tags.md %})
