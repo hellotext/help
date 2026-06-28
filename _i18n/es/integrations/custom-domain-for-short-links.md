@@ -2,21 +2,20 @@
 
 <div class="note">
     Nota: El alias de enlace corto es parte de la función <i>Marca Blanca</i>.
-    Consulta nuestros <a href="https://www.hellotext.com/es/pricing" class="active" target="_blank">Precios</a> para obtener más información.
+    Consulta nuestros <a href="https://www.hellotext.com/precios" class="active" target="_blank">precios</a> para obtener más información.
 </div>
 
-Hellotext genera enlaces cortos que se utilizan para recopilar información del cliente y realizar un seguimiento de su actividad en su sitio.
+Hellotext genera enlaces cortos que se utilizan para hacer tracking de la actividad del cliente después de que hace clic desde un mensaje.
 
-Con los enlaces cortos, puedes saber qué campaña o viaje envió el mensaje al cliente, cuándo hizo clic en el enlace corto,
-y a dónde fueron redirigidos.
+Con los enlaces cortos, puedes saber qué campaña, ruta o playbook envió el mensaje al cliente, cuándo hizo clic en el enlace corto y a dónde fue redirigido.
 
 Por defecto, Hellotext genera enlaces cortos utilizando el dominio `hello.link`. Los enlaces cortos se mostrarán en el siguiente formato al enviar a los clientes: `hello.link/XXXXXX`.
 
 El alias de un enlace corto le permite especificar un dominio específico para usar en lugar de `hello.link`.
 
-Ayuda a hacer sus mensajes más personalizados, ya que sus clientes reconocen el dominio y confían automáticamente en el enlace. Esto puede ser útil cuando se construye la lealtad de la marca.
+Ayuda a que tus mensajes sean más personalizados, ya que tus clientes reconocen el dominio y confían automáticamente en el enlace. Esto puede ser útil para fortalecer la confianza en tu marca.
 
-Por ejemplo, si usted es dueño del dominio `mydomain.com`, puede alias sus enlaces cortos para usar `mydomain.com` en lugar de `hello.link`.
+Por ejemplo, si eres dueño del dominio `mydomain.com`, puedes configurar tus enlaces cortos para usar `mydomain.com` en lugar de `hello.link`.
 
 Entonces, cuando se generan enlaces cortos, Hellotext utilizará el dominio que especificó en lugar de `hello.link`.
 

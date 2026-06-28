@@ -12,7 +12,7 @@ Before attributing the sale, we check the latest tracked click before purchase. 
 When you send a message to a customer with a short link to your e‑commerce site, a **24‑hour** window opens during which that interaction can generate a sale.
 
 **2. Automatic Extension**
-If the user clicks the link, we extend the window on that device for an additional **7 days**.
+If the customer clicks the link, we extend the window on that device for an additional **7 days**.
 
 With this mechanism you can be sure that only sales that stem from an impact made through Hellotext are counted as attributable.
 

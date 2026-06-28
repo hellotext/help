@@ -1,4 +1,4 @@
-A medida que tu empresa comience a crecer sus perfiles de cliente y suscriptores, también querrás comenzar a organizarlos y segmentarlos de manera que sea más fácil llegar a ellos.
+A medida que tu empresa comience a crecer sus perfiles de cliente, también querrás organizarlos y segmentarlos de manera que sea más fácil llegar a ellos.
 
 Hellotext proporciona dos formas sencillas de organizar perfiles de cliente: listas y segmentos.
 
@@ -6,7 +6,7 @@ En esta guía aprenderás las diferencias entre el concepto más sencillo de lis
 
 ## Listas
 
-Las listas son la forma más sencilla de organizar perfiles de cliente y suscriptores.
+Las listas son la forma más sencilla de organizar perfiles de cliente en audiencias fijas.
 
 Son una forma conveniente de agrupar perfiles de cliente y son ideales cuando comienzas con una audiencia pequeña y administrarla manualmente no es un problema.
 
@@ -33,6 +33,6 @@ También puedes crear combinaciones más creativas como:
 
 Los segmentos se actualizan en tiempo real y siempre contienen los perfiles de cliente que coinciden con las condiciones actuales.
 
-Recomendamos utilizar Segmentos para crear las demografías a las que deseas llegar en tus campañas promocionales.
+Recomendamos utilizar segmentos para crear las audiencias específicas a las que deseas llegar en tus campañas promocionales.
 
 Más información sobre **[Crea segmentos]({% link _audience/segments.md %})**.

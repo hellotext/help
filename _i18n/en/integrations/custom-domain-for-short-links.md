@@ -1,14 +1,13 @@
 ## Short Links
 
 <div class="note">
-    Note: Short Link aliasing is part of the <i>White Label</i> feature. 
-    Refer to our <a data-external href="https://www.hellotext.com/pricing" class="active" target="_blank">Pricing</a> for more information. 
+    Note: Short link aliasing is part of the <i>White Label</i> feature.
+    Refer to our <a data-external href="https://www.hellotext.com/pricing" class="active" target="_blank">pricing</a> for more information.
 </div>
 
-Hellotext generates ShortLinks that are used to collect customer information and track their activity on their site.
+Hellotext generates short links that are used to track customer activity after they click from a message.
 
-With Short Links, you can know which Campaign or Journey sent the message to the customer, when did they click the Short Link,
-and where they were redirected to.
+With short links, you can know which campaign, journey, or playbook sent the message to the customer, when they clicked the short link, and where they were redirected.
 
 By default, Hellotext generates Short Links using the domain `hello.link`.
 

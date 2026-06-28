@@ -1,12 +1,16 @@
 Use playbooks and automations when Hellotext should react to customer behavior without someone on your team manually sending every message.
 
-A playbook is a repeatable automated experience. A playbook can be a journey, a campaign, a capture, or an AI agent depending on the job it performs.
+A playbook is a repeatable system trained for a business mission. It reads signals, decides what should happen for each customer, and acts through the right channel within the limits you set.
+
+A playbook can be a journey, a campaign, a capture, or an AI agent depending on the job it performs.
+
+Signals can include carts, browsing activity, purchases, stock changes, birthdays, replies, customer profile properties, and channel eligibility.
 
 ## Choose the right playbook type
 
 Use a **journey** when you need a multi-step customer flow with a trigger, messages, waits, conditions, branches, and handoffs. Cart Saver and Journey Builder are examples of journey playbooks.
 
-Use a **prebuilt playbook** when the goal is common and the recommended flow already fits your business. This is usually the fastest way to launch.
+Use a **prebuilt playbook** when the goal is common and the recommended mission already fits your business. This is usually the fastest way to launch.
 
 Use an **AI agent** when the experience needs to respond conversationally, use product or policy knowledge, recommend items, collect customer information, or decide when to escalate.
 
@@ -25,11 +29,13 @@ For SMS playbooks, make sure your account has an active sender or short code ava
 ## What to check before publishing
 
 - The trigger matches the customer action you want to react to.
+- The signals the playbook depends on are available and current.
 - Messages use the right channel and tone.
 - Wait steps give customers enough time before the next follow-up.
 - Conditions and branches send people down the right path.
 - Coupons, links, tags, and product recommendations are working.
 - Human handoff rules are clear when a conversation should leave the journey or agent.
+- Frequency, consent, and quiet-hour limits are clear so playbooks do not compete for the same customer.
 
 ## Keep improving after launch
 

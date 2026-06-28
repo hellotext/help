@@ -1,26 +1,26 @@
-Aprende a crear campañas dirigidas a tu audiencia con comunicaciones y promociones que generen más ingresos y atención hacia tu marca.
+Aprende a crear campañas dirigidas a tu audiencia con comunicaciones y promociones que generen atención e ingresos para tu marca.
 
 Las campañas son una de las formas más efectivas de captar la atención de tus clientes con mensajes cortos y relevantes en el momento correcto.
 
-Son especialmente efectivos para aumentar las ventas o generar anticipación. Las posibilidades que brindan los mensajes de texto para desbloquear nuevas oportunidades de ingresos son prácticamente infinitas, en especial cuando forman parte de la estrategia habitual de comunicación y promoción de tu negocio.
+Son especialmente efectivas para aumentar las ventas o generar anticipación en momentos puntuales. Úsalas como parte de tu estrategia habitual de mensajería, junto con capturas, playbooks y flujos de Inbox.
 
 Para crear una nueva campaña, visita la sección *Campañas* y haz clic en el botón *Nueva campaña* cerca de la parte superior derecha de la página.
 
 ## Seleccionar una audiencia
 
-Las campañas pueden llegar a toda tu base de suscriptores simplemente manteniendo la selección *Todas las Audiencias*.
+Las campañas pueden llegar a toda tu audiencia elegible simplemente manteniendo la selección *Todas las Audiencias*.
 
-En el lado derecho de la página se puede ver una estimación del total de suscriptores a los que llegará esta campaña.
+En el lado derecho de la página se puede ver una estimación del total de destinatarios que puede alcanzar esta campaña.
 
-Llegar a todos tus suscriptores puede no ser siempre deseable. Por lo general, una campaña es más efectiva cuando su mensaje se dirige a un grupo demográfico en particular.
+Llegar a todos no siempre es deseable. Por lo general, una campaña es más efectiva cuando su mensaje se dirige a una audiencia específica.
 
 Es una buena práctica crear diferentes campañas dirigidas a audiencias específicas. Si ya estás utilizando Listas o Segmentos, puedes incluirlos como audiencias seleccionándolos en el menú desplegable *Todas las Audiencias*.
 
 Puedes incluir múltiples Listas y Segmentos en tu selección haciendo clic en el botón <img src="/images/icons/add.svg" class="avatar-icon bg-blush" width="25" /> a la derecha del desplegable.
 
-El total agregado de suscriptores a alcanzar será visible en el lado derecho de la página.
+El total agregado de destinatarios a alcanzar será visible en el lado derecho de la página.
 
-Más información sobre **[Listas y segmentos]({% link _audience/lists-and-segments.md %})**
+Más información: **[Listas y segmentos]({% link _audience/lists-and-segments.md %})**.
 
 ### Excluyendo audiencias
 
@@ -30,7 +30,7 @@ Para que una audiencia permanezca excluida, su etiqueta debe decir *Excluir*.
 
 ## Redactar tu mensaje
 
-Tómate tu tiempo para pensar en un buen mensaje. Imagínate a ti mismo como el destinatario. ¿Cómo te sentirías al recibir este mensaje de texto?
+Tómate tu tiempo para escribir un mensaje claro. Imagínate a ti mismo como destinatario. ¿Cómo te sentirías al recibir este mensaje?
 
 Por lo general, los mensajes cortos y efectivos funcionan mejor que aquellos más largos.
 
@@ -38,7 +38,7 @@ Si tu campaña usa SMS, ten en cuenta la longitud del mensaje. Los SMS tienen un
 
 Si tu mensaje SMS excede este límite, se requerirá un SMS adicional. Siempre que sea posible, Hellotext intenta fusionar diferentes SMS en un solo mensaje y, cuando esto no sea posible, el mensaje se enviará en mensajes SMS separados.
 
-Un contador con los caracteres de SMS restantes y la cantidad de mensajes SMS que esta campaña consumirá por suscriptor estará disponible en el área de redacción cuando aplique SMS.
+Un contador con los caracteres de SMS restantes y la cantidad de mensajes SMS que esta campaña consumirá por destinatario estará disponible en el área de redacción cuando aplique SMS.
 
 Una vista previa del mensaje está disponible en el lado derecho de la página. Puede ayudar a darte una idea de cómo se vería el mensaje cuando se divide en diferentes SMS.
 
@@ -50,7 +50,7 @@ Siempre recomendamos usar esta herramienta para acortar la URL que llevará a lo
 
 Los beneficios de acortar enlaces son dobles: mantiene tu mensaje más corto logrando más caracteres adicionales para el mensaje.
 
-También realiza un seguimiento de quién de tus suscriptores hizo clic en el enlace corto y todas las acciones sucesivas realizadas, como saber quién realizó una compra o completó una determinada acción.
+También registra qué destinatarios hicieron clic en el enlace corto y las acciones posteriores, como compras u otros eventos con tracking.
 
 Para que esto funcione, debes haber instalado previamente el rastreador *Hellotext.js* o haber creado tu propia implementación para procesar la sesión y rastrear los eventos usando la API.
 
@@ -100,7 +100,7 @@ Puedes enviar tu campaña de inmediato o programarla para enviarla en el futuro 
 
 ### Revisión editorial
 
-Ten en cuenta que si tu campaña se dirige a más de 100 suscriptores, estará sujeta a una revisión editorial rápida antes de que se entregue.
+Ten en cuenta que si tu campaña se dirige a más de 100 destinatarios, estará sujeta a una revisión editorial rápida antes de que se entregue.
 
 Durante el horario de oficinas, esto es bastante rápido y generalmente toma menos de 10 minutos.
 

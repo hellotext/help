@@ -10,7 +10,7 @@ En Hellotext diseñamos nuestro modelo de tarifas para que el crecimiento de tu 
 Cuando envías un mensaje a un cliente con un enlace corto a tu e‑commerce, se abre una ventana de **24  horas** para que esa interacción genere la compra.
 
 2. **Extensión automática**
-Si el usuario hace clic en el enlace, extendemos la ventana en ese dispositivo por **7 días adicionales**.
+Si el cliente hace clic en el enlace, extendemos la ventana en ese dispositivo por **7 días adicionales**.
 
 Con este mecanismo te aseguras de que solo las ventas que se originan a partir de un impacto realizado en Hellotext se contabilizan como atribuibles.
 

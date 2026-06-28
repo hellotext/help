@@ -1,26 +1,26 @@
-Learn how to create campaigns to reach your audience with communications and promotions that drive more revenue and attention towards your brand.
+Learn how to create campaigns to reach your audience with communications and promotions that drive attention and revenue for your brand.
 
 Campaigns are one of the most effective ways to capture your customers' attention by delivering short and relevant messages at the right moment.
 
-They are especially effective at building anticipation or driving more sales. The possibilities with text messaging as part of your regular marketing communication strategy to unlock new revenue opportunities are virtually endless.
+They are especially effective for building anticipation or driving focused sales moments. Use them as part of your regular messaging strategy, alongside captures, playbooks, and Inbox workflows.
 
 To create a new campaign, visit the *Campaigns* section and click on the *New Campaign* button near the top right of the page.
 
 ## Selecting an audience
 
-Campaigns can reach your entire subscriber base simply by keeping the *All audiences* option selected.
+Campaigns can reach your full eligible audience by keeping the *All audiences* option selected.
 
-An estimate of the total subscribers that this campaign will reach is visible on the right side of the page.
+An estimate of the total recipients this campaign can reach is visible on the right side of the page.
 
-Reaching all your subscribers may not be always desirable. Typically a campaign is most effective when its message targets a particular demographic.
+Reaching everyone is not always desirable. A campaign is usually more effective when the message targets a specific audience.
 
 It is a good practice to create different campaigns targeting specific audiences. If you are already using Lists or Segments, you can include them as audiences by selecting them from the *All audiences* dropdown.
 
 You can include multiple Lists and Segments in your selection by clicking the <img src="/images/icons/add.svg" class="avatar-icon bg-blush" width="25" /> button at the right of the dropdown. 
 
-The aggregated total of subscribers to reach will be visible on the right side of the page.
+The aggregated total of recipients to reach will be visible on the right side of the page.
 
-Learn more on **[Lists and Segments]({% link _audience/lists-and-segments.md %})**
+Learn more: **[Lists and Segments]({% link _audience/lists-and-segments.md %})**.
 
 ### Excluding audiences
 
@@ -30,7 +30,7 @@ For an audience to remain excluded, its label should say *Exclude*.
 
 ## Composing your message
 
-Take your time to think a catchy message. Imagine yourself as the recipient. How would you feel receiving this text message?
+Take your time to write a clear message. Imagine yourself as the recipient. How would you feel receiving this message?
 
 Typically, short and effective messages work better than longer ones.
 
@@ -38,7 +38,7 @@ If your campaign uses SMS, keep SMS length in mind. SMS messages have a limit of
 
 If your SMS message exceeds this limit, it will require an additional SMS. Whenever possible, Hellotext tries to merge different SMS into one message, and when this is not possible the message will be sent in separate SMS messages.
 
-A counter with the remaining SMS characters and the number of SMS messages this campaign will consume per subscriber is available in the compose area when SMS applies.
+A counter with the remaining SMS characters and the number of SMS messages this campaign will consume per recipient is available in the compose area when SMS applies.
 
 A preview of the message is available on the right side of the page. It can help give you an idea of how the message could look when it is split into different SMS.
 
@@ -50,7 +50,7 @@ We always recommend using this tool to shorten the URL that will take visitors t
 
 The benefits of shortening links are two-fold: it keeps your message shorter, leaving more characters for the actual message.
 
-It also keeps track of whom of your subscribers clicked on the short link and all the successive actions performed, like knowing who made a purchase, or completed a certain action. 
+It also tracks which recipients clicked the short link and the actions that followed, such as purchases or other tracked events.
 
 For this to work, you previously need to have installed the *Hellotext.js* tracker or created your own implementation to process the session and track the events using the API.
 
@@ -63,7 +63,7 @@ You can find tags for all your customer profile properties such as:
 * *{name}*
 * *{last_name}*
 * *{phone}*
-* *{birthday}*
+* *{birthdate}*
 * Any custom properties also have a matching tag following the same tag naming convention: For example, if the property is called _My Property_ a tag to reference this property will be automatically available with the name _{my_property}_
 
 ### Setting a default value
@@ -100,7 +100,7 @@ You can send your campaign right away or schedule it to send in the future on a 
 
 ### Editorial review
 
-Please keep in mind that if your campaign targets more than 100 subscribers it will be subject to a quick editorial review before it is delivered.
+Please keep in mind that if your campaign targets more than 100 recipients it will be subject to a quick editorial review before it is delivered.
 
 During business hours this is fairly quick and usually takes less than 10 minutes.
 

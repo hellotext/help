@@ -1,4 +1,4 @@
-Uno de los grandes beneficios de las campañas son sus completos informes y métricas detalladas de participación de cada usuario.
+Uno de los grandes beneficios de las campañas son sus completos informes y métricas detalladas de participación de cada cliente.
 
 Con los informes de campaña, tienes una vista detallada sobre su efectividad y cómo interactuaron los clientes: desde su primer click en el enlace compartido hasta que realizaron una compra.
 

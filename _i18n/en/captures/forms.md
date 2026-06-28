@@ -37,7 +37,7 @@ In the form editor, you can add any field based on an existing property, and con
 ```
 
 Like the Hero, Hellotext looks for an HTML element within the form with `data-form-inputs` identifier and loads the inputs inside it.
-The `data-error-container` element is used and displayed only when the user tries to submit the form and they have not filled required field/s.
+The `data-error-container` element is used and displayed only when the visitor tries to submit the form and has not filled the required fields.
 
 ### Button
 
@@ -134,4 +134,4 @@ Please refer to our [Pricing](https://www.hellotext.com/pricing) for more inform
 Forms rely on [Hellotext.js](https://github.com/hellotext/hellotext.js); it is required to install Hellotext.js to dynamically populate the form. The following events are dispatched by Hellotext.js
 
 - `forms:collected` - Dispatched when Hellotext collects all the forms. Collection means that Hellotext has contacted the API and fetched the form data. The event's payload is the array of forms that were collected.
-- `form:completed` - Dispatched when the user fills all required inputs in the form, and successfully completes the One Time Password code we send. 
+- `form:completed` - Dispatched when the visitor fills all required inputs in the form, and successfully completes the One Time Password code we send.

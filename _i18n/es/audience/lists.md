@@ -1,4 +1,4 @@
-Las listas son la forma más sencilla de organizar perfiles de cliente y suscriptores.
+Las listas son la forma más sencilla de organizar perfiles de cliente en audiencias fijas.
 
 Las listas son convenientes cuando recién estás comenzando y mientras no esperas gestionarlas manualmente en grandes cantidades.
 

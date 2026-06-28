@@ -1,12 +1,16 @@
 Usa playbooks y automatizaciones cuando Hellotext debe reaccionar al comportamiento de tus clientes sin que alguien de tu equipo envíe cada mensaje manualmente.
 
-Un playbook es una experiencia automatizada reutilizable. Un playbook puede ser una ruta, una campaña, una captura o un agente de IA según el trabajo que realiza.
+Un playbook es un sistema reutilizable entrenado para una misión de negocio. Lee señales, decide qué debería pasar con cada cliente y actúa por el canal correcto dentro de los límites que definas.
+
+Un playbook puede ser una ruta, una campaña, una captura o un agente de IA según el trabajo que realiza.
+
+Las señales pueden incluir carritos, navegación, compras, cambios de stock, cumpleaños, respuestas, propiedades del perfil de cliente y elegibilidad por canal.
 
 ## Elige el tipo de playbook correcto
 
 Usa una **ruta** cuando necesitas un flujo de clientes paso a paso con disparador, mensajes, esperas, condiciones, ramas y derivaciones. Recuperador de Carritos y Constructor de Rutas son ejemplos de playbooks de tipo ruta.
 
-Usa un **playbook preconstruido** cuando el objetivo es común y el flujo recomendado ya encaja con tu negocio. Normalmente es la forma más rápida de lanzar.
+Usa un **playbook preconstruido** cuando el objetivo es común y la misión recomendada ya encaja con tu negocio. Normalmente es la forma más rápida de lanzar.
 
 Usa un **agente de IA** cuando la experiencia necesita responder conversacionalmente, usar conocimiento de productos o políticas, recomendar artículos, recopilar información del cliente o decidir cuándo escalar.
 
@@ -25,11 +29,13 @@ Para playbooks de SMS, asegúrate de que tu cuenta tenga un remitente activo o c
 ## Qué revisar antes de publicar
 
 - El disparador coincide con la acción del cliente a la que quieres reaccionar.
+- Las señales de las que depende el playbook están disponibles y actualizadas.
 - Los mensajes usan el canal y tono correctos.
 - Los pasos de espera dan suficiente tiempo antes del siguiente seguimiento.
 - Las condiciones y ramas envían a cada persona por el camino correcto.
 - Los cupones, links, etiquetas y recomendaciones de producto funcionan.
 - Las reglas de derivación humana son claras para cuando una conversación debe salir de la ruta o del agente.
+- Los límites de frecuencia, consentimiento y horarios silenciosos están claros para que los playbooks no compitan por el mismo cliente.
 
 ## Mejora después del lanzamiento
 

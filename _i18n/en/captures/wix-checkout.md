@@ -22,7 +22,7 @@ If you wish, you can also check the *Checked by default* box so that your visito
 
 <img src="images/captures/wix/en/settings-checkout.jpeg" alt="" width="768" />
 
-That's it! From now on, your users will be able to give you their consent to receive future promotions.
+That's it! From now on, your customers will be able to give consent to receive future promotions.
 
 In Hellotext, you will see that customer profiles with consent will appear as *Subscribed* in green.
 

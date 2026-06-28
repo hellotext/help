@@ -30,7 +30,7 @@ Marca la casilla para autorizar a Hellotext a conectarse con tu sitio y haz clic
 
 <img src="images/integrations/wix/es/wix-authorize.jpeg" alt="" width="768" />
 
-Si lo deseas, puedes importar tus clientes de Wix a Hellotext. Esto te facilita comenzar a ver la actividad de tus usuarios en tu sitio.
+Si lo deseas, puedes importar tus clientes de Wix a Hellotext. Esto te facilita comenzar a ver la actividad de tus clientes en tu sitio.
 
 Marca la casilla *Sí* y haz clic en *Continuar*.
 

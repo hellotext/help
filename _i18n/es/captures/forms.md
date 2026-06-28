@@ -37,7 +37,7 @@ En el editor de formularios, puedes agregar cualquier campo basado en una propie
 ```
 
 Al igual que con el Hero, Hellotext busca un elemento HTML dentro del formulario con el identificador `data-form-inputs` 
-y carga los inputs dentro de él. El elemento `data-error-container` se utiliza y se muestra solo cuando el usuario intenta enviar el formulario y no ha completado campo/s obligatorio/s.
+y carga los inputs dentro de él. El elemento `data-error-container` se utiliza y se muestra solo cuando el visitante intenta enviar el formulario y no ha completado los campos obligatorios.
 
 ### Button
 
@@ -134,11 +134,11 @@ Esto forma parte de nuestra política de "White Label". Es necesario que este lo
 formulario, a menos que el paquete al que te suscribas tenga la función de "White Label" habilitada.
 
 Para más información sobre los paquetes disponibles y las características, 
-consulta nuestra [Página de Precios](https://www.hellotext.com/pricing).
+consulta nuestra [página de precios](https://www.hellotext.com/precios).
 
 ## Eventos de JavaScript
 
 Los formularios dependen de [Hellotext.js](https://github.com/hellotext/hellotext.js), es necesario instalar Hellotext.js para poblar dinámicamente el formulario. A continuación se describen los eventos despachados por Hellotext.js:
 
 - `forms:collected` - Se despacha cuando Hellotext ha recopilado todos los formularios. La recopilación significa que Hellotext ha contactado con la API y ha obtenido los datos del formulario. La carga útil del evento es un array de formularios que fueron recopilados.
-- `form:completed` - Se despacha cuando el usuario completa todos los campos requeridos en el formulario y ha ingresado exitosamente el código de Contraseña de Un Solo Uso que enviamos.
+- `form:completed` - Se despacha cuando el visitante completa todos los campos requeridos en el formulario e ingresa exitosamente el código de contraseña de un solo uso que enviamos.

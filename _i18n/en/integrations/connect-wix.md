@@ -30,7 +30,7 @@ Check the box to authorize Hellotext to connect with your site and click on *Acc
 
 <img src="images/integrations/wix/en/wix-authorize.jpeg" alt="" width="768" />
 
-If you wish, you can import your Wix customers into Hellotext. This makes it easy to start seeing the activity of your users on your site.
+If you wish, you can import your Wix customers into Hellotext. This makes it easy to start seeing customer activity on your site.
 
 Check the box *Yes* and click on *Continue*.
 

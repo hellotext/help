@@ -1,4 +1,4 @@
-As your business starts growing its customer profiles and subscribers, you will likely want to learn how to organize and segment them in ways that will make it easier to reach them.
+As your business starts growing its customer profiles, you will likely want to organize and segment them in ways that make them easier to reach.
 
 Hellotext provides two easy ways to organize customer profiles: lists and segments.
 
@@ -6,7 +6,7 @@ In this guide you will learn the differences between the simple concept of lists
 
 ## Lists
 
-Lists are the simplest way to organize customer profiles and subscribers.
+Lists are the simplest way to organize customer profiles into fixed audiences.
 
 They are a convenient way to group customer profiles together and are ideal when you are just starting with a small audience and managing it manually is not a problem.
 
@@ -33,6 +33,6 @@ And even more creative combinations like:
 
 Segments are updated in real time and always contain the customer profiles matching the current conditions.
 
-We recommend using Segments for building the specific demographics that you want to reach in your promotional campaigns. 
+We recommend using segments to build the specific audiences that you want to reach in your promotional campaigns.
 
 More on **[Build segments]({% link _audience/segments.md %})**.

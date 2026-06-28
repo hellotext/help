@@ -22,7 +22,7 @@ Si lo deseas, también puedes marcar la casilla *Marcada de forma predeterminada
 
 <img src="images/captures/wix/es/settings-checkout.jpeg" alt="" width="768" />
 
-¡Listo! A partir de ahora, tus usuarios podrán darte el consentimiento para recibir futuras promociones. 
+¡Listo! A partir de ahora, tus clientes podrán dar consentimiento para recibir futuras promociones.
 
 En Hellotext, verás que los perfiles de cliente con consentimiento aparecerán como *Suscritos* en verde.
 

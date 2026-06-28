@@ -1,4 +1,4 @@
-One of the great benefits of campaigns is their powerful reporting and detailed metrics of user engagement.
+One of the great benefits of campaigns is their powerful reporting and detailed metrics of customer engagement.
 
 With campaign reports, you have a detailed view of effectiveness and how customers interacted: from their first click on the shared link all the way until a purchase was made.
 

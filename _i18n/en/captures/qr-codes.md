@@ -24,17 +24,17 @@ If you don't have a preference or don't have any numbers associated with your bu
 
 You can also customize the pre-filled message that customers will send to subscribe.
 
-### Assigning coupons and journeys
+### Assign coupons and follow-up routes
 
 On the next step, you have the option to choose what happens after your customer subscribes.
 
-By default, a welcome message is sent to the subscriber. 
+By default, a welcome message is sent to the new subscriber.
 
 However, if you have created any coupons, you can choose to include them in the welcome message as an incentive for subscribing. 
 
-Alternatively, you can select a journey that you have created to replace the default welcome message. 
+Alternatively, you can select a route or playbook that you have created to replace the default welcome message.
 
-This journey will be sent to the subscriber instead of the default message.
+That follow-up will be sent to the new subscriber instead of the default message.
 
 ### Get the QR Code
 

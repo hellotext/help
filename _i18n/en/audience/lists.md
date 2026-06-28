@@ -1,7 +1,7 @@
 
-Lists are the simplest way to organize customer profiles and subscribers.
+Lists are the simplest way to organize customer profiles into fixed audiences.
 
-Lists are convenient when you are just starting or if the number of subscribers in them will remain low.
+Lists are convenient when you are just starting or when you need to manage a small audience manually.
 
 ## Create a list
 
