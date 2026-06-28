@@ -1,22 +1,22 @@
-Usa una automatización personalizada cuando un playbook preconstruido no coincide con el flujo que necesitas.
+Usa una ruta personalizada cuando un playbook de tipo ruta no coincide con el flujo que necesitas.
 
-Una automatización personalizada te da un lienzo en blanco. Tú eliges el disparador, agregas los pasos, defines los tiempos y decides cuándo los clientes deben continuar, ramificarse, recibir un mensaje o salir de la automatización.
+Una ruta personalizada te da un lienzo en blanco. Tú eliges el disparador, agregas los pasos, defines los tiempos y decides cuándo los clientes deben continuar, ramificarse, recibir un mensaje o salir de la ruta.
 
 ## Selecciona un disparador
 
-El disparador es la acción del cliente que inicia la automatización.
+El disparador es la acción del cliente que inicia la ruta.
 
 Para seleccionarlo:
 
 1. Abre el inicio del flujo.
-2. Elige la acción que debería iniciar la automatización.
+2. Elige la acción que debería iniciar la ruta.
 3. Confirma el disparador.
 
 El disparador puede ser un evento estándar, como una suscripción, actualización de carrito, vista de producto, compra o mensaje. También puede ser un evento personalizado si tu cuenta lo registra.
 
 ## Agrega pasos
 
-Las automatizaciones avanzan en secuencia de un paso al siguiente.
+Las rutas avanzan en secuencia de un paso al siguiente.
 
 Para agregar un paso, arrástralo al lugar del flujo donde debería ocurrir.
 
@@ -42,12 +42,12 @@ Por ejemplo, puedes esperar dos horas antes de enviar un recordatorio de carrito
 
 ### Derivación humana
 
-Usa reglas de derivación cuando la automatización debería detenerse y una persona debería tomar la conversación.
+Usa reglas de derivación cuando la ruta debería detenerse y una persona debería tomar la conversación.
 
 Esto es especialmente importante para preguntas de soporte, reembolsos, preguntas complejas de producto o clientes insatisfechos.
 
 ## Guarda y publica
 
-Haz clic en **Guardar cambios** mientras trabajas. Las automatizaciones personalizadas permanecen inactivas hasta que las publicas.
+Haz clic en **Guardar cambios** mientras trabajas. Las rutas personalizadas permanecen inactivas hasta que las publicas.
 
-Cuando esté lista, haz clic en **Publicar**. Para detener la automatización más adelante, desactívala.
+Cuando esté lista, haz clic en **Publicar**. Para detener la ruta más adelante, desactívala.

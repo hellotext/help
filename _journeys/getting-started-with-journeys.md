@@ -2,11 +2,11 @@
 languages: ["en", "es"]
 
 en:
-  title: Getting started with playbooks
-  description: Use templates and automated flows to respond to customer behavior.
+  title: Getting started with journeys
+  description: Use journey playbooks to build multi-step customer flows.
 es:
-  title: Primeros pasos con playbooks
-  description: Usa plantillas y flujos automatizados para responder al comportamiento de tus clientes.
+  title: Primeros pasos con rutas
+  description: Usa playbooks de tipo ruta para crear flujos de clientes paso a paso.
 
 permalink: getting-started-with-journeys
 permalink_es: primeros-pasos-con-rutas

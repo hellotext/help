@@ -1,14 +1,14 @@
-The map tool is one of the various tools available in the Hellotext Editor. 
-With this tool, you can easily share your location with your customers. 
+The map tool is one of the tools available in the Hellotext message editor.
+With this tool, you can easily share your location with your customers.
 This is useful for sharing your store's location, a meeting point, or any other location you want to share.
 
 ### Prerequisites
 
-The map tool will only be enabled when you have enabled an integration that supports Geolocation. For example, 
+The map tool will only be enabled when you have enabled an integration that supports Geolocation. For example,
 SMS does not support Geolocation, so the map tool will not be available when creating an SMS message. However,
 WhatsApp supports Geolocation, so the map tool will be available when creating a WhatsApp message.
 
-Right now, of the integrations we support, only WhatsApp supports Geolocation. 
+Right now, of the integrations we support, only WhatsApp supports Geolocation.
 
 ### How to use the map tool
 
@@ -22,7 +22,7 @@ Once you have chosen the desired location, compose the message you want to send,
 The map tool initially shows a location based on your IP address. This location may not be accurate to the street level.
 If you want an accurate location, you can click on <img style='display: inline;'  src="{{site.url}}/images/icons/editor/aim.svg"> icon to get your exact location.
 
-Please be aware that you may be prompted to allow Hellotext to access your location. 
+Please be aware that you may be prompted to allow Hellotext to access your location.
 If you cannot see the prompt, please check your browser settings to ensure that location access is enabled.
 
 - Safari: Preferences > Websites > Location. Choose `hellotext.com` and Select Ask.

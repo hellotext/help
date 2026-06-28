@@ -55,17 +55,17 @@ collections:
   topics:
     order:
       - getting-started.html
-      - best-practices.html
+      - integrations.html
+      - numbers.html
+      - captures.html
+      - journeys.html
+      - team.html
       - campaigns.html
       - audience.html
       - analytics-reporting-attribution.html
-      - numbers.html
-      - team.html
-      - journeys.html
-      - captures.html
       - billing.html
-      - integrations.html
       - developers.html
+      - troubleshooting-deliverability-release-notes.html
       - editor.html
     output: true
   campaigns:
@@ -150,12 +150,18 @@ collections:
       - tracking-on-campaigns-and-journeys.md
       - tracking-unidentified-customers.md
       - external-tracking.md
+  troubleshooting-deliverability-release-notes:
+    order:
+      - troubleshooting-overview.md
+    output: true
   editor:
     output: true
     order:
+      - editor-overview.md
       - get-started.md
       - links.md
       - tags.md
+      - map.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.

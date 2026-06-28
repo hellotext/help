@@ -1,22 +1,22 @@
-Use a custom automation when a prebuilt playbook does not match the flow you need.
+Use a custom journey when a prebuilt journey playbook does not match the flow you need.
 
-A custom automation gives you an empty canvas. You choose the trigger, add the steps, define the timing, and decide when customers should continue, branch, receive a message, or leave automation.
+A custom journey gives you an empty canvas. You choose the trigger, add the steps, define the timing, and decide when customers should continue, branch, receive a message, or leave the journey.
 
 ## Select a trigger
 
-The trigger is the customer action that starts the automation.
+The trigger is the customer action that starts the journey.
 
 To select it:
 
 1. Open the beginning of the flow.
-2. Choose the action that should start the automation.
+2. Choose the action that should start the journey.
 3. Confirm the trigger.
 
 The trigger can be a standard event, such as a subscription, cart update, product view, purchase, or message. It can also be a custom event if your account tracks one.
 
 ## Add steps
 
-Automations move in sequence from one step to the next.
+Journeys move in sequence from one step to the next.
 
 To add a step, drag it into the flow where it should happen.
 
@@ -42,12 +42,12 @@ For example, you can wait two hours before sending an abandoned cart reminder.
 
 ### Human handoff
 
-Use handoff rules when the automation should stop and a person should take over the conversation.
+Use handoff rules when the journey should stop and a person should take over the conversation.
 
 This is especially important for support questions, refunds, complex product questions, or unhappy customers.
 
 ## Save and publish
 
-Click **Save Changes** while you work. Custom automations stay inactive until you publish them.
+Click **Save Changes** while you work. Custom journeys stay inactive until you publish them.
 
-When you are ready, click **Publish**. To stop the automation later, make it inactive.
+When you are ready, click **Publish**. To stop the journey later, make it inactive.

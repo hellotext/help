@@ -1,4 +1,4 @@
-La herramienta de mapa es una de las varias herramientas disponibles en el Editor Hellotext. Con esta herramienta, puedes compartir fácilmente tu ubicación con tus clientes. Esto es útil para compartir la ubicación de tu tienda, un punto de encuentro, o cualquier otra ubicación que desees compartir.
+La herramienta de mapa es una de las herramientas disponibles en el editor de mensajes de Hellotext. Con esta herramienta, puedes compartir fácilmente tu ubicación con tus clientes. Esto es útil para compartir la ubicación de tu tienda, un punto de encuentro o cualquier otra ubicación que desees compartir.
 
 ### Requisitos previos
 

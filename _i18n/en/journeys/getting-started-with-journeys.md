@@ -39,6 +39,6 @@ When you are ready, click **Publish**. To stop it later, make it inactive.
 
 ## Next steps
 
-If a template does not fit what you need, create a [custom automation]({% link _journeys/custom-journey.md %}).
+If a template does not fit what you need, create a [custom journey]({% link _journeys/custom-journey.md %}).
 
 If the flow uses an AI agent, review [how to write a great agent prompt]({% link _journeys/how-to-write-a-great-prompt.md %}).

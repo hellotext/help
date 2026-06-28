@@ -2,11 +2,11 @@
 languages: ["en", "es"]
 
 en:
-  title: Tags
-  description: Learn how you can use custom tags to write dynamic content that is unique for each profile.
+  title: Personalization tags
+  description: Learn how to use tags to write dynamic content for each customer profile.
 es:
-  title: Etiquetas
-  description: Aprender cómo puedes usar etiquetas personalizadas para escribir contenido dinámico que sea único para cada perfil.
+  title: Etiquetas de personalización
+  description: Aprende cómo usar etiquetas para escribir contenido dinámico para cada perfil de cliente.
 
 permalink: editor/tags
 permalink_es: editor/etiquetas

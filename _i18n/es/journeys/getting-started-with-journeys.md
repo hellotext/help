@@ -39,6 +39,6 @@ Cuando esté listo, haz clic en **Publicar**. Para detenerlo más adelante, desa
 
 ## Próximos pasos
 
-Si una plantilla no se ajusta a lo que necesitas, crea una [automatización personalizada]({% link _journeys/custom-journey.md %}).
+Si una plantilla no se ajusta a lo que necesitas, crea una [ruta personalizada]({% link _journeys/custom-journey.md %}).
 
 Si el flujo usa un agente de IA, revisa [cómo escribir un gran prompt para tu agente]({% link _journeys/how-to-write-a-great-prompt.md %}).

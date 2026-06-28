@@ -1,31 +1,30 @@
-The Editor is the input you use when writing a message. It is present in 
-various places around the platform, such as the Campaigns, Journeys, and the Inbox.
+The message editor is the input you use when writing a message. It is present in
+various places around the platform, such as campaigns, journeys, playbooks, and the inbox.
 
-It provides a set of powerful built-in features that allows you to enrich your messages with dynamic content, images, and links.
+It provides built-in features that let you enrich messages with dynamic content, images, and links.
 
-Tags are a set of reserved words that you can use to compose a message with dynamic content.
-Dynamic content allows you to write messages that are unique for each profile. It can be used to inject the profile's name,
-their age, birthday, or any other property that you have defined for your business.
+Tags are reserved words that you can use to compose a message with dynamic content.
+Dynamic content lets you write messages that are unique for each customer profile. It can be used to insert the customer profile's name,
+age, birthday, or any other property that you have defined for your business.
 
 ### The Anatomy of a Tag
 
-We mentioned that tags are reserved keywords in the editor. Tags are reserved words written between 
+We mentioned that tags are reserved keywords in the editor. Tags are reserved words written between
 an opening and closing curly brace. For example, the tag `{full_name}` is a tag that will be replaced with the
-full name of the profile. Common tags include `{name}`, `{birthday}`, `{first_name}`, `{last_name}`, `{phone}` that is 
-provided by default. But, you're not limited to these set of tags, you can also target properties defined by your business as well.
+full name of the customer profile. Common tags include `{name}`, `{birthday}`, `{first_name}`, `{last_name}`, and `{phone}`.
+You are not limited to these tags. You can also target properties defined by your business.
 
-By default, properties are removed from the output when the profile does not have the attribute. 
-For example, if you are targeting a `{company}` property in your message and the profile does not have that property
-the word `{company}` will be removed from the message being sent to the profile. If you don't want to have the property removed. You can 
-use default values for a tag, read below for further information.
+By default, properties are removed from the output when the customer profile does not have the attribute.
+For example, if you are targeting a `{company}` property in your message and the customer profile does not have that property,
+the word `{company}` is removed from the message sent to that customer profile. If you do not want the property removed, use a default value.
 
-Tags can also have a default value, default values are useful when you want to have a fallback 
-value in case the profile does not have the attribute you're targeting.
+Tags can also have a default value. Default values are useful when you want a fallback
+in case the customer profile does not have the attribute you are targeting.
 You can provide a default value for a tag by adding a pipe character `|` and the default value before closing the tag.
-For example, the tag `{company|friend}` will be replaced with company property assigned to the profile, and if the
-profile does not have the property, the default value of `friend` will be used.
+For example, the tag `{company|friend}` is replaced with the company property assigned to the customer profile. If the
+customer profile does not have that property, the default value of `friend` is used.
 
-A valid tag consists of the following 
+A valid tag consists of the following
 
 - An opening brace `{`
 - A reserved keyword offered by Hellotext or a property type, i.e `company`.
@@ -49,24 +48,24 @@ A complete list of property kinds
 - `number`
 - `url`
 
-For the properties `age`, `birthday`, `company`, and `gender` you can either target by the kind of the property i.e `company`, or by 
+For the properties `age`, `birthday`, `company`, and `gender` you can either target by the kind of the property i.e `company`, or by
 the property's name when you have set a custom name for the property.
 
-For the remaining properties, you can target by their kind and their custom name when present. The difference 
-for these properties is that when you have multiple properties of the same kind, 
+For the remaining properties, you can target by their kind and their custom name when present. The difference
+for these properties is that when you have multiple properties of the same kind,
 targeting with the kind becomes ambiguous. For example,
 if your business has two `checkbox` properties named `has-logged-In` and `active-in-last-month`,
 when targeting the property by its kind `{checkbox}` we will automatically use the first text property with respect to the ordering defined in the audience page.
 
 **TL;DR** use the kind only when there's a single property. Use the property's name when there are multiple properties with the same kind.
 
-### Object tags 
+### Object tags
 
 Hellotext ships with the most common types of Objects that are suitable for most ecommerce sites. These include
 `app`, `product`, `cart`, `order`, `coupon`, `order` and `refund` objects. In addition, you can also create your custom objects,
-or modify the existing ones by adding extra properties that are specific to your business's needs. 
+or modify the existing ones by adding extra properties that are specific to your business's needs.
 
-Similarly to profile tags, you can also target the properties of the objects in your tags. The general format of an object tag can be one of the following 
+Similarly to customer profile tags, you can also target the properties of the objects in your tags. The general format of an object tag can be one of the following
 
 1. `{singular_name.property_name}`
 2. `{singular_name.property_kind}`
@@ -74,12 +73,12 @@ Similarly to profile tags, you can also target the properties of the objects in 
 
 The Singular Name is the name of the object autogenerated when you create a new Object.
 
-For example, given an Appointment custom object, that consists of two properties, `Booked At` and `Room`, you can target the values via 
+For example, given an Appointment custom object, that consists of two properties, `Booked At` and `Room`, you can target the values via
 
 - `{appointment.Booked At}`
 - `{appointment.Room}`
 
-When Hellotext detects these tags, it will get the value associated from the object and replace the tag with the value found. 
+When Hellotext detects these tags, it will get the value associated from the object and replace the tag with the value found.
 
 ### Naming Rules {#rules}
 

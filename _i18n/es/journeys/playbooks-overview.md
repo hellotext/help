@@ -1,14 +1,16 @@
 Usa playbooks y automatizaciones cuando Hellotext debe reaccionar al comportamiento de tus clientes sin que alguien de tu equipo envíe cada mensaje manualmente.
 
-Un playbook es un flujo automatizado reutilizable. Puede dar la bienvenida a nuevos suscriptores, hacer seguimiento después de un carrito abandonado, responder preguntas frecuentes, recomendar productos o derivar una conversación al equipo correcto.
+Un playbook es una experiencia automatizada reutilizable. Un playbook puede ser una ruta, una campaña, una captura o un agente de IA según el trabajo que realiza.
 
-## Elige la automatización correcta
+## Elige el tipo de playbook correcto
+
+Usa una **ruta** cuando necesitas un flujo de clientes paso a paso con disparador, mensajes, esperas, condiciones, ramas y derivaciones. Recuperador de Carritos y Constructor de Rutas son ejemplos de playbooks de tipo ruta.
 
 Usa un **playbook preconstruido** cuando el objetivo es común y el flujo recomendado ya encaja con tu negocio. Normalmente es la forma más rápida de lanzar.
 
-Usa una **automatización personalizada** cuando necesitas control total sobre el disparador, tiempos, condiciones, mensajes, ramas o reglas de derivación.
-
 Usa un **agente de IA** cuando la experiencia necesita responder conversacionalmente, usar conocimiento de productos o políticas, recomendar artículos, recopilar información del cliente o decidir cuándo escalar.
+
+Usa una **campaña** cuando quieres un envío puntual a una audiencia seleccionada, y una **captura** cuando el objetivo es recolectar suscriptores o datos de clientes.
 
 ## Antes de activar un playbook
 
@@ -27,7 +29,7 @@ Para playbooks de SMS, asegúrate de que tu cuenta tenga un remitente activo o c
 - Los pasos de espera dan suficiente tiempo antes del siguiente seguimiento.
 - Las condiciones y ramas envían a cada persona por el camino correcto.
 - Los cupones, links, etiquetas y recomendaciones de producto funcionan.
-- Las reglas de derivación humana son claras para cuando una conversación debe salir de la automatización.
+- Las reglas de derivación humana son claras para cuando una conversación debe salir de la ruta o del agente.
 
 ## Mejora después del lanzamiento
 
@@ -37,8 +39,8 @@ Usa lo aprendido para ajustar el prompt, tiempos, condiciones de ramas o textos 
 
 ## Guías relacionadas
 
-- [Primeros pasos con playbooks]({% link _journeys/getting-started-with-journeys.md %})
-- [Automatización personalizada]({% link _journeys/custom-journey.md %})
+- [Primeros pasos con rutas]({% link _journeys/getting-started-with-journeys.md %})
+- [Ruta personalizada]({% link _journeys/custom-journey.md %})
 - [Cómo escribir un gran prompt para tu agente]({% link _journeys/how-to-write-a-great-prompt.md %})
 - [Resumen de configuración]({% link _integrations/setup-overview.md %})
 - [Resumen de herramientas de captura]({% link _captures/capture-overview.md %})

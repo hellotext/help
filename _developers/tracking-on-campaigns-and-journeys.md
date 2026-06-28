@@ -2,11 +2,11 @@
 languages: ["en", "es"]
 
 en:
-  title: Track campaign and automation links
-  description: Learn how to use Hellotext.js to track events from links in campaigns and automations.
+  title: Track campaign and journey links
+  description: Learn how to use Hellotext.js to track events from links in campaigns and journeys.
 es:
-  title: Seguimiento de links en campañas y automatizaciones
-  description: Aprende a usar Hellotext.js para rastrear eventos desde links en campañas y automatizaciones.
+  title: Seguimiento de links en campañas y rutas
+  description: Aprende a usar Hellotext.js para rastrear eventos desde links en campañas y rutas.
 
 permalink: tracking-on-campaigns-and-journeys
 permalink_es: seguimiento-en-campañas-y-rutas

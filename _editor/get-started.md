@@ -2,11 +2,11 @@
 languages: ["en", "es"]
 
 en:
-  title: Get Started
-  description: Learn how to use basic text formatting features of the Hellotext Editor.
+  title: Message editor basics
+  description: Learn how to use basic text formatting features in the Hellotext message editor.
 es:
-  title: Empezar
-  description: Aprende a usar las funciones básicas de formato de texto del Editor de Hellotext.
+  title: Conceptos básicos del editor de mensajes
+  description: Aprende a usar las funciones básicas de formato de texto del editor de mensajes de Hellotext.
 
 permalink: editor/get-started
 permalink_es: editor/empezar
