@@ -12,8 +12,8 @@ permalink: troubleshooting-overview
 permalink_es: resumen-solucion-de-problemas
 
 layout: guide
-topic: troubleshooting-deliverability-release-notes
+topic: troubleshooting-deliverability
 popular: false
 ---
 
-{% translate_file troubleshooting-deliverability-release-notes/troubleshooting-overview.md %}
+{% translate_file troubleshooting-deliverability/troubleshooting-overview.md %}

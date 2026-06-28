@@ -38,7 +38,3 @@ Sigue leyendo: [Resumen de analítica, reportes y atribución]({% link _analytic
 Si las conversaciones no las está gestionando la persona correcta, o si la performance de respuesta parece incorrecta, revisa asignación, roles, ownership y configuración de tiempos de respuesta.
 
 Sigue leyendo: [Resumen de inbox y conversaciones]({% link _team/inbox-overview.md %}).
-
-## Novedades
-
-El contenido de novedades debe basarse en comportamiento ya publicado. A medida que agreguemos actualizaciones de producto al centro de ayuda, deberían vivir en esta sección o enlazarse desde aquí.

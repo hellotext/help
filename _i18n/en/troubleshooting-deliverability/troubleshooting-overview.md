@@ -38,7 +38,3 @@ Keep reading: [Analytics, reporting, and attribution overview]({% link _analytic
 If conversations are not being handled by the right person, or response performance looks off, check assignment, roles, ownership, and response-time configuration.
 
 Keep reading: [Inbox and conversations overview]({% link _team/inbox-overview.md %}).
-
-## Release notes
-
-Release-note content should be based on shipped behavior. As product updates are added to the help center, they should live in this section or link from here.
