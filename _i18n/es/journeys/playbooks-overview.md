@@ -51,7 +51,7 @@ Para playbooks de SMS, asegúrate de que tu cuenta tenga un remitente activo o c
 
 Empieza con una audiencia enfocada y revisa las primeras conversaciones antes de ampliar. Busca respuestas, expectativas no cubiertas, links rotos, problemas de timing y lugares donde una persona tuvo que intervenir.
 
-Usa lo aprendido para ajustar el prompt, tiempos, condiciones de ramas o textos de la plantilla.
+Usa lo aprendido para ajustar el prompt, tiempos, condiciones de ramas o textos de la plantilla. Para métricas de ingresos, conversión y derivación, usa [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %}).
 
 ## Guías relacionadas
 
@@ -64,6 +64,7 @@ Usa lo aprendido para ajustar el prompt, tiempos, condiciones de ramas o textos 
 - [Ruta personalizada]({% link _journeys/custom-journey.md %})
 - [Cómo escribir un gran prompt para tu agente]({% link _journeys/how-to-write-a-great-prompt.md %})
 - [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})
+- [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})
 - [Resumen de configuración]({% link _integrations/setup-overview.md %})
 - [Resumen de herramientas de captura]({% link _captures/capture-overview.md %})
 - [Resumen del editor de mensajes]({% link _numbers/message-editor-overview.md %})

@@ -51,7 +51,7 @@ For SMS playbooks, make sure your account has an active sender or short code ava
 
 Start with a focused audience and review the first conversations before expanding. Look for replies, missed expectations, broken links, timing issues, and places where a human had to step in.
 
-Use what you learn to adjust the prompt, timing, branch conditions, or template copy.
+Use what you learn to adjust the prompt, timing, branch conditions, or template copy. For revenue, conversion, and handoff metrics, use [Playbook reporting]({% link _analytics-reporting-attribution/playbook-reporting.md %}).
 
 ## Related guides
 
@@ -64,6 +64,7 @@ Use what you learn to adjust the prompt, timing, branch conditions, or template 
 - [Custom journey]({% link _journeys/custom-journey.md %})
 - [How to write a great agent prompt]({% link _journeys/how-to-write-a-great-prompt.md %})
 - [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %})
+- [Playbook reporting]({% link _analytics-reporting-attribution/playbook-reporting.md %})
 - [Setup overview]({% link _integrations/setup-overview.md %})
 - [Capture tools overview]({% link _captures/capture-overview.md %})
 - [Message editor overview]({% link _numbers/message-editor-overview.md %})

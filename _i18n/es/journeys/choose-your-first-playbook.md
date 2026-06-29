@@ -74,7 +74,7 @@ Revisa los primeros resultados antes de sumar más automatización.
 
 Mira respuestas, clicks, bajas, derivaciones, mensajes fallidos, conversión, ingresos atribuidos y si los clientes recibieron el siguiente paso que esperabas.
 
-Después ajusta una cosa por vez: audiencia, disparador, timing, mensaje, oferta, prompt o regla de derivación.
+Después ajusta una cosa por vez: audiencia, disparador, timing, mensaje, oferta, prompt o regla de derivación. Para una lectura más profunda, usa [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %}).
 
 ## Guías relacionadas
 
@@ -87,4 +87,5 @@ Después ajusta una cosa por vez: audiencia, disparador, timing, mensaje, oferta
 - [Primeros pasos con rutas]({% link _journeys/getting-started-with-journeys.md %})
 - [Resumen de herramientas de captura]({% link _captures/capture-overview.md %})
 - [Resumen de campañas y broadcasts]({% link _campaigns/campaigns-overview.md %})
+- [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})
 - [Resumen de analítica, reportes y atribución]({% link _analytics-reporting-attribution/analytics-overview.md %})

@@ -143,6 +143,7 @@ If the answer is no, keep the launch small while you fix the weakest part.
 - [Go-live checklist before you send]({% link _getting-started/go-live-checklist.md %})
 - [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})
 - [Analytics, reporting, and attribution overview]({% link _analytics-reporting-attribution/analytics-overview.md %})
+- [Playbook reporting]({% link _analytics-reporting-attribution/playbook-reporting.md %})
 - [Campaign reporting]({% link _analytics-reporting-attribution/campaign-reporting.md %})
 - [Sales attribution]({% link _analytics-reporting-attribution/sales-attribution.md %})
 - [Inbox and conversations overview]({% link _team/inbox-overview.md %})

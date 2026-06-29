@@ -14,6 +14,14 @@ Usa reportes de campaña cuando necesites evaluar un broadcast, comparar perform
 
 Sigue leyendo: [Reportes de campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %}).
 
+## Reportes de playbooks y rutas
+
+Los reportes de playbooks te ayudan a revisar flujos siempre activos, agentes de IA y rutas después de que empiezan a recibir actividad real de clientes.
+
+Usa reportes de playbooks cuando necesites comparar ingresos atribuidos, comportamiento de conversión, tiempo hasta conversión, tasa de derivación y la calidad de las derivaciones detrás de los números.
+
+Sigue leyendo: [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %}).
+
 ## Atribución
 
 La atribución explica cuándo Hellotext recibe crédito por una venta y cuándo no.
@@ -49,6 +57,7 @@ Si estás revisando tu primer lanzamiento, empieza por [Mide el éxito en tus pr
 ## Guías relacionadas
 
 - [Mide el éxito en tus primeros 7 días]({% link _getting-started/measure-success-first-7-days.md %})
+- [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})
 - [Crea una campaña]({% link _campaigns/creating-a-campaign.md %})
 - [Resumen de precios, facturación y planes]({% link _billing/billing-overview.md %})
 - [Resumen de desarrolladores y API]({% link _developers/developers-overview.md %})

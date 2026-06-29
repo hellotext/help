@@ -143,6 +143,7 @@ Si la respuesta es no, mantén el lanzamiento pequeño mientras corriges la part
 - [Checklist antes de enviar]({% link _getting-started/go-live-checklist.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Resumen de analítica, reportes y atribución]({% link _analytics-reporting-attribution/analytics-overview.md %})
+- [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})
 - [Reportes de campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %})
 - [Atribución de ventas]({% link _analytics-reporting-attribution/sales-attribution.md %})
 - [Resumen de inbox y conversaciones]({% link _team/inbox-overview.md %})

@@ -74,7 +74,7 @@ Review the first results before adding more automation.
 
 Look at replies, clicks, opt-outs, handoffs, failed messages, conversion, attributed revenue, and whether customers received the next step you expected.
 
-Then adjust one thing at a time: audience, trigger, timing, message, offer, prompt, or handoff rule.
+Then adjust one thing at a time: audience, trigger, timing, message, offer, prompt, or handoff rule. For a deeper read, use [Playbook reporting]({% link _analytics-reporting-attribution/playbook-reporting.md %}).
 
 ## Related guides
 
@@ -87,4 +87,5 @@ Then adjust one thing at a time: audience, trigger, timing, message, offer, prom
 - [Getting started with journeys]({% link _journeys/getting-started-with-journeys.md %})
 - [Capture tools overview]({% link _captures/capture-overview.md %})
 - [Campaigns and broadcasts overview]({% link _campaigns/campaigns-overview.md %})
+- [Playbook reporting]({% link _analytics-reporting-attribution/playbook-reporting.md %})
 - [Analytics, reporting, and attribution overview]({% link _analytics-reporting-attribution/analytics-overview.md %})

@@ -14,6 +14,14 @@ Use campaign reporting when you need to evaluate a broadcast, compare message pe
 
 Keep reading: [Campaign reporting]({% link _analytics-reporting-attribution/campaign-reporting.md %}).
 
+## Playbook and route reports
+
+Playbook reporting helps you review always-on workflows, AI agents, and journey routes after they start receiving real customer activity.
+
+Use playbook reporting when you need to compare attributed revenue, conversion behavior, time to conversion, escalation rate, and the handoff quality behind the numbers.
+
+Keep reading: [Playbook reporting]({% link _analytics-reporting-attribution/playbook-reporting.md %}).
+
 ## Attribution
 
 Attribution explains when Hellotext receives credit for a sale and when it does not.
@@ -49,6 +57,7 @@ If you are reviewing your first launch, start with [Measure success in your firs
 ## Related guides
 
 - [Measure success in your first 7 days]({% link _getting-started/measure-success-first-7-days.md %})
+- [Playbook reporting]({% link _analytics-reporting-attribution/playbook-reporting.md %})
 - [Create a campaign]({% link _campaigns/creating-a-campaign.md %})
 - [Pricing, billing, and plans overview]({% link _billing/billing-overview.md %})
 - [Developers and API overview]({% link _developers/developers-overview.md %})
