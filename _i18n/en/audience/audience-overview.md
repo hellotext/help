@@ -10,6 +10,14 @@ A subscriber is a customer profile that has opted in to receive messages on a ch
 
 Keep reading: [Who can I message? Consent and subscriber status]({% link _audience/consent-and-subscriber-status.md %}).
 
+## Import customer profiles
+
+Use imports when you need to bring existing customer profile data from a service, spreadsheet, CRM export, or another source into Hellotext.
+
+Imports can create or update customer profiles, organize them into lists, and help you prepare audiences for segmentation, personalization, campaigns, playbooks, routes, and Inbox workflows.
+
+Keep reading: [Import customer profiles]({% link _audience/import-customer-profiles.md %}).
+
 ## Lists and segments
 
 Use **lists** when you want to manually group customer profiles into a fixed audience.
@@ -40,6 +48,7 @@ Before launching a campaign, playbook, or route, check:
 
 ## Related guides
 
+- [Import customer profiles]({% link _audience/import-customer-profiles.md %})
 - [Create and manage lists]({% link _audience/lists.md %})
 - [Who can I message? Consent and subscriber status]({% link _audience/consent-and-subscriber-status.md %})
 - [Build segments]({% link _audience/segments.md %})

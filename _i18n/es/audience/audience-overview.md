@@ -10,6 +10,14 @@ Un suscriptor es un perfil de cliente que aceptó recibir mensajes por un canal.
 
 Sigue leyendo: [A quién puedo escribirle: consentimiento y estado de suscripción]({% link _audience/consent-and-subscriber-status.md %}).
 
+## Importar perfiles de cliente
+
+Usa importaciones cuando necesitas llevar datos existentes de perfiles de cliente desde un servicio, planilla, exportación de CRM u otra fuente a Hellotext.
+
+Las importaciones pueden crear o actualizar perfiles de cliente, organizarlos en listas y ayudarte a preparar audiencias para segmentación, personalización, campañas, playbooks, rutas y flujos del Inbox.
+
+Sigue leyendo: [Importa perfiles de cliente]({% link _audience/import-customer-profiles.md %}).
+
 ## Listas y segmentos
 
 Usa **listas** cuando quieres agrupar perfiles de cliente manualmente en una audiencia fija.
@@ -40,6 +48,7 @@ Antes de lanzar una campaña, playbook o ruta, revisa:
 
 ## Guías relacionadas
 
+- [Importa perfiles de cliente]({% link _audience/import-customer-profiles.md %})
 - [Crea y gestiona listas]({% link _audience/lists.md %})
 - [A quién puedo escribirle: consentimiento y estado de suscripción]({% link _audience/consent-and-subscriber-status.md %})
 - [Crea segmentos]({% link _audience/segments.md %})

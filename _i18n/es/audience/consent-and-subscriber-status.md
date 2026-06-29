@@ -108,6 +108,7 @@ No ignores una baja solo para agrandar una campaña, playbook o ruta.
 ## Guías relacionadas
 
 - [Resumen de audiencia y segmentación]({% link _audience/audience-overview.md %})
+- [Importa perfiles de cliente]({% link _audience/import-customer-profiles.md %})
 - [Resumen de herramientas de captura]({% link _captures/capture-overview.md %})
 - [Resumen de canales de mensajería]({% link _numbers/messaging-overview.md %})
 - [Checklist antes de enviar]({% link _getting-started/go-live-checklist.md %})

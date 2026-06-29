@@ -18,6 +18,8 @@ Sigue leyendo: [Qué son las señales]({% link _journeys/what-are-signals.md %})
 
 Para recuperación de carritos específicamente, mira [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
 
+Si quieres explorar más opciones antes de elegir, usa [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %}).
+
 ## Elige por primer objetivo
 
 | Si tu primer objetivo es... | Empieza con... | Por qué |
@@ -78,6 +80,7 @@ Después ajusta una cosa por vez: audiencia, disparador, timing, mensaje, oferta
 
 - [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})
 - [Primeros logros recomendados]({% link _getting-started/first-wins-starter-pack.md %})
+- [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
 - [Qué son las señales]({% link _journeys/what-are-signals.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %})

@@ -18,6 +18,8 @@ Keep reading: [What are signals?]({% link _journeys/what-are-signals.md %}).
 
 For cart recovery specifically, see [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
 
+If you want to browse more options before choosing, use [Playbook library by mission]({% link _journeys/playbook-library-by-mission.md %}).
+
 ## Choose by first goal
 
 | If your first goal is... | Start with... | Why |
@@ -78,6 +80,7 @@ Then adjust one thing at a time: audience, trigger, timing, message, offer, prom
 
 - [Playbooks and automation overview]({% link _journeys/playbooks-overview.md %})
 - [First wins starter pack]({% link _getting-started/first-wins-starter-pack.md %})
+- [Playbook library by mission]({% link _journeys/playbook-library-by-mission.md %})
 - [What are signals?]({% link _journeys/what-are-signals.md %})
 - [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})
 - [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %})
