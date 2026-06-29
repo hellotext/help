@@ -1,25 +1,73 @@
-Con rutas, puedes configurar procesos automatizados que se activan en función de las interacciones de tus clientes con tu negocio.
+Usa una ruta cuando quieres un flujo de clientes paso a paso con un disparador claro, esperas, mensajes, condiciones, ramas y derivaciones.
 
-Las rutas son una herramienta poderosa para interactuar con tus clientes y promover más ventas.
+Una ruta es un tipo de playbook. No todos los playbooks son rutas.
 
-Por ejemplo, puedes crear una ruta que envíe un mensaje de bienvenida con un código de descuento a los clientes cuando se suscriban. También puedes usar rutas para recuperar carros abandonados enviando un recordatorio con un descuento unas horas después de que un cliente deje artículos en su carrito de compras.
+Algunos playbooks son más autónomos: por ejemplo, un recomendador de productos, soporte post-compra o un agente de preguntas frecuentes pueden leer señales, entender intención y decidir qué hacer en la conversación. Esos playbooks pueden usar agentes de IA o lógica de decisión en lugar de una ruta fija.
 
-Las rutas son extremadamente flexibles y sus posibilidades son infinitas. Te ofrecemos una variedad de plantillas prediseñadas que puedes activar fácilmente para los escenarios más comunes, pero también puedes crear rutas completamente personalizadas desde cero.
+## Cuándo usar una ruta
 
-### Cómo funcionan las rutas
+Usa una ruta cuando la secuencia debería ser predecible y quieres controlar el camino.
 
-Las rutas se activan con acciones realizadas por tus clientes. Puedes iniciar cualquier ruta basándote en cualquier acción, incluso en acciones personalizadas que hayas definido.
+Buenos casos para una ruta:
 
-Las rutas avanzan a través de una serie predeterminada de pasos en un orden específico. Estos pasos pueden incluir mensajes de texto, condiciones que te permiten dividir la ruta en diferentes caminos y intervalos de tiempo de espera.
+- Dar la bienvenida a un nuevo suscriptor.
+- Ejecutar una ruta simple de carrito abandonado.
+- Enviar un seguimiento después de una compra.
+- Esperar una cantidad específica de tiempo antes de un segundo mensaje.
+- Ramificar según si el cliente hizo clic, respondió, compró o cumplió una condición.
+- Derivar a una persona después de un paso específico.
 
-### Cómo crear una ruta
+Un carrito abandonado puede existir de más de una forma: como una plantilla de ruta simple con pasos fijos, o como un playbook con IA que decide de forma más dinámica usando señales y contexto del cliente.
 
-Visita la sección de *Rutas* y haz clic en el botón *Nueva ruta*.
+Sigue leyendo: [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
 
-Se te presentarán diferentes plantillas. Selecciona la que quieras habilitar para acceder al editor de journeys.
+## Cuándo usar otro tipo de playbook
 
-El flujo de la ruta se volverá visible empezando desde su disparador y continuando a través de cada paso. Puedes personalizar cualquiera de los pasos presentados.
+Usa un playbook más autónomo o un agente de IA cuando la experiencia necesita decidir en tiempo real.
 
-Haz clic en *Guardar cambios* para asegurarte de que tus cambios no se pierden. No te preocupes, la ruta aún no está activada.
+Ejemplos:
 
-Cuando estés listo, puedes presionar *Publicar* para que tu ruta se publique. Si lo prefieres, también puedes despublicarla haciendo clic en *Desactivar*.
+- Recomendar productos desde un catálogo.
+- Responder preguntas frecuentes.
+- Entender el mensaje de un cliente y elegir la siguiente respuesta.
+- Decidir qué oferta, producto, canal o momento es mejor para cada cliente.
+- Coordinarse con otros playbooks para no saturar a los clientes.
+
+Sigue leyendo: [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %}).
+
+## Cómo funcionan las rutas
+
+Una ruta empieza cuando un cliente coincide con un disparador. Ese disparador puede venir de una herramienta de captura, la integración de tu tienda, una campaña, un evento personalizado o una conversación.
+
+Después del disparador, Hellotext mueve al cliente por la ruta que definiste. La ruta puede enviar un mensaje, esperar un tiempo, revisar una condición, ramificar, aplicar un cupón o derivar la conversación a una persona.
+
+La diferencia importante es que la ruta la diseñas tú. Hellotext sigue la ruta y sus condiciones; no es lo mismo que un playbook autónomo decidiendo toda la misión por sí solo.
+
+## Empieza desde una plantilla de ruta
+
+Usa una plantilla de ruta cuando quieres lanzar rápidamente un flujo paso a paso probado.
+
+Para crear una, ve al área de automatización en Hellotext, elige una plantilla de ruta, revisa el disparador y los pasos, y ajusta el texto, tiempos, canal, condiciones y reglas de derivación antes de publicar.
+
+Si ninguna plantilla se ajusta a lo que necesitas, crea una [ruta personalizada]({% link _journeys/custom-journey.md %}).
+
+## Revisa antes de publicar
+
+Antes de publicar, verifica que:
+
+- El disparador coincida con el comportamiento al que quieres reaccionar.
+- Los pasos de la ruta ocurran en el orden que esperas.
+- Los tiempos de espera sean razonables para el cliente.
+- El canal esté conectado y listo.
+- La audiencia y reglas de consentimiento sean correctas.
+- Los mensajes suenen como tu marca.
+- Los links, cupones y etiquetas de personalización funcionen.
+- Cualquier derivación a un equipo humano sea clara.
+
+Haz clic en **Guardar cambios** mientras trabajas. La ruta permanece inactiva hasta que la publiques.
+
+Cuando esté lista, haz clic en **Publicar**. Para detenerla más adelante, desactívala.
+
+## Próximos pasos
+
+Si tu flujo necesita un agente de IA, revisa [cómo escribir un gran prompt para tu agente]({% link _journeys/how-to-write-a-great-prompt.md %}).

@@ -1,22 +1,22 @@
-After sending a campaign or activating a journey you will want to learn about its results: how customers engaged and behaved. And ideally, you also would like to keep this information in such a way that it can be re-used in future marketing campaigns.
+After sending a campaign, activating a route, or enabling a playbook, you will want to learn how customers engaged and behaved. Ideally, you also want to keep that behavior as signals Hellotext can reuse later.
 
-Luckily enough, this is exactly the purpose behind using Campaigns and the good news is that it is made simple to implement. 
+This is the purpose of tracking links and events: connect each click back to a customer profile, session, report, and future decision.
 
-## Short links and Sessions
+## Short links and sessions
 
-A short link is simply a way to reduce the length of a URL to something that looks like `hello.link/3lsnvh`. 
+A short link is simply a way to reduce the length of a URL to something that looks like `hello.link/3lsnvh`.
 
 This helps you overcome the 160-character limit of text messages, leaving more space for the message. On text messages, shorter links also feel more inviting.
 
-You can share shortened links in your messages on Campaigns and Journeys.
+You can share shortened links in campaign, route, playbook, and Inbox messages.
 
 When customers click on a short link they are redirected to the original URL. Hellotext attaches a GET parameter to the original URL called `hellotext_session` containing a session identifier uniquely generated for each click.
 
-Every time a customer clicks on a short link, an event will be created and will appear on their profile's activities. Clicks are also aggregated to the reports of the campaign or journey.
+Every time a customer clicks on a short link, an event is created and appears in the customer profile activity. Clicks can also be aggregated in campaign, route, or playbook reports when that report is available.
 
 ## Getting started tracking
 
-If your site runs with any of the platforms we already offer integration support, you can connect it to start tracking events automatically. 
+If your site runs with any of the platforms we already offer integration support, you can connect it to start tracking events automatically.
 
 If your integration is not yet supported or if you have your own custom implementation, you can start tracking events by installing the [**Hellotext.js**](https://github.com/hellotext/hellotext.js) library.
 
@@ -65,6 +65,6 @@ Hellotext.session
 // Returns bBJn9vR15yPaYkWmR2QK0jopMeNxrA6l
 ```
 
-You can then track events sending a `POST` request directly to the API. 
+You can then track events sending a `POST` request directly to the API.
 
-Learn more on [**External tracking**](/external-tracking)
+Learn more: [**External tracking**]({% link _developers/external-tracking.md %}).

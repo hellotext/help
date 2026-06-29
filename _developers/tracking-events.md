@@ -3,10 +3,10 @@ languages: ["en", "es"]
 
 en:
   title: Tracking events
-  description: Understand how to track your customers actions.
+  description: Understand how to track customer activity from your site, store, or custom system.
 es:
   title: Seguimiento de eventos
-  description: Comprende cómo realizar un seguimiento de las acciones de tus clientes.
+  description: Entiende cómo rastrear actividad de clientes desde tu sitio, tienda o sistema personalizado.
 
 permalink: tracking-events
 permalink_es: seguimiento-de-eventos

@@ -3,10 +3,10 @@ languages: ["en", "es"]
 
 en:
   title: Frequent questions
-  description: Get quick answers to some of the most common questions about the platform.
+  description: Get quick answers and find the right guide for setup, channels, playbooks, reporting, billing, and troubleshooting.
 es:
   title: Preguntas frecuentes
-  description: Obtén respuestas rápidas a algunas de las preguntas más comunes sobre la plataforma.
+  description: Encuentra respuestas rápidas y la guía correcta para configuración, canales, playbooks, reportes, facturación y troubleshooting.
 
 permalink: frequent-questions
 permalink_es: preguntas-frecuentes

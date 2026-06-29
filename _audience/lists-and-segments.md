@@ -2,10 +2,10 @@
 languages: ["en", "es"]
 
 en:
-  title: Understanding Lists and Segments
+  title: Lists vs. segments
   description: Learn the differences between Lists and Segments for organizing and segmenting subscribers.
 es:
-  title: Diferencias entre Listas y Segmentos
+  title: Listas vs. segmentos
   description: Conoce cuando conviene utilizar cada una para organizar y segmentar suscriptores.
 
 permalink: lists-and-segments

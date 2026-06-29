@@ -1,56 +1,77 @@
-Algunos consejos y recomendaciones para que comiences a aprovechar al máximo Hellotext desde el primer día.
+Usa estas prácticas junto con el [checklist de lanzamiento]({% link _getting-started/launch-checklist.md %}) cuando estés preparando tu primer playbook, ruta o envío real.
 
-## Generales
+El objetivo es aprender con un lanzamiento controlado antes de ampliar la audiencia o activar más automatización.
 
-#### Horarios Nocturnos
+## Empieza con una audiencia pequeña
 
-Configura Hellotext para evitar que tus automatizaciones y campañas se envíen en horarios inconvenientes para tus clientes. Elige la franja horaria en la que prefieres no contactarlos.
+Crea una audiencia de prueba con tu propio número y algunos compañeros del equipo. Envía el mensaje a esa audiencia primero para revisar la experiencia real del cliente en el canal final.
 
-> **Ejemplo:** Un cliente añadió un producto a su carrito a las 6:30 p.m., pero no completó la compra. Tienes una automatización programada para enviar un recordatorio por WhatsApp 8 horas después. Sin la configuración de "Horarios Nocturnos" de Hellotext, el mensaje llegaría a las 2:30 a.m. Sin embargo, al configurar tus horarios nocturnos entre las 7:00 p.m. y las 9:00 a.m., el mensaje se enviará a las 9:00 a.m. del día siguiente.
+Antes de enviar a clientes, revisa:
 
-#### Bundles y Créditos Extra
+- El remitente o número de WhatsApp es el que esperabas.
+- El mensaje se entiende sin contexto adicional.
+- Los links abren la página correcta y usan tracking cuando corresponde.
+- El texto de baja o desuscripción está presente cuando es necesario.
+- Las respuestas llegan al Inbox y se pueden asignar.
 
-Tu plan de Hellotext incluye créditos, pero sabemos que algunos meses podrías necesitar más. Para esos casos, ofrecemos **Bundles**. Solo contacta a tu Account Manager y dile qué Bundle necesitas. Los Bundles tienen un precio especial, así que asegúrate de adquirir uno antes de agotar tus créditos extra.
+Sigue leyendo: [Crea una campaña]({% link _campaigns/creating-a-campaign.md %}).
 
-## Plantillas
+## Envía a clientes con una relación clara
 
-Guarda como plantillas los mensajes que usas con frecuencia, para no tener que escribirlos desde cero. Las plantillas más comunes incluyen:
+Para el primer envío a clientes, elige personas que hayan interactuado recientemente con tu negocio o que claramente hayan aceptado recibir mensajes.
 
-- Mensaje de bienvenida
-- Estado de pedido
-- Métodos de pago
+Evita listas frías, antiguas o no verificadas. Un primer envío enfocado te da señales más limpias sobre contenido, timing, entregabilidad y respuestas.
 
-## Herramientas de Captura
+Sigue leyendo: [Listas vs. segmentos]({% link _audience/lists-and-segments.md %}).
 
-Utiliza códigos de descuento para motivar a tus clientes a completar formularios con su información.
+## Mantén el mensaje simple
 
-#### Códigos QR
+Escribe el primer mensaje alrededor de una sola acción. Evita mezclar demasiadas ofertas, links, preguntas o explicaciones en el mismo envío.
 
-Personaliza el título de tu QR, idealmente con el nombre del lugar donde lo colocarás. Así podrás rastrear las estadísticas de cada QR y saber a qué ubicación corresponde.
+Los buenos primeros envíos suelen responder:
 
-#### Instagram
+- ¿Por qué el cliente recibe esto?
+- ¿Qué tiene de útil?
+- ¿Qué debería hacer el cliente después?
 
-Coloca un QR en tu cuenta de Instagram un par de veces al mes para captar los datos de tus seguidores y mantener un contacto constante con ellos.
+Sigue leyendo: [Resumen del editor de mensajes]({% link _numbers/message-editor-overview.md %}).
 
-#### Formularios
+## Respeta horarios y frecuencia
 
-Crea categorías en los perfiles de tus usuarios que se completarán automáticamente cuando tus clientes llenen un formulario con su información.
+Revisa horarios silenciosos, expectativas del canal y frecuencia antes de lanzar campañas, playbooks o rutas.
 
-> **Ejemplo:** Tienes una tienda de accesorios para mascotas y creas una categoría llamada “nombre de mascota” dentro de los perfiles de usuario. Al crear el formulario, esta categoría aparecerá como un campo en blanco para que el cliente lo complete con el nombre de su mascota. Hellotext almacenará automáticamente esa información en la categoría correspondiente.
+Si una automatización espera varias horas antes de enviar un mensaje, asegúrate de que el horario final siga siendo razonable para el cliente.
 
-### Audiencia
+Para playbooks y rutas, revisa trigger, demora, audiencia, canal y reglas de detención antes de activarlos.
 
-#### Segmentos
+Sigue leyendo: [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %}).
 
-Dedica tiempo a crear segmentos para tus diferentes categorías, productos y precios. Asegúrate de asignar un nombre claro a cada segmento para que puedas elegir siempre el que mejor se adapte a tus campañas. Hellotext actualizará automáticamente los segmentos para que cada cliente pertenezca al que le corresponda.
+## Nombra claramente las herramientas de captura
 
-## Campañas
+Usa nombres que expliquen dónde se usa cada herramienta de captura. Por ejemplo, nombra un código QR según la tienda, evento, folleto, empaque o mostrador donde los clientes lo van a escanear.
 
-Crea una audiencia llamada **"test"** que incluya tu número personal y el de algunos miembros de tu equipo (no más de tres). Así podrás verificar cómo lucen las campañas antes de enviarlas a tus clientes.
+Los nombres claros facilitan leer los reportes después, porque puedes identificar qué fuente creó cada perfil de cliente.
 
-> **Letra pequeña:** Al redactar una campaña de WhatsApp, verás un pequeño texto al final que dice *“Envía BAJA para dejar de recibir promociones”*. Esto es lo que llamamos letra pequeña. Lo usamos para que los usuarios que no quieran recibir más mensajes puedan desuscribirse automáticamente. Si un usuario envía **BAJA**, quedará desuscrito, pero su perfil seguirá activo en tu base de datos.
+Sigue leyendo: [Resumen de herramientas de captura]({% link _captures/capture-overview.md %}).
 
+## Usa los datos del perfil del cliente con intención
 
-## Bandeja
+Usa formularios, opt-ins de checkout e integraciones para recopilar datos útiles del perfil del cliente. Mantén nombres de campos claros para que tu equipo entienda qué significa cada propiedad.
 
-Recuerda marcar las conversaciones como cerradas cuando la interacción con un cliente haya finalizado. De esta forma, mantendrás tu bandeja organizada y sabrás qué conversaciones aún necesitan atención.
+Cuando crees segmentos, usa nombres que describan la audiencia buscada y no solo la regla.
+
+Sigue leyendo:
+
+- [Resumen de audiencia y segmentación]({% link _audience/audience-overview.md %})
+- [Etiquetas de personalización]({% link _audience/personalization-tags.md %})
+
+## Observa las primeras respuestas
+
+Después del primer lanzamiento, mira respuestas, bajas, mensajes fallidos, clics, decisiones de playbooks, derivaciones y ventas atribuidas antes de cambiar demasiadas configuraciones a la vez.
+
+Cierra conversaciones cuando la interacción haya terminado para mantener el Inbox limpio y que las métricas de tiempo de respuesta sigan siendo útiles.
+
+Sigue leyendo:
+
+- [Resumen de inbox y conversaciones]({% link _team/inbox-overview.md %})
+- [Reportes de campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %})

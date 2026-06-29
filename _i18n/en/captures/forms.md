@@ -1,5 +1,5 @@
-Forms allow you to create dynamic Forms based on built-in subscriber attributes such as First Name and Last Name, 
-or custom properties you have created for your subscriber list.
+Forms allow you to create dynamic forms based on built-in customer profile attributes such as first name and last name,
+or custom properties you have created for your audience.
 
 ## Creating a Form
 
@@ -17,7 +17,7 @@ From available options to choose from, select **Website Form** and you will be t
 
 <img src="images/captures/forms/en/component-header.jpeg" alt="" width="768" />
 
-The Hero is the header of the form. It is the first thing that your subscribers see when the form is loaded. 
+The Hero is the header of the form. It is the first thing that visitors see when the form is loaded.
 Hellotext, when loading the form, looks for an HTML element with the `data-form-hero` attribute and loads the content inside it.
 If the element is not found, Hellotext creates the header manually, and prepends it to the form, making sure that it is the first component in the element.
 
@@ -25,7 +25,7 @@ If the element is not found, Hellotext creates the header manually, and prepends
 
 <img src="images/captures/forms/en/component-inputs.jpeg" alt="" width="768" />
 
-The Inputs are the fields that your subscribers need to fill. You can specify which fields are required and which ones are not in the Form editor. 
+The Inputs are the fields that visitors need to fill. You can specify which fields are required and which ones are not in the Form editor.
 In the form editor, you can add any field based on an existing property, and control whether the field is required or not. For each Input, Hellotext generates an HTML element that looks like this
 
 ```html
@@ -37,7 +37,7 @@ In the form editor, you can add any field based on an existing property, and con
 ```
 
 Like the Hero, Hellotext looks for an HTML element within the form with `data-form-inputs` identifier and loads the inputs inside it.
-The `data-error-container` element is used and displayed only when the user tries to submit the form and they have not filled required field/s.
+The `data-error-container` element is used and displayed only when the visitor tries to submit the form and has not filled the required fields.
 
 ### Button
 
@@ -50,7 +50,7 @@ If the element is not found, Hellotext creates the button manually, and appends 
 
 <img src="images/captures/forms/en/component-footer.jpeg" alt="" width="768" />
 
-The Notice is the footer of the form. It is the last thing that your subscribers will see when the form is shown. 
+The Notice is the footer of the form. It is the last thing that visitors will see when the form is shown.
 Hellotext looks for an HTML element with the `data-form-notice` attribute and loads the content inside it. 
 If the element is not found, Hellotext creates the footer manually, and appends it to the form after the Button section.
 
@@ -59,7 +59,7 @@ If the element is not found, Hellotext creates the footer manually, and appends 
 Hellotext prevents identity theft and impersonation of other people. Additionally, Hellotext ensures that any existing data
 you have is not tampered with unreliable data. How?
 
-When you create a form that has a _Phone_ or _Email_ property. Once the entity fills the form. Hellotext sends a verification link to the email and/or phone number that the entity has entered.
+When you create a form that has a _Phone_ or _Email_ property, Hellotext sends a verification link to the email and/or phone number entered by the person who filled the form.
 
 - If they have filled in an email, an email is sent to that specific email address. Once clicked, the email is verified. 
 - If they have filled in a phone number, an SMS is sent to that specific phone number. Once clicked, the phone number is verified. 
@@ -124,7 +124,7 @@ Hellotext forms have bare minimum styling to ensure that they look good on any w
 
 ## Hellotext Attribution
 
-Hellotext logo is displayed at the bottom-right of the form. This is to ensure that your subscribers know that the form is powered by Hellotext, and that their data is secure and protected.
+The Hellotext logo is displayed at the bottom-right of the form so visitors know that the form is powered by Hellotext and that their data is secure and protected.
 This is part of our _White Label_ policy, it is required that this logo be displayed and kept visible on the form. Unless the package you subscribe to has the _White Label_ feature enabled.
 Please refer to our [Pricing](https://www.hellotext.com/pricing) for more information regarding available packages and the features.
 
@@ -134,4 +134,4 @@ Please refer to our [Pricing](https://www.hellotext.com/pricing) for more inform
 Forms rely on [Hellotext.js](https://github.com/hellotext/hellotext.js); it is required to install Hellotext.js to dynamically populate the form. The following events are dispatched by Hellotext.js
 
 - `forms:collected` - Dispatched when Hellotext collects all the forms. Collection means that Hellotext has contacted the API and fetched the form data. The event's payload is the array of forms that were collected.
-- `form:completed` - Dispatched when the user fills all required inputs in the form, and successfully completes the One Time Password code we send. 
+- `form:completed` - Dispatched when the visitor fills all required inputs in the form, and successfully completes the One Time Password code we send.

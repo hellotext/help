@@ -55,80 +55,128 @@ collections:
   topics:
     order:
       - getting-started.html
-      - best-practices.html
+      - integrations.html
+      - numbers.html
+      - captures.html
+      - journeys.html
+      - team.html
       - campaigns.html
       - audience.html
-      - numbers.html
-      - team.html
-      - journeys.html
-      - captures.html
+      - analytics-reporting-attribution.html
       - billing.html
-      - integrations.html
       - developers.html
-      - editor.html
+      - troubleshooting-deliverability.html
     output: true
   campaigns:
     order:
+      - campaigns-overview.md
       - creating-a-campaign.md
-      - campaign-reporting.md
     output: true
   audience:
+    order:
+      - audience-overview.md
+      - consent-and-subscriber-status.md
+      - import-customer-profiles.md
+      - personalization-tags.md
+      - lists-and-segments.md
+      - lists.md
+      - segments.md
+    output: true
+  analytics-reporting-attribution:
+    order:
+      - analytics-overview.md
+      - playbook-reporting.md
+      - campaign-reporting.md
+      - tracked-links.md
+      - sales-attribution.md
     output: true
   numbers:
     order:
-      - acquiring-a-number.md
-      - migrating-an-existing-number.md
-      - acquiring-a-keyword.md
-      - obtaining-an-exclusive-shortcode.md
+      - messaging-overview.md
+      - whatsapp-channel-fundamentals.md
+      - message-editor-overview.md
+      - message-editor-basics.md
+      - share-a-location.md
+      - exclusive-short-codes.md
     output: true
   team:
     order:
-      - understanding-team-roles.md
+      - inbox-overview.md
+      - ai-handoff-to-inbox.md
       - assigning-conversations.md
       - understanding-response-times.md
-      - transferring-ownership.md
+      - understanding-team-roles.md
     output: true
   getting-started:
     output: true
     order:
+      - what-is-hellotext.md
+      - how-hellotext-works.md
+      - first-wins-starter-pack.md
+      - launch-checklist.md
+      - implementation-paths.md
+      - go-live-checklist.md
+      - measure-success-first-7-days.md
       - setting-up-your-business.md
       - frequent-questions.md
       - tips-and-best-practices.md
-      - setting-up-your-cname-alias.md
   billing:
     output: true
     order:
+      - billing-overview.md
       - how-pricing-works.md
-      - how-we-attribute-sales.md
       - understanding-plan-quotas.md
-      - sms-sending-limits-for-new-businesses.md
   captures:
     output: true
     order:
+      - capture-overview.md
       - qr-codes.md
       - shareable-link.md
+      - forms.md
+      - shopify-checkout.md
+      - wix-checkout.md
   journeys:
     output: true
     order:
+      - playbooks-overview.md
+      - what-are-signals.md
+      - choose-your-first-playbook.md
+      - playbook-library-by-mission.md
+      - abandoned-cart-route-vs-ai-playbook.md
       - getting-started-with-journeys.md
       - custom-journey.md
+      - how-to-write-a-great-prompt.md
   integrations:
     output: true
+    order:
+      - setup-overview.md
+      - verify-data-and-signals.md
+      - custom-domain-for-short-links.md
+      - connect-shopify.md
+      - connect-wix.md
+      - connect-woo.md
+      - connect-vtex.md
+      - connect-mercado-libre.md
+      - connect-whatsapp.md
+      - connect-catalog-to-whatsapp.md
+      - transferring-ownership.md
   developers:
     output: true
     order:
+      - developers-overview.md
+      - api.md
+      - send-sms-with-api.md
       - tracking-events.md
       - tracking-on-campaigns-and-journeys.md
       - tracking-unidentified-customers.md
       - external-tracking.md
-      - send-sms-with-api.md
-      - api.md
-  editor:
-    output: true
+  troubleshooting-deliverability:
     order:
-      - get-started.md
-      - links.md
-      - tags.md
+      - troubleshooting-overview.md
+      - troubleshooting-checklist.md
+      - troubleshoot-missing-signals-or-activity.md
+      - sms-sending-limits-for-new-businesses.md
+    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.

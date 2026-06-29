@@ -1,196 +1,155 @@
 ## What is Hellotext?
 
-Hellotext is an AI-powered conversational automation platform designed to help eCommerce businesses sell more without relying on manual message sending.
+Hellotext is a decision system for commerce teams. It reads customer and business signals, decides the best action for each customer, and executes that action through playbooks, the Inbox, and your messaging channels.
 
-Connect your store, and Hellotext takes care of the rest: it detects sales opportunities, sends personalized messages through WhatsApp, SMS, or Instagram, and measures the real impact on your revenue.
+Use it to recover carts, drive repeat purchases, reactivate customers, answer conversations, and measure revenue without building every flow manually.
 
-You can think of it as a sales autopilot that works day and night, keeping your brand’s tone and holding conversations that convert.
+Keep reading:
+
+- [What is Hellotext?]({% link _getting-started/what-is-hellotext.md %})
+- [How Hellotext works: playbooks, campaigns, and Inbox]({% link _getting-started/how-hellotext-works.md %})
+- [Launch checklist]({% link _getting-started/launch-checklist.md %})
+
+## Where should I start?
+
+Start in this order:
+
+- Create or review your business.
+- Connect the platform where your customer and order data lives.
+- Connect the messaging channel you plan to use first.
+- Add at least one capture tool.
+- Activate or prepare the first playbook you want to test.
+- Invite the team members who will answer replies in the Inbox.
+- Review the first results.
+
+Keep reading: [Launch checklist]({% link _getting-started/launch-checklist.md %}).
+
+## What should I connect first?
+
+Connect your commerce platform or data source before launching captures, playbooks, routes, or campaigns. That gives Hellotext the customer profiles, products, orders, and signals needed for targeting, personalization, decisions, and attribution.
+
+After that, connect the messaging channel you plan to use first, such as WhatsApp or SMS.
+
+Keep reading:
+
+- [Setup and integrations overview]({% link _integrations/setup-overview.md %})
+- [Messaging channels overview]({% link _numbers/messaging-overview.md %})
+
+## What are signals?
+
+Signals are the customer and business events Hellotext can use to decide what should happen next.
+
+Examples include carts, browsing activity, purchases, stock changes, birthdays, replies, customer profile properties, and channel eligibility.
+
+Playbooks use signals to decide when to act, which customer should receive attention, and which message, channel, timing, or offer makes sense.
+
+Keep reading:
+
+- [What are signals?]({% link _journeys/what-are-signals.md %})
+- [Playbooks and automation overview]({% link _journeys/playbooks-overview.md %})
+- [Tracking events]({% link _developers/tracking-events.md %})
 
 ## What channels can I use?
 
-Hellotext operates on the channels where your customers already are: WhatsApp, Instagram Direct, Facebook Messenger, Webchat, Mercado Libre, and SMS.
+Hellotext can support several customer messaging channels depending on your account setup, country, and plan.
 
-Messages sent via WhatsApp, Instagram, Facebook Messenger, or Webchat are covered under the fair-use policy; SMS messages are billed separately depending on country and plan. This way, you can combine channels without worrying about unexpected costs.
+Most teams start by preparing WhatsApp or SMS, then add other channels and capture paths as their setup grows.
 
-## What are AI agents?
+Keep reading:
 
-Every action in Hellotext — checking an order, recommending a product, recovering a cart, or answering a question — is handled by a specialized agent.
+- [Messaging channels overview]({% link _numbers/messaging-overview.md %})
+- [Connect WhatsApp]({% link _integrations/connect-whatsapp.md %})
 
-These agents are small intelligences that understand user intent (for example: *“I want to know my shipment”*) and act automatically.
+## What is a customer profile?
 
-Some examples:
+A customer profile is the record Hellotext uses to understand a person, their channel eligibility, their activity, and the information your team can use for segmentation and personalization.
 
-* **Transactional agents:** order tracking, returns, shipping status.
-* **Decision agents:** product recommendations or upselling.
-* **Support agents:** responses to FAQs.
-* **Enrichment agents:** capture missing data (“What’s your size?”).
-* **Guardrails:** ensure tone, privacy, and compliance.
-* **Predictors:** optimize send time or detect abandonment risk.
-* **Escalators:** hand off to a human when needed.
+A subscriber is a customer profile that has opted in to receive messages on a channel.
 
-Together, these agents allow your business to serve, recommend, and sell automatically — always with human-level judgment.
+Keep reading: [Audience and segmentation overview]({% link _audience/audience-overview.md %}).
 
-## What are playbooks?
+## How do customers subscribe?
 
-Playbooks are prebuilt automations that combine business logic with AI to create complete experiences.
-For example:
+Customers can subscribe through capture tools such as QR codes, shareable links, forms, and checkout opt-ins.
 
-* *Abandoned Cart* recovers forgotten carts.
-* *Browse Recovery* reconnects with visitors who didn’t buy.
-* *Back-in-Stock* alerts customers when a product returns.
-* *VIP Club* nurtures your best customers.
-* *Order Update + AI Support* informs and assists during delivery.
+Choose the capture tool that matches where customers already interact with your brand, then connect it to the right channel and follow-up flow.
 
-Each playbook has a base flow (when, to whom, and with what limits) that AI personalizes according to behavior, purchase history, and context. It’s a simple, effective way to keep campaigns always active and sounding human.
+Keep reading: [Capture tools overview]({% link _captures/capture-overview.md %}).
 
-## Can I keep manual control over what the AI does?
+## What is the difference between a campaign and a playbook?
 
-Yes. Hellotext doesn’t replace your judgment — it amplifies it.
+A campaign is a one-time message to a selected audience. Use campaigns for announcements, promotions, and focused broadcasts.
 
-You can review and approve messages, adjust text or discounts, pause campaigns, or activate manual mode whenever needed.
+A playbook is a repeatable system trained for a business mission, such as recovering carts, driving repeat purchases, reactivating customers, collecting reviews, or handling support.
 
-The system even explains why it takes each decision (“Because you…”), allowing you to learn from and trust the AI without losing visibility or control.
+Unlike a fixed flow, a playbook can use signals to decide what to do for each customer. It can choose the message, channel, timing, offer, or next step within the limits you set, such as consent, quiet hours, frequency, and handoff rules.
 
-## How does Hellotext avoid sending too many messages or at the wrong times?
+Keep reading:
 
-The platform includes a Communications Governor (CG), a “governor” that regulates the message flow for each customer.
-This system applies:
+- [How Hellotext works: playbooks, campaigns, and Inbox]({% link _getting-started/how-hellotext-works.md %})
+- [Campaigns and broadcasts overview]({% link _campaigns/campaigns-overview.md %})
+- [Playbooks and automation overview]({% link _journeys/playbooks-overview.md %})
 
-* **Quiet hours** (configurable silent periods).
-* **Frequency limits** by category (promotions, service, reminders).
-* **Deduplication** across campaigns.
-* **Channel prioritization** (chooses the most effective medium for each context).
+## How should I prepare my first send?
 
-Everything also passes through Guardrails for tone and compliance, and through STO (Send-Time Optimization), which calculates the best send time based on customer behavior.
+Start small. If you are activating a playbook, confirm its goal, trigger, channel, audience, limits, and handoff rules before turning it on. If you are sending a campaign, create a test audience with your own number and a few teammates, review the message on the real channel, confirm links and replies, then send to a focused customer audience before expanding.
 
-## What is Send-Time Optimization (STO)?
+Keep reading: [First launch best practices]({% link _getting-started/tips-and-best-practices.md %}).
 
-STO is one of Hellotext’s most powerful intelligences.
+## What happens when a customer replies?
 
-It analyzes each contact’s open and response habits and selects a 30-minute window where the conversion probability is highest.
+Replies appear in the Inbox so your team can review, assign, answer, and close conversations.
 
-You can schedule your sends or let STO distribute them automatically for maximum performance.
+Use team roles, assignment, and response-time guidance to keep ownership clear.
 
-## How does performance-based pricing work?
+Keep reading:
 
-Hellotext doesn’t charge you for using the tool, but for the results it generates.
+- [Inbox and conversations overview]({% link _team/inbox-overview.md %})
+- [Assign conversations]({% link _team/assigning-conversations.md %})
 
-You pay a percentage (2 – 5%) of the sales attributed to Hellotext, plus a monthly plan based on your stage.
+## How does reporting work?
 
-Each month, the “pay once” rule applies: you only pay the highest among:
+Reporting depends on the message, link, channel, campaign, playbook, and attribution rules involved.
 
-* your plan value,
-* the performance fee,
-* SMS costs, or
-* the variable message cost (US $2 per 1,000 messages).
+Use analytics guides to understand campaign performance, tracked links, and attributed revenue.
 
-You never pay more than one of these in the same month. **[More about Pricing](/how-pricing-works)**.
+Keep reading:
 
-## What counts as an attributed sale?
+- [Analytics, reporting, and attribution overview]({% link _analytics-reporting-attribution/analytics-overview.md %})
+- [Campaign reporting]({% link _analytics-reporting-attribution/campaign-reporting.md %})
+- [Sales attribution]({% link _analytics-reporting-attribution/sales-attribution.md %})
 
-Hellotext attributes a sale only when it was the last non-direct click before purchase.
+## How does pricing work?
 
-Attribution remains valid:
+Your plan determines what is included, how usage is counted, and which billing rules apply. For current plan pricing and SMS rate tables, always check the public Hellotext pricing page.
 
-* **24 hours** after a received message (for the impacted phone), or
-* **7 days** if the buyer clicks a Hellotext short link on the same device.
+Keep reading:
 
-Sales entered manually or conversations resolved by human agents are not counted.
+- [Pricing model]({% link _billing/how-pricing-works.md %})
+- [Plan usage and quotas]({% link _billing/understanding-plan-quotas.md %})
+- [Hellotext pricing](https://www.hellotext.com/pricing)
 
-You can learn more about **[how we attribute sales](/how-we-attribute-sales)**.
+## Do I also pay Meta for WhatsApp?
 
-## Are AI messages unlimited?
+WhatsApp conversation costs are billed separately by Meta and are not part of your Hellotext invoice.
 
-In practice, yes. As long as your plan value, performance fee, or SMS costs exceed the variable message cost, there’s no extra charge.
+Keep reading:
 
-If in a given month performance is lower, a symbolic fee of US $2 per additional 1,000 messages applies.
+- [Pricing model]({% link _billing/how-pricing-works.md %})
+- [Meta WhatsApp pricing](https://business.whatsapp.com/products/platform-pricing#rates)
 
-The idea is that your investment grows only when your sales do.
+## What if a message does not send or a report looks wrong?
 
-## Do I also have to pay Meta for WhatsApp?
+Start with the troubleshooting checklist. It helps you narrow the issue to setup, channel eligibility, sending limits, audience rules, tracking, attribution, inbox ownership, or automation behavior.
 
-Yes. WhatsApp Business conversation rates are billed directly by Meta and are not included in your Hellotext invoice.
+Keep reading: [Troubleshooting checklist]({% link _troubleshooting-deliverability/troubleshooting-checklist.md %}).
 
-You can check updated rates on the **[official Meta site](https://business.whatsapp.com/products/platform-pricing#rates)**.
+## Do I need a developer?
 
-## What plans exist?
+You can launch many workflows with the standard setup guides. Developer help is useful when you need custom event tracking, API sending, external conversions, webhooks, or a custom integration.
 
-Hellotext adapts to every growth stage:
+Keep reading: [Developers and API overview]({% link _developers/developers-overview.md %}).
 
-* **Starter (Free):** ideal to start and test.
-* **Small (US $74/month):** includes AI and basic automations.
-* **Grow (US $299/month):** designed for higher-volume teams.
-* **Pro (US $699/month):** designed for retail, ERP, and advanced team operations.
-* **Enterprise:** custom plan with 24/7 support.
+## Where can I get help?
 
-The performance fee decreases as your sales grow (5% → 4% → 3% → 2.5%; Enterprise from 2%).
-
-## How much history is kept?
-
-Depends on the plan:
-
-* **Starter:** 2 months
-* **Small:** 6 months
-* **Grow / Pro / Enterprise:** full history under retention policy.
-
-## How do I capture and update my contacts?
-
-You can import lists (CSV or integrations) and generate new contacts with widgets, links, or QR codes.
-
-Hellotext also automatically enriches profiles with conversational data such as size, preferences, or location — making every message more relevant and human.
-
-## What platforms does it integrate with?
-
-Hellotext easily connects with your eCommerce, CRM, and logistics tools.
-
-It also supports custom HTTP requests and webhooks to automate shipments, sync inventory, or create advanced reports.
-
-## How does Hellotext protect my brand’s privacy and tone?
-
-Before each send, the Guardrails module analyzes and adjusts the message to comply with privacy laws, avoid sensitive language, and maintain consistency with your brand identity.
-
-The system also enforces opt-in/opt-out, quiet hours, and frequency limits — ensuring ethical, respectful conversations.
-
-## Can I send scheduled or instant campaigns?
-
-Yes. You can plan sends with a specific date and time or launch them instantly.
-
-The AI can also determine the best send time for each customer, balancing performance and experience.
-
-## What kind of reports does Hellotext offer?
-
-The main dashboard clearly shows your results:
-
-* Generated and attributed revenue.
-* Performance by channel and playbook.
-* Click, conversion, and opt-out rates.
-* Alerts, anomalies, and actionable insights.
-
-All within an interactive Revenue Funnel that shows where you’re winning and where you can improve.
-
-## What happens if a customer replies or data is missing?
-
-Hellotext uses an intelligent micro-delegation system: if an agent needs extra information, it asks a single question, saves the answer, and continues the original flow.
-
-Example: “Could you tell me your order number?” → saves it → resumes tracking without restarting the conversation.
-
-## How is a conversation escalated to a human?
-
-If the AI detects confusion, frustration, or off-policy topics, it executes escalate.human and transfers the conversation to a real agent.
-
-The complete history and context are preserved so the human agent can continue seamlessly without losing information.
-
-## What support levels does Hellotext offer?
-
-* **Starter:** email support (~24h response).
-* **Small:** priority email or WhatsApp support (~8h).
-* **Grow:** dedicated account manager (~4h).
-* **Enterprise:** full 24/7 support with priority response.
-
-## How do I get started?
-
-1. Connect your store (Shopify, VTEX, WooCommerce, etc.).
-2. Activate your first playbooks, like *Welcome* or *Cart Saver*.
-3. Customize your messages and watch your first attributed sales appear.
-
-Hellotext handles the rest — AI, timing, and optimization. From day one, your dashboard shows results, metrics, and improvement suggestions.
+If you are not sure which guide applies, start with the [troubleshooting checklist]({% link _troubleshooting-deliverability/troubleshooting-checklist.md %}) or contact Hellotext support with the business name, affected customer profile or campaign, channel, approximate time, and what you expected to happen.

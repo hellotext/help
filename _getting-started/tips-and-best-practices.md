@@ -2,11 +2,11 @@
 languages: ["en", "es"]
 
 en:
-  title: Tips and best practices
-  description: Some tips and recommendations to help you start getting the most out of Hellotext.
+  title: First launch best practices
+  description: Prepare a small, clear, and measurable first playbook, route, or send before expanding.
 es:
-  title: Consejos y mejores prácticas
-  description: Algunos consejos y recomendaciones para que comiences a aprovechar al máximo Hellotext.
+  title: Mejores prácticas para el primer lanzamiento
+  description: Prepara un primer playbook, ruta o envío pequeño, claro y medible antes de ampliar.
 
 permalink: tips-and-best-practices
 permalink_es: consejos-y-mejores-practicas

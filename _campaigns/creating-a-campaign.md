@@ -2,11 +2,11 @@
 languages: ["en", "es"]
 
 en:
-  title: Creating a Campaign
-  description: Step-by-step guide to create and delivery a campaign to your audience.
+  title: Create a campaign
+  description: Build, target, review, and send a campaign to your audience.
 es:
-  title: Crear una Campaña
-  description: Guía paso a paso para crear y entregar una campaña a tu audiencia.
+  title: Crea una campaña
+  description: Crea, segmenta, revisa y envía una campaña a tu audiencia.
 
 permalink: creating-a-campaign
 permalink_es: crear-una-campaña

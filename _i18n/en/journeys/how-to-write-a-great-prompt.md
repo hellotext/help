@@ -2,7 +2,7 @@ In Hellotext, every AI Agent begins with a single, simple ingredient: its prompt
 
 The prompt defines the agent’s personality, tone, purpose, and limits.
 
-It is what transforms an abstract automation into a real brand voice — one that can sell, assist, or delight customers as if it were a person on your team.
+It is what turns an AI agent or playbook into a real brand voice — one that can sell, assist, or delight customers as if it were a person on your team.
 
 Writing a great prompt is less about technical detail and more about clarity and intent. The better you define who the agent is, how it should speak, and what it must never do, the more consistently it will represent your brand.
 
@@ -29,7 +29,7 @@ Every agent in Hellotext can perform a wide range of actions automatically. It c
 
 It can also search across URLs or documents you attach—such as a FAQ, policy guide, or product manual—so that it always answers from verified information rather than guessing.
 
-Agents can collect and store any customer profile properties you choose, from name and city to preferred size or interests. They can also decide when to escalate a conversation to a human, following rules you define in the Journey Editor.
+Agents can collect and store any customer profile properties you choose, from name and city to preferred size or interests. They can also decide when to escalate a conversation to a human, following the handoff rules you define.
 
 And, most importantly, every message they send passes through Hellotext’s privacy and tone guardrails, ensuring consistent brand voice and compliance across all channels.
 
@@ -97,6 +97,8 @@ You can also instruct it on how to handle handoffs:
 
 Behind the scenes, the Supervisor routes these intents — whether product recommendation, support question, or profile update — through the appropriate agents defined in your workspace.
 
+Keep reading: [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %}).
+
 ## A Model prompt example
 
 Here’s a full, clean example you can adapt for your own brand.
@@ -141,7 +143,7 @@ Each response passes through several services before it reaches the customer:
 3. The **Send-Time Optimization (STO)** engine decides the ideal time to deliver it.
 4. The **Channel Dispatcher** sends it through the right medium — WhatsApp, SMS, Instagram, or Webchat.
 
-Your prompt is the foundation on which all these systems operate. It defines how intelligence, automation, and brand personality merge into a single, coherent experience.
+Your prompt is the foundation on which all these systems operate. It defines how intelligence, business rules, and brand personality merge into a single, coherent experience.
 
 ## Final reflection
 

@@ -3,10 +3,10 @@ languages: ["en", "es"]
 
 en:
   title: Custom journey
-  description: Create more expressive automations better adjusted to your needs.
+  description: Create a custom journey when a template is not enough.
 es:
   title: Ruta personalizada
-  description: Crea automatizaciones más expresivas mejor ajustadas a tus necesidades.
+  description: Crea una ruta personalizada cuando una plantilla no es suficiente.
 
 permalink: custom-journey
 permalink_es: ruta-personalizada

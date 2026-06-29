@@ -1,11 +1,8 @@
-Al utilizar las herramientas de captura de Link Compartible, puedes crear un enlace especial de protocolo SMS o WhatsApp 
-que permite a los usuarios suscribirse directamente a tu negocio. 
-El enlace, al ser clicado, abrirá la aplicación de Mensajes o WhatsApp predeterminada en los teléfonos de tus clientes, permitiéndoles suscribirse con un solo toque. Así, podrás saber quiénes y qué porcentaje de tus suscriptores provienen de este enlace.
+Al utilizar la herramienta de captura de Link Compartible, puedes crear un enlace especial de protocolo SMS o WhatsApp que permite a tus clientes suscribirse directamente a tu negocio.
 
-Cuando los usuarios hagan clic en el enlace, dependiendo de la configuración que hiciste al crear la captura, 
-se abrirá su aplicación de SMS o WhatsApp con un mensaje de suscripción predefinido y el número de teléfono. Todo lo que tienen que hacer es tocar *Enviar* y estarán suscritos a tu negocio.
+Cuando los clientes hacen clic en el enlace, se abre la aplicación de SMS o WhatsApp en su teléfono con un mensaje de opt-in predefinido.
 
-Solo tienen que pulsar *Enviar* y estarán suscritos a tu negocio. 
+Solo tienen que tocar *Enviar*. Después de eso, Hellotext puede registrar qué perfiles de cliente se suscribieron desde ese link.
 
 Además, puedes usar los links compartibles para ofrecer incentivos para unirse, como cupones, descuentos en futuras compras y acceso a productos exclusivos.
 
@@ -28,17 +25,17 @@ Si no tienes una preferencia o no tienes números asociados con tu negocio, pued
 
 También puedes personalizar el mensaje predefinido que los clientes enviarán para suscribirse, eres libre de ajustar el mensaje a tu gusto.
 
-## Asignar cupones y rutas
+## Asignar cupones y rutas de seguimiento
 
 En el siguiente paso, tienes la opción de elegir qué sucede después de que tu cliente se suscriba.
 
-Por defecto, se envía un mensaje de bienvenida al suscriptor.
+Por defecto, se envía un mensaje de bienvenida al nuevo suscriptor.
 
 Sin embargo, si has creado algún cupón, puedes elegir incluirlo en el mensaje de bienvenida como un incentivo para suscribirse.
 
-Alternativamente, puedes seleccionar una ruta que hayas creado para reemplazar el mensaje de bienvenida predeterminado.
+Alternativamente, puedes seleccionar una ruta o playbook que hayas creado para reemplazar el mensaje de bienvenida predeterminado.
 
-Este viaje se enviará al suscriptor en lugar del mensaje predeterminado.
+Ese seguimiento se enviará al nuevo suscriptor en lugar del mensaje predeterminado.
 
 ## Comparte el enlace
 

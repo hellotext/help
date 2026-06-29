@@ -1,6 +1,6 @@
 When your customers make a purchase in your store, Hellotext automatically creates their profile with personal information, including phone number and email address.
 
-However, to send them promotional campaigns, it is necessary to obtain their consent.
+However, to send them messages through Hellotext, it is necessary to obtain their consent for the channel you plan to use.
 
 One way to obtain their consent is through the subscription acceptance checkbox on the purchase form.
 
@@ -22,7 +22,7 @@ If you wish, you can also check the *Checked by default* box so that your visito
 
 <img src="images/captures/wix/en/settings-checkout.jpeg" alt="" width="768" />
 
-That's it! From now on, your users will be able to give you their consent to receive future promotions.
+That's it! From now on, your customers will be able to give consent to receive future messages from your business.
 
 In Hellotext, you will see that customer profiles with consent will appear as *Subscribed* in green.
 

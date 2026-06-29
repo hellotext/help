@@ -11,7 +11,7 @@
 
 ## Summary
 
-Hellotext uses a results‑based model: you pay a **2% to 5%** performance fee on revenue attributable to campaigns, journeys, or AI agents. In the plans in this guide, Starter uses 5%, Small 4%, Grow 3%, and Pro 2.5%. Each plan has a monthly minimum (“floor”).
+Hellotext uses a results‑based model: you pay a **2% to 5%** performance fee on revenue attributable to campaigns, playbooks, routes, or AI agents. In the plans in this guide, Starter uses 5%, Small 4%, Grow 3%, and Pro 2.5%. Each plan has a monthly minimum (“floor”).
 
 **Key rule:** each month you pay only **one** line item—the highest of plan minimum, performance fee, SMS costs, or variable messaging fee (US$ 2 per 1,000). The four are never added together.
 
@@ -40,7 +40,7 @@ Channels on every plan: **WhatsApp** (Meta bills separately), **Instagram Direct
       <li><strong>WhatsApp:</strong> 1 verified line</li>
       <li><strong>Integrations:</strong> Wix, Shopify, Woo, Mercado Libre, and VTEX</li>
       <li><strong>Capture:</strong> Webchat, Popups, QR Code, and Forms</li>
-      <li><strong>Automation:</strong> Cart Saver, chatbots, and Journeys</li>
+      <li><strong>Automation:</strong> starter playbooks, route templates, and chat automation</li>
       <li><strong>Campaigns:</strong> SMS and WhatsApp</li>
       <li><strong>Reporting:</strong> basic real-time reporting</li>
       <li><strong>Profiles:</strong> unlimited customer profiles and templates</li>
@@ -121,7 +121,7 @@ Channels on every plan: **WhatsApp** (Meta bills separately), **Instagram Direct
 
 > **Upper plans:** Pro adds retail, ERP, and team capabilities; Enterprise covers custom enterprise volume and delivery requirements.
 
-## AI‑powered messages (fair‑use policy)
+## AI‑powered messages (fair‑use policy) {#ai-powered-messages-fair-use-policy}
 
 AI messages on WhatsApp, Instagram Direct, Facebook Messenger, and Webchat are included at no extra cost whenever **any** of the following three is **higher** than the variable fee:
 
@@ -135,14 +135,14 @@ Only if **all three are lower** do we charge the variable fee of **US$ 2 per 1,0
 
 Charged per message in local currency and vary by plan. They follow the same “pay only the highest” rule. <strong><a href="https://www.hellotext.com/pricing#sms" target="_blank">See SMS rates</a></strong>.
 
-## Attribution: what counts and the time window
+## Attribution: what counts and the time window {#attribution-what-counts-and-time-window}
 
 * An order is attributed to Hellotext only when Hellotext is the last non‑direct click before purchase.
 * The attribution window is 24 hours per impacted phone.
 * If the shopper clicks your Hellotext short link on that same device, the window extends to 7 days.
 * We don’t attribute: manual entries, general store sales not tied to Hellotext messages, or purchases that occur in conversations handled by a human team member.
 
-**[How we attribute sales](/how-we-attribute-sales)**
+**[How we attribute sales]({% link _analytics-reporting-attribution/sales-attribution.md %})**
 
 ## Billing examples
 

@@ -1,14 +1,18 @@
-Una de las técnicas de marketing más poderosas es la capacidad de rastrear lo que hacen tus clientes cuando interactúan con tu marca. Esto podría ser cuando navegan por tu sitio o visitan tu tienda física. El seguimiento de las acciones de tus clientes de manera unificada desbloquea una cantidad sin precedentes de posibilidades: segmenta tu audiencia en función de su comportamiento para llegar a ellos con campañas de mayor precisión, activa automatizaciones en función de lo que hacen los clientes y deja que tu equipo use estos datos a medida que ocurren como oportunidades para participar y vender más.
+El seguimiento de eventos convierte el comportamiento de tus clientes en señales que Hellotext puede usar en perfiles de cliente, segmentos, atribución, playbooks y el Inbox. Las señales pueden venir de tu eCommerce, tienda física, backend propio, formularios, conversaciones o cualquier otra fuente importante para tu negocio.
 
-Uno de los aspectos clave que hace que Hellotext sea único es su capacidad para rastrear fácilmente todas las acciones importantes que realizan tus clientes sin importar cual sea su origen: por ejemplo lo que hacen en tu eCommerce, tu comercio físico o en cualquier otro lugar.
+Esas señales ayudan a Hellotext a decidir cuándo activar un playbook, actualizar un segmento, enriquecer un perfil de cliente, asistir a un agente o atribuir ingresos a la acción correcta.
+
+Para el concepto general del producto, empieza por [Qué son las señales]({% link _journeys/what-are-signals.md %}).
+
+Si los eventos no aparecen donde esperas, usa [Soluciona señales o actividad faltante]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %}) para revisar identidad, nombres de acciones, integraciones, disparadores y reportes.
 
 ## Comprendiendo las acciones
 
 Las acciones son las actividades genéricas que realizan tus clientes.
 
-Están agrupados por su tipo de acción y separados por un punto.
+Están agrupadas por su tipo de acción y separadas por un punto.
 
-Por ejemplo, ejemplos de acciones son:
+Por ejemplo:
 
 ### Acciones del carrito
 
@@ -16,7 +20,7 @@ Por ejemplo, ejemplos de acciones son:
 * `cart.added` Se agregó un artículo al carrito.
 * `cart.removed` Se eliminó un artículo del carrito.
 
-### Ordenar acciones
+### Acciones de pedidos
 
 * `order.placed` Se ha realizado el pedido.
 * `order.confirmed` Confirmaste el pedido.
@@ -62,11 +66,11 @@ Es posible crear tus propias acciones definidas directamente usando la API. Por 
 
 Obtén más información en **[Referencia de API para acciones](https://www.hellotext.com/api#actions)**.
 
-## Comprender los eventos
+## Comprendiendo los eventos
 
-Un evento es el objeto que crea una relación entre una acción y el suscriptor en un momento determinado.
+Un evento es el objeto que crea una relación entre una acción y un perfil de cliente en un momento determinado.
 
-Es el objeto que se crea cuando realizas un seguimiento de una acción de un cliente.
+Se crea cuando rastreas una acción de un cliente y pasa a formar parte del historial de señales que Hellotext puede usar después.
 
 ## Maneras de rastrear eventos
 

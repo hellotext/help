@@ -1,18 +1,18 @@
-Después de enviar una campaña o activar una ruta, querrás conocer sus resultados: cómo se comprometieron y comportaron los clientes. E idealmente, también desearás mantener esta información de tal manera que pueda reutilizarse en futuras campañas de marketing.
+Después de enviar una campaña, activar una ruta o habilitar un playbook, querrás entender cómo interactuaron y se comportaron los clientes. Idealmente, también querrás conservar ese comportamiento como señales que Hellotext pueda reutilizar después.
 
-Afortunadamente, este es exactamente el propósito detrás del uso de Campañas y la buena noticia es que es fácil de implementar.
+Ese es el propósito del tracking de links y eventos: conectar cada click con un perfil de cliente, una sesión, un reporte y una decisión futura.
 
-## Enlaces cortos y Sesiones
+## Enlaces cortos y sesiones
 
 Un enlace corto es simplemente una forma de reducir la longitud de una URL a algo parecido a `hello.link/3lsnvh`.
 
 Esto te ayuda a superar el límite de 160 caracteres de los mensajes de texto, dejando más espacio para el mensaje. Los cortos también se sienten más atractivos.
 
-Puedes compartir enlaces cortos en tus mensajes en Campañas y Rutas.
+Puedes compartir enlaces cortos en mensajes de campañas, rutas, playbooks e Inbox.
 
 Cuando los clientes hacen clic en un enlace corto, son redirigidos a la URL original. Hellotext adjunta un parámetro GET a la URL original llamado `hellotext_session` que contiene un identificador de sesión generado de forma única con cada clic.
 
-Cada vez que un cliente haga clic en un enlace corto, se creará un evento y aparecerá en las actividades de su perfil. Los clics también se agregan a los informes de la campaña o viaje.
+Cada vez que un cliente hace clic en un enlace corto, se crea un evento y aparece en la actividad del perfil de cliente. Los clics también pueden agregarse a reportes de campañas, rutas o playbooks cuando ese reporte está disponible.
 
 ## Primeros pasos de seguimiento
 
@@ -67,4 +67,4 @@ Hellotext.session
 
 Luego puedes rastrear eventos enviando una solicitud `POST` directamente a la API.
 
-Más información sobre [**Seguimiento externo**](/seguimiento-externo)
+Más información: [**Seguimiento externo**]({% link _developers/external-tracking.md %}).

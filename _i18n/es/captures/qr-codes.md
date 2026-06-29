@@ -10,7 +10,7 @@ Aquí hay algunos ejemplos de cómo se pueden utilizar los códigos QR en estos 
 
 Cuando un cliente escanea el código QR, se le llevará a la aplicación SMS nativa en su teléfono con un mensaje de texto pre-llenado y personalizable y el número al que suscribirse.
 
-Todo lo que necesitan hacer es presionar *Enviar* para suscribirse a su negocio. 
+Todo lo que necesitan hacer es presionar *Enviar* para suscribirse a tu negocio.
 
 Esta es una forma conveniente y eficiente para que los clientes se suscriban a recibir promociones de tu negocio mediante SMS, ya que no tienen que ingresar manualmente su número de teléfono.
 
@@ -20,23 +20,23 @@ Escanear el código QR con su teléfono es todo lo que se necesita para suscribi
 
 Para crear un código QR como un método de captura, desde la sección *Capturas*, haz clic en *Nuevo método de captura*. Luego, selecciona *Código QR*.
 
-Si tienes números de teléfono o códigos cortos asociados con su negocio, puedes elegir uno de estos como el número al que los clientes enviarán el mensaje de opt-in.
+Si tienes números de teléfono o códigos cortos asociados con tu negocio, puedes elegir uno de estos como el número al que los clientes enviarán el mensaje de opt-in.
 
 Si no tienes preferencias o no tienes números asociados con tu negocio, puedes utilizar la configuración predeterminada y Hellotext elegirá el número más adecuado.
 
 También puedes personalizar el mensaje que los clientes enviarán para suscribirse.
 
-## Asignar cupones y rutas
+## Asignar cupones y rutas de seguimiento
 
 En el siguiente paso, tienes la opción de elegir qué sucede después de que tu cliente se suscriba.
 
-Por defecto, se envía un mensaje de bienvenida al suscriptor.
+Por defecto, se envía un mensaje de bienvenida al nuevo suscriptor.
 
 Sin embargo, si has creado algún cupón, puedes elegir incluirlo en el mensaje de bienvenida como un incentivo para suscribirse.
 
-Alternativamente, puedes seleccionar una ruta que hayas creado para reemplazar el mensaje de bienvenida predeterminado.
+Alternativamente, puedes seleccionar una ruta o playbook que hayas creado para reemplazar el mensaje de bienvenida predeterminado.
 
-Este viaje se enviará al suscriptor en lugar del mensaje predeterminado.
+Ese seguimiento se enviará al nuevo suscriptor en lugar del mensaje predeterminado.
 
 ## Obtener el código QR
 

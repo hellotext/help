@@ -73,7 +73,7 @@ Now that your catalog is ready, it’s time to connect your WhatsApp Business nu
 
 6. Complete the Embedded Signup process until the end.
 
-After finishing, Hellotext will begin syncing your products automatically. From that moment on, you’ll be able to use them in your Playbooks, campaigns, Inbox conversations, and AI agent automations.
+After finishing, Hellotext will begin syncing your products automatically. From that moment on, you’ll be able to use them in playbooks, campaigns, Inbox conversations, AI agents, and product recommendations.
 
 ## What to expect next?
 
@@ -82,4 +82,4 @@ Once the catalog is connected:
 * Your customers will be able to view products and add them to the cart directly inside WhatsApp.
 * They’ll be able to pay without leaving the chat.
 * The checkout used will be your store’s checkout, and every purchase will generate a real order in Shopify, VTEX, WooCommerce, or whichever platform you have connected.
-* You’ll be able to leverage the catalog across all Hellotext features that support it: Playbooks, campaigns, AI agents, automatic recommendations, and more.
+* You’ll be able to leverage the catalog across all Hellotext features that support it: playbooks, campaigns, AI agents, automatic recommendations, and more.

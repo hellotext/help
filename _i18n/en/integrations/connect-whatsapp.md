@@ -1,6 +1,8 @@
-With Hellotext you can connect a new or existing WhatsApp account to manage all your customer conversations in one place, send targeted campaigns and create automations.
+With Hellotext you can connect a new or existing WhatsApp account to manage customer conversations, run WhatsApp playbooks or routes, send targeted campaigns, and let AI agents respond when appropriate.
 
 This is a step-by-step guide to help you set up your WhatsApp account with Hellotext.
+
+If WhatsApp is already connected and you want to decide how to use it across Inbox, playbooks, routes, campaigns, captures, and commerce, read [WhatsApp channel fundamentals]({% link _numbers/whatsapp-channel-fundamentals.md %}).
 
 ## Before you start
 
@@ -15,7 +17,7 @@ Before you start make sure about the following:
 * You can use a phone number already registered with WhatsApp or WhatsApp Business. If you do so, you must first delete your WhatsApp account [**following these instructions**](https://faq.whatsapp.com/3059780464322392/). Please note that any existing conversations will be deleted and cannot be recovered. If you want to keep your conversations we suggest using a new phone number.
 * If you already have a WhatsApp Business Platform account (already connected to similar service to Hellotext) you will be likely able to proceed without the account deletion. However, any existing conversations will not be imported.
 * You must be able to receive SMS or phone calls on this phone number.
-* You can use Hellotext’s acquired phone numbers or acquire a new phone number if you don’t have one already.
+* Use a phone number your business already controls. Hellotext does not provide or migrate WhatsApp phone numbers during this setup.
 
 ## Getting started
 
@@ -99,13 +101,15 @@ WhatsApp Business Account Profiles can have multiple phone numbers. You can eith
 
 #### Finish
 
-Now you have finished the integration with WhatsApp and Hellotext and you can begin sending and receiving messages from customers, create automations and send campaigns. Click on *Close*.
+Now you have finished the integration with WhatsApp and Hellotext. You can begin sending and receiving customer messages, enabling WhatsApp playbooks or routes, and sending campaigns. Click on *Close*.
 
 <img src="images/integrations/whatsapp/en/done.jpeg" alt="" width="768" />
 
 You should be able to see your connected WhatsApp numbers.
 
 <img src="images/integrations/whatsapp/en/ready.jpeg" alt="" width="768" />
+
+Next, review [WhatsApp channel fundamentals]({% link _numbers/whatsapp-channel-fundamentals.md %}) to prepare consent, templates, Inbox ownership, playbooks, campaigns, and reporting before launch.
 
 ## Next Steps
 
@@ -190,7 +194,7 @@ You can ask your previous service provider to remove your line of credit from yo
 
 #### Do I need to pay both Meta and Hellotext?
 
-Hellotext uses a performance-based model: you pay **2–5%** of the revenue attributed to Hellotext, depending on your plan. **[More about Pricing](/how-pricing-works)**.
+Hellotext uses a performance-based model: you pay **2–5%** of the revenue attributed to Hellotext, depending on your plan. **[More about Pricing]({% link _billing/how-pricing-works.md %})**.
 
 **Key rule:** each month you pay a single item—the highest among: plan minimum, performance fee, SMS cost, or variable messaging fee (US $ 2 per 1,000). The variable fee is only charged if it’s higher than the other three.
 

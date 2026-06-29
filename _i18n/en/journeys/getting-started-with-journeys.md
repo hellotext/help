@@ -1,25 +1,73 @@
-With journeys, you can set up automated processes that are activated based on your customers' interactions with your business.
+Use a journey when you want a step-by-step customer flow with a clear trigger, waits, messages, conditions, branches, and handoffs.
 
-Journeys are a powerful tool for engaging with your customers and driving more sales.
+A journey is one type of playbook. Not every playbook is a journey.
 
-For example, you can create a journey that sends a welcoming message with a coupon code to customers when they subscribe. You can also use journeys to recover abandoned carts by sending a reminder message with a discount a few hours after a customer leaves items in their shopping cart.
+Some playbooks are more autonomous: for example, a product recommender, post-purchase support, or a frequent-questions agent can read signals, understand intent, and decide what to do in the conversation. Those playbooks may use AI agents or decision logic instead of a fixed route.
 
-Journeys are extremely flexible and their possibilities are endless. We provide you with a range of pre-designed templates that you can easily activate for the most common scenarios, but you can also create completely custom journeys from scratch.
+## When to use a journey
 
-### How journeys work
+Use a journey when the sequence should be predictable and you want to control the path.
 
-Journeys are triggered by actions taken by your customers. You can start any journey based on any action, including custom actions that you define.
+Good journey use cases include:
 
-Journeys progress through a predetermined series of steps in a specific order. These steps can include text messages, conditions that allow you to divide the journey into different paths, and intervals of waiting time.
+- Welcoming a new subscriber.
+- Running a simple abandoned cart route.
+- Sending a post-purchase follow-up.
+- Waiting a specific amount of time before a second message.
+- Branching based on whether the customer clicked, replied, purchased, or matched a condition.
+- Handing off to a person after a specific step.
 
-## Create a journey
+An abandoned cart can exist in more than one form: a simple route template with fixed steps, or an AI playbook that decides more dynamically based on signals and customer context.
 
-To create a new journey, visit the *Journeys* section and click on the *New Journey* button.
+Keep reading: [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
 
-You'll be presented with a selection of templates to choose from. Select the one you want to use and you'll be taken to the journey editor.
+## When to use another playbook type
 
-The flow of the journey will be displayed, starting with the trigger and proceeding through each step. You can customize any of the steps as needed.
+Use a more autonomous playbook or AI agent when the experience needs to decide in real time.
 
-Click on *Save Changes* to save your work. Don't worry, the journey is still not active at this point.
+Examples include:
 
-When you're ready, you can press *Publish* to activate the journey. If you need to deactivate it later, you can click on *Make inactive*.
+- Recommending products from a catalog.
+- Answering frequent questions.
+- Understanding a customer's message and choosing the next response.
+- Deciding which offer, product, channel, or timing is best for each customer.
+- Coordinating with other playbooks so customers are not overloaded.
+
+Keep reading: [Playbooks and automation overview]({% link _journeys/playbooks-overview.md %}).
+
+## How journeys work
+
+A journey starts when a customer matches a trigger. That trigger can come from a capture tool, your store integration, a campaign, a custom event, or a conversation.
+
+After the trigger, Hellotext moves the customer through the route you defined. The journey can send a message, wait for a period of time, check a condition, branch, apply a coupon, or route the conversation to a person.
+
+The important difference is that the route is designed by you. Hellotext follows the route and its conditions; it is not the same as an autonomous playbook deciding the full mission on its own.
+
+## Start from a journey template
+
+Use a journey template when you want to launch a proven step-by-step flow quickly.
+
+To create one, go to the automation area in Hellotext, choose a journey template, review the trigger and steps, and adjust the copy, timing, channel, conditions, and handoff rules before publishing.
+
+If no template fits what you need, create a [custom journey]({% link _journeys/custom-journey.md %}).
+
+## Review before publishing
+
+Before you publish, check that:
+
+- The trigger matches the behavior you want to react to.
+- The route steps happen in the order you expect.
+- Wait times are reasonable for the customer.
+- The channel is connected and ready.
+- The audience and consent rules are correct.
+- Messages sound like your brand.
+- Links, coupons, and personalization tags work.
+- Any handoff to a human team is clear.
+
+Click **Save Changes** while you work. The journey remains inactive until you publish it.
+
+When you are ready, click **Publish**. To stop it later, make it inactive.
+
+## Next steps
+
+If your flow needs an AI agent, review [how to write a great agent prompt]({% link _journeys/how-to-write-a-great-prompt.md %}).

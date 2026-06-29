@@ -1,7 +1,6 @@
-By using the Shareable Link capture tools, you can create a special SMS or WhatsApp protocol link that allows users to subscribe directly to your business. When clicked, the link will open the default Messages or WhatsApp app on your customers' phones, allowing them a one-tap subscription method. You can then see who subscribed and what proportion of your subscribers came from this link.
+By using the Shareable Link capture tool, you can create a special SMS or WhatsApp protocol link that lets customers subscribe directly to your business. When clicked, the link opens the default Messages or WhatsApp app on the customer's phone with a pre-filled opt-in message.
 
-When users click the link, depending on the configuration you made when creating the capture, either their SMS app or WhatsApp will open with a pre-filled opt-in message and phone number. 
-All they have to do is tap *Send* and they'll be subscribed to your business. 
+All they have to do is tap *Send*. After that, Hellotext can track which customer profiles subscribed from the link.
 
 Plus, you can use shareable links to offer incentives for joining, such as coupons, discounts on future purchases, and access to exclusive products.
 
@@ -23,17 +22,17 @@ If you don't have a preference or don't have any numbers associated with your bu
 
 You can also customize the pre-filled message that customers will send to subscribe, you are free to adjust the message to your liking.
 
-### Assigning coupons and journeys
+### Assign coupons and follow-up routes
 
 On the next step, you have the option to choose what happens after your customer subscribes.
 
-By default, a welcome message is sent to the subscriber. 
+By default, a welcome message is sent to the new subscriber.
 
 However, if you have created any coupons, you can choose to include them in the welcome message as an incentive for subscribing. 
 
-Alternatively, you can select a journey that you have created to replace the default welcome message. 
+Alternatively, you can select a route or playbook that you have created to replace the default welcome message.
 
-This journey will be sent to the subscriber instead of the default message.
+That follow-up will be sent to the new subscriber instead of the default message.
 
 ### Share the link
 
@@ -41,7 +40,7 @@ Move to the last step and copy the link given.
 
 Share this link as you would do with a regular link.
 
-Your customers will be able now to subscribe directly from your shareable link.
+Your customers can now subscribe directly from your shareable link.
 
 ### Share on Instagram {#howto-share-instagram}
 

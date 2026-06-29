@@ -1,5 +1,5 @@
-Los formularios te permiten crear formularios dinámicos basados en atributos integrados de suscriptores, 
-como Nombre y Apellido, o propiedades personalizadas que has creado para tu lista de suscriptores.
+Los formularios te permiten crear formularios dinámicos basados en atributos integrados del perfil de cliente,
+como nombre y apellido, o propiedades personalizadas que has creado para tu audiencia.
 
 ## Crear un formulario
 
@@ -17,7 +17,7 @@ De las opciones disponibles, selecciona **Formulario Web** y serás dirigido al 
 
 <img src="images/captures/forms/es/component-header.jpeg" alt="" width="768" />
 
-El Hero es el encabezado del formulario. Es lo primero que ven tus suscriptores cuando se carga el formulario. 
+El Hero es el encabezado del formulario. Es lo primero que ven los visitantes cuando se carga el formulario.
 Hellotext, al cargar el formulario, busca un elemento HTML con el atributo `data-form-hero` y carga el contenido dentro de él. 
 Si no encuentra el elemento, Hellotext crea manualmente el encabezado y lo añade al principio del formulario, asegurándose de que sea el primer componente en el elemento.
 
@@ -25,7 +25,7 @@ Si no encuentra el elemento, Hellotext crea manualmente el encabezado y lo añad
 
 <img src="images/captures/forms/es/component-inputs.jpeg" alt="" width="768" />
 
-Los Inputs son los campos que tus suscriptores necesitan completar. Puedes especificar qué campos son obligatorios y cuáles no en el editor de formularios.
+Los Inputs son los campos que los visitantes necesitan completar. Puedes especificar qué campos son obligatorios y cuáles no en el editor de formularios.
 En el editor de formularios, puedes agregar cualquier campo basado en una propiedad existente y controlar si el campo es obligatorio o no. Para cada Input, Hellotext genera un elemento HTML que se ve así
 
 ```html
@@ -37,7 +37,7 @@ En el editor de formularios, puedes agregar cualquier campo basado en una propie
 ```
 
 Al igual que con el Hero, Hellotext busca un elemento HTML dentro del formulario con el identificador `data-form-inputs` 
-y carga los inputs dentro de él. El elemento `data-error-container` se utiliza y se muestra solo cuando el usuario intenta enviar el formulario y no ha completado campo/s obligatorio/s.
+y carga los inputs dentro de él. El elemento `data-error-container` se utiliza y se muestra solo cuando el visitante intenta enviar el formulario y no ha completado los campos obligatorios.
 
 ### Button
 
@@ -51,7 +51,7 @@ Si no encuentra el elemento, Hellotext crea manualmente el botón y lo añade al
 
 <img src="images/captures/forms/es/component-footer.jpeg" alt="" width="768" />
 
-El Notice es el pie de página del formulario. Es lo último que verán tus suscriptores cuando se muestra el formulario. 
+El Notice es el pie de página del formulario. Es lo último que verán los visitantes cuando se muestra el formulario.
 Hellotext busca un elemento HTML con el atributo `data-form-notice` y carga el contenido dentro de él. 
 Si no encuentra el elemento, Hellotext crea manualmente el pie de página y lo añade al formulario después de la sección del botón.
 
@@ -59,7 +59,7 @@ Si no encuentra el elemento, Hellotext crea manualmente el pie de página y lo a
 
 Hellotext previene el robo de identidad y la suplantación de otras personas. Además, Hellotext asegura que cualquier dato existente que tengas no sea alterado con datos no confiables. ¿Cómo?
 
-Cuando creas un formulario que tiene una propiedad de _Teléfono_ o _Correo Electrónico_, una vez que la entidad llena el formulario, Hellotext envía un enlace de verificación al correo electrónico y/o número de teléfono que la entidad ha ingresado.
+Cuando creas un formulario que tiene una propiedad de _Teléfono_ o _Correo Electrónico_, Hellotext envía un enlace de verificación al correo electrónico y/o número de teléfono ingresado por la persona que completó el formulario.
 
 - Si han ingresado un correo electrónico, se envía un correo a esa dirección específica. Una vez que se haga clic en el enlace, el correo electrónico se verifica.
 - Si han ingresado un número de teléfono, se envía un SMS a ese número de teléfono específico. Una vez que se haga clic en el enlace, el número de teléfono se verifica.
@@ -128,17 +128,17 @@ Sin colores, sin bordes, sin rellenos, solo los elementos del formulario con dis
 ## Hellotext Attribution
 
 El logo de Hellotext se muestra en la esquina inferior derecha del formulario. 
-Esto asegura que tus suscriptores sepan que el formulario está impulsado por Hellotext y que sus datos están seguros y protegidos.
+Esto asegura que los visitantes sepan que el formulario está impulsado por Hellotext y que sus datos están seguros y protegidos.
 
 Esto forma parte de nuestra política de "White Label". Es necesario que este logo se muestre y se mantenga visible en el 
 formulario, a menos que el paquete al que te suscribas tenga la función de "White Label" habilitada.
 
 Para más información sobre los paquetes disponibles y las características, 
-consulta nuestra [Página de Precios](https://www.hellotext.com/pricing).
+consulta nuestra [página de precios](https://www.hellotext.com/precios).
 
 ## Eventos de JavaScript
 
 Los formularios dependen de [Hellotext.js](https://github.com/hellotext/hellotext.js), es necesario instalar Hellotext.js para poblar dinámicamente el formulario. A continuación se describen los eventos despachados por Hellotext.js:
 
 - `forms:collected` - Se despacha cuando Hellotext ha recopilado todos los formularios. La recopilación significa que Hellotext ha contactado con la API y ha obtenido los datos del formulario. La carga útil del evento es un array de formularios que fueron recopilados.
-- `form:completed` - Se despacha cuando el usuario completa todos los campos requeridos en el formulario y ha ingresado exitosamente el código de Contraseña de Un Solo Uso que enviamos.
+- `form:completed` - Se despacha cuando el visitante completa todos los campos requeridos en el formulario e ingresa exitosamente el código de contraseña de un solo uso que enviamos.

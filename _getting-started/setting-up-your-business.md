@@ -3,10 +3,10 @@ languages: ["en", "es"]
 
 en:
   title: Setting up your business
-  description: This guide will help you through the first steps to set up your business.
+  description: Review the first account, billing, team, data, and channel settings before launch.
 es:
-  title: Comenzando con tu negocio
-  description: Esta guía te ayudará a través de los primeros pasos para configurar tu negocio.
+  title: Configura tu negocio
+  description: Revisa la configuración inicial de cuenta, facturación, equipo, datos y canales antes de lanzar.
 
 permalink: setting-up-your-business
 permalink_es: comenzando-con-tu-negocio

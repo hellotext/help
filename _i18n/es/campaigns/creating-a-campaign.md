@@ -1,26 +1,26 @@
-Aprende a crear campañas de mensajes de texto dirigidas a tu audiencia con comunicaciones y promociones que generen más ingresos y atención hacia tu marca.
+Aprende a crear campañas dirigidas a tu audiencia con comunicaciones y promociones que generen atención e ingresos para tu marca.
 
-Las campañas de mensajes de texto son una de las formas más efectivas de captar la atención de tus clientes, con mensajes cortos y cautivadores que la mayoría de tus destinatarios leerán casi de inmediato.
+Las campañas son una de las formas más efectivas de captar la atención de tus clientes con mensajes cortos y relevantes en el momento correcto.
 
-Son especialmente efectivos para aumentar las ventas o generar anticipación. Las posibilidades que brindan los mensajes de texto para desbloquear nuevas oportunidades de ingresos son prácticamente infinitas, en especial cuando forman parte de la estrategia habitual de comunicación y promoción de tu negocio.
+Son especialmente efectivas para aumentar las ventas o generar anticipación en momentos puntuales. Úsalas como parte de tu estrategia habitual de mensajería, junto con capturas, playbooks y flujos de Inbox.
 
 Para crear una nueva campaña, visita la sección *Campañas* y haz clic en el botón *Nueva campaña* cerca de la parte superior derecha de la página.
 
 ## Seleccionar una audiencia
 
-Las campañas pueden llegar a toda tu base de suscriptores simplemente manteniendo la selección *Todas las Audiencias*.
+Las campañas pueden llegar a toda tu audiencia elegible simplemente manteniendo la selección *Todas las Audiencias*.
 
-En el lado derecho de la página se puede ver una estimación del total de suscriptores a los que llegará esta campaña.
+En el lado derecho de la página se puede ver una estimación del total de destinatarios que puede alcanzar esta campaña.
 
-Llegar a todos tus suscriptores puede no ser siempre deseable. Por lo general, una campaña es más efectiva cuando su mensaje se dirige a un grupo demográfico en particular.
+Llegar a todos no siempre es deseable. Por lo general, una campaña es más efectiva cuando su mensaje se dirige a una audiencia específica.
 
 Es una buena práctica crear diferentes campañas dirigidas a audiencias específicas. Si ya estás utilizando Listas o Segmentos, puedes incluirlos como audiencias seleccionándolos en el menú desplegable *Todas las Audiencias*.
 
 Puedes incluir múltiples Listas y Segmentos en tu selección haciendo clic en el botón <img src="/images/icons/add.svg" class="avatar-icon bg-blush" width="25" /> a la derecha del desplegable.
 
-El total agregado de suscriptores a alcanzar será visible en el lado derecho de la página.
+El total agregado de destinatarios a alcanzar será visible en el lado derecho de la página.
 
-Más información sobre **[Listas y segmentos](/lists-and-segments)**
+Más información: **[Listas y segmentos]({% link _audience/lists-and-segments.md %})**.
 
 ### Excluyendo audiencias
 
@@ -30,13 +30,15 @@ Para que una audiencia permanezca excluida, su etiqueta debe decir *Excluir*.
 
 ## Redactar tu mensaje
 
-Tómate tu tiempo para pensar en un buen mensaje. Imagínate a ti mismo como el destinatario. ¿Cómo te sentirías al recibir este mensaje de texto?
+Tómate tu tiempo para escribir un mensaje claro. Imagínate a ti mismo como destinatario. ¿Cómo te sentirías al recibir este mensaje?
 
-Por lo general, los mensajes cortos y efectivos funcionan mejor que aquellos más largos. Tu campaña se enviará en formato SMS. Los SMS tienen un límite de 160 caracteres. Si incluyes caracteres que originalmente no se admiten en la especificación GSM-7 (como acentos y emojis), se realizará una conversión de codificación a UCS-2 y la longitud total por mensaje SMS se reducirá a 80 caracteres.
+Por lo general, los mensajes cortos y efectivos funcionan mejor que aquellos más largos.
 
-Si tu mensaje excede este límite, se requerirá un SMS adicional. Siempre que sea posible, tratamos de fusionar diferentes SMS en un solo mensaje y, cuando esto no sea posible, el mensaje se enviará en mensajes SMS separados.
+Si tu campaña usa SMS, ten en cuenta la longitud del mensaje. Los SMS tienen un límite de 160 caracteres. Si incluyes caracteres que originalmente no se admiten en la especificación GSM-7, como acentos y emojis, se realizará una conversión de codificación a UCS-2 y la longitud total por mensaje SMS se reducirá a 80 caracteres.
 
-Un contador con los caracteres de SMS restantes y la cantidad de mensajes SMS que esta campaña consumirá por suscriptor siempre está disponible en el área inferior derecha de la redacción.
+Si tu mensaje SMS excede este límite, se requerirá un SMS adicional. Siempre que sea posible, Hellotext intenta fusionar diferentes SMS en un solo mensaje y, cuando esto no sea posible, el mensaje se enviará en mensajes SMS separados.
+
+Un contador con los caracteres de SMS restantes y la cantidad de mensajes SMS que esta campaña consumirá por destinatario estará disponible en el área de redacción cuando aplique SMS.
 
 Una vista previa del mensaje está disponible en el lado derecho de la página. Puede ayudar a darte una idea de cómo se vería el mensaje cuando se divide en diferentes SMS.
 
@@ -48,15 +50,15 @@ Siempre recomendamos usar esta herramienta para acortar la URL que llevará a lo
 
 Los beneficios de acortar enlaces son dobles: mantiene tu mensaje más corto logrando más caracteres adicionales para el mensaje.
 
-También realiza un seguimiento de quién de tus suscriptores hizo clic en el enlace corto y todas las acciones sucesivas realizadas, como saber quién realizó una compra o completó una determinada acción.
+También registra qué destinatarios hicieron clic en el enlace corto y las acciones posteriores, como compras u otros eventos con tracking.
 
 Para que esto funcione, debes haber instalado previamente el rastreador *Hellotext.js* o haber creado tu propia implementación para procesar la sesión y rastrear los eventos usando la API.
 
 ### Agregar etiquetas
 
-Haz que tus mensajes sean más personales haciendo referencia a las propiedades del suscriptor. Por ejemplo, mostrar su nombre usando la etiqueta _{name}_. El mensaje entregado reemplazará la etiqueta con el nombre del suscriptor.
+Haz que tus mensajes sean más personales haciendo referencia a las propiedades del perfil de cliente. Por ejemplo, puedes mostrar su nombre usando la etiqueta _{name}_. El mensaje entregado reemplazará la etiqueta con el nombre del perfil de cliente.
 
-Puedes encontrar etiquetas para todas sus propiedades de contacto, como:
+Puedes encontrar etiquetas para todas las propiedades del perfil de cliente, como:
 
 * *{name}*
 * *{last_name}*
@@ -66,7 +68,7 @@ Puedes encontrar etiquetas para todas sus propiedades de contacto, como:
 
 ### Establecer un valor predeterminado
 
-Es probable que no todos tus suscriptores tengan un valor en la propiedad de la etiqueta que deseas usar. Por ejemplo, es posible que no todos los destinatarios de tu campaña tengan un nombre asociado. Dependiendo de cómo elabores tu mensaje, esto puede hacer que el mensaje se lea extraño si no se muestra ningún valor.
+Es probable que no todos los perfiles de cliente tengan un valor en la propiedad que deseas usar en una etiqueta. Por ejemplo, es posible que no todos los destinatarios de tu campaña tengan un nombre asociado. Dependiendo de cómo elabores tu mensaje, esto puede hacer que el mensaje se lea extraño si no se muestra ningún valor.
 
 Para resolver esto, puedes pasar un valor predeterminado dentro de tu etiqueta separado por el caracter de separación o *pipe* en inglés como _ {name|cliente}_.
 
@@ -74,7 +76,7 @@ Si tu mensaje es por ejemplo:
 
 * *Estimado **{name&#124;cliente}**, tenemos una oferta especial...*
 
-Para un suscriptor sin su nombre se enviará como:
+Para un destinatario sin nombre se enviará como:
 
 * *Estimado **cliente**, tenemos una oferta especial...*
 
@@ -82,11 +84,15 @@ Para un suscriptor sin su nombre se enviará como:
 
 Puedes hacer referencia a cupones ya creados. Hacer referencia a los cupones en lugar de escribirlos manualmente te brinda mejores informes y comprensión del impacto que tuvieron en los resultados de tu campaña.
 
-### Elegir remitente
+### Elegir canal y remitente
 
-Los mensajes se envían utilizando las mejores rutas posibles. Hellotext lo gestiona automáticamente, así que no tienes que preocuparte de esto.
+Elige el canal y remitente que correspondan a la audiencia y objetivo de la campaña.
 
-Aún así, puedes especificar cualquiera de los números de teléfono que tengas asociado como el remitente, incluido cualquier código corto que puedas haber asociado.
+Para campañas SMS, asegúrate de que tu cuenta tenga un remitente activo o código corto disponible antes de lanzar.
+
+Para campañas de WhatsApp, asegúrate de que tu cuenta de WhatsApp esté conectada y lista antes de enviar.
+
+Sigue leyendo: **[Resumen de canales de mensajería]({% link _numbers/messaging-overview.md %})**.
 
 ## Programar y entregar
 
@@ -94,7 +100,7 @@ Puedes enviar tu campaña de inmediato o programarla para enviarla en el futuro 
 
 ### Revisión editorial
 
-Ten en cuenta que si tu campaña se dirige a más de 100 suscriptores, estará sujeta a una revisión editorial rápida antes de que se entregue.
+Ten en cuenta que si tu campaña se dirige a más de 100 destinatarios, estará sujeta a una revisión editorial rápida antes de que se entregue.
 
 Durante el horario de oficinas, esto es bastante rápido y generalmente toma menos de 10 minutos.
 

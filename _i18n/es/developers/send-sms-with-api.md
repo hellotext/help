@@ -91,13 +91,13 @@ Conoce más acá {shortlink:https://www.tunegocio.com}
 
 Hellotext reemplazará esa instrucción por un enlace corto al momento de enviar el mensaje.
 
-Si quieres usar tu propio dominio para enlaces cortos, consulta la guía de [dominio personalizado para enlaces cortos](/es/configurando-dominio-para-enlaces-cortos).
+Si quieres usar tu propio dominio para enlaces cortos, consulta la guía de [dominio personalizado para enlaces cortos]({% link _integrations/custom-domain-for-short-links.md %}).
 
-## Perfiles y contactos
+## Perfiles de cliente
 
 No necesitas crear un perfil previamente para hacer un envío puntual a un número usando `destination`.
 
-Sin embargo, si además quieres mantener el historial del contacto, segmentar audiencias o reutilizar esos datos en campañas y automatizaciones, puedes:
+Sin embargo, si además quieres mantener el historial del perfil de cliente, segmentar audiencias o reutilizar esos datos en campañas, playbooks o rutas, puedes:
 
-* Importar tu base de contactos desde la interfaz de Hellotext.
+* Importar perfiles de cliente desde la interfaz de Hellotext.
 * Crear perfiles programáticamente con la [referencia de la API para crear perfiles](https://www.hellotext.com/api#create_a_profile).

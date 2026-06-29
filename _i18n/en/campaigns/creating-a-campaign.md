@@ -1,26 +1,26 @@
-Learn how to create text message campaigns to reach your audience with communications and promotions that drive more revenue and attention towards your brand.
+Learn how to create campaigns to reach your audience with communications and promotions that drive attention and revenue for your brand.
 
-Text-based campaigns are one of the most effective ways to capture your customers' attention by delivering short and captivating messages that will be read almost immediately by the majority of their recipients.
+Campaigns are one of the most effective ways to capture your customers' attention by delivering short and relevant messages at the right moment.
 
-They are especially effective at building anticipation or driving more sales. The possibilities with text messaging as part of your regular marketing communication strategy to unlock new revenue opportunities are virtually endless.
+They are especially effective for building anticipation or driving focused sales moments. Use them as part of your regular messaging strategy, alongside captures, playbooks, and Inbox workflows.
 
-To create a new campaign visit the *Campaigns* section and click on the *New Campaign* button near the top right of the page.
+To create a new campaign, visit the *Campaigns* section and click on the *New Campaign* button near the top right of the page.
 
 ## Selecting an audience
 
-Campaigns can reach your entire subscriber base simply by keeping the *All audiences* option selected.
+Campaigns can reach your full eligible audience by keeping the *All audiences* option selected.
 
-An estimate of the total subscribers that this campaign will reach is visible on the right side of the page.
+An estimate of the total recipients this campaign can reach is visible on the right side of the page.
 
-Reaching all your subscribers may not be always desirable. Typically a campaign is most effective when its message targets a particular demographic.
+Reaching everyone is not always desirable. A campaign is usually more effective when the message targets a specific audience.
 
 It is a good practice to create different campaigns targeting specific audiences. If you are already using Lists or Segments, you can include them as audiences by selecting them from the *All audiences* dropdown.
 
 You can include multiple Lists and Segments in your selection by clicking the <img src="/images/icons/add.svg" class="avatar-icon bg-blush" width="25" /> button at the right of the dropdown. 
 
-The aggregated total of subscribers to reach will be visible on the right side of the page.
+The aggregated total of recipients to reach will be visible on the right side of the page.
 
-Learn more on **[Lists and Segments](/lists-and-segments)**
+Learn more: **[Lists and Segments]({% link _audience/lists-and-segments.md %})**.
 
 ### Excluding audiences
 
@@ -30,13 +30,15 @@ For an audience to remain excluded, its label should say *Exclude*.
 
 ## Composing your message
 
-Take your time to think a catchy message. Imagine yourself as the recipient. How would you feel receiving this text message?
+Take your time to write a clear message. Imagine yourself as the recipient. How would you feel receiving this message?
 
-Typically short and effective messages work better than longer ones. Your campaign will be delivered as a SMS text-based campaign. SMS have a limit of 160 characters. If you include characters that are not originally supported in the GSM-7 specification, such as accents and emojis, an encoding conversion to UCS-2 will be done and the total length per SMS message will be reduced to 80 characters.
+Typically, short and effective messages work better than longer ones.
 
-If your message exceeds this limit it will require an additional SMS. Whenever possible we try to merge different SMS into one message, and when this is not possible the message will be sent in separate SMS messages.
+If your campaign uses SMS, keep SMS length in mind. SMS messages have a limit of 160 characters. If you include characters that are not originally supported in the GSM-7 specification, such as accents and emojis, an encoding conversion to UCS-2 will be done and the total length per SMS message will be reduced to 80 characters.
 
-A counter with the remaining SMS characters and the number of SMS messages this campaign will consume per subscriber is always available on the bottom right area of the compose.
+If your SMS message exceeds this limit, it will require an additional SMS. Whenever possible, Hellotext tries to merge different SMS into one message, and when this is not possible the message will be sent in separate SMS messages.
+
+A counter with the remaining SMS characters and the number of SMS messages this campaign will consume per recipient is available in the compose area when SMS applies.
 
 A preview of the message is available on the right side of the page. It can help give you an idea of how the message could look when it is split into different SMS.
 
@@ -48,25 +50,25 @@ We always recommend using this tool to shorten the URL that will take visitors t
 
 The benefits of shortening links are two-fold: it keeps your message shorter, leaving more characters for the actual message.
 
-It also keeps track of whom of your subscribers clicked on the short link and all the successive actions performed, like knowing who made a purchase, or completed a certain action. 
+It also tracks which recipients clicked the short link and the actions that followed, such as purchases or other tracked events.
 
 For this to work, you previously need to have installed the *Hellotext.js* tracker or created your own implementation to process the session and track the events using the API.
 
 ### Add tags
 
-Make your messages more personal by referencing the properties of the subscriber. For example, display their name using the tag _{name}_. The delivered message will replace the tag with the name of the subscriber.
+Make your messages more personal by referencing customer profile properties. For example, display the profile's name using the tag _{name}_. The delivered message will replace the tag with the customer profile's name.
 
-You can find tags for all your contact properties such as:
+You can find tags for all your customer profile properties such as:
 
 * *{name}*
 * *{last_name}*
 * *{phone}*
-* *{birthday}*
+* *{birthdate}*
 * Any custom properties also have a matching tag following the same tag naming convention: For example, if the property is called _My Property_ a tag to reference this property will be automatically available with the name _{my_property}_
 
 ### Setting a default value
 
-Not all your subscribers are likely to have the property you want to use in a tag set. For example, not everyone in your subscriber list may have a name. Depending on how you craft your message, this can make the message read oddly if no value is shown.
+Not every customer profile is likely to have the property you want to use in a tag. For example, not every campaign recipient may have a name. Depending on how you craft your message, this can make the message read oddly if no value is shown.
 
 To solve this, you can pass a default value inside your tag separated by the pipe like _{name|customer}_.
 
@@ -74,7 +76,7 @@ If your message is for example:
 
 * *Dear **{name&#124;customer}**, we have a special offer...*
 
-For a subscriber without his name it will be sent as:
+For a recipient without a name, it will be sent as:
 
 * *Dear **customer**, we have a special offer...*
 
@@ -82,11 +84,15 @@ For a subscriber without his name it will be sent as:
 
 You can reference coupons already created. Referencing coupons instead of manually writing them gives you powerful reporting and better insights and understanding of the impact they had on your campaign results.
 
-### Choose sender
+### Choose channel and sender
 
-Messages are sent using the best routes possible. This is managed automatically by Hellotext so you don't need to worry about it.
+Choose the channel and sender that match the audience and campaign goal.
 
-You can still specify any of your existing phone numbers as the sender including any short code that you may have associated.
+For SMS campaigns, make sure your account has an active sender or short code available before launching.
+
+For WhatsApp campaigns, make sure your WhatsApp account is connected and ready before sending.
+
+Keep reading: **[Messaging channels overview]({% link _numbers/messaging-overview.md %})**.
 
 ## Schedule and deliver 
 
@@ -94,7 +100,7 @@ You can send your campaign right away or schedule it to send in the future on a 
 
 ### Editorial review
 
-Please keep in mind that if your campaign targets more than 100 subscribers it will be subject to a quick editorial review before it is delivered.
+Please keep in mind that if your campaign targets more than 100 recipients it will be subject to a quick editorial review before it is delivered.
 
 During business hours this is fairly quick and usually takes less than 10 minutes.
 

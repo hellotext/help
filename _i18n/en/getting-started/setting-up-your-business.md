@@ -1,65 +1,74 @@
-If you are new to Hellotext, start here. This guide will help you through the first steps to set up your business.
+Use this guide when you are creating a new Hellotext business or reviewing an existing business before launch.
 
-This is a simple guide just to get you started, covering some of the most basic aspects.
+For the complete launch order, start with the [launch checklist]({% link _getting-started/launch-checklist.md %}).
 
-We always encourage you to read the guides covering each of the topics in detail.
+## Before you start
 
-## Create the business
+Make sure you know:
 
-If you do not have a user account yet, please **[contact our sales](https://www.hellotext.com/demo)** team.
+- The business name and main country.
+- Who should own the Hellotext business.
+- Who needs admin access during setup.
+- Which commerce platform, marketplace, or custom system should connect first.
+- Which messaging channel you plan to use first, usually WhatsApp or SMS.
 
-If you haven't created a business yet, sign in to Hellotext and click on *New Business*.
+If you do not have access to Hellotext yet, contact your Hellotext representative or request a demo from the [Hellotext website](https://www.hellotext.com/demo).
 
-From the *New Business* section, you will be asked to enter the name of the business, pick a username for the business for your team to get access and the main country in which your business operates.
+## Create or review the business
 
-### Select a plan
+When you create a business, use a name and username your team will recognize. The country should match where the business primarily operates because it can affect channel setup, pricing, and billing behavior.
 
-You will be asked to select the plan that best fits your business. 
+Before you connect integrations or send messages, confirm that:
 
-All plans include a 30-day free trial period.
+- The business name is correct.
+- The username is easy for your team to identify.
+- The country is correct.
+- The owner account is the right one.
+- Admin users who will set up integrations have access.
 
-You will be asked to enter a credit card to activate your plan. You will not be charged during the trial period. 
+If the owner account is wrong, fix that before making broader setup changes. Keep reading: [Transfer business ownership]({% link _integrations/transferring-ownership.md %}).
 
-If you prefer to skip the credit and plan to make payments via bank deposits, choose *Wire deposit* instead and continue.
+## Confirm billing and plan context
 
-Newly created businesses are always invoiced under a prepaid agreement. This means that in order to activate your trial you need to make a refundable deposit first.
+Your plan determines what is included, how usage is counted, and which billing rules apply.
 
-Businesses with invoicing agreement as *credit* can activate a trial without a bank deposit.
-
-New prepaid businesses can send SMS right away, but SMS may start with a temporary daily limit while Hellotext reviews sending quality. Learn more about **[SMS sending limits for new businesses](/sms-sending-limits-for-new-businesses)**.
-
-## Connect your eCommerce
-
-Now that the business account is ready, get started by connecting your existing eCommerce platforms.
-
-Connecting your eCommerce makes it easier to start building your customer profiles with their complete history of activity in real-time.
-
-## Send a campaign
-
-As your audience starts to grow, continue creating your first campaign and reach your audience.
-
-Get creative and think of a sticky message that you can send to your customers. A discount on their next purchase? A link to a new product announcement? Some old inventory to clear? The possibilities and opportunities to increase sales and drive more engagement are endless.
-
-You can also narrow your campaigns to specific targeted audiences using *Segments*.
+Use the billing guides when you need to understand plan minimums, performance fees, SMS costs, variable messaging fees, or invoices.
 
 Keep reading:
 
-* **[Creating a campaign](/creating-a-campaign)** 
-* **[Better targeting using Segments](/segments)** 
+- [Pricing model]({% link _billing/how-pricing-works.md %})
+- [Plan usage and quotas]({% link _billing/understanding-plan-quotas.md %})
 
-## Invite a team member
+For current plan pricing and SMS rate tables, always check the public [Hellotext pricing page](https://www.hellotext.com/pricing).
 
-You sent your first campaigns and now customers are responding back with inquiries that appear directly on the Inbox. 
+New prepaid businesses can send SMS right away, but SMS may start with a temporary daily limit while Hellotext reviews sending quality. Keep reading: [SMS sending limits for new businesses]({% link _troubleshooting-deliverability/sms-sending-limits-for-new-businesses.md %}).
 
-Now it's probably a good moment to invite another team member to help you manage these incoming conversations.
+## Connect your data source
 
-Team members can join your business on Hellotext and actively interact with your customers either by responding to their inquiries or actively initiating conversations based on their activities.
+Connect the platform where customer, order, product, cart, and purchase activity lives. This helps Hellotext build customer profiles, read signals, personalize messages, and attribute results from the beginning.
 
-* **[Understanding team roles](/understanding-team-roles)**
+Start with the setup overview, then choose the guide that matches your store or marketplace.
 
-## Keep growing your audience
+Keep reading: [Setup and integrations overview]({% link _integrations/setup-overview.md %}).
 
-Continue building your audience with the help of any of the capture tools available:
+## Connect your first messaging channel
 
-* QR Codes
-* **[Keywords](/acquiring-a-keyword)**
+Before you create captures, playbooks, routes, or campaigns, confirm which channel customers should use to hear from you and reply.
+
+Use the messaging overview to decide what to prepare for SMS, WhatsApp, and sender setup.
+
+Keep reading: [Messaging channels overview]({% link _numbers/messaging-overview.md %}).
+
+## Invite the right teammates
+
+Invite the people who will configure the business, review reports, answer replies, or manage customers in the Inbox.
+
+Use roles carefully: give admin access only to people who should manage setup, billing, integrations, or team permissions.
+
+Keep reading: [Team roles and permissions]({% link _team/understanding-team-roles.md %}).
+
+## Continue with launch
+
+Once account access, billing context, data, channels, and team access are ready, continue with captures, your first audience, and your first playbook, route, or small test send.
+
+Keep reading: [Launch checklist]({% link _getting-started/launch-checklist.md %}).

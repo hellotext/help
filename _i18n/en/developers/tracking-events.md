@@ -1,14 +1,18 @@
-One of the most powerful marketing techniques is the ability to track what your customers do when they interact with your brand. This could be when they browse your site or visit your physical store. Tracking your customers' actions in a unified way unlocks an unprecedented number of possibilities: segment your audience based on their behavior to reach them with better precision campaigns, trigger automations based on what customers do and let your team use this data as it happens as opportunities to engage and sell more.
+Tracking events turns customer behavior into signals Hellotext can use across customer profiles, segments, attribution, playbooks, and the Inbox. Signals can come from your ecommerce site, physical store, custom backend, forms, conversations, or any other source that matters to your business.
 
-One of the key aspects that makes Hellotext unique is its ability to easily track all the important actions that your customers perform from any source that matters to you: that can be what they do at your eCommerce site, your physical retail shop or in any other valuable interaction.
+Those signals help Hellotext decide when to trigger a playbook, update a segment, enrich a customer profile, support an agent, or attribute revenue to the right action.
+
+For the broader product concept, start with [What are signals?]({% link _journeys/what-are-signals.md %}).
+
+If events are not appearing where expected, use [Troubleshoot missing signals or activity]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %}) to check identity, action names, integrations, triggers, and reports.
 
 ## Understanding Actions
 
-Actions are the generic activities that your customers do. 
+Actions are the generic activities that your customers do.
 
 They are grouped by their kind of action and separated by a dot. 
 
-For example, examples of actions are:
+For example:
 
 ### Cart actions
 
@@ -64,9 +68,9 @@ Learn more on the **[API Reference for Actions](https://www.hellotext.com/api#ac
 
 ## Understanding Events
 
-An event is the object that creates a relationship between an action and the subscriber at a particular time. 
+An event is the object that creates a relationship between an action and a customer profile at a particular time.
 
-It is the object that is created when you track an action of a customer.
+It is created when you track an action from a customer and becomes part of the signal history Hellotext can use later.
 
 ## Ways to track events
 
