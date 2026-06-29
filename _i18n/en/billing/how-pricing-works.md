@@ -121,7 +121,7 @@ Channels on every plan: **WhatsApp** (Meta bills separately), **Instagram Direct
 
 > **Upper plans:** Pro adds retail, ERP, and team capabilities; Enterprise covers custom enterprise volume and delivery requirements.
 
-## AI‑powered messages (fair‑use policy)
+## AI‑powered messages (fair‑use policy) {#ai-powered-messages-fair-use-policy}
 
 AI messages on WhatsApp, Instagram Direct, Facebook Messenger, and Webchat are included at no extra cost whenever **any** of the following three is **higher** than the variable fee:
 
@@ -135,7 +135,7 @@ Only if **all three are lower** do we charge the variable fee of **US$ 2 per 1,0
 
 Charged per message in local currency and vary by plan. They follow the same “pay only the highest” rule. <strong><a href="https://www.hellotext.com/pricing#sms" target="_blank">See SMS rates</a></strong>.
 
-## Attribution: what counts and the time window
+## Attribution: what counts and the time window {#attribution-what-counts-and-time-window}
 
 * An order is attributed to Hellotext only when Hellotext is the last non‑direct click before purchase.
 * The attribution window is 24 hours per impacted phone.
