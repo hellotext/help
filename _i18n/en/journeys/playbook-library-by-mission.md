@@ -150,6 +150,7 @@ Keep reading:
 
 - [Choose your first playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %})
+- [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})
 - [Go-live checklist before you send]({% link _getting-started/go-live-checklist.md %})
 
@@ -159,5 +160,6 @@ Keep reading:
 - [What are signals?]({% link _journeys/what-are-signals.md %})
 - [Choose your first playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %})
+- [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [First wins starter pack]({% link _getting-started/first-wins-starter-pack.md %})
 - [How Hellotext works]({% link _getting-started/how-hellotext-works.md %})

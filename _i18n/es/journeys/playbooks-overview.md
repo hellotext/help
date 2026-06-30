@@ -34,6 +34,8 @@ Confirma que los datos y canales de los que depende estén listos.
 
 Para el flujo completo de lanzamiento, usa [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %}).
 
+Cuando necesites cambiar una configuración existente, usa [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %}).
+
 Para playbooks de eCommerce, asegúrate de que la integración de tu tienda esté conectada y que la actividad reciente aparezca en los perfiles de cliente como señales utilizables.
 
 Para playbooks de WhatsApp, asegúrate de que WhatsApp esté conectado y aprobado antes de enviar clientes al flujo.
@@ -57,12 +59,15 @@ Empieza con una audiencia enfocada y revisa las primeras conversaciones antes de
 
 Usa lo aprendido para ajustar el prompt, tiempos, condiciones de ramas o textos de la plantilla. Para métricas de ingresos, conversión y derivación, usa [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %}).
 
+Para un proceso de edición más seguro, usa [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %}).
+
 ## Guías relacionadas
 
 - [Qué son las señales]({% link _journeys/what-are-signals.md %})
 - [Cómo funciona Hellotext: playbooks, campañas e Inbox]({% link _getting-started/how-hellotext-works.md %})
 - [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
+- [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
 - [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %})
 - [Primeros pasos con rutas]({% link _journeys/getting-started-with-journeys.md %})

@@ -130,9 +130,12 @@ Common adjustments include:
 
 After each change, give the playbook enough activity before comparing results again.
 
+For a safer editing process, keep reading: [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %}).
+
 ## Related guides
 
 - [Choose your first playbook]({% link _journeys/choose-your-first-playbook.md %})
+- [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [Playbook library by mission]({% link _journeys/playbook-library-by-mission.md %})
 - [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})
 - [How to write a great agent prompt]({% link _journeys/how-to-write-a-great-prompt.md %})

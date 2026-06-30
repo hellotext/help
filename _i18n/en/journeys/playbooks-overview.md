@@ -34,6 +34,8 @@ Confirm that the data and channels it depends on are ready.
 
 For the full launch flow, use [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %}).
 
+When you need to change an existing setup, use [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %}).
+
 For commerce playbooks, make sure your store integration is connected and recent activity appears on customer profiles as usable signals.
 
 For WhatsApp playbooks, make sure WhatsApp is connected and approved before sending customers into the flow.
@@ -57,12 +59,15 @@ Start with a focused audience and review the first conversations before expandin
 
 Use what you learn to adjust the prompt, timing, branch conditions, or template copy. For revenue, conversion, and handoff metrics, use [Playbook reporting]({% link _analytics-reporting-attribution/playbook-reporting.md %}).
 
+For a safer editing process, use [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %}).
+
 ## Related guides
 
 - [What are signals?]({% link _journeys/what-are-signals.md %})
 - [How Hellotext works: playbooks, campaigns, and Inbox]({% link _getting-started/how-hellotext-works.md %})
 - [Choose your first playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %})
+- [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [Playbook library by mission]({% link _journeys/playbook-library-by-mission.md %})
 - [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %})
 - [Getting started with journeys]({% link _journeys/getting-started-with-journeys.md %})

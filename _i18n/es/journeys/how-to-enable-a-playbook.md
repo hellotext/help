@@ -130,9 +130,12 @@ Ajustes comunes:
 
 Después de cada cambio, dale suficiente actividad al playbook antes de comparar resultados de nuevo.
 
+Para un proceso de edición más seguro, sigue leyendo: [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %}).
+
 ## Guías relacionadas
 
 - [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
+- [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Cómo escribir un gran prompt para tu agente]({% link _journeys/how-to-write-a-great-prompt.md %})
