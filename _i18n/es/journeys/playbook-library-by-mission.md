@@ -149,6 +149,7 @@ Confirma:
 Sigue leyendo:
 
 - [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
+- [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Checklist antes de enviar]({% link _getting-started/go-live-checklist.md %})
 
@@ -157,5 +158,6 @@ Sigue leyendo:
 - [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})
 - [Qué son las señales]({% link _journeys/what-are-signals.md %})
 - [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
+- [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [Primeros logros recomendados]({% link _getting-started/first-wins-starter-pack.md %})
 - [Cómo funciona Hellotext]({% link _getting-started/how-hellotext-works.md %})

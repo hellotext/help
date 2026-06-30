@@ -16,9 +16,11 @@ Si estás decidiendo por dónde empezar, usa [Elige tu primer playbook]({% link 
 
 Si quieres explorar opciones comunes por objetivo de negocio, usa [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %}).
 
+Cuando ya sabes qué opción quieres lanzar, usa [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %}).
+
 Usa un **playbook preconstruido** cuando el objetivo es común y la misión recomendada ya encaja con tu negocio. Normalmente es la forma más rápida de lanzar.
 
-Usa un **playbook con IA o agente de IA** cuando la experiencia necesita responder conversacionalmente, usar conocimiento de productos o políticas, recomendar artículos, responder preguntas frecuentes, recopilar información del cliente o decidir cuándo escalar.
+Usa un **playbook con IA o agente de IA** cuando la experiencia necesita responder conversacionalmente, usar conocimiento de productos o políticas, recomendar artículos, responder preguntas frecuentes, recopilar información del cliente o decidir cuándo derivar.
 
 Usa una **ruta** cuando necesitas un flujo de clientes paso a paso con disparador, mensajes, esperas, condiciones, ramas y derivaciones. Un seguimiento básico de carrito abandonado puede ser una plantilla de ruta; un playbook de carrito abandonado con IA puede decidir de forma más dinámica usando señales y contexto del cliente.
 
@@ -26,9 +28,11 @@ Para esa decisión específica, mira [Carrito abandonado: plantilla de ruta vs p
 
 Usa una **campaña** cuando quieres un envío puntual a una audiencia seleccionada, y una **captura** cuando el objetivo es recolectar suscriptores o datos de clientes.
 
-## Antes de activar un playbook
+## Antes de habilitar un playbook
 
 Confirma que los datos y canales de los que depende estén listos.
+
+Para el flujo completo de lanzamiento, usa [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %}).
 
 Para playbooks de eCommerce, asegúrate de que la integración de tu tienda esté conectada y que la actividad reciente aparezca en los perfiles de cliente como señales utilizables.
 
@@ -58,6 +62,7 @@ Usa lo aprendido para ajustar el prompt, tiempos, condiciones de ramas o textos 
 - [Qué son las señales]({% link _journeys/what-are-signals.md %})
 - [Cómo funciona Hellotext: playbooks, campañas e Inbox]({% link _getting-started/how-hellotext-works.md %})
 - [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
+- [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
 - [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %})
 - [Primeros pasos con rutas]({% link _journeys/getting-started-with-journeys.md %})

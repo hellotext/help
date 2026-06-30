@@ -20,6 +20,8 @@ Para recuperación de carritos específicamente, mira [Carrito abandonado: plant
 
 Si quieres explorar más opciones antes de elegir, usa [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %}).
 
+Después de elegir la primera opción para lanzar, sigue [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %}).
+
 ## Elige por primer objetivo
 
 | Si tu primer objetivo es... | Empieza con... | Por qué |
@@ -36,7 +38,7 @@ Si quieres explorar más opciones antes de elegir, usa [Biblioteca de playbooks 
 
 Elige un primer objetivo, un canal y una audiencia.
 
-Para un primer lanzamiento, evita activar varios playbooks de ingresos al mismo tiempo. Si varios playbooks pueden actuar sobre el mismo cliente, se vuelve más difícil entender qué funcionó, qué molestó a los clientes y qué debería cambiar.
+Para un primer lanzamiento, evita habilitar varios playbooks de ingresos al mismo tiempo. Si varios playbooks pueden actuar sobre el mismo cliente, se vuelve más difícil entender qué funcionó, qué molestó a los clientes y qué debería cambiar.
 
 Los buenos primeros lanzamientos suelen ser acotados:
 
@@ -52,7 +54,7 @@ Usa una **campaña** cuando ya sabes la audiencia, mensaje y momento de envío.
 
 Usa una **ruta** cuando la experiencia debería seguir pasos conocidos: disparador, espera, mensaje, condición, rama y derivación.
 
-Usa un **playbook con IA o agente** cuando Hellotext necesita interpretar respuestas, usar conocimiento de productos o políticas, personalizar recomendaciones, elegir entre varios siguientes pasos o decidir cuándo escalar.
+Usa un **playbook con IA o agente** cuando Hellotext necesita interpretar respuestas, usar conocimiento de productos o políticas, personalizar recomendaciones, elegir entre varios siguientes pasos o decidir cuándo derivar.
 
 Usa una **captura** cuando el trabajo principal es recopilar suscriptores o datos de clientes antes de que otro playbook pueda correr.
 
@@ -68,6 +70,8 @@ Usa una **captura** cuando el trabajo principal es recopilar suscriptores o dato
 
 Si alguna respuesta no está clara, acota el playbook antes de publicarlo.
 
+Cuando las respuestas estén claras, pasa a [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %}) para configurarlo, probarlo y encenderlo con cuidado.
+
 ## Después del primer lanzamiento
 
 Revisa los primeros resultados antes de sumar más automatización.
@@ -81,6 +85,7 @@ Después ajusta una cosa por vez: audiencia, disparador, timing, mensaje, oferta
 - [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})
 - [Primeros logros recomendados]({% link _getting-started/first-wins-starter-pack.md %})
 - [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
+- [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [Qué son las señales]({% link _journeys/what-are-signals.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %})

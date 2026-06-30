@@ -16,6 +16,8 @@ If you are deciding where to start, use [Choose your first playbook]({% link _jo
 
 If you want to browse common options by business goal, use [Playbook library by mission]({% link _journeys/playbook-library-by-mission.md %}).
 
+When you know which option you want to launch, use [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %}).
+
 Use a **prebuilt playbook** when the goal is common and the recommended mission already fits your business. This is usually the fastest way to launch.
 
 Use an **AI playbook or AI agent** when the experience needs to respond conversationally, use product or policy knowledge, recommend items, answer frequent questions, collect customer information, or decide when to escalate.
@@ -29,6 +31,8 @@ Use a **campaign** when you want a one-time send to a selected audience, and a *
 ## Before you enable a playbook
 
 Confirm that the data and channels it depends on are ready.
+
+For the full launch flow, use [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %}).
 
 For commerce playbooks, make sure your store integration is connected and recent activity appears on customer profiles as usable signals.
 
@@ -58,6 +62,7 @@ Use what you learn to adjust the prompt, timing, branch conditions, or template 
 - [What are signals?]({% link _journeys/what-are-signals.md %})
 - [How Hellotext works: playbooks, campaigns, and Inbox]({% link _getting-started/how-hellotext-works.md %})
 - [Choose your first playbook]({% link _journeys/choose-your-first-playbook.md %})
+- [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [Playbook library by mission]({% link _journeys/playbook-library-by-mission.md %})
 - [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %})
 - [Getting started with journeys]({% link _journeys/getting-started-with-journeys.md %})

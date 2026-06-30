@@ -20,6 +20,8 @@ For cart recovery specifically, see [Abandoned cart: route template vs AI playbo
 
 If you want to browse more options before choosing, use [Playbook library by mission]({% link _journeys/playbook-library-by-mission.md %}).
 
+After you choose the first option to launch, follow [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %}).
+
 ## Choose by first goal
 
 | If your first goal is... | Start with... | Why |
@@ -68,6 +70,8 @@ Use a **capture** when the main job is to collect subscribers or customer data b
 
 If any answer is unclear, narrow the playbook before publishing.
 
+When the answers are clear, move to [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %}) to configure, test, and turn it on safely.
+
 ## After the first launch
 
 Review the first results before adding more automation.
@@ -81,6 +85,7 @@ Then adjust one thing at a time: audience, trigger, timing, message, offer, prom
 - [Playbooks and automation overview]({% link _journeys/playbooks-overview.md %})
 - [First wins starter pack]({% link _getting-started/first-wins-starter-pack.md %})
 - [Playbook library by mission]({% link _journeys/playbook-library-by-mission.md %})
+- [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [What are signals?]({% link _journeys/what-are-signals.md %})
 - [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})
 - [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %})
