@@ -107,7 +107,7 @@ Empieza acá cuando ninguna misión preconstruida encaja con tu proceso exacto.
 
 Usa **Constructor de Rutas** cuando necesitas una ruta controlada con disparadores, esperas, mensajes, preguntas, condiciones, asignaciones y ramas.
 
-Usa **Agente Personalizado** cuando necesitas un agente de IA para un trabajo específico, con instrucciones propias, intenciones, conocimiento cargado, canales entrantes, acciones y reglas de derivación.
+Usa **[Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})** cuando necesitas un agente de IA para un trabajo específico, con instrucciones propias, intenciones, conocimiento cargado, canales entrantes, acciones y reglas de derivación.
 
 Los flujos personalizados son potentes, pero necesitan límites claros: qué inicia el flujo, qué debería vivir el cliente, qué datos necesita, cuándo debería detenerse y cuándo debería tomar la conversación una persona.
 
@@ -115,6 +115,7 @@ Sigue leyendo:
 
 - [Primeros pasos con rutas]({% link _journeys/getting-started-with-journeys.md %})
 - [Ruta personalizada]({% link _journeys/custom-journey.md %})
+- [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
 - [Cómo escribir un gran prompt para tu agente]({% link _journeys/how-to-write-a-great-prompt.md %})
 
 ## Elige la misión correcta
@@ -130,7 +131,7 @@ Si no sabes por dónde empezar, elige la misión que coincide con el primer cuel
 | Los clientes quedaron fríos | Reactivación de Inactivos o Último Intento |
 | Tienes un anuncio con fecha | Envío clásico, Campaña Estacional, Adelanto de Lanzamiento o Liquidación Final |
 | El soporte es repetitivo | Respuestas Instantáneas, [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}), Asistente de Cambios y Devoluciones o Pulso CSAT/NPS |
-| Tu proceso es único | Constructor de Rutas o Agente Personalizado |
+| Tu proceso es único | Constructor de Rutas o [Agente Personalizado]({% link _journeys/custom-agent-playbook.md %}) |
 
 Elige una misión, una audiencia y un canal para el primer lanzamiento. Ampliar es más fácil después de que el primer playbook confirma que los datos, timing, canal y camino de derivación funcionan.
 
@@ -155,6 +156,7 @@ Sigue leyendo:
 - [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
 - [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
+- [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
 - [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Checklist antes de enviar]({% link _getting-started/go-live-checklist.md %})
@@ -166,6 +168,7 @@ Sigue leyendo:
 - [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
 - [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [Primeros logros recomendados]({% link _getting-started/first-wins-starter-pack.md %})
 - [Cómo funciona Hellotext]({% link _getting-started/how-hellotext-works.md %})

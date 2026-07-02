@@ -38,7 +38,7 @@ Open **Playbooks** and check the playbook status.
 
 If the playbook is disabled, it should not accept new eligible customers or conversations. Enable it only after the required signals, channels, knowledge, and handoff path are ready.
 
-Also confirm you are looking at the correct version. Some playbooks can exist only once for the business. Custom agents and custom playbooks may have multiple versions with similar names.
+Also confirm you are looking at the correct version. Some playbooks can exist only once for the business. [Custom agents]({% link _journeys/custom-agent-playbook.md %}) and custom playbooks may have multiple versions with similar names.
 
 ## 3. If the playbook did not trigger
 
@@ -169,6 +169,7 @@ If many customers show the same symptom, fix the shared cause: integration, trac
 - [Troubleshoot missing signals or activity]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %})
 - [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %})
 - [Who can I message?]({% link _audience/consent-and-subscriber-status.md %})
 - [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [Playbook reporting]({% link _analytics-reporting-attribution/playbook-reporting.md %})

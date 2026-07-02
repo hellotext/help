@@ -28,7 +28,7 @@ The exact checks vary by playbook, but the decision usually moves through these 
 
 The playbook must be enabled before it can accept new eligible customers or conversations.
 
-Some playbooks can be enabled only once for the business. Others, such as custom agents, may allow multiple versions. Availability can also depend on the account, integration, channel, or feature set.
+Some playbooks can be enabled only once for the business. Others, such as [custom agents]({% link _journeys/custom-agent-playbook.md %}), may allow multiple versions. Availability can also depend on the account, integration, channel, or feature set.
 
 If the playbook is disabled, it should not accept new activity. Existing conversations, routes, or proposals may still need time to finish depending on the playbook type.
 
@@ -38,7 +38,7 @@ Active sales playbooks usually need a signal, such as an abandoned cart, product
 
 Reactive support playbooks usually need an incoming customer message that fits the playbook's purpose.
 
-Custom agents may depend on configured intents. If intents overlap, the Supervisor may choose another agent or decide that no active playbook is the right owner.
+[Custom agents]({% link _journeys/custom-agent-playbook.md %}) may depend on configured intents. If intents overlap, the Supervisor may choose another agent or decide that no active playbook is the right owner.
 
 Journey routes depend on their trigger, conditions, waits, and branch logic. A route can start, wait, branch, assign, or end without sending another message if the next step does not apply.
 
@@ -154,6 +154,7 @@ If the issue is prompt, intents, knowledge, handoff, offer, or route logic, use 
 
 - [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %})
 - [Troubleshoot a playbook that did not trigger or send]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
 - [What are signals?]({% link _journeys/what-are-signals.md %})
 - [Who can I message?]({% link _audience/consent-and-subscriber-status.md %})

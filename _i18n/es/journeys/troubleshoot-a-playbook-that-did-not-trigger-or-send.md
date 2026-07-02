@@ -38,7 +38,7 @@ Abre **Playbooks** y revisa el estado del playbook.
 
 Si el playbook está deshabilitado, no debería aceptar nuevos clientes o conversaciones elegibles. Habilítalo solo después de que las señales, canales, conocimiento y camino de derivación estén listos.
 
-También confirma que estás mirando la versión correcta. Algunos playbooks pueden existir una sola vez para el negocio. Agentes personalizados y playbooks personalizados pueden tener varias versiones con nombres similares.
+También confirma que estás mirando la versión correcta. Algunos playbooks pueden existir una sola vez para el negocio. [Agentes personalizados]({% link _journeys/custom-agent-playbook.md %}) y playbooks personalizados pueden tener varias versiones con nombres similares.
 
 ## 3. Si el playbook no se disparó
 
@@ -169,6 +169,7 @@ Si muchos clientes muestran el mismo síntoma, corrige la causa compartida: inte
 - [Soluciona señales o actividad faltante]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %})
 - [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
 - [A quién puedo escribirle]({% link _audience/consent-and-subscriber-status.md %})
 - [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})

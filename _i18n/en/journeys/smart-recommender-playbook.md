@@ -66,7 +66,7 @@ The available cards can vary, but you may be able to review:
 
 Keep automatic channel selection unless you have a clear reason to limit the playbook. Some recommendation formats work better in rich channels, while others may need simpler links or text.
 
-This playbook has an internal product-recommendation intent. You usually do not need to create manual intents for it. If you need several agents with different product missions or activation rules, use a custom agent and define those intents separately.
+This playbook has an internal product-recommendation intent. You usually do not need to create manual intents for it. If you need several agents with different product missions or activation rules, use a [custom agent]({% link _journeys/custom-agent-playbook.md %}) and define those intents separately.
 
 ## Write a useful prompt
 
@@ -142,6 +142,7 @@ Tune one thing at a time: prompt, knowledge documents, channel selection, handof
 - [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [How to write a great agent prompt]({% link _journeys/how-to-write-a-great-prompt.md %})
+- [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %})
 - [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})
 - [Connect your catalog to WhatsApp]({% link _integrations/connect-catalog-to-whatsapp.md %})
 - [WhatsApp channel fundamentals]({% link _numbers/whatsapp-channel-fundamentals.md %})

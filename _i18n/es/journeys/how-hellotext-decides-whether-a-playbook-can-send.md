@@ -28,7 +28,7 @@ Los chequeos exactos varían según el playbook, pero la decisión normalmente p
 
 El playbook debe estar habilitado antes de aceptar nuevos clientes o conversaciones elegibles.
 
-Algunos playbooks se pueden habilitar una sola vez para el negocio. Otros, como agentes personalizados, pueden permitir varias versiones. La disponibilidad también puede depender de la cuenta, integración, canal o funciones habilitadas.
+Algunos playbooks se pueden habilitar una sola vez para el negocio. Otros, como [agentes personalizados]({% link _journeys/custom-agent-playbook.md %}), pueden permitir varias versiones. La disponibilidad también puede depender de la cuenta, integración, canal o funciones habilitadas.
 
 Si el playbook está deshabilitado, no debería aceptar nueva actividad. Conversaciones, rutas o candidatos de envío que ya existían pueden necesitar tiempo para terminar según el tipo de playbook.
 
@@ -38,7 +38,7 @@ Los playbooks activos de venta normalmente necesitan una señal, como carrito ab
 
 Los playbooks reactivos de atención normalmente necesitan un mensaje entrante del cliente que coincida con el propósito del playbook.
 
-Los agentes personalizados pueden depender de intenciones configuradas. Si las intenciones se solapan, el Supervisor puede elegir otro agente o decidir que ningún playbook activo es el dueño correcto.
+Los [agentes personalizados]({% link _journeys/custom-agent-playbook.md %}) pueden depender de intenciones configuradas. Si las intenciones se solapan, el Supervisor puede elegir otro agente o decidir que ningún playbook activo es el dueño correcto.
 
 Las rutas dependen de su disparador, condiciones, esperas y lógica de ramas. Una ruta puede empezar, esperar, ramificar, asignar o terminar sin enviar otro mensaje si el siguiente paso no aplica.
 
@@ -154,6 +154,7 @@ Si el problema es prompt, intenciones, conocimiento, derivación, oferta o lógi
 
 - [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
 - [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
 - [Qué son las señales]({% link _journeys/what-are-signals.md %})
 - [A quién puedo escribirle]({% link _audience/consent-and-subscriber-status.md %})

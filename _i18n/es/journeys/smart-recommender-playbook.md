@@ -66,7 +66,7 @@ Las tarjetas disponibles pueden variar, pero podrías revisar:
 
 Mantén la selección automática de canales salvo que tengas una razón clara para limitar el playbook. Algunos formatos de recomendación funcionan mejor en canales enriquecidos, mientras que otros pueden necesitar links o texto más simple.
 
-Este playbook tiene una intención interna de recomendación de productos. Normalmente no necesitas crear intenciones manuales para él. Si necesitas varios agentes con distintas misiones de producto o reglas de activación, usa un agente personalizado y define esas intenciones aparte.
+Este playbook tiene una intención interna de recomendación de productos. Normalmente no necesitas crear intenciones manuales para él. Si necesitas varios agentes con distintas misiones de producto o reglas de activación, usa un [agente personalizado]({% link _journeys/custom-agent-playbook.md %}) y define esas intenciones aparte.
 
 ## Escribe un prompt útil
 
@@ -142,6 +142,7 @@ Ajusta una cosa por vez: prompt, documentos de conocimiento, selección de canal
 - [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [Cómo escribir un gran prompt para tu agente]({% link _journeys/how-to-write-a-great-prompt.md %})
+- [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Conecta tu catálogo a WhatsApp]({% link _integrations/connect-catalog-to-whatsapp.md %})
 - [Fundamentos del canal de WhatsApp]({% link _numbers/whatsapp-channel-fundamentals.md %})

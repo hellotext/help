@@ -23,7 +23,7 @@ Ve a **Playbooks**, haz clic en **Explorar playbooks** y elige el playbook que q
 
 Algunos playbooks se pueden habilitar una sola vez para el negocio. Si ya habilitaste ese playbook antes, Hellotext abre la configuración existente en lugar de crear una segunda copia.
 
-Los playbooks personalizados y agentes personalizados pueden permitir varias versiones. Dale a cada versión un nombre claro que explique su misión, audiencia o canal.
+Los playbooks personalizados y [agentes personalizados]({% link _journeys/custom-agent-playbook.md %}) pueden permitir varias versiones. Dale a cada versión un nombre claro que explique su misión, audiencia o canal.
 
 ## Revisa las tarjetas de configuración
 
@@ -141,6 +141,7 @@ Para un proceso de edición más seguro, sigue leyendo: [Cómo personalizar un p
 - [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
 - [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
+- [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Cómo escribir un gran prompt para tu agente]({% link _journeys/how-to-write-a-great-prompt.md %})
 - [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})

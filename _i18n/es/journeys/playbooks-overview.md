@@ -22,7 +22,7 @@ Usa un **playbook preconstruido** cuando el objetivo es común y la misión reco
 
 Usa un **playbook con IA o agente de IA** cuando la experiencia necesita responder conversacionalmente, usar conocimiento de productos o políticas, recomendar artículos, responder preguntas frecuentes, recopilar información del cliente o decidir cuándo derivar.
 
-Para descubrimiento de producto específicamente, mira [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}). Para preguntas de estado de pedido, mira [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}).
+Para descubrimiento de producto específicamente, mira [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}). Para preguntas de estado de pedido, mira [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}). Para un agente reactivo a medida con intenciones, prompt, conocimiento, canales, tono y derivación propios, mira [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %}).
 
 Usa una **ruta** cuando necesitas un flujo de clientes paso a paso con disparador, mensajes, esperas, condiciones, ramas y derivaciones. Un seguimiento básico de carrito abandonado puede ser [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}); un playbook de carrito abandonado con IA puede decidir de forma más dinámica usando señales y contexto del cliente.
 
@@ -81,6 +81,7 @@ Para un proceso de edición más seguro, usa [Cómo personalizar un playbook de 
 - [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
 - [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
+- [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
 - [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %})
 - [Primeros pasos con rutas]({% link _journeys/getting-started-with-journeys.md %})
 - [Ruta personalizada]({% link _journeys/custom-journey.md %})

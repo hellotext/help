@@ -16,7 +16,7 @@ Ask based on the playbook type:
 
 - For an active sales playbook: which signal, audience, or moment allows Hellotext to act?
 - For a reactive support playbook: what kind of question should it answer, and when should it hand off?
-- For a custom agent: which intents should activate this agent, and what should stay out of scope?
+- For a [custom agent]({% link _journeys/custom-agent-playbook.md %}): which intents should activate this agent, and what should stay out of scope?
 - For a route: which trigger, steps, waits, conditions, branches, and assignments make up the flow?
 - For any playbook: which report, Inbox conversation, or Playground test will show whether the change worked?
 
@@ -80,7 +80,7 @@ For a deeper prompt structure, use [How to write a great agent prompt]({% link _
 
 ## Customize intents
 
-This section mainly applies to custom agents or custom playbooks that show the **Intents** card.
+This section mainly applies to [custom agents]({% link _journeys/custom-agent-playbook.md %}) or custom playbooks that show the **Intents** card.
 
 Intents define which customer messages should activate that agent. A prebuilt playbook may react to signals or messages without requiring you to edit intents manually.
 
@@ -207,6 +207,7 @@ If results move in the wrong direction, revert the smallest change first.
 - [How Hellotext decides whether a playbook can send]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [Troubleshoot a playbook that did not trigger or send]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
 - [How to write a great agent prompt]({% link _journeys/how-to-write-a-great-prompt.md %})
+- [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %})
 - [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [What are signals?]({% link _journeys/what-are-signals.md %})
 - [Getting started with journeys]({% link _journeys/getting-started-with-journeys.md %})

@@ -107,7 +107,7 @@ Start here when none of the prebuilt missions fit your exact process.
 
 Use **Journey Builder** when you need a controlled route with triggers, waits, messages, questions, conditions, assignments, and branches.
 
-Use **Custom Agent** when you need an AI agent for a specific job, with custom instructions, intents, uploaded knowledge, incoming channels, actions, and handoff rules.
+Use **[Custom Agent]({% link _journeys/custom-agent-playbook.md %})** when you need an AI agent for a specific job, with custom instructions, intents, uploaded knowledge, incoming channels, actions, and handoff rules.
 
 Custom flows are powerful, but they need clear boundaries: what starts the flow, what the customer should experience, what data the flow needs, when it should stop, and when a teammate should take over.
 
@@ -115,6 +115,7 @@ Keep reading:
 
 - [Getting started with journeys]({% link _journeys/getting-started-with-journeys.md %})
 - [Custom journey]({% link _journeys/custom-journey.md %})
+- [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %})
 - [How to write a great agent prompt]({% link _journeys/how-to-write-a-great-prompt.md %})
 
 ## Choose the right mission
@@ -130,7 +131,7 @@ If you are unsure where to start, choose the mission that matches the first bott
 | Customers have gone cold | Dormant Revival or Sunset Saver |
 | You have a timed announcement | Classic Broadcast, Holiday Hype, Launch Teaser, or Clearance Clean-out |
 | Support work is repetitive | Instant Answers, [Order-Update Delight]({% link _journeys/order-update-playbook.md %}), Return & Exchange Helper, or CSAT/NPS Pulse |
-| Your process is unique | Journey Builder or Custom Agent |
+| Your process is unique | Journey Builder or [Custom Agent]({% link _journeys/custom-agent-playbook.md %}) |
 
 Choose one mission, one audience, and one channel for the first launch. Expanding is easier after the first playbook proves that the data, timing, channel, and handoff path are working.
 
@@ -155,6 +156,7 @@ Keep reading:
 - [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %})
 - [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
+- [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %})
 - [How Hellotext decides whether a playbook can send]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})
 - [Go-live checklist before you send]({% link _getting-started/go-live-checklist.md %})
@@ -166,6 +168,7 @@ Keep reading:
 - [Choose your first playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %})
 - [How Hellotext decides whether a playbook can send]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [First wins starter pack]({% link _getting-started/first-wins-starter-pack.md %})
 - [How Hellotext works]({% link _getting-started/how-hellotext-works.md %})

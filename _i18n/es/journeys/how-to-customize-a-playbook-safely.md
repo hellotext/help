@@ -16,7 +16,7 @@ Pregúntate según el tipo de playbook:
 
 - Para un playbook activo de venta: ¿qué señal, audiencia o momento permite que Hellotext actúe?
 - Para un playbook reactivo de atención: ¿qué tipo de consulta debería responder y cuándo debería derivar?
-- Para un agente personalizado: ¿qué intenciones deberían activar este agente y qué debería quedar fuera?
+- Para un [agente personalizado]({% link _journeys/custom-agent-playbook.md %}): ¿qué intenciones deberían activar este agente y qué debería quedar fuera?
 - Para una ruta: ¿qué disparador, pasos, esperas, condiciones, ramas y asignaciones forman el flujo?
 - Para cualquier playbook: ¿qué reporte, conversación del Inbox o prueba en Playground va a mostrar si el cambio funcionó?
 
@@ -80,7 +80,7 @@ Para una estructura más profunda, usa [Cómo escribir un gran prompt para tu ag
 
 ## Personaliza intenciones
 
-Esta sección aplica principalmente a agentes personalizados o playbooks personalizados que muestran la tarjeta **Intenciones**.
+Esta sección aplica principalmente a [agentes personalizados]({% link _journeys/custom-agent-playbook.md %}) o playbooks personalizados que muestran la tarjeta **Intenciones**.
 
 Las intenciones definen qué mensajes de clientes deberían activar ese agente. Un playbook preconstruido puede reaccionar a señales o mensajes sin que tengas que editar intenciones manualmente.
 
@@ -207,6 +207,7 @@ Si los resultados se mueven en la dirección equivocada, revierte primero el cam
 - [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
 - [Cómo escribir un gran prompt para tu agente]({% link _journeys/how-to-write-a-great-prompt.md %})
+- [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
 - [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [Qué son las señales]({% link _journeys/what-are-signals.md %})
 - [Primeros pasos con rutas]({% link _journeys/getting-started-with-journeys.md %})

@@ -32,7 +32,7 @@ After you choose the first option to launch, follow [How to enable a playbook]({
 | Drive repeat purchases | A replenishment, cross-sell, birthday, anniversary, or soft reactivation playbook | These need enough purchase history or profile data to make the timing and recommendation useful. |
 | Answer frequent questions or reduce support load | An instant answers, [Order-Update Delight]({% link _journeys/order-update-playbook.md %}), return, or exchange assistant | Start here when your team spends time answering repeat questions and you have clear policies, order data, and handoff rules. |
 | Send one planned announcement | A campaign or broadcast | Use a campaign when the message is time-bound and should go to a selected audience once. |
-| Build a custom flow | A journey route or custom agent | Use this when no prebuilt mission fits, or when you need specific steps, conditions, actions, or business logic. |
+| Build a custom flow | A journey route or [custom agent]({% link _journeys/custom-agent-playbook.md %}) | Use this when no prebuilt mission fits, or when you need specific steps, conditions, actions, or business logic. |
 
 ## Start small
 
@@ -92,6 +92,7 @@ Then adjust one thing at a time: audience, trigger, timing, message, offer, prom
 - [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %})
 - [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
+- [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %})
 - [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %})
 - [Getting started with journeys]({% link _journeys/getting-started-with-journeys.md %})
 - [Capture tools overview]({% link _captures/capture-overview.md %})

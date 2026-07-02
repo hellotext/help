@@ -2,7 +2,7 @@ Use this guide when customers often ask where an order is, whether it shipped, o
 
 Order-Update Delight is a reactive AI support playbook. It responds when a customer asks about the status of an order, shipment, delivery, or tracking number. It uses order and shipment data connected to Hellotext, then decides whether to answer, ask for missing details, send a tracking CTA, or hand off.
 
-It is not a general support agent and it is not a product recommender. Its job is order tracking. For product discovery, use [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %}). For broader support or policy questions, use the right support playbook, a custom agent, or the Inbox.
+It is not a general support agent and it is not a product recommender. Its job is order tracking. For product discovery, use [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %}). For broader support or policy questions, use the right support playbook, a [custom agent]({% link _journeys/custom-agent-playbook.md %}), or the Inbox.
 
 ## What Order-Update Delight does
 
@@ -140,6 +140,7 @@ Tune one thing at a time: order data quality, channel selection, handoff target,
 - [Playbook library by mission]({% link _journeys/playbook-library-by-mission.md %})
 - [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %})
 - [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})
 - [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [Playbook reporting]({% link _analytics-reporting-attribution/playbook-reporting.md %})

@@ -32,7 +32,7 @@ Después de elegir la primera opción para lanzar, sigue [Cómo habilitar un pla
 | Impulsar recompra | Un playbook de reposición, venta cruzada, cumpleaños, aniversario o reactivación suave | Necesitan suficiente historial de compras o datos de perfil para que el timing y la recomendación sean útiles. |
 | Responder preguntas frecuentes o reducir carga de soporte | Un asistente de respuestas instantáneas, [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}), cambios o devoluciones | Empieza aquí cuando tu equipo responde preguntas repetidas y tienes políticas, datos de órdenes y reglas de derivación claras. |
 | Enviar un anuncio puntual | Una campaña o broadcast | Usa una campaña cuando el mensaje tiene una fecha o momento concreto y debe enviarse una sola vez a una audiencia seleccionada. |
-| Crear un flujo a medida | Una ruta o agente personalizado | Usa esto cuando ninguna misión preconstruida encaja, o cuando necesitas pasos, condiciones, acciones o lógica de negocio específica. |
+| Crear un flujo a medida | Una ruta o [agente personalizado]({% link _journeys/custom-agent-playbook.md %}) | Usa esto cuando ninguna misión preconstruida encaja, o cuando necesitas pasos, condiciones, acciones o lógica de negocio específica. |
 
 ## Empieza pequeño
 
@@ -92,6 +92,7 @@ Después ajusta una cosa por vez: audiencia, disparador, timing, mensaje, oferta
 - [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
 - [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
+- [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
 - [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %})
 - [Primeros pasos con rutas]({% link _journeys/getting-started-with-journeys.md %})
 - [Resumen de herramientas de captura]({% link _captures/capture-overview.md %})
