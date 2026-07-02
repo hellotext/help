@@ -27,6 +27,7 @@ Usa primero un camino de captura:
 - Código QR para tiendas, eventos, packaging o material impreso.
 - Link compartible para redes sociales, anuncios, email y landing pages.
 - Formulario web o popup para visitantes que ya están en tu sitio.
+- [Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %}) para visitantes que quieren hacer preguntas desde el sitio.
 - Opt-in de checkout cuando los clientes ya están comprando.
 - Impulsor de suscriptores o recolector de datos si tu cuenta tiene esos playbooks disponibles.
 
@@ -117,6 +118,7 @@ Sigue leyendo: [Mide el éxito en tus primeros 7 días]({% link _getting-started
 - [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
 - [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
+- [Playbook Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Resumen de herramientas de captura]({% link _captures/capture-overview.md %})
 - [Resumen de inbox y conversaciones]({% link _team/inbox-overview.md %})

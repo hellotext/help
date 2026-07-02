@@ -10,7 +10,7 @@ Empieza acá cuando todavía no tienes suficientes clientes suscritos o identifi
 
 Opciones comunes incluyen:
 
-- **Widget de Webchat:** chatea con visitantes directamente en tu sitio.
+- **[Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %}):** chatea con visitantes directamente en tu sitio.
 - **Suscriptor por QR:** convierte escaneos offline en suscriptores de WhatsApp o SMS.
 - **Popup del Sitio:** captura visitantes en el momento adecuado.
 - **Formulario Web:** recopila leads y datos del perfil del cliente.
@@ -152,6 +152,7 @@ Sigue leyendo:
 - [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Playbook Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %})
 - [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %})
 - [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
@@ -168,6 +169,7 @@ Sigue leyendo:
 - [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Playbook Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %})
 - [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
 - [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [Primeros logros recomendados]({% link _getting-started/first-wins-starter-pack.md %})

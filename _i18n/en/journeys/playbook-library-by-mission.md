@@ -10,7 +10,7 @@ Start here when you do not yet have enough customers subscribed or identified fo
 
 Common options include:
 
-- **Webchat Widget:** chat with visitors directly on your site.
+- **[Webchat Widget]({% link _journeys/webchat-widget-playbook.md %}):** chat with visitors directly on your site.
 - **QR Code Subscriber:** turn offline scans into WhatsApp or SMS subscribers.
 - **Website Popup:** capture visitors at the right moment.
 - **Website Form:** collect leads and customer profile data.
@@ -152,6 +152,7 @@ Keep reading:
 - [Choose your first playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %})
 - [Cart Saver route]({% link _journeys/cart-saver-route.md %})
 - [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %})
@@ -168,6 +169,7 @@ Keep reading:
 - [Choose your first playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %})
 - [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %})
 - [How Hellotext decides whether a playbook can send]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [First wins starter pack]({% link _getting-started/first-wins-starter-pack.md %})

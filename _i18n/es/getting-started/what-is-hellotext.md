@@ -56,7 +56,7 @@ La configuración del canal, consentimiento, elegibilidad, plantillas, horarios 
 
 ### Herramientas de captura
 
-Las herramientas de captura ayudan a que los clientes se suscriban o compartan información. Algunos ejemplos son códigos QR, links compartibles, formularios web, popups, opt-ins de checkout y entradas por webchat.
+Las herramientas de captura ayudan a que los clientes se suscriban, inicien conversaciones o compartan información. Algunos ejemplos son códigos QR, links compartibles, formularios web, popups, opt-ins de checkout y [entradas por webchat]({% link _journeys/webchat-widget-playbook.md %}).
 
 Las capturas suelen alimentar el perfil de cliente y pueden iniciar un mensaje de bienvenida, ruta o playbook.
 
@@ -91,5 +91,6 @@ Si eres nuevo en Hellotext, empieza en este orden:
 - [Qué son las señales]({% link _journeys/what-are-signals.md %})
 - [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})
 - [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
+- [Playbook Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %})
 - [Resumen de configuración]({% link _integrations/setup-overview.md %})
 - [Resumen de inbox y conversaciones]({% link _team/inbox-overview.md %})

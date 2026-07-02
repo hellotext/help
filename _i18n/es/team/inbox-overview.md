@@ -8,7 +8,7 @@ Si estás configurando derivaciones de IA o playbooks, lee [Derivación de IA al
 
 ## Cómo se mueven las conversaciones en el inbox
 
-Una conversación puede empezar cuando un cliente responde a un mensaje, escribe por un canal conectado o necesita atención después de un playbook, ruta, orden o evento registrado.
+Una conversación puede empezar cuando un cliente responde a un mensaje, escribe por un canal conectado como [Webchat]({% link _journeys/webchat-widget-playbook.md %}) o necesita atención después de un playbook, ruta, orden o evento registrado.
 
 Tu equipo puede mantener la conversación sin asignar, asignarla a un colaborador, reasignarla a otra persona o cerrarla cuando no requiere más acción.
 
@@ -51,3 +51,5 @@ Sigue leyendo: [Transfiere la propiedad del negocio]({% link _integrations/trans
 Cuando alguien del equipo responde desde el inbox, el editor de mensajes ofrece formato, links con tracking, etiquetas de personalización y contenido enriquecido soportado para el canal activo.
 
 Sigue leyendo: [Resumen del editor de mensajes]({% link _numbers/message-editor-overview.md %}).
+
+Para conversaciones desde el sitio, revisa también [Playbook Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %}).

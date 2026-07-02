@@ -28,7 +28,7 @@ Use a **journey route** when you need a multi-step customer flow with a trigger,
 
 For that specific choice, see [Cart Saver route]({% link _journeys/cart-saver-route.md %}), [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %}), and [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
 
-Use a **campaign** when you want a one-time send to a selected audience, and a **capture** when the goal is to collect subscribers or customer data.
+Use a **campaign** when you want a one-time send to a selected audience, and a **capture** when the goal is to collect subscribers, customer data, or website conversations. For an on-site conversation entry point, see [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %}).
 
 ## Before you enable a playbook
 
@@ -77,6 +77,7 @@ For a safer editing process, use [How to customize a playbook safely]({% link _j
 - [How Hellotext decides whether a playbook can send]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [Troubleshoot a playbook that did not trigger or send]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
 - [Playbook library by mission]({% link _journeys/playbook-library-by-mission.md %})
+- [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %})
 - [Cart Saver route]({% link _journeys/cart-saver-route.md %})
 - [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %})

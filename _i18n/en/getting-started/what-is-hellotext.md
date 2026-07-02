@@ -56,7 +56,7 @@ Channel setup, consent, eligibility, templates, quiet hours, and frequency limit
 
 ### Capture tools
 
-Capture tools help customers subscribe or share information. Examples include QR codes, shareable links, website forms, popups, checkout opt-ins, and webchat entry points.
+Capture tools help customers subscribe, start conversations, or share information. Examples include QR codes, shareable links, website forms, popups, checkout opt-ins, and [webchat entry points]({% link _journeys/webchat-widget-playbook.md %}).
 
 Captures usually feed the customer profile and can start a welcome message, route, or playbook.
 
@@ -91,5 +91,6 @@ If you are new to Hellotext, start in this order:
 - [What are signals?]({% link _journeys/what-are-signals.md %})
 - [Playbooks and automation overview]({% link _journeys/playbooks-overview.md %})
 - [Choose your first playbook]({% link _journeys/choose-your-first-playbook.md %})
+- [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %})
 - [Setup overview]({% link _integrations/setup-overview.md %})
 - [Inbox and conversations overview]({% link _team/inbox-overview.md %})

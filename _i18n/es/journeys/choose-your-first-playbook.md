@@ -26,7 +26,7 @@ Después de elegir la primera opción para lanzar, sigue [Cómo habilitar un pla
 
 | Si tu primer objetivo es... | Empieza con... | Por qué |
 | --- | --- | --- |
-| Crecer tu audiencia alcanzable | Una captura como código QR, link compartible, formulario, popup o impulsor de suscriptores | Necesitas que los clientes se suscriban antes de que muchos playbooks, rutas o campañas puedan rendir bien. |
+| Crecer tu audiencia alcanzable o conversaciones desde el sitio | Una captura como [Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %}), código QR, link compartible, formulario, popup o impulsor de suscriptores | Necesitas que los clientes se suscriban o inicien una conversación antes de que muchos playbooks, rutas o campañas puedan rendir bien. |
 | Recuperar carritos | [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) o un playbook de carrito con IA | Usa una ruta cuando el seguimiento debería ser predecible. Usa un playbook con IA cuando la experiencia debería reaccionar al producto, intención del cliente, respuestas u objeciones. |
 | Convertir nuevos suscriptores o visitantes que miran sin comprar | Un playbook de primera compra, recuperación de navegación o [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) | Estos playbooks funcionan mejor cuando Hellotext puede ver señales de producto, navegación, suscripción y compra. |
 | Impulsar recompra | Un playbook de reposición, venta cruzada, cumpleaños, aniversario o reactivación suave | Necesitan suficiente historial de compras o datos de perfil para que el timing y la recomendación sean útiles. |
@@ -56,7 +56,7 @@ Usa una **ruta** cuando la experiencia debería seguir pasos conocidos: disparad
 
 Usa un **playbook con IA o agente** cuando Hellotext necesita interpretar respuestas, usar conocimiento de productos o políticas, personalizar recomendaciones, elegir entre varios siguientes pasos o decidir cuándo derivar.
 
-Usa una **captura** cuando el trabajo principal es recopilar suscriptores o datos de clientes antes de que otro playbook pueda correr.
+Usa una **captura** cuando el trabajo principal es recopilar suscriptores, datos de clientes o conversaciones desde el sitio antes de que otro playbook pueda correr.
 
 ## Preguntas antes de lanzar
 
@@ -85,6 +85,7 @@ Después ajusta una cosa por vez: audiencia, disparador, timing, mensaje, oferta
 - [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})
 - [Primeros logros recomendados]({% link _getting-started/first-wins-starter-pack.md %})
 - [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
+- [Playbook Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %})
 - [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [Qué son las señales]({% link _journeys/what-are-signals.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})

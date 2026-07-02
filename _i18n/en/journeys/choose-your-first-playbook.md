@@ -26,7 +26,7 @@ After you choose the first option to launch, follow [How to enable a playbook]({
 
 | If your first goal is... | Start with... | Why |
 | --- | --- | --- |
-| Grow your reachable audience | A capture such as a QR code, shareable link, form, popup, or subscriber booster | You need customers to opt in before most playbooks, routes, or campaigns can perform well. |
+| Grow your reachable audience or website conversations | A capture such as [Webchat Widget]({% link _journeys/webchat-widget-playbook.md %}), QR code, shareable link, form, popup, or subscriber booster | You need customers to opt in or start a conversation before many playbooks, routes, or campaigns can perform well. |
 | Recover carts | [Cart Saver route]({% link _journeys/cart-saver-route.md %}) or an AI cart saver playbook | Use a route when the follow-up should be predictable. Use an AI playbook when the experience should react to product context, customer intent, replies, or objections. |
 | Convert new subscribers or window shoppers | A first-purchase, browse recovery, or [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}) playbook | These playbooks work best when Hellotext can see product, browsing, subscription, and purchase signals. |
 | Drive repeat purchases | A replenishment, cross-sell, birthday, anniversary, or soft reactivation playbook | These need enough purchase history or profile data to make the timing and recommendation useful. |
@@ -56,7 +56,7 @@ Use a **route** when the experience should follow known steps: trigger, wait, me
 
 Use an **AI playbook or agent** when Hellotext needs to interpret replies, use product or policy knowledge, personalize recommendations, choose from several next steps, or decide when to escalate.
 
-Use a **capture** when the main job is to collect subscribers or customer data before another playbook can run.
+Use a **capture** when the main job is to collect subscribers, customer data, or website conversations before another playbook can run.
 
 ## Questions to answer before launch
 
@@ -85,6 +85,7 @@ Then adjust one thing at a time: audience, trigger, timing, message, offer, prom
 - [Playbooks and automation overview]({% link _journeys/playbooks-overview.md %})
 - [First wins starter pack]({% link _getting-started/first-wins-starter-pack.md %})
 - [Playbook library by mission]({% link _journeys/playbook-library-by-mission.md %})
+- [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %})
 - [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [What are signals?]({% link _journeys/what-are-signals.md %})
 - [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})

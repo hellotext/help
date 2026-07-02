@@ -40,7 +40,7 @@ Puedes ver tarjetas como:
 - **Tono**, para la voz usada en respuestas generadas por IA.
 - **Derivación**, para la persona o equipo que debería tomar la conversación cuando el agente necesita ayuda.
 - **Búsqueda web**, para sitios aprobados donde el agente puede buscar información online.
-- **Configuración de Webchat**, para apariencia, comportamiento, secuencia, teaser y derivación cuando el playbook es un webchat.
+- **[Configuración de Webchat]({% link _journeys/webchat-widget-playbook.md %})**, para apariencia, comportamiento, secuencia, teaser y derivación cuando el playbook es un webchat.
 
 No necesitas cambiar todas las tarjetas. Cambia solo lo que afecta la experiencia del cliente, los permisos del playbook o el equipo que manejará excepciones.
 
@@ -141,6 +141,7 @@ Para un proceso de edición más seguro, sigue leyendo: [Cómo personalizar un p
 - [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
 - [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
+- [Playbook Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %})
 - [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Cómo escribir un gran prompt para tu agente]({% link _journeys/how-to-write-a-great-prompt.md %})

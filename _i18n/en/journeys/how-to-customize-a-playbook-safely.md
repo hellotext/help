@@ -55,7 +55,7 @@ Use this table as a quick map:
 | **Knowledge** | Sales or support AI agents | What information the agent uses to answer. |
 | **Incoming/outgoing channels** | Playbooks that allow channel selection | Where the playbook can reply or send. |
 | **Discounts** | Sales playbooks that allow offers | Which incentives the agent may use. |
-| **Escalation** | AI agents, support, Webchat, and some custom playbooks | Who takes over when the agent should not continue. |
+| **Escalation** | AI agents, support, [Webchat]({% link _journeys/webchat-widget-playbook.md %}), and some custom playbooks | Who takes over when the agent should not continue. |
 | **Route steps** | Journeys or routes | Sequence, waits, branches, assignments, and exit from the flow. |
 
 If a card does not appear in the playbook, do not force that concept into the setup. It means that part does not apply or is handled by the playbook's logic.
@@ -143,7 +143,7 @@ If the playbook should never offer discounts, make that explicit in the discount
 
 ## Customize handoff rules
 
-This section applies to AI agents, support playbooks, Webchat, and custom playbooks that show **Escalation** settings.
+This section applies to AI agents, support playbooks, [Webchat]({% link _journeys/webchat-widget-playbook.md %}), and custom playbooks that show **Escalation** settings.
 
 Not every playbook needs manual rules. Some support playbooks hand off automatically when they cannot answer, when a rule says to hand off, or when the question needs a person. Some playbooks may also hand off if they detect anger, a defective product, or a request the active playbook cannot solve.
 
@@ -207,6 +207,7 @@ If results move in the wrong direction, revert the smallest change first.
 - [How Hellotext decides whether a playbook can send]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [Troubleshoot a playbook that did not trigger or send]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
 - [How to write a great agent prompt]({% link _journeys/how-to-write-a-great-prompt.md %})
+- [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %})
 - [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %})
 - [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [What are signals?]({% link _journeys/what-are-signals.md %})

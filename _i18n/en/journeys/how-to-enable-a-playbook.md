@@ -40,7 +40,7 @@ You may see cards such as:
 - **Tone**, for the voice used in AI-generated responses.
 - **Escalation**, for the teammate or team that should take over when the agent needs help.
 - **Web search**, for approved websites the agent can use when searching online.
-- **Webchat settings**, for appearance, behavior, sequence, teaser, and handoff settings when the playbook is a webchat.
+- **[Webchat settings]({% link _journeys/webchat-widget-playbook.md %})**, for appearance, behavior, sequence, teaser, and handoff settings when the playbook is a webchat.
 
 You do not need to change every card. Change only what affects the customer experience, the playbook's permissions, or the team that will own exceptions.
 
@@ -141,6 +141,7 @@ For a safer editing process, keep reading: [How to customize a playbook safely](
 - [How Hellotext decides whether a playbook can send]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [Troubleshoot a playbook that did not trigger or send]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
 - [Playbook library by mission]({% link _journeys/playbook-library-by-mission.md %})
+- [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %})
 - [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %})
 - [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})
 - [How to write a great agent prompt]({% link _journeys/how-to-write-a-great-prompt.md %})

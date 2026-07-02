@@ -1,6 +1,6 @@
 Capture tools help people subscribe to your business from the places where they already interact with your brand: your store, packaging, social channels, checkout, or website.
 
-Each tool creates a subscription path. Some tools open SMS or WhatsApp with a pre-filled opt-in message. Others collect information directly on your website or during checkout.
+Most tools create a subscription path. Some tools open SMS or WhatsApp with a pre-filled opt-in message. Others collect information directly on your website or during checkout. Webchat creates an on-site conversation entry point and can hand off to WhatsApp when configured.
 
 ## Choose a capture tool
 
@@ -9,6 +9,8 @@ Use **QR codes** when customers are offline or already looking at printed materi
 Use **Shareable links** when you want to send people to an opt-in flow from social media, email, ads, landing pages, or an Instagram story.
 
 Use **Forms** when you want to collect contact details or custom profile properties directly on your website.
+
+Use **Webchat Widget** when you want visitors to start a conversation from your site before they buy, ask for support, or continue through WhatsApp.
 
 Use **Shopify checkout opt-in** or **Wix checkout opt-in** when you want customers to subscribe while they complete a purchase.
 
@@ -30,8 +32,11 @@ Name each capture after the placement or campaign where it will be used. This ma
 
 Test every capture before sharing it with customers. For QR codes, scan the final printed or displayed version with a phone. For links and forms, test the full subscription flow from the same device a customer would use.
 
+For webchat, test the launcher, teaser, opening sequence, Inbox ownership, and any WhatsApp handoff from both desktop and mobile.
+
 ## Next steps
 
+- Set up [Webchat Widget]({% link _journeys/webchat-widget-playbook.md %}).
 - Create a [QR code]({% link _captures/qr-codes.md %}).
 - Create a [shareable link]({% link _captures/shareable-link.md %}).
 - Create a [form]({% link _captures/forms.md %}).
