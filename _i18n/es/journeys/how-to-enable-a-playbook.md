@@ -96,6 +96,8 @@ Cuando la configuración esté lista, guarda el playbook y enciende la opción *
 
 Después de habilitar un playbook, Hellotext puede marcar su flujo como activo y los clientes que coincidan con las condiciones del playbook pueden empezar a entrar.
 
+Habilitado no significa que cada señal coincidente vaya a enviar inmediatamente. Hellotext todavía revisa elegibilidad del perfil del cliente, preparación del canal, frecuencia, timing y reglas de derivación antes de cada envío. Para más detalle, mira [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}).
+
 Si necesitas detenerlo, abre la lista de playbooks y deshabilita el playbook. Deshabilitarlo evita que el flujo acepte nuevos clientes elegibles mientras revisas o editas la configuración.
 
 ## Observa la primera actividad
@@ -136,6 +138,7 @@ Para un proceso de edición más seguro, sigue leyendo: [Cómo personalizar un p
 
 - [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Cómo escribir un gran prompt para tu agente]({% link _journeys/how-to-write-a-great-prompt.md %})

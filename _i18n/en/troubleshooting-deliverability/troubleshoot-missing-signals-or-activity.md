@@ -160,3 +160,4 @@ The more specific the example, the faster support can find whether the issue is 
 - [Troubleshooting checklist]({% link _troubleshooting-deliverability/troubleshooting-checklist.md %})
 - [Analytics, reporting, and attribution overview]({% link _analytics-reporting-attribution/analytics-overview.md %})
 - [Playbooks and automation overview]({% link _journeys/playbooks-overview.md %})
+- [How Hellotext decides whether a playbook can send]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})

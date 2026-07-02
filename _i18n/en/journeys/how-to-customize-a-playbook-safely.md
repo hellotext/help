@@ -4,6 +4,8 @@ Not every playbook is customized the same way. Some playbooks are autonomous AI 
 
 If you have not launched the playbook yet, start with [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %}).
 
+If the playbook is active but did not send, first check [How Hellotext decides whether a playbook can send]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}). The safest edit depends on whether the issue is trigger, eligibility, channel readiness, timing, handoff, or content.
+
 ## Before you edit
 
 Open **Playbooks**, choose the playbook, and review its configuration cards. Each playbook shows only the parts that can be customized for that case.
@@ -200,6 +202,7 @@ If results move in the wrong direction, revert the smallest change first.
 ## Related guides
 
 - [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %})
+- [How Hellotext decides whether a playbook can send]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [How to write a great agent prompt]({% link _journeys/how-to-write-a-great-prompt.md %})
 - [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [What are signals?]({% link _journeys/what-are-signals.md %})

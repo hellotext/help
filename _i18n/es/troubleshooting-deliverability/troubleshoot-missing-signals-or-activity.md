@@ -160,3 +160,4 @@ Cuanto más específico sea el ejemplo, más rápido soporte puede encontrar si 
 - [Checklist de solución de problemas]({% link _troubleshooting-deliverability/troubleshooting-checklist.md %})
 - [Resumen de analítica, reportes y atribución]({% link _analytics-reporting-attribution/analytics-overview.md %})
 - [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})
+- [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})

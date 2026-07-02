@@ -96,6 +96,8 @@ When the setup looks ready, save the playbook and turn on **Enable this playbook
 
 After a playbook is enabled, Hellotext can mark its workflow as active and customers who match the playbook conditions may begin entering it.
 
+Enabled does not mean every matching signal will send immediately. Hellotext still checks customer eligibility, channel readiness, frequency, timing, and handoff rules before each send. For details, see [How Hellotext decides whether a playbook can send]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}).
+
 If you need to stop it, open the playbook list and disable the playbook. Disabling stops the workflow from accepting new eligible customers while you review or edit the setup.
 
 ## Watch the first activity
@@ -136,6 +138,7 @@ For a safer editing process, keep reading: [How to customize a playbook safely](
 
 - [Choose your first playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [How Hellotext decides whether a playbook can send]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [Playbook library by mission]({% link _journeys/playbook-library-by-mission.md %})
 - [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})
 - [How to write a great agent prompt]({% link _journeys/how-to-write-a-great-prompt.md %})

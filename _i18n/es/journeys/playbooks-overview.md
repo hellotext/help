@@ -36,6 +36,8 @@ Para el flujo completo de lanzamiento, usa [Cómo habilitar un playbook]({% link
 
 Cuando necesites cambiar una configuración existente, usa [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %}).
 
+Si un playbook está activo pero no envía cuando esperabas, usa [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}) antes de cambiar la configuración.
+
 Para playbooks de eCommerce, asegúrate de que la integración de tu tienda esté conectada y que la actividad reciente aparezca en los perfiles de cliente como señales utilizables.
 
 Para playbooks de WhatsApp, asegúrate de que WhatsApp esté conectado y aprobado antes de enviar clientes al flujo.
@@ -68,6 +70,7 @@ Para un proceso de edición más seguro, usa [Cómo personalizar un playbook de 
 - [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
 - [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %})
 - [Primeros pasos con rutas]({% link _journeys/getting-started-with-journeys.md %})

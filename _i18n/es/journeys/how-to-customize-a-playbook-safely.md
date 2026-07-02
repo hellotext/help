@@ -4,6 +4,8 @@ No todos los playbooks se personalizan igual. Algunos son agentes de IA autónom
 
 Si todavía no lanzaste el playbook, empieza por [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %}).
 
+Si el playbook está activo pero no envió, primero revisa [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}). La edición más segura depende de si el problema está en disparador, elegibilidad, preparación del canal, timing, derivación o contenido.
+
 ## Antes de editar
 
 Abre **Playbooks**, elige el playbook y revisa sus tarjetas de configuración. Cada playbook muestra solo las partes que se pueden personalizar para ese caso.
@@ -200,6 +202,7 @@ Si los resultados se mueven en la dirección equivocada, revierte primero el cam
 ## Guías relacionadas
 
 - [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
+- [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [Cómo escribir un gran prompt para tu agente]({% link _journeys/how-to-write-a-great-prompt.md %})
 - [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [Qué son las señales]({% link _journeys/what-are-signals.md %})
