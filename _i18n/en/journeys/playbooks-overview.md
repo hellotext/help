@@ -16,19 +16,31 @@ If you are deciding where to start, use [Choose your first playbook]({% link _jo
 
 If you want to browse common options by business goal, use [Playbook library by mission]({% link _journeys/playbook-library-by-mission.md %}).
 
+When you know which option you want to launch, use [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %}).
+
 Use a **prebuilt playbook** when the goal is common and the recommended mission already fits your business. This is usually the fastest way to launch.
 
 Use an **AI playbook or AI agent** when the experience needs to respond conversationally, use product or policy knowledge, recommend items, answer frequent questions, collect customer information, or decide when to escalate.
 
-Use a **journey route** when you need a multi-step customer flow with a trigger, messages, waits, conditions, branches, and handoffs. A basic abandoned-cart follow-up can be a route template; an AI abandoned-cart playbook can make more dynamic decisions based on signals and customer context.
+For product discovery specifically, see [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %}). For order-status questions, see [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %}). For a custom reactive agent with your own intents, prompt, knowledge, channels, tone, and handoff, see [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %}).
 
-For that specific choice, see [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
+Use a **journey route** when you need a multi-step customer flow with a trigger, messages, waits, conditions, branches, and handoffs. A basic abandoned-cart follow-up can be [Cart Saver route]({% link _journeys/cart-saver-route.md %}); an AI abandoned-cart playbook can make more dynamic decisions based on signals and customer context.
 
-Use a **campaign** when you want a one-time send to a selected audience, and a **capture** when the goal is to collect subscribers or customer data.
+For that specific choice, see [Cart Saver route]({% link _journeys/cart-saver-route.md %}), [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %}), and [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
+
+Use a **campaign** when you want a one-time send to a selected audience, and a **capture** when the goal is to collect subscribers, customer data, or website conversations. For an on-site conversation entry point, see [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %}).
 
 ## Before you enable a playbook
 
 Confirm that the data and channels it depends on are ready.
+
+For the full launch flow, use [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %}).
+
+When you need to change an existing setup, use [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %}).
+
+If a playbook is active but does not send when you expected, use [How Hellotext decides whether a playbook can send]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}) before changing the setup.
+
+When you need to diagnose one concrete example, use [Troubleshoot a playbook that did not trigger or send]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}).
 
 For commerce playbooks, make sure your store integration is connected and recent activity appears on customer profiles as usable signals.
 
@@ -53,12 +65,24 @@ Start with a focused audience and review the first conversations before expandin
 
 Use what you learn to adjust the prompt, timing, branch conditions, or template copy. For revenue, conversion, and handoff metrics, use [Playbook reporting]({% link _analytics-reporting-attribution/playbook-reporting.md %}).
 
+For a safer editing process, use [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %}).
+
 ## Related guides
 
 - [What are signals?]({% link _journeys/what-are-signals.md %})
 - [How Hellotext works: playbooks, campaigns, and Inbox]({% link _getting-started/how-hellotext-works.md %})
 - [Choose your first playbook]({% link _journeys/choose-your-first-playbook.md %})
+- [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %})
+- [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [How Hellotext decides whether a playbook can send]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
+- [Troubleshoot a playbook that did not trigger or send]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
 - [Playbook library by mission]({% link _journeys/playbook-library-by-mission.md %})
+- [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %})
+- [Cart Saver route]({% link _journeys/cart-saver-route.md %})
+- [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %})
+- [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %})
+- [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
+- [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %})
 - [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %})
 - [Getting started with journeys]({% link _journeys/getting-started-with-journeys.md %})
 - [Custom journey]({% link _journeys/custom-journey.md %})

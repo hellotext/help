@@ -27,6 +27,7 @@ Usa primero un camino de captura:
 - Código QR para tiendas, eventos, packaging o material impreso.
 - Link compartible para redes sociales, anuncios, email y landing pages.
 - Formulario web o popup para visitantes que ya están en tu sitio.
+- [Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %}) para visitantes que quieren hacer preguntas desde el sitio.
 - Opt-in de checkout cuando los clientes ya están comprando.
 - Impulsor de suscriptores o recolector de datos si tu cuenta tiene esos playbooks disponibles.
 
@@ -36,11 +37,11 @@ Logro esperado: más perfiles de cliente alcanzables y consentimiento más limpi
 
 Empieza aquí si tu tienda tiene señales de carrito o checkout.
 
-Usa una ruta básica de carrito cuando quieres recordatorios fijos con timing predecible. Usa un playbook de carrito con IA cuando las respuestas, contexto de producto, objeciones o recomendaciones deberían cambiar el siguiente paso.
+Usa [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) cuando quieres recordatorios fijos con timing predecible. Usa un playbook de carrito con IA cuando las respuestas, contexto de producto, objeciones o recomendaciones deberían cambiar el siguiente paso.
 
 Logro esperado: recuperar intención de compra que ya existe en lugar de intentar crear demanda desde cero.
 
-Sigue leyendo: [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
+Sigue leyendo: [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}), [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}) y [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
 
 ## 3. Convierte nuevos compradores o recomienda productos
 
@@ -50,7 +51,7 @@ Opciones útiles pueden incluir:
 
 - Seguimiento de primera compra para nuevos suscriptores que todavía no compraron.
 - Recuperación de navegación para clientes que vieron productos pero no agregaron al carrito.
-- Recomendador inteligente cuando el contexto de producto e inventario es sólido.
+- [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) cuando el contexto de producto e inventario es sólido.
 - Venta cruzada o recompra cuando tienes suficiente historial de órdenes.
 
 Logro esperado: mover clientes de interés a compra, recompra u órdenes de mayor valor.
@@ -62,7 +63,7 @@ Empieza aquí si tu equipo responde las mismas preguntas repetidamente.
 Opciones útiles pueden incluir:
 
 - Respuestas instantáneas para preguntas frecuentes.
-- Seguimiento de pedidos cuando los clientes preguntan seguido dónde está su orden.
+- [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}) cuando los clientes preguntan seguido dónde está su orden.
 - Ayuda con cambios o devoluciones cuando tu política es lo suficientemente clara para automatizar partes de la conversación.
 - Asignación y reglas de respuesta en Inbox cuando las personas todavía necesitan hacerse cargo de las respuestas.
 
@@ -113,6 +114,11 @@ Sigue leyendo: [Mide el éxito en tus primeros 7 días]({% link _getting-started
 - [Mide el éxito en tus primeros 7 días]({% link _getting-started/measure-success-first-7-days.md %})
 - [Cómo funciona Hellotext]({% link _getting-started/how-hellotext-works.md %})
 - [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
+- [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %})
+- [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
+- [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
+- [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
+- [Playbook Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Resumen de herramientas de captura]({% link _captures/capture-overview.md %})
 - [Resumen de inbox y conversaciones]({% link _team/inbox-overview.md %})

@@ -6,6 +6,8 @@ It is what turns an AI agent or playbook into a real brand voice — one that ca
 
 Writing a great prompt is less about technical detail and more about clarity and intent. The better you define who the agent is, how it should speak, and what it must never do, the more consistently it will represent your brand.
 
+If you are writing the prompt for a custom agent, first define the agent's mission, intents, knowledge, channels, and handoff path in [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %}).
+
 
 In this article:
 

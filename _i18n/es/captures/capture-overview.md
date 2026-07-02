@@ -1,6 +1,6 @@
 Las herramientas de captura ayudan a que las personas se suscriban a tu negocio desde los lugares donde ya interactúan con tu marca: tu tienda, packaging, redes sociales, checkout o sitio web.
 
-Cada herramienta crea un camino de suscripción. Algunas abren SMS o WhatsApp con un mensaje de opt-in prellenado. Otras recopilan información directamente en tu sitio web o durante el checkout.
+La mayoría de las herramientas crea un camino de suscripción. Algunas abren SMS o WhatsApp con un mensaje de opt-in prellenado. Otras recopilan información directamente en tu sitio web o durante el checkout. Webchat crea una entrada conversacional en el sitio y puede derivar a WhatsApp cuando está configurado.
 
 ## Elige una herramienta de captura
 
@@ -9,6 +9,8 @@ Usa **códigos QR** cuando tus clientes están offline o mirando material impres
 Usa **links compartibles** cuando quieres llevar personas a un flujo de opt-in desde redes sociales, email, anuncios, landing pages o una historia de Instagram.
 
 Usa **formularios** cuando quieres recopilar datos de contacto o propiedades personalizadas del perfil directamente en tu sitio web.
+
+Usa **Widget de Webchat** cuando quieres que visitantes inicien una conversación desde tu sitio antes de comprar, pedir soporte o continuar por WhatsApp.
 
 Usa **opt-in en checkout de Shopify** u **opt-in en checkout de Wix** cuando quieres que tus clientes se suscriban mientras completan una compra.
 
@@ -30,8 +32,11 @@ Nombra cada captura según la ubicación o campaña donde se va a usar. Esto hac
 
 Prueba cada captura antes de compartirla con clientes. Para códigos QR, escanea con un teléfono la versión final impresa o publicada. Para links y formularios, prueba el flujo completo desde el mismo tipo de dispositivo que usaría un cliente.
 
+Para webchat, prueba el lanzador, teaser, secuencia inicial, ownership en Inbox y cualquier derivación a WhatsApp desde desktop y mobile.
+
 ## Próximos pasos
 
+- Configura [Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %}).
 - Crea un [código QR]({% link _captures/qr-codes.md %}).
 - Crea un [link compartible]({% link _captures/shareable-link.md %}).
 - Crea un [formulario]({% link _captures/forms.md %}).

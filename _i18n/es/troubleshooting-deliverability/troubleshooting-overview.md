@@ -37,6 +37,8 @@ Sigue leyendo: [Resumen de analítica, reportes y atribución]({% link _analytic
 
 Si falta una señal, evento, actualización de perfil, segmento, disparador de playbook o métrica de reporte, empieza con [Soluciona señales o actividad faltante]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %}).
 
+Si el problema es específico de un playbook, usa [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}).
+
 ## Inbox y flujos del equipo
 
 Si las conversaciones no las está gestionando la persona correcta, o si la performance de respuesta parece incorrecta, revisa asignación, roles, ownership y configuración de tiempos de respuesta.

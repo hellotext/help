@@ -8,7 +8,7 @@ If you are setting up AI or playbook escalations, read [AI handoff to Inbox]({% 
 
 ## How conversations move through the inbox
 
-A conversation can start when a customer replies to a message, writes through a connected channel, or needs attention after a playbook, route, order, or tracked event.
+A conversation can start when a customer replies to a message, writes through a connected channel such as [Webchat]({% link _journeys/webchat-widget-playbook.md %}), or needs attention after a playbook, route, order, or tracked event.
 
 Your team can keep the conversation unassigned, assign it to a teammate, reassign it to someone else, or close it when no further action is needed.
 
@@ -51,3 +51,5 @@ Keep reading: [Transfer business ownership]({% link _integrations/transferring-o
 When a teammate replies from the inbox, the message editor provides formatting, tracked links, personalization tags, and supported rich content for the active channel.
 
 Keep reading: [Message editor overview]({% link _numbers/message-editor-overview.md %}).
+
+For website conversations, also review [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %}).

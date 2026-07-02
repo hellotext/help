@@ -27,6 +27,7 @@ Use one capture path first:
 - QR code for stores, events, packaging, or printed material.
 - Shareable link for social, ads, email, and landing pages.
 - Website form or popup for visitors already on your site.
+- [Webchat Widget]({% link _journeys/webchat-widget-playbook.md %}) for visitors who want to ask questions from the site.
 - Checkout opt-in when customers are already buying.
 - Subscriber Booster or Property Collector if your account has those playbooks available.
 
@@ -36,11 +37,11 @@ Expected win: more reachable customer profiles and cleaner consent for future pl
 
 Start here if your store has cart or checkout signals.
 
-Use a basic cart route when you want fixed reminders with predictable timing. Use an AI cart saver playbook when replies, product context, objections, or recommendations should change the next step.
+Use [Cart Saver route]({% link _journeys/cart-saver-route.md %}) when you want fixed reminders with predictable timing. Use an AI cart saver playbook when replies, product context, objections, or recommendations should change the next step.
 
 Expected win: recover purchase intent that already exists instead of only trying to create new demand.
 
-Keep reading: [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
+Keep reading: [Cart Saver route]({% link _journeys/cart-saver-route.md %}), [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %}), and [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
 
 ## 3. Convert new shoppers or recommend products
 
@@ -50,7 +51,7 @@ Useful options can include:
 
 - First-purchase follow-up for new subscribers who have not bought yet.
 - Browse recovery for customers who viewed products but did not add to cart.
-- Smart recommender when product and inventory context are strong.
+- [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}) when product and inventory context are strong.
 - Cross-sell or replenishment when you have enough order history.
 
 Expected win: move customers from interest to purchase, repeat purchase, or higher-value orders.
@@ -62,7 +63,7 @@ Start here if your team answers the same questions repeatedly.
 Useful options can include:
 
 - Instant Answers for frequent questions.
-- Order updates when customers often ask where their order is.
+- [Order-Update Delight]({% link _journeys/order-update-playbook.md %}) when customers often ask where their order is.
 - Returns or exchange help when your policy is clear enough to automate parts of the conversation.
 - Inbox assignment and response rules when humans still need to own replies.
 
@@ -113,6 +114,11 @@ Keep reading: [Measure success in your first 7 days]({% link _getting-started/me
 - [Measure success in your first 7 days]({% link _getting-started/measure-success-first-7-days.md %})
 - [How Hellotext works]({% link _getting-started/how-hellotext-works.md %})
 - [Choose your first playbook]({% link _journeys/choose-your-first-playbook.md %})
+- [Cart Saver route]({% link _journeys/cart-saver-route.md %})
+- [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %})
+- [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %})
+- [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
+- [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %})
 - [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})
 - [Capture tools overview]({% link _captures/capture-overview.md %})
 - [Inbox and conversations overview]({% link _team/inbox-overview.md %})

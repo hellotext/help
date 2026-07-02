@@ -6,6 +6,8 @@ Es lo que convierte un agente de IA o playbook en una verdadera voz de marca, ca
 
 Escribir un gran prompt no tiene tanto que ver con la técnica sino más bien con la claridad y la intención. Cuanto mejor definas quién es el agente, cómo debe hablar y qué no debe hacer nunca, más fielmente representará a tu marca.
 
+Si estás escribiendo el prompt para un agente personalizado, primero define la misión, intenciones, conocimiento, canales y camino de derivación en [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %}).
+
 En este artículo:
 
 * **[Qué pueden hacer los agentes por defecto](#qué-pueden-hacer-los-agentes-por-defecto)**

@@ -72,7 +72,7 @@ Con el catálogo listo, ahora toca conectar tu número de WhatsApp Business a He
 
 6. Completa el proceso de registro (Embedded Signup) hasta el final.
 
-Cuando termines, Hellotext comenzará a sincronizar tus productos automáticamente. A partir de ese momento podrás utilizarlos en playbooks, campañas, conversaciones del Inbox, agentes de IA y recomendaciones de producto.
+Cuando termines, Hellotext comenzará a sincronizar tus productos automáticamente. A partir de ese momento podrás utilizarlos en playbooks, campañas, conversaciones del Inbox, agentes de IA y recomendaciones de producto como [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}).
 
 ## ¿Qué puedes esperar después?
 

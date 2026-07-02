@@ -36,6 +36,7 @@ Keep reading:
 - [Create a campaign]({% link _campaigns/creating-a-campaign.md %})
 - [Lists vs. segments]({% link _audience/lists-and-segments.md %})
 - [Playbooks and automation overview]({% link _journeys/playbooks-overview.md %})
+- [Troubleshoot a playbook that did not trigger or send]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
 
 ## 4. Check links, tracking, and attribution
 

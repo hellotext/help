@@ -37,6 +37,8 @@ Keep reading: [Analytics, reporting, and attribution overview]({% link _analytic
 
 If a signal, event, profile update, segment, playbook trigger, or report metric is missing, start with [Troubleshoot missing signals or activity]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %}).
 
+If the issue is specific to one playbook, use [Troubleshoot a playbook that did not trigger or send]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}).
+
 ## Inbox and team workflows
 
 If conversations are not being handled by the right person, or response performance looks off, check assignment, roles, ownership, and response-time configuration.

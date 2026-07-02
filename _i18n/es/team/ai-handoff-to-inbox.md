@@ -28,7 +28,7 @@ El step de AI agent tiene salidas de resuelto y no resuelto. Si la IA no puede r
 
 Los playbooks personalizados pueden definir **Intenciones**. Una intención es una frase o necesidad que activa un agente cuando se detecta en el mensaje de un cliente.
 
-Esto te permite crear varios agentes para distintos trabajos. Por ejemplo, un agente puede recomendar productos, otro puede responder preguntas de soporte y otro puede manejar consultas de órdenes. Cada agente puede resolver la conversación, enviarla a otro playbook mediante el Supervisor o derivarla a la persona o equipo configurado.
+Esto te permite crear varios [agentes personalizados]({% link _journeys/custom-agent-playbook.md %}) para distintos trabajos. Por ejemplo, un agente puede recomendar productos, otro puede responder preguntas de soporte y [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}) puede manejar consultas de estado de órdenes. Cada agente puede resolver la conversación, enviarla a otro playbook mediante el Supervisor o derivarla a la persona o equipo configurado.
 
 ## Cuándo Hellotext debería derivar
 
@@ -64,7 +64,7 @@ Para rutas:
 - Elige si el step debería abrir, cerrar, asignar, etiquetar o quitar un tag de la conversación.
 - Si un step de AI agent tiene una rama de no resuelto, conecta esa rama con un step de Assignment.
 
-Para agentes personalizados:
+Para [agentes personalizados]({% link _journeys/custom-agent-playbook.md %}):
 
 - Define las intenciones que deberían activar cada agente.
 - Elige los canales entrantes donde el agente debería responder.
@@ -144,5 +144,7 @@ Usa lo aprendido para ajustar el prompt, intenciones, reglas de playbook, ramas 
 - [Asigna conversaciones]({% link _team/assigning-conversations.md %})
 - [Tiempo de respuesta y reglas de respuesta]({% link _team/understanding-response-times.md %})
 - [Cómo funciona Hellotext]({% link _getting-started/how-hellotext-works.md %})
+- [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
+- [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
 - [Cómo escribir un gran prompt para tu agente]({% link _journeys/how-to-write-a-great-prompt.md %})
 - [Checklist antes de enviar]({% link _getting-started/go-live-checklist.md %})

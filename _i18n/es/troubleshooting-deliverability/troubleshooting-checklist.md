@@ -1,12 +1,12 @@
 Usa este checklist cuando algo no se ve bien y necesitas decidir dónde investigar primero.
 
-Antes de cambiar configuración, anota el síntoma exacto, el negocio afectado, el perfil de cliente o audiencia, el canal y la hora aproximada en que ocurrió el problema.
+Antes de cambiar configuración, anota el síntoma exacto, el negocio afectado, el perfil del cliente o audiencia, el canal y la hora aproximada en que ocurrió el problema.
 
 ## 1. Confirma la configuración y los datos de origen
 
 Si faltan perfiles de cliente, productos, órdenes o configuración de canales, o si la información parece desactualizada, empieza por la configuración.
 
-Revisa si la tienda o integración está conectada, si los datos recientes se están sincronizando y si el perfil de cliente afectado tiene los datos esperados.
+Revisa si la tienda o integración está conectada, si los datos recientes se están sincronizando y si el perfil del cliente afectado tiene los datos esperados.
 
 Sigue leyendo:
 
@@ -36,6 +36,7 @@ Sigue leyendo:
 - [Crea una campaña]({% link _campaigns/creating-a-campaign.md %})
 - [Listas vs. segmentos]({% link _audience/lists-and-segments.md %})
 - [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})
+- [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
 
 ## 4. Revisa links, tracking y atribución
 
@@ -63,4 +64,4 @@ Sigue leyendo:
 
 ## Cuando contactes a soporte
 
-Incluye el nombre del negocio, el perfil de cliente afectado, el canal, el link a la campaña, playbook, conversación o reporte, la hora aproximada, qué esperabas, qué ocurrió y cualquier captura o cambio reciente de configuración.
+Incluye el nombre del negocio, el perfil del cliente afectado, el canal, el link a la campaña, playbook, conversación o reporte, la hora aproximada, qué esperabas, qué ocurrió y cualquier captura o cambio reciente de configuración.

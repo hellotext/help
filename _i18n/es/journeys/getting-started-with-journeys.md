@@ -2,7 +2,7 @@ Usa una ruta cuando quieres un flujo de clientes paso a paso con un disparador c
 
 Una ruta es un tipo de playbook. No todos los playbooks son rutas.
 
-Algunos playbooks son más autónomos: por ejemplo, un recomendador de productos, soporte post-compra o un agente de preguntas frecuentes pueden leer señales, entender intención y decidir qué hacer en la conversación. Esos playbooks pueden usar agentes de IA o lógica de decisión en lugar de una ruta fija.
+Algunos playbooks son más autónomos: por ejemplo, [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}), soporte post-compra o un agente de preguntas frecuentes pueden leer señales, entender intención y decidir qué hacer en la conversación. Esos playbooks pueden usar agentes de IA o lógica de decisión en lugar de una ruta fija.
 
 ## Cuándo usar una ruta
 
@@ -17,9 +17,9 @@ Buenos casos para una ruta:
 - Ramificar según si el cliente hizo clic, respondió, compró o cumplió una condición.
 - Derivar a una persona después de un paso específico.
 
-Un carrito abandonado puede existir de más de una forma: como una plantilla de ruta simple con pasos fijos, o como un playbook con IA que decide de forma más dinámica usando señales y contexto del cliente.
+Un carrito abandonado puede existir de más de una forma: como [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) con pasos fijos, o como un playbook con IA que decide de forma más dinámica usando señales y contexto del cliente.
 
-Sigue leyendo: [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
+Sigue leyendo: [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) y [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
 
 ## Cuándo usar otro tipo de playbook
 

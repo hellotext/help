@@ -16,27 +16,29 @@ Si la señal todavía no está disponible, configura tracking o integraciones an
 
 Sigue leyendo: [Qué son las señales]({% link _journeys/what-are-signals.md %}).
 
-Para recuperación de carritos específicamente, mira [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
+Para recuperación de carritos específicamente, mira [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}), [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}) y [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
 
 Si quieres explorar más opciones antes de elegir, usa [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %}).
+
+Después de elegir la primera opción para lanzar, sigue [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %}).
 
 ## Elige por primer objetivo
 
 | Si tu primer objetivo es... | Empieza con... | Por qué |
 | --- | --- | --- |
-| Crecer tu audiencia alcanzable | Una captura como código QR, link compartible, formulario, popup o impulsor de suscriptores | Necesitas que los clientes se suscriban antes de que muchos playbooks, rutas o campañas puedan rendir bien. |
-| Recuperar carritos | Una ruta básica de carrito o un playbook de carrito con IA | Usa una ruta cuando el seguimiento debería ser predecible. Usa un playbook con IA cuando la experiencia debería reaccionar al producto, intención del cliente, respuestas u objeciones. |
-| Convertir nuevos suscriptores o visitantes que miran sin comprar | Un playbook de primera compra, recuperación de navegación o recomendación de productos | Estos playbooks funcionan mejor cuando Hellotext puede ver señales de producto, navegación, suscripción y compra. |
+| Crecer tu audiencia alcanzable o conversaciones desde el sitio | Una captura como [Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %}), código QR, link compartible, formulario, popup o impulsor de suscriptores | Necesitas que los clientes se suscriban o inicien una conversación antes de que muchos playbooks, rutas o campañas puedan rendir bien. |
+| Recuperar carritos | [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) o un playbook de carrito con IA | Usa una ruta cuando el seguimiento debería ser predecible. Usa un playbook con IA cuando la experiencia debería reaccionar al producto, intención del cliente, respuestas u objeciones. |
+| Convertir nuevos suscriptores o visitantes que miran sin comprar | Un playbook de primera compra, recuperación de navegación o [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) | Estos playbooks funcionan mejor cuando Hellotext puede ver señales de producto, navegación, suscripción y compra. |
 | Impulsar recompra | Un playbook de reposición, venta cruzada, cumpleaños, aniversario o reactivación suave | Necesitan suficiente historial de compras o datos de perfil para que el timing y la recomendación sean útiles. |
-| Responder preguntas frecuentes o reducir carga de soporte | Un asistente de respuestas instantáneas, seguimiento de pedidos, cambios o devoluciones | Empieza aquí cuando tu equipo responde preguntas repetidas y tienes políticas, datos de órdenes y reglas de derivación claras. |
+| Responder preguntas frecuentes o reducir carga de soporte | Un asistente de respuestas instantáneas, [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}), cambios o devoluciones | Empieza aquí cuando tu equipo responde preguntas repetidas y tienes políticas, datos de órdenes y reglas de derivación claras. |
 | Enviar un anuncio puntual | Una campaña o broadcast | Usa una campaña cuando el mensaje tiene una fecha o momento concreto y debe enviarse una sola vez a una audiencia seleccionada. |
-| Crear un flujo a medida | Una ruta o agente personalizado | Usa esto cuando ninguna misión preconstruida encaja, o cuando necesitas pasos, condiciones, acciones o lógica de negocio específica. |
+| Crear un flujo a medida | Una ruta o [agente personalizado]({% link _journeys/custom-agent-playbook.md %}) | Usa esto cuando ninguna misión preconstruida encaja, o cuando necesitas pasos, condiciones, acciones o lógica de negocio específica. |
 
 ## Empieza pequeño
 
 Elige un primer objetivo, un canal y una audiencia.
 
-Para un primer lanzamiento, evita activar varios playbooks de ingresos al mismo tiempo. Si varios playbooks pueden actuar sobre el mismo cliente, se vuelve más difícil entender qué funcionó, qué molestó a los clientes y qué debería cambiar.
+Para un primer lanzamiento, evita habilitar varios playbooks de ingresos al mismo tiempo. Si varios playbooks pueden actuar sobre el mismo cliente, se vuelve más difícil entender qué funcionó, qué molestó a los clientes y qué debería cambiar.
 
 Los buenos primeros lanzamientos suelen ser acotados:
 
@@ -52,9 +54,9 @@ Usa una **campaña** cuando ya sabes la audiencia, mensaje y momento de envío.
 
 Usa una **ruta** cuando la experiencia debería seguir pasos conocidos: disparador, espera, mensaje, condición, rama y derivación.
 
-Usa un **playbook con IA o agente** cuando Hellotext necesita interpretar respuestas, usar conocimiento de productos o políticas, personalizar recomendaciones, elegir entre varios siguientes pasos o decidir cuándo escalar.
+Usa un **playbook con IA o agente** cuando Hellotext necesita interpretar respuestas, usar conocimiento de productos o políticas, personalizar recomendaciones, elegir entre varios siguientes pasos o decidir cuándo derivar.
 
-Usa una **captura** cuando el trabajo principal es recopilar suscriptores o datos de clientes antes de que otro playbook pueda correr.
+Usa una **captura** cuando el trabajo principal es recopilar suscriptores, datos de clientes o conversaciones desde el sitio antes de que otro playbook pueda correr.
 
 ## Preguntas antes de lanzar
 
@@ -67,6 +69,8 @@ Usa una **captura** cuando el trabajo principal es recopilar suscriptores o dato
 - ¿Cómo vas a medir si funcionó?
 
 Si alguna respuesta no está clara, acota el playbook antes de publicarlo.
+
+Cuando las respuestas estén claras, pasa a [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %}) para configurarlo, probarlo y encenderlo con cuidado.
 
 ## Después del primer lanzamiento
 
@@ -81,8 +85,15 @@ Después ajusta una cosa por vez: audiencia, disparador, timing, mensaje, oferta
 - [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})
 - [Primeros logros recomendados]({% link _getting-started/first-wins-starter-pack.md %})
 - [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
+- [Playbook Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %})
+- [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [Qué son las señales]({% link _journeys/what-are-signals.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
+- [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %})
+- [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
+- [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
+- [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
+- [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
 - [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %})
 - [Primeros pasos con rutas]({% link _journeys/getting-started-with-journeys.md %})
 - [Resumen de herramientas de captura]({% link _captures/capture-overview.md %})

@@ -2,7 +2,7 @@ Use a journey when you want a step-by-step customer flow with a clear trigger, w
 
 A journey is one type of playbook. Not every playbook is a journey.
 
-Some playbooks are more autonomous: for example, a product recommender, post-purchase support, or a frequent-questions agent can read signals, understand intent, and decide what to do in the conversation. Those playbooks may use AI agents or decision logic instead of a fixed route.
+Some playbooks are more autonomous: for example, [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}), post-purchase support, or a frequent-questions agent can read signals, understand intent, and decide what to do in the conversation. Those playbooks may use AI agents or decision logic instead of a fixed route.
 
 ## When to use a journey
 
@@ -17,9 +17,9 @@ Good journey use cases include:
 - Branching based on whether the customer clicked, replied, purchased, or matched a condition.
 - Handing off to a person after a specific step.
 
-An abandoned cart can exist in more than one form: a simple route template with fixed steps, or an AI playbook that decides more dynamically based on signals and customer context.
+An abandoned cart can exist in more than one form: [Cart Saver route]({% link _journeys/cart-saver-route.md %}) with fixed steps, or an AI playbook that decides more dynamically based on signals and customer context.
 
-Keep reading: [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
+Keep reading: [Cart Saver route]({% link _journeys/cart-saver-route.md %}) and [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
 
 ## When to use another playbook type
 

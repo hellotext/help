@@ -37,9 +37,9 @@ For commerce integrations, confirm that the data needed by your first playbook i
 
 Check:
 
-- Recent orders and order status.
+- Recent orders, order status, shipment status, tracking numbers, and tracking URLs if support playbooks depend on them. A logistics operator or carrier integration is optional, but can give order-status playbooks more detailed delivery-state information. For order tracking, see [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %}).
 - Cart or checkout activity if you plan to recover abandoned carts.
-- Product names, images, prices, variants, stock, or catalog data if recommendations depend on them.
+- Product names, images, prices, variants, stock, or catalog data if recommendations depend on them. For product discovery, see [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %}).
 - Currency, totals, coupons, refunds, and shipping status if they affect reporting or follow-up.
 - Marketplace or store source if you sell through more than one channel.
 
@@ -141,5 +141,6 @@ If you need to diagnose where the signal stopped after launch, keep reading: [Tr
 - [Troubleshoot missing signals or activity]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %})
 - [Tracking events]({% link _developers/tracking-events.md %})
 - [Choose your first playbook]({% link _journeys/choose-your-first-playbook.md %})
+- [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
 - [Capture tools overview]({% link _captures/capture-overview.md %})
 - [Troubleshooting checklist]({% link _troubleshooting-deliverability/troubleshooting-checklist.md %})

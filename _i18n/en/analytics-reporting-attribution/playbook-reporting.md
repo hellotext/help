@@ -113,6 +113,7 @@ After changing a playbook, give it enough time and traffic before comparing agai
 - [Playbooks and automation overview]({% link _journeys/playbooks-overview.md %})
 - [Choose your first playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [Playbook library by mission]({% link _journeys/playbook-library-by-mission.md %})
+- [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
 - [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [Campaign reporting]({% link _analytics-reporting-attribution/campaign-reporting.md %})
 - [Sales attribution]({% link _analytics-reporting-attribution/sales-attribution.md %})

@@ -37,9 +37,9 @@ Para integraciones de comercio, confirma que estén presentes los datos que nece
 
 Revisa:
 
-- Órdenes recientes y estado de las órdenes.
+- Órdenes recientes, estado de órdenes, estado de envíos, números de tracking y URLs de tracking si los playbooks de soporte dependen de ellos. El operador logístico o integración de transportista es opcional, pero puede darle a los playbooks de estado de pedido información más detallada sobre el estado de entrega. Para seguimiento de órdenes, mira [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}).
 - Actividad de carrito o checkout si planeas recuperar carritos abandonados.
-- Nombres, imágenes, precios, variantes, stock o datos del catálogo si las recomendaciones dependen de ellos.
+- Nombres, imágenes, precios, variantes, stock o datos del catálogo si las recomendaciones dependen de ellos. Para descubrimiento de producto, mira [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}).
 - Moneda, totales, cupones, devoluciones y estado de envío si afectan reportes o seguimiento.
 - Fuente de marketplace o tienda si vendes por más de un canal.
 
@@ -141,5 +141,6 @@ Si necesitas diagnosticar dónde se detuvo la señal después de lanzar, sigue l
 - [Soluciona señales o actividad faltante]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %})
 - [Seguimiento de eventos]({% link _developers/tracking-events.md %})
 - [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
+- [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
 - [Resumen de herramientas de captura]({% link _captures/capture-overview.md %})
 - [Checklist de solución de problemas]({% link _troubleshooting-deliverability/troubleshooting-checklist.md %})

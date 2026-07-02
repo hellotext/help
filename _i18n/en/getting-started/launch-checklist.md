@@ -81,6 +81,7 @@ Keep reading:
 - [Implementation paths]({% link _getting-started/implementation-paths.md %})
 - [Go-live checklist before you send]({% link _getting-started/go-live-checklist.md %})
 - [Choose your first playbook]({% link _journeys/choose-your-first-playbook.md %})
+- [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [Getting started with journeys]({% link _journeys/getting-started-with-journeys.md %})
 - [Creating a Campaign]({% link _campaigns/creating-a-campaign.md %})
 - [First launch best practices]({% link _getting-started/tips-and-best-practices.md %})
@@ -107,6 +108,7 @@ Keep reading:
 - [Measure success in your first 7 days]({% link _getting-started/measure-success-first-7-days.md %})
 - [Playbooks and automation overview]({% link _journeys/playbooks-overview.md %})
 - [Choose your first playbook]({% link _journeys/choose-your-first-playbook.md %})
+- [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [Campaign Reporting]({% link _analytics-reporting-attribution/campaign-reporting.md %})
 - [How we attribute sales]({% link _analytics-reporting-attribution/sales-attribution.md %})
 
