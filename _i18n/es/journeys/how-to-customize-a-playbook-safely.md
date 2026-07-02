@@ -6,6 +6,8 @@ Si todavía no lanzaste el playbook, empieza por [Cómo habilitar un playbook]({
 
 Si el playbook está activo pero no envió, primero revisa [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}). La edición más segura depende de si el problema está en disparador, elegibilidad, preparación del canal, timing, derivación o contenido.
 
+Si necesitas una lista de diagnóstico para un ejemplo, usa [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}) antes de editar.
+
 ## Antes de editar
 
 Abre **Playbooks**, elige el playbook y revisa sus tarjetas de configuración. Cada playbook muestra solo las partes que se pueden personalizar para ese caso.
@@ -203,6 +205,7 @@ Si los resultados se mueven en la dirección equivocada, revierte primero el cam
 
 - [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
+- [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
 - [Cómo escribir un gran prompt para tu agente]({% link _journeys/how-to-write-a-great-prompt.md %})
 - [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [Qué son las señales]({% link _journeys/what-are-signals.md %})

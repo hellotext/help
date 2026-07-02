@@ -38,6 +38,8 @@ When you need to change an existing setup, use [How to customize a playbook safe
 
 If a playbook is active but does not send when you expected, use [How Hellotext decides whether a playbook can send]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}) before changing the setup.
 
+When you need to diagnose one concrete example, use [Troubleshoot a playbook that did not trigger or send]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}).
+
 For commerce playbooks, make sure your store integration is connected and recent activity appears on customer profiles as usable signals.
 
 For WhatsApp playbooks, make sure WhatsApp is connected and approved before sending customers into the flow.
@@ -71,6 +73,7 @@ For a safer editing process, use [How to customize a playbook safely]({% link _j
 - [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [How Hellotext decides whether a playbook can send]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
+- [Troubleshoot a playbook that did not trigger or send]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
 - [Playbook library by mission]({% link _journeys/playbook-library-by-mission.md %})
 - [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %})
 - [Getting started with journeys]({% link _journeys/getting-started-with-journeys.md %})

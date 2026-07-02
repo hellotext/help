@@ -106,6 +106,8 @@ For campaigns:
 
 Keep reading: [Who can I message? Consent and subscriber status]({% link _audience/consent-and-subscriber-status.md %}).
 
+For a playbook-specific checklist, use [Troubleshoot a playbook that did not trigger or send]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}).
+
 ## 5. If reports or attribution look wrong
 
 If the activity happened but reports do not show what you expected, check the measurement path.
@@ -161,3 +163,4 @@ The more specific the example, the faster support can find whether the issue is 
 - [Analytics, reporting, and attribution overview]({% link _analytics-reporting-attribution/analytics-overview.md %})
 - [Playbooks and automation overview]({% link _journeys/playbooks-overview.md %})
 - [How Hellotext decides whether a playbook can send]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
+- [Troubleshoot a playbook that did not trigger or send]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})

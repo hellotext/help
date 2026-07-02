@@ -106,6 +106,8 @@ Para campañas:
 
 Sigue leyendo: [A quién puedo escribirle: consentimiento y estado de suscripción]({% link _audience/consent-and-subscriber-status.md %}).
 
+Para una lista específica de playbooks, usa [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}).
+
 ## 5. Si reportes o atribución no se ven bien
 
 Si la actividad ocurrió pero los reportes no muestran lo esperado, revisa el camino de medición.
@@ -161,3 +163,4 @@ Cuanto más específico sea el ejemplo, más rápido soporte puede encontrar si 
 - [Resumen de analítica, reportes y atribución]({% link _analytics-reporting-attribution/analytics-overview.md %})
 - [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})
 - [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
+- [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})

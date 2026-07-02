@@ -18,6 +18,8 @@ Esto habla de preparación de entrega. Un playbook puede tener una razón válid
 
 Para problemas de actividad o disparadores faltantes, usa [Soluciona señales o actividad faltante]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %}).
 
+Para un diagnóstico paso a paso, usa [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}).
+
 ## El mapa de decisión
 
 Los chequeos exactos varían según el playbook, pero la decisión normalmente pasa por estas preguntas.
@@ -152,6 +154,7 @@ Si el problema es prompt, intenciones, conocimiento, derivación, oferta o lógi
 
 - [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
 - [Qué son las señales]({% link _journeys/what-are-signals.md %})
 - [A quién puedo escribirle]({% link _audience/consent-and-subscriber-status.md %})
 - [Fundamentos del canal de WhatsApp]({% link _numbers/whatsapp-channel-fundamentals.md %})

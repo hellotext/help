@@ -18,6 +18,8 @@ This is about delivery readiness. A playbook may have a valid reason to act, but
 
 For missing activity or trigger problems, use [Troubleshoot missing signals or activity]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %}).
 
+For a step-by-step diagnosis, use [Troubleshoot a playbook that did not trigger or send]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}).
+
 ## The decision map
 
 The exact checks vary by playbook, but the decision usually moves through these questions.
@@ -152,6 +154,7 @@ If the issue is prompt, intents, knowledge, handoff, offer, or route logic, use 
 
 - [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Troubleshoot a playbook that did not trigger or send]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
 - [What are signals?]({% link _journeys/what-are-signals.md %})
 - [Who can I message?]({% link _audience/consent-and-subscriber-status.md %})
 - [WhatsApp channel fundamentals]({% link _numbers/whatsapp-channel-fundamentals.md %})
