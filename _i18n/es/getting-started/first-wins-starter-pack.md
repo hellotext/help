@@ -36,11 +36,11 @@ Logro esperado: más perfiles de cliente alcanzables y consentimiento más limpi
 
 Empieza aquí si tu tienda tiene señales de carrito o checkout.
 
-Usa una ruta básica de carrito cuando quieres recordatorios fijos con timing predecible. Usa un playbook de carrito con IA cuando las respuestas, contexto de producto, objeciones o recomendaciones deberían cambiar el siguiente paso.
+Usa [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) cuando quieres recordatorios fijos con timing predecible. Usa un playbook de carrito con IA cuando las respuestas, contexto de producto, objeciones o recomendaciones deberían cambiar el siguiente paso.
 
 Logro esperado: recuperar intención de compra que ya existe en lugar de intentar crear demanda desde cero.
 
-Sigue leyendo: [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
+Sigue leyendo: [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}), [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}) y [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
 
 ## 3. Convierte nuevos compradores o recomienda productos
 
@@ -113,6 +113,8 @@ Sigue leyendo: [Mide el éxito en tus primeros 7 días]({% link _getting-started
 - [Mide el éxito en tus primeros 7 días]({% link _getting-started/measure-success-first-7-days.md %})
 - [Cómo funciona Hellotext]({% link _getting-started/how-hellotext-works.md %})
 - [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
+- [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %})
+- [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Resumen de herramientas de captura]({% link _captures/capture-overview.md %})
 - [Resumen de inbox y conversaciones]({% link _team/inbox-overview.md %})

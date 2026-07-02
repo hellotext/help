@@ -30,8 +30,8 @@ Start here when customers show buying intent but do not complete a purchase.
 Common options include:
 
 - **First-Purchase Driver:** turn new subscribers or sign-ups into first-time buyers.
-- **Cart Saver:** recover abandoned carts with a predictable route.
-- **AI Cart Saver:** recover carts with conversational, context-aware follow-up.
+- **[Cart Saver]({% link _journeys/cart-saver-route.md %}):** recover abandoned carts with a predictable route.
+- **[AI Cart Saver]({% link _journeys/ai-cart-saver-playbook.md %}):** recover carts with conversational, context-aware follow-up.
 - **Browse Recovery:** re-engage customers who viewed products without buying.
 - **Smart Recommender:** recommend products in real time from customer behavior and product context.
 - **Complete-the-Look:** suggest complementary products.
@@ -40,7 +40,7 @@ Common options include:
 
 These playbooks usually depend on product, cart, checkout, catalog, stock, price, and purchase signals.
 
-For cart recovery specifically, keep reading: [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
+For cart recovery specifically, start with [Cart Saver route]({% link _journeys/cart-saver-route.md %}), [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %}), or compare both options in [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
 
 ## Retain and grow customer value
 
@@ -124,7 +124,7 @@ If you are unsure where to start, choose the mission that matches the first bott
 | If the bottleneck is... | Start with... |
 | --- | --- |
 | Not enough reachable customers | Captures, Subscriber Booster, Property Collector, or Welcome Booster |
-| Customers abandon carts | Cart Saver or AI Cart Saver |
+| Customers abandon carts | [Cart Saver]({% link _journeys/cart-saver-route.md %}) or [AI Cart Saver]({% link _journeys/ai-cart-saver-playbook.md %}) |
 | Visitors browse but do not buy | Browse Recovery, Smart Recommender, or First-Purchase Driver |
 | Buyers do not return | Replenishment Driver, Soft Reactivation, or Cross-Sell Driver |
 | Customers have gone cold | Dormant Revival or Sunset Saver |
@@ -151,6 +151,8 @@ Keep reading:
 - [Choose your first playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Cart Saver route]({% link _journeys/cart-saver-route.md %})
+- [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %})
 - [How Hellotext decides whether a playbook can send]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})
 - [Go-live checklist before you send]({% link _getting-started/go-live-checklist.md %})

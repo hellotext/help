@@ -30,8 +30,8 @@ Empieza acá cuando los clientes muestran intención de compra pero no completan
 Opciones comunes incluyen:
 
 - **Impulsor de Primera Compra:** convierte nuevos suscriptores o registros en compradores por primera vez.
-- **Recuperador de Carritos:** recupera carritos abandonados con una ruta predecible.
-- **Recuperador de Carritos con IA:** recupera carritos con seguimiento conversacional y contextual.
+- **[Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}):** recupera carritos abandonados con una ruta predecible.
+- **[Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}):** recupera carritos con seguimiento conversacional y contextual.
 - **Recuperación de Navegación:** reactiva clientes que vieron productos sin comprar.
 - **Recomendador Inteligente:** recomienda productos en tiempo real usando comportamiento y contexto de producto.
 - **Completa el Look:** sugiere productos complementarios.
@@ -40,7 +40,7 @@ Opciones comunes incluyen:
 
 Estos playbooks normalmente dependen de señales de producto, carrito, checkout, catálogo, stock, precio y compra.
 
-Para recuperación de carrito específicamente, sigue leyendo: [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
+Para recuperación de carrito específicamente, empieza por [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}), [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}) o compara ambas opciones en [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
 
 ## Retener y aumentar el valor del cliente
 
@@ -124,7 +124,7 @@ Si no sabes por dónde empezar, elige la misión que coincide con el primer cuel
 | Si el cuello de botella es... | Empieza con... |
 | --- | --- |
 | No tienes suficientes clientes alcanzables | Capturas, Impulsor de Suscriptores, Recolector de Datos o Bienvenida Automática |
-| Los clientes abandonan carritos | Recuperador de Carritos o Recuperador de Carritos con IA |
+| Los clientes abandonan carritos | [Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) o [Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}) |
 | Los visitantes miran pero no compran | Recuperación de Navegación, Recomendador Inteligente o Impulsor de Primera Compra |
 | Los compradores no vuelven | Impulsor de Recompra, Reactivación Suave o Impulsor de Ventas Cruzadas |
 | Los clientes quedaron fríos | Reactivación de Inactivos o Último Intento |
@@ -151,6 +151,8 @@ Sigue leyendo:
 - [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %})
+- [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Checklist antes de enviar]({% link _getting-started/go-live-checklist.md %})

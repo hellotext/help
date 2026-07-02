@@ -17,9 +17,9 @@ Good journey use cases include:
 - Branching based on whether the customer clicked, replied, purchased, or matched a condition.
 - Handing off to a person after a specific step.
 
-An abandoned cart can exist in more than one form: a simple route template with fixed steps, or an AI playbook that decides more dynamically based on signals and customer context.
+An abandoned cart can exist in more than one form: [Cart Saver route]({% link _journeys/cart-saver-route.md %}) with fixed steps, or an AI playbook that decides more dynamically based on signals and customer context.
 
-Keep reading: [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
+Keep reading: [Cart Saver route]({% link _journeys/cart-saver-route.md %}) and [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
 
 ## When to use another playbook type
 

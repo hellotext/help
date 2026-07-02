@@ -36,11 +36,11 @@ Expected win: more reachable customer profiles and cleaner consent for future pl
 
 Start here if your store has cart or checkout signals.
 
-Use a basic cart route when you want fixed reminders with predictable timing. Use an AI cart saver playbook when replies, product context, objections, or recommendations should change the next step.
+Use [Cart Saver route]({% link _journeys/cart-saver-route.md %}) when you want fixed reminders with predictable timing. Use an AI cart saver playbook when replies, product context, objections, or recommendations should change the next step.
 
 Expected win: recover purchase intent that already exists instead of only trying to create new demand.
 
-Keep reading: [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
+Keep reading: [Cart Saver route]({% link _journeys/cart-saver-route.md %}), [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %}), and [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
 
 ## 3. Convert new shoppers or recommend products
 
@@ -113,6 +113,8 @@ Keep reading: [Measure success in your first 7 days]({% link _getting-started/me
 - [Measure success in your first 7 days]({% link _getting-started/measure-success-first-7-days.md %})
 - [How Hellotext works]({% link _getting-started/how-hellotext-works.md %})
 - [Choose your first playbook]({% link _journeys/choose-your-first-playbook.md %})
+- [Cart Saver route]({% link _journeys/cart-saver-route.md %})
+- [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})
 - [Capture tools overview]({% link _captures/capture-overview.md %})
 - [Inbox and conversations overview]({% link _team/inbox-overview.md %})

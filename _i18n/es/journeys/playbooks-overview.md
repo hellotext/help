@@ -22,9 +22,9 @@ Usa un **playbook preconstruido** cuando el objetivo es común y la misión reco
 
 Usa un **playbook con IA o agente de IA** cuando la experiencia necesita responder conversacionalmente, usar conocimiento de productos o políticas, recomendar artículos, responder preguntas frecuentes, recopilar información del cliente o decidir cuándo derivar.
 
-Usa una **ruta** cuando necesitas un flujo de clientes paso a paso con disparador, mensajes, esperas, condiciones, ramas y derivaciones. Un seguimiento básico de carrito abandonado puede ser una plantilla de ruta; un playbook de carrito abandonado con IA puede decidir de forma más dinámica usando señales y contexto del cliente.
+Usa una **ruta** cuando necesitas un flujo de clientes paso a paso con disparador, mensajes, esperas, condiciones, ramas y derivaciones. Un seguimiento básico de carrito abandonado puede ser [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}); un playbook de carrito abandonado con IA puede decidir de forma más dinámica usando señales y contexto del cliente.
 
-Para esa decisión específica, mira [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
+Para esa decisión específica, mira [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}), [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}) y [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
 
 Usa una **campaña** cuando quieres un envío puntual a una audiencia seleccionada, y una **captura** cuando el objetivo es recolectar suscriptores o datos de clientes.
 
@@ -75,6 +75,8 @@ Para un proceso de edición más seguro, usa [Cómo personalizar un playbook de 
 - [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
 - [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
+- [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %})
+- [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %})
 - [Primeros pasos con rutas]({% link _journeys/getting-started-with-journeys.md %})
 - [Ruta personalizada]({% link _journeys/custom-journey.md %})

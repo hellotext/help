@@ -16,7 +16,7 @@ If the signal is not available yet, set up tracking or integrations before choos
 
 Keep reading: [What are signals?]({% link _journeys/what-are-signals.md %}).
 
-For cart recovery specifically, see [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
+For cart recovery specifically, see [Cart Saver route]({% link _journeys/cart-saver-route.md %}), [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %}), and [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
 
 If you want to browse more options before choosing, use [Playbook library by mission]({% link _journeys/playbook-library-by-mission.md %}).
 
@@ -27,7 +27,7 @@ After you choose the first option to launch, follow [How to enable a playbook]({
 | If your first goal is... | Start with... | Why |
 | --- | --- | --- |
 | Grow your reachable audience | A capture such as a QR code, shareable link, form, popup, or subscriber booster | You need customers to opt in before most playbooks, routes, or campaigns can perform well. |
-| Recover carts | A basic cart route or an AI cart saver playbook | Use a route when the follow-up should be predictable. Use an AI playbook when the experience should react to product context, customer intent, replies, or objections. |
+| Recover carts | [Cart Saver route]({% link _journeys/cart-saver-route.md %}) or an AI cart saver playbook | Use a route when the follow-up should be predictable. Use an AI playbook when the experience should react to product context, customer intent, replies, or objections. |
 | Convert new subscribers or window shoppers | A first-purchase, browse recovery, or product recommendation playbook | These playbooks work best when Hellotext can see product, browsing, subscription, and purchase signals. |
 | Drive repeat purchases | A replenishment, cross-sell, birthday, anniversary, or soft reactivation playbook | These need enough purchase history or profile data to make the timing and recommendation useful. |
 | Answer frequent questions or reduce support load | An instant answers, order update, return, or exchange assistant | Start here when your team spends time answering repeat questions and you have clear policies, order data, and handoff rules. |
@@ -88,6 +88,8 @@ Then adjust one thing at a time: audience, trigger, timing, message, offer, prom
 - [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [What are signals?]({% link _journeys/what-are-signals.md %})
 - [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})
+- [Cart Saver route]({% link _journeys/cart-saver-route.md %})
+- [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %})
 - [Getting started with journeys]({% link _journeys/getting-started-with-journeys.md %})
 - [Capture tools overview]({% link _captures/capture-overview.md %})

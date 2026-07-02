@@ -17,9 +17,9 @@ Buenos casos para una ruta:
 - Ramificar según si el cliente hizo clic, respondió, compró o cumplió una condición.
 - Derivar a una persona después de un paso específico.
 
-Un carrito abandonado puede existir de más de una forma: como una plantilla de ruta simple con pasos fijos, o como un playbook con IA que decide de forma más dinámica usando señales y contexto del cliente.
+Un carrito abandonado puede existir de más de una forma: como [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) con pasos fijos, o como un playbook con IA que decide de forma más dinámica usando señales y contexto del cliente.
 
-Sigue leyendo: [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
+Sigue leyendo: [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) y [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
 
 ## Cuándo usar otro tipo de playbook
 

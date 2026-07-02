@@ -6,7 +6,7 @@ Both are valid. Choose the simplest version that matches your goal, data, and te
 
 ## Use a route template when
 
-Use a route when you want a predictable step-by-step flow.
+Use [Cart Saver route]({% link _journeys/cart-saver-route.md %}) when you want a predictable step-by-step flow.
 
 A route is usually the right first choice when:
 
@@ -30,7 +30,7 @@ An AI cart saver playbook is a better fit when:
 - You want Hellotext to use more context before deciding the next message.
 - A human should take over only when the conversation needs help.
 
-For example, an AI playbook can use cart, product, profile, conversation, and purchase signals to decide whether to remind, recommend, answer, wait, stop, or hand off.
+For example, [AI Cart Saver]({% link _journeys/ai-cart-saver-playbook.md %}) can use cart, product, profile, conversation, and purchase signals to decide whether to remind, recommend, answer, wait, stop, or hand off.
 
 ## What both need
 
@@ -75,6 +75,8 @@ Do not enable several cart recovery flows for the same customers at the same tim
 ## Related guides
 
 - [Choose your first playbook]({% link _journeys/choose-your-first-playbook.md %})
+- [Cart Saver route]({% link _journeys/cart-saver-route.md %})
+- [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Getting started with journeys]({% link _journeys/getting-started-with-journeys.md %})
 - [Playbooks and automation overview]({% link _journeys/playbooks-overview.md %})
 - [What are signals?]({% link _journeys/what-are-signals.md %})

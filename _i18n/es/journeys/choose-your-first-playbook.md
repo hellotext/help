@@ -16,7 +16,7 @@ Si la señal todavía no está disponible, configura tracking o integraciones an
 
 Sigue leyendo: [Qué son las señales]({% link _journeys/what-are-signals.md %}).
 
-Para recuperación de carritos específicamente, mira [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
+Para recuperación de carritos específicamente, mira [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}), [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}) y [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
 
 Si quieres explorar más opciones antes de elegir, usa [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %}).
 
@@ -27,7 +27,7 @@ Después de elegir la primera opción para lanzar, sigue [Cómo habilitar un pla
 | Si tu primer objetivo es... | Empieza con... | Por qué |
 | --- | --- | --- |
 | Crecer tu audiencia alcanzable | Una captura como código QR, link compartible, formulario, popup o impulsor de suscriptores | Necesitas que los clientes se suscriban antes de que muchos playbooks, rutas o campañas puedan rendir bien. |
-| Recuperar carritos | Una ruta básica de carrito o un playbook de carrito con IA | Usa una ruta cuando el seguimiento debería ser predecible. Usa un playbook con IA cuando la experiencia debería reaccionar al producto, intención del cliente, respuestas u objeciones. |
+| Recuperar carritos | [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) o un playbook de carrito con IA | Usa una ruta cuando el seguimiento debería ser predecible. Usa un playbook con IA cuando la experiencia debería reaccionar al producto, intención del cliente, respuestas u objeciones. |
 | Convertir nuevos suscriptores o visitantes que miran sin comprar | Un playbook de primera compra, recuperación de navegación o recomendación de productos | Estos playbooks funcionan mejor cuando Hellotext puede ver señales de producto, navegación, suscripción y compra. |
 | Impulsar recompra | Un playbook de reposición, venta cruzada, cumpleaños, aniversario o reactivación suave | Necesitan suficiente historial de compras o datos de perfil para que el timing y la recomendación sean útiles. |
 | Responder preguntas frecuentes o reducir carga de soporte | Un asistente de respuestas instantáneas, seguimiento de pedidos, cambios o devoluciones | Empieza aquí cuando tu equipo responde preguntas repetidas y tienes políticas, datos de órdenes y reglas de derivación claras. |
@@ -88,6 +88,8 @@ Después ajusta una cosa por vez: audiencia, disparador, timing, mensaje, oferta
 - [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [Qué son las señales]({% link _journeys/what-are-signals.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
+- [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %})
+- [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %})
 - [Primeros pasos con rutas]({% link _journeys/getting-started-with-journeys.md %})
 - [Resumen de herramientas de captura]({% link _captures/capture-overview.md %})

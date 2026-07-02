@@ -6,7 +6,7 @@ Ambas opciones son válidas. Elige la versión más simple que coincida con tu o
 
 ## Usa una plantilla de ruta cuando
 
-Usa una ruta cuando quieres un flujo paso a paso predecible.
+Usa [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) cuando quieres un flujo paso a paso predecible.
 
 Una ruta suele ser la mejor primera opción cuando:
 
@@ -30,7 +30,7 @@ Un playbook de carrito con IA encaja mejor cuando:
 - Quieres que Hellotext use más contexto antes de decidir el siguiente mensaje.
 - Una persona debería tomar la conversación solo cuando hace falta ayuda.
 
-Por ejemplo, un playbook con IA puede usar señales de carrito, producto, perfil, conversación y compra para decidir si recordar, recomendar, responder, esperar, detenerse o derivar.
+Por ejemplo, [Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}) puede usar señales de carrito, producto, perfil, conversación y compra para decidir si recordar, recomendar, responder, esperar, detenerse o derivar.
 
 ## Qué necesitan ambas opciones
 
@@ -75,6 +75,8 @@ No actives varios flujos de recuperación de carrito para los mismos clientes al
 ## Guías relacionadas
 
 - [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
+- [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %})
+- [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Primeros pasos con rutas]({% link _journeys/getting-started-with-journeys.md %})
 - [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})
 - [Qué son las señales]({% link _journeys/what-are-signals.md %})
