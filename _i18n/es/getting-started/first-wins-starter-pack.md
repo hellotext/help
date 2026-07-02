@@ -50,7 +50,7 @@ Opciones útiles pueden incluir:
 
 - Seguimiento de primera compra para nuevos suscriptores que todavía no compraron.
 - Recuperación de navegación para clientes que vieron productos pero no agregaron al carrito.
-- Recomendador inteligente cuando el contexto de producto e inventario es sólido.
+- [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) cuando el contexto de producto e inventario es sólido.
 - Venta cruzada o recompra cuando tienes suficiente historial de órdenes.
 
 Logro esperado: mover clientes de interés a compra, recompra u órdenes de mayor valor.
@@ -62,7 +62,7 @@ Empieza aquí si tu equipo responde las mismas preguntas repetidamente.
 Opciones útiles pueden incluir:
 
 - Respuestas instantáneas para preguntas frecuentes.
-- Seguimiento de pedidos cuando los clientes preguntan seguido dónde está su orden.
+- [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}) cuando los clientes preguntan seguido dónde está su orden.
 - Ayuda con cambios o devoluciones cuando tu política es lo suficientemente clara para automatizar partes de la conversación.
 - Asignación y reglas de respuesta en Inbox cuando las personas todavía necesitan hacerse cargo de las respuestas.
 
@@ -115,6 +115,8 @@ Sigue leyendo: [Mide el éxito en tus primeros 7 días]({% link _getting-started
 - [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %})
 - [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
+- [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
+- [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Resumen de herramientas de captura]({% link _captures/capture-overview.md %})
 - [Resumen de inbox y conversaciones]({% link _team/inbox-overview.md %})

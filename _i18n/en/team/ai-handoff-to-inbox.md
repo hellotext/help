@@ -28,7 +28,7 @@ The AI agent step has solved and unresolved outcomes. If the AI cannot resolve t
 
 Custom playbooks can define **Intents**. An intent is a phrase or need that activates an agent when detected in a customer message.
 
-This lets you create multiple agents for different jobs. For example, one agent can handle product recommendations, another can answer support questions, and another can manage order-related requests. Each agent can resolve the conversation, route it to another playbook through Supervisor routing, or escalate it to the configured teammate or team.
+This lets you create multiple agents for different jobs. For example, one agent can handle product recommendations, another can answer support questions, and [Order-Update Delight]({% link _journeys/order-update-playbook.md %}) can manage order-status requests. Each agent can resolve the conversation, route it to another playbook through Supervisor routing, or escalate it to the configured teammate or team.
 
 ## When Hellotext should escalate
 
@@ -144,5 +144,6 @@ Use what you learn to tune the prompt, intents, playbook rules, journey branches
 - [Assign conversations]({% link _team/assigning-conversations.md %})
 - [Response times and response rules]({% link _team/understanding-response-times.md %})
 - [How Hellotext works]({% link _getting-started/how-hellotext-works.md %})
+- [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
 - [How to write a great agent prompt]({% link _journeys/how-to-write-a-great-prompt.md %})
 - [Go-live checklist before you send]({% link _getting-started/go-live-checklist.md %})

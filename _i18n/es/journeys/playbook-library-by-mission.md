@@ -33,7 +33,7 @@ Opciones comunes incluyen:
 - **[Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}):** recupera carritos abandonados con una ruta predecible.
 - **[Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}):** recupera carritos con seguimiento conversacional y contextual.
 - **Recuperación de Navegación:** reactiva clientes que vieron productos sin comprar.
-- **Recomendador Inteligente:** recomienda productos en tiempo real usando comportamiento y contexto de producto.
+- **[Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}):** recomienda productos en tiempo real usando comportamiento y contexto de producto.
 - **Completa el Look:** sugiere productos complementarios.
 - **Alerta de Baja de Precio:** notifica a compradores interesados cuando cambia el precio de un producto.
 - **Vuelta a Stock:** alerta cuando un producto vuelve a estar disponible.
@@ -89,7 +89,7 @@ Empieza acá cuando el objetivo es responder preguntas, reducir trabajo repetiti
 
 Opciones comunes incluyen:
 
-- **Seguimiento de Pedidos:** envía actualizaciones de orden y responde preguntas de estado de pedido.
+- **[Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}):** envía actualizaciones de orden y responde preguntas de estado de pedido.
 - **Generador de Reseñas:** recopila reseñas o contenido generado por clientes después de la compra.
 - **Pulso NPS:** mide lealtad en el momento adecuado.
 - **Pulso de Satisfacción:** mide satisfacción después de interacciones de soporte o IA.
@@ -125,11 +125,11 @@ Si no sabes por dónde empezar, elige la misión que coincide con el primer cuel
 | --- | --- |
 | No tienes suficientes clientes alcanzables | Capturas, Impulsor de Suscriptores, Recolector de Datos o Bienvenida Automática |
 | Los clientes abandonan carritos | [Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) o [Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}) |
-| Los visitantes miran pero no compran | Recuperación de Navegación, Recomendador Inteligente o Impulsor de Primera Compra |
+| Los visitantes miran pero no compran | Recuperación de Navegación, [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) o Impulsor de Primera Compra |
 | Los compradores no vuelven | Impulsor de Recompra, Reactivación Suave o Impulsor de Ventas Cruzadas |
 | Los clientes quedaron fríos | Reactivación de Inactivos o Último Intento |
 | Tienes un anuncio con fecha | Envío clásico, Campaña Estacional, Adelanto de Lanzamiento o Liquidación Final |
-| El soporte es repetitivo | Respuestas Instantáneas, Seguimiento de Pedidos, Asistente de Cambios y Devoluciones o Pulso CSAT/NPS |
+| El soporte es repetitivo | Respuestas Instantáneas, [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}), Asistente de Cambios y Devoluciones o Pulso CSAT/NPS |
 | Tu proceso es único | Constructor de Rutas o Agente Personalizado |
 
 Elige una misión, una audiencia y un canal para el primer lanzamiento. Ampliar es más fácil después de que el primer playbook confirma que los datos, timing, canal y camino de derivación funcionan.
@@ -153,6 +153,8 @@ Sigue leyendo:
 - [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %})
 - [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
+- [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
+- [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
 - [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Checklist antes de enviar]({% link _getting-started/go-live-checklist.md %})

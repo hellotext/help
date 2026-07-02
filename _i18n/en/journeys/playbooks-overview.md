@@ -22,6 +22,8 @@ Use a **prebuilt playbook** when the goal is common and the recommended mission 
 
 Use an **AI playbook or AI agent** when the experience needs to respond conversationally, use product or policy knowledge, recommend items, answer frequent questions, collect customer information, or decide when to escalate.
 
+For product discovery specifically, see [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %}). For order-status questions, see [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %}).
+
 Use a **journey route** when you need a multi-step customer flow with a trigger, messages, waits, conditions, branches, and handoffs. A basic abandoned-cart follow-up can be [Cart Saver route]({% link _journeys/cart-saver-route.md %}); an AI abandoned-cart playbook can make more dynamic decisions based on signals and customer context.
 
 For that specific choice, see [Cart Saver route]({% link _journeys/cart-saver-route.md %}), [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %}), and [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
@@ -77,6 +79,8 @@ For a safer editing process, use [How to customize a playbook safely]({% link _j
 - [Playbook library by mission]({% link _journeys/playbook-library-by-mission.md %})
 - [Cart Saver route]({% link _journeys/cart-saver-route.md %})
 - [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %})
+- [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %})
+- [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
 - [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %})
 - [Getting started with journeys]({% link _journeys/getting-started-with-journeys.md %})
 - [Custom journey]({% link _journeys/custom-journey.md %})

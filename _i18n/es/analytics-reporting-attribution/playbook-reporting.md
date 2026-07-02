@@ -113,6 +113,7 @@ Después de cambiar un playbook, dale suficiente tiempo y tráfico antes de comp
 - [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})
 - [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
+- [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
 - [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [Reportes de campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %})
 - [Atribución de ventas]({% link _analytics-reporting-attribution/sales-attribution.md %})

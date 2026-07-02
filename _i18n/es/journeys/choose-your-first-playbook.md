@@ -28,9 +28,9 @@ Después de elegir la primera opción para lanzar, sigue [Cómo habilitar un pla
 | --- | --- | --- |
 | Crecer tu audiencia alcanzable | Una captura como código QR, link compartible, formulario, popup o impulsor de suscriptores | Necesitas que los clientes se suscriban antes de que muchos playbooks, rutas o campañas puedan rendir bien. |
 | Recuperar carritos | [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) o un playbook de carrito con IA | Usa una ruta cuando el seguimiento debería ser predecible. Usa un playbook con IA cuando la experiencia debería reaccionar al producto, intención del cliente, respuestas u objeciones. |
-| Convertir nuevos suscriptores o visitantes que miran sin comprar | Un playbook de primera compra, recuperación de navegación o recomendación de productos | Estos playbooks funcionan mejor cuando Hellotext puede ver señales de producto, navegación, suscripción y compra. |
+| Convertir nuevos suscriptores o visitantes que miran sin comprar | Un playbook de primera compra, recuperación de navegación o [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) | Estos playbooks funcionan mejor cuando Hellotext puede ver señales de producto, navegación, suscripción y compra. |
 | Impulsar recompra | Un playbook de reposición, venta cruzada, cumpleaños, aniversario o reactivación suave | Necesitan suficiente historial de compras o datos de perfil para que el timing y la recomendación sean útiles. |
-| Responder preguntas frecuentes o reducir carga de soporte | Un asistente de respuestas instantáneas, seguimiento de pedidos, cambios o devoluciones | Empieza aquí cuando tu equipo responde preguntas repetidas y tienes políticas, datos de órdenes y reglas de derivación claras. |
+| Responder preguntas frecuentes o reducir carga de soporte | Un asistente de respuestas instantáneas, [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}), cambios o devoluciones | Empieza aquí cuando tu equipo responde preguntas repetidas y tienes políticas, datos de órdenes y reglas de derivación claras. |
 | Enviar un anuncio puntual | Una campaña o broadcast | Usa una campaña cuando el mensaje tiene una fecha o momento concreto y debe enviarse una sola vez a una audiencia seleccionada. |
 | Crear un flujo a medida | Una ruta o agente personalizado | Usa esto cuando ninguna misión preconstruida encaja, o cuando necesitas pasos, condiciones, acciones o lógica de negocio específica. |
 
@@ -90,6 +90,8 @@ Después ajusta una cosa por vez: audiencia, disparador, timing, mensaje, oferta
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %})
 - [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
+- [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
+- [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
 - [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %})
 - [Primeros pasos con rutas]({% link _journeys/getting-started-with-journeys.md %})
 - [Resumen de herramientas de captura]({% link _captures/capture-overview.md %})

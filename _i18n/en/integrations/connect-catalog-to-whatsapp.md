@@ -73,7 +73,7 @@ Now that your catalog is ready, it’s time to connect your WhatsApp Business nu
 
 6. Complete the Embedded Signup process until the end.
 
-After finishing, Hellotext will begin syncing your products automatically. From that moment on, you’ll be able to use them in playbooks, campaigns, Inbox conversations, AI agents, and product recommendations.
+After finishing, Hellotext will begin syncing your products automatically. From that moment on, you’ll be able to use them in playbooks, campaigns, Inbox conversations, AI agents, and product recommendations such as [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}).
 
 ## What to expect next?
 

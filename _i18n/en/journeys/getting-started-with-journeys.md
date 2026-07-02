@@ -2,7 +2,7 @@ Use a journey when you want a step-by-step customer flow with a clear trigger, w
 
 A journey is one type of playbook. Not every playbook is a journey.
 
-Some playbooks are more autonomous: for example, a product recommender, post-purchase support, or a frequent-questions agent can read signals, understand intent, and decide what to do in the conversation. Those playbooks may use AI agents or decision logic instead of a fixed route.
+Some playbooks are more autonomous: for example, [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}), post-purchase support, or a frequent-questions agent can read signals, understand intent, and decide what to do in the conversation. Those playbooks may use AI agents or decision logic instead of a fixed route.
 
 ## When to use a journey
 

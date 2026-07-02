@@ -9,7 +9,8 @@ WhatsApp works well when the customer may reply, ask a follow-up question, or ne
 Use WhatsApp for:
 
 - Inbox conversations with customers.
-- AI agents that answer questions or recommend products.
+- AI agents that answer questions or recommend products, such as [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}).
+- Order-status support with [Order-Update Delight]({% link _journeys/order-update-playbook.md %}) when order and tracking data are available.
 - Playbooks that recover carts, help shoppers choose, support post-purchase questions, or react to customer signals.
 - Routes that ask questions, branch, assign conversations, or collect context.
 - Targeted campaigns to eligible audiences.
@@ -124,6 +125,7 @@ Keep reading: [Go-live checklist before you send]({% link _getting-started/go-li
 - [Messaging channels overview]({% link _numbers/messaging-overview.md %})
 - [Connect WhatsApp]({% link _integrations/connect-whatsapp.md %})
 - [Connect your catalog to WhatsApp]({% link _integrations/connect-catalog-to-whatsapp.md %})
+- [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
 - [Who can I message? Consent and subscriber status]({% link _audience/consent-and-subscriber-status.md %})
 - [Inbox and conversations overview]({% link _team/inbox-overview.md %})
 - [Playbooks and automation overview]({% link _journeys/playbooks-overview.md %})

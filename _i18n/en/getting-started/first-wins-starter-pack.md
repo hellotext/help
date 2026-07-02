@@ -50,7 +50,7 @@ Useful options can include:
 
 - First-purchase follow-up for new subscribers who have not bought yet.
 - Browse recovery for customers who viewed products but did not add to cart.
-- Smart recommender when product and inventory context are strong.
+- [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}) when product and inventory context are strong.
 - Cross-sell or replenishment when you have enough order history.
 
 Expected win: move customers from interest to purchase, repeat purchase, or higher-value orders.
@@ -62,7 +62,7 @@ Start here if your team answers the same questions repeatedly.
 Useful options can include:
 
 - Instant Answers for frequent questions.
-- Order updates when customers often ask where their order is.
+- [Order-Update Delight]({% link _journeys/order-update-playbook.md %}) when customers often ask where their order is.
 - Returns or exchange help when your policy is clear enough to automate parts of the conversation.
 - Inbox assignment and response rules when humans still need to own replies.
 
@@ -115,6 +115,8 @@ Keep reading: [Measure success in your first 7 days]({% link _getting-started/me
 - [Choose your first playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [Cart Saver route]({% link _journeys/cart-saver-route.md %})
 - [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %})
+- [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %})
+- [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
 - [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})
 - [Capture tools overview]({% link _captures/capture-overview.md %})
 - [Inbox and conversations overview]({% link _team/inbox-overview.md %})
