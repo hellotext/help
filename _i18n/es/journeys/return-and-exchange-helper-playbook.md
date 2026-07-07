@@ -38,6 +38,8 @@ No uses Asistente de Cambios y Devoluciones como dueño de todos los casos post-
 
 Usa [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}) cuando el cliente pregunta principalmente dónde está una orden, si ya se envió o cómo rastrear un paquete.
 
+Usa [Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %}) cuando el cliente quiere cancelar un pedido antes de que se envíe o antes de que sea demasiado tarde para cancelarlo.
+
 Usa [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}) cuando el cliente solo necesita una explicación general de política y no un flujo guiado de cambio o devolución.
 
 Usa [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) cuando el cliente quiere ayuda para elegir otro producto antes de comprar.
@@ -164,6 +166,7 @@ Ajusta una cosa por vez: conocimiento de políticas, selección de canales, tono
 - [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [Playbook Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
 - [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
+- [Playbook Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %})
 - [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
 - [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
 - [Playbook Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %})

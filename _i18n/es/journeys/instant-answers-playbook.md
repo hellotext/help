@@ -41,6 +41,8 @@ Usa [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %
 
 Usa [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}) cuando tu cuenta tenga ese playbook disponible y el cliente necesita un flujo de cambios o devoluciones, no solo una explicación de política.
 
+Usa [Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %}) cuando tu cuenta tenga ese playbook disponible y el cliente necesita ayuda para pedir una cancelación, no solo una explicación de política.
+
 Usa un [Agente Personalizado]({% link _journeys/custom-agent-playbook.md %}) cuando necesitas intenciones propias, un agente especialista acotado, acciones externas o una misión de soporte demasiado específica para el playbook preconstruido.
 
 Usa una [ruta]({% link _journeys/getting-started-with-journeys.md %}) cuando la experiencia debe seguir pasos visibles, esperas, preguntas, ramas y asignaciones.
@@ -166,6 +168,7 @@ Ajusta una cosa por vez: conocimiento, selección de canales, tono, destino de d
 - [Playbook Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %})
 - [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
 - [Playbook Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %})
+- [Playbook Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %})
 - [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
 - [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
 - [Resumen de inbox y conversaciones]({% link _team/inbox-overview.md %})

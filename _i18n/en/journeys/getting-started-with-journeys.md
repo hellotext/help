@@ -2,7 +2,7 @@ Use a journey when you want a step-by-step customer flow with a clear trigger, w
 
 A journey is one type of playbook. Not every playbook is a journey.
 
-Some playbooks are more autonomous: for example, [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}), [Order-Update Delight]({% link _journeys/order-update-playbook.md %}), [Return & Exchange Helper]({% link _journeys/return-and-exchange-helper-playbook.md %}), or [Instant Answers]({% link _journeys/instant-answers-playbook.md %}) can read signals, understand intent, and decide what to do in the conversation. Those playbooks may use AI agents or decision logic instead of a fixed route.
+Some playbooks are more autonomous: for example, [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}), [Order-Update Delight]({% link _journeys/order-update-playbook.md %}), [Return & Exchange Helper]({% link _journeys/return-and-exchange-helper-playbook.md %}), [Order Cancellation Assistant]({% link _journeys/order-cancellation-assistant-playbook.md %}), or [Instant Answers]({% link _journeys/instant-answers-playbook.md %}) can read signals, understand intent, and decide what to do in the conversation. Those playbooks may use AI agents or decision logic instead of a fixed route.
 
 ## When to use a journey
 
@@ -29,7 +29,7 @@ Examples include:
 
 - Recommending products from a catalog.
 - Answering frequent questions with [Instant Answers]({% link _journeys/instant-answers-playbook.md %}).
-- Guiding order, return, or exchange support with the right post-purchase playbook.
+- Guiding order tracking, cancellation, return, or exchange support with the right post-purchase playbook.
 - Understanding a customer's message and choosing the next response.
 - Deciding which offer, product, channel, or timing is best for each customer.
 - Coordinating with other playbooks so customers are not overloaded.

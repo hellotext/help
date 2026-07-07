@@ -38,6 +38,8 @@ Do not use Return & Exchange Helper as the owner for every post-purchase case.
 
 Use [Order-Update Delight]({% link _journeys/order-update-playbook.md %}) when the customer mainly asks where an order is, whether it shipped, or how to track a package.
 
+Use [Order Cancellation Assistant]({% link _journeys/order-cancellation-assistant-playbook.md %}) when the customer wants to cancel an order before it ships or before it is too late to cancel.
+
 Use [Instant Answers]({% link _journeys/instant-answers-playbook.md %}) when the customer only needs a general policy explanation and does not need a guided return or exchange flow.
 
 Use [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}) when the customer wants help choosing another product before buying.
@@ -164,6 +166,7 @@ Tune one thing at a time: policy knowledge, channel selection, tone, handoff tar
 - [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [Instant Answers playbook]({% link _journeys/instant-answers-playbook.md %})
 - [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
+- [Order Cancellation Assistant playbook]({% link _journeys/order-cancellation-assistant-playbook.md %})
 - [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %})
 - [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %})
 - [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %})

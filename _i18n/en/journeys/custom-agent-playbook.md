@@ -43,6 +43,7 @@ Use a prebuilt playbook when the mission already exists. For example:
 - Use [Order-Update Delight]({% link _journeys/order-update-playbook.md %}) for order and shipment status.
 - Use [Instant Answers]({% link _journeys/instant-answers-playbook.md %}) for common support questions that can be answered from approved knowledge.
 - Use [Return & Exchange Helper]({% link _journeys/return-and-exchange-helper-playbook.md %}) for guided return or exchange support when the prebuilt mission fits.
+- Use [Order Cancellation Assistant]({% link _journeys/order-cancellation-assistant-playbook.md %}) for guided cancellation support and approved save-the-sale paths when the prebuilt mission fits.
 - Use [AI Cart Saver]({% link _journeys/ai-cart-saver-playbook.md %}) or [Cart Saver route]({% link _journeys/cart-saver-route.md %}) for abandoned cart recovery.
 
 Use a [journey route]({% link _journeys/getting-started-with-journeys.md %}) when the experience must follow explicit steps, waits, questions, conditions, assignments, and branches.
@@ -193,6 +194,7 @@ Tune one thing at a time: intent wording, prompt, uploaded knowledge, approved w
 - [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [Instant Answers playbook]({% link _journeys/instant-answers-playbook.md %})
 - [Return & Exchange Helper playbook]({% link _journeys/return-and-exchange-helper-playbook.md %})
+- [Order Cancellation Assistant playbook]({% link _journeys/order-cancellation-assistant-playbook.md %})
 - [How to write a great agent prompt]({% link _journeys/how-to-write-a-great-prompt.md %})
 - [How Hellotext decides whether a playbook can send]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %})

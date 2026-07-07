@@ -32,7 +32,7 @@ Encaja bien cuando:
 - Tu equipo quiere que la IA responda preguntas comunes de compra antes de derivar.
 - Quieres que las recomendaciones sucedan desde canales como WhatsApp, Webchat, Instagram DM o SMS cuando estén soportados.
 
-No uses Recomendador Inteligente como única fuente para estado de orden, incidentes de entrega, reclamos, reembolsos o decisiones finales de cambios y devoluciones. Usa [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}) para estado de orden, [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}) para ayuda guiada de cambios o devoluciones, y el Inbox cuando una persona necesita decidir.
+No uses Recomendador Inteligente como única fuente para estado de orden, incidentes de entrega, reclamos, reembolsos, cancelaciones o decisiones finales de cambios y devoluciones. Usa [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}) para estado de orden, [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}) para ayuda guiada de cambios o devoluciones, [Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %}) para solicitudes de cancelación, y el Inbox cuando una persona necesita decidir.
 
 ## Qué necesita antes del lanzamiento
 
@@ -145,6 +145,7 @@ Ajusta una cosa por vez: prompt, documentos de conocimiento, selección de canal
 - [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
 - [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
 - [Playbook Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %})
+- [Playbook Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Conecta tu catálogo a WhatsApp]({% link _integrations/connect-catalog-to-whatsapp.md %})
 - [Fundamentos del canal de WhatsApp]({% link _numbers/whatsapp-channel-fundamentals.md %})

@@ -65,6 +65,7 @@ Useful options can include:
 - [Instant Answers]({% link _journeys/instant-answers-playbook.md %}) for frequent questions.
 - [Order-Update Delight]({% link _journeys/order-update-playbook.md %}) when customers often ask where their order is.
 - [Return & Exchange Helper]({% link _journeys/return-and-exchange-helper-playbook.md %}) when your policy is clear enough to automate parts of the conversation.
+- [Order Cancellation Assistant]({% link _journeys/order-cancellation-assistant-playbook.md %}) when cancellation requests are frequent and your rules are clear.
 - Inbox assignment and response rules when humans still need to own replies.
 
 Expected win: faster answers, cleaner handoffs, and fewer repetitive tickets for your team.
@@ -120,6 +121,7 @@ Keep reading: [Measure success in your first 7 days]({% link _getting-started/me
 - [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
 - [Instant Answers playbook]({% link _journeys/instant-answers-playbook.md %})
 - [Return & Exchange Helper playbook]({% link _journeys/return-and-exchange-helper-playbook.md %})
+- [Order Cancellation Assistant playbook]({% link _journeys/order-cancellation-assistant-playbook.md %})
 - [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %})
 - [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})
 - [Capture tools overview]({% link _captures/capture-overview.md %})

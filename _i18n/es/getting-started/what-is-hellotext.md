@@ -2,7 +2,7 @@ Hellotext ayuda a equipos de comercio a decidir qué debería pasar después con
 
 Lee señales de clientes y del negocio, usa playbooks para elegir la siguiente acción correcta y ejecuta esa acción mediante canales de mensajería, el Inbox, campañas, rutas o agentes de IA.
 
-Usa Hellotext para recuperar carritos, recomendar productos, responder preguntas frecuentes con [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}), guiar cambios y devoluciones, hacer seguimiento después de una compra, reactivar clientes, captar suscriptores y medir los ingresos conectados con esas acciones.
+Usa Hellotext para recuperar carritos, recomendar productos, responder preguntas frecuentes con [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}), guiar cambios, devoluciones y solicitudes de cancelación, hacer seguimiento después de una compra, reactivar clientes, captar suscriptores y medir los ingresos conectados con esas acciones.
 
 ## La versión corta
 
@@ -38,7 +38,7 @@ El objetivo es que cada acción sea más relevante que enviar el mismo mensaje a
 
 ### Playbooks y automatización
 
-Los playbooks son sistemas repetibles para misiones de negocio como recuperación de carritos, primera compra, recompra, reactivación, recomendaciones de producto, reseñas, seguimiento de pedidos y soporte.
+Los playbooks son sistemas repetibles para misiones de negocio como recuperación de carritos, primera compra, recompra, reactivación, recomendaciones de producto, reseñas, seguimiento de pedidos, solicitudes de cancelación y soporte.
 
 Un playbook puede ser una misión preconstruida, un agente de IA, una ruta, una campaña o una captura según el trabajo que realiza.
 
@@ -93,5 +93,6 @@ Si eres nuevo en Hellotext, empieza en este orden:
 - [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [Playbook Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %})
 - [Playbook Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %})
+- [Playbook Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %})
 - [Resumen de configuración]({% link _integrations/setup-overview.md %})
 - [Resumen de inbox y conversaciones]({% link _team/inbox-overview.md %})

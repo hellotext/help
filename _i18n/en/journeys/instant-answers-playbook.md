@@ -41,6 +41,8 @@ Use [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}) when
 
 Use [Return & Exchange Helper]({% link _journeys/return-and-exchange-helper-playbook.md %}) when your account has that playbook available and the customer needs a returns or exchanges flow, not only a policy explanation.
 
+Use [Order Cancellation Assistant]({% link _journeys/order-cancellation-assistant-playbook.md %}) when your account has that playbook available and the customer needs help requesting a cancellation, not only a policy explanation.
+
 Use a [Custom Agent]({% link _journeys/custom-agent-playbook.md %}) when you need custom intents, a narrow specialist agent, external actions, or a support mission that is too specific for the prebuilt playbook.
 
 Use a [journey route]({% link _journeys/getting-started-with-journeys.md %}) when the experience must follow visible steps, waits, questions, branches, and assignments.
@@ -166,6 +168,7 @@ Tune one thing at a time: knowledge, channel selection, tone, handoff target, or
 - [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %})
 - [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
 - [Return & Exchange Helper playbook]({% link _journeys/return-and-exchange-helper-playbook.md %})
+- [Order Cancellation Assistant playbook]({% link _journeys/order-cancellation-assistant-playbook.md %})
 - [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %})
 - [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %})
 - [Inbox and conversations overview]({% link _team/inbox-overview.md %})

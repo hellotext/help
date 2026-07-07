@@ -67,7 +67,7 @@ Sigue leyendo:
 
 ## 6. Lanza un primer playbook, ruta o campaña enfocado
 
-Elige un primer objetivo antes de ampliar: recuperar carritos abandonados, hacer seguimiento post-compra, responder preguntas frecuentes con [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}), guiar cambios o devoluciones con [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}), captar suscriptores o enviar un anuncio puntual.
+Elige un primer objetivo antes de ampliar: recuperar carritos abandonados, hacer seguimiento post-compra, responder preguntas frecuentes con [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}), guiar cambios o devoluciones con [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}), guiar solicitudes de cancelación con [Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %}), captar suscriptores o enviar un anuncio puntual.
 
 Usa un playbook preconstruido cuando la misión ya existe. Usa una ruta cuando necesitas un flujo paso a paso predecible. Usa una campaña cuando necesitas un envío puntual a una audiencia seleccionada.
 

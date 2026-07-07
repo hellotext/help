@@ -32,7 +32,7 @@ Use Webchat Widget when:
 - You want conversations to land in the Inbox with the right team process.
 - You want to offer WhatsApp continuation after the visitor starts on the site.
 
-It is especially useful when paired with [Instant Answers]({% link _journeys/instant-answers-playbook.md %}), [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}), [Order-Update Delight]({% link _journeys/order-update-playbook.md %}), [Return & Exchange Helper]({% link _journeys/return-and-exchange-helper-playbook.md %}), or a focused [Custom Agent]({% link _journeys/custom-agent-playbook.md %}).
+It is especially useful when paired with [Instant Answers]({% link _journeys/instant-answers-playbook.md %}), [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}), [Order-Update Delight]({% link _journeys/order-update-playbook.md %}), [Return & Exchange Helper]({% link _journeys/return-and-exchange-helper-playbook.md %}), [Order Cancellation Assistant]({% link _journeys/order-cancellation-assistant-playbook.md %}), or a focused [Custom Agent]({% link _journeys/custom-agent-playbook.md %}).
 
 ## When not to use it
 
@@ -176,7 +176,7 @@ During the first days, review:
 - Whether conversations are answered quickly enough.
 - Whether handoffs go to the right teammate, team, or WhatsApp number.
 - Whether AI playbooks answer correctly or hand off when needed.
-- Repeated questions that suggest you need [Instant Answers]({% link _journeys/instant-answers-playbook.md %}), [Return & Exchange Helper]({% link _journeys/return-and-exchange-helper-playbook.md %}), a Custom Agent, better policy content, or better site copy.
+- Repeated questions that suggest you need [Instant Answers]({% link _journeys/instant-answers-playbook.md %}), [Return & Exchange Helper]({% link _journeys/return-and-exchange-helper-playbook.md %}), [Order Cancellation Assistant]({% link _journeys/order-cancellation-assistant-playbook.md %}), a Custom Agent, better policy content, or better site copy.
 - Opt-ins, orders, attributed revenue, response health, and missed replies when relevant.
 
 Tune one part at a time: placement, trigger, delay, teaser, opening sequence, handoff, or the playbook that answers after the conversation starts.
@@ -194,5 +194,6 @@ Tune one part at a time: placement, trigger, delay, teaser, opening sequence, ha
 - [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
 - [Instant Answers playbook]({% link _journeys/instant-answers-playbook.md %})
 - [Return & Exchange Helper playbook]({% link _journeys/return-and-exchange-helper-playbook.md %})
+- [Order Cancellation Assistant playbook]({% link _journeys/order-cancellation-assistant-playbook.md %})
 - [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %})
 - [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})

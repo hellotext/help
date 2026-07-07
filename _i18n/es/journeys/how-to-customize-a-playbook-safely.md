@@ -106,7 +106,7 @@ Antes de subir o reemplazar documentos:
 
 - Elimina políticas desactualizadas, precios viejos, ofertas vencidas y FAQs duplicadas.
 - Usa nombres de archivo claros para que tu equipo sepa qué controla cada documento.
-- Mantén información de producto, orden, devolución, envío y garantía consistente con tu tienda.
+- Mantén información de producto, pedido, devolución, envío y garantía consistente con tu tienda.
 - Evita documentos que contradicen el prompt.
 - Define qué debe pasar cuando el agente no encuentra una respuesta.
 
@@ -210,6 +210,7 @@ Si los resultados se mueven en la dirección equivocada, revierte primero el cam
 - [Playbook Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %})
 - [Playbook Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
 - [Playbook Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %})
+- [Playbook Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %})
 - [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
 - [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [Qué son las señales]({% link _journeys/what-are-signals.md %})

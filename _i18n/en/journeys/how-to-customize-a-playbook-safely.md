@@ -210,6 +210,7 @@ If results move in the wrong direction, revert the smallest change first.
 - [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %})
 - [Instant Answers playbook]({% link _journeys/instant-answers-playbook.md %})
 - [Return & Exchange Helper playbook]({% link _journeys/return-and-exchange-helper-playbook.md %})
+- [Order Cancellation Assistant playbook]({% link _journeys/order-cancellation-assistant-playbook.md %})
 - [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %})
 - [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [What are signals?]({% link _journeys/what-are-signals.md %})
