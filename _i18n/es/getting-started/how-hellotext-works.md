@@ -28,7 +28,8 @@ Buenos casos para playbooks incluyen:
 - Hacer seguimiento después de una compra.
 - Reactivar clientes.
 - Recopilar reseñas o feedback.
-- Responder preguntas frecuentes con un agente de IA.
+- Responder preguntas frecuentes con [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}) u otro agente de IA.
+- Guiar solicitudes de cambio o devolución con [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}).
 
 Un playbook puede ser una misión preconstruida, un agente de IA, una ruta, una captura o incluso un flujo parecido a campaña según el trabajo que realiza.
 
@@ -114,3 +115,4 @@ Si no estás seguro, empieza más pequeño. Elige un objetivo, un canal, una aud
 - [Resumen de inbox y conversaciones]({% link _team/inbox-overview.md %})
 - [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
+- [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})

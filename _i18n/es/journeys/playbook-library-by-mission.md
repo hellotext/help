@@ -93,8 +93,8 @@ Opciones comunes incluyen:
 - **Generador de Reseñas:** recopila reseñas o contenido generado por clientes después de la compra.
 - **Pulso NPS:** mide lealtad en el momento adecuado.
 - **Pulso de Satisfacción:** mide satisfacción después de interacciones de soporte o IA.
-- **Respuestas Instantáneas:** responde preguntas frecuentes con un agente de soporte con IA.
-- **Asistente de Cambios y Devoluciones:** ayuda a clientes con cambios o devoluciones.
+- **[Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}):** responde preguntas frecuentes con un agente de soporte con IA.
+- **[Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}):** ayuda a clientes con cambios o devoluciones.
 - **Asistente de Cancelación de Pedidos:** ayuda a cancelar pedidos o salvar la venta por chat.
 
 Estos playbooks normalmente dependen de datos de orden, contenido de políticas, documentos cargados, reglas claras de derivación y ownership del Inbox.
@@ -130,7 +130,7 @@ Si no sabes por dónde empezar, elige la misión que coincide con el primer cuel
 | Los compradores no vuelven | Impulsor de Recompra, Reactivación Suave o Impulsor de Ventas Cruzadas |
 | Los clientes quedaron fríos | Reactivación de Inactivos o Último Intento |
 | Tienes un anuncio con fecha | Envío clásico, Campaña Estacional, Adelanto de Lanzamiento o Liquidación Final |
-| El soporte es repetitivo | Respuestas Instantáneas, [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}), Asistente de Cambios y Devoluciones o Pulso CSAT/NPS |
+| El soporte es repetitivo | [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}), [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}), [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}) o Pulso CSAT/NPS |
 | Tu proceso es único | Constructor de Rutas o [Agente Personalizado]({% link _journeys/custom-agent-playbook.md %}) |
 
 Elige una misión, una audiencia y un canal para el primer lanzamiento. Ampliar es más fácil después de que el primer playbook confirma que los datos, timing, canal y camino de derivación funcionan.
@@ -157,6 +157,8 @@ Sigue leyendo:
 - [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
 - [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
+- [Playbook Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
+- [Playbook Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %})
 - [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
 - [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})

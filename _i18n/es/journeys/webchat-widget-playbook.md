@@ -32,7 +32,7 @@ Usa Widget de Webchat cuando:
 - Quieres que las conversaciones lleguen al Inbox con el proceso correcto del equipo.
 - Quieres ofrecer continuidad por WhatsApp después de que la persona empieza en el sitio.
 
-Es especialmente útil combinado con playbooks de atención, [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}), [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}) o un [Agente Personalizado]({% link _journeys/custom-agent-playbook.md %}) enfocado.
+Es especialmente útil combinado con [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}), [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}), [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}), [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}) o un [Agente Personalizado]({% link _journeys/custom-agent-playbook.md %}) enfocado.
 
 ## Cuándo no usarlo
 
@@ -176,7 +176,7 @@ Durante los primeros días, revisa:
 - Si las conversaciones se responden suficientemente rápido.
 - Si las derivaciones llegan a la persona, equipo o número de WhatsApp correcto.
 - Si los playbooks con IA responden correctamente o derivan cuando corresponde.
-- Preguntas repetidas que sugieren crear Respuestas Instantáneas, un Agente Personalizado, mejor contenido de políticas o mejor copy en el sitio.
+- Preguntas repetidas que sugieren crear [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}), [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}), un Agente Personalizado, mejor contenido de políticas o mejor copy en el sitio.
 - Opt-ins, órdenes, ingresos atribuidos, salud de respuesta y respuestas perdidas cuando aplique.
 
 Ajusta una parte por vez: ubicación, disparador, demora, teaser, secuencia inicial, derivación o el playbook que responde después de que empieza la conversación.
@@ -192,5 +192,7 @@ Ajusta una parte por vez: ubicación, disparador, demora, teaser, secuencia inic
 - [Tiempo de respuesta y reglas de respuesta]({% link _team/understanding-response-times.md %})
 - [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
 - [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
+- [Playbook Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
+- [Playbook Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %})
 - [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})

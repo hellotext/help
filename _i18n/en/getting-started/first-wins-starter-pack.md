@@ -62,9 +62,9 @@ Start here if your team answers the same questions repeatedly.
 
 Useful options can include:
 
-- Instant Answers for frequent questions.
+- [Instant Answers]({% link _journeys/instant-answers-playbook.md %}) for frequent questions.
 - [Order-Update Delight]({% link _journeys/order-update-playbook.md %}) when customers often ask where their order is.
-- Returns or exchange help when your policy is clear enough to automate parts of the conversation.
+- [Return & Exchange Helper]({% link _journeys/return-and-exchange-helper-playbook.md %}) when your policy is clear enough to automate parts of the conversation.
 - Inbox assignment and response rules when humans still need to own replies.
 
 Expected win: faster answers, cleaner handoffs, and fewer repetitive tickets for your team.
@@ -118,6 +118,8 @@ Keep reading: [Measure success in your first 7 days]({% link _getting-started/me
 - [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %})
 - [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
+- [Instant Answers playbook]({% link _journeys/instant-answers-playbook.md %})
+- [Return & Exchange Helper playbook]({% link _journeys/return-and-exchange-helper-playbook.md %})
 - [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %})
 - [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})
 - [Capture tools overview]({% link _captures/capture-overview.md %})

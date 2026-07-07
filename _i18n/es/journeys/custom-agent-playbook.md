@@ -41,6 +41,8 @@ Usa un playbook preconstruido cuando la misión ya existe. Por ejemplo:
 
 - Usa [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) para descubrimiento y recomendación de productos.
 - Usa [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}) para estado de pedidos y envíos.
+- Usa [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}) para preguntas comunes de soporte que pueden responderse con conocimiento aprobado.
+- Usa [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}) para soporte guiado de cambios o devoluciones cuando la misión preconstruida encaja.
 - Usa [Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}) o [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) para recuperar carritos abandonados.
 
 Usa una [ruta]({% link _journeys/getting-started-with-journeys.md %}) cuando la experiencia debe seguir pasos explícitos, esperas, preguntas, condiciones, asignaciones y ramas.
@@ -189,6 +191,8 @@ Ajusta una cosa por vez: texto de intención, prompt, conocimiento cargado, siti
 - [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
 - [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Playbook Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
+- [Playbook Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %})
 - [Cómo escribir un gran prompt para tu agente]({% link _journeys/how-to-write-a-great-prompt.md %})
 - [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})

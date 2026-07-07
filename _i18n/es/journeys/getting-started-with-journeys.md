@@ -2,7 +2,7 @@ Usa una ruta cuando quieres un flujo de clientes paso a paso con un disparador c
 
 Una ruta es un tipo de playbook. No todos los playbooks son rutas.
 
-Algunos playbooks son más autónomos: por ejemplo, [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}), soporte post-compra o un agente de preguntas frecuentes pueden leer señales, entender intención y decidir qué hacer en la conversación. Esos playbooks pueden usar agentes de IA o lógica de decisión en lugar de una ruta fija.
+Algunos playbooks son más autónomos: por ejemplo, [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}), [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}), [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}) o [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}) pueden leer señales, entender intención y decidir qué hacer en la conversación. Esos playbooks pueden usar agentes de IA o lógica de decisión en lugar de una ruta fija.
 
 ## Cuándo usar una ruta
 
@@ -28,7 +28,8 @@ Usa un playbook más autónomo o un agente de IA cuando la experiencia necesita 
 Ejemplos:
 
 - Recomendar productos desde un catálogo.
-- Responder preguntas frecuentes.
+- Responder preguntas frecuentes con [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}).
+- Guiar soporte de pedidos, cambios o devoluciones con el playbook post-compra correcto.
 - Entender el mensaje de un cliente y elegir la siguiente respuesta.
 - Decidir qué oferta, producto, canal o momento es mejor para cada cliente.
 - Coordinarse con otros playbooks para no saturar a los clientes.

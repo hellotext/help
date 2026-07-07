@@ -28,7 +28,8 @@ Good playbook use cases include:
 - Following up after purchase.
 - Reactivating customers.
 - Collecting reviews or feedback.
-- Answering frequent questions with an AI agent.
+- Answering frequent questions with [Instant Answers]({% link _journeys/instant-answers-playbook.md %}) or another AI agent.
+- Guiding return or exchange requests with [Return & Exchange Helper]({% link _journeys/return-and-exchange-helper-playbook.md %}).
 
 A playbook can be a prebuilt mission, an AI agent, a route, a capture, or even a campaign-like workflow depending on the job it performs.
 
@@ -114,3 +115,4 @@ If you are unsure, start smaller. Choose one goal, one channel, one audience, an
 - [Inbox and conversations overview]({% link _team/inbox-overview.md %})
 - [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [Choose your first playbook]({% link _journeys/choose-your-first-playbook.md %})
+- [Playbook library by mission]({% link _journeys/playbook-library-by-mission.md %})

@@ -32,7 +32,7 @@ It is a good fit when:
 - Your team wants AI to answer common shopping questions before handing off.
 - You want product recommendations to happen from channels such as WhatsApp, Webchat, Instagram DM, or SMS when supported.
 
-Do not use Smart Recommender as the only source of truth for order status, delivery incidents, complaints, refunds, or final return and exchange decisions. Those cases should go to the right support playbook or to the Inbox.
+Do not use Smart Recommender as the only source of truth for order status, delivery incidents, complaints, refunds, or final return and exchange decisions. Use [Order-Update Delight]({% link _journeys/order-update-playbook.md %}) for order status, [Return & Exchange Helper]({% link _journeys/return-and-exchange-helper-playbook.md %}) for guided return or exchange help, and the Inbox when a person needs to decide.
 
 ## What it needs before launch
 
@@ -143,6 +143,8 @@ Tune one thing at a time: prompt, knowledge documents, channel selection, handof
 - [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [How to write a great agent prompt]({% link _journeys/how-to-write-a-great-prompt.md %})
 - [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %})
+- [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
+- [Return & Exchange Helper playbook]({% link _journeys/return-and-exchange-helper-playbook.md %})
 - [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})
 - [Connect your catalog to WhatsApp]({% link _integrations/connect-catalog-to-whatsapp.md %})
 - [WhatsApp channel fundamentals]({% link _numbers/whatsapp-channel-fundamentals.md %})
