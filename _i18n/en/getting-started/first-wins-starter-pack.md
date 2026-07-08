@@ -79,6 +79,8 @@ Use [Review Builder]({% link _journeys/review-builder-playbook.md %}) when you a
 
 Use [NPS Pulse]({% link _journeys/nps-pulse-playbook.md %}) when you want to measure whether customers would recommend the brand after a delivered order.
 
+If you also use [CSAT Pulse]({% link _journeys/csat-pulse-playbook.md %}), keep the feedback moments separate: Review Builder is for product reviews, NPS Pulse is for loyalty after a delivery experience, and CSAT Pulse is for satisfaction after resolved conversations.
+
 Expected win: learn which products and delivery experiences create strong feedback, which customers need recovery, and which feedback records can guide future improvements.
 
 If you have one clear audience, one message, and one planned send time, use a campaign instead.

@@ -79,6 +79,8 @@ Usa [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) cua
 
 Usa [Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}) cuando quieres medir si los clientes recomendarían la marca después de un pedido entregado.
 
+Si también usas [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}), mantén separados los momentos de feedback: Generador de Reseñas es para reseñas de producto, Pulso NPS es para lealtad después de una experiencia de entrega y Pulso CSAT es para satisfacción después de conversaciones resueltas.
+
 Logro esperado: entender qué productos y experiencias de entrega generan buen feedback, qué clientes necesitan recuperación y qué registros pueden guiar mejoras futuras.
 
 Si tienes una audiencia clara, un mensaje y un momento de envío planificado, usa una campaña.

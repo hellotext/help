@@ -34,9 +34,11 @@ Usa Generador de Reseñas cuando:
 
 Funciona mejor cuando los clientes tuvieron suficiente tiempo para recibir y probar el producto antes de que llegue el mensaje.
 
-## Cuándo no usarlo
+## Cómo convive con otros feedbacks
 
-No uses Generador de Reseñas como reemplazo de todos los flujos de feedback.
+Generador de Reseñas no reemplaza los demás playbooks de feedback. Puedes tener [Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}) y [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}) activos junto con Generador de Reseñas cuando cada uno tiene sus señales y responsables claros.
+
+El motor de decisión de Hellotext los trata como momentos de feedback distintos. Generador de Reseñas pide reseñas de producto después de la entrega, Pulso NPS mide lealtad de relación después de una experiencia de entrega y Pulso CSAT mide satisfacción después de una conversación resuelta.
 
 Usa [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}) cuando quieres medir satisfacción después de una interacción de soporte, Inbox o IA.
 

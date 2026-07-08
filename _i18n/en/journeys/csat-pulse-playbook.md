@@ -33,9 +33,11 @@ Use CSAT Pulse when:
 
 It works best after an actual resolution event. If the customer never had a meaningful interaction, do not send a CSAT prompt.
 
-## When not to use it
+## How it works with other feedback
 
-Do not use CSAT Pulse for every kind of feedback.
+CSAT Pulse does not replace the other feedback playbooks. You can have [Review Builder]({% link _journeys/review-builder-playbook.md %}) and [NPS Pulse]({% link _journeys/nps-pulse-playbook.md %}) active alongside CSAT Pulse when each one has the right signal and follow-up owner.
+
+Hellotext's decision engine treats them as different feedback moments. CSAT Pulse asks after a resolved conversation, Review Builder asks for product reviews after delivery, and NPS Pulse measures relationship loyalty after a delivery experience.
 
 Use [Review Builder]({% link _journeys/review-builder-playbook.md %}) when the goal is to collect a product rating and written review after delivery.
 
@@ -76,7 +78,7 @@ Avoid asking multiple questions at once. CSAT works best when the first response
 
 The trigger is **on resolved**: CSAT Pulse sends after a conversation is marked resolved or closed.
 
-Do not use CSAT Pulse as a replacement for post-delivery product review timing. If the timing is based on delivered products, use [Review Builder]({% link _journeys/review-builder-playbook.md %}) instead.
+If the timing is based on delivered products instead of a resolved conversation, that is a [Review Builder]({% link _journeys/review-builder-playbook.md %}) moment.
 
 ## Understand eligibility
 

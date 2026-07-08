@@ -41,7 +41,9 @@ After you choose the first option to launch, follow [How to enable a playbook]({
 
 Choose one first outcome, one channel, and one audience.
 
-For a first launch, avoid enabling several revenue playbooks at the same time. If multiple playbooks can act on the same customer, it becomes harder to understand what worked, what annoyed customers, and what should change.
+For a first launch, avoid enabling several revenue playbooks for the same audience at the same time. If multiple playbooks can act on the same customer for the same kind of moment, it becomes harder to understand what worked, what annoyed customers, and what should change.
+
+Feedback playbooks are a little different because they listen for different moments. [Review Builder]({% link _journeys/review-builder-playbook.md %}), [NPS Pulse]({% link _journeys/nps-pulse-playbook.md %}), and [CSAT Pulse]({% link _journeys/csat-pulse-playbook.md %}) can run together when delivery signals, resolved-conversation signals, and follow-up ownership are clear.
 
 Good first launches are usually narrow:
 

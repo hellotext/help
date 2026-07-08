@@ -33,9 +33,11 @@ Usa Pulso CSAT cuando:
 
 Funciona mejor después de un evento real de resolución. Si el cliente nunca tuvo una interacción significativa, no envíes una pregunta CSAT.
 
-## Cuándo no usarlo
+## Cómo convive con otros feedbacks
 
-No uses Pulso CSAT para todos los tipos de feedback.
+Pulso CSAT no reemplaza los demás playbooks de feedback. Puedes tener [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) y [Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}) activos junto con Pulso CSAT cuando cada uno tiene su señal y responsable de seguimiento.
+
+El motor de decisión de Hellotext los trata como momentos de feedback distintos. Pulso CSAT pregunta después de una conversación resuelta, Generador de Reseñas pide reseñas de producto después de la entrega y Pulso NPS mide lealtad de relación después de una experiencia de entrega.
 
 Usa [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) cuando el objetivo es recopilar una calificación de producto y una reseña escrita después de la entrega.
 
@@ -76,7 +78,7 @@ Evita hacer varias preguntas a la vez. CSAT funciona mejor cuando la primera res
 
 El disparador es **al resolver**: Pulso CSAT envía después de que una conversación se marca como resuelta o cerrada.
 
-No uses Pulso CSAT como reemplazo del timing de reseñas de producto después de entrega. Si el timing depende de productos entregados, usa [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}).
+Si el timing depende de productos entregados en lugar de una conversación resuelta, ese es un momento de [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}).
 
 ## Entiende elegibilidad
 

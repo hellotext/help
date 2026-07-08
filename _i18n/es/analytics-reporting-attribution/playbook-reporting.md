@@ -14,6 +14,8 @@ Usa el **Inbox** y el historial de conversaciones cuando necesitas entender por 
 
 Usa un reporte específico del playbook cuando el playbook recopila su propio resultado, como reseñas de productos desde [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}), puntajes de lealtad desde [Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}) o respuestas de satisfacción desde [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}).
 
+Cuando revises playbooks de feedback juntos, mantén separados sus resultados. Generador de Reseñas explica feedback a nivel producto, Pulso CSAT explica si una conversación resuelta funcionó y Pulso NPS explica lealtad de relación después de una experiencia de entrega.
+
 Antes de comparar resultados, elige el rango de fechas correcto y confirma que el playbook tuvo suficiente tráfico para aprender algo.
 
 ## Revisa ingresos de playbooks

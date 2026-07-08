@@ -57,7 +57,7 @@ For SMS playbooks, make sure your account has an active sender or short code ava
 - Conditions and branches send people down the right path.
 - Coupons, links, tags, and product recommendations are working.
 - Human handoff rules are clear when a conversation should leave the route or agent.
-- Frequency, consent, and quiet-hour limits are clear so playbooks do not compete for the same customer.
+- Frequency, consent, and quiet-hour limits are clear so playbooks do not compete for the same customer in the same moment.
 
 ## Keep improving after launch
 

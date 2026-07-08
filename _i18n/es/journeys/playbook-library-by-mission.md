@@ -97,6 +97,8 @@ Opciones comunes incluyen:
 - **[Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}):** ayuda a clientes con cambios o devoluciones.
 - **[Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %}):** ayuda a pedir cancelaciones de pedidos o salvar la venta por chat.
 
+Generador de Reseñas, Pulso NPS y Pulso CSAT pueden estar activos juntos cuando los momentos de base son distintos: reseña de producto después de la entrega, lealtad después de una experiencia de entrega y satisfacción después de una conversación resuelta.
+
 Estos playbooks normalmente dependen de datos de pedido, contenido de políticas, documentos cargados, reglas claras de derivación y responsables claros en Inbox.
 
 Sigue leyendo: [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %}).

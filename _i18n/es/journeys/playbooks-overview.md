@@ -57,7 +57,7 @@ Para playbooks de SMS, asegúrate de que tu cuenta tenga un remitente activo o c
 - Las condiciones y ramas envían a cada persona por el camino correcto.
 - Los cupones, links, etiquetas y recomendaciones de producto funcionan.
 - Las reglas de derivación humana son claras para cuando una conversación debe salir de la ruta o del agente.
-- Los límites de frecuencia, consentimiento y horarios silenciosos están claros para que los playbooks no compitan por el mismo cliente.
+- Los límites de frecuencia, consentimiento y horarios silenciosos están claros para que los playbooks no compitan por el mismo cliente en el mismo momento.
 
 ## Mejora después del lanzamiento
 

@@ -34,9 +34,11 @@ Use Review Builder when:
 
 It works best when customers have had enough time to receive and try the product before the message arrives.
 
-## When not to use it
+## How it works with other feedback
 
-Do not use Review Builder as a replacement for every feedback workflow.
+Review Builder does not replace the other feedback playbooks. You can have [NPS Pulse]({% link _journeys/nps-pulse-playbook.md %}) and [CSAT Pulse]({% link _journeys/csat-pulse-playbook.md %}) active alongside Review Builder when each one has the right signals and ownership.
+
+Hellotext's decision engine treats them as different feedback moments. Review Builder asks for product reviews after delivery, NPS Pulse measures relationship loyalty after a delivery experience, and CSAT Pulse measures satisfaction after a resolved conversation.
 
 Use [CSAT Pulse]({% link _journeys/csat-pulse-playbook.md %}) when you want to measure satisfaction after a support, Inbox, or AI interaction.
 

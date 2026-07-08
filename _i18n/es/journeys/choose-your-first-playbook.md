@@ -41,7 +41,9 @@ Después de elegir la primera opción para lanzar, sigue [Cómo habilitar un pla
 
 Elige un primer objetivo, un canal y una audiencia.
 
-Para un primer lanzamiento, evita habilitar varios playbooks de ingresos al mismo tiempo. Si varios playbooks pueden actuar sobre el mismo cliente, se vuelve más difícil entender qué funcionó, qué molestó a los clientes y qué debería cambiar.
+Para un primer lanzamiento, evita habilitar varios playbooks de ingresos para la misma audiencia al mismo tiempo. Si varios playbooks pueden actuar sobre el mismo cliente para el mismo tipo de momento, se vuelve más difícil entender qué funcionó, qué molestó a los clientes y qué debería cambiar.
+
+Los playbooks de feedback son un poco distintos porque escuchan momentos diferentes. [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}), [Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}) y [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}) pueden convivir cuando las señales de entrega, las señales de conversación resuelta y los responsables de seguimiento están claros.
 
 Los buenos primeros lanzamientos suelen ser acotados:
 

@@ -97,6 +97,8 @@ Common options include:
 - **[Return & Exchange Helper]({% link _journeys/return-and-exchange-helper-playbook.md %}):** help customers with returns or exchanges.
 - **[Order Cancellation Assistant]({% link _journeys/order-cancellation-assistant-playbook.md %}):** help customers request order cancellations or save the sale in chat.
 
+Review Builder, NPS Pulse, and CSAT Pulse can be active together when the underlying moments are different: product review after delivery, loyalty after a delivery experience, and satisfaction after a resolved conversation.
+
 These playbooks usually depend on order data, policy content, uploaded documents, clear handoff rules, and Inbox ownership.
 
 Keep reading: [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %}).

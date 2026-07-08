@@ -14,6 +14,8 @@ Use the **Inbox** and conversation history when you need to understand why a pla
 
 Use a playbook-specific report when the playbook collects its own outcome, such as product reviews from [Review Builder]({% link _journeys/review-builder-playbook.md %}), loyalty scores from [NPS Pulse]({% link _journeys/nps-pulse-playbook.md %}), or satisfaction responses from [CSAT Pulse]({% link _journeys/csat-pulse-playbook.md %}).
 
+When you review feedback playbooks together, keep their outcomes separate. Review Builder explains product-level feedback, CSAT Pulse explains whether a resolved conversation worked, and NPS Pulse explains broader relationship loyalty after a delivery experience.
+
 Before comparing results, choose the right date range and confirm that the playbook had enough traffic to learn from.
 
 ## Review revenue from playbooks
