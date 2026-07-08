@@ -12,6 +12,8 @@ Usa el reporte de **Performance** cuando quieres comparar tasa de conversión, t
 
 Usa el **Inbox** y el historial de conversaciones cuando necesitas entender por qué un playbook derivó, qué preguntó el cliente y si la derivación le dio suficiente contexto al equipo.
 
+Usa un reporte específico del playbook cuando el playbook recopila su propio resultado, como reseñas de productos desde [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}).
+
 Antes de comparar resultados, elige el rango de fechas correcto y confirma que el playbook tuvo suficiente tráfico para aprender algo.
 
 ## Revisa ingresos de playbooks
@@ -87,8 +89,9 @@ Usa el patrón que ves para decidir qué revisar después.
 | Mensajes entregados pero pocas conversiones | Timing, oferta, claridad del mensaje, relevancia del producto y si la audiencia es demasiado amplia. |
 | Muchas conversaciones no resueltas | Prompt del agente, documentos cargados, datos de producto, políticas y reglas de derivación. |
 | Mucho ingreso impulsado por humanos | Si la derivación es esperada y si el playbook debería responder más antes de derivar. |
-| Ingresos atribuidos faltantes | Tracking, links, eventos de órdenes, ventanas de atribución y si otro canal recibió crédito por last-click. |
+| Ingresos atribuidos faltantes | Tracking, links, eventos de pedidos, ventanas de atribución y si otro canal recibió crédito por last-click. |
 | Muchas bajas o respuestas negativas | Calidad de audiencia, consentimiento, frecuencia, tono y relevancia de la oferta. |
+| Poca recopilación de reseñas | Señales de pedido entregado, timing de solicitud, separación entre productos, soporte del canal y si las calificaciones bajas se manejan correctamente. |
 
 Si faltan señales o actividad, usa [Soluciona señales o actividad faltante]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %}) antes de juzgar el playbook.
 
@@ -100,7 +103,7 @@ Mejoras comunes:
 
 - Acotar la audiencia o disparador.
 - Mejorar el prompt o conocimiento cargado para un agente de IA.
-- Sumar datos faltantes de producto, políticas, órdenes o perfil de cliente.
+- Sumar datos faltantes de producto, políticas, pedidos o perfil de cliente.
 - Ajustar esperas, condiciones o ramas de la ruta.
 - Cambiar el mensaje, oferta o lógica de recomendación.
 - Actualizar reglas de derivación para que la conversación llegue a la persona o equipo correcto.
@@ -114,6 +117,7 @@ Después de cambiar un playbook, dale suficiente tiempo y tráfico antes de comp
 - [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
 - [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
+- [Playbook Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})
 - [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [Reportes de campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %})
 - [Atribución de ventas]({% link _analytics-reporting-attribution/sales-attribution.md %})

@@ -2,7 +2,7 @@ Hellotext helps commerce teams decide what should happen next for each customer.
 
 It reads customer and business signals, uses playbooks to choose the right next action, and executes that action through messaging channels, the Inbox, campaigns, routes, or AI agents.
 
-Use Hellotext to recover carts, recommend products, answer frequent questions with [Instant Answers]({% link _journeys/instant-answers-playbook.md %}), guide returns, exchanges, and cancellation requests, follow up after purchase, reactivate customers, collect subscribers, and measure the revenue connected to those actions.
+Use Hellotext to recover carts, recommend products, answer frequent questions with [Instant Answers]({% link _journeys/instant-answers-playbook.md %}), guide returns, exchanges, and cancellation requests, collect product reviews, follow up after purchase, reactivate customers, collect subscribers, and measure the revenue connected to those actions.
 
 ## The short version
 
@@ -92,6 +92,7 @@ If you are new to Hellotext, start in this order:
 - [Playbooks and automation overview]({% link _journeys/playbooks-overview.md %})
 - [Choose your first playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %})
+- [Review Builder playbook]({% link _journeys/review-builder-playbook.md %})
 - [Return & Exchange Helper playbook]({% link _journeys/return-and-exchange-helper-playbook.md %})
 - [Order Cancellation Assistant playbook]({% link _journeys/order-cancellation-assistant-playbook.md %})
 - [Setup overview]({% link _integrations/setup-overview.md %})

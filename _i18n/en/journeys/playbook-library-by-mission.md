@@ -90,7 +90,7 @@ Start here when the goal is to answer questions, reduce repetitive support work,
 Common options include:
 
 - **[Order-Update Delight]({% link _journeys/order-update-playbook.md %}):** send order updates and answer order-status questions.
-- **Review Builder:** collect reviews or user-generated content after purchase.
+- **[Review Builder]({% link _journeys/review-builder-playbook.md %}):** collect product reviews after delivery.
 - **NPS Pulse:** measure loyalty at the right moment.
 - **CSAT Pulse:** measure satisfaction after support or AI interactions.
 - **[Instant Answers]({% link _journeys/instant-answers-playbook.md %}):** answer common questions with an AI support agent.
@@ -131,6 +131,7 @@ If you are unsure where to start, choose the mission that matches the first bott
 | Customers have gone cold | Dormant Revival or Sunset Saver |
 | You have a timed announcement | Classic Broadcast, Holiday Hype, Launch Teaser, or Clearance Clean-out |
 | Support work is repetitive | [Instant Answers]({% link _journeys/instant-answers-playbook.md %}), [Order-Update Delight]({% link _journeys/order-update-playbook.md %}), [Return & Exchange Helper]({% link _journeys/return-and-exchange-helper-playbook.md %}), [Order Cancellation Assistant]({% link _journeys/order-cancellation-assistant-playbook.md %}), or CSAT/NPS Pulse |
+| You need product reviews | [Review Builder]({% link _journeys/review-builder-playbook.md %}) |
 | Your process is unique | Journey Builder or [Custom Agent]({% link _journeys/custom-agent-playbook.md %}) |
 
 Choose one mission, one audience, and one channel for the first launch. Expanding is easier after the first playbook proves that the data, timing, channel, and handoff path are working.
@@ -157,6 +158,7 @@ Keep reading:
 - [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %})
 - [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
+- [Review Builder playbook]({% link _journeys/review-builder-playbook.md %})
 - [Instant Answers playbook]({% link _journeys/instant-answers-playbook.md %})
 - [Return & Exchange Helper playbook]({% link _journeys/return-and-exchange-helper-playbook.md %})
 - [Order Cancellation Assistant playbook]({% link _journeys/order-cancellation-assistant-playbook.md %})

@@ -145,6 +145,7 @@ Use what you learn to tune the prompt, intents, playbook rules, journey branches
 - [Response times and response rules]({% link _team/understanding-response-times.md %})
 - [How Hellotext works]({% link _getting-started/how-hellotext-works.md %})
 - [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
+- [Review Builder playbook]({% link _journeys/review-builder-playbook.md %})
 - [Order Cancellation Assistant playbook]({% link _journeys/order-cancellation-assistant-playbook.md %})
 - [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %})
 - [How to write a great agent prompt]({% link _journeys/how-to-write-a-great-prompt.md %})

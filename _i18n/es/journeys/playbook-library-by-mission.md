@@ -89,15 +89,15 @@ Empieza acá cuando el objetivo es responder preguntas, reducir trabajo repetiti
 
 Opciones comunes incluyen:
 
-- **[Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}):** envía actualizaciones de orden y responde preguntas de estado de pedido.
-- **Generador de Reseñas:** recopila reseñas o contenido generado por clientes después de la compra.
+- **[Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}):** envía actualizaciones de pedido y responde preguntas de estado de pedido.
+- **[Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}):** recopila reseñas de productos después de la entrega.
 - **Pulso NPS:** mide lealtad en el momento adecuado.
 - **Pulso de Satisfacción:** mide satisfacción después de interacciones de soporte o IA.
 - **[Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}):** responde preguntas frecuentes con un agente de soporte con IA.
 - **[Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}):** ayuda a clientes con cambios o devoluciones.
 - **[Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %}):** ayuda a pedir cancelaciones de pedidos o salvar la venta por chat.
 
-Estos playbooks normalmente dependen de datos de orden, contenido de políticas, documentos cargados, reglas claras de derivación y responsables claros en Inbox.
+Estos playbooks normalmente dependen de datos de pedido, contenido de políticas, documentos cargados, reglas claras de derivación y responsables claros en Inbox.
 
 Sigue leyendo: [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %}).
 
@@ -131,6 +131,7 @@ Si no sabes por dónde empezar, elige la misión que coincide con el primer cuel
 | Los clientes quedaron fríos | Reactivación de Inactivos o Último Intento |
 | Tienes un anuncio con fecha | Envío clásico, Campaña Estacional, Adelanto de Lanzamiento o Liquidación Final |
 | El soporte es repetitivo | [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}), [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}), [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}), [Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %}) o Pulso CSAT/NPS |
+| Necesitas reseñas de productos | [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) |
 | Tu proceso es único | Constructor de Rutas o [Agente Personalizado]({% link _journeys/custom-agent-playbook.md %}) |
 
 Elige una misión, una audiencia y un canal para el primer lanzamiento. Ampliar es más fácil después de que el primer playbook confirma que los datos, timing, canal y camino de derivación funcionan.
@@ -142,7 +143,7 @@ Confirma:
 - Las señales requeridas existen en los perfiles del cliente.
 - La audiencia es elegible y tiene consentimiento para el canal.
 - El canal, remitente o cuenta de WhatsApp está listo.
-- Los datos de producto, carrito, orden, catálogo o políticas están disponibles cuando hacen falta.
+- Los datos de producto, carrito, pedido, catálogo o políticas están disponibles cuando hacen falta.
 - Mensajes, plantillas, links, descuentos y recomendaciones fueron probados.
 - Los caminos de derivación o asignación están claros.
 - Reportes y atribución están listos para la primera revisión.
@@ -157,6 +158,7 @@ Sigue leyendo:
 - [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
 - [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
+- [Playbook Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})
 - [Playbook Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
 - [Playbook Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %})
 - [Playbook Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %})

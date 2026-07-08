@@ -143,6 +143,7 @@ For a safer editing process, keep reading: [How to customize a playbook safely](
 - [Playbook library by mission]({% link _journeys/playbook-library-by-mission.md %})
 - [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %})
 - [Instant Answers playbook]({% link _journeys/instant-answers-playbook.md %})
+- [Review Builder playbook]({% link _journeys/review-builder-playbook.md %})
 - [Return & Exchange Helper playbook]({% link _journeys/return-and-exchange-helper-playbook.md %})
 - [Order Cancellation Assistant playbook]({% link _journeys/order-cancellation-assistant-playbook.md %})
 - [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %})

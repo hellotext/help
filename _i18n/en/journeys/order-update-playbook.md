@@ -86,6 +86,8 @@ For guided return or exchange conversations that do not belong to order tracking
 
 For cancellation requests that do not belong to order tracking, use [Order Cancellation Assistant]({% link _journeys/order-cancellation-assistant-playbook.md %}) when it is available in your account.
 
+For post-delivery product review requests, use [Review Builder]({% link _journeys/review-builder-playbook.md %}) instead of turning an order-status answer into a review flow.
+
 ## Why it may not answer
 
 Order-Update Delight being enabled does not mean every support message will receive an order-status answer.
@@ -144,6 +146,7 @@ Tune one thing at a time: order data quality, channel selection, handoff target,
 - [Playbook library by mission]({% link _journeys/playbook-library-by-mission.md %})
 - [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Review Builder playbook]({% link _journeys/review-builder-playbook.md %})
 - [Instant Answers playbook]({% link _journeys/instant-answers-playbook.md %})
 - [Return & Exchange Helper playbook]({% link _journeys/return-and-exchange-helper-playbook.md %})
 - [Order Cancellation Assistant playbook]({% link _journeys/order-cancellation-assistant-playbook.md %})

@@ -86,6 +86,8 @@ Para conversaciones guiadas de cambio o devolución que no pertenecen al seguimi
 
 Para solicitudes de cancelación que no pertenecen al seguimiento de pedidos, usa [Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %}) cuando esté disponible en tu cuenta.
 
+Para pedir reseñas de producto después de la entrega, usa [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) en lugar de convertir una respuesta de seguimiento en un flujo de reseña.
+
 ## Por qué puede no responder
 
 Que Seguimiento de Pedidos esté habilitado no significa que cada mensaje de soporte recibirá una respuesta de estado de pedido.
@@ -144,6 +146,7 @@ Ajusta una cosa por vez: calidad de datos de orden, selección de canal, destino
 - [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
 - [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Playbook Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})
 - [Playbook Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
 - [Playbook Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %})
 - [Playbook Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %})
