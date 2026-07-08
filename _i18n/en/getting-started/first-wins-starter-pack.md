@@ -67,6 +67,7 @@ Useful options can include:
 - [Order-Update Delight]({% link _journeys/order-update-playbook.md %}) when customers often ask where their order is.
 - [Return & Exchange Helper]({% link _journeys/return-and-exchange-helper-playbook.md %}) when your policy is clear enough to automate parts of the conversation.
 - [Order Cancellation Assistant]({% link _journeys/order-cancellation-assistant-playbook.md %}) when cancellation requests are frequent and your rules are clear.
+- [CSAT Pulse]({% link _journeys/csat-pulse-playbook.md %}) when conversations are being resolved consistently and you want lightweight satisfaction feedback.
 - Inbox assignment and response rules when humans still need to own replies.
 
 Expected win: faster answers, cleaner handoffs, and fewer repetitive tickets for your team.
@@ -125,6 +126,7 @@ Keep reading: [Measure success in your first 7 days]({% link _getting-started/me
 - [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %})
 - [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
 - [Review Builder playbook]({% link _journeys/review-builder-playbook.md %})
+- [CSAT Pulse playbook]({% link _journeys/csat-pulse-playbook.md %})
 - [Instant Answers playbook]({% link _journeys/instant-answers-playbook.md %})
 - [Return & Exchange Helper playbook]({% link _journeys/return-and-exchange-helper-playbook.md %})
 - [Order Cancellation Assistant playbook]({% link _journeys/order-cancellation-assistant-playbook.md %})

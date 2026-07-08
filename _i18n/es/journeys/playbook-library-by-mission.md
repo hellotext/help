@@ -92,7 +92,7 @@ Opciones comunes incluyen:
 - **[Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}):** envía actualizaciones de pedido y responde preguntas de estado de pedido.
 - **[Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}):** recopila reseñas de productos después de la entrega.
 - **Pulso NPS:** mide lealtad en el momento adecuado.
-- **Pulso de Satisfacción:** mide satisfacción después de interacciones de soporte o IA.
+- **[Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}):** mide satisfacción después de interacciones de soporte, Inbox, IA o playbooks.
 - **[Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}):** responde preguntas frecuentes con un agente de soporte con IA.
 - **[Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}):** ayuda a clientes con cambios o devoluciones.
 - **[Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %}):** ayuda a pedir cancelaciones de pedidos o salvar la venta por chat.
@@ -130,7 +130,7 @@ Si no sabes por dónde empezar, elige la misión que coincide con el primer cuel
 | Los compradores no vuelven | Impulsor de Recompra, Reactivación Suave o Impulsor de Ventas Cruzadas |
 | Los clientes quedaron fríos | Reactivación de Inactivos o Último Intento |
 | Tienes un anuncio con fecha | Envío clásico, Campaña Estacional, Adelanto de Lanzamiento o Liquidación Final |
-| El soporte es repetitivo | [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}), [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}), [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}), [Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %}) o Pulso CSAT/NPS |
+| El soporte es repetitivo | [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}), [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}), [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}), [Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %}), [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}) o Pulso NPS |
 | Necesitas reseñas de productos | [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) |
 | Tu proceso es único | Constructor de Rutas o [Agente Personalizado]({% link _journeys/custom-agent-playbook.md %}) |
 
@@ -159,6 +159,7 @@ Sigue leyendo:
 - [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
 - [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
 - [Playbook Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})
+- [Playbook Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %})
 - [Playbook Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
 - [Playbook Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %})
 - [Playbook Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %})

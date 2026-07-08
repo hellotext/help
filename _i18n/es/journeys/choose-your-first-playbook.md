@@ -32,6 +32,7 @@ Después de elegir la primera opción para lanzar, sigue [Cómo habilitar un pla
 | Impulsar recompra | Un playbook de reposición, venta cruzada, cumpleaños, aniversario o reactivación suave | Necesitan suficiente historial de compras o datos de perfil para que el timing y la recomendación sean útiles. |
 | Recopilar reseñas de productos después de la entrega | [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) | Úsalo cuando los datos de entrega y producto son confiables y quieres calificaciones, reseñas escritas, seguimiento de calificaciones bajas y registros exportables. |
 | Responder preguntas frecuentes o reducir carga de soporte | [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}), [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}), [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}) o [Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %}) | Empieza aquí cuando tu equipo responde preguntas repetidas y tienes políticas, datos de pedidos y reglas de derivación claras. |
+| Medir satisfacción después de conversaciones resueltas | [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}) | Úsalo cuando conversaciones de soporte, Inbox, IA o playbooks pueden cerrarse y el feedback negativo debería crear seguimiento. |
 | Enviar un anuncio puntual | Una campaña o broadcast | Usa una campaña cuando el mensaje tiene una fecha o momento concreto y debe enviarse una sola vez a una audiencia seleccionada. |
 | Crear un flujo a medida | Una ruta o [agente personalizado]({% link _journeys/custom-agent-playbook.md %}) | Usa esto cuando ninguna misión preconstruida encaja, o cuando necesitas pasos, condiciones, acciones o lógica de negocio específica. |
 
@@ -95,6 +96,7 @@ Después ajusta una cosa por vez: audiencia, disparador, timing, mensaje, oferta
 - [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
 - [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
 - [Playbook Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})
+- [Playbook Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %})
 - [Playbook Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
 - [Playbook Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %})
 - [Playbook Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %})

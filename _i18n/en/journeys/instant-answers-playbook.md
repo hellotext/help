@@ -159,12 +159,15 @@ During the first days, review:
 
 Tune one thing at a time: knowledge, channel selection, tone, handoff target, or the support topics you expect the playbook to own.
 
+If you want to measure satisfaction after resolved support conversations, use [CSAT Pulse]({% link _journeys/csat-pulse-playbook.md %}) alongside the support playbook.
+
 ## Related guides
 
 - [Playbook library by mission]({% link _journeys/playbook-library-by-mission.md %})
 - [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %})
+- [CSAT Pulse playbook]({% link _journeys/csat-pulse-playbook.md %})
 - [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %})
 - [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
 - [Return & Exchange Helper playbook]({% link _journeys/return-and-exchange-helper-playbook.md %})

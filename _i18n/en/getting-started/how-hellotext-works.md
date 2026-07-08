@@ -27,7 +27,7 @@ Good playbook use cases include:
 - Recommending products.
 - Following up after purchase.
 - Reactivating customers.
-- Collecting product reviews with [Review Builder]({% link _journeys/review-builder-playbook.md %}) or feedback with a dedicated survey playbook.
+- Collecting product reviews with [Review Builder]({% link _journeys/review-builder-playbook.md %}) or satisfaction feedback with [CSAT Pulse]({% link _journeys/csat-pulse-playbook.md %}).
 - Answering frequent questions with [Instant Answers]({% link _journeys/instant-answers-playbook.md %}) or another AI agent.
 - Guiding return or exchange requests with [Return & Exchange Helper]({% link _journeys/return-and-exchange-helper-playbook.md %}).
 - Guiding cancellation requests with [Order Cancellation Assistant]({% link _journeys/order-cancellation-assistant-playbook.md %}).
@@ -118,4 +118,5 @@ If you are unsure, start smaller. Choose one goal, one channel, one audience, an
 - [Choose your first playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [Playbook library by mission]({% link _journeys/playbook-library-by-mission.md %})
 - [Review Builder playbook]({% link _journeys/review-builder-playbook.md %})
+- [CSAT Pulse playbook]({% link _journeys/csat-pulse-playbook.md %})
 - [Order Cancellation Assistant playbook]({% link _journeys/order-cancellation-assistant-playbook.md %})

@@ -159,12 +159,15 @@ Durante los primeros días, revisa:
 
 Ajusta una cosa por vez: conocimiento, selección de canales, tono, destino de derivación o los temas de soporte que esperas que el playbook cubra.
 
+Si quieres medir satisfacción después de conversaciones de soporte resueltas, usa [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}) junto al playbook de soporte.
+
 ## Guías relacionadas
 
 - [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
 - [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})
+- [Playbook Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %})
 - [Playbook Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %})
 - [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
 - [Playbook Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %})

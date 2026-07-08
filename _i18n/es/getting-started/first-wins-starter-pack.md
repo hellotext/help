@@ -67,6 +67,7 @@ Opciones útiles pueden incluir:
 - [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}) cuando los clientes preguntan seguido dónde está su pedido.
 - [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}) cuando tu política es lo suficientemente clara para automatizar partes de la conversación.
 - [Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %}) cuando las solicitudes de cancelación son frecuentes y tus reglas están claras.
+- [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}) cuando las conversaciones se están resolviendo de forma consistente y quieres feedback liviano de satisfacción.
 - Asignación y reglas de respuesta en Inbox cuando las personas todavía necesitan hacerse cargo de las respuestas.
 
 Logro esperado: respuestas más rápidas, derivaciones más claras y menos tickets repetitivos para tu equipo.
@@ -125,6 +126,7 @@ Sigue leyendo: [Mide el éxito en tus primeros 7 días]({% link _getting-started
 - [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
 - [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
 - [Playbook Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})
+- [Playbook Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %})
 - [Playbook Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
 - [Playbook Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %})
 - [Playbook Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %})

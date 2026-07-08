@@ -6,6 +6,8 @@ Si estás comparando el Inbox con playbooks y campañas, empieza por [Cómo func
 
 Si estás configurando derivaciones de IA o playbooks, lee [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %}).
 
+Si quieres pedir satisfacción después de resolver conversaciones, usa [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}).
+
 ## Cómo se mueven las conversaciones en el inbox
 
 Una conversación puede empezar cuando un cliente responde a un mensaje, escribe por un canal conectado como [Webchat]({% link _journeys/webchat-widget-playbook.md %}) o necesita atención después de un playbook, ruta, orden o evento registrado.
@@ -53,3 +55,5 @@ Cuando alguien del equipo responde desde el inbox, el editor de mensajes ofrece 
 Sigue leyendo: [Resumen del editor de mensajes]({% link _numbers/message-editor-overview.md %}).
 
 Para conversaciones desde el sitio, revisa también [Playbook Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %}).
+
+Para satisfacción después de conversaciones cerradas, revisa también [Playbook Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}).

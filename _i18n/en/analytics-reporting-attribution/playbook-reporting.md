@@ -12,7 +12,7 @@ Use the **Performance** report when you want to compare conversion rate, time to
 
 Use the **Inbox** and conversation history when you need to understand why a playbook escalated, what the customer asked, and whether the handoff gave the team enough context.
 
-Use a playbook-specific report when the playbook collects its own outcome, such as product reviews from [Review Builder]({% link _journeys/review-builder-playbook.md %}).
+Use a playbook-specific report when the playbook collects its own outcome, such as product reviews from [Review Builder]({% link _journeys/review-builder-playbook.md %}) or satisfaction responses from [CSAT Pulse]({% link _journeys/csat-pulse-playbook.md %}).
 
 Before comparing results, choose the right date range and confirm that the playbook had enough traffic to learn from.
 
@@ -92,6 +92,7 @@ Use the pattern you see to decide what to inspect next.
 | Missing attributed revenue | Tracking, links, order events, attribution windows, and whether another channel received last-click credit. |
 | High opt-outs or negative replies | Audience quality, consent, frequency, tone, and offer relevance. |
 | Weak review collection | Delivered-order signals, review timing, product spacing, channel support, and whether low ratings are handled correctly. |
+| Weak CSAT response or many negative CSAT responses | Resolution trigger, meaningful-interaction rules, cooldown, message clarity, channel eligibility, and whether negative feedback creates the right recovery path. |
 
 If signals or activity are missing, use [Troubleshoot missing signals or activity]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %}) before judging the playbook.
 
@@ -118,6 +119,7 @@ After changing a playbook, give it enough time and traffic before comparing agai
 - [Playbook library by mission]({% link _journeys/playbook-library-by-mission.md %})
 - [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
 - [Review Builder playbook]({% link _journeys/review-builder-playbook.md %})
+- [CSAT Pulse playbook]({% link _journeys/csat-pulse-playbook.md %})
 - [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [Campaign reporting]({% link _analytics-reporting-attribution/campaign-reporting.md %})
 - [Sales attribution]({% link _analytics-reporting-attribution/sales-attribution.md %})

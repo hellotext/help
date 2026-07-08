@@ -45,6 +45,7 @@ Use a prebuilt playbook when the mission already exists. For example:
 - Use [Return & Exchange Helper]({% link _journeys/return-and-exchange-helper-playbook.md %}) for guided return or exchange support when the prebuilt mission fits.
 - Use [Order Cancellation Assistant]({% link _journeys/order-cancellation-assistant-playbook.md %}) for guided cancellation support and approved save-the-sale paths when the prebuilt mission fits.
 - Use [AI Cart Saver]({% link _journeys/ai-cart-saver-playbook.md %}) or [Cart Saver route]({% link _journeys/cart-saver-route.md %}) for abandoned cart recovery.
+- Use [CSAT Pulse]({% link _journeys/csat-pulse-playbook.md %}) for satisfaction feedback after resolved conversations.
 
 Use a [journey route]({% link _journeys/getting-started-with-journeys.md %}) when the experience must follow explicit steps, waits, questions, conditions, assignments, and branches.
 
@@ -198,5 +199,6 @@ Tune one thing at a time: intent wording, prompt, uploaded knowledge, approved w
 - [How to write a great agent prompt]({% link _journeys/how-to-write-a-great-prompt.md %})
 - [How Hellotext decides whether a playbook can send]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %})
+- [CSAT Pulse playbook]({% link _journeys/csat-pulse-playbook.md %})
 - [Playbook reporting]({% link _analytics-reporting-attribution/playbook-reporting.md %})
 - [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})

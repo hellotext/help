@@ -38,7 +38,7 @@ Funciona mejor cuando los clientes tuvieron suficiente tiempo para recibir y pro
 
 No uses Generador de Reseñas como reemplazo de todos los flujos de feedback.
 
-Usa **Pulso de Satisfacción** cuando quieres medir satisfacción después de una interacción de soporte, Inbox o IA.
+Usa [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}) cuando quieres medir satisfacción después de una interacción de soporte, Inbox o IA.
 
 Usa **Pulso NPS** cuando quieres medir lealtad o probabilidad de recomendar la marca.
 
@@ -176,6 +176,7 @@ Ajusta una cosa por vez: timing, canal, tono, separación entre productos, deriv
 - [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
+- [Playbook Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %})
 - [Playbook Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %})
 - [Playbook Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
 - [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})

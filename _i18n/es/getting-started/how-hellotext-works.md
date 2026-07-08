@@ -27,7 +27,7 @@ Buenos casos para playbooks incluyen:
 - Recomendar productos.
 - Hacer seguimiento después de una compra.
 - Reactivar clientes.
-- Recopilar reseñas de productos con [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) o feedback con un playbook de encuesta dedicado.
+- Recopilar reseñas de productos con [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) o feedback de satisfacción con [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}).
 - Responder preguntas frecuentes con [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}) u otro agente de IA.
 - Guiar solicitudes de cambio o devolución con [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}).
 - Guiar solicitudes de cancelación con [Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %}).
@@ -118,4 +118,5 @@ Si no estás seguro, empieza más pequeño. Elige un objetivo, un canal, una aud
 - [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
 - [Playbook Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})
+- [Playbook Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %})
 - [Playbook Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %})
