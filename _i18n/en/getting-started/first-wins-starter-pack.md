@@ -14,7 +14,7 @@ Start with a mix that covers the full customer path:
 2. Recover lost intent.
 3. Convert or recommend.
 4. Reduce support load.
-5. Collect product reviews or send one focused campaign when you have a clear moment.
+5. Collect feedback or send one focused campaign when you have a clear moment.
 
 This gives you cleaner signals and makes it easier to understand what worked.
 
@@ -54,6 +54,7 @@ Useful options can include:
 - [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}) when product and inventory context are strong.
 - Cross-sell or replenishment when you have enough order history.
 - [Review Builder]({% link _journeys/review-builder-playbook.md %}) when delivered-order signals are reliable and you want product reviews.
+- [NPS Pulse]({% link _journeys/nps-pulse-playbook.md %}) when delivered-order signals are reliable and you want loyalty feedback after customers have had the product experience.
 
 Expected win: move customers from interest to purchase, repeat purchase, or higher-value orders.
 
@@ -72,11 +73,13 @@ Useful options can include:
 
 Expected win: faster answers, cleaner handoffs, and fewer repetitive tickets for your team.
 
-## 5. Collect product reviews or send one focused campaign
+## 5. Collect feedback or send one focused campaign
 
 Use [Review Builder]({% link _journeys/review-builder-playbook.md %}) when you already have delivered orders and want to collect product ratings and written reviews.
 
-Expected win: learn which products create strong feedback, which experiences need follow-up, and which review records can be exported for use outside Hellotext.
+Use [NPS Pulse]({% link _journeys/nps-pulse-playbook.md %}) when you want to measure whether customers would recommend the brand after a delivered order.
+
+Expected win: learn which products and delivery experiences create strong feedback, which customers need recovery, and which feedback records can guide future improvements.
 
 If you have one clear audience, one message, and one planned send time, use a campaign instead.
 
@@ -127,6 +130,7 @@ Keep reading: [Measure success in your first 7 days]({% link _getting-started/me
 - [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
 - [Review Builder playbook]({% link _journeys/review-builder-playbook.md %})
 - [CSAT Pulse playbook]({% link _journeys/csat-pulse-playbook.md %})
+- [NPS Pulse playbook]({% link _journeys/nps-pulse-playbook.md %})
 - [Instant Answers playbook]({% link _journeys/instant-answers-playbook.md %})
 - [Return & Exchange Helper playbook]({% link _journeys/return-and-exchange-helper-playbook.md %})
 - [Order Cancellation Assistant playbook]({% link _journeys/order-cancellation-assistant-playbook.md %})

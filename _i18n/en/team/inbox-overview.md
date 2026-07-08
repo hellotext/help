@@ -8,6 +8,8 @@ If you are setting up AI or playbook escalations, read [AI handoff to Inbox]({% 
 
 If you want to ask for satisfaction after conversations are resolved, use [CSAT Pulse]({% link _journeys/csat-pulse-playbook.md %}).
 
+If you want to follow up on low loyalty scores after delivery, use [NPS Pulse]({% link _journeys/nps-pulse-playbook.md %}).
+
 ## How conversations move through the inbox
 
 A conversation can start when a customer replies to a message, writes through a connected channel such as [Webchat]({% link _journeys/webchat-widget-playbook.md %}), or needs attention after a playbook, route, order, or tracked event.
@@ -57,3 +59,5 @@ Keep reading: [Message editor overview]({% link _numbers/message-editor-overview
 For website conversations, also review [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %}).
 
 For satisfaction after closed conversations, also review [CSAT Pulse playbook]({% link _journeys/csat-pulse-playbook.md %}).
+
+For loyalty feedback after delivered orders, also review [NPS Pulse playbook]({% link _journeys/nps-pulse-playbook.md %}).

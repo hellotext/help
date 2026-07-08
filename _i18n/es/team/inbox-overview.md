@@ -8,6 +8,8 @@ Si estás configurando derivaciones de IA o playbooks, lee [Derivación de IA al
 
 Si quieres pedir satisfacción después de resolver conversaciones, usa [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}).
 
+Si quieres dar seguimiento a puntajes bajos de lealtad después de una entrega, usa [Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}).
+
 ## Cómo se mueven las conversaciones en el inbox
 
 Una conversación puede empezar cuando un cliente responde a un mensaje, escribe por un canal conectado como [Webchat]({% link _journeys/webchat-widget-playbook.md %}) o necesita atención después de un playbook, ruta, orden o evento registrado.
@@ -57,3 +59,5 @@ Sigue leyendo: [Resumen del editor de mensajes]({% link _numbers/message-editor-
 Para conversaciones desde el sitio, revisa también [Playbook Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %}).
 
 Para satisfacción después de conversaciones cerradas, revisa también [Playbook Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}).
+
+Para feedback de lealtad después de pedidos entregados, revisa también [Playbook Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}).

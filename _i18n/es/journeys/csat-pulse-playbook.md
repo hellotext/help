@@ -2,7 +2,7 @@ Usa esta guía cuando quieres que Hellotext pregunte a clientes si quedaron sati
 
 Pulso CSAT es un playbook de feedback posterior a una interacción. Envía una pregunta breve de satisfacción después de cerrar una conversación, registra la respuesta para reportes CSAT y puede crear un camino de recuperación cuando el cliente responde negativamente.
 
-No es una solicitud de reseña de producto ni una encuesta de lealtad de marca. Usa [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) para reseñas de productos después de la entrega, y usa Pulso NPS cuando el objetivo es medir lealtad o probabilidad de recomendación.
+No es una solicitud de reseña de producto ni una encuesta de lealtad de marca. Usa [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) para reseñas de productos después de la entrega, y usa [Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}) cuando el objetivo es medir lealtad o probabilidad de recomendación.
 
 ## Qué hace Pulso CSAT
 
@@ -39,7 +39,7 @@ No uses Pulso CSAT para todos los tipos de feedback.
 
 Usa [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) cuando el objetivo es recopilar una calificación de producto y una reseña escrita después de la entrega.
 
-Usa Pulso NPS cuando el objetivo es medir lealtad o probabilidad de recomendar la marca.
+Usa [Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}) cuando el objetivo es medir lealtad o probabilidad de recomendar la marca.
 
 Usa [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}) o un [Agente Personalizado]({% link _journeys/custom-agent-playbook.md %}) cuando el cliente todavía necesita una respuesta, no una encuesta de satisfacción.
 
@@ -163,6 +163,7 @@ Ajusta una cosa por vez: texto del mensaje, proceso de resolución, preparación
 - [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [Playbook Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})
+- [Playbook Pulso NPS]({% link _journeys/nps-pulse-playbook.md %})
 - [Playbook Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
 - [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
 - [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})

@@ -2,7 +2,7 @@ Use this guide when you want Hellotext to ask customers whether they were satisf
 
 CSAT Pulse is a post-interaction feedback playbook. It sends a lightweight satisfaction prompt after a conversation is closed, records the response for CSAT reporting, and can create a recovery path when the customer gives negative feedback.
 
-It is not a product review request and it is not a brand-loyalty survey. Use [Review Builder]({% link _journeys/review-builder-playbook.md %}) for product reviews after delivery, and use NPS Pulse when the goal is loyalty or likelihood to recommend.
+It is not a product review request and it is not a brand-loyalty survey. Use [Review Builder]({% link _journeys/review-builder-playbook.md %}) for product reviews after delivery, and use [NPS Pulse]({% link _journeys/nps-pulse-playbook.md %}) when the goal is loyalty or likelihood to recommend.
 
 ## What CSAT Pulse does
 
@@ -39,7 +39,7 @@ Do not use CSAT Pulse for every kind of feedback.
 
 Use [Review Builder]({% link _journeys/review-builder-playbook.md %}) when the goal is to collect a product rating and written review after delivery.
 
-Use NPS Pulse when the goal is to measure loyalty or likelihood to recommend the brand.
+Use [NPS Pulse]({% link _journeys/nps-pulse-playbook.md %}) when the goal is to measure loyalty or likelihood to recommend the brand.
 
 Use [Instant Answers]({% link _journeys/instant-answers-playbook.md %}) or a [Custom Agent]({% link _journeys/custom-agent-playbook.md %}) when the customer still needs an answer, not a satisfaction survey.
 
@@ -163,6 +163,7 @@ Tune one thing at a time: message copy, resolution process, channel readiness, o
 - [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [Review Builder playbook]({% link _journeys/review-builder-playbook.md %})
+- [NPS Pulse playbook]({% link _journeys/nps-pulse-playbook.md %})
 - [Instant Answers playbook]({% link _journeys/instant-answers-playbook.md %})
 - [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %})
 - [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %})

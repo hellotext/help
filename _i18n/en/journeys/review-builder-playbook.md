@@ -40,7 +40,7 @@ Do not use Review Builder as a replacement for every feedback workflow.
 
 Use [CSAT Pulse]({% link _journeys/csat-pulse-playbook.md %}) when you want to measure satisfaction after a support, Inbox, or AI interaction.
 
-Use **NPS Pulse** when you want to measure loyalty or likelihood to recommend the brand.
+Use [NPS Pulse]({% link _journeys/nps-pulse-playbook.md %}) when you want to measure loyalty or likelihood to recommend the brand.
 
 Use [Order-Update Delight]({% link _journeys/order-update-playbook.md %}) when the customer is asking where the order is or whether it has been delivered.
 
@@ -177,6 +177,7 @@ Tune one thing at a time: timing, channel, tone, product spacing, low-rating han
 - [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
 - [CSAT Pulse playbook]({% link _journeys/csat-pulse-playbook.md %})
+- [NPS Pulse playbook]({% link _journeys/nps-pulse-playbook.md %})
 - [Return & Exchange Helper playbook]({% link _journeys/return-and-exchange-helper-playbook.md %})
 - [Instant Answers playbook]({% link _journeys/instant-answers-playbook.md %})
 - [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %})

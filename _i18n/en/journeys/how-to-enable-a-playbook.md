@@ -145,6 +145,7 @@ For a safer editing process, keep reading: [How to customize a playbook safely](
 - [Instant Answers playbook]({% link _journeys/instant-answers-playbook.md %})
 - [Review Builder playbook]({% link _journeys/review-builder-playbook.md %})
 - [CSAT Pulse playbook]({% link _journeys/csat-pulse-playbook.md %})
+- [NPS Pulse playbook]({% link _journeys/nps-pulse-playbook.md %})
 - [Return & Exchange Helper playbook]({% link _journeys/return-and-exchange-helper-playbook.md %})
 - [Order Cancellation Assistant playbook]({% link _journeys/order-cancellation-assistant-playbook.md %})
 - [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %})

@@ -91,7 +91,7 @@ Common options include:
 
 - **[Order-Update Delight]({% link _journeys/order-update-playbook.md %}):** send order updates and answer order-status questions.
 - **[Review Builder]({% link _journeys/review-builder-playbook.md %}):** collect product reviews after delivery.
-- **NPS Pulse:** measure loyalty at the right moment.
+- **[NPS Pulse]({% link _journeys/nps-pulse-playbook.md %}):** measure loyalty after customers have received an order.
 - **[CSAT Pulse]({% link _journeys/csat-pulse-playbook.md %}):** measure satisfaction after support, Inbox, AI, or playbook interactions.
 - **[Instant Answers]({% link _journeys/instant-answers-playbook.md %}):** answer common questions with an AI support agent.
 - **[Return & Exchange Helper]({% link _journeys/return-and-exchange-helper-playbook.md %}):** help customers with returns or exchanges.
@@ -130,8 +130,9 @@ If you are unsure where to start, choose the mission that matches the first bott
 | Buyers do not return | Replenishment Driver, Soft Reactivation, or Cross-Sell Driver |
 | Customers have gone cold | Dormant Revival or Sunset Saver |
 | You have a timed announcement | Classic Broadcast, Holiday Hype, Launch Teaser, or Clearance Clean-out |
-| Support work is repetitive | [Instant Answers]({% link _journeys/instant-answers-playbook.md %}), [Order-Update Delight]({% link _journeys/order-update-playbook.md %}), [Return & Exchange Helper]({% link _journeys/return-and-exchange-helper-playbook.md %}), [Order Cancellation Assistant]({% link _journeys/order-cancellation-assistant-playbook.md %}), [CSAT Pulse]({% link _journeys/csat-pulse-playbook.md %}), or NPS Pulse |
+| Support work is repetitive | [Instant Answers]({% link _journeys/instant-answers-playbook.md %}), [Order-Update Delight]({% link _journeys/order-update-playbook.md %}), [Return & Exchange Helper]({% link _journeys/return-and-exchange-helper-playbook.md %}), [Order Cancellation Assistant]({% link _journeys/order-cancellation-assistant-playbook.md %}), or [CSAT Pulse]({% link _journeys/csat-pulse-playbook.md %}) |
 | You need product reviews | [Review Builder]({% link _journeys/review-builder-playbook.md %}) |
+| You need loyalty feedback after delivery | [NPS Pulse]({% link _journeys/nps-pulse-playbook.md %}) |
 | Your process is unique | Journey Builder or [Custom Agent]({% link _journeys/custom-agent-playbook.md %}) |
 
 Choose one mission, one audience, and one channel for the first launch. Expanding is easier after the first playbook proves that the data, timing, channel, and handoff path are working.
@@ -160,6 +161,7 @@ Keep reading:
 - [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
 - [Review Builder playbook]({% link _journeys/review-builder-playbook.md %})
 - [CSAT Pulse playbook]({% link _journeys/csat-pulse-playbook.md %})
+- [NPS Pulse playbook]({% link _journeys/nps-pulse-playbook.md %})
 - [Instant Answers playbook]({% link _journeys/instant-answers-playbook.md %})
 - [Return & Exchange Helper playbook]({% link _journeys/return-and-exchange-helper-playbook.md %})
 - [Order Cancellation Assistant playbook]({% link _journeys/order-cancellation-assistant-playbook.md %})

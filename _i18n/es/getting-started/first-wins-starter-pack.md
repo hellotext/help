@@ -14,7 +14,7 @@ Empieza con una mezcla que cubra el recorrido completo del cliente:
 2. Recuperar intención perdida.
 3. Convertir o recomendar.
 4. Reducir carga de soporte.
-5. Recopilar reseñas de productos o enviar una campaña enfocada cuando tengas un momento claro.
+5. Recopilar feedback o enviar una campaña enfocada cuando tengas un momento claro.
 
 Esto te da señales más limpias y hace más fácil entender qué funcionó.
 
@@ -54,6 +54,7 @@ Opciones útiles pueden incluir:
 - [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) cuando el contexto de producto e inventario es sólido.
 - Venta cruzada o recompra cuando tienes suficiente historial de pedidos.
 - [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) cuando las señales de pedido entregado son confiables y quieres reseñas de productos.
+- [Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}) cuando las señales de pedido entregado son confiables y quieres medir lealtad después de que el cliente ya vivió la experiencia con el producto.
 
 Logro esperado: mover clientes de interés a compra, recompra o pedidos de mayor valor.
 
@@ -72,11 +73,13 @@ Opciones útiles pueden incluir:
 
 Logro esperado: respuestas más rápidas, derivaciones más claras y menos tickets repetitivos para tu equipo.
 
-## 5. Recopila reseñas de productos o envía una campaña enfocada
+## 5. Recopila feedback o envía una campaña enfocada
 
 Usa [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) cuando ya tienes pedidos entregados y quieres recopilar calificaciones y reseñas escritas de productos.
 
-Logro esperado: entender qué productos generan buen feedback, qué experiencias necesitan seguimiento y qué registros de reseñas pueden exportarse para usarse fuera de Hellotext.
+Usa [Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}) cuando quieres medir si los clientes recomendarían la marca después de un pedido entregado.
+
+Logro esperado: entender qué productos y experiencias de entrega generan buen feedback, qué clientes necesitan recuperación y qué registros pueden guiar mejoras futuras.
 
 Si tienes una audiencia clara, un mensaje y un momento de envío planificado, usa una campaña.
 
@@ -127,6 +130,7 @@ Sigue leyendo: [Mide el éxito en tus primeros 7 días]({% link _getting-started
 - [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
 - [Playbook Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})
 - [Playbook Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %})
+- [Playbook Pulso NPS]({% link _journeys/nps-pulse-playbook.md %})
 - [Playbook Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
 - [Playbook Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %})
 - [Playbook Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %})
