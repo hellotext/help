@@ -34,6 +34,8 @@ Encaja bien cuando:
 
 No uses Recomendador Inteligente como única fuente para estado de orden, incidentes de entrega, reclamos, reembolsos, cancelaciones o decisiones finales de cambios y devoluciones. Usa [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}) para estado de orden, [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}) para ayuda guiada de cambios o devoluciones, [Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %}) para solicitudes de cancelación, y el Inbox cuando una persona necesita decidir.
 
+Si el cliente no hizo una pregunta y solo mostró intención de navegación al ver productos, usa [Playbook Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}).
+
 ## Qué necesita antes del lanzamiento
 
 Antes de habilitar Recomendador Inteligente, confirma la configuración de la que depende.
@@ -142,6 +144,7 @@ Ajusta una cosa por vez: prompt, documentos de conocimiento, selección de canal
 - [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [Cómo escribir un gran prompt para tu agente]({% link _journeys/how-to-write-a-great-prompt.md %})
+- [Playbook Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %})
 - [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
 - [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
 - [Playbook Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %})

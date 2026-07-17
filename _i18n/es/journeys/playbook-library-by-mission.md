@@ -32,7 +32,7 @@ Opciones comunes incluyen:
 - **Impulsor de Primera Compra:** convierte nuevos suscriptores o registros en compradores por primera vez.
 - **[Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}):** recupera carritos abandonados con una ruta predecible.
 - **[Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}):** recupera carritos con seguimiento conversacional y contextual.
-- **Recuperación de Navegación:** reactiva clientes que vieron productos sin comprar.
+- **[Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}):** reactiva clientes que vieron productos sin comprar.
 - **[Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}):** recomienda productos en tiempo real usando comportamiento y contexto de producto.
 - **Completa el Look:** sugiere productos complementarios.
 - **Alerta de Baja de Precio:** notifica a compradores interesados cuando cambia el precio de un producto.
@@ -128,7 +128,7 @@ Si no sabes por dónde empezar, elige la misión que coincide con el primer cuel
 | --- | --- |
 | No tienes suficientes clientes alcanzables | Capturas, Impulsor de Suscriptores, Recolector de Datos o Bienvenida Automática |
 | Los clientes abandonan carritos | [Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) o [Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}) |
-| Los visitantes miran pero no compran | Recuperación de Navegación, [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) o Impulsor de Primera Compra |
+| Los visitantes miran pero no compran | [Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}), [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) o Impulsor de Primera Compra |
 | Los compradores no vuelven | Impulsor de Recompra, Reactivación Suave o Impulsor de Ventas Cruzadas |
 | Los clientes quedaron fríos | Reactivación de Inactivos o Último Intento |
 | Tienes un anuncio con fecha | Envío clásico, Campaña Estacional, Adelanto de Lanzamiento o Liquidación Final |
@@ -159,6 +159,7 @@ Sigue leyendo:
 - [Playbook Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %})
 - [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %})
 - [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
+- [Playbook Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %})
 - [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
 - [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
 - [Playbook Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})
@@ -180,6 +181,7 @@ Sigue leyendo:
 - [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [Playbook Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %})
+- [Playbook Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %})
 - [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
 - [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [Primeros logros recomendados]({% link _getting-started/first-wins-starter-pack.md %})

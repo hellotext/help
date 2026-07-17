@@ -1,0 +1,181 @@
+Use this guide when you want Hellotext to follow up with customers who viewed products but left before adding anything to cart or buying.
+
+Browse Recovery is an active sales playbook. It uses product-view and browsing signals to identify recent purchase intent, then lets Hellotext decide whether a helpful follow-up makes sense for that customer.
+
+It is not a cart recovery route and it is not a product-recommendation chat agent. It sits earlier in the buying journey: after product interest, before an abandoned cart.
+
+## What Browse Recovery does
+
+Browse Recovery helps recover product interest that did not become a cart.
+
+It can:
+
+- React to product-view activity such as `product.viewed`.
+- Notice repeated product interest within a recent window.
+- Check whether the customer has already purchased or moved into a stronger cart or checkout signal.
+- Use product, catalog, customer profile, channel, and consent context before a message is sent.
+- Send a reminder, product link, or helpful prompt when the playbook is eligible to act.
+- Skip, wait, or stop when the signal is stale, the customer is not eligible, another playbook is a better owner, or the message no longer makes sense.
+
+The exact experience can vary by account, connected store, channel, available templates, and playbook rollout status.
+
+## When to use it
+
+Use Browse Recovery when shoppers show interest but do not create a cart.
+
+It is a good fit when:
+
+- Customers often view product pages but leave before adding to cart.
+- Product views are tracked on the right customer profiles.
+- Your catalog and product links are reliable enough for follow-up.
+- Your team wants to recover earlier intent, not only abandoned carts.
+- You have a clear channel and consent path for customers who browse.
+
+Do not use Browse Recovery as a replacement for cart recovery. If the customer already added products to cart or started checkout, use [Cart Saver route]({% link _journeys/cart-saver-route.md %}) or [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %}).
+
+Do not use it as a conversational recommender. If the customer asks what to buy, compares options, or needs product guidance in chat, use [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %}).
+
+## What it needs before launch
+
+Before enabling Browse Recovery, confirm the setup it depends on.
+
+Check that:
+
+- Your store, website, or custom tracking sends product-view activity.
+- Product views are tied to usable customer profiles when customers can be identified.
+- Product IDs, variants, names, images, and links match your catalog.
+- Purchase, cart, and checkout activity can tell Hellotext when another playbook is a better fit.
+- The channel the playbook can use is connected and ready.
+- Customers have consent and are eligible for the channel.
+- Product links, discounts, or message templates work in the selected channel.
+- Reporting is ready so you can review views, sends, clicks, purchases, skips, and opt-outs.
+
+For setup validation, use [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %}). For custom tracking, use [Tracking events]({% link _developers/tracking-events.md %}).
+
+## What you can configure
+
+Open **Playbooks**, click **Explore playbooks**, and choose **Browse Recovery**.
+
+The available cards can vary, but you may be able to review:
+
+- **Channels:** where Hellotext can send or continue the browse recovery conversation.
+- **Message or tone:** how the follow-up should sound when the playbook exposes message controls.
+- **Discounts or offers:** whether the playbook can use an incentive and under what limits.
+- **Escalation or assignment:** who should take over when a reply needs a person.
+
+Keep automatic channel selection unless you have a clear reason to limit the playbook. Browse Recovery depends on whether the customer can actually be reached and whether the message format is allowed in the channel.
+
+Do not assume the playbook is missing something if it does not show prompt, intent, or route-step cards. Some prebuilt playbooks handle those decisions inside the playbook logic. If you need a custom conversational agent with manual intents, use [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %}).
+
+## How the trigger works
+
+Browse Recovery starts from browse intent, not from a manual list.
+
+A strong signal is repeated product interest in a recent window. In the current scoring model, repeated product views within a day can refresh the customer's purchase-intent evaluation. That does not mean Hellotext always sends after a specific number of views.
+
+Before sending, Hellotext can also consider:
+
+- Whether the product-view signal is recent enough.
+- Whether the customer already bought.
+- Whether the customer added to cart or started checkout, where cart recovery should usually take over.
+- Whether the profile can receive a message in an eligible channel.
+- Whether product and catalog data are complete enough.
+- Whether another playbook is already a better owner for this moment.
+- Whether frequency, timing, consent, or channel rules allow a send.
+
+For the broader decision model, see [How Hellotext decides whether a playbook can send]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}).
+
+## How it differs from cart recovery and recommendations
+
+Use the signal to decide the owner.
+
+| Customer moment | Better fit |
+| --- | --- |
+| Viewed one or more products but did not add to cart | Browse Recovery |
+| Added products to cart or started checkout, then left | Cart Saver route or AI Cart Saver |
+| Asked for advice, comparisons, sizes, alternatives, or recommendations | Smart Recommender |
+| Needs a custom AI job with manual intents and knowledge | Custom Agent |
+
+If you run multiple revenue playbooks, keep ownership clear. Browse Recovery should not compete with cart recovery for the same customer moment.
+
+## Message guidance
+
+The message should feel like a useful reminder, not a generic blast.
+
+Good browse recovery messages usually:
+
+- Refer to the product or category the customer showed interest in.
+- Keep the copy short and easy to act on.
+- Include a useful product link when possible.
+- Offer help choosing if the customer may need guidance.
+- Use incentives carefully instead of discounting every browse signal.
+- Avoid sounding like surveillance. Do not over-explain tracking.
+
+The best version depends on your brand, channel, product price point, and how customers normally buy.
+
+## How to test it
+
+Test with a small, realistic path before enabling it broadly.
+
+Use a test customer profile that has channel consent, then:
+
+- View a real product page more than once.
+- Confirm the product-view activity appears on the customer profile.
+- Confirm the viewed product maps to the correct catalog item and link.
+- Test a customer who views a product and then buys, which should prevent browse recovery.
+- Test a customer who views a product and then adds to cart, where cart recovery should usually take over.
+- Test a customer who is not eligible for the channel.
+- Review whether the message, product link, timing, and offer make sense.
+- Send a realistic reply and confirm it reaches the right teammate or team if handoff is available.
+
+If tracking is custom, also confirm that the event name, product identifier, timestamp, and customer identifier match what Hellotext expects.
+
+## Why it may not send
+
+Browse Recovery being enabled does not mean every product view produces a message.
+
+The playbook may wait, skip, stop, or let another playbook act when:
+
+- Product-view tracking is missing or delayed.
+- The activity is not tied to a usable customer profile.
+- The product or catalog record cannot be resolved.
+- The customer already bought.
+- The customer added to cart or started checkout.
+- The profile cannot be reached in an eligible channel.
+- The customer unsubscribed, opted out, or is otherwise not eligible.
+- Frequency, timing, or quiet-hour rules prevent the send.
+- The channel, sender, template, link, or message format is not ready.
+- Another active playbook is a better fit.
+
+For a step-by-step diagnosis, use [Troubleshoot a playbook that did not trigger or send]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}).
+
+## What to review after launch
+
+During the first days, review:
+
+- How many customer profiles produced browse signals.
+- Which products or categories were viewed before a send.
+- Which messages were sent, delayed, skipped, or blocked.
+- Whether product links and catalog context were correct.
+- Clicks, purchases, attributed revenue, opt-outs, replies, and failed messages.
+- Whether Browse Recovery is overlapping with cart recovery.
+- Whether customers ask questions that should go to Smart Recommender or the Inbox.
+
+Tune one thing at a time: audience, channel, message, offer, timing, or handoff path.
+
+## Related guides
+
+- [Playbook library by mission]({% link _journeys/playbook-library-by-mission.md %})
+- [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %})
+- [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [What are signals?]({% link _journeys/what-are-signals.md %})
+- [How Hellotext decides whether a playbook can send]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
+- [Troubleshoot a playbook that did not trigger or send]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
+- [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})
+- [Tracking events]({% link _developers/tracking-events.md %})
+- [Cart Saver route]({% link _journeys/cart-saver-route.md %})
+- [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %})
+- [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %})
+- [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %})
+- [Who can I message? Consent and subscriber status]({% link _audience/consent-and-subscriber-status.md %})
+- [Playbook reporting]({% link _analytics-reporting-attribution/playbook-reporting.md %})

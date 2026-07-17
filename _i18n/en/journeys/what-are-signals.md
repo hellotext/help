@@ -82,6 +82,7 @@ Common setup steps include:
 - [Troubleshoot missing signals or activity]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %})
 - [Tracking events]({% link _developers/tracking-events.md %})
 - [Playbooks and automation overview]({% link _journeys/playbooks-overview.md %})
+- [Browse Recovery playbook]({% link _journeys/browse-recovery-playbook.md %})
 - [Getting started with journeys]({% link _journeys/getting-started-with-journeys.md %})
 - [Audience and segmentation overview]({% link _audience/audience-overview.md %})
 - [Analytics, reporting, and attribution overview]({% link _analytics-reporting-attribution/analytics-overview.md %})

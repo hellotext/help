@@ -34,6 +34,8 @@ It is a good fit when:
 
 Do not use Smart Recommender as the only source of truth for order status, delivery incidents, complaints, refunds, cancellations, or final return and exchange decisions. Use [Order-Update Delight]({% link _journeys/order-update-playbook.md %}) for order status, [Return & Exchange Helper]({% link _journeys/return-and-exchange-helper-playbook.md %}) for guided return or exchange help, [Order Cancellation Assistant]({% link _journeys/order-cancellation-assistant-playbook.md %}) for cancellation requests, and the Inbox when a person needs to decide.
 
+If the customer did not ask a question and only showed browsing intent by viewing products, use [Browse Recovery playbook]({% link _journeys/browse-recovery-playbook.md %}) instead.
+
 ## What it needs before launch
 
 Before enabling Smart Recommender, confirm the setup it depends on.
@@ -142,6 +144,7 @@ Tune one thing at a time: prompt, knowledge documents, channel selection, handof
 - [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [How to write a great agent prompt]({% link _journeys/how-to-write-a-great-prompt.md %})
+- [Browse Recovery playbook]({% link _journeys/browse-recovery-playbook.md %})
 - [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %})
 - [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
 - [Return & Exchange Helper playbook]({% link _journeys/return-and-exchange-helper-playbook.md %})

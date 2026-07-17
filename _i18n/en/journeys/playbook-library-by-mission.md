@@ -32,7 +32,7 @@ Common options include:
 - **First-Purchase Driver:** turn new subscribers or sign-ups into first-time buyers.
 - **[Cart Saver]({% link _journeys/cart-saver-route.md %}):** recover abandoned carts with a predictable route.
 - **[AI Cart Saver]({% link _journeys/ai-cart-saver-playbook.md %}):** recover carts with conversational, context-aware follow-up.
-- **Browse Recovery:** re-engage customers who viewed products without buying.
+- **[Browse Recovery]({% link _journeys/browse-recovery-playbook.md %}):** re-engage customers who viewed products without buying.
 - **[Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}):** recommend products in real time from customer behavior and product context.
 - **Complete-the-Look:** suggest complementary products.
 - **Price-Drop Pouncer:** notify interested shoppers when a product price changes.
@@ -128,7 +128,7 @@ If you are unsure where to start, choose the mission that matches the first bott
 | --- | --- |
 | Not enough reachable customers | Captures, Subscriber Booster, Property Collector, or Welcome Booster |
 | Customers abandon carts | [Cart Saver]({% link _journeys/cart-saver-route.md %}) or [AI Cart Saver]({% link _journeys/ai-cart-saver-playbook.md %}) |
-| Visitors browse but do not buy | Browse Recovery, [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}), or First-Purchase Driver |
+| Visitors browse but do not buy | [Browse Recovery]({% link _journeys/browse-recovery-playbook.md %}), [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}), or First-Purchase Driver |
 | Buyers do not return | Replenishment Driver, Soft Reactivation, or Cross-Sell Driver |
 | Customers have gone cold | Dormant Revival or Sunset Saver |
 | You have a timed announcement | Classic Broadcast, Holiday Hype, Launch Teaser, or Clearance Clean-out |
@@ -159,6 +159,7 @@ Keep reading:
 - [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %})
 - [Cart Saver route]({% link _journeys/cart-saver-route.md %})
 - [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %})
+- [Browse Recovery playbook]({% link _journeys/browse-recovery-playbook.md %})
 - [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %})
 - [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
 - [Review Builder playbook]({% link _journeys/review-builder-playbook.md %})
@@ -180,6 +181,7 @@ Keep reading:
 - [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %})
+- [Browse Recovery playbook]({% link _journeys/browse-recovery-playbook.md %})
 - [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %})
 - [How Hellotext decides whether a playbook can send]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [First wins starter pack]({% link _getting-started/first-wins-starter-pack.md %})

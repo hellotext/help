@@ -33,6 +33,8 @@ It is a good fit when:
 
 If cart recovery should react to product context, customer replies, objections, recommendations, or handoff decisions, use [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %}) instead.
 
+If the customer only viewed products and never added anything to cart or checkout, use [Browse Recovery playbook]({% link _journeys/browse-recovery-playbook.md %}) instead.
+
 ## What it needs before launch
 
 Before publishing the route, confirm the basics.
@@ -136,6 +138,7 @@ Tune one part at a time: wait time, message copy, offer, audience, channel, or s
 ## Related guides
 
 - [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %})
+- [Browse Recovery playbook]({% link _journeys/browse-recovery-playbook.md %})
 - [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %})
 - [Getting started with journeys]({% link _journeys/getting-started-with-journeys.md %})
 - [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %})

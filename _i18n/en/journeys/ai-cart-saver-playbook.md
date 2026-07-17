@@ -33,6 +33,8 @@ It is a good fit when:
 
 If you only need one or two fixed reminders, use [Cart Saver route]({% link _journeys/cart-saver-route.md %}) instead. For the comparison, see [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
 
+If the customer viewed products but never created a cart or checkout, use [Browse Recovery playbook]({% link _journeys/browse-recovery-playbook.md %}) instead.
+
 ## What it needs before launch
 
 Before enabling AI Cart Saver, confirm the setup it depends on.
@@ -130,6 +132,7 @@ Tune one thing at a time: offer settings, tone, channel selection, handoff targe
 
 - [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %})
 - [Cart Saver route]({% link _journeys/cart-saver-route.md %})
+- [Browse Recovery playbook]({% link _journeys/browse-recovery-playbook.md %})
 - [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [How Hellotext decides whether a playbook can send]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})

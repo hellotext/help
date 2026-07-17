@@ -33,6 +33,8 @@ Encaja bien cuando:
 
 Si solo necesitas uno o dos recordatorios fijos, usa [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}). Para comparar ambas opciones, mira [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
 
+Si el cliente vio productos pero nunca creó un carrito o checkout, usa [Playbook Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}).
+
 ## Qué necesita antes del lanzamiento
 
 Antes de habilitar Recuperador de Carritos con IA, confirma la configuración de la que depende.
@@ -130,6 +132,7 @@ Ajusta una cosa por vez: configuración de oferta, tono, selección de canal, de
 
 - [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %})
 - [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %})
+- [Playbook Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %})
 - [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
