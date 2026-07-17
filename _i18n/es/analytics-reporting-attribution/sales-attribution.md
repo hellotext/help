@@ -9,6 +9,8 @@ En Hellotext diseñamos nuestro modelo de tarifas para que el crecimiento de tu 
 1. **Impacto inicial**
 Cuando envías un mensaje a un cliente con un enlace corto a tu e‑commerce, se abre una ventana de **24  horas** para que esa interacción genere la compra.
 
+En las **rutas**, esta ventana inicial solo se aplica a los mensajes enviados con plantillas de marketing. Las plantillas no comerciales —como las de estado de una orden, consentimiento u otras notificaciones operativas— no abren una ventana de atribución de 24 horas.
+
 2. **Extensión automática**
 Si el cliente hace clic en el enlace, extendemos la ventana en ese dispositivo por **7 días adicionales**.
 
