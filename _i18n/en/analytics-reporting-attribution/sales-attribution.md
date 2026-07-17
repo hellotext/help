@@ -11,6 +11,8 @@ Before attributing the sale, we check the latest tracked click before purchase. 
 **1. Initial Impact**
 When you send a message to a customer with a short link to your e‑commerce site, a **24‑hour** window opens during which that interaction can generate a sale.
 
+For **routes**, this initial window applies only to messages sent with marketing templates. Non‑commercial templates—such as order status, consent, or other operational notifications—do not open a 24‑hour attribution window.
+
 **2. Automatic Extension**
 If the customer clicks the link, we extend the window on that device for an additional **7 days**.
 
