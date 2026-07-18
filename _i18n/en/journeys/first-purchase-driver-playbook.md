@@ -36,7 +36,7 @@ First-Purchase Driver works well after captures and welcome moments. A capture o
 
 It also complements [Browse Recovery]({% link _journeys/browse-recovery-playbook.md %}), [Cart Saver route]({% link _journeys/cart-saver-route.md %}), and [AI Cart Saver]({% link _journeys/ai-cart-saver-playbook.md %}). Use the signal to decide the owner: signup without an order belongs to First-Purchase Driver, product browsing belongs to Browse Recovery, and cart or checkout abandonment belongs to cart recovery.
 
-Do not use it for customers who already bought. For repeat purchase, use replenishment, cross-sell, reactivation, or another post-purchase playbook when available.
+Do not use it for customers who already bought. For repeat purchase, use [Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}), cross-sell, reactivation, or another post-purchase playbook when available.
 
 ## What it needs before launch
 
@@ -103,7 +103,7 @@ Use the customer signal to decide the owner.
 | Viewed products but did not add to cart | Browse Recovery |
 | Added products to cart or started checkout, then left | Cart Saver route or AI Cart Saver |
 | Asked for advice, comparisons, sizes, alternatives, or recommendations | Smart Recommender |
-| Already bought and should buy again | Replenishment, cross-sell, or reactivation playbook when available |
+| Already bought and should buy again | [Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}), cross-sell, or reactivation playbook when available |
 
 First-Purchase Driver, Browse Recovery, and AI Cart Saver can be active together when ownership is clear. First-Purchase Driver handles the first-order gap, Browse Recovery handles product-view intent, and cart recovery handles the stronger cart or checkout moment.
 
@@ -191,6 +191,7 @@ Tune one thing at a time: audience, channel, timing, message, offer, product con
 - [Cart Saver route]({% link _journeys/cart-saver-route.md %})
 - [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %})
+- [Replenishment Driver playbook]({% link _journeys/replenishment-driver-playbook.md %})
 - [Who can I message? Consent and subscriber status]({% link _audience/consent-and-subscriber-status.md %})
 - [Playbook reporting]({% link _analytics-reporting-attribution/playbook-reporting.md %})
 - [Sales attribution]({% link _analytics-reporting-attribution/sales-attribution.md %})

@@ -52,7 +52,7 @@ Opciones útiles pueden incluir:
 - [Impulsor de Primera Compra]({% link _journeys/first-purchase-driver-playbook.md %}) para nuevos suscriptores que todavía no compraron.
 - [Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}) para clientes que vieron productos pero no agregaron al carrito.
 - [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) cuando el contexto de producto e inventario es sólido.
-- Venta cruzada o recompra cuando tienes suficiente historial de pedidos.
+- [Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %}) o venta cruzada cuando tienes suficiente historial de pedidos.
 - [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) cuando las señales de pedido entregado son confiables y quieres reseñas de productos.
 - [Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}) cuando las señales de pedido entregado son confiables y quieres medir lealtad después de que el cliente ya vivió la experiencia con el producto.
 
@@ -131,6 +131,7 @@ Sigue leyendo: [Mide el éxito en tus primeros 7 días]({% link _getting-started
 - [Playbook Impulsor de Primera Compra]({% link _journeys/first-purchase-driver-playbook.md %})
 - [Playbook Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %})
 - [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
+- [Playbook Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %})
 - [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
 - [Playbook Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})
 - [Playbook Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %})

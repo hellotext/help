@@ -36,7 +36,7 @@ Impulsor de Primera Compra funciona bien después de capturas y momentos de bien
 
 También se complementa con [Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}), [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) y [Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}). Usa la señal para decidir quién debería ser dueño del momento: registro sin compra pertenece a Impulsor de Primera Compra, navegación de producto pertenece a Recuperación de Navegación y carrito o checkout abandonado pertenece a recuperación de carrito.
 
-No lo uses para clientes que ya compraron. Para recompra, usa recompra, venta cruzada, reactivación u otro playbook post-compra cuando esté disponible.
+No lo uses para clientes que ya compraron. Para recompra, usa [Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %}), venta cruzada, reactivación u otro playbook post-compra cuando esté disponible.
 
 ## Qué necesita antes del lanzamiento
 
@@ -103,7 +103,7 @@ Usa la señal del cliente para decidir quién debería ser dueño del momento.
 | Vio productos pero no agregó al carrito | Recuperación de Navegación |
 | Agregó productos al carrito o empezó checkout y se fue | Ruta Recuperador de Carritos o Recuperador de Carritos con IA |
 | Pidió consejo, comparaciones, talles, alternativas o recomendaciones | Recomendador Inteligente |
-| Ya compró y debería volver a comprar | Recompra, venta cruzada o reactivación cuando estén disponibles |
+| Ya compró y debería volver a comprar | [Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %}), venta cruzada o reactivación cuando estén disponibles |
 
 Impulsor de Primera Compra, Recuperación de Navegación y Recuperador de Carritos con IA pueden estar activos juntos cuando la propiedad está clara. Impulsor de Primera Compra maneja el hueco de primer pedido, Recuperación de Navegación maneja intención por vista de producto y recuperación de carrito maneja el momento más fuerte de carrito o checkout.
 
@@ -191,6 +191,7 @@ Ajusta una cosa por vez: audiencia, canal, timing, mensaje, oferta, contexto de 
 - [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %})
 - [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
+- [Playbook Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %})
 - [A quién puedo escribirle: consentimiento y estado de suscripción]({% link _audience/consent-and-subscriber-status.md %})
 - [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})
 - [Atribución de ventas]({% link _analytics-reporting-attribution/sales-attribution.md %})

@@ -52,7 +52,7 @@ Useful options can include:
 - [First-Purchase Driver]({% link _journeys/first-purchase-driver-playbook.md %}) for new subscribers who have not bought yet.
 - [Browse Recovery]({% link _journeys/browse-recovery-playbook.md %}) for customers who viewed products but did not add to cart.
 - [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}) when product and inventory context are strong.
-- Cross-sell or replenishment when you have enough order history.
+- [Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}) or cross-sell when you have enough order history.
 - [Review Builder]({% link _journeys/review-builder-playbook.md %}) when delivered-order signals are reliable and you want product reviews.
 - [NPS Pulse]({% link _journeys/nps-pulse-playbook.md %}) when delivered-order signals are reliable and you want loyalty feedback after customers have had the product experience.
 
@@ -131,6 +131,7 @@ Keep reading: [Measure success in your first 7 days]({% link _getting-started/me
 - [First-Purchase Driver playbook]({% link _journeys/first-purchase-driver-playbook.md %})
 - [Browse Recovery playbook]({% link _journeys/browse-recovery-playbook.md %})
 - [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %})
+- [Replenishment Driver playbook]({% link _journeys/replenishment-driver-playbook.md %})
 - [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
 - [Review Builder playbook]({% link _journeys/review-builder-playbook.md %})
 - [CSAT Pulse playbook]({% link _journeys/csat-pulse-playbook.md %})
