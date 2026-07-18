@@ -32,7 +32,7 @@ It is a good fit when:
 - Your team wants to recover earlier intent, not only abandoned carts.
 - You have a clear channel and consent path for customers who browse.
 
-Browse Recovery works well with IA Cart Saver. They are not mutually exclusive: Browse Recovery covers customers who only viewed products, while [Cart Saver route]({% link _journeys/cart-saver-route.md %}) or [IA Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %}) should usually take over once the customer adds products to cart or starts checkout.
+Browse Recovery works well with First-Purchase Driver and AI Cart Saver. They are not mutually exclusive: [First-Purchase Driver]({% link _journeys/first-purchase-driver-playbook.md %}) covers new reachable customers who have not bought yet, Browse Recovery covers customers who only viewed products, while [Cart Saver route]({% link _journeys/cart-saver-route.md %}) or [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %}) should usually take over once the customer adds products to cart or starts checkout.
 
 Do not use it as a conversational recommender. If the customer asks what to buy, compares options, or needs product guidance in chat, use [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %}).
 
@@ -87,18 +87,19 @@ Before sending, Hellotext can also consider:
 
 For the broader decision model, see [How Hellotext decides whether a playbook can send]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}).
 
-## How it works with IA Cart Saver and recommendations
+## How it works with AI Cart Saver and recommendations
 
 Use the signal to decide the owner.
 
 | Customer moment | Better fit |
 | --- | --- |
+| New signup or subscriber has not placed an order | First-Purchase Driver |
 | Viewed one or more products but did not add to cart | Browse Recovery |
-| Added products to cart or started checkout, then left | Cart Saver route or IA Cart Saver |
+| Added products to cart or started checkout, then left | Cart Saver route or AI Cart Saver |
 | Asked for advice, comparisons, sizes, alternatives, or recommendations | Smart Recommender |
 | Needs a custom AI job with manual intents and knowledge | Custom Agent |
 
-Browse Recovery and IA Cart Saver can be active together when ownership is clear. Browse Recovery should handle the earlier browsing moment, and IA Cart Saver should handle the stronger cart or checkout moment. If you also use the Cart Saver route template, keep that route scoped to the cart moment too. That way the playbooks complement each other without sending duplicate follow-ups for the same intent.
+Browse Recovery and AI Cart Saver can be active together when ownership is clear. Browse Recovery should handle the earlier browsing moment, and AI Cart Saver should handle the stronger cart or checkout moment. If you also use the Cart Saver route template, keep that route scoped to the cart moment too. That way the playbooks complement each other without sending duplicate follow-ups for the same intent.
 
 ## Review messages in the Playground
 
@@ -178,8 +179,9 @@ Tune one thing at a time: audience, channel, message, offer, timing, or handoff 
 - [Troubleshoot a playbook that did not trigger or send]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
 - [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})
 - [Tracking events]({% link _developers/tracking-events.md %})
+- [First-Purchase Driver playbook]({% link _journeys/first-purchase-driver-playbook.md %})
 - [Cart Saver route]({% link _journeys/cart-saver-route.md %})
-- [IA Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %})
+- [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %})
 - [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %})
 - [Who can I message? Consent and subscriber status]({% link _audience/consent-and-subscriber-status.md %})

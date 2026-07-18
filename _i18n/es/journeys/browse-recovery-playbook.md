@@ -32,7 +32,7 @@ Encaja bien cuando:
 - Tu equipo quiere recuperar intención más temprana, no solo carritos abandonados.
 - Tienes un camino claro de canal y consentimiento para clientes que navegan.
 
-Recuperación de Navegación va bien con Recuperador de Carritos con IA. No son excluyentes: Recuperación de Navegación cubre clientes que solo vieron productos, mientras que [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) o [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}) normalmente deberían tomar el control cuando el cliente agrega productos al carrito o empieza checkout.
+Recuperación de Navegación va bien con Impulsor de Primera Compra y Recuperador de Carritos con IA. No son excluyentes: [Impulsor de Primera Compra]({% link _journeys/first-purchase-driver-playbook.md %}) cubre nuevos clientes alcanzables que todavía no compraron, Recuperación de Navegación cubre clientes que solo vieron productos, mientras que [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) o [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}) normalmente deberían tomar el control cuando el cliente agrega productos al carrito o empieza checkout.
 
 No lo uses como recomendador conversacional. Si el cliente pregunta qué comprar, compara opciones o necesita guía de producto por chat, usa [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}).
 
@@ -93,6 +93,7 @@ Usa la señal para decidir quién debería ser dueño del momento.
 
 | Momento del cliente | Mejor opción |
 | --- | --- |
+| Nuevo registro o suscriptor que todavía no hizo un pedido | Impulsor de Primera Compra |
 | Vio uno o más productos pero no agregó al carrito | Recuperación de Navegación |
 | Agregó productos al carrito o empezó checkout y se fue | Ruta Recuperador de Carritos o Recuperador de Carritos con IA |
 | Pidió consejo, comparaciones, talles, alternativas o recomendaciones | Recomendador Inteligente |
@@ -178,6 +179,7 @@ Ajusta una cosa por vez: audiencia, canal, mensaje, oferta, timing o camino de d
 - [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Seguimiento de eventos]({% link _developers/tracking-events.md %})
+- [Playbook Impulsor de Primera Compra]({% link _journeys/first-purchase-driver-playbook.md %})
 - [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %})
 - [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})

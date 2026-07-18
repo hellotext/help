@@ -49,7 +49,7 @@ Empieza aquí cuando tienes señales de producto, navegación, suscripción o co
 
 Opciones útiles pueden incluir:
 
-- Seguimiento de primera compra para nuevos suscriptores que todavía no compraron.
+- [Impulsor de Primera Compra]({% link _journeys/first-purchase-driver-playbook.md %}) para nuevos suscriptores que todavía no compraron.
 - [Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}) para clientes que vieron productos pero no agregaron al carrito.
 - [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) cuando el contexto de producto e inventario es sólido.
 - Venta cruzada o recompra cuando tienes suficiente historial de pedidos.
@@ -128,6 +128,7 @@ Sigue leyendo: [Mide el éxito en tus primeros 7 días]({% link _getting-started
 - [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %})
 - [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
+- [Playbook Impulsor de Primera Compra]({% link _journeys/first-purchase-driver-playbook.md %})
 - [Playbook Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %})
 - [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
 - [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})

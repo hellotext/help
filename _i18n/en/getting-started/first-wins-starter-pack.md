@@ -49,7 +49,7 @@ Start here when you have product, browsing, subscription, or purchase signals.
 
 Useful options can include:
 
-- First-purchase follow-up for new subscribers who have not bought yet.
+- [First-Purchase Driver]({% link _journeys/first-purchase-driver-playbook.md %}) for new subscribers who have not bought yet.
 - [Browse Recovery]({% link _journeys/browse-recovery-playbook.md %}) for customers who viewed products but did not add to cart.
 - [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}) when product and inventory context are strong.
 - Cross-sell or replenishment when you have enough order history.
@@ -128,6 +128,7 @@ Keep reading: [Measure success in your first 7 days]({% link _getting-started/me
 - [Choose your first playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [Cart Saver route]({% link _journeys/cart-saver-route.md %})
 - [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %})
+- [First-Purchase Driver playbook]({% link _journeys/first-purchase-driver-playbook.md %})
 - [Browse Recovery playbook]({% link _journeys/browse-recovery-playbook.md %})
 - [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %})
 - [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
