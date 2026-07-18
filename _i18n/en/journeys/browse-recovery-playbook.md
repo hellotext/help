@@ -14,6 +14,7 @@ It can:
 - Notice repeated product interest within a recent window.
 - Check whether the customer has already purchased or moved into a stronger cart or checkout signal.
 - Use product, catalog, customer profile, channel, and consent context before a message is sent.
+- Use stock context when available, including low-stock urgency or the number of items left.
 - Send a reminder, product link, or helpful prompt when the playbook is eligible to act.
 - Skip, wait, or stop when the signal is stale, the customer is not eligible, another playbook is a better owner, or the message no longer makes sense.
 
@@ -31,7 +32,7 @@ It is a good fit when:
 - Your team wants to recover earlier intent, not only abandoned carts.
 - You have a clear channel and consent path for customers who browse.
 
-Do not use Browse Recovery as a replacement for cart recovery. If the customer already added products to cart or started checkout, use [Cart Saver route]({% link _journeys/cart-saver-route.md %}) or [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %}).
+Browse Recovery works well with IA Cart Saver. They are not mutually exclusive: Browse Recovery covers customers who only viewed products, while [Cart Saver route]({% link _journeys/cart-saver-route.md %}) or [IA Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %}) should usually take over once the customer adds products to cart or starts checkout.
 
 Do not use it as a conversational recommender. If the customer asks what to buy, compares options, or needs product guidance in chat, use [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %}).
 
@@ -44,6 +45,7 @@ Check that:
 - Your store, website, or custom tracking sends product-view activity.
 - Product views are tied to usable customer profiles when customers can be identified.
 - Product IDs, variants, names, images, and links match your catalog.
+- Stock or inventory data is current if you want messages to mention low stock or exact item counts.
 - Purchase, cart, and checkout activity can tell Hellotext when another playbook is a better fit.
 - The channel the playbook can use is connected and ready.
 - Customers have consent and are eligible for the channel.
@@ -59,7 +61,7 @@ Open **Playbooks**, click **Explore playbooks**, and choose **Browse Recovery**.
 The available cards can vary, but you may be able to review:
 
 - **Channels:** where Hellotext can send or continue the browse recovery conversation.
-- **Message or tone:** how the follow-up should sound when the playbook exposes message controls.
+- **Tone or Playground feedback:** how the generated follow-ups should learn what fits your business.
 - **Discounts or offers:** whether the playbook can use an incentive and under what limits.
 - **Escalation or assignment:** who should take over when a reply needs a person.
 
@@ -85,33 +87,35 @@ Before sending, Hellotext can also consider:
 
 For the broader decision model, see [How Hellotext decides whether a playbook can send]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}).
 
-## How it differs from cart recovery and recommendations
+## How it works with IA Cart Saver and recommendations
 
 Use the signal to decide the owner.
 
 | Customer moment | Better fit |
 | --- | --- |
 | Viewed one or more products but did not add to cart | Browse Recovery |
-| Added products to cart or started checkout, then left | Cart Saver route or AI Cart Saver |
+| Added products to cart or started checkout, then left | Cart Saver route or IA Cart Saver |
 | Asked for advice, comparisons, sizes, alternatives, or recommendations | Smart Recommender |
 | Needs a custom AI job with manual intents and knowledge | Custom Agent |
 
-If you run multiple revenue playbooks, keep ownership clear. Browse Recovery should not compete with cart recovery for the same customer moment.
+Browse Recovery and IA Cart Saver can be active together when ownership is clear. Browse Recovery should handle the earlier browsing moment, and IA Cart Saver should handle the stronger cart or checkout moment. If you also use the Cart Saver route template, keep that route scoped to the cart moment too. That way the playbooks complement each other without sending duplicate follow-ups for the same intent.
 
-## Message guidance
+## Review messages in the Playground
 
-The message should feel like a useful reminder, not a generic blast.
+Browse Recovery can generate personalized follow-ups from the customer, product, browsing, and channel context. You usually do not need to write every message by hand.
 
-Good browse recovery messages usually:
+Use the Playground to review sample messages before launch. Mark the examples you like and the examples you do not like, so Hellotext can learn the style, wording, and level of detail that fits your business.
 
-- Refer to the product or category the customer showed interest in.
-- Keep the copy short and easy to act on.
-- Include a useful product link when possible.
-- Offer help choosing if the customer may need guidance.
-- Use incentives carefully instead of discounting every browse signal.
-- Avoid sounding like surveillance. Do not over-explain tracking.
+When reviewing examples, look for:
 
-The best version depends on your brand, channel, product price point, and how customers normally buy.
+- Whether the message feels helpful for the viewed product or category.
+- Whether the tone matches your brand.
+- Whether the message is clear without sounding too pushy.
+- Whether low-stock urgency feels appropriate and uses accurate item counts when stock is included.
+- Whether product links, offers, or calls to action make sense.
+- Whether the wording avoids over-explaining tracking or making the customer feel watched.
+
+The more realistic the Playground examples are, the easier it is to teach the system what "good" looks like for your store.
 
 ## How to test it
 
@@ -122,6 +126,7 @@ Use a test customer profile that has channel consent, then:
 - View a real product page more than once.
 - Confirm the product-view activity appears on the customer profile.
 - Confirm the viewed product maps to the correct catalog item and link.
+- Test a low-stock product if the message should mention how many items are left.
 - Test a customer who views a product and then buys, which should prevent browse recovery.
 - Test a customer who views a product and then adds to cart, where cart recovery should usually take over.
 - Test a customer who is not eligible for the channel.
@@ -174,7 +179,7 @@ Tune one thing at a time: audience, channel, message, offer, timing, or handoff 
 - [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})
 - [Tracking events]({% link _developers/tracking-events.md %})
 - [Cart Saver route]({% link _journeys/cart-saver-route.md %})
-- [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %})
+- [IA Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %})
 - [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %})
 - [Who can I message? Consent and subscriber status]({% link _audience/consent-and-subscriber-status.md %})

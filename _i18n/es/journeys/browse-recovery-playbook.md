@@ -14,6 +14,7 @@ Puede:
 - Detectar interés repetido por un producto en una ventana reciente.
 - Revisar si el cliente ya compró o pasó a una señal más fuerte de carrito o checkout.
 - Usar contexto de producto, catálogo, perfil del cliente, canal y consentimiento antes de enviar un mensaje.
+- Usar contexto de stock cuando está disponible, incluyendo urgencia por bajo stock o la cantidad de unidades restantes.
 - Enviar un recordatorio, link de producto o invitación útil cuando el playbook es elegible para actuar.
 - Omitir, esperar o detenerse cuando la señal es vieja, el cliente no es elegible, otro playbook es mejor dueño del momento o el mensaje ya no tiene sentido.
 
@@ -31,7 +32,7 @@ Encaja bien cuando:
 - Tu equipo quiere recuperar intención más temprana, no solo carritos abandonados.
 - Tienes un camino claro de canal y consentimiento para clientes que navegan.
 
-No uses Recuperación de Navegación como reemplazo de recuperación de carrito. Si el cliente ya agregó productos al carrito o empezó checkout, usa [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) o [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}).
+Recuperación de Navegación va bien con Recuperador de Carritos con IA. No son excluyentes: Recuperación de Navegación cubre clientes que solo vieron productos, mientras que [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) o [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}) normalmente deberían tomar el control cuando el cliente agrega productos al carrito o empieza checkout.
 
 No lo uses como recomendador conversacional. Si el cliente pregunta qué comprar, compara opciones o necesita guía de producto por chat, usa [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}).
 
@@ -44,6 +45,7 @@ Revisa que:
 - Tu tienda, sitio web o tracking personalizado envíe actividad de vista de producto.
 - Las vistas de producto estén vinculadas a perfiles de cliente usables cuando se puede identificar al cliente.
 - Identificadores de producto, variantes, nombres, imágenes y links coincidan con tu catálogo.
+- El stock o inventario esté actualizado si quieres que los mensajes mencionen bajo stock o cantidades exactas disponibles.
 - La actividad de compra, carrito y checkout pueda decirle a Hellotext cuándo otro playbook encaja mejor.
 - El canal que puede usar el playbook esté conectado y listo.
 - Los clientes tengan consentimiento y sean elegibles para el canal.
@@ -59,7 +61,7 @@ Abre **Playbooks**, haz click en **Explorar playbooks** y elige **Recuperación 
 Las tarjetas disponibles pueden variar, pero podrías revisar:
 
 - **Canales:** dónde Hellotext puede enviar o continuar la conversación de recuperación de navegación.
-- **Mensaje o tono:** cómo debería sonar el seguimiento cuando el playbook expone controles de mensaje.
+- **Tono o feedback en Playground:** cómo deberían aprender los seguimientos generados qué encaja con tu negocio.
 - **Descuentos u ofertas:** si el playbook puede usar un incentivo y bajo qué límites.
 - **Derivación o asignación:** quién debería tomar la conversación cuando una respuesta necesita una persona.
 
@@ -85,7 +87,7 @@ Antes de enviar, Hellotext también puede considerar:
 
 Para el modelo general de decisión, mira [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}).
 
-## Cómo se diferencia de carrito y recomendaciones
+## Cómo funciona con Recuperador de Carritos con IA y recomendaciones
 
 Usa la señal para decidir quién debería ser dueño del momento.
 
@@ -96,22 +98,24 @@ Usa la señal para decidir quién debería ser dueño del momento.
 | Pidió consejo, comparaciones, talles, alternativas o recomendaciones | Recomendador Inteligente |
 | Necesita un trabajo de IA a medida con intenciones y conocimiento propios | Agente Personalizado |
 
-Si ejecutas varios playbooks de ingresos, deja clara la propiedad. Recuperación de Navegación no debería competir con recuperación de carrito por el mismo momento del cliente.
+Recuperación de Navegación y Recuperador de Carritos con IA pueden estar activos juntos cuando la propiedad está clara. Recuperación de Navegación debería manejar el momento anterior de navegación, y Recuperador de Carritos con IA debería manejar el momento más fuerte de carrito o checkout. Si también usas la plantilla de ruta Recuperador de Carritos, mantenla enfocada en el momento de carrito. Así los playbooks se complementan sin duplicar seguimientos para la misma intención.
 
-## Guía para el mensaje
+## Revisa mensajes en el Playground
 
-El mensaje debería sentirse como un recordatorio útil, no como un envío genérico.
+Recuperación de Navegación puede generar seguimientos personalizados usando contexto del cliente, producto, navegación y canal. Normalmente no necesitas escribir cada mensaje a mano.
 
-Los buenos mensajes de recuperación de navegación suelen:
+Usa el Playground para revisar ejemplos de mensajes antes del lanzamiento. Marca los ejemplos que te gustan y los que no te gustan, para que Hellotext pueda aprender el estilo, wording y nivel de detalle que encajan con tu negocio.
 
-- Referirse al producto o categoría por la que el cliente mostró interés.
-- Mantener el texto corto y fácil de accionar.
-- Incluir un link de producto útil cuando sea posible.
-- Ofrecer ayuda para elegir si el cliente podría necesitar guía.
-- Usar incentivos con cuidado en lugar de descontar cada señal de navegación.
-- Evitar sonar invasivos. No sobreexpliques el tracking.
+Cuando revises ejemplos, mira:
 
-La mejor versión depende de tu marca, canal, precio del producto y cómo suelen comprar tus clientes.
+- Si el mensaje se siente útil para el producto o categoría vista.
+- Si el tono coincide con tu marca.
+- Si el mensaje es claro sin sonar demasiado insistente.
+- Si la urgencia por bajo stock se siente adecuada y usa cantidades correctas cuando se incluye stock.
+- Si links de producto, ofertas o llamados a la acción tienen sentido.
+- Si el texto evita sobreexplicar el tracking o hacer que el cliente se sienta observado.
+
+Mientras más realistas sean los ejemplos del Playground, más fácil es entrenar al sistema sobre cómo se ve un buen mensaje para tu tienda.
 
 ## Cómo probarlo
 
@@ -122,6 +126,7 @@ Usa un perfil de cliente de prueba que tenga consentimiento de canal, luego:
 - Mira una página real de producto más de una vez.
 - Confirma que la actividad de vista de producto aparezca en el perfil del cliente.
 - Confirma que el producto visto se conecte al ítem y link correctos del catálogo.
+- Prueba un producto con bajo stock si el mensaje debería mencionar cuántas unidades quedan.
 - Prueba un cliente que ve un producto y luego compra, lo que debería evitar recuperación de navegación.
 - Prueba un cliente que ve un producto y luego agrega al carrito, donde recuperación de carrito normalmente debería tomar el control.
 - Prueba un cliente que no es elegible para el canal.
