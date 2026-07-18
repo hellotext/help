@@ -52,7 +52,7 @@ Useful options can include:
 - [First-Purchase Driver]({% link _journeys/first-purchase-driver-playbook.md %}) for new subscribers who have not bought yet.
 - [Browse Recovery]({% link _journeys/browse-recovery-playbook.md %}) for customers who viewed products but did not add to cart.
 - [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}) when product and inventory context are strong.
-- [Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}) or cross-sell when you have enough order history.
+- [Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}) or [Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}) when you have enough order history.
 - [Review Builder]({% link _journeys/review-builder-playbook.md %}) when delivered-order signals are reliable and you want product reviews.
 - [NPS Pulse]({% link _journeys/nps-pulse-playbook.md %}) when delivered-order signals are reliable and you want loyalty feedback after customers have had the product experience.
 

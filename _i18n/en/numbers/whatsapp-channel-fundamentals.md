@@ -116,7 +116,8 @@ Before your first WhatsApp launch, confirm that:
 4. Replies go to the right Inbox owners.
 5. Playbooks, routes, AI agents, or campaigns have been tested.
 6. Handoff and fallback paths are clear.
-7. Reporting and attribution are ready for review after launch.
+
+After launch, Hellotext shows reporting and attribution automatically so you can review outcomes.
 
 Keep reading: [Go-live checklist before you send]({% link _getting-started/go-live-checklist.md %}).
 

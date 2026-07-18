@@ -13,7 +13,7 @@ Puede:
 - Reaccionar cuando un cliente deja un carrito o checkout sin completar la compra.
 - Usar productos del carrito, link de checkout, contexto de producto, datos del perfil del cliente, conversación reciente y señales de compra.
 - Elegir un camino de envío según alcanzabilidad del cliente y preparación del canal.
-- Incluir contexto de producto, un link de checkout, texto personalizado y una oferta cuando el playbook está configurado para usar una.
+- Incluir contexto de producto, un link de checkout, texto personalizado y un descuento cuando el playbook está configurado para usar uno.
 - Esperar, omitir o detenerse cuando el cliente no es elegible, compró recientemente, no puede ser alcanzado o no tiene un link de checkout usable.
 - Derivar a una persona o equipo cuando la conversación necesita intervención humana.
 
@@ -60,7 +60,7 @@ Abre **Playbooks**, haz click en **Explorar playbooks** y elige **Recuperador de
 Las tarjetas disponibles pueden variar, pero podrías revisar:
 
 - **Canales:** dónde Hellotext puede enviar o continuar la conversación de recuperación de carrito.
-- **Descuentos u ofertas:** si el playbook puede usar un incentivo y bajo qué límites.
+- **Estrategia de descuento:** si el playbook sigue las reglas de oferta del ecommerce, puede crear descuentos con IA hasta un porcentaje máximo o envía sin descuentos.
 - **Tono:** cómo debería sonar el seguimiento generado.
 - **Derivación o asignación:** quién debería tomar la conversación cuando necesita una persona.
 
@@ -112,7 +112,7 @@ Usa un perfil de cliente de prueba que tenga consentimiento de canal, luego:
 - Confirma que la derivación vaya a la persona o equipo correcto.
 - Revisa los primeros mensajes, omisiones, respuestas y reportes.
 
-Mantén el primer lanzamiento acotado hasta que tu equipo revise conversaciones reales y confirme que productos, links, ofertas, timing y derivaciones funcionan como esperaban.
+Mantén el primer lanzamiento acotado hasta que tu equipo revise conversaciones reales y confirme que productos, links, descuentos, timing y derivaciones funcionan como esperaban.
 
 ## Qué revisar después del lanzamiento
 
@@ -121,12 +121,12 @@ Durante los primeros días, revisa:
 - Cuántos perfiles de cliente entraron en el playbook.
 - Qué mensajes se enviaron, demoraron, omitieron o derivaron.
 - Si los links de checkout y el contexto de producto fueron correctos.
-- Si las ofertas se usaron como esperabas.
+- Si los descuentos se usaron como esperabas.
 - Si las respuestas llegaron al Inbox con contexto suficiente.
 - Si los clientes compraron antes de que saliera un seguimiento.
 - Conversión, ingresos, bajas, tasa de derivación y mensajes fallidos.
 
-Ajusta una cosa por vez: configuración de oferta, tono, selección de canal, destino de derivación o audiencia elegible.
+Ajusta una cosa por vez: estrategia de descuento, tono, selección de canal, destino de derivación o audiencia elegible.
 
 ## Guías relacionadas
 

@@ -15,7 +15,7 @@ It can:
 - Use product-family defaults or average reorder patterns when a product-specific value is missing.
 - Learn from the customer's own purchase cycle when enough history exists.
 - Schedule a reminder near the estimated refill window.
-- Include a reorder link, product link, or incentive when those options are available and configured.
+- Include a reorder link, product link, or discount when those options are available and configured.
 - Send optional product tips or care messages after purchase when that block is available.
 - Skip, wait, or stop when the customer already reordered, the product is not eligible, another playbook is a better owner, or the customer cannot be reached.
 
@@ -35,7 +35,7 @@ It is a good fit for products such as:
 
 It works best when Hellotext can see order history, product identity, quantity, and a refill timing signal for the SKU or product family.
 
-Do not use it for products that are usually bought once and kept for a long time. For related product suggestions after a purchase, use a cross-sell playbook when available. For customers who have gone cold across the brand, use a reactivation playbook. For customers who have not bought yet, use [First-Purchase Driver]({% link _journeys/first-purchase-driver-playbook.md %}).
+Do not use it for products that are usually bought once and kept for a long time. For related product suggestions after a purchase, use [Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}). For customers who have gone cold across the brand, use a reactivation playbook. For customers who have not bought yet, use [First-Purchase Driver]({% link _journeys/first-purchase-driver-playbook.md %}).
 
 ## What it needs before launch
 
@@ -48,12 +48,13 @@ Check that:
 - Replenishable products are identifiable by product, SKU, category, or product family.
 - Usage windows are available, such as a `usage_duration_days` value, product-family default, or internal average.
 - Purchase dates and quantities are reliable enough to estimate when a customer may need more.
-- Reorder links, product links, prices, stock, and optional offers are current.
+- Reorder links, product links, prices, stock, and optional discount rules are current.
 - The channel the playbook can use is connected and ready.
 - Customers have consent and are eligible for the channel.
-- Reporting is ready so you can review scheduled, sent, skipped, clicked, reordered, and attributed outcomes.
 
 For setup validation, use [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %}). For custom tracking, use [Tracking events]({% link _developers/tracking-events.md %}).
+
+After launch, use the automatically generated reports to review scheduled, sent, skipped, clicked, reordered, and attributed outcomes.
 
 ## What you can configure
 
@@ -63,7 +64,7 @@ The available cards can vary, but the playbook may expose:
 
 - **Usage window:** how many days a product, SKU, or product family usually lasts.
 - **Product eligibility:** which products, categories, or families should be included or excluded.
-- **Offer or incentive:** whether the reminder can include free shipping, a discount, or another refill incentive.
+- **Discount strategy:** whether the reminder follows existing ecommerce offer rules, can use AI-driven discounts up to a maximum percentage, or sends without discounts.
 - **Channels:** where Hellotext can send or continue the conversation.
 - **Tone or Playground feedback:** how generated follow-ups should learn what fits your business.
 - **Escalation or assignment:** who should take over when a reply needs a person.
@@ -90,7 +91,7 @@ Before sending, Hellotext can also consider:
 - Whether the purchase signal is tied to a usable customer profile.
 - Whether the purchased product is eligible for replenishment.
 - Whether the customer already reordered the same product or a replacement.
-- Whether the product, price, stock, offer, or link still makes sense.
+- Whether the product, price, stock, discount, or link still makes sense.
 - Whether the profile can receive a message in an eligible channel.
 - Whether another playbook is already a better fit for this moment.
 - Whether consent, timing, frequency, or channel rules allow a send.
@@ -104,7 +105,7 @@ Use the customer moment to decide the owner.
 | Customer moment | Better fit |
 | --- | --- |
 | Customer may be running out of a consumable product | Replenishment Driver |
-| Customer bought one product and may want a related product | Cross-sell playbook when available |
+| Customer bought one product and may want a related product | [Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}) |
 | Customer received an order and should review the product | [Review Builder]({% link _journeys/review-builder-playbook.md %}) |
 | Customer should give loyalty feedback after delivery | [NPS Pulse]({% link _journeys/nps-pulse-playbook.md %}) |
 | Customer has been inactive for a long period | Reactivation or win-back playbook when available |
@@ -122,7 +123,7 @@ When reviewing examples, look for:
 
 - Whether the message sounds like a helpful refill reminder, not a pressure tactic.
 - Whether the copy says the customer may be running low instead of claiming certainty.
-- Whether the product, quantity, link, and offer are relevant.
+- Whether the product, quantity, link, and discount are relevant.
 - Whether the timing feels natural for the product's usage window.
 - Whether replies can naturally continue in the channel or reach the Inbox when needed.
 
@@ -141,7 +142,7 @@ Use test customer profiles that have channel consent, then:
 - Test a customer who reorders before the reminder, which should prevent or update the replenishment follow-up.
 - Test a non-replenishable product that should be excluded.
 - Test a customer who is not eligible for the channel.
-- Review reorder links, product links, offers, tips, and attribution.
+- Review reorder links, product links, discounts, tips, and attribution.
 - Send a realistic reply and confirm it reaches the right teammate or team if handoff is available.
 
 If tracking is custom, also confirm that purchase events, product identifiers, quantities, timestamps, and customer identifiers match what Hellotext expects.
@@ -173,10 +174,10 @@ During the first days, review:
 - Which reminders were scheduled, sent, delayed, skipped, or blocked.
 - Which products had missing or suspicious usage windows.
 - Clicks, repeat purchases, attributed revenue, opt-outs, replies, and failed messages.
-- Whether incentives increased repeat orders or reduced margin.
-- Whether Replenishment Driver overlaps with cross-sell, reactivation, or campaigns.
+- Whether discounts increased repeat orders or reduced margin.
+- Whether Replenishment Driver overlaps with [Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}), reactivation, or campaigns.
 
-Tune one thing at a time when the playbook exposes that control: product eligibility, usage window, message, offer, channel, or handoff path.
+Tune one thing at a time when the playbook exposes that control: product eligibility, usage window, message, discount strategy, channel, or handoff path.
 
 ## Related guides
 
@@ -191,6 +192,7 @@ Tune one thing at a time when the playbook exposes that control: product eligibi
 - [Tracking events]({% link _developers/tracking-events.md %})
 - [Connect Shopify]({% link _integrations/connect-shopify.md %})
 - [Connect your catalog to WhatsApp]({% link _integrations/connect-catalog-to-whatsapp.md %})
+- [Cross-Sell Driver playbook]({% link _journeys/cross-sell-driver-playbook.md %})
 - [Review Builder playbook]({% link _journeys/review-builder-playbook.md %})
 - [NPS Pulse playbook]({% link _journeys/nps-pulse-playbook.md %})
 - [First-Purchase Driver playbook]({% link _journeys/first-purchase-driver-playbook.md %})

@@ -15,7 +15,7 @@ Puede:
 - Usar valores por defecto de familia de producto o patrones promedio de recompra cuando falta un valor específico del producto.
 - Aprender del ciclo propio del cliente cuando hay suficiente historial.
 - Programar un recordatorio cerca de la ventana estimada de reposición.
-- Incluir un link de recompra, link de producto o incentivo cuando esas opciones están disponibles y configuradas.
+- Incluir un link de recompra, link de producto o descuento cuando esas opciones están disponibles y configuradas.
 - Enviar tips de producto o cuidado después de la compra cuando ese bloque está disponible.
 - Omitir, esperar o detenerse cuando el cliente ya recompró, el producto no es elegible, otro playbook es mejor dueño del momento o el cliente no puede ser alcanzado.
 
@@ -35,7 +35,7 @@ Encaja bien para productos como:
 
 Funciona mejor cuando Hellotext puede ver historial de pedidos, identidad de producto, cantidad y una señal de timing de reposición para el SKU o familia de producto.
 
-No lo uses para productos que normalmente se compran una vez y duran mucho tiempo. Para sugerir productos relacionados después de una compra, usa un playbook de venta cruzada cuando esté disponible. Para clientes que quedaron fríos a nivel marca, usa un playbook de reactivación. Para clientes que todavía no compraron, usa [Impulsor de Primera Compra]({% link _journeys/first-purchase-driver-playbook.md %}).
+No lo uses para productos que normalmente se compran una vez y duran mucho tiempo. Para sugerir productos relacionados después de una compra, usa [Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %}). Para clientes que quedaron fríos a nivel marca, usa un playbook de reactivación. Para clientes que todavía no compraron, usa [Impulsor de Primera Compra]({% link _journeys/first-purchase-driver-playbook.md %}).
 
 ## Qué necesita antes del lanzamiento
 
@@ -48,12 +48,13 @@ Revisa que:
 - Los productos reponibles puedan identificarse por producto, SKU, categoría o familia de producto.
 - Las ventanas de uso estén disponibles, como un valor `usage_duration_days`, valor por defecto de familia de producto o promedio interno.
 - Fechas de compra y cantidades sean lo suficientemente confiables para estimar cuándo un cliente podría necesitar más.
-- Links de recompra, links de producto, precios, stock y ofertas opcionales estén actualizados.
+- Links de recompra, links de producto, precios, stock y reglas de descuento opcionales estén actualizados.
 - El canal que puede usar el playbook esté conectado y listo.
 - Los clientes tengan consentimiento y sean elegibles para el canal.
-- Los reportes estén listos para revisar recordatorios programados, enviados, omitidos, clics, recompras y resultados atribuidos.
 
 Para validar la configuración, usa [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %}). Para tracking personalizado, usa [Seguimiento de eventos]({% link _developers/tracking-events.md %}).
+
+Después de activar el playbook, usa los reportes automáticos para revisar recordatorios programados, enviados, omitidos, clics, recompras y resultados atribuidos.
 
 ## Qué puedes configurar
 
@@ -63,7 +64,7 @@ Las tarjetas disponibles pueden variar, pero el playbook puede mostrar:
 
 - **Ventana de uso:** cuántos días suele durar un producto, SKU o familia de producto.
 - **Elegibilidad de producto:** qué productos, categorías o familias deberían incluirse o excluirse.
-- **Oferta o incentivo:** si el recordatorio puede incluir envío gratis, descuento u otro incentivo de reposición.
+- **Estrategia de descuento:** si el recordatorio sigue las reglas de oferta del ecommerce, puede usar descuentos con IA hasta un porcentaje máximo o envía sin descuentos.
 - **Canales:** dónde Hellotext puede enviar o continuar la conversación.
 - **Tono o feedback en Playground:** cómo deberían aprender los seguimientos generados qué encaja con tu negocio.
 - **Derivación o asignación:** quién debería tomar la conversación cuando una respuesta necesita una persona.
@@ -90,7 +91,7 @@ Antes de enviar, Hellotext también puede considerar:
 - Si la señal de compra está conectada a un perfil del cliente usable.
 - Si el producto comprado es elegible para reposición.
 - Si el cliente ya recompró el mismo producto o un reemplazo.
-- Si el producto, precio, stock, oferta o link todavía tiene sentido.
+- Si el producto, precio, stock, descuento o link todavía tiene sentido.
 - Si el perfil puede recibir un mensaje en un canal elegible.
 - Si otro playbook ya encaja mejor para este momento.
 - Si consentimiento, timing, frecuencia o reglas de canal permiten el envío.
@@ -104,7 +105,7 @@ Usa el momento del cliente para decidir quién debería ser dueño.
 | Momento del cliente | Mejor opción |
 | --- | --- |
 | El cliente podría estar por quedarse sin un producto consumible | Impulsor de Recompra |
-| El cliente compró un producto y podría querer uno relacionado | Playbook de venta cruzada cuando esté disponible |
+| El cliente compró un producto y podría querer uno relacionado | [Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %}) |
 | El cliente recibió un pedido y debería reseñar el producto | [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) |
 | El cliente debería dar feedback de lealtad después de la entrega | [Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}) |
 | El cliente lleva mucho tiempo inactivo | Reactivación o recuperación de clientes cuando esté disponible |
@@ -122,7 +123,7 @@ Cuando revises ejemplos, mira:
 
 - Si el mensaje suena como un recordatorio útil de reposición, no como presión.
 - Si el texto dice que el cliente podría estar por quedarse sin producto en lugar de afirmarlo con certeza.
-- Si producto, cantidad, link y oferta son relevantes.
+- Si producto, cantidad, link y descuento son relevantes.
 - Si el timing se siente natural para la ventana de uso del producto.
 - Si las respuestas pueden continuar naturalmente en el canal o llegar al Inbox cuando hace falta.
 
@@ -141,7 +142,7 @@ Usa perfiles del cliente de prueba que tengan consentimiento de canal, luego:
 - Prueba un cliente que recompra antes del recordatorio, lo que debería evitar o actualizar el seguimiento de reposición.
 - Prueba un producto no reponible que debería quedar excluido.
 - Prueba un cliente que no es elegible para el canal.
-- Revisa links de recompra, links de producto, ofertas, consejos y atribución.
+- Revisa links de recompra, links de producto, descuentos, consejos y atribución.
 - Envía una respuesta realista y confirma que llegue a la persona o equipo correcto si hay derivación disponible.
 
 Si el tracking es personalizado, confirma también que eventos de compra, identificadores de producto, cantidades, timestamps e identificadores del cliente coincidan con lo que Hellotext espera.
@@ -173,10 +174,10 @@ Durante los primeros días, revisa:
 - Qué recordatorios se programaron, enviaron, demoraron, omitieron o bloquearon.
 - Qué productos tienen ventanas de uso faltantes o sospechosas.
 - Clics, recompras, ingresos atribuidos, bajas, respuestas y mensajes fallidos.
-- Si los incentivos aumentan recompras o solo reducen margen.
-- Si Impulsor de Recompra se superpone con venta cruzada, reactivación o campañas.
+- Si los descuentos aumentan recompras o solo reducen margen.
+- Si Impulsor de Recompra se superpone con [Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %}), reactivación o campañas.
 
-Ajusta una cosa por vez cuando el playbook exponga ese control: elegibilidad de producto, ventana de uso, mensaje, oferta, canal o camino de derivación.
+Ajusta una cosa por vez cuando el playbook exponga ese control: elegibilidad de producto, ventana de uso, mensaje, estrategia de descuento, canal o camino de derivación.
 
 ## Guías relacionadas
 
@@ -191,6 +192,7 @@ Ajusta una cosa por vez cuando el playbook exponga ese control: elegibilidad de 
 - [Seguimiento de eventos]({% link _developers/tracking-events.md %})
 - [Conecta Shopify]({% link _integrations/connect-shopify.md %})
 - [Conecta tu catálogo a WhatsApp]({% link _integrations/connect-catalog-to-whatsapp.md %})
+- [Playbook Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %})
 - [Playbook Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})
 - [Playbook Pulso NPS]({% link _journeys/nps-pulse-playbook.md %})
 - [Playbook Impulsor de Primera Compra]({% link _journeys/first-purchase-driver-playbook.md %})

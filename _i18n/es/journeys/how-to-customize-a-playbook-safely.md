@@ -39,10 +39,10 @@ Considera deshabilitar temporalmente solo cuando el cambio pueda afectar a clien
 - Estás cambiando el prompt de un playbook que lo permite y el agente podría responder de forma incorrecta.
 - Estás cambiando intenciones de un agente personalizado.
 - Estás modificando canales de entrada o salida.
-- Estás cambiando descuentos, incentivos u ofertas.
+- Estás cambiando descuentos o reglas de oferta del ecommerce.
 - Estás editando una ruta con pasos, condiciones, ramas o asignaciones.
 
-Para playbooks activos de venta, el riesgo depende de qué tarjeta estás cambiando. Muchos ajustes no afectan clientes inmediatamente, pero un cambio de prompt, oferta, canal o lógica de ruta sí merece prueba antes de volver a ampliar.
+Para playbooks activos de venta, el riesgo depende de qué tarjeta estás cambiando. Muchos ajustes no afectan clientes inmediatamente, pero un cambio de prompt, estrategia de descuento, canal o lógica de ruta sí merece prueba antes de volver a ampliar.
 
 ## Qué puedes personalizar
 
@@ -54,7 +54,7 @@ Usa esta tabla como mapa rápido:
 | **Intenciones** | Agentes personalizados y playbooks personalizados | Qué mensajes de clientes activan ese agente. |
 | **Conocimiento** | Agentes de IA de venta o atención | Qué información usa el agente para responder. |
 | **Canales de entrada/salida** | Playbooks que permiten selección de canales | Dónde puede responder o enviar mensajes. |
-| **Descuentos** | Playbooks de venta que permiten ofertas | Qué incentivos puede usar el agente. |
+| **Descuentos** | Playbooks de venta que permiten ofertas | Qué reglas de oferta del ecommerce y límites de descuento con IA puede usar el agente. |
 | **Derivación** | Agentes de IA, atención, [Webchat]({% link _journeys/webchat-widget-playbook.md %}) y algunos playbooks personalizados | Quién toma la conversación cuando el agente no debe seguir. |
 | **Pasos de ruta** | Journeys o rutas | Secuencia, esperas, ramas, asignaciones y salida del flujo. |
 
@@ -125,19 +125,19 @@ Cambia canales solo cuando tengas una razón clara:
 
 Si cambias canales, prueba el mismo escenario en cada canal seleccionado. Algunos contenidos, botones, plantillas y ventanas de respuesta funcionan distinto según el canal.
 
-## Personaliza ofertas y descuentos
+## Personaliza la estrategia de descuento
 
-Esta sección aplica a playbooks de venta que muestran configuración de **Descuentos** u ofertas.
+Esta sección aplica a playbooks de venta que muestran configuración de **Descuentos**.
 
-Las ofertas afectan expectativas del cliente e ingresos, así que cámbialas con cuidado.
+Las reglas de descuento afectan expectativas del cliente e ingresos, así que cámbialas con cuidado.
 
 Antes de cambiar descuentos:
 
-- Confirma si el playbook puede usar ofertas existentes de la tienda, incentivos de IA, ambos o ningún incentivo.
-- Define máximos claros para cualquier oferta impulsada por IA.
+- Confirma si el playbook debería seguir las reglas de oferta del ecommerce, crear descuentos con IA hasta un porcentaje máximo, combinar ambos o enviar sin descuentos.
+- Define máximos claros para cualquier descuento generado por IA.
 - Evita acumular descuentos más allá de tus reglas de negocio.
-- Prueba qué pasa cuando un cliente pide una mejor oferta.
-- Revisa reportes después del cambio para confirmar que la oferta mejora el resultado correcto.
+- Prueba qué pasa cuando un cliente pide un mejor descuento.
+- Revisa reportes después del cambio para confirmar que la estrategia de descuento mejora el resultado correcto.
 
 Si el playbook nunca debería ofrecer descuentos, déjalo explícito en la configuración de descuentos y, si existe, en el prompt.
 
@@ -180,7 +180,7 @@ Para un agente de IA, prueba lenguaje realista con errores, respuestas cortas, o
 
 Para un agente personalizado, prueba mensajes que deberían activar ese agente y mensajes que deberían ir a otro playbook.
 
-Para un playbook activo de venta, prueba que las recomendaciones, ofertas, links y condiciones de elegibilidad sigan teniendo sentido.
+Para un playbook activo de venta, prueba que las recomendaciones, descuentos, links y condiciones de elegibilidad sigan teniendo sentido.
 
 Para una ruta, prueba un perfil de cliente que debería entrar, otro que no debería entrar y al menos una rama alternativa.
 

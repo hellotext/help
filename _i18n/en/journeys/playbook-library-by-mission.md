@@ -49,7 +49,7 @@ Start here when you already have purchase history and want customers to buy agai
 Common options include:
 
 - **Soft Reactivation:** re-engage customers before they become fully inactive.
-- **Cross-Sell Driver:** suggest related products after interest or purchase.
+- **[Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}):** suggest related products after interest or purchase.
 - **[Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}):** remind customers to reorder when they may be running out.
 - **Birthday Bash:** send a birthday offer or gift.
 - **Anniversary Surprise:** celebrate purchase or customer anniversaries.
@@ -129,7 +129,7 @@ If you are unsure where to start, choose the mission that matches the first bott
 | Not enough reachable customers | Captures, Subscriber Booster, Property Collector, or Welcome Booster |
 | Customers abandon carts | [Cart Saver]({% link _journeys/cart-saver-route.md %}) or [AI Cart Saver]({% link _journeys/ai-cart-saver-playbook.md %}) |
 | Visitors browse but do not buy | [First-Purchase Driver]({% link _journeys/first-purchase-driver-playbook.md %}), [Browse Recovery]({% link _journeys/browse-recovery-playbook.md %}), or [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}) |
-| Buyers do not return | [Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}), Soft Reactivation, or Cross-Sell Driver |
+| Buyers do not return | [Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}), [Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}), or Soft Reactivation |
 | Customers have gone cold | Dormant Revival or Sunset Saver |
 | You have a timed announcement | Classic Broadcast, Holiday Hype, Launch Teaser, or Clearance Clean-out |
 | Support work is repetitive | [Instant Answers]({% link _journeys/instant-answers-playbook.md %}), [Order-Update Delight]({% link _journeys/order-update-playbook.md %}), [Return & Exchange Helper]({% link _journeys/return-and-exchange-helper-playbook.md %}), [Order Cancellation Assistant]({% link _journeys/order-cancellation-assistant-playbook.md %}), or [CSAT Pulse]({% link _journeys/csat-pulse-playbook.md %}) |
@@ -149,7 +149,8 @@ Confirm:
 - Product, cart, order, catalog, or policy data is available when needed.
 - Messages, templates, links, discounts, and recommendations are tested.
 - Handoff or assignment paths are clear.
-- Reporting and attribution are ready for the first review.
+
+After launch, Hellotext generates reporting and attribution automatically for the first review.
 
 Keep reading:
 
@@ -162,6 +163,7 @@ Keep reading:
 - [First-Purchase Driver playbook]({% link _journeys/first-purchase-driver-playbook.md %})
 - [Browse Recovery playbook]({% link _journeys/browse-recovery-playbook.md %})
 - [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %})
+- [Cross-Sell Driver playbook]({% link _journeys/cross-sell-driver-playbook.md %})
 - [Replenishment Driver playbook]({% link _journeys/replenishment-driver-playbook.md %})
 - [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
 - [Review Builder playbook]({% link _journeys/review-builder-playbook.md %})
@@ -185,6 +187,7 @@ Keep reading:
 - [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %})
 - [First-Purchase Driver playbook]({% link _journeys/first-purchase-driver-playbook.md %})
 - [Browse Recovery playbook]({% link _journeys/browse-recovery-playbook.md %})
+- [Cross-Sell Driver playbook]({% link _journeys/cross-sell-driver-playbook.md %})
 - [Replenishment Driver playbook]({% link _journeys/replenishment-driver-playbook.md %})
 - [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %})
 - [How Hellotext decides whether a playbook can send]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})

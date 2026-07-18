@@ -50,9 +50,10 @@ Check that:
 - The channel the playbook can use is connected and ready.
 - Customers have consent and are eligible for the channel.
 - Product links, discounts, or message templates work in the selected channel.
-- Reporting is ready so you can review views, sends, clicks, purchases, skips, and opt-outs.
 
 For setup validation, use [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %}). For custom tracking, use [Tracking events]({% link _developers/tracking-events.md %}).
+
+After launch, use the automatically generated reports to review views, sends, clicks, purchases, skips, and opt-outs.
 
 ## What you can configure
 
@@ -62,7 +63,7 @@ The available cards can vary, but you may be able to review:
 
 - **Channels:** where Hellotext can send or continue the browse recovery conversation.
 - **Tone or Playground feedback:** how the generated follow-ups should learn what fits your business.
-- **Discounts or offers:** whether the playbook can use an incentive and under what limits.
+- **Discount strategy:** whether the playbook follows existing ecommerce offer rules, can create AI-driven discounts up to a maximum percentage, or sends without discounts.
 - **Escalation or assignment:** who should take over when a reply needs a person.
 
 Keep automatic channel selection unless you have a clear reason to limit the playbook. Browse Recovery depends on whether the customer can actually be reached and whether the message format is allowed in the channel.
@@ -113,7 +114,7 @@ When reviewing examples, look for:
 - Whether the tone matches your brand.
 - Whether the message is clear without sounding too pushy.
 - Whether low-stock urgency feels appropriate and uses accurate item counts when stock is included.
-- Whether product links, offers, or calls to action make sense.
+- Whether product links, discounts, or calls to action make sense.
 - Whether the wording avoids over-explaining tracking or making the customer feel watched.
 
 The more realistic the Playground examples are, the easier it is to teach the system what "good" looks like for your store.
@@ -131,7 +132,7 @@ Use a test customer profile that has channel consent, then:
 - Test a customer who views a product and then buys, which should prevent browse recovery.
 - Test a customer who views a product and then adds to cart, where cart recovery should usually take over.
 - Test a customer who is not eligible for the channel.
-- Review whether the message, product link, timing, and offer make sense.
+- Review whether the message, product link, timing, and discount make sense.
 - Send a realistic reply and confirm it reaches the right teammate or team if handoff is available.
 
 If tracking is custom, also confirm that the event name, product identifier, timestamp, and customer identifier match what Hellotext expects.
@@ -167,7 +168,7 @@ During the first days, review:
 - Whether Browse Recovery is overlapping with cart recovery.
 - Whether customers ask questions that should go to Smart Recommender or the Inbox.
 
-Tune one thing at a time: audience, channel, message, offer, timing, or handoff path.
+Tune one thing at a time: audience, channel, message, discount strategy, timing, or handoff path.
 
 ## Related guides
 

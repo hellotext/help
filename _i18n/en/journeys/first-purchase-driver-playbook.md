@@ -15,7 +15,7 @@ It can:
 - Use subscription source, product, catalog, browsing, purchase, channel, and consent context before a message is sent.
 - Queue a first-purchase reminder after a short delay when the customer has not ordered yet.
 - Use recently added products or product interest when that context is available.
-- Use an offer or discount only when that option is available and configured.
+- Use a discount only when that option is available and configured.
 - Skip, wait, or stop when the customer buys, becomes ineligible, moves into cart recovery, or another playbook is a better owner.
 
 The exact experience can vary by account, connected store, channel, available templates, and playbook rollout status.
@@ -29,14 +29,14 @@ It is a good fit when:
 - Many visitors subscribe, register, start a chat, or join from a capture, but do not buy.
 - Your store can tell Hellotext whether a customer has placed an order.
 - Customer profiles have enough channel consent to receive follow-up.
-- Product links, catalog data, and optional offers are ready.
+- Product links, catalog data, and optional discount rules are ready.
 - Your team wants a light conversion nudge, not a broad campaign to everyone.
 
 First-Purchase Driver works well after captures and welcome moments. A capture or welcome flow gets the customer into Hellotext; First-Purchase Driver helps decide whether a first-order follow-up makes sense later.
 
 It also complements [Browse Recovery]({% link _journeys/browse-recovery-playbook.md %}), [Cart Saver route]({% link _journeys/cart-saver-route.md %}), and [AI Cart Saver]({% link _journeys/ai-cart-saver-playbook.md %}). Use the signal to decide the owner: signup without an order belongs to First-Purchase Driver, product browsing belongs to Browse Recovery, and cart or checkout abandonment belongs to cart recovery.
 
-Do not use it for customers who already bought. For repeat purchase, use [Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}), cross-sell, reactivation, or another post-purchase playbook when available.
+Do not use it for customers who already bought. For repeat purchase, use [Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}), [Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}), reactivation, or another post-purchase playbook when available.
 
 ## What it needs before launch
 
@@ -48,13 +48,14 @@ Check that:
 - The profile clearly shows whether the customer is subscribed and reachable.
 - Purchase and order history can identify customers with no completed order.
 - Product and catalog data are available if messages should include products or links.
-- New-arrival, browsing, stock, or offer data is current if the playbook should use it.
+- New-arrival, browsing, stock, or discount data is current if the playbook should use it.
 - The channel the playbook can use is connected and ready.
 - Customers have consent and are eligible for the channel.
 - Links, discounts, and message templates work in the selected channel.
-- Reporting is ready so you can review queued, sent, skipped, clicked, purchased, and attributed outcomes.
 
 For setup validation, use [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %}). For custom tracking, use [Tracking events]({% link _developers/tracking-events.md %}).
+
+After launch, use the automatically generated reports to review queued, sent, skipped, clicked, purchased, and attributed outcomes.
 
 ## What you can configure
 
@@ -63,7 +64,7 @@ Open **Playbooks**, click **Explore playbooks**, and choose **First-Purchase Dri
 The available cards can vary, but the playbook may expose:
 
 - **Reminder timing:** when to follow up after signup if the customer still has no order.
-- **Offer or discount:** whether the playbook can use a first-order incentive.
+- **Discount strategy:** whether the playbook follows existing ecommerce offer rules, can create AI-driven discounts up to a maximum percentage, or sends without discounts.
 - **New-arrival spotlight:** whether a recurring product highlight is available for customers who have not bought yet.
 - **Channels:** where Hellotext can send or continue the conversation.
 - **Tone or Playground feedback:** how generated follow-ups should learn what fits your business.
@@ -85,7 +86,7 @@ Before sending, Hellotext can also consider:
 
 - Whether the signup or opt-in signal is recent enough.
 - Whether the customer has any completed purchase.
-- Whether product, offer, or catalog context is complete enough.
+- Whether product, discount, or catalog context is complete enough.
 - Whether the customer added to cart or started checkout, where cart recovery should usually take over.
 - Whether the profile can receive a message in an eligible channel.
 - Whether another playbook is already a better fit for this moment.
@@ -103,7 +104,7 @@ Use the customer signal to decide the owner.
 | Viewed products but did not add to cart | Browse Recovery |
 | Added products to cart or started checkout, then left | Cart Saver route or AI Cart Saver |
 | Asked for advice, comparisons, sizes, alternatives, or recommendations | Smart Recommender |
-| Already bought and should buy again | [Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}), cross-sell, or reactivation playbook when available |
+| Already bought and should buy again | [Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}), [Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}), or reactivation playbook when available |
 
 First-Purchase Driver, Browse Recovery, and AI Cart Saver can be active together when ownership is clear. First-Purchase Driver handles the first-order gap, Browse Recovery handles product-view intent, and cart recovery handles the stronger cart or checkout moment.
 
@@ -117,7 +118,7 @@ When reviewing examples, look for:
 
 - Whether the message gives the customer a clear reason to place a first order.
 - Whether the tone feels helpful instead of pushy.
-- Whether product recommendations, new arrivals, links, or offers are relevant.
+- Whether product recommendations, new arrivals, links, or discounts are relevant.
 - Whether any discount feels intentional and not stronger than needed.
 - Whether the message avoids treating every new subscriber the same way.
 - Whether replies can naturally continue in the channel or reach the Inbox when needed.
@@ -137,7 +138,7 @@ Use test customer profiles that have channel consent, then:
 - Test a customer who signs up and then buys before the reminder, which should prevent the first-purchase follow-up.
 - Test a customer who adds to cart or starts checkout, where cart recovery should usually take over.
 - Test a customer who is not eligible for the channel.
-- Review product links, offers, message tone, and attribution.
+- Review product links, discounts, message tone, and attribution.
 - Send a realistic reply and confirm it reaches the right teammate or team if handoff is available.
 
 If tracking is custom, also confirm that the signup, purchase, product, timestamp, and customer identifiers match what Hellotext expects.
@@ -151,7 +152,7 @@ The playbook may wait, skip, stop, or let another playbook act when:
 - The signup or opt-in is missing, delayed, or not tied to a usable customer profile.
 - The customer already bought.
 - The customer added to cart or started checkout.
-- Product, catalog, offer, or link data is missing when required.
+- Product, catalog, discount, or link data is missing when required.
 - The profile cannot be reached in an eligible channel.
 - The customer unsubscribed, opted out, or is otherwise not eligible.
 - Frequency, timing, or quiet-hour rules prevent the send.
@@ -172,7 +173,7 @@ During the first days, review:
 - Whether First-Purchase Driver overlaps with Browse Recovery or cart recovery.
 - Whether customers ask questions that should go to Smart Recommender or the Inbox.
 
-Tune one thing at a time: audience, channel, timing, message, offer, product context, or handoff path.
+Tune one thing at a time: audience, channel, timing, message, discount strategy, product context, or handoff path.
 
 ## Related guides
 
@@ -191,6 +192,7 @@ Tune one thing at a time: audience, channel, timing, message, offer, product con
 - [Cart Saver route]({% link _journeys/cart-saver-route.md %})
 - [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %})
+- [Cross-Sell Driver playbook]({% link _journeys/cross-sell-driver-playbook.md %})
 - [Replenishment Driver playbook]({% link _journeys/replenishment-driver-playbook.md %})
 - [Who can I message? Consent and subscriber status]({% link _audience/consent-and-subscriber-status.md %})
 - [Playbook reporting]({% link _analytics-reporting-attribution/playbook-reporting.md %})

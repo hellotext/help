@@ -13,7 +13,7 @@ It can:
 - React when a customer leaves a cart or checkout without completing the purchase.
 - Use cart products, checkout link, product context, customer profile data, recent conversation, and purchase signals.
 - Choose a send path based on customer reachability and channel readiness.
-- Include product context, a checkout link, personalized wording, and an offer when the playbook is configured to use one.
+- Include product context, a checkout link, personalized wording, and a discount when the playbook is configured to use one.
 - Wait, skip, or stop when the customer is not eligible, recently purchased, cannot be reached, or does not have a usable checkout link.
 - Hand off to a teammate or team when the conversation needs a person.
 
@@ -60,7 +60,7 @@ Open **Playbooks**, click **Explore playbooks**, and choose **AI Cart Saver**.
 The available cards can vary, but you may be able to review:
 
 - **Channels:** where Hellotext can send or continue the cart recovery conversation.
-- **Discounts or offers:** whether the playbook can use an incentive and under what limits.
+- **Discount strategy:** whether the playbook follows existing ecommerce offer rules, can create AI-driven discounts up to a maximum percentage, or sends without discounts.
 - **Tone:** how the generated follow-up should sound.
 - **Escalation or assignment:** who should take over when the conversation needs a person.
 
@@ -112,7 +112,7 @@ Use a test customer profile that has channel consent, then:
 - Confirm handoff goes to the right teammate or team.
 - Review the first messages, skips, replies, and reports.
 
-Keep the first launch narrow until your team has reviewed real conversations and confirmed that products, links, offers, timing, and handoffs behave as expected.
+Keep the first launch narrow until your team has reviewed real conversations and confirmed that products, links, discounts, timing, and handoffs behave as expected.
 
 ## What to review after launch
 
@@ -121,12 +121,12 @@ During the first days, review:
 - How many customer profiles entered the playbook.
 - Which messages were sent, delayed, skipped, or handed off.
 - Whether checkout links and product context were correct.
-- Whether offers were used as intended.
+- Whether discounts were used as intended.
 - Whether replies reached the Inbox with enough context.
 - Whether customers purchased before a follow-up was sent.
 - Conversion, revenue, opt-outs, handoff rate, and failed messages.
 
-Tune one thing at a time: offer settings, tone, channel selection, handoff target, or the audience that should be eligible.
+Tune one thing at a time: discount strategy, tone, channel selection, handoff target, or the audience that should be eligible.
 
 ## Related guides
 

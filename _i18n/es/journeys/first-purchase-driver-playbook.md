@@ -15,7 +15,7 @@ Puede:
 - Usar contexto de fuente de suscripción, producto, catálogo, navegación, compra, canal y consentimiento antes de enviar un mensaje.
 - Poner en cola un recordatorio de primera compra después de una espera corta cuando el cliente todavía no hizo un pedido.
 - Usar productos agregados recientemente o interés de producto cuando ese contexto está disponible.
-- Usar una oferta o descuento solo cuando esa opción está disponible y configurada.
+- Usar un descuento solo cuando esa opción está disponible y configurada.
 - Omitir, esperar o detenerse cuando el cliente compra, deja de ser elegible, pasa a recuperación de carrito u otro playbook es mejor dueño del momento.
 
 La experiencia exacta puede variar según cuenta, tienda conectada, canal, plantillas disponibles y estado de despliegue del playbook.
@@ -29,14 +29,14 @@ Encaja bien cuando:
 - Muchos visitantes se suscriben, se registran, inician un chat o llegan desde una captura, pero no compran.
 - Tu tienda puede decirle a Hellotext si un cliente ya hizo un pedido.
 - Los perfiles del cliente tienen suficiente consentimiento de canal para recibir seguimiento.
-- Links de producto, datos de catálogo y ofertas opcionales están listos.
+- Links de producto, datos de catálogo y reglas de descuento opcionales están listos.
 - Tu equipo quiere un empujón liviano de conversión, no una campaña amplia para todos.
 
 Impulsor de Primera Compra funciona bien después de capturas y momentos de bienvenida. Una captura o bienvenida trae al cliente a Hellotext; Impulsor de Primera Compra ayuda a decidir si más tarde tiene sentido un seguimiento para conseguir el primer pedido.
 
 También se complementa con [Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}), [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) y [Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}). Usa la señal para decidir quién debería ser dueño del momento: registro sin compra pertenece a Impulsor de Primera Compra, navegación de producto pertenece a Recuperación de Navegación y carrito o checkout abandonado pertenece a recuperación de carrito.
 
-No lo uses para clientes que ya compraron. Para recompra, usa [Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %}), venta cruzada, reactivación u otro playbook post-compra cuando esté disponible.
+No lo uses para clientes que ya compraron. Para recompra, usa [Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %}), [Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %}), reactivación u otro playbook post-compra cuando esté disponible.
 
 ## Qué necesita antes del lanzamiento
 
@@ -48,13 +48,14 @@ Revisa que:
 - El perfil muestre claramente si el cliente está suscrito y puede ser alcanzado.
 - El historial de compras y pedidos pueda identificar clientes sin pedidos completados.
 - Los datos de producto y catálogo estén disponibles si los mensajes deberían incluir productos o links.
-- Datos de nuevos productos, navegación, stock u ofertas estén actualizados si el playbook debería usarlos.
+- Datos de nuevos productos, navegación, stock o descuentos estén actualizados si el playbook debería usarlos.
 - El canal que puede usar el playbook esté conectado y listo.
 - Los clientes tengan consentimiento y sean elegibles para el canal.
 - Links, descuentos y plantillas funcionen en el canal elegido.
-- Los reportes estén listos para revisar mensajes en cola, enviados, omitidos, clicks, compras y resultados atribuidos.
 
 Para validar la configuración, usa [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %}). Para tracking personalizado, usa [Seguimiento de eventos]({% link _developers/tracking-events.md %}).
+
+Después de activar el playbook, usa los reportes automáticos para revisar mensajes en cola, enviados, omitidos, clicks, compras y resultados atribuidos.
 
 ## Qué puedes configurar
 
@@ -63,7 +64,7 @@ Abre **Playbooks**, haz click en **Explorar playbooks** y elige **Impulsor de Pr
 Las tarjetas disponibles pueden variar, pero el playbook puede mostrar:
 
 - **Timing del recordatorio:** cuándo hacer seguimiento después del registro si el cliente todavía no tiene pedidos.
-- **Oferta o descuento:** si el playbook puede usar un incentivo de primera compra.
+- **Estrategia de descuento:** si el playbook sigue las reglas de oferta del ecommerce, puede crear descuentos con IA hasta un porcentaje máximo o envía sin descuentos.
 - **Destacado de nuevos productos:** si hay un bloque recurrente de productos nuevos para clientes que todavía no compraron.
 - **Canales:** dónde Hellotext puede enviar o continuar la conversación.
 - **Tono o feedback en Playground:** cómo deberían aprender los seguimientos generados qué encaja con tu negocio.
@@ -85,7 +86,7 @@ Antes de enviar, Hellotext también puede considerar:
 
 - Si la señal de registro u opt-in es lo suficientemente reciente.
 - Si el cliente tiene alguna compra completada.
-- Si el contexto de producto, oferta o catálogo está lo suficientemente completo.
+- Si el contexto de producto, descuento o catálogo está lo suficientemente completo.
 - Si el cliente agregó al carrito o empezó checkout, donde recuperación de carrito normalmente debería tomar el control.
 - Si el perfil puede recibir un mensaje en un canal elegible.
 - Si otro playbook ya encaja mejor para este momento.
@@ -103,7 +104,7 @@ Usa la señal del cliente para decidir quién debería ser dueño del momento.
 | Vio productos pero no agregó al carrito | Recuperación de Navegación |
 | Agregó productos al carrito o empezó checkout y se fue | Ruta Recuperador de Carritos o Recuperador de Carritos con IA |
 | Pidió consejo, comparaciones, talles, alternativas o recomendaciones | Recomendador Inteligente |
-| Ya compró y debería volver a comprar | [Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %}), venta cruzada o reactivación cuando estén disponibles |
+| Ya compró y debería volver a comprar | [Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %}), [Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %}) o reactivación cuando estén disponibles |
 
 Impulsor de Primera Compra, Recuperación de Navegación y Recuperador de Carritos con IA pueden estar activos juntos cuando la propiedad está clara. Impulsor de Primera Compra maneja el hueco de primer pedido, Recuperación de Navegación maneja intención por vista de producto y recuperación de carrito maneja el momento más fuerte de carrito o checkout.
 
@@ -117,7 +118,7 @@ Cuando revises ejemplos, mira:
 
 - Si el mensaje le da al cliente una razón clara para hacer su primera compra.
 - Si el tono se siente útil y no demasiado insistente.
-- Si recomendaciones, nuevos productos, links u ofertas son relevantes.
+- Si recomendaciones, nuevos productos, links o descuentos son relevantes.
 - Si cualquier descuento se siente intencional y no más fuerte de lo necesario.
 - Si el mensaje evita tratar a todos los nuevos suscriptores de la misma forma.
 - Si las respuestas pueden continuar naturalmente en el canal o llegar al Inbox cuando hace falta.
@@ -137,7 +138,7 @@ Usa perfiles del cliente de prueba que tengan consentimiento de canal, luego:
 - Prueba un cliente que se registra y luego compra antes del recordatorio, lo que debería evitar el seguimiento de primera compra.
 - Prueba un cliente que agrega al carrito o empieza checkout, donde recuperación de carrito normalmente debería tomar el control.
 - Prueba un cliente que no es elegible para el canal.
-- Revisa links de producto, ofertas, tono del mensaje y atribución.
+- Revisa links de producto, descuentos, tono del mensaje y atribución.
 - Envía una respuesta realista y confirma que llegue a la persona o equipo correcto si hay derivación disponible.
 
 Si el tracking es personalizado, confirma también que registro, compra, producto, timestamp e identificadores del cliente coincidan con lo que Hellotext espera.
@@ -151,7 +152,7 @@ El playbook puede esperar, omitir, detenerse o dejar actuar a otro playbook cuan
 - El registro u opt-in falta, llega tarde o no está conectado a un perfil del cliente usable.
 - El cliente ya compró.
 - El cliente agregó al carrito o empezó checkout.
-- Faltan datos de producto, catálogo, oferta o link cuando son necesarios.
+- Faltan datos de producto, catálogo, descuento o link cuando son necesarios.
 - El perfil no puede ser alcanzado en un canal elegible.
 - El cliente se dio de baja, no tiene consentimiento o no es elegible.
 - Reglas de frecuencia, timing u horarios silenciosos impiden el envío.
@@ -172,7 +173,7 @@ Durante los primeros días, revisa:
 - Si Impulsor de Primera Compra se superpone con Recuperación de Navegación o recuperación de carrito.
 - Si los clientes hacen preguntas que deberían ir a Recomendador Inteligente o al Inbox.
 
-Ajusta una cosa por vez: audiencia, canal, timing, mensaje, oferta, contexto de producto o camino de derivación.
+Ajusta una cosa por vez: audiencia, canal, timing, mensaje, estrategia de descuento, contexto de producto o camino de derivación.
 
 ## Guías relacionadas
 
@@ -191,6 +192,7 @@ Ajusta una cosa por vez: audiencia, canal, timing, mensaje, oferta, contexto de 
 - [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %})
 - [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
+- [Playbook Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %})
 - [Playbook Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %})
 - [A quién puedo escribirle: consentimiento y estado de suscripción]({% link _audience/consent-and-subscriber-status.md %})
 - [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})

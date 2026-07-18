@@ -49,9 +49,10 @@ Revisa que:
 - Los links de checkout funcionen en una prueba.
 - Cualquier cupón, descuento u oferta funcione antes de que el mensaje quede activo.
 - Una señal de compra u orden pueda detener el seguimiento después de que el cliente compra.
-- Los reportes estén listos para revisar entradas, envíos, clicks, compras y fallas.
 
 Para validar la configuración, usa [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %}).
+
+Después de publicar la ruta, usa los reportes automáticos para revisar entradas, envíos, clicks, compras y fallas.
 
 ## Cómo configurarlo
 
