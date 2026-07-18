@@ -22,7 +22,7 @@ Use a **prebuilt playbook** when the goal is common and the recommended mission 
 
 Use an **AI playbook or AI agent** when the experience needs to respond conversationally, use product or policy knowledge, recommend items, answer frequent questions, collect customer information, or decide when to escalate.
 
-For product discovery specifically, see [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %}). For order-status questions, see [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %}). For a custom reactive agent with your own intents, prompt, knowledge, channels, tone, and handoff, see [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %}).
+For browse intent that did not become a cart, see [Browse Recovery playbook]({% link _journeys/browse-recovery-playbook.md %}). For product discovery specifically, see [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %}). For order-status questions, see [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %}). For post-delivery product reviews, see [Review Builder playbook]({% link _journeys/review-builder-playbook.md %}). For loyalty after delivery, see [NPS Pulse playbook]({% link _journeys/nps-pulse-playbook.md %}). For satisfaction after resolved conversations, see [CSAT Pulse playbook]({% link _journeys/csat-pulse-playbook.md %}). For frequent support questions, see [Instant Answers playbook]({% link _journeys/instant-answers-playbook.md %}). For guided return or exchange support, see [Return & Exchange Helper playbook]({% link _journeys/return-and-exchange-helper-playbook.md %}). For cancellation requests, see [Order Cancellation Assistant playbook]({% link _journeys/order-cancellation-assistant-playbook.md %}). For a custom reactive agent with your own intents, prompt, knowledge, channels, tone, and handoff, see [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %}).
 
 Use a **journey route** when you need a multi-step customer flow with a trigger, messages, waits, conditions, branches, and handoffs. A basic abandoned-cart follow-up can be [Cart Saver route]({% link _journeys/cart-saver-route.md %}); an AI abandoned-cart playbook can make more dynamic decisions based on signals and customer context.
 
@@ -57,7 +57,7 @@ For SMS playbooks, make sure your account has an active sender or short code ava
 - Conditions and branches send people down the right path.
 - Coupons, links, tags, and product recommendations are working.
 - Human handoff rules are clear when a conversation should leave the route or agent.
-- Frequency, consent, and quiet-hour limits are clear so playbooks do not compete for the same customer.
+- Frequency, consent, and quiet-hour limits are clear so playbooks do not compete for the same customer in the same moment.
 
 ## Keep improving after launch
 
@@ -80,8 +80,15 @@ For a safer editing process, use [How to customize a playbook safely]({% link _j
 - [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %})
 - [Cart Saver route]({% link _journeys/cart-saver-route.md %})
 - [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %})
+- [Browse Recovery playbook]({% link _journeys/browse-recovery-playbook.md %})
 - [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %})
 - [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
+- [Review Builder playbook]({% link _journeys/review-builder-playbook.md %})
+- [CSAT Pulse playbook]({% link _journeys/csat-pulse-playbook.md %})
+- [NPS Pulse playbook]({% link _journeys/nps-pulse-playbook.md %})
+- [Instant Answers playbook]({% link _journeys/instant-answers-playbook.md %})
+- [Return & Exchange Helper playbook]({% link _journeys/return-and-exchange-helper-playbook.md %})
+- [Order Cancellation Assistant playbook]({% link _journeys/order-cancellation-assistant-playbook.md %})
 - [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %})
 - [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %})
 - [Getting started with journeys]({% link _journeys/getting-started-with-journeys.md %})

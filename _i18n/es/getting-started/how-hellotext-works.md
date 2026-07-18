@@ -12,7 +12,7 @@ La mayoría de los flujos de Hellotext siguen el mismo patrón:
 2. Hellotext revisa audiencia, consentimiento, elegibilidad de canal, timing y límites.
 3. Hellotext elige o ejecuta la siguiente acción.
 4. El cliente recibe un mensaje, entra en un flujo o llega a un miembro del equipo.
-5. Los reportes conectan respuestas, clicks, órdenes e ingresos con la acción.
+5. Los reportes conectan respuestas, clicks, pedidos e ingresos con la acción.
 
 La diferencia entre playbooks, campañas e Inbox es quién decide el siguiente paso y qué tan repetible debería ser el trabajo.
 
@@ -27,8 +27,10 @@ Buenos casos para playbooks incluyen:
 - Recomendar productos.
 - Hacer seguimiento después de una compra.
 - Reactivar clientes.
-- Recopilar reseñas o feedback.
-- Responder preguntas frecuentes con un agente de IA.
+- Recopilar reseñas de productos con [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}), feedback de lealtad con [Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}) o feedback de satisfacción con [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}).
+- Responder preguntas frecuentes con [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}) u otro agente de IA.
+- Guiar solicitudes de cambio o devolución con [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}).
+- Guiar solicitudes de cancelación con [Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %}).
 
 Un playbook puede ser una misión preconstruida, un agente de IA, una ruta, una captura o incluso un flujo parecido a campaña según el trabajo que realiza.
 
@@ -59,7 +61,7 @@ El Inbox es donde tu equipo maneja:
 
 - Respuestas de clientes.
 - Preguntas de soporte.
-- Seguimiento de órdenes.
+- Seguimiento de pedidos.
 - Conversaciones de venta.
 - Derivaciones de IA o playbooks.
 - Conversaciones que necesitan criterio humano.
@@ -76,7 +78,7 @@ Ejemplos:
 - Una señal de carrito inicia una ruta, pero una respuesta del cliente envía la conversación al Inbox.
 - Una campaña anuncia un lanzamiento y las respuestas se vuelven conversaciones en el Inbox.
 - Un agente de IA responde una pregunta frecuente y luego deriva cuando el cliente pide ayuda humana.
-- Una persona responde desde el Inbox y los links con tracking u órdenes siguen apareciendo en reportes.
+- Una persona responde desde el Inbox y los links con tracking o pedidos siguen apareciendo en reportes.
 
 La mejor configuración suele combinar los tres: playbooks para misiones repetibles, campañas para momentos planificados e Inbox para conversaciones que necesitan personas.
 
@@ -114,3 +116,8 @@ Si no estás seguro, empieza más pequeño. Elige un objetivo, un canal, una aud
 - [Resumen de inbox y conversaciones]({% link _team/inbox-overview.md %})
 - [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
+- [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
+- [Playbook Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})
+- [Playbook Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %})
+- [Playbook Pulso NPS]({% link _journeys/nps-pulse-playbook.md %})
+- [Playbook Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %})

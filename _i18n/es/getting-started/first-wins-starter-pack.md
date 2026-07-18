@@ -14,7 +14,7 @@ Empieza con una mezcla que cubra el recorrido completo del cliente:
 2. Recuperar intención perdida.
 3. Convertir o recomendar.
 4. Reducir carga de soporte.
-5. Enviar una campaña enfocada cuando tengas un momento claro.
+5. Recopilar feedback o enviar una campaña enfocada cuando tengas un momento claro.
 
 Esto te da señales más limpias y hace más fácil entender qué funcionó.
 
@@ -50,11 +50,13 @@ Empieza aquí cuando tienes señales de producto, navegación, suscripción o co
 Opciones útiles pueden incluir:
 
 - Seguimiento de primera compra para nuevos suscriptores que todavía no compraron.
-- Recuperación de navegación para clientes que vieron productos pero no agregaron al carrito.
+- [Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}) para clientes que vieron productos pero no agregaron al carrito.
 - [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) cuando el contexto de producto e inventario es sólido.
-- Venta cruzada o recompra cuando tienes suficiente historial de órdenes.
+- Venta cruzada o recompra cuando tienes suficiente historial de pedidos.
+- [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) cuando las señales de pedido entregado son confiables y quieres reseñas de productos.
+- [Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}) cuando las señales de pedido entregado son confiables y quieres medir lealtad después de que el cliente ya vivió la experiencia con el producto.
 
-Logro esperado: mover clientes de interés a compra, recompra u órdenes de mayor valor.
+Logro esperado: mover clientes de interés a compra, recompra o pedidos de mayor valor.
 
 ## 4. Reduce carga de soporte
 
@@ -62,16 +64,26 @@ Empieza aquí si tu equipo responde las mismas preguntas repetidamente.
 
 Opciones útiles pueden incluir:
 
-- Respuestas instantáneas para preguntas frecuentes.
-- [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}) cuando los clientes preguntan seguido dónde está su orden.
-- Ayuda con cambios o devoluciones cuando tu política es lo suficientemente clara para automatizar partes de la conversación.
+- [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}) para preguntas frecuentes.
+- [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}) cuando los clientes preguntan seguido dónde está su pedido.
+- [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}) cuando tu política es lo suficientemente clara para automatizar partes de la conversación.
+- [Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %}) cuando las solicitudes de cancelación son frecuentes y tus reglas están claras.
+- [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}) cuando las conversaciones se están resolviendo de forma consistente y quieres feedback liviano de satisfacción.
 - Asignación y reglas de respuesta en Inbox cuando las personas todavía necesitan hacerse cargo de las respuestas.
 
 Logro esperado: respuestas más rápidas, derivaciones más claras y menos tickets repetitivos para tu equipo.
 
-## 5. Envía una campaña enfocada
+## 5. Recopila feedback o envía una campaña enfocada
 
-Usa una campaña cuando tienes una audiencia clara, un mensaje y un momento de envío planificado.
+Usa [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) cuando ya tienes pedidos entregados y quieres recopilar calificaciones y reseñas escritas de productos.
+
+Usa [Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}) cuando quieres medir si los clientes recomendarían la marca después de un pedido entregado.
+
+Si también usas [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}), mantén separados los momentos de feedback: Generador de Reseñas es para reseñas de producto, Pulso NPS es para lealtad después de una experiencia de entrega y Pulso CSAT es para satisfacción después de conversaciones resueltas.
+
+Logro esperado: entender qué productos y experiencias de entrega generan buen feedback, qué clientes necesitan recuperación y qué registros pueden guiar mejoras futuras.
+
+Si tienes una audiencia clara, un mensaje y un momento de envío planificado, usa una campaña.
 
 Buenas primeras campañas incluyen:
 
@@ -100,7 +112,7 @@ Después de la primera semana, revisa:
 - Crecimiento de audiencia y fuentes de opt-in.
 - Actividad de recuperación de carritos o conversión.
 - Respuestas, derivaciones y preguntas de soporte.
-- Clicks, órdenes e ingresos atribuidos.
+- Clicks, pedidos e ingresos atribuidos.
 - Mensajes fallidos, bajas o comportamiento inesperado.
 
 Después decide qué ajustar, pausar o ampliar.
@@ -116,8 +128,15 @@ Sigue leyendo: [Mide el éxito en tus primeros 7 días]({% link _getting-started
 - [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %})
 - [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
+- [Playbook Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %})
 - [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
 - [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
+- [Playbook Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})
+- [Playbook Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %})
+- [Playbook Pulso NPS]({% link _journeys/nps-pulse-playbook.md %})
+- [Playbook Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
+- [Playbook Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %})
+- [Playbook Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %})
 - [Playbook Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Resumen de herramientas de captura]({% link _captures/capture-overview.md %})

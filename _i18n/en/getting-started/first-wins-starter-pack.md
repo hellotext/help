@@ -14,7 +14,7 @@ Start with a mix that covers the full customer path:
 2. Recover lost intent.
 3. Convert or recommend.
 4. Reduce support load.
-5. Send one focused campaign when you have a clear moment.
+5. Collect feedback or send one focused campaign when you have a clear moment.
 
 This gives you cleaner signals and makes it easier to understand what worked.
 
@@ -50,9 +50,11 @@ Start here when you have product, browsing, subscription, or purchase signals.
 Useful options can include:
 
 - First-purchase follow-up for new subscribers who have not bought yet.
-- Browse recovery for customers who viewed products but did not add to cart.
+- [Browse Recovery]({% link _journeys/browse-recovery-playbook.md %}) for customers who viewed products but did not add to cart.
 - [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}) when product and inventory context are strong.
 - Cross-sell or replenishment when you have enough order history.
+- [Review Builder]({% link _journeys/review-builder-playbook.md %}) when delivered-order signals are reliable and you want product reviews.
+- [NPS Pulse]({% link _journeys/nps-pulse-playbook.md %}) when delivered-order signals are reliable and you want loyalty feedback after customers have had the product experience.
 
 Expected win: move customers from interest to purchase, repeat purchase, or higher-value orders.
 
@@ -62,16 +64,26 @@ Start here if your team answers the same questions repeatedly.
 
 Useful options can include:
 
-- Instant Answers for frequent questions.
+- [Instant Answers]({% link _journeys/instant-answers-playbook.md %}) for frequent questions.
 - [Order-Update Delight]({% link _journeys/order-update-playbook.md %}) when customers often ask where their order is.
-- Returns or exchange help when your policy is clear enough to automate parts of the conversation.
+- [Return & Exchange Helper]({% link _journeys/return-and-exchange-helper-playbook.md %}) when your policy is clear enough to automate parts of the conversation.
+- [Order Cancellation Assistant]({% link _journeys/order-cancellation-assistant-playbook.md %}) when cancellation requests are frequent and your rules are clear.
+- [CSAT Pulse]({% link _journeys/csat-pulse-playbook.md %}) when conversations are being resolved consistently and you want lightweight satisfaction feedback.
 - Inbox assignment and response rules when humans still need to own replies.
 
 Expected win: faster answers, cleaner handoffs, and fewer repetitive tickets for your team.
 
-## 5. Send one focused campaign
+## 5. Collect feedback or send one focused campaign
 
-Use a campaign when you have one clear audience, one message, and one planned send time.
+Use [Review Builder]({% link _journeys/review-builder-playbook.md %}) when you already have delivered orders and want to collect product ratings and written reviews.
+
+Use [NPS Pulse]({% link _journeys/nps-pulse-playbook.md %}) when you want to measure whether customers would recommend the brand after a delivered order.
+
+If you also use [CSAT Pulse]({% link _journeys/csat-pulse-playbook.md %}), keep the feedback moments separate: Review Builder is for product reviews, NPS Pulse is for loyalty after a delivery experience, and CSAT Pulse is for satisfaction after resolved conversations.
+
+Expected win: learn which products and delivery experiences create strong feedback, which customers need recovery, and which feedback records can guide future improvements.
+
+If you have one clear audience, one message, and one planned send time, use a campaign instead.
 
 Good first campaigns include:
 
@@ -116,8 +128,15 @@ Keep reading: [Measure success in your first 7 days]({% link _getting-started/me
 - [Choose your first playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [Cart Saver route]({% link _journeys/cart-saver-route.md %})
 - [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %})
+- [Browse Recovery playbook]({% link _journeys/browse-recovery-playbook.md %})
 - [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %})
 - [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
+- [Review Builder playbook]({% link _journeys/review-builder-playbook.md %})
+- [CSAT Pulse playbook]({% link _journeys/csat-pulse-playbook.md %})
+- [NPS Pulse playbook]({% link _journeys/nps-pulse-playbook.md %})
+- [Instant Answers playbook]({% link _journeys/instant-answers-playbook.md %})
+- [Return & Exchange Helper playbook]({% link _journeys/return-and-exchange-helper-playbook.md %})
+- [Order Cancellation Assistant playbook]({% link _journeys/order-cancellation-assistant-playbook.md %})
 - [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %})
 - [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})
 - [Capture tools overview]({% link _captures/capture-overview.md %})

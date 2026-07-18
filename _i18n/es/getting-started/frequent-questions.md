@@ -82,7 +82,7 @@ Una campaña es un envío puntual a una audiencia seleccionada. Usa campañas pa
 
 Un playbook es un sistema repetible entrenado para una misión de negocio, como recuperar carritos, generar recompra, reactivar clientes, recopilar reseñas o resolver consultas de soporte.
 
-A diferencia de un flujo fijo, un playbook puede usar señales para decidir qué hacer con cada cliente. Puede elegir mensaje, canal, momento, oferta o siguiente paso dentro de los límites que definas, como consentimiento, horarios silenciosos, frecuencia y reglas de handoff.
+A diferencia de un flujo fijo, un playbook puede usar señales para decidir qué hacer con cada cliente. Puede elegir mensaje, canal, momento, oferta o siguiente paso dentro de los límites que definas, como consentimiento, horarios silenciosos, frecuencia y reglas de derivación.
 
 Sigue leyendo:
 
@@ -92,7 +92,7 @@ Sigue leyendo:
 
 ## ¿Cómo preparo mi primer envío?
 
-Empieza pequeño. Si estás activando un playbook, confirma su objetivo, trigger, canal, audiencia, límites y reglas de handoff antes de encenderlo. Si vas a enviar una campaña, crea una audiencia de prueba con tu propio número y algunos compañeros del equipo, revisa el mensaje en el canal real, confirma links y respuestas, y después envía a una audiencia de clientes enfocada antes de ampliar.
+Empieza pequeño. Si estás activando un playbook, confirma su objetivo, disparador, canal, audiencia, límites y reglas de derivación antes de encenderlo. Si vas a enviar una campaña, crea una audiencia de prueba con tu propio número y algunos compañeros del equipo, revisa el mensaje en el canal real, confirma links y respuestas, y después envía a una audiencia de clientes enfocada antes de ampliar.
 
 Sigue leyendo: [Mejores prácticas para el primer lanzamiento]({% link _getting-started/tips-and-best-practices.md %}).
 
@@ -140,7 +140,7 @@ Sigue leyendo:
 
 ## ¿Qué hago si un mensaje no se envía o un reporte se ve mal?
 
-Empieza por el checklist de solución de problemas. Te ayuda a ubicar si el problema está en configuración, elegibilidad del canal, límites de envío, reglas de audiencia, tracking, atribución, ownership del Inbox o automatización.
+Empieza por el checklist de solución de problemas. Te ayuda a ubicar si el problema está en configuración, elegibilidad del canal, límites de envío, reglas de audiencia, tracking, atribución, responsables del Inbox o automatización.
 
 Sigue leyendo: [Checklist de solución de problemas]({% link _troubleshooting-deliverability/troubleshooting-checklist.md %}).
 

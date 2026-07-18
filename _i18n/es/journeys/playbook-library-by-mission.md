@@ -32,7 +32,7 @@ Opciones comunes incluyen:
 - **Impulsor de Primera Compra:** convierte nuevos suscriptores o registros en compradores por primera vez.
 - **[Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}):** recupera carritos abandonados con una ruta predecible.
 - **[Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}):** recupera carritos con seguimiento conversacional y contextual.
-- **Recuperación de Navegación:** reactiva clientes que vieron productos sin comprar.
+- **[Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}):** reactiva clientes que vieron productos sin comprar.
 - **[Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}):** recomienda productos en tiempo real usando comportamiento y contexto de producto.
 - **Completa el Look:** sugiere productos complementarios.
 - **Alerta de Baja de Precio:** notifica a compradores interesados cuando cambia el precio de un producto.
@@ -89,15 +89,17 @@ Empieza acá cuando el objetivo es responder preguntas, reducir trabajo repetiti
 
 Opciones comunes incluyen:
 
-- **[Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}):** envía actualizaciones de orden y responde preguntas de estado de pedido.
-- **Generador de Reseñas:** recopila reseñas o contenido generado por clientes después de la compra.
-- **Pulso NPS:** mide lealtad en el momento adecuado.
-- **Pulso de Satisfacción:** mide satisfacción después de interacciones de soporte o IA.
-- **Respuestas Instantáneas:** responde preguntas frecuentes con un agente de soporte con IA.
-- **Asistente de Cambios y Devoluciones:** ayuda a clientes con cambios o devoluciones.
-- **Asistente de Cancelación de Pedidos:** ayuda a cancelar pedidos o salvar la venta por chat.
+- **[Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}):** envía actualizaciones de pedido y responde preguntas de estado de pedido.
+- **[Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}):** recopila reseñas de productos después de la entrega.
+- **[Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}):** mide lealtad después de que clientes recibieron un pedido.
+- **[Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}):** mide satisfacción después de interacciones de soporte, Inbox, IA o playbooks.
+- **[Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}):** responde preguntas frecuentes con un agente de soporte con IA.
+- **[Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}):** ayuda a clientes con cambios o devoluciones.
+- **[Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %}):** ayuda a pedir cancelaciones de pedidos o salvar la venta por chat.
 
-Estos playbooks normalmente dependen de datos de orden, contenido de políticas, documentos cargados, reglas claras de derivación y ownership del Inbox.
+Generador de Reseñas, Pulso NPS y Pulso CSAT pueden estar activos juntos cuando los momentos de base son distintos: reseña de producto después de la entrega, lealtad después de una experiencia de entrega y satisfacción después de una conversación resuelta.
+
+Estos playbooks normalmente dependen de datos de pedido, contenido de políticas, documentos cargados, reglas claras de derivación y responsables claros en Inbox.
 
 Sigue leyendo: [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %}).
 
@@ -126,11 +128,13 @@ Si no sabes por dónde empezar, elige la misión que coincide con el primer cuel
 | --- | --- |
 | No tienes suficientes clientes alcanzables | Capturas, Impulsor de Suscriptores, Recolector de Datos o Bienvenida Automática |
 | Los clientes abandonan carritos | [Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) o [Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}) |
-| Los visitantes miran pero no compran | Recuperación de Navegación, [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) o Impulsor de Primera Compra |
+| Los visitantes miran pero no compran | [Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}), [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) o Impulsor de Primera Compra |
 | Los compradores no vuelven | Impulsor de Recompra, Reactivación Suave o Impulsor de Ventas Cruzadas |
 | Los clientes quedaron fríos | Reactivación de Inactivos o Último Intento |
 | Tienes un anuncio con fecha | Envío clásico, Campaña Estacional, Adelanto de Lanzamiento o Liquidación Final |
-| El soporte es repetitivo | Respuestas Instantáneas, [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}), Asistente de Cambios y Devoluciones o Pulso CSAT/NPS |
+| El soporte es repetitivo | [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}), [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}), [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}), [Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %}) o [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}) |
+| Necesitas reseñas de productos | [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) |
+| Necesitas feedback de lealtad después de la entrega | [Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}) |
 | Tu proceso es único | Constructor de Rutas o [Agente Personalizado]({% link _journeys/custom-agent-playbook.md %}) |
 
 Elige una misión, una audiencia y un canal para el primer lanzamiento. Ampliar es más fácil después de que el primer playbook confirma que los datos, timing, canal y camino de derivación funcionan.
@@ -142,7 +146,7 @@ Confirma:
 - Las señales requeridas existen en los perfiles del cliente.
 - La audiencia es elegible y tiene consentimiento para el canal.
 - El canal, remitente o cuenta de WhatsApp está listo.
-- Los datos de producto, carrito, orden, catálogo o políticas están disponibles cuando hacen falta.
+- Los datos de producto, carrito, pedido, catálogo o políticas están disponibles cuando hacen falta.
 - Mensajes, plantillas, links, descuentos y recomendaciones fueron probados.
 - Los caminos de derivación o asignación están claros.
 - Reportes y atribución están listos para la primera revisión.
@@ -155,8 +159,15 @@ Sigue leyendo:
 - [Playbook Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %})
 - [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %})
 - [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
+- [Playbook Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %})
 - [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
 - [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
+- [Playbook Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})
+- [Playbook Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %})
+- [Playbook Pulso NPS]({% link _journeys/nps-pulse-playbook.md %})
+- [Playbook Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
+- [Playbook Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %})
+- [Playbook Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %})
 - [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
 - [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
@@ -170,6 +181,7 @@ Sigue leyendo:
 - [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [Playbook Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %})
+- [Playbook Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %})
 - [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
 - [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [Primeros logros recomendados]({% link _getting-started/first-wins-starter-pack.md %})

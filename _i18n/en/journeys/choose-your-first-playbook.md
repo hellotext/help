@@ -28,9 +28,12 @@ After you choose the first option to launch, follow [How to enable a playbook]({
 | --- | --- | --- |
 | Grow your reachable audience or website conversations | A capture such as [Webchat Widget]({% link _journeys/webchat-widget-playbook.md %}), QR code, shareable link, form, popup, or subscriber booster | You need customers to opt in or start a conversation before many playbooks, routes, or campaigns can perform well. |
 | Recover carts | [Cart Saver route]({% link _journeys/cart-saver-route.md %}) or an AI cart saver playbook | Use a route when the follow-up should be predictable. Use an AI playbook when the experience should react to product context, customer intent, replies, or objections. |
-| Convert new subscribers or window shoppers | A first-purchase, browse recovery, or [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}) playbook | These playbooks work best when Hellotext can see product, browsing, subscription, and purchase signals. |
+| Convert new subscribers or window shoppers | A first-purchase, [Browse Recovery]({% link _journeys/browse-recovery-playbook.md %}), or [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}) playbook | These playbooks work best when Hellotext can see product, browsing, subscription, and purchase signals. |
 | Drive repeat purchases | A replenishment, cross-sell, birthday, anniversary, or soft reactivation playbook | These need enough purchase history or profile data to make the timing and recommendation useful. |
-| Answer frequent questions or reduce support load | An instant answers, [Order-Update Delight]({% link _journeys/order-update-playbook.md %}), return, or exchange assistant | Start here when your team spends time answering repeat questions and you have clear policies, order data, and handoff rules. |
+| Collect product reviews after delivery | [Review Builder]({% link _journeys/review-builder-playbook.md %}) | Use this when delivered-order and product data are reliable and you want ratings, written reviews, low-rating follow-up, and exportable review records. |
+| Measure loyalty after delivery | [NPS Pulse]({% link _journeys/nps-pulse-playbook.md %}) | Use this when delivered-order signals are reliable and you want a relationship-level 0-10 recommendation signal. |
+| Answer frequent questions or reduce support load | [Instant Answers]({% link _journeys/instant-answers-playbook.md %}), [Order-Update Delight]({% link _journeys/order-update-playbook.md %}), [Return & Exchange Helper]({% link _journeys/return-and-exchange-helper-playbook.md %}), or [Order Cancellation Assistant]({% link _journeys/order-cancellation-assistant-playbook.md %}) | Start here when your team spends time answering repeat questions and you have clear policies, order data, and handoff rules. |
+| Measure satisfaction after resolved conversations | [CSAT Pulse]({% link _journeys/csat-pulse-playbook.md %}) | Use this when support, Inbox, AI, or playbook conversations can be resolved and negative feedback should create follow-up. |
 | Send one planned announcement | A campaign or broadcast | Use a campaign when the message is time-bound and should go to a selected audience once. |
 | Build a custom flow | A journey route or [custom agent]({% link _journeys/custom-agent-playbook.md %}) | Use this when no prebuilt mission fits, or when you need specific steps, conditions, actions, or business logic. |
 
@@ -38,7 +41,9 @@ After you choose the first option to launch, follow [How to enable a playbook]({
 
 Choose one first outcome, one channel, and one audience.
 
-For a first launch, avoid enabling several revenue playbooks at the same time. If multiple playbooks can act on the same customer, it becomes harder to understand what worked, what annoyed customers, and what should change.
+For a first launch, avoid enabling several revenue playbooks for the same audience at the same time. If multiple playbooks can act on the same customer for the same kind of moment, it becomes harder to understand what worked, what annoyed customers, and what should change.
+
+Feedback playbooks are a little different because they listen for different moments. [Review Builder]({% link _journeys/review-builder-playbook.md %}), [NPS Pulse]({% link _journeys/nps-pulse-playbook.md %}), and [CSAT Pulse]({% link _journeys/csat-pulse-playbook.md %}) can run together when delivery signals, resolved-conversation signals, and follow-up ownership are clear.
 
 Good first launches are usually narrow:
 
@@ -91,8 +96,15 @@ Then adjust one thing at a time: audience, trigger, timing, message, offer, prom
 - [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})
 - [Cart Saver route]({% link _journeys/cart-saver-route.md %})
 - [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %})
+- [Browse Recovery playbook]({% link _journeys/browse-recovery-playbook.md %})
 - [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %})
 - [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
+- [Review Builder playbook]({% link _journeys/review-builder-playbook.md %})
+- [CSAT Pulse playbook]({% link _journeys/csat-pulse-playbook.md %})
+- [NPS Pulse playbook]({% link _journeys/nps-pulse-playbook.md %})
+- [Instant Answers playbook]({% link _journeys/instant-answers-playbook.md %})
+- [Return & Exchange Helper playbook]({% link _journeys/return-and-exchange-helper-playbook.md %})
+- [Order Cancellation Assistant playbook]({% link _journeys/order-cancellation-assistant-playbook.md %})
 - [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %})
 - [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %})
 - [Getting started with journeys]({% link _journeys/getting-started-with-journeys.md %})

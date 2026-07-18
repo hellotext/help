@@ -2,7 +2,7 @@ Hellotext helps commerce teams decide what should happen next for each customer.
 
 It reads customer and business signals, uses playbooks to choose the right next action, and executes that action through messaging channels, the Inbox, campaigns, routes, or AI agents.
 
-Use Hellotext to recover carts, recommend products, answer frequent questions, follow up after purchase, reactivate customers, collect subscribers, and measure the revenue connected to those actions.
+Use Hellotext to recover carts, recommend products, answer frequent questions with [Instant Answers]({% link _journeys/instant-answers-playbook.md %}), guide returns, exchanges, and cancellation requests, collect product reviews, measure loyalty and satisfaction, follow up after purchase, reactivate customers, collect subscribers, and measure the revenue connected to those actions.
 
 ## The short version
 
@@ -38,7 +38,7 @@ The goal is to make each action more relevant than sending the same message to e
 
 ### Playbooks and automation
 
-Playbooks are repeatable systems for business missions such as cart recovery, first purchase, repeat purchase, reactivation, product recommendations, reviews, order follow-up, and support.
+Playbooks are repeatable systems for business missions such as cart recovery, first purchase, repeat purchase, reactivation, product recommendations, reviews, loyalty feedback, order follow-up, cancellation requests, and support.
 
 A playbook can be a prebuilt mission, an AI agent, a route, a campaign, or a capture depending on the job it performs.
 
@@ -92,5 +92,10 @@ If you are new to Hellotext, start in this order:
 - [Playbooks and automation overview]({% link _journeys/playbooks-overview.md %})
 - [Choose your first playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %})
+- [Review Builder playbook]({% link _journeys/review-builder-playbook.md %})
+- [CSAT Pulse playbook]({% link _journeys/csat-pulse-playbook.md %})
+- [NPS Pulse playbook]({% link _journeys/nps-pulse-playbook.md %})
+- [Return & Exchange Helper playbook]({% link _journeys/return-and-exchange-helper-playbook.md %})
+- [Order Cancellation Assistant playbook]({% link _journeys/order-cancellation-assistant-playbook.md %})
 - [Setup overview]({% link _integrations/setup-overview.md %})
 - [Inbox and conversations overview]({% link _team/inbox-overview.md %})

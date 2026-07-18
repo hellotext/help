@@ -33,6 +33,8 @@ Encaja bien cuando:
 
 Si la recuperación de carrito debería reaccionar al contexto de producto, respuestas del cliente, objeciones, recomendaciones o decisiones de derivación, usa [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}).
 
+Si el cliente solo vio productos y nunca agregó nada al carrito o checkout, usa [Playbook Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}).
+
 ## Qué necesita antes del lanzamiento
 
 Antes de publicar la ruta, confirma lo básico.
@@ -136,6 +138,7 @@ Ajusta una parte por vez: espera, texto del mensaje, oferta, audiencia, canal o 
 ## Guías relacionadas
 
 - [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
+- [Playbook Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %})
 - [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %})
 - [Primeros pasos con rutas]({% link _journeys/getting-started-with-journeys.md %})
 - [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})

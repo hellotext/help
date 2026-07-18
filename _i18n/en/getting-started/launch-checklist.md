@@ -67,7 +67,7 @@ Keep reading:
 
 ## 6. Launch one focused playbook, route, or campaign
 
-Choose one first outcome before expanding: recover abandoned carts, follow up after purchase, answer frequent questions, collect subscribers, or send a one-time announcement.
+Choose one first outcome before expanding: recover abandoned carts, follow up after purchase, answer frequent questions with [Instant Answers]({% link _journeys/instant-answers-playbook.md %}), guide returns or exchanges with [Return & Exchange Helper]({% link _journeys/return-and-exchange-helper-playbook.md %}), guide cancellation requests with [Order Cancellation Assistant]({% link _journeys/order-cancellation-assistant-playbook.md %}), collect subscribers, or send a one-time announcement.
 
 Use a prebuilt playbook when the mission is already available. Use a route when you need a predictable step-by-step flow. Use a campaign when you need a one-time send to a selected audience.
 

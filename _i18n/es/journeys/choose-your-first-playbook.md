@@ -28,9 +28,12 @@ Después de elegir la primera opción para lanzar, sigue [Cómo habilitar un pla
 | --- | --- | --- |
 | Crecer tu audiencia alcanzable o conversaciones desde el sitio | Una captura como [Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %}), código QR, link compartible, formulario, popup o impulsor de suscriptores | Necesitas que los clientes se suscriban o inicien una conversación antes de que muchos playbooks, rutas o campañas puedan rendir bien. |
 | Recuperar carritos | [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) o un playbook de carrito con IA | Usa una ruta cuando el seguimiento debería ser predecible. Usa un playbook con IA cuando la experiencia debería reaccionar al producto, intención del cliente, respuestas u objeciones. |
-| Convertir nuevos suscriptores o visitantes que miran sin comprar | Un playbook de primera compra, recuperación de navegación o [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) | Estos playbooks funcionan mejor cuando Hellotext puede ver señales de producto, navegación, suscripción y compra. |
+| Convertir nuevos suscriptores o visitantes que miran sin comprar | Un playbook de primera compra, [Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}) o [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) | Estos playbooks funcionan mejor cuando Hellotext puede ver señales de producto, navegación, suscripción y compra. |
 | Impulsar recompra | Un playbook de reposición, venta cruzada, cumpleaños, aniversario o reactivación suave | Necesitan suficiente historial de compras o datos de perfil para que el timing y la recomendación sean útiles. |
-| Responder preguntas frecuentes o reducir carga de soporte | Un asistente de respuestas instantáneas, [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}), cambios o devoluciones | Empieza aquí cuando tu equipo responde preguntas repetidas y tienes políticas, datos de órdenes y reglas de derivación claras. |
+| Recopilar reseñas de productos después de la entrega | [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) | Úsalo cuando los datos de entrega y producto son confiables y quieres calificaciones, reseñas escritas, seguimiento de calificaciones bajas y registros exportables. |
+| Medir lealtad después de la entrega | [Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}) | Úsalo cuando las señales de pedido entregado son confiables y quieres una señal de recomendación de 0 a 10 a nivel relación. |
+| Responder preguntas frecuentes o reducir carga de soporte | [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}), [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}), [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}) o [Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %}) | Empieza aquí cuando tu equipo responde preguntas repetidas y tienes políticas, datos de pedidos y reglas de derivación claras. |
+| Medir satisfacción después de conversaciones resueltas | [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}) | Úsalo cuando conversaciones de soporte, Inbox, IA o playbooks pueden cerrarse y el feedback negativo debería crear seguimiento. |
 | Enviar un anuncio puntual | Una campaña o broadcast | Usa una campaña cuando el mensaje tiene una fecha o momento concreto y debe enviarse una sola vez a una audiencia seleccionada. |
 | Crear un flujo a medida | Una ruta o [agente personalizado]({% link _journeys/custom-agent-playbook.md %}) | Usa esto cuando ninguna misión preconstruida encaja, o cuando necesitas pasos, condiciones, acciones o lógica de negocio específica. |
 
@@ -38,7 +41,9 @@ Después de elegir la primera opción para lanzar, sigue [Cómo habilitar un pla
 
 Elige un primer objetivo, un canal y una audiencia.
 
-Para un primer lanzamiento, evita habilitar varios playbooks de ingresos al mismo tiempo. Si varios playbooks pueden actuar sobre el mismo cliente, se vuelve más difícil entender qué funcionó, qué molestó a los clientes y qué debería cambiar.
+Para un primer lanzamiento, evita habilitar varios playbooks de ingresos para la misma audiencia al mismo tiempo. Si varios playbooks pueden actuar sobre el mismo cliente para el mismo tipo de momento, se vuelve más difícil entender qué funcionó, qué molestó a los clientes y qué debería cambiar.
+
+Los playbooks de feedback son un poco distintos porque escuchan momentos diferentes. [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}), [Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}) y [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}) pueden convivir cuando las señales de entrega, las señales de conversación resuelta y los responsables de seguimiento están claros.
 
 Los buenos primeros lanzamientos suelen ser acotados:
 
@@ -91,8 +96,15 @@ Después ajusta una cosa por vez: audiencia, disparador, timing, mensaje, oferta
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %})
 - [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
+- [Playbook Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %})
 - [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
 - [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
+- [Playbook Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})
+- [Playbook Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %})
+- [Playbook Pulso NPS]({% link _journeys/nps-pulse-playbook.md %})
+- [Playbook Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
+- [Playbook Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %})
+- [Playbook Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %})
 - [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
 - [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %})
 - [Primeros pasos con rutas]({% link _journeys/getting-started-with-journeys.md %})

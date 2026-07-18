@@ -22,7 +22,7 @@ Usa un **playbook preconstruido** cuando el objetivo es común y la misión reco
 
 Usa un **playbook con IA o agente de IA** cuando la experiencia necesita responder conversacionalmente, usar conocimiento de productos o políticas, recomendar artículos, responder preguntas frecuentes, recopilar información del cliente o decidir cuándo derivar.
 
-Para descubrimiento de producto específicamente, mira [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}). Para preguntas de estado de pedido, mira [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}). Para un agente reactivo a medida con intenciones, prompt, conocimiento, canales, tono y derivación propios, mira [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %}).
+Para intención de navegación que no llegó a carrito, mira [Playbook Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}). Para descubrimiento de producto específicamente, mira [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}). Para preguntas de estado de pedido, mira [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}). Para reseñas de productos después de la entrega, mira [Playbook Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}). Para lealtad después de la entrega, mira [Playbook Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}). Para satisfacción después de conversaciones resueltas, mira [Playbook Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}). Para preguntas frecuentes de soporte, mira [Playbook Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}). Para soporte guiado de cambios o devoluciones, mira [Playbook Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}). Para solicitudes de cancelación, mira [Playbook Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %}). Para un agente reactivo a medida con intenciones, prompt, conocimiento, canales, tono y derivación propios, mira [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %}).
 
 Usa una **ruta** cuando necesitas un flujo de clientes paso a paso con disparador, mensajes, esperas, condiciones, ramas y derivaciones. Un seguimiento básico de carrito abandonado puede ser [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}); un playbook de carrito abandonado con IA puede decidir de forma más dinámica usando señales y contexto del cliente.
 
@@ -57,7 +57,7 @@ Para playbooks de SMS, asegúrate de que tu cuenta tenga un remitente activo o c
 - Las condiciones y ramas envían a cada persona por el camino correcto.
 - Los cupones, links, etiquetas y recomendaciones de producto funcionan.
 - Las reglas de derivación humana son claras para cuando una conversación debe salir de la ruta o del agente.
-- Los límites de frecuencia, consentimiento y horarios silenciosos están claros para que los playbooks no compitan por el mismo cliente.
+- Los límites de frecuencia, consentimiento y horarios silenciosos están claros para que los playbooks no compitan por el mismo cliente en el mismo momento.
 
 ## Mejora después del lanzamiento
 
@@ -80,8 +80,15 @@ Para un proceso de edición más seguro, usa [Cómo personalizar un playbook de 
 - [Playbook Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %})
 - [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %})
 - [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
+- [Playbook Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %})
 - [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
 - [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
+- [Playbook Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})
+- [Playbook Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %})
+- [Playbook Pulso NPS]({% link _journeys/nps-pulse-playbook.md %})
+- [Playbook Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
+- [Playbook Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %})
+- [Playbook Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %})
 - [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
 - [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %})
 - [Primeros pasos con rutas]({% link _journeys/getting-started-with-journeys.md %})

@@ -32,7 +32,7 @@ Common options include:
 - **First-Purchase Driver:** turn new subscribers or sign-ups into first-time buyers.
 - **[Cart Saver]({% link _journeys/cart-saver-route.md %}):** recover abandoned carts with a predictable route.
 - **[AI Cart Saver]({% link _journeys/ai-cart-saver-playbook.md %}):** recover carts with conversational, context-aware follow-up.
-- **Browse Recovery:** re-engage customers who viewed products without buying.
+- **[Browse Recovery]({% link _journeys/browse-recovery-playbook.md %}):** re-engage customers who viewed products without buying.
 - **[Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}):** recommend products in real time from customer behavior and product context.
 - **Complete-the-Look:** suggest complementary products.
 - **Price-Drop Pouncer:** notify interested shoppers when a product price changes.
@@ -90,12 +90,14 @@ Start here when the goal is to answer questions, reduce repetitive support work,
 Common options include:
 
 - **[Order-Update Delight]({% link _journeys/order-update-playbook.md %}):** send order updates and answer order-status questions.
-- **Review Builder:** collect reviews or user-generated content after purchase.
-- **NPS Pulse:** measure loyalty at the right moment.
-- **CSAT Pulse:** measure satisfaction after support or AI interactions.
-- **Instant Answers:** answer common questions with an AI support agent.
-- **Return & Exchange Helper:** help customers with returns or exchanges.
-- **Order Cancellation Assistant:** help customers cancel orders or save the sale in chat.
+- **[Review Builder]({% link _journeys/review-builder-playbook.md %}):** collect product reviews after delivery.
+- **[NPS Pulse]({% link _journeys/nps-pulse-playbook.md %}):** measure loyalty after customers have received an order.
+- **[CSAT Pulse]({% link _journeys/csat-pulse-playbook.md %}):** measure satisfaction after support, Inbox, AI, or playbook interactions.
+- **[Instant Answers]({% link _journeys/instant-answers-playbook.md %}):** answer common questions with an AI support agent.
+- **[Return & Exchange Helper]({% link _journeys/return-and-exchange-helper-playbook.md %}):** help customers with returns or exchanges.
+- **[Order Cancellation Assistant]({% link _journeys/order-cancellation-assistant-playbook.md %}):** help customers request order cancellations or save the sale in chat.
+
+Review Builder, NPS Pulse, and CSAT Pulse can be active together when the underlying moments are different: product review after delivery, loyalty after a delivery experience, and satisfaction after a resolved conversation.
 
 These playbooks usually depend on order data, policy content, uploaded documents, clear handoff rules, and Inbox ownership.
 
@@ -126,11 +128,13 @@ If you are unsure where to start, choose the mission that matches the first bott
 | --- | --- |
 | Not enough reachable customers | Captures, Subscriber Booster, Property Collector, or Welcome Booster |
 | Customers abandon carts | [Cart Saver]({% link _journeys/cart-saver-route.md %}) or [AI Cart Saver]({% link _journeys/ai-cart-saver-playbook.md %}) |
-| Visitors browse but do not buy | Browse Recovery, [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}), or First-Purchase Driver |
+| Visitors browse but do not buy | [Browse Recovery]({% link _journeys/browse-recovery-playbook.md %}), [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}), or First-Purchase Driver |
 | Buyers do not return | Replenishment Driver, Soft Reactivation, or Cross-Sell Driver |
 | Customers have gone cold | Dormant Revival or Sunset Saver |
 | You have a timed announcement | Classic Broadcast, Holiday Hype, Launch Teaser, or Clearance Clean-out |
-| Support work is repetitive | Instant Answers, [Order-Update Delight]({% link _journeys/order-update-playbook.md %}), Return & Exchange Helper, or CSAT/NPS Pulse |
+| Support work is repetitive | [Instant Answers]({% link _journeys/instant-answers-playbook.md %}), [Order-Update Delight]({% link _journeys/order-update-playbook.md %}), [Return & Exchange Helper]({% link _journeys/return-and-exchange-helper-playbook.md %}), [Order Cancellation Assistant]({% link _journeys/order-cancellation-assistant-playbook.md %}), or [CSAT Pulse]({% link _journeys/csat-pulse-playbook.md %}) |
+| You need product reviews | [Review Builder]({% link _journeys/review-builder-playbook.md %}) |
+| You need loyalty feedback after delivery | [NPS Pulse]({% link _journeys/nps-pulse-playbook.md %}) |
 | Your process is unique | Journey Builder or [Custom Agent]({% link _journeys/custom-agent-playbook.md %}) |
 
 Choose one mission, one audience, and one channel for the first launch. Expanding is easier after the first playbook proves that the data, timing, channel, and handoff path are working.
@@ -155,8 +159,15 @@ Keep reading:
 - [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %})
 - [Cart Saver route]({% link _journeys/cart-saver-route.md %})
 - [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %})
+- [Browse Recovery playbook]({% link _journeys/browse-recovery-playbook.md %})
 - [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %})
 - [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
+- [Review Builder playbook]({% link _journeys/review-builder-playbook.md %})
+- [CSAT Pulse playbook]({% link _journeys/csat-pulse-playbook.md %})
+- [NPS Pulse playbook]({% link _journeys/nps-pulse-playbook.md %})
+- [Instant Answers playbook]({% link _journeys/instant-answers-playbook.md %})
+- [Return & Exchange Helper playbook]({% link _journeys/return-and-exchange-helper-playbook.md %})
+- [Order Cancellation Assistant playbook]({% link _journeys/order-cancellation-assistant-playbook.md %})
 - [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %})
 - [How Hellotext decides whether a playbook can send]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})
@@ -170,6 +181,7 @@ Keep reading:
 - [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %})
+- [Browse Recovery playbook]({% link _journeys/browse-recovery-playbook.md %})
 - [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %})
 - [How Hellotext decides whether a playbook can send]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [First wins starter pack]({% link _getting-started/first-wins-starter-pack.md %})

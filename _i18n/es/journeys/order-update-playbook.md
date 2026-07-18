@@ -2,7 +2,7 @@ Usa esta guía cuando los clientes preguntan seguido dónde está una orden, si 
 
 Seguimiento de Pedidos es un playbook reactivo de soporte con IA. Responde cuando un cliente pregunta por el estado de una orden, envío, entrega o número de tracking. Usa datos de orden y envío conectados a Hellotext y decide si responder, pedir datos faltantes, enviar un CTA de tracking o derivar.
 
-No es un agente de soporte general y no es un recomendador de productos. Su trabajo es seguimiento de pedidos. Para descubrimiento de producto, usa [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}). Para soporte más amplio o preguntas de políticas, usa el playbook de soporte correcto, un [agente personalizado]({% link _journeys/custom-agent-playbook.md %}) o el Inbox.
+No es un agente de soporte general y no es un recomendador de productos. Su trabajo es seguimiento de pedidos. Para descubrimiento de producto, usa [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}). Para soporte más amplio o preguntas de políticas, usa [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}), [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}), [Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %}), un [agente personalizado]({% link _journeys/custom-agent-playbook.md %}) o el Inbox.
 
 ## Qué hace Seguimiento de Pedidos
 
@@ -82,6 +82,12 @@ Casos comunes de derivación incluyen:
 
 Para comportamiento de derivación humana, usa [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %}).
 
+Para conversaciones guiadas de cambio o devolución que no pertenecen al seguimiento de pedidos, usa [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}) cuando esté disponible en tu cuenta.
+
+Para solicitudes de cancelación que no pertenecen al seguimiento de pedidos, usa [Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %}) cuando esté disponible en tu cuenta.
+
+Para pedir reseñas de producto después de la entrega, usa [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) en lugar de convertir una respuesta de seguimiento en un flujo de reseña.
+
 ## Por qué puede no responder
 
 Que Seguimiento de Pedidos esté habilitado no significa que cada mensaje de soporte recibirá una respuesta de estado de pedido.
@@ -140,6 +146,10 @@ Ajusta una cosa por vez: calidad de datos de orden, selección de canal, destino
 - [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
 - [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Playbook Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})
+- [Playbook Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
+- [Playbook Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %})
+- [Playbook Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %})
 - [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})

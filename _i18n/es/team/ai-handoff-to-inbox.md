@@ -83,7 +83,7 @@ Una derivación útil debería dejar claro:
 - Qué playbook, intención, ruta o step de IA la manejó primero.
 - Qué quiere el cliente.
 - Qué dijo o hizo el agente.
-- Qué producto, carrito, orden, política o dato del perfil del cliente importa.
+- Qué producto, carrito, pedido, política o dato del perfil del cliente importa.
 - Si el cliente espera soporte, ayuda de venta o seguimiento operativo.
 - Quién se hace cargo de la próxima respuesta.
 - Si la situación es urgente.
@@ -111,10 +111,10 @@ Si la persona tiene que adivinar por qué llegó la conversación, mejora la reg
 Cuando una persona toma la conversación:
 
 - Lee el último mensaje del cliente y el contexto de automatización.
-- Revisa el perfil del cliente, orden, carrito o información de producto antes de responder.
+- Revisa el perfil del cliente, pedido, carrito o información de producto antes de responder.
 - Evita repetir preguntas que el agente ya hizo.
 - Deja claro que ahora está ayudando una persona.
-- Asigna o reasigna la conversación si el ownership es incorrecto.
+- Asigna o reasigna la conversación si el responsable no es el correcto.
 - Cierra la conversación cuando no requiera más acción.
 
 Si la persona realiza una acción comercial, como enviar un cupón, link de producto, link de checkout o recomendación, eso puede afectar la atribución.
@@ -136,7 +136,7 @@ Busca:
 - Conversaciones sin asignar esperando demasiado.
 - Preguntas similares que podrían convertirse en mejores prompts, documentos cargados, intenciones o ramas de ruta.
 
-Usa lo aprendido para ajustar el prompt, intenciones, reglas de playbook, ramas de ruta, ownership del equipo o proceso de respuesta.
+Usa lo aprendido para ajustar el prompt, intenciones, reglas de playbook, ramas de ruta, responsables del equipo o proceso de respuesta.
 
 ## Guías relacionadas
 
@@ -145,6 +145,10 @@ Usa lo aprendido para ajustar el prompt, intenciones, reglas de playbook, ramas 
 - [Tiempo de respuesta y reglas de respuesta]({% link _team/understanding-response-times.md %})
 - [Cómo funciona Hellotext]({% link _getting-started/how-hellotext-works.md %})
 - [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
+- [Playbook Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})
+- [Playbook Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %})
+- [Playbook Pulso NPS]({% link _journeys/nps-pulse-playbook.md %})
+- [Playbook Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %})
 - [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
 - [Cómo escribir un gran prompt para tu agente]({% link _journeys/how-to-write-a-great-prompt.md %})
 - [Checklist antes de enviar]({% link _getting-started/go-live-checklist.md %})

@@ -12,9 +12,7 @@ module PostCss
         postcss_server_mutex.synchronize do
           return if postcss_server_running?
 
-          Thread.new do
-            system "#{START_SCRIPT} #{POSTCSS_SCRIPT} --development"
-          end
+          start_postcss_server!
 
           wait_for_dev_server!
         end
@@ -27,10 +25,31 @@ module PostCss
       end
 
       def postcss_server_running?
-        TCPSocket.open("localhost", POSTCSS_PORT).close
+        TCPSocket.open("127.0.0.1", POSTCSS_PORT).close
         true
       rescue StandardError
         false
+      end
+
+      def start_postcss_server!
+        @postcss_server_pid = spawn(
+          POSTCSS_SCRIPT,
+          "--development",
+          out: File::NULL,
+          err: File::NULL
+        )
+        Process.detach(@postcss_server_pid)
+        at_exit { stop_postcss_server! }
+      end
+
+      def stop_postcss_server!
+        return unless @postcss_server_pid
+
+        Process.kill("TERM", @postcss_server_pid)
+      rescue Errno::ESRCH
+        nil
+      ensure
+        @postcss_server_pid = nil
       end
 
       def wait_for_dev_server!
