@@ -39,3 +39,5 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem "webrick", "~> 1.7"
 
 gem 'concurrent-ruby', '>= 1.3.7'
+
+gem 'json', '>= 2.19.7'

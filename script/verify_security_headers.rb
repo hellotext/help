@@ -11,7 +11,7 @@ end
 # Jekyll minifies these files, so the integrity values cover their published bytes.
 script_integrities = {
   '/js/gtm.js' => 'sha256-KOs83E8sWN0ZSanqdvyKqXPbanqGOxQAEZPz+lkrVh4=',
-  '/js/search.js' => 'sha256-AkaUFcF78aGNk7D3BAwZbe0svqXpo+3oywINmHHwPw4='
+  '/js/search.js' => 'sha256-ooSx+WRiiYWhixANnF6kZbPSQ3WHl4XqNMc6Gr7hgOo='
 }
 
 config = File.read(File.join(ROOT, 'netlify.toml'))
