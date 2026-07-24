@@ -30,16 +30,26 @@
     return normalize([item.title, item.description, item.topic, item.content].join(" "));
   }
 
-  function escapeHtml(value) {
-    return value.toString().replace(/[&<>"']/g, function (character) {
-      return {
-        "&": "&amp;",
-        "<": "&lt;",
-        ">": "&gt;",
-        '"': "&quot;",
-        "'": "&#039;"
-      }[character];
-    });
+  function safeSearchUrl(value) {
+    try {
+      var url = new URL(value, window.location.origin);
+
+      if ((url.protocol !== "http:" && url.protocol !== "https:") || url.origin !== window.location.origin) {
+        return null;
+      }
+
+      return url.pathname + url.search + url.hash;
+    } catch (error) {
+      return null;
+    }
+  }
+
+  function appendResultText(resultLink, className, value) {
+    var element = document.createElement("span");
+
+    element.className = className;
+    element.textContent = value;
+    resultLink.appendChild(element);
   }
 
   function scoreResult(item, terms) {
@@ -105,16 +115,20 @@
     if (query.length < 2) {
       currentResults = [];
       hideResults();
-      resultsContainer.innerHTML = "";
+      resultsContainer.replaceChildren();
       return;
     }
 
     if (results.length === 0) {
+      var emptyResult = document.createElement("div");
+
       currentResults = [];
       resultsContainer.hidden = false;
       setResultsExpanded(true);
       clearSelectedResult();
-      resultsContainer.innerHTML = '<div class="search-empty">' + escapeHtml(emptyMessage) + "</div>";
+      emptyResult.className = "search-empty";
+      emptyResult.textContent = emptyMessage;
+      resultsContainer.replaceChildren(emptyResult);
       return;
     }
 
@@ -122,19 +136,21 @@
     selectedIndex = 0;
     resultsContainer.hidden = false;
     setResultsExpanded(true);
-    resultsContainer.innerHTML = currentResults
-      .map(function (item, index) {
-        var resultId = "search-result-" + index;
+    resultsContainer.replaceChildren();
 
-        return [
-          '<a class="search-result" id="' + resultId + '" role="option" aria-selected="false" href="' + escapeHtml(item.url) + '">',
-          '<span class="search-result-topic">' + escapeHtml(item.topic) + "</span>",
-          '<span class="search-result-title">' + escapeHtml(item.title) + "</span>",
-          '<span class="search-result-description">' + escapeHtml(item.description) + "</span>",
-          "</a>"
-        ].join("");
-      })
-      .join("");
+    currentResults.forEach(function (item, index) {
+      var resultLink = document.createElement("a");
+
+      resultLink.className = "search-result";
+      resultLink.id = "search-result-" + index;
+      resultLink.setAttribute("role", "option");
+      resultLink.setAttribute("aria-selected", "false");
+      resultLink.setAttribute("href", item.url);
+      appendResultText(resultLink, "search-result-topic", item.topic);
+      appendResultText(resultLink, "search-result-title", item.title);
+      appendResultText(resultLink, "search-result-description", item.description);
+      resultsContainer.appendChild(resultLink);
+    });
 
     updateSelectedResult();
   }
@@ -182,7 +198,13 @@
       })
       .then(function (items) {
         index = items.map(function (item) {
-          return Object.assign({}, item, { searchText: buildText(item) });
+          var url = safeSearchUrl(item.url);
+
+          if (!url) {
+            throw new Error("Search index contains an unsafe URL");
+          }
+
+          return Object.assign({}, item, { url: url, searchText: buildText(item) });
         });
         indexLoaded = true;
       })
