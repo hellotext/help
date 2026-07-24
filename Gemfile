@@ -41,3 +41,5 @@ gem "webrick", '~> 1.8.2'
 gem 'concurrent-ruby', '>= 1.3.7'
 
 gem 'json', '>= 2.19.7'
+
+gem 'addressable', '>= 2.9.0'
