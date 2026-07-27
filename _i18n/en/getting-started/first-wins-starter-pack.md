@@ -85,6 +85,8 @@ Expected win: learn which products and delivery experiences create strong feedba
 
 If you have one clear audience, one message, and one planned send time, use a campaign instead.
 
+If customers asked to be notified about a specific unavailable product, use [Back-in-Stock Pounce]({% link _journeys/back-in-stock-pounce.md %}) instead of a broad campaign.
+
 Good first campaigns include:
 
 - A product launch.

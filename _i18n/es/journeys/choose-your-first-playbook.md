@@ -28,6 +28,7 @@ Después de elegir la primera opción para lanzar, sigue [Cómo habilitar un pla
 | --- | --- | --- |
 | Crecer tu audiencia alcanzable o conversaciones desde el sitio | Una captura como [Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %}), código QR, link compartible, formulario, popup o impulsor de suscriptores | Necesitas que los clientes se suscriban o inicien una conversación antes de que muchos playbooks, rutas o campañas puedan rendir bien. |
 | Recuperar carritos | [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) o un playbook de carrito con IA | Usa una ruta cuando el seguimiento debería ser predecible. Usa un playbook con IA cuando la experiencia debería reaccionar al producto, intención del cliente, respuestas u objeciones. |
+| Avisar cuando productos vuelven a stock | [Vuelta a Stock]({% link _journeys/back-in-stock-pounce.md %}) | Úsalo cuando clientes pidieron aviso por un producto no disponible y tus señales de stock son confiables. |
 | Convertir nuevos suscriptores o visitantes que miran sin comprar | [Impulsor de Primera Compra]({% link _journeys/first-purchase-driver-playbook.md %}), [Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}) o [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) | Estos playbooks funcionan mejor cuando Hellotext puede ver señales de producto, navegación, suscripción y compra. |
 | Impulsar recompra | [Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %}), [Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %}), cumpleaños, aniversario o reactivación suave | Necesitan suficiente historial de compras o datos de perfil para que el timing y la recomendación sean útiles. |
 | Recopilar reseñas de productos después de la entrega | [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) | Úsalo cuando los datos de entrega y producto son confiables y quieres calificaciones, reseñas escritas, seguimiento de calificaciones bajas y registros exportables. |
@@ -96,6 +97,7 @@ Después ajusta una cosa por vez: audiencia, disparador, timing, mensaje, oferta
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %})
 - [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
+- [Playbook Vuelta a Stock]({% link _journeys/back-in-stock-pounce.md %})
 - [Playbook Impulsor de Primera Compra]({% link _journeys/first-purchase-driver-playbook.md %})
 - [Playbook Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %})
 - [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})

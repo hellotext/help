@@ -85,6 +85,8 @@ Logro esperado: entender qué productos y experiencias de entrega generan buen f
 
 Si tienes una audiencia clara, un mensaje y un momento de envío planificado, usa una campaña.
 
+Si los clientes pidieron aviso por un producto específico que no estaba disponible, usa [Vuelta a Stock]({% link _journeys/back-in-stock-pounce.md %}) en lugar de una campaña amplia.
+
 Buenas primeras campañas incluyen:
 
 - Un lanzamiento de producto.
