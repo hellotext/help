@@ -1,4 +1,4 @@
-Aprende a crear campañas dirigidas a tu audiencia con comunicaciones y promociones que generen atención e ingresos para tu marca.
+Aprende a crear campañas para llegar a tu audiencia, fomentar la interacción y apoyar la actividad de ventas atribuidas de tu marca.
 
 Las campañas son una de las formas más efectivas de captar la atención de tus clientes con mensajes cortos y relevantes en el momento correcto.
 
@@ -50,9 +50,11 @@ Siempre recomendamos usar esta herramienta para acortar la URL que llevará a lo
 
 Los beneficios de acortar enlaces son dobles: mantiene tu mensaje más corto logrando más caracteres adicionales para el mensaje.
 
-También registra qué destinatarios hicieron clic en el enlace corto y las acciones posteriores, como compras u otros eventos con tracking.
+También registra qué destinatarios hicieron clic en el enlace corto y puede vincular compras posteriores u otros eventos con esa sesión.
 
-Para que esto funcione, debes haber instalado previamente el rastreador *Hellotext.js* o haber creado tu propia implementación para procesar la sesión y rastrear los eventos usando la API.
+Las integraciones de comercio compatibles pueden enviar los datos de compras automáticamente. Para una tienda o eventos personalizados, instala *Hellotext.js* o usa la API para procesar la sesión y rastrear eventos.
+
+Un clic rastreado es evidencia activa útil para la atribución, pero no es la única evidencia que Hellotext puede usar. Lee [Cómo atribuimos las ventas]({% link _analytics-reporting-attribution/sales-attribution.md %}) para conocer la metodología completa.
 
 ### Agregar etiquetas
 

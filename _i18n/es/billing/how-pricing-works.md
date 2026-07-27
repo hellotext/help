@@ -11,7 +11,7 @@
 
 ## Resumen
 
-Hellotext usa un modelo basado en resultados: pagas una tarifa por performance de **2 % a 5 %** de las ventas atribuibles a campañas, playbooks, rutas o agentes de IA. En los planes de esta guía, Starter usa 5 %, Small 4 %, Grow 3 % y Pro 2,5 %. Cada plan tiene un mínimo mensual (“piso”).
+Hellotext usa un modelo basado en resultados: pagas una tarifa por performance de **2 % a 5 %** sobre los ingresos atribuidos a campañas, playbooks, rutas o interacciones elegibles. En los planes de esta guía, Starter usa 5 %, Small 4 %, Grow 3 % y Pro 2,5 %. Cada plan tiene un mínimo mensual (“piso”).
 
 **Regla clave:** cada mes pagas un solo concepto—el mayor entre piso del plan, tarifa por performance, costo de SMS o tarifa variable por mensajes (US $ 2 por cada 1.000). Nunca se suman los cuatro. 
 
@@ -139,10 +139,12 @@ Se cobran por mensaje en moneda local y varían según el plan. Participan en la
 
 ## Atribución: qué cuenta y en qué ventana
 
-* Una orden se atribuye a Hellotext solo si Hellotext es el último click no‑directo antes de la compra.
-* La ventana de atribución es de 24 horas por teléfono impactado.
-* Si el shopper hace click en tu short link de Hellotext en ese mismo dispositivo, la ventana se extiende a 7 días.
-* No atribuimos: entradas manuales, ventas generales de la tienda no vinculadas a mensajes de Hellotext, ni compras ocurridas en conversaciones atendidas por un miembro humano del equipo.
+* Las tarifas por performance se aplican a los ingresos atribuidos según la metodología publicada de Hellotext.
+* Hellotext evalúa evidencia de origen elegible, precedencia de fuentes, identidad del cliente y del pedido, y ventanas de atribución. El modelo no es una regla universal de último clic.
+* Una entrega elegible u otra evidencia pasiva normalmente usa una ventana de 24 horas. Un clic o interacción elegible normalmente usa una ventana de siete días que comienza en esa interacción; las dos ventanas no se suman.
+* Una fuente de marketing externa reconocida tiene precedencia sobre la evidencia de Hellotext. La participación del equipo no elimina automáticamente la atribución y los eventos monetarios personalizados elegibles no se excluyen solo por haber sido creados manualmente.
+
+La atribución y el impacto incremental se miden por separado.
 
 **[Cómo atribuimos las ventas]({% link _analytics-reporting-attribution/sales-attribution.md %})**
 

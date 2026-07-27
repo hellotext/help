@@ -1,100 +1,161 @@
-En Hellotext diseñamos nuestro modelo de tarifas para que el crecimiento de tu eCommerce se refleje directamente en los resultados que pagas. Por eso, la forma en que atribuimos las ventas está pensada para garantizar que solo pagues por lo que realmente genera ingresos a través de nuestra plataforma.
+Hellotext vincula pedidos con campañas, playbooks, rutas y otras interacciones elegibles mediante evidencia de origen, una precedencia de fuentes definida y ventanas de atribución.
 
-## Modelo de atribución: Last Click Non‑Direct
+La métrica resultante son los **ingresos atribuidos**: ingresos vinculados a actividad elegible de Hellotext según estas reglas.
 
-* **Último clic no directo**: atribuimos la venta únicamente cuando el cliente llega a tu tienda **por medio de Hellotext** (WhatsApp o SMS).
-* Antes de atribuir la venta, revisamos el último clic trackeado antes de la compra. Si ese último clic tiene UTMs o parámetros de tracking de otro canal (Meta, Google, email, etc.), consideramos ese canal como la última fuente comercial y **cancelamos la atribución a Hellotext**, incluso si Hellotext había impactado al cliente antes.
+<div class="note">
+  <strong>La atribución y el impacto incremental se miden por separado.</strong>
+</div>
 
-## Ventana de atribución
-1. **Impacto inicial**
-Cuando envías un mensaje a un cliente con un enlace corto a tu e‑commerce, se abre una ventana de **24  horas** para que esa interacción genere la compra.
+## Qué significan los ingresos atribuidos
 
-En las **rutas**, esta ventana inicial solo se aplica a los mensajes enviados con plantillas de marketing. Las plantillas no comerciales —como las de estado de una orden, consentimiento u otras notificaciones operativas— no abren una ventana de atribución de 24 horas.
+Una venta se atribuye cuando Hellotext recibe un evento de ingresos elegible y puede vincularlo con evidencia de origen compatible para el mismo cliente o pedido.
 
-2. **Extensión automática**
-Si el cliente hace clic en el enlace, extendemos la ventana en ese dispositivo por **7 días adicionales**.
+Los ingresos atribuidos se usan en reportes y, cuando corresponde, en la facturación basada en performance. Por sí solos, no significan que Hellotext haya causado todas las ventas atribuidas ni que el monto completo represente crecimiento incremental.
 
-Con este mecanismo te aseguras de que solo las ventas que se originan a partir de un impacto realizado en Hellotext se contabilizan como atribuibles.
+## Evidencia y precedencia de fuentes
 
-## Escenarios en los que no atribuimos ventas
+Hellotext evalúa varios tipos de evidencia antes de asignar una atribución. El pedido o la conversión debe contener suficiente contexto de cliente, pedido y origen para vincularlo con una interacción elegible.
 
-* **Ventas no generadas por Hellotext**: cualquier compra que no haya tenido un impacto directo a través de la plataforma.
-* **UTM diferente en el último clic**: si el último clic trackeado antes de la compra tiene UTMs o parámetros de tracking de otro canal, cancelamos la atribución a Hellotext.
-* **Enlaces enviados por tu equipo**: enlaces (incluidos los cortos) que tu equipo distribuye directamente en las conversaciones.
-* **Eventos creados manualmente**: acciones de seguimiento o registro de ventas que configures manualmente fuera de Hellotext.
-* **Órdenes no confirmadas, canceladas o con devoluciones**: solo atribuimos órdenes confirmadas. Las cancelaciones o devoluciones totales reducen los ingresos atribuidos a cero, y las devoluciones parciales reducen el monto atribuido al valor neto final de la orden.
+Cuando hay más de una fuente disponible:
 
-## ¿Qué pasa cuando tu equipo se suma a la conversación?
+1. Una fuente externa reconocida en el pedido o la conversión tiene precedencia sobre la atribución a Hellotext.
+2. La evidencia activa elegible de Hellotext tiene precedencia sobre una exposición pasiva.
+3. Dentro de una misma clase de evidencia, Hellotext normalmente selecciona la evidencia elegible más reciente. Reglas deterministas resuelven empates con la misma marca de tiempo.
 
-Una venta no se elimina automáticamente de la atribución solo porque una persona de tu equipo participe en la conversación. Revisamos quién impulsó comercialmente la venta antes de que el cliente comprara.
+La evidencia activa puede incluir:
 
-### El soporte humano no elimina automáticamente la atribución
+- una fuente o UTM de Hellotext vinculada con una campaña, playbook o ruta;
+- un clic en un link elegible de una campaña, playbook o ruta;
+- una interacción válida con una recomendación de productos.
 
-Si una persona del equipo responde una consulta de soporte, confirma disponibilidad, ayuda con talles o medidas, o brinda asistencia general, la venta puede seguir atribuida a Hellotext cuando el recorrido comercial fue impulsado por Hellotext.
+La evidencia pasiva puede incluir:
 
-Por ejemplo, Hellotext puede recomendar productos, el cliente puede preguntar si hay un talle disponible y una persona del equipo puede confirmar que está en stock. Si luego el cliente compra desde la recomendación de producto, la venta puede seguir atribuida porque el equipo ayudó con soporte, pero no tomó el control comercial de la venta.
+- la entrega elegible de una campaña;
+- la entrega elegible de un playbook proactivo;
+- una recomendación o señal de comercio válida;
+- otro contexto de origen compatible registrado por Hellotext.
 
-### El soporte posterior a la compra no rompe la atribución
+Un [link con tracking]({% link _analytics-reporting-attribution/tracked-links.md %}) es una fuente útil de evidencia, pero no es obligatorio para todos los caminos de atribución. Del mismo modo, recibir un mensaje no hace que cualquier compra posterior sea atribuible: deben cumplirse los requisitos de entrega, cliente, pedido, fuente y ventana temporal.
 
-Si Hellotext generó la compra original antes de cualquier intervención humana, las acciones de soporte posteriores a la creación de la orden no eliminan la atribución. Esto incluye cambios de color o talle, correcciones de dirección, gestión de cambios, ediciones operativas de la orden y seguimiento de soporte.
+## Ventanas de atribución
 
-En estos casos, la persona del equipo gestionó una solicitud de soporte posterior a la compra. No generó la venta original.
+Hellotext usa actualmente estas ventanas por defecto:
 
-Si el valor de la orden cambia después de la compra atribuida originalmente, ajustamos el monto atribuido de forma justa:
+- **Siete días desde un clic o engagement elegible.**
+- **24 horas desde una entrega o señal pasiva elegible.**
 
-* Si el valor final de la orden es el mismo, el monto atribuido se mantiene igual.
-* Si el valor final de la orden es menor después de un cambio o una devolución parcial, el monto atribuido se reduce al valor final de la orden.
-* Si el valor final de la orden es mayor después de un cambio de soporte, el monto atribuido se limita al valor original atribuido.
-* Si la orden se cancela o se devuelve por completo, el monto atribuido pasa a cero.
+La ventana de siete días comienza cuando ocurre el clic o engagement elegible. No son siete días adicionales después de las primeras 24 horas.
 
-### Las acciones comerciales humanas pueden eliminar la atribución
+Algunas señales tienen su propio período de validez. No todas las entregas, canales, plantillas, rutas o playbooks son elegibles para atribución pasiva.
 
-Si una persona del equipo realiza una acción comercial antes de la compra, la venta puede pasar a considerarse impulsada por una persona en lugar de Hellotext. Las acciones comerciales humanas incluyen:
+## Qué sucede cuando hay otra fuente de marketing
 
-* enviar un cupón,
-* recomendar productos,
-* compartir un enlace de producto,
-* compartir un enlace de checkout,
-* registrar manualmente una venta.
+Si el pedido o la conversión contiene una fuente reconocida de otro canal de marketing, esa fuente externa tiene precedencia y Hellotext no cuenta el pedido como ingresos atribuidos a Hellotext.
 
-Por ejemplo, si Hellotext recomienda un producto y luego una persona del equipo envía otro enlace de producto o un cupón, la venta puede no atribuirse a Hellotext porque esa persona pasó a ser quien impulsó comercialmente la compra.
+Si aparece evidencia externa más fuerte después de una atribución inicial, el motor puede revocar la atribución anterior a Hellotext y mantener el pedido dentro de los ingresos totales del comercio.
 
-### Importa la última acción comercial
+La ausencia de una fuente compatible no demuestra que Hellotext deba recibir la atribución. El pedido todavía necesita evidencia elegible de Hellotext.
 
-Cuando Hellotext y una persona del equipo realizan acciones comerciales, revisamos el orden de esas acciones antes de la compra.
+## Cómo se evalúa la participación de IA y del equipo
 
-Hellotext puede mantener la atribución cuando una persona del equipo responde una pregunta, Hellotext luego envía una recomendación de producto o un enlace de checkout, y el cliente compra después de la acción de Hellotext.
+La participación de una persona del equipo no produce un único resultado universal. La regla aplicable depende del camino de origen.
 
-La atribución puede eliminarse cuando Hellotext envía una recomendación de producto, una persona del equipo luego envía un cupón o un enlace de checkout, y el cliente compra después de la acción de esa persona.
+- La evidencia de una campaña se evalúa directamente y no utiliza la evaluación de driver comercial de Product Recommender.
+- Un checkout que pertenece explícitamente a una persona del equipo o a un operador de comercio puede bloquear atribuciones que no sean de campaña.
+- En los flujos de Product Recommender, Hellotext puede evaluar acciones comerciales explícitas de IA y humanas antes de la compra, como recomendaciones, cupones, links de productos, links de checkout y engagement elegible del cliente.
+- Una respuesta exclusivamente de soporte no se trata automáticamente como una acción comercial humana.
+- Una toma de control humana sostenida puede afectar la decisión de Product Recommender aunque no se haya registrado un cupón o link individual.
+- Otros playbooks y rutas siguen sus propias reglas de contexto de origen y no deben describirse como si todas las ventas pasaran por la misma evaluación entre IA y personas.
 
-### Toma de control humana y conversaciones escaladas
+La participación humana, la asistencia comercial, la propiedad del checkout y el resultado final de atribución son datos relacionados, pero distintos.
 
-A veces una persona del equipo puede tomar control de la venta incluso sin enviar un cupón o un enlace de producto. Si la conversación muestra un intercambio sostenido liderado por una persona justo antes de la compra, la venta puede considerarse impulsada por el equipo.
+## Cancelaciones, reembolsos y pedidos de reemplazo
 
-Si Hellotext deriva explícitamente la conversación a una persona y la venta ocurre después de esa derivación, la venta también puede tratarse como perteneciente al equipo en lugar de atribuida a Hellotext. Esto ayuda a garantizar que Hellotext reciba crédito solo cuando todavía estaba impulsando la venta.
+Cuando Hellotext recibe una cancelación o revocación compatible para un pedido atribuido, puede eliminar el monto atribuido activo de los reportes y de los cálculos de facturación aplicables.
 
-## Cómo explicamos las decisiones de atribución
+Si un pedido cancelado es reemplazado y Hellotext puede comprobar que el nuevo pedido continúa la compra original, la atribución trasladada se limita al menor de estos valores:
 
-Para cada venta que revisamos para atribución, buscamos mostrar la evidencia detrás de la decisión, por ejemplo:
+- el monto atribuido anteriormente; o
+- el valor del pedido de reemplazo.
 
-* la campaña, ruta o playbook de IA que recibió el crédito,
-* el mensaje o evento que originó la atribución,
-* si participó una persona del equipo,
-* si esa participación cambió la atribución,
-* las acciones comerciales de IA y humanas consideradas antes de la compra.
+El comportamiento de reembolsos y reembolsos parciales depende de los datos de comercio que Hellotext recibe y admite. Después de un ajuste en el valor de un pedido, verifica el monto en el reporte de Ingresos y contacta a Soporte si no coincide con el pedido de origen.
 
-Cuando sea necesario, Hellotext puede usar IA para generar una explicación en lenguaje simple a partir de la evidencia de atribución. La explicación debe resumir los hechos, no inventar información nueva.
+## Cómo revisar una decisión de atribución
 
-Algunos ejemplos de explicaciones:
+Para filas atribuidas, la exportación del reporte de Ingresos puede mostrar:
 
-* La venta se atribuyó porque Hellotext recomendó productos antes de la compra y no se encontró ninguna acción comercial humana.
-* Participó una persona, pero solo respondió una consulta de soporte. La acción comercial vino de Hellotext.
-* La persona respondió después de la compra, por lo que su respuesta no afectó la atribución.
-* Una persona modificó la orden después de la compra, por lo que la atribución se mantuvo en Hellotext pero el monto atribuido siguió las reglas de devolución y tope.
-* La venta no se atribuyó a Hellotext porque el último clic antes de la compra tenía UTMs de otro canal.
-* La venta no se atribuyó a Hellotext porque una persona del equipo envió un cupón antes de la compra.
-* La venta no se atribuyó a Hellotext porque la conversación fue derivada a una persona antes de la compra.
+- la campaña, ruta o playbook que recibió la atribución;
+- el tipo y motivo de atribución;
+- la fuente y el canal;
+- evidencia comercial de IA y humana, cuando corresponda;
+- el driver comercial, cuando fue evaluado;
+- una explicación en lenguaje simple;
+- un link a la conversación o al contexto del evento.
 
-### Resumen
+Los recibos detallados del motor también registran los candidatos y la evidencia considerados. Cuando un pedido no atribuido o un registro anterior no muestra suficiente detalle en el reporte, contacta a Soporte con la referencia del pedido y la información del cliente.
 
-Hellotext solo asigna ingresos a los canales que utilizan nuestra solución, garantizando que tu modelo de tarifas se alinee con el rendimiento real. Si tienes alguna duda sobre un caso específico, no dudes en contactarnos. ¡Estamos aquí para ayudarte a crecer!
+## Ingresos atribuidos y crecimiento incremental
+
+Los ingresos atribuidos responden:
+
+> ¿Qué ingresos se vincularon con evidencia elegible de Hellotext según la metodología de atribución?
+
+La medición incremental responde otra pregunta:
+
+> ¿Cuántos ingresos adicionales ocurrieron gracias a la actividad en comparación con lo que habría ocurrido de todos modos?
+
+Hellotext no trata estas dos mediciones como equivalentes.
+
+## Ejemplos
+
+### Entrega elegible de una campaña sin clic
+
+Un cliente recibe un mensaje elegible de una campaña y compra dentro de la ventana de entrega por defecto de 24 horas. No hay una fuente externa reconocida.
+
+El pedido puede atribuirse a la campaña aunque el mensaje no haya incluido un link corto.
+
+### Compra después de un clic
+
+Un cliente hace clic en un link elegible de Hellotext y compra seis días después.
+
+El pedido puede ser elegible porque ocurrió dentro de los siete días desde el clic. La ventana comienza en el clic, no cuando termina la ventana de entrega.
+
+### Fuente externa al comprar
+
+Un cliente interactuó antes con Hellotext, pero el pedido contiene una fuente reconocida de otro canal de marketing.
+
+El pedido no se atribuye a Hellotext porque la fuente externa tiene precedencia.
+
+### Recomendación con participación de soporte
+
+Product Recommender recomienda un producto y el cliente interactúa con esa recomendación. Luego, una persona del equipo responde una consulta exclusivamente de soporte.
+
+La respuesta de soporte no elimina automáticamente la atribución. La decisión usa la evidencia comercial compatible y su secuencia.
+
+### Checkout humano sin campaña
+
+Hubo una interacción con un playbook, pero una persona del equipo u operador de comercio es propietario explícito del checkout final y no hay una campaña con precedencia.
+
+El pedido puede permanecer en los ingresos totales del comercio sin convertirse en ingresos atribuidos a Hellotext.
+
+### Evento monetario personalizado
+
+Se recibe un evento personalizado con monto positivo y contexto compatible de cliente y fuente.
+
+Puede evaluarse para atribución. Ser personalizado no lo excluye automáticamente, pero el evento por sí solo no es evidencia suficiente.
+
+### Sin evidencia compatible
+
+La compra está fuera de la ventana aplicable, no puede vincularse con el cliente o pedido, o no tiene una fuente de atribución compatible.
+
+Los ingresos permanecen en los ingresos del comercio, pero no se atribuyen a Hellotext.
+
+## Guías relacionadas
+
+- [Reportes de campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %})
+- [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})
+- [Links con tracking]({% link _analytics-reporting-attribution/tracked-links.md %})
+- [Seguimiento de eventos]({% link _developers/tracking-events.md %})
+- [Seguimiento de links en campañas, rutas y playbooks]({% link _developers/tracking-on-campaigns-and-journeys.md %})
+- [Modelo de precios]({% link _billing/how-pricing-works.md %})
+- [Uso y consumos del plan]({% link _billing/understanding-plan-quotas.md %})

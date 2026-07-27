@@ -1,4 +1,4 @@
-Learn how to create campaigns to reach your audience with communications and promotions that drive attention and revenue for your brand.
+Learn how to create campaigns that reach your audience, encourage engagement, and support attributed sales activity for your brand.
 
 Campaigns are one of the most effective ways to capture your customers' attention by delivering short and relevant messages at the right moment.
 
@@ -50,9 +50,11 @@ We always recommend using this tool to shorten the URL that will take visitors t
 
 The benefits of shortening links are two-fold: it keeps your message shorter, leaving more characters for the actual message.
 
-It also tracks which recipients clicked the short link and the actions that followed, such as purchases or other tracked events.
+It also tracks which recipients clicked the short link and can connect later purchases or other events with that session.
 
-For this to work, you previously need to have installed the *Hellotext.js* tracker or created your own implementation to process the session and track the events using the API.
+Supported commerce integrations can send purchase data automatically. For a custom storefront or custom events, install *Hellotext.js* or use the API to process the session and track events.
+
+A tracked click is useful active attribution evidence, but it is not the only evidence Hellotext can use. Read [How we attribute sales]({% link _analytics-reporting-attribution/sales-attribution.md %}) for the complete methodology.
 
 ### Add tags
 

@@ -6,7 +6,7 @@ Playbook reporting is not one single number. Review revenue, performance, attrib
 
 Start from the reports that match the question you are trying to answer.
 
-Use the **Revenue** report when you want to understand attributed sales, revenue split between campaigns and playbooks, and which playbooks or routes generated revenue.
+Use the **Revenue** report when you want to understand attributed sales, the revenue split between campaigns and playbooks, and which playbooks or routes received attributed revenue.
 
 Use the **Performance** report when you want to compare conversion rate, time to conversion, and escalation rate across playbooks, channels, campaigns, AI-assisted conversations, and human-assisted conversations.
 
@@ -22,16 +22,16 @@ Before comparing results, choose the right date range and confirm that the playb
 
 In the Revenue report, look for:
 
-- **AI-driven revenue**, when Hellotext can connect the sale to an AI-assisted interaction or playbook.
-- **Human-driven revenue**, when a teammate's participation influenced the attributed sale.
-- **Total revenue**, to understand the full attributed amount.
+- **AI-driven revenue**, the report lane that includes revenue connected through campaign, route, or eligible AI-playbook evidence.
+- **Human-driven revenue**, revenue classified as human-driven by the attribution engine, together with eligible legacy records.
+- **Total revenue**, all commerce revenue reported for the period, including attributed and unattributed revenue.
 - **Playbook breakdowns**, to compare workflows by attributed revenue.
-- **Campaigns vs Playbooks**, to understand whether one-time sends or always-on workflows are driving more attributed sales.
+- **Campaigns vs Playbooks**, to compare attributed sales connected to one-time sends and always-on workflows.
 - **Playbooks section**, to compare revenue, conversion behavior, delivered messages, and customer reach by workflow.
 
 Use revenue reporting to answer questions like:
 
-- Which playbook or route is producing the most attributed revenue?
+- Which playbook or route has the most attributed revenue?
 - Is revenue coming from autonomous playbooks, human-assisted conversations, or campaigns?
 - Are certain channels, audiences, or workflows outperforming others?
 - Does a playbook need better product data, timing, offer logic, or handoff rules?
@@ -40,7 +40,7 @@ If a playbook has strong revenue but many human handoffs, it may still be valuab
 
 ## Review performance and handoffs
 
-Use the Performance report to understand whether a playbook is healthy, not just whether it produced revenue.
+Use the Performance report to understand whether a playbook is healthy, not just whether it received attributed revenue.
 
 Check:
 
@@ -60,11 +60,11 @@ When reviewing attribution, look for:
 
 - The campaign, route, or playbook connected to the sale.
 - The channel and source that influenced the customer.
-- Whether the interaction was AI-driven, human-driven, or both.
+- Whether the report classified the interaction as AI-driven or human-driven and, where commercial-driver evaluation applies, how team participation affected the decision.
 - The attribution reason and supporting evidence.
 - Whether another commercial touchpoint happened before purchase.
 
-Use [Sales attribution]({% link _analytics-reporting-attribution/sales-attribution.md %}) when you need to understand attribution windows, last-click behavior, cancellations, refunds, or human intervention.
+Use [Sales attribution]({% link _analytics-reporting-attribution/sales-attribution.md %}) when you need to understand source precedence, evidence selection, attribution windows, cancellations, order changes, or team participation.
 
 ## Compare playbooks carefully
 
@@ -91,7 +91,7 @@ Use the pattern you see to decide what to inspect next.
 | Messages delivered but few conversions | Timing, offer, message clarity, product relevance, and whether the audience is too broad. |
 | Many unresolved conversations | Agent prompt, uploaded documents, product data, policies, and escalation rules. |
 | High human-driven revenue | Whether handoff is expected and whether the playbook should answer more before escalating. |
-| Missing attributed revenue | Tracking, links, order events, attribution windows, and whether another channel received last-click credit. |
+| Missing attributed revenue | Tracking, links, order events, attribution windows, and whether a recognized external source took precedence. |
 | High opt-outs or negative replies | Audience quality, consent, frequency, tone, and offer relevance. |
 | Weak review collection | Delivered-order signals, review timing, product spacing, channel support, and whether low ratings are handled correctly. |
 | Weak NPS response or many detractors | Delivered-order signals, delivery timing, message clarity, channel eligibility, and whether detractor feedback creates the right recovery path. |

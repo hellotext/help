@@ -117,7 +117,7 @@ Cuando una persona toma la conversación:
 - Asigna o reasigna la conversación si el responsable no es el correcto.
 - Cierra la conversación cuando no requiera más acción.
 
-Si la persona realiza una acción comercial, como enviar un cupón, link de producto, link de checkout o recomendación, eso puede afectar la atribución.
+La participación del equipo no elimina automáticamente la atribución. Su efecto depende del camino de atribución y de la evidencia disponible. La evidencia de una campaña puede seguir siendo elegible cuando participa una persona; un checkout ajeno a una campaña y bajo responsabilidad de una persona puede bloquear la atribución; y Recomendador de Productos usa su propia evaluación del responsable comercial. Otros playbooks y rutas no usan automáticamente esa misma evaluación.
 
 Sigue leyendo: [Atribución de ventas]({% link _analytics-reporting-attribution/sales-attribution.md %}).
 

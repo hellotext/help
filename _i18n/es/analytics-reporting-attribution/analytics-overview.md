@@ -1,4 +1,4 @@
-Usa analítica y reportes para entender qué pasó después de que Hellotext envió un mensaje, activó un playbook o ruta, o llevó tráfico de vuelta a tu tienda.
+Usa analítica y reportes para entender qué pasó después de que Hellotext envió un mensaje, activó un playbook o ruta, o vinculó actividad con tu tienda.
 
 Esta sección conecta tres preguntas relacionadas:
 
@@ -26,7 +26,7 @@ Sigue leyendo: [Reportes de playbooks]({% link _analytics-reporting-attribution/
 
 La atribución explica cuándo Hellotext recibe crédito por una venta y cuándo no.
 
-Usa la guía de atribución cuando necesites entender reglas de last-click, ventanas de atribución, participación del equipo humano, cancelaciones, devoluciones y ajustes de ingresos.
+Usa la guía de atribución cuando necesites entender precedencia de fuentes, evidencia elegible, ventanas de atribución, participación del equipo y cambios de pedidos compatibles.
 
 Sigue leyendo: [Atribución de ventas]({% link _analytics-reporting-attribution/sales-attribution.md %}).
 
@@ -49,8 +49,8 @@ Al revisar performance, verifica:
 - La audiencia y el canal usado.
 - Si los links y el tracking estaban configurados correctamente.
 - Si el reporte está midiendo clicks, respuestas, conversiones o ingresos atribuidos.
-- Si otro canal fue el último click comercial antes de la compra.
-- Si una persona del equipo tomó control comercial de la venta antes de la compra.
+- Si el pedido contiene una fuente externa reconocida que tiene precedencia.
+- Si la responsabilidad del checkout o la participación del equipo aplicable a ese flujo afectó la decisión.
 
 Si estás revisando tu primer lanzamiento, empieza por [Mide el éxito en tus primeros 7 días]({% link _getting-started/measure-success-first-7-days.md %}).
 

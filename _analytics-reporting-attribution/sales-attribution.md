@@ -2,11 +2,11 @@
 languages: ["en", "es"]
 
 en:
-  title: Sales attribution
-  description: Learn how we use last‑click attribution, attribution windows, human interactions, and when we exclude sales.
+  title: How we attribute sales
+  description: Learn how Hellotext links orders to campaigns, playbooks, routes, and eligible interactions using source precedence and attribution windows.
 es:
-  title: Atribución de ventas
-  description: Descubre cómo usamos atribución last‑click, ventanas de atribución, interacciones humanas y cuándo excluimos ventas.
+  title: Cómo atribuimos las ventas
+  description: Aprende cómo Hellotext vincula pedidos con campañas, playbooks, rutas e interacciones elegibles mediante precedencia de fuentes y ventanas de atribución.
 
 permalink: how-we-attribute-sales
 permalink_es: como-atribuimos-las-ventas

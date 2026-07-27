@@ -117,7 +117,7 @@ When a teammate takes over:
 - Assign or reassign the conversation if ownership is wrong.
 - Close the conversation when no further action is needed.
 
-If the teammate performs a commercial action, such as sending a coupon, product link, checkout link, or recommendation, that can affect attribution.
+Team participation does not automatically remove attribution. Its effect depends on the attribution path and available evidence. Campaign evidence can remain eligible when a teammate participates; a teammate-owned non-campaign checkout can block attribution; and Product Recommender uses its own commercial-driver evaluation. Other playbooks and routes do not automatically use that same evaluation.
 
 Keep reading: [Sales attribution]({% link _analytics-reporting-attribution/sales-attribution.md %}).
 

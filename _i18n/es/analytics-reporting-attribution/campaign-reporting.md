@@ -1,38 +1,49 @@
-Uno de los grandes beneficios de las campañas son sus completos informes y métricas detalladas de participación de cada cliente.
+Los reportes de campaña muestran entrega, interacción, compras atribuidas e ingresos atribuidos de una campaña entregada. Úsalos para comparar mensajes y canales, revisar la actividad de clientes y entender qué pedidos se vincularon con la campaña según la metodología de atribución de Hellotext.
 
-Con los informes de campaña, tienes una vista detallada sobre su efectividad y cómo interactuaron los clientes: desde su primer click en el enlace compartido hasta que realizaron una compra.
+Para abrir un reporte, ve a **Campañas** y selecciona una campaña entregada. Los reportes están disponibles después de que se entrega una campaña.
 
-Estos informes brindan información detallada para ayudarte a comprender cuánto vendiste, qué productos prefirieron más los clientes y, no menos importante, cómo seguir optimizando y entregando campañas aún mejores en el futuro.
+## Selecciona el período del reporte
 
-Para ver el informe de una campaña, ve a la sección *Campañas* y simplemente haz clic en el título de cualquier campaña entregada cuya información deseas ver. Solo puedes ver los informes de las campañas que ya se entregaron.
+El reporte se abre con la opción **Primeros 14 días**. Puedes cambiar el rango de fechas para revisar otro período.
 
-### Selección de un período
+El período del reporte controla qué actividad aparece. No extiende la ventana de atribución utilizada para decidir si un pedido corresponde a la campaña.
 
-Los informes incluyen automáticamente todo el período desde el día en que comenzó la campaña hasta el último día que se registró una interacción.
+## Interpreta las métricas principales
 
-Puedes ajustar los informes para que comiencen en un día diferente y seleccionar el período en adelante. Esto brinda una gran flexibilidad cuando deseas ver la actividad durante un período de tiempo particular.
+* **Ingresos:** ingresos activos atribuidos a la campaña durante el período seleccionado.
+* **ROI:** ingresos atribuidos a la campaña divididos por el costo estimado de entrega de sus mensajes.
+* **Conversión:** cantidad de compras atribuidas dividida por los mensajes entregados.
+* **Ingresos/mensaje:** ingresos atribuidos a la campaña divididos por los mensajes entregados.
+* **CTR:** clics rastreados divididos por los mensajes entregados.
 
-## Atribución
+La conversión no es el porcentaje de clics únicos que realizaron una compra. Se calcula con las compras atribuidas y los mensajes entregados.
 
-Si la campaña contiene un enlace corto a su sitio o cualquier promoción o producto anunciado y ya implementaste previamente el tracker de Hellotext.js, estos eventos se registrarán y agregarán a los informes.
+## Compara entregas y envíos
 
-Desde el reporte es posible ver detalles de:
+El embudo de entrega muestra cómo avanzaron los mensajes por las etapas de entrega e interacción. Cuando una campaña tiene más de un envío o canal, la tabla de envíos permite comparar mensajes entregados, CTR, ROI, conversión, ingresos por mensaje e ingresos atribuidos.
 
-* Compras realizadas
-* Artículos agregados/eliminados de los carritos
-* Reembolsos
-* Aplicaciones instaladas/eliminadas
-* Completar formularios
+## Cómo los clics y las entregas contribuyen a la atribución
 
-### Nombres explicados
+Un clic en un enlace corto rastreado es evidencia activa de la campaña y normalmente abre una ventana de atribución de siete días desde el clic elegible. El clic no es la única evidencia posible: una entrega elegible de la campaña puede aportar evidencia pasiva dentro de la ventana predeterminada de 24 horas.
 
-* **CTR**: La tasa de clics es el porcentaje de clics realizados sobre el total de destinatarios únicos de la campaña.
-* **CVR**: la tasa de conversión se refiere al porcentaje de clics únicos realizados que terminaron en una compra.
+Hellotext evalúa la evidencia de origen disponible y su precedencia antes de asignar el pedido. Una fuente de marketing externa reconocida puede tener precedencia sobre la evidencia de Hellotext. Lee [Cómo atribuimos las ventas]({% link _analytics-reporting-attribution/sales-attribution.md %}) para conocer la metodología completa.
 
-## Actividad de la campaña
+## Explora los ingresos y la actividad
 
-Cada acción realizada por un cliente que interactuó con la campaña se registrará como un evento y se mostrará en la sección *Actividad* del informe.
+Según la campaña y los datos disponibles, el reporte también puede incluir:
 
-Las actividades se actualizan en tiempo real y se mostrarán nuevos eventos sin tener que recargar la página.
+* Tiempo hasta la conversión
+* Ingresos por canal
+* Ingresos por segmento
+* Eventos de entrega e interacción
+* Compras y otros eventos rastreados del cliente
 
-También puedes acotar los resultados buscando por perfil de cliente o por acción registrada.
+Que un evento aparezca en la actividad de la campaña no significa automáticamente que haya creado ingresos atribuidos. El evento todavía necesita evidencia elegible de cliente, pedido, origen y tiempo.
+
+Las integraciones de comercio compatibles pueden enviar los datos de compras automáticamente. Para tiendas y eventos personalizados, usa [Hellotext.js o la API]({% link _developers/tracking-events.md %}).
+
+## Guías relacionadas
+
+* [Rastrear enlaces en campañas y recorridos]({% link _developers/tracking-on-campaigns-and-journeys.md %})
+* [Usar enlaces rastreados]({% link _analytics-reporting-attribution/tracked-links.md %})
+* [Introducción a Analíticas]({% link _analytics-reporting-attribution/analytics-overview.md %})

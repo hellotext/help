@@ -66,6 +66,8 @@ It is possible to create your own defined actions directly using the API. For ex
 
 Learn more on the **[API Reference for Actions](https://www.hellotext.com/api#actions)**.
 
+A custom event with a positive monetary amount can be evaluated for attribution when Hellotext can identify the customer and find eligible source and timing evidence. Creating a custom action by itself does not make its revenue attributed. See [How we attribute sales]({% link _analytics-reporting-attribution/sales-attribution.md %}).
+
 ## Understanding Events
 
 An event is the object that creates a relationship between an action and a customer profile at a particular time.

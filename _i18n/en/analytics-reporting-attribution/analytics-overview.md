@@ -1,4 +1,4 @@
-Use analytics and reporting to understand what happened after Hellotext sent a message, activated a playbook or route, or drove traffic back to your store.
+Use analytics and reporting to understand what happened after Hellotext sent a message, activated a playbook or route, or linked activity back to your store.
 
 This section connects three related questions:
 
@@ -26,7 +26,7 @@ Keep reading: [Playbook reporting]({% link _analytics-reporting-attribution/play
 
 Attribution explains when Hellotext receives credit for a sale and when it does not.
 
-Use attribution guidance when you need to understand last-click rules, attribution windows, human team participation, cancellations, refunds, and revenue adjustments.
+Use attribution guidance when you need to understand source precedence, eligible evidence, attribution windows, team participation, and supported order changes.
 
 Keep reading: [Sales attribution]({% link _analytics-reporting-attribution/sales-attribution.md %}).
 
@@ -49,8 +49,8 @@ When reviewing performance, check:
 - The audience and channel used.
 - Whether links and tracking were configured correctly.
 - Whether the report is measuring clicks, replies, conversions, or attributed revenue.
-- Whether another channel was the last commercial click before purchase.
-- Whether a human teammate took over the commercial sale before purchase.
+- Whether the order contains a recognized external source that takes precedence.
+- Whether checkout ownership or path-specific team participation affected the decision.
 
 If you are reviewing your first launch, start with [Measure success in your first 7 days]({% link _getting-started/measure-success-first-7-days.md %}).
 

@@ -11,7 +11,7 @@
 
 ## Summary
 
-Hellotext uses a results‑based model: you pay a **2% to 5%** performance fee on revenue attributable to campaigns, playbooks, routes, or AI agents. In the plans in this guide, Starter uses 5%, Small 4%, Grow 3%, and Pro 2.5%. Each plan has a monthly minimum (“floor”).
+Hellotext uses a results‑based model: you pay a **2% to 5%** performance fee on revenue attributed to campaigns, playbooks, routes, or eligible interactions. In the plans in this guide, Starter uses 5%, Small 4%, Grow 3%, and Pro 2.5%. Each plan has a monthly minimum (“floor”).
 
 **Key rule:** each month you pay only **one** line item—the highest of plan minimum, performance fee, SMS costs, or variable messaging fee (US$ 2 per 1,000). The four are never added together.
 
@@ -137,10 +137,12 @@ Charged per message in local currency and vary by plan. They follow the same “
 
 ## Attribution: what counts and the time window {#attribution-what-counts-and-time-window}
 
-* An order is attributed to Hellotext only when Hellotext is the last non‑direct click before purchase.
-* The attribution window is 24 hours per impacted phone.
-* If the shopper clicks your Hellotext short link on that same device, the window extends to 7 days.
-* We don’t attribute: manual entries, general store sales not tied to Hellotext messages, or purchases that occur in conversations handled by a human team member.
+* Performance fees apply to revenue attributed under Hellotext's published methodology.
+* Hellotext evaluates eligible source evidence, source precedence, customer and order identity, and attribution windows. The model is not a universal last-click rule.
+* Eligible delivery or other passive evidence normally uses a 24-hour window. An eligible click or engagement normally uses a seven-day window starting at that interaction; the two windows are not added together.
+* A recognized external marketing source takes precedence over Hellotext evidence. Team participation does not automatically remove attribution, and eligible custom monetary events are not excluded only because they were created manually.
+
+Attribution and incremental impact are measured separately.
 
 **[How we attribute sales]({% link _analytics-reporting-attribution/sales-attribution.md %})**
 

@@ -66,6 +66,8 @@ Es posible crear tus propias acciones definidas directamente usando la API. Por 
 
 Obtén más información en **[Referencia de API para acciones](https://www.hellotext.com/api#actions)**.
 
+Un evento personalizado con un monto monetario positivo puede evaluarse para atribución cuando Hellotext puede identificar al cliente y encontrar evidencia elegible de origen y tiempo. Crear una acción personalizada por sí solo no convierte sus ingresos en ingresos atribuidos. Consulta [Cómo atribuimos las ventas]({% link _analytics-reporting-attribution/sales-attribution.md %}).
+
 ## Comprendiendo los eventos
 
 Un evento es el objeto que crea una relación entre una acción y un perfil de cliente en un momento determinado.
