@@ -20,7 +20,7 @@ Aplicamos una regla única: pagas solo el monto mayor entre estos cuatro concept
 
 % aplicado a ingresos atribuidos a mensajes, campañas, playbooks, rutas o interacciones elegibles de Hellotext. Escalas por plan: **5 %** (Starter), **4 %** desde **US$ 2.000** (Small), **3 %** desde **US$ 10.000** (Grow), **2,5 %** desde **US$ 30.000** (Pro) y **2 %** desde **US$ 100.000** (Enterprise).
 
-> **Atribución:** Hellotext evalúa evidencia de origen elegible y precedencia de fuentes. Una entrega elegible u otra evidencia pasiva normalmente usa una ventana de 24 horas; un clic o interacción elegible normalmente usa una ventana de siete días desde esa interacción. Consulta [Cómo atribuimos las ventas]({% link _analytics-reporting-attribution/sales-attribution.md %}).
+> **Atribución:** Hellotext evalúa evidencia de origen elegible y precedencia de fuentes. Las ventanas por defecto son de 24 horas para una entrega elegible u otra evidencia pasiva, y de siete días desde un clic o interacción elegible. La configuración de la cuenta puede ser diferente. Consulta [Cómo atribuimos las ventas]({% link _analytics-reporting-attribution/sales-attribution.md %}).
 
 ### 2) Mensajes multicanal con IA (fair‑use)
 
@@ -85,9 +85,9 @@ Costo de SMS, Tarifa variable (US$ 2/1.000) }_
 
 ## Preguntas frecuentes
 
-**¿Qué ventas se consideran “atribuibles”?**
+**¿Qué son las ventas atribuidas a Hellotext?**
 
-Las ventas atribuidas según la metodología publicada de Hellotext. La decisión usa evidencia elegible, precedencia de fuentes, identidad del cliente y del pedido, y la ventana predeterminada aplicable: 24 horas para una entrega elegible o evidencia pasiva, o siete días desde un clic o interacción elegible. Una fuente de marketing externa reconocida tiene precedencia. Consulta [Cómo atribuimos las ventas]({% link _analytics-reporting-attribution/sales-attribution.md %}).
+Son las ventas que cumplen la metodología de atribución publicada de Hellotext. La decisión usa evidencia elegible, precedencia de fuentes, identidad del cliente y del pedido, y la ventana por defecto aplicable: 24 horas para una entrega elegible o evidencia pasiva, o siete días desde un clic o interacción elegible. Una fuente de marketing externa reconocida tiene precedencia. Consulta [Cómo atribuimos las ventas]({% link _analytics-reporting-attribution/sales-attribution.md %}).
 
 **¿Dónde veo las tarifas de SMS y los países disponibles?**
 

@@ -2,10 +2,6 @@ Hellotext links orders to campaigns, playbooks, routes, and other eligible inter
 
 The resulting metric is **attributed revenue**: revenue connected to eligible Hellotext activity under these rules.
 
-<div class="note">
-  <strong>Attribution and incremental impact are measured separately.</strong>
-</div>
-
 ## What attributed revenue means
 
 A sale is attributed when Hellotext receives an eligible revenue event and can connect it to supported source evidence for the same customer or order.
@@ -43,6 +39,8 @@ Hellotext currently uses these default windows:
 
 - **Seven days from an eligible click or engagement.**
 - **24 hours from an eligible delivery or passive signal.**
+
+Window duration can be configured by account.
 
 The seven-day window begins when the eligible click or engagement happens. It is not seven days added after the first 24 hours.
 

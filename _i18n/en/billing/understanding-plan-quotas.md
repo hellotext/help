@@ -20,7 +20,7 @@ We apply a single rule: you pay only the highest amount among these four items f
 
 % applied to revenue attributed to Hellotext messages, campaigns, playbooks, routes, or eligible interactions. Plan breakpoints: **5%** (Starter), **4%** from **US$ 2,000** (Small), **3%** from **US$ 10,000** (Grow), **2.5%** from **US$ 30,000** (Pro), and **2%** from **US$ 100,000** (Enterprise).
 
-> **Attribution:** Hellotext evaluates eligible source evidence and source precedence. Eligible delivery or other passive evidence normally uses a 24-hour window; an eligible click or engagement normally uses a seven-day window from that interaction. See [How we attribute sales]({% link _analytics-reporting-attribution/sales-attribution.md %}).
+> **Attribution:** Hellotext evaluates eligible source evidence and source precedence. The default windows are 24 hours for eligible delivery or other passive evidence, and seven days from an eligible click or engagement. Account configuration can differ. See [How we attribute sales]({% link _analytics-reporting-attribution/sales-attribution.md %}).
 
 ### 2) Multichannel AI messages (fair‑use)
 
@@ -85,9 +85,9 @@ SMS costs, Variable fee (US$ 2/1,000) }*
 
 ## Frequently asked questions
 
-**Which sales are considered “attributable”?**
+**What are sales attributed to Hellotext?**
 
-Sales attributed under Hellotext's published methodology. The decision uses eligible evidence, source precedence, customer and order identity, and the applicable default window: 24 hours for eligible delivery or passive evidence, or seven days from an eligible click or engagement. A recognized external marketing source takes precedence. See [How we attribute sales]({% link _analytics-reporting-attribution/sales-attribution.md %}).
+They are sales that meet Hellotext's published attribution methodology. The decision uses eligible evidence, source precedence, customer and order identity, and the applicable default window: 24 hours for eligible delivery or passive evidence, or seven days from an eligible click or engagement. A recognized external marketing source takes precedence. See [How we attribute sales]({% link _analytics-reporting-attribution/sales-attribution.md %}).
 
 **Where can I see SMS rates and available countries?**
 
