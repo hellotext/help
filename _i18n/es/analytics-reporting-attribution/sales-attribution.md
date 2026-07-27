@@ -2,10 +2,6 @@ Hellotext vincula pedidos con campañas, playbooks, rutas y otras interacciones 
 
 La métrica resultante son los **ingresos atribuidos**: ingresos vinculados a actividad elegible de Hellotext según estas reglas.
 
-<div class="note">
-  <strong>La atribución y el impacto incremental se miden por separado.</strong>
-</div>
-
 ## Qué significan los ingresos atribuidos
 
 Una venta se atribuye cuando Hellotext recibe un evento de ingresos elegible y puede vincularlo con evidencia de origen compatible para el mismo cliente o pedido.
@@ -35,16 +31,18 @@ La evidencia pasiva puede incluir:
 - una recomendación o señal de comercio válida;
 - otro contexto de origen compatible registrado por Hellotext.
 
-Un [link con tracking]({% link _analytics-reporting-attribution/tracked-links.md %}) es una fuente útil de evidencia, pero no es obligatorio para todos los caminos de atribución. Del mismo modo, recibir un mensaje no hace que cualquier compra posterior sea atribuible: deben cumplirse los requisitos de entrega, cliente, pedido, fuente y ventana temporal.
+Un [link con tracking]({% link _analytics-reporting-attribution/tracked-links.md %}) es una fuente útil de evidencia, pero no es obligatorio para todos los caminos de atribución. Del mismo modo, recibir un mensaje no hace que cualquier compra posterior se atribuya: deben cumplirse los requisitos de entrega, cliente, pedido, fuente y ventana temporal.
 
 ## Ventanas de atribución
 
 Hellotext usa actualmente estas ventanas por defecto:
 
-- **Siete días desde un clic o engagement elegible.**
+- **Siete días desde un clic o interacción elegible.**
 - **24 horas desde una entrega o señal pasiva elegible.**
 
-La ventana de siete días comienza cuando ocurre el clic o engagement elegible. No son siete días adicionales después de las primeras 24 horas.
+La duración de las ventanas puede configurarse por cuenta.
+
+La ventana de siete días comienza cuando ocurre el clic o la interacción elegible. No son siete días adicionales después de las primeras 24 horas.
 
 Algunas señales tienen su propio período de validez. No todas las entregas, canales, plantillas, rutas o playbooks son elegibles para atribución pasiva.
 
@@ -62,7 +60,7 @@ La participación de una persona del equipo no produce un único resultado unive
 
 - La evidencia de una campaña se evalúa directamente y no utiliza la evaluación de driver comercial de Product Recommender.
 - Un checkout que pertenece explícitamente a una persona del equipo o a un operador de comercio puede bloquear atribuciones que no sean de campaña.
-- En los flujos de Product Recommender, Hellotext puede evaluar acciones comerciales explícitas de IA y humanas antes de la compra, como recomendaciones, cupones, links de productos, links de checkout y engagement elegible del cliente.
+- En los flujos de Product Recommender, Hellotext puede evaluar acciones comerciales explícitas de IA y humanas antes de la compra, como recomendaciones, cupones, links de productos, links de checkout e interacción elegible del cliente.
 - Una respuesta exclusivamente de soporte no se trata automáticamente como una acción comercial humana.
 - Una toma de control humana sostenida puede afectar la decisión de Product Recommender aunque no se haya registrado un cupón o link individual.
 - Otros playbooks y rutas siguen sus propias reglas de contexto de origen y no deben describirse como si todas las ventas pasaran por la misma evaluación entre IA y personas.

@@ -139,7 +139,7 @@ Charged per message in local currency and vary by plan. They follow the same “
 
 * Performance fees apply to revenue attributed under Hellotext's published methodology.
 * Hellotext evaluates eligible source evidence, source precedence, customer and order identity, and attribution windows. The model is not a universal last-click rule.
-* Eligible delivery or other passive evidence normally uses a 24-hour window. An eligible click or engagement normally uses a seven-day window starting at that interaction; the two windows are not added together.
+* The default windows are 24 hours for eligible delivery or other passive evidence, and seven days from an eligible click or engagement. Account configuration can differ, and the two windows are not added together.
 * A recognized external marketing source takes precedence over Hellotext evidence. Team participation does not automatically remove attribution, and eligible custom monetary events are not excluded only because they were created manually.
 
 Attribution and incremental impact are measured separately.

@@ -141,7 +141,7 @@ Se cobran por mensaje en moneda local y varían según el plan. Participan en la
 
 * Las tarifas por performance se aplican a los ingresos atribuidos según la metodología publicada de Hellotext.
 * Hellotext evalúa evidencia de origen elegible, precedencia de fuentes, identidad del cliente y del pedido, y ventanas de atribución. El modelo no es una regla universal de último clic.
-* Una entrega elegible u otra evidencia pasiva normalmente usa una ventana de 24 horas. Un clic o interacción elegible normalmente usa una ventana de siete días que comienza en esa interacción; las dos ventanas no se suman.
+* Las ventanas por defecto son de 24 horas para una entrega elegible u otra evidencia pasiva, y de siete días desde un clic o interacción elegible. La configuración de la cuenta puede ser diferente y las dos ventanas no se suman.
 * Una fuente de marketing externa reconocida tiene precedencia sobre la evidencia de Hellotext. La participación del equipo no elimina automáticamente la atribución y los eventos monetarios personalizados elegibles no se excluyen solo por haber sido creados manualmente.
 
 La atribución y el impacto incremental se miden por separado.
