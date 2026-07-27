@@ -39,10 +39,10 @@ Consider disabling temporarily only when the change could affect live customers 
 - You are changing the prompt of a playbook that allows prompt edits and the agent could reply incorrectly.
 - You are changing intents for a custom agent.
 - You are changing incoming or outgoing channels.
-- You are changing discounts, incentives, or offers.
+- You are changing discounts or ecommerce offer rules.
 - You are editing a route with steps, conditions, branches, or assignments.
 
-For active sales playbooks, the risk depends on which card you are changing. Many adjustments do not affect customers immediately, but a prompt, offer, channel, or route logic change should be tested before you broaden it again.
+For active sales playbooks, the risk depends on which card you are changing. Many adjustments do not affect customers immediately, but a prompt, discount strategy, channel, or route logic change should be tested before you broaden it again.
 
 ## What you can customize
 
@@ -54,7 +54,7 @@ Use this table as a quick map:
 | **Intents** | Custom agents and custom playbooks | Which customer messages activate that agent. |
 | **Knowledge** | Sales or support AI agents | What information the agent uses to answer. |
 | **Incoming/outgoing channels** | Playbooks that allow channel selection | Where the playbook can reply or send. |
-| **Discounts** | Sales playbooks that allow offers | Which incentives the agent may use. |
+| **Discounts** | Sales playbooks that allow offers | Which ecommerce offer rules and AI discount limits the agent may use. |
 | **Escalation** | AI agents, support, [Webchat]({% link _journeys/webchat-widget-playbook.md %}), and some custom playbooks | Who takes over when the agent should not continue. |
 | **Route steps** | Journeys or routes | Sequence, waits, branches, assignments, and exit from the flow. |
 
@@ -125,19 +125,19 @@ Change channels only when you have a clear reason:
 
 If you change channels, test the same scenario in each selected channel. Some content, buttons, templates, and response windows behave differently by channel.
 
-## Customize offers and discounts
+## Customize discount strategy
 
-This section applies to sales playbooks that show **Discounts** or offer settings.
+This section applies to sales playbooks that show **Discounts** or discount settings.
 
-Offers affect customer expectations and revenue, so change them carefully.
+Discount rules affect customer expectations and revenue, so change them carefully.
 
 Before changing discount settings:
 
-- Confirm whether the playbook can use existing store offers, AI incentives, both, or no incentives.
-- Set clear maximums for any AI-driven offer.
+- Confirm whether the playbook should follow ecommerce offer rules, create AI-driven discounts up to a maximum percentage, combine both, or send without discounts.
+- Set clear maximums for any AI-driven discount.
 - Avoid stacking discounts beyond your business rules.
-- Test what happens when a customer asks for a better offer.
-- Review reports after the change to confirm the offer improves the right outcome.
+- Test what happens when a customer asks for a better discount.
+- Review reports after the change to confirm the discount strategy improves the right outcome.
 
 If the playbook should never offer discounts, make that explicit in the discount settings and, if present, in the prompt.
 
@@ -180,7 +180,7 @@ For an AI agent, test realistic language with typos, short replies, objections, 
 
 For a custom agent, test messages that should activate that agent and messages that should go to another playbook.
 
-For an active sales playbook, test that recommendations, offers, links, and eligibility conditions still make sense.
+For an active sales playbook, test that recommendations, discounts, links, and eligibility conditions still make sense.
 
 For a route, test one customer profile that should enter, another that should not enter, and at least one alternate branch.
 

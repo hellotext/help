@@ -49,10 +49,10 @@ Start here when you have product, browsing, subscription, or purchase signals.
 
 Useful options can include:
 
-- First-purchase follow-up for new subscribers who have not bought yet.
+- [First-Purchase Driver]({% link _journeys/first-purchase-driver-playbook.md %}) for new subscribers who have not bought yet.
 - [Browse Recovery]({% link _journeys/browse-recovery-playbook.md %}) for customers who viewed products but did not add to cart.
 - [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}) when product and inventory context are strong.
-- Cross-sell or replenishment when you have enough order history.
+- [Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}) or [Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}) when you have enough order history.
 - [Review Builder]({% link _journeys/review-builder-playbook.md %}) when delivered-order signals are reliable and you want product reviews.
 - [NPS Pulse]({% link _journeys/nps-pulse-playbook.md %}) when delivered-order signals are reliable and you want loyalty feedback after customers have had the product experience.
 
@@ -84,6 +84,8 @@ If you also use [CSAT Pulse]({% link _journeys/csat-pulse-playbook.md %}), keep 
 Expected win: learn which products and delivery experiences create strong feedback, which customers need recovery, and which feedback records can guide future improvements.
 
 If you have one clear audience, one message, and one planned send time, use a campaign instead.
+
+If customers asked to be notified about a specific unavailable product, use [Back-in-Stock Pounce]({% link _journeys/back-in-stock-pounce.md %}) instead of a broad campaign.
 
 Good first campaigns include:
 
@@ -128,8 +130,10 @@ Keep reading: [Measure success in your first 7 days]({% link _getting-started/me
 - [Choose your first playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [Cart Saver route]({% link _journeys/cart-saver-route.md %})
 - [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %})
+- [First-Purchase Driver playbook]({% link _journeys/first-purchase-driver-playbook.md %})
 - [Browse Recovery playbook]({% link _journeys/browse-recovery-playbook.md %})
 - [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %})
+- [Replenishment Driver playbook]({% link _journeys/replenishment-driver-playbook.md %})
 - [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
 - [Review Builder playbook]({% link _journeys/review-builder-playbook.md %})
 - [CSAT Pulse playbook]({% link _journeys/csat-pulse-playbook.md %})

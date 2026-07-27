@@ -28,8 +28,9 @@ After you choose the first option to launch, follow [How to enable a playbook]({
 | --- | --- | --- |
 | Grow your reachable audience or website conversations | A capture such as [Webchat Widget]({% link _journeys/webchat-widget-playbook.md %}), QR code, shareable link, form, popup, or subscriber booster | You need customers to opt in or start a conversation before many playbooks, routes, or campaigns can perform well. |
 | Recover carts | [Cart Saver route]({% link _journeys/cart-saver-route.md %}) or an AI cart saver playbook | Use a route when the follow-up should be predictable. Use an AI playbook when the experience should react to product context, customer intent, replies, or objections. |
-| Convert new subscribers or window shoppers | A first-purchase, [Browse Recovery]({% link _journeys/browse-recovery-playbook.md %}), or [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}) playbook | These playbooks work best when Hellotext can see product, browsing, subscription, and purchase signals. |
-| Drive repeat purchases | A replenishment, cross-sell, birthday, anniversary, or soft reactivation playbook | These need enough purchase history or profile data to make the timing and recommendation useful. |
+| Alert shoppers about products back in stock | [Back-in-Stock Pounce]({% link _journeys/back-in-stock-pounce.md %}) | Use this when customers asked to be notified about an unavailable product and your stock signals are reliable. |
+| Convert new subscribers or window shoppers | [First-Purchase Driver]({% link _journeys/first-purchase-driver-playbook.md %}), [Browse Recovery]({% link _journeys/browse-recovery-playbook.md %}), or [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}) | These playbooks work best when Hellotext can see product, browsing, subscription, and purchase signals. |
+| Drive repeat purchases | [Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}), [Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}), birthday, anniversary, or soft reactivation playbook | These need enough purchase history or profile data to make the timing and recommendation useful. |
 | Collect product reviews after delivery | [Review Builder]({% link _journeys/review-builder-playbook.md %}) | Use this when delivered-order and product data are reliable and you want ratings, written reviews, low-rating follow-up, and exportable review records. |
 | Measure loyalty after delivery | [NPS Pulse]({% link _journeys/nps-pulse-playbook.md %}) | Use this when delivered-order signals are reliable and you want a relationship-level 0-10 recommendation signal. |
 | Answer frequent questions or reduce support load | [Instant Answers]({% link _journeys/instant-answers-playbook.md %}), [Order-Update Delight]({% link _journeys/order-update-playbook.md %}), [Return & Exchange Helper]({% link _journeys/return-and-exchange-helper-playbook.md %}), or [Order Cancellation Assistant]({% link _journeys/order-cancellation-assistant-playbook.md %}) | Start here when your team spends time answering repeat questions and you have clear policies, order data, and handoff rules. |
@@ -96,8 +97,11 @@ Then adjust one thing at a time: audience, trigger, timing, message, offer, prom
 - [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})
 - [Cart Saver route]({% link _journeys/cart-saver-route.md %})
 - [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %})
+- [Back-in-Stock Pounce playbook]({% link _journeys/back-in-stock-pounce.md %})
+- [First-Purchase Driver playbook]({% link _journeys/first-purchase-driver-playbook.md %})
 - [Browse Recovery playbook]({% link _journeys/browse-recovery-playbook.md %})
 - [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %})
+- [Replenishment Driver playbook]({% link _journeys/replenishment-driver-playbook.md %})
 - [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
 - [Review Builder playbook]({% link _journeys/review-builder-playbook.md %})
 - [CSAT Pulse playbook]({% link _journeys/csat-pulse-playbook.md %})

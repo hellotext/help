@@ -32,7 +32,7 @@ Encaja bien cuando:
 - Tu equipo quiere recuperar intención más temprana, no solo carritos abandonados.
 - Tienes un camino claro de canal y consentimiento para clientes que navegan.
 
-Recuperación de Navegación va bien con Recuperador de Carritos con IA. No son excluyentes: Recuperación de Navegación cubre clientes que solo vieron productos, mientras que [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) o [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}) normalmente deberían tomar el control cuando el cliente agrega productos al carrito o empieza checkout.
+Recuperación de Navegación va bien con Impulsor de Primera Compra y Recuperador de Carritos con IA. No son excluyentes: [Impulsor de Primera Compra]({% link _journeys/first-purchase-driver-playbook.md %}) cubre nuevos clientes alcanzables que todavía no compraron, Recuperación de Navegación cubre clientes que solo vieron productos, mientras que [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) o [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}) normalmente deberían tomar el control cuando el cliente agrega productos al carrito o empieza checkout.
 
 No lo uses como recomendador conversacional. Si el cliente pregunta qué comprar, compara opciones o necesita guía de producto por chat, usa [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}).
 
@@ -50,9 +50,10 @@ Revisa que:
 - El canal que puede usar el playbook esté conectado y listo.
 - Los clientes tengan consentimiento y sean elegibles para el canal.
 - Links de producto, descuentos o plantillas funcionen en el canal elegido.
-- Los reportes estén listos para revisar vistas, envíos, clicks, compras, omisiones y bajas.
 
 Para validar la configuración, usa [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %}). Para tracking personalizado, usa [Seguimiento de eventos]({% link _developers/tracking-events.md %}).
+
+Después de activar el playbook, usa los reportes automáticos para revisar vistas, envíos, clicks, compras, omisiones y bajas.
 
 ## Qué puedes configurar
 
@@ -62,7 +63,7 @@ Las tarjetas disponibles pueden variar, pero podrías revisar:
 
 - **Canales:** dónde Hellotext puede enviar o continuar la conversación de recuperación de navegación.
 - **Tono o feedback en Playground:** cómo deberían aprender los seguimientos generados qué encaja con tu negocio.
-- **Descuentos u ofertas:** si el playbook puede usar un incentivo y bajo qué límites.
+- **Estrategia de descuento:** si el playbook sigue las reglas de oferta del ecommerce, puede crear descuentos con IA hasta un porcentaje máximo o envía sin descuentos.
 - **Derivación o asignación:** quién debería tomar la conversación cuando una respuesta necesita una persona.
 
 Mantén la selección automática de canales salvo que tengas una razón clara para limitar el playbook. Recuperación de Navegación depende de si el cliente realmente puede ser alcanzado y si el formato del mensaje está permitido en el canal.
@@ -93,6 +94,7 @@ Usa la señal para decidir quién debería ser dueño del momento.
 
 | Momento del cliente | Mejor opción |
 | --- | --- |
+| Nuevo registro o suscriptor que todavía no hizo un pedido | Impulsor de Primera Compra |
 | Vio uno o más productos pero no agregó al carrito | Recuperación de Navegación |
 | Agregó productos al carrito o empezó checkout y se fue | Ruta Recuperador de Carritos o Recuperador de Carritos con IA |
 | Pidió consejo, comparaciones, talles, alternativas o recomendaciones | Recomendador Inteligente |
@@ -112,7 +114,7 @@ Cuando revises ejemplos, mira:
 - Si el tono coincide con tu marca.
 - Si el mensaje es claro sin sonar demasiado insistente.
 - Si la urgencia por bajo stock se siente adecuada y usa cantidades correctas cuando se incluye stock.
-- Si links de producto, ofertas o llamados a la acción tienen sentido.
+- Si links de producto, descuentos o llamados a la acción tienen sentido.
 - Si el texto evita sobreexplicar el tracking o hacer que el cliente se sienta observado.
 
 Mientras más realistas sean los ejemplos del Playground, más fácil es entrenar al sistema sobre cómo se ve un buen mensaje para tu tienda.
@@ -130,7 +132,7 @@ Usa un perfil de cliente de prueba que tenga consentimiento de canal, luego:
 - Prueba un cliente que ve un producto y luego compra, lo que debería evitar recuperación de navegación.
 - Prueba un cliente que ve un producto y luego agrega al carrito, donde recuperación de carrito normalmente debería tomar el control.
 - Prueba un cliente que no es elegible para el canal.
-- Revisa si el mensaje, link de producto, timing y oferta tienen sentido.
+- Revisa si el mensaje, link de producto, timing y descuento tienen sentido.
 - Envía una respuesta realista y confirma que llegue a la persona o equipo correcto si hay derivación disponible.
 
 Si el tracking es personalizado, confirma también que nombre del evento, identificador de producto, timestamp e identificador del cliente coincidan con lo que Hellotext espera.
@@ -166,7 +168,7 @@ Durante los primeros días, revisa:
 - Si Recuperación de Navegación se superpone con recuperación de carrito.
 - Si los clientes hacen preguntas que deberían ir a Recomendador Inteligente o al Inbox.
 
-Ajusta una cosa por vez: audiencia, canal, mensaje, oferta, timing o camino de derivación.
+Ajusta una cosa por vez: audiencia, canal, mensaje, estrategia de descuento, timing o camino de derivación.
 
 ## Guías relacionadas
 
@@ -178,6 +180,7 @@ Ajusta una cosa por vez: audiencia, canal, mensaje, oferta, timing o camino de d
 - [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Seguimiento de eventos]({% link _developers/tracking-events.md %})
+- [Playbook Impulsor de Primera Compra]({% link _journeys/first-purchase-driver-playbook.md %})
 - [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %})
 - [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})

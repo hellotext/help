@@ -29,14 +29,14 @@ Empieza acá cuando los clientes muestran intención de compra pero no completan
 
 Opciones comunes incluyen:
 
-- **Impulsor de Primera Compra:** convierte nuevos suscriptores o registros en compradores por primera vez.
+- **[Impulsor de Primera Compra]({% link _journeys/first-purchase-driver-playbook.md %}):** convierte nuevos suscriptores o registros en compradores por primera vez.
 - **[Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}):** recupera carritos abandonados con una ruta predecible.
 - **[Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}):** recupera carritos con seguimiento conversacional y contextual.
 - **[Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}):** reactiva clientes que vieron productos sin comprar.
 - **[Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}):** recomienda productos en tiempo real usando comportamiento y contexto de producto.
 - **Completa el Look:** sugiere productos complementarios.
 - **Alerta de Baja de Precio:** notifica a compradores interesados cuando cambia el precio de un producto.
-- **Vuelta a Stock:** alerta cuando un producto vuelve a estar disponible.
+- **[Vuelta a Stock]({% link _journeys/back-in-stock-pounce.md %}):** alerta cuando un producto vuelve a estar disponible.
 
 Estos playbooks normalmente dependen de señales de producto, carrito, checkout, catálogo, stock, precio y compra.
 
@@ -49,8 +49,8 @@ Empieza acá cuando ya tienes historial de compra y quieres que los clientes com
 Opciones comunes incluyen:
 
 - **Reactivación Suave:** reactiva clientes antes de que queden totalmente inactivos.
-- **Impulsor de Ventas Cruzadas:** sugiere productos relacionados después de interés o compra.
-- **Impulsor de Recompra:** recuerda reponer productos cuando podrían estar por acabarse.
+- **[Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %}):** sugiere productos relacionados después de interés o compra.
+- **[Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %}):** recuerda reponer productos cuando podrían estar por acabarse.
 - **Celebra su Cumpleaños:** envía una oferta o regalo de cumpleaños.
 - **Sorpresa de Aniversario:** celebra aniversarios de compra o relación con el cliente.
 
@@ -128,8 +128,9 @@ Si no sabes por dónde empezar, elige la misión que coincide con el primer cuel
 | --- | --- |
 | No tienes suficientes clientes alcanzables | Capturas, Impulsor de Suscriptores, Recolector de Datos o Bienvenida Automática |
 | Los clientes abandonan carritos | [Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) o [Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}) |
-| Los visitantes miran pero no compran | [Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}), [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) o Impulsor de Primera Compra |
-| Los compradores no vuelven | Impulsor de Recompra, Reactivación Suave o Impulsor de Ventas Cruzadas |
+| Los compradores esperan productos sin stock | [Vuelta a Stock]({% link _journeys/back-in-stock-pounce.md %}) |
+| Los visitantes miran pero no compran | [Impulsor de Primera Compra]({% link _journeys/first-purchase-driver-playbook.md %}), [Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}) o [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) |
+| Los compradores no vuelven | [Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %}), [Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %}) o Reactivación Suave |
 | Los clientes quedaron fríos | Reactivación de Inactivos o Último Intento |
 | Tienes un anuncio con fecha | Envío clásico, Campaña Estacional, Adelanto de Lanzamiento o Liquidación Final |
 | El soporte es repetitivo | [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}), [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}), [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}), [Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %}) o [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}) |
@@ -149,7 +150,8 @@ Confirma:
 - Los datos de producto, carrito, pedido, catálogo o políticas están disponibles cuando hacen falta.
 - Mensajes, plantillas, links, descuentos y recomendaciones fueron probados.
 - Los caminos de derivación o asignación están claros.
-- Reportes y atribución están listos para la primera revisión.
+
+Después del lanzamiento, Hellotext genera reportes y atribución automáticamente para la primera revisión.
 
 Sigue leyendo:
 
@@ -159,8 +161,12 @@ Sigue leyendo:
 - [Playbook Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %})
 - [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %})
 - [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
+- [Playbook Vuelta a Stock]({% link _journeys/back-in-stock-pounce.md %})
+- [Playbook Impulsor de Primera Compra]({% link _journeys/first-purchase-driver-playbook.md %})
 - [Playbook Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %})
 - [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
+- [Playbook Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %})
+- [Playbook Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %})
 - [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
 - [Playbook Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})
 - [Playbook Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %})
@@ -181,7 +187,11 @@ Sigue leyendo:
 - [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [Playbook Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %})
+- [Playbook Vuelta a Stock]({% link _journeys/back-in-stock-pounce.md %})
+- [Playbook Impulsor de Primera Compra]({% link _journeys/first-purchase-driver-playbook.md %})
 - [Playbook Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %})
+- [Playbook Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %})
+- [Playbook Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %})
 - [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
 - [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [Primeros logros recomendados]({% link _getting-started/first-wins-starter-pack.md %})

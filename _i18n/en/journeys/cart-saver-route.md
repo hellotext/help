@@ -49,9 +49,10 @@ Check that:
 - Checkout links work in a test.
 - Any coupon, discount, or offer works before the message goes live.
 - A purchase or order signal can stop the follow-up after the customer buys.
-- Reporting is ready so you can review entries, sends, clicks, purchases, and failures.
 
 For setup validation, use [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %}).
+
+After publishing the route, use the automatically generated reports to review entries, sends, clicks, purchases, and failures.
 
 ## How to configure it
 

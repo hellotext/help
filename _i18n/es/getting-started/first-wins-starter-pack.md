@@ -49,10 +49,10 @@ Empieza aquí cuando tienes señales de producto, navegación, suscripción o co
 
 Opciones útiles pueden incluir:
 
-- Seguimiento de primera compra para nuevos suscriptores que todavía no compraron.
+- [Impulsor de Primera Compra]({% link _journeys/first-purchase-driver-playbook.md %}) para nuevos suscriptores que todavía no compraron.
 - [Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}) para clientes que vieron productos pero no agregaron al carrito.
 - [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) cuando el contexto de producto e inventario es sólido.
-- Venta cruzada o recompra cuando tienes suficiente historial de pedidos.
+- [Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %}) o [Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %}) cuando tienes suficiente historial de pedidos.
 - [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) cuando las señales de pedido entregado son confiables y quieres reseñas de productos.
 - [Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}) cuando las señales de pedido entregado son confiables y quieres medir lealtad después de que el cliente ya vivió la experiencia con el producto.
 
@@ -84,6 +84,8 @@ Si también usas [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}), mant
 Logro esperado: entender qué productos y experiencias de entrega generan buen feedback, qué clientes necesitan recuperación y qué registros pueden guiar mejoras futuras.
 
 Si tienes una audiencia clara, un mensaje y un momento de envío planificado, usa una campaña.
+
+Si los clientes pidieron aviso por un producto específico que no estaba disponible, usa [Vuelta a Stock]({% link _journeys/back-in-stock-pounce.md %}) en lugar de una campaña amplia.
 
 Buenas primeras campañas incluyen:
 
@@ -128,8 +130,10 @@ Sigue leyendo: [Mide el éxito en tus primeros 7 días]({% link _getting-started
 - [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %})
 - [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
+- [Playbook Impulsor de Primera Compra]({% link _journeys/first-purchase-driver-playbook.md %})
 - [Playbook Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %})
 - [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
+- [Playbook Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %})
 - [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
 - [Playbook Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})
 - [Playbook Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %})
