@@ -26,7 +26,7 @@ Keep reading: [Plan usage and quotas]({% link _billing/understanding-plan-quotas
 
 Attributed revenue matters because it can affect results-based billing and reporting.
 
-Use the attribution guide when you need to understand attribution windows, last-click rules, human team participation, cancellations, refunds, and why a sale was or was not attributed to Hellotext.
+Use the attribution guide when you need to understand source precedence, eligible evidence, attribution windows, team participation, supported order changes, and why a sale was or was not attributed to Hellotext.
 
 Keep reading: [Sales attribution]({% link _analytics-reporting-attribution/sales-attribution.md %}).
 

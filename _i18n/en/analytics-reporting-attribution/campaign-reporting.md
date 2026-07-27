@@ -1,38 +1,49 @@
-One of the great benefits of campaigns is their powerful reporting and detailed metrics of customer engagement.
+Campaign reports show delivery, engagement, attributed purchases, and attributed revenue for a delivered campaign. Use them to compare messages and channels, inspect customer activity, and understand which orders were linked to the campaign under Hellotext's attribution methodology.
 
-With campaign reports, you have a detailed view of effectiveness and how customers interacted: from their first click on the shared link all the way until a purchase was made.
+To open a report, go to **Campaigns** and select a delivered campaign. Reports are available after a campaign has been delivered.
 
-These reports provide incredible insight to help you understand how much revenue they generated, what products customers preferred most, and no less importantly, valuable feedback to keep optimizing and delivering even better campaigns in the future.
+## Select the report period
 
-To view a campaign report, go to the *Campaigns* section and simply click on the title of any delivered campaign whose insights you want to see. You can only see reports for campaigns that have already been delivered.
+The report opens with the **First 14 days** preset. You can change the date range to inspect a different period.
 
-### Selecting a period
+The report period controls which activity appears in the report. It does not extend the attribution window used to decide whether an order belongs to the campaign.
 
-Reports automatically include the whole period from the day the campaign started until the last day that it had an interaction.
+## Read the main metrics
 
-You can adjust the report to start on a different day and select the period onwards. This gives you great flexibility when wanting to see activity over a particular period of time.
+* **Revenue:** active revenue attributed to the campaign during the selected report period.
+* **ROI:** attributed campaign revenue divided by the estimated cost of delivering its messages.
+* **Conversion:** attributed purchase count divided by delivered messages.
+* **Revenue/msg:** attributed campaign revenue divided by delivered messages.
+* **CTR:** tracked clicks divided by delivered messages.
 
-## Attribution
+Conversion is not the percentage of unique clicks that purchased. It uses attributed purchases and delivered messages.
 
-If the campaign contains a short link to your site or any promotion or product advertised, and you previously implemented the Hellotext.js tracker, these events will be recorded and aggregated into the reports.
+## Compare delivery and broadcasts
 
-From the reporting it is possible to view details of:
+The delivery funnel shows how messages progressed through delivery and engagement. When a campaign has more than one broadcast or channel, the broadcast table helps you compare delivered messages, CTR, ROI, conversion, revenue per message, and attributed revenue.
 
-* Purchases made
-* Items added/removed from carts
-* Refunds
-* Apps installed/removed
-* Form completions
+## How clicks and deliveries support attribution
 
-### Names explained
+A tracked short-link click is active campaign evidence and normally opens a seven-day attribution window from the eligible click. A click is not the only campaign evidence: an eligible campaign delivery can provide passive evidence within the default 24-hour window.
 
-* **CTR**: Click-through rate is the percentage of clicks made over the total of unique recipients of the campaign.
-* **CVR**: Conversion rate refers to the percentage of unique clicks made that ended up in a purchase.
+Hellotext evaluates available source evidence and its precedence before assigning the order. A recognized external marketing source can take precedence over Hellotext evidence. Read [How we attribute sales]({% link _analytics-reporting-attribution/sales-attribution.md %}) for the complete methodology.
 
-## Campaign activity
+## Explore revenue and activity
 
-Every action performed by a customer who interacted with the campaign will be recorded as an event and shown in the *Activity* section of the report.
+Depending on the campaign and available data, the report can also include:
 
-Activities are updated in real-time and new events will be shown without having to reload the page.
+* Time to conversion
+* Revenue by channel
+* Revenue by segment
+* Delivery and engagement events
+* Purchases and other tracked customer events
 
-You can also narrow the results by searching by customer profile or recorded action.
+An event appearing in campaign activity does not automatically mean that it created attributed revenue. The event still needs eligible customer, order, source, and timing evidence.
+
+Supported commerce integrations can send purchase data automatically. For custom storefronts and events, use [Hellotext.js or the API]({% link _developers/tracking-events.md %}).
+
+## Related guides
+
+* [Tracking links in campaigns and journeys]({% link _developers/tracking-on-campaigns-and-journeys.md %})
+* [Using tracked links]({% link _analytics-reporting-attribution/tracked-links.md %})
+* [Analytics overview]({% link _analytics-reporting-attribution/analytics-overview.md %})

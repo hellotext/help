@@ -14,6 +14,8 @@ Cuando los clientes hacen clic en un enlace corto, son redirigidos a la URL orig
 
 Cada vez que un cliente hace clic en un enlace corto, se crea un evento y aparece en la actividad del perfil de cliente. Los clics también pueden agregarse a reportes de campañas, rutas o playbooks cuando ese reporte está disponible.
 
+Un clic elegible puede aportar evidencia activa de atribución y normalmente abre una ventana de siete días desde el clic. No es el único camino de atribución: una entrega elegible u otra evidencia pasiva puede aplicar dentro de la ventana predeterminada de 24 horas. Consulta [Cómo atribuimos las ventas]({% link _analytics-reporting-attribution/sales-attribution.md %}).
+
 ## Primeros pasos de seguimiento
 
 Si tu sitio funciona con alguna de las plataformas que ya ofrecemos soporte de integración, puedes conectarlo para comenzar a rastrear eventos automáticamente.

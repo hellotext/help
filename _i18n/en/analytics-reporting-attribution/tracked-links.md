@@ -10,3 +10,7 @@ Links have the following structure: `hello.link/XXXXXX` where `XXXXXX` is the li
 When these links are clicked, Hellotext redirects the customer to the URL specified when creating the link and attaches a `hellotext_session` identifier
 to the URL. This identifier is used to identify the session and can be used to track actions performed by the customer as signals.
 You can look at our client-side <a class="active" href='https://github.com/hellotext/hellotext.js'>JavaScript library</a> that helps you with tracking related events.
+
+An eligible click on a tracked link is active attribution evidence and normally opens a seven-day attribution window from the click. Tracked links are not the only evidence Hellotext can use: eligible delivery or other passive signals can apply within the default 24-hour window.
+
+Read [How we attribute sales]({% link _analytics-reporting-attribution/sales-attribution.md %}) for source precedence, attribution windows, and examples.

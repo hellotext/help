@@ -14,6 +14,8 @@ When customers click on a short link they are redirected to the original URL. He
 
 Every time a customer clicks on a short link, an event is created and appears in the customer profile activity. Clicks can also be aggregated in campaign, route, or playbook reports when that report is available.
 
+An eligible click can provide active attribution evidence and normally opens a seven-day window from the click. It is not the only attribution path: eligible delivery or other passive evidence can apply within the default 24-hour window. See [How we attribute sales]({% link _analytics-reporting-attribution/sales-attribution.md %}).
+
 ## Getting started tracking
 
 If your site runs with any of the platforms we already offer integration support, you can connect it to start tracking events automatically.

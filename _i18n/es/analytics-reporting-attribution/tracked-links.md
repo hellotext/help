@@ -10,3 +10,7 @@ Los links tienen la siguiente estructura: `hello.link/XXXXXX` donde `XXXXXX` es 
 Cuando alguien hace clic, Hellotext redirige al cliente a la URL especificada al crear el link y adjunta un identificador `hellotext_session`
 a la URL. Este identificador se usa para identificar la sesión y puede usarse para rastrear acciones realizadas por el cliente como señales.
 Puedes ver nuestra <a class="active" href='https://github.com/hellotext/hellotext.js'>librería de JavaScript</a> para ayudarte con eventos relacionados al tracking.
+
+Un clic elegible en un link con tracking es evidencia activa de atribución y normalmente abre una ventana de atribución de siete días desde el clic. Los links con tracking no son la única evidencia que Hellotext puede usar: una entrega elegible u otras señales pasivas pueden aplicar dentro de la ventana predeterminada de 24 horas.
+
+Lee [Cómo atribuimos las ventas]({% link _analytics-reporting-attribution/sales-attribution.md %}) para conocer la precedencia de fuentes, las ventanas de atribución y ejemplos.

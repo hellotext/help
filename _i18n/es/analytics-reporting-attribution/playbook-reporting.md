@@ -6,7 +6,7 @@ Reportar un playbook no significa mirar un solo número. Revisa ingresos, perfor
 
 Empieza por el reporte que responde la pregunta que tienes.
 
-Usa el reporte de **Ingresos** cuando quieres entender ventas atribuidas, la diferencia entre campañas y playbooks, y qué playbooks o rutas generaron ingresos.
+Usa el reporte de **Ingresos** cuando quieres entender ventas atribuidas, la diferencia entre campañas y playbooks, y qué playbooks o rutas recibieron ingresos atribuidos.
 
 Usa el reporte de **Performance** cuando quieres comparar tasa de conversión, tiempo hasta conversión y tasa de derivación entre playbooks, canales, campañas, conversaciones asistidas por IA y conversaciones asistidas por personas.
 
@@ -22,16 +22,16 @@ Antes de comparar resultados, elige el rango de fechas correcto y confirma que e
 
 En el reporte de Ingresos, mira:
 
-- **Ingresos impulsados por IA**, cuando Hellotext puede conectar la venta con una interacción o playbook asistido por IA.
-- **Ingresos impulsados por humanos**, cuando la participación de una persona del equipo influyó en la venta atribuida.
-- **Ingresos totales**, para entender el monto atribuido completo.
+- **Ingresos impulsados por IA**, la categoría del reporte que incluye ingresos vinculados mediante evidencia de campañas, rutas o playbooks de IA elegibles.
+- **Ingresos impulsados por humanos**, ingresos clasificados como impulsados por humanos por el motor de atribución, junto con registros históricos elegibles.
+- **Ingresos totales**, todos los ingresos comerciales reportados para el período, incluidos los atribuidos y no atribuidos.
 - **Desglose por playbook**, para comparar flujos por ingresos atribuidos.
-- **Campañas vs Playbooks**, para entender si los envíos puntuales o los flujos siempre activos están generando más ventas atribuidas.
+- **Campañas vs Playbooks**, para comparar ventas atribuidas vinculadas con envíos puntuales y flujos siempre activos.
 - **Sección de Playbooks**, para comparar ingresos, comportamiento de conversión, mensajes entregados y alcance de clientes por flujo.
 
 Usa reportes de ingresos para responder preguntas como:
 
-- ¿Qué playbook o ruta produce más ingresos atribuidos?
+- ¿Qué playbook o ruta tiene más ingresos atribuidos?
 - ¿Los ingresos vienen de playbooks autónomos, conversaciones asistidas por personas o campañas?
 - ¿Algunos canales, audiencias o flujos rinden mejor que otros?
 - ¿El playbook necesita mejores datos de producto, timing, lógica de oferta o reglas de derivación?
@@ -40,7 +40,7 @@ Si un playbook tiene ingresos fuertes pero muchas derivaciones humanas, igual pu
 
 ## Revisa performance y derivaciones
 
-Usa el reporte de Performance para entender si un playbook está sano, no solo si produjo ingresos.
+Usa el reporte de Performance para entender si un playbook está sano, no solo si recibió ingresos atribuidos.
 
 Revisa:
 
@@ -60,11 +60,11 @@ Al revisar atribución, mira:
 
 - La campaña, ruta o playbook conectado con la venta.
 - El canal y la fuente que influyeron en el cliente.
-- Si la interacción fue impulsada por IA, por una persona o por ambos.
+- Si el reporte clasificó la interacción como impulsada por IA o por una persona y, cuando aplica una evaluación del responsable comercial, cómo afectó la participación del equipo a la decisión.
 - La razón de atribución y la evidencia disponible.
 - Si hubo otro punto de contacto comercial antes de la compra.
 
-Usa [Atribución de ventas]({% link _analytics-reporting-attribution/sales-attribution.md %}) cuando necesites entender ventanas de atribución, comportamiento de last-click, cancelaciones, devoluciones o intervención humana.
+Usa [Atribución de ventas]({% link _analytics-reporting-attribution/sales-attribution.md %}) cuando necesites entender precedencia de fuentes, selección de evidencia, ventanas de atribución, cancelaciones, cambios de pedidos o participación del equipo.
 
 ## Compara playbooks con cuidado
 
@@ -91,7 +91,7 @@ Usa el patrón que ves para decidir qué revisar después.
 | Mensajes entregados pero pocas conversiones | Timing, oferta, claridad del mensaje, relevancia del producto y si la audiencia es demasiado amplia. |
 | Muchas conversaciones no resueltas | Prompt del agente, documentos cargados, datos de producto, políticas y reglas de derivación. |
 | Mucho ingreso impulsado por humanos | Si la derivación es esperada y si el playbook debería responder más antes de derivar. |
-| Ingresos atribuidos faltantes | Tracking, links, eventos de pedidos, ventanas de atribución y si otro canal recibió crédito por last-click. |
+| Ingresos atribuidos faltantes | Tracking, links, eventos de pedidos, ventanas de atribución y si una fuente externa reconocida tuvo precedencia. |
 | Muchas bajas o respuestas negativas | Calidad de audiencia, consentimiento, frecuencia, tono y relevancia de la oferta. |
 | Poca recopilación de reseñas | Señales de pedido entregado, timing de solicitud, separación entre productos, soporte del canal y si las calificaciones bajas se manejan correctamente. |
 | Baja respuesta de NPS o muchos detractores | Señales de pedido entregado, timing de entrega, claridad del mensaje, elegibilidad del canal y si el feedback de detractores crea la recuperación correcta. |

@@ -26,7 +26,7 @@ Sigue leyendo: [Uso y consumos del plan]({% link _billing/understanding-plan-quo
 
 Los ingresos atribuidos importan porque pueden afectar la facturación basada en resultados y los reportes.
 
-Usa la guía de atribución cuando necesites entender ventanas de atribución, reglas de last-click, participación del equipo humano, cancelaciones, devoluciones y por qué una venta fue o no atribuida a Hellotext.
+Usa la guía de atribución cuando necesites entender precedencia de fuentes, evidencia elegible, ventanas de atribución, participación del equipo, cambios de pedidos compatibles y por qué una venta fue o no atribuida a Hellotext.
 
 Sigue leyendo: [Atribución de ventas]({% link _analytics-reporting-attribution/sales-attribution.md %}).
 
