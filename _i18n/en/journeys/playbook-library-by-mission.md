@@ -48,7 +48,7 @@ Start here when you already have purchase history and want customers to buy agai
 
 Common options include:
 
-- **Soft Reactivation:** re-engage customers before they become fully inactive.
+- **[Soft Reactivation]({% link _journeys/soft-reactivation-playbook.md %}):** re-engage customers with recent inactivity, around 30 days without meaningful activity.
 - **[Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}):** suggest related products after interest or purchase.
 - **[Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}):** remind customers to reorder when they may be running out.
 - **Birthday Bash:** send a birthday offer or gift.
@@ -58,12 +58,12 @@ These playbooks usually depend on purchase history, product timing, loyalty or p
 
 ## Win back inactive customers
 
-Start here when customers have not purchased, visited, clicked, or replied for a meaningful period.
+Start here when customers have not purchased, visited, clicked, or replied for a longer period.
 
 Common options include:
 
-- **Dormant Revival:** reactivate customers who have been inactive for months.
-- **Sunset Saver:** make one final re-engagement attempt before suppressing inactive customers.
+- **Dormant Revival:** reactivate customers who have been inactive for around 3 months.
+- **Sunset Saver:** make one final re-engagement attempt for customers who have been inactive or not reactivated for around 12 months.
 
 Win-back playbooks should be careful with frequency, tone, offer strength, and suppression rules. If customers do not respond, reduce pressure rather than continuing to send.
 
@@ -131,7 +131,7 @@ If you are unsure where to start, choose the mission that matches the first bott
 | Shoppers are waiting for unavailable products | [Back-in-Stock Pounce]({% link _journeys/back-in-stock-pounce.md %}) |
 | Shoppers showed interest before a meaningful price drop | [Price-Drop Pouncer]({% link _journeys/price-drop-pouncer.md %}) |
 | Visitors browse but do not buy | [First-Purchase Driver]({% link _journeys/first-purchase-driver-playbook.md %}), [Browse Recovery]({% link _journeys/browse-recovery-playbook.md %}), [Complete-the-Look]({% link _journeys/complete-the-look-playbook.md %}), or [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}) |
-| Buyers do not return | [Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}), [Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}), or Soft Reactivation |
+| Buyers do not return | [Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}), [Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}), or [Soft Reactivation]({% link _journeys/soft-reactivation-playbook.md %}) |
 | Customers have gone cold | Dormant Revival or Sunset Saver |
 | You have a timed announcement | Classic Broadcast, Holiday Hype, Launch Teaser, or Clearance Clean-out |
 | Support work is repetitive | [Instant Answers]({% link _journeys/instant-answers-playbook.md %}), [Order-Update Delight]({% link _journeys/order-update-playbook.md %}), [Return & Exchange Helper]({% link _journeys/return-and-exchange-helper-playbook.md %}), [Order Cancellation Assistant]({% link _journeys/order-cancellation-assistant-playbook.md %}), or [CSAT Pulse]({% link _journeys/csat-pulse-playbook.md %}) |
@@ -170,6 +170,7 @@ Keep reading:
 - [Complete-the-Look playbook]({% link _journeys/complete-the-look-playbook.md %})
 - [Cross-Sell Driver playbook]({% link _journeys/cross-sell-driver-playbook.md %})
 - [Replenishment Driver playbook]({% link _journeys/replenishment-driver-playbook.md %})
+- [Soft Reactivation playbook]({% link _journeys/soft-reactivation-playbook.md %})
 - [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
 - [Review Builder playbook]({% link _journeys/review-builder-playbook.md %})
 - [CSAT Pulse playbook]({% link _journeys/csat-pulse-playbook.md %})
@@ -197,6 +198,7 @@ Keep reading:
 - [Complete-the-Look playbook]({% link _journeys/complete-the-look-playbook.md %})
 - [Cross-Sell Driver playbook]({% link _journeys/cross-sell-driver-playbook.md %})
 - [Replenishment Driver playbook]({% link _journeys/replenishment-driver-playbook.md %})
+- [Soft Reactivation playbook]({% link _journeys/soft-reactivation-playbook.md %})
 - [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %})
 - [How Hellotext decides whether a playbook can send]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [First wins starter pack]({% link _getting-started/first-wins-starter-pack.md %})

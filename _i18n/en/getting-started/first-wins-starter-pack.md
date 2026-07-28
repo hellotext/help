@@ -54,6 +54,7 @@ Useful options can include:
 - [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}) when product and inventory context are strong.
 - [Complete-the-Look]({% link _journeys/complete-the-look-playbook.md %}) when shoppers picked or viewed products that have clear matching items.
 - [Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}) or [Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}) when you have enough order history.
+- [Soft Reactivation]({% link _journeys/soft-reactivation-playbook.md %}) when existing customers are starting to go quiet but are not fully dormant.
 - [Review Builder]({% link _journeys/review-builder-playbook.md %}) when delivered-order signals are reliable and you want product reviews.
 - [NPS Pulse]({% link _journeys/nps-pulse-playbook.md %}) when delivered-order signals are reliable and you want loyalty feedback after customers have had the product experience.
 

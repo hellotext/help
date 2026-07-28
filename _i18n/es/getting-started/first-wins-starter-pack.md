@@ -54,6 +54,7 @@ Opciones útiles pueden incluir:
 - [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) cuando el contexto de producto e inventario es sólido.
 - [Completa el Look]({% link _journeys/complete-the-look-playbook.md %}) cuando compradores eligieron o vieron productos que tienen ítems que combinan claramente.
 - [Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %}) o [Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %}) cuando tienes suficiente historial de pedidos.
+- [Reactivación Suave]({% link _journeys/soft-reactivation-playbook.md %}) cuando clientes existentes empiezan a enfriarse, pero todavía no están completamente inactivos.
 - [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) cuando las señales de pedido entregado son confiables y quieres reseñas de productos.
 - [Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}) cuando las señales de pedido entregado son confiables y quieres medir lealtad después de que el cliente ya vivió la experiencia con el producto.
 
