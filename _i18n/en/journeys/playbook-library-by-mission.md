@@ -34,7 +34,7 @@ Common options include:
 - **[AI Cart Saver]({% link _journeys/ai-cart-saver-playbook.md %}):** recover carts with conversational, context-aware follow-up.
 - **[Browse Recovery]({% link _journeys/browse-recovery-playbook.md %}):** re-engage customers who viewed products without buying.
 - **[Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}):** recommend products in real time from customer behavior and product context.
-- **Complete-the-Look:** suggest complementary products.
+- **[Complete-the-Look]({% link _journeys/complete-the-look-playbook.md %}):** suggest matching products based on what shoppers picked, viewed, or considered.
 - **[Price-Drop Pouncer]({% link _journeys/price-drop-pouncer.md %}):** notify interested shoppers automatically when a product price drops.
 - **[Back-in-Stock Pounce]({% link _journeys/back-in-stock-pounce.md %}):** alert shoppers when an item is available again.
 
@@ -130,7 +130,7 @@ If you are unsure where to start, choose the mission that matches the first bott
 | Customers abandon carts | [Cart Saver]({% link _journeys/cart-saver-route.md %}) or [AI Cart Saver]({% link _journeys/ai-cart-saver-playbook.md %}) |
 | Shoppers are waiting for unavailable products | [Back-in-Stock Pounce]({% link _journeys/back-in-stock-pounce.md %}) |
 | Shoppers showed interest before a meaningful price drop | [Price-Drop Pouncer]({% link _journeys/price-drop-pouncer.md %}) |
-| Visitors browse but do not buy | [First-Purchase Driver]({% link _journeys/first-purchase-driver-playbook.md %}), [Browse Recovery]({% link _journeys/browse-recovery-playbook.md %}), or [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}) |
+| Visitors browse but do not buy | [First-Purchase Driver]({% link _journeys/first-purchase-driver-playbook.md %}), [Browse Recovery]({% link _journeys/browse-recovery-playbook.md %}), [Complete-the-Look]({% link _journeys/complete-the-look-playbook.md %}), or [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}) |
 | Buyers do not return | [Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}), [Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}), or Soft Reactivation |
 | Customers have gone cold | Dormant Revival or Sunset Saver |
 | You have a timed announcement | Classic Broadcast, Holiday Hype, Launch Teaser, or Clearance Clean-out |
@@ -167,6 +167,7 @@ Keep reading:
 - [First-Purchase Driver playbook]({% link _journeys/first-purchase-driver-playbook.md %})
 - [Browse Recovery playbook]({% link _journeys/browse-recovery-playbook.md %})
 - [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %})
+- [Complete-the-Look playbook]({% link _journeys/complete-the-look-playbook.md %})
 - [Cross-Sell Driver playbook]({% link _journeys/cross-sell-driver-playbook.md %})
 - [Replenishment Driver playbook]({% link _journeys/replenishment-driver-playbook.md %})
 - [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
@@ -193,6 +194,7 @@ Keep reading:
 - [Price-Drop Pouncer playbook]({% link _journeys/price-drop-pouncer.md %})
 - [First-Purchase Driver playbook]({% link _journeys/first-purchase-driver-playbook.md %})
 - [Browse Recovery playbook]({% link _journeys/browse-recovery-playbook.md %})
+- [Complete-the-Look playbook]({% link _journeys/complete-the-look-playbook.md %})
 - [Cross-Sell Driver playbook]({% link _journeys/cross-sell-driver-playbook.md %})
 - [Replenishment Driver playbook]({% link _journeys/replenishment-driver-playbook.md %})
 - [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %})

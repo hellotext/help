@@ -34,7 +34,7 @@ Opciones comunes incluyen:
 - **[Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}):** recupera carritos con seguimiento conversacional y contextual.
 - **[Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}):** reactiva clientes que vieron productos sin comprar.
 - **[Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}):** recomienda productos en tiempo real usando comportamiento y contexto de producto.
-- **Completa el Look:** sugiere productos complementarios.
+- **[Completa el Look]({% link _journeys/complete-the-look-playbook.md %}):** sugiere productos que combinan con lo que compradores eligieron, vieron o consideraron.
 - **[Alerta de Baja de Precio]({% link _journeys/price-drop-pouncer.md %}):** notifica automáticamente a compradores interesados cuando baja el precio de un producto.
 - **[Vuelta a Stock]({% link _journeys/back-in-stock-pounce.md %}):** alerta cuando un producto vuelve a estar disponible.
 
@@ -130,7 +130,7 @@ Si no sabes por dónde empezar, elige la misión que coincide con el primer cuel
 | Los clientes abandonan carritos | [Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) o [Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}) |
 | Los compradores esperan productos sin stock | [Vuelta a Stock]({% link _journeys/back-in-stock-pounce.md %}) |
 | Los compradores mostraron interés antes de una baja de precio relevante | [Alerta de Baja de Precio]({% link _journeys/price-drop-pouncer.md %}) |
-| Los visitantes miran pero no compran | [Impulsor de Primera Compra]({% link _journeys/first-purchase-driver-playbook.md %}), [Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}) o [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) |
+| Los visitantes miran pero no compran | [Impulsor de Primera Compra]({% link _journeys/first-purchase-driver-playbook.md %}), [Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}), [Completa el Look]({% link _journeys/complete-the-look-playbook.md %}) o [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) |
 | Los compradores no vuelven | [Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %}), [Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %}) o Reactivación Suave |
 | Los clientes quedaron fríos | Reactivación de Inactivos o Último Intento |
 | Tienes un anuncio con fecha | Envío clásico, Campaña Estacional, Adelanto de Lanzamiento o Liquidación Final |
@@ -167,6 +167,7 @@ Sigue leyendo:
 - [Playbook Impulsor de Primera Compra]({% link _journeys/first-purchase-driver-playbook.md %})
 - [Playbook Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %})
 - [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
+- [Playbook Completa el Look]({% link _journeys/complete-the-look-playbook.md %})
 - [Playbook Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %})
 - [Playbook Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %})
 - [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
@@ -193,6 +194,7 @@ Sigue leyendo:
 - [Playbook Alerta de Baja de Precio]({% link _journeys/price-drop-pouncer.md %})
 - [Playbook Impulsor de Primera Compra]({% link _journeys/first-purchase-driver-playbook.md %})
 - [Playbook Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %})
+- [Playbook Completa el Look]({% link _journeys/complete-the-look-playbook.md %})
 - [Playbook Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %})
 - [Playbook Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %})
 - [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
