@@ -62,10 +62,12 @@ Empieza acá cuando clientes no compraron, visitaron, hicieron click o respondie
 
 Opciones comunes incluyen:
 
-- **Reactivación de Inactivos:** reactiva clientes que llevan alrededor de 3 meses inactivos.
+- **[Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %}):** reactiva clientes que llevan alrededor de 3 meses inactivos.
 - **Último Intento:** hace un intento final con clientes que llevan alrededor de 12 meses sin actividad o sin reactivarse.
 
 Los playbooks de reactivación deben ser cuidadosos con frecuencia, tono, fuerza de la oferta y reglas de supresión. Si los clientes no responden, reduce la presión en lugar de seguir enviando.
+
+En esta familia, Hellotext también busca el canal más eficiente en costo entre los disponibles, como WhatsApp, SMS u otros, y solo envía cuando detecta internamente una oportunidad para mantener un ROI saludable.
 
 ## Usar momentos planificados y campañas
 
@@ -132,7 +134,7 @@ Si no sabes por dónde empezar, elige la misión que coincide con el primer cuel
 | Los compradores mostraron interés antes de una baja de precio relevante | [Alerta de Baja de Precio]({% link _journeys/price-drop-pouncer.md %}) |
 | Los visitantes miran pero no compran | [Impulsor de Primera Compra]({% link _journeys/first-purchase-driver-playbook.md %}), [Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}), [Completa el Look]({% link _journeys/complete-the-look-playbook.md %}) o [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) |
 | Los compradores no vuelven | [Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %}), [Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %}) o [Reactivación Suave]({% link _journeys/soft-reactivation-playbook.md %}) |
-| Los clientes quedaron fríos | Reactivación de Inactivos o Último Intento |
+| Los clientes quedaron fríos | [Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %}) o Último Intento |
 | Tienes un anuncio con fecha | Envío clásico, Campaña Estacional, Adelanto de Lanzamiento o Liquidación Final |
 | El soporte es repetitivo | [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}), [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}), [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}), [Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %}) o [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}) |
 | Necesitas reseñas de productos | [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) |
@@ -171,6 +173,7 @@ Sigue leyendo:
 - [Playbook Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %})
 - [Playbook Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %})
 - [Playbook Reactivación Suave]({% link _journeys/soft-reactivation-playbook.md %})
+- [Playbook Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %})
 - [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
 - [Playbook Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})
 - [Playbook Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %})
@@ -199,6 +202,7 @@ Sigue leyendo:
 - [Playbook Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %})
 - [Playbook Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %})
 - [Playbook Reactivación Suave]({% link _journeys/soft-reactivation-playbook.md %})
+- [Playbook Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %})
 - [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
 - [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [Primeros logros recomendados]({% link _getting-started/first-wins-starter-pack.md %})
