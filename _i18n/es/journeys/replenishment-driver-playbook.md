@@ -16,7 +16,6 @@ Puede:
 - Aprender del ciclo propio del cliente cuando hay suficiente historial.
 - Programar un recordatorio cerca de la ventana estimada de reposición.
 - Incluir un link de recompra, link de producto o descuento cuando esas opciones están disponibles y configuradas.
-- Enviar tips de producto o cuidado después de la compra cuando ese bloque está disponible.
 - Omitir, esperar o detenerse cuando el cliente ya recompró, el producto no es elegible, otro playbook es mejor dueño del momento o el cliente no puede ser alcanzado.
 
 La experiencia exacta puede variar según cuenta, tienda conectada, canal, plantillas disponibles y estado de despliegue del playbook.
@@ -84,7 +83,7 @@ Hellotext puede usar varios niveles de señal:
 - Comportamiento promedio de recompra de clientes que compraron el mismo producto.
 - El patrón propio de recompra del cliente cuando hay suficiente historial.
 
-Luego el playbook puede programar un recordatorio antes del punto estimado de reposición. La configuración de referencia de este playbook incluye un recordatorio antes del agotamiento estimado y tips opcionales después de la compra. El timing exacto y los controles disponibles pueden variar según cuenta y despliegue.
+Luego el playbook puede programar un recordatorio antes del punto estimado de reposición. El timing exacto y los controles disponibles pueden variar según cuenta y despliegue.
 
 Antes de enviar, Hellotext también puede considerar:
 
@@ -142,7 +141,7 @@ Usa perfiles del cliente de prueba que tengan consentimiento de canal, luego:
 - Prueba un cliente que recompra antes del recordatorio, lo que debería evitar o actualizar el seguimiento de reposición.
 - Prueba un producto no reponible que debería quedar excluido.
 - Prueba un cliente que no es elegible para el canal.
-- Revisa links de recompra, links de producto, descuentos, consejos y atribución.
+- Revisa links de recompra, links de producto, descuentos y atribución.
 - Envía una respuesta realista y confirma que llegue a la persona o equipo correcto si hay derivación disponible.
 
 Si el tracking es personalizado, confirma también que eventos de compra, identificadores de producto, cantidades, timestamps e identificadores del cliente coincidan con lo que Hellotext espera.

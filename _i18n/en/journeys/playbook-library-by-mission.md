@@ -63,7 +63,7 @@ Start here when customers have not purchased, visited, clicked, or replied for a
 Common options include:
 
 - **[Dormant Revival]({% link _journeys/dormant-revival-playbook.md %}):** reactivate customers who have been inactive for around 3 months.
-- **Sunset Saver:** make one final re-engagement attempt for customers who have been inactive or not reactivated for around 12 months.
+- **[Sunset Saver]({% link _journeys/sunset-saver-playbook.md %}):** make one final re-engagement attempt for customers who have been inactive or not reactivated for around 12 months, then suppress future automatic recovery attempts if they do not come back.
 
 Win-back playbooks should be careful with frequency, tone, offer strength, and suppression rules. If customers do not respond, reduce pressure rather than continuing to send.
 
@@ -134,7 +134,7 @@ If you are unsure where to start, choose the mission that matches the first bott
 | Shoppers showed interest before a meaningful price drop | [Price-Drop Pouncer]({% link _journeys/price-drop-pouncer.md %}) |
 | Visitors browse but do not buy | [First-Purchase Driver]({% link _journeys/first-purchase-driver-playbook.md %}), [Browse Recovery]({% link _journeys/browse-recovery-playbook.md %}), [Complete-the-Look]({% link _journeys/complete-the-look-playbook.md %}), or [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}) |
 | Buyers do not return | [Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}), [Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}), or [Soft Reactivation]({% link _journeys/soft-reactivation-playbook.md %}) |
-| Customers have gone cold | [Dormant Revival]({% link _journeys/dormant-revival-playbook.md %}) or Sunset Saver |
+| Customers have gone cold | [Dormant Revival]({% link _journeys/dormant-revival-playbook.md %}) or [Sunset Saver]({% link _journeys/sunset-saver-playbook.md %}) |
 | You have a timed announcement | Classic Broadcast, Holiday Hype, Launch Teaser, or Clearance Clean-out |
 | Support work is repetitive | [Instant Answers]({% link _journeys/instant-answers-playbook.md %}), [Order-Update Delight]({% link _journeys/order-update-playbook.md %}), [Return & Exchange Helper]({% link _journeys/return-and-exchange-helper-playbook.md %}), [Order Cancellation Assistant]({% link _journeys/order-cancellation-assistant-playbook.md %}), or [CSAT Pulse]({% link _journeys/csat-pulse-playbook.md %}) |
 | You need product reviews | [Review Builder]({% link _journeys/review-builder-playbook.md %}) |
@@ -174,6 +174,7 @@ Keep reading:
 - [Replenishment Driver playbook]({% link _journeys/replenishment-driver-playbook.md %})
 - [Soft Reactivation playbook]({% link _journeys/soft-reactivation-playbook.md %})
 - [Dormant Revival playbook]({% link _journeys/dormant-revival-playbook.md %})
+- [Sunset Saver playbook]({% link _journeys/sunset-saver-playbook.md %})
 - [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
 - [Review Builder playbook]({% link _journeys/review-builder-playbook.md %})
 - [CSAT Pulse playbook]({% link _journeys/csat-pulse-playbook.md %})
@@ -203,6 +204,7 @@ Keep reading:
 - [Replenishment Driver playbook]({% link _journeys/replenishment-driver-playbook.md %})
 - [Soft Reactivation playbook]({% link _journeys/soft-reactivation-playbook.md %})
 - [Dormant Revival playbook]({% link _journeys/dormant-revival-playbook.md %})
+- [Sunset Saver playbook]({% link _journeys/sunset-saver-playbook.md %})
 - [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %})
 - [How Hellotext decides whether a playbook can send]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [First wins starter pack]({% link _getting-started/first-wins-starter-pack.md %})

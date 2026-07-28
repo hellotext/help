@@ -16,7 +16,6 @@ It can:
 - Learn from the customer's own purchase cycle when enough history exists.
 - Schedule a reminder near the estimated refill window.
 - Include a reorder link, product link, or discount when those options are available and configured.
-- Send optional product tips or care messages after purchase when that block is available.
 - Skip, wait, or stop when the customer already reordered, the product is not eligible, another playbook is a better owner, or the customer cannot be reached.
 
 The exact experience can vary by account, connected store, channel, available templates, and playbook rollout status.
@@ -84,7 +83,7 @@ Hellotext can use several levels of signal:
 - Average reorder behavior from customers who bought the same product.
 - The customer's own repeat-purchase pattern when enough history exists.
 
-The playbook can then schedule a reminder before the estimated refill point. The reference setup for this playbook includes a refill reminder before expected depletion, and optional product-tip messages after purchase. Exact timing and available controls can vary by account and rollout.
+The playbook can then schedule a reminder before the estimated refill point. Exact timing and available controls can vary by account and rollout.
 
 Before sending, Hellotext can also consider:
 
@@ -142,7 +141,7 @@ Use test customer profiles that have channel consent, then:
 - Test a customer who reorders before the reminder, which should prevent or update the replenishment follow-up.
 - Test a non-replenishable product that should be excluded.
 - Test a customer who is not eligible for the channel.
-- Review reorder links, product links, discounts, tips, and attribution.
+- Review reorder links, product links, discounts, and attribution.
 - Send a realistic reply and confirm it reaches the right teammate or team if handoff is available.
 
 If tracking is custom, also confirm that purchase events, product identifiers, quantities, timestamps, and customer identifiers match what Hellotext expects.

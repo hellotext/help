@@ -2,7 +2,7 @@ Use this guide when customers have started to go quiet and you want Hellotext to
 
 Soft Reactivation is a retention playbook. It helps Hellotext recognize customers whose recent behavior is cooling down, then send a personalized nudge with relevant products, offers, or messaging context when the customer is still reachable.
 
-It is not a journey route, a one-time campaign, or a final win-back attempt. It sits earlier in the customer lifecycle: after the customer has shown value, but before they have been inactive long enough for [Dormant Revival]({% link _journeys/dormant-revival-playbook.md %}), which is for customers around 3 months inactive. For customers around 12 months inactive or not reactivated, use Sunset Saver when available.
+It is not a journey route, a one-time campaign, or a final win-back attempt. It sits earlier in the customer lifecycle: after the customer has shown value, but before they have been inactive long enough for [Dormant Revival]({% link _journeys/dormant-revival-playbook.md %}), which is for customers around 3 months inactive. For customers around 12 months inactive or not reactivated, use [Sunset Saver]({% link _journeys/sunset-saver-playbook.md %}).
 
 Availability can vary by account and rollout status. If the card appears as on request or disabled, confirm availability with your Hellotext team before planning a launch.
 
@@ -36,7 +36,7 @@ It is a good fit when:
 - There are relevant products, collections, or offers that make sense for the customer.
 - The goal is to maintain the relationship before the customer becomes difficult to recover.
 
-Do not use it for a specific product replenishment moment. Use [Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}) when the customer may need to reorder a consumable product. Use [Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}) when the next best action is a related product after a purchase. Use [Dormant Revival]({% link _journeys/dormant-revival-playbook.md %}) when the customer has been inactive for around 3 months and Sunset Saver when the customer has been inactive or not reactivated for around 12 months.
+Do not use it for a specific product replenishment moment. Use [Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}) when the customer may need to reorder a consumable product. Use [Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}) when the next best action is a related product after a purchase. Use [Dormant Revival]({% link _journeys/dormant-revival-playbook.md %}) when the customer has been inactive for around 3 months and [Sunset Saver]({% link _journeys/sunset-saver-playbook.md %}) when the customer has been inactive or not reactivated for around 12 months.
 
 ## What it needs before launch
 
@@ -106,7 +106,7 @@ Use the customer moment to decide the owner.
 | --- | --- |
 | Customer is starting to go quiet and has been inactive for around 30 days | Soft Reactivation |
 | Customer has been inactive for around 3 months | [Dormant Revival]({% link _journeys/dormant-revival-playbook.md %}) |
-| Customer has been inactive or not reactivated for around 12 months | Sunset Saver when available |
+| Customer has been inactive or not reactivated for around 12 months | [Sunset Saver]({% link _journeys/sunset-saver-playbook.md %}) |
 | Customer may need to reorder a consumable product | [Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}) |
 | Customer recently bought and may want a related product | [Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}) |
 | Customer abandoned a cart or checkout | [AI Cart Saver]({% link _journeys/ai-cart-saver-playbook.md %}) or [Cart Saver route]({% link _journeys/cart-saver-route.md %}) |
@@ -198,6 +198,7 @@ Tune one thing at a time: audience, product scope, product logic, tone, Playgrou
 - [Connect Shopify]({% link _integrations/connect-shopify.md %})
 - [Connect your catalog to WhatsApp]({% link _integrations/connect-catalog-to-whatsapp.md %})
 - [Dormant Revival playbook]({% link _journeys/dormant-revival-playbook.md %})
+- [Sunset Saver playbook]({% link _journeys/sunset-saver-playbook.md %})
 - [Replenishment Driver playbook]({% link _journeys/replenishment-driver-playbook.md %})
 - [Cross-Sell Driver playbook]({% link _journeys/cross-sell-driver-playbook.md %})
 - [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %})

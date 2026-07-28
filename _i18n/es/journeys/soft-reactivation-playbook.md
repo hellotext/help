@@ -2,7 +2,7 @@ Usa esta guía cuando los clientes empezaron a enfriarse y quieres que Hellotext
 
 Reactivación Suave es un playbook de retención. Ayuda a Hellotext a reconocer clientes cuyo comportamiento reciente viene bajando, y luego enviar un empujón personalizado con productos, ofertas o contexto de mensaje relevantes cuando el cliente todavía puede ser alcanzado.
 
-No es una ruta, una campaña puntual ni un último intento de recuperación. Vive antes en el ciclo del cliente: después de que el cliente ya mostró valor, pero antes de que pase suficiente tiempo inactivo como para usar [Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %}), que apunta a clientes alrededor de 3 meses sin actividad. Para clientes alrededor de 12 meses sin actividad o sin reactivarse, usa Último Intento cuando esté disponible.
+No es una ruta, una campaña puntual ni un último intento de recuperación. Vive antes en el ciclo del cliente: después de que el cliente ya mostró valor, pero antes de que pase suficiente tiempo inactivo como para usar [Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %}), que apunta a clientes alrededor de 3 meses sin actividad. Para clientes alrededor de 12 meses sin actividad o sin reactivarse, usa [Último Intento]({% link _journeys/sunset-saver-playbook.md %}).
 
 La disponibilidad puede variar según cuenta y estado de despliegue. Si la tarjeta aparece como a pedido o deshabilitada, confirma disponibilidad con tu equipo de Hellotext antes de planificar el lanzamiento.
 
@@ -36,7 +36,7 @@ Encaja bien cuando:
 - Hay productos, colecciones u ofertas relevantes para ese cliente.
 - El objetivo es mantener la relación antes de que el cliente sea más difícil de recuperar.
 
-No lo uses para un momento específico de reposición de producto. Usa [Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %}) cuando el cliente podría necesitar volver a comprar un producto consumible. Usa [Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %}) cuando la mejor acción siguiente es un producto relacionado después de una compra. Usa [Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %}) cuando el cliente ya lleva alrededor de 3 meses sin actividad y Último Intento cuando lleva alrededor de 12 meses sin actividad o sin reactivarse.
+No lo uses para un momento específico de reposición de producto. Usa [Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %}) cuando el cliente podría necesitar volver a comprar un producto consumible. Usa [Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %}) cuando la mejor acción siguiente es un producto relacionado después de una compra. Usa [Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %}) cuando el cliente ya lleva alrededor de 3 meses sin actividad y [Último Intento]({% link _journeys/sunset-saver-playbook.md %}) cuando lleva alrededor de 12 meses sin actividad o sin reactivarse.
 
 ## Qué necesita antes del lanzamiento
 
@@ -106,7 +106,7 @@ Usa el momento del cliente para decidir quién debería ser dueño.
 | --- | --- |
 | El cliente empieza a enfriarse y lleva alrededor de 30 días sin actividad relevante | Reactivación Suave |
 | El cliente lleva alrededor de 3 meses sin actividad relevante | [Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %}) |
-| El cliente lleva alrededor de 12 meses sin actividad o sin reactivarse | Último Intento cuando esté disponible |
+| El cliente lleva alrededor de 12 meses sin actividad o sin reactivarse | [Último Intento]({% link _journeys/sunset-saver-playbook.md %}) |
 | El cliente podría necesitar reponer un producto consumible | [Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %}) |
 | El cliente compró recientemente y podría querer un producto relacionado | [Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %}) |
 | El cliente abandonó carrito o checkout | [Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}) o [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) |
@@ -198,6 +198,7 @@ Ajusta una cosa por vez: audiencia, alcance de productos, lógica de producto, t
 - [Conecta Shopify]({% link _integrations/connect-shopify.md %})
 - [Conecta tu catálogo a WhatsApp]({% link _integrations/connect-catalog-to-whatsapp.md %})
 - [Playbook Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %})
+- [Playbook Último Intento]({% link _journeys/sunset-saver-playbook.md %})
 - [Playbook Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %})
 - [Playbook Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %})
 - [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
