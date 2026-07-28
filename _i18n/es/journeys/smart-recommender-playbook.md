@@ -57,14 +57,14 @@ Para validar la configuración, usa [Verifica tus datos y señales después de c
 
 Abre **Playbooks**, haz click en **Explorar playbooks** y elige **Recomendador Inteligente**.
 
-Las tarjetas disponibles pueden variar, pero podrías revisar:
+Recomendador Inteligente incluye:
 
 - **Documentos cargados:** notas de producto, FAQs, políticas, guías de talles, instrucciones de pago u otro contexto aprobado.
 - **Prompt del agente:** qué debería hacer el recomendador, cómo debería hablar, qué puede recomendar y cuándo debería derivar.
 - **Canales de entrada:** dónde el playbook puede responder preguntas de producto.
 - **Tono:** la voz usada en las respuestas.
 - **Derivación o asignación:** quién debería tomar la conversación cuando hace falta una persona.
-- **Búsqueda web:** sitios aprobados que el agente puede usar cuando esa opción está disponible.
+- **Búsqueda web:** sitios aprobados que el agente puede usar para la misión de recomendación.
 
 Mantén la selección automática de canales salvo que tengas una razón clara para limitar el playbook. Algunos formatos de recomendación funcionan mejor en canales enriquecidos, mientras que otros pueden necesitar links o texto más simple.
 

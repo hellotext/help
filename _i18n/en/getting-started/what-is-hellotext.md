@@ -40,7 +40,7 @@ The goal is to make each action more relevant than sending the same message to e
 
 Playbooks are repeatable systems for business missions such as cart recovery, first purchase, repeat purchase, reactivation, product recommendations, reviews, loyalty feedback, order follow-up, cancellation requests, and support.
 
-A playbook can be a prebuilt mission, an AI agent, a route, a campaign, or a capture depending on the job it performs.
+A playbook can be an autonomous prebuilt mission, a reactive AI agent, or a journey route with defined steps. Some capture or campaign-like workflows can also appear in Playbooks; captures and campaigns have dedicated Help Center sections because their setup and operating models are different.
 
 ### Inbox and conversations
 

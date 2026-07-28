@@ -70,14 +70,12 @@ For setup validation, use [Verify your data and signals after setup]({% link _in
 
 Open **Playbooks**, click **Explore playbooks**, and choose **Review Builder**.
 
-The available cards can vary, but the playbook is designed around:
+Review Builder exposes:
 
 - **Outgoing channels:** where Hellotext asks for the review.
 - **Tone:** how the review request sounds.
-- **Timing:** when the request is sent after delivery.
-- **Product spacing:** how review requests are spaced when a customer bought multiple products.
-- **Low-rating follow-up:** what the playbook asks when the customer chooses 1 or 2 stars.
-- **Derivation or assignment:** who should take over when a low rating needs attention.
+
+Hellotext handles post-delivery timing, spacing between products, duplicate prevention, and the low-rating follow-up inside the playbook. These are automatic behaviors, not setup cards.
 
 Keep the first setup focused. Start with one reliable delivery source and one channel before expanding review collection broadly.
 
@@ -85,7 +83,7 @@ Keep the first setup focused. Start with one reliable delivery source and one ch
 
 Review Builder should not ask too early.
 
-The usual starting point is after the product has been delivered, often around 7 days later. The exact timing may vary by product type, delivery speed, and how long customers need before forming a useful opinion.
+The usual starting point is after the product has been delivered, often around 7 days later. Hellotext handles this timing automatically and can allow more time when customers need longer to form a useful opinion.
 
 If a customer bought multiple products, the playbook should avoid asking for every product immediately. Review requests should be spaced out by several days so the customer is not overwhelmed.
 
@@ -124,7 +122,7 @@ For handoff behavior, use [AI handoff to Inbox]({% link _team/ai-handoff-to-inbo
 
 Review Builder stores the reviews it collects.
 
-The playbook report should help you see:
+The automatic playbook report lets you see:
 
 - Products with reviews received.
 - Rating distribution.
@@ -153,7 +151,7 @@ Try:
 - A customer who asks for help instead of leaving a review.
 - A customer who should not receive the request because delivery data or channel eligibility is missing.
 
-Confirm that timing, channel, rating buttons, review capture, low-rating handoff, and reporting all behave as expected.
+Confirm that the channel, rating buttons, review capture, automatic spacing, low-rating path, and reporting all behave as expected.
 
 ## What to review after launch
 
@@ -170,7 +168,7 @@ During the first days, review:
 - Opt-outs, failed messages, and negative replies.
 - Export completeness.
 
-Tune one thing at a time: timing, channel, tone, product spacing, low-rating handoff, or the products included in the playbook.
+Tune one thing at a time in the settings you control: channel or tone. Use the report to identify unexpected timing, spacing, duplicate requests, or low-rating behavior.
 
 ## Related guides
 

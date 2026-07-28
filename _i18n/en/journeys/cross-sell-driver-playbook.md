@@ -59,10 +59,13 @@ After launch, use the automatically generated reports to review sends, clicks, a
 
 Open **Playbooks**, click **Explore playbooks**, and choose **Cross-Sell Driver**.
 
-The playbook lets you configure product scope and recommendation rules. Depending on the account, it may also show cards for discounts, channels, tone, or handoff:
+The playbook exposes product scope and recommendation rules:
 
 - **Product scope:** which products, collections, categories, or families can start or receive cross-sell recommendations.
 - **Recommendation rules:** product relationships, exclusions, or merchandising rules that should guide suggested items.
+
+Depending on the account rollout, it may also show cards for:
+
 - **Discount strategy:** whether the message follows existing ecommerce offer rules, can use AI-driven discounts up to a maximum percentage, or sends without discounts.
 - **Channels:** where Hellotext can send or continue the conversation.
 - **Tone or Playground feedback:** how generated follow-ups should learn what fits your business.
@@ -70,7 +73,7 @@ The playbook lets you configure product scope and recommendation rules. Dependin
 
 Keep automatic channel selection unless you have a clear reason to limit the playbook. Cross-Sell Driver depends on whether the customer can be reached when the add-on suggestion is still relevant.
 
-Some settings are handled automatically or may not be available in every account. If you do not see a control, test the playbook with a realistic profile before assuming you need to recreate the flow manually. If you need a custom flow or a custom AI agent, use [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %}) or a custom journey.
+Hellotext handles customer eligibility, send timing, and reporting automatically. Product scope and recommendation rules remain direct controls for deciding which products participate and how complements are selected.
 
 ## How recommendations are chosen
 
@@ -176,7 +179,7 @@ During the first days, review:
 - Whether discounts increase add-on purchases or only reduce margin.
 - Whether Cross-Sell Driver overlaps with Smart Recommender, Replenishment Driver, cart recovery, or campaigns.
 
-Tune one thing at a time: product scope, recommendation rules, message, and, when available, discount strategy, channel, or handoff path.
+Tune one thing at a time: product scope, recommendation rules, and, when those cards are present, discount strategy, channel, tone, or handoff path.
 
 ## Related guides
 

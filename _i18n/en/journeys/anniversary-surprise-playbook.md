@@ -15,7 +15,7 @@ It can:
 - Use an anniversary source, such as first purchase, profile creation, subscription date, or a custom date, when available.
 - Detect when the customer reaches an anniversary based on that source.
 - Send a celebration message with a grateful or appreciative tone.
-- Include a coupon, gift, or approved incentive when the offer setup allows it.
+- Include an approved coupon or existing ecommerce offer when the message calls for one.
 - Personalize the message with customer profile data, purchase history, or relationship context when that data is available.
 - Skip profiles when the anniversary date is missing, consent is missing, the channel is not ready, or the profile cannot be reached.
 
@@ -30,7 +30,7 @@ It is a good fit when:
 - You have a reliable date that represents the customer's relationship with the business.
 - The anniversary makes sense for your brand: first purchase, first opt-in, profile creation, membership, or a custom date.
 - The message can feel grateful, personal, and useful.
-- The business wants to offer a benefit or greeting without creating manual campaigns.
+- The business wants to offer a greeting or approved coupon without creating manual campaigns.
 - Your team wants a retention moment that does not depend on inactivity, cart behavior, or birthday.
 
 For personal birthdays, use [Birthday Bash]({% link _journeys/birthday-bash-playbook.md %}). For customers who have gone quiet, use [Soft Reactivation]({% link _journeys/soft-reactivation-playbook.md %}), [Dormant Revival]({% link _journeys/dormant-revival-playbook.md %}), or [Sunset Saver]({% link _journeys/sunset-saver-playbook.md %}) depending on the inactivity window. For commercial dates such as holidays, launches, or one-time promotions, use [Campaigns and broadcasts]({% link _campaigns/campaigns-overview.md %}).
@@ -48,7 +48,7 @@ Check that:
 - The audience you want to reach is identifiable and eligible.
 - The channel, sender, or WhatsApp account is ready.
 - The message or template is approved if the channel requires it.
-- If you include a coupon or gift, the offer rule is approved and works before launch.
+- If you include a coupon or ecommerce offer, it is approved and works before launch.
 - Purchase, profile, or custom-property data is synced if the anniversary depends on it.
 
 For setup validation, use [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %}). If you import profiles or custom dates, see [Import customer profiles]({% link _audience/import-customer-profiles.md %}). For custom tracking, use [Tracking events]({% link _developers/tracking-events.md %}).
@@ -65,7 +65,7 @@ Available options can vary, but review:
 - **Audience:** which profiles can receive the playbook.
 - **Outgoing channels:** where Hellotext can send the message.
 - **Message:** the anniversary copy and variables it will use.
-- **Coupon or offer:** the approved coupon, gift, or incentive to include when relevant.
+- **Coupon or offer:** the approved coupon or existing ecommerce offer to include when relevant.
 - **Inbox replies:** how your team should review replies if the customer responds.
 
 Do not assume every account uses the same anniversary source. If the control is not visible, confirm with your Hellotext team which date the playbook uses before launch.
@@ -147,12 +147,12 @@ During the first days, review:
 - Which profiles created anniversary moments.
 - Which anniversary source produced those moments.
 - Which messages were sent, skipped, clicked, replied to, or purchased from.
-- Whether the coupon, link, or gift worked correctly.
+- Whether the coupon or link worked correctly.
 - Whether the tone felt grateful and natural for the brand.
 - Whether there were opt-outs, negative replies, or failed messages.
 - Whether Anniversary Surprise overlaps with birthdays, campaigns, reactivation, or other retention playbooks.
 
-Tune one thing at a time: anniversary source, audience, channel, message, coupon, allowed timing, or follow-up path.
+Tune one thing at a time: anniversary source, audience, channel, message, or coupon.
 
 ## Related guides
 

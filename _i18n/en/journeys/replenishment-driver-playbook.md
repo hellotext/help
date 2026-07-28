@@ -59,18 +59,15 @@ After launch, use the automatically generated reports to review scheduled, sent,
 
 Open **Playbooks**, click **Explore playbooks**, and choose **Replenishment Driver**.
 
-The available cards can vary, but the playbook may expose:
+The playbook exposes the settings that control how it communicates:
 
-- **Usage window:** how many days a product, SKU, or product family usually lasts.
-- **Product eligibility:** which products, categories, or families should be included or excluded.
 - **Discount strategy:** whether the reminder follows existing ecommerce offer rules, can use AI-driven discounts up to a maximum percentage, or sends without discounts.
 - **Channels:** where Hellotext can send or continue the conversation.
 - **Tone or Playground feedback:** how generated follow-ups should learn what fits your business.
-- **Escalation or assignment:** who should take over when a reply needs a person.
 
 Keep automatic channel selection unless you have a clear reason to limit the playbook. Replenishment Driver depends on whether the customer can actually be reached when the refill window arrives.
 
-Some settings are handled automatically or may not be available in every account. If you do not see a control, test the playbook with a realistic profile before assuming you need to rebuild the flow manually. If you need a custom flow or a custom AI agent, use [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %}) or a custom journey.
+Product usage duration and replenishment eligibility come from product data, purchase history, and Hellotext's internal scoring. They are inputs to the decision, not reminder-schedule controls on the playbook.
 
 ## How timing works
 
@@ -83,7 +80,7 @@ Hellotext can use several levels of signal:
 - Average reorder behavior from customers who bought the same product.
 - The customer's own repeat-purchase pattern when enough history exists.
 
-The playbook can then schedule a reminder before the estimated refill point. Exact timing and available controls can vary by account and rollout.
+The playbook then calculates when a reminder makes sense before the estimated refill point. Hellotext handles that delivery timing automatically rather than asking you to schedule each reminder.
 
 Before sending, Hellotext can also consider:
 
@@ -123,7 +120,6 @@ When reviewing examples, look for:
 - Whether the message sounds like a helpful refill reminder, not a pressure tactic.
 - Whether the copy says the customer may be running low instead of claiming certainty.
 - Whether the product, quantity, link, and discount are relevant.
-- Whether the timing feels natural for the product's usage window.
 - Whether replies can naturally continue in the channel or reach the Inbox when needed.
 
 The more realistic the Playground examples are, the easier it is to teach the system what "good" looks like for your store.
@@ -137,12 +133,12 @@ Use test customer profiles that have channel consent, then:
 - Place a test order with a replenishable product.
 - Confirm the order and product appear on the customer profile.
 - Confirm the product has a usage window, product-family default, or enough purchase history to estimate one.
-- Review the scheduled reminder timing for that product.
+- Confirm the order and product create an eligible replenishment opportunity.
 - Test a customer who reorders before the reminder, which should prevent or update the replenishment follow-up.
 - Test a non-replenishable product that should be excluded.
 - Test a customer who is not eligible for the channel.
 - Review reorder links, product links, discounts, and attribution.
-- Send a realistic reply and confirm it reaches the right teammate or team if handoff is available.
+- Send a realistic reply and confirm the resulting conversation appears in the Inbox.
 
 If tracking is custom, also confirm that purchase events, product identifiers, quantities, timestamps, and customer identifiers match what Hellotext expects.
 
@@ -176,7 +172,7 @@ During the first days, review:
 - Whether discounts increased repeat orders or reduced margin.
 - Whether Replenishment Driver overlaps with [Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}), reactivation, or campaigns.
 
-Tune one thing at a time when the playbook exposes that control: product eligibility, usage window, message, discount strategy, channel, or handoff path.
+Tune one thing at a time: product data, discount strategy, channel, tone, or Playground feedback.
 
 ## Related guides
 

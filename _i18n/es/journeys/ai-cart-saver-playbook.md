@@ -57,7 +57,7 @@ Para validar la configuración, usa [Verifica tus datos y señales después de c
 
 Abre **Playbooks**, haz click en **Explorar playbooks** y elige **Recuperador de Carritos con IA**.
 
-Las tarjetas disponibles pueden variar, pero podrías revisar:
+Recuperador de Carritos con IA expone:
 
 - **Canales:** dónde Hellotext puede enviar o continuar la conversación de recuperación de carrito.
 - **Estrategia de descuento:** si el playbook sigue las reglas de oferta del ecommerce, puede crear descuentos con IA hasta un porcentaje máximo o envía sin descuentos.
@@ -66,7 +66,7 @@ Las tarjetas disponibles pueden variar, pero podrías revisar:
 
 Mantén la selección automática de canales salvo que tengas una razón clara para limitar el playbook. Muchas decisiones de recuperación de carrito dependen de si el cliente realmente puede ser alcanzado en un canal y si el formato del mensaje está permitido ahí.
 
-No asumas que al playbook le falta algo si no muestra tarjetas de prompt, intenciones o pasos de ruta. Algunos playbooks preconstruidos manejan esas decisiones dentro de la lógica del playbook. Si estás editando un agente personalizado o un playbook tipo ruta, usa [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %}).
+Recuperador de Carritos con IA no requiere configurar un prompt, intenciones ni pasos de ruta. Esos controles pertenecen a agentes personalizados y rutas.
 
 ## Cómo funciona con rutas de carrito
 
@@ -126,7 +126,7 @@ Durante los primeros días, revisa:
 - Si los clientes compraron antes de que saliera un seguimiento.
 - Conversión, ingresos, bajas, tasa de derivación y mensajes fallidos.
 
-Ajusta una cosa por vez: estrategia de descuento, tono, selección de canal, destino de derivación o audiencia elegible.
+Ajusta una cosa por vez: estrategia de descuento, tono, selección de canal o destino de derivación.
 
 ## Guías relacionadas
 

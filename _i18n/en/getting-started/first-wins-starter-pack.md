@@ -29,7 +29,6 @@ Use one capture path first:
 - Website form or popup for visitors already on your site.
 - [Webchat Widget]({% link _journeys/webchat-widget-playbook.md %}) for visitors who want to ask questions from the site.
 - Checkout opt-in when customers are already buying.
-- Subscriber Booster or Property Collector if your account has those playbooks available.
 
 Expected win: more reachable customer profiles and cleaner consent for future playbooks and campaigns.
 

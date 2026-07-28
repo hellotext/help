@@ -70,14 +70,12 @@ Para validar la configuración, usa [Verifica tus datos y señales después de c
 
 Abre **Playbooks**, haz clic en **Explorar playbooks** y elige **Generador de Reseñas**.
 
-Las tarjetas disponibles pueden variar, pero el playbook está pensado alrededor de:
+Generador de Reseñas expone:
 
 - **Canales de salida:** dónde Hellotext pide la reseña.
 - **Tono:** cómo suena la solicitud de reseña.
-- **Timing:** cuándo se envía la solicitud después de la entrega.
-- **Separación entre productos:** cómo se separan las solicitudes cuando un cliente compró varios productos.
-- **Seguimiento de calificaciones bajas:** qué pregunta el playbook cuando el cliente elige 1 o 2 estrellas.
-- **Derivación o asignación:** quién debería tomar la conversación cuando una calificación baja necesita atención.
+
+Hellotext maneja dentro del playbook el momento posterior a la entrega, la separación entre productos, la prevención de solicitudes duplicadas y el seguimiento de calificaciones bajas. Son comportamientos automáticos, no tarjetas de configuración.
 
 Mantén la primera configuración enfocada. Empieza con una fuente de entrega confiable y un canal antes de ampliar la recopilación de reseñas.
 
@@ -85,7 +83,7 @@ Mantén la primera configuración enfocada. Empieza con una fuente de entrega co
 
 Generador de Reseñas no debería pedir una reseña demasiado pronto.
 
-El punto de partida habitual es después de que el producto fue entregado, muchas veces alrededor de 7 días después. El timing exacto puede variar según tipo de producto, velocidad de entrega y cuánto tiempo necesita el cliente para formarse una opinión útil.
+El punto de partida habitual es después de que el producto fue entregado, muchas veces alrededor de 7 días después. Hellotext maneja ese timing automáticamente y puede dar más tiempo cuando el cliente necesita más días para formarse una opinión útil.
 
 Si un cliente compró varios productos, el playbook debería evitar pedir reseñas de todos los productos inmediatamente. Las solicitudes deberían separarse por varios días para no saturar al cliente.
 
@@ -124,7 +122,7 @@ Para el comportamiento de derivación, usa [Derivación de IA al Inbox]({% link 
 
 Generador de Reseñas guarda las reseñas que recopila.
 
-El reporte del playbook debería ayudarte a ver:
+El reporte automático del playbook permite ver:
 
 - Productos con reseñas recibidas.
 - Distribución de calificaciones.
@@ -153,7 +151,7 @@ Prueba:
 - Un cliente que pide ayuda en lugar de dejar una reseña.
 - Un cliente que no debería recibir la solicitud porque faltan datos de entrega o elegibilidad de canal.
 
-Confirma que timing, canal, botones de calificación, captura de reseña, derivación por baja calificación y reporting funcionan como esperas.
+Confirma que el canal, los botones de calificación, la captura de reseña, la separación automática, el camino de baja calificación y los reportes funcionen como esperas.
 
 ## Qué revisar después del lanzamiento
 
@@ -170,7 +168,7 @@ Durante los primeros días, revisa:
 - Bajas, mensajes fallidos y respuestas negativas.
 - Completitud de la exportación.
 
-Ajusta una cosa por vez: timing, canal, tono, separación entre productos, derivación por baja calificación o productos incluidos en el playbook.
+Ajusta una cosa por vez dentro de las configuraciones que controlas: canal o tono. Usa el reporte para detectar timing inesperado, solicitudes demasiado juntas o duplicadas y problemas en el camino de baja calificación.
 
 ## Guías relacionadas
 

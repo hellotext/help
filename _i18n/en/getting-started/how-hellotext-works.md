@@ -32,7 +32,7 @@ Good playbook use cases include:
 - Guiding return or exchange requests with [Return & Exchange Helper]({% link _journeys/return-and-exchange-helper-playbook.md %}).
 - Guiding cancellation requests with [Order Cancellation Assistant]({% link _journeys/order-cancellation-assistant-playbook.md %}).
 
-A playbook can be a prebuilt mission, an AI agent, a route, a capture, or even a campaign-like workflow depending on the job it performs.
+A playbook can be an autonomous prebuilt mission, a reactive AI agent, or a journey route with defined steps. Some capture or campaign-like workflows can also appear in Playbooks; this Help Center documents captures and campaigns in dedicated sections because their setup and operating models are different.
 
 Use a **route** when the playbook should follow predictable steps: trigger, wait, message, condition, branch, and handoff.
 

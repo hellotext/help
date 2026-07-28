@@ -48,7 +48,6 @@ Check that:
 - Out-of-stock and back-in-stock states are reliable at the level you plan to message about.
 - Product names, images, prices, stock, and product links are current.
 - The customer profiles that asked to be notified are subscribed, identifiable, and reachable.
-- The playbook trigger matches the stock or availability signal your integration sends.
 - The channel is connected and ready.
 - Customers have consent and are eligible for the channel.
 - Purchase or order signals are available if the playbook should avoid messaging customers who already bought.
@@ -61,18 +60,14 @@ After enabling the playbook, use the automatically generated reports to review e
 
 Go to **Playbooks**, click **Explore playbooks**, and choose **Back-in-Stock Pounce**.
 
-Review the generated playbook configuration before enabling it.
+Review the playbook cards available in your account before enabling it. The configuration can include:
 
-Pay special attention to:
+- **Outgoing channels:** where Hellotext can send the stock alert.
+- **Tone or Playground feedback:** how the generated notification should fit your business.
+- **Assignment or handoff:** who should handle replies when a customer needs a person.
+- **Product scope, when exposed:** which products, variants, categories, or collections can participate.
 
-- **Trigger:** the stock, availability, or notify-me signal that starts the playbook.
-- **Product or variant scope:** which products, SKUs, variants, categories, or collections should be eligible.
-- **Availability condition:** how the playbook confirms the item is still sellable before sending.
-- **Message:** product name, product image, product link, channel, and sender.
-- **Exit behavior:** what happens when the item is unavailable again, the customer already bought, or the customer no longer matches.
-- **Additional rules:** waits, follow-ups, assignments, tags, or conditions available in your account.
-
-Do not expect prompt or intent configuration here. Those belong to AI agents or custom agents, not this back-in-stock playbook.
+Hellotext handles the stock trigger, customer-interest matching, send timing, availability recheck, purchase check, and reporting automatically. Back-in-Stock Pounce does not require a prompt, intents, journey steps, waits, or exit conditions.
 
 ## How it works with nearby playbooks
 
@@ -98,10 +93,10 @@ Use a test customer profile that has channel consent, then:
 - Create a waitlist, notify-me, capture, or product-interest signal for that test profile.
 - Confirm the product-interest signal appears on the right customer profile.
 - Send or simulate the stock or availability update that makes the item sellable again.
-- Confirm the playbook trigger matches that update.
+- Confirm the playbook detects that update and creates an eligible back-in-stock opportunity.
 - Confirm the message uses the right product, variant, image, price, and link.
 - Confirm the playbook does not send if the product becomes unavailable again.
-- Confirm the playbook does not send if the test customer already purchased, when that condition is part of the configuration.
+- Confirm the playbook does not send if the test customer already bought the product.
 - Send a reply and confirm it reaches the Inbox if your team should handle replies.
 - Review sent, skipped, failed, clicked, and converted examples after launch.
 
@@ -117,7 +112,7 @@ The playbook may not send when:
 - The product-interest, waitlist, or notify-me signal is missing.
 - The product or variant IDs do not match across the stock update and customer signal.
 - The product is still unavailable, hidden, archived, missing a price, or missing a usable link.
-- The customer already bought the item and the playbook is configured to stop after purchase.
+- The customer already bought the item.
 - The profile cannot be reached in the selected channel.
 - The customer unsubscribed, opted out, or is otherwise not eligible.
 - The channel, sender, WhatsApp template, or message format is not ready.
@@ -139,7 +134,7 @@ During the first days, review:
 - Purchases, attributed revenue, and missed opportunities.
 - Whether the playbook overlaps with campaigns, Browse Recovery, cart recovery, or Smart Recommender.
 
-Tune one thing at a time: trigger, product scope, message, wait, channel, or exit condition.
+Tune one thing at a time among the cards the playbook exposes: product scope, channel, tone, Playground feedback, or assignment.
 
 ## Related guides
 

@@ -48,7 +48,6 @@ Revisa que:
 - Los estados sin stock y vuelta a stock sean confiables al nivel sobre el que vas a escribir.
 - Nombres, imágenes, precios, stock y links de producto estén actualizados.
 - Los perfiles del cliente que pidieron aviso estén suscritos, identificables y alcanzables.
-- El disparador del playbook coincida con la señal de stock o disponibilidad que envía tu integración.
 - El canal esté conectado y listo.
 - Los clientes tengan consentimiento y sean elegibles para el canal.
 - Señales de compra u orden estén disponibles si el playbook debería evitar escribir a clientes que ya compraron.
@@ -61,18 +60,14 @@ Después de habilitar el playbook, usa los reportes automáticos para revisar en
 
 Ve a **Playbooks**, haz click en **Explorar playbooks** y elige **Vuelta a Stock**.
 
-Revisa la configuración generada del playbook antes de habilitarlo.
+Revisa las tarjetas del playbook disponibles en tu cuenta antes de habilitarlo. La configuración puede incluir:
 
-Presta especial atención a:
+- **Canales de salida:** dónde Hellotext puede enviar la alerta de stock.
+- **Tono o feedback en Playground:** cómo debería ajustarse la notificación generada al gusto de tu negocio.
+- **Asignación o derivación:** quién debería manejar las respuestas cuando el cliente necesita una persona.
+- **Alcance de productos, cuando esté expuesto:** qué productos, variantes, categorías o colecciones pueden participar.
 
-- **Disparador:** la señal de stock, disponibilidad o aviso de reposición que inicia el playbook.
-- **Alcance de producto o variante:** qué productos, SKUs, variantes, categorías o colecciones deberían ser elegibles.
-- **Condición de disponibilidad:** cómo el playbook confirma que el producto sigue vendible antes de enviar.
-- **Mensaje:** nombre del producto, imagen, link de producto, canal y remitente.
-- **Comportamiento de salida:** qué pasa cuando el producto vuelve a no estar disponible, el cliente ya compró o el cliente ya no coincide.
-- **Reglas adicionales:** esperas, seguimientos, asignaciones, etiquetas o condiciones disponibles en tu cuenta.
-
-No esperes configuración de prompt o intenciones acá. Eso pertenece a agentes de IA o agentes personalizados, no a este playbook de vuelta a stock.
+Hellotext maneja automáticamente la señal de vuelta a stock, la coincidencia con el interés del cliente, el momento del envío, la nueva revisión de disponibilidad, la comprobación de compra y los reportes. Vuelta a Stock no requiere un prompt, intenciones, pasos de ruta, esperas ni condiciones de salida.
 
 ## Cómo funciona con playbooks cercanos
 
@@ -98,10 +93,10 @@ Usa un perfil del cliente de prueba que tenga consentimiento de canal, luego:
 - Crea una señal de lista de espera, aviso de reposición, captura o interés en producto para ese perfil de prueba.
 - Confirma que la señal de interés aparezca en el perfil del cliente correcto.
 - Envía o simula la actualización de stock o disponibilidad que vuelve vendible el producto.
-- Confirma que el disparador del playbook coincida con esa actualización.
+- Confirma que el playbook detecte esa actualización y cree una oportunidad elegible de vuelta a stock.
 - Confirma que el mensaje use el producto, variante, imagen, precio y link correctos.
 - Confirma que el playbook no envíe si el producto vuelve a quedar sin stock.
-- Confirma que el playbook no envíe si el cliente de prueba ya compró, cuando esa condición forma parte de la configuración.
+- Confirma que el playbook no envíe si el cliente de prueba ya compró el producto.
 - Envía una respuesta y confirma que llegue al Inbox si tu equipo debería manejar respuestas.
 - Revisa ejemplos enviados, omitidos, fallidos, clickeados y convertidos después del lanzamiento.
 
@@ -117,7 +112,7 @@ El playbook puede no enviar cuando:
 - Falta la señal de interés en producto, lista de espera o aviso de reposición.
 - Los identificadores de producto o variante no coinciden entre la actualización de stock y la señal del cliente.
 - El producto sigue no disponible, está oculto, archivado, no tiene precio o no tiene un link usable.
-- El cliente ya compró el producto y el playbook está configurado para detenerse después de la compra.
+- El cliente ya compró el producto.
 - El perfil no puede ser alcanzado en el canal elegido.
 - El cliente se dio de baja, no tiene consentimiento o no es elegible.
 - El canal, remitente, plantilla de WhatsApp o formato del mensaje no está listo.
@@ -139,7 +134,7 @@ Durante los primeros días, revisa:
 - Compras, ingresos atribuidos y oportunidades omitidas.
 - Si el playbook se superpone con campañas, Recuperación de Navegación, recuperación de carrito o Recomendador Inteligente.
 
-Ajusta una cosa por vez: disparador, alcance de productos, mensaje, espera, canal o condición de salida.
+Ajusta una cosa por vez entre las tarjetas que expone el playbook: alcance de productos, canal, tono, feedback en Playground o asignación.
 
 ## Guías relacionadas
 

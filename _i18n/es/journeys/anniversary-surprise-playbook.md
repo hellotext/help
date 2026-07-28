@@ -15,7 +15,7 @@ Puede:
 - Usar una fuente de aniversario, como primera compra, creación del perfil, fecha de suscripción o una fecha personalizada, cuando esté disponible.
 - Detectar cuándo el cliente llega a un aniversario según esa fuente.
 - Enviar un mensaje de celebración con tono de agradecimiento o reconocimiento.
-- Incluir un cupón, regalo o incentivo aprobado cuando la configuración de oferta lo permite.
+- Incluir un cupón aprobado o una oferta existente del ecommerce cuando el mensaje lo necesita.
 - Personalizar el mensaje con datos del perfil del cliente, historial de compra o contexto de relación cuando esos datos están disponibles.
 - Omitir perfiles cuando falta la fecha de aniversario, falta consentimiento, el canal no está listo o el perfil no puede ser alcanzado.
 
@@ -30,7 +30,7 @@ Encaja bien cuando:
 - Tienes una fecha confiable que representa la relación del cliente con el negocio.
 - El aniversario tiene sentido para tu marca: primera compra, primer opt-in, creación del perfil, membresía o una fecha custom.
 - El mensaje puede sentirse agradecido, personal y útil.
-- El negocio quiere ofrecer un beneficio o saludo sin crear campañas manuales.
+- El negocio quiere ofrecer un saludo o cupón aprobado sin crear campañas manuales.
 - Tu equipo quiere sumar un momento de retención que no dependa de inactividad, carrito o cumpleaños.
 
 Para cumpleaños personales, usa [Celebra su Cumpleaños]({% link _journeys/birthday-bash-playbook.md %}). Para clientes que están fríos, usa [Reactivación Suave]({% link _journeys/soft-reactivation-playbook.md %}), [Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %}) o [Último Intento]({% link _journeys/sunset-saver-playbook.md %}). Para fechas comerciales como feriados, lanzamientos o promociones puntuales, usa [Campañas y broadcasts]({% link _campaigns/campaigns-overview.md %}).
@@ -48,7 +48,7 @@ Revisa que:
 - La audiencia que quieres alcanzar sea identificable y elegible.
 - El canal, remitente o cuenta de WhatsApp esté listo.
 - El mensaje o plantilla esté aprobado si el canal lo requiere.
-- Si vas a incluir un cupón o regalo, la regla de oferta esté aprobada y funcione antes del lanzamiento.
+- Si vas a incluir un cupón u oferta del ecommerce, esté aprobado y funcione antes del lanzamiento.
 - Los datos de compra, perfil o propiedades personalizadas estén sincronizados si el aniversario depende de ellos.
 
 Para validar la configuración, usa [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %}). Si importas perfiles o fechas personalizadas, revisa [Importa perfiles del cliente]({% link _audience/import-customer-profiles.md %}). Para tracking personalizado, usa [Seguimiento de eventos]({% link _developers/tracking-events.md %}).
@@ -65,7 +65,7 @@ Las opciones disponibles pueden variar, pero revisa:
 - **Audiencia:** qué perfiles pueden recibir el playbook.
 - **Canales de salida:** dónde Hellotext puede enviar el mensaje.
 - **Mensaje:** el texto de aniversario y las variables que usará.
-- **Cupón u oferta:** el cupón, regalo o incentivo aprobado que se incluirá si corresponde.
+- **Cupón u oferta:** el cupón aprobado o la oferta existente del ecommerce que se incluirá si corresponde.
 - **Respuestas en Inbox:** cómo debería revisar tu equipo las respuestas si el cliente contesta.
 
 No asumas que todas las cuentas tienen la misma fuente de aniversario. Si el control no aparece, confirma con tu equipo de Hellotext qué fecha está usando el playbook antes de lanzar.
@@ -147,12 +147,12 @@ Durante los primeros días, revisa:
 - Qué perfiles generaron momentos de aniversario.
 - Qué fuente de aniversario produjo esos momentos.
 - Qué mensajes se enviaron, omitieron, recibieron clicks, recibieron respuestas o generaron compras.
-- Si el cupón, link o regalo funcionó correctamente.
+- Si el cupón o link funcionó correctamente.
 - Si el tono se sintió agradecido y natural para la marca.
 - Si hubo bajas, respuestas negativas o mensajes fallidos.
 - Si Sorpresa de Aniversario se superpone con cumpleaños, campañas, reactivación u otros playbooks de retención.
 
-Ajusta una cosa por vez: fuente de aniversario, audiencia, canal, mensaje, cupón, timing permitido o camino de seguimiento.
+Ajusta una cosa por vez: fuente de aniversario, audiencia, canal, mensaje o cupón.
 
 ## Guías relacionadas
 

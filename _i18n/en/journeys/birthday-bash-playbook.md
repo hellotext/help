@@ -1,4 +1,4 @@
-Use this guide when you have birthday dates on customer profiles and want Hellotext to automatically send a birthday greeting with an approved message or gift code on the right day.
+Use this guide when you have birthday dates on customer profiles and want Hellotext to automatically send a birthday greeting with an approved message or coupon code on the right day.
 
 Birthday Bash is a customer-profile signal playbook. When Hellotext detects that a profile's birthday matches the current day, it can start the playbook and send a birthday message through an eligible channel.
 
@@ -15,7 +15,7 @@ It can:
 - Detect customer profiles whose birthday matches the current day and month.
 - Create a birthday event to start the playbook when it is active.
 - Send a birthday message with a celebratory tone.
-- Include a coupon, gift, or approved incentive when the offer setup allows it.
+- Include an approved coupon or existing ecommerce offer when the message calls for one.
 - Personalize the message with customer profile data, such as name or birthday, when available.
 - Skip profiles when the birthday is missing, consent is missing, the channel is not ready, or the profile cannot be reached.
 
@@ -30,7 +30,7 @@ It is a good fit when:
 - Customer profiles have birthdays with day and month.
 - The birthday was collected with consent and a clear expectation.
 - The message feels natural for the brand.
-- The business wants to offer a greeting, benefit, or special coupon without creating a manual campaign every day.
+- The business wants to offer a greeting or approved coupon without creating a manual campaign every day.
 - Your team wants a retention moment that does not depend on inactivity or cart behavior.
 
 Do not use it to win back customers who have gone cold. For that, use [Soft Reactivation]({% link _journeys/soft-reactivation-playbook.md %}), [Dormant Revival]({% link _journeys/dormant-revival-playbook.md %}), or [Sunset Saver]({% link _journeys/sunset-saver-playbook.md %}) depending on the inactivity window.
@@ -49,7 +49,7 @@ Check that:
 - The audience you want to reach has channel consent.
 - The channel, sender, or WhatsApp account is ready.
 - The birthday message or template is approved if the channel requires it.
-- If you include a coupon or gift, the offer rule is approved and works before launch.
+- If you include a coupon or ecommerce offer, it is approved and works before launch.
 - The audience excludes profiles that should not receive promotional messages.
 
 For setup validation, use [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %}). If you import profiles, see [Import customer profiles]({% link _audience/import-customer-profiles.md %}). For custom tracking, use [Tracking events]({% link _developers/tracking-events.md %}).
@@ -65,7 +65,7 @@ Available options can vary, but you usually review:
 - **Outgoing channels:** where Hellotext can send the greeting.
 - **Audience:** which profiles can receive the playbook.
 - **Message:** the birthday copy and variables it will use.
-- **Coupon or offer:** the approved coupon, gift, or incentive to include when relevant.
+- **Coupon or offer:** the approved coupon or existing ecommerce offer to include when relevant.
 - **Inbox replies:** how your team should review replies if the customer responds.
 
 You do not need to create a manual campaign for each date. The playbook depends on the profile's birthday signal and runs when the birthday matches the current day.
@@ -143,12 +143,12 @@ During the first days, review:
 
 - Which profiles created birthday events.
 - Which messages were sent, skipped, clicked, replied to, or purchased from.
-- Whether the coupon, link, or gift worked correctly.
+- Whether the coupon or link worked correctly.
 - Whether the tone felt natural for the brand.
 - Whether there were opt-outs, negative replies, or failed messages.
 - Whether Birthday Bash overlaps with campaigns, reactivation, or other retention playbooks.
 
-Tune one thing at a time: audience, channel, message, coupon, allowed timing, or handoff path.
+Tune one thing at a time: audience, channel, message, or coupon.
 
 ## Related guides
 

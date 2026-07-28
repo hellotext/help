@@ -57,14 +57,14 @@ For setup validation, use [Verify your data and signals after setup]({% link _in
 
 Open **Playbooks**, click **Explore playbooks**, and choose **Smart Recommender**.
 
-The available cards can vary, but you may be able to review:
+Smart Recommender includes:
 
 - **Upload documents:** product notes, FAQs, policies, size guides, payment instructions, or other approved context.
 - **Agent prompt:** what the recommender should do, how it should speak, what it can recommend, and when it should hand off.
 - **Incoming channels:** where the playbook can respond to product questions.
 - **Tone:** the voice used in replies.
 - **Escalation or assignment:** who should take over when a person is needed.
-- **Web search:** approved websites the agent can use when that option is available.
+- **Web search:** approved websites the agent can use for the recommendation mission.
 
 Keep automatic channel selection unless you have a clear reason to limit the playbook. Some recommendation formats work better in rich channels, while others may need simpler links or text.
 

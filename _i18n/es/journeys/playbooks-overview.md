@@ -4,7 +4,7 @@ Un playbook es un sistema reutilizable entrenado para una misión de negocio. Le
 
 Si estás comparando playbooks con campañas e Inbox, empieza por [Cómo funciona Hellotext]({% link _getting-started/how-hellotext-works.md %}).
 
-Un playbook puede ser una misión autónoma, un agente de IA, una ruta, una campaña o una captura según el trabajo que realiza.
+Un playbook puede ser una misión autónoma, un agente de IA reactivo o una ruta con pasos definidos. Algunos flujos de captura o similares a campañas también pueden aparecer en Playbooks; las capturas y campañas tienen secciones propias en el Centro de Ayuda porque su configuración y forma de operar son distintas.
 
 Las señales pueden incluir carritos, navegación, compras, cambios de stock, cumpleaños, respuestas, propiedades del perfil de cliente y elegibilidad por canal.
 
@@ -63,7 +63,7 @@ Para playbooks de SMS, asegúrate de que tu cuenta tenga un remitente activo o c
 
 Empieza con una audiencia enfocada y revisa las primeras conversaciones antes de ampliar. Busca respuestas, expectativas no cubiertas, links rotos, problemas de timing y lugares donde una persona tuvo que intervenir.
 
-Usa lo aprendido para ajustar el prompt, tiempos, condiciones de ramas o textos de la plantilla. Para métricas de ingresos, conversión y derivación, usa [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %}).
+Usa lo aprendido para ajustar solo los controles que expone ese tipo de playbook: prompts en agentes; esperas, condiciones de ramas o textos de plantilla en rutas; y tono, estrategia de oferta o canales en playbooks autónomos de venta. Para métricas de ingresos, conversión y derivación, usa [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %}).
 
 Para un proceso de edición más seguro, usa [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %}).
 

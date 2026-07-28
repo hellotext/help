@@ -57,7 +57,7 @@ For setup validation, use [Verify your data and signals after setup]({% link _in
 
 Open **Playbooks**, click **Explore playbooks**, and choose **AI Cart Saver**.
 
-The available cards can vary, but you may be able to review:
+AI Cart Saver exposes:
 
 - **Channels:** where Hellotext can send or continue the cart recovery conversation.
 - **Discount strategy:** whether the playbook follows existing ecommerce offer rules, can create AI-driven discounts up to a maximum percentage, or sends without discounts.
@@ -66,7 +66,7 @@ The available cards can vary, but you may be able to review:
 
 Keep automatic channel selection unless you have a clear reason to limit the playbook. Many cart recovery decisions depend on whether the customer can actually be reached in a channel and whether the message format is allowed there.
 
-Do not assume the playbook is missing something if it does not show prompt, intent, or route-step cards. Some prebuilt playbooks handle those decisions inside the playbook logic. If you are editing a custom agent or a route-style playbook, use [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %}).
+AI Cart Saver does not require you to configure a prompt, intents, or journey steps. Those controls belong to custom agents and journey routes.
 
 ## How it works with cart routes
 
@@ -126,7 +126,7 @@ During the first days, review:
 - Whether customers purchased before a follow-up was sent.
 - Conversion, revenue, opt-outs, handoff rate, and failed messages.
 
-Tune one thing at a time: discount strategy, tone, channel selection, handoff target, or the audience that should be eligible.
+Tune one thing at a time: discount strategy, tone, channel selection, or handoff target.
 
 ## Related guides
 

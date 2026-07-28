@@ -15,7 +15,7 @@ Puede:
 - Detectar perfiles del cliente cuyo cumpleaños coincide con el día y mes actuales.
 - Crear un evento de cumpleaños para iniciar el playbook cuando está activo.
 - Enviar un mensaje de cumpleaños con tono celebratorio.
-- Incluir un cupón, regalo o incentivo aprobado cuando la configuración de oferta lo permite.
+- Incluir un cupón aprobado o una oferta existente del ecommerce cuando el mensaje lo necesita.
 - Personalizar el mensaje con datos del perfil del cliente, como nombre o cumpleaños, si están disponibles.
 - Omitir perfiles cuando falta la fecha de cumpleaños, falta consentimiento, el canal no está listo o el perfil no puede ser alcanzado.
 
@@ -30,7 +30,7 @@ Encaja bien cuando:
 - Los perfiles del cliente tienen cumpleaños con día y mes.
 - El cumpleaños fue recopilado con consentimiento y una expectativa clara.
 - El mensaje se siente natural para la marca.
-- El negocio quiere ofrecer un saludo, beneficio o cupón especial sin crear una campaña manual cada día.
+- El negocio quiere ofrecer un saludo o cupón aprobado sin crear una campaña manual cada día.
 - Tu equipo quiere sumar un momento de retención que no dependa de inactividad o carrito.
 
 No lo uses para reactivar clientes que están fríos. Para eso usa [Reactivación Suave]({% link _journeys/soft-reactivation-playbook.md %}), [Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %}) o [Último Intento]({% link _journeys/sunset-saver-playbook.md %}) según el tiempo de inactividad.
@@ -49,7 +49,7 @@ Revisa que:
 - La audiencia que quieres alcanzar tenga consentimiento para el canal.
 - El canal, remitente o cuenta de WhatsApp esté listo.
 - El mensaje o plantilla de cumpleaños esté aprobado si el canal lo requiere.
-- Si vas a incluir un cupón o regalo, la regla de oferta esté aprobada y funcione antes del lanzamiento.
+- Si vas a incluir un cupón u oferta del ecommerce, esté aprobado y funcione antes del lanzamiento.
 - La audiencia excluya perfiles que no deberían recibir mensajes promocionales.
 
 Para validar la configuración, usa [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %}). Si importas perfiles, revisa [Importa perfiles del cliente]({% link _audience/import-customer-profiles.md %}). Para tracking personalizado, usa [Seguimiento de eventos]({% link _developers/tracking-events.md %}).
@@ -65,7 +65,7 @@ Las opciones disponibles pueden variar, pero normalmente revisas:
 - **Canales de salida:** dónde Hellotext puede enviar el saludo.
 - **Audiencia:** qué perfiles pueden recibir el playbook.
 - **Mensaje:** el texto de cumpleaños y las variables que usará.
-- **Cupón u oferta:** el cupón, regalo o incentivo aprobado que se incluirá si corresponde.
+- **Cupón u oferta:** el cupón aprobado o la oferta existente del ecommerce que se incluirá si corresponde.
 - **Respuestas en Inbox:** cómo debería revisar tu equipo las respuestas si el cliente contesta.
 
 No hace falta crear una campaña manual para cada fecha. El playbook depende de la señal de cumpleaños del perfil y se ejecuta cuando el cumpleaños coincide con el día actual.
@@ -143,12 +143,12 @@ Durante los primeros días, revisa:
 
 - Qué perfiles generaron eventos de cumpleaños.
 - Qué mensajes se enviaron, omitieron, recibieron clicks, recibieron respuestas o generaron compras.
-- Si el cupón, link o regalo funcionó correctamente.
+- Si el cupón o link funcionó correctamente.
 - Si el tono se sintió natural para la marca.
 - Si hubo bajas, respuestas negativas o mensajes fallidos.
 - Si Celebra su Cumpleaños se superpone con campañas, reactivación u otros playbooks de retención.
 
-Ajusta una cosa por vez: audiencia, canal, mensaje, cupón, timing permitido o camino de derivación.
+Ajusta una cosa por vez: audiencia, canal, mensaje o cupón.
 
 ## Guías relacionadas
 

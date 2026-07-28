@@ -29,7 +29,6 @@ Usa primero un camino de captura:
 - Formulario web o popup para visitantes que ya están en tu sitio.
 - [Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %}) para visitantes que quieren hacer preguntas desde el sitio.
 - Opt-in de checkout cuando los clientes ya están comprando.
-- Impulsor de suscriptores o recolector de datos si tu cuenta tiene esos playbooks disponibles.
 
 Logro esperado: más perfiles de cliente alcanzables y consentimiento más limpio para futuros playbooks y campañas.
 

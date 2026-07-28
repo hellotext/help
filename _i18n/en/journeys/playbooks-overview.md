@@ -4,7 +4,7 @@ A playbook is a repeatable system trained for a business mission. It reads signa
 
 If you are comparing playbooks with campaigns and the Inbox, start with [How Hellotext works]({% link _getting-started/how-hellotext-works.md %}).
 
-A playbook can be an autonomous mission, an AI agent, a journey route, a campaign, or a capture depending on the job it performs.
+A playbook can be an autonomous mission, a reactive AI agent, or a journey route with defined steps. Some capture or campaign-like workflows can also appear in Playbooks; captures and campaigns have dedicated Help Center sections because their setup and operating models are different.
 
 Signals can include carts, browsing activity, purchases, stock changes, birthdays, replies, customer profile properties, and channel eligibility.
 
@@ -63,7 +63,7 @@ For SMS playbooks, make sure your account has an active sender or short code ava
 
 Start with a focused audience and review the first conversations before expanding. Look for replies, missed expectations, broken links, timing issues, and places where a human had to step in.
 
-Use what you learn to adjust the prompt, timing, branch conditions, or template copy. For revenue, conversion, and handoff metrics, use [Playbook reporting]({% link _analytics-reporting-attribution/playbook-reporting.md %}).
+Use what you learn to adjust only the controls that playbook type exposes: prompts for agents; waits, branch conditions, or template copy for routes; and tone, offer strategy, or channels for autonomous sales playbooks. For revenue, conversion, and handoff metrics, use [Playbook reporting]({% link _analytics-reporting-attribution/playbook-reporting.md %}).
 
 For a safer editing process, use [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %}).
 

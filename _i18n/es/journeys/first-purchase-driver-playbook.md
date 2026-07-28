@@ -61,18 +61,14 @@ Después de activar el playbook, usa los reportes automáticos para revisar mens
 
 Abre **Playbooks**, haz click en **Explorar playbooks** y elige **Impulsor de Primera Compra**.
 
-Las tarjetas disponibles pueden variar, pero el playbook puede mostrar:
+El playbook maneja automáticamente la elegibilidad para primera compra y el momento del seguimiento. Según el despliegue de tu cuenta, revisa las tarjetas que expone para:
 
-- **Timing del recordatorio:** cuándo hacer seguimiento después del registro si el cliente todavía no tiene pedidos.
 - **Estrategia de descuento:** si el playbook sigue las reglas de oferta del ecommerce, puede crear descuentos con IA hasta un porcentaje máximo o envía sin descuentos.
-- **Destacado de nuevos productos:** si hay un bloque recurrente de productos nuevos para clientes que todavía no compraron.
 - **Canales:** dónde Hellotext puede enviar o continuar la conversación.
 - **Tono o feedback en Playground:** cómo deberían aprender los seguimientos generados qué encaja con tu negocio.
 - **Derivación o asignación:** quién debería tomar la conversación cuando una respuesta necesita una persona.
 
 Mantén la selección automática de canales salvo que tengas una razón clara para limitar el playbook. Impulsor de Primera Compra depende de si el cliente realmente puede ser alcanzado y si el formato del mensaje está permitido en el canal.
-
-No asumas que al playbook le falta algo si no muestra tarjetas de prompt, intenciones o pasos de ruta. Algunos playbooks preconstruidos manejan esas decisiones dentro de la lógica del playbook. Si necesitas un agente conversacional a medida con intenciones manuales, usa [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %}).
 
 ## Cómo funciona el disparador
 
@@ -134,7 +130,7 @@ Usa perfiles del cliente de prueba que tengan consentimiento de canal, luego:
 - Crea o identifica un nuevo perfil suscrito sin pedidos.
 - Confirma que el registro, opt-in o fuente de captura aparezca en el perfil del cliente.
 - Confirma que el perfil no tenga compras completadas.
-- Prueba si el timing del recordatorio se comporta como esperas para tu despliegue.
+- Confirma que el perfil quede elegible para Impulsor de Primera Compra.
 - Prueba un cliente que se registra y luego compra antes del recordatorio, lo que debería evitar el seguimiento de primera compra.
 - Prueba un cliente que agrega al carrito o empieza checkout, donde recuperación de carrito normalmente debería tomar el control.
 - Prueba un cliente que no es elegible para el canal.
@@ -173,7 +169,7 @@ Durante los primeros días, revisa:
 - Si Impulsor de Primera Compra se superpone con Recuperación de Navegación o recuperación de carrito.
 - Si los clientes hacen preguntas que deberían ir a Recomendador Inteligente o al Inbox.
 
-Ajusta una cosa por vez: audiencia, canal, timing, mensaje, estrategia de descuento, contexto de producto o camino de derivación.
+Ajusta una cosa por vez: audiencia, canal, mensaje, estrategia de descuento, contexto de producto o camino de derivación.
 
 ## Guías relacionadas
 

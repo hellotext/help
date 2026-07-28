@@ -1,6 +1,6 @@
 Your first playbook should prove one clear business outcome before you expand.
 
-In Hellotext, a playbook can be a prebuilt mission, an AI agent, a journey route, a campaign, or a capture depending on the job it performs. Start with the simplest option that can deliver the outcome and teach you something useful.
+In Hellotext, a playbook can be an autonomous prebuilt mission, a reactive AI agent, or a journey route with defined steps. Some capture or campaign-like workflows can also appear in Playbooks; this Help Center gives captures and campaigns dedicated sections because their setup and operating models are different. Start with the simplest option that can deliver the outcome and teach you something useful.
 
 ## Before you choose
 
@@ -26,7 +26,7 @@ After you choose the first option to launch, follow [How to enable a playbook]({
 
 | If your first goal is... | Start with... | Why |
 | --- | --- | --- |
-| Grow your reachable audience or website conversations | A capture such as [Webchat Widget]({% link _journeys/webchat-widget-playbook.md %}), QR code, shareable link, form, popup, or subscriber booster | You need customers to opt in or start a conversation before many playbooks, routes, or campaigns can perform well. |
+| Grow your reachable audience or website conversations | A capture such as [Webchat Widget]({% link _journeys/webchat-widget-playbook.md %}), QR code, shareable link, form, or popup | You need customers to opt in or start a conversation before many playbooks, routes, or campaigns can perform well. |
 | Recover carts | [Cart Saver route]({% link _journeys/cart-saver-route.md %}) or an AI cart saver playbook | Use a route when the follow-up should be predictable. Use an AI playbook when the experience should react to product context, customer intent, replies, or objections. |
 | Alert shoppers about products back in stock | [Back-in-Stock Pounce]({% link _journeys/back-in-stock-pounce.md %}) | Use this when customers asked to be notified about an unavailable product and your stock signals are reliable. |
 | Alert interested shoppers about a product price drop | [Price-Drop Pouncer]({% link _journeys/price-drop-pouncer.md %}) | Use this when catalog price changes are reliable and Hellotext can see recent product, cart, or recommendation interest. |
@@ -87,7 +87,7 @@ Review the first results before adding more automation.
 
 Look at replies, clicks, opt-outs, handoffs, failed messages, conversion, attributed revenue, and whether customers received the next step you expected.
 
-Then adjust one thing at a time: audience, trigger, timing, message, offer, prompt, or handoff rule. For a deeper read, use [Playbook reporting]({% link _analytics-reporting-attribution/playbook-reporting.md %}).
+Then adjust one thing at a time among the controls that option actually exposes, such as audience, route trigger or wait, message, offer strategy, agent prompt, or handoff rule. For a deeper read, use [Playbook reporting]({% link _analytics-reporting-attribution/playbook-reporting.md %}).
 
 ## Related guides
 

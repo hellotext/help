@@ -56,7 +56,7 @@ For setup validation, use [Verify your data and signals after setup]({% link _in
 
 Open **Playbooks**, click **Explore playbooks**, and choose **Order-Update Delight**.
 
-The available cards can vary, but you may be able to review:
+Order-Update Delight exposes:
 
 - **Incoming channels:** where the playbook can receive order-status questions.
 - **Outgoing channels:** where the playbook can send order-status replies or tracking CTAs.

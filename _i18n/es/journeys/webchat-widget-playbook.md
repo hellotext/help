@@ -65,7 +65,7 @@ Para validar la configuración, usa [Verifica tus datos y señales después de c
 
 Abre **Playbooks**, haz click en **Explorar playbooks** y elige **Widget de Webchat**.
 
-Las tarjetas disponibles pueden variar, pero Widget de Webchat normalmente incluye:
+Widget de Webchat incluye:
 
 - **Apariencia:** color de marca, tipografía, lanzador, encabezado, colores de conversación, logo y marca Hellotext.
 - **Comportamiento:** ubicación, apertura por click o apertura automática, demora, comportamiento de primera visita y una vez por sesión.

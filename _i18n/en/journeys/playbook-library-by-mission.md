@@ -15,11 +15,8 @@ Common options include:
 - **Website Popup:** capture visitors at the right moment.
 - **Website Form:** collect leads and customer profile data.
 - **Shareable Link:** let customers opt in from anywhere.
-- **Subscriber Booster:** increase opt-ins with incentives or smarter triggers.
-- **Property Collector:** collect missing customer data through conversation.
-- **Welcome Booster:** welcome new subscribers after they opt in.
 
-These playbooks and captures usually depend on a connected channel, clear opt-in language, source tracking, and a route or playbook that handles the next step.
+These capture tools usually depend on a connected channel, clear opt-in language, and source tracking. The customer profiles and signals they create can then feed the next playbook, route, campaign, or Inbox conversation.
 
 Keep reading: [Capture tools overview]({% link _captures/capture-overview.md %}).
 
@@ -51,7 +48,7 @@ Common options include:
 - **[Soft Reactivation]({% link _journeys/soft-reactivation-playbook.md %}):** re-engage customers with recent inactivity, around 30 days without meaningful activity.
 - **[Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}):** suggest related products after interest or purchase.
 - **[Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}):** remind customers to reorder when they may be running out.
-- **[Birthday Bash]({% link _journeys/birthday-bash-playbook.md %}):** send a greeting, gift, or approved coupon when the customer profile has a birthday.
+- **[Birthday Bash]({% link _journeys/birthday-bash-playbook.md %}):** send a greeting or approved coupon when the customer profile has a birthday.
 - **[Anniversary Surprise]({% link _journeys/anniversary-surprise-playbook.md %}):** celebrate purchase, relationship, or reliable custom-date anniversaries.
 
 These playbooks usually depend on purchase history, product timing, loyalty or profile data, and clear rules for how often customers should hear from you.
@@ -73,13 +70,7 @@ In this family, Hellotext also looks for the most cost-efficient available chann
 
 Start here when the message is tied to a launch, promotion, holiday, inventory moment, or one-time announcement.
 
-Common options include:
-
-- **Holiday Hype:** run seasonal campaigns around local commercial moments.
-- **Launch Teaser:** build anticipation before a product launch.
-- **Clearance Clean-out:** move overstock with urgency tied to inventory.
-- **Classic Broadcast:** send one intentional message to a selected audience.
-- **AI Personalized Broadcast:** personalize a broader send when AI-assisted variation is appropriate.
+These planned moments normally belong in Campaigns unless your account exposes a specific playbook for the job. Common workflows include seasonal promotions, product launches, inventory or clearance announcements, classic broadcasts, and AI-personalized broadcasts when that option is available in your account.
 
 Use a campaign when the send should happen once to a selected audience. Use a playbook when the system should keep reacting to customer signals over time.
 
@@ -128,14 +119,14 @@ If you are unsure where to start, choose the mission that matches the first bott
 
 | If the bottleneck is... | Start with... |
 | --- | --- |
-| Not enough reachable customers | Captures, Subscriber Booster, Property Collector, or Welcome Booster |
+| Not enough reachable customers | QR codes, website forms or popups, shareable links, or [Webchat Widget]({% link _journeys/webchat-widget-playbook.md %}) |
 | Customers abandon carts | [Cart Saver]({% link _journeys/cart-saver-route.md %}) or [AI Cart Saver]({% link _journeys/ai-cart-saver-playbook.md %}) |
 | Shoppers are waiting for unavailable products | [Back-in-Stock Pounce]({% link _journeys/back-in-stock-pounce.md %}) |
 | Shoppers showed interest before a meaningful price drop | [Price-Drop Pouncer]({% link _journeys/price-drop-pouncer.md %}) |
 | Visitors browse but do not buy | [First-Purchase Driver]({% link _journeys/first-purchase-driver-playbook.md %}), [Browse Recovery]({% link _journeys/browse-recovery-playbook.md %}), [Complete-the-Look]({% link _journeys/complete-the-look-playbook.md %}), or [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}) |
 | Buyers do not return | [Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}), [Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}), [Birthday Bash]({% link _journeys/birthday-bash-playbook.md %}), [Anniversary Surprise]({% link _journeys/anniversary-surprise-playbook.md %}), or [Soft Reactivation]({% link _journeys/soft-reactivation-playbook.md %}) |
 | Customers have gone cold | [Dormant Revival]({% link _journeys/dormant-revival-playbook.md %}) or [Sunset Saver]({% link _journeys/sunset-saver-playbook.md %}) |
-| You have a timed announcement | Classic Broadcast, Holiday Hype, Launch Teaser, or Clearance Clean-out |
+| You have a timed announcement | A campaign or broadcast |
 | Support work is repetitive | [Instant Answers]({% link _journeys/instant-answers-playbook.md %}), [Order-Update Delight]({% link _journeys/order-update-playbook.md %}), [Return & Exchange Helper]({% link _journeys/return-and-exchange-helper-playbook.md %}), [Order Cancellation Assistant]({% link _journeys/order-cancellation-assistant-playbook.md %}), or [CSAT Pulse]({% link _journeys/csat-pulse-playbook.md %}) |
 | You need product reviews | [Review Builder]({% link _journeys/review-builder-playbook.md %}) |
 | You need loyalty feedback after delivery | [NPS Pulse]({% link _journeys/nps-pulse-playbook.md %}) |

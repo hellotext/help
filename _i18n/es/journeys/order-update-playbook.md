@@ -56,7 +56,7 @@ Para validar la configuración, usa [Verifica tus datos y señales después de c
 
 Abre **Playbooks**, haz click en **Explorar playbooks** y elige **Seguimiento de Pedidos**.
 
-Las tarjetas disponibles pueden variar, pero podrías revisar:
+Seguimiento de Pedidos expone:
 
 - **Canales de entrada:** dónde el playbook puede recibir preguntas de estado de pedido.
 - **Canales de salida:** dónde el playbook puede enviar respuestas de estado o CTAs de tracking.
