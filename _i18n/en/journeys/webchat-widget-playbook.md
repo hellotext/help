@@ -65,7 +65,7 @@ For setup validation, use [Verify your data and signals after setup]({% link _in
 
 Open **Playbooks**, click **Explore playbooks**, and choose **Webchat Widget**.
 
-The available cards can vary, but Webchat Widget commonly includes:
+Webchat Widget includes:
 
 - **Appearance:** brand color, typography, launcher, header, conversation colors, logo, and Hellotext branding.
 - **Behavior:** placement, click-to-open or automatic opening, delay, first-visit behavior, and once-per-session behavior.

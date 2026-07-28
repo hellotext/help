@@ -40,7 +40,7 @@ El objetivo es que cada acción sea más relevante que enviar el mismo mensaje a
 
 Los playbooks son sistemas repetibles para misiones de negocio como recuperación de carritos, primera compra, recompra, reactivación, recomendaciones de producto, reseñas, feedback de lealtad, seguimiento de pedidos, solicitudes de cancelación y soporte.
 
-Un playbook puede ser una misión preconstruida, un agente de IA, una ruta, una campaña o una captura según el trabajo que realiza.
+Un playbook puede ser una misión preconstruida autónoma, un agente de IA reactivo o una ruta con pasos definidos. Algunos flujos de captura o similares a campañas también pueden aparecer en Playbooks; las capturas y campañas tienen secciones propias en el Centro de Ayuda porque su configuración y forma de operar son distintas.
 
 ### Inbox y conversaciones
 

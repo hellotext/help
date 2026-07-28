@@ -71,7 +71,7 @@ Para validar la configuración, usa [Verifica tus datos y señales después de c
 
 Abre **Playbooks**, haz click en **Explorar playbooks** y elige **Agente Personalizado**.
 
-Las tarjetas disponibles pueden variar, pero podrías revisar:
+Agente Personalizado expone:
 
 - **Intenciones:** necesidades o frases del cliente que deberían activar el agente.
 - **Prompt del agente:** misión, instrucciones, límites, guía de tono y reglas de derivación.

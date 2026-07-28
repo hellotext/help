@@ -29,7 +29,6 @@ Usa primero un camino de captura:
 - Formulario web o popup para visitantes que ya están en tu sitio.
 - [Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %}) para visitantes que quieren hacer preguntas desde el sitio.
 - Opt-in de checkout cuando los clientes ya están comprando.
-- Impulsor de suscriptores o recolector de datos si tu cuenta tiene esos playbooks disponibles.
 
 Logro esperado: más perfiles de cliente alcanzables y consentimiento más limpio para futuros playbooks y campañas.
 
@@ -52,7 +51,9 @@ Opciones útiles pueden incluir:
 - [Impulsor de Primera Compra]({% link _journeys/first-purchase-driver-playbook.md %}) para nuevos suscriptores que todavía no compraron.
 - [Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}) para clientes que vieron productos pero no agregaron al carrito.
 - [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) cuando el contexto de producto e inventario es sólido.
+- [Completa el Look]({% link _journeys/complete-the-look-playbook.md %}) cuando compradores eligieron o vieron productos que tienen ítems que combinan claramente.
 - [Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %}) o [Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %}) cuando tienes suficiente historial de pedidos.
+- [Reactivación Suave]({% link _journeys/soft-reactivation-playbook.md %}) cuando clientes existentes empiezan a enfriarse, pero todavía no están completamente inactivos.
 - [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) cuando las señales de pedido entregado son confiables y quieres reseñas de productos.
 - [Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}) cuando las señales de pedido entregado son confiables y quieres medir lealtad después de que el cliente ya vivió la experiencia con el producto.
 
@@ -86,6 +87,8 @@ Logro esperado: entender qué productos y experiencias de entrega generan buen f
 Si tienes una audiencia clara, un mensaje y un momento de envío planificado, usa una campaña.
 
 Si los clientes pidieron aviso por un producto específico que no estaba disponible, usa [Vuelta a Stock]({% link _journeys/back-in-stock-pounce.md %}) en lugar de una campaña amplia.
+
+Si los clientes ya mostraron interés en un producto y el producto bajó de precio de forma relevante para ellos, usa [Alerta de Baja de Precio]({% link _journeys/price-drop-pouncer.md %}) en lugar de una campaña amplia de descuentos.
 
 Buenas primeras campañas incluyen:
 

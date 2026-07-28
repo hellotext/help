@@ -30,7 +30,7 @@ Cada agente en Hellotext puede realizar una amplia gama de acciones de forma aut
 
 También puede buscar en URLs o documentos que adjuntes —como una sección de preguntas frecuentes, una guía de políticas o un manual de producto—, de modo que siempre responda con información verificada en lugar de adivinar.
 
-Los agentes pueden recopilar y guardar cualquier propiedad de perfil de cliente que elijas, desde el nombre y la ciudad hasta la talla o los intereses preferidos. También pueden decidir cuándo escalar una conversación a un humano, siguiendo las reglas de derivación que definas.
+Los agentes pueden recopilar y guardar cualquier propiedad de perfil de cliente que elijas, desde el nombre y la ciudad hasta la talla o los intereses preferidos. También pueden decidir cuándo derivar una conversación a una persona, siguiendo las reglas de derivación que definas.
 
 Y, lo más importante, cada mensaje que envían pasa por los controles de privacidad y tono de Hellotext, garantizando una voz de marca coherente y el cumplimiento normativo en todos los canales.
 
@@ -70,7 +70,7 @@ Esta información le da al agente un punto de referencia para fundamentar sus re
 
 Termina estableciendo qué puede y qué no puede hacer el agente. Piensa en esto como su código de conducta.
 
-Indica cuándo debe pedir más información, cuándo debe detenerse y cuándo debe escalar a un humano.
+Indica cuándo debe pedir más información, cuándo debe detenerse y cuándo debe derivar a una persona.
 
 > Astra debe saludar siempre al visitante por su nombre, si está disponible, y hacer una pregunta por vez para entender la ocasión o la preferencia.
 >
@@ -94,7 +94,7 @@ Si quieres que el agente recopile o actualice datos de perfil durante las conver
 “Cada vez que un cliente mencione su ciudad o talla, guarda esa información automáticamente en su perfil.”
 
 También puedes darle instrucciones sobre cómo manejar las derivaciones:
-“Si el cliente expresa insatisfacción o menciona un reembolso, escala el caso al equipo humano ‘Devoluciones’.”
+“Si el cliente expresa insatisfacción o menciona un reembolso, deriva el caso al equipo ‘Devoluciones’.”
 
 Detrás de escena, el Supervisor de Hellotext enruta estas intenciones —ya sean recomendaciones de producto, preguntas de soporte o actualizaciones de perfil— hacia los agentes correspondientes definidos en tu espacio de trabajo.
 

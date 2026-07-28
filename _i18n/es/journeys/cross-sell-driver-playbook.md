@@ -59,10 +59,13 @@ Después de activar el playbook, usa los reportes automáticos para revisar env�
 
 Abre **Playbooks**, haz click en **Explorar playbooks** y elige **Impulsor de Ventas Cruzadas**.
 
-El playbook permite configurar el alcance de productos y las reglas de recomendación. Según la cuenta, también puede mostrar tarjetas para descuentos, canales, tono o derivación:
+El playbook expone el alcance de productos y las reglas de recomendación:
 
 - **Alcance de productos:** qué productos, colecciones, categorías o familias pueden iniciar o recibir recomendaciones de venta cruzada.
 - **Reglas de recomendación:** relaciones de producto, exclusiones o reglas de merchandising que deberían guiar los productos sugeridos.
+
+Según el despliegue de la cuenta, también puede mostrar tarjetas para:
+
 - **Estrategia de descuento:** si el mensaje sigue las reglas de oferta del ecommerce, puede usar descuentos con IA hasta un porcentaje máximo o envía sin descuentos.
 - **Canales:** dónde Hellotext puede enviar o continuar la conversación.
 - **Tono o feedback en Playground:** cómo deberían aprender los seguimientos generados qué encaja con tu negocio.
@@ -70,7 +73,7 @@ El playbook permite configurar el alcance de productos y las reglas de recomenda
 
 Mantén la selección automática de canales salvo que tengas una razón clara para limitar el playbook. Impulsor de Ventas Cruzadas depende de si el cliente puede ser alcanzado cuando la sugerencia complementaria todavía es relevante.
 
-Algunas opciones se manejan automáticamente o pueden no estar disponibles en todas las cuentas. Si no ves un control, prueba el playbook con un perfil realista antes de asumir que necesitas recrear el flujo manualmente. Si necesitas un flujo a medida o un agente de IA personalizado, usa [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %}) o una ruta personalizada.
+Hellotext maneja automáticamente la elegibilidad del cliente, el momento del envío y los reportes. El alcance de productos y las reglas de recomendación siguen siendo controles directos para decidir qué productos participan y cómo se eligen los complementos.
 
 ## Cómo se eligen las recomendaciones
 
@@ -176,7 +179,7 @@ Durante los primeros días, revisa:
 - Si los descuentos aumentan compras complementarias o solo reducen margen.
 - Si Impulsor de Ventas Cruzadas se superpone con Recomendador Inteligente, Impulsor de Recompra, recuperación de carrito o campañas.
 
-Ajusta una cosa por vez: alcance de productos, reglas de recomendación, mensaje y, cuando estén disponibles, estrategia de descuento, canal o camino de derivación.
+Ajusta una cosa por vez: alcance de productos, reglas de recomendación y, cuando esas tarjetas estén presentes, estrategia de descuento, canal, tono o camino de derivación.
 
 ## Guías relacionadas
 

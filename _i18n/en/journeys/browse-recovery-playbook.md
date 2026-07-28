@@ -59,7 +59,7 @@ After launch, use the automatically generated reports to review views, sends, cl
 
 Open **Playbooks**, click **Explore playbooks**, and choose **Browse Recovery**.
 
-The available cards can vary, but you may be able to review:
+Browse Recovery exposes:
 
 - **Channels:** where Hellotext can send or continue the browse recovery conversation.
 - **Tone or Playground feedback:** how the generated follow-ups should learn what fits your business.
@@ -68,7 +68,7 @@ The available cards can vary, but you may be able to review:
 
 Keep automatic channel selection unless you have a clear reason to limit the playbook. Browse Recovery depends on whether the customer can actually be reached and whether the message format is allowed in the channel.
 
-Do not assume the playbook is missing something if it does not show prompt, intent, or route-step cards. Some prebuilt playbooks handle those decisions inside the playbook logic. If you need a custom conversational agent with manual intents, use [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %}).
+Browse Recovery does not require you to configure a prompt, intents, or journey steps. Those controls belong to custom agents and journey routes.
 
 ## How the trigger works
 
@@ -168,7 +168,7 @@ During the first days, review:
 - Whether Browse Recovery is overlapping with cart recovery.
 - Whether customers ask questions that should go to Smart Recommender or the Inbox.
 
-Tune one thing at a time: audience, channel, message, discount strategy, timing, or handoff path.
+Tune one thing at a time: channel, discount strategy, tone, Playground feedback, or handoff path.
 
 ## Related guides
 

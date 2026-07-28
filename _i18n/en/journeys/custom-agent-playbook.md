@@ -71,7 +71,7 @@ For setup validation, use [Verify your data and signals after setup]({% link _in
 
 Open **Playbooks**, click **Explore playbooks**, and choose **Custom Agent**.
 
-The available cards can vary, but you may be able to review:
+Custom Agent exposes:
 
 - **Intents:** the customer needs or phrases that should activate the agent.
 - **Agent prompt:** the agent's mission, instructions, boundaries, tone guidance, and escalation rules.

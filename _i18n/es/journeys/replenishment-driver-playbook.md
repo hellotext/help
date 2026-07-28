@@ -16,7 +16,6 @@ Puede:
 - Aprender del ciclo propio del cliente cuando hay suficiente historial.
 - Programar un recordatorio cerca de la ventana estimada de reposición.
 - Incluir un link de recompra, link de producto o descuento cuando esas opciones están disponibles y configuradas.
-- Enviar tips de producto o cuidado después de la compra cuando ese bloque está disponible.
 - Omitir, esperar o detenerse cuando el cliente ya recompró, el producto no es elegible, otro playbook es mejor dueño del momento o el cliente no puede ser alcanzado.
 
 La experiencia exacta puede variar según cuenta, tienda conectada, canal, plantillas disponibles y estado de despliegue del playbook.
@@ -60,18 +59,15 @@ Después de activar el playbook, usa los reportes automáticos para revisar reco
 
 Abre **Playbooks**, haz click en **Explorar playbooks** y elige **Impulsor de Recompra**.
 
-Las tarjetas disponibles pueden variar, pero el playbook puede mostrar:
+El playbook expone las configuraciones que controlan cómo se comunica:
 
-- **Ventana de uso:** cuántos días suele durar un producto, SKU o familia de producto.
-- **Elegibilidad de producto:** qué productos, categorías o familias deberían incluirse o excluirse.
 - **Estrategia de descuento:** si el recordatorio sigue las reglas de oferta del ecommerce, puede usar descuentos con IA hasta un porcentaje máximo o envía sin descuentos.
 - **Canales:** dónde Hellotext puede enviar o continuar la conversación.
 - **Tono o feedback en Playground:** cómo deberían aprender los seguimientos generados qué encaja con tu negocio.
-- **Derivación o asignación:** quién debería tomar la conversación cuando una respuesta necesita una persona.
 
 Mantén la selección automática de canales salvo que tengas una razón clara para limitar el playbook. Impulsor de Recompra depende de si el cliente realmente puede ser alcanzado cuando llega la ventana de reposición.
 
-Algunas opciones se manejan automáticamente o pueden no estar disponibles en todas las cuentas. Si no ves un control, prueba el playbook con un perfil realista antes de asumir que necesitas recrear el flujo manualmente. Si necesitas un flujo a medida o un agente de IA personalizado, usa [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %}) o una ruta personalizada.
+La duración de uso y la elegibilidad para recompra provienen de los datos de producto, el historial de compras y el análisis interno de Hellotext. Son datos de entrada para la decisión, no controles para programar manualmente el recordatorio dentro del playbook.
 
 ## Cómo funciona el timing
 
@@ -84,7 +80,7 @@ Hellotext puede usar varios niveles de señal:
 - Comportamiento promedio de recompra de clientes que compraron el mismo producto.
 - El patrón propio de recompra del cliente cuando hay suficiente historial.
 
-Luego el playbook puede programar un recordatorio antes del punto estimado de reposición. La configuración de referencia de este playbook incluye un recordatorio antes del agotamiento estimado y tips opcionales después de la compra. El timing exacto y los controles disponibles pueden variar según cuenta y despliegue.
+Luego el playbook calcula cuándo tiene sentido enviar antes del punto estimado de reposición. Hellotext maneja ese timing automáticamente en lugar de pedirte que programes cada recordatorio.
 
 Antes de enviar, Hellotext también puede considerar:
 
@@ -124,7 +120,6 @@ Cuando revises ejemplos, mira:
 - Si el mensaje suena como un recordatorio útil de reposición, no como presión.
 - Si el texto dice que el cliente podría estar por quedarse sin producto en lugar de afirmarlo con certeza.
 - Si producto, cantidad, link y descuento son relevantes.
-- Si el timing se siente natural para la ventana de uso del producto.
 - Si las respuestas pueden continuar naturalmente en el canal o llegar al Inbox cuando hace falta.
 
 Mientras más realistas sean los ejemplos del Playground, más fácil es entrenar al sistema sobre cómo se ve un buen mensaje para tu tienda.
@@ -138,12 +133,12 @@ Usa perfiles del cliente de prueba que tengan consentimiento de canal, luego:
 - Crea un pedido de prueba con un producto reponible.
 - Confirma que el pedido y el producto aparezcan en el perfil del cliente.
 - Confirma que el producto tenga una ventana de uso, valor por defecto de familia o suficiente historial de compra para estimarla.
-- Revisa el timing del recordatorio programado para ese producto.
+- Confirma que el pedido y el producto creen una oportunidad elegible de recompra.
 - Prueba un cliente que recompra antes del recordatorio, lo que debería evitar o actualizar el seguimiento de reposición.
 - Prueba un producto no reponible que debería quedar excluido.
 - Prueba un cliente que no es elegible para el canal.
-- Revisa links de recompra, links de producto, descuentos, consejos y atribución.
-- Envía una respuesta realista y confirma que llegue a la persona o equipo correcto si hay derivación disponible.
+- Revisa links de recompra, links de producto, descuentos y atribución.
+- Envía una respuesta realista y confirma que la conversación resultante aparezca en el Inbox.
 
 Si el tracking es personalizado, confirma también que eventos de compra, identificadores de producto, cantidades, timestamps e identificadores del cliente coincidan con lo que Hellotext espera.
 
@@ -177,7 +172,7 @@ Durante los primeros días, revisa:
 - Si los descuentos aumentan recompras o solo reducen margen.
 - Si Impulsor de Recompra se superpone con [Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %}), reactivación o campañas.
 
-Ajusta una cosa por vez cuando el playbook exponga ese control: elegibilidad de producto, ventana de uso, mensaje, estrategia de descuento, canal o camino de derivación.
+Ajusta una cosa por vez: datos de producto, estrategia de descuento, canal, tono o feedback en Playground.
 
 ## Guías relacionadas
 

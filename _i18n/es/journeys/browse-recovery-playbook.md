@@ -59,7 +59,7 @@ Después de activar el playbook, usa los reportes automáticos para revisar vist
 
 Abre **Playbooks**, haz click en **Explorar playbooks** y elige **Recuperación de Navegación**.
 
-Las tarjetas disponibles pueden variar, pero podrías revisar:
+Recuperación de Navegación expone:
 
 - **Canales:** dónde Hellotext puede enviar o continuar la conversación de recuperación de navegación.
 - **Tono o feedback en Playground:** cómo deberían aprender los seguimientos generados qué encaja con tu negocio.
@@ -68,7 +68,7 @@ Las tarjetas disponibles pueden variar, pero podrías revisar:
 
 Mantén la selección automática de canales salvo que tengas una razón clara para limitar el playbook. Recuperación de Navegación depende de si el cliente realmente puede ser alcanzado y si el formato del mensaje está permitido en el canal.
 
-No asumas que al playbook le falta algo si no muestra tarjetas de prompt, intenciones o pasos de ruta. Algunos playbooks preconstruidos manejan esas decisiones dentro de la lógica del playbook. Si necesitas un agente conversacional a medida con intenciones manuales, usa [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %}).
+Recuperación de Navegación no requiere configurar un prompt, intenciones ni pasos de ruta. Esos controles pertenecen a agentes personalizados y rutas.
 
 ## Cómo funciona el disparador
 
@@ -168,7 +168,7 @@ Durante los primeros días, revisa:
 - Si Recuperación de Navegación se superpone con recuperación de carrito.
 - Si los clientes hacen preguntas que deberían ir a Recomendador Inteligente o al Inbox.
 
-Ajusta una cosa por vez: audiencia, canal, mensaje, estrategia de descuento, timing o camino de derivación.
+Ajusta una cosa por vez: canal, estrategia de descuento, tono, feedback en Playground o camino de derivación.
 
 ## Guías relacionadas
 

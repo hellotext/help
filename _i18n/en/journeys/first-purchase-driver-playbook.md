@@ -61,18 +61,14 @@ After launch, use the automatically generated reports to review queued, sent, sk
 
 Open **Playbooks**, click **Explore playbooks**, and choose **First-Purchase Driver**.
 
-The available cards can vary, but the playbook may expose:
+The playbook handles first-purchase eligibility and follow-up timing automatically. Depending on your account rollout, review the cards it exposes for:
 
-- **Reminder timing:** when to follow up after signup if the customer still has no order.
 - **Discount strategy:** whether the playbook follows existing ecommerce offer rules, can create AI-driven discounts up to a maximum percentage, or sends without discounts.
-- **New-arrival spotlight:** whether a recurring product highlight is available for customers who have not bought yet.
 - **Channels:** where Hellotext can send or continue the conversation.
 - **Tone or Playground feedback:** how generated follow-ups should learn what fits your business.
 - **Escalation or assignment:** who should take over when a reply needs a person.
 
 Keep automatic channel selection unless you have a clear reason to limit the playbook. First-Purchase Driver depends on whether the customer can actually be reached and whether the message format is allowed in the channel.
-
-Do not assume the playbook is missing something if it does not show prompt, intent, or route-step cards. Some prebuilt playbooks handle those decisions inside the playbook logic. If you need a custom conversational agent with manual intents, use [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %}).
 
 ## How the trigger works
 
@@ -134,7 +130,7 @@ Use test customer profiles that have channel consent, then:
 - Create or identify a new subscribed profile with no orders.
 - Confirm the signup, opt-in, or capture source appears on the customer profile.
 - Confirm the profile has no completed purchase.
-- Test whether the reminder timing behaves as expected for your rollout.
+- Confirm the profile becomes eligible for First-Purchase Driver.
 - Test a customer who signs up and then buys before the reminder, which should prevent the first-purchase follow-up.
 - Test a customer who adds to cart or starts checkout, where cart recovery should usually take over.
 - Test a customer who is not eligible for the channel.
@@ -173,7 +169,7 @@ During the first days, review:
 - Whether First-Purchase Driver overlaps with Browse Recovery or cart recovery.
 - Whether customers ask questions that should go to Smart Recommender or the Inbox.
 
-Tune one thing at a time: audience, channel, timing, message, discount strategy, product context, or handoff path.
+Tune one thing at a time: audience, channel, message, discount strategy, product context, or handoff path.
 
 ## Related guides
 

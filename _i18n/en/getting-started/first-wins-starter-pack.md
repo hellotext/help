@@ -29,7 +29,6 @@ Use one capture path first:
 - Website form or popup for visitors already on your site.
 - [Webchat Widget]({% link _journeys/webchat-widget-playbook.md %}) for visitors who want to ask questions from the site.
 - Checkout opt-in when customers are already buying.
-- Subscriber Booster or Property Collector if your account has those playbooks available.
 
 Expected win: more reachable customer profiles and cleaner consent for future playbooks and campaigns.
 
@@ -52,7 +51,9 @@ Useful options can include:
 - [First-Purchase Driver]({% link _journeys/first-purchase-driver-playbook.md %}) for new subscribers who have not bought yet.
 - [Browse Recovery]({% link _journeys/browse-recovery-playbook.md %}) for customers who viewed products but did not add to cart.
 - [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}) when product and inventory context are strong.
+- [Complete-the-Look]({% link _journeys/complete-the-look-playbook.md %}) when shoppers picked or viewed products that have clear matching items.
 - [Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}) or [Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}) when you have enough order history.
+- [Soft Reactivation]({% link _journeys/soft-reactivation-playbook.md %}) when existing customers are starting to go quiet but are not fully dormant.
 - [Review Builder]({% link _journeys/review-builder-playbook.md %}) when delivered-order signals are reliable and you want product reviews.
 - [NPS Pulse]({% link _journeys/nps-pulse-playbook.md %}) when delivered-order signals are reliable and you want loyalty feedback after customers have had the product experience.
 
@@ -86,6 +87,8 @@ Expected win: learn which products and delivery experiences create strong feedba
 If you have one clear audience, one message, and one planned send time, use a campaign instead.
 
 If customers asked to be notified about a specific unavailable product, use [Back-in-Stock Pounce]({% link _journeys/back-in-stock-pounce.md %}) instead of a broad campaign.
+
+If customers already showed interest in a product and the product became meaningfully cheaper for them, use [Price-Drop Pouncer]({% link _journeys/price-drop-pouncer.md %}) instead of a broad sale campaign.
 
 Good first campaigns include:
 

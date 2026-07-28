@@ -1,6 +1,6 @@
 Tu primer playbook debería validar un objetivo de negocio claro antes de ampliar.
 
-En Hellotext, un playbook puede ser una misión preconstruida, un agente de IA, una ruta, una campaña o una captura según el trabajo que realiza. Empieza con la opción más simple que pueda lograr el objetivo y darte aprendizaje útil.
+En Hellotext, un playbook puede ser una misión preconstruida autónoma, un agente de IA reactivo o una ruta con pasos definidos. Algunos flujos de captura o similares a campañas también pueden aparecer en Playbooks; este Centro de Ayuda les da secciones propias a capturas y campañas porque su configuración y forma de operar son distintas. Empieza con la opción más simple que pueda lograr el objetivo y darte aprendizaje útil.
 
 ## Antes de elegir
 
@@ -26,11 +26,14 @@ Después de elegir la primera opción para lanzar, sigue [Cómo habilitar un pla
 
 | Si tu primer objetivo es... | Empieza con... | Por qué |
 | --- | --- | --- |
-| Crecer tu audiencia alcanzable o conversaciones desde el sitio | Una captura como [Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %}), código QR, link compartible, formulario, popup o impulsor de suscriptores | Necesitas que los clientes se suscriban o inicien una conversación antes de que muchos playbooks, rutas o campañas puedan rendir bien. |
+| Crecer tu audiencia alcanzable o conversaciones desde el sitio | Una captura como [Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %}), código QR, link compartible, formulario o popup | Necesitas que los clientes se suscriban o inicien una conversación antes de que muchos playbooks, rutas o campañas puedan rendir bien. |
 | Recuperar carritos | [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) o un playbook de carrito con IA | Usa una ruta cuando el seguimiento debería ser predecible. Usa un playbook con IA cuando la experiencia debería reaccionar al producto, intención del cliente, respuestas u objeciones. |
 | Avisar cuando productos vuelven a stock | [Vuelta a Stock]({% link _journeys/back-in-stock-pounce.md %}) | Úsalo cuando clientes pidieron aviso por un producto no disponible y tus señales de stock son confiables. |
+| Avisar a compradores interesados por una baja de precio | [Alerta de Baja de Precio]({% link _journeys/price-drop-pouncer.md %}) | Úsalo cuando los cambios de precio del catálogo son confiables y Hellotext puede ver interés reciente de producto, carrito o recomendación. |
+| Sugerir productos que combinan con lo que compradores eligieron o vieron | [Completa el Look]({% link _journeys/complete-the-look-playbook.md %}) | Úsalo cuando tu catálogo tiene productos que combinan, accesorios compatibles, looks, kits o rutinas claras. |
 | Convertir nuevos suscriptores o visitantes que miran sin comprar | [Impulsor de Primera Compra]({% link _journeys/first-purchase-driver-playbook.md %}), [Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}) o [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) | Estos playbooks funcionan mejor cuando Hellotext puede ver señales de producto, navegación, suscripción y compra. |
-| Impulsar recompra | [Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %}), [Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %}), cumpleaños, aniversario o reactivación suave | Necesitan suficiente historial de compras o datos de perfil para que el timing y la recomendación sean útiles. |
+| Impulsar recompra o relación | [Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %}), [Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %}), [Celebra su Cumpleaños]({% link _journeys/birthday-bash-playbook.md %}), [Sorpresa de Aniversario]({% link _journeys/anniversary-surprise-playbook.md %}) o [Reactivación Suave]({% link _journeys/soft-reactivation-playbook.md %}) | Necesitan suficiente historial de compras, datos de producto o datos de perfil para que el timing y la recomendación sean útiles. |
+| Recuperar clientes inactivos | [Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %}) o [Último Intento]({% link _journeys/sunset-saver-playbook.md %}) | Usa Reactivación de Inactivos alrededor de 3 meses sin actividad. Usa Último Intento alrededor de 12 meses sin actividad o sin reactivarse. |
 | Recopilar reseñas de productos después de la entrega | [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) | Úsalo cuando los datos de entrega y producto son confiables y quieres calificaciones, reseñas escritas, seguimiento de calificaciones bajas y registros exportables. |
 | Medir lealtad después de la entrega | [Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}) | Úsalo cuando las señales de pedido entregado son confiables y quieres una señal de recomendación de 0 a 10 a nivel relación. |
 | Responder preguntas frecuentes o reducir carga de soporte | [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}), [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}), [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}) o [Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %}) | Empieza aquí cuando tu equipo responde preguntas repetidas y tienes políticas, datos de pedidos y reglas de derivación claras. |
@@ -84,7 +87,7 @@ Revisa los primeros resultados antes de sumar más automatización.
 
 Mira respuestas, clicks, bajas, derivaciones, mensajes fallidos, conversión, ingresos atribuidos y si los clientes recibieron el siguiente paso que esperabas.
 
-Después ajusta una cosa por vez: audiencia, disparador, timing, mensaje, oferta, prompt o regla de derivación. Para una lectura más profunda, usa [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %}).
+Después ajusta una cosa por vez entre los controles que esa opción realmente expone, como audiencia, disparador o espera de ruta, mensaje, estrategia de oferta, prompt del agente o regla de derivación. Para una lectura más profunda, usa [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %}).
 
 ## Guías relacionadas
 
@@ -98,9 +101,11 @@ Después ajusta una cosa por vez: audiencia, disparador, timing, mensaje, oferta
 - [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %})
 - [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Playbook Vuelta a Stock]({% link _journeys/back-in-stock-pounce.md %})
+- [Playbook Alerta de Baja de Precio]({% link _journeys/price-drop-pouncer.md %})
 - [Playbook Impulsor de Primera Compra]({% link _journeys/first-purchase-driver-playbook.md %})
 - [Playbook Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %})
 - [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
+- [Playbook Completa el Look]({% link _journeys/complete-the-look-playbook.md %})
 - [Playbook Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %})
 - [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
 - [Playbook Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})

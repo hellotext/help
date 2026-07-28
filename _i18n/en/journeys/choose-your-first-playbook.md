@@ -1,6 +1,6 @@
 Your first playbook should prove one clear business outcome before you expand.
 
-In Hellotext, a playbook can be a prebuilt mission, an AI agent, a journey route, a campaign, or a capture depending on the job it performs. Start with the simplest option that can deliver the outcome and teach you something useful.
+In Hellotext, a playbook can be an autonomous prebuilt mission, a reactive AI agent, or a journey route with defined steps. Some capture or campaign-like workflows can also appear in Playbooks; this Help Center gives captures and campaigns dedicated sections because their setup and operating models are different. Start with the simplest option that can deliver the outcome and teach you something useful.
 
 ## Before you choose
 
@@ -26,11 +26,14 @@ After you choose the first option to launch, follow [How to enable a playbook]({
 
 | If your first goal is... | Start with... | Why |
 | --- | --- | --- |
-| Grow your reachable audience or website conversations | A capture such as [Webchat Widget]({% link _journeys/webchat-widget-playbook.md %}), QR code, shareable link, form, popup, or subscriber booster | You need customers to opt in or start a conversation before many playbooks, routes, or campaigns can perform well. |
+| Grow your reachable audience or website conversations | A capture such as [Webchat Widget]({% link _journeys/webchat-widget-playbook.md %}), QR code, shareable link, form, or popup | You need customers to opt in or start a conversation before many playbooks, routes, or campaigns can perform well. |
 | Recover carts | [Cart Saver route]({% link _journeys/cart-saver-route.md %}) or an AI cart saver playbook | Use a route when the follow-up should be predictable. Use an AI playbook when the experience should react to product context, customer intent, replies, or objections. |
 | Alert shoppers about products back in stock | [Back-in-Stock Pounce]({% link _journeys/back-in-stock-pounce.md %}) | Use this when customers asked to be notified about an unavailable product and your stock signals are reliable. |
+| Alert interested shoppers about a product price drop | [Price-Drop Pouncer]({% link _journeys/price-drop-pouncer.md %}) | Use this when catalog price changes are reliable and Hellotext can see recent product, cart, or recommendation interest. |
+| Suggest matching products around what shoppers picked or viewed | [Complete-the-Look]({% link _journeys/complete-the-look-playbook.md %}) | Use this when your catalog has clear matching products, compatible accessories, looks, kits, or routines. |
 | Convert new subscribers or window shoppers | [First-Purchase Driver]({% link _journeys/first-purchase-driver-playbook.md %}), [Browse Recovery]({% link _journeys/browse-recovery-playbook.md %}), or [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}) | These playbooks work best when Hellotext can see product, browsing, subscription, and purchase signals. |
-| Drive repeat purchases | [Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}), [Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}), birthday, anniversary, or soft reactivation playbook | These need enough purchase history or profile data to make the timing and recommendation useful. |
+| Drive repeat purchases or relationship moments | [Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}), [Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}), [Birthday Bash]({% link _journeys/birthday-bash-playbook.md %}), [Anniversary Surprise]({% link _journeys/anniversary-surprise-playbook.md %}), or [Soft Reactivation]({% link _journeys/soft-reactivation-playbook.md %}) | These need enough purchase history, product data, or profile data to make the timing and recommendation useful. |
+| Win back inactive customers | [Dormant Revival]({% link _journeys/dormant-revival-playbook.md %}) or [Sunset Saver]({% link _journeys/sunset-saver-playbook.md %}) | Use Dormant Revival around 3 months of inactivity. Use Sunset Saver around 12 months inactive or not reactivated. |
 | Collect product reviews after delivery | [Review Builder]({% link _journeys/review-builder-playbook.md %}) | Use this when delivered-order and product data are reliable and you want ratings, written reviews, low-rating follow-up, and exportable review records. |
 | Measure loyalty after delivery | [NPS Pulse]({% link _journeys/nps-pulse-playbook.md %}) | Use this when delivered-order signals are reliable and you want a relationship-level 0-10 recommendation signal. |
 | Answer frequent questions or reduce support load | [Instant Answers]({% link _journeys/instant-answers-playbook.md %}), [Order-Update Delight]({% link _journeys/order-update-playbook.md %}), [Return & Exchange Helper]({% link _journeys/return-and-exchange-helper-playbook.md %}), or [Order Cancellation Assistant]({% link _journeys/order-cancellation-assistant-playbook.md %}) | Start here when your team spends time answering repeat questions and you have clear policies, order data, and handoff rules. |
@@ -84,7 +87,7 @@ Review the first results before adding more automation.
 
 Look at replies, clicks, opt-outs, handoffs, failed messages, conversion, attributed revenue, and whether customers received the next step you expected.
 
-Then adjust one thing at a time: audience, trigger, timing, message, offer, prompt, or handoff rule. For a deeper read, use [Playbook reporting]({% link _analytics-reporting-attribution/playbook-reporting.md %}).
+Then adjust one thing at a time among the controls that option actually exposes, such as audience, route trigger or wait, message, offer strategy, agent prompt, or handoff rule. For a deeper read, use [Playbook reporting]({% link _analytics-reporting-attribution/playbook-reporting.md %}).
 
 ## Related guides
 
@@ -98,9 +101,11 @@ Then adjust one thing at a time: audience, trigger, timing, message, offer, prom
 - [Cart Saver route]({% link _journeys/cart-saver-route.md %})
 - [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Back-in-Stock Pounce playbook]({% link _journeys/back-in-stock-pounce.md %})
+- [Price-Drop Pouncer playbook]({% link _journeys/price-drop-pouncer.md %})
 - [First-Purchase Driver playbook]({% link _journeys/first-purchase-driver-playbook.md %})
 - [Browse Recovery playbook]({% link _journeys/browse-recovery-playbook.md %})
 - [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %})
+- [Complete-the-Look playbook]({% link _journeys/complete-the-look-playbook.md %})
 - [Replenishment Driver playbook]({% link _journeys/replenishment-driver-playbook.md %})
 - [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
 - [Review Builder playbook]({% link _journeys/review-builder-playbook.md %})

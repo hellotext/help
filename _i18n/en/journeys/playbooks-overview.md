@@ -4,7 +4,7 @@ A playbook is a repeatable system trained for a business mission. It reads signa
 
 If you are comparing playbooks with campaigns and the Inbox, start with [How Hellotext works]({% link _getting-started/how-hellotext-works.md %}).
 
-A playbook can be an autonomous mission, an AI agent, a journey route, a campaign, or a capture depending on the job it performs.
+A playbook can be an autonomous mission, a reactive AI agent, or a journey route with defined steps. Some capture or campaign-like workflows can also appear in Playbooks; captures and campaigns have dedicated Help Center sections because their setup and operating models are different.
 
 Signals can include carts, browsing activity, purchases, stock changes, birthdays, replies, customer profile properties, and channel eligibility.
 
@@ -22,7 +22,7 @@ Use a **prebuilt playbook** when the goal is common and the recommended mission 
 
 Use an **AI playbook or AI agent** when the experience needs to respond conversationally, use product or policy knowledge, recommend items, answer frequent questions, collect customer information, or decide when to escalate.
 
-For new subscribers or sign-ups who have not bought yet, see [First-Purchase Driver playbook]({% link _journeys/first-purchase-driver-playbook.md %}). For shoppers waiting for an unavailable product, see [Back-in-Stock Pounce playbook]({% link _journeys/back-in-stock-pounce.md %}). For browse intent that did not become a cart, see [Browse Recovery playbook]({% link _journeys/browse-recovery-playbook.md %}). For product discovery specifically, see [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %}). For add-ons after purchase or strong product interest, see [Cross-Sell Driver playbook]({% link _journeys/cross-sell-driver-playbook.md %}). For repeat purchase on consumable products, see [Replenishment Driver playbook]({% link _journeys/replenishment-driver-playbook.md %}). For order-status questions, see [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %}). For post-delivery product reviews, see [Review Builder playbook]({% link _journeys/review-builder-playbook.md %}). For loyalty after delivery, see [NPS Pulse playbook]({% link _journeys/nps-pulse-playbook.md %}). For satisfaction after resolved conversations, see [CSAT Pulse playbook]({% link _journeys/csat-pulse-playbook.md %}). For frequent support questions, see [Instant Answers playbook]({% link _journeys/instant-answers-playbook.md %}). For guided return or exchange support, see [Return & Exchange Helper playbook]({% link _journeys/return-and-exchange-helper-playbook.md %}). For cancellation requests, see [Order Cancellation Assistant playbook]({% link _journeys/order-cancellation-assistant-playbook.md %}). For a custom reactive agent with your own intents, prompt, knowledge, channels, tone, and handoff, see [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %}).
+For new subscribers or sign-ups who have not bought yet, see [First-Purchase Driver playbook]({% link _journeys/first-purchase-driver-playbook.md %}). For shoppers waiting for an unavailable product, see [Back-in-Stock Pounce playbook]({% link _journeys/back-in-stock-pounce.md %}). For shoppers who saw a product before it became cheaper, see [Price-Drop Pouncer playbook]({% link _journeys/price-drop-pouncer.md %}). For browse intent that did not become a cart, see [Browse Recovery playbook]({% link _journeys/browse-recovery-playbook.md %}). For product discovery specifically, see [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %}). For matching products around what shoppers picked or viewed, see [Complete-the-Look playbook]({% link _journeys/complete-the-look-playbook.md %}). For add-ons after purchase or strong product interest, see [Cross-Sell Driver playbook]({% link _journeys/cross-sell-driver-playbook.md %}). For repeat purchase on consumable products, see [Replenishment Driver playbook]({% link _journeys/replenishment-driver-playbook.md %}). For birthdays saved on the profile, see [Birthday Bash playbook]({% link _journeys/birthday-bash-playbook.md %}). For purchase or relationship anniversaries, see [Anniversary Surprise playbook]({% link _journeys/anniversary-surprise-playbook.md %}). For customers who are starting to go quiet, see [Soft Reactivation playbook]({% link _journeys/soft-reactivation-playbook.md %}). For customers around 3 months inactive, see [Dormant Revival playbook]({% link _journeys/dormant-revival-playbook.md %}). For customers around 12 months inactive or not reactivated, see [Sunset Saver playbook]({% link _journeys/sunset-saver-playbook.md %}). For order-status questions, see [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %}). For post-delivery product reviews, see [Review Builder playbook]({% link _journeys/review-builder-playbook.md %}). For loyalty after delivery, see [NPS Pulse playbook]({% link _journeys/nps-pulse-playbook.md %}). For satisfaction after resolved conversations, see [CSAT Pulse playbook]({% link _journeys/csat-pulse-playbook.md %}). For frequent support questions, see [Instant Answers playbook]({% link _journeys/instant-answers-playbook.md %}). For guided return or exchange support, see [Return & Exchange Helper playbook]({% link _journeys/return-and-exchange-helper-playbook.md %}). For cancellation requests, see [Order Cancellation Assistant playbook]({% link _journeys/order-cancellation-assistant-playbook.md %}). For a custom reactive agent with your own intents, prompt, knowledge, channels, tone, and handoff, see [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %}).
 
 Use a **journey route** when you need a multi-step customer flow with a trigger, messages, waits, conditions, branches, and handoffs. A basic abandoned-cart follow-up can be [Cart Saver route]({% link _journeys/cart-saver-route.md %}); an AI abandoned-cart playbook can make more dynamic decisions based on signals and customer context.
 
@@ -63,7 +63,7 @@ For SMS playbooks, make sure your account has an active sender or short code ava
 
 Start with a focused audience and review the first conversations before expanding. Look for replies, missed expectations, broken links, timing issues, and places where a human had to step in.
 
-Use what you learn to adjust the prompt, timing, branch conditions, or template copy. For revenue, conversion, and handoff metrics, use [Playbook reporting]({% link _analytics-reporting-attribution/playbook-reporting.md %}).
+Use what you learn to adjust only the controls that playbook type exposes: prompts for agents; waits, branch conditions, or template copy for routes; and tone, offer strategy, or channels for autonomous sales playbooks. For revenue, conversion, and handoff metrics, use [Playbook reporting]({% link _analytics-reporting-attribution/playbook-reporting.md %}).
 
 For a safer editing process, use [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %}).
 
@@ -81,10 +81,17 @@ For a safer editing process, use [How to customize a playbook safely]({% link _j
 - [Cart Saver route]({% link _journeys/cart-saver-route.md %})
 - [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Back-in-Stock Pounce playbook]({% link _journeys/back-in-stock-pounce.md %})
+- [Price-Drop Pouncer playbook]({% link _journeys/price-drop-pouncer.md %})
 - [First-Purchase Driver playbook]({% link _journeys/first-purchase-driver-playbook.md %})
 - [Browse Recovery playbook]({% link _journeys/browse-recovery-playbook.md %})
 - [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %})
+- [Complete-the-Look playbook]({% link _journeys/complete-the-look-playbook.md %})
 - [Replenishment Driver playbook]({% link _journeys/replenishment-driver-playbook.md %})
+- [Birthday Bash playbook]({% link _journeys/birthday-bash-playbook.md %})
+- [Anniversary Surprise playbook]({% link _journeys/anniversary-surprise-playbook.md %})
+- [Soft Reactivation playbook]({% link _journeys/soft-reactivation-playbook.md %})
+- [Dormant Revival playbook]({% link _journeys/dormant-revival-playbook.md %})
+- [Sunset Saver playbook]({% link _journeys/sunset-saver-playbook.md %})
 - [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
 - [Review Builder playbook]({% link _journeys/review-builder-playbook.md %})
 - [CSAT Pulse playbook]({% link _journeys/csat-pulse-playbook.md %})
