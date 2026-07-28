@@ -87,6 +87,8 @@ Si tienes una audiencia clara, un mensaje y un momento de envío planificado, us
 
 Si los clientes pidieron aviso por un producto específico que no estaba disponible, usa [Vuelta a Stock]({% link _journeys/back-in-stock-pounce.md %}) en lugar de una campaña amplia.
 
+Si los clientes ya mostraron interés en un producto y el producto bajó de precio de forma relevante para ellos, usa [Alerta de Baja de Precio]({% link _journeys/price-drop-pouncer.md %}) en lugar de una campaña amplia de descuentos.
+
 Buenas primeras campañas incluyen:
 
 - Un lanzamiento de producto.

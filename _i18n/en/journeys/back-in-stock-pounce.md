@@ -154,6 +154,7 @@ Tune one thing at a time: trigger, product scope, message, wait, channel, or exi
 - [Tracking events]({% link _developers/tracking-events.md %})
 - [Connect Shopify]({% link _integrations/connect-shopify.md %})
 - [Connect your catalog to WhatsApp]({% link _integrations/connect-catalog-to-whatsapp.md %})
+- [Price-Drop Pouncer playbook]({% link _journeys/price-drop-pouncer.md %})
 - [Browse Recovery playbook]({% link _journeys/browse-recovery-playbook.md %})
 - [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Cart Saver route]({% link _journeys/cart-saver-route.md %})

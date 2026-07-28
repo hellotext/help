@@ -154,6 +154,7 @@ Ajusta una cosa por vez: disparador, alcance de productos, mensaje, espera, cana
 - [Seguimiento de eventos]({% link _developers/tracking-events.md %})
 - [Conecta Shopify]({% link _integrations/connect-shopify.md %})
 - [Conecta tu catálogo a WhatsApp]({% link _integrations/connect-catalog-to-whatsapp.md %})
+- [Playbook Alerta de Baja de Precio]({% link _journeys/price-drop-pouncer.md %})
 - [Playbook Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %})
 - [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %})

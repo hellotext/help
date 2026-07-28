@@ -35,7 +35,7 @@ Common options include:
 - **[Browse Recovery]({% link _journeys/browse-recovery-playbook.md %}):** re-engage customers who viewed products without buying.
 - **[Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}):** recommend products in real time from customer behavior and product context.
 - **Complete-the-Look:** suggest complementary products.
-- **Price-Drop Pouncer:** notify interested shoppers when a product price changes.
+- **[Price-Drop Pouncer]({% link _journeys/price-drop-pouncer.md %}):** notify interested shoppers automatically when a product price drops.
 - **[Back-in-Stock Pounce]({% link _journeys/back-in-stock-pounce.md %}):** alert shoppers when an item is available again.
 
 These playbooks usually depend on product, cart, checkout, catalog, stock, price, and purchase signals.
@@ -129,6 +129,7 @@ If you are unsure where to start, choose the mission that matches the first bott
 | Not enough reachable customers | Captures, Subscriber Booster, Property Collector, or Welcome Booster |
 | Customers abandon carts | [Cart Saver]({% link _journeys/cart-saver-route.md %}) or [AI Cart Saver]({% link _journeys/ai-cart-saver-playbook.md %}) |
 | Shoppers are waiting for unavailable products | [Back-in-Stock Pounce]({% link _journeys/back-in-stock-pounce.md %}) |
+| Shoppers showed interest before a meaningful price drop | [Price-Drop Pouncer]({% link _journeys/price-drop-pouncer.md %}) |
 | Visitors browse but do not buy | [First-Purchase Driver]({% link _journeys/first-purchase-driver-playbook.md %}), [Browse Recovery]({% link _journeys/browse-recovery-playbook.md %}), or [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}) |
 | Buyers do not return | [Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}), [Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}), or Soft Reactivation |
 | Customers have gone cold | Dormant Revival or Sunset Saver |
@@ -162,6 +163,7 @@ Keep reading:
 - [Cart Saver route]({% link _journeys/cart-saver-route.md %})
 - [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Back-in-Stock Pounce playbook]({% link _journeys/back-in-stock-pounce.md %})
+- [Price-Drop Pouncer playbook]({% link _journeys/price-drop-pouncer.md %})
 - [First-Purchase Driver playbook]({% link _journeys/first-purchase-driver-playbook.md %})
 - [Browse Recovery playbook]({% link _journeys/browse-recovery-playbook.md %})
 - [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %})
@@ -188,6 +190,7 @@ Keep reading:
 - [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %})
 - [Back-in-Stock Pounce playbook]({% link _journeys/back-in-stock-pounce.md %})
+- [Price-Drop Pouncer playbook]({% link _journeys/price-drop-pouncer.md %})
 - [First-Purchase Driver playbook]({% link _journeys/first-purchase-driver-playbook.md %})
 - [Browse Recovery playbook]({% link _journeys/browse-recovery-playbook.md %})
 - [Cross-Sell Driver playbook]({% link _journeys/cross-sell-driver-playbook.md %})

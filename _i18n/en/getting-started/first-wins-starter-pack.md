@@ -87,6 +87,8 @@ If you have one clear audience, one message, and one planned send time, use a ca
 
 If customers asked to be notified about a specific unavailable product, use [Back-in-Stock Pounce]({% link _journeys/back-in-stock-pounce.md %}) instead of a broad campaign.
 
+If customers already showed interest in a product and the product became meaningfully cheaper for them, use [Price-Drop Pouncer]({% link _journeys/price-drop-pouncer.md %}) instead of a broad sale campaign.
+
 Good first campaigns include:
 
 - A product launch.

@@ -35,7 +35,7 @@ Opciones comunes incluyen:
 - **[Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}):** reactiva clientes que vieron productos sin comprar.
 - **[Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}):** recomienda productos en tiempo real usando comportamiento y contexto de producto.
 - **Completa el Look:** sugiere productos complementarios.
-- **Alerta de Baja de Precio:** notifica a compradores interesados cuando cambia el precio de un producto.
+- **[Alerta de Baja de Precio]({% link _journeys/price-drop-pouncer.md %}):** notifica automáticamente a compradores interesados cuando baja el precio de un producto.
 - **[Vuelta a Stock]({% link _journeys/back-in-stock-pounce.md %}):** alerta cuando un producto vuelve a estar disponible.
 
 Estos playbooks normalmente dependen de señales de producto, carrito, checkout, catálogo, stock, precio y compra.
@@ -129,6 +129,7 @@ Si no sabes por dónde empezar, elige la misión que coincide con el primer cuel
 | No tienes suficientes clientes alcanzables | Capturas, Impulsor de Suscriptores, Recolector de Datos o Bienvenida Automática |
 | Los clientes abandonan carritos | [Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) o [Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}) |
 | Los compradores esperan productos sin stock | [Vuelta a Stock]({% link _journeys/back-in-stock-pounce.md %}) |
+| Los compradores mostraron interés antes de una baja de precio relevante | [Alerta de Baja de Precio]({% link _journeys/price-drop-pouncer.md %}) |
 | Los visitantes miran pero no compran | [Impulsor de Primera Compra]({% link _journeys/first-purchase-driver-playbook.md %}), [Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}) o [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) |
 | Los compradores no vuelven | [Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %}), [Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %}) o Reactivación Suave |
 | Los clientes quedaron fríos | Reactivación de Inactivos o Último Intento |
@@ -162,6 +163,7 @@ Sigue leyendo:
 - [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %})
 - [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Playbook Vuelta a Stock]({% link _journeys/back-in-stock-pounce.md %})
+- [Playbook Alerta de Baja de Precio]({% link _journeys/price-drop-pouncer.md %})
 - [Playbook Impulsor de Primera Compra]({% link _journeys/first-purchase-driver-playbook.md %})
 - [Playbook Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %})
 - [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
@@ -188,6 +190,7 @@ Sigue leyendo:
 - [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [Playbook Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %})
 - [Playbook Vuelta a Stock]({% link _journeys/back-in-stock-pounce.md %})
+- [Playbook Alerta de Baja de Precio]({% link _journeys/price-drop-pouncer.md %})
 - [Playbook Impulsor de Primera Compra]({% link _journeys/first-purchase-driver-playbook.md %})
 - [Playbook Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %})
 - [Playbook Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %})
