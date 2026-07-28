@@ -52,7 +52,7 @@ Common options include:
 - **[Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}):** suggest related products after interest or purchase.
 - **[Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}):** remind customers to reorder when they may be running out.
 - **[Birthday Bash]({% link _journeys/birthday-bash-playbook.md %}):** send a greeting, gift, or approved coupon when the customer profile has a birthday.
-- **Anniversary Surprise:** celebrate purchase or customer anniversaries.
+- **[Anniversary Surprise]({% link _journeys/anniversary-surprise-playbook.md %}):** celebrate purchase, relationship, or reliable custom-date anniversaries.
 
 These playbooks usually depend on purchase history, product timing, loyalty or profile data, and clear rules for how often customers should hear from you.
 
@@ -133,7 +133,7 @@ If you are unsure where to start, choose the mission that matches the first bott
 | Shoppers are waiting for unavailable products | [Back-in-Stock Pounce]({% link _journeys/back-in-stock-pounce.md %}) |
 | Shoppers showed interest before a meaningful price drop | [Price-Drop Pouncer]({% link _journeys/price-drop-pouncer.md %}) |
 | Visitors browse but do not buy | [First-Purchase Driver]({% link _journeys/first-purchase-driver-playbook.md %}), [Browse Recovery]({% link _journeys/browse-recovery-playbook.md %}), [Complete-the-Look]({% link _journeys/complete-the-look-playbook.md %}), or [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}) |
-| Buyers do not return | [Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}), [Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}), [Birthday Bash]({% link _journeys/birthday-bash-playbook.md %}), or [Soft Reactivation]({% link _journeys/soft-reactivation-playbook.md %}) |
+| Buyers do not return | [Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}), [Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}), [Birthday Bash]({% link _journeys/birthday-bash-playbook.md %}), [Anniversary Surprise]({% link _journeys/anniversary-surprise-playbook.md %}), or [Soft Reactivation]({% link _journeys/soft-reactivation-playbook.md %}) |
 | Customers have gone cold | [Dormant Revival]({% link _journeys/dormant-revival-playbook.md %}) or [Sunset Saver]({% link _journeys/sunset-saver-playbook.md %}) |
 | You have a timed announcement | Classic Broadcast, Holiday Hype, Launch Teaser, or Clearance Clean-out |
 | Support work is repetitive | [Instant Answers]({% link _journeys/instant-answers-playbook.md %}), [Order-Update Delight]({% link _journeys/order-update-playbook.md %}), [Return & Exchange Helper]({% link _journeys/return-and-exchange-helper-playbook.md %}), [Order Cancellation Assistant]({% link _journeys/order-cancellation-assistant-playbook.md %}), or [CSAT Pulse]({% link _journeys/csat-pulse-playbook.md %}) |
@@ -173,6 +173,7 @@ Keep reading:
 - [Cross-Sell Driver playbook]({% link _journeys/cross-sell-driver-playbook.md %})
 - [Replenishment Driver playbook]({% link _journeys/replenishment-driver-playbook.md %})
 - [Birthday Bash playbook]({% link _journeys/birthday-bash-playbook.md %})
+- [Anniversary Surprise playbook]({% link _journeys/anniversary-surprise-playbook.md %})
 - [Soft Reactivation playbook]({% link _journeys/soft-reactivation-playbook.md %})
 - [Dormant Revival playbook]({% link _journeys/dormant-revival-playbook.md %})
 - [Sunset Saver playbook]({% link _journeys/sunset-saver-playbook.md %})
@@ -204,6 +205,7 @@ Keep reading:
 - [Cross-Sell Driver playbook]({% link _journeys/cross-sell-driver-playbook.md %})
 - [Replenishment Driver playbook]({% link _journeys/replenishment-driver-playbook.md %})
 - [Birthday Bash playbook]({% link _journeys/birthday-bash-playbook.md %})
+- [Anniversary Surprise playbook]({% link _journeys/anniversary-surprise-playbook.md %})
 - [Soft Reactivation playbook]({% link _journeys/soft-reactivation-playbook.md %})
 - [Dormant Revival playbook]({% link _journeys/dormant-revival-playbook.md %})
 - [Sunset Saver playbook]({% link _journeys/sunset-saver-playbook.md %})

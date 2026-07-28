@@ -35,7 +35,7 @@ It is a good fit when:
 
 Do not use it to win back customers who have gone cold. For that, use [Soft Reactivation]({% link _journeys/soft-reactivation-playbook.md %}), [Dormant Revival]({% link _journeys/dormant-revival-playbook.md %}), or [Sunset Saver]({% link _journeys/sunset-saver-playbook.md %}) depending on the inactivity window.
 
-Do not use it as a replacement for seasonal campaigns or purchase anniversaries. For a commercial date, use campaigns; for purchase or relationship anniversaries, use Anniversary Surprise when available.
+Do not use it as a replacement for seasonal campaigns or purchase anniversaries. For a commercial date, use campaigns; for purchase or relationship anniversaries, use [Anniversary Surprise]({% link _journeys/anniversary-surprise-playbook.md %}).
 
 ## What it needs before launch
 
@@ -95,7 +95,7 @@ Use the type of moment to decide which playbook should act.
 | Customer moment | Better fit |
 | --- | --- |
 | It is the customer's birthday | Birthday Bash |
-| It is a purchase or relationship anniversary | Anniversary Surprise when available |
+| It is a purchase or relationship anniversary | [Anniversary Surprise]({% link _journeys/anniversary-surprise-playbook.md %}) |
 | Customer is starting to go quiet | [Soft Reactivation]({% link _journeys/soft-reactivation-playbook.md %}) |
 | Customer has been inactive for around 3 months | [Dormant Revival]({% link _journeys/dormant-revival-playbook.md %}) |
 | Customer has been inactive or not reactivated for around 12 months | [Sunset Saver]({% link _journeys/sunset-saver-playbook.md %}) |
@@ -163,6 +163,7 @@ Tune one thing at a time: audience, channel, message, coupon, allowed timing, or
 - [Personalize messages with tags]({% link _audience/personalization-tags.md %})
 - [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})
 - [Tracking events]({% link _developers/tracking-events.md %})
+- [Anniversary Surprise playbook]({% link _journeys/anniversary-surprise-playbook.md %})
 - [Soft Reactivation playbook]({% link _journeys/soft-reactivation-playbook.md %})
 - [Dormant Revival playbook]({% link _journeys/dormant-revival-playbook.md %})
 - [Sunset Saver playbook]({% link _journeys/sunset-saver-playbook.md %})

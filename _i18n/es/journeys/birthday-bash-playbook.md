@@ -35,7 +35,7 @@ Encaja bien cuando:
 
 No lo uses para reactivar clientes que están fríos. Para eso usa [Reactivación Suave]({% link _journeys/soft-reactivation-playbook.md %}), [Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %}) o [Último Intento]({% link _journeys/sunset-saver-playbook.md %}) según el tiempo de inactividad.
 
-Tampoco lo uses como sustituto de campañas estacionales o aniversarios de compra. Para una fecha comercial usa campañas; para aniversarios de relación o compra usa Sorpresa de Aniversario cuando esté disponible.
+Tampoco lo uses como sustituto de campañas estacionales o aniversarios de compra. Para una fecha comercial usa campañas; para aniversarios de relación o compra usa [Sorpresa de Aniversario]({% link _journeys/anniversary-surprise-playbook.md %}).
 
 ## Qué necesita antes del lanzamiento
 
@@ -95,7 +95,7 @@ Usa el tipo de momento para decidir qué playbook debería actuar.
 | Momento del cliente | Mejor opción |
 | --- | --- |
 | Es el cumpleaños del cliente | Celebra su Cumpleaños |
-| Es aniversario de compra o relación | Sorpresa de Aniversario cuando esté disponible |
+| Es aniversario de compra o relación | [Sorpresa de Aniversario]({% link _journeys/anniversary-surprise-playbook.md %}) |
 | El cliente empieza a enfriarse | [Reactivación Suave]({% link _journeys/soft-reactivation-playbook.md %}) |
 | El cliente lleva alrededor de 3 meses sin actividad | [Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %}) |
 | El cliente lleva alrededor de 12 meses sin actividad o sin reactivarse | [Último Intento]({% link _journeys/sunset-saver-playbook.md %}) |
@@ -163,6 +163,7 @@ Ajusta una cosa por vez: audiencia, canal, mensaje, cupón, timing permitido o c
 - [Personaliza mensajes con etiquetas]({% link _audience/personalization-tags.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Seguimiento de eventos]({% link _developers/tracking-events.md %})
+- [Playbook Sorpresa de Aniversario]({% link _journeys/anniversary-surprise-playbook.md %})
 - [Playbook Reactivación Suave]({% link _journeys/soft-reactivation-playbook.md %})
 - [Playbook Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %})
 - [Playbook Último Intento]({% link _journeys/sunset-saver-playbook.md %})
