@@ -1,6 +1,11 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: win_back
+avatar:
+  icon: cheers
+  color: indigo
+
 en:
   title: Anniversary Surprise playbook
   description: Celebrate purchase or relationship anniversaries when Hellotext has a reliable anniversary date for the customer.

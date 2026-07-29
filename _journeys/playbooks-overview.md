@@ -1,6 +1,8 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: foundations
+
 en:
   title: Playbooks and automation overview
   description: Understand playbooks, signals, routes, campaigns, captures, and AI agents.

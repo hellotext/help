@@ -1,6 +1,8 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: foundations
+
 en:
   title: How to enable a playbook
   description: Configure, test, enable, and monitor a Hellotext playbook before customers enter it.

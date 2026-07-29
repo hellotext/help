@@ -27,18 +27,34 @@
           </div>
         </header>
 
-        <div class="container-guides">
-          {% assign topics = site[page.permalink] | where: "languages", site.lang %}
-          {% for guide in topics %}
-            <a href="{{ site.baseurl }}{{ guide.url }}" class="content-item">
-              <div class="title-container">
-                <h4>{{ guide[site.lang].title }}</h4>
-                <p>{{ guide[site.lang].description }}</p>
-              </div>
-              <img src="/images/icons/arrow-right.svg" width="10" />
-            </a>
-          {% endfor %}
-        </div>
+        {% assign guides = site[page.permalink] | where: "languages", site.lang %}
+        {% assign guide_groups = site.data.guide_groups[page.permalink] %}
+        {% if guide_groups %}
+          <div class="guide-groups">
+            {% for group in guide_groups %}
+              {% assign grouped_guides = guides | where: "navigation_group", group.key %}
+              {% if grouped_guides.size > 0 %}
+                <section class="guide-group" aria-labelledby="guide-group-{{ group.key }}">
+                  <header class="guide-group__header">
+                    <h2 id="guide-group-{{ group.key }}" class="guide-group__caption">{{ group[site.lang] }}</h2>
+                    <span class="guide-group__count">{{ grouped_guides.size }}</span>
+                  </header>
+                  <div class="container-guides">
+                    {% for guide in grouped_guides %}
+                      {% include guide_card.html guide=guide %}
+                    {% endfor %}
+                  </div>
+                </section>
+              {% endif %}
+            {% endfor %}
+          </div>
+        {% else %}
+          <div class="container-guides">
+            {% for guide in guides %}
+              {% include guide_card.html guide=guide %}
+            {% endfor %}
+          </div>
+        {% endif %}
 
       </div>
     </section>

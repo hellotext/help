@@ -1,6 +1,11 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: win_back
+avatar:
+  icon: nocturne
+  color: indigo
+
 en:
   title: Dormant Revival playbook
   description: Re-engage customers who have been inactive for around three months, using customer history, product context, and send checks.

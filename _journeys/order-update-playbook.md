@@ -1,6 +1,11 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: service
+avatar:
+  icon: ai-support
+  color: lavender
+
 en:
   title: Order-Update Delight playbook
   description: Help customers check order and shipment status with an AI support playbook grounded in order data and handoff.

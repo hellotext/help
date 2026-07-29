@@ -1,6 +1,11 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: retain
+avatar:
+  icon: ai-assist
+  color: indigo
+
 en:
   title: Smart Recommender playbook
   description: Help customers choose products with an AI playbook that uses catalog context, product signals, knowledge, and handoff.

@@ -1,6 +1,11 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: win_back
+avatar:
+  icon: birthday
+  color: lavender
+
 en:
   title: Birthday Bash playbook
   description: Send a birthday message or approved gift code when a customer profile has a birthday today.

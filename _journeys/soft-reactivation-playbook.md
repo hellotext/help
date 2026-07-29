@@ -1,6 +1,11 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: retain
+avatar:
+  icon: alarm
+  color: seafoam
+
 en:
   title: Soft Reactivation playbook
   description: Re-engage customers before they become fully inactive, using recent behavior, product context, and send checks.

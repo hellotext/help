@@ -1,6 +1,8 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: diy
+
 en:
   title: Getting started with journeys
   description: Use journeys to build step-by-step customer flows.

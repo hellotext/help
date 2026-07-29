@@ -1,6 +1,11 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: diy
+avatar:
+  icon: ai
+  color: lavender
+
 en:
   title: Custom Agent playbook
   description: Build an AI agent for a specific business job with custom intents, instructions, knowledge, channels, tone, and handoff.

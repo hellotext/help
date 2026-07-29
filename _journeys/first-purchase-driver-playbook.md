@@ -1,6 +1,11 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: convert
+avatar:
+  icon: gift
+  color: seafoam
+
 en:
   title: First-Purchase Driver playbook
   description: Turn new subscribers or sign-ups into first-time buyers with a conversion playbook that uses subscription, product, purchase, and channel signals.

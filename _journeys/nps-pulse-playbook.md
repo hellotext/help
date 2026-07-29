@@ -1,6 +1,11 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: service
+avatar:
+  icon: telescope
+  color: indigo
+
 en:
   title: NPS Pulse playbook
   description: Measure loyalty after delivery with a 0-10 recommendation question and follow up on detractors.

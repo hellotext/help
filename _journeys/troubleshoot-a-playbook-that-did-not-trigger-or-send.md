@@ -1,6 +1,8 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: foundations
+
 en:
   title: Troubleshoot a playbook that did not trigger or send
   description: Diagnose why a playbook did not start, did not send, waited, used another channel, or handed off.

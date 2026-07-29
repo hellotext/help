@@ -1,6 +1,11 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: retain
+avatar:
+  icon: ai-delivery
+  color: blush
+
 en:
   title: Replenishment Driver playbook
   description: Remind customers to reorder consumable products near their estimated refill window, using product usage, order history, and send checks.

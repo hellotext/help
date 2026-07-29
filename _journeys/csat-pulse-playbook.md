@@ -1,6 +1,11 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: service
+avatar:
+  icon: happy-face
+  color: banana
+
 en:
   title: CSAT Pulse playbook
   description: Ask for satisfaction feedback after a conversation is resolved and route negative responses to the right team.

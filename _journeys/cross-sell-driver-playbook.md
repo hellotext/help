@@ -1,6 +1,11 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: retain
+avatar:
+  icon: ai-price-tag
+  color: lavender
+
 en:
   title: Cross-Sell Driver playbook
   description: Suggest complementary products after a purchase or strong product interest, using catalog, order, stock, and customer signals.

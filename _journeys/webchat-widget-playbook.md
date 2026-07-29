@@ -1,6 +1,11 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: capture
+avatar:
+  icon: message
+  color: tiger
+
 en:
   title: Webchat Widget playbook
   description: Add a webchat to your site so visitors can start conversations, get help, and continue through the right channel.
