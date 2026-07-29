@@ -1,6 +1,8 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: diy
+
 en:
   title: Custom journey
   description: Create a custom journey when a template is not enough.

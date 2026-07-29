@@ -1,6 +1,11 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: service
+avatar:
+  icon: ai-return
+  color: tiger
+
 en:
   title: Return & Exchange Helper playbook
   description: Help customers with returns and exchanges using approved policies, order context, and clear handoff rules.

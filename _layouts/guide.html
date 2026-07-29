@@ -23,12 +23,39 @@
               <a href="{{ site.baseurl }}{{ topic.url }}" class="nav-topic">{% t {{ topic.permalink }}.title %}</a>
             </div>
             {% if topic.permalink == page.topic %}
-              <div class="nav-guide">
-                {% assign guides = site[page.topic] | where: "languages", site.lang %}
-                {% for guide in guides %}
-                  <p><a href="{{ site.baseurl }}{{ guide.url }}" class="{% if guide.title == page.title %}active{% endif %}">{{ guide[site.lang].title }}</a></p>
-                {% endfor %}
-              </div>
+              {% assign guides = site[page.topic] | where: "languages", site.lang %}
+              {% assign guide_groups = site.data.guide_groups[page.topic] %}
+              {% if guide_groups %}
+                <div class="nav-guide nav-guide--grouped">
+                  {% for group in guide_groups %}
+                    {% assign grouped_guides = guides | where: "navigation_group", group.key %}
+                    {% if grouped_guides.size > 0 %}
+                      {% assign group_is_active = false %}
+                      {% for guide in grouped_guides %}
+                        {% if guide.url == page.url %}
+                          {% assign group_is_active = true %}
+                        {% endif %}
+                      {% endfor %}
+                      <details class="nav-guide-group"{% if group_is_active %} open{% endif %}>
+                        <summary class="nav-guide-group__summary">
+                          <span>{{ group[site.lang] }}</span>
+                        </summary>
+                        <div class="nav-guide-group__links">
+                          {% for guide in grouped_guides %}
+                            <a href="{{ site.baseurl }}{{ guide.url }}" class="{% if guide.url == page.url %}active{% endif %}">{{ guide[site.lang].title }}</a>
+                          {% endfor %}
+                        </div>
+                      </details>
+                    {% endif %}
+                  {% endfor %}
+                </div>
+              {% else %}
+                <div class="nav-guide">
+                  {% for guide in guides %}
+                    <p><a href="{{ site.baseurl }}{{ guide.url }}" class="{% if guide.url == page.url %}active{% endif %}">{{ guide[site.lang].title }}</a></p>
+                  {% endfor %}
+                </div>
+              {% endif %}
             {% endif %}
           </div>
         {% endfor %}
@@ -43,7 +70,10 @@
             <div><img src="/images/icons/right.svg" width="22" height="22" /></div>
             <div>{{ page[site.lang].title }}</div>
           </div>
-          <h1>{{ page[site.lang].title }}</h1>
+          <div class="header-guide-title">
+            {% include guide_avatar.html guide=page size="header" %}
+            <h1>{{ page[site.lang].title }}</h1>
+          </div>
         </header>
 
         <article>

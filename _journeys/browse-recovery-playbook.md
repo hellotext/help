@@ -1,6 +1,11 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: convert
+avatar:
+  icon: eye
+  color: seafoam
+
 en:
   title: Browse Recovery playbook
   description: Re-engage customers who viewed products but did not add to cart or buy, using browsing signals, timing, and send checks.

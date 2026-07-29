@@ -1,6 +1,11 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: convert
+avatar:
+  icon: discount-shape
+  color: banana
+
 en:
   title: Price-Drop Pouncer playbook
   description: Notify interested shoppers automatically when a product price drops.

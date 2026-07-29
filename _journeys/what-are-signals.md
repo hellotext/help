@@ -1,6 +1,8 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: foundations
+
 en:
   title: What are signals?
   description: Understand the customer and business activity Hellotext uses to decide what should happen next.

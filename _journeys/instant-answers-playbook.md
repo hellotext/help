@@ -1,6 +1,11 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: service
+avatar:
+  icon: ai-chatting
+  color: seafoam
+
 en:
   title: Instant Answers playbook
   description: Answer frequent support questions with an AI support playbook grounded in approved knowledge and clear handoff rules.

@@ -1,6 +1,8 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: foundations
+
 en:
   title: Playbook library by mission
   description: Explore common Hellotext playbooks by business goal, from captures and cart recovery to support, retention, campaigns, and custom flows.

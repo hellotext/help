@@ -1,6 +1,11 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: convert
+avatar:
+  icon: cart
+  color: blush
+
 en:
   title: Cart Saver route
   description: Recover abandoned carts with a predictable route, fixed reminders, checkout links, and clear stop conditions.

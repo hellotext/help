@@ -1,6 +1,8 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: convert
+
 en:
   title: "Abandoned cart: route template vs AI playbook"
   description: Decide when to recover carts with a predictable route and when to use an AI cart saver playbook.

@@ -1,6 +1,11 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: win_back
+avatar:
+  icon: sunset
+  color: banana
+
 en:
   title: Sunset Saver playbook
   description: Make one final win-back attempt for customers who have been inactive for around twelve months, then suppress future recovery attempts automatically.

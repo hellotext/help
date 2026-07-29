@@ -1,6 +1,8 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: foundations
+
 en:
   title: Choose your first playbook
   description: Pick the first Hellotext outcome to launch based on your data, channel, audience, and business goal.

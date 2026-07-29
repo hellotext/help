@@ -1,6 +1,8 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: diy
+
 en:
   title: How to write a great agent prompt
   description: Define your AI agent’s voice, purpose, and boundaries so it speaks like your brand.

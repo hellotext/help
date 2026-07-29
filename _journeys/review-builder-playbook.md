@@ -1,6 +1,11 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: service
+avatar:
+  icon: star
+  color: banana
+
 en:
   title: Review Builder playbook
   description: Collect product reviews after delivery, route low ratings, and export review data for follow-up.

@@ -1,6 +1,11 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: service
+avatar:
+  icon: bag-cross
+  color: indigo
+
 en:
   title: Order Cancellation Assistant playbook
   description: Help customers request order cancellations, understand next steps, and route exceptions to the right team.

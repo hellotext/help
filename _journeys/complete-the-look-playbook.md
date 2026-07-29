@@ -1,6 +1,11 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: convert
+avatar:
+  icon: skirt
+  color: blush
+
 en:
   title: Complete-the-Look playbook
   description: Suggest matching products based on what shoppers picked, viewed, or considered.

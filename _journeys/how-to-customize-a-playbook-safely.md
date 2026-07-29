@@ -1,6 +1,8 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: foundations
+
 en:
   title: How to customize a playbook safely
   description: Change prompts, intents, knowledge, channels, offers, and handoff rules without breaking the playbook's expected behavior.

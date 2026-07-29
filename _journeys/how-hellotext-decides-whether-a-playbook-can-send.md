@@ -1,6 +1,8 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: foundations
+
 en:
   title: How Hellotext decides whether a playbook can send
   description: Understand why an active playbook may wait, skip, or hand off instead of sending a message.

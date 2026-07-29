@@ -1,6 +1,11 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: convert
+avatar:
+  icon: cart-ai
+  color: lavender
+
 en:
   title: AI Cart Saver playbook
   description: Recover abandoned carts with AI-personalized follow-up, product context, timing, offers, and handoff.
