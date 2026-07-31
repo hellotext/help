@@ -18,7 +18,7 @@ Escanear el código QR con su teléfono es todo lo que se necesita para suscribi
 
 ## Crear un código QR
 
-Para crear un código QR como un método de captura, desde la sección *Capturas*, haz clic en *Nuevo método de captura*. Luego, selecciona *Código QR*.
+Para crear un código QR, abre **Playbooks**, haz clic en **Explorar playbooks**, busca el grupo **Capturas** y elige **Suscriptor por Código QR**.
 
 Si tienes números de teléfono o códigos cortos asociados con tu negocio, puedes elegir uno de estos como el número al que los clientes enviarán el mensaje de opt-in.
 

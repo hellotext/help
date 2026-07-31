@@ -4,7 +4,7 @@ A playbook is a repeatable system trained for a business mission. It reads signa
 
 If you are comparing playbooks with campaigns and the Inbox, start with [How Hellotext works]({% link _getting-started/how-hellotext-works.md %}).
 
-A playbook can be an autonomous mission, a reactive AI agent, or a journey route with defined steps. Some capture or campaign-like workflows can also appear in Playbooks; captures and campaigns have dedicated Help Center sections because their setup and operating models are different.
+A playbook can be an autonomous mission, a reactive AI agent, a journey route with defined steps, or a capture. Capture playbooks are available under **Playbooks** > **Explore playbooks** > **Captures**. Captures and campaigns have dedicated Help Center sections because their setup and operating models are different.
 
 Signals can include carts, browsing activity, purchases, stock changes, birthdays, replies, customer profile properties, and channel eligibility.
 

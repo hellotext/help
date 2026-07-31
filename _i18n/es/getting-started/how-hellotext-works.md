@@ -32,7 +32,7 @@ Buenos casos para playbooks incluyen:
 - Guiar solicitudes de cambio o devolución con [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}).
 - Guiar solicitudes de cancelación con [Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %}).
 
-Un playbook puede ser una misión preconstruida autónoma, un agente de IA reactivo o una ruta con pasos definidos. Algunos flujos de captura o similares a campañas también pueden aparecer en Playbooks; este Centro de Ayuda documenta capturas y campañas en secciones propias porque su configuración y forma de operar son distintas.
+Un playbook puede ser una misión preconstruida autónoma, un agente de IA reactivo, una ruta con pasos definidos o una captura. Los playbooks de captura están en **Playbooks** > **Explorar playbooks** > **Capturas**. Este Centro de Ayuda documenta capturas y campañas en secciones propias porque su configuración y forma de operar son distintas.
 
 Usa una **ruta** cuando el playbook debería seguir pasos predecibles: disparador, espera, mensaje, condición, rama y derivación.
 

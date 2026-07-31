@@ -2,11 +2,15 @@ Capture tools help people subscribe to your business from the places where they 
 
 Most tools create a subscription path. Some tools open SMS or WhatsApp with a pre-filled opt-in message. Others collect information directly on your website or during checkout. Webchat creates an on-site conversation entry point and can hand off to WhatsApp when configured.
 
+To find capture playbooks in Hellotext, open **Playbooks**, click **Explore playbooks**, and go to the **Captures** group.
+
 ## Choose a capture tool
 
 Use **QR codes** when customers are offline or already looking at printed material, packaging, displays, flyers, or receipts.
 
 Use **Shareable links** when you want to send people to an opt-in flow from social media, email, ads, landing pages, or an Instagram story.
+
+Use **Website Popup** when you want to collect phone numbers, email addresses, or other customer profile information in a multi-step experience without sending visitors away from your website.
 
 Use **Forms** when you want to collect contact details or custom profile properties directly on your website.
 
@@ -37,6 +41,7 @@ For webchat, test the launcher, teaser, opening sequence, Inbox ownership, and a
 ## Next steps
 
 - Set up [Webchat Widget]({% link _journeys/webchat-widget-playbook.md %}).
+- Create a [Website Popup]({% link _captures/website-popup.md %}).
 - Create a [QR code]({% link _captures/qr-codes.md %}).
 - Create a [shareable link]({% link _captures/shareable-link.md %}).
 - Create a [form]({% link _captures/forms.md %}).

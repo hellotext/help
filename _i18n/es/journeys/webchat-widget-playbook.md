@@ -63,7 +63,7 @@ Para validar la configuración, usa [Verifica tus datos y señales después de c
 
 ## Qué puedes configurar
 
-Abre **Playbooks**, haz click en **Explorar playbooks** y elige **Widget de Webchat**.
+Abre **Playbooks**, haz clic en **Explorar playbooks**, busca el grupo **Capturas** y elige **Widget de Webchat**.
 
 Widget de Webchat incluye:
 

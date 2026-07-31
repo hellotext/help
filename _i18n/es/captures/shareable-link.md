@@ -8,7 +8,7 @@ Además, puedes usar los links compartibles para ofrecer incentivos para unirse,
 
 ## Crear un Link Compartible
 
-Para crear un Link Compartible, desde la sección *Capturas*, haz clic en *Nuevo método de captura*. Luego, selecciona *Link Compartible*.
+Para crear un Link Compartible, abre **Playbooks**, haz clic en **Explorar playbooks**, busca el grupo **Capturas** y elige **Enlace Compartible**.
 
 ### Elige la aplicación que quieres que se abra con el enlace.
 

@@ -1,6 +1,6 @@
 Tu primer playbook debería validar un objetivo de negocio claro antes de ampliar.
 
-En Hellotext, un playbook puede ser una misión preconstruida autónoma, un agente de IA reactivo o una ruta con pasos definidos. Algunos flujos de captura o similares a campañas también pueden aparecer en Playbooks; este Centro de Ayuda les da secciones propias a capturas y campañas porque su configuración y forma de operar son distintas. Empieza con la opción más simple que pueda lograr el objetivo y darte aprendizaje útil.
+En Hellotext, un playbook puede ser una misión preconstruida autónoma, un agente de IA reactivo, una ruta con pasos definidos o una captura. Los playbooks de captura están en **Playbooks** > **Explorar playbooks** > **Capturas**. Este Centro de Ayuda les da secciones propias a capturas y campañas porque su configuración y forma de operar son distintas. Empieza con la opción más simple que pueda lograr el objetivo y darte aprendizaje útil.
 
 ## Antes de elegir
 

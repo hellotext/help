@@ -2,11 +2,15 @@ Las herramientas de captura ayudan a que las personas se suscriban a tu negocio 
 
 La mayoría de las herramientas crea un camino de suscripción. Algunas abren SMS o WhatsApp con un mensaje de opt-in prellenado. Otras recopilan información directamente en tu sitio web o durante el checkout. Webchat crea una entrada conversacional en el sitio y puede derivar a WhatsApp cuando está configurado.
 
+Para encontrar los playbooks de captura en Hellotext, abre **Playbooks**, haz clic en **Explorar playbooks** y ve al grupo **Capturas**.
+
 ## Elige una herramienta de captura
 
 Usa **códigos QR** cuando tus clientes están offline o mirando material impreso, packaging, exhibidores, folletos o recibos.
 
 Usa **links compartibles** cuando quieres llevar personas a un flujo de opt-in desde redes sociales, email, anuncios, landing pages o una historia de Instagram.
+
+Usa **Popup de Sitio Web** cuando quieres captar teléfonos, emails u otros datos del perfil del cliente mediante una experiencia de varios pasos sin sacar a los visitantes de tu sitio.
 
 Usa **formularios** cuando quieres recopilar datos de contacto o propiedades personalizadas del perfil directamente en tu sitio web.
 
@@ -37,6 +41,7 @@ Para webchat, prueba el lanzador, teaser, secuencia inicial, ownership en Inbox 
 ## Próximos pasos
 
 - Configura [Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %}).
+- Crea un [Popup de Sitio Web]({% link _captures/website-popup.md %}).
 - Crea un [código QR]({% link _captures/qr-codes.md %}).
 - Crea un [link compartible]({% link _captures/shareable-link.md %}).
 - Crea un [formulario]({% link _captures/forms.md %}).
