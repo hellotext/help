@@ -3,13 +3,7 @@ como nombre y apellido, o propiedades personalizadas que has creado para tu audi
 
 ## Crear un formulario
 
-Para crear un nuevo formulario, visita la sección de **Capturas** en el panel de control y haz clic en **Nueva Captura**. 
-
-<img src="images/captures/forms/es/new-capture-method.jpeg" alt="" width="768" />
-
-De las opciones disponibles, selecciona **Formulario Web** y serás dirigido al Editor de Formularios.
-
-<img src="images/captures/forms/es/click-form.jpeg" alt="" width="768" />
+Para crear un formulario, abre **Playbooks**, haz clic en **Explorar playbooks**, busca el grupo **Capturas** y elige **Formulario de Sitio Web**. Accederás al Editor de Formularios.
 
 ## Entendiendo los componentes
 

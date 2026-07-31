@@ -63,7 +63,7 @@ For setup validation, use [Verify your data and signals after setup]({% link _in
 
 ## What you can configure
 
-Open **Playbooks**, click **Explore playbooks**, and choose **Webchat Widget**.
+Open **Playbooks**, click **Explore playbooks**, find the **Captures** group, and choose **Webchat Widget**.
 
 Webchat Widget includes:
 

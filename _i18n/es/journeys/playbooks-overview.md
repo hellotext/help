@@ -4,7 +4,7 @@ Un playbook es un sistema reutilizable entrenado para una misión de negocio. Le
 
 Si estás comparando playbooks con campañas e Inbox, empieza por [Cómo funciona Hellotext]({% link _getting-started/how-hellotext-works.md %}).
 
-Un playbook puede ser una misión autónoma, un agente de IA reactivo o una ruta con pasos definidos. Algunos flujos de captura o similares a campañas también pueden aparecer en Playbooks; las capturas y campañas tienen secciones propias en el Centro de Ayuda porque su configuración y forma de operar son distintas.
+Un playbook puede ser una misión autónoma, un agente de IA reactivo, una ruta con pasos definidos o una captura. Los playbooks de captura están en **Playbooks** > **Explorar playbooks** > **Capturas**. Las capturas y campañas tienen secciones propias en el Centro de Ayuda porque su configuración y forma de operar son distintas.
 
 Las señales pueden incluir carritos, navegación, compras, cambios de stock, cumpleaños, respuestas, propiedades del perfil de cliente y elegibilidad por canal.
 

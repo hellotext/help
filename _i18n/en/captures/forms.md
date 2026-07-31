@@ -3,13 +3,7 @@ or custom properties you have created for your audience.
 
 ## Creating a Form
 
-To create a new Form, visit the **Captures** section on the dashboard, and click on **New Capture**. 
-
-<img src="images/captures/forms/en/new-capture-method.jpeg" alt="" width="768" />
-
-From available options to choose from, select **Website Form** and you will be taken to the Form Editor.
-
-<img src="images/captures/forms/en/click-form.jpeg" alt="" width="768" />
+To create a form, open **Playbooks**, click **Explore playbooks**, find the **Captures** group, and choose **Website Form**. You will be taken to the Form Editor.
 
 ## Understanding Components
 

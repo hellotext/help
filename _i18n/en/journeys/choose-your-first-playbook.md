@@ -1,6 +1,6 @@
 Your first playbook should prove one clear business outcome before you expand.
 
-In Hellotext, a playbook can be an autonomous prebuilt mission, a reactive AI agent, or a journey route with defined steps. Some capture or campaign-like workflows can also appear in Playbooks; this Help Center gives captures and campaigns dedicated sections because their setup and operating models are different. Start with the simplest option that can deliver the outcome and teach you something useful.
+In Hellotext, a playbook can be an autonomous prebuilt mission, a reactive AI agent, a journey route with defined steps, or a capture. Capture playbooks are available under **Playbooks** > **Explore playbooks** > **Captures**. This Help Center gives captures and campaigns dedicated sections because their setup and operating models are different. Start with the simplest option that can deliver the outcome and teach you something useful.
 
 ## Before you choose
 

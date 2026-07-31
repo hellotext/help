@@ -6,7 +6,7 @@ Plus, you can use shareable links to offer incentives for joining, such as coupo
 
 ## Create a Shareable Link capture
 
-To set up a Shareable Link capture, go to the *Captures* section and click on *New capture method*. Then, select *Shareable Link*. 
+To set up a Shareable Link, open **Playbooks**, click **Explore playbooks**, find the **Captures** group, and choose **Shareable Link**.
 
 ### Choose the app you want the link to open
 Choose the app you want the link to open once clicked. Available options are _SMS_ or _WhatsApp_. WhatsApp would only be available if you have integrated a WhatsApp account. And go to the next step.
