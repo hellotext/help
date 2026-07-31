@@ -1,138 +1,155 @@
-Los formularios te permiten crear formularios dinámicos basados en atributos integrados del perfil de cliente,
-como nombre y apellido, o propiedades personalizadas que has creado para tu audiencia.
+Formulario de Sitio Web te permite recopilar datos de contacto y otra información del perfil del cliente mediante un formulario integrado en una página de tu sitio.
 
-## Crear un formulario
+Es un playbook de captura, no un playbook agéntico ni una ruta. El formulario crea o actualiza un perfil del cliente. De forma opcional, puedes asignar un cupón y conectar la captura con una ruta de bienvenida o seguimiento.
 
-Para crear un formulario, abre **Playbooks**, haz clic en **Explorar playbooks**, busca el grupo **Capturas** y elige **Formulario de Sitio Web**. Accederás al Editor de Formularios.
+## Cuándo usar Formulario de Sitio Web
 
-## Entendiendo los componentes
+Usa Formulario de Sitio Web cuando quieras:
 
-### Hero
+- Integrar un formulario de suscripción o perfil dentro de una página existente.
+- Recopilar teléfono, email, nombre o propiedades personalizadas del perfil del cliente.
+- Compartir una versión del formulario alojada por Hellotext sin crear primero una página.
+- Entregar un cupón opcional después de completar el formulario.
+- Iniciar una ruta de bienvenida o seguimiento después de la captura.
 
-<img src="images/captures/forms/es/component-header.jpeg" alt="" width="768" />
+Usa un [Popup de Sitio Web]({% link _captures/website-popup.md %}) cuando la experiencia deba abrirse sobre la página o comenzar desde un botón flotante. Usa un [Enlace Compartible]({% link _captures/shareable-link.md %}) cuando la suscripción deba abrir SMS o WhatsApp con un mensaje previamente completado.
 
-El Hero es el encabezado del formulario. Es lo primero que ven los visitantes cuando se carga el formulario.
-Hellotext, al cargar el formulario, busca un elemento HTML con el atributo `data-form-hero` y carga el contenido dentro de él. 
-Si no encuentra el elemento, Hellotext crea manualmente el encabezado y lo añade al principio del formulario, asegurándose de que sea el primer componente en el elemento.
+## Antes de comenzar
 
-### Inputs
+Define dónde aparecerá el formulario y qué información necesitas al momento de la suscripción. Un teléfono o email suele ser suficiente para establecer un perfil del cliente útil. Solicita propiedades adicionales solo cuando tengan un propósito claro.
 
-<img src="images/captures/forms/es/component-inputs.jpeg" alt="" width="768" />
+También confirma:
 
-Los Inputs son los campos que los visitantes necesitan completar. Puedes especificar qué campos son obligatorios y cuáles no en el editor de formularios.
-En el editor de formularios, puedes agregar cualquier campo basado en una propiedad existente y controlar si el campo es obligatorio o no. Para cada Input, Hellotext genera un elemento HTML que se ve así
+- Qué propiedades estándar o personalizadas del perfil debe recopilar el formulario.
+- Qué campos son obligatorios.
+- Qué valor u oferta comunica la página.
+- Si se debe asignar un cupón después del envío.
+- Si se debe iniciar una ruta al completar el formulario.
+- Quién puede instalar el código generado si vas a integrar el formulario.
+- Que el aviso de consentimiento describa correctamente los mensajes que la persona acepta recibir.
 
-```html
-<article>
-  <label for=":id"></label>
-  <input type=":type" id=":id" name=":name" placeholder=":placeholder" required>
-  <div data-error-container></div>
-</article>
-```
+Para conocer los requisitos de elegibilidad y consentimiento, consulta [A quién puedes enviar mensajes]({% link _audience/consent-and-subscriber-status.md %}).
 
-Al igual que con el Hero, Hellotext busca un elemento HTML dentro del formulario con el identificador `data-form-inputs` 
-y carga los inputs dentro de él. El elemento `data-error-container` se utiliza y se muestra solo cuando el visitante intenta enviar el formulario y no ha completado los campos obligatorios.
+## Crear el formulario
 
-### Button
+1. Abre **Playbooks** y haz clic en **Explorar playbooks**.
+2. Busca el grupo **Capturas** y elige **Formulario de Sitio Web**.
+3. Asigna un nombre que identifique la ubicación o el propósito del formulario.
+4. Edita el encabezado y el contenido de apoyo.
+5. Agrega y configura los campos del perfil del cliente que necesites.
+6. Edita el botón de envío y el aviso de consentimiento.
+7. Haz clic en **Guardar y continuar**.
+8. Asigna un cupón y una ruta, u omite este paso opcional.
+9. Elige entre compartir el enlace alojado o integrar el formulario en tu sitio.
 
-<img src="images/captures/forms/es/component-button.jpeg" alt="" width="768" />
+Usa un nombre diferente para cada ubicación cuando necesites comparar resultados, por ejemplo `Footer del newsletter` o `Página de consultas mayoristas`.
 
-El botón del formulario es donde se realiza la presentación del formulario. 
-Hellotext busca un elemento `button` con el atributo `data-form-button` y carga el botón dentro de él. 
-Si no encuentra el elemento, Hellotext crea manualmente el botón y lo añade al formulario después de la sección de Inputs.
+## Configurar el contenido y los campos
 
-### Notice
+El editor permite configurar cuatro partes.
 
-<img src="images/captures/forms/es/component-footer.jpeg" alt="" width="768" />
+### Encabezado
 
-El Notice es el pie de página del formulario. Es lo último que verán los visitantes cuando se muestra el formulario.
-Hellotext busca un elemento HTML con el atributo `data-form-notice` y carga el contenido dentro de él. 
-Si no encuentra el elemento, Hellotext crea manualmente el pie de página y lo añade al formulario después de la sección del botón.
+![Editor del encabezado del Formulario de Sitio Web](images/captures/forms/es/component-header.jpeg)
 
-### Seguridad
+El encabezado contiene el título y el contenido de apoyo que aparecen antes de los campos. Úsalo para explicar por qué conviene completar el formulario y qué sucederá después.
 
-Hellotext previene el robo de identidad y la suplantación de otras personas. Además, Hellotext asegura que cualquier dato existente que tengas no sea alterado con datos no confiables. ¿Cómo?
+### Campos
 
-Cuando creas un formulario que tiene una propiedad de _Teléfono_ o _Correo Electrónico_, Hellotext envía un enlace de verificación al correo electrónico y/o número de teléfono ingresado por la persona que completó el formulario.
+![Editor de campos del Formulario de Sitio Web](images/captures/forms/es/component-inputs.jpeg)
 
-- Si han ingresado un correo electrónico, se envía un correo a esa dirección específica. Una vez que se haga clic en el enlace, el correo electrónico se verifica.
-- Si han ingresado un número de teléfono, se envía un SMS a ese número de teléfono específico. Una vez que se haga clic en el enlace, el número de teléfono se verifica.
+Los campos pueden usar información estándar como nombre, apellido, teléfono y email, además de las propiedades personalizadas compatibles que ya existan en los perfiles del cliente. Usa una etiqueta y un placeholder claros para cada campo, y márcalo como obligatorio solo cuando el formulario no pueda cumplir su propósito sin esa información.
 
-Una vez que todos los datos verificables han sido verificados, los datos se consideran _confiables_.
+Mantén el formulario enfocado. Un formulario corto es más fácil de completar desde un teléfono y permite enriquecer el perfil más adelante mediante conversaciones, compras u otros playbooks de captura.
 
-Una vez que se completa la verificación de un envío, Hellotext realiza una combinación automática (si es necesario) de todos los perfiles
-que tengan el mismo correo electrónico y/o número de teléfono. Después de la fusión automática, si una propiedad tiene varios valores,
-será visible en la página Audiencia y podrás ver los valores que se fusionaron y decidir cuál
-ignorar y cuál aceptar.
+### Botón
 
-## Entendiendo el código generado
+![Editor del botón del Formulario de Sitio Web](images/captures/forms/es/component-button.jpeg)
 
-Después de crear tu formulario, Hellotext te dará un fragmento de código que puedes opcionalmente insertar en tu sitio web,
-el cual se verá como el siguiente.
+El botón envía el formulario. Usa una etiqueta de acción breve que deje claro el resultado, como **Suscribirme**, **Recibir novedades** o **Enviar**.
 
-```html
-<form data-hello-form=":id">
-  <header data-form-hero>
-  </header>
+### Aviso
 
-  <main data-form-inputs>
-  </main>
+![Editor del aviso del Formulario de Sitio Web](images/captures/forms/es/component-footer.jpeg)
 
-  <button data-form-button>
-  </button>
+El aviso aparece después del botón y puede contener el consentimiento, la privacidad u otra información de apoyo. Confirma que coincida con los canales y tipos de mensajes que la persona acepta recibir.
 
-  <footer data-form-notice>
-  </footer>
-</form>
-```
+## Asignar un cupón y una ruta
 
-<div class="note--lavender-light flex space-x-2 justify-center items-center">
-  {% include icons/tip.svg %}
+La asignación de cupón y ruta es opcional.
 
-  <p>
-    Asegúrate de instalar <a class="active" target="_blank" href="https://github.com/hellotext/hellotext.js">Hellotext.js</a> para poblar dinámicamente el formulario.
-  </p>
-</div>
+Asigna un cupón solo cuando la página prometa un descuento por completar el formulario. Confirma que la oferta y sus condiciones coincidan con lo que la persona ve antes de enviarlo.
 
-### Personalización del diseño del formulario
+Asigna una ruta cuando la nueva persona suscrita deba entrar en un flujo de bienvenida o seguimiento. Comprueba que otra captura o integración no inicie ya la misma ruta para esta suscripción.
 
-Hellotext define un diseño fijo para los formularios. Sin embargo, puedes anular este diseño si lo deseas. 
-Para cambiar dónde carga Hellotext los componentes del formulario, puedes agregar componentes de plantilla que Hellotext poblará en lugar de crear.
+## Publicar el formulario
 
-Por ejemplo, si deseas mostrar el componente de botón después del componente de aviso,
-puedes definir los elementos `data-form-notice` y `data-form-button` como elementos vacíos. 
-Hellotext simplemente cargaría el contenido dentro de los elementos respectivos sin crear el diseño predeterminado.
+Después de guardar, Hellotext ofrece dos maneras de usar el formulario.
 
-```html
-<form data-hello-form=":id">
-  <footer data-form-notice>
-  </footer>
+### Compartir el enlace alojado
 
-  <button data-form-button>
-  </button>
-</form>
-```
+Copia el enlace generado cuando quieras que Hellotext aloje el formulario. Ábrelo en una pestaña nueva y prueba el envío completo antes de compartirlo con clientes.
 
-### Personalización del estilo del formulario
+### Integrarlo en tu sitio
 
-Hellotext envía formularios con un diseño básico en HTML para que puedas estilizarlos según tus preferencias y directrices 
-de marca. Los formularios de Hellotext tienen estilos mínimos para asegurar que se vean bien en cualquier sitio web. 
-Sin colores, sin bordes, sin rellenos, solo los elementos del formulario con diseños específicos.
+Usa el HTML generado cuando el formulario deba aparecer dentro de una de tus páginas.
 
-## Hellotext Attribution
+1. Confirma que el sitio esté conectado mediante una integración de ecommerce compatible o que tenga instalado [Hellotext.js](https://github.com/hellotext/hellotext.js).
+2. Copia el código generado exactamente como lo proporciona Hellotext.
+3. Pégalo dentro del cuerpo de la página donde debe aparecer.
+4. Aplica los estilos de tu sitio sin eliminar ni cambiar los atributos generados del formulario.
 
-El logo de Hellotext se muestra en la esquina inferior derecha del formulario. 
-Esto asegura que los visitantes sepan que el formulario está impulsado por Hellotext y que sus datos están seguros y protegidos.
+El código contiene el identificador que Hellotext utiliza para cargar la definición del formulario. Copia siempre el snippet actual desde el producto en lugar de reconstruirlo a partir de un ejemplo de esta guía.
 
-Esto forma parte de nuestra política de "White Label". Es necesario que este logo se muestre y se mantenga visible en el 
-formulario, a menos que el paquete al que te suscribas tenga la función de "White Label" habilitada.
+## Cómo funciona la verificación
 
-Para más información sobre los paquetes disponibles y las características, 
-consulta nuestra [página de precios](https://www.hellotext.com/precios).
+Cuando un envío incluye un teléfono o email nuevo, Hellotext puede enviar un enlace de verificación a ese destino. Esto protege la información existente del perfil y ayuda a evitar que alguien envíe los datos de contacto de otra persona.
+
+Es posible que visitantes ya identificados no tengan que repetir la verificación cuando el teléfono o email enviado coincida con su perfil del cliente. Una vez verificados los identificadores, Hellotext puede asociar la información de forma segura con un perfil existente y combinar perfiles coincidentes cuando sea necesario.
+
+## Probar antes de compartir
+
+Prueba la experiencia completa con datos de cliente a los que puedas acceder de forma segura.
+
+Confirma que:
+
+- El enlace alojado se abre o el formulario integrado carga en la página prevista.
+- El encabezado, los campos, el botón y el aviso se leen correctamente en computadoras y teléfonos.
+- Los campos obligatorios impiden envíos incompletos y explican qué falta.
+- El teléfono, el email y las propiedades personalizadas llegan al perfil del cliente correcto.
+- Los mensajes de verificación llegan a los teléfonos o emails nuevos.
+- El cupón asignado se entrega cuando hay uno configurado.
+- La ruta asignada comienza una sola vez después de completar el formulario.
+- Los estilos de la página no ocultan errores, etiquetas, el botón ni el aviso de consentimiento.
+
+Después de completar el formulario, el mismo navegador puede recordar que ya fue enviado. Usa una ventana privada cuando necesites repetir una prueba desde cero.
+
+## Si el formulario no carga
+
+Revisa estos puntos en orden:
+
+1. Confirma que el código generado esté presente en la página.
+2. Confirma que la integración de ecommerce conectada o Hellotext.js cargue correctamente.
+3. Compara el código integrado con el snippet actual que muestra Hellotext.
+4. Revisa si los estilos o scripts del sitio ocultan o reemplazan el formulario.
+5. Prueba el enlace alojado para diferenciar un problema de configuración de uno de instalación.
+6. Prueba en una ventana privada.
+
+Al reportar un problema, incluye el nombre del formulario, la URL probada, el dispositivo, la hora aproximada y si el formulario no cargó o falló después del envío.
 
 ## Eventos de JavaScript
 
-Los formularios dependen de [Hellotext.js](https://github.com/hellotext/hellotext.js), es necesario instalar Hellotext.js para poblar dinámicamente el formulario. A continuación se describen los eventos despachados por Hellotext.js:
+Los desarrolladores pueden escuchar estos eventos de Hellotext.js:
 
-- `forms:collected` - Se despacha cuando Hellotext ha recopilado todos los formularios. La recopilación significa que Hellotext ha contactado con la API y ha obtenido los datos del formulario. La carga útil del evento es un array de formularios que fueron recopilados.
-- `form:completed` - Se despacha cuando el visitante completa todos los campos requeridos en el formulario e ingresa exitosamente el código de contraseña de un solo uso que enviamos.
+- `forms:collected`: se emite después de que Hellotext carga las definiciones de los formularios encontrados en la página.
+- `form:completed`: se emite después de enviar correctamente un formulario.
+
+Usa el contenido del evento provisto por la versión instalada de Hellotext.js en lugar de depender de una estructura no documentada.
+
+## Guías relacionadas
+
+- [Resumen de herramientas de captura]({% link _captures/capture-overview.md %})
+- [Popup de Sitio Web]({% link _captures/website-popup.md %})
+- [Enlaces Compartibles]({% link _captures/shareable-link.md %})
+- [A quién puedes enviar mensajes]({% link _audience/consent-and-subscriber-status.md %})
+- [Primeros pasos con rutas]({% link _journeys/getting-started-with-journeys.md %})
