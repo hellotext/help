@@ -10,7 +10,7 @@ Start here when you do not yet have enough customers subscribed or identified fo
 
 Common options include:
 
-- **[Webchat Widget]({% link _journeys/webchat-widget-playbook.md %}):** chat with visitors directly on your site.
+- **[Webchat Widget]({% link _captures/webchat-widget-playbook.md %}):** chat with visitors directly on your site.
 - **QR Code Subscriber:** turn offline scans into WhatsApp or SMS subscribers.
 - **Website Popup:** capture visitors at the right moment.
 - **Website Form:** collect leads and customer profile data.
@@ -119,7 +119,7 @@ If you are unsure where to start, choose the mission that matches the first bott
 
 | If the bottleneck is... | Start with... |
 | --- | --- |
-| Not enough reachable customers | QR codes, website forms or popups, shareable links, or [Webchat Widget]({% link _journeys/webchat-widget-playbook.md %}) |
+| Not enough reachable customers | QR codes, website forms or popups, shareable links, or [Webchat Widget]({% link _captures/webchat-widget-playbook.md %}) |
 | Customers abandon carts | [Cart Saver]({% link _journeys/cart-saver-route.md %}) or [AI Cart Saver]({% link _journeys/ai-cart-saver-playbook.md %}) |
 | Shoppers are waiting for unavailable products | [Back-in-Stock Pounce]({% link _journeys/back-in-stock-pounce.md %}) |
 | Shoppers showed interest before a meaningful price drop | [Price-Drop Pouncer]({% link _journeys/price-drop-pouncer.md %}) |
@@ -152,7 +152,7 @@ Keep reading:
 - [Choose your first playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %})
-- [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %})
+- [Webchat Widget playbook]({% link _captures/webchat-widget-playbook.md %})
 - [Cart Saver route]({% link _journeys/cart-saver-route.md %})
 - [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Back-in-Stock Pounce playbook]({% link _journeys/back-in-stock-pounce.md %})
@@ -187,7 +187,7 @@ Keep reading:
 - [Choose your first playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %})
-- [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %})
+- [Webchat Widget playbook]({% link _captures/webchat-widget-playbook.md %})
 - [Back-in-Stock Pounce playbook]({% link _journeys/back-in-stock-pounce.md %})
 - [Price-Drop Pouncer playbook]({% link _journeys/price-drop-pouncer.md %})
 - [First-Purchase Driver playbook]({% link _journeys/first-purchase-driver-playbook.md %})

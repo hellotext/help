@@ -125,7 +125,7 @@ Para el comportamiento de derivación, usa [Derivación de IA al Inbox]({% link 
 
 ## Conéctalo con Webchat e Inbox
 
-Asistente de Cancelación de Pedidos puede funcionar bien con [Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %}) cuando los clientes necesitan ayuda post-compra rápida desde tu sitio.
+Asistente de Cancelación de Pedidos puede funcionar bien con [Widget de Webchat]({% link _captures/webchat-widget-playbook.md %}) cuando los clientes necesitan ayuda post-compra rápida desde tu sitio.
 
 Antes de lanzar, confirma:
 
@@ -181,7 +181,7 @@ Ajusta una cosa por vez: conocimiento de políticas, límites para salvar la ven
 - [Playbook Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
 - [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
 - [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
-- [Playbook Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %})
+- [Playbook Widget de Webchat]({% link _captures/webchat-widget-playbook.md %})
 - [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [Resumen de inbox y conversaciones]({% link _team/inbox-overview.md %})
 - [Tiempo de respuesta y reglas de respuesta]({% link _team/understanding-response-times.md %})

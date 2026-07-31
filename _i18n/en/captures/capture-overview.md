@@ -40,7 +40,7 @@ For webchat, test the launcher, teaser, opening sequence, Inbox ownership, and a
 
 ## Next steps
 
-- Set up [Webchat Widget]({% link _journeys/webchat-widget-playbook.md %}).
+- Set up [Webchat Widget]({% link _captures/webchat-widget-playbook.md %}).
 - Create a [Website Popup]({% link _captures/website-popup.md %}).
 - Create a [QR code]({% link _captures/qr-codes.md %}).
 - Create a [shareable link]({% link _captures/shareable-link.md %}).

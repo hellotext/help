@@ -37,7 +37,7 @@ Si un límite cruza un período cerrado, el tiempo restante continúa contando c
 
 Cada negocio tiene una Política de respuesta predeterminada. Esta política se usa cuando no existe una regla específica para el canal de la conversación.
 
-En planes Pro y Enterprise, puedes crear reglas de respuesta por canal, por ejemplo WhatsApp, SMS, [Webchat]({% link _journeys/webchat-widget-playbook.md %}), Instagram o Messenger. Si existe una regla para el canal, Hellotext usa esa regla. Si no, usa la Política de respuesta predeterminada.
+En planes Pro y Enterprise, puedes crear reglas de respuesta por canal, por ejemplo WhatsApp, SMS, [Webchat]({% link _captures/webchat-widget-playbook.md %}), Instagram o Messenger. Si existe una regla para el canal, Hellotext usa esa regla. Si no, usa la Política de respuesta predeterminada.
 
 Los cambios a una regla de respuesta aplican a nuevos temporizadores. Las conversaciones que ya tenían un temporizador activo conservan el límite que tenían cuando se inició.
 

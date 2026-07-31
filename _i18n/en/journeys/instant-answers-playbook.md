@@ -115,7 +115,7 @@ For handoff behavior, use [AI handoff to Inbox]({% link _team/ai-handoff-to-inbo
 
 ## Connect it to Webchat and Inbox
 
-Instant Answers can work well with [Webchat Widget]({% link _journeys/webchat-widget-playbook.md %}).
+Instant Answers can work well with [Webchat Widget]({% link _captures/webchat-widget-playbook.md %}).
 
 Webchat gives visitors a place to ask from the site. Instant Answers can answer supported questions after the conversation starts. The Inbox gives your team a place to handle exceptions, handoffs, and follow-up replies.
 
@@ -168,7 +168,7 @@ If you want to measure satisfaction after resolved support conversations, use [C
 - [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [CSAT Pulse playbook]({% link _journeys/csat-pulse-playbook.md %})
-- [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %})
+- [Webchat Widget playbook]({% link _captures/webchat-widget-playbook.md %})
 - [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
 - [Return & Exchange Helper playbook]({% link _journeys/return-and-exchange-helper-playbook.md %})
 - [Order Cancellation Assistant playbook]({% link _journeys/order-cancellation-assistant-playbook.md %})

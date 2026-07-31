@@ -183,7 +183,7 @@ Ajusta una cosa por vez: audiencia, canal, mensaje, estrategia de descuento, con
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Seguimiento de eventos]({% link _developers/tracking-events.md %})
 - [Resumen de herramientas de captura]({% link _captures/capture-overview.md %})
-- [Playbook Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %})
+- [Playbook Widget de Webchat]({% link _captures/webchat-widget-playbook.md %})
 - [Playbook Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %})
 - [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %})
 - [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})

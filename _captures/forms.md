@@ -1,6 +1,11 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: playbooks
+avatar:
+  icon: form
+  color: blush
+
 en:
   title: Website Form
   description: Collect customer profile information through a hosted or embedded website form.

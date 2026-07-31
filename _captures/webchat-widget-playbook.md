@@ -1,7 +1,7 @@
 ---
 languages: ["en", "es"]
 
-navigation_group: capture
+navigation_group: playbooks
 avatar:
   icon: message
   color: tiger
@@ -17,7 +17,7 @@ permalink: webchat-widget-playbook
 permalink_es: widget-webchat
 
 layout: guide
-topic: journeys
+topic: captures
 ---
 
-{% translate_file journeys/webchat-widget-playbook.md %}
+{% translate_file captures/webchat-widget-playbook.md %}

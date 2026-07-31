@@ -40,7 +40,7 @@ Para webchat, prueba el lanzador, teaser, secuencia inicial, ownership en Inbox 
 
 ## Próximos pasos
 
-- Configura [Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %}).
+- Configura [Widget de Webchat]({% link _captures/webchat-widget-playbook.md %}).
 - Crea un [Popup de Sitio Web]({% link _captures/website-popup.md %}).
 - Crea un [código QR]({% link _captures/qr-codes.md %}).
 - Crea un [link compartible]({% link _captures/shareable-link.md %}).

@@ -55,7 +55,7 @@ Usa esta tabla como mapa rápido:
 | **Conocimiento** | Agentes de IA de venta o atención | Qué información usa el agente para responder. |
 | **Canales de entrada/salida** | Playbooks que permiten selección de canales | Dónde puede responder o enviar mensajes. |
 | **Descuentos** | Playbooks de venta que permiten ofertas | Qué reglas de oferta del ecommerce y límites de descuento con IA puede usar el agente. |
-| **Derivación** | Agentes de IA, atención, [Webchat]({% link _journeys/webchat-widget-playbook.md %}) y algunos playbooks personalizados | Quién toma la conversación cuando el agente no debe seguir. |
+| **Derivación** | Agentes de IA, atención, [Webchat]({% link _captures/webchat-widget-playbook.md %}) y algunos playbooks personalizados | Quién toma la conversación cuando el agente no debe seguir. |
 | **Pasos de ruta** | Journeys o rutas | Secuencia, esperas, ramas, asignaciones y salida del flujo. |
 
 Si una tarjeta no aparece en el playbook, no fuerces ese concepto en la configuración. Significa que esa parte no aplica o está manejada por la lógica del playbook.
@@ -143,7 +143,7 @@ Si el playbook nunca debería ofrecer descuentos, déjalo explícito en la confi
 
 ## Personaliza derivación
 
-Esta sección aplica a agentes de IA, playbooks de atención, [Webchat]({% link _journeys/webchat-widget-playbook.md %}) y playbooks personalizados que muestran configuración de **Derivación**.
+Esta sección aplica a agentes de IA, playbooks de atención, [Webchat]({% link _captures/webchat-widget-playbook.md %}) y playbooks personalizados que muestran configuración de **Derivación**.
 
 No todos los playbooks necesitan que definas reglas manuales. Algunos playbooks de atención derivan automáticamente cuando no pueden responder, cuando una regla lo indica o cuando la consulta necesita una persona. Algunos playbooks también pueden derivar si detectan enojo, producto defectuoso o una solicitud que no puede resolver el playbook activo.
 
@@ -207,7 +207,7 @@ Si los resultados se mueven en la dirección equivocada, revierte primero el cam
 - [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
 - [Cómo escribir un gran prompt para tu agente]({% link _journeys/how-to-write-a-great-prompt.md %})
-- [Playbook Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %})
+- [Playbook Widget de Webchat]({% link _captures/webchat-widget-playbook.md %})
 - [Playbook Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
 - [Playbook Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})
 - [Playbook Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %})

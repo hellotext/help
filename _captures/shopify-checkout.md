@@ -1,6 +1,8 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: checkout
+
 en:
   title: Subscribe on Shopify Checkout
   description: Capture new subscribers enabling the Subscription opt-in checkbox on the checkout page.

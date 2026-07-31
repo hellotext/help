@@ -37,7 +37,7 @@ If a deadline crosses a closed period, the remaining time continues counting whe
 
 Every business has a Default response policy. This policy applies when there is no more specific rule for the conversation's channel.
 
-On Pro and Enterprise plans, you can create response rules for specific channels such as WhatsApp, SMS, [Webchat]({% link _journeys/webchat-widget-playbook.md %}), Instagram, or Messenger. When a channel-specific rule exists, Hellotext uses that rule for conversations on that channel. Otherwise, it uses the Default response policy.
+On Pro and Enterprise plans, you can create response rules for specific channels such as WhatsApp, SMS, [Webchat]({% link _captures/webchat-widget-playbook.md %}), Instagram, or Messenger. When a channel-specific rule exists, Hellotext uses that rule for conversations on that channel. Otherwise, it uses the Default response policy.
 
 Changes to a response rule apply to new response timers. Conversations that already have an active timer keep the deadline that was created when the timer started.
 

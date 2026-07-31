@@ -12,7 +12,7 @@ If you want to follow up on low loyalty scores after delivery, use [NPS Pulse]({
 
 ## How conversations move through the inbox
 
-A conversation can start when a customer replies to a message, writes through a connected channel such as [Webchat]({% link _journeys/webchat-widget-playbook.md %}), or needs attention after a playbook, route, order, or tracked event.
+A conversation can start when a customer replies to a message, writes through a connected channel such as [Webchat]({% link _captures/webchat-widget-playbook.md %}), or needs attention after a playbook, route, order, or tracked event.
 
 Your team can keep the conversation unassigned, assign it to a teammate, reassign it to someone else, or close it when no further action is needed.
 
@@ -56,7 +56,7 @@ When a teammate replies from the inbox, the message editor provides formatting, 
 
 Keep reading: [Message editor overview]({% link _numbers/message-editor-overview.md %}).
 
-For website conversations, also review [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %}).
+For website conversations, also review [Webchat Widget playbook]({% link _captures/webchat-widget-playbook.md %}).
 
 For satisfaction after closed conversations, also review [CSAT Pulse playbook]({% link _journeys/csat-pulse-playbook.md %}).
 

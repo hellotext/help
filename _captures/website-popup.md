@@ -1,6 +1,11 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: playbooks
+avatar:
+  icon: popup
+  color: lavender
+
 en:
   title: Website Popup
   description: Design and install a multi-step popup that turns website visitors into subscribed customer profiles.

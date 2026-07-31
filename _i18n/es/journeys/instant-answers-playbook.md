@@ -115,7 +115,7 @@ Para el comportamiento de derivación, usa [Derivación de IA al Inbox]({% link 
 
 ## Conéctalo con Webchat e Inbox
 
-Respuestas Instantáneas puede funcionar muy bien con [Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %}).
+Respuestas Instantáneas puede funcionar muy bien con [Widget de Webchat]({% link _captures/webchat-widget-playbook.md %}).
 
 Webchat le da a visitantes un lugar para preguntar desde el sitio. Respuestas Instantáneas puede responder preguntas soportadas después de que empieza la conversación. El Inbox le da a tu equipo un lugar para manejar excepciones, derivaciones y respuestas de seguimiento.
 
@@ -168,7 +168,7 @@ Si quieres medir satisfacción después de conversaciones de soporte resueltas, 
 - [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [Playbook Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %})
-- [Playbook Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %})
+- [Playbook Widget de Webchat]({% link _captures/webchat-widget-playbook.md %})
 - [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
 - [Playbook Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %})
 - [Playbook Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %})
