@@ -1,4 +1,70 @@
 #!/usr/bin/env ruby
 
+unless ENV['HELLOTEXT_JEKYLL_RBENV_BOOTSTRAPPED']
+  ruby_version = File.read(File.expand_path('../.ruby-version', __dir__)).strip
+  rbenv = [
+    '/opt/homebrew/bin/rbenv',
+    File.expand_path('~/.rbenv/bin/rbenv')
+  ].find { |path| File.executable?(path) }
+
+  if rbenv && RUBY_VERSION != ruby_version
+    ENV['RBENV_VERSION'] = ruby_version
+    ENV['HELLOTEXT_JEKYLL_RBENV_BOOTSTRAPPED'] = '1'
+    exec(rbenv, 'exec', 'ruby', __FILE__, *ARGV)
+  end
+end
+
+require 'socket'
+
 port = ARGV[0] || 4000
-system("bundle exec jekyll serve --trace --port #{port} --livereload")
+postcss_port = 8124
+postcss_pid = nil
+rbenv = [
+  '/opt/homebrew/bin/rbenv',
+  File.expand_path('~/.rbenv/bin/rbenv')
+].find { |path| File.executable?(path) }
+
+def port_open?(port)
+  TCPSocket.open('127.0.0.1', port).close
+  true
+rescue Errno::ECONNREFUSED
+  false
+end
+
+unless port_open?(postcss_port)
+  postcss_script = File.join(
+    Gem::Specification.find_by_name('jekyll-postcss').full_gem_path,
+    'bin',
+    'postcss'
+  )
+
+  postcss_pid = spawn(postcss_script, '--development')
+
+  100.times do
+    break if port_open?(postcss_port)
+
+    sleep 0.1
+  end
+
+  abort 'Could not start the PostCSS server' unless port_open?(postcss_port)
+end
+
+at_exit do
+  Process.kill('TERM', postcss_pid) if postcss_pid
+rescue Errno::ESRCH
+end
+
+bundle_command = rbenv ? [rbenv, 'exec', 'bundle'] : ['bundle']
+
+system(
+  *bundle_command,
+  'exec',
+  'jekyll',
+  'serve',
+  '--trace',
+  '--port',
+  port.to_s,
+  '--host',
+  '127.0.0.1',
+  '--livereload'
+)

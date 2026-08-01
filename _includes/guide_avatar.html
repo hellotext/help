@@ -1,0 +1,8 @@
+{% assign avatar = include.guide.avatar %}
+{% if avatar and avatar.icon %}
+  {% assign avatar_size = include.size | default: "card" %}
+  {% assign avatar_color = avatar.color | default: "lavender" %}
+  <span class="guide-avatar guide-avatar--{{ avatar_size }} guide-avatar--{{ avatar_color }}" aria-hidden="true">
+    <img src="/images/icons/playbooks/{{ avatar.icon }}.svg" alt="" width="24" height="24" />
+  </span>
+{% endif %}

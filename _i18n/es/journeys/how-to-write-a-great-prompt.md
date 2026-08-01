@@ -2,9 +2,11 @@ En Hellotext, cada Agente de IA comienza con un ingrediente único y sencillo: e
 
 El prompt define la personalidad, el tono, el propósito y los límites del agente.
 
-Es lo que transforma una automatización abstracta en una verdadera voz de marca, capaz de vender, asistir o cautivar a los clientes como si fuera una persona de tu propio equipo.
+Es lo que convierte un agente de IA o playbook en una verdadera voz de marca, capaz de vender, asistir o cautivar a los clientes como si fuera una persona de tu propio equipo.
 
 Escribir un gran prompt no tiene tanto que ver con la técnica sino más bien con la claridad y la intención. Cuanto mejor definas quién es el agente, cómo debe hablar y qué no debe hacer nunca, más fielmente representará a tu marca.
+
+Si estás escribiendo el prompt para un agente personalizado, primero define la misión, intenciones, conocimiento, canales y camino de derivación en [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %}).
 
 En este artículo:
 
@@ -28,7 +30,7 @@ Cada agente en Hellotext puede realizar una amplia gama de acciones de forma aut
 
 También puede buscar en URLs o documentos que adjuntes —como una sección de preguntas frecuentes, una guía de políticas o un manual de producto—, de modo que siempre responda con información verificada en lugar de adivinar.
 
-Los agentes pueden recopilar y guardar cualquier propiedad de perfil de cliente que elijas, desde el nombre y la ciudad hasta la talla o los intereses preferidos. También pueden decidir cuándo escalar una conversación a un humano, siguiendo las reglas que definas en el Editor de Rutas.
+Los agentes pueden recopilar y guardar cualquier propiedad de perfil de cliente que elijas, desde el nombre y la ciudad hasta la talla o los intereses preferidos. También pueden decidir cuándo derivar una conversación a una persona, siguiendo las reglas de derivación que definas.
 
 Y, lo más importante, cada mensaje que envían pasa por los controles de privacidad y tono de Hellotext, garantizando una voz de marca coherente y el cumplimiento normativo en todos los canales.
 
@@ -68,7 +70,7 @@ Esta información le da al agente un punto de referencia para fundamentar sus re
 
 Termina estableciendo qué puede y qué no puede hacer el agente. Piensa en esto como su código de conducta.
 
-Indica cuándo debe pedir más información, cuándo debe detenerse y cuándo debe escalar a un humano.
+Indica cuándo debe pedir más información, cuándo debe detenerse y cuándo debe derivar a una persona.
 
 > Astra debe saludar siempre al visitante por su nombre, si está disponible, y hacer una pregunta por vez para entender la ocasión o la preferencia.
 >
@@ -92,9 +94,11 @@ Si quieres que el agente recopile o actualice datos de perfil durante las conver
 “Cada vez que un cliente mencione su ciudad o talla, guarda esa información automáticamente en su perfil.”
 
 También puedes darle instrucciones sobre cómo manejar las derivaciones:
-“Si el cliente expresa insatisfacción o menciona un reembolso, escala el caso al equipo humano ‘Devoluciones’.”
+“Si el cliente expresa insatisfacción o menciona un reembolso, deriva el caso al equipo ‘Devoluciones’.”
 
 Detrás de escena, el Supervisor de Hellotext enruta estas intenciones —ya sean recomendaciones de producto, preguntas de soporte o actualizaciones de perfil— hacia los agentes correspondientes definidos en tu espacio de trabajo.
+
+Sigue leyendo: [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %}).
 
 ## Un ejemplo de prompt modelo
 
@@ -115,7 +119,7 @@ Aquí tienes un ejemplo completo y claro que puedes adaptar para tu propia marca
 >
 > Guarda automáticamente el nombre, la ciudad y las tallas preferidas del cliente para futuras interacciones.
 >
-> Escala cualquier consulta compleja sobre inventario, ventas al por mayor o colaboraciones especiales al equipo humano “Atención al Cliente”.
+> Deriva cualquier consulta compleja sobre inventario, ventas al por mayor o colaboraciones especiales al equipo humano “Atención al Cliente”.
 
 Este prompt es simple pero completo: define la voz, el propósito, el alcance y los límites. Está escrito en el mismo tono natural que experimentarán los clientes.
 
@@ -135,7 +139,7 @@ Cuando una conversación comienza, el Supervisor de Hellotext interpreta la inte
 
 Cada respuesta pasa por varios servicios antes de llegar al cliente.
 
-Tu prompt es la base sobre la que operan todos estos sistemas. Define cómo la inteligencia, la automatización y la personalidad de tu marca se unen en una experiencia coherente.
+Tu prompt es la base sobre la que operan todos estos sistemas. Define cómo la inteligencia, las reglas de negocio y la personalidad de tu marca se unen en una experiencia coherente.
 
 ## Reflexión final
 

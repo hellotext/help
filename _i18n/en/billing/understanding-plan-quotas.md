@@ -18,9 +18,9 @@ We apply a single rule: you pay only the highest amount among these four items f
 
 ### 1) Performance fee (2–5%)
 
-% applied to sales attributable to Hellotext messages/channels within the current window. Plan breakpoints: **3%** from **US$ 2,500** (Small), **2%** from **US$ 15,000** (Grow), **1%** from **US$ 250,000** (Enterprise).
+% applied to revenue attributed to Hellotext messages, campaigns, playbooks, routes, or eligible interactions. Plan breakpoints: **5%** (Starter), **4%** from **US$ 2,000** (Small), **3%** from **US$ 10,000** (Grow), **2.5%** from **US$ 30,000** (Pro), and **2%** from **US$ 100,000** (Enterprise).
 
-> **Attribution (updated rule):** *last non‑direct click*; 24 h per impacted phone; 7 days if the shopper clicks your short link on the same device; excludes manual entries, sales not tied to Hellotext, and purchases in conversations handled by a human.
+> **Attribution:** Hellotext evaluates eligible source evidence and source precedence. The default windows are 24 hours for eligible delivery or other passive evidence, and seven days from an eligible click or engagement. Account configuration can differ. See [How we attribute sales]({% link _analytics-reporting-attribution/sales-attribution.md %}).
 
 ### 2) Multichannel AI messages (fair‑use)
 
@@ -28,7 +28,7 @@ Included at no extra cost when **plan minimum**, **performance %**, or **SMS** a
 
 ### 3) SMS by country
 
-Per‑message costs in local currency; they follow the “pay only the highest” rule. See the table in [Pricing explanation](https://www.hellotext.com/precios#sms) for current values.
+Per‑message costs in local currency; they follow the “pay only the highest” rule. See the table in [Pricing explanation](https://www.hellotext.com/pricing#sms) for current values.
 
 ### 4) Plan minimum
 
@@ -85,9 +85,9 @@ SMS costs, Variable fee (US$ 2/1,000) }*
 
 ## Frequently asked questions
 
-**Which sales are considered “attributable”?**
+**What are sales attributed to Hellotext?**
 
-Those where Hellotext was the last non‑direct click before purchase, within 24 h per impacted phone, or 7 days if the shopper clicked your short link on the same device. We do not count manual entries, sales not tied to Hellotext, and purchases in conversations handled by humans.
+They are sales that meet Hellotext's published attribution methodology. The decision uses eligible evidence, source precedence, customer and order identity, and the applicable default window: 24 hours for eligible delivery or passive evidence, or seven days from an eligible click or engagement. A recognized external marketing source takes precedence. See [How we attribute sales]({% link _analytics-reporting-attribution/sales-attribution.md %}).
 
 **Where can I see SMS rates and available countries?**
 
@@ -97,4 +97,4 @@ They are charged in local currency and follow the highest‑only rule.
 
 **What does each plan include besides price?**
 
-Members, playbooks access, support levels, and activity history, plus advanced features on higher plans (Grow/Enterprise).
+Members, playbooks access, support levels, and activity history, plus advanced features on higher plans (Grow/Pro/Enterprise).

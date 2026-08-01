@@ -2,11 +2,11 @@
 languages: ["en", "es"]
 
 en:
-  title: Organizing contacts into Lists
-  description: The simplest way to organize contacts and subscribers.
+  title: Create and manage lists
+  description: The simplest way to organize customer profiles and subscribers.
 es:
-  title: Organizando contactos en Listas
-  description: La manera más sencilla de organizar contactos y suscriptores.
+  title: Crea y gestiona listas
+  description: La manera más sencilla de organizar perfiles de cliente y suscriptores.
 
 permalink: lists
 permalink_es: listas

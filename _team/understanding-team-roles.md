@@ -2,11 +2,11 @@
 languages: ["en", "es"]
 
 en:
-  title: Understanding team roles
+  title: Team roles and permissions
   description: Use team roles to adjust the scope of what team members can see and do according to their responsibilities.
 
 es:
-  title: Diferencias entre roles de equipo
+  title: Roles y permisos de equipo
   description: Utiliza roles para ajustar lo que cada miembro de tu equipo puede hacer de acuerdo a sus responsabilidades.
 
 permalink: understanding-team-roles

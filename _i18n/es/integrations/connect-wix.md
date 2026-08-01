@@ -10,7 +10,7 @@ Las siguientes actividades son rastreadas automáticamente:
 * Órdenes realizadas
 * Órdenes actualizadas
 
-Con esta información, podrás crear audiencias segmentadas y campañas promocionales mucho más efectivas.
+Con esta información, Hellotext puede construir perfiles de cliente más completos, crear segmentos, activar playbooks o rutas y medir qué ocurre después de cada mensaje.
 
 ## Conecta tu sitio Wix
 
@@ -30,7 +30,7 @@ Marca la casilla para autorizar a Hellotext a conectarse con tu sitio y haz clic
 
 <img src="images/integrations/wix/es/wix-authorize.jpeg" alt="" width="768" />
 
-Si lo deseas, puedes importar tus clientes de Wix a Hellotext. Esto te facilita comenzar a ver la actividad de tus usuarios en tu sitio.
+Si lo deseas, puedes importar tus clientes de Wix a Hellotext. Esto te facilita comenzar a ver la actividad de tus clientes en tu sitio.
 
 Marca la casilla *Sí* y haz clic en *Continuar*.
 
@@ -46,10 +46,10 @@ Si ves tu sitio de Wix, tu integración se ha realizado correctamente.
 
 ## Siguientes pasos
 
-A partir de ahora, comenzarás a ver reflejada la actividad de tus clientes desde la sección de Audiencia o desde la Bandeja.
+A partir de ahora, comenzarás a ver reflejada la actividad de tus clientes en Audiencia y en el Inbox.
 
 Podrás hacer clic en cada perfil para ver el historial de actividades que realizan en tu eCommerce.
 
-Con esta información, podrás crear segmentos para el envío de campañas y automatizaciones desde la sección Rutas.
+Usa esta actividad como señales para segmentos, playbooks, rutas, segmentación de campañas y reportes.
 
-Recuerda activar la **[Casilla de aceptación de suscripción en el formulario de compra](/es/wix-checkout)** de tu sitio Wix para obtener el consentimiento de tus clientes para recibir promociones.
+Recuerda activar la **[Casilla de aceptación de suscripción en el formulario de compra]({% link _captures/wix-checkout.md %})** de tu sitio Wix para obtener el consentimiento de tus clientes para recibir promociones.

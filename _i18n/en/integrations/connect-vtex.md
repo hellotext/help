@@ -1,7 +1,7 @@
-When you connect your VTEX Store to Infobip with our Exchange app, you can:
+When you connect your VTEX store to Hellotext with our Exchange app, you can:
 
-- Sync your customer data to Profiles so that you can easily reach out to them via WhatsApp or SMS.
-- Install Hellotext pixel that tracks customer activity on your website and reports back to Hellotext for better ROI and KPI measurement to aid in understanding how your campaigns perform.
+- Sync customer data into customer profiles so Hellotext can use it for segmentation, messaging, playbooks, and reporting.
+- Install the Hellotext pixel to track customer activity on your website and turn that activity into signals for attribution, recommendations, playbooks, campaigns, and ROI measurement.
 
 ### What you'll need
 
@@ -46,8 +46,8 @@ Based on the domain you chose, Hellotext will construct Product and SKU urls for
 
 #### Pixel Installation
 
-In this step. You are asked to install the Hellotext pixel on your VTEX account. Installing the pixel
-will unlock true insights into what your customers do on the website. Including,
+In this step, you are asked to install the Hellotext pixel on your VTEX account. Installing the pixel
+unlocks insight into what your customers do on the website, including:
 
 - Page Views
 - Product Views
@@ -84,7 +84,7 @@ The Hellotext pixel tracks activity on the storefront but cannot run inside VTEX
 
 Click Save.
 
-Once saved, Hellotext will identify shoppers as soon as they enter their email or phone during checkout, even if they dont complete the purchase.
+Once saved, Hellotext will identify shoppers as soon as they enter their email or phone during checkout, even if they do not complete the purchase.
 
 Fore more information. Checkout the source code of <a href="https://github.com/hellotext/vtex-checkout">vtex-checkout</a>.
 

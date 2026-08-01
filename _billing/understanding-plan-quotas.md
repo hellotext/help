@@ -2,10 +2,10 @@
 languages: ["en", "es"]
 
 en:
-  title: Understanding plan quotas
-  description: "See what’s included in your plan and how usage counts toward your bill."
+  title: Plan usage and quotas
+  description: "See what is included in your plan and how usage counts toward your bill."
 es:
-  title: Conociendo los consumos del plan
+  title: Uso y consumos del plan
   description: "Conoce qué incluye tu plan y cómo se cuentan tus consumos."
 
 permalink: understanding-plan-quotas

@@ -2,11 +2,11 @@
 languages: ["en", "es"]
 
 en:
-  title: Assigning conversations
+  title: Assign conversations
   description: Reduce response times and increase both customer and team satisfaction with a clear chain of responsibility.
 
 es:
-  title: Asignando conversaciones
+  title: Asigna conversaciones
   description: Reduce los tiempos de respuesta y aumenta la satisfacción del cliente y del equipo manteniendo una cadena clara de responsabilidad.
 
 permalink: assigning-conversations
