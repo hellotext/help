@@ -3,11 +3,11 @@ languages: ["en", "es"]
 
 en:
   title: Team roles and permissions
-  description: Use team roles to adjust the scope of what team members can see and do according to their responsibilities.
+  description: Compare Owner, Administrator, Manager, and Agent access, then choose the right role for each teammate.
 
 es:
   title: Roles y permisos de equipo
-  description: Utiliza roles para ajustar lo que cada miembro de tu equipo puede hacer de acuerdo a sus responsabilidades.
+  description: Compara el acceso de Dueño, Administrador, Manager y Agente para elegir el rol correcto para cada persona.
 
 permalink: understanding-team-roles
 permalink_es: diferencias-entre-roles-de-equipo

@@ -2,6 +2,8 @@ Response times help your team understand how quickly customers receive replies a
 
 Response rules define the targets Hellotext uses to decide whether a customer wait is on track, at risk, delayed, or overdue.
 
+Response health is separate from the conversation lifecycle. An assigned or unassigned conversation can need attention while it remains open. Keep reading: [Conversation lifecycle in Inbox]({% link _team/conversation-lifecycle.md %}).
+
 > Response rules are available on Pro and Enterprise plans.
 
 ## What response rules do
@@ -37,7 +39,7 @@ If a deadline crosses a closed period, the remaining time continues counting whe
 
 Every business has a Default response policy. This policy applies when there is no more specific rule for the conversation's channel.
 
-On Pro and Enterprise plans, you can create response rules for specific channels such as WhatsApp, SMS, [Webchat]({% link _journeys/webchat-widget-playbook.md %}), Instagram, or Messenger. When a channel-specific rule exists, Hellotext uses that rule for conversations on that channel. Otherwise, it uses the Default response policy.
+On Pro and Enterprise plans, you can create response rules for specific channels such as WhatsApp, SMS, [Webchat]({% link _captures/webchat-widget-playbook.md %}), Instagram, or Messenger. When a channel-specific rule exists, Hellotext uses that rule for conversations on that channel. Otherwise, it uses the Default response policy.
 
 Changes to a response rule apply to new response timers. Conversations that already have an active timer keep the deadline that was created when the timer started.
 
@@ -112,3 +114,9 @@ Create channel-specific rules when some channels need faster or slower response 
 Keep Business hours accurate so response times reflect when your team is actually available.
 
 Review conversations, teams, teammates, and reports regularly to detect delays before they affect the customer experience.
+
+## Related guides
+
+- [Teams and Inbox capacity]({% link _team/teams-and-inbox-capacity.md %})
+- [Assign conversations]({% link _team/assigning-conversations.md %})
+- [Conversation lifecycle in Inbox]({% link _team/conversation-lifecycle.md %})

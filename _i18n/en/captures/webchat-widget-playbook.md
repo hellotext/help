@@ -128,6 +128,8 @@ Avoid teaser copy that feels like a forced popup or a promise your team cannot k
 
 If you use a custom teaser sequence, test the full path from teaser to opening message so the copy does not repeat itself.
 
+When [Subscriber Booster]({% link _captures/subscriber-booster-playbook.md %}) is enabled, the teaser can invite a new visitor to subscribe in exchange for a first-purchase incentive. Subscriber Booster handles the consent conversation after the visitor opens it.
+
 ## Configure channel handoff
 
 Webchat can hand off or continue the conversation through another channel, commonly WhatsApp.
@@ -184,6 +186,8 @@ Tune one part at a time: placement, trigger, delay, teaser, opening sequence, ha
 ## Related guides
 
 - [Capture tools overview]({% link _captures/capture-overview.md %})
+- [Subscriber Booster playbook]({% link _captures/subscriber-booster-playbook.md %})
+- [Property Collector playbook]({% link _captures/property-collector-playbook.md %})
 - [Playbook library by mission]({% link _journeys/playbook-library-by-mission.md %})
 - [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %})

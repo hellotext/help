@@ -27,7 +27,7 @@ Use one capture path first:
 - QR code for stores, events, packaging, or printed material.
 - Shareable link for social, ads, email, and landing pages.
 - Website form or popup for visitors already on your site.
-- [Webchat Widget]({% link _journeys/webchat-widget-playbook.md %}) for visitors who want to ask questions from the site.
+- [Webchat Widget]({% link _captures/webchat-widget-playbook.md %}) for visitors who want to ask questions from the site.
 - Checkout opt-in when customers are already buying.
 
 Expected win: more reachable customer profiles and cleaner consent for future playbooks and campaigns.
@@ -144,7 +144,7 @@ Keep reading: [Measure success in your first 7 days]({% link _getting-started/me
 - [Instant Answers playbook]({% link _journeys/instant-answers-playbook.md %})
 - [Return & Exchange Helper playbook]({% link _journeys/return-and-exchange-helper-playbook.md %})
 - [Order Cancellation Assistant playbook]({% link _journeys/order-cancellation-assistant-playbook.md %})
-- [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %})
+- [Webchat Widget playbook]({% link _captures/webchat-widget-playbook.md %})
 - [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})
 - [Capture tools overview]({% link _captures/capture-overview.md %})
 - [Inbox and conversations overview]({% link _team/inbox-overview.md %})

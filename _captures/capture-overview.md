@@ -1,6 +1,8 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: foundations
+
 en:
   title: Capture tools overview
   description: Choose the right capture tool for each place where customers can subscribe.

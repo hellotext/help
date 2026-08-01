@@ -183,7 +183,7 @@ Tune one thing at a time: audience, channel, message, discount strategy, product
 - [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})
 - [Tracking events]({% link _developers/tracking-events.md %})
 - [Capture tools overview]({% link _captures/capture-overview.md %})
-- [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %})
+- [Webchat Widget playbook]({% link _captures/webchat-widget-playbook.md %})
 - [Browse Recovery playbook]({% link _journeys/browse-recovery-playbook.md %})
 - [Cart Saver route]({% link _journeys/cart-saver-route.md %})
 - [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %})

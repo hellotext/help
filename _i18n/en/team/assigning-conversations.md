@@ -1,31 +1,88 @@
-Assigning conversations allows you and your team to have a clear chain of responsibility for each conversation at any given moment, making it easier to understand which conversations everyone is expected to take care of.
+Assignment identifies who is responsible for the next action in an Inbox conversation. It helps the team avoid duplicate replies and makes it clear who should continue when a customer is waiting.
 
-This helps to reduce response times and increase both customer and team satisfaction as it becomes more clear who is expected to respond to any given conversation. 
+An assignment does not mean the customer has received a response, and it does not close or snooze the conversation. Signals such as **Needs attention** also remain separate from the assigned owner.
 
-Typically, team members take care of any unassigned conversation and those assigned to them. As a rule, everyone takes responsibility of the conversations assigned to themselves. 
+## Understand what you can assign from the Inbox
 
-When someone feels that the conversation needs to be handled by someone else in the team, they can just re-assign it to the appropriate member.
+From an individual conversation, the **Assign** menu can show:
 
-### Assign a conversation to me
+- Other teammates in the business.
+- Compatible AI agents available for that conversation.
 
-Select a conversation from the *Inbox*.
+The manual Inbox menu assigns a specific teammate or AI agent. A team becomes the target through playbook escalation, journey Assignment steps, or another routing rule. Hellotext then chooses an eligible teammate from that team or keeps the conversation waiting for the team when nobody has capacity.
 
-Conversations that remain unassigned can be easily assigned to yourself by simply clicking on the *Assign to me* button near the top right of the conversation. 
+## Assign an unassigned conversation to yourself
 
-A more convenient alternative is to simply reply on the conversation. As long as the conversation is still unassigned it will be automatically assigned to you when you send a message.
+1. Open **Inbox** and select an unassigned conversation.
+2. Select **Assign to me** in the conversation header.
+3. Confirm that your avatar appears as the assignee.
 
-If the conversation is already assigned to someone else, you can re-assign it to yourself by clicking on the three dots near the top right of the conversation, select *Assign* and then select yourself from the list. 
+Replying to an unassigned conversation also normally assigns it to you automatically. This only happens when you are allowed to claim that conversation.
 
-### Assign a conversation to another team member
+If a routing or escalation rule is already holding the conversation for a specific team, only a member of that team can claim it by replying. Review the conversation context before taking work that may already have a destination.
 
-Select a conversation from the *Inbox*.
+## Assign or reassign a conversation to a teammate
 
-Click on the three dots near the top right of the conversation, select *Assign* and then select the team member that you want to assign the conversation to.
+1. Open the conversation.
+2. Open the **Actions** menu in the conversation header.
+3. Select **Assign**.
+4. Choose the teammate who should own the next action.
 
-This conversation will now appear on the team member's Inbox.
+Use the same steps to reassign a conversation that already has an owner. Hellotext updates the assignee shown in the header and records the assignment in the conversation timeline. The new assignee can also receive an assignment notification.
 
-### Close a conversation
+Before reassigning, add an internal note when the reason or next step is not already clear from the timeline. Assignment transfers responsibility, but it does not replace the context needed to continue the conversation.
 
-When conversations no longer require any further action they can simply be marked as completed (also referred to as closed). This will simply archive the conversation from the Inbox.
+## Assign a conversation to an AI agent
 
-Closed conversations will be reopened automatically if the customer replies or when events require an action from your team, for example when an order has been placed on your store that needs to be confirmed and shipped by you.
+When compatible AI agents are available, the **Assign** menu includes an **AI agents** group.
+
+Choose the agent that should continue the conversation. Hellotext removes the human assignee and transfers the active conversation to that agent. If the group is not present, no compatible AI agent is available for that conversation.
+
+Use manual AI assignment for a deliberate handoff. For automatic intent selection, unresolved paths, and escalation back to a person or team, use the playbook or journey configuration instead.
+
+Keep reading: [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %}).
+
+## Understand assignments to a team
+
+A playbook, AI agent, journey, or routing rule can target a team rather than a specific teammate.
+
+When that happens:
+
+- Hellotext can assign the conversation to an eligible member of the target team.
+- Availability and conversation capacity affect who can receive it.
+- If the team is at capacity, the conversation can remain **Unassigned** while keeping that team as its intended destination.
+- When capacity becomes available, Hellotext can assign the waiting conversation to an eligible member.
+
+An unassigned conversation that is waiting for a team is not the same as unrestricted work. Avoid manually overriding its destination unless someone is intentionally taking responsibility for it.
+
+Keep reading: [Teams and Inbox capacity]({% link _team/teams-and-inbox-capacity.md %}).
+
+## Assign multiple conversations
+
+Use a batch assignment when several conversations should move to the same person.
+
+1. Select the conversations from the Inbox list.
+2. Choose **Assign to me** to take the selection yourself.
+3. To choose someone else, open the batch **Actions** menu, select **Assign**, and choose a teammate.
+
+Review the selection before assigning it. Batch assignment changes the owner of every selected conversation, but does not add a shared note or resolve differences in customer context.
+
+## What assignment does not change
+
+Assignment changes responsibility. It does not by itself:
+
+- Send a response to the customer.
+- Clear **Needs attention**.
+- Close or snooze the conversation.
+- Turn an internal note or mention into ownership.
+- Guarantee that an assigned person is currently available.
+
+Use an internal note for private context, a mention to request attention, **Snooze** when work should return later, and **Complete** when no further action is needed.
+
+## Related guides
+
+- [Conversation lifecycle in Inbox]({% link _team/conversation-lifecycle.md %})
+- [Teams and Inbox capacity]({% link _team/teams-and-inbox-capacity.md %})
+- [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %})
+- [Response times and response rules]({% link _team/understanding-response-times.md %})
+- [Team roles and permissions]({% link _team/understanding-team-roles.md %})

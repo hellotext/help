@@ -102,8 +102,10 @@ collections:
   team:
     order:
       - inbox-overview.md
-      - ai-handoff-to-inbox.md
+      - conversation-lifecycle.md
       - assigning-conversations.md
+      - teams-and-inbox-capacity.md
+      - ai-handoff-to-inbox.md
       - understanding-response-times.md
       - understanding-team-roles.md
     output: true
@@ -130,10 +132,13 @@ collections:
     output: true
     order:
       - capture-overview.md
+      - webchat-widget-playbook.md
+      - subscriber-booster-playbook.md
+      - property-collector-playbook.md
       - website-popup.md
       - qr-codes.md
-      - shareable-link.md
       - forms.md
+      - shareable-link.md
       - shopify-checkout.md
       - wix-checkout.md
   journeys:
@@ -147,7 +152,6 @@ collections:
       - how-hellotext-decides-whether-a-playbook-can-send.md
       - troubleshoot-a-playbook-that-did-not-trigger-or-send.md
       - playbook-library-by-mission.md
-      - webchat-widget-playbook.md
       - cart-saver-route.md
       - ai-cart-saver-playbook.md
       - abandoned-cart-route-vs-ai-playbook.md

@@ -12,11 +12,13 @@ If you want to follow up on low loyalty scores after delivery, use [NPS Pulse]({
 
 ## How conversations move through the inbox
 
-A conversation can start when a customer replies to a message, writes through a connected channel such as [Webchat]({% link _journeys/webchat-widget-playbook.md %}), or needs attention after a playbook, route, order, or tracked event.
+A conversation can start when a customer replies to a message, writes through a connected channel such as [Webchat]({% link _captures/webchat-widget-playbook.md %}), or needs attention after a playbook, route, order, or tracked event.
 
 Your team can keep the conversation unassigned, assign it to a teammate, reassign it to someone else, or close it when no further action is needed.
 
 Closed conversations reopen automatically when the customer replies again or when new activity requires your team to act.
+
+Keep reading: [Conversation lifecycle in Inbox]({% link _team/conversation-lifecycle.md %}).
 
 ## Assign clear ownership
 
@@ -28,13 +30,15 @@ Keep reading: [Assign conversations]({% link _team/assigning-conversations.md %}
 
 If the conversation was escalated by an AI agent, playbook, or route, also review [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %}).
 
-## Use roles to match responsibilities
+## Organize access, teams, and capacity
 
-Roles define what each teammate can see and do.
+Roles define what each teammate can see and do. Teams identify the operational groups that can receive routed conversations, while Inbox capacity controls how much active work eligible teammates receive.
 
-Agents usually focus on conversations and customer profiles. Managers can also manage marketing, playbook, and automation work. Administrators can manage broader business settings.
+Keep these settings separate so a person's product access does not accidentally determine their workload.
 
 Keep reading: [Team roles and permissions]({% link _team/understanding-team-roles.md %}).
+
+For routing and workload, read [Teams and Inbox capacity]({% link _team/teams-and-inbox-capacity.md %}).
 
 ## Track response health
 
@@ -56,7 +60,7 @@ When a teammate replies from the inbox, the message editor provides formatting, 
 
 Keep reading: [Message editor overview]({% link _numbers/message-editor-overview.md %}).
 
-For website conversations, also review [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %}).
+For website conversations, also review [Webchat Widget playbook]({% link _captures/webchat-widget-playbook.md %}).
 
 For satisfaction after closed conversations, also review [CSAT Pulse playbook]({% link _journeys/csat-pulse-playbook.md %}).
 

@@ -26,7 +26,8 @@ After you choose the first option to launch, follow [How to enable a playbook]({
 
 | If your first goal is... | Start with... | Why |
 | --- | --- | --- |
-| Grow your reachable audience or website conversations | A capture such as [Webchat Widget]({% link _journeys/webchat-widget-playbook.md %}), QR code, shareable link, form, or popup | You need customers to opt in or start a conversation before many playbooks, routes, or campaigns can perform well. |
+| Grow your reachable audience or website conversations | A capture such as [Subscriber Booster]({% link _captures/subscriber-booster-playbook.md %}), [Webchat Widget]({% link _captures/webchat-widget-playbook.md %}), QR code, shareable link, form, or popup | You need customers to opt in or start a conversation before many playbooks, routes, or campaigns can perform well. |
+| Complete missing customer profile data | [Property Collector]({% link _captures/property-collector-playbook.md %}) | Use it directly or as a prerequisite when another AI playbook needs selected profile properties before continuing. |
 | Recover carts | [Cart Saver route]({% link _journeys/cart-saver-route.md %}) or an AI cart saver playbook | Use a route when the follow-up should be predictable. Use an AI playbook when the experience should react to product context, customer intent, replies, or objections. |
 | Alert shoppers about products back in stock | [Back-in-Stock Pounce]({% link _journeys/back-in-stock-pounce.md %}) | Use this when customers asked to be notified about an unavailable product and your stock signals are reliable. |
 | Alert interested shoppers about a product price drop | [Price-Drop Pouncer]({% link _journeys/price-drop-pouncer.md %}) | Use this when catalog price changes are reliable and Hellotext can see recent product, cart, or recommendation interest. |
@@ -94,7 +95,9 @@ Then adjust one thing at a time among the controls that option actually exposes,
 - [Playbooks and automation overview]({% link _journeys/playbooks-overview.md %})
 - [First wins starter pack]({% link _getting-started/first-wins-starter-pack.md %})
 - [Playbook library by mission]({% link _journeys/playbook-library-by-mission.md %})
-- [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %})
+- [Webchat Widget playbook]({% link _captures/webchat-widget-playbook.md %})
+- [Subscriber Booster playbook]({% link _captures/subscriber-booster-playbook.md %})
+- [Property Collector playbook]({% link _captures/property-collector-playbook.md %})
 - [How to enable a playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [What are signals?]({% link _journeys/what-are-signals.md %})
 - [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})

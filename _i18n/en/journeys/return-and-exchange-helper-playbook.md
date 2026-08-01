@@ -114,7 +114,7 @@ For handoff behavior, use [AI handoff to Inbox]({% link _team/ai-handoff-to-inbo
 
 ## Connect it to Webchat and Inbox
 
-Return & Exchange Helper can work well with [Webchat Widget]({% link _journeys/webchat-widget-playbook.md %}) when customers look for post-purchase help from your site.
+Return & Exchange Helper can work well with [Webchat Widget]({% link _captures/webchat-widget-playbook.md %}) when customers look for post-purchase help from your site.
 
 Before launch, confirm:
 
@@ -169,7 +169,7 @@ Tune one thing at a time: policy knowledge, channel selection, tone, handoff tar
 - [Order Cancellation Assistant playbook]({% link _journeys/order-cancellation-assistant-playbook.md %})
 - [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %})
 - [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %})
-- [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %})
+- [Webchat Widget playbook]({% link _captures/webchat-widget-playbook.md %})
 - [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [Inbox and conversations overview]({% link _team/inbox-overview.md %})
 - [Response times and response rules]({% link _team/understanding-response-times.md %})

@@ -2,6 +2,8 @@ Tiempo de respuesta ayuda a tu equipo a entender qué tan rápido reciben respue
 
 Las reglas de respuesta definen los tiempos que Hellotext usa para decidir si una espera está al día, en riesgo, demorada o vencida.
 
+La salud de respuesta está separada del ciclo de la conversación. Una conversación asignada o sin asignar puede necesitar atención mientras permanece abierta. Sigue leyendo: [Ciclo de una conversación en el Inbox]({% link _team/conversation-lifecycle.md %}).
+
 > Las reglas de respuesta están disponibles en los planes Pro y Enterprise.
 
 ## Qué son las reglas de respuesta
@@ -37,7 +39,7 @@ Si un límite cruza un período cerrado, el tiempo restante continúa contando c
 
 Cada negocio tiene una Política de respuesta predeterminada. Esta política se usa cuando no existe una regla específica para el canal de la conversación.
 
-En planes Pro y Enterprise, puedes crear reglas de respuesta por canal, por ejemplo WhatsApp, SMS, [Webchat]({% link _journeys/webchat-widget-playbook.md %}), Instagram o Messenger. Si existe una regla para el canal, Hellotext usa esa regla. Si no, usa la Política de respuesta predeterminada.
+En planes Pro y Enterprise, puedes crear reglas de respuesta por canal, por ejemplo WhatsApp, SMS, [Webchat]({% link _captures/webchat-widget-playbook.md %}), Instagram o Messenger. Si existe una regla para el canal, Hellotext usa esa regla. Si no, usa la Política de respuesta predeterminada.
 
 Los cambios a una regla de respuesta aplican a nuevos temporizadores. Las conversaciones que ya tenían un temporizador activo conservan el límite que tenían cuando se inició.
 
@@ -112,3 +114,9 @@ Crea reglas de respuesta por canal cuando algunos canales necesiten tiempos dist
 Mantén actualizado el Horario comercial para que los tiempos reflejen cuándo tu equipo realmente está disponible.
 
 Revisa conversaciones, equipos, colaboradores y reportes regularmente para detectar demoras antes de que afecten la experiencia del cliente.
+
+## Guías relacionadas
+
+- [Equipos y capacidad del Inbox]({% link _team/teams-and-inbox-capacity.md %})
+- [Asigna conversaciones]({% link _team/assigning-conversations.md %})
+- [Ciclo de una conversación en el Inbox]({% link _team/conversation-lifecycle.md %})

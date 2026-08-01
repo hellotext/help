@@ -28,7 +28,7 @@ Usa una **ruta** cuando necesitas un flujo de clientes paso a paso con disparado
 
 Para esa decisión específica, mira [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}), [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}) y [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
 
-Usa una **campaña** cuando quieres un envío puntual a una audiencia seleccionada, y una **captura** cuando el objetivo es recolectar suscriptores, datos de clientes o conversaciones desde el sitio. Para una entrada conversacional en el sitio, mira [Playbook Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %}).
+Usa una **campaña** cuando quieres un envío puntual a una audiencia seleccionada, y una **captura** cuando el objetivo es recolectar suscriptores, datos de clientes o conversaciones desde el sitio. Para una entrada conversacional en el sitio, mira [Playbook Widget de Webchat]({% link _captures/webchat-widget-playbook.md %}).
 
 ## Antes de habilitar un playbook
 
@@ -77,7 +77,7 @@ Para un proceso de edición más seguro, usa [Cómo personalizar un playbook de 
 - [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
 - [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
-- [Playbook Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %})
+- [Playbook Widget de Webchat]({% link _captures/webchat-widget-playbook.md %})
 - [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %})
 - [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Playbook Vuelta a Stock]({% link _journeys/back-in-stock-pounce.md %})

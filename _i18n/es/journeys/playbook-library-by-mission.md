@@ -10,7 +10,9 @@ Empieza acá cuando todavía no tienes suficientes clientes suscritos o identifi
 
 Opciones comunes incluyen:
 
-- **[Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %}):** chatea con visitantes directamente en tu sitio.
+- **[Widget de Webchat]({% link _captures/webchat-widget-playbook.md %}):** chatea con visitantes directamente en tu sitio.
+- **[Impulsor de Suscriptores]({% link _captures/subscriber-booster-playbook.md %}):** usa IA para introducir consentimiento claro e incentivos relevantes dentro de conversaciones de Webchat o iniciadas por el cliente en WhatsApp.
+- **[Recolector de Propiedades]({% link _captures/property-collector-playbook.md %}):** recopila propiedades faltantes del perfil directamente o como requisito de otro playbook.
 - **Suscriptor por QR:** convierte escaneos offline en suscriptores de WhatsApp o SMS.
 - **Popup del Sitio:** captura visitantes en el momento adecuado.
 - **Formulario Web:** recopila leads y datos del perfil del cliente.
@@ -119,7 +121,8 @@ Si no sabes por dónde empezar, elige la misión que coincide con el primer cuel
 
 | Si el cuello de botella es... | Empieza con... |
 | --- | --- |
-| No tienes suficientes clientes alcanzables | Códigos QR, formularios o popups del sitio, links compartibles o [Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %}) |
+| No tienes suficientes clientes alcanzables | [Impulsor de Suscriptores]({% link _captures/subscriber-booster-playbook.md %}), códigos QR, formularios o popups del sitio, links compartibles o [Widget de Webchat]({% link _captures/webchat-widget-playbook.md %}) |
+| A los perfiles les faltan propiedades útiles | [Recolector de Propiedades]({% link _captures/property-collector-playbook.md %}) |
 | Los clientes abandonan carritos | [Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) o [Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}) |
 | Los compradores esperan productos sin stock | [Vuelta a Stock]({% link _journeys/back-in-stock-pounce.md %}) |
 | Los compradores mostraron interés antes de una baja de precio relevante | [Alerta de Baja de Precio]({% link _journeys/price-drop-pouncer.md %}) |
@@ -152,7 +155,9 @@ Sigue leyendo:
 - [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
-- [Playbook Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %})
+- [Playbook Widget de Webchat]({% link _captures/webchat-widget-playbook.md %})
+- [Playbook Impulsor de Suscriptores]({% link _captures/subscriber-booster-playbook.md %})
+- [Playbook Recolector de Propiedades]({% link _captures/property-collector-playbook.md %})
 - [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %})
 - [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Playbook Vuelta a Stock]({% link _journeys/back-in-stock-pounce.md %})
@@ -187,7 +192,9 @@ Sigue leyendo:
 - [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
 - [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
-- [Playbook Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %})
+- [Playbook Widget de Webchat]({% link _captures/webchat-widget-playbook.md %})
+- [Playbook Impulsor de Suscriptores]({% link _captures/subscriber-booster-playbook.md %})
+- [Playbook Recolector de Propiedades]({% link _captures/property-collector-playbook.md %})
 - [Playbook Vuelta a Stock]({% link _journeys/back-in-stock-pounce.md %})
 - [Playbook Alerta de Baja de Precio]({% link _journeys/price-drop-pouncer.md %})
 - [Playbook Impulsor de Primera Compra]({% link _journeys/first-purchase-driver-playbook.md %})

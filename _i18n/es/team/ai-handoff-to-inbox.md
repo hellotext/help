@@ -142,6 +142,7 @@ Usa lo aprendido para ajustar el prompt, intenciones, reglas de playbook, ramas 
 
 - [Resumen de inbox y conversaciones]({% link _team/inbox-overview.md %})
 - [Asigna conversaciones]({% link _team/assigning-conversations.md %})
+- [Equipos y capacidad del Inbox]({% link _team/teams-and-inbox-capacity.md %})
 - [Tiempo de respuesta y reglas de respuesta]({% link _team/understanding-response-times.md %})
 - [Cómo funciona Hellotext]({% link _getting-started/how-hellotext-works.md %})
 - [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})

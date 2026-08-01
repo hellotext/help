@@ -18,6 +18,12 @@ Imports can create or update customer profiles, organize them into lists, and he
 
 Keep reading: [Import customer profiles]({% link _audience/import-customer-profiles.md %}).
 
+## Enrich profiles through conversation
+
+Use [Property Collector]({% link _captures/property-collector-playbook.md %}) when AI should collect selected missing profile properties directly or before another playbook continues.
+
+Use [Subscriber Booster]({% link _captures/subscriber-booster-playbook.md %}) when subscription consent and selected profile properties should be collected contextually within Webchat or a customer-initiated WhatsApp conversation.
+
 ## Lists and segments
 
 Use **lists** when you want to manually group customer profiles into a fixed audience.
@@ -54,3 +60,5 @@ Before launching a campaign, playbook, or route, check:
 - [Build segments]({% link _audience/segments.md %})
 - [Create a campaign]({% link _campaigns/creating-a-campaign.md %})
 - [Playbooks and automation overview]({% link _journeys/playbooks-overview.md %})
+- [Property Collector playbook]({% link _captures/property-collector-playbook.md %})
+- [Subscriber Booster playbook]({% link _captures/subscriber-booster-playbook.md %})

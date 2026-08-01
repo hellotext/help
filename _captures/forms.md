@@ -1,12 +1,17 @@
 ---
 languages: ["en", "es"]
 
+navigation_group: playbooks
+avatar:
+  icon: form
+  color: blush
+
 en:
-  title: Forms
-  description: Quick and easy way of creating profiles for your customers.
+  title: Website Form
+  description: Collect customer profile information through a hosted or embedded website form.
 es:
-  title: Formularios
-  description: Forma rápida y sencilla de crear perfiles para tus clientes.
+  title: Formulario de Sitio Web
+  description: Recopila información del perfil del cliente mediante un formulario alojado o integrado en tu sitio.
 
 permalink: forms
 permalink_es: formularios

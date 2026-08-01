@@ -12,11 +12,13 @@ Si quieres dar seguimiento a puntajes bajos de lealtad después de una entrega, 
 
 ## Cómo se mueven las conversaciones en el inbox
 
-Una conversación puede empezar cuando un cliente responde a un mensaje, escribe por un canal conectado como [Webchat]({% link _journeys/webchat-widget-playbook.md %}) o necesita atención después de un playbook, ruta, orden o evento registrado.
+Una conversación puede empezar cuando un cliente responde a un mensaje, escribe por un canal conectado como [Webchat]({% link _captures/webchat-widget-playbook.md %}) o necesita atención después de un playbook, ruta, orden o evento registrado.
 
 Tu equipo puede mantener la conversación sin asignar, asignarla a un colaborador, reasignarla a otra persona o cerrarla cuando no requiere más acción.
 
 Las conversaciones cerradas se reabren automáticamente cuando el cliente vuelve a responder o cuando una nueva actividad requiere acción de tu equipo.
+
+Sigue leyendo: [Ciclo de una conversación en el Inbox]({% link _team/conversation-lifecycle.md %}).
 
 ## Asigna un responsable claro
 
@@ -28,13 +30,15 @@ Sigue leyendo: [Asigna conversaciones]({% link _team/assigning-conversations.md 
 
 Si la conversación fue derivada por un agente de IA, playbook o ruta, revisa también [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %}).
 
-## Usa roles según responsabilidades
+## Organiza acceso, equipos y capacidad
 
-Los roles definen qué puede ver y hacer cada colaborador.
+Los roles definen qué puede ver y hacer cada persona. Los equipos identifican los grupos operativos que pueden recibir conversaciones enrutadas, mientras que la capacidad del Inbox controla cuánto trabajo activo reciben las personas elegibles.
 
-Los agentes suelen enfocarse en conversaciones y perfiles de cliente. Los managers también pueden gestionar tareas de marketing, playbooks y automatización. Los administradores pueden manejar configuraciones más amplias del negocio.
+Mantén estas configuraciones separadas para que el acceso al producto no determine accidentalmente la carga de trabajo de una persona.
 
 Sigue leyendo: [Roles y permisos de equipo]({% link _team/understanding-team-roles.md %}).
+
+Para enrutamiento y carga de trabajo, lee [Equipos y capacidad del Inbox]({% link _team/teams-and-inbox-capacity.md %}).
 
 ## Mide la salud de respuesta
 
@@ -56,7 +60,7 @@ Cuando alguien del equipo responde desde el inbox, el editor de mensajes ofrece 
 
 Sigue leyendo: [Resumen del editor de mensajes]({% link _numbers/message-editor-overview.md %}).
 
-Para conversaciones desde el sitio, revisa también [Playbook Widget de Webchat]({% link _journeys/webchat-widget-playbook.md %}).
+Para conversaciones desde el sitio, revisa también [Playbook Widget de Webchat]({% link _captures/webchat-widget-playbook.md %}).
 
 Para satisfacción después de conversaciones cerradas, revisa también [Playbook Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}).
 

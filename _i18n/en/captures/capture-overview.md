@@ -1,6 +1,6 @@
-Capture tools help people subscribe to your business from the places where they already interact with your brand: your store, packaging, social channels, checkout, or website.
+Capture playbooks help people subscribe to your business or share useful customer profile information from the places where they already interact with your brand: your store, packaging, social channels, checkout, website, or an active conversation.
 
-Most tools create a subscription path. Some tools open SMS or WhatsApp with a pre-filled opt-in message. Others collect information directly on your website or during checkout. Webchat creates an on-site conversation entry point and can hand off to WhatsApp when configured.
+Hellotext presents these options as playbooks, but they do not all work in the same way. Some open SMS or WhatsApp with a pre-filled opt-in message. Others collect information on your website or during checkout. Webchat creates an on-site conversation entry point, while Subscriber Booster and Property Collector use AI inside a conversation.
 
 To find capture playbooks in Hellotext, open **Playbooks**, click **Explore playbooks**, and go to the **Captures** group.
 
@@ -16,6 +16,10 @@ Use **Forms** when you want to collect contact details or custom profile propert
 
 Use **Webchat Widget** when you want visitors to start a conversation from your site before they buy, ask for support, or continue through WhatsApp.
 
+Use **Subscriber Booster** when AI should introduce a consent-based subscription at a relevant point in a Webchat or customer-initiated WhatsApp conversation.
+
+Use **Property Collector** when you want AI to collect missing customer profile properties directly or before another playbook continues.
+
 Use **Shopify checkout opt-in** or **Wix checkout opt-in** when you want customers to subscribe while they complete a purchase.
 
 ## Before you create a capture
@@ -28,11 +32,11 @@ Write a clear opt-in message so customers understand what they are joining.
 
 Decide what should happen after someone subscribes, such as sending a welcome message, applying a coupon, starting a route, or triggering a playbook.
 
-## Keep captures easy to measure
+## Keep captures easy to identify and test
 
-Use separate captures for separate placements when you need to compare performance. For example, use one QR code for packaging and another QR code for in-store displays.
+Use separate captures for separate placements when you need to distinguish where subscriptions came from. For example, use one QR code for packaging and another QR code for in-store displays.
 
-Name each capture after the placement or campaign where it will be used. This makes reporting easier later.
+Name each capture after the placement or campaign where it will be used. This makes its origin easier to recognize when reviewing subscription activity and customer profiles. Reporting detail varies by capture type, so do not rely on every capture having the same performance report.
 
 Test every capture before sharing it with customers. For QR codes, scan the final printed or displayed version with a phone. For links and forms, test the full subscription flow from the same device a customer would use.
 
@@ -40,7 +44,9 @@ For webchat, test the launcher, teaser, opening sequence, Inbox ownership, and a
 
 ## Next steps
 
-- Set up [Webchat Widget]({% link _journeys/webchat-widget-playbook.md %}).
+- Set up [Webchat Widget]({% link _captures/webchat-widget-playbook.md %}).
+- Set up [Subscriber Booster]({% link _captures/subscriber-booster-playbook.md %}).
+- Set up [Property Collector]({% link _captures/property-collector-playbook.md %}).
 - Create a [Website Popup]({% link _captures/website-popup.md %}).
 - Create a [QR code]({% link _captures/qr-codes.md %}).
 - Create a [shareable link]({% link _captures/shareable-link.md %}).

@@ -1,131 +1,155 @@
-Forms allow you to create dynamic forms based on built-in customer profile attributes such as first name and last name,
-or custom properties you have created for your audience.
+Website Form lets you collect contact details and other customer profile information from a form that lives inside a page on your website.
 
-## Creating a Form
+It is a capture playbook, not an agentic playbook or a journey. The form creates or updates a customer profile. You can optionally assign a coupon and connect the capture to a journey that welcomes or follows up with the subscriber.
 
-To create a form, open **Playbooks**, click **Explore playbooks**, find the **Captures** group, and choose **Website Form**. You will be taken to the Form Editor.
+## When to use Website Form
 
-## Understanding Components
+Use Website Form when you want to:
 
-### Hero
+- Place a signup or profile form inside an existing website page.
+- Collect a phone number, email address, name, or custom customer profile properties.
+- Share a Hellotext-hosted version of the form without building a page first.
+- Deliver an optional coupon after submission.
+- Start a welcome or follow-up journey after someone completes the form.
 
-<img src="images/captures/forms/en/component-header.jpeg" alt="" width="768" />
+Use a [Website Popup]({% link _captures/website-popup.md %}) when the experience should open above the page or begin from a floating prompt. Use a [Shareable Link]({% link _captures/shareable-link.md %}) when the signup should open SMS or WhatsApp with a pre-filled subscription message.
 
-The Hero is the header of the form. It is the first thing that visitors see when the form is loaded.
-Hellotext, when loading the form, looks for an HTML element with the `data-form-hero` attribute and loads the content inside it.
-If the element is not found, Hellotext creates the header manually, and prepends it to the form, making sure that it is the first component in the element.
+## Before you start
 
-### Inputs
+Decide where the form will appear and what information you need at signup. A phone number or email address is usually enough to establish a useful customer profile. Ask for additional properties only when they have a clear purpose.
 
-<img src="images/captures/forms/en/component-inputs.jpeg" alt="" width="768" />
+Also confirm:
 
-The Inputs are the fields that visitors need to fill. You can specify which fields are required and which ones are not in the Form editor.
-In the form editor, you can add any field based on an existing property, and control whether the field is required or not. For each Input, Hellotext generates an HTML element that looks like this
+- Which standard or custom customer profile properties the form should collect.
+- Which fields are required.
+- What value or offer the page communicates.
+- Whether a coupon should be assigned after submission.
+- Whether a journey should start when the form is completed.
+- Who can install the generated code if the form will be embedded.
+- That the consent notice accurately describes the messages the visitor agrees to receive.
 
-```html
-<article>
-  <label for=":id"></label>
-  <input type=":type" id=":id" name=":name" placeholder=":placeholder" required>
-  <div data-error-container></div>
-</article>
-```
+For channel eligibility and consent, see [Who you can message]({% link _audience/consent-and-subscriber-status.md %}).
 
-Like the Hero, Hellotext looks for an HTML element within the form with `data-form-inputs` identifier and loads the inputs inside it.
-The `data-error-container` element is used and displayed only when the visitor tries to submit the form and has not filled the required fields.
+## Create the form
+
+1. Open **Playbooks** and click **Explore playbooks**.
+2. Find the **Captures** group and choose **Website Form**.
+3. Give the form a name that identifies its placement or purpose.
+4. Edit the heading and supporting content.
+5. Add and configure the customer profile fields you need.
+6. Edit the submission button and consent notice.
+7. Click **Save and continue**.
+8. Assign a coupon and journey, or skip this optional step.
+9. Choose whether to share the hosted link or embed the form on your website.
+
+Use a distinct name for each placement when you need to compare results, such as `Newsletter footer` or `Wholesale inquiry page`.
+
+## Configure content and fields
+
+The form editor lets you configure four parts.
+
+### Heading
+
+![Website Form heading editor](images/captures/forms/en/component-header.jpeg)
+
+The heading contains the title and supporting content shown before the fields. Use it to explain why the visitor should complete the form and what happens next.
+
+### Fields
+
+![Website Form fields editor](images/captures/forms/en/component-inputs.jpeg)
+
+Fields can use standard information such as first name, last name, phone, and email, as well as supported custom properties already defined for customer profiles. For each field, use a clear label and placeholder, and make it required only when the form cannot serve its purpose without it.
+
+Keep the form focused. A shorter form is easier to complete on a phone and leaves additional profile enrichment for later conversations, purchases, or capture playbooks.
 
 ### Button
 
-<img src="images/captures/forms/en/component-button.jpeg" alt="" width="768" />
+![Website Form button editor](images/captures/forms/en/component-button.jpeg)
 
-The Button is where the form's submission happens. Hellotext looks for a `button` element with the `data-form-button` attribute and loads the button inside it. 
-If the element is not found, Hellotext creates the button manually, and appends it to the form after the Inputs section.
+The button submits the form. Use a short action label that makes the result clear, such as **Subscribe**, **Get updates**, or **Send**.
 
 ### Notice
 
-<img src="images/captures/forms/en/component-footer.jpeg" alt="" width="768" />
+![Website Form notice editor](images/captures/forms/en/component-footer.jpeg)
 
-The Notice is the footer of the form. It is the last thing that visitors will see when the form is shown.
-Hellotext looks for an HTML element with the `data-form-notice` attribute and loads the content inside it. 
-If the element is not found, Hellotext creates the footer manually, and appends it to the form after the Button section.
+The notice appears after the button and can contain consent, privacy, or other supporting information. Make sure it matches the channels and message types the visitor agrees to receive.
 
-### Security
+## Assign a coupon and journey
 
-Hellotext prevents identity theft and impersonation of other people. Additionally, Hellotext ensures that any existing data
-you have is not tampered with unreliable data. How?
+Coupon and journey assignment are optional.
 
-When you create a form that has a _Phone_ or _Email_ property, Hellotext sends a verification link to the email and/or phone number entered by the person who filled the form.
+Assign a coupon only when the page promises a discount for completing the form. Confirm that the offer and its conditions match what the visitor sees before submitting.
 
-- If they have filled in an email, an email is sent to that specific email address. Once clicked, the email is verified. 
-- If they have filled in a phone number, an SMS is sent to that specific phone number. Once clicked, the phone number is verified. 
+Assign a journey when the new subscriber should enter a welcome or follow-up flow. Check that another capture or integration does not already start the same journey for this signup.
 
-Once all verifiable data has been verified, the data is considered to be _verified_.
+## Publish the form
 
-Once verification of a submission is complete, Hellotext performs an automatic merge (if needed) of all profiles
-that have the same email and/or phone number. After automatic merging, if a property has multiple values,
-it will be visible in the Audience page and you can see the values that were merged and decide which one
-to ignore and which one to accept.
+After saving, Hellotext provides two ways to use the form.
 
-## Understanding the generated code
+### Share the hosted link
 
-After you create your form, Hellotext will give you a code snippet that you can optionally embed on your website that looks like the following.
+Copy the generated link when you want Hellotext to host the form. Open it in a new tab and test the complete submission before sharing it with customers.
 
-```html
-<form data-hello-form=":id">
-  <header data-form-hero>
-  </header>
+### Embed it on your website
 
-  <main data-form-inputs>
-  </main>
+Use the generated HTML when the form should appear inside one of your pages.
 
-  <button data-form-button>
-  </button>
+1. Make sure the website is connected through a supported ecommerce integration or has [Hellotext.js](https://github.com/hellotext/hellotext.js) installed.
+2. Copy the generated form code exactly as Hellotext provides it.
+3. Paste it in the page body where the form should appear.
+4. Apply your website styles without removing or renaming the generated form attributes.
 
-  <footer data-form-notice>
-  </footer>
-</form>
-```
+The generated code contains the identifier Hellotext uses to load the form definition. Copy the current snippet from the product instead of recreating it from an example in this guide.
 
-<div class="note--lavender-light flex space-x-2 justify-center items-center">
-  {% include icons/tip.svg %}
+## How verification works
 
-  <p>
-    Make sure to install <a class="active" target="_blank" href="https://github.com/hellotext/hellotext.js">Hellotext.js</a> to dynamically populate the form.
-  </p>
-</div>
+When a submission includes a new phone number or email address, Hellotext can send a verification link to that destination. This protects existing customer profile data and helps prevent someone from submitting another person's contact details.
 
-### Customizing the Form's layout
+Known visitors may not need to repeat verification when the submitted phone number or email already matches their identified customer profile. Once the submitted identifiers are verified, Hellotext can safely associate the information with an existing profile and merge matching profiles when needed.
 
-Hellotext defines a fixed layout for forms. But you can override this layout if you want, to change where Hellotext loads the form's components,
-you can add the boilerplate components that Hellotext will populate instead of creating. 
-For example, if you want to show the Button component after the Notice component, you can define the `data-form-notice` and `data-form-button` as empty elements, 
-Hellotext would simply load the contents inside the respective elements without creating the default layout
+## Test before sharing
 
-```html
-<form data-hello-form=":id">
-  <footer data-form-notice>
-  </footer>
+Test the full experience using customer details you can safely access.
 
-  <button data-form-button>
-  </button>
-</form>
-```
+Confirm that:
 
-### Customizing the Form's style
+- The hosted link opens, or the embedded form loads on the intended page.
+- The heading, fields, button, and notice are readable on desktop and mobile.
+- Required fields prevent incomplete submissions and explain what needs attention.
+- Phone numbers, email addresses, and custom properties reach the correct customer profile.
+- Verification messages arrive at new phone numbers or email addresses.
+- The assigned coupon is delivered when one is configured.
+- The assigned journey starts once after a successful submission.
+- The page styling does not hide errors, labels, the button, or the consent notice.
 
-Hellotext ships Forms with a boilerplate HTML layout so that you can style them according to your preference and brand guidelines.
-Hellotext forms have bare minimum styling to ensure that they look good on any website. No colors, no borders, no padding, just the form elements with specific layouts.
+After a successful completion, the same browser can remember that the form was completed. Use a private browser window when you need to repeat a clean test.
 
+## If the form does not load
 
-## Hellotext Attribution
+Check these items in order:
 
-The Hellotext logo is displayed at the bottom-right of the form so visitors know that the form is powered by Hellotext and that their data is secure and protected.
-This is part of our _White Label_ policy, it is required that this logo be displayed and kept visible on the form. Unless the package you subscribe to has the _White Label_ feature enabled.
-Please refer to our [Pricing](https://www.hellotext.com/pricing) for more information regarding available packages and the features.
+1. Confirm that the generated form code is present on the page.
+2. Confirm that the connected ecommerce integration or Hellotext.js loads successfully.
+3. Compare the embedded code with the current snippet shown in Hellotext.
+4. Check whether website styles or scripts hide or replace the form.
+5. Test the hosted link to separate a form configuration problem from an installation problem.
+6. Test in a private browser window.
 
+When reporting a problem, include the form name, tested URL, device, approximate time, and whether the form failed to load or failed after submission.
 
-## JavaScript Events
+## JavaScript events
 
-Forms rely on [Hellotext.js](https://github.com/hellotext/hellotext.js); it is required to install Hellotext.js to dynamically populate the form. The following events are dispatched by Hellotext.js
+Developers can listen for these Hellotext.js events:
 
-- `forms:collected` - Dispatched when Hellotext collects all the forms. Collection means that Hellotext has contacted the API and fetched the form data. The event's payload is the array of forms that were collected.
-- `form:completed` - Dispatched when the visitor fills all required inputs in the form, and successfully completes the One Time Password code we send.
+- `forms:collected`: dispatched after Hellotext loads the form definitions found on the page.
+- `form:completed`: dispatched after a form is submitted successfully.
+
+Use the event payload provided by the installed Hellotext.js version rather than depending on an undocumented payload shape.
+
+## Related guides
+
+- [Capture tools overview]({% link _captures/capture-overview.md %})
+- [Website Popup]({% link _captures/website-popup.md %})
+- [Shareable Links]({% link _captures/shareable-link.md %})
+- [Who you can message]({% link _audience/consent-and-subscriber-status.md %})
+- [Getting started with journeys]({% link _journeys/getting-started-with-journeys.md %})

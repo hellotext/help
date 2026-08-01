@@ -125,7 +125,7 @@ For handoff behavior, use [AI handoff to Inbox]({% link _team/ai-handoff-to-inbo
 
 ## Connect it to Webchat and Inbox
 
-Order Cancellation Assistant can work well with [Webchat Widget]({% link _journeys/webchat-widget-playbook.md %}) when customers need quick post-purchase help from your site.
+Order Cancellation Assistant can work well with [Webchat Widget]({% link _captures/webchat-widget-playbook.md %}) when customers need quick post-purchase help from your site.
 
 Before launch, confirm:
 
@@ -181,7 +181,7 @@ Tune one thing at a time: policy knowledge, save-the-sale boundaries, channel se
 - [Instant Answers playbook]({% link _journeys/instant-answers-playbook.md %})
 - [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %})
 - [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %})
-- [Webchat Widget playbook]({% link _journeys/webchat-widget-playbook.md %})
+- [Webchat Widget playbook]({% link _captures/webchat-widget-playbook.md %})
 - [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [Inbox and conversations overview]({% link _team/inbox-overview.md %})
 - [Response times and response rules]({% link _team/understanding-response-times.md %})
