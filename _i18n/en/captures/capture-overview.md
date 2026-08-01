@@ -16,6 +16,10 @@ Use **Forms** when you want to collect contact details or custom profile propert
 
 Use **Webchat Widget** when you want visitors to start a conversation from your site before they buy, ask for support, or continue through WhatsApp.
 
+Use **Subscriber Booster** when AI should introduce a consent-based subscription at a relevant point in a Webchat or customer-initiated WhatsApp conversation.
+
+Use **Property Collector** when you want AI to collect missing customer profile properties directly or before another playbook continues.
+
 Use **Shopify checkout opt-in** or **Wix checkout opt-in** when you want customers to subscribe while they complete a purchase.
 
 ## Before you create a capture
@@ -41,6 +45,8 @@ For webchat, test the launcher, teaser, opening sequence, Inbox ownership, and a
 ## Next steps
 
 - Set up [Webchat Widget]({% link _captures/webchat-widget-playbook.md %}).
+- Set up [Subscriber Booster]({% link _captures/subscriber-booster-playbook.md %}).
+- Set up [Property Collector]({% link _captures/property-collector-playbook.md %}).
 - Create a [Website Popup]({% link _captures/website-popup.md %}).
 - Create a [QR code]({% link _captures/qr-codes.md %}).
 - Create a [shareable link]({% link _captures/shareable-link.md %}).

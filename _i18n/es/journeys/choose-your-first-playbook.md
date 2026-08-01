@@ -26,7 +26,8 @@ Después de elegir la primera opción para lanzar, sigue [Cómo habilitar un pla
 
 | Si tu primer objetivo es... | Empieza con... | Por qué |
 | --- | --- | --- |
-| Crecer tu audiencia alcanzable o conversaciones desde el sitio | Una captura como [Widget de Webchat]({% link _captures/webchat-widget-playbook.md %}), código QR, link compartible, formulario o popup | Necesitas que los clientes se suscriban o inicien una conversación antes de que muchos playbooks, rutas o campañas puedan rendir bien. |
+| Crecer tu audiencia alcanzable o conversaciones desde el sitio | Una captura como [Impulsor de Suscriptores]({% link _captures/subscriber-booster-playbook.md %}), [Widget de Webchat]({% link _captures/webchat-widget-playbook.md %}), código QR, link compartible, formulario o popup | Necesitas que los clientes se suscriban o inicien una conversación antes de que muchos playbooks, rutas o campañas puedan rendir bien. |
+| Completar datos faltantes del perfil | [Recolector de Propiedades]({% link _captures/property-collector-playbook.md %}) | Úsalo directamente o como requisito cuando otro playbook con IA necesita propiedades seleccionadas antes de continuar. |
 | Recuperar carritos | [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) o un playbook de carrito con IA | Usa una ruta cuando el seguimiento debería ser predecible. Usa un playbook con IA cuando la experiencia debería reaccionar al producto, intención del cliente, respuestas u objeciones. |
 | Avisar cuando productos vuelven a stock | [Vuelta a Stock]({% link _journeys/back-in-stock-pounce.md %}) | Úsalo cuando clientes pidieron aviso por un producto no disponible y tus señales de stock son confiables. |
 | Avisar a compradores interesados por una baja de precio | [Alerta de Baja de Precio]({% link _journeys/price-drop-pouncer.md %}) | Úsalo cuando los cambios de precio del catálogo son confiables y Hellotext puede ver interés reciente de producto, carrito o recomendación. |
@@ -95,6 +96,8 @@ Después ajusta una cosa por vez entre los controles que esa opción realmente e
 - [Primeros logros recomendados]({% link _getting-started/first-wins-starter-pack.md %})
 - [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
 - [Playbook Widget de Webchat]({% link _captures/webchat-widget-playbook.md %})
+- [Playbook Impulsor de Suscriptores]({% link _captures/subscriber-booster-playbook.md %})
+- [Playbook Recolector de Propiedades]({% link _captures/property-collector-playbook.md %})
 - [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [Qué son las señales]({% link _journeys/what-are-signals.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})

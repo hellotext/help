@@ -16,6 +16,10 @@ Usa **formularios** cuando quieres recopilar datos de contacto o propiedades per
 
 Usa **Widget de Webchat** cuando quieres que visitantes inicien una conversación desde tu sitio antes de comprar, pedir soporte o continuar por WhatsApp.
 
+Usa **Impulsor de Suscriptores** cuando la IA debería introducir una suscripción basada en consentimiento en un momento relevante de una conversación de Webchat o una conversación iniciada por el cliente en WhatsApp.
+
+Usa **Recolector de Propiedades** cuando quieres que la IA recopile propiedades faltantes del perfil directamente o antes de que otro playbook continúe.
+
 Usa **opt-in en checkout de Shopify** u **opt-in en checkout de Wix** cuando quieres que tus clientes se suscriban mientras completan una compra.
 
 ## Antes de crear una captura
@@ -41,6 +45,8 @@ Para webchat, prueba el lanzador, teaser, secuencia inicial, ownership en Inbox 
 ## Próximos pasos
 
 - Configura [Widget de Webchat]({% link _captures/webchat-widget-playbook.md %}).
+- Configura [Impulsor de Suscriptores]({% link _captures/subscriber-booster-playbook.md %}).
+- Configura [Recolector de Propiedades]({% link _captures/property-collector-playbook.md %}).
 - Crea un [Popup de Sitio Web]({% link _captures/website-popup.md %}).
 - Crea un [código QR]({% link _captures/qr-codes.md %}).
 - Crea un [link compartible]({% link _captures/shareable-link.md %}).

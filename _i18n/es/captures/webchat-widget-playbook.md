@@ -128,6 +128,8 @@ Evita textos que se sientan como un popup forzado o una promesa que tu equipo no
 
 Si usas una secuencia de teaser personalizada, prueba el camino completo desde teaser hasta mensaje inicial para que el texto no se repita.
 
+Cuando [Impulsor de Suscriptores]({% link _captures/subscriber-booster-playbook.md %}) está habilitado, el teaser puede invitar a un visitante nuevo a suscribirse a cambio de un incentivo para la primera compra. Impulsor de Suscriptores maneja la conversación de consentimiento después de que el visitante lo abre.
+
 ## Configura la derivación de canal
 
 Webchat puede derivar o continuar la conversación por otro canal, normalmente WhatsApp.
@@ -184,6 +186,8 @@ Ajusta una parte por vez: ubicación, disparador, demora, teaser, secuencia inic
 ## Guías relacionadas
 
 - [Resumen de herramientas de captura]({% link _captures/capture-overview.md %})
+- [Playbook Impulsor de Suscriptores]({% link _captures/subscriber-booster-playbook.md %})
+- [Playbook Recolector de Propiedades]({% link _captures/property-collector-playbook.md %})
 - [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
 - [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
 - [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})

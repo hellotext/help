@@ -18,6 +18,12 @@ Las importaciones pueden crear o actualizar perfiles de cliente, organizarlos en
 
 Sigue leyendo: [Importa perfiles de cliente]({% link _audience/import-customer-profiles.md %}).
 
+## Enriquece perfiles mediante conversaciones
+
+Usa [Recolector de Propiedades]({% link _captures/property-collector-playbook.md %}) cuando la IA debería recopilar propiedades faltantes seleccionadas directamente o antes de que otro playbook continúe.
+
+Usa [Impulsor de Suscriptores]({% link _captures/subscriber-booster-playbook.md %}) cuando el consentimiento de suscripción y ciertas propiedades del perfil deberían recopilarse de forma contextual dentro de Webchat o una conversación iniciada por el cliente en WhatsApp.
+
 ## Listas y segmentos
 
 Usa **listas** cuando quieres agrupar perfiles de cliente manualmente en una audiencia fija.
@@ -54,3 +60,5 @@ Antes de lanzar una campaña, playbook o ruta, revisa:
 - [Crea segmentos]({% link _audience/segments.md %})
 - [Crea una campaña]({% link _campaigns/creating-a-campaign.md %})
 - [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})
+- [Playbook Recolector de Propiedades]({% link _captures/property-collector-playbook.md %})
+- [Playbook Impulsor de Suscriptores]({% link _captures/subscriber-booster-playbook.md %})
