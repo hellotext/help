@@ -55,6 +55,8 @@ Cuando esto ocurre:
 
 Una conversación sin asignar que está esperando a un equipo no es trabajo disponible sin restricciones. Evita cambiar manualmente su destino salvo que alguien vaya a asumir la responsabilidad de manera deliberada.
 
+Sigue leyendo: [Equipos y capacidad del Inbox]({% link _team/teams-and-inbox-capacity.md %}).
+
 ## Asigna varias conversaciones
 
 Usa una asignación en lote cuando varias conversaciones deberían pasar a la misma persona.
@@ -80,6 +82,7 @@ Usa una nota interna para contexto privado, una mención para pedir atención, *
 ## Guías relacionadas
 
 - [Ciclo de una conversación en el Inbox]({% link _team/conversation-lifecycle.md %})
+- [Equipos y capacidad del Inbox]({% link _team/teams-and-inbox-capacity.md %})
 - [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [Tiempo de respuesta y reglas de respuesta]({% link _team/understanding-response-times.md %})
 - [Roles y permisos de equipo]({% link _team/understanding-team-roles.md %})

@@ -114,3 +114,9 @@ Crea reglas de respuesta por canal cuando algunos canales necesiten tiempos dist
 Mantén actualizado el Horario comercial para que los tiempos reflejen cuándo tu equipo realmente está disponible.
 
 Revisa conversaciones, equipos, colaboradores y reportes regularmente para detectar demoras antes de que afecten la experiencia del cliente.
+
+## Guías relacionadas
+
+- [Equipos y capacidad del Inbox]({% link _team/teams-and-inbox-capacity.md %})
+- [Asigna conversaciones]({% link _team/assigning-conversations.md %})
+- [Ciclo de una conversación en el Inbox]({% link _team/conversation-lifecycle.md %})

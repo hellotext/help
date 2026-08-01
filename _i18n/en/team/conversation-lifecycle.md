@@ -119,6 +119,7 @@ Keep reading: [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %}).
 
 - [Inbox and conversations overview]({% link _team/inbox-overview.md %})
 - [Assign conversations]({% link _team/assigning-conversations.md %})
+- [Teams and Inbox capacity]({% link _team/teams-and-inbox-capacity.md %})
 - [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [Response times and response rules]({% link _team/understanding-response-times.md %})
 - [Team roles and permissions]({% link _team/understanding-team-roles.md %})

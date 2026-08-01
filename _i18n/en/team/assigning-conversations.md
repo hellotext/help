@@ -55,6 +55,8 @@ When that happens:
 
 An unassigned conversation that is waiting for a team is not the same as unrestricted work. Avoid manually overriding its destination unless someone is intentionally taking responsibility for it.
 
+Keep reading: [Teams and Inbox capacity]({% link _team/teams-and-inbox-capacity.md %}).
+
 ## Assign multiple conversations
 
 Use a batch assignment when several conversations should move to the same person.
@@ -80,6 +82,7 @@ Use an internal note for private context, a mention to request attention, **Snoo
 ## Related guides
 
 - [Conversation lifecycle in Inbox]({% link _team/conversation-lifecycle.md %})
+- [Teams and Inbox capacity]({% link _team/teams-and-inbox-capacity.md %})
 - [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [Response times and response rules]({% link _team/understanding-response-times.md %})
 - [Team roles and permissions]({% link _team/understanding-team-roles.md %})

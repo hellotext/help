@@ -142,6 +142,7 @@ Use what you learn to tune the prompt, intents, playbook rules, journey branches
 
 - [Inbox and conversations overview]({% link _team/inbox-overview.md %})
 - [Assign conversations]({% link _team/assigning-conversations.md %})
+- [Teams and Inbox capacity]({% link _team/teams-and-inbox-capacity.md %})
 - [Response times and response rules]({% link _team/understanding-response-times.md %})
 - [How Hellotext works]({% link _getting-started/how-hellotext-works.md %})
 - [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})

@@ -30,13 +30,15 @@ Keep reading: [Assign conversations]({% link _team/assigning-conversations.md %}
 
 If the conversation was escalated by an AI agent, playbook, or route, also review [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %}).
 
-## Use roles to match responsibilities
+## Organize access, teams, and capacity
 
-Roles define what each teammate can see and do.
+Roles define what each teammate can see and do. Teams identify the operational groups that can receive routed conversations, while Inbox capacity controls how much active work eligible teammates receive.
 
-Agents usually focus on conversations and customer profiles. Managers can also manage marketing, playbook, and automation work. Administrators can manage broader business settings.
+Keep these settings separate so a person's product access does not accidentally determine their workload.
 
 Keep reading: [Team roles and permissions]({% link _team/understanding-team-roles.md %}).
+
+For routing and workload, read [Teams and Inbox capacity]({% link _team/teams-and-inbox-capacity.md %}).
 
 ## Track response health
 

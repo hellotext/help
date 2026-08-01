@@ -119,6 +119,7 @@ Sigue leyendo: [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md
 
 - [Resumen de inbox y conversaciones]({% link _team/inbox-overview.md %})
 - [Asigna conversaciones]({% link _team/assigning-conversations.md %})
+- [Equipos y capacidad del Inbox]({% link _team/teams-and-inbox-capacity.md %})
 - [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [Tiempo de respuesta y reglas de respuesta]({% link _team/understanding-response-times.md %})
 - [Roles y permisos de equipo]({% link _team/understanding-team-roles.md %})

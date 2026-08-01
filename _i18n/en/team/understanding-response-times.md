@@ -114,3 +114,9 @@ Create channel-specific rules when some channels need faster or slower response 
 Keep Business hours accurate so response times reflect when your team is actually available.
 
 Review conversations, teams, teammates, and reports regularly to detect delays before they affect the customer experience.
+
+## Related guides
+
+- [Teams and Inbox capacity]({% link _team/teams-and-inbox-capacity.md %})
+- [Assign conversations]({% link _team/assigning-conversations.md %})
+- [Conversation lifecycle in Inbox]({% link _team/conversation-lifecycle.md %})

@@ -30,13 +30,15 @@ Sigue leyendo: [Asigna conversaciones]({% link _team/assigning-conversations.md 
 
 Si la conversación fue derivada por un agente de IA, playbook o ruta, revisa también [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %}).
 
-## Usa roles según responsabilidades
+## Organiza acceso, equipos y capacidad
 
-Los roles definen qué puede ver y hacer cada colaborador.
+Los roles definen qué puede ver y hacer cada persona. Los equipos identifican los grupos operativos que pueden recibir conversaciones enrutadas, mientras que la capacidad del Inbox controla cuánto trabajo activo reciben las personas elegibles.
 
-Los agentes suelen enfocarse en conversaciones y perfiles de cliente. Los managers también pueden gestionar tareas de marketing, playbooks y automatización. Los administradores pueden manejar configuraciones más amplias del negocio.
+Mantén estas configuraciones separadas para que el acceso al producto no determine accidentalmente la carga de trabajo de una persona.
 
 Sigue leyendo: [Roles y permisos de equipo]({% link _team/understanding-team-roles.md %}).
+
+Para enrutamiento y carga de trabajo, lee [Equipos y capacidad del Inbox]({% link _team/teams-and-inbox-capacity.md %}).
 
 ## Mide la salud de respuesta
 
