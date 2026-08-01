@@ -70,11 +70,11 @@ In this family, Hellotext also looks for the most cost-efficient available chann
 
 Start here when the message is tied to a launch, promotion, holiday, inventory moment, or one-time announcement.
 
-These planned moments normally belong in Campaigns unless your account exposes a specific playbook for the job. Common workflows include seasonal promotions, product launches, inventory or clearance announcements, classic broadcasts, and AI-personalized broadcasts when that option is available in your account.
+These planned moments normally belong in Campaigns unless your account exposes a specific playbook for the job. Common workflows include seasonal promotions, product launches, inventory or clearance announcements, scheduled campaigns, and AI-personalized campaigns when that option is available in your account.
 
 Use a campaign when the send should happen once to a selected audience. Use a playbook when the system should keep reacting to customer signals over time.
 
-Keep reading: [Campaigns and broadcasts overview]({% link _campaigns/campaigns-overview.md %}).
+Keep reading: [Campaigns overview]({% link _campaigns/campaigns-overview.md %}).
 
 ## Improve support and customer experience
 
@@ -126,7 +126,7 @@ If you are unsure where to start, choose the mission that matches the first bott
 | Visitors browse but do not buy | [First-Purchase Driver]({% link _journeys/first-purchase-driver-playbook.md %}), [Browse Recovery]({% link _journeys/browse-recovery-playbook.md %}), [Complete-the-Look]({% link _journeys/complete-the-look-playbook.md %}), or [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}) |
 | Buyers do not return | [Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}), [Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}), [Birthday Bash]({% link _journeys/birthday-bash-playbook.md %}), [Anniversary Surprise]({% link _journeys/anniversary-surprise-playbook.md %}), or [Soft Reactivation]({% link _journeys/soft-reactivation-playbook.md %}) |
 | Customers have gone cold | [Dormant Revival]({% link _journeys/dormant-revival-playbook.md %}) or [Sunset Saver]({% link _journeys/sunset-saver-playbook.md %}) |
-| You have a timed announcement | A campaign or broadcast |
+| You have a timed announcement | A campaign |
 | Support work is repetitive | [Instant Answers]({% link _journeys/instant-answers-playbook.md %}), [Order-Update Delight]({% link _journeys/order-update-playbook.md %}), [Return & Exchange Helper]({% link _journeys/return-and-exchange-helper-playbook.md %}), [Order Cancellation Assistant]({% link _journeys/order-cancellation-assistant-playbook.md %}), or [CSAT Pulse]({% link _journeys/csat-pulse-playbook.md %}) |
 | You need product reviews | [Review Builder]({% link _journeys/review-builder-playbook.md %}) |
 | You need loyalty feedback after delivery | [NPS Pulse]({% link _journeys/nps-pulse-playbook.md %}) |

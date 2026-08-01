@@ -23,7 +23,7 @@ Para límites específicos de SMS en negocios prepago nuevos, sigue leyendo: [L�
 
 Para contexto de configuración de canales, sigue leyendo: [Resumen de canales de mensajería]({% link _numbers/messaging-overview.md %}).
 
-## Campañas y broadcasts
+## Campañas
 
 Si el resultado de una campaña parece menor a lo esperado, revisa audiencia, canal, contenido del mensaje, links, timing y métricas del reporte antes de comparar resultados.
 

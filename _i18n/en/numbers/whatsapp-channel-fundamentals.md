@@ -78,7 +78,7 @@ Before launching, test the WhatsApp path from trigger to reply. Confirm what hap
 
 Campaigns can send targeted WhatsApp messages to eligible audiences. Keep campaigns focused, use the right template category, and avoid sending more often than customers expect.
 
-Keep reading: [Campaigns and broadcasts overview]({% link _campaigns/campaigns-overview.md %}).
+Keep reading: [Campaigns overview]({% link _campaigns/campaigns-overview.md %}).
 
 ### Capture tools
 

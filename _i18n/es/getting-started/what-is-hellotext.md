@@ -60,9 +60,9 @@ Las herramientas de captura ayudan a que los clientes se suscriban, inicien conv
 
 Las capturas suelen alimentar el perfil de cliente y pueden iniciar un mensaje de bienvenida, ruta o playbook.
 
-### Campañas y broadcasts
+### Campañas
 
-Las campañas son envíos puntuales a una audiencia seleccionada. Úsalas para anuncios, lanzamientos, promociones o broadcasts planificados.
+Las campañas son envíos puntuales a una audiencia seleccionada. Úsalas para anuncios, lanzamientos, promociones u otros mensajes planificados.
 
 Las campañas siguen siendo importantes, pero no son el centro de Hellotext. Los playbooks y flujos del Inbox ayudan a que Hellotext responda continuamente al comportamiento del cliente.
 

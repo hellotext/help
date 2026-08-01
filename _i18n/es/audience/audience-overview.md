@@ -30,7 +30,7 @@ Sigue leyendo: [Listas vs. segmentos]({% link _audience/lists-and-segments.md %}
 
 Los datos de audiencia pueden ayudarte a:
 
-- Segmentar campañas y broadcasts.
+- Segmentar campañas.
 - Personalizar mensajes con propiedades de perfil.
 - Disparar playbooks o ramificar rutas.
 - Entender comportamiento de compra e interés en productos.

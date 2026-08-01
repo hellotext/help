@@ -14,3 +14,9 @@ Puedes ver nuestra <a class="active" href='https://github.com/hellotext/hellotex
 Un clic elegible en un link con tracking es evidencia activa de atribución y normalmente abre una ventana de atribución de siete días desde el clic. Los links con tracking no son la única evidencia que Hellotext puede usar: una entrega elegible u otras señales pasivas pueden aplicar dentro de la ventana predeterminada de 24 horas.
 
 Lee [Cómo atribuimos las ventas]({% link _analytics-reporting-attribution/sales-attribution.md %}) para conocer la precedencia de fuentes, las ventanas de atribución y ejemplos.
+
+## Guías relacionadas
+
+- [Crea una campaña]({% link _campaigns/creating-a-campaign.md %})
+- [Reportes de campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %})
+- [Resumen del editor de mensajes]({% link _numbers/message-editor-overview.md %})

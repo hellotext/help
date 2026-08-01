@@ -119,7 +119,7 @@ Pausar temprano es mejor que dejar que un problema evitable llegue a más client
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Resumen de canales de mensajería]({% link _numbers/messaging-overview.md %})
 - [Resumen de herramientas de captura]({% link _captures/capture-overview.md %})
-- [Resumen de campañas y broadcasts]({% link _campaigns/campaigns-overview.md %})
+- [Resumen de campañas]({% link _campaigns/campaigns-overview.md %})
 - [Resumen de inbox y conversaciones]({% link _team/inbox-overview.md %})
 - [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [Límites de envío SMS para negocios nuevos]({% link _troubleshooting-deliverability/sms-sending-limits-for-new-businesses.md %})

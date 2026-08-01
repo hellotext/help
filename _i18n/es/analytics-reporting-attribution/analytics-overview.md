@@ -6,11 +6,11 @@ Esta sección conecta tres preguntas relacionadas:
 - ¿Qué acciones de clientes ocurrieron después del mensaje?
 - ¿Qué ingresos se atribuyeron a Hellotext?
 
-## Reportes de campañas y broadcasts
+## Reportes de campañas
 
 Los reportes de campaña te ayudan a revisar entrega, interacción, clicks, conversiones, respuestas e ingresos atribuidos para un envío puntual.
 
-Usa reportes de campaña cuando necesites evaluar un broadcast, comparar performance de mensajes o decidir qué mejorar antes de la próxima campaña.
+Usa reportes de campaña cuando necesites evaluar una campaña, comparar performance de mensajes o decidir qué mejorar antes de la próxima campaña.
 
 Sigue leyendo: [Reportes de campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %}).
 

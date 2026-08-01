@@ -36,7 +36,7 @@ Encaja bien cuando:
 - Links, imágenes, precios, estado vendible y disponibilidad de producto están actualizados.
 - Quieres una alerta automática de precio, no una campaña amplia de descuentos.
 
-Usa una campaña o broadcast cuando quieres anunciar una oferta, promoción o cambio de precio a una audiencia seleccionada, incluso si esos clientes no mostraron interés en ese producto específico.
+Usa una campaña cuando quieres anunciar una oferta, promoción o cambio de precio a una audiencia seleccionada, incluso si esos clientes no mostraron interés en ese producto específico.
 
 Usa [Vuelta a Stock]({% link _journeys/back-in-stock-pounce.md %}) cuando el cambio principal es disponibilidad, no precio. Usa [Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}) cuando el comprador vio un producto disponible pero no hubo baja de precio. Usa [Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}) o [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) cuando la señal más fuerte es carrito o checkout abandonado. Usa [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) cuando el cliente necesita ayuda para encontrar un mejor producto o alternativa.
 
@@ -121,7 +121,7 @@ Usa el momento del cliente para decidir quién debería ser dueño.
 | El comprador vio un producto disponible pero no hubo baja de precio | [Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}) |
 | El comprador agregó productos al carrito o checkout y se fue | [Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}) o [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) |
 | El comprador necesita una recomendación o alternativa | [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) |
-| El negocio quiere anunciar una oferta una vez a una audiencia seleccionada | Campaña o broadcast |
+| El negocio quiere anunciar una oferta una vez a una audiencia seleccionada | Campaña |
 
 Alerta de Baja de Precio puede convivir con navegación, recuperación de carrito, recomendaciones y alertas de vuelta a stock cuando la propiedad está clara. Alerta de Baja de Precio maneja el momento en que el nuevo precio es la razón para volver a contactar.
 
@@ -201,5 +201,5 @@ Ajusta una cosa por vez: canal, tono, asignación, datos de producto, sincroniza
 - [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %})
 - [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
-- [Resumen de campañas y broadcasts]({% link _campaigns/campaigns-overview.md %})
+- [Resumen de campañas]({% link _campaigns/campaigns-overview.md %})
 - [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})

@@ -78,7 +78,7 @@ Antes de lanzar, prueba el camino de WhatsApp desde el disparador hasta la respu
 
 Las campañas pueden enviar mensajes dirigidos de WhatsApp a audiencias elegibles. Mantén cada campaña enfocada, usa la categoría de plantilla correcta y evita enviar con más frecuencia de la que los clientes esperan.
 
-Sigue leyendo: [Resumen de campañas y broadcasts]({% link _campaigns/campaigns-overview.md %}).
+Sigue leyendo: [Resumen de campañas]({% link _campaigns/campaigns-overview.md %}).
 
 ### Herramientas de captura
 

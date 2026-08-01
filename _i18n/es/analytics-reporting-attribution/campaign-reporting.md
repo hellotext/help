@@ -1,49 +1,95 @@
-Los reportes de campaña muestran entrega, interacción, compras atribuidas e ingresos atribuidos de una campaña entregada. Úsalos para comparar mensajes y canales, revisar la actividad de clientes y entender qué pedidos se vincularon con la campaña según la metodología de atribución de Hellotext.
+Los reportes de campaña se generan automáticamente después de la entrega. Reúnen la entrega de mensajes, la interacción rastreada, las compras atribuidas y los ingresos atribuidos para que puedas entender qué ocurrió y qué conviene mejorar.
 
-Para abrir un reporte, ve a **Campañas** y selecciona una campaña entregada. Los reportes están disponibles después de que se entrega una campaña.
+Para abrir uno, ve a **Campañas**, abre la vista de campañas entregadas y selecciona una campaña.
 
-## Selecciona el período del reporte
+## Elige el período del reporte
 
-El reporte se abre con la opción **Primeros 14 días**. Puedes cambiar el rango de fechas para revisar otro período.
+El reporte se abre con **Primeros 14 días** seleccionado. Puedes cambiar a los primeros 7 o 30 días, o elegir un rango personalizado.
 
-El período del reporte controla qué actividad aparece. No extiende la ventana de atribución utilizada para decidir si un pedido corresponde a la campaña.
+El período seleccionado actualiza en conjunto las métricas, el gráfico, el embudo, los resultados por mensaje, los desgloses de ingresos y la actividad reciente. Filtra cuándo se registraron esos resultados; no modifica la ventana de atribución utilizada para decidir si una compra corresponde a la campaña.
 
-## Interpreta las métricas principales
+Un mensaje de la campaña puede permanecer en la lista aunque sus resultados queden fuera del rango seleccionado. En ese caso, su fila puede mostrar valores en cero hasta que elijas un período que incluya su actividad.
 
-* **Ingresos:** ingresos activos atribuidos a la campaña durante el período seleccionado.
-* **ROI:** ingresos atribuidos a la campaña divididos por el costo estimado de entrega de sus mensajes.
-* **Conversión:** cantidad de compras atribuidas dividida por los mensajes entregados.
-* **Ingresos/mensaje:** ingresos atribuidos a la campaña divididos por los mensajes entregados.
-* **CTR:** clics rastreados divididos por los mensajes entregados.
+## Interpreta el resumen de la campaña
 
-La conversión no es el porcentaje de clics únicos que realizaron una compra. Se calcula con las compras atribuidas y los mensajes entregados.
+Las cuatro tarjetas del resumen responden preguntas diferentes:
 
-## Compara entregas y envíos
+* **Ingresos atribuidos:** cuántos ingresos provienen de compras atribuidas a esta campaña durante el período seleccionado.
+* **ROI promedio:** ingresos atribuidos divididos por el costo estimado de entrega de los mensajes de la campaña.
+* **Conversión:** compras atribuidas divididas por mensajes entregados.
+* **Ingresos/mensaje:** ingresos atribuidos divididos por mensajes entregados.
 
-El embudo de entrega muestra cómo avanzaron los mensajes por las etapas de entrega e interacción. Cuando una campaña tiene más de un envío o canal, la tabla de envíos permite comparar mensajes entregados, CTR, ROI, conversión, ingresos por mensaje e ingresos atribuidos.
+Selecciona una tarjeta para actualizar el gráfico y ver cómo cambió esa métrica en el tiempo. La conversión se calcula con compras atribuidas y mensajes entregados; no es el porcentaje de personas que hicieron clic y luego compraron.
 
-## Cómo los clics y las entregas contribuyen a la atribución
+## Sigue el embudo de entrega
+
+El **Embudo de entrega de campaña** recorre cuatro etapas:
+
+* **Enviado:** mensajes de la campaña despachados durante el período seleccionado.
+* **Entregado:** mensajes que llegaron a los clientes.
+* **Interacción:** mensajes entregados que generaron al menos un clic en un enlace rastreado durante el período. Es una cantidad de mensajes con interacción, no la suma total de clics.
+* **Conversión:** compras atribuidas a la campaña. Su porcentaje usa las compras atribuidas divididas por los mensajes entregados, igual que la métrica de conversión del resumen.
+
+Usa el embudo para detectar dónde cambia el rendimiento. Una diferencia grande entre enviados y entregados apunta a la entrega o la posibilidad de contactar a los clientes. Una entrega saludable con poca interacción apunta más a la audiencia, el mensaje o el llamado a la acción.
+
+## Compara los mensajes de la campaña
+
+La sección **Mensajes** muestra la fecha y la vista previa de cada mensaje de la campaña, junto con:
+
+* **Entregados:** mensajes entregados correctamente.
+* **CTR:** clics rastreados divididos por mensajes entregados.
+* **ROI promedio:** ingresos atribuidos divididos por el costo estimado de entrega.
+* **Conversión:** compras atribuidas divididas por mensajes entregados.
+* **Ingresos/mensaje:** ingresos atribuidos divididos por mensajes entregados.
+* **Ingresos:** ingresos atribuidos a ese mensaje.
+
+Esto permite comparar los mensajes reales sin mezclar el rendimiento de los clics con el de las compras. Un mensaje puede tener un CTR saludable y una conversión más débil si los clientes hacen clic pero no completan la compra.
+
+## Entiende el tiempo de conversión
+
+**Tiempo de conversión** muestra cuánto demoraron en ocurrir las ventas atribuidas desde el lanzamiento de la campaña, con rangos como el mismo día, 1–3 días, 4–7 días y períodos posteriores.
+
+El período del reporte filtra cuándo se registró la venta atribuida. Por eso una venta puede aparecer días después de la entrega del mensaje y aun corresponder a la campaña según las reglas de atribución aplicables.
+
+## Compara ingresos por canal y segmento
+
+**Ingresos atribuidos por canal** muestra cómo se distribuyen los ingresos atribuidos entre los canales de mensajería disponibles. Úsalo para ver qué canal aportó más ingresos, no solo cuál entregó más mensajes.
+
+**Ingresos atribuidos por segmento** muestra la distribución entre segmentos de clientes cuando hay datos de segmentación disponibles. Interpreta con cuidado las muestras pequeñas antes de aplicar el resultado a una audiencia futura.
+
+## Revisa la actividad reciente
+
+**Actividad reciente** lista eventos rastreados de clientes asociados con la campaña durante el período seleccionado. Puedes buscar un cliente o una actividad y abrir un evento para revisar más detalles.
+
+Que un evento aparezca aquí no significa automáticamente que haya generado ingresos atribuidos. La compra todavía necesita evidencia elegible de cliente, pedido, origen y tiempo.
+
+## Separa la actividad de la atribución
 
 Un clic en un enlace corto rastreado es evidencia activa de la campaña y normalmente abre una ventana de atribución de siete días desde el clic elegible. El clic no es la única evidencia posible: una entrega elegible de la campaña puede aportar evidencia pasiva dentro de la ventana predeterminada de 24 horas.
 
-Hellotext evalúa la evidencia de origen disponible y su precedencia antes de asignar el pedido. Una fuente de marketing externa reconocida puede tener precedencia sobre la evidencia de Hellotext. Lee [Cómo atribuimos las ventas]({% link _analytics-reporting-attribution/sales-attribution.md %}) para conocer la metodología completa.
+Hellotext evalúa la evidencia disponible y su precedencia antes de asignar una compra. Una fuente de marketing externa reconocida puede tener precedencia sobre la evidencia de Hellotext. Lee [Cómo atribuimos las ventas]({% link _analytics-reporting-attribution/sales-attribution.md %}) para conocer la metodología completa.
 
-## Explora los ingresos y la actividad
+## Convierte el reporte en una decisión
 
-Según la campaña y los datos disponibles, el reporte también puede incluir:
+* **Hay muchos más enviados que entregados:** revisa el consentimiento, que los perfiles de los clientes tengan un canal disponible y los posibles problemas de entrega.
+* **La entrega es saludable, pero el CTR es bajo:** revisa la relevancia de la audiencia, la claridad del mensaje y el llamado a la acción.
+* **El CTR es saludable, pero la conversión es baja:** revisa el destino, la disponibilidad del producto, la oferta y la experiencia de compra.
+* **Hay ingresos, pero el ROI o los ingresos por mensaje son débiles:** compara el costo de entrega, la combinación de canales y la calidad de la audiencia.
+* **Un canal o segmento aporta más ingresos:** úsalo como señal para la próxima campaña, considerando también el tamaño de la audiencia y el volumen de mensajes.
+* **Las conversiones llegan durante varios días:** espera lo suficiente antes de considerar definitivo el resultado del primer día.
 
-* Tiempo hasta la conversión
-* Ingresos por canal
-* Ingresos por segmento
-* Eventos de entrega e interacción
-* Compras y otros eventos rastreados del cliente
+## Cuando faltan resultados o parecen incorrectos
 
-Que un evento aparezca en la actividad de la campaña no significa automáticamente que haya creado ingresos atribuidos. El evento todavía necesita evidencia elegible de cliente, pedido, origen y tiempo.
+Primero confirma que el período seleccionado incluya la actividad de la campaña. Luego verifica que estén disponibles los enlaces rastreados y los eventos de compra. Las integraciones de comercio compatibles pueden enviar los datos de compras automáticamente; las tiendas personalizadas pueden usar [Hellotext.js o la API]({% link _developers/tracking-events.md %}).
 
-Las integraciones de comercio compatibles pueden enviar los datos de compras automáticamente. Para tiendas y eventos personalizados, usa [Hellotext.js o la API]({% link _developers/tracking-events.md %}).
+Si la actividad sigue sin aparecer, consulta [Soluciona señales o actividad faltantes]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %}).
 
 ## Guías relacionadas
 
+* [Crea una campaña]({% link _campaigns/creating-a-campaign.md %})
+* [Buenas prácticas para campañas]({% link _campaigns/campaign-best-practices.md %})
+* [Resumen de campañas]({% link _campaigns/campaigns-overview.md %})
 * [Rastrear enlaces en campañas y recorridos]({% link _developers/tracking-on-campaigns-and-journeys.md %})
 * [Usar enlaces rastreados]({% link _analytics-reporting-attribution/tracked-links.md %})
+* [Cómo atribuimos las ventas]({% link _analytics-reporting-attribution/sales-attribution.md %})
 * [Introducción a Analíticas]({% link _analytics-reporting-attribution/analytics-overview.md %})

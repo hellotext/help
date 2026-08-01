@@ -110,7 +110,7 @@ Usa el momento del cliente para decidir quién debería ser dueño.
 | El cliente podría necesitar reponer un producto consumible | [Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %}) |
 | El cliente compró recientemente y podría querer un producto relacionado | [Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %}) |
 | El cliente abandonó carrito o checkout | [Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}) o [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) |
-| Quieres enviar un mensaje planificado y puntual a una audiencia seleccionada | [Campañas y broadcasts]({% link _campaigns/campaigns-overview.md %}) |
+| Quieres enviar un mensaje planificado y puntual a una audiencia seleccionada | [Campañas]({% link _campaigns/campaigns-overview.md %}) |
 
 Reactivación Suave puede convivir con otros playbooks cuando cada uno maneja un momento distinto. No debería competir con una señal más específica, como carrito abandonado, ventana esperada de reposición o una conversación activa de soporte.
 

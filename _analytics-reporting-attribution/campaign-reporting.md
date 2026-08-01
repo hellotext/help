@@ -3,10 +3,10 @@ languages: ["en", "es"]
 
 en:
   title: Campaign reporting
-  description: Learn how to read delivery, engagement, conversion, and attributed-revenue metrics for a delivered campaign.
+  description: Learn how to read a campaign's summary, delivery funnel, message performance, conversions, and attributed revenue.
 es:
   title: Reportes de campaña
-  description: Aprende a interpretar las métricas de entrega, interacción, conversión e ingresos atribuidos de una campaña entregada.
+  description: Aprende a interpretar el resumen, el embudo de entrega, el rendimiento de los mensajes, las conversiones y los ingresos atribuidos de una campaña.
 
 permalink: campaign-reporting
 permalink_es: reportes-de-campaña

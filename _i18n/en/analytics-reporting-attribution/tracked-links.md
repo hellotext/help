@@ -14,3 +14,9 @@ You can look at our client-side <a class="active" href='https://github.com/hello
 An eligible click on a tracked link is active attribution evidence and normally opens a seven-day attribution window from the click. Tracked links are not the only evidence Hellotext can use: eligible delivery or other passive signals can apply within the default 24-hour window.
 
 Read [How we attribute sales]({% link _analytics-reporting-attribution/sales-attribution.md %}) for source precedence, attribution windows, and examples.
+
+## Related guides
+
+- [Create a campaign]({% link _campaigns/creating-a-campaign.md %})
+- [Campaign reporting]({% link _analytics-reporting-attribution/campaign-reporting.md %})
+- [Message editor overview]({% link _numbers/message-editor-overview.md %})

@@ -16,13 +16,14 @@ Use the editor to:
 You may see the editor in places such as:
 
 - The inbox, when replying to a customer.
-- Campaigns and broadcasts, when creating a one-time send.
+- Campaigns, when creating a one-time send.
 - Routes and playbooks, when writing automated messages.
 
 Available tools can vary by channel. For example, SMS supports text and links, while WhatsApp can support richer message types such as locations.
 
 ## Related guides
 
+- [Create a campaign]({% link _campaigns/creating-a-campaign.md %})
 - [Message editor basics]({% link _numbers/message-editor-basics.md %})
 - [Tracked links]({% link _analytics-reporting-attribution/tracked-links.md %})
 - [Personalization tags]({% link _audience/personalization-tags.md %})

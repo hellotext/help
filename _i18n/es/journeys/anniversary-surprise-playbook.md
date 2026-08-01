@@ -33,7 +33,7 @@ Encaja bien cuando:
 - El negocio quiere ofrecer un saludo o cupón aprobado sin crear campañas manuales.
 - Tu equipo quiere sumar un momento de retención que no dependa de inactividad, carrito o cumpleaños.
 
-Para cumpleaños personales, usa [Celebra su Cumpleaños]({% link _journeys/birthday-bash-playbook.md %}). Para clientes que están fríos, usa [Reactivación Suave]({% link _journeys/soft-reactivation-playbook.md %}), [Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %}) o [Último Intento]({% link _journeys/sunset-saver-playbook.md %}). Para fechas comerciales como feriados, lanzamientos o promociones puntuales, usa [Campañas y broadcasts]({% link _campaigns/campaigns-overview.md %}).
+Para cumpleaños personales, usa [Celebra su Cumpleaños]({% link _journeys/birthday-bash-playbook.md %}). Para clientes que están fríos, usa [Reactivación Suave]({% link _journeys/soft-reactivation-playbook.md %}), [Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %}) o [Último Intento]({% link _journeys/sunset-saver-playbook.md %}). Para fechas comerciales como feriados, lanzamientos o promociones puntuales, usa [Campañas]({% link _campaigns/campaigns-overview.md %}).
 
 ## Qué necesita antes del lanzamiento
 
@@ -101,7 +101,7 @@ Usa el tipo de fecha o señal para decidir qué playbook debería actuar.
 | El cliente empieza a enfriarse | [Reactivación Suave]({% link _journeys/soft-reactivation-playbook.md %}) |
 | El cliente lleva alrededor de 3 meses sin actividad | [Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %}) |
 | El cliente lleva alrededor de 12 meses sin actividad o sin reactivarse | [Último Intento]({% link _journeys/sunset-saver-playbook.md %}) |
-| Tienes una fecha comercial o lanzamiento puntual | [Campañas y broadcasts]({% link _campaigns/campaigns-overview.md %}) |
+| Tienes una fecha comercial o lanzamiento puntual | [Campañas]({% link _campaigns/campaigns-overview.md %}) |
 
 Sorpresa de Aniversario puede convivir con otros playbooks cuando cada uno responde a un momento distinto. Aun así, evita que el cliente reciba varios mensajes promocionales en el mismo momento si otro playbook activo encaja mejor.
 

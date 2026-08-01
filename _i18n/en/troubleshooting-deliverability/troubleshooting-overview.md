@@ -23,7 +23,7 @@ For SMS-specific limits on new prepaid businesses, keep reading: [SMS sending li
 
 For channel setup context, keep reading: [Messaging channels overview]({% link _numbers/messaging-overview.md %}).
 
-## Campaigns and broadcasts
+## Campaigns
 
 If a campaign result looks lower than expected, review the selected audience, channel, message content, links, timing, and report metrics before comparing results.
 

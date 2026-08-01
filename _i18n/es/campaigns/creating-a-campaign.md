@@ -1,109 +1,168 @@
-Aprende a crear campañas para llegar a tu audiencia, fomentar la interacción y apoyar la actividad de ventas atribuidas de tu marca.
+Usa una campaña cuando quieres enviar un mensaje planificado y puntual a una audiencia seleccionada. Tú eliges los canales, la audiencia, el mensaje y el momento de envío; Hellotext determina qué perfiles de cliente elegibles pueden contactarse realmente por esos canales.
 
-Las campañas son una de las formas más efectivas de captar la atención de tus clientes con mensajes cortos y relevantes en el momento correcto.
+## Antes de empezar
 
-Son especialmente efectivas para aumentar las ventas o generar anticipación en momentos puntuales. Úsalas como parte de tu estrategia habitual de mensajería, junto con capturas, playbooks y flujos de Inbox.
+Asegúrate de tener:
 
-Para crear una nueva campaña, visita la sección *Campañas* y haz clic en el botón *Nueva campaña* cerca de la parte superior derecha de la página.
+- Un canal de SMS o WhatsApp activo.
+- Perfiles de cliente con consentimiento para el canal que usarás.
+- Un objetivo y llamado a la acción claros.
+- Las listas, segmentos, links con tracking, cupones o contenido multimedia que necesites.
+- Un método de pago o saldo cuando lo requieran tu cuenta y los canales.
 
-## Seleccionar una audiencia
+Sigue leyendo: [¿A quién puedo escribirle?]({% link _audience/consent-and-subscriber-status.md %}).
 
-Las campañas pueden llegar a toda tu audiencia elegible simplemente manteniendo la selección *Todas las Audiencias*.
+## 1. Inicia la campaña y elige cómo se enviará
 
-En el lado derecho de la página se puede ver una estimación del total de destinatarios que puede alcanzar esta campaña.
+1. Abre **Campañas**.
+2. Selecciona **Nueva Campaña**.
+3. Elige una de las opciones de envío disponibles:
 
-Llegar a todos no siempre es deseable. Por lo general, una campaña es más efectiva cuando su mensaje se dirige a una audiencia específica.
+- **WhatsApp y SMS:** intenta primero por WhatsApp y usa SMS cuando WhatsApp no está disponible para un cliente elegible.
+- **Solo WhatsApp:** envía únicamente por WhatsApp.
+- **Solo SMS:** envía únicamente por SMS.
 
-Es una buena práctica crear diferentes campañas dirigidas a audiencias específicas. Si ya estás utilizando Listas o Segmentos, puedes incluirlos como audiencias seleccionándolos en el menú desplegable *Todas las Audiencias*.
+Las opciones disponibles dependen de los canales conectados al negocio. El **Target estimado** se actualiza para mostrar cuántos perfiles de cliente podrían contactarse con la opción elegida.
 
-Puedes incluir múltiples Listas y Segmentos en tu selección haciendo clic en el botón <img src="/images/icons/add.svg" class="avatar-icon bg-blush" width="25" /> a la derecha del desplegable.
+Selecciona **Siguiente** para continuar. Dale a la campaña un nombre interno claro en el encabezado para que el equipo pueda reconocerla después en las vistas de Borradores, Programadas, Enviadas y reportes.
 
-El total agregado de destinatarios a alcanzar será visible en el lado derecho de la página.
+## 2. Elige quién la recibirá
 
-Más información: **[Listas y segmentos]({% link _audience/lists-and-segments.md %})**.
+El paso de audiencia empieza con **Todas las audiencias**. Puedes mantenerlo cuando todos los perfiles de cliente elegibles deberían considerarse o reemplazarlo por una selección más específica.
 
-### Excluyendo audiencias
+Puedes incluir o excluir:
 
-Es posible excluir ciertas audiencias seleccionándolas primero y luego haciendo clic en la etiqueta *Incluir*.
+- Listas.
+- Segmentos.
+- Audiencias de campañas programadas o enviadas anteriormente.
 
-Para que una audiencia permanezca excluida, su etiqueta debe decir *Excluir*.
+Usa el botón de agregar para combinar varias reglas de audiencia. Cambia **Incluir** por **Excluir** cuando un grupo deba quedar fuera de la campaña.
 
-## Redactar tu mensaje
+Hellotext elimina duplicados entre grupos superpuestos y actualiza el target estimado automáticamente. La estimación considera los canales seleccionados, el estado de suscripción, la contactabilidad, las inclusiones y las exclusiones, por lo que puede ser menor que el tamaño total de las listas o segmentos elegidos.
 
-Tómate tu tiempo para escribir un mensaje claro. Imagínate a ti mismo como destinatario. ¿Cómo te sentirías al recibir este mensaje?
+Usa el control de ajustes junto al **Target estimado** cuando quieras limitar la campaña a una cantidad máxima de clientes elegibles de la audiencia seleccionada. Este límite no vuelve contactable a un perfil que no sea elegible.
 
-Por lo general, los mensajes cortos y efectivos funcionan mejor que aquellos más largos.
+Sigue leyendo: [Listas vs. segmentos]({% link _audience/lists-and-segments.md %}).
 
-Si tu campaña usa SMS, ten en cuenta la longitud del mensaje. Los SMS tienen un límite de 160 caracteres. Si incluyes caracteres que originalmente no se admiten en la especificación GSM-7, como acentos y emojis, se realizará una conversión de codificación a UCS-2 y la longitud total por mensaje SMS se reducirá a 80 caracteres.
+## 3. Redacta el mensaje
 
-Si tu mensaje SMS excede este límite, se requerirá un SMS adicional. Siempre que sea posible, Hellotext intenta fusionar diferentes SMS en un solo mensaje y, cuando esto no sea posible, el mensaje se enviará en mensajes SMS separados.
+Escribe un mensaje enfocado con una próxima acción clara. El editor muestra una vista previa del canal mientras redactas.
 
-Un contador con los caracteres de SMS restantes y la cantidad de mensajes SMS que esta campaña consumirá por destinatario estará disponible en el área de redacción cuando aplique SMS.
+Las herramientas disponibles dependen de la opción de envío. Una campaña puede incluir:
 
-Una vista previa del mensaje está disponible en el lado derecho de la página. Puede ayudar a darte una idea de cómo se vería el mensaje cuando se divide en diferentes SMS.
+- Texto con el formato soportado por el canal elegido.
+- Un link con tracking.
+- Etiquetas de personalización basadas en propiedades del perfil de cliente.
+- Un cupón.
+- Un canal o remitente de envío.
+- Contenido de WhatsApp como archivo adjunto, ubicación, pie de página o botones cuando sean compatibles.
 
-### Agregar un enlace corto
+Cuando WhatsApp forma parte de la campaña, el mensaje también se prepara como plantilla de WhatsApp. El contenido nuevo o modificado puede necesitar aprobación de Meta antes de entregarse.
 
-Esta característica crea una versión más corta de cualquier URL en un formato simple que se parece a *hello.link/abcdef*.
+Sigue leyendo: [Resumen del editor de mensajes]({% link _numbers/message-editor-overview.md %}).
 
-Siempre recomendamos usar esta herramienta para acortar la URL que llevará a los visitantes a tu sitio, promoción o producto.
+## Agrega links con tracking
 
-Los beneficios de acortar enlaces son dobles: mantiene tu mensaje más corto logrando más caracteres adicionales para el mensaje.
+Usa la herramienta de links del editor en lugar de pegar una URL larga. Hellotext crea un link corto `hello.link`, registra clics elegibles y conecta la visita con actividad rastreada posterior.
 
-También registra qué destinatarios hicieron clic en el enlace corto y puede vincular compras posteriores u otros eventos con esa sesión.
+Un clic rastreado puede aportar evidencia activa para la atribución de la campaña, pero no es la única evidencia que evalúa Hellotext.
 
-Las integraciones de comercio compatibles pueden enviar los datos de compras automáticamente. Para una tienda o eventos personalizados, instala *Hellotext.js* o usa la API para procesar la sesión y rastrear eventos.
+Sigue leyendo: [Links con tracking]({% link _analytics-reporting-attribution/tracked-links.md %}).
 
-Un clic rastreado es evidencia activa útil para la atribución, pero no es la única evidencia que Hellotext puede usar. Lee [Cómo atribuimos las ventas]({% link _analytics-reporting-attribution/sales-attribution.md %}) para conocer la metodología completa.
+## Agrega etiquetas de personalización
 
-### Agregar etiquetas
+Las etiquetas insertan propiedades del perfil de cliente en el mensaje entregado. Usa un valor alternativo cuando la propiedad pueda faltar, por ejemplo `{name|cliente}`.
 
-Haz que tus mensajes sean más personales haciendo referencia a las propiedades del perfil de cliente. Por ejemplo, puedes mostrar su nombre usando la etiqueta _{name}_. El mensaje entregado reemplazará la etiqueta con el nombre del perfil de cliente.
+Revisa cuidadosamente la vista previa al usar etiquetas. El valor alternativo debería producir una frase natural para perfiles que no tengan ese dato.
 
-Puedes encontrar etiquetas para todas las propiedades del perfil de cliente, como:
+Sigue leyendo: [Etiquetas de personalización]({% link _audience/personalization-tags.md %}).
 
-* *{name}*
-* *{last_name}*
-* *{phone}*
-* *{birthdate}*
-* Todas las propiedades personalizadas también tienen una etiqueta coincidente que sigue la misma convención de nomenclatura de etiquetas: por ejemplo, si la propiedad se llama _Mi propiedad_, una etiqueta para hacer referencia a esta propiedad estará disponible automáticamente con el nombre _ {mi_propiedad}_
+## Agrega un cupón
 
-### Establecer un valor predeterminado
+Usa la herramienta de cupones para hacer referencia a un cupón disponible en Hellotext. Esto mantiene el cupón conectado con la campaña y sus resultados en lugar de tratar un código escrito manualmente como texto común.
 
-Es probable que no todos los perfiles de cliente tengan un valor en la propiedad que deseas usar en una etiqueta. Por ejemplo, es posible que no todos los destinatarios de tu campaña tengan un nombre asociado. Dependiendo de cómo elabores tu mensaje, esto puede hacer que el mensaje se lea extraño si no se muestra ningún valor.
+Confirma que las reglas, vencimiento y productos elegibles del cupón correspondan a la audiencia antes de enviar.
 
-Para resolver esto, puedes pasar un valor predeterminado dentro de tu etiqueta separado por el caracter de separación o *pipe* en inglés como _ {name|cliente}_.
+## 4. Revisa la vista previa y envía una prueba
 
-Si tu mensaje es por ejemplo:
+Usa la vista previa para comprobar el mensaje en cada canal seleccionado. Revisa:
 
-* *Estimado **{name&#124;cliente}**, tenemos una oferta especial...*
+- La primera línea y el llamado a la acción.
+- La personalización y los valores alternativos.
+- El destino de los links con tracking.
+- El texto y la validez del cupón.
+- Los archivos, botones, pie de página o ubicación de WhatsApp.
+- La longitud del SMS y la estimación de partes que muestra el editor.
 
-Para un destinatario sin nombre se enviará como:
+Envía una prueba a un número de teléfono antes de continuar. Una prueba por SMS puede entregarse directamente. Una prueba de WhatsApp con contenido nuevo puede quedar programada hasta que Meta apruebe la plantilla.
 
-* *Estimado **cliente**, tenemos una oferta especial...*
+La prueba confirma la presentación y entrega al número elegido. No demuestra que todos los perfiles de la audiencia final sean elegibles.
 
-### Agregar cupones
+## 5. Elige cuándo se enviará
 
-Puedes hacer referencia a cupones ya creados. Hacer referencia a los cupones en lugar de escribirlos manualmente te brinda mejores informes y comprensión del impacto que tuvieron en los resultados de tu campaña.
+Elige una de estas opciones:
 
-### Elegir canal y remitente
+- **Enviar ahora:** inicia inmediatamente el proceso de aprobación y entrega.
+- **Enviar más tarde:** selecciona una fecha y hora futuras.
 
-Elige el canal y remitente que correspondan a la audiencia y objetivo de la campaña.
+Hellotext aplica las ventanas de comunicación requeridas para el país de destino y los ajustes de horas nocturnas del negocio. Si el momento elegido no está permitido, la interfaz puede solicitar otro horario o mover la entrega a la siguiente ventana permitida.
 
-Para campañas SMS, asegúrate de que tu cuenta tenga un remitente activo o código corto disponible antes de lanzar.
+Usa **Guardar y Cerrar** en cualquier paso cuando quieras conservar la campaña como borrador y terminarla más adelante.
 
-Para campañas de WhatsApp, asegúrate de que tu cuenta de WhatsApp esté conectada y lista antes de enviar.
+## 6. Revisa y confirma
 
-Sigue leyendo: **[Resumen de canales de mensajería]({% link _numbers/messaging-overview.md %})**.
+Antes de seleccionar **Enviar**, verifica:
 
-## Programar y entregar
+- La cantidad estimada de clientes segmentados.
+- Las audiencias incluidas y excluidas.
+- Los canales y el remitente de entrega.
+- La vista previa del mensaje para cada canal.
+- Los links con tracking, etiquetas, cupón y contenido de WhatsApp.
+- La fecha y hora de entrega.
+- El costo estimado de Meta cuando aplique WhatsApp.
 
-Puedes enviar tu campaña de inmediato o programarla para enviarla en el futuro en un día y hora en particular.
+La pantalla de confirmación es la última oportunidad de detectar una audiencia o mensaje incorrectos antes de que la campaña entre en aprobación y entrega.
 
-### Revisión editorial
+## Entiende la revisión de campañas
 
-Ten en cuenta que si tu campaña se dirige a más de 100 destinatarios, estará sujeta a una revisión editorial rápida antes de que se entregue.
+Las campañas dirigidas a por lo menos 100 clientes requieren revisión editorial. Una campaña de WhatsApp también puede esperar a Meta cuando su plantilla todavía no fue aprobada.
 
-Durante el horario de oficinas, esto es bastante rápido y generalmente toma menos de 10 minutos.
+Mientras la revisión está pendiente, la campaña aparece como **En revisión** o **WhatsApp en revisión**. Una vez aprobada, sigue el horario de entrega elegido. Si el equipo de revisión o Meta rechazan el contenido, abre la campaña, revisa el feedback, realiza los cambios solicitados y vuelve a enviarla.
 
-Al aprobarse tu campaña, esta continuará su curso hasta la entrega. No necesitas hacer nada de tu parte durante el proceso de aprobación a menos que haya una solicitud para ajustar la campaña, en cuyo caso, después de realizar un nuevo cambio, se marcará nuevamente para revisión.
+El tiempo de aprobación puede variar, especialmente cuando Meta debe revisar contenido nuevo de WhatsApp. Deja tiempo suficiente antes de una promoción o evento programado.
+
+## Después de enviar
+
+Usa las pestañas de Campañas para seguir su estado:
+
+- **Borradores:** guardadas pero no enviadas a revisión.
+- **Programadas:** enviadas a revisión, aprobadas para una hora futura o preparándose para enviar.
+- **Enviadas:** la entrega comenzó y los resultados están disponibles.
+- **Archivadas:** campañas terminadas que quitaste de la lista activa de Enviadas.
+
+Las respuestas de clientes continúan hacia el Inbox por el canal correspondiente. Los reportes de campaña se generan automáticamente después de la entrega para que puedas revisar mensajes entregados, interacción, conversión, ROI e ingresos atribuidos.
+
+Sigue leyendo: [Reportes de campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %}).
+
+## Checklist antes de enviar
+
+Antes del envío final, confirma que:
+
+- El objetivo necesita una campaña puntual en lugar de un playbook o una ruta.
+- La audiencia es específica y tiene consentimiento para el canal.
+- Las exclusiones quitan perfiles internos, de prueba, inválidos o inapropiados.
+- El remitente y el comportamiento de fallback son correctos.
+- El mensaje tiene una próxima acción clara.
+- Los links, etiquetas, cupones, archivos y botones funcionan en una prueba.
+- El horario deja margen para revisión editorial o de Meta.
+- Alguien supervisará respuestas, problemas de entrega y resultados después del lanzamiento.
+
+## Guías relacionadas
+
+- [Resumen de campañas]({% link _campaigns/campaigns-overview.md %})
+- [Buenas prácticas para campañas]({% link _campaigns/campaign-best-practices.md %})
+- [¿A quién puedo escribirle?]({% link _audience/consent-and-subscriber-status.md %})
+- [Resumen de canales de mensajería]({% link _numbers/messaging-overview.md %})
+- [Resumen del editor de mensajes]({% link _numbers/message-editor-overview.md %})
+- [Reportes de campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %})
+- [Cómo funciona Hellotext]({% link _getting-started/how-hellotext-works.md %})
