@@ -1,6 +1,6 @@
-Capture tools help people subscribe to your business from the places where they already interact with your brand: your store, packaging, social channels, checkout, or website.
+Capture playbooks help people subscribe to your business or share useful customer profile information from the places where they already interact with your brand: your store, packaging, social channels, checkout, website, or an active conversation.
 
-Most tools create a subscription path. Some tools open SMS or WhatsApp with a pre-filled opt-in message. Others collect information directly on your website or during checkout. Webchat creates an on-site conversation entry point and can hand off to WhatsApp when configured.
+Hellotext presents these options as playbooks, but they do not all work in the same way. Some open SMS or WhatsApp with a pre-filled opt-in message. Others collect information on your website or during checkout. Webchat creates an on-site conversation entry point, while Subscriber Booster and Property Collector use AI inside a conversation.
 
 To find capture playbooks in Hellotext, open **Playbooks**, click **Explore playbooks**, and go to the **Captures** group.
 
@@ -32,11 +32,11 @@ Write a clear opt-in message so customers understand what they are joining.
 
 Decide what should happen after someone subscribes, such as sending a welcome message, applying a coupon, starting a route, or triggering a playbook.
 
-## Keep captures easy to measure
+## Keep captures easy to identify and test
 
-Use separate captures for separate placements when you need to compare performance. For example, use one QR code for packaging and another QR code for in-store displays.
+Use separate captures for separate placements when you need to distinguish where subscriptions came from. For example, use one QR code for packaging and another QR code for in-store displays.
 
-Name each capture after the placement or campaign where it will be used. This makes reporting easier later.
+Name each capture after the placement or campaign where it will be used. This makes its origin easier to recognize when reviewing subscription activity and customer profiles. Reporting detail varies by capture type, so do not rely on every capture having the same performance report.
 
 Test every capture before sharing it with customers. For QR codes, scan the final printed or displayed version with a phone. For links and forms, test the full subscription flow from the same device a customer would use.
 

@@ -2,6 +2,8 @@ Response times help your team understand how quickly customers receive replies a
 
 Response rules define the targets Hellotext uses to decide whether a customer wait is on track, at risk, delayed, or overdue.
 
+Response health is separate from the conversation lifecycle. An assigned or unassigned conversation can need attention while it remains open. Keep reading: [Conversation lifecycle in Inbox]({% link _team/conversation-lifecycle.md %}).
+
 > Response rules are available on Pro and Enterprise plans.
 
 ## What response rules do

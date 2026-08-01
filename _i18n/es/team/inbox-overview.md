@@ -18,6 +18,8 @@ Tu equipo puede mantener la conversación sin asignar, asignarla a un colaborado
 
 Las conversaciones cerradas se reabren automáticamente cuando el cliente vuelve a responder o cuando una nueva actividad requiere acción de tu equipo.
 
+Sigue leyendo: [Ciclo de una conversación en el Inbox]({% link _team/conversation-lifecycle.md %}).
+
 ## Asigna un responsable claro
 
 Cada conversación debería tener un responsable claro cuando una persona necesita responder.

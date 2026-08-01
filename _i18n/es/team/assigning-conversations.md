@@ -29,3 +29,5 @@ Esta conversación ahora aparecerá en la bandeja del miembro del equipo.
 Cuando la conversación ya no requiere ninguna otra acción, se puede marcar como completada (también conocida como cerrada). Esto archivará la conversación desde la Bandeja.
 
 La conversación cerrada se volverá a abrir automáticamente si el cliente responde o cuando los eventos requieren una acción de tu equipo, por ejemplo, cuando se realizó un pedido en tu tienda que debe ser confirmado y enviado por tí.
+
+Sigue leyendo: [Ciclo de una conversación en el Inbox]({% link _team/conversation-lifecycle.md %}).

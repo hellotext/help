@@ -1,6 +1,6 @@
-Las herramientas de captura ayudan a que las personas se suscriban a tu negocio desde los lugares donde ya interactúan con tu marca: tu tienda, packaging, redes sociales, checkout o sitio web.
+Los playbooks de captura ayudan a que las personas se suscriban a tu negocio o compartan información útil para su perfil desde los lugares donde ya interactúan con tu marca: tu tienda, packaging, redes sociales, checkout, sitio web o una conversación activa.
 
-La mayoría de las herramientas crea un camino de suscripción. Algunas abren SMS o WhatsApp con un mensaje de opt-in prellenado. Otras recopilan información directamente en tu sitio web o durante el checkout. Webchat crea una entrada conversacional en el sitio y puede derivar a WhatsApp cuando está configurado.
+Hellotext presenta estas opciones como playbooks, pero no todas funcionan de la misma manera. Algunas abren SMS o WhatsApp con un mensaje de opt-in prellenado. Otras recopilan información en tu sitio web o durante el checkout. Webchat crea una entrada conversacional en el sitio, mientras que Impulsor de Suscriptores y Recolector de Propiedades usan IA dentro de una conversación.
 
 Para encontrar los playbooks de captura en Hellotext, abre **Playbooks**, haz clic en **Explorar playbooks** y ve al grupo **Capturas**.
 
@@ -32,11 +32,11 @@ Escribe un mensaje de opt-in claro para que tus clientes entiendan a qué se est
 
 Decide qué debería pasar después de que alguien se suscribe, como enviar un mensaje de bienvenida, aplicar un cupón, iniciar una ruta o activar un playbook.
 
-## Haz que las capturas sean fáciles de medir
+## Haz que las capturas sean fáciles de identificar y probar
 
-Usa capturas separadas para ubicaciones separadas cuando necesites comparar resultados. Por ejemplo, usa un código QR para packaging y otro para exhibidores en tienda.
+Usa capturas separadas para ubicaciones diferentes cuando necesites distinguir de dónde provienen las suscripciones. Por ejemplo, usa un código QR para packaging y otro para exhibidores en tienda.
 
-Nombra cada captura según la ubicación o campaña donde se va a usar. Esto hace que los reportes sean más fáciles de leer después.
+Nombra cada captura según la ubicación o campaña donde se va a usar. Esto permite reconocer mejor su origen al revisar actividad de suscripción y perfiles de cliente. El detalle disponible varía según el tipo de captura, por lo que no todas tienen el mismo reporte de rendimiento.
 
 Prueba cada captura antes de compartirla con clientes. Para códigos QR, escanea con un teléfono la versión final impresa o publicada. Para links y formularios, prueba el flujo completo desde el mismo tipo de dispositivo que usaría un cliente.
 

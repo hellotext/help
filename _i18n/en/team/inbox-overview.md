@@ -18,6 +18,8 @@ Your team can keep the conversation unassigned, assign it to a teammate, reassig
 
 Closed conversations reopen automatically when the customer replies again or when new activity requires your team to act.
 
+Keep reading: [Conversation lifecycle in Inbox]({% link _team/conversation-lifecycle.md %}).
+
 ## Assign clear ownership
 
 Every conversation should have a clear owner when a person needs to respond.

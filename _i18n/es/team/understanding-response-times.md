@@ -2,6 +2,8 @@ Tiempo de respuesta ayuda a tu equipo a entender qué tan rápido reciben respue
 
 Las reglas de respuesta definen los tiempos que Hellotext usa para decidir si una espera está al día, en riesgo, demorada o vencida.
 
+La salud de respuesta está separada del ciclo de la conversación. Una conversación asignada o sin asignar puede necesitar atención mientras permanece abierta. Sigue leyendo: [Ciclo de una conversación en el Inbox]({% link _team/conversation-lifecycle.md %}).
+
 > Las reglas de respuesta están disponibles en los planes Pro y Enterprise.
 
 ## Qué son las reglas de respuesta

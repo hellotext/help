@@ -29,3 +29,5 @@ This conversation will now appear on the team member's Inbox.
 When conversations no longer require any further action they can simply be marked as completed (also referred to as closed). This will simply archive the conversation from the Inbox.
 
 Closed conversations will be reopened automatically if the customer replies or when events require an action from your team, for example when an order has been placed on your store that needs to be confirmed and shipped by you.
+
+Keep reading: [Conversation lifecycle in Inbox]({% link _team/conversation-lifecycle.md %}).
