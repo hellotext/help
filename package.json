@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "setup": "bundle install && yarn install --frozen-lockfile",
+    "serve": "bundle exec jekyll serve",
+    "build": "JEKYLL_ENV=production bundle exec jekyll build && ruby script/verify_security_headers.rb"
+  },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.7",
     "autoprefixer": "^10.4.11",
