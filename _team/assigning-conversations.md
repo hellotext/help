@@ -3,11 +3,11 @@ languages: ["en", "es"]
 
 en:
   title: Assign conversations
-  description: Reduce response times and increase both customer and team satisfaction with a clear chain of responsibility.
+  description: Assign or reassign Inbox conversations to the right teammate or AI agent and understand how team routing affects ownership.
 
 es:
   title: Asigna conversaciones
-  description: Reduce los tiempos de respuesta y aumenta la satisfacción del cliente y del equipo manteniendo una cadena clara de responsabilidad.
+  description: Asigna o reasigna conversaciones del Inbox a la persona o al agente de IA adecuados y entiende cómo afecta el enrutamiento por equipo.
 
 permalink: assigning-conversations
 permalink_es: asignando-conversaciones
