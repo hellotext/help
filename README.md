@@ -22,8 +22,8 @@ Use a version manager such as [rbenv](https://github.com/rbenv/rbenv) / [asdf](h
 ## Install
 
 ```bash
-bundle install   # Ruby gems (Jekyll + plugins)
-yarn install     # Node packages (Tailwind / PostCSS toolchain)
+bundle install                    # Ruby gems (Jekyll + plugins)
+yarn install --frozen-lockfile    # Node packages (Tailwind / PostCSS toolchain)
 ```
 
 Or, with the bundled script: `yarn setup`.
@@ -43,12 +43,12 @@ yarn serve
 ## Build (production / verification)
 
 ```bash
-JEKYLL_ENV=production bundle exec jekyll build   # outputs to _site/
+JEKYLL_ENV=production bundle exec jekyll build && ruby script/verify_security_headers.rb
 # equivalently:
 yarn build
 ```
 
-This is the **exact command Netlify runs** to publish the site.
+This is the **exact command Netlify runs** to build the site and verify its security headers. The generated site is written to `_site/`.
 
 > **Gotcha:** a plain `bundle exec jekyll build` (without `JEKYLL_ENV=production`) fails with `Could not connect to the PostCSS server`. The `jekyll-postcss` plugin expects its dev server during `serve`; for a one-off build you must use the production environment shown above. Always use `yarn build` / the production command for a standalone build or CI check.
 
@@ -96,7 +96,7 @@ Each guide is a thin **stub** in a collection directory (front matter only, plus
    topic: integrations
    popular: false
    ---
-   { % translate_file integrations/connect-example.md % }
+   {% translate_file integrations/connect-example.md %}
    ```
 
 2. Add the translated bodies at `_i18n/en/integrations/connect-example.md` and `_i18n/es/integrations/connect-example.md`.
@@ -106,4 +106,4 @@ The `connect-shopify` integration is a complete, recent example to copy from.
 
 ## Deployment
 
-Netlify builds with `JEKYLL_ENV=production bundle exec jekyll build` and publishes the `_site/` directory (see `netlify.toml`). Merges to the production branch deploy automatically.
+Netlify builds with `JEKYLL_ENV=production bundle exec jekyll build`, verifies the generated site with `ruby script/verify_security_headers.rb`, and publishes the `_site/` directory (see `netlify.toml`). Merges to the production branch deploy automatically.
