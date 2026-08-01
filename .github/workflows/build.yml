@@ -1,0 +1,38 @@
+name: Build
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+
+      # Reads the Ruby version from .ruby-version, installs the locked bundle,
+      # and caches the installed gems.
+      - uses: ruby/setup-ruby@95ef2b042f9d7a56d8268cba8559e2842e2ad01b # v1
+        with:
+          bundler-cache: true
+
+      # Reads Node version from .nvmrc (18) and caches Yarn downloads.
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version-file: .nvmrc
+          cache: yarn
+
+      - run: corepack enable
+      - run: yarn install --frozen-lockfile
+
+      # Runs the production Jekyll build and security-header verification used
+      # by Netlify (see package.json and netlify.toml).
+      - name: Build and verify site
+        run: yarn build
