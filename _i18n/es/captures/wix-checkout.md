@@ -1,6 +1,6 @@
 Cuando tus clientes realizan una compra en tu tienda, Hellotext crea automáticamente su perfil con la información personal, incluyendo número de teléfono y correo electrónico. 
 
-Sin embargo, para que puedas enviarles campañas promocionales, es necesario que recibas su consentimiento. 
+Sin embargo, para enviarles mensajes desde Hellotext, es necesario recibir consentimiento para el canal que vas a usar.
 
 Una manera de obtener su consentimiento es mediante la casilla de aceptación de suscripción en el formulario de compra. 
 
@@ -22,8 +22,8 @@ Si lo deseas, también puedes marcar la casilla *Marcada de forma predeterminada
 
 <img src="images/captures/wix/es/settings-checkout.jpeg" alt="" width="768" />
 
-¡Listo! A partir de ahora, tus usuarios podrán darte el consentimiento para recibir futuras promociones. 
+¡Listo! A partir de ahora, tus clientes podrán dar consentimiento para recibir futuros mensajes de tu negocio.
 
-En Hellotext, verás que los perfiles de clientes con consentimiento aparecerán como *Suscritos* en verde.
+En Hellotext, verás que los perfiles de cliente con consentimiento aparecerán como *Suscritos* en verde.
 
 <img src="images/captures/wix/es/profile-subscribed.jpeg" alt="" width="250" />

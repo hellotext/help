@@ -91,13 +91,13 @@ Learn more here {shortlink:https://www.tunegocio.com}
 
 Hellotext will replace that instruction with a short link when the message is sent.
 
-If you want to use your own short link domain, see the [custom domain for short links guide](/setting-up-custom-shortlink-domain).
+If you want to use your own short link domain, see the [custom domain for short links guide]({% link _integrations/custom-domain-for-short-links.md %}).
 
-## Profiles and contacts
+## Customer profiles
 
 You do not need to create a profile in advance to make a one-off send to a number using `destination`.
 
-However, if you also want to keep contact history, segment audiences, or reuse that data in campaigns and automations, you can:
+However, if you also want to keep customer profile history, segment audiences, or reuse that data in campaigns, playbooks, or routes, you can:
 
-* Import your contacts from the Hellotext interface.
+* Import customer profiles from the Hellotext interface.
 * Create profiles programmatically with the [API reference for creating profiles](https://www.hellotext.com/api#create_a_profile).

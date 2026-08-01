@@ -1,4 +1,4 @@
-Enabling the Marketing sign up will allow you to collect the Email or Phone number from your clients and get consent for marketing your products.
+Enabling marketing sign-up allows you to collect email addresses or phone numbers from your customers and get consent to send marketing messages.
 
 ## Shopify
 
@@ -8,5 +8,5 @@ Enabling the Marketing sign up will allow you to collect the Email or Phone numb
 - Select Email, SMS or both.
 - You're done!
 
-Here's what you should see. Make sure to select your preferred marketing method or both.
+Here's what you should see. Make sure to select your preferred marketing method, or both.
 ![Shopify Marketing Options](images/captures/shopify-marketing-options.png)

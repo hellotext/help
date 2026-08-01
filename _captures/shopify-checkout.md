@@ -2,7 +2,7 @@
 languages: ["en", "es"]
 
 en:
-  title: Suscribe on Shopify Checkout
+  title: Subscribe on Shopify Checkout
   description: Capture new subscribers enabling the Subscription opt-in checkbox on the checkout page.
 es:
   title: Suscribir en el formulario de compra de Shopify

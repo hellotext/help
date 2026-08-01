@@ -8,7 +8,7 @@ Este es el rol con la menor cantidad de privilegios.
 
 Ideal para agentes que se ocuparán principalmente de las conversaciones.
 
-* Puede administrar conversaciones y contactos.
+* Puede administrar conversaciones y perfiles de cliente.
 
 ### Manager
 
@@ -16,7 +16,7 @@ Este es un rol ideal para quienes realizan actividades de marketing o tienen age
 
 * Puede administrar campañas y ver sus informes.
 * Puede gestionar capturas.
-* Puede administrar rutas.
+* Puede administrar playbooks y automatizaciones.
 * Puede hacer todo lo que hacen los agentes.
 
 ### Administrador

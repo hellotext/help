@@ -11,7 +11,7 @@ The following activities are tracked automatically:
 - Orders placed
 - Orders updated
 
-With this information, you'll be able to create segmented audiences and much more effective promotional campaigns.
+With this information, Hellotext can build richer customer profiles, create segments, trigger playbooks or routes, and measure what happens after each message.
 
 ## Download Plugin
 
@@ -91,8 +91,8 @@ Done! Your WooCommerce store is now connected to Hellotext.
 
 ## Next Steps
 
-From now on, you will start seeing your customers' activity reflected in the Audience section or from the Inbox.
+From now on, you will start seeing customer activity reflected in Audience and the Inbox.
 
 You can click on each profile to see the activity history they perform in your eCommerce.
 
-With this information, you can create segments for sending campaigns and automations from the Routes section.
+Use this activity as signals for segments, playbooks, routes, campaign targeting, and reporting.

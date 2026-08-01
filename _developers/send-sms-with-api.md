@@ -2,7 +2,7 @@
 languages: ["en", "es"]
 
 en:
-  title: Sending SMS with the API
+  title: Send SMS with the API
   description: Learn how to send SMS messages from your system using the Hellotext API.
 es:
   title: Enviar SMS con la API
