@@ -13,7 +13,7 @@ Use a **list** when membership should be explicit and stable. Use a **segment** 
 
 ## Use a list for explicit membership
 
-A list is a fixed group of customer profiles. A profile stays in the list until a person, import, integration, or journey step adds or removes it.
+A list is a fixed group of customer profiles. A profile stays in the list until its membership is changed by a person, import, integration, or journey step.
 
 Lists are useful when the act of assigning a profile to the group matters. They are not limited to small audiences.
 

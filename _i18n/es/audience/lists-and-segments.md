@@ -13,7 +13,7 @@ Usa una **lista** cuando la pertenencia debe ser explícita y estable. Usa un **
 
 ## Usa una lista para una pertenencia explícita
 
-Una lista es un grupo fijo de perfiles de cliente. Un perfil permanece en ella hasta que una persona, una importación, una integración o un paso de una ruta lo agrega o elimina.
+Una lista es un grupo fijo de perfiles de cliente. Un perfil permanece en ella hasta que una persona, una importación, una integración o un paso de una ruta cambia esa pertenencia.
 
 Las listas son útiles cuando importa la decisión de asignar un perfil al grupo. No están limitadas a audiencias pequeñas.
 

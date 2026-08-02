@@ -3,10 +3,10 @@ languages: ["en", "es"]
 
 en:
   title: Create and manage lists
-  description: The simplest way to organize customer profiles and subscribers.
+  description: Create fixed groups and manage customer profile membership across Hellotext.
 es:
   title: Crea y gestiona listas
-  description: La manera más sencilla de organizar perfiles de cliente y suscriptores.
+  description: Crea grupos fijos y gestiona la pertenencia de perfiles de cliente en Hellotext.
 
 permalink: lists
 permalink_es: listas
