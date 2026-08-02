@@ -6,7 +6,7 @@ La métrica resultante son los **ingresos atribuidos**: ingresos vinculados a ac
 
 Una venta se atribuye cuando Hellotext recibe un evento de ingresos elegible y puede vincularlo con evidencia de origen compatible para el mismo cliente o pedido.
 
-Los ingresos atribuidos se usan en reportes y, cuando corresponde, en la facturación basada en performance. Por sí solos, no significan que Hellotext haya causado todas las ventas atribuidas ni que el monto completo represente crecimiento incremental.
+Los ingresos atribuidos se usan en reportes y, cuando corresponde, en la facturación basada en rendimiento. Por sí solos, no significan que Hellotext haya causado todas las ventas atribuidas ni que el monto completo represente crecimiento incremental.
 
 ## Evidencia y precedencia de fuentes
 

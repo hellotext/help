@@ -1,5 +1,6 @@
 ---
 languages: ["en", "es"]
+navigation_group: business_performance
 
 en:
   title: Demand insights guide

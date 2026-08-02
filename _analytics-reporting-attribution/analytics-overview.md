@@ -1,5 +1,6 @@
 ---
 languages: ["en", "es"]
+navigation_group: foundations
 
 en:
   title: Analytics, reporting, and attribution overview

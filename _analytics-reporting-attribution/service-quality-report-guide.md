@@ -1,5 +1,6 @@
 ---
 languages: ["en", "es"]
+navigation_group: operations_experience
 
 en:
   title: Service quality report guide

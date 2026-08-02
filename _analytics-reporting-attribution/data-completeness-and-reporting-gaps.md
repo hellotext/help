@@ -1,5 +1,6 @@
 ---
 languages: ["en", "es"]
+navigation_group: measurement_attribution
 
 en:
   title: Data completeness and reporting gaps

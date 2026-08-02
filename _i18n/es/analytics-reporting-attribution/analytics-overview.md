@@ -34,7 +34,7 @@ Sigue leyendo: [Guía de Insights de demanda]({% link _analytics-reporting-attri
 
 Los reportes de campaña te ayudan a revisar entrega, interacción, clicks, conversiones, respuestas e ingresos atribuidos para un envío puntual.
 
-Usa reportes de campaña cuando necesites evaluar una campaña, comparar performance de mensajes o decidir qué mejorar antes de la próxima campaña.
+Usa reportes de campaña cuando necesites evaluar una campaña, comparar el rendimiento de los mensajes o decidir qué mejorar antes de la próxima campaña.
 
 Sigue leyendo: [Reportes de campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %}).
 
@@ -84,7 +84,7 @@ Sigue leyendo:
 
 ## Antes de comparar resultados
 
-Al revisar performance, verifica:
+Al revisar el rendimiento, verifica:
 
 - La audiencia y el canal usado.
 - Si los links y el tracking estaban configurados correctamente.

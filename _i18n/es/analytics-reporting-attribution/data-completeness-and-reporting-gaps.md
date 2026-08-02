@@ -43,7 +43,7 @@ El reporte o la sección debe explicar qué fecha utiliza. Estas son las reglas 
 | Reporte de ingresos | Fecha de compra. Las filas de campañas y playbooks identifican la fuente acreditada para compras completadas durante el período seleccionado. |
 | Rendimiento de campañas | Fecha de entrega del mensaje. Los clicks y compras elegibles registrados después permanecen asignados a la entrega original. |
 | Reporte de un playbook | Fecha de activación del playbook. Los mensajes posteriores y las compras atribuidas permanecen asignados a la activación original. |
-| Performance, Conversaciones y Calidad de servicio | Fecha de inicio de la conversación. La conversión, derivación, resolución y satisfacción posteriores siguen a la conversación de origen. |
+| Rendimiento, Conversaciones y Calidad de servicio | Fecha de inicio de la conversación. La conversión, derivación, resolución y satisfacción posteriores siguen a la conversación de origen. |
 | Rendimiento de canales | Fecha de envío del mensaje. La entrega, interacción y ventas atribuidas posteriores siguen a esos mensajes. |
 | Insights de demanda | Fecha en que comenzó la solicitud no resuelta. La recuperación posterior sigue a la solicitud original. |
 | Reseñas y feedback | El feedback recibido usa la fecha de envío de la respuesta; el rendimiento de recopilación usa la fecha de entrega de la solicitud; los seguimientos pendientes muestran el estado actual. |
@@ -125,7 +125,7 @@ Después de confirmar el evento, revisa si pertenece a la métrica que estás an
 
 - El playbook, ruta o agente debe estar activo y recibir tráfico elegible.
 - Debe registrarse el evento requerido de disparador, interacción, conversión, derivación o resolución.
-- El reporte de un playbook selecciona las fechas de activación originales; un reporte de Performance selecciona las fechas de inicio de las conversaciones. Los resultados elegibles posteriores permanecen vinculados con esa actividad original.
+- El reporte de un playbook selecciona las fechas de activación originales; el Reporte de rendimiento selecciona las fechas de inicio de las conversaciones. Los resultados elegibles posteriores permanecen vinculados con esa actividad original.
 - Un desglose por canal, playbook, IA frente a personas o equipo necesita esa dimensión en la actividad de origen.
 
 ### Reportes de operaciones
