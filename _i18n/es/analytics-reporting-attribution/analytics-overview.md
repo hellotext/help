@@ -22,6 +22,14 @@ El Reporte de rendimiento sigue las conversaciones desde su inicio hasta resulta
 
 Sigue leyendo: [Guía del Reporte de rendimiento]({% link _analytics-reporting-attribution/performance-report-guide.md %}).
 
+## Insights de demanda
+
+Insights de demanda identifica solicitudes de producto que no pudieron satisfacerse, los productos y variantes afectados y el valor estimado de esas oportunidades perdidas.
+
+Úsalo cuando necesites priorizar problemas de inventario, catálogo, disponibilidad o recomendaciones alternativas a partir de la demanda observada de clientes.
+
+Sigue leyendo: [Guía de Insights de demanda]({% link _analytics-reporting-attribution/demand-insights-guide.md %}).
+
 ## Reportes de campañas
 
 Los reportes de campaña te ayudan a revisar entrega, interacción, clicks, conversiones, respuestas e ingresos atribuidos para un envío puntual.
@@ -91,6 +99,7 @@ Si estás revisando tu primer lanzamiento, empieza por [Mide el éxito en tus pr
 - [Mide el éxito en tus primeros 7 días]({% link _getting-started/measure-success-first-7-days.md %})
 - [Guía del Reporte de ingresos]({% link _analytics-reporting-attribution/revenue-report-guide.md %})
 - [Guía del Reporte de rendimiento]({% link _analytics-reporting-attribution/performance-report-guide.md %})
+- [Guía de Insights de demanda]({% link _analytics-reporting-attribution/demand-insights-guide.md %})
 - [Guía del Reporte de calidad de servicio]({% link _analytics-reporting-attribution/service-quality-report-guide.md %})
 - [Guía del Reporte de carga y capacidad]({% link _analytics-reporting-attribution/workload-capacity-report-guide.md %})
 - [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})

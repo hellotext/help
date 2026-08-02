@@ -22,6 +22,14 @@ Use it when you need to compare conversion rate, time to conversion, escalation 
 
 Keep reading: [Performance report guide]({% link _analytics-reporting-attribution/performance-report-guide.md %}).
 
+## Demand insights
+
+Demand insights identifies product requests that could not be fulfilled, the products and variants affected, and the estimated value of those missed opportunities.
+
+Use it when you need to prioritize inventory, catalog, availability, or alternative-recommendation problems based on observed customer demand.
+
+Keep reading: [Demand insights guide]({% link _analytics-reporting-attribution/demand-insights-guide.md %}).
+
 ## Campaign reports
 
 Campaign reports help you review delivery, engagement, clicks, conversions, replies, and attributed revenue for a one-time send.
@@ -91,6 +99,7 @@ If you are reviewing your first launch, start with [Measure success in your firs
 - [Measure success in your first 7 days]({% link _getting-started/measure-success-first-7-days.md %})
 - [Revenue report guide]({% link _analytics-reporting-attribution/revenue-report-guide.md %})
 - [Performance report guide]({% link _analytics-reporting-attribution/performance-report-guide.md %})
+- [Demand insights guide]({% link _analytics-reporting-attribution/demand-insights-guide.md %})
 - [Service quality report guide]({% link _analytics-reporting-attribution/service-quality-report-guide.md %})
 - [Workload & capacity report guide]({% link _analytics-reporting-attribution/workload-capacity-report-guide.md %})
 - [Playbook reporting]({% link _analytics-reporting-attribution/playbook-reporting.md %})
