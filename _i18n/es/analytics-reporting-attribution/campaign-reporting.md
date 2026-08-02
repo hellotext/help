@@ -6,7 +6,11 @@ Para abrir uno, ve a **Campañas**, abre la vista de campañas entregadas y sele
 
 El reporte se abre con **Primeros 14 días** seleccionado. Puedes cambiar a los primeros 7 o 30 días, o elegir un rango personalizado.
 
-El período seleccionado actualiza en conjunto las métricas, el gráfico, el embudo, los resultados por mensaje, los desgloses de ingresos y la actividad reciente. Filtra cuándo se registraron esos resultados; no modifica la ventana de atribución utilizada para decidir si una compra corresponde a la campaña.
+El período seleccionado se basa en cuándo se entregaron los mensajes de la campaña. Las métricas, el gráfico, el embudo, los resultados por mensaje y los desgloses de ingresos siguen a los mensajes entregados durante ese período. Los clicks y compras elegibles pueden ocurrir después y permanecer asignados a la fecha de entrega original.
+
+Por ejemplo: **Mensaje entregado el 7 de abril → Compra el 10 de abril → Cuenta el 7 de abril en el reporte de campaña.** El Reporte de ingresos cuenta esa misma compra el 10 de abril porque usa la fecha de compra.
+
+Cambiar el período del reporte no modifica la ventana de atribución utilizada para decidir si una compra corresponde a la campaña.
 
 Un mensaje de la campaña puede permanecer en la lista aunque sus resultados queden fuera del rango seleccionado. En ese caso, su fila puede mostrar valores en cero hasta que elijas un período que incluya su actividad.
 
@@ -14,7 +18,7 @@ Un mensaje de la campaña puede permanecer en la lista aunque sus resultados que
 
 Las cuatro tarjetas del resumen responden preguntas diferentes:
 
-* **Ingresos atribuidos:** cuántos ingresos provienen de compras atribuidas a esta campaña durante el período seleccionado.
+* **Ingresos atribuidos:** cuántos ingresos provienen de compras elegibles atribuidas a mensajes de la campaña entregados durante el período seleccionado.
 * **ROI promedio:** ingresos atribuidos divididos por el costo estimado de entrega de los mensajes de la campaña.
 * **Conversión:** compras atribuidas divididas por mensajes entregados.
 * **Ingresos/mensaje:** ingresos atribuidos divididos por mensajes entregados.
@@ -47,9 +51,9 @@ Esto permite comparar los mensajes reales sin mezclar el rendimiento de los clic
 
 ## Entiende el tiempo de conversión
 
-**Tiempo de conversión** muestra cuánto demoraron en ocurrir las ventas atribuidas desde el lanzamiento de la campaña, con rangos como el mismo día, 1–3 días, 4–7 días y períodos posteriores.
+**Tiempo de conversión** muestra cuánto demoraron en ocurrir las ventas atribuidas desde la entrega del mensaje, con rangos como el mismo día, 1–3 días, 4–7 días y períodos posteriores.
 
-El período del reporte filtra cuándo se registró la venta atribuida. Por eso una venta puede aparecer días después de la entrega del mensaje y aun corresponder a la campaña según las reglas de atribución aplicables.
+El período del reporte selecciona las entregas originales de los mensajes. Una venta puede ocurrir días después y aun contarse con su fecha de entrega cuando corresponde a la campaña según las reglas de atribución aplicables.
 
 ## Compara ingresos por canal y segmento
 
@@ -80,7 +84,7 @@ Hellotext evalúa la evidencia disponible y su precedencia antes de asignar una 
 
 ## Cuando faltan resultados o parecen incorrectos
 
-Primero confirma que el período seleccionado incluya la actividad de la campaña. Luego verifica que estén disponibles los enlaces rastreados y los eventos de compra. Las integraciones de comercio compatibles pueden enviar los datos de compras automáticamente; las tiendas personalizadas pueden usar [Hellotext.js o la API]({% link _developers/tracking-events.md %}).
+Primero confirma que el período seleccionado incluya la entrega elegible del mensaje. Luego verifica que estén disponibles los enlaces rastreados y los eventos de compra. Las integraciones de comercio compatibles pueden enviar los datos de compras automáticamente; las tiendas personalizadas pueden usar [Hellotext.js o la API]({% link _developers/tracking-events.md %}).
 
 Si la actividad sigue sin aparecer, consulta [Soluciona señales o actividad faltantes]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %}).
 

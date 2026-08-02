@@ -18,6 +18,19 @@ Cuando revises playbooks de feedback juntos, mantén separados sus resultados. G
 
 Antes de comparar resultados, elige el rango de fechas correcto y confirma que el playbook tuvo suficiente tráfico para aprender algo.
 
+## Entiende cómo se asignan las fechas
+
+La misma compra puede aparecer en fechas diferentes entre reportes porque cada uno responde una pregunta distinta.
+
+- El **reporte específico de un playbook** usa la fecha en que se activó el playbook. Todas las métricas, gráficos y tablas siguen las ejecuciones activadas durante el período seleccionado. La actividad posterior de los mensajes y las compras atribuidas se agregan a la fecha de activación original.
+- El **resumen de Playbooks** usa la fecha de entrega del mensaje para medir resultados. Las compras elegibles posteriores permanecen asignadas a esas entregas.
+- El **Reporte de ingresos** usa la fecha de compra. Muestra las compras completadas durante el período seleccionado e identifica el playbook, campaña u otra fuente que recibió el crédito.
+- El reporte de **Performance** usa la fecha de inicio de la conversación para sus resultados. La conversión, derivación y resolución posteriores permanecen asignadas a la conversación de origen.
+
+Por ejemplo: **Playbook activado el 7 de abril → Compra el 10 de abril → Cuenta el 7 de abril en el reporte del playbook y el 10 de abril en Ingresos.**
+
+Las fechas de activación o entrega recientes pueden seguir creciendo mientras sus ventanas de resultados y atribución continúen abiertas. Esto no cambia a qué actividad de origen pertenece el resultado. Consulta [Atribución de ventas]({% link _analytics-reporting-attribution/sales-attribution.md %}) para conocer las reglas de elegibilidad y tiempo.
+
 ## Revisa ingresos de playbooks
 
 En el reporte de Ingresos, mira:
@@ -72,7 +85,7 @@ Compara playbooks solo cuando el contexto sea suficientemente parecido.
 
 Antes de decidir, revisa:
 
-- El mismo rango de fechas.
+- El mismo rango de fechas y la regla usada por cada reporte para asignar los resultados a una fecha.
 - Tamaño de audiencia y tráfico similares.
 - Mezcla de canales comparable.
 - Si el playbook estuvo activo durante todo el período.
