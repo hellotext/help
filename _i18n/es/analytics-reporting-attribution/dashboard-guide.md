@@ -146,6 +146,7 @@ Los resultados recientes pueden cambiar mientras la atribución siga abierta o l
 - [Atribución de ventas]({% link _analytics-reporting-attribution/sales-attribution.md %})
 - [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})
 - [Reportes de campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %})
+- [Guía del Reporte de rendimiento]({% link _analytics-reporting-attribution/performance-report-guide.md %})
 - [Guía del Reporte de carga y capacidad]({% link _analytics-reporting-attribution/workload-capacity-report-guide.md %})
 - [Cómo interpretar los tiempos de respuesta]({% link _team/understanding-response-times.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})

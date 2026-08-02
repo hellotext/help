@@ -146,6 +146,7 @@ Recent report results can change while attribution remains open or late data arr
 - [Sales attribution]({% link _analytics-reporting-attribution/sales-attribution.md %})
 - [Playbook reporting]({% link _analytics-reporting-attribution/playbook-reporting.md %})
 - [Campaign reporting]({% link _analytics-reporting-attribution/campaign-reporting.md %})
+- [Performance report guide]({% link _analytics-reporting-attribution/performance-report-guide.md %})
 - [Workload & capacity report guide]({% link _analytics-reporting-attribution/workload-capacity-report-guide.md %})
 - [Understand response times]({% link _team/understanding-response-times.md %})
 - [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})

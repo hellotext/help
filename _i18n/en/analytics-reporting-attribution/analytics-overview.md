@@ -14,6 +14,14 @@ Use it when you need to compare revenue attributed to AI or classified as team-m
 
 Keep reading: [Revenue report guide]({% link _analytics-reporting-attribution/revenue-report-guide.md %}).
 
+## Performance report
+
+The Performance report follows conversations from their start through later conversion and escalation outcomes.
+
+Use it when you need to compare conversion rate, time to conversion, escalation rate, and AI-only versus team-managed conversion paths.
+
+Keep reading: [Performance report guide]({% link _analytics-reporting-attribution/performance-report-guide.md %}).
+
 ## Campaign reports
 
 Campaign reports help you review delivery, engagement, clicks, conversions, replies, and attributed revenue for a one-time send.
@@ -82,6 +90,7 @@ If you are reviewing your first launch, start with [Measure success in your firs
 
 - [Measure success in your first 7 days]({% link _getting-started/measure-success-first-7-days.md %})
 - [Revenue report guide]({% link _analytics-reporting-attribution/revenue-report-guide.md %})
+- [Performance report guide]({% link _analytics-reporting-attribution/performance-report-guide.md %})
 - [Service quality report guide]({% link _analytics-reporting-attribution/service-quality-report-guide.md %})
 - [Workload & capacity report guide]({% link _analytics-reporting-attribution/workload-capacity-report-guide.md %})
 - [Playbook reporting]({% link _analytics-reporting-attribution/playbook-reporting.md %})

@@ -221,6 +221,7 @@ Si falta el evento, primero sigue [Soluciona señales o actividad faltante]({% l
 - [Guía del Dashboard]({% link _analytics-reporting-attribution/dashboard-guide.md %})
 - [Resumen de analítica, reportes y atribución]({% link _analytics-reporting-attribution/analytics-overview.md %})
 - [Guía del Reporte de ingresos]({% link _analytics-reporting-attribution/revenue-report-guide.md %})
+- [Guía del Reporte de rendimiento]({% link _analytics-reporting-attribution/performance-report-guide.md %})
 - [Guía del Reporte de calidad de servicio]({% link _analytics-reporting-attribution/service-quality-report-guide.md %})
 - [Guía del Reporte de carga y capacidad]({% link _analytics-reporting-attribution/workload-capacity-report-guide.md %})
 - [Reportes de campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %})

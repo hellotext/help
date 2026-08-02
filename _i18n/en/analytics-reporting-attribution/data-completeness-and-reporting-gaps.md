@@ -221,6 +221,7 @@ If the event itself is missing, follow [Troubleshoot missing signals or activity
 - [Dashboard guide]({% link _analytics-reporting-attribution/dashboard-guide.md %})
 - [Analytics overview]({% link _analytics-reporting-attribution/analytics-overview.md %})
 - [Revenue report guide]({% link _analytics-reporting-attribution/revenue-report-guide.md %})
+- [Performance report guide]({% link _analytics-reporting-attribution/performance-report-guide.md %})
 - [Service quality report guide]({% link _analytics-reporting-attribution/service-quality-report-guide.md %})
 - [Workload & capacity report guide]({% link _analytics-reporting-attribution/workload-capacity-report-guide.md %})
 - [Campaign reporting]({% link _analytics-reporting-attribution/campaign-reporting.md %})
