@@ -117,6 +117,8 @@ Review conversations, teams, teammates, and reports regularly to detect delays b
 
 ## Related guides
 
+- [Service quality report guide]({% link _analytics-reporting-attribution/service-quality-report-guide.md %})
+- [Workload & capacity report guide]({% link _analytics-reporting-attribution/workload-capacity-report-guide.md %})
 - [Teams and Inbox capacity]({% link _team/teams-and-inbox-capacity.md %})
 - [Assign conversations]({% link _team/assigning-conversations.md %})
 - [Conversation lifecycle in Inbox]({% link _team/conversation-lifecycle.md %})

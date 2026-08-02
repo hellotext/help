@@ -1,5 +1,6 @@
 ---
 languages: ["en", "es"]
+navigation_group: source_reporting
 
 en:
   title: Campaign reporting

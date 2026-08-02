@@ -18,6 +18,19 @@ When you review feedback playbooks together, keep their outcomes separate. Revie
 
 Before comparing results, choose the right date range and confirm that the playbook had enough traffic to learn from.
 
+## Understand how dates are counted
+
+The same purchase can appear on different dates across reports because each report answers a different question.
+
+- A **playbook-specific report** uses the date the playbook was triggered. Every metric, chart, and table follows the executions triggered during the selected period. Later message activity and attributed purchases are added to the original trigger date.
+- The **Playbooks overview** uses message delivery date for outcome performance. Later eligible purchases remain assigned to those deliveries.
+- The **Revenue report** uses purchase date. It shows purchases completed during the selected period and identifies the playbook, campaign, or other source that received credit.
+- The **Performance report** uses conversation start date for conversation outcomes. Later conversion, escalation, and resolution outcomes remain assigned to the originating conversation.
+
+For example: **Triggered April 7 → Purchased April 10 → Counted on April 7 in the playbook report and April 10 in Revenue.**
+
+Recent trigger or delivery dates can increase while their outcome and attribution windows remain open. This does not change which source activity the result belongs to. Read [Sales attribution]({% link _analytics-reporting-attribution/sales-attribution.md %}) for the eligibility and timing rules.
+
 ## Review revenue from playbooks
 
 In the Revenue report, look for:
@@ -72,7 +85,7 @@ Compare playbooks only when the context is similar enough.
 
 Before making a decision, check:
 
-- The same date range.
+- The same date range and the date-counting rule used by each report.
 - Similar audience size and traffic.
 - Comparable channel mix.
 - Whether the playbook was fully enabled for the whole period.

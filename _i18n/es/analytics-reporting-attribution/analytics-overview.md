@@ -6,11 +6,35 @@ Esta sección conecta tres preguntas relacionadas:
 - ¿Qué acciones de clientes ocurrieron después del mensaje?
 - ¿Qué ingresos se atribuyeron a Hellotext?
 
+## Reporte de ingresos
+
+El Reporte de ingresos muestra las compras completadas durante el período seleccionado, incluidos los ingresos totales y la parte atribuida a actividad elegible de Hellotext.
+
+Úsalo cuando necesites comparar ingresos atribuidos a la IA o clasificados como gestionados por el equipo, revisar Campañas y Playbooks acreditados o conciliar compras atribuidas individuales.
+
+Sigue leyendo: [Guía del Reporte de ingresos]({% link _analytics-reporting-attribution/revenue-report-guide.md %}).
+
+## Reporte de rendimiento
+
+El Reporte de rendimiento sigue las conversaciones desde su inicio hasta resultados posteriores de conversión y Derivación.
+
+Úsalo cuando necesites comparar tasa de conversión, tiempo de conversión, tasa de Derivación y caminos de conversión Solo IA frente a Gestionado por el equipo.
+
+Sigue leyendo: [Guía del Reporte de rendimiento]({% link _analytics-reporting-attribution/performance-report-guide.md %}).
+
+## Insights de demanda
+
+Insights de demanda identifica solicitudes de producto que no pudieron satisfacerse, los productos y variantes afectados y el valor estimado de esas oportunidades perdidas.
+
+Úsalo cuando necesites priorizar problemas de inventario, catálogo, disponibilidad o recomendaciones alternativas a partir de la demanda observada de clientes.
+
+Sigue leyendo: [Guía de Insights de demanda]({% link _analytics-reporting-attribution/demand-insights-guide.md %}).
+
 ## Reportes de campañas
 
 Los reportes de campaña te ayudan a revisar entrega, interacción, clicks, conversiones, respuestas e ingresos atribuidos para un envío puntual.
 
-Usa reportes de campaña cuando necesites evaluar una campaña, comparar performance de mensajes o decidir qué mejorar antes de la próxima campaña.
+Usa reportes de campaña cuando necesites evaluar una campaña, comparar el rendimiento de los mensajes o decidir qué mejorar antes de la próxima campaña.
 
 Sigue leyendo: [Reportes de campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %}).
 
@@ -21,6 +45,22 @@ Los reportes de playbooks te ayudan a revisar flujos siempre activos, agentes de
 Usa reportes de playbooks cuando necesites comparar ingresos atribuidos, comportamiento de conversión, tiempo hasta conversión, tasa de derivación y la calidad de las derivaciones detrás de los números.
 
 Sigue leyendo: [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %}).
+
+## Reporte de calidad de servicio
+
+El Reporte de calidad de servicio compara resolución por IA y equipo, cumplimiento de SLA, conversaciones no resueltas, distribución del tiempo de respuesta y rendimiento de agentes.
+
+Úsalo cuando necesites entender cómo se resuelven las conversaciones y si un problema de servicio se concentra en un canal, equipo, colaborador, agente de IA o ruta de resolución.
+
+Sigue leyendo: [Guía del Reporte de calidad de servicio]({% link _analytics-reporting-attribution/service-quality-report-guide.md %}).
+
+## Reporte de carga y capacidad
+
+El Reporte de carga y capacidad compara carga activa, conversaciones manejadas y resueltas, concurrencia, asignaciones, transferencias, presión de capacidad, eficiencia de sesión y la cola operativa actual.
+
+Úsalo cuando necesites entender cómo se distribuye el trabajo del Inbox durante un período y qué necesita atención ahora.
+
+Sigue leyendo: [Guía del Reporte de carga y capacidad]({% link _analytics-reporting-attribution/workload-capacity-report-guide.md %}).
 
 ## Atribución
 
@@ -44,7 +84,7 @@ Sigue leyendo:
 
 ## Antes de comparar resultados
 
-Al revisar performance, verifica:
+Al revisar el rendimiento, verifica:
 
 - La audiencia y el canal usado.
 - Si los links y el tracking estaban configurados correctamente.
@@ -57,6 +97,11 @@ Si estás revisando tu primer lanzamiento, empieza por [Mide el éxito en tus pr
 ## Guías relacionadas
 
 - [Mide el éxito en tus primeros 7 días]({% link _getting-started/measure-success-first-7-days.md %})
+- [Guía del Reporte de ingresos]({% link _analytics-reporting-attribution/revenue-report-guide.md %})
+- [Guía del Reporte de rendimiento]({% link _analytics-reporting-attribution/performance-report-guide.md %})
+- [Guía de Insights de demanda]({% link _analytics-reporting-attribution/demand-insights-guide.md %})
+- [Guía del Reporte de calidad de servicio]({% link _analytics-reporting-attribution/service-quality-report-guide.md %})
+- [Guía del Reporte de carga y capacidad]({% link _analytics-reporting-attribution/workload-capacity-report-guide.md %})
 - [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})
 - [Crea una campaña]({% link _campaigns/creating-a-campaign.md %})
 - [Resumen de precios, facturación y planes]({% link _billing/billing-overview.md %})

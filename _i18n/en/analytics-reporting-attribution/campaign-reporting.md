@@ -6,7 +6,11 @@ To open one, go to **Campaigns**, open the delivered campaigns view, and select 
 
 The report opens with **First 14 days** selected. You can switch to the first 7 or 30 days, or choose a custom range.
 
-The selected period updates the metrics, chart, funnel, message results, revenue breakdowns, and recent activity together. It filters when those results were recorded; it does not change the attribution window used to decide whether a purchase belongs to the campaign.
+The selected period is based on when campaign messages were delivered. The metrics, chart, funnel, message results, and revenue breakdowns follow the recipient messages delivered during that period. Eligible clicks and purchases can happen later and remain assigned to the original delivery date.
+
+For example: **Delivered April 7 → Purchased April 10 → Counted on April 7 in the campaign report.** The Revenue report counts that same purchase on April 10 because Revenue uses purchase date.
+
+Changing the reporting period does not change the attribution window used to decide whether a purchase belongs to the campaign.
 
 A campaign message can remain listed even when its results fall outside the selected range. In that case, its row can show zero values until you choose a period that includes its activity.
 
@@ -14,7 +18,7 @@ A campaign message can remain listed even when its results fall outside the sele
 
 The four summary cards answer different questions:
 
-* **Attributed revenue:** how much revenue came from purchases attributed to this campaign during the selected period.
+* **Attributed revenue:** how much revenue came from eligible purchases attributed to campaign messages delivered during the selected period.
 * **Average ROI:** attributed revenue divided by the estimated cost of delivering the campaign messages.
 * **Conversion:** attributed purchases divided by delivered messages.
 * **Revenue/message:** attributed revenue divided by delivered messages.
@@ -47,9 +51,9 @@ This lets you compare the actual messages without mixing click performance with 
 
 ## Understand time to conversion
 
-**Time to conversion** shows how long it took attributed sales to happen after the campaign launched, using ranges such as the same day, 1–3 days, 4–7 days, and later periods.
+**Time to conversion** shows how long it took attributed sales to happen after message delivery, using ranges such as the same day, 1–3 days, 4–7 days, and later periods.
 
-The report period filters when the attributed sale was recorded. A sale can therefore appear days after message delivery while still belonging to the campaign under the applicable attribution rules.
+The report period selects the original message deliveries. A sale can happen days later and still be counted with its delivery date when it belongs to the campaign under the applicable attribution rules.
 
 ## Compare revenue by channel and segment
 
@@ -80,7 +84,7 @@ Hellotext evaluates the available evidence and its precedence before assigning a
 
 ## When results are missing or unexpected
 
-First confirm that the selected period includes the campaign activity. Then verify that tracked links and purchase events are available. Supported commerce integrations can send purchase data automatically; custom storefronts can use [Hellotext.js or the API]({% link _developers/tracking-events.md %}).
+First confirm that the selected period includes the eligible message delivery. Then verify that tracked links and purchase events are available. Supported commerce integrations can send purchase data automatically; custom storefronts can use [Hellotext.js or the API]({% link _developers/tracking-events.md %}).
 
 If activity is still missing, follow [Troubleshoot missing signals or activity]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %}).
 

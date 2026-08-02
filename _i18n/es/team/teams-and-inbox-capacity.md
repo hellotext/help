@@ -109,3 +109,4 @@ Eliminar un equipo quita ese destino de las conversaciones que lo estaban espera
 - [Ciclo de una conversación en el Inbox]({% link _team/conversation-lifecycle.md %})
 - [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [Tiempo de respuesta y reglas de respuesta]({% link _team/understanding-response-times.md %})
+- [Guía del Reporte de carga y capacidad]({% link _analytics-reporting-attribution/workload-capacity-report-guide.md %})
