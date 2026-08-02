@@ -150,6 +150,7 @@ The revenue remains merchant revenue but is not attributed to Hellotext.
 
 ## Related guides
 
+- [Revenue report guide]({% link _analytics-reporting-attribution/revenue-report-guide.md %})
 - [Campaign reporting]({% link _analytics-reporting-attribution/campaign-reporting.md %})
 - [Playbook reporting]({% link _analytics-reporting-attribution/playbook-reporting.md %})
 - [Tracked links]({% link _analytics-reporting-attribution/tracked-links.md %})

@@ -63,7 +63,7 @@ Open **Playbooks**, click **Explore playbooks**, and choose **First-Purchase Dri
 
 The playbook handles first-purchase eligibility and follow-up timing automatically. Depending on your account rollout, review the cards it exposes for:
 
-- **Discount strategy:** whether the playbook follows existing ecommerce offer rules, can create AI-driven discounts up to a maximum percentage, or sends without discounts.
+- **Discount strategy:** whether the playbook follows existing eCommerce offer rules, can create AI-driven discounts up to a maximum percentage, or sends without discounts.
 - **Channels:** where Hellotext can send or continue the conversation.
 - **Tone or Playground feedback:** how generated follow-ups should learn what fits your business.
 - **Escalation or assignment:** who should take over when a reply needs a person.

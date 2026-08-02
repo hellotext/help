@@ -6,6 +6,14 @@ This section connects three related questions:
 - Which customer actions happened after the message?
 - Which revenue was attributed to Hellotext?
 
+## Revenue report
+
+The Revenue report shows purchases completed during the selected period, including total revenue and the portion attributed to eligible Hellotext activity.
+
+Use it when you need to compare revenue attributed to AI or classified as team-managed, inspect credited Campaigns and Playbooks, or reconcile individual attributed purchases.
+
+Keep reading: [Revenue report guide]({% link _analytics-reporting-attribution/revenue-report-guide.md %}).
+
 ## Campaign reports
 
 Campaign reports help you review delivery, engagement, clicks, conversions, replies, and attributed revenue for a one-time send.
@@ -21,6 +29,22 @@ Playbook reporting helps you review always-on workflows, AI agents, and journey 
 Use playbook reporting when you need to compare attributed revenue, conversion behavior, time to conversion, escalation rate, and the handoff quality behind the numbers.
 
 Keep reading: [Playbook reporting]({% link _analytics-reporting-attribution/playbook-reporting.md %}).
+
+## Service quality report
+
+The Service quality report compares AI and team resolution, SLA compliance, unresolved conversations, response-time distribution, and agent performance.
+
+Use it when you need to understand how conversations are being resolved and whether a service problem is concentrated in a channel, team, teammate, AI agent, or resolution path.
+
+Keep reading: [Service quality report guide]({% link _analytics-reporting-attribution/service-quality-report-guide.md %}).
+
+## Workload & capacity report
+
+The Workload & capacity report compares active load, handled and resolved work, concurrency, assignments, transfers, capacity pressure, session efficiency, and the current operational queue.
+
+Use it when you need to understand how Inbox work is distributed during a period and what needs attention right now.
+
+Keep reading: [Workload & capacity report guide]({% link _analytics-reporting-attribution/workload-capacity-report-guide.md %}).
 
 ## Attribution
 
@@ -57,6 +81,9 @@ If you are reviewing your first launch, start with [Measure success in your firs
 ## Related guides
 
 - [Measure success in your first 7 days]({% link _getting-started/measure-success-first-7-days.md %})
+- [Revenue report guide]({% link _analytics-reporting-attribution/revenue-report-guide.md %})
+- [Service quality report guide]({% link _analytics-reporting-attribution/service-quality-report-guide.md %})
+- [Workload & capacity report guide]({% link _analytics-reporting-attribution/workload-capacity-report-guide.md %})
 - [Playbook reporting]({% link _analytics-reporting-attribution/playbook-reporting.md %})
 - [Create a campaign]({% link _campaigns/creating-a-campaign.md %})
 - [Pricing, billing, and plans overview]({% link _billing/billing-overview.md %})

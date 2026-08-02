@@ -63,7 +63,7 @@ Abre **Playbooks**, haz click en **Explorar playbooks** y elige **Impulsor de Pr
 
 El playbook maneja automáticamente la elegibilidad para primera compra y el momento del seguimiento. Según el despliegue de tu cuenta, revisa las tarjetas que expone para:
 
-- **Estrategia de descuento:** si el playbook sigue las reglas de oferta del ecommerce, puede crear descuentos con IA hasta un porcentaje máximo o envía sin descuentos.
+- **Estrategia de descuento:** si el playbook sigue las reglas de oferta del eCommerce, puede crear descuentos con IA hasta un porcentaje máximo o envía sin descuentos.
 - **Canales:** dónde Hellotext puede enviar o continuar la conversación.
 - **Tono o feedback en Playground:** cómo deberían aprender los seguimientos generados qué encaja con tu negocio.
 - **Derivación o asignación:** quién debería tomar la conversación cuando una respuesta necesita una persona.

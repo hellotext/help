@@ -63,7 +63,7 @@ Recuperación de Navegación expone:
 
 - **Canales:** dónde Hellotext puede enviar o continuar la conversación de recuperación de navegación.
 - **Tono o feedback en Playground:** cómo deberían aprender los seguimientos generados qué encaja con tu negocio.
-- **Estrategia de descuento:** si el playbook sigue las reglas de oferta del ecommerce, puede crear descuentos con IA hasta un porcentaje máximo o envía sin descuentos.
+- **Estrategia de descuento:** si el playbook sigue las reglas de oferta del eCommerce, puede crear descuentos con IA hasta un porcentaje máximo o envía sin descuentos.
 - **Derivación o asignación:** quién debería tomar la conversación cuando una respuesta necesita una persona.
 
 Mantén la selección automática de canales salvo que tengas una razón clara para limitar el playbook. Recuperación de Navegación depende de si el cliente realmente puede ser alcanzado y si el formato del mensaje está permitido en el canal.

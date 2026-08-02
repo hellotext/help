@@ -117,6 +117,8 @@ Revisa conversaciones, equipos, colaboradores y reportes regularmente para detec
 
 ## Guías relacionadas
 
+- [Guía del Reporte de calidad de servicio]({% link _analytics-reporting-attribution/service-quality-report-guide.md %})
+- [Guía del Reporte de carga y capacidad]({% link _analytics-reporting-attribution/workload-capacity-report-guide.md %})
 - [Equipos y capacidad del Inbox]({% link _team/teams-and-inbox-capacity.md %})
 - [Asigna conversaciones]({% link _team/assigning-conversations.md %})
 - [Ciclo de una conversación en el Inbox]({% link _team/conversation-lifecycle.md %})

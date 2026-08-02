@@ -109,3 +109,4 @@ Deleting a team clears that destination from conversations that were waiting for
 - [Conversation lifecycle in Inbox]({% link _team/conversation-lifecycle.md %})
 - [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [Response times and response rules]({% link _team/understanding-response-times.md %})
+- [Workload & capacity report guide]({% link _analytics-reporting-attribution/workload-capacity-report-guide.md %})

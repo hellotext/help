@@ -15,7 +15,7 @@ It can:
 - Use an anniversary source, such as first purchase, profile creation, subscription date, or a custom date, when available.
 - Detect when the customer reaches an anniversary based on that source.
 - Send a celebration message with a grateful or appreciative tone.
-- Include an approved coupon or existing ecommerce offer when the message calls for one.
+- Include an approved coupon or existing eCommerce offer when the message calls for one.
 - Personalize the message with customer profile data, purchase history, or relationship context when that data is available.
 - Skip profiles when the anniversary date is missing, consent is missing, the channel is not ready, or the profile cannot be reached.
 
@@ -48,7 +48,7 @@ Check that:
 - The audience you want to reach is identifiable and eligible.
 - The channel, sender, or WhatsApp account is ready.
 - The message or template is approved if the channel requires it.
-- If you include a coupon or ecommerce offer, it is approved and works before launch.
+- If you include a coupon or eCommerce offer, it is approved and works before launch.
 - Purchase, profile, or custom-property data is synced if the anniversary depends on it.
 
 For setup validation, use [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %}). If you import profiles or custom dates, see [Import customer profiles]({% link _audience/import-customer-profiles.md %}). For custom tracking, use [Tracking events]({% link _developers/tracking-events.md %}).
@@ -65,7 +65,7 @@ Available options can vary, but review:
 - **Audience:** which profiles can receive the playbook.
 - **Outgoing channels:** where Hellotext can send the message.
 - **Message:** the anniversary copy and variables it will use.
-- **Coupon or offer:** the approved coupon or existing ecommerce offer to include when relevant.
+- **Coupon or offer:** the approved coupon or existing eCommerce offer to include when relevant.
 - **Inbox replies:** how your team should review replies if the customer responds.
 
 Do not assume every account uses the same anniversary source. If the control is not visible, confirm with your Hellotext team which date the playbook uses before launch.

@@ -95,7 +95,7 @@ Las tarjetas de reportes se dividen entre **Rendimiento del negocio** y **Operac
 | **Reporte de rendimiento** | ¿Cómo están cambiando la tasa de conversión, tiempo hasta conversión y tasa de derivación? |
 | **Insights de demanda** | ¿Qué solicitudes de clientes no pudieron resolverse, qué productos fueron afectados y cuántos ingresos podrían haberse perdido? |
 | **Reporte de calidad de servicio** | ¿Con qué frecuencia la IA o el equipo resolvieron conversaciones, cumplieron el SLA o dejaron conversaciones sin resolver? |
-| **Reporte de carga y capacidad** | ¿Cuánto trabajo está asignado, atendido, resuelto, transferido o activo entre personas y equipos? |
+| **Reporte de carga y capacidad** | ¿Cuánto trabajo está asignado, manejado, resuelto, transferido o activo entre colaboradores y equipos? |
 
 Abre un reporte cuando necesites cambiar el período, seleccionar una métrica, comparar un desglose o revisar filas detalladas. Los desgloses disponibles dependen del reporte y métrica.
 
@@ -146,5 +146,6 @@ Los resultados recientes pueden cambiar mientras la atribución siga abierta o l
 - [Atribución de ventas]({% link _analytics-reporting-attribution/sales-attribution.md %})
 - [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})
 - [Reportes de campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %})
+- [Guía del Reporte de carga y capacidad]({% link _analytics-reporting-attribution/workload-capacity-report-guide.md %})
 - [Cómo interpretar los tiempos de respuesta]({% link _team/understanding-response-times.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})

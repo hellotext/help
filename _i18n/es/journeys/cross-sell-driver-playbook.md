@@ -47,7 +47,7 @@ Revisa que:
 - Las relaciones entre productos puedan inferirse o proveerse mediante catálogo, colecciones, categorías, historial de compra o lógica de recomendación.
 - Los productos que quieres recomendar tengan suficiente stock y links usables.
 - Tu equipo tenga claro qué colecciones, categorías o productos deberían incluirse o excluirse en la configuración del playbook.
-- Si se permiten descuentos, las reglas de oferta del ecommerce y el porcentaje máximo que puede usar la IA estén aprobados antes del lanzamiento.
+- Si se permiten descuentos, las reglas de oferta del eCommerce y el porcentaje máximo que puede usar la IA estén aprobados antes del lanzamiento.
 - El canal que puede usar el playbook esté conectado y listo.
 - Los clientes tengan consentimiento y sean elegibles para el canal.
 
@@ -66,7 +66,7 @@ El playbook expone el alcance de productos y las reglas de recomendación:
 
 Según el despliegue de la cuenta, también puede mostrar tarjetas para:
 
-- **Estrategia de descuento:** si el mensaje sigue las reglas de oferta del ecommerce, puede usar descuentos con IA hasta un porcentaje máximo o envía sin descuentos.
+- **Estrategia de descuento:** si el mensaje sigue las reglas de oferta del eCommerce, puede usar descuentos con IA hasta un porcentaje máximo o envía sin descuentos.
 - **Canales:** dónde Hellotext puede enviar o continuar la conversación.
 - **Tono o feedback en Playground:** cómo deberían aprender los seguimientos generados qué encaja con tu negocio.
 - **Derivación o asignación:** quién debería tomar la conversación cuando una respuesta necesita una persona.

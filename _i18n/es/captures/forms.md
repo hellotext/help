@@ -94,7 +94,7 @@ Copia el enlace generado cuando quieras que Hellotext aloje el formulario. Ábre
 
 Usa el HTML generado cuando el formulario deba aparecer dentro de una de tus páginas.
 
-1. Confirma que el sitio esté conectado mediante una integración de ecommerce compatible o que tenga instalado [Hellotext.js](https://github.com/hellotext/hellotext.js).
+1. Confirma que el sitio esté conectado mediante una integración de eCommerce compatible o que tenga instalado [Hellotext.js](https://github.com/hellotext/hellotext.js).
 2. Copia el código generado exactamente como lo proporciona Hellotext.
 3. Pégalo dentro del cuerpo de la página donde debe aparecer.
 4. Aplica los estilos de tu sitio sin eliminar ni cambiar los atributos generados del formulario.
@@ -129,7 +129,7 @@ Después de completar el formulario, el mismo navegador puede recordar que ya fu
 Revisa estos puntos en orden:
 
 1. Confirma que el código generado esté presente en la página.
-2. Confirma que la integración de ecommerce conectada o Hellotext.js cargue correctamente.
+2. Confirma que la integración de eCommerce conectada o Hellotext.js cargue correctamente.
 3. Compara el código integrado con el snippet actual que muestra Hellotext.
 4. Revisa si los estilos o scripts del sitio ocultan o reemplazan el formulario.
 5. Prueba el enlace alojado para diferenciar un problema de configuración de uno de instalación.

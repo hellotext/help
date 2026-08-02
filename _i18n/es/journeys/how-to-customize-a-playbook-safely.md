@@ -39,7 +39,7 @@ Considera deshabilitar temporalmente solo cuando el cambio pueda afectar a clien
 - Estás cambiando el prompt de un playbook que lo permite y el agente podría responder de forma incorrecta.
 - Estás cambiando intenciones de un agente personalizado.
 - Estás modificando canales de entrada o salida.
-- Estás cambiando descuentos o reglas de oferta del ecommerce.
+- Estás cambiando descuentos o reglas de oferta del eCommerce.
 - Estás editando una ruta con pasos, condiciones, ramas o asignaciones.
 
 Para playbooks activos de venta, el riesgo depende de qué tarjeta estás cambiando. Muchos ajustes no afectan clientes inmediatamente, pero un cambio de prompt, estrategia de descuento, canal o lógica de ruta sí merece prueba antes de volver a ampliar.
@@ -54,7 +54,7 @@ Usa esta tabla como mapa rápido:
 | **Intenciones** | Agentes personalizados y playbooks personalizados | Qué mensajes de clientes activan ese agente. |
 | **Conocimiento** | Agentes de IA de venta o atención | Qué información usa el agente para responder. |
 | **Canales de entrada/salida** | Playbooks que permiten selección de canales | Dónde puede responder o enviar mensajes. |
-| **Descuentos** | Playbooks de venta que permiten ofertas | Qué reglas de oferta del ecommerce y límites de descuento con IA puede usar el agente. |
+| **Descuentos** | Playbooks de venta que permiten ofertas | Qué reglas de oferta del eCommerce y límites de descuento con IA puede usar el agente. |
 | **Derivación** | Agentes de IA, atención, [Webchat]({% link _captures/webchat-widget-playbook.md %}) y algunos playbooks personalizados | Quién toma la conversación cuando el agente no debe seguir. |
 | **Pasos de ruta** | Journeys o rutas | Secuencia, esperas, ramas, asignaciones y salida del flujo. |
 
@@ -133,7 +133,7 @@ Las reglas de descuento afectan expectativas del cliente e ingresos, así que c�
 
 Antes de cambiar descuentos:
 
-- Confirma si el playbook debería seguir las reglas de oferta del ecommerce, crear descuentos con IA hasta un porcentaje máximo, combinar ambos o enviar sin descuentos.
+- Confirma si el playbook debería seguir las reglas de oferta del eCommerce, crear descuentos con IA hasta un porcentaje máximo, combinar ambos o enviar sin descuentos.
 - Define máximos claros para cualquier descuento generado por IA.
 - Evita acumular descuentos más allá de tus reglas de negocio.
 - Prueba qué pasa cuando un cliente pide un mejor descuento.

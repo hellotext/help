@@ -128,8 +128,8 @@ The automatic playbook report lets you see:
 - Rating distribution.
 - Review text.
 - Review attachments such as image or video URLs when available.
-- The customer profile and ecommerce customer identifier when available.
-- The product name and ecommerce product identifier when available.
+- The customer profile and eCommerce customer identifier when available.
+- The product name and eCommerce product identifier when available.
 - The date and time of the review.
 - A link back to the conversation where the review was given.
 

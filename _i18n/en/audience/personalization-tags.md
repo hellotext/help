@@ -61,7 +61,7 @@ when targeting the property by its kind `{checkbox}` we will automatically use t
 
 ### Object tags
 
-Hellotext ships with the most common types of Objects that are suitable for most ecommerce sites. These include
+Hellotext ships with the most common types of Objects that are suitable for most eCommerce sites. These include
 `app`, `product`, `cart`, `order`, `coupon`, `order` and `refund` objects. In addition, you can also create your custom objects,
 or modify the existing ones by adding extra properties that are specific to your business's needs.
 

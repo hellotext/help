@@ -60,7 +60,7 @@ Open **Playbooks**, click **Explore playbooks**, and choose **AI Cart Saver**.
 AI Cart Saver exposes:
 
 - **Channels:** where Hellotext can send or continue the cart recovery conversation.
-- **Discount strategy:** whether the playbook follows existing ecommerce offer rules, can create AI-driven discounts up to a maximum percentage, or sends without discounts.
+- **Discount strategy:** whether the playbook follows existing eCommerce offer rules, can create AI-driven discounts up to a maximum percentage, or sends without discounts.
 - **Tone:** how the generated follow-up should sound.
 - **Escalation or assignment:** who should take over when the conversation needs a person.
 

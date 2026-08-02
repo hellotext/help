@@ -150,6 +150,7 @@ Los ingresos permanecen en los ingresos del comercio, pero no se atribuyen a Hel
 
 ## Guías relacionadas
 
+- [Guía del Reporte de ingresos]({% link _analytics-reporting-attribution/revenue-report-guide.md %})
 - [Reportes de campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %})
 - [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})
 - [Links con tracking]({% link _analytics-reporting-attribution/tracked-links.md %})
