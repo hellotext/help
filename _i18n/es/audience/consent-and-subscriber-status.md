@@ -1,118 +1,87 @@
-Usa esta guía antes de enviar una campaña, publicar un playbook, iniciar una ruta o importar perfiles de cliente.
+Usa esta guía antes de importar perfiles de cliente o enviar una campaña, playbook o ruta. Explica cómo se combinan el estado de suscripción y la disponibilidad de los canales en Hellotext.
 
-El objetivo es entender si Hellotext debería contactar a un perfil de cliente, por qué canal y por qué.
+Esta es una guía de producto para operar Hellotext. No reemplaza una revisión legal o de cumplimiento para los países y canales que usas.
 
-Esta es una guía de producto para operar Hellotext. No reemplaza la revisión legal o de cumplimiento para los países y canales que usas.
+## Tres preguntas antes de enviar
 
-## La versión corta
+Hellotext evalúa más de una condición antes de poder contactar a un cliente:
 
-Un perfil de cliente normalmente está listo para recibir un mensaje cuando:
+1. **¿Cuál es el estado de suscripción del perfil?** Hellotext registra si el perfil está suscrito, no confirmado o desuscrito.
+2. **¿Hay un destino utilizable?** Un teléfono, identidad de WhatsApp o email puede tener su propia condición de baja o disponibilidad.
+3. **¿El canal elegido puede entregar ese mensaje?** SMS y WhatsApp aplican distintas reglas de destino, remitente, plantilla y conversación.
 
-- El perfil tiene una dirección de canal alcanzable, como un teléfono o identidad de WhatsApp.
-- El perfil está suscrito o es elegible para el canal que planeas usar.
-- El perfil no se dio de baja de ese canal.
-- El canal, remitente y tipo de mensaje están listos.
-- Los horarios silenciosos, límites de frecuencia y otras reglas de envío permiten el mensaje.
-
-Si falta alguna de esas piezas, no asumas que el perfil de cliente puede recibir el mensaje.
+Un perfil suscrito no necesariamente está disponible en todos los canales. Un teléfono válido no demuestra, por sí solo, que exista consentimiento de marketing.
 
 ## Perfiles de cliente, suscriptores y audiencias
 
-Un **perfil de cliente** es el registro que Hellotext usa para entender a un cliente. Puede incluir identificadores, direcciones de canal, propiedades de perfil, eventos, compras, conversaciones y estado de suscripción.
+Un **perfil de cliente** es el registro de Hellotext para un cliente. Puede incluir identificadores, propiedades, eventos, compras, conversaciones y un estado de suscripción.
 
-Un **suscriptor** es un perfil de cliente que aceptó recibir mensajes por un canal.
+Un **suscriptor** es un perfil de cliente con una suscripción registrada. Este estado no garantiza que todos los identificadores del perfil sean válidos o alcanzables.
 
-Una **audiencia** es el grupo de perfiles de cliente seleccionado para una campaña, playbook, ruta o reporte. Una audiencia puede contener perfiles que no son elegibles para todos los canales, por eso siempre revisa elegibilidad antes de enviar.
+Una **audiencia** es el grupo seleccionado para una campaña, playbook, ruta o reporte. Pertenecer a una audiencia o lista no concede consentimiento.
 
-## El consentimiento es por canal
+## Estados de suscripción
 
-Trata el consentimiento como específico para cada canal.
+Hellotext guarda uno de estos estados de suscripción en el perfil de cliente:
 
-Por ejemplo, un perfil de cliente puede estar suscrito a SMS pero no a WhatsApp, o puede recibir una respuesta dentro de una conversación activa pero no un nuevo mensaje saliente.
-
-Antes de enviar, pregunta:
-
-- ¿Qué canal usará este mensaje?
-- ¿Cómo se suscribió este perfil de cliente a ese canal?
-- ¿El remitente o cuenta está conectado para ese canal?
-- ¿El tipo de mensaje encaja con las reglas del canal?
-- ¿El cliente puede responder y dónde llegará esa respuesta?
-
-## Estados comunes para revisar
-
-Los nombres exactos pueden variar según el canal y configuración de la cuenta, pero estos son los estados a considerar antes de enviar.
-
-| Estado | Qué significa | Qué hacer |
+| Estado | Qué significa | Cómo usarlo |
 | --- | --- | --- |
-| Suscrito o con opt-in | El perfil normalmente puede recibir mensajes en ese canal si las demás reglas de envío lo permiten. | Confirma mensaje, horario, frecuencia y remitente. |
-| Dado de baja o desuscrito | El cliente pidió no recibir mensajes en ese canal. | No incluyas el perfil en envíos por ese canal. |
-| Desconocido o sin consentimiento | Hellotext tiene un perfil o dirección de canal, pero no un opt-in claro para ese canal. | Usa una captura o camino de consentimiento antes de enviar. |
-| Inválido o no alcanzable | La dirección de canal no se puede usar de forma confiable. | Corrige el dato o quita el perfil de la audiencia de lanzamiento. |
-| Perfil duplicado | Más de un perfil puede representar al mismo cliente. | Revisa identidad y comportamiento de unión antes de medir o enviar ampliamente. |
+| **Suscrito** | Hellotext tiene una suscripción registrada para el perfil. | Confirma que el destino y canal que quieres usar estén disponibles antes de enviar. |
+| **No confirmado** | Hellotext no tiene una suscripción confirmada para el perfil. | No trates este estado como evidencia de consentimiento de marketing. Confirma la fuente o usa un camino de captura válido. |
+| **Desuscrito** | Hellotext registró que el cliente se dio de baja. | No incluyas el perfil en envíos de marketing ni restaures la suscripción sin un nuevo opt-in válido. |
 
-## De dónde puede venir el consentimiento
+Estos estados son diferentes de condiciones del perfil o sus datos, como bloqueado, eliminado, duplicado, inválido o no alcanzable. Esas condiciones también pueden impedir el contacto, pero no son estados de suscripción.
 
-El consentimiento y estado de suscripción pueden venir de distintos lugares según tu configuración:
+## Estado del perfil y consentimiento del destino
 
-- Códigos QR.
-- Links compartibles.
-- Formularios web y popups.
-- Opt-ins de checkout.
-- Flujos de opt-in específicos por canal.
-- Importaciones de perfiles de cliente con campos de consentimiento.
-- Integraciones de comercio o personalizadas que sincronizan estado de suscripción.
+El perfil de cliente muestra un estado general de suscripción. Cuando Hellotext registra una suscripción o una baja, también asocia esa decisión con los identificadores que se usan en ese momento para contactar al cliente y guarda su origen.
 
-Las herramientas de captura suelen ser la forma self-serve más segura de crecer una audiencia alcanzable porque crean un camino de suscripción claro.
+Al enviar, Hellotext revisa el destino del canal seleccionado. Por ejemplo, puede rechazar un teléfono dado de baja, inválido para SMS o no disponible en WhatsApp aunque el perfil figure como suscrito.
 
-## Antes de importar perfiles de cliente
+Esta diferencia explica por qué:
 
-Las importaciones requieren cuidado adicional porque los datos importados pueden no tener el mismo contexto que una captura.
+- Un perfil suscrito puede no ser alcanzable en el canal elegido.
+- Un perfil con varios identificadores puede tener solo algunos destinos utilizables.
+- Un perfil no confirmado puede existir en una audiencia sin demostrar que puede recibir mensajes de marketing.
+- Una respuesta dentro de una conversación activa puede seguir reglas del canal diferentes a las de un nuevo mensaje saliente de marketing.
 
-Antes de importar o enviar a perfiles importados, confirma:
+## De dónde viene la información de suscripción
 
-- De dónde vinieron los perfiles de cliente.
-- Para qué canal es elegible cada perfil.
-- Qué campo mapea al estado de suscripción o consentimiento.
-- Si los perfiles dados de baja están excluidos o mapeados correctamente.
-- Si los duplicados deberían unirse antes del lanzamiento.
-- Si el primer envío debería ir a un segmento de prueba más pequeño.
+Hellotext puede registrar o actualizar la información de suscripción mediante:
 
-Si la fuente de consentimiento no está clara, deja esos perfiles fuera del primer envío.
+- Playbooks de captura como formularios, popups, códigos QR y links compartibles.
+- El checkout u otras acciones de opt-in sincronizadas por una integración.
+- Una integración que obtiene el estado de suscripción desde la plataforma de origen.
+- Una importación por archivo donde eliges explícitamente **Suscrito** o **No confirmado** para el grupo importado.
+- Una acción de opt-in o baja del cliente.
+- Un cambio manual de una persona autorizada del equipo cuando el negocio tiene evidencia para hacerlo.
+
+En las integraciones, la plataforma de origen determina qué estados están disponibles y cómo se traducen en Hellotext. En los archivos, el estado elegido se aplica a toda la importación, por eso debes separar los archivos cuando el consentimiento cambia entre filas.
+
+## Disponibilidad no significa consentimiento
+
+Un perfil puede no ser alcanzable porque su teléfono es inválido, es una línea fija, no admite el canal seleccionado o tiene una baja asociada al identificador. Corregir la disponibilidad no crea consentimiento.
+
+Del mismo modo, tener un teléfono válido o una identidad de WhatsApp no convierte un perfil no confirmado en suscriptor. Mantén la evidencia de consentimiento y la calidad del destino como verificaciones separadas.
 
 ## Antes de enviar
 
-Antes de lanzar una campaña, playbook, ruta o agente, revisa:
+Antes de lanzar una campaña o habilitar un playbook que puede enviar mensajes salientes:
 
-- La audiencia seleccionada coincide con el objetivo.
-- La audiencia tiene consentimiento para el canal.
-- Las exclusiones quitan perfiles dados de baja, inválidos, duplicados, de prueba o internos.
-- El remitente y canal están conectados.
-- El mensaje incluye texto de baja o desuscripción cuando corresponde.
-- Las respuestas llegarán al Inbox o responsable esperado.
-- Los horarios silenciosos y límites de frecuencia están claros.
+- Confirma cómo se creó la audiencia y de dónde viene su información de suscripción.
+- Excluye registros desuscritos, de prueba, internos, inválidos y duplicados cuando corresponda.
+- Revisa que el remitente y canal previstos estén conectados.
+- Prueba con una audiencia pequeña y revisa entregas, respuestas, bajas y reportes.
+- Asegúrate de que el Inbox o equipo esperado pueda recibir las respuestas.
 
-Para un primer lanzamiento, empieza con una audiencia pequeña y mira respuestas, bajas, mensajes fallidos y reportes antes de ampliar.
-
-## Si no puedes escribirle a un perfil de cliente
-
-Si un perfil de cliente no es elegible, usa un camino más seguro:
-
-- Pide al cliente que se suscriba mediante una captura.
-- Envía desde un canal donde el cliente ya sea elegible.
-- Corrige datos inválidos o duplicados del perfil.
-- Espera a que el cliente inicie una conversación si el canal solo permite respuestas en ciertas ventanas.
-- Excluye el perfil del envío.
-
-No ignores una baja solo para agrandar una campaña, playbook o ruta.
+No ignores una baja para aumentar una audiencia. Si el consentimiento es desconocido, usa una captura u otro camino válido de opt-in antes de tratar al cliente como suscrito.
 
 ## Guías relacionadas
 
-- [Crea una campaña]({% link _campaigns/creating-a-campaign.md %})
-- [Resumen de audiencia y segmentación]({% link _audience/audience-overview.md %})
+- [Perfiles de cliente]({% link _audience/customer-profiles.md %})
 - [Importa perfiles de cliente]({% link _audience/import-customer-profiles.md %})
+- [Resumen de audiencia y segmentación]({% link _audience/audience-overview.md %})
+- [Listas vs. segmentos]({% link _audience/lists-and-segments.md %})
 - [Resumen de herramientas de captura]({% link _captures/capture-overview.md %})
 - [Resumen de canales de mensajería]({% link _numbers/messaging-overview.md %})
 - [Checklist antes de enviar]({% link _getting-started/go-live-checklist.md %})
-- [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
-- [Crea y gestiona listas]({% link _audience/lists.md %})
-- [Crea segmentos]({% link _audience/segments.md %})
