@@ -16,7 +16,7 @@ It can:
 - Use customer history, product context, catalog data, channel eligibility, and offer rules before a message is sent.
 - Generate one final personalized message with a clear reason to come back, such as a relevant product, collection, update, or approved offer.
 - Let your team give Playground feedback on examples so Hellotext learns which tone and style fit the business.
-- Follow existing ecommerce offer rules, use AI-driven discounts up to an approved maximum percentage, or send without discounts.
+- Follow existing eCommerce offer rules, use AI-driven discounts up to an approved maximum percentage, or send without discounts.
 - Choose the most cost-efficient available channel, such as WhatsApp, SMS, or others, and send only when it internally detects an opportunity to keep ROI healthy.
 - Automatically suppress future recovery attempts for that profile if the customer does not buy, reply, or show another relevant signal.
 - Skip customers when there is no consent, the profile cannot be reached, another playbook is a better fit, or there is not enough relevant reason to reach out.
@@ -51,7 +51,7 @@ Check that:
 - Hellotext can distinguish recently inactive customers, customers around 3 months inactive, and customers around 12 months inactive or not reactivated.
 - Product names, images, prices, stock, and links are current if the message can include recommendations.
 - The audience you want to reach is identifiable and eligible for the selected channel.
-- If discounts are allowed, ecommerce offer rules and any maximum AI discount percentage are approved before launch.
+- If discounts are allowed, eCommerce offer rules and any maximum AI discount percentage are approved before launch.
 - Product cards, product links, or rich messages work in the channels you plan to use.
 
 For setup validation, use [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %}). For custom tracking, use [Tracking events]({% link _developers/tracking-events.md %}).
@@ -67,7 +67,7 @@ The available cards can vary, but the proposed setup focuses on:
 - **Outgoing channels:** where Hellotext can send or continue the final message.
 - **Audience:** which audience or segment can receive the playbook.
 - **Products:** which products, collections, categories, or groups can be used in the message.
-- **Discount strategy:** whether the playbook follows existing ecommerce offer rules, can use AI-driven discounts up to a maximum percentage, or sends without discounts.
+- **Discount strategy:** whether the playbook follows existing eCommerce offer rules, can use AI-driven discounts up to a maximum percentage, or sends without discounts.
 - **Tone or Playground feedback:** how generated examples should learn what fits your business.
 
 Keep automatic channel selection unless you have a clear reason to limit the playbook. Sunset Saver depends on finding a reachable and cost-efficient channel for a customer who has been inactive for a long time. Hellotext can internally choose the most cost-efficient channel, such as WhatsApp, SMS, or others depending on availability, and avoid sends when it does not detect an opportunity to keep ROI healthy.

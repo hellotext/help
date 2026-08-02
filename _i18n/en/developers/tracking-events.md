@@ -1,4 +1,4 @@
-Tracking events turns customer behavior into signals Hellotext can use across customer profiles, segments, attribution, playbooks, and the Inbox. Signals can come from your ecommerce site, physical store, custom backend, forms, conversations, or any other source that matters to your business.
+Tracking events turns customer behavior into signals Hellotext can use across customer profiles, segments, attribution, playbooks, and the Inbox. Signals can come from your eCommerce site, physical store, custom backend, forms, conversations, or any other source that matters to your business.
 
 Those signals help Hellotext decide when to trigger a playbook, update a segment, enrich a customer profile, support an agent, or attribute revenue to the right action.
 

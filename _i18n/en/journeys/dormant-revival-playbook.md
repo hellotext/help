@@ -17,7 +17,7 @@ It can:
 - Suggest products, collections, or offers that are relevant to the customer's past behavior.
 - Generate personalized message examples that adapt per customer.
 - Let your team give Playground feedback on examples so Hellotext learns what fits the business.
-- Follow existing ecommerce offer rules, use AI-driven discounts up to an approved maximum percentage, or send without discounts.
+- Follow existing eCommerce offer rules, use AI-driven discounts up to an approved maximum percentage, or send without discounts.
 - Choose the most cost-efficient available channel, such as WhatsApp, SMS, or others, and send only when it internally detects an opportunity to keep ROI healthy.
 - Skip customers when the customer reactivated, bought recently, entered another active playbook, opted out, cannot be reached, or lacks enough product context.
 
@@ -51,7 +51,7 @@ Check that:
 - The products or collections you want to use are appropriate for win-back messages.
 - The audience you want to reach is identifiable and eligible for the selected channel.
 - Purchase, browse, click, reply, unsubscribe, opt-out, and recent reactivation signals are available enough for Hellotext to avoid irrelevant sends.
-- If discounts are allowed, ecommerce offer rules and any maximum AI discount percentage are approved before launch.
+- If discounts are allowed, eCommerce offer rules and any maximum AI discount percentage are approved before launch.
 - Product cards, product links, or rich messages work in the channels you plan to use.
 
 For setup validation, use [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %}). For custom tracking, use [Tracking events]({% link _developers/tracking-events.md %}).
@@ -67,7 +67,7 @@ The available cards can vary, but the proposed setup focuses on:
 - **Outgoing channels:** where Hellotext can send or continue the reactivation message.
 - **Audience:** which audience or segment can receive the playbook.
 - **Products:** which products, collections, categories, or groups can be used in the message.
-- **Discount strategy:** whether the playbook follows existing ecommerce offer rules, can use AI-driven discounts up to a maximum percentage, or sends without discounts.
+- **Discount strategy:** whether the playbook follows existing eCommerce offer rules, can use AI-driven discounts up to a maximum percentage, or sends without discounts.
 - **Tone or Playground feedback:** how generated examples should learn what fits your business.
 
 Keep automatic channel selection unless you have a clear reason to limit the playbook. Dormant Revival depends on whether the customer can still be reached in a channel where the message makes sense. Hellotext can internally choose the most cost-efficient channel, such as WhatsApp, SMS, or others depending on availability, and avoid sends when it does not detect an opportunity to keep ROI healthy.

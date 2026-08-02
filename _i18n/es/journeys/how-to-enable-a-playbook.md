@@ -36,7 +36,7 @@ Puedes ver tarjetas como:
 - **Prompt del agente**, para instrucciones que indican qué debe hacer el agente de IA y cómo debe responder.
 - **Intenciones**, para intenciones de clientes que deberían activar un agente personalizado.
 - **Conocimiento**, para FAQs, políticas, notas de producto o documentos que el agente puede usar.
-- **Descuentos**, para reglas de oferta del ecommerce y límites máximos de descuento con IA.
+- **Descuentos**, para reglas de oferta del eCommerce y límites máximos de descuento con IA.
 - **Tono**, para la voz usada en respuestas generadas por IA.
 - **Derivación**, para la persona o equipo que debería tomar la conversación cuando el agente necesita ayuda.
 - **Búsqueda web**, para sitios aprobados donde el agente puede buscar información online.

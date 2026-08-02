@@ -15,7 +15,7 @@ Puede:
 - Detectar perfiles del cliente cuyo cumpleaños coincide con el día y mes actuales.
 - Crear un evento de cumpleaños para iniciar el playbook cuando está activo.
 - Enviar un mensaje de cumpleaños con tono celebratorio.
-- Incluir un cupón aprobado o una oferta existente del ecommerce cuando el mensaje lo necesita.
+- Incluir un cupón aprobado o una oferta existente del eCommerce cuando el mensaje lo necesita.
 - Personalizar el mensaje con datos del perfil del cliente, como nombre o cumpleaños, si están disponibles.
 - Omitir perfiles cuando falta la fecha de cumpleaños, falta consentimiento, el canal no está listo o el perfil no puede ser alcanzado.
 
@@ -49,7 +49,7 @@ Revisa que:
 - La audiencia que quieres alcanzar tenga consentimiento para el canal.
 - El canal, remitente o cuenta de WhatsApp esté listo.
 - El mensaje o plantilla de cumpleaños esté aprobado si el canal lo requiere.
-- Si vas a incluir un cupón u oferta del ecommerce, esté aprobado y funcione antes del lanzamiento.
+- Si vas a incluir un cupón u oferta del eCommerce, esté aprobado y funcione antes del lanzamiento.
 - La audiencia excluya perfiles que no deberían recibir mensajes promocionales.
 
 Para validar la configuración, usa [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %}). Si importas perfiles, revisa [Importa perfiles del cliente]({% link _audience/import-customer-profiles.md %}). Para tracking personalizado, usa [Seguimiento de eventos]({% link _developers/tracking-events.md %}).
@@ -65,7 +65,7 @@ Las opciones disponibles pueden variar, pero normalmente revisas:
 - **Canales de salida:** dónde Hellotext puede enviar el saludo.
 - **Audiencia:** qué perfiles pueden recibir el playbook.
 - **Mensaje:** el texto de cumpleaños y las variables que usará.
-- **Cupón u oferta:** el cupón aprobado o la oferta existente del ecommerce que se incluirá si corresponde.
+- **Cupón u oferta:** el cupón aprobado o la oferta existente del eCommerce que se incluirá si corresponde.
 - **Respuestas en Inbox:** cómo debería revisar tu equipo las respuestas si el cliente contesta.
 
 No hace falta crear una campaña manual para cada fecha. El playbook depende de la señal de cumpleaños del perfil y se ejecuta cuando el cumpleaños coincide con el día actual.

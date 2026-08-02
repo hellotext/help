@@ -60,7 +60,7 @@ Abre **Playbooks**, haz click en **Explorar playbooks** y elige **Recuperador de
 Recuperador de Carritos con IA expone:
 
 - **Canales:** dónde Hellotext puede enviar o continuar la conversación de recuperación de carrito.
-- **Estrategia de descuento:** si el playbook sigue las reglas de oferta del ecommerce, puede crear descuentos con IA hasta un porcentaje máximo o envía sin descuentos.
+- **Estrategia de descuento:** si el playbook sigue las reglas de oferta del eCommerce, puede crear descuentos con IA hasta un porcentaje máximo o envía sin descuentos.
 - **Tono:** cómo debería sonar el seguimiento generado.
 - **Derivación o asignación:** quién debería tomar la conversación cuando necesita una persona.
 
