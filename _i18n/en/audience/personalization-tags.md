@@ -1,89 +1,92 @@
-The message editor is the input you use when writing a message. It is present in
-various places around the platform, such as campaigns, routes, playbooks, and the inbox.
+Personalization tags insert customer data into a message when Hellotext sends it. They let one message greet each customer by name or include another value available for that customer and context.
 
-It provides built-in features that let you enrich messages with dynamic content, images, and links.
+These tags are variables used inside message content. They are different from profile tags, lists, or segments used to organize an audience.
 
-Tags are reserved words that you can use to compose a message with dynamic content.
-Dynamic content lets you write messages that are unique for each customer profile. It can be used to insert the customer profile's name,
-age, birthday, or any other property that you have defined for your business.
+## Where you can use them
 
-### The Anatomy of a Tag
+The message editor appears in campaigns, journeys, playbooks, Inbox, and other parts of Hellotext. When that editor supports personalization, its toolbar includes an **Insert tags** button with a braces icon.
 
-We mentioned that tags are reserved keywords in the editor. Tags are reserved words written between
-an opening and closing curly brace. For example, the tag `{full_name}` is a tag that will be replaced with the
-full name of the customer profile. Common tags include `{name}`, `{birthday}`, `{first_name}`, `{last_name}`, and `{phone}`.
-You are not limited to these tags. You can also target properties defined by your business.
+Open the selector to see the tags available in that specific editor. This is more reliable than typing a tag from memory because the options can depend on your business properties and the message context.
 
-By default, properties are removed from the output when the customer profile does not have the attribute.
-For example, if you are targeting a `{company}` property in your message and the customer profile does not have that property,
-the word `{company}` is removed from the message sent to that customer profile. If you do not want the property removed, use a default value.
+## Insert a tag
 
-Tags can also have a default value. Default values are useful when you want a fallback
-in case the customer profile does not have the attribute you are targeting.
-You can provide a default value for a tag by adding a pipe character `|` and the default value before closing the tag.
-For example, the tag `{company|friend}` is replaced with the company property assigned to the customer profile. If the
-customer profile does not have that property, the default value of `friend` is used.
+1. Place the cursor where the personalized value should appear.
+2. Select **Insert tags** in the message editor.
+3. Choose the customer or property value you want to insert.
+4. Preview or test the message with profiles that have and do not have that value.
 
-A valid tag consists of the following
+Hellotext inserts the tag between braces. For example:
 
-- An opening brace `{`
-- A reserved keyword offered by Hellotext or a property type, i.e `company`.
-- A closing brace `}`
-- Optional values can be provided by using a pipe `|` operator and the fallback value after it.
+```text
+Hi {name}, we picked something for you.
+```
 
-### Tags and properties
+When the message is prepared for a customer named Ana, Hellotext replaces `{name}` with `Ana`.
 
-We mentioned that you can also target custom properties in your business in the tags.
-You can target the properties by their kind, i.e `text`, `url`, `date`, etc. Or by their name, if the name is set.
+Common customer tags include:
 
-A complete list of property kinds
+- `{name}` for the first name.
+- `{full_name}` for the full name.
+- `{last_name}` for the last name.
+- `{birthday}` for the birthday.
+- `{phone}`, `{email}`, or `{address}` for the corresponding profile value.
 
-- `age`
-- `birthday`
-- `company`
-- `gender`
-- `checkbox`
-- `date`
-- `text`
-- `number`
-- `url`
+The selector can also include compatible custom properties configured for your business.
 
-For the properties `age`, `birthday`, `company`, and `gender` you can either target by the kind of the property i.e `company`, or by
-the property's name when you have set a custom name for the property.
+## Add a fallback value
 
-For the remaining properties, you can target by their kind and their custom name when present. The difference
-for these properties is that when you have multiple properties of the same kind,
-targeting with the kind becomes ambiguous. For example,
-if your business has two `checkbox` properties named `has-logged-In` and `active-in-last-month`,
-when targeting the property by its kind `{checkbox}` we will automatically use the first text property with respect to the ordering defined in the audience page.
+If the customer profile does not contain the requested value, Hellotext removes a valid tag from the delivered message. This can leave an awkward gap in the sentence.
 
-**TL;DR** use the kind only when there's a single property. Use the property's name when there are multiple properties with the same kind.
+Add a fallback after a vertical bar so the message still reads naturally:
 
-### Object tags
+```text
+Hi {name|there}, we picked something for you.
+```
 
-Hellotext ships with the most common types of Objects that are suitable for most ecommerce sites. These include
-`app`, `product`, `cart`, `order`, `coupon`, `order` and `refund` objects. In addition, you can also create your custom objects,
-or modify the existing ones by adding extra properties that are specific to your business's needs.
+Hellotext uses the customer's first name when available and `there` when it is missing.
 
-Similarly to customer profile tags, you can also target the properties of the objects in your tags. The general format of an object tag can be one of the following
+Choose a fallback that works with the complete sentence. A neutral word such as `{name|there}` or `{name|customer}` is usually safer than guessing a name, title, or attribute.
 
-1. `{singular_name.property_name}`
-2. `{singular_name.property_kind}`
-3. `{singular_name.property_id}`
+## Use customer profile properties
 
-The Singular Name is the name of the object autogenerated when you create a new Object.
+The tag selector can show custom properties that are available for your business. A property with a name such as `Loyalty tier` can be inserted as:
 
-For example, given an Appointment custom object, that consists of two properties, `Booked At` and `Room`, you can target the values via
+```text
+Your current level is {Loyalty tier|not assigned}.
+```
 
-- `{appointment.Booked At}`
-- `{appointment.Room}`
+Use the property name shown by the selector. When several custom properties share the same type, naming them clearly avoids ambiguity and makes the correct tag easier to identify.
 
-When Hellotext detects these tags, it will get the value associated from the object and replace the tag with the value found.
+Property names cannot begin with a number or contain braces. If you rename a property used in existing message content, review those messages before sending again.
 
-### Naming Rules {#rules}
+## Use contextual tags only where they are available
 
-By default, Hellotext generates property names based on the property type. But, you are free to modify the name to something that makes sense to your business.
-When naming properties, you should follow these rules:
+Some playbooks, journeys, and automations can provide data about a product, cart, order, form, refund, or another business object. Their tags use an object and property format, such as:
 
-- Properties cannot start with a number. For example, `1st-name` is not a valid property name.
-- Properties cannot contain curly braces. For example, `{name}` is not a valid property name.
+```text
+{product.url}
+```
+
+Contextual tags only resolve when the message workflow has the corresponding object and value. A product tag that works inside a product-based playbook may not work in a campaign that has no selected product.
+
+Use the tags offered by the editor for that workflow. If you reuse message content somewhere else, check the selector and test the contextual values again.
+
+## Preview and test before sending
+
+Before launching a message with personalization:
+
+- Test profiles with complete and incomplete data.
+- Confirm every optional value has a natural fallback.
+- Check spaces and punctuation around tags.
+- Verify contextual tags have the product, cart, order, or other object they need.
+- Review links after interpolation, especially checkout or product links.
+- Send a small test before using a large audience.
+
+If a tag remains visible in the preview or delivered message, check that it appears in that editor's selector, that its braces are complete, and that the required context is available.
+
+## Related guides
+
+- [Understand customer profiles]({% link _audience/customer-profiles.md %})
+- [Message editor overview]({% link _numbers/message-editor-overview.md %})
+- [Create a campaign]({% link _campaigns/creating-a-campaign.md %})
+- [Go-live checklist before you send]({% link _getting-started/go-live-checklist.md %})

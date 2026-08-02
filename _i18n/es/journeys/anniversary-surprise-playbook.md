@@ -15,7 +15,7 @@ Puede:
 - Usar una fuente de aniversario, como primera compra, creación del perfil, fecha de suscripción o una fecha personalizada, cuando esté disponible.
 - Detectar cuándo el cliente llega a un aniversario según esa fuente.
 - Enviar un mensaje de celebración con tono de agradecimiento o reconocimiento.
-- Incluir un cupón aprobado o una oferta existente del ecommerce cuando el mensaje lo necesita.
+- Incluir un cupón aprobado o una oferta existente del eCommerce cuando el mensaje lo necesita.
 - Personalizar el mensaje con datos del perfil del cliente, historial de compra o contexto de relación cuando esos datos están disponibles.
 - Omitir perfiles cuando falta la fecha de aniversario, falta consentimiento, el canal no está listo o el perfil no puede ser alcanzado.
 
@@ -48,7 +48,7 @@ Revisa que:
 - La audiencia que quieres alcanzar sea identificable y elegible.
 - El canal, remitente o cuenta de WhatsApp esté listo.
 - El mensaje o plantilla esté aprobado si el canal lo requiere.
-- Si vas a incluir un cupón u oferta del ecommerce, esté aprobado y funcione antes del lanzamiento.
+- Si vas a incluir un cupón u oferta del eCommerce, esté aprobado y funcione antes del lanzamiento.
 - Los datos de compra, perfil o propiedades personalizadas estén sincronizados si el aniversario depende de ellos.
 
 Para validar la configuración, usa [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %}). Si importas perfiles o fechas personalizadas, revisa [Importa perfiles del cliente]({% link _audience/import-customer-profiles.md %}). Para tracking personalizado, usa [Seguimiento de eventos]({% link _developers/tracking-events.md %}).
@@ -65,7 +65,7 @@ Las opciones disponibles pueden variar, pero revisa:
 - **Audiencia:** qué perfiles pueden recibir el playbook.
 - **Canales de salida:** dónde Hellotext puede enviar el mensaje.
 - **Mensaje:** el texto de aniversario y las variables que usará.
-- **Cupón u oferta:** el cupón aprobado o la oferta existente del ecommerce que se incluirá si corresponde.
+- **Cupón u oferta:** el cupón aprobado o la oferta existente del eCommerce que se incluirá si corresponde.
 - **Respuestas en Inbox:** cómo debería revisar tu equipo las respuestas si el cliente contesta.
 
 No asumas que todas las cuentas tienen la misma fuente de aniversario. Si el control no aparece, confirma con tu equipo de Hellotext qué fecha está usando el playbook antes de lanzar.

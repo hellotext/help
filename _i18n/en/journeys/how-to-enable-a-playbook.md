@@ -36,7 +36,7 @@ You may see cards such as:
 - **Agent prompt**, for instructions that tell the AI agent what to do and how to respond.
 - **Intents**, for customer intentions that should activate a custom agent.
 - **Knowledge**, for FAQs, policies, product notes, or documents the agent can use.
-- **Discounts**, for ecommerce offer rules and maximum AI discount limits.
+- **Discounts**, for eCommerce offer rules and maximum AI discount limits.
 - **Tone**, for the voice used in AI-generated responses.
 - **Escalation**, for the teammate or team that should take over when the agent needs help.
 - **Web search**, for approved websites the agent can use when searching online.

@@ -94,7 +94,7 @@ Copy the generated link when you want Hellotext to host the form. Open it in a n
 
 Use the generated HTML when the form should appear inside one of your pages.
 
-1. Make sure the website is connected through a supported ecommerce integration or has [Hellotext.js](https://github.com/hellotext/hellotext.js) installed.
+1. Make sure the website is connected through a supported eCommerce integration or has [Hellotext.js](https://github.com/hellotext/hellotext.js) installed.
 2. Copy the generated form code exactly as Hellotext provides it.
 3. Paste it in the page body where the form should appear.
 4. Apply your website styles without removing or renaming the generated form attributes.
@@ -129,7 +129,7 @@ After a successful completion, the same browser can remember that the form was c
 Check these items in order:
 
 1. Confirm that the generated form code is present on the page.
-2. Confirm that the connected ecommerce integration or Hellotext.js loads successfully.
+2. Confirm that the connected eCommerce integration or Hellotext.js loads successfully.
 3. Compare the embedded code with the current snippet shown in Hellotext.
 4. Check whether website styles or scripts hide or replace the form.
 5. Test the hosted link to separate a form configuration problem from an installation problem.

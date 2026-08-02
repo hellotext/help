@@ -39,7 +39,7 @@ Consider disabling temporarily only when the change could affect live customers 
 - You are changing the prompt of a playbook that allows prompt edits and the agent could reply incorrectly.
 - You are changing intents for a custom agent.
 - You are changing incoming or outgoing channels.
-- You are changing discounts or ecommerce offer rules.
+- You are changing discounts or eCommerce offer rules.
 - You are editing a route with steps, conditions, branches, or assignments.
 
 For active sales playbooks, the risk depends on which card you are changing. Many adjustments do not affect customers immediately, but a prompt, discount strategy, channel, or route logic change should be tested before you broaden it again.
@@ -54,7 +54,7 @@ Use this table as a quick map:
 | **Intents** | Custom agents and custom playbooks | Which customer messages activate that agent. |
 | **Knowledge** | Sales or support AI agents | What information the agent uses to answer. |
 | **Incoming/outgoing channels** | Playbooks that allow channel selection | Where the playbook can reply or send. |
-| **Discounts** | Sales playbooks that allow offers | Which ecommerce offer rules and AI discount limits the agent may use. |
+| **Discounts** | Sales playbooks that allow offers | Which eCommerce offer rules and AI discount limits the agent may use. |
 | **Escalation** | AI agents, support, [Webchat]({% link _captures/webchat-widget-playbook.md %}), and some custom playbooks | Who takes over when the agent should not continue. |
 | **Route steps** | Journeys or routes | Sequence, waits, branches, assignments, and exit from the flow. |
 
@@ -133,7 +133,7 @@ Discount rules affect customer expectations and revenue, so change them carefull
 
 Before changing discount settings:
 
-- Confirm whether the playbook should follow ecommerce offer rules, create AI-driven discounts up to a maximum percentage, combine both, or send without discounts.
+- Confirm whether the playbook should follow eCommerce offer rules, create AI-driven discounts up to a maximum percentage, combine both, or send without discounts.
 - Set clear maximums for any AI-driven discount.
 - Avoid stacking discounts beyond your business rules.
 - Test what happens when a customer asks for a better discount.

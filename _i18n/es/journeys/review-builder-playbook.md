@@ -128,8 +128,8 @@ El reporte automático del playbook permite ver:
 - Distribución de calificaciones.
 - Texto de la reseña.
 - Adjuntos de la reseña como URLs de imágenes o videos cuando estén disponibles.
-- Perfil de cliente e identificador del cliente en ecommerce cuando estén disponibles.
-- Nombre del producto e identificador del producto en ecommerce cuando estén disponibles.
+- Perfil de cliente e identificador del cliente en eCommerce cuando estén disponibles.
+- Nombre del producto e identificador del producto en eCommerce cuando estén disponibles.
 - Fecha y hora de la reseña.
 - Un link a la conversación donde se dejó la reseña.
 

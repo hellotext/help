@@ -16,7 +16,7 @@ Puede:
 - Usar historial del cliente, contexto de producto, datos de catálogo, elegibilidad de canal y reglas de oferta antes de enviar un mensaje.
 - Generar un último mensaje personalizado con una razón clara para volver, como un producto relevante, una colección, una novedad o una oferta aprobada.
 - Permitir que tu equipo dé feedback en Playground para que Hellotext aprenda qué tono y estilo encajan con el negocio.
-- Seguir reglas de oferta existentes del ecommerce, usar descuentos con IA hasta un porcentaje máximo aprobado o enviar sin descuentos.
+- Seguir reglas de oferta existentes del eCommerce, usar descuentos con IA hasta un porcentaje máximo aprobado o enviar sin descuentos.
 - Buscar el canal más eficiente en costo entre los disponibles, como WhatsApp, SMS u otros, y enviar solo cuando detecta internamente una oportunidad con ROI saludable.
 - Suprimir automáticamente futuros intentos de recuperación para ese perfil si el cliente no compra, responde o vuelve a mostrar una señal relevante.
 - Omitir clientes cuando no hay consentimiento, el perfil no puede ser alcanzado, otro playbook encaja mejor o no existe una razón suficientemente relevante para escribir.
@@ -51,7 +51,7 @@ Revisa que:
 - Hellotext pueda distinguir clientes recientemente inactivos, clientes inactivos alrededor de 3 meses y clientes alrededor de 12 meses sin actividad o sin reactivarse.
 - Nombres, imágenes, precios, stock y links de producto estén actualizados si el mensaje puede incluir recomendaciones.
 - La audiencia que quieres alcanzar sea identificable y elegible para el canal seleccionado.
-- Si se permiten descuentos, las reglas de oferta del ecommerce y cualquier porcentaje máximo de descuento con IA estén aprobados antes del lanzamiento.
+- Si se permiten descuentos, las reglas de oferta del eCommerce y cualquier porcentaje máximo de descuento con IA estén aprobados antes del lanzamiento.
 - Tarjetas de producto, links de producto o mensajes enriquecidos funcionen en los canales que quieres usar.
 
 Para validar la configuración, usa [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %}). Para tracking personalizado, usa [Seguimiento de eventos]({% link _developers/tracking-events.md %}).
@@ -67,7 +67,7 @@ Las tarjetas disponibles pueden variar, pero la configuración propuesta se conc
 - **Canales de salida:** dónde Hellotext puede enviar o continuar el mensaje final.
 - **Audiencia:** qué audiencia o segmento puede recibir el playbook.
 - **Productos:** qué productos, colecciones, categorías o grupos puede usar el mensaje.
-- **Estrategia de descuento:** si el playbook sigue las reglas de oferta del ecommerce, puede usar descuentos con IA hasta un porcentaje máximo o envía sin descuentos.
+- **Estrategia de descuento:** si el playbook sigue las reglas de oferta del eCommerce, puede usar descuentos con IA hasta un porcentaje máximo o envía sin descuentos.
 - **Tono o feedback en Playground:** cómo deberían aprender los ejemplos generados qué encaja con tu negocio.
 
 Mantén la selección automática de canales salvo que tengas una razón clara para limitar el playbook. Último Intento depende de encontrar un canal alcanzable y costo-eficiente para un cliente que ya lleva mucho tiempo inactivo. Hellotext puede elegir internamente el canal más eficiente en costo, como WhatsApp, SMS u otros según disponibilidad, y evitar envíos cuando no detecta una oportunidad con ROI saludable.

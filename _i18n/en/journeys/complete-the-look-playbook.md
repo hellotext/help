@@ -17,7 +17,7 @@ It can:
 - Use customer, product, catalog, price, stock, and channel context before a message is sent.
 - Generate message examples that adapt per customer.
 - Let your team give Playground feedback on examples so Hellotext learns what fits the business.
-- Follow existing ecommerce offer rules, use AI-driven discounts up to an approved maximum percentage, or send without discounts.
+- Follow existing eCommerce offer rules, use AI-driven discounts up to an approved maximum percentage, or send without discounts.
 - Avoid recommending products that are unavailable, irrelevant, already purchased, or outside the selected product scope.
 
 The exact configuration can vary by account, connected store, catalog quality, channel, templates, and rollout status.
@@ -52,7 +52,7 @@ Check that:
 - Product and variant identifiers are stable across catalog, product-view, cart, recommendation, and purchase signals.
 - The audience you want to reach is subscribed, identifiable, and eligible for the selected channel.
 - Purchase, cart, and product-interest signals are available so Hellotext can avoid irrelevant suggestions.
-- If discounts are allowed, ecommerce offer rules and any maximum AI discount percentage are approved before launch.
+- If discounts are allowed, eCommerce offer rules and any maximum AI discount percentage are approved before launch.
 - Product cards, product links, or rich messages work in the channels you plan to use.
 
 For setup validation, use [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %}). For custom tracking, use [Tracking events]({% link _developers/tracking-events.md %}).
@@ -68,7 +68,7 @@ The available cards can vary, but the proposed setup focuses on:
 - **Outgoing channels:** where Hellotext can send matching-product suggestions.
 - **Audience:** which audience or segment can receive the playbook.
 - **Products:** which products, collections, categories, or groups the playbook can use.
-- **Discount strategy:** whether the playbook follows existing ecommerce offer rules, can use AI-driven discounts up to a maximum percentage, or sends without discounts.
+- **Discount strategy:** whether the playbook follows existing eCommerce offer rules, can use AI-driven discounts up to a maximum percentage, or sends without discounts.
 - **Tone or Playground feedback:** how generated examples should learn what fits your business.
 
 Keep automatic channel selection unless you have a clear reason to limit the playbook. Complete-the-Look depends on whether the shopper can be reached when the matching-product suggestion is still relevant.

@@ -17,7 +17,7 @@ Puede:
 - Usar contexto de cliente, producto, catálogo, precio, stock y canal antes de enviar un mensaje.
 - Generar ejemplos de mensajes que se adaptan por cliente.
 - Permitir que tu equipo dé feedback en Playground para que Hellotext aprenda qué encaja con el negocio.
-- Seguir reglas de oferta existentes del ecommerce, usar descuentos con IA hasta un porcentaje máximo aprobado o enviar sin descuentos.
+- Seguir reglas de oferta existentes del eCommerce, usar descuentos con IA hasta un porcentaje máximo aprobado o enviar sin descuentos.
 - Evitar recomendar productos no disponibles, irrelevantes, ya comprados o fuera del alcance de productos seleccionado.
 
 La configuración exacta puede variar según cuenta, tienda conectada, calidad del catálogo, canal, plantillas y estado de despliegue.
@@ -46,13 +46,13 @@ Antes de habilitar Completa el Look, confirma la configuración de la que depend
 
 Revisa que:
 
-- Tu catálogo de productos o integración de ecommerce esté conectada.
+- Tu catálogo de productos o integración de eCommerce esté conectada.
 - Nombres, imágenes, precios, variantes, stock y links de producto estén actualizados.
 - Los productos que quieres incluir tengan complementos claros, productos que combinan, accesorios compatibles o ítems relacionados.
 - Identificadores de producto y variante sean estables entre catálogo, vista de producto, carrito, recomendación y compra.
 - La audiencia que quieres alcanzar esté suscrita, identificable y sea elegible para el canal seleccionado.
 - Señales de compra, carrito e interés de producto estén disponibles para que Hellotext evite sugerencias irrelevantes.
-- Si se permiten descuentos, las reglas de oferta del ecommerce y cualquier porcentaje máximo de descuento con IA estén aprobados antes del lanzamiento.
+- Si se permiten descuentos, las reglas de oferta del eCommerce y cualquier porcentaje máximo de descuento con IA estén aprobados antes del lanzamiento.
 - Tarjetas de producto, links de producto o mensajes enriquecidos funcionen en los canales que quieres usar.
 
 Para validar la configuración, usa [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %}). Para tracking personalizado, usa [Seguimiento de eventos]({% link _developers/tracking-events.md %}).
@@ -68,7 +68,7 @@ Las tarjetas disponibles pueden variar, pero la configuración propuesta se conc
 - **Canales de salida:** dónde Hellotext puede enviar sugerencias de productos que combinan.
 - **Audiencia:** qué audiencia o segmento puede recibir el playbook.
 - **Productos:** qué productos, colecciones, categorías o grupos puede usar el playbook.
-- **Estrategia de descuento:** si el playbook sigue las reglas de oferta del ecommerce, puede usar descuentos con IA hasta un porcentaje máximo o envía sin descuentos.
+- **Estrategia de descuento:** si el playbook sigue las reglas de oferta del eCommerce, puede usar descuentos con IA hasta un porcentaje máximo o envía sin descuentos.
 - **Tono o feedback en Playground:** cómo deberían aprender los ejemplos generados qué encaja con tu negocio.
 
 Mantén la selección automática de canales salvo que tengas una razón clara para limitar el playbook. Completa el Look depende de si el comprador puede ser alcanzado cuando la sugerencia de producto que combina todavía es relevante.

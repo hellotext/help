@@ -15,7 +15,7 @@ It can:
 - Detect customer profiles whose birthday matches the current day and month.
 - Create a birthday event to start the playbook when it is active.
 - Send a birthday message with a celebratory tone.
-- Include an approved coupon or existing ecommerce offer when the message calls for one.
+- Include an approved coupon or existing eCommerce offer when the message calls for one.
 - Personalize the message with customer profile data, such as name or birthday, when available.
 - Skip profiles when the birthday is missing, consent is missing, the channel is not ready, or the profile cannot be reached.
 
@@ -49,7 +49,7 @@ Check that:
 - The audience you want to reach has channel consent.
 - The channel, sender, or WhatsApp account is ready.
 - The birthday message or template is approved if the channel requires it.
-- If you include a coupon or ecommerce offer, it is approved and works before launch.
+- If you include a coupon or eCommerce offer, it is approved and works before launch.
 - The audience excludes profiles that should not receive promotional messages.
 
 For setup validation, use [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %}). If you import profiles, see [Import customer profiles]({% link _audience/import-customer-profiles.md %}). For custom tracking, use [Tracking events]({% link _developers/tracking-events.md %}).
@@ -65,7 +65,7 @@ Available options can vary, but you usually review:
 - **Outgoing channels:** where Hellotext can send the greeting.
 - **Audience:** which profiles can receive the playbook.
 - **Message:** the birthday copy and variables it will use.
-- **Coupon or offer:** the approved coupon or existing ecommerce offer to include when relevant.
+- **Coupon or offer:** the approved coupon or existing eCommerce offer to include when relevant.
 - **Inbox replies:** how your team should review replies if the customer responds.
 
 You do not need to create a manual campaign for each date. The playbook depends on the profile's birthday signal and runs when the birthday matches the current day.

@@ -47,7 +47,7 @@ Check that:
 - Product relationships can be inferred or provided through catalog data, collections, categories, purchase history, or recommendation logic.
 - The products you want to recommend have enough stock and usable links.
 - Your team knows which collections, categories, or products should be included or excluded in the playbook configuration.
-- If discounts are allowed, ecommerce offer rules and any maximum AI discount percentage are approved before launch.
+- If discounts are allowed, eCommerce offer rules and any maximum AI discount percentage are approved before launch.
 - The channel the playbook can use is connected and ready.
 - Customers have consent and are eligible for the channel.
 
@@ -66,7 +66,7 @@ The playbook exposes product scope and recommendation rules:
 
 Depending on the account rollout, it may also show cards for:
 
-- **Discount strategy:** whether the message follows existing ecommerce offer rules, can use AI-driven discounts up to a maximum percentage, or sends without discounts.
+- **Discount strategy:** whether the message follows existing eCommerce offer rules, can use AI-driven discounts up to a maximum percentage, or sends without discounts.
 - **Channels:** where Hellotext can send or continue the conversation.
 - **Tone or Playground feedback:** how generated follow-ups should learn what fits your business.
 - **Escalation or assignment:** who should take over when a reply needs a person.

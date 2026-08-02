@@ -63,7 +63,7 @@ Browse Recovery exposes:
 
 - **Channels:** where Hellotext can send or continue the browse recovery conversation.
 - **Tone or Playground feedback:** how the generated follow-ups should learn what fits your business.
-- **Discount strategy:** whether the playbook follows existing ecommerce offer rules, can create AI-driven discounts up to a maximum percentage, or sends without discounts.
+- **Discount strategy:** whether the playbook follows existing eCommerce offer rules, can create AI-driven discounts up to a maximum percentage, or sends without discounts.
 - **Escalation or assignment:** who should take over when a reply needs a person.
 
 Keep automatic channel selection unless you have a clear reason to limit the playbook. Browse Recovery depends on whether the customer can actually be reached and whether the message format is allowed in the channel.

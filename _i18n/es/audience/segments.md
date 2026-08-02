@@ -1,76 +1,111 @@
-Los segmentos permiten crear grupos dinámicos de perfiles de cliente según condiciones que se gestionan automáticamente en tiempo real.
+Los segmentos son grupos dinámicos de perfiles de cliente. Hellotext incluye un perfil mientras cumple las condiciones del segmento y actualiza la pertenencia cuando cambian los datos del perfil y la actividad rastreada.
 
-Puedes segmentar tu audiencia en función de sus características (como ubicación, edad, género), su comportamiento (lo que compraron, cuánto gastaron) o cualquier combinación posible de ambas.
+Usa un segmento cuando puedas describir una audiencia mediante una regla, como clientes que compraron recientemente, suscriptores de un país determinado o perfiles que pertenecen a una lista seleccionada y cumplen otra condición.
 
-Los segmentos se actualizan en tiempo real y siempre contienen los perfiles de cliente que coinciden con las condiciones actuales.
+Si necesitas conservar un grupo seleccionado de forma explícita, usa una lista. Sigue leyendo: [Listas vs. segmentos]({% link _audience/lists-and-segments.md %}).
 
-Recomendamos utilizar Segmentos para crear las demografías a las que deseas llegar en tus campañas promocionales.
+## Antes de crear un segmento
 
-## Tipo de segmentos
+Define la pregunta que debe responder el segmento y confirma que Hellotext recibe los datos necesarios para responderla.
 
-### Características del perfil de cliente
+Por ejemplo, antes de crear un segmento de clientes interesados en una categoría de productos, revisa qué campo usa tu plataforma de eCommerce conectada. Según la integración, el valor útil puede estar en una categoría, colección, etiqueta o propiedad personalizada.
 
-Estas son las propiedades de tus perfiles de cliente. Puedes proporcionar esta información usando una integración disponible, desde tu propia fuente, desde tu CRM o mediante la API.
+También conviene identificar algunos perfiles de cliente que deberían coincidir y otros que no. Puedes usarlos para revisar el resultado después de guardar.
 
-* **Género**
-* **Edad**
-* **Ubicación**: Puedes especificar ciudades, regiones o países.
-* **Dispositivo**: si el perfil de cliente se suscribió mediante una captura web como un pop-up, hizo clic en un link corto o está asociado a una sesión rastreada en tu sitio, puedes segmentar por tipo de dispositivo (computadora de escritorio, móvil, tablet), marca del dispositivo o sistema operativo.
-* **Operador móvil**
-* **Origen de suscripción**: Cómo se suscribieron, por ejemplo código QR, link compartible, formulario, opt-in en checkout, captura, canal o código corto.
-* **Propiedades personalizadas**: cualquier propiedad personalizada definida que hayas creado previamente.
+## Crea un segmento
+
+1. Ve a **Audiencia**.
+2. Selecciona el botón **+** cerca de la esquina inferior derecha.
+3. Selecciona **Nuevo Segmento**.
+4. Reemplaza el título predeterminado por un nombre claro para el segmento.
+5. Selecciona **Elige una condición** y elige **Actividad del cliente** o **Características del cliente**.
+
+Usa un nombre que describa la regla en lugar de una campaña temporal. Por ejemplo, `Compró calzado en los últimos 30 días` será más fácil de entender después que `Audiencia agosto`.
+
+## Elige un tipo de condición
 
 ### Actividad del cliente
 
-Cualquiera de las acciones registradas por tu audiencia se pueden utilizar para la segmentación y, de hecho, son una de las formas más poderosas y efectivas de segmentar.
+Usa condiciones de actividad para acciones que ocurrieron o no ocurrieron. Según los datos conectados al negocio, la actividad disponible puede incluir:
 
-Algunas acciones, como hacer clic en un link corto, se rastrean automáticamente como eventos. Si conectas tu eCommerce con una de nuestras implementaciones listas para usar como Mercado Libre, Hellotext puede recibir eventos en tiempo real realizados por perfiles de cliente, como productos comprados y monto gastado.
+* Actividad de suscripción y enlaces cortos.
+* Mensajes entregados o recibidos.
+* Vistas de producto, actividad del carrito, compras y reembolsos.
+* Actividad en páginas.
+* Acciones personalizadas rastreadas.
 
-Algunos ejemplos de actividades que puedes utilizar en segmentos:
+Elige si la actividad **ocurrió** o **no ocurrió**. Cuando la condición ofrece un período, define hasta cuánto tiempo atrás debería evaluar Hellotext la actividad. Las condiciones de producto y página pueden mostrar filtros adicionales para limitar la regla a los productos, categorías, colecciones, etiquetas, URLs u otros campos disponibles que correspondan.
 
-* **Hizo clic en un link corto**: cuando un cliente hizo clic en un link corto de una campaña enviada.
-* **Visualizó un producto o visitó una página**
-* **Artículos agregados al carrito**
-* **Comprar un producto**
-* **Instaló una aplicación**
-* **Completó un formulario**
-* **Acciones personalizadas**: cualquier acción personalizada que hayas creado.
+### Características del cliente
 
-## Crear un segmento
+Usa condiciones de características para lo que se conoce actualmente sobre un perfil de cliente. Las condiciones disponibles pueden incluir:
 
-En la sección *Audiencia*, haz clic en el botón <img src="/images/icons/add.svg" class="avatar-icon bg-blush" width="25" /> cerca de la parte inferior derecha de la página y selecciona *Nuevo Segmento*.
+* Propiedades estándar y personalizadas del perfil.
+* Pertenencia a listas.
+* Estado de suscripción.
+* Propensión de compra cuando está disponible.
+* País, ubicación e información del dispositivo.
+* Canal de mensajería conectado.
 
-Se te pedirá que selecciones el tipo de condición que deseas para este segmento.
+Elige si el perfil debería cumplir o no cumplir la condición seleccionada y completa el valor requerido por esa propiedad o filtro.
 
-Puedes agregar condiciones adicionales al mismo segmento haciendo clic en los botones *O* y *Y*.
+## Combina condiciones con Y y O
 
-* **O**: Selecciona esta opción cuando desees que el segmento coincida con una u otra condición especificada. Por ejemplo: *Estados Unidos o Canadá*.
-* **Y**: selecciona esta opción cuando desees que el segmento cumpla ambas condiciones. Por ejemplo: *Mujeres de Estados Unidos*.
+El creador de segmentos agrupa las condiciones de dos maneras:
 
-Cuando estés listo con tu segmento, haz clic en *Guardar cambios*.
+* **O** agrega otra alternativa dentro del mismo bloque. Un perfil puede cumplir cualquiera de las condiciones de ese bloque.
+* **Y** agrega otro bloque. Un perfil también debe cumplir ese bloque para entrar al segmento.
 
-Tomará unos segundos comenzar a ver los perfiles de cliente en el segmento recién creado.
+Por ejemplo, puedes crear un bloque de actividad para clientes que compraron en la categoría calzado **o** compraron en la categoría accesorios, y luego agregar un bloque con **y** que exija que el estado de suscripción sea suscrito.
 
-## Editar un segmento
+Lee la regla completa antes de guardar. Una condición **Y** u **O** mal ubicada puede hacer que el segmento sea mucho más amplio o más reducido de lo esperado.
 
-Desde la sección *Audiencia* y en el área izquierda de la página, posiciónate sobre el título del segmento que deseas editar.
+## Guarda y revisa el resultado
 
-Un icono de edición será visible a la derecha del nombre. Haz clic en el icono. Se abrirá un panel en el lado derecho de la página.
+Selecciona **Guardar** cuando el nombre y las condiciones estén listos.
 
-Una vez que hayas terminado de editar tu segmento, haz clic en *Guardar cambios*.
+Hellotext calcula los perfiles que cumplen las reglas. Mientras realiza ese trabajo, el segmento puede indicar que se está actualizando. Los eventos nuevos y cambios en los perfiles también pueden iniciar actualizaciones posteriores, por lo que los resultados pueden demorar un momento en aparecer.
 
-Puede tomar unos segundos actualizar el segmento y reflejar los nuevos cambios.
+Después de guardar:
 
-## Eliminando un segmento
+* Revisa la cantidad total de perfiles.
+* Abre varios perfiles incluidos y confirma por qué cumplen las reglas.
+* Revisa algunos perfiles que esperabas encontrar pero no aparecen.
+* Confirma que los períodos, inclusiones, exclusiones y campos de producto significan lo que esperabas.
+* Revisa por separado la elegibilidad de suscripción antes de usar el segmento para enviar mensajes.
 
-Eliminar un segmento solo elimina el segmento en sí y no elimina los perfiles de cliente que pueda contener.
+Un segmento organiza perfiles; no suscribe clientes ni anula una baja.
 
-Desde la sección *Audiencia* y en el área izquierda de la página, posiciónate sobre el título del segmento que deseas eliminar.
+## Edita un segmento
 
-Un icono de edición será visible a la derecha del nombre. Haz clic en el icono. Se abrirá un panel en el lado derecho de la página.
+En **Audiencia**, busca el segmento en el grupo **Segmentos** y usa su botón de edición. Puedes cambiar el nombre, agregar o eliminar condiciones o modificar sus valores.
 
-Haz clic en el ícono de la papelera cerca del área inferior derecha del panel.
+Después de guardar cambios en las reglas, Hellotext vuelve a calcular la pertenencia. Revisa nuevamente la cantidad de perfiles antes de usar el segmento actualizado en una campaña.
 
-Un cuadro de diálogo de confirmación te pedirá que confirmes la eliminación del segmento.
+## Elimina un segmento
 
-Haz clic en *Eliminar* para confirmar la acción.
+Abre el editor del segmento y selecciona el botón de la papelera. Eliminar un segmento elimina el segmento, no los perfiles de cliente que contenía.
+
+Si una campaña en borrador usa el segmento, Hellotext te pide confirmación porque eliminarlo también quita esa referencia de audiencia del borrador.
+
+## Si el resultado no parece correcto
+
+Revisa estas causas frecuentes:
+
+* La propiedad o actividad necesaria no está llegando a Hellotext.
+* El período seleccionado es demasiado corto o demasiado amplio.
+* Un bloque **Y** debería ser una alternativa **O**, o al revés.
+* Una condición excluye perfiles en lugar de incluirlos.
+* La información del producto está en otro campo para la integración conectada.
+* El segmento todavía se está recalculando.
+
+Prueba con perfiles de cliente conocidos antes de depender de un segmento nuevo o modificado de manera importante.
+
+## Guías relacionadas
+
+* [Resumen de audiencia y segmentación]({% link _audience/audience-overview.md %})
+* [Entiende los perfiles de cliente]({% link _audience/customer-profiles.md %})
+* [Listas vs. segmentos]({% link _audience/lists-and-segments.md %})
+* [Crea y gestiona listas]({% link _audience/lists.md %})
+* [A quién puedo escribirle: consentimiento y estado de suscripción]({% link _audience/consent-and-subscriber-status.md %})
+* [Eventos de seguimiento]({% link _developers/tracking-events.md %})

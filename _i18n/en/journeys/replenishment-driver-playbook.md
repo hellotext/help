@@ -61,7 +61,7 @@ Open **Playbooks**, click **Explore playbooks**, and choose **Replenishment Driv
 
 The playbook exposes the settings that control how it communicates:
 
-- **Discount strategy:** whether the reminder follows existing ecommerce offer rules, can use AI-driven discounts up to a maximum percentage, or sends without discounts.
+- **Discount strategy:** whether the reminder follows existing eCommerce offer rules, can use AI-driven discounts up to a maximum percentage, or sends without discounts.
 - **Channels:** where Hellotext can send or continue the conversation.
 - **Tone or Playground feedback:** how generated follow-ups should learn what fits your business.
 

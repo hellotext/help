@@ -61,7 +61,7 @@ Abre **Playbooks**, haz click en **Explorar playbooks** y elige **Impulsor de Re
 
 El playbook expone las configuraciones que controlan cómo se comunica:
 
-- **Estrategia de descuento:** si el recordatorio sigue las reglas de oferta del ecommerce, puede usar descuentos con IA hasta un porcentaje máximo o envía sin descuentos.
+- **Estrategia de descuento:** si el recordatorio sigue las reglas de oferta del eCommerce, puede usar descuentos con IA hasta un porcentaje máximo o envía sin descuentos.
 - **Canales:** dónde Hellotext puede enviar o continuar la conversación.
 - **Tono o feedback en Playground:** cómo deberían aprender los seguimientos generados qué encaja con tu negocio.
 
