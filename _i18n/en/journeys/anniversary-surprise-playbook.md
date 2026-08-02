@@ -33,7 +33,7 @@ It is a good fit when:
 - The business wants to offer a greeting or approved coupon without creating manual campaigns.
 - Your team wants a retention moment that does not depend on inactivity, cart behavior, or birthday.
 
-For personal birthdays, use [Birthday Bash]({% link _journeys/birthday-bash-playbook.md %}). For customers who have gone quiet, use [Soft Reactivation]({% link _journeys/soft-reactivation-playbook.md %}), [Dormant Revival]({% link _journeys/dormant-revival-playbook.md %}), or [Sunset Saver]({% link _journeys/sunset-saver-playbook.md %}) depending on the inactivity window. For commercial dates such as holidays, launches, or one-time promotions, use [Campaigns and broadcasts]({% link _campaigns/campaigns-overview.md %}).
+For personal birthdays, use [Birthday Bash]({% link _journeys/birthday-bash-playbook.md %}). For customers who have gone quiet, use [Soft Reactivation]({% link _journeys/soft-reactivation-playbook.md %}), [Dormant Revival]({% link _journeys/dormant-revival-playbook.md %}), or [Sunset Saver]({% link _journeys/sunset-saver-playbook.md %}) depending on the inactivity window. For commercial dates such as holidays, launches, or one-time promotions, use [Campaigns]({% link _campaigns/campaigns-overview.md %}).
 
 ## What it needs before launch
 
@@ -101,7 +101,7 @@ Use the type of date or signal to decide which playbook should act.
 | Customer is starting to go quiet | [Soft Reactivation]({% link _journeys/soft-reactivation-playbook.md %}) |
 | Customer has been inactive for around 3 months | [Dormant Revival]({% link _journeys/dormant-revival-playbook.md %}) |
 | Customer has been inactive or not reactivated for around 12 months | [Sunset Saver]({% link _journeys/sunset-saver-playbook.md %}) |
-| You have a commercial date or one-time launch | [Campaigns and broadcasts]({% link _campaigns/campaigns-overview.md %}) |
+| You have a commercial date or one-time launch | [Campaigns]({% link _campaigns/campaigns-overview.md %}) |
 
 Anniversary Surprise can coexist with other playbooks when each one responds to a different moment. Still, avoid sending several promotional messages to the same customer at the same moment if another active playbook is a better fit.
 

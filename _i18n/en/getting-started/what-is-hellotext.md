@@ -60,9 +60,9 @@ Capture tools help customers subscribe, start conversations, or share informatio
 
 Captures usually feed the customer profile and can start a welcome message, route, or playbook.
 
-### Campaigns and broadcasts
+### Campaigns
 
-Campaigns are one-time sends to a selected audience. Use them for announcements, launches, promotions, or planned broadcasts.
+Campaigns are one-time sends to a selected audience. Use them for announcements, launches, promotions, or other planned messages.
 
 Campaigns still matter, but they are not the center of Hellotext. Playbooks and Inbox workflows help Hellotext respond continuously to customer behavior.
 

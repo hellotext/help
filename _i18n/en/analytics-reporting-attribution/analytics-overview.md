@@ -6,11 +6,11 @@ This section connects three related questions:
 - Which customer actions happened after the message?
 - Which revenue was attributed to Hellotext?
 
-## Campaign and broadcast reports
+## Campaign reports
 
 Campaign reports help you review delivery, engagement, clicks, conversions, replies, and attributed revenue for a one-time send.
 
-Use campaign reporting when you need to evaluate a broadcast, compare message performance, or decide what to improve before the next campaign.
+Use campaign reporting when you need to evaluate a campaign, compare message performance, or decide what to improve before the next campaign.
 
 Keep reading: [Campaign reporting]({% link _analytics-reporting-attribution/campaign-reporting.md %}).
 

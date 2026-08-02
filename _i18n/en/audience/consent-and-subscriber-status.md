@@ -107,6 +107,7 @@ Do not override an opt-out just to make a campaign, playbook, or route larger.
 
 ## Related guides
 
+- [Create a campaign]({% link _campaigns/creating-a-campaign.md %})
 - [Audience and segmentation overview]({% link _audience/audience-overview.md %})
 - [Import customer profiles]({% link _audience/import-customer-profiles.md %})
 - [Capture tools overview]({% link _captures/capture-overview.md %})

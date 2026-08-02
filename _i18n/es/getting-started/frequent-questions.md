@@ -78,7 +78,7 @@ Sigue leyendo: [Resumen de herramientas de captura]({% link _captures/capture-ov
 
 ## ¿Cuál es la diferencia entre una campaña y un playbook?
 
-Una campaña es un envío puntual a una audiencia seleccionada. Usa campañas para anuncios, promociones y broadcasts enfocados.
+Una campaña es un envío puntual a una audiencia seleccionada. Usa campañas para anuncios, promociones y otros envíos enfocados.
 
 Un playbook es un sistema repetible entrenado para una misión de negocio, como recuperar carritos, generar recompra, reactivar clientes, recopilar reseñas o resolver consultas de soporte.
 
@@ -87,7 +87,7 @@ A diferencia de un flujo fijo, un playbook puede usar señales para decidir qué
 Sigue leyendo:
 
 - [Cómo funciona Hellotext: playbooks, campañas e Inbox]({% link _getting-started/how-hellotext-works.md %})
-- [Resumen de campañas y broadcasts]({% link _campaigns/campaigns-overview.md %})
+- [Resumen de campañas]({% link _campaigns/campaigns-overview.md %})
 - [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})
 
 ## ¿Cómo preparo mi primer envío?

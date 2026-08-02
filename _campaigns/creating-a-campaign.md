@@ -3,10 +3,10 @@ languages: ["en", "es"]
 
 en:
   title: Create a campaign
-  description: Build, target, review, and send a campaign to your audience.
+  description: Choose channels and audiences, compose and test the message, then review, schedule, and send a campaign.
 es:
   title: Crea una campaña
-  description: Crea, segmenta, revisa y envía una campaña a tu audiencia.
+  description: Elige canales y audiencias, redacta y prueba el mensaje, y luego revisa, programa y envía una campaña.
 
 permalink: creating-a-campaign
 permalink_es: crear-una-campaña

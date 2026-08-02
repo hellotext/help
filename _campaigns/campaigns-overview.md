@@ -2,11 +2,11 @@
 languages: ["en", "es"]
 
 en:
-  title: Campaigns and broadcasts overview
-  description: Understand when to send a one-time campaign and what to check before launch.
+  title: Campaigns overview
+  description: Understand the campaign lifecycle and when to use campaigns instead of playbooks or routes.
 es:
-  title: Resumen de campañas y broadcasts
-  description: Entiende cuándo enviar una campaña puntual y qué revisar antes de lanzarla.
+  title: Resumen de campañas
+  description: Entiende el ciclo de las campañas y cuándo usarlas en lugar de playbooks o rutas.
 
 permalink: campaigns-broadcasts-overview
 permalink_es: resumen-campanas-broadcasts

@@ -79,7 +79,7 @@ Usa la señal del cliente para decidir quién debería ser dueño del momento.
 | El cliente vio un producto disponible pero no agregó al carrito | [Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}) |
 | El cliente agregó productos al carrito o checkout y se fue | [Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}) o [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) |
 | El cliente necesita ayuda para elegir un producto o alternativa | [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) |
-| El negocio quiere anunciar una reposición una vez a una audiencia seleccionada | Campaña o broadcast |
+| El negocio quiere anunciar una reposición una vez a una audiencia seleccionada | Campaña |
 
 Vuelta a Stock puede convivir con recuperación de navegación y recuperación de carrito cuando la propiedad está clara. Vuelta a Stock maneja el momento de producto no disponible; navegación y carrito manejan productos disponibles que el cliente no compró.
 
@@ -154,5 +154,5 @@ Ajusta una cosa por vez entre las tarjetas que expone el playbook: alcance de pr
 - [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %})
 - [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
-- [Resumen de campañas y broadcasts]({% link _campaigns/campaigns-overview.md %})
+- [Resumen de campañas]({% link _campaigns/campaigns-overview.md %})
 - [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})

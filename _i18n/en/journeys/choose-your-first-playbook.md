@@ -39,7 +39,7 @@ After you choose the first option to launch, follow [How to enable a playbook]({
 | Measure loyalty after delivery | [NPS Pulse]({% link _journeys/nps-pulse-playbook.md %}) | Use this when delivered-order signals are reliable and you want a relationship-level 0-10 recommendation signal. |
 | Answer frequent questions or reduce support load | [Instant Answers]({% link _journeys/instant-answers-playbook.md %}), [Order-Update Delight]({% link _journeys/order-update-playbook.md %}), [Return & Exchange Helper]({% link _journeys/return-and-exchange-helper-playbook.md %}), or [Order Cancellation Assistant]({% link _journeys/order-cancellation-assistant-playbook.md %}) | Start here when your team spends time answering repeat questions and you have clear policies, order data, and handoff rules. |
 | Measure satisfaction after resolved conversations | [CSAT Pulse]({% link _journeys/csat-pulse-playbook.md %}) | Use this when support, Inbox, AI, or playbook conversations can be resolved and negative feedback should create follow-up. |
-| Send one planned announcement | A campaign or broadcast | Use a campaign when the message is time-bound and should go to a selected audience once. |
+| Send one planned announcement | A campaign | Use a campaign when the message is time-bound and should go to a selected audience once. |
 | Build a custom flow | A journey route or [custom agent]({% link _journeys/custom-agent-playbook.md %}) | Use this when no prebuilt mission fits, or when you need specific steps, conditions, actions, or business logic. |
 
 ## Start small
@@ -121,6 +121,6 @@ Then adjust one thing at a time among the controls that option actually exposes,
 - [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %})
 - [Getting started with journeys]({% link _journeys/getting-started-with-journeys.md %})
 - [Capture tools overview]({% link _captures/capture-overview.md %})
-- [Campaigns and broadcasts overview]({% link _campaigns/campaigns-overview.md %})
+- [Campaigns overview]({% link _campaigns/campaigns-overview.md %})
 - [Playbook reporting]({% link _analytics-reporting-attribution/playbook-reporting.md %})
 - [Analytics, reporting, and attribution overview]({% link _analytics-reporting-attribution/analytics-overview.md %})

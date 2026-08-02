@@ -39,7 +39,7 @@ Después de elegir la primera opción para lanzar, sigue [Cómo habilitar un pla
 | Medir lealtad después de la entrega | [Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}) | Úsalo cuando las señales de pedido entregado son confiables y quieres una señal de recomendación de 0 a 10 a nivel relación. |
 | Responder preguntas frecuentes o reducir carga de soporte | [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}), [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}), [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}) o [Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %}) | Empieza aquí cuando tu equipo responde preguntas repetidas y tienes políticas, datos de pedidos y reglas de derivación claras. |
 | Medir satisfacción después de conversaciones resueltas | [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}) | Úsalo cuando conversaciones de soporte, Inbox, IA o playbooks pueden cerrarse y el feedback negativo debería crear seguimiento. |
-| Enviar un anuncio puntual | Una campaña o broadcast | Usa una campaña cuando el mensaje tiene una fecha o momento concreto y debe enviarse una sola vez a una audiencia seleccionada. |
+| Enviar un anuncio puntual | Una campaña | Usa una campaña cuando el mensaje tiene una fecha o momento concreto y debe enviarse una sola vez a una audiencia seleccionada. |
 | Crear un flujo a medida | Una ruta o [agente personalizado]({% link _journeys/custom-agent-playbook.md %}) | Usa esto cuando ninguna misión preconstruida encaja, o cuando necesitas pasos, condiciones, acciones o lógica de negocio específica. |
 
 ## Empieza pequeño
@@ -121,6 +121,6 @@ Después ajusta una cosa por vez entre los controles que esa opción realmente e
 - [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %})
 - [Primeros pasos con rutas]({% link _journeys/getting-started-with-journeys.md %})
 - [Resumen de herramientas de captura]({% link _captures/capture-overview.md %})
-- [Resumen de campañas y broadcasts]({% link _campaigns/campaigns-overview.md %})
+- [Resumen de campañas]({% link _campaigns/campaigns-overview.md %})
 - [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})
 - [Resumen de analítica, reportes y atribución]({% link _analytics-reporting-attribution/analytics-overview.md %})

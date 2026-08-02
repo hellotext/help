@@ -119,7 +119,7 @@ Pausing early is better than letting a preventable issue reach more customers.
 - [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})
 - [Messaging channels overview]({% link _numbers/messaging-overview.md %})
 - [Capture tools overview]({% link _captures/capture-overview.md %})
-- [Campaigns and broadcasts overview]({% link _campaigns/campaigns-overview.md %})
+- [Campaigns overview]({% link _campaigns/campaigns-overview.md %})
 - [Inbox and conversations overview]({% link _team/inbox-overview.md %})
 - [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [SMS sending limits for new businesses]({% link _troubleshooting-deliverability/sms-sending-limits-for-new-businesses.md %})

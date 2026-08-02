@@ -49,7 +49,7 @@ Las campañas son mejores para:
 - Lanzamientos de producto.
 - Reposiciones.
 - Recordatorios de eventos.
-- Broadcasts estacionales o con fecha concreta.
+- Campañas estacionales o con fecha concreta.
 
 Las campañas son útiles cuando el mismo mensaje debería llegar una vez a una audiencia seleccionada. Si el mensaje debería reaccionar al comportamiento de cada cliente en el tiempo, usa un playbook.
 
@@ -112,7 +112,7 @@ Si no estás seguro, empieza más pequeño. Elige un objetivo, un canal, una aud
 - [Primeros logros recomendados]({% link _getting-started/first-wins-starter-pack.md %})
 - [Qué son las señales]({% link _journeys/what-are-signals.md %})
 - [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})
-- [Resumen de campañas y broadcasts]({% link _campaigns/campaigns-overview.md %})
+- [Resumen de campañas]({% link _campaigns/campaigns-overview.md %})
 - [Resumen de inbox y conversaciones]({% link _team/inbox-overview.md %})
 - [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})

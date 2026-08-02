@@ -49,7 +49,7 @@ Campaigns are best for:
 - Product launches.
 - Restocks.
 - Event reminders.
-- Seasonal or time-bound broadcasts.
+- Seasonal or time-bound campaigns.
 
 Campaigns are useful when the same message should reach a selected audience once. If the message should react to each customer's behavior over time, use a playbook instead.
 
@@ -112,7 +112,7 @@ If you are unsure, start smaller. Choose one goal, one channel, one audience, an
 - [First wins starter pack]({% link _getting-started/first-wins-starter-pack.md %})
 - [What are signals?]({% link _journeys/what-are-signals.md %})
 - [Playbooks and automation overview]({% link _journeys/playbooks-overview.md %})
-- [Campaigns and broadcasts overview]({% link _campaigns/campaigns-overview.md %})
+- [Campaigns overview]({% link _campaigns/campaigns-overview.md %})
 - [Inbox and conversations overview]({% link _team/inbox-overview.md %})
 - [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [Choose your first playbook]({% link _journeys/choose-your-first-playbook.md %})

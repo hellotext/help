@@ -79,7 +79,7 @@ Use the customer signal to decide the owner.
 | Customer viewed an available product but did not add to cart | [Browse Recovery]({% link _journeys/browse-recovery-playbook.md %}) |
 | Customer added products to cart or checkout and left | [AI Cart Saver]({% link _journeys/ai-cart-saver-playbook.md %}) or [Cart Saver route]({% link _journeys/cart-saver-route.md %}) |
 | Customer needs help choosing a product or alternative | [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}) |
-| Business wants to announce a restock to a selected audience once | Campaign or broadcast |
+| Business wants to announce a restock to a selected audience once | Campaign |
 
 Back-in-Stock Pounce can run alongside browse and cart recovery when the ownership is clear. Back-in-stock handles the unavailable-item moment; browse and cart recovery handle available products that the customer did not buy.
 
@@ -154,5 +154,5 @@ Tune one thing at a time among the cards the playbook exposes: product scope, ch
 - [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Cart Saver route]({% link _journeys/cart-saver-route.md %})
 - [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %})
-- [Campaigns and broadcasts overview]({% link _campaigns/campaigns-overview.md %})
+- [Campaigns overview]({% link _campaigns/campaigns-overview.md %})
 - [Playbook reporting]({% link _analytics-reporting-attribution/playbook-reporting.md %})

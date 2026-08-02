@@ -114,7 +114,7 @@ Use the customer moment to decide the owner.
 | Customer may need to reorder a consumable product | [Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}) |
 | Customer recently bought and may want a related product | [Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}) |
 | Customer abandoned a cart or checkout | [AI Cart Saver]({% link _journeys/ai-cart-saver-playbook.md %}) or [Cart Saver route]({% link _journeys/cart-saver-route.md %}) |
-| You want to send a planned one-time message to a selected audience | [Campaigns and broadcasts]({% link _campaigns/campaigns-overview.md %}) |
+| You want to send a planned one-time message to a selected audience | [Campaigns]({% link _campaigns/campaigns-overview.md %}) |
 
 Sunset Saver can coexist with other playbooks when each one owns a different moment. It should not compete with a more specific signal, and it should stop trying to win back a customer who already returned, replied, opted out, or entered another active flow.
 

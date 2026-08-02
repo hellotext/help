@@ -72,11 +72,11 @@ En esta familia, Hellotext también busca el canal más eficiente en costo entre
 
 Empieza acá cuando el mensaje depende de un lanzamiento, promoción, feriado, momento de inventario o anuncio puntual.
 
-Estos momentos planificados normalmente pertenecen a Campañas, salvo que tu cuenta exponga un playbook específico para ese trabajo. Los flujos comunes incluyen promociones estacionales, lanzamientos de producto, anuncios de inventario o liquidación, envíos clásicos y envíos personalizados con IA cuando esa opción está disponible en tu cuenta.
+Estos momentos planificados normalmente pertenecen a Campañas, salvo que tu cuenta exponga un playbook específico para ese trabajo. Los flujos comunes incluyen promociones estacionales, lanzamientos de producto, anuncios de inventario o liquidación, campañas programadas y campañas personalizadas con IA cuando esa opción está disponible en tu cuenta.
 
 Usa una campaña cuando el envío debería ocurrir una vez a una audiencia seleccionada. Usa un playbook cuando el sistema debería seguir reaccionando a señales del cliente en el tiempo.
 
-Sigue leyendo: [Resumen de campañas y broadcasts]({% link _campaigns/campaigns-overview.md %}).
+Sigue leyendo: [Resumen de campañas]({% link _campaigns/campaigns-overview.md %}).
 
 ## Mejorar soporte y experiencia del cliente
 
@@ -129,7 +129,7 @@ Si no sabes por dónde empezar, elige la misión que coincide con el primer cuel
 | Los visitantes miran pero no compran | [Impulsor de Primera Compra]({% link _journeys/first-purchase-driver-playbook.md %}), [Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}), [Completa el Look]({% link _journeys/complete-the-look-playbook.md %}) o [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) |
 | Los compradores no vuelven | [Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %}), [Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %}), [Celebra su Cumpleaños]({% link _journeys/birthday-bash-playbook.md %}), [Sorpresa de Aniversario]({% link _journeys/anniversary-surprise-playbook.md %}) o [Reactivación Suave]({% link _journeys/soft-reactivation-playbook.md %}) |
 | Los clientes quedaron fríos | [Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %}) o [Último Intento]({% link _journeys/sunset-saver-playbook.md %}) |
-| Tienes un anuncio con fecha | Una campaña o broadcast |
+| Tienes un anuncio con fecha | Una campaña |
 | El soporte es repetitivo | [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}), [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}), [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}), [Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %}) o [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}) |
 | Necesitas reseñas de productos | [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) |
 | Necesitas feedback de lealtad después de la entrega | [Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}) |

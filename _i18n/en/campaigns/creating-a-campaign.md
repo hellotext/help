@@ -1,109 +1,168 @@
-Learn how to create campaigns that reach your audience, encourage engagement, and support attributed sales activity for your brand.
+Use a campaign when you want to send a planned, one-time message to a selected audience. You choose the channels, audience, message, and delivery time; Hellotext determines which eligible customer profiles can actually be reached through those channels.
 
-Campaigns are one of the most effective ways to capture your customers' attention by delivering short and relevant messages at the right moment.
+## Before you start
 
-They are especially effective for building anticipation or driving focused sales moments. Use them as part of your regular messaging strategy, alongside captures, playbooks, and Inbox workflows.
+Make sure you have:
 
-To create a new campaign, visit the *Campaigns* section and click on the *New Campaign* button near the top right of the page.
+- An active SMS or WhatsApp channel.
+- Customer profiles with consent for the channel you plan to use.
+- A clear campaign goal and call to action.
+- Any lists, segments, tracked links, coupons, or media you need.
+- A payment method or balance when required by your account and channels.
 
-## Selecting an audience
+Keep reading: [Who can I message?]({% link _audience/consent-and-subscriber-status.md %}).
 
-Campaigns can reach your full eligible audience by keeping the *All audiences* option selected.
+## 1. Start the campaign and choose how it will be sent
 
-An estimate of the total recipients this campaign can reach is visible on the right side of the page.
+1. Open **Campaigns**.
+2. Select **New Campaign**.
+3. Choose one of the available delivery options:
 
-Reaching everyone is not always desirable. A campaign is usually more effective when the message targets a specific audience.
+- **WhatsApp and SMS:** tries WhatsApp first and uses SMS when WhatsApp is not available for an eligible customer.
+- **WhatsApp only:** sends only through WhatsApp.
+- **SMS only:** sends only through SMS.
 
-It is a good practice to create different campaigns targeting specific audiences. If you are already using Lists or Segments, you can include them as audiences by selecting them from the *All audiences* dropdown.
+The options available depend on the channels connected to the business. The **Estimated target** updates to show how many customer profiles may be reachable through the selected delivery option.
 
-You can include multiple Lists and Segments in your selection by clicking the <img src="/images/icons/add.svg" class="avatar-icon bg-blush" width="25" /> button at the right of the dropdown. 
+Select **Next** to continue. Give the campaign a clear internal name in the header so teammates can recognize it later in Draft, Scheduled, Delivered, and reporting views.
 
-The aggregated total of recipients to reach will be visible on the right side of the page.
+## 2. Choose who will receive it
 
-Learn more: **[Lists and Segments]({% link _audience/lists-and-segments.md %})**.
+The audience step starts with **All audience**. You can keep it when every eligible customer profile should be considered, or replace it with a more focused selection.
 
-### Excluding audiences
+You can include or exclude:
 
-It is possible to exclude certain audiences by selecting them first and then clicking on the *Include* label. 
+- Lists.
+- Segments.
+- Audiences from previously scheduled or delivered campaigns.
 
-For an audience to remain excluded, its label should say *Exclude*.
+Use the add button to combine multiple audience rules. Change **Include** to **Exclude** when a group should be removed from the campaign.
 
-## Composing your message
+Hellotext deduplicates overlapping groups and updates the estimated target automatically. The estimate considers the selected channels, subscription state, contactability, inclusions, and exclusions, so it can be smaller than the total size of the selected lists or segments.
 
-Take your time to write a clear message. Imagine yourself as the recipient. How would you feel receiving this message?
+Use the settings control beside **Estimated target** when you want to limit the campaign to a maximum number of eligible customers from the selected audience. This limit does not make an ineligible profile contactable.
 
-Typically, short and effective messages work better than longer ones.
+Keep reading: [Lists vs. segments]({% link _audience/lists-and-segments.md %}).
 
-If your campaign uses SMS, keep SMS length in mind. SMS messages have a limit of 160 characters. If you include characters that are not originally supported in the GSM-7 specification, such as accents and emojis, an encoding conversion to UCS-2 will be done and the total length per SMS message will be reduced to 80 characters.
+## 3. Compose the message
 
-If your SMS message exceeds this limit, it will require an additional SMS. Whenever possible, Hellotext tries to merge different SMS into one message, and when this is not possible the message will be sent in separate SMS messages.
+Write one focused message with a clear next action. The editor shows a channel preview while you compose.
 
-A counter with the remaining SMS characters and the number of SMS messages this campaign will consume per recipient is available in the compose area when SMS applies.
+Available tools depend on the delivery option. A campaign can include:
 
-A preview of the message is available on the right side of the page. It can help give you an idea of how the message could look when it is split into different SMS.
+- Formatted text supported by the selected channel.
+- A tracked link.
+- Personalization tags from customer profile properties.
+- A coupon.
+- A sending channel or sender.
+- WhatsApp content such as an attachment, location, footer, or buttons when supported.
 
-### Add a shortened link
+When WhatsApp is part of the campaign, the message is also prepared as a WhatsApp template. New or changed WhatsApp template content may need Meta approval before it can be delivered.
 
-This feature creates a shorter version of any URL in a simple format that looks like *hello.link/abcdef*.
+Keep reading: [Message editor overview]({% link _numbers/message-editor-overview.md %}).
 
-We always recommend using this tool to shorten the URL that will take visitors to your site, promotion, or a product.
+## Add tracked links
 
-The benefits of shortening links are two-fold: it keeps your message shorter, leaving more characters for the actual message.
+Use the editor's link tool instead of pasting a long destination URL. Hellotext creates a short `hello.link` URL, records eligible clicks, and connects the visit with later tracked activity.
 
-It also tracks which recipients clicked the short link and can connect later purchases or other events with that session.
+A tracked click can contribute active evidence for campaign attribution, but it is not the only evidence Hellotext evaluates.
 
-Supported commerce integrations can send purchase data automatically. For a custom storefront or custom events, install *Hellotext.js* or use the API to process the session and track events.
+Keep reading: [Tracked links]({% link _analytics-reporting-attribution/tracked-links.md %}).
 
-A tracked click is useful active attribution evidence, but it is not the only evidence Hellotext can use. Read [How we attribute sales]({% link _analytics-reporting-attribution/sales-attribution.md %}) for the complete methodology.
+## Add personalization tags
 
-### Add tags
+Tags insert customer profile properties into the delivered message. Use a fallback when the property may be missing, for example `{name|customer}`.
 
-Make your messages more personal by referencing customer profile properties. For example, display the profile's name using the tag _{name}_. The delivered message will replace the tag with the customer profile's name.
+Check the preview carefully when using tags. The fallback should produce a natural sentence for customer profiles without that value.
 
-You can find tags for all your customer profile properties such as:
+Keep reading: [Personalization tags]({% link _audience/personalization-tags.md %}).
 
-* *{name}*
-* *{last_name}*
-* *{phone}*
-* *{birthdate}*
-* Any custom properties also have a matching tag following the same tag naming convention: For example, if the property is called _My Property_ a tag to reference this property will be automatically available with the name _{my_property}_
+## Add a coupon
 
-### Setting a default value
+Use the coupon tool to reference a coupon already available in Hellotext. This keeps the coupon connected to the campaign and its results instead of treating a manually typed code as plain text.
 
-Not every customer profile is likely to have the property you want to use in a tag. For example, not every campaign recipient may have a name. Depending on how you craft your message, this can make the message read oddly if no value is shown.
+Confirm that the coupon rules, expiration, and eligible products match the selected audience before sending.
 
-To solve this, you can pass a default value inside your tag separated by the pipe like _{name|customer}_.
+## 4. Preview and send a test
 
-If your message is for example:
+Use the preview to check the message in every selected channel. Review:
 
-* *Dear **{name&#124;customer}**, we have a special offer...*
+- The first line and call to action.
+- Personalization and fallback values.
+- Tracked-link destinations.
+- Coupon text and validity.
+- WhatsApp attachments, buttons, footer, or location.
+- SMS length and the message-part estimate shown by the editor.
 
-For a recipient without a name, it will be sent as:
+Send a test to a phone number before continuing. An SMS test can be delivered directly. A WhatsApp test with new template content can remain scheduled until Meta approves that template.
 
-* *Dear **customer**, we have a special offer...*
+A test confirms presentation and delivery to the test number. It does not prove that every customer profile in the final audience is eligible.
 
-### Add coupons
+## 5. Choose when it will be sent
 
-You can reference coupons already created. Referencing coupons instead of manually writing them gives you powerful reporting and better insights and understanding of the impact they had on your campaign results.
+Choose one of these options:
 
-### Choose channel and sender
+- **Send now:** starts the approval and delivery process immediately.
+- **Send later:** selects a future date and time.
 
-Choose the channel and sender that match the audience and campaign goal.
+Hellotext applies the communication windows required for the destination country and the business's night-hour settings. If the selected time is not allowed, the interface can require another time or move delivery to the next allowed window.
 
-For SMS campaigns, make sure your account has an active sender or short code available before launching.
+Use **Save & Close** at any step when you want to keep the campaign as a draft and finish it later.
 
-For WhatsApp campaigns, make sure your WhatsApp account is connected and ready before sending.
+## 6. Review and confirm
 
-Keep reading: **[Messaging channels overview]({% link _numbers/messaging-overview.md %})**.
+Before selecting **Send**, verify:
 
-## Schedule and deliver 
+- The estimated number of targeted customers.
+- Included and excluded audiences.
+- Delivery channels and sender.
+- Message preview for every channel.
+- Tracked links, tags, coupon, and WhatsApp content.
+- Delivery date and time.
+- Estimated Meta cost when WhatsApp applies.
 
-You can send your campaign right away or schedule it to send in the future on a particular day and time.
+The confirmation screen is the last opportunity to catch a wrong audience or message before the campaign enters approval and delivery.
 
-### Editorial review
+## Understand campaign review
 
-Please keep in mind that if your campaign targets more than 100 recipients it will be subject to a quick editorial review before it is delivered.
+Campaigns targeting at least 100 customers require editorial review. A WhatsApp campaign can also wait for Meta when its template has not already been approved.
 
-During business hours this is fairly quick and usually takes less than 10 minutes.
+While review is pending, the campaign appears **In review** or **WhatsApp in review**. Once approved, it follows the selected delivery time. If a reviewer or Meta rejects the content, open the campaign, review the feedback, make the requested changes, and submit it again.
 
-Once a campaign is approved, it will continue its course to delivery. You do not need to do anything on your part during the approval process unless there is a request to adjust the campaign, in which case after a new change is made it will be marked for review again.
+Approval time can vary, especially when Meta must review new WhatsApp content. Leave enough time before a scheduled promotion or event.
+
+## After sending
+
+Use the Campaigns tabs to follow the campaign:
+
+- **Draft:** saved but not submitted.
+- **Scheduled:** submitted, in review, approved for a future time, or preparing to send.
+- **Delivered:** delivery has started and results are available.
+- **Archived:** completed campaigns moved out of the active Delivered list.
+
+Replies from customers continue into the Inbox through the corresponding channel. Campaign reports are generated automatically after delivery so you can review delivered messages, engagement, conversion, ROI, and attributed revenue.
+
+Keep reading: [Campaign reporting]({% link _analytics-reporting-attribution/campaign-reporting.md %}).
+
+## Preflight checklist
+
+Before the final send, confirm that:
+
+- The goal requires a one-time campaign rather than a playbook or route.
+- The audience is focused and has channel-specific consent.
+- Exclusions remove internal, test, invalid, or inappropriate customer profiles.
+- The sender and fallback behavior are correct.
+- The message has one clear next action.
+- Links, tags, coupons, media, and buttons work in a test.
+- The send time leaves room for editorial or Meta review.
+- Someone will monitor replies, delivery issues, and results after launch.
+
+## Related guides
+
+- [Campaigns overview]({% link _campaigns/campaigns-overview.md %})
+- [Campaign best practices]({% link _campaigns/campaign-best-practices.md %})
+- [Who can I message?]({% link _audience/consent-and-subscriber-status.md %})
+- [Messaging channels overview]({% link _numbers/messaging-overview.md %})
+- [Message editor overview]({% link _numbers/message-editor-overview.md %})
+- [Campaign reporting]({% link _analytics-reporting-attribution/campaign-reporting.md %})
+- [How Hellotext works]({% link _getting-started/how-hellotext-works.md %})

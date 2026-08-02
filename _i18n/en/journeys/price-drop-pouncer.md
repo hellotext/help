@@ -36,7 +36,7 @@ It is a good fit when:
 - Product links, images, prices, sellability, and availability are accurate.
 - You want an automatic price alert, not a broad sale campaign.
 
-Use a campaign or broadcast when you want to announce a sale, promotion, or price change to a selected audience, even if those customers did not show interest in the specific product.
+Use a campaign when you want to announce a sale, promotion, or price change to a selected audience, even if those customers did not show interest in the specific product.
 
 Use [Back-in-Stock Pounce]({% link _journeys/back-in-stock-pounce.md %}) when the key change is availability, not price. Use [Browse Recovery]({% link _journeys/browse-recovery-playbook.md %}) when the shopper viewed an available product but no price drop happened. Use [AI Cart Saver]({% link _journeys/ai-cart-saver-playbook.md %}) or [Cart Saver route]({% link _journeys/cart-saver-route.md %}) when the strongest signal is an abandoned cart or checkout. Use [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}) when the customer needs help finding a better product or alternative.
 
@@ -121,7 +121,7 @@ Use the customer moment to decide the owner.
 | Shopper viewed an available product but no price drop happened | [Browse Recovery]({% link _journeys/browse-recovery-playbook.md %}) |
 | Shopper added products to cart or checkout and left | [AI Cart Saver]({% link _journeys/ai-cart-saver-playbook.md %}) or [Cart Saver route]({% link _journeys/cart-saver-route.md %}) |
 | Shopper needs a recommendation or alternative | [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}) |
-| Business wants to announce a sale to a selected audience once | Campaign or broadcast |
+| Business wants to announce a sale to a selected audience once | Campaign |
 
 Price-Drop Pouncer can run alongside browse, cart recovery, recommendations, and back-in-stock alerts when ownership is clear. Price-Drop Pouncer owns the moment when the new price is the reason to re-engage.
 
@@ -201,5 +201,5 @@ Tune one thing at a time: channel, tone, assignment, product data, catalog sync,
 - [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Cart Saver route]({% link _journeys/cart-saver-route.md %})
 - [Smart Recommender playbook]({% link _journeys/smart-recommender-playbook.md %})
-- [Campaigns and broadcasts overview]({% link _campaigns/campaigns-overview.md %})
+- [Campaigns overview]({% link _campaigns/campaigns-overview.md %})
 - [Playbook reporting]({% link _analytics-reporting-attribution/playbook-reporting.md %})

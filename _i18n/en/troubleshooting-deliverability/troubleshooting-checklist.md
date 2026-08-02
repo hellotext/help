@@ -27,7 +27,7 @@ Keep reading:
 
 ## 3. Review audience and message setup
 
-If a campaign or broadcast reached fewer people than expected, review the selected audience, segment rules, channel eligibility, timing, and message content.
+If a campaign reached fewer people than expected, review the selected audience, segment rules, channel eligibility, timing, and message content.
 
 For automations, confirm which playbook or route should have run and whether the customer matched the trigger conditions.
 

@@ -27,7 +27,7 @@ Sigue leyendo:
 
 ## 3. Revisa audiencia y configuración del mensaje
 
-Si una campaña o broadcast llegó a menos personas de lo esperado, revisa la audiencia seleccionada, reglas de segmento, elegibilidad por canal, timing y contenido del mensaje.
+Si una campaña llegó a menos personas de lo esperado, revisa la audiencia seleccionada, reglas de segmento, elegibilidad por canal, timing y contenido del mensaje.
 
 Para automatizaciones, confirma qué playbook o ruta debería haber corrido y si el cliente coincidía con las condiciones del disparador.
 

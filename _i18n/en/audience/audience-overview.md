@@ -36,7 +36,7 @@ Keep reading: [Lists vs. segments]({% link _audience/lists-and-segments.md %}).
 
 Audience data can help you:
 
-- Target campaigns and broadcasts.
+- Target campaigns.
 - Personalize messages with profile properties.
 - Trigger playbooks or branch routes.
 - Understand purchase behavior and product interest.

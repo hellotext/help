@@ -99,7 +99,7 @@ Usa el tipo de momento para decidir qué playbook debería actuar.
 | El cliente empieza a enfriarse | [Reactivación Suave]({% link _journeys/soft-reactivation-playbook.md %}) |
 | El cliente lleva alrededor de 3 meses sin actividad | [Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %}) |
 | El cliente lleva alrededor de 12 meses sin actividad o sin reactivarse | [Último Intento]({% link _journeys/sunset-saver-playbook.md %}) |
-| Quieres hacer un anuncio con fecha comercial | [Campañas y broadcasts]({% link _campaigns/campaigns-overview.md %}) |
+| Quieres hacer un anuncio con fecha comercial | [Campañas]({% link _campaigns/campaigns-overview.md %}) |
 
 Celebra su Cumpleaños puede convivir con otros playbooks porque su señal es una fecha del perfil. Aun así, evita que el cliente reciba varios mensajes promocionales en el mismo momento si otro playbook activo encaja mejor.
 

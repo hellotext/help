@@ -99,7 +99,7 @@ Use the type of moment to decide which playbook should act.
 | Customer is starting to go quiet | [Soft Reactivation]({% link _journeys/soft-reactivation-playbook.md %}) |
 | Customer has been inactive for around 3 months | [Dormant Revival]({% link _journeys/dormant-revival-playbook.md %}) |
 | Customer has been inactive or not reactivated for around 12 months | [Sunset Saver]({% link _journeys/sunset-saver-playbook.md %}) |
-| You want to send a commercial date announcement | [Campaigns and broadcasts]({% link _campaigns/campaigns-overview.md %}) |
+| You want to send a commercial date announcement | [Campaigns]({% link _campaigns/campaigns-overview.md %}) |
 
 Birthday Bash can coexist with other playbooks because its signal is a profile date. Still, avoid sending several promotional messages to the same customer at the same moment if another active playbook is a better fit.
 
