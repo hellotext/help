@@ -3,10 +3,10 @@ languages: ["en", "es"]
 
 en:
   title: Import customer profiles
-  description: Prepare, map, and review imported customer profile data before using it in audiences, campaigns, or playbooks.
+  description: Import customer profiles from an integration or file, map their data, and review the result before using it.
 es:
   title: Importa perfiles de cliente
-  description: Prepara, mapea y revisa datos importados de perfiles de cliente antes de usarlos en audiencias, campañas o playbooks.
+  description: Importa perfiles de cliente desde una integración o archivo, mapea sus datos y revisa el resultado antes de usarlos.
 
 permalink: import-customer-profiles
 permalink_es: importa-perfiles-de-cliente

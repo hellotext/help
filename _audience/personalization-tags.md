@@ -3,10 +3,10 @@ languages: ["en", "es"]
 
 en:
   title: Personalization tags
-  description: Learn how to use tags to write dynamic content for each customer profile.
+  description: Insert customer and contextual data into messages, add safe fallback values, and test personalization before sending.
 es:
   title: Etiquetas de personalización
-  description: Aprende cómo usar etiquetas para escribir contenido dinámico para cada perfil de cliente.
+  description: Inserta datos del cliente y del contexto en mensajes, agrega valores alternativos y prueba la personalización antes de enviar.
 
 permalink: personalization-tags
 permalink_es: etiquetas-personalizacion

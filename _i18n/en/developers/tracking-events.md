@@ -58,7 +58,7 @@ For example:
 
 ### Custom actions
 
-It is possible to create your own defined actions directly using the API. For example:
+You can create custom actions from **Settings → Actions → Custom** or through the API. For example:
 
 * `signup_form.completed`
 * `physical_store.paid`
@@ -79,6 +79,8 @@ It is created when you track an action from a customer and becomes part of the s
 * Using one of the integrations like Mercado Libre. 
 * Using Javascript.
 * Using the API.
+
+You can also use **New Event** on a customer profile to record one occurrence manually. This does not configure automatic tracking for future occurrences.
 
 ## Tracking with Integrations
 

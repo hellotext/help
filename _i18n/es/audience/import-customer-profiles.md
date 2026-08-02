@@ -1,119 +1,95 @@
-Importa perfiles de cliente cuando necesitas llevar datos existentes de clientes a Hellotext antes de lanzar audiencias, campañas, playbooks, rutas o flujos del Inbox.
+Importa perfiles de cliente cuando necesitas llevar datos existentes a Hellotext antes de usarlos en audiencias, campañas, playbooks, rutas o flujos del Inbox.
 
-Los datos importados pueden hacer que Hellotext sea útil más rápido, pero también necesitan revisión. Un archivo o integración puede crear perfiles, actualizar propiedades del perfil, organizar clientes en listas y marcar perfiles como suscritos cuando confirmas que tienen consentimiento.
+Una importación puede crear perfiles de cliente, actualizar sus propiedades y agregarlos a listas. Los pasos dependen de si los datos vienen de una integración o de un archivo.
 
 Esta es una guía de producto para operar Hellotext. No reemplaza una revisión legal o de cumplimiento para los países y canales que usas.
 
-## Elige el camino correcto
+## Elige una integración o un archivo
 
-Usa una **importación desde un servicio** cuando los datos de tus clientes ya viven en una integración de comercio o servicio compatible, como Shopify, Wix, WooCommerce, VTEX o Mercado Libre.
+Usa una **integración** cuando los datos de tus clientes ya viven en una plataforma de eCommerce o servicio compatible y deben continuar sincronizándose con Hellotext.
 
-Usa una **importación desde archivo** cuando tienes datos de clientes en una planilla, exportación de CRM u otra fuente que puedas guardar como CSV o TXT.
+Usa un **archivo** para una migración, limpieza puntual o exportación de CRM guardada como CSV o TXT.
 
-Si la fuente de datos sigue conectada y debería actualizarse con el tiempo, prefiere una integración. Si la importación es una migración o limpieza puntual, un archivo puede ser suficiente.
+Los dos caminos funcionan de manera diferente:
 
-## Prepara el archivo
+| Integración | Archivo |
+| --- | --- |
+| La integración define cómo se mapean los campos de origen en Hellotext. | Tú mapeas cada columna del archivo a una propiedad del perfil de cliente. |
+| El estado de suscripción viene de la fuente conectada cuando esta lo admite. | Tú eliges si los perfiles importados están suscritos o no confirmados. |
+| Puede continuar sincronizando datos después de la importación inicial. | Importa una copia puntual del archivo. |
+| Algunas integraciones también pueden importar el historial de pedidos. | Una importación por archivo no importa el historial de pedidos. |
 
-Para importaciones desde archivo:
+## Inicia una importación
 
-- Usa un archivo CSV o TXT.
-- Mantén un perfil de cliente por fila.
-- Usa la primera fila como encabezados claros, por ejemplo `first_name`, `last_name`, `phone`, `email`, `birthday`, `city`, `loyalty_tier` o `consent_source`.
-- Incluye al menos un identificador confiable cuando sea posible, como teléfono o email.
-- Usa formatos consistentes para fechas, teléfonos, dinero y valores booleanos.
-- Quita filas de prueba, internas, inválidas, dadas de baja o duplicadas antes de importar cuando puedas.
-- Guarda la fuente de consentimiento, fuente de importación o fecha de importación como propiedades del perfil si tu equipo necesitará ese contexto después.
+1. Ve a **Audiencia**.
+2. Abre el menú para agregar y elige **Importar clientes**.
+3. Elige un servicio conectado o sube un archivo.
 
-Si el archivo mezcla clientes que dieron consentimiento con clientes cuyo consentimiento es desconocido, separa el archivo antes de importar. Es más seguro importar perfiles inciertos como no confirmados que marcar todo el archivo como suscrito.
+Si eliges un servicio, Hellotext te lleva por la configuración de esa integración. Según la integración, puede preguntarte si quieres importar clientes y a qué listas agregarlos. El mapeo y el consentimiento pueden resolverse automáticamente desde la fuente.
 
-## Sube el archivo
+Si eliges un archivo, continúa con los pasos siguientes.
 
-Desde **Audiencia**, inicia una importación de clientes y elige si quieres importar desde un servicio conectado o subir un archivo.
+## Prepara y sube un archivo
 
-Cuando subes un archivo, Hellotext acepta archivos CSV y TXT. Si la primera fila contiene nombres de columnas, deja activa la opción de usar la primera fila como encabezados para que el mapeo sea más claro.
+Antes de subirlo:
 
-Si Hellotext no puede leer el archivo, revisa:
+- Usa un archivo CSV o TXT con un cliente por fila.
+- Incluye al menos un identificador confiable, como teléfono o email.
+- Usa la primera fila para nombres claros de columnas.
+- Mantén fechas, teléfonos, monedas y otros valores en un formato consistente.
+- Quita filas de prueba, internas, inválidas o duplicadas cuando sea posible.
+- Separa los perfiles con consentimiento de marketing confirmado de aquellos cuyo consentimiento es desconocido.
 
-- Tipo de archivo no compatible.
-- Archivo vacío.
-- Encabezados faltantes.
-- Problemas de codificación. Guardar el archivo como UTF-8 suele ayudar.
-- Problemas de formato, como comillas sin cerrar.
-- Tabulaciones en lugar de un archivo separado por comas o punto y coma.
-- Archivos más grandes que el límite de carga.
+Arrastra el archivo al área de carga o elígelo desde tu computadora. Deja activa la opción de encabezados cuando la primera fila contiene nombres de columnas. Hellotext detecta el separador del archivo antes de continuar.
 
 ## Mapea columnas a propiedades del perfil
 
-Después de subir el archivo, revisa cada columna y elige qué propiedad del perfil de cliente debería actualizar.
+Hellotext muestra cada columna del archivo para que elijas qué propiedad del perfil de cliente debe actualizar.
 
-Mapea solo las columnas que quieres que Hellotext importe. Las columnas sin mapear se omiten.
+- Mapea solo las columnas que quieres importar. Las columnas sin mapear se omiten.
+- Usa una propiedad existente o crea una propiedad personalizada cuando sea necesario.
+- Mapea cada propiedad del perfil una sola vez en la misma importación.
+- Para teléfonos, fechas o dinero, revisa la configuración de país, formato de fecha o moneda que aparece.
 
-Mapeos comunes incluyen:
+Si dos columnas representan la misma propiedad, elige la más confiable o combínalas en el archivo de origen antes de importar.
 
-- Nombre completo, nombre o apellido.
-- Teléfono.
-- Email.
-- Cumpleaños u otra fecha.
-- Empresa, ciudad, nivel de fidelidad, categoría preferida, idioma o cualquier propiedad personalizada que uses para segmentación y personalización.
-- Tags o etiquetas si tu cuenta las usa como propiedades del perfil.
+## Elige el estado de suscripción
 
-Cada propiedad del perfil solo puede mapearse una vez en la misma importación. Si dos columnas apuntan a la misma propiedad, elige la columna más limpia o combina los datos antes de importar.
+En una importación por archivo, Hellotext pregunta si los clientes dieron consentimiento para promociones de marketing.
 
-Para columnas de fecha, teléfono local o dinero, revisa el formato, país o moneda adicional antes de continuar.
+- Elige **Suscrito** solo cuando todos los perfiles de esa importación tienen consentimiento confirmado.
+- Elige **No confirmado** cuando Hellotext no tiene evidencia confiable del consentimiento.
 
-## Confirma consentimiento
+Si el archivo contiene ambos grupos, divídelo en importaciones separadas. No marques todo el archivo como suscrito solo porque contiene teléfonos o emails.
 
-Hellotext pregunta si los clientes importados dieron consentimiento para promociones de marketing.
-
-Elige **suscrito** solo cuando los perfiles importados tienen consentimiento claro para el canal que vas a usar. Si el archivo contiene consentimiento mezclado o incierto, importa esos perfiles como no confirmados o separa el archivo en importaciones distintas.
-
-Antes de enviar a perfiles importados, confirma:
-
-- A qué canal aplica el consentimiento.
-- De dónde viene el consentimiento.
-- Si los perfiles dados de baja fueron excluidos o mapeados correctamente.
-- Si el remitente, cuenta de WhatsApp o canal está listo.
-- Si el primer envío debería ir a una audiencia de prueba más pequeña.
+Esta elección corresponde a las importaciones por archivo. Una integración conectada puede obtener el estado de suscripción desde su propia fuente.
 
 Sigue leyendo: [A quién puedo escribirle: consentimiento y estado de suscripción]({% link _audience/consent-and-subscriber-status.md %}).
 
-## Organiza los perfiles importados
+## Elige listas y cómo tratar datos existentes
 
-Al final de la importación, puedes agregar los perfiles de cliente importados a una o más listas.
+Antes de iniciar la importación, puedes agregar los perfiles importados a una o más listas. Esto es útil para revisar el resultado o crear una audiencia fija según la fuente de importación.
 
-Usa una lista cuando quieres un grupo fijo para revisión, QA, una primera campaña o un playbook de seguimiento. Por ejemplo, crea una lista llamada `Import Shopify - junio 2026` o `Import VIP para revisar` para que tu equipo pueda encontrar esos perfiles después.
+También puedes elegir si el archivo debe sobrescribir los valores existentes de las propiedades:
 
-También puedes elegir si la importación debe actualizar propiedades existentes del perfil con los datos nuevos.
+- Deja la sobrescritura desactivada cuando el archivo pueda estar incompleto o sea más antiguo que los datos que ya existen en Hellotext.
+- Actívala cuando el archivo sea la fuente de verdad y sus valores mapeados deban reemplazar los existentes.
 
-- Déjalo desactivado cuando el archivo importado pueda estar incompleto o sea más viejo que los datos que ya existen en Hellotext.
-- Actívalo cuando el archivo importado sea la fuente de verdad y deba reemplazar valores existentes.
+La opción de sobrescritura también se aplica a los perfiles de cliente que Hellotext encuentre como existentes, por eso conviene revisarla con cuidado.
 
-## Después de iniciar la importación
+## Revisa el resultado
 
-Las importaciones corren en segundo plano. No necesitas dejar abierta la página de importación.
+Las importaciones corren en segundo plano. Puedes salir de la página mientras Hellotext deduplica y procesa las filas.
 
-Cuando termine la importación, revisa:
+Cuando termine, revisa:
 
-- Cuántos perfiles de cliente fueron importados.
-- Si alguna fila tuvo errores.
+- Cuántos perfiles fueron importados y cuántas filas tuvieron errores.
 - Si los perfiles quedaron en las listas esperadas.
-- Si teléfonos, emails, fechas y propiedades personalizadas se ven correctas.
-- Si los segmentos que dependen de las propiedades importadas se actualizaron como esperabas.
-- Si algunos perfiles de prueba pueden usarse de forma segura en una campaña, playbook o ruta.
+- Si identificadores, fechas, monedas y propiedades personalizadas se ven correctos.
+- Si el estado de suscripción coincide con la decisión de importación o la fuente conectada.
+- Si los segmentos que dependen de las propiedades importadas se actualizan como esperabas.
 
-Puede haber errores cuando un valor es inválido, falta, está duplicado o está asignado a otro perfil de cliente. Corrige el archivo fuente y vuelve a importar las filas corregidas si hace falta.
-
-## Usa perfiles importados con cuidado
-
-Antes de usar perfiles importados en un lanzamiento:
-
-- Abre algunos perfiles importados y confirma que los datos se ven correctos.
-- Revisa que el estado de suscripción coincida con tu decisión de consentimiento.
-- Crea una lista o segmento pequeño de prueba antes de enviar masivamente.
-- Prueba las etiquetas de personalización contra las propiedades importadas.
-- Confirma que el playbook, ruta, campaña o flujo del Inbox esperado usa los datos importados correctamente.
-
-Si estás importando solo para enriquecer perfiles, no envíes inmediatamente. Primero verifica que los datos importados mejoran segmentación, personalización, ruteo o reportes.
+Abre algunos perfiles antes de usar la audiencia importada. Si hubo filas con errores, corrige los datos de origen y vuelve a importar solo esos registros.
 
 ## Guías relacionadas
 
@@ -122,5 +98,4 @@ Si estás importando solo para enriquecer perfiles, no envíes inmediatamente. P
 - [Listas vs. segmentos]({% link _audience/lists-and-segments.md %})
 - [Crea y gestiona listas]({% link _audience/lists.md %})
 - [Crea segmentos]({% link _audience/segments.md %})
-- [Etiquetas de personalización]({% link _audience/personalization-tags.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})

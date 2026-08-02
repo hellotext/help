@@ -3,10 +3,10 @@ languages: ["en", "es"]
 
 en:
   title: Build segments
-  description: Take your audience segmentation to the next level using Segments.
+  description: Build dynamic audiences from profile characteristics and customer activity.
 es:
   title: Crea segmentos
-  description: Lleva la segmentación de tu audiencia al siguiente nivel usando Segmentos.
+  description: Crea audiencias dinámicas con características del perfil y actividad del cliente.
 
 permalink: segments
 permalink_es: segmentos

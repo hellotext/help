@@ -58,7 +58,7 @@ Por ejemplo:
 
 ### Acciones personalizadas
 
-Es posible crear tus propias acciones definidas directamente usando la API. Por ejemplo:
+Puedes crear acciones personalizadas desde **Ajustes → Acciones → Personalizado** o mediante la API. Por ejemplo:
 
 * `formulario_de_registro.completado`
 * `tienda_fisica.pago`
@@ -79,6 +79,8 @@ Se crea cuando rastreas una acción de un cliente y pasa a formar parte del hist
 * Usando una de las integraciones como Mercado Libre.
 * Utilizando la librería de Javascript.
 * Mediante la API.
+
+También puedes usar **Nuevo Evento** en un perfil de cliente para registrar una ocurrencia manualmente. Esto no configura el tracking automático de ocurrencias futuras.
 
 ## Seguimiento con integraciones
 

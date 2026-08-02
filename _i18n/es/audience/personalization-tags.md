@@ -1,88 +1,92 @@
-El editor de mensajes es el campo que usas al escribir un mensaje. Está presente en
-varios lugares de la plataforma, como campañas, rutas, playbooks e inbox.
+Las etiquetas de personalización insertan datos del cliente en un mensaje cuando Hellotext lo envía. Permiten que un mismo mensaje salude a cada cliente por su nombre o incluya otro valor disponible para ese cliente y contexto.
 
-Proporciona funciones integradas que te permiten enriquecer mensajes con contenido dinámico, imágenes y links.
+Estas etiquetas son variables que se usan dentro del contenido del mensaje. Son diferentes de los tags del perfil, las listas o los segmentos que organizan una audiencia.
 
-Las etiquetas son palabras reservadas que puedes usar para redactar un mensaje con contenido dinámico.
-El contenido dinámico te permite escribir mensajes únicos para cada perfil de cliente. Puede usarse para insertar el nombre del perfil de cliente,
-su edad, cumpleaños o cualquier otra propiedad que hayas definido para tu negocio.
+## Dónde puedes usarlas
 
-### La anatomía de una etiqueta
+El editor de mensajes aparece en campañas, rutas, playbooks, Inbox y otras partes de Hellotext. Cuando ese editor admite personalización, su barra de herramientas incluye el botón **Insertar etiquetas** con un icono de llaves.
 
-Mencionamos que las etiquetas son palabras clave reservadas en el editor. Las etiquetas son palabras reservadas escritas entre
-una llave de apertura y cierre. Por ejemplo, la etiqueta `{full_name}` se reemplazará con el
-nombre completo del perfil de cliente. Las etiquetas comunes incluyen `{name}`, `{birthday}`, `{first_name}`, `{last_name}` y `{phone}`.
-No estás limitado a este conjunto de etiquetas; también puedes apuntar a propiedades definidas por tu negocio.
+Abre el selector para ver las etiquetas disponibles en ese editor. Es más confiable que escribir una etiqueta de memoria porque las opciones pueden depender de las propiedades de tu negocio y del contexto del mensaje.
 
-De forma predeterminada, las propiedades se eliminan de la salida cuando el perfil de cliente no tiene el atributo.
-Por ejemplo, si apuntas a una propiedad `{company}` en tu mensaje y el perfil de cliente no tiene esa propiedad,
-la palabra `{company}` se eliminará del mensaje enviado a ese perfil de cliente. Si no quieres que la propiedad se elimine, usa un valor predeterminado.
+## Inserta una etiqueta
 
-Las etiquetas también pueden tener un valor predeterminado. Los valores predeterminados son útiles cuando quieres tener un fallback
-en caso de que el perfil de cliente no tenga el atributo al que apuntas.
-Puedes proporcionar un valor predeterminado para una etiqueta agregando una barra vertical `|` y el valor predeterminado antes de cerrar la etiqueta.
-Por ejemplo, la etiqueta `{company|amigo}` se reemplazará con la propiedad de empresa asignada al perfil de cliente. Si el
-perfil de cliente no tiene la propiedad, se utilizará el valor predeterminado de `amigo`.
+1. Coloca el cursor donde debe aparecer el valor personalizado.
+2. Selecciona **Insertar etiquetas** en el editor de mensajes.
+3. Elige el dato del cliente o propiedad que quieres insertar.
+4. Previsualiza o prueba el mensaje con perfiles que tengan y no tengan ese valor.
 
-Una etiqueta válida consta de lo siguiente
+Hellotext inserta la etiqueta entre llaves. Por ejemplo:
 
-- Una llave de apertura `{`.
-- Una palabra clave reservada ofrecida por Hellotext o un tipo de propiedad, es decir, "company".
-- Una llave de cierre `}`
-- Se pueden proporcionar valores opcionales mediante el uso de un operador de canalización `|` y el valor de reserva después de él.
+```text
+Hola {name}, elegimos algo para ti.
+```
 
-### Las etiquetas y propiedades
+Cuando el mensaje se prepara para una cliente llamada Ana, Hellotext reemplaza `{name}` por `Ana`.
 
-También puedes apuntar a propiedades personalizadas de tu negocio en las etiquetas.
-Puedes orientar las propiedades por su tipo, es decir, `text`, `url`, `date`, etc. O por su nombre, si el nombre está establecido.
+Algunas etiquetas comunes del cliente son:
 
-Una lista completa de tipos de propiedades
+- `{name}` para el nombre.
+- `{full_name}` para el nombre completo.
+- `{last_name}` para el apellido.
+- `{birthday}` para el cumpleaños.
+- `{phone}`, `{email}` o `{address}` para el valor correspondiente del perfil.
 
-- `age`
-- `birthday`
-- `company`
-- `gender`
-- `checkbox`
-- `date`
-- `text`
-- `number`
-- `url`
+El selector también puede incluir propiedades personalizadas compatibles configuradas para tu negocio.
 
-Para las propiedades `age`, `birthday`, `company` y `gender`, puedes segmentar por el tipo de propiedad, es decir, `company`, o por
-el nombre de la propiedad cuando haya establecido un nombre personalizado para la propiedad.
+## Agrega un valor alternativo
 
-Para las propiedades restantes, puedes segmentar por su tipo y su nombre personalizado cuando esté presente. La diferencia
-para estas propiedades es que cuando tienes múltiples propiedades del mismo tipo,
-apuntar con el tipo se vuelve ambiguo. Por ejemplo,
-si tu empresa tiene dos propiedades de `checkbox` llamadas `has-logged-In` y `active-in-last-month`,
-al orientar la propiedad por su tipo `{checkbox}`, usaremos automáticamente la primera propiedad de texto con respecto al orden definido en la página de audiencia.
+Si el perfil de cliente no contiene el dato solicitado, Hellotext elimina la etiqueta válida del mensaje entregado. Esto puede dejar un espacio extraño en la frase.
 
-**TL;DR** usa el tipo solo cuando hay una sola propiedad. Utiliza el nombre de la propiedad cuando haya varias propiedades del mismo tipo.
+Agrega un valor alternativo después de una barra vertical para que el mensaje siga siendo natural:
 
-### Etiquetas de objeto
+```text
+Hola {name|cliente}, elegimos algo para ti.
+```
 
-Hellotext incluye los tipos de objetos más comunes, adecuados para la mayoría de los sitios de comercio electrónico. Estos incluyen objetos como `app`, `product`, `cart`, `order`, `coupon`, `order` y `refund`. Además, también puedes crear tus propios objetos personalizados o modificar los existentes agregando propiedades adicionales específicas para las necesidades de tu negocio.
+Hellotext usa el nombre cuando está disponible y `cliente` cuando falta.
 
-De manera similar a las etiquetas de perfil de cliente, también puedes apuntar a las propiedades de los objetos en tus etiquetas. El formato general de una etiqueta de objeto puede ser uno de los siguientes:
+Elige un valor alternativo que funcione con la frase completa. Una palabra neutral como `{name|cliente}` suele ser más segura que asumir un nombre, tratamiento o atributo.
 
-1. `{singular_name.property_name}`
-2. `{singular_name.property_kind}`
-3. `{singular_name.property_id}`
+## Usa propiedades del perfil de cliente
 
-El Nombre Singular es el nombre del objeto autogenerado cuando creas un nuevo Objeto.
+El selector puede mostrar propiedades personalizadas disponibles para tu negocio. Una propiedad llamada `Nivel de fidelidad` puede insertarse así:
 
-Por ejemplo, dado un objeto personalizado llamado Appointment (Cita), que consta de dos propiedades: `Booked At` (Reservado en) y `Room` (Sala), puedes apuntar a los valores mediante:
+```text
+Tu nivel actual es {Nivel de fidelidad|sin asignar}.
+```
 
-- `{appointment.Booked At}`
-- `{appointment.Room}`
+Usa el nombre de propiedad que muestra el selector. Cuando varias propiedades personalizadas comparten el mismo tipo, darles nombres claros evita ambigüedades y permite identificar la etiqueta correcta.
 
-Cuando Hellotext detecta estas etiquetas, obtiene el valor asociado del objeto y reemplaza la etiqueta con el valor encontrado.
+Los nombres de propiedades no pueden comenzar con un número ni contener llaves. Si cambias el nombre de una propiedad usada en mensajes existentes, revisa esos mensajes antes de volver a enviarlos.
 
+## Usa etiquetas contextuales solo donde estén disponibles
 
-### Reglas de Nomenclatura {#rules}
+Algunos playbooks, rutas y automatizaciones pueden aportar datos de un producto, carrito, pedido, formulario, reembolso u otro objeto del negocio. Sus etiquetas usan un formato de objeto y propiedad, por ejemplo:
 
-Por defecto, Hellotext genera nombres de propiedades basados en el tipo de propiedad. Sin embargo, eres libre de modificar el nombre a algo que tenga sentido para tu negocio.
-Al nombrar propiedades, debes seguir estas reglas:
+```text
+{product.url}
+```
 
-- Las propiedades no pueden comenzar con un número. Por ejemplo, `1 Nombre` no es un nombre de propiedad válido.
-- Las propiedades no pueden contener llaves. Por ejemplo, `{nombre}` no es un nombre de propiedad válido.
+Las etiquetas contextuales solo se resuelven cuando el flujo del mensaje tiene el objeto y valor correspondientes. Una etiqueta de producto que funciona dentro de un playbook basado en productos puede no funcionar en una campaña que no tiene un producto seleccionado.
+
+Usa las etiquetas que ofrece el editor para ese flujo. Si reutilizas el contenido del mensaje en otro lugar, revisa nuevamente el selector y prueba los valores contextuales.
+
+## Previsualiza y prueba antes de enviar
+
+Antes de lanzar un mensaje con personalización:
+
+- Prueba perfiles con datos completos e incompletos.
+- Confirma que cada valor opcional tenga una alternativa natural.
+- Revisa espacios y puntuación alrededor de las etiquetas.
+- Verifica que las etiquetas contextuales tengan el producto, carrito, pedido u objeto que necesitan.
+- Revisa los links después del reemplazo, especialmente los de checkout o producto.
+- Haz una prueba pequeña antes de usar una audiencia grande.
+
+Si una etiqueta queda visible en la vista previa o mensaje entregado, revisa que aparezca en el selector de ese editor, que sus llaves estén completas y que el contexto necesario esté disponible.
+
+## Guías relacionadas
+
+- [Cómo funcionan los perfiles de clientes]({% link _audience/customer-profiles.md %})
+- [Resumen del editor de mensajes]({% link _numbers/message-editor-overview.md %})
+- [Crea una campaña]({% link _campaigns/creating-a-campaign.md %})
+- [Checklist antes de enviar]({% link _getting-started/go-live-checklist.md %})
