@@ -21,7 +21,7 @@ La mensajería tiene tres conceptos diferentes:
 
 - [Política de fair use para mensajes]({% link _billing/fair-use-message-policy.md %}) explica cuándo el volumen elegible de mensajes que no son SMS se convierte en el monto de Hellotext.
 - [Precios de SMS y tipos de remitente]({% link _billing/sms-pricing-and-number-types.md %}) explica tarifas por país, cantidades incluidas y opciones de remitente.
-- [Tarifas de Meta para WhatsApp]({% link _billing/whatsapp-fees.md %}) explica los costos separados definidos por Meta.
+- [Tarifas de Meta para WhatsApp]({% link _billing/whatsapp-fees.md %}) explica los costos separados que se pagan directamente a Meta, no a Hellotext.
 
 ## Revisa consumos y facturas
 

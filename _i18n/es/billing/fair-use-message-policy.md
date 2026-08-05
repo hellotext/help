@@ -4,7 +4,7 @@ Hellotext incluye los mensajes que no son SMS mediante un modelo de fair use. Se
 
 La tarifa variable publicada cubre mensajes enviados por canales compatibles que no son SMS, como WhatsApp, Webchat, Mensajes Directos de Instagram, Facebook Messenger y Mercado Libre.
 
-Los SMS usan precios propios según el país y el plan. Las tarifas de Meta para WhatsApp también se cobran por separado.
+Los SMS usan precios propios según el país y el plan. Las tarifas de Meta para WhatsApp se pagan directamente a Meta, no a Hellotext.
 
 ## Cómo se calcula el monto variable
 
@@ -33,7 +33,7 @@ El cargo de Hellotext es US$100 porque el monto variable por mensajes es el mayo
 
 ## Qué no incluye
 
-La comparación de fair use no elimina los impuestos aplicables ni las tarifas separadas de Meta para WhatsApp. Los servicios empresariales personalizados también pueden seguir su propio acuerdo.
+La comparación de fair use no elimina los impuestos aplicables ni las tarifas separadas de Meta para WhatsApp. Meta cobra y recauda esas tarifas directamente; no forman parte de la factura de Hellotext. Los servicios empresariales personalizados también pueden seguir su propio acuerdo.
 
 ## Guías relacionadas
 

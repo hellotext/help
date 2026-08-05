@@ -31,7 +31,7 @@ Este ejemplo solo explica la comparación. Tu plan, país, moneda, impuestos, co
 La regla de pagar solo el mayor aplica a los montos de Hellotext anteriores. Otros cargos pueden cobrarse por separado:
 
 - Los **impuestos aplicables** dependen del país y de tus datos de facturación.
-- Las **tarifas de Meta para WhatsApp** son definidas por Meta y no forman parte de la comparación de Hellotext.
+- Las **tarifas de Meta para WhatsApp** son definidas y cobradas directamente por Meta. Se pagan a Meta, no a Hellotext, y no aparecen en la factura de Hellotext.
 - Otros servicios incluidos en un acuerdo personalizado o empresarial siguen las condiciones de ese acuerdo.
 
 ## Cómo afectan los ingresos atribuidos

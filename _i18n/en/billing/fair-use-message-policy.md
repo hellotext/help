@@ -4,7 +4,7 @@ Hellotext includes non-SMS messaging under a fair-use model. A variable messagin
 
 The published variable rate covers messages sent through supported non-SMS channels such as WhatsApp, Webchat, Instagram Direct, Facebook Messenger, and Mercado Libre.
 
-SMS uses its own country and plan pricing. Meta fees for WhatsApp are also separate.
+SMS uses its own country and plan pricing. Meta fees for WhatsApp are paid directly to Meta, not Hellotext.
 
 ## How the variable amount is calculated
 
@@ -33,7 +33,7 @@ The Hellotext charge is US$100 because the variable messaging amount is the high
 
 ## What this does not include
 
-The fair-use comparison does not remove applicable taxes or Meta's separate WhatsApp fees. Custom enterprise services can also follow their own agreement.
+The fair-use comparison does not remove applicable taxes or Meta's separate WhatsApp fees. Meta charges and collects those fees directly; they are not part of the Hellotext invoice. Custom enterprise services can also follow their own agreement.
 
 ## Related guides
 

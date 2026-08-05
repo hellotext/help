@@ -21,7 +21,7 @@ Messaging has three distinct concepts:
 
 - [Fair-use message policy]({% link _billing/fair-use-message-policy.md %}) explains when eligible non-SMS message volume becomes the Hellotext amount.
 - [SMS pricing and sender types]({% link _billing/sms-pricing-and-number-types.md %}) explains country rates, plan allowances, and sender options.
-- [Meta fees for WhatsApp]({% link _billing/whatsapp-fees.md %}) explains the separate costs defined by Meta.
+- [Meta fees for WhatsApp]({% link _billing/whatsapp-fees.md %}) explains the separate costs paid directly to Meta rather than Hellotext.
 
 ## Review usage and invoices
 
