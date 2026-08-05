@@ -31,7 +31,7 @@ This example only explains the comparison. Your plan, country, currency, taxes, 
 The highest-only rule applies to the Hellotext amounts listed above. Other charges can still be separate:
 
 - **Applicable taxes** depend on your billing country and information.
-- **Meta fees for WhatsApp** are set by Meta and are separate from the Hellotext comparison.
+- **Meta fees for WhatsApp** are set and collected directly by Meta. They are paid to Meta, not Hellotext, and do not appear on the Hellotext invoice.
 - Other services covered by a custom or enterprise agreement follow that agreement.
 
 ## How attributed revenue affects billing

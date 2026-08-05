@@ -9,7 +9,7 @@ Check these items separately:
 3. Check whether attributed revenue increased after eligible purchases were recorded.
 4. Review SMS usage for the correct destination country and allowance.
 5. Confirm the non-SMS message volume used by the fair-use calculation.
-6. Review applicable taxes and separate Meta fees.
+6. Review applicable taxes and WhatsApp fees paid directly to Meta rather than Hellotext.
 
 Do not add the four Hellotext comparison amounts. Only the highest becomes the Hellotext amount for the period.
 

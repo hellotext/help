@@ -9,7 +9,7 @@ Revisa estos elementos por separado:
 3. Comprueba si los ingresos atribuidos aumentaron después de registrar compras elegibles.
 4. Revisa el uso de SMS para el país de destino y la cantidad incluida correctos.
 5. Confirma el volumen de mensajes que no son SMS usado por el cálculo de fair use.
-6. Revisa los impuestos aplicables y las tarifas separadas de Meta.
+6. Revisa los impuestos aplicables y las tarifas de WhatsApp que se pagan directamente a Meta, no a Hellotext.
 
 No sumes los cuatro montos comparados por Hellotext. Solo el mayor se convierte en el monto de Hellotext para el período.
 
