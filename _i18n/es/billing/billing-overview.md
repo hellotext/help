@@ -1,46 +1,42 @@
-Usa esta sección para entender cómo funcionan en conjunto los planes, consumos, ingresos atribuidos y reglas de facturación de Hellotext.
-
-La mayoría de las dudas de facturación empiezan con una de estas preguntas:
-
-- ¿Qué incluye mi plan?
-- ¿Qué consumo cuenta para mi factura mensual?
-- ¿Por qué se atribuyó una venta a Hellotext?
+Usa esta sección para entender qué cobra Hellotext, por qué aparece un monto determinado y dónde administrar la facturación de tu negocio.
 
 ## Empieza por el modelo de precios
 
-Hellotext usa un modelo de precios basado en resultados. Según tu plan y uso, el cargo mensual de Hellotext se basa en el concepto de facturación más alto del período.
+Hellotext compara el piso del plan, la tarifa por rendimiento, los costos de SMS y el monto variable por mensajes que no son SMS. Solo el mayor de esos cuatro se convierte en el monto de Hellotext para el período.
 
-Sigue leyendo: [Modelo de precios]({% link _billing/how-pricing-works.md %}).
+Lee [Modelo de precios]({% link _billing/how-pricing-works.md %}) antes de intentar sumar consumos individuales.
 
-Para precios actuales de planes y tablas de tarifas SMS, revisa siempre la página pública de [precios de Hellotext](https://www.hellotext.com/precios).
+Los precios actuales, funcionalidades incluidas, tarifas y cantidades de SMS por país están en la página pública de [precios de Hellotext](https://www.hellotext.com/precios).
 
-## Revisa uso y consumos del plan
+## Entiende los ingresos atribuidos
 
-Tu plan determina qué está incluido, qué uso se mide y cómo se calcula la actividad mensual.
+La tarifa por rendimiento usa ingresos atribuidos a Hellotext, no todos los ingresos de la tienda.
 
-Usa la guía de consumos del plan cuando necesites entender mínimos del plan, tarifas por performance, costos SMS, tarifas variables por mensajes y cómo aparecen en tus facturas.
+- [Cálculo de la tarifa por rendimiento]({% link _billing/performance-fee-calculation.md %}) explica el cálculo de facturación.
+- [Cómo atribuimos ventas]({% link _analytics-reporting-attribution/sales-attribution.md %}) explica qué pedidos y evidencias son elegibles.
 
-Sigue leyendo: [Uso y consumos del plan]({% link _billing/understanding-plan-quotas.md %}).
+## Entiende los costos de mensajería
 
-## Entiende la atribución
+La mensajería tiene tres conceptos diferentes:
 
-Los ingresos atribuidos importan porque pueden afectar la facturación basada en resultados y los reportes.
+- [Política de fair use para mensajes]({% link _billing/fair-use-message-policy.md %}) explica cuándo el volumen elegible de mensajes que no son SMS se convierte en el monto de Hellotext.
+- [Precios de SMS y tipos de remitente]({% link _billing/sms-pricing-and-number-types.md %}) explica tarifas por país, cantidades incluidas y opciones de remitente.
+- [Tarifas de Meta para WhatsApp]({% link _billing/whatsapp-fees.md %}) explica los costos separados definidos por Meta.
 
-Usa la guía de atribución cuando necesites entender precedencia de fuentes, evidencia elegible, ventanas de atribución, participación del equipo, cambios de pedidos compatibles y por qué una venta fue o no atribuida a Hellotext.
+## Revisa consumos y facturas
 
-Sigue leyendo: [Atribución de ventas]({% link _analytics-reporting-attribution/sales-attribution.md %}).
+Abre **Configuración → Facturación** para ver tu plan actual, consumos por período, saldo, historial de pagos, métodos de pago, datos de facturación y facturas disponibles.
 
-## Límites SMS para negocios nuevos
+- [Uso del plan y cargos mensuales]({% link _billing/understanding-plan-quotas.md %}) te ayuda a interpretar un período seleccionado.
+- [Facturación, métodos de pago y facturas]({% link _billing/billing-settings-and-invoices.md %}) explica cada control de facturación.
 
-Algunos negocios prepago nuevos comienzan con un límite temporal de envío SMS mientras Hellotext revisa la calidad de los envíos.
+## Cambia el plan o resuelve un problema
 
-Usa la guía de límites SMS cuando los mensajes SMS estén bloqueados por un límite diario temporal, o cuando necesites entender cómo funciona el período de revisión.
-
-Sigue leyendo: [Límites de envío SMS para negocios nuevos]({% link _troubleshooting-deliverability/sms-sending-limits-for-new-businesses.md %}).
+- [Cambiar o cancelar tu plan]({% link _billing/change-or-cancel-your-plan.md %}) explica cambios a planes superiores, cambios programados a planes inferiores y cancelaciones.
+- [Solucionar dudas de facturación]({% link _billing/billing-troubleshooting.md %}) incluye una lista para conciliar montos y los datos que debes enviar a soporte.
 
 ## Guías relacionadas
 
+- [Guía del reporte de ingresos]({% link _analytics-reporting-attribution/revenue-report-guide.md %})
 - [Resumen de canales de mensajería]({% link _numbers/messaging-overview.md %})
-- [Reportes de campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %})
-- [Resumen de audiencia y segmentación]({% link _audience/audience-overview.md %})
-- [Resumen de configuración e integraciones]({% link _integrations/setup-overview.md %})
+- [Límites de envío SMS para negocios nuevos]({% link _troubleshooting-deliverability/sms-sending-limits-for-new-businesses.md %})

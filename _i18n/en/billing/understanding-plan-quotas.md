@@ -1,100 +1,54 @@
-* **[What we measure each month](#what-we-measure-each-month)**
-* **[Billing components](#billing-components)**
-* **[Billing formula](#billing-formula)**
-* **[Calculation examples](#calculation-examples)**
-* **[How to read your invoice](#how-to-read-your-invoice)**
-* **[Frequently asked questions](#frequently-asked-questions)**
+Use the Billing usage summary to understand what happened in a billing period before reconciling an invoice.
 
-## What we measure each month
+## Open the usage summary
 
-We apply a single rule: you pay only the highest amount among these four items for the month (they are not added together):
+1. Open **Settings → Billing**.
+2. Find the card for your current plan.
+3. In **Usage summary**, select the billing period you want to review.
 
-1. **Plan minimum**
-2. **Performance fee** (**2–5%**) on attributed revenue
-3. **SMS costs** (depending on country/plan)
-4. **Variable messaging fee** (**US$ 2/1,000**) — only if it is higher than the other three
+The plan card shows the active plan and access to **Change plan**. The usage summary shows the billable activity recorded for the selected period.
 
-## Billing components
+## Read the comparison
 
-### 1) Performance fee (2–5%)
+Hellotext can calculate four monthly amounts:
 
-% applied to revenue attributed to Hellotext messages, campaigns, playbooks, routes, or eligible interactions. Plan breakpoints: **5%** (Starter), **4%** from **US$ 2,000** (Small), **3%** from **US$ 10,000** (Grow), **2.5%** from **US$ 30,000** (Pro), and **2%** from **US$ 100,000** (Enterprise).
+- plan minimum;
+- performance fee from attributed revenue;
+- SMS costs; and
+- variable non-SMS messaging amount.
 
-> **Attribution:** Hellotext evaluates eligible source evidence and source precedence. The default windows are 24 hours for eligible delivery or other passive evidence, and seven days from an eligible click or engagement. Account configuration can differ. See [How we attribute sales]({% link _analytics-reporting-attribution/sales-attribution.md %}).
+The Hellotext charge uses only the highest amount. Use the summary to identify which component is leading for the selected period.
 
-### 2) Multichannel AI messages (fair‑use)
+Read [Pricing model]({% link _billing/how-pricing-works.md %}) for the complete rule.
 
-Included at no extra cost when **plan minimum**, **performance %**, or **SMS** are higher than the variable fee. If all are lower, US$ 2 per 1,000 messages applies. Never both: we bill the highest.
+## Compare the correct period
 
-### 3) SMS by country
+Choose the same month when comparing Billing with a report or invoice. Keep these differences in mind:
 
-Per‑message costs in local currency; they follow the “pay only the highest” rule. See the table in [Pricing explanation](https://www.hellotext.com/pricing#sms) for current values.
+- A recent period can still receive eligible attributed purchases before it is finalized.
+- Reports can organize metrics by trigger, send, interaction, or purchase date depending on the report.
+- Billing uses the applicable billing period and account currency.
 
-### 4) Plan minimum
+When attribution is the leading amount, use the revenue and source reports to investigate the underlying results rather than comparing unrelated date columns.
 
-Monthly minimum for the plan. If the other items are lower, you pay the minimum; if any one is higher, you pay that.
+## Review balance and payment history
 
-## Billing formula
+The Billing page also shows the business balance and a **Payment history** control. Select the relevant year and period to review recorded balance activity and charges.
 
-*Monthly Hellotext charge = max { Plan minimum, Performance fee,
-SMS costs, Variable fee (US$ 2/1,000) }*
+Balance activity and the monthly usage comparison answer different questions:
 
-<div class="note">
-<strong>Note:</strong> the variable fee only applies if it is the highest for the month; it is not added to any other item. 
-</div>
+- Usage explains how the monthly Hellotext amount was determined.
+- Payment history explains movements recorded against the business balance.
 
-## Calculation examples
+## Review older periods
 
-**Scenario 1: Month with strong performance (Starter)**
+The usage-period selector can include active and previous plan periods. When the business changed plans, confirm which plan was active in the month being reviewed.
 
-* Attributed revenue: **US$ 2,000** → 5% = **US$ 100**
-* Multichannel messages: **10,000** → **US$ 20** (variable)
-* SMS: **US$ 0**
-* Floor: **US$ 0**
-  **You pay Hellotext:** **US$ 100** (highest). **WhatsApp (Meta):** billed separately.
+Use the invoice for the finalized billed amount and the usage summary for its operational context.
 
-**Scenario 2: Low performance and high volume month (Small)**
+## Related guides
 
-* Performance %: **US$ 30**
-* Multichannel messages: **50,000** → **US$ 100** (variable)
-* SMS: **US$ 0**
-* Small floor: **US$ 74**
-  **You pay Hellotext:** **US$ 100** (the variable is the highest).
-
-**Scenario 3: SMS dominates**
-
-* Performance %: **US$ 60**
-* Multichannel messages: **40,000** → **US$ 80** (variable)
-* **SMS: US$ 150**
-* Small floor: **US$ 74**
-  **You pay Hellotext:** **US$ 150** (SMS). *Variable does not apply.*
-
-**Scenario 4: Floor dominates**
-
-* Performance %: **US$ 0**
-* Multichannel messages: **10,000** → **US$ 20** (variable)
-* SMS: **US$ 0**
-* **Small floor: US$ 74**
-  **You pay Hellotext:** **US$ 74** (floor). *Variable does not apply.*
-
-## How to read your invoice
-
-* **Billed item:** you will see one of the four (floor / performance / SMS / variable fee).
-* **WhatsApp (Meta):** appears on your Meta invoice, not on Hellotext’s.
-* **Volume detail:** the activity panel shows messages sent and attributed revenue for the period.
-
-## Frequently asked questions
-
-**What are sales attributed to Hellotext?**
-
-They are sales that meet Hellotext's published attribution methodology. The decision uses eligible evidence, source precedence, customer and order identity, and the applicable default window: 24 hours for eligible delivery or passive evidence, or seven days from an eligible click or engagement. A recognized external marketing source takes precedence. See [How we attribute sales]({% link _analytics-reporting-attribution/sales-attribution.md %}).
-
-**Where can I see SMS rates and available countries?**
-
-In the SMS rates by country table in [Pricing explanation](https://www.hellotext.com/precios).
-
-They are charged in local currency and follow the highest‑only rule.
-
-**What does each plan include besides price?**
-
-Members, playbooks access, support levels, and activity history, plus advanced features on higher plans (Grow/Pro/Enterprise).
+- [Billing settings, payment methods, and invoices]({% link _billing/billing-settings-and-invoices.md %})
+- [Performance fee calculation]({% link _billing/performance-fee-calculation.md %})
+- [Revenue report guide]({% link _analytics-reporting-attribution/revenue-report-guide.md %})
+- [Troubleshoot billing questions]({% link _billing/billing-troubleshooting.md %})

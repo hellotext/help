@@ -2,17 +2,18 @@
 languages: ["en", "es"]
 
 en:
-  title: Plan usage and quotas
-  description: "See what is included in your plan and how usage counts toward your bill."
+  title: Plan usage and monthly charges
+  description: "Read the usage summary for a billing period and understand which amount drives the monthly charge."
 es:
-  title: Uso y consumos del plan
-  description: "Conoce qué incluye tu plan y cómo se cuentan tus consumos."
+  title: Uso del plan y cargos mensuales
+  description: "Interpreta el resumen de consumos de un período y entiende qué monto determina el cargo mensual."
 
 permalink: understanding-plan-quotas
 permalink_es: conociendo-los-consumos-del-plan
 
 layout: guide
 topic: billing
+navigation_group: account_billing
 popular: false
 ---
 

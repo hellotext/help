@@ -13,6 +13,7 @@ permalink_es: explicacion-de-tarifas
 
 layout: guide
 topic: billing
+navigation_group: pricing_model
 popular: true
 ---
 
