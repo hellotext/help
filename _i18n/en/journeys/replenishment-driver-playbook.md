@@ -1,6 +1,6 @@
 Use this guide when customers buy products that run out, wear down, or need to be replaced on a predictable cycle.
 
-Replenishment Driver is an active retention playbook. It helps Hellotext remind customers to reorder around the moment they may need the product again, using product usage data, purchase history, customer behavior, channel eligibility, and send checks.
+Replenishment Driver is an active retention playbook. It helps Hellotext remind customers to reorder around the moment they may need the product again. Hellotext estimates that cadence automatically using AI, product repurchase history across the business, and the individual customer's behavior. The business can also provide an optional explicit duration with the highest priority.
 
 It is not a generic win-back campaign and it is not a cart recovery flow. It starts after a purchase and focuses on repeat orders for products where timing matters.
 
@@ -11,9 +11,10 @@ Replenishment Driver helps customers reorder before the product runs out.
 It can:
 
 - React after a customer buys a replenishable product.
-- Use product-level usage data, such as `usage_duration_days`, when available.
-- Use product-family defaults or average reorder patterns when a product-specific value is missing.
-- Learn from the customer's own purchase cycle when enough history exists.
+- Estimate with AI how long a product may take to be consumed.
+- Improve the estimate with aggregate repurchase history for that product across the business.
+- Personalize it with the customer's own cycle when enough reliable history exists.
+- Use an optional explicit value, such as `usage_duration_days`, as the highest-priority source when the business defines one.
 - Schedule a reminder near the estimated refill window.
 - Include a reorder link, product link, or discount when those options are available and configured.
 - Skip, wait, or stop when the customer already reordered, the product is not eligible, another playbook is a better owner, or the customer cannot be reached.
@@ -30,9 +31,9 @@ It is a good fit for products such as:
 - Coffee, tea, food, pet food, or household staples.
 - Skin care, beauty, or personal care products.
 - Refills, replacement parts, filters, or consumable accessories.
-- Any product family where your team knows a reasonable usage window.
+- Any replenishable product whose duration can be estimated from AI or history, even when your team has not configured a manual window.
 
-It works best when Hellotext can see order history, product identity, quantity, and a refill timing signal for the SKU or product family.
+It works best when Hellotext can see order history, product identity, and quantity. You do not need to enter a duration manually for every product before using it.
 
 Do not use it for products that are usually bought once and kept for a long time. For related product suggestions after a purchase, use [Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}). For customers who have gone cold across the brand, use a reactivation playbook. For customers who have not bought yet, use [First-Purchase Driver]({% link _journeys/first-purchase-driver-playbook.md %}).
 
@@ -45,11 +46,12 @@ Check that:
 - Your store, ERP, or data source sends order and purchase history to Hellotext.
 - Products, variants, SKUs, names, and links match your catalog.
 - Replenishable products are identifiable by product, SKU, category, or product family.
-- Usage windows are available, such as a `usage_duration_days` value, product-family default, or internal average.
-- Purchase dates and quantities are reliable enough to estimate when a customer may need more.
+- Purchase dates, product identity, and quantities are reliable enough for Hellotext to evaluate a repurchase cadence.
 - Reorder links, product links, prices, stock, and optional discount rules are current.
 - The channel the playbook can use is connected and ready.
 - Customers have consent and are eligible for the channel.
+
+> **Important:** `usage_duration_days` is optional. Hellotext first tries to estimate duration automatically using AI, business-level product history, and customer history. Set an explicit value only when your business knows a more accurate duration and wants it to take priority over the automatic estimates.
 
 For setup validation, use [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %}). For custom tracking, use [Tracking events]({% link _developers/tracking-events.md %}).
 
@@ -67,18 +69,22 @@ The playbook exposes the settings that control how it communicates:
 
 Keep automatic channel selection unless you have a clear reason to limit the playbook. Replenishment Driver depends on whether the customer can actually be reached when the refill window arrives.
 
-Product usage duration and replenishment eligibility come from product data, purchase history, and Hellotext's internal scoring. They are inputs to the decision, not reminder-schedule controls on the playbook.
+Product usage duration and replenishment eligibility come from AI analysis and purchase history. If your catalog supports `usage_duration_days`, you can use it as an optional explicit input. It is not a control for manually scheduling the message: it is a higher-authority source that replaces the estimated cadence for that product.
 
 ## How timing works
 
 Replenishment timing is an estimate, not proof that the customer has run out.
 
-Hellotext can use several levels of signal:
+Hellotext evaluates these sources from lowest to highest authority:
 
-- A product setting, such as `usage_duration_days`, when your team knows how long a product usually lasts.
-- A product-family or category default when a specific product does not have its own value.
-- Average reorder behavior from customers who bought the same product.
-- The customer's own repeat-purchase pattern when enough history exists.
+| Priority | Source | How it is used |
+| --- | --- | --- |
+| 1 | AI estimate | Estimates the product's consumption days. High or medium confidence is considered reliable; low or unknown confidence can still be used but is less reliable. |
+| 2 | Business history | Uses a reliable aggregate repurchase cadence for that exact product across the business and blends it with the AI estimate when available. |
+| 3 | Customer history | Uses the customer's reliable personal repurchase cadence and blends it with the business result. |
+| 4, highest and optional | Explicit value | A positive `usage_duration_days` set by the business immediately overrides every other source for that product, even when the AI estimate classifies it as non-consumable. |
+
+The explicit value is the final priority level, not the first prerequisite. If no source produces a positive number of days, Hellotext treats the cadence as unavailable and does not force a reminder.
 
 The playbook then calculates when a reminder makes sense before the estimated refill point. Hellotext handles that delivery timing automatically rather than asking you to schedule each reminder.
 
@@ -132,7 +138,8 @@ Use test customer profiles that have channel consent, then:
 
 - Place a test order with a replenishable product.
 - Confirm the order and product appear on the customer profile.
-- Confirm the product has a usage window, product-family default, or enough purchase history to estimate one.
+- Confirm Hellotext can estimate a cadence from AI, business-level product history, or customer history.
+- If you configured `usage_duration_days`, confirm it is positive, reasonable, and should override the automatic estimates.
 - Confirm the order and product create an eligible replenishment opportunity.
 - Test a customer who reorders before the reminder, which should prevent or update the replenishment follow-up.
 - Test a non-replenishable product that should be excluded.
@@ -150,7 +157,7 @@ The playbook may wait, skip, stop, or let another playbook act when:
 
 - Purchase history is missing, delayed, or not tied to a usable customer profile.
 - The product is not marked or recognized as replenishable.
-- Usage duration, product-family defaults, or average reorder data are missing.
+- No AI estimate, aggregate product history, customer history, or explicit value produces a usable positive cadence.
 - The customer already reordered.
 - The product is unavailable, discontinued, out of stock, or missing a usable link.
 - The profile cannot be reached in an eligible channel.
@@ -167,7 +174,7 @@ During the first days, review:
 
 - Which products and product families created eligible replenishment moments.
 - Which reminders were scheduled, sent, delayed, skipped, or blocked.
-- Which products had missing or suspicious usage windows.
+- Which products had no positive cadence available or produced an estimate worth reviewing.
 - Clicks, repeat purchases, attributed revenue, opt-outs, replies, and failed messages.
 - Whether discounts increased repeat orders or reduced margin.
 - Whether Replenishment Driver overlaps with [Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}), reactivation, or campaigns.

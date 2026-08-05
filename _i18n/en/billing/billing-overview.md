@@ -1,46 +1,42 @@
-Use this section to understand how Hellotext plans, usage, attributed revenue, and billing rules work together.
-
-Most billing questions start with one of three questions:
-
-- What does my plan include?
-- Which usage counts toward my monthly bill?
-- Why was revenue attributed to Hellotext?
+Use this section to understand what Hellotext charges, why a particular amount appears, and where to manage billing for your business.
 
 ## Start with the pricing model
 
-Hellotext uses a results-based pricing model. Depending on your plan and usage, your monthly Hellotext charge is based on the highest applicable billing item for the period.
+Hellotext compares the plan minimum, performance fee, SMS costs, and the variable non-SMS messaging amount. Only the highest of those four becomes the Hellotext amount for the period.
 
-Keep reading: [Pricing model]({% link _billing/how-pricing-works.md %}).
+Read [Pricing model]({% link _billing/how-pricing-works.md %}) before trying to add individual usage amounts together.
 
-For current plan pricing and SMS rate tables, always check the public [Hellotext pricing page](https://www.hellotext.com/pricing).
+Current plan prices, included features, rates, and country-specific SMS allowances live on the public [Hellotext pricing page](https://www.hellotext.com/pricing).
 
-## Review plan usage and quotas
+## Understand attributed revenue
 
-Your plan determines what is included, which usage is tracked, and how monthly activity is calculated.
+The performance fee uses revenue attributed to Hellotext, not all store revenue.
 
-Use the plan usage guide when you need to understand plan minimums, performance fees, SMS costs, variable messaging fees, and how they appear on invoices.
+- [Performance fee calculation]({% link _billing/performance-fee-calculation.md %}) explains the billing calculation.
+- [How we attribute sales]({% link _analytics-reporting-attribution/sales-attribution.md %}) explains which orders and evidence are eligible.
 
-Keep reading: [Plan usage and quotas]({% link _billing/understanding-plan-quotas.md %}).
+## Understand messaging costs
 
-## Understand attribution
+Messaging has three distinct concepts:
 
-Attributed revenue matters because it can affect results-based billing and reporting.
+- [Fair-use message policy]({% link _billing/fair-use-message-policy.md %}) explains when eligible non-SMS message volume becomes the Hellotext amount.
+- [SMS pricing and sender types]({% link _billing/sms-pricing-and-number-types.md %}) explains country rates, plan allowances, and sender options.
+- [Meta fees for WhatsApp]({% link _billing/whatsapp-fees.md %}) explains the separate costs defined by Meta.
 
-Use the attribution guide when you need to understand source precedence, eligible evidence, attribution windows, team participation, supported order changes, and why a sale was or was not attributed to Hellotext.
+## Review usage and invoices
 
-Keep reading: [Sales attribution]({% link _analytics-reporting-attribution/sales-attribution.md %}).
+Open **Settings → Billing** to see your current plan, period usage, balance, payment history, payment methods, billing information, and available invoices.
 
-## SMS limits for new businesses
+- [Plan usage and monthly charges]({% link _billing/understanding-plan-quotas.md %}) helps you interpret a selected period.
+- [Billing settings, payment methods, and invoices]({% link _billing/billing-settings-and-invoices.md %}) explains each billing control.
 
-Some new prepaid businesses begin with a temporary SMS sending limit while Hellotext reviews sending quality.
+## Change the plan or solve a problem
 
-Use the SMS limits guide when SMS messages are blocked by a temporary daily limit, or when you need to understand how the review period works.
-
-Keep reading: [SMS sending limits for new businesses]({% link _troubleshooting-deliverability/sms-sending-limits-for-new-businesses.md %}).
+- [Change or cancel your plan]({% link _billing/change-or-cancel-your-plan.md %}) explains upgrades, scheduled downgrades, and cancellations.
+- [Troubleshoot billing questions]({% link _billing/billing-troubleshooting.md %}) provides a reconciliation checklist and the details to send support.
 
 ## Related guides
 
+- [Revenue report guide]({% link _analytics-reporting-attribution/revenue-report-guide.md %})
 - [Messaging channels overview]({% link _numbers/messaging-overview.md %})
-- [Campaign reporting]({% link _analytics-reporting-attribution/campaign-reporting.md %})
-- [Audience and segmentation overview]({% link _audience/audience-overview.md %})
-- [Setup and integrations overview]({% link _integrations/setup-overview.md %})
+- [SMS sending limits for new businesses]({% link _troubleshooting-deliverability/sms-sending-limits-for-new-businesses.md %})

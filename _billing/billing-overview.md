@@ -3,16 +3,17 @@ languages: ["en", "es"]
 
 en:
   title: Pricing, billing, and plans overview
-  description: Understand where to find plan, usage, attribution, SMS limit, and billing information.
+  description: Understand pricing, usage, channel costs, invoices, payment methods, and plan changes.
 es:
   title: Resumen de precios, facturación y planes
-  description: Entiende dónde encontrar información sobre planes, consumos, atribución, límites de SMS y facturación.
+  description: Entiende precios, consumos, costos de canales, facturas, métodos de pago y cambios de plan.
 
 permalink: pricing-billing-plans-overview
 permalink_es: resumen-precios-facturacion-planes
 
 layout: guide
 topic: billing
+navigation_group: foundations
 popular: false
 ---
 
