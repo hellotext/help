@@ -27,7 +27,7 @@ Review both parts:
 - Use the payment and billing information configured with Meta, together with Meta's current rate table, to review WhatsApp fees paid directly to Meta.
 - Confirm the business country, recipient markets, and expected message categories used in the estimate.
 
-Do not add all four Hellotext pricing components together. First apply the Hellotext highest-only rule. Then review Meta charges separately in Meta's billing environment; they are paid to Meta, not Hellotext.
+Do not add all four Hellotext pricing components together. First apply the Hellotext highest-only rule. Then account for applicable taxes and review Meta charges separately in Meta's billing environment; those charges are paid to Meta, not Hellotext.
 
 ## Common questions
 

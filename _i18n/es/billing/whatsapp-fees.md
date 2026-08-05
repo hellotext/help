@@ -27,7 +27,7 @@ Revisa ambas partes:
 - Usa el método de pago y los datos de facturación configurados en Meta, junto con su tabla de tarifas vigente, para revisar los costos de WhatsApp pagados directamente a Meta.
 - Confirma el país del negocio, los mercados de destino y las categorías de mensajes esperadas en la estimación.
 
-No sumes los cuatro componentes de precios de Hellotext. Primero aplica la regla de Hellotext de pagar solo el mayor. Después revisa los cargos de Meta por separado en el entorno de facturación de Meta: se pagan a Meta, no a Hellotext.
+No sumes los cuatro componentes de precios de Hellotext. Primero aplica la regla de Hellotext de pagar solo el mayor. Después considera los impuestos aplicables y revisa los cargos de Meta por separado en el entorno de facturación de Meta: esos cargos se pagan a Meta, no a Hellotext.
 
 ## Preguntas frecuentes
 
