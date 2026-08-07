@@ -2,12 +2,13 @@ Usa las guías para desarrolladores cuando necesites conectar Hellotext con tu s
 
 Si vas a conectar una tienda propia sin una integración nativa, comienza con [Integra una tienda propia con Hellotext]({% link _developers/custom-store-integration.md %}). Presenta perfiles, propiedades, productos, pedidos históricos, Hellotext.js, identidad y seguimiento desde el servidor en el orden de implementación correcto.
 
-La mayoría del trabajo técnico con Hellotext cae en cinco áreas:
+La mayoría del trabajo técnico con Hellotext cae en seis áreas:
 
 - Integrar una tienda propia de principio a fin.
 - Leer la referencia de la API.
 - Enviar mensajes desde tu propio sistema.
 - Registrar actividad de clientes.
+- Definir acciones y objetos específicos del negocio.
 - Conectar sesiones no identificadas con perfiles de clientes.
 
 ## Integración de una tienda propia
@@ -47,6 +48,12 @@ Usa el seguimiento de eventos cuando quieres que Hellotext entienda acciones des
 Los eventos rastreados pueden ayudarte a segmentar audiencias, activar playbooks o rutas, atribuir ingresos y darle más contexto al equipo del Inbox.
 
 Sigue leyendo: [Seguimiento de eventos]({% link _developers/tracking-events.md %}).
+
+## Modela actividad específica del negocio
+
+Usa acciones personalizadas para nombrar actividad que Hellotext no incluye de forma preestablecida. Usa objetos cuando esa actividad involucra una entidad reutilizable con propiedades y ciclo de vida propios.
+
+Sigue leyendo: [Acciones personalizadas]({% link _developers/custom-actions.md %}) y [Objetos]({% link _developers/objects.md %}).
 
 ## Conecta sesiones del navegador con perfiles de clientes
 

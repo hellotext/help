@@ -2,12 +2,13 @@ Use the developer guides when you need to connect Hellotext with your own site, 
 
 If you are connecting a custom store without a native integration, start with [Integrate a custom store with Hellotext]({% link _developers/custom-store-integration.md %}). It puts profiles, properties, products, historical orders, Hellotext.js, identity, and server-side tracking in the correct implementation order.
 
-Most developer work in Hellotext falls into five areas:
+Most developer work in Hellotext falls into six areas:
 
 - Integrating a custom store from end to end.
 - Reading the API reference.
 - Sending messages from your own system.
 - Tracking customer activity.
+- Defining business-specific actions and objects.
 - Connecting unidentified sessions to customer profiles.
 
 ## Custom store integration
@@ -47,6 +48,12 @@ Use tracking when you want Hellotext to understand actions from your site, store
 Tracked events can help you segment audiences, trigger playbooks or routes, attribute revenue, and give the inbox team more context.
 
 Keep reading: [Tracking events]({% link _developers/tracking-events.md %}).
+
+## Model business-specific activity
+
+Use custom actions to name activity that Hellotext does not include by default. Use objects when that activity involves a reusable entity with its own properties and lifecycle.
+
+Keep reading: [Custom actions]({% link _developers/custom-actions.md %}) and [Objects]({% link _developers/objects.md %}).
 
 ## Connect browser sessions to customer profiles
 

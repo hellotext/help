@@ -104,6 +104,8 @@ No generes un nombre nuevo por cliente, pedido o fecha. Una acción representa u
 
 La acción personalizada debe existir antes de registrar el primer evento. Consulta [Crear una acción](https://www.hellotext.com/api#create_an_action).
 
+Para definir el nombre, registrar ocurrencias y usar la acción en rutas o reportes, consulta [Acciones personalizadas]({% link _developers/custom-actions.md %}).
+
 Un evento personalizado con un monto monetario positivo puede evaluarse para atribución cuando Hellotext identifica al cliente y encuentra evidencia elegible de origen y tiempo. Crear la acción no convierte automáticamente su monto en ingresos atribuidos. Consulta [Cómo atribuimos las ventas]({% link _analytics-reporting-attribution/sales-attribution.md %}).
 
 ## Cómo llegan los eventos a Hellotext
@@ -161,6 +163,8 @@ Si los eventos no aparecen donde esperas, usa [Soluciona señales o actividad fa
 
 - [Qué son las señales]({% link _journeys/what-are-signals.md %})
 - [Integra una tienda propia con Hellotext]({% link _developers/custom-store-integration.md %})
+- [Acciones personalizadas]({% link _developers/custom-actions.md %})
+- [Objetos]({% link _developers/objects.md %})
 - [Seguimiento de origen externo]({% link _developers/external-tracking.md %})
 - [Propiedades y eventos personalizados]({% link _audience/custom-properties-and-events.md %})
 - [Cómo atribuimos las ventas]({% link _analytics-reporting-attribution/sales-attribution.md %})

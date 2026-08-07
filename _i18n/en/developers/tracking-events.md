@@ -104,6 +104,8 @@ Do not generate a new name for each customer, order, or date. An action represen
 
 The custom action must exist before you track the first event. See [Create an action](https://www.hellotext.com/api#create_an_action).
 
+To define the name, track occurrences, and use the action in journeys or reports, read [Custom actions]({% link _developers/custom-actions.md %}).
+
 A custom event with a positive monetary amount can be evaluated for attribution when Hellotext identifies the customer and finds eligible source and timing evidence. Creating the action does not automatically turn its amount into attributed revenue. See [How we attribute sales]({% link _analytics-reporting-attribution/sales-attribution.md %}).
 
 ## How events reach Hellotext
@@ -161,6 +163,8 @@ If events do not appear where expected, use [Troubleshoot missing signals or act
 
 - [What are signals?]({% link _journeys/what-are-signals.md %})
 - [Integrate a custom store with Hellotext]({% link _developers/custom-store-integration.md %})
+- [Custom actions]({% link _developers/custom-actions.md %})
+- [Objects]({% link _developers/objects.md %})
 - [External tracking]({% link _developers/external-tracking.md %})
 - [Custom properties and events]({% link _audience/custom-properties-and-events.md %})
 - [How we attribute sales]({% link _analytics-reporting-attribution/sales-attribution.md %})

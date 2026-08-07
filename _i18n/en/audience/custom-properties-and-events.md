@@ -97,6 +97,8 @@ Marking an action as a conversion lets reports treat its events as conversions. 
 
 Treat the tracking name as a contract with your site, backend, and integrations. If you change it, update every source that sends the event. Deleting a custom action also deletes its associated events and cannot be undone.
 
+Read [Custom actions]({% link _developers/custom-actions.md %}) for the complete setup, tracking, object, and troubleshooting workflow.
+
 ## Record and review events
 
 Events can arrive automatically from a connected store, capture, conversation, Hellotext.js, API, or custom integration.
@@ -150,5 +152,6 @@ Before relying on a custom property or event:
 - [Build segments]({% link _audience/segments.md %})
 - [Personalization tags]({% link _audience/personalization-tags.md %})
 - [What are signals?]({% link _journeys/what-are-signals.md %})
+- [Custom actions]({% link _developers/custom-actions.md %})
 - [Tracking events]({% link _developers/tracking-events.md %})
 - [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})
