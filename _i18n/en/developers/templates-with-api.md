@@ -162,6 +162,8 @@ Treat the main states as follows:
 
 SMS-only templates do not go through Meta approval. An `any` template can still be pending when it includes a WhatsApp version.
 
+If a pending edit belongs to a template that already has an approved version, messages can continue using that active approved version. A new template without an approved version must wait for approval before it can be used.
+
 Do not interpret a successful `POST /v1/templates` response as WhatsApp approval. It confirms that Hellotext created the template and started the applicable synchronization flow.
 
 ## 7. Send an approved template
@@ -227,7 +229,7 @@ Check these causes before retrying:
 - **`422` on `body`:** the body is blank, too long, or contains a dangling WhatsApp parameter.
 - **`422` on buttons:** a button is missing its matching URL, phone, copy value, or text, or the allowed count was exceeded.
 - **Message request fails:** the template does not belong to the business, a dynamic short link is missing, the customer profile cannot be reached, or the selected channel is unavailable.
-- **WhatsApp message does not send:** the template or latest change is still pending, rejected, paused, or otherwise unavailable in Meta.
+- **WhatsApp message does not send:** no approved version exists because the template is new and pending or was rejected, or the approved version is paused, disabled, or otherwise unavailable in Meta. A pending edit does not block a previously approved version.
 
 Do not retry an unchanged validation error. Correct the named parameter first. Use [Troubleshoot a custom integration]({% link _developers/troubleshoot-custom-integration.md %}) for authentication, logging, retries, and end-to-end diagnostics.
 

@@ -162,6 +162,8 @@ Interpreta los estados principales de esta forma:
 
 Las plantillas exclusivas para SMS no pasan por la aprobación de Meta. Una plantilla `any` puede seguir pendiente cuando incluye una versión para WhatsApp.
 
+Si una edición pendiente pertenece a una plantilla que ya tiene una versión aprobada, los mensajes pueden seguir utilizando esa versión aprobada activa. Una plantilla nueva sin versión aprobada debe esperar la aprobación antes de poder utilizarse.
+
 Una respuesta exitosa de `POST /v1/templates` solo confirma que Hellotext creó la plantilla e inició el flujo de sincronización correspondiente. No confirma que WhatsApp la haya aprobado.
 
 ## 7. Envía una plantilla aprobada
@@ -227,7 +229,7 @@ Revisa estas causas antes de reintentar:
 - **`422` en `body`:** el cuerpo está vacío, es demasiado largo o contiene un parámetro aislado para WhatsApp.
 - **`422` en botones:** falta la URL, teléfono, valor para copiar o texto correspondiente, o se superó la cantidad permitida.
 - **Falla la solicitud del mensaje:** la plantilla no pertenece al negocio, falta un link corto dinámico, no se puede contactar al perfil del cliente o el canal elegido no está disponible.
-- **El mensaje de WhatsApp no se envía:** la plantilla o su último cambio todavía está pendiente, fue rechazado, está pausado o no está disponible en Meta.
+- **El mensaje de WhatsApp no se envía:** no existe una versión aprobada porque la plantilla es nueva y sigue pendiente o fue rechazada, o la versión aprobada está pausada, deshabilitada o no está disponible en Meta. Una edición pendiente no bloquea una versión aprobada previamente.
 
 No reintentes sin cambios un error de validación. Corrige primero el parámetro indicado. Usa [Soluciona una integración propia]({% link _developers/troubleshoot-custom-integration.md %}) para revisar autenticación, logs, reintentos y diagnósticos completos.
 
