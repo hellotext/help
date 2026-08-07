@@ -203,6 +203,9 @@ Consulta la [referencia completa de tracking](https://www.hellotext.com/api#trac
 ## Guías relacionadas
 
 - [Integra una tienda propia con Hellotext]({% link _developers/custom-store-integration.md %})
+- [Crea y registra pedidos con la API]({% link _developers/orders-with-api.md %})
+- [Crea y registra cupones con la API]({% link _developers/coupons-with-api.md %})
+- [Soluciona una integración propia]({% link _developers/troubleshoot-custom-integration.md %})
 - [Seguimiento de eventos]({% link _developers/tracking-events.md %})
 - [Seguimiento de clientes no identificados]({% link _developers/tracking-unidentified-customers.md %})
 - [Propiedades y eventos personalizados]({% link _audience/custom-properties-and-events.md %})
