@@ -16,7 +16,7 @@ Use WhatsApp for:
 - Targeted campaigns to eligible audiences.
 - Product discovery and checkout when your catalog is connected.
 
-Use SMS when you mainly need broad reach and a simple text message. Many businesses use both channels.
+Use SMS when you mainly need broad reach and a simple text message. Many businesses use both channels. Keep reading: [SMS channel fundamentals]({% link _numbers/sms-channel-fundamentals.md %}).
 
 ## Prepare the channel before launch
 
@@ -124,6 +124,7 @@ Keep reading: [Go-live checklist before you send]({% link _getting-started/go-li
 ## Related guides
 
 - [Messaging channels overview]({% link _numbers/messaging-overview.md %})
+- [SMS channel fundamentals]({% link _numbers/sms-channel-fundamentals.md %})
 - [Connect WhatsApp]({% link _integrations/connect-whatsapp.md %})
 - [Connect your catalog to WhatsApp]({% link _integrations/connect-catalog-to-whatsapp.md %})
 - [Order-Update Delight playbook]({% link _journeys/order-update-playbook.md %})
