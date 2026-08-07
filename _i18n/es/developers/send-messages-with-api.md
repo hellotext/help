@@ -173,7 +173,7 @@ El endpoint no acepta una clave de idempotencia. Tu integración debe evitar env
 - Revisa los mensajes recientes o la conversación en el Inbox antes de reintentar una solicitud incierta.
 - Reintenta una falla del proveedor solamente después de corregir la condición indicada o esperar a que finalice.
 
-Incluso después de aceptar la solicitud, el procesamiento asíncrono puede detenerse por límites de la cuenta, un canal no disponible, un origen inválido, una ventana de atención de WhatsApp cerrada, el estado de la plantilla o una falla del proveedor.
+Incluso después de aceptar la solicitud, el procesamiento asíncrono puede detenerse por límites de la cuenta, un canal no disponible, un origen inválido, una ventana de conversación de WhatsApp o Instagram cerrada, el estado de la plantilla o una falla del proveedor.
 
 ## 9. Soluciona problemas frecuentes
 
@@ -183,6 +183,7 @@ Incluso después de aceptar la solicitud, el procesamiento asíncrono puede dete
 - **`422` en `body`:** no se proporcionó un cuerpo utilizable ni una plantilla válida.
 - **La solicitud fue aceptada pero no aparece un mensaje saliente:** revisa el ID del perfil del cliente, el origen, los límites de la cuenta y la disponibilidad del canal.
 - **El mensaje de WhatsApp falla:** confirma que la ventana de atención esté abierta para contenido libre o utiliza una plantilla aprobada activa.
+- **El mensaje de Instagram falla:** confirma que el cliente haya iniciado la conversación, que la ventana estándar de mensajería siga abierta y que la cuenta conectada de Instagram esté activa.
 - **La solicitud con plantilla falla:** confirma que la plantilla pertenezca al negocio y proporciona todos los links cortos dinámicos requeridos.
 - **El mensaje llega a `failed`:** revisa la conversación y la causa del proveedor antes de decidir si corresponde otro intento.
 
@@ -207,4 +208,5 @@ Antes de habilitar la integración en producción:
 - [Enviar SMS con la API]({% link _developers/send-sms-with-api.md %})
 - [¿A quién puedes escribirle?]({% link _audience/consent-and-subscriber-status.md %})
 - [Fundamentos del canal de WhatsApp]({% link _numbers/whatsapp-channel-fundamentals.md %})
+- [Fundamentos de Instagram DM]({% link _numbers/instagram-dm-fundamentals.md %})
 - [Referencia de la API de Hellotext](https://www.hellotext.com/api)
