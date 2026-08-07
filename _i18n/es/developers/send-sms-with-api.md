@@ -153,6 +153,7 @@ La sección de [errores de la API](https://www.hellotext.com/api#errors) explica
 
 ## Guías relacionadas
 
+- [Envía mensajes con la API]({% link _developers/send-messages-with-api.md %})
 - [Integrar una tienda personalizada]({% link _developers/custom-store-integration.md %})
 - [Referencia de la API de Hellotext](https://www.hellotext.com/api)
 - [Seguimiento de eventos]({% link _developers/tracking-events.md %})

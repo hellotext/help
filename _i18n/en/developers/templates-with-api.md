@@ -236,6 +236,7 @@ Do not retry an unchanged validation error. Correct the named parameter first. U
 ## Related guides
 
 - [Developers and API overview]({% link _developers/developers-overview.md %})
+- [Send messages with the API]({% link _developers/send-messages-with-api.md %})
 - [Send SMS with the API]({% link _developers/send-sms-with-api.md %})
 - [WhatsApp channel fundamentals]({% link _numbers/whatsapp-channel-fundamentals.md %})
 - [Message editor overview]({% link _numbers/message-editor-overview.md %})
