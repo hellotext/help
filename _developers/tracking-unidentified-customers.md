@@ -3,10 +3,10 @@ languages: ["en", "es"]
 
 en:
   title: Tracking unidentified customers
-  description: Track events from new visitors to your site who have not been identified yet.
+  description: Preserve anonymous browser activity and associate it safely with a known customer profile.
 es:
   title: Seguimiento de clientes no identificados
-  description: Realiza seguimiento de los eventos de los nuevos visitantes de tu sitio que aún no han sido identificados.
+  description: Conserva la actividad anónima del navegador y asóciala de forma segura con un perfil del cliente conocido.
 
 permalink: tracking-unidentified-customers
 permalink_es: seguimiento-de-clientes-no-identificados

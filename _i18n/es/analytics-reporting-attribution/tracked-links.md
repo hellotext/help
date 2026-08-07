@@ -7,7 +7,7 @@ y se encuentra en la barra de herramientas del editor.
 
 Los links tienen la siguiente estructura: `hello.link/XXXXXX` donde `XXXXXX` es el identificador único del link.
 
-Cuando alguien hace clic, Hellotext redirige al cliente a la URL especificada al crear el link y adjunta un identificador `hellotext_session`
+Cuando alguien hace clic, Hellotext redirige al cliente a la URL especificada al crear el link y adjunta un identificador `hello_session`
 a la URL. Este identificador se usa para identificar la sesión y puede usarse para rastrear acciones realizadas por el cliente como señales.
 Puedes ver nuestra <a class="active" href='https://github.com/hellotext/hellotext.js'>librería de JavaScript</a> para ayudarte con eventos relacionados al tracking.
 

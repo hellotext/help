@@ -6,7 +6,7 @@ en:
   description: Learn where to start with API access, event tracking, SMS sending, and custom integrations.
 es:
   title: Resumen de desarrolladores y API
-  description: Aprende por dónde empezar con acceso API, tracking de eventos, envío de SMS e integraciones personalizadas.
+  description: Aprende por dónde empezar con acceso a la API, seguimiento de eventos, envío de SMS e integraciones personalizadas.
 
 permalink: developers-api-overview
 permalink_es: resumen-desarrolladores-api

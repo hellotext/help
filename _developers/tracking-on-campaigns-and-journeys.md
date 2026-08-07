@@ -3,10 +3,10 @@ languages: ["en", "es"]
 
 en:
   title: Track campaign, route, and playbook links
-  description: Learn how to use Hellotext.js to track events from links in campaigns, routes, and playbooks.
+  description: Understand how tracked links preserve message, session, reporting, and attribution context after a click.
 es:
   title: Seguimiento de links en campañas, rutas y playbooks
-  description: Aprende a usar Hellotext.js para rastrear eventos desde links en campañas, rutas y playbooks.
+  description: Comprende cómo los links conservan el contexto del mensaje, la sesión, los reportes y la atribución después de un clic.
 
 permalink: tracking-on-campaigns-and-journeys
 permalink_es: seguimiento-en-campañas-y-rutas

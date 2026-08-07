@@ -1,11 +1,20 @@
 Use the developer guides when you need to connect Hellotext with your own site, backend, CRM, commerce platform, or internal tools.
 
-Most developer work in Hellotext falls into four areas:
+If you are connecting a custom store without a native integration, start with [Integrate a custom store with Hellotext]({% link _developers/custom-store-integration.md %}). It puts profiles, properties, products, historical orders, Hellotext.js, identity, and server-side tracking in the correct implementation order.
 
+Most developer work in Hellotext falls into five areas:
+
+- Integrating a custom store from end to end.
 - Reading the API reference.
 - Sending messages from your own system.
 - Tracking customer activity.
 - Connecting unidentified sessions to customer profiles.
+
+## Custom store integration
+
+The custom-store guide is the practical starting point for a team that does not yet know which data belongs in the API, which activity belongs in Hellotext.js, or how the two sides connect.
+
+Start here: [Integrate a custom store with Hellotext]({% link _developers/custom-store-integration.md %}).
 
 ## API reference
 
