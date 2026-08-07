@@ -21,6 +21,8 @@ Check the sender, consent for that channel, account access, balance or plan limi
 
 Keep reading:
 
+- [Why a message did not send]({% link _troubleshooting-deliverability/why-a-message-did-not-send.md %})
+- [Troubleshoot WhatsApp templates]({% link _troubleshooting-deliverability/troubleshoot-whatsapp-templates.md %})
 - [Messaging channels overview]({% link _numbers/messaging-overview.md %})
 - [SMS sending limits for new businesses]({% link _troubleshooting-deliverability/sms-sending-limits-for-new-businesses.md %})
 - [Connect WhatsApp]({% link _integrations/connect-whatsapp.md %})
@@ -64,4 +66,6 @@ Keep reading:
 
 ## When you contact support
 
-Include the business name, the affected customer profile, the channel, the campaign, playbook, conversation, or report link, the approximate time, what you expected, what happened instead, and any screenshots or recent setup changes.
+If a page does not load, preserve its URL, the time of the error, and the last action before reloading. Follow [Troubleshoot pages that do not load]({% link _troubleshooting-deliverability/troubleshoot-pages-that-do-not-load.md %}).
+
+Include the business name, the affected customer profile, the channel, the campaign, playbook, conversation, or report link, the approximate time, what you expected, what happened instead, and any screenshots or recent setup changes. Review [Contact Hellotext Support]({% link _troubleshooting-deliverability/contact-hellotext-support.md %}) before sending sensitive information.

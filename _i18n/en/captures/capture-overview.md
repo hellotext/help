@@ -40,6 +40,8 @@ Name each capture after the placement or campaign where it will be used. This ma
 
 Test every capture before sharing it with customers. For QR codes, scan the final printed or displayed version with a phone. For links and forms, test the full subscription flow from the same device a customer would use.
 
+If a capture does not appear, complete its interaction, or update the customer profile, follow [Troubleshoot a capture that does not appear or register customers]({% link _troubleshooting-deliverability/troubleshoot-a-capture.md %}).
+
 For webchat, test the launcher, teaser, opening sequence, Inbox ownership, and any WhatsApp handoff from both desktop and mobile.
 
 ## Next steps

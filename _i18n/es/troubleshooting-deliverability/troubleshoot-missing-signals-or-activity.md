@@ -137,7 +137,7 @@ Sigue leyendo:
 | El evento nunca aparece | Sync de integración, Hellotext.js, request de API, nombre de acción o ambiente |
 | El evento aparece pero el segmento no cambia | Reglas del segmento, ventana de tiempo, nombres de propiedades o momento de actualización |
 | El playbook no empezó | Disparador, audiencia, elegibilidad del canal, consentimiento, condiciones de detención o estado activo |
-| Las métricas del reporte se ven bajas | Links con tracking, rango de fechas, reglas de atribución, canal, audiencia u órdenes sincronizadas |
+| Las métricas del reporte se ven bajas | Links con tracking, rango de fechas, reglas de atribución, canal, audiencia o pedidos sincronizados |
 | El mensaje de WhatsApp/SMS no se envió | Configuración del canal, remitente, consentimiento, plantilla, límites o estado de entrega |
 
 ## Cuando contactes a soporte

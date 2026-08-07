@@ -6,7 +6,7 @@ Si tu negocio aún está en revisión, puedes enviar hasta 50 SMS cada 24 horas.
 
 Los carriers y los destinatarios responden mejor a negocios que envían mensajes relevantes y esperados. El límite temporal le da tiempo a Hellotext para revisar la calidad de tus envíos, incluyendo aspectos como:
 
-- Si los perfiles de cliente tienen una razón clara para recibir tus mensajes.
+- Si los perfiles de clientes tienen una razón clara para recibir tus mensajes.
 - Si el contenido coincide con tu negocio y la relación con el cliente.
 - Si los mensajes evitan patrones spammy, confusos o de volumen inusual.
 - Si tus envíos mantienen bajas las bajas y quejas.
@@ -41,7 +41,7 @@ No. Los negocios con acuerdo de crédito ya tienen una relación comercial de co
 
 ## Preguntas frecuentes
 
-### ¿Puedo seguir usando WhatsApp, Instagram, Webchat, Journeys y el Inbox?
+### ¿Puedo seguir usando WhatsApp, Instagram, Webchat, Rutas y el Inbox?
 
 Sí. El límite temporal de revisión solo afecta el envío por SMS. Las demás funciones de Hellotext siguen funcionando según tu plan y configuración de canales.
 

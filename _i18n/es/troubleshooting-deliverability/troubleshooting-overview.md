@@ -1,17 +1,19 @@
 Usa esta sección cuando algo en Hellotext no se ve bien y necesitas definir dónde revisar primero.
 
-La solución de problemas normalmente empieza en uno de cuatro lugares:
+La solución de problemas normalmente empieza en uno de estos lugares:
 
 - Configuración e integraciones.
 - Canales y entrega de mensajes.
 - Tracking, reportes y atribución.
 - Operación del inbox y flujos del equipo.
+- Capturas y experiencias del sitio.
+- Acceso y carga de páginas.
 
 Si no estás seguro de dónde pertenece el problema, empieza por el [checklist de solución de problemas]({% link _troubleshooting-deliverability/troubleshooting-checklist.md %}).
 
 ## Configuración e integraciones
 
-Si faltan perfiles de cliente, productos, órdenes o configuración de canales, o si la información parece desactualizada, empieza revisando el camino de integración y configuración.
+Si faltan perfiles de clientes, productos, pedidos o configuración de canales, o si la información parece desactualizada, empieza revisando el camino de integración y configuración.
 
 Sigue leyendo: [Resumen de configuración e integraciones]({% link _integrations/setup-overview.md %}).
 
@@ -19,7 +21,11 @@ Sigue leyendo: [Resumen de configuración e integraciones]({% link _integrations
 
 Si un mensaje no se entrega, primero revisa el canal usado, la configuración del remitente, consentimiento, saldo o acceso del plan, y cualquier límite temporal de envío.
 
+Empieza aquí: [Por qué no se envió un mensaje]({% link _troubleshooting-deliverability/why-a-message-did-not-send.md %}).
+
 Para límites específicos de SMS en negocios prepago nuevos, sigue leyendo: [Límites de envío SMS para negocios nuevos]({% link _troubleshooting-deliverability/sms-sending-limits-for-new-businesses.md %}).
+
+Si el problema es una plantilla de WhatsApp en revisión, rechazada, marcada o pausada, usa [Soluciona problemas con plantillas de WhatsApp]({% link _troubleshooting-deliverability/troubleshoot-whatsapp-templates.md %}).
 
 Para contexto de configuración de canales, sigue leyendo: [Resumen de canales de mensajería]({% link _numbers/messaging-overview.md %}).
 
@@ -44,3 +50,17 @@ Si el problema es específico de un playbook, usa [Soluciona un playbook que no 
 Si las conversaciones no las está gestionando la persona correcta, o si la performance de respuesta parece incorrecta, revisa asignación, roles, ownership y configuración de tiempos de respuesta.
 
 Sigue leyendo: [Resumen de inbox y conversaciones]({% link _team/inbox-overview.md %}).
+
+## Capturas y experiencias del sitio
+
+Si un popup, formulario, Webchat, código QR, link u opt-in de checkout no aparece o no registra al cliente, identifica primero si el problema está en la disponibilidad, instalación, interacción, verificación, perfil del cliente o acción posterior.
+
+Empieza aquí: [Soluciona una captura que no aparece o no registra clientes]({% link _troubleshooting-deliverability/troubleshoot-a-capture.md %}).
+
+## Acceso y carga de páginas
+
+Si una página queda vacía, no termina de cargar o muestra el mismo error, conserva la URL y el momento del problema antes de recargar.
+
+Empieza aquí: [Soluciona páginas que no cargan]({% link _troubleshooting-deliverability/troubleshoot-pages-that-do-not-load.md %}).
+
+Si el problema continúa, consulta [Contacta a soporte de Hellotext]({% link _troubleshooting-deliverability/contact-hellotext-support.md %}).
