@@ -4,6 +4,8 @@ SMS supports text and links. It does not provide the richer product, button, att
 
 Many businesses use both channels and let the type of message and each customer's reachability determine which one fits.
 
+Messaging rates vary by destination country, so SMS can be the more cost-effective option in some markets. Review the current rates for the country before choosing a default channel. See [SMS pricing and number types]({% link _billing/sms-pricing-and-number-types.md %}).
+
 ## Before you use SMS
 
 Confirm that:

@@ -4,6 +4,8 @@ SMS soporta texto y enlaces. No ofrece las experiencias más ricas de productos,
 
 Muchos negocios usan ambos canales y dejan que el tipo de mensaje y la disponibilidad de cada cliente determinen cuál encaja mejor.
 
+Las tarifas de mensajería varían según el país de destino, por lo que en algunos mercados SMS puede ser la opción más conveniente por precio. Revisa las tarifas vigentes para el país antes de elegir un canal predeterminado. Consulta [Precios de SMS y tipos de número]({% link _billing/sms-pricing-and-number-types.md %}).
+
 ## Antes de usar SMS
 
 Confirma que:
