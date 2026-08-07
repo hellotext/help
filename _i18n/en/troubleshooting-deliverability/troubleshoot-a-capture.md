@@ -8,7 +8,7 @@ Before changing the configuration, reproduce the problem and place it in one of 
 
 | Stage | What you observe |
 | --- | --- |
-| **Availability** | The playbook is missing from **Explore playbooks** or shown as **By request**. |
+| **Availability** | The playbook is missing from **Explore playbooks** or shown as **On request**. |
 | **Loading** | The capture exists but does not appear on the expected website, checkout, or channel. |
 | **Interaction** | The capture appears but does not open, advance, or submit. |
 | **Verification** | The customer submitted information but must still verify a new phone number or email. |
@@ -22,7 +22,7 @@ This separation keeps you from reinstalling a capture when the problem is a pend
 1. Open **Playbooks** and click **Explore playbooks**.
 2. Find the **Captures** group.
 3. Confirm that the playbook is available for your business and plan.
-4. If it is shown as **By request**, disabled, or not yet available, check with your Hellotext team before preparing the installation.
+4. If it is shown as **On request**, disabled, or not yet available, check with your Hellotext team before preparing the installation.
 
 After configuring it, confirm that it was saved and enabled. Popups and forms published on a website must also complete their installation or publishing step.
 
