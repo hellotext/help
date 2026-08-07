@@ -40,6 +40,8 @@ Nombra cada captura según la ubicación o campaña donde se va a usar. Esto per
 
 Prueba cada captura antes de compartirla con clientes. Para códigos QR, escanea con un teléfono la versión final impresa o publicada. Para links y formularios, prueba el flujo completo desde el mismo tipo de dispositivo que usaría un cliente.
 
+Si una captura no aparece, no completa la interacción o no actualiza el perfil del cliente, sigue [Soluciona una captura que no aparece o no registra clientes]({% link _troubleshooting-deliverability/troubleshoot-a-capture.md %}).
+
 Para webchat, prueba el lanzador, teaser, secuencia inicial, ownership en Inbox y cualquier derivación a WhatsApp desde desktop y mobile.
 
 ## Próximos pasos
