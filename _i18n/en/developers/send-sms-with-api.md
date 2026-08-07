@@ -117,6 +117,8 @@ For reusable content, property-based personalization, or named dynamic links, yo
 
 Templates with dynamic links require you to send their URLs under `template.shortlinks`. The [message sending reference](https://www.hellotext.com/api#create_a_message) contains the complete structure.
 
+See [Create and send templates with the API]({% link _developers/templates-with-api.md %}) for template creation, property tags, dynamic short links, channel targeting, and WhatsApp approval.
+
 ## Length, encoding, and cost
 
 The character capacity of one SMS segment depends on its encoding:

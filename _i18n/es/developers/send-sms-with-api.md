@@ -117,6 +117,8 @@ Para contenido reutilizable, personalización mediante propiedades o links diná
 
 Las plantillas con links dinámicos requieren que envíes sus URLs dentro de `template.shortlinks`. La [referencia para enviar mensajes](https://www.hellotext.com/api#create_a_message) contiene la estructura completa.
 
+Consulta [Crea y envía plantillas con la API]({% link _developers/templates-with-api.md %}) para conocer la creación de plantillas, etiquetas de propiedades, links cortos dinámicos, selección de canales y aprobación de WhatsApp.
+
 ## Longitud, codificación y costo
 
 La cantidad de caracteres de un segmento SMS depende de su codificación:

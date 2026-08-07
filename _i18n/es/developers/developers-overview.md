@@ -27,6 +27,7 @@ Abre la [referencia de la API de Hellotext](https://www.hellotext.com/api).
 
 Usa las guías prácticas de la API cuando necesites pasar del contrato de un endpoint a un flujo de integración completo:
 
+- [Crea y envía plantillas con la API]({% link _developers/templates-with-api.md %})
 - [Sincroniza productos y entiende la disponibilidad de inventario]({% link _developers/products-and-inventory-with-api.md %})
 - [Crea y registra pedidos con la API]({% link _developers/orders-with-api.md %})
 - [Crea y registra cupones con la API]({% link _developers/coupons-with-api.md %})
