@@ -27,6 +27,7 @@ Abre la [referencia de la API de Hellotext](https://www.hellotext.com/api).
 
 Usa las guías prácticas de la API cuando necesites pasar del contrato de un endpoint a un flujo de integración completo:
 
+- [Envía mensajes con la API]({% link _developers/send-messages-with-api.md %})
 - [Crea y envía plantillas con la API]({% link _developers/templates-with-api.md %})
 - [Sincroniza productos y entiende la disponibilidad de inventario]({% link _developers/products-and-inventory-with-api.md %})
 - [Crea y registra pedidos con la API]({% link _developers/orders-with-api.md %})
@@ -45,11 +46,11 @@ Authorization: Bearer TU_TOKEN
 
 Nunca expongas tokens privados en código del navegador, repositorios públicos o scripts del lado del cliente.
 
-## Envía SMS desde tu sistema
+## Envía mensajes desde tu sistema
 
-Usa la API de mensajes cuando tu propio sistema necesite enviar recordatorios, confirmaciones o notificaciones por SMS.
+Usa la API de mensajes cuando tu propio sistema necesite enviar un mensaje individual libre o con plantilla mediante un canal compatible.
 
-Sigue leyendo: [Enviar SMS con la API]({% link _developers/send-sms-with-api.md %}).
+Comienza con [Envía mensajes con la API]({% link _developers/send-messages-with-api.md %}). Para conocer longitud, codificación, costos y límites específicos de SMS, consulta [Enviar SMS con la API]({% link _developers/send-sms-with-api.md %}).
 
 ## Registra actividad de clientes
 

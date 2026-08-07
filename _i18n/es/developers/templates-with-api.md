@@ -236,6 +236,7 @@ No reintentes sin cambios un error de validación. Corrige primero el parámetro
 ## Guías relacionadas
 
 - [Resumen para desarrolladores y API]({% link _developers/developers-overview.md %})
+- [Envía mensajes con la API]({% link _developers/send-messages-with-api.md %})
 - [Enviar SMS con la API]({% link _developers/send-sms-with-api.md %})
 - [Fundamentos del canal de WhatsApp]({% link _numbers/whatsapp-channel-fundamentals.md %})
 - [Resumen del editor de mensajes]({% link _numbers/message-editor-overview.md %})

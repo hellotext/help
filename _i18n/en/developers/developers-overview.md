@@ -27,6 +27,7 @@ Open the [Hellotext API reference](https://www.hellotext.com/api).
 
 Use the practical API guides when you need to move from the endpoint contract to a complete integration flow:
 
+- [Send messages with the API]({% link _developers/send-messages-with-api.md %})
 - [Create and send templates with the API]({% link _developers/templates-with-api.md %})
 - [Sync products and understand inventory availability]({% link _developers/products-and-inventory-with-api.md %})
 - [Create and track orders with the API]({% link _developers/orders-with-api.md %})
@@ -45,11 +46,11 @@ Authorization: Bearer YOUR_TOKEN
 
 Never expose private tokens in browser code, public repositories, or client-side scripts.
 
-## Send SMS from your system
+## Send messages from your system
 
-Use the messages API when your own system needs to send reminders, confirmations, or notifications by SMS.
+Use the Messages API when your own system needs to send an individual free-form or template message through a compatible channel.
 
-Keep reading: [Send SMS with the API]({% link _developers/send-sms-with-api.md %}).
+Start with [Send messages with the API]({% link _developers/send-messages-with-api.md %}). For SMS-specific length, encoding, costs, and limits, read [Send SMS with the API]({% link _developers/send-sms-with-api.md %}).
 
 ## Track customer activity
 

@@ -153,6 +153,7 @@ The [API errors section](https://www.hellotext.com/api#errors) explains the resp
 
 ## Related guides
 
+- [Send messages with the API]({% link _developers/send-messages-with-api.md %})
 - [Integrate a custom store]({% link _developers/custom-store-integration.md %})
 - [Hellotext API reference](https://www.hellotext.com/api)
 - [Tracking events]({% link _developers/tracking-events.md %})
