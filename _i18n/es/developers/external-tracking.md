@@ -190,7 +190,9 @@ Registra el código y el error en tus logs, pero nunca guardes el token ni datos
 
 ## 7. Evita eventos duplicados
 
-Cada request aceptada puede crear un evento nuevo, aunque reutilices el mismo producto o pedido. Encontrar el mismo objeto por `reference` y `source` no elimina eventos repetidos.
+La mayoría de las requests de tracking aceptadas pueden crear un evento nuevo, aunque reutilices el mismo objeto. Encontrar el mismo objeto por `reference` y `source` no elimina eventos repetidos.
+
+Las acciones preestablecidas del ciclo de un pedido son una excepción específica: Hellotext guarda un evento por cada combinación de pedido y acción, como un solo evento `order.shipped` para un pedido determinado. Esto no ofrece idempotencia general para las requests. Otros tipos de eventos todavía pueden duplicarse, por lo que debes evitar envíos repetidos desde tu integración.
 
 - Guarda en tu sistema qué evento de origen ya fue aceptado por Hellotext.
 - No reintentes respuestas `200`.

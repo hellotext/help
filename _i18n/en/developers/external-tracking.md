@@ -190,7 +190,9 @@ Record the status and error in your logs, but never log the token or complete cu
 
 ## 7. Prevent duplicate events
 
-Every accepted request can create a new event, even when the same product or order is reused. Finding the same object through `reference` and `source` does not remove repeated events.
+Most accepted tracking requests can create a new event, even when the same object is reused. Finding the same object through `reference` and `source` does not remove repeated events.
+
+Built-in order lifecycle actions are a narrow exception: Hellotext stores one event for each order and action pair, such as one `order.shipped` event for a given order. This does not provide general request idempotency. Other event types can still be duplicated, so prevent repeated submissions in your integration.
 
 - Store which source event has already been accepted by Hellotext in your own system.
 - Do not retry `200` responses.

@@ -149,7 +149,9 @@ La API no expone un parámetro general de idempotencia. Tu integración debe con
 - No envíes el mismo evento de pedido desde Hellotext.js y desde tu backend.
 - Si vence el tiempo de una request de creación, reconcilia el pedido antes de enviar otro `POST`; la request original podría haberse completado.
 
-Hellotext evita guardar repetidamente la misma acción del ciclo para un pedido, pero tu integración igualmente debe evitar envíos duplicados y conservar un registro confiable del origen.
+Para las acciones preestablecidas del ciclo de un pedido, Hellotext guarda un evento por cada combinación de pedido y acción. Por ejemplo, volver a enviar `order.shipped` para el mismo pedido no agrega otro evento de envío.
+
+Esta regla no es idempotencia general de la API. Otros tipos de eventos todavía pueden duplicarse y una acción diferente del ciclo para el mismo pedido sigue siendo otro evento. Tu integración debe evitar envíos duplicados y conservar un registro confiable del origen.
 
 ## 7. Verifica un pedido de principio a fin
 

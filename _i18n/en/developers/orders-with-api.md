@@ -149,7 +149,9 @@ The API does not expose an idempotency-key parameter. Your integration must keep
 - Do not send the same order event from Hellotext.js and your backend.
 - If a create request times out, reconcile the order before sending another `POST`; the original request may have completed.
 
-Hellotext avoids storing the same lifecycle action repeatedly for one order, but your integration should still prevent duplicate submissions and preserve a reliable source log.
+For built-in order lifecycle actions, Hellotext stores one event for each order and action pair. For example, sending `order.shipped` again for the same order does not add another shipment event.
+
+This rule is not general API idempotency. Other event types can still be duplicated, and a different lifecycle action for the same order remains a separate event. Your integration should prevent duplicate submissions and preserve a reliable source log.
 
 ## 7. Verify one order end to end
 
