@@ -51,6 +51,7 @@ Usa esta tabla como mapa rápido:
 | Si el playbook tiene... | Aplica normalmente a... | Qué cambia |
 | --- | --- | --- |
 | **Prompt del agente** | Agentes de IA, agentes personalizados y algunos playbooks autónomos | Misión, tono, límites y cuándo derivar. |
+| **Tono** | Playbooks con respuestas o mensajes generados por IA | La voz y el estilo con los que se comunica el playbook. |
 | **Intenciones** | Agentes personalizados y playbooks personalizados | Qué mensajes de clientes activan ese agente. |
 | **Conocimiento** | Agentes de IA de venta o atención | Qué información usa el agente para responder. |
 | **Canales de entrada/salida** | Playbooks que permiten selección de canales | Dónde puede responder o enviar mensajes. |
@@ -77,6 +78,22 @@ Los buenos cambios de prompt son específicos:
 Evita instrucciones amplias como "vende más", "responde todo" o "haz lo que ayude al cliente". Suenan útiles, pero hacen más difícil probar los límites del agente.
 
 Para una estructura más profunda, usa [Cómo escribir un gran prompt para tu agente]({% link _journeys/how-to-write-a-great-prompt.md %}).
+
+## Personaliza el tono
+
+Esta sección aplica a playbooks que muestran la tarjeta **Tono**.
+
+El tono controla la voz y el estilo de las respuestas o mensajes generados por IA. No cambia la misión, el alcance, el conocimiento, la elegibilidad, los descuentos ni las reglas de derivación del playbook; usa el subcomponente correspondiente para esos cambios.
+
+Elige una voz concreta y coherente con tu marca:
+
+- Usa dos o tres atributos compatibles, como "cálido, claro y directo".
+- Define si la comunicación debería sentirse formal o conversacional.
+- Considera cuánta brevedad, entusiasmo o humor funciona para el canal y el tipo de conversación.
+- Evita combinar indicaciones que compitan entre sí, como "muy formal" y "casual y juguetón".
+- Si el prompt también incluye instrucciones de tono, asegúrate de que coincidan con esta tarjeta.
+
+Después de cambiar el tono, prueba varios mensajes realistas en el Playground o la vista previa. Revisa que la voz siga siendo natural en respuestas breves, explicaciones, objeciones y derivaciones, y que no vuelva ambiguas las políticas ni demasiado agresivas las ofertas.
 
 ## Personaliza intenciones
 
