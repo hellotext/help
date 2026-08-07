@@ -94,7 +94,7 @@ Confirm that:
 - the template exists in Meta for that number, language, and name; and
 - it was not deleted by another user or integration.
 
-When Hellotext indicates that Meta no longer has the approved template, save the changes to submit it for approval again or select another active template.
+When Hellotext indicates that Meta no longer has the approved template, confirm whether it was deleted before resubmitting it. If the approved template was deleted, select another active template, create a new template with a different name, or wait 30 days before reusing the deleted name. Otherwise, save the changes to submit it for approval again.
 
 ## Imported parameters require attention
 

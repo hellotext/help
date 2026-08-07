@@ -94,7 +94,7 @@ Confirma que:
 - la plantilla exista en Meta para ese número, idioma y nombre; y
 - no haya sido eliminada por otro usuario o integración.
 
-Cuando Hellotext indica que Meta ya no tiene la plantilla aprobada, guarda los cambios para volver a enviarla a aprobación o selecciona otra plantilla activa.
+Cuando Hellotext indique que Meta ya no tiene la plantilla aprobada, confirma si fue eliminada antes de volver a enviarla. Si la plantilla aprobada fue eliminada, selecciona otra plantilla activa, crea una nueva con otro nombre o espera 30 días antes de reutilizar el nombre eliminado. De lo contrario, guarda los cambios para volver a enviarla a aprobación.
 
 ## Los parámetros importados necesitan atención
 
