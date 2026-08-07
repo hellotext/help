@@ -66,6 +66,8 @@ Puedes crear acciones personalizadas desde **Ajustes → Acciones → Personaliz
 
 Obtén más información en **[Referencia de API para acciones](https://www.hellotext.com/api#actions)**.
 
+Para definir el nombre, registrar ocurrencias y usar la acción en rutas o reportes, consulta [Acciones personalizadas]({% link _developers/custom-actions.md %}).
+
 Un evento personalizado con un monto monetario positivo puede evaluarse para atribución cuando Hellotext puede identificar al cliente y encontrar evidencia elegible de origen y tiempo. Crear una acción personalizada por sí solo no convierte sus ingresos en ingresos atribuidos. Consulta [Cómo atribuimos las ventas]({% link _analytics-reporting-attribution/sales-attribution.md %}).
 
 ## Comprendiendo los eventos

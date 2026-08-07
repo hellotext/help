@@ -66,6 +66,8 @@ You can create custom actions from **Settings → Actions → Custom** or throug
 
 Learn more on the **[API Reference for Actions](https://www.hellotext.com/api#actions)**.
 
+To define the name, track occurrences, and use the action in journeys or reports, read [Custom actions]({% link _developers/custom-actions.md %}).
+
 A custom event with a positive monetary amount can be evaluated for attribution when Hellotext can identify the customer and find eligible source and timing evidence. Creating a custom action by itself does not make its revenue attributed. See [How we attribute sales]({% link _analytics-reporting-attribution/sales-attribution.md %}).
 
 ## Understanding Events

@@ -97,6 +97,8 @@ Marcar una acción como conversión permite que los reportes traten sus eventos 
 
 Trata el nombre de tracking como un contrato con tu sitio, backend e integraciones. Si lo cambias, actualiza cada fuente que envía el evento. Eliminar una acción personalizada también elimina sus eventos asociados y no se puede deshacer.
 
+Consulta [Acciones personalizadas]({% link _developers/custom-actions.md %}) para ver el flujo completo de configuración, tracking, objetos y solución de problemas.
+
 ## Registra y revisa eventos
 
 Los eventos pueden llegar automáticamente desde una tienda conectada, captura, conversación, Hellotext.js, API o integración personalizada.
@@ -150,5 +152,6 @@ Antes de depender de una propiedad o evento personalizado:
 - [Crea segmentos]({% link _audience/segments.md %})
 - [Etiquetas de personalización]({% link _audience/personalization-tags.md %})
 - [Qué son las señales]({% link _journeys/what-are-signals.md %})
+- [Acciones personalizadas]({% link _developers/custom-actions.md %})
 - [Seguimiento de eventos]({% link _developers/tracking-events.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})

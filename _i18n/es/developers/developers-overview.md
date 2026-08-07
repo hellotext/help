@@ -1,10 +1,11 @@
 Usa las guías para desarrolladores cuando necesites conectar Hellotext con tu sitio, backend, CRM, plataforma de comercio o herramientas internas.
 
-La mayoría del trabajo técnico con Hellotext cae en cuatro áreas:
+La mayoría del trabajo técnico con Hellotext cae en cinco áreas:
 
 - Leer la referencia de la API.
 - Enviar mensajes desde tu propio sistema.
 - Rastrear actividad de clientes.
+- Definir acciones y objetos específicos del negocio.
 - Conectar sesiones no identificadas con perfiles de cliente.
 
 ## Referencia de la API
@@ -38,6 +39,12 @@ Usa tracking cuando quieres que Hellotext entienda acciones desde tu sitio, tien
 Los eventos rastreados pueden ayudarte a segmentar audiencias, activar playbooks o rutas, atribuir ingresos y darle más contexto al equipo del Inbox.
 
 Sigue leyendo: [Seguimiento de eventos]({% link _developers/tracking-events.md %}).
+
+## Modela actividad específica del negocio
+
+Usa acciones personalizadas para nombrar actividad que Hellotext no incluye de forma preestablecida. Usa objetos cuando esa actividad involucra una entidad reutilizable con propiedades y ciclo de vida propios.
+
+Sigue leyendo: [Acciones personalizadas]({% link _developers/custom-actions.md %}) y [Objetos]({% link _developers/objects.md %}).
 
 ## Conecta sesiones del navegador con perfiles de cliente
 
