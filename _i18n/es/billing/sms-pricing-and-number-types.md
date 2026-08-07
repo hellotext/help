@@ -37,6 +37,7 @@ Confirma:
 
 ## Guías relacionadas
 
+- [Fundamentos del canal SMS]({% link _numbers/sms-channel-fundamentals.md %})
 - [Modelo de precios]({% link _billing/how-pricing-works.md %})
 - [Uso del plan y cargos mensuales]({% link _billing/understanding-plan-quotas.md %})
 - [Resumen de canales de mensajería]({% link _numbers/messaging-overview.md %})

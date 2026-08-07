@@ -16,7 +16,7 @@ Usa WhatsApp para:
 - Campañas dirigidas a audiencias elegibles.
 - Descubrimiento de productos y checkout cuando tu catálogo está conectado.
 
-Usa SMS cuando principalmente necesitas alcance amplio y un mensaje de texto simple. Muchos negocios usan ambos canales.
+Usa SMS cuando principalmente necesitas alcance amplio y un mensaje de texto simple. Muchos negocios usan ambos canales. Sigue leyendo: [Fundamentos del canal SMS]({% link _numbers/sms-channel-fundamentals.md %}).
 
 ## Prepara el canal antes de lanzar
 
@@ -124,6 +124,7 @@ Sigue leyendo: [Checklist antes de enviar]({% link _getting-started/go-live-chec
 ## Guías relacionadas
 
 - [Resumen de canales de mensajería]({% link _numbers/messaging-overview.md %})
+- [Fundamentos del canal SMS]({% link _numbers/sms-channel-fundamentals.md %})
 - [Conecta WhatsApp]({% link _integrations/connect-whatsapp.md %})
 - [Conecta tu catálogo a WhatsApp]({% link _integrations/connect-catalog-to-whatsapp.md %})
 - [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
