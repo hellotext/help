@@ -51,6 +51,7 @@ Use this table as a quick map:
 | If the playbook has... | Usually applies to... | What it changes |
 | --- | --- | --- |
 | **Agent prompt** | AI agents, custom agents, and some autonomous playbooks | Mission, tone, boundaries, and when to hand off. |
+| **Tone** | Playbooks with AI-generated replies or messages | The voice and style the playbook uses to communicate. |
 | **Intents** | Custom agents and custom playbooks | Which customer messages activate that agent. |
 | **Knowledge** | Sales or support AI agents | What information the agent uses to answer. |
 | **Incoming/outgoing channels** | Playbooks that allow channel selection | Where the playbook can reply or send. |
@@ -77,6 +78,22 @@ Good prompt changes are specific:
 Avoid broad instructions such as "sell more," "answer everything," or "do whatever helps the customer." They sound helpful, but they make the agent's boundaries harder to test.
 
 For a deeper prompt structure, use [How to write a great agent prompt]({% link _journeys/how-to-write-a-great-prompt.md %}).
+
+## Customize tone
+
+This section applies to playbooks that show the **Tone** card.
+
+Tone controls the voice and style of AI-generated replies or messages. It does not change the playbook's mission, scope, knowledge, eligibility, discounts, or handoff rules; use the corresponding component for those changes.
+
+Choose a specific voice that is consistent with your brand:
+
+- Use two or three compatible attributes, such as "warm, clear, and direct."
+- Define whether communication should feel formal or conversational.
+- Consider how much brevity, enthusiasm, or humor fits the channel and conversation type.
+- Avoid combining competing directions such as "very formal" and "casual and playful."
+- If the prompt also includes tone guidance, make sure it agrees with this card.
+
+After changing tone, test several realistic messages in the Playground or preview. Check that the voice still feels natural in short replies, explanations, objections, and handoffs, and that it does not make policies ambiguous or offers too aggressive.
 
 ## Customize intents
 

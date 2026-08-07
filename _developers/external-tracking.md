@@ -3,10 +3,10 @@ languages: ["en", "es"]
 
 en:
   title: External tracking
-  description: How to track events from external systems such as databases, POS, or eCommerce platforms.
+  description: Send trusted customer, product, order, and custom events from your backend or external systems.
 es:
   title: Seguimiento de origen externo
-  description: Cómo rastrear eventos desde sistemas externos como bases de datos, POS o plataformas de comercio electrónico.
+  description: Registra eventos confiables de clientes, productos, pedidos y acciones personalizadas desde tu backend o sistemas externos.
 
 permalink: external-tracking
 permalink_es: seguimiento-externo

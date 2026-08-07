@@ -90,18 +90,19 @@ Empieza aquí:
 
 Si tu experiencia de WhatsApp depende de recomendaciones de producto o contexto de órdenes, conecta la plataforma de comercio antes o junto con WhatsApp.
 
-## Camino custom o API
+## Camino personalizado o por API
 
-Usa este camino cuando tu fuente de datos es custom, tu checkout no está cubierto por una integración estándar o tu equipo necesita enviar eventos directamente.
+Usa este camino cuando tu fuente de datos es personalizada, tu checkout no está cubierto por una integración estándar o tu equipo necesita enviar eventos directamente.
 
 Empieza aquí:
 
+- [Integra una tienda propia con Hellotext]({% link _developers/custom-store-integration.md %})
 - [Resumen de desarrolladores y API]({% link _developers/developers-overview.md %})
 - [Seguimiento de eventos]({% link _developers/tracking-events.md %})
 - [Seguimiento de clientes no identificados]({% link _developers/tracking-unidentified-customers.md %})
 - [Seguimiento externo]({% link _developers/external-tracking.md %})
 
-Para implementaciones custom, define el primer objetivo de negocio antes de implementar todos los eventos. Recuperación de carrito, recuperación de navegación, primera compra, derivación a soporte y atribución necesitan datos distintos.
+Para implementaciones personalizadas, define el primer objetivo de negocio antes de implementar todos los eventos. Recuperación de carrito, recuperación de navegación, primera compra, derivación a soporte y atribución necesitan datos distintos.
 
 ## Qué hacer después de configurar
 

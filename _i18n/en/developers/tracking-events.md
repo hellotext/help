@@ -1,111 +1,170 @@
-Tracking events turns customer behavior into signals Hellotext can use across customer profiles, segments, attribution, playbooks, and the Inbox. Signals can come from your eCommerce site, physical store, custom backend, forms, conversations, or any other source that matters to your business.
+Event tracking turns customer activity into signals that Hellotext can use in customer profiles, segments, attribution, playbooks, journeys, and Inbox.
 
-Those signals help Hellotext decide when to trigger a playbook, update a segment, enrich a customer profile, support an agent, or attribute revenue to the right action.
+Signals can come from an integration, Hellotext.js, your backend, a physical store, forms, conversations, or Hellotext's internal actions. You do not need to track every signal manually or implement every available event.
 
-For the broader product concept, start with [What are signals?]({% link _journeys/what-are-signals.md %}).
+For the general product concept, start with [What are signals?]({% link _journeys/what-are-signals.md %}).
 
-If events are not appearing where expected, use [Troubleshoot missing signals or activity]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %}) to check identity, action names, integrations, triggers, and reports.
+## Signals, actions, events, and objects
 
-## Understanding Actions
+These terms describe different parts of the same flow:
 
-Actions are the generic activities that your customers do.
+- A **signal** is information Hellotext can interpret when making decisions.
+- An **action** defines what happened, such as `product.viewed` or `order.delivered`.
+- An **event** is one occurrence of that action for a customer or session at a specific time.
+- An **object** provides related context, such as the product, cart, order, coupon, or form.
 
-They are grouped by their kind of action and separated by a dot. 
+For example, this event says that one customer profile viewed a specific product:
 
-For example:
+```json
+{
+  "action": "product.viewed",
+  "profile": "PROFILE_ID",
+  "object": "PRODUCT_ID",
+  "tracked_at": "2026-08-07T12:30:00Z"
+}
+```
 
-### Cart actions
+The action alone is not always enough. `product.viewed` needs the viewed product, and order actions need the corresponding order.
 
-* `cart.abandoned` A cart was abandoned.
-* `cart.added` Added an item to the cart.
-* `cart.removed` Removed an item from the cart.
+Most built-in actions use the `object.verb` format. `subscribed` and `unsubscribed` are current exceptions and must not be renamed by adding a prefix.
 
-### Order actions
+## Built-in actions for integrations
 
-* `order.placed` Order has been placed.
-* `order.confirmed` Order has been confirmed by you.
-* `order.cancelled` Order has been cancelled either by you or your customer.
-* `order.shipped` Order has been shipped to your customer.
-* `order.delivered` Order has been delivered to your customer.
+These are the actions an integration can normally track. Use only the actions that represent real activity in your system.
 
-### Product actions
+### Subscription
 
-* `product.purchased` A product has been purchased.
-* `product.viewed` A product page has been viewed.
+- `subscribed`: the customer gave consent and subscribed through a compatible channel.
+- `unsubscribed`: the customer withdrew consent or opted out.
 
-### Coupon actions
+Do not use `subscribed` simply because you created a customer profile. See [Who can I message?]({% link _audience/consent-and-subscriber-status.md %}).
 
-* `coupon.redeemed` A coupon was redeemed by a customer.
+### Pages and products
 
-### Refund actions
+- `page.viewed`: the customer viewed a page.
+- `product.viewed`: the customer viewed a specific product.
+- `product.purchased`: the customer purchased a product outside a more complete order lifecycle.
 
-* `refund.requested` A customer requested a refund.
-* `refund.received` A refund was issued by you to your customer.
+Hellotext.js automatically tracks `page.viewed` with the current URL. A page view does not identify the product by itself, so `product.viewed` must explicitly include the corresponding product.
 
-### Page views actions
+If your store uses orders, prefer order actions instead of also tracking `product.purchased` for the same purchase.
 
-* `page.viewed` A page was viewed by a customer.
+### Carts and checkout
 
-### App actions
+- `cart.viewed`: the customer viewed their cart.
+- `cart.added`: a product was added to the cart.
+- `cart.removed`: a product was removed from the cart.
+- `cart.abandoned`: the store determined that the cart was abandoned.
+- `checkout.started`: the customer started checkout.
 
-* `app.install` An app was installed.
-* `app.remove` An app was removed.
-* `app.spent` A customer spent on an app.
+Do not send `cart.abandoned` simply because the customer left a page. Track it when your store or integration has actually determined that the cart was abandoned.
 
-### Form actions
+### Orders
 
-* `form.completed` A form was completed by the customer.
+- `order.placed`: the customer created the order.
+- `order.confirmed`: the business confirmed the order.
+- `order.cancelled`: the order was cancelled.
+- `order.shipped`: the order left for delivery.
+- `order.delivered`: delivery was confirmed.
 
-### Custom actions
+Track each change when it happens and reuse the same order object. Do not send every state together when the order is created.
 
-You can create custom actions from **Settings → Actions → Custom** or through the API. For example:
+### Coupons, refunds, and forms
 
-* `signup_form.completed`
-* `physical_store.paid`
-* `event.attendance`
+- `coupon.redeemed`: the customer redeemed a coupon.
+- `refund.requested`: the customer requested a refund.
+- `refund.received`: the business completed the refund.
+- `form.completed`: the customer completed a form.
 
-Learn more on the **[API Reference for Actions](https://www.hellotext.com/api#actions)**.
+### Apps
+
+- `app.installed`: the customer installed an app.
+- `app.removed`: the customer removed an app.
+- `app.spent`: the customer made a purchase associated with an app.
+
+The correct names are `app.installed` and `app.removed`. Do not use the old `app.install` or `app.remove` variants.
+
+## Actions generated by Hellotext
+
+Hellotext also creates internal signals for messages, conversations, segments, short links, customer profile changes, and playbook decisions. Some actions, such as `product.browse_abandoned`, `product.price_changed`, or `order.printed_label`, belong to internal product processes.
+
+Do not reproduce those actions manually or send them from your integration unless they are explicitly listed as supported in the [tracking API reference](https://www.hellotext.com/api#tracking). Duplicating them can trigger automations or affect reporting incorrectly.
+
+## Custom actions
+
+When no built-in action represents what happens in your business, create a custom action from **Settings → Actions → Custom** or through the API.
+
+Use a stable, descriptive name, for example:
+
+- `appointment.completed`
+- `store_visit.completed`
+- `membership.renewed`
+
+Do not generate a new name for each customer, order, or date. An action represents one reusable activity type, and each event represents one occurrence.
+
+The custom action must exist before you track the first event. See [Create an action](https://www.hellotext.com/api#create_an_action).
 
 To define the name, track occurrences, and use the action in journeys or reports, read [Custom actions]({% link _developers/custom-actions.md %}).
 
-A custom event with a positive monetary amount can be evaluated for attribution when Hellotext can identify the customer and find eligible source and timing evidence. Creating a custom action by itself does not make its revenue attributed. See [How we attribute sales]({% link _analytics-reporting-attribution/sales-attribution.md %}).
+A custom event with a positive monetary amount can be evaluated for attribution when Hellotext identifies the customer and finds eligible source and timing evidence. Creating the action does not automatically turn its amount into attributed revenue. See [How we attribute sales]({% link _analytics-reporting-attribution/sales-attribution.md %}).
 
-## Understanding Events
+## How events reach Hellotext
 
-An event is the object that creates a relationship between an action and a customer profile at a particular time.
+### Integrations
 
-It is created when you track an action from a customer and becomes part of the signal history Hellotext can use later.
+eCommerce, channel, and other platform integrations can create customer profiles, objects, and events automatically. Review what each integration provides and do not send the same events again from your code.
 
-## Ways to track events
+See [Setup and integrations]({% link _integrations/setup-overview.md %}) and [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %}).
 
-* Using one of the integrations like Mercado Libre. 
-* Using Javascript.
-* Using the API.
+### Hellotext.js
 
-You can also use **New Event** on a customer profile to record one occurrence manually. This does not configure automatic tracking for future occurrences.
+Use Hellotext.js for activity that happens in the browser, such as page views, product views, and cart changes. The library includes the current session to preserve anonymous context.
 
-## Tracking with Integrations
+See the [Hellotext.js repository](https://github.com/hellotext/hellotext.js) for current instructions.
 
-### Mercado Libre
+### API
 
-If you sell on Mercado Libre you can track your customers' purchases automatically.
+Use the API from your backend for trusted events such as orders, payments, cancellations, shipments, deliveries, and external-system activity.
 
-Simply connect your Mercado Libre account with just a few clicks and you will start tracking the following events immediately:
+- For a complete implementation, see [Integrate a custom store with Hellotext]({% link _developers/custom-store-integration.md %}).
+- To send events from the backend, see [External tracking]({% link _developers/external-tracking.md %}).
+- To associate anonymous activity, see [Tracking unidentified customers]({% link _developers/tracking-unidentified-customers.md %}).
 
-* `order.confirmed` Order has been confirmed by you.
-* `order.shipped` Order has been shipped to your customer. 
-* `order.cancelled` Order has been cancelled either by you or your customer.
-* `refund.requested` A customer requested a refund.
-* `refund.received` A refund was issued by you to your customer.
+### Manual tracking
 
-## Tracking events programmatically
+You can also use **New event** inside a customer profile to record one manual occurrence. This does not configure automatic tracking for future events.
 
-### Tracking with Javascript
+## Data each event should preserve
 
-To track client side events you can use the **[Hellotext.js](https://github.com/hellotext/hellotext.js)** javascript library. 
+Before implementing an action, define:
 
-Please refer to the Github repository at **[hellotext/hellotext.js](https://github.com/hellotext/hellotext.js)** to see the latest installation and configuration instructions.
+- **Identity:** the known customer profile or anonymous session.
+- **Object:** the related product, cart, order, or other object.
+- **Time:** the actual event time through `tracked_at` when it is not happening in real time.
+- **Value:** `amount` and `currency` when the action has a monetary value.
+- **Source:** the integration or system that produced the activity.
 
-### Tracking using the API
+Use stable identifiers and do not send the same event from multiple sources.
 
-Learn more on **[API Reference for Tracking](https://www.hellotext.com/api#tracking)**.
+## Verify tracking
+
+Test with one recognizable customer first:
+
+1. Confirm that the event appears on the correct customer profile.
+2. Check that the action uses the exact name.
+3. Confirm that the related object is the expected product, cart, or order.
+4. Check that the timestamp represents when the activity happened.
+5. Confirm that the integration did not already create the same event automatically.
+6. Review segments, playbooks, and reports only after validating the underlying data.
+
+If events do not appear where expected, use [Troubleshoot missing signals or activity]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %}).
+
+## Related guides
+
+- [What are signals?]({% link _journeys/what-are-signals.md %})
+- [Integrate a custom store with Hellotext]({% link _developers/custom-store-integration.md %})
+- [Custom actions]({% link _developers/custom-actions.md %})
+- [Objects]({% link _developers/objects.md %})
+- [External tracking]({% link _developers/external-tracking.md %})
+- [Custom properties and events]({% link _audience/custom-properties-and-events.md %})
+- [How we attribute sales]({% link _analytics-reporting-attribution/sales-attribution.md %})

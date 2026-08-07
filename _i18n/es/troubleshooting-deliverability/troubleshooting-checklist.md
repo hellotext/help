@@ -4,7 +4,7 @@ Antes de cambiar configuración, anota el síntoma exacto, el negocio afectado, 
 
 ## 1. Confirma la configuración y los datos de origen
 
-Si faltan perfiles de cliente, productos, órdenes o configuración de canales, o si la información parece desactualizada, empieza por la configuración.
+Si faltan perfiles de clientes, productos, pedidos o configuración de canales, o si la información parece desactualizada, empieza por la configuración.
 
 Revisa si la tienda o integración está conectada, si los datos recientes se están sincronizando y si el perfil del cliente afectado tiene los datos esperados.
 
@@ -21,6 +21,8 @@ Revisa el remitente, el consentimiento para ese canal, el acceso de la cuenta, s
 
 Sigue leyendo:
 
+- [Por qué no se envió un mensaje]({% link _troubleshooting-deliverability/why-a-message-did-not-send.md %})
+- [Soluciona problemas con plantillas de WhatsApp]({% link _troubleshooting-deliverability/troubleshoot-whatsapp-templates.md %})
 - [Resumen de canales de mensajería]({% link _numbers/messaging-overview.md %})
 - [Límites de envío SMS para negocios nuevos]({% link _troubleshooting-deliverability/sms-sending-limits-for-new-businesses.md %})
 - [Conecta WhatsApp]({% link _integrations/connect-whatsapp.md %})
@@ -64,4 +66,6 @@ Sigue leyendo:
 
 ## Cuando contactes a soporte
 
-Incluye el nombre del negocio, el perfil del cliente afectado, el canal, el link a la campaña, playbook, conversación o reporte, la hora aproximada, qué esperabas, qué ocurrió y cualquier captura o cambio reciente de configuración.
+Si una página no carga, conserva la URL, el momento del error y la última acción antes de recargar. Sigue [Soluciona páginas que no cargan]({% link _troubleshooting-deliverability/troubleshoot-pages-that-do-not-load.md %}).
+
+Incluye el nombre del negocio, el perfil del cliente afectado, el canal, el link a la campaña, playbook, conversación o reporte, la hora aproximada, qué esperabas, qué ocurrió y cualquier captura o cambio reciente de configuración. Revisa [Contacta a soporte de Hellotext]({% link _troubleshooting-deliverability/contact-hellotext-support.md %}) antes de enviar información sensible.

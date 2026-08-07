@@ -1,12 +1,21 @@
 Usa las guías para desarrolladores cuando necesites conectar Hellotext con tu sitio, backend, CRM, plataforma de comercio o herramientas internas.
 
-La mayoría del trabajo técnico con Hellotext cae en cinco áreas:
+Si vas a conectar una tienda propia sin una integración nativa, comienza con [Integra una tienda propia con Hellotext]({% link _developers/custom-store-integration.md %}). Presenta perfiles, propiedades, productos, pedidos históricos, Hellotext.js, identidad y seguimiento desde el servidor en el orden de implementación correcto.
 
+La mayoría del trabajo técnico con Hellotext cae en seis áreas:
+
+- Integrar una tienda propia de principio a fin.
 - Leer la referencia de la API.
 - Enviar mensajes desde tu propio sistema.
-- Rastrear actividad de clientes.
+- Registrar actividad de clientes.
 - Definir acciones y objetos específicos del negocio.
-- Conectar sesiones no identificadas con perfiles de cliente.
+- Conectar sesiones no identificadas con perfiles de clientes.
+
+## Integración de una tienda propia
+
+La guía para tiendas propias es el punto de partida práctico para un equipo que todavía no sabe qué datos debe enviar mediante la API, qué actividad debe registrar con Hellotext.js o cómo se conectan ambos lados.
+
+Empieza aquí: [Integra una tienda propia con Hellotext]({% link _developers/custom-store-integration.md %}).
 
 ## Referencia de la API
 
@@ -32,9 +41,9 @@ Usa la API de mensajes cuando tu propio sistema necesite enviar recordatorios, c
 
 Sigue leyendo: [Enviar SMS con la API]({% link _developers/send-sms-with-api.md %}).
 
-## Rastrea actividad de clientes
+## Registra actividad de clientes
 
-Usa tracking cuando quieres que Hellotext entienda acciones desde tu sitio, tienda, backend o integración personalizada.
+Usa el seguimiento de eventos cuando quieres que Hellotext entienda acciones desde tu sitio, tienda, backend o integración personalizada.
 
 Los eventos rastreados pueden ayudarte a segmentar audiencias, activar playbooks o rutas, atribuir ingresos y darle más contexto al equipo del Inbox.
 
@@ -46,9 +55,9 @@ Usa acciones personalizadas para nombrar actividad que Hellotext no incluye de f
 
 Sigue leyendo: [Acciones personalizadas]({% link _developers/custom-actions.md %}) y [Objetos]({% link _developers/objects.md %}).
 
-## Conecta sesiones del navegador con perfiles de cliente
+## Conecta sesiones del navegador con perfiles de clientes
 
-Hellotext.js puede crear una sesión para visitantes no identificados. Cuando el visitante se identifica, puedes adjuntar esa sesión a un perfil de cliente para conservar la actividad anterior.
+Hellotext.js puede crear una sesión para visitantes no identificados. Cuando el visitante se identifica, puedes adjuntar esa sesión a un perfil del cliente para conservar la actividad anterior.
 
 Sigue leyendo: [Seguimiento de clientes no identificados]({% link _developers/tracking-unidentified-customers.md %}).
 

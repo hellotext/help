@@ -1,46 +1,76 @@
-Sending SMS through the Hellotext API is a simple way to integrate reminders, confirmations, or notifications from your own system.
+Use the Hellotext API when your system needs to trigger an individual SMS, such as a confirmation, reminder, or transactional notification. To send the same message to an audience, use a Hellotext campaign, where you can select recipients and review send performance.
 
 ## Before you start
 
-To send SMS through the API you need to:
+You need:
 
-* Have an account and a business already created in Hellotext.
-* Create an authorization token from *Settings* -> *Authorizations*.
-* Have SMS balance available in your business.
+- an active Hellotext business with SMS sending enabled;
+- an authorization token for the business;
+- a valid destination number or the identifier of a customer profile with a phone number; and
+- permission to send the corresponding type of message.
 
-If SMS balance is not enabled yet, please contact our team to activate it.
+The token can act on the data of the business that created it. Store it only in your backend or a secret manager. Do not include it in Hellotext.js, browser code, or a distributed mobile application.
 
-## Create the authorization token
+## 1. Create an authorization token
 
-Once you are inside your business, go to *Settings* -> *Authorizations*.
+In Hellotext, open the business and go to **Settings → Authorizations**. Select **Create new token**, use a name that identifies the integration, and store the generated value.
 
-Click *Create new token*, give it a name that helps you identify the integration, and copy the generated value. You will use it in the `Authorization` header of each request:
+Send the token with every request:
 
 ```text
 Authorization: Bearer YOUR_TOKEN
 ```
 
-## Send an SMS
+Each token belongs to one business. Use different tokens for different businesses or environments, and replace a token if it is no longer private. See the [API authentication section](https://www.hellotext.com/api#authentication) for the complete reference.
 
-To send a message, make a `POST` request to `https://api.hellotext.com/v1/messages`.
+## 2. Choose how to identify the recipient
 
-Send these fields in the request body:
+You can send the SMS in two ways:
 
-* `body`: message content.
-* `destination`: destination number in international format, for example `+573176655211`.
-* `technology`: delivery technology. For SMS use `sms`.
+- **With a phone number:** send `destination` in international E.164 format, for example `+14155552671`. Hellotext looks for a customer profile with that phone and creates one automatically if none exists.
+- **With a customer profile:** send its identifier in `profile`. The profile must have an available phone number. If it has several and you need to choose a specific one, also include `destination`.
 
-### cURL example
+Creating or finding the customer profile during the send does not automatically subscribe it to promotional communications. Customer identity and consent are separate data.
+
+## 3. Send your first SMS
+
+Make a `POST` request to `https://api.hellotext.com/v1/messages` with:
+
+- `technology`: use `sms` to force the SMS channel;
+- `body`: the message content; and
+- `destination` or `profile`: the recipient.
+
+This example sends to a phone number and lets Hellotext find or create the customer profile:
 
 ```bash
 curl -X POST "https://api.hellotext.com/v1/messages" \
   -H "Authorization: Bearer YOUR_TOKEN" \
-  -F "body=Hello, this is an SMS sent through the Hellotext API." \
-  -F "destination=+573176655211" \
-  -F "technology=sms"
+  -H "Content-Type: application/json" \
+  --data '{
+    "technology": "sms",
+    "destination": "+14155552671",
+    "body": "Your order is ready for pickup."
+  }'
 ```
 
-If the request is accepted, the API will respond with a JSON similar to this:
+If you already know the customer profile identifier, you can use it instead of the phone number:
+
+```bash
+curl -X POST "https://api.hellotext.com/v1/messages" \
+  -H "Authorization: Bearer YOUR_TOKEN" \
+  -H "Content-Type: application/json" \
+  --data '{
+    "technology": "sms",
+    "profile": "PROFILE_ID",
+    "body": "Your order is ready for pickup."
+  }'
+```
+
+Hellotext automatically chooses an available SMS channel. Only send `origin` when you need to use a specific sender configured for the business. See [Send a Message in the API reference](https://www.hellotext.com/api#create_a_message) for every parameter.
+
+## 4. Interpret the response
+
+When the request is valid, the API responds with:
 
 ```json
 {
@@ -48,56 +78,80 @@ If the request is accepted, the API will respond with a JSON similar to this:
 }
 ```
 
-### Postman example
+This response confirms that Hellotext accepted the request and scheduled it for processing. It does not confirm that the mobile carrier delivered the SMS.
 
-If you prefer to test it in Postman, configure:
+The send is processed asynchronously. Later message states can include:
 
-* Method: `POST`
-* URL: `https://api.hellotext.com/v1/messages`
-* Header: `Authorization: Bearer YOUR_TOKEN`
-* Body: `form-data`
+- `pending`: created and waiting for processing;
+- `routed`: sent to the external provider;
+- `delivered`: confirmed as delivered; and
+- `failed`: could not be delivered.
 
-Then add these fields to the body. For example:
+You can review the customer profile conversation in Inbox or query [the message list in the API](https://www.hellotext.com/api#list_all_messages). The reference also lets you retrieve a specific message once you know its identifier.
 
-* `body`: `Hello, this is an SMS sent from Postman.`
-* `destination`: `+573176655211`
-* `technology`: `sms`
+## 5. Test the complete flow
 
-You can also use this header as an example:
+Before enabling the send in production:
 
-* Header `Authorization`: `Bearer YOUR_TOKEN`
+1. Send a message to a test number controlled by your team.
+2. Confirm that the API responds with `status: received`.
+3. Check that the SMS appears in the correct conversation and reaches the phone.
+4. Review the final message state.
+5. Test an invalid phone number and invalid token to verify how your integration records errors.
 
-## Pricing, length, and encoding
+Do not interpret a successful response as final delivery. Keep the result of each attempt and avoid automatically sending the same message again when a request has an uncertain outcome. The endpoint does not accept an idempotency key, so your system must prevent duplicates when retrying.
 
-Sending rates depend on your configuration and destination. You can learn more in the [pricing section](https://www.hellotext.com/precios).
+## Messages with links
 
-By default, SMS messages use `GSM-7 Latin` encoding and each message has a `160` character limit.
-
-If you go over that limit, Hellotext automatically concatenates the content into an additional message and the cost is billed as two SMS messages.
-
-If the text includes characters that are not compatible with `GSM-7`, such as emojis, Hellotext will automatically try to use `UCS-2` encoding. This mode is available in Colombia.
-
-When a message uses `UCS-2`, the maximum length is reduced to `80` characters per message.
-
-## Add shortlinks inside the message
-
-You can generate a short link directly inside the message text using the `{shortlink:URL}` syntax.
-
-For example:
+Do not paste a long URL directly if you want Hellotext to generate a tracked short link. Use this syntax inside `body`:
 
 ```text
-Learn more here {shortlink:https://www.tunegocio.com}
+Track your order here: {shortlink:https://shop.example.com/orders/123}
 ```
 
-Hellotext will replace that instruction with a short link when the message is sent.
+Hellotext replaces the instruction during processing. If the business uses its own short-link domain, see [Set up a custom domain for short links]({% link _integrations/custom-domain-for-short-links.md %}). To understand how the session is preserved after a click, read [Track campaign, route, and playbook links]({% link _developers/tracking-on-campaigns-and-journeys.md %}).
 
-If you want to use your own short link domain, see the [custom domain for short links guide]({% link _integrations/custom-domain-for-short-links.md %}).
+## When to use a template
 
-## Customer profiles
+For reusable content, property-based personalization, or named dynamic links, you can send a template identifier instead of `body`. When you send `template`, Hellotext uses that template's content and ignores `body`.
 
-You do not need to create a profile in advance to make a one-off send to a number using `destination`.
+Templates with dynamic links require you to send their URLs under `template.shortlinks`. The [message sending reference](https://www.hellotext.com/api#create_a_message) contains the complete structure.
 
-However, if you also want to keep customer profile history, segment audiences, or reuse that data in campaigns, playbooks, or routes, you can:
+## Length, encoding, and cost
 
-* Import customer profiles from the Hellotext interface.
-* Create profiles programmatically with the [API reference for creating profiles](https://www.hellotext.com/api#create_a_profile).
+The character capacity of one SMS segment depends on its encoding:
+
+- 7-bit GSM: up to 160 characters in a single segment;
+- Latin-1: up to 140 characters in a single segment; and
+- UCS-2: up to 70 characters in a single segment.
+
+Special characters and emoji can change the encoding. Long messages can be split into multiple billable SMS segments, and part of each segment is used to concatenate them. Do not estimate cost from character count alone without considering encoding.
+
+Pricing also depends on the destination country, plan, and included SMS messages. See [SMS pricing and number types]({% link _billing/sms-pricing-and-number-types.md %}) to estimate a send.
+
+## Consent and sending limits
+
+The API does not replace consent rules. Before sending:
+
+- verify that the customer can receive that type of communication;
+- do not send promotional messages to profiles that are not subscribed or have opted out;
+- include the appropriate opt-out mechanism when required; and
+- follow the laws and sending hours that apply in the destination country.
+
+See [Who can you message?]({% link _audience/consent-and-subscriber-status.md %}) to distinguish identity, verification, and subscription. [SMS sending limits for new businesses]({% link _troubleshooting-deliverability/sms-sending-limits-for-new-businesses.md %}) also apply to messages initiated through the API.
+
+## Common errors
+
+- **`401 Unauthorized`:** the token is missing, invalid, or has been replaced.
+- **`422 Request Failed`:** check the phone number, `body`, `profile`, `technology`, and SMS availability for the business. Correct the request before retrying.
+- **Server errors:** record the response and retry with progressive backoff. Protect the flow against duplicate sends.
+- **The request was accepted, but the message fails:** check the message state, phone number, account limits, and channel availability.
+
+The [API errors section](https://www.hellotext.com/api#errors) explains the response format.
+
+## Related guides
+
+- [Integrate a custom store]({% link _developers/custom-store-integration.md %})
+- [Hellotext API reference](https://www.hellotext.com/api)
+- [Tracking events]({% link _developers/tracking-events.md %})
+- [Tracked links and short-link domains]({% link _analytics-reporting-attribution/tracked-links.md %})
