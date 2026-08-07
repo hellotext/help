@@ -119,6 +119,8 @@ Mantén estables los valores de `source`, `reference` y SKU. Actualiza el produc
 
 Consulta [Crear un producto en la API](https://www.hellotext.com/api#create_a_product) para ver todos los datos compatibles del producto y sus variantes.
 
+El endpoint público de productos no expone actualmente la cantidad de stock ni la disponibilidad en tiempo real. No agregues valores de inventario dentro de `metadata` esperando que los usen los playbooks que dependen del stock. Lee [Sincroniza productos y entiende la disponibilidad de inventario]({% link _developers/products-and-inventory-with-api.md %}) antes de habilitar un flujo que dependa del inventario.
+
 ## 5. Importa pedidos históricos
 
 Los pedidos históricos le dan contexto de compra a Hellotext antes de que llegue el primer evento en vivo. Cada pedido importado necesita:
@@ -178,7 +180,7 @@ Usa el evento que refleje lo que realmente ocurrió, como `order.placed`, `order
 
 Conserva las fechas originales durante la importación histórica. De lo contrario, compras antiguas pueden parecer actividad actual y distorsionar segmentos, elegibilidad de playbooks y reportes.
 
-Consulta [Crear un pedido](https://www.hellotext.com/api#create_an_order) y [registrar eventos de pedidos](https://www.hellotext.com/api#track_order_events) para ver todas las opciones disponibles.
+Consulta [Crea y registra pedidos con la API]({% link _developers/orders-with-api.md %}), [Crear un pedido](https://www.hellotext.com/api#create_an_order) y [registrar eventos de pedidos](https://www.hellotext.com/api#track_order_events) para ver todas las opciones disponibles.
 
 ## 6. Instala Hellotext.js en la tienda
 
@@ -376,6 +378,10 @@ Si faltan datos, usa [Soluciona señales o actividad faltante]({% link _troubles
 ## Guías relacionadas
 
 - [Resumen de desarrolladores y API]({% link _developers/developers-overview.md %})
+- [Sincroniza productos y entiende la disponibilidad de inventario]({% link _developers/products-and-inventory-with-api.md %})
+- [Crea y registra pedidos con la API]({% link _developers/orders-with-api.md %})
+- [Crea y registra cupones con la API]({% link _developers/coupons-with-api.md %})
+- [Soluciona una integración propia]({% link _developers/troubleshoot-custom-integration.md %})
 - [Seguimiento de eventos]({% link _developers/tracking-events.md %})
 - [Propiedades y eventos personalizados]({% link _audience/custom-properties-and-events.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})

@@ -119,6 +119,8 @@ Keep `source`, `reference`, and SKU values stable. Update the existing product w
 
 See [Create a product in the API](https://www.hellotext.com/api#create_a_product) for all supported product and variant data.
 
+The public product endpoint does not currently expose stock quantity or live availability. Do not add inventory values to `metadata` and assume that inventory-aware playbooks will use them. Read [Sync products and understand inventory availability]({% link _developers/products-and-inventory-with-api.md %}) before enabling a workflow that depends on stock.
+
 ## 5. Import historical orders
 
 Historical orders give Hellotext purchase context before the first live event arrives. Each imported order needs:
@@ -178,7 +180,7 @@ Use the event that reflects what really happened, such as `order.placed`, `order
 
 Preserve original timestamps during the historical import. Otherwise, old purchases can look like current activity and distort segmentation, playbook eligibility, and reporting.
 
-See [Create an order](https://www.hellotext.com/api#create_an_order) and [track order events](https://www.hellotext.com/api#track_order_events) for all available options.
+See [Create and track orders with the API]({% link _developers/orders-with-api.md %}), [Create an order](https://www.hellotext.com/api#create_an_order), and [track order events](https://www.hellotext.com/api#track_order_events) for all available options.
 
 ## 6. Install Hellotext.js on the storefront
 
@@ -376,6 +378,10 @@ If data is missing, use [Troubleshoot missing signals or activity]({% link _trou
 ## Related guides
 
 - [Developers and API overview]({% link _developers/developers-overview.md %})
+- [Sync products and understand inventory availability]({% link _developers/products-and-inventory-with-api.md %})
+- [Create and track orders with the API]({% link _developers/orders-with-api.md %})
+- [Create and track coupons with the API]({% link _developers/coupons-with-api.md %})
+- [Troubleshoot a custom integration]({% link _developers/troubleshoot-custom-integration.md %})
 - [Tracking events]({% link _developers/tracking-events.md %})
 - [Custom properties and events]({% link _audience/custom-properties-and-events.md %})
 - [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})
