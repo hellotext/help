@@ -1,72 +1,126 @@
-Después de enviar una campaña, activar una ruta o habilitar un playbook, querrás entender cómo interactuaron y se comportaron los clientes. Idealmente, también querrás conservar ese comportamiento como señales que Hellotext pueda reutilizar después.
+Los links con tracking permiten conectar un clic con el mensaje que lo originó, el perfil del cliente, una sesión, los reportes y la actividad que ocurre después en tu sitio.
 
-Ese es el propósito del tracking de links y eventos: conectar cada click con un perfil de cliente, una sesión, un reporte y una decisión futura.
+Hellotext puede crear estos links en mensajes de campañas, rutas, playbooks e Inbox. Para que el contexto continúe después de la redirección, el sitio de destino debe conservar la sesión y registrar correctamente la actividad posterior.
 
-## Enlaces cortos y sesiones
+## Qué hace Hellotext cuando el cliente hace clic
 
-Un enlace corto es simplemente una forma de reducir la longitud de una URL a algo parecido a `hello.link/3lsnvh`.
+Cuando agregas un link con la herramienta del editor, Hellotext genera una URL corta como `hello.link/XXXXXX` o usa el dominio personalizado configurado por el negocio.
 
-Esto te ayuda a superar el límite de 160 caracteres de los mensajes de texto, dejando más espacio para el mensaje. Los cortos también se sienten más atractivos.
+Cuando el cliente hace clic, Hellotext:
 
-Puedes compartir enlaces cortos en mensajes de campañas, rutas, playbooks e Inbox.
+1. Registra la acción `short_link.clicked` para el perfil del cliente y el mensaje correspondiente.
+2. Actualiza la cantidad de clics del link y los reportes disponibles.
+3. Conserva el contexto de la campaña, broadcast, ruta, paso o playbook que originó el mensaje.
+4. Redirige al cliente a la URL original.
+5. Agrega una sesión y parámetros UTM a la URL de destino.
 
-Cuando los clientes hacen clic en un enlace corto, son redirigidos a la URL original. Hellotext adjunta un parámetro GET a la URL original llamado `hellotext_session` que contiene un identificador de sesión generado de forma única con cada clic.
+Hellotext filtra las previews que identifica como bots para que no se contabilicen como clics de clientes. Aun así, un clic registrado representa una interacción, no una compra ni una conversión garantizada.
 
-Cada vez que un cliente hace clic en un enlace corto, se crea un evento y aparece en la actividad del perfil de cliente. Los clics también pueden agregarse a reportes de campañas, rutas o playbooks cuando ese reporte está disponible.
+No envíes `short_link.clicked` manualmente desde tu integración. Hellotext lo crea cuando procesa el clic del link.
 
-Un clic elegible puede aportar evidencia activa de atribución y normalmente abre una ventana de siete días desde el clic. No es el único camino de atribución: una entrega elegible u otra evidencia pasiva puede aplicar dentro de la ventana predeterminada de 24 horas. Consulta [Cómo atribuimos las ventas]({% link _analytics-reporting-attribution/sales-attribution.md %}).
+## Parámetros que recibe el sitio de destino
 
-## Primeros pasos de seguimiento
+La URL redirigida puede verse así:
 
-Si tu sitio funciona con alguna de las plataformas que ya ofrecemos soporte de integración, puedes conectarlo para comenzar a rastrear eventos automáticamente.
-
-Si tu integración aún no es compatible o si tienes tu propia implementación personalizada, puedes comenzar a rastrear eventos instalando la librería [**Hellotext.js**](https://github.com/hellotext/hellotext.js).
-
-### Configura la librería en tu sitio
-
-Comienza instalando la librería.
-
-```bash
-npm install @hellotext/hellotext
+```text
+https://shop.example.com/products/everyday-sneakers?hello_session=SESSION_ID&utm_source=hellotext&utm_medium=sms&utm_campaign=CAMPAIGN_ID
 ```
 
-Importa la librería en tu aplicación.
+Los parámetros tienen funciones diferentes:
+
+- `hello_session` conserva la sesión asociada con el link y permite conectar actividad posterior.
+- `utm_source` identifica el origen del tráfico; normalmente su valor es `hellotext`.
+- `utm_medium` identifica el canal cuando está disponible.
+- `utm_campaign` identifica la campaña, ruta o playbook cuando corresponde.
+
+El parámetro vigente es `hello_session`. No uses ni busques `hellotext_session`.
+
+Si la URL original ya contiene parámetros, Hellotext los conserva y agrega los suyos. No elimines `hello_session` ni los parámetros UTM en una redirección intermedia.
+
+## Cómo continúa la sesión en el sitio
+
+Hellotext.js lee `hello_session` desde la URL, conserva la sesión en el navegador y la incluye en la actividad posterior.
+
+Inicializa Hellotext.js antes de que tu router o código de la tienda elimine los parámetros de la URL. En una aplicación de una sola página, conserva el query string durante la carga inicial.
+
+Puedes comprobar la sesión después de inicializar la librería:
 
 ```javascript
-import Hellotext from "@hellotext/hellotext";
+if (Hellotext.isInitialized) {
+  console.log(Hellotext.session)
+}
 ```
 
-Inicializa la librería pasando el identificador público `HELLOTEXT_BUSINESS_ID` que representa la empresa.
+Hellotext.js registra automáticamente `page.viewed` con la URL actual. Si la página representa un producto, registra también `product.viewed` e incluye explícitamente el producto. La URL por sí sola no aporta toda la información del catálogo.
 
-Puedes encontrarlo en la página de configuración de la empresa.
+Consulta [Seguimiento de clientes no identificados]({% link _developers/tracking-unidentified-customers.md %}) para conocer el ciclo completo de la sesión y la identidad.
 
-```javascript
-Hellotext.initialize("HELLOTEXT_BUSINESS_ID");
-```
+## Contexto según el origen del mensaje
 
-## Seguimiento de eventos del lado del cliente
+El mismo mecanismo conserva diferentes referencias según dónde se creó el mensaje:
 
-El seguimiento de eventos es sencillo y quizás el ejemplo más simple es el seguimiento de una vista de página:
+- **Campaña:** el clic se relaciona con la campaña, el broadcast y el mensaje enviado.
+- **Ruta:** el clic se relaciona con la ruta, el paso y el mensaje que se ejecutó.
+- **Playbook:** el clic se relaciona con el playbook y el mensaje generado o enviado.
+- **Inbox:** el clic queda en la actividad del cliente y la conversación, aunque no tenga un reporte de campaña o automatización.
 
-```javascript
-Hellotext.track("page.visited");
-```
+No reutilices manualmente el link personalizado de un mensaje para otros clientes o envíos. Agrega el destino mediante la herramienta de links del editor y permite que Hellotext genere el contexto correcto para cada mensaje.
 
-Consulta la [**documentación de uso de la biblioteca**](https://github.com/hellotext/hellotext.js#usage) para obtener una referencia completa sobre todas las acciones y atributos disponibles.
+## Cómo se conectan los eventos posteriores
 
-## Seguimiento de eventos del lado del servidor
+Un clic es solo el inicio de la sesión. Para entender qué ocurrió después, el sitio o backend debe registrar las acciones relevantes:
 
-A veces, es posible que desees realizar un seguimiento de los eventos que ocurrieron fuera del navegador, por ejemplo, es posible que desees realizar un seguimiento de los eventos directamente en el lado del servidor de tu sistema, o en un momento en el que el cliente no esté presente.
+- Hellotext.js registra navegación, vistas de productos y cambios del carrito.
+- Tu backend registra pedidos, pagos, cancelaciones, envíos y entregas confiables.
+- Cuando se conoce al cliente, la sesión debe asociarse con el perfil del cliente correcto.
 
-Esto es posible capturando el identificador de sesión y almacenándolo en tu sistema para usarlo más tarde cuando quieras rastrear un evento asociado a esta sesión.
+Si el checkout ocurre en otro dominio o aplicación, envía el ID de `Hellotext.session` a tu backend antes de perder el contexto. Después puedes registrar el pedido con el perfil del cliente o la sesión correspondiente.
 
-Para obtener la sesión actual, simplemente llama a `Hellotext.session`:
+No envíes el mismo evento desde Hellotext.js y desde el backend. Consulta [Seguimiento de eventos]({% link _developers/tracking-events.md %}) y [Seguimiento de origen externo]({% link _developers/external-tracking.md %}).
 
-```javascript
-Hellotext.session
-// Returns bBJn9vR15yPaYkWmR2QK0jopMeNxrA6l
-```
+## Clics, reportes y atribución
 
-Luego puedes rastrear eventos enviando una solicitud `POST` directamente a la API.
+Los clics pueden aparecer en la actividad del perfil del cliente y en reportes de campañas, rutas o playbooks cuando ese reporte está disponible.
 
-Más información: [**Seguimiento externo**]({% link _developers/external-tracking.md %}).
+Un clic elegible puede aportar evidencia activa de atribución y normalmente abre una ventana de siete días desde el clic. Una entrega elegible u otra señal pasiva puede aplicar dentro de la ventana predeterminada de 24 horas. Estas ventanas pueden configurarse por cuenta.
+
+El clic no garantiza que una compra se atribuya a ese origen. Hellotext también evalúa:
+
+- Que el cliente y el pedido estén identificados correctamente.
+- Que la compra ocurra dentro de la ventana aplicable.
+- Que la campaña, ruta, playbook o entrega sean elegibles.
+- Que no exista otra fuente válida con mayor precedencia.
+
+Consulta [Cómo atribuimos las ventas]({% link _analytics-reporting-attribution/sales-attribution.md %}) para conocer las ventanas, la precedencia y los ejemplos completos.
+
+## Verifica la implementación
+
+Prueba con un perfil del cliente y un mensaje reconocibles:
+
+1. Crea un link con tracking mediante el editor.
+2. Envía el mensaje de prueba y abre el link como lo haría el cliente.
+3. Confirma que la URL de destino incluya `hello_session` y los parámetros UTM esperados.
+4. Verifica que `Hellotext.session` coincida con la sesión recibida.
+5. Confirma que el clic aparezca en la actividad del perfil del cliente.
+6. Revisa el reporte de la campaña, ruta o playbook cuando esté disponible.
+7. Registra una vista de producto, carrito o pedido de prueba y confirma que conserve el cliente y el origen correctos.
+8. Comprueba que la misma actividad no se haya registrado dos veces.
+
+## Soluciona problemas comunes
+
+- **El clic aparece, pero la actividad posterior no:** confirma que el sitio conserve `hello_session` hasta que Hellotext.js se inicialice.
+- **La sesión cambia al llegar al sitio:** revisa redirects, dominios, cookies y el orden de inicialización de Hellotext.js.
+- **La vista de página aparece sin producto:** registra `product.viewed` con el producto correspondiente.
+- **El clic no aparece en el reporte:** verifica que el link haya sido creado en el mensaje correcto y que no haya sido una preview detectada como bot.
+- **La compra no se atribuye:** revisa identidad, pedido, fecha, ventana y precedencia de fuentes.
+
+Si faltan señales, usa [Soluciona señales o actividad faltante]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %}).
+
+## Guías relacionadas
+
+- [Links con tracking]({% link _analytics-reporting-attribution/tracked-links.md %})
+- [Resumen del editor de mensajes]({% link _numbers/message-editor-overview.md %})
+- [Seguimiento de clientes no identificados]({% link _developers/tracking-unidentified-customers.md %})
+- [Seguimiento de origen externo]({% link _developers/external-tracking.md %})
+- [Cómo atribuimos las ventas]({% link _analytics-reporting-attribution/sales-attribution.md %})
+- [Dominio personalizado para links cortos]({% link _integrations/custom-domain-for-short-links.md %})

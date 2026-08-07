@@ -7,7 +7,7 @@ and is located in the editor toolbar.
 
 Links have the following structure: `hello.link/XXXXXX` where `XXXXXX` is the link's unique identifier.
 
-When these links are clicked, Hellotext redirects the customer to the URL specified when creating the link and attaches a `hellotext_session` identifier
+When these links are clicked, Hellotext redirects the customer to the URL specified when creating the link and attaches a `hello_session` identifier
 to the URL. This identifier is used to identify the session and can be used to track actions performed by the customer as signals.
 You can look at our client-side <a class="active" href='https://github.com/hellotext/hellotext.js'>JavaScript library</a> that helps you with tracking related events.
 

@@ -96,6 +96,7 @@ Use this path when your data source is custom, your checkout is not covered by a
 
 Start here:
 
+- [Integrate a custom store with Hellotext]({% link _developers/custom-store-integration.md %})
 - [Developers and API overview]({% link _developers/developers-overview.md %})
 - [Tracking events]({% link _developers/tracking-events.md %})
 - [Tracking unidentified customers]({% link _developers/tracking-unidentified-customers.md %})
