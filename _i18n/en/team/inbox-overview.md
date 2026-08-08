@@ -62,7 +62,7 @@ Keep reading: [Message editor overview]({% link _numbers/message-editor-overview
 
 For website conversations, also review [Webchat Widget playbook]({% link _captures/webchat-widget-playbook.md %}).
 
-For social conversations, review [Instagram DM fundamentals]({% link _numbers/instagram-dm-fundamentals.md %}).
+For social conversations, review [Instagram DM fundamentals]({% link _numbers/instagram-dm-fundamentals.md %}) and [Facebook Messenger fundamentals]({% link _numbers/facebook-messenger-fundamentals.md %}).
 
 For satisfaction after closed conversations, also review [CSAT Pulse playbook]({% link _journeys/csat-pulse-playbook.md %}).
 

@@ -10,9 +10,11 @@ Usa **WhatsApp** cuando tus clientes prefieren chatear, cuando quieres conversac
 
 Usa **Instagram DM** cuando los clientes descubren tu negocio en Instagram e inician allí conversaciones sobre productos o soporte.
 
-Muchos negocios usan varios canales: SMS para alcance, WhatsApp para experiencias salientes y conversacionales más ricas, e Instagram para conversaciones iniciadas por el cliente. Las campañas, rutas y playbooks pueden usar los canales de maneras diferentes, por lo que debes confirmar cómo funciona la selección de canal para la experiencia que vas a lanzar.
+Usa **Facebook Messenger** cuando los clientes escriben a tu página de Facebook y tu equipo necesita gestionar esas conversaciones en el Inbox.
 
-Sigue leyendo: [Fundamentos del canal SMS]({% link _numbers/sms-channel-fundamentals.md %}), [Fundamentos del canal de WhatsApp]({% link _numbers/whatsapp-channel-fundamentals.md %}) y [Fundamentos de Instagram DM]({% link _numbers/instagram-dm-fundamentals.md %}).
+Muchos negocios usan varios canales: SMS para alcance, WhatsApp para experiencias salientes y conversacionales más ricas, e Instagram o Messenger para conversaciones sociales iniciadas por el cliente. Las campañas, rutas y playbooks pueden usar los canales de maneras diferentes, por lo que debes confirmar cómo funciona la selección de canal para la experiencia que vas a lanzar.
+
+Sigue leyendo: [Fundamentos del canal SMS]({% link _numbers/sms-channel-fundamentals.md %}), [Fundamentos del canal de WhatsApp]({% link _numbers/whatsapp-channel-fundamentals.md %}), [Fundamentos de Instagram DM]({% link _numbers/instagram-dm-fundamentals.md %}) y [Fundamentos de Facebook Messenger]({% link _numbers/facebook-messenger-fundamentals.md %}).
 
 ## Opciones de remitente SMS
 
@@ -36,6 +38,7 @@ Antes de lanzar una campaña, playbook o ruta, confirma que:
 - [Fundamentos del canal SMS]({% link _numbers/sms-channel-fundamentals.md %})
 - [Fundamentos del canal de WhatsApp]({% link _numbers/whatsapp-channel-fundamentals.md %})
 - [Fundamentos de Instagram DM]({% link _numbers/instagram-dm-fundamentals.md %})
+- [Fundamentos de Facebook Messenger]({% link _numbers/facebook-messenger-fundamentals.md %})
 - [Conecta WhatsApp]({% link _integrations/connect-whatsapp.md %})
 - [A quién puedo escribirle: consentimiento y estado de suscripción]({% link _audience/consent-and-subscriber-status.md %})
 - [Resumen de herramientas de captura]({% link _captures/capture-overview.md %})
