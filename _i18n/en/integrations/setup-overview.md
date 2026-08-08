@@ -36,11 +36,14 @@ If you sell through WhatsApp, connect the commerce platform first and then conne
 
 Connect Instagram when customers should be able to start direct-message conversations that reach your Inbox, playbooks, routes, or AI agents. Instagram uses its own direct login and is separate from Facebook Messenger.
 
+Connect Messenger when customers should be able to message your Facebook Page and reach your Inbox, routes, or compatible playbooks. Messenger uses Facebook login and requires access to the intended Page and Meta Business account.
+
 Keep reading:
 
 - [Connect WhatsApp]({% link _integrations/connect-whatsapp.md %})
 - [Connect your catalog to WhatsApp]({% link _integrations/connect-catalog-to-whatsapp.md %})
 - [Instagram DM fundamentals]({% link _numbers/instagram-dm-fundamentals.md %})
+- [Facebook Messenger fundamentals]({% link _numbers/facebook-messenger-fundamentals.md %})
 
 ### 4. Add capture and checkout tools
 

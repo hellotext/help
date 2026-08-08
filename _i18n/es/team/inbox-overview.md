@@ -62,7 +62,7 @@ Sigue leyendo: [Resumen del editor de mensajes]({% link _numbers/message-editor-
 
 Para conversaciones desde el sitio, revisa también [Playbook Widget de Webchat]({% link _captures/webchat-widget-playbook.md %}).
 
-Para conversaciones desde redes sociales, revisa [Fundamentos de Instagram DM]({% link _numbers/instagram-dm-fundamentals.md %}).
+Para conversaciones desde redes sociales, revisa [Fundamentos de Instagram DM]({% link _numbers/instagram-dm-fundamentals.md %}) y [Fundamentos de Facebook Messenger]({% link _numbers/facebook-messenger-fundamentals.md %}).
 
 Para satisfacción después de conversaciones cerradas, revisa también [Playbook Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}).
 

@@ -36,11 +36,14 @@ Si vendes por WhatsApp, conecta primero tu plataforma de eCommerce y después co
 
 Conecta Instagram cuando los clientes deban poder iniciar conversaciones por mensaje directo que lleguen a tu Inbox, playbooks, rutas o agentes de IA. Instagram usa su propio inicio de sesión directo y es una integración separada de Facebook Messenger.
 
+Conecta Messenger cuando los clientes deban poder escribir a tu página de Facebook y llegar a tu Inbox, rutas o playbooks compatibles. Messenger usa el inicio de sesión de Facebook y requiere acceso a la página y cuenta de Meta Business correctas.
+
 Sigue leyendo:
 
 - [Conecta WhatsApp]({% link _integrations/connect-whatsapp.md %})
 - [Conecta tu catálogo a WhatsApp]({% link _integrations/connect-catalog-to-whatsapp.md %})
 - [Fundamentos de Instagram DM]({% link _numbers/instagram-dm-fundamentals.md %})
+- [Fundamentos de Facebook Messenger]({% link _numbers/facebook-messenger-fundamentals.md %})
 
 ### 4. Agrega herramientas de captura y checkout
 
