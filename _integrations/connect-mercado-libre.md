@@ -3,10 +3,10 @@ languages: ["en", "es"]
 
 en:
   title: Connect Mercado Libre
-  description: Connect your account to track customer purchases and manage post-sale conversations.
+  description: Connect your seller account to sync sales, customer profiles, post-sale conversations, and order notes.
 es:
   title: Conecta Mercado Libre
-  description: Conecta tu cuenta para rastrear las compras de los clientes y gestionar las conversaciones post-venta.
+  description: Conecta tu cuenta de vendedor para sincronizar ventas, perfiles de clientes, conversaciones posventa y notas de órdenes.
 
 permalink: connect-mercado-libre
 permalink_es: conecta-mercado-libre
