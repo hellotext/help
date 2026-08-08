@@ -8,9 +8,11 @@ Use **SMS** when you need broad reach and your account already has an approved s
 
 Use **WhatsApp** when your customers already prefer chat, when you want richer conversations, or when you plan to use product catalog and commerce flows inside WhatsApp.
 
-Many businesses use both: SMS for reach and WhatsApp for richer conversations and support. Campaigns, routes, and autonomous playbooks can use the channels differently, so confirm how channel selection works for the experience you are launching.
+Use **Instagram DM** when customers discover your business on Instagram and initiate product or support conversations there.
 
-Keep reading: [SMS channel fundamentals]({% link _numbers/sms-channel-fundamentals.md %}) and [WhatsApp channel fundamentals]({% link _numbers/whatsapp-channel-fundamentals.md %}).
+Many businesses use several channels: SMS for reach, WhatsApp for richer outbound and conversational experiences, and Instagram for customer-initiated conversations. Campaigns, routes, and playbooks can use the channels differently, so confirm how channel selection works for the experience you are launching.
+
+Keep reading: [SMS channel fundamentals]({% link _numbers/sms-channel-fundamentals.md %}), [WhatsApp channel fundamentals]({% link _numbers/whatsapp-channel-fundamentals.md %}), and [Instagram DM fundamentals]({% link _numbers/instagram-dm-fundamentals.md %}).
 
 ## SMS sender options
 
@@ -33,6 +35,7 @@ Before launching a campaign, playbook, or route, confirm that:
 - [Exclusive short codes]({% link _numbers/exclusive-short-codes.md %})
 - [SMS channel fundamentals]({% link _numbers/sms-channel-fundamentals.md %})
 - [WhatsApp channel fundamentals]({% link _numbers/whatsapp-channel-fundamentals.md %})
+- [Instagram DM fundamentals]({% link _numbers/instagram-dm-fundamentals.md %})
 - [Connect WhatsApp]({% link _integrations/connect-whatsapp.md %})
 - [Who can I message? Consent and subscriber status]({% link _audience/consent-and-subscriber-status.md %})
 - [Capture tools overview]({% link _captures/capture-overview.md %})

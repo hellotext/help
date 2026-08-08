@@ -8,9 +8,11 @@ Usa **SMS** cuando necesitas alcance amplio y tu cuenta ya tiene un remitente ap
 
 Usa **WhatsApp** cuando tus clientes prefieren chatear, cuando quieres conversaciones más ricas o cuando planeas usar catálogo de productos y flujos de compra dentro de WhatsApp.
 
-Muchos negocios usan ambos: SMS para alcance y WhatsApp para conversaciones más ricas y soporte. Las campañas, rutas y playbooks autónomos pueden usar los canales de maneras diferentes, por lo que debes confirmar cómo funciona la selección de canal para la experiencia que vas a lanzar.
+Usa **Instagram DM** cuando los clientes descubren tu negocio en Instagram e inician allí conversaciones sobre productos o soporte.
 
-Sigue leyendo: [Fundamentos del canal SMS]({% link _numbers/sms-channel-fundamentals.md %}) y [Fundamentos del canal de WhatsApp]({% link _numbers/whatsapp-channel-fundamentals.md %}).
+Muchos negocios usan varios canales: SMS para alcance, WhatsApp para experiencias salientes y conversacionales más ricas, e Instagram para conversaciones iniciadas por el cliente. Las campañas, rutas y playbooks pueden usar los canales de maneras diferentes, por lo que debes confirmar cómo funciona la selección de canal para la experiencia que vas a lanzar.
+
+Sigue leyendo: [Fundamentos del canal SMS]({% link _numbers/sms-channel-fundamentals.md %}), [Fundamentos del canal de WhatsApp]({% link _numbers/whatsapp-channel-fundamentals.md %}) y [Fundamentos de Instagram DM]({% link _numbers/instagram-dm-fundamentals.md %}).
 
 ## Opciones de remitente SMS
 
@@ -33,6 +35,7 @@ Antes de lanzar una campaña, playbook o ruta, confirma que:
 - [Códigos cortos exclusivos]({% link _numbers/exclusive-short-codes.md %})
 - [Fundamentos del canal SMS]({% link _numbers/sms-channel-fundamentals.md %})
 - [Fundamentos del canal de WhatsApp]({% link _numbers/whatsapp-channel-fundamentals.md %})
+- [Fundamentos de Instagram DM]({% link _numbers/instagram-dm-fundamentals.md %})
 - [Conecta WhatsApp]({% link _integrations/connect-whatsapp.md %})
 - [A quién puedo escribirle: consentimiento y estado de suscripción]({% link _audience/consent-and-subscriber-status.md %})
 - [Resumen de herramientas de captura]({% link _captures/capture-overview.md %})

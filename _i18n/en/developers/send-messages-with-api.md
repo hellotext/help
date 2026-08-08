@@ -173,7 +173,7 @@ The endpoint does not accept an idempotency key. Your integration must prevent d
 - Check recent messages or the Inbox conversation before retrying an uncertain request.
 - Retry a provider failure only after correcting or waiting out the reported condition.
 
-Even after the request is accepted, asynchronous processing can stop because of account limits, an unavailable channel, an invalid origin, a closed WhatsApp service window, template state, or a provider failure.
+Even after the request is accepted, asynchronous processing can stop because of account limits, an unavailable channel, an invalid origin, a closed WhatsApp or Instagram conversation window, template state, or a provider failure.
 
 ## 9. Troubleshoot common problems
 
@@ -183,6 +183,7 @@ Even after the request is accepted, asynchronous processing can stop because of 
 - **`422` on `body`:** neither a usable body nor a valid template was provided.
 - **Accepted but no outbound message appears:** verify the customer profile ID, origin, account limits, and channel availability.
 - **WhatsApp message fails:** confirm the service window is open for free-form content or use an active approved template.
+- **Instagram message fails:** confirm the customer initiated the conversation, the standard messaging window is still open, and the connected Instagram account is active.
 - **Template request fails:** confirm the template belongs to the business and supply every required dynamic short link.
 - **Message reaches `failed`:** inspect the conversation and provider reason before deciding whether another attempt is appropriate.
 
@@ -207,4 +208,5 @@ Before enabling the integration in production:
 - [Send SMS with the API]({% link _developers/send-sms-with-api.md %})
 - [Who can you message?]({% link _audience/consent-and-subscriber-status.md %})
 - [WhatsApp channel fundamentals]({% link _numbers/whatsapp-channel-fundamentals.md %})
+- [Instagram DM fundamentals]({% link _numbers/instagram-dm-fundamentals.md %})
 - [Hellotext API reference](https://www.hellotext.com/api)

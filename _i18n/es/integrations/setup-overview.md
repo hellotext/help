@@ -28,16 +28,19 @@ Después de conectar, revisa que los clientes, órdenes y actividad reciente apa
 
 Sigue leyendo: [Qué son las señales]({% link _journeys/what-are-signals.md %}).
 
-### 3. Conecta WhatsApp si lo vas a usar
+### 3. Conecta los canales de mensajería que vas a usar
 
 Conecta WhatsApp antes de crear capturas, playbooks, rutas o campañas de WhatsApp.
 
 Si vendes por WhatsApp, conecta primero tu plataforma de eCommerce y después conecta tu catálogo de productos a WhatsApp.
 
+Conecta Instagram cuando los clientes deban poder iniciar conversaciones por mensaje directo que lleguen a tu Inbox, playbooks, rutas o agentes de IA. Instagram usa su propio inicio de sesión directo y es una integración separada de Facebook Messenger.
+
 Sigue leyendo:
 
 - [Conecta WhatsApp]({% link _integrations/connect-whatsapp.md %})
 - [Conecta tu catálogo a WhatsApp]({% link _integrations/connect-catalog-to-whatsapp.md %})
+- [Fundamentos de Instagram DM]({% link _numbers/instagram-dm-fundamentals.md %})
 
 ### 4. Agrega herramientas de captura y checkout
 
@@ -68,7 +71,7 @@ Si una integración no se comporta como esperas, revisa primero lo básico:
 - El negocio de Hellotext es el correcto.
 - Las claves de API, tokens, configuración del plugin o permisos de la app siguen vigentes.
 - Los dominios de la tienda y scripts de checkout corresponden a la tienda activa.
-- El navegador permite ventanas emergentes durante la configuración de WhatsApp.
+- El navegador permite ventanas emergentes y redirecciones de autorización durante la configuración de canales.
 - La integración tuvo tiempo suficiente para sincronizar después de la primera conexión.
 
 Si la configuración sigue sin verse bien, contacta a soporte con el nombre del negocio, la integración que conectaste y el paso donde aparece el problema.
