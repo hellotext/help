@@ -156,6 +156,7 @@ Si aparecen duplicados o errores de validación, usa [Soluciona una integración
 
 ## Guías relacionadas
 
+- [Sincronización del catálogo de productos]({% link _integrations/product-catalog-sync.md %})
 - [Integra una tienda propia con Hellotext]({% link _developers/custom-store-integration.md %})
 - [Crea y registra pedidos con la API]({% link _developers/orders-with-api.md %})
 - [Seguimiento de eventos]({% link _developers/tracking-events.md %})

@@ -62,6 +62,7 @@ Después de conectar Shopify, usa la actividad de la tienda como señales para s
 
 Próximos pasos útiles:
 
+- Revisa la [sincronización del catálogo de productos]({% link _integrations/product-catalog-sync.md %}).
 - Configura el [opt-in en checkout de Shopify]({% link _captures/shopify-checkout.md %}).
 - Revisa [a quién puedes escribirle]({% link _audience/consent-and-subscriber-status.md %}).
 - Elige tu [primer playbook]({% link _journeys/choose-your-first-playbook.md %}).

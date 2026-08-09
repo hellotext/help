@@ -378,6 +378,7 @@ If data is missing, use [Troubleshoot missing signals or activity]({% link _trou
 ## Related guides
 
 - [Developers and API overview]({% link _developers/developers-overview.md %})
+- [Product catalog synchronization]({% link _integrations/product-catalog-sync.md %})
 - [Sync products and understand inventory availability]({% link _developers/products-and-inventory-with-api.md %})
 - [Create and track orders with the API]({% link _developers/orders-with-api.md %})
 - [Create and track coupons with the API]({% link _developers/coupons-with-api.md %})

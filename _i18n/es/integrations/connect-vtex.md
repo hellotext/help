@@ -111,3 +111,5 @@ Una vez completado, haz clic en Guardar.
 
 Para más información, consulta la configuración de afiliados en VTEX:
 [https://help.vtex.com/docs/tutorials/configuring-affiliates](https://help.vtex.com/docs/tutorials/configuring-affiliates)
+
+Cuando la conexión esté lista, revisa la [sincronización del catálogo de productos]({% link _integrations/product-catalog-sync.md %}) para comprobar la identidad, variantes, precios, imágenes y disponibilidad antes de lanzar playbooks basados en productos.

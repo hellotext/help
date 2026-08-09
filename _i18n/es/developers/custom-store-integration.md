@@ -378,6 +378,7 @@ Si faltan datos, usa [Soluciona señales o actividad faltante]({% link _troubles
 ## Guías relacionadas
 
 - [Resumen de desarrolladores y API]({% link _developers/developers-overview.md %})
+- [Sincronización del catálogo de productos]({% link _integrations/product-catalog-sync.md %})
 - [Sincroniza productos y entiende la disponibilidad de inventario]({% link _developers/products-and-inventory-with-api.md %})
 - [Crea y registra pedidos con la API]({% link _developers/orders-with-api.md %})
 - [Crea y registra cupones con la API]({% link _developers/coupons-with-api.md %})

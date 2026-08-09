@@ -156,6 +156,7 @@ If duplicates or validation errors appear, use [Troubleshoot a custom integratio
 
 ## Related guides
 
+- [Product catalog synchronization]({% link _integrations/product-catalog-sync.md %})
 - [Integrate a custom store with Hellotext]({% link _developers/custom-store-integration.md %})
 - [Create and track orders with the API]({% link _developers/orders-with-api.md %})
 - [Tracking events]({% link _developers/tracking-events.md %})

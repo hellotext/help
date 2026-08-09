@@ -96,3 +96,5 @@ A partir de ahora, comenzarás a ver reflejada la actividad de tus clientes en A
 Podrás hacer clic en cada perfil para ver el historial de actividades que realizan en tu eCommerce.
 
 Usa esta actividad como señales para segmentos, playbooks, rutas, segmentación de campañas y reportes.
+
+Revisa la [sincronización del catálogo de productos]({% link _integrations/product-catalog-sync.md %}) antes de lanzar recomendaciones o un playbook basado en productos.
