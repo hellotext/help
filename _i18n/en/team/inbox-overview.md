@@ -20,6 +20,12 @@ Closed conversations reopen automatically when the customer replies again or whe
 
 Keep reading: [Conversation lifecycle in Inbox]({% link _team/conversation-lifecycle.md %}).
 
+## Find the work you need
+
+Use state, teammate, and label filters to move between priority work, unassigned conversations, your assigned queue, reminders, mentions, and completed conversations. Search can then locate a customer by name, alias, email, phone number, or conversation ID inside the selected view.
+
+Keep reading: [Filter and search conversations in Inbox]({% link _team/filter-and-search-inbox.md %}).
+
 ## Assign clear ownership
 
 Every conversation should have a clear owner when a person needs to respond.
@@ -47,6 +53,8 @@ Response rules help teams understand which conversations are on track and which 
 Use response times when you want operational visibility across channels, teammates, and teams.
 
 Keep reading: [Response times and response rules]({% link _team/understanding-response-times.md %}).
+
+To receive alerts for incoming messages, assignments, and mentions on a device, read [Inbox browser notifications]({% link _team/inbox-browser-notifications.md %}).
 
 ## Admin and ownership tasks
 

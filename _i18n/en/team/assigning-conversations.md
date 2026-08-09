@@ -81,6 +81,8 @@ Use an internal note for private context, a mention to request attention, **Snoo
 
 ## Related guides
 
+- [Filter and search conversations in Inbox]({% link _team/filter-and-search-inbox.md %})
+- [Inbox browser notifications]({% link _team/inbox-browser-notifications.md %})
 - [Conversation lifecycle in Inbox]({% link _team/conversation-lifecycle.md %})
 - [Teams and Inbox capacity]({% link _team/teams-and-inbox-capacity.md %})
 - [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %})

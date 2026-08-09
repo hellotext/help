@@ -20,6 +20,12 @@ Las conversaciones cerradas se reabren automáticamente cuando el cliente vuelve
 
 Sigue leyendo: [Ciclo de una conversación en el Inbox]({% link _team/conversation-lifecycle.md %}).
 
+## Encuentra el trabajo que necesitas
+
+Usa filtros de estado, integrante y etiqueta para moverte entre trabajo prioritario, conversaciones sin asignar, tu cola asignada, recordatorios, menciones y conversaciones completadas. Después, la búsqueda puede encontrar un cliente por nombre, alias, email, teléfono o ID de conversación dentro de la vista seleccionada.
+
+Sigue leyendo: [Filtra y busca conversaciones en el Inbox]({% link _team/filter-and-search-inbox.md %}).
+
 ## Asigna un responsable claro
 
 Cada conversación debería tener un responsable claro cuando una persona necesita responder.
@@ -47,6 +53,8 @@ Las reglas de respuesta ayudan a entender qué conversaciones están al día y c
 Usa tiempos de respuesta cuando quieres visibilidad operativa por canal, colaborador y equipo.
 
 Sigue leyendo: [Tiempo de respuesta y reglas de respuesta]({% link _team/understanding-response-times.md %}).
+
+Para recibir alertas de mensajes entrantes, asignaciones y menciones en un dispositivo, lee [Notificaciones del navegador para el Inbox]({% link _team/inbox-browser-notifications.md %}).
 
 ## Tareas administrativas y propiedad
 
