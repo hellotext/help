@@ -20,13 +20,9 @@
 
 title: Hellotext Help
 email: info@hellotext.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: Guides to set up Hellotext, use playbooks and channels, manage conversations, and measure customer engagement.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://help.hellotext.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
 github_username:  hellotext
 
 jekyll-minifier:
@@ -250,6 +246,14 @@ collections:
 
 exclude:
   - script/
+  - README.md
+  - Procfile.dev
+  - package.json
+  - package-lock.json
+  - yarn.lock
+  - postcss.config.js
+  - tailwind.config.js
+  - netlify.toml
 
 # Exclude from processing.
 # The following items will not be processed, by default.

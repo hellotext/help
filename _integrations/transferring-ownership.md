@@ -1,4 +1,5 @@
 ---
+navigation_group: account_setup
 languages: ["en", "es"]
 
 en:

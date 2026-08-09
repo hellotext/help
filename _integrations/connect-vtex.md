@@ -1,4 +1,5 @@
 ---
+navigation_group: commerce_platforms
 languages: ["en", "es"]
 
 en:

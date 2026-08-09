@@ -325,6 +325,15 @@ h4 {
 
 .header-topic-title {
   @apply flex space-x-6 items-center;
+
+  > img {
+    @apply shrink-0;
+  }
+
+  h1 {
+    @apply min-w-0;
+    overflow-wrap: anywhere;
+  }
 }
 
 .header-guide {

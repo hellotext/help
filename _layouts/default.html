@@ -1,12 +1,9 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{ site.lang | default: 'en' }}">
   <head>
-    <meta charset="utf-8">
-    <title>{% t help_center %} | Hellotext</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="icon" type="image/x-icon" href="images/brand-favicon.svg">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    {% include gtm_head.html %}
+    {% assign document_title = site.translations[site.lang].help_center %}
+    {% assign document_description = site.translations[site.lang].help_center_description %}
+    {% include document_head.html title=document_title description=document_description %}
   </head>
   <body>
     {% include gtm_body.html %}

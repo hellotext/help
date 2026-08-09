@@ -1,4 +1,5 @@
 ---
+navigation_group: tracking
 languages: ["en", "es"]
 
 en:

@@ -1,4 +1,5 @@
 ---
+navigation_group: lists_segments
 languages: ["en", "es"]
 
 en:

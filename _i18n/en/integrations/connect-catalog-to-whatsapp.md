@@ -60,7 +60,7 @@ This will be the catalog you’ll link during the WhatsApp connection flow.
 
 Now that your catalog is ready, it’s time to connect your WhatsApp Business number to Hellotext and associate it with the catalog.
 
-1. Visit **[our guide to connect WhatsApp](https://help.hellotext.com/connect-whatsapp)**.
+1. Visit **[our guide to connect WhatsApp]({% link _integrations/connect-whatsapp.md %})**.
 
 2. Start the regular connection flow.
 
