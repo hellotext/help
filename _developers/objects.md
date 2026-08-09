@@ -1,4 +1,5 @@
 ---
+navigation_group: extensibility
 languages: ["en", "es"]
 
 en:

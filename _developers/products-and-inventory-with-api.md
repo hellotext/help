@@ -1,4 +1,5 @@
 ---
+navigation_group: api_resources
 languages: ["en", "es"]
 
 en:

@@ -1,4 +1,5 @@
 ---
+navigation_group: foundations
 languages: ["en", "es"]
 
 en:

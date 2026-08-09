@@ -1,4 +1,5 @@
 ---
+navigation_group: profile_data
 languages: ["en", "es"]
 
 en:

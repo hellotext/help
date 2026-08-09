@@ -1,4 +1,5 @@
 ---
+navigation_group: portability_privacy
 languages: ["en", "es"]
 
 en:

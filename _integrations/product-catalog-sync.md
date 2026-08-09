@@ -1,4 +1,5 @@
 ---
+navigation_group: catalog_channels
 languages: ["en", "es"]
 
 en:
