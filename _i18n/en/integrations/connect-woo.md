@@ -96,3 +96,5 @@ From now on, you will start seeing customer activity reflected in Audience and t
 You can click on each profile to see the activity history they perform in your eCommerce.
 
 Use this activity as signals for segments, playbooks, routes, campaign targeting, and reporting.
+
+Review [product catalog synchronization]({% link _integrations/product-catalog-sync.md %}) before launching a recommendation or product-based playbook.

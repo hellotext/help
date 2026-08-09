@@ -62,6 +62,7 @@ After Shopify is connected, use store activity as signals for segments, playbook
 
 Useful next steps:
 
+- Review [product catalog synchronization]({% link _integrations/product-catalog-sync.md %}).
 - Set up [Shopify checkout opt-in]({% link _captures/shopify-checkout.md %}).
 - Review [who you can message]({% link _audience/consent-and-subscriber-status.md %}).
 - Choose your [first playbook]({% link _journeys/choose-your-first-playbook.md %}).

@@ -45,6 +45,8 @@ Check:
 
 You do not need every possible commerce field before launch. You do need the fields that the first playbook, route, segment, or report will use.
 
+For a complete product check, use [Product catalog synchronization]({% link _integrations/product-catalog-sync.md %}).
+
 ## Events and signals
 
 Confirm that the activity creates the signal you expect.
@@ -137,6 +139,7 @@ If you need to diagnose where the signal stopped after launch, keep reading: [Tr
 ## Related guides
 
 - [Setup overview]({% link _integrations/setup-overview.md %})
+- [Product catalog synchronization]({% link _integrations/product-catalog-sync.md %})
 - [What are signals?]({% link _journeys/what-are-signals.md %})
 - [Troubleshoot missing signals or activity]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %})
 - [Tracking events]({% link _developers/tracking-events.md %})

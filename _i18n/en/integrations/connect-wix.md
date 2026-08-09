@@ -52,4 +52,6 @@ You can click on each profile to see the activity history they perform on your e
 
 Use this activity as signals for segments, playbooks, routes, campaign targeting, and reporting.
 
+Review [product catalog synchronization]({% link _integrations/product-catalog-sync.md %}) before launching a recommendation or product-based playbook.
+
 Remember to enable the **[Subscription opt-in checkbox on the checkout page]({% link _captures/wix-checkout.md %})** on your Wix site to obtain your customers' consent to receive promotions.

@@ -113,3 +113,5 @@ Fill in the Affiliate form with the following information
 Once completed. Click on Save.
 
 For more information view an affiliate <a href="https://help.vtex.com/docs/tutorials/configuring-affiliates">setup on VTEX.</a>
+
+After the connection is ready, review [product catalog synchronization]({% link _integrations/product-catalog-sync.md %}) to verify product identity, variants, prices, images, and availability before launching product-based playbooks.

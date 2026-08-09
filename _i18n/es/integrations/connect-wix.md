@@ -52,4 +52,6 @@ Podrás hacer clic en cada perfil para ver el historial de actividades que reali
 
 Usa esta actividad como señales para segmentos, playbooks, rutas, segmentación de campañas y reportes.
 
+Revisa la [sincronización del catálogo de productos]({% link _integrations/product-catalog-sync.md %}) antes de lanzar recomendaciones o un playbook basado en productos.
+
 Recuerda activar la **[Casilla de aceptación de suscripción en el formulario de compra]({% link _captures/wix-checkout.md %})** de tu sitio Wix para obtener el consentimiento de tus clientes para recibir promociones.

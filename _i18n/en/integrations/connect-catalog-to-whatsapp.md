@@ -8,7 +8,7 @@ Before connecting your catalog, there are two important things to keep in mind:
 
 1. **First, you must connect your eCommerce platform to Hellotext.**
    This allows Hellotext to sync your products directly from your store. You can integrate Shopify, VTEX, WooCommerce, or Wix.
-   If you haven’t done it yet, go to the *Integrations* section inside your Hellotext account and follow the corresponding guide.
+   If you haven’t done it yet, go to the *Integrations* section inside your Hellotext account and follow the corresponding guide. Before continuing, review [product catalog synchronization]({% link _integrations/product-catalog-sync.md %}).
 
 2. If you already created a catalog previously for Hellotext, you can use it without any issue.
    But if you don’t have one yet, you’ll need to create a new catalog in Meta to use it with WhatsApp.

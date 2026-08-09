@@ -26,7 +26,12 @@ Choose the guide that matches your store:
 
 After connecting, check that customers, orders, and recent activity are appearing in Hellotext before you build playbooks, routes, or campaigns from that data.
 
-Keep reading: [What are signals?]({% link _journeys/what-are-signals.md %}).
+Also confirm that the products, variants, prices, images, and availability needed by your first playbook are synchronized correctly.
+
+Keep reading:
+
+- [Product catalog synchronization]({% link _integrations/product-catalog-sync.md %})
+- [What are signals?]({% link _journeys/what-are-signals.md %})
 
 ### 3. Connect the messaging channels you will use
 

@@ -45,6 +45,8 @@ Revisa:
 
 No necesitas todos los campos posibles de comercio antes de lanzar. Sí necesitas los campos que usará el primer playbook, ruta, segmento o reporte.
 
+Para hacer una revisión completa de los productos, usa [Sincronización del catálogo de productos]({% link _integrations/product-catalog-sync.md %}).
+
 ## Eventos y señales
 
 Confirma que la actividad crea la señal que esperas.
@@ -137,6 +139,7 @@ Si necesitas diagnosticar dónde se detuvo la señal después de lanzar, sigue l
 ## Guías relacionadas
 
 - [Resumen de configuración]({% link _integrations/setup-overview.md %})
+- [Sincronización del catálogo de productos]({% link _integrations/product-catalog-sync.md %})
 - [Qué son las señales]({% link _journeys/what-are-signals.md %})
 - [Soluciona señales o actividad faltante]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %})
 - [Seguimiento de eventos]({% link _developers/tracking-events.md %})
