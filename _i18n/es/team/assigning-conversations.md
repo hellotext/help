@@ -81,6 +81,8 @@ Usa una nota interna para contexto privado, una mención para pedir atención, *
 
 ## Guías relacionadas
 
+- [Filtra y busca conversaciones en el Inbox]({% link _team/filter-and-search-inbox.md %})
+- [Notificaciones del navegador para el Inbox]({% link _team/inbox-browser-notifications.md %})
 - [Ciclo de una conversación en el Inbox]({% link _team/conversation-lifecycle.md %})
 - [Equipos y capacidad del Inbox]({% link _team/teams-and-inbox-capacity.md %})
 - [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})

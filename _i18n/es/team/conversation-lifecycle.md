@@ -93,6 +93,8 @@ El Inbox ofrece filtros de estado para:
 
 Puedes limitar las vistas compatibles por persona y etiqueta. El significado de cada filtro se mantiene separado de la asignación: por ejemplo, una conversación puede estar asignada y al mismo tiempo necesitar atención.
 
+Para conocer el significado exacto de cada combinación y cómo funciona la búsqueda dentro de ella, lee [Filtra y busca conversaciones en el Inbox]({% link _team/filter-and-search-inbox.md %}).
+
 Usa este orden diario simple:
 
 1. Revisa Necesita atención.
@@ -118,6 +120,7 @@ Sigue leyendo: [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md
 ## Guías relacionadas
 
 - [Resumen de inbox y conversaciones]({% link _team/inbox-overview.md %})
+- [Filtra y busca conversaciones en el Inbox]({% link _team/filter-and-search-inbox.md %})
 - [Asigna conversaciones]({% link _team/assigning-conversations.md %})
 - [Equipos y capacidad del Inbox]({% link _team/teams-and-inbox-capacity.md %})
 - [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})

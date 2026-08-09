@@ -93,6 +93,8 @@ The Inbox provides state filters for:
 
 You can narrow compatible views by teammate and label. The meaning of a filter stays separate from ownership: for example, a conversation can be both assigned and in need of attention.
 
+For the exact meaning of each combination and how search behaves inside it, read [Filter and search conversations in Inbox]({% link _team/filter-and-search-inbox.md %}).
+
 Use a simple daily order:
 
 1. Review Needs attention.
@@ -118,6 +120,7 @@ Keep reading: [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %}).
 ## Related guides
 
 - [Inbox and conversations overview]({% link _team/inbox-overview.md %})
+- [Filter and search conversations in Inbox]({% link _team/filter-and-search-inbox.md %})
 - [Assign conversations]({% link _team/assigning-conversations.md %})
 - [Teams and Inbox capacity]({% link _team/teams-and-inbox-capacity.md %})
 - [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %})
