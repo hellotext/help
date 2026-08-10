@@ -1,4 +1,78 @@
 (function () {
+  var guideTitle = document.querySelector("[data-fit-guide-title]");
+
+  if (guideTitle) {
+    var guideTitleWords = guideTitle.textContent.trim().split(/\s+/);
+    var guideTitleProbe = document.createElement("span");
+    var guideTitleFitFrame = null;
+
+    guideTitleProbe.className = "guide-heading__word-probe";
+    guideTitleProbe.setAttribute("aria-hidden", "true");
+    guideTitle.appendChild(guideTitleProbe);
+
+    function fitGuideTitle() {
+      guideTitle.style.removeProperty("font-size");
+
+      var availableWidth = guideTitle.getBoundingClientRect().width;
+      var defaultFontSize = parseFloat(window.getComputedStyle(guideTitle).fontSize);
+
+      if (!availableWidth || !defaultFontSize) {
+        return;
+      }
+
+      var longestWordWidth = guideTitleWords.reduce(function (longestWidth, word) {
+        guideTitleProbe.textContent = word;
+        return Math.max(longestWidth, guideTitleProbe.getBoundingClientRect().width);
+      }, 0);
+
+      guideTitleProbe.textContent = "";
+
+      if (longestWordWidth <= availableWidth) {
+        return;
+      }
+
+      var fittedFontSize = defaultFontSize * ((availableWidth - 1) / longestWordWidth);
+
+      guideTitle.style.fontSize = Math.max(1, fittedFontSize) + "px";
+    }
+
+    function scheduleGuideTitleFit() {
+      if (guideTitleFitFrame !== null) {
+        window.cancelAnimationFrame(guideTitleFitFrame);
+      }
+
+      guideTitleFitFrame = window.requestAnimationFrame(function () {
+        guideTitleFitFrame = null;
+        fitGuideTitle();
+      });
+    }
+
+    scheduleGuideTitleFit();
+    window.addEventListener("pageshow", scheduleGuideTitleFit);
+
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(scheduleGuideTitleFit);
+    }
+
+    if (typeof window.ResizeObserver === "function") {
+      var previousGuideTitleWidth = 0;
+      var guideTitleResizeObserver = new ResizeObserver(function (entries) {
+        var nextGuideTitleWidth = entries[0].contentRect.width;
+
+        if (Math.abs(nextGuideTitleWidth - previousGuideTitleWidth) < 0.5) {
+          return;
+        }
+
+        previousGuideTitleWidth = nextGuideTitleWidth;
+        scheduleGuideTitleFit();
+      });
+
+      guideTitleResizeObserver.observe(guideTitle.parentElement);
+    } else {
+      window.addEventListener("resize", scheduleGuideTitleFit);
+    }
+  }
+
   var sidebar = document.querySelector("[data-article-sidebar]");
   var sidebarToggle = sidebar && sidebar.querySelector("[data-sidebar-toggle]");
   var sidebarNav = sidebar && sidebar.querySelector(".article-sidebar__nav");

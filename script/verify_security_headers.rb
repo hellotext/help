@@ -12,7 +12,7 @@ end
 script_integrities = {
   '/js/gtm.js' => 'sha256-KOs83E8sWN0ZSanqdvyKqXPbanqGOxQAEZPz+lkrVh4=',
   '/js/search.js' => 'sha256-Cn9RZi6b09IrtHxo4SOhpbbX/E5ZK+VAFUrpZMFjghg=',
-  '/js/article-navigation.js' => 'sha256-n5SVYPnptA4t2JJaq3b+FC0eYX8KPygyM8jq7/XtIi0=',
+  '/js/article-navigation.js' => 'sha256-wCYJmMu4lFJ6xS8zGIftK+/iSWhmPjnRowWepgy5lUQ=',
   '/js/article-feedback.js' => 'sha256-AlC35S17jo/t3ripYSesMGbb0n4TCpeu1H+vT7O2UnM='
 }
 
