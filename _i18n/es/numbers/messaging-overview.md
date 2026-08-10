@@ -16,7 +16,7 @@ Usa **Mercado Libre** cuando vendes por el marketplace y necesitas gestionar con
 
 Muchos negocios usan varios canales: SMS para alcance, WhatsApp para experiencias salientes y conversacionales más ricas, Instagram o Messenger para conversaciones sociales iniciadas por el cliente y Mercado Libre para atención posventa del marketplace. Las campañas, rutas y playbooks pueden usar los canales de maneras diferentes, por lo que debes confirmar cómo funciona la selección de canal para la experiencia que vas a lanzar.
 
-Sigue leyendo: [Fundamentos del canal SMS]({% link _numbers/sms-channel-fundamentals.md %}), [Fundamentos del canal de WhatsApp]({% link _numbers/whatsapp-channel-fundamentals.md %}), [Fundamentos de Instagram DM]({% link _numbers/instagram-dm-fundamentals.md %}), [Fundamentos de Facebook Messenger]({% link _numbers/facebook-messenger-fundamentals.md %}) y [Conecta Mercado Libre]({% link _integrations/connect-mercado-libre.md %}).
+Para empezar a usar un canal social, consulta [Conecta Instagram DM]({% link _integrations/connect-instagram-dm.md %}) o [Conecta Facebook Messenger]({% link _integrations/connect-facebook-messenger.md %}). Para entender qué conversaciones admite cada uno, revisa [Fundamentos de Instagram DM]({% link _numbers/instagram-dm-fundamentals.md %}) y [Fundamentos de Facebook Messenger]({% link _numbers/facebook-messenger-fundamentals.md %}).
 
 ## Opciones de remitente SMS
 
@@ -39,7 +39,9 @@ Antes de lanzar una campaña, playbook o ruta, confirma que:
 - [Códigos cortos exclusivos]({% link _numbers/exclusive-short-codes.md %})
 - [Fundamentos del canal SMS]({% link _numbers/sms-channel-fundamentals.md %})
 - [Fundamentos del canal de WhatsApp]({% link _numbers/whatsapp-channel-fundamentals.md %})
+- [Conecta Instagram DM]({% link _integrations/connect-instagram-dm.md %})
 - [Fundamentos de Instagram DM]({% link _numbers/instagram-dm-fundamentals.md %})
+- [Conecta Facebook Messenger]({% link _integrations/connect-facebook-messenger.md %})
 - [Fundamentos de Facebook Messenger]({% link _numbers/facebook-messenger-fundamentals.md %})
 - [Conecta Mercado Libre]({% link _integrations/connect-mercado-libre.md %})
 - [Conecta WhatsApp]({% link _integrations/connect-whatsapp.md %})

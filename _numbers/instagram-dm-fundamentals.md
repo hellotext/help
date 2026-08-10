@@ -3,10 +3,10 @@ languages: ["en", "es"]
 
 en:
   title: Instagram DM fundamentals
-  description: Connect Instagram and manage direct messages through Inbox, playbooks, routes, and AI agents.
+  description: Understand how Instagram direct messages work across Inbox, playbooks, routes, and AI agents.
 es:
   title: Fundamentos de Instagram DM
-  description: Conecta Instagram y gestiona mensajes directos desde Inbox, playbooks, rutas y agentes de IA.
+  description: Entiende cómo funcionan los mensajes directos de Instagram en Inbox, playbooks, rutas y agentes de IA.
 
 permalink: instagram-dm-fundamentals
 permalink_es: fundamentos-instagram-dm

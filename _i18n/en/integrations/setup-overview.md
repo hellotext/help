@@ -47,7 +47,9 @@ Keep reading:
 
 - [Connect WhatsApp]({% link _integrations/connect-whatsapp.md %})
 - [Connect your catalog to WhatsApp]({% link _integrations/connect-catalog-to-whatsapp.md %})
+- [Connect Instagram DM]({% link _integrations/connect-instagram-dm.md %})
 - [Instagram DM fundamentals]({% link _numbers/instagram-dm-fundamentals.md %})
+- [Connect Facebook Messenger]({% link _integrations/connect-facebook-messenger.md %})
 - [Facebook Messenger fundamentals]({% link _numbers/facebook-messenger-fundamentals.md %})
 
 ### 4. Add capture and checkout tools
