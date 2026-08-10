@@ -29,7 +29,7 @@ In this article:
 
 Every agent in Hellotext can perform a wide range of actions automatically. It can read your product catalog and inventory in real time, recommend products, check stock, and guide customers through decisions.
 
-It can also search across URLs or documents you attach—such as a FAQ, policy guide, or product manual—so that it always answers from verified information rather than guessing.
+It can also search across URLs or documents you attach—such as a FAQ, policy guide, or product manual—to help the agent answer with supported information and reduce unverified responses.
 
 Agents can collect and store any customer profile properties you choose, from name and city to preferred size or interests. They can also decide when to escalate a conversation to a human, following the handoff rules you define.
 
@@ -65,7 +65,7 @@ Here, give the agent the brand and product background it needs to understand the
 
 > Lumina Atelier is a contemporary womenswear label that designs modular, timeless garments made from organic cotton and soft viscose blends. Each piece is designed in Lisbon and produced locally. Comfort, durability, and quiet elegance define the brand.
 
-This information gives the agent a reference point to ground its recommendations and ensure it never invents details.
+This information gives the agent a reference point to ground its recommendations and reduce the risk of filling in unsupported details.
 
 ### Behavior and boundaries
 

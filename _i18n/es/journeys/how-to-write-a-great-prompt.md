@@ -28,7 +28,7 @@ En este artículo:
 
 Cada agente en Hellotext puede realizar una amplia gama de acciones de forma automática. Puede leer el catálogo de productos y el inventario en tiempo real, recomendar artículos, verificar existencias y guiar a los clientes durante sus decisiones de compra.
 
-También puede buscar en URLs o documentos que adjuntes —como una sección de preguntas frecuentes, una guía de políticas o un manual de producto—, de modo que siempre responda con información verificada en lugar de adivinar.
+También puede buscar en URLs o documentos que adjuntes —como una sección de preguntas frecuentes, una guía de políticas o un manual de producto—, para ayudar al agente a responder con información respaldada y reducir las respuestas no verificadas.
 
 Los agentes pueden recopilar y guardar cualquier propiedad de perfil de cliente que elijas, desde el nombre y la ciudad hasta la talla o los intereses preferidos. También pueden decidir cuándo derivar una conversación a una persona, siguiendo las reglas de derivación que definas.
 
@@ -64,7 +64,7 @@ Aquí, proporciona al agente la información sobre la marca y los productos que 
 
 > Lumina Atelier es una marca contemporánea de moda femenina que diseña prendas modulares y atemporales elaboradas con algodón orgánico y mezclas de viscosa suave. Cada pieza se diseña en Lisboa y se produce localmente. Comodidad, durabilidad y elegancia discreta definen la marca.
 
-Esta información le da al agente un punto de referencia para fundamentar sus recomendaciones y asegurar que nunca invente detalles.
+Esta información le da al agente un punto de referencia para fundamentar sus recomendaciones y reducir el riesgo de que complete detalles sin respaldo.
 
 ### Comportamiento y límites
 
