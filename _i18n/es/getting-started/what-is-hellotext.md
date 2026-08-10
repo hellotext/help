@@ -1,6 +1,6 @@
 Hellotext ayuda a equipos de comercio a decidir qué debería pasar después con cada cliente.
 
-Lee señales de clientes y del negocio, usa playbooks para elegir la siguiente acción compatible y ejecuta esa acción mediante canales de mensajería, el Inbox, campañas, rutas o agentes de IA.
+Lee señales de clientes y del negocio, prioriza la Misión comercial elegible con más potencial de ingreso y ejecuta su acción mediante canales de mensajería, el Inbox, campañas, rutas o agentes de IA.
 
 Usa Hellotext para recuperar carritos, recomendar productos, responder preguntas frecuentes con [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}), guiar cambios, devoluciones y solicitudes de cancelación, recopilar reseñas de productos, medir lealtad y satisfacción, hacer seguimiento después de una compra, reactivar clientes, captar suscriptores y medir los ingresos conectados con esas acciones.
 

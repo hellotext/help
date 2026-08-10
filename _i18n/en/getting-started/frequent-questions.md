@@ -1,6 +1,6 @@
 ## What is Hellotext?
 
-Hellotext is a decision system for commerce teams. It reads customer and business signals, decides which action to execute for each customer, and executes that action through playbooks, the Inbox, and your messaging channels.
+Hellotext is a decision system for commerce teams. It reads customer and business signals, prioritizes eligible commercial missions by revenue potential, and executes their actions through playbooks, the Inbox, and your messaging channels.
 
 Use it to recover carts, drive repeat purchases, reactivate customers, answer conversations, and measure revenue without building every flow manually.
 
