@@ -1157,7 +1157,8 @@ html[lang="es"] .home-hero h1 {
   width: 1lh;
   height: 1lh;
   margin: 0 24px 0 0;
-  float: left;
+  display: inline-flex;
+  vertical-align: top;
 }
 
 .guide-avatar--header .guide-avatar__icon {
