@@ -1,7 +1,23 @@
-<footer>
-  <div class="container">
-    <div>&copy; Hellotext</div>
-    <div class="footer-languages">
+<footer class="site-footer">
+  <div class="site-footer__container">
+    <p class="site-footer__copyright">Hellotext {% t all_rights_reserved %}</p>
+
+    <nav class="site-footer__legal" aria-label="{% t legal_navigation %}">
+      <a href="https://www.hellotext.com/terms" target="_blank" rel="noopener noreferrer">{% t terms %}</a>
+      <a href="https://www.hellotext.com/privacy" target="_blank" rel="noopener noreferrer">{% t policy %}</a>
+      <a href="https://www.hellotext.com/data-protection" target="_blank" rel="noopener noreferrer">{% t data_protection %}</a>
+    </nav>
+
+    <details class="language-switcher">
+      <summary>
+        <span>{{ site.data.languages[site.lang] }}</span>
+        <span class="language-switcher__arrow" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" focusable="false">
+            <path d="M8 10L12 14L16 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </span>
+      </summary>
+      <div class="language-switcher__menu">
         {% for lang in site.languages %}
           {% if page.permalink_es %}
             {% if lang == 'en' %}
@@ -11,10 +27,11 @@
             {% endif %}
           {% else %}
             {% assign lang_url = '/' %}
-            {% if lang != 'en' %}{% assign lang_url = '/es' %}{% endif %}
+            {% if lang != 'en' %}{% assign lang_url = '/es/' %}{% endif %}
           {% endif %}
-          <a href="{{ lang_url }}" class="{% if lang == site.lang%}active{% endif %}">{{ site.data.languages[lang] }}</a>
+          <a href="{{ lang_url }}"{% if lang == site.lang %} aria-current="page"{% endif %}>{{ site.data.languages[lang] }}</a>
         {% endfor %}
-    </div>
+      </div>
+    </details>
   </div>
 </footer>

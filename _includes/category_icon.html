@@ -1,0 +1,41 @@
+{% assign icon_topic = include.topic %}
+
+{% case icon_topic %}
+  {% when 'analytics-reporting-attribution' %}
+    {% assign icon_view_box = '0 0 74.7727 74.7727' %}
+  {% when 'audience' %}
+    {% assign icon_view_box = '0 0 87.2727 81.2727' %}
+  {% when 'billing' %}
+    {% assign icon_view_box = '0 0 73.6062 82.6061' %}
+  {% when 'campaigns' %}
+    {% assign icon_view_box = '0 0 80.5384 80.5377' %}
+  {% when 'developers' %}
+    {% assign icon_view_box = '0 0 82.6061 82.8412' %}
+  {% when 'getting-started' %}
+    {% assign icon_view_box = '0 0 76.1649 78.6908' %}
+  {% when 'integrations' %}
+    {% assign icon_view_box = '0 0 82.6061 82.6061' %}
+  {% when 'journeys' %}
+    {% assign icon_view_box = '0 0 92.2727 72.2729' %}
+  {% when 'numbers' %}
+    {% assign icon_view_box = '0 0 74.7727 77.3838' %}
+  {% when 'team' %}
+    {% assign icon_view_box = '0 0 82.6061 77.6061' %}
+  {% when 'troubleshooting-deliverability' %}
+    {% assign icon_view_box = '0 0 82.6058 82.6058' %}
+{% endcase %}
+
+<span class="category-icon category-icon--{{ icon_topic }}" aria-hidden="true">
+  {% if icon_topic == 'captures' %}
+    <svg class="category-icon__capture-outer category-icon__svg" viewBox="0 0 77.2734 77.2734" focusable="false">
+      <use href="/images/icons/categories/captures-outer.svg?v=3#category-icon-glyph"></use>
+    </svg>
+    <svg class="category-icon__capture-inner category-icon__svg" viewBox="0 0 35.6061 35.6061" focusable="false">
+      <use href="/images/icons/categories/captures-inner.svg?v=3#category-icon-glyph"></use>
+    </svg>
+  {% else %}
+    <svg class="category-icon__glyph category-icon__svg" viewBox="{{ icon_view_box }}" focusable="false">
+      <use href="/images/icons/categories/{{ icon_topic }}.svg?v=3#category-icon-glyph"></use>
+    </svg>
+  {% endif %}
+</span>

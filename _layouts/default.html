@@ -5,61 +5,57 @@
     {% assign document_description = site.translations[site.lang].help_center_description %}
     {% include document_head.html title=document_title description=document_description %}
   </head>
-  <body>
+  <body class="home-page">
     {% include gtm_body.html %}
-    <header class="main">
+    <a class="skip-link" href="#main-content">{% t skip_to_content %}</a>
+
+    <header class="site-header-shell">
       {% include header.html %}
-      <div class="container header-search">
-        <div class="caption">{% t help_center %}</div>
-        <h1 class="big-title">{% t how_can_we_help %}</h1>
-        <div class="container-input search-container" data-search data-search-url="{{ site.baseurl }}/search.json" data-search-empty="{% t search_empty %}">
-          <label class="sr-only" for="search-input">{% t search %}</label>
-          <input
-            class="search-input large"
-            id="search-input"
-            type="search"
-            name="q"
-            placeholder="{% t search_placeholder %}"
-            autocomplete="off"
-            role="combobox"
-            aria-autocomplete="list"
-            aria-expanded="false"
-            aria-controls="search-results"
-            data-search-input
-          >
-          <div class="search-results" id="search-results" role="listbox" data-search-results hidden></div>
-        </div>
-      </div>
     </header>
-    <section>
-      <div class="popular-guides-wrapper">
-        <div class="popular-guides-container">
-          <div class="container">
-            <h3>{% t popular_articles %}</h3>
-            {% assign guides = site.documents | where: "popular", true | where: "languages", site.lang %}
-            <div class="popular-guides">
-              {% for guide in guides limit:6 %}
-                <div class="popular-guide">
-                  {% assign topic = site.topics | where: "permalink", guide.topic | first %}
-                  <div class="guide-topic-container">
-                    <a href="{{ site.baseurl }}{{ topic.url }}"><img src="/images/icons/categories/{{ guide.topic }}.svg" width="28" height="28" /></a>
-                    <div class="guide-topic">
-                      <a href="{{ site.baseurl }}{{ topic.url }}">{% t {{ topic.permalink }}.title %}</a>
-                    </div>
-                  </div>
-                  <a class="guide-title" href="{{ site.baseurl }}{{guide.url}}">{{ guide[site.lang].title }}</a>
-                  <div class="guide-description">{{ guide[site.lang].description }}</div>
-                </div>
-              {% endfor %}
-            </div>
+
+    <main id="main-content">
+      <section class="home-hero" aria-labelledby="home-title">
+        <div class="home-hero__inner">
+          <h1 id="home-title">{% t how_can_we_help %}</h1>
+
+          <div class="search-container" data-search data-search-url="{{ site.baseurl }}/search.json" data-search-empty="{% t search_empty %}">
+            <label class="sr-only" for="search-input">{% t search %}</label>
+            <input
+              class="search-input"
+              id="search-input"
+              type="search"
+              name="q"
+              placeholder="{% t search_placeholder %}"
+              autocomplete="off"
+              role="combobox"
+              aria-autocomplete="list"
+              aria-expanded="false"
+              aria-controls="search-results"
+              data-search-input
+            >
+            <div class="search-results" id="search-results" role="listbox" data-search-results hidden></div>
           </div>
+
+          <nav class="popular-topics" aria-label="{% t popular_topics %}">
+            <span class="popular-topics__label">{% t popular_topics %}:</span>
+            {% for guide_permalink in site.data.popular_guides %}
+              {% assign guide = site.documents | where: "permalink", guide_permalink | first %}
+              {% if guide and guide.languages contains site.lang %}
+                <a href="{{ site.baseurl }}{{ guide.url }}">{{ guide[site.lang].title }}</a>
+              {% endif %}
+            {% endfor %}
+          </nav>
         </div>
-      </div>
-      <div class="container">
-        {{ content }}
-      </div>
-    </section>
+      </section>
+
+      <section class="home-guides">
+        <div class="home-guides__inner">
+          {{ content }}
+        </div>
+      </section>
+    </main>
+
     {% include footer.html %}
-    <script src="/js/search.js" integrity="sha256-ooSx+WRiiYWhixANnF6kZbPSQ3WHl4XqNMc6Gr7hgOo=" defer></script>
+    <script src="/js/search.js" integrity="sha256-Cn9RZi6b09IrtHxo4SOhpbbX/E5ZK+VAFUrpZMFjghg=" defer></script>
   </body>
 </html>

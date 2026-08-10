@@ -11,7 +11,9 @@ end
 # Jekyll minifies these files, so the integrity values cover their published bytes.
 script_integrities = {
   '/js/gtm.js' => 'sha256-KOs83E8sWN0ZSanqdvyKqXPbanqGOxQAEZPz+lkrVh4=',
-  '/js/search.js' => 'sha256-ooSx+WRiiYWhixANnF6kZbPSQ3WHl4XqNMc6Gr7hgOo='
+  '/js/search.js' => 'sha256-Cn9RZi6b09IrtHxo4SOhpbbX/E5ZK+VAFUrpZMFjghg=',
+  '/js/article-navigation.js' => 'sha256-n5SVYPnptA4t2JJaq3b+FC0eYX8KPygyM8jq7/XtIi0=',
+  '/js/article-feedback.js' => 'sha256-AlC35S17jo/t3ripYSesMGbb0n4TCpeu1H+vT7O2UnM='
 }
 
 config = File.read(File.join(ROOT, 'netlify.toml'))
@@ -59,6 +61,8 @@ expected_directives = {
     "'self'",
     "'#{script_integrities.fetch('/js/gtm.js')}'",
     "'#{script_integrities.fetch('/js/search.js')}'",
+    "'#{script_integrities.fetch('/js/article-navigation.js')}'",
+    "'#{script_integrities.fetch('/js/article-feedback.js')}'",
     "'strict-dynamic'",
     'https://www.googletagmanager.com',
     'https://static.hotjar.com',
@@ -136,9 +140,18 @@ gtm_include = File.read(File.join(ROOT, '_includes', 'gtm_head.html'))
 gtm_tag = %(<script src="/js/gtm.js" integrity="#{script_integrities.fetch('/js/gtm.js')}"></script>)
 abort 'Google Tag Manager bootstrap or integrity hash is incorrect' unless gtm_include.include?(gtm_tag)
 
-default_layout = File.read(File.join(ROOT, '_layouts', 'default.html'))
 search_tag = %(<script src="/js/search.js" integrity="#{script_integrities.fetch('/js/search.js')}" defer></script>)
-abort 'Search script integrity hash is incorrect' unless default_layout.include?(search_tag)
+%w[default topic guide].each do |layout_name|
+  layout = File.read(File.join(ROOT, '_layouts', "#{layout_name}.html"))
+  abort "Search script integrity hash is incorrect in #{layout_name} layout" unless layout.include?(search_tag)
+end
+
+guide_layout = File.read(File.join(ROOT, '_layouts', 'guide.html'))
+article_navigation_tag = %(<script src="/js/article-navigation.js" integrity="#{script_integrities.fetch('/js/article-navigation.js')}" defer></script>)
+abort 'Article navigation script integrity hash is incorrect' unless guide_layout.include?(article_navigation_tag)
+
+article_feedback_tag = %(<script src="/js/article-feedback.js" integrity="#{script_integrities.fetch('/js/article-feedback.js')}" defer></script>)
+abort 'Article feedback script integrity hash is incorrect' unless guide_layout.include?(article_feedback_tag)
 
 site_directory = File.join(ROOT, '_site')
 

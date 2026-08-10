@@ -1,0 +1,76 @@
+<aside class="article-sidebar" data-article-sidebar>
+  <nav class="article-sidebar__nav" aria-label="{% t help_navigation %}">
+    <div class="article-sidebar__header">
+      <a class="article-sidebar__home" href="{{ site.baseurl }}/">{% t help_center %}</a>
+      <button
+        class="article-sidebar__toggle"
+        type="button"
+        aria-controls="article-sidebar-topics"
+        aria-expanded="true"
+        aria-label="{% t collapse_help_navigation %}"
+        title="{% t collapse_help_navigation %}"
+        data-sidebar-toggle
+        data-collapse-label="{% t collapse_help_navigation %}"
+        data-expand-label="{% t expand_help_navigation %}"
+      >
+        <img src="/images/icons/arrow-right.svg" width="16" height="16" alt="">
+      </button>
+    </div>
+
+    <div class="article-sidebar__topics" id="article-sidebar-topics">
+      {% assign sidebar_topics = site.topics | where: "languages", site.lang %}
+      {% for sidebar_topic in sidebar_topics %}
+        {% assign sidebar_topic_translation = site.translations[site.lang][sidebar_topic.permalink] %}
+        {% assign sidebar_topic_is_current = false %}
+        {% if sidebar_topic.permalink == page.topic %}
+          {% assign sidebar_topic_is_current = true %}
+        {% endif %}
+
+        <div class="article-sidebar__topic{% if sidebar_topic_is_current %} article-sidebar__topic--current{% endif %}">
+          <a class="article-sidebar__topic-link" href="{{ site.baseurl }}{{ sidebar_topic.url }}" data-sidebar-label="{{ sidebar_topic_translation.title | escape }}">
+            <span class="article-sidebar__topic-icon bg-{{ sidebar_topic.border }}" aria-hidden="true">
+              {% include category_icon.html topic=sidebar_topic.permalink %}
+            </span>
+            <span>{{ sidebar_topic_translation.title }}</span>
+          </a>
+
+          {% if sidebar_topic_is_current %}
+            {% assign sidebar_guides = site[page.topic] | where: "languages", site.lang %}
+            {% assign sidebar_groups = site.data.guide_groups[page.topic] %}
+
+            {% if sidebar_groups %}
+              <div class="article-sidebar__guides article-sidebar__guides--grouped">
+                {% for sidebar_group in sidebar_groups %}
+                  {% assign sidebar_group_guides = sidebar_guides | where: "navigation_group", sidebar_group.key %}
+                  {% if sidebar_group_guides.size > 0 %}
+                    {% assign sidebar_group_is_active = false %}
+                    {% for sidebar_guide in sidebar_group_guides %}
+                      {% if sidebar_guide.url == page.url %}
+                        {% assign sidebar_group_is_active = true %}
+                      {% endif %}
+                    {% endfor %}
+
+                    <details class="article-sidebar__group"{% if sidebar_group_is_active %} open{% endif %}>
+                      <summary>{{ sidebar_group[site.lang] }}</summary>
+                      <div class="article-sidebar__group-links">
+                        {% for sidebar_guide in sidebar_group_guides %}
+                          <a href="{{ site.baseurl }}{{ sidebar_guide.url }}"{% if sidebar_guide.url == page.url %} aria-current="page"{% endif %}>{{ sidebar_guide[site.lang].title }}</a>
+                        {% endfor %}
+                      </div>
+                    </details>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            {% else %}
+              <div class="article-sidebar__guides">
+                {% for sidebar_guide in sidebar_guides %}
+                  <a href="{{ site.baseurl }}{{ sidebar_guide.url }}"{% if sidebar_guide.url == page.url %} aria-current="page"{% endif %}>{{ sidebar_guide[site.lang].title }}</a>
+                {% endfor %}
+              </div>
+            {% endif %}
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </nav>
+</aside>

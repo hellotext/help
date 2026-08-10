@@ -1,9 +1,12 @@
 {% assign guide = include.guide %}
-<a href="{{ site.baseurl }}{{ guide.url }}" class="content-item guide-card{% if guide.avatar %} guide-card--with-avatar{% endif %}">
+<a href="{{ site.baseurl }}{{ guide.url }}" class="guide-card{% if guide.avatar %} guide-card--with-avatar{% endif %}">
   {% include guide_avatar.html guide=guide size="card" %}
-  <div class="title-container">
-    <h4>{{ guide[site.lang].title }}</h4>
-    <p>{{ guide[site.lang].description }}</p>
+  <div class="guide-card__content">
+    {% if include.nested %}
+      <h3 class="guide-card__title">{{ guide[site.lang].title }}</h3>
+    {% else %}
+      <h2 class="guide-card__title">{{ guide[site.lang].title }}</h2>
+    {% endif %}
+    <p class="guide-card__description">{{ guide[site.lang].description }}</p>
   </div>
-  <img src="/images/icons/arrow-right.svg" width="10" class="guide-card__arrow" alt="" />
 </a>
