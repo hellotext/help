@@ -1,6 +1,6 @@
 If you have a store using WooCommerce, you can easily connect it to Hellotext.
 
-By connecting your WooCommerce store, you'll be able to start tracking all your customers' activity, automatically creating profiles with their data and updating them with the activities they perform.
+By connecting your WooCommerce store, you can start tracking supported customer activity and automatically create profiles with the available data.
 
 The following activities are tracked automatically:
 

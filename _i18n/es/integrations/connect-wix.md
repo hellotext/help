@@ -1,6 +1,6 @@
 Si tienes una tienda en la plataforma de Wix, puedes conectarla fácilmente a Hellotext.
 
-Al conectar tu tienda de Wix, podrás comenzar a rastrear toda la actividad de tus clientes, creando perfiles automáticamente con sus datos y alimentándolos con la actividad que realicen. 
+Al conectar tu tienda de Wix, podrás comenzar a rastrear actividad compatible de tus clientes y crear perfiles automáticamente con los datos disponibles.
 
 Las siguientes actividades son rastreadas automáticamente:
 
