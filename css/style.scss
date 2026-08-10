@@ -1612,13 +1612,23 @@ html[lang="es"] .home-hero h1 {
 .guide-heading h1 {
   min-width: 0;
   margin: 0;
+  position: relative;
   color: var(--indigo);
   font-family: var(--font-heading);
   font-size: 104px;
   font-weight: 600;
   line-height: 0.98;
   letter-spacing: -0.02em;
-  overflow-wrap: anywhere;
+  hyphens: none;
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+.guide-heading__word-probe {
+  position: absolute;
+  visibility: hidden;
+  white-space: nowrap;
+  pointer-events: none;
 }
 
 @media (min-width: 1200px) {
