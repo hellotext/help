@@ -16,7 +16,7 @@ Use **Mercado Libre** when you sell through the marketplace and need transaction
 
 Many businesses use several channels: SMS for reach, WhatsApp for richer outbound and conversational experiences, Instagram or Messenger for customer-initiated social conversations, and Mercado Libre for marketplace post-sale support. Campaigns, routes, and playbooks can use the channels differently, so confirm how channel selection works for the experience you are launching.
 
-Keep reading: [SMS channel fundamentals]({% link _numbers/sms-channel-fundamentals.md %}), [WhatsApp channel fundamentals]({% link _numbers/whatsapp-channel-fundamentals.md %}), [Instagram DM fundamentals]({% link _numbers/instagram-dm-fundamentals.md %}), [Facebook Messenger fundamentals]({% link _numbers/facebook-messenger-fundamentals.md %}), and [Connect Mercado Libre]({% link _integrations/connect-mercado-libre.md %}).
+To start using a social channel, see [Connect Instagram DM]({% link _integrations/connect-instagram-dm.md %}) or [Connect Facebook Messenger]({% link _integrations/connect-facebook-messenger.md %}). To understand which conversations each channel supports, read [Instagram DM fundamentals]({% link _numbers/instagram-dm-fundamentals.md %}) and [Facebook Messenger fundamentals]({% link _numbers/facebook-messenger-fundamentals.md %}).
 
 ## SMS sender options
 
@@ -39,7 +39,9 @@ Before launching a campaign, playbook, or route, confirm that:
 - [Exclusive short codes]({% link _numbers/exclusive-short-codes.md %})
 - [SMS channel fundamentals]({% link _numbers/sms-channel-fundamentals.md %})
 - [WhatsApp channel fundamentals]({% link _numbers/whatsapp-channel-fundamentals.md %})
+- [Connect Instagram DM]({% link _integrations/connect-instagram-dm.md %})
 - [Instagram DM fundamentals]({% link _numbers/instagram-dm-fundamentals.md %})
+- [Connect Facebook Messenger]({% link _integrations/connect-facebook-messenger.md %})
 - [Facebook Messenger fundamentals]({% link _numbers/facebook-messenger-fundamentals.md %})
 - [Connect Mercado Libre]({% link _integrations/connect-mercado-libre.md %})
 - [Connect WhatsApp]({% link _integrations/connect-whatsapp.md %})

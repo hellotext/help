@@ -2,6 +2,8 @@ Connect Instagram when customers discover your business there and expect to cont
 
 Instagram DM is primarily a customer-initiated conversational channel. It is different from SMS and WhatsApp campaign delivery: following your account or knowing a username does not, by itself, let the business start a new direct message.
 
+To set up the channel, follow [Connect Instagram DM]({% link _integrations/connect-instagram-dm.md %}). This guide explains what happens after connection.
+
 ## What Instagram DM is best for
 
 Use Instagram DM for:
@@ -14,29 +16,6 @@ Use Instagram DM for:
 - One-to-one replies from the Inbox during an eligible conversation.
 
 Instagram DM is not currently a delivery option in the campaign creator. Use campaigns for their available WhatsApp and SMS delivery options, and use Instagram for customer-initiated conversations and eligible conversational flows.
-
-## Before you connect Instagram
-
-Confirm that:
-
-- The account is an Instagram professional account: Business or Creator.
-- You can sign in to the Instagram account you want to connect.
-- You can authorize the permissions Hellotext requests for messaging and synchronization.
-- The account is not already connected to another Hellotext business.
-- Your team knows who should receive and answer Instagram conversations in the Inbox.
-
-Instagram and Facebook Messenger are separate integrations in Hellotext. Connecting one does not connect the other.
-
-## Connect Instagram
-
-1. In Hellotext, go to **Settings → Integrations**.
-2. Find **Instagram** in the communication integrations and select it.
-3. Sign in directly with the Instagram professional account you want to use.
-4. Review and authorize the requested permissions.
-5. Return to Hellotext and confirm that the connected Instagram username appears as active.
-6. From a different Instagram account, send a test direct message and confirm that it reaches the Inbox.
-
-One Instagram account can be connected to only one Hellotext business at a time. If Hellotext reports that the account belongs to another business, remove it from that business before trying again.
 
 ## How Instagram conversations begin
 
@@ -120,20 +99,6 @@ Instagram Direct messages are included in Hellotext's non-SMS messaging calculat
 
 Review [Fair-use message policy]({% link _billing/fair-use-message-policy.md %}) for the current published rate and calculation.
 
-## If Instagram disconnects
-
-Hellotext can mark the integration as disconnected if the Instagram password changes, authorization expires, permissions are removed, or Meta logs Hellotext out.
-
-When this happens:
-
-1. Go to **Settings → Integrations**.
-2. Find the disconnected Instagram account.
-3. Select **Reconnect Instagram**.
-4. Sign in again and authorize the requested permissions.
-5. Send a new test direct message from another account.
-
-Reconnecting restores the channel. It does not make a closed customer conversation eligible again.
-
 ## Troubleshoot a missing or failed Instagram message
 
 If an incoming message does not appear:
@@ -168,6 +133,7 @@ Before relying on Instagram DM, confirm that:
 
 ## Related guides
 
+- [Connect Instagram DM]({% link _integrations/connect-instagram-dm.md %})
 - [Messaging channels overview]({% link _numbers/messaging-overview.md %})
 - [Inbox and conversations overview]({% link _team/inbox-overview.md %})
 - [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %})

@@ -2,6 +2,8 @@ Conecta Facebook Messenger cuando los clientes usan tu página de Facebook para 
 
 Messenger en Hellotext está asociado a una página de Facebook. Es independiente de las conversaciones personales de Messenger y de la integración de Instagram.
 
+Para configurar el canal, sigue [Conecta Facebook Messenger]({% link _integrations/connect-facebook-messenger.md %}). Esta guía explica qué ocurre después de conectarlo.
+
 ## Para qué sirve mejor Facebook Messenger
 
 Usa Messenger para:
@@ -24,33 +26,6 @@ Messenger no tiene actualmente la misma cobertura de producto que WhatsApp o Ins
 - Las rutas y los playbooks pueden usar Messenger solamente cuando ese flujo específico sea compatible.
 
 No asumas que un playbook es compatible con Messenger porque funciona en otro canal. Revisa los canales que expone ese playbook y prueba el flujo completo de Messenger antes del lanzamiento.
-
-## Antes de conectar Messenger
-
-Confirma que:
-
-- Tu negocio tenga la página de Facebook a la que quieres que escriban los clientes.
-- Tengas una cuenta de Facebook con acceso de administrador a Meta Business Suite de la empresa y a la página.
-- Puedas autorizar los permisos que Hellotext solicita para mensajería y webhooks de la página.
-- La página no esté conectada a otro negocio de Hellotext.
-- Tu equipo sepa quién debería recibir y responder las conversaciones de Messenger en el Inbox.
-
-Hellotext actualmente conecta una página de Facebook por negocio de Hellotext. Una página de Facebook también puede estar conectada a un solo negocio de Hellotext a la vez.
-
-Facebook Messenger e Instagram son integraciones separadas en Hellotext. Conectar una no conecta la otra.
-
-## Conecta tu página de Facebook
-
-1. En Hellotext, ve a **Configuración → Integraciones**.
-2. Busca **Messenger** entre las integraciones de comunicación y selecciónala.
-3. Revisa y confirma los requisitos de conexión.
-4. Selecciona **Iniciar sesión con Facebook**.
-5. Inicia sesión con la cuenta de Facebook que tiene acceso a la cuenta de Meta Business y a la página correctas.
-6. Selecciona la página correcta y autoriza los permisos solicitados.
-7. Vuelve a Hellotext y confirma que la página aparezca conectada.
-8. Desde una cuenta personal de Facebook, envía un mensaje de prueba a la página y confirma que llegue al Inbox.
-
-Si Hellotext indica que la página pertenece a otro negocio, elimínala de ese negocio de Hellotext antes de volver a intentarlo.
 
 ## Cómo empiezan las conversaciones de Messenger
 
@@ -129,21 +104,6 @@ Los mensajes de Facebook Messenger se incluyen en el cálculo de mensajes que no
 
 Revisa [Política de uso justo de mensajes]({% link _billing/fair-use-message-policy.md %}) para consultar la tarifa publicada vigente y el cálculo.
 
-## Vuelve a autorizar o reemplaza la conexión
-
-Messenger puede dejar de recibir o enviar mensajes si cambia el acceso a la página, se eliminan permisos, la página se desconecta de la cuenta de Meta Business o Meta invalida la autorización.
-
-Primero confirma que la cuenta de Facebook todavía tenga acceso de administrador a la cuenta de Meta Business y a la página correctas. Si Hellotext debe volver a ser autorizado:
-
-1. Ve a **Configuración → Integraciones**.
-2. Busca la página conectada de Messenger.
-3. Elimina la integración de Messenger.
-4. Vuelve a seleccionar **Messenger** y repite el inicio de sesión con Facebook.
-5. Selecciona la misma página y autoriza los permisos solicitados.
-6. Envía un nuevo mensaje de prueba desde una cuenta personal de Facebook.
-
-Eliminar la integración deshabilita su canal de Messenger. Confirma que tienes acceso a la página correcta antes de eliminarla y contacta a soporte cuando no esté claro cuál es el proceso de recuperación adecuado.
-
 ## Soluciona un mensaje de Messenger faltante o fallido
 
 Si un mensaje entrante no aparece:
@@ -178,6 +138,7 @@ Antes de depender de Facebook Messenger, confirma que:
 
 ## Guías relacionadas
 
+- [Conecta Facebook Messenger]({% link _integrations/connect-facebook-messenger.md %})
 - [Resumen de canales de mensajería]({% link _numbers/messaging-overview.md %})
 - [Fundamentos de Instagram DM]({% link _numbers/instagram-dm-fundamentals.md %})
 - [Resumen de Inbox y conversaciones]({% link _team/inbox-overview.md %})

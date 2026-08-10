@@ -2,6 +2,8 @@ Connect Facebook Messenger when customers use your Facebook Page to ask about pr
 
 Messenger in Hellotext is tied to a Facebook Page. It is separate from personal Messenger conversations and from the Instagram integration.
 
+To set up the channel, follow [Connect Facebook Messenger]({% link _integrations/connect-facebook-messenger.md %}). This guide explains what happens after connection.
+
 ## What Facebook Messenger is best for
 
 Use Messenger for:
@@ -24,33 +26,6 @@ Messenger does not currently have the same product coverage as WhatsApp or Insta
 - Routes and playbooks can use Messenger only when that specific flow supports it.
 
 Do not assume a playbook supports Messenger because it works on another channel. Review the channels exposed by that playbook and test the complete Messenger flow before launch.
-
-## Before you connect Messenger
-
-Confirm that:
-
-- Your business has the Facebook Page you want customers to message.
-- You have a Facebook account with administrator access to the company's Meta Business Suite and the Page.
-- You can authorize the permissions Hellotext requests for Page messaging and webhooks.
-- The Page is not already connected to another Hellotext business.
-- Your team knows who should receive and answer Messenger conversations in the Inbox.
-
-Hellotext currently connects one Facebook Page per Hellotext business. A Facebook Page can also be connected to only one Hellotext business at a time.
-
-Facebook Messenger and Instagram are separate integrations in Hellotext. Connecting one does not connect the other.
-
-## Connect your Facebook Page
-
-1. In Hellotext, go to **Settings → Integrations**.
-2. Find **Messenger** in the communication integrations and select it.
-3. Review and confirm the connection requirements.
-4. Select **Log in with Facebook**.
-5. Sign in with the Facebook account that has access to the intended Meta Business account and Page.
-6. Select the correct Page and authorize the requested permissions.
-7. Return to Hellotext and confirm that the Page appears as connected.
-8. From a personal Facebook account, send a test message to the Page and confirm that it reaches the Inbox.
-
-If Hellotext reports that the Page belongs to another business, remove it from that Hellotext business before trying again.
 
 ## How Messenger conversations begin
 
@@ -129,21 +104,6 @@ Facebook Messenger messages are included in Hellotext's non-SMS messaging calcul
 
 Review [Fair-use message policy]({% link _billing/fair-use-message-policy.md %}) for the current published rate and calculation.
 
-## Reauthorize or replace the connection
-
-Messenger can stop receiving or sending messages if Page access changes, permissions are removed, the Page is disconnected from the Meta Business account, or Meta invalidates the authorization.
-
-First confirm that the Facebook account still has administrator access to the correct Meta Business account and Page. If Hellotext must be authorized again:
-
-1. Go to **Settings → Integrations**.
-2. Find the connected Messenger Page.
-3. Remove the Messenger integration.
-4. Select **Messenger** again and repeat the Facebook login.
-5. Select the same Page and authorize the requested permissions.
-6. Send a new test message from a personal Facebook account.
-
-Removing the integration disables its Messenger channel. Confirm that you have the correct Page access before removing it, and contact support when the correct recovery path is unclear.
-
 ## Troubleshoot a missing or failed Messenger message
 
 If an incoming message does not appear:
@@ -178,6 +138,7 @@ Before relying on Facebook Messenger, confirm that:
 
 ## Related guides
 
+- [Connect Facebook Messenger]({% link _integrations/connect-facebook-messenger.md %})
 - [Messaging channels overview]({% link _numbers/messaging-overview.md %})
 - [Instagram DM fundamentals]({% link _numbers/instagram-dm-fundamentals.md %})
 - [Inbox and conversations overview]({% link _team/inbox-overview.md %})
