@@ -1,0 +1,30 @@
+<details
+  class="page-search"
+  data-search
+  data-search-url="{{ site.baseurl }}/search.json"
+  data-search-empty="{% t search_empty %}"
+>
+  <summary class="page-search__toggle">
+    <span class="page-search__toggle-icon" aria-hidden="true"></span>
+    <span class="sr-only page-search__label page-search__label--open">{% t search %}</span>
+    <span class="sr-only page-search__label page-search__label--close">{% t close_search %}</span>
+  </summary>
+
+  <div class="page-search__panel" role="search" aria-label="{% t search %}">
+    <label class="sr-only" for="page-search-input">{% t search %}</label>
+    <input
+      class="page-search__input"
+      id="page-search-input"
+      type="search"
+      name="q"
+      placeholder="{% t search_placeholder %}"
+      autocomplete="off"
+      role="combobox"
+      aria-autocomplete="list"
+      aria-expanded="false"
+      aria-controls="page-search-results"
+      data-search-input
+    >
+    <div class="search-results page-search__results" id="page-search-results" role="listbox" data-search-results hidden></div>
+  </div>
+</details>

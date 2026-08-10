@@ -1,4 +1,38 @@
 (function () {
+  var languageSwitchers = Array.prototype.slice.call(document.querySelectorAll(".language-switcher"));
+
+  function closeLanguageSwitcher(switcher, shouldRestoreFocus) {
+    var summary = switcher.querySelector("summary");
+
+    switcher.open = false;
+
+    if (shouldRestoreFocus && summary) {
+      summary.focus();
+    }
+  }
+
+  if (languageSwitchers.length > 0) {
+    document.addEventListener("click", function (event) {
+      languageSwitchers.forEach(function (switcher) {
+        if (switcher.open && !switcher.contains(event.target)) {
+          closeLanguageSwitcher(switcher, false);
+        }
+      });
+    }, true);
+
+    document.addEventListener("keydown", function (event) {
+      if (event.key !== "Escape") {
+        return;
+      }
+
+      languageSwitchers.forEach(function (switcher) {
+        if (switcher.open) {
+          closeLanguageSwitcher(switcher, switcher.contains(document.activeElement));
+        }
+      });
+    });
+  }
+
   var container = document.querySelector("[data-search]");
 
   if (!container) {
@@ -9,6 +43,8 @@
   var resultsContainer = container.querySelector("[data-search-results]");
   var searchUrl = container.getAttribute("data-search-url");
   var emptyMessage = container.getAttribute("data-search-empty");
+  var disclosure = container.matches("details") ? container : null;
+  var disclosureToggle = disclosure && disclosure.querySelector("summary");
   var index = [];
   var indexLoaded = false;
   var currentResults = [];
@@ -222,6 +258,12 @@
   input.addEventListener("keydown", function (event) {
     if (event.key === "Escape") {
       hideResults();
+
+      if (disclosure) {
+        disclosure.open = false;
+        disclosureToggle.focus();
+      }
+
       return;
     }
 
@@ -252,6 +294,10 @@
   document.addEventListener("click", function (event) {
     if (!container.contains(event.target)) {
       hideResults();
+
+      if (disclosure) {
+        disclosure.open = false;
+      }
     }
   });
 
@@ -274,4 +320,16 @@
       });
     }
   });
+
+  if (disclosure) {
+    disclosure.addEventListener("toggle", function () {
+      if (disclosure.open) {
+        window.requestAnimationFrame(function () {
+          input.focus();
+        });
+      } else {
+        hideResults();
+      }
+    });
+  }
 })();

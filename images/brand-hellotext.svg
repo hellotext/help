@@ -4,14 +4,14 @@
     <style>
         /* sRGB color. */
         :root {
-            --tiger: rgb(255, 76, 0);
+            --tiger: rgb(252, 93, 0);
         }
 
         /* Display-P3 color, when supported. */
-        @supports (color: color(display-p3)) {
-        :root {
-            --tiger: color(display-P3 0.9882 0.3646 0.0000);
-        }
+        @supports (color: color(display-p3 1 1 1)) {
+            :root {
+                --tiger: color(display-p3 0.9882 0.3646 0);
+            }
         }
 
         .brand path {

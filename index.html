@@ -1,18 +1,18 @@
 ---
 layout: default
 ---
-<h3>{% t browse_our_guides %}</h3>
+<h2 class="home-guides__title">{% t browse_our_guides %}</h2>
 
-<div class="topic-container">
+<div class="topic-grid">
   {% assign topics = site.topics | where: "languages", site.lang %}
   {% for topic in topics %}
-    <a href="{{ site.baseurl }}{{ topic.url }}" class="content-item bg-{{topic.bg}} {{topic.bg}} hover:border-{{topic.border}} ">
-      <img src="/images/icons/categories/{{ topic.permalink }}.svg" width="60" height="60" class="guide-topic-icon" />
-      <div class="topic-title-container">
-        <div class="topic-title">{% t {{ topic.permalink }}.title %}</div>
-        <p>{% t {{ topic.permalink }}.description %}</p>
-      </div>
-      <img src="/images/icons/arrow-right.svg" width="10" />
+    {% assign topic_translation = site.translations[site.lang][topic.permalink] %}
+    <a href="{{ site.baseurl }}{{ topic.url }}" class="topic-card topic-card--accent-{{ topic.border }}{% if forloop.index == 1 %} topic-card--primary{% elsif forloop.index == 2 %} topic-card--secondary{% endif %}" data-topic="{{ topic.permalink }}">
+      <span class="topic-card__icon" aria-hidden="true">
+        {% include category_icon.html topic=topic.permalink %}
+      </span>
+      <span class="topic-card__title">{{ topic_translation.home_title | default: topic_translation.title }}</span>
+      <span class="sr-only">{{ topic_translation.description }}</span>
     </a>
   {% endfor %}
 </div>

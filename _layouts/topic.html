@@ -1,60 +1,72 @@
 <!doctype html>
 <html lang="{{ site.lang | default: 'en' }}">
   <head>
-    {% assign document_title = site.translations[site.lang][page.permalink].title %}
-    {% assign document_description = site.translations[site.lang][page.permalink].description %}
+    {% assign topic_translation = site.translations[site.lang][page.permalink] %}
+    {% assign document_title = topic_translation.title %}
+    {% assign document_description = topic_translation.description %}
     {% include document_head.html title=document_title description=document_description %}
   </head>
-  <body>
+  <body class="topic-page">
     {% include gtm_body.html %}
-    <header>
-      {% include header.html %}
+    <a class="skip-link" href="#main-content">{% t skip_to_content %}</a>
+
+    <header class="site-header-shell">
+      {% include header.html search=true %}
     </header>
-    <section>
-      <div class="container">
-        <header class="header-topic">
-          <div class="breadcrumb">
-            <a href="{{ site.baseurl }}/">{% t help_center %}</a>
-            <div><img src="/images/icons/right.svg" width="22" height="22" /></div>
-            <div>{{ site.translations[site.lang][page.permalink].title }}</div>
-          </div>
-          <div class="header-topic-title">
-            <img src="/images/icons/categories/{{ page.permalink }}.svg" width="60" height="60" class="guide-topic-icon" />
-            <h1 class="big-title">{{ site.translations[site.lang][page.permalink].title }}</h1>
-          </div>
-        </header>
 
-        {% assign guides = site[page.permalink] | where: "languages", site.lang %}
-        {% assign guide_groups = site.data.guide_groups[page.permalink] %}
-        {% if guide_groups %}
-          <div class="guide-groups">
-            {% for group in guide_groups %}
-              {% assign grouped_guides = guides | where: "navigation_group", group.key %}
-              {% if grouped_guides.size > 0 %}
-                <section class="guide-group" aria-labelledby="guide-group-{{ group.key }}">
-                  <header class="guide-group__header">
-                    <h2 id="guide-group-{{ group.key }}" class="guide-group__caption">{{ group[site.lang] }}</h2>
-                    <span class="guide-group__count">{{ grouped_guides.size }}</span>
-                  </header>
-                  <div class="container-guides">
-                    {% for guide in grouped_guides %}
-                      {% include guide_card.html guide=guide %}
-                    {% endfor %}
-                  </div>
-                </section>
-              {% endif %}
-            {% endfor %}
-          </div>
-        {% else %}
-          <div class="container-guides">
-            {% for guide in guides %}
-              {% include guide_card.html guide=guide %}
-            {% endfor %}
-          </div>
-        {% endif %}
+    <main class="topic-page__main" id="main-content">
+      <nav class="breadcrumb" aria-label="{% t breadcrumb_navigation %}">
+        <div class="breadcrumb__trail">
+          <a href="{{ site.baseurl }}/">{% t help_center %}</a>
+          <span class="breadcrumb__step breadcrumb__step--current">
+            <span class="breadcrumb__separator" aria-hidden="true">
+              <img src="/images/icons/arrow-right.svg" width="16" height="16" alt="">
+            </span>
+            <span aria-current="page">{{ topic_translation.title }}</span>
+          </span>
+        </div>
+      </nav>
 
-      </div>
-    </section>
+      <header class="topic-heading">
+        <span class="topic-heading__icon bg-{{ page.border }}" aria-hidden="true">
+          {% include category_icon.html topic=page.permalink %}
+        </span>
+        <h1>{{ topic_translation.title }}</h1>
+      </header>
+
+      {% assign guides = site[page.permalink] | where: "languages", site.lang %}
+      {% assign guide_groups = site.data.guide_groups[page.permalink] %}
+      {% if guide_groups %}
+        <div class="guide-groups">
+          {% for group in guide_groups %}
+            {% assign grouped_guides = guides | where: "navigation_group", group.key %}
+            {% if grouped_guides.size > 0 %}
+              <section class="guide-group" aria-labelledby="guide-group-{{ group.key }}">
+                <header class="guide-group__header">
+                  <h2 id="guide-group-{{ group.key }}">{{ group[site.lang] }}</h2>
+                  <span>{{ grouped_guides.size }}</span>
+                </header>
+                <div class="guide-grid">
+                  {% for guide in grouped_guides %}
+                    {% include guide_card.html guide=guide nested=true %}
+                  {% endfor %}
+                </div>
+              </section>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% else %}
+        <div class="guide-grid">
+          {% for guide in guides %}
+            {% include guide_card.html guide=guide %}
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      {% include contact_prompt.html id="topic-contact-title" %}
+    </main>
+
     {% include footer.html %}
+    <script src="/js/search.js" integrity="sha256-Cn9RZi6b09IrtHxo4SOhpbbX/E5ZK+VAFUrpZMFjghg=" defer></script>
   </body>
 </html>

@@ -1,14 +1,23 @@
-<div class="container flex">
-  <div class="brand-container">
-    <a href="{{ site.baseurl }}/">
-      <img src="/images/brand-hellotext.svg" width="190" />
-    </a>
-  </div>
-  <nav>
-    {% if page.layout != 'default' %}
-      <div class="input">
-      </div>
+{% if site.lang == 'es' %}
+  {% assign pricing_url = 'https://www.hellotext.com/precios' %}
+{% else %}
+  {% assign pricing_url = 'https://www.hellotext.com/pricing' %}
+{% endif %}
+
+<div class="site-header{% if include.search %} site-header--with-search{% endif %}">
+  <a class="site-header__brand" href="https://www.hellotext.com" aria-label="Hellotext">
+    <img src="/images/brand-hellotext.svg" width="165" height="32" alt="Hellotext">
+  </a>
+
+  <div class="site-header__actions">
+    {% if include.search %}
+      {% include page_search.html %}
     {% endif %}
-    <a href="https://www.hellotext.com/contact/" class="button-tiger" target="_blank">{% t contact_us %}</a>
-  </nav>
+
+    <nav class="site-nav" aria-label="{% t primary_navigation %}">
+      <a class="site-nav__link site-nav__link--secondary" href="{{ pricing_url }}">{% t pricing %}</a>
+      <a class="site-nav__link site-nav__link--secondary" href="https://www.hellotext.com/login">{% t log_in %}</a>
+      <a class="site-nav__cta" href="https://www.hellotext.com/signup">{% t free_trial %}</a>
+    </nav>
+  </div>
 </div>

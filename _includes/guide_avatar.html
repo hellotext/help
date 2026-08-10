@@ -2,7 +2,15 @@
 {% if avatar and avatar.icon %}
   {% assign avatar_size = include.size | default: "card" %}
   {% assign avatar_color = avatar.color | default: "lavender" %}
+  {% assign avatar_view_box = "0 0 24 24" %}
+  {% if avatar.icon == "alarm" %}
+    {% assign avatar_view_box = "0 0 28 28" %}
+  {% elsif avatar.icon == "eye" %}
+    {% assign avatar_view_box = "0 0 25 24" %}
+  {% endif %}
   <span class="guide-avatar guide-avatar--{{ avatar_size }} guide-avatar--{{ avatar_color }}" aria-hidden="true">
-    <img src="/images/icons/playbooks/{{ avatar.icon }}.svg" alt="" width="24" height="24" />
+    <svg class="guide-avatar__icon guide-avatar__icon--{{ avatar.icon }}" viewBox="{{ avatar_view_box }}" focusable="false">
+      <use href="/images/icons/playbooks/{{ avatar.icon }}.svg?v=3#playbook-icon-glyph"></use>
+    </svg>
   </span>
 {% endif %}
