@@ -127,7 +127,7 @@ Cuando revises ejemplos, mira:
 - Si el mensaje crea impulso útil sin inventar urgencia.
 - Si las respuestas pueden continuar naturalmente en el canal o llegar al Inbox cuando hace falta.
 
-Mientras más realistas sean los ejemplos, más fácil es entrenar al sistema sobre cómo se ve un buen mensaje para tu tienda.
+Cuanto más realistas sean los ejemplos, mejor puede el sistema adaptar los mensajes a tu tienda.
 
 ## Cómo probarlo
 

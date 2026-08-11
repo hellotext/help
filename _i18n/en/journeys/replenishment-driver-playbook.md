@@ -128,7 +128,7 @@ When reviewing examples, look for:
 - Whether the product, quantity, link, and discount are relevant.
 - Whether replies can naturally continue in the channel or reach the Inbox when needed.
 
-The more realistic the Playground examples are, the easier it is to teach the system what "good" looks like for your store.
+The more realistic the Playground examples are, the better the system can adapt messages to your store.
 
 ## How to test it
 

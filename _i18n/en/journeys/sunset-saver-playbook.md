@@ -133,7 +133,7 @@ When reviewing examples, look for:
 - Whether the copy avoids assumptions about why the customer left.
 - Whether replies can continue naturally in the channel or reach the Inbox when needed.
 
-The more realistic the examples are, the easier it is to teach the system what a good final attempt looks like for your store.
+The more realistic the examples are, the better the system can adapt the final attempt to your store.
 
 ## How to test it
 
