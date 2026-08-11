@@ -38,6 +38,7 @@ Consider disabling temporarily only when the change could affect live customers 
 
 - You are changing the prompt of a playbook that allows prompt edits and the agent could reply incorrectly.
 - You are changing intents for a custom agent.
+- You are changing which properties a playbook must collect.
 - You are changing incoming or outgoing channels.
 - You are changing discounts or eCommerce offer rules.
 - You are editing a route with steps, conditions, branches, or assignments.
@@ -54,6 +55,7 @@ Use this table as a quick map:
 | **Tone** | Playbooks with AI-generated replies or messages | The voice and style the playbook uses to communicate. |
 | **Intents** | Custom agents and custom playbooks | Which customer messages activate that agent. |
 | **Knowledge** | Sales or support AI agents | What information the agent uses to answer. |
+| **Properties** | Playbooks that include the Property Collector subcomponent | Which missing profile data the playbook should ask for before continuing. |
 | **Incoming/outgoing channels** | Playbooks that allow channel selection | Where the playbook can reply or send. |
 | **Discounts** | Sales playbooks that allow offers | Which eCommerce offer rules and AI discount limits the agent may use. |
 | **Escalation** | AI agents, support, [Webchat]({% link _captures/webchat-widget-playbook.md %}), and some custom playbooks | Who takes over when the agent should not continue. |
@@ -128,6 +130,21 @@ Before uploading or replacing documents:
 - Define what should happen when the agent cannot find an answer.
 
 After updating knowledge, use the Playground to ask questions that depend on the changed information.
+
+## Customize properties
+
+This section applies to playbooks that show a **Properties** card or a **Property Collector** subcomponent.
+
+Select only the profile data that the playbook actually needs. When it is time to collect that data, the playbook skips properties already present on the customer profile and asks only for the selected properties that are still missing.
+
+When configuring properties:
+
+- Use properties with customer-friendly names instead of internal CRM terms.
+- Keep the list short so the conversation does not become a long form.
+- If **Must collect** is available, select it only when the playbook cannot continue without that value. Other properties can remain optional.
+- Test with a profile missing every property, one that already has some of them, and a customer who declines an optional property.
+
+Behind the scenes, the playbook uses the [Property Collector]({% link _captures/property-collector-playbook.md %}) component to ask for, validate, and save the answers. You do not need to enable the standalone Property Collector playbook: the playbook you are configuring uses its own subcomponent. Enable the standalone Property Collector only if you also want to use it directly as a capture experience.
 
 ## Customize channels
 
@@ -224,6 +241,7 @@ If results move in the wrong direction, revert the smallest change first.
 - [How Hellotext decides whether a playbook can send]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [Troubleshoot a playbook that did not trigger or send]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
 - [How to write a great agent prompt]({% link _journeys/how-to-write-a-great-prompt.md %})
+- [Property Collector playbook]({% link _captures/property-collector-playbook.md %})
 - [Webchat Widget playbook]({% link _captures/webchat-widget-playbook.md %})
 - [Instant Answers playbook]({% link _journeys/instant-answers-playbook.md %})
 - [Review Builder playbook]({% link _journeys/review-builder-playbook.md %})

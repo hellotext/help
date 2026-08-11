@@ -29,13 +29,15 @@ Recolector de Propiedades se mantiene enfocado en los datos del perfil. No es un
 
 Usa Recolector de Propiedades directamente cuando el propósito principal de la conversación es enriquecer el perfil del cliente.
 
-El playbook sigue su lista configurada, pide los valores faltantes y guarda las respuestas válidas en el perfil. Esto funciona bien cuando el negocio necesita una captura conversacional reutilizable para ciertas propiedades.
+El playbook sigue su lista configurada, pide los valores faltantes y guarda las respuestas válidas en el perfil. Esto funciona bien cuando el negocio necesita una captura conversacional reutilizable para ciertas propiedades. Para usarlo de esta forma, configura y habilita el playbook Recolector de Propiedades independiente.
 
 ### Como requisito de otro playbook
 
 Otros playbooks con IA pueden incluir un subcomponente Recolector de Propiedades con los datos del perfil que necesitan.
 
-Cuando el playbook de origen detecta que faltan una o más propiedades configuradas, puede entregar temporalmente la conversación al Recolector de Propiedades habilitado. Recolector de Propiedades pide solamente el conjunto activo de propiedades faltantes.
+Cuando el playbook de origen detecta que faltan una o más propiedades configuradas, usa internamente ese subcomponente. Recolector de Propiedades pide solamente el conjunto activo de propiedades faltantes.
+
+No necesitas habilitar el playbook Recolector de Propiedades independiente para este caso. El subcomponente forma parte de la configuración del playbook de origen y funciona con su propia selección de propiedades.
 
 El playbook original continúa siendo responsable de la tarea del cliente. Cuando la recopilación necesaria se resuelve, la conversación vuelve a ese playbook en vez de cambiar permanentemente de ownership.
 
@@ -65,9 +67,9 @@ Una propiedad obligatoria permanece dentro de la recopilación activa hasta que 
 
 Demasiados campos obligatorios hacen que una captura conversacional se sienta como un formulario sin salida. Mantén pequeño el conjunto obligatorio.
 
-## Qué necesita antes de lanzarlo
+## Qué necesita antes de usarlo directamente
 
-Antes de habilitar Recolector de Propiedades, confirma:
+Antes de habilitar Recolector de Propiedades como playbook independiente, confirma:
 
 - Las propiedades del perfil ya existen en Hellotext y tienen nombres útiles para el cliente.
 - Sabes cuáles son obligatorias y cuáles opcionales.
@@ -88,7 +90,7 @@ Recolector de Propiedades expone:
 - **Tono:** la voz que usa al pedir información.
 - **Asignación o derivación:** quién debería continuar cuando la recopilación no puede completarse automáticamente.
 
-Otros playbooks compatibles pueden mostrar un subcomponente Recolector de Propiedades con su propia lista de propiedades requeridas. Recolector de Propiedades debe estar habilitado para que esa configuración previa pueda ejecutarse.
+Otros playbooks compatibles pueden mostrar un subcomponente Recolector de Propiedades con su propia lista de propiedades requeridas. Esa configuración interna no depende de que el playbook Recolector de Propiedades independiente esté habilitado.
 
 ## Cómo maneja las respuestas la IA
 
