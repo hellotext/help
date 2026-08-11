@@ -119,7 +119,7 @@ Cuando revises ejemplos, mira:
 - Si el mensaje evita tratar a todos los nuevos suscriptores de la misma forma.
 - Si las respuestas pueden continuar naturalmente en el canal o llegar al Inbox cuando hace falta.
 
-Mientras más realistas sean los ejemplos del Playground, más fácil es entrenar al sistema sobre cómo se ve un buen mensaje para tu tienda.
+Cuanto más realistas sean los ejemplos del Playground, mejor puede el sistema adaptar los mensajes a tu tienda.
 
 ## Cómo probarlo
 

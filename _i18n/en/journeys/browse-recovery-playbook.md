@@ -117,7 +117,7 @@ When reviewing examples, look for:
 - Whether product links, discounts, or calls to action make sense.
 - Whether the wording avoids over-explaining tracking or making the customer feel watched.
 
-The more realistic the Playground examples are, the easier it is to teach the system what "good" looks like for your store.
+The more realistic the Playground examples are, the better the system can adapt messages to your store.
 
 ## How to test it
 

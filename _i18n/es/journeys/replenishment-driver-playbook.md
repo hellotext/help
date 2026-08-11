@@ -128,7 +128,7 @@ Cuando revises ejemplos, mira:
 - Si producto, cantidad, link y descuento son relevantes.
 - Si las respuestas pueden continuar naturalmente en el canal o llegar al Inbox cuando hace falta.
 
-Mientras más realistas sean los ejemplos del Playground, más fácil es entrenar al sistema sobre cómo se ve un buen mensaje para tu tienda.
+Cuanto más realistas sean los ejemplos del Playground, mejor puede el sistema adaptar los mensajes a tu tienda.
 
 ## Cómo probarlo
 

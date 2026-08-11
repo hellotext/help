@@ -117,7 +117,7 @@ Cuando revises ejemplos, mira:
 - Si links de producto, descuentos o llamados a la acción tienen sentido.
 - Si el texto evita sobreexplicar el tracking o hacer que el cliente se sienta observado.
 
-Mientras más realistas sean los ejemplos del Playground, más fácil es entrenar al sistema sobre cómo se ve un buen mensaje para tu tienda.
+Cuanto más realistas sean los ejemplos del Playground, mejor puede el sistema adaptar los mensajes a tu tienda.
 
 ## Cómo probarlo
 

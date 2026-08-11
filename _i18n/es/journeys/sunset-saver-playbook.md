@@ -133,7 +133,7 @@ Cuando revises ejemplos, mira:
 - Si el texto evita asumir por qué el cliente se fue.
 - Si las respuestas pueden continuar naturalmente en el canal o llegar al Inbox cuando hace falta.
 
-Mientras más realistas sean los ejemplos, más fácil es entrenar al sistema sobre cómo se ve un buen último intento para tu tienda.
+Cuanto más realistas sean los ejemplos, mejor puede el sistema adaptar el último intento a tu tienda.
 
 ## Cómo probarlo
 
