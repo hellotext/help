@@ -38,6 +38,7 @@ Considera deshabilitar temporalmente solo cuando el cambio pueda afectar a clien
 
 - Estás cambiando el prompt de un playbook que lo permite y el agente podría responder de forma incorrecta.
 - Estás cambiando intenciones de un agente personalizado.
+- Estás cambiando qué propiedades debe recopilar un playbook.
 - Estás modificando canales de entrada o salida.
 - Estás cambiando descuentos o reglas de oferta del eCommerce.
 - Estás editando una ruta con pasos, condiciones, ramas o asignaciones.
@@ -54,6 +55,7 @@ Usa esta tabla como mapa rápido:
 | **Tono** | Playbooks con respuestas o mensajes generados por IA | La voz y el estilo con los que se comunica el playbook. |
 | **Intenciones** | Agentes personalizados y playbooks personalizados | Qué mensajes de clientes activan ese agente. |
 | **Conocimiento** | Agentes de IA de venta o atención | Qué información usa el agente para responder. |
+| **Propiedades** | Playbooks que incluyen el subcomponente Recolector de Propiedades | Qué datos faltantes del perfil debe pedir antes de continuar. |
 | **Canales de entrada/salida** | Playbooks que permiten selección de canales | Dónde puede responder o enviar mensajes. |
 | **Descuentos** | Playbooks de venta que permiten ofertas | Qué reglas de oferta del eCommerce y límites de descuento con IA puede usar el agente. |
 | **Derivación** | Agentes de IA, atención, [Webchat]({% link _captures/webchat-widget-playbook.md %}) y algunos playbooks personalizados | Quién toma la conversación cuando el agente no debe seguir. |
@@ -128,6 +130,21 @@ Antes de subir o reemplazar documentos:
 - Define qué debe pasar cuando el agente no encuentra una respuesta.
 
 Después de actualizar conocimiento, usa el Playground para hacer preguntas que dependan de la información cambiada.
+
+## Personaliza propiedades
+
+Esta sección aplica a los playbooks que muestran la tarjeta **Propiedades** o un subcomponente **Recolector de Propiedades**.
+
+Selecciona solamente los datos del perfil que ese playbook realmente necesita. Cuando llega el momento de recopilarlos, el playbook omite las propiedades que el cliente ya tiene y pregunta únicamente por las seleccionadas que todavía faltan.
+
+Al configurar las propiedades:
+
+- Usa propiedades con nombres claros para el cliente, no términos internos de tu CRM.
+- Mantén corta la lista para no convertir la conversación en un formulario largo.
+- Si aparece la opción **Debe recopilar**, márcala solo cuando el playbook no pueda continuar sin ese dato. Las demás propiedades pueden quedar como opcionales.
+- Prueba un perfil sin ninguna de las propiedades, otro que ya tenga algunas y un cliente que no quiera compartir una propiedad opcional.
+
+Por detrás, el playbook usa el componente [Recolector de Propiedades]({% link _captures/property-collector-playbook.md %}) para pedir, validar y guardar las respuestas. No necesitas habilitar el playbook independiente Recolector de Propiedades: el playbook que estás configurando usa su propio subcomponente. Habilita el Recolector de Propiedades independiente solo si también quieres usarlo directamente como una experiencia de captura.
 
 ## Personaliza canales
 
@@ -224,6 +241,7 @@ Si los resultados se mueven en la dirección equivocada, revierte primero el cam
 - [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
 - [Cómo escribir un gran prompt para tu agente]({% link _journeys/how-to-write-a-great-prompt.md %})
+- [Playbook Recolector de Propiedades]({% link _captures/property-collector-playbook.md %})
 - [Playbook Widget de Webchat]({% link _captures/webchat-widget-playbook.md %})
 - [Playbook Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
 - [Playbook Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})

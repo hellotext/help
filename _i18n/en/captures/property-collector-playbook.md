@@ -29,13 +29,15 @@ Property Collector stays focused on profile data. It is not a general support or
 
 Use Property Collector directly when the main purpose of the conversation is to enrich a customer profile.
 
-The playbook follows its configured collection list, asks for missing values, and saves valid answers to the profile. This works well when the business needs a reusable conversational capture for selected properties.
+The playbook follows its configured collection list, asks for missing values, and saves valid answers to the profile. This works well when the business needs a reusable conversational capture for selected properties. To use it this way, configure and enable the standalone Property Collector playbook.
 
 ### As a prerequisite for another playbook
 
 Other AI playbooks can include a Property Collector subcomponent with the profile data they need.
 
-When the source playbook detects that one or more configured properties are missing, it can temporarily hand the conversation to the enabled Property Collector. Property Collector asks only for that active set of missing properties.
+When the source playbook detects that one or more configured properties are missing, it uses that subcomponent internally. Property Collector asks only for that active set of missing properties.
+
+You do not need to enable the standalone Property Collector playbook for this case. The subcomponent is part of the source playbook's configuration and uses its own property selection.
 
 The original playbook remains responsible for the customer's task. Once the required collection is resolved, the conversation returns to that playbook instead of permanently changing ownership.
 
@@ -65,9 +67,9 @@ A required property remains part of the active collection until it is resolved o
 
 Too many required fields make a conversational capture feel like a form with no exit. Keep the required set small.
 
-## What it needs before launch
+## What it needs before direct use
 
-Before enabling Property Collector, confirm:
+Before enabling Property Collector as a standalone playbook, confirm:
 
 - The profile properties already exist in Hellotext and have useful customer-facing names.
 - You know which properties are required and which are optional.
@@ -88,7 +90,7 @@ Property Collector exposes:
 - **Tone:** the voice used while requesting information.
 - **Assignment or derivation:** who should take over when collection cannot continue automatically.
 
-Other compatible playbooks can expose a Property Collector subcomponent with their own prerequisite property list. Property Collector must be enabled before that prerequisite configuration can run.
+Other compatible playbooks can expose a Property Collector subcomponent with their own prerequisite property list. That internal configuration does not depend on the standalone Property Collector playbook being enabled.
 
 ## How the AI handles answers
 
