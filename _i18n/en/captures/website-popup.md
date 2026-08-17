@@ -106,7 +106,55 @@ Assign a journey when the new subscriber should enter a welcome or follow-up flo
 The installation step offers the methods available for the connected website:
 
 - **Automatic installation:** use this when Hellotext detects a supported connected Shopify store.
-- **Manual installation:** install [Hellotext.js](https://github.com/hellotext/hellotext.js), then add the initialization code generated for this popup to the website.
+- **Manual installation:** install the Hellotext runtime and add the initialization code generated for this popup to the website.
+
+### Manual installation
+
+Install the runtime with NPM when your storefront has a JavaScript build step:
+
+```bash
+npm install @hellotext/hellotext
+```
+
+Then import the runtime and its styles before initializing the popup:
+
+```javascript
+import Hellotext from '@hellotext/hellotext'
+import '@hellotext/hellotext/styles/index.css'
+
+Hellotext.initialize('HELLOTEXT_BUSINESS_ID', {
+  popup: {
+    id: 'POPUP_ID',
+  },
+})
+```
+
+For a site without a bundler, load the runtime from the CDN and initialize it after the script is available:
+
+```html
+<script src="https://unpkg.com/@hellotext/hellotext"></script>
+<script>
+  Hellotext.initialize('HELLOTEXT_BUSINESS_ID', {
+    popup: {
+      id: 'POPUP_ID',
+    },
+  })
+</script>
+```
+
+Replace `HELLOTEXT_BUSINESS_ID` and `POPUP_ID` with the values from the generated installation code. The popup id is required for manual installation; it tells the runtime which dashboard popup to load. The runtime appends the popup to `body` by default and automatically selects the configured device. You can override either behavior when needed:
+
+```javascript
+Hellotext.initialize('HELLOTEXT_BUSINESS_ID', {
+  popup: {
+    id: 'POPUP_ID',
+    container: '#popup-root',
+    device: 'auto', // auto, mobile, or desktop
+  },
+})
+```
+
+Load the initialization once per page. Use `popup: false` only when you need to disable popup mounting for a specific page.
 
 Use the generated code exactly as shown because it includes the identifiers for your business and popup. If a developer or agency manages the website, send them the complete manual installation instructions from this step.
 
@@ -137,7 +185,7 @@ Repeat the test in a private browser window and on a real phone. This catches in
 Check these items in order:
 
 1. Confirm that the popup was saved, installed, and published.
-2. Confirm that Hellotext.js and the popup initialization code load on the page.
+2. Confirm that the Hellotext runtime and the popup initialization code load on the page.
 3. Check whether the popup is limited to mobile or desktop.
 4. Check whether it opens automatically, after a delay, or only through a bubble.
 5. Test in a private browser window to avoid a previous session affecting the result.
