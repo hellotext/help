@@ -45,11 +45,35 @@ La integración queda pendiente mientras Fenicio autoriza el acceso.
 Después de completar los pasos en Hellotext:
 
 1. Abre un ticket con el soporte de Fenicio.
-2. Solicita que autoricen el acceso de Hellotext a tu tienda.
+2. Solicita que autoricen la IP de Hellotext, `5.161.64.254`, para que pueda acceder a tu tienda.
 3. Solicita que instalen el código de seguimiento de Hellotext en el sitio.
 4. Espera la confirmación de Fenicio.
 5. En Hellotext, vuelve a **Configuración > Integraciones**.
 6. En la integración de Fenicio, selecciona **Verificar integración**.
+
+### Modelo de correo para Fenicio
+
+Puedes copiar este modelo, completar los datos de tu tienda y enviarlo al soporte de Fenicio:
+
+> **Asunto:** Autorización de la integración entre Fenicio y Hellotext
+>
+> Hola, equipo de soporte de Fenicio:
+>
+> Necesitamos autorizar la integración de nuestra tienda con Hellotext. Por favor:
+>
+> - Autoricen la IP de Hellotext, `5.161.64.254`, para que pueda acceder a nuestra tienda.
+> - Instalen el código de seguimiento de Hellotext en nuestro sitio.
+>
+> **Datos de la tienda:**
+>
+> - Dominio: `[DOMINIO DE LA TIENDA]`
+> - ID del negocio en Fenicio: `[ID DEL NEGOCIO]`
+>
+> Por favor, confirmen cuando ambos pasos estén completados.
+>
+> Muchas gracias,
+>
+> `[NOMBRE]`
 
 Cuando Hellotext puede conectarse correctamente, el estado cambia a activo y comienza la importación configurada. Los productos y las órdenes se importan automáticamente; los clientes existentes se importan si aceptaste esa opción.
 

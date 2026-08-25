@@ -45,11 +45,35 @@ The integration remains pending while Fenicio authorizes access.
 After completing the steps in Hellotext:
 
 1. Open a support ticket with Fenicio.
-2. Ask Fenicio to authorize Hellotext access to your store.
+2. Ask Fenicio to authorize the Hellotext IP address, `5.161.64.254`, so it can access your store.
 3. Ask Fenicio to install the Hellotext tracking code on the site.
 4. Wait for confirmation from Fenicio.
 5. In Hellotext, return to **Settings > Integrations**.
 6. On the Fenicio integration, select **Check integration**.
+
+### Email template for Fenicio
+
+Copy this template, complete your store details, and send it to Fenicio support:
+
+> **Subject:** Authorize the integration between Fenicio and Hellotext
+>
+> Hello Fenicio support team,
+>
+> We need to authorize our store's integration with Hellotext. Please:
+>
+> - Authorize the Hellotext IP address, `5.161.64.254`, so it can access our store.
+> - Install the Hellotext tracking code on our site.
+>
+> **Store details:**
+>
+> - Domain: `[STORE DOMAIN]`
+> - Fenicio Business ID: `[BUSINESS ID]`
+>
+> Please confirm when both steps are complete.
+>
+> Thank you,
+>
+> `[NAME]`
 
 When Hellotext can connect successfully, the integration becomes active and starts the configured import. Products and orders are imported automatically; existing customers are imported if you accepted that option.
 
