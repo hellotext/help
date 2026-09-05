@@ -8,6 +8,8 @@ Use **SMS** when you need broad reach and your account already has an approved s
 
 Use **WhatsApp** when your customers already prefer chat, when you want richer conversations, or when you plan to use product catalog and commerce flows inside WhatsApp.
 
+Use **Email** when you want to send from your business domain and manage customer email replies in the Inbox. Start with [Set up email sending]({% link _integrations/set-up-email-sending.md %}), then read [Email channel fundamentals]({% link _numbers/email-channel-fundamentals.md %}) for daily use and the current channel scope.
+
 Use **Instagram DM** when customers discover your business on Instagram and initiate product or support conversations there.
 
 Use **Facebook Messenger** when customers contact your Facebook Page and your team needs those conversations in the Inbox.
@@ -39,6 +41,7 @@ Before launching a campaign, playbook, or route, confirm that:
 - [Exclusive short codes]({% link _numbers/exclusive-short-codes.md %})
 - [SMS channel fundamentals]({% link _numbers/sms-channel-fundamentals.md %})
 - [WhatsApp channel fundamentals]({% link _numbers/whatsapp-channel-fundamentals.md %})
+- [Email channel fundamentals]({% link _numbers/email-channel-fundamentals.md %})
 - [Connect Instagram DM]({% link _integrations/connect-instagram-dm.md %})
 - [Instagram DM fundamentals]({% link _numbers/instagram-dm-fundamentals.md %})
 - [Connect Facebook Messenger]({% link _integrations/connect-facebook-messenger.md %})

@@ -249,6 +249,7 @@ This helps support distinguish an account-access issue, a registration problem, 
 
 ## Related guides
 
+- [Email channel fundamentals]({% link _numbers/email-channel-fundamentals.md %})
 - [Setup overview]({% link _integrations/setup-overview.md %})
 - [Messaging channels overview]({% link _numbers/messaging-overview.md %})
 - [Inbox and conversations overview]({% link _team/inbox-overview.md %})

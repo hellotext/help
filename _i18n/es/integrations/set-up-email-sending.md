@@ -249,6 +249,7 @@ Esta información ayuda al soporte a distinguir entre un problema de acceso a la
 
 ## Guías relacionadas
 
+- [Fundamentos del canal de correo electrónico]({% link _numbers/email-channel-fundamentals.md %})
 - [Resumen de configuración]({% link _integrations/setup-overview.md %})
 - [Resumen de canales de mensajería]({% link _numbers/messaging-overview.md %})
 - [Resumen de Inbox y conversaciones]({% link _team/inbox-overview.md %})
