@@ -43,6 +43,8 @@ Conecta Instagram cuando los clientes deban poder iniciar conversaciones por men
 
 Conecta Messenger cuando los clientes deban poder escribir a tu página de Facebook y llegar a tu Inbox, rutas o playbooks compatibles. Messenger usa el inicio de sesión de Facebook y requiere acceso a la página y cuenta de Meta Business correctas.
 
+Para enviar correos desde el dominio de tu negocio, agrega un remitente y publica sus registros DNS de verificación. El envío de correos está disponible en Enterprise.
+
 Sigue leyendo:
 
 - [Conecta WhatsApp]({% link _integrations/connect-whatsapp.md %})
@@ -51,6 +53,7 @@ Sigue leyendo:
 - [Fundamentos de Instagram DM]({% link _numbers/instagram-dm-fundamentals.md %})
 - [Conecta Facebook Messenger]({% link _integrations/connect-facebook-messenger.md %})
 - [Fundamentos de Facebook Messenger]({% link _numbers/facebook-messenger-fundamentals.md %})
+- [Configura el envío de correos]({% link _integrations/set-up-email-sending.md %})
 
 ### 4. Agrega herramientas de captura y checkout
 
