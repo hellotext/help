@@ -29,6 +29,8 @@ If the issue is a WhatsApp template under review, rejected, flagged, or paused, 
 
 For channel setup context, keep reading: [Messaging channels overview]({% link _numbers/messaging-overview.md %}).
 
+If a Push notification does not arrive, appears twice, or is missing an image or buttons, follow [Troubleshoot Push notifications]({% link _troubleshooting-deliverability/troubleshoot-push-notifications.md %}).
+
 ## Campaigns
 
 If a campaign result looks lower than expected, review the selected audience, channel, message content, links, timing, and report metrics before comparing results.

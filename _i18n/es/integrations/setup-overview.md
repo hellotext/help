@@ -52,6 +52,8 @@ Sigue leyendo:
 - [Conecta Facebook Messenger]({% link _integrations/connect-facebook-messenger.md %})
 - [Fundamentos de Facebook Messenger]({% link _numbers/facebook-messenger-fundamentals.md %})
 
+Para las notificaciones push en Pro y Enterprise, Shopify y VTEX se encargan de la instalación automáticamente. Las tiendas personalizadas usan Hellotext.js. Sigue [Configura las notificaciones push]({% link _integrations/setup-push-notifications.md %}) para elegir cómo instalarlas y probar la suscripción.
+
 ### 4. Agrega herramientas de captura y checkout
 
 Cuando tu fuente de datos y canal de mensajería estén listos, agrega las herramientas de captura que usarán tus clientes para suscribirse.
