@@ -52,6 +52,12 @@ En este paso, se te pedirá instalar el píxel de Hellotext en tu cuenta de VTEX
 - Modificaciones del carrito (agregados o eliminaciones)
 - Realización de pedidos
 
+#### Instalación automática de Push
+
+La integración de Hellotext con VTEX también instala y configura las notificaciones push mediante su píxel en la tienda. Push está disponible en Pro y Enterprise. Completa la instalación del píxel anterior; no necesitas subir otro worker ni agregar otra inicialización de Hellotext.js.
+
+Si instalaste el píxel antes de que Push estuviera disponible, asegúrate de que la app de Hellotext esté actualizada y espera a que el píxel actualizado llegue a la tienda publicada. Sigue [Configura las notificaciones push]({% link _integrations/setup-push-notifications.md %}) para agregar controles de suscripción y verificar la configuración.
+
 <a name="checkout"></a>
 
 #### Seguimiento del Embudo de Checkout

@@ -42,6 +42,12 @@ Si inicias una importación, no necesitas esperar en la página hasta que termin
 
 Si ves tu tienda Shopify listada como conectada, la integración está lista.
 
+## Instalación automática de Push
+
+Conectar Shopify mediante la integración de Hellotext instala y configura automáticamente las notificaciones push en tu tienda. Push está disponible en Pro y Enterprise. No necesitas subir un archivo de service worker ni agregar otra inicialización de Hellotext.js.
+
+Si tu tienda ya estaba conectada, asegúrate de que su app de Hellotext esté actualizada y recarga el sitio publicado cuando la actualización esté disponible. Después, sigue [Configura las notificaciones push]({% link _integrations/setup-push-notifications.md %}) para agregar controles de suscripción si hacen falta y verificar la configuración.
+
 ## Verifica la conexión
 
 Antes de lanzar un playbook o campaña amplia, haz una prueba completa en pequeño.

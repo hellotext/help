@@ -54,6 +54,12 @@ unlocks insight into what your customers do on the website, including:
 - Cart Modifications (additions or removals)
 - Order Placement
 
+#### Automatic Push installation
+
+The Hellotext VTEX integration also installs and configures Push notifications through its storefront pixel. Push is available on Pro and Enterprise. Complete the pixel installation above; you do not need to upload a separate worker or add another Hellotext.js initialization.
+
+If the pixel was installed before Push became available, make sure the Hellotext app is up to date and wait for the updated pixel to reach the live storefront. Follow [Set up Push notifications]({% link _integrations/setup-push-notifications.md %}) for subscription controls and verification.
+
 <a name="checkout"></a>
 
 #### Checkout Funnel Tracking

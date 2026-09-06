@@ -29,6 +29,8 @@ Si el problema es una plantilla de WhatsApp en revisión, rechazada, marcada o p
 
 Para contexto de configuración de canales, sigue leyendo: [Resumen de canales de mensajería]({% link _numbers/messaging-overview.md %}).
 
+Si una notificación push no llega, aparece dos veces o no muestra una imagen o sus botones, sigue [Soluciona problemas con las notificaciones push]({% link _troubleshooting-deliverability/troubleshoot-push-notifications.md %}).
+
 ## Campañas
 
 Si el resultado de una campaña parece menor a lo esperado, revisa audiencia, canal, contenido del mensaje, links, timing y métricas del reporte antes de comparar resultados.

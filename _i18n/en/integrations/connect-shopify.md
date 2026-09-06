@@ -42,6 +42,12 @@ If you start an import, you do not need to wait on the page until it finishes. C
 
 If you see your Shopify store listed as connected, the integration is ready.
 
+## Automatic Push installation
+
+Connecting Shopify through the Hellotext integration automatically installs and configures Push notifications on your storefront. Push is available on Pro and Enterprise. You do not need to upload a service-worker file or add another Hellotext.js initialization.
+
+If your store was already connected, make sure its Hellotext app is up to date and reload the live storefront after the update is available. Then follow [Set up Push notifications]({% link _integrations/setup-push-notifications.md %}) to add subscription controls where needed and verify the setup.
+
 ## Verify the connection
 
 Before launching a broad playbook or campaign, run a small end-to-end test.

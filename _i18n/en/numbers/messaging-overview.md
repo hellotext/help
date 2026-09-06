@@ -12,6 +12,8 @@ Use **Instagram DM** when customers discover your business on Instagram and init
 
 Use **Facebook Messenger** when customers contact your Facebook Page and your team needs those conversations in the Inbox.
 
+Use **Push notifications** to reach visitors who subscribe through your website. Push is available on Pro and Enterprise, with automatic installation through Shopify and VTEX. Start with [Set up Push notifications]({% link _integrations/setup-push-notifications.md %}).
+
 Use **Mercado Libre** when you sell through the marketplace and need transaction-specific post-sale conversations in the Inbox. It is tied to eligible Mercado Libre orders and is not a general campaign destination.
 
 Many businesses use several channels: SMS for reach, WhatsApp for richer outbound and conversational experiences, Instagram or Messenger for customer-initiated social conversations, and Mercado Libre for marketplace post-sale support. Campaigns, routes, and playbooks can use the channels differently, so confirm how channel selection works for the experience you are launching.
