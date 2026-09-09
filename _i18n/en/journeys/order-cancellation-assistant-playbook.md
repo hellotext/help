@@ -65,16 +65,67 @@ For setup validation, use [Verify your data and signals after setup]({% link _in
 
 Open **Playbooks**, click **Explore playbooks**, and choose **Order Cancellation Assistant**.
 
-The available cards can vary, but you may be able to review:
+Start with the two components that define how cancellation requests should be handled:
 
-- **Knowledge or upload documents:** cancellation policy, fulfillment cutoff rules, shipping rules, payment guidance, refund expectations, and internal support instructions.
-- **Incoming channels:** where customers can ask for cancellation help.
+- **Cancellation policy:** the latest order stage you accept for cancellation, returns guidance, and permission for partial cancellation.
+- **Save strategy:** whether to offer an alternative before cancellation, which alternatives are allowed, and the maximum store credit.
+
+Then configure the supporting components:
+
+- **Assignment:** the teammate or team that should take over when a person is needed.
+- **Upload documents:** cancellation and return policies, product restrictions, payment guidance, refund expectations, and internal support instructions.
+- **Outgoing channel:** the channel the assistant uses to reply.
 - **Tone:** the voice used in replies.
-- **Escalation or assignment:** who should take over when a person is needed.
-- **Prompt or instructions, when available:** what the playbook may explain, which alternatives it may offer, what it must not promise, and when to hand off.
-- **Web search or approved websites, when available:** public policy pages the agent can use for this mission.
+- **Prompt:** additional instructions for your business, including exceptions and handoff expectations.
+- **Discount:** discount permissions and limits. Configure discounts here, separately from the store-credit limit in Save Strategy.
+- **Web search:** approved websites the assistant can consult for policy information.
 
-Keep the first setup narrow. It is easier to expand a clear cancellation flow than to diagnose a playbook that tries to solve every post-purchase problem.
+The two components set your business's rules and permissions. Enabling an option does not itself cancel an order, change an item, issue a refund, or grant credit. The assistant should only confirm an action after it has been completed; requests that cannot be completed through the available store connection need your team.
+
+## Cancellation Policy component
+
+Use **Cancellation policy** to define when the assistant can continue with a cancellation request and what it should offer when cancellation is no longer possible.
+
+> **Integration required for partial cancellation:** Connect Shopify or VTEX to enable **Allow partial cancellation**. Without either connection, that option is disabled and grayed out. The cancellation-stage setting and returns guidance are general policy settings. You do not need both integrations connected.
+
+| Option | What it means |
+| --- | --- |
+| **Allow cancellation until** | Choose the latest order stage your business accepts. The selected stage is included, along with the earlier stages listed below. Your store's restrictions and the order's eligibility still apply. |
+| **Offer returns after shipping** | When a shipped or delivered order cannot be cancelled, guide the customer to your returns process. This is guidance: it does not open a return request or issue a refund. Turn it off if these cases should go to your team instead. |
+| **Allow partial cancellation** | Allow a request to remove selected items while keeping the rest of the order. Use it only when your connected store supports the change for that order. It is different from replacing an item, which is configured in Save Strategy. |
+
+### Choosing the cancellation stage
+
+The dropdown offers four stages. **Until includes the selected stage**, rather than stopping just before it.
+
+| Selected option | Stages included in your policy |
+| --- | --- |
+| **Placed an order** | Placed only. |
+| **Order confirmed** | Placed and confirmed. |
+| **Order shipped** | Placed, confirmed, and shipped. |
+| **Order delivered** | Placed, confirmed, shipped, and delivered. |
+
+For example, choose **Order confirmed** if your policy should stop accepting cancellations once the order is shipped. Choosing **Order shipped** includes the shipped stage in your business policy, but does not override a store restriction that prevents cancelling an order after shipment. The same applies to delivered orders.
+
+Checkout started, printed shipping labels, and already-cancelled orders are not cutoff options. An order inside your selected window can still need review because of its payment, refund, cancellation, or fulfillment status. Keep the uploaded policy consistent with these settings so the assistant can explain the next step clearly.
+
+## Save Strategy component
+
+Use **Save strategy** to authorize a useful alternative when a customer asks to cancel. The alternative should address the customer's reason, and the customer can decline it and continue with the cancellation request.
+
+> **Shopify or VTEX required:** Save Strategy requires a connection to one of these platforms. A connection does not guarantee that every action is available: item changes, shipping refunds, and store credit depend on the platform, the store's setup, and the particular order. If an action is unavailable, your team must handle it. You do not need both integrations connected.
+
+| Option | What it means |
+| --- | --- |
+| **Try to keep the order** | Turn on the strategy to allow a relevant, approved alternative before proceeding with cancellation. Turn it off to handle the cancellation request without a save attempt. The other strategy controls are then disabled and dimmed, while their saved values are kept for later. |
+| **Offer item replacement** | Allow another item, size, color, or variant to be proposed when the order can still be edited. This is an adjustment to an existing order before preparation, where supported, rather than an exchange of an item already delivered. |
+| **Offer a shipping refund** | Allow a refund of shipping charges already paid as an incentive to keep the order, where supported. It does not speed up delivery, change the shipping service, or make a future shipment free. |
+| **Offer store credit** | Allow credit for a future purchase as an incentive to keep the current order, where supported. Store credit is separate from a refund of the original payment. Enabling it reveals the maximum-credit amount and currency. |
+| **Maximum store credit** | Set the maximum credit the assistant may offer for one order, using the amount and currency selector. Enter an amount greater than zero when store credit is enabled. This is a monetary limit, not a percentage or a promise to offer the full amount every time. |
+
+For example, a maximum store credit of **10 USD** authorizes an offer of up to **10 USD for an order**. Choose the currency your business intends to use for that credit. This setting does not control shipping refunds or discounts; discount limits belong to the separate **Discount** component.
+
+Enable only the alternatives your team is prepared to honor. These permissions do not override store restrictions or make an unavailable operation possible. If the customer declines an alternative, continue with their cancellation request or the appropriate handoff, rather than repeating the offer.
 
 ## Prepare cancellation policy knowledge
 
@@ -95,16 +146,9 @@ Avoid vague policy content such as "contact us to cancel" if you want the playbo
 
 ## Define save-the-sale boundaries
 
-Some cancellation requests can be saved without pressuring the customer.
+Use **Save strategy** to choose the alternatives your team approves. An item replacement can help with a wrong size or color; a shipping refund may help with a shipping-cost concern; store credit can be offered only within the amount and currency you configured.
 
-Only offer alternatives your team approves, such as:
-
-- Helping the customer choose a different size, color, or item.
-- Routing the customer to [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}) when the customer wants a different product.
-- Explaining shipping status if the customer wants to cancel because they do not know where the order is.
-- Offering to connect the customer with a person when the reason is unclear or sensitive.
-
-Do not use the playbook to pressure a customer into keeping an order. If the customer clearly wants to cancel and cancellation requires a person or operational action, hand off.
+A customer asking where an order is may need [Order-Update Delight]({% link _journeys/order-update-playbook.md %}), while someone choosing another product may need [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}). Use a person when the reason is unclear, sensitive, or requires an exception. Do not pressure a customer to keep an order or promise an alternative the store cannot provide.
 
 ## Define what needs a person
 
@@ -112,14 +156,14 @@ Cancellation requests often need human judgment or an operational action.
 
 Configure handoff or team ownership for cases such as:
 
-- The customer asks for immediate cancellation.
-- The order is already fulfilled, shipped, delivered, or in a state the playbook cannot change.
+- The customer needs a cancellation that cannot be completed through the available store connection.
+- The order is outside your cancellation policy or the store prevents the requested change, and returns guidance does not resolve the request.
 - The request needs payment review, refund approval, fraud review, or account verification.
-- The customer asks to change the address, items, payment method, or delivery instructions.
+- The customer asks for an address, payment-method, or delivery-instruction change, or an item change that is not permitted or supported.
 - The order cannot be found.
 - The customer asks for an exception.
 - The customer is angry, frustrated, or dissatisfied.
-- The request requires an action in your commerce, fulfillment, payment, or shipping system.
+- The requested action in your commerce, fulfillment, payment, or shipping system requires a person to complete it.
 
 For handoff behavior, use [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %}).
 
@@ -141,6 +185,11 @@ Test with realistic post-purchase messages before enabling the playbook broadly.
 
 Use test customer profiles and channels that match your launch plan, then try:
 
+- A cancellation request at your selected cutoff stage and another at the next stage, to check the inclusive boundary.
+- Partial cancellation with neither integration connected, and with the supported connection you plan to use.
+- Store credit with an amount and currency selected, including a missing or zero amount that needs correcting.
+- A customer who declines an alternative and still wants to cancel.
+- An action your store cannot complete, which should go to your team without a completion promise.
 - A cancellation request for an order that has not shipped.
 - A cancellation request for an order that is already packed, shipped, or delivered.
 - A request with missing order number or customer details.
