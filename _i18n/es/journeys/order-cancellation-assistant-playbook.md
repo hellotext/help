@@ -18,7 +18,7 @@ Puede:
 - Derivar cuando la cancelación necesita aprobación, una acción operativa, revisión de pago o manejo de excepción.
 - Trabajar junto con [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}), [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}), Webchat, asignación en Inbox y reglas de respuesta.
 
-El playbook debería mantenerse basado en datos de pedido y políticas. Si el estado del pedido no está claro, el cliente pide una decisión o la cancelación requiere una acción fuera del playbook, debería derivar en lugar de adivinar.
+El playbook debería mantenerse basado en datos de pedido y políticas. Si no puede confirmar el estado del pedido, necesita una aprobación o la solicitud requiere una acción que no puede completar, debería derivar en lugar de adivinar.
 
 ## Cuándo usarlo
 
@@ -65,16 +65,66 @@ Para validar la configuración, usa [Verifica tus datos y señales después de c
 
 Abre **Playbooks**, haz clic en **Explorar playbooks** y elige **Asistente de Cancelación de Pedidos**.
 
-Las tarjetas disponibles pueden variar, pero podrías revisar:
+Configura estas tarjetas en el orden en que aparecen:
 
-- **Conocimiento o documentos cargados:** política de cancelación, reglas de corte de preparación, reglas de envío, guía de pagos, expectativas de reembolso e instrucciones internas de soporte.
-- **Canales de entrada:** dónde clientes pueden pedir ayuda con cancelaciones.
-- **Tono:** la voz usada en las respuestas.
-- **Derivación o asignación:** quién debería tomar la conversación cuando hace falta una persona.
-- **Prompt o instrucciones, cuando esté disponible:** qué puede explicar el playbook, qué alternativas puede ofrecer, qué no debe prometer y cuándo debe derivar.
-- **Búsqueda web o sitios aprobados, cuando esté disponible:** páginas públicas de políticas que el agente puede usar para esta misión.
+| Componente | Qué configuras |
+| --- | --- |
+| **Política de cancelación** | Hasta qué etapa permites cancelar, si ofreces orientación sobre devoluciones y si permites cancelar parte del pedido. |
+| **Estrategia de retención** | Qué alternativas puede ofrecer el asistente para ayudar al cliente a conservar su pedido y cuál es el límite de crédito en tienda. |
+| **Derivación** | La persona o el equipo que interviene cuando el asistente necesita apoyo. |
+| **Conocimiento** | Documentos con tu política de cancelación, reglas de preparación y envío, expectativas de reembolso e instrucciones de soporte. |
+| **Canales de salida** | Los canales por los que este playbook puede enviar mensajes. |
+| **Tono** | La voz de las respuestas del asistente. |
+| **Prompt del agente** | Instrucciones adicionales sobre cómo responder, qué explicar y cuándo pedir apoyo. |
+| **Descuentos** | La estrategia de descuentos y los límites de los incentivos permitidos. |
+| **Búsqueda web** | Los sitios web donde el asistente puede consultar información. |
 
 Mantén la primera configuración acotada. Es más fácil ampliar un flujo claro de cancelación que diagnosticar un playbook que intenta resolver todos los problemas post-compra.
+
+## Componente Política de cancelación
+
+Esta tarjeta define las condiciones que tu negocio acepta para una cancelación. Las restricciones de la tienda y del pedido también se aplican: elegir una etapa no garantiza que todos los pedidos en esa etapa puedan cancelarse.
+
+> **Importante:** Para habilitar **Permitir cancelaciones parciales**, conecta Shopify o VTEX; basta con una de las dos plataformas. Sin ninguna conexión, esta opción está deshabilitada y aparece en gris. Puedes configurar **Permitir cancelaciones hasta** y **Ofrecer devoluciones después del envío** de forma independiente.
+
+| Opción | Qué significa |
+| --- | --- |
+| **Permitir cancelaciones hasta** | Selecciona la última etapa en la que permites cancelar. El límite incluye esa etapa y las anteriores que aparecen en la tabla de abajo. |
+| **Ofrecer devoluciones después del envío** | Permite orientar al cliente hacia el proceso de devolución cuando el envío impide cancelar. Esta orientación no cancela el pedido ni inicia una devolución o un reembolso. Desactívala si prefieres que estos casos pasen a tu equipo. |
+| **Permitir cancelaciones parciales** | Permite retirar los artículos seleccionados y conservar el resto del pedido cuando la tienda y el pedido admitan el cambio. Es distinto de reemplazar un artículo, que se configura en Estrategia de retención. |
+
+### Elige la etapa de cancelación
+
+Las opciones de **Permitir cancelaciones hasta** son:
+
+| Etapa seleccionada | Etapas incluidas por tu política |
+| --- | --- |
+| **Realizó una orden** | Realizó una orden. |
+| **Orden confirmada** | Realizó una orden y Orden confirmada. |
+| **Orden enviada** | Realizó una orden, Orden confirmada y Orden enviada. |
+| **Orden entregada** | Realizó una orden, Orden confirmada, Orden enviada y Orden entregada. |
+
+Por ejemplo, si eliges **Orden confirmada**, un pedido confirmado está dentro del límite y uno enviado está fuera. Si eliges **Orden enviada**, la política incluye esa etapa, pero la tienda todavía puede impedir cancelar un pedido que ya fue enviado. En ese caso, el asistente puede orientar sobre devoluciones si activaste esa opción o pedir apoyo al equipo. Lo mismo ocurre con los pedidos entregados.
+
+El inicio del proceso de compra, la impresión de etiquetas de envío y los pedidos ya cancelados no son opciones de este límite. Un pedido dentro de la etapa permitida aún puede necesitar revisión por su estado de pago, reembolso, cancelación o preparación. Mantén la política cargada en **Conocimiento** alineada con estas opciones.
+
+## Componente Estrategia de retención
+
+Esta tarjeta permite ofrecer una alternativa antes de continuar con la cancelación. Activa solo las opciones que tu negocio autoriza y que puedes cumplir para el pedido concreto. El cliente puede rechazarlas y continuar con su solicitud sin que el asistente repita la oferta.
+
+> **Se requiere Shopify o VTEX:** La tarjeta **Estrategia de retención** requiere una conexión con una de estas plataformas; no necesitas ambas. La conexión no garantiza que todas las acciones estén disponibles: los cambios de artículos, reembolsos del envío y créditos en tienda dependen de la plataforma, de la configuración de la tienda y del pedido. Si una operación no está disponible, debe intervenir tu equipo.
+
+| Opción | Qué significa |
+| --- | --- |
+| **Intentar conservar el pedido** | Permite ofrecer una alternativa autorizada antes de cancelar. Al desactivarla, se atiende la cancelación sin intentar conservar el pedido. Las opciones que dependen de ella quedan deshabilitadas y en gris; sus valores guardados se conservan. |
+| **Ofrecer un cambio de artículos** | Permite ofrecer otro artículo, talla, color o variante cuando el pedido todavía admite esa modificación antes de la preparación. No es un cambio de un artículo ya entregado. |
+| **Ofrecer un reembolso del envío** | Permite ofrecer el reembolso de gastos de envío ya pagados cuando la tienda y el pedido lo admitan. No acelera la entrega ni cambia el servicio de envío ni hace gratuito un envío futuro. |
+| **Ofrecer crédito en tienda** | Permite ofrecer crédito para una compra futura como incentivo para conservar el pedido. Es independiente del reembolso del pago original. |
+| **Crédito máximo en tienda** | Define el importe máximo de crédito que el asistente puede ofrecer por pedido y la moneda de ese límite. Este campo aparece al activar **Ofrecer crédito en tienda** y requiere un importe mayor que cero y una moneda seleccionada. Es un límite monetario, no un porcentaje ni una promesa de ofrecer siempre el importe completo. |
+
+Por ejemplo, un límite de **10 USD** autoriza ofrecer hasta **10 USD de crédito por pedido**. Elige la moneda que tu negocio usará para ese crédito. Este límite no regula los reembolsos del envío ni los descuentos: la estrategia y el límite de descuentos se configuran en **Descuentos**.
+
+Activar una opción autoriza al asistente a considerarla; no ejecuta un cambio, reembolso o crédito por sí solo. El asistente solo debe confirmar el resultado cuando la acción se haya completado. Si la operación no está disponible o requiere intervención, debe derivar al equipo configurado en **Derivación**.
 
 ## Prepara el conocimiento de cancelación
 
@@ -97,14 +147,11 @@ Evita contenido vago como "contáctanos para cancelar" si quieres que el playboo
 
 Algunas solicitudes de cancelación pueden salvarse sin presionar al cliente.
 
-Ofrece solo alternativas aprobadas por tu equipo, como:
+Usa **Estrategia de retención** para autorizar cambios de artículos, reembolsos del envío o crédito en tienda, y **Descuentos** para definir la estrategia y los límites de descuentos. Ofrece estas alternativas solo cuando correspondan al motivo del cliente y estén disponibles para su pedido.
 
-- Ayudar al cliente a elegir otro talle, color o artículo.
-- Enviar al cliente a [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) cuando quiere otro producto.
-- Explicar el estado de envío si el cliente quiere cancelar porque no sabe dónde está su pedido.
-- Ofrecer conectar al cliente con una persona cuando el motivo no está claro o es sensible.
+También puedes explicar el estado de envío si el cliente quiere cancelar porque no sabe dónde está su pedido, o conectarlo con [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) si quiere ayuda para elegir otro producto.
 
-No uses el playbook para presionar a un cliente a mantener un pedido. Si el cliente claramente quiere cancelar y la cancelación requiere una persona o acción operativa, deriva.
+No uses el playbook para presionar a un cliente a mantener un pedido. Si rechaza la alternativa, respeta su decisión y continúa con la solicitud de cancelación según **Política de cancelación**. Deriva cuando haga falta una aprobación o una acción que el asistente no pueda completar.
 
 ## Define qué necesita una persona
 
@@ -112,14 +159,14 @@ Las solicitudes de cancelación suelen requerir criterio humano o una acción op
 
 Configura derivación o asignación a equipo para casos como:
 
-- El cliente pide cancelación inmediata.
-- El pedido ya está preparado, enviado, entregado o en un estado que el playbook no puede cambiar.
+- El cliente necesita una cancelación que no puede completarse mediante la conexión disponible con la tienda.
+- El pedido está fuera del límite de **Política de cancelación** o la tienda impide la operación solicitada, y la orientación sobre devoluciones no resuelve la solicitud.
 - La solicitud necesita revisión de pago, aprobación de reembolso, revisión de fraude o verificación de cuenta.
-- El cliente pide cambiar dirección, artículos, método de pago o instrucciones de entrega.
-- El pedido no se encuentra.
+- El cliente pide cambiar la dirección, el método de pago o las instrucciones de entrega, o un cambio de artículos que no está autorizado o no está disponible para ese pedido.
+- El pedido no se encuentra después de pedir los datos necesarios.
 - El cliente pide una excepción.
 - El cliente está enojado, frustrado o insatisfecho.
-- La solicitud requiere una acción en tu sistema de comercio, preparación, pagos o envíos.
+- La solicitud requiere una intervención en tu sistema de comercio, preparación, pagos o envíos que el asistente no puede realizar.
 
 Para el comportamiento de derivación, usa [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %}).
 
@@ -143,6 +190,11 @@ Usa perfiles de cliente y canales de prueba que coincidan con tu plan de lanzami
 
 - Una solicitud de cancelación para un pedido que todavía no fue enviado.
 - Una solicitud de cancelación para un pedido ya empacado, enviado o entregado.
+- Un pedido justo en la etapa elegida en **Permitir cancelaciones hasta** y otro en la etapa siguiente: la primera está incluida en la política y la segunda queda fuera, siempre respetando las restricciones de la tienda.
+- **Permitir cancelaciones parciales** sin Shopify ni VTEX conectado: debe quedar deshabilitado y en gris, mientras las otras opciones de **Política de cancelación** siguen disponibles. Prueba también una cancelación parcial con la conexión compatible que usarás.
+- **Ofrecer crédito en tienda** con un importe positivo y una moneda seleccionada; comprueba que un importe vacío o de cero requiera corrección y que las ofertas respeten el máximo por pedido.
+- Un cliente que rechaza la alternativa: el asistente debe respetar la decisión y continuar con su solicitud de cancelación.
+- Una operación que tu tienda no pueda completar: debe pasar a tu equipo sin prometer que se realizó.
 - Una solicitud sin número de pedido o sin datos del cliente.
 - Una solicitud donde el pedido puede encontrarse desde el perfil del cliente.
 - Un cliente que quiere cancelar porque el envío está demorado.
