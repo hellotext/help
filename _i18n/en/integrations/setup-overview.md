@@ -43,6 +43,8 @@ Connect Instagram when customers should be able to start direct-message conversa
 
 Connect Messenger when customers should be able to message your Facebook Page and reach your Inbox, routes, or compatible playbooks. Messenger uses Facebook login and requires access to the intended Page and Meta Business account.
 
+To send emails from your business domain, add an email sender and publish its DNS verification records. Email sending is available on Enterprise.
+
 Keep reading:
 
 - [Connect WhatsApp]({% link _integrations/connect-whatsapp.md %})
@@ -51,6 +53,7 @@ Keep reading:
 - [Instagram DM fundamentals]({% link _numbers/instagram-dm-fundamentals.md %})
 - [Connect Facebook Messenger]({% link _integrations/connect-facebook-messenger.md %})
 - [Facebook Messenger fundamentals]({% link _numbers/facebook-messenger-fundamentals.md %})
+- [Set up email sending]({% link _integrations/set-up-email-sending.md %})
 
 For Push notifications on Pro and Enterprise, Shopify and VTEX handle installation automatically. Custom storefronts use Hellotext.js. Follow [Set up Push notifications]({% link _integrations/setup-push-notifications.md %}) for the setup path and subscription test.
 
