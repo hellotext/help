@@ -6,11 +6,13 @@ en:
   title: Playbook reporting
   description: Review revenue, performance, attribution, and handoff signals for playbooks, AI agents, and routes.
 es:
-  title: Reportes de playbooks
-  description: Revisa ingresos, performance, atribución y derivaciones de playbooks, agentes de IA y rutas.
+  title: Reportes de misiones
+  description: Revisa ingresos, performance, atribución y derivaciones de misiones, agentes de IA y rutas.
 
 permalink: playbook-reporting
-permalink_es: reportes-de-playbooks
+permalink_es: reportes-de-misiones
+redirect_from:
+  - /reportes-de-playbooks
 
 layout: guide
 topic: analytics-reporting-attribution

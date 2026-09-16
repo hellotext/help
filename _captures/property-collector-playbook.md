@@ -10,7 +10,7 @@ en:
   title: Property Collector playbook
   description: Collect missing customer profile properties through AI conversations and return customers to the task they started.
 es:
-  title: Playbook Recolector de Propiedades
+  title: Misión Recolector de Propiedades
   description: Recopila propiedades faltantes del perfil mediante conversaciones con IA y devuelve al cliente a la tarea que había iniciado.
 
 permalink: property-collector-playbook

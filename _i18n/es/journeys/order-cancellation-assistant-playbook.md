@@ -1,6 +1,6 @@
 Usa esta guía cuando clientes piden cancelar un pedido después de comprar, especialmente antes de que el pedido haya sido enviado o preparado.
 
-Asistente de Cancelación de Pedidos es un playbook reactivo de soporte post-compra. Ayuda a clientes a entender si una cancelación podría ser posible, recopila el contexto que tu equipo necesita, ofrece alternativas útiles cuando corresponde y deriva cuando una persona debe decidir o tomar acción.
+Asistente de Cancelación de Pedidos es una misión reactiva de soporte post-compra. Ayuda a clientes a entender si una cancelación podría ser posible, recopila el contexto que tu equipo necesita, ofrece alternativas útiles cuando corresponde y deriva cuando una persona debe decidir o tomar acción.
 
 No es un agente general de FAQs y no debería prometer que un pedido ya fue cancelado salvo que la acción realmente se complete mediante tu proceso de negocio. Funciona mejor cuando tu política de cancelación, datos de pedido, reglas de derivación y opciones para salvar la venta están claras.
 
@@ -18,9 +18,9 @@ Puede:
 - Derivar cuando la cancelación necesita aprobación, una acción operativa, revisión de pago o manejo de excepción.
 - Trabajar junto con [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}), [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}), Webchat, asignación en Inbox y reglas de respuesta.
 
-El playbook debería mantenerse basado en datos de pedido y políticas. Si no puede confirmar el estado del pedido, necesita una aprobación o la solicitud requiere una acción que no puede completar, debería derivar en lugar de adivinar.
+La misión debería mantenerse basada en datos de pedido y políticas. Si no puede confirmar el estado del pedido, necesita una aprobación o la solicitud requiere una acción que no puede completar, debería derivar en lugar de adivinar.
 
-## Cuándo usarlo
+## Cuándo usarla
 
 Usa Asistente de Cancelación de Pedidos cuando:
 
@@ -32,7 +32,7 @@ Usa Asistente de Cancelación de Pedidos cuando:
 
 Es útil para solicitudes de cancelación antes del envío, recopilar motivos de cancelación, explicar políticas y encaminar casos al siguiente paso correcto.
 
-## Cuándo no usarlo
+## Cuándo no usarla
 
 No uses Asistente de Cancelación de Pedidos como dueño de todos los pedidos post-compra.
 
@@ -46,14 +46,14 @@ Usa [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %
 
 Usa el Inbox directamente cuando el caso involucra sospecha de fraude, disputas de pago, lenguaje legal, excepciones de alto valor o un cliente muy molesto.
 
-## Qué necesita antes de lanzarlo
+## Qué necesita antes de lanzarla
 
 Antes de habilitar Asistente de Cancelación de Pedidos, confirma:
 
 - Tu política de cancelación está actualizada y aprobada.
 - La política explica cuándo es posible cancelar, cuándo ya es tarde y qué pasa después de recibir una solicitud de cancelación.
-- Los datos de pedido están disponibles cuando el playbook debería identificar compras.
-- Tu equipo sabe qué casos de cancelación puede manejar el playbook y qué casos requieren una persona.
+- Los datos de pedido están disponibles cuando la misión debería identificar compras.
+- Tu equipo sabe qué casos de cancelación puede manejar la misión y qué casos requieren una persona.
 - Las opciones para salvar la venta están aprobadas, como ajustar la solicitud, ofrecer un reemplazo o derivar a una persona de ventas.
 - Los canales de entrada donde clientes piden cancelar están conectados y listos.
 - Hay una persona o equipo configurado para derivaciones.
@@ -63,7 +63,7 @@ Para validar la configuración, usa [Verifica tus datos y señales después de c
 
 ## Qué puedes configurar
 
-Abre **Playbooks**, haz clic en **Explorar playbooks** y elige **Asistente de Cancelación de Pedidos**.
+Abre **Misiones**, haz clic en **Explorar misiones** y elige **Asistente de Cancelación de Pedidos**.
 
 Configura estas tarjetas en el orden en que aparecen:
 
@@ -73,13 +73,13 @@ Configura estas tarjetas en el orden en que aparecen:
 | **Estrategia de retención** | Qué alternativas puede ofrecer el asistente para ayudar al cliente a conservar su pedido y cuál es el límite de crédito en tienda. |
 | **Derivación** | La persona o el equipo que interviene cuando el asistente necesita apoyo. |
 | **Conocimiento** | Documentos con tu política de cancelación, reglas de preparación y envío, expectativas de reembolso e instrucciones de soporte. |
-| **Canales de salida** | Los canales por los que este playbook puede enviar mensajes. |
+| **Canales de salida** | Los canales por los que esta misión puede enviar mensajes. |
 | **Tono** | La voz de las respuestas del asistente. |
 | **Prompt del agente** | Instrucciones adicionales sobre cómo responder, qué explicar y cuándo pedir apoyo. |
 | **Descuentos** | La estrategia de descuentos y los límites de los incentivos permitidos. |
 | **Búsqueda web** | Los sitios web donde el asistente puede consultar información. |
 
-Mantén la primera configuración acotada. Es más fácil ampliar un flujo claro de cancelación que diagnosticar un playbook que intenta resolver todos los problemas post-compra.
+Mantén la primera configuración acotada. Es más fácil ampliar un flujo claro de cancelación que diagnosticar una misión que intenta resolver todos los problemas post-compra.
 
 ## Componente Política de cancelación
 
@@ -128,7 +128,7 @@ Activar una opción autoriza al asistente a considerarla; no ejecuta un cambio, 
 
 ## Prepara el conocimiento de cancelación
 
-El playbook necesita contenido de política suficientemente específico para guiar al cliente.
+La misión necesita contenido de política suficientemente específico para guiar al cliente.
 
 Incluye:
 
@@ -141,7 +141,7 @@ Incluye:
 - Qué casos deberían pasar a cambios, devoluciones, seguimiento de pedidos o Inbox.
 - Qué debería esperar el cliente después de que se recibe la solicitud.
 
-Evita contenido vago como "contáctanos para cancelar" si quieres que el playbook responda de forma consistente. Si la política cambia, actualiza la fuente antes de esperar que el playbook use la nueva regla.
+Evita contenido vago como "contáctanos para cancelar" si quieres que la misión responda de forma consistente. Si la política cambia, actualiza la fuente antes de esperar que la misión use la nueva regla.
 
 ## Define límites para salvar la venta
 
@@ -151,7 +151,7 @@ Usa **Estrategia de retención** para autorizar cambios de artículos, reembolso
 
 También puedes explicar el estado de envío si el cliente quiere cancelar porque no sabe dónde está su pedido, o conectarlo con [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) si quiere ayuda para elegir otro producto.
 
-No uses el playbook para presionar a un cliente a mantener un pedido. Si rechaza la alternativa, respeta su decisión y continúa con la solicitud de cancelación según **Política de cancelación**. Deriva cuando haga falta una aprobación o una acción que el asistente no pueda completar.
+No uses la misión para presionar a un cliente a mantener un pedido. Si rechaza la alternativa, respeta su decisión y continúa con la solicitud de cancelación según **Política de cancelación**. Deriva cuando haga falta una aprobación o una acción que el asistente no pueda completar.
 
 ## Define qué necesita una persona
 
@@ -180,11 +180,11 @@ Antes de lanzar, confirma:
 - El mensaje inicial no promete cancelación instantánea.
 - El responsable de derivación es la persona o equipo correcto.
 - Las reglas de respuesta reflejan qué tan rápido debería responder una persona después de una derivación.
-- El equipo del Inbox sabe qué contexto debería recopilar el playbook antes de derivar.
+- El equipo del Inbox sabe qué contexto debería recopilar la misión antes de derivar.
 
-## Cómo probarlo
+## Cómo probarla
 
-Prueba con mensajes post-compra realistas antes de habilitar el playbook ampliamente.
+Prueba con mensajes post-compra realistas antes de habilitar la misión ampliamente.
 
 Usa perfiles de cliente y canales de prueba que coincidan con tu plan de lanzamiento, y prueba:
 
@@ -205,14 +205,14 @@ Usa perfiles de cliente y canales de prueba que coincidan con tu plan de lanzami
 - Una pregunta de tracking que debería ir a Seguimiento de Pedidos.
 - Una pregunta de cambio o devolución que debería ir a Asistente de Cambios y Devoluciones.
 
-Revisa si el playbook pide los datos faltantes correctos, sigue la política, evita promesas sin respaldo, ofrece alternativas aprobadas y deriva a la persona o equipo correcto.
+Revisa si la misión pide los datos faltantes correctos, sigue la política, evita promesas sin respaldo, ofrece alternativas aprobadas y deriva a la persona o equipo correcto.
 
 ## Qué revisar después del lanzamiento
 
 Durante los primeros días, revisa:
 
-- Qué mensajes de clientes activaron el playbook.
-- Si el playbook siguió la fuente de política correcta.
+- Qué mensajes de clientes activaron la misión.
+- Si la misión siguió la fuente de política correcta.
 - Si recopiló información útil antes de derivar.
 - Qué motivos de cancelación aparecieron más seguido.
 - Qué casos se salvaron con una alternativa aprobada.
@@ -221,20 +221,20 @@ Durante los primeros días, revisa:
 - Casos repetidos poco claros que sugieren contenido de política faltante.
 - Velocidad de respuesta, tasa de resolución, tasa de derivación, tasa de cancelación, tasa de pedidos salvados, respuestas de clientes, mensajes fallidos y satisfacción cuando aplique.
 
-Ajusta una cosa por vez: conocimiento de políticas, límites para salvar la venta, selección de canales, tono, destino de derivación o los casos de cancelación que el playbook debería manejar.
+Ajusta una cosa por vez: conocimiento de políticas, límites para salvar la venta, selección de canales, tono, destino de derivación o los casos de cancelación que la misión debería manejar.
 
 ## Guías relacionadas
 
-- [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
-- [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
-- [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
-- [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
-- [Playbook Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %})
-- [Playbook Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
-- [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
-- [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
-- [Playbook Widget de Webchat]({% link _captures/webchat-widget-playbook.md %})
+- [Biblioteca de misiones por objetivo]({% link _journeys/playbook-library-by-mission.md %})
+- [Cómo habilitar una misión]({% link _journeys/how-to-enable-a-playbook.md %})
+- [Cómo personalizar una misión de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Misión Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
+- [Misión Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %})
+- [Misión Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
+- [Misión Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
+- [Misión Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
+- [Misión Widget de Webchat]({% link _captures/webchat-widget-playbook.md %})
 - [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [Resumen de inbox y conversaciones]({% link _team/inbox-overview.md %})
 - [Tiempo de respuesta y reglas de respuesta]({% link _team/understanding-response-times.md %})
-- [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})
+- [Reportes de misiones]({% link _analytics-reporting-attribution/playbook-reporting.md %})

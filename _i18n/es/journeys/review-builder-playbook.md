@@ -1,6 +1,6 @@
 Usa esta guía cuando quieres que Hellotext pida reseñas de productos después de que un pedido fue entregado.
 
-Generador de Reseñas es un playbook post-compra para recopilar reseñas estructuradas de productos. Pide una calificación, luego pide una reseña escrita, puede recibir fotos o videos opcionales como parte de esa reseña y ayuda a tu equipo a revisar o exportar los resultados.
+Generador de Reseñas es una misión post-compra para recopilar reseñas estructuradas de productos. Pide una calificación, luego pide una reseña escrita, puede recibir fotos o videos opcionales como parte de esa reseña y ayuda a tu equipo a revisar o exportar los resultados.
 
 No es una encuesta general de satisfacción, un agente de soporte ni una campaña amplia de contenido. Su trabajo es recopilar reseñas de productos en el momento correcto después de la entrega.
 
@@ -20,9 +20,9 @@ Puede:
 - Ofrecer derivar al equipo cuando el cliente da una calificación baja o necesita ayuda.
 - Guardar respuestas de reseñas para reportes y exportación.
 
-Las fotos y videos se tratan como adjuntos opcionales de la reseña. Generador de Reseñas no debería presentarse como un flujo separado de recopilación de contenido salvo que Hellotext ofrezca eso como otro playbook o función más adelante.
+Las fotos y videos se tratan como adjuntos opcionales de la reseña. Generador de Reseñas no debería presentarse como un flujo separado de recopilación de contenido salvo que Hellotext ofrezca eso como otra misión o función más adelante.
 
-## Cuándo usarlo
+## Cuándo usarla
 
 Usa Generador de Reseñas cuando:
 
@@ -36,7 +36,7 @@ Funciona mejor cuando los clientes tuvieron suficiente tiempo para recibir y pro
 
 ## Cómo convive con otros feedbacks
 
-Generador de Reseñas no reemplaza los demás playbooks de feedback. Puedes tener [Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}) y [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}) activos junto con Generador de Reseñas cuando cada uno tiene sus señales y responsables claros.
+Generador de Reseñas no reemplaza las demás misiones de feedback. Puedes tener [Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}) y [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}) activos junto con Generador de Reseñas cuando cada uno tiene sus señales y responsables claros.
 
 El motor de decisión de Hellotext los trata como momentos de feedback distintos. Generador de Reseñas pide reseñas de producto después de la entrega, Pulso NPS mide lealtad de relación después de una experiencia de entrega y Pulso CSAT mide satisfacción después de una conversación resuelta.
 
@@ -52,7 +52,7 @@ Usa [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
 
 Usa el Inbox directamente cuando el cliente está molesto, reporta un producto dañado o defectuoso, o pide ayuda urgente.
 
-## Qué necesita antes de lanzarlo
+## Qué necesita antes de lanzarla
 
 Antes de habilitar Generador de Reseñas, confirma:
 
@@ -68,14 +68,14 @@ Para validar la configuración, usa [Verifica tus datos y señales después de c
 
 ## Qué puedes configurar
 
-Abre **Playbooks**, haz clic en **Explorar playbooks** y elige **Generador de Reseñas**.
+Abre **Misiones**, haz clic en **Explorar misiones** y elige **Generador de Reseñas**.
 
 Generador de Reseñas expone:
 
 - **Canales de salida:** dónde Hellotext pide la reseña.
 - **Tono:** cómo suena la solicitud de reseña.
 
-Hellotext maneja dentro del playbook el momento posterior a la entrega, la separación entre productos, la prevención de solicitudes duplicadas y el seguimiento de calificaciones bajas. Son comportamientos automáticos, no tarjetas de configuración.
+Hellotext maneja dentro de la misión el momento posterior a la entrega, la separación entre productos, la prevención de solicitudes duplicadas y el seguimiento de calificaciones bajas. Son comportamientos automáticos, no tarjetas de configuración.
 
 Mantén la primera configuración enfocada. Empieza con una fuente de entrega confiable y un canal antes de ampliar la recopilación de reseñas.
 
@@ -85,7 +85,7 @@ Generador de Reseñas no debería pedir una reseña demasiado pronto.
 
 El punto de partida habitual es después de que el producto fue entregado, muchas veces alrededor de 7 días después. Hellotext maneja ese timing automáticamente y puede dar más tiempo cuando el cliente necesita más días para formarse una opinión útil.
 
-Si un cliente compró varios productos, el playbook debería evitar pedir reseñas de todos los productos inmediatamente. Las solicitudes deberían separarse por varios días para no saturar al cliente.
+Si un cliente compró varios productos, la misión debería evitar pedir reseñas de todos los productos inmediatamente. Las solicitudes deberían separarse por varios días para no saturar al cliente.
 
 Si el cliente compró el mismo producto otra vez, o una variante muy cercana, evita pedir la misma reseña repetidamente.
 
@@ -97,7 +97,7 @@ Primero, el cliente recibe una pregunta de calificación con opciones de 5 a 1 e
 
 Después de que el cliente elige una calificación, Generador de Reseñas pide una reseña escrita. El cliente puede incluir fotos o videos si el canal y el flujo de mensajes soportan adjuntos.
 
-Para calificaciones altas o neutras, mantén el seguimiento simple y agradecido. Para calificaciones bajas, el playbook debería preguntar qué salió mal y ofrecer conectar al cliente con el equipo.
+Para calificaciones altas o neutras, mantén el seguimiento simple y agradecido. Para calificaciones bajas, la misión debería preguntar qué salió mal y ofrecer conectar al cliente con el equipo.
 
 No hagas que el cliente repita información que Hellotext ya tiene desde el pedido, producto o perfil de cliente.
 
@@ -122,7 +122,7 @@ Para el comportamiento de derivación, usa [Derivación de IA al Inbox]({% link 
 
 Generador de Reseñas guarda las reseñas que recopila.
 
-El reporte automático del playbook permite ver:
+El reporte automático de la misión permite ver:
 
 - Productos con reseñas recibidas.
 - Distribución de calificaciones.
@@ -135,7 +135,7 @@ El reporte automático del playbook permite ver:
 
 Las reseñas pueden descargarse para que tu equipo las analice o las suba a otro sistema de reseñas. Si Hellotext agrega integraciones directas con plataformas de reseñas más adelante, documenta eso como un camino de configuración separado.
 
-## Cómo probarlo
+## Cómo probarla
 
 Prueba con escenarios realistas de pedido y entrega antes de habilitar Generador de Reseñas ampliamente.
 
@@ -157,7 +157,7 @@ Confirma que el canal, los botones de calificación, la captura de reseña, la s
 
 Durante los primeros días, revisa:
 
-- Cuántos pedidos entregados elegibles entraron al playbook.
+- Cuántos pedidos entregados elegibles entraron a la misión.
 - Si las solicitudes se enviaron demasiado temprano, demasiado tarde o demasiado seguido.
 - Distribución de calificaciones por producto.
 - Calidad de las reseñas escritas.
@@ -172,15 +172,15 @@ Ajusta una cosa por vez dentro de las configuraciones que controlas: canal o ton
 
 ## Guías relacionadas
 
-- [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
-- [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
-- [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
-- [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
-- [Playbook Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %})
-- [Playbook Pulso NPS]({% link _journeys/nps-pulse-playbook.md %})
-- [Playbook Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %})
-- [Playbook Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
+- [Biblioteca de misiones por objetivo]({% link _journeys/playbook-library-by-mission.md %})
+- [Cómo habilitar una misión]({% link _journeys/how-to-enable-a-playbook.md %})
+- [Cómo personalizar una misión de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Misión Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
+- [Misión Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %})
+- [Misión Pulso NPS]({% link _journeys/nps-pulse-playbook.md %})
+- [Misión Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %})
+- [Misión Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
 - [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})
-- [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})
+- [Reportes de misiones]({% link _analytics-reporting-attribution/playbook-reporting.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
-- [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
+- [Cómo decide Hellotext si una misión puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})

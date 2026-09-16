@@ -15,7 +15,7 @@ Crea equipos alrededor de responsabilidades operativas reales. Un equipo deberí
 7. Define las **Horas activas de atención por miembro al día**.
 8. Guarda el equipo.
 
-Una persona puede pertenecer a más de un equipo. Hellotext usa el equipo seleccionado por el playbook, la ruta o la regla de enrutamiento como contexto para esa asignación.
+Una persona puede pertenecer a más de un equipo. Hellotext usa el equipo seleccionado por la misión, la ruta o la regla de enrutamiento como contexto para esa asignación.
 
 ## Entiende las dos configuraciones de capacidad
 
@@ -47,7 +47,7 @@ Estas configuraciones se aplican a la atención en el Inbox y al seguimiento de 
 
 ## Entiende la asignación automática a un equipo
 
-La Derivación de un playbook, un step de Asignación de una ruta u otra regla de enrutamiento puede elegir un equipo como destino de una conversación.
+La Derivación de una misión, un step de Asignación de una ruta u otra regla de enrutamiento puede elegir un equipo como destino de una conversación.
 
 Cuando una conversación tiene un equipo como destino, Hellotext:
 
@@ -59,7 +59,7 @@ Si todas las personas elegibles están a capacidad, la conversación puede perma
 
 Las conversaciones pendientes conservan su orden para ese equipo. Una conversación sin asignar que tiene un equipo de destino no debería tratarse como trabajo disponible sin restricciones para cualquier persona.
 
-Si un equipo no tiene personas elegibles, el enrutamiento automático no puede completarse. Antes de habilitar un playbook o una ruta, confirma que el equipo de destino tenga al menos una persona que gestione el Inbox y prueba la Derivación.
+Si un equipo no tiene personas elegibles, el enrutamiento automático no puede completarse. Antes de habilitar una misión o una ruta, confirma que el equipo de destino tenga al menos una persona que gestione el Inbox y prueba la Derivación.
 
 Sigue leyendo: [Asigna conversaciones]({% link _team/assigning-conversations.md %}).
 
@@ -72,7 +72,7 @@ La pestaña **Opciones** dentro de **Tu Equipo** controla qué ocurre cuando una
 - **Primero IA:** permite que la IA responda primero y derive la conversación cuando sea necesario.
 - **Cola sin asignar:** deja la conversación abierta para que alguien la tome manualmente.
 
-Este protocolo general de asignación es diferente al destino de un equipo. El protocolo decide cómo entran las conversaciones reabiertas al flujo de trabajo; un playbook, ruta o regla de enrutamiento decide qué equipo debería recibir una Derivación específica.
+Este protocolo general de asignación es diferente al destino de un equipo. El protocolo decide cómo entran las conversaciones reabiertas al flujo de trabajo; una misión, ruta o regla de enrutamiento decide qué equipo debería recibir una Derivación específica.
 
 Sigue leyendo: [Ciclo de una conversación en el Inbox]({% link _team/conversation-lifecycle.md %}).
 
@@ -95,7 +95,7 @@ Sigue leyendo: [Tiempo de respuesta y reglas de respuesta]({% link _team/underst
 
 Antes de quitar a una persona de un equipo o eliminar el equipo:
 
-1. Revisa los playbooks, rutas y reglas de enrutamiento que lo usan como destino.
+1. Revisa las misiones, rutas y reglas de enrutamiento que lo usan como destino.
 2. Elige un equipo de reemplazo cuando sea necesario.
 3. Revisa las conversaciones pendientes y asignadas en el Inbox.
 4. Confirma que el equipo de reemplazo tenga personas elegibles y capacidad suficiente.

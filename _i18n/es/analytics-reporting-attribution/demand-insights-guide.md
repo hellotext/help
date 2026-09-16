@@ -114,7 +114,7 @@ Insights de demanda describe oportunidades de producto perdidas. No reemplaza lo
 | Sube la Tasa no resuelta con un volumen estable | Mezcla de productos, motivos, categorías afectadas y cambios recientes de inventario. |
 | Muchas solicitudes no tienen producto o valor | Identificadores del catálogo, datos de variantes, precio, moneda, clasificación de intención y contexto de integración. |
 
-Abre conversaciones representativas y verifica el catálogo de origen antes de cambiar inventario, un Playbook o recomendaciones de productos. El reporte identifica un patrón de demanda; la conversación y los registros de comercio lo explican.
+Abre conversaciones representativas y verifica el catálogo de origen antes de cambiar inventario, una Misión o recomendaciones de productos. El reporte identifica un patrón de demanda; la conversación y los registros de comercio lo explican.
 
 ## Cuando faltan datos o parecen incorrectos
 
@@ -128,7 +128,7 @@ Confirma que:
 - el contexto de gestión por IA o colaborador esté disponible para la comparación entre IA y humano; y
 - ambas comparaciones usen el mismo período, zona horaria, métrica y desglose.
 
-Si el cliente preguntó por un producto pero no existe una señal compatible de demanda no satisfecha, revisa primero el Playbook, integración o camino de tracking de origen. Si los registros existen pero el reporte sigue siendo inconsistente, consulta [Integridad de datos y diferencias en reportes]({% link _analytics-reporting-attribution/data-completeness-and-reporting-gaps.md %}).
+Si el cliente preguntó por un producto pero no existe una señal compatible de demanda no satisfecha, revisa primero la Misión, integración o camino de tracking de origen. Si los registros existen pero el reporte sigue siendo inconsistente, consulta [Integridad de datos y diferencias en reportes]({% link _analytics-reporting-attribution/data-completeness-and-reporting-gaps.md %}).
 
 ## Guías relacionadas
 
@@ -137,7 +137,7 @@ Si el cliente preguntó por un producto pero no existe una señal compatible de 
 - [Guía del Reporte de ingresos]({% link _analytics-reporting-attribution/revenue-report-guide.md %})
 - [Guía del Reporte de calidad de servicio]({% link _analytics-reporting-attribution/service-quality-report-guide.md %})
 - [Guía del Reporte de carga y capacidad]({% link _analytics-reporting-attribution/workload-capacity-report-guide.md %})
-- [Playbook Vuelta a Stock]({% link _journeys/back-in-stock-pounce.md %})
-- [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
+- [Misión Vuelta a Stock]({% link _journeys/back-in-stock-pounce.md %})
+- [Misión Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Integridad de datos y diferencias en reportes]({% link _analytics-reporting-attribution/data-completeness-and-reporting-gaps.md %})

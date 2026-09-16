@@ -1,4 +1,4 @@
-Conecta Facebook Messenger cuando los clientes usan tu página de Facebook para consultar sobre productos, compras o soporte. Hellotext puede llevar las conversaciones elegibles de la página al Inbox para que tu equipo, las rutas y los playbooks compatibles respondan con contexto compartido.
+Conecta Facebook Messenger cuando los clientes usan tu página de Facebook para consultar sobre productos, compras o soporte. Hellotext puede llevar las conversaciones elegibles de la página al Inbox para que tu equipo, las rutas y las misiones compatibles respondan con contexto compartido.
 
 Messenger en Hellotext está asociado a una página de Facebook. Es independiente de las conversaciones personales de Messenger y de la integración de Instagram.
 
@@ -12,7 +12,7 @@ Usa Messenger para:
 - Respuestas individuales desde el Inbox durante una conversación elegible.
 - Respuestas rápidas, botones e interacciones postback compatibles.
 - Rutas que envían mensajes, hacen preguntas, crean ramas o asignan una conversación activa.
-- Playbooks que incluyen compatibilidad explícita con Messenger.
+- Misiones que incluyen compatibilidad explícita con Messenger.
 - Mantener el historial de conversaciones de la página disponible para el equipo en Hellotext.
 
 Seguir una página no hace que un cliente quede disponible automáticamente en Messenger. El cliente primero debe crear una interacción elegible con la página para que Hellotext pueda responder mediante esa identidad asociada a la página.
@@ -23,9 +23,9 @@ Messenger no tiene actualmente la misma cobertura de producto que WhatsApp o Ins
 
 - No es una opción de envío en el creador de campañas.
 - No está disponible actualmente en **Canales de entrada** para un agente de IA personalizado.
-- Las rutas y los playbooks pueden usar Messenger solamente cuando ese flujo específico sea compatible.
+- Las rutas y las misiones pueden usar Messenger solamente cuando ese flujo específico sea compatible.
 
-No asumas que un playbook es compatible con Messenger porque funciona en otro canal. Revisa los canales que expone ese playbook y prueba el flujo completo de Messenger antes del lanzamiento.
+No asumas que una misión es compatible con Messenger porque funciona en otro canal. Revisa los canales que expone esa misión y prueba el flujo completo de Messenger antes del lanzamiento.
 
 ## Cómo empiezan las conversaciones de Messenger
 
@@ -35,7 +35,7 @@ Un cliente inicia una conversación elegible enviando un mensaje a la página de
 2. Encuentra o crea el perfil del cliente correspondiente.
 3. Agrega esa identidad de Messenger al perfil del cliente.
 4. Abre o actualiza la conversación privada en el Inbox.
-5. Deja la conversación disponible para el equipo, la ruta o el playbook compatible que la gestiona.
+5. Deja la conversación disponible para el equipo, la ruta o la misión compatible que la gestiona.
 
 La identidad está asociada a la página de Facebook conectada. No es un identificador general de Facebook que pueda reutilizarse con otra página.
 
@@ -58,7 +58,7 @@ Hellotext puede procesar actividad compatible de Messenger, como:
 - Mensajes de voz y stickers.
 - Respuestas a mensajes anteriores.
 - Respuestas rápidas e interacciones de botones postback.
-- Botones y tarjetas de productos creadas por playbooks o flujos de mensajes compatibles.
+- Botones y tarjetas de productos creadas por misiones o flujos de mensajes compatibles.
 - Actividad de entrega, lectura, edición y reacciones cuando Meta la proporciona.
 
 Los comentarios públicos de Facebook, las publicaciones de la página y las conversaciones enviadas a un perfil personal de Facebook no son conversaciones normales de Messenger para la página conectada en Hellotext. Prueba el punto de entrada exacto que planeas ofrecer a los clientes.
@@ -78,15 +78,15 @@ El contenido disponible en WhatsApp, Instagram o Webchat puede no tener la misma
 
 Sigue leyendo: [Resumen de Inbox y conversaciones]({% link _team/inbox-overview.md %}), [Asigna conversaciones]({% link _team/assigning-conversations.md %}) y [Tiempos y reglas de respuesta]({% link _team/understanding-response-times.md %}).
 
-## Usa rutas y playbooks compatibles
+## Usa rutas y misiones compatibles
 
 Las rutas pueden usar Messenger mientras el cliente, la página y la conversación sigan siendo elegibles. Prueba pasos de mensaje y pregunta, ramas, respuestas y pasos de Asignación, incluyendo qué debería ocurrir cuando se cierre la ventana de Messenger o la integración deje de estar disponible.
 
-Algunos playbooks pueden considerar Messenger cuando el cliente ya tiene una identidad disponible asociada a la página y ese playbook incluye compatibilidad con Messenger. El playbook igualmente evalúa la disponibilidad del canal, la compatibilidad del mensaje y la elegibilidad del proveedor antes de enviar.
+Algunas misiones pueden considerar Messenger cuando el cliente ya tiene una identidad disponible asociada a la página y esa misión incluye compatibilidad con Messenger. La misión igualmente evalúa la disponibilidad del canal, la compatibilidad del mensaje y la elegibilidad del proveedor antes de enviar.
 
-Los agentes de IA personalizados no muestran actualmente Messenger en su selector de canales de entrada. No prometas atención con IA para una conversación de Messenger salvo que el playbook o la ruta exacta que configuraste sea compatible y lo hayas verificado de punta a punta.
+Los agentes de IA personalizados no muestran actualmente Messenger en su selector de canales de entrada. No prometas atención con IA para una conversación de Messenger salvo que la misión o la ruta exacta que configuraste sea compatible y lo hayas verificado de punta a punta.
 
-Sigue leyendo: [Primeros pasos con rutas]({% link _journeys/getting-started-with-journeys.md %}) y [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}).
+Sigue leyendo: [Primeros pasos con rutas]({% link _journeys/getting-started-with-journeys.md %}) y [Cómo decide Hellotext si una misión puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}).
 
 ## Perfiles del cliente y consentimiento
 
@@ -131,7 +131,7 @@ Antes de depender de Facebook Messenger, confirma que:
 1. La página de Facebook correcta esté conectada al negocio de Hellotext correcto.
 2. Un mensaje de prueba a la página cree o actualice el perfil del cliente correcto.
 3. La conversación aparezca en el Inbox con la identidad de Messenger correcta.
-4. La conversación llegue a la persona, equipo, ruta o playbook compatible esperados.
+4. La conversación llegue a la persona, al equipo, a la ruta o a la misión compatible que corresponda.
 5. El texto, adjuntos, respuestas, botones y tarjetas de productos que planeas usar hayan sido probados.
 6. La Asignación llegue a la persona o equipo correcto.
 7. Tu equipo entienda la ventana de 24 horas y el proceso para volver a autorizar.
@@ -143,5 +143,5 @@ Antes de depender de Facebook Messenger, confirma que:
 - [Fundamentos de Instagram DM]({% link _numbers/instagram-dm-fundamentals.md %})
 - [Resumen de Inbox y conversaciones]({% link _team/inbox-overview.md %})
 - [Ciclo de una conversación en el Inbox]({% link _team/conversation-lifecycle.md %})
-- [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})
+- [Resumen de misiones y automatización]({% link _journeys/playbooks-overview.md %})
 - [Primeros pasos con rutas]({% link _journeys/getting-started-with-journeys.md %})

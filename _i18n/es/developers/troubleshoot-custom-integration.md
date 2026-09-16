@@ -1,6 +1,6 @@
 Usa esta guía cuando una integración propia con la API o Hellotext.js devuelva errores, cree registros duplicados o envíe eventos que no aparezcan donde esperas.
 
-Comienza con un cliente fácil de reconocer y una sola request. Confirma cada nivel antes de probar una importación completa o habilitar playbooks.
+Comienza con un cliente fácil de reconocer y una sola request. Confirma cada nivel antes de probar una importación completa o habilitar misiones.
 
 ## 1. Confirma el token de la API y el negocio
 
@@ -86,7 +86,7 @@ Una request válida de tracking responde con HTTP `200`:
 }
 ```
 
-Esto confirma que se recibió para su procesamiento, no que todos los perfiles, segmentos, playbooks y reportes relacionados se hayan actualizado inmediatamente.
+Esto confirma que se recibió para su procesamiento, no que todos los perfiles, segmentos, misiones y reportes relacionados se hayan actualizado inmediatamente.
 
 Si el evento todavía no aparece después de un intervalo razonable de procesamiento:
 
@@ -94,7 +94,7 @@ Si el evento todavía no aparece después de un intervalo razonable de procesami
 2. Confirma que coincidan la acción y el tipo de objeto.
 3. Revisa si el evento se envió con un `tracked_at` antiguo.
 4. Comprueba que una integración nativa no haya creado ya el mismo evento.
-5. Revisa la actividad del perfil del cliente antes de mirar resultados de playbooks o reportes.
+5. Revisa la actividad del perfil del cliente antes de mirar resultados de misiones o reportes.
 
 Usa [Soluciona señales o actividad faltante]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %}) para las comprobaciones en el producto después de validar la request de la API.
 
@@ -166,7 +166,7 @@ Usa esta secuencia para aislar el nivel que falla:
 5. Crea un pedido con el mismo producto.
 6. Registra un evento real del pedido.
 7. Confirma el evento en el perfil del cliente.
-8. Recién entonces revisa segmentos, playbooks y reportes.
+8. Recién entonces revisa segmentos, misiones y reportes.
 
 Cuando identifiques el primer paso que falla, corrígelo antes de continuar. Los niveles posteriores no pueden compensar un recurso o evento inválido.
 

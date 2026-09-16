@@ -1,6 +1,6 @@
 Usa este checklist después de completar la configuración principal y antes de que los clientes reciban tus primeros mensajes en vivo.
 
-Aplica a campañas, playbooks, rutas, seguimientos de capturas y agentes con IA que pueden enviar mensajes o derivar conversaciones a tu equipo.
+Aplica a campañas, misiones, rutas, seguimientos de capturas y agentes con IA que pueden enviar mensajes o derivar conversaciones a tu equipo.
 
 Este es un checklist operativo. No reemplaza la revisión legal o de cumplimiento para los países y canales que usas.
 
@@ -40,8 +40,8 @@ Antes de lanzar, revisa:
 
 - El horario de envío es razonable para la zona horaria de la audiencia.
 - Los horarios silenciosos y expectativas de horario comercial están claros.
-- Las esperas de rutas o demoras de playbooks no empujan mensajes a una mala ventana horaria.
-- El mismo cliente no recibirá playbooks, rutas y campañas superpuestas.
+- Las esperas de rutas o demoras de misiones no empujan mensajes a una mala ventana horaria.
+- El mismo cliente no recibirá misiones, rutas y campañas superpuestas.
 - Los límites de frecuencia están configurados o la audiencia de lanzamiento es lo suficientemente pequeña para controlarla manualmente.
 
 Para un primer lanzamiento, mantén el alcance pequeño. Un solo flujo en vivo es más fácil de entender que varios envíos compitiendo.
@@ -61,7 +61,7 @@ Confirma que:
 - Los links abren correctamente y tienen tracking.
 - Ofertas, precios, nombres de productos, fechas y políticas son correctos.
 
-Para agentes o playbooks con IA, revisa también el prompt, acciones permitidas, reglas de derivación y lo que el agente no debería decir.
+Para agentes o misiones con IA, revisa también el prompt, acciones permitidas, reglas de derivación y lo que el agente no debería decir.
 
 ## 5. Prueba el recorrido completo del cliente
 
@@ -70,7 +70,7 @@ No revises solo la vista previa del texto.
 Prueba el recorrido con tu propio número y algunos miembros del equipo:
 
 1. Crea o selecciona un perfil de cliente de prueba.
-2. Dispara el playbook, ruta, campaña, captura o agente.
+2. Dispara la misión, ruta, campaña, captura o agente.
 3. Recibe el mensaje en el canal real.
 4. Abre todos los links.
 5. Responde como cliente.
@@ -87,7 +87,7 @@ Confirma:
 
 - Quién se hace cargo del Inbox durante y después del lanzamiento.
 - Quién responde las respuestas de clientes.
-- Quién puede pausar la campaña, ruta, playbook o agente.
+- Quién puede pausar la campaña, ruta, misión o agente.
 - Quién resuelve problemas de configuración, tracking o canal.
 - Qué tan rápido debería responder el equipo si los clientes contestan.
 

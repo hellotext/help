@@ -90,7 +90,7 @@ No marques perfiles de clientes importados como suscritos salvo que tengas conse
 
 ## 4. Sincroniza el catálogo de productos
 
-Crea los productos y variantes que Hellotext necesita para recomendaciones, actividad de productos, carritos, pedidos y playbooks:
+Crea los productos y variantes que Hellotext necesita para recomendaciones, actividad de productos, carritos, pedidos y misiones:
 
 ```bash
 curl --request POST \
@@ -119,7 +119,7 @@ Mantén estables los valores de `source`, `reference` y SKU. Actualiza el produc
 
 Consulta [Crear un producto en la API](https://www.hellotext.com/api#create_a_product) para ver todos los datos compatibles del producto y sus variantes.
 
-El endpoint público de productos no expone actualmente la cantidad de stock ni la disponibilidad en tiempo real. No agregues valores de inventario dentro de `metadata` esperando que los usen los playbooks que dependen del stock. Lee [Sincroniza productos y entiende la disponibilidad de inventario]({% link _developers/products-and-inventory-with-api.md %}) antes de habilitar un flujo que dependa del inventario.
+El endpoint público de productos no expone actualmente la cantidad de stock ni la disponibilidad en tiempo real. No agregues valores de inventario dentro de `metadata` esperando que los usen las misiones que dependen del stock. Lee [Sincroniza productos y entiende la disponibilidad de inventario]({% link _developers/products-and-inventory-with-api.md %}) antes de habilitar un flujo que dependa del inventario.
 
 ## 5. Importa pedidos históricos
 
@@ -178,7 +178,7 @@ curl --request POST \
 
 Usa el evento que refleje lo que realmente ocurrió, como `order.placed`, `order.confirmed`, `order.cancelled`, `order.shipped` u `order.delivered`. No inventes estados del ciclo del pedido que tu tienda no pueda verificar.
 
-Conserva las fechas originales durante la importación histórica. De lo contrario, compras antiguas pueden parecer actividad actual y distorsionar segmentos, elegibilidad de playbooks y reportes.
+Conserva las fechas originales durante la importación histórica. De lo contrario, compras antiguas pueden parecer actividad actual y distorsionar segmentos, elegibilidad de misiones y reportes.
 
 Consulta [Crea y registra pedidos con la API]({% link _developers/orders-with-api.md %}), [Crear un pedido](https://www.hellotext.com/api#create_an_order) y [registrar eventos de pedidos](https://www.hellotext.com/api#track_order_events) para ver todas las opciones disponibles.
 
@@ -349,7 +349,7 @@ Consulta [Seguimiento en la API](https://www.hellotext.com/api#tracking), [event
 
 ## 10. Verifica la integración completa
 
-Antes de habilitar playbooks o campañas, prueba un cliente reconocible de principio a fin:
+Antes de habilitar misiones o campañas, prueba un cliente reconocible de principio a fin:
 
 1. Crea o actualiza el perfil del cliente y confirma su teléfono, email y propiedades personalizadas.
 2. Confirma que los IDs de productos y variantes correspondan con el catálogo de la tienda.
@@ -358,7 +358,7 @@ Antes de habilitar playbooks o campañas, prueba un cliente reconocible de princ
 5. Identifica al cliente o adjunta la sesión desde el backend.
 6. Crea un pedido de prueba y registra su evento real desde el servidor.
 7. Confirma que los eventos aparezcan en el perfil del cliente correcto y usen las fechas esperadas.
-8. Revisa la actividad de playbooks y reportes únicamente cuando los perfiles de clientes, productos, carritos y pedidos sean correctos.
+8. Revisa la actividad de misiones y reportes únicamente cuando los perfiles de clientes, productos, carritos y pedidos sean correctos.
 
 Si faltan datos, usa [Soluciona señales o actividad faltante]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %}).
 

@@ -109,7 +109,7 @@ No pegues una URL extensa directamente si quieres que Hellotext genere un link c
 Sigue tu pedido aquí: {shortlink:https://shop.example.com/orders/123}
 ```
 
-Hellotext reemplaza la instrucción durante el procesamiento. Si el negocio usa un dominio propio para links cortos, consulta [Configurar un dominio personalizado para links cortos]({% link _integrations/custom-domain-for-short-links.md %}). Para entender cómo se conserva la sesión después del clic, revisa [Seguimiento de links en campañas, rutas y playbooks]({% link _developers/tracking-on-campaigns-and-journeys.md %}).
+Hellotext reemplaza la instrucción durante el procesamiento. Si el negocio usa un dominio propio para links cortos, consulta [Configurar un dominio personalizado para links cortos]({% link _integrations/custom-domain-for-short-links.md %}). Para entender cómo se conserva la sesión después del clic, revisa [Seguimiento de links en campañas, rutas y misiones]({% link _developers/tracking-on-campaigns-and-journeys.md %}).
 
 ## Cuándo usar una plantilla
 

@@ -1,6 +1,6 @@
-Usa esta guía cuando quieres que Hellotext pregunte a clientes si quedaron satisfechos después de resolver una conversación de soporte, Inbox, IA o playbook.
+Usa esta guía cuando quieres que Hellotext pregunte a clientes si quedaron satisfechos después de resolver una conversación de soporte, Inbox, IA o misión.
 
-Pulso CSAT es un playbook de feedback posterior a una interacción. Envía una pregunta breve de satisfacción después de cerrar una conversación, registra la respuesta para reportes CSAT y puede crear un camino de recuperación cuando el cliente responde negativamente.
+Pulso CSAT es una misión de feedback posterior a una interacción. Envía una pregunta breve de satisfacción después de cerrar una conversación, registra la respuesta para reportes CSAT y puede crear un camino de recuperación cuando el cliente responde negativamente.
 
 No es una solicitud de reseña de producto ni una encuesta de lealtad de marca. Usa [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) para reseñas de productos después de la entrega, y usa [Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}) cuando el objetivo es medir lealtad o probabilidad de recomendación.
 
@@ -17,16 +17,16 @@ Puede:
 - Respetar reglas de canal, consentimiento y elegibilidad de envío.
 - Crear un camino de recuperación cuando el cliente responde negativamente.
 - Asignar o derivar feedback negativo a la persona o equipo correcto.
-- Alimentar reportes CSAT por canal, rango de fechas, camino de resolución, agente, intención o playbook cuando ese contexto está disponible.
+- Alimentar reportes CSAT por canal, rango de fechas, camino de resolución, agente, intención o misión cuando ese contexto está disponible.
 
 El objetivo es aprender si la interacción funcionó y recuperar rápido cuando no funcionó.
 
-## Cuándo usarlo
+## Cuándo usarla
 
 Usa Pulso CSAT cuando:
 
 - Tu equipo cierra conversaciones de soporte o venta en el Inbox.
-- Agentes de IA o playbooks resuelven conversaciones y quieres feedback de satisfacción.
+- Agentes de IA o misiones resuelven conversaciones y quieres feedback de satisfacción.
 - Quieres comparar resultados de conversaciones resueltas solo por IA, solo por personas o con derivación.
 - Quieres que el feedback negativo cree un seguimiento en lugar de quedar solo en un reporte.
 - Tienes suficiente volumen de conversaciones para aprender de los resultados.
@@ -35,7 +35,7 @@ Funciona mejor después de un evento real de resolución. Si el cliente nunca tu
 
 ## Cómo convive con otros feedbacks
 
-Pulso CSAT no reemplaza los demás playbooks de feedback. Puedes tener [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) y [Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}) activos junto con Pulso CSAT cuando cada uno tiene su señal y responsable de seguimiento.
+Pulso CSAT no reemplaza las demás misiones de feedback. Puedes tener [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) y [Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}) activos junto con Pulso CSAT cuando cada uno tiene su señal y responsable de seguimiento.
 
 El motor de decisión de Hellotext los trata como momentos de feedback distintos. Pulso CSAT pregunta después de una conversación resuelta, Generador de Reseñas pide reseñas de producto después de la entrega y Pulso NPS mide lealtad de relación después de una experiencia de entrega.
 
@@ -47,7 +47,7 @@ Usa [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
 
 Usa el Inbox directamente cuando el cliente está molesto, sigue esperando ayuda o la conversación no está realmente resuelta.
 
-## Qué necesita antes de lanzarlo
+## Qué necesita antes de lanzarla
 
 Antes de habilitar Pulso CSAT, confirma:
 
@@ -62,7 +62,7 @@ Para validar la configuración, usa [Verifica tus datos y señales después de c
 
 ## Edita el mensaje CSAT
 
-Abre **Playbooks**, haz clic en **Explorar playbooks** y elige **Pulso CSAT**.
+Abre **Misiones**, haz clic en **Explorar misiones** y elige **Pulso CSAT**.
 
 Abre **Mensaje CSAT** para editar la pregunta que reciben los clientes después de resolver la conversación.
 
@@ -120,14 +120,14 @@ Revisa:
 - Desglose por canal.
 - Caminos de resolución: solo IA, solo persona o con derivación.
 - Desglose por agente o equipo cuando esté disponible.
-- Desglose por intención o playbook cuando esté disponible.
+- Desglose por intención o misión cuando esté disponible.
 - Motivos de feedback negativo.
 - Tendencias por rango de fechas.
 - Links a conversaciones para seguimiento.
 
 Para la respuesta de pulgar arriba/abajo, el porcentaje CSAT es respuestas positivas dividido entre respuestas positivas más negativas.
 
-## Cómo probarlo
+## Cómo probarla
 
 Prueba con conversaciones resueltas realistas antes de habilitar Pulso CSAT ampliamente.
 
@@ -154,22 +154,22 @@ Durante los primeros días, revisa:
 - Motivos de feedback negativo.
 - Seguimiento de recuperación y velocidad de respuesta.
 - Diferencias entre conversaciones solo IA, solo persona y con derivación.
-- Diferencias por canal, equipo, agente, intención o playbook.
+- Diferencias por canal, equipo, agente, intención o misión.
 - Señales de que las preguntas se envían en el momento equivocado.
 
 Ajusta una cosa por vez: texto del mensaje, proceso de resolución, preparación del canal o responsable del feedback negativo.
 
 ## Guías relacionadas
 
-- [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
-- [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
-- [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
-- [Playbook Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})
-- [Playbook Pulso NPS]({% link _journeys/nps-pulse-playbook.md %})
-- [Playbook Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
-- [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
+- [Biblioteca de misiones por objetivo]({% link _journeys/playbook-library-by-mission.md %})
+- [Cómo habilitar una misión]({% link _journeys/how-to-enable-a-playbook.md %})
+- [Cómo personalizar una misión de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Misión Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})
+- [Misión Pulso NPS]({% link _journeys/nps-pulse-playbook.md %})
+- [Misión Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
+- [Misión Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
 - [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [Resumen de inbox y conversaciones]({% link _team/inbox-overview.md %})
 - [Asigna conversaciones]({% link _team/assigning-conversations.md %})
-- [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})
-- [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
+- [Reportes de misiones]({% link _analytics-reporting-attribution/playbook-reporting.md %})
+- [Cómo decide Hellotext si una misión puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})

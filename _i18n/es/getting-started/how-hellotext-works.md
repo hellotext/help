@@ -1,6 +1,6 @@
 Hellotext funciona conectando señales de clientes con la acción correcta.
 
-A veces la acción correcta es un playbook que corre continuamente. A veces es una campaña puntual. A veces es una conversación que tu equipo debería manejar en el Inbox.
+A veces la acción correcta es una misión que corre continuamente. A veces es una campaña puntual. A veces es una conversación que tu equipo debería manejar en el Inbox.
 
 Esta guía te ayuda a elegir la herramienta correcta antes de construir.
 
@@ -14,13 +14,13 @@ La mayoría de los flujos de Hellotext siguen el mismo patrón:
 4. El cliente recibe un mensaje, entra en un flujo o llega a un miembro del equipo.
 5. Los reportes conectan respuestas, clicks, pedidos e ingresos con la acción.
 
-La diferencia entre playbooks, campañas e Inbox es quién decide el siguiente paso y qué tan repetible debería ser el trabajo.
+La diferencia entre misiones, campañas e Inbox es quién decide el siguiente paso y qué tan repetible debería ser el trabajo.
 
-## Usa playbooks para misiones repetibles
+## Usa misiones para objetivos recurrentes
 
-Usa un **playbook** cuando Hellotext debería seguir observando señales y actuar hacia un objetivo de negocio.
+Usa una **misión** cuando Hellotext debería seguir observando señales y actuar hacia un objetivo de negocio.
 
-Buenos casos para playbooks incluyen:
+Buenos casos para misiones incluyen:
 
 - Recuperar carritos abandonados.
 - Impulsar primera compra o recompra.
@@ -32,11 +32,11 @@ Buenos casos para playbooks incluyen:
 - Guiar solicitudes de cambio o devolución con [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}).
 - Guiar solicitudes de cancelación con [Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %}).
 
-Un playbook puede ser una misión preconstruida autónoma, un agente de IA reactivo, una ruta con pasos definidos o una captura. Los playbooks de captura están en **Playbooks** > **Explorar playbooks** > **Capturas**. Este Centro de Ayuda documenta capturas y campañas en secciones propias porque su configuración y forma de operar son distintas.
+Una misión puede funcionar de forma autónoma con una configuración preconstruida, como un agente de IA reactivo, como una ruta con pasos definidos o como una captura. Las misiones de captura están en **Misiones** > **Explorar misiones** > **Capturas**. Este Centro de Ayuda documenta capturas y campañas en secciones propias porque su configuración y forma de operar son distintas.
 
-Usa una **ruta** cuando el playbook debería seguir pasos predecibles: disparador, espera, mensaje, condición, rama y derivación.
+Usa una **ruta** cuando la misión debería seguir pasos predecibles: disparador, espera, mensaje, condición, rama y derivación.
 
-Usa un **playbook con IA o agente** cuando la experiencia necesita interpretar respuestas, usar conocimiento de productos o políticas, hacer recomendaciones o decidir cuándo una persona debería tomar la conversación.
+Usa una **misión con IA** o un **agente** cuando la experiencia necesita interpretar respuestas, usar conocimiento de productos o políticas, hacer recomendaciones o decidir cuándo una persona debería tomar la conversación.
 
 ## Usa campañas para envíos puntuales planificados
 
@@ -51,7 +51,7 @@ Las campañas son mejores para:
 - Recordatorios de eventos.
 - Campañas estacionales o con fecha concreta.
 
-Las campañas son útiles cuando el mismo mensaje debería llegar una vez a una audiencia seleccionada. Si el mensaje debería reaccionar al comportamiento de cada cliente en el tiempo, usa un playbook.
+Las campañas son útiles cuando el mismo mensaje debería llegar una vez a una audiencia seleccionada. Si el mensaje debería reaccionar al comportamiento de cada cliente en el tiempo, usa una misión.
 
 ## Usa el Inbox para conversaciones que necesitan atención
 
@@ -63,32 +63,32 @@ El Inbox es donde tu equipo maneja:
 - Preguntas de soporte.
 - Seguimiento de pedidos.
 - Conversaciones de venta.
-- Derivaciones de IA o playbooks.
+- Derivaciones de IA o misiones.
 - Conversaciones que necesitan criterio humano.
 
-Playbooks y campañas pueden generar respuestas que llegan al Inbox. El Inbox es la forma en que tu equipo se mantiene conectado con clientes cuando la automatización no debería seguir sola.
+Misiones y campañas pueden generar respuestas que llegan al Inbox. El Inbox es la forma en que tu equipo se mantiene conectado con clientes cuando la automatización no debería seguir sola.
 
 ## Cómo trabajan juntos
 
-Playbooks, campañas e Inbox no son silos separados.
+Misiones, campañas e Inbox no son silos separados.
 
 Ejemplos:
 
-- Una herramienta de captura suscribe a un cliente y después empieza un playbook de bienvenida.
+- Una herramienta de captura suscribe a un cliente y después empieza una misión de bienvenida.
 - Una señal de carrito inicia una ruta, pero una respuesta del cliente envía la conversación al Inbox.
 - Una campaña anuncia un lanzamiento y las respuestas se vuelven conversaciones en el Inbox.
 - Un agente de IA responde una pregunta frecuente y luego deriva cuando el cliente pide ayuda humana.
 - Una persona responde desde el Inbox y los links con tracking o pedidos siguen apareciendo en reportes.
 
-La mejor configuración suele combinar los tres: playbooks para misiones repetibles, campañas para momentos planificados e Inbox para conversaciones que necesitan personas.
+La mejor configuración suele combinar los tres: misiones para objetivos recurrentes, campañas para momentos planificados e Inbox para conversaciones que necesitan personas.
 
 ## Guía rápida de decisión
 
 | Si necesitas... | Usa... |
 | --- | --- |
-| Reaccionar automáticamente al comportamiento del cliente | Playbook |
+| Reaccionar automáticamente al comportamiento del cliente | Misión |
 | Construir un flujo predecible de varios pasos | Ruta |
-| Dejar que la IA responda, recomiende o decida siguientes pasos | Playbook con IA o agente |
+| Dejar que la IA responda, recomiende o decida siguientes pasos | Misión con IA o agente |
 | Enviar un mensaje planificado a una audiencia seleccionada | Campaña |
 | Captar suscriptores o datos de clientes | Captura |
 | Leer y responder conversaciones de clientes | Inbox |
@@ -111,13 +111,13 @@ Si no estás seguro, empieza más pequeño. Elige un objetivo, un canal, una aud
 - [Qué es Hellotext]({% link _getting-started/what-is-hellotext.md %})
 - [Primeros logros recomendados]({% link _getting-started/first-wins-starter-pack.md %})
 - [Qué son las señales]({% link _journeys/what-are-signals.md %})
-- [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})
+- [Resumen de misiones y automatización]({% link _journeys/playbooks-overview.md %})
 - [Resumen de campañas]({% link _campaigns/campaigns-overview.md %})
 - [Resumen de inbox y conversaciones]({% link _team/inbox-overview.md %})
 - [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})
-- [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
-- [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
-- [Playbook Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})
-- [Playbook Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %})
-- [Playbook Pulso NPS]({% link _journeys/nps-pulse-playbook.md %})
-- [Playbook Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %})
+- [Elige tu primera misión]({% link _journeys/choose-your-first-playbook.md %})
+- [Biblioteca de misiones por objetivo]({% link _journeys/playbook-library-by-mission.md %})
+- [Misión Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})
+- [Misión Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %})
+- [Misión Pulso NPS]({% link _journeys/nps-pulse-playbook.md %})
+- [Misión Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %})

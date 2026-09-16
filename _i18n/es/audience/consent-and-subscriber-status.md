@@ -1,4 +1,4 @@
-Usa esta guía antes de importar perfiles de cliente o enviar una campaña, playbook o ruta. Explica cómo se combinan el estado de suscripción y la disponibilidad de los canales en Hellotext.
+Usa esta guía antes de importar perfiles de cliente o enviar una campaña, misión o ruta. Explica cómo se combinan el estado de suscripción y la disponibilidad de los canales en Hellotext.
 
 Esta es una guía de producto para operar Hellotext. No reemplaza una revisión legal o de cumplimiento para los países y canales que usas.
 
@@ -18,7 +18,7 @@ Un **perfil de cliente** es el registro de Hellotext para un cliente. Puede incl
 
 Un **suscriptor** es un perfil de cliente con una suscripción registrada. Este estado no garantiza que todos los identificadores del perfil sean válidos o alcanzables.
 
-Una **audiencia** es el grupo seleccionado para una campaña, playbook, ruta o reporte. Pertenecer a una audiencia o lista no concede consentimiento.
+Una **audiencia** es el grupo seleccionado para una campaña, misión, ruta o reporte. Pertenecer a una audiencia o lista no concede consentimiento.
 
 ## Estados de suscripción
 
@@ -49,7 +49,7 @@ Esta diferencia explica por qué:
 
 Hellotext puede registrar o actualizar la información de suscripción mediante:
 
-- Playbooks de captura como formularios, popups, códigos QR y links compartibles.
+- Misiones de captura como formularios, popups, códigos QR y links compartibles.
 - El checkout u otras acciones de opt-in sincronizadas por una integración.
 - Una integración que obtiene el estado de suscripción desde la plataforma de origen.
 - Una importación por archivo donde eliges explícitamente **Suscrito** o **No confirmado** para el grupo importado.
@@ -66,7 +66,7 @@ Del mismo modo, tener un teléfono válido o una identidad de WhatsApp no convie
 
 ## Antes de enviar
 
-Antes de lanzar una campaña o habilitar un playbook que puede enviar mensajes salientes:
+Antes de lanzar una campaña o habilitar una misión que puede enviar mensajes salientes:
 
 - Confirma cómo se creó la audiencia y de dónde viene su información de suscripción.
 - Excluye registros desuscritos, de prueba, internos, inválidos y duplicados cuando corresponda.

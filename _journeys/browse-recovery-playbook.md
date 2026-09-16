@@ -10,7 +10,7 @@ en:
   title: Browse Recovery playbook
   description: Re-engage customers who viewed products but did not add to cart or buy, using browsing signals, timing, and send checks.
 es:
-  title: Playbook Recuperación de Navegación
+  title: Misión Recuperación de Navegación
   description: Reactiva clientes que vieron productos pero no agregaron al carrito ni compraron, usando señales de navegación, timing y chequeos de envío.
 
 permalink: browse-recovery-playbook

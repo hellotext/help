@@ -6,7 +6,7 @@ en:
   description: Get quick answers and find the right guide for setup, channels, playbooks, reporting, billing, and troubleshooting.
 es:
   title: Preguntas frecuentes
-  description: Encuentra respuestas rápidas y la guía correcta para configuración, canales, playbooks, reportes, facturación y troubleshooting.
+  description: Encuentra respuestas rápidas y la guía correcta para configuración, canales, misiones, reportes, facturación y troubleshooting.
 
 permalink: frequent-questions
 permalink_es: preguntas-frecuentes

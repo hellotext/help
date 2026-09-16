@@ -8,7 +8,7 @@ Revisa primero las acciones preestablecidas en **Ajustes > Acciones**. Hellotext
 
 Usa una acción personalizada cuando necesitas registrar algo que ocurrió en un momento específico y no existe una acción equivalente. Usa una propiedad del perfil del cliente cuando el dato describe un estado actual que puede cambiar, como nivel de fidelidad, tienda preferida o fecha de renovación.
 
-No crees otra acción para reemplazar `order.placed`, `product.viewed` o una actividad preestablecida equivalente. Los playbooks y reportes pueden depender del significado y del objeto asociado a la acción original.
+No crees otra acción para reemplazar `order.placed`, `product.viewed` o una actividad preestablecida equivalente. Las misiones y los reportes pueden depender del significado y del objeto asociado a la acción original.
 
 ## Crea una acción desde Hellotext
 
@@ -125,7 +125,7 @@ Después de probarla, una acción personalizada puede servir para:
 - crear segmentos a partir de la actividad del cliente;
 - mostrar contexto en el perfil del cliente;
 - medir conversiones personalizadas; y
-- ayudar a playbooks compatibles a interpretar señales del negocio.
+- ayudar a misiones compatibles a interpretar señales del negocio.
 
 Prueba primero con un perfil del cliente controlado. Confirma que el evento aparece en su actividad antes de activar rutas, segmentos o reportes que dependan de él.
 

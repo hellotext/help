@@ -7,8 +7,8 @@ El estado describe dónde se encuentra la conversación dentro del flujo de trab
 Una conversación puede aparecer cuando:
 
 - Un cliente escribe por WhatsApp, SMS, Webchat, Instagram, Messenger u otro canal entrante conectado.
-- Un cliente responde a un mensaje de una campaña, playbook o ruta.
-- Un playbook o agente de IA deriva la conversación a una persona o equipo.
+- Un cliente responde a un mensaje de una campaña, misión o ruta.
+- Una misión o un agente de IA deriva la conversación a una persona o equipo.
 - Un step de Asignación (Assignment) de una ruta abre o asigna la conversación.
 - Una nueva actividad del cliente, pedido o negocio crea trabajo que necesita atención.
 - Una conversación cerrada o pospuesta recibe actividad que la vuelve a abrir.
@@ -106,7 +106,7 @@ Usa este orden diario simple:
 
 ## Cómo afecta la automatización al ciclo
 
-Los playbooks, agentes de IA y rutas pueden abrir, asignar, cerrar o devolver conversaciones al Inbox.
+Las misiones, los agentes de IA y las rutas pueden abrir, asignar, cerrar o devolver conversaciones al Inbox.
 
 Cuando una automatización deriva a un equipo:
 

@@ -1,6 +1,6 @@
 Usa esta guía para decidir qué conectar primero cuando estás configurando Hellotext.
 
-La configuración funciona mejor cuando conectas las fuentes de datos antes de lanzar capturas, playbooks, rutas o campañas. Así Hellotext puede crear perfiles de cliente, convertir actividad en señales y atribuir resultados desde el comienzo.
+La configuración funciona mejor cuando conectas las fuentes de datos antes de lanzar capturas, misiones, rutas o campañas. Así Hellotext puede crear perfiles de cliente, convertir actividad en señales y atribuir resultados desde el comienzo.
 
 ## Orden de configuración recomendado
 
@@ -24,9 +24,9 @@ Elige la guía que corresponde a tu tienda:
 - [Conecta VTEX]({% link _integrations/connect-vtex.md %})
 - [Conecta Mercado Libre]({% link _integrations/connect-mercado-libre.md %})
 
-Después de conectar, revisa que los clientes, órdenes y actividad reciente aparezcan en Hellotext antes de crear playbooks, rutas o campañas basadas en esos datos.
+Después de conectar, revisa que los clientes, órdenes y actividad reciente aparezcan en Hellotext antes de crear misiones, rutas o campañas basadas en esos datos.
 
-También confirma que los productos, variantes, precios, imágenes y disponibilidades necesarios para tu primer playbook se sincronicen correctamente.
+También confirma que los productos, variantes, precios, imágenes y disponibilidades necesarios para tu primera misión se sincronicen correctamente.
 
 Sigue leyendo:
 
@@ -35,13 +35,13 @@ Sigue leyendo:
 
 ### 3. Conecta los canales de mensajería que vas a usar
 
-Conecta WhatsApp antes de crear capturas, playbooks, rutas o campañas de WhatsApp.
+Conecta WhatsApp antes de crear capturas, misiones, rutas o campañas de WhatsApp.
 
 Si vendes por WhatsApp, conecta primero tu plataforma de eCommerce y después conecta tu catálogo de productos a WhatsApp.
 
-Conecta Instagram cuando los clientes deban poder iniciar conversaciones por mensaje directo que lleguen a tu Inbox, playbooks, rutas o agentes de IA. Instagram usa su propio inicio de sesión directo y es una integración separada de Facebook Messenger.
+Conecta Instagram cuando los clientes deban poder iniciar conversaciones por mensaje directo que lleguen a tu Inbox, misiones, rutas o agentes de IA. Instagram usa su propio inicio de sesión directo y es una integración separada de Facebook Messenger.
 
-Conecta Messenger cuando los clientes deban poder escribir a tu página de Facebook y llegar a tu Inbox, rutas o playbooks compatibles. Messenger usa el inicio de sesión de Facebook y requiere acceso a la página y cuenta de Meta Business correctas.
+Conecta Messenger cuando los clientes deban poder escribir a tu página de Facebook y llegar a tu Inbox, rutas o misiones compatibles. Messenger usa el inicio de sesión de Facebook y requiere acceso a la página y cuenta de Meta Business correctas.
 
 Para enviar correos desde el dominio de tu negocio, agrega un remitente y publica sus registros DNS de verificación. El envío de correos está disponible en Enterprise.
 

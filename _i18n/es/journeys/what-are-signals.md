@@ -15,15 +15,15 @@ Las señales ayudan a Hellotext a responder preguntas como:
 
 Hellotext es más útil cuando puede actuar con contexto actualizado en lugar de enviar el mismo mensaje a todos.
 
-Playbooks, rutas, campañas, segmentos, reportes y flujos del Inbox pueden usar señales de distintas maneras.
+Misiones, rutas, campañas, segmentos, reportes y flujos del Inbox pueden usar señales de distintas maneras.
 
 Por ejemplo:
 
-- Un playbook puede decidir si un cliente debería recibir un seguimiento de carrito abandonado.
+- Una misión puede decidir si un cliente debería recibir un seguimiento de carrito abandonado.
 - Una ruta puede empezar cuando un cliente se suscribe o coincide con un disparador.
 - Un segmento puede actualizarse automáticamente cuando cambia el comportamiento del cliente.
 - Una campaña puede dirigirse a clientes que coinciden con actividad reciente o datos de perfil.
-- Un reporte puede conectar clicks, órdenes, respuestas e ingresos con el mensaje o playbook que influyó en el resultado.
+- Un reporte puede conectar clicks, órdenes, respuestas e ingresos con el mensaje o la misión que influyó en el resultado.
 - El Inbox puede darle más contexto a tu equipo antes de responder.
 
 ## Tipos comunes de señales
@@ -42,13 +42,13 @@ Las señales de canal incluyen si WhatsApp, SMS u otro canal está conectado, ap
 
 Una señal es contexto. No siempre significa que Hellotext enviará algo inmediatamente.
 
-Antes de que un playbook, ruta o campaña actúe, Hellotext también puede considerar:
+Antes de que una misión, ruta o campaña actúe, Hellotext también puede considerar:
 
-- El objetivo del playbook.
+- El objetivo de la misión.
 - El disparador y las reglas de audiencia.
 - Consentimiento y elegibilidad por canal.
 - Límites de frecuencia y horarios silenciosos.
-- Si otro playbook ya está activo para el cliente.
+- Si otra misión ya está activa para el cliente.
 - Si una persona debería tomar la conversación.
 - Si los datos necesarios están lo suficientemente completos para tomar una buena decisión.
 
@@ -73,7 +73,7 @@ Los pasos comunes incluyen:
 - Agregar herramientas de captura para que los clientes puedan suscribirse.
 - Instalar tracking o usar una integración que envíe eventos automáticamente.
 - Usar Hellotext.js o la API si tienes actividad personalizada para enviar.
-- Confirmar que la actividad aparezca en los perfiles de cliente antes de lanzar un playbook o campaña.
+- Confirmar que la actividad aparezca en los perfiles de cliente antes de lanzar una misión o campaña.
 
 ## Guías relacionadas
 
@@ -81,8 +81,8 @@ Los pasos comunes incluyen:
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Soluciona señales o actividad faltante]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %})
 - [Seguimiento de eventos]({% link _developers/tracking-events.md %})
-- [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})
-- [Playbook Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %})
+- [Resumen de misiones y automatización]({% link _journeys/playbooks-overview.md %})
+- [Misión Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %})
 - [Primeros pasos con rutas]({% link _journeys/getting-started-with-journeys.md %})
 - [Resumen de audiencia y segmentación]({% link _audience/audience-overview.md %})
 - [Resumen de analítica, reportes y atribución]({% link _analytics-reporting-attribution/analytics-overview.md %})

@@ -1,4 +1,4 @@
-Usa el Reporte de ingresos para entender cuántos ingresos de comercio recibió Hellotext, qué compras fueron atribuidas y si la IA, el equipo, una Campaña o un Playbook recibió el crédito.
+Usa el Reporte de ingresos para entender cuántos ingresos de comercio recibió Hellotext, qué compras fueron atribuidas y si la IA, el equipo, una Campaña o una Misión recibió el crédito.
 
 Ábrelo desde la tarjeta **Reporte de ingresos** del Dashboard. Antes de comparar totales u orígenes, elige un período que coincida con la pregunta que quieres responder.
 
@@ -6,7 +6,7 @@ Usa el Reporte de ingresos para entender cuántos ingresos de comercio recibió 
 
 El período seleccionado se basa en la **fecha de compra**. Las métricas principales, la línea de tiempo, los desgloses de ingresos y las tablas de origen incluyen compras completadas durante ese período.
 
-Los reportes de rendimiento de Campañas y Playbooks usan una fecha diferente porque miden la actividad que originó el resultado. Por ejemplo:
+Los reportes de rendimiento de Campañas y Misiones usan una fecha diferente porque miden la actividad que originó el resultado. Por ejemplo:
 
 **Mensaje de Campaña entregado el 30 de junio → Compra completada el 5 de julio → Cuenta el 5 de julio en Ingresos y el 30 de junio en el rendimiento de la Campaña.**
 
@@ -40,7 +40,7 @@ Consulta [Atribución de ventas]({% link _analytics-reporting-attribution/sales-
 
 Usa el control de desglose para entender de dónde proviene una métrica. Las opciones dependen de la métrica y de los datos disponibles, y pueden incluir:
 
-- canal, Campaña o Playbook;
+- canal, Campaña o Misión;
 - segmento, tienda o región;
 - categoría de producto, producto o variante;
 - estado de suscripción, método de pago o contexto de comercio;
@@ -52,7 +52,7 @@ Elige solamente las dimensiones necesarias para responder la pregunta. Una fila 
 
 Los widgets debajo de la línea de tiempo explican la composición de los ingresos atribuidos.
 
-- **Campañas vs Playbooks** compara el monto atribuido a Campañas puntuales y Playbooks siempre activos.
+- **Campañas vs Misiones** compara el monto atribuido a Campañas puntuales y Misiones siempre activas.
 - **Contexto de comercio** separa ingresos compatibles de eCommerce, marketplaces y retail.
 - **Canal de comercio** muestra qué canal de venta conectado registró las compras atribuidas.
 
@@ -60,18 +60,18 @@ Estos widgets distribuyen los ingresos atribuidos; no reemplazan los ingresos to
 
 ## Revisa las tablas de origen
 
-Las secciones Playbooks, Campañas y Canales agrupan las compras atribuidas incluidas en el período seleccionado según el origen que recibió el crédito.
+Las secciones Misiones, Campañas y Canales agrupan las compras atribuidas incluidas en el período seleccionado según el origen que recibió el crédito.
 
 Usa pedidos atribuidos, valor promedio del pedido atribuido e ingresos atribuidos para comparar el valor asignado a cada origen. Una fila sin ingresos no significa necesariamente que sus mensajes no se hayan enviado: puede indicar que ninguna compra completada durante el período seleccionado fue elegible para ese origen.
 
-Para analizar conversión, ROI, ingresos por mensaje o resultados posteriores asignados a la fecha original de un mensaje o activación, abre el reporte de rendimiento de la Campaña o Playbook correspondiente.
+Para analizar conversión, ROI, ingresos por mensaje o resultados posteriores asignados a la fecha original de un mensaje o activación, abre el reporte de rendimiento de la Campaña o Misión correspondiente.
 
 ## Exporta e inspecciona compras atribuidas
 
 Usa **Exportar** cuando necesites conciliar pedidos o revisar la evidencia detrás de las filas atribuidas. La exportación puede incluir:
 
 - referencias del pedido, cliente y conversación;
-- Campaña, Playbook y canal acreditados;
+- Campaña, Misión y canal acreditados;
 - monto atribuido y fecha de compra;
 - tipo y motivo de atribución;
 - evidencia comercial de IA y humana, cuando corresponda;
@@ -97,6 +97,6 @@ Para una investigación completa, consulta [Integridad de datos y diferencias en
 
 - [Guía del Dashboard]({% link _analytics-reporting-attribution/dashboard-guide.md %})
 - [Atribución de ventas]({% link _analytics-reporting-attribution/sales-attribution.md %})
-- [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})
+- [Reportes de misiones]({% link _analytics-reporting-attribution/playbook-reporting.md %})
 - [Reportes de campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %})
 - [Integridad de datos y diferencias en reportes]({% link _analytics-reporting-attribution/data-completeness-and-reporting-gaps.md %})

@@ -7,7 +7,7 @@ en:
   description: Learn how Hellotext links orders to campaigns, playbooks, routes, and eligible interactions using source precedence and attribution windows.
 es:
   title: Cómo atribuimos las ventas
-  description: Aprende cómo Hellotext vincula pedidos con campañas, playbooks, rutas e interacciones elegibles mediante precedencia de fuentes y ventanas de atribución.
+  description: Aprende cómo Hellotext vincula pedidos con campañas, misiones, rutas e interacciones elegibles mediante precedencia de fuentes y ventanas de atribución.
 
 permalink: how-we-attribute-sales
 permalink_es: como-atribuimos-las-ventas

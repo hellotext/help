@@ -7,7 +7,7 @@ en:
   description: Learn how Hellotext links help you collect analytics from campaigns, routes, playbooks, and conversations.
 es:
   title: Links con tracking
-  description: Aprende cómo los links de Hellotext ayudan a recolectar analítica de campañas, rutas, playbooks y conversaciones.
+  description: Aprende cómo los links de Hellotext ayudan a recolectar analítica de campañas, rutas, misiones y conversaciones.
 
 permalink: tracked-links
 permalink_es: links-con-tracking

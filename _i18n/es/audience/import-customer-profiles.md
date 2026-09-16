@@ -1,4 +1,4 @@
-Importa perfiles de cliente cuando necesitas llevar datos existentes a Hellotext antes de usarlos en audiencias, campañas, playbooks, rutas o flujos del Inbox.
+Importa perfiles de cliente cuando necesitas llevar datos existentes a Hellotext antes de usarlos en audiencias, campañas, misiones, rutas o flujos del Inbox.
 
 Una importación puede crear perfiles de cliente, actualizar sus propiedades y agregarlos a listas. Los pasos dependen de si los datos vienen de una integración o de un archivo.
 

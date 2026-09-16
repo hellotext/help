@@ -1,6 +1,6 @@
 Usa esta guía cuando los clientes llevan alrededor de 12 meses sin actividad o no se reactivaron después de intentos anteriores, y quieres que Hellotext haga un último intento cuidadoso antes de dejar de insistir automáticamente.
 
-Último Intento es un playbook de recuperación final. Ayuda a Hellotext a identificar perfiles del cliente que no compraron, visitaron, hicieron click, respondieron o tuvieron otra interacción relevante durante un período largo, enviar un mensaje final cuando todavía existe una oportunidad saludable, y luego suprimir futuros intentos automáticos de recuperación si el cliente no vuelve.
+Último Intento es una misión de recuperación final. Ayuda a Hellotext a identificar perfiles del cliente que no compraron, visitaron, hicieron click, respondieron o tuvieron otra interacción relevante durante un período largo, enviar un mensaje final cuando todavía existe una oportunidad saludable, y luego suprimir futuros intentos automáticos de recuperación si el cliente no vuelve.
 
 No es una ruta, una campaña puntual ni una limpieza manual de la base. Vive al final de la familia de reactivación: después de [Reactivación Suave]({% link _journeys/soft-reactivation-playbook.md %}), que cubre inactividad reciente alrededor de 30 días, y [Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %}), que apunta a clientes alrededor de 3 meses sin actividad.
 
@@ -19,11 +19,11 @@ Puede:
 - Seguir reglas de oferta existentes del eCommerce, usar descuentos con IA hasta un porcentaje máximo aprobado o enviar sin descuentos.
 - Buscar el canal más eficiente en costo entre los disponibles, como WhatsApp, SMS u otros, y enviar solo cuando detecta internamente una oportunidad con ROI saludable.
 - Suprimir automáticamente futuros intentos de recuperación para ese perfil si el cliente no compra, responde o vuelve a mostrar una señal relevante.
-- Omitir clientes cuando no hay consentimiento, el perfil no puede ser alcanzado, otro playbook encaja mejor o no existe una razón suficientemente relevante para escribir.
+- Omitir clientes cuando no hay consentimiento, el perfil no puede ser alcanzado, otra misión encaja mejor o no existe una razón suficientemente relevante para escribir.
 
 La configuración exacta puede variar según cuenta, tienda conectada, calidad del catálogo, canal, plantillas y estado de despliegue.
 
-## Cuándo usarlo
+## Cuándo usarla
 
 Usa Último Intento cuando el cliente ya pasó las ventanas normales de reactivación y no quieres seguir enviando mensajes de recuperación indefinidamente.
 
@@ -37,7 +37,7 @@ Encaja bien cuando:
 
 No uses Último Intento para clientes que recién empiezan a enfriarse. Para una baja reciente, usa [Reactivación Suave]({% link _journeys/soft-reactivation-playbook.md %}). Para clientes que llevan alrededor de 3 meses sin actividad, usa [Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %}).
 
-Para momentos específicos de producto, usa el playbook más específico: [Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %}) para timing de recompra de consumibles, [Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %}) para productos relacionados después de compra y [Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}) para carrito o checkout abandonado.
+Para momentos específicos de producto, usa la misión más específica: [Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %}) para timing de recompra de consumibles, [Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %}) para productos relacionados después de compra y [Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}) para carrito o checkout abandonado.
 
 ## Qué necesita antes del lanzamiento
 
@@ -60,19 +60,19 @@ Después del lanzamiento, usa los reportes automáticos para revisar envíos, cl
 
 ## Qué puedes configurar
 
-Abre **Playbooks**, haz click en **Explorar playbooks** y elige **Último Intento**.
+Abre **Misiones**, haz click en **Explorar misiones** y elige **Último Intento**.
 
 Las tarjetas disponibles pueden variar, pero la configuración propuesta se concentra en:
 
 - **Canales de salida:** dónde Hellotext puede enviar o continuar el mensaje final.
-- **Audiencia:** qué audiencia o segmento puede recibir el playbook.
+- **Audiencia:** qué audiencia o segmento puede recibir la misión.
 - **Productos:** qué productos, colecciones, categorías o grupos puede usar el mensaje.
-- **Estrategia de descuento:** si el playbook sigue las reglas de oferta del eCommerce, puede usar descuentos con IA hasta un porcentaje máximo o envía sin descuentos.
+- **Estrategia de descuento:** si la misión sigue las reglas de oferta del eCommerce, puede usar descuentos con IA hasta un porcentaje máximo o envía sin descuentos.
 - **Tono o feedback en Playground:** cómo deberían aprender los ejemplos generados qué encaja con tu negocio.
 
-Mantén la selección automática de canales salvo que tengas una razón clara para limitar el playbook. Último Intento depende de encontrar un canal alcanzable y costo-eficiente para un cliente que ya lleva mucho tiempo inactivo. Hellotext puede elegir internamente el canal más eficiente en costo, como WhatsApp, SMS u otros según disponibilidad, y evitar envíos cuando no detecta una oportunidad con ROI saludable.
+Mantén la selección automática de canales salvo que tengas una razón clara para limitar la misión. Último Intento depende de encontrar un canal alcanzable y costo-eficiente para un cliente que ya lleva mucho tiempo inactivo. Hellotext puede elegir internamente el canal más eficiente en costo, como WhatsApp, SMS u otros según disponibilidad, y evitar envíos cuando no detecta una oportunidad con ROI saludable.
 
-La supresión posterior al intento es parte del comportamiento del playbook. No significa dar de baja al cliente del canal ni cambiar su consentimiento; significa que Hellotext deja de insistir con futuros intentos automáticos de recuperación para ese perfil si el último intento no genera una señal relevante.
+La supresión posterior al intento es parte del comportamiento de la misión. No significa dar de baja al cliente del canal ni cambiar su consentimiento; significa que Hellotext deja de insistir con futuros intentos automáticos de recuperación para ese perfil si el último intento no genera una señal relevante.
 
 Si necesitas un agente conversacional a medida con instrucciones, conocimiento y reglas de derivación propias, usa [Agente Personalizado]({% link _journeys/custom-agent-playbook.md %}). Si necesitas una secuencia totalmente controlada de pasos, usa una ruta personalizada.
 
@@ -86,7 +86,7 @@ Hellotext puede usar señales como:
 - Si el cliente no se reactivó después de otros intentos o momentos de recuperación.
 - Historial de compras, categorías de producto, valor del cliente e interacción histórica.
 - Productos comprados, navegados, clickeados o recomendados antes.
-- Si otro playbook ya es dueño del momento actual, como recuperación de carrito, recompra, venta cruzada, soporte, Reactivación Suave o Reactivación de Inactivos.
+- Si otra misión ya se encarga del momento actual, como recuperación de carrito, recompra, venta cruzada, soporte, Reactivación Suave o Reactivación de Inactivos.
 - Disponibilidad de producto, precio, stock, links y reglas de descuento.
 - Elegibilidad de canal, consentimiento e historial reciente de comunicación.
 
@@ -97,12 +97,12 @@ Antes de enviar, Hellotext también puede considerar:
 - Si el cliente compró, respondió, se dio de baja o quitó su consentimiento recientemente.
 - Si el perfil puede recibir un mensaje en un canal elegible.
 - Si existe una oportunidad interna de mantener un ROI saludable para ese envío.
-- Si otro playbook activo encaja mejor.
+- Si otra misión activa encaja mejor.
 - Si reglas de canal, plantillas, horarios silenciosos o elegibilidad permiten el envío.
 
-Para el modelo general de decisión, mira [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}).
+Para el modelo general de decisión, mira [Cómo decide Hellotext si una misión puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}).
 
-## Cómo funciona con playbooks cercanos
+## Cómo funciona con misiones cercanas
 
 Usa el momento del cliente para decidir quién debería ser dueño.
 
@@ -116,7 +116,7 @@ Usa el momento del cliente para decidir quién debería ser dueño.
 | El cliente abandonó carrito o checkout | [Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}) o [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) |
 | Quieres enviar un mensaje planificado y puntual a una audiencia seleccionada | [Campañas]({% link _campaigns/campaigns-overview.md %}) |
 
-Último Intento puede convivir con otros playbooks cuando cada uno maneja un momento distinto. No debería competir con una señal más específica, y debería dejar de intentar recuperar a un cliente que ya volvió, respondió, quitó consentimiento o entró en otro flujo activo.
+Último Intento puede convivir con otras misiones cuando cada una maneja un momento distinto. No debería competir con una señal más específica, y debería dejar de intentar recuperar a un cliente que ya volvió, respondió, quitó consentimiento o entró en otro flujo activo.
 
 ## Revisa mensajes en el Playground
 
@@ -135,16 +135,16 @@ Cuando revises ejemplos, mira:
 
 Cuanto más realistas sean los ejemplos, mejor puede el sistema adaptar el último intento a tu tienda.
 
-## Cómo probarlo
+## Cómo probarla
 
-Prueba con un camino pequeño y realista antes de habilitarlo ampliamente.
+Prueba con un camino pequeño y realista antes de habilitarla ampliamente.
 
 Usa perfiles del cliente de prueba que tengan consentimiento de canal, luego:
 
 - Elige un perfil con historial de compra o interacción y alrededor de 12 meses sin actividad.
 - Confirma que el perfil tenga actividad histórica visible en Hellotext.
 - Confirma que la audiencia incluya el perfil de prueba.
-- Confirma que los productos o colecciones usados por el playbook tengan imágenes, precios, stock, variantes y links correctos.
+- Confirma que los productos o colecciones usados por la misión tengan imágenes, precios, stock, variantes y links correctos.
 - Genera o simula ejemplos de mensaje en el Playground.
 - Marca ejemplos que te gustan y ejemplos que no te gustan.
 - Prueba un cliente que se reactivó recientemente y no debería recibir Último Intento.
@@ -158,13 +158,13 @@ Si el tracking es personalizado, confirma que eventos de compra, eventos de inte
 
 ## Por qué puede no enviar
 
-Que Último Intento esté habilitado no significa que cada cliente antiguo reciba un mensaje.
+Que la misión Último Intento esté habilitada no significa que cada cliente antiguo reciba un mensaje.
 
-El playbook puede esperar, omitir, detenerse, suprimir o dejar actuar a otro playbook cuando:
+La misión puede esperar, omitir, detenerse, suprimir o dejar actuar a otra misión cuando:
 
 - La actividad del cliente falta, llega tarde o no está conectada a un perfil del cliente usable.
 - El cliente todavía pertenece a Reactivación Suave o Reactivación de Inactivos.
-- El cliente compró, hizo click, respondió o entró en otro playbook activo recientemente.
+- El cliente compró, hizo click, respondió o entró en otra misión activa recientemente.
 - El cliente ya recibió un último intento y quedó suprimido para futuros intentos de recuperación.
 - No se encuentra un producto, colección, oferta o ángulo de mensaje relevante.
 - Los productos no están disponibles, no tienen stock, no tienen precio, no tienen imagen o no tienen un link usable.
@@ -173,9 +173,9 @@ El playbook puede esperar, omitir, detenerse, suprimir o dejar actuar a otro pla
 - Hellotext no detecta una oportunidad con ROI saludable para escribir en ese momento.
 - Reglas de canal, plantillas, horarios silenciosos o elegibilidad impiden el envío.
 - El canal, remitente, plantilla, link o formato del mensaje no está listo.
-- Otro playbook activo encaja mejor.
+- Otra misión activa encaja mejor.
 
-Para un diagnóstico paso a paso, usa [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}).
+Para un diagnóstico paso a paso, usa [Soluciona una misión que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}).
 
 ## Qué revisar después del lanzamiento
 
@@ -188,26 +188,26 @@ Durante los primeros días, revisa:
 - Si links, imágenes, precios, variantes y stock fueron correctos.
 - Compras, ingresos atribuidos, bajas, respuestas y mensajes fallidos.
 - Si los descuentos mejoraron recuperación o solo redujeron margen.
-- Si Último Intento se superpone con Reactivación Suave, Reactivación de Inactivos, Impulsor de Recompra, Impulsor de Ventas Cruzadas, Recuperador de Carritos con IA, playbooks de soporte o campañas.
+- Si Último Intento se superpone con Reactivación Suave, Reactivación de Inactivos, Impulsor de Recompra, Impulsor de Ventas Cruzadas, Recuperador de Carritos con IA, misiones de soporte o campañas.
 
 Ajusta una cosa por vez: audiencia, alcance de productos, lógica de producto, tono, feedback en Playground, estrategia de descuento, canal o camino de derivación.
 
 ## Guías relacionadas
 
-- [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
-- [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
-- [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
-- [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Biblioteca de misiones por objetivo]({% link _journeys/playbook-library-by-mission.md %})
+- [Elige tu primera misión]({% link _journeys/choose-your-first-playbook.md %})
+- [Cómo habilitar una misión]({% link _journeys/how-to-enable-a-playbook.md %})
+- [Cómo personalizar una misión de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [Qué son las señales]({% link _journeys/what-are-signals.md %})
-- [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
-- [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
+- [Cómo decide Hellotext si una misión puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
+- [Soluciona una misión que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Seguimiento de eventos]({% link _developers/tracking-events.md %})
 - [Conecta Shopify]({% link _integrations/connect-shopify.md %})
 - [Conecta tu catálogo a WhatsApp]({% link _integrations/connect-catalog-to-whatsapp.md %})
-- [Playbook Reactivación Suave]({% link _journeys/soft-reactivation-playbook.md %})
-- [Playbook Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %})
-- [Playbook Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %})
-- [Playbook Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %})
-- [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
-- [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})
+- [Misión Reactivación Suave]({% link _journeys/soft-reactivation-playbook.md %})
+- [Misión Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %})
+- [Misión Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %})
+- [Misión Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %})
+- [Misión Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
+- [Reportes de misiones]({% link _analytics-reporting-attribution/playbook-reporting.md %})

@@ -1,8 +1,8 @@
 Usa esta guía cuando tu equipo responde las mismas preguntas de soporte una y otra vez.
 
-Respuestas Instantáneas es un playbook reactivo de atención con IA. Responde cuando un cliente hace una pregunta frecuente de soporte y usa conocimiento aprobado, políticas y contexto conectado para responder o derivar cuando una persona debe tomar la conversación.
+Respuestas Instantáneas es una misión reactiva de atención con IA. Responde cuando un cliente hace una pregunta frecuente de soporte y usa conocimiento aprobado, políticas y contexto conectado para responder o derivar cuando una persona debe tomar la conversación.
 
-No es una ruta, una campaña, un recomendador de productos ni un agente personalizado con intenciones propias. Es el playbook de atención para preguntas repetidas que deberían responderse rápido y de forma consistente.
+No es una ruta, una campaña, un recomendador de productos ni un agente personalizado con intenciones propias. Es la misión de atención para preguntas repetidas que deberían responderse rápido y de forma consistente.
 
 ## Qué hace Respuestas Instantáneas
 
@@ -15,11 +15,11 @@ Puede:
 - Responder preguntas sobre políticas de envío, métodos de pago, información de tienda, cuidado de producto, garantías básicas, guías de talle y otros temas repetidos de soporte.
 - Hacer una pregunta de aclaración cuando a la solicitud le faltan datos importantes.
 - Derivar cuando la respuesta no está disponible, el cliente está molesto o la solicitud necesita criterio humano.
-- Trabajar junto con Webchat, asignación en Inbox, reglas de respuesta y otros playbooks de atención.
+- Trabajar junto con Webchat, asignación en Inbox, reglas de respuesta y otras misiones de atención.
 
 Respuestas Instantáneas funciona mejor cuando la respuesta ya está escrita en algún lugar confiable para tu equipo.
 
-## Cuándo usarlo
+## Cuándo usarla
 
 Usa Respuestas Instantáneas cuando:
 
@@ -31,7 +31,7 @@ Usa Respuestas Instantáneas cuando:
 
 Buenos temas incluyen política de envío, explicación de ventanas de devolución, métodos de pago, horarios de tienda, instrucciones de cuidado de producto, garantías básicas, explicación de guías de talle y dónde encontrar información de cuenta u orden.
 
-## Cuándo no usarlo
+## Cuándo no usarla
 
 No uses Respuestas Instantáneas como dueño de todas las conversaciones.
 
@@ -39,15 +39,15 @@ Usa [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}) cuan
 
 Usa [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) cuando el cliente quiere descubrimiento de producto, comparación o recomendaciones.
 
-Usa [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}) cuando tu cuenta tenga ese playbook disponible y el cliente necesita un flujo de cambios o devoluciones, no solo una explicación de política.
+Usa [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}) cuando tu cuenta tenga esa misión disponible y el cliente necesita un flujo de cambios o devoluciones, no solo una explicación de política.
 
-Usa [Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %}) cuando tu cuenta tenga ese playbook disponible y el cliente necesita ayuda para pedir una cancelación, no solo una explicación de política.
+Usa [Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %}) cuando tu cuenta tenga esa misión disponible y el cliente necesita ayuda para pedir una cancelación, no solo una explicación de política.
 
-Usa un [Agente Personalizado]({% link _journeys/custom-agent-playbook.md %}) cuando necesitas intenciones propias, un agente especialista acotado, acciones externas o una misión de soporte demasiado específica para el playbook preconstruido.
+Usa un [Agente Personalizado]({% link _journeys/custom-agent-playbook.md %}) cuando necesitas intenciones propias, un agente especialista acotado, acciones externas o un objetivo de soporte demasiado específico para la misión preconstruida.
 
 Usa una [ruta]({% link _journeys/getting-started-with-journeys.md %}) cuando la experiencia debe seguir pasos visibles, esperas, preguntas, ramas y asignaciones.
 
-## Qué necesita antes de lanzarlo
+## Qué necesita antes de lanzarla
 
 Antes de habilitar Respuestas Instantáneas, confirma:
 
@@ -56,24 +56,24 @@ Antes de habilitar Respuestas Instantáneas, confirma:
 - El contenido contradictorio o desactualizado fue removido.
 - Los canales de entrada donde los clientes hacen estas preguntas están conectados y listos.
 - Hay una persona o equipo configurado para derivaciones.
-- Tu equipo sabe qué preguntas debería responder el playbook y cuáles debería dejar a una persona.
+- Tu equipo sabe qué preguntas debería responder la misión y cuáles debería dejar a una persona.
 - Las reglas de respuesta y el horario comercial coinciden con el nivel de servicio que quieres para conversaciones de soporte.
 
 Para validar la configuración, usa [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %}).
 
 ## Qué puedes configurar
 
-Abre **Playbooks**, haz click en **Explorar playbooks** y elige **Respuestas Instantáneas**.
+Abre **Misiones**, haz click en **Explorar misiones** y elige **Respuestas Instantáneas**.
 
 Las tarjetas disponibles pueden variar, pero podrías revisar:
 
 - **Conocimiento o documentos cargados:** FAQs, políticas, notas de producto, guías u otro contenido de soporte aprobado.
 - **Canales de entrada:** dónde puede responder preguntas de clientes.
 - **Tono:** la voz usada en las respuestas.
-- **Derivación o asignación:** quién debería tomar la conversación cuando el playbook no puede resolverla.
+- **Derivación o asignación:** quién debería tomar la conversación cuando la misión no puede resolverla.
 - **Búsqueda web o sitios aprobados, cuando esté disponible:** páginas públicas que el agente puede usar para la misión de soporte.
 
-Mantén la configuración enfocada. Si el playbook necesita demasiadas excepciones, divide el trabajo: usa un playbook de atención especializado, un agente personalizado o un proceso de Inbox para los casos de mayor riesgo.
+Mantén la configuración enfocada. Si la misión necesita demasiadas excepciones, divide el trabajo: usa una misión de atención especializada, un agente personalizado o un proceso de Inbox para los casos de mayor riesgo.
 
 ## Prepara el conocimiento
 
@@ -95,7 +95,7 @@ Antes de subir o aprobar fuentes, elimina:
 - Notas internas que no deberían compartirse con clientes.
 - Promesas no respaldadas sobre tiempos de entrega, reembolsos o aprobaciones.
 
-Si la fuente cambia, actualiza el conocimiento antes de esperar que el playbook responda correctamente.
+Si la fuente cambia, actualiza el conocimiento antes de esperar que la misión responda correctamente.
 
 ## Define límites de derivación
 
@@ -109,7 +109,7 @@ Casos comunes de derivación:
 - La solicitud necesita aprobación, excepción, reembolso, cancelación, cambio, modificación de cuenta, detalle de pago o acción humana de venta.
 - La respuesta no está en el conocimiento aprobado.
 - El cliente pregunta por una orden específica y [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}) debería manejarlo.
-- Ningún playbook activo puede resolver la solicitud de forma segura.
+- Ninguna misión activa puede resolver la solicitud de forma segura.
 
 Para el comportamiento de derivación, usa [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %}).
 
@@ -122,13 +122,13 @@ Webchat le da a visitantes un lugar para preguntar desde el sitio. Respuestas In
 Antes de lanzar, confirma:
 
 - Webchat o el canal de entrada está habilitado.
-- El mensaje inicial no promete soporte que el playbook no puede dar.
+- El mensaje inicial no promete soporte que la misión no puede dar.
 - El responsable de derivación es la persona o equipo correcto.
 - Las reglas de respuesta reflejan qué tan rápido debería responder una persona después de una derivación.
 
-## Cómo probarlo
+## Cómo probarla
 
-Prueba con mensajes realistas de soporte antes de habilitar el playbook ampliamente.
+Prueba con mensajes realistas de soporte antes de habilitar la misión ampliamente.
 
 Usa perfiles de cliente y canales de prueba que coincidan con tu plan de lanzamiento, y prueba:
 
@@ -148,32 +148,32 @@ Revisa si la respuesta está basada en conocimiento, es breve, correcta para el 
 
 Durante los primeros días, revisa:
 
-- Qué mensajes de clientes activaron el playbook.
+- Qué mensajes de clientes activaron la misión.
 - Qué preguntas se respondieron correctamente.
-- Qué preguntas deberían haber ido a otro playbook.
+- Qué preguntas deberían haber ido a otra misión.
 - Si las respuestas siguieron la fuente correcta.
 - Si clientes hicieron preguntas de seguimiento porque la respuesta no fue clara.
 - Si las derivaciones llegaron a la persona o equipo correcto.
 - Preguntas repetidas sin respuesta que sugieren conocimiento faltante.
 - Velocidad de respuesta, tasa de resolución, tasa de derivación, respuestas de clientes, mensajes fallidos y bajas cuando aplique.
 
-Ajusta una cosa por vez: conocimiento, selección de canales, tono, destino de derivación o los temas de soporte que esperas que el playbook cubra.
+Ajusta una cosa por vez: conocimiento, selección de canales, tono, destino de derivación o los temas de soporte que esperas que la misión cubra.
 
-Si quieres medir satisfacción después de conversaciones de soporte resueltas, usa [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}) junto al playbook de soporte.
+Si quieres medir satisfacción después de conversaciones de soporte resueltas, usa [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}) junto a la misión de soporte.
 
 ## Guías relacionadas
 
-- [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
-- [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
-- [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Biblioteca de misiones por objetivo]({% link _journeys/playbook-library-by-mission.md %})
+- [Cómo habilitar una misión]({% link _journeys/how-to-enable-a-playbook.md %})
+- [Cómo personalizar una misión de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})
-- [Playbook Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %})
-- [Playbook Widget de Webchat]({% link _captures/webchat-widget-playbook.md %})
-- [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
-- [Playbook Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %})
-- [Playbook Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %})
-- [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
-- [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
+- [Misión Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %})
+- [Misión Widget de Webchat]({% link _captures/webchat-widget-playbook.md %})
+- [Misión Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
+- [Misión Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %})
+- [Misión Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %})
+- [Misión Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
+- [Misión Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
 - [Resumen de inbox y conversaciones]({% link _team/inbox-overview.md %})
 - [Tiempo de respuesta y reglas de respuesta]({% link _team/understanding-response-times.md %})
-- [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})
+- [Reportes de misiones]({% link _analytics-reporting-attribution/playbook-reporting.md %})

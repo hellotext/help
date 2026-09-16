@@ -10,7 +10,7 @@ en:
   title: Subscriber Booster playbook
   description: Use AI conversations, clear consent, and relevant incentives to turn visitors and customers into subscribers.
 es:
-  title: Playbook Impulsor de Suscriptores
+  title: Misión Impulsor de Suscriptores
   description: Usa conversaciones con IA, consentimiento claro e incentivos relevantes para convertir visitantes y clientes en suscriptores.
 
 permalink: subscriber-booster-playbook

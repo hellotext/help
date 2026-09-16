@@ -1,8 +1,8 @@
-Con Hellotext puedes conectar una cuenta de WhatsApp nueva o existente para gestionar conversaciones con clientes, ejecutar playbooks o rutas por WhatsApp, enviar campañas dirigidas y permitir que agentes de IA respondan cuando corresponda.
+Con Hellotext puedes conectar una cuenta de WhatsApp nueva o existente para gestionar conversaciones con clientes, ejecutar misiones o rutas por WhatsApp, enviar campañas dirigidas y permitir que agentes de IA respondan cuando corresponda.
 
 Esta es una guía paso a paso para ayudarte a configurar tu cuenta de WhatsApp con Hellotext.
 
-Si WhatsApp ya está conectado y quieres decidir cómo usarlo en Inbox, playbooks, rutas, campañas, capturas y comercio, lee [Fundamentos del canal de WhatsApp]({% link _numbers/whatsapp-channel-fundamentals.md %}).
+Si WhatsApp ya está conectado y quieres decidir cómo usarlo en Inbox, misiones, rutas, campañas, capturas y comercio, lee [Fundamentos del canal de WhatsApp]({% link _numbers/whatsapp-channel-fundamentals.md %}).
 
 ## Antes de empezar
 
@@ -101,7 +101,7 @@ Los perfiles de cuentas de WhatsApp Business pueden tener múltiples números de
 
 #### Finalizar
 
-Ahora terminaste la integración con WhatsApp y Hellotext. Puedes comenzar a enviar y recibir mensajes de clientes, activar playbooks o rutas por WhatsApp y enviar campañas. Haz clic en *Cerrar*.
+Ahora terminaste la integración con WhatsApp y Hellotext. Puedes comenzar a enviar y recibir mensajes de clientes, activar misiones o rutas por WhatsApp y enviar campañas. Haz clic en *Cerrar*.
 
 <img src="images/integrations/whatsapp/es/done.jpeg" alt="" width="768" />
 
@@ -109,7 +109,7 @@ Deberías poder ver tus números de WhatsApp conectados.
 
 <img src="images/integrations/whatsapp/es/ready.jpeg" alt="" width="768" />
 
-Luego, revisa [Fundamentos del canal de WhatsApp]({% link _numbers/whatsapp-channel-fundamentals.md %}) para preparar consentimiento, plantillas, responsables de Inbox, playbooks, campañas y reportes antes de lanzar.
+Luego, revisa [Fundamentos del canal de WhatsApp]({% link _numbers/whatsapp-channel-fundamentals.md %}) para preparar consentimiento, plantillas, responsables de Inbox, misiones, campañas y reportes antes de lanzar.
 
 ## Próximos pasos
 

@@ -10,7 +10,7 @@ en:
   title: Birthday Bash playbook
   description: Send a birthday message or approved gift code when a customer profile has a birthday today.
 es:
-  title: Playbook Celebra su Cumpleaños
+  title: Misión Celebra su Cumpleaños
   description: Envía un mensaje de cumpleaños o cupón aprobado cuando un perfil del cliente cumple años hoy.
 
 permalink: birthday-bash-playbook

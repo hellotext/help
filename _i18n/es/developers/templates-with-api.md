@@ -1,6 +1,6 @@
 Una plantilla guarda contenido reutilizable para mensajes en Hellotext. Créala una vez mediante la API de plantillas, conserva su ID de Hellotext y usa ese ID cuando tu backend envíe un mensaje individual mediante la API de mensajes.
 
-Crear una plantilla no envía un mensaje, no crea una campaña ni habilita un playbook. La entrega sigue dependiendo del canal elegido, el perfil del cliente, el consentimiento, la disponibilidad del canal y, para WhatsApp, la aprobación de Meta y la ventana de atención.
+Crear una plantilla no envía un mensaje, no crea una campaña ni habilita una misión. La entrega sigue dependiendo del canal elegido, el perfil del cliente, el consentimiento, la disponibilidad del canal y, para WhatsApp, la aprobación de Meta y la ventana de atención.
 
 Usa la [referencia de la API de plantillas](https://www.hellotext.com/api#templates) para consultar el contrato completo. Esta guía explica el flujo de implementación recomendado.
 
@@ -214,7 +214,7 @@ Para plantillas de WhatsApp:
 - No uses una actualización para renombrar una plantilla de WhatsApp; crea una plantilla nueva cuando deba cambiar su identidad reutilizable.
 - Cambiar la tecnología de destino puede hacer que la plantilla deje de estar disponible en el canal anterior.
 
-Usa `DELETE /v1/templates/:id` únicamente cuando la plantilla estándar reutilizable ya no deba estar disponible. No elimines una plantilla solamente para cambiar su texto y verifica que ninguna campaña, ruta, playbook o proceso del backend siga dependiendo de su ID.
+Usa `DELETE /v1/templates/:id` únicamente cuando la plantilla estándar reutilizable ya no deba estar disponible. No elimines una plantilla solamente para cambiar su texto y verifica que ninguna campaña, ruta, misión o proceso del backend siga dependiendo de su ID.
 
 Consulta [Actualizar una plantilla](https://www.hellotext.com/api#update_a_template) y [Eliminar una plantilla](https://www.hellotext.com/api#delete_a_template).
 

@@ -1,6 +1,6 @@
 Usa este checklist después de conectar una tienda, sitio web, canal de mensajería, herramienta de captura o fuente de tracking personalizado.
 
-El objetivo es confirmar que Hellotext puede ver el perfil de cliente correcto, recibir las señales correctas y usarlas de forma segura antes de lanzar playbooks, rutas, campañas o reportes que dependen de esos datos.
+El objetivo es confirmar que Hellotext puede ver el perfil de cliente correcto, recibir las señales correctas y usarlas de forma segura antes de lanzar misiones, rutas, campañas o reportes que dependen de esos datos.
 
 ## Haz una prueba completa
 
@@ -15,7 +15,7 @@ Empieza con un cliente de prueba o un grupo interno pequeño.
 7. Haz click en cualquier link con tracking y responde el mensaje.
 8. Confirma que el click, la respuesta y el contexto de la conversación aparezcan donde tu equipo espera verlos.
 
-Si esta prueba pequeña no se ve bien, corrige la configuración antes de activar un playbook o campaña amplia.
+Si esta prueba pequeña no se ve bien, corrige la configuración antes de activar una misión o campaña amplia.
 
 ## Perfiles de cliente
 
@@ -25,25 +25,25 @@ Busca:
 
 - Nombre, teléfono, email o el identificador que envía tu integración.
 - Estado de suscripción o consentimiento para el canal que planeas usar.
-- Propiedades del perfil que usan segmentos, personalización o playbooks.
+- Propiedades del perfil que usan segmentos, personalización o misiones.
 - Pertenencia a listas o segmentos si el cliente debería entrar en una audiencia específica.
 - Perfiles duplicados que deberían unirse antes de lanzar.
 
-Si un cliente aparece más de una vez, revisa qué identificador envía cada fuente. Los playbooks y reportes son más sólidos cuando la actividad llega al mismo perfil de cliente.
+Si un cliente aparece más de una vez, revisa qué identificador envía cada fuente. Las misiones y los reportes son más sólidos cuando la actividad llega al mismo perfil de cliente.
 
 ## Datos de comercio
 
-Para integraciones de comercio, confirma que estén presentes los datos que necesita tu primer playbook.
+Para integraciones de comercio, confirma que estén presentes los datos que necesita tu primera misión.
 
 Revisa:
 
-- Órdenes recientes, estado de órdenes, estado de envíos, números de tracking y URLs de tracking si los playbooks de soporte dependen de ellos. El operador logístico o integración de transportista es opcional, pero puede darle a los playbooks de estado de pedido información más detallada sobre el estado de entrega. Para seguimiento de órdenes, mira [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}).
+- Órdenes recientes, estado de órdenes, estado de envíos, números de tracking y URLs de tracking si las misiones de soporte dependen de ellos. El operador logístico o integración de transportista es opcional, pero puede darle a las misiones de estado de pedido información más detallada sobre el estado de entrega. Para seguimiento de órdenes, mira [Misión Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}).
 - Actividad de carrito o checkout si planeas recuperar carritos abandonados.
-- Nombres, imágenes, precios, variantes, stock o datos del catálogo si las recomendaciones dependen de ellos. Para descubrimiento de producto, mira [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}).
+- Nombres, imágenes, precios, variantes, stock o datos del catálogo si las recomendaciones dependen de ellos. Para descubrimiento de producto, mira [Misión Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}).
 - Moneda, totales, cupones, devoluciones y estado de envío si afectan reportes o seguimiento.
 - Fuente de marketplace o tienda si vendes por más de un canal.
 
-No necesitas todos los campos posibles de comercio antes de lanzar. Sí necesitas los campos que usará el primer playbook, ruta, segmento o reporte.
+No necesitas todos los campos posibles de comercio antes de lanzar. Sí necesitas los campos que usará la primera misión, ruta, segmento o reporte.
 
 Para hacer una revisión completa de los productos, usa [Sincronización del catálogo de productos]({% link _integrations/product-catalog-sync.md %}).
 
@@ -56,7 +56,7 @@ Para cada señal importante, revisa:
 - El nombre de la acción es correcto, como `product.viewed`, `cart.abandoned`, `order.placed` o una acción personalizada.
 - El evento aparece en el perfil de cliente correcto.
 - La hora coincide con el momento en que ocurrió la actividad.
-- El evento incluye los datos de producto, orden, carrito, formulario o propiedades personalizadas que necesita el playbook.
+- El evento incluye los datos de producto, orden, carrito, formulario o propiedades personalizadas que necesita la misión.
 - La señal es lo suficientemente reciente para tu disparador, audiencia o reporte.
 
 Si usas tracking personalizado, mantén consistentes los nombres de acciones. Pequeñas diferencias de nombre pueden crear señales separadas que no coinciden con el disparador que querías usar.
@@ -76,7 +76,7 @@ Antes de lanzar, confirma:
 - Los horarios silenciosos, límites de frecuencia y expectativas de baja están claros.
 - Las respuestas llegarán al Inbox o a la persona responsable de la conversación.
 
-Esto es especialmente importante cuando un playbook puede elegir el siguiente paso automáticamente.
+Esto es especialmente importante cuando una misión puede elegir el siguiente paso automáticamente.
 
 Sigue leyendo: [A quién puedo escribirle: consentimiento y estado de suscripción]({% link _audience/consent-and-subscriber-status.md %}).
 
@@ -89,7 +89,7 @@ Revisa:
 - El código QR, link compartible, formulario, popup u opt-in de checkout abre correctamente.
 - El cliente queda suscrito al canal esperado.
 - La fuente, etiquetas, campos o datos de cupón quedan registrados si los necesitas después.
-- El mensaje de bienvenida, ruta o playbook asignado a la captura es el correcto.
+- La captura tiene asignado el mensaje de bienvenida, la ruta o la misión correctos.
 - El cliente puede responder y tu equipo puede ver la conversación.
 
 ## Reportes y atribución
@@ -100,14 +100,14 @@ Revisa:
 
 - Los links tienen tracking cuando esperas que lo tengan.
 - Los clicks aparecen en el perfil de cliente o reporte.
-- Las órdenes o conversiones posteriores a un mensaje pueden conectarse con la campaña, ruta, playbook o conversación cuando aplican las reglas de atribución.
+- Las órdenes o conversiones posteriores a un mensaje pueden conectarse con la campaña, ruta, misión o conversación cuando aplican las reglas de atribución.
 - La actividad de prueba es fácil de reconocer para que tu equipo no la confunda con performance real.
 
 Sigue leyendo: [Resumen de analítica, reportes y atribución]({% link _analytics-reporting-attribution/analytics-overview.md %}).
 
-## Antes de lanzar un playbook
+## Antes de lanzar una misión
 
-Revisa el playbook, ruta o campaña específica que estás por publicar.
+Revisa la misión, ruta o campaña específica que estás por publicar.
 
 Confirma:
 
@@ -143,7 +143,7 @@ Si necesitas diagnosticar dónde se detuvo la señal después de lanzar, sigue l
 - [Qué son las señales]({% link _journeys/what-are-signals.md %})
 - [Soluciona señales o actividad faltante]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %})
 - [Seguimiento de eventos]({% link _developers/tracking-events.md %})
-- [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
-- [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
+- [Elige tu primera misión]({% link _journeys/choose-your-first-playbook.md %})
+- [Misión Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
 - [Resumen de herramientas de captura]({% link _captures/capture-overview.md %})
 - [Checklist de solución de problemas]({% link _troubleshooting-deliverability/troubleshooting-checklist.md %})

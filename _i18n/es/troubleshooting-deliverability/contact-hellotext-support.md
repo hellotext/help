@@ -12,7 +12,7 @@ Cuando sea posible:
 4. Conserva los cambios recientes que puedan estar relacionados.
 5. Evita repetir acciones que podrían enviar mensajes, crear campañas, cobrar, importar o modificar datos más de una vez.
 
-Si mensajes incorrectos continúan enviándose y puedes hacerlo sin perder información, pausa la campaña, playbook o ruta afectada mientras se investiga.
+Si mensajes incorrectos continúan enviándose y puedes hacerlo sin perder información, pausa la campaña, misión o ruta afectada mientras se investiga.
 
 ## Información básica que debes incluir
 
@@ -36,7 +36,7 @@ Mantén la conversación en el mismo hilo de email o solicitud cuando agregues e
 | --- | --- |
 | **Mensaje o canal** | Canal, remitente, ID o link del mensaje, perfil del cliente, estado y motivo de entrega. |
 | **Campaña** | Link de la campaña, audiencia, programación y etapa donde se detuvo. |
-| **Playbook o ruta** | Link, versión o configuración relevante, señal esperada y perfil del cliente usado para probar. |
+| **Misión o ruta** | Link, versión o configuración relevante, señal esperada y perfil del cliente usado para probar. |
 | **Inbox** | Link de la conversación, equipo o persona esperada, estado y momento de la asignación. |
 | **Integración** | Plataforma, tienda o cuenta conectada, objeto faltante, identificador en el sistema de origen y última sincronización conocida. |
 | **Captura** | Tipo y nombre, URL o ubicación, dispositivo, navegador y etapa donde dejó de funcionar. |

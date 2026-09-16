@@ -1,6 +1,6 @@
 Las propiedades y los eventos personalizados permiten que Hellotext entienda información específica de tu negocio. Las propiedades describen qué es cierto actualmente sobre un cliente, mientras que los eventos registran algo que ocurrió en un momento determinado.
 
-Úsalos para mejorar la segmentación, personalización, decisiones de playbooks, disparadores de rutas y reportes sin forzar datos propios del negocio dentro de un campo genérico.
+Úsalos para mejorar la segmentación, personalización, decisiones de misiones, disparadores de rutas y reportes sin forzar datos propios del negocio dentro de un campo genérico.
 
 ## Las propiedades y los eventos son diferentes
 
@@ -23,7 +23,7 @@ Un evento también puede hacer referencia a un objeto asociado. Por ejemplo, un 
 El teléfono y el email funcionan de manera diferente a las propiedades personalizadas del negocio:
 
 - Agregar un teléfono o email incorpora ese identificador únicamente al perfil del cliente que estás editando. Lo mismo sucede con otra dirección propia del perfil cuando aparece en el selector.
-- Agregar otro tipo de propiedad personalizada crea su definición para el negocio, por lo que el campo queda disponible en todos los perfiles y en formularios, importaciones, segmentos, selectores de personalización y playbooks compatibles.
+- Agregar otro tipo de propiedad personalizada crea su definición para el negocio, por lo que el campo queda disponible en todos los perfiles y en formularios, importaciones, segmentos, selectores de personalización y misiones compatibles.
 
 En ambos casos, el valor que ingresas pertenece solo al perfil del cliente que estás editando. Crear una propiedad para todo el negocio no copia ese valor a todos los perfiles.
 
@@ -68,7 +68,7 @@ Los valores de las propiedades pueden venir de varias fuentes:
 
 - Una persona del equipo que edita un perfil de cliente.
 - Una importación por archivo o integración conectada.
-- Un playbook de captura, formulario o Recolector de Propiedades.
+- Una misión de captura, un formulario o Recolector de Propiedades.
 - Un paso de una ruta.
 - Hellotext.js, la API u otra integración personalizada.
 
@@ -129,7 +129,7 @@ Cuando los datos estén disponibles, puedes usarlos para:
 - Crear segmentos con propiedades actuales del perfil o actividad pasada.
 - Insertar valores de propiedades en mensajes mediante etiquetas de personalización.
 - Iniciar rutas desde un evento o actualizar una propiedad en un paso de ruta.
-- Permitir que los playbooks usen señales del perfil y su actividad al tomar decisiones.
+- Permitir que las misiones usen señales del perfil y su actividad al tomar decisiones.
 - Medir conversiones personalizadas cuando la acción esté configurada como tal.
 - Revisar el historial del cliente desde la actividad de su perfil.
 
@@ -142,7 +142,7 @@ Antes de depender de una propiedad o evento personalizado:
 - Pruébalo con un perfil de cliente.
 - Confirma que el valor o evento aparezca en el perfil esperado.
 - Revisa que los nombres y formatos sean consistentes.
-- Verifica que el segmento, ruta, playbook o reporte esperado pueda usarlo.
+- Verifica que el segmento, ruta, misión o reporte esperado pueda usarlo.
 - Evita enviar el mismo evento desde una integración y desde tracking personalizado.
 - Documenta la fuente y responsable para que los datos no queden desactualizados o ambiguos.
 

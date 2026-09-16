@@ -1,8 +1,8 @@
 Usa esta guía cuando quieres medir si los clientes recomendarían tu marca después de recibir un pedido.
 
-Pulso NPS es un playbook de feedback de relación. Hace una pregunta de recomendación de 0 a 10 después de un evento confiable de entrega, clasifica la respuesta como promotor, pasivo o detractor, hace una pregunta de seguimiento según el puntaje y ayuda a tu equipo a recuperar la experiencia cuando el puntaje es bajo.
+Pulso NPS es una misión de feedback de relación. Hace una pregunta de recomendación de 0 a 10 después de un evento confiable de entrega, clasifica la respuesta como promotor, pasivo o detractor, hace una pregunta de seguimiento según el puntaje y ayuda a tu equipo a recuperar la experiencia cuando el puntaje es bajo.
 
-No es una solicitud de reseña de producto ni una encuesta de satisfacción de soporte. Usa [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) para reseñas de productos después de la entrega. Usa [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}) para satisfacción después de una conversación resuelta de soporte, Inbox, IA o playbook.
+No es una solicitud de reseña de producto ni una encuesta de satisfacción de soporte. Usa [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) para reseñas de productos después de la entrega. Usa [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}) para satisfacción después de una conversación resuelta de soporte, Inbox, IA o misión.
 
 ## Qué hace Pulso NPS
 
@@ -21,7 +21,7 @@ Puede:
 
 El objetivo es entender la lealtad hacia la marca después de que el cliente tuvo suficiente experiencia para evaluar el pedido, la entrega y la relación general.
 
-## Cuándo usarlo
+## Cuándo usarla
 
 Usa Pulso NPS cuando:
 
@@ -35,19 +35,19 @@ Funciona mejor después de que el cliente recibió el pedido y tuvo un poco de t
 
 ## Cómo convive con otros feedbacks
 
-Pulso NPS no reemplaza los demás playbooks de feedback. Puedes tener [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}), [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}) y Pulso NPS activos al mismo tiempo.
+Pulso NPS no reemplaza las demás misiones de feedback. Puedes tener [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}), [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}) y Pulso NPS activos al mismo tiempo.
 
 El motor de decisión de Hellotext usa señales distintas para elegir qué corresponde en cada momento. Por ejemplo, puede pedir una reseña de producto después de la entrega, pedir CSAT después de una conversación resuelta y pedir NPS cuando el objetivo es medir lealtad o probabilidad de recomendación.
 
 Usa [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) cuando necesitas calificaciones por producto, reseñas escritas y registros exportables de reseñas.
 
-Usa [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}) cuando la pregunta es si una conversación de soporte, Inbox, IA o playbook fue útil.
+Usa [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}) cuando la pregunta es si una conversación de soporte, Inbox, IA o misión fue útil.
 
 Usa [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}) cuando el cliente está preguntando dónde está un pedido.
 
 Usa el Inbox directamente cuando el cliente ya está molesto, pide ayuda o reporta un problema que no debería esperar un flujo de encuesta.
 
-## Qué necesita antes de lanzarlo
+## Qué necesita antes de lanzarla
 
 Antes de habilitar Pulso NPS, confirma:
 
@@ -55,13 +55,13 @@ Antes de habilitar Pulso NPS, confirma:
 - El perfil de cliente tiene un canal de mensajería elegible y consentimiento.
 - Tu equipo sabe quién revisa las respuestas de detractores.
 - Tu equipo sabe dónde revisar los resultados NPS.
-- Las reseñas de producto y la satisfacción de soporte se manejan con sus propios playbooks cuando haga falta.
+- Las reseñas de producto y la satisfacción de soporte se manejan con sus propias misiones cuando haga falta.
 
 Para validar la configuración, usa [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %}).
 
 ## Edita el mensaje NPS
 
-Abre **Playbooks**, haz clic en **Explorar playbooks** y elige **Pulso NPS**.
+Abre **Misiones**, haz clic en **Explorar misiones** y elige **Pulso NPS**.
 
 Abre **Mensaje NPS** para editar la pregunta principal que reciben los clientes después de la entrega.
 
@@ -87,7 +87,7 @@ Una pregunta puede omitirse cuando:
 - El cliente no es elegible para el canal.
 - Consentimiento, política del canal, límites de envío u otras reglas de envío bloquean el mensaje.
 
-Si NPS se omite por elegibilidad, no lo trates como un playbook roto. Normalmente significa que Hellotext no tenía un momento seguro o útil para preguntar.
+Si NPS se omite por elegibilidad, no lo trates como una misión rota. Normalmente significa que Hellotext no tenía un momento seguro o útil para preguntar.
 
 ## Entiende el puntaje
 
@@ -142,11 +142,11 @@ Revisa:
 - Distribución de grupos en el tiempo.
 - Motivos escritos por grupo.
 - Seguimiento de recuperación de detractores.
-- Diferencias por canal, rango de fechas, intención, playbook, campaña o fuente de entrega cuando esté disponible.
+- Diferencias por canal, rango de fechas, intención, misión, campaña o fuente de entrega cuando esté disponible.
 
 El puntaje NPS se calcula como porcentaje de promotores menos porcentaje de detractores.
 
-## Cómo probarlo
+## Cómo probarla
 
 Prueba con escenarios realistas de pedidos entregados antes de habilitar Pulso NPS ampliamente.
 
@@ -179,13 +179,13 @@ Ajusta una cosa por vez: texto del mensaje, calidad de datos de entrega, prepara
 
 ## Guías relacionadas
 
-- [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
-- [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
-- [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
-- [Playbook Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})
-- [Playbook Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %})
-- [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
+- [Biblioteca de misiones por objetivo]({% link _journeys/playbook-library-by-mission.md %})
+- [Cómo habilitar una misión]({% link _journeys/how-to-enable-a-playbook.md %})
+- [Cómo personalizar una misión de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Misión Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})
+- [Misión Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %})
+- [Misión Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
 - [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})
-- [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})
+- [Reportes de misiones]({% link _analytics-reporting-attribution/playbook-reporting.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
-- [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
+- [Cómo decide Hellotext si una misión puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})

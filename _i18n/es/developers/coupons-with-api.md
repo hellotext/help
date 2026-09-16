@@ -57,9 +57,9 @@ No conviertas un código vencido en una promoción sin relación solamente para 
 
 Como las reglas del checkout viven en el sistema de comercio, actualizar el objeto en Hellotext no modifica esas reglas.
 
-## 4. Usa el cupón en un mensaje o playbook compatible
+## 4. Usa el cupón en un mensaje o una misión compatible
 
-Una vez que el cupón existe, puedes seleccionarlo donde Hellotext ofrezca soporte para cupones, como capturas, mensajes, rutas o playbooks compatibles.
+Una vez que el cupón existe, puedes seleccionarlo donde Hellotext ofrezca soporte para cupones, como capturas, mensajes, rutas o misiones compatibles.
 
 Antes del lanzamiento, prueba toda la experiencia del cliente:
 

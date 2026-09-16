@@ -10,7 +10,7 @@ en:
   title: AI Cart Saver playbook
   description: Recover abandoned carts with AI-personalized follow-up, product context, timing, offers, and handoff.
 es:
-  title: Playbook Recuperador de Carritos con IA
+  title: Misión Recuperador de Carritos con IA
   description: Recupera carritos abandonados con seguimiento personalizado con IA, contexto de producto, timing, ofertas y derivación.
 
 permalink: ai-cart-saver-playbook

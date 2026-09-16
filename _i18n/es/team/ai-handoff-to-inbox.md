@@ -1,14 +1,14 @@
 Usa la derivación cuando Hellotext debería dejar de manejar una conversación automáticamente y llevarla al Inbox de una persona o equipo.
 
-La derivación puede venir desde un playbook, una ruta, un step de agente de IA o un agente personalizado. Lo importante es decidir a dónde se mueve la responsabilidad cuando la automatización no puede resolver la conversación de forma segura.
+La derivación puede venir desde una misión, una ruta, un step de agente de IA o un agente personalizado. Lo importante es decidir a dónde se mueve la responsabilidad cuando la automatización no puede resolver la conversación de forma segura.
 
 ## Cómo funciona la derivación
 
 Hay cuatro formas comunes de enviar una conversación a una persona o equipo.
 
-### Derivación en playbooks
+### Derivación en misiones
 
-Los playbooks de venta, soporte y los playbooks personalizados pueden tener una configuración de **Derivación**. Úsala para elegir quién debería intervenir cuando el agente necesita ayuda, como una persona o un equipo.
+Las misiones de venta, soporte y las misiones personalizadas pueden tener una configuración de **Derivación**. Úsala para elegir quién debería intervenir cuando el agente necesita ayuda, como una persona o un equipo.
 
 Usa Derivación cuando el agente puede resolver la mayoría de las conversaciones por su cuenta, pero debería detenerse y asignar la conversación cuando el cliente necesita ayuda humana.
 
@@ -20,30 +20,30 @@ Usa un step de Assignment cuando la derivación debería suceder en un punto esp
 
 ### Step de AI agent en una ruta
 
-Una ruta puede incluir un step de **AI agent**. En ese step puedes elegir un playbook específico o usar **AI Routing**, que permite que Hellotext elija el mejor playbook activo para la conversación.
+Una ruta puede incluir un step de **AI agent**. En ese step puedes elegir una misión específica o usar **AI Routing**, que permite que Hellotext elija la mejor misión activa para la conversación.
 
 El step de AI agent tiene salidas de resuelto y no resuelto. Si la IA no puede resolver la conversación, agrega un step de Assignment en la rama de no resuelto para que la conversación vaya a la persona o equipo correcto.
 
-### Playbooks personalizados e intenciones
+### Misiones personalizadas e intenciones
 
-Los playbooks personalizados pueden definir **Intenciones**. Una intención es una frase o necesidad que activa un agente cuando se detecta en el mensaje de un cliente.
+Las misiones personalizadas pueden definir **Intenciones**. Una intención es una frase o necesidad que activa un agente cuando se detecta en el mensaje de un cliente.
 
-Esto te permite crear varios [agentes personalizados]({% link _journeys/custom-agent-playbook.md %}) para distintos trabajos. Por ejemplo, un agente puede recomendar productos, otro puede responder preguntas de soporte y [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}) puede manejar consultas de estado de órdenes. Cada agente puede resolver la conversación, enviarla a otro playbook mediante el Supervisor o derivarla a la persona o equipo configurado.
+Esto te permite crear varios [agentes personalizados]({% link _journeys/custom-agent-playbook.md %}) para distintos trabajos. Por ejemplo, un agente puede recomendar productos, otro puede responder preguntas de soporte y [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}) puede manejar consultas de estado de órdenes. Cada agente puede resolver la conversación, enviarla a otra misión mediante el Supervisor o derivarla a la persona o equipo configurado.
 
 ## Cuándo Hellotext debería derivar
 
-Define reglas de derivación antes de lanzar un playbook o ruta.
+Define reglas de derivación antes de lanzar una misión o ruta.
 
 Momentos comunes para derivar incluyen:
 
 - El cliente pide hablar con una persona.
 - El cliente está enojado, frustrado o insatisfecho.
 - El cliente reporta un producto defectuoso, dañado, equivocado o faltante.
-- La solicitud está fuera del propósito del playbook actual.
+- La solicitud está fuera del propósito de la misión actual.
 - La IA no está segura o no puede verificar la respuesta.
 - El cliente pregunta por devoluciones, cambios, cancelaciones, pagos, acceso a cuenta o una excepción especial.
 - El cliente está listo para comprar pero necesita una acción comercial humana.
-- Hellotext no encuentra otro playbook activo que debería manejar la consulta.
+- Hellotext no encuentra otra misión activa que debería manejar la consulta.
 - El mismo problema se repite y la conversación no avanza.
 
 Si una respuesta incorrecta puede crear riesgo operativo, legal, financiero o de marca, deriva en lugar de seguir automáticamente.
@@ -52,7 +52,7 @@ Si una respuesta incorrecta puede crear riesgo operativo, legal, financiero o de
 
 Antes de que los clientes lleguen al flujo, revisa el camino de derivación que aplica a tu configuración.
 
-Para playbooks:
+Para misiones:
 
 - Elige la persona o equipo en la configuración de Derivación.
 - Confirma que el prompt del agente explique cuándo debería derivar.
@@ -69,7 +69,7 @@ Para [agentes personalizados]({% link _journeys/custom-agent-playbook.md %}):
 - Define las intenciones que deberían activar cada agente.
 - Elige los canales entrantes donde el agente debería responder.
 - Configura la derivación para la persona o equipo que debería intervenir.
-- Prueba qué sucede cuando ningún playbook activo puede resolver la consulta.
+- Prueba qué sucede cuando ninguna misión activa puede resolver la consulta.
 
 Sigue leyendo: [Cómo escribir un gran prompt para tu agente]({% link _journeys/how-to-write-a-great-prompt.md %}).
 
@@ -80,7 +80,7 @@ Cuando una conversación llega al Inbox, la persona del equipo debería entender
 Una derivación útil debería dejar claro:
 
 - Por qué se derivó la conversación.
-- Qué playbook, intención, ruta o step de IA la manejó primero.
+- Qué misión, intención, ruta o step de IA la manejó primero.
 - Qué quiere el cliente.
 - Qué dijo o hizo el agente.
 - Qué producto, carrito, pedido, política o dato del perfil del cliente importa.
@@ -96,12 +96,12 @@ Antes de salir en vivo, prueba cada camino de derivación del que dependes.
 
 Usa un perfil del cliente de prueba y confirma que:
 
-1. Un playbook deriva a la persona o equipo esperado.
+1. Una misión deriva a la persona o equipo esperado.
 2. Un step de Assignment en una ruta asigna, abre, cierra o etiqueta la conversación correctamente.
 3. Un step de AI agent envía las conversaciones no resueltas al step de Assignment correcto.
 4. Las intenciones personalizadas activan el agente esperado.
-5. AI Routing elige un playbook activo apropiado.
-6. Una consulta sin playbook activo que coincida llega al responsable de fallback.
+5. AI Routing elige una misión activa apropiada.
+6. Una consulta sin misión activa que coincida llega al responsable de fallback.
 7. La persona tiene suficiente contexto para responder sin pedirle al cliente que repita todo.
 
 Si la persona tiene que adivinar por qué llegó la conversación, mejora la regla de derivación, prompt, intención o camino de asignación antes de lanzar.
@@ -117,7 +117,7 @@ Cuando una persona toma la conversación:
 - Asigna o reasigna la conversación si el responsable no es el correcto.
 - Cierra la conversación cuando no requiera más acción.
 
-La participación del equipo no elimina automáticamente la atribución. Su efecto depende del camino de atribución y de la evidencia disponible. La evidencia de una campaña puede seguir siendo elegible cuando participa una persona; un checkout ajeno a una campaña y bajo responsabilidad de una persona puede bloquear la atribución; y Recomendador de Productos usa su propia evaluación del responsable comercial. Otros playbooks y rutas no usan automáticamente esa misma evaluación.
+La participación del equipo no elimina automáticamente la atribución. Su efecto depende del camino de atribución y de la evidencia disponible. La evidencia de una campaña puede seguir siendo elegible cuando participa una persona; un checkout ajeno a una campaña y bajo responsabilidad de una persona puede bloquear la atribución; y Recomendador de Productos usa su propia evaluación del responsable comercial. Otras misiones y rutas no usan automáticamente esa misma evaluación.
 
 Sigue leyendo: [Atribución de ventas]({% link _analytics-reporting-attribution/sales-attribution.md %}).
 
@@ -130,13 +130,13 @@ Busca:
 - Conversaciones que se derivaron demasiado tarde.
 - Conversaciones que se derivaron demasiado pronto.
 - Intenciones que activan el agente incorrecto.
-- AI Routing eligiendo el playbook incorrecto.
+- AI Routing eligiendo la misión incorrecta.
 - Responsables de derivación faltantes o poco claros.
 - Clientes repitiendo información.
 - Conversaciones sin asignar esperando demasiado.
 - Preguntas similares que podrían convertirse en mejores prompts, documentos cargados, intenciones o ramas de ruta.
 
-Usa lo aprendido para ajustar el prompt, intenciones, reglas de playbook, ramas de ruta, responsables del equipo o proceso de respuesta.
+Usa lo aprendido para ajustar el prompt, intenciones, reglas de misión, ramas de ruta, responsables del equipo o proceso de respuesta.
 
 ## Guías relacionadas
 
@@ -145,11 +145,11 @@ Usa lo aprendido para ajustar el prompt, intenciones, reglas de playbook, ramas 
 - [Equipos y capacidad del Inbox]({% link _team/teams-and-inbox-capacity.md %})
 - [Tiempo de respuesta y reglas de respuesta]({% link _team/understanding-response-times.md %})
 - [Cómo funciona Hellotext]({% link _getting-started/how-hellotext-works.md %})
-- [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
-- [Playbook Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})
-- [Playbook Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %})
-- [Playbook Pulso NPS]({% link _journeys/nps-pulse-playbook.md %})
-- [Playbook Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %})
-- [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
+- [Misión Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
+- [Misión Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})
+- [Misión Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %})
+- [Misión Pulso NPS]({% link _journeys/nps-pulse-playbook.md %})
+- [Misión Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %})
+- [Misión Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
 - [Cómo escribir un gran prompt para tu agente]({% link _journeys/how-to-write-a-great-prompt.md %})
 - [Checklist antes de enviar]({% link _getting-started/go-live-checklist.md %})

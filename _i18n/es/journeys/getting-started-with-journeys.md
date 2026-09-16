@@ -1,8 +1,8 @@
 Usa una ruta cuando quieres un flujo de clientes paso a paso con un disparador claro, esperas, mensajes, condiciones, ramas y derivaciones.
 
-Una ruta es un tipo de playbook. No todos los playbooks son rutas.
+Una ruta es un tipo de misión. No todas las misiones son rutas.
 
-Algunos playbooks son más autónomos: por ejemplo, [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}), [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}), [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}), [Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %}) o [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}) pueden leer señales, entender intención y decidir qué hacer en la conversación. Esos playbooks pueden usar agentes de IA o lógica de decisión en lugar de una ruta fija.
+Algunas misiones son más autónomas: por ejemplo, [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}), [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}), [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}), [Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %}) o [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}) pueden leer señales, entender intención y decidir qué hacer en la conversación. Esas misiones pueden usar agentes de IA o lógica de decisión en lugar de una ruta fija.
 
 ## Cuándo usar una ruta
 
@@ -17,24 +17,24 @@ Buenos casos para una ruta:
 - Ramificar según si el cliente hizo clic, respondió, compró o cumplió una condición.
 - Derivar a una persona después de un paso específico.
 
-Un carrito abandonado puede existir de más de una forma: como [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) con pasos fijos, o como un playbook con IA que decide de forma más dinámica usando señales y contexto del cliente.
+Un carrito abandonado puede existir de más de una forma: como [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) con pasos fijos, o como una misión con IA que decide de forma más dinámica usando señales y contexto del cliente.
 
-Sigue leyendo: [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) y [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
+Sigue leyendo: [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) y [Carrito abandonado: plantilla de ruta vs misión con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
 
-## Cuándo usar otro tipo de playbook
+## Cuándo usar otro tipo de misión
 
-Usa un playbook más autónomo o un agente de IA cuando la experiencia necesita decidir en tiempo real.
+Usa una misión más autónoma o un agente de IA cuando la experiencia necesita decidir en tiempo real.
 
 Ejemplos:
 
 - Recomendar productos desde un catálogo.
 - Responder preguntas frecuentes con [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}).
-- Guiar seguimiento de pedidos, cancelaciones, cambios o devoluciones con el playbook post-compra correcto.
+- Guiar seguimiento de pedidos, cancelaciones, cambios o devoluciones con la misión post-compra correcta.
 - Entender el mensaje de un cliente y elegir la siguiente respuesta.
 - Decidir qué oferta, producto, canal o momento es mejor para cada cliente.
-- Coordinarse con otros playbooks para no saturar a los clientes.
+- Coordinarse con otras misiones para no saturar a los clientes.
 
-Sigue leyendo: [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %}).
+Sigue leyendo: [Resumen de misiones y automatización]({% link _journeys/playbooks-overview.md %}).
 
 ## Cómo funcionan las rutas
 
@@ -42,7 +42,7 @@ Una ruta empieza cuando un cliente coincide con un disparador. Ese disparador pu
 
 Después del disparador, Hellotext mueve al cliente por la ruta que definiste. La ruta puede enviar un mensaje, esperar un tiempo, revisar una condición, ramificar, aplicar un cupón o derivar la conversación a una persona.
 
-La diferencia importante es que la ruta la diseñas tú. Hellotext sigue la ruta y sus condiciones; no es lo mismo que un playbook autónomo decidiendo toda la misión por sí solo.
+La diferencia importante es que la ruta la diseñas tú. Hellotext sigue la ruta y sus condiciones; no es lo mismo que una misión autónoma decidiendo cómo cumplir el objetivo por sí sola.
 
 ## Empieza desde una plantilla de ruta
 

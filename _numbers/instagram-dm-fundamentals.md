@@ -6,7 +6,7 @@ en:
   description: Understand how Instagram direct messages work across Inbox, playbooks, routes, and AI agents.
 es:
   title: Fundamentos de Instagram DM
-  description: Entiende cómo funcionan los mensajes directos de Instagram en Inbox, playbooks, rutas y agentes de IA.
+  description: Entiende cómo funcionan los mensajes directos de Instagram en Inbox, misiones, rutas y agentes de IA.
 
 permalink: instagram-dm-fundamentals
 permalink_es: fundamentos-instagram-dm

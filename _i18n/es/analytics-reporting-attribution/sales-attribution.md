@@ -1,4 +1,4 @@
-Hellotext vincula pedidos con campañas, playbooks, rutas y otras interacciones elegibles mediante evidencia de origen, una precedencia de fuentes definida y ventanas de atribución.
+Hellotext vincula pedidos con campañas, misiones, rutas y otras interacciones elegibles mediante evidencia de origen, una precedencia de fuentes definida y ventanas de atribución.
 
 La métrica resultante son los **ingresos atribuidos**: ingresos vinculados a actividad elegible de Hellotext según estas reglas.
 
@@ -20,14 +20,14 @@ Cuando hay más de una fuente disponible:
 
 La evidencia activa puede incluir:
 
-- una fuente o UTM de Hellotext vinculada con una campaña, playbook o ruta;
-- un clic en un link elegible de una campaña, playbook o ruta;
+- una fuente o UTM de Hellotext vinculada con una campaña, misión o ruta;
+- un clic en un link elegible de una campaña, misión o ruta;
 - una interacción válida con una recomendación de productos.
 
 La evidencia pasiva puede incluir:
 
 - la entrega elegible de una campaña;
-- la entrega elegible de un playbook proactivo;
+- la entrega elegible de una misión proactiva;
 - una recomendación o señal de comercio válida;
 - otro contexto de origen compatible registrado por Hellotext.
 
@@ -35,7 +35,7 @@ Un [link con tracking]({% link _analytics-reporting-attribution/tracked-links.md
 
 ### ¿Puede atribuirse una venta después de ver un mensaje, sin hacer clic?
 
-Sí. Un cliente que ve un mensaje elegible de una campaña o un playbook proactivo y compra dentro de la ventana de entrega por defecto de 24 horas puede cumplir los requisitos aunque no haga clic en un link. El mensaje debe cumplir los requisitos de entrega y visibilidad del canal, y la compra debe pasar las reglas de origen y atribución.
+Sí. Un cliente que ve un mensaje elegible de una campaña o una misión proactiva y compra dentro de la ventana de entrega por defecto de 24 horas puede cumplir los requisitos aunque no haga clic en un link. El mensaje debe cumplir los requisitos de entrega y visibilidad del canal, y la compra debe pasar las reglas de origen y atribución.
 
 Ver un mensaje no hace que todas las compras futuras sean atribuibles, y la atribución no demuestra que el cliente no habría comprado de todos modos.
 
@@ -50,7 +50,7 @@ La duración de las ventanas puede configurarse por cuenta.
 
 La ventana de siete días comienza cuando ocurre el clic o la interacción elegible. No son siete días adicionales después de las primeras 24 horas.
 
-Algunas señales tienen su propio período de validez. No todas las entregas, canales, plantillas, rutas o playbooks son elegibles para atribución pasiva.
+Algunas señales tienen su propio período de validez. No todas las entregas, canales, plantillas, rutas o misiones son elegibles para atribución pasiva.
 
 ### ¿Qué cuenta como interacción con una recomendación del catálogo de WhatsApp?
 
@@ -67,7 +67,7 @@ Esa visita válida puede habilitar la ventana de sesión por defecto de siete d�
 
 Por ejemplo, un cliente compra un producto recomendado por $40 y otro no relacionado por $60. Si se selecciona el camino de recomendación de Webchat y se aprueba la atribución, el monto atribuido es **$40**, mientras que el pedido sigue representando **$100** en los ingresos totales del comercio.
 
-Estos límites corresponden a esos caminos de atribución de Webchat; no son un requisito de coincidencia de productos para todas las ventas de campañas o playbooks. Una etiqueta de tracking de un playbook de Webchat no basta por sí sola para atribuir el pedido completo sin evidencia de productos coincidentes por estos caminos.
+Estos límites corresponden a esos caminos de atribución de Webchat; no son un requisito de coincidencia de productos para todas las ventas de campañas o misiones. Una etiqueta de tracking de una misión de Webchat no basta por sí sola para atribuir el pedido completo sin evidencia de productos coincidentes por estos caminos.
 
 Para estos cálculos por producto, Hellotext normalmente utiliza los montos de las líneas coincidentes del pedido. Si una línea elegible tiene un total de cero, como un artículo promocional gratuito, Hellotext utiliza su precio unitario de catálogo para la cantidad elegible. Por eso, el valor atribuido puede diferir del monto pagado por esos artículos.
 
@@ -87,7 +87,7 @@ La participación de una persona del equipo no produce un único resultado unive
 
 ### Product Recommender: ¿quién impulsó la interacción comercial?
 
-Product Recommender requiere actividad comercial de la IA o del playbook registrada antes de la compra y una evaluación que identifique a la IA como impulsora comercial. Esto implica evaluar acciones que acercan al cliente a la compra, en lugar de contar todos los mensajes de la conversación.
+Product Recommender requiere actividad comercial de la IA o de la misión registrada antes de la compra y una evaluación que identifique a la IA como impulsora comercial. Esto implica evaluar acciones que acercan al cliente a la compra, en lugar de contar todos los mensajes de la conversación.
 
 Pueden contar las recomendaciones de IA, los links de productos, los links de checkout y las interacciones válidas del cliente. Del lado del equipo, las acciones comerciales incluyen recomendaciones, cupones, links de productos, links de checkout y objetivos registrados manualmente.
 
@@ -98,11 +98,11 @@ Pueden contar las recomendaciones de IA, los links de productos, los links de ch
 
 La IA puede haber ayudado en una compra sin recibir la atribución.
 
-### Campañas, propiedad del checkout y otros playbooks
+### Campañas, propiedad del checkout y otras misiones
 
 - **La atribución por campaña** se evalúa a partir de evidencia de origen y puede aplicarse aunque una persona del equipo complete el checkout. No utiliza la evaluación de impulsor comercial de Product Recommender.
 - **Un checkout de propiedad humana** bloquea la atribución ordinaria que no sea de campaña cuando el pedido pertenece explícitamente a una persona del equipo o a un operador de comercio. La continuación demostrada de una compra atribuida anteriormente es un caso aparte de pedido de reemplazo, con un límite de monto, que se explica más abajo.
-- **Otros playbooks** pueden recibir atribución a partir de su contexto de origen compatible. Un link de checkout enviado por una persona del equipo y registrado puede requerir la evaluación comercial, aunque la plataforma de comercio no haya identificado a un propietario humano del pedido.
+- **Otras misiones** pueden recibir atribución a partir de su contexto de origen compatible. Un link de checkout enviado por una persona del equipo y registrado puede requerir la evaluación comercial, aunque la plataforma de comercio no haya identificado a un propietario humano del pedido.
 - **Las rutas** siguen sus reglas de contexto de origen y propiedad del checkout. No todas las ventas pasan por la misma evaluación entre IA y personas.
 
 ## Confirmaciones tardías y registros repetidos de pedidos
@@ -132,7 +132,7 @@ El comportamiento de reembolsos y reembolsos parciales depende de los datos de c
 
 Para filas atribuidas, la exportación del reporte de Ingresos puede mostrar:
 
-- la campaña, ruta o playbook que recibió la atribución;
+- la campaña, ruta o misión que recibió la atribución;
 - el tipo y motivo de atribución;
 - la fuente y el canal;
 - evidencia comercial de IA y humana, cuando corresponda;
@@ -188,7 +188,7 @@ La respuesta de soporte no elimina automáticamente la atribución. La decisión
 
 ### Checkout humano sin campaña
 
-Hubo una interacción con un playbook, pero una persona del equipo u operador de comercio es propietario explícito del checkout final y no hay una campaña con precedencia.
+Hubo una interacción con una misión, pero una persona del equipo u operador de comercio es propietario explícito del checkout final y no hay una campaña con precedencia.
 
 El pedido puede permanecer en los ingresos totales del comercio sin convertirse en ingresos atribuidos a Hellotext.
 
@@ -209,9 +209,9 @@ Los ingresos permanecen en los ingresos del comercio, pero no se atribuyen a Hel
 - [Guía del Reporte de rendimiento]({% link _analytics-reporting-attribution/performance-report-guide.md %})
 - [Guía del Reporte de ingresos]({% link _analytics-reporting-attribution/revenue-report-guide.md %})
 - [Reportes de campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %})
-- [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})
+- [Reportes de misiones]({% link _analytics-reporting-attribution/playbook-reporting.md %})
 - [Links con tracking]({% link _analytics-reporting-attribution/tracked-links.md %})
 - [Seguimiento de eventos]({% link _developers/tracking-events.md %})
-- [Seguimiento de links en campañas, rutas y playbooks]({% link _developers/tracking-on-campaigns-and-journeys.md %})
+- [Seguimiento de links en campañas, rutas y misiones]({% link _developers/tracking-on-campaigns-and-journeys.md %})
 - [Modelo de precios]({% link _billing/how-pricing-works.md %})
 - [Uso y consumos del plan]({% link _billing/understanding-plan-quotas.md %})

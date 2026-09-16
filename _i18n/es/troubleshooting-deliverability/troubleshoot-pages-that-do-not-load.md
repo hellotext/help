@@ -66,7 +66,7 @@ Contacta a soporte cuando:
 
 - el problema también ocurre en una ventana privada y otro navegador o red;
 - afecta a varias personas o negocios;
-- impide acceder a Inbox, canales, campañas, playbooks, facturación o datos esenciales;
+- impide acceder a Inbox, canales, campañas, misiones, facturación o datos esenciales;
 - una acción queda en un estado incierto y repetirla podría duplicar resultados; o
 - ves errores repetidos de servidor o solicitudes fallidas que no puedes resolver.
 

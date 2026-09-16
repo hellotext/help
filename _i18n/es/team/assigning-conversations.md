@@ -9,7 +9,7 @@ Desde una conversación individual, el menú **Asignar** puede mostrar:
 - Otras personas del equipo.
 - Agentes de IA compatibles disponibles para esa conversación.
 
-El menú manual del Inbox asigna una persona específica o un agente de IA. Un equipo se convierte en destino mediante la Derivación de un playbook, un step de Asignación de una ruta u otra regla de enrutamiento. Hellotext elige una persona elegible de ese equipo o mantiene la conversación esperando al equipo cuando nadie tiene capacidad.
+El menú manual del Inbox asigna una persona específica o un agente de IA. Un equipo se convierte en destino mediante la Derivación de una misión, un step de Asignación de una ruta u otra regla de enrutamiento. Hellotext elige una persona elegible de ese equipo o mantiene la conversación esperando al equipo cuando nadie tiene capacidad.
 
 ## Asígnate una conversación sin asignar
 
@@ -38,13 +38,13 @@ Cuando hay agentes de IA compatibles, el menú **Asignar** incluye el grupo **Ag
 
 Elige el agente que debería continuar la conversación. Hellotext quita al responsable humano y transfiere la conversación activa a ese agente. Si el grupo no aparece, no hay un agente de IA compatible disponible para esa conversación.
 
-Usa la asignación manual a IA para una transferencia deliberada. Para seleccionar automáticamente según la intención, gestionar caminos no resueltos y derivar nuevamente a una persona o equipo, usa la configuración del playbook o de la ruta.
+Usa la asignación manual a IA para una transferencia deliberada. Para seleccionar automáticamente según la intención, gestionar caminos no resueltos y derivar nuevamente a una persona o equipo, usa la configuración de la misión o de la ruta.
 
 Sigue leyendo: [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %}).
 
 ## Entiende las asignaciones a un equipo
 
-Un playbook, agente de IA, ruta o regla de enrutamiento puede elegir un equipo como destino en lugar de una persona específica.
+Una misión, un agente de IA, una ruta o una regla de enrutamiento puede elegir un equipo como destino en lugar de una persona específica.
 
 Cuando esto ocurre:
 

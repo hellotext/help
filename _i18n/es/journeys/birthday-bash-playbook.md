@@ -1,8 +1,8 @@
 Usa esta guía cuando tienes fechas de cumpleaños en los perfiles del cliente y quieres que Hellotext salude automáticamente en el día correcto con un mensaje o cupón aprobado.
 
-Celebra su Cumpleaños es un playbook basado en una señal del perfil del cliente. Cuando Hellotext detecta que el cumpleaños de un perfil coincide con el día actual, puede iniciar el playbook y enviar un mensaje de cumpleaños por un canal elegible.
+Celebra su Cumpleaños es una misión basada en una señal del perfil del cliente. Cuando Hellotext detecta que el cumpleaños de un perfil coincide con el día actual, puede iniciar la misión y enviar un mensaje de cumpleaños por un canal elegible.
 
-No es un agente autónomo de IA ni una campaña manual. Es un playbook preconstruido para un momento anual claro: saludar al cliente en su cumpleaños usando la fecha guardada en su perfil.
+No es un agente autónomo de IA ni una campaña manual. Es una misión preconstruida para un momento anual claro: saludar al cliente en su cumpleaños usando la fecha guardada en su perfil.
 
 La disponibilidad puede variar según cuenta, plan, canales conectados y estado de despliegue.
 
@@ -13,7 +13,7 @@ Celebra su Cumpleaños ayuda a convertir un dato del perfil en un momento de rel
 Puede:
 
 - Detectar perfiles del cliente cuyo cumpleaños coincide con el día y mes actuales.
-- Crear un evento de cumpleaños para iniciar el playbook cuando está activo.
+- Crear un evento de cumpleaños para iniciar la misión cuando está activa.
 - Enviar un mensaje de cumpleaños con tono celebratorio.
 - Incluir un cupón aprobado o una oferta existente del eCommerce cuando el mensaje lo necesita.
 - Personalizar el mensaje con datos del perfil del cliente, como nombre o cumpleaños, si están disponibles.
@@ -21,7 +21,7 @@ Puede:
 
 El comportamiento exacto puede variar según cuenta, canal, plantillas, configuración de cupones y estado de despliegue.
 
-## Cuándo usarlo
+## Cuándo usarla
 
 Usa Celebra su Cumpleaños cuando tu negocio quiere reconocer una fecha personal y ya tiene el dato necesario para hacerlo de forma confiable.
 
@@ -33,9 +33,9 @@ Encaja bien cuando:
 - El negocio quiere ofrecer un saludo o cupón aprobado sin crear una campaña manual cada día.
 - Tu equipo quiere sumar un momento de retención que no dependa de inactividad o carrito.
 
-No lo uses para reactivar clientes que están fríos. Para eso usa [Reactivación Suave]({% link _journeys/soft-reactivation-playbook.md %}), [Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %}) o [Último Intento]({% link _journeys/sunset-saver-playbook.md %}) según el tiempo de inactividad.
+No la uses para reactivar clientes que están fríos. Para eso usa [Reactivación Suave]({% link _journeys/soft-reactivation-playbook.md %}), [Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %}) o [Último Intento]({% link _journeys/sunset-saver-playbook.md %}) según el tiempo de inactividad.
 
-Tampoco lo uses como sustituto de campañas estacionales o aniversarios de compra. Para una fecha comercial usa campañas; para aniversarios de relación o compra usa [Sorpresa de Aniversario]({% link _journeys/anniversary-surprise-playbook.md %}).
+Tampoco la uses como sustituto de campañas estacionales o aniversarios de compra. Para una fecha comercial usa campañas; para aniversarios de relación o compra usa [Sorpresa de Aniversario]({% link _journeys/anniversary-surprise-playbook.md %}).
 
 ## Qué necesita antes del lanzamiento
 
@@ -58,17 +58,17 @@ Después del lanzamiento, usa los reportes automáticos para revisar envíos, cl
 
 ## Qué puedes configurar
 
-Abre **Playbooks**, haz click en **Explorar playbooks** y elige **Celebra su Cumpleaños**.
+Abre **Misiones**, haz click en **Explorar misiones** y elige **Celebra su Cumpleaños**.
 
 Las opciones disponibles pueden variar, pero normalmente revisas:
 
 - **Canales de salida:** dónde Hellotext puede enviar el saludo.
-- **Audiencia:** qué perfiles pueden recibir el playbook.
+- **Audiencia:** qué perfiles pueden recibir la misión.
 - **Mensaje:** el texto de cumpleaños y las variables que usará.
 - **Cupón u oferta:** el cupón aprobado o la oferta existente del eCommerce que se incluirá si corresponde.
 - **Respuestas en Inbox:** cómo debería revisar tu equipo las respuestas si el cliente contesta.
 
-No hace falta crear una campaña manual para cada fecha. El playbook depende de la señal de cumpleaños del perfil y se ejecuta cuando el cumpleaños coincide con el día actual.
+No hace falta crear una campaña manual para cada fecha. La misión depende de la señal de cumpleaños del perfil y se ejecuta cuando el cumpleaños coincide con el día actual.
 
 Si necesitas una secuencia con pasos, condiciones o ramas propias, usa una ruta personalizada. Si necesitas un agente conversacional a medida, usa [Agente Personalizado]({% link _journeys/custom-agent-playbook.md %}).
 
@@ -86,11 +86,11 @@ Hellotext puede usar señales como:
 
 El año de nacimiento puede existir en el perfil, pero el disparador de cumpleaños necesita principalmente día y mes para saber cuándo saludar.
 
-Para el modelo general de decisión, mira [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}).
+Para el modelo general de decisión, mira [Cómo decide Hellotext si una misión puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}).
 
-## Cómo funciona con playbooks cercanos
+## Cómo funciona con misiones cercanas
 
-Usa el tipo de momento para decidir qué playbook debería actuar.
+Usa el tipo de momento para decidir qué misión debería actuar.
 
 | Momento del cliente | Mejor opción |
 | --- | --- |
@@ -101,17 +101,17 @@ Usa el tipo de momento para decidir qué playbook debería actuar.
 | El cliente lleva alrededor de 12 meses sin actividad o sin reactivarse | [Último Intento]({% link _journeys/sunset-saver-playbook.md %}) |
 | Quieres hacer un anuncio con fecha comercial | [Campañas]({% link _campaigns/campaigns-overview.md %}) |
 
-Celebra su Cumpleaños puede convivir con otros playbooks porque su señal es una fecha del perfil. Aun así, evita que el cliente reciba varios mensajes promocionales en el mismo momento si otro playbook activo encaja mejor.
+Celebra su Cumpleaños puede convivir con otras misiones porque su señal es una fecha del perfil. Aun así, evita que el cliente reciba varios mensajes promocionales en el mismo momento si otra misión activa encaja mejor.
 
-## Cómo probarlo
+## Cómo probarla
 
-Prueba con perfiles del cliente controlados antes de habilitarlo para una audiencia amplia.
+Prueba con perfiles del cliente controlados antes de habilitarla para una audiencia amplia.
 
 Usa perfiles del cliente de prueba que tengan consentimiento de canal, luego:
 
 - Agrega un cumpleaños con día y mes al perfil de prueba.
 - Confirma que la propiedad de cumpleaños aparece correctamente en el perfil.
-- Confirma que el perfil pertenece a la audiencia del playbook.
+- Confirma que el perfil pertenece a la audiencia de la misión.
 - Revisa el mensaje, variables, cupón y links.
 - Prueba un perfil cuyo cumpleaños coincide con hoy.
 - Prueba un perfil con cumpleaños en otro día, que no debería entrar.
@@ -122,9 +122,9 @@ Si importas cumpleaños desde una tienda, CRM o archivo, confirma que el formato
 
 ## Por qué puede no enviar
 
-Que Celebra su Cumpleaños esté habilitado no significa que todos los perfiles reciban un mensaje.
+Que la misión Celebra su Cumpleaños esté habilitada no significa que todos los perfiles reciban un mensaje.
 
-El playbook puede omitir o esperar cuando:
+La misión puede omitir o esperar cuando:
 
 - El perfil no tiene cumpleaños.
 - El cumpleaños no tiene día o mes.
@@ -133,9 +133,9 @@ El playbook puede omitir o esperar cuando:
 - El cliente no tiene consentimiento o no es elegible para el canal.
 - El canal, remitente, plantilla, cupón o link no está listo.
 - Reglas de frecuencia, consentimiento u horarios silenciosos impiden el envío.
-- Otro playbook activo encaja mejor para ese momento.
+- Otra misión activa encaja mejor para ese momento.
 
-Para un diagnóstico paso a paso, usa [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}).
+Para un diagnóstico paso a paso, usa [Soluciona una misión que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}).
 
 ## Qué revisar después del lanzamiento
 
@@ -146,25 +146,25 @@ Durante los primeros días, revisa:
 - Si el cupón o link funcionó correctamente.
 - Si el tono se sintió natural para la marca.
 - Si hubo bajas, respuestas negativas o mensajes fallidos.
-- Si Celebra su Cumpleaños se superpone con campañas, reactivación u otros playbooks de retención.
+- Si Celebra su Cumpleaños se superpone con campañas, reactivación u otras misiones de retención.
 
 Ajusta una cosa por vez: audiencia, canal, mensaje o cupón.
 
 ## Guías relacionadas
 
-- [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
-- [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
-- [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
-- [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Biblioteca de misiones por objetivo]({% link _journeys/playbook-library-by-mission.md %})
+- [Elige tu primera misión]({% link _journeys/choose-your-first-playbook.md %})
+- [Cómo habilitar una misión]({% link _journeys/how-to-enable-a-playbook.md %})
+- [Cómo personalizar una misión de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [Qué son las señales]({% link _journeys/what-are-signals.md %})
-- [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
-- [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
+- [Cómo decide Hellotext si una misión puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
+- [Soluciona una misión que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
 - [Importa perfiles del cliente]({% link _audience/import-customer-profiles.md %})
 - [Personaliza mensajes con etiquetas]({% link _audience/personalization-tags.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Seguimiento de eventos]({% link _developers/tracking-events.md %})
-- [Playbook Sorpresa de Aniversario]({% link _journeys/anniversary-surprise-playbook.md %})
-- [Playbook Reactivación Suave]({% link _journeys/soft-reactivation-playbook.md %})
-- [Playbook Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %})
-- [Playbook Último Intento]({% link _journeys/sunset-saver-playbook.md %})
-- [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})
+- [Misión Sorpresa de Aniversario]({% link _journeys/anniversary-surprise-playbook.md %})
+- [Misión Reactivación Suave]({% link _journeys/soft-reactivation-playbook.md %})
+- [Misión Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %})
+- [Misión Último Intento]({% link _journeys/sunset-saver-playbook.md %})
+- [Reportes de misiones]({% link _analytics-reporting-attribution/playbook-reporting.md %})

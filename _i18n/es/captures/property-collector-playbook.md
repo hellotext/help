@@ -1,8 +1,8 @@
 Usa esta guía cuando quieres que Hellotext recopile información faltante del perfil del cliente mediante una conversación con IA.
 
-Recolector de Propiedades es un playbook de captura con IA. Pide las propiedades que configures, valida y guarda las respuestas, y evita preguntar por valores que ya existen en el perfil.
+Recolector de Propiedades es una misión de captura con IA. Pide las propiedades que configures, valida y guarda las respuestas, y evita preguntar por valores que ya existen en el perfil.
 
-Puede funcionar como playbook directo de captura o intervenir temporalmente cuando otro playbook necesita datos del perfil antes de continuar.
+Puede funcionar como misión directa de captura o intervenir temporalmente cuando otra misión necesita datos del perfil antes de continuar.
 
 ## Qué hace Recolector de Propiedades
 
@@ -18,34 +18,34 @@ Puede:
 - Aclarar respuestas ambiguas o inválidas en vez de adivinar.
 - Normalizar valores cuando existe una regla determinista, como convertir teléfonos locales al formato internacional con el código del negocio.
 - Registrar cuando un cliente no quiere compartir una propiedad opcional.
-- Devolver la conversación al playbook original después de completar una recopilación previa.
+- Devolver la conversación a la misión original después de completar una recopilación previa.
 - Derivar o asignar la conversación cuando una persona debería continuar.
 
 Recolector de Propiedades se mantiene enfocado en los datos del perfil. No es un agente general de soporte o ventas.
 
 ## Dos formas de participar
 
-### Como playbook directo de captura
+### Como misión directa de captura
 
 Usa Recolector de Propiedades directamente cuando el propósito principal de la conversación es enriquecer el perfil del cliente.
 
-El playbook sigue su lista configurada, pide los valores faltantes y guarda las respuestas válidas en el perfil. Esto funciona bien cuando el negocio necesita una captura conversacional reutilizable para ciertas propiedades. Para usarlo de esta forma, configura y habilita el playbook Recolector de Propiedades independiente.
+La misión sigue su lista configurada, pide los valores faltantes y guarda las respuestas válidas en el perfil. Esto funciona bien cuando el negocio necesita una captura conversacional reutilizable para ciertas propiedades. Para usarla de esta forma, configura y habilita la misión Recolector de Propiedades independiente.
 
-### Como requisito de otro playbook
+### Como requisito de otra misión
 
-Otros playbooks con IA pueden incluir un subcomponente Recolector de Propiedades con los datos del perfil que necesitan.
+Otras misiones con IA pueden incluir un subcomponente Recolector de Propiedades con los datos del perfil que necesitan.
 
-Cuando el playbook de origen detecta que faltan una o más propiedades configuradas, usa internamente ese subcomponente. Recolector de Propiedades pide solamente el conjunto activo de propiedades faltantes.
+Cuando la misión de origen detecta que faltan una o más propiedades configuradas, usa internamente ese subcomponente. Recolector de Propiedades pide solamente el conjunto activo de propiedades faltantes.
 
-No necesitas habilitar el playbook Recolector de Propiedades independiente para este caso. El subcomponente forma parte de la configuración del playbook de origen y funciona con su propia selección de propiedades.
+No necesitas habilitar la misión Recolector de Propiedades independiente para este caso. El subcomponente forma parte de la configuración de la misión de origen y funciona con su propia selección de propiedades.
 
-El playbook original continúa siendo responsable de la tarea del cliente. Cuando la recopilación necesaria se resuelve, la conversación vuelve a ese playbook en vez de cambiar permanentemente de ownership.
+La misión original continúa siendo responsable de la tarea del cliente. Cuando la recopilación necesaria se resuelve, la conversación vuelve a esa misión en vez de cambiar permanentemente de ownership.
 
 [Impulsor de Suscriptores]({% link _captures/subscriber-booster-playbook.md %}) usa este modelo para elegir qué propiedades del perfil recopilar junto con el consentimiento de suscripción.
 
 ## Elige propiedades con intención
 
-Recopila solamente datos que tengan un uso claro en la experiencia del cliente, segmentación, personalización, soporte u otro playbook.
+Recopila solamente datos que tengan un uso claro en la experiencia del cliente, segmentación, personalización, soporte u otra misión.
 
 Las opciones disponibles pueden incluir:
 
@@ -69,28 +69,28 @@ Demasiados campos obligatorios hacen que una captura conversacional se sienta co
 
 ## Qué necesita antes de usarlo directamente
 
-Antes de habilitar Recolector de Propiedades como playbook independiente, confirma:
+Antes de habilitar Recolector de Propiedades como misión independiente, confirma:
 
 - Las propiedades del perfil ya existen en Hellotext y tienen nombres útiles para el cliente.
 - Sabes cuáles son obligatorias y cuáles opcionales.
 - Los canales entrantes seleccionados están conectados.
 - El país y código telefónico del negocio son correctos si se recopilarán teléfonos.
 - La asignación o derivación tiene una persona o equipo apropiado.
-- Cada playbook que usa Recolector de Propiedades como requisito explica por qué necesita esa información.
+- Cada misión que usa Recolector de Propiedades como requisito explica por qué necesita esa información.
 
 ## Qué puedes configurar
 
-Abre **Playbooks**, haz clic en **Explorar playbooks**, busca el grupo **Capturas** y elige **Recolector de Propiedades**.
+Abre **Misiones**, haz clic en **Explorar misiones**, busca el grupo **Capturas** y elige **Recolector de Propiedades**.
 
 Recolector de Propiedades expone:
 
-- **Propiedades:** los campos ordenados del perfil que el playbook puede pedir.
+- **Propiedades:** los campos ordenados del perfil que la misión puede pedir.
 - **Debe recopilar:** si cada propiedad seleccionada es obligatoria para la recopilación activa.
 - **Canales entrantes:** dónde puede responder cuando los clientes escriben.
 - **Tono:** la voz que usa al pedir información.
 - **Asignación o derivación:** quién debería continuar cuando la recopilación no puede completarse automáticamente.
 
-Otros playbooks compatibles pueden mostrar un subcomponente Recolector de Propiedades con su propia lista de propiedades requeridas. Esa configuración interna no depende de que el playbook Recolector de Propiedades independiente esté habilitado.
+Otras misiones compatibles pueden mostrar un subcomponente Recolector de Propiedades con su propia lista de propiedades requeridas. Esa configuración interna no depende de que la misión Recolector de Propiedades independiente esté habilitada.
 
 ## Cómo maneja las respuestas la IA
 
@@ -108,7 +108,7 @@ Si el cliente cambia de tema durante una recopilación previa, la conversación 
 
 ## Cómo probarlo
 
-Usa el Playground y perfiles de prueba antes de habilitar el playbook ampliamente.
+Usa el Playground y perfiles de prueba antes de habilitar la misión ampliamente.
 
 Prueba:
 
@@ -119,9 +119,9 @@ Prueba:
 - Un teléfono local que debería normalizarse con el código del negocio.
 - Un cliente que rechaza compartir una propiedad opcional.
 - Una propiedad obligatoria que el cliente no proporciona.
-- Una recopilación previa iniciada por Impulsor de Suscriptores u otro playbook compatible.
+- Una recopilación previa iniciada por Impulsor de Suscriptores u otra misión compatible.
 - El regreso a la tarea original después de terminar la recopilación.
-- La asignación o derivación cuando el playbook no puede completar la recopilación.
+- La asignación o derivación cuando la misión no puede completar la recopilación.
 
 Verifica que los eventos del Playground y el perfil resultante coincidan con las respuestas dadas durante la prueba.
 
@@ -129,24 +129,24 @@ Verifica que los eventos del Playground y el perfil resultante coincidan con las
 
 Revisa:
 
-- Si el playbook pide solamente propiedades que realmente faltan.
+- Si la misión pide solamente propiedades que realmente faltan.
 - Si los clientes entienden cada solicitud.
 - Si los valores guardados usan la propiedad correcta del perfil.
 - Si se respetan los rechazos de propiedades opcionales.
 - Si las propiedades obligatorias son realmente necesarias.
 - Si teléfonos y otros valores estructurados se normalizan correctamente.
-- Si la recopilación previa devuelve a los clientes al playbook original.
+- Si la recopilación previa devuelve a los clientes a la misión original.
 - Si las derivaciones llegan a la persona o equipo correcto.
 
 Si los clientes abandonan la recopilación con frecuencia, reduce la cantidad de propiedades, mejora sus nombres o reconsidera qué campos deben ser obligatorios.
 
 ## Guías relacionadas
 
-- [Playbook Impulsor de Suscriptores]({% link _captures/subscriber-booster-playbook.md %})
+- [Misión Impulsor de Suscriptores]({% link _captures/subscriber-booster-playbook.md %})
 - [Resumen de herramientas de captura]({% link _captures/capture-overview.md %})
 - [Resumen de audiencia y segmentación]({% link _audience/audience-overview.md %})
 - [Etiquetas de personalización]({% link _audience/personalization-tags.md %})
-- [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
-- [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Cómo habilitar una misión]({% link _journeys/how-to-enable-a-playbook.md %})
+- [Cómo personalizar una misión de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})
-- [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
+- [Biblioteca de misiones por objetivo]({% link _journeys/playbook-library-by-mission.md %})

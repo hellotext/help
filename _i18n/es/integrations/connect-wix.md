@@ -10,7 +10,7 @@ Las siguientes actividades son rastreadas automáticamente:
 * Órdenes realizadas
 * Órdenes actualizadas
 
-Con esta información, Hellotext puede construir perfiles de cliente más completos, crear segmentos, activar playbooks o rutas y medir qué ocurre después de cada mensaje.
+Con esta información, Hellotext puede construir perfiles de cliente más completos, crear segmentos, activar misiones o rutas y medir qué ocurre después de cada mensaje.
 
 ## Conecta tu sitio Wix
 
@@ -50,8 +50,8 @@ A partir de ahora, comenzarás a ver reflejada la actividad de tus clientes en A
 
 Podrás hacer clic en cada perfil para ver el historial de actividades que realizan en tu eCommerce.
 
-Usa esta actividad como señales para segmentos, playbooks, rutas, segmentación de campañas y reportes.
+Usa esta actividad como señales para segmentos, misiones, rutas, segmentación de campañas y reportes.
 
-Revisa la [sincronización del catálogo de productos]({% link _integrations/product-catalog-sync.md %}) antes de lanzar recomendaciones o un playbook basado en productos.
+Revisa la [sincronización del catálogo de productos]({% link _integrations/product-catalog-sync.md %}) antes de lanzar recomendaciones o una misión basada en productos.
 
 Recuerda activar la **[Casilla de aceptación de suscripción en el formulario de compra]({% link _captures/wix-checkout.md %})** de tu sitio Wix para obtener el consentimiento de tus clientes para recibir promociones.

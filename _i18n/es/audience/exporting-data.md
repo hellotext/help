@@ -74,7 +74,7 @@ Exportar un perfil no suscribe al cliente, no otorga consentimiento ni lo habili
 3. Selecciona el ícono de descarga junto al encabezado del reporte.
 4. Espera mientras Hellotext prepara el CSV. La descarga comienza automáticamente cuando está listo y Hellotext también lo envía por email.
 
-La exportación de Ingresos está diseñada para revisar ventas atribuidas. Según la evidencia disponible, puede incluir el pedido y cliente, la campaña, ruta o playbook que recibió la atribución, la fuente y canal, el monto atribuido, el motivo de atribución, evidencia comercial de IA y humana y un link a la conversación correspondiente.
+La exportación de Ingresos está diseñada para revisar ventas atribuidas. Según la evidencia disponible, puede incluir el pedido y cliente, la campaña, ruta o misión que recibió la atribución, la fuente y canal, el monto atribuido, el motivo de atribución, evidencia comercial de IA y humana y un link a la conversación correspondiente.
 
 Esta exportación contiene las ventas atribuidas del período elegido. No es una exportación completa de todos los pedidos de la tienda ni de todos los ingresos del negocio. Consulta [Atribución de ventas]({% link _analytics-reporting-attribution/sales-attribution.md %}) para entender la evidencia y ventanas detrás de esas filas.
 

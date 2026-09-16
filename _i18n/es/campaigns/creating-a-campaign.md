@@ -148,7 +148,7 @@ Sigue leyendo: [Reportes de campaña]({% link _analytics-reporting-attribution/c
 
 Antes del envío final, confirma que:
 
-- El objetivo necesita una campaña puntual en lugar de un playbook o una ruta.
+- El objetivo necesita una campaña puntual en lugar de una misión o una ruta.
 - La audiencia es específica y tiene consentimiento para el canal.
 - Las exclusiones quitan perfiles internos, de prueba, inválidos o inapropiados.
 - El remitente y el comportamiento de fallback son correctos.

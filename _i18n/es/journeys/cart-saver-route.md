@@ -31,9 +31,9 @@ Encaja bien cuando:
 - Quieres inspeccionar cada paso antes del lanzamiento.
 - No necesitas que la IA interprete respuestas, responda preguntas, recomiende alternativas o elija entre varios siguientes pasos.
 
-Si la recuperación de carrito debería reaccionar al contexto de producto, respuestas del cliente, objeciones, recomendaciones o decisiones de derivación, usa [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}).
+Si la recuperación de carrito debería reaccionar al contexto de producto, respuestas del cliente, objeciones, recomendaciones o decisiones de derivación, usa [Misión Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}).
 
-Si el cliente solo vio productos y nunca agregó nada al carrito o checkout, usa [Playbook Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}).
+Si el cliente solo vio productos y nunca agregó nada al carrito o checkout, usa [Misión Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}).
 
 ## Qué necesita antes del lanzamiento
 
@@ -56,7 +56,7 @@ Después de publicar la ruta, usa los reportes automáticos para revisar entrada
 
 ## Cómo configurarlo
 
-Ve a **Playbooks**, haz click en **Explorar playbooks** y elige **Recuperador de Carritos**.
+Ve a **Misiones**, haz click en **Explorar misiones** y elige **Recuperador de Carritos**.
 
 Revisa la ruta generada antes de publicarla.
 
@@ -83,7 +83,7 @@ Usa Recuperador de Carritos cuando el camino debería ser predecible: esperar, r
 
 Usa Recuperador de Carritos con IA cuando Hellotext debería usar más contexto antes de decidir qué hacer después, como detalles de producto, respuestas del cliente, objeciones, recomendaciones, preparación del canal o derivación.
 
-Para una comparación completa, mira [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
+Para una comparación completa, mira [Carrito abandonado: plantilla de ruta vs misión con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
 
 ## Por qué puede no enviar
 
@@ -102,7 +102,7 @@ La ruta puede no enviar cuando:
 - Horarios silenciosos, límites de frecuencia u otra regla de envío demoran o bloquean el mensaje.
 - Otro flujo de recuperación de carrito ya está manejando la misma audiencia.
 
-Para un diagnóstico paso a paso, usa [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}).
+Para un diagnóstico paso a paso, usa [Soluciona una misión que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}).
 
 ## Cómo probarlo
 
@@ -138,14 +138,14 @@ Ajusta una parte por vez: espera, texto del mensaje, oferta, audiencia, canal o 
 
 ## Guías relacionadas
 
-- [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
-- [Playbook Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %})
-- [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %})
+- [Misión Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
+- [Misión Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %})
+- [Carrito abandonado: plantilla de ruta vs misión con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %})
 - [Primeros pasos con rutas]({% link _journeys/getting-started-with-journeys.md %})
-- [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
-- [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
-- [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
-- [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
+- [Cómo habilitar una misión]({% link _journeys/how-to-enable-a-playbook.md %})
+- [Cómo personalizar una misión de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Cómo decide Hellotext si una misión puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
+- [Soluciona una misión que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [A quién puedo escribirle: consentimiento y estado de suscripción]({% link _audience/consent-and-subscriber-status.md %})
-- [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})
+- [Reportes de misiones]({% link _analytics-reporting-attribution/playbook-reporting.md %})

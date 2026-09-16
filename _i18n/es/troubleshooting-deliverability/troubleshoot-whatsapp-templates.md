@@ -1,4 +1,4 @@
-Usa esta guía cuando una campaña, ruta, playbook o respuesta no puede enviar por WhatsApp porque la plantilla está en revisión, fue rechazada, perdió calidad o ya no está disponible en Meta.
+Usa esta guía cuando una campaña, ruta, misión o respuesta no puede enviar por WhatsApp porque la plantilla está en revisión, fue rechazada, perdió calidad o ya no está disponible en Meta.
 
 Las plantillas permiten iniciar mensajes de WhatsApp fuera de la ventana de atención de 24 horas. Hellotext prepara y sincroniza el contenido, pero Meta controla la aprobación, categoría, calidad y disponibilidad final de cada plantilla.
 
@@ -122,7 +122,7 @@ Incluye:
 
 - negocio y número de WhatsApp afectados;
 - nombre y link de la plantilla;
-- campaña, ruta o playbook que intenta usarla;
+- campaña, ruta o misión que intenta usarla;
 - idioma y categoría;
 - estado y comentario exactos de Meta;
 - momento del último cambio; y

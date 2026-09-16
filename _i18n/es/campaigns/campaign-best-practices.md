@@ -12,7 +12,7 @@ Define qué debería lograr la campaña antes de seleccionar una audiencia o red
 - Comunicar una novedad con fecha o tiempo limitado.
 - Invitar clientes a un evento u otro momento planificado.
 
-Usa una campaña cuando el negocio elige el mensaje, la audiencia y el momento de entrega para un envío puntual. Usa un playbook cuando Hellotext debería seguir respondiendo a señales del cliente y decidir cuándo una acción es relevante.
+Usa una campaña cuando el negocio elige el mensaje, la audiencia y el momento de entrega para un envío puntual. Usa una misión cuando Hellotext debería seguir respondiendo a señales del cliente y decidir cuándo una acción es relevante.
 
 Dale a cada campaña un único llamado a la acción principal. Varios links o pedidos que compiten hacen más difícil interpretar tanto el mensaje como su reporte.
 
@@ -74,11 +74,11 @@ Las campañas pueden enviarse ahora o programarse para una fecha y hora futuras.
 
 Las campañas dirigidas a por lo menos 100 clientes requieren revisión editorial. El contenido de WhatsApp también puede necesitar aprobación de Meta. Programa los lanzamientos importantes con margen para ambas revisiones en lugar de enviarlos inmediatamente antes del horario de entrega deseado.
 
-## Coordina campañas con playbooks activos
+## Coordina campañas con misiones activas
 
-Las campañas y los playbooks pueden estar activos al mismo tiempo. Antes de una campaña importante, revisa otras campañas programadas y los playbooks activos relevantes para que los clientes no reciban mensajes repetidos o contradictorios.
+Las campañas y las misiones pueden estar activas al mismo tiempo. Antes de una campaña importante, revisa otras campañas programadas y las misiones activas relevantes para que los clientes no reciban mensajes repetidos o contradictorios.
 
-La campaña debería agregar un momento planificado y claro a la experiencia del cliente. No debería duplicar un playbook activo que ya decide cuándo ese mismo mensaje es relevante.
+La campaña debería agregar un momento planificado y claro a la experiencia del cliente. No debería duplicar una misión activa que ya decide cuándo ese mismo mensaje es relevante.
 
 ## Supervisa la entrega y las respuestas
 
@@ -103,13 +103,13 @@ Sigue leyendo: [Reportes de campaña]({% link _analytics-reporting-attribution/c
 
 Antes de seleccionar **Enviar**, confirma que:
 
-- El objetivo corresponde a una campaña puntual en lugar de un playbook o una ruta.
+- El objetivo corresponde a una campaña puntual en lugar de una misión o una ruta.
 - La audiencia y las exclusiones coinciden con ese objetivo.
 - Los perfiles de cliente tienen consentimiento para los canales seleccionados.
 - El mensaje tiene un llamado a la acción claro.
 - Los links, la personalización, los cupones y el contenido enriquecido pasan una prueba.
 - El horario deja margen para revisión editorial o de Meta.
-- Otras campañas programadas y los playbooks activos no crearán una experiencia confusa.
+- Otras campañas programadas y las misiones activas no crearán una experiencia confusa.
 - El equipo está listo para supervisar entrega, respuestas y el reporte.
 
 ## Guías relacionadas

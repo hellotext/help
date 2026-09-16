@@ -6,7 +6,7 @@ en:
   description: A short overview of how Hellotext uses signals, playbooks, the Inbox, and messaging channels to help commerce teams act on each customer.
 es:
   title: Qué es Hellotext
-  description: Un resumen breve de cómo Hellotext usa señales, playbooks, el Inbox y canales de mensajería para ayudar a equipos de comercio a actuar con cada cliente.
+  description: Un resumen breve de cómo Hellotext usa señales, misiones, el Inbox y canales de mensajería para ayudar a equipos de comercio a actuar con cada cliente.
 
 permalink: what-is-hellotext
 permalink_es: que-es-hellotext

@@ -1,5 +1,5 @@
 El editor de mensajes es la herramienta principal que usas para escribir mensajes efectivos, dinámicos y atractivos para tus clientes.
-Se usa en todo Hellotext, desde respuestas simples en el inbox hasta mensajes de campañas y pasos de rutas o playbooks.
+Se usa en todo Hellotext, desde respuestas simples en el inbox hasta mensajes de campañas y pasos de rutas o misiones.
 
 Tiene herramientas que te permiten enriquecer mensajes con archivos adjuntos (imágenes, videos, etc.), emojis, links, tarjetas de contacto y más.
 Esta guía cubre las herramientas básicas de formato disponibles en el editor.

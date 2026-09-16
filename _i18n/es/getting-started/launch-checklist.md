@@ -1,10 +1,10 @@
 Usa este checklist cuando estás configurando Hellotext por primera vez o preparando un negocio nuevo para salir en vivo.
 
-El objetivo es confirmar que tu cuenta, señales, canales, capturas y primer playbook, ruta o envío estén listos antes de que los clientes empiecen a recibir mensajes.
+El objetivo es confirmar que tu cuenta, señales, canales, capturas y primera misión, ruta o envío estén listos antes de que los clientes empiecen a recibir mensajes.
 
 Si eres nuevo en el producto, empieza por [Qué es Hellotext]({% link _getting-started/what-is-hellotext.md %}).
 
-Si estás eligiendo entre playbooks, campañas y flujos del Inbox, lee [Cómo funciona Hellotext]({% link _getting-started/how-hellotext-works.md %}).
+Si estás eligiendo entre misiones, campañas y flujos del Inbox, lee [Cómo funciona Hellotext]({% link _getting-started/how-hellotext-works.md %}).
 
 ## 1. Crea y revisa tu negocio
 
@@ -43,7 +43,7 @@ Sigue leyendo: [Resumen de canales de mensajería]({% link _numbers/messaging-ov
 
 ## 4. Agrega al menos una herramienta de captura
 
-Antes de lanzar campañas, playbooks o rutas, asegúrate de que los clientes tengan una forma clara de suscribirse.
+Antes de lanzar campañas, misiones o rutas, asegúrate de que los clientes tengan una forma clara de suscribirse.
 
 Empieza con la captura que mejor coincida con el lugar donde tus clientes tienen más probabilidad de sumarse:
 
@@ -65,23 +65,23 @@ Sigue leyendo:
 - [Diferencias entre Listas y Segmentos]({% link _audience/lists-and-segments.md %})
 - [Llega mejor a tu audiencia con Segmentos]({% link _audience/segments.md %})
 
-## 6. Lanza un primer playbook, ruta o campaña enfocado
+## 6. Lanza una primera misión, ruta o campaña enfocada
 
 Elige un primer objetivo antes de ampliar: recuperar carritos abandonados, hacer seguimiento post-compra, responder preguntas frecuentes con [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}), guiar cambios o devoluciones con [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}), guiar solicitudes de cancelación con [Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %}), captar suscriptores o enviar un anuncio puntual.
 
-Usa un playbook preconstruido cuando la misión ya existe. Usa una ruta cuando necesitas un flujo paso a paso predecible. Usa una campaña cuando necesitas un envío puntual a una audiencia seleccionada.
+Usa una misión preconstruida cuando ya existe una que cubre tu objetivo. Usa una ruta cuando necesitas un flujo paso a paso predecible. Usa una campaña cuando necesitas un envío puntual a una audiencia seleccionada.
 
 Antes de ampliar, prueba con tu propio número y algunos miembros del equipo. Revisa cómo se ve en el canal real y confirma links, texto de baja, tono, timing y reglas de derivación.
 
 Sigue leyendo:
 
-- [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})
+- [Resumen de misiones y automatización]({% link _journeys/playbooks-overview.md %})
 - [Cómo funciona Hellotext]({% link _getting-started/how-hellotext-works.md %})
 - [Primeros logros recomendados]({% link _getting-started/first-wins-starter-pack.md %})
 - [Caminos de implementación]({% link _getting-started/implementation-paths.md %})
 - [Checklist antes de enviar]({% link _getting-started/go-live-checklist.md %})
-- [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
-- [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
+- [Elige tu primera misión]({% link _journeys/choose-your-first-playbook.md %})
+- [Cómo habilitar una misión]({% link _journeys/how-to-enable-a-playbook.md %})
 - [Primeros pasos con rutas]({% link _journeys/getting-started-with-journeys.md %})
 - [Crear una Campaña]({% link _campaigns/creating-a-campaign.md %})
 - [Mejores prácticas para el primer lanzamiento]({% link _getting-started/tips-and-best-practices.md %})
@@ -101,14 +101,14 @@ Sigue leyendo:
 
 Después de tu primer lanzamiento, revisa qué pasó antes de cambiar demasiadas cosas al mismo tiempo.
 
-Mira crecimiento de audiencia, respuestas, clics, actividad de playbooks, reportes de campaña y ventas atribuidas.
+Mira crecimiento de audiencia, respuestas, clics, actividad de misiones, reportes de campaña y ventas atribuidas.
 
 Sigue leyendo:
 
 - [Mide el éxito en tus primeros 7 días]({% link _getting-started/measure-success-first-7-days.md %})
-- [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})
-- [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
-- [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
+- [Resumen de misiones y automatización]({% link _journeys/playbooks-overview.md %})
+- [Elige tu primera misión]({% link _journeys/choose-your-first-playbook.md %})
+- [Cómo habilitar una misión]({% link _journeys/how-to-enable-a-playbook.md %})
 - [Reportes de Campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %})
 - [Cómo atribuimos las ventas]({% link _analytics-reporting-attribution/sales-attribution.md %})
 

@@ -1,4 +1,4 @@
-Los productos y variantes le dan a Hellotext el contexto de catálogo necesario para entender vistas de productos, carritos, pedidos, recomendaciones y playbooks relacionados con productos.
+Los productos y variantes le dan a Hellotext el contexto de catálogo necesario para entender vistas de productos, carritos, pedidos, recomendaciones y misiones relacionadas con productos.
 
 La API pública de Productos sincroniza registros del catálogo. La cantidad y disponibilidad de stock en tiempo real son otro asunto: el endpoint público actual de productos no expone un campo específico de cantidad o disponibilidad de inventario.
 
@@ -104,7 +104,7 @@ Actualmente, la API pública de Productos no incluye un campo compatible para:
 - Estado disponible o agotado.
 - Saldos de inventario por ubicación.
 
-No agregues valores como `stock`, `quantity` o `available` dentro de `metadata` o propiedades personalizadas esperando que Hellotext los use en playbooks que dependen del inventario. La metadata no se convierte automáticamente en una señal de inventario compatible.
+No agregues valores como `stock`, `quantity` o `available` dentro de `metadata` o propiedades personalizadas esperando que Hellotext los use en misiones que dependen del inventario. La metadata no se convierte automáticamente en una señal de inventario compatible.
 
 Las integraciones compatibles de comercio y ERP pueden permitir que Hellotext consulte la disponibilidad directamente en el origen. Si una tienda propia necesita Alerta de Reposición, urgencia por poco stock u otro flujo que dependa de disponibilidad en tiempo real, conecta un origen de inventario compatible o confirma con Hellotext el camino de integración antes del lanzamiento.
 
@@ -150,7 +150,7 @@ Prueba un producto principal con al menos una variante:
 - El precio y la moneda coinciden con la tienda.
 - Una vista de producto se resuelve con el mismo producto.
 - Un pedido de prueba utiliza el mismo ID de producto o variante.
-- Ningún playbook que dependa del inventario se habilita hasta que la disponibilidad en tiempo real tenga un origen compatible.
+- Ninguna misión que dependa del inventario se habilita hasta que la disponibilidad en tiempo real tenga un origen compatible.
 
 Si aparecen duplicados o errores de validación, usa [Soluciona una integración propia]({% link _developers/troubleshoot-custom-integration.md %}).
 
@@ -161,4 +161,4 @@ Si aparecen duplicados o errores de validación, usa [Soluciona una integración
 - [Crea y registra pedidos con la API]({% link _developers/orders-with-api.md %})
 - [Seguimiento de eventos]({% link _developers/tracking-events.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
-- [Playbook Alerta de Reposición]({% link _journeys/back-in-stock-pounce.md %})
+- [Misión Alerta de Reposición]({% link _journeys/back-in-stock-pounce.md %})

@@ -1,6 +1,6 @@
-Usa esta guía cuando un playbook de captura no aparece en el producto, no carga para el cliente, no registra la información enviada o no inicia la acción configurada después de la captura.
+Usa esta guía cuando una misión de captura no aparece en el producto, no carga para el cliente, no registra la información enviada o no inicia la acción configurada después de la captura.
 
-Todos los playbooks de captura se encuentran en **Playbooks > Explorar playbooks**, dentro del grupo **Capturas**. Incluyen experiencias distintas: Popup de Sitio Web, Formulario de Sitio Web, Widget de Webchat, códigos QR, links compartibles, opt-in en checkout e interacciones con IA como Impulsor de Suscriptores y Recolector de Propiedades.
+Todas las misiones de captura se encuentran en **Misiones > Explorar misiones**, dentro del grupo **Capturas**. Incluyen experiencias distintas: Popup de Sitio Web, Formulario de Sitio Web, Widget de Webchat, códigos QR, links compartibles, opt-in en checkout e interacciones con IA como Impulsor de Suscriptores y Recolector de Propiedades.
 
 ## Identifica dónde se detuvo
 
@@ -8,7 +8,7 @@ Antes de cambiar la configuración, reproduce el problema y ubícalo en una de e
 
 | Etapa | Qué observas |
 | --- | --- |
-| **Disponibilidad** | El playbook no aparece en **Explorar playbooks** o figura como **A solicitud**. |
+| **Disponibilidad** | La misión no aparece en **Explorar misiones** o figura como **A solicitud**. |
 | **Carga** | La captura existe, pero no aparece en el sitio, checkout o canal esperado. |
 | **Interacción** | La captura aparece, pero no abre, no avanza o no permite enviar. |
 | **Verificación** | El cliente envió sus datos, pero todavía debe verificar un teléfono o email nuevo. |
@@ -17,20 +17,20 @@ Antes de cambiar la configuración, reproduce el problema y ubícalo en una de e
 
 Esta separación evita reinstalar una captura cuando el problema está en una verificación pendiente o en una acción posterior.
 
-## Si el playbook no está disponible
+## Si la misión no está disponible
 
-1. Abre **Playbooks** y haz clic en **Explorar playbooks**.
+1. Abre **Misiones** y haz clic en **Explorar misiones**.
 2. Busca el grupo **Capturas**.
-3. Confirma que el playbook esté disponible para tu negocio y plan.
+3. Confirma que la misión esté disponible para tu negocio y plan.
 4. Si aparece como **A solicitud**, deshabilitado o todavía no está disponible, consulta con tu equipo de Hellotext antes de preparar la instalación.
 
-Después de configurarlo, confirma que se haya guardado y habilitado. Los popups y formularios que se publican en un sitio también deben completar su paso de instalación o publicación.
+Después de configurarla, confirma que se haya guardado y habilitado. Los popups y formularios que se publican en un sitio también deben completar su paso de instalación o publicación.
 
 ## Si un popup o Webchat no aparece
 
 Revisa en este orden:
 
-1. Confirma que el playbook esté habilitado y que la versión más reciente se haya guardado.
+1. Confirma que la misión esté habilitada y que la versión más reciente se haya guardado.
 2. Confirma que la integración compatible, el plugin o Hellotext.js cargue en la página real.
 3. Si la instalación es manual, compara el código que se ejecuta en el sitio con el código actual generado por Hellotext.
 4. Revisa el dominio y la URL exactos donde debería aparecer.
@@ -39,7 +39,7 @@ Revisa en este orden:
 7. Prueba en una ventana privada y en un teléfono real para separar el estado de una sesión anterior de un problema de instalación.
 8. Revisa si estilos, banners de consentimiento u otros elementos del sitio ocultan la captura.
 
-Para el teaser de Impulsor de Suscriptores, tanto **Widget de Webchat** como **Impulsor de Suscriptores** deben estar habilitados. El webchat es la entrada visible y el otro playbook maneja la invitación de suscripción con IA.
+Para el teaser de Impulsor de Suscriptores, tanto **Widget de Webchat** como **Impulsor de Suscriptores** deben estar habilitados. El webchat es la entrada visible y la otra misión maneja la invitación de suscripción con IA.
 
 ## Si un formulario no carga
 
@@ -87,7 +87,7 @@ Una captura completada y una acción posterior son etapas diferentes.
 - Si el perfil del cliente se actualizó pero no llegó un cupón o mensaje, revisa [Por qué no se envió un mensaje]({% link _troubleshooting-deliverability/why-a-message-did-not-send.md %}).
 - Si debía comenzar una ruta, confirma que la ruta esté habilitada y revisa su actividad.
 - Si debía abrirse una conversación de Webchat, confirma que el mensaje llegue al Inbox y revisa la asignación correspondiente.
-- Si Impulsor de Suscriptores no intervino, confirma que la conversación haya empezado desde Webchat o por iniciativa del cliente en WhatsApp y que el playbook esté habilitado.
+- Si Impulsor de Suscriptores no intervino, confirma que la conversación haya empezado desde Webchat o por iniciativa del cliente en WhatsApp y que la misión esté habilitada.
 
 No uses la entrega de un mensaje como única prueba de que la captura falló. Primero confirma si el perfil y el consentimiento se actualizaron.
 
@@ -112,7 +112,7 @@ No incluyas códigos de verificación, tokens, contraseñas ni datos reales de p
 - [Resumen de herramientas de captura]({% link _captures/capture-overview.md %})
 - [Popup de Sitio Web]({% link _captures/website-popup.md %})
 - [Formulario de Sitio Web]({% link _captures/forms.md %})
-- [Playbook Widget de Webchat]({% link _captures/webchat-widget-playbook.md %})
-- [Playbook Impulsor de Suscriptores]({% link _captures/subscriber-booster-playbook.md %})
+- [Misión Widget de Webchat]({% link _captures/webchat-widget-playbook.md %})
+- [Misión Impulsor de Suscriptores]({% link _captures/subscriber-booster-playbook.md %})
 - [A quién puedes enviar mensajes]({% link _audience/consent-and-subscriber-status.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})

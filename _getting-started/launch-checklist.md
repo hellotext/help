@@ -6,7 +6,7 @@ en:
   description: Follow this order to get your business ready before your first playbook, route, or send.
 es:
   title: Checklist de lanzamiento
-  description: Sigue este orden para dejar tu negocio listo antes de tu primer playbook, ruta o envío.
+  description: Sigue este orden para dejar tu negocio listo antes de lanzar tu primera misión o ruta, o hacer tu primer envío.
 
 permalink: launch-checklist
 permalink_es: checklist-lanzamiento

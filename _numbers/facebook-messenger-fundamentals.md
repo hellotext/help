@@ -6,7 +6,7 @@ en:
   description: Understand how Facebook Messenger conversations work across the Inbox, routes, and compatible playbooks.
 es:
   title: Fundamentos de Facebook Messenger
-  description: Entiende cómo funcionan las conversaciones de Facebook Messenger en el Inbox, las rutas y los playbooks compatibles.
+  description: Entiende cómo funcionan las conversaciones de Facebook Messenger en el Inbox, las rutas y las misiones compatibles.
 
 permalink: facebook-messenger-fundamentals
 permalink_es: fundamentos-facebook-messenger

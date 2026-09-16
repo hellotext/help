@@ -35,7 +35,7 @@ Por ejemplo, `cumpleaños` puede ser una propiedad del perfil, mientras que una 
 Hellotext puede crear o enriquecer un perfil cuando recibe datos desde:
 
 * Una plataforma de eCommerce conectada u otra integración.
-* Un playbook de captura, como Webchat, un popup, un formulario, un código QR o un link compartible.
+* Una misión de captura, como Webchat, un popup, un formulario, un código QR o un link compartible.
 * Una conversación iniciada por el cliente en un canal conectado.
 * Una importación de perfiles de clientes.
 * Hellotext.js, la API o una integración personalizada.
@@ -54,7 +54,7 @@ Usa las opciones del perfil para abrir el proceso de unión. Confirma qué datos
 Los perfiles de clientes conectan las áreas principales de Hellotext:
 
 * **Las campañas** usan listas y segmentos para elegir una audiencia.
-* **Los playbooks** usan propiedades y actividad como señales para tomar decisiones autónomas y crear experiencias personalizadas.
+* **Las misiones** usan propiedades y actividad como señales para tomar decisiones autónomas y crear experiencias personalizadas.
 * **Los journeys** pueden ramificar o ejecutar acciones según datos y eventos del perfil.
 * **Inbox** muestra contexto del cliente a agentes e integrantes del equipo que atienden una conversación.
 * **Los reportes y la atribución** usan identidad y actividad rastreada para asociar resultados con el cliente y el origen correctos.

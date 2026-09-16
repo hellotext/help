@@ -31,14 +31,14 @@ Sigue leyendo:
 
 Si una campaña llegó a menos personas de lo esperado, revisa la audiencia seleccionada, reglas de segmento, elegibilidad por canal, timing y contenido del mensaje.
 
-Para automatizaciones, confirma qué playbook o ruta debería haber corrido y si el cliente coincidía con las condiciones del disparador.
+Para automatizaciones, confirma qué misión o ruta debería haber corrido y si el cliente coincidía con las condiciones del disparador.
 
 Sigue leyendo:
 
 - [Crea una campaña]({% link _campaigns/creating-a-campaign.md %})
 - [Listas vs. segmentos]({% link _audience/lists-and-segments.md %})
-- [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})
-- [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
+- [Resumen de misiones y automatización]({% link _journeys/playbooks-overview.md %})
+- [Soluciona una misión que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
 
 ## 4. Revisa links, tracking y atribución
 
@@ -68,4 +68,4 @@ Sigue leyendo:
 
 Si una página no carga, conserva la URL, el momento del error y la última acción antes de recargar. Sigue [Soluciona páginas que no cargan]({% link _troubleshooting-deliverability/troubleshoot-pages-that-do-not-load.md %}).
 
-Incluye el nombre del negocio, el perfil del cliente afectado, el canal, el link a la campaña, playbook, conversación o reporte, la hora aproximada, qué esperabas, qué ocurrió y cualquier captura o cambio reciente de configuración. Revisa [Contacta a soporte de Hellotext]({% link _troubleshooting-deliverability/contact-hellotext-support.md %}) antes de enviar información sensible.
+Incluye el nombre del negocio, el perfil del cliente afectado, el canal, el link a la campaña, misión, conversación o reporte, la hora aproximada, qué esperabas, qué ocurrió y cualquier captura o cambio reciente de configuración. Revisa [Contacta a soporte de Hellotext]({% link _troubleshooting-deliverability/contact-hellotext-support.md %}) antes de enviar información sensible.

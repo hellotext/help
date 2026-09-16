@@ -1,4 +1,4 @@
-Suscriptor por Código QR es un playbook de captura que permite iniciar una suscripción por SMS al escanear un código. Funciona bien para eCommerce, comercios y marcas de productos empacados (*CPG*) que interactúan con clientes mediante ubicaciones físicas.
+Suscriptor por Código QR es una misión de captura que permite iniciar una suscripción por SMS al escanear un código. Funciona bien para eCommerce, comercios y marcas de productos empacados (*CPG*) que interactúan con clientes mediante ubicaciones físicas.
 
 Aquí hay algunos ejemplos de cómo se pueden utilizar los códigos QR en estos contextos:
 
@@ -14,7 +14,7 @@ El cliente igualmente debe presionar *Enviar* para enviar el mensaje de opt-in. 
 
 ## Crear un código QR
 
-Para crear un código QR, abre **Playbooks**, haz clic en **Explorar playbooks**, busca el grupo **Capturas** y elige **Suscriptor por Código QR**.
+Para crear un código QR, abre **Misiones**, haz clic en **Explorar misiones**, busca el grupo **Capturas** y elige **Suscriptor por Código QR**.
 
 Si tienes números de teléfono o códigos cortos asociados con tu negocio, puedes elegir uno de estos como el número al que los clientes enviarán el mensaje de opt-in.
 
@@ -30,7 +30,7 @@ Por defecto, se envía un mensaje de bienvenida al nuevo suscriptor.
 
 Sin embargo, si has creado algún cupón, puedes elegir incluirlo en el mensaje de bienvenida como un incentivo para suscribirse.
 
-Alternativamente, puedes seleccionar una ruta u otro playbook compatible para reemplazar el mensaje de bienvenida predeterminado.
+Alternativamente, puedes seleccionar una ruta u otra misión compatible para reemplazar el mensaje de bienvenida predeterminado.
 
 Ese seguimiento se enviará al nuevo suscriptor en lugar del mensaje predeterminado.
 

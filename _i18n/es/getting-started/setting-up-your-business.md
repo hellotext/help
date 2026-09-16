@@ -53,7 +53,7 @@ Sigue leyendo: [Resumen de configuración e integraciones]({% link _integrations
 
 ## Conecta tu primer canal de mensajería
 
-Antes de crear capturas, playbooks, rutas o campañas, confirma qué canal deberían usar tus clientes para recibir mensajes y responder.
+Antes de crear capturas, misiones, rutas o campañas, confirma qué canal deberían usar tus clientes para recibir mensajes y responder.
 
 Usa el resumen de mensajería para decidir qué preparar para SMS, WhatsApp y configuración de remitentes.
 
@@ -69,6 +69,6 @@ Sigue leyendo: [Roles y permisos de equipo]({% link _team/understanding-team-rol
 
 ## Continúa con el lanzamiento
 
-Cuando el acceso, el contexto de facturación, los datos, los canales y el equipo estén listos, continúa con capturas, tu primera audiencia y tu primer playbook, ruta o envío de prueba pequeño.
+Cuando el acceso, el contexto de facturación, los datos, los canales y el equipo estén listos, continúa con capturas, tu primera audiencia y tu primera misión, ruta o envío de prueba pequeño.
 
 Sigue leyendo: [Checklist de lanzamiento]({% link _getting-started/launch-checklist.md %}).

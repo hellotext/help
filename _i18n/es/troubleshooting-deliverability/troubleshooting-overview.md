@@ -43,9 +43,9 @@ Si conversiones, eventos o ingresos atribuidos no coinciden con lo esperado, rev
 
 Sigue leyendo: [Resumen de analítica, reportes y atribución]({% link _analytics-reporting-attribution/analytics-overview.md %}).
 
-Si falta una señal, evento, actualización de perfil, segmento, disparador de playbook o métrica de reporte, empieza con [Soluciona señales o actividad faltante]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %}).
+Si falta una señal, evento, actualización de perfil, segmento, disparador de misión o métrica de reporte, empieza con [Soluciona señales o actividad faltante]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %}).
 
-Si el problema es específico de un playbook, usa [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}).
+Si el problema es específico de una misión, usa [Soluciona una misión que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}).
 
 ## Inbox y flujos del equipo
 
