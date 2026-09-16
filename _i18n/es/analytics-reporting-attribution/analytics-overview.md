@@ -1,8 +1,8 @@
-Usa analítica y reportes para entender qué pasó después de que Hellotext envió un mensaje, activó un playbook o ruta, o vinculó actividad con tu tienda.
+Usa analítica y reportes para entender qué pasó después de que Hellotext envió un mensaje, activó una misión o ruta, o vinculó actividad con tu tienda.
 
 Esta sección conecta tres preguntas relacionadas:
 
-- ¿Cómo funcionó una campaña, playbook o ruta?
+- ¿Cómo funcionó una campaña, misión o ruta?
 - ¿Qué acciones de clientes ocurrieron después del mensaje?
 - ¿Qué ingresos se atribuyeron a Hellotext?
 
@@ -10,7 +10,7 @@ Esta sección conecta tres preguntas relacionadas:
 
 El Reporte de ingresos muestra las compras completadas durante el período seleccionado, incluidos los ingresos totales y la parte atribuida a actividad elegible de Hellotext.
 
-Úsalo cuando necesites comparar ingresos atribuidos a la IA o clasificados como gestionados por el equipo, revisar Campañas y Playbooks acreditados o conciliar compras atribuidas individuales.
+Úsalo cuando necesites comparar ingresos atribuidos a la IA o clasificados como gestionados por el equipo, revisar Campañas y Misiones acreditadas o conciliar compras atribuidas individuales.
 
 Sigue leyendo: [Guía del Reporte de ingresos]({% link _analytics-reporting-attribution/revenue-report-guide.md %}).
 
@@ -38,13 +38,13 @@ Usa reportes de campaña cuando necesites evaluar una campaña, comparar el rend
 
 Sigue leyendo: [Reportes de campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %}).
 
-## Reportes de playbooks y rutas
+## Reportes de misiones y rutas
 
-Los reportes de playbooks te ayudan a revisar flujos siempre activos, agentes de IA y rutas después de que empiezan a recibir actividad real de clientes.
+Los reportes de misiones te ayudan a revisar flujos siempre activos, agentes de IA y rutas después de que empiezan a recibir actividad real de clientes.
 
-Usa reportes de playbooks cuando necesites comparar ingresos atribuidos, comportamiento de conversión, tiempo hasta conversión, tasa de derivación y la calidad de las derivaciones detrás de los números.
+Usa reportes de misiones cuando necesites comparar ingresos atribuidos, comportamiento de conversión, tiempo hasta conversión, tasa de derivación y la calidad de las derivaciones detrás de los números.
 
-Sigue leyendo: [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %}).
+Sigue leyendo: [Reportes de misiones]({% link _analytics-reporting-attribution/playbook-reporting.md %}).
 
 ## Reporte de calidad de servicio
 
@@ -102,7 +102,7 @@ Si estás revisando tu primer lanzamiento, empieza por [Mide el éxito en tus pr
 - [Guía de Insights de demanda]({% link _analytics-reporting-attribution/demand-insights-guide.md %})
 - [Guía del Reporte de calidad de servicio]({% link _analytics-reporting-attribution/service-quality-report-guide.md %})
 - [Guía del Reporte de carga y capacidad]({% link _analytics-reporting-attribution/workload-capacity-report-guide.md %})
-- [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})
+- [Reportes de misiones]({% link _analytics-reporting-attribution/playbook-reporting.md %})
 - [Crea una campaña]({% link _campaigns/creating-a-campaign.md %})
 - [Resumen de precios, facturación y planes]({% link _billing/billing-overview.md %})
 - [Resumen de desarrolladores y API]({% link _developers/developers-overview.md %})

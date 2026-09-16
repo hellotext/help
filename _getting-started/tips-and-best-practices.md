@@ -6,7 +6,7 @@ en:
   description: Prepare a small, clear, and measurable first playbook, route, or send before expanding.
 es:
   title: Mejores prácticas para el primer lanzamiento
-  description: Prepara un primer playbook, ruta o envío pequeño, claro y medible antes de ampliar.
+  description: Prepara tu primera misión, ruta o envío con un alcance pequeño, claro y medible antes de ampliar.
 
 permalink: tips-and-best-practices
 permalink_es: consejos-y-mejores-practicas

@@ -1,4 +1,4 @@
-Usa estas prácticas junto con el [checklist de lanzamiento]({% link _getting-started/launch-checklist.md %}) cuando estés preparando tu primer playbook, ruta o envío real.
+Usa estas prácticas junto con el [checklist de lanzamiento]({% link _getting-started/launch-checklist.md %}) cuando estés preparando tu primera misión, ruta o envío real.
 
 El objetivo es aprender con un lanzamiento controlado antes de ampliar la audiencia o activar más automatización.
 
@@ -38,13 +38,13 @@ Sigue leyendo: [Resumen del editor de mensajes]({% link _numbers/message-editor-
 
 ## Respeta horarios y frecuencia
 
-Revisa horarios silenciosos, expectativas del canal y frecuencia antes de lanzar campañas, playbooks o rutas.
+Revisa horarios silenciosos, expectativas del canal y frecuencia antes de lanzar campañas, misiones o rutas.
 
 Si una automatización espera varias horas antes de enviar un mensaje, asegúrate de que el horario final siga siendo razonable para el cliente.
 
-Para playbooks y rutas, revisa trigger, demora, audiencia, canal y reglas de detención antes de activarlos.
+Para misiones y rutas, revisa trigger, demora, audiencia, canal y reglas de detención antes de activarlas.
 
-Sigue leyendo: [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %}).
+Sigue leyendo: [Resumen de misiones y automatización]({% link _journeys/playbooks-overview.md %}).
 
 ## Nombra claramente las herramientas de captura
 
@@ -67,7 +67,7 @@ Sigue leyendo:
 
 ## Observa las primeras respuestas
 
-Después del primer lanzamiento, mira respuestas, bajas, mensajes fallidos, clics, decisiones de playbooks, derivaciones y ventas atribuidas antes de cambiar demasiadas configuraciones a la vez.
+Después del primer lanzamiento, mira respuestas, bajas, mensajes fallidos, clics, decisiones de misiones, derivaciones y ventas atribuidas antes de cambiar demasiadas configuraciones a la vez.
 
 Cierra conversaciones cuando la interacción haya terminado para mantener el Inbox limpio y que las métricas de tiempo de respuesta sigan siendo útiles.
 

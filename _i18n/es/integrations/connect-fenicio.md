@@ -11,7 +11,7 @@ Una vez activa, la integración permite que Hellotext:
 - Importe productos y variantes con precios, imágenes, categorías y estado de disponibilidad.
 - Importe órdenes y actualice estados como confirmada, enviada, entregada o cancelada.
 - Reciba actividad de la tienda mediante el código de seguimiento que instala Fenicio.
-- Use esos datos como señales para segmentos, playbooks, rutas, reportes y atribución.
+- Use esos datos como señales para segmentos, misiones, rutas, reportes y atribución.
 
 La importación histórica de clientes es opcional. Aunque no la selecciones, Hellotext puede crear o actualizar perfiles de clientes a partir de las nuevas órdenes y de la actividad que reciba después de activar la integración.
 
@@ -89,7 +89,7 @@ Después de que la integración aparezca como activa:
 4. Realiza una orden de prueba y confirma que aparezca en Hellotext después de unos minutos.
 5. Navega la tienda y confirma que Hellotext reciba actividad después de que Fenicio instale el código de seguimiento.
 
-Antes de habilitar playbooks o rutas basados en estos datos, sigue la guía para [verificar tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %}).
+Antes de habilitar misiones o rutas basadas en estos datos, sigue la guía para [verificar tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %}).
 
 ## Soluciona problemas de conexión
 

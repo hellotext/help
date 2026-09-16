@@ -15,7 +15,7 @@ No sumes los cuatro montos comparados por Hellotext. Solo el mayor se convierte 
 
 ## La atribución no coincide con un reporte
 
-Confirma que ambas vistas usen el mismo rango de fechas, moneda y base temporal. Un reporte de playbooks puede organizar resultados por fecha de activación, mientras otro reporte puede usar una fecha de evento diferente.
+Confirma que ambas vistas usen el mismo rango de fechas, moneda y base temporal. Un reporte de misiones puede organizar resultados por fecha de activación, mientras otro reporte puede usar una fecha de evento diferente.
 
 Usa [Cómo atribuimos ventas]({% link _analytics-reporting-attribution/sales-attribution.md %}) e [Integridad de datos y diferencias entre reportes]({% link _analytics-reporting-attribution/data-completeness-and-reporting-gaps.md %}) para conciliar los datos de origen.
 

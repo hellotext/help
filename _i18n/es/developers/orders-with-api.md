@@ -136,7 +136,7 @@ Los pedidos históricos ayudan a Hellotext a entender actividad previa de client
 3. Establece `tracked_at` con la fecha original del evento.
 4. Conserva el monto y la moneda originales.
 
-No uses la fecha de importación como `tracked_at`. De lo contrario, compras antiguas pueden parecer comportamiento actual y afectar segmentos, decisiones de playbooks y reportes.
+No uses la fecha de importación como `tracked_at`. De lo contrario, compras antiguas pueden parecer comportamiento actual y afectar segmentos, decisiones de misiones y reportes.
 
 ## 6. Evita pedidos y eventos duplicados
 

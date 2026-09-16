@@ -1,6 +1,6 @@
 Los links con tracking permiten conectar un clic con el mensaje que lo originó, el perfil del cliente, una sesión, los reportes y la actividad que ocurre después en tu sitio.
 
-Hellotext puede crear estos links en mensajes de campañas, rutas, playbooks e Inbox. Para que el contexto continúe después de la redirección, el sitio de destino debe conservar la sesión y registrar correctamente la actividad posterior.
+Hellotext puede crear estos links en mensajes de campañas, rutas, misiones e Inbox. Para que el contexto continúe después de la redirección, el sitio de destino debe conservar la sesión y registrar correctamente la actividad posterior.
 
 ## Qué hace Hellotext cuando el cliente hace clic
 
@@ -10,7 +10,7 @@ Cuando el cliente hace clic, Hellotext:
 
 1. Registra la acción `short_link.clicked` para el perfil del cliente y el mensaje correspondiente.
 2. Actualiza la cantidad de clics del link y los reportes disponibles.
-3. Conserva el contexto de la campaña, broadcast, ruta, paso o playbook que originó el mensaje.
+3. Conserva el contexto de la campaña, broadcast, ruta, paso o misión que originó el mensaje.
 4. Redirige al cliente a la URL original.
 5. Agrega una sesión y parámetros UTM a la URL de destino.
 
@@ -31,7 +31,7 @@ Los parámetros tienen funciones diferentes:
 - `hello_session` conserva la sesión asociada con el link y permite conectar actividad posterior.
 - `utm_source` identifica el origen del tráfico; normalmente su valor es `hellotext`.
 - `utm_medium` identifica el canal cuando está disponible.
-- `utm_campaign` identifica la campaña, ruta o playbook cuando corresponde.
+- `utm_campaign` identifica la campaña, ruta o misión cuando corresponde.
 
 El parámetro vigente es `hello_session`. No uses ni busques `hellotext_session`.
 
@@ -61,7 +61,7 @@ El mismo mecanismo conserva diferentes referencias según dónde se creó el men
 
 - **Campaña:** el clic se relaciona con la campaña, el broadcast y el mensaje enviado.
 - **Ruta:** el clic se relaciona con la ruta, el paso y el mensaje que se ejecutó.
-- **Playbook:** el clic se relaciona con el playbook y el mensaje generado o enviado.
+- **Misión:** el clic se relaciona con la misión y el mensaje generado o enviado.
 - **Inbox:** el clic queda en la actividad del cliente y la conversación, aunque no tenga un reporte de campaña o automatización.
 
 No reutilices manualmente el link personalizado de un mensaje para otros clientes o envíos. Agrega el destino mediante la herramienta de links del editor y permite que Hellotext genere el contexto correcto para cada mensaje.
@@ -80,7 +80,7 @@ No envíes el mismo evento desde Hellotext.js y desde el backend. Consulta [Segu
 
 ## Clics, reportes y atribución
 
-Los clics pueden aparecer en la actividad del perfil del cliente y en reportes de campañas, rutas o playbooks cuando ese reporte está disponible.
+Los clics pueden aparecer en la actividad del perfil del cliente y en reportes de campañas, rutas o misiones cuando ese reporte está disponible.
 
 Un clic elegible puede aportar evidencia activa de atribución y normalmente abre una ventana de siete días desde el clic. Una entrega elegible u otra señal pasiva puede aplicar dentro de la ventana predeterminada de 24 horas. Estas ventanas pueden configurarse por cuenta.
 
@@ -88,7 +88,7 @@ El clic no garantiza que una compra se atribuya a ese origen. Hellotext también
 
 - Que el cliente y el pedido estén identificados correctamente.
 - Que la compra ocurra dentro de la ventana aplicable.
-- Que la campaña, ruta, playbook o entrega sean elegibles.
+- Que la campaña, ruta, misión o entrega sean elegibles.
 - Que no exista otra fuente válida con mayor precedencia.
 
 Consulta [Cómo atribuimos las ventas]({% link _analytics-reporting-attribution/sales-attribution.md %}) para conocer las ventanas, la precedencia y los ejemplos completos.
@@ -102,7 +102,7 @@ Prueba con un perfil del cliente y un mensaje reconocibles:
 3. Confirma que la URL de destino incluya `hello_session` y los parámetros UTM esperados.
 4. Verifica que `Hellotext.session` coincida con la sesión recibida.
 5. Confirma que el clic aparezca en la actividad del perfil del cliente.
-6. Revisa el reporte de la campaña, ruta o playbook cuando esté disponible.
+6. Revisa el reporte de la campaña, ruta o misión cuando esté disponible.
 7. Registra una vista de producto, carrito o pedido de prueba y confirma que conserve el cliente y el origen correctos.
 8. Comprueba que la misma actividad no se haya registrado dos veces.
 

@@ -1,6 +1,6 @@
 Usa esta guía cuando los clientes empezaron a enfriarse y quieres que Hellotext los reactive antes de que queden totalmente inactivos. Reactivación Suave cubre inactividad reciente, normalmente alrededor de 30 días sin compra, visita, click, respuesta u otra interacción relevante.
 
-Reactivación Suave es un playbook de retención. Ayuda a Hellotext a reconocer clientes cuyo comportamiento reciente viene bajando, y luego enviar un empujón personalizado con productos, ofertas o contexto de mensaje relevantes cuando el cliente todavía puede ser alcanzado.
+Reactivación Suave es una misión de retención. Ayuda a Hellotext a reconocer clientes cuyo comportamiento reciente viene bajando, y luego enviar un empujón personalizado con productos, ofertas o contexto de mensaje relevantes cuando el cliente todavía puede ser alcanzado.
 
 No es una ruta, una campaña puntual ni un último intento de recuperación. Vive antes en el ciclo del cliente: después de que el cliente ya mostró valor, pero antes de que pase suficiente tiempo inactivo como para usar [Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %}), que apunta a clientes alrededor de 3 meses sin actividad. Para clientes alrededor de 12 meses sin actividad o sin reactivarse, usa [Último Intento]({% link _journeys/sunset-saver-playbook.md %}).
 
@@ -19,11 +19,11 @@ Puede:
 - Permitir que tu equipo dé feedback en Playground para que Hellotext aprenda qué encaja con el negocio.
 - Seguir reglas de oferta existentes del eCommerce, usar descuentos con IA hasta un porcentaje máximo aprobado o enviar sin descuentos.
 - Buscar el canal más eficiente en costo entre los disponibles, como WhatsApp, SMS u otros, y enviar solo cuando detecta internamente una oportunidad con ROI saludable.
-- Omitir clientes cuando una compra reciente, otro playbook activo, falta de consentimiento, límites de canal o poco contexto de producto hacen que el envío no sea una buena idea.
+- Omitir clientes cuando una compra reciente, otra misión activa, falta de consentimiento, límites de canal o poco contexto de producto hacen que el envío no sea una buena idea.
 
 La configuración exacta puede variar según cuenta, tienda conectada, calidad del catálogo, canal, plantillas y estado de despliegue.
 
-## Cuándo usarlo
+## Cuándo usarla
 
 Usa Reactivación Suave cuando los clientes todavía no están completamente dormidos, pero su interacción empezó a bajar.
 
@@ -36,7 +36,7 @@ Encaja bien cuando:
 - Hay productos, colecciones u ofertas relevantes para ese cliente.
 - El objetivo es mantener la relación antes de que el cliente sea más difícil de recuperar.
 
-No lo uses para un momento específico de reposición de producto. Usa [Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %}) cuando el cliente podría necesitar volver a comprar un producto consumible. Usa [Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %}) cuando la mejor acción siguiente es un producto relacionado después de una compra. Usa [Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %}) cuando el cliente ya lleva alrededor de 3 meses sin actividad y [Último Intento]({% link _journeys/sunset-saver-playbook.md %}) cuando lleva alrededor de 12 meses sin actividad o sin reactivarse.
+No la uses para un momento específico de reposición de producto. Usa [Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %}) cuando el cliente podría necesitar volver a comprar un producto consumible. Usa [Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %}) cuando la mejor acción siguiente es un producto relacionado después de una compra. Usa [Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %}) cuando el cliente ya lleva alrededor de 3 meses sin actividad y [Último Intento]({% link _journeys/sunset-saver-playbook.md %}) cuando lleva alrededor de 12 meses sin actividad o sin reactivarse.
 
 ## Qué necesita antes del lanzamiento
 
@@ -59,17 +59,17 @@ Después del lanzamiento, usa los reportes automáticos para revisar envíos, cl
 
 ## Qué puedes configurar
 
-Abre **Playbooks**, haz click en **Explorar playbooks** y elige **Reactivación Suave**.
+Abre **Misiones**, haz click en **Explorar misiones** y elige **Reactivación Suave**.
 
 Las tarjetas disponibles pueden variar, pero la configuración propuesta se concentra en:
 
 - **Canales de salida:** dónde Hellotext puede enviar o continuar el mensaje de reactivación.
-- **Audiencia:** qué audiencia o segmento puede recibir el playbook.
+- **Audiencia:** qué audiencia o segmento puede recibir la misión.
 - **Productos:** qué productos, colecciones, categorías o grupos puede usar el mensaje.
-- **Estrategia de descuento:** si el playbook sigue las reglas de oferta del eCommerce, puede usar descuentos con IA hasta un porcentaje máximo o envía sin descuentos.
+- **Estrategia de descuento:** si la misión sigue las reglas de oferta del eCommerce, puede usar descuentos con IA hasta un porcentaje máximo o envía sin descuentos.
 - **Tono o feedback en Playground:** cómo deberían aprender los ejemplos generados qué encaja con tu negocio.
 
-Mantén la selección automática de canales salvo que tengas una razón clara para limitar el playbook. Reactivación Suave depende de si el cliente puede ser alcanzado en un momento donde el empujón todavía se siente oportuno. Hellotext puede elegir internamente el canal más eficiente en costo, como WhatsApp, SMS u otros según disponibilidad, y evitar envíos cuando no detecta una oportunidad con ROI saludable.
+Mantén la selección automática de canales salvo que tengas una razón clara para limitar la misión. Reactivación Suave depende de si el cliente puede ser alcanzado en un momento donde el empujón todavía se siente oportuno. Hellotext puede elegir internamente el canal más eficiente en costo, como WhatsApp, SMS u otros según disponibilidad, y evitar envíos cuando no detecta una oportunidad con ROI saludable.
 
 Si necesitas un agente conversacional a medida con instrucciones, conocimiento y reglas de derivación propias, usa [Agente Personalizado]({% link _journeys/custom-agent-playbook.md %}). Si necesitas una secuencia totalmente controlada de pasos, usa una ruta personalizada.
 
@@ -82,7 +82,7 @@ Hellotext puede usar señales como:
 - Días desde la última compra, última visita, último click, última respuesta o última interacción relevante.
 - Historial de compras y valor del cliente.
 - Interés reciente en productos, categorías navegadas o productos comprados antes.
-- Si otro playbook ya es dueño del momento, como recuperación de carrito, recompra, venta cruzada o soporte.
+- Si otra misión ya se encarga de ese momento, como recuperación de carrito, recompra, venta cruzada o soporte.
 - Disponibilidad de producto, precio, stock, links y reglas de descuento.
 - Elegibilidad de canal, consentimiento e historial reciente de comunicación.
 
@@ -93,12 +93,12 @@ Antes de enviar, Hellotext también puede considerar:
 - Si el cliente compró, respondió, se dio de baja o quitó su consentimiento recientemente.
 - Si el perfil puede recibir un mensaje en un canal elegible.
 - Si existe una oportunidad interna de mantener un ROI saludable para ese envío.
-- Si otro playbook activo encaja mejor.
+- Si otra misión activa encaja mejor.
 - Si timing, frecuencia, horarios silenciosos, plantillas o reglas de canal permiten el envío.
 
-Para el modelo general de decisión, mira [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}).
+Para el modelo general de decisión, mira [Cómo decide Hellotext si una misión puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}).
 
-## Cómo funciona con playbooks cercanos
+## Cómo funciona con misiones cercanas
 
 Usa el momento del cliente para decidir quién debería ser dueño.
 
@@ -112,7 +112,7 @@ Usa el momento del cliente para decidir quién debería ser dueño.
 | El cliente abandonó carrito o checkout | [Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}) o [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) |
 | Quieres enviar un mensaje planificado y puntual a una audiencia seleccionada | [Campañas]({% link _campaigns/campaigns-overview.md %}) |
 
-Reactivación Suave puede convivir con otros playbooks cuando cada uno maneja un momento distinto. No debería competir con una señal más específica, como carrito abandonado, ventana esperada de reposición o una conversación activa de soporte.
+Reactivación Suave puede convivir con otras misiones cuando cada una maneja un momento distinto. No debería competir con una señal más específica, como carrito abandonado, ventana esperada de reposición o una conversación activa de soporte.
 
 ## Revisa mensajes en el Playground
 
@@ -131,16 +131,16 @@ Cuando revises ejemplos, mira:
 
 Cuanto más realistas sean los ejemplos, mejor puede el sistema adaptar los mensajes a tu tienda.
 
-## Cómo probarlo
+## Cómo probarla
 
-Prueba con un camino pequeño y realista antes de habilitarlo ampliamente.
+Prueba con un camino pequeño y realista antes de habilitarla ampliamente.
 
 Usa perfiles del cliente de prueba que tengan consentimiento de canal, luego:
 
 - Elige un perfil con historial de compra o interacción que haya bajado su actividad.
 - Confirma que el perfil tenga actividad reciente e histórica visible en Hellotext.
 - Confirma que la audiencia incluya el perfil de prueba.
-- Confirma que los productos o colecciones usados por el playbook tengan imágenes, precios, stock, variantes y links correctos.
+- Confirma que los productos o colecciones usados por la misión tengan imágenes, precios, stock, variantes y links correctos.
 - Genera o simula ejemplos de mensaje en el Playground.
 - Marca ejemplos que te gustan y ejemplos que no te gustan.
 - Prueba un cliente que volvió a comprar recientemente y no debería recibir una reactivación.
@@ -152,13 +152,13 @@ Si el tracking es personalizado, confirma que eventos de compra, eventos de inte
 
 ## Por qué puede no enviar
 
-Que Reactivación Suave esté habilitado no significa que cada cliente con baja actividad reciba un mensaje.
+Que la misión Reactivación Suave esté habilitada no significa que cada cliente con baja actividad reciba un mensaje.
 
-El playbook puede esperar, omitir, detenerse o dejar actuar a otro playbook cuando:
+La misión puede esperar, omitir, detenerse o dejar actuar a otra misión cuando:
 
 - La actividad del cliente falta, llega tarde o no está conectada a un perfil del cliente usable.
 - El cliente todavía no se enfrió lo suficiente para un mensaje de reactivación.
-- El cliente compró, hizo click, respondió o entró en otro playbook activo recientemente.
+- El cliente compró, hizo click, respondió o entró en otra misión activa recientemente.
 - No se encuentra un producto, colección, oferta o ángulo de mensaje relevante.
 - Los productos no están disponibles, no tienen stock, no tienen precio, no tienen imagen o no tienen un link usable.
 - El perfil no puede ser alcanzado en un canal elegible.
@@ -166,9 +166,9 @@ El playbook puede esperar, omitir, detenerse o dejar actuar a otro playbook cuan
 - Hellotext no detecta una oportunidad con ROI saludable para escribir en ese momento.
 - Timing, frecuencia, horarios silenciosos, plantillas o reglas de canal impiden el envío.
 - El canal, remitente, plantilla, link o formato del mensaje no está listo.
-- Otro playbook activo encaja mejor.
+- Otra misión activa encaja mejor.
 
-Para un diagnóstico paso a paso, usa [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}).
+Para un diagnóstico paso a paso, usa [Soluciona una misión que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}).
 
 ## Qué revisar después del lanzamiento
 
@@ -180,26 +180,26 @@ Durante los primeros días, revisa:
 - Si links, imágenes, precios, variantes y stock fueron correctos.
 - Compras, ingresos atribuidos, bajas, respuestas y mensajes fallidos.
 - Si los descuentos mejoraron reactivación o solo redujeron margen.
-- Si Reactivación Suave se superpone con Impulsor de Recompra, Impulsor de Ventas Cruzadas, Recuperador de Carritos con IA, playbooks de soporte o campañas.
+- Si Reactivación Suave se superpone con Impulsor de Recompra, Impulsor de Ventas Cruzadas, Recuperador de Carritos con IA, misiones de soporte o campañas.
 
 Ajusta una cosa por vez: audiencia, alcance de productos, lógica de producto, tono, feedback en Playground, estrategia de descuento, canal o camino de derivación.
 
 ## Guías relacionadas
 
-- [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
-- [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
-- [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
-- [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Biblioteca de misiones por objetivo]({% link _journeys/playbook-library-by-mission.md %})
+- [Elige tu primera misión]({% link _journeys/choose-your-first-playbook.md %})
+- [Cómo habilitar una misión]({% link _journeys/how-to-enable-a-playbook.md %})
+- [Cómo personalizar una misión de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [Qué son las señales]({% link _journeys/what-are-signals.md %})
-- [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
-- [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
+- [Cómo decide Hellotext si una misión puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
+- [Soluciona una misión que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Seguimiento de eventos]({% link _developers/tracking-events.md %})
 - [Conecta Shopify]({% link _integrations/connect-shopify.md %})
 - [Conecta tu catálogo a WhatsApp]({% link _integrations/connect-catalog-to-whatsapp.md %})
-- [Playbook Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %})
-- [Playbook Último Intento]({% link _journeys/sunset-saver-playbook.md %})
-- [Playbook Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %})
-- [Playbook Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %})
-- [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
-- [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})
+- [Misión Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %})
+- [Misión Último Intento]({% link _journeys/sunset-saver-playbook.md %})
+- [Misión Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %})
+- [Misión Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %})
+- [Misión Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
+- [Reportes de misiones]({% link _analytics-reporting-attribution/playbook-reporting.md %})

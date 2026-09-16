@@ -1,6 +1,6 @@
 Usa esta guía cuando los compradores están considerando uno o más productos y quieres que Hellotext sugiera ítems que completan el look, kit, rutina o set.
 
-Completa el Look es un playbook de conversión asistido por IA. Usa contexto de producto, reglas de audiencia, comportamiento del cliente, relaciones de catálogo, elegibilidad de canal y reglas de oferta para generar sugerencias personalizadas de productos que combinan.
+Completa el Look es una misión de conversión asistida por IA. Usa contexto de producto, reglas de audiencia, comportamiento del cliente, relaciones de catálogo, elegibilidad de canal y reglas de oferta para generar sugerencias personalizadas de productos que combinan.
 
 No es una ruta y no es un chat genérico de recomendación de productos. Parte de un producto que el comprador eligió, vio o consideró, y luego sugiere algo que combina naturalmente.
 
@@ -22,7 +22,7 @@ Puede:
 
 La configuración exacta puede variar según cuenta, tienda conectada, calidad del catálogo, canal, plantillas y estado de despliegue.
 
-## Cuándo usarlo
+## Cuándo usarla
 
 Usa Completa el Look cuando el cliente ya tiene un producto principal y otro producto puede mejorar la elección.
 
@@ -36,7 +36,7 @@ Encaja bien cuando:
 
 Funciona especialmente bien para indumentaria, calzado, accesorios, rutinas de belleza, sets de hogar, accesorios de electrónica, conjuntos de productos compatibles y cualquier catálogo donde el siguiente producto depende del producto principal.
 
-No lo uses como recomendador conversacional. Si el cliente pregunta qué comprar, compara opciones, pregunta por talles o necesita guía de producto por chat, usa [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}).
+No la uses como recomendador conversacional. Si el cliente pregunta qué comprar, compara opciones, pregunta por talles o necesita guía de producto por chat, usa [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}).
 
 Para complementos post-compra o expansión después de una compra completada, usa [Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %}). Para seguimiento de navegación cuando no hay un momento claro de producto que combina, usa [Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}).
 
@@ -61,19 +61,19 @@ Después del lanzamiento, usa los reportes automáticos para revisar envíos, cl
 
 ## Qué puedes configurar
 
-Abre **Playbooks**, haz click en **Explorar playbooks** y elige **Completa el Look**.
+Abre **Misiones**, haz click en **Explorar misiones** y elige **Completa el Look**.
 
 Las tarjetas disponibles pueden variar, pero la configuración propuesta se concentra en:
 
 - **Canales de salida:** dónde Hellotext puede enviar sugerencias de productos que combinan.
-- **Audiencia:** qué audiencia o segmento puede recibir el playbook.
-- **Productos:** qué productos, colecciones, categorías o grupos puede usar el playbook.
-- **Estrategia de descuento:** si el playbook sigue las reglas de oferta del eCommerce, puede usar descuentos con IA hasta un porcentaje máximo o envía sin descuentos.
+- **Audiencia:** qué audiencia o segmento puede recibir la misión.
+- **Productos:** qué productos, colecciones, categorías o grupos puede usar la misión.
+- **Estrategia de descuento:** si la misión sigue las reglas de oferta del eCommerce, puede usar descuentos con IA hasta un porcentaje máximo o envía sin descuentos.
 - **Tono o feedback en Playground:** cómo deberían aprender los ejemplos generados qué encaja con tu negocio.
 
-Mantén la selección automática de canales salvo que tengas una razón clara para limitar el playbook. Completa el Look depende de si el comprador puede ser alcanzado cuando la sugerencia de producto que combina todavía es relevante.
+Mantén la selección automática de canales salvo que tengas una razón clara para limitar la misión. Completa el Look depende de si el comprador puede ser alcanzado cuando la sugerencia de producto que combina todavía es relevante.
 
-Este playbook normalmente no debería requerir configuración manual de prompt, intenciones o pasos de ruta. Si necesitas un agente conversacional a medida con intenciones y conocimiento propios, usa [Agente Personalizado]({% link _journeys/custom-agent-playbook.md %}).
+Esta misión normalmente no debería requerir configuración manual de prompt, intenciones o pasos de ruta. Si necesitas un agente conversacional a medida con intenciones y conocimiento propios, usa [Agente Personalizado]({% link _journeys/custom-agent-playbook.md %}).
 
 ## Cómo se eligen las recomendaciones
 
@@ -92,12 +92,12 @@ Antes de enviar, Hellotext también puede considerar:
 - Si el producto principal sigue siendo válido y está conectado a un perfil del cliente alcanzable.
 - Si el producto que combina está disponible y dentro del alcance de productos configurado.
 - Si el cliente ya compró el producto sugerido o un sustituto cercano.
-- Si otro playbook es mejor dueño del mismo momento.
+- Si otra misión puede encargarse mejor del mismo momento.
 - Si consentimiento, timing, frecuencia y reglas de canal permiten el envío.
 
-Para el modelo general de decisión, mira [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}).
+Para el modelo general de decisión, mira [Cómo decide Hellotext si una misión puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}).
 
-## Cómo funciona con playbooks cercanos
+## Cómo funciona con misiones cercanas
 
 Usa el momento del cliente para decidir quién debería ser dueño.
 
@@ -129,9 +129,9 @@ Cuando revises ejemplos, mira:
 
 Cuanto más realistas sean los ejemplos, mejor puede el sistema adaptar los mensajes a tu tienda.
 
-## Cómo probarlo
+## Cómo probarla
 
-Prueba con un camino pequeño y realista antes de habilitarlo ampliamente.
+Prueba con un camino pequeño y realista antes de habilitarla ampliamente.
 
 Usa perfiles del cliente de prueba que tengan consentimiento de canal, luego:
 
@@ -151,9 +151,9 @@ Si el tracking es personalizado, confirma que identificadores de producto, ident
 
 ## Por qué puede no enviar
 
-Que Completa el Look esté habilitado no significa que cada vista o selección de producto produzca una sugerencia.
+Que la misión Completa el Look esté habilitada no significa que cada vista o selección de producto produzca una sugerencia.
 
-El playbook puede esperar, omitir, detenerse o dejar actuar a otro playbook cuando:
+La misión puede esperar, omitir, detenerse o dejar actuar a otra misión cuando:
 
 - Las señales de interés de producto o compra faltan, llegan tarde o no están conectadas a un perfil del cliente usable.
 - El producto principal está fuera del alcance de productos configurado.
@@ -164,9 +164,9 @@ El playbook puede esperar, omitir, detenerse o dejar actuar a otro playbook cuan
 - El cliente se dio de baja, no tiene consentimiento o no es elegible.
 - Reglas de frecuencia, timing o canal impiden el envío.
 - El canal, remitente, plantilla, link o formato del mensaje no está listo.
-- Otro playbook activo encaja mejor.
+- Otra misión activa encaja mejor.
 
-Para un diagnóstico paso a paso, usa [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}).
+Para un diagnóstico paso a paso, usa [Soluciona una misión que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}).
 
 ## Qué revisar después del lanzamiento
 
@@ -184,20 +184,20 @@ Ajusta una cosa por vez: alcance de productos, audiencia, reglas de recomendaci�
 
 ## Guías relacionadas
 
-- [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
-- [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
-- [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
-- [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Biblioteca de misiones por objetivo]({% link _journeys/playbook-library-by-mission.md %})
+- [Elige tu primera misión]({% link _journeys/choose-your-first-playbook.md %})
+- [Cómo habilitar una misión]({% link _journeys/how-to-enable-a-playbook.md %})
+- [Cómo personalizar una misión de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [Qué son las señales]({% link _journeys/what-are-signals.md %})
-- [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
-- [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
+- [Cómo decide Hellotext si una misión puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
+- [Soluciona una misión que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Seguimiento de eventos]({% link _developers/tracking-events.md %})
 - [Conecta Shopify]({% link _integrations/connect-shopify.md %})
 - [Conecta tu catálogo a WhatsApp]({% link _integrations/connect-catalog-to-whatsapp.md %})
-- [Playbook Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %})
-- [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
-- [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
-- [Playbook Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %})
-- [Playbook Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %})
-- [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})
+- [Misión Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %})
+- [Misión Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
+- [Misión Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
+- [Misión Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %})
+- [Misión Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %})
+- [Reportes de misiones]({% link _analytics-reporting-attribution/playbook-reporting.md %})

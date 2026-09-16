@@ -1,4 +1,4 @@
-Conecta Instagram cuando los clientes descubren tu negocio allí y esperan continuar por mensajes directos. Hellotext puede llevar las conversaciones elegibles de Instagram al Inbox para que el equipo, los playbooks, las rutas y los agentes de IA respondan con contexto compartido.
+Conecta Instagram cuando los clientes descubren tu negocio allí y esperan continuar por mensajes directos. Hellotext puede llevar las conversaciones elegibles de Instagram al Inbox para que el equipo, las misiones, las rutas y los agentes de IA respondan con contexto compartido.
 
 Instagram DM es principalmente un canal conversacional iniciado por el cliente. Funciona distinto a los envíos de campañas por SMS y WhatsApp: que alguien siga tu cuenta o que conozcas su nombre de usuario no permite, por sí solo, iniciar un nuevo mensaje directo.
 
@@ -11,7 +11,7 @@ Usa Instagram DM para:
 - Consultas sobre productos de personas que exploran tu perfil o contenido de Instagram.
 - Conversaciones de soporte que empiezan como mensaje directo.
 - Respuestas compatibles a una historia de Instagram.
-- Agentes de IA y playbooks reactivos que responden en el canal donde escribió el cliente.
+- Agentes de IA reactivos y misiones reactivas que responden en el canal donde escribió el cliente.
 - Rutas que hacen preguntas, recopilan contexto, crean ramas o asignan una conversación activa.
 - Respuestas individuales desde el Inbox durante una conversación elegible.
 
@@ -25,7 +25,7 @@ Un cliente inicia la conversación en Instagram enviando un mensaje directo o un
 2. Encuentra o crea el perfil del cliente correspondiente.
 3. Agrega la identidad de Instagram a ese perfil del cliente.
 4. Abre o actualiza la conversación privada en el Inbox.
-5. Deja la conversación disponible para la persona, ruta, playbook o agente de IA configurado.
+5. Deja la conversación disponible para la persona, la ruta, la misión o el agente de IA que configuraste.
 
 Un seguidor no queda disponible automáticamente para mensajes directos. El cliente primero debe crear una interacción elegible en Instagram para que Hellotext pueda responder por este canal.
 
@@ -47,7 +47,7 @@ Hellotext puede procesar actividad compatible de mensajes directos de Instagram,
 - Imágenes, videos, audios y otros adjuntos compatibles.
 - Mensajes de voz, stickers y respuestas a mensajes anteriores.
 - Respuestas compatibles a historias.
-- Respuestas rápidas, botones y tarjetas de producto creadas por playbooks o flujos de mensajes compatibles.
+- Respuestas rápidas, botones y tarjetas de producto creadas por misiones o flujos de mensajes compatibles.
 - Actividad de lectura y reacciones cuando Meta las proporciona.
 
 Los comentarios públicos, menciones en historias y contenido efímero no se tratan como conversaciones normales de Instagram DM en el Inbox. Prueba la interacción exacta que esperas que usen los clientes en lugar de asumir que cada notificación de Instagram se convierte en una conversación.
@@ -66,9 +66,9 @@ El canal activo importa. El contenido disponible en WhatsApp o Webchat puede no 
 
 Sigue leyendo: [Resumen de Inbox y conversaciones]({% link _team/inbox-overview.md %}) y [Asigna conversaciones]({% link _team/assigning-conversations.md %}).
 
-## Usa playbooks, rutas y agentes de IA
+## Usa misiones, rutas y agentes de IA
 
-Los playbooks reactivos y agentes de IA pueden configurarse para responder en todos los canales de entrada o específicamente en Instagram DM. Reciben el contexto de la conversación y pueden responder, recomendar productos, recopilar información o derivar la conversación según su configuración.
+Las misiones reactivas y los agentes de IA pueden configurarse para responder en todos los canales de entrada o específicamente en Instagram DM. Reciben el contexto de la conversación y pueden responder, recomendar productos, recopilar información o derivar la conversación según su configuración.
 
 Para un agente de IA, confirma que:
 
@@ -79,9 +79,9 @@ Para un agente de IA, confirma que:
 
 Las rutas pueden usar pasos de Instagram mientras el cliente y el canal sigan siendo elegibles. Prueba envíos, preguntas, ramas y pasos de asignación, incluyendo qué debería ocurrir cuando la ventana de Instagram se cierre o la integración deje de estar disponible.
 
-Algunos playbooks autónomos proactivos pueden considerar Instagram solo cuando el cliente ya tiene una identidad de Instagram disponible y el mensaje es elegible según las reglas de Meta y Hellotext. Habilitar Instagram no hace que todas las oportunidades de un playbook se envíen por este canal.
+Algunas misiones autónomas proactivas pueden considerar Instagram solo cuando el cliente ya tiene una identidad de Instagram disponible y el mensaje es elegible según las reglas de Meta y Hellotext. Habilitar Instagram no hace que todas las oportunidades de una misión se envíen por este canal.
 
-Sigue leyendo: [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %}) y [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}).
+Sigue leyendo: [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %}) y [Cómo decide Hellotext si una misión puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}).
 
 ## Perfiles del cliente y consentimiento
 
@@ -126,7 +126,7 @@ Antes de depender de Instagram DM, confirma que:
 1. La cuenta profesional correcta esté conectada y activa.
 2. Un DM de prueba cree o actualice el perfil del cliente correcto.
 3. La conversación aparezca en el Inbox con la identidad de Instagram correcta.
-4. Las personas, equipos, playbooks, rutas o agentes de IA reciban la conversación como esperas.
+4. Las personas, equipos, misiones, rutas o agentes de IA reciban la conversación como esperas.
 5. El texto, adjuntos, respuestas a historias, botones y tarjetas de productos que planeas usar hayan sido probados.
 6. La Derivación llegue a la persona o equipo correcto.
 7. Tu equipo entienda la ventana de mensajería y el proceso de reconexión.
@@ -137,6 +137,6 @@ Antes de depender de Instagram DM, confirma que:
 - [Resumen de canales de mensajería]({% link _numbers/messaging-overview.md %})
 - [Resumen de Inbox y conversaciones]({% link _team/inbox-overview.md %})
 - [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})
-- [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})
+- [Resumen de misiones y automatización]({% link _journeys/playbooks-overview.md %})
 - [Primeros pasos con rutas]({% link _journeys/getting-started-with-journeys.md %})
 - [Envía mensajes con la API]({% link _developers/send-messages-with-api.md %})

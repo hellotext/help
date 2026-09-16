@@ -1,10 +1,10 @@
 Usa esta guía cuando los compradores mostraron interés en un producto y quieres que Hellotext les notifique automáticamente cuando ese producto baja de precio de forma relevante para ellos.
 
-Alerta de Baja de Precio es un playbook autónomo de conversión. Cruza cambios de precio del catálogo con interés reciente de cada cliente, verifica si cada cliente vio personalmente un precio más alto y envía una alerta enfocada cuando la oportunidad todavía tiene sentido.
+Alerta de Baja de Precio es una misión autónoma de conversión. Cruza cambios de precio del catálogo con interés reciente de cada cliente, verifica si cada cliente vio personalmente un precio más alto y envía una alerta enfocada cuando la oportunidad todavía tiene sentido.
 
 Su valor está en simplificar la operación: Hellotext detecta bajas de precio relevantes, encuentra a los compradores con más probabilidad de interés y comunica el nuevo precio sin que tu equipo tenga que armar segmentos, revisar historial de producto o enviar una campaña manual.
 
-No es una ruta ni una campaña general de descuentos. Es un playbook preconstruido con su propia configuración y reglas automáticas de elegibilidad.
+No es una ruta ni una campaña general de descuentos. Es una misión preconstruida con su propia configuración y reglas automáticas de elegibilidad.
 
 ## Qué hace Alerta de Baja de Precio
 
@@ -21,9 +21,9 @@ Puede:
 - Evitar mensajes cuando el cliente ya compró el producto recientemente, el precio volvió a cambiar o el producto ya no puede venderse.
 - Permitir que tu equipo revise configuración disponible como canal, tono y derivación o asignación.
 
-La configuración exacta puede variar según cuenta, tienda conectada, plan y estado de despliegue. Revisa el playbook generado antes de habilitarlo en lugar de asumir que todos los negocios tienen las mismas opciones.
+La configuración exacta puede variar según cuenta, tienda conectada, plan y estado de despliegue. Revisa la misión generada antes de habilitarla en lugar de asumir que todos los negocios tienen las mismas opciones.
 
-## Cuándo usarlo
+## Cuándo usarla
 
 Usa Alerta de Baja de Precio cuando los clientes mostraron interés en un producto específico y el precio luego baja lo suficiente como para que valga la pena reactivar la conversación.
 
@@ -42,7 +42,7 @@ Usa [Vuelta a Stock]({% link _journeys/back-in-stock-pounce.md %}) cuando el cam
 
 ## Qué necesita antes del lanzamiento
 
-Antes de habilitar el playbook, confirma las señales de catálogo, producto y cliente de las que depende.
+Antes de habilitar la misión, confirma las señales de catálogo, producto y cliente de las que depende.
 
 Revisa que:
 
@@ -58,13 +58,13 @@ Revisa que:
 
 Para validar la configuración, usa [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %}). Para tracking personalizado, usa [Seguimiento de eventos]({% link _developers/tracking-events.md %}).
 
-Después de habilitar el playbook, usa los reportes automáticos para revisar compradores activados, mensajes entregados, interacción, compras recuperadas, ingresos atribuidos, ingresos por segmento, ingresos por canal y tiempo promedio de recuperación.
+Después de habilitar la misión, usa los reportes automáticos para revisar compradores activados, mensajes entregados, interacción, compras recuperadas, ingresos atribuidos, ingresos por segmento, ingresos por canal y tiempo promedio de recuperación.
 
-## Cómo configurarlo
+## Cómo configurarla
 
-Ve a **Playbooks**, haz click en **Explorar playbooks** y elige **Alerta de Baja de Precio**.
+Ve a **Misiones**, haz click en **Explorar misiones** y elige **Alerta de Baja de Precio**.
 
-Revisa la configuración generada del playbook antes de habilitarlo.
+Revisa la configuración generada de la misión antes de habilitarla.
 
 Presta especial atención a:
 
@@ -75,7 +75,7 @@ Presta especial atención a:
 - **Conexión de catálogo:** si los cambios de precio llegan de forma confiable y rápida.
 - **Vista previa del mensaje:** si el mensaje explica producto, precio anterior, precio nuevo y razón para volver a mirar sin exagerar urgencia.
 
-La configuración se concentra en el umbral de baja, canal, tono, datos de producto y asignación o derivación. Prompts, intenciones o pasos de ruta pertenecen a otros tipos de playbook, no a este playbook de baja de precio.
+La configuración se concentra en el umbral de baja, canal, tono, datos de producto y asignación o derivación. Prompts, intenciones o pasos de ruta pertenecen a otros tipos de misión, no a esta misión de baja de precio.
 
 ## Cómo decide quién recibe una alerta de precio
 
@@ -91,7 +91,7 @@ Las fuentes actuales de interés incluyen:
 | Agregado al carrito | El cliente agregó el producto o una variante al carrito recientemente. |
 | Recomendación de producto | Hellotext recomendó recientemente ese producto al cliente. |
 
-Si el mismo cliente tiene varias señales para la familia de producto, Hellotext usa la observación con precio más reciente. Esto mantiene la alerta honesta: si un cliente primero vio un producto a un precio y después lo vio a un precio más bajo, el playbook compara contra el último precio que realmente vio.
+Si el mismo cliente tiene varias señales para la familia de producto, Hellotext usa la observación con precio más reciente. Esto mantiene la alerta honesta: si un cliente primero vio un producto a un precio y después lo vio a un precio más bajo, la misión compara contra el último precio que realmente vio.
 
 ## Cómo se escribe el mensaje
 
@@ -110,7 +110,7 @@ El mensaje no debería inventar stock, velocidad de venta, fechas límite, venci
 
 Si Hellotext tiene información confiable de stock en vivo, el mensaje puede usar ese contexto con cuidado. No debería crear falsa urgencia a partir de datos de stock faltantes o desactualizados.
 
-## Cómo funciona con playbooks cercanos
+## Cómo funciona con misiones cercanas
 
 Usa el momento del cliente para decidir quién debería ser dueño.
 
@@ -125,9 +125,9 @@ Usa el momento del cliente para decidir quién debería ser dueño.
 
 Alerta de Baja de Precio puede convivir con navegación, recuperación de carrito, recomendaciones y alertas de vuelta a stock cuando la propiedad está clara. Alerta de Baja de Precio maneja el momento en que el nuevo precio es la razón para volver a contactar.
 
-## Cómo probarlo
+## Cómo probarla
 
-Prueba con un caso pequeño y realista antes de habilitarlo ampliamente.
+Prueba con un caso pequeño y realista antes de habilitarla ampliamente.
 
 Usa un perfil del cliente de prueba que tenga consentimiento de canal, luego:
 
@@ -137,9 +137,9 @@ Usa un perfil del cliente de prueba que tenga consentimiento de canal, luego:
 - Confirma que el cambio de precio llegue a Hellotext con los mismos identificadores de producto o variante.
 - Confirma que el producto siga vendible y tenga un link usable.
 - Confirma que el mensaje use producto, precio anterior, precio nuevo, porcentaje de baja, imagen y link correctos.
-- Confirma que el playbook no envíe si el producto deja de estar vendible.
-- Confirma que el playbook no envíe un mensaje desactualizado si otro cambio de precio reemplaza al primero.
-- Confirma que el playbook no envíe si el cliente de prueba ya compró, cuando esa condición aplica.
+- Confirma que la misión no envíe si el producto deja de estar vendible.
+- Confirma que la misión no envíe un mensaje desactualizado si otro cambio de precio reemplaza al primero.
+- Confirma que la misión no envíe si el cliente de prueba ya compró, cuando esa condición aplica.
 - Envía una respuesta y confirma que llegue al Inbox si tu equipo debería manejar respuestas.
 - Revisa ejemplos activados, entregados, con interacción, recuperados, omitidos y bloqueados después del lanzamiento.
 
@@ -147,9 +147,9 @@ Si el tracking es personalizado, confirma que identificadores de producto, ident
 
 ## Por qué puede no enviar
 
-Habilitar el playbook no garantiza que cada baja de precio del catálogo produzca un mensaje.
+Habilitar la misión no garantiza que cada baja de precio del catálogo produzca un mensaje.
 
-El playbook puede no enviar cuando:
+La misión puede no enviar cuando:
 
 - El cambio de precio no llegó.
 - El precio subió, quedó igual o cambió de moneda.
@@ -163,9 +163,9 @@ El playbook puede no enviar cuando:
 - El cliente se dio de baja, no tiene consentimiento o no es elegible.
 - El canal, remitente, plantilla de WhatsApp o formato del mensaje no está listo.
 - Límites de frecuencia u otra regla de envío demoran o bloquean el mensaje.
-- Otro playbook o campaña ya está manejando el mismo momento del cliente.
+- Otra misión o campaña ya está manejando el mismo momento del cliente.
 
-Para un diagnóstico paso a paso, usa [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}).
+Para un diagnóstico paso a paso, usa [Soluciona una misión que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}).
 
 ## Qué revisar después del lanzamiento
 
@@ -179,27 +179,27 @@ Durante los primeros días, revisa:
 - Si links, imágenes, precios y variantes fueron correctos.
 - Respuestas, bajas y preguntas de soporte.
 - Compras, ingresos atribuidos, ingresos por segmento, ingresos por canal y oportunidades omitidas.
-- Si el playbook se superpone con campañas, Recuperación de Navegación, recuperación de carrito, Vuelta a Stock o Recomendador Inteligente.
+- Si la misión se superpone con campañas, Recuperación de Navegación, recuperación de carrito, Vuelta a Stock o Recomendador Inteligente.
 
-Ajusta una cosa por vez: canal, tono, asignación, datos de producto, sincronización de catálogo o alcance de playbooks relacionados.
+Ajusta una cosa por vez: canal, tono, asignación, datos de producto, sincronización de catálogo o alcance de misiones relacionadas.
 
 ## Guías relacionadas
 
-- [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
-- [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
-- [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
-- [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Biblioteca de misiones por objetivo]({% link _journeys/playbook-library-by-mission.md %})
+- [Elige tu primera misión]({% link _journeys/choose-your-first-playbook.md %})
+- [Cómo habilitar una misión]({% link _journeys/how-to-enable-a-playbook.md %})
+- [Cómo personalizar una misión de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [Qué son las señales]({% link _journeys/what-are-signals.md %})
-- [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
-- [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
+- [Cómo decide Hellotext si una misión puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
+- [Soluciona una misión que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Seguimiento de eventos]({% link _developers/tracking-events.md %})
 - [Conecta Shopify]({% link _integrations/connect-shopify.md %})
 - [Conecta tu catálogo a WhatsApp]({% link _integrations/connect-catalog-to-whatsapp.md %})
-- [Playbook Vuelta a Stock]({% link _journeys/back-in-stock-pounce.md %})
-- [Playbook Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %})
-- [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
+- [Misión Vuelta a Stock]({% link _journeys/back-in-stock-pounce.md %})
+- [Misión Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %})
+- [Misión Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %})
-- [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
+- [Misión Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
 - [Resumen de campañas]({% link _campaigns/campaigns-overview.md %})
-- [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})
+- [Reportes de misiones]({% link _analytics-reporting-attribution/playbook-reporting.md %})

@@ -1,6 +1,6 @@
 Formulario de Sitio Web te permite recopilar datos de contacto y otra información del perfil del cliente mediante un formulario integrado en una página de tu sitio.
 
-Es un playbook de captura, no un playbook agéntico ni una ruta. El formulario crea o actualiza un perfil del cliente. De forma opcional, puedes asignar un cupón y conectar la captura con una ruta de bienvenida o seguimiento.
+Es una misión de captura, no una misión agéntica ni una ruta. El formulario crea o actualiza un perfil del cliente. De forma opcional, puedes asignar un cupón y conectar la captura con una ruta de bienvenida o seguimiento.
 
 ## Cuándo usar Formulario de Sitio Web
 
@@ -32,7 +32,7 @@ Para conocer los requisitos de elegibilidad y consentimiento, consulta [A quién
 
 ## Crear el formulario
 
-1. Abre **Playbooks** y haz clic en **Explorar playbooks**.
+1. Abre **Misiones** y haz clic en **Explorar misiones**.
 2. Busca el grupo **Capturas** y elige **Formulario de Sitio Web**.
 3. Asigna un nombre que identifique la ubicación o el propósito del formulario.
 4. Edita el encabezado y el contenido de apoyo.
@@ -60,7 +60,7 @@ El encabezado contiene el título y el contenido de apoyo que aparecen antes de 
 
 Los campos pueden usar información estándar como nombre, apellido, teléfono y email, además de las propiedades personalizadas compatibles que ya existan en los perfiles del cliente. Usa una etiqueta y un placeholder claros para cada campo, y márcalo como obligatorio solo cuando el formulario no pueda cumplir su propósito sin esa información.
 
-Mantén el formulario enfocado. Un formulario corto es más fácil de completar desde un teléfono y permite enriquecer el perfil más adelante mediante conversaciones, compras u otros playbooks de captura.
+Mantén el formulario enfocado. Un formulario corto es más fácil de completar desde un teléfono y permite enriquecer el perfil más adelante mediante conversaciones, compras u otras misiones de captura.
 
 ### Botón
 

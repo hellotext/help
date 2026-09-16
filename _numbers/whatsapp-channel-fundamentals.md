@@ -6,7 +6,7 @@ en:
   description: Understand how to use WhatsApp for Inbox conversations, playbooks, routes, campaigns, captures, and commerce.
 es:
   title: Fundamentos del canal de WhatsApp
-  description: Entiende cómo usar WhatsApp para conversaciones de Inbox, playbooks, rutas, campañas, capturas y comercio.
+  description: Entiende cómo usar WhatsApp para conversaciones de Inbox, misiones, rutas, campañas, capturas y comercio.
 
 permalink: whatsapp-channel-fundamentals
 permalink_es: fundamentos-canal-whatsapp

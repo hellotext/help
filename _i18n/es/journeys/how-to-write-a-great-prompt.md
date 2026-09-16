@@ -2,11 +2,11 @@ En Hellotext, cada Agente de IA comienza con un ingrediente único y sencillo: e
 
 El prompt define la personalidad, el tono, el propósito y los límites del agente.
 
-Es lo que convierte un agente de IA o playbook en una verdadera voz de marca, capaz de vender, asistir o cautivar a los clientes como si fuera una persona de tu propio equipo.
+Es lo que convierte un agente de IA o una misión en una verdadera voz de marca, capaz de vender, asistir o cautivar a los clientes como si fuera una persona de tu propio equipo.
 
 Escribir un gran prompt no tiene tanto que ver con la técnica sino más bien con la claridad y la intención. Cuanto mejor definas quién es el agente, cómo debe hablar y qué no debe hacer nunca, más fielmente representará a tu marca.
 
-Si estás escribiendo el prompt para un agente personalizado, primero define la misión, intenciones, conocimiento, canales y camino de derivación en [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %}).
+Si estás escribiendo el prompt para un agente personalizado, primero define la misión, intenciones, conocimiento, canales y camino de derivación en [Misión Agente Personalizado]({% link _journeys/custom-agent-playbook.md %}).
 
 En este artículo:
 

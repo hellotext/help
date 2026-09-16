@@ -1,6 +1,6 @@
 Usa esta guía cuando tienes muchos registros, nuevos suscriptores o perfiles del cliente identificados que navegan o se suscriben, pero todavía no hicieron su primera compra.
 
-Impulsor de Primera Compra es un playbook activo de conversión. Ayuda a Hellotext a convertir interés temprano en una primera compra, especialmente poco después del registro, antes de que el cliente quede inactivo o pase a una señal más fuerte de carrito.
+Impulsor de Primera Compra es una misión activa de conversión. Ayuda a Hellotext a convertir interés temprano en una primera compra, especialmente poco después del registro, antes de que el cliente quede inactivo o pase a una señal más fuerte de carrito.
 
 No es una ruta de bienvenida, no es recuperación de carrito y no es un agente conversacional general de recomendación de productos. Vive entre crecimiento de audiencia y recuperación de compra: después de que el cliente puede ser alcanzado, antes de que haya comprado por primera vez.
 
@@ -16,11 +16,11 @@ Puede:
 - Poner en cola un recordatorio de primera compra después de una espera corta cuando el cliente todavía no hizo un pedido.
 - Usar productos agregados recientemente o interés de producto cuando ese contexto está disponible.
 - Usar un descuento solo cuando esa opción está disponible y configurada.
-- Omitir, esperar o detenerse cuando el cliente compra, deja de ser elegible, pasa a recuperación de carrito u otro playbook es mejor dueño del momento.
+- Omitir, esperar o detenerse cuando el cliente compra, deja de ser elegible, pasa a recuperación de carrito u otra misión puede encargarse mejor del momento.
 
-La experiencia exacta puede variar según cuenta, tienda conectada, canal, plantillas disponibles y estado de despliegue del playbook.
+La experiencia exacta puede variar según cuenta, tienda conectada, canal, plantillas disponibles y estado de despliegue de la misión.
 
-## Cuándo usarlo
+## Cuándo usarla
 
 Usa Impulsor de Primera Compra cuando el cuello de botella es convertir prospectos alcanzables en compradores por primera vez.
 
@@ -36,7 +36,7 @@ Impulsor de Primera Compra funciona bien después de capturas y momentos de bien
 
 También se complementa con [Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}), [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) y [Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}). Usa la señal para decidir quién debería ser dueño del momento: registro sin compra pertenece a Impulsor de Primera Compra, navegación de producto pertenece a Recuperación de Navegación y carrito o checkout abandonado pertenece a recuperación de carrito.
 
-No lo uses para clientes que ya compraron. Para recompra, usa [Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %}), [Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %}), reactivación u otro playbook post-compra cuando esté disponible.
+No la uses para clientes que ya compraron. Para recompra, usa [Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %}), [Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %}), reactivación u otra misión post-compra cuando esté disponible.
 
 ## Qué necesita antes del lanzamiento
 
@@ -48,35 +48,35 @@ Revisa que:
 - El perfil muestre claramente si el cliente está suscrito y puede ser alcanzado.
 - El historial de compras y pedidos pueda identificar clientes sin pedidos completados.
 - Los datos de producto y catálogo estén disponibles si los mensajes deberían incluir productos o links.
-- Datos de nuevos productos, navegación, stock o descuentos estén actualizados si el playbook debería usarlos.
-- El canal que puede usar el playbook esté conectado y listo.
+- Datos de nuevos productos, navegación, stock o descuentos estén actualizados si la misión debería usarlos.
+- El canal que puede usar la misión esté conectado y listo.
 - Los clientes tengan consentimiento y sean elegibles para el canal.
 - Links, descuentos y plantillas funcionen en el canal elegido.
 
 Para validar la configuración, usa [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %}). Para tracking personalizado, usa [Seguimiento de eventos]({% link _developers/tracking-events.md %}).
 
-Después de activar el playbook, usa los reportes automáticos para revisar mensajes en cola, enviados, omitidos, clicks, compras y resultados atribuidos.
+Después de activar la misión, usa los reportes automáticos para revisar mensajes en cola, enviados, omitidos, clicks, compras y resultados atribuidos.
 
 ## Qué puedes configurar
 
-Abre **Playbooks**, haz click en **Explorar playbooks** y elige **Impulsor de Primera Compra**.
+Abre **Misiones**, haz click en **Explorar misiones** y elige **Impulsor de Primera Compra**.
 
-El playbook maneja automáticamente la elegibilidad para primera compra y el momento del seguimiento. Según el despliegue de tu cuenta, revisa las tarjetas que expone para:
+La misión maneja automáticamente la elegibilidad para primera compra y el momento del seguimiento. Según el despliegue de tu cuenta, revisa las tarjetas que expone para:
 
-- **Estrategia de descuento:** si el playbook sigue las reglas de oferta del eCommerce, puede crear descuentos con IA hasta un porcentaje máximo o envía sin descuentos.
+- **Estrategia de descuento:** si la misión sigue las reglas de oferta del eCommerce, puede crear descuentos con IA hasta un porcentaje máximo o envía sin descuentos.
 - **Canales:** dónde Hellotext puede enviar o continuar la conversación.
 - **Tono o feedback en Playground:** cómo deberían aprender los seguimientos generados qué encaja con tu negocio.
 - **Derivación o asignación:** quién debería tomar la conversación cuando una respuesta necesita una persona.
 
-Mantén la selección automática de canales salvo que tengas una razón clara para limitar el playbook. Impulsor de Primera Compra depende de si el cliente realmente puede ser alcanzado y si el formato del mensaje está permitido en el canal.
+Mantén la selección automática de canales salvo que tengas una razón clara para limitar la misión. Impulsor de Primera Compra depende de si el cliente realmente puede ser alcanzado y si el formato del mensaje está permitido en el canal.
 
 ## Cómo funciona el disparador
 
 Impulsor de Primera Compra parte de un perfil alcanzable nuevo que todavía no hizo pedidos.
 
-La configuración de referencia para este playbook usa un recordatorio de primera compra alrededor de 48 horas después del registro cuando no existe un pedido. Hellotext igualmente revisa el estado actual del cliente antes de enviar. Si el cliente ya compró, perdió elegibilidad o pasó a una señal más fuerte de carrito o checkout, el playbook puede omitir, esperar o dejar actuar a otro playbook.
+La configuración de referencia para esta misión usa un recordatorio de primera compra alrededor de 48 horas después del registro cuando no existe un pedido. Hellotext igualmente revisa el estado actual del cliente antes de enviar. Si el cliente ya compró, perdió elegibilidad o pasó a una señal más fuerte de carrito o checkout, la misión puede omitir, esperar o dejar actuar a otra misión.
 
-Cuando está disponible, un destacado de nuevos productos puede darle al playbook una razón fresca de producto para hacer seguimiento con prospectos que todavía no compraron. Ese tipo de bloque debería usar contexto actual de catálogo y compra para no seguir empujando a clientes que ya convirtieron.
+Cuando está disponible, un destacado de nuevos productos puede darle a la misión una razón fresca de producto para hacer seguimiento con prospectos que todavía no compraron. Ese tipo de bloque debería usar contexto actual de catálogo y compra para no seguir empujando a clientes que ya convirtieron.
 
 Antes de enviar, Hellotext también puede considerar:
 
@@ -85,12 +85,12 @@ Antes de enviar, Hellotext también puede considerar:
 - Si el contexto de producto, descuento o catálogo está lo suficientemente completo.
 - Si el cliente agregó al carrito o empezó checkout, donde recuperación de carrito normalmente debería tomar el control.
 - Si el perfil puede recibir un mensaje en un canal elegible.
-- Si otro playbook ya encaja mejor para este momento.
+- Si otra misión ya encaja mejor para este momento.
 - Si consentimiento, timing, frecuencia o reglas de canal permiten el envío.
 
-Para el modelo general de decisión, mira [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}).
+Para el modelo general de decisión, mira [Cómo decide Hellotext si una misión puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}).
 
-## Cómo funciona con otros playbooks de conversión
+## Cómo funciona con otras misiones de conversión
 
 Usa la señal del cliente para decidir quién debería ser dueño del momento.
 
@@ -121,9 +121,9 @@ Cuando revises ejemplos, mira:
 
 Cuanto más realistas sean los ejemplos del Playground, mejor puede el sistema adaptar los mensajes a tu tienda.
 
-## Cómo probarlo
+## Cómo probarla
 
-Prueba con un camino pequeño y realista antes de habilitarlo ampliamente.
+Prueba con un camino pequeño y realista antes de habilitarla ampliamente.
 
 Usa perfiles del cliente de prueba que tengan consentimiento de canal, luego:
 
@@ -141,9 +141,9 @@ Si el tracking es personalizado, confirma también que registro, compra, product
 
 ## Por qué puede no enviar
 
-Que Impulsor de Primera Compra esté habilitado no significa que cada nuevo registro reciba un mensaje.
+Que la misión Impulsor de Primera Compra esté habilitada no significa que cada nuevo registro reciba un mensaje.
 
-El playbook puede esperar, omitir, detenerse o dejar actuar a otro playbook cuando:
+La misión puede esperar, omitir, detenerse o dejar actuar a otra misión cuando:
 
 - El registro u opt-in falta, llega tarde o no está conectado a un perfil del cliente usable.
 - El cliente ya compró.
@@ -153,9 +153,9 @@ El playbook puede esperar, omitir, detenerse o dejar actuar a otro playbook cuan
 - El cliente se dio de baja, no tiene consentimiento o no es elegible.
 - Reglas de frecuencia, timing u horarios silenciosos impiden el envío.
 - El canal, remitente, plantilla, link o formato del mensaje no está listo.
-- Otro playbook activo encaja mejor.
+- Otra misión activa encaja mejor.
 
-Para un diagnóstico paso a paso, usa [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}).
+Para un diagnóstico paso a paso, usa [Soluciona una misión que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}).
 
 ## Qué revisar después del lanzamiento
 
@@ -173,23 +173,23 @@ Ajusta una cosa por vez: audiencia, canal, mensaje, estrategia de descuento, con
 
 ## Guías relacionadas
 
-- [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
-- [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
-- [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
-- [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Biblioteca de misiones por objetivo]({% link _journeys/playbook-library-by-mission.md %})
+- [Elige tu primera misión]({% link _journeys/choose-your-first-playbook.md %})
+- [Cómo habilitar una misión]({% link _journeys/how-to-enable-a-playbook.md %})
+- [Cómo personalizar una misión de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [Qué son las señales]({% link _journeys/what-are-signals.md %})
-- [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
-- [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
+- [Cómo decide Hellotext si una misión puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
+- [Soluciona una misión que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Seguimiento de eventos]({% link _developers/tracking-events.md %})
 - [Resumen de herramientas de captura]({% link _captures/capture-overview.md %})
-- [Playbook Widget de Webchat]({% link _captures/webchat-widget-playbook.md %})
-- [Playbook Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %})
+- [Misión Widget de Webchat]({% link _captures/webchat-widget-playbook.md %})
+- [Misión Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %})
 - [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %})
-- [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
-- [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
-- [Playbook Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %})
-- [Playbook Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %})
+- [Misión Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
+- [Misión Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
+- [Misión Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %})
+- [Misión Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %})
 - [A quién puedo escribirle: consentimiento y estado de suscripción]({% link _audience/consent-and-subscriber-status.md %})
-- [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})
+- [Reportes de misiones]({% link _analytics-reporting-attribution/playbook-reporting.md %})
 - [Atribución de ventas]({% link _analytics-reporting-attribution/sales-attribution.md %})

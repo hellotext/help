@@ -14,15 +14,15 @@ Una campaña es una buena opción cuando:
 
 Usa [Crea una campaña]({% link _campaigns/creating-a-campaign.md %}) para ver el proceso completo.
 
-## Campañas, playbooks y rutas
+## Campañas, misiones y rutas
 
 Estos términos describen partes diferentes de Hellotext:
 
 - Una **campaña** es la iniciativa puntual que creas. Contiene la audiencia, el mensaje, los canales y el momento de entrega.
-- Un **playbook** trabaja para una misión de negocio usando señales y lógica de decisión. Puede decidir cuándo enviar un mensaje a un cliente relevante en lugar de usar una audiencia seleccionada manualmente y un único horario fijo.
-- Una **ruta** es un playbook con una secuencia predecible de pasos, como mensajes, esperas, condiciones, agentes de IA y asignaciones.
+- Una **misión** trabaja para un objetivo de negocio usando señales y lógica de decisión. Puede decidir cuándo enviar un mensaje a un cliente relevante en lugar de usar una audiencia seleccionada manualmente y un único horario fijo.
+- Una **ruta** es una misión con una secuencia predecible de pasos, como mensajes, esperas, condiciones, agentes de IA y asignaciones.
 
-Las campañas no reemplazan a los playbooks ni las rutas. Usa una campaña para un lanzamiento puntual y coordinado; usa un playbook o una ruta para comportamientos continuos basados en señales.
+Las campañas no reemplazan a las misiones ni las rutas. Usa una campaña para un lanzamiento puntual y coordinado; usa una misión o una ruta para comportamientos continuos basados en señales.
 
 Sigue leyendo: [Cómo funciona Hellotext]({% link _getting-started/how-hellotext-works.md %}).
 
@@ -70,7 +70,7 @@ Sigue leyendo: [Reportes de campaña]({% link _analytics-reporting-attribution/c
 - [Reportes de campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %})
 - [¿A quién puedo escribirle?]({% link _audience/consent-and-subscriber-status.md %})
 - [Resumen de canales de mensajería]({% link _numbers/messaging-overview.md %})
-- [Cómo funciona Hellotext: playbooks, campañas e Inbox]({% link _getting-started/how-hellotext-works.md %})
-- [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})
+- [Cómo funciona Hellotext: misiones, campañas e Inbox]({% link _getting-started/how-hellotext-works.md %})
+- [Resumen de misiones y automatización]({% link _journeys/playbooks-overview.md %})
 - [Links con tracking]({% link _analytics-reporting-attribution/tracked-links.md %})
 - [Etiquetas de personalización]({% link _audience/personalization-tags.md %})

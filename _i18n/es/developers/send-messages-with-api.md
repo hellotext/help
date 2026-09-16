@@ -1,6 +1,6 @@
 Usa la API de mensajes cuando tu backend necesite enviar un mensaje a un perfil del cliente, por ejemplo una confirmación, un seguimiento de soporte o una notificación transaccional.
 
-Para enviar un mensaje puntual a una audiencia, crea una campaña. Para mensajes autónomos basados en señales y comportamiento del cliente, usa un playbook. Enviar mediante la API no evita el consentimiento, la disponibilidad del canal, las ventanas de mensajería, los límites de la cuenta ni las reglas del proveedor.
+Para enviar un mensaje puntual a una audiencia, crea una campaña. Para mensajes autónomos basados en señales y comportamiento del cliente, usa una misión. Enviar mediante la API no evita el consentimiento, la disponibilidad del canal, las ventanas de mensajería, los límites de la cuenta ni las reglas del proveedor.
 
 Usa la [referencia para enviar un mensaje](https://www.hellotext.com/api#create_a_message) para consultar el contrato completo del endpoint. Esta guía explica cómo tomar las principales decisiones de implementación y verificar el resultado.
 

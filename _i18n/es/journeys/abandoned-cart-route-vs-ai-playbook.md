@@ -1,6 +1,6 @@
 La recuperación de carrito abandonado puede ser simple o dinámica.
 
-En Hellotext, un seguimiento básico de carrito abandonado puede funcionar como una plantilla de ruta con pasos fijos. Una experiencia más dinámica de recuperación puede funcionar como un playbook con IA que usa señales, contexto de producto y respuestas del cliente para decidir qué hacer después.
+En Hellotext, un seguimiento básico de carrito abandonado puede funcionar como una plantilla de ruta con pasos fijos. Una experiencia más dinámica de recuperación puede funcionar como una misión con IA que usa señales, contexto de producto y respuestas del cliente para decidir qué hacer después.
 
 Ambas opciones son válidas. Elige la versión más simple que coincida con tu objetivo, datos y preparación del equipo.
 
@@ -18,11 +18,11 @@ Una ruta suele ser la mejor primera opción cuando:
 
 Por ejemplo, una ruta simple puede esperar después de `cart.abandoned`, enviar un recordatorio, revisar si el cliente compró y detenerse o enviar un seguimiento más.
 
-## Usa un playbook de carrito con IA cuando
+## Usa una misión de carrito con IA cuando
 
-Usa un playbook con IA cuando la recuperación de carrito debería adaptarse al cliente.
+Usa una misión con IA cuando la recuperación de carrito debería adaptarse al cliente.
 
-Un playbook de carrito con IA encaja mejor cuando:
+Una misión de carrito con IA encaja mejor cuando:
 
 - El cliente puede responder con preguntas u objeciones.
 - Importan recomendaciones de producto, alternativas, talles, stock o detalles de políticas.
@@ -51,9 +51,9 @@ Sigue leyendo: [Verifica tus datos y señales después de configurar]({% link _i
 
 Elige una **plantilla de ruta** si principalmente necesitas control, velocidad y una secuencia conocida.
 
-Elige un **playbook de carrito con IA** si principalmente necesitas adaptación, manejo conversacional y decisiones con más contexto.
+Elige una **misión de carrito con IA** si principalmente necesitas adaptación, manejo conversacional y decisiones con más contexto.
 
-Si este es tu primer lanzamiento de recuperación de carritos, empieza con la versión que tu equipo pueda probar y medir con confianza. Puedes empezar con una ruta, aprender de los primeros resultados y pasar a un playbook con IA cuando la calidad de señales, datos de producto y reglas de derivación estén listas.
+Si este es tu primer lanzamiento de recuperación de carritos, empieza con la versión que tu equipo pueda probar y medir con confianza. Puedes empezar con una ruta, aprender de los primeros resultados y pasar a una misión con IA cuando la calidad de señales, datos de producto y reglas de derivación estén listas.
 
 ## Antes de publicar
 
@@ -74,10 +74,10 @@ No actives varios flujos de recuperación de carrito para los mismos clientes al
 
 ## Guías relacionadas
 
-- [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
+- [Elige tu primera misión]({% link _journeys/choose-your-first-playbook.md %})
 - [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %})
-- [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
+- [Misión Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Primeros pasos con rutas]({% link _journeys/getting-started-with-journeys.md %})
-- [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})
+- [Resumen de misiones y automatización]({% link _journeys/playbooks-overview.md %})
 - [Qué son las señales]({% link _journeys/what-are-signals.md %})
 - [Seguimiento de eventos]({% link _developers/tracking-events.md %})

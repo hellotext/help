@@ -1,4 +1,4 @@
-Usa WhatsApp cuando tus clientes esperan un canal conversacional y quieres que Hellotext soporte respuestas, playbooks, rutas, campañas, agentes de IA y comercio en un mismo lugar.
+Usa WhatsApp cuando tus clientes esperan un canal conversacional y quieres que Hellotext soporte respuestas, misiones, rutas, campañas, agentes de IA y comercio en un mismo lugar.
 
 Esta guía explica cómo pensar WhatsApp después de conectar la cuenta. Para los pasos de conexión, empieza con [Conecta WhatsApp]({% link _integrations/connect-whatsapp.md %}).
 
@@ -11,7 +11,7 @@ Usa WhatsApp para:
 - Conversaciones de Inbox con clientes.
 - Agentes de IA que responden preguntas o recomiendan productos, como [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}).
 - Soporte de estado de pedido con [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}) cuando hay datos de orden y tracking disponibles.
-- Playbooks que recuperan carritos, ayudan a elegir, responden consultas post-compra o reaccionan a señales del cliente.
+- Misiones que recuperan carritos, ayudan a elegir, responden consultas post-compra o reaccionan a señales del cliente.
 - Rutas que hacen preguntas, ramifican, asignan conversaciones o recopilan contexto.
 - Campañas dirigidas a audiencias elegibles.
 - Descubrimiento de productos y checkout cuando tu catálogo está conectado.
@@ -27,7 +27,7 @@ Antes de depender de WhatsApp con clientes, confirma que:
 - El número de teléfono que quieres usar está disponible en Hellotext.
 - Tu audiencia tiene consentimiento para mensajes de WhatsApp.
 - Las respuestas están dirigidas al equipo que las va a manejar en el Inbox.
-- Cualquier playbook, ruta, campaña o agente de IA fue probado por WhatsApp.
+- Probaste por WhatsApp las misiones, rutas, campañas y agentes de IA que vas a usar.
 - Tu catálogo de productos está conectado si quieres comercio por WhatsApp o recomendaciones de productos.
 
 Sigue leyendo: [Conecta tu catálogo a WhatsApp]({% link _integrations/connect-catalog-to-whatsapp.md %}).
@@ -36,9 +36,9 @@ Sigue leyendo: [Conecta tu catálogo a WhatsApp]({% link _integrations/connect-c
 
 WhatsApp se comporta distinto según quién inició la conversación.
 
-Cuando un cliente escribe a tu negocio, Hellotext puede recibir la conversación en el Inbox. Según tu configuración, el mensaje también puede ser manejado por un playbook, ruta o agente de IA. Meta define una ventana de atención para respuestas del negocio después de un mensaje del cliente, y esa ventana se reinicia cuando el cliente vuelve a escribir.
+Cuando un cliente escribe a tu negocio, Hellotext puede recibir la conversación en el Inbox. Según tu configuración, el mensaje también puede ser manejado por una misión, una ruta o un agente de IA. Meta define una ventana de atención para respuestas del negocio después de un mensaje del cliente, y esa ventana se reinicia cuando el cliente vuelve a escribir.
 
-Cuando tu negocio inicia o reinicia una conversación, deberías esperar usar una plantilla aprobada de WhatsApp. Esto afecta campañas, playbooks proactivos, recuperación de carrito, reactivación y otros envíos iniciados por el negocio.
+Cuando tu negocio inicia o reinicia una conversación, deberías esperar usar una plantilla aprobada de WhatsApp. Esto afecta campañas, misiones proactivas, recuperación de carrito, reactivación y otros envíos iniciados por el negocio.
 
 Piensa la experiencia de WhatsApp alrededor de ambos modos:
 
@@ -64,13 +64,13 @@ Para precios y detalles actuales de categorías, revisa las [tarifas de WhatsApp
 
 ### Inbox
 
-Las respuestas de WhatsApp pueden aparecer en el Inbox para que el equipo responda, asigne, cierre o derive conversaciones. Si la IA o un playbook no puede resolver una conversación, dirígela al responsable correcto.
+Las respuestas de WhatsApp pueden aparecer en el Inbox para que el equipo responda, asigne, cierre o derive conversaciones. Si la IA o una misión no puede resolver una conversación, dirígela al responsable correcto.
 
 Sigue leyendo: [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %}).
 
-### Playbooks y rutas
+### Misiones y rutas
 
-Los playbooks y rutas pueden usar WhatsApp para conversaciones automatizadas, recomendaciones de productos, recuperación de carrito, soporte, seguimiento post-compra y flujos con ramas.
+Las misiones y rutas pueden usar WhatsApp para conversaciones automatizadas, recomendaciones de productos, recuperación de carrito, soporte, seguimiento post-compra y flujos con ramas.
 
 Antes de lanzar, prueba el camino de WhatsApp desde el disparador hasta la respuesta. Confirma qué pasa cuando el cliente responde, cuando la IA no puede resolver y cuando una persona del equipo necesita intervenir.
 
@@ -104,7 +104,7 @@ Antes y después de lanzar:
 - Revisa la calidad del número y límites de envío en Meta.
 - Dirige conversaciones confusas, enojadas o de alto riesgo al Inbox.
 
-Si la calidad baja o los clientes se sorprenden por los mensajes, pausa y ajusta la audiencia, plantilla, timing o reglas del playbook.
+Si la calidad baja o los clientes se sorprenden por los mensajes, pausa y ajusta la audiencia, plantilla, timing o reglas de la misión.
 
 ## Checklist para tu primer lanzamiento por WhatsApp
 
@@ -114,7 +114,7 @@ Antes de tu primer lanzamiento por WhatsApp, confirma que:
 2. La facturación, verificación y plantillas de Meta están listas.
 3. Tu audiencia tiene consentimiento para WhatsApp.
 4. Las respuestas llegan a los responsables correctos en el Inbox.
-5. Los playbooks, rutas, agentes de IA o campañas fueron probados.
+5. Las misiones, las rutas, los agentes de IA y las campañas se probaron.
 6. Los caminos de derivación y fallback están claros.
 
 Después de lanzar, Hellotext muestra reportes y atribución automáticamente para revisar resultados.
@@ -127,7 +127,7 @@ Sigue leyendo: [Checklist antes de enviar]({% link _getting-started/go-live-chec
 - [Fundamentos del canal SMS]({% link _numbers/sms-channel-fundamentals.md %})
 - [Conecta WhatsApp]({% link _integrations/connect-whatsapp.md %})
 - [Conecta tu catálogo a WhatsApp]({% link _integrations/connect-catalog-to-whatsapp.md %})
-- [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
+- [Misión Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
 - [A quién puedo escribirle: consentimiento y estado de suscripción]({% link _audience/consent-and-subscriber-status.md %})
 - [Resumen de inbox y conversaciones]({% link _team/inbox-overview.md %})
-- [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})
+- [Resumen de misiones y automatización]({% link _journeys/playbooks-overview.md %})

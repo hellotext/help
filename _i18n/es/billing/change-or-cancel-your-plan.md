@@ -19,7 +19,7 @@ Confirma que el método de pago o saldo del negocio pueda cubrir el monto. Las c
 
 Un cambio a un plan inferior puede programarse para un período futuro en lugar de quitar el acceso actual inmediatamente. Después de programarlo, la página de Facturación muestra el plan de destino y la fecha efectiva.
 
-Antes de confirmar, revisa las funcionalidades que cambian entre los planes, como acceso a playbooks, agentes de IA, líneas de WhatsApp, reportes, historial de actividad, soporte y otros límites mostrados en la comparación.
+Antes de confirmar, revisa las funcionalidades que cambian entre los planes, como acceso a misiones, agentes de IA, líneas de WhatsApp, reportes, historial de actividad, soporte y otros límites mostrados en la comparación.
 
 Si la interfaz muestra **Cancelar** junto al cambio programado, úsalo para conservar el plan actual.
 
@@ -30,7 +30,7 @@ Hellotext permite cancelar sin un contrato de largo plazo, salvo que un acuerdo 
 Antes de cancelar:
 
 - exporta la información que tu equipo necesite conservar;
-- revisa campañas, playbooks, rutas y actividad de canales activos;
+- revisa campañas, misiones, rutas y actividad de canales activos;
 - confirma si la cuenta tiene consumos o facturas pendientes; y
 - revisa cualquier acuerdo separado con Meta, operadoras, códigos cortos o servicios empresariales.
 

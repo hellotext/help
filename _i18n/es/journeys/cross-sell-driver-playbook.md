@@ -1,6 +1,6 @@
 Usa esta guía cuando los clientes ya mostraron suficiente intención de compra y Hellotext puede sugerir un complemento, accesorio, producto compatible o siguiente producto relevante.
 
-Impulsor de Ventas Cruzadas es un playbook activo de expansión. Ayuda a Hellotext a sugerir productos complementarios después de una compra o interés fuerte en un producto, usando historial de pedidos, contexto de catálogo, relaciones entre productos, stock, comportamiento del cliente, elegibilidad de canal y chequeos de envío.
+Impulsor de Ventas Cruzadas es una misión activa de expansión. Ayuda a Hellotext a sugerir productos complementarios después de una compra o interés fuerte en un producto, usando historial de pedidos, contexto de catálogo, relaciones entre productos, stock, comportamiento del cliente, elegibilidad de canal y chequeos de envío.
 
 No es una promoción amplia y no es un chat genérico de recomendación de productos. Parte de un momento específico del cliente: compró, es probable que compre o mostró interés en un producto principal, y otro producto puede encajar naturalmente como siguiente paso.
 
@@ -15,12 +15,12 @@ Puede:
 - Sugerir SKUs relacionados, accesorios, productos complementarios, productos que suelen comprarse juntos o categorías relacionadas.
 - Usar datos de catálogo, stock, links de producto, historial de pedidos y señales de recomendación para evitar sugerencias irrelevantes.
 - Incluir un link para agregar al carrito, link de producto o descuento cuando esas opciones están disponibles y configuradas.
-- Evitar enviar cuando el cliente ya compró el producto recomendado, el producto no está disponible, otro playbook es dueño del momento o el cliente no puede ser alcanzado.
+- Evitar enviar cuando el cliente ya compró el producto recomendado, el producto no está disponible, otra misión se encarga de ese momento o el cliente no puede ser alcanzado.
 - Continuar la conversación o derivar al Inbox cuando una respuesta necesita una persona.
 
-La experiencia exacta puede variar según cuenta, tienda conectada, calidad del catálogo, canal, plantillas disponibles y estado de despliegue del playbook.
+La experiencia exacta puede variar según cuenta, tienda conectada, calidad del catálogo, canal, plantillas disponibles y estado de despliegue de la misión.
 
-## Cuándo usarlo
+## Cuándo usarla
 
 Usa Impulsor de Ventas Cruzadas cuando hay una relación clara entre lo que el cliente ya compró o consideró y lo que podría querer después.
 
@@ -34,7 +34,7 @@ Encaja bien para momentos como:
 
 Funciona mejor cuando Hellotext puede ver historial de pedidos, identidad de producto, metadata del catálogo, stock, links de producto y suficientes datos de relación o recomendación para que la sugerencia se sienta natural.
 
-No lo uses para productos que no tienen complementos o siguientes pasos claros. Para descubrimiento de producto en tiempo real durante una conversación, usa [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}). Para productos consumibles que necesitan reponerse, usa [Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %}). Para una promoción puntual a una audiencia seleccionada, usa una campaña.
+No la uses para productos que no tienen complementos o siguientes pasos claros. Para descubrimiento de producto en tiempo real durante una conversación, usa [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}). Para productos consumibles que necesitan reponerse, usa [Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %}). Para una promoción puntual a una audiencia seleccionada, usa una campaña.
 
 ## Qué necesita antes del lanzamiento
 
@@ -46,20 +46,20 @@ Revisa que:
 - Productos, variantes, SKUs, nombres, imágenes, precios, stock y links de producto estén actualizados.
 - Las relaciones entre productos puedan inferirse o proveerse mediante catálogo, colecciones, categorías, historial de compra o lógica de recomendación.
 - Los productos que quieres recomendar tengan suficiente stock y links usables.
-- Tu equipo tenga claro qué colecciones, categorías o productos deberían incluirse o excluirse en la configuración del playbook.
+- Tu equipo tenga claro qué colecciones, categorías o productos deberían incluirse o excluirse en la configuración de la misión.
 - Si se permiten descuentos, las reglas de oferta del eCommerce y el porcentaje máximo que puede usar la IA estén aprobados antes del lanzamiento.
-- El canal que puede usar el playbook esté conectado y listo.
+- El canal que puede usar la misión esté conectado y listo.
 - Los clientes tengan consentimiento y sean elegibles para el canal.
 
 Para validar la configuración, usa [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %}). Para tracking personalizado, usa [Seguimiento de eventos]({% link _developers/tracking-events.md %}).
 
-Después de activar el playbook, usa los reportes automáticos para revisar envíos, clicks, agregados al carrito, compras, ingresos atribuidos y oportunidades omitidas.
+Después de activar la misión, usa los reportes automáticos para revisar envíos, clicks, agregados al carrito, compras, ingresos atribuidos y oportunidades omitidas.
 
 ## Qué puedes configurar
 
-Abre **Playbooks**, haz click en **Explorar playbooks** y elige **Impulsor de Ventas Cruzadas**.
+Abre **Misiones**, haz click en **Explorar misiones** y elige **Impulsor de Ventas Cruzadas**.
 
-El playbook expone el alcance de productos y las reglas de recomendación:
+La misión expone el alcance de productos y las reglas de recomendación:
 
 - **Alcance de productos:** qué productos, colecciones, categorías o familias pueden iniciar o recibir recomendaciones de venta cruzada.
 - **Reglas de recomendación:** relaciones de producto, exclusiones o reglas de merchandising que deberían guiar los productos sugeridos.
@@ -71,7 +71,7 @@ Según el despliegue de la cuenta, también puede mostrar tarjetas para:
 - **Tono o feedback en Playground:** cómo deberían aprender los seguimientos generados qué encaja con tu negocio.
 - **Derivación o asignación:** quién debería tomar la conversación cuando una respuesta necesita una persona.
 
-Mantén la selección automática de canales salvo que tengas una razón clara para limitar el playbook. Impulsor de Ventas Cruzadas depende de si el cliente puede ser alcanzado cuando la sugerencia complementaria todavía es relevante.
+Mantén la selección automática de canales salvo que tengas una razón clara para limitar la misión. Impulsor de Ventas Cruzadas depende de si el cliente puede ser alcanzado cuando la sugerencia complementaria todavía es relevante.
 
 Hellotext maneja automáticamente la elegibilidad del cliente, el momento del envío y los reportes. El alcance de productos y las reglas de recomendación siguen siendo controles directos para decidir qué productos participan y cómo se eligen los complementos.
 
@@ -93,13 +93,13 @@ Antes de enviar, Hellotext también puede considerar:
 - Si el producto principal está conectado a un perfil del cliente usable.
 - Si el producto recomendado está disponible y es relevante.
 - Si el cliente ya compró la recomendación o un sustituto cercano.
-- Si la recomendación entraría en conflicto con otro playbook activo.
+- Si la recomendación entraría en conflicto con otra misión activa.
 - Si el perfil puede recibir un mensaje en un canal elegible.
 - Si consentimiento, timing, frecuencia o reglas de canal permiten el envío.
 
-Para el modelo general de decisión, mira [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}).
+Para el modelo general de decisión, mira [Cómo decide Hellotext si una misión puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}).
 
-## Cómo funciona con playbooks cercanos
+## Cómo funciona con misiones cercanas
 
 Usa el momento del cliente para decidir quién debería ser dueño.
 
@@ -130,9 +130,9 @@ Cuando revises ejemplos, mira:
 
 Cuanto más realistas sean los ejemplos del Playground, mejor puede el sistema adaptar los mensajes a tu tienda.
 
-## Cómo probarlo
+## Cómo probarla
 
-Prueba con un camino pequeño y realista antes de habilitarlo ampliamente.
+Prueba con un camino pequeño y realista antes de habilitarla ampliamente.
 
 Usa perfiles del cliente de prueba que tengan consentimiento de canal, luego:
 
@@ -150,9 +150,9 @@ Si el tracking es personalizado, confirma que eventos de compra, identificadores
 
 ## Por qué puede no enviar
 
-Que Impulsor de Ventas Cruzadas esté habilitado no significa que cada compra o vista de producto produzca una recomendación.
+Que la misión Impulsor de Ventas Cruzadas esté habilitada no significa que cada compra o vista de producto produzca una recomendación.
 
-El playbook puede esperar, omitir, detenerse o dejar actuar a otro playbook cuando:
+La misión puede esperar, omitir, detenerse o dejar actuar a otra misión cuando:
 
 - Las señales de compra o interés de producto faltan, llegan tarde o no están conectadas a un perfil del cliente usable.
 - El producto principal no es elegible para venta cruzada.
@@ -163,9 +163,9 @@ El playbook puede esperar, omitir, detenerse o dejar actuar a otro playbook cuan
 - El cliente se dio de baja, no tiene consentimiento o no es elegible.
 - Reglas de frecuencia, timing u horarios silenciosos impiden el envío.
 - El canal, remitente, plantilla, link o formato del mensaje no está listo.
-- Otro playbook activo encaja mejor.
+- Otra misión activa encaja mejor.
 
-Para un diagnóstico paso a paso, usa [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}).
+Para un diagnóstico paso a paso, usa [Soluciona una misión que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}).
 
 ## Qué revisar después del lanzamiento
 
@@ -183,19 +183,19 @@ Ajusta una cosa por vez: alcance de productos, reglas de recomendación y, cuand
 
 ## Guías relacionadas
 
-- [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
-- [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
-- [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
-- [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Biblioteca de misiones por objetivo]({% link _journeys/playbook-library-by-mission.md %})
+- [Elige tu primera misión]({% link _journeys/choose-your-first-playbook.md %})
+- [Cómo habilitar una misión]({% link _journeys/how-to-enable-a-playbook.md %})
+- [Cómo personalizar una misión de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [Qué son las señales]({% link _journeys/what-are-signals.md %})
-- [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
-- [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
+- [Cómo decide Hellotext si una misión puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
+- [Soluciona una misión que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Seguimiento de eventos]({% link _developers/tracking-events.md %})
 - [Conecta Shopify]({% link _integrations/connect-shopify.md %})
 - [Conecta tu catálogo a WhatsApp]({% link _integrations/connect-catalog-to-whatsapp.md %})
-- [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
-- [Playbook Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %})
-- [Playbook Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})
-- [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})
+- [Misión Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
+- [Misión Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %})
+- [Misión Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})
+- [Reportes de misiones]({% link _analytics-reporting-attribution/playbook-reporting.md %})
 - [Atribución de ventas]({% link _analytics-reporting-attribution/sales-attribution.md %})

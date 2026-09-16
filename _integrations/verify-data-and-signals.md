@@ -7,7 +7,7 @@ en:
   description: Check customer profiles, commerce activity, events, channels, captures, and reporting before launching playbooks or campaigns.
 es:
   title: Verifica tus datos y señales después de configurar
-  description: Revisa perfiles de cliente, actividad de comercio, eventos, canales, capturas y reportes antes de lanzar playbooks o campañas.
+  description: Revisa perfiles de cliente, actividad de comercio, eventos, canales, capturas y reportes antes de lanzar misiones o campañas.
 
 permalink: verify-data-and-signals
 permalink_es: verifica-datos-y-senales

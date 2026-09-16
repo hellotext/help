@@ -157,7 +157,7 @@ Consulta [Crear una acción](https://www.hellotext.com/api#create_an_action) ant
 
 Si el evento ocurrió antes de enviar la request, incluye `tracked_at` con una fecha ISO 8601 o un timestamp Unix. Si lo omites, Hellotext usa el momento en que recibe el evento.
 
-Usa la fecha original para importaciones históricas, jobs demorados y webhooks reintentados. Esto evita que actividad antigua aparezca como reciente y altere segmentos, elegibilidad de playbooks o reportes.
+Usa la fecha original para importaciones históricas, jobs demorados y webhooks reintentados. Esto evita que actividad antigua aparezca como reciente y altere segmentos, elegibilidad de misiones o reportes.
 
 Cuando el evento tenga un valor monetario, envía `amount` y `currency` juntos:
 

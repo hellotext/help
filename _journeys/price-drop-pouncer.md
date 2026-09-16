@@ -10,7 +10,7 @@ en:
   title: Price-Drop Pouncer playbook
   description: Notify interested shoppers automatically when a product price drops.
 es:
-  title: Playbook Alerta de Baja de Precio
+  title: Misión Alerta de Baja de Precio
   description: Notifica automáticamente a compradores interesados cuando baja el precio de un producto.
 
 permalink: price-drop-pouncer

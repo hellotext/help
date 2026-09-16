@@ -2,11 +2,11 @@ Usa este pack inicial cuando quieres obtener valor temprano sin activar demasiad
 
 El objetivo es lanzar algunos logros enfocados, aprender del comportamiento real de clientes y ampliar solo después de que tus datos, canales y proceso del equipo estén funcionando.
 
-La disponibilidad exacta de playbooks puede depender de tu plan, configuración de cuenta, país, canales y fuentes de datos. Usa el playbook, ruta, captura o campaña disponible que más se acerque en tu cuenta.
+La disponibilidad exacta de misiones puede depender de tu plan, configuración de cuenta, país, canales y fuentes de datos. Usa la misión, ruta, captura o campaña disponible que más se acerque en tu cuenta.
 
 ## Empieza con 3 a 5 logros
 
-No lances todos los playbooks al mismo tiempo.
+No lances todas las misiones al mismo tiempo.
 
 Empieza con una mezcla que cubra el recorrido completo del cliente:
 
@@ -30,17 +30,17 @@ Usa primero un camino de captura:
 - [Widget de Webchat]({% link _captures/webchat-widget-playbook.md %}) para visitantes que quieren hacer preguntas desde el sitio.
 - Opt-in de checkout cuando los clientes ya están comprando.
 
-Logro esperado: más perfiles de cliente alcanzables y consentimiento más limpio para futuros playbooks y campañas.
+Logro esperado: más perfiles de cliente alcanzables y consentimiento más limpio para futuras misiones y campañas.
 
 ## 2. Recupera carritos abandonados
 
 Empieza aquí si tu tienda tiene señales de carrito o checkout.
 
-Usa [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) cuando quieres recordatorios fijos con timing predecible. Usa un playbook de carrito con IA cuando las respuestas, contexto de producto, objeciones o recomendaciones deberían cambiar el siguiente paso.
+Usa [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) cuando quieres recordatorios fijos con timing predecible. Usa una misión de carrito con IA cuando las respuestas, contexto de producto, objeciones o recomendaciones deberían cambiar el siguiente paso.
 
 Logro esperado: recuperar intención de compra que ya existe en lugar de intentar crear demanda desde cero.
 
-Sigue leyendo: [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}), [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}) y [Carrito abandonado: plantilla de ruta vs playbook con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
+Sigue leyendo: [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}), [Misión Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}) y [Carrito abandonado: plantilla de ruta vs misión con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
 
 ## 3. Convierte nuevos compradores o recomienda productos
 
@@ -104,7 +104,7 @@ Logro esperado: aprender cómo responde tu audiencia al canal, mensaje, oferta y
 
 Evita:
 
-- Activar varios playbooks de ingresos para la misma audiencia al mismo tiempo.
+- Activar varias misiones de ingresos para la misma audiencia al mismo tiempo.
 - Lanzar antes de verificar perfiles de cliente, consentimiento y señales.
 - Enviar campañas amplias antes de probar links, respuestas y comportamiento de baja.
 - Usar agentes de IA sin reglas claras de derivación.
@@ -130,21 +130,21 @@ Sigue leyendo: [Mide el éxito en tus primeros 7 días]({% link _getting-started
 - [Checklist antes de enviar]({% link _getting-started/go-live-checklist.md %})
 - [Mide el éxito en tus primeros 7 días]({% link _getting-started/measure-success-first-7-days.md %})
 - [Cómo funciona Hellotext]({% link _getting-started/how-hellotext-works.md %})
-- [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
+- [Elige tu primera misión]({% link _journeys/choose-your-first-playbook.md %})
 - [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %})
-- [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
-- [Playbook Impulsor de Primera Compra]({% link _journeys/first-purchase-driver-playbook.md %})
-- [Playbook Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %})
-- [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
-- [Playbook Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %})
-- [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
-- [Playbook Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})
-- [Playbook Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %})
-- [Playbook Pulso NPS]({% link _journeys/nps-pulse-playbook.md %})
-- [Playbook Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
-- [Playbook Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %})
-- [Playbook Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %})
-- [Playbook Widget de Webchat]({% link _captures/webchat-widget-playbook.md %})
+- [Misión Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
+- [Misión Impulsor de Primera Compra]({% link _journeys/first-purchase-driver-playbook.md %})
+- [Misión Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %})
+- [Misión Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
+- [Misión Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %})
+- [Misión Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
+- [Misión Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})
+- [Misión Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %})
+- [Misión Pulso NPS]({% link _journeys/nps-pulse-playbook.md %})
+- [Misión Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
+- [Misión Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %})
+- [Misión Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %})
+- [Misión Widget de Webchat]({% link _captures/webchat-widget-playbook.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Resumen de herramientas de captura]({% link _captures/capture-overview.md %})
 - [Resumen de inbox y conversaciones]({% link _team/inbox-overview.md %})

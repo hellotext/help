@@ -72,7 +72,7 @@ Corrige los datos en Hellotext solamente después de confirmar el valor esperado
 - Edita el nombre y las propiedades desde el perfil del cliente.
 - Agrega, actualiza o elimina el teléfono, email, dirección o propiedad personalizada correspondiente.
 - Corrige el sistema de origen cuando una tienda, CRM, importación, API u otra integración sea responsable del dato; de lo contrario, puede sobrescribir el cambio o recrear el valor anterior.
-- Revisa los segmentos, personalización, playbooks y rutas que dependan de la propiedad corregida.
+- Revisa los segmentos, personalización, misiones y rutas que dependan de la propiedad corregida.
 - Confirma que el valor corregido aparezca en el perfil esperado.
 
 Si un evento, pedido, mensaje o registro perteneciente a una integración no puede corregirse desde el perfil, coordina el cambio con el sistema que lo creó y con Hellotext cuando sea necesario.

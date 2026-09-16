@@ -1,7 +1,7 @@
 Cuando conectas tu tienda VTEX a Hellotext con nuestra aplicación Exchange, puedes:
 
-- Sincronizar datos de clientes en perfiles de cliente para que Hellotext pueda usarlos en segmentación, mensajería, playbooks y reportes.
-- Instalar el píxel de Hellotext para rastrear actividad de clientes en tu sitio web y convertir esa actividad en señales para atribución, recomendaciones, playbooks, campañas y medición de ROI.
+- Sincronizar datos de clientes en perfiles de cliente para que Hellotext pueda usarlos en segmentación, mensajería, misiones y reportes.
+- Instalar el píxel de Hellotext para rastrear actividad de clientes en tu sitio web y convertir esa actividad en señales para atribución, recomendaciones, misiones, campañas y medición de ROI.
 
 ### Lo que necesitarás
 
@@ -118,4 +118,4 @@ Una vez completado, haz clic en Guardar.
 Para más información, consulta la configuración de afiliados en VTEX:
 [https://help.vtex.com/docs/tutorials/configuring-affiliates](https://help.vtex.com/docs/tutorials/configuring-affiliates)
 
-Cuando la conexión esté lista, revisa la [sincronización del catálogo de productos]({% link _integrations/product-catalog-sync.md %}) para comprobar la identidad, variantes, precios, imágenes y disponibilidad antes de lanzar playbooks basados en productos.
+Cuando la conexión esté lista, revisa la [sincronización del catálogo de productos]({% link _integrations/product-catalog-sync.md %}) para comprobar la identidad, variantes, precios, imágenes y disponibilidad antes de lanzar misiones basadas en productos.

@@ -10,7 +10,7 @@ en:
   title: Review Builder playbook
   description: Collect product reviews after delivery, route low ratings, and export review data for follow-up.
 es:
-  title: Playbook Generador de Reseñas
+  title: Misión Generador de Reseñas
   description: Recopila reseñas de productos después de la entrega, deriva calificaciones bajas y exporta datos de reseñas.
 
 permalink: review-builder-playbook

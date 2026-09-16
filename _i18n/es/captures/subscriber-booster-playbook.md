@@ -1,6 +1,6 @@
 Usa esta guía cuando quieres que Hellotext convierta conversaciones relevantes con clientes en suscripciones claras y basadas en consentimiento.
 
-Impulsor de Suscriptores es un playbook de captura con IA. Usa el contexto de una conversación activa para decidir cuándo una invitación a suscribirse puede ser útil, adapta la interacción a ese momento y recopila los datos del perfil que configures.
+Impulsor de Suscriptores es una misión de captura con IA. Usa el contexto de una conversación activa para decidir cuándo una invitación a suscribirse puede ser útil, adapta la interacción a ese momento y recopila los datos del perfil que configures.
 
 No es una ruta fija y no envía siempre la misma secuencia de suscripción. Puede intervenir cerca del comienzo de una conversación de Webchat o hacia el final de una conversación iniciada por el cliente en WhatsApp.
 
@@ -26,17 +26,17 @@ Impulsor de Suscriptores puede participar en distintos momentos según cómo emp
 
 ### Al comienzo de Webchat
 
-Para un visitante del sitio, el playbook puede usar el teaser de Webchat para ofrecer un incentivo para la primera compra. Al abrir el teaser comienza la conversación, donde la IA puede explicar la suscripción y pedir consentimiento.
+Para un visitante del sitio, la misión puede usar el teaser de Webchat para ofrecer un incentivo para la primera compra. Al abrir el teaser comienza la conversación, donde la IA puede explicar la suscripción y pedir consentimiento.
 
 Este camino funciona bien cuando el visitante es nuevo, todavía no compró y ya está evaluando si interactuar con el negocio.
 
-Widget de Webchat debe estar habilitado e instalado para que los visitantes vean el teaser. Revisa [Playbook Widget de Webchat]({% link _captures/webchat-widget-playbook.md %}) antes de probar este camino.
+Widget de Webchat debe estar habilitado e instalado para que los visitantes vean el teaser. Revisa [Misión Widget de Webchat]({% link _captures/webchat-widget-playbook.md %}) antes de probar este camino.
 
 ### Al final de una conversación de WhatsApp
 
 Cuando un cliente inicia una conversación de WhatsApp por otro motivo, Impulsor de Suscriptores puede esperar a que esa necesidad haya sido atendida y luego ofrecer la suscripción como un próximo paso relevante.
 
-En este contexto, el incentivo puede presentarse para una compra futura. El playbook no debería reemplazar el motivo por el que el cliente contactó al negocio ni interrumpir una consulta de soporte o venta que todavía no fue resuelta.
+En este contexto, el incentivo puede presentarse para una compra futura. La misión no debería reemplazar el motivo por el que el cliente contactó al negocio ni interrumpir una consulta de soporte o venta que todavía no fue resuelta.
 
 No es un broadcast ni un mensaje saliente de suscripción no solicitado. Funciona dentro de una conversación iniciada por el cliente.
 
@@ -44,13 +44,13 @@ No es un broadcast ni un mensaje saliente de suscripción no solicitado. Funcion
 
 Impulsor de Suscriptores incluye un componente Recolector de Propiedades dentro de su configuración.
 
-Usa ese componente para seleccionar las propiedades del perfil que el playbook debería recopilar durante la suscripción, como nombre, teléfono, email o propiedades personalizadas disponibles en el negocio.
+Usa ese componente para seleccionar las propiedades del perfil que la misión debería recopilar durante la suscripción, como nombre, teléfono, email o propiedades personalizadas disponibles en el negocio.
 
 También puedes indicar qué propiedades deben recopilarse. Impulsor de Suscriptores pide solamente los datos configurados que todavía faltan en el perfil.
 
 Recolector de Propiedades maneja esta parte de la conversación sin convertir la experiencia de suscripción en un formulario rígido. Mantén la recopilación lo suficientemente breve como para que el cliente entienda por qué cada respuesta es útil.
 
-Para entender el modelo completo, revisa [Playbook Recolector de Propiedades]({% link _captures/property-collector-playbook.md %}).
+Para entender el modelo completo, revisa [Misión Recolector de Propiedades]({% link _captures/property-collector-playbook.md %}).
 
 ## Consentimiento y protección del incentivo
 
@@ -63,7 +63,7 @@ La conversación debería explicar:
 - Qué incentivo se ofrece, cuando corresponda.
 - Que el cliente puede desuscribirse más adelante.
 
-Impulsor de Suscriptores también protege la oferta contra usos repetidos: el descuento presentado por el playbook no puede ser canjeado más de una vez por el mismo cliente.
+Impulsor de Suscriptores también protege la oferta contra usos repetidos: el descuento presentado por la misión no puede ser canjeado más de una vez por el mismo cliente.
 
 Esto permite usar un incentivo relevante sin otorgarlo repetidamente a la misma persona en conversaciones posteriores.
 
@@ -91,11 +91,11 @@ Antes de habilitar Impulsor de Suscriptores, confirma:
 - El lenguaje de consentimiento coincide con el canal y la experiencia que quieres ofrecer.
 - El incentivo es válido y apropiado para una primera compra o una compra futura.
 - Las propiedades seleccionadas en Recolector de Propiedades son útiles y tienen nombres claros.
-- Tu equipo entiende cómo encaja Impulsor de Suscriptores junto con otros playbooks de venta o soporte.
+- Tu equipo entiende cómo encaja Impulsor de Suscriptores junto con otras misiones de venta o soporte.
 
 ## Qué puedes configurar
 
-Abre **Playbooks**, haz clic en **Explorar playbooks**, busca el grupo **Capturas** y elige **Impulsor de Suscriptores**.
+Abre **Misiones**, haz clic en **Explorar misiones**, busca el grupo **Capturas** y elige **Impulsor de Suscriptores**.
 
 Concéntrate en:
 
@@ -124,7 +124,7 @@ Para WhatsApp:
 - Confirma que Impulsor de Suscriptores introduzca la suscripción solo cuando sea un próximo paso útil.
 - Verifica que el incentivo para una compra futura y el consentimiento sean claros.
 
-También prueba con el mismo cliente después de canjear el descuento ofrecido. El playbook no debería permitirle canjearlo otra vez.
+También prueba con el mismo cliente después de canjear el descuento ofrecido. La misión no debería permitirle canjearlo otra vez.
 
 ## Qué revisar después del lanzamiento
 
@@ -138,17 +138,17 @@ Comprueba:
 - Si los clientes entienden la solicitud de consentimiento.
 - Si las propiedades configuradas se recopilan correctamente.
 - Si el incentivo se entrega y queda protegido contra canjes repetidos.
-- Si otro playbook activo debería manejar la conversación antes o después de Impulsor de Suscriptores.
+- Si otra misión activa debería manejar la conversación antes o después de Impulsor de Suscriptores.
 
 Ajusta el incentivo, las propiedades seleccionadas o el teaser cuando las conversaciones muestren un motivo claro para hacerlo.
 
 ## Guías relacionadas
 
 - [Resumen de herramientas de captura]({% link _captures/capture-overview.md %})
-- [Playbook Widget de Webchat]({% link _captures/webchat-widget-playbook.md %})
-- [Playbook Recolector de Propiedades]({% link _captures/property-collector-playbook.md %})
+- [Misión Widget de Webchat]({% link _captures/webchat-widget-playbook.md %})
+- [Misión Recolector de Propiedades]({% link _captures/property-collector-playbook.md %})
 - [Fundamentos del canal de WhatsApp]({% link _numbers/whatsapp-channel-fundamentals.md %})
 - [A quién puedo escribirle: consentimiento y estado de suscripción]({% link _audience/consent-and-subscriber-status.md %})
-- [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
-- [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
-- [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
+- [Cómo habilitar una misión]({% link _journeys/how-to-enable-a-playbook.md %})
+- [Cómo personalizar una misión de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Biblioteca de misiones por objetivo]({% link _journeys/playbook-library-by-mission.md %})

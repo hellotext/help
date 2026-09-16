@@ -10,7 +10,7 @@ en:
   title: Back-in-Stock Pounce playbook
   description: Alert interested shoppers when an unavailable product or variant is available again.
 es:
-  title: Playbook Vuelta a Stock
+  title: Misión Vuelta a Stock
   description: Alerta a compradores interesados cuando un producto o variante vuelve a estar disponible.
 
 permalink: back-in-stock-pounce

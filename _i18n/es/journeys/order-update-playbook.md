@@ -1,8 +1,8 @@
 Usa esta guía cuando los clientes preguntan seguido dónde está una orden, si ya fue enviada o cómo rastrear un paquete.
 
-Seguimiento de Pedidos es un playbook reactivo de soporte con IA. Responde cuando un cliente pregunta por el estado de una orden, envío, entrega o número de tracking. Usa datos de orden y envío conectados a Hellotext y decide si responder, pedir datos faltantes, enviar un CTA de tracking o derivar.
+Seguimiento de Pedidos es una misión reactiva de soporte con IA. Responde cuando un cliente pregunta por el estado de una orden, envío, entrega o número de tracking. Usa datos de orden y envío conectados a Hellotext y decide si responder, pedir datos faltantes, enviar un CTA de tracking o derivar.
 
-No es un agente de soporte general y no es un recomendador de productos. Su trabajo es seguimiento de pedidos. Para descubrimiento de producto, usa [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}). Para soporte más amplio o preguntas de políticas, usa [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}), [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}), [Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %}), un [agente personalizado]({% link _journeys/custom-agent-playbook.md %}) o el Inbox.
+No es un agente de soporte general y no es un recomendador de productos. Su trabajo es seguimiento de pedidos. Para descubrimiento de producto, usa [Misión Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}). Para soporte más amplio o preguntas de políticas, usa [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}), [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}), [Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %}), un [agente personalizado]({% link _journeys/custom-agent-playbook.md %}) o el Inbox.
 
 ## Qué hace Seguimiento de Pedidos
 
@@ -19,9 +19,9 @@ Puede:
 - Pedir el ID de orden o número de tracking cuando Hellotext no puede identificar la orden correcta.
 - Derivar cuando el pedido requiere una persona o está fuera de seguimiento de pedidos.
 
-El playbook debería mantenerse basado en datos de orden. No debería inventar estados, URLs de tracking ni fechas de entrega.
+La misión debería mantenerse basada en datos de orden. No debería inventar estados, URLs de tracking ni fechas de entrega.
 
-## Cuándo usarlo
+## Cuándo usarla
 
 Usa Seguimiento de Pedidos cuando las preguntas de estado de pedido generan trabajo repetitivo de soporte.
 
@@ -33,7 +33,7 @@ Encaja bien cuando:
 - Tu equipo quiere que la IA responda preguntas simples de estado antes de derivar.
 - Quieres un camino claro de soporte para preguntas que necesitan una persona.
 
-No lo uses para modificar, cancelar, crear o aprobar órdenes. No lo uses para cambiar direcciones de envío, cambiar instrucciones de entrega, exponer datos de facturación o pago, ni prometer fechas de entrega que no estén en los datos conectados de orden o envío.
+No la uses para modificar, cancelar, crear o aprobar órdenes. No la uses para cambiar direcciones de envío, cambiar instrucciones de entrega, exponer datos de facturación o pago, ni prometer fechas de entrega que no estén en los datos conectados de orden o envío.
 
 ## Qué necesita antes del lanzamiento
 
@@ -42,28 +42,28 @@ Antes de habilitar Seguimiento de Pedidos, confirma la configuración de la que 
 Revisa que:
 
 - Tu tienda, fuente de órdenes o integración de eCommerce esté conectada.
-- Referencias de orden, estados de orden, estados de envío, números de tracking y URLs de tracking estén disponibles cuando tu equipo espera que el playbook las use.
+- Referencias de orden, estados de orden, estados de envío, números de tracking y URLs de tracking estén disponibles cuando tu equipo espera que la misión las use.
 - La actividad reciente de órdenes y envíos aparezca en los perfiles de cliente correctos.
 - Un operador logístico o integración de transportista esté conectado si quieres que Hellotext consulte información más detallada sobre el estado de entrega además de los datos de orden ya guardados en Hellotext.
 - Los canales donde los clientes preguntan por pedidos estén conectados y listos.
 - El canal de salida pueda enviar el formato de respuesta de estado de pedido que quieres usar.
 - Los clientes tengan consentimiento y sean elegibles para los canales que quieres usar.
-- Una persona o equipo esté listo para tomar la conversación cuando el playbook no pueda resolver la consulta.
+- Una persona o equipo esté listo para tomar la conversación cuando la misión no pueda resolver la consulta.
 
 Para validar la configuración, usa [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %}).
 
 ## Qué puedes configurar
 
-Abre **Playbooks**, haz click en **Explorar playbooks** y elige **Seguimiento de Pedidos**.
+Abre **Misiones**, haz click en **Explorar misiones** y elige **Seguimiento de Pedidos**.
 
 Seguimiento de Pedidos expone:
 
-- **Canales de entrada:** dónde el playbook puede recibir preguntas de estado de pedido.
-- **Canales de salida:** dónde el playbook puede enviar respuestas de estado o CTAs de tracking.
+- **Canales de entrada:** dónde la misión puede recibir preguntas de estado de pedido.
+- **Canales de salida:** dónde la misión puede enviar respuestas de estado o CTAs de tracking.
 - **Derivación o asignación:** quién debería tomar la conversación cuando hace falta una persona.
 - **Tono:** la voz usada en las respuestas.
 
-Seguimiento de Pedidos usa una intención interna de estado de pedido. Normalmente no necesitas crear intenciones manuales para él. Tampoco funciona como un agente personalizado con prompt editable; el trabajo principal de configuración es confirmar que los datos de orden, canales y camino de derivación estén correctos.
+Seguimiento de Pedidos usa una intención interna de estado de pedido. Normalmente no necesitas crear intenciones manuales para esta misión. Tampoco funciona como un agente personalizado con prompt editable; el trabajo principal de configuración es confirmar que los datos de orden, canales y camino de derivación estén correctos.
 
 ## Qué debería derivar
 
@@ -78,7 +78,7 @@ Casos comunes de derivación incluyen:
 - Acceder a detalles de facturación o pago.
 - Aprobar un reembolso, devolución, cambio o reemplazo.
 - Manejar reclamos, productos dañados, productos faltantes o excepciones de courier que requieren una persona.
-- Responder preguntas de descubrimiento de producto que pertenecen a un playbook de venta.
+- Responder preguntas de descubrimiento de producto que pertenecen a una misión de venta.
 
 Para comportamiento de derivación humana, usa [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %}).
 
@@ -90,12 +90,12 @@ Para pedir reseñas de producto después de la entrega, usa [Generador de Reseñ
 
 ## Por qué puede no responder
 
-Que Seguimiento de Pedidos esté habilitado no significa que cada mensaje de soporte recibirá una respuesta de estado de pedido.
+Que la misión Seguimiento de Pedidos esté habilitada no significa que cada mensaje de soporte recibirá una respuesta de estado de pedido.
 
-El playbook puede no responder, pedir más información o derivar cuando:
+La misión puede no responder, pedir más información o derivar cuando:
 
 - El mensaje no es sobre seguimiento de pedidos.
-- Otro playbook activo es mejor dueño de la conversación.
+- Otra misión activa puede encargarse mejor de la conversación.
 - Hellotext no puede asociar al cliente con una orden activa, en preparación o enviada recientemente.
 - El cliente da un ID de orden o número de tracking que no se encuentra.
 - La orden existe pero todavía no hay datos de envío o tracking disponibles.
@@ -104,11 +104,11 @@ El playbook puede no responder, pedir más información o derivar cuando:
 - El cliente pide un cambio, cancelación, detalle de pago, reembolso, devolución, cambio o resolución de reclamo.
 - Una persona necesita decidir, aprobar o investigar el caso.
 
-Para el modelo general de decisión, mira [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}).
+Para el modelo general de decisión, mira [Cómo decide Hellotext si una misión puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}).
 
-## Cómo probarlo
+## Cómo probarla
 
-Prueba con preguntas de soporte realistas antes de habilitar el playbook ampliamente.
+Prueba con preguntas de soporte realistas antes de habilitar la misión ampliamente.
 
 Usa perfiles de cliente y canales de prueba que coincidan con tu plan de lanzamiento, luego prueba:
 
@@ -122,39 +122,39 @@ Usa perfiles de cliente y canales de prueba que coincidan con tu plan de lanzami
 - Una orden enviada sin URL de tracking.
 - Un pedido de cancelar una orden o cambiar una dirección.
 - Un mensaje de facturación, pago, devolución, cambio, producto dañado o reclamo que debería derivarse.
-- Una pregunta de recomendación de producto que debería ir a otro playbook.
+- Una pregunta de recomendación de producto que debería ir a otra misión.
 
-Revisa si el playbook usa datos disponibles, evita adivinar, pide el identificador faltante correcto, envía la acción de tracking esperada y deriva a la persona o equipo correcto.
+Revisa si la misión usa datos disponibles, evita adivinar, pide el identificador faltante correcto, envía la acción de tracking esperada y deriva a la persona o equipo correcto.
 
 ## Qué revisar después del lanzamiento
 
 Durante los primeros días, revisa:
 
-- Qué mensajes de clientes activaron el playbook.
-- Si el playbook encontró la orden o envío correcto.
+- Qué mensajes de clientes activaron la misión.
+- Si la misión encontró la orden o envío correcto.
 - Si el cliente tuvo que dar ID de orden o número de tracking.
 - Si los CTAs de tracking abrieron la URL correcta.
-- Casos donde el playbook no pudo encontrar datos de orden.
+- Casos donde la misión no pudo encontrar datos de orden.
 - Casos donde derivó y si esa derivación llegó al owner correcto.
 - Preguntas repetidas que sugieren datos de orden faltantes, comunicación de envío poco clara o demoras del transportista.
 - Tasa de resolución, tasa de derivación, velocidad de respuesta, respuestas de clientes y mensajes fallidos.
 
-Ajusta una cosa por vez: calidad de datos de orden, selección de canal, destino de derivación, tono o la integración de órdenes/envíos que lo alimenta.
+Ajusta una cosa por vez: calidad de datos de orden, selección de canal, destino de derivación, tono o la integración de órdenes/envíos que alimenta la misión.
 
 ## Guías relacionadas
 
-- [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
-- [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
-- [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
-- [Playbook Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})
-- [Playbook Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
-- [Playbook Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %})
-- [Playbook Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %})
-- [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
+- [Biblioteca de misiones por objetivo]({% link _journeys/playbook-library-by-mission.md %})
+- [Cómo habilitar una misión]({% link _journeys/how-to-enable-a-playbook.md %})
+- [Cómo personalizar una misión de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Misión Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})
+- [Misión Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
+- [Misión Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %})
+- [Misión Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %})
+- [Misión Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})
-- [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})
+- [Reportes de misiones]({% link _analytics-reporting-attribution/playbook-reporting.md %})
 - [Resumen de inbox y conversaciones]({% link _team/inbox-overview.md %})
 - [Fundamentos del canal de WhatsApp]({% link _numbers/whatsapp-channel-fundamentals.md %})
-- [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
-- [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
+- [Cómo decide Hellotext si una misión puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
+- [Soluciona una misión que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})

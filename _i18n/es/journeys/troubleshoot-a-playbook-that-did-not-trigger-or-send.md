@@ -1,63 +1,63 @@
-Usa esta guía cuando un playbook no se comportó como esperabas.
+Usa esta guía cuando una misión no se comportó como esperabas.
 
-Empieza con un perfil del cliente, un playbook y un momento específico. Los problemas amplios son mucho más fáciles de diagnosticar después de explicar un ejemplo concreto.
+Empieza con un perfil del cliente, una misión y un momento específico. Los problemas amplios son mucho más fáciles de diagnosticar después de explicar un ejemplo concreto.
 
-Si primero quieres entender el modelo general de decisión, lee [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}).
+Si primero quieres entender el modelo general de decisión, lee [Cómo decide Hellotext si una misión puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}).
 
 ## Antes de cambiar algo
 
 Reúne los datos primero:
 
-- El nombre y tipo de playbook.
+- El nombre y tipo de misión.
 - El perfil del cliente que esperabas que entrara o recibiera un mensaje.
 - La hora aproximada en que ocurrió la señal, mensaje o paso de ruta.
-- La señal, intención, audiencia, disparador de ruta o mensaje del cliente que esperabas que iniciara el playbook.
+- La señal, intención, audiencia, disparador de ruta o mensaje del cliente que esperabas que iniciara la misión.
 - El canal que esperabas que Hellotext usara.
-- Qué pasó realmente: nada, una demora, otro canal, una derivación u otro playbook.
+- Qué pasó realmente: nada, una demora, otro canal, una derivación u otra misión.
 - Cambios recientes en integraciones, tracking, configuración de canales, prompts, intenciones, conocimiento, ofertas o derivación.
 
 No edites el prompt, intenciones, ruta o canales hasta saber qué parte del camino falló.
 
-## 1. Identifica el tipo de playbook
+## 1. Identifica el tipo de misión
 
-Distintos playbooks fallan en distintos lugares.
+Distintas misiones fallan en distintos lugares.
 
-| Tipo de playbook | Qué suele iniciarlo | Qué revisar primero |
+| Tipo de misión | Qué suele iniciarla | Qué revisar primero |
 | --- | --- | --- |
-| Playbook activo de venta | Una señal de comercio o comportamiento | Señal, audiencia, elegibilidad del cliente, frecuencia, timing, datos de producto. |
-| Playbook reactivo de atención | Un mensaje entrante del cliente | Canal de entrada, intención/alcance, conocimiento, reglas de derivación. |
+| Misión activa de venta | Una señal de comercio o comportamiento | Señal, audiencia, elegibilidad del cliente, frecuencia, timing, datos de producto. |
+| Misión reactiva de atención | Un mensaje entrante del cliente | Canal de entrada, intención/alcance, conocimiento, reglas de derivación. |
 | Agente personalizado | Una intención configurada o decisión de routing | Intenciones, canales de entrada, solapamiento con otros agentes, destino de derivación. |
 | Ruta | Un disparador y condiciones de ruta | Disparador, esperas, condiciones, ramas, asignaciones, estado de detención/finalización. |
-| Playbook tipo campaña | Una audiencia seleccionada y configuración de envío | Audiencia, preparación del canal, consentimiento, programación, validez del mensaje. |
+| Misión tipo campaña | Una audiencia seleccionada y configuración de envío | Audiencia, preparación del canal, consentimiento, programación, validez del mensaje. |
 
-Si se está usando el tipo de playbook incorrecto, el síntoma puede parecer un bug cuando en realidad hay una diferencia entre la misión y la configuración.
+Si se está usando el tipo de misión incorrecto, el síntoma puede parecer un bug cuando en realidad hay una diferencia entre la misión y la configuración.
 
-## 2. Confirma que el playbook esté habilitado
+## 2. Confirma que la misión esté habilitada
 
-Abre **Playbooks** y revisa el estado del playbook.
+Abre **Misiones** y revisa el estado de la misión.
 
-Si el playbook está deshabilitado, no debería aceptar nuevos clientes o conversaciones elegibles. Habilítalo solo después de que las señales, canales, conocimiento y camino de derivación estén listos.
+Si la misión está deshabilitada, no debería aceptar nuevos clientes o conversaciones elegibles. Habilítala solo después de que las señales, canales, conocimiento y camino de derivación estén listos.
 
-También confirma que estás mirando la versión correcta. Algunos playbooks pueden existir una sola vez para el negocio. [Agentes personalizados]({% link _journeys/custom-agent-playbook.md %}) y playbooks personalizados pueden tener varias versiones con nombres similares.
+También confirma que estás mirando la versión correcta. Algunas misiones pueden existir una sola vez para el negocio. [Agentes personalizados]({% link _journeys/custom-agent-playbook.md %}) y misiones personalizadas pueden tener varias versiones con nombres similares.
 
-## 3. Si el playbook no se disparó
+## 3. Si la misión no se disparó
 
-Usa esta sección cuando no hay evidencia de que el playbook haya empezado.
+Usa esta sección cuando no hay evidencia de que la misión haya empezado.
 
 Revisa:
 
 - La señal esperada existe en el perfil del cliente.
 - La señal ocurrió después de configurar la integración, script, API o captura.
-- El nombre y propiedades de la señal coinciden con lo que espera el playbook.
-- El perfil del cliente coincide con la audiencia del playbook.
-- El playbook está activo en el mismo negocio donde ocurrió la actividad.
+- El nombre y propiedades de la señal coinciden con lo que espera la misión.
+- El perfil del cliente coincide con la audiencia de la misión.
+- La misión está activa en el mismo negocio donde ocurrió la actividad.
 - El disparador, condición o rama de la ruta coincide con el perfil.
 - El mensaje entrante del cliente coincide con la intención o alcance de atención.
-- Otro playbook o agente activo no tomó la conversación primero.
+- Otra misión activa u otro agente activo no tomó la conversación primero.
 
 Si la señal no aparece en el perfil del cliente, detente acá y usa [Soluciona señales o actividad faltante]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %}).
 
-## 4. Si el playbook se disparó pero no envió
+## 4. Si la misión se disparó pero no envió
 
 Usa esta sección cuando la señal o conversación existe, pero no se envió ningún mensaje.
 
@@ -68,35 +68,35 @@ Revisa:
 - El perfil tiene teléfono, WhatsApp, Instagram, Webchat u otra identidad requerida alcanzable.
 - El canal está conectado, activo y disponible para ese cliente.
 - El formato del mensaje funciona en el canal seleccionado.
-- El playbook no alcanzó un límite de frecuencia o presión de contacto.
-- El cliente no compró recientemente el producto o familia de productos que el playbook iba a recuperar o recomendar.
+- La misión no alcanzó un límite de frecuencia o presión de contacto.
+- El cliente no compró recientemente el producto o familia de productos que la misión iba a recuperar o recomendar.
 - El envío no fue bloqueado por horarios silenciosos, horario nocturno o reglas de timing.
-- El playbook pudo construir un mensaje, producto, link, botón, plantilla o candidato de ruta válido.
+- La misión pudo construir un mensaje, producto, link, botón, plantilla o candidato de ruta válido.
 
 Si consentimiento o contactabilidad no están claros, usa [A quién puedo escribirle]({% link _audience/consent-and-subscriber-status.md %}).
 
-## 5. Si el playbook esperó
+## 5. Si la misión esperó
 
 Una demora no siempre es una falla.
 
-Algunos playbooks esperan porque:
+Algunas misiones esperan porque:
 
 - La ruta tiene un paso de espera.
 - Aplican horarios silenciosos u horario nocturno.
 - La zona horaria del negocio cambia qué hora local está permitida.
-- El playbook espera un mejor momento de envío.
+- La misión espera un mejor momento de envío.
 - Una ventana de conversación o respuesta no está disponible en este momento.
 - Un mensaje anterior ya generó presión de contacto.
 
-Revisa los pasos de la ruta, configuración de horarios del negocio y timeline del cliente antes de cambiar el playbook.
+Revisa los pasos de la ruta, configuración de horarios del negocio y timeline del cliente antes de cambiar la misión.
 
-## 6. Si el playbook usó otro canal
+## 6. Si la misión usó otro canal
 
-Algunos playbooks pueden elegir entre canales disponibles.
+Algunas misiones pueden elegir entre canales disponibles.
 
 Revisa:
 
-- Qué canales de salida permite el playbook.
+- Qué canales de salida permite la misión.
 - Si el canal esperado está activo.
 - Si el perfil del cliente es alcanzable en el canal esperado.
 - Si el formato del mensaje, botones, medios, plantilla o ventana de conversación puede funcionar en ese canal.
@@ -104,25 +104,25 @@ Revisa:
 
 Para comportamiento específico de WhatsApp, usa [Fundamentos del canal de WhatsApp]({% link _numbers/whatsapp-channel-fundamentals.md %}).
 
-## 7. Si el playbook derivó
+## 7. Si la misión derivó
 
 Una derivación puede ser el resultado correcto.
 
 Revisa si:
 
-- El playbook tiene configuración de **Derivación**.
+- La misión tiene configuración de **Derivación**.
 - Una ruta llegó a un paso de asignación.
 - Un paso de IA no pudo resolver la conversación y pasó a asignación.
 - Un agente personalizado coincidió con una intención pero llegó a sus límites.
 - El cliente estaba enojado, reportó un producto defectuoso o necesitaba una persona.
-- El Supervisor no encontró otro playbook activo para manejar la solicitud.
+- El Supervisor no encontró otra misión activa para manejar la solicitud.
 - La persona o equipo destino es correcto.
 
 Si la derivación fue inesperada, revisa prompt, conocimiento, alcance, intenciones y destino de derivación. Para más detalle, usa [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %}).
 
 ## 8. Si el agente respondió distinto a lo esperado
 
-Si el playbook envió o respondió, pero el contenido estuvo mal, normalmente no es un problema de disparador.
+Si la misión envió o respondió, pero el contenido estuvo mal, normalmente no es un problema de disparador.
 
 Revisa:
 
@@ -131,9 +131,9 @@ Revisa:
 - El agente tiene suficientes datos de producto, orden, devolución, envío o políticas.
 - Tono y configuración de ofertas coinciden con el objetivo del negocio.
 - El mensaje fue probado en Playground con lenguaje realista de clientes.
-- La respuesta esperada pertenece a este playbook, no a otro playbook o equipo.
+- La respuesta esperada pertenece a esta misión, no a otra misión o a otro equipo.
 
-Para cambios más seguros, usa [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %}).
+Para cambios más seguros, usa [Cómo personalizar una misión de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %}).
 
 ## 9. Revisa reportes y un timeline real
 
@@ -143,7 +143,7 @@ Revisa:
 
 - Timeline del perfil del cliente.
 - Historial de conversación en Inbox.
-- Reportes de playbooks.
+- Reportes de misiones.
 - Actividad de campañas o rutas que pudo contactar al mismo perfil.
 - Estado de entrega del canal.
 - Actividad reciente de integración o tracking.
@@ -165,11 +165,11 @@ Si muchos clientes muestran el mismo síntoma, corrige la causa compartida: inte
 
 ## Guías relacionadas
 
-- [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
+- [Cómo decide Hellotext si una misión puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [Soluciona señales o actividad faltante]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %})
-- [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
-- [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
-- [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
+- [Cómo habilitar una misión]({% link _journeys/how-to-enable-a-playbook.md %})
+- [Cómo personalizar una misión de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Misión Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
 - [A quién puedo escribirle]({% link _audience/consent-and-subscriber-status.md %})
 - [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})
-- [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})
+- [Reportes de misiones]({% link _analytics-reporting-attribution/playbook-reporting.md %})

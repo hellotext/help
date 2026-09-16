@@ -1,6 +1,6 @@
 **Audiencia** es el espacio donde puedes entender, organizar y gestionar los perfiles de clientes conocidos por Hellotext.
 
-Usa los datos de audiencia para decidir quién debería recibir una campaña, qué señales debería usar un playbook o journey y qué contexto necesita el equipo de Inbox antes de ayudar a un cliente.
+Usa los datos de audiencia para decidir quién debería recibir una campaña, qué señales debería usar una misión o un journey y qué contexto necesita el equipo de Inbox antes de ayudar a un cliente.
 
 ## Perfiles de clientes y suscriptores
 
@@ -20,7 +20,7 @@ Sigue leyendo: [Listas vs. segmentos]({% link _audience/lists-and-segments.md %}
 
 ## Consentimiento y estado de suscripción
 
-Los datos del perfil y el permiso para enviar son cosas diferentes. Antes de enviar una campaña o depender de un playbook saliente, entiende si el cliente está suscrito, qué canal está disponible y si las demás reglas de entrega permiten el mensaje.
+Los datos del perfil y el permiso para enviar son cosas diferentes. Antes de enviar una campaña o depender de una misión saliente, entiende si el cliente está suscrito, qué canal está disponible y si las demás reglas de entrega permiten el mensaje.
 
 Sigue leyendo: [A quién puedo escribirle: consentimiento y estado de suscripción]({% link _audience/consent-and-subscriber-status.md %}).
 
@@ -28,13 +28,13 @@ Sigue leyendo: [A quién puedo escribirle: consentimiento y estado de suscripci�
 
 Usa importaciones cuando necesitas llevar datos existentes de clientes desde una planilla, exportación de CRM u otra fuente a Hellotext.
 
-Las importaciones pueden crear o actualizar perfiles, organizarlos en listas y preparar datos para segmentación, personalización, campañas, playbooks, journeys y flujos de Inbox.
+Las importaciones pueden crear o actualizar perfiles, organizarlos en listas y preparar datos para segmentación, personalización, campañas, misiones, journeys y flujos de Inbox.
 
 Sigue leyendo: [Importa perfiles de clientes]({% link _audience/import-customer-profiles.md %}).
 
 ## Enriquece perfiles mediante conversaciones
 
-Usa [Recolector de Propiedades]({% link _captures/property-collector-playbook.md %}) cuando la IA debería recopilar propiedades faltantes seleccionadas directamente o antes de que otro playbook continúe.
+Usa [Recolector de Propiedades]({% link _captures/property-collector-playbook.md %}) cuando la IA debería recopilar propiedades faltantes seleccionadas directamente o antes de que otra misión continúe.
 
 Usa [Impulsor de Suscriptores]({% link _captures/subscriber-booster-playbook.md %}) cuando el consentimiento de suscripción y ciertas propiedades deberían recopilarse de forma contextual dentro de Webchat o una conversación iniciada por el cliente en WhatsApp.
 
@@ -44,7 +44,7 @@ Los datos de audiencia pueden ayudarte a:
 
 * Segmentar campañas.
 * Personalizar mensajes con propiedades del perfil.
-* Dar a playbooks y journeys las propiedades y señales que necesitan.
+* Dar a misiones y journeys las propiedades y señales que necesitan.
 * Entender el comportamiento de compra y el interés en productos.
 * Dar más contexto al equipo de Inbox antes de responder.
 
@@ -68,4 +68,4 @@ Antes de lanzar una campaña o usar una audiencia en una automatización, revisa
 * [Importa perfiles de clientes]({% link _audience/import-customer-profiles.md %})
 * [Etiquetas de personalización]({% link _audience/personalization-tags.md %})
 * [Crea una campaña]({% link _campaigns/creating-a-campaign.md %})
-* [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})
+* [Resumen de misiones y automatización]({% link _journeys/playbooks-overview.md %})

@@ -1,13 +1,13 @@
 ## ¿Qué es Hellotext?
 
-Hellotext es un sistema de decisión para equipos de comercio. Lee señales de clientes y del negocio, prioriza Misiones comerciales elegibles por potencial de ingreso y ejecuta sus acciones mediante playbooks, el Inbox y tus canales de mensajería.
+Hellotext es un sistema de decisión para equipos de comercio. Lee señales de clientes y del negocio, prioriza las misiones comerciales elegibles por potencial de ingreso y ejecuta sus acciones mediante ellas, el Inbox y tus canales de mensajería.
 
 Úsalo para recuperar carritos, generar recompra, reactivar clientes, responder conversaciones y medir ingresos sin tener que construir cada flujo manualmente.
 
 Sigue leyendo:
 
 - [Qué es Hellotext]({% link _getting-started/what-is-hellotext.md %})
-- [Cómo funciona Hellotext: playbooks, campañas e Inbox]({% link _getting-started/how-hellotext-works.md %})
+- [Cómo funciona Hellotext: misiones, campañas e Inbox]({% link _getting-started/how-hellotext-works.md %})
 - [Checklist de lanzamiento]({% link _getting-started/launch-checklist.md %})
 
 ## ¿Por dónde debería empezar?
@@ -18,7 +18,7 @@ Empieza en este orden:
 - Conecta la plataforma donde viven tus datos de clientes y órdenes.
 - Conecta el canal de mensajería que vas a usar primero.
 - Agrega al menos una herramienta de captura.
-- Activa o prepara el primer playbook que quieres probar.
+- Activa o prepara la primera misión que quieres probar.
 - Invita al equipo que responderá conversaciones en el Inbox.
 - Revisa los primeros resultados.
 
@@ -26,7 +26,7 @@ Sigue leyendo: [Checklist de lanzamiento]({% link _getting-started/launch-checkl
 
 ## ¿Qué debería conectar primero?
 
-Conecta tu plataforma de comercio o fuente de datos antes de lanzar capturas, playbooks, rutas o campañas. Así Hellotext puede usar perfiles de cliente, productos, órdenes y señales para segmentar, personalizar, decidir y atribuir resultados.
+Conecta tu plataforma de comercio o fuente de datos antes de lanzar capturas, misiones, rutas o campañas. Así Hellotext puede usar perfiles de cliente, productos, órdenes y señales para segmentar, personalizar, decidir y atribuir resultados.
 
 Después, conecta el canal de mensajería que vas a usar primero, como WhatsApp o SMS.
 
@@ -41,12 +41,12 @@ Las señales son eventos de clientes y del negocio que Hellotext puede usar para
 
 Algunos ejemplos son carritos, navegación, compras, cambios de stock, cumpleaños, respuestas, propiedades del perfil de cliente y elegibilidad por canal.
 
-Los playbooks usan señales para decidir cuándo actuar, qué cliente necesita atención y qué mensaje, canal, momento u oferta tiene sentido.
+Las misiones usan señales para decidir cuándo actuar, qué cliente necesita atención y qué mensaje, canal, momento u oferta tiene sentido.
 
 Sigue leyendo:
 
 - [Qué son las señales]({% link _journeys/what-are-signals.md %})
-- [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})
+- [Resumen de misiones y automatización]({% link _journeys/playbooks-overview.md %})
 - [Seguimiento de eventos]({% link _developers/tracking-events.md %})
 
 ## ¿Qué canales puedo usar?
@@ -76,23 +76,23 @@ Elige la herramienta de captura que coincida con el lugar donde tus clientes ya 
 
 Sigue leyendo: [Resumen de herramientas de captura]({% link _captures/capture-overview.md %}).
 
-## ¿Cuál es la diferencia entre una campaña y un playbook?
+## ¿Cuál es la diferencia entre una campaña y una misión?
 
 Una campaña es un envío puntual a una audiencia seleccionada. Usa campañas para anuncios, promociones y otros envíos enfocados.
 
-Un playbook es un sistema repetible entrenado para una misión de negocio, como recuperar carritos, generar recompra, reactivar clientes, recopilar reseñas o resolver consultas de soporte.
+Una misión es un sistema repetible entrenado para un objetivo de negocio, como recuperar carritos, generar recompra, reactivar clientes, recopilar reseñas o resolver consultas de soporte.
 
-A diferencia de un flujo fijo, un playbook puede usar señales para decidir qué hacer con cada cliente. Puede elegir mensaje, canal, momento, oferta o siguiente paso dentro de los límites que definas, como consentimiento, horarios silenciosos, frecuencia y reglas de derivación.
+A diferencia de un flujo fijo, una misión puede usar señales para decidir qué hacer con cada cliente. Puede elegir mensaje, canal, momento, oferta o siguiente paso dentro de los límites que definas, como consentimiento, horarios silenciosos, frecuencia y reglas de derivación.
 
 Sigue leyendo:
 
-- [Cómo funciona Hellotext: playbooks, campañas e Inbox]({% link _getting-started/how-hellotext-works.md %})
+- [Cómo funciona Hellotext: misiones, campañas e Inbox]({% link _getting-started/how-hellotext-works.md %})
 - [Resumen de campañas]({% link _campaigns/campaigns-overview.md %})
-- [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})
+- [Resumen de misiones y automatización]({% link _journeys/playbooks-overview.md %})
 
 ## ¿Cómo preparo mi primer envío?
 
-Empieza pequeño. Si estás activando un playbook, confirma su objetivo, disparador, canal, audiencia, límites y reglas de derivación antes de encenderlo. Si vas a enviar una campaña, crea una audiencia de prueba con tu propio número y algunos compañeros del equipo, revisa el mensaje en el canal real, confirma links y respuestas, y después envía a una audiencia de clientes enfocada antes de ampliar.
+Empieza pequeño. Si estás activando una misión, confirma su objetivo, disparador, canal, audiencia, límites y reglas de derivación antes de activarla. Si vas a enviar una campaña, crea una audiencia de prueba con tu propio número y algunos compañeros del equipo, revisa el mensaje en el canal real, confirma links y respuestas, y después envía a una audiencia de clientes enfocada antes de ampliar.
 
 Sigue leyendo: [Mejores prácticas para el primer lanzamiento]({% link _getting-started/tips-and-best-practices.md %}).
 
@@ -109,7 +109,7 @@ Sigue leyendo:
 
 ## ¿Cómo funcionan los reportes?
 
-Los reportes dependen del mensaje, link, canal, campaña, playbook y reglas de atribución involucradas.
+Los reportes dependen del mensaje, link, canal, campaña, misión y reglas de atribución involucradas.
 
 Usa las guías de analítica para entender performance de campañas, links con tracking e ingresos atribuidos.
 

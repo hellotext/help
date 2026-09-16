@@ -12,7 +12,7 @@ Los Agentes se enfocan en la atención diaria de clientes.
 - Consultan y actualizan perfiles de clientes mientras atienden conversaciones.
 - Trabajan con las asignaciones y los equipos disponibles para ellos.
 
-Usa este rol para quienes responden a clientes pero no necesitan gestionar campañas, playbooks, audiencias, integraciones o ajustes del negocio.
+Usa este rol para quienes responden a clientes pero no necesitan gestionar campañas, misiones, audiencias, integraciones o ajustes del negocio.
 
 ### Manager
 
@@ -20,7 +20,7 @@ Los Managers combinan la atención a clientes con responsabilidades operativas y
 
 - Hacen todo lo que puede hacer un Agente.
 - Gestionan campañas y reportes.
-- Gestionan capturas, playbooks, rutas y automatizaciones.
+- Gestionan capturas, misiones, rutas y automatizaciones.
 - Trabajan con audiencias y segmentación de clientes.
 - Crean equipos e invitan Agentes.
 
@@ -54,7 +54,7 @@ Sigue leyendo: [Transfiere la propiedad del negocio]({% link _integrations/trans
 Usa el rol con menos privilegios que todavía permita completar el trabajo.
 
 - Elige **Agente** para la atención diaria en el Inbox.
-- Elige **Manager** para quien también opera campañas, playbooks, rutas, capturas, audiencias o equipos.
+- Elige **Manager** para quien también opera campañas, misiones, rutas, capturas, audiencias o equipos.
 - Elige **Administrador** para quien mantiene canales, integraciones, facturación, credenciales, roles y capacidad.
 - Reserva **Dueño** para la persona responsable del negocio y de su propiedad.
 
@@ -101,7 +101,7 @@ Sigue leyendo: [Equipos y capacidad del Inbox]({% link _team/teams-and-inbox-cap
 Antes de quitar a alguien del negocio:
 
 1. Revisa las conversaciones que tiene asignadas.
-2. Actualiza los playbooks, rutas o reglas de enrutamiento que se refieran directamente a esa persona.
+2. Actualiza las misiones, rutas o reglas de enrutamiento que se refieran directamente a esa persona.
 3. Confirma que los equipos restantes tengan personas elegibles y capacidad suficiente.
 4. Quita a la persona y luego revisa el Inbox para encontrar trabajo redistribuido o sin asignar.
 

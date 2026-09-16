@@ -10,7 +10,7 @@ en:
   title: Soft Reactivation playbook
   description: Re-engage customers before they become fully inactive, using recent behavior, product context, and send checks.
 es:
-  title: Playbook Reactivación Suave
+  title: Misión Reactivación Suave
   description: Reactiva clientes antes de que queden totalmente inactivos usando comportamiento reciente, contexto de producto y chequeos de envío.
 
 permalink: soft-reactivation-playbook

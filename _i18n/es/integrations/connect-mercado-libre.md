@@ -13,7 +13,7 @@ Después de conectar una cuenta, Hellotext puede:
 - Crear o actualizar perfiles de clientes con una identidad de Mercado Libre y los datos del comprador disponibles en la venta.
 - Llevar los mensajes posventa y archivos compatibles al Inbox.
 - Sincronizar notas privadas del vendedor con la orden correspondiente de Mercado Libre.
-- Usar la actividad elegible de las órdenes como señales para segmentos, playbooks, rutas, reportes y atribución.
+- Usar la actividad elegible de las órdenes como señales para segmentos, misiones, rutas, reportes y atribución.
 
 Mercado Libre no proporciona los mismos datos del comprador en todas las órdenes. Un perfil del cliente puede incluir el nombre de usuario de Mercado Libre, nombre, email o teléfono cuando estén disponibles, pero no debes esperar que todos los perfiles contengan todos esos campos.
 
@@ -77,9 +77,9 @@ Una nota es diferente de un mensaje:
 
 Cuando crees una nota desde la conversación de un cliente, selecciona la orden de Mercado Libre a la que pertenece. Las notas nuevas y las eliminaciones se sincronizan entre Hellotext y la orden seleccionada de Mercado Libre.
 
-## Usa Mercado Libre en rutas, playbooks y la API
+## Usa Mercado Libre en rutas, misiones y la API
 
-Una orden elegible de Mercado Libre puede ser usada por una ruta o un playbook cuando el flujo contiene la actividad de esa orden y Mercado Libre permite la conversación. Hellotext no usa Mercado Libre solamente porque el perfil del cliente tenga un nombre de usuario del marketplace.
+Una orden elegible de Mercado Libre puede ser usada por una ruta o una misión cuando el flujo contiene la actividad de esa orden y Mercado Libre permite la conversación. Hellotext no usa Mercado Libre solamente porque el perfil del cliente tenga un nombre de usuario del marketplace.
 
 La misma restricción se aplica a los mensajes creados con la API: seleccionar `mercadolibre` no evita el estado de la orden ni las reglas de conversación de Mercado Libre. Lee [Envía mensajes con la API]({% link _developers/send-messages-with-api.md %}) para ver el formato de la solicitud.
 
@@ -95,7 +95,7 @@ Después de conectar:
 4. En una conversación elegible, responde desde Hellotext y confirma que el mensaje aparezca en Mercado Libre.
 5. Agrega una nota privada a la orden y confirma que aparezca en Mercado Libre sin enviarse al comprador.
 
-Antes de lanzar una ruta o playbook basado en actividad de Mercado Libre, sigue también la guía para [verificar tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %}).
+Antes de lanzar una ruta o misión basada en actividad de Mercado Libre, sigue también la guía para [verificar tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %}).
 
 ## Reconecta o elimina la integración
 

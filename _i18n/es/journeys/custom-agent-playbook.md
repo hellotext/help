@@ -1,6 +1,6 @@
-Usa esta guía cuando necesitas un agente de IA para un trabajo de negocio específico que un playbook preconstruido de Hellotext no cubre.
+Usa esta guía cuando necesitas un agente de IA para un trabajo de negocio específico que una misión preconstruida de Hellotext no cubre.
 
-Agente Personalizado es un playbook reactivo con IA. Escucha las intenciones que defines, sigue tus instrucciones, usa conocimiento aprobado, responde en los canales de entrada seleccionados y deriva cuando no debería seguir automáticamente.
+Agente Personalizado es una misión reactiva con IA. Escucha las intenciones que defines, sigue tus instrucciones, usa conocimiento aprobado, responde en los canales de entrada seleccionados y deriva cuando no debería seguir automáticamente.
 
 No es una ruta. No construyes una secuencia fija de esperas, mensajes, condiciones y ramas. Defines qué trabajo tiene el agente, qué debería activarlo, qué conocimiento puede usar y quién debería tomar la conversación cuando hace falta una persona.
 
@@ -16,7 +16,7 @@ Puede:
 - Responder en los canales de entrada que permites.
 - Usar el tono que eliges para el agente.
 - Derivar a la persona o equipo configurado cuando el cliente necesita ayuda humana.
-- Trabajar junto a otros playbooks activos, siempre que cada uno tenga un trabajo claro.
+- Trabajar junto a otras misiones activas, siempre que cada una tenga un trabajo claro.
 
 Agente Personalizado funciona mejor cuando cada agente tiene una misión acotada. Un buen agente personalizado no es "responder cualquier cosa". Es más cercano a "responder preguntas de garantía para esta línea de productos", "calificar pedidos mayoristas", "ayudar a elegir una rutina de skincare" o "manejar preguntas sobre retiro en tienda".
 
@@ -26,7 +26,7 @@ Usa Agente Personalizado cuando el trabajo es conversacional, reactivo y especí
 
 Encaja bien cuando:
 
-- Ningún playbook preconstruido coincide suficientemente bien con el trabajo.
+- Ninguna misión preconstruida coincide suficientemente bien con el trabajo.
 - Necesitas varios agentes que se activen por distintas intenciones del cliente.
 - El agente necesita instrucciones propias de tu negocio.
 - La respuesta depende de políticas cargadas, notas de producto, guías de talle, reglas de garantía, información de tiendas o sitios web aprobados.
@@ -37,7 +37,7 @@ Encaja bien cuando:
 
 No uses Agente Personalizado solo porque es flexible.
 
-Usa un playbook preconstruido cuando la misión ya existe. Por ejemplo:
+Usa una misión preconstruida cuando ya existe una que cubre tu objetivo. Por ejemplo:
 
 - Usa [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) para descubrimiento y recomendación de productos.
 - Usa [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}) para estado de pedidos y envíos.
@@ -58,7 +58,7 @@ Antes de habilitar un agente personalizado, confirma la configuración de la que
 Revisa que:
 
 - El agente tenga una misión clara.
-- Las intenciones sean suficientemente específicas y no se solapen demasiado con otros agentes o playbooks activos.
+- Las intenciones sean suficientemente específicas y no se solapen demasiado con otros agentes u otras misiones activas.
 - El prompt explique qué debería hacer el agente, qué no debería hacer y cuándo debería derivar.
 - Los documentos cargados o sitios aprobados estén actualizados y no se contradigan.
 - Los canales de entrada seleccionados estén conectados y listos.
@@ -69,7 +69,7 @@ Para validar la configuración, usa [Verifica tus datos y señales después de c
 
 ## Qué puedes configurar
 
-Abre **Playbooks**, haz click en **Explorar playbooks** y elige **Agente Personalizado**.
+Abre **Misiones**, haz click en **Explorar misiones** y elige **Agente Personalizado**.
 
 Agente Personalizado expone:
 
@@ -119,7 +119,7 @@ Incluye:
 - Cuándo debería derivar a una persona o equipo.
 - Cómo debería explicar la derivación al cliente.
 
-Evita prompts que pidan al agente resolver todos los casos de soporte y venta. Si un prompt necesita demasiadas excepciones, crea un agente más acotado o usa un playbook preconstruido.
+Evita prompts que pidan al agente resolver todos los casos de soporte y venta. Si un prompt necesita demasiadas excepciones, crea un agente más acotado o usa una misión preconstruida.
 
 Para estructura de prompt, usa [Cómo escribir un gran prompt para tu agente]({% link _journeys/how-to-write-a-great-prompt.md %}).
 
@@ -151,7 +151,7 @@ Casos comunes de derivación incluyen:
 - El pedido está fuera de la misión del agente.
 - El agente no puede verificar la respuesta con el conocimiento o datos disponibles.
 - El cliente pide un reembolso, cancelación, excepción, cambio de cuenta, detalle de pago o acción de venta humana.
-- Ningún playbook activo puede resolver el pedido de forma segura.
+- Ninguna misión activa puede resolver el pedido de forma segura.
 
 Para el modelo de derivación, usa [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %}).
 
@@ -162,7 +162,7 @@ Prueba con mensajes realistas antes de habilitar el agente ampliamente.
 Usa perfiles de cliente y canales de prueba que coincidan con tu plan de lanzamiento, luego prueba:
 
 - Un mensaje que debería activar el agente personalizado.
-- Un mensaje parecido que debería activar otro playbook.
+- Un mensaje parecido que debería activar otra misión.
 - Un mensaje que no debería activar ningún agente personalizado.
 - Un mensaje ambiguo que debería pedir una aclaración o derivar.
 - Un mensaje que requiere conocimiento cargado.
@@ -178,7 +178,7 @@ Revisa si el agente se activa por las intenciones correctas, se mantiene dentro 
 Durante los primeros días, revisa:
 
 - Qué mensajes de clientes activaron el agente.
-- Qué mensajes deberían haber ido a otro playbook.
+- Qué mensajes deberían haber ido a otra misión.
 - Si las intenciones son demasiado amplias, demasiado estrechas o se solapan.
 - Si el prompt le dio suficientes límites al agente.
 - Si el conocimiento cargado respondió las preguntas reales de clientes.
@@ -190,15 +190,15 @@ Ajusta una cosa por vez: texto de intención, prompt, conocimiento cargado, siti
 
 ## Guías relacionadas
 
-- [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
-- [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
-- [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
-- [Playbook Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
-- [Playbook Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %})
-- [Playbook Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %})
+- [Biblioteca de misiones por objetivo]({% link _journeys/playbook-library-by-mission.md %})
+- [Cómo habilitar una misión]({% link _journeys/how-to-enable-a-playbook.md %})
+- [Cómo personalizar una misión de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Misión Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
+- [Misión Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %})
+- [Misión Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %})
 - [Cómo escribir un gran prompt para tu agente]({% link _journeys/how-to-write-a-great-prompt.md %})
-- [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
+- [Cómo decide Hellotext si una misión puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})
-- [Playbook Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %})
-- [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})
+- [Misión Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %})
+- [Reportes de misiones]({% link _analytics-reporting-attribution/playbook-reporting.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})

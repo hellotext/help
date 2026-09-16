@@ -56,7 +56,7 @@ Comienza con [Envía mensajes con la API]({% link _developers/send-messages-with
 
 Usa el seguimiento de eventos cuando quieres que Hellotext entienda acciones desde tu sitio, tienda, backend o integración personalizada.
 
-Los eventos rastreados pueden ayudarte a segmentar audiencias, activar playbooks o rutas, atribuir ingresos y darle más contexto al equipo del Inbox.
+Los eventos rastreados pueden ayudarte a segmentar audiencias, activar misiones o rutas, atribuir ingresos y darle más contexto al equipo del Inbox.
 
 Sigue leyendo: [Seguimiento de eventos]({% link _developers/tracking-events.md %}).
 
@@ -75,6 +75,6 @@ Sigue leyendo: [Seguimiento de clientes no identificados]({% link _developers/tr
 ## Guías relacionadas
 
 - [Seguimiento de origen externo]({% link _developers/external-tracking.md %})
-- [Seguimiento de links en campañas, rutas y playbooks]({% link _developers/tracking-on-campaigns-and-journeys.md %})
+- [Seguimiento de links en campañas, rutas y misiones]({% link _developers/tracking-on-campaigns-and-journeys.md %})
 - [Resumen de configuración e integraciones]({% link _integrations/setup-overview.md %})
 - [Atribución de ventas]({% link _analytics-reporting-attribution/sales-attribution.md %})

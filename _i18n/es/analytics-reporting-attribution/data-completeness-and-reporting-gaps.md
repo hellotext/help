@@ -11,7 +11,7 @@ Registra ambos lados de la comparación:
 - Fechas de inicio y finalización.
 - Zona horaria del negocio y usuario.
 - Moneda de reporte.
-- Filtro de canal, campaña, playbook, ruta, equipo o segmento.
+- Filtro de canal, campaña, misión, ruta, equipo o segmento.
 - Valor mostrado en Hellotext y valor esperado de la otra fuente.
 - Un cliente, pedido, conversación o evento que demuestre la diferencia.
 
@@ -31,7 +31,7 @@ Usar las mismas fechas es necesario, pero no suficiente. También debes confirma
 
 Los reportes de Hellotext pueden asignar un resultado a uno de estos tres tipos de fecha:
 
-- **La fecha en que comenzó la actividad de origen:** el período selecciona mensajes, activaciones de playbooks, conversaciones o solicitudes. Los resultados elegibles que ocurren después permanecen asignados a la fecha de origen.
+- **La fecha en que comenzó la actividad de origen:** el período selecciona mensajes, activaciones de misiones, conversaciones o solicitudes. Los resultados elegibles que ocurren después permanecen asignados a la fecha de origen.
 - **La fecha en que ocurrió el resultado:** el período selecciona compras, reseñas, resoluciones u otros eventos completados dentro de ese rango.
 - **El estado actual:** la sección muestra qué es cierto en el momento indicado, como la carga actual, los seguimientos pendientes o la pertenencia a una audiencia.
 
@@ -40,16 +40,16 @@ El reporte o la sección debe explicar qué fecha utiliza. Estas son las reglas 
 | Reporte o sección | Fecha usada por el período seleccionado |
 | --- | --- |
 | Dashboard | Los ingresos usan la fecha de compra, la actividad usa la fecha de cada evento y las tarjetas de estado actual reflejan el momento indicado. |
-| Reporte de ingresos | Fecha de compra. Las filas de campañas y playbooks identifican la fuente acreditada para compras completadas durante el período seleccionado. |
+| Reporte de ingresos | Fecha de compra. Las filas de campañas y misiones identifican la fuente acreditada para compras completadas durante el período seleccionado. |
 | Rendimiento de campañas | Fecha de entrega del mensaje. Los clicks y compras elegibles registrados después permanecen asignados a la entrega original. |
-| Reporte de un playbook | Fecha de activación del playbook. Los mensajes posteriores y las compras atribuidas permanecen asignados a la activación original. |
+| Reporte de una misión | Fecha de activación de la misión. Los mensajes posteriores y las compras atribuidas permanecen asignados a la activación original. |
 | Rendimiento, Conversaciones y Calidad de servicio | Fecha de inicio de la conversación. La conversión, derivación, resolución y satisfacción posteriores siguen a la conversación de origen. |
 | Rendimiento de canales | Fecha de envío del mensaje. La entrega, interacción y ventas atribuidas posteriores siguen a esos mensajes. |
 | Insights de demanda | Fecha en que comenzó la solicitud no resuelta. La recuperación posterior sigue a la solicitud original. |
 | Reseñas y feedback | El feedback recibido usa la fecha de envío de la respuesta; el rendimiento de recopilación usa la fecha de entrega de la solicitud; los seguimientos pendientes muestran el estado actual. |
 | Carga y capacidad | El trabajo atendido y resuelto usa la fecha de cada acción; la cola, el backlog y el riesgo muestran el estado actual. |
 
-Por ejemplo, si un playbook se activa el 7 de abril y el cliente compra el 10 de abril, el reporte del playbook cuenta el resultado el 7 de abril. El Reporte de ingresos cuenta esa misma compra el 10 de abril. Ambos son correctos porque responden preguntas diferentes.
+Por ejemplo, si una misión se activa el 7 de abril y el cliente compra el 10 de abril, el reporte de la misión cuenta el resultado el 7 de abril. El Reporte de ingresos cuenta esa misma compra el 10 de abril. Ambos son correctos porque responden preguntas diferentes.
 
 La regla que asigna la fecha no extiende ni reemplaza la ventana de atribución. Una compra posterior se agrega a la fecha de origen solo cuando cumple las reglas de atribución de Hellotext.
 
@@ -98,7 +98,7 @@ Si el evento no aparece en la actividad del cliente, el problema ocurre antes de
 
 ### Confirma el contexto del evento
 
-Un evento puede existir y aun así no incluir el contexto requerido por el reporte. Revisa el identificador del cliente, referencia de pedido o producto, canal, origen de campaña o playbook, moneda, monto, estado y fecha.
+Un evento puede existir y aun así no incluir el contexto requerido por el reporte. Revisa el identificador del cliente, referencia de pedido o producto, canal, origen de campaña o misión, moneda, monto, estado y fecha.
 
 Para tracking personalizado, usa el nombre exacto de acción esperado por Hellotext. Pequeñas variaciones pueden crear acciones separadas y dividir los resultados.
 
@@ -121,12 +121,12 @@ Después de confirmar el evento, revisa si pertenece a la métrica que estás an
 - El CTR necesita un click registrado y el denominador de mensajes entregados.
 - La conversión y los ingresos necesitan una compra atribuida elegible, que puede ocurrir después y permanecer asignada a la fecha de entrega original.
 
-### Reportes de playbooks y rendimiento
+### Reportes de misiones y rendimiento
 
-- El playbook, ruta o agente debe estar activo y recibir tráfico elegible.
+- La misión, la ruta o el agente debe estar en actividad y recibir tráfico elegible.
 - Debe registrarse el evento requerido de disparador, interacción, conversión, derivación o resolución.
-- El reporte de un playbook selecciona las fechas de activación originales; el Reporte de rendimiento selecciona las fechas de inicio de las conversaciones. Los resultados elegibles posteriores permanecen vinculados con esa actividad original.
-- Un desglose por canal, playbook, IA frente a personas o equipo necesita esa dimensión en la actividad de origen.
+- El reporte de una misión selecciona las fechas de activación originales; el Reporte de rendimiento selecciona las fechas de inicio de las conversaciones. Los resultados elegibles posteriores permanecen vinculados con esa actividad original.
+- Un desglose por canal, misión, IA frente a personas o equipo necesita esa dimensión en la actividad de origen.
 
 ### Reportes de operaciones
 
@@ -147,13 +147,13 @@ Para una venta atribuida faltante, verifica que:
 
 - Hellotext haya recibido la compra o evento monetario positivo.
 - La compra esté conectada con el cliente y pedido esperados.
-- Exista una campaña, ruta, playbook, click, entrega, recomendación o interacción comercial elegible.
+- Exista una campaña, ruta, misión, click, entrega, recomendación o interacción comercial elegible.
 - La evidencia esté dentro de su ventana de atribución.
 - Una fuente externa reconocida no haya tenido precedencia.
 - La propiedad humana del checkout o actividad comercial no haya cambiado la decisión aplicable.
 - Una cancelación, reembolso, reemplazo o fuente posterior más fuerte no haya revocado o ajustado la atribución.
 
-Hellotext selecciona la atribución según la evidencia disponible y no acredita el monto completo de forma independiente a cada campaña y playbook que interactuó con el cliente.
+Hellotext selecciona la atribución según la evidencia disponible y no acredita el monto completo de forma independiente a cada campaña y misión que interactuó con el cliente.
 
 Consulta [Atribución de ventas]({% link _analytics-reporting-attribution/sales-attribution.md %}) antes de tratar un pedido no atribuido como un evento faltante.
 
@@ -162,13 +162,13 @@ Consulta [Atribución de ventas]({% link _analytics-reporting-attribution/sales-
 | Comparación | Por qué puede ser diferente |
 | --- | --- |
 | Dashboard vs reporte detallado | El Dashboard usa 14 días fijos; el reporte tiene su propio período y métrica. |
-| Reporte de un playbook vs Reporte de ingresos | El reporte del playbook asigna los resultados posteriores a la fecha de activación original; Ingresos incluye la compra en su fecha de compra. |
+| Reporte de una misión vs Reporte de ingresos | El reporte de la misión asigna los resultados posteriores a la fecha de activación original; Ingresos incluye la compra en su fecha de compra. |
 | Reporte de campaña vs Reporte de ingresos | El rendimiento de la campaña asigna una compra elegible a la fecha de entrega original; Ingresos la incluye en su fecha de compra. |
 | Ingresos totales de Hellotext vs ingresos de la tienda | Hellotext solo puede reportar los pedidos y actualizaciones compatibles que recibió; también pueden diferir la fecha, moneda, estado, duplicados, reembolsos, impuestos, envío o definiciones netas/brutas. |
 | Ingresos totales vs ingresos atribuidos | Los ingresos totales incluyen ingresos de comercio no atribuidos; la atribución necesita evidencia elegible de Hellotext. |
 | Monto de Acciones vs Reporte de ingresos | Una acción puede incluir dinero sin representar ingresos canónicos de pedidos ni recibir atribución. |
 | CTR de campaña vs tasa de conversión | El CTR mide interacción registrada; la conversión mide compras atribuidas elegibles frente a su población de entrega. |
-| Ingresos de campaña vs ingresos de playbooks | La precedencia selecciona la fuente elegible acreditada en lugar de duplicar la venta entre todos los puntos de contacto. |
+| Ingresos de campaña vs ingresos de misiones | La precedencia selecciona la fuente elegible acreditada en lugar de duplicar la venta entre todos los puntos de contacto. |
 | Conversaciones vs carga del Inbox | El Dashboard cuenta inicios; el reporte de operaciones mide asignaciones, carga activa, atención, transferencias y resoluciones. |
 | Reporte actual vs exportación anterior | Eventos atrasados, atribución abierta, cancelaciones, reembolsos o correcciones de origen pueden actualizar el reporte después de generar la exportación. |
 
@@ -197,7 +197,7 @@ Los resultados recientes pueden cambiar porque:
 - llega evidencia de origen más fuerte; o
 - una corrección de identidad conecta actividad que estaba separada.
 
-En los reportes basados en la actividad de origen, una fecha reciente puede seguir creciendo mientras su ventana de resultados o atribución continúe abierta. Usa un período anterior cuyas ventanas ya hayan cerrado para comparaciones finales. Para campañas actuales o playbooks siempre activos, considera provisionales los primeros resultados.
+En los reportes basados en la actividad de origen, una fecha reciente puede seguir creciendo mientras su ventana de resultados o atribución continúe abierta. Usa un período anterior cuyas ventanas ya hayan cerrado para comparaciones finales. Para campañas actuales o misiones siempre activas, considera provisionales los primeros resultados.
 
 ## Cuándo contactar a Soporte
 
@@ -206,7 +206,7 @@ Si el evento de origen existe con el contexto requerido pero el reporte esperado
 - ID del negocio y URL del reporte;
 - métrica, desglose y período exacto;
 - zona horaria del negocio y usuario;
-- ID del perfil, pedido, conversación, campaña o playbook;
+- ID del perfil, pedido, conversación, campaña o misión;
 - nombre y fecha del evento;
 - integración de origen o camino de API;
 - valor esperado y valor real; y
@@ -226,7 +226,7 @@ Si falta el evento, primero sigue [Soluciona señales o actividad faltante]({% l
 - [Guía del Reporte de calidad de servicio]({% link _analytics-reporting-attribution/service-quality-report-guide.md %})
 - [Guía del Reporte de carga y capacidad]({% link _analytics-reporting-attribution/workload-capacity-report-guide.md %})
 - [Reportes de campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %})
-- [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})
+- [Reportes de misiones]({% link _analytics-reporting-attribution/playbook-reporting.md %})
 - [Atribución de ventas]({% link _analytics-reporting-attribution/sales-attribution.md %})
 - [Links con tracking]({% link _analytics-reporting-attribution/tracked-links.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})

@@ -1,6 +1,6 @@
 Usa esta guía para elegir el camino de configuración que coincide con cómo vende tu negocio y dónde viven los datos de clientes.
 
-La mayoría de los equipos debería conectar primero su plataforma de comercio, después conectar canales de mensajería, agregar herramientas de captura, verificar datos y señales, y recién después lanzar playbooks, rutas, campañas o agentes.
+La mayoría de los equipos debería conectar primero su plataforma de comercio, después conectar canales de mensajería, agregar herramientas de captura, verificar datos y señales, y recién después lanzar misiones, rutas, campañas o agentes.
 
 Si usas más de una plataforma, empieza por la plataforma que tiene la actividad de clientes, productos, carritos y órdenes más confiable.
 
@@ -12,7 +12,7 @@ Para la mayoría de las implementaciones, sigue este orden:
 2. Conecta el canal de mensajería que vas a usar primero.
 3. Agrega una captura o camino de opt-in en checkout.
 4. Verifica perfiles de cliente, consentimiento, eventos, productos, carritos, órdenes y reportes.
-5. Elige un primer playbook, ruta o campaña.
+5. Elige una primera misión, ruta o campaña.
 6. Revisa el checklist antes de enviar antes de que los clientes reciban mensajes.
 
 Este orden evita que problemas de configuración se conviertan después en problemas de envío, reportes o atribución.
@@ -39,7 +39,7 @@ Empieza aquí:
 - [Configura el opt-in en checkout de Wix]({% link _captures/wix-checkout.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 
-Después de que la conexión funcione, confirma que perfiles de cliente, órdenes, carritos y estado de suscripción aparezcan correctamente antes de lanzar playbooks o campañas.
+Después de que la conexión funcione, confirma que perfiles de cliente, órdenes, carritos y estado de suscripción aparezcan correctamente antes de lanzar misiones o campañas.
 
 ## Camino WooCommerce
 
@@ -51,7 +51,7 @@ Empieza aquí:
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Checklist antes de enviar]({% link _getting-started/go-live-checklist.md %})
 
-La configuración de WooCommerce depende del plugin de Hellotext y del identificador de negocio y token de acceso correctos. Verifica el plugin antes de diagnosticar playbooks o reportes.
+La configuración de WooCommerce depende del plugin de Hellotext y del identificador de negocio y token de acceso correctos. Verifica el plugin antes de diagnosticar misiones o reportes.
 
 ## Camino VTEX
 
@@ -63,7 +63,7 @@ Empieza aquí:
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Qué son las señales]({% link _journeys/what-are-signals.md %})
 
-Después de conectar, confirma que los eventos que necesita tu primer playbook estén presentes en los perfiles de cliente correctos.
+Después de conectar, confirma que los eventos que necesita tu primera misión estén presentes en los perfiles de cliente correctos.
 
 ## Camino Mercado Libre
 

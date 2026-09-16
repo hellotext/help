@@ -1,4 +1,4 @@
-Usa esta guía para decidir qué configuración de mensajería necesitas antes de lanzar playbooks, rutas, campañas, respuestas o capturas de suscriptores.
+Usa esta guía para decidir qué configuración de mensajería necesitas antes de lanzar misiones, rutas, campañas, respuestas o capturas de suscriptores.
 
 Hellotext puede usar distintos canales y tipos de remitente según cómo deberían interactuar los clientes con tu negocio. Empieza por el canal que tus clientes esperan usar y luego confirma la configuración de remitente que encaje con tu volumen, país y flujo de suscripción.
 
@@ -18,7 +18,7 @@ Usa **notificaciones push** para llegar a los visitantes que se suscriben desde 
 
 Usa **Mercado Libre** cuando vendes por el marketplace y necesitas gestionar conversaciones posventa asociadas a operaciones específicas desde el Inbox. Está vinculado a órdenes elegibles de Mercado Libre y no es un destino general para campañas.
 
-Muchos negocios usan varios canales: SMS para alcance, WhatsApp para experiencias salientes y conversacionales más ricas, Instagram o Messenger para conversaciones sociales iniciadas por el cliente y Mercado Libre para atención posventa del marketplace. Las campañas, rutas y playbooks pueden usar los canales de maneras diferentes, por lo que debes confirmar cómo funciona la selección de canal para la experiencia que vas a lanzar.
+Muchos negocios usan varios canales: SMS para alcance, WhatsApp para experiencias salientes y conversacionales más ricas, Instagram o Messenger para conversaciones sociales iniciadas por el cliente y Mercado Libre para atención posventa del marketplace. Las campañas, rutas y misiones pueden usar los canales de maneras diferentes, por lo que debes confirmar cómo funciona la selección de canal para la experiencia que vas a lanzar.
 
 Para empezar a usar un canal social, consulta [Conecta Instagram DM]({% link _integrations/connect-instagram-dm.md %}) o [Conecta Facebook Messenger]({% link _integrations/connect-facebook-messenger.md %}). Para entender qué conversaciones admite cada uno, revisa [Fundamentos de Instagram DM]({% link _numbers/instagram-dm-fundamentals.md %}) y [Fundamentos de Facebook Messenger]({% link _numbers/facebook-messenger-fundamentals.md %}).
 
@@ -26,11 +26,11 @@ Para empezar a usar un canal social, consulta [Conecta Instagram DM]({% link _in
 
 Usa un **código corto exclusivo** cuando envías mayor volumen o necesitas un código corto usado sólo por tu negocio.
 
-Si no sabes qué remitente SMS está disponible para tu cuenta, contacta a tu representante de Hellotext antes de crear la campaña, playbook o ruta.
+Si no sabes qué remitente SMS está disponible para tu cuenta, contacta a tu representante de Hellotext antes de crear la campaña, misión o ruta.
 
 ## Antes de enviar
 
-Antes de lanzar una campaña, playbook o ruta, confirma que:
+Antes de lanzar una campaña, misión o ruta, confirma que:
 
 - El remitente o código corto esté activo.
 - Probaste mensajes entrantes y salientes.

@@ -7,7 +7,7 @@ en:
   description: Learn what a customer profile contains, how Hellotext keeps it updated, and how profiles support campaigns, playbooks, segmentation, and Inbox.
 es:
   title: Cómo funcionan los perfiles de clientes
-  description: Entiende qué contiene un perfil del cliente, cómo lo actualiza Hellotext y cómo se usa en campañas, playbooks, segmentación e Inbox.
+  description: Entiende qué contiene un perfil del cliente, cómo lo actualiza Hellotext y cómo se usa en campañas, misiones, segmentación e Inbox.
 
 permalink: customer-profiles
 permalink_es: perfiles-de-clientes

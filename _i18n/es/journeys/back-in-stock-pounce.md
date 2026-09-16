@@ -1,10 +1,10 @@
 Usa esta guía cuando los clientes pidieron que les avises por un producto no disponible y quieres que Hellotext les notifique automáticamente cuando ese producto o variante vuelve a estar disponible.
 
-Vuelta a Stock es un playbook autónomo de conversión. Cruza señales de inventario con los perfiles del cliente que mostraron interés, verifica que la oportunidad siga vigente y envía una alerta relevante a esas personas sin que tu equipo tenga que revisar listas, cruzar stock o crear campañas manuales.
+Vuelta a Stock es una misión autónoma de conversión. Cruza señales de inventario con los perfiles del cliente que mostraron interés, verifica que la oportunidad siga vigente y envía una alerta relevante a esas personas sin que tu equipo tenga que revisar listas, cruzar stock o crear campañas manuales.
 
 Su valor está en simplificar la operación: Hellotext comunica la reposición de manera automática e inteligente, justo a los clientes que esperaban ese producto, con el contexto necesario para volver a comprar.
 
-No es una ruta ni una campaña amplia de reposición. Es un playbook preconstruido con su propia configuración.
+No es una ruta ni una campaña amplia de reposición. Es una misión preconstruida con su propia configuración.
 
 ## Qué hace Vuelta a Stock
 
@@ -17,11 +17,11 @@ Puede:
 - Enviar una notificación con contexto de producto y link de producto cuando el cliente puede ser alcanzado.
 - Revisar si el producto o variante sigue disponible antes de que salga el mensaje.
 - Detenerse cuando el producto vuelve a no estar disponible, el cliente ya compró, el cliente no puede ser alcanzado o no hace falta más seguimiento.
-- Permitir que tu equipo revise y edite la configuración del playbook antes de habilitarlo.
+- Permitir que tu equipo revise y edite la configuración de la misión antes de habilitarla.
 
-La configuración exacta puede variar según cuenta, tienda conectada y estado de despliegue. Revisa el playbook generado antes de habilitarlo en lugar de asumir que todos los negocios tienen las mismas opciones.
+La configuración exacta puede variar según cuenta, tienda conectada y estado de despliegue. Revisa la misión generada antes de habilitarla en lugar de asumir que todos los negocios tienen las mismas opciones.
 
-## Cuándo usarlo
+## Cuándo usarla
 
 Usa Vuelta a Stock cuando el cliente quería un producto específico pero el inventario bloqueó la compra.
 
@@ -39,7 +39,7 @@ Usa [Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md
 
 ## Qué necesita antes del lanzamiento
 
-Antes de habilitar el playbook, confirma las señales de inventario y cliente de las que depende.
+Antes de habilitar la misión, confirma las señales de inventario y cliente de las que depende.
 
 Revisa que:
 
@@ -50,17 +50,17 @@ Revisa que:
 - Los perfiles del cliente que pidieron aviso estén suscritos, identificables y alcanzables.
 - El canal esté conectado y listo.
 - Los clientes tengan consentimiento y sean elegibles para el canal.
-- Señales de compra u orden estén disponibles si el playbook debería evitar escribir a clientes que ya compraron.
+- Señales de compra u orden estén disponibles si la misión debería evitar escribir a clientes que ya compraron.
 
 Para validar la configuración, usa [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %}). Para tracking personalizado, usa [Seguimiento de eventos]({% link _developers/tracking-events.md %}).
 
-Después de habilitar el playbook, usa los reportes automáticos para revisar entradas, envíos, omisiones, clicks, compras, ingresos atribuidos y fallas.
+Después de habilitar la misión, usa los reportes automáticos para revisar entradas, envíos, omisiones, clicks, compras, ingresos atribuidos y fallas.
 
-## Cómo configurarlo
+## Cómo configurarla
 
-Ve a **Playbooks**, haz click en **Explorar playbooks** y elige **Vuelta a Stock**.
+Ve a **Misiones**, haz click en **Explorar misiones** y elige **Vuelta a Stock**.
 
-Revisa las tarjetas del playbook disponibles en tu cuenta antes de habilitarlo. La configuración puede incluir:
+Revisa las tarjetas de la misión disponibles en tu cuenta antes de habilitarla. La configuración puede incluir:
 
 - **Canales de salida:** dónde Hellotext puede enviar la alerta de stock.
 - **Tono o feedback en Playground:** cómo debería ajustarse la notificación generada al gusto de tu negocio.
@@ -69,7 +69,7 @@ Revisa las tarjetas del playbook disponibles en tu cuenta antes de habilitarlo. 
 
 Hellotext maneja automáticamente la señal de vuelta a stock, la coincidencia con el interés del cliente, el momento del envío, la nueva revisión de disponibilidad, la comprobación de compra y los reportes. Vuelta a Stock no requiere un prompt, intenciones, pasos de ruta, esperas ni condiciones de salida.
 
-## Cómo funciona con playbooks cercanos
+## Cómo funciona con misiones cercanas
 
 Usa la señal del cliente para decidir quién debería ser dueño del momento.
 
@@ -83,9 +83,9 @@ Usa la señal del cliente para decidir quién debería ser dueño del momento.
 
 Vuelta a Stock puede convivir con recuperación de navegación y recuperación de carrito cuando la propiedad está clara. Vuelta a Stock maneja el momento de producto no disponible; navegación y carrito manejan productos disponibles que el cliente no compró.
 
-## Cómo probarlo
+## Cómo probarla
 
-Prueba con un caso pequeño y realista antes de habilitarlo ampliamente.
+Prueba con un caso pequeño y realista antes de habilitarla ampliamente.
 
 Usa un perfil del cliente de prueba que tenga consentimiento de canal, luego:
 
@@ -93,10 +93,10 @@ Usa un perfil del cliente de prueba que tenga consentimiento de canal, luego:
 - Crea una señal de lista de espera, aviso de reposición, captura o interés en producto para ese perfil de prueba.
 - Confirma que la señal de interés aparezca en el perfil del cliente correcto.
 - Envía o simula la actualización de stock o disponibilidad que vuelve vendible el producto.
-- Confirma que el playbook detecte esa actualización y cree una oportunidad elegible de vuelta a stock.
+- Confirma que la misión detecte esa actualización y cree una oportunidad elegible de vuelta a stock.
 - Confirma que el mensaje use el producto, variante, imagen, precio y link correctos.
-- Confirma que el playbook no envíe si el producto vuelve a quedar sin stock.
-- Confirma que el playbook no envíe si el cliente de prueba ya compró el producto.
+- Confirma que la misión no envíe si el producto vuelve a quedar sin stock.
+- Confirma que la misión no envíe si el cliente de prueba ya compró el producto.
 - Envía una respuesta y confirma que llegue al Inbox si tu equipo debería manejar respuestas.
 - Revisa ejemplos enviados, omitidos, fallidos, clickeados y convertidos después del lanzamiento.
 
@@ -104,9 +104,9 @@ Si el tracking es personalizado, confirma que identificadores de producto, ident
 
 ## Por qué puede no enviar
 
-Habilitar el playbook no garantiza que cada reposición produzca un mensaje.
+Habilitar la misión no garantiza que cada reposición produzca un mensaje.
 
-El playbook puede no enviar cuando:
+La misión puede no enviar cuando:
 
 - La señal de stock o disponibilidad no llegó.
 - Falta la señal de interés en producto, lista de espera o aviso de reposición.
@@ -117,42 +117,42 @@ El playbook puede no enviar cuando:
 - El cliente se dio de baja, no tiene consentimiento o no es elegible.
 - El canal, remitente, plantilla de WhatsApp o formato del mensaje no está listo.
 - Horarios silenciosos, límites de frecuencia u otra regla de envío demoran o bloquean el mensaje.
-- Otro playbook o campaña ya está manejando el mismo momento del cliente.
+- Otra misión o campaña ya está manejando el mismo momento del cliente.
 
-Para un diagnóstico paso a paso, usa [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}).
+Para un diagnóstico paso a paso, usa [Soluciona una misión que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}).
 
 ## Qué revisar después del lanzamiento
 
 Durante los primeros días, revisa:
 
 - Qué productos o variantes crearon entradas de vuelta a stock.
-- Cuántos perfiles del cliente entraron en el playbook.
+- Cuántos perfiles del cliente entraron en la misión.
 - Cuántos mensajes se enviaron, omitieron, fallaron, recibieron clicks o convirtieron.
 - Si los productos seguían disponibles cuando los clientes hicieron click.
 - Si links, imágenes, precios y variantes fueron correctos.
 - Respuestas, bajas y preguntas de soporte.
 - Compras, ingresos atribuidos y oportunidades omitidas.
-- Si el playbook se superpone con campañas, Recuperación de Navegación, recuperación de carrito o Recomendador Inteligente.
+- Si la misión se superpone con campañas, Recuperación de Navegación, recuperación de carrito o Recomendador Inteligente.
 
-Ajusta una cosa por vez entre las tarjetas que expone el playbook: alcance de productos, canal, tono, feedback en Playground o asignación.
+Ajusta una cosa por vez entre las tarjetas que expone la misión: alcance de productos, canal, tono, feedback en Playground o asignación.
 
 ## Guías relacionadas
 
-- [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
-- [Elige tu primer playbook]({% link _journeys/choose-your-first-playbook.md %})
-- [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
-- [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Biblioteca de misiones por objetivo]({% link _journeys/playbook-library-by-mission.md %})
+- [Elige tu primera misión]({% link _journeys/choose-your-first-playbook.md %})
+- [Cómo habilitar una misión]({% link _journeys/how-to-enable-a-playbook.md %})
+- [Cómo personalizar una misión de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [Qué son las señales]({% link _journeys/what-are-signals.md %})
-- [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
-- [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
+- [Cómo decide Hellotext si una misión puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
+- [Soluciona una misión que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Seguimiento de eventos]({% link _developers/tracking-events.md %})
 - [Conecta Shopify]({% link _integrations/connect-shopify.md %})
 - [Conecta tu catálogo a WhatsApp]({% link _integrations/connect-catalog-to-whatsapp.md %})
-- [Playbook Alerta de Baja de Precio]({% link _journeys/price-drop-pouncer.md %})
-- [Playbook Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %})
-- [Playbook Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
+- [Misión Alerta de Baja de Precio]({% link _journeys/price-drop-pouncer.md %})
+- [Misión Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %})
+- [Misión Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %})
 - [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %})
-- [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
+- [Misión Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
 - [Resumen de campañas]({% link _campaigns/campaigns-overview.md %})
-- [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})
+- [Reportes de misiones]({% link _analytics-reporting-attribution/playbook-reporting.md %})

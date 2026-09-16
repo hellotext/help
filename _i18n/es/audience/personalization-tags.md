@@ -4,7 +4,7 @@ Estas etiquetas son variables que se usan dentro del contenido del mensaje. Son 
 
 ## Dónde puedes usarlas
 
-El editor de mensajes aparece en campañas, rutas, playbooks, Inbox y otras partes de Hellotext. Cuando ese editor admite personalización, su barra de herramientas incluye el botón **Insertar etiquetas** con un icono de llaves.
+El editor de mensajes aparece en campañas, rutas, misiones, Inbox y otras partes de Hellotext. Cuando ese editor admite personalización, su barra de herramientas incluye el botón **Insertar etiquetas** con un icono de llaves.
 
 Abre el selector para ver las etiquetas disponibles en ese editor. Es más confiable que escribir una etiqueta de memoria porque las opciones pueden depender de las propiedades de tu negocio y del contexto del mensaje.
 
@@ -61,13 +61,13 @@ Los nombres de propiedades no pueden comenzar con un número ni contener llaves.
 
 ## Usa etiquetas contextuales solo donde estén disponibles
 
-Algunos playbooks, rutas y automatizaciones pueden aportar datos de un producto, carrito, pedido, formulario, reembolso u otro objeto del negocio. Sus etiquetas usan un formato de objeto y propiedad, por ejemplo:
+Algunas misiones, rutas y automatizaciones pueden aportar datos de un producto, carrito, pedido, formulario, reembolso u otro objeto del negocio. Sus etiquetas usan un formato de objeto y propiedad, por ejemplo:
 
 ```text
 {product.url}
 ```
 
-Las etiquetas contextuales solo se resuelven cuando el flujo del mensaje tiene el objeto y valor correspondientes. Una etiqueta de producto que funciona dentro de un playbook basado en productos puede no funcionar en una campaña que no tiene un producto seleccionado.
+Las etiquetas contextuales solo se resuelven cuando el flujo del mensaje tiene el objeto y valor correspondientes. Una etiqueta de producto que funciona dentro de una misión basada en productos puede no funcionar en una campaña que no tiene un producto seleccionado.
 
 Usa las etiquetas que ofrece el editor para ese flujo. Si reutilizas el contenido del mensaje en otro lugar, revisa nuevamente el selector y prueba los valores contextuales.
 

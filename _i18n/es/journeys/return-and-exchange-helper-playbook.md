@@ -1,8 +1,8 @@
 Usa esta guía cuando tu equipo dedica tiempo a explicar políticas de devolución, reglas de cambio, elegibilidad y siguientes pasos después de una compra.
 
-Asistente de Cambios y Devoluciones es un playbook reactivo de atención. Ayuda a clientes a entender si un cambio o devolución podría ser posible, qué información hace falta, cuál es el siguiente paso y cuándo debería tomar la conversación una persona.
+Asistente de Cambios y Devoluciones es una misión reactiva de atención. Ayuda a clientes a entender si un cambio o devolución podría ser posible, qué información hace falta, cuál es el siguiente paso y cuándo debería tomar la conversación una persona.
 
-No es un agente general de FAQs y no debería aprobar excepciones por sí solo. Funciona mejor cuando tus políticas están claras, el contexto de orden está disponible y tu equipo definió cuándo el playbook puede seguir y cuándo debe derivar.
+No es un agente general de FAQs y no debería aprobar excepciones por sí solo. Funciona mejor cuando tus políticas están claras, el contexto de orden está disponible y tu equipo definió cuándo la misión puede seguir y cuándo debe derivar.
 
 ## Qué hace Asistente de Cambios y Devoluciones
 
@@ -18,9 +18,9 @@ Puede:
 - Derivar cuando la solicitud necesita aprobación, una excepción, una decisión de reembolso o investigación humana.
 - Trabajar junto con [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}), [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}), Webchat, asignación en Inbox y reglas de respuesta.
 
-El playbook debería mantenerse basado en la información aprobada por tu negocio. Si la política o los datos de orden no están claros, debería pedir aclaración o derivar en lugar de adivinar.
+La misión debería mantenerse basada en la información aprobada por tu negocio. Si la política o los datos de orden no están claros, debería pedir aclaración o derivar en lugar de adivinar.
 
-## Cuándo usarlo
+## Cuándo usarla
 
 Usa Asistente de Cambios y Devoluciones cuando:
 
@@ -32,7 +32,7 @@ Usa Asistente de Cambios y Devoluciones cuando:
 
 Es útil para explicar políticas, recopilar contexto requerido y encaminar casos elegibles al siguiente paso.
 
-## Cuándo no usarlo
+## Cuándo no usarla
 
 No uses Asistente de Cambios y Devoluciones como dueño de todos los casos post-compra.
 
@@ -44,18 +44,18 @@ Usa [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
 
 Usa [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) cuando el cliente quiere ayuda para elegir otro producto antes de comprar.
 
-Usa un [Agente Personalizado]({% link _journeys/custom-agent-playbook.md %}) cuando tu proceso de cambios y devoluciones necesita intenciones propias, acciones externas, integraciones especiales o un flujo acotado que el playbook preconstruido no cubre.
+Usa un [Agente Personalizado]({% link _journeys/custom-agent-playbook.md %}) cuando tu proceso de cambios y devoluciones necesita intenciones propias, acciones externas, integraciones especiales o un flujo acotado que la misión preconstruida no cubre.
 
 Usa el Inbox directamente cuando el caso involucra sospecha de fraude, lenguaje legal, excepciones de alto valor, disputas de pago o un cliente muy molesto.
 
-## Qué necesita antes de lanzarlo
+## Qué necesita antes de lanzarla
 
 Antes de habilitar Asistente de Cambios y Devoluciones, confirma:
 
 - La política de cambios y devoluciones está actualizada y aprobada.
 - La política explica ventanas, estado del producto, productos no retornables, comprobantes requeridos, método de reembolso, opciones de cambio y responsabilidad de envío.
-- Los datos de orden están disponibles cuando el playbook debería identificar compras.
-- Tu equipo sabe qué casos puede manejar el playbook y qué casos requieren una persona.
+- Los datos de orden están disponibles cuando la misión debería identificar compras.
+- Tu equipo sabe qué casos puede manejar la misión y qué casos requieren una persona.
 - Los canales de entrada donde clientes piden cambios o devoluciones están conectados y listos.
 - Hay una persona o equipo configurado para derivaciones.
 - Las reglas de respuesta y el horario comercial coinciden con la urgencia del soporte post-compra.
@@ -64,7 +64,7 @@ Para validar la configuración, usa [Verifica tus datos y señales después de c
 
 ## Qué puedes configurar
 
-Abre **Playbooks**, haz click en **Explorar playbooks** y elige **Asistente de Cambios y Devoluciones**.
+Abre **Misiones**, haz click en **Explorar misiones** y elige **Asistente de Cambios y Devoluciones**.
 
 Las tarjetas disponibles pueden variar, pero podrías revisar:
 
@@ -72,14 +72,14 @@ Las tarjetas disponibles pueden variar, pero podrías revisar:
 - **Canales de entrada:** dónde clientes pueden pedir ayuda con cambios o devoluciones.
 - **Tono:** la voz usada en las respuestas.
 - **Derivación o asignación:** quién debería tomar la conversación cuando hace falta una persona.
-- **Prompt o instrucciones, cuando esté disponible:** qué puede explicar el playbook, qué no debe aprobar y cuándo debe derivar.
+- **Prompt o instrucciones, cuando esté disponible:** qué puede explicar la misión, qué no debe aprobar y cuándo debe derivar.
 - **Búsqueda web o sitios aprobados, cuando esté disponible:** páginas públicas de políticas que el agente puede usar para esta misión.
 
 Mantén la primera configuración acotada. Es más fácil ampliar un flujo claro de cambios y devoluciones que diagnosticar un agente que intenta resolver todos los problemas post-compra.
 
 ## Prepara el conocimiento de políticas
 
-El playbook necesita contenido de políticas suficientemente específico para guiar al cliente.
+La misión necesita contenido de políticas suficientemente específico para guiar al cliente.
 
 Incluye:
 
@@ -93,7 +93,7 @@ Incluye:
 - Reglas de garantía o producto defectuoso.
 - Qué pasa si el producto fue venta final, con descuento, personalizado, abierto, dañado o usado.
 
-Evita contenido vago como "contáctanos para devoluciones" si quieres que el playbook responda de forma consistente. Si la política cambia, actualiza la fuente antes de esperar que el playbook use la nueva regla.
+Evita contenido vago como "contáctanos para devoluciones" si quieres que la misión responda de forma consistente. Si la política cambia, actualiza la fuente antes de esperar que la misión use la nueva regla.
 
 ## Define qué necesita una persona
 
@@ -108,7 +108,7 @@ Configura derivación o asignación a equipo para casos como:
 - La orden no se encuentra.
 - El cliente pide una excepción.
 - El cliente está enojado, frustrado o insatisfecho.
-- La solicitud requiere etiqueta de envío, retiro, reemplazo, crédito en tienda o una acción operativa que el playbook no puede completar de forma segura.
+- La solicitud requiere etiqueta de envío, retiro, reemplazo, crédito en tienda o una acción operativa que la misión no puede completar de forma segura.
 
 Para el comportamiento de derivación, usa [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %}).
 
@@ -122,11 +122,11 @@ Antes de lanzar, confirma:
 - El mensaje inicial no promete una aprobación instantánea.
 - El responsable de derivación es la persona o equipo correcto.
 - Las reglas de respuesta reflejan qué tan rápido debería responder una persona después de una derivación.
-- El equipo del Inbox sabe qué contexto debería recopilar el playbook antes de derivar.
+- El equipo del Inbox sabe qué contexto debería recopilar la misión antes de derivar.
 
-## Cómo probarlo
+## Cómo probarla
 
-Prueba con mensajes post-compra realistas antes de habilitar el playbook ampliamente.
+Prueba con mensajes post-compra realistas antes de habilitar la misión ampliamente.
 
 Usa perfiles de cliente y canales de prueba que coincidan con tu plan de lanzamiento, y prueba:
 
@@ -142,14 +142,14 @@ Usa perfiles de cliente y canales de prueba que coincidan con tu plan de lanzami
 - Una pregunta que es solo una FAQ general de política y podría ir a Respuestas Instantáneas.
 - Una pregunta de tracking que debería ir a Seguimiento de Pedidos.
 
-Revisa si el playbook pide los datos faltantes correctos, sigue la política, evita aprobar sin respaldo y deriva a la persona o equipo correcto.
+Revisa si la misión pide los datos faltantes correctos, sigue la política, evita aprobar sin respaldo y deriva a la persona o equipo correcto.
 
 ## Qué revisar después del lanzamiento
 
 Durante los primeros días, revisa:
 
-- Qué mensajes de clientes activaron el playbook.
-- Si el playbook siguió la fuente de política correcta.
+- Qué mensajes de clientes activaron la misión.
+- Si la misión siguió la fuente de política correcta.
 - Si recopiló información útil antes de derivar.
 - Qué casos se resolvieron sin una persona.
 - Qué casos requirieron aprobación, excepción o investigación.
@@ -157,20 +157,20 @@ Durante los primeros días, revisa:
 - Casos repetidos poco claros que sugieren contenido de política faltante.
 - Velocidad de respuesta, tasa de resolución, tasa de derivación, respuestas de clientes, reembolsos, cambios, mensajes fallidos y satisfacción cuando aplique.
 
-Ajusta una cosa por vez: conocimiento de políticas, selección de canales, tono, destino de derivación o los casos que el playbook debería manejar.
+Ajusta una cosa por vez: conocimiento de políticas, selección de canales, tono, destino de derivación o los casos que la misión debería manejar.
 
 ## Guías relacionadas
 
-- [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
-- [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
-- [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
-- [Playbook Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
-- [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
-- [Playbook Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %})
-- [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
-- [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
-- [Playbook Widget de Webchat]({% link _captures/webchat-widget-playbook.md %})
+- [Biblioteca de misiones por objetivo]({% link _journeys/playbook-library-by-mission.md %})
+- [Cómo habilitar una misión]({% link _journeys/how-to-enable-a-playbook.md %})
+- [Cómo personalizar una misión de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Misión Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
+- [Misión Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
+- [Misión Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %})
+- [Misión Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
+- [Misión Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
+- [Misión Widget de Webchat]({% link _captures/webchat-widget-playbook.md %})
 - [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [Resumen de inbox y conversaciones]({% link _team/inbox-overview.md %})
 - [Tiempo de respuesta y reglas de respuesta]({% link _team/understanding-response-times.md %})
-- [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})
+- [Reportes de misiones]({% link _analytics-reporting-attribution/playbook-reporting.md %})

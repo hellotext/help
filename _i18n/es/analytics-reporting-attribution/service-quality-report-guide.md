@@ -102,14 +102,14 @@ Compara roles similares antes de sacar conclusiones. La IA y los colaboradores p
 | Muchas esperas superan los 10 minutos | Si la demora se concentra en actividad humana, derivada, de un canal, equipo o colaborador. |
 | FCR bajo en una fila | Derivaciones, reasignaciones, conversaciones reabiertas y si la responsabilidad llega al destino correcto. |
 
-Abre conversaciones representativas antes de cambiar un Playbook, regla de enrutamiento, política de respuesta o capacidad del equipo. El reporte identifica un patrón; el historial de la conversación explica qué ocurrió.
+Abre conversaciones representativas antes de cambiar una Misión, regla de enrutamiento, política de respuesta o capacidad del equipo. El reporte identifica un patrón; el historial de la conversación explica qué ocurrió.
 
 ## Cuando faltan datos o parecen incorrectos
 
 Confirma que:
 
 - las conversaciones tengan registrados su inicio, responsable y resultado del ciclo;
-- las resoluciones y Derivaciones de IA hayan sido registradas por el Playbook o la ruta;
+- las resoluciones y Derivaciones de IA hayan sido registradas por la Misión o la ruta;
 - los colaboradores cierren las conversaciones completadas en lugar de dejarlas abiertas;
 - las reglas de respuesta y el Horario comercial estén configurados para los canales comparados;
 - las asignaciones a equipos y colaboradores identifiquen quién gestionó la conversación; y
@@ -124,5 +124,5 @@ Si los registros de origen existen pero el reporte sigue siendo inconsistente, c
 - [Tiempo de respuesta y reglas de respuesta]({% link _team/understanding-response-times.md %})
 - [Equipos y capacidad del Inbox]({% link _team/teams-and-inbox-capacity.md %})
 - [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})
-- [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})
+- [Reportes de misiones]({% link _analytics-reporting-attribution/playbook-reporting.md %})
 - [Integridad de datos y diferencias en reportes]({% link _analytics-reporting-attribution/data-completeness-and-reporting-gaps.md %})

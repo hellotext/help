@@ -1,8 +1,8 @@
 Usa esta guía cuando quieres que visitantes inicien una conversación desde tu sitio web.
 
-Widget de Webchat es una entrada conversacional dentro del sitio. En Hellotext se configura como playbook y captura: controlas cómo aparece, cuándo se abre, qué dice primero y si los visitantes pueden continuar por otro canal como WhatsApp.
+Widget de Webchat es una entrada conversacional dentro del sitio. En Hellotext se configura como misión y captura: controlas cómo aparece, cuándo se abre, qué dice primero y si los visitantes pueden continuar por otro canal como WhatsApp.
 
-No es el agente de IA en sí. Piensa en el webchat como la puerta de entrada en tu sitio. Después de que una persona inicia una conversación, tu equipo, reglas del Inbox, playbooks con IA o agentes personalizados pueden manejar el siguiente paso según tu configuración.
+No es el agente de IA en sí. Piensa en el webchat como la puerta de entrada en tu sitio. Después de que una persona inicia una conversación, tu equipo, reglas del Inbox, misiones con IA o agentes personalizados pueden manejar el siguiente paso según tu configuración.
 
 ## Qué hace Widget de Webchat
 
@@ -17,7 +17,7 @@ Puede:
 - Permitir que visitantes pidan ayuda, orientación sobre órdenes, recomendaciones de producto o soporte.
 - Enviar la conversación al Inbox cuando una persona necesita responder.
 - Continuar por WhatsApp cuando la derivación de canal está configurada.
-- Trabajar junto con playbooks de IA, playbooks de atención, agentes personalizados, rutas y reglas de respuesta.
+- Trabajar junto con misiones de IA, misiones de atención, agentes personalizados, rutas y reglas de respuesta.
 
 Webchat funciona mejor cuando el sitio necesita una forma simple para que visitantes hagan preguntas sin salir de la página.
 
@@ -36,13 +36,13 @@ Es especialmente útil combinado con [Respuestas Instantáneas]({% link _journey
 
 ## Cuándo no usarlo
 
-No uses Widget de Webchat como reemplazo de todos los demás playbooks.
+No uses Widget de Webchat como reemplazo de todas las demás misiones.
 
 Usa una [campaña]({% link _campaigns/campaigns-overview.md %}) cuando necesitas un anuncio puntual a una audiencia seleccionada.
 
 Usa una [ruta]({% link _journeys/getting-started-with-journeys.md %}) cuando la experiencia del cliente debe seguir pasos, esperas, condiciones y asignaciones explícitas.
 
-Usa un playbook de producto o soporte con IA cuando el trabajo principal es el razonamiento del agente, no la entrada desde el sitio. Webchat puede iniciar la conversación, pero el agente igual necesita misión, conocimiento y reglas de derivación propias.
+Usa una misión de producto o soporte con IA cuando el trabajo principal es el razonamiento del agente, no la entrada desde el sitio. Webchat puede iniciar la conversación, pero el agente igual necesita un objetivo, conocimiento y reglas de derivación propias.
 
 Usa opt-in de checkout, formularios, códigos QR o links compartibles cuando el trabajo principal es recopilar consentimiento o datos del perfil en vez de iniciar un chat en el sitio.
 
@@ -56,14 +56,14 @@ Antes de habilitar Widget de Webchat, confirma:
 - El equipo sabe quién se hace cargo de las nuevas conversaciones de webchat en el Inbox.
 - El mensaje inicial explica qué puede preguntar el visitante.
 - La derivación a WhatsApp está configurada si quieres que visitantes continúen por ese canal.
-- Cualquier playbook con IA o agente personalizado que debería responder conversaciones de webchat está listo.
+- Las misiones con IA y los agentes personalizados que deberían responder conversaciones de webchat están listos.
 - Las reglas de respuesta y el horario comercial coinciden con el nivel de servicio que quieres para webchat.
 
 Para validar la configuración, usa [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %}).
 
 ## Qué puedes configurar
 
-Abre **Playbooks**, haz clic en **Explorar playbooks**, busca el grupo **Capturas** y elige **Widget de Webchat**.
+Abre **Misiones**, haz clic en **Explorar misiones**, busca el grupo **Capturas** y elige **Widget de Webchat**.
 
 Widget de Webchat incluye:
 
@@ -111,7 +111,7 @@ Hazla corta:
 
 Los buenos mensajes iniciales son suficientemente específicos para orientar al visitante sin prometer que el webchat puede resolver todo por sí solo.
 
-Si un playbook con IA o agente personalizado va a responder después de que empieza la conversación, asegúrate de que la secuencia inicial coincida con el alcance real de ese agente.
+Si una misión con IA o un agente personalizado va a responder después de que empieza la conversación, asegúrate de que la secuencia inicial coincida con el alcance real de ese agente.
 
 ## Usa el teaser con intención
 
@@ -165,7 +165,7 @@ Revisa:
 - Los mensajes llegan al Inbox.
 - La asignación, ownership de equipo y reglas de respuesta se comportan como esperas.
 - La derivación o continuidad por WhatsApp usa el número correcto.
-- Cualquier playbook con IA o agente personalizado conectado responde solo dentro de su alcance.
+- Las misiones con IA y los agentes personalizados conectados responden solo dentro de su alcance.
 - El widget funciona en desktop y mobile sin tapar controles importantes del sitio.
 
 ## Qué revisar después del lanzamiento
@@ -177,27 +177,27 @@ Durante los primeros días, revisa:
 - Si el teaser atrae conversaciones útiles o genera ruido.
 - Si las conversaciones se responden suficientemente rápido.
 - Si las derivaciones llegan a la persona, equipo o número de WhatsApp correcto.
-- Si los playbooks con IA responden correctamente o derivan cuando corresponde.
+- Si las misiones con IA responden correctamente o derivan cuando corresponde.
 - Preguntas repetidas que sugieren crear [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}), [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}), [Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %}), un Agente Personalizado, mejor contenido de políticas o mejor copy en el sitio.
 - Opt-ins, órdenes, ingresos atribuidos, salud de respuesta y respuestas perdidas cuando aplique.
 
-Ajusta una parte por vez: ubicación, disparador, demora, teaser, secuencia inicial, derivación o el playbook que responde después de que empieza la conversación.
+Ajusta una parte por vez: ubicación, disparador, demora, teaser, secuencia inicial, derivación o la misión que responde después de que empieza la conversación.
 
 ## Guías relacionadas
 
 - [Resumen de herramientas de captura]({% link _captures/capture-overview.md %})
-- [Playbook Impulsor de Suscriptores]({% link _captures/subscriber-booster-playbook.md %})
-- [Playbook Recolector de Propiedades]({% link _captures/property-collector-playbook.md %})
-- [Biblioteca de playbooks por misión]({% link _journeys/playbook-library-by-mission.md %})
-- [Cómo habilitar un playbook]({% link _journeys/how-to-enable-a-playbook.md %})
-- [Cómo personalizar un playbook de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
+- [Misión Impulsor de Suscriptores]({% link _captures/subscriber-booster-playbook.md %})
+- [Misión Recolector de Propiedades]({% link _captures/property-collector-playbook.md %})
+- [Biblioteca de misiones por objetivo]({% link _journeys/playbook-library-by-mission.md %})
+- [Cómo habilitar una misión]({% link _journeys/how-to-enable-a-playbook.md %})
+- [Cómo personalizar una misión de forma segura]({% link _journeys/how-to-customize-a-playbook-safely.md %})
 - [Resumen de inbox y conversaciones]({% link _team/inbox-overview.md %})
 - [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %})
 - [Tiempo de respuesta y reglas de respuesta]({% link _team/understanding-response-times.md %})
-- [Playbook Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
-- [Playbook Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
-- [Playbook Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
-- [Playbook Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %})
-- [Playbook Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %})
-- [Playbook Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
+- [Misión Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %})
+- [Misión Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %})
+- [Misión Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %})
+- [Misión Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %})
+- [Misión Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %})
+- [Misión Agente Personalizado]({% link _journeys/custom-agent-playbook.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})

@@ -1,4 +1,4 @@
-Si tienes una tienda Shopify, conéctala a Hellotext antes de lanzar playbooks, rutas, capturas, campañas o reportes que dependan de la actividad de la tienda.
+Si tienes una tienda Shopify, conéctala a Hellotext antes de lanzar misiones, rutas, capturas, campañas o reportes que dependan de la actividad de la tienda.
 
 Al conectar Shopify, Hellotext puede crear y actualizar perfiles de cliente a partir de actividad de comercio, recibir señales de tu tienda y ayudar a atribuir resultados después de los mensajes.
 
@@ -11,7 +11,7 @@ Las siguientes actividades pueden rastrearse automáticamente:
 - Órdenes actualizadas.
 - Órdenes reembolsadas.
 
-Con esta información, Hellotext puede crear perfiles de cliente más completos, crear segmentos, disparar playbooks o rutas, segmentar campañas y medir qué pasa después de cada mensaje.
+Con esta información, Hellotext puede crear perfiles de cliente más completos, crear segmentos, disparar misiones o rutas, segmentar campañas y medir qué pasa después de cada mensaje.
 
 ## Antes de empezar
 
@@ -50,7 +50,7 @@ Si tu tienda ya estaba conectada, asegúrate de que su app de Hellotext esté ac
 
 ## Verifica la conexión
 
-Antes de lanzar un playbook o campaña amplia, haz una prueba completa en pequeño.
+Antes de lanzar una misión o campaña amplia, haz una prueba completa en pequeño.
 
 Revisa que:
 
@@ -64,12 +64,12 @@ Sigue leyendo: [Verifica tus datos y señales después de configurar]({% link _i
 
 ## Próximos pasos
 
-Después de conectar Shopify, usa la actividad de la tienda como señales para segmentos, playbooks, rutas, segmentación de campañas, contexto del Inbox y reportes.
+Después de conectar Shopify, usa la actividad de la tienda como señales para segmentos, misiones, rutas, segmentación de campañas, contexto del Inbox y reportes.
 
 Próximos pasos útiles:
 
 - Revisa la [sincronización del catálogo de productos]({% link _integrations/product-catalog-sync.md %}).
 - Configura el [opt-in en checkout de Shopify]({% link _captures/shopify-checkout.md %}).
 - Revisa [a quién puedes escribirle]({% link _audience/consent-and-subscriber-status.md %}).
-- Elige tu [primer playbook]({% link _journeys/choose-your-first-playbook.md %}).
+- Elige tu [primera misión]({% link _journeys/choose-your-first-playbook.md %}).
 - Revisa el [checklist antes de enviar]({% link _getting-started/go-live-checklist.md %}).

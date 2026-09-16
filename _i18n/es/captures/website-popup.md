@@ -1,8 +1,8 @@
 Popup de Sitio Web te permite captar números de teléfono, direcciones de email y otros datos del perfil del cliente sin sacar a los visitantes de tu sitio.
 
-Es un playbook de captura, no un playbook agéntico ni una ruta. El popup crea o actualiza un perfil del cliente. Luego puedes entregar un cupón de forma opcional y conectar la captura con una ruta de bienvenida o seguimiento para la nueva persona suscrita.
+Es una misión de captura, no una misión agéntica ni una ruta. El popup crea o actualiza un perfil del cliente. Luego puedes entregar un cupón de forma opcional y conectar la captura con una ruta de bienvenida o seguimiento para la nueva persona suscrita.
 
-Popup de Sitio Web se está habilitando de forma progresiva. Si aparece como **A solicitud**, está deshabilitado o no aparece en el grupo **Capturas** dentro de **Explorar playbooks**, confirma su disponibilidad con tu equipo de Hellotext antes de planificar el lanzamiento.
+Popup de Sitio Web se está habilitando de forma progresiva. Si aparece como **A solicitud**, está deshabilitado o no aparece en el grupo **Capturas** dentro de **Explorar misiones**, confirma su disponibilidad con tu equipo de Hellotext antes de planificar el lanzamiento.
 
 ## Cuándo usar Popup de Sitio Web
 
@@ -34,7 +34,7 @@ Para revisar elegibilidad por canal y consentimiento, consulta [A quién puedes 
 
 ## Crea el popup
 
-1. Abre **Playbooks** y haz clic en **Explorar playbooks**.
+1. Abre **Misiones** y haz clic en **Explorar misiones**.
 2. Busca el grupo **Capturas** y elige **Popup de Sitio Web**.
 3. Dale un nombre que identifique su ubicación o propósito.
 4. Construye los pasos de suscripción y el estado **Completado**.

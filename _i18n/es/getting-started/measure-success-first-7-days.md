@@ -1,4 +1,4 @@
-Usa esta guía después de que tu primera campaña, playbook, ruta, captura o flujo de Inbox lleve algunos días en vivo.
+Usa esta guía después de que tu primera campaña, misión, ruta, captura o flujo de Inbox lleve algunos días en vivo.
 
 El objetivo no es juzgar todo demasiado rápido. El objetivo es confirmar que la configuración está sana, los clientes se comportan como esperabas y sabes qué ajustar antes de ampliar.
 
@@ -27,7 +27,7 @@ Revisa:
 - Bajas, quejas o respuestas negativas inesperadas.
 - Links rotos, ofertas incorrectas, productos incorrectos o mala personalización.
 - Respuestas que deberían haber llegado al Inbox.
-- Playbooks, rutas o agentes que deberían haber pausado o derivado.
+- Misiones, rutas o agentes que deberían haber pausado o derivado.
 - Eventos, clicks, órdenes y atribución apareciendo donde esperabas.
 
 Pausa y corrige el flujo si la audiencia incorrecta está recibiendo mensajes o si los clientes están viendo contenido incorrecto.
@@ -48,7 +48,7 @@ Para campañas, revisa:
 - Qué link, oferta, producto o segmento generó la respuesta más fuerte.
 - Si las bajas o quejas sugieren que la audiencia o mensaje fue demasiado amplio.
 
-Para playbooks y rutas, revisa:
+Para misiones y rutas, revisa:
 
 - Qué disparador o señal inició el flujo.
 - Cuántos perfiles de cliente eran elegibles.
@@ -60,7 +60,7 @@ Para Inbox, revisa:
 - Qué preguntas hicieron los clientes.
 - Qué conversaciones necesitaron ayuda humana.
 - Si las asignaciones y tiempos de respuesta fueron claros.
-- Si las derivaciones de IA o playbooks dieron suficiente contexto al equipo.
+- Si las derivaciones de IA o misiones dieron suficiente contexto al equipo.
 
 ## Día 7: decide qué hacer después
 
@@ -69,7 +69,7 @@ Después de la primera semana, elige una de cuatro acciones.
 | Si ves... | Próxima acción |
 | --- | --- |
 | Buena entrega, respuestas útiles, reportes limpios y conversiones tempranas | Mantén el flujo y amplía con cuidado. |
-| Configuración sana pero pocos clicks, respuestas o conversiones | Ajusta audiencia, oferta, texto, timing o lógica del playbook. |
+| Configuración sana pero pocos clicks, respuestas o conversiones | Ajusta audiencia, oferta, texto, timing o lógica de la misión. |
 | Datos incorrectos, señales faltantes, links rotos o atribución poco clara | Corrige la configuración antes de juzgar performance. |
 | Bajas inesperadas, respuestas negativas, audiencia incorrecta o sobrecarga de soporte | Pausa, reduce alcance y relanza más pequeño. |
 
@@ -95,7 +95,7 @@ Para campañas:
 - Ingresos atribuidos.
 - Bajas o quejas.
 
-Para playbooks y rutas:
+Para misiones y rutas:
 
 - Volumen de disparadores.
 - Perfiles de cliente elegibles.
@@ -120,13 +120,13 @@ Evita sacar conclusiones grandes a partir de:
 - Un link roto o evento faltante que afectó la prueba.
 - Una orden inusualmente grande o pequeña.
 - Atribución antes de que la ventana completa haya tenido tiempo de correr.
-- Una campaña y un playbook compitiendo por el mismo perfil de cliente.
+- Una campaña y una misión compitiendo por el mismo perfil de cliente.
 
 Los datos tempranos deberían ayudarte a encontrar qué revisar después. No siempre son un veredicto final.
 
 ## Preguntas antes de ampliar
 
-Antes de activar más playbooks, rutas, campañas o agentes, responde:
+Antes de activar más misiones, rutas, campañas o agentes, responde:
 
 - ¿Perfiles de cliente, consentimiento y elegibilidad de canal están limpios?
 - ¿Las señales correctas llegan a Hellotext?
@@ -143,7 +143,7 @@ Si la respuesta es no, mantén el lanzamiento pequeño mientras corriges la part
 - [Checklist antes de enviar]({% link _getting-started/go-live-checklist.md %})
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Resumen de analítica, reportes y atribución]({% link _analytics-reporting-attribution/analytics-overview.md %})
-- [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})
+- [Reportes de misiones]({% link _analytics-reporting-attribution/playbook-reporting.md %})
 - [Reportes de campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %})
 - [Atribución de ventas]({% link _analytics-reporting-attribution/sales-attribution.md %})
 - [Resumen de inbox y conversaciones]({% link _team/inbox-overview.md %})

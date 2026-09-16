@@ -1,4 +1,4 @@
-Usa esta guía cuando un evento, actualización de perfil, cambio de segmento, disparador de playbook, step de ruta o métrica de reporte no aparece donde esperabas.
+Usa esta guía cuando un evento, actualización de perfil, cambio de segmento, disparador de misión, step de ruta o métrica de reporte no aparece donde esperabas.
 
 Las señales pueden venir de una tienda, sitio web, herramienta de captura, canal de mensajería, API, Hellotext.js, perfil del cliente o conversación del Inbox. La forma más rápida de corregir una señal faltante es ubicar dónde se detuvo la cadena.
 
@@ -11,7 +11,7 @@ Recopila:
 - El negocio donde ocurrió el problema.
 - El perfil del cliente, email, teléfono, ID externo o usuario de prueba.
 - La señal o nombre de evento esperado.
-- El segmento, playbook, ruta, campaña o reporte afectado.
+- El segmento, misión, ruta, campaña o reporte afectado.
 - El canal, tienda, integración o fuente de tracking.
 - La hora aproximada en que ocurrió la actividad.
 - Qué esperabas ver y qué apareció en su lugar.
@@ -67,7 +67,7 @@ Para tracking con Hellotext.js o API:
 - Confirma que el request se envía al negocio o ambiente correcto.
 - Mantén consistentes los nombres de acciones, como `product.viewed`, `cart.abandoned` u `order.placed`.
 - Incluye el identificador que Hellotext necesita para asociar el evento con el perfil del cliente.
-- Incluye las propiedades requeridas de producto, carrito, orden o campos personalizados cuando el playbook o reporte dependen de ellas.
+- Incluye las propiedades requeridas de producto, carrito, orden o campos personalizados cuando la misión o el reporte dependen de ellas.
 - Prueba con un evento y confirma que aparece antes de enviar más tráfico.
 
 Pequeñas diferencias en nombres de acciones o identificadores del cliente pueden crear señales separadas que no coinciden con el disparador, segmento o reporte que esperabas.
@@ -87,14 +87,14 @@ Para segmentos:
 - El perfil del cliente es elegible para el segmento.
 - El segmento se actualizó o recalculó después de la actividad.
 
-Para playbooks o rutas:
+Para misiones o rutas:
 
 - El disparador usa el mismo nombre de señal y propiedades.
-- El playbook o ruta está activo.
+- La misión o ruta está activa.
 - El cliente coincide con la audiencia y condiciones del disparador.
 - El cliente está suscrito o es elegible para el canal.
-- Límites de frecuencia, horarios silenciosos, condiciones de detención u otro playbook activo no bloquearon el siguiente paso.
-- Los datos requeridos de producto, carrito, orden, canal o perfil están lo suficientemente completos para que el playbook actúe.
+- Límites de frecuencia, horarios silenciosos, condiciones de detención u otra misión activa no bloquearon el siguiente paso.
+- Los datos requeridos de producto, carrito, orden, canal o perfil están lo suficientemente completos para que la misión actúe.
 - El camino de fallback, no resuelto o asignación está configurado cuando la automatización no puede continuar.
 
 Para campañas:
@@ -106,7 +106,7 @@ Para campañas:
 
 Sigue leyendo: [A quién puedo escribirle: consentimiento y estado de suscripción]({% link _audience/consent-and-subscriber-status.md %}).
 
-Para una lista específica de playbooks, usa [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}).
+Para una lista específica de misiones, usa [Soluciona una misión que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}).
 
 ## 5. Si reportes o atribución no se ven bien
 
@@ -120,7 +120,7 @@ Revisa:
 - Si las reglas de atribución aplican para ese canal y timing.
 - Si otro click comercial o acción comercial humana ocurrió antes de la compra.
 - Si la actividad de prueba está filtrada, demorada o es fácil de confundir con tráfico real.
-- Si estás comparando el mismo rango de fechas, canal, campaña, playbook o audiencia.
+- Si estás comparando el mismo rango de fechas, canal, campaña, misión o audiencia.
 
 Sigue leyendo:
 
@@ -136,7 +136,7 @@ Sigue leyendo:
 | La actividad aparece en el perfil equivocado | Email, teléfono, ID externo, perfiles duplicados o identidad enviada por la fuente |
 | El evento nunca aparece | Sync de integración, Hellotext.js, request de API, nombre de acción o ambiente |
 | El evento aparece pero el segmento no cambia | Reglas del segmento, ventana de tiempo, nombres de propiedades o momento de actualización |
-| El playbook no empezó | Disparador, audiencia, elegibilidad del canal, consentimiento, condiciones de detención o estado activo |
+| La misión no empezó | Disparador, audiencia, elegibilidad del canal, consentimiento, condiciones de detención o estado activo |
 | Las métricas del reporte se ven bajas | Links con tracking, rango de fechas, reglas de atribución, canal, audiencia o pedidos sincronizados |
 | El mensaje de WhatsApp/SMS no se envió | Configuración del canal, remitente, consentimiento, plantilla, límites o estado de entrega |
 
@@ -146,11 +146,11 @@ Si el problema todavía no queda claro, incluye:
 
 - Un perfil del cliente afectado.
 - El evento o señal exacta que esperabas.
-- El segmento, playbook, ruta, campaña o reporte afectado.
+- El segmento, misión, ruta, campaña o reporte afectado.
 - La hora aproximada en que ocurrió la actividad.
 - El sistema de origen, integración, request de API o camino de captura involucrado.
 - Capturas o links que muestren qué esperabas y qué apareció en su lugar.
-- Cambios recientes en integraciones, scripts de tracking, plantillas, reglas de audiencia o configuración de playbooks.
+- Cambios recientes en integraciones, scripts de tracking, plantillas, reglas de audiencia o configuración de misiones.
 
 Cuanto más específico sea el ejemplo, más rápido soporte puede encontrar si el problema está en configuración, identidad, tracking, elegibilidad, reportes o atribución.
 
@@ -161,6 +161,6 @@ Cuanto más específico sea el ejemplo, más rápido soporte puede encontrar si 
 - [Seguimiento de eventos]({% link _developers/tracking-events.md %})
 - [Checklist de solución de problemas]({% link _troubleshooting-deliverability/troubleshooting-checklist.md %})
 - [Resumen de analítica, reportes y atribución]({% link _analytics-reporting-attribution/analytics-overview.md %})
-- [Resumen de playbooks y automatización]({% link _journeys/playbooks-overview.md %})
-- [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
-- [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
+- [Resumen de misiones y automatización]({% link _journeys/playbooks-overview.md %})
+- [Cómo decide Hellotext si una misión puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
+- [Soluciona una misión que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})

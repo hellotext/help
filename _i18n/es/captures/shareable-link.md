@@ -1,4 +1,4 @@
-Enlace Compartible es un playbook de captura que crea un link de protocolo SMS o WhatsApp con el que los clientes pueden suscribirse a tu negocio.
+Enlace Compartible es una misión de captura que crea un link de protocolo SMS o WhatsApp con el que los clientes pueden suscribirse a tu negocio.
 
 Cuando los clientes hacen clic en el enlace, se abre la aplicación de SMS o WhatsApp en su teléfono con un mensaje de opt-in predefinido.
 
@@ -8,7 +8,7 @@ También puedes asociar un cupón cuando la ruta de seguimiento configurada cont
 
 ## Crear un Enlace Compartible
 
-Para crear un Link Compartible, abre **Playbooks**, haz clic en **Explorar playbooks**, busca el grupo **Capturas** y elige **Enlace Compartible**.
+Para crear un Link Compartible, abre **Misiones**, haz clic en **Explorar misiones**, busca el grupo **Capturas** y elige **Enlace Compartible**.
 
 ### Elige la aplicación que quieres que se abra con el enlace.
 
@@ -33,7 +33,7 @@ Por defecto, se envía un mensaje de bienvenida al nuevo suscriptor.
 
 Sin embargo, si has creado algún cupón, puedes elegir incluirlo en el mensaje de bienvenida como un incentivo para suscribirse.
 
-Alternativamente, puedes seleccionar una ruta u otro playbook compatible para reemplazar el mensaje de bienvenida predeterminado.
+Alternativamente, puedes seleccionar una ruta u otra misión compatible para reemplazar el mensaje de bienvenida predeterminado.
 
 Ese seguimiento se enviará al nuevo suscriptor en lugar del mensaje predeterminado.
 

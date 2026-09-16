@@ -1,5 +1,5 @@
 Los links de Hellotext son links con tracking creados con la herramienta de links del editor.
-Pueden insertarse en tus mensajes y usarse para recolectar analítica de campañas, rutas, playbooks, conversaciones del Inbox y otros envíos.
+Pueden insertarse en tus mensajes y usarse para recolectar analítica de campañas, rutas, misiones, conversaciones del Inbox y otros envíos.
 
 Los links se crean usando la herramienta de link del editor. Esta herramienta te permite agregar un link con tracking dentro de tu mensaje.
 La herramienta de link tiene el siguiente icono <img style='display: inline;'  src="{{site.url}}/images/icons/link.svg">

@@ -21,7 +21,7 @@ Cambiar la fecha dentro de un reporte detallado no modifica estas tarjetas del D
 
 ### Ingresos atribuidos
 
-Los **Ingresos atribuidos** son los ingresos positivos que Hellotext vinculó con campañas, rutas, playbooks o interacciones comerciales elegibles según sus reglas y ventanas de atribución.
+Los **Ingresos atribuidos** son los ingresos positivos que Hellotext vinculó con campañas, rutas, misiones o interacciones comerciales elegibles según sus reglas y ventanas de atribución.
 
 Selecciona la tarjeta para abrir el **Reporte de ingresos** y revisar el resultado en mayor detalle.
 
@@ -37,7 +37,7 @@ Consulta [Atribución de ventas]({% link _analytics-reporting-attribution/sales-
 
 El **Benchmark de atribución de ingresos** muestra el porcentaje de los ingresos totales registrados que fue atribuido a Hellotext durante el mismo período de 14 días.
 
-El marcador representa el benchmark típico de la plataforma. Úsalo como contexto, no como un objetivo garantizado. El resultado depende del modelo del negocio, campañas y playbooks activos, comportamiento de clientes, evidencia de atribución y de que Hellotext reciba todos los ingresos de pedidos.
+El marcador representa el benchmark típico de la plataforma. Úsalo como contexto, no como un objetivo garantizado. El resultado depende del modelo del negocio, campañas y misiones activas, comportamiento de clientes, evidencia de atribución y de que Hellotext reciba todos los ingresos de pedidos.
 
 Este porcentaje puede aparecer vacío cuando Hellotext no tiene ingresos totales para el período, aunque otra integración o reporte externo contenga ventas.
 
@@ -72,7 +72,7 @@ Selecciona el encabezado de una columna para ordenar la tabla por volumen de eve
 
 No todas las acciones incluyen dinero. Una acción válida puede tener eventos aunque su valor promedio y monto estén vacíos o en cero. Si una acción personalizada debería incluir un valor, verifica que la integración envíe el monto y moneda dentro del evento en lugar de agregarlos solamente al nombre de la acción.
 
-La tabla de Acciones describe lo que recibió Hellotext. Por sí sola, no atribuye la acción a una campaña o playbook. Usa el reporte correspondiente cuando importen la fuente y atribución.
+La tabla de Acciones describe lo que recibió Hellotext. Por sí sola, no atribuye la acción a una campaña o misión. Usa el reporte correspondiente cuando importen la fuente y atribución.
 
 ## Usa el calendario de campañas
 
@@ -83,7 +83,7 @@ El calendario organiza por semana las campañas programadas y enviadas.
 - Para campañas enviadas, el detalle también puede mostrar ingresos atribuidos y CTR.
 - Selecciona una campaña programada para continuar editándola o una campaña enviada para abrir sus resultados.
 
-El calendario contiene campañas. No es una agenda completa de todos los mensajes que podría enviar un playbook, agente de IA o ruta.
+El calendario contiene campañas. No es una agenda completa de todos los mensajes que podría enviar una misión, un agente de IA o una ruta.
 
 ## Elige el reporte correcto
 
@@ -91,7 +91,7 @@ Las tarjetas de reportes se dividen entre **Rendimiento del negocio** y **Operac
 
 | Reporte | Úsalo para responder |
 | --- | --- |
-| **Reporte de ingresos** | ¿Cuántos ingresos se registraron, cuáles se atribuyeron a IA o al equipo y qué canales, playbooks o campañas recibieron crédito? |
+| **Reporte de ingresos** | ¿Cuántos ingresos se registraron, cuáles se atribuyeron a IA o al equipo y qué canales, misiones o campañas recibieron crédito? |
 | **Reporte de rendimiento** | ¿Cómo están cambiando la tasa de conversión, tiempo hasta conversión y tasa de derivación? |
 | **Insights de demanda** | ¿Qué solicitudes de clientes no pudieron resolverse, qué productos fueron afectados y cuántos ingresos podrían haberse perdido? |
 | **Reporte de calidad de servicio** | ¿Con qué frecuencia la IA o el equipo resolvieron conversaciones, cumplieron el SLA o dejaron conversaciones sin resolver? |
@@ -110,7 +110,7 @@ Al comparar reportes:
 3. Aplica el mismo desglose de canal o fuente.
 4. Espera que se cierren las ventanas de atribución actuales antes de tratar los resultados recientes como definitivos.
 
-El mismo resultado puede aparecer en fechas distintas sin que ninguno de los reportes esté equivocado. Los reportes de playbooks asignan los resultados elegibles posteriores a la fecha de activación original, los reportes de campañas los asignan a la fecha de entrega original y el Reporte de ingresos usa la fecha de compra. Los reportes de rendimiento de conversaciones siguen la fecha de inicio de la conversación. Las secciones de estado actual usan el momento indicado por esa sección.
+El mismo resultado puede aparecer en fechas distintas sin que ninguno de los reportes esté equivocado. Los reportes de misiones asignan los resultados elegibles posteriores a la fecha de activación original, los reportes de campañas los asignan a la fecha de entrega original y el Reporte de ingresos usa la fecha de compra. Los reportes de rendimiento de conversaciones siguen la fecha de inicio de la conversación. Las secciones de estado actual usan el momento indicado por esa sección.
 
 El reporte de operaciones también puede incluir una sección de presión operativa en vivo. Una instantánea en vivo describe la cola actual y no está limitada por el período histórico seleccionado para el reporte.
 
@@ -144,7 +144,7 @@ Los resultados recientes pueden cambiar mientras la atribución siga abierta o l
 
 - [Resumen de analítica, reportes y atribución]({% link _analytics-reporting-attribution/analytics-overview.md %})
 - [Atribución de ventas]({% link _analytics-reporting-attribution/sales-attribution.md %})
-- [Reportes de playbooks]({% link _analytics-reporting-attribution/playbook-reporting.md %})
+- [Reportes de misiones]({% link _analytics-reporting-attribution/playbook-reporting.md %})
 - [Reportes de campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %})
 - [Guía del Reporte de rendimiento]({% link _analytics-reporting-attribution/performance-report-guide.md %})
 - [Guía de Insights de demanda]({% link _analytics-reporting-attribution/demand-insights-guide.md %})

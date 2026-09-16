@@ -1,4 +1,4 @@
-Usa una ruta personalizada cuando un playbook de tipo ruta no coincide con el flujo que necesitas.
+Usa una ruta personalizada cuando una misión de tipo ruta no coincide con el flujo que necesitas.
 
 Una ruta personalizada te da un lienzo en blanco. Tú eliges el disparador, agregas los pasos, defines los tiempos y decides cuándo los clientes deben continuar, ramificarse, recibir un mensaje o salir de la ruta.
 

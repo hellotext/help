@@ -1,10 +1,10 @@
 Usa el inbox para gestionar las conversaciones que necesitan atención de tu equipo.
 
-El inbox reúne respuestas de clientes, preguntas de soporte, seguimiento de órdenes y conversaciones que un playbook, ruta o agente de IA deriva a una persona.
+El inbox reúne respuestas de clientes, preguntas de soporte, seguimiento de órdenes y conversaciones que una misión, una ruta o un agente de IA deriva a una persona.
 
-Si estás comparando el Inbox con playbooks y campañas, empieza por [Cómo funciona Hellotext]({% link _getting-started/how-hellotext-works.md %}).
+Si estás comparando el Inbox con misiones y campañas, empieza por [Cómo funciona Hellotext]({% link _getting-started/how-hellotext-works.md %}).
 
-Si estás configurando derivaciones de IA o playbooks, lee [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %}).
+Si estás configurando derivaciones de IA o misiones, lee [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %}).
 
 Si quieres pedir satisfacción después de resolver conversaciones, usa [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}).
 
@@ -12,7 +12,7 @@ Si quieres dar seguimiento a puntajes bajos de lealtad después de una entrega, 
 
 ## Cómo se mueven las conversaciones en el inbox
 
-Una conversación puede empezar cuando un cliente responde a un mensaje, escribe por un canal conectado como [Webchat]({% link _captures/webchat-widget-playbook.md %}) o necesita atención después de un playbook, ruta, orden o evento registrado.
+Una conversación puede empezar cuando un cliente responde a un mensaje, escribe por un canal conectado como [Webchat]({% link _captures/webchat-widget-playbook.md %}) o necesita atención después de una misión, una ruta, una orden o un evento registrado.
 
 Tu equipo puede mantener la conversación sin asignar, asignarla a un colaborador, reasignarla a otra persona o cerrarla cuando no requiere más acción.
 
@@ -34,7 +34,7 @@ Usa asignaciones para decidir quién es responsable de la siguiente respuesta. E
 
 Sigue leyendo: [Asigna conversaciones]({% link _team/assigning-conversations.md %}).
 
-Si la conversación fue derivada por un agente de IA, playbook o ruta, revisa también [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %}).
+Si la conversación fue derivada por un agente de IA, una misión o una ruta, revisa también [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %}).
 
 ## Organiza acceso, equipos y capacidad
 
@@ -68,12 +68,12 @@ Cuando alguien del equipo responde desde el inbox, el editor de mensajes ofrece 
 
 Sigue leyendo: [Resumen del editor de mensajes]({% link _numbers/message-editor-overview.md %}).
 
-Para conversaciones desde el sitio, revisa también [Playbook Widget de Webchat]({% link _captures/webchat-widget-playbook.md %}).
+Para conversaciones desde el sitio, revisa también [Misión Widget de Webchat]({% link _captures/webchat-widget-playbook.md %}).
 
 Para conversaciones desde redes sociales, revisa [Fundamentos de Instagram DM]({% link _numbers/instagram-dm-fundamentals.md %}) y [Fundamentos de Facebook Messenger]({% link _numbers/facebook-messenger-fundamentals.md %}).
 
 Para conversaciones posventa del marketplace, revisa [Conecta Mercado Libre]({% link _integrations/connect-mercado-libre.md %}).
 
-Para satisfacción después de conversaciones cerradas, revisa también [Playbook Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}).
+Para satisfacción después de conversaciones cerradas, revisa también [Misión Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}).
 
-Para feedback de lealtad después de pedidos entregados, revisa también [Playbook Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}).
+Para feedback de lealtad después de pedidos entregados, revisa también [Misión Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}).

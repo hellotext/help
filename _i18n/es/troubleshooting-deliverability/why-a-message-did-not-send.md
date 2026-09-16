@@ -1,4 +1,4 @@
-Usa esta guía cuando esperabas un mensaje de una campaña, playbook, ruta, conversación o integración, pero no se envió o no llegó al cliente.
+Usa esta guía cuando esperabas un mensaje de una campaña, misión, ruta, conversación o integración, pero no se envió o no llegó al cliente.
 
 Empieza por encontrar el mensaje o la actividad que debía crearlo. El siguiente paso depende de si el mensaje nunca existió, todavía se está procesando o terminó con un error de entrega.
 
@@ -9,12 +9,12 @@ Empieza por encontrar el mensaje o la actividad que debía crearlo. El siguiente
 Si no encuentras ningún mensaje, todavía no estás ante un fallo de entrega. Revisa el origen:
 
 - **Campaña:** confirma que no siga como borrador, en revisión o programada, y que el perfil del cliente fuera elegible para la audiencia y los canales elegidos.
-- **Playbook:** confirma que se haya disparado, que la oportunidad siga siendo válida y que Hellotext haya decidido enviar en ese momento.
+- **Misión:** confirma que se haya disparado, que la oportunidad siga siendo válida y que Hellotext haya decidido enviar en ese momento.
 - **Ruta:** revisa el disparador, las condiciones, esperas, ramas y el paso que debía enviar.
 - **Inbox:** confirma que la respuesta se haya enviado y no haya quedado como nota interna o borrador.
 - **API:** confirma que la solicitud haya sido aceptada y luego revisa el estado real del mensaje. Una respuesta `status: received` confirma recepción de la solicitud, no entrega al cliente.
 
-Para automatizaciones, consulta [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}). Si falta la actividad que debía iniciar el flujo, usa [Soluciona señales o actividad faltante]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %}).
+Para automatizaciones, consulta [Soluciona una misión que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}). Si falta la actividad que debía iniciar el flujo, usa [Soluciona señales o actividad faltante]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %}).
 
 ### El mensaje está pendiente o enrutado
 
@@ -105,7 +105,7 @@ Estos motivos dependen del estado de la operación o conversación en Mercado Li
 
 ## El mensaje ya no era relevante
 
-Algunos mensajes de playbooks se cancelan intencionalmente antes de salir porque la oportunidad cambió. Por ejemplo:
+Algunos mensajes de misiones se cancelan intencionalmente antes de salir porque la oportunidad cambió. Por ejemplo:
 
 - el cliente ya completó el carrito o compró el producto;
 - el producto está agotado o dejó de estar disponible;
@@ -138,7 +138,7 @@ Si el motivo no alcanza para resolver el problema, incluye:
 
 - nombre del negocio;
 - link al perfil del cliente y a la conversación;
-- campaña, playbook, ruta o integración de origen;
+- campaña, misión, ruta o integración de origen;
 - canal y remitente;
 - fecha, hora y zona horaria;
 - motivo exacto mostrado en **No enviado**;
@@ -150,7 +150,7 @@ No incluyas tokens de API, contraseñas ni datos completos de pago.
 ## Guías relacionadas
 
 - [Checklist de solución de problemas]({% link _troubleshooting-deliverability/troubleshooting-checklist.md %})
-- [Soluciona un playbook que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
-- [Cómo decide Hellotext si un playbook puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
+- [Soluciona una misión que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %})
+- [Cómo decide Hellotext si una misión puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %})
 - [Crear una campaña]({% link _campaigns/creating-a-campaign.md %})
 - [Enviar SMS con la API]({% link _developers/send-sms-with-api.md %})

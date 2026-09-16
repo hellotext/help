@@ -37,7 +37,7 @@ Sigue leyendo: [Cómo funcionan los perfiles de clientes]({% link _audience/cust
 
 El Inbox ofrece un destino de correo electrónico para los clientes que tienen una dirección de correo cuando el negocio cuenta con un remitente de correo activo.
 
-Correo electrónico no es actualmente una opción de canal en el creador de campañas ni en los selectores de canales de agentes de IA personalizados y playbooks autónomos. Conectar un remitente no agrega Correo electrónico a esos selectores ni cambia los canales de envío de una campaña o un playbook existente.
+Correo electrónico no es actualmente una opción de canal en el creador de campañas ni en los selectores de canales de agentes de IA personalizados y misiones autónomas. Conectar un remitente no agrega Correo electrónico a esos selectores ni cambia los canales de envío de una campaña o una misión existente.
 
 El envío de correos mediante rutas tampoco está disponible actualmente, aunque Correo electrónico aparezca en el selector de canales de una ruta. Usa el Inbox para las conversaciones de correo que se describen en esta guía.
 

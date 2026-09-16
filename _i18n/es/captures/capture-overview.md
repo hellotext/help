@@ -1,8 +1,8 @@
-Los playbooks de captura ayudan a que las personas se suscriban a tu negocio o compartan información útil para su perfil desde los lugares donde ya interactúan con tu marca: tu tienda, packaging, redes sociales, checkout, sitio web o una conversación activa.
+Las misiones de captura ayudan a que las personas se suscriban a tu negocio o compartan información útil para su perfil desde los lugares donde ya interactúan con tu marca: tu tienda, packaging, redes sociales, checkout, sitio web o una conversación activa.
 
-Hellotext presenta estas opciones como playbooks, pero no todas funcionan de la misma manera. Algunas abren SMS o WhatsApp con un mensaje de opt-in prellenado. Otras recopilan información en tu sitio web o durante el checkout. Webchat crea una entrada conversacional en el sitio, mientras que Impulsor de Suscriptores y Recolector de Propiedades usan IA dentro de una conversación.
+Hellotext presenta estas opciones como misiones, pero no todas funcionan de la misma manera. Algunas abren SMS o WhatsApp con un mensaje de opt-in prellenado. Otras recopilan información en tu sitio web o durante el checkout. Webchat crea una entrada conversacional en el sitio, mientras que Impulsor de Suscriptores y Recolector de Propiedades usan IA dentro de una conversación.
 
-Para encontrar los playbooks de captura en Hellotext, abre **Playbooks**, haz clic en **Explorar playbooks** y ve al grupo **Capturas**.
+Para encontrar las misiones de captura en Hellotext, abre **Misiones**, haz clic en **Explorar misiones** y ve al grupo **Capturas**.
 
 ## Elige una herramienta de captura
 
@@ -18,7 +18,7 @@ Usa **Widget de Webchat** cuando quieres que visitantes inicien una conversació
 
 Usa **Impulsor de Suscriptores** cuando la IA debería introducir una suscripción basada en consentimiento en un momento relevante de una conversación de Webchat o una conversación iniciada por el cliente en WhatsApp.
 
-Usa **Recolector de Propiedades** cuando quieres que la IA recopile propiedades faltantes del perfil directamente o antes de que otro playbook continúe.
+Usa **Recolector de Propiedades** cuando quieres que la IA recopile propiedades faltantes del perfil directamente o antes de que otra misión continúe.
 
 Usa **opt-in en checkout de Shopify** u **opt-in en checkout de Wix** cuando quieres que tus clientes se suscriban mientras completan una compra.
 
@@ -30,7 +30,7 @@ Confirma que el canal esté conectado y listo para recibir opt-ins.
 
 Escribe un mensaje de opt-in claro para que tus clientes entiendan a qué se están sumando.
 
-Decide qué debería pasar después de que alguien se suscribe, como enviar un mensaje de bienvenida, aplicar un cupón, iniciar una ruta o activar un playbook.
+Decide qué debería pasar después de que alguien se suscribe, como enviar un mensaje de bienvenida, aplicar un cupón, iniciar una ruta o activar una misión.
 
 ## Haz que las capturas sean fáciles de identificar y probar
 

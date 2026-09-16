@@ -1,4 +1,4 @@
-Usa SMS cuando necesitas un mensaje de texto conciso y alcance amplio sin depender de una aplicación de mensajería. Hellotext puede usar SMS en campañas, playbooks autónomos, rutas, conversaciones de Inbox, capturas y mensajes por API.
+Usa SMS cuando necesitas un mensaje de texto conciso y alcance amplio sin depender de una aplicación de mensajería. Hellotext puede usar SMS en campañas, misiones autónomas, rutas, conversaciones de Inbox, capturas y mensajes por API.
 
 SMS soporta texto y enlaces. No ofrece las experiencias más ricas de productos, botones, adjuntos y ubicaciones disponibles en WhatsApp. SMS no usa el proceso de aprobación de plantillas de WhatsApp de Meta, aunque siguen aplicando las reglas del operador, la cuenta, el consentimiento y el contenido.
 
@@ -14,7 +14,7 @@ Confirma que:
 - Los perfiles del cliente tengan números de teléfono completos en formato internacional.
 - Tu audiencia tenga consentimiento válido para SMS.
 - Tu cuenta no tenga una restricción de facturación, saldo o envío temporal que bloquee SMS.
-- Las respuestas puedan llegar a las personas o playbooks que deberían atenderlas.
+- Las respuestas puedan llegar a las personas o misiones que deberían atenderlas.
 
 El remitente disponible para tu negocio depende de su país y configuración de cuenta. Hellotext puede usar remitentes aprobados o códigos cortos compartidos donde estén disponibles.
 
@@ -34,13 +34,13 @@ Las opciones disponibles dependen de los canales conectados al negocio. Usar SMS
 
 Sigue leyendo: [Mejores prácticas para campañas]({% link _campaigns/campaign-best-practices.md %}).
 
-### Playbooks autónomos
+### Misiones autónomas
 
-Cuando un playbook autónomo proactivo controla la selección de canal, Hellotext puede evaluar los canales elegibles disponibles para ese cliente y elegir la opción más eficiente en costos. El playbook solo envía cuando su motor de decisión identifica una oportunidad válida según sus reglas.
+Cuando una misión autónoma proactiva controla la selección de canal, Hellotext puede evaluar los canales elegibles disponibles para ese cliente y elegir la opción más eficiente en costos. La misión solo envía cuando su motor de decisión identifica una oportunidad válida según sus reglas.
 
-No asumas que habilitar SMS hace que todos los playbooks envíen un SMS. El cliente debe seguir siendo elegible, la oportunidad debe continuar vigente y el playbook puede seleccionar otro canal disponible.
+No asumas que habilitar SMS hace que todas las misiones envíen un SMS. El cliente debe seguir siendo elegible, la oportunidad debe continuar vigente y la misión puede seleccionar otro canal disponible.
 
-Un playbook de soporte reactivo normalmente responde en el canal donde el cliente inició la conversación, sujeto a la disponibilidad y reglas de conversación de ese canal.
+Una misión reactiva de soporte normalmente responde en el canal donde el cliente inició la conversación, sujeta a la disponibilidad y reglas de conversación de ese canal.
 
 ### Rutas
 
@@ -50,7 +50,7 @@ Prueba cada rama que pueda enviar o recibir SMS. Confirma qué ocurre cuando fal
 
 ### Inbox y respuestas
 
-Cuando el remitente activo admite respuestas, una respuesta por SMS puede abrir o continuar una conversación en el Inbox. El equipo puede responder, asignar la conversación o dejar que un playbook elegible la atienda según la configuración del negocio.
+Cuando el remitente activo admite respuestas, una respuesta por SMS puede abrir o continuar una conversación en el Inbox. El equipo puede responder, asignar la conversación o dejar que una misión elegible la atienda según la configuración del negocio.
 
 Los códigos cortos compartidos pueden ser usados por más de un negocio. El mensaje saliente más reciente ayuda a determinar qué negocio recibe una respuesta, por lo que los negocios que necesitan un remitente dedicado deberían revisar [Códigos cortos exclusivos]({% link _numbers/exclusive-short-codes.md %}).
 
@@ -114,7 +114,7 @@ Antes de tu primer lanzamiento por SMS, confirma que:
 2. La audiencia tenga consentimiento válido para SMS y números de teléfono disponibles.
 3. El mensaje final identifique al negocio y tenga un propósito claro.
 4. La estimación de partes de SMS sea aceptable después de personalizar.
-5. Las respuestas lleguen al Inbox, equipo o playbook esperado.
+5. Las respuestas lleguen al Inbox, al equipo o a la misión que corresponda.
 6. Hayas probado la entrega, respuestas, enlaces, personalización y manejo de bajas.
 7. Sepas dónde revisar los motivos de entrega y los reportes después del lanzamiento.
 

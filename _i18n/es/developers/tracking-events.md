@@ -1,4 +1,4 @@
-El seguimiento de eventos convierte la actividad de tus clientes en señales que Hellotext puede usar en perfiles de clientes, segmentos, atribución, playbooks, rutas e Inbox.
+El seguimiento de eventos convierte la actividad de tus clientes en señales que Hellotext puede usar en perfiles de clientes, segmentos, atribución, misiones, rutas e Inbox.
 
 Las señales pueden venir de una integración, Hellotext.js, tu backend, una tienda física, formularios, conversaciones o acciones internas de Hellotext. No necesitas registrar manualmente todas las señales ni implementar todos los eventos disponibles.
 
@@ -86,7 +86,7 @@ Los nombres correctos son `app.installed` y `app.removed`. No uses las variantes
 
 ## Acciones generadas por Hellotext
 
-Hellotext también crea señales internas para mensajes, conversaciones, segmentos, enlaces cortos, cambios del perfil del cliente y decisiones de playbooks. Algunas acciones, como `product.browse_abandoned`, `product.price_changed` u `order.printed_label`, pertenecen a procesos internos del producto.
+Hellotext también crea señales internas para mensajes, conversaciones, segmentos, enlaces cortos, cambios del perfil del cliente y decisiones de misiones. Algunas acciones, como `product.browse_abandoned`, `product.price_changed` u `order.printed_label`, pertenecen a procesos internos del producto.
 
 No reproduzcas esas acciones manualmente ni las envíes desde tu integración salvo que aparezcan explícitamente como compatibles en la [referencia de tracking](https://www.hellotext.com/api#tracking). Duplicarlas puede activar automatizaciones o alterar reportes de forma incorrecta.
 
@@ -155,7 +155,7 @@ Prueba primero con un cliente reconocible:
 3. Confirma que el objeto relacionado sea el producto, carrito o pedido esperado.
 4. Revisa que la fecha represente cuándo ocurrió la actividad.
 5. Comprueba que la integración no haya creado el mismo evento automáticamente.
-6. Revisa segmentos, playbooks y reportes solamente después de validar los datos base.
+6. Revisa segmentos, misiones y reportes solamente después de validar los datos base.
 
 Si los eventos no aparecen donde esperas, usa [Soluciona señales o actividad faltante]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %}).
 
