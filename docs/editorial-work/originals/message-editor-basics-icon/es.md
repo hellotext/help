@@ -27,7 +27,7 @@ Para hacer que una sección de texto sea cursiva, selecciona el texto que deseas
 #### Links
 
 Los links se crean usando la herramienta de link del editor. Esta herramienta te permite agregar un link con tracking dentro de tu mensaje.
-La herramienta de link tiene el siguiente icono <img style="display: inline; width: 20px; height: 20px; vertical-align: middle;" src="{{site.url}}/images/icons/link.svg" width="20" height="20" alt="Icono de enlace">
+La herramienta de link tiene el siguiente icono <img style='display: inline;'  src="{{site.url}}/images/icons/link.svg">
 y se encuentra en la barra de herramientas del editor. Puedes abrirla con estos atajos:
 
 - <kbd> Ctrl</kbd> + <kbd>K</kbd> en Windows
