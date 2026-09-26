@@ -18,6 +18,19 @@ The reader selects a Performance metric and date range, interprets its headline,
 5. A focused metric selector/chart or duration-widget screenshot would help if the real localized demo report can be captured natively. At 08:29 UTC the Mac was still locked, so no compliant Display P3 PNG could be made. Do not substitute a browser JPEG or invented chart. Recheck capture readiness before finalizing; a text-only factual correction can proceed if native capture remains unavailable.
 6. Re-read current sources before each save, run the full Help build and security-header check, verify headings, links, metadata and rendered ES/EN pages at desktop and mobile widths, then record the verifying content commit in `progress.csv`. Record PR merge and public verification separately.
 
+### Linked-guide consistency scope
+
+The current Analytics overview describes the two duration widgets as conversion paths; Data completeness calls the Performance cohort a conversation-start cohort; Dashboard assigns all Campaign outcomes to delivery date; and Revenue gives the same incorrect Campaign date example. These are direct contradictions of the corrected Performance and Campaign detail explanations. The complete current Spanish and English bodies of those four guides were copied before editing to `originals/performance-report-guide/related/`. Their SHA-256 values are:
+
+| Guide | Spanish | English |
+| --- | --- | --- |
+| Analytics overview | `50cce4aeb8d512d753d139dabf153571565d34653699d14e706d8a2c6c95550e` | `79ef71565e21869e775dfe9b16aedb1216bf345e83b4fe16819e2f4a817f194a` |
+| Dashboard | `a3c8d66f37f6a4f911ec1d9383c56dc522ec483a11602be1486504164fb25424` | `82ee0a0be3ffb703c7e583f61ce0cf17c700027acd3c828616986d3cfd5d7ef5` |
+| Data completeness | `30171311e610b5bc9b988748567733504a3f044da53a1f5d55760733a59bd3fb` | `8014a1920d79f8627e6d275b68c93b02b04431f5f7a1894ea3b91dbd3503f5ec` |
+| Revenue report | `08f16700c282dec3408b81e75c5a9b70cff43f3a130114878926d5c60e3af56c` | `f07149dbe437b26b673d36a1f25b79e329bcf35a548d060b795c8fcaad47d9f1` |
+
+Correct only those specific statements in both languages, preserving other sections, links, figures, metadata and publication state. Analytics overview and Data completeness already have `local_verified` progress rows; their verifying commit references will need updating. Dashboard and Revenue remain `pending` for their own full editorial reviews. Playbook reporting has additional old Performance claims but is the next pending full article after this one; leave it for that batch and record the dependency.
+
 ## Source audit and implementation caveat
 
 - Rails `Report::Calculator::{ConversionRate,EscalationRate,TimeToConversionAvg}` and `Contact::Interaction` implement the headline population and fields. Conversion can be recorded manually, and an interaction can exist without a conversation. `TimeToConversionAvg` computes separate no-escalation and escalated means, but the report metric card and chart presenter use only its primary no-escalation value.
