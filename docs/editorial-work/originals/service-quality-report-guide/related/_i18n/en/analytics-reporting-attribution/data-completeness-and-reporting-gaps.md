@@ -44,7 +44,7 @@ The report or section should explain which date it uses. The most common rules a
 | Campaign detail report | Sends, deliveries, clicks, and attributed purchases count on the date of each event. The funnel's Engagement stage requires both delivery and a tracked click within the selected period. |
 | Playbook report | Sends, deliveries, and clicks use each event's date; revenue and conversion metrics can group purchases by the date of the credited source message. |
 | Performance | Interaction start date. A later recorded conversion or escalation follows the originating interaction. |
-| Service quality | AI resolution, team resolution, and unresolved rates use the start of the service interaction; SLA compliance and response-time distribution use the start of the response obligation; customer satisfaction uses the survey answer date. Agent-performance columns use their relevant handling, resolution, or response dates. |
+| Conversations and Service Quality | Conversation start date. Later resolution and satisfaction outcomes follow the originating conversation. |
 | Revenue by channel in the Revenue report | Purchase date of the attributed sale; the channel identifies the credited source. |
 | Demand insights | Interaction end date; Unfulfilled requires certain closing states with no recorded conversion. |
 | Reviews and feedback | Submitted feedback uses submission date; collection performance uses request-delivery date; pending follow-ups show current state. |
