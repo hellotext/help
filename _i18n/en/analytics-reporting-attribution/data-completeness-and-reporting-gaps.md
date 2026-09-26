@@ -31,7 +31,7 @@ Using the same dates is necessary, but it is not enough. You must also confirm w
 
 Hellotext reports can assign a result to one of three kinds of dates:
 
-- **The date of the source activity:** some metrics group later outcomes by the message or conversation that produced them, even when the outcome happened on another day.
+- **The date of the source activity:** some metrics group later outcomes by the message, interaction, or conversation that produced them, even when the outcome happened on another day.
 - **The date the result happened:** the period selects purchases, reviews, resolutions, or other events completed during that range.
 - **The current state:** the section shows what is true at the displayed time, such as current workload, pending follow-ups, or audience membership.
 
@@ -43,7 +43,8 @@ The report or section should explain which date it uses. The most common rules a
 | Revenue report | Purchase date. Campaign and playbook rows identify the credited source for purchases completed during the selected period. |
 | Campaign detail report | Sends, deliveries, clicks, and attributed purchases count on the date of each event. The funnel's Engagement stage requires both delivery and a tracked click within the selected period. |
 | Playbook report | Sends, deliveries, and clicks use each event's date; revenue and conversion metrics can group purchases by the date of the credited source message. |
-| Performance, Conversations, and Service Quality | Conversation start date. Later conversion, escalation, resolution, and satisfaction outcomes follow the originating conversation. |
+| Performance | Interaction start date. A later recorded conversion or escalation follows the originating interaction. |
+| Conversations and Service Quality | Conversation start date. Later resolution and satisfaction outcomes follow the originating conversation. |
 | Revenue by channel in the Revenue report | Purchase date of the attributed sale; the channel identifies the credited source. |
 | Demand insights | Interaction end date; Unfulfilled requires certain closing states with no recorded conversion. |
 | Reviews and feedback | Submitted feedback uses submission date; collection performance uses request-delivery date; pending follow-ups show current state. |
@@ -125,8 +126,8 @@ After confirming the event, check whether it belongs in the metric you are revie
 
 - The playbook, route, or agent must be active and receive eligible traffic.
 - The required trigger, interaction, conversion, escalation, or resolution event must be recorded.
-- A playbook report combines event-date metrics with revenue grouped by source message; the Performance report groups outcomes by conversation start date. Check each metric's rule before comparing periods.
-- A channel, playbook, AI-versus-human, or team breakdown needs that dimension on the underlying activity.
+- A playbook report combines event-date metrics with revenue grouped by source message; the Performance report groups outcomes by interaction start date. Check each metric's rule before comparing periods.
+- A populated breakdown needs the relevant source context, but the Performance report does not calculate every visible option; a blank reason or team result is not proof of no activity.
 
 ### Operations reporting
 
@@ -197,7 +198,7 @@ Recent results may change because:
 - stronger source evidence arrives; or
 - corrected identity data connects previously separate activity.
 
-In metrics grouped by source message or conversation start, a recent date can keep increasing while its outcome or attribution window remains open. Use an older period whose windows have closed for more stable comparisons. For current campaigns or always-on playbooks, treat early numbers as provisional.
+In metrics grouped by source message, interaction start, or conversation start, a recent date can keep increasing while its outcome or attribution window remains open. Use an older period whose windows have closed for more stable comparisons. For current campaigns or always-on playbooks, treat early numbers as provisional.
 
 ## When to contact Support
 

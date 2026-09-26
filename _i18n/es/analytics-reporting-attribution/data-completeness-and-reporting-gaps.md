@@ -31,7 +31,7 @@ Usar las mismas fechas es necesario, pero no suficiente. También debes confirma
 
 Los reportes de Hellotext pueden asignar un resultado a uno de estos tres tipos de fecha:
 
-- **La fecha de la actividad de origen:** algunas métricas agrupan resultados posteriores por el mensaje o la conversación que los originó, aunque el resultado ocurra otro día.
+- **La fecha de la actividad de origen:** algunas métricas agrupan resultados posteriores por el mensaje, la interacción o la conversación que los originó, aunque el resultado ocurra otro día.
 - **La fecha en que ocurrió el resultado:** el período selecciona compras, reseñas, resoluciones u otros eventos completados dentro de ese rango.
 - **El estado actual:** la sección muestra qué es cierto en el momento indicado, como la carga actual, los seguimientos pendientes o la pertenencia a una audiencia.
 
@@ -43,7 +43,8 @@ El reporte o la sección debe explicar qué fecha utiliza. Estas son las reglas 
 | Reporte de ingresos | Fecha de compra. Las filas de campañas y misiones identifican la fuente acreditada para compras completadas durante el período seleccionado. |
 | Reporte detallado de una campaña | Los envíos, entregas, clics y compras atribuidas se cuentan en la fecha de cada evento. La etapa Interacción del embudo exige que la entrega y un clic rastreado ocurran dentro del período seleccionado. |
 | Reporte de una misión | Envíos, entregas y clics usan la fecha de cada evento; las métricas de ingresos y conversión pueden agrupar compras por la fecha del mensaje de origen acreditado. |
-| Rendimiento, Conversaciones y Calidad de servicio | Fecha de inicio de la conversación. La conversión, derivación, resolución y satisfacción posteriores siguen a la conversación de origen. |
+| Rendimiento | Fecha de inicio de la interacción. La conversión o Derivación registrada después sigue a la interacción de origen. |
+| Conversaciones y Calidad de servicio | Fecha de inicio de la conversación. La resolución y satisfacción posteriores siguen a la conversación de origen. |
 | Ingresos por canal en el Reporte de ingresos | Fecha de compra de la venta atribuida; el canal identifica el origen acreditado. |
 | Insights de demanda | Fecha de finalización de la interacción; No resueltas exige determinados estados de cierre sin conversión registrada. |
 | Reseñas y feedback | El feedback recibido usa la fecha de envío de la respuesta; el rendimiento de recopilación usa la fecha de entrega de la solicitud; los seguimientos pendientes muestran el estado actual. |
@@ -125,8 +126,8 @@ Después de confirmar el evento, revisa si pertenece a la métrica que estás an
 
 - La misión, la ruta o el agente debe estar en actividad y recibir tráfico elegible.
 - Debe registrarse el evento requerido de disparador, interacción, conversión, derivación o resolución.
-- El reporte de una misión combina métricas por fecha de evento con ingresos agrupados por mensaje de origen; el Reporte de rendimiento agrupa resultados por la fecha de inicio de la conversación. Revisa la regla de cada métrica antes de comparar períodos.
-- Un desglose por canal, misión, IA frente a personas o equipo necesita esa dimensión en la actividad de origen.
+- El reporte de una misión combina métricas por fecha de evento con ingresos agrupados por mensaje de origen; el Reporte de rendimiento agrupa resultados por la fecha de inicio de la interacción. Revisa la regla de cada métrica antes de comparar períodos.
+- Un desglose con datos necesita el contexto de origen correspondiente, pero el Reporte de rendimiento no calcula todas las opciones visibles; un resultado vacío por motivo o equipo no demuestra que no hubo actividad.
 
 ### Reportes de operaciones
 
@@ -197,7 +198,7 @@ Los resultados recientes pueden cambiar porque:
 - llega evidencia de origen más fuerte; o
 - una corrección de identidad conecta actividad que estaba separada.
 
-En las métricas agrupadas por mensaje de origen o inicio de conversación, una fecha reciente puede seguir creciendo mientras su ventana de resultados o atribución continúe abierta. Usa un período anterior cuyas ventanas ya hayan cerrado para comparaciones más estables. Para campañas actuales o misiones siempre activas, considera provisionales los primeros resultados.
+En las métricas agrupadas por mensaje de origen o inicio de interacción o conversación, una fecha reciente puede seguir creciendo mientras su ventana de resultados o atribución continúe abierta. Usa un período anterior cuyas ventanas ya hayan cerrado para comparaciones más estables. Para campañas actuales o misiones siempre activas, considera provisionales los primeros resultados.
 
 ## Cuándo contactar a Soporte
 
