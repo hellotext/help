@@ -2,16 +2,16 @@
   "article_source": "_i18n/es/analytics-reporting-attribution/dashboard-guide.md",
   "public_url": "https://help.hellotext.com/es/guia-dashboard",
   "locale": "es",
-  "step_and_target_control": "Complete populated Actions table with four synthetic action rows, column labels, values, and outer border.",
+  "step_and_target_control": "Complete Actions table with four synthetic action rows: 160 product views, 35 cart additions, 20 started checkouts and 14 orders; the order row displays $71.43 average and $1K amount in English, $71,43 and $1K in Spanish.",
   "capture_date": "2026-09-26",
   "capture_tool": "macOS ScreenCaptureKit exact-window helper (docs/editorial-work/capture-tools/hellotext_capture_editor.swift); exact Chrome window ID 26501 and localized title guard, same-display P3 probe, native 2x PNG",
-  "source_route_and_state": "Isolated local Rails Dashboard at http://127.0.0.1:3190/hellotext, database hellotext_editorial_capture_20260926. Overview and Actions values were added by guarded docs/editorial-work/capture-tools/dashboard_visual_fixture.sql; this is a synthetic illustration, not a real attribution run or campaign outcome. The report-card groups contain interface labels only. No real account, contact record, order, message, campaign, audience, or delivery job was modified or sent.",
+  "source_route_and_state": "Isolated local Rails Dashboard at http://127.0.0.1:3190/hellotext, database hellotext_editorial_capture_20260926. The original guarded dashboard_visual_fixture.sql was refined by the guarded dashboard_rising_trends.sql against only tagged synthetic current-period buckets. The 14 days contain $280 attributed from $1,000 recorded revenue (28% benchmark), 30 conversations, and Actions counts of 160 product views, 35 cart additions, 20 started checkouts and 14 orders totaling $1,000. This is an illustrative fixture, not a real attribution run or campaign outcome. No real account, contact profile, order, message, campaign, audience, or delivery job was modified or sent.",
   "demonstration_data_verified": true,
   "original_file": "docs/editorial-work/captures/dashboard-guide/originals/actions-table-es.png",
   "published_derivative": "images/analytics-reporting-attribution/dashboard-guide/actions-table-es.png",
   "logical_viewport": {
-    "width": 1250,
-    "height": 844,
+    "width": 1253,
+    "height": 812,
     "browser_zoom": "100%"
   },
   "source_pixels": {
@@ -23,8 +23,8 @@
     "basis": "Full-width article image; 2400 source pixels provide 3x density at an 800 CSS-pixel inline maximum."
   },
   "actual_file_format": "PNG, 8-bit RGBA, non-interlaced; direct native 2x ScreenCaptureKit crop; static asset byte-identical to original",
-  "icc_profile_and_verification": "Embedded Display P3 profile verified with sips; file reports PNG 2400 x 1000; original and static asset SHA-256 231da104b14f3f9a20cab0a290c930ecbfc92c0ab9b25da77969636ea9c02aaa.",
-  "native_color_provenance": "Exact Chrome window ID 26501 with title Panel de Enterprise | Hellotext; sourceRect -1228,205,1200,500 points on the verified P3 display. No JPEG intermediate, resampling, profile reassignment, or annotation.",
+  "icc_profile_and_verification": "Embedded Display P3 profile verified with sips; file reports PNG 2400 x 1000; original and static asset SHA-256 1c5c77ab5d2876cb3ccd0603837994dedc27420f06a7ad4d1f820743b571aad9.",
+  "native_color_provenance": "Exact Chrome window ID 26501 with title Panel de Enterprise | Hellotext; sourceRect -1228,285,1200,500 points entirely on the verified P3 display. No JPEG intermediate, resampling, profile reassignment, or annotation.",
   "transformations": [],
   "pointer": {
     "kind": "none",
@@ -35,29 +35,29 @@
   },
   "verification": {
     "file": "passed: native PNG, native 2x dimensions, and embedded Display P3 ICC profile",
-    "source_asset": "passed: original, checked-in static asset, and both built root/Spanish copies have matching SHA-256",
+    "source_asset": "passed: original, checked-in static asset, and both built root/Spanish copies have identical SHA-256",
     "density": "passed: 2400 / 800 intended maximum CSS pixels = 3.0x",
-    "desktop": "passed: complete localized article inspected at 1280 x 720; full widget visible in the static figure, correct surrounding explanation, no image link or document overflow",
-    "mobile": "passed: complete localized article inspected at 390 x 844; complete image remains inline with adjacent explanatory prose and no horizontal overflow",
+    "desktop": "passed: complete localized article inspected at desktop width; full widget and adjacent explanation visible, no image link or document overflow",
+    "mobile": "passed: complete localized article inspected at 390 x 844; full widget remains inline with adjacent explanation, no image link or horizontal overflow",
     "served_asset": "pending PR preview and production"
   },
   "limitations": [],
   "status": "verified_local",
-  "privacy_check": "Full-size original inspected: complete target section, localized labels and clean borders; no cursor, gray shadow, debug overlay, private contact data, customer records or identifiers.",
+  "privacy_check": "Full-size original inspected: complete target section, localized labels and full borders; no cursor, gray shadow, debug overlay, private contact data, customer records or identifiers.",
   "native_window": {
     "id": 26501,
-    "width_points": 1635,
+    "width_points": 1253,
     "height_points": 955,
     "browser_zoom": "100%",
     "selection": "exact window ID 26501 and title Panel de Enterprise | Hellotext"
   },
   "sourceRect": {
     "x": -1228,
-    "y": 205,
+    "y": 285,
     "width": 1200,
     "height": 500,
     "unit": "capture helper --rect points"
   },
-  "original_sha256": "231da104b14f3f9a20cab0a290c930ecbfc92c0ab9b25da77969636ea9c02aaa",
-  "published_derivative_sha256": "231da104b14f3f9a20cab0a290c930ecbfc92c0ab9b25da77969636ea9c02aaa"
+  "original_sha256": "1c5c77ab5d2876cb3ccd0603837994dedc27420f06a7ad4d1f820743b571aad9",
+  "published_derivative_sha256": "1c5c77ab5d2876cb3ccd0603837994dedc27420f06a7ad4d1f820743b571aad9"
 }
