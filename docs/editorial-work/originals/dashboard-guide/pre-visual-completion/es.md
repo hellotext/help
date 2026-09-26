@@ -19,17 +19,6 @@ Las tarjetas del resumen siempre incluyen el día actual y los 13 días anterior
 
 Cambiar la fecha dentro de un reporte detallado no modifica estas tarjetas del Dashboard.
 
-La siguiente captura usa datos de demostración: $280 de ingresos atribuidos, 28% en el benchmark y 30 conversaciones. Las flechas comparan el período actual con los 14 días anteriores.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Tres tarjetas del resumen de 14 días con datos de demostración">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/dashboard-guide/overview-cards-es.png" width="2400" height="840" loading="lazy" decoding="async" alt="Resumen del Dashboard: Ingresos atribuidos de $280, 40% más que en el período anterior; benchmark de 28% junto a la mediana típica de aproximadamente 30%; y 30 conversaciones, 25% más que en el período anterior." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Resumen con datos de demostración. Las tarjetas de ingresos y conversaciones comparan dos períodos de 14 días; la tarjeta central sitúa el porcentaje de atribución frente al benchmark típico.</figcaption>
-</figure>
-
 ### Ingresos atribuidos
 
 Los **Ingresos atribuidos** son los ingresos positivos que Hellotext vinculó con campañas, rutas, misiones o interacciones comerciales elegibles según sus reglas y ventanas de atribución.
@@ -79,17 +68,6 @@ La tabla de **Acciones** muestra tipos con eventos registrados durante los últi
 | **Valor Promedio** | Valor monetario total registrado para la acción dividido entre sus ocurrencias. |
 | **Monto** | Valor monetario total registrado entre todas esas ocurrencias. |
 
-En el ejemplo de demostración, una visita a producto suma eventos sin dinero; una orden muestra 4 eventos, $250 de valor promedio y $1.000 de monto total.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Tabla Acciones poblada con cuatro tipos de evento de demostración">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/dashboard-guide/actions-table-es.png" width="2400" height="1000" loading="lazy" decoding="async" alt="Tabla Acciones con cuatro filas: una visita a producto sin monto, 18 agregados al carrito, 10 checkouts iniciados y 4 órdenes; las columnas muestran eventos, valor promedio y monto." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Ejemplo con datos de demostración: una visita a producto tiene eventos pero valor monetario cero, mientras que una orden muestra un promedio de $250 y un monto total de $1.000.</figcaption>
-</figure>
-
 Selecciona el encabezado de una columna para ordenar la tabla por volumen de eventos, valor promedio o monto total.
 
 No todas las acciones incluyen dinero. Una acción válida puede tener eventos aunque su valor promedio y monto estén vacíos o en cero. Si una acción personalizada debería incluir un valor, verifica que la integración envíe el monto y moneda dentro del evento en lugar de agregarlos solamente al nombre de la acción.
@@ -122,24 +100,6 @@ El calendario contiene campañas. No es una agenda completa de todos los mensaje
 
 Las tarjetas de reportes se dividen entre **Rendimiento del negocio** y **Operaciones & Experiencia**.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Tarjetas de reportes de rendimiento del negocio">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/dashboard-guide/reports-business-es.png" width="2400" height="960" loading="lazy" decoding="async" alt="Grupo Rendimiento del negocio con las tarjetas Reporte de ingresos, Reporte de rendimiento e Insights de demanda." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Los tres reportes de Rendimiento del negocio reúnen ingresos, conversión y señales de demanda.</figcaption>
-</figure>
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Tarjetas de reportes de operaciones y experiencia">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/dashboard-guide/reports-operations-es.png" width="2400" height="880" loading="lazy" decoding="async" alt="Grupo Operaciones y Experiencia con las tarjetas Reporte de calidad de servicio, Reporte de carga y capacidad y Reporte de rendimiento de canales." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Los tres reportes de Operaciones & Experiencia separan calidad de servicio, capacidad del equipo y rendimiento de los canales.</figcaption>
-</figure>
-
 | Reporte | Úsalo para responder |
 | --- | --- |
 | **Reporte de ingresos** | ¿Cuántos ingresos se registraron, cuáles se atribuyeron a IA o al equipo y qué canales, misiones o campañas recibieron crédito? |
@@ -147,7 +107,6 @@ Las tarjetas de reportes se dividen entre **Rendimiento del negocio** y **Operac
 | **Insights de demanda** | ¿Cuántas interacciones resueltas por IA o colaboradores, o cerradas por automatizaciones, no tienen conversión registrada, y qué estimación de ingresos muestra el reporte? |
 | **Reporte de calidad de servicio** | ¿Con qué frecuencia la IA o el equipo resolvieron conversaciones, cumplieron el SLA o dejaron conversaciones sin resolver? |
 | **Reporte de carga y capacidad** | ¿Cuánto trabajo está asignado, manejado, resuelto, transferido o activo entre colaboradores y equipos? |
-| **Reporte de rendimiento de canales** | ¿Cómo cambian las entregas, los costos, los fallos y la calidad de interacción en cada canal de mensajería? |
 
 Abre un reporte cuando necesites cambiar el período, seleccionar una métrica, comparar un desglose o revisar filas detalladas. Los desgloses disponibles dependen del reporte y métrica.
 

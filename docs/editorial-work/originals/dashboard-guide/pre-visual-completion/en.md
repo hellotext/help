@@ -19,17 +19,6 @@ The overview cards always cover the current day and the previous 13 days. Their 
 
 Changing the date inside a detailed report does not change these Dashboard cards.
 
-The following screenshot uses demonstration data: $280 in attributed revenue, a 28% benchmark, and 30 conversations. The arrows compare the current period with the preceding 14 days.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Three 14-day overview cards with demonstration data">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/dashboard-guide/overview-cards-en.png" width="2400" height="840" loading="lazy" decoding="async" alt="Dashboard overview: $280 in attributed revenue, up 40% from the previous period; a 28% attribution benchmark beside the typical median of about 30%; and 30 conversations, up 25% from the previous period." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Overview with demonstration data. Revenue and conversations compare two 14-day periods; the middle card places the attribution percentage beside the typical benchmark.</figcaption>
-</figure>
-
 ### Attributed revenue
 
 **Attributed revenue** is the positive revenue Hellotext connected to eligible campaigns, routes, playbooks, or commercial interactions under its attribution rules and windows.
@@ -79,17 +68,6 @@ The **Actions** table shows types with events recorded during the last 14 days. 
 | **Average value** | Total monetary value recorded for the action divided by its occurrences. |
 | **Amount** | Total monetary value recorded across those occurrences. |
 
-In the demonstration example, a product view has events but no money; an order shows 4 events, a $250 average value, and a $1,000 total amount.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Populated Actions table with four demonstration event types">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/dashboard-guide/actions-table-en.png" width="2400" height="1000" loading="lazy" decoding="async" alt="Actions table with four rows: a product view with no monetary value, 18 cart additions, 10 started checkouts, and 4 orders; columns show events, average value, and amount." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Demonstration data: a product view has events but zero monetary value, while an order shows a $250 average and a $1,000 total amount.</figcaption>
-</figure>
-
 Select a column heading to sort the table by event volume, average value, or total amount.
 
 Not every action carries money. A valid action can have events while its average value and amount remain empty or zero. If a custom action should include a value, verify that the integration sends the amount and currency in the event rather than adding them only to the action name.
@@ -122,24 +100,6 @@ The calendar contains campaigns. It is not a complete schedule of every message 
 
 The report cards are divided into **Business Performance** and **Operations & Experience**.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Business Performance report cards">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/dashboard-guide/reports-business-en.png" width="2400" height="960" loading="lazy" decoding="async" alt="Business Performance group with Revenue report, Performance report, and Demand insights cards." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">The three Business Performance reports cover revenue, conversion, and demand signals.</figcaption>
-</figure>
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Operations and Experience report cards">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/dashboard-guide/reports-operations-en.png" width="2400" height="860" loading="lazy" decoding="async" alt="Operations and Experience group with Service quality report, Workload and capacity report, and Channel performance report cards." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">The three Operations & Experience reports separate service quality, team capacity, and channel performance.</figcaption>
-</figure>
-
 | Report | Use it to answer |
 | --- | --- |
 | **Revenue report** | How much revenue was recorded, what was attributed to AI or the team, and which channels, playbooks, or campaigns received credit? |
@@ -147,7 +107,6 @@ The report cards are divided into **Business Performance** and **Operations & Ex
 | **Demand insights** | How many interactions resolved by AI or teammates, or closed by automations, have no recorded conversion, and what revenue estimate does the report show? |
 | **Service quality report** | How often did AI or the team resolve conversations, meet SLA, or leave conversations unresolved? |
 | **Workload & capacity report** | How much work is assigned, handled, resolved, transferred, or active across teammates and teams? |
-| **Channel performance report** | How do delivery, costs, failures, and engagement quality change across messaging channels? |
 
 Open a report when you need to change the date range, select a metric, compare a breakdown, or inspect detailed rows. Available breakdowns depend on the report and metric.
 
