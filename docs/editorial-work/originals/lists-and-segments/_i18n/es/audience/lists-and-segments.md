@@ -25,7 +25,7 @@ Elige una lista cuando necesites:
 * Revisar un grupo seleccionado deliberadamente antes de usarlo en otra parte.
 * Mantener la pertenencia aunque cambien las propiedades o la actividad reciente del cliente.
 
-Por ejemplo, una lista llamada `Clientes VIP importados` conserva el registro de ese grupo. Una definición dinámica como “clientes que compraron durante los últimos 90 días” corresponde a un segmento.
+Por ejemplo, una lista llamada `Clientes VIP importados` conserva el registro de ese grupo. Una definición dinámica como “clientes que gastaron más de $500 en los últimos 90 días” corresponde a un segmento.
 
 Sigue leyendo: [Crea y gestiona listas]({% link _audience/lists.md %}).
 
@@ -51,7 +51,7 @@ Sigue leyendo: [Crea segmentos]({% link _audience/segments.md %}).
 
 Cuando una campaña permite seleccionar una audiencia, puedes incluir listas y segmentos y usar otras listas o segmentos como exclusiones.
 
-Por ejemplo, puedes incluir un segmento de compradores recientes y una lista de asistentes a un evento, y luego excluir una lista interna de prueba. Las inclusiones se combinan: si un perfil está en la lista y el segmento, se cuenta una sola vez. Si también pertenece a una lista o un segmento excluido, queda fuera de la audiencia. Revisa la audiencia resultante antes de enviar.
+Por ejemplo, puedes incluir un segmento de compradores recientes y una lista de asistentes a un evento, y luego excluir una lista interna de prueba. Revisa la audiencia resultante antes de enviar, especialmente cuando se superponen varias inclusiones o exclusiones.
 
 Usa una lista cuando quieras conservar un grupo. Usa un segmento cuando quieras que el grupo siga cumpliendo una regla.
 
