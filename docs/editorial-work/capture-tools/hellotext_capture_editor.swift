@@ -21,6 +21,7 @@ enum CaptureError: Error, CustomStringConvertible {
 
 struct Options {
     var list = false
+    var hideCursor = false
     var windowID: UInt32?
     var title: String?
     var rect: CGRect?
@@ -36,6 +37,11 @@ func parseOptions() throws -> Options {
         let arg = arguments[index]
         if arg == "--list" {
             result.list = true
+            index += 1
+            continue
+        }
+        if arg == "--hide-cursor" {
+            result.hideCursor = true
             index += 1
             continue
         }
@@ -177,7 +183,7 @@ struct CaptureEditor {
         config.sourceRect = rect.offsetBy(dx: -display.frame.minX, dy: -display.frame.minY)
         config.width = pixelWidth
         config.height = pixelHeight
-        config.showsCursor = true
+        config.showsCursor = !options.hideCursor
         config.includeChildWindows = false
         config.ignoreShadowsDisplay = true
         config.colorSpaceName = CGColorSpace.displayP3

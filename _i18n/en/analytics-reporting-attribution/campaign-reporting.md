@@ -6,6 +6,18 @@ To open one, go to **Campaigns → Delivered** and select a campaign.
 
 The report opens with **First 14 days** selected. You can switch to the first 7 or 30 days, or choose a custom range.
 
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Campaign reporting period and summary">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 1000px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile.png" width="754" height="560" />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/summary-period-en.png" width="3090" height="1050" loading="lazy" decoding="async" alt="Demo report with 14 days selected and the Attributed revenue, Average ROI, Conversion, and Revenue/message summary metrics. On mobile, the first card and the arrow for the others are visible." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real English interface with demonstration data; on mobile, use the arrow to move through the summary cards.</figcaption>
+</figure>
+
 The range filters results by when each event occurred. A send or delivery counts on its day; a click counts on the click date; and an attributed purchase counts on the purchase date. The summary cards and chart use those dates. In the message list, the range affects deliveries, clicks, conversions, and revenue; per-message ROI compares revenue from the period with that message's estimated delivery cost. Revenue breakdowns and **Time to conversion** include attributed purchases made within the range.
 
 For example, if a message is delivered April 7 and an attributed purchase happens April 10, select a period that includes April 10 to see that revenue. The delivery still counts on April 7. If the range includes the purchase but no deliveries, the conversion rate can show zero because there are no delivered messages in its denominator.

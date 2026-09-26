@@ -1,0 +1,23 @@
+{
+  "article_source": "_i18n/es/analytics-reporting-attribution/campaign-reporting.md",
+  "public_url": "https://help.hellotext.com/es/reportes-de-campaña",
+  "locale": "es",
+  "step_and_target_control": "Elige el período del reporte: Primeros 14 días y las cuatro tarjetas de métricas resumidas",
+  "capture_date": "2026-09-26 UTC",
+  "capture_tool": "macOS ScreenCaptureKit exact-window helper docs/editorial-work/capture-tools/hellotext_capture_editor.swift; sourceRect, native 2x output, --hide-cursor, ImageIO PNG with Display P3 ICC",
+  "source_route_and_state": "Isolated local Rails demo at http://127.0.0.1:3190/hellotext/campaigns/<synthetic-demo-id>; db/seeds/local/campaign_report_showcase.rb; Spanish UI, Primeros 14 días selected, summary cards visible, Chrome zoom 150%",
+  "demonstration_data_verified": true,
+  "original_file": "docs/editorial-work/captures/campaign-reporting/summary-period-es-desktop-original.png",
+  "published_derivative": "images/analytics-reporting-attribution/campaign-reporting/summary-period-es.png",
+  "logical_viewport": { "width": 1090, "height": 546, "browser_zoom": "150%", "native_window_points": { "x": 22, "y": 61, "width": 1635, "height": 996 } },
+  "source_pixels": { "width": 3090, "height": 930 },
+  "max_display_css_pixels": { "width": 1000, "height": 301 },
+  "actual_file_format": "PNG, native 2x capture; published file is a byte-identical copy",
+  "icc_profile_and_verification": "Display P3 embedded ICC verified with file and sips; original and published SHA-256 0b025849a4fa30a823daac11cd84b8ca981955a481c9d342f71934804775d58f",
+  "native_color_provenance": "A native 16x16 Display P3 PNG probe on the same 2x monitor was verified before capture. ScreenCaptureKit captured window ID 26253 titled Campaign Report Image Preview | Hellotext at global sourceRect x=68, y=400, width=1545, height=465 points into 3090x930 pixels. The helper wrote a native Display P3 PNG directly, without a full-window intermediate, resampling, JPEG conversion, or profile reassignment.",
+  "transformations": [],
+  "pointer": { "kind": "hidden by capture helper", "target": "Primeros 14 días period selector", "coordinates": null },
+  "verification": { "density": "passed: 3090 source pixels / 1000 planned maximum CSS pixels = 3.09x; rendered at 608.8 CSS pixels on desktop = 5.08x", "desktop": "passed: Spanish static figure visually inspected at 1280px viewport; no overflow, image link, button, or tabindex", "mobile": "passed: at 390px viewport the locale-matched mobile companion was selected and visually inspected at 316 CSS pixels, without overflow or interactive image control", "served_asset": "passed: yarn build succeeded; source, built, and locally served PNG bytes match, retaining Display P3" },
+  "limitations": ["The demonstration fixture does not seed engagement rollups, so the funnel is outside this crop."],
+  "status": "verified_in_local_article_not_published"
+}

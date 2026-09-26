@@ -1,0 +1,23 @@
+{
+  "article_source": "_i18n/es/analytics-reporting-attribution/campaign-reporting.md",
+  "public_url": "https://help.hellotext.com/es/reportes-de-campaña",
+  "locale": "es",
+  "step_and_target_control": "Elige el período del reporte: Primeros 14 días, primera tarjeta de métricas y flecha del carrusel en una pantalla angosta",
+  "capture_date": "2026-09-26 UTC",
+  "capture_tool": "macOS ScreenCaptureKit exact-window helper docs/editorial-work/capture-tools/hellotext_capture_editor.swift; sourceRect, native 2x output, --hide-cursor, ImageIO PNG with Display P3 ICC",
+  "source_route_and_state": "Isolated local Rails demo at http://127.0.0.1:3190/hellotext/campaigns/<synthetic-demo-id>; db/seeds/local/campaign_report_showcase.rb; Spanish UI, Primeros 14 días selected, Chrome responsive viewport 390x800 at 100% zoom",
+  "demonstration_data_verified": true,
+  "original_file": "docs/editorial-work/captures/campaign-reporting/summary-period-es-mobile-original.png",
+  "published_derivative": "images/analytics-reporting-attribution/campaign-reporting/summary-period-es-mobile.png",
+  "logical_viewport": { "width": 390, "height": 800, "browser_zoom": "100%", "native_window_points": { "x": 22, "y": 61, "width": 1635, "height": 996 } },
+  "source_pixels": { "width": 754, "height": 560 },
+  "max_display_css_pixels": { "width": 340, "height": 253 },
+  "actual_file_format": "PNG, native 2x capture; published file is a byte-identical copy",
+  "icc_profile_and_verification": "Display P3 embedded ICC verified with file and sips; original and published SHA-256 c72d15f68f3c1377428a0c1e894ab530a398f5d3d80b3a9d10bd75b95e53046a",
+  "native_color_provenance": "A native 16x16 Display P3 PNG probe on the same 2x monitor was verified before capture. ScreenCaptureKit captured window ID 26253 titled Campaign Report Image Preview | Hellotext at global sourceRect x=34, y=334, width=377, height=280 points into 754x560 pixels. The helper wrote a native Display P3 PNG directly, without a full-window intermediate, resampling, JPEG conversion, or profile reassignment.",
+  "transformations": [],
+  "pointer": { "kind": "hidden by capture helper", "target": "Primeros 14 días period selector", "coordinates": null },
+  "verification": { "density": "passed: 754 source pixels / 340 planned maximum CSS pixels = 2.22x; rendered at 316 CSS pixels on mobile = 2.39x", "desktop": "passed: Spanish article reviewed at 1280px viewport using the locale-matched desktop companion; this mobile source is selected only at narrow widths", "mobile": "passed: mobile image visually inspected at 390px viewport and 316 CSS pixels; period selector, first card, and carousel arrow are legible, with no overflow, image link, button, or tabindex", "served_asset": "passed: yarn build succeeded; source, built, and locally served PNG bytes match, retaining Display P3" },
+  "limitations": ["The narrow report layout shows only the first summary card and the carousel arrow in the crop; other cards are explained in adjacent text and shown in the desktop image.", "The demonstration fixture does not seed engagement rollups, so the funnel is outside this crop."],
+  "status": "verified_in_local_article_not_published"
+}

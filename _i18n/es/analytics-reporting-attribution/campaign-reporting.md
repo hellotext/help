@@ -6,6 +6,18 @@ Para abrir uno, ve a **Campañas → Enviadas** y selecciona una campaña.
 
 El reporte se abre con **Primeros 14 días** seleccionado. Puedes cambiar a los primeros 7 o 30 días, o elegir un rango personalizado.
 
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Período y resumen de un reporte de campaña">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 1000px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-mobile.png" width="754" height="560" />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/summary-period-es.png" width="3090" height="930" loading="lazy" decoding="async" alt="Reporte de demostración con 14 días seleccionados y las métricas Ingresos atribuidos, ROI promedio, Conversión e Ingresos/mensaje. En móvil se ve la primera tarjeta y la flecha para recorrer las demás." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Captura de la interfaz real en español con datos de demostración; en móvil, las tarjetas se recorren con la flecha.</figcaption>
+</figure>
+
 El rango filtra los resultados según cuándo ocurrió cada evento. Un envío o una entrega se cuenta en su día; un clic, en el día del clic; y una compra atribuida, en el día de la compra. Las tarjetas y el gráfico usan esas fechas. En la lista de mensajes, el rango afecta las entregas, los clics, las conversiones y los ingresos; el ROI por mensaje compara los ingresos del período con el costo estimado de entrega de ese mensaje. Los desgloses de ingresos y **Tiempo de conversión** incluyen compras atribuidas ocurridas dentro del rango.
 
 Por ejemplo, si un mensaje se entrega el 7 de abril y una compra atribuida ocurre el 10 de abril, selecciona un período que incluya el 10 de abril para ver ese ingreso. La entrega sigue contándose el 7 de abril. Si el rango incluye la compra pero ninguna entrega, la tasa de conversión puede mostrarse en cero porque no hay mensajes entregados en su denominador.
