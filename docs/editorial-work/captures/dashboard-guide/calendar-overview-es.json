@@ -1,0 +1,65 @@
+{
+  "article_source": "_i18n/es/analytics-reporting-attribution/dashboard-guide.md",
+  "public_url": "https://help.hellotext.com/es/guia-dashboard",
+  "locale": "es",
+  "step_and_target_control": "Complete two-week campaign calendar, including date navigation and sent/upcoming campaign cards",
+  "capture_date": "2026-09-26",
+  "capture_tool": "macOS ScreenCaptureKit exact-window helper (docs/editorial-work/capture-tools/hellotext_capture_editor.swift); exact window ID 26501 and localized title guard, same-display P3 probe, hidden system cursor, native 2x PNG",
+  "source_route_and_state": "Isolated local Rails Dashboard at http://127.0.0.1:3190/hellotext, database hellotext_editorial_capture_20260926; seven weekday columns across September 21–October 4, synthetic delivered campaigns on September 22–25 and synthetic upcoming campaigns on September 29–October 2. No audience, messages, or delivery jobs were created; no campaign was sent for this capture.",
+  "demonstration_data_verified": true,
+  "original_file": "docs/editorial-work/captures/dashboard-guide/originals/calendar-overview-es.png",
+  "published_derivative": "images/analytics-reporting-attribution/dashboard-guide/calendar-overview-es.png",
+  "logical_viewport": {
+    "width": 1250,
+    "height": 844,
+    "browser_zoom": "100%"
+  },
+  "source_pixels": {
+    "width": 2400,
+    "height": 1620
+  },
+  "max_display_css_pixels": {
+    "width": 800,
+    "basis": "Full-width article image; observed 734 CSS px in an 873 px Help viewport, about 609 CSS px at 1280 px desktop, and 316 CSS px at 390 px mobile. Native source provides at least 3 source pixels per intended maximum CSS pixel."
+  },
+  "actual_file_format": "PNG, 8-bit RGBA, non-interlaced; direct native 2x ScreenCaptureKit crop, static asset byte-identical to original",
+  "icc_profile_and_verification": "Embedded Display P3 profile verified with sips; file reports PNG 2400 x 1620; original and static asset SHA-256 e1fde6ccb539ef6000bdfbafd39ba65e523ff79b031373f04bee9a23172dd557.",
+  "native_color_provenance": "Exact Chrome window ID 26501, guarded localized title, sourceRect -1228,175,1200,810 points; direct native 2x Display P3 PNG after same-display P3 probe. No JPEG intermediate, resampling, profile reassignment, or annotation.",
+  "transformations": [],
+  "pointer": {
+    "kind": "none",
+    "system_cursor": "hidden by native helper",
+    "automation_pointer": "moved outside source rectangle and absent in full-size pixel inspection",
+    "target": null,
+    "coordinates": null
+  },
+  "verification": {
+    "file": "passed: PNG signature, 2400 x 1620 native pixels, embedded Display P3 ICC profile",
+    "source_asset": "passed: source, published static asset and built copies have matching SHA-256",
+    "density": "passed: 2400 / 800 intended maximum CSS pixels = 3.0x",
+    "desktop": "passed: full localized Help article at 1280 px and 873 px desktop widths; complete seven-column, two-row calendar visible inline without clipping or image link",
+    "mobile": "passed: full localized Help article at 390 x 844; whole calendar visible inline, adjacent prose explains status, no horizontal overflow or image link",
+    "served_asset": "passed: local built English and Spanish PNGs match originals; PR preview and production pending"
+  },
+  "limitations": [
+    "Public preview and production verification are pending PR merge."
+  ],
+  "status": "verified_local",
+  "privacy_check": "Full-size original inspected: only synthetic campaign names, dates, times, statuses, and calendar navigation are visible; no contact identifiers, conversations, customer records, cursor, profiler badge, or other debug overlay.",
+  "native_window": {
+    "id": 26501,
+    "width_points": 1635,
+    "height_points": 955,
+    "browser_zoom": "100%",
+    "selection": "exact window ID 26501 and title Panel de Enterprise | Hellotext"
+  },
+  "sourceRect": {
+    "x": -1228,
+    "y": 175,
+    "width": 1200,
+    "height": 810,
+    "unit": "capture helper --rect points"
+  },
+  "original_sha256": "e1fde6ccb539ef6000bdfbafd39ba65e523ff79b031373f04bee9a23172dd557",
+  "published_derivative_sha256": "e1fde6ccb539ef6000bdfbafd39ba65e523ff79b031373f04bee9a23172dd557"
+}
