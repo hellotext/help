@@ -56,11 +56,11 @@ Use the operations reports for resolution, SLA, assignment, and workload questio
 
 ### Empty values
 
-A dash means Hellotext did not calculate a positive value for that card in the period. If a curve appears beside the dash, it illustrates the empty state; it does not represent recorded daily activity. Do not interpret an empty card as proof that nothing happened in the business. Confirm that the relevant channels, store, events, and identifiers are connected and sending data.
+A dash means Hellotext did not calculate a positive value for that card in the period. Do not interpret an empty card as proof that nothing happened in the business. Confirm that the relevant channels, store, events, and identifiers are connected and sending data.
 
 ## Understand the Actions table
 
-The **Actions** table shows types with events recorded during the last 14 days. An action is the type of activity, such as a purchase, subscription, form submission, conversation event, or a custom action defined by the business. If more types are available, select **Load more** to show the next rows.
+The **Actions** table summarizes tracked event types from the last 14 days. An action is the type of activity, such as a purchase, subscription, form submission, conversation event, or a custom action defined by the business.
 
 | Column | What it shows |
 | --- | --- |
@@ -72,14 +72,14 @@ Select a column heading to sort the table by event volume, average value, or tot
 
 Not every action carries money. A valid action can have events while its average value and amount remain empty or zero. If a custom action should include a value, verify that the integration sends the amount and currency in the event rather than adding them only to the action name.
 
-The Actions table describes what Hellotext received. If it is empty, the blurred rows are visual examples, not events from your account. The table does not, by itself, attribute an action to a campaign or playbook. Use the corresponding report when source and attribution matter.
+The Actions table describes what Hellotext received. It does not, by itself, attribute the action to a campaign or playbook. Use the corresponding report when source and attribution matter.
 
 ## Use the campaign calendar
 
 The calendar organizes scheduled and delivered campaigns by week.
 
 - Move between weeks with the previous and next controls.
-- On a computer, hover over a campaign to review its audience, recipient count, schedule or delivery time, channels, and creator.
+- Hover over a campaign to review its audience, recipient count, schedule or delivery time, channels, and creator.
 - For delivered campaigns, the tooltip can also show attributed revenue and CTR.
 - Select a scheduled campaign to continue editing it, or a delivered campaign to open its results.
 
@@ -93,7 +93,7 @@ The report cards are divided into **Business Performance** and **Operations & Ex
 | --- | --- |
 | **Revenue report** | How much revenue was recorded, what was attributed to AI or the team, and which channels, playbooks, or campaigns received credit? |
 | **Performance report** | How are conversion rate, time to conversion, and escalation rate changing? |
-| **Demand insights** | How many interactions resolved by AI or teammates, or closed by automations, have no recorded conversion, and what revenue estimate does the report show? |
+| **Demand insights** | Which customer requests could not be fulfilled, which products were affected, and what revenue may have been missed? |
 | **Service quality report** | How often did AI or the team resolve conversations, meet SLA, or leave conversations unresolved? |
 | **Workload & capacity report** | How much work is assigned, handled, resolved, transferred, or active across teammates and teams? |
 
@@ -110,7 +110,7 @@ When comparing reports:
 3. Apply the same channel or source breakdown.
 4. Allow current attribution windows to close before treating recent results as final.
 
-The same outcome can appear on different dates because each metric has its own rule. In Playbook reports, sends, deliveries, and clicks use each event's date; some revenue and conversion metrics group eligible purchases by the credited source-message date. Campaign detail counts each event on its date, including attributed purchases on purchase date. Revenue also uses purchase date; Performance groups interactions by start date. Current-state sections use their displayed time.
+The same outcome can appear on different dates without either report being wrong. Playbook reports assign later eligible outcomes to the original trigger date, campaign reports assign them to the original message delivery date, and Revenue uses purchase date. Conversation-performance reports follow the conversation start date. Current-state sections use the time displayed by that section.
 
 The operations report can also contain a live operational-pressure section. A live snapshot describes the current queue and is not limited by the historical date range selected for the report.
 

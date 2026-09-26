@@ -56,11 +56,11 @@ Usa los reportes de operaciones para preguntas sobre resolución, SLA, asignaci�
 
 ### Valores vacíos
 
-Un guion significa que Hellotext no calculó un valor positivo para esa tarjeta en el período. Si ves una curva junto al guion, es una ilustración del estado vacío: no representa actividad diaria registrada. No interpretes una tarjeta vacía como prueba de que nada ocurrió en el negocio. Confirma que los canales, tienda, eventos e identificadores correspondientes estén conectados y enviando datos.
+Un guion significa que Hellotext no calculó un valor positivo para esa tarjeta en el período. No interpretes una tarjeta vacía como prueba de que nada ocurrió en el negocio. Confirma que los canales, tienda, eventos e identificadores correspondientes estén conectados y enviando datos.
 
 ## Entiende la tabla de Acciones
 
-La tabla de **Acciones** muestra tipos con eventos registrados durante los últimos 14 días. Una acción es el tipo de actividad, como una compra, suscripción, envío de formulario, evento de conversación o acción personalizada definida por el negocio. Si hay más tipos de los que ves, selecciona **Cargar más** para mostrar las siguientes filas.
+La tabla de **Acciones** resume tipos de eventos registrados durante los últimos 14 días. Una acción es el tipo de actividad, como una compra, suscripción, envío de formulario, evento de conversación o acción personalizada definida por el negocio.
 
 | Columna | Qué muestra |
 | --- | --- |
@@ -72,14 +72,14 @@ Selecciona el encabezado de una columna para ordenar la tabla por volumen de eve
 
 No todas las acciones incluyen dinero. Una acción válida puede tener eventos aunque su valor promedio y monto estén vacíos o en cero. Si una acción personalizada debería incluir un valor, verifica que la integración envíe el monto y moneda dentro del evento en lugar de agregarlos solamente al nombre de la acción.
 
-La tabla de Acciones describe lo que recibió Hellotext. Si está vacía, las filas difuminadas son ejemplos visuales, no eventos de tu cuenta. Por sí sola, la tabla no atribuye una acción a una campaña o misión. Usa el reporte correspondiente cuando importen la fuente y atribución.
+La tabla de Acciones describe lo que recibió Hellotext. Por sí sola, no atribuye la acción a una campaña o misión. Usa el reporte correspondiente cuando importen la fuente y atribución.
 
 ## Usa el calendario de campañas
 
 El calendario organiza por semana las campañas programadas y enviadas.
 
 - Muévete entre semanas con los controles anterior y siguiente.
-- En una computadora, pasa el cursor sobre una campaña para revisar su audiencia, cantidad de destinatarios, horario programado o de envío, canales y creador.
+- Pasa el cursor sobre una campaña para revisar su audiencia, cantidad de destinatarios, horario programado o de envío, canales y creador.
 - Para campañas enviadas, el detalle también puede mostrar ingresos atribuidos y CTR.
 - Selecciona una campaña programada para continuar editándola o una campaña enviada para abrir sus resultados.
 
@@ -93,7 +93,7 @@ Las tarjetas de reportes se dividen entre **Rendimiento del negocio** y **Operac
 | --- | --- |
 | **Reporte de ingresos** | ¿Cuántos ingresos se registraron, cuáles se atribuyeron a IA o al equipo y qué canales, misiones o campañas recibieron crédito? |
 | **Reporte de rendimiento** | ¿Cómo están cambiando la tasa de conversión, tiempo hasta conversión y tasa de derivación? |
-| **Insights de demanda** | ¿Cuántas interacciones resueltas por IA o colaboradores, o cerradas por automatizaciones, no tienen conversión registrada, y qué estimación de ingresos muestra el reporte? |
+| **Insights de demanda** | ¿Qué solicitudes de clientes no pudieron resolverse, qué productos fueron afectados y cuántos ingresos podrían haberse perdido? |
 | **Reporte de calidad de servicio** | ¿Con qué frecuencia la IA o el equipo resolvieron conversaciones, cumplieron el SLA o dejaron conversaciones sin resolver? |
 | **Reporte de carga y capacidad** | ¿Cuánto trabajo está asignado, manejado, resuelto, transferido o activo entre colaboradores y equipos? |
 
@@ -110,7 +110,7 @@ Al comparar reportes:
 3. Aplica el mismo desglose de canal o fuente.
 4. Espera que se cierren las ventanas de atribución actuales antes de tratar los resultados recientes como definitivos.
 
-El mismo resultado puede aparecer en fechas distintas porque cada métrica usa su propia regla. En los reportes de misiones, envíos, entregas y clics usan la fecha de cada evento; algunas métricas de ingresos y conversión agrupan compras elegibles por la fecha del mensaje de origen acreditado. El detalle de campaña cuenta cada evento en su fecha, incluidas las compras atribuidas en la fecha de compra. Ingresos también usa la fecha de compra; Rendimiento agrupa interacciones por fecha de inicio. Las secciones de estado actual usan el momento indicado.
+El mismo resultado puede aparecer en fechas distintas sin que ninguno de los reportes esté equivocado. Los reportes de misiones asignan los resultados elegibles posteriores a la fecha de activación original, los reportes de campañas los asignan a la fecha de entrega original y el Reporte de ingresos usa la fecha de compra. Los reportes de rendimiento de conversaciones siguen la fecha de inicio de la conversación. Las secciones de estado actual usan el momento indicado por esa sección.
 
 El reporte de operaciones también puede incluir una sección de presión operativa en vivo. Una instantánea en vivo describe la cola actual y no está limitada por el período histórico seleccionado para el reporte.
 

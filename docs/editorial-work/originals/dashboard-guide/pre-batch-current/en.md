@@ -56,11 +56,11 @@ Use the operations reports for resolution, SLA, assignment, and workload questio
 
 ### Empty values
 
-A dash means Hellotext did not calculate a positive value for that card in the period. If a curve appears beside the dash, it illustrates the empty state; it does not represent recorded daily activity. Do not interpret an empty card as proof that nothing happened in the business. Confirm that the relevant channels, store, events, and identifiers are connected and sending data.
+A dash means Hellotext did not calculate a positive value for that card in the period. Do not interpret an empty card as proof that nothing happened in the business. Confirm that the relevant channels, store, events, and identifiers are connected and sending data.
 
 ## Understand the Actions table
 
-The **Actions** table shows types with events recorded during the last 14 days. An action is the type of activity, such as a purchase, subscription, form submission, conversation event, or a custom action defined by the business. If more types are available, select **Load more** to show the next rows.
+The **Actions** table summarizes tracked event types from the last 14 days. An action is the type of activity, such as a purchase, subscription, form submission, conversation event, or a custom action defined by the business.
 
 | Column | What it shows |
 | --- | --- |
@@ -72,14 +72,14 @@ Select a column heading to sort the table by event volume, average value, or tot
 
 Not every action carries money. A valid action can have events while its average value and amount remain empty or zero. If a custom action should include a value, verify that the integration sends the amount and currency in the event rather than adding them only to the action name.
 
-The Actions table describes what Hellotext received. If it is empty, the blurred rows are visual examples, not events from your account. The table does not, by itself, attribute an action to a campaign or playbook. Use the corresponding report when source and attribution matter.
+The Actions table describes what Hellotext received. It does not, by itself, attribute the action to a campaign or playbook. Use the corresponding report when source and attribution matter.
 
 ## Use the campaign calendar
 
 The calendar organizes scheduled and delivered campaigns by week.
 
 - Move between weeks with the previous and next controls.
-- On a computer, hover over a campaign to review its audience, recipient count, schedule or delivery time, channels, and creator.
+- Hover over a campaign to review its audience, recipient count, schedule or delivery time, channels, and creator.
 - For delivered campaigns, the tooltip can also show attributed revenue and CTR.
 - Select a scheduled campaign to continue editing it, or a delivered campaign to open its results.
 

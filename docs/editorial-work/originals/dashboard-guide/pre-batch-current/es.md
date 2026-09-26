@@ -56,11 +56,11 @@ Usa los reportes de operaciones para preguntas sobre resolución, SLA, asignaci�
 
 ### Valores vacíos
 
-Un guion significa que Hellotext no calculó un valor positivo para esa tarjeta en el período. Si ves una curva junto al guion, es una ilustración del estado vacío: no representa actividad diaria registrada. No interpretes una tarjeta vacía como prueba de que nada ocurrió en el negocio. Confirma que los canales, tienda, eventos e identificadores correspondientes estén conectados y enviando datos.
+Un guion significa que Hellotext no calculó un valor positivo para esa tarjeta en el período. No interpretes una tarjeta vacía como prueba de que nada ocurrió en el negocio. Confirma que los canales, tienda, eventos e identificadores correspondientes estén conectados y enviando datos.
 
 ## Entiende la tabla de Acciones
 
-La tabla de **Acciones** muestra tipos con eventos registrados durante los últimos 14 días. Una acción es el tipo de actividad, como una compra, suscripción, envío de formulario, evento de conversación o acción personalizada definida por el negocio. Si hay más tipos de los que ves, selecciona **Cargar más** para mostrar las siguientes filas.
+La tabla de **Acciones** resume tipos de eventos registrados durante los últimos 14 días. Una acción es el tipo de actividad, como una compra, suscripción, envío de formulario, evento de conversación o acción personalizada definida por el negocio.
 
 | Columna | Qué muestra |
 | --- | --- |
@@ -72,14 +72,14 @@ Selecciona el encabezado de una columna para ordenar la tabla por volumen de eve
 
 No todas las acciones incluyen dinero. Una acción válida puede tener eventos aunque su valor promedio y monto estén vacíos o en cero. Si una acción personalizada debería incluir un valor, verifica que la integración envíe el monto y moneda dentro del evento en lugar de agregarlos solamente al nombre de la acción.
 
-La tabla de Acciones describe lo que recibió Hellotext. Si está vacía, las filas difuminadas son ejemplos visuales, no eventos de tu cuenta. Por sí sola, la tabla no atribuye una acción a una campaña o misión. Usa el reporte correspondiente cuando importen la fuente y atribución.
+La tabla de Acciones describe lo que recibió Hellotext. Por sí sola, no atribuye la acción a una campaña o misión. Usa el reporte correspondiente cuando importen la fuente y atribución.
 
 ## Usa el calendario de campañas
 
 El calendario organiza por semana las campañas programadas y enviadas.
 
 - Muévete entre semanas con los controles anterior y siguiente.
-- En una computadora, pasa el cursor sobre una campaña para revisar su audiencia, cantidad de destinatarios, horario programado o de envío, canales y creador.
+- Pasa el cursor sobre una campaña para revisar su audiencia, cantidad de destinatarios, horario programado o de envío, canales y creador.
 - Para campañas enviadas, el detalle también puede mostrar ingresos atribuidos y CTR.
 - Selecciona una campaña programada para continuar editándola o una campaña enviada para abrir sus resultados.
 
