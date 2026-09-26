@@ -1,0 +1,25 @@
+{
+  "article_source": "_i18n/es/audience/segments.md",
+  "public_url": "https://help.hellotext.com/es/segmentos",
+  "locale": "es",
+  "step_and_target_control": "Combine conditions with O inside one block and Y between blocks",
+  "capture_date": "2026-09-26 UTC",
+  "capture_tool": "macOS ScreenCaptureKit SCContentFilter(display:including:) for the exact Awesome Chrome window, SCStreamConfiguration.sourceRect with native 2x dimensions and colorSpaceName=Display P3, ImageIO PNG encoding; local helper: docs/editorial-work/capture-tools/hellotext_capture_editor.swift",
+  "source_route_and_state": "https://www.hellotext.com/awesome/audience; unsaved Nuevo Segmento editor with Se suscribió O Cliente envió un mensaje, Y Edad Más que 18; Chrome zoom 75% to display all conditions in one native frame",
+  "demonstration_data_verified": true,
+  "original_file": "docs/editorial-work/captures/segments/rule-logic-es-original.png",
+  "published_derivative": "images/audience/segments/rule-logic-es.png",
+  "logical_viewport": { "width": 2180, "height": 1092, "browser_zoom": "75%", "native_window_points": { "width": 1635, "height": 996 } },
+  "source_pixels": { "width": 1144, "height": 1606 },
+  "max_display_css_pixels": { "width": 550, "height": 601 },
+  "actual_file_format": "PNG (native 2x original and lossless cropped derivative)",
+  "icc_profile_and_verification": "Display P3 iCCP verified by the capture helper, file, and sips for both original and derivative; original SHA-256 0d2a186ff44f26886e84674d0c1fd91a26b8c396ea6d8d620dda55d5fd346230; derivative SHA-256 560585c46e4c34ce0c9466f6b08f61bf734c48a3f5d18bc0b6e6aab72eb8fca7",
+  "native_color_provenance": "The same 2x display produced a native 16x16 PNG corner probe with embedded Display P3. ScreenCaptureKit captured a 572x803-point region of the exact Chrome window into 1144x1606 pixels with Display P3 output color management; no JPEG pixels or profile reassignment were used.",
+  "transformations": [
+    "sips lossless crop to 1144x1250 pixels at source offset x=0, y=200, removing the editor header, partially scrolled description, pointer, and footer while keeping both complete rule blocks and embedded Display P3 profile"
+  ],
+  "pointer": { "kind": "none in published derivative", "target": "O and Y rule structure", "coordinates": null },
+  "verification": { "density": "passed: 1144 source pixels / 550 planned CSS pixels = 2.08x minimum; rendered 532px desktop and 316px mobile", "desktop": "passed: both complete rule blocks visible in the Spanish guide at 1635px viewport; full-size link opens native 1144x1250 PNG", "mobile": "passed: block structure visible at 390px viewport without page overflow; individual UI labels are small inline, so the full-size link is needed for detail", "served_asset": "passed: yarn build and security-header check; built root and Spanish-path PNGs byte-identical to source with Display P3 profile" },
+  "limitations": ["The live interface was captured in Spanish; no English UI capture was made.", "The unsaved editor does not demonstrate a saved segment or calculated membership.", "At 390px viewport, labels inside the inline image are small; the full-size link opens the native PNG for detail."],
+  "status": "verified_in_local_article_not_published"
+}

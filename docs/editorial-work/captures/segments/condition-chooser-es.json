@@ -1,0 +1,25 @@
+{
+  "article_source": "_i18n/es/audience/segments.md",
+  "public_url": "https://help.hellotext.com/es/segmentos",
+  "locale": "es",
+  "step_and_target_control": "Create a segment, step 5: Elige una condición, showing Actividad del cliente and Características del cliente",
+  "capture_date": "2026-09-26 UTC",
+  "capture_tool": "macOS ScreenCaptureKit SCContentFilter(display:including:) for the exact Awesome Chrome window, SCStreamConfiguration.sourceRect with native 2x dimensions and colorSpaceName=Display P3, ImageIO PNG encoding; local helper: docs/editorial-work/capture-tools/hellotext_capture_editor.swift",
+  "source_route_and_state": "https://www.hellotext.com/awesome/audience; unsaved Nuevo Segmento editor with the condition chooser open",
+  "demonstration_data_verified": true,
+  "original_file": "docs/editorial-work/captures/segments/condition-chooser-es-original.png",
+  "published_derivative": "images/audience/segments/condition-chooser-es.png",
+  "logical_viewport": { "width": 1635, "height": 875 },
+  "source_pixels": { "width": 1144, "height": 1716 },
+  "max_display_css_pixels": { "width": 550, "height": 366 },
+  "actual_file_format": "PNG (native 2x original and lossless cropped derivative)",
+  "icc_profile_and_verification": "Display P3 iCCP verified by the capture helper, file, and sips for both original and derivative; original SHA-256 b6552dae83127225d011ca1eb0b16f0cf979f50a9e22cca752c810b8c667e74f; derivative SHA-256 fa39b181ea484f65cf1f22f9496bb634a0fd89d5554ff8a2d63801a80dc947be",
+  "native_color_provenance": "The same 2x display produced a native 16x16 PNG corner probe with embedded Display P3. ScreenCaptureKit captured a 572x858-point region from the exact Chrome window into 1144x1716 pixels with Display P3 output color management; no JPEG pixels or profile reassignment were used.",
+  "transformations": [
+    "sips lossless crop to 1144x760 pixels at source offset x=0, y=98, removing unrelated empty lower panel and cursor while retaining the embedded Display P3 profile"
+  ],
+  "pointer": { "kind": "none in published derivative", "target": "Elige una condición", "coordinates": null },
+  "verification": { "density": "passed: 1144 source pixels / 550 planned CSS pixels = 2.08x minimum; rendered 532px desktop and 316px mobile", "desktop": "passed: chooser visible in the Spanish guide at 1635px viewport; full-size link opens native 1144x760 PNG", "mobile": "passed: chooser visible at 390px viewport without page overflow", "served_asset": "passed: yarn build and security-header check; built root and Spanish-path PNGs byte-identical to source with Display P3 profile" },
+  "limitations": ["The live interface was captured in Spanish; no English UI capture was made.", "The unsaved editor does not demonstrate a saved segment or calculated membership."],
+  "status": "verified_in_local_article_not_published"
+}
