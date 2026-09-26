@@ -2,8 +2,6 @@ Hellotext vincula pedidos con campañas, misiones, rutas y otras interacciones e
 
 La métrica resultante son los **ingresos atribuidos**: ingresos vinculados a actividad elegible de Hellotext según estas reglas.
 
-Para revisar una venta concreta, comprueba si Hellotext registró el ingreso, si existe evidencia elegible del mismo cliente o pedido, qué fuente prevalece dentro de la ventana aplicable y cuánto del pedido admite ese camino de atribución. Una venta puede aparecer en los ingresos totales sin recibir atribución.
-
 ## Qué significan los ingresos atribuidos
 
 Una venta se atribuye cuando Hellotext recibe un evento de ingresos elegible y puede vincularlo con evidencia de origen compatible para el mismo cliente o pedido.
@@ -23,7 +21,7 @@ Cuando hay más de una fuente disponible:
 La evidencia activa puede incluir:
 
 - una fuente o UTM de Hellotext vinculada con una campaña, misión o ruta;
-- un clic en un enlace elegible de una campaña, misión o ruta;
+- un clic en un link elegible de una campaña, misión o ruta;
 - una interacción válida con una recomendación de productos.
 
 La evidencia pasiva puede incluir:
@@ -33,13 +31,13 @@ La evidencia pasiva puede incluir:
 - una recomendación o señal de comercio válida;
 - otro contexto de origen compatible registrado por Hellotext.
 
-Un [enlace con tracking]({% link _analytics-reporting-attribution/tracked-links.md %}) es una fuente útil de evidencia, pero no es obligatorio para todos los caminos de atribución. Del mismo modo, recibir un mensaje no hace que cualquier compra posterior se atribuya: deben cumplirse los requisitos de entrega, cliente, pedido, fuente y ventana temporal.
+Un [link con tracking]({% link _analytics-reporting-attribution/tracked-links.md %}) es una fuente útil de evidencia, pero no es obligatorio para todos los caminos de atribución. Del mismo modo, recibir un mensaje no hace que cualquier compra posterior se atribuya: deben cumplirse los requisitos de entrega, cliente, pedido, fuente y ventana temporal.
 
-### ¿Puede atribuirse una venta después de una entrega, sin hacer clic?
+### ¿Puede atribuirse una venta después de ver un mensaje, sin hacer clic?
 
-Sí. La entrega elegible de un mensaje de campaña o misión proactiva puede respaldar una compra dentro de la ventana de entrega por defecto de 24 horas, aunque el cliente no haga clic. El mensaje debe tener una entrega registrada al mismo cliente dentro de la ventana aplicable; no se exige confirmación de lectura. La compra también debe cumplir las demás reglas de origen y atribución.
+Sí. Un cliente que ve un mensaje elegible de una campaña o una misión proactiva y compra dentro de la ventana de entrega por defecto de 24 horas puede cumplir los requisitos aunque no haga clic en un link. El mensaje debe cumplir los requisitos de entrega y visibilidad del canal, y la compra debe pasar las reglas de origen y atribución.
 
-La entrega no demuestra que el cliente leyó el mensaje ni hace que todas las compras futuras sean atribuibles.
+Ver un mensaje no hace que todas las compras futuras sean atribuibles, y la atribución no demuestra que el cliente no habría comprado de todos modos.
 
 ## Ventanas de atribución
 
@@ -58,20 +56,20 @@ Algunas señales tienen su propio período de validez. No todas las entregas, ca
 
 Abrir un producto recomendado a través del catálogo de WhatsApp con tracking dentro de los **diez minutos posteriores a la recomendación** puede contar como una interacción válida. El producto abierto debe coincidir con uno de los recomendados, y la actividad debe estar vinculada con el mismo cliente y ocurrir antes de la compra.
 
-Los diez minutos determinan si la visita cuenta como interacción; no son el plazo para comprar. Una visita válida puede habilitar la ventana de sesión por defecto de siete días, medida desde esa visita. Una etiqueta genérica de tracking del catálogo o una visita a un producto no relacionado no son suficientes por sí solas.
+Esa visita válida puede habilitar la ventana de sesión por defecto de siete días, medida desde la visita. Una etiqueta genérica de tracking del catálogo o una visita a un producto no relacionado no son suficientes por sí solas.
 
 ## ¿Atribuimos el pedido completo?
 
 **El monto depende del camino de atribución seleccionado para la compra.** La atribución por campaña y otros caminos a nivel de pedido pueden atribuir el monto del pedido. Algunos caminos de Webchat aplican límites por producto y cantidad:
 
 - **Recomendaciones de productos de Webchat:** cuando este camino determina la atribución, solo contribuyen al monto atribuido los productos comprados que coinciden con señales de recomendación vigentes. Product Recommender también debe pasar su evaluación comercial.
-- **Productos agregados al carrito desde sugerencias de conjuntos de Webchat:** cuando este camino determina la atribución, las unidades pagadas se limitan a la cantidad del producto añadida por esa acción. Las unidades que ya estaban en el carrito antes de la acción no reciben atribución por ella. Las líneas promocionales gratuitas del mismo producto se tratan por separado, como se explica abajo.
+- **Productos agregados al carrito desde sugerencias de conjuntos de Webchat:** cuando este camino determina la atribución, solo contribuyen las cantidades compradas que coinciden con las respaldadas por la acción de agregar al carrito. Las unidades que ya estaban en el carrito antes de esa acción no reciben atribución por ella.
 
 Por ejemplo, un cliente compra un producto recomendado por $40 y otro no relacionado por $60. Si se selecciona el camino de recomendación de Webchat y se aprueba la atribución, el monto atribuido es **$40**, mientras que el pedido sigue representando **$100** en los ingresos totales del comercio.
 
 Estos límites corresponden a esos caminos de atribución de Webchat; no son un requisito de coincidencia de productos para todas las ventas de campañas o misiones. Una etiqueta de tracking de una misión de Webchat no basta por sí sola para atribuir el pedido completo sin evidencia de productos coincidentes por estos caminos.
 
-Para estos cálculos por producto, Hellotext normalmente utiliza los montos de las líneas coincidentes del pedido. Si una línea elegible del producto respaldado tiene un total exactamente igual a cero, como una promoción gratuita, Hellotext puede contarla por separado de las unidades pagadas y valorar su cantidad al precio unitario de catálogo. Por eso, el valor atribuido puede diferir del monto pagado por esos artículos.
+Para estos cálculos por producto, Hellotext normalmente utiliza los montos de las líneas coincidentes del pedido. Si una línea elegible tiene un total de cero, como un artículo promocional gratuito, Hellotext utiliza su precio unitario de catálogo para la cantidad elegible. Por eso, el valor atribuido puede diferir del monto pagado por esos artículos.
 
 ## Qué sucede cuando hay otra fuente de marketing
 
@@ -91,11 +89,11 @@ La participación de una persona del equipo no produce un único resultado unive
 
 Product Recommender requiere actividad comercial de la IA o de la misión registrada antes de la compra y una evaluación que identifique a la IA como impulsora comercial. Esto implica evaluar acciones que acercan al cliente a la compra, en lugar de contar todos los mensajes de la conversación.
 
-Pueden contar las recomendaciones de IA, los enlaces de productos, los enlaces de checkout y las interacciones válidas del cliente. Del lado del equipo, las acciones comerciales incluyen recomendaciones, cupones, enlaces de productos, enlaces de checkout y objetivos registrados manualmente.
+Pueden contar las recomendaciones de IA, los links de productos, los links de checkout y las interacciones válidas del cliente. Del lado del equipo, las acciones comerciales incluyen recomendaciones, cupones, links de productos, links de checkout y objetivos registrados manualmente.
 
 - Si la última acción comercial registrada corresponde a una persona del equipo, la evaluación no otorga atribución a la IA.
 - Si las últimas acciones comerciales de IA y humanas tienen marcas de tiempo idénticas, no se determina un impulsor y la evaluación no otorga atribución.
-- Una toma de control humana sostenida que cumpla los requisitos también puede impedir la atribución, incluso sin un cupón o enlace individual. Esta regla revisa el tramo final e ininterrumpido de conversación dirigido por una persona: al menos diez minutos, sin pausas de más de cinco minutos entre intervenciones ni antes de la compra. La actividad de IA puede interrumpir ese tramo.
+- Una toma de control humana sostenida que cumpla los requisitos también puede impedir la atribución, incluso sin un cupón o link individual. Esta regla revisa el tramo final e ininterrumpido de conversación dirigido por una persona: al menos diez minutos, sin pausas de más de cinco minutos entre intervenciones ni antes de la compra. La actividad de IA puede interrumpir ese tramo.
 - Una respuesta exclusivamente de soporte, como contestar una consulta sobre la entrega, no cuenta por sí sola como una acción comercial humana.
 
 La IA puede haber ayudado en una compra sin recibir la atribución.
@@ -104,7 +102,7 @@ La IA puede haber ayudado en una compra sin recibir la atribución.
 
 - **La atribución por campaña** se evalúa a partir de evidencia de origen y puede aplicarse aunque una persona del equipo complete el checkout. No utiliza la evaluación de impulsor comercial de Product Recommender.
 - **Un checkout de propiedad humana** bloquea la atribución ordinaria que no sea de campaña cuando el pedido pertenece explícitamente a una persona del equipo o a un operador de comercio. La continuación demostrada de una compra atribuida anteriormente es un caso aparte de pedido de reemplazo, con un límite de monto, que se explica más abajo.
-- **Otras misiones** pueden recibir atribución a partir de su contexto de origen compatible. Un enlace de checkout enviado por una persona del equipo y registrado puede requerir la evaluación comercial, aunque la plataforma de comercio no haya identificado a un propietario humano del pedido.
+- **Otras misiones** pueden recibir atribución a partir de su contexto de origen compatible. Un link de checkout enviado por una persona del equipo y registrado puede requerir la evaluación comercial, aunque la plataforma de comercio no haya identificado a un propietario humano del pedido.
 - **Las rutas** siguen sus reglas de contexto de origen y propiedad del checkout. No todas las ventas pasan por la misma evaluación entre IA y personas.
 
 ## Confirmaciones tardías y registros repetidos de pedidos
@@ -123,7 +121,7 @@ Los registros repetidos del mismo pedido reconocido no crean otra atribución or
 
 Cuando Hellotext recibe una cancelación o revocación compatible para un pedido atribuido, puede eliminar el monto atribuido activo de los reportes y de los cálculos de facturación aplicables.
 
-Si una persona del equipo o un operador de comercio crea un pedido de reemplazo para uno cancelado y Hellotext puede comprobar que continúa la compra original, la atribución trasladada se limita al menor de estos valores:
+Si un pedido cancelado es reemplazado y Hellotext puede comprobar que el nuevo pedido continúa la compra original, la atribución trasladada se limita al menor de estos valores:
 
 - el monto atribuido anteriormente; o
 - el valor del pedido de reemplazo.
@@ -138,11 +136,11 @@ Para filas atribuidas, la exportación del reporte de Ingresos puede mostrar:
 - el tipo y motivo de atribución;
 - la fuente y el canal;
 - evidencia comercial de IA y humana, cuando corresponda;
-- quién impulsó la interacción comercial, cuando fue evaluado;
+- el driver comercial, cuando fue evaluado;
 - una explicación en lenguaje simple;
-- un enlace a la conversación o al contexto del evento.
+- un link a la conversación o al contexto del evento.
 
-Los recibos detallados del motor también registran los candidatos y la evidencia considerados. Cuando un pedido no atribuido o un registro anterior no muestra suficiente detalle en el reporte, contacta a Soporte con la referencia del pedido y solo el identificador del cliente que necesiten para investigarlo.
+Los recibos detallados del motor también registran los candidatos y la evidencia considerados. Cuando un pedido no atribuido o un registro anterior no muestra suficiente detalle en el reporte, contacta a Soporte con la referencia del pedido y la información del cliente.
 
 ## Ingresos atribuidos y crecimiento incremental
 
@@ -158,15 +156,27 @@ Hellotext no trata estas dos mediciones como equivalentes.
 
 ## Ejemplos
 
-### Entrega de campaña sin clic
+### Mensaje de campaña visto sin clic
 
-Se entrega un mensaje elegible de una campaña y el cliente compra dentro de la ventana de entrega por defecto de 24 horas. No hay una fuente externa reconocida ni un clic.
+Un cliente ve un mensaje elegible de una campaña y compra dentro de la ventana de entrega por defecto de 24 horas. No hay una fuente externa reconocida.
 
-El pedido puede atribuirse a la campaña aunque el mensaje no haya incluido un enlace corto. La entrega no demuestra que el cliente leyó el mensaje.
+El pedido puede atribuirse a la campaña aunque el mensaje no haya incluido un link corto.
+
+### Compra después de un clic
+
+Un cliente hace clic en un link elegible de Hellotext y compra seis días después.
+
+El pedido puede ser elegible porque ocurrió dentro de los siete días desde el clic. La ventana comienza en el clic, no cuando termina la ventana de entrega.
+
+### Fuente externa al comprar
+
+Un cliente interactuó antes con Hellotext, pero el pedido contiene una fuente reconocida de otro canal de marketing observada después de esa evidencia de Hellotext.
+
+El pedido no se atribuye a Hellotext porque la fuente externa tiene precedencia.
 
 ### Evidencia de Hellotext posterior a una fuente externa
 
-Se registra una fuente externa a las 10:00. El cliente hace clic en un enlace elegible de una campaña de Hellotext a las 11:00 y compra a las 12:00. Se conocen ambas marcas de tiempo de origen.
+Se registra una fuente externa a las 10:00. El cliente hace clic en un link elegible de una campaña de Hellotext a las 11:00 y compra a las 12:00. Se conocen ambas marcas de tiempo de origen.
 
 La evidencia posterior de Hellotext puede tener precedencia si la compra pasa las demás reglas de atribución. Si no puede establecerse la secuencia temporal de las fuentes, la fuente externa conserva la precedencia.
 
@@ -184,9 +194,15 @@ El pedido puede permanecer en los ingresos totales del comercio sin convertirse 
 
 ### Evento monetario personalizado
 
-Se recibe un evento monetario personalizado con monto positivo, configurado como objetivo, y con contexto compatible de cliente y fuente.
+Se recibe un evento personalizado con monto positivo y contexto compatible de cliente y fuente.
 
-Puede evaluarse para atribución si cumple las demás reglas. Un evento personalizado que no sea objetivo puede figurar en ingresos totales, pero no convertirse en ingresos atribuidos, aunque tenga un monto positivo y evidencia de origen.
+Puede evaluarse para atribución. Ser personalizado no lo excluye automáticamente, pero el evento por sí solo no es evidencia suficiente.
+
+### Sin evidencia compatible
+
+La compra está fuera de la ventana aplicable, no puede vincularse con el cliente o pedido, o no tiene una fuente de atribución compatible.
+
+Los ingresos permanecen en los ingresos del comercio, pero no se atribuyen a Hellotext.
 
 ## Guías relacionadas
 
