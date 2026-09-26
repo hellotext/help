@@ -28,6 +28,11 @@ github_username:  hellotext
 jekyll-minifier:
   uglifier_args:
     harmony: true
+  exclude:
+    - assets/editorial/editorial_visuals.js
+    - assets/editorial/editorial_tabs.js
+    - es/assets/editorial/editorial_visuals.js
+    - es/assets/editorial/editorial_tabs.js
 
 
 # Build settings
@@ -252,6 +257,8 @@ collections:
     output: true
 
 exclude:
+  - AGENTS.md
+  - docs/
   - script/
   - README.md
   - Procfile.dev

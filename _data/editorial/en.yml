@@ -1,0 +1,392 @@
+---
+segmentation-relevance:
+  type: messages
+  label: Two ways to share an update
+  title: Context changes the conversation.
+  caption: 'Illustrative example: both messages let the recipient shop from the first
+    send. The segmented one shows Adidas Samba OG in the size Ana requested, with
+    a photo and direct product access; the generic one leads to the catalog.'
+  panels:
+  - label: One message for everyone
+    channel: whatsapp
+    business: Luma
+    context: The same promotion for the entire list
+    messages:
+    - type: buttons
+      side: business
+      text: Hi! Everything is 15% off today. Shop before the day ends.
+      time: '10:30'
+      actions:
+      - Shop offers
+  - label: Based on their interest
+    channel: whatsapp
+    business: Luma
+    context: Requested a restock alert for Adidas Samba OG, size 38
+    messages:
+    - type: image
+      side: business
+      image:
+        src: "/images/editorial/assets/homepage/figma/sales-product-samba-og.png"
+        alt: White Adidas Samba OG sneaker with black stripes
+      text: Ana, your Adidas Samba OG in size 38 are back in stock. Choose delivery
+        or store pickup at checkout.
+      time: '10:30'
+      actions:
+      - Shop size 38
+  id: segmentation-relevance
+segmentation-filters:
+  type: screenshot
+  label: From an idea to a segment
+  title: Decide who you want to reach.
+  caption: A demonstration interface composed from real Hellotext components in Spanish.
+    This example combines subscription status with a purchase condition; choose criteria
+    that match your campaign.
+  image:
+    src: "/images/editorial/assets/editorial/segmentation-filters.png"
+    alt: 'Segment editor example in Spanish: subscribed customers who purchased a
+      product during the last 30 days.'
+    width: 2576
+    height: 3388
+  id: segmentation-filters
+segmentation-lifecycle:
+  type: messages
+  label: Based on the customer relationship
+  title: A welcome and a VIP benefit need different messages.
+  caption: 'Illustrative fashion store examples: the welcome offers catalog access
+    in the first message; returning customers receive early access and a carousel
+    with specific products. Prices and benefits are demonstration content.'
+  panels:
+  - label: New subscriber
+    channel: whatsapp
+    business: Luma
+    context: Subscribed, but has not made a first purchase
+    messages:
+    - type: buttons
+      side: business
+      text: Welcome to Luma, Ana! Explore our latest sneakers and clothing. Choose
+        delivery or store pickup at checkout.
+      time: '11:00'
+      actions:
+      - Shop sneakers
+      - Shop clothing
+  - label: Returning customer
+    channel: whatsapp
+    business: Luma
+    context: Has made several purchases and opted into updates
+    messages:
+    - type: text
+      side: business
+      text: Ana, your VIP access is ready. Explore these new arrivals before tomorrow’s
+        launch.
+      time: '11:00'
+    - type: carousel
+      label: Early access products
+      products:
+      - image: "/images/editorial/assets/homepage/figma/sales-product-samba-og.png"
+        alt: White Adidas Samba OG sneaker with black stripes
+        label: Adidas Samba OG
+        detail: VIP access · size 38 available
+        price: "$ 4,990"
+        actions:
+        - Shop sneakers
+      - image: "/images/editorial/assets/homepage/figma/sales-product-oversize-tee.png"
+        alt: Oversized T-shirt
+        label: Oversized T-shirt
+        detail: VIP access · choose your size
+        price: "$ 1,490"
+        actions:
+        - Shop T-shirt
+  id: segmentation-lifecycle
+segmentation-birthday:
+  type: messages
+  label: A moment that matters
+  title: A greeting with a clear reason.
+  caption: Illustrative café example combining a birthday and a stated preference.
+    Names, benefits and conversations are demonstration content.
+  panels:
+  - label: Birthday + favorite drink
+    channel: whatsapp
+    business: Café Oliva
+    context: An opted-in customer who chose cappuccino as her favorite
+    messages:
+    - type: buttons
+      side: business
+      text: "Happy birthday, Lucía! \U0001F382 Your favorite cappuccino is on us this
+        week. Open your coupon and show it when you visit Café Oliva."
+      time: '09:00'
+      actions:
+      - View my coupon
+      - Get directions
+    - side: customer
+      text: That’s so thoughtful! See you tomorrow ☕
+      time: '09:08'
+  id: segmentation-birthday
+channel-sms:
+  type: messages
+  label: SMS example
+  title: Confirm the next step in a short conversation.
+  caption: Illustrative conversation in an Apple Messages view. The first SMS includes
+    pickup details and a sample link that does not navigate. Names, order details
+    and opening hours are demonstration content; no SMS is sent.
+  panels:
+  - label: Ready for pickup
+    channel: sms
+    business: Luma
+    messages:
+    - side: business
+      text: 'Ana, order 1042 is ready. Pick it up today from 10 am to 7 pm. Address
+        and details: example.com/pickup/1042'
+      time: '14:20'
+    - side: customer
+      text: Thanks! Can I come tomorrow?
+      time: '14:22'
+    - side: business
+      text: Of course, we’ll hold it for you. We open at 10 am tomorrow.
+      time: '14:23'
+  id: channel-sms
+channel-instagram:
+  type: messages
+  label: Instagram example
+  title: Continue the conversation where it started.
+  caption: Illustrative Instagram DM conversation. Names, product details and availability
+    are local demonstration content.
+  panels:
+  - label: Direct message inquiry
+    channel: instagram
+    business: Luma
+    messages:
+    - side: customer
+      text: "Hi! I saw the Samba OG in your post \U0001F60D Do you have size 38?"
+      time: '16:12'
+    - type: image
+      side: business
+      image:
+        src: "/images/editorial/assets/homepage/figma/sales-product-samba-og.png"
+        alt: White Adidas Samba OG sneaker with black stripes
+      text: Yes, Ana! These Samba OG are available in size 38. Shop here and choose
+        delivery or store pickup at checkout.
+      time: '16:13'
+      actions:
+      - View Samba OG
+  id: channel-instagram
+whatsapp-image:
+  type: messages
+  label: WhatsApp with an image
+  title: A message with a product photo.
+  caption: Illustrative example of a photo, a short message and product access in
+    the first WhatsApp send.
+  panels:
+  - label: Product photo
+    channel: whatsapp
+    business: Luma
+    messages:
+    - type: image
+      side: business
+      image:
+        src: "/images/editorial/assets/homepage/figma/sales-product-samba-og.png"
+        alt: Side view of an Adidas Samba OG sneaker
+      text: Samba OG are now available. Find your size and choose delivery or store
+        pickup at checkout.
+      time: '10:30'
+      actions:
+      - View Samba OG
+  id: whatsapp-image
+whatsapp-buttons:
+  type: messages
+  label: WhatsApp with buttons
+  title: A message with three available actions.
+  caption: Illustrative WhatsApp reply buttons. The options do not send messages.
+  panels:
+  - label: Reply options
+    channel: whatsapp
+    business: Luma
+    messages:
+    - type: buttons
+      side: business
+      text: Hi Ana! Explore the latest arrivals and offers from Luma, or check your
+        order here.
+      time: '10:30'
+      actions:
+      - New arrivals
+      - Special offers
+      - Help with my order
+  id: whatsapp-buttons
+whatsapp-carousel:
+  type: messages
+  label: WhatsApp with a carousel
+  title: A carousel for exploring products.
+  caption: Illustrative WhatsApp product carousel. Swipe to explore the next option.
+    Prices and actions are demonstration content.
+  panels:
+  - label: Product carousel
+    channel: whatsapp
+    business: Luma
+    messages:
+    - type: carousel
+      label: Recommended products
+      products:
+      - image: "/images/editorial/assets/homepage/figma/sales-product-samba-og.png"
+        alt: Side view of an Adidas Samba OG sneaker
+        label: Adidas Samba OG
+        price: "$ 4,990"
+        actions:
+        - View product
+      - image: "/images/editorial/assets/homepage/figma/sales-product-oversize-tee.png"
+        alt: Oversized T-shirt
+        label: Oversized T-shirt
+        price: "$ 1,490"
+        actions:
+        - View product
+  id: whatsapp-carousel
+whatsapp-shopping:
+  type: messages
+  label: WhatsApp with products and buttons
+  title: A complete recommendation from the first send.
+  caption: 'Illustrative example: the first recommendation includes a carousel with
+    two distinct products and an action on each card. Its introductory text does not
+    repeat buttons. The follow-up clarifies pickup; no reply is required to explore
+    or buy. Prices and conditions are demonstration content.'
+  panels:
+  - label: Product recommendation
+    channel: whatsapp
+    business: Luma
+    messages:
+    - type: text
+      side: business
+      text: Ana, your Samba OG in size 38 are back. Pair them with this T-shirt and
+        choose delivery or store pickup at checkout.
+      time: '10:30'
+    - type: carousel
+      label: Recommended sneakers and T-shirt
+      products:
+      - image: "/images/editorial/assets/homepage/figma/sales-product-samba-og.png"
+        alt: Side view of an Adidas Samba OG sneaker
+        label: Adidas Samba OG
+        detail: Size 38 available
+        price: "$ 4,990"
+        actions:
+        - Shop size 38
+      - image: "/images/editorial/assets/homepage/figma/sales-product-oversize-tee.png"
+        alt: Oversized T-shirt
+        label: Oversized T-shirt
+        detail: Choose your size
+        price: "$ 1,490"
+        actions:
+        - Shop T-shirt
+    - type: text
+      side: customer
+      text: I like them! Can I pick up today?
+      time: '10:32'
+    - type: buttons
+      side: business
+      text: Yes! Order before 3 pm for pickup today. Choose store pickup at checkout.
+      time: '10:33'
+      actions:
+      - View hours and address
+  id: whatsapp-shopping
+channel-email:
+  type: messages
+  label: Email example
+  title: A restock alert with your brand’s identity.
+  caption: Illustrative email in an Apple Mail view, using the Crocs identity and
+    assets from the homepage. The content is for demonstration and does not represent
+    a sent campaign.
+  panels:
+  - label: Back in stock
+    channel: email
+    business: Crocs
+    subject: "Vale, your Crocs are back \U0001F49C"
+    headline: Your size is back!
+    theme: lavender
+    logo: "/images/editorial/assets/customers/crocs.svg"
+    messages:
+    - type: text
+      side: business
+      text: Vale, your mauve Classic Clogs are back in your size. They’re waiting
+        for you!
+    - type: image
+      side: business
+      image:
+        src: "/images/editorial/assets/homepage/proposals/crocs-classic-clog-malva-ecuador-cutout.png"
+        alt: Crocs Classic Clog in mauve
+      text: Crocs Classic Clog · Mauve
+    - type: buttons
+      side: business
+      actions:
+      - Shop my Crocs
+    - type: text
+      side: business
+      text: You’re receiving this because you asked to know when your size was back.
+  id: channel-email
+channel-push:
+  type: messages
+  label: Push notification example
+  title: A reminder at the right moment.
+  caption: Illustrative push notification using the Funky Fish identity and assets
+    from the homepage. The message and reminder are demonstration content; no notification
+    is sent.
+  panels:
+  - label: Replenishment reminder
+    channel: push
+    business: Funky Fish
+    subject: Cami, time to restock your serum? ✨
+    logo: "/images/editorial/assets/customers/funkyfish.svg"
+    messages:
+    - type: image
+      side: business
+      image:
+        src: "/images/editorial/assets/homepage/proposals/funkyfish-beauty-of-joseon-revive-eye-serum-cutout.png"
+        alt: Beauty of Joseon Revive Eye Serum
+      text: Your Revive Eye Serum is running low. Keep your routine going.
+      time: '09:41'
+    - type: buttons
+      side: business
+      actions:
+      - Restock now
+  id: channel-push
+channel-messenger:
+  type: messages
+  label: Messenger example
+  title: Answer the question and offer a next step.
+  caption: Illustrative Messenger support conversation. Names, delivery conditions
+    and options are demonstration content; no orders are accessed and no messages
+    are sent.
+  panels:
+  - label: Delivery inquiry
+    channel: messenger
+    business: Luma
+    messages:
+    - side: customer
+      text: Hi! Do you offer home delivery?
+      time: '11:05'
+    - type: buttons
+      side: business
+      text: Hi Ana! Yes, we ship nationwide. You can also pick up at our store.
+      time: '11:06'
+      actions:
+      - Shipping costs
+      - Pickup hours
+  id: channel-messenger
+channel-webchat:
+  type: messages
+  label: Webchat example
+  title: Track your order from the store.
+  caption: Illustrative Webchat conversation using the LEGO identity from the homepage.
+    Order details, tracking and delivery dates are local demonstration data.
+  panels:
+  - label: Order tracking
+    channel: webchat
+    business: LEGO
+    logo: "/images/editorial/assets/customers/lego.svg"
+    messages:
+    - side: customer
+      text: "Where is my LEGO order? \U0001F9F1"
+      time: '12:30'
+    - type: buttons
+      side: business
+      text: "Nico, order #4821 is on its way \U0001F4E6\nYour LEGO set arrives tomorrow.
+        Track it here.\n"
+      time: '12:30'
+      actions:
+      - View tracking
+  id: channel-webchat

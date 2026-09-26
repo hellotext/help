@@ -13,7 +13,8 @@ script_integrities = {
   '/js/gtm.js' => 'sha256-KOs83E8sWN0ZSanqdvyKqXPbanqGOxQAEZPz+lkrVh4=',
   '/js/search.js' => 'sha256-Cn9RZi6b09IrtHxo4SOhpbbX/E5ZK+VAFUrpZMFjghg=',
   '/js/article-navigation.js' => 'sha256-wCYJmMu4lFJ6xS8zGIftK+/iSWhmPjnRowWepgy5lUQ=',
-  '/js/article-feedback.js' => 'sha256-AlC35S17jo/t3ripYSesMGbb0n4TCpeu1H+vT7O2UnM='
+  '/js/article-feedback.js' => 'sha256-AlC35S17jo/t3ripYSesMGbb0n4TCpeu1H+vT7O2UnM=',
+  '/assets/editorial/editorial_visuals.js' => 'sha256-zqkNwVRm5VAWrAC7VCC5ZgIicKlfkzgKdIWgmCu2oH0='
 }
 
 config = File.read(File.join(ROOT, 'netlify.toml'))
@@ -63,6 +64,7 @@ expected_directives = {
     "'#{script_integrities.fetch('/js/search.js')}'",
     "'#{script_integrities.fetch('/js/article-navigation.js')}'",
     "'#{script_integrities.fetch('/js/article-feedback.js')}'",
+    "'#{script_integrities.fetch('/assets/editorial/editorial_visuals.js')}'",
     "'strict-dynamic'",
     'https://www.googletagmanager.com',
     'https://static.hotjar.com',
@@ -152,6 +154,9 @@ abort 'Article navigation script integrity hash is incorrect' unless guide_layou
 
 article_feedback_tag = %(<script src="/js/article-feedback.js" integrity="#{script_integrities.fetch('/js/article-feedback.js')}" defer></script>)
 abort 'Article feedback script integrity hash is incorrect' unless guide_layout.include?(article_feedback_tag)
+
+editorial_visuals_tag = %(<script type="module" src="/assets/editorial/editorial_visuals.js" integrity="#{script_integrities.fetch('/assets/editorial/editorial_visuals.js')}"></script>)
+abort 'Editorial visuals script integrity hash is incorrect' unless guide_layout.include?(editorial_visuals_tag)
 
 site_directory = File.join(ROOT, '_site')
 

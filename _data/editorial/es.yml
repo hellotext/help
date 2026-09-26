@@ -1,0 +1,397 @@
+---
+segmentation-relevance:
+  type: messages
+  label: Dos formas de comunicar una novedad
+  title: El contexto cambia la conversación.
+  caption: 'Ejemplo ilustrativo: ambos mensajes permiten comprar desde el primer envío.
+    El segmentado muestra las Adidas Samba OG en el talle que Ana pidió, con su foto
+    y acceso directo al producto; el genérico lleva al catálogo.'
+  panels:
+  - label: Sin segmentar
+    channel: whatsapp
+    business: Luma
+    context: La misma promoción para toda la lista
+    messages:
+    - type: buttons
+      side: business
+      text: "¡Hola! Hoy tenemos 15% de descuento en toda la tienda. Aprovecha antes
+        de que termine el día."
+      time: '10:30'
+      actions:
+      - Ver ofertas
+  - label: Según su interés
+    channel: whatsapp
+    business: Luma
+    context: Solicitó un aviso para las Adidas Samba OG, talle 38
+    messages:
+    - type: image
+      side: business
+      image:
+        src: "/images/editorial/assets/homepage/figma/sales-product-samba-og.png"
+        alt: Zapatilla Adidas Samba OG blanca con franjas negras
+      text: Ana, tus Adidas Samba OG en talle 38 volvieron a estar disponibles. Elige
+        envío o retiro al comprar.
+      time: '10:30'
+      actions:
+      - Comprar en talle 38
+  id: segmentation-relevance
+segmentation-filters:
+  type: screenshot
+  label: De la idea al segmento
+  title: Define a quién le vas a escribir.
+  caption: Interfaz de ejemplo con componentes reales de Hellotext y criterios de
+    demostración. El ejemplo combina el estado de suscripción con una condición de
+    compra; los criterios se ajustan al objetivo de cada campaña.
+  image:
+    src: "/images/editorial/assets/editorial/segmentation-filters.png"
+    alt: 'Ejemplo del editor de segmentos: clientes suscritos que compraron un producto
+      durante los últimos 30 días.'
+    width: 2576
+    height: 3388
+  id: segmentation-filters
+segmentation-lifecycle:
+  type: messages
+  label: Según la relación con tu tienda
+  title: Una bienvenida y un beneficio VIP no dicen lo mismo.
+  caption: 'Ejemplos ilustrativos para una tienda de moda: la bienvenida ofrece accesos
+    al catálogo desde el primer mensaje; el cliente frecuente recibe acceso anticipado
+    y un carrusel con productos concretos. Los precios y beneficios son de demostración.'
+  panels:
+  - label: Nuevo suscriptor
+    channel: whatsapp
+    business: Luma
+    context: Se suscribió y todavía no hizo su primera compra
+    messages:
+    - type: buttons
+      side: business
+      text: "¡Bienvenida a Luma, Ana! Descubre las zapatillas y prendas que acabamos
+        de sumar. Puedes elegir envío o retiro en tienda."
+      time: '11:00'
+      actions:
+      - Ver zapatillas
+      - Ver ropa
+  - label: Cliente frecuente
+    channel: whatsapp
+    business: Luma
+    context: Ya compró varias veces y eligió recibir novedades
+    messages:
+    - type: text
+      side: business
+      text: Ana, tu acceso VIP ya está activo. Descubre estas novedades antes del
+        lanzamiento de mañana.
+      time: '11:00'
+    - type: carousel
+      label: Productos con acceso anticipado
+      products:
+      - image: "/images/editorial/assets/homepage/figma/sales-product-samba-og.png"
+        alt: Zapatilla Adidas Samba OG blanca con franjas negras
+        label: Adidas Samba OG
+        detail: Acceso VIP · talle 38 disponible
+        price: "$ 4.990"
+        actions:
+        - Ver zapatillas
+      - image: "/images/editorial/assets/homepage/figma/sales-product-oversize-tee.png"
+        alt: Camiseta de corte amplio
+        label: Camiseta oversize
+        detail: Acceso VIP · elige tu talle
+        price: "$ 1.490"
+        actions:
+        - Ver camiseta
+  id: segmentation-lifecycle
+segmentation-birthday:
+  type: messages
+  label: Un momento que sí importa
+  title: Un saludo con un motivo concreto.
+  caption: 'Ejemplo ilustrativo de una cafetería: cumpleaños y preferencia declarada
+    se combinan en un solo mensaje. Los nombres, beneficios y conversaciones son de
+    demostración.'
+  panels:
+  - label: Cumpleaños + bebida favorita
+    channel: whatsapp
+    business: Café Oliva
+    context: Cliente suscrito que indicó que prefiere el capuchino
+    messages:
+    - type: buttons
+      side: business
+      text: "¡Feliz cumpleaños, Lucía! \U0001F382 Esta semana te invitamos tu capuchino
+        favorito. Abre tu cupón y muéstralo cuando pases por Café Oliva."
+      time: '09:00'
+      actions:
+      - Ver mi cupón
+      - Cómo llegar
+    - side: customer
+      text: "¡Qué lindo detalle! Paso mañana ☕"
+      time: '09:08'
+  id: segmentation-birthday
+channel-sms:
+  type: messages
+  label: Ejemplo de SMS
+  title: Confirma el siguiente paso en una conversación breve.
+  caption: Conversación ilustrativa en una vista de Mensajes de Apple. El primer SMS
+    incluye la información de retiro, un enlace de ejemplo y la salida `BAJA para
+    salir`, sin navegación. Los nombres, el pedido y el horario son de demostración;
+    no se envían SMS.
+  panels:
+  - label: Aviso de retiro
+    channel: sms
+    business: Luma
+    messages:
+    - side: business
+      text: 'Ana, tu pedido 1042 está listo. Retíralo hoy de 10 a 19 h. Dirección
+        y detalles: example.com/retiro/1042'
+      time: '14:20'
+    - side: customer
+      text: "¡Gracias! ¿Puedo pasar mañana?"
+      time: '14:22'
+    - side: business
+      text: Claro, lo reservamos para ti. Mañana abrimos a las 10 h. BAJA para salir
+      time: '14:23'
+  id: channel-sms
+channel-instagram:
+  type: messages
+  label: Ejemplo de Instagram
+  title: Continúa la consulta donde empezó.
+  caption: Conversación ilustrativa por Instagram DM. Los nombres, el producto y la
+    disponibilidad son contenido local de demostración.
+  panels:
+  - label: Consulta por mensaje directo
+    channel: instagram
+    business: Luma
+    messages:
+    - side: customer
+      text: "¡Hola! Vi las Samba OG en su publicación \U0001F60D ¿Tienen talle 38?"
+      time: '16:12'
+    - type: image
+      side: business
+      image:
+        src: "/images/editorial/assets/homepage/figma/sales-product-samba-og.png"
+        alt: Zapatilla Adidas Samba OG blanca con franjas negras
+      text: "¡Sí, Ana! Estas Samba OG están disponibles en talle 38. Puedes comprarlas
+        aquí y elegir envío o retiro en tienda."
+      time: '16:13'
+      actions:
+      - Ver Samba OG
+  id: channel-instagram
+whatsapp-image:
+  type: messages
+  label: WhatsApp con imagen
+  title: Un mensaje con una foto del producto.
+  caption: Ejemplo ilustrativo de una foto, un mensaje breve y un acceso al producto
+    en el primer envío de WhatsApp.
+  panels:
+  - label: Foto del producto
+    channel: whatsapp
+    business: Luma
+    messages:
+    - type: image
+      side: business
+      image:
+        src: "/images/editorial/assets/homepage/figma/sales-product-samba-og.png"
+        alt: Zapatilla Adidas Samba OG de perfil
+      text: Las Samba OG ya están disponibles. Consulta los talles y elige envío o
+        retiro al comprar.
+      time: '10:30'
+      actions:
+      - Ver Samba OG
+  id: whatsapp-image
+whatsapp-buttons:
+  type: messages
+  label: WhatsApp con botones
+  title: Un mensaje con tres acciones disponibles.
+  caption: Ejemplo ilustrativo de botones de respuesta en WhatsApp. Las opciones no
+    envían mensajes.
+  panels:
+  - label: Opciones de respuesta
+    channel: whatsapp
+    business: Luma
+    messages:
+    - type: buttons
+      side: business
+      text: "¡Hola, Ana! Ya puedes explorar las novedades y ofertas de Luma, o consultar
+        tu pedido aquí."
+      time: '10:30'
+      actions:
+      - Novedades
+      - Promociones
+      - Ayuda con mi pedido
+  id: whatsapp-buttons
+whatsapp-carousel:
+  type: messages
+  label: WhatsApp con carrusel
+  title: Un carrusel para explorar productos.
+  caption: Ejemplo ilustrativo de productos en WhatsApp. Desliza el carrusel para
+    ver la siguiente opción. Los precios y las acciones son de demostración.
+  panels:
+  - label: Carrusel de productos
+    channel: whatsapp
+    business: Luma
+    messages:
+    - type: carousel
+      label: Productos recomendados
+      products:
+      - image: "/images/editorial/assets/homepage/figma/sales-product-samba-og.png"
+        alt: Zapatilla Adidas Samba OG de perfil
+        label: Adidas Samba OG
+        price: "$ 4.990"
+        actions:
+        - Ver producto
+      - image: "/images/editorial/assets/homepage/figma/sales-product-oversize-tee.png"
+        alt: Camiseta de corte amplio
+        label: Camiseta oversize
+        price: "$ 1.490"
+        actions:
+        - Ver producto
+  id: whatsapp-carousel
+whatsapp-shopping:
+  type: messages
+  label: WhatsApp con productos y botones
+  title: Una recomendación completa desde el primer envío.
+  caption: 'Ejemplo ilustrativo: la primera recomendación incluye un carrusel con
+    dos productos distintos y una acción en cada tarjeta. El texto que lo acompaña
+    no repite botones. La consulta posterior aclara el retiro; no hace falta responder
+    para explorar o comprar. Los precios y las condiciones son de demostración.'
+  panels:
+  - label: Recomendación de productos
+    channel: whatsapp
+    business: Luma
+    messages:
+    - type: text
+      side: business
+      text: Ana, tus Samba OG en talle 38 volvieron. Puedes combinarlas con esta camiseta
+        y elegir envío o retiro al comprar.
+      time: '10:30'
+    - type: carousel
+      label: Zapatillas y camiseta recomendadas
+      products:
+      - image: "/images/editorial/assets/homepage/figma/sales-product-samba-og.png"
+        alt: Zapatilla Adidas Samba OG de perfil
+        label: Adidas Samba OG
+        detail: Talle 38 disponible
+        price: "$ 4.990"
+        actions:
+        - Comprar en talle 38
+      - image: "/images/editorial/assets/homepage/figma/sales-product-oversize-tee.png"
+        alt: Camiseta de corte amplio
+        label: Camiseta oversize
+        detail: Elige tu talle
+        price: "$ 1.490"
+        actions:
+        - Ver camiseta
+    - type: text
+      side: customer
+      text: "¡Me gustan! ¿Puedo retirar hoy?"
+      time: '10:32'
+    - type: buttons
+      side: business
+      text: "¡Sí! Si compras antes de las 15 h, puedes retirar hoy. Elige retiro en
+        tienda al finalizar."
+      time: '10:33'
+      actions:
+      - Ver horarios y dirección
+  id: whatsapp-shopping
+channel-email:
+  type: messages
+  label: Ejemplo de email
+  title: Un aviso de reposición con la identidad de tu marca.
+  caption: Email ilustrativo en una vista de Apple Mail, con la identidad y los recursos
+    de Crocs usados en el home. El contenido es de demostración; no representa una
+    campaña enviada.
+  panels:
+  - label: Vuelta a stock
+    channel: email
+    business: Crocs
+    subject: "Vale, tus Crocs están de vuelta \U0001F49C"
+    headline: "¡Tu talla volvió!"
+    theme: lavender
+    logo: "/images/editorial/assets/customers/crocs.svg"
+    messages:
+    - type: text
+      side: business
+      text: Vale, tus Classic Clog malva volvieron en tu talla. ¡Son para ti!
+    - type: image
+      side: business
+      image:
+        src: "/images/editorial/assets/homepage/proposals/crocs-classic-clog-malva-ecuador-cutout.png"
+        alt: Crocs Classic Clog en color malva
+      text: Crocs Classic Clog · Malva
+    - type: buttons
+      side: business
+      actions:
+      - Comprar mis Crocs
+    - type: text
+      side: business
+      text: Te avisamos porque pediste saber cuándo volvía tu talla.
+  id: channel-email
+channel-push:
+  type: messages
+  label: Ejemplo de notificación push
+  title: Un recordatorio que aparece en el momento indicado.
+  caption: Notificación push ilustrativa con la identidad y los recursos de Funky
+    Fish usados en el home. El mensaje y el recordatorio son de demostración; no se
+    envía una notificación.
+  panels:
+  - label: Recordatorio de recompra
+    channel: push
+    business: Funky Fish
+    subject: Cami, ¿reponemos tu sérum? ✨
+    logo: "/images/editorial/assets/customers/funkyfish.svg"
+    messages:
+    - type: image
+      side: business
+      image:
+        src: "/images/editorial/assets/homepage/proposals/funkyfish-beauty-of-joseon-revive-eye-serum-cutout.png"
+        alt: Beauty of Joseon Revive Eye Serum
+      text: Tu Revive Eye Serum está por terminarse. Que no se corte tu rutina.
+      time: '09:41'
+    - type: buttons
+      side: business
+      actions:
+      - Reponer ahora
+  id: channel-push
+channel-messenger:
+  type: messages
+  label: Ejemplo de Messenger
+  title: Resuelve la consulta y ofrece un siguiente paso.
+  caption: Conversación ilustrativa de atención por Messenger. Los nombres, las condiciones
+    de entrega y las opciones son de demostración; no consultan pedidos ni envían
+    mensajes.
+  panels:
+  - label: Consulta de entrega
+    channel: messenger
+    business: Luma
+    messages:
+    - side: customer
+      text: "¡Hola! ¿Hacen envíos a domicilio?"
+      time: '11:05'
+    - type: buttons
+      side: business
+      text: "¡Hola, Ana! Sí, enviamos a todo el país. También puedes retirar en nuestra
+        tienda."
+      time: '11:06'
+      actions:
+      - Costos de envío
+      - Horarios de retiro
+  id: channel-messenger
+channel-webchat:
+  type: messages
+  label: Ejemplo de Webchat
+  title: Sigue tu pedido desde la tienda.
+  caption: Conversación ilustrativa de Webchat con la identidad de LEGO usada en el
+    home. El pedido, el seguimiento y la fecha de entrega son datos locales de demostración.
+  panels:
+  - label: Seguimiento de pedido
+    channel: webchat
+    business: LEGO
+    logo: "/images/editorial/assets/customers/lego.svg"
+    messages:
+    - side: customer
+      text: "¿Dónde está mi pedido de LEGO? \U0001F9F1"
+      time: '12:30'
+    - type: buttons
+      side: business
+      text: "Nico, tu pedido #4821 ya está en camino \U0001F4E6\nTu set LEGO llega
+        mañana. Consulta el seguimiento aquí.\n"
+      time: '12:30'
+      actions:
+      - Ver seguimiento
+  id: channel-webchat
