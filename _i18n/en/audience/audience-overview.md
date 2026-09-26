@@ -6,7 +6,7 @@ Use audience data to decide who should receive a campaign, which signals a playb
 
 A customer profile is the unified record Hellotext builds for one customer. It can include identity, channel addresses, properties, purchase history, tracked events, lists, segments, and conversation context.
 
-A subscriber is a customer profile that has opted in to receive promotional messages. Not every profile is a subscriber or can be reached through every channel.
+A subscriber is a customer profile with a recorded promotional subscription. Not every profile is subscribed, and a recorded subscription does not mean the customer is reachable through every channel.
 
 Keep reading: [Understand customer profiles]({% link _audience/customer-profiles.md %}).
 
@@ -36,26 +36,22 @@ Keep reading: [Import customer profiles]({% link _audience/import-customer-profi
 
 Use [Property Collector]({% link _captures/property-collector-playbook.md %}) when AI should collect selected missing properties directly or before another playbook continues.
 
-Use [Subscriber Booster]({% link _captures/subscriber-booster-playbook.md %}) when subscription consent and selected properties should be collected contextually within Webchat or a customer-initiated WhatsApp conversation.
+Use [Subscriber Booster]({% link _captures/subscriber-booster-playbook.md %}) when you want to request a subscription and collect configured properties that are still missing in Webchat or inbound conversations on enabled channels, such as WhatsApp, Instagram, Messenger, or SMS. Availability depends on the business's configuration.
 
 ## Use audience data across Hellotext
 
-Audience data can help you:
+If you imported event attendees and want to preserve that group, use a **list**: membership changes when someone adds or removes profiles. If you want to find people who purchased in the last 30 days, use a **segment** based on purchases: membership updates as recorded activity changes.
 
-* Target campaigns.
-* Personalize messages with profile properties.
-* Give playbooks and journeys the properties and signals they need.
-* Understand purchase behavior and product interest.
-* Give the Inbox team more context before replying.
+Both groups can provide context to campaigns, playbooks, journeys, and Inbox. Membership in a list or segment does not create consent or guarantee a usable messaging destination.
 
 ## Before using an audience
 
 Before launching a campaign or using an audience in an automation, check:
 
-* The audience matches the intended experience.
-* The profiles have the properties or activity required by the selection rules.
-* Subscription status and available channels support the intended message.
-* Exclusions are applied where needed.
+* Audience size is close to what you expect, and a few representative profiles meet the criteria.
+* The properties or activities used by the rules are present and reliable.
+* You know the source of the subscription and have confirmed that the status, destination, and channel support the intended message.
+* Exclusions remove internal, test, or unintended profiles where appropriate.
 * Personalization has a sensible result when a property is missing.
 
 ## Related guides

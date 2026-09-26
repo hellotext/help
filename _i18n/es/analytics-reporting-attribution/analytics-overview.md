@@ -24,17 +24,17 @@ Sigue leyendo: [Guía del Reporte de ingresos]({% link _analytics-reporting-attr
 
 ## Reporte de rendimiento
 
-El Reporte de rendimiento sigue las conversaciones desde su inicio hasta resultados posteriores de conversión y Derivación.
+El Reporte de rendimiento agrupa las interacciones por su fecha de inicio y muestra conversiones y Derivaciones de IA registradas posteriormente.
 
-Úsalo cuando necesites comparar tasa de conversión, tiempo de conversión, tasa de Derivación y caminos de conversión Solo IA frente a Gestionado por el equipo.
+Úsalo para revisar la tasa de conversión, el tiempo medio hasta conversión sin Derivación de IA, la tasa de Derivación y la distribución de interacciones con o sin Derivación de IA.
 
 Sigue leyendo: [Guía del Reporte de rendimiento]({% link _analytics-reporting-attribution/performance-report-guide.md %}).
 
 ## Insights de demanda
 
-Insights de demanda identifica solicitudes de producto que no pudieron satisfacerse, los productos y variantes afectados y el valor estimado de esas oportunidades perdidas.
+Insights de demanda resume ciertas interacciones finalizadas sin una conversión registrada. Muestra un recuento, una estimación de ingresos y una tasa; su tarjeta **SKUs afectados** cuenta Misiones de recomendación distintas asociadas, no productos.
 
-Úsalo cuando necesites priorizar problemas de inventario, catálogo, disponibilidad o recomendaciones alternativas a partir de la demanda observada de clientes.
+Úsalo para investigar cambios en ese recuento y su tasa. Si necesitas revisar conversiones registradas, consulta los registros de origen por separado; para problemas de inventario, catálogo o disponibilidad, revisa los datos de producto y las conversaciones.
 
 Sigue leyendo: [Guía de Insights de demanda]({% link _analytics-reporting-attribution/demand-insights-guide.md %}).
 
@@ -101,7 +101,7 @@ Al revisar el rendimiento, verifica:
 - Si el pedido contiene una fuente externa reconocida que tiene precedencia.
 - Si la responsabilidad del checkout o la participación del equipo aplicable a ese flujo afectó la decisión.
 
-Antes de comparar reportes, revisa qué fecha y qué población usa cada métrica. En el detalle de una campaña, las compras atribuidas cuentan en su fecha de compra; la etapa **Interacción** del embudo se agrupa por fecha de envío. Los resultados recientes también pueden cambiar mientras llegan eventos atrasados o sigue abierta una ventana de atribución. Si las cifras no coinciden, sigue [Integridad de datos y diferencias en reportes]({% link _analytics-reporting-attribution/data-completeness-and-reporting-gaps.md %}) antes de cambiar el tracking.
+Antes de comparar reportes, revisa qué fecha y qué población usa cada métrica. En el detalle de una campaña, las compras atribuidas cuentan en su fecha de compra; la etapa **Interacción** del embudo exige que tanto la entrega como un clic en un enlace rastreado ocurran dentro del período seleccionado. Los resultados recientes también pueden cambiar mientras llegan eventos atrasados o sigue abierta una ventana de atribución. Si las cifras no coinciden, sigue [Integridad de datos y diferencias en reportes]({% link _analytics-reporting-attribution/data-completeness-and-reporting-gaps.md %}) antes de cambiar el tracking.
 
 Si estás revisando tu primer lanzamiento, empieza por [Mide el éxito en tus primeros 7 días]({% link _getting-started/measure-success-first-7-days.md %}).
 

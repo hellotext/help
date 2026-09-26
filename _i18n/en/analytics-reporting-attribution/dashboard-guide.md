@@ -93,7 +93,7 @@ The report cards are divided into **Business Performance** and **Operations & Ex
 | --- | --- |
 | **Revenue report** | How much revenue was recorded, what was attributed to AI or the team, and which channels, playbooks, or campaigns received credit? |
 | **Performance report** | How are conversion rate, time to conversion, and escalation rate changing? |
-| **Demand insights** | Which customer requests could not be fulfilled, which products were affected, and what revenue may have been missed? |
+| **Demand insights** | How many interactions resolved by AI or teammates, or closed by automations, have no recorded conversion, and what revenue estimate does the report show? |
 | **Service quality report** | How often did AI or the team resolve conversations, meet SLA, or leave conversations unresolved? |
 | **Workload & capacity report** | How much work is assigned, handled, resolved, transferred, or active across teammates and teams? |
 
@@ -110,7 +110,7 @@ When comparing reports:
 3. Apply the same channel or source breakdown.
 4. Allow current attribution windows to close before treating recent results as final.
 
-The same outcome can appear on different dates without either report being wrong. Playbook reports assign later eligible outcomes to the original trigger date, campaign reports assign them to the original message delivery date, and Revenue uses purchase date. Conversation-performance reports follow the conversation start date. Current-state sections use the time displayed by that section.
+The same outcome can appear on different dates because each metric has its own rule. In Playbook reports, sends, deliveries, and clicks use each event's date; some revenue and conversion metrics group eligible purchases by the credited source-message date. Campaign detail counts each event on its date, including attributed purchases on purchase date. Revenue also uses purchase date; Performance groups interactions by start date. Current-state sections use their displayed time.
 
 The operations report can also contain a live operational-pressure section. A live snapshot describes the current queue and is not limited by the historical date range selected for the report.
 

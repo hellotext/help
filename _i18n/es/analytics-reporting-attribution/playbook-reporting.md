@@ -6,13 +6,13 @@ Reportar una misión no significa mirar un solo número. Revisa ingresos, rendim
 
 Empieza por el reporte que responde la pregunta que tienes.
 
-Usa el reporte de **Ingresos** cuando quieres entender ventas atribuidas, la diferencia entre campañas y misiones, y qué misiones o rutas recibieron ingresos atribuidos.
+Usa la [guía del Reporte de ingresos]({% link _analytics-reporting-attribution/revenue-report-guide.md %}) cuando quieres entender ventas atribuidas, la diferencia entre campañas y misiones, y qué misiones o rutas recibieron ingresos atribuidos.
 
-Usa el **Reporte de rendimiento** cuando quieras comparar tasa de conversión, tiempo hasta conversión y tasa de derivación entre misiones, canales, campañas, conversaciones asistidas por IA y conversaciones asistidas por personas.
+Usa la [guía del Reporte de rendimiento]({% link _analytics-reporting-attribution/performance-report-guide.md %}) para interpretar las tasas generales de conversión y Derivación y el tiempo de conversión. Sus desgloses por Misión, canal o Campaña muestran recuentos, no tasas ni tiempos promedio por categoría.
 
 Usa el **Inbox** y el historial de conversaciones cuando necesitas entender por qué una misión derivó, qué preguntó el cliente y si la derivación le dio suficiente contexto al equipo.
 
-Usa un reporte específico de la misión cuando la misión recopila su propio resultado, como reseñas de productos desde [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}), puntajes de lealtad desde [Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}) o respuestas de satisfacción desde [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}).
+Usa un reporte específico de la misión cuando esté disponible para ese tipo de misión y recopile su propio resultado, como reseñas de productos desde [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}), puntajes de lealtad desde [Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}) o respuestas de satisfacción desde [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}).
 
 Cuando revises misiones de feedback juntas, mantén separados sus resultados. Generador de Reseñas explica feedback a nivel producto, Pulso CSAT explica si una conversación resuelta funcionó y Pulso NPS explica lealtad de relación después de una experiencia de entrega.
 
@@ -20,50 +20,51 @@ Antes de comparar resultados, elige el rango de fechas correcto y confirma que l
 
 ## Entiende cómo se asignan las fechas
 
-La misma compra puede aparecer en fechas diferentes entre reportes porque cada uno responde una pregunta distinta.
+La misma compra puede aparecer en fechas diferentes entre reportes porque las métricas no usan siempre la misma fecha. Revisa el indicador concreto antes de comparar períodos:
 
-- El **reporte específico de una misión** usa la fecha en que se activó la misión. Todas las métricas, gráficos y tablas siguen las ejecuciones activadas durante el período seleccionado. La actividad posterior de los mensajes y las compras atribuidas se agregan a la fecha de activación original.
-- El **resumen de Misiones** usa la fecha de entrega del mensaje para medir resultados. Las compras elegibles posteriores permanecen asignadas a esas entregas.
+- Un **reporte específico de misión**, cuando existe, puede combinar activaciones, envíos, entregas o clics según la fecha de cada evento con ingresos o conversiones atribuidos según la fecha del mensaje de origen acreditado. Una tabla de productos también puede usar las fechas de vista y compra. No atribuyas todas sus cifras al día de activación.
+- El **resumen de Misiones** registra envíos y entregas según sus eventos. Algunas ventas elegibles se agrupan por la fecha del mensaje de origen acreditado, que puede ser anterior a la compra.
 - El **Reporte de ingresos** usa la fecha de compra. Muestra las compras completadas durante el período seleccionado e identifica la misión, campaña u otra fuente que recibió el crédito.
-- El **Reporte de rendimiento** usa la fecha de inicio de la conversación para sus resultados. La conversión, derivación y resolución posteriores permanecen asignadas a la conversación de origen.
+- El **Reporte de rendimiento** agrupa las interacciones por fecha de inicio para sus métricas principales. Una conversión o Derivación registrada después sigue a esa interacción, incluso si no tiene una conversación asociada.
 
-Por ejemplo: **Misión activada el 7 de abril → Compra el 10 de abril → Cuenta el 7 de abril en el reporte de la misión y el 10 de abril en Ingresos.**
+Por ejemplo: **Mensaje de una Misión entregado el 8 de abril → Compra el 10 de abril.** Si la compra es elegible y se acredita a ese mensaje, un indicador de ingresos agrupado por mensaje de origen puede mostrarla en el 8 de abril, mientras que **Ingresos** la cuenta el 10 de abril. El día en que se activó la Misión puede ser distinto de ambos.
 
-Las fechas de activación o entrega recientes pueden seguir creciendo mientras sus ventanas de resultados y atribución continúen abiertas. Esto no cambia a qué actividad de origen pertenece el resultado. Consulta [Atribución de ventas]({% link _analytics-reporting-attribution/sales-attribution.md %}) para conocer las reglas de elegibilidad y tiempo.
+Las cifras recientes agrupadas por mensaje de origen pueden crecer mientras las ventanas de resultados y atribución sigan abiertas. Consulta [Atribución de ventas]({% link _analytics-reporting-attribution/sales-attribution.md %}) para conocer las reglas de elegibilidad y tiempo.
 
 ## Revisa ingresos de misiones
 
 En el reporte de Ingresos, mira:
 
-- **Ingresos impulsados por IA**, la categoría del reporte que incluye ingresos vinculados mediante evidencia de campañas, rutas o misiones de IA elegibles.
-- **Ingresos impulsados por humanos**, ingresos clasificados como impulsados por humanos por el motor de atribución, junto con registros históricos elegibles.
+- **Ingresos atribuidos a la IA**, los que el motor asignó a la IA según evidencia comercial elegible, que puede incluir campañas, rutas o misiones.
+- **Ingresos clasificados como gestionados por el equipo**, los que el motor clasificó de esa forma, junto con registros históricos elegibles gestionados por personas.
 - **Ingresos totales**, todos los ingresos comerciales reportados para el período, incluidos los atribuidos y no atribuidos.
 - **Desglose por misión**, para comparar flujos por ingresos atribuidos.
 - **Campañas vs Misiones**, para comparar ventas atribuidas vinculadas con envíos puntuales y flujos siempre activos.
-- **Sección de Misiones**, para comparar ingresos, comportamiento de conversión, mensajes entregados y alcance de clientes por flujo.
+- **Sección de Misiones**, para comparar pedidos atribuidos, valor promedio del pedido atribuido e ingresos atribuidos por flujo. Consulta el reporte específico de la misión, si existe, para otras métricas.
 
 Usa reportes de ingresos para responder preguntas como:
 
 - ¿Qué misión o ruta tiene más ingresos atribuidos?
-- ¿Los ingresos vienen de misiones autónomas, conversaciones asistidas por personas o campañas?
+- ¿Qué misión, ruta o campaña recibió el crédito por cada ingreso atribuido?
+- ¿Qué ingresos atribuidos clasificó el motor como de IA o gestionados por el equipo?
 - ¿Algunos canales, audiencias o flujos rinden mejor que otros?
 - ¿La misión necesita mejores datos de producto, timing, lógica de oferta o reglas de derivación?
 
-Si una misión tiene ingresos fuertes pero muchas derivaciones humanas, igual puede ser valiosa. Revisa si esas derivaciones son esperadas, rentables y llegan a la persona o equipo correcto.
+Si una misión tiene ingresos atribuidos sólidos y, por separado, muchas Derivaciones explícitas de IA, puede seguir siendo valiosa. Revisa interacciones representativas antes de decidir si los traspasos son apropiados y llegan a la persona o equipo correcto. Los **ingresos clasificados como gestionados por el equipo** no demuestran por sí solos que hubo una Derivación.
 
 ## Revisa rendimiento y derivaciones
 
-Usa el Reporte de rendimiento para entender si una misión está sana, no solo si recibió ingresos atribuidos.
+Usa el Reporte de rendimiento para investigar las interacciones asociadas a una misión, sin confundir sus métricas generales con una tasa propia de esa misión. Las tasas principales usan todas las interacciones iniciadas en el período; el desglose por Misión muestra recuentos de resultados, no un denominador por Misión.
 
 Revisa:
 
-- **Tasa de conversión**, para comparar con qué frecuencia las conversaciones o flujos llegan al resultado esperado.
-- **Tiempo hasta conversión**, para ver cuánto tardan los clientes en convertir después de que empieza la interacción.
-- **Tasa de derivación**, para ver con qué frecuencia la misión necesita ayuda humana.
-- **Desglose por misión**, para comparar flujos lado a lado.
-- **Desglose IA vs humano**, para entender cómo influyen la automatización y la participación del equipo.
+- **Tasa de conversión**, proporción de interacciones iniciadas con una conversión registrada, que puede ser una compra atribuida o una meta cargada manualmente.
+- **Tiempo de conversión**, promedio visible entre inicio y conversión sólo para interacciones convertidas sin Derivación explícita de IA; no es el tiempo promedio de cada Misión.
+- **Tasa de Derivación**, proporción de interacciones iniciadas con una solicitud explícita de traspaso de la IA. La participación de un colaborador por sí sola no cuenta.
+- **Desglose por Misión**, recuento de interacciones convertidas o derivadas asociadas a cada flujo. Para calcular una tasa propia, necesitas además el total de interacciones iniciadas en esa categoría.
+- **Desglose IA frente a humano**, opción de **Tasa de conversión** y **Tiempo de conversión** que clasifica por asociación con Campaña o flujo de automatización y, en otros casos, por colaborador. No equivale a separar interacciones con y sin Derivación ni a la clasificación de ingresos atribuidos.
 
-Una tasa alta de derivación no siempre es mala. Puede significar que la misión está enviando correctamente a una persona conversaciones sensibles, clientes enojados, productos defectuosos o casos no resueltos. Se vuelve un problema cuando el mismo tema se deriva una y otra vez porque a la misión le falta conocimiento, contexto, permisos o un siguiente paso claro.
+Una Tasa de Derivación general alta no siempre es mala. Revisa ejemplos concretos antes de concluir que una misión está fallando: un traspaso puede ser correcto para casos sensibles o no resueltos. Si el mismo tema se deriva repetidamente por conocimiento, contexto o pasos faltantes, ajusta el flujo y vuelve a medir.
 
 ## Usa evidencia de atribución
 
@@ -73,7 +74,7 @@ Al revisar atribución, mira:
 
 - La campaña, ruta o misión conectada con la venta.
 - El canal y la fuente que influyeron en el cliente.
-- Si el reporte clasificó la interacción como impulsada por IA o por una persona y, cuando aplica una evaluación del responsable comercial, cómo afectó la participación del equipo a la decisión.
+- Si el reporte clasificó la compra atribuida como de IA o gestionada por el equipo y, cuando aplica una evaluación del responsable comercial, cómo afectó la participación del equipo a esa decisión.
 - La razón de atribución y la evidencia disponible.
 - Si hubo otro punto de contacto comercial antes de la compra.
 
@@ -103,7 +104,7 @@ Usa el patrón que ves para decidir qué revisar después.
 | Poca o ninguna actividad | Disparadores, señales, elegibilidad de audiencia, canal listo y si la misión está activa. |
 | Mensajes entregados pero pocas conversiones | Timing, oferta, claridad del mensaje, relevancia del producto y si la audiencia es demasiado amplia. |
 | Muchas conversaciones no resueltas | Prompt del agente, documentos cargados, datos de producto, políticas y reglas de derivación. |
-| Mucho ingreso impulsado por humanos | Si la derivación es esperada y si la misión debería responder más antes de derivar. |
+| Muchos ingresos clasificados como gestionados por el equipo | La evidencia de atribución y la participación comercial del equipo. Comprueba las Derivaciones por separado: esta clasificación de ingresos no prueba que la IA haya solicitado un traspaso. |
 | Ingresos atribuidos faltantes | Tracking, links, eventos de pedidos, ventanas de atribución y si una fuente externa reconocida tuvo precedencia. |
 | Muchas bajas o respuestas negativas | Calidad de audiencia, consentimiento, frecuencia, tono y relevancia de la oferta. |
 | Poca recopilación de reseñas | Señales de pedido entregado, timing de solicitud, separación entre productos, soporte del canal y si las calificaciones bajas se manejan correctamente. |

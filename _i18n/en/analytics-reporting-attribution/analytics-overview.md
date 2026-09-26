@@ -24,17 +24,17 @@ Keep reading: [Revenue report guide]({% link _analytics-reporting-attribution/re
 
 ## Performance report
 
-The Performance report follows conversations from their start through later conversion and escalation outcomes.
+The Performance report groups interactions by when they started and shows later recorded conversions and AI escalations.
 
-Use it when you need to compare conversion rate, time to conversion, escalation rate, and AI-only versus team-managed conversion paths.
+Use it to review conversion rate, average time to conversion without an AI escalation, escalation rate, and the distribution of interactions with or without an AI escalation.
 
 Keep reading: [Performance report guide]({% link _analytics-reporting-attribution/performance-report-guide.md %}).
 
 ## Demand insights
 
-Demand insights identifies product requests that could not be fulfilled, the products and variants affected, and the estimated value of those missed opportunities.
+Demand insights summarizes certain ended interactions without a recorded conversion. It shows a count, revenue estimate, and rate; its **Affected SKUs** card counts distinct associated recommending Playbooks, not products.
 
-Use it when you need to prioritize inventory, catalog, availability, or alternative-recommendation problems based on observed customer demand.
+Use it to investigate changes in that count and its rate. If you need to review recorded conversions, check the source records separately; for inventory, catalog, or availability problems, inspect product data and conversations.
 
 Keep reading: [Demand insights guide]({% link _analytics-reporting-attribution/demand-insights-guide.md %}).
 
@@ -101,7 +101,7 @@ When reviewing performance, check:
 - Whether the order contains a recognized external source that takes precedence.
 - Whether checkout ownership or path-specific team participation affected the decision.
 
-Before comparing reports, check which date and population each metric uses. In a campaign's detail report, attributed purchases count on their purchase date; the funnel's **Engaged** stage is grouped by dispatch date. Recent results can also change while late events arrive or an attribution window remains open. If the numbers do not match, follow [Data completeness and reporting gaps]({% link _analytics-reporting-attribution/data-completeness-and-reporting-gaps.md %}) before changing tracking.
+Before comparing reports, check which date and population each metric uses. In a campaign's detail report, attributed purchases count on their purchase date; the funnel's **Engaged** stage requires both delivery and a tracked link click within the selected period. Recent results can also change while late events arrive or an attribution window remains open. If the numbers do not match, follow [Data completeness and reporting gaps]({% link _analytics-reporting-attribution/data-completeness-and-reporting-gaps.md %}) before changing tracking.
 
 If you are reviewing your first launch, start with [Measure success in your first 7 days]({% link _getting-started/measure-success-first-7-days.md %}).
 

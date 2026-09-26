@@ -4,9 +4,9 @@ Usa los datos de audiencia para decidir quién debería recibir una campaña, qu
 
 ## Perfiles de clientes y suscriptores
 
-Un perfil del cliente es el registro unificado que Hellotext construye para una persona. Puede incluir identidad, direcciones de canal, propiedades, historial de compras, eventos rastreados, listas, segmentos y contexto de conversaciones.
+Un perfil de cliente es el registro unificado que Hellotext construye para una persona. Puede incluir identidad, direcciones de canal, propiedades, historial de compras, eventos rastreados, listas, segmentos y contexto de conversaciones.
 
-Un suscriptor es un perfil del cliente que aceptó recibir mensajes promocionales. No todos los perfiles son suscriptores ni se pueden contactar por todos los canales.
+Un suscriptor es un perfil de cliente con una suscripción promocional registrada. No todos los perfiles están suscritos, y una suscripción registrada no garantiza que el cliente esté disponible en todos los canales.
 
 Sigue leyendo: [Cómo funcionan los perfiles de clientes]({% link _audience/customer-profiles.md %}).
 
@@ -36,26 +36,22 @@ Sigue leyendo: [Importa perfiles de clientes]({% link _audience/import-customer-
 
 Usa [Recolector de Propiedades]({% link _captures/property-collector-playbook.md %}) cuando la IA debería recopilar propiedades faltantes seleccionadas directamente o antes de que otra misión continúe.
 
-Usa [Impulsor de Suscriptores]({% link _captures/subscriber-booster-playbook.md %}) cuando el consentimiento de suscripción y ciertas propiedades deberían recopilarse de forma contextual dentro de Webchat o una conversación iniciada por el cliente en WhatsApp.
+Usa [Impulsor de Suscriptores]({% link _captures/subscriber-booster-playbook.md %}) cuando quieras solicitar una suscripción y recopilar las propiedades configuradas que aún faltan en Webchat o en conversaciones entrantes de canales habilitados, como WhatsApp, Instagram, Messenger o SMS. La disponibilidad depende de la configuración del negocio.
 
 ## Usa datos de audiencia en Hellotext
 
-Los datos de audiencia pueden ayudarte a:
+Si importaste asistentes a un evento y quieres conservar ese grupo, usa una **lista**: su pertenencia cambia cuando alguien agrega o quita perfiles. Si quieres encontrar a quienes compraron en los últimos 30 días, usa un **segmento** basado en compras: la pertenencia se actualiza cuando cambia la actividad registrada.
 
-* Segmentar campañas.
-* Personalizar mensajes con propiedades del perfil.
-* Dar a misiones y journeys las propiedades y señales que necesitan.
-* Entender el comportamiento de compra y el interés en productos.
-* Dar más contexto al equipo de Inbox antes de responder.
+Ambos grupos pueden aportar contexto a campañas, misiones, journeys e Inbox. Pertenecer a una lista o segmento no crea consentimiento ni garantiza que haya un destino utilizable para enviar mensajes.
 
 ## Antes de usar una audiencia
 
 Antes de lanzar una campaña o usar una audiencia en una automatización, revisa:
 
-* La audiencia coincide con la experiencia prevista.
-* Los perfiles tienen las propiedades o la actividad requerida por las reglas de selección.
-* El estado de suscripción y los canales disponibles permiten el mensaje previsto.
-* Las exclusiones están aplicadas cuando corresponde.
+* El tamaño de la audiencia se aproxima a lo esperado y algunos perfiles representativos cumplen los criterios.
+* Las propiedades o actividades que usan las reglas están presentes y son confiables.
+* Conoces el origen de la suscripción y confirmaste que el estado, el destino y el canal permiten el mensaje previsto.
+* Las exclusiones dejan fuera perfiles internos, de prueba o no previstos cuando corresponde.
 * La personalización tiene un resultado adecuado cuando falta una propiedad.
 
 ## Guías relacionadas

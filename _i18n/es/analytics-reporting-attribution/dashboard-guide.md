@@ -93,7 +93,7 @@ Las tarjetas de reportes se dividen entre **Rendimiento del negocio** y **Operac
 | --- | --- |
 | **Reporte de ingresos** | ¿Cuántos ingresos se registraron, cuáles se atribuyeron a IA o al equipo y qué canales, misiones o campañas recibieron crédito? |
 | **Reporte de rendimiento** | ¿Cómo están cambiando la tasa de conversión, tiempo hasta conversión y tasa de derivación? |
-| **Insights de demanda** | ¿Qué solicitudes de clientes no pudieron resolverse, qué productos fueron afectados y cuántos ingresos podrían haberse perdido? |
+| **Insights de demanda** | ¿Cuántas interacciones resueltas por IA o colaboradores, o cerradas por automatizaciones, no tienen conversión registrada, y qué estimación de ingresos muestra el reporte? |
 | **Reporte de calidad de servicio** | ¿Con qué frecuencia la IA o el equipo resolvieron conversaciones, cumplieron el SLA o dejaron conversaciones sin resolver? |
 | **Reporte de carga y capacidad** | ¿Cuánto trabajo está asignado, manejado, resuelto, transferido o activo entre colaboradores y equipos? |
 
@@ -110,7 +110,7 @@ Al comparar reportes:
 3. Aplica el mismo desglose de canal o fuente.
 4. Espera que se cierren las ventanas de atribución actuales antes de tratar los resultados recientes como definitivos.
 
-El mismo resultado puede aparecer en fechas distintas sin que ninguno de los reportes esté equivocado. Los reportes de misiones asignan los resultados elegibles posteriores a la fecha de activación original, los reportes de campañas los asignan a la fecha de entrega original y el Reporte de ingresos usa la fecha de compra. Los reportes de rendimiento de conversaciones siguen la fecha de inicio de la conversación. Las secciones de estado actual usan el momento indicado por esa sección.
+El mismo resultado puede aparecer en fechas distintas porque cada métrica usa su propia regla. En los reportes de misiones, envíos, entregas y clics usan la fecha de cada evento; algunas métricas de ingresos y conversión agrupan compras elegibles por la fecha del mensaje de origen acreditado. El detalle de campaña cuenta cada evento en su fecha, incluidas las compras atribuidas en la fecha de compra. Ingresos también usa la fecha de compra; Rendimiento agrupa interacciones por fecha de inicio. Las secciones de estado actual usan el momento indicado.
 
 El reporte de operaciones también puede incluir una sección de presión operativa en vivo. Una instantánea en vivo describe la cola actual y no está limitada por el período histórico seleccionado para el reporte.
 
