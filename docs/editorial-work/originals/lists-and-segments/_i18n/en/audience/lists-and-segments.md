@@ -25,7 +25,7 @@ Choose a list when you need to:
 * Review a deliberately selected group before using it elsewhere.
 * Preserve membership even when a customer's properties or recent activity change.
 
-For example, a list named `Imported VIP customers` remains a record of that cohort. A dynamic definition such as "customers who purchased in the last 90 days" belongs in a segment instead.
+For example, a list named `Imported VIP customers` remains a record of that cohort. A dynamic definition such as "customers who spent more than $500 in the last 90 days" belongs in a segment instead.
 
 Keep reading: [Create and manage lists]({% link _audience/lists.md %}).
 
@@ -51,7 +51,7 @@ Keep reading: [Build segments]({% link _audience/segments.md %}).
 
 When a campaign lets you select an audience, you can include lists and segments and use other lists or segments as exclusions.
 
-For example, you could include a segment of recent purchasers and a list of event attendees, then exclude an internal test list. Inclusions are combined: a profile in both the list and the segment is counted once. If that profile also belongs to an excluded list or segment, it is removed from the audience. Review the resulting audience before sending.
+For example, you could include a segment of recent purchasers and a list of event attendees, then exclude an internal test list. Review the resulting audience before sending, especially when several inclusions or exclusions overlap.
 
 Use a list when you want to preserve a cohort. Use a segment when you want the group to keep following a rule.
 
