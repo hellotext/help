@@ -24,9 +24,9 @@ Keep reading: [Revenue report guide]({% link _analytics-reporting-attribution/re
 
 ## Performance report
 
-The Performance report groups interactions by when they started and shows later recorded conversions and AI escalations.
+The Performance report follows conversations from their start through later conversion and escalation outcomes.
 
-Use it to review conversion rate, average time to conversion without an AI escalation, escalation rate, and the distribution of interactions with or without an AI escalation.
+Use it when you need to compare conversion rate, time to conversion, escalation rate, and AI-only versus team-managed conversion paths.
 
 Keep reading: [Performance report guide]({% link _analytics-reporting-attribution/performance-report-guide.md %}).
 

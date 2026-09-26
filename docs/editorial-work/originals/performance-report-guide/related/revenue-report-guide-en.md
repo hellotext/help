@@ -6,11 +6,11 @@ Open it from the **Revenue report** card on the Dashboard. Choose a period that 
 
 The selected period is based on **purchase date**. The summary metrics, timeline, revenue breakdowns, and source tables include purchases completed during that period.
 
-Campaign detail uses each event's date. Some Playbook revenue and conversion metrics group eligible purchases by the credited source-message date. For example:
+Campaign and Playbook performance reports use a different date because they measure the activity that originated the result. For example:
 
-**Campaign message delivered June 30 → Purchase completed July 5 → The delivery counts June 30; the attributed purchase counts July 5 in both Revenue and Campaign detail.**
+**Campaign message delivered June 30 → Purchase completed July 5 → Counted on July 5 in Revenue and June 30 in Campaign performance.**
 
-Revenue answers what was purchased during the period; Campaign detail shows that campaign's events that occurred within it. Check each metric's date rule before comparing it with Revenue.
+Both reports can be correct. Revenue answers what was purchased during the period; the source report answers what later results came from the messages, triggers, or conversations that began during its period.
 
 A late order correction, cancellation, refund, replacement, or attribution update can change the value assigned to the original purchase date.
 
@@ -64,7 +64,7 @@ The Playbooks, Campaigns, and Channels sections group the attributed purchases i
 
 Use attributed orders, average attributed order value, and attributed revenue to compare the value assigned to each source. A row with no revenue does not necessarily mean that its messages failed to send: it can mean that no purchase completed during the selected period qualified for that source.
 
-For source conversion, ROI, and revenue per message, open the corresponding Campaign or Playbook report; check each metric's date basis before comparing it with Revenue.
+For source conversion, ROI, revenue per message, or later outcomes assigned back to an original message or trigger date, open the corresponding Campaign or Playbook performance report.
 
 ## Export and inspect attributed purchases
 

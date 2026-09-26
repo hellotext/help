@@ -4,10 +4,10 @@ navigation_group: business_performance
 
 en:
   title: Performance report guide
-  description: Interpret conversion and escalation rates, conversion time, breakdown counts, and duration charts.
+  description: Understand conversation conversion, time to conversion, escalation, available breakdowns, and recent results.
 es:
   title: Guía del Reporte de rendimiento
-  description: Interpreta las tasas de conversión y Derivación, el tiempo de conversión, los recuentos desglosados y los gráficos de duración.
+  description: Entiende conversión de conversaciones, tiempo de conversión, Derivación, desgloses disponibles y resultados recientes.
 
 permalink: performance-report-guide
 permalink_es: guia-reporte-rendimiento

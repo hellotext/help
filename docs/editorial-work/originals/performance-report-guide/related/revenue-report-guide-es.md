@@ -6,11 +6,11 @@ Usa el Reporte de ingresos para entender cuántos ingresos de comercio recibió 
 
 El período seleccionado se basa en la **fecha de compra**. Las métricas principales, la línea de tiempo, los desgloses de ingresos y las tablas de origen incluyen compras completadas durante ese período.
 
-El detalle de campaña usa la fecha de cada evento. Algunas métricas de ingresos y conversión de misiones agrupan compras elegibles por la fecha del mensaje de origen acreditado. Por ejemplo:
+Los reportes de rendimiento de Campañas y Misiones usan una fecha diferente porque miden la actividad que originó el resultado. Por ejemplo:
 
-**Mensaje de Campaña entregado el 30 de junio → Compra completada el 5 de julio → La entrega cuenta el 30 de junio; la compra atribuida cuenta el 5 de julio tanto en Ingresos como en el detalle de campaña.**
+**Mensaje de Campaña entregado el 30 de junio → Compra completada el 5 de julio → Cuenta el 5 de julio en Ingresos y el 30 de junio en el rendimiento de la Campaña.**
 
-Ingresos responde qué se compró durante el período; el detalle de campaña muestra los eventos de esa campaña que ocurrieron en él. Revisa la regla de fecha de cada métrica antes de compararla con Ingresos.
+Ambos reportes pueden ser correctos. Ingresos responde qué se compró durante el período; el reporte de origen responde qué resultados posteriores produjeron los mensajes, activaciones o conversaciones que comenzaron durante su período.
 
 Una corrección tardía, cancelación, reembolso, reemplazo o actualización de atribución puede cambiar el valor asignado a la fecha de compra original.
 
@@ -64,7 +64,7 @@ Las secciones Misiones, Campañas y Canales agrupan las compras atribuidas inclu
 
 Usa pedidos atribuidos, valor promedio del pedido atribuido e ingresos atribuidos para comparar el valor asignado a cada origen. Una fila sin ingresos no significa necesariamente que sus mensajes no se hayan enviado: puede indicar que ninguna compra completada durante el período seleccionado fue elegible para ese origen.
 
-Para analizar conversión, ROI e ingresos por mensaje según el origen, abre el reporte de campaña o misión correspondiente; revisa la fecha que usa cada métrica antes de compararla con Ingresos.
+Para analizar conversión, ROI, ingresos por mensaje o resultados posteriores asignados a la fecha original de un mensaje o activación, abre el reporte de rendimiento de la Campaña o Misión correspondiente.
 
 ## Exporta e inspecciona compras atribuidas
 
