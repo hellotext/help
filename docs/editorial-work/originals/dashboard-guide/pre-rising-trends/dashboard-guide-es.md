@@ -1,0 +1,205 @@
+El Dashboard ofrece una vista rápida de la actividad reciente del negocio y acceso a los reportes para analizarla en profundidad. Úsalo para detectar un cambio y luego abre el reporte correspondiente para entender su origen.
+
+El Dashboard combina cuatro áreas:
+
+- un resumen fijo de 14 días;
+- acciones registradas de clientes;
+- un calendario de campañas; y
+- reportes de rendimiento del negocio y operaciones.
+
+## Comienza por los avisos y onboarding
+
+Hellotext puede mostrar un checklist de onboarding o avisos de la cuenta antes de las métricas. Revísalos primero porque una conexión incompleta, autorización vencida de un canal o problema de la cuenta puede afectar los envíos y datos que aparecen más abajo.
+
+Completar un paso del onboarding no demuestra que se hayan importado datos históricos ni que todas las señales estén llegando. Después de conectar una fuente, verifica un cliente, evento y pedido recientes antes de depender del Dashboard.
+
+## Interpreta el resumen de 14 días
+
+Las tarjetas del resumen siempre incluyen el día actual y los 13 días anteriores. Su cambio porcentual compara ese total con el período previo de 14 días. El gráfico pequeño muestra los valores diarios dentro del período actual.
+
+Cambiar la fecha dentro de un reporte detallado no modifica estas tarjetas del Dashboard.
+
+La siguiente captura usa datos de demostración: $280 de ingresos atribuidos, 28% en el benchmark y 30 conversaciones. Las flechas comparan el período actual con los 14 días anteriores.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Tres tarjetas del resumen de 14 días con datos de demostración">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/dashboard-guide/overview-cards-es.png" width="2400" height="840" loading="lazy" decoding="async" alt="Resumen del Dashboard: Ingresos atribuidos de $280, 40% más que en el período anterior; benchmark de 28% junto a la mediana típica de aproximadamente 30%; y 30 conversaciones, 25% más que en el período anterior." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Resumen con datos de demostración. Las tarjetas de ingresos y conversaciones comparan dos períodos de 14 días; la tarjeta central sitúa el porcentaje de atribución frente al benchmark típico.</figcaption>
+</figure>
+
+### Ingresos atribuidos
+
+Los **Ingresos atribuidos** son los ingresos positivos que Hellotext vinculó con campañas, rutas, misiones o interacciones comerciales elegibles según sus reglas y ventanas de atribución.
+
+Selecciona la tarjeta para abrir el **Reporte de ingresos** y revisar el resultado en mayor detalle.
+
+Los ingresos atribuidos no son lo mismo que:
+
+- todos los ingresos registrados por la tienda conectada;
+- ingresos solamente influenciados por una interacción con el cliente; o
+- ingresos incrementales que no habrían ocurrido sin Hellotext.
+
+Consulta [Atribución de ventas]({% link _analytics-reporting-attribution/sales-attribution.md %}) para entender la evidencia, precedencia y ventanas detrás de este valor.
+
+### Benchmark de atribución de ingresos
+
+El **Benchmark de atribución de ingresos** muestra el porcentaje de los ingresos totales registrados que fue atribuido a Hellotext durante el mismo período de 14 días.
+
+El marcador representa el benchmark típico de la plataforma. Úsalo como contexto, no como un objetivo garantizado. El resultado depende del modelo del negocio, campañas y misiones activas, comportamiento de clientes, evidencia de atribución y de que Hellotext reciba todos los ingresos de pedidos.
+
+Este porcentaje puede aparecer vacío cuando Hellotext no tiene ingresos totales para el período, aunque otra integración o reporte externo contenga ventas.
+
+### Conversaciones
+
+**Conversaciones** cuenta las conversaciones iniciadas durante el período de 14 días.
+
+No representa:
+
+- la cantidad de mensajes intercambiados;
+- clientes únicos;
+- conversaciones que están esperando actualmente en el Inbox; ni
+- conversaciones resueltas por IA o el equipo.
+
+Usa los reportes de operaciones para preguntas sobre resolución, SLA, asignación y carga de trabajo.
+
+### Valores vacíos
+
+Un guion significa que Hellotext no calculó un valor positivo para esa tarjeta en el período. Si ves una curva junto al guion, es una ilustración del estado vacío: no representa actividad diaria registrada. No interpretes una tarjeta vacía como prueba de que nada ocurrió en el negocio. Confirma que los canales, tienda, eventos e identificadores correspondientes estén conectados y enviando datos.
+
+## Entiende la tabla de Acciones
+
+La tabla de **Acciones** muestra tipos con eventos registrados durante los últimos 14 días. Una acción es el tipo de actividad, como una compra, suscripción, envío de formulario, evento de conversación o acción personalizada definida por el negocio. Si hay más tipos de los que ves, selecciona **Cargar más** para mostrar las siguientes filas.
+
+| Columna | Qué muestra |
+| --- | --- |
+| **Eventos** | Cantidad de ocurrencias registradas para la acción. |
+| **Valor Promedio** | Valor monetario total registrado para la acción dividido entre sus ocurrencias. |
+| **Monto** | Valor monetario total registrado entre todas esas ocurrencias. |
+
+En el ejemplo de demostración, una visita a producto suma eventos sin dinero; una orden muestra 4 eventos, $250 de valor promedio y $1.000 de monto total.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Tabla Acciones poblada con cuatro tipos de evento de demostración">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/dashboard-guide/actions-table-es.png" width="2400" height="1000" loading="lazy" decoding="async" alt="Tabla Acciones con cuatro filas: una visita a producto sin monto, 18 agregados al carrito, 10 checkouts iniciados y 4 órdenes; las columnas muestran eventos, valor promedio y monto." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Ejemplo con datos de demostración: una visita a producto tiene eventos pero valor monetario cero, mientras que una orden muestra un promedio de $250 y un monto total de $1.000.</figcaption>
+</figure>
+
+Selecciona el encabezado de una columna para ordenar la tabla por volumen de eventos, valor promedio o monto total.
+
+No todas las acciones incluyen dinero. Una acción válida puede tener eventos aunque su valor promedio y monto estén vacíos o en cero. Si una acción personalizada debería incluir un valor, verifica que la integración envíe el monto y moneda dentro del evento en lugar de agregarlos solamente al nombre de la acción.
+
+La tabla de Acciones describe lo que recibió Hellotext. Si está vacía, las filas difuminadas son ejemplos visuales, no eventos de tu cuenta. Por sí sola, la tabla no atribuye una acción a una campaña o misión. Usa el reporte correspondiente cuando importen la fuente y atribución.
+
+## Usa el calendario de campañas
+
+El calendario organiza por semana las campañas programadas y enviadas.
+
+- Muévete entre semanas con los controles anterior y siguiente.
+- En una computadora, pasa el cursor sobre una campaña para revisar su audiencia, cantidad de destinatarios, horario programado o de envío, canales y creador.
+- Para campañas enviadas, el detalle también puede mostrar ingresos atribuidos y CTR.
+- Selecciona una campaña programada para continuar editándola o una campaña enviada para abrir sus resultados.
+
+En este ejemplo, la primera semana muestra campañas enviadas en gris con una marca de verificación. La segunda muestra campañas próximas en tarjetas de color. Mira la fecha de cada columna para ubicar los envíos; **Ver más** indica que hay otras campañas ese día.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Calendario completo de campañas de dos semanas">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/dashboard-guide/calendar-overview-es.png" width="2400" height="1608" loading="lazy" decoding="async" alt="Calendario completo del 21 de septiembre al 4 de octubre: campañas enviadas del 22 al 25 con marcas de verificación y campañas próximas del 29 de septiembre al 2 de octubre en tarjetas de color." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Calendario real de Hellotext en español con campañas de demostración enviadas y próximas distribuidas en dos semanas.</figcaption>
+</figure>
+
+El calendario contiene campañas. No es una agenda completa de todos los mensajes que podría enviar una misión, un agente de IA o una ruta.
+
+## Elige el reporte correcto
+
+Las tarjetas de reportes se dividen entre **Rendimiento del negocio** y **Operaciones & Experiencia**.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Tarjetas de reportes de rendimiento del negocio">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/dashboard-guide/reports-business-es.png" width="2400" height="960" loading="lazy" decoding="async" alt="Grupo Rendimiento del negocio con las tarjetas Reporte de ingresos, Reporte de rendimiento e Insights de demanda." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Los tres reportes de Rendimiento del negocio reúnen ingresos, conversión y señales de demanda.</figcaption>
+</figure>
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Tarjetas de reportes de operaciones y experiencia">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/dashboard-guide/reports-operations-es.png" width="2400" height="880" loading="lazy" decoding="async" alt="Grupo Operaciones y Experiencia con las tarjetas Reporte de calidad de servicio, Reporte de carga y capacidad y Reporte de rendimiento de canales." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Los tres reportes de Operaciones & Experiencia separan calidad de servicio, capacidad del equipo y rendimiento de los canales.</figcaption>
+</figure>
+
+| Reporte | Úsalo para responder |
+| --- | --- |
+| **Reporte de ingresos** | ¿Cuántos ingresos se registraron, cuáles se atribuyeron a IA o al equipo y qué canales, misiones o campañas recibieron crédito? |
+| **Reporte de rendimiento** | ¿Cómo están cambiando la tasa de conversión, tiempo hasta conversión y tasa de derivación? |
+| **Insights de demanda** | ¿Cuántas interacciones resueltas por IA o colaboradores, o cerradas por automatizaciones, no tienen conversión registrada, y qué estimación de ingresos muestra el reporte? |
+| **Reporte de calidad de servicio** | ¿Con qué frecuencia la IA o el equipo resolvieron conversaciones, cumplieron el SLA o dejaron conversaciones sin resolver? |
+| **Reporte de carga y capacidad** | ¿Cuánto trabajo está asignado, manejado, resuelto, transferido o activo entre colaboradores y equipos? |
+| **Reporte de rendimiento de canales** | ¿Cómo cambian las entregas, los costos, los fallos y la calidad de interacción en cada canal de mensajería? |
+
+Abre un reporte cuando necesites cambiar el período, seleccionar una métrica, comparar un desglose o revisar filas detalladas. Los desgloses disponibles dependen del reporte y métrica.
+
+## Cambia el período de un reporte
+
+Los reportes detallados tienen su propio selector de fechas. Las opciones habituales incluyen 7, 14 o 30 días y un rango personalizado, con más períodos disponibles dentro del selector personalizado.
+
+Al comparar reportes:
+
+1. Usa el mismo período.
+2. Revisa qué fecha usa el reporte para asignar los resultados.
+3. Aplica el mismo desglose de canal o fuente.
+4. Espera que se cierren las ventanas de atribución actuales antes de tratar los resultados recientes como definitivos.
+
+El mismo resultado puede aparecer en fechas distintas porque cada métrica usa su propia regla. En los reportes de misiones, envíos, entregas y clics usan la fecha de cada evento; algunas métricas de ingresos y conversión agrupan compras elegibles por la fecha del mensaje de origen acreditado. El detalle de campaña cuenta cada evento en su fecha, incluidas las compras atribuidas en la fecha de compra. Ingresos también usa la fecha de compra; Rendimiento agrupa interacciones por fecha de inicio. Las secciones de estado actual usan el momento indicado.
+
+El reporte de operaciones también puede incluir una sección de presión operativa en vivo. Una instantánea en vivo describe la cola actual y no está limitada por el período histórico seleccionado para el reporte.
+
+## Una rutina práctica de revisión
+
+Para una revisión habitual del negocio:
+
+1. Resuelve los avisos de cuenta o integraciones que aparecen al principio.
+2. Revisa la dirección de los ingresos atribuidos y conversaciones durante 14 días.
+3. Usa el benchmark para entender los ingresos atribuidos como proporción de los ingresos totales registrados.
+4. Revisa Acciones para detectar caídas, aumentos o valores monetarios faltantes inesperados.
+5. Consulta el calendario de campañas para revisar próximos envíos y resultados recientes.
+6. Abre el reporte que responda la pregunta específica en lugar de comparar métricas principales que miden cosas diferentes.
+
+Por ejemplo, un aumento de conversaciones con ingresos atribuidos estables no explica la causa. Abre **Rendimiento** para revisar conversión y derivación, **Calidad de servicio** para analizar resolución e **Ingresos** para revisar las fuentes de atribución.
+
+## Soluciona datos faltantes o inesperados
+
+Si el Dashboard parece incompleto:
+
+- Confirma la zona horaria del negocio y usuario antes de comparar días.
+- Verifica que la tienda o sistema externo continúe conectado.
+- Comprueba que perfiles, pedidos, conversaciones y eventos recientes aparezcan en Hellotext.
+- Confirma que los identificadores de clientes y pedidos permitan vincular la actividad con el perfil correcto.
+- Revisa si una fuente externa tuvo precedencia sobre la atribución de Hellotext.
+- Asegúrate de comparar los 14 días fijos del Dashboard con el mismo período dentro del reporte detallado.
+
+Los resultados recientes pueden cambiar mientras la atribución siga abierta o lleguen datos atrasados. Si falta el evento de origen, comienza con [Soluciona señales o actividad faltante]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %}).
+
+## Guías relacionadas
+
+- [Resumen de analítica, reportes y atribución]({% link _analytics-reporting-attribution/analytics-overview.md %})
+- [Atribución de ventas]({% link _analytics-reporting-attribution/sales-attribution.md %})
+- [Reportes de misiones]({% link _analytics-reporting-attribution/playbook-reporting.md %})
+- [Reportes de campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %})
+- [Guía del Reporte de rendimiento]({% link _analytics-reporting-attribution/performance-report-guide.md %})
+- [Guía de Insights de demanda]({% link _analytics-reporting-attribution/demand-insights-guide.md %})
+- [Guía del Reporte de carga y capacidad]({% link _analytics-reporting-attribution/workload-capacity-report-guide.md %})
+- [Cómo interpretar los tiempos de respuesta]({% link _team/understanding-response-times.md %})
+- [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
