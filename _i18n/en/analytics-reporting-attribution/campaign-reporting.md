@@ -10,8 +10,8 @@ The report opens with **First 14 days** selected. You can switch to the first 7 
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 1000px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile.png" width="754" height="560" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/summary-period-en.png" width="3090" height="1050" loading="lazy" decoding="async" alt="Demo report with 14 days selected and the Attributed revenue, Average ROI, Conversion, and Revenue/message summary metrics. On mobile, the first card and the arrow for the others are visible." />
+        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile.png" width="746" height="580" />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/summary-period-en.png" width="2460" height="580" loading="lazy" decoding="async" alt="Demo report with 14 days selected and the Attributed revenue, Average ROI, Conversion, and Revenue/message summary metrics. On mobile, the first card and the arrow for the others are visible." />
       </picture>
     </div>
   </div>
@@ -37,6 +37,18 @@ The four summary cards answer different questions:
 
 Select a card to update the chart and see how that metric changed over time. Conversion is based on attributed purchases and delivered messages; it is not the percentage of people who clicked and then purchased.
 
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Selected card and campaign metric over time">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 740px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-en-mobile.png" width="740" height="1250" />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-en.png" width="1560" height="1180" loading="lazy" decoding="async" alt="A selected summary card and its chart showing how that campaign metric changes across the chosen reporting period." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Chart from the real English interface with demonstration data.</figcaption>
+</figure>
+
 ## Follow the delivery funnel
 
 The **Campaign delivery funnel** moves through four stages:
@@ -47,6 +59,18 @@ The **Campaign delivery funnel** moves through four stages:
 * **Conversion:** purchases attributed to the campaign that happened during the period. Its percentage uses attributed purchases divided by delivered messages, matching the summary conversion metric.
 
 The funnel combines stages counted by event date with engagement grouped by dispatch date. In a short range, its stages may not represent the same cohort of messages. Use it to spot possible problems: a large gap between sent and delivered can signal delivery or contactability issues; strong delivery with little engagement calls for reviewing the audience, message, and call to action.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Campaign delivery funnel stages">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 740px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-en-mobile.png" width="740" height="860" />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-en.png" width="1560" height="860" loading="lazy" decoding="async" alt="Delivery funnel with Sent, Delivered, Engaged, and Conversion stages and their percentages in a demonstration report." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Funnel from the real English interface with demonstration data.</figcaption>
+</figure>
 
 ## Compare campaign messages
 
@@ -61,17 +85,65 @@ The **Messages** section shows the date and preview of each campaign message, fo
 
 This lets you compare the actual messages without mixing click performance with purchase performance. A message can have a healthy CTR but a weaker conversion rate if customers click without completing a purchase.
 
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Campaign message metrics">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 600px; margin: 0 auto;">
+      <picture style="width: calc(100% - 10px); display: block; margin: 0 auto;">
+        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/message-comparison-en-mobile.png" width="628" height="890" />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/message-comparison-en.png" width="1200" height="1060" loading="lazy" decoding="async" alt="A demonstration message row with its preview and delivery, CTR, ROI, conversion, and revenue metrics; the mobile crop focuses on the metrics." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Demonstration message row in the real interface; the mobile image focuses on its metrics.</figcaption>
+</figure>
+
 ## Understand time to conversion
 
 **Time to conversion** groups attributed sales made during the selected period by how long they took after the campaign started, using ranges such as the same day, 1–3 days, 4–7 days, and later periods.
 
 A sale can happen days after delivery and appear if its purchase date falls within the selected period and it belongs to the campaign under the applicable attribution rules.
 
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Time to conversion distribution">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 610px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-en-mobile.png" width="740" height="800" />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-en.png" width="1220" height="780" loading="lazy" decoding="async" alt="Time to conversion chart distributing attributed purchases across the same day, following days, and later periods." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Distribution from the real English interface with demonstration data.</figcaption>
+</figure>
+
 ## Compare revenue by channel and segment
 
 **Attributed revenue by channel** shows how attributed revenue is distributed across the available messaging channels. Use it to see which channel contributed more revenue, not just which one delivered more messages.
 
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Attributed revenue by channel">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 710px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-channel-en-mobile.png" width="740" height="720" />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-channel-en.png" width="1420" height="650" loading="lazy" decoding="async" alt="Comparison of revenue attributed to WhatsApp and SMS in a campaign report with demonstration data." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Channel breakdown from the real English interface with demonstration data.</figcaption>
+</figure>
+
 **Attributed revenue by segment** shows the distribution across customer segments when segment data is available. A customer can belong to multiple segments, so their percentages can overlap and need not add up to 100%. Treat small samples carefully before applying the result to a future audience.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Attributed revenue by segment">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 740px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-segment-en-mobile.png" width="740" height="560" />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-segment-en.png" width="1572" height="520" loading="lazy" decoding="async" alt="Breakdown of attributed revenue across demonstration segments whose percentages may overlap." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Segment breakdown from the real English interface with demonstration data.</figcaption>
+</figure>
 
 ## Review recent activity
 

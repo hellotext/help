@@ -2,22 +2,105 @@
   "article_source": "_i18n/en/analytics-reporting-attribution/campaign-reporting.md",
   "public_url": "https://help.hellotext.com/campaign-reporting",
   "locale": "en",
-  "step_and_target_control": "Choose the reporting period: First 14 days and the four summary metric cards",
+  "section_and_reader_task": "Choose the reporting period; First 14 days selector and summary cards",
+  "step_and_target_control": "Choose the reporting period; First 14 days selector and summary cards",
   "capture_date": "2026-09-26 UTC",
-  "capture_tool": "macOS ScreenCaptureKit exact-window helper docs/editorial-work/capture-tools/hellotext_capture_editor.swift; sourceRect, native 2x output, --hide-cursor, ImageIO PNG with Display P3 ICC",
-  "source_route_and_state": "Isolated local Rails demo at http://127.0.0.1:3190/hellotext/campaigns/<synthetic-demo-id>; db/seeds/local/campaign_report_showcase.rb; English UI, First 14 days selected, summary cards visible, Chrome zoom 150%",
+  "capture_tool": "macOS ScreenCaptureKit exact-window helper (docs/editorial-work/capture-tools/hellotext_capture_editor.swift); system cursor hidden; ImageIO native 2x PNG with embedded Display P3 ICC",
+  "source_route_and_state": "Isolated local Rails snapshot 449d6ccc46 at http://127.0.0.1:3190/hellotext/campaigns/<synthetic-demo-id>, database hellotext_editorial_capture_20260926; synthetic campaign report, en UI, first 14 days selected; no campaign was sent.",
+  "fixture_data": {
+    "sent_messages": 5400,
+    "delivered_messages": 5133,
+    "tracked_clicks": 1032,
+    "attributed_purchases": 321,
+    "attributed_revenue_usd": 1872,
+    "funnel_percentages": {
+      "sent": 100,
+      "delivered": 95.1,
+      "engagement": 28,
+      "conversion": 6.3
+    },
+    "time_to_conversion_percentages": [
+      9,
+      47,
+      19,
+      25,
+      0
+    ],
+    "channel_revenue_percentages": {
+      "whatsapp": 60,
+      "sms": 40
+    },
+    "segment_revenue_percentages": {
+      "vip": 60,
+      "q2_2026": 50
+    },
+    "segment_note": "The two synthetic memberships overlap; shares need not sum to 100%."
+  },
   "demonstration_data_verified": true,
+  "privacy_check": "Exact crop contains only the isolated synthetic report; no contact identifiers, private activity, conversations, or other customer records.",
+  "native_window": {
+    "id": 26501,
+    "title": "Campaign Report Image Preview | Hellotext",
+    "frame_points": {
+      "x": 22,
+      "y": 61,
+      "width": 1635,
+      "height": 996
+    }
+  },
+  "sourceRect": {
+    "x": 152,
+    "y": 503,
+    "width": 1230,
+    "height": 290,
+    "unit": "global screen points"
+  },
   "original_file": "docs/editorial-work/captures/campaign-reporting/summary-period-en-desktop-original.png",
   "published_derivative": "images/analytics-reporting-attribution/campaign-reporting/summary-period-en.png",
-  "logical_viewport": { "width": 1090, "height": 546, "browser_zoom": "150%", "native_window_points": { "x": 22, "y": 61, "width": 1635, "height": 996 } },
-  "source_pixels": { "width": 3090, "height": 1050 },
-  "max_display_css_pixels": { "width": 1000, "height": 340 },
-  "actual_file_format": "PNG, native 2x capture; published file is a byte-identical copy",
-  "icc_profile_and_verification": "Display P3 embedded ICC verified with file and sips; original and published SHA-256 8b7b5e4644f0d398bf1c43e291f68ad628a8a8143a03ee06d865df0ad7fe94b2",
-  "native_color_provenance": "A native 16x16 Display P3 PNG probe on the same 2x monitor was verified before capture. ScreenCaptureKit captured window ID 26253 titled Campaign Report Image Preview | Hellotext at global sourceRect x=68, y=400, width=1545, height=525 points into 3090x1050 pixels. The helper wrote a native Display P3 PNG directly, without a full-window intermediate, resampling, JPEG conversion, or profile reassignment.",
+  "logical_viewport": {
+    "width": null,
+    "height": null,
+    "browser_zoom": "100%",
+    "note": "Exact logical Chrome viewport not retained; exact sourceRect and native output were verified."
+  },
+  "source_pixels": {
+    "width": 2460,
+    "height": 580
+  },
+  "max_display_css_pixels": {
+    "width": 608.8125,
+    "height": 143.54,
+    "basis": "measured in built en article at 1280x900 desktop viewport"
+  },
+  "original_sha256": "8e3288951ba8be5059907baac93d70e70706f9183bd1920f1555d203fd186f58",
+  "published_derivative_sha256": "8e3288951ba8be5059907baac93d70e70706f9183bd1920f1555d203fd186f58",
+  "actual_file_format": "PNG, 8-bit RGBA, native 2x ScreenCaptureKit crop; static asset is a byte-identical copy",
+  "icc_profile_and_verification": "Display P3 embedded ICC verified with sips; native PNG signature and 2460x580 IHDR checked; original and static asset SHA-256 8e3288951ba8be5059907baac93d70e70706f9183bd1920f1555d203fd186f58",
+  "native_color_provenance": "Exact Chrome window ID 26501 titled Campaign Report Image Preview | Hellotext; sourceRect 152,503,1230,290 global points; direct native 2x Display P3 PNG, no JPEG conversion, resampling, profile reassignment, or full-window intermediate.",
   "transformations": [],
-  "pointer": { "kind": "hidden by capture helper", "target": "First 14 days period selector", "coordinates": null },
-  "verification": { "density": "passed: 3090 source pixels / 1000 planned maximum CSS pixels = 3.09x; rendered at 608.8 CSS pixels on desktop = 5.08x", "desktop": "passed: English static figure visually inspected at 1280px viewport; no overflow, image link, button, or tabindex", "mobile": "passed: at 390px viewport the locale-matched mobile companion was selected and visually inspected at 316 CSS pixels, without overflow or interactive image control", "served_asset": "passed: yarn build succeeded; source, built, and locally served PNG bytes match, retaining Display P3" },
-  "limitations": ["The demonstration fixture does not seed engagement rollups, so the funnel is outside this crop."],
-  "status": "verified_in_local_article_not_published"
+  "pointer": {
+    "kind": "none",
+    "system_cursor": "hidden by native helper",
+    "automation_pointer": "moved outside the sourceRect before capture",
+    "target": null,
+    "coordinates": null
+  },
+  "verification": {
+    "file": "passed: PNG signature, native dimensions, and embedded Display P3 profile",
+    "source_asset": "passed: original and static image bytes match SHA-256",
+    "density": "passed: source width 2460 px / rendered width 608.8125 CSS px = 4.041x",
+    "desktop": "passed: complete ES and EN articles inspected at 1280x900; all 7 localized figures load, no linked image controls or horizontal overflow",
+    "mobile": "passed: complete ES and EN articles inspected at 390x844; all 7 localized mobile figures load, no linked image controls or horizontal overflow",
+    "served_asset": "passed: original, static, built-site, and local HTTP-served bytes match; bilingual build and security-header check passed"
+  },
+  "public_verification": null,
+  "limitations": [],
+  "status": "verified_local",
+  "supersedes": {
+    "previous_capture_sha256": "8b7b5e4644f0d398bf1c43e291f68ad628a8a8143a03ee06d865df0ad7fe94b2",
+    "previous_status_as_recorded": "verified_in_local_article_not_published",
+    "previous_public_verification": null,
+    "earlier_replacement_history": null,
+    "reason": "Recaptured the first 14 days summary using the extended isolated fixture so the card values agree with the charts and other widgets in the article."
+  }
 }
