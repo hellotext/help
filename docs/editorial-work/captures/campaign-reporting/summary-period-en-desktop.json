@@ -93,9 +93,18 @@
     "mobile": "passed: complete ES and EN articles inspected at 390x844; all 7 localized mobile figures load, no linked image controls or horizontal overflow",
     "served_asset": "passed: original, static, built-site, and local HTTP-served bytes match; bilingual build and security-header check passed"
   },
-  "public_verification": null,
+  "public_verification": {
+    "checked_at": "2026-09-26 05:41 UTC",
+    "pull_request": "https://github.com/hellotext/help/pull/84",
+    "merged_help_commit": "6d6caa1835c969dd377739de8fab583928f8dda9",
+    "spanish_page": "https://help.hellotext.com/es/reportes-de-campaña (HTTP 200; seven localized figures)",
+    "english_page": "https://help.hellotext.com/campaign-reporting (HTTP 200; seven localized figures)",
+    "asset_url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/summary-period-en.png",
+    "asset_sha256": "8e3288951ba8be5059907baac93d70e70706f9183bd1920f1555d203fd186f58",
+    "status": "passed: public asset HTTP 200 and SHA-256 matches local verified original"
+  },
   "limitations": [],
-  "status": "verified_local",
+  "status": "verified_public",
   "supersedes": {
     "previous_capture_sha256": "8b7b5e4644f0d398bf1c43e291f68ad628a8a8143a03ee06d865df0ad7fe94b2",
     "previous_status_as_recorded": "verified_in_local_article_not_published",
