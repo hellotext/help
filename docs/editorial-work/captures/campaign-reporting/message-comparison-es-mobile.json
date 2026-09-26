@@ -5,8 +5,8 @@
   "section_and_reader_task": "Compara los mensajes de la campaña; vista previa y métricas de un mensaje sintético",
   "step_and_target_control": "Compara los mensajes de la campaña; vista previa y métricas de un mensaje sintético",
   "capture_date": "2026-09-26 UTC",
-  "capture_tool": "macOS ScreenCaptureKit exact-window helper (docs/editorial-work/capture-tools/hellotext_capture_editor.swift); system cursor hidden; ImageIO native 2x PNG with embedded Display P3 ICC",
-  "source_route_and_state": "Isolated local Rails snapshot 449d6ccc46 at http://127.0.0.1:3190/hellotext/campaigns/<synthetic-demo-id>, database hellotext_editorial_capture_20260926; synthetic campaign report, es UI, first 14 days selected; no campaign was sent.",
+  "capture_tool": "macOS ScreenCaptureKit exact-window draft helper derived from docs/editorial-work/capture-tools/hellotext_capture_editor.swift; cursor capture enabled but no pointer visible in saved crop; ImageIO native 2x PNG with embedded Display P3 ICC",
+  "source_route_and_state": "Isolated local Rails snapshot 449d6ccc46 at http://127.0.0.1:3190/hellotext/campaigns/4ONLdN32, database hellotext_editorial_capture_20260926; synthetic campaign report, es UI, first 14 days selected; no campaign or message was sent.",
   "fixture_data": {
     "sent_messages": 5400,
     "delivered_messages": 5133,
@@ -34,7 +34,26 @@
       "vip": 60,
       "q2_2026": 50
     },
-    "segment_note": "The two synthetic memberships overlap; shares need not sum to 100%."
+    "segment_note": "The two synthetic memberships overlap; shares need not sum to 100%.",
+    "daily_attributed_revenue_usd_apr19_to_may2": [
+      260,
+      245,
+      225,
+      210,
+      190,
+      175,
+      160,
+      120,
+      95,
+      75,
+      50,
+      30,
+      22,
+      15
+    ],
+    "first_seven_days_revenue_usd": 1465,
+    "product_image": "repo-owned Rails demo asset app/assets/images/products/use-cases/sneakers.jpg attached only to isolated synthetic campaign template 265",
+    "message_cta": "Ver colección"
   },
   "demonstration_data_verified": true,
   "privacy_check": "Exact crop contains only the isolated synthetic report; no contact identifiers, private activity, conversations, or other customer records.",
@@ -42,57 +61,60 @@
     "id": 26501,
     "title": "Campaign Report Image Preview | Hellotext",
     "frame_points": {
-      "x": 22,
-      "y": 61,
-      "width": 1635,
-      "height": 996
+      "x": -1253,
+      "y": 30,
+      "width": 1253,
+      "height": 955
     }
   },
   "sourceRect": {
-    "x": 494,
-    "y": 394,
-    "width": 314,
-    "height": 445,
+    "x": -1239,
+    "y": 216,
+    "width": 572,
+    "height": 532,
     "unit": "global screen points"
   },
   "original_file": "docs/editorial-work/captures/campaign-reporting/message-comparison-es-mobile-original.png",
   "published_derivative": "images/analytics-reporting-attribution/campaign-reporting/message-comparison-es-mobile.png",
   "logical_viewport": {
-    "width": 390,
-    "height": 800,
+    "width": 600,
+    "height": 812,
     "browser_zoom": "100%"
   },
   "source_pixels": {
-    "width": 628,
-    "height": 890
+    "width": 1144,
+    "height": 1064
   },
   "max_display_css_pixels": {
-    "width": 306.0,
-    "height": 433.66,
-    "basis": "measured in built es article at 390x844 mobile viewport"
+    "width": 491,
+    "basis": "measured 491px image width at 599px Help viewport"
   },
-  "original_sha256": "8eb4d095e1e876cbaabbc8090f9b8ca472b5bd8c9457a952e72cc8d6b10804e1",
-  "published_derivative_sha256": "8eb4d095e1e876cbaabbc8090f9b8ca472b5bd8c9457a952e72cc8d6b10804e1",
+  "original_sha256": "2ec50f305048779745120e6960d9d5005e08085a2258a030f33cdead74f05ae5",
+  "published_derivative_sha256": "2ec50f305048779745120e6960d9d5005e08085a2258a030f33cdead74f05ae5",
   "actual_file_format": "PNG, 8-bit RGBA, native 2x ScreenCaptureKit crop; static asset is a byte-identical copy",
-  "icc_profile_and_verification": "Display P3 embedded ICC verified with sips; native PNG signature and 628x890 IHDR checked; original and static asset SHA-256 8eb4d095e1e876cbaabbc8090f9b8ca472b5bd8c9457a952e72cc8d6b10804e1",
-  "native_color_provenance": "Exact Chrome window ID 26501 titled Campaign Report Image Preview | Hellotext; sourceRect 494,394,314,445 global points; direct native 2x Display P3 PNG, no JPEG conversion, resampling, profile reassignment, or full-window intermediate.",
+  "icc_profile_and_verification": "Display P3 embedded ICC verified with sips; native PNG signature and 1144x1064 IHDR checked; original and static asset SHA-256 2ec50f305048779745120e6960d9d5005e08085a2258a030f33cdead74f05ae5",
+  "native_color_provenance": "Exact Chrome window ID 26501 titled Campaign Report Image Preview | Hellotext; sourceRect -1239,216,572,532 global points on P3 display; direct native 2x Display P3 PNG, no JPEG conversion, resampling, profile reassignment, or full-window intermediate.",
   "transformations": [],
   "pointer": {
     "kind": "none",
-    "system_cursor": "hidden by native helper",
-    "automation_pointer": "moved outside the sourceRect before capture",
+    "system_cursor": "capture enabled in draft helper configuration; no pointer visible in saved crop",
+    "automation_pointer": "outside sourceRect before capture; saved pixels visually checked",
     "target": null,
     "coordinates": null
   },
   "verification": {
-    "file": "passed: PNG signature, native dimensions, and embedded Display P3 profile",
-    "source_asset": "passed: original and static image bytes match SHA-256",
-    "density": "passed: source width 628 px / rendered width 306.0 CSS px = 2.052x",
-    "desktop": "passed: complete ES and EN articles inspected at 1280x900; all 7 localized figures load, no linked image controls or horizontal overflow",
-    "mobile": "passed: complete ES and EN articles inspected at 390x844; all 7 localized mobile figures load, no linked image controls or horizontal overflow",
-    "served_asset": "passed: original, static, built-site, and local HTTP-served bytes match; bilingual build and security-header check passed"
+    "file": "passed: PNG signature, native 2x dimensions, embedded Display P3 ICC",
+    "source_asset": "passed: original and static asset bytes match SHA-256",
+    "desktop": "passed: full ES/EN article visually reviewed at 1440x900; all seven figures loaded; chart and message are complete and legible with no horizontal overflow or image links",
+    "mobile": "passed: full ES/EN article visually reviewed at 375x812; all seven figures loaded; chart/message reviewed at 599px breakpoint with no horizontal overflow",
+    "served_asset": "passed: bilingual Jekyll production build and local HTTP 200; served, built, derivative and original PNG bytes match SHA-256",
+    "capture_visual": "passed: localized interface content and absence of visible pointer and private data checked in saved pixels"
   },
-  "public_verification": {
+  "limitations": [
+    "The authentic 600px responsive Rails layout stacks KPI values beside the product preview; the desktop companion aligns them in one horizontal row."
+  ],
+  "status": "locally_verified_pending_merge",
+  "superseded_public_verification": {
     "checked_at": "2026-09-26 05:41 UTC",
     "pull_request": "https://github.com/hellotext/help/pull/84",
     "merged_help_commit": "6d6caa1835c969dd377739de8fab583928f8dda9",
@@ -102,8 +124,7 @@
     "asset_sha256": "8eb4d095e1e876cbaabbc8090f9b8ca472b5bd8c9457a952e72cc8d6b10804e1",
     "status": "passed: public asset HTTP 200 and SHA-256 matches local verified original"
   },
-  "limitations": [
-    "The narrow crop focuses on metrics because the responsive message preview and labels overlap in the live interface; the desktop companion shows the preview."
-  ],
-  "status": "verified_public"
+  "public_verification": {
+    "status": "pending_merge_and_public_verification"
+  }
 }

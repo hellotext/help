@@ -39,14 +39,14 @@ Selecciona una tarjeta para actualizar el gráfico y ver cómo cambió esa métr
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Tarjeta seleccionada y evolución de una métrica de campaña">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 1000px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 740px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-es-mobile.png" width="1166" height="1188" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-es.png" width="2394" height="1270" loading="lazy" decoding="async" alt="Tarjeta de ingresos atribuidos seleccionada y curva descendente de ingresos diarios; en escritorio se ven las cuatro tarjetas del resumen." />
+        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-es-mobile.png" width="750" height="1250" />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-es.png" width="1560" height="1180" loading="lazy" decoding="async" alt="Una tarjeta del resumen seleccionada y su gráfico, que muestra cómo cambia la métrica a lo largo del período elegido." />
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Ingresos diarios de demostración que disminuyen gradualmente después del lanzamiento; en escritorio se muestran los cuatro indicadores.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Gráfico de la interfaz real en español con datos de demostración.</figcaption>
 </figure>
 
 ## Sigue el embudo de entrega
@@ -87,14 +87,14 @@ Esto permite comparar los mensajes reales sin mezclar el rendimiento de los clic
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Métricas de un mensaje de campaña">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 1000px; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/message-comparison-es-mobile.png" width="1144" height="1064" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/message-comparison-es.png" width="2520" height="1370" loading="lazy" decoding="async" alt="Vista previa de un mensaje de demostración con foto de un producto y seis indicadores de entrega, clics, retorno, conversión e ingresos; en escritorio se alinean horizontalmente." />
+    <div class="ht-editorial-visual__image-frame" style="max-width: 600px; margin: 0 auto;">
+      <picture style="width: calc(100% - 10px); display: block; margin: 0 auto;">
+        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/message-comparison-es-mobile.png" width="628" height="890" />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/message-comparison-es.png" width="1200" height="1060" loading="lazy" decoding="async" alt="Fila de un mensaje de demostración con su vista previa y métricas de entrega, CTR, ROI, conversión e ingresos; en móvil se resaltan las métricas." />
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Mensaje de demostración con imagen de producto y seis indicadores; en escritorio aparecen en una fila y en móvil junto a la vista previa.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Fila de un mensaje de demostración en la interfaz real; la imagen móvil se concentra en sus métricas.</figcaption>
 </figure>
 
 ## Entiende el tiempo de conversión

@@ -39,14 +39,14 @@ Select a card to update the chart and see how that metric changed over time. Con
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Selected card and campaign metric over time">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 1000px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 740px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-en-mobile.png" width="1166" height="1188" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-en.png" width="2394" height="1270" loading="lazy" decoding="async" alt="Selected attributed revenue card and a descending daily revenue curve; desktop also shows all four campaign summary cards." />
+        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-en-mobile.png" width="740" height="1250" />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-en.png" width="1560" height="1180" loading="lazy" decoding="async" alt="A selected summary card and its chart showing how that campaign metric changes across the chosen reporting period." />
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Demonstration daily revenue tapers gradually after launch; all four metrics appear together on desktop.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Chart from the real English interface with demonstration data.</figcaption>
 </figure>
 
 ## Follow the delivery funnel
@@ -87,14 +87,14 @@ This lets you compare the actual messages without mixing click performance with 
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Campaign message metrics">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 1000px; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/message-comparison-en-mobile.png" width="1144" height="1064" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/message-comparison-en.png" width="2520" height="1370" loading="lazy" decoding="async" alt="Demonstration message preview with a product photo and six delivery, click, return, conversion, and revenue metrics arranged horizontally on desktop." />
+    <div class="ht-editorial-visual__image-frame" style="max-width: 600px; margin: 0 auto;">
+      <picture style="width: calc(100% - 10px); display: block; margin: 0 auto;">
+        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/message-comparison-en-mobile.png" width="628" height="890" />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/message-comparison-en.png" width="1200" height="1060" loading="lazy" decoding="async" alt="A demonstration message row with its preview and delivery, CTR, ROI, conversion, and revenue metrics; the mobile crop focuses on the metrics." />
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Demonstration message with a product image and six metrics; they form one row on desktop and sit beside the preview on mobile.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Demonstration message row in the real interface; the mobile image focuses on its metrics.</figcaption>
 </figure>
 
 ## Understand time to conversion
