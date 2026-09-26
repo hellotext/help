@@ -7,7 +7,7 @@ en:
   description: Review revenue, performance, attribution, and handoff signals for playbooks, AI agents, and routes.
 es:
   title: Reportes de misiones
-  description: Revisa ingresos, rendimiento, atribución y derivaciones de misiones, agentes de IA y rutas.
+  description: Revisa ingresos, performance, atribución y derivaciones de misiones, agentes de IA y rutas.
 
 permalink: playbook-reporting
 permalink_es: reportes-de-misiones
