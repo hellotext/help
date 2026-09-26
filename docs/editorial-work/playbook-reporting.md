@@ -35,4 +35,8 @@ The reader chooses the report that answers a Playbook question, reconciles date 
 
 ## Current checkpoint
 
-The bilingual article is locally verified and committed. PR checks, review, merge, normal Netlify deployment, and public ES/EN verification remain pending. No publication action has occurred in this batch.
+The bilingual article is locally verified, committed, and publicly verified. `progress.csv` records seven locally verified pairs, 146 pending pairs, and one redirect outside scope. Dashboard remains pending its complete bilingual editorial review; its prepared capture plan also awaits a safe native screenshot. Another viable article can proceed while that capture is blocked.
+
+## Public verification (2026-09-26)
+
+Help [PR 92](https://github.com/hellotext/help/pull/92) merged the three individual commits with merge commit `ec1b877d07d99d9bf76fad191575cd64fd113726` at 09:47 UTC. Its Build, Aikido Security, Netlify preview, and header checks passed; the Codex review finished without findings. The [main Build run](https://github.com/hellotext/help/actions/runs/36233836767) passed after merge. At 09:48 UTC, Netlify served the [Spanish guide](https://help.hellotext.com/es/reportes-de-misiones) and [English guide](https://help.hellotext.com/playbook-reporting) with HTTP 200 and the corrected date example and team-managed revenue wording. The normal deployment served the changes; no manual deployment occurred. `progress.csv` continues to record local editorial verification separately from the public check.
