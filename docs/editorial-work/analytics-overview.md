@@ -35,3 +35,7 @@ The correction was made in both locales. The production build and security-heade
 ## Funnel correction public verification (2026-09-26)
 
 Help [PR 86](https://github.com/hellotext/help/pull/86) merged the bilingual overview correction as merge commit `210fb4eb8ffc47d7fc66973533d3cfe8ddcc2658` at 2026-09-26 06:47 UTC. The PR checks and subsequent [main Build run](https://github.com/hellotext/help/actions/runs/36224793913) passed. At 2026-09-26 06:48 UTC, Netlify served the [Spanish overview](https://help.hellotext.com/es/resumen-analitica-reportes-atribucion) and [English overview](https://help.hellotext.com/analytics-reporting-attribution-overview) with HTTP 200 and the corrected delivery-and-click sentence.
+
+## Demand insights reference correction (2026-09-26)
+
+The later source audit recorded in `demand-insights-guide.md` found that Demand insights counts certain ended interactions without a recorded conversion; its **Affected SKUs** card counts distinct recommending Playbooks. The overview's two product-demand paragraphs were corrected in both languages in commit `ca6517a`, after preserving the complete earlier bodies under `originals/demand-insights-guide/related/`. The production build passed. Both complete rendered guides were reviewed at 1280px and 390px; the 12 headings, 28 links per locale, and unrelated guidance remain intact. Public verification of this later correction is pending the Demand insights batch merge.
