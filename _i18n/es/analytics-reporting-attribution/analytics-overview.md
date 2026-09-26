@@ -24,9 +24,9 @@ Sigue leyendo: [Guía del Reporte de ingresos]({% link _analytics-reporting-attr
 
 ## Reporte de rendimiento
 
-El Reporte de rendimiento sigue las conversaciones desde su inicio hasta resultados posteriores de conversión y Derivación.
+El Reporte de rendimiento agrupa las interacciones por su fecha de inicio y muestra conversiones y Derivaciones de IA registradas posteriormente.
 
-Úsalo cuando necesites comparar tasa de conversión, tiempo de conversión, tasa de Derivación y caminos de conversión Solo IA frente a Gestionado por el equipo.
+Úsalo para revisar la tasa de conversión, el tiempo medio hasta conversión sin Derivación de IA, la tasa de Derivación y la distribución de interacciones con o sin Derivación de IA.
 
 Sigue leyendo: [Guía del Reporte de rendimiento]({% link _analytics-reporting-attribution/performance-report-guide.md %}).
 
