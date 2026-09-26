@@ -1,0 +1,23 @@
+{
+  "article_source": "_i18n/en/audience/segments.md",
+  "public_url": "https://help.hellotext.com/segments",
+  "locale": "en",
+  "step_and_target_control": "Create a segment, steps 2 and 3: Audience plus menu and New Segment action",
+  "capture_date": "2026-09-26 UTC",
+  "capture_tool": "macOS ScreenCaptureKit exact-window sourceRect via docs/editorial-work/capture-tools/hellotext_capture_editor.swift; native 2x Display P3 ImageIO PNG",
+  "source_route_and_state": "http://127.0.0.1:3191/hellotext/audience in the isolated hellotext_editorial_capture_20260926 demonstration database; plus menu open, New Segment highlighted without selecting it",
+  "demonstration_data_verified": true,
+  "original_file": "docs/editorial-work/captures/segments/audience-menu-en-original.png",
+  "published_derivative": "images/audience/segments/audience-menu-en.png",
+  "logical_viewport": { "width": 1266, "height": 935, "browser_zoom_percent": 100 },
+  "source_pixels": { "width": 610, "height": 690 },
+  "max_display_css_pixels": { "width": 280, "height": 317 },
+  "actual_file_format": "PNG (native 2x, no derivative transformation)",
+  "icc_profile_and_verification": "Embedded Display P3 verified by capture helper, file, and sips; original and published file SHA-256 c4065554aa916268e9582a2886cf453fc0164a9553e3167dcb38a45c3c5d9d0c",
+  "native_color_provenance": "A verified native 16x16 Display P3 probe from the same 2x display supplied gamut evidence; ScreenCaptureKit captured only a 305x345-point rectangle of the exact synthetic Chrome window. No JPEG intermediate or profile reassignment.",
+  "transformations": [],
+  "pointer": { "kind": "none in retained crop", "target": "New Segment highlighted by menu hover", "coordinates": null },
+  "privacy": "Crop contains only the menu and plus control; customer rows and other Chrome tabs are excluded.",
+  "verification": { "density": "610 source pixels / 280 maximum CSS pixels = 2.18x", "desktop": "passed: inline menu readable at 1280px; image has no link or open control", "mobile": "passed: complete menu and plus control readable at 390px without horizontal overflow", "served_asset": "passed: production Jekyll build and security-header check; built root and Spanish-path files are byte-identical to the Display P3 source" },
+  "status": "verified_in_local_article_pending_publication"
+}

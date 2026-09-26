@@ -20,28 +20,6 @@ It also helps to identify a few customer profiles that should match and a few th
 4. Replace the default title with a clear segment name.
 5. Select **Choose a condition** and choose **Subscriber's Activity** or **Subscriber's Characteristics**.
 
-In the **+** menu, **New Segment** appears below **Import Customers**.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Menu for creating a segment">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 280px; margin: 0 auto;">
-      <img class="ht-editorial-visual__image" src="/images/audience/segments/audience-menu-en.png" width="610" height="690" loading="lazy" decoding="async" alt="Audience plus menu with New Segment highlighted below Import Customers." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Screenshot of the English interface with the menu open and no customer information in view.</figcaption>
-</figure>
-
-In the editor, **Choose a condition** offers these two types of criteria:
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Condition types in a new segment">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 420px; margin: 0 auto;">
-      <img class="ht-editorial-visual__image" src="/images/audience/segments/condition-chooser-en.png" width="876" height="840" loading="lazy" decoding="async" alt="New Segment editor with Choose a condition open, offering Subscriber's Activity and Subscriber's Characteristics." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Screenshot of the English editor with an unsaved demonstration segment.</figcaption>
-</figure>
-
 Use a name that describes the rule rather than a temporary campaign. For example, `Purchased footwear in the last 30 days` is easier to understand later than `August audience`.
 
 ## Choose a condition type
@@ -79,18 +57,6 @@ The segment builder groups conditions in two ways:
 * **AND** adds another block. A profile must also match that block to enter the segment.
 
 For example, an activity block can include customers who subscribed **or** sent a message. A second block adds **and** a characteristic: being older than 18. The complete rule requires that second block and at least one of the two activities.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Example of OR and AND conditions in the segment editor">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 420px; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/audience/segments/rule-logic-en-mobile.png" width="700" height="1200" />
-        <img class="ht-editorial-visual__image" src="/images/audience/segments/rule-logic-en.png" width="876" height="1280" loading="lazy" decoding="async" alt="Subscriber's Activity block with Subscribed OR Customer sent a message; below it, AND connects a Subscriber's Characteristics block with Age above 18." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Screenshot of the English editor with demonstration conditions in an unsaved segment.</figcaption>
-</figure>
 
 Read the complete rule before saving. A misplaced **AND** or **OR** can make the segment much broader or narrower than intended.
 
