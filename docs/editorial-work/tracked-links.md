@@ -2,7 +2,7 @@
 
 ## Source and reader task
 
-- Article key: `analytics-reporting-attribution/tracked-links.md`; published routes: `https://help.hellotext.com/es/links-con-tracking` and `https://help.hellotext.com/tracked-links`. Progress is `pending` at main revision `633ec2abe60b8e8870ddb684378ed31eba025b98`.
+- Article key: `analytics-reporting-attribution/tracked-links.md`; published routes: `https://help.hellotext.com/es/links-con-tracking` and `https://help.hellotext.com/tracked-links`. Progress was `pending` at batch start on main revision `633ec2abe60b8e8870ddb684378ed31eba025b98`.
 - The complete pre-edit Spanish and English bodies and shared stub are preserved byte for byte under `originals/tracked-links/`. Original SHA-256 values: Spanish `12e4a1d7ff25f3fb7a4f1cab6c764fe9855a7bada378638a5f21a1c7dacdfd65`; English `f6c594879788dfa5586ce3f372d9b80e7d1cc85437f45a5a28a1e44bd9a1c378`.
 - The reader needs to insert a tracked link in a message, understand the redirect and session parameter, and distinguish a click from a sale attributed to Hellotext.
 
@@ -24,3 +24,9 @@
 - The production `yarn build` completed for both languages, including `script/verify_security_headers.rb`. The rendered routes `/es/links-con-tracking.html` and `/tracked-links.html` were read in full in the local browser at 1280 px desktop and 390 px mobile widths. Both mobile layouts had `scrollWidth` equal to `clientWidth`.
 - The existing SVG was initially too large because article image styles overrode its intrinsic size. The final same-origin image loaded in both locales and rendered at 20 × 20 px after explicit inline dimensions. Its empty alternative text is deliberate: the adjacent bold control label names the same control. Browser screenshots confirmed the numbered steps and article ending remain readable on desktop and mobile.
 - Both localized article bodies retain the five prior link destinations. The shared stub was not changed. The original snapshots remain byte-identical to the pre-edit bodies and stub. No native product screenshot or message preview was added because the real toolbar icon and exact labels cover the only placement action in this short guide.
+
+## Integration and public verification
+
+- Content commit `2f5f47011d199f25a55895452558e041dbcb7921` and ledger commit `2a68226a3cc6d51c45a0fee04e15b5182b09ab21` were kept distinct. PR [#104](https://github.com/hellotext/help/pull/104) passed GitHub Build, Aikido Security, Netlify header and deploy-preview checks; the Codex review completed with no findings. It was merged with merge commit `fdb5046047da53cbd5c65884db3efdbbb103411c` on 2026-09-26 at 15:44:28 UTC. Its parents are prior main `633ec2abe60b8e8870ddb684378ed31eba025b98` and the article branch tip `2a68226a3cc6d51c45a0fee04e15b5182b09ab21`.
+- Normal Netlify production deploy `6ab7e85eb4781800089fe8b7` reached `ready` for that exact merge commit at 15:45:02 UTC. No manual deployment was used.
+- After production readiness, both public routes returned HTTP 200 with the expected `lang` and new localized control/domain/attribution text. The served same-origin `/images/icons/link.svg` returned HTTP 200 as SVG; both rendered articles reference it at 20 px. This verifies publication separately from the local build.
