@@ -31,7 +31,7 @@ Using the same dates is necessary, but it is not enough. You must also confirm w
 
 Hellotext reports can assign a result to one of three kinds of dates:
 
-- **The date of the source activity:** some metrics group later outcomes by the message or conversation that produced them, even when the outcome happened on another day.
+- **The date the source activity began:** the period selects messages, playbook triggers, conversations, or requests. Eligible outcomes that happen later remain assigned to the original source date.
 - **The date the result happened:** the period selects purchases, reviews, resolutions, or other events completed during that range.
 - **The current state:** the section shows what is true at the displayed time, such as current workload, pending follow-ups, or audience membership.
 
@@ -41,17 +41,17 @@ The report or section should explain which date it uses. The most common rules a
 | --- | --- |
 | Dashboard | Revenue uses purchase date, activity uses the date each event occurred, and current-state cards reflect the displayed time. |
 | Revenue report | Purchase date. Campaign and playbook rows identify the credited source for purchases completed during the selected period. |
-| Campaign detail report | Sends, deliveries, clicks, and attributed purchases count on the date of each event. The funnel's Engagement stage requires both delivery and a tracked click within the selected period. |
-| Playbook report | Sends, deliveries, and clicks use each event's date; revenue and conversion metrics can group purchases by the date of the credited source message. |
+| Campaign performance | Message delivery date. Eligible clicks and purchases recorded later remain assigned to the original delivery. |
+| Playbook report | Playbook trigger date. Later messages and attributed purchases remain assigned to the original trigger. |
 | Performance, Conversations, and Service Quality | Conversation start date. Later conversion, escalation, resolution, and satisfaction outcomes follow the originating conversation. |
-| Revenue by channel in the Revenue report | Purchase date of the attributed sale; the channel identifies the credited source. |
-| Demand insights | Date an eligible interaction classified as unfulfilled demand ended. |
+| Channel performance | Message sent date. Later delivery, engagement, and attributed-sales outcomes follow those messages. |
+| Demand insights | Date the unfulfilled request began. Later recovery follows the original request. |
 | Reviews and feedback | Submitted feedback uses submission date; collection performance uses request-delivery date; pending follow-ups show current state. |
 | Workload and capacity | Handled and resolved work uses the date of each action; queue, backlog, and risk sections show current state. |
 
-For example, if a playbook message is sent on April 7 and a customer makes an attributed purchase on April 10, a revenue metric grouped by source message can show it on April 7. The Revenue report counts it on April 10. If the message belongs to a campaign, its detail report also counts the purchase on April 10.
+For example, if a playbook is triggered on April 7 and the customer purchases on April 10, the playbook report counts the result on April 7. The Revenue report counts that same purchase on April 10. Both are correct because they answer different questions.
 
-The date-counting rule does not extend or replace the attribution window. In metrics grouped by source, a later purchase is added to the message date only when it qualifies under Hellotext's attribution rules.
+The date-counting rule does not extend or replace the attribution window. A later purchase is added to the original source date only when it qualifies under Hellotext's attribution rules.
 
 ### Match the metric definition
 
@@ -108,7 +108,7 @@ After confirming the event, check whether it belongs in the metric you are revie
 
 ### Dashboard
 
-- For historical metrics, the event must fall inside the fixed 14-day period.
+- The event must fall inside the fixed 14-day period.
 - Attributed revenue needs an active positive attribution record.
 - The revenue benchmark also needs total commerce revenue for the period.
 - Conversations counts conversation-start activity, not current queue state.
@@ -116,16 +116,16 @@ After confirming the event, check whether it belongs in the metric you are revie
 
 ### Campaign reporting
 
-- In the detail report, each send, delivery, click, and attributed purchase counts if that event occurred within the selected period.
+- The eligible message delivery must fall inside the selected campaign period.
 - Delivery metrics require a recorded delivery result.
-- CTR requires clicks recorded during the period and delivered messages for its denominator.
-- Conversion and revenue require an eligible attributed purchase within the period; the original delivery may have happened earlier. If there are no deliveries in the range, the conversion rate may display zero even when there is an attributed purchase.
+- CTR requires a tracked click and delivered-message denominator.
+- Conversion and revenue require an eligible attributed purchase, which can happen later and remain assigned to the original delivery date.
 
 ### Playbook and performance reporting
 
 - The playbook, route, or agent must be active and receive eligible traffic.
 - The required trigger, interaction, conversion, escalation, or resolution event must be recorded.
-- A playbook report combines event-date metrics with revenue grouped by source message; the Performance report groups outcomes by conversation start date. Check each metric's rule before comparing periods.
+- A playbook report selects original trigger dates; a performance report selects conversation start dates. Later eligible outcomes remain attached to that original activity.
 - A channel, playbook, AI-versus-human, or team breakdown needs that dimension on the underlying activity.
 
 ### Operations reporting
@@ -137,7 +137,7 @@ After confirming the event, check whether it belongs in the metric you are revie
 
 ### Demand insights
 
-Demand insights require completed interactions that the report classifies as unfulfilled demand. Breakdowns need data for the selected dimension; order history can affect the estimated missed revenue. A customer question in Inbox does not automatically become an unfulfilled demand signal.
+Demand insights require supported unfulfilled-request signals and enough product, intent, commerce, and value context to calculate the selected metric. A customer question in Inbox does not automatically become an unfulfilled demand signal.
 
 ## 4. Check attribution separately
 
@@ -162,8 +162,8 @@ Read [Sales attribution]({% link _analytics-reporting-attribution/sales-attribut
 | Comparison | Why it can differ |
 | --- | --- |
 | Dashboard vs detailed report | The Dashboard uses a fixed 14 days; the report has its own range and metric. |
-| Playbook report vs Revenue report | A playbook revenue metric can group a purchase by the source-message date; Revenue includes it on its purchase date. Other playbook metrics use the date of each event. |
-| Campaign detail report vs Revenue report | Both count a purchase on its purchase date, but the first shows sales attributed to that campaign; Revenue includes other sources and can also show total revenue. |
+| Playbook report vs Revenue report | The playbook report assigns later outcomes to the original trigger date; Revenue includes the purchase on its purchase date. |
+| Campaign report vs Revenue report | Campaign performance assigns an eligible purchase to the original delivery date; Revenue includes it on its purchase date. |
 | Hellotext total revenue vs store revenue | Hellotext can only report the supported orders and updates it received; date, currency, status, duplicate, refund, tax, shipping, or net/gross definitions can also differ. |
 | Total revenue vs attributed revenue | Total revenue includes unattributed commerce revenue; attribution requires eligible Hellotext evidence. |
 | Actions amount vs Revenue report | An action can carry money without representing canonical order revenue or receiving attribution. |
@@ -197,7 +197,7 @@ Recent results may change because:
 - stronger source evidence arrives; or
 - corrected identity data connects previously separate activity.
 
-In metrics grouped by source message or conversation start, a recent date can keep increasing while its outcome or attribution window remains open. Use an older period whose windows have closed for more stable comparisons. For current campaigns or always-on playbooks, treat early numbers as provisional.
+For source-based reports, a recent date can keep increasing while its outcome or attribution window remains open. Use an older period whose windows have closed for final comparisons. For current campaigns or always-on playbooks, treat early numbers as provisional.
 
 ## When to contact Support
 
