@@ -44,7 +44,7 @@ El reporte o la sección debe explicar qué fecha utiliza. Estas son las reglas 
 | Reporte detallado de una campaña | Los envíos, entregas, clics y compras atribuidas se cuentan en la fecha de cada evento. La etapa Interacción del embudo exige que la entrega y un clic rastreado ocurran dentro del período seleccionado. |
 | Reporte de una misión | Envíos, entregas y clics usan la fecha de cada evento; las métricas de ingresos y conversión pueden agrupar compras por la fecha del mensaje de origen acreditado. |
 | Rendimiento | Fecha de inicio de la interacción. La conversión o Derivación registrada después sigue a la interacción de origen. |
-| Calidad de servicio | Las tasas de resolución por IA, de resolución por equipo y de no resueltas usan el inicio de la interacción de servicio; el cumplimiento de SLA y la distribución del tiempo de respuesta usan el inicio de la obligación de respuesta; la satisfacción del cliente usa la fecha de respuesta a la encuesta. Las columnas de rendimiento de agentes usan las fechas de atención, resolución o respuesta que correspondan. |
+| Conversaciones y Calidad de servicio | Fecha de inicio de la conversación. La resolución y satisfacción posteriores siguen a la conversación de origen. |
 | Ingresos por canal en el Reporte de ingresos | Fecha de compra de la venta atribuida; el canal identifica el origen acreditado. |
 | Insights de demanda | Fecha de finalización de la interacción; No resueltas exige determinados estados de cierre sin conversión registrada. |
 | Reseñas y feedback | El feedback recibido usa la fecha de envío de la respuesta; el rendimiento de recopilación usa la fecha de entrega de la solicitud; los seguimientos pendientes muestran el estado actual. |
