@@ -35,7 +35,7 @@ The reader chooses the report that answers a Playbook question, reconciles date 
 
 ## Current checkpoint
 
-The bilingual article is locally verified, committed, and publicly verified. `progress.csv` records seven locally verified pairs, 146 pending pairs, and one redirect outside scope. Dashboard remains pending a safe native screenshot, so the next viable article can proceed independently.
+The bilingual article is locally verified, committed, and publicly verified. `progress.csv` records seven locally verified pairs, 146 pending pairs, and one redirect outside scope. Dashboard remains pending its complete bilingual editorial review; its prepared capture plan also awaits a safe native screenshot. Another viable article can proceed while that capture is blocked.
 
 ## Public verification (2026-09-26)
 
