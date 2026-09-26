@@ -25,7 +25,7 @@ The pre-correction SHA-256 values are: Analytics overview ES `7519afe0faa09f0a7f
 
 ## Current checkpoint
 
-The original ES, EN, and stub snapshots exist. The Rails metric and breakdown audit is complete. Both Demand insights bodies and the two metadata descriptions have been corrected locally, as have the six narrow related-guide statements. Local verification and content commits are complete; PR review, merge, deployment, and public checks remain pending.
+The original ES, EN, and stub snapshots exist. The Rails metric and breakdown audit is complete. Both Demand insights bodies and the two metadata descriptions have been corrected, as have the six narrow related-guide statements. Local verification, content commits, PR review, merge, and public checks are complete; the Dashboard guide remains pending its own full editorial review.
 
 ## Local verification
 
@@ -35,3 +35,9 @@ The original ES, EN, and stub snapshots exist. The Rails metric and breakdown au
 - The complete Demand insights pages were read through their rendered accessibility trees in the in-app browser. Both languages were checked at 1280px desktop and 390px mobile: article and tables fit within the viewport, with no horizontal overflow or application console errors. The complete rendered linked guides were also inspected through browser DOM snapshots at both widths; their corrected sections are present, and their tables fit within 358px on mobile. The plain local server needs `.html` routes and does not emulate production's extensionless URLs.
 - A focused screenshot of period, metric, and breakdown would be helpful, but native capture readiness was checked twice and the Mac remained locked. No compliant Display P3 PNG could be captured, so no screenshot was added. Browser observations used for text and layout checks are not publishable image assets. No real contact, conversation, campaign, or message was modified or sent.
 - The bilingual Demand insights content was verified in commit `47079f9`. The narrow Analytics overview, Data completeness, and Dashboard corrections were verified in commits `ca6517a`, `163b6a3`, and `784d44f` respectively. The Dashboard guide's separate campaign/playbook date claim at line 113 remains for its own pending editorial batch. This narrow Demand insights correction does not mark Dashboard locally verified.
+
+## PR merge and public verification (2026-09-26)
+
+Help [PR 88](https://github.com/hellotext/help/pull/88) passed Build, Aikido Security, Netlify preview and header checks, and completed Codex review without findings. The preview served all eight affected localized routes with the corrected text. The PR merged with a merge commit, `625b635ccb4e6169d8f67ff508fe5fbe6def93a2`, at 07:51 UTC, preserving the eight individual commits. The [main Build run](https://github.com/hellotext/help/actions/runs/36228042179) passed at 07:51 UTC.
+
+At 07:52 UTC, Netlify served the [Spanish Demand insights guide](https://help.hellotext.com/es/guia-insights-demanda) and [English Demand insights guide](https://help.hellotext.com/demand-insights-guide) with HTTP 200 and the corrected interaction, estimate, and Playbook explanations. The Analytics overview, Data completeness, and Dashboard pages in both languages also returned HTTP 200 with their corrected Demand insights references. All eight production responses included CSP and HSTS headers. The public check confirms publication of this Help content; it does not establish the deployed Rails revision.
