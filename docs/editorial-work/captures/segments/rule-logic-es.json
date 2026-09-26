@@ -1,0 +1,27 @@
+{
+  "article_source": "_i18n/es/audience/segments.md",
+  "public_url": "https://help.hellotext.com/es/segmentos",
+  "locale": "es",
+  "step_and_target_control": "Combine conditions with O inside one block and Y between blocks",
+  "capture_date": "2026-09-26 UTC",
+  "capture_tool": "macOS ScreenCaptureKit SCContentFilter(display:including:) for the exact Awesome Chrome window, SCStreamConfiguration.sourceRect with native 2x dimensions and colorSpaceName=Display P3, ImageIO PNG encoding; local helper: docs/editorial-work/capture-tools/hellotext_capture_editor.swift",
+  "source_route_and_state": "https://www.hellotext.com/awesome/audience; unsaved Nuevo Segmento editor with Se suscribió O Cliente envió un mensaje, Y Edad Más que 18; Chrome zoom 75% to display all conditions in one native frame",
+  "demonstration_data_verified": true,
+  "original_file": "docs/editorial-work/captures/segments/rule-logic-es-original.png",
+  "published_derivative": "images/audience/segments/rule-logic-es.png",
+  "mobile_derivative": "images/audience/segments/rule-logic-es-mobile.png",
+  "logical_viewport": { "width": 2180, "height": 1092, "browser_zoom": "75%", "native_window_points": { "width": 1635, "height": 996 } },
+  "source_pixels": { "width": 1144, "height": 1606 },
+  "max_display_css_pixels": { "width": 550, "height": 601, "mobile_crop_width": 316 },
+  "actual_file_format": "PNG (native 2x original and two lossless cropped derivatives)",
+  "icc_profile_and_verification": "Display P3 iCCP verified by the capture helper, file, and sips for original and both derivatives; original SHA-256 0d2a186ff44f26886e84674d0c1fd91a26b8c396ea6d8d620dda55d5fd346230; desktop derivative SHA-256 560585c46e4c34ce0c9466f6b08f61bf734c48a3f5d18bc0b6e6aab72eb8fca7; mobile derivative SHA-256 b05f02837ff0df57bea4600f3eed137dfdf24733e288fb4538f377981d16f226",
+  "native_color_provenance": "The same 2x display produced a native 16x16 PNG corner probe with embedded Display P3. ScreenCaptureKit captured a 572x803-point region of the exact Chrome window into 1144x1606 pixels with Display P3 output color management; no JPEG pixels or profile reassignment were used.",
+  "transformations": [
+    "sips lossless crop to 1144x1250 pixels at source offset x=0, y=200, removing the editor header, partially scrolled description, pointer, and footer while keeping both complete rule blocks and embedded Display P3 profile",
+    "ImageMagick crop of the desktop derivative to its leftmost 640x1160 pixels for mobile; no resampling or color conversion, verified by matching the raw RGBA pixel hash against the same direct crop; embedded Display P3 profile retained"
+  ],
+  "pointer": { "kind": "none in published derivative", "target": "O and Y rule structure", "coordinates": null },
+  "verification": { "density": "passed: desktop 1144 source pixels / 550 planned CSS pixels = 2.08x; mobile 640 source pixels / 316 rendered CSS pixels = 2.03x", "desktop": "passed: both complete rule blocks visible in a static figure at 1635px viewport, without image link or expand control", "mobile": "passed: responsive 640x1160 crop selected at 390px and rendered at 316x573 CSS pixels; O/Y, activity names, age condition, and value are readable inline without page overflow", "served_asset": "passed: yarn build and security-header check; built root and Spanish-path copies of both derivatives byte-identical to source with Display P3 profile" },
+  "limitations": ["The live interface was captured in Spanish; no English UI capture was made.", "The unsaved editor does not demonstrate a saved segment or calculated membership.", "The mobile crop omits the right ends of the condition controls so the rule labels remain readable inline."],
+  "status": "verified_in_local_article_not_published"
+}

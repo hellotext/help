@@ -56,7 +56,7 @@ The segment builder groups conditions in two ways:
 * **OR** adds another alternative inside the same block. A profile can match either condition in that block.
 * **AND** adds another block. A profile must also match that block to enter the segment.
 
-For example, you can build an activity block for customers who purchased from the footwear category **or** purchased from the accessories category, then add an **and** block requiring their subscription status to be subscribed.
+For example, an activity block can include customers who subscribed **or** sent a message. A second block adds **and** a characteristic: being older than 18. The complete rule requires that second block and at least one of the two activities.
 
 Read the complete rule before saving. A misplaced **AND** or **OR** can make the segment much broader or narrower than intended.
 

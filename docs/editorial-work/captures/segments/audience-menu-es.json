@@ -1,0 +1,23 @@
+{
+  "article_source": "_i18n/es/audience/segments.md",
+  "public_url": "https://help.hellotext.com/es/segmentos",
+  "locale": "es",
+  "step_and_target_control": "Create a segment, steps 2 and 3: Audience + menu and Nuevo Segmento action",
+  "capture_date": "2026-09-26 UTC",
+  "capture_tool": "macOS ScreenCaptureKit SCContentFilter(display:including:) for the exact Awesome Chrome window, SCStreamConfiguration.sourceRect with native 2x dimensions and colorSpaceName=Display P3, ImageIO PNG encoding; local helper: docs/editorial-work/capture-tools/hellotext_capture_editor.swift",
+  "source_route_and_state": "https://www.hellotext.com/awesome/audience; Audience + menu open, Nuevo Segmento hovered without clicking",
+  "demonstration_data_verified": true,
+  "original_file": "docs/editorial-work/captures/segments/audience-menu-es-original.png",
+  "published_derivative": "images/audience/segments/audience-menu-es.png",
+  "logical_viewport": { "width": 1635, "height": 819 },
+  "source_pixels": { "width": 586, "height": 598 },
+  "max_display_css_pixels": { "width": 280, "height": 286 },
+  "actual_file_format": "PNG (native 2x, no derivative transformation)",
+  "icc_profile_and_verification": "Display P3 iCCP verified by the capture helper, file, and sips; original and published copy SHA-256 76c609809d66555eea021acbd09c9510eb5f1426b55b3ae4a5d1f3b169588159",
+  "native_color_provenance": "The same 2x display produced a native 16x16 PNG corner probe with embedded Display P3. ScreenCaptureKit captured a 293x299-point region of the exact Chrome window into 586x598 pixels with Display P3 output color management; no JPEG pixels or profile reassignment were used.",
+  "transformations": [],
+  "pointer": { "kind": "none in retained crop", "target": "Nuevo Segmento hovered and highlighted", "coordinates": null },
+  "verification": { "density": "passed: 586 source pixels / 280 planned CSS pixels = 2.09x minimum; rendered 262px desktop and 268px mobile", "desktop": "passed: static menu figure visible in the Spanish guide at 1635px viewport, without image link or expand control", "mobile": "passed: menu visible at 390px viewport without page overflow; image is inert when clicked", "served_asset": "passed: yarn build and security-header check; built root and Spanish-path PNGs byte-identical to source with Display P3 profile" },
+  "limitations": ["The live interface was captured in Spanish; no English UI capture was made."],
+  "status": "verified_in_local_article_not_published"
+}

@@ -20,6 +20,28 @@ También conviene identificar algunos perfiles de cliente que deberían coincidi
 4. Reemplaza el título predeterminado por un nombre claro para el segmento.
 5. Selecciona **Elige una condición** y elige **Actividad del cliente** o **Características del cliente**.
 
+En el menú del botón **+**, **Nuevo Segmento** aparece debajo de **Importar Clientes**.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Menú para crear un segmento">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 280px; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/audience/segments/audience-menu-es.png" width="586" height="598" loading="lazy" decoding="async" alt="Menú del botón más en Audiencia con la opción Nuevo Segmento resaltada, debajo de Importar Clientes." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Captura de la interfaz real en español; el menú está abierto y no muestra datos de clientes.</figcaption>
+</figure>
+
+En el editor, **Elige una condición** ofrece estos dos tipos de criterio:
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Tipos de condición de un segmento nuevo">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 550px; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/audience/segments/condition-chooser-es.png" width="1144" height="760" loading="lazy" decoding="async" alt="Editor Nuevo Segmento con Elige una condición abierto y las opciones Actividad del cliente y Características del cliente." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Captura de la interfaz real en español con un segmento de demostración sin guardar.</figcaption>
+</figure>
+
 Usa un nombre que describa la regla en lugar de una campaña temporal. Por ejemplo, `Compró calzado en los últimos 30 días` será más fácil de entender después que `Audiencia agosto`.
 
 ## Elige un tipo de condición
@@ -56,7 +78,19 @@ El creador de segmentos agrupa las condiciones de dos maneras:
 * **O** agrega otra alternativa dentro del mismo bloque. Un perfil puede cumplir cualquiera de las condiciones de ese bloque.
 * **Y** agrega otro bloque. Un perfil también debe cumplir ese bloque para entrar al segmento.
 
-Por ejemplo, puedes crear un bloque de actividad para clientes que compraron en la categoría calzado **o** compraron en la categoría accesorios, y luego agregar un bloque con **y** que exija que el estado de suscripción sea suscrito.
+En este ejemplo, el primer bloque incluye a clientes que se suscribieron **o** enviaron un mensaje. El bloque siguiente agrega **y** una característica: tener más de 18 años. La regla completa exige cumplir ese segundo bloque y al menos una de las dos actividades.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Ejemplo de condiciones O e Y en el editor de segmentos">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 550px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/audience/segments/rule-logic-es-mobile.png" width="640" height="1160" />
+        <img class="ht-editorial-visual__image" src="/images/audience/segments/rule-logic-es.png" width="1144" height="1250" loading="lazy" decoding="async" alt="Bloque Actividad del cliente con Se suscribió O Cliente envió un mensaje; debajo, Y conecta un bloque Características del cliente con Edad más que 18." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Captura de la interfaz real en español con condiciones de demostración en un segmento sin guardar.</figcaption>
+</figure>
 
 Lee la regla completa antes de guardar. Una condición **Y** u **O** mal ubicada puede hacer que el segmento sea mucho más amplio o más reducido de lo esperado.
 

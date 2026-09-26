@@ -1,10 +1,18 @@
-Usa analítica y reportes para entender qué pasó después de que Hellotext envió un mensaje, activó una misión o ruta, o vinculó actividad con tu tienda.
+Usa analítica y reportes para entender la actividad de clientes, los resultados de campañas y misiones, el trabajo del equipo y los ingresos atribuidos a Hellotext.
 
-Esta sección conecta tres preguntas relacionadas:
+Esta sección te ayuda a responder:
 
 - ¿Cómo funcionó una campaña, misión o ruta?
-- ¿Qué acciones de clientes ocurrieron después del mensaje?
+- ¿Qué acciones siguieron al mensaje y qué necesidades quedaron sin atender?
+- ¿Cómo se resolvieron las conversaciones y se distribuyó el trabajo?
 - ¿Qué ingresos se atribuyeron a Hellotext?
+- ¿Por qué faltan datos o dos reportes muestran resultados distintos?
+
+## Empieza por el Dashboard
+
+El Dashboard resume los últimos 14 días, las acciones registradas y las campañas programadas o enviadas. Úsalo para detectar un cambio y luego abre el reporte detallado para investigar su origen.
+
+Sigue leyendo: [Guía del Dashboard]({% link _analytics-reporting-attribution/dashboard-guide.md %}).
 
 ## Reporte de ingresos
 
@@ -79,6 +87,7 @@ Si tu tienda está conectada con una integración soportada, muchos eventos pued
 Sigue leyendo:
 
 - [Qué son las señales]({% link _journeys/what-are-signals.md %})
+- [Links con tracking]({% link _analytics-reporting-attribution/tracked-links.md %})
 - [Seguimiento de eventos]({% link _developers/tracking-events.md %})
 - [Soluciona señales o actividad faltante]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %})
 
@@ -92,11 +101,15 @@ Al revisar el rendimiento, verifica:
 - Si el pedido contiene una fuente externa reconocida que tiene precedencia.
 - Si la responsabilidad del checkout o la participación del equipo aplicable a ese flujo afectó la decisión.
 
+Antes de comparar reportes, revisa qué fecha y qué población usa cada métrica. En el detalle de una campaña, las compras atribuidas cuentan en su fecha de compra; la etapa **Interacción** del embudo se agrupa por fecha de envío. Los resultados recientes también pueden cambiar mientras llegan eventos atrasados o sigue abierta una ventana de atribución. Si las cifras no coinciden, sigue [Integridad de datos y diferencias en reportes]({% link _analytics-reporting-attribution/data-completeness-and-reporting-gaps.md %}) antes de cambiar el tracking.
+
 Si estás revisando tu primer lanzamiento, empieza por [Mide el éxito en tus primeros 7 días]({% link _getting-started/measure-success-first-7-days.md %}).
 
 ## Guías relacionadas
 
 - [Mide el éxito en tus primeros 7 días]({% link _getting-started/measure-success-first-7-days.md %})
+- [Guía del Dashboard]({% link _analytics-reporting-attribution/dashboard-guide.md %})
+- [Integridad de datos y diferencias en reportes]({% link _analytics-reporting-attribution/data-completeness-and-reporting-gaps.md %})
 - [Guía del Reporte de ingresos]({% link _analytics-reporting-attribution/revenue-report-guide.md %})
 - [Guía del Reporte de rendimiento]({% link _analytics-reporting-attribution/performance-report-guide.md %})
 - [Guía de Insights de demanda]({% link _analytics-reporting-attribution/demand-insights-guide.md %})
