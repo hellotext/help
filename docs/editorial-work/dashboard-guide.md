@@ -35,3 +35,7 @@ Three potential figures answer distinct interface questions: (1) the 14-day KPI 
 - Automated review completed. It reported that the ledger's verifying commit might be unreachable, but the check used a revision different from the PR head. GitHub's commit parent relationship and local `git merge-base --is-ancestor` confirmed reachability; this evidence was replied to in the review thread before merging. No ledger rewrite or protection bypass was needed.
 - The [post-merge main Build](https://github.com/hellotext/help/actions/runs/36249700989) passed. Netlify production deployment `6ab7daff60ed9d0008c4ad22` reached `ready` for merge commit `6e05febb955f25c94669682533c7e85fc1447885` and was published at 14:48:03.509 UTC.
 - The public [Spanish guide](https://help.hellotext.com/es/guia-dashboard) and [English guide](https://help.hellotext.com/dashboard-guide) both returned HTTP 200 with the new empty-state and pagination guidance at approximately 14:48 UTC. The ledger continues to record the local editorial verifier rather than the deployment revision.
+
+## Visual follow-up audit (2026-09-26)
+
+The bilingual text and publication checks above remain valid, but the planned KPI, Actions, and calendar captures were not made. `progress.csv` now marks this pair `visual_pending`; retain the verified text commit and resume with a safe populated fixture and focused localized captures. See `visual-followup.md` for the shared queue.

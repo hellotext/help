@@ -40,3 +40,7 @@ The bilingual article is locally verified, committed, and publicly verified. `pr
 ## Public verification (2026-09-26)
 
 Help [PR 92](https://github.com/hellotext/help/pull/92) merged the three individual commits with merge commit `ec1b877d07d99d9bf76fad191575cd64fd113726` at 09:47 UTC. Its Build, Aikido Security, Netlify preview, and header checks passed; the Codex review finished without findings. The [main Build run](https://github.com/hellotext/help/actions/runs/36233836767) passed after merge. At 09:48 UTC, Netlify served the [Spanish guide](https://help.hellotext.com/es/reportes-de-misiones) and [English guide](https://help.hellotext.com/playbook-reporting) with HTTP 200 and the corrected date example and team-managed revenue wording. The normal deployment served the changes; no manual deployment occurred. `progress.csv` continues to record local editorial verification separately from the public check.
+
+## Visual follow-up audit (2026-09-26)
+
+The bilingual text and publication checks above remain valid, but the proposed focused report-selection or comparison capture was not made. `progress.csv` now marks this pair `visual_pending`; retain the verified text commit and resume with a localized capture if it still answers a distinct reader question. See `visual-followup.md` for the shared queue.
