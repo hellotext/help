@@ -17,4 +17,8 @@ The reader chooses a fixed list or a rule-based segment and combines groups into
 
 ## Checkpoint
 
-Plan and originals saved before article edits. Implementation and verification pending.
+The Spanish article was revised first, followed by its English counterpart. Both now use a purchase-in-period example supported by the Rails segment builder and explain that an included profile appears once and is removed when a selected list or segment excludes it. An independent read-only review found no other material factual issue in the complete articles and confirmed bilingual parity against Rails `app/models/contact/audience_query.rb` and `app/models/segmentation/order.rb`.
+
+Local verification on 2026-09-26: `yarn build` passed for both languages, including `script/verify_security_headers.rb`; `git diff --check` passed. The complete rendered pages were read in the in-app browser. Desktop screenshots showed the title and article layout in both languages; the revised audience section was inspected in both languages. At a 390 × 844 mobile viewport, both revised sections remained readable and each page's document `scrollWidth` equaled its 390 px `clientWidth`. The six section headings, nine Liquid links and their order, shared stub, titles, slugs, navigation and publication state are unchanged; all link target files exist. No image was added because the existing comparison table and textual overlap example cover this conceptual task without exposing contact data. Verifying content commit: `c94f3cb3aa683d0394d00b0427c136916a512f4e`.
+
+`progress.csv` now records `local_verified`. PR integration, normal Netlify production deploy and public-page verification are pending and must be recorded separately.
