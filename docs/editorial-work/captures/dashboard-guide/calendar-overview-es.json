@@ -37,14 +37,12 @@
     "file": "passed: PNG signature, 2400 x 1620 native pixels, embedded Display P3 ICC profile",
     "source_asset": "passed: source, published static asset and built copies have matching SHA-256",
     "density": "passed: 2400 / 800 intended maximum CSS pixels = 3.0x",
-    "desktop": "passed: full localized Help article at 1280 px and 873 px desktop widths; complete seven-column, two-row calendar visible inline without clipping or image link",
+    "desktop": "passed: full localized Help article at 1280 px desktop width; complete seven-column, two-row calendar visible inline without clipping or image link",
     "mobile": "passed: full localized Help article at 390 x 844; whole calendar visible inline, adjacent prose explains status, no horizontal overflow or image link",
-    "served_asset": "passed: local built English and Spanish PNGs match originals; PR preview and production pending"
+    "served_asset": "passed: PR #119 Netlify preview and production help.hellotext.com returned HTTP 200 image/png with SHA-256 e1fde6ccb539ef6000bdfbafd39ba65e523ff79b031373f04bee9a23172dd557; Netlify production deploy 6ab831eb2eee2d0008ebbc7c published main merge c03d9b6e6460cf0263905ce61490dafff5fe6eca"
   },
-  "limitations": [
-    "Public preview and production verification are pending PR merge."
-  ],
-  "status": "verified_local",
+  "limitations": [],
+  "status": "verified_public",
   "privacy_check": "Full-size original inspected: only synthetic campaign names, dates, times, statuses, and calendar navigation are visible; no contact identifiers, conversations, customer records, cursor, profiler badge, or other debug overlay.",
   "native_window": {
     "id": 26501,
