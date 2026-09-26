@@ -83,24 +83,6 @@ The calendar organizes scheduled and delivered campaigns by week.
 - For delivered campaigns, the tooltip can also show attributed revenue and CTR.
 - Select a scheduled campaign to continue editing it, or a delivered campaign to open its results.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Sent campaigns in the calendar">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 330px; margin: 0 auto;">
-      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/dashboard-guide/calendar-sent-en.png" width="660" height="1000" loading="lazy" decoding="async" alt="Calendar day 25 with three sent demonstration campaigns, check marks, and the See more control." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Real English interface with demonstration data; the sent campaigns are grouped on one day.</figcaption>
-</figure>
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Scheduled campaign in the calendar">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 330px; margin: 0 auto;">
-      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/dashboard-guide/calendar-scheduled-en.png" width="660" height="440" loading="lazy" decoding="async" alt="Calendar day 29 with one demonstration campaign scheduled for 11:00." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Real English interface with demonstration data; the scheduled campaign appears on its date.</figcaption>
-</figure>
-
 The calendar contains campaigns. It is not a complete schedule of every message a playbook, AI agent, or route may send.
 
 ## Choose the right report

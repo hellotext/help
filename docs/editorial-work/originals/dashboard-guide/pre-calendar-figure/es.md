@@ -83,24 +83,6 @@ El calendario organiza por semana las campañas programadas y enviadas.
 - Para campañas enviadas, el detalle también puede mostrar ingresos atribuidos y CTR.
 - Selecciona una campaña programada para continuar editándola o una campaña enviada para abrir sus resultados.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Campañas enviadas en el calendario">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 330px; margin: 0 auto;">
-      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/dashboard-guide/calendar-sent-es.png" width="660" height="980" loading="lazy" decoding="async" alt="Día 25 del calendario con tres campañas enviadas de demostración, marcas de verificación y el control Ver más." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Interfaz real en español con datos de demostración; las campañas enviadas aparecen agrupadas en un día.</figcaption>
-</figure>
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Campaña programada en el calendario">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 330px; margin: 0 auto;">
-      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/dashboard-guide/calendar-scheduled-es.png" width="660" height="440" loading="lazy" decoding="async" alt="Día 29 del calendario con una campaña de demostración programada a las 11:00." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Interfaz real en español con datos de demostración; la campaña programada aparece en su fecha.</figcaption>
-</figure>
-
 El calendario contiene campañas. No es una agenda completa de todos los mensajes que podría enviar una misión, un agente de IA o una ruta.
 
 ## Elige el reporte correcto

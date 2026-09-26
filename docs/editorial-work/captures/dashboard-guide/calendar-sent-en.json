@@ -1,0 +1,67 @@
+{
+  "article_source": "_i18n/en/analytics-reporting-attribution/dashboard-guide.md",
+  "public_url": "https://help.hellotext.com/dashboard-guide",
+  "locale": "en",
+  "step_and_target_control": "Sent campaigns and See more control on one calendar day",
+  "capture_date": "2026-09-26",
+  "capture_tool": "macOS ScreenCaptureKit exact-window helper (docs/editorial-work/capture-tools/hellotext_capture_editor.swift); exact window ID 26501 and title guard Panel de Enterprise | Hellotext, same-display P3 probe, hidden system cursor, native 2x PNG",
+  "source_route_and_state": "Isolated local Rails Dashboard at http://localhost:3190/hellotext, database hellotext_editorial_capture_20260926; en UI showing three synthetic sent campaign cards on September 25 and See more. No campaign was sent for this capture.",
+  "demonstration_data_verified": true,
+  "original_file": "docs/editorial-work/captures/dashboard-guide/originals/calendar-sent-en.png",
+  "published_derivative": "images/analytics-reporting-attribution/dashboard-guide/calendar-sent-en.png",
+  "logical_viewport": {
+    "width": null,
+    "height": null,
+    "note": "Exact browser viewport not retained; native window measured 1635 x 955 points at 100% zoom."
+  },
+  "source_pixels": {
+    "width": 660,
+    "height": 1000
+  },
+  "max_display_css_pixels": {
+    "width": 330,
+    "height": 500,
+    "basis": "article image-frame max-width 330px; rendered image widths inspected at 312px on 1280px desktop and 316px on 390px mobile"
+  },
+  "actual_file_format": "PNG, 8-bit RGBA, non-interlaced, native 2x ScreenCaptureKit crop; static asset byte-identical to original",
+  "icc_profile_and_verification": "Embedded Display P3 profile verified with sips; file reports PNG 660 x 1000; original and static asset SHA-256 2e0654c598438910abe9bb87bcebb282703e0ed4aea5be1f484f3252f1b73680.",
+  "native_color_provenance": "Exact Chrome window ID 26501 with title guard; sourceRect -465,400,330,500 points; direct native 2x Display P3 PNG after same-display P3 probe, no intermediate JPEG, resampling, or profile reassignment.",
+  "transformations": [],
+  "pointer": {
+    "kind": "none",
+    "system_cursor": "hidden by native helper",
+    "automation_pointer": "not visible on full-size pixel inspection",
+    "target": null,
+    "coordinates": null
+  },
+  "verification": {
+    "file": "passed: PNG signature, native dimensions, embedded Display P3 profile",
+    "source_asset": "passed: original and static asset bytes match SHA-256",
+    "density": "passed: 660 source pixels / 330 maximum CSS pixels = 2.0x",
+    "desktop": "passed: full localized guide at 1280x900; image labels readable, no figure link or horizontal overflow",
+    "mobile": "passed: full localized guide at 390x844; image labels readable, no figure link or horizontal overflow",
+    "served_asset": "passed: production build and security-header check; root and es-path built PNGs match verified originals byte for byte; public asset check pending"
+  },
+  "limitations": [
+    "Exact logical browser viewport of the source Rails window was not retained; Help preview viewports are documented separately.",
+    "Production deployment and public asset checks are pending."
+  ],
+  "status": "locally_verified_public_pending",
+  "privacy_check": "Full-size crop inspected: synthetic campaign titles, calendar dates, times, and status controls only; no contact identifiers, conversations, or customer records.",
+  "native_window": {
+    "id": 26501,
+    "width_points": 1635,
+    "height_points": 955,
+    "browser_zoom": "100%",
+    "selection": "exact window ID 26501 and title Panel de Enterprise | Hellotext"
+  },
+  "sourceRect": {
+    "x": -465,
+    "y": 400,
+    "width": 330,
+    "height": 500,
+    "unit": "capture helper --rect points"
+  },
+  "original_sha256": "2e0654c598438910abe9bb87bcebb282703e0ed4aea5be1f484f3252f1b73680",
+  "published_derivative_sha256": "2e0654c598438910abe9bb87bcebb282703e0ed4aea5be1f484f3252f1b73680"
+}
