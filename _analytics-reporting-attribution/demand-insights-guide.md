@@ -4,10 +4,10 @@ navigation_group: business_performance
 
 en:
   title: Demand insights guide
-  description: Understand unfulfilled product requests, estimated missed revenue, affected products, and unfulfilled demand rate.
+  description: Understand ended interactions without recorded conversion, estimated revenue, the Affected SKUs label, and unfulfilled rate.
 es:
   title: Guía de Insights de demanda
-  description: Entiende solicitudes de producto no satisfechas, ingresos perdidos estimados, productos afectados y tasa de demanda no satisfecha.
+  description: Entiende las interacciones finalizadas sin conversión registrada, la estimación de ingresos, la etiqueta SKUs afectados y la tasa no resuelta.
 
 permalink: demand-insights-guide
 permalink_es: guia-insights-demanda
