@@ -6,12 +6,12 @@ Usa el Reporte de carga y capacidad para entender cómo se distribuye el trabajo
 
 Este reporte combina el trabajo histórico del período seleccionado con una instantánea operativa en vivo. El selector de fechas no controla todas las secciones de la misma manera:
 
-- **Manejadas** usa el momento en que un colaborador manejó por primera vez la conversación mediante una respuesta elegible.
-- **Resueltas** usa el momento en que la conversación se resolvió o cerró.
-- **Carga activa**, concurrencia, presión de capacidad y eficiencia de sesión usan intervalos de trabajo o sesión que se superponen con el período seleccionado.
-- **Presión operativa** muestra la cola actual en el momento indicado por la sección. No está limitada por el período histórico seleccionado.
+- **Manejadas** cuenta conversaciones distintas con atención humana que se superpone con el período seleccionado.
+- **Resueltas** usa el momento en que terminó una interacción resuelta por una persona.
+- **Carga activa**, concurrencia, presión de capacidad y eficiencia de sesión usan intervalos de atención o sesión que se superponen con el período.
+- En **Presión operativa**, Sin respuesta, Mayor espera y Riesgo SLA muestran la cola actual; Utilización y Concurrente usan el período seleccionado, y Burn combina ambas fuentes.
 
-Por ejemplo: **Conversación iniciada el 7 de abril → Manejada por primera vez el 8 de abril → Resuelta el 10 de abril**. Contribuye a Manejadas el 8 de abril y a Resueltas el 10 de abril. Si una conversación sigue esperando ahora, aparece en Presión operativa ahora, sin importar cuándo comenzó.
+Por ejemplo, una conversación atendida el 8 y el 9 de abril y resuelta por una persona el 10 aparece en **Manejadas** de ambos días, pero una sola vez en el total del 8 al 10; aparece en **Resueltas** el 10. Si otra conversación tiene ahora un ciclo de respuesta SLA sin resolver, esa espera permanece actual al cambiar las fechas, mientras Utilización, Concurrente y Burn pueden variar.
 
 Este reporte no espera que madure una ventana de atribución. Los valores históricos todavía pueden cambiar si se corrigen responsables, eventos del ciclo de conversación o registros de sesión.
 
@@ -21,37 +21,37 @@ Selecciona una métrica para actualizar la línea de tiempo y los desgloses disp
 
 ### Carga activa
 
-Es la cantidad promedio de conversaciones abiertas y activas asignadas durante el período seleccionado.
+Es el porcentaje de capacidad de atención disponible que consumió el tiempo de atención registrado durante el período seleccionado. La capacidad disponible suma, para cada sesión, su duración multiplicada por el límite de conversaciones simultáneas guardado en ella.
 
-La carga activa describe trabajo en curso, no todas las conversaciones visibles en el Inbox. Compárala con la presión de capacidad, la salud de respuesta y la cola actual antes de concluir que un equipo está sobrecargado.
+No cuenta cuántas conversaciones están asignadas o visibles ahora. Compárala con la presión de capacidad, la salud de respuesta y la cola actual antes de concluir que un equipo está sobrecargado.
 
 ### Manejadas
 
-Es la cantidad de conversaciones donde un colaborador o equipo envió al menos una respuesta elegible durante el período seleccionado.
+Es la cantidad de conversaciones distintas con un intervalo de atención humana que se superpone con el período seleccionado. Una respuesta, nota interna o cierre humano puede iniciar ese intervalo cuando hay una sesión activa.
 
-Una conversación puede manejarse en un período y resolverse en otro. Manejadas mide el trabajo tomado, no su finalización.
+Una conversación puede contarse en varios días y en filas de más de un colaborador o equipo si recibió atención de ellos. El total del período la cuenta una sola vez.
 
 ### Resueltas
 
-Es la cantidad de conversaciones resueltas o cerradas por un colaborador o equipo durante el período seleccionado.
+Es la cantidad de conversaciones distintas cuya interacción terminó resuelta por una persona durante el período seleccionado. Una resolución exclusiva de IA no entra en esta métrica.
 
-Compara Resueltas con Manejadas a lo largo del tiempo. Una diferencia breve puede ser normal cuando las conversaciones duran varios días; una brecha persistente puede indicar que crece el trabajo sin terminar.
+Manejadas y Resueltas usan hechos y fechas diferentes. No restes una cifra de la otra para estimar la cola pendiente; revisa las conversaciones y esperas actuales por separado.
 
 ### Concurrencia
 
-Es la cantidad promedio de conversaciones atendidas al mismo tiempo durante el período seleccionado.
+Es el promedio de conversaciones atendidas al mismo tiempo durante la atención activa del período seleccionado, no durante todo el tiempo conectado.
 
 Una concurrencia alta puede ser apropiada para conversaciones simples o breves. Revísala junto con tiempos de respuesta, riesgo de SLA y calidad de las conversaciones en lugar de usar un mismo objetivo para todos los equipos.
 
 ### Asignadas
 
-Es la cantidad de conversaciones atendidas donde el colaborador seleccionado fue el primer responsable humano durante el período.
+Es la cantidad de conversaciones distintas atendidas en el período bajo un tramo de responsabilidad del colaborador que no comenzó con una transferencia desde otra persona.
 
-Esta métrica está disponible por colaborador porque describe responsabilidad individual y no un agregado del equipo.
+Ese tramo pudo comenzar antes del período y no demuestra que la persona haya sido la primera responsable de toda la conversación. La métrica está disponible por colaborador porque describe responsabilidad individual.
 
 ### Transferidas a
 
-Es la cantidad de conversaciones atendidas que el colaborador seleccionado heredó de otra persona durante el período.
+Es la cantidad de conversaciones distintas atendidas en el período bajo un tramo de responsabilidad que el colaborador heredó de otra persona. La transferencia pudo haber ocurrido antes del período.
 
 Las transferencias no son automáticamente un problema. Revisa las transferencias repetidas cuando indiquen enrutamiento poco claro, conocimiento faltante o una responsabilidad que comienza en el lugar equivocado.
 
@@ -67,11 +67,13 @@ Compara elementos equivalentes. Distintos equipos pueden recibir diferentes inte
 
 Cada barra muestra:
 
-- **Capacidad disponible:** capacidad de atención disponible para el período.
-- **Capacidad consumida:** tiempo de atención activa usado durante ese período.
+- **Capacidad disponible:** para cada colaborador, tiempo de sesión multiplicado por el límite de conversaciones simultáneas registrado en ella.
+- **Capacidad consumida:** suma del tiempo de atención de las conversaciones durante el período; dos conversaciones simultáneas aportan tiempo cada una.
 - **Presión:** capacidad consumida como porcentaje de la capacidad disponible.
 
-La capacidad depende de la configuración del Inbox para equipos y colaboradores. Un porcentaje alto invita a revisar la cola y la salud de respuesta, pero no demuestra por sí solo que debas aumentar la capacidad inmediatamente.
+La capacidad mostrada depende de las sesiones registradas y sus límites de conversaciones simultáneas. Un porcentaje alto invita a revisar la cola y la salud de respuesta, pero no demuestra por sí solo que debas aumentar la capacidad inmediatamente.
+
+En las barras por equipo, el reporte reparte la capacidad de una sesión entre los equipos a los que se atribuyó atención durante el período. Por eso, la capacidad de un equipo no equivale necesariamente a sumar todas las sesiones completas de sus integrantes.
 
 Consulta [Equipos y capacidad del Inbox]({% link _team/teams-and-inbox-capacity.md %}) antes de cambiar esta configuración.
 
@@ -82,51 +84,53 @@ Consulta [Equipos y capacidad del Inbox]({% link _team/teams-and-inbox-capacity.
 El gráfico separa:
 
 - **Tiempo total conectado:** tiempo de sesión registrado durante el período.
-- **Tiempo activo:** tiempo dedicado a atender conversaciones activamente.
+- **Tiempo activo:** tiempo de reloj dedicado a atender conversaciones; los intervalos simultáneos se cuentan una vez.
 - **Tiempo inactivo:** tiempo conectado sin atención activa de conversaciones.
 
 Usa esta vista para entender cómo se distribuyó el tiempo registrado en el Inbox. No es una medición completa de productividad: reuniones, pausas, tareas administrativas y responsabilidades fuera del Inbox pueden no aparecer como tiempo de atención activa.
 
+Ejemplo ilustrativo: una persona está conectada 60 minutos con un límite de dos conversaciones simultáneas. Dispone de 120 minutos de capacidad de atención. Si atiende dos conversaciones a la vez durante 30 minutos, consume 60 minutos de esa capacidad: **Carga activa** y **Presión de capacidad** son 50 % para esa persona. Su concurrencia durante el trabajo activo es 2, mientras **Eficiencia de sesión** muestra 30 minutos activos y 30 inactivos.
+
 ## Interpreta Presión operativa
 
-**Presión operativa** es una vista en vivo de la cola actual. Cambiar el período histórico no mueve esta sección hacia el pasado.
+**Presión operativa** combina obligaciones de respuesta actuales con estadísticas de atención del período seleccionado. Cambiar las fechas puede modificar Utilización, Concurrente y Burn, pero no convierte Sin respuesta, Mayor espera ni Riesgo SLA en datos históricos.
 
 Puedes verla por colaborador o equipo e interpretar estas columnas:
 
-- **Sin respuesta:** conversaciones actuales que todavía esperan una respuesta.
-- **Mayor espera:** la espera actual más larga de un cliente.
+- **Sin respuesta:** conversaciones actuales con un ciclo de respuesta SLA activo o vencido que aún no se respondió.
+- **Mayor espera:** el tiempo transcurrido del ciclo de respuesta sin resolver más antiguo de ese conjunto.
 - **Riesgo SLA:** indica si las obligaciones activas están en estado Seguro, En riesgo o Inminente.
-- **Utilización:** tiempo actual de atención activa comparado con el tiempo disponible de sesión registrado.
-- **Concurrente:** cantidad actual de conversaciones manejadas simultáneamente.
-- **Burn:** señal operativa que combina utilización, concurrencia y presión de SLA. Sus estados son Normal, Observación y En riesgo.
+- **Utilización:** proporción del tiempo de sesión registrado en el período que se dedicó a atención activa.
+- **Concurrente:** promedio de conversaciones simultáneas durante la atención activa del período seleccionado.
+- **Burn:** señal que combina Utilización y Concurrente del período con la presión SLA actual. Sus estados son Normal, Observación y En riesgo.
 
-Burn es un indicador de presión de la cola, no un diagnóstico ni una evaluación del rendimiento de una persona. Abre las conversaciones involucradas y considera horarios, enrutamiento y capacidad antes de actuar.
+Burn es una señal combinada, no un diagnóstico ni una evaluación del rendimiento de una persona. Revisa las conversaciones actuales con espera y considera horarios, enrutamiento y capacidad antes de actuar.
 
 ## Convierte el reporte en una acción
 
 | Si ves... | Revisa... |
 | --- | --- |
-| Sube la Carga activa | Nuevas asignaciones, trabajo sin resolver, capacidad del equipo y si las conversaciones se cierran al completarse. |
-| Manejadas se mantiene por encima de Resueltas | Si el trabajo normalmente atraviesa varios períodos o se acumulan conversaciones sin terminar. |
+| Sube la Carga activa | Tiempo de atención, sesiones y límites de simultaneidad registrados; luego compáralos con la espera y la salud de respuesta actuales. |
+| Manejadas se mantiene por encima de Resueltas | Fechas e intervalos de atención y resolución. La resta no mide la cola pendiente; revísala directamente. |
 | Concurrencia alta con respuestas más lentas | Límites de conversaciones simultáneas, complejidad, reglas de respuesta y disponibilidad del equipo. |
 | Transferencias concentradas en un colaborador | Destinos de enrutamiento, integrantes del equipo, conocimiento y responsabilidad inicial. |
 | Baja eficiencia de sesión registrada | Si el colaborador estaba disponible para el Inbox y si otras responsabilidades explican la diferencia. |
 | Aumentan Sin respuesta o Mayor espera | Las colas actuales sin asignar y asignadas, disponibilidad y salud de respuesta. |
-| Empeora el riesgo de SLA o Burn | Conversaciones que generan presión, Horario comercial, reglas de respuesta, enrutamiento, concurrencia y capacidad disponible. |
+| Empeora el riesgo de SLA o Burn | Si cambió la cola actual o el período seleccionado; revisa Horario comercial, reglas de respuesta, enrutamiento, concurrencia y capacidad disponible. |
 
-Usa las métricas históricas para identificar un patrón y Presión operativa para decidir qué necesita atención ahora.
+Distingue las columnas del período de las señales de la cola actual antes de decidir qué necesita atención.
 
 ## Cuando faltan datos o parecen incorrectos
 
 Confirma que:
 
 - los equipos y modos de capacidad del Inbox de cada colaborador estén configurados correctamente;
-- los colaboradores activos tengan valores realistas de conversaciones simultáneas y capacidad diaria de atención;
+- las sesiones tengan límites realistas de conversaciones simultáneas registrados;
 - las asignaciones y transferencias identifiquen al responsable correcto;
-- los colaboradores envíen respuestas y cierren las conversaciones completadas en el Inbox;
+- las respuestas, notas internas y cierres humanos que inician atención estén registrados en el Inbox;
 - las sesiones y los intervalos de atención activa estén registrados para el período;
 - las reglas de respuesta y el Horario comercial estén configurados al revisar riesgo de SLA; y
-- ambas comparaciones usen el mismo período, zona horaria, métrica y desglose.
+- ambas comparaciones usen el mismo período, zona horaria, métrica y desglose, separando las señales actuales de Presión operativa.
 
 Si los registros de origen existen pero el reporte sigue siendo inconsistente, consulta [Integridad de datos y diferencias en reportes]({% link _analytics-reporting-attribution/data-completeness-and-reporting-gaps.md %}).
 

@@ -33,7 +33,7 @@ Los reportes de Hellotext pueden asignar un resultado a uno de estos tres tipos 
 
 - **La fecha de la actividad de origen:** algunas métricas agrupan resultados posteriores por el mensaje, la interacción o la conversación que los originó, aunque el resultado ocurra otro día.
 - **La fecha en que ocurrió el resultado:** el período selecciona compras, reseñas, resoluciones u otros eventos completados dentro de ese rango.
-- **El estado actual:** la sección muestra qué es cierto en el momento indicado, como la cola actual, los seguimientos pendientes o la pertenencia a una audiencia.
+- **El estado actual:** la sección muestra qué es cierto en el momento indicado, como la carga actual, los seguimientos pendientes o la pertenencia a una audiencia.
 
 El reporte o la sección debe explicar qué fecha utiliza. Estas son las reglas más comunes:
 
@@ -48,7 +48,7 @@ El reporte o la sección debe explicar qué fecha utiliza. Estas son las reglas 
 | Ingresos por canal en el Reporte de ingresos | Fecha de compra de la venta atribuida; el canal identifica el origen acreditado. |
 | Insights de demanda | Fecha de finalización de la interacción; No resueltas exige determinados estados de cierre sin conversión registrada. |
 | Reseñas y feedback | El feedback recibido usa la fecha de envío de la respuesta; el rendimiento de recopilación usa la fecha de entrega de la solicitud; los seguimientos pendientes muestran el estado actual. |
-| Carga y capacidad | Manejadas cuenta atención humana superpuesta al período; Resueltas usa la fecha de resolución humana. En Presión operativa, Utilización y Concurrente usan el período; Sin respuesta, Mayor espera y Riesgo SLA muestran la cola actual; Burn combina ambos. |
+| Carga y capacidad | El trabajo atendido y resuelto usa la fecha de cada acción; la cola, el backlog y el riesgo muestran el estado actual. |
 
 Por ejemplo, si un mensaje de una misión se envía el 7 de abril y el cliente realiza una compra atribuida el 10 de abril, una métrica de ingresos agrupada por mensaje de origen puede mostrarla el 7. El Reporte de ingresos la cuenta el 10. Si el mensaje pertenece a una campaña, su reporte detallado también cuenta la compra el 10.
 
@@ -134,7 +134,7 @@ Después de confirmar el evento, revisa si pertenece a la métrica que estás an
 - La calidad de servicio depende del ciclo y datos de resolución de las conversaciones.
 - Las métricas de SLA necesitan los registros correspondientes de respuesta y tiempos.
 - Carga y capacidad dependen de asignaciones, transferencias, atención, resolución, equipos y personas.
-- En Presión operativa, Utilización y Concurrente usan las sesiones y la atención del período seleccionado; Sin respuesta, Mayor espera y Riesgo SLA reflejan la cola actual, y Burn combina ambas fuentes.
+- La presión operativa es una instantánea actual y no está restringida por el período histórico seleccionado en otras partes del reporte.
 
 ### Insights de demanda
 

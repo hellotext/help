@@ -33,7 +33,7 @@ Hellotext reports can assign a result to one of three kinds of dates:
 
 - **The date of the source activity:** some metrics group later outcomes by the message, interaction, or conversation that produced them, even when the outcome happened on another day.
 - **The date the result happened:** the period selects purchases, reviews, resolutions, or other events completed during that range.
-- **The current state:** the section shows what is true at the displayed time, such as the current queue, pending follow-ups, or audience membership.
+- **The current state:** the section shows what is true at the displayed time, such as current workload, pending follow-ups, or audience membership.
 
 The report or section should explain which date it uses. The most common rules are:
 
@@ -48,7 +48,7 @@ The report or section should explain which date it uses. The most common rules a
 | Revenue by channel in the Revenue report | Purchase date of the attributed sale; the channel identifies the credited source. |
 | Demand insights | Interaction end date; Unfulfilled requires certain closing states with no recorded conversion. |
 | Reviews and feedback | Submitted feedback uses submission date; collection performance uses request-delivery date; pending follow-ups show current state. |
-| Workload and capacity | Handled counts human handling that overlaps the period; Resolved uses the date of human resolution. In Operational Pressure, Utilization and Concurrent use the period; Unanswered, Oldest waiting, and SLA risk show the current queue; Burn combines both. |
+| Workload and capacity | Handled and resolved work uses the date of each action; queue, backlog, and risk sections show current state. |
 
 For example, if a playbook message is sent on April 7 and a customer makes an attributed purchase on April 10, a revenue metric grouped by source message can show it on April 7. The Revenue report counts it on April 10. If the message belongs to a campaign, its detail report also counts the purchase on April 10.
 
@@ -134,7 +134,7 @@ After confirming the event, check whether it belongs in the metric you are revie
 - Service quality depends on conversation lifecycle and resolution data.
 - SLA metrics need the relevant response and timing records.
 - Workload and capacity depend on assignments, transfers, handling, resolution, teams, and teammates.
-- In Operational Pressure, Utilization and Concurrent use sessions and handling from the selected period; Unanswered, Oldest waiting, and SLA risk reflect the current queue, and Burn combines both sources.
+- Operational pressure is a current snapshot and is not restricted by the historical period selected elsewhere in the report.
 
 ### Demand insights
 
