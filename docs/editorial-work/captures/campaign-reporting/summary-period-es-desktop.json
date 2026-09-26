@@ -2,24 +2,112 @@
   "article_source": "_i18n/es/analytics-reporting-attribution/campaign-reporting.md",
   "public_url": "https://help.hellotext.com/es/reportes-de-campaña",
   "locale": "es",
-  "step_and_target_control": "Elige el período del reporte: Primeros 14 días y las cuatro tarjetas de métricas resumidas",
+  "section_and_reader_task": "Elige el período del reporte; selector de Primeros 14 días y tarjetas del resumen",
+  "step_and_target_control": "Elige el período del reporte; selector de Primeros 14 días y tarjetas del resumen",
   "capture_date": "2026-09-26 UTC",
-  "capture_tool": "macOS ScreenCaptureKit exact-window helper docs/editorial-work/capture-tools/hellotext_capture_editor.swift; sourceRect, native 2x output, system cursor hidden by default, ImageIO PNG with Display P3 ICC",
-  "source_route_and_state": "Isolated local Rails demo at http://127.0.0.1:3190/hellotext/campaigns/<synthetic-demo-id>; db/seeds/local/campaign_report_showcase.rb; Spanish UI, Primeros 14 días selected, summary cards visible, Chrome zoom 150%, page scrolled 167 CSS pixels",
+  "capture_tool": "macOS ScreenCaptureKit exact-window helper (docs/editorial-work/capture-tools/hellotext_capture_editor.swift); system cursor hidden; ImageIO native 2x PNG with embedded Display P3 ICC",
+  "source_route_and_state": "Isolated local Rails snapshot 449d6ccc46 at http://127.0.0.1:3190/hellotext/campaigns/<synthetic-demo-id>, database hellotext_editorial_capture_20260926; synthetic campaign report, es UI, first 14 days selected; no campaign was sent.",
+  "fixture_data": {
+    "sent_messages": 5400,
+    "delivered_messages": 5133,
+    "tracked_clicks": 1032,
+    "attributed_purchases": 321,
+    "attributed_revenue_usd": 1872,
+    "funnel_percentages": {
+      "sent": 100,
+      "delivered": 95.1,
+      "engagement": 28,
+      "conversion": 6.3
+    },
+    "time_to_conversion_percentages": [
+      9,
+      47,
+      19,
+      25,
+      0
+    ],
+    "channel_revenue_percentages": {
+      "whatsapp": 60,
+      "sms": 40
+    },
+    "segment_revenue_percentages": {
+      "vip": 60,
+      "q2_2026": 50
+    },
+    "segment_note": "The two synthetic memberships overlap; shares need not sum to 100%."
+  },
   "demonstration_data_verified": true,
+  "privacy_check": "Exact crop contains only the isolated synthetic report; no contact identifiers, private activity, conversations, or other customer records.",
+  "native_window": {
+    "id": 26501,
+    "title": "Campaign Report Image Preview | Hellotext",
+    "frame_points": {
+      "x": 22,
+      "y": 61,
+      "width": 1635,
+      "height": 996
+    }
+  },
+  "sourceRect": {
+    "x": 152,
+    "y": 478,
+    "width": 1230,
+    "height": 300,
+    "unit": "global screen points"
+  },
   "original_file": "docs/editorial-work/captures/campaign-reporting/summary-period-es-desktop-original.png",
   "published_derivative": "images/analytics-reporting-attribution/campaign-reporting/summary-period-es.png",
-  "logical_viewport": { "width": 1090, "height": 546, "browser_zoom": "150%", "native_window_points": { "x": 22, "y": 61, "width": 1635, "height": 996 } },
-  "source_pixels": { "width": 3090, "height": 930 },
-  "max_display_css_pixels": { "width": 1000, "height": 301 },
-  "actual_file_format": "PNG, native 2x capture; published file is a byte-identical copy",
-  "icc_profile_and_verification": "Display P3 embedded ICC verified with file and sips; original and published SHA-256 5dd7a7b04202891222d56ac9e92cff65dcdd3a2f7877faf44eac14e193fe052e",
-  "native_color_provenance": "A native 16x16 Display P3 PNG probe on the same 2x monitor was verified before capture. ScreenCaptureKit captured window ID 26467 titled Campaign Report Image Preview | Hellotext at global sourceRect x=68, y=400, width=1545, height=465 points into 3090x930 pixels. The helper wrote a native Display P3 PNG directly, without a full-window intermediate, resampling, JPEG conversion, or profile reassignment.",
+  "logical_viewport": {
+    "width": null,
+    "height": null,
+    "browser_zoom": "100%",
+    "note": "Exact logical Chrome viewport not retained; exact sourceRect and native output were verified."
+  },
+  "source_pixels": {
+    "width": 2460,
+    "height": 600
+  },
+  "max_display_css_pixels": {
+    "width": 608.8125,
+    "height": 148.49,
+    "basis": "measured in built es article at 1280x900 desktop viewport"
+  },
+  "original_sha256": "fdf8df37d31404f7f805487d8e8b9216507f1c599a476b226f0e060c35845ce1",
+  "published_derivative_sha256": "fdf8df37d31404f7f805487d8e8b9216507f1c599a476b226f0e060c35845ce1",
+  "actual_file_format": "PNG, 8-bit RGBA, native 2x ScreenCaptureKit crop; static asset is a byte-identical copy",
+  "icc_profile_and_verification": "Display P3 embedded ICC verified with sips; native PNG signature and 2460x600 IHDR checked; original and static asset SHA-256 fdf8df37d31404f7f805487d8e8b9216507f1c599a476b226f0e060c35845ce1",
+  "native_color_provenance": "Exact Chrome window ID 26501 titled Campaign Report Image Preview | Hellotext; sourceRect 152,478,1230,300 global points; direct native 2x Display P3 PNG, no JPEG conversion, resampling, profile reassignment, or full-window intermediate.",
   "transformations": [],
-  "pointer": { "kind": "none; system cursor hidden and automation pointer moved below crop", "target": null, "coordinates": null },
-  "supersedes": "SHA-256 0b025849a4fa30a823daac11cd84b8ca981955a481c9d342f71934804775d58f; the prior capture contained an automation pointer over the Conversion value despite the hidden-cursor setting",
-  "verification": { "density": "passed: 3090 source pixels / 1000 planned maximum CSS pixels = 3.09x", "desktop": "passed: Spanish desktop article renders the four summary cards with no pointer over Conversion or another metric; English desktop still selects its English image; both figures are unlinked and have no horizontal overflow", "mobile": "passed: Spanish and English articles select their locale-matched mobile images at 390 CSS pixels, with no figure controls or horizontal overflow; mobile assets are unchanged", "served_asset": "passed: original, static asset, Spanish and English build copies, and the local server response have identical SHA-256 5dd7a7b04202891222d56ac9e92cff65dcdd3a2f7877faf44eac14e193fe052e" },
-  "public_verification": { "checked_at": "2026-09-26 04:55 UTC", "merged_help_commit": "4f37a30381e08c074fa459d854646bcb54283bce", "spanish_page": "https://help.hellotext.com/es/reportes-de-campaña (HTTP 200; references the Spanish desktop and mobile images)", "english_page": "https://help.hellotext.com/campaign-reporting (HTTP 200; references the English desktop and mobile images)", "spanish_image_sha256": "5dd7a7b04202891222d56ac9e92cff65dcdd3a2f7877faf44eac14e193fe052e", "status": "passed" },
-  "limitations": ["The demonstration fixture does not seed engagement rollups, so the funnel is outside this crop."],
-  "status": "verified_public"
+  "pointer": {
+    "kind": "none",
+    "system_cursor": "hidden by native helper",
+    "automation_pointer": "moved outside the sourceRect before capture",
+    "target": null,
+    "coordinates": null
+  },
+  "verification": {
+    "file": "passed: PNG signature, native dimensions, and embedded Display P3 profile",
+    "source_asset": "passed: original and static image bytes match SHA-256",
+    "density": "passed: source width 2460 px / rendered width 608.8125 CSS px = 4.041x",
+    "desktop": "passed: complete ES and EN articles inspected at 1280x900; all 7 localized figures load, no linked image controls or horizontal overflow",
+    "mobile": "passed: complete ES and EN articles inspected at 390x844; all 7 localized mobile figures load, no linked image controls or horizontal overflow",
+    "served_asset": "passed: original, static, built-site, and local HTTP-served bytes match; bilingual build and security-header check passed"
+  },
+  "public_verification": null,
+  "limitations": [],
+  "status": "verified_local",
+  "supersedes": {
+    "previous_capture_sha256": "5dd7a7b04202891222d56ac9e92cff65dcdd3a2f7877faf44eac14e193fe052e",
+    "previous_status_as_recorded": "verified_public",
+    "previous_public_verification": {
+      "checked_at": "2026-09-26 04:55 UTC",
+      "merged_help_commit": "4f37a30381e08c074fa459d854646bcb54283bce",
+      "spanish_page": "https://help.hellotext.com/es/reportes-de-campaña (HTTP 200; references the Spanish desktop and mobile images)",
+      "english_page": "https://help.hellotext.com/campaign-reporting (HTTP 200; references the English desktop and mobile images)",
+      "spanish_image_sha256": "5dd7a7b04202891222d56ac9e92cff65dcdd3a2f7877faf44eac14e193fe052e",
+      "status": "passed"
+    },
+    "earlier_replacement_history": "SHA-256 0b025849a4fa30a823daac11cd84b8ca981955a481c9d342f71934804775d58f; the prior capture contained an automation pointer over the Conversion value despite the hidden-cursor setting",
+    "reason": "Recaptured the first 14 days summary using the extended isolated fixture so the card values agree with the charts and other widgets in the article."
+  }
 }
