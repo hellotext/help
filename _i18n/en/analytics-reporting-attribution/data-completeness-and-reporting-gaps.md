@@ -45,7 +45,7 @@ The report or section should explain which date it uses. The most common rules a
 | Playbook report | Sends, deliveries, and clicks use each event's date; revenue and conversion metrics can group purchases by the date of the credited source message. |
 | Performance, Conversations, and Service Quality | Conversation start date. Later conversion, escalation, resolution, and satisfaction outcomes follow the originating conversation. |
 | Revenue by channel in the Revenue report | Purchase date of the attributed sale; the channel identifies the credited source. |
-| Demand insights | Date an eligible interaction classified as unfulfilled demand ended. |
+| Demand insights | Interaction end date; Unfulfilled requires certain closing states with no recorded conversion. |
 | Reviews and feedback | Submitted feedback uses submission date; collection performance uses request-delivery date; pending follow-ups show current state. |
 | Workload and capacity | Handled and resolved work uses the date of each action; queue, backlog, and risk sections show current state. |
 
@@ -137,7 +137,7 @@ After confirming the event, check whether it belongs in the metric you are revie
 
 ### Demand insights
 
-Demand insights require completed interactions that the report classifies as unfulfilled demand. Breakdowns need data for the selected dimension; order history can affect the estimated missed revenue. A customer question in Inbox does not automatically become an unfulfilled demand signal.
+Demand insights considers interactions that ended in the selected period. **Unfulfilled** requires that they were resolved by AI or a teammate or closed by an automation, with no recorded conversion. **Lost revenue** multiplies that count by the average positive tracked revenue amount in the period, or uses a fixed fallback if none exists. **Affected SKUs** counts distinct recommending Playbooks, not products. Some visible breakdown options have no calculation; a blank result does not establish zero activity. A question in Inbox does not enter this count on its own: closing state and conversion matter.
 
 ## 4. Check attribution separately
 
