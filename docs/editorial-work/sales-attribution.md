@@ -4,7 +4,7 @@
 
 - Article key: `analytics-reporting-attribution/sales-attribution.md`; public routes are `https://help.hellotext.com/es/como-atribuimos-las-ventas` and `https://help.hellotext.com/how-we-attribute-sales`. Both returned HTTP 200 on 2026-09-26.
 - The complete current Spanish and English bodies and shared stub were preserved byte for byte under `originals/sales-attribution/` before editing. The body SHA-256 values match `inventory.csv`: Spanish `8d9bcbd691990637f8470b146c732c90d1168553bdb899d4fbb34f68028a43fa`; English `6529afdac8392cfc55a3ddc1a7b8e8930484a0b60f9c2b1864c4ddd50196b8d8`. The shared stub is `ae2c19e8c024c64ba0f136f1a9293c9e528c00c8f3056fff67607c437fdbb4cf`.
-- Each body has 26 Markdown headings and ten Liquid article links; all link targets exist. `progress.csv` marks the pair `pending`. This branch starts from `origin/main` merge commit `8b345faa5ebc10a1facf0e0645ce53e1f7386277`. Preserve the published titles, slugs, language pairing, navigation placement, and existing destinations.
+- Before editing, each body had 26 Markdown headings and ten Liquid article links; all link targets existed. `progress.csv` marked the pair `pending`. The article branch started from `origin/main` merge commit `8b345faa5ebc10a1facf0e0645ce53e1f7386277`. The published titles, slugs, language pairing, navigation placement, and existing destinations were preserved.
 
 ## Reader task and article-specific plan
 
@@ -33,4 +33,10 @@ The reader needs to understand whether an individual sale qualifies, which sourc
 
 ## Current checkpoint
 
-The bilingual article is locally verified and committed. `progress.csv` records eight locally verified pairs, 145 pending pairs, and one redirect outside scope. Revenue and Dashboard remain pending their complete reviews and safe native screenshots. Push, PR, checks, merge and public verification for this Sales attribution batch are still pending.
+The bilingual article is locally verified, integrated, and publicly verified. `progress.csv` records eight locally verified pairs, 145 pending pairs, and one redirect outside scope; it intentionally uses local editorial status rather than a publication flag. Revenue and Dashboard remain pending their complete reviews and safe native screenshots.
+
+## Public verification (2026-09-26)
+
+- Help [PR 94](https://github.com/hellotext/help/pull/94) merged the three individual commits with merge commit `019bee5ee51dc75ad8fb6a0bcdac1865bd4980cd` at 10:47 UTC. Build, Aikido Security, Netlify preview and header checks passed. The Netlify preview returned HTTP 200 in both languages and contained the revised delivery, zero-value and custom-goal statements.
+- The Codex review raised a P2 comment claiming `fece70b` was unreachable. GitHub's [remote comparison](https://github.com/hellotext/help/compare/fece70b920d2caed26c0e881cbf5d9a19665b517...b835a6ccc9bb26448d07f7696fd07b730b12ef5d) confirms that it is the direct parent of the reviewed PR head. The evidence was posted in the review thread, which was resolved without a code change; mergeability was rechecked afterward.
+- The [main Build run](https://github.com/hellotext/help/actions/runs/36236824578) passed for the merge commit. At 10:48 UTC, Netlify served the [Spanish guide](https://help.hellotext.com/es/como-atribuimos-las-ventas) and [English guide](https://help.hellotext.com/how-we-attribute-sales) with HTTP 200 and the corrected localized text. No manual deployment occurred.
