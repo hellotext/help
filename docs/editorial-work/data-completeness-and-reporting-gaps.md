@@ -19,4 +19,9 @@ The reader traces a missing metric or reconciles two reports. The current guide 
 
 ## Verification and publication
 
-- Pending article edits and verification.
+- Both complete articles were revised: campaign-detail event dates and funnel eligibility, playbook source-message grouping, demand-insight interaction end dates, revenue-by-channel purchase dates, Dashboard historical metrics, and a dated message/purchase example. The diagnostic steps and all 21 headings are preserved.
+- Verified against Rails `Campaign::Metric`, `Report::Widget::Campaign::DeliveryFunnel`, `Automation::Workflow::Metric`, `Report::Calculator::Playbook::Base`, `Report::Calculator::DemandInsight::Base`, `Report::Section::Technologies`, and `Report::Metric::DataPresence`. The existing Demand insights, Playbook reporting, and Revenue report guides have older overbroad date explanations; their own pending inventory rows will address them. The already published Campaign reporting guide needs a separate small correction to its funnel wording.
+- Both translated bodies retain the same 15 Liquid links in the same order, and every source target exists. The shared metadata stub is unchanged. Both generated `.html` routes exist; `docs/` and `AGENTS.md` are excluded.
+- `PATH="/Users/pel/.rbenv/shims:$PATH" BUNDLE_PATH="/Users/pel/.codex/worktrees/dad4/hellotext-help/vendor/bundle" yarn build` passed, including `script/verify_security_headers.rb`.
+- Reviewed the full Spanish and English rendered accessibility trees and the introduction, date table, article ending, and page shell in the in-app browser at 1280px desktop and 390px mobile widths. The mobile tables wrap within 358px; neither page has horizontal overflow. The browser reported no application errors. The plain local server needs `.html` URLs and does not emulate production's extensionless routes.
+- Article edits are locally verified. `progress.csv`, push, PR, merge, Netlify deployment, and public verification are pending; this build is not a publication.

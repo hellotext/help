@@ -31,7 +31,7 @@ Usar las mismas fechas es necesario, pero no suficiente. También debes confirma
 
 Los reportes de Hellotext pueden asignar un resultado a uno de estos tres tipos de fecha:
 
-- **La fecha en que comenzó la actividad de origen:** el período selecciona mensajes, activaciones de misiones, conversaciones o solicitudes. Los resultados elegibles que ocurren después permanecen asignados a la fecha de origen.
+- **La fecha de la actividad de origen:** algunas métricas agrupan resultados posteriores por el mensaje o la conversación que los originó, aunque el resultado ocurra otro día.
 - **La fecha en que ocurrió el resultado:** el período selecciona compras, reseñas, resoluciones u otros eventos completados dentro de ese rango.
 - **El estado actual:** la sección muestra qué es cierto en el momento indicado, como la carga actual, los seguimientos pendientes o la pertenencia a una audiencia.
 
@@ -41,17 +41,17 @@ El reporte o la sección debe explicar qué fecha utiliza. Estas son las reglas 
 | --- | --- |
 | Dashboard | Los ingresos usan la fecha de compra, la actividad usa la fecha de cada evento y las tarjetas de estado actual reflejan el momento indicado. |
 | Reporte de ingresos | Fecha de compra. Las filas de campañas y misiones identifican la fuente acreditada para compras completadas durante el período seleccionado. |
-| Rendimiento de campañas | Fecha de entrega del mensaje. Los clicks y compras elegibles registrados después permanecen asignados a la entrega original. |
-| Reporte de una misión | Fecha de activación de la misión. Los mensajes posteriores y las compras atribuidas permanecen asignados a la activación original. |
+| Reporte detallado de una campaña | Los envíos, entregas, clics y compras atribuidas se cuentan en la fecha de cada evento. La etapa Interacción del embudo exige que la entrega y un clic rastreado ocurran dentro del período seleccionado. |
+| Reporte de una misión | Envíos, entregas y clics usan la fecha de cada evento; las métricas de ingresos y conversión pueden agrupar compras por la fecha del mensaje de origen acreditado. |
 | Rendimiento, Conversaciones y Calidad de servicio | Fecha de inicio de la conversación. La conversión, derivación, resolución y satisfacción posteriores siguen a la conversación de origen. |
-| Rendimiento de canales | Fecha de envío del mensaje. La entrega, interacción y ventas atribuidas posteriores siguen a esos mensajes. |
-| Insights de demanda | Fecha en que comenzó la solicitud no resuelta. La recuperación posterior sigue a la solicitud original. |
+| Ingresos por canal en el Reporte de ingresos | Fecha de compra de la venta atribuida; el canal identifica el origen acreditado. |
+| Insights de demanda | Fecha en que terminó la interacción elegible clasificada como demanda no satisfecha. |
 | Reseñas y feedback | El feedback recibido usa la fecha de envío de la respuesta; el rendimiento de recopilación usa la fecha de entrega de la solicitud; los seguimientos pendientes muestran el estado actual. |
 | Carga y capacidad | El trabajo atendido y resuelto usa la fecha de cada acción; la cola, el backlog y el riesgo muestran el estado actual. |
 
-Por ejemplo, si una misión se activa el 7 de abril y el cliente compra el 10 de abril, el reporte de la misión cuenta el resultado el 7 de abril. El Reporte de ingresos cuenta esa misma compra el 10 de abril. Ambos son correctos porque responden preguntas diferentes.
+Por ejemplo, si un mensaje de una misión se envía el 7 de abril y el cliente realiza una compra atribuida el 10 de abril, una métrica de ingresos agrupada por mensaje de origen puede mostrarla el 7. El Reporte de ingresos la cuenta el 10. Si el mensaje pertenece a una campaña, su reporte detallado también cuenta la compra el 10.
 
-La regla que asigna la fecha no extiende ni reemplaza la ventana de atribución. Una compra posterior se agrega a la fecha de origen solo cuando cumple las reglas de atribución de Hellotext.
+La regla que asigna la fecha no extiende ni reemplaza la ventana de atribución. En las métricas agrupadas por origen, una compra posterior se agrega a la fecha del mensaje solo cuando cumple las reglas de atribución de Hellotext.
 
 ### Iguala la definición de la métrica
 
@@ -108,7 +108,7 @@ Después de confirmar el evento, revisa si pertenece a la métrica que estás an
 
 ### Dashboard
 
-- El evento debe estar dentro del período fijo de 14 días.
+- En las métricas históricas, el evento debe estar dentro del período fijo de 14 días.
 - Los ingresos atribuidos necesitan un registro de atribución positivo y activo.
 - El benchmark de ingresos también necesita ingresos totales de comercio para el período.
 - Conversaciones cuenta inicios de conversaciones, no el estado actual de la cola.
@@ -116,16 +116,16 @@ Después de confirmar el evento, revisa si pertenece a la métrica que estás an
 
 ### Reportes de campañas
 
-- La entrega elegible del mensaje debe estar dentro del período seleccionado para la campaña.
+- En el reporte detallado, cada envío, entrega, clic y compra atribuida se cuenta si ese evento ocurre dentro del período seleccionado.
 - Las métricas de entrega necesitan un resultado de entrega registrado.
-- El CTR necesita un click registrado y el denominador de mensajes entregados.
-- La conversión y los ingresos necesitan una compra atribuida elegible, que puede ocurrir después y permanecer asignada a la fecha de entrega original.
+- El CTR necesita clics registrados durante el período y mensajes entregados para su denominador.
+- La conversión y los ingresos necesitan una compra atribuida elegible dentro del período; la entrega original puede haber ocurrido antes. Si no hay entregas en el rango, la tasa de conversión puede mostrarse en cero aunque haya una compra atribuida.
 
 ### Reportes de misiones y rendimiento
 
 - La misión, la ruta o el agente debe estar en actividad y recibir tráfico elegible.
 - Debe registrarse el evento requerido de disparador, interacción, conversión, derivación o resolución.
-- El reporte de una misión selecciona las fechas de activación originales; el Reporte de rendimiento selecciona las fechas de inicio de las conversaciones. Los resultados elegibles posteriores permanecen vinculados con esa actividad original.
+- El reporte de una misión combina métricas por fecha de evento con ingresos agrupados por mensaje de origen; el Reporte de rendimiento agrupa resultados por la fecha de inicio de la conversación. Revisa la regla de cada métrica antes de comparar períodos.
 - Un desglose por canal, misión, IA frente a personas o equipo necesita esa dimensión en la actividad de origen.
 
 ### Reportes de operaciones
@@ -137,7 +137,7 @@ Después de confirmar el evento, revisa si pertenece a la métrica que estás an
 
 ### Insights de demanda
 
-Los insights de demanda necesitan señales compatibles de solicitudes no resueltas y suficiente contexto de producto, intención, comercio y valor para calcular la métrica elegida. Una pregunta del cliente en Inbox no se convierte automáticamente en una señal de demanda no resuelta.
+Insights de demanda necesita interacciones finalizadas que el reporte clasifique como demanda no satisfecha. Los desgloses requieren datos de la dimensión elegida; el historial de pedidos puede afectar la estimación de ingresos perdidos. Una pregunta del cliente en Inbox no se convierte automáticamente en una señal de demanda no satisfecha.
 
 ## 4. Revisa la atribución por separado
 
@@ -162,8 +162,8 @@ Consulta [Atribución de ventas]({% link _analytics-reporting-attribution/sales-
 | Comparación | Por qué puede ser diferente |
 | --- | --- |
 | Dashboard vs reporte detallado | El Dashboard usa 14 días fijos; el reporte tiene su propio período y métrica. |
-| Reporte de una misión vs Reporte de ingresos | El reporte de la misión asigna los resultados posteriores a la fecha de activación original; Ingresos incluye la compra en su fecha de compra. |
-| Reporte de campaña vs Reporte de ingresos | El rendimiento de la campaña asigna una compra elegible a la fecha de entrega original; Ingresos la incluye en su fecha de compra. |
+| Reporte de una misión vs Reporte de ingresos | Una métrica de ingresos de la misión puede agrupar la compra por fecha del mensaje de origen; Ingresos la incluye en su fecha de compra. Otras métricas de la misión usan la fecha de cada evento. |
+| Reporte detallado de una campaña vs Reporte de ingresos | Ambos cuentan la compra en su fecha, pero el primero muestra las ventas atribuidas a esa campaña; Ingresos incluye las demás fuentes y también puede mostrar ingresos totales. |
 | Ingresos totales de Hellotext vs ingresos de la tienda | Hellotext solo puede reportar los pedidos y actualizaciones compatibles que recibió; también pueden diferir la fecha, moneda, estado, duplicados, reembolsos, impuestos, envío o definiciones netas/brutas. |
 | Ingresos totales vs ingresos atribuidos | Los ingresos totales incluyen ingresos de comercio no atribuidos; la atribución necesita evidencia elegible de Hellotext. |
 | Monto de Acciones vs Reporte de ingresos | Una acción puede incluir dinero sin representar ingresos canónicos de pedidos ni recibir atribución. |
@@ -197,7 +197,7 @@ Los resultados recientes pueden cambiar porque:
 - llega evidencia de origen más fuerte; o
 - una corrección de identidad conecta actividad que estaba separada.
 
-En los reportes basados en la actividad de origen, una fecha reciente puede seguir creciendo mientras su ventana de resultados o atribución continúe abierta. Usa un período anterior cuyas ventanas ya hayan cerrado para comparaciones finales. Para campañas actuales o misiones siempre activas, considera provisionales los primeros resultados.
+En las métricas agrupadas por mensaje de origen o inicio de conversación, una fecha reciente puede seguir creciendo mientras su ventana de resultados o atribución continúe abierta. Usa un período anterior cuyas ventanas ya hayan cerrado para comparaciones más estables. Para campañas actuales o misiones siempre activas, considera provisionales los primeros resultados.
 
 ## Cuándo contactar a Soporte
 
