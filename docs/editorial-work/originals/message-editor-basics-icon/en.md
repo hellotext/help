@@ -25,7 +25,7 @@ To make a text section italic, select the text you want to format and use the sh
 #### Links
 
 Links are created with the link tool in the editor. The link tool lets you add a tracked link inside your message.
-The link element has the following icon <img style="display: inline; width: 20px; height: 20px; vertical-align: middle;" src="{{site.url}}/images/icons/link.svg" width="20" height="20" alt="Link icon">
+The link element has the following icon <img style='display: inline;'  src="{{site.url}}/images/icons/link.svg">
 and is located in the editor toolbar. You can open the link tool with these shortcuts:
 
 - <kbd> Ctrl</kbd> + <kbd>K</kbd> on Windows
