@@ -32,9 +32,9 @@ Sigue leyendo: [Guía del Reporte de rendimiento]({% link _analytics-reporting-a
 
 ## Insights de demanda
 
-Insights de demanda identifica solicitudes de producto que no pudieron satisfacerse, los productos y variantes afectados y el valor estimado de esas oportunidades perdidas.
+Insights de demanda resume ciertas interacciones finalizadas sin una conversión registrada. Muestra un recuento, una estimación de ingresos y una tasa; su tarjeta **SKUs afectados** cuenta Misiones de recomendación distintas asociadas, no productos.
 
-Úsalo cuando necesites priorizar problemas de inventario, catálogo, disponibilidad o recomendaciones alternativas a partir de la demanda observada de clientes.
+Úsalo para investigar cambios en ese recuento y su tasa. Si necesitas revisar conversiones registradas, consulta los registros de origen por separado; para problemas de inventario, catálogo o disponibilidad, revisa los datos de producto y las conversaciones.
 
 Sigue leyendo: [Guía de Insights de demanda]({% link _analytics-reporting-attribution/demand-insights-guide.md %}).
 
