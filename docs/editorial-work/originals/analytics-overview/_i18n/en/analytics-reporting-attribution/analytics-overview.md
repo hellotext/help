@@ -1,18 +1,10 @@
-Use analytics and reporting to understand customer activity, campaign and playbook results, team workload, and revenue attributed to Hellotext.
+Use analytics and reporting to understand what happened after Hellotext sent a message, activated a playbook or route, or linked activity back to your store.
 
-This section helps you answer:
+This section connects three related questions:
 
 - How did a campaign, playbook, or route perform?
-- Which actions followed a message, and which customer needs went unmet?
-- How were conversations resolved and work distributed?
+- Which customer actions happened after the message?
 - Which revenue was attributed to Hellotext?
-- Why is data missing or do two reports show different results?
-
-## Start with the Dashboard
-
-The Dashboard summarizes the last 14 days, tracked actions, and scheduled or delivered campaigns. Use it to spot a change, then open the detailed report to investigate its source.
-
-Keep reading: [Dashboard guide]({% link _analytics-reporting-attribution/dashboard-guide.md %}).
 
 ## Revenue report
 
@@ -87,7 +79,6 @@ If your store is connected through a supported integration, many events may be t
 Keep reading:
 
 - [What are signals?]({% link _journeys/what-are-signals.md %})
-- [Tracked links]({% link _analytics-reporting-attribution/tracked-links.md %})
 - [Tracking events]({% link _developers/tracking-events.md %})
 - [Troubleshoot missing signals or activity]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %})
 
@@ -101,15 +92,11 @@ When reviewing performance, check:
 - Whether the order contains a recognized external source that takes precedence.
 - Whether checkout ownership or path-specific team participation affected the decision.
 
-Two reports can place the same outcome on different dates: a campaign report uses delivery date, while the Revenue report uses purchase date. Recent results can also change while late events arrive or an attribution window remains open. If the numbers do not match, follow [Data completeness and reporting gaps]({% link _analytics-reporting-attribution/data-completeness-and-reporting-gaps.md %}) before changing tracking.
-
 If you are reviewing your first launch, start with [Measure success in your first 7 days]({% link _getting-started/measure-success-first-7-days.md %}).
 
 ## Related guides
 
 - [Measure success in your first 7 days]({% link _getting-started/measure-success-first-7-days.md %})
-- [Dashboard guide]({% link _analytics-reporting-attribution/dashboard-guide.md %})
-- [Data completeness and reporting gaps]({% link _analytics-reporting-attribution/data-completeness-and-reporting-gaps.md %})
 - [Revenue report guide]({% link _analytics-reporting-attribution/revenue-report-guide.md %})
 - [Performance report guide]({% link _analytics-reporting-attribution/performance-report-guide.md %})
 - [Demand insights guide]({% link _analytics-reporting-attribution/demand-insights-guide.md %})
