@@ -19,7 +19,7 @@
     "sips lossless crop to 1144x760 pixels at source offset x=0, y=98, removing unrelated empty lower panel and cursor while retaining the embedded Display P3 profile"
   ],
   "pointer": { "kind": "none in published derivative", "target": "Elige una condición", "coordinates": null },
-  "verification": { "density": "passed: 1144 source pixels / 550 planned CSS pixels = 2.08x minimum; rendered 532px desktop and 316px mobile", "desktop": "passed: chooser visible in the Spanish guide at 1635px viewport; full-size link opens native 1144x760 PNG", "mobile": "passed: chooser visible at 390px viewport without page overflow", "served_asset": "passed: yarn build and security-header check; built root and Spanish-path PNGs byte-identical to source with Display P3 profile" },
+  "verification": { "density": "passed: 1144 source pixels / 550 planned CSS pixels = 2.08x minimum; rendered 532px desktop and 316px mobile", "desktop": "passed: static chooser figure visible in the Spanish guide at 1635px viewport, without image link or expand control", "mobile": "passed: key chooser labels readable at 390px viewport without page overflow", "served_asset": "passed: yarn build and security-header check; built root and Spanish-path PNGs byte-identical to source with Display P3 profile" },
   "limitations": ["The live interface was captured in Spanish; no English UI capture was made.", "The unsaved editor does not demonstrate a saved segment or calculated membership."],
   "status": "verified_in_local_article_not_published"
 }

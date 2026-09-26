@@ -17,7 +17,7 @@
   "native_color_provenance": "The same 2x display produced a native 16x16 PNG corner probe with embedded Display P3. ScreenCaptureKit captured a 293x299-point region of the exact Chrome window into 586x598 pixels with Display P3 output color management; no JPEG pixels or profile reassignment were used.",
   "transformations": [],
   "pointer": { "kind": "none in retained crop", "target": "Nuevo Segmento hovered and highlighted", "coordinates": null },
-  "verification": { "density": "passed: 586 source pixels / 280 planned CSS pixels = 2.09x minimum; rendered 262px desktop and 268px mobile", "desktop": "passed: menu visible in the Spanish guide at 1635px viewport; full-size link opens native 586x598 PNG", "mobile": "passed: menu visible at 390px viewport without page overflow", "served_asset": "passed: yarn build and security-header check; built root and Spanish-path PNGs byte-identical to source with Display P3 profile" },
+  "verification": { "density": "passed: 586 source pixels / 280 planned CSS pixels = 2.09x minimum; rendered 262px desktop and 268px mobile", "desktop": "passed: static menu figure visible in the Spanish guide at 1635px viewport, without image link or expand control", "mobile": "passed: menu visible at 390px viewport without page overflow; image is inert when clicked", "served_asset": "passed: yarn build and security-header check; built root and Spanish-path PNGs byte-identical to source with Display P3 profile" },
   "limitations": ["The live interface was captured in Spanish; no English UI capture was made."],
   "status": "verified_in_local_article_not_published"
 }

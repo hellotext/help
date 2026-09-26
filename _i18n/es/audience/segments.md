@@ -24,10 +24,9 @@ En el menú del botón **+**, **Nuevo Segmento** aparece debajo de **Importar Cl
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Menú para crear un segmento">
   <div class="ht-editorial-visual__stage">
-    <a class="ht-editorial-visual__image-link" href="/images/audience/segments/audience-menu-es.png" target="_blank" rel="noopener noreferrer" aria-label="Ampliar el menú de Audiencia con Nuevo Segmento" style="max-width: 280px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 280px; margin: 0 auto;">
       <img class="ht-editorial-visual__image" src="/images/audience/segments/audience-menu-es.png" width="586" height="598" loading="lazy" decoding="async" alt="Menú del botón más en Audiencia con la opción Nuevo Segmento resaltada, debajo de Importar Clientes." />
-      <span class="ht-editorial-visual__expand" aria-hidden="true">↗</span>
-    </a>
+    </div>
   </div>
   <figcaption class="ht-editorial-visual__caption">Captura de la interfaz real en español; el menú está abierto y no muestra datos de clientes.</figcaption>
 </figure>
@@ -36,10 +35,9 @@ En el editor, **Elige una condición** ofrece estos dos tipos de criterio:
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Tipos de condición de un segmento nuevo">
   <div class="ht-editorial-visual__stage">
-    <a class="ht-editorial-visual__image-link" href="/images/audience/segments/condition-chooser-es.png" target="_blank" rel="noopener noreferrer" aria-label="Ampliar el selector de condiciones del editor de segmentos" style="max-width: 550px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 550px; margin: 0 auto;">
       <img class="ht-editorial-visual__image" src="/images/audience/segments/condition-chooser-es.png" width="1144" height="760" loading="lazy" decoding="async" alt="Editor Nuevo Segmento con Elige una condición abierto y las opciones Actividad del cliente y Características del cliente." />
-      <span class="ht-editorial-visual__expand" aria-hidden="true">↗</span>
-    </a>
+    </div>
   </div>
   <figcaption class="ht-editorial-visual__caption">Captura de la interfaz real en español con un segmento de demostración sin guardar.</figcaption>
 </figure>
@@ -84,10 +82,12 @@ En este ejemplo, el primer bloque incluye a clientes que se suscribieron **o** e
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Ejemplo de condiciones O e Y en el editor de segmentos">
   <div class="ht-editorial-visual__stage">
-    <a class="ht-editorial-visual__image-link" href="/images/audience/segments/rule-logic-es.png" target="_blank" rel="noopener noreferrer" aria-label="Ampliar el ejemplo de condiciones O e Y" style="max-width: 550px; margin: 0 auto;">
-      <img class="ht-editorial-visual__image" src="/images/audience/segments/rule-logic-es.png" width="1144" height="1250" loading="lazy" decoding="async" alt="Bloque Actividad del cliente con Se suscribió O Cliente envió un mensaje; debajo, Y conecta un bloque Características del cliente con Edad más que 18." />
-      <span class="ht-editorial-visual__expand" aria-hidden="true">↗</span>
-    </a>
+    <div class="ht-editorial-visual__image-frame" style="max-width: 550px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/audience/segments/rule-logic-es-mobile.png" width="640" height="1160" />
+        <img class="ht-editorial-visual__image" src="/images/audience/segments/rule-logic-es.png" width="1144" height="1250" loading="lazy" decoding="async" alt="Bloque Actividad del cliente con Se suscribió O Cliente envió un mensaje; debajo, Y conecta un bloque Características del cliente con Edad más que 18." />
+      </picture>
+    </div>
   </div>
   <figcaption class="ht-editorial-visual__caption">Captura de la interfaz real en español con condiciones de demostración en un segmento sin guardar.</figcaption>
 </figure>

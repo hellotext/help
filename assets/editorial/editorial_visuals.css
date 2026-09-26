@@ -104,22 +104,14 @@ figure.ht-editorial-visual.ht-editorial-visual,
   --ev-stage: var(--ev-stage-webchat);
 }
 
-figure.ht-editorial-visual a.ht-editorial-visual__image-link[href] {
-  position: relative;
+figure.ht-editorial-visual .ht-editorial-visual__image-frame {
   display: block;
   overflow: hidden;
   padding: 8px;
   border: 1px solid var(--ev-border);
   border-radius: 16px;
   background: var(--ev-white);
-  color: var(--ev-indigo);
-  text-decoration: none;
   box-shadow: 0 8px 20px color-mix(in srgb, var(--ev-night) 5%, transparent);
-}
-
-.ht-editorial-visual .ht-editorial-visual__image-link:focus-visible {
-  outline: 2px solid var(--ev-indigo);
-  outline-offset: 4px;
 }
 
 .ht-editorial-visual img.ht-editorial-visual__image {
@@ -131,24 +123,6 @@ figure.ht-editorial-visual a.ht-editorial-visual__image-link[href] {
   border: 0;
   border-radius: 8px;
   box-shadow: none;
-}
-
-.ht-editorial-visual .ht-editorial-visual__expand {
-  position: absolute;
-  right: 14px;
-  bottom: 14px;
-  display: flex;
-  width: 32px;
-  height: 32px;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid var(--ev-border);
-  border-radius: 9px;
-  background: var(--ev-white);
-  color: var(--ev-indigo);
-  font-family: var(--ev-body);
-  font-size: 20px;
-  line-height: 1;
 }
 
 .ht-editorial-visual .ht-editorial-visual__panels {
@@ -1428,7 +1402,7 @@ figure.ht-editorial-visual a.ht-editorial-visual__image-link[href] {
     border-radius: 18px;
   }
 
-  figure.ht-editorial-visual a.ht-editorial-visual__image-link[href] {
+  figure.ht-editorial-visual .ht-editorial-visual__image-frame {
     padding: 5px;
     border-radius: 12px;
   }
