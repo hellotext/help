@@ -8,6 +8,5 @@ Habilitar el registro de marketing te permite recopilar el correo electrónico o
 - Selecciona Email, SMS o ambas.
 - ¡Listo!
 
-![Shopify Marketing Options](images/captures/shopify-marketing-options.png)
-
 Esto es lo que deberías ver. Asegúrate de seleccionar tu método de marketing preferido, o ambos.
+![Shopify Marketing Options](images/captures/shopify-marketing-options.png)

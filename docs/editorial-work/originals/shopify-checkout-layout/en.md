@@ -8,6 +8,5 @@ Enabling marketing sign-up allows you to collect email addresses or phone number
 - Select Email, SMS or both.
 - You're done!
 
-![Shopify Marketing Options](images/captures/shopify-marketing-options.png)
-
 Here's what you should see. Make sure to select your preferred marketing method, or both.
+![Shopify Marketing Options](images/captures/shopify-marketing-options.png)
