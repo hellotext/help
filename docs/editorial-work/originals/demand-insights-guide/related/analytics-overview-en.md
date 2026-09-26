@@ -32,9 +32,9 @@ Keep reading: [Performance report guide]({% link _analytics-reporting-attributio
 
 ## Demand insights
 
-Demand insights summarizes certain ended interactions without a recorded conversion. It shows a count, revenue estimate, and rate; its **Affected SKUs** card counts distinct associated recommending Playbooks, not products.
+Demand insights identifies product requests that could not be fulfilled, the products and variants affected, and the estimated value of those missed opportunities.
 
-Use it to investigate changes in that count and its rate. If you need to review recorded conversions, check the source records separately; for inventory, catalog, or availability problems, inspect product data and conversations.
+Use it when you need to prioritize inventory, catalog, availability, or alternative-recommendation problems based on observed customer demand.
 
 Keep reading: [Demand insights guide]({% link _analytics-reporting-attribution/demand-insights-guide.md %}).
 

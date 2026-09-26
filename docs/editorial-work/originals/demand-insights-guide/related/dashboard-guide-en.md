@@ -93,7 +93,7 @@ The report cards are divided into **Business Performance** and **Operations & Ex
 | --- | --- |
 | **Revenue report** | How much revenue was recorded, what was attributed to AI or the team, and which channels, playbooks, or campaigns received credit? |
 | **Performance report** | How are conversion rate, time to conversion, and escalation rate changing? |
-| **Demand insights** | How many interactions resolved by AI or teammates, or closed by automations, have no recorded conversion, and what revenue estimate does the report show? |
+| **Demand insights** | Which customer requests could not be fulfilled, which products were affected, and what revenue may have been missed? |
 | **Service quality report** | How often did AI or the team resolve conversations, meet SLA, or leave conversations unresolved? |
 | **Workload & capacity report** | How much work is assigned, handled, resolved, transferred, or active across teammates and teams? |
 

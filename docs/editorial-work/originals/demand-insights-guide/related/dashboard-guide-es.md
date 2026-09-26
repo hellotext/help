@@ -93,7 +93,7 @@ Las tarjetas de reportes se dividen entre **Rendimiento del negocio** y **Operac
 | --- | --- |
 | **Reporte de ingresos** | ¿Cuántos ingresos se registraron, cuáles se atribuyeron a IA o al equipo y qué canales, misiones o campañas recibieron crédito? |
 | **Reporte de rendimiento** | ¿Cómo están cambiando la tasa de conversión, tiempo hasta conversión y tasa de derivación? |
-| **Insights de demanda** | ¿Cuántas interacciones resueltas por IA o colaboradores, o cerradas por automatizaciones, no tienen conversión registrada, y qué estimación de ingresos muestra el reporte? |
+| **Insights de demanda** | ¿Qué solicitudes de clientes no pudieron resolverse, qué productos fueron afectados y cuántos ingresos podrían haberse perdido? |
 | **Reporte de calidad de servicio** | ¿Con qué frecuencia la IA o el equipo resolvieron conversaciones, cumplieron el SLA o dejaron conversaciones sin resolver? |
 | **Reporte de carga y capacidad** | ¿Cuánto trabajo está asignado, manejado, resuelto, transferido o activo entre colaboradores y equipos? |
 

@@ -1,136 +1,103 @@
-Use Demand insights to understand what customers tried to buy but could not, which products were affected, and the estimated value of those missed opportunities.
+Demand insights summarizes interactions that ended without a recorded conversion. It shows their count, a revenue estimate, and other metrics that need careful interpretation. On its own, it does not identify requests for a specific product, stock shortages, or confirmed lost sales.
 
 Open it from the **Demand insights** card under **Business Performance** on the Dashboard.
 
-## What an unfulfilled request means
+## What Unfulfilled means
 
-An unfulfilled request is a product-related customer request that Hellotext identified with a supported unavailability reason, such as an out-of-stock product or an unavailable size.
+Although the card is labeled **Unfulfilled**, the report counts interactions that ended in the selected period, were resolved by AI or a teammate or closed by an automation, and have no recorded conversion. One person can have multiple interactions.
 
-It is not the same as:
-
-- an open conversation in Inbox;
-- a support question that AI could not answer;
-- an AI escalation to a teammate; or
-- every product question a customer asks.
-
-The report needs a supported demand signal and enough product or commerce context to classify the request. A conversation does not become unfulfilled demand merely because it ended without a purchase.
+This figure does not represent conversations still open in Inbox. The report does not distinguish whether a closed interaction was a support question or a request for an out-of-stock product. It also does not prove that someone intended to buy: the calculation does not require a product, an unavailability reason, or inventory data.
 
 ## How this report counts results
 
-The selected period is based on when the unfulfilled request began. A later eligible recovery remains connected to that originating request and can update the earlier result.
+The selected period uses the **interaction end date**, not its start date. For example, an interaction that started April 7 and ended April 9 belongs to a period that includes April 9. If a conversion is recorded for that interaction later, it may stop counting as Unfulfilled when the report updates.
 
-For example: **Product request began April 7 → Product became available and customer purchased April 9 → Recovery remains connected to April 7.**
-
-Recent dates can change while requests remain inside their recovery window. Compare older periods when you need stable results, and compare recent periods at the same age.
+This calculation has no demand-recovery window. When comparing periods, use the same timezone and remember that later status and conversion updates can change the figures.
 
 ## Read the main metrics
 
-Select a metric to update the timeline and available breakdowns.
+Select a metric to update the timeline and the breakdowns shown by the report.
 
 ### Unfulfilled
 
-The number of supported product requests that Hellotext could not fulfill for the customer.
-
-One customer can generate more than one request when they ask for different products or variants. This is request volume, not necessarily a count of unique customers or conversations.
+The number of ended interactions that meet the conditions above and have no recorded conversion. It counts interactions, not unique customers or product requests.
 
 ### Lost revenue
 
-The estimated value associated with purchase requests that could not be completed.
+An **estimate** calculated by multiplying the Unfulfilled count by the average positive tracked revenue amount in the selected period. If there is no positive revenue from which to calculate that average, the report uses a fixed fallback value.
 
-Hellotext uses the product, value, and commerce context available for the request to estimate the opportunity. This value is directional:
-
-- it is not completed revenue;
-- it is not attributed revenue;
-- it does not prove the customer would have purchased; and
-- incomplete product or price context can limit the estimate.
-
-Use it to prioritize repeated and valuable demand patterns, not to reconcile booked sales.
+It does not use the price of a product someone asked about. It is not confirmed lost sales, revenue attributed to those interactions, or a prediction of what each customer would have bought. Review the interaction count and average revenue before interpreting a change in this figure.
 
 ### Affected SKUs
 
-The number of unique products or variants connected to at least one unfulfilled demand signal.
+Although the card is labeled **Affected SKUs**, the current calculation counts **distinct recommending Playbooks** associated with Unfulfilled interactions. It does not count unique products, variants, or SKUs.
 
-This metric separates breadth from volume. Ten requests for one product create more request volume but do not represent ten affected SKUs.
+Do not use this figure to decide how many products need restocking. To investigate availability, review catalog data and related conversations separately.
 
 ### Unfulfilled rate
 
-The percentage of eligible product-related requests that could not be fulfilled.
+The Unfulfilled count divided by **all interactions that ended in the selected period**, expressed as a percentage. The denominator is not limited to product questions or Inbox conversations.
 
-The denominator is the eligible product-demand population, not all Inbox conversations. Review the request count with the rate: a large percentage from a very small population needs different action than the same percentage across thousands of requests.
+Read the rate alongside the count: it can rise because Unfulfilled interactions increased or because the total number of ended interactions fell.
 
 ## Use the breakdowns
 
-The available breakdowns depend on the selected metric.
+The menu offers options according to the selected metric, but a visible option does not guarantee a calculation behind it. The **channel** breakdown can help compare Unfulfilled counts and their Lost revenue estimates. Compare any series with its headline metric before using it: some series show counts even when the card is presented as a rate or another unit.
 
-For **Unfulfilled**, compare by:
+The **AI versus human** comparison groups interactions by start date, while the headline metrics use end date. Its figures therefore may not reconcile with the period total. Use it only as a clue for investigating specific records, not as an exact split of the headline result.
 
-- reason;
-- product category;
-- product or variant;
-- store or region;
-- channel;
-- AI versus human;
-- intent; or
-- commerce context.
+To investigate a change:
 
-For **Lost revenue**, compare by reason, product category, product, variant, store, region, channel, or AI versus human.
+1. Select the same metric and timezone for the periods you compare.
+2. Review the Unfulfilled count alongside Unfulfilled rate and the total number of ended interactions.
+3. If channel data is available, identify where the count changed and check a few source interactions before taking action.
 
-For **Affected SKUs**, compare by product category, reason, store, region, channel, or AI versus human.
+## What the breakdowns do not show
 
-For **Unfulfilled rate**, compare by reason, product category, store, region, channel, or AI versus human.
+The menu may also offer **reason**, category, product, variant, store, region, intent, or **commerce context**. The current calculation does not produce results for these dimensions. An empty breakdown does not mean there was no activity or that the reason or product has a value of zero.
 
-Use one dimension at a time when investigating a change. A product category can contain many individual availability problems, while a commerce-context difference can point to catalog or inventory data that is available in one sales environment but missing in another.
-
-## Understand reasons and commerce context
-
-The **reason** breakdown groups requests by the supported cause of unfulfillment. Examples can include out of stock or a requested size being unavailable.
-
-The percentage for a reason represents its share of unfulfilled requests. The count shows how many requests carried that reason.
-
-**Commerce context** identifies where the purchase was taking place, such as eCommerce, retail, or a marketplace. It helps distinguish a broad product problem from one limited to a store, catalog, or sales environment.
-
-Do not interpret a missing reason or context as zero demand. It can mean the underlying request arrived without enough structured information for that breakdown.
+If you need to know which product was unavailable, which size someone requested, or where it happened, inspect catalog, inventory, and relevant conversation records in their source systems. This report does not provide those answers.
 
 ## Compare Demand insights with other reports
 
 | Question | Report |
 | --- | --- |
-| What did customers try to buy but could not? | Demand insights |
+| How many interactions resolved by AI or teammates, or closed by automations, have no recorded conversion? | Demand insights |
 | Which conversations remain unresolved or failed SLA? | Service quality report |
 | Which current conversations are waiting for the team? | Workload & capacity report |
 | Which completed purchases and revenue were recorded? | Revenue report |
 | How did conversations convert after they started? | Performance report |
 
-Demand insights describes missed product opportunity. It does not replace inventory reporting from the commerce platform or operational conversation reporting from Inbox.
+Demand insights does not replace inventory reporting from the commerce platform or operational conversation reporting from Inbox.
 
 ## Turn the report into an action
 
 | If you see... | Review... |
 | --- | --- |
-| Out-of-stock requests concentrated on a product | Inventory timing, catalog synchronization, and whether Back-in-Stock Pounce can notify interested customers when stock returns. |
-| Size or variant availability dominates | Variant depth, size availability, catalog data, and alternative recommendations. |
-| Lost revenue concentrated in a few products | Replenishment priority, pricing context, recoverability, and repeated customer demand. |
-| One commerce context performs worse | Inventory and catalog data for that store, marketplace, or eCommerce integration. |
-| Unfulfilled rate rises while request volume is stable | Product mix, reasons, affected categories, and recent inventory changes. |
-| Many requests lack product or value detail | Catalog identifiers, variant data, price, currency, intent classification, and integration context. |
+| Unfulfilled increases | The period, closing states, recorded conversions, and a few representative interactions. |
+| Lost revenue rises while Unfulfilled changes little | The average positive tracked revenue amount in the period; do not infer a change in the prices of products customers asked about. |
+| Affected SKUs changes | The associated recommending Playbooks; this card does not identify SKUs or variants. |
+| Unfulfilled rate rises while its count is stable | The total number of ended interactions used as the denominator. |
+| A breakdown is empty | Whether that dimension has a calculation before interpreting the blank result as no activity. |
 
-Open representative conversations and verify the source catalog before changing inventory, a Playbook, or product recommendations. The report identifies a demand pattern; the conversation and commerce records explain it.
+Verify the source records before changing a Playbook, recommendations, or inventory. An interaction without a conversion does not by itself explain what the customer needed.
 
 ## When data is missing or unexpected
 
 Confirm that:
 
-- the connected eCommerce, marketplace, or retail source provides current catalog and inventory context;
-- customer requests carry a supported unavailability reason;
-- product and variant identifiers match the connected catalog;
-- price, value, and currency are present when Lost revenue should be estimated;
-- store, region, channel, intent, and commerce context are recorded when you use those breakdowns;
-- AI or teammate handling context is available for the AI-versus-human comparison; and
-- both comparisons use the same date range, timezone, metric, and breakdown.
+- interactions have an end date within the selected period;
+- their closing states and recorded conversions match what you expect to measure;
+- there is positive tracked revenue in the period when interpreting Lost revenue; if there is none, the estimate uses the fixed fallback value;
+- a recommending Playbook is associated if you expect a value under Affected SKUs;
+- the interaction channel is recorded if you use that breakdown; and
+- both comparisons use the same timezone, metric, and equivalent period.
 
-If the customer asked for a product but no supported unfulfilled-demand signal exists, troubleshoot the source Playbook, integration, or tracking path first. If the source records exist but the report remains inconsistent, follow [Data completeness and reporting gaps]({% link _analytics-reporting-attribution/data-completeness-and-reporting-gaps.md %}).
+Some interactions may have ended in the period while Unfulfilled still shows zero, because only certain closing states without a conversion enter that count. If the source records exist but the figures remain inconsistent, follow [Data completeness and reporting gaps]({% link _analytics-reporting-attribution/data-completeness-and-reporting-gaps.md %}).
 
 ## Related guides
+
+Back-in-Stock Pounce and Smart Recommender address product scenarios separately; their results cannot be inferred from this report's metrics.
 
 - [Dashboard guide]({% link _analytics-reporting-attribution/dashboard-guide.md %})
 - [Performance report guide]({% link _analytics-reporting-attribution/performance-report-guide.md %})

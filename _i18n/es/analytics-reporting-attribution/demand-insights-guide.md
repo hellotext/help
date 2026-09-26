@@ -1,136 +1,103 @@
-Usa Insights de demanda para entender qué intentaron comprar los clientes sin poder hacerlo, qué productos fueron afectados y el valor estimado de esas oportunidades perdidas.
+Insights de demanda resume interacciones que finalizaron sin una conversión registrada. Muestra su cantidad, una estimación de ingresos y otras métricas que conviene interpretar con cuidado. No identifica por sí solo solicitudes de un producto, faltantes de stock ni ventas perdidas confirmadas.
 
 Ábrelo desde la tarjeta **Insights de demanda** dentro de **Rendimiento del negocio** en el Dashboard.
 
-## Qué significa una solicitud no satisfecha
+## Qué significa No resueltas
 
-Una solicitud no satisfecha es una solicitud de producto que Hellotext identificó con un motivo de falta de disponibilidad compatible, como un producto sin stock o un talle no disponible.
+Aunque la tarjeta se llama **No resueltas**, el reporte cuenta interacciones que terminaron dentro del período, quedaron resueltas por IA o por un colaborador, o cerradas por una automatización, y no tienen una conversión registrada. Una misma persona puede tener varias interacciones.
 
-No es lo mismo que:
-
-- una conversación abierta en el Inbox;
-- una pregunta de atención que la IA no pudo responder;
-- una Derivación de IA a un colaborador; ni
-- cualquier consulta de producto de un cliente.
-
-El reporte necesita una señal de demanda compatible y suficiente contexto de producto o comercio para clasificar la solicitud. Una conversación no se convierte en demanda no satisfecha solamente porque terminó sin una compra.
+Esta cifra no representa conversaciones que siguen abiertas en el Inbox. El reporte no distingue si una interacción cerrada fue una pregunta de soporte o una consulta por un producto sin stock. Tampoco demuestra que una persona quiso comprar: el cálculo no exige un producto, motivo de falta de disponibilidad ni dato de inventario.
 
 ## Cómo cuenta los resultados este reporte
 
-El período seleccionado se basa en cuándo comenzó la solicitud no satisfecha. Una recuperación elegible posterior permanece conectada con esa solicitud de origen y puede actualizar el resultado anterior.
+El período se basa en la **fecha de finalización de cada interacción**, no en la fecha de inicio. Por ejemplo, una interacción que comenzó el 7 de abril y terminó el 9 de abril se considera en un período que incluya el 9 de abril. Si después se registra una conversión para esa interacción, puede dejar de contar como No resueltas al actualizarse el reporte.
 
-Por ejemplo: **Solicitud de producto iniciada el 7 de abril → Producto disponible y compra realizada el 9 de abril → La recuperación permanece conectada con el 7 de abril.**
-
-Las fechas recientes pueden cambiar mientras las solicitudes sigan dentro de su ventana de recuperación. Compara períodos anteriores cuando necesites resultados estables y períodos recientes con la misma antigüedad.
+No hay una ventana de recuperación de demanda en este cálculo. Al comparar períodos, usa la misma zona horaria y recuerda que los estados y las conversiones registrados posteriormente pueden cambiar las cifras.
 
 ## Interpreta las métricas principales
 
-Selecciona una métrica para actualizar la línea de tiempo y los desgloses disponibles.
+Selecciona una métrica para actualizar la línea de tiempo y los desgloses que muestre el reporte.
 
 ### No resueltas
 
-Es la cantidad de solicitudes de producto compatibles que Hellotext no pudo satisfacer para el cliente.
-
-Un mismo cliente puede generar más de una solicitud cuando pregunta por diferentes productos o variantes. Este es un volumen de solicitudes, no necesariamente una cantidad de clientes únicos o conversaciones.
+Es la cantidad de interacciones finalizadas que cumplen las condiciones anteriores y no tienen una conversión registrada. Es un recuento de interacciones, no de clientes únicos ni de solicitudes de producto.
 
 ### Ingresos perdidos
 
-Es el valor estimado asociado con solicitudes de compra que no pudieron completarse.
+Es una **estimación**, calculada al multiplicar la cantidad de No resueltas por el importe promedio de ingresos positivos rastreados durante el período. Si no hay ingresos positivos para calcular ese promedio, el reporte utiliza un valor de referencia fijo.
 
-Hellotext usa el contexto de producto, valor y comercio disponible para la solicitud para estimar la oportunidad. Este valor es orientativo:
-
-- no son ingresos completados;
-- no son ingresos atribuidos;
-- no demuestra que el cliente habría comprado; y
-- un contexto incompleto de producto o precio puede limitar la estimación.
-
-Úsalo para priorizar patrones de demanda repetidos y valiosos, no para conciliar ventas registradas.
+No usa el precio del producto que alguien consultó. No son ventas perdidas confirmadas, ingresos atribuidos a esas interacciones ni una previsión de lo que cada cliente habría comprado. Revisa la cantidad de interacciones y el promedio de ingresos antes de interpretar un cambio en esta cifra.
 
 ### SKUs afectados
 
-Es la cantidad de productos o variantes únicos relacionados con al menos una señal de demanda no satisfecha.
+Aunque la tarjeta se llama **SKUs afectados**, el cálculo actual cuenta **Misiones de recomendación distintas** asociadas con las interacciones No resueltas. No cuenta productos, variantes ni SKUs únicos.
 
-Esta métrica separa amplitud de volumen. Diez solicitudes para un mismo producto aumentan el volumen de solicitudes, pero no representan diez SKUs afectados.
+No uses esta cifra para decidir cuántos productos necesitan reposición. Para investigar disponibilidad, consulta los datos del catálogo y las conversaciones relacionadas por separado.
 
 ### Tasa no resuelta
 
-Es el porcentaje de solicitudes elegibles relacionadas con productos que no pudieron satisfacerse.
+Es la cantidad de No resueltas dividida entre **todas las interacciones que finalizaron en el período**, expresada como porcentaje. El denominador no se limita a consultas de producto ni a conversaciones del Inbox.
 
-El denominador es la población elegible de demanda de productos, no todas las conversaciones del Inbox. Revisa la cantidad de solicitudes junto con la tasa: un porcentaje alto sobre una población muy pequeña requiere una acción diferente al mismo porcentaje entre miles de solicitudes.
+Mira la tasa junto con el recuento: puede subir porque aumentaron las interacciones No resueltas o porque disminuyó el total de interacciones finalizadas.
 
 ## Usa los desgloses
 
-Los desgloses disponibles dependen de la métrica seleccionada.
+El menú ofrece opciones según la métrica seleccionada, pero una opción visible no garantiza que el reporte tenga un cálculo para ella. El desglose por **canal** puede ayudar a comparar recuentos de No resueltas y sus estimaciones de Ingresos perdidos. Contrasta cualquier serie con la métrica principal antes de usarla: algunas series muestran cantidades aunque la tarjeta se presente como tasa u otra unidad.
 
-Para **No resueltas**, compara por:
+La comparación **IA frente a humano** usa una fecha de inicio para agrupar interacciones, mientras las métricas principales usan su fecha de finalización. Por eso sus cifras pueden no conciliar con el total del período. Úsala sólo como pista para investigar registros concretos, no como reparto exacto del resultado principal.
 
-- motivo;
-- categoría de producto;
-- producto o variante;
-- tienda o región;
-- canal;
-- IA frente a humano;
-- intención; o
-- contexto de comercio.
+Para investigar un cambio:
 
-Para **Ingresos perdidos**, compara por motivo, categoría de producto, producto, variante, tienda, región, canal o IA frente a humano.
+1. Selecciona la misma métrica y zona horaria en los períodos que comparas.
+2. Revisa la cantidad de No resueltas junto con la Tasa no resuelta y el total de interacciones finalizadas.
+3. Si el canal aporta datos, identifica dónde cambió el recuento y verifica algunas interacciones de origen antes de tomar medidas.
 
-Para **SKUs afectados**, compara por categoría de producto, motivo, tienda, región, canal o IA frente a humano.
+## Qué no muestran los desgloses
 
-Para **Tasa no resuelta**, compara por motivo, categoría de producto, tienda, región, canal o IA frente a humano.
+El menú también puede ofrecer **motivo**, categoría, producto, variante, tienda, región, intención o **contexto de comercio**. El cálculo actual no genera resultados para esas dimensiones. Un desglose vacío no significa que no haya actividad, ni que el motivo o el producto tengan valor cero.
 
-Usa una dimensión por vez cuando investigues un cambio. Una categoría puede contener varios problemas de disponibilidad individuales, mientras una diferencia por contexto de comercio puede señalar datos de catálogo o inventario disponibles en un entorno de venta pero faltantes en otro.
-
-## Entiende los motivos y el contexto de comercio
-
-El desglose por **motivo** agrupa solicitudes según la causa compatible de falta de disponibilidad. Algunos ejemplos son falta de stock o talle solicitado no disponible.
-
-El porcentaje de un motivo representa su proporción entre las solicitudes no satisfechas. La cantidad muestra cuántas solicitudes tienen ese motivo.
-
-El **contexto de comercio** identifica dónde ocurría la compra, como eCommerce, retail o un marketplace. Ayuda a distinguir un problema general de producto de uno limitado a una tienda, catálogo o entorno de venta.
-
-No interpretes un motivo o contexto faltante como demanda cero. Puede significar que la solicitud de origen llegó sin suficiente información estructurada para ese desglose.
+Si necesitas saber qué producto faltó, qué talle pidió alguien o en qué tienda ocurrió, revisa los datos de catálogo, inventario y las conversaciones pertinentes en sus sistemas de origen. Este reporte no proporciona esas respuestas.
 
 ## Compara Insights de demanda con otros reportes
 
 | Pregunta | Reporte |
 | --- | --- |
-| ¿Qué intentaron comprar los clientes sin poder hacerlo? | Insights de demanda |
+| ¿Cuántas interacciones resueltas por IA o colaboradores, o cerradas por automatizaciones, no tienen conversión registrada? | Insights de demanda |
 | ¿Qué conversaciones siguen sin resolver o incumplieron el SLA? | Reporte de calidad de servicio |
 | ¿Qué conversaciones actuales esperan al equipo? | Reporte de carga y capacidad |
 | ¿Qué compras e ingresos completados se registraron? | Reporte de ingresos |
 | ¿Cómo convirtieron las conversaciones después de comenzar? | Reporte de rendimiento |
 
-Insights de demanda describe oportunidades de producto perdidas. No reemplaza los reportes de inventario de la plataforma de comercio ni los reportes operativos de conversaciones del Inbox.
+Insights de demanda no reemplaza los reportes de inventario de la plataforma de comercio ni los reportes operativos de conversaciones del Inbox.
 
 ## Convierte el reporte en una acción
 
 | Si ves... | Revisa... |
 | --- | --- |
-| Solicitudes sin stock concentradas en un producto | Tiempos de inventario, sincronización del catálogo y si Vuelta a Stock puede notificar a los clientes interesados cuando regrese el stock. |
-| Domina la falta de talles o variantes | Profundidad de variantes, disponibilidad de talles, datos del catálogo y recomendaciones alternativas. |
-| Ingresos perdidos concentrados en pocos productos | Prioridad de reposición, contexto de precio, posibilidad de recuperación y demanda repetida. |
-| Un contexto de comercio tiene peores resultados | Datos de inventario y catálogo de esa tienda, marketplace o integración de eCommerce. |
-| Sube la Tasa no resuelta con un volumen estable | Mezcla de productos, motivos, categorías afectadas y cambios recientes de inventario. |
-| Muchas solicitudes no tienen producto o valor | Identificadores del catálogo, datos de variantes, precio, moneda, clasificación de intención y contexto de integración. |
+| Aumenta No resueltas | El período, los estados de cierre, las conversiones registradas y algunas interacciones representativas. |
+| Aumenta Ingresos perdidos sin cambiar mucho No resueltas | El importe promedio de ingresos positivos rastreados en el período; no infieras un cambio en el precio de productos consultados. |
+| Cambia SKUs afectados | Las Misiones de recomendación asociadas; esta tarjeta no identifica SKUs ni variantes. |
+| Sube la Tasa no resuelta con un recuento estable | El total de interacciones finalizadas usado como denominador. |
+| Un desglose aparece vacío | Si esa dimensión tiene un cálculo disponible antes de interpretar el vacío como ausencia de actividad. |
 
-Abre conversaciones representativas y verifica el catálogo de origen antes de cambiar inventario, una Misión o recomendaciones de productos. El reporte identifica un patrón de demanda; la conversación y los registros de comercio lo explican.
+Verifica los registros de origen antes de cambiar una Misión, recomendaciones o inventario. Una señal de interacción sin conversión no explica por sí sola qué necesitaba el cliente.
 
 ## Cuando faltan datos o parecen incorrectos
 
 Confirma que:
 
-- la fuente conectada de eCommerce, marketplace o retail proporcione información actual del catálogo e inventario;
-- las solicitudes de clientes incluyan un motivo compatible de falta de disponibilidad;
-- los identificadores de producto y variante coincidan con el catálogo conectado;
-- precio, valor y moneda estén presentes cuando deban estimarse los Ingresos perdidos;
-- tienda, región, canal, intención y contexto de comercio estén registrados al usar esos desgloses;
-- el contexto de gestión por IA o colaborador esté disponible para la comparación entre IA y humano; y
-- ambas comparaciones usen el mismo período, zona horaria, métrica y desglose.
+- las interacciones tengan fecha de finalización dentro del período seleccionado;
+- el estado de cierre y la conversión registrada correspondan a lo que esperas medir;
+- haya ingresos positivos rastreados en el período al interpretar Ingresos perdidos; si no los hay, la estimación usa el valor de referencia fijo;
+- haya una Misión de recomendación asociada si esperas un valor en SKUs afectados;
+- el canal de la interacción esté registrado si utilizas ese desglose; y
+- ambas comparaciones usen la misma zona horaria, métrica y período equivalente.
 
-Si el cliente preguntó por un producto pero no existe una señal compatible de demanda no satisfecha, revisa primero la Misión, integración o camino de tracking de origen. Si los registros existen pero el reporte sigue siendo inconsistente, consulta [Integridad de datos y diferencias en reportes]({% link _analytics-reporting-attribution/data-completeness-and-reporting-gaps.md %}).
+Puede haber interacciones finalizadas en el período y aun así mostrar cero en No resueltas, porque sólo algunos estados de cierre sin conversión integran ese recuento. Si los registros existen pero las cifras siguen siendo inconsistentes, consulta [Integridad de datos y diferencias en reportes]({% link _analytics-reporting-attribution/data-completeness-and-reporting-gaps.md %}).
 
 ## Guías relacionadas
+
+Las Misiones Vuelta a Stock y Recomendador Inteligente abordan escenarios de productos por separado; sus resultados no se deducen de las métricas de este reporte.
 
 - [Guía del Dashboard]({% link _analytics-reporting-attribution/dashboard-guide.md %})
 - [Guía del Reporte de rendimiento]({% link _analytics-reporting-attribution/performance-report-guide.md %})

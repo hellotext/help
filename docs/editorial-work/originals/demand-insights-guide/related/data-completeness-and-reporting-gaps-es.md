@@ -45,7 +45,7 @@ El reporte o la sección debe explicar qué fecha utiliza. Estas son las reglas 
 | Reporte de una misión | Envíos, entregas y clics usan la fecha de cada evento; las métricas de ingresos y conversión pueden agrupar compras por la fecha del mensaje de origen acreditado. |
 | Rendimiento, Conversaciones y Calidad de servicio | Fecha de inicio de la conversación. La conversión, derivación, resolución y satisfacción posteriores siguen a la conversación de origen. |
 | Ingresos por canal en el Reporte de ingresos | Fecha de compra de la venta atribuida; el canal identifica el origen acreditado. |
-| Insights de demanda | Fecha de finalización de la interacción; No resueltas exige determinados estados de cierre sin conversión registrada. |
+| Insights de demanda | Fecha en que terminó la interacción elegible clasificada como demanda no satisfecha. |
 | Reseñas y feedback | El feedback recibido usa la fecha de envío de la respuesta; el rendimiento de recopilación usa la fecha de entrega de la solicitud; los seguimientos pendientes muestran el estado actual. |
 | Carga y capacidad | El trabajo atendido y resuelto usa la fecha de cada acción; la cola, el backlog y el riesgo muestran el estado actual. |
 
@@ -137,7 +137,7 @@ Después de confirmar el evento, revisa si pertenece a la métrica que estás an
 
 ### Insights de demanda
 
-Insights de demanda considera interacciones que finalizaron en el período. **No resueltas** requiere que estén resueltas por IA o por un colaborador, o cerradas por una automatización, y que no tengan una conversión registrada. **Ingresos perdidos** multiplica ese recuento por el importe promedio de ingresos positivos rastreados en el período, o usa un valor de referencia fijo si no los hay. **SKUs afectados** cuenta Misiones de recomendación distintas, no productos. Algunas opciones de desglose visibles no tienen un cálculo; un resultado vacío no demuestra actividad cero. Una pregunta en el Inbox tampoco entra por sí sola: importan el estado de cierre y la conversión.
+Insights de demanda necesita interacciones finalizadas que el reporte clasifique como demanda no satisfecha. Los desgloses requieren datos de la dimensión elegida; el historial de pedidos puede afectar la estimación de ingresos perdidos. Una pregunta del cliente en Inbox no se convierte automáticamente en una señal de demanda no satisfecha.
 
 ## 4. Revisa la atribución por separado
 
