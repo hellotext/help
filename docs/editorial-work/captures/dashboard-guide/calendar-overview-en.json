@@ -39,10 +39,10 @@
     "density": "passed: 2400 / 800 intended maximum CSS pixels = 3.0x",
     "desktop": "passed: full localized Help article at 1280 x 720; complete calendar, title, date selector and lower border visible inline without top shadow, clipping, image link or overflow; rendered image 609 CSS px wide",
     "mobile": "passed: full localized Help article at 390 x 844; whole calendar visible inline with nearby explanation, no image link or horizontal overflow; rendered image 316 CSS px wide",
-    "served_asset": "pending: PR and production deployment for corrected source; local built copies match original bytes"
+    "served_asset": "passed: PR #121 Netlify preview and production help.hellotext.com returned HTTP 200 image/png with SHA-256 ed1ee5a5da5dfe878c3abe1f06dd574b29e7de4cc9b78c7c7d76151a4bb7e48e; production Server: Netlify; deploy 6ab83781c092750008324b62 published main merge f69948e5a277e58a245574a0a1de94b8e25ab169 at 2026-09-26T21:22:42.062Z"
   },
   "limitations": [],
-  "status": "verified_local_pending_public",
+  "status": "verified_public",
   "privacy_check": "Full-size original inspected: complete seven-column, two-row calendar, title, date selector and lower border; clean white top edge; only synthetic campaign names, dates, times and statuses are visible. No contact identifiers, customer records, cursor, profiler badge, browser debug bar or other overlay.",
   "native_window": {
     "id": 26501,
