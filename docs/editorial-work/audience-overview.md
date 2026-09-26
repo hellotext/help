@@ -1,0 +1,25 @@
+# Audience overview bilingual batch
+
+## Source and current state
+
+- Article key: `audience/audience-overview.md`. Public routes are `https://help.hellotext.com/es/resumen-audiencia-segmentacion` and `https://help.hellotext.com/audience-segmentation-overview`; both returned HTTP 200 on 2026-09-26.
+- The complete Spanish and English bodies and shared stub were preserved byte for byte under `originals/audience-overview/` before editing. The body SHA-256 values match `inventory.csv`: Spanish `13e466c0dd711986a093af2fb08add78632279557ae99d0394f60bbb4340db8a`; English `dd85de83eee0c83819242fa411352d60403be03631e56c09207c531d140fe60d`. The shared stub is `11fbbbe429bafa333e7afc35382ed48683a5d67fb3cef27dffd1c2e5f7abe66b`.
+- Each original body has eight second-level headings and 15 Liquid article links. `progress.csv` marks this pair `pending`. The branch starts from `origin/main` merge commit `4ca54e0314b67f5a012fea4475f60cef526a589a`. Preserve titles, slugs, the complete link set and order, language pairing, navigation placement and publication state.
+
+## Reader task and article-specific plan
+
+The reader chooses whether a group of customer profiles should be a fixed list or a rule-based segment, then checks whether that audience is suitable for a campaign or playbook. The article is an overview; the linked guides explain interface steps. A screenshot here would repeat those guides and could expose customer records. No message preview is needed because the article does not demonstrate a customer-facing message.
+
+1. Verify the current product definitions against Rails `origin/master` at `6ea4ccbb208ad53f3c061691f3737b1e1902e259` and linked Help guides. Correct “subscriber” to a profile with a recorded promotional subscription, without implying every destination is reachable or every imported state proves the underlying consent source.
+2. Replace the generic audience-use bullets with a short, illustrative choice: imported event attendees belong in an explicitly maintained list; recent buyers belong in a segment whose membership follows current activity. State that choosing a group does not by itself authorize a promotional send. Avoid suggesting specific list/segment intersection semantics.
+3. Make the pre-use checklist concrete: compare expected size and representative profiles; confirm the needed properties or events, subscription source and usable channel, exclusions, and a safe personalization fallback.
+4. Broaden the Subscriber Booster mention to Webchat and enabled inbound channels without making a timing promise. The linked Subscriber Booster guide has a broader, separately pending source discrepancy about entry timing and channels; keep that work for its own inventory row and record it here without copying its outdated claims.
+5. Revise the complete Spanish body first, then adapt English. Re-read before saving, build Help and its security-header check, review complete ES/EN pages at desktop and mobile widths, verify link targets and unchanged metadata, and record the verifying content commit in `progress.csv`. Record PR merge and public verification separately.
+
+## Checkpoint
+
+The Spanish and English bodies now explain the list-versus-segment choice with an event-attendee/recent-buyer example, separate audience membership from permission to send, and give a concrete pre-use checklist. Subscriber Booster wording reflects enabled inbound channels and asks only for configured properties that are still missing. The shared stub, eight section headings, all 15 Liquid link targets and their order, titles, slugs, and publication state are unchanged in each language. All link target files exist.
+
+Source review used the linked profile, list/segment, consent, and import guides and Rails `origin/master` at `6ea4ccbb208ad53f3c061691f3737b1e1902e259`. The linked Subscriber Booster guide remains separately pending: its WhatsApp-only and late-conversation description does not match the current source (`app/models/playbook/subscriber_booster/start_conversation.rb` and `README.md`). Recheck and correct that guide in its own bilingual batch.
+
+Local verification on 2026-09-26: `yarn build` passed, including `script/verify_security_headers.rb`; `git diff --check` passed; the complete article rendered in Spanish and English at 1280×800 and 390×844 in the in-app browser. Both locales showed all eight sections, example, checklist, and related links with no horizontal overflow or browser console errors. The browser's stitched full-page screenshot duplicated visual tiles, but the DOM had one article and one footer, and ordinary viewport screenshots showed the correct layout. No article screenshot was added because the linked task guides provide UI detail and this overview does not need a new visual. Verifying content commit: `9deb417eb970a3039e59522a1d50e53bd61498af`. The ledger records `local_verified`; PR merge and public verification are still pending.
