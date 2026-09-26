@@ -41,3 +41,7 @@ The original ES, EN, and stub snapshots exist. The Rails metric and breakdown au
 Help [PR 88](https://github.com/hellotext/help/pull/88) passed Build, Aikido Security, Netlify preview and header checks, and completed Codex review without findings. The preview served all eight affected localized routes with the corrected text. The PR merged with a merge commit, `625b635ccb4e6169d8f67ff508fe5fbe6def93a2`, at 07:51 UTC, preserving the eight individual commits. The [main Build run](https://github.com/hellotext/help/actions/runs/36228042179) passed at 07:51 UTC.
 
 At 07:52 UTC, Netlify served the [Spanish Demand insights guide](https://help.hellotext.com/es/guia-insights-demanda) and [English Demand insights guide](https://help.hellotext.com/demand-insights-guide) with HTTP 200 and the corrected interaction, estimate, and Playbook explanations. The Analytics overview, Data completeness, and Dashboard pages in both languages also returned HTTP 200 with their corrected Demand insights references. All eight production responses included CSP and HSTS headers. The public check confirms publication of this Help content; it does not establish the deployed Rails revision.
+
+## Visual follow-up audit (2026-09-26)
+
+The bilingual text and publication checks above remain valid, but the useful metric, period, and breakdown capture was not made. `progress.csv` now marks this pair `visual_pending`; retain the verified text commit and resume with a focused localized capture. See `visual-followup.md` for the shared queue.

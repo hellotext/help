@@ -55,3 +55,7 @@ The bilingual content and linked-guide corrections are locally verified and comm
 ## Public verification (2026-09-26)
 
 Help [PR 90](https://github.com/hellotext/help/pull/90) merged the eight individual commits with merge commit `1490265e5cd12e2b8155eafbe340b03431f2effc` at 08:55 UTC. Its Build, Aikido Security, Netlify preview, and header checks passed; the Codex review finished without findings. The [main Build run](https://github.com/hellotext/help/actions/runs/36231244359) passed after merge. At 08:57 UTC, the public Spanish and English pages for Performance, Analytics overview, Dashboard, Data completeness, and Revenue each returned HTTP 200 and contained their corrected localized text. The normal Netlify deployment served the changes; no manual deployment occurred. `progress.csv` continues to record local editorial verification separately from this publication check.
+
+## Visual follow-up audit (2026-09-26)
+
+The bilingual text and publication checks above remain valid, but the useful metric selector or duration-widget capture was not made. `progress.csv` now marks this pair `visual_pending`; retain the verified text commit and resume with a focused localized capture. See `visual-followup.md` for the shared queue.
