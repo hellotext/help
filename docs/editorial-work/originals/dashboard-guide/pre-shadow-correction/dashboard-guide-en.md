@@ -88,7 +88,7 @@ In this example, the first week shows delivered campaigns in gray with a check m
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Complete two-week campaign calendar">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/dashboard-guide/calendar-overview-en.png" width="2400" height="1608" loading="lazy" decoding="async" alt="Complete calendar from September 21 to October 4: delivered campaigns from September 22 to 25 with check marks and upcoming campaigns from September 29 to October 2 in colored cards." />
+      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/dashboard-guide/calendar-overview-en.png" width="2400" height="1620" loading="lazy" decoding="async" alt="Complete calendar from September 21 to October 4: delivered campaigns from September 22 to 25 with check marks and upcoming campaigns from September 29 to October 2 in colored cards." />
     </div>
   </div>
   <figcaption class="ht-editorial-visual__caption">Real English Hellotext calendar with delivered and upcoming demonstration campaigns across two weeks.</figcaption>

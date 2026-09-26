@@ -16,15 +16,15 @@
   },
   "source_pixels": {
     "width": 2400,
-    "height": 1608
+    "height": 1620
   },
   "max_display_css_pixels": {
     "width": 800,
     "basis": "Full-width article image; observed 734 CSS px in an 873 px Help viewport, about 609 CSS px at 1280 px desktop, and 316 CSS px at 390 px mobile. Native source provides at least 3 source pixels per intended maximum CSS pixel."
   },
   "actual_file_format": "PNG, 8-bit RGBA, non-interlaced; direct native 2x ScreenCaptureKit crop, static asset byte-identical to original",
-  "icc_profile_and_verification": "Embedded Display P3 profile verified with sips; file reports PNG 2400 x 1608; original and static asset SHA-256 dfa683c2e274c2cdf6b0289306e86747e1d77394eda1d35d74dfba83d88fa96c.",
-  "native_color_provenance": "Exact Chrome window ID 26501, guarded localized title, sourceRect -1228,181,1200,804 points; direct native 2x Display P3 PNG after same-display P3 probe. The browser was scrolled so the complete 794-point calendar fit below the browser debugging bar, with clean top and bottom margins. No JPEG intermediate, resampling, profile reassignment, or annotation.",
+  "icc_profile_and_verification": "Embedded Display P3 profile verified with sips; file reports PNG 2400 x 1620; original and static asset SHA-256 e1fde6ccb539ef6000bdfbafd39ba65e523ff79b031373f04bee9a23172dd557.",
+  "native_color_provenance": "Exact Chrome window ID 26501, guarded localized title, sourceRect -1228,175,1200,810 points; direct native 2x Display P3 PNG after same-display P3 probe. No JPEG intermediate, resampling, profile reassignment, or annotation.",
   "transformations": [],
   "pointer": {
     "kind": "none",
@@ -34,16 +34,16 @@
     "coordinates": null
   },
   "verification": {
-    "file": "passed: PNG signature, 2400 x 1608 native pixels, embedded Display P3 ICC profile; top edge has no gray shadow",
-    "source_asset": "passed: native original, checked-in static asset, and both built locale copies have matching SHA-256",
+    "file": "passed: PNG signature, 2400 x 1620 native pixels, embedded Display P3 ICC profile",
+    "source_asset": "passed: source, published static asset and built copies have matching SHA-256",
     "density": "passed: 2400 / 800 intended maximum CSS pixels = 3.0x",
-    "desktop": "passed: full localized Help article at 1280 x 720; complete calendar, title, date selector and lower border visible inline without top shadow, clipping, image link or overflow; rendered image 609 CSS px wide",
-    "mobile": "passed: full localized Help article at 390 x 844; whole calendar visible inline with nearby explanation, no image link or horizontal overflow; rendered image 316 CSS px wide",
-    "served_asset": "pending: PR and production deployment for corrected source; local built copies match original bytes"
+    "desktop": "passed: full localized Help article at 1280 px desktop width; complete seven-column, two-row calendar visible inline without clipping or image link",
+    "mobile": "passed: full localized Help article at 390 x 844; whole calendar visible inline, adjacent prose explains status, no horizontal overflow or image link",
+    "served_asset": "passed: PR #119 Netlify preview and production help.hellotext.com returned HTTP 200 image/png with SHA-256 e1fde6ccb539ef6000bdfbafd39ba65e523ff79b031373f04bee9a23172dd557; Netlify production deploy 6ab831eb2eee2d0008ebbc7c published main merge c03d9b6e6460cf0263905ce61490dafff5fe6eca"
   },
   "limitations": [],
-  "status": "verified_local_pending_public",
-  "privacy_check": "Full-size original inspected: complete seven-column, two-row calendar, title, date selector and lower border; clean white top edge; only synthetic campaign names, dates, times and statuses are visible. No contact identifiers, customer records, cursor, profiler badge, browser debug bar or other overlay.",
+  "status": "verified_public",
+  "privacy_check": "Full-size original inspected: only synthetic campaign names, dates, times, statuses, and calendar navigation are visible; no contact identifiers, conversations, customer records, cursor, profiler badge, or other debug overlay.",
   "native_window": {
     "id": 26501,
     "width_points": 1635,
@@ -53,11 +53,11 @@
   },
   "sourceRect": {
     "x": -1228,
-    "y": 181,
+    "y": 175,
     "width": 1200,
-    "height": 804,
+    "height": 810,
     "unit": "capture helper --rect points"
   },
-  "original_sha256": "dfa683c2e274c2cdf6b0289306e86747e1d77394eda1d35d74dfba83d88fa96c",
-  "published_derivative_sha256": "dfa683c2e274c2cdf6b0289306e86747e1d77394eda1d35d74dfba83d88fa96c"
+  "original_sha256": "e1fde6ccb539ef6000bdfbafd39ba65e523ff79b031373f04bee9a23172dd557",
+  "published_derivative_sha256": "e1fde6ccb539ef6000bdfbafd39ba65e523ff79b031373f04bee9a23172dd557"
 }

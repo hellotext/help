@@ -88,7 +88,7 @@ En este ejemplo, la primera semana muestra campañas enviadas en gris con una ma
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Calendario completo de campañas de dos semanas">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/dashboard-guide/calendar-overview-es.png" width="2400" height="1608" loading="lazy" decoding="async" alt="Calendario completo del 21 de septiembre al 4 de octubre: campañas enviadas del 22 al 25 con marcas de verificación y campañas próximas del 29 de septiembre al 2 de octubre en tarjetas de color." />
+      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/dashboard-guide/calendar-overview-es.png" width="2400" height="1620" loading="lazy" decoding="async" alt="Calendario completo del 21 de septiembre al 4 de octubre: campañas enviadas del 22 al 25 con marcas de verificación y campañas próximas del 29 de septiembre al 2 de octubre en tarjetas de color." />
     </div>
   </div>
   <figcaption class="ht-editorial-visual__caption">Calendario real de Hellotext en español con campañas de demostración enviadas y próximas distribuidas en dos semanas.</figcaption>
