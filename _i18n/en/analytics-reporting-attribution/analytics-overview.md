@@ -101,7 +101,7 @@ When reviewing performance, check:
 - Whether the order contains a recognized external source that takes precedence.
 - Whether checkout ownership or path-specific team participation affected the decision.
 
-Two reports can place the same outcome on different dates: a campaign report uses delivery date, while the Revenue report uses purchase date. Recent results can also change while late events arrive or an attribution window remains open. If the numbers do not match, follow [Data completeness and reporting gaps]({% link _analytics-reporting-attribution/data-completeness-and-reporting-gaps.md %}) before changing tracking.
+Before comparing reports, check which date and population each metric uses. In a campaign's detail report, attributed purchases count on their purchase date; the funnel's **Engaged** stage is grouped by dispatch date. Recent results can also change while late events arrive or an attribution window remains open. If the numbers do not match, follow [Data completeness and reporting gaps]({% link _analytics-reporting-attribution/data-completeness-and-reporting-gaps.md %}) before changing tracking.
 
 If you are reviewing your first launch, start with [Measure success in your first 7 days]({% link _getting-started/measure-success-first-7-days.md %}).
 

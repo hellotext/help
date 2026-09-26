@@ -101,7 +101,7 @@ Al revisar el rendimiento, verifica:
 - Si el pedido contiene una fuente externa reconocida que tiene precedencia.
 - Si la responsabilidad del checkout o la participación del equipo aplicable a ese flujo afectó la decisión.
 
-Dos reportes pueden ubicar el mismo resultado en fechas distintas: un reporte de campaña usa la fecha de entrega y el Reporte de ingresos usa la fecha de compra. Los resultados recientes también pueden cambiar mientras llegan eventos atrasados o sigue abierta una ventana de atribución. Si las cifras no coinciden, sigue [Integridad de datos y diferencias en reportes]({% link _analytics-reporting-attribution/data-completeness-and-reporting-gaps.md %}) antes de cambiar el tracking.
+Antes de comparar reportes, revisa qué fecha y qué población usa cada métrica. En el detalle de una campaña, las compras atribuidas cuentan en su fecha de compra; la etapa **Interacción** del embudo se agrupa por fecha de envío. Los resultados recientes también pueden cambiar mientras llegan eventos atrasados o sigue abierta una ventana de atribución. Si las cifras no coinciden, sigue [Integridad de datos y diferencias en reportes]({% link _analytics-reporting-attribution/data-completeness-and-reporting-gaps.md %}) antes de cambiar el tracking.
 
 Si estás revisando tu primer lanzamiento, empieza por [Mide el éxito en tus primeros 7 días]({% link _getting-started/measure-success-first-7-days.md %}).
 
