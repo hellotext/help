@@ -83,15 +83,22 @@ El calendario organiza por semana las campañas programadas y enviadas.
 - Para campañas enviadas, el detalle también puede mostrar ingresos atribuidos y CTR.
 - Selecciona una campaña programada para continuar editándola o una campaña enviada para abrir sus resultados.
 
-En este ejemplo, la primera semana muestra campañas enviadas en gris con una marca de verificación. La segunda muestra campañas próximas en tarjetas de color. Mira la fecha de cada columna para ubicar los envíos; **Ver más** indica que hay otras campañas ese día.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Calendario completo de campañas de dos semanas">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Campañas enviadas en el calendario">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/dashboard-guide/calendar-overview-es.png" width="2400" height="1620" loading="lazy" decoding="async" alt="Calendario completo del 21 de septiembre al 4 de octubre: campañas enviadas del 22 al 25 con marcas de verificación y campañas próximas del 29 de septiembre al 2 de octubre en tarjetas de color." />
+    <div class="ht-editorial-visual__image-frame" style="max-width: 330px; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/dashboard-guide/calendar-sent-es.png" width="660" height="980" loading="lazy" decoding="async" alt="Día 25 del calendario con tres campañas enviadas de demostración, marcas de verificación y el control Ver más." />
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Calendario real de Hellotext en español con campañas de demostración enviadas y próximas distribuidas en dos semanas.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real en español con datos de demostración; las campañas enviadas aparecen agrupadas en un día.</figcaption>
+</figure>
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Campaña programada en el calendario">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 330px; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/dashboard-guide/calendar-scheduled-es.png" width="660" height="440" loading="lazy" decoding="async" alt="Día 29 del calendario con una campaña de demostración programada a las 11:00." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real en español con datos de demostración; la campaña programada aparece en su fecha.</figcaption>
 </figure>
 
 El calendario contiene campañas. No es una agenda completa de todos los mensajes que podría enviar una misión, un agente de IA o una ruta.
