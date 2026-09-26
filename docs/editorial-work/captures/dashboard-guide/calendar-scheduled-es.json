@@ -40,13 +40,12 @@
     "density": "passed: 660 source pixels / 330 maximum CSS pixels = 2.0x",
     "desktop": "passed: full localized guide at 1280x900; image labels readable, no figure link or horizontal overflow",
     "mobile": "passed: full localized guide at 390x844; image labels readable, no figure link or horizontal overflow",
-    "served_asset": "passed: production build and security-header check; root and es-path built PNGs match verified originals byte for byte; public asset check pending"
+    "served_asset": "passed: PR #117 Netlify preview and production help.hellotext.com returned image/png HTTP 200 with bytes identical to the original; production Server: Netlify"
   },
   "limitations": [
-    "Exact logical browser viewport of the source Rails window was not retained; Help preview viewports are documented separately.",
-    "Production deployment and public asset checks are pending."
+    "Exact logical browser viewport of the source Rails window was not retained; Help preview viewports are documented separately."
   ],
-  "status": "locally_verified_public_pending",
+  "status": "verified_public",
   "privacy_check": "Full-size crop inspected: synthetic campaign titles, calendar dates, times, and status controls only; no contact identifiers, conversations, or customer records.",
   "native_window": {
     "id": 26501,
