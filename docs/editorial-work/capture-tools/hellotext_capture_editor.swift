@@ -21,7 +21,7 @@ enum CaptureError: Error, CustomStringConvertible {
 
 struct Options {
     var list = false
-    var hideCursor = false
+    var showCursor = false
     var windowID: UInt32?
     var title: String?
     var rect: CGRect?
@@ -41,7 +41,12 @@ func parseOptions() throws -> Options {
             continue
         }
         if arg == "--hide-cursor" {
-            result.hideCursor = true
+            result.showCursor = false
+            index += 1
+            continue
+        }
+        if arg == "--show-cursor" {
+            result.showCursor = true
             index += 1
             continue
         }
@@ -73,7 +78,7 @@ func parseOptions() throws -> Options {
     }
     if !result.list {
         guard result.windowID != nil, result.title != nil, result.rect != nil, result.output != nil else {
-            throw CaptureError.usage("Capture requires --window-id N --title EXACT_TITLE --rect x,y,w,h --output /absolute/path.png [--display-probe /absolute/path.png]")
+            throw CaptureError.usage("Capture requires --window-id N --title EXACT_TITLE --rect x,y,w,h --output /absolute/path.png [--display-probe /absolute/path.png] [--show-cursor]")
         }
     }
     return result
@@ -183,7 +188,7 @@ struct CaptureEditor {
         config.sourceRect = rect.offsetBy(dx: -display.frame.minX, dy: -display.frame.minY)
         config.width = pixelWidth
         config.height = pixelHeight
-        config.showsCursor = !options.hideCursor
+        config.showsCursor = options.showCursor
         config.includeChildWindows = false
         config.ignoreShadowsDisplay = true
         config.colorSpaceName = CGColorSpace.displayP3
