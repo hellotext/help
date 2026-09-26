@@ -79,15 +79,15 @@ The **Actions** table shows types with events recorded during the last 14 days. 
 | **Average value** | Total monetary value recorded for the action divided by its occurrences. |
 | **Amount** | Total monetary value recorded across those occurrences. |
 
-In the demonstration example, product views have 160 events but no monetary value; the order action records 14 events, a $71.43 average value, and a $1,000 total amount.
+In the demonstration example, a product view has events but no money; an order shows 4 events, a $250 average value, and a $1,000 total amount.
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Populated Actions table with four demonstration event types">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/dashboard-guide/actions-table-en.png" width="2400" height="1000" loading="lazy" decoding="async" alt="Actions table with four rows: 160 product views with no monetary value, 35 cart additions, 20 started checkouts, and 14 orders; columns show events, average value, and amount." />
+      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/dashboard-guide/actions-table-en.png" width="2400" height="1000" loading="lazy" decoding="async" alt="Actions table with four rows: a product view with no monetary value, 18 cart additions, 10 started checkouts, and 4 orders; columns show events, average value, and amount." />
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Demonstration data: product views have zero monetary value, while the 14 orders show a $71.43 average and a $1,000 total amount.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Demonstration data: a product view has events but zero monetary value, while an order shows a $250 average and a $1,000 total amount.</figcaption>
 </figure>
 
 Select a column heading to sort the table by event volume, average value, or total amount.

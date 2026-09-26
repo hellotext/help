@@ -79,15 +79,15 @@ La tabla de **Acciones** muestra tipos con eventos registrados durante los últi
 | **Valor Promedio** | Valor monetario total registrado para la acción dividido entre sus ocurrencias. |
 | **Monto** | Valor monetario total registrado entre todas esas ocurrencias. |
 
-En el ejemplo de demostración, las visitas a producto suman 160 eventos sin dinero; la acción de pedidos registra 14 eventos, $71,43 de valor promedio y $1.000 de monto total.
+En el ejemplo de demostración, una visita a producto suma eventos sin dinero; una orden muestra 4 eventos, $250 de valor promedio y $1.000 de monto total.
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Tabla Acciones poblada con cuatro tipos de evento de demostración">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/dashboard-guide/actions-table-es.png" width="2400" height="1000" loading="lazy" decoding="async" alt="Tabla Acciones con cuatro filas: 160 visitas a producto sin monto, 35 agregados al carrito, 20 checkouts iniciados y 14 órdenes; las columnas muestran eventos, valor promedio y monto." />
+      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/dashboard-guide/actions-table-es.png" width="2400" height="1000" loading="lazy" decoding="async" alt="Tabla Acciones con cuatro filas: una visita a producto sin monto, 18 agregados al carrito, 10 checkouts iniciados y 4 órdenes; las columnas muestran eventos, valor promedio y monto." />
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Ejemplo con datos de demostración: las visitas a producto tienen valor monetario cero, mientras que los 14 pedidos muestran un promedio de $71,43 y un monto total de $1.000.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Ejemplo con datos de demostración: una visita a producto tiene eventos pero valor monetario cero, mientras que una orden muestra un promedio de $250 y un monto total de $1.000.</figcaption>
 </figure>
 
 Selecciona el encabezado de una columna para ordenar la tabla por volumen de eventos, valor promedio o monto total.
