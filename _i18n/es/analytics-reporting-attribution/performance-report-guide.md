@@ -1,16 +1,16 @@
-Usa el Reporte de rendimiento para entender cómo convierten las conversaciones, cuánto demora la conversión y con qué frecuencia la IA deriva explícitamente el trabajo a un colaborador.
+Usa el Reporte de rendimiento para ver qué proporción de interacciones tiene una conversión registrada, cuánto tardaron en convertir las que no tuvieron una Derivación explícita de IA y qué proporción se derivó a una persona.
 
 Ábrelo desde la tarjeta **Reporte de rendimiento** dentro de **Rendimiento del negocio** en el Dashboard.
 
 ## Cómo cuenta los resultados este reporte
 
-El período seleccionado se basa en cuándo comenzó la conversación o interacción. Una conversión o Derivación posterior permanece asignada a esa fecha de inicio.
+Las tasas del reporte agrupan los registros de interacción según su fecha de inicio, no por cliente único. Una interacción puede existir incluso sin una conversación asociada. Una conversión o Derivación registrada después se asigna a la fecha en que comenzó esa interacción.
 
-Por ejemplo: **Conversación iniciada el 7 de abril → Derivada el 8 de abril → Compra completada el 10 de abril → Cuenta el 7 de abril.**
+Por ejemplo: **Interacción iniciada el 7 de abril → IA la deriva el 8 de abril → Se registra una conversión el 10 de abril.** Esa interacción puede contar en las tasas de conversión y Derivación del 7 de abril. Como fue derivada, no entra en el promedio visible de **Tiempo de conversión**.
 
-Esto mantiene una población consistente: la tasa de conversión, el tiempo de conversión y la tasa de Derivación siguen las conversaciones iniciadas durante el período seleccionado. Así se evita dividir compras completadas en un período entre conversaciones no relacionadas que comenzaron en otro.
+**Tasa de conversión** y **Tasa de Derivación** dividen sus respectivos recuentos entre todas las interacciones iniciadas en el período. **Tiempo de conversión** usa una población más estrecha: interacciones convertidas sin Derivación explícita de IA. Las series y los desgloses tampoco muestran siempre la misma medida que la tarjeta principal; interpreta cada vista según su cálculo.
 
-Las fechas recientes pueden cambiar mientras las conversaciones sigan abiertas o su ventana de resultados no haya cerrado. Compara períodos anteriores cuando necesites resultados estables y compara períodos recientes con la misma antigüedad.
+Las fechas recientes pueden cambiar cuando se registran conversiones o Derivaciones posteriores para interacciones ya iniciadas. Compara cohortes con la misma antigüedad antes de atribuir una caída reciente a un cambio de rendimiento.
 
 ## Interpreta las métricas principales
 
@@ -18,40 +18,40 @@ Selecciona una métrica para actualizar la línea de tiempo y los desgloses disp
 
 ### Tasa de conversión
 
-Es el porcentaje de conversaciones dentro de la población seleccionada por fecha de inicio que resultó en una compra completada y registrada por Hellotext.
+Es el porcentaje de interacciones iniciadas en el período que tienen una conversión registrada. El numerador cuenta esas interacciones convertidas y el denominador incluye todas las interacciones iniciadas en el período.
 
-El numerador y denominador siguen la misma población de origen. Una compra completada después puede aumentar la tasa de conversión de la fecha anterior en que comenzó la conversación.
+La conversión puede provenir de una compra atribuida o de una meta registrada manualmente por un colaborador. Si se registra más tarde, puede aumentar la tasa de la fecha anterior en que comenzó la interacción.
 
-La tasa de conversión no es la conversión total de la tienda. Incluye los registros elegibles de conversaciones e interacciones disponibles para este reporte. Usa el Reporte de ingresos cuando necesites compras por fecha de compra o los ingresos totales registrados.
+Esta tasa no es la tasa de compra de toda la tienda ni un recuento de clientes únicos. Usa el Reporte de ingresos cuando necesites compras e ingresos por fecha de compra.
 
 ### Tiempo de conversión
 
-Es el tiempo promedio entre el inicio de una conversación y su compra completada entre las conversaciones con una conversión registrada.
+La tarjeta principal muestra el tiempo promedio desde el inicio hasta la conversión registrada **entre las interacciones convertidas sin Derivación explícita de IA**. El reporte calcula por separado el promedio de las interacciones derivadas, pero esa segunda cifra no aparece en la tarjeta ni en la serie principal.
 
-Un valor menor significa que las conversiones ocurrieron antes para esa población. Por sí solo no significa que la experiencia haya sido mejor: la complejidad del producto, consideración de compra, canal, Campaña y Misión pueden cambiar el tiempo esperado.
+Una persona pudo haber participado en una interacción sin Derivación, así que esta cifra no equivale necesariamente a trabajo hecho sólo por IA. Un valor menor indica conversiones más rápidas dentro de esa población; por sí solo no demuestra una mejor experiencia. Si no hubo conversiones elegibles, un valor de cero tampoco demuestra una conversión instantánea.
 
 ### Tasa de Derivación
 
-Es el porcentaje de conversaciones donde la IA solicitó explícitamente que una persona tomara el control, sin importar el motivo.
+Es el porcentaje de interacciones iniciadas en el período en las que la IA solicitó explícitamente que una persona tomara el control. El numerador cuenta interacciones con Derivación registrada y el denominador incluye todas las interacciones iniciadas en el período.
 
 La participación humana por sí sola no cuenta como Derivación. Un colaborador puede responder, tomar responsabilidad o ayudar durante una conversación sin cambiar esta métrica cuando la IA no solicitó el traspaso.
 
-Una Derivación no es automáticamente una falla. Las Misiones de venta y atención pueden derivar porque el cliente está enojado, informa un producto defectuoso, necesita una respuesta no compatible, coincide con una regla de Derivación o requiere que una persona o equipo continúe.
+Una Derivación no es automáticamente una falla. Revisa la interacción y sus reglas antes de decidir si el traspaso fue apropiado.
 
 Consulta [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %}) para conocer las formas disponibles de Derivación.
 
 ## Usa los desgloses
 
-Los desgloses disponibles dependen de la métrica seleccionada.
+Los desgloses ofrecidos dependen de la métrica seleccionada. En los que tienen cálculo implementado, el gráfico muestra **recuentos**: interacciones convertidas para **Tasa de conversión** y **Tiempo de conversión**, o interacciones derivadas para **Tasa de Derivación**. Esos valores no son una tasa ni un tiempo promedio por categoría.
 
-Para **Tasa de conversión** y **Tiempo de conversión**, compara por:
+El selector ofrece estas opciones para **Tasa de conversión** y **Tiempo de conversión**:
 
 - canal;
 - Misión;
 - Campaña; o
 - IA frente a humano.
 
-Para **Tasa de Derivación**, compara por:
+Para **Tasa de Derivación**, el selector ofrece:
 
 - canal;
 - Misión;
@@ -61,24 +61,26 @@ Para **Tasa de Derivación**, compara por:
 - colaborador; o
 - agente de IA.
 
-Usa una dimensión por vez cuando investigues un cambio. Una diferencia por canal puede venir de la intención del cliente o su comportamiento de compra; una diferencia por Misión puede venir de su objetivo; y una diferencia por equipo puede venir del tipo de Derivaciones que recibe.
+El desglose **IA frente a humano** clasifica por vínculos con Campaña o flujo de automatización y, en otros casos, por colaborador asociado; no separa las interacciones según si hubo Derivación. No lo compares directamente con los dos gráficos de duración. Para calcular una tasa por canal o Misión, necesitas además el total de interacciones iniciadas en esa categoría.
 
-## Entiende la distribución del Tiempo de conversión
+Las opciones **motivo**, **equipo** y **agente de IA** aparecen para Derivación, pero no tienen un cálculo de desglose en este reporte. Un resultado vacío allí no demuestra que no hubo Derivaciones. **Colaborador** puede mostrar el recuento de interacciones derivadas asociadas a una persona; las no asignadas no aparecen en ese grupo.
 
-La distribución separa las conversaciones convertidas entre **Solo IA** y **Gestionado por el equipo**.
+## Entiende los gráficos de duración
 
-- **Solo IA:** el camino de conversión no incluyó una Derivación explícita de IA. Un colaborador todavía puede haber participado sin tomar el control mediante una Derivación.
-- **Gestionado por el equipo:** la IA derivó explícitamente la conversación antes del resultado.
+Debajo de **Tiempo de conversión**, los gráficos **Solo IA** y **Gestionado por el equipo** distribuyen interacciones con un intervalo de duración asignado desde su inicio hasta el evento que las cerró. **Incluyen interacciones cerradas sin conversión**, por lo que no son una distribución exclusiva de ventas o metas logradas.
 
-Cada gráfico muestra la proporción y cantidad de conversaciones que convirtieron:
+- **Solo IA:** no hubo Derivación explícita de IA. Un colaborador pudo haber participado sin que se registrara un traspaso.
+- **Gestionado por el equipo:** la IA registró una Derivación, haya o no una conversión posterior.
+
+Cada gráfico muestra el recuento y la proporción **dentro de su propio grupo** para los intervalos que la interfaz llama:
 
 - el mismo día;
 - en 1–3 días;
 - en 4–7 días;
 - en 8–30 días; o
-- después de más de 30 días.
+- en 30 días o más.
 
-Usa la distribución junto con el promedio. Dos períodos pueden tener un promedio similar aunque uno contenga muchas conversiones en el mismo día y un grupo menor de conversiones muy tardías.
+En este cálculo, «el mismo día» significa menos de 24 horas transcurridas, no necesariamente la misma fecha del calendario. El intervalo queda fijado cuando termina la interacción; una conversión registrada después no lo recalcula. No uses estos gráficos como desglose del promedio de **Tiempo de conversión**, que sólo incluye interacciones convertidas sin Derivación.
 
 ## Compara Rendimiento con otros reportes
 
@@ -86,39 +88,38 @@ Usa el reporte cuya base temporal responda tu pregunta:
 
 | Pregunta | Reporte |
 | --- | --- |
-| ¿Cómo rindieron finalmente las conversaciones iniciadas durante este período? | Reporte de rendimiento |
-| ¿Cuántos ingresos se compraron durante este período? | Reporte de ingresos |
-| ¿Cómo rindió la población activada por una Misión específica? | Reporte de la Misión |
-| ¿Cómo rindió la población que recibió una Campaña específica? | Reporte de la Campaña |
+| ¿Qué conversiones y Derivaciones se registraron para las interacciones iniciadas en este período? | Reporte de rendimiento |
+| ¿Qué ingresos se registraron por compras de este período? | Reporte de ingresos |
+| ¿Cómo rindió una Misión según cada una de sus métricas? | Reporte de la Misión |
+| ¿Qué entregas, clics y compras atribuidas ocurrieron durante este período? | Reporte de la Campaña |
 | ¿Cómo se resolvieron las conversaciones y cumplieron el SLA? | Reporte de calidad de servicio |
 
-La misma compra puede aparecer en fechas diferentes entre estos reportes por diseño. Rendimiento usa la fecha de inicio de la conversación, Ingresos usa la fecha de compra y los reportes de fuentes usan su propia fecha de activación o entrega.
+Rendimiento agrupa por fecha de inicio de la interacción; Ingresos, por fecha de compra. El detalle de campaña cuenta cada evento en su propia fecha, incluida una compra atribuida en la fecha de compra. Los reportes de misiones combinan métricas por fecha de evento con algunas métricas de ingresos y conversión agrupadas por fecha del mensaje de origen acreditado. Revisa la regla de cada métrica antes de comparar períodos.
 
 ## Convierte el reporte en una acción
 
 | Si ves... | Revisa... |
 | --- | --- |
-| Baja la Tasa de conversión | Canal, Misión, Campaña, camino de IA frente a humano, señales de compra y si los pedidos se conectan con el perfil de cliente correcto. |
-| Aumenta el Tiempo de conversión | Distribución, mezcla de canales, complejidad de compra, seguimiento demorado y si las Derivaciones esperan demasiado a un colaborador. |
-| Aumenta la Tasa de Derivación | Motivo, Misión, agente de IA, canal, equipo de destino, conocimiento faltante y reglas de Derivación. |
-| Una Misión convierte bien pero lentamente | Si el período de consideración más largo es esperable para su objetivo antes de cambiar mensajes o lógica. |
-| Un equipo recibe muchas Derivaciones | Destinos de enrutamiento, capacidad del equipo, intenciones repetidas y si la IA debería resolver más de esas solicitudes. |
-| La conversión reciente parece más baja | Si las conversaciones comparadas tuvieron el mismo tiempo para convertir antes de sacar una conclusión. |
+| Baja la Tasa de conversión | Si faltan conversiones registradas, si cambió el volumen de interacciones iniciadas y qué muestran los registros de origen. Un recuento por canal no es una tasa por canal. |
+| Aumenta el Tiempo de conversión | Las interacciones convertidas sin Derivación y sus fechas de inicio y conversión. Los gráficos de duración incluyen también cierres sin conversión. |
+| Aumenta la Tasa de Derivación | Interacciones representativas, reglas de traspaso y contexto de Misión o canal. Un desglose vacío por motivo o equipo no es una prueba de cero. |
+| Una Misión muestra más conversiones | Su volumen total de interacciones antes de concluir que aumentó la tasa. |
+| Un colaborador aparece en muchas Derivaciones | Las asignaciones y la capacidad del equipo en los reportes operativos antes de atribuirle toda la carga. |
+| La conversión reciente parece más baja | Si las cohortes comparadas tuvieron el mismo tiempo para registrar resultados. |
 
-Abre conversaciones representativas antes de cambiar una Misión, un prompt, una fuente de conocimiento, regla de enrutamiento o equipo de destino. El reporte identifica un patrón; el historial de la conversación y atribución explica la causa.
+Abre las interacciones y conversaciones representativas antes de cambiar una Misión, un prompt, una fuente de conocimiento, una regla de enrutamiento o un equipo de destino. El reporte señala un patrón; los registros de origen ayudan a explicar la causa.
 
 ## Cuando faltan datos o parecen incorrectos
 
 Confirma que:
 
-- los inicios de conversaciones o interacciones estén registrados con la fecha correcta;
-- las compras lleguen desde la fuente de eCommerce conectada y se vinculen con el perfil de cliente correcto;
-- las compras elegibles se relacionen con la interacción de origen según las reglas de atribución de Hellotext;
-- el contexto de Misión, Campaña, canal, agente de IA, equipo y colaborador esté presente cuando corresponda;
-- las Derivaciones explícitas de IA registren el evento y destino; y
-- ambas comparaciones usen el mismo período, zona horaria, métrica y desglose.
+- los inicios de interacciones estén registrados con la fecha correcta;
+- la conversión esté registrada en la interacción, ya sea por atribución de una compra o por una meta cargada manualmente;
+- las Derivaciones explícitas de IA tengan su evento registrado; la participación humana sin ese evento no cambia la tasa;
+- el contexto de canal, Misión, Campaña o colaborador esté presente para el desglose que quieres leer; y
+- ambas comparaciones usen el mismo período, zona horaria y métrica, teniendo en cuenta si comparas una tarjeta, una serie o un recuento desglosado.
 
-Si una compra aparece en Ingresos pero no en Rendimiento, revisa si tiene una interacción de origen elegible. Si los registros de origen existen pero el reporte sigue siendo inconsistente, consulta [Integridad de datos y diferencias en reportes]({% link _analytics-reporting-attribution/data-completeness-and-reporting-gaps.md %}).
+Si una compra aparece en Ingresos pero no como conversión en Rendimiento, revisa si quedó vinculada a una interacción registrada; los dos reportes no tienen la misma población. Si la tarjeta y la serie de **Tiempo de conversión** difieren cerca del último día del rango, verifica las fechas de las interacciones sin Derivación antes de sacar una conclusión. Si los registros existen pero el reporte sigue siendo inconsistente, consulta [Integridad de datos y diferencias en reportes]({% link _analytics-reporting-attribution/data-completeness-and-reporting-gaps.md %}).
 
 ## Guías relacionadas
 
