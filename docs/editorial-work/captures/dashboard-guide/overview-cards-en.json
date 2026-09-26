@@ -39,10 +39,10 @@
     "density": "passed: 2400 / 800 intended maximum CSS pixels = 3.0x",
     "desktop": "passed: complete localized article inspected at desktop width; full widget and adjacent explanation visible, no image link or document overflow",
     "mobile": "passed: complete localized article inspected at 390 x 844; full widget remains inline with adjacent explanation, no image link or horizontal overflow",
-    "served_asset": "pending PR preview and production"
+    "served_asset": "passed: PR #125 Netlify preview and production https://help.hellotext.com returned HTTP 200 image/png with SHA-256 a653f036233907038713ecdbad3179709609aaf70128c3a18dce5c49df40c6b9; production Server: Netlify; merge commit bc0aa6a3580a48061552fcc8bf162eb00ff8b3b0"
   },
   "limitations": [],
-  "status": "verified_local",
+  "status": "verified_public",
   "privacy_check": "Full-size original inspected: complete target section, localized labels and full borders; no cursor, gray shadow, debug overlay, private contact data, customer records or identifiers.",
   "native_window": {
     "id": 26501,
