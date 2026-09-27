@@ -1,6 +1,6 @@
 Hellotext helps commerce teams decide what should happen next for each customer.
 
-It reads customer and business signals, prioritizes the eligible commercial mission with the highest revenue potential, and, according to its configuration, acts through messaging channels, routes, AI agents, or the Inbox.
+It reads customer and business signals, prioritizes the eligible commercial mission with the highest revenue potential, and executes its action through messaging channels, the Inbox, campaigns, routes, or AI agents.
 
 Use Hellotext to recover carts, recommend products, answer frequent questions with [Instant Answers]({% link _journeys/instant-answers-playbook.md %}), guide returns, exchanges, and cancellation requests, collect product reviews, measure loyalty and satisfaction, follow up after purchase, reactivate customers, collect subscribers, and measure the revenue connected to those actions.
 
@@ -22,16 +22,17 @@ Hellotext starts with signals.
 
 A signal can be a cart, product view, purchase, subscription, reply, customer profile property, channel status, or custom event from your store, website, backend, or connected tools.
 
-Then Hellotext uses that context to decide whether to start an eligible playbook. Depending on the goal, the playbook can:
+Then Hellotext uses that context to decide the next action. Depending on the goal, the action might be:
 
-- Move a customer through a route.
-- Recommend a product.
-- Answer a question with an AI agent.
-- Hand a conversation to the Inbox.
+- Starting a playbook.
+- Moving a customer through a route.
+- Sending a campaign.
+- Recommending a product.
+- Answering a question with an AI agent.
+- Handing a conversation to the Inbox.
+- Updating a segment or report.
 
-For example, an abandoned-cart signal can start a recovery playbook. To announce a launch on a set date, your team prepares a [campaign]({% link _campaigns/campaigns-overview.md %}) and chooses its audience, content, and send time.
-
-The goal of playbooks is to make each action more relevant than sending the same message to everyone.
+The goal is to make each action more relevant than sending the same message to everyone.
 
 ## Main parts of Hellotext
 
