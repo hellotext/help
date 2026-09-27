@@ -1,6 +1,6 @@
 Hellotext ayuda a equipos de comercio a decidir qué debería pasar después con cada cliente.
 
-Lee señales de clientes y del negocio, prioriza la Misión comercial elegible con más potencial de ingreso y, según su configuración, actúa mediante canales de mensajería, rutas, agentes de IA o el Inbox.
+Lee señales de clientes y del negocio, prioriza la Misión comercial elegible con más potencial de ingreso y ejecuta su acción mediante canales de mensajería, el Inbox, campañas, rutas o agentes de IA.
 
 Usa Hellotext para recuperar carritos, recomendar productos, responder preguntas frecuentes con [Respuestas Instantáneas]({% link _journeys/instant-answers-playbook.md %}), guiar cambios, devoluciones y solicitudes de cancelación, recopilar reseñas de productos, medir lealtad y satisfacción, hacer seguimiento después de una compra, reactivar clientes, captar suscriptores y medir los ingresos conectados con esas acciones.
 
@@ -22,16 +22,17 @@ Hellotext empieza con señales.
 
 Una señal puede ser un carrito, vista de producto, compra, suscripción, respuesta, propiedad del perfil de cliente, estado de canal o evento personalizado desde tu tienda, sitio web, backend o herramientas conectadas.
 
-Después, Hellotext usa ese contexto para decidir si inicia una misión elegible. Según el objetivo, la misión puede:
+Después Hellotext usa ese contexto para decidir la siguiente acción. Según el objetivo, la acción puede ser:
 
+- Iniciar una misión.
 - Mover a un cliente por una ruta.
+- Enviar una campaña.
 - Recomendar un producto.
 - Responder una pregunta con un agente de IA.
 - Derivar una conversación al Inbox.
+- Actualizar un segmento o reporte.
 
-Por ejemplo, una señal de carrito abandonado puede iniciar una misión de recuperación. Para anunciar un lanzamiento en una fecha concreta, tu equipo prepara una [campaña]({% link _campaigns/campaigns-overview.md %}) y elige su audiencia, contenido y momento de envío.
-
-El objetivo de las misiones es que cada acción sea más relevante que enviar el mismo mensaje a todos.
+El objetivo es que cada acción sea más relevante que enviar el mismo mensaje a todos.
 
 ## Partes principales de Hellotext
 
