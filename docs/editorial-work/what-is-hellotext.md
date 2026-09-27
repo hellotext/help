@@ -24,4 +24,10 @@ Verification target: reread both complete articles; compare the correction with 
 - Reviewed the complete local Spanish and English pages in the in-app browser, scrolling through each at 1440 × 900 desktop and 390 × 844 mobile widths. Both have the correct title and locale, an 810 px desktop article width and 358 px mobile width, with no horizontal page overflow at either width. The localized example and link render correctly, and the bottom related-guide and feedback areas remain readable.
 - `git diff --check` passed. No stylesheet, fixture, contact, campaign, message or screenshot changed. The remaining native report captures are separate work and remain deferred while the macOS session is locked.
 
-The verified bilingual content commit is `44df74ef1a250a6ada8a8eba6c4111759963c9cc`. The progress row records this revision and the no-figure decision. PR merge, normal deployment and public-page verification remain pending.
+The verified bilingual content commit is `44df74ef1a250a6ada8a8eba6c4111759963c9cc`. The progress row records this revision and the no-figure decision.
+
+## Publication verification — 2026-09-27
+
+- Help PR [#142](https://github.com/hellotext/help/pull/142) merged to `main` as merge commit `feb7e27ad7bc7398eb8d72b247a2d84660557ee7`, with the two branch commits retained as ancestors. GitHub Build, Aikido Security, Netlify deploy preview and header rules passed; the two irrelevant Netlify change checks finished neutral. There were no review comments requiring changes.
+- The normal Netlify production deploy `6ab94c4db5d4da0008b09170` reached `ready` for that exact merge commit at `2026-09-27T17:03:38.492Z`. No manual deployment was run. The merged `main` GitHub Build also completed successfully.
+- Both public routes above returned HTTP 200 after publication. Their article bodies contain the localized cart-recovery versus planned-launch example and link to the localized Campaigns overview. The separate report screenshot queue is unchanged.
