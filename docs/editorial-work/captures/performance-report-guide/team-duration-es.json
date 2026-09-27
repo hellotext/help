@@ -1,0 +1,71 @@
+{
+  "article_source": "_i18n/es/analytics-reporting-attribution/performance-report-guide.md",
+  "public_url": "https://help.hellotext.com/es/guia-reporte-rendimiento",
+  "locale": "es",
+  "section_and_reader_task": "Read the complete Team-managed duration distribution",
+  "step_and_target_control": "Read the complete Team-managed duration distribution",
+  "capture_date": "2026-09-27 20:12:18 UTC",
+  "capture_tool": "macOS ScreenCaptureKit exact-title, exact-window helper (docs/editorial-work/capture-tools/hellotext_capture_editor.swift); native 2x SCStreamConfiguration with Display P3 colorSpaceName and ImageIO PNG output; system cursor hidden",
+  "source_route_and_state": "http://127.0.0.1:3190/hellotext/reports/3oDXBQG4?preset=custom&from=2026-08-10&to=2026-09-24&metric=conversion_rate; Custom August 10–September 24, Team-managed duration widget; actual widget request DatePicker uses Date endpoints and its query sees 189 interactions with duration buckets 141, 18, 14, 10, 6, displayed 75%, 10%, 7%, 5%, 3%. A full-day timestamp query would see 192 interactions; the article accurately describes the displayed UI. UI locale es.",
+  "fixture_source": "Isolated development PostgreSQL database hellotext_editorial_capture_20260926, business 5; reproducible safe records and safeguards in docs/editorial-work/fixtures/performance-service-quality-enrichment.rb and .md. No contacts in the crop or message delivery.",
+  "demonstration_data_verified": true,
+  "privacy_check": "Exact crop contains aggregate report UI only. No contact rows, customer identifiers, conversations, messages, credentials, or private activity.",
+  "native_window": {
+    "id": 33329,
+    "title": "Reporte de rendimiento | Hellotext",
+    "frame_points": {
+      "x": -1253,
+      "y": 88,
+      "width": 1253,
+      "height": 897
+    }
+  },
+  "sourceRect": {
+    "x": -1241,
+    "y": 319,
+    "width": 858,
+    "height": 503,
+    "unit": "global screen points"
+  },
+  "original_file": "docs/editorial-work/captures/performance-report-guide/team-duration-es-original.png",
+  "published_derivative": "images/analytics-reporting-attribution/performance-report-guide/team-duration-es.png",
+  "logical_viewport": {
+    "width": null,
+    "height": null,
+    "note": "Exact browser content viewport not retained. Dedicated Chrome window frame and ScreenCaptureKit crop are recorded; browser zoom 150%."
+  },
+  "source_pixels": {
+    "width": 1716,
+    "height": 1006
+  },
+  "max_display_css_pixels": {
+    "width": 810,
+    "height": 474.9,
+    "basis": "Conservative article-column upper bound; actual image width is smaller after stage and image-frame padding."
+  },
+  "original_sha256": "eab639c28fe32ff43a26b7ea4c5910e16342fdf70fde30509f4994f7057ebb14",
+  "published_derivative_sha256": "eab639c28fe32ff43a26b7ea4c5910e16342fdf70fde30509f4994f7057ebb14",
+  "actual_file_format": "PNG, 8-bit RGBA, native 2x ScreenCaptureKit crop; static image is a byte-identical copy",
+  "icc_profile_and_verification": "Display P3 embedded ICC verified by file and sips; original and static SHA-256 eab639c28fe32ff43a26b7ea4c5910e16342fdf70fde30509f4994f7057ebb14.",
+  "native_color_provenance": "Native 2x Display P3 display and PNG probe at /private/tmp/hellotext-left-display-probe-20260927.png; exact isolated Chrome window selected by ID and title. No JPEG conversion, resampling, color-profile reassignment, chart redrawing, or full-window intermediate.",
+  "transformations": [],
+  "pointer": {
+    "kind": "none",
+    "system_cursor": "hidden by native helper",
+    "automation_pointer": "outside exact crop",
+    "target": null,
+    "coordinates": null
+  },
+  "verification": {
+    "file": "passed: PNG signature, embedded Display P3 ICC, native 2x crop, no visible pointer or private content",
+    "source_asset": "passed: original and static bytes match by SHA-256",
+    "density": "passed: 1716 source pixels / 810 CSS px conservative maximum = 2.12x",
+    "desktop": "passed: complete es guide reviewed at 1280px; three static figures fit the 685px available article column with full-width bordered lavender stage, 627px white frame and 609px image; complete cards, trend and duration labels, no open control",
+    "mobile": "passed: complete es guide reviewed at 390px; stage 358px, image 316px, adjacent text explains compact values, and document has no horizontal overflow or image link",
+    "served_asset": "passed local: production Jekyll build and security-header verification; built EN and ES PNG bytes match original and static asset; public deployment pending"
+  },
+  "limitations": [
+    "The Team-managed widget uses Date endpoints, so its displayed 75/10/7/5/3% is computed from 189 qualifying rows; full-day timestamp endpoints would include 192 rows and display 75/9/7/5/3%."
+  ],
+  "status": "local_verified"
+}
