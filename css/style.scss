@@ -1661,20 +1661,15 @@ html[lang="es"] .home-hero h1 {
 
 .guide-content > figure.ht-editorial-visual--campaign-report {
   --campaign-frame-max-width: 648px;
-  --campaign-stage-max-width: 696px;
 }
 
 .guide-content > figure.ht-editorial-visual--campaign-report.ht-editorial-visual--campaign-kpi {
   --campaign-frame-max-width: 100%;
-  --campaign-stage-max-width: 100%;
 }
 
 .guide-content > figure.ht-editorial-visual.ht-editorial-visual--campaign-report .ht-editorial-visual__stage {
   width: 100%;
-  max-width: var(--campaign-stage-max-width);
-  margin-inline: auto;
   padding: 24px;
-  border: 0;
 }
 
 .guide-content > figure.ht-editorial-visual.ht-editorial-visual--campaign-report .ht-editorial-visual__image-frame {
@@ -1691,19 +1686,16 @@ html[lang="es"] .home-hero h1 {
   .guide-content > figure.ht-editorial-visual--campaign-funnel,
   .guide-content > figure.ht-editorial-visual--campaign-segment {
     --campaign-frame-max-width: 100%;
-    --campaign-stage-max-width: 100%;
   }
 
   .guide-content > figure.ht-editorial-visual--campaign-channel {
     --campaign-frame-max-width: 734px;
-    --campaign-stage-max-width: 782px;
   }
 }
 
 @media (max-width: 1199px) {
   .guide-content > figure.ht-editorial-visual--campaign-report.ht-editorial-visual--campaign-kpi {
     --campaign-frame-max-width: 648px;
-    --campaign-stage-max-width: 696px;
   }
 }
 
@@ -1711,7 +1703,6 @@ html[lang="es"] .home-hero h1 {
   .guide-content > figure.ht-editorial-visual--campaign-report,
   .guide-content > figure.ht-editorial-visual--campaign-report.ht-editorial-visual--campaign-kpi {
     --campaign-frame-max-width: 540px;
-    --campaign-stage-max-width: 572px;
   }
 
   .guide-content > figure.ht-editorial-visual.ht-editorial-visual--campaign-report .ht-editorial-visual__stage {
@@ -1727,7 +1718,6 @@ html[lang="es"] .home-hero h1 {
   .guide-content > figure.ht-editorial-visual--campaign-report,
   .guide-content > figure.ht-editorial-visual--campaign-report.ht-editorial-visual--campaign-kpi {
     --campaign-frame-max-width: 376px;
-    --campaign-stage-max-width: 408px;
   }
 }
 
