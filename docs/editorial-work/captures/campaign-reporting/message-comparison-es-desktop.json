@@ -112,7 +112,7 @@
     "capture_visual": "passed: localized table headings do not collide, product image and all six horizontal KPI values visible, no pointer or private data in saved pixels"
   },
   "limitations": [],
-  "status": "locally_verified_pending_merge",
+  "status": "published_verified",
   "current_article_placement": {
     "change_date": "2026-09-27 UTC",
     "purpose": "Reuse the existing native desktop capture so the six message KPIs appear in one horizontal row in the Spanish guide.",
@@ -130,6 +130,14 @@
     "status": "passed: public asset HTTP 200 and SHA-256 matches local verified original"
   },
   "public_verification": {
-    "status": "pending_merge_and_public_verification"
+    "status": "passed",
+    "checked_at": "2026-09-27 07:33 UTC",
+    "pull_request": "https://github.com/hellotext/help/pull/140",
+    "merged_help_commit": "9760899d5f0d68f0b771f24f87e4b5acd20e96b3",
+    "netlify_production_deploy": "6ab8c677917b4400082f3178",
+    "page_url": "https://help.hellotext.com/es/reportes-de-campaña",
+    "asset_url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/message-comparison-es.png",
+    "asset_sha256": "ffd66b17b3c1c7c8a872403c618ddb90a131fd6b53eb010fe9c5cf214acd2d4a",
+    "result": "HTTP 200 page with seven localized figures and desktop image selected from 1200px; public PNG bytes match native original, static asset, and build"
   }
 }
