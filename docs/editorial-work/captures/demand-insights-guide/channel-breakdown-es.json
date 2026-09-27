@@ -62,11 +62,19 @@
     "density": "passed: 2440 source pixels / 810 CSS px maximum = 3.01x",
     "desktop": "passed: complete es guide reviewed at 1280px; figure fills the article column inside the bordered lavender stage, with complete card/chart frame, visible two-layer inset and no open control",
     "mobile": "passed: complete es guide reviewed at 390px; stage and image remain inside the viewport, with adjacent text and alt explaining the compact data labels; no horizontal overflow or image link",
-    "served_asset": "passed locally: committed source, original capture, built root/Spanish copies and HTTP-served preview bytes match, with Display P3 preserved; public asset verification pending merge"
+    "served_asset": "passed: production Netlify deploy ready on exact merge commit cc8c4fea54166ca2b833511c45040fa6a3d704e4; public PNG HTTP 200 and bytes match the native Display P3 original and local static asset"
   },
   "limitations": [
     "The label Affected SKUs is implemented using associated recommending Playbooks in this local Rails revision; the article explains this distinction.",
     "The channel breakdown has one actual technology, Webchat; no extra series was fabricated."
   ],
-  "status": "verified_in_local_article_not_published"
+  "status": "published_verified",
+  "publication": {
+    "help_pr": "https://github.com/hellotext/help/pull/156",
+    "merge_commit": "cc8c4fea54166ca2b833511c45040fa6a3d704e4",
+    "netlify_deploy_id": "6ab9750bdda1f600088c6b46",
+    "production_verification_date": "2026-09-27 19:57 UTC",
+    "public_article": "passed: HTTP 200 with two localized figures, CSP and HSTS",
+    "public_asset": "passed: HTTP 200, byte-identical to local static PNG and retained native original"
+  }
 }
