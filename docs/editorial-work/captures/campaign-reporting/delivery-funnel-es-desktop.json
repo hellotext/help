@@ -67,9 +67,9 @@
     "height": 880
   },
   "max_display_css_pixels": {
-    "width": 608.8125,
-    "height": 343.43,
-    "basis": "measured in built es article at 1280x900 desktop viewport"
+    "width": 780,
+    "height": 440.0,
+    "basis": "measured in the complete local Help article at 1600px; selected from 1200px onward"
   },
   "original_sha256": "97a7ffa8ab9ea3c57ec0efb2ec12eca5841b6019592bbdd92b49e16caa6b420e",
   "published_derivative_sha256": "97a7ffa8ab9ea3c57ec0efb2ec12eca5841b6019592bbdd92b49e16caa6b420e",
@@ -87,7 +87,7 @@
   "verification": {
     "file": "passed: PNG signature, native dimensions, and embedded Display P3 profile",
     "source_asset": "passed: original and static image bytes match SHA-256",
-    "density": "passed: source width 1560 px / rendered width 608.8125 CSS px = 2.562x",
+    "density": "passed: 1560px native source / 780px maximum display width = 2.00x",
     "desktop": "passed: complete ES and EN articles inspected at 1280x900; all 7 localized figures load, no linked image controls or horizontal overflow",
     "mobile": "passed: complete ES and EN articles inspected at 390x844; all 7 localized mobile figures load, no linked image controls or horizontal overflow",
     "served_asset": "passed: original, static, built-site, and local HTTP-served bytes match; bilingual build and security-header check passed"
@@ -103,5 +103,21 @@
     "status": "passed: public asset HTTP 200 and SHA-256 matches local verified original"
   },
   "limitations": [],
-  "status": "verified_public"
+  "status": "verified_public",
+  "layout_history": [
+    {
+      "before_campaign_side_spacing_revision": {
+        "width": 608.8125,
+        "height": 343.43,
+        "basis": "measured in built es article at 1280x900 desktop viewport"
+      }
+    }
+  ],
+  "current_article_placement": {
+    "article_revision": "campaign screenshot side-spacing correction, 2026-09-27",
+    "viewport_selection": "1200px and wider",
+    "frame": "no decorative stage or image-frame side padding",
+    "local_verification": "passed in the complete bilingual Help articles at desktop and responsive breakpoints; no linked figures or horizontal overflow",
+    "public_verification": "pending pull request merge and normal Netlify deployment"
+  }
 }

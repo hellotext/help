@@ -6,14 +6,14 @@ Para abrir uno, ve a **Campañas → Enviadas** y selecciona una campaña.
 
 El reporte se abre con **Primeros 14 días** seleccionado. Puedes cambiar a los primeros 7 o 30 días, o elegir un rango personalizado.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--campaign-report ht-editorial-visual--campaign-kpi" aria-label="Período y resumen de un reporte de campaña">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--campaign-kpi" aria-label="Período y resumen de un reporte de campaña">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame">
       <picture>
         <source media="(max-width: 430px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-mobile.png" width="746" height="580" />
         <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-mobile-wide.png" width="1048" height="580" />
         <source media="(max-width: 1199px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-tablet.png" width="1248" height="600" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-wide-desktop.png" width="2480" height="610" loading="lazy" decoding="async" alt="Selector Primeros 14 días y resumen de métricas de una campaña de demostración." />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-wide-desktop.png" width="2880" height="610" loading="lazy" decoding="async" alt="Selector Primeros 14 días y resumen de métricas de una campaña de demostración." />
       </picture>
     </div>
   </div>
@@ -39,14 +39,14 @@ Las cuatro tarjetas del resumen responden preguntas diferentes:
 
 Selecciona una tarjeta para actualizar el gráfico y ver cómo cambió esa métrica en el tiempo. La conversión se calcula con compras atribuidas y mensajes entregados; no es el porcentaje de personas que hicieron clic y luego compraron.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--campaign-report ht-editorial-visual--campaign-kpi" aria-label="Tarjeta seleccionada y evolución de una métrica de campaña">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--campaign-kpi" aria-label="Tarjeta seleccionada y evolución de una métrica de campaña">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame">
       <picture>
         <source media="(max-width: 438px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-es-phone.png" width="748" height="1300" />
         <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-es-mobile.png" width="1166" height="1188" />
         <source media="(max-width: 1199px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-es-tablet.png" width="1248" height="1260" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-es-wide-desktop.png" width="2480" height="1360" loading="lazy" decoding="async" alt="Ingresos atribuidos seleccionados y curva descendente de ingresos diarios de una campaña de demostración." />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-es-wide-desktop.png" width="2880" height="1360" loading="lazy" decoding="async" alt="Ingresos atribuidos seleccionados y curva descendente de ingresos diarios de una campaña de demostración." />
       </picture>
     </div>
   </div>
@@ -64,14 +64,13 @@ El **Embudo de entrega de campaña** recorre cuatro etapas:
 
 El embudo cuenta envíos, entregas y conversiones por fecha de evento, mientras que **Interacción** requiere una entrega y un clic dentro del período seleccionado. En un rango corto, sus etapas pueden no representar la misma cohorte de mensajes. Úsalo para detectar posibles problemas: una diferencia grande entre enviados y entregados puede señalar dificultades de entrega o de contacto; una entrega saludable con poca interacción invita a revisar la audiencia, el mensaje y el llamado a la acción.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--campaign-report ht-editorial-visual--campaign-funnel" aria-label="Etapas del embudo de entrega de campaña">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Etapas del embudo de entrega de campaña">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 640px; margin: 0 auto;">
       <picture>
         <source media="(max-width: 430px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-es-mobile.png" width="754" height="820" />
         <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-es-mobile-wide.png" width="1048" height="870" />
-        <source media="(max-width: 1199px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-es-tablet.png" width="1248" height="860" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-es.png" width="1560" height="880" loading="lazy" decoding="async" alt="Embudo de entrega con las etapas Enviado, Entregado, Interacción y Conversión y sus porcentajes en un reporte de demostración." />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-es-tablet.png" width="1248" height="860" loading="lazy" decoding="async" alt="Embudo de entrega con las etapas Enviado, Entregado, Interacción y Conversión y sus porcentajes en un reporte de demostración." />
       </picture>
     </div>
   </div>
@@ -91,9 +90,9 @@ La sección **Mensajes** muestra la fecha y la vista previa de cada mensaje de l
 
 Esto permite comparar los mensajes reales sin mezclar el rendimiento de los clics con el de las compras. Un mensaje puede tener un CTR saludable y una conversión más débil si los clientes hacen clic pero no completan la compra.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--campaign-report" aria-label="Métricas de un mensaje de campaña">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Métricas de un mensaje de campaña">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 640px; margin: 0 auto;">
       <picture>
         <source media="(max-width: 438px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/message-comparison-es-mobile.png" width="728" height="1590" />
         <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/message-comparison-es-mobile-wide.png" width="1080" height="1540" />
@@ -110,9 +109,9 @@ Esto permite comparar los mensajes reales sin mezclar el rendimiento de los clic
 
 Una venta puede ocurrir días después de la entrega y aparecer si su fecha de compra está dentro del período seleccionado y corresponde a la campaña según las reglas de atribución aplicables.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--campaign-report" aria-label="Distribución del tiempo de conversión">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Distribución del tiempo de conversión">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 640px; margin: 0 auto;">
       <picture>
         <source media="(max-width: 430px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-es-mobile.png" width="720" height="820" />
         <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-es-mobile-wide.png" width="1048" height="810" />
@@ -127,14 +126,13 @@ Una venta puede ocurrir días después de la entrega y aparecer si su fecha de c
 
 **Ingresos atribuidos por canal** muestra cómo se distribuyen los ingresos atribuidos entre los canales de mensajería disponibles. Úsalo para ver qué canal aportó más ingresos, no solo cuál entregó más mensajes.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--campaign-report ht-editorial-visual--campaign-channel" aria-label="Ingresos atribuidos por canal">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Ingresos atribuidos por canal">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 640px; margin: 0 auto;">
       <picture>
         <source media="(max-width: 430px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-channel-es-mobile.png" width="720" height="660" />
         <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-channel-es-mobile-wide.png" width="1048" height="750" />
-        <source media="(max-width: 1199px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-channel-es-tablet.png" width="1248" height="780" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-channel-es.png" width="1420" height="650" loading="lazy" decoding="async" alt="Comparación de ingresos atribuidos a WhatsApp y SMS en un reporte de campaña con datos de demostración." />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-channel-es-tablet.png" width="1248" height="780" loading="lazy" decoding="async" alt="Comparación de ingresos atribuidos a WhatsApp y SMS en un reporte de campaña con datos de demostración." />
       </picture>
     </div>
   </div>
@@ -143,14 +141,13 @@ Una venta puede ocurrir días después de la entrega y aparecer si su fecha de c
 
 **Ingresos atribuidos por segmento** muestra la distribución entre segmentos de clientes cuando hay datos de segmentación disponibles. Un cliente puede pertenecer a varios segmentos, por lo que sus porcentajes pueden superponerse y no necesariamente sumar 100 %. Interpreta con cuidado las muestras pequeñas antes de aplicar el resultado a una audiencia futura.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--campaign-report ht-editorial-visual--campaign-segment" aria-label="Ingresos atribuidos por segmento">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Ingresos atribuidos por segmento">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 640px; margin: 0 auto;">
       <picture>
         <source media="(max-width: 440px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-segment-es-mobile.png" width="740" height="480" />
         <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-segment-es-mobile-wide.png" width="1180" height="490" />
-        <source media="(max-width: 1199px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-segment-es-tablet.png" width="1248" height="590" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-segment-es.png" width="1580" height="460" loading="lazy" decoding="async" alt="Desglose de ingresos atribuidos entre segmentos de demostración, cuyos porcentajes pueden superponerse." />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-segment-es-tablet.png" width="1248" height="590" loading="lazy" decoding="async" alt="Desglose de ingresos atribuidos entre segmentos de demostración, cuyos porcentajes pueden superponerse." />
       </picture>
     </div>
   </div>

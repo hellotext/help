@@ -1659,10 +1659,61 @@ html[lang="es"] .home-hero h1 {
   letter-spacing: -0.02em;
 }
 
+.guide-content > figure.ht-editorial-visual--campaign-report {
+  --campaign-figure-max-width: 624px;
+}
+
+.guide-content > figure.ht-editorial-visual--campaign-report.ht-editorial-visual--campaign-kpi {
+  --campaign-figure-max-width: 100%;
+}
+
+.guide-content > figure.ht-editorial-visual.ht-editorial-visual--campaign-report .ht-editorial-visual__stage {
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+.guide-content > figure.ht-editorial-visual.ht-editorial-visual--campaign-report .ht-editorial-visual__image-frame {
+  max-width: var(--campaign-figure-max-width);
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+@media (min-width: 1200px) {
+  .guide-content > figure.ht-editorial-visual--campaign-funnel {
+    --campaign-figure-max-width: 780px;
+  }
+
+  .guide-content > figure.ht-editorial-visual--campaign-channel {
+    --campaign-figure-max-width: 710px;
+  }
+
+  .guide-content > figure.ht-editorial-visual--campaign-segment {
+    --campaign-figure-max-width: 790px;
+  }
+}
+
 @media (max-width: 1199px) {
-  .guide-content > figure.ht-editorial-visual--campaign-kpi .ht-editorial-visual__image-frame {
-    max-width: 640px;
-    margin: 0 auto;
+  .guide-content > figure.ht-editorial-visual--campaign-report.ht-editorial-visual--campaign-kpi {
+    --campaign-figure-max-width: 624px;
+  }
+}
+
+@media (max-width: 600px) {
+  .guide-content > figure.ht-editorial-visual--campaign-report,
+  .guide-content > figure.ht-editorial-visual--campaign-report.ht-editorial-visual--campaign-kpi {
+    --campaign-figure-max-width: 524px;
+  }
+}
+
+@media (max-width: 440px) {
+  .guide-content > figure.ht-editorial-visual--campaign-report,
+  .guide-content > figure.ht-editorial-visual--campaign-report.ht-editorial-visual--campaign-kpi {
+    --campaign-figure-max-width: 360px;
   }
 }
 

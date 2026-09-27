@@ -67,9 +67,9 @@
     "height": 590
   },
   "max_display_css_pixels": {
-    "width": 622,
-    "height": 294.05,
-    "basis": "measured 622 CSS px at the 768px and 1600px Help viewports; 640px outer figure frame with 8px padding and 1px border each side caps wider displays"
+    "width": 624,
+    "height": 295.0,
+    "basis": "measured in the complete local Help article; selected at 601–1199px"
   },
   "original_sha256": "b93ac979e566ab97fceeb739658845ea2ca870845411c54069d7b25513d7de31",
   "published_derivative_sha256": "b93ac979e566ab97fceeb739658845ea2ca870845411c54069d7b25513d7de31",
@@ -87,7 +87,7 @@
   "verification": {
     "file": "passed: PNG signature, native dimensions, and embedded Display P3 profile",
     "source_asset": "passed: original and static image bytes match SHA-256",
-    "density": "passed: 1248px native source / measured maximum 622 CSS px at Help 768px and 1600px = 2.006x; tablet source selected from 601px",
+    "density": "passed: 1248px native source / 624px maximum display width = 2.00x",
     "desktop": "passed: complete ES and EN articles reviewed at Help widths 768, 1200 and 1600px; all seven localized figures have alt text, no image links or horizontal overflow; selected tablet sources remain readable",
     "mobile": "passed: complete ES and EN articles reviewed at Help widths 375, 430, 431, 438, 439, 440, 441, 600 and 601px; all seven localized figures load without image links or horizontal overflow; visual checks included EN 601px Messages, ES 431px funnel, ES 600px summary and segment, and ES 601px segment without a right-edge line",
     "served_asset": "passed: bilingual yarn build and security-header verifier; native RGBA8 Display P3 2x original, static asset, _site copy and local HTTP :8765 response match the recorded SHA-256; docs excluded from _site"
@@ -97,5 +97,21 @@
     "status": "pending: Help PR 127 is open, not merged or deployed"
   },
   "limitations": [],
-  "status": "verified_local"
+  "status": "verified_local",
+  "layout_history": [
+    {
+      "before_campaign_side_spacing_revision": {
+        "width": 622,
+        "height": 294.05,
+        "basis": "measured 622 CSS px at the 768px and 1600px Help viewports; 640px outer figure frame with 8px padding and 1px border each side caps wider displays"
+      }
+    }
+  ],
+  "current_article_placement": {
+    "article_revision": "campaign screenshot side-spacing correction, 2026-09-27",
+    "viewport_selection": "601–1199px",
+    "frame": "no decorative stage or image-frame side padding",
+    "local_verification": "passed in the complete bilingual Help articles at desktop and responsive breakpoints; no linked figures or horizontal overflow",
+    "public_verification": "pending pull request merge and normal Netlify deployment"
+  }
 }

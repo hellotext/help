@@ -6,14 +6,14 @@ To open one, go to **Campaigns → Delivered** and select a campaign.
 
 The report opens with **First 14 days** selected. You can switch to the first 7 or 30 days, or choose a custom range.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--campaign-report ht-editorial-visual--campaign-kpi" aria-label="Campaign reporting period and summary">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--campaign-kpi" aria-label="Campaign reporting period and summary">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame">
       <picture>
         <source media="(max-width: 430px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile.png" width="746" height="580" />
         <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile-wide.png" width="1048" height="580" />
         <source media="(max-width: 1199px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-tablet.png" width="1248" height="600" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-wide-desktop.png" width="2480" height="610" loading="lazy" decoding="async" alt="First 14 days selector and metric summary for a demonstration campaign." />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-wide-desktop.png" width="2880" height="610" loading="lazy" decoding="async" alt="First 14 days selector and metric summary for a demonstration campaign." />
       </picture>
     </div>
   </div>
@@ -39,14 +39,14 @@ The four summary cards answer different questions:
 
 Select a card to update the chart and see how that metric changed over time. Conversion is based on attributed purchases and delivered messages; it is not the percentage of people who clicked and then purchased.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--campaign-report ht-editorial-visual--campaign-kpi" aria-label="Selected card and campaign metric over time">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--campaign-kpi" aria-label="Selected card and campaign metric over time">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame">
       <picture>
         <source media="(max-width: 438px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-en-phone.png" width="748" height="1300" />
         <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-en-mobile.png" width="1166" height="1188" />
         <source media="(max-width: 1199px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-en-tablet.png" width="1248" height="1260" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-en-wide-desktop.png" width="2480" height="1360" loading="lazy" decoding="async" alt="Selected attributed revenue metric and descending daily revenue curve for a demonstration campaign." />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-en-wide-desktop.png" width="2880" height="1360" loading="lazy" decoding="async" alt="Selected attributed revenue metric and descending daily revenue curve for a demonstration campaign." />
       </picture>
     </div>
   </div>
@@ -64,14 +64,13 @@ The **Campaign delivery funnel** moves through four stages:
 
 The funnel counts sends, deliveries, and conversions on their event dates, while **Engaged** requires both a delivery and a click within the selected period. In a short range, its stages may not represent the same cohort of messages. Use it to spot possible problems: a large gap between sent and delivered can signal delivery or contactability issues; strong delivery with little engagement calls for reviewing the audience, message, and call to action.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--campaign-report ht-editorial-visual--campaign-funnel" aria-label="Campaign delivery funnel stages">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Campaign delivery funnel stages">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 640px; margin: 0 auto;">
       <picture>
         <source media="(max-width: 430px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-en-mobile.png" width="740" height="860" />
         <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-en-mobile-wide.png" width="1048" height="870" />
-        <source media="(max-width: 1199px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-en-tablet.png" width="1248" height="860" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-en.png" width="1560" height="860" loading="lazy" decoding="async" alt="Delivery funnel with Sent, Delivered, Engaged, and Conversion stages and their percentages in a demonstration report." />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-en-tablet.png" width="1248" height="860" loading="lazy" decoding="async" alt="Delivery funnel with Sent, Delivered, Engaged, and Conversion stages and their percentages in a demonstration report." />
       </picture>
     </div>
   </div>
@@ -91,9 +90,9 @@ The **Messages** section shows the date and preview of each campaign message, fo
 
 This lets you compare the actual messages without mixing click performance with purchase performance. A message can have a healthy CTR but a weaker conversion rate if customers click without completing a purchase.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--campaign-report" aria-label="Campaign message metrics">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Campaign message metrics">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 640px; margin: 0 auto;">
       <picture>
         <source media="(max-width: 438px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/message-comparison-en-mobile.png" width="728" height="1400" />
         <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/message-comparison-en-mobile-wide.png" width="1080" height="1400" />
@@ -110,9 +109,9 @@ This lets you compare the actual messages without mixing click performance with 
 
 A sale can happen days after delivery and appear if its purchase date falls within the selected period and it belongs to the campaign under the applicable attribution rules.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--campaign-report" aria-label="Time to conversion distribution">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Time to conversion distribution">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 640px; margin: 0 auto;">
       <picture>
         <source media="(max-width: 430px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-en-mobile.png" width="740" height="800" />
         <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-en-mobile-wide.png" width="1048" height="810" />
@@ -127,14 +126,13 @@ A sale can happen days after delivery and appear if its purchase date falls with
 
 **Attributed revenue by channel** shows how attributed revenue is distributed across the available messaging channels. Use it to see which channel contributed more revenue, not just which one delivered more messages.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--campaign-report ht-editorial-visual--campaign-channel" aria-label="Attributed revenue by channel">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Attributed revenue by channel">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 640px; margin: 0 auto;">
       <picture>
         <source media="(max-width: 430px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-channel-en-mobile.png" width="740" height="720" />
         <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-channel-en-mobile-wide.png" width="1048" height="750" />
-        <source media="(max-width: 1199px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-channel-en-tablet.png" width="1248" height="780" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-channel-en.png" width="1420" height="650" loading="lazy" decoding="async" alt="Comparison of revenue attributed to WhatsApp and SMS in a campaign report with demonstration data." />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-channel-en-tablet.png" width="1248" height="780" loading="lazy" decoding="async" alt="Comparison of revenue attributed to WhatsApp and SMS in a campaign report with demonstration data." />
       </picture>
     </div>
   </div>
@@ -143,14 +141,13 @@ A sale can happen days after delivery and appear if its purchase date falls with
 
 **Attributed revenue by segment** shows the distribution across customer segments when segment data is available. A customer can belong to multiple segments, so their percentages can overlap and need not add up to 100%. Treat small samples carefully before applying the result to a future audience.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--campaign-report ht-editorial-visual--campaign-segment" aria-label="Attributed revenue by segment">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Attributed revenue by segment">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 640px; margin: 0 auto;">
       <picture>
         <source media="(max-width: 440px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-segment-en-mobile.png" width="740" height="480" />
         <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-segment-en-mobile-wide.png" width="1180" height="490" />
-        <source media="(max-width: 1199px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-segment-en-tablet.png" width="1248" height="590" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-segment-en.png" width="1580" height="460" loading="lazy" decoding="async" alt="Breakdown of attributed revenue across demonstration segments whose percentages may overlap." />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-segment-en-tablet.png" width="1248" height="590" loading="lazy" decoding="async" alt="Breakdown of attributed revenue across demonstration segments whose percentages may overlap." />
       </picture>
     </div>
   </div>
