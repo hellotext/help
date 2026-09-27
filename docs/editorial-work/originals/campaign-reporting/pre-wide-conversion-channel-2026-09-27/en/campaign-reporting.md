@@ -111,14 +111,13 @@ This lets you compare the actual messages without mixing click performance with 
 
 A sale can happen days after delivery and appear if its purchase date falls within the selected period and it belongs to the campaign under the applicable attribution rules.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--campaign-report ht-editorial-visual--campaign-conversion" aria-label="Time to conversion distribution">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--campaign-report" aria-label="Time to conversion distribution">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame">
       <picture>
         <source media="(max-width: 430px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-en-mobile.png" width="740" height="800" />
         <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-en-mobile-wide.png" width="1048" height="810" />
-        <source media="(max-width: 1399px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-en-tablet.png" width="1248" height="770" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-en-desktop-wide.png" width="2458" height="1360" loading="lazy" decoding="async" alt="Time to conversion chart distributing attributed purchases across the same day, following days, and later periods." />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-en-tablet.png" width="1248" height="770" loading="lazy" decoding="async" alt="Time to conversion chart distributing attributed purchases across the same day, following days, and later periods." />
       </picture>
     </div>
   </div>
@@ -135,8 +134,8 @@ A sale can happen days after delivery and appear if its purchase date falls with
       <picture>
         <source media="(max-width: 430px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-channel-en-mobile.png" width="740" height="720" />
         <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-channel-en-mobile-wide.png" width="1048" height="750" />
-        <source media="(max-width: 1399px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-channel-en-tablet.png" width="1248" height="780" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-channel-en-desktop-wide.png" width="2458" height="1360" loading="lazy" decoding="async" alt="Comparison of revenue attributed to WhatsApp and SMS in a campaign report with demonstration data." />
+        <source media="(max-width: 1199px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-channel-en-tablet.png" width="1248" height="780" />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-channel-en.png" width="1420" height="650" loading="lazy" decoding="async" alt="Comparison of revenue attributed to WhatsApp and SMS in a campaign report with demonstration data." />
       </picture>
     </div>
   </div>

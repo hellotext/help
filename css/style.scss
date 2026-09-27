@@ -1687,9 +1687,12 @@ html[lang="es"] .home-hero h1 {
   .guide-content > figure.ht-editorial-visual--campaign-segment {
     --campaign-frame-max-width: 100%;
   }
+}
 
+@media (min-width: 1400px) {
+  .guide-content > figure.ht-editorial-visual--campaign-conversion,
   .guide-content > figure.ht-editorial-visual--campaign-channel {
-    --campaign-frame-max-width: 734px;
+    --campaign-frame-max-width: 100%;
   }
 }
 

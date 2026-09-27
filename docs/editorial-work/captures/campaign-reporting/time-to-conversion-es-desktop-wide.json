@@ -1,0 +1,101 @@
+{
+  "article_source": "_i18n/es/analytics-reporting-attribution/campaign-reporting.md",
+  "public_url": "https://help.hellotext.com/es/reportes-de-campaña",
+  "locale": "es",
+  "section_and_reader_task": "Entender el tiempo de conversión",
+  "capture_date": "2026-09-27 UTC",
+  "capture_tool": "macOS ScreenCaptureKit exact-window helper (docs/editorial-work/capture-tools/hellotext_capture_editor.swift), filtered by exact title with a 15-second preflight; system cursor hidden; direct native 2x PNG with embedded Display P3 ICC",
+  "source_route_and_state": "Isolated local Rails report http://127.0.0.1:3190/hellotext/campaigns/4ONLdN32?metric=incremental_revenue, database hellotext_editorial_capture_20260926, synthetic campaign id 5, locale es, preset first_14_days (2026-04-19 through 2026-05-02); no campaign sent.",
+  "fixture_data": {
+    "campaign_id": 5,
+    "attributed_purchases": 321,
+    "attributed_revenue_subunits": 18720000,
+    "time_to_conversion_counts": [
+      30,
+      150,
+      60,
+      81,
+      0
+    ],
+    "time_to_conversion_percentages": [
+      9,
+      47,
+      19,
+      25,
+      0
+    ],
+    "channel_revenue_subunits": {
+      "whatsapp": 11258065,
+      "sms": 7461935
+    },
+    "channel_revenue_percentages": {
+      "whatsapp": 60,
+      "sms": 40
+    }
+  },
+  "demonstration_data_verified": true,
+  "presenter_verification": "Actual isolated Rails widget presenters were queried read-only for the exact first_14_days request in both locales. The values shown in the PNG match the presenter; neither widget has a period-comparison indicator.",
+  "privacy_check": "Only the isolated synthetic chart widget and its localized labels appear; no contact identifiers, private activity, other windows, pointer, tooltip, scrollbar, or gray window edge.",
+  "native_window": {
+    "id": 33329,
+    "title": "Campaign Report Image Preview | Hellotext",
+    "frame_points": {
+      "x": -1253,
+      "y": 88,
+      "width": 1253,
+      "height": 897
+    }
+  },
+  "sourceRect": {
+    "x": -1253,
+    "y": 220,
+    "width": 860,
+    "height": 550,
+    "unit": "global screen points"
+  },
+  "original_file": "docs/editorial-work/captures/campaign-reporting/time-to-conversion-es-desktop-wide-original.png",
+  "published_derivative": "images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-es-desktop-wide.png",
+  "logical_viewport": {
+    "width": 835,
+    "height": 560,
+    "browser_zoom": "150%",
+    "device_pixel_ratio_after_zoom": 3,
+    "physical_display_scale": 2
+  },
+  "source_pixels": {
+    "width": 1720,
+    "height": 1100
+  },
+  "max_display_css_pixels": {
+    "width": 736,
+    "basis": "measured in the 1600px Help viewport: existing article width 810px, stage padding 24px each side, white frame padding 12px each side; actual rendered image width 736px"
+  },
+  "original_sha256": "9770459fa4583f37638a479c24a7ba40fc102ee00580f049c783caabe2036983",
+  "published_derivative_sha256": "9770459fa4583f37638a479c24a7ba40fc102ee00580f049c783caabe2036983",
+  "actual_file_format": "PNG, 8-bit RGBA, direct native 2x ScreenCaptureKit crop; static asset is a byte-identical copy",
+  "icc_profile_and_verification": "Display P3 embedded ICC verified with sips; PNG signature and 1720x1100 RGBA8 dimensions checked; original and static asset SHA-256 9770459fa4583f37638a479c24a7ba40fc102ee00580f049c783caabe2036983",
+  "native_color_provenance": "Exact Chrome window ID 33329 on left Display P3; direct native 2x Display P3 PNG; no JPEG conversion, resampling, profile reassignment, pixel editing, or full-window intermediate.",
+  "transformations": [],
+  "pointer": {
+    "kind": "none",
+    "system_cursor": "hidden by native helper",
+    "automation_pointer": "moved outside sourceRect before capture",
+    "target": null,
+    "coordinates": null
+  },
+  "verification": {
+    "file": "passed: native PNG dimensions, embedded Display P3 profile, source/asset byte identity",
+    "density": "passed: 1720 native px / 736 maximum rendered CSS px = 2.34x",
+    "desktop": "passed: complete ES/EN guides and 1400px Spanish breakpoint inspected; the recaptured Spanish 150%-zoom chart separates all five category labels, preserves 9/47/19/25/0% source values, fills the white frame inside the 810px lavender stage, and has no linked image or horizontal overflow",
+    "intermediate": "passed: 1199, 1200, 1399 and 1400px breakpoints; the existing tablet source remains selected through 1399px and the new wide source starts at 1400px",
+    "mobile": "passed: full ES and EN guides inspected at 390px; all seven localized mobile sources load without image links or horizontal overflow",
+    "served_asset": "passed: bilingual Jekyll build and security-header verifier; native original, static asset, _site copy and local HTTP response match SHA-256; docs excluded from _site"
+  },
+  "visual_review": "After PR #162 automated review noted tightly spaced Spanish category labels in the first 175%-zoom capture, the widget was recaptured at 150% with a narrower exact native crop. The five labels are visibly separate at the rendered Help size. No pointer, scrollbar edge, window shadow, clipped category, or private record.",
+  "public_verification": {
+    "status": "pending: PR, merge and normal Netlify publication"
+  },
+  "limitations": [
+    "The Spanish widget was captured at 150% browser zoom to separate the five category labels at its final Help size; the Help article itself retains its original width."
+  ]
+}
