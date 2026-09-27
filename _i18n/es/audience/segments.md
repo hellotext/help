@@ -36,7 +36,7 @@ En el editor, **Elige una condición** ofrece estos dos tipos de criterio:
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Tipos de condición de un segmento nuevo">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 550px; margin: 0 auto;">
-      <img class="ht-editorial-visual__image" src="/images/audience/segments/condition-chooser-es.png" width="1144" height="760" loading="lazy" decoding="async" alt="Editor Nuevo Segmento con Elige una condición abierto y las opciones Actividad del cliente y Características del cliente." />
+      <img class="ht-editorial-visual__image" src="/images/audience/segments/condition-chooser-es.png" width="1144" height="748" loading="lazy" decoding="async" alt="Editor Nuevo Segmento con Elige una condición abierto y las opciones Actividad del cliente y Características del cliente." />
     </div>
   </div>
   <figcaption class="ht-editorial-visual__caption">Captura de la interfaz real en español con un segmento de demostración sin guardar.</figcaption>

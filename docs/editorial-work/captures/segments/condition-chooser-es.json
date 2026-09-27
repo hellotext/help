@@ -11,12 +11,12 @@
   "published_derivative": "images/audience/segments/condition-chooser-es.png",
   "logical_viewport": { "width": 1635, "height": 875 },
   "source_pixels": { "width": 1144, "height": 1716 },
-  "max_display_css_pixels": { "width": 550, "height": 366 },
+  "max_display_css_pixels": { "width": 550, "height": 360 },
   "actual_file_format": "PNG (native 2x original and lossless cropped derivative)",
-  "icc_profile_and_verification": "Display P3 iCCP verified by the capture helper, file, and sips for both original and derivative; original SHA-256 b6552dae83127225d011ca1eb0b16f0cf979f50a9e22cca752c810b8c667e74f; derivative SHA-256 fa39b181ea484f65cf1f22f9496bb634a0fd89d5554ff8a2d63801a80dc947be",
+  "icc_profile_and_verification": "Display P3 iCCP verified by the capture helper, file, and sips for both original and derivative; original SHA-256 b6552dae83127225d011ca1eb0b16f0cf979f50a9e22cca752c810b8c667e74f; derivative SHA-256 9f4dee1166cc3f1cafbb64d66b74effe0825b53e5521f7fa856bd7656844044d",
   "native_color_provenance": "The same 2x display produced a native 16x16 PNG corner probe with embedded Display P3. ScreenCaptureKit captured a 572x858-point region from the exact Chrome window into 1144x1716 pixels with Display P3 output color management; no JPEG pixels or profile reassignment were used.",
   "transformations": [
-    "sips lossless crop to 1144x760 pixels at source offset x=0, y=98, removing unrelated empty lower panel and cursor while retaining the embedded Display P3 profile"
+    "sips lossless crop to 1144x748 pixels at source offset x=0, y=110, removing the stray top overlay shadow, unrelated empty lower panel, and cursor while retaining the embedded Display P3 profile; the 748 retained pixel rows are identical to rows 12-759 of the former derivative"
   ],
   "pointer": { "kind": "none in published derivative", "target": "Elige una condición", "coordinates": null },
   "verification": { "density": "passed: 1144 source pixels / 550 planned CSS pixels = 2.08x minimum; rendered 532px desktop and 316px mobile", "desktop": "passed: static chooser figure visible in the Spanish guide at 1635px viewport, without image link or expand control", "mobile": "passed: key chooser labels readable at 390px viewport without page overflow", "served_asset": "passed: yarn build and security-header check; built root and Spanish-path PNGs byte-identical to source with Display P3 profile" },
