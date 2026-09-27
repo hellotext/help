@@ -67,9 +67,9 @@
     "height": 860
   },
   "max_display_css_pixels": {
-    "width": 316.0,
-    "height": 367.24,
-    "basis": "measured in built en article at 390x844 mobile viewport"
+    "width": 356,
+    "height": 413.73,
+    "basis": "measured maximum 356 CSS px at the 430px Help viewport; this unchanged phone PNG is selected through 430px and its earlier public verification remains historical"
   },
   "original_sha256": "0498f8842afd448ad0b17ddb5c9d931efa25c0714854608ebc2d75a1a79c746f",
   "published_derivative_sha256": "0498f8842afd448ad0b17ddb5c9d931efa25c0714854608ebc2d75a1a79c746f",
@@ -103,5 +103,12 @@
     "status": "passed: public asset HTTP 200 and SHA-256 matches local verified original"
   },
   "limitations": [],
-  "status": "verified_public"
+  "status": "verified_public",
+  "responsive_routing_update": {
+    "date": "2026-09-27 UTC",
+    "selected_for_viewports": "up to 430px in both translated campaign-reporting articles",
+    "next_source": "delivery-funnel-en-mobile-wide.png for 431–600px",
+    "article_qa": "passed: complete Spanish and English articles reviewed at Help widths 375, 430, 431, 438, 439, 440, 441, 600, 601, 768, 1200 and 1600px; seven unlinked static figures with alt text per locale, correct responsive source, no horizontal overflow; phone routing through 430px verified in browser",
+    "density_at_measured_maximum": "740 / 356 CSS px at measured 430px Help viewport = 2.079x"
+  }
 }

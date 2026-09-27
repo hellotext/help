@@ -1,0 +1,101 @@
+{
+  "article_source": "_i18n/es/analytics-reporting-attribution/campaign-reporting.md",
+  "public_url": "https://help.hellotext.com/es/reportes-de-campaña",
+  "locale": "es",
+  "section_and_reader_task": "Compara los mensajes de la campaña",
+  "step_and_target_control": "Compara los mensajes de la campaña",
+  "capture_date": "2026-09-27 UTC",
+  "capture_tool": "macOS ScreenCaptureKit exact-window helper (docs/editorial-work/capture-tools/hellotext_capture_editor.swift); system cursor hidden; ImageIO native 2x PNG with embedded Display P3 ICC",
+  "source_route_and_state": "Isolated local Rails report at http://127.0.0.1:3190/hellotext/campaigns/<synthetic-demo-id>, database hellotext_editorial_capture_20260926; synthetic campaign, es UI, first 14 days selected; no campaign was sent.",
+  "fixture_data": {
+    "sent_messages": 5400,
+    "delivered_messages": 5133,
+    "tracked_clicks": 1032,
+    "attributed_purchases": 321,
+    "attributed_revenue_usd": 1872,
+    "funnel_percentages": {
+      "sent": 100,
+      "delivered": 95.1,
+      "engagement": 28,
+      "conversion": 6.3
+    },
+    "time_to_conversion_percentages": [
+      9,
+      47,
+      19,
+      25,
+      0
+    ],
+    "channel_revenue_percentages": {
+      "whatsapp": 60,
+      "sms": 40
+    },
+    "segment_revenue_percentages": {
+      "vip": 60,
+      "q2_2026": 50
+    },
+    "segment_note": "The two synthetic memberships overlap; shares need not sum to 100%."
+  },
+  "demonstration_data_verified": true,
+  "privacy_check": "Exact crop contains only the isolated synthetic report; no contact identifiers, private activity, conversations, or other customer records.",
+  "native_window": {
+    "id": 26501,
+    "title": "Campaign Report Image Preview | Hellotext",
+    "frame_points": {
+      "x": 22,
+      "y": 61,
+      "width": 1635,
+      "height": 996
+    }
+  },
+  "sourceRect": {
+    "x": 30,
+    "y": 309,
+    "width": 624,
+    "height": 565,
+    "unit": "global screen points"
+  },
+  "original_file": "docs/editorial-work/captures/campaign-reporting/message-comparison-es-tablet-original.png",
+  "published_derivative": "images/analytics-reporting-attribution/campaign-reporting/message-comparison-es-tablet.png",
+  "logical_viewport": {
+    "width": 640,
+    "height": 900,
+    "browser_zoom": "100%"
+  },
+  "source_pixels": {
+    "width": 1248,
+    "height": 1130
+  },
+  "max_display_css_pixels": {
+    "width": 622,
+    "height": 563.19,
+    "basis": "measured 622 CSS px at the 768px and 1600px Help viewports; 640px outer figure frame with 8px padding and 1px border each side caps wider displays"
+  },
+  "original_sha256": "135009837019a930b0e3c71aeb3781ca32e78f41b547fc7db3ac712fbcf61aa0",
+  "published_derivative_sha256": "135009837019a930b0e3c71aeb3781ca32e78f41b547fc7db3ac712fbcf61aa0",
+  "actual_file_format": "PNG, 8-bit RGBA, direct native 2x ScreenCaptureKit crop; static asset is a byte-identical copy",
+  "icc_profile_and_verification": "Display P3 embedded ICC verified with sips; native PNG signature and 1248x1130 IHDR checked; original and static asset SHA-256 135009837019a930b0e3c71aeb3781ca32e78f41b547fc7db3ac712fbcf61aa0",
+  "native_color_provenance": "Exact Chrome window ID 26501 titled Campaign Report Image Preview | Hellotext on main Display P3; sourceRect 30,309,624,565 global points; direct native 2x Display P3 PNG, no JPEG conversion, resampling, profile reassignment, or full-window intermediate.",
+  "transformations": [],
+  "pointer": {
+    "kind": "none",
+    "system_cursor": "hidden by native helper",
+    "automation_pointer": "moved outside the sourceRect before capture",
+    "target": null,
+    "coordinates": null
+  },
+  "verification": {
+    "file": "passed: PNG signature, native dimensions, and embedded Display P3 profile",
+    "source_asset": "passed: original and static image bytes match SHA-256",
+    "density": "passed: 1248px native source / measured maximum 622 CSS px at Help 768px and 1600px = 2.006x; tablet source selected from 601px",
+    "desktop": "passed: complete ES and EN articles reviewed at Help widths 768, 1200 and 1600px; all seven localized figures have alt text, no image links or horizontal overflow; selected tablet sources remain readable",
+    "mobile": "passed: complete ES and EN articles reviewed at Help widths 375, 430, 431, 438, 439, 440, 441, 600 and 601px; all seven localized figures load without image links or horizontal overflow; visual checks included EN 601px Messages, ES 431px funnel, ES 600px summary and segment, and ES 601px segment without a right-edge line",
+    "served_asset": "passed: bilingual yarn build and security-header verifier; native RGBA8 Display P3 2x original, static asset, _site copy and local HTTP :8765 response match the recorded SHA-256; docs excluded from _site"
+  },
+  "visual_review": "capture owner inspected the complete localized widget; no pointer, scrollbar edge, or private records visible",
+  "public_verification": {
+    "status": "pending: Help PR 127 is open, not merged or deployed"
+  },
+  "limitations": [],
+  "status": "verified_local"
+}
