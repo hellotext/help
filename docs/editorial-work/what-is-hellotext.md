@@ -24,4 +24,4 @@ Verification target: reread both complete articles; compare the correction with 
 - Reviewed the complete local Spanish and English pages in the in-app browser, scrolling through each at 1440 × 900 desktop and 390 × 844 mobile widths. Both have the correct title and locale, an 810 px desktop article width and 358 px mobile width, with no horizontal page overflow at either width. The localized example and link render correctly, and the bottom related-guide and feedback areas remain readable.
 - `git diff --check` passed. No stylesheet, fixture, contact, campaign, message or screenshot changed. The remaining native report captures are separate work and remain deferred while the macOS session is locked.
 
-The verified content commit and publication evidence will be recorded below after the corresponding steps complete.
+The verified bilingual content commit is `44df74ef1a250a6ada8a8eba6c4111759963c9cc`. The progress row records this revision and the no-figure decision. PR merge, normal deployment and public-page verification remain pending.
