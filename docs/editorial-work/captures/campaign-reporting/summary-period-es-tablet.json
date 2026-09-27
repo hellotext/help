@@ -101,5 +101,15 @@
   },
   "limitations": [],
   "status": "verified_local",
-  "display_revision": "The previous 1200px and 1600px tablet-source checks describe the earlier layout and are retained as historical verification. Current routing and width were rechecked locally; publication is pending."
+  "display_revision": "The previous desktop routing and public checks are historical. The standard-width routing was published by Help PR 133 and verified on 2026-09-27.",
+  "standard_width_public_verification": {
+    "checked_at": "2026-09-27 05:31 UTC",
+    "pull_request": "https://github.com/hellotext/help/pull/133",
+    "merged_help_commit": "1684fd9bad3f6cc371b6fb4b6db6f486d4a2742a",
+    "netlify_deploy": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6ab8a9c624a374000823266a",
+    "max_display_css_width": 622,
+    "asset_url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-tablet.png",
+    "asset_sha256": "a1e67e3920d6063eccd53e69489f80c03d05d2cef7e2c1cf17c61e939a9e0e28",
+    "status": "passed: normal production deploy ready on the exact merge commit; both localized HTML pages and CSS match the local production build; public PNG returned HTTP 200 and matched the committed static asset"
+  }
 }
