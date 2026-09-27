@@ -111,7 +111,7 @@
     "previous_article_desktop": "passed: complete localized Help article reviewed at 1200px and 1600px; four KPI cards and complete period control or selected chart visible, no figure link or horizontal overflow; 2880px source renders at most 1412px (2.04x)"
   },
   "limitations": [],
-  "status": "verified_local",
+  "status": "verified_public",
   "public_verification": {
     "checked_at": "2026-09-27 03:11 UTC",
     "pull_request": "https://github.com/hellotext/help/pull/129",
@@ -143,6 +143,12 @@
     "height": 610
   },
   "current_public_verification": {
-    "status": "pending: PR, merge, normal Netlify deploy, and public bilingual page/asset checks"
+    "checked_at": "2026-09-27 07:19 UTC",
+    "pull_request": "https://github.com/hellotext/help/pull/138",
+    "merged_help_commit": "fb57e5aac13ab04738a7e63fdb3f493b75cda6f5",
+    "netlify_production_deploy": "6ab8c32233f3d00009d33612",
+    "asset_url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-wide-desktop.png",
+    "asset_sha256": "470347c0697af60e59b6119e2c83bfb848fb9cbf69bd07ec4b14e451db40800e",
+    "status": "passed: normal production deploy ready on exact merge commit; both public article HTML files and CSS match local build; public PNG HTTP 200 and bytes match the verified Display P3 static asset"
   }
 }
