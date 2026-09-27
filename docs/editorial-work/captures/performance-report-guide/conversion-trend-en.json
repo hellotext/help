@@ -1,0 +1,69 @@
+{
+  "article_source": "_i18n/en/analytics-reporting-attribution/performance-report-guide.md",
+  "public_url": "https://help.hellotext.com/performance-report-guide",
+  "locale": "en",
+  "section_and_reader_task": "Read the complete daily conversion trend",
+  "step_and_target_control": "Read the complete daily conversion trend",
+  "capture_date": "2026-09-27 20:06:31 UTC",
+  "capture_tool": "macOS ScreenCaptureKit exact-title, exact-window helper (docs/editorial-work/capture-tools/hellotext_capture_editor.swift); native 2x SCStreamConfiguration with Display P3 colorSpaceName and ImageIO PNG output; system cursor hidden",
+  "source_route_and_state": "http://127.0.0.1:3190/hellotext/reports/3oDXBQG4?preset=custom&from=2026-09-11&to=2026-09-24&metric=conversion_rate; Custom September 11–24, Conversion rate, View total; all 14 daily points visible, with a coherent 22.2–32.1% range from populated demo interactions. UI locale en.",
+  "fixture_source": "Isolated development PostgreSQL database hellotext_editorial_capture_20260926, business 5; reproducible safe records and safeguards in docs/editorial-work/fixtures/performance-service-quality-enrichment.rb and .md. No contacts in the crop or message delivery.",
+  "demonstration_data_verified": true,
+  "privacy_check": "Exact crop contains aggregate report UI only. No contact rows, customer identifiers, conversations, messages, credentials, or private activity.",
+  "native_window": {
+    "id": 33329,
+    "title": "Performance report | Hellotext",
+    "frame_points": {
+      "x": -1253,
+      "y": 88,
+      "width": 1253,
+      "height": 897
+    }
+  },
+  "sourceRect": {
+    "x": -1233,
+    "y": 267,
+    "width": 1213,
+    "height": 434,
+    "unit": "global screen points"
+  },
+  "original_file": "docs/editorial-work/captures/performance-report-guide/conversion-trend-en-original.png",
+  "published_derivative": "images/analytics-reporting-attribution/performance-report-guide/conversion-trend-en.png",
+  "logical_viewport": {
+    "width": null,
+    "height": null,
+    "note": "Exact browser content viewport not retained. Dedicated Chrome window frame and ScreenCaptureKit crop are recorded; browser zoom 100%."
+  },
+  "source_pixels": {
+    "width": 2426,
+    "height": 868
+  },
+  "max_display_css_pixels": {
+    "width": 810,
+    "height": 289.8,
+    "basis": "Conservative article-column upper bound; actual image width is smaller after stage and image-frame padding."
+  },
+  "original_sha256": "ef40d170922298347ae64db4ed6747046778f16bba29b5d9fad578ee9c2aea83",
+  "published_derivative_sha256": "ef40d170922298347ae64db4ed6747046778f16bba29b5d9fad578ee9c2aea83",
+  "actual_file_format": "PNG, 8-bit RGBA, native 2x ScreenCaptureKit crop; static image is a byte-identical copy",
+  "icc_profile_and_verification": "Display P3 embedded ICC verified by file and sips; original and static SHA-256 ef40d170922298347ae64db4ed6747046778f16bba29b5d9fad578ee9c2aea83.",
+  "native_color_provenance": "Native 2x Display P3 display and PNG probe at /private/tmp/hellotext-left-display-probe-20260927.png; exact isolated Chrome window selected by ID and title. No JPEG conversion, resampling, color-profile reassignment, chart redrawing, or full-window intermediate.",
+  "transformations": [],
+  "pointer": {
+    "kind": "none",
+    "system_cursor": "hidden by native helper",
+    "automation_pointer": "outside exact crop",
+    "target": null,
+    "coordinates": null
+  },
+  "verification": {
+    "file": "passed: PNG signature, embedded Display P3 ICC, native 2x crop, no visible pointer or private content",
+    "source_asset": "passed: original and static bytes match by SHA-256",
+    "density": "passed: 2426 source pixels / 810 CSS px conservative maximum = 3.00x",
+    "desktop": "passed: complete en guide reviewed at 1280px; three static figures fit the 685px available article column with full-width bordered lavender stage, 627px white frame and 609px image; complete cards, trend and duration labels, no open control",
+    "mobile": "passed: complete en guide reviewed at 390px; stage 358px, image 316px, adjacent text explains compact values, and document has no horizontal overflow or image link",
+    "served_asset": "passed local: production Jekyll build and security-header verification; built EN and ES PNG bytes match original and static asset; public deployment pending"
+  },
+  "limitations": [],
+  "status": "local_verified"
+}

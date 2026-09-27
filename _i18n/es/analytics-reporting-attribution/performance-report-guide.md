@@ -16,6 +16,26 @@ Las fechas recientes pueden cambiar cuando se registran conversiones o Derivacio
 
 Selecciona una métrica para actualizar la línea de tiempo y los desgloses disponibles.
 
+En este ejemplo con datos de demostración, **Conversión** está seleccionada para un período personalizado. Las tres tarjetas usan ese mismo período; la línea muestra cómo varía la conversión por fecha de inicio de la interacción.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Período y métricas del Reporte de rendimiento">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/performance-report-guide/metric-period-es.png" width="2426" height="600" loading="lazy" decoding="async" alt="Período Personalizado con Conversión seleccionada al 27 %, Tiempo de conversión de 1h 0m y Tasa de escalamiento de 16,9 % en la cuenta de demostración." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real en español con datos ficticios. Seleccionar una tarjeta cambia la métrica representada en la línea de tiempo.</figcaption>
+</figure>
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Evolución de la conversión en el tiempo">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/performance-report-guide/conversion-trend-es.png" width="2426" height="868" loading="lazy" decoding="async" alt="Línea de Conversión en el tiempo del 11 al 24 de septiembre, con los 14 días visibles y Ver total seleccionado." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">La curva muestra la tasa diaria del período de demostración; las tarjetas anteriores resumen el período completo.</figcaption>
+</figure>
+
 ### Tasa de conversión
 
 Es el porcentaje de interacciones iniciadas en el período que tienen una conversión registrada. El numerador cuenta esas interacciones convertidas y el denominador incluye todas las interacciones iniciadas en el período.
@@ -68,6 +88,17 @@ Las opciones **motivo**, **equipo** y **agente de IA** aparecen para Derivación
 ## Entiende los gráficos de duración
 
 Debajo de **Tiempo de conversión**, los gráficos **Solo IA** y **Gestionado por el equipo** distribuyen interacciones con un intervalo de duración asignado desde su inicio hasta el evento que las cerró. **Incluyen interacciones cerradas sin conversión**, por lo que no son una distribución exclusiva de ventas o metas logradas.
+
+En otro período personalizado, el gráfico **Gestionado por el equipo** muestra los cinco intervalos completos. Cada porcentaje se calcula dentro de las interacciones de ese grupo. En estos datos ficticios, el 75 % duró menos de 24 horas; el resto se distribuye entre los otros cuatro intervalos.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Duración de interacciones gestionadas por el equipo">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/performance-report-guide/team-duration-es.png" width="1716" height="1006" loading="lazy" decoding="async" alt="Gráfico Gestionado por el equipo en la cuenta ficticia: 75 % el mismo día, 10 % en 1–3 días, 7 % en 4–7 días, 5 % en 8–30 días y 3 % en 30 días o más." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real en español con datos ficticios del 10 de agosto al 24 de septiembre. Las cinco barras pertenecen al grupo con Derivación explícita.</figcaption>
+</figure>
 
 - **Solo IA:** no hubo Derivación explícita de IA. Un colaborador pudo haber participado sin que se registrara un traspaso.
 - **Gestionado por el equipo:** la IA registró una Derivación, haya o no una conversión posterior.

@@ -16,6 +16,26 @@ Recent dates can change when later conversions or escalations are recorded for i
 
 Select a metric to update the timeline and available breakdowns.
 
+In this example with demonstration data, **Conversion rate** is selected for a custom period. All three cards use that period; the line shows how conversion varies by interaction start date.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Performance report period and metrics">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/performance-report-guide/metric-period-en.png" width="2426" height="600" loading="lazy" decoding="async" alt="Custom period with Conversion rate selected at 27%, Time to conversion of 1h 0m, and Escalation rate of 16.9% in the demonstration account." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real English interface with fictional data. Selecting a card changes the metric shown in the timeline.</figcaption>
+</figure>
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Conversion rate over time">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/performance-report-guide/conversion-trend-en.png" width="2426" height="868" loading="lazy" decoding="async" alt="Conversion rate over time from September 11 to 24, showing all 14 days with View total selected." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">The line shows the daily rate in this demonstration period; the preceding cards summarize the whole period.</figcaption>
+</figure>
+
 ### Conversion rate
 
 The percentage of interactions started in the period that have a recorded conversion. The numerator counts those converted interactions; the denominator includes all interactions started in the period.
@@ -68,6 +88,17 @@ The **reason**, **team**, and **AI agent** options appear for Escalation rate bu
 ## Understand the duration charts
 
 Below **Time to conversion**, the **AI-Only** and **Team-managed** charts group interactions by an assigned duration interval from their start to the event that closed them. **They include interactions closed without a conversion**, so they are not a distribution of sales or completed goals alone.
+
+In another custom period, the **Team-managed** chart shows all five duration intervals. Each percentage is calculated within that group of interactions. In this fictional data, 75% lasted less than 24 hours; the remainder is spread across the other four intervals.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Duration of team-managed interactions">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/performance-report-guide/team-duration-en.png" width="1716" height="1006" loading="lazy" decoding="async" alt="Team-managed chart in the fictional account: 75% same day, 10% in 1–3 days, 7% in 4–7 days, 5% in 8–30 days, and 3% in 30 or more days." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real English interface with fictional data from August 10 through September 24. All five bars belong to interactions with an explicit AI escalation.</figcaption>
+</figure>
 
 - **AI-Only:** there was no explicit AI escalation. A teammate may still have participated without a recorded handoff.
 - **Team-managed:** AI recorded an escalation, whether or not a conversion followed.
