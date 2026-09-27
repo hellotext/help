@@ -44,3 +44,9 @@ Help [PR 92](https://github.com/hellotext/help/pull/92) merged the three individ
 ## Visual follow-up audit (2026-09-26)
 
 The bilingual text and publication checks above remain valid, but the proposed focused report-selection or comparison capture was not made. `progress.csv` now marks this pair `visual_pending`; retain the verified text commit and resume with a localized capture if it still answers a distinct reader question. See `visual-followup.md` for the shared queue.
+
+## Visual follow-up decision (2026-09-27)
+
+The complete current Spanish and English guides were reread. This guide compares Revenue, Performance, Inbox and several type-specific mission reports, including different date bases, attribution rules and outcomes. There is no single Playbook reporting screen or control that demonstrates that comparison. A capture of one type-specific report would imply that its metrics apply to all missions. A generic report-card capture would duplicate the localized **Elige el reporte correcto / Choose the right report** figures already published in the Dashboard guide, while a static image cannot show why a purchase is counted on different dates across reports. The dated example, comparison lists and links to the detailed Revenue and Performance guides answer those questions directly.
+
+The proposed new screenshot therefore has no distinct reader task in this guide. Keep both article bodies and all existing links unchanged, and close only this pair's visual follow-up. The original verified content commit `389869fd74279e2c861b0cfb3da2eb52f84f37ea` remains the `local_verified` reference in `progress.csv`; Help PR 92 and the public ES/EN pages already verify its publication. Both public routes returned HTTP 200 during this audit and still contain the report comparison without a figure. Demand insights, Performance and Service quality remain separate capture work; this decision does not close their visual debt.
