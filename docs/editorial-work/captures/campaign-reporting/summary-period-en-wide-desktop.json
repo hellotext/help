@@ -69,10 +69,10 @@
     "height": 610
   },
   "max_display_css_pixels": {
-    "width": 1412,
-    "basis": "New wide article figure target: 1488px outer frame, with 28px stage padding and approximately 8px frame/border on each side at a 1600px viewport."
+    "width": 734,
+    "basis": "Standard Help article column up to 810 CSS pixels; 28px stage padding and 9px image-frame inset per side. The article layout was measured at a 1600px viewport on 2026-09-27."
   },
-  "effective_pixel_ratio_at_max_display_width": 2.04,
+  "effective_pixel_ratio_at_max_display_width": 3.92,
   "original_sha256": "a5abb5d2044fa121b31494a6723398fa187fdcff53b9c73e27b68efe7bfc0829",
   "published_derivative_sha256": "a5abb5d2044fa121b31494a6723398fa187fdcff53b9c73e27b68efe7bfc0829",
   "actual_file_format": "PNG, 8-bit RGBA, native 2x ScreenCaptureKit crop; static asset is a byte-identical copy",
@@ -91,9 +91,10 @@
     "source_asset": "passed: original and static asset bytes match SHA-256",
     "capture_visual": "passed: saved pixels visually checked for complete four-KPI row, localization, no cursor, no scrollbar, no private data; expected labels: First 14 days, Attributed revenue, Average ROI, Conversion, Revenue/message",
     "period_selector": "passed: complete selected first-14-days period control and four cards",
-    "article_desktop": "passed: complete localized Help article reviewed at 1200px and 1600px; four KPI cards and complete period control or selected chart visible, no figure link or horizontal overflow; 2880px source renders at most 1412px (2.04x)",
+    "article_desktop": "passed 2026-09-27: complete localized Help article reviewed at 1600px; this image renders at 734px inside the standard 810px article column, with the sidebar and article index restored. Four KPI cards and the complete period selector or chart remain visible; no image link or horizontal overflow. The 2880px source provides 3.92x display density.",
     "article_mobile": "passed: localized Help article reviewed at 390px using existing phone source; 1199px selects existing tablet source; no horizontal overflow or figure link",
-    "served_asset": "passed: production Jekyll build and security-header check; original, static asset, built _site copy and local HTTP 200 response match recorded SHA-256"
+    "served_asset": "passed: production Jekyll build and security-header check; original, static asset, built _site copy and local HTTP 200 response match recorded SHA-256",
+    "previous_article_desktop": "passed: complete localized Help article reviewed at 1200px and 1600px; four KPI cards and complete period control or selected chart visible, no figure link or horizontal overflow; 2880px source renders at most 1412px (2.04x)"
   },
   "limitations": [],
   "status": "verified_local",
@@ -107,5 +108,10 @@
     "asset_url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-wide-desktop.png",
     "asset_sha256": "a5abb5d2044fa121b31494a6723398fa187fdcff53b9c73e27b68efe7bfc0829",
     "status": "passed: public asset HTTP 200 and SHA-256 matches local verified original; production Netlify deploy ready on exact merge commit"
-  }
+  },
+  "previous_max_display_css_pixels": {
+    "width": 1412,
+    "basis": "New wide article figure target: 1488px outer frame, with 28px stage padding and approximately 8px frame/border on each side at a 1600px viewport."
+  },
+  "display_revision": "The previous 1412px display and its public verification describe the superseded wide layout; the new standard-width layout is verified locally and awaits publication."
 }

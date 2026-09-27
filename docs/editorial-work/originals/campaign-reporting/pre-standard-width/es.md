@@ -6,7 +6,7 @@ Para abrir uno, ve a **Campañas → Enviadas** y selecciona una campaña.
 
 El reporte se abre con **Primeros 14 días** seleccionado. Puedes cambiar a los primeros 7 o 30 días, o elegir un rango personalizado.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--campaign-kpi" aria-label="Período y resumen de un reporte de campaña">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--wide-desktop" aria-label="Período y resumen de un reporte de campaña">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame">
       <picture>
@@ -39,7 +39,7 @@ Las cuatro tarjetas del resumen responden preguntas diferentes:
 
 Selecciona una tarjeta para actualizar el gráfico y ver cómo cambió esa métrica en el tiempo. La conversión se calcula con compras atribuidas y mensajes entregados; no es el porcentaje de personas que hicieron clic y luego compraron.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--campaign-kpi" aria-label="Tarjeta seleccionada y evolución de una métrica de campaña">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--wide-desktop" aria-label="Tarjeta seleccionada y evolución de una métrica de campaña">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame">
       <picture>

@@ -5,7 +5,7 @@
     {% assign document_description = page[site.lang].description %}
     {% include document_head.html title=document_title description=document_description %}
   </head>
-  <body class="guide-page{% if page.wide_visuals %} guide-page--wide-visuals{% endif %}">
+  <body class="guide-page">
     {% include gtm_body.html %}
     <a class="skip-link" href="#main-content">{% t skip_to_content %}</a>
 
@@ -53,10 +53,6 @@
           </div>
         </header>
 
-        {% if page.wide_visuals %}
-          {% include article_toc.html collapsible=true %}
-        {% endif %}
-
         <article
           class="guide-content"
           data-copy-section-link-label="{% t copy_section_link %}"
@@ -97,9 +93,7 @@
         </div>
       </main>
 
-      {% unless page.wide_visuals %}
-        {% include article_toc.html %}
-      {% endunless %}
+      {% include article_toc.html %}
     </div>
 
     {% include footer.html %}
