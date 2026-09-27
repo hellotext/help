@@ -6,18 +6,17 @@ Para abrir uno, ve a **Campañas → Enviadas** y selecciona una campaña.
 
 El reporte se abre con **Primeros 14 días** seleccionado. Puedes cambiar a los primeros 7 o 30 días, o elegir un rango personalizado.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--wide-desktop" aria-label="Período y resumen de un reporte de campaña">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Período y resumen de un reporte de campaña">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 640px; margin: 0 auto;">
       <picture>
         <source media="(max-width: 430px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-mobile.png" width="746" height="580" />
         <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-mobile-wide.png" width="1048" height="580" />
-        <source media="(max-width: 1199px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-tablet.png" width="1248" height="600" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-wide-desktop.png" width="2880" height="610" loading="lazy" decoding="async" alt="Selector Primeros 14 días y resumen de métricas de una campaña de demostración." />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-tablet.png" width="1248" height="600" loading="lazy" decoding="async" alt="Reporte de demostración con Primeros 14 días seleccionado, tarjeta de Ingresos atribuidos y flecha para recorrer las demás métricas del resumen." />
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Reporte de demostración en español: en escritorio se ven las cuatro tarjetas del resumen; en pantallas más estrechas, la flecha permite recorrerlas.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Captura de la interfaz real en español con datos de demostración; la flecha permite recorrer las tarjetas del resumen.</figcaption>
 </figure>
 
 El rango filtra los resultados según cuándo ocurrió cada evento. Un envío o una entrega se cuenta en su día; un clic, en el día del clic; y una compra atribuida, en el día de la compra. Las tarjetas y el gráfico usan esas fechas. La etapa **Interacción** del embudo requiere una entrega y un clic en un enlace rastreado dentro del mismo rango. En la lista de mensajes, el rango afecta las entregas, los clics, las conversiones y los ingresos; el ROI por mensaje compara los ingresos del período con el costo estimado de entrega de ese mensaje. Los desgloses de ingresos y **Tiempo de conversión** incluyen compras atribuidas ocurridas dentro del rango.
@@ -39,14 +38,13 @@ Las cuatro tarjetas del resumen responden preguntas diferentes:
 
 Selecciona una tarjeta para actualizar el gráfico y ver cómo cambió esa métrica en el tiempo. La conversión se calcula con compras atribuidas y mensajes entregados; no es el porcentaje de personas que hicieron clic y luego compraron.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--wide-desktop" aria-label="Tarjeta seleccionada y evolución de una métrica de campaña">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Tarjeta seleccionada y evolución de una métrica de campaña">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 640px; margin: 0 auto;">
       <picture>
         <source media="(max-width: 438px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-es-phone.png" width="748" height="1300" />
         <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-es-mobile.png" width="1166" height="1188" />
-        <source media="(max-width: 1199px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-es-tablet.png" width="1248" height="1260" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-es-wide-desktop.png" width="2880" height="1360" loading="lazy" decoding="async" alt="Ingresos atribuidos seleccionados y curva descendente de ingresos diarios de una campaña de demostración." />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-es-tablet.png" width="1248" height="1260" loading="lazy" decoding="async" alt="Tarjeta de ingresos atribuidos seleccionada y curva descendente de ingresos diarios en el gráfico completo de la campaña." />
       </picture>
     </div>
   </div>

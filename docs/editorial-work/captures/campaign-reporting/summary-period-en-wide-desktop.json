@@ -1,0 +1,103 @@
+{
+  "article_source": "_i18n/en/analytics-reporting-attribution/campaign-reporting.md",
+  "public_url": "https://help.hellotext.com/campaign-reporting",
+  "locale": "en",
+  "section_and_reader_task": "Choose a reporting period and compare all four summary KPIs",
+  "step_and_target_control": "Choose a reporting period and compare all four summary KPIs",
+  "capture_date": "2026-09-27 UTC",
+  "capture_tool": "macOS ScreenCaptureKit exact-window helper at docs/editorial-work/capture-tools/hellotext_capture_editor.swift; ImageIO native 2x PNG with embedded Display P3 ICC; exact-window and crop, no browser screenshot or resampling",
+  "source_route_and_state": "Isolated local Rails demo at http://127.0.0.1:3190/hellotext/campaigns/4ONLdN32?metric=incremental_revenue&preset=first_14_days; database hellotext_editorial_capture_20260926; synthetic campaign report, en UI, first 14 days selected, attributed revenue KPI selected. No campaign or message was sent.",
+  "fixture_data": {
+    "synthetic_campaign_id": 5,
+    "sent_messages": 5400,
+    "delivered_messages": 5133,
+    "tracked_clicks": 1032,
+    "attributed_purchases": 321,
+    "attributed_revenue_usd": 1872,
+    "average_roi": 5.4,
+    "conversion_percent": 6.3,
+    "revenue_per_message_usd": 0.36,
+    "daily_attributed_revenue_usd_apr19_to_may2": [
+      260,
+      245,
+      225,
+      210,
+      190,
+      175,
+      160,
+      120,
+      95,
+      75,
+      50,
+      30,
+      22,
+      15
+    ],
+    "note": "All data is synthetic and confined to the isolated local Rails database."
+  },
+  "demonstration_data_verified": true,
+  "privacy_check": "Exact saved crop contains only the isolated synthetic campaign report. No contacts, identifiers, activity feed, conversations, customer records, or browser controls are visible.",
+  "native_window": {
+    "id": 26501,
+    "title": "Campaign Report Image Preview | Hellotext",
+    "chrome_profile": "Martin (hellotext.com)",
+    "frame_points": {
+      "x": 22,
+      "y": 61,
+      "width": 1635,
+      "height": 996
+    },
+    "display_frame_points": {
+      "x": 0,
+      "y": 0,
+      "width": 1800,
+      "height": 1169
+    },
+    "display_color_provenance": "Main Display P3 display; native Display P3 screen probe /private/tmp/hellotext-main-p3-probe.png was supplied to the exact-window helper."
+  },
+  "sourceRect": {
+    "x": 110,
+    "y": 455,
+    "width": 1440,
+    "height": 305,
+    "unit": "global screen points"
+  },
+  "original_file": "docs/editorial-work/captures/campaign-reporting/summary-period-en-wide-desktop-original.png",
+  "published_derivative": "images/analytics-reporting-attribution/campaign-reporting/summary-period-en-wide-desktop.png",
+  "source_pixels": {
+    "width": 2880,
+    "height": 610
+  },
+  "max_display_css_pixels": {
+    "width": 1412,
+    "basis": "New wide article figure target: 1488px outer frame, with 28px stage padding and approximately 8px frame/border on each side at a 1600px viewport."
+  },
+  "effective_pixel_ratio_at_max_display_width": 2.04,
+  "original_sha256": "a5abb5d2044fa121b31494a6723398fa187fdcff53b9c73e27b68efe7bfc0829",
+  "published_derivative_sha256": "a5abb5d2044fa121b31494a6723398fa187fdcff53b9c73e27b68efe7bfc0829",
+  "actual_file_format": "PNG, 8-bit RGBA, native 2x ScreenCaptureKit crop; static asset is a byte-identical copy",
+  "icc_profile_and_verification": "Display P3 embedded ICC verified with sips; file confirmed PNG 2880x610 RGBA; original and static asset SHA-256 a5abb5d2044fa121b31494a6723398fa187fdcff53b9c73e27b68efe7bfc0829",
+  "native_color_provenance": "Exact Chrome window ID 26501 titled Campaign Report Image Preview | Hellotext; sourceRect 110,455,1440,305 global points on main P3 display; direct native 2x Display P3 PNG with no JPEG conversion, resampling, profile reassignment, or full-window intermediate.",
+  "transformations": [],
+  "pointer": {
+    "kind": "none",
+    "system_cursor": "Outside sourceRect before capture; no cursor visible in saved pixels",
+    "automation_pointer": "Outside sourceRect at the left blank page margin before capture; no automation pointer visible in saved pixels",
+    "target": null,
+    "coordinates": null
+  },
+  "verification": {
+    "file": "passed: PNG signature, native 2x dimensions, and embedded Display P3 ICC",
+    "source_asset": "passed: original and static asset bytes match SHA-256",
+    "capture_visual": "passed: saved pixels visually checked for complete four-KPI row, localization, no cursor, no scrollbar, no private data; expected labels: First 14 days, Attributed revenue, Average ROI, Conversion, Revenue/message",
+    "period_selector": "passed: complete selected first-14-days period control and four cards",
+    "article_desktop": "passed: complete localized Help article reviewed at 1200px and 1600px; four KPI cards and complete period control or selected chart visible, no figure link or horizontal overflow; 2880px source renders at most 1412px (2.04x)",
+    "article_mobile": "passed: localized Help article reviewed at 390px using existing phone source; 1199px selects existing tablet source; no horizontal overflow or figure link",
+    "served_asset": "passed: production Jekyll build and security-header check; original, static asset, built _site copy and local HTTP 200 response match recorded SHA-256"
+  },
+  "limitations": [],
+  "status": "verified_local",
+  "public_verification": {
+    "status": "pending_merge_and_public_verification"
+  }
+}

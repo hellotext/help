@@ -6,18 +6,17 @@ To open one, go to **Campaigns → Delivered** and select a campaign.
 
 The report opens with **First 14 days** selected. You can switch to the first 7 or 30 days, or choose a custom range.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--wide-desktop" aria-label="Campaign reporting period and summary">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Campaign reporting period and summary">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 640px; margin: 0 auto;">
       <picture>
         <source media="(max-width: 430px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile.png" width="746" height="580" />
         <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile-wide.png" width="1048" height="580" />
-        <source media="(max-width: 1199px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-tablet.png" width="1248" height="600" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-wide-desktop.png" width="2880" height="610" loading="lazy" decoding="async" alt="First 14 days selector and metric summary for a demonstration campaign." />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-tablet.png" width="1248" height="600" loading="lazy" decoding="async" alt="Demo report with First 14 days selected, the Attributed revenue card, and an arrow for moving through the other summary metrics." />
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">English demonstration report: all four summary cards appear on desktop; on narrower screens, use the arrow to move through them.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Real English interface with demonstration data; use the arrow to move through the summary cards.</figcaption>
 </figure>
 
 The range filters results by when each event occurred. A send or delivery counts on its day; a click counts on the click date; and an attributed purchase counts on the purchase date. The summary cards and chart use those dates. The funnel's **Engaged** stage requires both a delivery and a tracked link click within the same range. In the message list, the range affects deliveries, clicks, conversions, and revenue; per-message ROI compares revenue from the period with that message's estimated delivery cost. Revenue breakdowns and **Time to conversion** include attributed purchases made within the range.
@@ -39,14 +38,13 @@ The four summary cards answer different questions:
 
 Select a card to update the chart and see how that metric changed over time. Conversion is based on attributed purchases and delivered messages; it is not the percentage of people who clicked and then purchased.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--wide-desktop" aria-label="Selected card and campaign metric over time">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Selected card and campaign metric over time">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 640px; margin: 0 auto;">
       <picture>
         <source media="(max-width: 438px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-en-phone.png" width="748" height="1300" />
         <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-en-mobile.png" width="1166" height="1188" />
-        <source media="(max-width: 1199px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-en-tablet.png" width="1248" height="1260" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-en-wide-desktop.png" width="2880" height="1360" loading="lazy" decoding="async" alt="Selected attributed revenue metric and descending daily revenue curve for a demonstration campaign." />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-en-tablet.png" width="1248" height="1260" loading="lazy" decoding="async" alt="Selected attributed revenue card and a descending daily revenue curve in the complete campaign chart." />
       </picture>
     </div>
   </div>

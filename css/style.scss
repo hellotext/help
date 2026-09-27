@@ -1659,6 +1659,70 @@ html[lang="es"] .home-hero h1 {
   letter-spacing: -0.02em;
 }
 
+.guide-content > figure.ht-editorial-visual--wide-desktop .ht-editorial-visual__image-frame {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+  .guide-page--wide-visuals .guide-page__layout {
+    display: block;
+  }
+
+  .guide-page--wide-visuals .article-sidebar {
+    display: none;
+  }
+
+  .guide-page--wide-visuals .breadcrumb,
+  .guide-page--wide-visuals .guide-heading,
+  .guide-page--wide-visuals .guide-closing,
+  .guide-page--wide-visuals .guide-content > :not(.ht-editorial-visual--wide-desktop) {
+    max-width: var(--article-column-max);
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .guide-page--wide-visuals .article-toc--collapsible {
+    width: min(100%, var(--article-column-max));
+    margin: 32px auto 0;
+    padding: 0;
+    align-self: auto;
+    justify-self: auto;
+  }
+
+  .guide-page--wide-visuals .article-toc--collapsible summary {
+    width: fit-content;
+    color: var(--indigo);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .guide-page--wide-visuals .article-toc--collapsible .article-toc__nav {
+    max-height: none;
+    margin-top: 16px;
+    position: static;
+    overflow: visible;
+  }
+
+  .guide-page--wide-visuals .article-toc--collapsible .article-toc__list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 24px;
+  }
+
+  .guide-page--wide-visuals .guide-content > figure.ht-editorial-visual--wide-desktop {
+    width: 100%;
+    max-width: var(--guide-view-max-width);
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .guide-page--wide-visuals .guide-content > figure.ht-editorial-visual--wide-desktop .ht-editorial-visual__image-frame {
+    max-width: none;
+  }
+}
+
 .guide-content > * {
   margin-top: 0;
   margin-bottom: 0;
