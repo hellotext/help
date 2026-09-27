@@ -69,16 +69,30 @@
     "height": 610
   },
   "max_display_css_pixels": {
-    "width": 734,
-    "basis": "Standard Help article column up to 810 CSS pixels; 28px stage padding and 9px image-frame inset per side. The article layout was measured at a 1600px viewport on 2026-09-27."
+    "width": 810,
+    "basis": "The campaign figure fills the standard Help article column at a 1600px desktop viewport; no stage or image-frame side padding. The screenshot never widens the article."
   },
-  "effective_pixel_ratio_at_max_display_width": 3.92,
+  "effective_pixel_ratio_at_max_display_width": 3.06,
   "original_sha256": "0b3688dd3e368e00fe80b9f184477bb8423010778d51a8a22d85425ab20ec1cd",
-  "published_derivative_sha256": "0b3688dd3e368e00fe80b9f184477bb8423010778d51a8a22d85425ab20ec1cd",
-  "actual_file_format": "PNG, 8-bit RGBA, native 2x ScreenCaptureKit crop; static asset is a byte-identical copy",
-  "icc_profile_and_verification": "Display P3 embedded ICC verified with sips; file confirmed PNG 2880x610 RGBA; original and static asset SHA-256 0b3688dd3e368e00fe80b9f184477bb8423010778d51a8a22d85425ab20ec1cd",
+  "published_derivative_sha256": "65bfef90c667cf5da787412ad4d2175652ea945e2b1c1c84c7fb4bdb6c9217fc",
+  "actual_file_format": "PNG, 8-bit RGBA, native 2x ScreenCaptureKit source pixels cropped without resampling; the original remains untouched",
+  "icc_profile_and_verification": "Untouched source and published pixel crop are genuine PNG files with embedded Display P3 ICC, verified with sips; source and derivative dimensions and SHA-256 are recorded separately.",
   "native_color_provenance": "Exact Chrome window ID 26501 titled Campaign Report Image Preview | Hellotext; sourceRect 110,455,1440,305 global points on main P3 display; direct native 2x Display P3 PNG with no JPEG conversion, resampling, profile reassignment, or full-window intermediate.",
-  "transformations": [],
+  "transformations": [
+    {
+      "kind": "pixel_crop",
+      "tool": "ImageMagick 7.1.2-19",
+      "input": "docs/editorial-work/captures/campaign-reporting/summary-period-es-wide-desktop-original.png",
+      "crop_pixels": {
+        "x": 224,
+        "y": 0,
+        "width": 2480,
+        "height": 610
+      },
+      "resampling": false,
+      "verification": "RGBA pixel hash of the derivative exactly matches the same rectangle of the untouched original; Display P3 ICC remains embedded."
+    }
+  ],
   "pointer": {
     "kind": "none",
     "system_cursor": "Outside sourceRect before capture; no cursor visible in saved pixels",
@@ -88,12 +102,12 @@
   },
   "verification": {
     "file": "passed: PNG signature, native 2x dimensions, and embedded Display P3 ICC",
-    "source_asset": "passed: original and static asset bytes match SHA-256",
+    "source_asset": "passed: unchanged original SHA-256 and new derivative SHA-256 recorded separately; exact RGBA pixel identity checked against the source rectangle",
     "capture_visual": "passed: saved pixels visually checked for complete four-KPI row, localization, no cursor, no scrollbar, no private data; expected labels: Primeros 14 días, Ingresos atribuidos, ROI promedio, Conversión, Ingresos/mensaje",
     "period_selector": "passed: complete selected first-14-days period control and four cards",
-    "article_desktop": "passed 2026-09-27: complete localized Help article reviewed at 1600px; this image renders at 734px inside the standard 810px article column, with the sidebar and article index restored. Four KPI cards and the complete period selector or chart remain visible; no image link or horizontal overflow. The 2880px source provides 3.92x display density.",
-    "article_mobile": "passed: localized Help article reviewed at 390px using existing phone source; 1199px selects existing tablet source; no horizontal overflow or figure link",
-    "served_asset": "passed: production Jekyll build and security-header check; original, static asset, built _site copy and local HTTP 200 response match recorded SHA-256",
+    "article_desktop": "passed 2026-09-27: complete localized guide inspected at 1600px; full four-KPI row and period control or complete chart visible at 810px within the standard article column, with both side navigation columns and no image link or horizontal overflow",
+    "article_mobile": "passed 2026-09-27: complete localized guide inspected at 390px; all seven figures have no stage/frame side padding, localized sources and no image link or horizontal overflow. English breakpoint audit 375–1600px confirms all selected sources at least 2x.",
+    "served_asset": "passed: bilingual production Jekyll build and security-header check; published derivative, built _site copy and local HTTP 200 response have identical SHA-256; Display P3 remains embedded",
     "previous_article_desktop": "passed: complete localized Help article reviewed at 1200px and 1600px; four KPI cards and complete period control or selected chart visible, no figure link or horizontal overflow; 2880px source renders at most 1412px (2.04x)"
   },
   "limitations": [],
@@ -113,7 +127,7 @@
     "width": 1412,
     "basis": "New wide article figure target: 1488px outer frame, with 28px stage padding and approximately 8px frame/border on each side at a 1600px viewport."
   },
-  "display_revision": "The previous desktop routing and public checks are historical. The standard-width routing was published by Help PR 133 and verified on 2026-09-27.",
+  "display_revision": "The earlier wide and standard-width public checks are historical. This new revision removes campaign-only side padding and crops the white margins of the four full-desktop KPI images; the source capture remains untouched.",
   "standard_width_public_verification": {
     "checked_at": "2026-09-27 05:31 UTC",
     "pull_request": "https://github.com/hellotext/help/pull/133",
@@ -123,5 +137,12 @@
     "asset_url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-wide-desktop.png",
     "asset_sha256": "0b3688dd3e368e00fe80b9f184477bb8423010778d51a8a22d85425ab20ec1cd",
     "status": "passed: normal production deploy ready on the exact merge commit; both localized HTML pages and CSS match the local production build; public PNG returned HTTP 200 and matched the committed static asset"
+  },
+  "published_derivative_pixels": {
+    "width": 2480,
+    "height": 610
+  },
+  "current_public_verification": {
+    "status": "pending: PR, merge, normal Netlify deploy, and public bilingual page/asset checks"
   }
 }

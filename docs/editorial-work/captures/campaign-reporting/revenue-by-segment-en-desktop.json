@@ -67,9 +67,9 @@
     "height": 460
   },
   "max_display_css_pixels": {
-    "width": 740,
-    "height": 215.44,
-    "basis": "article figure max-width 740 CSS px; observed 608.8125 CSS px at 1280x900 desktop"
+    "width": 790,
+    "height": 230.0,
+    "basis": "measured in the complete local Help article at 1600px; selected from 1200px onward"
   },
   "original_sha256": "e703294566a4417f90b0f67377051eb02459267e912f390c3b3ea6621ac311ad",
   "published_derivative_sha256": "e703294566a4417f90b0f67377051eb02459267e912f390c3b3ea6621ac311ad",
@@ -87,7 +87,7 @@
   "verification": {
     "file": "passed: PNG signature, native dimensions, and embedded Display P3 profile",
     "source_asset": "passed: original and static image bytes match SHA-256",
-    "density": "passed: source width 1580 px / maximum intended rendered width 740 CSS px = 2.135x",
+    "density": "passed: 1580px native source / 790px maximum display width = 2.00x",
     "desktop": "passed: complete ES and EN article figures inspected at 1280x900; both localized segment charts complete, no right line, no image link or overflow",
     "mobile": "passed: ES and EN segment figures inspected at 375x812 and 599x900; responsive sources load, both bars complete, no right line or overflow",
     "served_asset": "passed: original, static, built-site, and local HTTP-served bytes match; bilingual production build and security-header check passed"
@@ -98,5 +98,21 @@
   "limitations": [
     "Synthetic segment membership overlaps; percentages need not total 100%."
   ],
-  "status": "verified_local"
+  "status": "verified_local",
+  "layout_history": [
+    {
+      "before_campaign_side_spacing_revision": {
+        "width": 740,
+        "height": 215.44,
+        "basis": "article figure max-width 740 CSS px; observed 608.8125 CSS px at 1280x900 desktop"
+      }
+    }
+  ],
+  "current_article_placement": {
+    "article_revision": "campaign screenshot side-spacing correction, 2026-09-27",
+    "viewport_selection": "1200px and wider",
+    "frame": "no decorative stage or image-frame side padding",
+    "local_verification": "passed in the complete bilingual Help articles at desktop and responsive breakpoints; no linked figures or horizontal overflow",
+    "public_verification": "pending pull request merge and normal Netlify deployment"
+  }
 }
