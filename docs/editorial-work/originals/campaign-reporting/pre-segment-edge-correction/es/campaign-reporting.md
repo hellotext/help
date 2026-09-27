@@ -137,9 +137,8 @@ Una venta puede ocurrir días después de la entrega y aparecer si su fecha de c
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 740px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 440px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-segment-es-mobile.png" width="740" height="480" />
-        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-segment-es-mobile-wide.png" width="1180" height="490" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-segment-es.png" width="1580" height="460" loading="lazy" decoding="async" alt="Desglose de ingresos atribuidos entre segmentos de demostración, cuyos porcentajes pueden superponerse." />
+        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-segment-es-mobile.png" width="744" height="520" />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-segment-es.png" width="1572" height="520" loading="lazy" decoding="async" alt="Desglose de ingresos atribuidos entre segmentos de demostración, cuyos porcentajes pueden superponerse." />
       </picture>
     </div>
   </div>

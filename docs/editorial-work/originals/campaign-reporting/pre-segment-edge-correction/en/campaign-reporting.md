@@ -137,9 +137,8 @@ A sale can happen days after delivery and appear if its purchase date falls with
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 740px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 440px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-segment-en-mobile.png" width="740" height="480" />
-        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-segment-en-mobile-wide.png" width="1180" height="490" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-segment-en.png" width="1580" height="460" loading="lazy" decoding="async" alt="Breakdown of attributed revenue across demonstration segments whose percentages may overlap." />
+        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-segment-en-mobile.png" width="740" height="560" />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-segment-en.png" width="1572" height="520" loading="lazy" decoding="async" alt="Breakdown of attributed revenue across demonstration segments whose percentages may overlap." />
       </picture>
     </div>
   </div>
