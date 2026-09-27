@@ -111,14 +111,13 @@ Esto permite comparar los mensajes reales sin mezclar el rendimiento de los clic
 
 Una venta puede ocurrir días después de la entrega y aparecer si su fecha de compra está dentro del período seleccionado y corresponde a la campaña según las reglas de atribución aplicables.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--campaign-report ht-editorial-visual--campaign-conversion" aria-label="Distribución del tiempo de conversión">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--campaign-report" aria-label="Distribución del tiempo de conversión">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame">
       <picture>
         <source media="(max-width: 430px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-es-mobile.png" width="720" height="820" />
         <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-es-mobile-wide.png" width="1048" height="810" />
-        <source media="(max-width: 1399px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-es-tablet.png" width="1248" height="770" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-es-desktop-wide.png" width="2458" height="1360" loading="lazy" decoding="async" alt="Gráfico de Tiempo de conversión que distribuye las compras atribuidas entre el mismo día, los días siguientes y períodos posteriores." />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-es-tablet.png" width="1248" height="770" loading="lazy" decoding="async" alt="Gráfico de Tiempo de conversión que distribuye las compras atribuidas entre el mismo día, los días siguientes y períodos posteriores." />
       </picture>
     </div>
   </div>
@@ -135,8 +134,8 @@ Una venta puede ocurrir días después de la entrega y aparecer si su fecha de c
       <picture>
         <source media="(max-width: 430px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-channel-es-mobile.png" width="720" height="660" />
         <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-channel-es-mobile-wide.png" width="1048" height="750" />
-        <source media="(max-width: 1399px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-channel-es-tablet.png" width="1248" height="780" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-channel-es-desktop-wide.png" width="2458" height="1360" loading="lazy" decoding="async" alt="Comparación de ingresos atribuidos a WhatsApp y SMS en un reporte de campaña con datos de demostración." />
+        <source media="(max-width: 1199px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-channel-es-tablet.png" width="1248" height="780" />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-channel-es.png" width="1420" height="650" loading="lazy" decoding="async" alt="Comparación de ingresos atribuidos a WhatsApp y SMS en un reporte de campaña con datos de demostración." />
       </picture>
     </div>
   </div>
