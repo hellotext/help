@@ -25,7 +25,7 @@ Messaging has three distinct concepts:
 
 ## Review usage and invoices
 
-Open **Settings → Billing** to see your current plan, period usage, balance when applicable, payment history, payment methods, billing information, and available invoices.
+Open **Settings → Billing** to see your current plan, period usage, balance, payment history, payment methods, billing information, and available invoices.
 
 - [Plan usage and monthly charges]({% link _billing/understanding-plan-quotas.md %}) helps you interpret a selected period.
 - [Billing settings, payment methods, and invoices]({% link _billing/billing-settings-and-invoices.md %}) explains each billing control.
