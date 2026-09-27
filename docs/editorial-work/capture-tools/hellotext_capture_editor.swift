@@ -76,7 +76,11 @@ func parseOptions() throws -> Options {
         }
         index += 2
     }
-    if !result.list {
+    if result.list {
+        guard result.title != nil else {
+            throw CaptureError.usage("Listing requires --title EXACT_TITLE")
+        }
+    } else {
         guard result.windowID != nil, result.title != nil, result.rect != nil, result.output != nil else {
             throw CaptureError.usage("Capture requires --window-id N --title EXACT_TITLE --rect x,y,w,h --output /absolute/path.png [--display-probe /absolute/path.png] [--show-cursor]")
         }
@@ -140,13 +144,18 @@ struct CaptureEditor {
         }
 
         if options.list {
+            guard let title = options.title else {
+                throw CaptureError.usage("Listing requires --title EXACT_TITLE")
+            }
+            let matches = chrome.filter { $0.title == title }
+            guard matches.count == 1, let window = matches.first else {
+                throw CaptureError.invalid("Chrome window exact title did not resolve uniquely")
+            }
             for display in content.displays {
                 let displaySpace = CGDisplayCopyColorSpace(display.displayID)
                 print("display=\(display.displayID) frame=\(display.frame) colorSpace=\(displaySpace.name as String? ?? "<none>")")
             }
-            for window in chrome.sorted(by: { $0.windowID < $1.windowID }) {
-                print("id=\(window.windowID) title=\(window.title ?? "<none>") frame=\(window.frame)")
-            }
+            print("id=\(window.windowID) frame=\(window.frame)")
             return
         }
 
