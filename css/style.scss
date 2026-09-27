@@ -1661,17 +1661,19 @@ html[lang="es"] .home-hero h1 {
 
 .guide-content > figure.ht-editorial-visual--campaign-report {
   --campaign-figure-max-width: 624px;
+  --campaign-stage-max-width: 672px;
 }
 
 .guide-content > figure.ht-editorial-visual--campaign-report.ht-editorial-visual--campaign-kpi {
   --campaign-figure-max-width: 100%;
+  --campaign-stage-max-width: 100%;
 }
 
 .guide-content > figure.ht-editorial-visual.ht-editorial-visual--campaign-report .ht-editorial-visual__stage {
   width: 100%;
-  max-width: var(--campaign-figure-max-width);
+  max-width: var(--campaign-stage-max-width);
   margin-inline: auto;
-  padding: 8px;
+  padding: 24px;
   border: 0;
 }
 
@@ -1687,24 +1689,29 @@ html[lang="es"] .home-hero h1 {
 @media (min-width: 1200px) {
   .guide-content > figure.ht-editorial-visual--campaign-message {
     --campaign-figure-max-width: 100%;
+    --campaign-stage-max-width: 100%;
   }
 
   .guide-content > figure.ht-editorial-visual--campaign-funnel {
     --campaign-figure-max-width: 780px;
+    --campaign-stage-max-width: 100%;
   }
 
   .guide-content > figure.ht-editorial-visual--campaign-channel {
     --campaign-figure-max-width: 710px;
+    --campaign-stage-max-width: 758px;
   }
 
   .guide-content > figure.ht-editorial-visual--campaign-segment {
     --campaign-figure-max-width: 790px;
+    --campaign-stage-max-width: 100%;
   }
 }
 
 @media (max-width: 1199px) {
   .guide-content > figure.ht-editorial-visual--campaign-report.ht-editorial-visual--campaign-kpi {
     --campaign-figure-max-width: 624px;
+    --campaign-stage-max-width: 672px;
   }
 }
 
@@ -1712,6 +1719,11 @@ html[lang="es"] .home-hero h1 {
   .guide-content > figure.ht-editorial-visual--campaign-report,
   .guide-content > figure.ht-editorial-visual--campaign-report.ht-editorial-visual--campaign-kpi {
     --campaign-figure-max-width: 524px;
+    --campaign-stage-max-width: 556px;
+  }
+
+  .guide-content > figure.ht-editorial-visual.ht-editorial-visual--campaign-report .ht-editorial-visual__stage {
+    padding: 16px;
   }
 }
 
@@ -1719,6 +1731,7 @@ html[lang="es"] .home-hero h1 {
   .guide-content > figure.ht-editorial-visual--campaign-report,
   .guide-content > figure.ht-editorial-visual--campaign-report.ht-editorial-visual--campaign-kpi {
     --campaign-figure-max-width: 360px;
+    --campaign-stage-max-width: 392px;
   }
 }
 
