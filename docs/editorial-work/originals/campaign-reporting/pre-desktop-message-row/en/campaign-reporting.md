@@ -91,18 +91,17 @@ The **Messages** section shows the date and preview of each campaign message, fo
 
 This lets you compare the actual messages without mixing click performance with purchase performance. A message can have a healthy CTR but a weaker conversion rate if customers click without completing a purchase.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--campaign-report ht-editorial-visual--campaign-message" aria-label="Campaign message metrics">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--campaign-report" aria-label="Campaign message metrics">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame">
       <picture>
         <source media="(max-width: 438px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/message-comparison-en-mobile.png" width="728" height="1400" />
         <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/message-comparison-en-mobile-wide.png" width="1080" height="1400" />
-        <source media="(max-width: 1199px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/message-comparison-en-tablet.png" width="1248" height="1130" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/message-comparison-en.png" width="2520" height="1370" loading="lazy" decoding="async" alt="Demonstration message preview with a product photo and six delivery, click, return, conversion, and revenue metrics." />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/message-comparison-en-tablet.png" width="1248" height="1130" loading="lazy" decoding="async" alt="Demonstration message preview with a product photo and six delivery, click, return, conversion, and revenue metrics; they appear below the preview on phones and beside it on wider screens." />
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Demonstration message with a product image and six metrics: on desktop they align in one row; on tablets they stack beside the preview, and on phones they appear below it.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Demonstration message with a product image and six metrics; they appear below the preview on phones and beside it on wider screens.</figcaption>
 </figure>
 
 ## Understand time to conversion

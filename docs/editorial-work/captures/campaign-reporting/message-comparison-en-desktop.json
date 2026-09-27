@@ -87,8 +87,8 @@
     "height": 1370
   },
   "max_display_css_pixels": {
-    "width": 1000,
-    "basis": "article frame max-width 1000px for desktop; measured 491px at 599px viewport for mobile"
+    "width": 810,
+    "basis": "selected at viewport widths >=1200px; bounded by the existing 810px Help article column, with 2520 native source pixels"
   },
   "original_sha256": "64775ee63782afca9af37d01bab161c4672fb76ecec7e0e61343742d7806d6f7",
   "published_derivative_sha256": "64775ee63782afca9af37d01bab161c4672fb76ecec7e0e61343742d7806d6f7",
@@ -113,6 +113,12 @@
   },
   "limitations": [],
   "status": "locally_verified_pending_merge",
+  "current_article_placement": {
+    "change_date": "2026-09-27 UTC",
+    "purpose": "Reuse the existing native desktop capture so the six message KPIs appear in one horizontal row in the English guide.",
+    "selection": "Default picture image at viewport widths >=1200px; tablet through 1199px; existing mobile variants through 600px.",
+    "verification": "Local English page inspected at 1600px and 390px. The desktop source rendered at 810px within the 810px article column, all six KPI values were visible, and no figure link or horizontal overflow appeared. Original, static, and built PNG bytes match."
+  },
   "superseded_public_verification": {
     "checked_at": "2026-09-26 05:41 UTC",
     "pull_request": "https://github.com/hellotext/help/pull/84",
