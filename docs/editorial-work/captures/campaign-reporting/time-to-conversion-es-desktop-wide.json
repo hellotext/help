@@ -47,33 +47,33 @@
     }
   },
   "sourceRect": {
-    "x": -1241,
-    "y": 260,
-    "width": 1229,
-    "height": 680,
+    "x": -1253,
+    "y": 220,
+    "width": 860,
+    "height": 550,
     "unit": "global screen points"
   },
   "original_file": "docs/editorial-work/captures/campaign-reporting/time-to-conversion-es-desktop-wide-original.png",
   "published_derivative": "images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-es-desktop-wide.png",
   "logical_viewport": {
-    "width": 716,
-    "height": 480,
-    "browser_zoom": "175%",
-    "device_pixel_ratio_after_zoom": 3.5,
+    "width": 835,
+    "height": 560,
+    "browser_zoom": "150%",
+    "device_pixel_ratio_after_zoom": 3,
     "physical_display_scale": 2
   },
   "source_pixels": {
-    "width": 2458,
-    "height": 1360
+    "width": 1720,
+    "height": 1100
   },
   "max_display_css_pixels": {
     "width": 736,
     "basis": "measured in the 1600px Help viewport: existing article width 810px, stage padding 24px each side, white frame padding 12px each side; actual rendered image width 736px"
   },
-  "original_sha256": "0b5e06ec2f245195cbc77697324a68f41d87821aedf672d4c5086431db71cec2",
-  "published_derivative_sha256": "0b5e06ec2f245195cbc77697324a68f41d87821aedf672d4c5086431db71cec2",
+  "original_sha256": "9770459fa4583f37638a479c24a7ba40fc102ee00580f049c783caabe2036983",
+  "published_derivative_sha256": "9770459fa4583f37638a479c24a7ba40fc102ee00580f049c783caabe2036983",
   "actual_file_format": "PNG, 8-bit RGBA, direct native 2x ScreenCaptureKit crop; static asset is a byte-identical copy",
-  "icc_profile_and_verification": "Display P3 embedded ICC verified with sips; PNG signature and 2458x1360 dimensions checked; source and asset SHA-256 0b5e06ec2f245195cbc77697324a68f41d87821aedf672d4c5086431db71cec2",
+  "icc_profile_and_verification": "Display P3 embedded ICC verified with sips; PNG signature and 1720x1100 RGBA8 dimensions checked; original and static asset SHA-256 9770459fa4583f37638a479c24a7ba40fc102ee00580f049c783caabe2036983",
   "native_color_provenance": "Exact Chrome window ID 33329 on left Display P3; direct native 2x Display P3 PNG; no JPEG conversion, resampling, profile reassignment, pixel editing, or full-window intermediate.",
   "transformations": [],
   "pointer": {
@@ -85,17 +85,17 @@
   },
   "verification": {
     "file": "passed: native PNG dimensions, embedded Display P3 profile, source/asset byte identity",
-    "density": "passed: 2458 native px / 736 maximum rendered CSS px = 3.34x",
-    "desktop": "passed: full ES and EN guides inspected at 1600px; seven localized figures, 810px lavender stages, no image links or horizontal overflow; new images show complete chart widgets",
+    "density": "passed: 1720 native px / 736 maximum rendered CSS px = 2.34x",
+    "desktop": "passed: complete ES/EN guides and 1400px Spanish breakpoint inspected; the recaptured Spanish 150%-zoom chart separates all five category labels, preserves 9/47/19/25/0% source values, fills the white frame inside the 810px lavender stage, and has no linked image or horizontal overflow",
     "intermediate": "passed: 1199, 1200, 1399 and 1400px breakpoints; the existing tablet source remains selected through 1399px and the new wide source starts at 1400px",
     "mobile": "passed: full ES and EN guides inspected at 390px; all seven localized mobile sources load without image links or horizontal overflow",
     "served_asset": "passed: bilingual Jekyll build and security-header verifier; native original, static asset, _site copy and local HTTP response match SHA-256; docs excluded from _site"
   },
-  "visual_review": "Capture owner and independent reviewer inspected all four localized full widgets; no pointer, scrollbar edge, window shadow, clipped category, or private record.",
+  "visual_review": "After PR #162 automated review noted tightly spaced Spanish category labels in the first 175%-zoom capture, the widget was recaptured at 150% with a narrower exact native crop. The five labels are visibly separate at the rendered Help size. No pointer, scrollbar edge, window shadow, clipped category, or private record.",
   "public_verification": {
     "status": "pending: PR, merge and normal Netlify publication"
   },
   "limitations": [
-    "The widget is shown at 175% browser zoom to give the complete chart readable labels in its final Help frame; the Help article itself retains its original width."
+    "The Spanish widget was captured at 150% browser zoom to separate the five category labels at its final Help size; the Help article itself retains its original width."
   ]
 }

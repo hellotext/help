@@ -118,7 +118,7 @@ Una venta puede ocurrir días después de la entrega y aparecer si su fecha de c
         <source media="(max-width: 430px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-es-mobile.png" width="720" height="820" />
         <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-es-mobile-wide.png" width="1048" height="810" />
         <source media="(max-width: 1399px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-es-tablet.png" width="1248" height="770" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-es-desktop-wide.png" width="2458" height="1360" loading="lazy" decoding="async" alt="Gráfico de Tiempo de conversión que distribuye las compras atribuidas entre el mismo día, los días siguientes y períodos posteriores." />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-es-desktop-wide.png" width="1720" height="1100" loading="lazy" decoding="async" alt="Gráfico de Tiempo de conversión que distribuye las compras atribuidas entre el mismo día, los días siguientes y períodos posteriores." />
       </picture>
     </div>
   </div>
