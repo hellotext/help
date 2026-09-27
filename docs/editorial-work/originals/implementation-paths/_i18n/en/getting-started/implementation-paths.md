@@ -4,28 +4,15 @@ Most teams should connect their commerce platform first, then connect messaging 
 
 If you use more than one platform, start with the platform that has the most reliable customer, product, cart, and order activity.
 
-## Choose your starting point
-
-You can combine paths: connect your main data source, then add the conversation or sales channels you use.
-
-| Situation | Path |
-| --- | --- |
-| Your main store uses Shopify, Wix, WooCommerce, or VTEX. | Choose [Shopify](#shopify-path), [Wix](#wix-path), [WooCommerce](#woocommerce-path), or [VTEX](#vtex-path). |
-| Custom store or checkout; events sent by API. | [Custom or API](#custom-or-api-path). |
-| You sell on Mercado Libre (Colombia or Uruguay). | [Mercado Libre](#mercado-libre-path) for orders and post-sale conversations; campaigns are unavailable. |
-| You use WhatsApp for conversations or commerce. | [WhatsApp commerce](#whatsapp-commerce-path). To show products, prepare a compatible store and a Meta catalog. |
-
-For example, if you sell on Shopify and serve customers on WhatsApp, connect Shopify and verify your store data first. If you will collect subscribers at checkout, set up that opt-in. To show products on WhatsApp, prepare the Meta catalog and link it while connecting the number. Before launch, check consent and use an eligible internal profile for the tests your channel supports.
-
 ## Recommended order
 
-For most implementations, follow the steps that apply to your data source and channel:
+For most implementations, follow this order:
 
 1. Connect the commerce platform or data source.
-2. Prepare and connect the messaging channel you will use first; complete any catalog prerequisites beforehand.
-3. Set up capture and consent for the channel, including checkout opt-in where it applies.
-4. Verify customer profiles, signals, and the data your integration provides before interpreting reports.
-5. Choose a first playbook, route, or campaign that the channel supports.
+2. Connect the messaging channel you will use first.
+3. Add a capture or checkout opt-in path.
+4. Verify customer profiles, consent, events, products, carts, orders, and reporting.
+5. Choose one first playbook, route, or campaign.
 6. Review the go-live checklist before customers receive messages.
 
 This order keeps setup problems from turning into sending, reporting, or attribution problems later.
@@ -40,11 +27,11 @@ Start here:
 - [Set up Shopify checkout opt-in]({% link _captures/shopify-checkout.md %})
 - [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})
 
-After the connection is working, use Shopify activity as signals for cart recovery, browse recovery, first purchase, repeat purchases, segmentation, campaign targeting, and attribution.
+After the connection is working, use Shopify activity as signals for cart recovery, browse recovery, first purchase, replenishment, segmentation, campaign targeting, and attribution.
 
 ## Wix path
 
-Use this path when Wix is your main store.
+Use this path when Wix is your main store or website.
 
 Start here:
 
@@ -80,7 +67,7 @@ After connecting, confirm that the events your first playbook needs are present 
 
 ## Mercado Libre path
 
-Use this path if your business is in Colombia or Uruguay and Mercado Libre is an important sales and order-linked post-sale conversation channel.
+Use this path when Mercado Libre is an important sales or conversation channel for your business.
 
 Start here:
 
@@ -88,18 +75,20 @@ Start here:
 - [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %})
 - [Inbox and conversations overview]({% link _team/inbox-overview.md %})
 
-Mercado Libre may be part of a broader setup. If you also have a primary store, connect it for more customer and order context. Mercado Libre messages require an eligible transaction and cannot be used for campaigns or to contact buyers outside a sale.
+Mercado Libre may be part of a broader setup. If you also have a primary store, connect that store too so Hellotext can understand more customer and order context.
 
 ## WhatsApp commerce path
 
-Use this path when WhatsApp is a primary channel for conversations, product discovery, or commerce. If you only need conversations, you can connect the number without a catalog. To show products and use your store's checkout in chat, first connect Shopify, Wix, WooCommerce, or VTEX and prepare a Meta catalog. Link that catalog while connecting the WhatsApp number.
+Use this path when WhatsApp is a primary channel for conversations, product discovery, or commerce.
 
 Start here:
 
-- [Connect your catalog to WhatsApp]({% link _integrations/connect-catalog-to-whatsapp.md %}) if you will show products; this guide covers the prerequisites and number connection.
-- [Connect WhatsApp]({% link _integrations/connect-whatsapp.md %}) if you only need conversations.
+- [Connect WhatsApp]({% link _integrations/connect-whatsapp.md %})
+- [Connect your catalog to WhatsApp]({% link _integrations/connect-catalog-to-whatsapp.md %})
 - [Messaging channels overview]({% link _numbers/messaging-overview.md %})
 - [Who can I message? Consent and subscriber status]({% link _audience/consent-and-subscriber-status.md %})
+
+If your WhatsApp experience depends on product recommendations or order context, connect the commerce platform before or alongside WhatsApp.
 
 ## Custom or API path
 
@@ -117,13 +106,14 @@ For custom implementations, define the first business outcome before you impleme
 
 ## What to do after setup
 
-After you complete your path, run the checks that apply:
+After you complete your path:
 
-- Confirm that the customer profile reflects the connected source and, where relevant, the right channel and consent status.
-- Check that the activity or signal your first workflow needs appears on the right profile.
-- On channels that allow internal tests, use a profile you control to check the relevant message, click, reply, handoff, and report.
-- For Mercado Libre, follow its guide's checks using a new sale and an eligible conversation; do not send messages outside a transaction.
-- Launch one use case and review its result before expanding.
+- Run one end-to-end test with a customer profile you can recognize.
+- Confirm the customer profile has the right channel and consent status.
+- Trigger the event or signal your first workflow needs.
+- Confirm the signal appears on the right customer profile.
+- Test one message, click, reply, handoff, and report.
+- Launch one first win before expanding.
 
 Keep reading:
 

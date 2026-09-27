@@ -4,29 +4,16 @@ La mayoría de los equipos debería conectar primero su plataforma de comercio, 
 
 Si usas más de una plataforma, empieza por la plataforma que tiene la actividad de clientes, productos, carritos y órdenes más confiable.
 
-## Elige tu punto de partida
-
-Los caminos se pueden combinar: conecta la fuente principal de datos y luego los canales de conversación o venta que uses.
-
-| Situación | Camino |
-| --- | --- |
-| Tu tienda principal usa Shopify, Wix, WooCommerce o VTEX. | Elige [Shopify](#camino-shopify), [Wix](#camino-wix), [WooCommerce](#camino-woocommerce) o [VTEX](#camino-vtex). |
-| Tienda o checkout propio; eventos por API. | [Personalizado o por API](#camino-personalizado-o-por-api). |
-| Vendes en Mercado Libre (Colombia o Uruguay). | [Mercado Libre](#camino-mercado-libre) para órdenes y conversaciones posventa; no admite campañas. |
-| Usas WhatsApp para conversar o vender. | [Comercio por WhatsApp](#camino-de-comercio-por-whatsapp). Para mostrar productos, prepara una tienda compatible y un catálogo de Meta. |
-
-Por ejemplo, si vendes en Shopify y atiendes por WhatsApp, conecta Shopify y verifica los datos de la tienda. Si vas a captar suscriptores en el checkout, configura ese opt-in. Para mostrar productos en WhatsApp, prepara el catálogo de Meta y vincúlalo durante la conexión del número. Antes de lanzar, verifica el consentimiento y usa un perfil interno elegible para las pruebas que permita el canal.
-
 ## Orden recomendado
 
-Para la mayoría de las implementaciones, sigue los pasos que correspondan a tu fuente y canal:
+Para la mayoría de las implementaciones, sigue este orden:
 
 1. Conecta la plataforma de comercio o fuente de datos.
-2. Prepara y conecta el canal de mensajería que vas a usar primero; completa antes los requisitos de catálogo si lo necesitas.
-3. Configura la captación y el consentimiento que correspondan al canal, incluido el opt-in en checkout cuando aplique.
-4. Verifica perfiles de cliente, señales y los datos que aporta tu integración antes de interpretar los reportes.
-5. Elige una primera misión, ruta o campaña compatible con el canal.
-6. Revisa el checklist antes de que los clientes reciban mensajes.
+2. Conecta el canal de mensajería que vas a usar primero.
+3. Agrega una captura o camino de opt-in en checkout.
+4. Verifica perfiles de cliente, consentimiento, eventos, productos, carritos, órdenes y reportes.
+5. Elige una primera misión, ruta o campaña.
+6. Revisa el checklist antes de enviar antes de que los clientes reciban mensajes.
 
 Este orden evita que problemas de configuración se conviertan después en problemas de envío, reportes o atribución.
 
@@ -44,7 +31,7 @@ Después de que la conexión funcione, usa la actividad de Shopify como señales
 
 ## Camino Wix
 
-Usa este camino cuando Wix es tu tienda principal.
+Usa este camino cuando Wix es tu tienda o sitio principal.
 
 Empieza aquí:
 
@@ -80,7 +67,7 @@ Después de conectar, confirma que los eventos que necesita tu primera misión e
 
 ## Camino Mercado Libre
 
-Usa este camino si tu negocio está en Colombia o Uruguay y Mercado Libre es un canal importante de ventas y conversaciones posventa asociadas a órdenes.
+Usa este camino cuando Mercado Libre es un canal importante de ventas o conversaciones para tu negocio.
 
 Empieza aquí:
 
@@ -88,18 +75,20 @@ Empieza aquí:
 - [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %})
 - [Resumen de inbox y conversaciones]({% link _team/inbox-overview.md %})
 
-Mercado Libre puede ser parte de una configuración más amplia. Si también tienes una tienda principal, conecta esa tienda para aportar más contexto de clientes y órdenes. Los mensajes de Mercado Libre requieren una operación elegible y no pueden usarse para campañas ni para contactar compradores fuera de una venta.
+Mercado Libre puede ser parte de una configuración más amplia. Si también tienes una tienda principal, conecta esa tienda para que Hellotext entienda más contexto de clientes y órdenes.
 
 ## Camino de comercio por WhatsApp
 
-Usa este camino cuando WhatsApp es un canal principal para conversaciones, descubrimiento de productos o comercio. Si solo necesitas conversaciones, puedes conectar el número sin catálogo. Para mostrar productos y usar el checkout de tu tienda en el chat, primero conecta Shopify, Wix, WooCommerce o VTEX y prepara un catálogo de Meta. Vincula ese catálogo durante la conexión del número de WhatsApp.
+Usa este camino cuando WhatsApp es un canal principal para conversaciones, descubrimiento de productos o comercio.
 
 Empieza aquí:
 
-- [Conecta tu catálogo a WhatsApp]({% link _integrations/connect-catalog-to-whatsapp.md %}) si vas a mostrar productos; esta guía incluye los requisitos previos y la conexión del número.
-- [Conecta WhatsApp]({% link _integrations/connect-whatsapp.md %}) si solo usarás conversaciones.
+- [Conecta WhatsApp]({% link _integrations/connect-whatsapp.md %})
+- [Conecta tu catálogo a WhatsApp]({% link _integrations/connect-catalog-to-whatsapp.md %})
 - [Resumen de canales de mensajería]({% link _numbers/messaging-overview.md %})
 - [A quién puedo escribirle: consentimiento y estado de suscripción]({% link _audience/consent-and-subscriber-status.md %})
+
+Si tu experiencia de WhatsApp depende de recomendaciones de producto o contexto de órdenes, conecta la plataforma de comercio antes o junto con WhatsApp.
 
 ## Camino personalizado o por API
 
@@ -117,13 +106,14 @@ Para implementaciones personalizadas, define el primer objetivo de negocio antes
 
 ## Qué hacer después de configurar
 
-Después de completar tu camino, realiza las comprobaciones que correspondan:
+Después de completar tu camino:
 
-- Confirma que el perfil de cliente refleja la fuente conectada y, cuando aplique, el canal y estado de consentimiento correctos.
-- Comprueba que la actividad o señal necesaria para tu primer flujo aparece en el perfil correcto.
-- En canales que permiten pruebas internas, usa un perfil que controles para verificar el mensaje, clic, respuesta, derivación y reporte que correspondan.
-- Para Mercado Libre, sigue las comprobaciones de su guía con una nueva venta y una conversación elegible; no envíes mensajes fuera de una operación.
-- Lanza un primer caso de uso y revisa su resultado antes de ampliar.
+- Haz una prueba completa con un perfil de cliente que puedas reconocer.
+- Confirma que el perfil de cliente tiene el canal y estado de consentimiento correctos.
+- Dispara el evento o señal que necesita tu primer flujo.
+- Confirma que la señal aparece en el perfil de cliente correcto.
+- Prueba un mensaje, click, respuesta, derivación y reporte.
+- Lanza un primer logro antes de ampliar.
 
 Sigue leyendo:
 
