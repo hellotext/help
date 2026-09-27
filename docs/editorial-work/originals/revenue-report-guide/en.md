@@ -1,4 +1,4 @@
-Use the Revenue report to understand how much commerce revenue Hellotext received, what share was attributed to Hellotext, and how it is distributed among credited sources.
+Use the Revenue report to understand how much commerce revenue Hellotext received, which purchases were attributed, and whether AI, the team, a Campaign, or a Playbook received credit.
 
 Open it from the **Revenue report** card on the Dashboard. Choose a period that matches the business question you want to answer before comparing totals or sources.
 
@@ -16,26 +16,15 @@ A late order correction, cancellation, refund, replacement, or attribution updat
 
 ## Read the summary metrics
 
-The three summary metrics give related views of revenue:
+The report's main metrics separate three kinds of revenue:
 
-- **Revenue attributed to Hellotext:** revenue the attribution engine assigned to Hellotext based on eligible commercial evidence.
-- **Team revenue:** the part of revenue not attributed to Hellotext that is classified as managed by a teammate. It includes eligible legacy teammate-managed revenue without an engine verdict.
+- **Revenue attributed to AI:** revenue the attribution engine assigned to AI based on eligible commercial evidence.
+- **Revenue classified as team-managed:** revenue classified as team-managed by the attribution engine, together with eligible legacy teammate-managed revenue that does not have an engine verdict.
 - **Total revenue:** all supported revenue Hellotext received from eCommerce, marketplace, and retail activity during the selected period, including attributed and unattributed revenue.
 
-Attributed revenue is part of total revenue, and team-managed revenue is part of the remainder. **Do not add the three cards together.** A support reply or any other team interaction does not automatically make a sale team-managed; Hellotext evaluates the applicable source path and commercial evidence.
+Attributed revenue is a subset of total revenue. A support reply or any other team interaction does not automatically make a sale team-managed; Hellotext evaluates the applicable source path and commercial evidence.
 
 Select a metric to update its timeline. Compare the chart only after confirming that the selected metric, period, currency, and breakdown are the same.
-
-In the fictional September 19–25 example, the three cards show $46.1K attributed to Hellotext, $10.2K in team revenue, and $62.3K in total revenue. Each comparison with the previous period is positive; these remain related views, not amounts to add together.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Revenue report period and summary metrics">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/revenue-report-guide/summary-en.png" width="2438" height="640" loading="lazy" decoding="async" alt="Custom period with three cards in one row: $46.1K attributed to Hellotext, $10.2K in team revenue, and $62.3K total revenue; all three comparisons show +4%." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Real English interface with fictional data. The selected card determines the metric shown in the timeline.</figcaption>
-</figure>
 
 ## Attributed revenue is not every influenced sale
 
@@ -49,45 +38,25 @@ Read [Sales attribution]({% link _analytics-reporting-attribution/sales-attribut
 
 ## Break down the timeline
 
-Use the breakdown control to see where the selected metric came from. Options depend on that metric:
+Use the breakdown control to understand where a selected metric came from. Available options depend on the metric and available data, and can include:
 
-- for **Revenue attributed to Hellotext**, channel or Playbook;
-- for **Team revenue**, channel, teammate, Playbook, or Campaign;
-- for **Total revenue**, the total timeline without another breakdown.
+- channel, Campaign, or Playbook;
+- segment, store, or region;
+- product category, product, or variant;
+- subscription state, payment method, or commerce context;
+- intent, AI versus team, attribution reason, team, teammate, or AI agent.
 
 Choose only the dimensions needed to answer the question. A small row can look unusually strong when the underlying purchase count is low, so review its volume before making a decision.
-
-Here, **View by channel** is selected for revenue attributed to Hellotext. The timeline shows all seven days and separates Webchat, Instagram, SMS, and WhatsApp; values in the legend summarize each channel over the whole period, not a single day.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Timeline of attributed revenue broken down by channel">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/revenue-report-guide/timeline-en.png" width="2438" height="970" loading="lazy" decoding="async" alt="Revenue attributed to Hellotext from September 19 to 25, broken down into Webchat $14.5K, Instagram $13.4K, SMS $10.1K, and WhatsApp $8.1K." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Fictional data in the real interface. Check the selected breakdown before comparing curves or amounts.</figcaption>
-</figure>
 
 ## Read the attributed-revenue widgets
 
 The widgets below the timeline explain the composition of attributed revenue.
 
 - **Campaigns vs Playbooks** compares the attributed amount credited to one-time Campaigns and always-on Playbooks.
-- **Commerce context** distributes attributed revenue across supported contexts with data in the selected period.
-- **Commerce channel** shows the communication channel associated with attributed purchases, such as WhatsApp or SMS; it does not necessarily identify the store where the sale happened.
+- **Commerce context** separates supported eCommerce, marketplace, and retail revenue.
+- **Commerce channel** shows which connected sales channel recorded the attributed purchases.
 
 These widgets distribute attributed revenue; they do not replace total revenue or add the same purchase to every source that touched the customer.
-
-In this example, Playbooks contribute $28.4K and Campaigns $17.8K to the period's attributed amount. Displayed amounts are rounded separately, so their sum may differ slightly from the summary card. Commerce context and Commerce channel group that same revenue in other ways, so their bars should not be added to the Playbook and Campaign amounts.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Three attributed-revenue source widgets">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/revenue-report-guide/sources-en.png" width="2438" height="860" loading="lazy" decoding="async" alt="Three attributed-revenue panels: Campaigns and Playbooks, Commerce context, and Commerce channel, with fictional amounts for each category." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">The three views classify attributed revenue from different angles; they do not represent additional revenue.</figcaption>
-</figure>
 
 ## Review source tables
 

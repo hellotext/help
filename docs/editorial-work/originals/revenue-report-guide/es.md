@@ -1,4 +1,4 @@
-Usa el Reporte de ingresos para entender cuántos ingresos de comercio recibió Hellotext, qué parte se atribuyó a Hellotext y cómo se distribuye entre los orígenes acreditados.
+Usa el Reporte de ingresos para entender cuántos ingresos de comercio recibió Hellotext, qué compras fueron atribuidas y si la IA, el equipo, una Campaña o una Misión recibió el crédito.
 
 Ábrelo desde la tarjeta **Reporte de ingresos** del Dashboard. Antes de comparar totales u orígenes, elige un período que coincida con la pregunta que quieres responder.
 
@@ -16,26 +16,15 @@ Una corrección tardía, cancelación, reembolso, reemplazo o actualización de 
 
 ## Interpreta las métricas principales
 
-Las tres métricas principales ofrecen perspectivas relacionadas sobre los ingresos:
+Las métricas principales separan tres tipos de ingresos:
 
-- **Ingresos atribuidos a Hellotext:** ingresos que el motor de atribución asignó a Hellotext según evidencia comercial elegible.
-- **Ingresos del equipo:** parte de los ingresos no atribuidos a Hellotext que se clasifica como gestionada por una persona. Incluye ingresos históricos elegibles gestionados por el equipo sin un veredicto del motor.
+- **Ingresos atribuidos a la IA:** ingresos que el motor de atribución asignó a la IA según evidencia comercial elegible.
+- **Ingresos clasificados como gestionados por el equipo:** ingresos clasificados de esa forma por el motor, junto con ingresos históricos elegibles gestionados por una persona que no tienen un veredicto del motor.
 - **Ingresos totales:** todos los ingresos compatibles que Hellotext recibió desde actividad de eCommerce, marketplaces y retail durante el período seleccionado, incluidos los atribuidos y no atribuidos.
 
-Los ingresos atribuidos son una parte de los ingresos totales, y los gestionados por el equipo son una parte de los restantes. **No sumes las tres tarjetas.** Una respuesta de soporte u otra participación del equipo no convierte automáticamente una venta en gestionada por el equipo; Hellotext evalúa el camino de origen y la evidencia comercial aplicable.
+Los ingresos atribuidos son una parte de los ingresos totales. Una respuesta de soporte u otra participación del equipo no convierte automáticamente una venta en gestionada por el equipo; Hellotext evalúa el camino de origen y la evidencia comercial aplicable.
 
 Selecciona una métrica para actualizar su línea de tiempo. Compara el gráfico solo después de confirmar que la métrica, período, moneda y desglose seleccionados sean los mismos.
-
-En el ejemplo ficticio del 19 al 25 de septiembre, las tres tarjetas muestran $46,1 mil atribuidos a Hellotext, $10,2 mil del equipo y $62,3 mil totales. Cada comparación con el período anterior es positiva; las tres cifras siguen siendo perspectivas relacionadas, no cantidades para sumar.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Período y métricas principales del Reporte de ingresos">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/revenue-report-guide/summary-es.png" width="2438" height="640" loading="lazy" decoding="async" alt="Período Personalizado con tres tarjetas en una fila: $46,1 mil atribuidos a Hellotext, $10,2 mil del equipo y $62,3 mil totales; las tres comparaciones indican +4 %." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Interfaz real en español con datos ficticios. La tarjeta seleccionada determina la métrica de la línea de tiempo.</figcaption>
-</figure>
 
 ## Los ingresos atribuidos no incluyen toda venta influenciada
 
@@ -49,45 +38,25 @@ Consulta [Atribución de ventas]({% link _analytics-reporting-attribution/sales-
 
 ## Desglosa la línea de tiempo
 
-Usa el control de desglose para entender de dónde proviene la métrica seleccionada. Las opciones dependen de esa métrica:
+Usa el control de desglose para entender de dónde proviene una métrica. Las opciones dependen de la métrica y de los datos disponibles, y pueden incluir:
 
-- para **Ingresos atribuidos a Hellotext**, canal o Misión;
-- para **Ingresos del equipo**, canal, colaborador, Misión o Campaña;
-- para **Ingresos totales**, la línea de tiempo del total, sin desglose adicional.
+- canal, Campaña o Misión;
+- segmento, tienda o región;
+- categoría de producto, producto o variante;
+- estado de suscripción, método de pago o contexto de comercio;
+- intención, IA frente al equipo, motivo de atribución, equipo, persona o agente de IA.
 
 Elige solamente las dimensiones necesarias para responder la pregunta. Una fila pequeña puede parecer especialmente fuerte cuando incluye pocas compras, por lo que conviene revisar su volumen antes de decidir.
-
-Aquí se seleccionó **Ver por canal** para los ingresos atribuidos a Hellotext. La línea de tiempo conserva los siete días completos y separa Webchat, Instagram, SMS y WhatsApp; los valores junto a la leyenda resumen cada canal durante todo el período, no un solo día.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Línea de tiempo de ingresos atribuidos desglosada por canal">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/revenue-report-guide/timeline-es.png" width="2438" height="970" loading="lazy" decoding="async" alt="Ingresos atribuidos a Hellotext del 19 al 25 de septiembre, desglosados en Webchat $14,5 mil, Instagram $13,4 mil, SMS $10,1 mil y WhatsApp $8,1 mil." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Datos ficticios en la interfaz real. Comprueba el desglose seleccionado antes de comparar curvas o importes.</figcaption>
-</figure>
 
 ## Interpreta los widgets de ingresos atribuidos
 
 Los widgets debajo de la línea de tiempo explican la composición de los ingresos atribuidos.
 
 - **Campañas vs Misiones** compara el monto atribuido a Campañas puntuales y Misiones siempre activas.
-- **Contexto de comercio** distribuye los ingresos atribuidos entre los contextos compatibles que tienen datos en el período.
-- **Canal de comercio** muestra el canal de comunicación asociado a las compras atribuidas, como WhatsApp o SMS; no identifica necesariamente la tienda donde se realizó la venta.
+- **Contexto de comercio** separa ingresos compatibles de eCommerce, marketplaces y retail.
+- **Canal de comercio** muestra qué canal de venta conectado registró las compras atribuidas.
 
 Estos widgets distribuyen los ingresos atribuidos; no reemplazan los ingresos totales ni agregan la misma compra a cada origen que interactuó con el cliente.
-
-En este ejemplo, Misiones aporta $28,4 mil y Campañas $17,8 mil al importe atribuido del período. Los importes visibles están redondeados por separado, así que su suma puede diferir ligeramente de la tarjeta principal. Contexto de comercio y Canal de comercio son otras formas de agrupar esos mismos ingresos, por lo que sus barras no se suman a las de Misiones y Campañas.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Tres widgets de origen de los ingresos atribuidos">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/revenue-report-guide/sources-es.png" width="2438" height="860" loading="lazy" decoding="async" alt="Tres paneles de ingresos atribuidos: Campañas y misiones, Contexto de comercio y Canal de comercio, con importes ficticios visibles para cada categoría." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Las tres vistas clasifican los ingresos atribuidos desde ángulos diferentes; no representan ingresos adicionales.</figcaption>
-</figure>
 
 ## Revisa las tablas de origen
 
