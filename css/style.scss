@@ -1660,12 +1660,12 @@ html[lang="es"] .home-hero h1 {
 }
 
 .guide-content > figure.ht-editorial-visual--campaign-report {
-  --campaign-figure-max-width: 624px;
-  --campaign-stage-max-width: 672px;
+  --campaign-frame-max-width: 648px;
+  --campaign-stage-max-width: 696px;
 }
 
 .guide-content > figure.ht-editorial-visual--campaign-report.ht-editorial-visual--campaign-kpi {
-  --campaign-figure-max-width: 100%;
+  --campaign-frame-max-width: 100%;
   --campaign-stage-max-width: 100%;
 }
 
@@ -1678,60 +1678,56 @@ html[lang="es"] .home-hero h1 {
 }
 
 .guide-content > figure.ht-editorial-visual.ht-editorial-visual--campaign-report .ht-editorial-visual__image-frame {
-  max-width: var(--campaign-figure-max-width);
+  max-width: var(--campaign-frame-max-width);
   margin: 0 auto;
-  padding: 0;
+  padding: 12px;
   border: 0;
-  background: transparent;
+  background: var(--ev-white);
   box-shadow: none;
 }
 
 @media (min-width: 1200px) {
-  .guide-content > figure.ht-editorial-visual--campaign-message {
-    --campaign-figure-max-width: 100%;
-    --campaign-stage-max-width: 100%;
-  }
-
-  .guide-content > figure.ht-editorial-visual--campaign-funnel {
-    --campaign-figure-max-width: 780px;
+  .guide-content > figure.ht-editorial-visual--campaign-message,
+  .guide-content > figure.ht-editorial-visual--campaign-funnel,
+  .guide-content > figure.ht-editorial-visual--campaign-segment {
+    --campaign-frame-max-width: 100%;
     --campaign-stage-max-width: 100%;
   }
 
   .guide-content > figure.ht-editorial-visual--campaign-channel {
-    --campaign-figure-max-width: 710px;
-    --campaign-stage-max-width: 758px;
-  }
-
-  .guide-content > figure.ht-editorial-visual--campaign-segment {
-    --campaign-figure-max-width: 790px;
-    --campaign-stage-max-width: 100%;
+    --campaign-frame-max-width: 734px;
+    --campaign-stage-max-width: 782px;
   }
 }
 
 @media (max-width: 1199px) {
   .guide-content > figure.ht-editorial-visual--campaign-report.ht-editorial-visual--campaign-kpi {
-    --campaign-figure-max-width: 624px;
-    --campaign-stage-max-width: 672px;
+    --campaign-frame-max-width: 648px;
+    --campaign-stage-max-width: 696px;
   }
 }
 
 @media (max-width: 600px) {
   .guide-content > figure.ht-editorial-visual--campaign-report,
   .guide-content > figure.ht-editorial-visual--campaign-report.ht-editorial-visual--campaign-kpi {
-    --campaign-figure-max-width: 524px;
-    --campaign-stage-max-width: 556px;
+    --campaign-frame-max-width: 540px;
+    --campaign-stage-max-width: 572px;
   }
 
   .guide-content > figure.ht-editorial-visual.ht-editorial-visual--campaign-report .ht-editorial-visual__stage {
     padding: 16px;
+  }
+
+  .guide-content > figure.ht-editorial-visual.ht-editorial-visual--campaign-report .ht-editorial-visual__image-frame {
+    padding: 8px;
   }
 }
 
 @media (max-width: 440px) {
   .guide-content > figure.ht-editorial-visual--campaign-report,
   .guide-content > figure.ht-editorial-visual--campaign-report.ht-editorial-visual--campaign-kpi {
-    --campaign-figure-max-width: 360px;
-    --campaign-stage-max-width: 392px;
+    --campaign-frame-max-width: 376px;
+    --campaign-stage-max-width: 408px;
   }
 }
 
