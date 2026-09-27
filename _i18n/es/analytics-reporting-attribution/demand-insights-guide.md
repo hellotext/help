@@ -18,6 +18,17 @@ No hay una ventana de recuperación de demanda en este cálculo. Al comparar per
 
 Selecciona una métrica para actualizar la línea de tiempo y los desgloses que muestre el reporte.
 
+En este ejemplo con datos de demostración, el período personalizado muestra las cuatro tarjetas; **No resueltas** está seleccionada.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Período y métricas de Insights de demanda">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/demand-insights-guide/metric-period-es.png" width="2440" height="620" loading="lazy" decoding="async" alt="Período personalizado con No resueltas seleccionada: 278 interacciones; Ingresos perdidos estimados de $18.9K; 6 en SKUs afectados; Tasa no resuelta de 71,1 %." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real en español con datos ficticios. Las cuatro tarjetas usan el mismo período; Ingresos perdidos es una estimación y SKUs afectados cuenta Misiones de recomendación distintas.</figcaption>
+</figure>
+
 ### No resueltas
 
 Es la cantidad de interacciones finalizadas que cumplen las condiciones anteriores y no tienen una conversión registrada. Es un recuento de interacciones, no de clientes únicos ni de solicitudes de producto.
@@ -43,6 +54,17 @@ Mira la tasa junto con el recuento: puede subir porque aumentaron las interaccio
 ## Usa los desgloses
 
 El menú ofrece opciones según la métrica seleccionada, pero una opción visible no garantiza que el reporte tenga un cálculo para ella. El desglose por **canal** puede ayudar a comparar recuentos de No resueltas y sus estimaciones de Ingresos perdidos. Contrasta cualquier serie con la métrica principal antes de usarla: algunas series muestran cantidades aunque la tarjeta se presente como tasa u otra unidad.
+
+La captura de demostración muestra **Ver por canal** y una sola serie Webchat: sus 278 interacciones coinciden con la tarjeta No resueltas del mismo período. Cuando haya más canales con datos, revisa cada serie antes de comparar.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Línea de tiempo de Insights de demanda desglosada por canal">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/demand-insights-guide/channel-breakdown-es.png" width="2440" height="980" loading="lazy" decoding="async" alt="Gráfico de No resueltas entre el 11 y el 24 de septiembre con Ver por canal seleccionado; la serie Webchat suma 278 interacciones en el ejemplo ficticio." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real en español con datos ficticios y un único canal disponible en este ejemplo. La leyenda corresponde al recuento No resueltas, no a clientes únicos ni a solicitudes de producto.</figcaption>
+</figure>
 
 La comparación **IA frente a humano** usa una fecha de inicio para agrupar interacciones, mientras las métricas principales usan su fecha de finalización. Por eso sus cifras pueden no conciliar con el total del período. Úsala sólo como pista para investigar registros concretos, no como reparto exacto del resultado principal.
 

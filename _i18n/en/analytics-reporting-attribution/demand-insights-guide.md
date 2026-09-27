@@ -18,6 +18,17 @@ This calculation has no demand-recovery window. When comparing periods, use the 
 
 Select a metric to update the timeline and the breakdowns shown by the report.
 
+In this demonstration example, the custom period shows all four cards, with **Unfulfilled** selected.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Demand insights period and metrics">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/demand-insights-guide/metric-period-en.png" width="2440" height="620" loading="lazy" decoding="async" alt="Custom period with Unfulfilled selected: 278 interactions; estimated Lost revenue of $18.9K; 6 under Affected SKUs; and a 71.1% Unfulfilled rate." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real English interface with synthetic data. All four cards use the same period; Lost revenue is an estimate, and Affected SKUs counts distinct recommending Playbooks.</figcaption>
+</figure>
+
 ### Unfulfilled
 
 The number of ended interactions that meet the conditions above and have no recorded conversion. It counts interactions, not unique customers or product requests.
@@ -43,6 +54,17 @@ Read the rate alongside the count: it can rise because Unfulfilled interactions 
 ## Use the breakdowns
 
 The menu offers options according to the selected metric, but a visible option does not guarantee a calculation behind it. The **channel** breakdown can help compare Unfulfilled counts and their Lost revenue estimates. Compare any series with its headline metric before using it: some series show counts even when the card is presented as a rate or another unit.
+
+The demonstration capture shows **View by channel** with one Webchat series: its 278 interactions match the Unfulfilled card for the same period. When more channels have data, inspect each series before comparing them.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Demand insights timeline broken down by channel">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/demand-insights-guide/channel-breakdown-en.png" width="2440" height="980" loading="lazy" decoding="async" alt="Unfulfilled chart for September 11–24 with View by channel selected; the Webchat series totals 278 interactions in the synthetic example." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real English interface with synthetic data and one available channel in this example. The legend counts Unfulfilled interactions, not unique customers or product requests.</figcaption>
+</figure>
 
 The **AI versus human** comparison groups interactions by start date, while the headline metrics use end date. Its figures therefore may not reconcile with the period total. Use it only as a clue for investigating specific records, not as an exact split of the headline result.
 
