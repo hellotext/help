@@ -1,0 +1,102 @@
+{
+  "article_source": "_i18n/es/analytics-reporting-attribution/campaign-reporting.md",
+  "public_url": "https://help.hellotext.com/es/reportes-de-campaña",
+  "locale": "es",
+  "section_and_reader_task": "Compara ingresos por segmento; membresías superpuestas",
+  "step_and_target_control": "Compara ingresos por segmento; membresías superpuestas",
+  "capture_date": "2026-09-27 UTC",
+  "capture_tool": "macOS ScreenCaptureKit exact-window helper (docs/editorial-work/capture-tools/hellotext_capture_editor.swift); system cursor hidden; ImageIO native 2x PNG with embedded Display P3 ICC",
+  "source_route_and_state": "Isolated local Rails snapshot 449d6ccc46 at http://127.0.0.1:3190/hellotext/campaigns/<synthetic-demo-id>, database hellotext_editorial_capture_20260926; synthetic campaign report, es UI, first 14 days selected; no campaign was sent.",
+  "fixture_data": {
+    "sent_messages": 5400,
+    "delivered_messages": 5133,
+    "tracked_clicks": 1032,
+    "attributed_purchases": 321,
+    "attributed_revenue_usd": 1872,
+    "funnel_percentages": {
+      "sent": 100,
+      "delivered": 95.1,
+      "engagement": 28,
+      "conversion": 6.3
+    },
+    "time_to_conversion_percentages": [
+      9,
+      47,
+      19,
+      25,
+      0
+    ],
+    "channel_revenue_percentages": {
+      "whatsapp": 60,
+      "sms": 40
+    },
+    "segment_revenue_percentages": {
+      "vip": 60,
+      "q2_2026": 50
+    },
+    "segment_note": "The two synthetic memberships overlap; shares need not sum to 100%."
+  },
+  "demonstration_data_verified": true,
+  "privacy_check": "Exact crop contains only the isolated synthetic report; no contact identifiers, private activity, conversations, or other customer records.",
+  "native_window": {
+    "id": 26501,
+    "title": "Campaign Report Image Preview | Hellotext",
+    "frame_points": {
+      "x": 22,
+      "y": 61,
+      "width": 1635,
+      "height": 996
+    }
+  },
+  "sourceRect": {
+    "x": 28,
+    "y": 620,
+    "width": 590,
+    "height": 245,
+    "unit": "global screen points"
+  },
+  "original_file": "docs/editorial-work/captures/campaign-reporting/revenue-by-segment-es-mobile-wide-original.png",
+  "published_derivative": "images/analytics-reporting-attribution/campaign-reporting/revenue-by-segment-es-mobile-wide.png",
+  "logical_viewport": {
+    "width": 599,
+    "height": 900,
+    "browser_zoom": "100%"
+  },
+  "source_pixels": {
+    "width": 1180,
+    "height": 490
+  },
+  "max_display_css_pixels": {
+    "width": 492,
+    "height": 204.31,
+    "basis": "approximately 492 CSS px at the 600px source breakpoint; observed 491 CSS px at 599x900"
+  },
+  "original_sha256": "da03e2c6655f86fc19bb688609cb9555bfbddbf75d38a5ded020bb745dcb2f4d",
+  "published_derivative_sha256": "da03e2c6655f86fc19bb688609cb9555bfbddbf75d38a5ded020bb745dcb2f4d",
+  "actual_file_format": "PNG, 8-bit RGBA, direct native 2x ScreenCaptureKit crop; static asset is a byte-identical copy",
+  "icc_profile_and_verification": "Display P3 embedded ICC verified with sips; native PNG signature and 1180x490 IHDR checked; original and static asset SHA-256 da03e2c6655f86fc19bb688609cb9555bfbddbf75d38a5ded020bb745dcb2f4d",
+  "native_color_provenance": "Exact Chrome window ID 26501 titled Campaign Report Image Preview | Hellotext on main Display P3 probe; sourceRect 28,620,590,245 global points; direct native 2x Display P3 PNG, no JPEG conversion, resampling, profile reassignment, or full-window intermediate.",
+  "transformations": [],
+  "pointer": {
+    "kind": "none",
+    "system_cursor": "hidden by native helper",
+    "automation_pointer": "moved outside the sourceRect before capture",
+    "target": null,
+    "coordinates": null
+  },
+  "verification": {
+    "file": "passed: PNG signature, native dimensions, and embedded Display P3 profile",
+    "source_asset": "passed: original and static image bytes match SHA-256",
+    "density": "passed: source width 1180 px / maximum intended rendered width 492 CSS px = 2.398x",
+    "desktop": "passed: complete ES and EN article figures inspected at 1280x900; both localized segment charts complete, no right line, no image link or overflow",
+    "mobile": "passed: ES and EN segment figures inspected at 375x812 and 599x900; responsive sources load, both bars complete, no right line or overflow",
+    "served_asset": "passed: original, static, built-site, and local HTTP-served bytes match; bilingual production build and security-header check passed"
+  },
+  "public_verification": {
+    "status": "pending: replacement image is in an open Help PR, not merged or deployed"
+  },
+  "limitations": [
+    "Synthetic segment membership overlaps; percentages need not total 100%."
+  ],
+  "status": "verified_local"
+}

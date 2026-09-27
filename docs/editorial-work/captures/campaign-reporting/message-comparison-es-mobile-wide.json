@@ -1,0 +1,122 @@
+{
+  "article_source": "_i18n/es/analytics-reporting-attribution/campaign-reporting.md",
+  "public_url": "https://help.hellotext.com/es/reportes-de-campaña",
+  "locale": "es",
+  "section_and_reader_task": "Compara los mensajes de la campaña; vista previa y métricas de un mensaje sintético",
+  "step_and_target_control": "Compara los mensajes de la campaña; vista previa y métricas de un mensaje sintético",
+  "capture_date": "2026-09-27 UTC",
+  "capture_tool": "macOS ScreenCaptureKit exact-window helper /private/tmp/hellotext_capture_editor_no_cursor.swift; showsCursor=false; direct native 2x PNG with embedded Display P3 ICC",
+  "source_route_and_state": "Isolated local Rails report at http://127.0.0.1:3190/hellotext/campaigns/<synthetic-demo-id>, database hellotext_editorial_capture_20260926; synthetic campaign, es UI, first 14 days selected, scoped mobile message layout update from open Rails PR 6016 applied in the isolated checkout; no campaign or message was sent.",
+  "fixture_data": {
+    "sent_messages": 5400,
+    "delivered_messages": 5133,
+    "tracked_clicks": 1032,
+    "attributed_purchases": 321,
+    "attributed_revenue_usd": 1872,
+    "funnel_percentages": {
+      "sent": 100,
+      "delivered": 95.1,
+      "engagement": 28,
+      "conversion": 6.3
+    },
+    "time_to_conversion_percentages": [
+      9,
+      47,
+      19,
+      25,
+      0
+    ],
+    "channel_revenue_percentages": {
+      "whatsapp": 60,
+      "sms": 40
+    },
+    "segment_revenue_percentages": {
+      "vip": 60,
+      "q2_2026": 50
+    },
+    "segment_note": "The two synthetic memberships overlap; shares need not sum to 100%.",
+    "daily_attributed_revenue_usd_apr19_to_may2": [
+      260,
+      245,
+      225,
+      210,
+      190,
+      175,
+      160,
+      120,
+      95,
+      75,
+      50,
+      30,
+      22,
+      15
+    ],
+    "first_seven_days_revenue_usd": 1465,
+    "product_image": "repo-owned Rails demo asset app/assets/images/products/use-cases/sneakers.jpg attached only to isolated synthetic campaign template 265",
+    "message_cta": "Ver colección"
+  },
+  "demonstration_data_verified": true,
+  "privacy_check": "Exact crop contains only the isolated synthetic message, product image and report KPIs; no contact identifiers, private activity, conversations, or customer records.",
+  "native_window": {
+    "id": 26501,
+    "title": "Campaign Report Image Preview | Hellotext",
+    "frame_points": {
+      "x": 22,
+      "y": 61,
+      "width": 1635,
+      "height": 996
+    }
+  },
+  "sourceRect": {
+    "x": 28,
+    "y": 260,
+    "width": 540,
+    "height": 770,
+    "unit": "global screen points"
+  },
+  "original_file": "docs/editorial-work/captures/campaign-reporting/message-comparison-es-mobile-wide-original.png",
+  "published_derivative": "images/analytics-reporting-attribution/campaign-reporting/message-comparison-es-mobile-wide.png",
+  "logical_viewport": {
+    "width": 600,
+    "height": 900,
+    "browser_zoom": "100%"
+  },
+  "source_pixels": {
+    "width": 1080,
+    "height": 1540
+  },
+  "max_display_css_pixels": {
+    "width": 492,
+    "height": 701.56,
+    "basis": "measured 492 CSS px at 600px Help viewport; wide source starts at 439px"
+  },
+  "original_sha256": "504c0372ff250beef0741b49e61b66d7be0bd16085b8e5adcf6a636287cdcfee",
+  "published_derivative_sha256": "504c0372ff250beef0741b49e61b66d7be0bd16085b8e5adcf6a636287cdcfee",
+  "actual_file_format": "PNG, 8-bit RGBA, direct native 2x ScreenCaptureKit crop; static asset is a byte-identical copy",
+  "icc_profile_and_verification": "Display P3 embedded ICC verified with sips; native PNG signature and 1080x1540 IHDR checked; original and static asset SHA-256 504c0372ff250beef0741b49e61b66d7be0bd16085b8e5adcf6a636287cdcfee",
+  "native_color_provenance": "Exact Chrome window ID 26501 titled Campaign Report Image Preview | Hellotext, frame 22,61,1635,996 global points; sourceRect 28,260,540,770 global points on P3 display; direct native 2x Display P3 PNG, no JPEG conversion, resampling, profile reassignment, or full-window intermediate.",
+  "transformations": [],
+  "pointer": {
+    "kind": "none",
+    "system_cursor": "hidden by native helper",
+    "automation_pointer": "outside sourceRect; saved pixels visually checked",
+    "target": null,
+    "coordinates": null
+  },
+  "verification": {
+    "file": "passed: PNG signature, native dimensions, and embedded Display P3 profile",
+    "source_asset": "passed: original and static image bytes match SHA-256",
+    "density": "passed: 1080px source / 492 CSS px at 600px Help viewport = 2.195x; 365px at 439px gives 2.959x; 491px at 599px gives 2.200x",
+    "desktop": "passed: complete Spanish and English articles reviewed at 1280px; seven figures per language, desktop message image 629.2 CSS px wide (2520px source = 4.005x), no figure links or horizontal overflow",
+    "mobile": "passed: complete Spanish and English articles reviewed at 375px, 438px, 439px, 599px, and 600px; responsive message source and six KPIs visible, no figure links or horizontal overflow",
+    "served_asset": "passed: bilingual production Jekyll build and security-header check; original, static, built, and local HTTP 200 asset bytes match SHA-256",
+    "capture_visual": "passed: all four localized source images inspected for complete product photo, message and six KPI values; no visible pointer, right line or private data"
+  },
+  "limitations": [
+    "The screenshot reflects the scoped Rails mobile layout correction in open PR 6016; publication depends on that PR being merged and deployed."
+  ],
+  "status": "verified_local",
+  "public_verification": {
+    "status": "pending: replacement image is in an open Help PR, not merged or deployed"
+  }
+}

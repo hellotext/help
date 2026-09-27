@@ -8,14 +8,15 @@ The report opens with **First 14 days** selected. You can switch to the first 7 
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Campaign reporting period and summary">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 1000px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 640px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile.png" width="746" height="580" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/summary-period-en.png" width="2460" height="580" loading="lazy" decoding="async" alt="Demo report with 14 days selected and the Attributed revenue, Average ROI, Conversion, and Revenue/message summary metrics. On mobile, the first card and the arrow for the others are visible." />
+        <source media="(max-width: 430px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile.png" width="746" height="580" />
+        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile-wide.png" width="1048" height="580" />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-tablet.png" width="1248" height="600" loading="lazy" decoding="async" alt="Demo report with First 14 days selected, the Attributed revenue card, and an arrow for moving through the other summary metrics." />
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Real English interface with demonstration data; on mobile, use the arrow to move through the summary cards.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Real English interface with demonstration data; use the arrow to move through the summary cards.</figcaption>
 </figure>
 
 The range filters results by when each event occurred. A send or delivery counts on its day; a click counts on the click date; and an attributed purchase counts on the purchase date. The summary cards and chart use those dates. The funnel's **Engaged** stage requires both a delivery and a tracked link click within the same range. In the message list, the range affects deliveries, clicks, conversions, and revenue; per-message ROI compares revenue from the period with that message's estimated delivery cost. Revenue breakdowns and **Time to conversion** include attributed purchases made within the range.
@@ -39,14 +40,15 @@ Select a card to update the chart and see how that metric changed over time. Con
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Selected card and campaign metric over time">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 740px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 640px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-en-mobile.png" width="740" height="1250" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-en.png" width="1560" height="1180" loading="lazy" decoding="async" alt="A selected summary card and its chart showing how that campaign metric changes across the chosen reporting period." />
+        <source media="(max-width: 438px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-en-phone.png" width="748" height="1300" />
+        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-en-mobile.png" width="1166" height="1188" />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-en-tablet.png" width="1248" height="1260" loading="lazy" decoding="async" alt="Selected attributed revenue card and a descending daily revenue curve in the complete campaign chart." />
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Chart from the real English interface with demonstration data.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Demonstration daily revenue tapers gradually after launch.</figcaption>
 </figure>
 
 ## Follow the delivery funnel
@@ -62,10 +64,11 @@ The funnel counts sends, deliveries, and conversions on their event dates, while
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Campaign delivery funnel stages">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 740px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 640px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-en-mobile.png" width="740" height="860" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-en.png" width="1560" height="860" loading="lazy" decoding="async" alt="Delivery funnel with Sent, Delivered, Engaged, and Conversion stages and their percentages in a demonstration report." />
+        <source media="(max-width: 430px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-en-mobile.png" width="740" height="860" />
+        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-en-mobile-wide.png" width="1048" height="870" />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-en-tablet.png" width="1248" height="860" loading="lazy" decoding="async" alt="Delivery funnel with Sent, Delivered, Engaged, and Conversion stages and their percentages in a demonstration report." />
       </picture>
     </div>
   </div>
@@ -87,14 +90,15 @@ This lets you compare the actual messages without mixing click performance with 
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Campaign message metrics">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 600px; margin: 0 auto;">
-      <picture style="width: calc(100% - 10px); display: block; margin: 0 auto;">
-        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/message-comparison-en-mobile.png" width="628" height="890" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/message-comparison-en.png" width="1200" height="1060" loading="lazy" decoding="async" alt="A demonstration message row with its preview and delivery, CTR, ROI, conversion, and revenue metrics; the mobile crop focuses on the metrics." />
+    <div class="ht-editorial-visual__image-frame" style="max-width: 640px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 438px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/message-comparison-en-mobile.png" width="728" height="1400" />
+        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/message-comparison-en-mobile-wide.png" width="1080" height="1400" />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/message-comparison-en-tablet.png" width="1248" height="1130" loading="lazy" decoding="async" alt="Demonstration message preview with a product photo and six delivery, click, return, conversion, and revenue metrics; they appear below the preview on phones and beside it on wider screens." />
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Demonstration message row in the real interface; the mobile image focuses on its metrics.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Demonstration message with a product image and six metrics; they appear below the preview on phones and beside it on wider screens.</figcaption>
 </figure>
 
 ## Understand time to conversion
@@ -105,10 +109,11 @@ A sale can happen days after delivery and appear if its purchase date falls with
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Time to conversion distribution">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 610px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 640px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-en-mobile.png" width="740" height="800" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-en.png" width="1220" height="780" loading="lazy" decoding="async" alt="Time to conversion chart distributing attributed purchases across the same day, following days, and later periods." />
+        <source media="(max-width: 430px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-en-mobile.png" width="740" height="800" />
+        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-en-mobile-wide.png" width="1048" height="810" />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-en-tablet.png" width="1248" height="770" loading="lazy" decoding="async" alt="Time to conversion chart distributing attributed purchases across the same day, following days, and later periods." />
       </picture>
     </div>
   </div>
@@ -121,10 +126,11 @@ A sale can happen days after delivery and appear if its purchase date falls with
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Attributed revenue by channel">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 710px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 640px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-channel-en-mobile.png" width="740" height="720" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-channel-en.png" width="1420" height="650" loading="lazy" decoding="async" alt="Comparison of revenue attributed to WhatsApp and SMS in a campaign report with demonstration data." />
+        <source media="(max-width: 430px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-channel-en-mobile.png" width="740" height="720" />
+        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-channel-en-mobile-wide.png" width="1048" height="750" />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-channel-en-tablet.png" width="1248" height="780" loading="lazy" decoding="async" alt="Comparison of revenue attributed to WhatsApp and SMS in a campaign report with demonstration data." />
       </picture>
     </div>
   </div>
@@ -135,10 +141,11 @@ A sale can happen days after delivery and appear if its purchase date falls with
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Attributed revenue by segment">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 740px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 640px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-segment-en-mobile.png" width="740" height="560" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-segment-en.png" width="1572" height="520" loading="lazy" decoding="async" alt="Breakdown of attributed revenue across demonstration segments whose percentages may overlap." />
+        <source media="(max-width: 440px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-segment-en-mobile.png" width="740" height="480" />
+        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-segment-en-mobile-wide.png" width="1180" height="490" />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/revenue-by-segment-en-tablet.png" width="1248" height="590" loading="lazy" decoding="async" alt="Breakdown of attributed revenue across demonstration segments whose percentages may overlap." />
       </picture>
     </div>
   </div>

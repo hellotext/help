@@ -67,9 +67,9 @@
     "height": 660
   },
   "max_display_css_pixels": {
-    "width": 316.0,
-    "height": 289.67,
-    "basis": "measured in built es article at 390x844 mobile viewport"
+    "width": 356,
+    "height": 326.33,
+    "basis": "measured maximum 356 CSS px at the 430px Help viewport; this unchanged phone PNG is selected through 430px and its earlier public verification remains historical"
   },
   "original_sha256": "d784811c80f124820958b4809202d42a777e51301dcf93be1012623a99859681",
   "published_derivative_sha256": "d784811c80f124820958b4809202d42a777e51301dcf93be1012623a99859681",
@@ -103,5 +103,12 @@
     "status": "passed: public asset HTTP 200 and SHA-256 matches local verified original"
   },
   "limitations": [],
-  "status": "verified_public"
+  "status": "verified_public",
+  "responsive_routing_update": {
+    "date": "2026-09-27 UTC",
+    "selected_for_viewports": "up to 430px in both translated campaign-reporting articles",
+    "next_source": "revenue-by-channel-es-mobile-wide.png for 431–600px",
+    "article_qa": "passed: complete Spanish and English articles reviewed at Help widths 375, 430, 431, 438, 439, 440, 441, 600, 601, 768, 1200 and 1600px; seven unlinked static figures with alt text per locale, correct responsive source, no horizontal overflow; phone routing through 430px verified in browser",
+    "density_at_measured_maximum": "720 / 356 CSS px at measured 430px Help viewport = 2.022x"
+  }
 }

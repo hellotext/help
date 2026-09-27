@@ -4,7 +4,7 @@
   "locale": "en",
   "section_and_reader_task": "Compare revenue by segment; overlapping memberships",
   "step_and_target_control": "Compare revenue by segment; overlapping memberships",
-  "capture_date": "2026-09-26 UTC",
+  "capture_date": "2026-09-27 UTC",
   "capture_tool": "macOS ScreenCaptureKit exact-window helper (docs/editorial-work/capture-tools/hellotext_capture_editor.swift); system cursor hidden; ImageIO native 2x PNG with embedded Display P3 ICC",
   "source_route_and_state": "Isolated local Rails snapshot 449d6ccc46 at http://127.0.0.1:3190/hellotext/campaigns/<synthetic-demo-id>, database hellotext_editorial_capture_20260926; synthetic campaign report, en UI, first 14 days selected; no campaign was sent.",
   "fixture_data": {
@@ -49,10 +49,10 @@
     }
   },
   "sourceRect": {
-    "x": 26,
-    "y": 479,
-    "width": 786,
-    "height": 260,
+    "x": 28,
+    "y": 570,
+    "width": 790,
+    "height": 230,
     "unit": "global screen points"
   },
   "original_file": "docs/editorial-work/captures/campaign-reporting/revenue-by-segment-en-desktop-original.png",
@@ -63,19 +63,19 @@
     "browser_zoom": "100%"
   },
   "source_pixels": {
-    "width": 1572,
-    "height": 520
+    "width": 1580,
+    "height": 460
   },
   "max_display_css_pixels": {
-    "width": 608.8125,
-    "height": 201.39,
-    "basis": "measured in built en article at 1280x900 desktop viewport"
+    "width": 740,
+    "height": 215.44,
+    "basis": "article figure max-width 740 CSS px; observed 608.8125 CSS px at 1280x900 desktop"
   },
-  "original_sha256": "e9f85cc43fa7b8469a690fe7605b9544af24342e0f3b3757c1f528e4e69803b1",
-  "published_derivative_sha256": "e9f85cc43fa7b8469a690fe7605b9544af24342e0f3b3757c1f528e4e69803b1",
-  "actual_file_format": "PNG, 8-bit RGBA, native 2x ScreenCaptureKit crop; static asset is a byte-identical copy",
-  "icc_profile_and_verification": "Display P3 embedded ICC verified with sips; native PNG signature and 1572x520 IHDR checked; original and static asset SHA-256 e9f85cc43fa7b8469a690fe7605b9544af24342e0f3b3757c1f528e4e69803b1",
-  "native_color_provenance": "Exact Chrome window ID 26501 titled Campaign Report Image Preview | Hellotext; sourceRect 26,479,786,260 global points; direct native 2x Display P3 PNG, no JPEG conversion, resampling, profile reassignment, or full-window intermediate.",
+  "original_sha256": "e703294566a4417f90b0f67377051eb02459267e912f390c3b3ea6621ac311ad",
+  "published_derivative_sha256": "e703294566a4417f90b0f67377051eb02459267e912f390c3b3ea6621ac311ad",
+  "actual_file_format": "PNG, 8-bit RGBA, direct native 2x ScreenCaptureKit crop; static asset is a byte-identical copy",
+  "icc_profile_and_verification": "Display P3 embedded ICC verified with sips; native PNG signature and 1580x460 IHDR checked; original and static asset SHA-256 e703294566a4417f90b0f67377051eb02459267e912f390c3b3ea6621ac311ad",
+  "native_color_provenance": "Exact Chrome window ID 26501 titled Campaign Report Image Preview | Hellotext on main Display P3 probe; sourceRect 28,570,790,230 global points; direct native 2x Display P3 PNG, no JPEG conversion, resampling, profile reassignment, or full-window intermediate.",
   "transformations": [],
   "pointer": {
     "kind": "none",
@@ -87,23 +87,16 @@
   "verification": {
     "file": "passed: PNG signature, native dimensions, and embedded Display P3 profile",
     "source_asset": "passed: original and static image bytes match SHA-256",
-    "density": "passed: source width 1572 px / rendered width 608.8125 CSS px = 2.582x",
-    "desktop": "passed: complete ES and EN articles inspected at 1280x900; all 7 localized figures load, no linked image controls or horizontal overflow",
-    "mobile": "passed: complete ES and EN articles inspected at 390x844; all 7 localized mobile figures load, no linked image controls or horizontal overflow",
-    "served_asset": "passed: original, static, built-site, and local HTTP-served bytes match; bilingual build and security-header check passed"
+    "density": "passed: source width 1580 px / maximum intended rendered width 740 CSS px = 2.135x",
+    "desktop": "passed: complete ES and EN article figures inspected at 1280x900; both localized segment charts complete, no right line, no image link or overflow",
+    "mobile": "passed: ES and EN segment figures inspected at 375x812 and 599x900; responsive sources load, both bars complete, no right line or overflow",
+    "served_asset": "passed: original, static, built-site, and local HTTP-served bytes match; bilingual production build and security-header check passed"
   },
   "public_verification": {
-    "checked_at": "2026-09-26 05:41 UTC",
-    "pull_request": "https://github.com/hellotext/help/pull/84",
-    "merged_help_commit": "6d6caa1835c969dd377739de8fab583928f8dda9",
-    "spanish_page": "https://help.hellotext.com/es/reportes-de-campaña (HTTP 200; seven localized figures)",
-    "english_page": "https://help.hellotext.com/campaign-reporting (HTTP 200; seven localized figures)",
-    "asset_url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/revenue-by-segment-en.png",
-    "asset_sha256": "e9f85cc43fa7b8469a690fe7605b9544af24342e0f3b3757c1f528e4e69803b1",
-    "status": "passed: public asset HTTP 200 and SHA-256 matches local verified original"
+    "status": "pending: replacement image is in an open Help PR, not merged or deployed"
   },
   "limitations": [
     "Synthetic segment membership overlaps; percentages need not total 100%."
   ],
-  "status": "verified_public"
+  "status": "verified_local"
 }

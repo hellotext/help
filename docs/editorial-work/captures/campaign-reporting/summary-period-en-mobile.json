@@ -67,9 +67,9 @@
     "height": 580
   },
   "max_display_css_pixels": {
-    "width": 316.0,
-    "height": 245.68,
-    "basis": "measured in built en article at 390x844 mobile viewport"
+    "width": 356,
+    "height": 276.78,
+    "basis": "measured maximum 356 CSS px at the 430px Help viewport; this unchanged phone PNG is selected through 430px and its earlier public verification remains historical"
   },
   "original_sha256": "b9a86be327cddac98a55d19d9225869847d1f40fd440a995ba2a34b14d916cd0",
   "published_derivative_sha256": "b9a86be327cddac98a55d19d9225869847d1f40fd440a995ba2a34b14d916cd0",
@@ -103,7 +103,7 @@
     "status": "passed: public asset HTTP 200 and SHA-256 matches local verified original"
   },
   "limitations": [
-    "The narrow crop shows the first KPI card and carousel arrow; the four cards are named in article prose and visible in the desktop image."
+    "The narrow crop shows the first KPI card and carousel arrow; all four metrics are named in article prose, while the current tablet image also shows one card at a time."
   ],
   "status": "verified_public",
   "supersedes": {
@@ -112,5 +112,12 @@
     "previous_public_verification": null,
     "earlier_replacement_history": null,
     "reason": "Recaptured the first 14 days summary using the extended isolated fixture so the card values agree with the charts and other widgets in the article."
+  },
+  "responsive_routing_update": {
+    "date": "2026-09-27 UTC",
+    "selected_for_viewports": "up to 430px in both translated campaign-reporting articles",
+    "next_source": "summary-period-en-mobile-wide.png for 431–600px",
+    "article_qa": "passed: complete Spanish and English articles reviewed at Help widths 375, 430, 431, 438, 439, 440, 441, 600, 601, 768, 1200 and 1600px; seven unlinked static figures with alt text per locale, correct responsive source, no horizontal overflow; phone routing through 430px verified in browser",
+    "density_at_measured_maximum": "746 / 356 CSS px at measured 430px Help viewport = 2.096x"
   }
 }
