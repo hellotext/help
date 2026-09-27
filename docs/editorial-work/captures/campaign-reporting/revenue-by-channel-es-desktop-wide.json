@@ -93,9 +93,16 @@
   },
   "visual_review": "Capture owner and independent reviewer inspected all four localized full widgets; no pointer, scrollbar edge, window shadow, clipped category, or private record.",
   "public_verification": {
-    "status": "pending: PR, merge and normal Netlify publication"
+    "status": "verified: Help PR #162 merged; normal Netlify production deployment ready",
+    "merge_commit": "c7a28e0810bbcf5eb6f128168eb1170d671b86c7",
+    "netlify_deploy_id": "6ab9a17da1c1eb0009d67a08",
+    "published_at_utc": "2026-09-27T23:07:10.429Z",
+    "page": "HTTP 200 and complete seven-figure ES/EN articles inspected at 1600px desktop and 390px phone, no linked images or horizontal overflow",
+    "asset": "HTTP 200; public PNG SHA-256 matches original and static asset SHA-256",
+    "stylesheet": "public CSS matches verified local production build SHA-256 e4e43976878129d309f73236e7eaab614f65835ba52505d77fb76c109ea9ad48"
   },
   "limitations": [
     "The widget is shown at 175% browser zoom to give the complete chart readable labels in its final Help frame; the Help article itself retains its original width."
-  ]
+  ],
+  "status": "verified_public"
 }
