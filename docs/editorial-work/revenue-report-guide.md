@@ -30,4 +30,4 @@ Before saving, re-read both articles and the stub for concurrent edits. Verify t
 
 ## Integration checkpoint
 
-The bilingual Revenue pair and six native figures are locally verified. Record the content commit in `progress.csv`, then push this branch and open one Help PR. The normal merge deployment and public checks remain pending until the PR passes its gates.
+The bilingual Revenue pair and six native figures are locally verified in content commit `dfa1178f72f0eba56011de93aa91bc9e4c5c1fbd`, recorded in `progress.csv`. Push this branch and open one Help PR. The normal merge deployment and public checks remain pending until the PR passes its gates.
