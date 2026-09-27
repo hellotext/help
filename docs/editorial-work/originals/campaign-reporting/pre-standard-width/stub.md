@@ -13,6 +13,7 @@ permalink: campaign-reporting
 permalink_es: reportes-de-campaña
 
 layout: guide
+wide_visuals: true
 topic: analytics-reporting-attribution
 popular: true
 ---

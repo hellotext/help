@@ -23,4 +23,8 @@ Do not import the bundle's preview page, preview stylesheet, README, or fonts. H
 
 `_config.yml` excludes `docs/` and `AGENTS.md` from the public build. Article originals, inventory, plans, source capture records, and verification logs live in `docs/editorial-work/`; the published image used by an article belongs under `images/` and retains its original PNG bytes and profile.
 
+## Guide image width
+
+Keep screenshot figures inside the guide's existing article column (up to `810px` on desktop) and within that column on smaller screens. A larger native PNG may scale down in the browser; it must not widen the guide layout, displace its side navigation, or open in a separate view. If essential labels become too small at this width, use a tighter capture or explain them in adjacent text, following the shared screenshot standard.
+
 Run `yarn build` with the repository's Ruby 3.3.6 and installed gems. Its production build also runs `script/verify_security_headers.rb`. Compare built JS and image bytes with committed assets, confirm `docs/` stays absent from `_site`, and inspect affected English and Spanish pages in a browser at desktop and mobile widths. A local build is not publication; record deployed revision and public asset checks separately when publication is authorized.

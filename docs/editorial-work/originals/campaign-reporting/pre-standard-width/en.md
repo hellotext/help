@@ -6,7 +6,7 @@ To open one, go to **Campaigns → Delivered** and select a campaign.
 
 The report opens with **First 14 days** selected. You can switch to the first 7 or 30 days, or choose a custom range.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--campaign-kpi" aria-label="Campaign reporting period and summary">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--wide-desktop" aria-label="Campaign reporting period and summary">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame">
       <picture>
@@ -39,7 +39,7 @@ The four summary cards answer different questions:
 
 Select a card to update the chart and see how that metric changed over time. Conversion is based on attributed purchases and delivered messages; it is not the percentage of people who clicked and then purchased.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--campaign-kpi" aria-label="Selected card and campaign metric over time">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--wide-desktop" aria-label="Selected card and campaign metric over time">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame">
       <picture>

@@ -69,7 +69,8 @@
   "max_display_css_pixels": {
     "width": 622,
     "height": 299.04,
-    "basis": "measured 622 CSS px at the 768px and 1600px Help viewports; 640px outer figure frame with 8px padding and 1px border each side caps wider displays"
+    "basis": "Current responsive route: Help viewport 601–1199px. At 900px and 1199px the 640px image frame caps the image at 622 CSS pixels inside the standard article column.",
+    "previous_basis": "measured 622 CSS px at the 768px and 1600px Help viewports; 640px outer figure frame with 8px padding and 1px border each side caps wider displays"
   },
   "original_sha256": "a1e67e3920d6063eccd53e69489f80c03d05d2cef7e2c1cf17c61e939a9e0e28",
   "published_derivative_sha256": "a1e67e3920d6063eccd53e69489f80c03d05d2cef7e2c1cf17c61e939a9e0e28",
@@ -87,15 +88,18 @@
   "verification": {
     "file": "passed: PNG signature, native dimensions, and embedded Display P3 profile",
     "source_asset": "passed: original and static image bytes match SHA-256",
-    "density": "passed: 1248px native source / measured maximum 622 CSS px at Help 768px and 1600px = 2.006x; tablet source selected from 601px",
-    "desktop": "passed: complete ES and EN articles reviewed at Help widths 768, 1200 and 1600px; all seven localized figures have alt text, no image links or horizontal overflow; selected tablet sources remain readable",
+    "density": "passed 2026-09-27: 1248px native source / current maximum 622 CSS px = 2.006x; this tablet source is selected only at Help widths 601–1199px.",
+    "desktop": "passed 2026-09-27: complete localized Help articles at 900px and 1199px use this tablet source inside a 640px frame, with the image at 622px, no image links and no horizontal overflow. At 1200px and above, the complete four-KPI desktop source is selected instead.",
     "mobile": "passed: complete ES and EN articles reviewed at Help widths 375, 430, 431, 438, 439, 440, 441, 600 and 601px; all seven localized figures load without image links or horizontal overflow; visual checks included EN 601px Messages, ES 431px funnel, ES 600px summary and segment, and ES 601px segment without a right-edge line",
-    "served_asset": "passed: bilingual yarn build and security-header verifier; native RGBA8 Display P3 2x original, static asset, _site copy and local HTTP :8765 response match the recorded SHA-256; docs excluded from _site"
+    "served_asset": "passed: bilingual yarn build and security-header verifier; native RGBA8 Display P3 2x original, static asset, _site copy and local HTTP :8765 response match the recorded SHA-256; docs excluded from _site",
+    "previous_density": "passed: 1248px native source / measured maximum 622 CSS px at Help 768px and 1600px = 2.006x; tablet source selected from 601px",
+    "previous_desktop": "passed: complete ES and EN articles reviewed at Help widths 768, 1200 and 1600px; all seven localized figures have alt text, no image links or horizontal overflow; selected tablet sources remain readable"
   },
   "visual_review": "capture owner inspected the complete localized widget; no pointer, scrollbar edge, or private records visible",
   "public_verification": {
     "status": "pending: Help PR 127 is open, not merged or deployed"
   },
   "limitations": [],
-  "status": "verified_local"
+  "status": "verified_local",
+  "display_revision": "The previous 1200px and 1600px tablet-source checks describe the earlier layout and are retained as historical verification. Current routing and width were rechecked locally; publication is pending."
 }
