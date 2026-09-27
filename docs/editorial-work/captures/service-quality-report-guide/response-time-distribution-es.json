@@ -1,0 +1,71 @@
+{
+  "article_source": "_i18n/es/analytics-reporting-attribution/service-quality-report-guide.md",
+  "public_url": "https://help.hellotext.com/es/guia-reporte-calidad-servicio",
+  "locale": "es",
+  "section_and_reader_task": "Compare answered response cycles across all five response-time ranges",
+  "step_and_target_control": "Compare answered response cycles across all five response-time ranges",
+  "capture_date": "2026-09-27",
+  "capture_date_basis": "Native capture session date; precise time is not independently verifiable from retained copied PNG modification timestamps.",
+  "capture_tool": "macOS ScreenCaptureKit exact-title, exact-window helper (docs/editorial-work/capture-tools/hellotext_capture_editor.swift); native 2x SCStreamConfiguration with Display P3 colorSpaceName and ImageIO PNG output; system cursor hidden",
+  "source_route_and_state": "http://127.0.0.1:3190/hellotext/reports/ExNlJZaM?preset=custom&from=2026-09-11&to=2026-09-24&metric=sla_compliance; Custom September 11–24, 2026; Distribución del tiempo de respuesta with all answered responses selected; five visible ranges show 16%, 22%, 20%, 15% and 27%. UI locale es.",
+  "fixture_source": "Isolated development PostgreSQL database hellotext_editorial_capture_20260926, business 5; synthetic Operations demonstration records and guarded adjustments documented in docs/editorial-work/fixtures/performance-service-quality-enrichment.md and service-quality-favorable-comparisons.md. Contacts are non-deliverable, delivery sources and automations are inactive; no messages were sent.",
+  "demonstration_data_verified": true,
+  "privacy_check": "Exact crop contains aggregate synthetic report UI only. Parent capture review found no contact rows, customer identifiers, conversations, messages, credentials, private activity or visible pointer.",
+  "native_window": {
+    "id": 33329,
+    "title": "Reporte de calidad de servicio | Hellotext",
+    "frame_points": {
+      "x": -1253,
+      "y": 88,
+      "width": 1253,
+      "height": 897
+    }
+  },
+  "sourceRect": {
+    "x": -1235,
+    "y": 275,
+    "width": 1218,
+    "height": 655,
+    "unit": "global screen points"
+  },
+  "original_file": "docs/editorial-work/captures/service-quality-report-guide/response-time-distribution-es.png",
+  "published_derivative": "images/analytics-reporting-attribution/service-quality-report-guide/response-time-distribution-es.png",
+  "logical_viewport": {
+    "width": 1002,
+    "height": 673,
+    "note": "Measured after capture in the same dedicated Chrome window with the same frame at 125% zoom; device pixel ratio 2."
+  },
+  "browser_zoom_percent": 125,
+  "source_pixels": {
+    "width": 2436,
+    "height": 1310
+  },
+  "max_display_css_pixels": {
+    "width": 810,
+    "height": 435.6,
+    "basis": "Conservative article-column upper bound; actual image width is smaller after stage and image-frame padding."
+  },
+  "original_sha256": "871da9c07138943f012188ae5583f3b0d5ad76f57c7d1624656031ca64745226",
+  "published_derivative_sha256": "871da9c07138943f012188ae5583f3b0d5ad76f57c7d1624656031ca64745226",
+  "actual_file_format": "PNG, 8-bit RGBA, native 2x ScreenCaptureKit crop; static image is a byte-identical copy",
+  "icc_profile_and_verification": "Display P3 embedded ICC verified by file and sips; original and static SHA-256 871da9c07138943f012188ae5583f3b0d5ad76f57c7d1624656031ca64745226.",
+  "native_color_provenance": "Native 2x Display P3 display and PNG probe at /private/tmp/hellotext-left-display-probe-20260927.png; exact isolated Chrome window selected by ID and title. No JPEG conversion, resampling, color-profile reassignment, chart redrawing, or full-window intermediate.",
+  "transformations": [],
+  "pointer": {
+    "kind": "none",
+    "system_cursor": "hidden by native helper",
+    "automation_pointer": "outside exact crop",
+    "target": null,
+    "coordinates": null
+  },
+  "verification": {
+    "file": "passed: PNG signature, embedded Display P3 ICC, native 2x crop; parent reviewed saved pixels for complete border, no visible pointer and no private content",
+    "source_asset": "passed: source, original and static bytes match by SHA-256",
+    "density": "passed: 2436 source pixels / 810 CSS px conservative maximum = 3.01x",
+    "desktop": "passed: parent IAB review of complete localized guide at 1280px; all four figures visible within the 685px article column, each with a full-width bordered lavender stage and 609px image; captions and alt text checked, no image link or open control",
+    "mobile": "passed: parent IAB review of complete localized guide at 390px; all four figures visible with 358px stage and 316px image, complete borders, document scrollWidth 390px and no horizontal overflow",
+    "served_asset": "passed local: production build and security-header verification reported by parent; original, published and _site PNG SHA-256 match, and all three retain PNG format, Display P3 profile and recorded dimensions. Public deployment pending."
+  },
+  "limitations": [],
+  "status": "local_verified"
+}

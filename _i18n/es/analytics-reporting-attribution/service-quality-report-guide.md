@@ -14,6 +14,17 @@ Los valores recientes pueden cambiar cuando se resuelve una interacción, se res
 
 Selecciona una métrica para actualizar la línea de tiempo y los desgloses disponibles.
 
+En este ejemplo con datos ficticios, el período personalizado va del 11 al 24 de septiembre. Las cuatro tarjetas aparecen en una fila y **Cumplimiento de SLA** está seleccionado al 75 %. Sus indicadores verdes comparan cada resultado con el período anterior; en **Tasa de no resueltas**, una disminución es favorable.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Período y cuatro métricas del Reporte de calidad de servicio">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/service-quality-report-guide/kpi-overview-es.png" width="2396" height="660" loading="lazy" decoding="async" alt="Período Personalizado y cuatro tarjetas completas: resolución por IA 43,5 % (+7 %), resueltas por equipo 30,4 % (+2 %), cumplimiento de SLA seleccionado 75 % (+2 %) y no resueltas 26,2 % (−12 %); los cuatro indicadores son verdes." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real en español con datos ficticios. Seleccionar una tarjeta cambia la métrica representada en la línea de tiempo.</figcaption>
+</figure>
+
 ### Tasa de resolución por IA
 
 Es el porcentaje de interacciones de servicio elegibles resueltas completamente por IA sin Derivación a un colaborador. La base de cálculo también incluye las interacciones que siguen abiertas, derivadas o resueltas por personas.
@@ -51,6 +62,17 @@ Los desgloses disponibles dependen de la métrica seleccionada:
 
 Usa una dimensión por vez cuando investigues un cambio. Una diferencia por canal puede venir de la intención del cliente o del horario operativo; una diferencia por equipo puede venir del enrutamiento, la capacidad o los tipos de conversaciones que recibe.
 
+Con **Cumplimiento de SLA** seleccionado, **Ver por equipo** permite comparar las tendencias de dos equipos a lo largo de los 14 días. En esta cuenta ficticia, las leyendas resumen 80,4 % para Atención y 69,6 % para Ventas durante todo el período; la línea muestra cómo varía cada equipo por día.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Cumplimiento de SLA en el tiempo por equipo">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/service-quality-report-guide/sla-team-trend-es.png" width="2406" height="924" loading="lazy" decoding="async" alt="Gráfico Cumplimiento de SLA en el tiempo con Ver por equipo seleccionado, 14 fechas del 11 al 24 de septiembre y dos líneas: Atención 80,4 % y Ventas 69,6 % para el período completo." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real en español con equipos y resultados ficticios. Las leyendas resumen el período completo y las líneas muestran la tendencia diaria.</figcaption>
+</figure>
+
 En **Resueltas por equipo**, las barras por equipo muestran su aporte al total seleccionado en puntos porcentuales; no son tasas calculadas sobre el volumen propio de cada equipo.
 
 ## Entiende la Ruta de resolución
@@ -67,6 +89,17 @@ Usa el desglose de la línea de tiempo cuando necesites más detalle, como solo 
 
 Puedes comparar las respuestas de conversaciones resueltas sólo por IA con las de conversaciones gestionadas por personas desde el inicio o derivadas a una persona. Si no hay respuestas para una categoría, un guion o una vista preliminar no representa una puntuación observada.
 
+En esta cuenta ficticia, la tarjeta izquierda atribuye el 59 % de las resoluciones finales a IA y el 41 % al equipo. La tarjeta derecha muestra CSAT del 81 % para agentes de IA y del 75 % para colaboradores; sus comparaciones con el período anterior son favorables (+13 % y +2 %).
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Ruta de resolución y satisfacción del cliente">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/service-quality-report-guide/resolution-csat-es.png" width="2414" height="932" loading="lazy" decoding="async" alt="Ruta de resolución: 59 % resuelta por IA y 41 % por equipo. Satisfacción del cliente: CSAT de agentes de IA 81 % (+13 %) y CSAT de colaboradores 75 % (+2 %), con ambos indicadores de comparación verdes." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real en español con resultados ficticios. La tarjeta izquierda muestra quién completó la resolución; la derecha compara las respuestas positivas de satisfacción.</figcaption>
+</figure>
+
 ## Entiende la Distribución del tiempo de respuesta
 
 **Distribución del tiempo de respuesta** muestra cómo se distribuyen los ciclos de respuesta atendidos entre estos rangos:
@@ -78,6 +111,17 @@ Puedes comparar las respuestas de conversaciones resueltas sólo por IA con las 
 - 10 minutos o más.
 
 Usa el selector para comparar todas las obligaciones de primera respuesta atendidas, o limitar esa muestra a respuestas de IA o de personas. La opción de derivadas muestra las respuestas atendidas tras una Derivación humana.
+
+En este ejemplo ficticio, **Mostrar todas** muestra los cinco rangos: 16 %, 22 %, 20 %, 15 % y 27 %, respectivamente. Así se ve tanto la parte de respuestas rápidas como la de esperas de 10 minutos o más.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Distribución del tiempo de respuesta con cinco rangos">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/service-quality-report-guide/response-time-distribution-es.png" width="2436" height="1310" loading="lazy" decoding="async" alt="Distribución del tiempo de respuesta con Mostrar todas: menos de 1 minuto 16 %, 1–3 minutos 22 %, 3–5 minutos 20 %, 5–10 minutos 15 % y 10 minutos o más 27 %." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real en español con tiempos ficticios de respuestas atendidas. Cada barra es una proporción dentro de la muestra seleccionada.</figcaption>
+</figure>
 
 El porcentaje de cada barra es la proporción de respuestas atendidas de la opción seleccionada que cayó dentro de ese rango. **No es el cumplimiento de SLA**: esa tasa también considera obligaciones que vencieron sin respuesta y compara cada obligación con su propio plazo.
 

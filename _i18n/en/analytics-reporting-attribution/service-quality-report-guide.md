@@ -14,6 +14,17 @@ Recent values can change when an interaction resolves, an SLA obligation is answ
 
 Select a metric to update the timeline and available breakdowns.
 
+In this fictional-data example, the custom period runs from September 11 to 24. All four cards appear in one row, with **SLA compliance** selected at 75%. Their green indicators compare each result with the preceding period; for **Unresolved rate**, a decrease is favorable.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Service quality report period and four main metrics">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/service-quality-report-guide/kpi-overview-en.png" width="2396" height="600" loading="lazy" decoding="async" alt="Custom period and four complete cards: AI Resolution Rate 43.5% (+7%), Resolved by team 30.4% (+2%), selected SLA compliance 75% (+2%), and Unresolved rate 26.2% (−12%); all four indicators are green." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real English interface with fictional data. Selecting a card changes the metric shown in the timeline.</figcaption>
+</figure>
+
 ### AI Resolution Rate
 
 The percentage of eligible service interactions fully resolved by AI without escalation to a teammate. The denominator also includes interactions that remain open, were escalated, or were resolved by people.
@@ -51,6 +62,17 @@ Available breakdowns depend on the selected metric:
 
 Use one dimension at a time when investigating a change. A channel difference can come from customer intent or operating hours; a team difference can come from routing, capacity, or the types of conversations it receives.
 
+With **SLA compliance** selected, **View by team** compares two teams across all 14 days. In this fictional account, the legends summarize 80.4% for Atención and 69.6% for Ventas over the full period; each line shows how its team varied by day.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="SLA compliance over time by team">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/service-quality-report-guide/sla-team-trend-en.png" width="2406" height="924" loading="lazy" decoding="async" alt="SLA compliance over time with View by team selected, all 14 dates from September 11 to 24, and two lines: Atención 80.4% and Ventas 69.6% for the full period." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real English interface with fictional teams and results. The legends summarize the full period while the lines show daily trends.</figcaption>
+</figure>
+
 For **Resolved by team**, the team bars show each team's contribution to the selected total in percentage points, not a rate calculated from that team's own volume.
 
 ## Understand Resolution path
@@ -67,6 +89,17 @@ Use the timeline breakdown when you need more detail such as AI only, human from
 
 You can compare answers from conversations resolved solely by AI with those handled by people from the start or escalated to a person. If a category has no answers, a dash or preview is not an observed satisfaction score.
 
+In this fictional account, the left card attributes 59% of final resolutions to AI and 41% to the team. The right card shows 81% CSAT for AI agents and 75% for teammates; both comparisons with the preceding period are favorable (+13% and +2%).
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Resolution path and Customer satisfaction">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/service-quality-report-guide/resolution-csat-en.png" width="2414" height="940" loading="lazy" decoding="async" alt="Resolution path: 59% resolved by AI and 41% by the team. Customer Satisfaction: AI Agents CSAT 81% (+13%) and Teammates CSAT 75% (+2%), with both comparison indicators green." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real English interface with fictional results. The left card shows who completed the resolution; the right card compares positive satisfaction answers.</figcaption>
+</figure>
+
 ## Understand Response time distribution
 
 **Response time distribution** shows how answered response cycles are distributed across these ranges:
@@ -78,6 +111,17 @@ You can compare answers from conversations resolved solely by AI with those hand
 - 10 minutes or more.
 
 Use the selector to compare all answered first-response obligations, or narrow that sample to AI or human responses. The escalated option shows answers to human handoffs.
+
+In this fictional example, **Show all** displays the five ranges at 16%, 22%, 20%, 15%, and 27%, respectively. It shows both the quickly answered responses and the waits of 10 minutes or more.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Response time distribution across five ranges">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/service-quality-report-guide/response-time-distribution-en.png" width="2436" height="1300" loading="lazy" decoding="async" alt="Response time distribution with Show all: under 1 minute 16%, 1–3 minutes 22%, 3–5 minutes 20%, 5–10 minutes 15%, and 10 minutes or more 27%." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real English interface with fictional answered-response times. Each bar is a share of the selected sample.</figcaption>
+</figure>
 
 The percentage in each bar is the share of answered responses in the selected option that fell into that range. It is **not the SLA compliance rate**: that rate also includes obligations that breached without an answer and compares each obligation with its own deadline.
 
