@@ -1668,10 +1668,11 @@ html[lang="es"] .home-hero h1 {
 }
 
 .guide-content > figure.ht-editorial-visual.ht-editorial-visual--campaign-report .ht-editorial-visual__stage {
-  padding: 0;
+  width: 100%;
+  max-width: var(--campaign-figure-max-width);
+  margin-inline: auto;
+  padding: 8px;
   border: 0;
-  border-radius: 0;
-  background: transparent;
 }
 
 .guide-content > figure.ht-editorial-visual.ht-editorial-visual--campaign-report .ht-editorial-visual__image-frame {
