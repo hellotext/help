@@ -91,18 +91,17 @@ La sección **Mensajes** muestra la fecha y la vista previa de cada mensaje de l
 
 Esto permite comparar los mensajes reales sin mezclar el rendimiento de los clics con el de las compras. Un mensaje puede tener un CTR saludable y una conversión más débil si los clientes hacen clic pero no completan la compra.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--campaign-report ht-editorial-visual--campaign-message" aria-label="Métricas de un mensaje de campaña">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--campaign-report" aria-label="Métricas de un mensaje de campaña">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame">
       <picture>
         <source media="(max-width: 438px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/message-comparison-es-mobile.png" width="728" height="1590" />
         <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/message-comparison-es-mobile-wide.png" width="1080" height="1540" />
-        <source media="(max-width: 1199px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/message-comparison-es-tablet.png" width="1248" height="1130" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/message-comparison-es.png" width="2520" height="1370" loading="lazy" decoding="async" alt="Vista previa de un mensaje de demostración con foto de un producto y seis indicadores de entrega, clics, retorno, conversión e ingresos." />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/message-comparison-es-tablet.png" width="1248" height="1130" loading="lazy" decoding="async" alt="Vista previa de un mensaje de demostración con foto de un producto y seis indicadores de entrega, clics, retorno, conversión e ingresos; aparecen debajo de la vista previa en teléfono y junto a ella en pantallas más amplias." />
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Mensaje de demostración con imagen de producto y seis indicadores: en escritorio se alinean en una fila; en tablet se apilan a su lado y en teléfono aparecen debajo.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Mensaje de demostración con imagen de producto y seis indicadores; aparecen debajo de la vista previa en teléfono y a su lado en pantallas más amplias.</figcaption>
 </figure>
 
 ## Entiende el tiempo de conversión

@@ -1684,6 +1684,10 @@ html[lang="es"] .home-hero h1 {
 }
 
 @media (min-width: 1200px) {
+  .guide-content > figure.ht-editorial-visual--campaign-message {
+    --campaign-figure-max-width: 100%;
+  }
+
   .guide-content > figure.ht-editorial-visual--campaign-funnel {
     --campaign-figure-max-width: 780px;
   }
