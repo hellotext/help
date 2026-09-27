@@ -1,0 +1,72 @@
+{
+  "article_source": "_i18n/es/analytics-reporting-attribution/demand-insights-guide.md",
+  "public_url": "https://help.hellotext.com/es/guia-insights-demanda",
+  "locale": "es",
+  "section_and_reader_task": "Viewing the complete unfulfilled-interaction trend by channel, including selector and Webchat legend",
+  "step_and_target_control": "Viewing the complete unfulfilled-interaction trend by channel, including selector and Webchat legend",
+  "capture_date": "2026-09-27 19:42:27 UTC",
+  "capture_tool": "macOS ScreenCaptureKit exact-title, exact-window helper (docs/editorial-work/capture-tools/hellotext_capture_editor.swift); native 2x SCStreamConfiguration with Display P3 colorSpaceName and ImageIO PNG output; system cursor hidden",
+  "source_route_and_state": "http://127.0.0.1:3190/hellotext/reports/eWDGJNkJ?preset=custom&from=2026-09-11&to=2026-09-24&metric=unfulfilled_requests; Custom 2026-09-11 through 2026-09-24, Unfulfilled metric and View by channel selected; one actual Webchat series totaling 278 eligible interactions across 14 days. UI locale es.",
+  "fixture_source": "Isolated local Rails account in database hellotext_editorial_capture_20260926, business 5; baseline synthetic report data plus docs/editorial-work/fixtures/performance-service-quality-enrichment.rb, which added safe interaction coverage before this capture.",
+  "demonstration_data_verified": true,
+  "privacy_check": "The exact report crop contains only aggregate metrics or chart, period and breakdown controls. No contacts, conversations, customer identifiers or private activity appear.",
+  "native_window": {
+    "id": 33329,
+    "title": "Insights de demanda | Hellotext",
+    "frame_points": {
+      "x": -1253,
+      "y": 88,
+      "width": 1253,
+      "height": 897
+    }
+  },
+  "sourceRect": {
+    "x": -1235,
+    "y": 457,
+    "width": 1220,
+    "height": 490,
+    "unit": "global screen points"
+  },
+  "original_file": "docs/editorial-work/captures/demand-insights-guide/channel-breakdown-es-original.png",
+  "published_derivative": "images/analytics-reporting-attribution/demand-insights-guide/channel-breakdown-es.png",
+  "logical_viewport": {
+    "width": null,
+    "height": null,
+    "note": "Exact browser content viewport not retained. The dedicated Chrome window frame and exact ScreenCaptureKit sourceRect are recorded; browser zoom was 100%."
+  },
+  "source_pixels": {
+    "width": 2440,
+    "height": 980
+  },
+  "max_display_css_pixels": {
+    "width": 810,
+    "height": 325.3,
+    "basis": "Conservative upper bound from the existing 810px Help article column; actual figure image width is less after stage and image padding."
+  },
+  "original_sha256": "d9e76b2d8e171b054f0657899b9d2eccfa2446079ea91835959c2fe5ff37d2b1",
+  "published_derivative_sha256": "d9e76b2d8e171b054f0657899b9d2eccfa2446079ea91835959c2fe5ff37d2b1",
+  "actual_file_format": "PNG, 8-bit RGBA, native 2x ScreenCaptureKit crop; static image is a byte-identical copy",
+  "icc_profile_and_verification": "Display P3 embedded ICC verified by file and sips; original and static image SHA-256 d9e76b2d8e171b054f0657899b9d2eccfa2446079ea91835959c2fe5ff37d2b1.",
+  "native_color_provenance": "The same native 2x display produced a 16x16 PNG probe at /private/tmp/hellotext-left-display-probe-20260927.png with embedded Display P3. The exact isolated report window was selected by title and ID; ScreenCaptureKit captured the recorded point rect directly into a 2x Display P3 PNG. No JPEG conversion, resampling, color-profile reassignment or full-window intermediate.",
+  "transformations": [],
+  "pointer": {
+    "kind": "none",
+    "system_cursor": "hidden by native helper",
+    "automation_pointer": "moved outside the exact crop before capture",
+    "target": null,
+    "coordinates": null
+  },
+  "verification": {
+    "file": "passed: PNG signature, 2440x980 native source pixels, embedded Display P3 ICC, no private content or visible pointer",
+    "source_asset": "passed: original and static asset bytes match SHA-256 d9e76b2d8e171b054f0657899b9d2eccfa2446079ea91835959c2fe5ff37d2b1",
+    "density": "passed: 2440 source pixels / 810 CSS px maximum = 3.01x",
+    "desktop": "passed: complete es guide reviewed at 1280px; figure fills the article column inside the bordered lavender stage, with complete card/chart frame, visible two-layer inset and no open control",
+    "mobile": "passed: complete es guide reviewed at 390px; stage and image remain inside the viewport, with adjacent text and alt explaining the compact data labels; no horizontal overflow or image link",
+    "served_asset": "passed locally: committed source, original capture, built root/Spanish copies and HTTP-served preview bytes match, with Display P3 preserved; public asset verification pending merge"
+  },
+  "limitations": [
+    "The label Affected SKUs is implemented using associated recommending Playbooks in this local Rails revision; the article explains this distinction.",
+    "The channel breakdown has one actual technology, Webchat; no extra series was fabricated."
+  ],
+  "status": "verified_in_local_article_not_published"
+}

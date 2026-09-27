@@ -1,0 +1,71 @@
+{
+  "article_source": "_i18n/en/analytics-reporting-attribution/demand-insights-guide.md",
+  "public_url": "https://help.hellotext.com/demand-insights-guide",
+  "locale": "en",
+  "section_and_reader_task": "Selecting a custom reporting period and reviewing all four metric cards",
+  "step_and_target_control": "Selecting a custom reporting period and reviewing all four metric cards",
+  "capture_date": "2026-09-27 19:43:44 UTC",
+  "capture_tool": "macOS ScreenCaptureKit exact-title, exact-window helper (docs/editorial-work/capture-tools/hellotext_capture_editor.swift); native 2x SCStreamConfiguration with Display P3 colorSpaceName and ImageIO PNG output; system cursor hidden",
+  "source_route_and_state": "http://127.0.0.1:3190/hellotext/reports/eWDGJNkJ?preset=custom&from=2026-09-11&to=2026-09-24&metric=unfulfilled_requests; Custom 2026-09-11 through 2026-09-24, Unfulfilled metric selected; 278 eligible interactions, $18.9K estimated lost revenue, 6 associated recommending Playbooks under the Affected SKUs label, 71.1% Unfulfilled rate. UI locale en.",
+  "fixture_source": "Isolated local Rails account in database hellotext_editorial_capture_20260926, business 5; baseline synthetic report data plus docs/editorial-work/fixtures/performance-service-quality-enrichment.rb, which added safe interaction coverage before this capture.",
+  "demonstration_data_verified": true,
+  "privacy_check": "The exact report crop contains only aggregate metrics or chart, period and breakdown controls. No contacts, conversations, customer identifiers or private activity appear.",
+  "native_window": {
+    "id": 33329,
+    "title": "Demand insights | Hellotext",
+    "frame_points": {
+      "x": -1253,
+      "y": 88,
+      "width": 1253,
+      "height": 897
+    }
+  },
+  "sourceRect": {
+    "x": -1235,
+    "y": 355,
+    "width": 1220,
+    "height": 310,
+    "unit": "global screen points"
+  },
+  "original_file": "docs/editorial-work/captures/demand-insights-guide/metric-period-en-original.png",
+  "published_derivative": "images/analytics-reporting-attribution/demand-insights-guide/metric-period-en.png",
+  "logical_viewport": {
+    "width": null,
+    "height": null,
+    "note": "Exact browser content viewport not retained. The dedicated Chrome window frame and exact ScreenCaptureKit sourceRect are recorded; browser zoom was 100%."
+  },
+  "source_pixels": {
+    "width": 2440,
+    "height": 620
+  },
+  "max_display_css_pixels": {
+    "width": 810,
+    "height": 205.8,
+    "basis": "Conservative upper bound from the existing 810px Help article column; actual figure image width is less after stage and image padding."
+  },
+  "original_sha256": "cec3968405a7e7c8d6025653cbe77f10e365eb11b85c3f096aab074611563cdd",
+  "published_derivative_sha256": "cec3968405a7e7c8d6025653cbe77f10e365eb11b85c3f096aab074611563cdd",
+  "actual_file_format": "PNG, 8-bit RGBA, native 2x ScreenCaptureKit crop; static image is a byte-identical copy",
+  "icc_profile_and_verification": "Display P3 embedded ICC verified by file and sips; original and static image SHA-256 cec3968405a7e7c8d6025653cbe77f10e365eb11b85c3f096aab074611563cdd.",
+  "native_color_provenance": "The same native 2x display produced a 16x16 PNG probe at /private/tmp/hellotext-left-display-probe-20260927.png with embedded Display P3. The exact isolated report window was selected by title and ID; ScreenCaptureKit captured the recorded point rect directly into a 2x Display P3 PNG. No JPEG conversion, resampling, color-profile reassignment or full-window intermediate.",
+  "transformations": [],
+  "pointer": {
+    "kind": "none",
+    "system_cursor": "hidden by native helper",
+    "automation_pointer": "moved outside the exact crop before capture",
+    "target": null,
+    "coordinates": null
+  },
+  "verification": {
+    "file": "passed: PNG signature, 2440x620 native source pixels, embedded Display P3 ICC, no private content or visible pointer",
+    "source_asset": "passed: original and static asset bytes match SHA-256 cec3968405a7e7c8d6025653cbe77f10e365eb11b85c3f096aab074611563cdd",
+    "density": "passed: 2440 source pixels / 810 CSS px maximum = 3.01x",
+    "desktop": "passed: complete en guide reviewed at 1280px; figure fills the article column inside the bordered lavender stage, with complete card/chart frame, visible two-layer inset and no open control",
+    "mobile": "passed: complete en guide reviewed at 390px; stage and image remain inside the viewport, with adjacent text and alt explaining the compact data labels; no horizontal overflow or image link",
+    "served_asset": "passed locally: committed source, original capture, built root/Spanish copies and HTTP-served preview bytes match, with Display P3 preserved; public asset verification pending merge"
+  },
+  "limitations": [
+    "The label Affected SKUs is implemented using associated recommending Playbooks in this local Rails revision; the article explains this distinction."
+  ],
+  "status": "verified_in_local_article_not_published"
+}
