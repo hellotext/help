@@ -41,7 +41,6 @@ Select a card to update the chart and see how that metric changed over time. Con
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 1000px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 438px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-en-phone.png" width="748" height="1300" />
         <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-en-mobile.png" width="1166" height="1188" />
         <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-en.png" width="2394" height="1270" loading="lazy" decoding="async" alt="Selected attributed revenue card and a descending daily revenue curve; desktop also shows all four campaign summary cards." />
       </picture>

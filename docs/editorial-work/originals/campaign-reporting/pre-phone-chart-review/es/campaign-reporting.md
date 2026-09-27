@@ -41,7 +41,6 @@ Selecciona una tarjeta para actualizar el gráfico y ver cómo cambió esa métr
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 1000px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 438px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-es-phone.png" width="748" height="1300" />
         <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-es-mobile.png" width="1166" height="1188" />
         <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-es.png" width="2394" height="1270" loading="lazy" decoding="async" alt="Tarjeta de ingresos atribuidos seleccionada y curva descendente de ingresos diarios; en escritorio se ven las cuatro tarjetas del resumen." />
       </picture>

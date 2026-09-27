@@ -1,0 +1,119 @@
+{
+  "article_source": "_i18n/en/analytics-reporting-attribution/campaign-reporting.md",
+  "public_url": "https://help.hellotext.com/campaign-reporting",
+  "locale": "en",
+  "section_and_reader_task": "Read the campaign summary; selected KPI card and time-series chart",
+  "step_and_target_control": "Read the campaign summary; selected KPI card and time-series chart",
+  "capture_date": "2026-09-27 UTC",
+  "capture_tool": "macOS ScreenCaptureKit exact-window helper from docs/editorial-work/capture-tools/hellotext_capture_editor.swift with cursor hidden; ImageIO native 2x PNG with embedded Display P3 ICC",
+  "source_route_and_state": "Isolated local Rails demonstration checkout at http://127.0.0.1:3190/hellotext/campaigns/4ONLdN32?metric=incremental_revenue, database hellotext_editorial_capture_20260926; synthetic campaign report, en UI, first 14 days selected; no campaign or message was sent.",
+  "fixture_data": {
+    "sent_messages": 5400,
+    "delivered_messages": 5133,
+    "tracked_clicks": 1032,
+    "attributed_purchases": 321,
+    "attributed_revenue_usd": 1872,
+    "funnel_percentages": {
+      "sent": 100,
+      "delivered": 95.1,
+      "engagement": 28,
+      "conversion": 6.3
+    },
+    "time_to_conversion_percentages": [
+      9,
+      47,
+      19,
+      25,
+      0
+    ],
+    "channel_revenue_percentages": {
+      "whatsapp": 60,
+      "sms": 40
+    },
+    "segment_revenue_percentages": {
+      "vip": 60,
+      "q2_2026": 50
+    },
+    "segment_note": "The two synthetic memberships overlap; shares need not sum to 100%.",
+    "daily_attributed_revenue_usd_apr19_to_may2": [
+      260,
+      245,
+      225,
+      210,
+      190,
+      175,
+      160,
+      120,
+      95,
+      75,
+      50,
+      30,
+      22,
+      15
+    ],
+    "first_seven_days_revenue_usd": 1465,
+    "product_image": "repo-owned Rails demo asset app/assets/images/products/use-cases/sneakers.jpg attached only to isolated synthetic campaign template 265"
+  },
+  "demonstration_data_verified": true,
+  "privacy_check": "Exact crop contains only the isolated synthetic report; no contact identifiers, private activity, conversations, or other customer records.",
+  "native_window": {
+    "id": 26501,
+    "title": "Campaign Report Image Preview | Hellotext",
+    "frame_points": {
+      "x": 22,
+      "y": 61,
+      "width": 1635,
+      "height": 996
+    }
+  },
+  "sourceRect": {
+    "x": 30,
+    "y": 227,
+    "width": 374,
+    "height": 650,
+    "unit": "global screen points"
+  },
+  "original_file": "docs/editorial-work/captures/campaign-reporting/selected-kpi-chart-en-phone-original.png",
+  "published_derivative": "images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-en-phone.png",
+  "logical_viewport": {
+    "width": 390,
+    "height": 900,
+    "browser_zoom": "100%"
+  },
+  "source_pixels": {
+    "width": 748,
+    "height": 1300
+  },
+  "max_display_css_pixels": {
+    "width": 364,
+    "basis": "Measured Help display at the 438px phone breakpoint; source density 748/364 = 2.05x"
+  },
+  "original_sha256": "fff4478f37d200cdb6b91088715db237d30637817acbb13da0e0cc0b02645671",
+  "published_derivative_sha256": "fff4478f37d200cdb6b91088715db237d30637817acbb13da0e0cc0b02645671",
+  "actual_file_format": "PNG, 8-bit RGBA, native 2x ScreenCaptureKit crop; static asset is a byte-identical copy",
+  "icc_profile_and_verification": "Display P3 embedded ICC verified with sips; native PNG signature and 748x1300 IHDR checked; original and static asset SHA-256 fff4478f37d200cdb6b91088715db237d30637817acbb13da0e0cc0b02645671",
+  "native_color_provenance": "Exact Chrome window ID 26501 titled Campaign Report Image Preview | Hellotext; frame (22,61,1635,996) and sourceRect (30,227,374,650) global points on main Display P3 display; direct native 2x Display P3 PNG, no JPEG conversion, resampling, profile reassignment, or full-window intermediate.",
+  "transformations": [],
+  "pointer": {
+    "kind": "none",
+    "system_cursor": "hidden by checked-in ScreenCaptureKit helper",
+    "automation_pointer": "moved outside sourceRect before capture; saved pixels visually checked",
+    "target": null,
+    "coordinates": null
+  },
+  "verification": {
+    "file": "passed: PNG signature, native 2x dimensions, embedded Display P3 ICC",
+    "source_asset": "passed: original and static asset bytes match SHA-256",
+    "desktop": "passed: complete bilingual articles retain seven figures and the unchanged desktop source at 1280px; no linked figures or horizontal overflow",
+    "mobile": "passed: Spanish and English chart sources verified at 375px, 438px, 439px, 599px and 600px; phone source renders at 301px and 364px, and the wide source at 365px, 491px and 492px; no horizontal overflow",
+    "served_asset": "passed: bilingual Jekyll production build and security-header check; original, static, built and local HTTP 200 bytes at 127.0.0.1:8765 match SHA-256; built PNG retains Display P3; browser currentSrc verified",
+    "capture_visual": "passed: selected KPI card, complete chart and axes, View total control, localized interface; no pointer, scrollbar or private data"
+  },
+  "limitations": [
+    "The authentic 390px Rails carousel shows its selected revenue card and chart; the 599px wide-mobile source and desktop source remain available at larger breakpoints."
+  ],
+  "status": "verified_local",
+  "public_verification": {
+    "status": "pending_merge_and_public_verification"
+  }
+}
