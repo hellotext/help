@@ -25,7 +25,7 @@ La mensajería tiene tres conceptos diferentes:
 
 ## Revisa consumos y facturas
 
-Abre **Configuración → Facturación** para ver tu plan actual, consumos por período, saldo cuando corresponda, historial de pagos, métodos de pago, datos de facturación y facturas disponibles.
+Abre **Configuración → Facturación** para ver tu plan actual, consumos por período, saldo, historial de pagos, métodos de pago, datos de facturación y facturas disponibles.
 
 - [Uso del plan y cargos mensuales]({% link _billing/understanding-plan-quotas.md %}) te ayuda a interpretar un período seleccionado.
 - [Facturación, métodos de pago y facturas]({% link _billing/billing-settings-and-invoices.md %}) explica cada control de facturación.
