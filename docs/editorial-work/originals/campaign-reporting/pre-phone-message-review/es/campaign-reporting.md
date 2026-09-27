@@ -89,13 +89,12 @@ Esto permite comparar los mensajes reales sin mezclar el rendimiento de los clic
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 1000px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 438px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/message-comparison-es-mobile.png" width="728" height="1590" />
-        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/message-comparison-es-mobile-wide.png" width="1080" height="1540" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/message-comparison-es.png" width="2520" height="1370" loading="lazy" decoding="async" alt="Vista previa de un mensaje de demostración con foto de un producto y seis indicadores de entrega, clics, retorno, conversión e ingresos; en móvil los indicadores aparecen debajo de la vista previa y en escritorio se alinean horizontalmente." />
+        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/message-comparison-es-mobile.png" width="1144" height="1064" />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/message-comparison-es.png" width="2520" height="1370" loading="lazy" decoding="async" alt="Vista previa de un mensaje de demostración con foto de un producto y seis indicadores de entrega, clics, retorno, conversión e ingresos; en escritorio se alinean horizontalmente." />
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Mensaje de demostración con imagen de producto y seis indicadores; en móvil aparecen debajo de la vista previa y en escritorio se alinean en una fila.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Mensaje de demostración con imagen de producto y seis indicadores; en escritorio aparecen en una fila y en móvil junto a la vista previa.</figcaption>
 </figure>
 
 ## Entiende el tiempo de conversión

@@ -4,9 +4,9 @@
   "locale": "en",
   "section_and_reader_task": "Compare campaign messages; synthetic message preview and metrics",
   "step_and_target_control": "Compare campaign messages; synthetic message preview and metrics",
-  "capture_date": "2026-09-26 UTC",
-  "capture_tool": "macOS ScreenCaptureKit exact-window draft helper derived from docs/editorial-work/capture-tools/hellotext_capture_editor.swift; cursor capture enabled but no pointer visible in saved crop; ImageIO native 2x PNG with embedded Display P3 ICC",
-  "source_route_and_state": "Isolated local Rails snapshot 449d6ccc46 at http://127.0.0.1:3190/hellotext/campaigns/4ONLdN32, database hellotext_editorial_capture_20260926; synthetic campaign report, en UI, first 14 days selected; no campaign or message was sent.",
+  "capture_date": "2026-09-27 UTC",
+  "capture_tool": "macOS ScreenCaptureKit exact-window helper /private/tmp/hellotext_capture_editor_no_cursor.swift; showsCursor=false; direct native 2x PNG with embedded Display P3 ICC",
+  "source_route_and_state": "Isolated local Rails report at http://127.0.0.1:3190/hellotext/campaigns/<synthetic-demo-id>, database hellotext_editorial_capture_20260926; synthetic campaign, en UI, first 14 days selected, scoped mobile message layout update from open Rails PR 6016 applied in the isolated checkout; no campaign or message was sent.",
   "fixture_data": {
     "sent_messages": 5400,
     "delivered_messages": 5133,
@@ -56,64 +56,66 @@
     "message_cta": "Shop now"
   },
   "demonstration_data_verified": true,
-  "privacy_check": "Exact crop contains only the isolated synthetic report; no contact identifiers, private activity, conversations, or other customer records.",
+  "privacy_check": "Exact crop contains only the isolated synthetic message, product image and report KPIs; no contact identifiers, private activity, conversations, or customer records.",
   "native_window": {
     "id": 26501,
     "title": "Campaign Report Image Preview | Hellotext",
     "frame_points": {
-      "x": -1253,
-      "y": 30,
-      "width": 1253,
-      "height": 955
+      "x": 22,
+      "y": 61,
+      "width": 1635,
+      "height": 996
     }
   },
   "sourceRect": {
-    "x": -1239,
-    "y": 216,
-    "width": 572,
-    "height": 532,
+    "x": 32,
+    "y": 295,
+    "width": 364,
+    "height": 700,
     "unit": "global screen points"
   },
   "original_file": "docs/editorial-work/captures/campaign-reporting/message-comparison-en-mobile-original.png",
   "published_derivative": "images/analytics-reporting-attribution/campaign-reporting/message-comparison-en-mobile.png",
   "logical_viewport": {
-    "width": 600,
-    "height": 812,
+    "width": 390,
+    "height": 900,
     "browser_zoom": "100%"
   },
   "source_pixels": {
-    "width": 1144,
-    "height": 1064
+    "width": 728,
+    "height": 1400
   },
   "max_display_css_pixels": {
-    "width": 491,
-    "basis": "measured 491px image width at 599px Help viewport"
+    "width": 364,
+    "height": 700.0,
+    "basis": "measured 364 CSS px at 438px Help viewport; phone source is also 301 CSS px at 375px"
   },
-  "original_sha256": "d64f1af2f4394e1dbcae1a6f96d62d35ae976f1d87416748749c68a68e0dc1b6",
-  "published_derivative_sha256": "d64f1af2f4394e1dbcae1a6f96d62d35ae976f1d87416748749c68a68e0dc1b6",
-  "actual_file_format": "PNG, 8-bit RGBA, native 2x ScreenCaptureKit crop; static asset is a byte-identical copy",
-  "icc_profile_and_verification": "Display P3 embedded ICC verified with sips; native PNG signature and 1144x1064 IHDR checked; original and static asset SHA-256 d64f1af2f4394e1dbcae1a6f96d62d35ae976f1d87416748749c68a68e0dc1b6",
-  "native_color_provenance": "Exact Chrome window ID 26501 titled Campaign Report Image Preview | Hellotext; sourceRect -1239,216,572,532 global points on P3 display; direct native 2x Display P3 PNG, no JPEG conversion, resampling, profile reassignment, or full-window intermediate.",
+  "original_sha256": "6ed48b6f7916158629fb43f19e9b82d85f7e954b748428a2734e7be59dfbd170",
+  "published_derivative_sha256": "6ed48b6f7916158629fb43f19e9b82d85f7e954b748428a2734e7be59dfbd170",
+  "actual_file_format": "PNG, 8-bit RGBA, direct native 2x ScreenCaptureKit crop; static asset is a byte-identical copy",
+  "icc_profile_and_verification": "Display P3 embedded ICC verified with sips; native PNG signature and 728x1400 IHDR checked; original and static asset SHA-256 6ed48b6f7916158629fb43f19e9b82d85f7e954b748428a2734e7be59dfbd170",
+  "native_color_provenance": "Exact Chrome window ID 26501 titled Campaign Report Image Preview | Hellotext, frame 22,61,1635,996 global points; sourceRect 32,295,364,700 global points on P3 display; direct native 2x Display P3 PNG, no JPEG conversion, resampling, profile reassignment, or full-window intermediate.",
   "transformations": [],
   "pointer": {
     "kind": "none",
-    "system_cursor": "capture enabled in draft helper configuration; no pointer visible in saved crop",
-    "automation_pointer": "outside sourceRect before capture; saved pixels visually checked",
+    "system_cursor": "hidden by native helper",
+    "automation_pointer": "outside sourceRect; saved pixels visually checked",
     "target": null,
     "coordinates": null
   },
   "verification": {
-    "file": "passed: PNG signature, native 2x dimensions, embedded Display P3 ICC",
-    "source_asset": "passed: original and static asset bytes match SHA-256",
-    "desktop": "passed: full ES/EN article visually reviewed at 1440x900; all seven figures loaded; chart and message are complete and legible with no horizontal overflow or image links",
-    "mobile": "passed: full ES/EN article visually reviewed at 375x812; all seven figures loaded; chart/message reviewed at 599px breakpoint with no horizontal overflow",
-    "served_asset": "passed: bilingual Jekyll production build and local HTTP 200; served, built, derivative and original PNG bytes match SHA-256",
-    "capture_visual": "passed: localized interface content and absence of visible pointer and private data checked in saved pixels"
+    "file": "passed: PNG signature, native dimensions, and embedded Display P3 profile",
+    "source_asset": "passed: original and static image bytes match SHA-256",
+    "density": "passed: 728px source / 364 CSS px at 438px Help viewport = 2.000x; at 375px the 301 CSS px image gives 2.419x",
+    "desktop": "passed: complete Spanish and English articles reviewed at 1280px; seven figures per language, desktop message image 629.2 CSS px wide (2520px source = 4.005x), no figure links or horizontal overflow",
+    "mobile": "passed: complete Spanish and English articles reviewed at 375px, 438px, 439px, 599px, and 600px; responsive message source and six KPIs visible, no figure links or horizontal overflow",
+    "served_asset": "passed: bilingual production Jekyll build and security-header check; original, static, built, and local HTTP 200 asset bytes match SHA-256",
+    "capture_visual": "passed: all four localized source images inspected for complete product photo, message and six KPI values; no visible pointer, right line or private data"
   },
   "limitations": [
-    "The authentic 600px responsive Rails layout stacks KPI values beside the product preview; the desktop companion aligns them in one horizontal row."
+    "The screenshot reflects the scoped Rails mobile layout correction in open PR 6016; publication depends on that PR being merged and deployed."
   ],
-  "status": "locally_verified_pending_merge",
+  "status": "verified_local",
   "superseded_public_verification": {
     "checked_at": "2026-09-26 05:41 UTC",
     "pull_request": "https://github.com/hellotext/help/pull/84",
@@ -125,6 +127,6 @@
     "status": "passed: public asset HTTP 200 and SHA-256 matches local verified original"
   },
   "public_verification": {
-    "status": "pending_merge_and_public_verification"
+    "status": "pending: replacement image is in an open Help PR, not merged or deployed"
   }
 }

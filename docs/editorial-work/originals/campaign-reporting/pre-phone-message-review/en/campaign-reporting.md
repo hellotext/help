@@ -89,13 +89,12 @@ This lets you compare the actual messages without mixing click performance with 
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 1000px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 438px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/message-comparison-en-mobile.png" width="728" height="1400" />
-        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/message-comparison-en-mobile-wide.png" width="1080" height="1400" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/message-comparison-en.png" width="2520" height="1370" loading="lazy" decoding="async" alt="Demonstration message preview with a product photo and six delivery, click, return, conversion, and revenue metrics; the metrics appear below the preview on mobile and in one horizontal row on desktop." />
+        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/message-comparison-en-mobile.png" width="1144" height="1064" />
+        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/message-comparison-en.png" width="2520" height="1370" loading="lazy" decoding="async" alt="Demonstration message preview with a product photo and six delivery, click, return, conversion, and revenue metrics arranged horizontally on desktop." />
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Demonstration message with a product image and six metrics; they appear below the preview on mobile and in one row on desktop.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Demonstration message with a product image and six metrics; they form one row on desktop and sit beside the preview on mobile.</figcaption>
 </figure>
 
 ## Understand time to conversion

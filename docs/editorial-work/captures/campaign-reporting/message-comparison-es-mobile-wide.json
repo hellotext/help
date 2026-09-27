@@ -68,33 +68,33 @@
     }
   },
   "sourceRect": {
-    "x": 32,
-    "y": 249,
-    "width": 364,
-    "height": 795,
+    "x": 28,
+    "y": 260,
+    "width": 540,
+    "height": 770,
     "unit": "global screen points"
   },
-  "original_file": "docs/editorial-work/captures/campaign-reporting/message-comparison-es-mobile-original.png",
-  "published_derivative": "images/analytics-reporting-attribution/campaign-reporting/message-comparison-es-mobile.png",
+  "original_file": "docs/editorial-work/captures/campaign-reporting/message-comparison-es-mobile-wide-original.png",
+  "published_derivative": "images/analytics-reporting-attribution/campaign-reporting/message-comparison-es-mobile-wide.png",
   "logical_viewport": {
-    "width": 390,
+    "width": 600,
     "height": 900,
     "browser_zoom": "100%"
   },
   "source_pixels": {
-    "width": 728,
-    "height": 1590
+    "width": 1080,
+    "height": 1540
   },
   "max_display_css_pixels": {
-    "width": 364,
-    "height": 795.0,
-    "basis": "measured 364 CSS px at 438px Help viewport; phone source is also 301 CSS px at 375px"
+    "width": 492,
+    "height": 701.56,
+    "basis": "measured 492 CSS px at 600px Help viewport; wide source starts at 439px"
   },
-  "original_sha256": "e612bff53b5d4c2fc160156d62d6c42a1abbc109eabddaa7615197372467e2fc",
-  "published_derivative_sha256": "e612bff53b5d4c2fc160156d62d6c42a1abbc109eabddaa7615197372467e2fc",
+  "original_sha256": "504c0372ff250beef0741b49e61b66d7be0bd16085b8e5adcf6a636287cdcfee",
+  "published_derivative_sha256": "504c0372ff250beef0741b49e61b66d7be0bd16085b8e5adcf6a636287cdcfee",
   "actual_file_format": "PNG, 8-bit RGBA, direct native 2x ScreenCaptureKit crop; static asset is a byte-identical copy",
-  "icc_profile_and_verification": "Display P3 embedded ICC verified with sips; native PNG signature and 728x1590 IHDR checked; original and static asset SHA-256 e612bff53b5d4c2fc160156d62d6c42a1abbc109eabddaa7615197372467e2fc",
-  "native_color_provenance": "Exact Chrome window ID 26501 titled Campaign Report Image Preview | Hellotext, frame 22,61,1635,996 global points; sourceRect 32,249,364,795 global points on P3 display; direct native 2x Display P3 PNG, no JPEG conversion, resampling, profile reassignment, or full-window intermediate.",
+  "icc_profile_and_verification": "Display P3 embedded ICC verified with sips; native PNG signature and 1080x1540 IHDR checked; original and static asset SHA-256 504c0372ff250beef0741b49e61b66d7be0bd16085b8e5adcf6a636287cdcfee",
+  "native_color_provenance": "Exact Chrome window ID 26501 titled Campaign Report Image Preview | Hellotext, frame 22,61,1635,996 global points; sourceRect 28,260,540,770 global points on P3 display; direct native 2x Display P3 PNG, no JPEG conversion, resampling, profile reassignment, or full-window intermediate.",
   "transformations": [],
   "pointer": {
     "kind": "none",
@@ -106,7 +106,7 @@
   "verification": {
     "file": "passed: PNG signature, native dimensions, and embedded Display P3 profile",
     "source_asset": "passed: original and static image bytes match SHA-256",
-    "density": "passed: 728px source / 364 CSS px at 438px Help viewport = 2.000x; at 375px the 301 CSS px image gives 2.419x",
+    "density": "passed: 1080px source / 492 CSS px at 600px Help viewport = 2.195x; 365px at 439px gives 2.959x; 491px at 599px gives 2.200x",
     "desktop": "passed: complete Spanish and English articles reviewed at 1280px; seven figures per language, desktop message image 629.2 CSS px wide (2520px source = 4.005x), no figure links or horizontal overflow",
     "mobile": "passed: complete Spanish and English articles reviewed at 375px, 438px, 439px, 599px, and 600px; responsive message source and six KPIs visible, no figure links or horizontal overflow",
     "served_asset": "passed: bilingual production Jekyll build and security-header check; original, static, built, and local HTTP 200 asset bytes match SHA-256",
@@ -116,16 +116,6 @@
     "The screenshot reflects the scoped Rails mobile layout correction in open PR 6016; publication depends on that PR being merged and deployed."
   ],
   "status": "verified_local",
-  "superseded_public_verification": {
-    "checked_at": "2026-09-26 05:41 UTC",
-    "pull_request": "https://github.com/hellotext/help/pull/84",
-    "merged_help_commit": "6d6caa1835c969dd377739de8fab583928f8dda9",
-    "spanish_page": "https://help.hellotext.com/es/reportes-de-campaña (HTTP 200; seven localized figures)",
-    "english_page": "https://help.hellotext.com/campaign-reporting (HTTP 200; seven localized figures)",
-    "asset_url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/message-comparison-es-mobile.png",
-    "asset_sha256": "8eb4d095e1e876cbaabbc8090f9b8ca472b5bd8c9457a952e72cc8d6b10804e1",
-    "status": "passed: public asset HTTP 200 and SHA-256 matches local verified original"
-  },
   "public_verification": {
     "status": "pending: replacement image is in an open Help PR, not merged or deployed"
   }
