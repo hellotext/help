@@ -6,8 +6,8 @@
   "step_and_target_control": "Break down attributed revenue by channel across seven complete days",
   "capture_date": "2026-09-27 23:29:04 UTC",
   "capture_tool": "macOS ScreenCaptureKit exact-title, exact-window helper (docs/editorial-work/capture-tools/hellotext_capture_editor.swift); native 2x SCStreamConfiguration with Display P3 colorSpaceName and ImageIO PNG output; system cursor hidden",
-  "source_route_and_state": "http://127.0.0.1:3190/hellotext/reports/e9Z2LN51?from=2026-09-19&to=2026-09-25&preset=custom; isolated local demonstration business 5; custom September 19–25, 2026; locale es; the same seven-day range used in all three captures.",
-  "fixture_source": "Existing synthetic revenue rollups in isolated development PostgreSQL database hellotext_editorial_capture_20260926, business 5. No writes were needed for this article. No contacts, customer/order rows, or message delivery in the crop.",
+  "source_route_and_state": "http://127.0.0.1:3190/hellotext/reports/e9Z2LN51?from=2026-09-19&to=2026-09-25&preset=custom; isolated local demonstration business 5; custom September 19–25, 2026; locale es; the same seven-day range used in the two retained capture types.",
+  "fixture_source": "Existing synthetic revenue rollups in isolated development PostgreSQL database hellotext_editorial_capture_20260926, business 5. No writes were needed for this retained capture. No contacts, customer/order rows, or message delivery in the crop.",
   "demonstration_data_verified": true,
   "privacy_check": "Aggregate report panels only; no contact names, customer or order identifiers, conversations, messages, credentials, or private activity.",
   "native_window": {
@@ -62,10 +62,18 @@
     "file": "passed: PNG signature, embedded Display P3 ICC, native 2x crop, no visible pointer or private content",
     "source_asset": "passed: original and static bytes match by SHA-256",
     "density": "passed: 2438 source pixels / 810 CSS px conservative maximum = 3.01x",
-    "desktop": "passed: full es guide at 1280x900; three static figures fit the existing article column (lavender stage 685px, white frame 627px, image 609px); all three complete panels and separate seven-day chart labels; no open controls or horizontal overflow",
+    "desktop": "passed: full es guide at 1280x900; two static figures fit the existing article column (lavender stage 685px, white frame 627px, image 609px); both retained report panels complete, with three summary cards and seven distinct timeline dates; no open controls or horizontal overflow",
     "mobile": "passed: full es guide at 390x844; lavender stage 358px, white frame 328px, image 316px; adjacent copy explains compact values, no linked image or horizontal overflow",
-    "served_asset": "passed local: bilingual production Jekyll build and security-header verification; original, static, built, and HTTP-served PNG bytes match; public deployment pending"
+    "served_asset": "passed public: Help PR #164 merged with merge commit 2b54601e38b05c31978bd0c24173ade6a5d05756; exact normal Netlify production deploy ready; public ES/EN pages and four retained PNGs HTTP 200; public, built, static, and original PNG hashes match"
   },
   "limitations": [],
-  "status": "local_verified"
+  "status": "verified_public",
+  "public_verification": {
+    "status": "verified: Help PR #164 merged; normal Netlify production deployment ready",
+    "merge_commit": "2b54601e38b05c31978bd0c24173ade6a5d05756",
+    "netlify_deploy_id": "6ab9b192406f830008c8381e",
+    "published_at_utc": "2026-09-28T00:15:50.136Z",
+    "page": "HTTP 200; complete bilingual article with two localized unlinked figures, original title/slug/headings/links, and no source-widget panorama",
+    "asset": "HTTP 200; public PNG SHA-256 matches the original, static asset, and local production build"
+  }
 }
