@@ -6,7 +6,7 @@ Esta es una guía operativa del producto, no asesoramiento legal. Los derechos, 
 
 Para los datos de clientes que tu negocio envía o recopila mediante Hellotext, tu negocio generalmente decide por qué y cómo se tratan. Hellotext los procesa para prestar el servicio siguiendo tus instrucciones.
 
-Esto significa que tu negocio debe recibir, verificar, decidir y responder las solicitudes de sus clientes. Hellotext puede ayudar con los datos almacenados en el servicio, pero no reemplaza a tu negocio como responsable de la respuesta. Si un cliente envía directamente a Hellotext una solicitud sobre datos controlados por tu negocio, Hellotext notificará a tu negocio y no tramitará ni responderá la solicitud en su nombre.
+Esto significa que tu negocio debe recibir, verificar, decidir y responder las solicitudes de sus clientes. Hellotext puede ayudar con los datos almacenados en el servicio, pero no reemplaza a tu negocio como responsable de la respuesta. Si un cliente envía directamente a Hellotext una solicitud sobre datos controlados por tu negocio, Hellotext puede derivarla a tu negocio para que la gestione.
 
 Revisa el [Acuerdo de Protección de Datos de Hellotext](https://www.hellotext.com/data-protection) y la política de privacidad de tu negocio antes de definir el proceso.
 
@@ -18,8 +18,7 @@ No trates toda solicitud de privacidad como una eliminación de perfil. Primero 
 | --- | --- |
 | **Acceso o portabilidad** | Localiza el perfil correcto y exporta los datos disponibles. Coordina con Hellotext cuando la solicitud incluya información fuera de ese CSV. |
 | **Corrección o actualización** | Edita el perfil y corrige la fuente conectada que sea responsable del dato. |
-| **Baja de marketing** | Desuscribe al cliente y revisa los destinos de los canales correspondientes. |
-| **Oposición a otro tratamiento** | Consulta con tu responsable de privacidad para definir el alcance y la acción correspondiente. |
+| **Oposición o baja de marketing** | Desuscribe al cliente y revisa los destinos de los canales correspondientes. |
 | **Eliminación o supresión** | Elimina el perfil de Hellotext, revisa los sistemas conectados y coordina requisitos adicionales de supresión o retención. |
 | **Restricción** | Escala a tu responsable de privacidad para definir qué tratamiento debe detenerse y cómo aplicar la instrucción en todos los sistemas. |
 
@@ -39,7 +38,7 @@ Evita pedir contraseñas, datos completos de pago o documentos de identidad inne
 
 ## Encuentra todos los perfiles correspondientes
 
-Busca en **Audiencia** por teléfono, email, nombre o ID de perfil, según los datos verificados que tengas. Si necesitas buscar por una propiedad personalizada de otro sistema, consulta esa fuente para localizar el perfil correspondiente.
+Busca en **Audiencia** mediante los identificadores verificados que haya proporcionado el cliente, como teléfono, email u otra propiedad única.
 
 Antes de actuar:
 
@@ -55,12 +54,12 @@ No combines posibles duplicados solo para simplificar la solicitud. Primero conf
 
 La exportación del perfil puede ser un punto de partida útil para los datos disponibles actualmente en Audiencia:
 
-1. Marca la casilla del perfil del cliente confirmado en **Audiencia**.
+1. Selecciona el perfil del cliente confirmado en **Audiencia**.
 2. Abre el menú de más opciones de la barra de búsqueda.
-3. Selecciona **Exportar seleccionados** o, si seleccionaste toda la audiencia, **Exportar a archivo**.
-4. Protege el CSV descargado y la copia enviada por email; revísalo antes de entregar información al cliente.
+3. Selecciona **Exportar seleccionados**.
+4. Protege el CSV descargado y revísalo antes de entregar información al cliente.
 
-El CSV incluye el ID y nombre del perfil, un teléfono y un email cuando están disponibles, y propiedades exportables del negocio. No contiene necesariamente todos los identificadores del perfil ni es un paquete completo para solicitudes de privacidad: no incluye todo el historial de eventos, mensajes, conversaciones, pedidos, atribución o auditoría interna.
+El CSV incluye los identificadores actuales y propiedades exportables del negocio, pero no es un paquete completo para solicitudes de privacidad. No incluye todo el historial de eventos, mensajes, conversaciones, pedidos, atribución o auditoría interna.
 
 Define qué categorías de datos e información contextual exige el proceso aplicable. Si la solicitud incluye datos que no están disponibles en la exportación del perfil, contacta a [privacy@hellotext.com](mailto:privacy@hellotext.com) e incluye los IDs del negocio y perfil, el tipo de solicitud, el alcance verificado y la fecha requerida de finalización. No incluyas datos personales innecesarios en el email.
 
@@ -78,16 +77,14 @@ Corrige los datos en Hellotext solamente después de confirmar el valor esperado
 
 Si un evento, pedido, mensaje o registro perteneciente a una integración no puede corregirse desde el perfil, coordina el cambio con el sistema que lo creó y con Hellotext cuando sea necesario.
 
-## Gestiona una baja de marketing
+## Gestiona una oposición o baja
 
 Si el cliente pide dejar de recibir marketing, usa la acción de suscripción del perfil para marcarlo como **Desuscrito**. Revisa los destinos y canales involucrados, especialmente cuando el perfil tenga varios teléfonos, emails o identidades de canal.
-
-Si el cliente se opone a otro tipo de tratamiento, consulta con tu responsable de privacidad para determinar el alcance y la acción correspondiente; una baja de marketing por sí sola no resuelve esa solicitud.
 
 Desuscribir es diferente de eliminar:
 
 - **Desuscribir** registra la baja y conserva el perfil y su historial.
-- **Bloquear** es un control operativo para detener interacciones con el perfil; no reemplaza el registro de una baja de marketing ni completa una solicitud de supresión.
+- **Bloquear** es un control operativo para detener interacciones con un destino o cliente; no reemplaza el registro de una baja de marketing ni completa una solicitud de supresión.
 - **Eliminar perfil** quita el perfil del uso activo y borra datos específicos del perfil, pero todavía puede ser necesario un proceso de privacidad más amplio.
 
 No restaures la suscripción salvo que el cliente proporcione un nuevo consentimiento válido. Consulta [Consentimiento y estado de suscripción]({% link _audience/consent-and-subscriber-status.md %}) para revisar las condiciones por canal y destino.
@@ -101,10 +98,12 @@ La eliminación de perfiles está limitada a roles autorizados como Dueño, Admi
 3. Selecciona **Eliminar**.
 4. Revisa las consecuencias en el diálogo de confirmación y selecciona **Eliminar**.
 
-La acción marca el perfil como eliminado y desuscrito de inmediato. La limpieza posterior:
+Eliminar el perfil:
 
 - elimina sus propiedades actuales;
-- lo quita de listas y segmentos; y
+- lo quita de listas y segmentos;
+- vence sus identificadores para el uso activo;
+- marca el perfil como eliminado y desuscrito; y
 - lo quita del índice activo de Audiencia.
 
 Trata esta acción como irreversible desde la interfaz habitual. Antes de ejecutarla, exporta o registra solamente la información que exija el proceso aprobado.
@@ -135,7 +134,7 @@ Antes de marcarla como completada:
 - Responde mediante el mismo proceso verificado u otro canal seguro aprobado.
 - Conserva la evidencia de la solicitud solamente durante el período establecido por la política de tu organización.
 
-Un incidente de seguridad o sospecha de acceso no autorizado corresponde a otro proceso. Repórtalo inmediatamente mediante el procedimiento de incidentes de tu organización. Si tu negocio conoce una vulneración de seguridad de datos personales, notifícala inmediatamente a [privacy@hellotext.com](mailto:privacy@hellotext.com) según el Acuerdo de Protección de Datos.
+Un incidente de seguridad o sospecha de acceso no autorizado corresponde a otro proceso. Repórtalo inmediatamente mediante el procedimiento de incidentes de tu organización y notifica a [privacy@hellotext.com](mailto:privacy@hellotext.com) cuando pueda afectar datos o servicios de Hellotext.
 
 ## Guías relacionadas
 

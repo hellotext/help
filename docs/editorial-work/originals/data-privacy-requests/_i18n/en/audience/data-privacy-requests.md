@@ -6,7 +6,7 @@ This is operational product guidance, not legal advice. Applicable rights, excep
 
 For customer data your business sends to or collects through Hellotext, your business generally decides why and how that data is processed. Hellotext processes it to provide the service under your instructions.
 
-This means your business should receive, verify, decide, and respond to requests from its customers. Hellotext can assist with data stored in the service, but it does not replace your business as the owner of the response. If a customer sends a request directly to Hellotext about data controlled by your business, Hellotext will notify your business and will not handle or answer the request on its behalf.
+This means your business should receive, verify, decide, and respond to requests from its customers. Hellotext can assist with data stored in the service, but it does not replace your business as the owner of the response. If a customer sends a request directly to Hellotext about data controlled by your business, Hellotext may refer it to your business for handling.
 
 Review the [Hellotext Data Protection Agreement](https://www.hellotext.com/data-protection) and your own privacy policy before defining the process.
 
@@ -18,8 +18,7 @@ Do not treat every privacy request as profile deletion. First identify what the 
 | --- | --- |
 | **Access or portability** | Locate the correct profile and export the available profile data. Coordinate with Hellotext when the request covers data outside that CSV. |
 | **Correction or update** | Edit the profile and correct the authoritative connected source. |
-| **Marketing opt-out** | Unsubscribe the customer and review the applicable channel destinations. |
-| **Objection to other processing** | Consult your privacy owner to determine the scope and appropriate action. |
+| **Objection or marketing opt-out** | Unsubscribe the customer and review the applicable channel destinations. |
 | **Deletion or erasure** | Remove the profile from Hellotext, review connected systems, and coordinate any broader erasure or retention requirements. |
 | **Restriction** | Escalate to your privacy owner to determine which processing must pause and how that instruction should be applied across systems. |
 
@@ -39,7 +38,7 @@ Avoid asking the customer to send passwords, full payment details, or unnecessar
 
 ## Find every relevant profile
 
-Search **Audience** by phone number, email, name, or profile ID, depending on the verified information you have. If you need to look up a custom property from another system, consult that source to locate the corresponding profile.
+Search **Audience** using the verified identifiers provided by the customer, such as phone number, email, or another unique property.
 
 Before acting:
 
@@ -55,12 +54,12 @@ Do not merge possible duplicates only to simplify the request. Confirm that they
 
 The profile export can be a useful starting point for the data currently available in Audience:
 
-1. Select the checkbox for the confirmed customer profile in **Audience**.
+1. Select the confirmed customer profile in **Audience**.
 2. Open the more-options menu in the search bar.
-3. Select **Export selected** or, if you selected the whole audience, **Export to file**.
-4. Protect the downloaded CSV and the copy sent by email; review it before delivering anything to the customer.
+3. Select **Export selected**.
+4. Protect the downloaded CSV and review it before delivering anything to the customer.
 
-The profile CSV includes the profile ID and name, one phone number and email when available, and exportable business properties. It does not necessarily contain every identifier attached to the profile or form a complete privacy-request package: it does not include the full event, message, conversation, order, attribution, or internal audit history.
+The profile CSV includes current profile identifiers and exportable business properties, but it is not a complete privacy-request package. It does not include the full event, message, conversation, order, attribution, or internal audit history.
 
 Determine which categories of data and contextual information your applicable process requires. If the request covers data that is not available through the profile export, contact [privacy@hellotext.com](mailto:privacy@hellotext.com) with the business and profile IDs, request type, verified scope, and required completion date. Do not include unnecessary personal data in the email.
 
@@ -78,16 +77,14 @@ Correct the data in Hellotext only after confirming the intended value.
 
 If an incorrect event, order, message, or integration-owned record cannot be corrected from the profile, coordinate the change with the system that created it and Hellotext when necessary.
 
-## Handle a marketing opt-out
+## Handle an opt-out or objection
 
 If the customer asks to stop receiving marketing, use the subscription action on the profile to mark them as **Unsubscribed**. Review the destinations and channels involved, especially when the profile has several phone numbers, emails, or channel identities.
-
-If the customer objects to another type of processing, consult your privacy owner to determine the scope and appropriate action; a marketing opt-out alone does not resolve that request.
 
 Unsubscribing is different from deleting:
 
 - **Unsubscribe** records the opt-out while preserving the profile and its history.
-- **Block** is an operational control for stopping interactions with the profile; it is not a substitute for recording a marketing opt-out or completing an erasure request.
+- **Block** is an operational control for stopping interactions with a destination or customer; it is not a substitute for recording a marketing opt-out or completing an erasure request.
 - **Delete profile** removes the profile from active use and clears specific profile data, but broader privacy work may still be required.
 
 Do not restore a subscription unless the customer provides a new valid opt-in. See [Consent and subscriber status]({% link _audience/consent-and-subscriber-status.md %}) for channel and destination considerations.
@@ -101,10 +98,12 @@ Profile deletion is limited to authorized roles such as owners, administrators, 
 3. Select **Delete**.
 4. Review the consequences in the confirmation dialog and select **Remove**.
 
-The action marks the profile as deleted and unsubscribed immediately. Subsequent cleanup:
+Removing the profile:
 
 - removes its current properties;
-- removes it from lists and segments; and
+- removes it from lists and segments;
+- expires its identifiers for active use;
+- marks the profile as deleted and unsubscribed; and
 - removes it from the active Audience index.
 
 Treat this action as irreversible from the regular interface. Export or record only the information your approved process requires before performing it.
@@ -135,7 +134,7 @@ Before marking the request complete:
 - Respond through the same verified process or another approved secure channel.
 - Keep request evidence only for the period required by your organization's policy.
 
-A security incident or suspected unauthorized access is a different workflow. Report it immediately through your organization's incident process. If your business becomes aware of a personal-data security breach, notify [privacy@hellotext.com](mailto:privacy@hellotext.com) immediately as the Data Protection Agreement requires.
+A security incident or suspected unauthorized access is a different workflow. Report it immediately through your organization's incident process and notify [privacy@hellotext.com](mailto:privacy@hellotext.com) when Hellotext data or services may be affected.
 
 ## Related guides
 

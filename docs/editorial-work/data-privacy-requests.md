@@ -1,0 +1,22 @@
+# Data privacy requests editorial batch
+
+## Source and publication
+
+- Article key: `audience/data-privacy-requests.md`; English and Spanish bodies and the shared stub were preserved byte for byte under `originals/data-privacy-requests/` before editing. Their SHA-256 values match `inventory.csv`.
+- Existing public routes: `https://help.hellotext.com/data-privacy-requests` and `https://help.hellotext.com/es/solicitudes-privacidad-datos`. The inventory records the original published state; a local change is not a publication.
+- Keep the titles, descriptions, slugs, languages, all existing links, and publication state.
+
+## Reader task and plan
+
+The reader must classify and safely handle a customer's data request, locate verified profiles, distinguish a profile export or deletion from the full privacy process, and coordinate systems under the business's control. Review the complete Spanish article first, then adapt English. Check every product action against the current Rails UI and source, and check processor/controller and assistance claims against Hellotext's official DPA and Privacy Policy. Correct only substantiated product or factual errors; avoid jurisdiction-specific legal promises.
+
+The classification table and staged procedure explain this process more directly than a screenshot of a possibly personal profile or destructive action. No product image is planned unless the audit finds an unfamiliar control whose location cannot be explained clearly in prose. Do not expose real data, request a real export, unsubscribe or delete a profile for this article.
+
+## Verification and publication
+
+- Rails source revision `26742adc0c` confirms Audience search uses phone, email, name/alias, or profile ID, not arbitrary custom properties; profile CSV projects one phone and email; profile deletion clears its active state immediately but schedules property, membership, and index cleanup. `identifiers.expire` clears a cache key, so the former claim that deletion expires identifiers was removed. The **Block** action affects the profile, not a selected destination. The export menu's selected/whole-audience labels and **Delete → Remove** / **Eliminar → Eliminar** confirmation flow match the localized Rails UI. The export guide confirms that the CSV is also sent by email.
+- [Hellotext's Data Protection Agreement](https://www.hellotext.com/data-protection), sections III.10 and V.3, confirms that Hellotext notifies the business of direct requests and does not answer them on its behalf, and requires immediate notification when the business learns of a personal-data breach. The [Hellotext Privacy Policy](https://www.hellotext.com/privacy) identifies `privacy@hellotext.com` as the contact and directs customers of client businesses to those businesses. The [European Commission's rights explanation](https://commission.europa.eu/law/law-topic/data-protection/information-individuals_en) confirms that an objection can extend beyond marketing. The text remains operational guidance and promises no jurisdiction-specific result or deadline.
+- Corrected both languages together: the business notification, classification of non-marketing objections, supported profile search, checkbox and conditional export label, emailed CSV copy, CSV identifier scope, profile-level blocking, asynchronous deletion effects, and incident notification. The 11 section headings, 7 Liquid article links, and 3 privacy mail links per language were retained. The shared stub is unchanged.
+- No screenshot was added. A picture of a particular customer profile, export menu, or destructive confirmation would not explain the cross-system verification and response decisions in this article as well as its table and steps; the specialized export guide covers that interface operation. No real export, unsubscribe, deletion, campaign, or message was performed.
+- `PATH=/Users/pel/.rbenv/shims:$PATH BUNDLE_PATH=/Users/pel/.codex/worktrees/dad4/hellotext-help/vendor/bundle yarn build` passed in both languages, including the security-header check. Both complete local pages were reviewed in the in-app browser at 1280 × 900 CSS pixels and 390 × 844 CSS pixels. The corrected classification table, export steps, opt-out and deletion sections render legibly; 11 headings appear in each locale and the document scroll width equals the viewport at both sizes. `git diff --check` passed.
+- Local verification does not establish publication. Record the content commit, PR checks, merge commit, Netlify deploy revision, and public-page results separately below.
