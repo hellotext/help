@@ -20,6 +20,17 @@ An event can also reference an associated object. For example, an `order.placed`
 4. Give the property a clear name and enter the value for that customer.
 5. Save the field value and confirm that it appears on the profile.
 
+The selector shows common field types first. Scroll within the menu to see the others.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Visible Add more fields types">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 175px; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/audience/custom-properties-and-events/property-types-en.png" width="350" height="694" loading="lazy" decoding="async" alt="Visible Add more fields options: Phone, Email, Address, URL, Date, Date and time, Text, and Long text." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real English interface with the first field-type choices on a fictitious profile.</figcaption>
+</figure>
+
 Phone and email work differently from business-wide custom properties:
 
 - Adding a phone number or email address adds that identifier only to the customer profile you are editing. The same applies to another profile-specific address when it is available in the selector.
@@ -93,7 +104,25 @@ If your plan and permissions support custom actions:
 5. Choose whether the action should be marked as a conversion or as important.
 6. Save the action.
 
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Names of a custom action">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 435px; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/audience/custom-properties-and-events/action-names-en.png" width="870" height="850" loading="lazy" decoding="async" alt="New action form with Readable name Appointment completed and Tracking name appointment.completed." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real English interface with fictitious action names; the action was not saved.</figcaption>
+</figure>
+
 Marking an action as a conversion lets reports treat its events as conversions. Marking it as important makes new occurrences require attention and can move the related conversation to the top of Inbox.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Conversion and importance settings of an action">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 435px; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/audience/custom-properties-and-events/action-options-en.png" width="870" height="1376" loading="lazy" decoding="async" alt="Unsaved New action form: Tracking name appointment.completed, Mark as conversion on, and Mark as important off." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real English interface with a fictitious unsaved action.</figcaption>
+</figure>
 
 Treat the tracking name as a contract with your site, backend, and integrations. If you change it, update every source that sends the event. Deleting a custom action also deletes its associated events and cannot be undone.
 
@@ -114,9 +143,20 @@ You can also add one occurrence manually when the corresponding action already e
 
 1. Open the customer profile in **Audience**.
 2. Open the **+** menu in the bottom-right corner and select **New Event**.
-3. Choose the action and, when applicable, an associated object.
+3. Choose the action and the **Associated object** requested by the form.
 4. When applicable, add the relevant amount, converted amount, metadata, date, or URL.
 5. Save the event.
+
+In the manual form, **Save changes** stays disabled until you complete the required fields. This image shows where to choose the action and object before saving an occurrence.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Form for recording a manual event">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 435px; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/audience/custom-properties-and-events/manual-event-en.png" width="870" height="1376" loading="lazy" decoding="async" alt="New Event form for Demo Caso 12 with Placed an order selected; Associated object empty and Save changes disabled." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real English interface with a fictitious profile; no event was saved.</figcaption>
+</figure>
 
 The event appears in the customer profile's activity. Open an activity item to review its properties. **New Event** records that occurrence manually; it does not configure automatic tracking for future occurrences. Manual events should represent something that actually happened and should not be added only to force a customer into a segment or trigger.
 
