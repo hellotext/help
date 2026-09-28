@@ -18,7 +18,7 @@ Un evento también puede hacer referencia a un objeto asociado. Por ejemplo, un 
 2. En las propiedades del perfil, selecciona **Agregar más campos**.
 3. Elige el tipo que corresponda al valor, como texto, texto largo, número, checkbox, fecha, dinero, URL o etiquetas.
 4. Dale un nombre claro a la propiedad e ingresa el valor para ese cliente.
-5. Guarda el valor del campo y comprueba que aparece en el perfil.
+5. Guarda el cambio del perfil.
 
 El teléfono y el email funcionan de manera diferente a las propiedades personalizadas del negocio:
 
@@ -113,9 +113,9 @@ El evento debe quedar conectado al cliente o sesión correctos e incluir el cont
 También puedes agregar una ocurrencia manualmente cuando la acción correspondiente ya existe:
 
 1. Abre el perfil del cliente en **Audiencia**.
-2. En la esquina inferior derecha, abre el menú **+** y selecciona **Nuevo Evento**.
+2. Abre el menú de acciones del perfil y selecciona **Nuevo Evento**.
 3. Elige la acción y, cuando corresponda, un objeto asociado.
-4. Agrega, cuando corresponda, el monto, monto convertido, metadatos, fecha o URL relevantes.
+4. Agrega el monto, metadatos, fecha o URL relevantes.
 5. Guarda el evento.
 
 El evento aparece en la actividad del perfil de cliente. Abre un elemento de actividad para revisar sus propiedades. **Nuevo Evento** registra esa ocurrencia manualmente; no configura el tracking automático de ocurrencias futuras. Los eventos manuales deben representar algo que realmente ocurrió y no deberían agregarse solo para forzar la entrada de un cliente en un segmento o disparador.

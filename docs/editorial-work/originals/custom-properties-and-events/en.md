@@ -18,7 +18,7 @@ An event can also reference an associated object. For example, an `order.placed`
 2. In the profile properties, select **Add more fields**.
 3. Choose the type that matches the value, such as text, long text, number, checkbox, date, money, URL, or tags.
 4. Give the property a clear name and enter the value for that customer.
-5. Save the field value and confirm that it appears on the profile.
+5. Save the profile change.
 
 Phone and email work differently from business-wide custom properties:
 
@@ -113,9 +113,9 @@ The tracked event must be connected to the correct customer or session and inclu
 You can also add one occurrence manually when the corresponding action already exists:
 
 1. Open the customer profile in **Audience**.
-2. Open the **+** menu in the bottom-right corner and select **New Event**.
+2. Open the profile action menu and select **New Event**.
 3. Choose the action and, when applicable, an associated object.
-4. When applicable, add the relevant amount, converted amount, metadata, date, or URL.
+4. Add the relevant amount, metadata, date, or URL.
 5. Save the event.
 
 The event appears in the customer profile's activity. Open an activity item to review its properties. **New Event** records that occurrence manually; it does not configure automatic tracking for future occurrences. Manual events should represent something that actually happened and should not be added only to force a customer into a segment or trigger.
