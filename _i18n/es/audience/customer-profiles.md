@@ -8,6 +8,19 @@ Ve a **Audiencia** y selecciona un perfil. En escritorio, se abre junto a la lis
 
 Usa la búsqueda cuando conozcas el nombre, teléfono, email, alias o ID de perfil del cliente.
 
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Lista de Audiencia con un perfil de demostración seleccionado">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 688px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 500px)" srcset="/images/audience/customer-profiles/audience-list-es-mobile.png" width="800" height="380" />
+        <source media="(max-width: 600px)" srcset="/images/audience/customer-profiles/audience-list-es-medium.png" width="1000" height="380" />
+        <img class="ht-editorial-visual__image" src="/images/audience/customer-profiles/audience-list-es.png" width="1340" height="380" loading="lazy" decoding="async" alt="Control de búsqueda de Audiencia y fila seleccionada de Camila Torres, un perfil ficticio con email de ejemplo." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real en español con datos ficticios. En pantallas estrechas se muestra un recorte más cercano de la misma lista de escritorio.</figcaption>
+</figure>
+
 ## Qué puede contener un perfil
 
 La información disponible depende de los canales y las integraciones conectadas al negocio. Un perfil puede incluir:
@@ -22,6 +35,18 @@ La información disponible depende de los canales y las integraciones conectadas
 
 Algunos perfiles contienen solo un nombre o una identidad de canal al principio. Se vuelven más útiles a medida que Hellotext recibe propiedades y actividad adicionales.
 
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Identidad y propiedades de un perfil de demostración">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 473px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 420px)" srcset="/images/audience/customer-profiles/profile-fields-es-mobile.png" width="700" height="1330" />
+        <img class="ht-editorial-visual__image" src="/images/audience/customer-profiles/profile-fields-es.png" width="910" height="1330" loading="lazy" decoding="async" alt="Perfil ficticio de Camila Torres sin confirmar, con email de ejemplo, dirección, negocio y cumpleaños completos; el teléfono está vacío." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real en español con datos ficticios de un perfil que no puede recibir mensajes.</figcaption>
+</figure>
+
 ## Las propiedades y la actividad son diferentes
 
 Las **propiedades** describen lo que se sabe actualmente del cliente. Se pueden usar para segmentación y personalización. Los integrantes con los permisos necesarios pueden modificar las propiedades editables.
@@ -29,6 +54,18 @@ Las **propiedades** describen lo que se sabe actualmente del cliente. Se pueden 
 La **actividad** es el registro cronológico de lo que ocurrió. Los eventos pueden venir de integraciones de comercio, herramientas de captura, links rastreados, conversaciones, Hellotext.js o la API.
 
 Por ejemplo, `cumpleaños` puede ser una propiedad del perfil, mientras que una vista de producto o un pedido confirmado se registra como actividad. Ambos pueden ayudar a Hellotext a decidir qué experiencia es relevante, pero representan datos diferentes.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Actividad reciente en un perfil de demostración">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 468px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 420px)" srcset="/images/audience/customer-profiles/activity-es-mobile.png" width="700" height="460" />
+        <img class="ht-editorial-visual__image" src="/images/audience/customer-profiles/activity-es.png" width="900" height="460" loading="lazy" decoding="async" alt="Pestaña Actividad del perfil ficticio con tres pedidos recientes de 68, 68 y 52 dólares, ordenados cronológicamente." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real en español con actividad de pedidos ficticios; las cifras no representan resultados de clientes.</figcaption>
+</figure>
 
 ## Cómo se crean y actualizan los perfiles
 
