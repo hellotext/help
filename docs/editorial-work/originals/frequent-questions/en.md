@@ -1,6 +1,6 @@
 ## What is Hellotext?
 
-Hellotext is a decision system for commerce teams. It reads customer and business signals to choose eligible actions and, according to its configuration, acts through messaging channels, routes, AI agents, or the Inbox.
+Hellotext is a decision system for commerce teams. It reads customer and business signals, prioritizes eligible commercial missions by revenue potential, and executes their actions through playbooks, the Inbox, and your messaging channels.
 
 Use it to recover carts, drive repeat purchases, reactivate customers, answer conversations, and measure revenue without building every flow manually.
 
@@ -14,14 +14,13 @@ Keep reading:
 
 Start in this order:
 
-1. Create or review your business.
-2. Connect the platform where your customer and order data lives.
-3. Connect the messaging channel you plan to use first.
-4. Add at least one capture tool.
-5. Create or review the first audience you will contact.
-6. Prepare one first playbook, route, or campaign you want to test.
-7. Invite the team members who will answer replies in the Inbox.
-8. Review the first results.
+- Create or review your business.
+- Connect the platform where your customer and order data lives.
+- Connect the messaging channel you plan to use first.
+- Add at least one capture tool.
+- Activate or prepare the first playbook you want to test.
+- Invite the team members who will answer replies in the Inbox.
+- Review the first results.
 
 Keep reading: [Launch checklist]({% link _getting-started/launch-checklist.md %}).
 
@@ -33,16 +32,16 @@ After that, connect the messaging channel you plan to use first, such as WhatsAp
 
 Keep reading:
 
-- [Setup overview]({% link _integrations/setup-overview.md %})
+- [Setup and integrations overview]({% link _integrations/setup-overview.md %})
 - [Messaging channels overview]({% link _numbers/messaging-overview.md %})
 
 ## What are signals?
 
-Signals are customer and business data, activity, and context Hellotext can use to understand what is happening and decide what should happen next.
+Signals are the customer and business events Hellotext can use to decide what should happen next.
 
 Examples include carts, browsing activity, purchases, stock changes, birthdays, replies, customer profile properties, and channel eligibility.
 
-Depending on their configuration, playbooks can use signals to decide when to act, which customer needs attention, and what the next step should be.
+Playbooks use signals to decide when to act, which customer should receive attention, and which message, channel, timing, or offer makes sense.
 
 Keep reading:
 
@@ -54,7 +53,7 @@ Keep reading:
 
 Hellotext can support several customer messaging channels depending on your account setup, country, and plan.
 
-You can start by preparing WhatsApp or SMS, then add other channels and capture paths as your setup grows.
+Most teams start by preparing WhatsApp or SMS, then add other channels and capture paths as their setup grows.
 
 Keep reading:
 
@@ -65,9 +64,9 @@ Keep reading:
 
 A customer profile is the record Hellotext uses to understand a person, their channel eligibility, their activity, and the information your team can use for segmentation and personalization.
 
-A subscriber is a customer profile with a recorded promotional subscription. That status does not guarantee that every destination is reachable: check channel eligibility separately before sending.
+A subscriber is a customer profile that has opted in to receive messages on a channel.
 
-Keep reading: [Audience and segmentation overview]({% link _audience/audience-overview.md %}) and [Consent and subscriber status]({% link _audience/consent-and-subscriber-status.md %}).
+Keep reading: [Audience and segmentation overview]({% link _audience/audience-overview.md %}).
 
 ## How do customers subscribe?
 
@@ -81,9 +80,9 @@ Keep reading: [Capture tools overview]({% link _captures/capture-overview.md %})
 
 A campaign is a one-time message to a selected audience. Use campaigns for announcements, promotions, and other focused sends.
 
-A playbook organizes a repeatable business goal, such as recovering carts, driving repeat purchases, reactivating customers, collecting reviews, or handling support. Playbooks include defined-step routes, captures, and autonomous or AI options.
+A playbook is a repeatable system trained for a business mission, such as recovering carts, driving repeat purchases, reactivating customers, collecting reviews, or handling support.
 
-A route follows its configured steps and conditions. An autonomous or AI playbook can adapt the message or next step according to signals and its capabilities. Both remain subject to applicable limits such as consent, quiet hours, frequency, and handoff rules.
+Unlike a fixed flow, a playbook can use signals to decide what to do for each customer. It can choose the message, channel, timing, offer, or next step within the limits you set, such as consent, quiet hours, frequency, and handoff rules.
 
 Keep reading:
 
@@ -127,17 +126,17 @@ Your plan determines what is included, how usage is counted, and which billing r
 Keep reading:
 
 - [Pricing model]({% link _billing/how-pricing-works.md %})
-- [Plan usage and monthly charges]({% link _billing/understanding-plan-quotas.md %})
+- [Plan usage and quotas]({% link _billing/understanding-plan-quotas.md %})
 - [Hellotext pricing](https://www.hellotext.com/pricing)
 
 ## Do I also pay Meta for WhatsApp?
 
-Meta separately charges any WhatsApp Business Platform fees that apply to delivered messages under its current rules. You pay those charges directly to Meta; they do not appear on your Hellotext invoice.
+WhatsApp conversation costs are billed separately by Meta and are not part of your Hellotext invoice.
 
 Keep reading:
 
-- [WhatsApp fees and Meta charges]({% link _billing/whatsapp-fees.md %})
-- [Meta WhatsApp pricing](https://whatsappbusiness.com/products/platform-pricing/)
+- [Pricing model]({% link _billing/how-pricing-works.md %})
+- [Meta WhatsApp pricing](https://business.whatsapp.com/products/platform-pricing#rates)
 
 ## What if a message does not send or a report looks wrong?
 
