@@ -1,0 +1,77 @@
+{
+  "article_source": "_i18n/en/analytics-reporting-attribution/workload-capacity-report-guide.md",
+  "public_url": "https://help.hellotext.com/workload-capacity-report-guide",
+  "locale": "en",
+  "section_and_reader_task": "Compare teammates and teams / Compara colaboradores y equipos: Recognize View by team and compare the 14-day Active load trend and full-period legend.",
+  "capture_date": "2026-09-28",
+  "capture_time_utc_from_filesystem_birth": "2026-09-28T18:48:16.079985+00:00",
+  "capture_date_basis": "Date and UTC time above come from the native PNG filesystem birth timestamp, not embedded camera or EXIF metadata.",
+  "capture_route": "Native macOS selected-window /usr/sbin/screencapture -l, scoped to one SCContentSharingPicker-selected Chrome window. The helper checked the exact window ID, owner PID, title, bounds, 2x raster, Display P3 color space, embedded ICC, and report OCR before saving.",
+  "capture_helper_source": "docs/editorial-work/captures/workload-capacity/persistent-picker-capture.swift",
+  "capture_process_note": "The ES KPI source used an earlier picker process (session 29890) before the OCR marker list was broadened. The other nine primary sources used picker process session 90060. Each process used one user selection for its exact window; the retained helper is the final version.",
+  "source_route_and_state": "http://127.0.0.1:3191/hellotext/reports/61NgoN0q?preset=custom&from=2026-09-11&to=2026-09-24&metric=active_load; Active load selected; View by team/Ver por equipo; two fictional teams visible across 2026-09-11 through 2026-09-24. UI locale en.",
+  "fixture_source": "Guarded scrubbed local PostgreSQL clone hellotext_editorial_workload_20260928, not the source database. docs/editorial-work/captures/workload-capacity/{scrub-clone.rb,visual-fixture.rb,README.md} document exact identity checks and synthetic source records. The scrubbed pre-fixture clone had 116 nonmessageable unconfirmed demonstration contacts and zero deliverable contacts; the guarded fixture added fictional users, nonmessageable contacts, workload records, and one bodyless received-only SLA reference. Delivery and workflows were inactive; no outbound message or job was created. The refined source redistributes synthetic handling across the 14 dates (56 fixture sessions and 70 handles) while preserving the verified full-period KPI totals.",
+  "demonstration_data_verified": true,
+  "privacy_check": "The retained crop contains aggregate report UI only, with no customer rows, contact identifiers, conversation bodies, credentials, Chrome toolbar, debug banner, or pointer. The raw selected-window frame is intentionally excluded from Git because it includes unrelated Chrome profile and debugging UI.",
+  "native_window": {
+    "id": 37110,
+    "owner_pid": 18093,
+    "title": "Workload & capacity report | Hellotext",
+    "raw_pixels": {
+      "width": 2770,
+      "height": 1734
+    }
+  },
+  "logical_viewport": {
+    "width": 1385,
+    "height": 724,
+    "unit": "CSS pixels",
+    "device_pixel_ratio": 2,
+    "visual_viewport_scale": 1,
+    "device_emulation": "none"
+  },
+  "source_rect": {
+    "x": 150,
+    "y": 430,
+    "width": 2470,
+    "height": 1000,
+    "unit": "native source pixels"
+  },
+  "raw_source_filename": "workload-trend-team-en-smoothed-centered-native.png",
+  "raw_source_sha256": "363bedd1b82320e1ba839fd09b55a185064f6f413f0e2bf48b887cee97a0907c",
+  "raw_source_disposition": "Temporary local verification source only; raw Chrome window pixels are not included in the repository.",
+  "original_file": "docs/editorial-work/captures/workload-capacity/active-load-team-trend-en-original.png",
+  "published_derivative": "images/analytics-reporting-attribution/workload-capacity-report-guide/active-load-team-trend-en.png",
+  "source_pixels": {
+    "width": 2470,
+    "height": 1000
+  },
+  "max_display_css_pixels": {
+    "width": 810,
+    "basis": "Conservative Help article-column upper bound; stage and white-frame insets make the rendered image narrower."
+  },
+  "original_sha256": "bf09a3597f5bf876c24d03fcac08ba12222a6dbe3261efbe62ea8385f3dba9c0",
+  "published_derivative_sha256": "bf09a3597f5bf876c24d03fcac08ba12222a6dbe3261efbe62ea8385f3dba9c0",
+  "actual_file_format": "PNG, 8-bit RGBA, native 2x source pixels retained in a static crop with embedded Display P3 ICC profile.",
+  "transformations": [
+    "sips -c 1000 2470 --cropOffset 430 150 workload-trend-team-en-smoothed-centered-native.png --out active-load-team-trend-en-original.png; crop only, no resampling, color conversion, compositing, or retouching"
+  ],
+  "pointer": {
+    "kind": "none in retained crop",
+    "system_cursor": "not visible",
+    "automation_pointer": "outside crop"
+  },
+  "verification": {
+    "file": "passed: final clean 2470×1000 PNG, embedded Display P3 ICC, complete chart panel and borders, no visible pointer/private content; refined 14-day trend without isolated sparse-fixture peaks",
+    "source_asset": "passed: retained original and static article asset byte-identical by SHA-256",
+    "density": "passed: 2470 native source pixels / 810 CSS px conservative maximum = 3.05x",
+    "desktop": "passed: final refined trend reviewed in the complete localized guide at desktop width; full bordered panel and lavender stage fit the article column without links or open controls",
+    "mobile": "passed: final refined trend reviewed in the complete localized guide at 390 CSS px; stage remains full width without horizontal overflow, and adjacent prose gives date range and team legend values",
+    "served_asset": "passed local: final bilingual production build and security-header check; refined original, static asset, built root copy, and built ES-path copy are byte-identical by SHA-256. No new public publication claimed."
+  },
+  "limitations": [
+    "Team names remain Spanish fictional proper names in the English UI; product labels are localized.",
+    "Source labels become compact at phone width; adjacent prose carries the essential values."
+  ],
+  "status": "local_verified"
+}

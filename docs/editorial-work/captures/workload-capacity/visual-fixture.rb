@@ -10,9 +10,9 @@ class EditorialWorkloadVisualFixture
   APPLY_TOKEN = 'YES_ISOLATED_DEMO_ONLY'
   FROM = Date.new(2026, 9, 11)
   TO = Date.new(2026, 9, 24)
-  PRESSURE_DAYS = [Date.new(2026, 9, 12), Date.new(2026, 9, 17), Date.new(2026, 9, 23)]
   LOW_DAYS = (FROM..TO).to_a
-  TEAM_NAMES = ['Atención · Demo reportes', 'Ventas · Demo reportes']
+  DAILY_SESSION_MINUTES = [72, 88, 68, 84, 76, 80, 72, 92, 72, 80, 76, 84, 68, 68]
+  TEAM_NAMES = ['Atención demo', 'Ventas demo']
   PEOPLE = {
     low_a: { first_name: 'Lucía', last_name: 'Demo carga', capacity: 3, team: TEAM_NAMES[0] },
     low_b: { first_name: 'Mateo', last_name: 'Demo carga', capacity: 3, team: TEAM_NAMES[1] },
@@ -29,8 +29,8 @@ class EditorialWorkloadVisualFixture
     privileges: 4,
     contacts: 11,
     conversations: 11,
-    sessions: 34,
-    handles: 37,
+    sessions: 56,
+    handles: 70,
     user_intervals: 15,
     team_intervals: 15,
     messages: 1,
@@ -205,20 +205,20 @@ class EditorialWorkloadVisualFixture
         end
       end
 
-      PRESSURE_DAYS.each do |day|
-        high_session = insert_session(person: :high, day:, hours: 6)
+      LOW_DAYS.zip(DAILY_SESSION_MINUTES).each do |day, minutes|
+        high_session = insert_session(person: :high, day:, minutes:)
         %w[high_0 high_1].each do |key|
           insert_handle(person: :high, session: high_session, key:, from: high_session.started_at, to: high_session.ended_at)
         end
-        watch_session = insert_session(person: :watch, day:, hours: 6)
-        insert_handle(person: :watch, session: watch_session, key: 'watch_0', from: watch_session.started_at, to: watch_session.started_at + 4.5.hours)
+        watch_session = insert_session(person: :watch, day:, minutes:)
+        insert_handle(person: :watch, session: watch_session, key: 'watch_0', from: watch_session.started_at, to: watch_session.started_at + (minutes * 3 / 4).minutes, ended_reason: 'idle_timeout')
       end
     end
 
-    def insert_session(person:, day:, hours:)
+    def insert_session(person:, day:, hours: nil, minutes: nil)
       profile = PEOPLE.fetch(person)
       start_at = @zone.local(day.year, day.month, day.day, 9)
-      end_at = start_at + hours.hours
+      end_at = start_at + (minutes || hours * 60).minutes
       insert_one(Workload::Session,
         business_id: BUSINESS_ID,
         user_id: @users.fetch(person).id,
@@ -233,7 +233,7 @@ class EditorialWorkloadVisualFixture
         session_timeout_seconds_snapshot: 900)
     end
 
-    def insert_handle(person:, session:, key:, from:, to:)
+    def insert_handle(person:, session:, key:, from:, to:, ended_reason: 'session_ended')
       insert_one(Workload::Handle,
         business_id: BUSINESS_ID,
         user_id: @users.fetch(person).id,
@@ -241,9 +241,9 @@ class EditorialWorkloadVisualFixture
         conversation_id: @conversations.fetch(key).id,
         workload_session_id: session.id,
         started_at: from,
-        last_touched_at: to,
+        last_touched_at: ended_reason == 'idle_timeout' ? to - 5.minutes : to,
         ended_at: to,
-        ended_reason: 'session_ended',
+        ended_reason:,
         start_source: 'note',
         last_source: 'note',
         handle_idle_timeout_seconds_snapshot: 300)
@@ -334,13 +334,14 @@ class EditorialWorkloadVisualFixture
       messages = fixture_scope(Message)
       user_ids = users.ids
       conversation_ids = conversations.ids
+      period = @zone.local(FROM.year, FROM.month, FROM.day)...(@zone.local(TO.year, TO.month, TO.day) + 1.day)
       actual = {
         users: users.count,
         privileges: Privilege.where(business_id: BUSINESS_ID, user_id: user_ids, discarded_at: nil).count,
         contacts: contacts.count,
         conversations: conversations.count,
-        sessions: Workload::Session.where(business_id: BUSINESS_ID, user_id: user_ids).count,
-        handles: Workload::Handle.where(business_id: BUSINESS_ID, user_id: user_ids).count,
+        sessions: Workload::Session.where(business_id: BUSINESS_ID, user_id: user_ids, started_at: period).count,
+        handles: Workload::Handle.where(business_id: BUSINESS_ID, user_id: user_ids, started_at: period).count,
         user_intervals: Workload::UserInterval.where(business_id: BUSINESS_ID, conversation_id: conversation_ids).count,
         team_intervals: Workload::TeamInterval.where(business_id: BUSINESS_ID, conversation_id: conversation_ids).count,
         messages: messages.count,
@@ -351,8 +352,8 @@ class EditorialWorkloadVisualFixture
       raise 'Unexpected total contact population' unless Contact.where(business_id: BUSINESS_ID).count == 127
       raise 'A fixture message is dispatchable' unless messages.where(state: :received, destination_id: nil, dispatched_at: nil).count == 1
       raise 'A fixture message acquired a body' if messages.first.body.present?
-      raise 'A fixture session remains open' if Workload::Session.where(business_id: BUSINESS_ID, user_id: user_ids, ended_at: nil).exists?
-      raise 'A fixture handle remains open' if Workload::Handle.where(business_id: BUSINESS_ID, user_id: user_ids, ended_at: nil).exists?
+      raise 'A period fixture session remains open' if Workload::Session.where(business_id: BUSINESS_ID, user_id: user_ids, started_at: period, ended_at: nil).exists?
+      raise 'A period fixture handle remains open' if Workload::Handle.where(business_id: BUSINESS_ID, user_id: user_ids, started_at: period, ended_at: nil).exists?
 
       current = conversations.find_by!(metadata: fixture_metadata('conversation_high_0'))
       cycle = SLA::Cycle.find_by!(business_id: BUSINESS_ID, conversation_id: current.id)
