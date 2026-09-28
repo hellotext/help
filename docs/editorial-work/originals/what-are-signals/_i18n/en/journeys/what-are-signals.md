@@ -1,4 +1,4 @@
-Signals are customer and business data and activity Hellotext can use to understand what is happening and decide what should happen next.
+Signals are the customer and business activity Hellotext can use to understand what is happening and decide what should happen next.
 
 A signal can come from your store, website, connected channels, capture tools, custom tracking, customer profiles, or conversations in the Inbox.
 
@@ -22,15 +22,15 @@ For example:
 - A playbook can decide whether a customer should receive an abandoned-cart follow-up.
 - A route can start when a customer subscribes or matches a trigger.
 - A segment can update automatically when customer behavior changes.
-- A campaign planned by your team can select its audience based on recent activity or profile data.
-- A report can show recorded activity and attributed revenue when the [source and attribution rules]({% link _analytics-reporting-attribution/sales-attribution.md %}) are met.
+- A campaign can target customers who match recent activity or profile data.
+- A report can connect clicks, orders, replies, and revenue back to the message or playbook that influenced them.
 - The Inbox can give your team more context before they reply.
 
 ## Common signal types
 
 Commerce signals include carts, product views, purchases, order status, refunds, coupons, stock changes, and product catalog data.
 
-Profile signals include customer properties, subscription status, consent, location, birthday, tags, and list or segment membership.
+Profile signals include customer profile properties, subscription status, consent, preferred channel, location, birthday, tags, and list or segment membership.
 
 Conversation signals include replies, intent, support questions, handoff needs, and whether a conversation is open, assigned, or closed.
 
@@ -54,17 +54,13 @@ Before a playbook, route, or campaign acts, Hellotext may also consider:
 
 This is why two customers can create the same signal but receive different next steps.
 
-For example, a route configured for abandoned carts could follow up with a customer who has not purchased and can receive messages. If another customer abandons a cart but then buys or has not consented to that channel, the same route may withhold the follow-up. The event type is the same; the rules and current context change the decision.
-
 ## Signals, events, and profile properties
 
-An **event** is an occurrence recorded at a specific time for a customer or anonymous session. `cart.abandoned`, `product.viewed`, and `order.placed` are action names that can identify the event type; your system can also send custom events.
+An **event** is a tracked action at a point in time, such as `cart.abandoned`, `product.viewed`, `order.placed`, or a custom event from your system.
 
-A **profile property** is standard or custom information stored about a customer, such as birthday, company, tags, or preferred size. Subscription status can also inform decisions, but it is managed separately from editable properties.
+A **profile property** is information stored on the customer profile, such as name, city, birthday, preferred size, consent status, or custom fields you collect.
 
 A **signal** is the broader idea: any event, property, channel state, conversation state, or business context Hellotext can use to understand the customer and decide what to do next.
-
-To see how attributes and recorded events appear, read the [customer profiles guide]({% link _audience/customer-profiles.md %}).
 
 ## How to make signals available
 
