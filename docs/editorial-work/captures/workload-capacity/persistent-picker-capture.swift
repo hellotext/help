@@ -149,6 +149,18 @@ private func capture(target: Target, outputURL: URL) throws -> String {
     guard reportMarkers.contains(where: recognized.contains) else {
         throw CaptureError.captureFailed("Selected-window image failed the expected report OCR check")
     }
+    // The browser toolbar in this same selected-window frame must show the local
+    // clone's exact report and period. Window title or report text alone is not
+    // enough to distinguish a fictional report from an unrelated Chrome page.
+    let sourceMarkers = [
+        "127.0.0.1:3191",
+        "/hellotext/reports/61ngon0q",
+        "from=2026-09-11",
+        "to=2026-09-24"
+    ]
+    guard sourceMarkers.allSatisfy(recognized.contains) else {
+        throw CaptureError.captureFailed("Selected-window image failed the exact local report URL and period OCR check")
+    }
 
     // A final check immediately before publication also catches an ID reused while OCR ran.
     let finalSnapshot = try selectedWindowSnapshot(windowID: target.windowID, ownerPID: target.ownerPID)

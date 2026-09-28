@@ -9,7 +9,7 @@
   "capture_route": "Native macOS selected-window /usr/sbin/screencapture -l, scoped to one SCContentSharingPicker-selected Chrome window. The helper checked the exact window ID, owner PID, title, bounds, 2x raster, Display P3 color space, embedded ICC, and report OCR before saving.",
   "capture_helper_source": "docs/editorial-work/captures/workload-capacity/persistent-picker-capture.swift",
   "capture_process_note": "The ES KPI source used an earlier picker process (session 29890) before the OCR marker list was broadened. The other nine primary sources used picker process session 90060. Each process used one user selection for its exact window; the retained helper is the final version.",
-  "source_route_and_state": "http://127.0.0.1:3191/hellotext/reports/61NgoN0q?preset=custom&from=2026-09-11&to=2026-09-24&metric=active_load; Session efficiency by team/Eficiencia de sesión por equipo; Ventas demo 5d and Atención demo 4.9d logged-in time. UI locale en.",
+  "source_route_and_state": "http://127.0.0.1:3191/hellotext/reports/61NgoN0q?preset=custom&from=2026-09-11&to=2026-09-24&metric=active_load; Session efficiency by team/Eficiencia de sesión por equipo; Ventas demo 5d and Atención demo 4.9d active handling time. UI locale en.",
   "fixture_source": "Guarded scrubbed local PostgreSQL clone hellotext_editorial_workload_20260928, not the source database. docs/editorial-work/captures/workload-capacity/{scrub-clone.rb,visual-fixture.rb,README.md} document exact identity checks and synthetic source records. The scrubbed pre-fixture clone had 116 nonmessageable unconfirmed demonstration contacts and zero deliverable contacts; the guarded fixture added fictional users, nonmessageable contacts, workload records, and one bodyless received-only SLA reference. Delivery and workflows were inactive; no outbound message or job was created. This panel was captured before the later trend-only redistribution (34 fixture sessions and 37 handles at capture); the refined 56-session/70-handle source preserves its verified full-period visible values.",
   "demonstration_data_verified": true,
   "privacy_check": "The retained crop contains aggregate report UI only, with no customer rows, contact identifiers, conversation bodies, credentials, Chrome toolbar, debug banner, or pointer. The raw selected-window frame is intentionally excluded from Git because it includes unrelated Chrome profile and debugging UI.",
@@ -73,5 +73,6 @@
     "Team names remain Spanish fictional proper names in the English UI; product labels are localized.",
     "Source labels become compact at phone width; adjacent prose carries the essential values."
   ],
-  "status": "local_verified"
+  "status": "local_verified",
+  "retrospective_native_toolbar_url_verification": "Passed 2026-09-28: the hash-matched retained full native source was OCR-checked in its Chrome toolbar region for 127.0.0.1:3191, the exact report path /hellotext/reports/61NgoN0q, and both selected date parameters. The earlier capture process checked the exact picker-selected Chrome window and report text; the retained helper now additionally enforces these URL/period markers before saving future frames. The scrolled screenshot alone does not show the account selector; controlled-tab account checks remain a separate required workflow step."
 }

@@ -5,6 +5,8 @@ email = 'editorial_workload_20260928_low_a@example.test'
 raise 'Development only' unless Rails.env.development?
 raise 'Wrong database configuration' unless ActiveRecord::Base.connection_db_config.database == database
 raise 'Wrong active database' unless ActiveRecord::Base.connection.select_value('SELECT current_database()') == database
+address = ActiveRecord::Base.connection.select_value('SELECT inet_server_addr()::text')
+raise 'Database is not local' unless address.nil? || %w[127.0.0.1 ::1].include?(address)
 raise 'Password missing' if ENV['EDITORIAL_CAPTURE_PASSWORD'].blank?
 
 user = User.kept.find_by!(email:)

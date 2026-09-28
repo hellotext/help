@@ -120,12 +120,12 @@ The chart separates:
 - **Active time:** wall-clock time spent actively handling conversations; overlapping intervals count once.
 - **Idle time:** logged-in time without active conversation handling.
 
-In the fictional data, Ventas demo records 5 days of session time and Atención demo records 4.9 days. The stronger-colored segment shows active time; the lighter segment shows idle time.
+In the fictional data, the values above the bars show 5 days of active handling for Ventas demo and 4.9 days for Atención demo. The stronger-colored segment represents that active time; the lighter segment is idle time, and the complete bar represents total logged-in time.
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Session efficiency by team">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/workload-capacity-report-guide/session-efficiency-team-en.png" width="2470" height="1008" loading="lazy" decoding="async" alt="Session efficiency by team chart: Ventas demo records 5 days of logged-in time and Atención demo 4.9 days; each bar separates active and idle time." />
+      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/workload-capacity-report-guide/session-efficiency-team-en.png" width="2470" height="1008" loading="lazy" decoding="async" alt="Session efficiency by team chart: the labels show 5 days of active handling for Ventas demo and 4.9 days for Atención demo; each complete bar separates active and idle logged-in time." />
     </div>
   </div>
   <figcaption class="ht-editorial-visual__caption">Real English interface with fictional data. The stronger-colored part of each bar represents active time, and the lighter part represents idle time.</figcaption>

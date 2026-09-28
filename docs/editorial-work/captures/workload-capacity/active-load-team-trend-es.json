@@ -72,5 +72,6 @@
   "limitations": [
     "Source labels become compact at phone width; adjacent prose carries the essential values."
   ],
-  "status": "local_verified"
+  "status": "local_verified",
+  "retrospective_native_toolbar_url_verification": "Passed 2026-09-28: the hash-matched retained full native source was OCR-checked in its Chrome toolbar region for 127.0.0.1:3191, the exact report path /hellotext/reports/61NgoN0q, and both selected date parameters. The earlier capture process checked the exact picker-selected Chrome window and report text; the retained helper now additionally enforces these URL/period markers before saving future frames. The scrolled screenshot alone does not show the account selector; controlled-tab account checks remain a separate required workflow step."
 }

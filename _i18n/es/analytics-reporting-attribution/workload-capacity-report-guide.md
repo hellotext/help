@@ -120,12 +120,12 @@ El gráfico separa:
 - **Tiempo activo:** tiempo de reloj dedicado a atender conversaciones; los intervalos simultáneos se cuentan una vez.
 - **Tiempo inactivo:** tiempo conectado sin atención activa de conversaciones.
 
-En los datos ficticios, Ventas demo registra 5 días de sesión y Atención demo 4,9 días. El segmento intenso representa tiempo activo; el claro, tiempo inactivo.
+En los datos ficticios, los valores sobre las barras muestran 5 días de atención activa para Ventas demo y 4,9 días para Atención demo. El segmento intenso representa ese tiempo activo; el claro, tiempo inactivo, y la barra completa representa el tiempo total conectado.
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Eficiencia de sesión por equipo">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/workload-capacity-report-guide/session-efficiency-team-es.png" width="2470" height="1008" loading="lazy" decoding="async" alt="Gráfico Eficiencia de sesión por equipo: Ventas demo registra 5 días de tiempo conectado y Atención demo 4,9 días; cada barra separa tiempo activo e inactivo." />
+      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/workload-capacity-report-guide/session-efficiency-team-es.png" width="2470" height="1008" loading="lazy" decoding="async" alt="Gráfico Eficiencia de sesión por equipo: las etiquetas muestran 5 días de atención activa para Ventas demo y 4,9 días para Atención demo; cada barra completa separa tiempo activo e inactivo de la sesión." />
     </div>
   </div>
   <figcaption class="ht-editorial-visual__caption">Interfaz real en español con datos ficticios. La parte más intensa de cada barra representa tiempo activo y la parte clara representa tiempo inactivo.</figcaption>
