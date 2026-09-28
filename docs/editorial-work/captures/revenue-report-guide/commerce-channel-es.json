@@ -1,0 +1,77 @@
+{
+  "article_source": "_i18n/es/analytics-reporting-attribution/revenue-report-guide.md",
+  "public_url": "https://help.hellotext.com/es/guia-reporte-ingresos",
+  "locale": "es",
+  "section_and_reader_task": "Lee los ingresos atribuidos por canal de comercio",
+  "step_and_target_control": "Compara los cuatro canales de comunicación en el panel Canal de comercio",
+  "capture_date": "2026-09-28 UTC",
+  "capture_tool": "macOS ScreenCaptureKit exact-title, exact-window helper (docs/editorial-work/capture-tools/hellotext_capture_editor.swift); native 2x SCStreamConfiguration with Display P3 colorSpaceName and ImageIO PNG output; system cursor hidden",
+  "source_route_and_state": "http://127.0.0.1:3190/hellotext/reports/e9Z2LN51?from=2026-09-19&to=2026-09-25&preset=custom&metric=ai_driven_revenue; isolated local demonstration business 5; custom September 19–25, 2026; attributed revenue selected; locale es; the same coherent seven-day aggregate used in the earlier summary and timeline figures.",
+  "fixture_source": "Existing synthetic revenue rollups in isolated development PostgreSQL database hellotext_editorial_capture_20260926, business 5; attributed revenue $46,147.20 displayed as $46.1K, Playbooks $28.4K, Campaigns $17.8K, and 449 attributed orders across four channels. No contacts, customer/order rows, or message delivery in the crop.",
+  "demonstration_data_verified": true,
+  "privacy_check": "Aggregate report panel only; saved pixels were visually inspected and show no contact names, customer or order identifiers, conversations, messages, credentials, or private activity.",
+  "native_window": {
+    "id": 34987,
+    "title": "Reporte de ingresos | Hellotext",
+    "frame_points": {
+      "x": 0,
+      "y": 83,
+      "width": 1253,
+      "height": 867
+    }
+  },
+  "sourceRect": {
+    "x": 0,
+    "y": 494,
+    "width": 980,
+    "height": 315,
+    "unit": "global screen points"
+  },
+  "original_file": "docs/editorial-work/captures/revenue-report-guide/commerce-channel-es-original.png",
+  "published_derivative": "images/analytics-reporting-attribution/revenue-report-guide/commerce-channel-es.png",
+  "logical_viewport": {
+    "width": 980,
+    "height": 900,
+    "unit": "CSS pixels"
+  },
+  "browser_zoom_percent": 100,
+  "device_emulation": "Chrome desktop viewport override 980×900 CSS pixels; native capture devicePixelRatio 2; no page zoom change",
+  "source_pixels": {
+    "width": 1960,
+    "height": 630
+  },
+  "max_display_css_pixels": {
+    "width": 810,
+    "height": 260.4,
+    "basis": "Conservative article-column upper bound; actual image is narrower after lavender stage and white-frame insets."
+  },
+  "original_sha256": "5476cf6821ceb011ca143ec338cc6911c50aa55379dfabc63d62db1a369393ee",
+  "published_derivative_sha256": "5476cf6821ceb011ca143ec338cc6911c50aa55379dfabc63d62db1a369393ee",
+  "actual_file_format": "PNG, 8-bit RGBA, native 2x ScreenCaptureKit crop; static image is a byte-identical copy",
+  "icc_profile_and_verification": "Display P3 embedded ICC verified by sips -g profile; original and static bytes match SHA-256 5476cf6821ceb011ca143ec338cc6911c50aa55379dfabc63d62db1a369393ee",
+  "native_color_provenance": "Native 2x Display P3 ScreenCaptureKit output from the exact isolated Chrome window; no JPEG conversion, resampling, color-profile reassignment, chart redrawing, or full-window intermediate.",
+  "transformations": [],
+  "pointer": {
+    "kind": "none",
+    "system_cursor": "hidden by native helper",
+    "automation_pointer": "outside exact crop; no pointer visible in saved pixels",
+    "target": null,
+    "coordinates": null
+  },
+  "verification": {
+    "file": "passed: PNG signature, embedded Display P3 ICC, native 2x crop",
+    "source_asset": "passed: original and static bytes match by SHA-256",
+    "capture_visual": "passed: Panel Canal de comercio: Webchat $14.5K, Instagram $13.4K, SMS $10.1K y WhatsApp $8.1K; sin puntero ni identificadores privados.",
+    "density": "passed: 1960 source pixels / 810 CSS px conservative maximum = 2.42x",
+    "desktop": "passed: complete es guide at 1280×900; all five localized figures loaded as static, unlinked images; lavender stages stay within the unchanged article column; this panel or table is complete, with no horizontal overflow",
+    "mobile": "passed: complete es guide at 390×844; all five figures loaded, no horizontal overflow, and adjacent prose states the compact chart or table values; static image has no open control",
+    "served_asset": "passed local: built _site PNG and HTTP-served PNG at port 8765 return the same bytes as the native original and static asset; public follow-up asset pending publication"
+  },
+  "limitations": [
+    "Follow-up branch is not merged or deployed; public page and asset checks are pending publication."
+  ],
+  "status": "verified_local",
+  "public_verification": {
+    "status": "pending; follow-up branch is not merged or deployed"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "article_source": "_i18n/en/analytics-reporting-attribution/revenue-report-guide.md",
+  "public_url": "https://help.hellotext.com/revenue-report-guide",
+  "locale": "en",
+  "section_and_reader_task": "Review attributed orders, average order value, and revenue by channel",
+  "step_and_target_control": "Read the Attribution by channel source table and its total row",
+  "capture_date": "2026-09-28 UTC",
+  "capture_tool": "macOS ScreenCaptureKit exact-title, exact-window helper (docs/editorial-work/capture-tools/hellotext_capture_editor.swift); native 2x SCStreamConfiguration with Display P3 colorSpaceName and ImageIO PNG output; system cursor hidden",
+  "source_route_and_state": "http://127.0.0.1:3190/hellotext/reports/e9Z2LN51?from=2026-09-19&to=2026-09-25&preset=custom&metric=ai_driven_revenue; isolated local demonstration business 5; custom September 19–25, 2026; attributed revenue selected; locale en; the same coherent seven-day aggregate used in the earlier summary and timeline figures.",
+  "fixture_source": "Existing synthetic revenue rollups in isolated development PostgreSQL database hellotext_editorial_capture_20260926, business 5; attributed revenue $46,147.20 displayed as $46.1K, Playbooks $28.4K, Campaigns $17.8K, and 449 attributed orders across four channels. No contacts, customer/order rows, or message delivery in the crop.",
+  "demonstration_data_verified": true,
+  "privacy_check": "Aggregate report panel only; saved pixels were visually inspected and show no contact names, customer or order identifiers, conversations, messages, credentials, or private activity.",
+  "native_window": {
+    "id": 34987,
+    "title": "Revenue report | Hellotext",
+    "frame_points": {
+      "x": 0,
+      "y": 83,
+      "width": 1253,
+      "height": 867
+    }
+  },
+  "sourceRect": {
+    "x": 0,
+    "y": 390,
+    "width": 966,
+    "height": 530,
+    "unit": "global screen points"
+  },
+  "original_file": "docs/editorial-work/captures/revenue-report-guide/source-table-en-original.png",
+  "published_derivative": "images/analytics-reporting-attribution/revenue-report-guide/source-table-en.png",
+  "logical_viewport": {
+    "width": 980,
+    "height": 900,
+    "unit": "CSS pixels"
+  },
+  "browser_zoom_percent": 100,
+  "device_emulation": "Chrome desktop viewport override 980×900 CSS pixels; native capture devicePixelRatio 2; no page zoom change",
+  "source_pixels": {
+    "width": 1932,
+    "height": 1060
+  },
+  "max_display_css_pixels": {
+    "width": 810,
+    "height": 444.4,
+    "basis": "Conservative article-column upper bound; actual image is narrower after lavender stage and white-frame insets."
+  },
+  "original_sha256": "17bdb0ae13386c26b077938347a816e3f5645e0f361beff6e7cf1258942c0af8",
+  "published_derivative_sha256": "17bdb0ae13386c26b077938347a816e3f5645e0f361beff6e7cf1258942c0af8",
+  "actual_file_format": "PNG, 8-bit RGBA, native 2x ScreenCaptureKit crop; static image is a byte-identical copy",
+  "icc_profile_and_verification": "Display P3 embedded ICC verified by sips -g profile; original and static bytes match SHA-256 17bdb0ae13386c26b077938347a816e3f5645e0f361beff6e7cf1258942c0af8",
+  "native_color_provenance": "Native 2x Display P3 ScreenCaptureKit output from the exact isolated Chrome window; no JPEG conversion, resampling, color-profile reassignment, chart redrawing, or full-window intermediate.",
+  "transformations": [],
+  "pointer": {
+    "kind": "none",
+    "system_cursor": "hidden by native helper",
+    "automation_pointer": "outside exact crop; no pointer visible in saved pixels",
+    "target": null,
+    "coordinates": null
+  },
+  "verification": {
+    "file": "passed: PNG signature, embedded Display P3 ICC, native 2x crop",
+    "source_asset": "passed: original and static bytes match by SHA-256",
+    "capture_visual": "passed: Attribution by channel table: headers, four channel rows, 449 orders and $46.1K total; no pointer or private identifiers.",
+    "density": "passed: 1932 source pixels / 810 CSS px conservative maximum = 2.39x",
+    "desktop": "passed: complete en guide at 1280×900; all five localized figures loaded as static, unlinked images; lavender stages stay within the unchanged article column; this panel or table is complete, with no horizontal overflow",
+    "mobile": "passed: complete en guide at 390×844; all five figures loaded, no horizontal overflow, and adjacent prose states the compact chart or table values; static image has no open control",
+    "served_asset": "passed local: built _site PNG and HTTP-served PNG at port 8765 return the same bytes as the native original and static asset; public follow-up asset pending publication"
+  },
+  "limitations": [
+    "Follow-up branch is not merged or deployed; public page and asset checks are pending publication."
+  ],
+  "status": "verified_local",
+  "public_verification": {
+    "status": "pending; follow-up branch is not merged or deployed"
+  }
+}

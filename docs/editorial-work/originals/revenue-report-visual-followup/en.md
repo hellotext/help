@@ -80,42 +80,11 @@ These widgets distribute attributed revenue; they do not replace total revenue o
 
 In this example, Playbooks contribute $28.4K and Campaigns $17.8K to the period's attributed amount. Displayed amounts are rounded separately, so their sum may differ slightly from the summary card. Commerce context and Commerce channel group that same revenue in other ways, so their bars should not be added to the Playbook and Campaign amounts.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Revenue attributed to Campaigns and Playbooks">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/revenue-report-guide/campaigns-playbooks-en.png" width="1960" height="620" loading="lazy" decoding="async" alt="Campaigns and Playbooks panel: $28.4K from Playbooks and $17.8K from Campaigns within the same attributed revenue." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Real English interface with fictional data. This panel compares the two types of credited source.</figcaption>
-</figure>
-
-The **Commerce channel** panel groups that same attributed revenue by communication channel: Webchat $14.5K, Instagram $13.4K, SMS $10.1K, and WhatsApp $8.1K. Compare amounts within this panel; do not add its bars to the Campaigns and Playbooks amounts.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Attributed revenue by commerce channel">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/revenue-report-guide/commerce-channel-en.png" width="1960" height="630" loading="lazy" decoding="async" alt="Commerce channel panel showing Webchat $14.5K, Instagram $13.4K, SMS $10.1K, and WhatsApp $8.1K." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Real English interface with fictional data. The four bars group the period's same attributed revenue by channel.</figcaption>
-</figure>
-
 ## Review source tables
 
 The Playbooks, Campaigns, and Channels sections group the attributed purchases included in the selected period by their credited source.
 
 Use attributed orders, average attributed order value, and attributed revenue to compare the value assigned to each source. A row with no revenue does not necessarily mean that its messages failed to send: it can mean that no purchase completed during the selected period qualified for that source.
-
-The **Attribution by channel** table places those three measures beside each channel and shows a total at the end. In the fictional example, Webchat has 136 attributed orders and $14.5K in revenue; the four channels total 449 orders and $46.1K.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Channel attribution table with orders, average order value, and revenue">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/revenue-report-guide/source-table-en.png" width="1932" height="1060" loading="lazy" decoding="async" alt="Attribution by channel table: Webchat, Instagram, SMS, and WhatsApp rows with Orders, Average order value, and Revenue columns; total of 449 orders and $46.1K." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Real English interface with fictional data. The table retains its headers, four rows, and total.</figcaption>
-</figure>
 
 For source conversion, ROI, and revenue per message, open the corresponding Campaign or Playbook report; check each metric's date basis before comparing it with Revenue.
 

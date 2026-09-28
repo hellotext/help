@@ -80,42 +80,11 @@ Estos widgets distribuyen los ingresos atribuidos; no reemplazan los ingresos to
 
 En este ejemplo, Misiones aporta $28,4 mil y Campañas $17,8 mil al importe atribuido del período. Los importes visibles están redondeados por separado, así que su suma puede diferir ligeramente de la tarjeta principal. Contexto de comercio y Canal de comercio son otras formas de agrupar esos mismos ingresos, por lo que sus barras no se suman a las de Misiones y Campañas.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Ingresos atribuidos a Campañas y misiones">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/revenue-report-guide/campaigns-playbooks-es.png" width="1960" height="600" loading="lazy" decoding="async" alt="Panel Campañas y misiones: Misiones $28,4 mil y Campañas $17,8 mil del mismo ingreso atribuido." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Interfaz real en español con datos ficticios. Este panel compara los dos tipos de origen acreditado.</figcaption>
-</figure>
-
-El panel **Canal de comercio** presenta el mismo ingreso atribuido por canal de comunicación: Webchat $14,5 mil, Instagram $13,4 mil, SMS $10,1 mil y WhatsApp $8,1 mil. Compáralos dentro de este panel; no agregues sus barras a las de Campañas y misiones.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Ingresos atribuidos por canal de comercio">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/revenue-report-guide/commerce-channel-es.png" width="1960" height="630" loading="lazy" decoding="async" alt="Panel Canal de comercio con Webchat $14,5 mil, Instagram $13,4 mil, SMS $10,1 mil y WhatsApp $8,1 mil." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Interfaz real en español con datos ficticios. Las cuatro barras agrupan el mismo ingreso atribuido del período por canal.</figcaption>
-</figure>
-
 ## Revisa las tablas de origen
 
 Las secciones Misiones, Campañas y Canales agrupan las compras atribuidas incluidas en el período seleccionado según el origen que recibió el crédito.
 
 Usa pedidos atribuidos, valor promedio del pedido atribuido e ingresos atribuidos para comparar el valor asignado a cada origen. Una fila sin ingresos no significa necesariamente que sus mensajes no se hayan enviado: puede indicar que ninguna compra completada durante el período seleccionado fue elegible para ese origen.
-
-La tabla de **Atribución por canales** coloca esas tres medidas junto a cada canal y muestra un total al final. En el ejemplo ficticio, Webchat tiene 136 pedidos atribuidos y $14,5 mil en ingresos; el total de los cuatro canales es 449 pedidos y $46,1 mil.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Tabla de atribución por canales con pedidos, valor promedio e ingresos">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/revenue-report-guide/source-table-es.png" width="1960" height="1070" loading="lazy" decoding="async" alt="Tabla Atribución por canales: filas de Webchat, Instagram, SMS y WhatsApp con columnas Órdenes, Valor promedio e Ingresos; total de 449 órdenes y $46,1 mil." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Interfaz real en español con datos ficticios. La tabla conserva los encabezados, las cuatro filas y el total.</figcaption>
-</figure>
 
 Para analizar conversión, ROI e ingresos por mensaje según el origen, abre el reporte de campaña o misión correspondiente; revisa la fecha que usa cada métrica antes de compararla con Ingresos.
 
