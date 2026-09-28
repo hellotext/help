@@ -33,3 +33,7 @@ This is a billing and sender-choice explanation, not an interface walkthrough. N
 - The production bilingual `yarn build` and `script/verify_security_headers.rb` passed. A final read-only audit found no factual, translation or diff-scope blocker, and `git diff --check` passed.
 - Inspected the complete built Spanish and English SMS guide and Pricing model guide in the local browser at 1440×900 and 390×844. The four localized titles, section headings, content, related links and footer rendered; no broken images or horizontal overflow occurred. At 390 CSS px, each main column was 358 px wide and the visual viewport scale remained 1. The mobile pricing-model view was visually checked. No screenshot asset was created.
 - The original and focused Pricing model visual decisions above still apply. The verified bilingual content and narrow linked correction are in `295ebb80`. Local verification does not imply publication; PR, normal deploy and public checks will be recorded below.
+
+## Review follow-up — PR #193
+
+The automated PR review found two conflicting SMS allowance summaries in the already published Billing overview. Its narrow bilingual correction is documented in `docs/editorial-work/billing-overview.md` and committed separately as `89ea8bcb`; the updated overview verifier is recorded in `progress.csv`. The original SMS article and Pricing model corrections remain unchanged.
