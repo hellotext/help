@@ -1,0 +1,537 @@
+{
+  "article_key": "audience/exporting-data.md",
+  "capture_date": "2026-09-28",
+  "capture_route": "One persistent SCContentSharingPicker selection of the exact dedicated local Chrome window, then native /usr/sbin/screencapture -l scoped to that selected window; guard/OCR checks in the retained helper.",
+  "capture_helper_source": "docs/editorial-work/captures/exporting-data/persistent-picker-capture.swift",
+  "native_window": {
+    "id": 37110,
+    "owner_pid": 18093,
+    "controlled_chrome_tab_id": 437089004,
+    "raw_pixels": {
+      "width": 2770,
+      "height": 1734
+    }
+  },
+  "logical_viewport": {
+    "width": 1385,
+    "height": 724,
+    "unit": "CSS pixels",
+    "device_pixel_ratio": 2,
+    "device_emulation": "none",
+    "browser_zoom": "No effective zoom override; 1385x724 CSS and DPR 2 confirmed after zoom attempt."
+  },
+  "capture_preflight": "The controlled tab was checked before and after each shot for the exact local Audience or Revenue URL, Enterprise, and signed-in synthetic owner design-system@example.test. The helper checked selected window ID, Chrome PID, title, bounds, native 2x P3 ICC, local URL OCR, and target-control OCR for each capture.",
+  "source_fixture": "Guarded scrubbed local PostgreSQL clone hellotext_editorial_workload_20260928, using fictional, non-deliverable demonstration contacts and fictional Revenue records. The selected report period is 2026-09-19 through 2026-09-25. No export action was clicked and no email/download was triggered for the visual batch.",
+  "demonstration_data_verified": true,
+  "privacy_check": "Only native application UI from the selected local demo window is retained in the cropped assets. Crops exclude Chrome toolbar, debugging banner, URL, account details, cursor, unrelated rows, and private customer records. Camila Torres uses example.test; Revenue numbers are demonstration data.",
+  "crop_decisions": [
+    "Audience-all crops exclude the inconsistent raw search placeholder count and all later rows; only the Camila Torres row and complete export menu remain.",
+    "Audience-selected raw frames show a conflicting Select all 1 customers/Seleccionar todos los 1 control and an automation pointer over the master checkbox. A selection-row crop was rejected. Retained menu assets intentionally show only the menu interior; the popup border is not included.",
+    "Revenue combined full-width candidate was rejected because the complete selector and distant icon made control labels too small at mobile Help width. The selector and icon/KPI use separate native crops.",
+    "Two additional Audience-all responsive mobile alternates crop the complete popup and its ellipsis from the same accepted raw ES/EN sources. Each is 670 pixels wide, excludes the inconsistent placeholder count, cursor, and partial contact rows, and remains at least 2x when displayed at no more than 335 CSS pixels."
+  ],
+  "native_color_provenance": "The native raw source is a 2770x1734 Display P3 PNG with embedded ICC from the selected color-managed macOS window. sips crops preserve the source samples and Display P3 profile; Pillow save candidates were rejected because macOS identified their rewritten profile as Color LCD.",
+  "publication_state": "Eight localized static figures and both responsive mobile alternatives are locally verified in ES and EN. Complete 1280x720 desktop and 390x844 mobile pages, at least 2x source density, production build, security headers, local served HTML/PNG bytes, and PR #199 preview HTML/PNG bytes passed. Production merge, deployment, and public verification remain pending.",
+  "assets": [
+    {
+      "article_source": "_i18n/es/audience/exporting-data.md",
+      "article_public_url": "https://help.hellotext.com/es/exportar-datos",
+      "locale": "es",
+      "step_and_target_control": "Audience menu: Exportar a archivo beside the fictional Camila Torres row.",
+      "capture_time_utc_from_filesystem_birth": "2026-09-28T20:09:18.999356+00:00",
+      "capture_date_basis": "Native raw PNG filesystem birth timestamp; no camera or EXIF timestamp asserted.",
+      "source_route_and_state": "http://127.0.0.1:3191/hellotext/audience; unselected audience menu open.",
+      "raw_source_filename": "export-audience-all-es-native-clean.png",
+      "raw_source_sha256": "8ca0e121a47da035ae609de6e1d3121fb935b13a269db3023b61a5eaf0899c9c",
+      "raw_source_disposition": "Temporary local verification source only; full Chrome window, toolbar, and debugging banner are excluded from Git.",
+      "original_file": "docs/editorial-work/captures/exporting-data/audience-all-es-original.png",
+      "static_asset": "images/audience/exporting-data/audience-all-es.png",
+      "original_sha256": "1b9fdb242611d70353f9a6972336366d692f145fd25aefc172b74f769cc4c085",
+      "static_asset_sha256": "1b9fdb242611d70353f9a6972336366d692f145fd25aefc172b74f769cc4c085",
+      "source_rect": {
+        "x": 550,
+        "y": 570,
+        "width": 1520,
+        "height": 270,
+        "unit": "native source pixels"
+      },
+      "source_pixels": {
+        "width": 1520,
+        "height": 270
+      },
+      "max_display_css_pixels": {
+        "width": 760,
+        "basis": "Conservative 2x maximum; the Help stage and image frame may render it smaller."
+      },
+      "actual_file_format": "PNG, 8-bit RGBA, non-interlaced; native source pixels retained with embedded Display P3 ICC.",
+      "transformations": [
+        "sips -c 270 1520 --cropOffset 570 550 export-audience-all-es-native-clean.png --out audience-all-es-original.png; crop only, no resampling, color conversion, compositing, annotation, or retouching"
+      ],
+      "pointer": {
+        "kind": "none in retained crop",
+        "system_cursor": "not visible",
+        "automation_pointer": "outside retained crop"
+      },
+      "verification": {
+        "file": "passed: PNG signature, source dimensions, and embedded Display P3 profile checked with file and sips",
+        "source_pixels": "passed: decoded crop pixels equal the same rectangle of the raw native source",
+        "source_asset": "passed: retained original and static article asset byte-identical by SHA-256",
+        "density": "passed at the recorded maximum CSS width (at least 2x)",
+        "desktop_article": "passed: complete localized article and figure visually reviewed at 1280x720 CSS; full-width lavender stage and complete control",
+        "mobile_article": "passed: complete localized article reviewed at 390x844 CSS without page overflow; Audience-all uses its focused mobile picture source",
+        "built_or_served_asset": "passed: production build and security-header check; local built and served PNG returned 200 with byte-identical SHA-256; PR #199 preview PNG returned 200 with matching bytes"
+      },
+      "status": "local_verified_public_pending"
+    },
+    {
+      "article_source": "_i18n/en/audience/exporting-data.md",
+      "article_public_url": "https://help.hellotext.com/exporting-data",
+      "locale": "en",
+      "step_and_target_control": "Audience menu: Export to file beside the fictional Camila Torres row.",
+      "capture_time_utc_from_filesystem_birth": "2026-09-28T20:11:31.140463+00:00",
+      "capture_date_basis": "Native raw PNG filesystem birth timestamp; no camera or EXIF timestamp asserted.",
+      "source_route_and_state": "http://127.0.0.1:3191/hellotext/audience; unselected audience menu open.",
+      "raw_source_filename": "export-audience-all-en-native.png",
+      "raw_source_sha256": "c6ce711cd7efefc0bf394b583bc227d1e120766bf3b05373cbcb91ba3d50807e",
+      "raw_source_disposition": "Temporary local verification source only; full Chrome window, toolbar, and debugging banner are excluded from Git.",
+      "original_file": "docs/editorial-work/captures/exporting-data/audience-all-en-original.png",
+      "static_asset": "images/audience/exporting-data/audience-all-en.png",
+      "original_sha256": "29d56f2c059a6f8bdd8f89e438409ab295b6477926dd5b5ae9f56994e9bec8a9",
+      "static_asset_sha256": "29d56f2c059a6f8bdd8f89e438409ab295b6477926dd5b5ae9f56994e9bec8a9",
+      "source_rect": {
+        "x": 550,
+        "y": 570,
+        "width": 1520,
+        "height": 270,
+        "unit": "native source pixels"
+      },
+      "source_pixels": {
+        "width": 1520,
+        "height": 270
+      },
+      "max_display_css_pixels": {
+        "width": 760,
+        "basis": "Conservative 2x maximum; the Help stage and image frame may render it smaller."
+      },
+      "actual_file_format": "PNG, 8-bit RGBA, non-interlaced; native source pixels retained with embedded Display P3 ICC.",
+      "transformations": [
+        "sips -c 270 1520 --cropOffset 570 550 export-audience-all-en-native.png --out audience-all-en-original.png; crop only, no resampling, color conversion, compositing, annotation, or retouching"
+      ],
+      "pointer": {
+        "kind": "none in retained crop",
+        "system_cursor": "not visible",
+        "automation_pointer": "outside retained crop"
+      },
+      "verification": {
+        "file": "passed: PNG signature, source dimensions, and embedded Display P3 profile checked with file and sips",
+        "source_pixels": "passed: decoded crop pixels equal the same rectangle of the raw native source",
+        "source_asset": "passed: retained original and static article asset byte-identical by SHA-256",
+        "density": "passed at the recorded maximum CSS width (at least 2x)",
+        "desktop_article": "passed: complete localized article and figure visually reviewed at 1280x720 CSS; full-width lavender stage and complete control",
+        "mobile_article": "passed: complete localized article reviewed at 390x844 CSS without page overflow; Audience-all uses its focused mobile picture source",
+        "built_or_served_asset": "passed: production build and security-header check; local built and served PNG returned 200 with byte-identical SHA-256; PR #199 preview PNG returned 200 with matching bytes"
+      },
+      "status": "local_verified_public_pending"
+    },
+    {
+      "article_source": "_i18n/es/audience/exporting-data.md",
+      "article_public_url": "https://help.hellotext.com/es/exportar-datos",
+      "locale": "es",
+      "step_and_target_control": "Interior of the selected-audience menu: Exportar seleccionados.",
+      "capture_time_utc_from_filesystem_birth": "2026-09-28T20:09:51.420614+00:00",
+      "capture_date_basis": "Native raw PNG filesystem birth timestamp; no camera or EXIF timestamp asserted.",
+      "source_route_and_state": "http://127.0.0.1:3191/hellotext/audience; selected audience menu open with 20 clients in the sidebar.",
+      "raw_source_filename": "export-audience-selected-es-native.png",
+      "raw_source_sha256": "893512b196d0d07ee6856b10e8b381dab59c25a7d2a06c4ce0ea55df713e9d7f",
+      "raw_source_disposition": "Temporary local verification source only; full Chrome window, toolbar, and debugging banner are excluded from Git.",
+      "original_file": "docs/editorial-work/captures/exporting-data/audience-selected-menu-es-original.png",
+      "static_asset": "images/audience/exporting-data/audience-selected-menu-es.png",
+      "original_sha256": "6bf5b50aa798382d08aeab11c9c9bc28978d258a1cdb3ff60f0e70673aa84f68",
+      "static_asset_sha256": "6bf5b50aa798382d08aeab11c9c9bc28978d258a1cdb3ff60f0e70673aa84f68",
+      "source_rect": {
+        "x": 1640,
+        "y": 600,
+        "width": 345,
+        "height": 220,
+        "unit": "native source pixels"
+      },
+      "source_pixels": {
+        "width": 345,
+        "height": 220
+      },
+      "max_display_css_pixels": {
+        "width": 172,
+        "basis": "Conservative 2x maximum; the Help stage and image frame may render it smaller."
+      },
+      "actual_file_format": "PNG, 8-bit RGBA, non-interlaced; native source pixels retained with embedded Display P3 ICC.",
+      "transformations": [
+        "sips -c 220 345 --cropOffset 600 1640 export-audience-selected-es-native.png --out audience-selected-menu-es-original.png; crop only, no resampling, color conversion, compositing, annotation, or retouching"
+      ],
+      "pointer": {
+        "kind": "none in retained crop",
+        "system_cursor": "not visible",
+        "automation_pointer": "outside retained crop"
+      },
+      "verification": {
+        "file": "passed: PNG signature, source dimensions, and embedded Display P3 profile checked with file and sips",
+        "source_pixels": "passed: decoded crop pixels equal the same rectangle of the raw native source",
+        "source_asset": "passed: retained original and static article asset byte-identical by SHA-256",
+        "density": "passed at the recorded maximum CSS width (at least 2x)",
+        "desktop_article": "passed: complete localized article and figure visually reviewed at 1280x720 CSS; full-width lavender stage and complete control",
+        "mobile_article": "passed: complete localized article reviewed at 390x844 CSS without page overflow; Audience-all uses its focused mobile picture source",
+        "built_or_served_asset": "passed: production build and security-header check; local built and served PNG returned 200 with byte-identical SHA-256; PR #199 preview PNG returned 200 with matching bytes"
+      },
+      "status": "local_verified_public_pending"
+    },
+    {
+      "article_source": "_i18n/en/audience/exporting-data.md",
+      "article_public_url": "https://help.hellotext.com/exporting-data",
+      "locale": "en",
+      "step_and_target_control": "Interior of the selected-audience menu: Export selected.",
+      "capture_time_utc_from_filesystem_birth": "2026-09-28T20:11:46.460435+00:00",
+      "capture_date_basis": "Native raw PNG filesystem birth timestamp; no camera or EXIF timestamp asserted.",
+      "source_route_and_state": "http://127.0.0.1:3191/hellotext/audience; selected audience menu open with 20 clients in the sidebar.",
+      "raw_source_filename": "export-audience-selected-en-native.png",
+      "raw_source_sha256": "75ef41b2aec87a8c14670eb20d5bd4980c022e53f7303772996d4716f708fc25",
+      "raw_source_disposition": "Temporary local verification source only; full Chrome window, toolbar, and debugging banner are excluded from Git.",
+      "original_file": "docs/editorial-work/captures/exporting-data/audience-selected-menu-en-original.png",
+      "static_asset": "images/audience/exporting-data/audience-selected-menu-en.png",
+      "original_sha256": "fd6caf29242cb52a92bb5c6e85b02cfa41c289f5881161e0460eb80026652b7c",
+      "static_asset_sha256": "fd6caf29242cb52a92bb5c6e85b02cfa41c289f5881161e0460eb80026652b7c",
+      "source_rect": {
+        "x": 1640,
+        "y": 600,
+        "width": 345,
+        "height": 220,
+        "unit": "native source pixels"
+      },
+      "source_pixels": {
+        "width": 345,
+        "height": 220
+      },
+      "max_display_css_pixels": {
+        "width": 172,
+        "basis": "Conservative 2x maximum; the Help stage and image frame may render it smaller."
+      },
+      "actual_file_format": "PNG, 8-bit RGBA, non-interlaced; native source pixels retained with embedded Display P3 ICC.",
+      "transformations": [
+        "sips -c 220 345 --cropOffset 600 1640 export-audience-selected-en-native.png --out audience-selected-menu-en-original.png; crop only, no resampling, color conversion, compositing, annotation, or retouching"
+      ],
+      "pointer": {
+        "kind": "none in retained crop",
+        "system_cursor": "not visible",
+        "automation_pointer": "outside retained crop"
+      },
+      "verification": {
+        "file": "passed: PNG signature, source dimensions, and embedded Display P3 profile checked with file and sips",
+        "source_pixels": "passed: decoded crop pixels equal the same rectangle of the raw native source",
+        "source_asset": "passed: retained original and static article asset byte-identical by SHA-256",
+        "density": "passed at the recorded maximum CSS width (at least 2x)",
+        "desktop_article": "passed: complete localized article and figure visually reviewed at 1280x720 CSS; full-width lavender stage and complete control",
+        "mobile_article": "passed: complete localized article reviewed at 390x844 CSS without page overflow; Audience-all uses its focused mobile picture source",
+        "built_or_served_asset": "passed: production build and security-header check; local built and served PNG returned 200 with byte-identical SHA-256; PR #199 preview PNG returned 200 with matching bytes"
+      },
+      "status": "local_verified_public_pending"
+    },
+    {
+      "article_source": "_i18n/es/audience/exporting-data.md",
+      "article_public_url": "https://help.hellotext.com/es/exportar-datos",
+      "locale": "es",
+      "step_and_target_control": "Revenue report period selector with Personalizado selected.",
+      "capture_time_utc_from_filesystem_birth": "2026-09-28T20:10:38.398319+00:00",
+      "capture_date_basis": "Native raw PNG filesystem birth timestamp; no camera or EXIF timestamp asserted.",
+      "source_route_and_state": "http://127.0.0.1:3191/hellotext/reports/e9Z2LN51?from=2026-09-19&to=2026-09-25&preset=custom&metric=ai_driven_revenue; custom period 2026-09-19 through 2026-09-25, three visible +4% green KPI comparisons.",
+      "raw_source_filename": "export-revenue-es-native.png",
+      "raw_source_sha256": "a4ce9de4370d2985647bf702f48e946683380e4ca51a5fe3beba04e54a8c07ce",
+      "raw_source_disposition": "Temporary local verification source only; full Chrome window, toolbar, and debugging banner are excluded from Git.",
+      "original_file": "docs/editorial-work/captures/exporting-data/revenue-period-es-original.png",
+      "static_asset": "images/audience/exporting-data/revenue-period-es.png",
+      "original_sha256": "00b03e9da018f93cefa65ae170b6b5a14ee9f05e3318af8b9e9f8381151ecd8a",
+      "static_asset_sha256": "00b03e9da018f93cefa65ae170b6b5a14ee9f05e3318af8b9e9f8381151ecd8a",
+      "source_rect": {
+        "x": 145,
+        "y": 790,
+        "width": 895,
+        "height": 150,
+        "unit": "native source pixels"
+      },
+      "source_pixels": {
+        "width": 895,
+        "height": 150
+      },
+      "max_display_css_pixels": {
+        "width": 447,
+        "basis": "Conservative 2x maximum; the Help stage and image frame may render it smaller."
+      },
+      "actual_file_format": "PNG, 8-bit RGBA, non-interlaced; native source pixels retained with embedded Display P3 ICC.",
+      "transformations": [
+        "sips -c 150 895 --cropOffset 790 145 export-revenue-es-native.png --out revenue-period-es-original.png; crop only, no resampling, color conversion, compositing, annotation, or retouching"
+      ],
+      "pointer": {
+        "kind": "none in retained crop",
+        "system_cursor": "not visible",
+        "automation_pointer": "outside retained crop"
+      },
+      "verification": {
+        "file": "passed: PNG signature, source dimensions, and embedded Display P3 profile checked with file and sips",
+        "source_pixels": "passed: decoded crop pixels equal the same rectangle of the raw native source",
+        "source_asset": "passed: retained original and static article asset byte-identical by SHA-256",
+        "density": "passed at the recorded maximum CSS width (at least 2x)",
+        "desktop_article": "passed: complete localized article and figure visually reviewed at 1280x720 CSS; full-width lavender stage and complete control",
+        "mobile_article": "passed: complete localized article reviewed at 390x844 CSS without page overflow; Audience-all uses its focused mobile picture source",
+        "built_or_served_asset": "passed: production build and security-header check; local built and served PNG returned 200 with byte-identical SHA-256; PR #199 preview PNG returned 200 with matching bytes"
+      },
+      "status": "local_verified_public_pending"
+    },
+    {
+      "article_source": "_i18n/en/audience/exporting-data.md",
+      "article_public_url": "https://help.hellotext.com/exporting-data",
+      "locale": "en",
+      "step_and_target_control": "Revenue report period selector with Custom selected.",
+      "capture_time_utc_from_filesystem_birth": "2026-09-28T20:12:03.257830+00:00",
+      "capture_date_basis": "Native raw PNG filesystem birth timestamp; no camera or EXIF timestamp asserted.",
+      "source_route_and_state": "http://127.0.0.1:3191/hellotext/reports/e9Z2LN51?from=2026-09-19&to=2026-09-25&preset=custom&metric=ai_driven_revenue; custom period 2026-09-19 through 2026-09-25, three visible +4% green KPI comparisons.",
+      "raw_source_filename": "export-revenue-en-native.png",
+      "raw_source_sha256": "a4a3c71b3433526faddb4959a6da8b8b6e6bbbe4082395e082c10b693f779b67",
+      "raw_source_disposition": "Temporary local verification source only; full Chrome window, toolbar, and debugging banner are excluded from Git.",
+      "original_file": "docs/editorial-work/captures/exporting-data/revenue-period-en-original.png",
+      "static_asset": "images/audience/exporting-data/revenue-period-en.png",
+      "original_sha256": "02de5c9c411513307b859f0d8ac0ca0f14e1856a2b970116a7c01a7a94bdb38c",
+      "static_asset_sha256": "02de5c9c411513307b859f0d8ac0ca0f14e1856a2b970116a7c01a7a94bdb38c",
+      "source_rect": {
+        "x": 145,
+        "y": 790,
+        "width": 895,
+        "height": 150,
+        "unit": "native source pixels"
+      },
+      "source_pixels": {
+        "width": 895,
+        "height": 150
+      },
+      "max_display_css_pixels": {
+        "width": 447,
+        "basis": "Conservative 2x maximum; the Help stage and image frame may render it smaller."
+      },
+      "actual_file_format": "PNG, 8-bit RGBA, non-interlaced; native source pixels retained with embedded Display P3 ICC.",
+      "transformations": [
+        "sips -c 150 895 --cropOffset 790 145 export-revenue-en-native.png --out revenue-period-en-original.png; crop only, no resampling, color conversion, compositing, annotation, or retouching"
+      ],
+      "pointer": {
+        "kind": "none in retained crop",
+        "system_cursor": "not visible",
+        "automation_pointer": "outside retained crop"
+      },
+      "verification": {
+        "file": "passed: PNG signature, source dimensions, and embedded Display P3 profile checked with file and sips",
+        "source_pixels": "passed: decoded crop pixels equal the same rectangle of the raw native source",
+        "source_asset": "passed: retained original and static article asset byte-identical by SHA-256",
+        "density": "passed at the recorded maximum CSS width (at least 2x)",
+        "desktop_article": "passed: complete localized article and figure visually reviewed at 1280x720 CSS; full-width lavender stage and complete control",
+        "mobile_article": "passed: complete localized article reviewed at 390x844 CSS without page overflow; Audience-all uses its focused mobile picture source",
+        "built_or_served_asset": "passed: production build and security-header check; local built and served PNG returned 200 with byte-identical SHA-256; PR #199 preview PNG returned 200 with matching bytes"
+      },
+      "status": "local_verified_public_pending"
+    },
+    {
+      "article_source": "_i18n/es/audience/exporting-data.md",
+      "article_public_url": "https://help.hellotext.com/es/exportar-datos",
+      "locale": "es",
+      "step_and_target_control": "Revenue export icon above the complete fictional Ingresos totales KPI card.",
+      "capture_time_utc_from_filesystem_birth": "2026-09-28T20:10:38.398319+00:00",
+      "capture_date_basis": "Native raw PNG filesystem birth timestamp; no camera or EXIF timestamp asserted.",
+      "source_route_and_state": "http://127.0.0.1:3191/hellotext/reports/e9Z2LN51?from=2026-09-19&to=2026-09-25&preset=custom&metric=ai_driven_revenue; custom period 2026-09-19 through 2026-09-25, three visible +4% green KPI comparisons.",
+      "raw_source_filename": "export-revenue-es-native.png",
+      "raw_source_sha256": "a4ce9de4370d2985647bf702f48e946683380e4ca51a5fe3beba04e54a8c07ce",
+      "raw_source_disposition": "Temporary local verification source only; full Chrome window, toolbar, and debugging banner are excluded from Git.",
+      "original_file": "docs/editorial-work/captures/exporting-data/revenue-export-es-original.png",
+      "static_asset": "images/audience/exporting-data/revenue-export-es.png",
+      "original_sha256": "3e1371c56a56c8e8d268605a17d0432f86d422ba05e6d039c0a801730feedbb4",
+      "static_asset_sha256": "3e1371c56a56c8e8d268605a17d0432f86d422ba05e6d039c0a801730feedbb4",
+      "source_rect": {
+        "x": 1790,
+        "y": 795,
+        "width": 855,
+        "height": 610,
+        "unit": "native source pixels"
+      },
+      "source_pixels": {
+        "width": 855,
+        "height": 610
+      },
+      "max_display_css_pixels": {
+        "width": 427,
+        "basis": "Conservative 2x maximum; the Help stage and image frame may render it smaller."
+      },
+      "actual_file_format": "PNG, 8-bit RGBA, non-interlaced; native source pixels retained with embedded Display P3 ICC.",
+      "transformations": [
+        "sips -c 610 855 --cropOffset 795 1790 export-revenue-es-native.png --out revenue-export-es-original.png; crop only, no resampling, color conversion, compositing, annotation, or retouching"
+      ],
+      "pointer": {
+        "kind": "none in retained crop",
+        "system_cursor": "not visible",
+        "automation_pointer": "outside retained crop"
+      },
+      "verification": {
+        "file": "passed: PNG signature, source dimensions, and embedded Display P3 profile checked with file and sips",
+        "source_pixels": "passed: decoded crop pixels equal the same rectangle of the raw native source",
+        "source_asset": "passed: retained original and static article asset byte-identical by SHA-256",
+        "density": "passed at the recorded maximum CSS width (at least 2x)",
+        "desktop_article": "passed: complete localized article and figure visually reviewed at 1280x720 CSS; full-width lavender stage and complete control",
+        "mobile_article": "passed: complete localized article reviewed at 390x844 CSS without page overflow; Audience-all uses its focused mobile picture source",
+        "built_or_served_asset": "passed: production build and security-header check; local built and served PNG returned 200 with byte-identical SHA-256; PR #199 preview PNG returned 200 with matching bytes"
+      },
+      "status": "local_verified_public_pending"
+    },
+    {
+      "article_source": "_i18n/en/audience/exporting-data.md",
+      "article_public_url": "https://help.hellotext.com/exporting-data",
+      "locale": "en",
+      "step_and_target_control": "Revenue export icon above the complete fictional Total revenue KPI card.",
+      "capture_time_utc_from_filesystem_birth": "2026-09-28T20:12:03.257830+00:00",
+      "capture_date_basis": "Native raw PNG filesystem birth timestamp; no camera or EXIF timestamp asserted.",
+      "source_route_and_state": "http://127.0.0.1:3191/hellotext/reports/e9Z2LN51?from=2026-09-19&to=2026-09-25&preset=custom&metric=ai_driven_revenue; custom period 2026-09-19 through 2026-09-25, three visible +4% green KPI comparisons.",
+      "raw_source_filename": "export-revenue-en-native.png",
+      "raw_source_sha256": "a4a3c71b3433526faddb4959a6da8b8b6e6bbbe4082395e082c10b693f779b67",
+      "raw_source_disposition": "Temporary local verification source only; full Chrome window, toolbar, and debugging banner are excluded from Git.",
+      "original_file": "docs/editorial-work/captures/exporting-data/revenue-export-en-original.png",
+      "static_asset": "images/audience/exporting-data/revenue-export-en.png",
+      "original_sha256": "cd519c5b41dd3563e399df87e65a8e7f715fbe86247f19e55b6b9da36449338e",
+      "static_asset_sha256": "cd519c5b41dd3563e399df87e65a8e7f715fbe86247f19e55b6b9da36449338e",
+      "source_rect": {
+        "x": 1790,
+        "y": 795,
+        "width": 855,
+        "height": 610,
+        "unit": "native source pixels"
+      },
+      "source_pixels": {
+        "width": 855,
+        "height": 610
+      },
+      "max_display_css_pixels": {
+        "width": 427,
+        "basis": "Conservative 2x maximum; the Help stage and image frame may render it smaller."
+      },
+      "actual_file_format": "PNG, 8-bit RGBA, non-interlaced; native source pixels retained with embedded Display P3 ICC.",
+      "transformations": [
+        "sips -c 610 855 --cropOffset 795 1790 export-revenue-en-native.png --out revenue-export-en-original.png; crop only, no resampling, color conversion, compositing, annotation, or retouching"
+      ],
+      "pointer": {
+        "kind": "none in retained crop",
+        "system_cursor": "not visible",
+        "automation_pointer": "outside retained crop"
+      },
+      "verification": {
+        "file": "passed: PNG signature, source dimensions, and embedded Display P3 profile checked with file and sips",
+        "source_pixels": "passed: decoded crop pixels equal the same rectangle of the raw native source",
+        "source_asset": "passed: retained original and static article asset byte-identical by SHA-256",
+        "density": "passed at the recorded maximum CSS width (at least 2x)",
+        "desktop_article": "passed: complete localized article and figure visually reviewed at 1280x720 CSS; full-width lavender stage and complete control",
+        "mobile_article": "passed: complete localized article reviewed at 390x844 CSS without page overflow; Audience-all uses its focused mobile picture source",
+        "built_or_served_asset": "passed: production build and security-header check; local built and served PNG returned 200 with byte-identical SHA-256; PR #199 preview PNG returned 200 with matching bytes"
+      },
+      "status": "local_verified_public_pending"
+    },
+    {
+      "article_source": "_i18n/es/audience/exporting-data.md",
+      "article_public_url": "https://help.hellotext.com/es/exportar-datos",
+      "locale": "es",
+      "step_and_target_control": "Mobile close-up of the Audience more-options ellipsis and complete Exportar a archivo popup.",
+      "capture_time_utc_from_filesystem_birth": "2026-09-28T20:09:18.999356+00:00",
+      "capture_date_basis": "Native raw PNG filesystem birth timestamp; no camera or EXIF timestamp asserted.",
+      "source_route_and_state": "http://127.0.0.1:3191/hellotext/audience; unselected audience menu open.",
+      "raw_source_filename": "export-audience-all-es-native-clean.png",
+      "raw_source_sha256": "8ca0e121a47da035ae609de6e1d3121fb935b13a269db3023b61a5eaf0899c9c",
+      "raw_source_disposition": "Temporary local verification source only; full Chrome window, toolbar, and debugging banner are excluded from Git.",
+      "original_file": "docs/editorial-work/captures/exporting-data/audience-all-mobile-es-original.png",
+      "static_asset": "images/audience/exporting-data/audience-all-mobile-es.png",
+      "original_sha256": "ff5f1197be3e9435b3cab557f77c1d8f55bbf5b7c4c4ed64d8410e982c231f3a",
+      "static_asset_sha256": "ff5f1197be3e9435b3cab557f77c1d8f55bbf5b7c4c4ed64d8410e982c231f3a",
+      "source_rect": {
+        "x": 1500,
+        "y": 470,
+        "width": 670,
+        "height": 365,
+        "unit": "native source pixels"
+      },
+      "source_pixels": {
+        "width": 670,
+        "height": 365
+      },
+      "max_display_css_pixels": {
+        "width": 335,
+        "basis": "Focused responsive mobile alternate; never exceed 335 CSS pixels for strict 2x density. Reviewed as 316 CSS pixels at the 390px Help viewport, giving 2.12x."
+      },
+      "actual_file_format": "PNG, 8-bit RGBA, non-interlaced; native source pixels retained with embedded Display P3 ICC.",
+      "transformations": [
+        "sips -c 365 670 --cropOffset 470 1500 export-audience-all-es-native-clean.png --out audience-all-mobile-es-original.png; crop only, no resampling, color conversion, compositing, annotation, or retouching"
+      ],
+      "pointer": {
+        "kind": "none in retained crop",
+        "system_cursor": "not visible",
+        "automation_pointer": "outside retained crop"
+      },
+      "verification": {
+        "file": "passed: PNG signature, source dimensions, and embedded Display P3 profile checked with file and sips",
+        "source_pixels": "passed: decoded crop pixels equal the same rectangle of the raw native source",
+        "source_asset": "passed: retained original and static article asset byte-identical by SHA-256",
+        "density": "passed: 670 native pixels / 335 CSS maximum = 2.0x; at reviewed 316 CSS width = 2.12x",
+        "desktop_article": "not applicable: desktop picture source selects the wide Audience-all asset; verified at 1280x720 CSS",
+        "mobile_article": "passed: selected by picture at 390x844 CSS; complete localized menu readable, no page overflow, 316 CSS display width and 2.12x source density",
+        "built_or_served_asset": "passed: production build and security-header check; local built and served PNG returned 200 with byte-identical SHA-256; PR #199 preview PNG returned 200 with matching bytes"
+      },
+      "status": "local_verified_public_pending"
+    },
+    {
+      "article_source": "_i18n/en/audience/exporting-data.md",
+      "article_public_url": "https://help.hellotext.com/exporting-data",
+      "locale": "en",
+      "step_and_target_control": "Mobile close-up of the Audience more-options ellipsis and complete Export to file popup.",
+      "capture_time_utc_from_filesystem_birth": "2026-09-28T20:11:31.140463+00:00",
+      "capture_date_basis": "Native raw PNG filesystem birth timestamp; no camera or EXIF timestamp asserted.",
+      "source_route_and_state": "http://127.0.0.1:3191/hellotext/audience; unselected audience menu open.",
+      "raw_source_filename": "export-audience-all-en-native.png",
+      "raw_source_sha256": "c6ce711cd7efefc0bf394b583bc227d1e120766bf3b05373cbcb91ba3d50807e",
+      "raw_source_disposition": "Temporary local verification source only; full Chrome window, toolbar, and debugging banner are excluded from Git.",
+      "original_file": "docs/editorial-work/captures/exporting-data/audience-all-mobile-en-original.png",
+      "static_asset": "images/audience/exporting-data/audience-all-mobile-en.png",
+      "original_sha256": "dcf037ce7dcb7a396469985bdf5375b1adc44aab961b16c4c706a1c7f1c1352a",
+      "static_asset_sha256": "dcf037ce7dcb7a396469985bdf5375b1adc44aab961b16c4c706a1c7f1c1352a",
+      "source_rect": {
+        "x": 1500,
+        "y": 470,
+        "width": 670,
+        "height": 365,
+        "unit": "native source pixels"
+      },
+      "source_pixels": {
+        "width": 670,
+        "height": 365
+      },
+      "max_display_css_pixels": {
+        "width": 335,
+        "basis": "Focused responsive mobile alternate; never exceed 335 CSS pixels for strict 2x density. Reviewed as 316 CSS pixels at the 390px Help viewport, giving 2.12x."
+      },
+      "actual_file_format": "PNG, 8-bit RGBA, non-interlaced; native source pixels retained with embedded Display P3 ICC.",
+      "transformations": [
+        "sips -c 365 670 --cropOffset 470 1500 export-audience-all-en-native.png --out audience-all-mobile-en-original.png; crop only, no resampling, color conversion, compositing, annotation, or retouching"
+      ],
+      "pointer": {
+        "kind": "none in retained crop",
+        "system_cursor": "not visible",
+        "automation_pointer": "outside retained crop"
+      },
+      "verification": {
+        "file": "passed: PNG signature, source dimensions, and embedded Display P3 profile checked with file and sips",
+        "source_pixels": "passed: decoded crop pixels equal the same rectangle of the raw native source",
+        "source_asset": "passed: retained original and static article asset byte-identical by SHA-256",
+        "density": "passed: 670 native pixels / 335 CSS maximum = 2.0x; at reviewed 316 CSS width = 2.12x",
+        "desktop_article": "not applicable: desktop picture source selects the wide Audience-all asset; verified at 1280x720 CSS",
+        "mobile_article": "passed: selected by picture at 390x844 CSS; complete localized menu readable, no page overflow, 316 CSS display width and 2.12x source density",
+        "built_or_served_asset": "passed: production build and security-header check; local built and served PNG returned 200 with byte-identical SHA-256; PR #199 preview PNG returned 200 with matching bytes"
+      },
+      "status": "local_verified_public_pending"
+    }
+  ]
+}

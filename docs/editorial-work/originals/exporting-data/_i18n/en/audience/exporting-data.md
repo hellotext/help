@@ -19,32 +19,9 @@ Both exports are point-in-time CSV files. They do not create an ongoing synchron
 4. Open the more-options menu in the Audience search bar.
 5. Select **Export to file** or **Export selected**.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Option to export the open audience">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 760px; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 409px)" srcset="/images/audience/exporting-data/audience-all-mobile-en.png" width="670" height="365" />
-        <img class="ht-editorial-visual__image" src="/images/audience/exporting-data/audience-all-en.png" width="1520" height="270" loading="lazy" decoding="async" alt="Audience menu showing the Export to file option." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Real English interface with fictional demonstration data. The option is shown without starting an export.</figcaption>
-</figure>
+Hellotext prepares the file in the background and shows its progress in Audience. When it is ready, the download starts automatically and Hellotext also sends the file by email. If the automatic download does not start, use the download button in the completed export notification.
 
-After selecting profiles, the same menu offers **Export selected**:
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Option to export only the selected profiles">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 172px; margin: 0 auto;">
-      <img class="ht-editorial-visual__image" src="/images/audience/exporting-data/audience-selected-menu-en.png" width="345" height="220" loading="lazy" decoding="async" alt="Close-up of the Audience menu with the Export selected option." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Close-up of the real English interface with a fictional selection; no export was started.</figcaption>
-</figure>
-
-Hellotext prepares the file in the background and shows its progress in Audience. When it is ready, the download starts automatically and Hellotext also emails a time-limited link to download it. If the automatic download does not start, use the download button in the completed export notification.
-
-Audience offers a cancel option while an export is shown as preparing. If processing has already started, that action may not stop the file in progress. If the export action is not available, ask an administrator to confirm your team role and permissions.
+You can cancel an export while it is still being prepared. If the export action is not available, ask an administrator to confirm your team role and permissions.
 
 ## Understand the profile CSV
 
@@ -63,7 +40,7 @@ Create or open the narrowest useful audience before exporting:
 - Select individual profiles when you need an exception or a small operational set.
 - Use **All profiles** only when the destination genuinely needs the complete audience.
 
-Review the audience count and a sample of its profiles before creating the export. Segment membership is queried while the export is prepared and may change after you review the count. Check the generated result: the CSV is a fixed snapshot once it has been prepared.
+Review the audience count and a sample of its profiles before creating the export. A segment is evaluated from the data available when you open and export it, while the CSV remains a fixed snapshot after it is generated.
 
 ## Prepare the CSV for BI or CRM
 
@@ -94,32 +71,10 @@ Exporting a profile does not subscribe the customer, grant consent, or make the 
 
 1. Go to **Dashboard** and open the **Revenue** report.
 2. Select the reporting date range you want to review.
-3. Select the download icon beside the date-range controls.
-4. Wait while Hellotext prepares the CSV. The download starts automatically when it is ready, and Hellotext also emails a time-limited link to retrieve it.
+3. Select the download icon beside the report heading.
+4. Wait while Hellotext prepares the CSV. The download starts automatically when it is ready, and Hellotext also sends it by email.
 
-In the report, **Custom** identifies the selected date range:
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Revenue report date-range controls">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 447px; margin: 0 auto;">
-      <img class="ht-editorial-visual__image" src="/images/audience/exporting-data/revenue-period-en.png" width="895" height="150" loading="lazy" decoding="async" alt="Revenue report date-range options with Custom selected." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Real English control with a demonstration date range.</figcaption>
-</figure>
-
-The download icon sits to the right of those controls, above the populated report:
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Revenue report export icon">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 427px; margin: 0 auto;">
-      <img class="ht-editorial-visual__image" src="/images/audience/exporting-data/revenue-export-en.png" width="855" height="610" loading="lazy" decoding="async" alt="Download icon above a total revenue card with fictional data and a green comparison." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Real English report with fictional data; no export was started.</figcaption>
-</figure>
-
-The Revenue export is designed for reviewing attributed sales. Depending on the available evidence, it can include the order and customer, credited campaign, route, or playbook, source and channel, attributed amount, attribution reason, AI and human commercial evidence, and a link to the attribution event or relevant conversation context.
+The Revenue export is designed for reviewing attributed sales. Depending on the available evidence, it can include the order and customer, credited campaign, route, or playbook, source and channel, attributed amount, attribution reason, AI and human commercial evidence, and a link to the relevant conversation.
 
 This export contains attributed sales for the chosen period. It is not a complete export of all store orders or all business revenue. See [Sales attribution]({% link _analytics-reporting-attribution/sales-attribution.md %}) to understand the evidence and windows behind those rows.
 
@@ -127,7 +82,7 @@ This export contains attributed sales for the chosen period. It is not a complet
 
 CSV files can contain personal data and business-specific properties.
 
-- Limit the export to the records needed, and before transferring the CSV, remove columns the recipient does not need from a controlled copy.
+- Export only the records and columns needed for the task.
 - Store the file in an approved location with limited access.
 - Do not send exported customer data through an unsecured channel.
 - Delete temporary copies when the analysis or transfer is complete.

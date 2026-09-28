@@ -19,32 +19,9 @@ Ambas exportaciones son archivos CSV que representan un momento determinado. No 
 4. Abre el menú de más opciones en la barra de búsqueda de Audiencia.
 5. Selecciona **Exportar a archivo** o **Exportar seleccionados**.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Opción para exportar la audiencia abierta">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 760px; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 409px)" srcset="/images/audience/exporting-data/audience-all-mobile-es.png" width="670" height="365" />
-        <img class="ht-editorial-visual__image" src="/images/audience/exporting-data/audience-all-es.png" width="1520" height="270" loading="lazy" decoding="async" alt="Menú de Audiencia con la opción Exportar a archivo." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Interfaz real en español con datos ficticios. Se muestra la opción, sin iniciar una exportación.</figcaption>
-</figure>
+Hellotext prepara el archivo en segundo plano y muestra el progreso en Audiencia. Cuando está listo, la descarga comienza automáticamente y Hellotext también envía el archivo por email. Si la descarga automática no comienza, usa el botón de descarga de la notificación de exportación completada.
 
-Al seleccionar perfiles, el mismo menú ofrece **Exportar seleccionados**:
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Opción para exportar solamente los perfiles seleccionados">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 172px; margin: 0 auto;">
-      <img class="ht-editorial-visual__image" src="/images/audience/exporting-data/audience-selected-menu-es.png" width="345" height="220" loading="lazy" decoding="async" alt="Detalle del menú de Audiencia con la opción Exportar seleccionados." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Detalle de la interfaz real en español con una selección ficticia; no se inició una exportación.</figcaption>
-</figure>
-
-Hellotext prepara el archivo en segundo plano y muestra el progreso en Audiencia. Cuando está listo, la descarga comienza automáticamente y Hellotext también envía por email un enlace temporal para descargarlo. Si la descarga automática no comienza, usa el botón de descarga de la notificación de exportación completada.
-
-Audiencia ofrece la opción de cancelar mientras la exportación figura en preparación. Si el procesamiento ya comenzó, esa acción puede no detener el archivo en curso. Si la acción de exportar no está disponible, pide a un administrador que revise tu rol y permisos dentro del equipo.
+Puedes cancelar una exportación mientras todavía se está preparando. Si la acción de exportar no está disponible, pide a un administrador que revise tu rol y permisos dentro del equipo.
 
 ## Entiende el CSV de perfiles
 
@@ -63,7 +40,7 @@ Crea o abre la audiencia útil más específica antes de exportar:
 - Selecciona perfiles individuales cuando necesites una excepción o un conjunto operativo pequeño.
 - Usa **Todos los perfiles** solamente cuando el destino realmente necesite la audiencia completa.
 
-Revisa la cantidad de clientes y una muestra de sus perfiles antes de crear la exportación. La pertenencia a un segmento se consulta durante la preparación de la exportación y puede cambiar desde que revisaste el conteo. Comprueba el resultado generado: el CSV queda como una instantánea fija una vez preparado.
+Revisa la cantidad de clientes y una muestra de sus perfiles antes de crear la exportación. Un segmento se evalúa con los datos disponibles cuando lo abres y exportas, mientras que el CSV queda como una instantánea fija después de generarse.
 
 ## Prepara el CSV para BI o CRM
 
@@ -94,32 +71,10 @@ Exportar un perfil no suscribe al cliente, no otorga consentimiento ni lo habili
 
 1. Ve a **Dashboard** y abre el reporte de **Ingresos**.
 2. Selecciona el período que quieres revisar.
-3. Selecciona el ícono de descarga junto a los controles del período.
-4. Espera mientras Hellotext prepara el CSV. La descarga comienza automáticamente cuando está listo y Hellotext también envía por email un enlace temporal para obtenerlo.
+3. Selecciona el ícono de descarga junto al encabezado del reporte.
+4. Espera mientras Hellotext prepara el CSV. La descarga comienza automáticamente cuando está listo y Hellotext también lo envía por email.
 
-En el reporte, **Personalizado** identifica el período seleccionado:
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Controles del período del Reporte de ingresos">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 447px; margin: 0 auto;">
-      <img class="ht-editorial-visual__image" src="/images/audience/exporting-data/revenue-period-es.png" width="895" height="150" loading="lazy" decoding="async" alt="Opciones de período del Reporte de ingresos con Personalizado seleccionado." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Control real en español con un período de demostración.</figcaption>
-</figure>
-
-El ícono de descarga está a la derecha de esos controles, sobre el reporte poblado:
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Ícono de exportación del Reporte de ingresos">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 427px; margin: 0 auto;">
-      <img class="ht-editorial-visual__image" src="/images/audience/exporting-data/revenue-export-es.png" width="855" height="610" loading="lazy" decoding="async" alt="Ícono de descarga sobre una tarjeta de ingresos totales con datos ficticios y comparación verde." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Reporte real en español con datos ficticios; no se inició una exportación.</figcaption>
-</figure>
-
-La exportación de Ingresos está diseñada para revisar ventas atribuidas. Según la evidencia disponible, puede incluir el pedido y cliente, la campaña, ruta o misión que recibió la atribución, la fuente y canal, el monto atribuido, el motivo de atribución, evidencia comercial de IA y humana y un enlace al evento de atribución o al contexto de conversación correspondiente.
+La exportación de Ingresos está diseñada para revisar ventas atribuidas. Según la evidencia disponible, puede incluir el pedido y cliente, la campaña, ruta o misión que recibió la atribución, la fuente y canal, el monto atribuido, el motivo de atribución, evidencia comercial de IA y humana y un link a la conversación correspondiente.
 
 Esta exportación contiene las ventas atribuidas del período elegido. No es una exportación completa de todos los pedidos de la tienda ni de todos los ingresos del negocio. Consulta [Atribución de ventas]({% link _analytics-reporting-attribution/sales-attribution.md %}) para entender la evidencia y ventanas detrás de esas filas.
 
@@ -127,7 +82,7 @@ Esta exportación contiene las ventas atribuidas del período elegido. No es una
 
 Los archivos CSV pueden contener datos personales y propiedades propias del negocio.
 
-- Limita la exportación a los registros necesarios y, antes de transferir el CSV, elimina de una copia controlada las columnas que el destinatario no necesita.
+- Exporta solamente los registros y columnas necesarios para la tarea.
 - Guarda el archivo en una ubicación aprobada y con acceso limitado.
 - No envíes datos exportados de clientes por un canal inseguro.
 - Elimina las copias temporales cuando termine el análisis o transferencia.
