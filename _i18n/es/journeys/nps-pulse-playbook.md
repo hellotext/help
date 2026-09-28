@@ -1,6 +1,6 @@
 Usa esta guía cuando quieres medir si los clientes recomendarían tu marca después de recibir un pedido.
 
-Pulso NPS es una misión de feedback de relación. Hace una pregunta de recomendación de 0 a 10 después de un evento confiable de entrega, clasifica la respuesta como promotor, pasivo o detractor, hace una pregunta de seguimiento según el puntaje y ayuda a tu equipo a recuperar la experiencia cuando el puntaje es bajo.
+Pulso NPS es una misión de feedback de relación. Después de un evento de pedido entregado, programa una pregunta de recomendación de 1 a 10 y guarda el primer puntaje válido como promotor, pasivo o detractor.
 
 No es una solicitud de reseña de producto ni una encuesta de satisfacción de soporte. Usa [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) para reseñas de productos después de la entrega. Usa [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}) para satisfacción después de una conversación resuelta de soporte, Inbox, IA o misión.
 
@@ -10,14 +10,13 @@ Pulso NPS ayuda a medir lealtad a nivel de relación.
 
 Puede:
 
-- Enviar una pregunta NPS después de un pedido entregado o evento equivalente de entrega.
-- Preguntar qué tan probable es que el cliente recomiende la marca en una escala de 0 a 10.
+- Enviar una pregunta NPS después de un evento de pedido entregado reconocido por Hellotext.
+- Preguntar qué tan probable es que el cliente recomiende la marca en una escala de 1 a 10.
 - Aceptar respuestas rápidas cuando el canal las soporta, o un número escrito.
 - Clasificar la respuesta como promotor, pasivo o detractor.
-- Hacer una pregunta de seguimiento según el puntaje.
-- Guardar el puntaje, grupo y motivo para reportes.
-- Crear un camino de recuperación cuando el cliente es detractor.
+- Guardar el primer puntaje válido y su grupo.
 - Evitar solicitudes NPS duplicadas para el mismo evento de entrega.
+- Aplicar un intervalo de 90 días entre solicitudes NPS elegibles para el mismo cliente.
 
 El objetivo es entender la lealtad hacia la marca después de que el cliente tuvo suficiente experiencia para evaluar el pedido, la entrega y la relación general.
 
@@ -26,10 +25,9 @@ El objetivo es entender la lealtad hacia la marca después de que el cliente tuv
 Usa Pulso NPS cuando:
 
 - Quieres medir lealtad o probabilidad de recomendación.
-- Tienes señales confiables de pedido entregado o envío entregado.
-- Quieres una señal simple de relación de 0 a 10, no una reseña de producto.
+- Tienes señales confiables de pedido entregado.
+- Quieres una señal simple de relación de 1 a 10, no una reseña de producto.
 - Tu equipo quiere dar seguimiento a detractores.
-- Tienes suficiente volumen de pedidos entregados para aprender tendencias en el tiempo.
 
 Funciona mejor después de que el cliente recibió el pedido y tuvo un poco de tiempo para formarse una opinión.
 
@@ -37,9 +35,9 @@ Funciona mejor después de que el cliente recibió el pedido y tuvo un poco de t
 
 Pulso NPS no reemplaza las demás misiones de feedback. Puedes tener [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}), [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}) y Pulso NPS activos al mismo tiempo.
 
-El motor de decisión de Hellotext usa señales distintas para elegir qué corresponde en cada momento. Por ejemplo, puede pedir una reseña de producto después de la entrega, pedir CSAT después de una conversación resuelta y pedir NPS cuando el objetivo es medir lealtad o probabilidad de recomendación.
+Un mismo evento de pedido entregado puede programar Pulso NPS y Generador de Reseñas por separado si ambas misiones están activas. Cada una aplica sus propias reglas de elegibilidad y envío.
 
-Usa [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) cuando necesitas calificaciones por producto, reseñas escritas y registros exportables de reseñas.
+Usa [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) cuando necesitas calificaciones por producto y reseñas escritas.
 
 Usa [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}) cuando la pregunta es si una conversación de soporte, Inbox, IA o misión fue útil.
 
@@ -51,10 +49,9 @@ Usa el Inbox directamente cuando el cliente ya está molesto, pide ayuda o repor
 
 Antes de habilitar Pulso NPS, confirma:
 
-- Las señales de pedido entregado o envío entregado son confiables.
+- Las señales de pedido entregado son confiables y llegan a Hellotext.
 - El perfil de cliente tiene un canal de mensajería elegible y consentimiento.
-- Tu equipo sabe quién revisa las respuestas de detractores.
-- Tu equipo sabe dónde revisar los resultados NPS.
+- Tu equipo tiene un proceso independiente para atender puntajes bajos.
 - Las reseñas de producto y la satisfacción de soporte se manejan con sus propias misiones cuando haga falta.
 
 Para validar la configuración, usa [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %}).
@@ -67,31 +64,30 @@ Abre **Mensaje NPS** para editar la pregunta principal que reciben los clientes 
 
 La pregunta por defecto es:
 
-En una escala de 0 a 10, ¿qué tan probable es que nos recomiendes a un amigo o colega?
+En una escala del 1 al 10, ¿qué tan probable es que nos recomiendes a un amigo o colega?
 
 Mantén la pregunta enfocada en recomendación. Si agregas demasiado contexto, los clientes pueden responder sobre una sola interacción de soporte o un solo producto en lugar de la relación general.
 
-Pulso NPS usa preguntas de seguimiento según el puntaje después de que el cliente responde. Esas preguntas ayudan a entender por qué el cliente dio ese puntaje.
+Puedes editar el texto de la pregunta. Los botones de puntaje del 1 al 10 son fijos.
 
 ## Entiende timing y elegibilidad
 
-Pulso NPS está pensado para enviarse después de la entrega, no inmediatamente después de la compra.
+Pulso NPS se activa con un evento de pedido entregado, no con la compra. Si una integración informa la entrega de un envío, debe hacerlo mediante ese evento para activar la misión.
 
-El timing por defecto es alrededor de 7 días después de un hito confiable de entrega.
+La programación parte de siete días después de la fecha del evento. La optimización del horario y el espaciado de mensajes pueden elegir un momento posterior.
 
-Una pregunta puede omitirse cuando:
+Si no llega el evento de entrega, no se programa la pregunta. Un evento ya procesado no genera otra pregunta. Un nuevo intento puede omitirse cuando:
 
-- Hellotext no tiene un hito de entrega para el pedido, envío o evento mapeado.
-- La fecha de entrega falta o no es válida.
-- El mismo evento de entrega ya recibió una solicitud NPS.
+- Otro intento NPS para el cliente ocupa el intervalo de 90 días.
+- El cliente queda fuera de la audiencia configurada.
 - El cliente no es elegible para el canal.
 - Consentimiento, política del canal, límites de envío u otras reglas de envío bloquean el mensaje.
 
-Si NPS se omite por elegibilidad, no lo trates como una misión rota. Normalmente significa que Hellotext no tenía un momento seguro o útil para preguntar.
+Si un intento se omite, revisa la señal de entrega, la audiencia y la elegibilidad del canal antes de cambiar la misión.
 
 ## Entiende el puntaje
 
-NPS usa una respuesta de 0 a 10.
+NPS usa una respuesta de 1 a 10.
 
 Hellotext clasifica el puntaje así:
 
@@ -99,52 +95,25 @@ Hellotext clasifica el puntaje así:
 | --- | --- | --- |
 | 9-10 | Promotor | El cliente probablemente recomendaría la marca. |
 | 7-8 | Pasivo | El cliente está suficientemente satisfecho, pero no muestra lealtad fuerte. |
-| 0-6 | Detractor | El cliente puede estar insatisfecho o en riesgo. |
+| 1-6 | Detractor | El cliente puede estar insatisfecho o en riesgo. |
 
-Si el cliente responde algo que no es un número de 0 a 10, Pulso NPS pide un número válido una vez. Si la respuesta sigue siendo inválida, se detiene en lugar de entrar en un ciclo.
+Solo se guarda como puntaje NPS una respuesta numérica del 1 al 10. Pulso NPS no envía una petición automática para corregir una respuesta inválida.
 
-## Maneja respuestas de seguimiento
+## Qué ocurre después de la respuesta
 
-Después de un puntaje válido, Pulso NPS hace una pregunta de seguimiento según el grupo.
+La primera respuesta válida queda asociada al intento NPS con su puntaje y grupo. Las respuestas posteriores no sustituyen ese puntaje.
 
-Para detractores, pregunta qué salió mal o qué podría mejorar.
-
-Para pasivos, pregunta qué haría que la experiencia fuera un 9 o 10.
-
-Para promotores, pregunta qué le gustó más al cliente.
-
-La respuesta escrita se guarda con el resultado NPS para que tu equipo entienda el motivo detrás del puntaje.
+La misión no envía una segunda pregunta ni vincula una explicación escrita posterior como motivo del puntaje.
 
 ## Da seguimiento a detractores
 
-Los puntajes detractores necesitan atención.
+Un puntaje de 1 a 6 se clasifica como detractor. Pulso NPS no crea por sí solo un caso de recuperación ni inicia una derivación específica al Inbox. Organiza por separado quién revisará esos puntajes y cómo hará el seguimiento.
 
-Cuando un cliente da un puntaje de 0 a 6, Pulso NPS puede crear un camino de recuperación para que el equipo dé seguimiento.
+## Entiende los datos NPS disponibles
 
-El seguimiento de detractores puede:
+La misión guarda el puntaje y el grupo en su registro interno. La vista actual de Misiones muestra métricas generales de desempeño, pero no incluye un reporte NPS con puntaje general, tasa de respuesta o distribución de grupos.
 
-- Llevar la conversación al Inbox.
-- Crear un caso de recuperación para el equipo.
-- Mantener el motivo conectado al puntaje NPS original.
-- Ayudar a detectar problemas repetidos de entrega, producto, política o soporte.
-
-Para el comportamiento de derivación, usa [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %}).
-
-## Revisa reportes NPS
-
-Los reportes NPS ayudan a entender lealtad en el tiempo.
-
-Revisa:
-
-- Puntaje NPS general.
-- Tasa de respuesta.
-- Cantidad de promotores, pasivos y detractores.
-- Distribución de grupos en el tiempo.
-- Motivos escritos por grupo.
-- Seguimiento de recuperación de detractores.
-- Diferencias por canal, rango de fechas, intención, misión, campaña o fuente de entrega cuando esté disponible.
-
-El puntaje NPS se calcula como porcentaje de promotores menos porcentaje de detractores.
+Como definición, el puntaje NPS es el porcentaje de promotores menos el porcentaje de detractores entre las respuestas válidas. Ese cálculo no aparece como indicador en la vista actual de Misiones.
 
 ## Cómo probarla
 
@@ -153,27 +122,24 @@ Prueba con escenarios realistas de pedidos entregados antes de habilitar Pulso N
 Prueba:
 
 - Un pedido entregado que debería recibir NPS.
-- Un pedido sin hito de entrega que no debería recibir NPS.
+- Un pedido sin evento reconocido de entrega que no debería activar Pulso NPS.
 - Un puntaje promotor de 9 a 10.
 - Un puntaje pasivo de 7 a 8.
-- Un puntaje detractor de 0 a 6.
+- Un puntaje detractor de 1 a 6.
 - Un número escrito en lugar de una respuesta rápida.
 - Una respuesta inválida.
 - Un cliente que no es elegible para el canal de mensajería elegido.
 
-Confirma que la pregunta NPS se envía solo cuando corresponde, los puntajes válidos se guardan, el grupo correcto aparece en reportes, se envía una sola pregunta de seguimiento y los detractores llegan al proceso de recuperación correcto.
+En un entorno de prueba, confirma que la pregunta se programa solo cuando corresponde, los puntajes válidos se guardan con el grupo correcto y una respuesta inválida no activa una segunda pregunta NPS.
 
 ## Qué revisar después del lanzamiento
 
-Durante los primeros días, revisa:
+Durante los primeros días, comprueba:
 
-- Cuántos pedidos entregados fueron elegibles.
-- Cuántas preguntas fueron enviadas, omitidas, entregadas y respondidas.
-- Puntaje NPS y tasa de respuesta.
-- Distribución de promotores, pasivos y detractores.
-- Temas comunes en los motivos escritos.
-- Seguimiento de detractores y velocidad de respuesta.
-- Señales de que la pregunta se envía antes de que el cliente tenga suficiente contexto de entrega.
+- Que la señal de pedido entregado llegue con la fecha esperada.
+- Que la audiencia, el canal y el consentimiento permitan los envíos previstos.
+- Que no se programe más de un intento para el mismo evento ni se repita la solicitud durante el intervalo de 90 días.
+- Que tu equipo tenga un proceso independiente para atender respuestas con puntajes bajos.
 
 Ajusta una cosa por vez: texto del mensaje, calidad de datos de entrega, preparación del canal o responsable del seguimiento de detractores.
 

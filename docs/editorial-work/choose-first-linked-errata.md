@@ -1,0 +1,11 @@
+# First wins linked Cart Saver erratum
+
+`getting-started/first-wins-starter-pack.md` is a published, still-`pending` conceptual guide linked from Choose your first playbook. Its Cart Saver paragraph in both languages promised that replies, objections or recommendations change the AI Cart Saver's next step, and treated generic cart/checkout signals as sufficient. The default recovery options use a recorded `cart.abandoned` event after detected abandonment. The implemented AI Cart Saver prepares one contextual outbound reminder; reply handling requires a separate configured Inbox or support flow. The linked conversion options also presented the on-request First-Purchase Driver as directly available and omitted that Smart Recommender serves incoming product questions. Correct these focused claims so the linked advice does not contradict the verified comparison and current catalog behavior. Keep this pair `pending` for its own complete review; do not claim that this erratum completes it.
+
+The complete Spanish, English and shared-stub originals are under `originals/choose-first-linked-errata/`. SHA-256: Spanish `9174d08821081fe4e0bc6cef5b1594e3647b41be3e2b2b072b11b12667f23f90`, English `11acc54f9cdcab782a6e2638d0f8c9c50e7f4db7b1be0b9b4143181990d9af87`, stub `2d8fdab8dd23475337687cafdee93eff75a51e7e3ab107a1826ac9f9b4d7a206`. The localized hashes match `inventory.csv`. Preserve both titles, slugs, links, language pairing and publication state; leave the shared stub unchanged.
+
+No new figure is part of this focused erratum. The starter pack describes planning choices rather than an individual control. A complete section-by-section review remains for its own article batch.
+
+## Local verification
+
+The focused Spanish and English edits were reread against the Rails behavior above. The bilingual Jekyll build and security-header check passed. The complete local preview was reviewed at 1440×900 and 390×844 in both languages; headings, links, locale mapping and article width were correct. `git diff --check` passed. The correction is included in content commit `1419af6f`. The pair remains `pending` for its own full editorial review; this local erratum is not publication until merged and verified publicly. The native capture blocker for separate interface guides remains recorded in their work records.
