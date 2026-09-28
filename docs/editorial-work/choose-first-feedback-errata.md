@@ -19,4 +19,4 @@ The bilingual Review Builder and CSAT source corrections were checked against th
 
 New visual inspection at 1440×900 and 390×844 was blocked because the in-app browser was unavailable and automatic approval review rejected browser-surface enumeration that could expose personal windows. An isolated local headless Chrome launch exited 134 before it could provide a layout check. No CSS, template or image changed; do not claim visual completion of these two pairs. Their native interface captures remain outstanding and both progress rows stay `pending`.
 
-Pending content commit, PR review, merge and public ES/EN verification. Record the actual publication separately.
+The focused bilingual corrections and original snapshots are in commit `79f99433` (`Correct feedback report availability across guides`). Pending PR review, merge and public ES/EN verification. Record the actual publication separately.

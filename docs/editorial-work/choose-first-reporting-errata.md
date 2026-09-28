@@ -22,4 +22,4 @@ The complete current Spanish and English article bodies were reread with the foc
 
 New visual inspection at 1440×900 and 390×844 could not run: the in-app browser was unavailable and automatic approval review rejected browser-surface enumeration because it might inspect personal windows. An isolated local headless Chrome launch also exited 134 before creating a screenshot. No CSS, template or image changed; the reporting guide's previous desktop/mobile visual verification and section-level no-figure decision remain in its existing record. Do not claim new visual verification from this follow-up.
 
-Pending content commit, PR review, merge and public verification. Keep this already-reviewed article's `local_verified` status; record the focused erratum commit separately rather than claiming a new complete visual review.
+The source-backed correction and original snapshots are in commit `79f99433` (`Correct feedback report availability across guides`). Pending PR review, merge and public verification. Keep this already-reviewed article's `local_verified` status; record the focused erratum commit separately rather than claiming a new complete visual review.
