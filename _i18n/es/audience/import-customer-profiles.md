@@ -25,6 +25,29 @@ Los dos caminos funcionan de manera diferente:
 2. Abre el menú para agregar y elige **Importar Clientes**.
 3. Elige **Conectar un servicio** o **Elegir un archivo para subir**.
 
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Importar Clientes en el menú de Audiencia">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 240px; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/audience/import-customer-profiles/import-audience-add-es-20260928-crop.png" width="480" height="630" loading="lazy" decoding="async" alt="Menú para agregar en Audiencia con Importar Clientes entre Nuevo Evento y Nuevo Segmento." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Captura de la interfaz real en español; el menú está abierto y no muestra datos de clientes.</figcaption>
+</figure>
+
+La pantalla siguiente muestra las dos opciones:
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Dos opciones para importar clientes">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="width: max-content; min-width: min(100%, 408px); max-width: 100%; margin: 0 auto;">
+      <picture style="display: block;">
+        <source media="(max-width: 760px)" srcset="/images/audience/import-customer-profiles/import-chooser-file-es-20260928-crop.png 945w" sizes="390px" width="945" height="1170" />
+        <img class="ht-editorial-visual__image" src="/images/audience/import-customer-profiles/import-chooser-es-20260928-crop.png" srcset="/images/audience/import-customer-profiles/import-chooser-es-20260928-crop.png 2080w" sizes="760px" style="width: auto; max-width: 100%; margin: 0 auto;" width="2080" height="1300" loading="eager" decoding="async" alt="Pantalla para importar clientes: la tarjeta de archivo muestra Elegir un archivo para subir; en la vista amplia también aparece Conectar un servicio." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real en español con las dos rutas de importación. En pantallas estrechas se muestra un recorte de la tarjeta para subir un archivo.</figcaption>
+</figure>
+
 Si eliges **Conectar un servicio**, Hellotext te lleva por la configuración de esa integración. Según la integración, puede preguntarte si quieres importar clientes y a qué listas agregarlos. El mapeo y el consentimiento pueden resolverse automáticamente desde la fuente.
 
 Si eliges un archivo, continúa con los pasos siguientes.
@@ -44,14 +67,46 @@ Arrastra el archivo al área de carga o elígelo desde tu computadora. Prepara s
 
 Cuando aparezca el nombre del archivo, selecciona **Continuar con la importación** para pasar al mapeo.
 
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Archivo de ejemplo seleccionado antes del mapeo">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 477px; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/audience/import-customer-profiles/import-selected-file-es-20260928-crop.png" width="955" height="1100" loading="lazy" decoding="async" alt="Archivo de demostración de 260 B seleccionado, con la primera fila como encabezados marcada y el botón Continuar con la importación." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real en español con un CSV ficticio seleccionado; aún no se ha iniciado la importación.</figcaption>
+</figure>
+
 ## Mapea columnas a propiedades del perfil
 
 Hellotext muestra cada columna del archivo para que elijas qué propiedad del perfil de cliente debe actualizar.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Columnas del archivo asignadas a propiedades del perfil">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="width: max-content; min-width: min(100%, 408px); max-width: 100%; margin: 0 auto;">
+      <picture style="display: block;">
+        <source media="(max-width: 760px)" srcset="/images/audience/import-customer-profiles/import-mapping-mobile-es-20260928-crop.png 780w" sizes="390px" width="780" height="1390" />
+        <img class="ht-editorial-visual__image" src="/images/audience/import-customer-profiles/import-mapping-es-20260928-crop.png" srcset="/images/audience/import-customer-profiles/import-mapping-es-20260928-crop.png 2060w" sizes="760px" style="width: auto; max-width: 100%; margin: 0 auto;" width="2060" height="1000" loading="eager" decoding="async" alt="Pantalla de mapeo donde email se asigna a E-mail y first_name a Nombre; ambas columnas están seleccionadas." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real en español con datos de demostración ficticios y dos asignaciones visibles.</figcaption>
+</figure>
 
 - Mapea solo las columnas que quieres importar. Las columnas sin mapear se omiten.
 - Antes de iniciar la importación, crea en Audiencia las [propiedades personalizadas]({% link _audience/custom-properties-and-events.md %}) que necesites; durante el mapeo, selecciona propiedades existentes.
 - Mapea cada propiedad del perfil una sola vez en la misma importación.
 - Para teléfonos, fechas o dinero, revisa la configuración de país, formato de fecha o moneda que aparece.
+
+Por ejemplo, al mapear una columna a **Cumpleaños**, revisa el formato de fecha del archivo:
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Opciones de formato para la propiedad Cumpleaños">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 425px; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/audience/import-customer-profiles/import-date-format-es-20260928-crop.png" width="850" height="1175" loading="lazy" decoding="async" alt="Menú de propiedades con Cumpleaños abierto y un submenú de formatos de fecha; YYYY-MM-DD está resaltado." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Detalle de la interfaz real en español para un campo de fecha del CSV ficticio.</figcaption>
+</figure>
 
 Si dos columnas representan la misma propiedad, elige la más confiable o combínalas en el archivo de origen antes de importar.
 
@@ -63,6 +118,18 @@ En una importación por archivo, Hellotext pregunta si los clientes dieron conse
 
 - Responde **Sí** solo si todos los registros del archivo tienen consentimiento confirmado.
 - Responde **No** si no tienes evidencia confiable de consentimiento para todos los registros.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Pregunta sobre consentimiento de marketing en una importación por archivo">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="width: max-content; min-width: min(100%, 408px); max-width: 100%; margin: 0 auto;">
+      <picture style="display: block;">
+        <source media="(max-width: 760px)" srcset="/images/audience/import-customer-profiles/import-consent-mobile-es-20260928-crop.png 780w" sizes="390px" width="780" height="1200" />
+        <img class="ht-editorial-visual__image" src="/images/audience/import-customer-profiles/import-consent-es-20260928-crop.png" srcset="/images/audience/import-customer-profiles/import-consent-es-20260928-crop.png 2065w" sizes="760px" style="width: auto; max-width: 100%; margin: 0 auto;" width="2065" height="705" loading="eager" decoding="async" alt="Pregunta de consentimiento con opciones Sí y No; No está seleccionada." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real en español de una importación de demostración; la opción No está seleccionada y no se inició el procesamiento.</figcaption>
+</figure>
 
 La elección determina el estado de suscripción de los perfiles nuevos. Si una fila coincide con un perfil existente, la importación conserva el estado que ese perfil ya tenía; revísalo por separado antes de usar la audiencia. Si el archivo contiene registros con y sin consentimiento confirmado, divídelo en importaciones separadas. No respondas **Sí** solo porque contiene teléfonos o emails.
 
@@ -82,6 +149,18 @@ También puedes elegir si los valores mapeados del archivo deben sobrescribir la
 - Actívala cuando el archivo sea la fuente de verdad y sus valores mapeados deban reemplazar los existentes.
 
 Revisa esta opción con cuidado: no cambia por sí misma el estado de suscripción de los perfiles existentes.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Lista de destino y opción de sobrescribir propiedades">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="width: max-content; min-width: min(100%, 408px); max-width: 100%; margin: 0 auto;">
+      <picture style="display: block;">
+        <source media="(max-width: 760px)" srcset="/images/audience/import-customer-profiles/import-lists-mobile-es-20260928-crop.png 780w" sizes="390px" width="780" height="850" />
+        <img class="ht-editorial-visual__image" src="/images/audience/import-customer-profiles/import-lists-es-20260928-crop.png" srcset="/images/audience/import-customer-profiles/import-lists-es-20260928-crop.png 1520w" sizes="760px" style="width: auto; max-width: 100%; margin: 0 auto;" width="1520" height="640" loading="eager" decoding="async" alt="Pantalla Organiza a tus clientes con una lista de ejemplo seleccionada y la casilla para actualizar propiedades existentes desmarcada." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real en español con una lista ficticia; la sobrescritura está desactivada y no se inició la importación.</figcaption>
+</figure>
 
 Cuando hayas revisado las listas y la sobrescritura, selecciona **Guardar e importar**. Este paso inicia el procesamiento de los perfiles en segundo plano.
 

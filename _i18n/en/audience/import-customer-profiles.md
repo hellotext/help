@@ -25,6 +25,29 @@ These paths work differently:
 2. Open the add menu and choose **Import Customers**.
 3. Choose **Connect a service** or **Choose a file to upload**.
 
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Import Customers in the Audience add menu">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 240px; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/audience/import-customer-profiles/import-audience-add-en-20260928-crop.png" width="480" height="630" loading="lazy" decoding="async" alt="Audience add menu with Import Customers between New Event and New Segment." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real English interface with the menu open and no customer information in view.</figcaption>
+</figure>
+
+The next screen shows both paths:
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Two options for importing customers">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="width: max-content; min-width: min(100%, 408px); max-width: 100%; margin: 0 auto;">
+      <picture style="display: block;">
+        <source media="(max-width: 760px)" srcset="/images/audience/import-customer-profiles/import-chooser-file-en-20260928-crop.png 945w" sizes="390px" width="945" height="970" />
+        <img class="ht-editorial-visual__image" src="/images/audience/import-customer-profiles/import-chooser-en-20260928-crop.png" srcset="/images/audience/import-customer-profiles/import-chooser-en-20260928-crop.png 2080w" sizes="760px" style="width: auto; max-width: 100%; margin: 0 auto;" width="2080" height="1300" loading="eager" decoding="async" alt="Customer import screen: the upload card shows Choose a file to upload; the wide view also shows Connect a service." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real English interface with both import paths. Narrow screens show a closer crop of the upload card.</figcaption>
+</figure>
+
 If you choose **Connect a service**, Hellotext takes you through that integration's setup. Depending on the integration, you may be asked whether to import customers and which lists should receive them. Mapping and consent may be handled automatically from the source.
 
 If you choose a file, continue with the steps below.
@@ -44,14 +67,46 @@ Drag the file into the upload area or choose it from your computer. Always prepa
 
 When the file name appears, select **Continue to import** to move to column mapping.
 
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Example file selected before mapping">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 477px; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/audience/import-customer-profiles/import-selected-file-en-20260928-crop.png" width="955" height="1100" loading="lazy" decoding="async" alt="Demonstration file of 260 B selected, with the first-row header box checked and the Continue to import button visible." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real English interface with a fictional CSV selected; import processing has not started.</figcaption>
+</figure>
+
 ## Map columns to profile properties
 
 Hellotext shows each file column so you can choose which customer profile property it should update.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="File columns mapped to profile properties">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="width: max-content; min-width: min(100%, 408px); max-width: 100%; margin: 0 auto;">
+      <picture style="display: block;">
+        <source media="(max-width: 760px)" srcset="/images/audience/import-customer-profiles/import-mapping-mobile-en-20260928-crop.png 780w" sizes="390px" width="780" height="1390" />
+        <img class="ht-editorial-visual__image" src="/images/audience/import-customer-profiles/import-mapping-en-20260928-crop.png" srcset="/images/audience/import-customer-profiles/import-mapping-en-20260928-crop.png 2060w" sizes="760px" style="width: auto; max-width: 100%; margin: 0 auto;" width="2060" height="1000" loading="eager" decoding="async" alt="Mapping screen with email assigned to Email and first_name assigned to First Name; both columns are selected." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real English interface with fictional demonstration data and two visible mappings.</figcaption>
+</figure>
 
 - Map only the columns you want to import. Unmapped columns are skipped.
 - Before starting the import, create any [custom properties]({% link _audience/custom-properties-and-events.md %}) you need in Audience; during mapping, select existing properties.
 - Map each profile property only once in the same import.
 - For phone numbers, dates, or money, review the country, date format, or currency setting that appears.
+
+For example, when mapping a column to **Birthday**, check the file's date format:
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Format choices for the Birthday property">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 425px; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/audience/import-customer-profiles/import-date-format-en-20260928-crop.png" width="850" height="1175" loading="lazy" decoding="async" alt="Property menu open at Birthday with a date format submenu; YYYY-MM-DD is highlighted." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Close-up of the real English interface for a date field in the fictional CSV.</figcaption>
+</figure>
 
 If two columns represent the same property, choose the cleaner one or combine them in the source file before importing.
 
@@ -63,6 +118,18 @@ For a file import, Hellotext asks whether the customers have consented to market
 
 - Answer **Yes** only if every record in the file has confirmed consent.
 - Answer **No** if you do not have reliable evidence of consent for every record.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Marketing consent question in a file import">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="width: max-content; min-width: min(100%, 408px); max-width: 100%; margin: 0 auto;">
+      <picture style="display: block;">
+        <source media="(max-width: 760px)" srcset="/images/audience/import-customer-profiles/import-consent-mobile-en-20260928-crop.png 780w" sizes="390px" width="780" height="1200" />
+        <img class="ht-editorial-visual__image" src="/images/audience/import-customer-profiles/import-consent-en-20260928-crop.png" srcset="/images/audience/import-customer-profiles/import-consent-en-20260928-crop.png 2065w" sizes="760px" style="width: auto; max-width: 100%; margin: 0 auto;" width="2065" height="705" loading="eager" decoding="async" alt="Consent question with Yes and No options; No is selected." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real English interface in a demonstration import; No is selected and processing has not started.</figcaption>
+</figure>
 
 The choice sets the subscription state of newly created profiles. If a row matches an existing profile, the import keeps that profile's current subscription state; review it separately before using the audience. If the file contains records with and without confirmed consent, split it into separate imports. Do not answer **Yes** based only on the presence of a phone number or email address.
 
@@ -82,6 +149,18 @@ You can also choose whether mapped file values should overwrite the properties o
 - Turn it on when the file is the source of truth and its mapped values should replace existing ones.
 
 Review this option carefully: it does not itself change existing profiles' subscription state.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Destination list and property overwrite option">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="width: max-content; min-width: min(100%, 408px); max-width: 100%; margin: 0 auto;">
+      <picture style="display: block;">
+        <source media="(max-width: 760px)" srcset="/images/audience/import-customer-profiles/import-lists-mobile-en-20260928-crop.png 780w" sizes="390px" width="780" height="850" />
+        <img class="ht-editorial-visual__image" src="/images/audience/import-customer-profiles/import-lists-en-20260928-crop.png" srcset="/images/audience/import-customer-profiles/import-lists-en-20260928-crop.png 1520w" sizes="760px" style="width: auto; max-width: 100%; margin: 0 auto;" width="1520" height="640" loading="eager" decoding="async" alt="Organize your customers screen with a demonstration list selected and the update existing properties checkbox unchecked." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real English interface with a fictional list; overwriting is off and the import has not started.</figcaption>
+</figure>
 
 After reviewing the lists and overwrite choice, select **Save & Start import**. This starts processing the profiles in the background.
 
