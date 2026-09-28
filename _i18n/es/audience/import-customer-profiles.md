@@ -38,10 +38,10 @@ La pantalla siguiente muestra las dos opciones:
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Dos opciones para importar clientes">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="width: max-content; min-width: min(100%, 408px); max-width: 100%; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame ht-import-responsive-frame">
       <picture style="display: block;">
         <source media="(max-width: 760px)" srcset="/images/audience/import-customer-profiles/import-chooser-file-es-20260928-crop.png 945w" sizes="390px" width="945" height="1170" />
-        <img class="ht-editorial-visual__image" src="/images/audience/import-customer-profiles/import-chooser-es-20260928-crop.png" srcset="/images/audience/import-customer-profiles/import-chooser-es-20260928-crop.png 2080w" sizes="760px" style="width: auto; max-width: 100%; margin: 0 auto;" width="2080" height="1300" loading="eager" decoding="async" alt="Pantalla para importar clientes: la tarjeta de archivo muestra Elegir un archivo para subir; en la vista amplia también aparece Conectar un servicio." />
+        <img class="ht-editorial-visual__image" src="/images/audience/import-customer-profiles/import-chooser-es-20260928-crop.png" srcset="/images/audience/import-customer-profiles/import-chooser-es-20260928-crop.png 2080w" sizes="760px" style="width: 100%; max-width: 100%; margin: 0 auto;" width="2080" height="1300" loading="lazy" decoding="async" alt="Pantalla para importar clientes: la tarjeta de archivo muestra Elegir un archivo para subir; en la vista amplia también aparece Conectar un servicio." />
       </picture>
     </div>
   </div>
@@ -82,10 +82,10 @@ Hellotext muestra cada columna del archivo para que elijas qué propiedad del pe
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Columnas del archivo asignadas a propiedades del perfil">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="width: max-content; min-width: min(100%, 408px); max-width: 100%; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame ht-import-responsive-frame">
       <picture style="display: block;">
         <source media="(max-width: 760px)" srcset="/images/audience/import-customer-profiles/import-mapping-mobile-es-20260928-crop.png 780w" sizes="390px" width="780" height="1390" />
-        <img class="ht-editorial-visual__image" src="/images/audience/import-customer-profiles/import-mapping-es-20260928-crop.png" srcset="/images/audience/import-customer-profiles/import-mapping-es-20260928-crop.png 2060w" sizes="760px" style="width: auto; max-width: 100%; margin: 0 auto;" width="2060" height="1000" loading="eager" decoding="async" alt="Pantalla de mapeo donde email se asigna a E-mail y first_name a Nombre; ambas columnas están seleccionadas." />
+        <img class="ht-editorial-visual__image" src="/images/audience/import-customer-profiles/import-mapping-es-20260928-crop.png" srcset="/images/audience/import-customer-profiles/import-mapping-es-20260928-crop.png 2060w" sizes="760px" style="width: 100%; max-width: 100%; margin: 0 auto;" width="2060" height="1000" loading="lazy" decoding="async" alt="Pantalla de mapeo donde email se asigna a E-mail y first_name a Nombre; ambas columnas están seleccionadas." />
       </picture>
     </div>
   </div>
@@ -121,10 +121,10 @@ En una importación por archivo, Hellotext pregunta si los clientes dieron conse
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Pregunta sobre consentimiento de marketing en una importación por archivo">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="width: max-content; min-width: min(100%, 408px); max-width: 100%; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame ht-import-responsive-frame">
       <picture style="display: block;">
         <source media="(max-width: 760px)" srcset="/images/audience/import-customer-profiles/import-consent-mobile-es-20260928-crop.png 780w" sizes="390px" width="780" height="1200" />
-        <img class="ht-editorial-visual__image" src="/images/audience/import-customer-profiles/import-consent-es-20260928-crop.png" srcset="/images/audience/import-customer-profiles/import-consent-es-20260928-crop.png 2065w" sizes="760px" style="width: auto; max-width: 100%; margin: 0 auto;" width="2065" height="705" loading="eager" decoding="async" alt="Pregunta de consentimiento con opciones Sí y No; No está seleccionada." />
+        <img class="ht-editorial-visual__image" src="/images/audience/import-customer-profiles/import-consent-es-20260928-crop.png" srcset="/images/audience/import-customer-profiles/import-consent-es-20260928-crop.png 2065w" sizes="760px" style="width: 100%; max-width: 100%; margin: 0 auto;" width="2065" height="705" loading="lazy" decoding="async" alt="Pregunta de consentimiento con opciones Sí y No; No está seleccionada." />
       </picture>
     </div>
   </div>
@@ -152,10 +152,10 @@ Revisa esta opción con cuidado: no cambia por sí misma el estado de suscripci�
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Lista de destino y opción de sobrescribir propiedades">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="width: max-content; min-width: min(100%, 408px); max-width: 100%; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame ht-import-responsive-frame">
       <picture style="display: block;">
         <source media="(max-width: 760px)" srcset="/images/audience/import-customer-profiles/import-lists-mobile-es-20260928-crop.png 780w" sizes="390px" width="780" height="850" />
-        <img class="ht-editorial-visual__image" src="/images/audience/import-customer-profiles/import-lists-es-20260928-crop.png" srcset="/images/audience/import-customer-profiles/import-lists-es-20260928-crop.png 1520w" sizes="760px" style="width: auto; max-width: 100%; margin: 0 auto;" width="1520" height="640" loading="eager" decoding="async" alt="Pantalla Organiza a tus clientes con una lista de ejemplo seleccionada y la casilla para actualizar propiedades existentes desmarcada." />
+        <img class="ht-editorial-visual__image" src="/images/audience/import-customer-profiles/import-lists-es-20260928-crop.png" srcset="/images/audience/import-customer-profiles/import-lists-es-20260928-crop.png 1520w" sizes="760px" style="width: 100%; max-width: 100%; margin: 0 auto;" width="1520" height="640" loading="lazy" decoding="async" alt="Pantalla Organiza a tus clientes con una lista de ejemplo seleccionada y la casilla para actualizar propiedades existentes desmarcada." />
       </picture>
     </div>
   </div>

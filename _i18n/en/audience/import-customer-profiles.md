@@ -38,10 +38,10 @@ The next screen shows both paths:
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Two options for importing customers">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="width: max-content; min-width: min(100%, 408px); max-width: 100%; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame ht-import-responsive-frame">
       <picture style="display: block;">
         <source media="(max-width: 760px)" srcset="/images/audience/import-customer-profiles/import-chooser-file-en-20260928-crop.png 945w" sizes="390px" width="945" height="970" />
-        <img class="ht-editorial-visual__image" src="/images/audience/import-customer-profiles/import-chooser-en-20260928-crop.png" srcset="/images/audience/import-customer-profiles/import-chooser-en-20260928-crop.png 2080w" sizes="760px" style="width: auto; max-width: 100%; margin: 0 auto;" width="2080" height="1300" loading="eager" decoding="async" alt="Customer import screen: the upload card shows Choose a file to upload; the wide view also shows Connect a service." />
+        <img class="ht-editorial-visual__image" src="/images/audience/import-customer-profiles/import-chooser-en-20260928-crop.png" srcset="/images/audience/import-customer-profiles/import-chooser-en-20260928-crop.png 2080w" sizes="760px" style="width: 100%; max-width: 100%; margin: 0 auto;" width="2080" height="1300" loading="lazy" decoding="async" alt="Customer import screen: the upload card shows Choose a file to upload; the wide view also shows Connect a service." />
       </picture>
     </div>
   </div>
@@ -82,10 +82,10 @@ Hellotext shows each file column so you can choose which customer profile proper
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="File columns mapped to profile properties">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="width: max-content; min-width: min(100%, 408px); max-width: 100%; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame ht-import-responsive-frame">
       <picture style="display: block;">
         <source media="(max-width: 760px)" srcset="/images/audience/import-customer-profiles/import-mapping-mobile-en-20260928-crop.png 780w" sizes="390px" width="780" height="1390" />
-        <img class="ht-editorial-visual__image" src="/images/audience/import-customer-profiles/import-mapping-en-20260928-crop.png" srcset="/images/audience/import-customer-profiles/import-mapping-en-20260928-crop.png 2060w" sizes="760px" style="width: auto; max-width: 100%; margin: 0 auto;" width="2060" height="1000" loading="eager" decoding="async" alt="Mapping screen with email assigned to Email and first_name assigned to First Name; both columns are selected." />
+        <img class="ht-editorial-visual__image" src="/images/audience/import-customer-profiles/import-mapping-en-20260928-crop.png" srcset="/images/audience/import-customer-profiles/import-mapping-en-20260928-crop.png 2060w" sizes="760px" style="width: 100%; max-width: 100%; margin: 0 auto;" width="2060" height="1000" loading="lazy" decoding="async" alt="Mapping screen with email assigned to Email and first_name assigned to First Name; both columns are selected." />
       </picture>
     </div>
   </div>
@@ -121,10 +121,10 @@ For a file import, Hellotext asks whether the customers have consented to market
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Marketing consent question in a file import">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="width: max-content; min-width: min(100%, 408px); max-width: 100%; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame ht-import-responsive-frame">
       <picture style="display: block;">
         <source media="(max-width: 760px)" srcset="/images/audience/import-customer-profiles/import-consent-mobile-en-20260928-crop.png 780w" sizes="390px" width="780" height="1200" />
-        <img class="ht-editorial-visual__image" src="/images/audience/import-customer-profiles/import-consent-en-20260928-crop.png" srcset="/images/audience/import-customer-profiles/import-consent-en-20260928-crop.png 2065w" sizes="760px" style="width: auto; max-width: 100%; margin: 0 auto;" width="2065" height="705" loading="eager" decoding="async" alt="Consent question with Yes and No options; No is selected." />
+        <img class="ht-editorial-visual__image" src="/images/audience/import-customer-profiles/import-consent-en-20260928-crop.png" srcset="/images/audience/import-customer-profiles/import-consent-en-20260928-crop.png 2065w" sizes="760px" style="width: 100%; max-width: 100%; margin: 0 auto;" width="2065" height="705" loading="lazy" decoding="async" alt="Consent question with Yes and No options; No is selected." />
       </picture>
     </div>
   </div>
@@ -152,10 +152,10 @@ Review this option carefully: it does not itself change existing profiles' subsc
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Destination list and property overwrite option">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="width: max-content; min-width: min(100%, 408px); max-width: 100%; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame ht-import-responsive-frame">
       <picture style="display: block;">
         <source media="(max-width: 760px)" srcset="/images/audience/import-customer-profiles/import-lists-mobile-en-20260928-crop.png 780w" sizes="390px" width="780" height="850" />
-        <img class="ht-editorial-visual__image" src="/images/audience/import-customer-profiles/import-lists-en-20260928-crop.png" srcset="/images/audience/import-customer-profiles/import-lists-en-20260928-crop.png 1520w" sizes="760px" style="width: auto; max-width: 100%; margin: 0 auto;" width="1520" height="640" loading="eager" decoding="async" alt="Organize your customers screen with a demonstration list selected and the update existing properties checkbox unchecked." />
+        <img class="ht-editorial-visual__image" src="/images/audience/import-customer-profiles/import-lists-en-20260928-crop.png" srcset="/images/audience/import-customer-profiles/import-lists-en-20260928-crop.png 1520w" sizes="760px" style="width: 100%; max-width: 100%; margin: 0 auto;" width="1520" height="640" loading="lazy" decoding="async" alt="Organize your customers screen with a demonstration list selected and the update existing properties checkbox unchecked." />
       </picture>
     </div>
   </div>
