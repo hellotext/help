@@ -31,7 +31,7 @@
     "Two additional Audience-all responsive mobile alternates crop the complete popup and its ellipsis from the same accepted raw ES/EN sources. Each is 670 pixels wide, excludes the inconsistent placeholder count, cursor, and partial contact rows, and remains at least 2x when displayed at no more than 335 CSS pixels."
   ],
   "native_color_provenance": "The native raw source is a 2770x1734 Display P3 PNG with embedded ICC from the selected color-managed macOS window. sips crops preserve the source samples and Display P3 profile; Pillow save candidates were rejected because macOS identified their rewritten profile as Color LCD.",
-  "publication_state": "Eight localized static figures are locally inserted; both Audience-all mobile alternates are selected by picture media at viewport widths up to 409 CSS pixels. Complete ES/EN desktop and 390 CSS-pixel mobile pages passed visual review without overflow and with at least 2x native pixel density. Production build, security headers, and all local served HTML/PNG byte checks passed. PR, deployment, and public verification remain pending; no public publication of these changes is claimed.",
+  "publication_state": "Eight localized static figures and both responsive mobile alternatives are locally verified in ES and EN. Complete 1280x720 desktop and 390x844 mobile pages, at least 2x source density, production build, security headers, local served HTML/PNG bytes, and PR #199 preview HTML/PNG bytes passed. Production merge, deployment, and public verification remain pending.",
   "assets": [
     {
       "article_source": "_i18n/es/audience/exporting-data.md",
@@ -77,11 +77,11 @@
         "source_pixels": "passed: decoded crop pixels equal the same rectangle of the raw native source",
         "source_asset": "passed: retained original and static article asset byte-identical by SHA-256",
         "density": "passed at the recorded maximum CSS width (at least 2x)",
-        "desktop_article": "pending complete rendered article check",
-        "mobile_article": "pending complete rendered article check",
-        "built_or_served_asset": "pending build and served-byte checks"
+        "desktop_article": "passed: complete localized article and figure visually reviewed at 1280x720 CSS; full-width lavender stage and complete control",
+        "mobile_article": "passed: complete localized article reviewed at 390x844 CSS without page overflow; Audience-all uses its focused mobile picture source",
+        "built_or_served_asset": "passed: production build and security-header check; local built and served PNG returned 200 with byte-identical SHA-256; PR #199 preview PNG returned 200 with matching bytes"
       },
-      "status": "local_asset_verified_article_render_pending"
+      "status": "local_verified_public_pending"
     },
     {
       "article_source": "_i18n/en/audience/exporting-data.md",
@@ -127,11 +127,11 @@
         "source_pixels": "passed: decoded crop pixels equal the same rectangle of the raw native source",
         "source_asset": "passed: retained original and static article asset byte-identical by SHA-256",
         "density": "passed at the recorded maximum CSS width (at least 2x)",
-        "desktop_article": "pending complete rendered article check",
-        "mobile_article": "pending complete rendered article check",
-        "built_or_served_asset": "pending build and served-byte checks"
+        "desktop_article": "passed: complete localized article and figure visually reviewed at 1280x720 CSS; full-width lavender stage and complete control",
+        "mobile_article": "passed: complete localized article reviewed at 390x844 CSS without page overflow; Audience-all uses its focused mobile picture source",
+        "built_or_served_asset": "passed: production build and security-header check; local built and served PNG returned 200 with byte-identical SHA-256; PR #199 preview PNG returned 200 with matching bytes"
       },
-      "status": "local_asset_verified_article_render_pending"
+      "status": "local_verified_public_pending"
     },
     {
       "article_source": "_i18n/es/audience/exporting-data.md",
@@ -177,11 +177,11 @@
         "source_pixels": "passed: decoded crop pixels equal the same rectangle of the raw native source",
         "source_asset": "passed: retained original and static article asset byte-identical by SHA-256",
         "density": "passed at the recorded maximum CSS width (at least 2x)",
-        "desktop_article": "pending complete rendered article check",
-        "mobile_article": "pending complete rendered article check",
-        "built_or_served_asset": "pending build and served-byte checks"
+        "desktop_article": "passed: complete localized article and figure visually reviewed at 1280x720 CSS; full-width lavender stage and complete control",
+        "mobile_article": "passed: complete localized article reviewed at 390x844 CSS without page overflow; Audience-all uses its focused mobile picture source",
+        "built_or_served_asset": "passed: production build and security-header check; local built and served PNG returned 200 with byte-identical SHA-256; PR #199 preview PNG returned 200 with matching bytes"
       },
-      "status": "local_asset_verified_article_render_pending"
+      "status": "local_verified_public_pending"
     },
     {
       "article_source": "_i18n/en/audience/exporting-data.md",
@@ -227,11 +227,11 @@
         "source_pixels": "passed: decoded crop pixels equal the same rectangle of the raw native source",
         "source_asset": "passed: retained original and static article asset byte-identical by SHA-256",
         "density": "passed at the recorded maximum CSS width (at least 2x)",
-        "desktop_article": "pending complete rendered article check",
-        "mobile_article": "pending complete rendered article check",
-        "built_or_served_asset": "pending build and served-byte checks"
+        "desktop_article": "passed: complete localized article and figure visually reviewed at 1280x720 CSS; full-width lavender stage and complete control",
+        "mobile_article": "passed: complete localized article reviewed at 390x844 CSS without page overflow; Audience-all uses its focused mobile picture source",
+        "built_or_served_asset": "passed: production build and security-header check; local built and served PNG returned 200 with byte-identical SHA-256; PR #199 preview PNG returned 200 with matching bytes"
       },
-      "status": "local_asset_verified_article_render_pending"
+      "status": "local_verified_public_pending"
     },
     {
       "article_source": "_i18n/es/audience/exporting-data.md",
@@ -277,11 +277,11 @@
         "source_pixels": "passed: decoded crop pixels equal the same rectangle of the raw native source",
         "source_asset": "passed: retained original and static article asset byte-identical by SHA-256",
         "density": "passed at the recorded maximum CSS width (at least 2x)",
-        "desktop_article": "pending complete rendered article check",
-        "mobile_article": "pending complete rendered article check",
-        "built_or_served_asset": "pending build and served-byte checks"
+        "desktop_article": "passed: complete localized article and figure visually reviewed at 1280x720 CSS; full-width lavender stage and complete control",
+        "mobile_article": "passed: complete localized article reviewed at 390x844 CSS without page overflow; Audience-all uses its focused mobile picture source",
+        "built_or_served_asset": "passed: production build and security-header check; local built and served PNG returned 200 with byte-identical SHA-256; PR #199 preview PNG returned 200 with matching bytes"
       },
-      "status": "local_asset_verified_article_render_pending"
+      "status": "local_verified_public_pending"
     },
     {
       "article_source": "_i18n/en/audience/exporting-data.md",
@@ -327,11 +327,11 @@
         "source_pixels": "passed: decoded crop pixels equal the same rectangle of the raw native source",
         "source_asset": "passed: retained original and static article asset byte-identical by SHA-256",
         "density": "passed at the recorded maximum CSS width (at least 2x)",
-        "desktop_article": "pending complete rendered article check",
-        "mobile_article": "pending complete rendered article check",
-        "built_or_served_asset": "pending build and served-byte checks"
+        "desktop_article": "passed: complete localized article and figure visually reviewed at 1280x720 CSS; full-width lavender stage and complete control",
+        "mobile_article": "passed: complete localized article reviewed at 390x844 CSS without page overflow; Audience-all uses its focused mobile picture source",
+        "built_or_served_asset": "passed: production build and security-header check; local built and served PNG returned 200 with byte-identical SHA-256; PR #199 preview PNG returned 200 with matching bytes"
       },
-      "status": "local_asset_verified_article_render_pending"
+      "status": "local_verified_public_pending"
     },
     {
       "article_source": "_i18n/es/audience/exporting-data.md",
@@ -377,11 +377,11 @@
         "source_pixels": "passed: decoded crop pixels equal the same rectangle of the raw native source",
         "source_asset": "passed: retained original and static article asset byte-identical by SHA-256",
         "density": "passed at the recorded maximum CSS width (at least 2x)",
-        "desktop_article": "pending complete rendered article check",
-        "mobile_article": "pending complete rendered article check",
-        "built_or_served_asset": "pending build and served-byte checks"
+        "desktop_article": "passed: complete localized article and figure visually reviewed at 1280x720 CSS; full-width lavender stage and complete control",
+        "mobile_article": "passed: complete localized article reviewed at 390x844 CSS without page overflow; Audience-all uses its focused mobile picture source",
+        "built_or_served_asset": "passed: production build and security-header check; local built and served PNG returned 200 with byte-identical SHA-256; PR #199 preview PNG returned 200 with matching bytes"
       },
-      "status": "local_asset_verified_article_render_pending"
+      "status": "local_verified_public_pending"
     },
     {
       "article_source": "_i18n/en/audience/exporting-data.md",
@@ -427,11 +427,11 @@
         "source_pixels": "passed: decoded crop pixels equal the same rectangle of the raw native source",
         "source_asset": "passed: retained original and static article asset byte-identical by SHA-256",
         "density": "passed at the recorded maximum CSS width (at least 2x)",
-        "desktop_article": "pending complete rendered article check",
-        "mobile_article": "pending complete rendered article check",
-        "built_or_served_asset": "pending build and served-byte checks"
+        "desktop_article": "passed: complete localized article and figure visually reviewed at 1280x720 CSS; full-width lavender stage and complete control",
+        "mobile_article": "passed: complete localized article reviewed at 390x844 CSS without page overflow; Audience-all uses its focused mobile picture source",
+        "built_or_served_asset": "passed: production build and security-header check; local built and served PNG returned 200 with byte-identical SHA-256; PR #199 preview PNG returned 200 with matching bytes"
       },
-      "status": "local_asset_verified_article_render_pending"
+      "status": "local_verified_public_pending"
     },
     {
       "article_source": "_i18n/es/audience/exporting-data.md",
@@ -477,11 +477,11 @@
         "source_pixels": "passed: decoded crop pixels equal the same rectangle of the raw native source",
         "source_asset": "passed: retained original and static article asset byte-identical by SHA-256",
         "density": "passed: 670 native pixels / 335 CSS maximum = 2.0x; at reviewed 316 CSS width = 2.12x",
-        "desktop_article": "not intended for desktop source selection; existing wide Audience-all asset remains the desktop candidate",
-        "mobile_article": "pending revised responsive article rendering; cropped image itself reviewed at 316 CSS pixels",
-        "built_or_served_asset": "pending build and served-byte checks"
+        "desktop_article": "not applicable: desktop picture source selects the wide Audience-all asset; verified at 1280x720 CSS",
+        "mobile_article": "passed: selected by picture at 390x844 CSS; complete localized menu readable, no page overflow, 316 CSS display width and 2.12x source density",
+        "built_or_served_asset": "passed: production build and security-header check; local built and served PNG returned 200 with byte-identical SHA-256; PR #199 preview PNG returned 200 with matching bytes"
       },
-      "status": "local_asset_verified_responsive_insertion_pending"
+      "status": "local_verified_public_pending"
     },
     {
       "article_source": "_i18n/en/audience/exporting-data.md",
@@ -527,11 +527,11 @@
         "source_pixels": "passed: decoded crop pixels equal the same rectangle of the raw native source",
         "source_asset": "passed: retained original and static article asset byte-identical by SHA-256",
         "density": "passed: 670 native pixels / 335 CSS maximum = 2.0x; at reviewed 316 CSS width = 2.12x",
-        "desktop_article": "not intended for desktop source selection; existing wide Audience-all asset remains the desktop candidate",
-        "mobile_article": "pending revised responsive article rendering; cropped image itself reviewed at 316 CSS pixels",
-        "built_or_served_asset": "pending build and served-byte checks"
+        "desktop_article": "not applicable: desktop picture source selects the wide Audience-all asset; verified at 1280x720 CSS",
+        "mobile_article": "passed: selected by picture at 390x844 CSS; complete localized menu readable, no page overflow, 316 CSS display width and 2.12x source density",
+        "built_or_served_asset": "passed: production build and security-header check; local built and served PNG returned 200 with byte-identical SHA-256; PR #199 preview PNG returned 200 with matching bytes"
       },
-      "status": "local_asset_verified_responsive_insertion_pending"
+      "status": "local_verified_public_pending"
     }
   ]
 }
