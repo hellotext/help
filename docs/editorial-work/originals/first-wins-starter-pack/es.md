@@ -1,14 +1,14 @@
 Usa este pack inicial cuando quieres obtener valor temprano sin activar demasiados flujos al mismo tiempo.
 
-El objetivo es planificar algunos logros enfocados, lanzar el primero, aprender del comportamiento real de clientes y ampliar solo después de que tus datos, canales y proceso del equipo estén funcionando.
+El objetivo es lanzar algunos logros enfocados, aprender del comportamiento real de clientes y ampliar solo después de que tus datos, canales y proceso del equipo estén funcionando.
 
 La disponibilidad exacta de misiones puede depender de tu plan, configuración de cuenta, país, canales y fuentes de datos. Usa la misión, ruta, captura o campaña disponible que más se acerque en tu cuenta.
 
-## Planifica de 3 a 5 logros
+## Empieza con 3 a 5 logros
 
-Elige de 3 a 5 logros como lista de próximos pasos, pero lanza uno primero. No actives todas las misiones al mismo tiempo.
+No lances todas las misiones al mismo tiempo.
 
-Planifica una secuencia que pueda cubrir el recorrido completo del cliente:
+Empieza con una mezcla que cubra el recorrido completo del cliente:
 
 1. Crecer la audiencia.
 2. Recuperar intención perdida.
@@ -16,7 +16,7 @@ Planifica una secuencia que pueda cubrir el recorrido completo del cliente:
 4. Reducir carga de soporte.
 5. Recopilar feedback o enviar una campaña enfocada cuando tengas un momento claro.
 
-Al avanzar de uno en uno, obtienes señales más limpias y es más fácil entender qué funcionó antes de ampliar.
+Esto te da señales más limpias y hace más fácil entender qué funcionó.
 
 ## 1. Crece tu audiencia alcanzable
 
@@ -51,9 +51,11 @@ Opciones útiles pueden incluir:
 - Consulta la disponibilidad de [Impulsor de Primera Compra]({% link _journeys/first-purchase-driver-playbook.md %}) para nuevos suscriptores que todavía no compraron.
 - [Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}) para clientes que vieron productos pero no agregaron al carrito.
 - [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) para responder preguntas entrantes sobre productos cuando el catálogo y el inventario son confiables.
-- [Completa el Look]({% link _journeys/complete-the-look-playbook.md %}) para pedidos confirmados cuyos productos tienen ítems que combinan claramente.
+- [Completa el Look]({% link _journeys/complete-the-look-playbook.md %}) cuando compradores eligieron o vieron productos que tienen ítems que combinan claramente.
 - [Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %}) o [Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %}) cuando tienes suficiente historial de pedidos.
 - [Reactivación Suave]({% link _journeys/soft-reactivation-playbook.md %}) cuando clientes existentes empiezan a enfriarse, pero todavía no están completamente inactivos.
+- [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) cuando las señales de pedido entregado son confiables y quieres reseñas de productos.
+- [Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}) cuando las señales de pedido entregado son confiables y quieres medir lealtad después de que el cliente ya vivió la experiencia con el producto.
 
 Logro esperado: mover clientes de interés a compra, recompra o pedidos de mayor valor.
 
@@ -67,25 +69,24 @@ Opciones útiles pueden incluir:
 - [Seguimiento de Pedidos]({% link _journeys/order-update-playbook.md %}) cuando los clientes preguntan seguido dónde está su pedido.
 - [Asistente de Cambios y Devoluciones]({% link _journeys/return-and-exchange-helper-playbook.md %}) cuando tu política es lo suficientemente clara para automatizar partes de la conversación.
 - [Asistente de Cancelación de Pedidos]({% link _journeys/order-cancellation-assistant-playbook.md %}) cuando las solicitudes de cancelación son frecuentes y tus reglas están claras.
+- [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}) cuando las conversaciones se están resolviendo de forma consistente y quieres feedback liviano de satisfacción.
 - Asignación y reglas de respuesta en Inbox cuando las personas todavía necesitan hacerse cargo de las respuestas.
 
 Logro esperado: respuestas más rápidas, derivaciones más claras y menos tickets repetitivos para tu equipo.
 
 ## 5. Recopila feedback o envía una campaña enfocada
 
-Usa [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) cuando recibes eventos confiables de pedido entregado, tienes datos de los productos y quieres recopilar calificaciones y reseñas escritas.
+Usa [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) cuando ya tienes pedidos entregados y quieres recopilar calificaciones y reseñas escritas de productos.
 
-Usa [Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}) cuando recibes eventos confiables de pedido entregado y quieres medir si los clientes recomendarían la marca después de esa experiencia.
+Usa [Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}) cuando quieres medir si los clientes recomendarían la marca después de un pedido entregado.
 
 Si también usas [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}), mantén separados los momentos de feedback: Generador de Reseñas es para reseñas de producto, Pulso NPS es para lealtad después de una experiencia de entrega y Pulso CSAT es para satisfacción después de conversaciones resueltas.
 
-Logro esperado: entender qué productos y experiencias generan feedback positivo o negativo y usar esas señales para planificar mejoras y seguimiento humano.
-
-Pulso NPS no inicia una recuperación automática por puntajes bajos ni ofrece un reporte de resultados propio en Misiones: confirma cómo revisar las respuestas y organiza el seguimiento por separado antes de lanzarlo. Calidad de servicio muestra la satisfacción CSAT agregada, no un reporte específico de Pulso CSAT.
+Logro esperado: entender qué productos y experiencias de entrega generan buen feedback, qué clientes necesitan recuperación y qué registros pueden guiar mejoras futuras.
 
 Si tienes una audiencia clara, un mensaje y un momento de envío planificado, usa una campaña.
 
-Si un producto no disponible vuelve a tener stock para clientes con interés registrado y elegible en ese producto, usa [Vuelta a Stock]({% link _journeys/back-in-stock-pounce.md %}) en lugar de una campaña amplia.
+Si los clientes pidieron aviso por un producto específico que no estaba disponible, usa [Vuelta a Stock]({% link _journeys/back-in-stock-pounce.md %}) en lugar de una campaña amplia.
 
 Si los clientes ya mostraron interés en un producto y el producto bajó de precio de forma relevante para ellos, usa [Alerta de Baja de Precio]({% link _journeys/price-drop-pouncer.md %}) en lugar de una campaña amplia de descuentos.
 
@@ -111,7 +112,7 @@ Evita:
 
 ## Revisa después de 7 días
 
-Después de la primera semana del primer lanzamiento, revisa las señales que ese flujo ya puede producir:
+Después de la primera semana, revisa:
 
 - Crecimiento de audiencia y fuentes de opt-in.
 - Actividad de recuperación de carritos o conversión.
@@ -119,7 +120,7 @@ Después de la primera semana del primer lanzamiento, revisa las señales que es
 - Clicks, pedidos e ingresos atribuidos.
 - Mensajes fallidos, bajas o comportamiento inesperado.
 
-No esperes necesariamente resultados de Generador de Reseñas o Pulso NPS en esta primera revisión: sus preguntas se programan para 7 días o más después de la entrega y las respuestas pueden llegar más tarde. Después decide qué ajustar, pausar o ampliar.
+Después decide qué ajustar, pausar o ampliar.
 
 Sigue leyendo: [Mide el éxito en tus primeros 7 días]({% link _getting-started/measure-success-first-7-days.md %}).
 
