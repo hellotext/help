@@ -24,11 +24,11 @@ Agregar un perfil a una lista no cambia el estado de suscripción del cliente.
 
 Usa una actualización masiva cuando el mismo cambio de pertenencia debe aplicarse a varios perfiles:
 
-1. En **Audiencia**, abre una lista si quieres limitar la selección a sus perfiles.
-2. Selecciona al menos dos perfiles. Se abrirá el panel **Selección múltiple**.
-3. En ese panel, busca la propiedad **Listas**.
+1. En **Audiencia**, selecciona los perfiles que quieres actualizar o abre la lista cuyos perfiles quieres modificar.
+2. Abre la acción de actualización masiva.
+3. Busca la propiedad **Listas**.
 4. Elige las listas a las que quieres agregar perfiles y aquellas de las que quieres quitarlos.
-5. Revisa los cambios y selecciona **Aplicar a … clientes** para confirmarlos.
+5. Confirma la actualización.
 
 Las actualizaciones grandes se ejecutan en segundo plano y muestran su progreso. Espera a que terminen antes de revisar la cantidad final de perfiles o usar la lista como audiencia.
 

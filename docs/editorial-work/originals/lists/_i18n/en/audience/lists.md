@@ -24,11 +24,11 @@ Adding a profile to a list does not change the customer's subscription status.
 
 Use a bulk update when the same membership change should apply to several profiles:
 
-1. In **Audience**, open a list if you want to limit the selection to its profiles.
-2. Select at least two profiles. The **Multiple selection** pane opens automatically.
-3. In that pane, find the **Lists** property.
+1. In **Audience**, select the profiles you want to update, or open the list whose profiles you want to change.
+2. Open the bulk update action.
+3. Find the **Lists** property.
 4. Choose the lists to add profiles to and the lists to remove them from.
-5. Review the changes and select **Apply to … customers** to confirm them.
+5. Confirm the update.
 
 Large updates run in the background and show their progress. Wait for the update to finish before checking the final profile count or using the list as an audience.
 
