@@ -19,17 +19,6 @@ Este reporte no espera que madure una ventana de atribución. Los valores histó
 
 Selecciona una métrica para actualizar la línea de tiempo y los desgloses disponibles.
 
-En esta cuenta ficticia, **Personalizado** está seleccionado para el período del 11 al 24 de septiembre de 2026. Las tarjetas muestran **Carga activa 20,3 %** seleccionada, **Manejadas 27**, **Resueltas 39** y **Concurrencia 1,5**. Sus indicadores verdes muestran comparaciones favorables con el período anterior.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Métricas principales del Reporte de carga y capacidad">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/workload-capacity-report-guide/kpi-overview-es.png" width="2470" height="605" loading="lazy" decoding="async" alt="Selector Personalizado y cuatro tarjetas: Carga activa 20,3 %, Manejadas 27, Resueltas 39 y Concurrencia 1,5; todas muestran indicadores de comparación verdes." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Interfaz real en español con datos ficticios. Seleccionar una tarjeta cambia la métrica mostrada en la línea de tiempo.</figcaption>
-</figure>
-
 ### Carga activa
 
 Es el porcentaje de capacidad de atención disponible que consumió el tiempo de atención registrado durante el período seleccionado. La capacidad disponible suma, para cada sesión, su duración multiplicada por el límite de conversaciones simultáneas guardado en ella.
@@ -72,17 +61,6 @@ La mayoría de las métricas puede desglosarse por colaborador o equipo. **Asign
 
 Compara elementos equivalentes. Distintos equipos pueden recibir diferentes intenciones, canales, horarios o niveles de complejidad. Un volumen mayor no significa por sí solo mejor rendimiento y uno menor tampoco significa capacidad sin usar.
 
-Con **Carga activa** seleccionada, **Ver por equipo** muestra cómo cambiaron dos equipos ficticios del 11 al 24 de septiembre de 2026. La leyenda resume 21,6 % para Ventas demo y 19,1 % para Atención demo durante todo el período.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Evolución de la Carga activa por equipo">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/workload-capacity-report-guide/active-load-team-trend-es.png" width="2470" height="1060" loading="lazy" decoding="async" alt="Gráfico Carga activa en el tiempo del 11 al 24 de septiembre de 2026 con Ver por equipo seleccionado. Las líneas de Ventas demo y Atención demo muestran variaciones diarias; la leyenda resume 21,6 % y 19,1 % para todo el período." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Interfaz real en español con datos ficticios. El gráfico compara la tendencia diaria de dos equipos, y la leyenda muestra el resultado del período completo.</figcaption>
-</figure>
-
 ## Entiende la Presión de capacidad
 
 **Presión de capacidad** compara el tiempo de atención consumido con la capacidad de atención disponible representada en el período seleccionado. Puedes verla por colaborador o equipo.
@@ -97,17 +75,6 @@ La capacidad mostrada depende de las sesiones registradas y sus límites de conv
 
 En las barras por equipo, el reporte reparte la capacidad de una sesión entre los equipos a los que se atribuyó atención durante el período. Por eso, la capacidad de un equipo no equivale necesariamente a sumar todas las sesiones completas de sus integrantes.
 
-En el ejemplo, Ventas demo tiene 42,9 días de capacidad atribuida y Atención demo 40,6 días. La parte intensa de cada barra muestra el tiempo consumido.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Presión de capacidad por equipo">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/workload-capacity-report-guide/capacity-pressure-team-es.png" width="2470" height="1008" loading="lazy" decoding="async" alt="Gráfico Presión de capacidad por equipo con dos barras que comparan capacidad consumida y disponible: Ventas demo muestra 42,9 días de capacidad disponible y Atención demo 40,6 días." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Interfaz real en español con datos ficticios. Las barras muestran capacidad consumida dentro de la capacidad disponible atribuida a cada equipo.</figcaption>
-</figure>
-
 Consulta [Equipos y capacidad del Inbox]({% link _team/teams-and-inbox-capacity.md %}) antes de cambiar esta configuración.
 
 ## Entiende la Eficiencia de sesión
@@ -119,17 +86,6 @@ El gráfico separa:
 - **Tiempo total conectado:** tiempo de sesión registrado durante el período.
 - **Tiempo activo:** tiempo de reloj dedicado a atender conversaciones; los intervalos simultáneos se cuentan una vez.
 - **Tiempo inactivo:** tiempo conectado sin atención activa de conversaciones.
-
-En los datos ficticios, los valores sobre las barras muestran 5 días de atención activa para Ventas demo y 4,9 días para Atención demo. El segmento intenso representa ese tiempo activo; el claro, tiempo inactivo, y la barra completa representa el tiempo total conectado.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Eficiencia de sesión por equipo">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/workload-capacity-report-guide/session-efficiency-team-es.png" width="2470" height="1008" loading="lazy" decoding="async" alt="Gráfico Eficiencia de sesión por equipo: las etiquetas muestran 5 días de atención activa para Ventas demo y 4,9 días para Atención demo; cada barra completa separa tiempo activo e inactivo de la sesión." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Interfaz real en español con datos ficticios. La parte más intensa de cada barra representa tiempo activo y la parte clara representa tiempo inactivo.</figcaption>
-</figure>
 
 Usa esta vista para entender cómo se distribuyó el tiempo registrado en el Inbox. No es una medición completa de productividad: reuniones, pausas, tareas administrativas y responsabilidades fuera del Inbox pueden no aparecer como tiempo de atención activa.
 
@@ -147,17 +103,6 @@ Puedes verla por colaborador o equipo e interpretar estas columnas:
 - **Utilización:** proporción del tiempo de sesión registrado en el período que se dedicó a atención activa.
 - **Concurrente:** promedio de conversaciones simultáneas durante la atención activa del período seleccionado.
 - **Burn:** señal que combina Utilización y Concurrente del período con la presión SLA actual. Sus estados son Normal, Observación y En riesgo.
-
-En la captura, Ventas demo tiene 1 conversación sin respuesta, 11 h 45 min de mayor espera y riesgo SLA Inminente; Atención demo tiene 0, 0 min y riesgo Seguro. Estos son valores de la cola al capturar la imagen. Los valores del período son Utilización 42 % y Concurrente 1,7 para Ventas demo, frente a 43 % y 1,4 para Atención demo. **Burn** muestra Observación para Ventas demo con un ícono amarillo neutro y Normal para Atención demo con un ícono verde sonriente.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Presión operativa de dos equipos ficticios">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/workload-capacity-report-guide/operational-pressure-team-es.png" width="2470" height="950" loading="lazy" decoding="async" alt="Tabla Presión operativa por equipo: Ventas demo tiene 1 conversación sin respuesta, mayor espera de 11 h 45 min, riesgo SLA Inminente, Utilización 42 % y Concurrente 1,7; Atención demo tiene 0 sin respuesta, riesgo Seguro, Utilización 43 % y Concurrente 1,4. Burn es Observación para Ventas demo y Normal para Atención demo." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Interfaz real en español con datos ficticios. Sin respuesta, Mayor espera y Riesgo SLA reflejan la cola al capturar la imagen; Utilización y Concurrente corresponden al período seleccionado.</figcaption>
-</figure>
 
 Burn es una señal combinada, no un diagnóstico ni una evaluación del rendimiento de una persona. Revisa las conversaciones actuales con espera y considera horarios, enrutamiento y capacidad antes de actuar.
 

@@ -1,0 +1,77 @@
+{
+  "article_source": "_i18n/es/analytics-reporting-attribution/workload-capacity-report-guide.md",
+  "public_url": "https://help.hellotext.com/es/guia-reporte-carga-capacidad",
+  "locale": "es",
+  "section_and_reader_task": "Understand Session efficiency / Entiende la Eficiencia de sesión: Recognize the team bar view and distinguish active from idle logged-in time.",
+  "capture_date": "2026-09-28",
+  "capture_time_utc_from_filesystem_birth": "2026-09-28T18:15:26.101579+00:00",
+  "capture_date_basis": "Date and UTC time above come from the native PNG filesystem birth timestamp, not embedded camera or EXIF metadata.",
+  "capture_route": "Native macOS selected-window /usr/sbin/screencapture -l, scoped to one SCContentSharingPicker-selected Chrome window. The helper checked the exact window ID, owner PID, title, bounds, 2x raster, Display P3 color space, embedded ICC, and report OCR before saving.",
+  "capture_helper_source": "docs/editorial-work/captures/workload-capacity/persistent-picker-capture.swift",
+  "capture_process_note": "The ES KPI source used an earlier picker process (session 29890) before the OCR marker list was broadened. The other nine primary sources used picker process session 90060. Each process used one user selection for its exact window; the retained helper is the final version.",
+  "source_route_and_state": "http://127.0.0.1:3191/hellotext/reports/61NgoN0q?preset=custom&from=2026-09-11&to=2026-09-24&metric=active_load; Session efficiency by team/Eficiencia de sesión por equipo; Ventas demo 5d and Atención demo 4.9d active handling time. UI locale es.",
+  "fixture_source": "Guarded scrubbed local PostgreSQL clone hellotext_editorial_workload_20260928, not the source database. docs/editorial-work/captures/workload-capacity/{scrub-clone.rb,visual-fixture.rb,README.md} document exact identity checks and synthetic source records. The scrubbed pre-fixture clone had 116 nonmessageable unconfirmed demonstration contacts and zero deliverable contacts; the guarded fixture added fictional users, nonmessageable contacts, workload records, and one bodyless received-only SLA reference. Delivery and workflows were inactive; no outbound message or job was created. This panel was captured before the later trend-only redistribution (34 fixture sessions and 37 handles at capture); the refined 56-session/70-handle source preserves its verified full-period visible values.",
+  "demonstration_data_verified": true,
+  "privacy_check": "The retained crop contains aggregate report UI only, with no customer rows, contact identifiers, conversation bodies, credentials, Chrome toolbar, debug banner, or pointer. The raw selected-window frame is intentionally excluded from Git because it includes unrelated Chrome profile and debugging UI.",
+  "native_window": {
+    "id": 37110,
+    "owner_pid": 18093,
+    "title": "Reporte de carga y capacidad | Hellotext",
+    "raw_pixels": {
+      "width": 2770,
+      "height": 1734
+    }
+  },
+  "logical_viewport": {
+    "width": 1385,
+    "height": 724,
+    "unit": "CSS pixels",
+    "device_pixel_ratio": 2,
+    "visual_viewport_scale": 1,
+    "device_emulation": "none"
+  },
+  "source_rect": {
+    "x": 150,
+    "y": 548,
+    "width": 2470,
+    "height": 1008,
+    "unit": "native source pixels"
+  },
+  "raw_source_filename": "workload-session-team-es-native.png",
+  "raw_source_sha256": "4d2799817e35ae4cf19a187fbc21a214bc03bc56bd29cea0940ad4f149e354f3",
+  "raw_source_disposition": "Temporary local verification source only; raw Chrome window pixels are not included in the repository.",
+  "original_file": "docs/editorial-work/captures/workload-capacity/session-efficiency-team-es-original.png",
+  "published_derivative": "images/analytics-reporting-attribution/workload-capacity-report-guide/session-efficiency-team-es.png",
+  "source_pixels": {
+    "width": 2470,
+    "height": 1008
+  },
+  "max_display_css_pixels": {
+    "width": 810,
+    "basis": "Conservative Help article-column upper bound; stage and white-frame insets make the rendered image narrower."
+  },
+  "original_sha256": "3172b5bb7e74e0f958279e10f111126b5ffa9af20381e03299f81ef99d27de08",
+  "published_derivative_sha256": "3172b5bb7e74e0f958279e10f111126b5ffa9af20381e03299f81ef99d27de08",
+  "actual_file_format": "PNG, 8-bit RGBA, native 2x source pixels retained in a static crop with embedded Display P3 ICC profile.",
+  "transformations": [
+    "sips -c 1008 2470 --cropOffset 548 150 workload-session-team-es-native.png --out session-efficiency-team-es-original.png; crop only, no resampling, color conversion, compositing, or retouching"
+  ],
+  "pointer": {
+    "kind": "none in retained crop",
+    "system_cursor": "not visible",
+    "automation_pointer": "outside crop"
+  },
+  "verification": {
+    "file": "passed: PNG signature, actual dimensions, embedded Display P3 ICC, and source crop reviewed",
+    "source_asset": "passed: retained original and article static asset byte-identical by SHA-256",
+    "density": "passed: 2470 native source pixels / 810 CSS px conservative maximum = 3.05x",
+    "desktop": "passed: independent review of complete ES/EN built guides at 1280 CSS px; five localized static figures in article order, full-width lavender stages with consistent padding and border, no image links or open controls",
+    "mobile": "passed: independent review of complete ES/EN built guides at 390 CSS px; stages fit the article column, no horizontal overflow; adjacent visible prose carries compact KPI/chart/table values and Burn states",
+    "served_asset": "passed local: production yarn build and security-header check; retained crop, static asset, built root copy, and built ES-path copy are byte-identical by SHA-256. No new public publication claimed."
+  },
+  "limitations": [
+    "Source labels become compact at phone width; adjacent prose carries the essential values."
+  ],
+  "status": "local_verified",
+  "retrospective_native_toolbar_url_verification": "Passed 2026-09-28: the hash-matched retained full native source was OCR-checked in its Chrome toolbar region for 127.0.0.1:3191, the exact report path /hellotext/reports/61NgoN0q, and both selected date parameters. The earlier capture process checked the exact picker-selected Chrome window and report text; the retained helper now additionally enforces these URL/period markers before saving future frames. The scrolled screenshot alone does not show the account selector; controlled-tab account checks remain a separate required workflow step."
+}
