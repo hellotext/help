@@ -1,7 +1,7 @@
 {
   "article_key": "audience/import-customer-profiles.md",
   "capture_date_utc": "2026-09-28",
-  "status": "native sources and local bilingual article build and responsive review verified; public verification pending",
+  "status": "native sources, bilingual article build and responsive review, and public ES/EN deployment verified",
   "capture_route": "macOS /usr/sbin/screencapture -l restricted to one previously authorized Chrome window ID; one persistent pinned-window helper process captured all accepted states without a per-image picker",
   "capture_helper": "docs/editorial-work/captures/import-customer-profiles/pinned-window-capture.swift",
   "selected_window": {
@@ -885,7 +885,7 @@
     "intermediate_article": "verified in ES and EN at 500, 760 and 761 CSS px; the four focused 390 CSS px images stay centered through 760, then wide sources load from 761; no horizontal overflow",
     "responsive_source_density": "picture width descriptors and sizes render focused sources at no more than 390 CSS px (780 source pixels for mapping, consent and lists; 945 for chooser); desktop images render below half source width",
     "production_build": "local yarn build and security-header verification passed; both built locales contain all seven figures and 22 PNG assets were copied byte-for-byte to both output trees",
-    "public_pages_and_pngs": "pending",
+    "public_pages_and_pngs": "Help merge 80c013f9f2246e1e0ba2aa36bd1d0379d7a2197c; normal Netlify production deploy 6abaf822efbc9100081920dd Published for the same SHA. ES and EN public pages returned HTTP 200 with seven figures and lazy loading; all 22 public PNGs returned HTTP 200 and matched their recorded SHA-256 hashes",
     "responsive_mobile_mapping_native": "verified 390 CSS px viewport and 780 px content width; English and Spanish article rendering verified",
     "responsive_mobile_consent_and_lists_native": "verified 390 CSS px viewport and 780 px content width; English and Spanish article rendering verified"
   },
