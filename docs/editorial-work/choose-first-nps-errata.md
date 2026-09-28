@@ -6,7 +6,7 @@ Complete original copies are under `originals/choose-first-nps-errata/`. SHA-256
 
 ## Runtime audit and local prose correction
 
-Audited Rails revision `d348bd09825d62c2cf551757598ed04a4bca0ce6` at `/private/tmp/hellotext-workload-fixed`. The Spanish body was corrected first and the English body adapted from it. These changes are locally built and visually checked, but not yet merged, deployed, or publicly verified.
+Audited Rails revision `d348bd09825d62c2cf551757598ed04a4bca0ce6` at `/private/tmp/hellotext-workload-fixed`. The Spanish body was corrected first and the English body adapted from it. The local build and visual check preceded the publication recorded below.
 
 - `Supervisor::Automation::OrderDelivered#run` schedules NPS and Review Builder independently from the recognized `order.delivered` action. A generic shipment-delivered event is not itself an NPS trigger. Sources: `app/models/supervisor/automation.rb`, `app/models/supervisor/automation/order_delivered.rb`.
 - `Playbook::NPS::ScheduleAttempt` anchors optimization at `event.tracked_at + 7.days`; send-time optimization and contact pacing select the actual slot. The scheduler deduplicates by delivery event, checks audience, route, and a 90-day contact cooldown. A missing `tracked_at` is filled by `Track::Event` with the current time, rather than becoming the documented NPS skip. Sources: `app/models/playbook/nps.rb`, `app/models/playbook/nps/schedule_attempt.rb`, `app/models/track/event.rb`.

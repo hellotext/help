@@ -74,7 +74,7 @@ After you choose the first option to launch, follow [How to enable a playbook]({
 
 - **Measure satisfaction after resolved conversations** — **Start with:** [CSAT Pulse]({% link _journeys/csat-pulse-playbook.md %})
 
-  **Why:** Use this when support, Inbox, AI, or playbook conversations can be resolved and negative feedback should create follow-up.
+  **Why:** Use this when support, Inbox, AI, or playbook conversations can be resolved and your team is ready to handle negative feedback; escalation must be configured.
 
 - **Send one planned announcement** — **Start with:** A campaign
 

@@ -1,6 +1,6 @@
 Usa esta guía cuando quieres que Hellotext pida reseñas de productos después de que un pedido fue entregado.
 
-Generador de Reseñas es una misión post-compra para recopilar reseñas estructuradas de productos. Pide una calificación, luego pide una reseña escrita y puede recibir fotos o videos opcionales como parte de esa reseña.
+Generador de Reseñas es una misión post-compra para recopilar reseñas estructuradas de productos. Pide una calificación, luego pide una reseña escrita, puede recibir fotos o videos opcionales como parte de esa reseña y ayuda a tu equipo a revisar o exportar los resultados.
 
 No es una encuesta general de satisfacción, un agente de soporte ni una campaña amplia de contenido. Su trabajo es recopilar reseñas de productos en el momento correcto después de la entrega.
 
@@ -18,7 +18,7 @@ Puede:
 - Evitar pedir otra reseña del mismo producto, una recompra o una variante muy cercana cuando ya se le pidió al cliente.
 - Preguntar qué salió mal cuando el cliente da una calificación baja.
 - Ofrecer derivar al equipo cuando el cliente da una calificación baja o necesita ayuda.
-- Guardar la calificación, la reseña escrita y los adjuntos disponibles con el intento de reseña.
+- Guardar respuestas de reseñas para reportes y exportación.
 
 Las fotos y videos se tratan como adjuntos opcionales de la reseña. Generador de Reseñas no debería presentarse como un flujo separado de recopilación de contenido salvo que Hellotext ofrezca eso como otra misión o función más adelante.
 
@@ -30,7 +30,7 @@ Usa Generador de Reseñas cuando:
 - Tu integración de tienda puede entregar señales de pedido, producto y entrega.
 - Quieres calificaciones y feedback escrito a nivel producto.
 - Quieres identificar experiencias con baja calificación y derivarlas a una persona cuando corresponde.
-- Puedes revisar conversaciones individuales de clientes para dar seguimiento al feedback sobre productos.
+- Quieres un registro descargable de reseñas que pueda usarse fuera de Hellotext.
 
 Funciona mejor cuando los clientes tuvieron suficiente tiempo para recibir y probar el producto antes de que llegue el mensaje.
 
@@ -61,7 +61,7 @@ Antes de habilitar Generador de Reseñas, confirma:
 - Los perfiles de cliente tienen consentimiento y un canal elegible.
 - El canal puede soportar la experiencia de calificación y seguimiento que quieres.
 - Tu equipo sabe quién maneja calificaciones bajas o respuestas negativas.
-- Tu equipo sabe quién revisará las conversaciones de clientes para detectar feedback que requiere seguimiento.
+- Sabes dónde se van a revisar o exportar los resultados de reseñas.
 - Tienes una política para usar fotos, videos o citas de clientes fuera de Hellotext.
 
 Para validar la configuración, usa [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %}).
@@ -118,13 +118,22 @@ Los casos de baja calificación pueden necesitar una persona cuando:
 
 Para el comportamiento de derivación, usa [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %}).
 
-## Revisa las respuestas
+## Revisa y exporta resultados
 
-Generador de Reseñas guarda la calificación, la reseña escrita y los adjuntos disponibles con el intento de reseña. Las respuestas del cliente permanecen conectadas a la conversación.
+Generador de Reseñas guarda las reseñas que recopila.
 
-Revisa las conversaciones individuales de clientes para dar seguimiento al feedback. Misiones no ofrece actualmente un reporte de resultados específico de Generador de Reseñas, una distribución de calificaciones ni una exportación de reseñas.
+El reporte automático de la misión permite ver:
 
-Si necesitas usar reseñas en otro sistema, acuerda un proceso aparte con tu equipo. No dependas de un archivo descargable desde esta misión.
+- Productos con reseñas recibidas.
+- Distribución de calificaciones.
+- Texto de la reseña.
+- Adjuntos de la reseña como URLs de imágenes o videos cuando estén disponibles.
+- Perfil de cliente e identificador del cliente en eCommerce cuando estén disponibles.
+- Nombre del producto e identificador del producto en eCommerce cuando estén disponibles.
+- Fecha y hora de la reseña.
+- Un link a la conversación donde se dejó la reseña.
+
+Las reseñas pueden descargarse para que tu equipo las analice o las suba a otro sistema de reseñas. Si Hellotext agrega integraciones directas con plataformas de reseñas más adelante, documenta eso como un camino de configuración separado.
 
 ## Cómo probarla
 
@@ -142,19 +151,24 @@ Prueba:
 - Un cliente que pide ayuda en lugar de dejar una reseña.
 - Un cliente que no debería recibir la solicitud porque faltan datos de entrega o elegibilidad de canal.
 
-Confirma que el canal, los botones de calificación, la captura de reseña, la separación automática, el camino de baja calificación y la conversación del cliente funcionen como esperas.
+Confirma que el canal, los botones de calificación, la captura de reseña, la separación automática, el camino de baja calificación y los reportes funcionen como esperas.
 
 ## Qué revisar después del lanzamiento
 
 Durante los primeros días, revisa:
 
+- Cuántos pedidos entregados elegibles entraron a la misión.
 - Si las solicitudes se enviaron demasiado temprano, demasiado tarde o demasiado seguido.
-- Ejemplos de calificaciones, reseñas escritas y adjuntos en las conversaciones de clientes.
-- Motivos de baja calificación y si el feedback que requiere ayuda llegó al equipo.
-- Problemas repetidos de calidad o preparación visibles en las conversaciones que revisas.
+- Distribución de calificaciones por producto.
+- Calidad de las reseñas escritas.
+- Adjuntos recibidos.
+- Motivos de baja calificación.
+- Derivaciones creadas desde feedback negativo.
+- Productos con problemas repetidos de calidad o preparación.
 - Bajas, mensajes fallidos y respuestas negativas.
+- Completitud de la exportación.
 
-Ajusta una cosa por vez dentro de las configuraciones que controlas: canal o tono. Usa los mensajes y conversaciones que revisas para detectar timing inesperado, solicitudes demasiado juntas o duplicadas y problemas en el camino de baja calificación.
+Ajusta una cosa por vez dentro de las configuraciones que controlas: canal o tono. Usa el reporte para detectar timing inesperado, solicitudes demasiado juntas o duplicadas y problemas en el camino de baja calificación.
 
 ## Guías relacionadas
 
