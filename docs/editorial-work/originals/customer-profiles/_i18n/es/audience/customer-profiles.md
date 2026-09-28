@@ -4,9 +4,9 @@ Un perfil no es necesariamente un suscriptor. Hellotext puede conocer a un clien
 
 ## Abre un perfil del cliente
 
-Ve a **Audiencia** y selecciona un perfil. En escritorio, se abre junto a la lista de audiencia. En móvil, usa **Atrás** para regresar a la lista.
+Ve a **Audiencia** y selecciona un perfil. El perfil se abre junto a la lista de audiencia para que puedas revisar su información sin perder tu ubicación.
 
-Usa la búsqueda cuando conozcas el nombre, teléfono, email, alias o ID de perfil del cliente.
+Usa la búsqueda cuando conozcas el nombre, teléfono, email u otro identificador del cliente.
 
 ## Qué puede contener un perfil
 
@@ -24,7 +24,7 @@ Algunos perfiles contienen solo un nombre o una identidad de canal al principio.
 
 ## Las propiedades y la actividad son diferentes
 
-Las **propiedades** describen lo que se sabe actualmente del cliente. Se pueden usar para segmentación y personalización. Los integrantes con los permisos necesarios pueden modificar las propiedades editables.
+Las **propiedades** describen lo que se sabe actualmente del cliente. Se pueden usar para segmentación y personalización y normalmente pueden editarse cuando la fuente lo permite.
 
 La **actividad** es el registro cronológico de lo que ocurrió. Los eventos pueden venir de integraciones de comercio, herramientas de captura, links rastreados, conversaciones, Hellotext.js o la API.
 
@@ -45,9 +45,9 @@ Cuando está disponible el mismo identificador confiable, Hellotext puede usarlo
 
 ## Revisa y une posibles duplicados
 
-Si Hellotext marca posibles duplicados, verás una etiqueta de perfiles similares en el perfil. Revisa los perfiles sugeridos antes de unirlos: un nombre similar o datos importados incompletos no prueban que se trate de la misma persona.
+Hellotext muestra una advertencia cuando encuentra perfiles con información de identidad similar. Revisa los perfiles sugeridos antes de unirlos; dos personas pueden compartir un nombre, teléfono o email en datos importados.
 
-Abre las opciones del perfil y selecciona **Combinar** para iniciar el proceso de unión. Confirma qué datos pertenecen al mismo cliente antes de completarlo para que los reportes, la segmentación y el contexto de conversaciones permanezcan asociados con la persona correcta.
+Usa las opciones del perfil para abrir el proceso de unión. Confirma qué datos pertenecen al mismo cliente antes de completarlo para que los reportes, la segmentación y el contexto de conversaciones permanezcan asociados con la persona correcta.
 
 ## Usa los perfiles en Hellotext
 
@@ -61,7 +61,7 @@ Los perfiles de clientes conectan las áreas principales de Hellotext:
 
 ## Gestiona la información con cuidado
 
-Desde un perfil, quienes tengan los permisos necesarios pueden gestionar listas, revisar el estado de suscripción y modificar las propiedades que admitan edición. También pueden abrir una conversación existente, iniciar un mensaje si el perfil lo permite, unir duplicados, bloquear el perfil cuando esa opción esté disponible o eliminarlo.
+Desde un perfil, los integrantes con los permisos necesarios pueden editar propiedades, gestionar listas, revisar el estado de suscripción, iniciar o abrir una conversación, unir duplicados, bloquear el perfil o eliminarlo.
 
 Ten en cuenta estas prácticas:
 

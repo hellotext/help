@@ -4,9 +4,9 @@ A profile is not necessarily a subscriber. Hellotext can know about a customer b
 
 ## Open a customer profile
 
-Go to **Audience** and select a profile. On desktop, it opens beside the audience list. On mobile, use **Back** to return to the list.
+Go to **Audience** and select a profile. The profile opens beside the audience list so you can review its information without losing your place.
 
-Use search when you know the customer's name, phone number, email address, alias, or profile ID.
+Use search when you know the customer's name, phone number, email address, or another searchable identifier.
 
 ## What a profile can contain
 
@@ -24,7 +24,7 @@ Some profiles contain only a name or channel identity at first. They become more
 
 ## Properties and activity are different
 
-**Properties** describe what is currently known about the customer. They can be used for segmentation and personalization. Team members with the required permissions can change editable properties.
+**Properties** describe what is currently known about the customer. They can be used for segmentation and personalization and can usually be edited when the source allows it.
 
 **Activity** is the chronological record of what happened. Events can come from commerce integrations, capture tools, tracked links, conversations, Hellotext.js, or the API.
 
@@ -45,9 +45,9 @@ When the same reliable identifier is available, Hellotext can use it to associat
 
 ## Review and merge possible duplicates
 
-If Hellotext flags possible duplicates, you will see a similar-profiles badge on the profile. Review the suggested profiles before merging them: a similar name or incomplete imported data does not prove the profiles belong to the same person.
+A duplicate warning appears when Hellotext finds profiles with similar identity information. Review the suggested profiles before merging them; two people can share a name, phone number, or email in imported data.
 
-Open the profile options and select **Merge** to start the merge flow. Confirm which data belongs to the same customer before completing it so reporting, segmentation, and conversation context remain attached to the correct person.
+Use the profile options to open the merge flow. Confirm which data belongs to the same customer before completing it so reporting, segmentation, and conversation context remain attached to the correct person.
 
 ## Use profiles across Hellotext
 
@@ -61,7 +61,7 @@ Customer profiles connect the main parts of Hellotext:
 
 ## Manage profile information carefully
 
-From a profile, team members with the required permissions can manage list membership, review subscription status, and change properties that support editing. They can also open an existing conversation, start a message when the profile supports it, merge duplicates, block the profile when that option is available, or delete it.
+From a profile, team members with the required permissions can edit properties, manage list membership, review subscription status, start or open a conversation, merge duplicates, block a profile, or delete it.
 
 Keep these practices in mind:
 
