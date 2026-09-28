@@ -1,4 +1,4 @@
-Usa el Reporte de ingresos para entender cuántos ingresos de comercio recibió Hellotext, qué parte se atribuyó a Hellotext y cómo se distribuye entre los orígenes acreditados.
+Usa el Reporte de ingresos para entender cuántos ingresos de comercio registró tu negocio, qué parte se atribuyó a Hellotext y cómo se distribuye entre los orígenes acreditados.
 
 Ábrelo desde la tarjeta **Reporte de ingresos** del Dashboard. Antes de comparar totales u orígenes, elige un período que coincida con la pregunta que quieres responder.
 
@@ -20,7 +20,7 @@ Las tres métricas principales ofrecen perspectivas relacionadas sobre los ingre
 
 - **Ingresos atribuidos a Hellotext:** ingresos que el motor de atribución asignó a Hellotext según evidencia comercial elegible.
 - **Ingresos del equipo:** parte de los ingresos no atribuidos a Hellotext que se clasifica como gestionada por una persona. Incluye ingresos históricos elegibles gestionados por el equipo sin un veredicto del motor.
-- **Ingresos totales:** todos los ingresos compatibles que Hellotext recibió desde actividad de eCommerce, marketplaces y retail durante el período seleccionado, incluidos los atribuidos y no atribuidos.
+- **Ingresos totales:** todos los ingresos de comercio compatibles registrados para tu negocio durante el período seleccionado, incluidos los atribuidos y no atribuidos.
 
 Los ingresos atribuidos son una parte de los ingresos totales, y los gestionados por el equipo son una parte de los restantes. **No sumes las tres tarjetas.** Una respuesta de soporte u otra participación del equipo no convierte automáticamente una venta en gestionada por el equipo; Hellotext evalúa el camino de origen y la evidencia comercial aplicable.
 
@@ -72,22 +72,13 @@ Aquí se seleccionó **Ver por canal** para los ingresos atribuidos a Hellotext.
 
 Los widgets debajo de la línea de tiempo explican la composición de los ingresos atribuidos.
 
-- **Campañas vs Misiones** compara el monto atribuido a Campañas puntuales y Misiones siempre activas.
-- **Contexto de comercio** distribuye los ingresos atribuidos entre los contextos compatibles que tienen datos en el período.
+- **Campañas y misiones** compara el monto atribuido a Campañas puntuales y Misiones siempre activas.
+- **Contexto de comercio** muestra la clasificación de esos ingresos. En la implementación actual, los registros compatibles se agrupan en eCommerce; Retail y Marketplace pueden aparecer sin importe.
 - **Canal de comercio** muestra el canal de comunicación asociado a las compras atribuidas, como WhatsApp o SMS; no identifica necesariamente la tienda donde se realizó la venta.
 
 Estos widgets distribuyen los ingresos atribuidos; no reemplazan los ingresos totales ni agregan la misma compra a cada origen que interactuó con el cliente.
 
 En este ejemplo, Misiones aporta $28,4 mil y Campañas $17,8 mil al importe atribuido del período. Los importes visibles están redondeados por separado, así que su suma puede diferir ligeramente de la tarjeta principal. Contexto de comercio y Canal de comercio son otras formas de agrupar esos mismos ingresos, por lo que sus barras no se suman a las de Misiones y Campañas.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Tres widgets de origen de los ingresos atribuidos">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/revenue-report-guide/sources-es.png" width="2438" height="860" loading="lazy" decoding="async" alt="Tres paneles de ingresos atribuidos: Campañas y misiones, Contexto de comercio y Canal de comercio, con importes ficticios visibles para cada categoría." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Las tres vistas clasifican los ingresos atribuidos desde ángulos diferentes; no representan ingresos adicionales.</figcaption>
-</figure>
 
 ## Revisa las tablas de origen
 

@@ -1,4 +1,4 @@
-Use the Revenue report to understand how much commerce revenue Hellotext received, what share was attributed to Hellotext, and how it is distributed among credited sources.
+Use the Revenue report to understand how much commerce revenue your business recorded, what share was attributed to Hellotext, and how it is distributed among credited sources.
 
 Open it from the **Revenue report** card on the Dashboard. Choose a period that matches the business question you want to answer before comparing totals or sources.
 
@@ -20,7 +20,7 @@ The three summary metrics give related views of revenue:
 
 - **Revenue attributed to Hellotext:** revenue the attribution engine assigned to Hellotext based on eligible commercial evidence.
 - **Team revenue:** the part of revenue not attributed to Hellotext that is classified as managed by a teammate. It includes eligible legacy teammate-managed revenue without an engine verdict.
-- **Total revenue:** all supported revenue Hellotext received from eCommerce, marketplace, and retail activity during the selected period, including attributed and unattributed revenue.
+- **Total revenue:** all supported commerce revenue recorded for your business during the selected period, including attributed and unattributed revenue.
 
 Attributed revenue is part of total revenue, and team-managed revenue is part of the remainder. **Do not add the three cards together.** A support reply or any other team interaction does not automatically make a sale team-managed; Hellotext evaluates the applicable source path and commercial evidence.
 
@@ -72,22 +72,13 @@ Here, **View by channel** is selected for revenue attributed to Hellotext. The t
 
 The widgets below the timeline explain the composition of attributed revenue.
 
-- **Campaigns vs Playbooks** compares the attributed amount credited to one-time Campaigns and always-on Playbooks.
-- **Commerce context** distributes attributed revenue across supported contexts with data in the selected period.
+- **Campaigns and Playbooks** compares the attributed amount credited to one-time Campaigns and always-on Playbooks.
+- **Commerce context** shows how that revenue is classified. In the current implementation, supported source rows are grouped under eCommerce; Retail and Marketplace may show no amount.
 - **Commerce channel** shows the communication channel associated with attributed purchases, such as WhatsApp or SMS; it does not necessarily identify the store where the sale happened.
 
 These widgets distribute attributed revenue; they do not replace total revenue or add the same purchase to every source that touched the customer.
 
 In this example, Playbooks contribute $28.4K and Campaigns $17.8K to the period's attributed amount. Displayed amounts are rounded separately, so their sum may differ slightly from the summary card. Commerce context and Commerce channel group that same revenue in other ways, so their bars should not be added to the Playbook and Campaign amounts.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Three attributed-revenue source widgets">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/revenue-report-guide/sources-en.png" width="2438" height="860" loading="lazy" decoding="async" alt="Three attributed-revenue panels: Campaigns and Playbooks, Commerce context, and Commerce channel, with fictional amounts for each category." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">The three views classify attributed revenue from different angles; they do not represent additional revenue.</figcaption>
-</figure>
 
 ## Review source tables
 
