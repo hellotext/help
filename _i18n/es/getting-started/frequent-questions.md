@@ -18,9 +18,10 @@ Empieza en este orden:
 2. Conecta la plataforma donde viven tus datos de clientes y órdenes.
 3. Conecta el canal de mensajería que vas a usar primero.
 4. Agrega al menos una herramienta de captura.
-5. Prepara una primera misión, ruta o campaña que quieras probar.
-6. Invita al equipo que responderá conversaciones en el Inbox.
-7. Revisa los primeros resultados.
+5. Crea o revisa la primera audiencia a la que vas a contactar.
+6. Prepara una primera misión, ruta o campaña que quieras probar.
+7. Invita al equipo que responderá conversaciones en el Inbox.
+8. Revisa los primeros resultados.
 
 Sigue leyendo: [Checklist de lanzamiento]({% link _getting-started/launch-checklist.md %}).
 

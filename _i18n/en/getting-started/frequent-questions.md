@@ -18,9 +18,10 @@ Start in this order:
 2. Connect the platform where your customer and order data lives.
 3. Connect the messaging channel you plan to use first.
 4. Add at least one capture tool.
-5. Prepare one first playbook, route, or campaign you want to test.
-6. Invite the team members who will answer replies in the Inbox.
-7. Review the first results.
+5. Create or review the first audience you will contact.
+6. Prepare one first playbook, route, or campaign you want to test.
+7. Invite the team members who will answer replies in the Inbox.
+8. Review the first results.
 
 Keep reading: [Launch checklist]({% link _getting-started/launch-checklist.md %}).
 
