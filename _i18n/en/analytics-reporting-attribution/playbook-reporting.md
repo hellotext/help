@@ -109,7 +109,8 @@ Use the pattern you see to decide what to inspect next.
 | High opt-outs or negative replies | Audience quality, consent, frequency, tone, and offer relevance. |
 | An expected review request is missing | Delivered-order signal, product eligibility, request timing, and channel availability. |
 | An expected NPS question is missing | Recognized delivered-order event, 90-day interval, audience, consent, and channel. Arrange human follow-up for low scores separately. |
-| Low Customer Satisfaction in Service Quality | Resolution trigger, meaningful-interaction checks, duplicate prompts, message clarity, channel, and configured assignment for negative feedback. |
+| An expected CSAT question is missing | Resolution trigger, meaningful-interaction checks, duplicate-prompt safeguards, audience and channel eligibility. |
+| Low Customer Satisfaction in Service Quality | Review negative answers and their conversations: what the customer needed, whether the issue was resolved, message clarity, and how a handoff or follow-up was handled. |
 
 If signals or activity are missing, use [Troubleshoot missing signals or activity]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %}) before judging the playbook.
 

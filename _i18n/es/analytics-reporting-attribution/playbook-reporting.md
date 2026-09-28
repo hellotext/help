@@ -109,7 +109,8 @@ Usa el patrón que ves para decidir qué revisar después.
 | Muchas bajas o respuestas negativas | Calidad de audiencia, consentimiento, frecuencia, tono y relevancia de la oferta. |
 | Falta una solicitud de reseña esperada | Señal de pedido entregado, elegibilidad de producto, timing de la solicitud y canal disponible. |
 | Falta una pregunta NPS esperada | Evento de pedido entregado reconocido, intervalo de 90 días, audiencia, consentimiento y canal. Organiza por separado el seguimiento humano de puntajes bajos. |
-| Satisfacción del cliente baja en Calidad de servicio | Disparador de resolución, controles de interacción significativa, preguntas duplicadas, claridad del mensaje, canal y asignación configurada para feedback negativo. |
+| Falta una pregunta CSAT esperada | Disparador de resolución, controles de interacción significativa, protección contra preguntas duplicadas y elegibilidad de audiencia y canal. |
+| Satisfacción del cliente baja en Calidad de servicio | Revisa las respuestas negativas y sus conversaciones: qué necesitaba el cliente, si se resolvió el problema, claridad del mensaje y cómo se manejó la derivación o el seguimiento. |
 
 Si faltan señales o actividad, usa [Soluciona señales o actividad faltante]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %}) antes de juzgar la misión.
 
