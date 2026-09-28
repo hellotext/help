@@ -1,0 +1,28 @@
+# NPS Pulse runtime errata and pending visual review
+
+The published `journeys/nps-pulse-playbook.md` remains `pending` in the editorial inventory for a complete instructional and visual review. The first local erratum corrected the stated score range from 0–10 to **1–10** in both article bodies and the shared stub. The current Rails question and quick replies use 1–10; `Playbook::NPS::Responder#score` rejects zero, `Attempt` validates 1–10, and the detractor bucket is 1–6. The numeric correction does not complete the pair.
+
+Complete original copies are under `originals/choose-first-nps-errata/`. SHA-256: Spanish `b91f12cc08fb0db187c2033ca6e1667e6e74e9fd0e6708deff11f05dbecd1536`, English `9185b34f7edfa3247760ebad9635b6c6b4eb4ecb7c85a0a77c27dab144b4209e`, shared stub `8b61d09d441203f8428bd2640a0534c0d817e30c4290a35e5e60aff119689ef3`. The localized hashes match `inventory.csv`. Preserve titles, slugs, language pairing, links, and published state.
+
+## Runtime audit and local prose correction
+
+Audited Rails revision `d348bd09825d62c2cf551757598ed04a4bca0ce6` at `/private/tmp/hellotext-workload-fixed`. The Spanish body was corrected first and the English body adapted from it. These changes are locally built and visually checked, but not yet merged, deployed, or publicly verified.
+
+- `Supervisor::Automation::OrderDelivered#run` schedules NPS and Review Builder independently from the recognized `order.delivered` action. A generic shipment-delivered event is not itself an NPS trigger. Sources: `app/models/supervisor/automation.rb`, `app/models/supervisor/automation/order_delivered.rb`.
+- `Playbook::NPS::ScheduleAttempt` anchors optimization at `event.tracked_at + 7.days`; send-time optimization and contact pacing select the actual slot. The scheduler deduplicates by delivery event, checks audience, route, and a 90-day contact cooldown. A missing `tracked_at` is filled by `Track::Event` with the current time, rather than becoming the documented NPS skip. Sources: `app/models/playbook/nps.rb`, `app/models/playbook/nps/schedule_attempt.rb`, `app/models/track/event.rb`.
+- `Playbook::NPS::Responder` accepts only 1–10 and records the first valid answer, score, bucket, response text from that same answer, and answer time. It does not send a bucket follow-up, request an invalid-score retry, link a later written reason, or create detractor recovery. Invalid replies continue through the general inbound scanner, so the article makes no promise about other conversation flows. The follow-up copy in locale YAML and the reason/recovery columns on `Attempt` have no NPS runtime writer. Sources: `app/models/playbook/nps/responder.rb`, `app/models/message/scanner.rb`, `app/models/playbook/nps/attempt.rb`.
+- The NPS editor exposes the main message and fixed 1–10 buttons. The merchant `Playbook::Report` registry does not include NPS, so there is no dedicated NPS score, response-rate, bucket, reason, or recovery report in the current Playbooks view. The generic Playbooks list displays commerce metrics; the admin playbook report can filter NPS as a type but offers only sent-message, click-through, conversion, and attributed-revenue metrics. Sources: `app/views/playbook/component/messages/_form.html.erb`, `app/models/playbook/report.rb`, `app/views/automation/workflows/_metric_values.html.erb`, `app/models/admin/playbook_report.rb`.
+
+The bilingual articles now describe score-only capture, the event and timing boundary, manual detractor follow-up, and the reporting limitation. They no longer promise an automatic second question, invalid-score retry, written reason, Inbox handoff, recovery case, or customer-facing NPS widgets. The standard NPS formula remains a definition, not a claim that the UI calculates it. The misleading NPS-to-AI-handoff sentence was removed; the preexisting related-guide link remains. This article's cross-link no longer promises exportable Review Builder records.
+
+## Visual plan and blocker
+
+The article still needs full ES/EN desktop and mobile review. Candidate native figures should show the NPS mission in the real Playbooks interface and the locale-matched NPS Message editor with its fixed score choices. Assess channel and audience screens in context before deciding whether they add distinct instructional value. Do not plan an NPS report figure: the audited merchant interface has no dedicated NPS report. No figure was added to either language.
+
+Native capture remains blocked by automatic review because the helper enumerates all visible Chrome windows and could inspect personal windows. Do not rerun it or substitute a browser screenshot. Keep this pair `pending` with explicit visual debt until a compliant native capture route and complete page review are available.
+
+## Local verification
+
+The complete Spanish and English article text and the shared description were checked against the Rails source points above. The bilingual Jekyll build and security-header check passed. The complete local preview was reviewed at 1440×900 and 390×844 in both languages: headings, locale mapping and focused links worked, the 1–10 prompt and 9–10 / 7–8 / 1–6 buckets were consistent, and the mobile score tables did not clip. `git diff --check` passed. No native screenshot was added. The row remains `pending` for a future interface and visual review; these corrections do not claim full completion.
+
+Pending: content and verifier commits, PR checks, merge, deployed-SHA check, and public verification. Record the actual publication separately when complete.

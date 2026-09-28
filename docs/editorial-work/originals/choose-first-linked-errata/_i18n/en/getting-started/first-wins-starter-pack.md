@@ -34,9 +34,9 @@ Expected win: more reachable customer profiles and cleaner consent for future pl
 
 ## 2. Recover abandoned carts
 
-Start here if detected abandonment produces a `cart.abandoned` event linked to the right customer profile.
+Start here if your store has cart or checkout signals.
 
-Use [Cart Saver route]({% link _journeys/cart-saver-route.md %}) when you want fixed reminders with a configurable wait and purchase condition. Use [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %}) when you want Hellotext to prepare an outbound reminder from cart, product, and profile context and check whether it can send. If the message invites replies, arrange separate Inbox coverage.
+Use [Cart Saver route]({% link _journeys/cart-saver-route.md %}) when you want fixed reminders with predictable timing. Use an AI cart saver playbook when replies, product context, objections, or recommendations should change the next step.
 
 Expected win: recover purchase intent that already exists instead of only trying to create new demand.
 
@@ -48,9 +48,9 @@ Start here when you have product, browsing, subscription, or purchase signals.
 
 Useful options can include:
 
-- Check availability of [First-Purchase Driver]({% link _journeys/first-purchase-driver-playbook.md %}) for new subscribers who have not bought yet.
+- [First-Purchase Driver]({% link _journeys/first-purchase-driver-playbook.md %}) for new subscribers who have not bought yet.
 - [Browse Recovery]({% link _journeys/browse-recovery-playbook.md %}) for customers who viewed products but did not add to cart.
-- [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}) for incoming product questions when catalog and inventory data are reliable.
+- [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}) when product and inventory context are strong.
 - [Complete-the-Look]({% link _journeys/complete-the-look-playbook.md %}) when shoppers picked or viewed products that have clear matching items.
 - [Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}) or [Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}) when you have enough order history.
 - [Soft Reactivation]({% link _journeys/soft-reactivation-playbook.md %}) when existing customers are starting to go quiet but are not fully dormant.

@@ -34,9 +34,9 @@ Logro esperado: más perfiles de cliente alcanzables y consentimiento más limpi
 
 ## 2. Recupera carritos abandonados
 
-Empieza aquí si los abandonos detectados generan un evento `cart.abandoned` vinculado al perfil de cliente correcto.
+Empieza aquí si tu tienda tiene señales de carrito o checkout.
 
-Usa [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) cuando quieres recordatorios fijos con una espera y condición de compra configurables. Usa [Misión Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}) cuando quieres que Hellotext prepare un recordatorio saliente según el carrito, los productos y el perfil, y compruebe si puede enviarlo. Si el mensaje invita a responder, prepara por separado la atención de Inbox.
+Usa [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) cuando quieres recordatorios fijos con timing predecible. Usa una misión de carrito con IA cuando las respuestas, contexto de producto, objeciones o recomendaciones deberían cambiar el siguiente paso.
 
 Logro esperado: recuperar intención de compra que ya existe en lugar de intentar crear demanda desde cero.
 
@@ -48,9 +48,9 @@ Empieza aquí cuando tienes señales de producto, navegación, suscripción o co
 
 Opciones útiles pueden incluir:
 
-- Consulta la disponibilidad de [Impulsor de Primera Compra]({% link _journeys/first-purchase-driver-playbook.md %}) para nuevos suscriptores que todavía no compraron.
+- [Impulsor de Primera Compra]({% link _journeys/first-purchase-driver-playbook.md %}) para nuevos suscriptores que todavía no compraron.
 - [Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}) para clientes que vieron productos pero no agregaron al carrito.
-- [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) para responder preguntas entrantes sobre productos cuando el catálogo y el inventario son confiables.
+- [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) cuando el contexto de producto e inventario es sólido.
 - [Completa el Look]({% link _journeys/complete-the-look-playbook.md %}) cuando compradores eligieron o vieron productos que tienen ítems que combinan claramente.
 - [Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %}) o [Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %}) cuando tienes suficiente historial de pedidos.
 - [Reactivación Suave]({% link _journeys/soft-reactivation-playbook.md %}) cuando clientes existentes empiezan a enfriarse, pero todavía no están completamente inactivos.
