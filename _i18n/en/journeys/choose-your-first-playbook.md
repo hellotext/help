@@ -1,6 +1,6 @@
 Your first playbook should prove one clear business outcome before you expand.
 
-In Hellotext, a playbook can be an autonomous prebuilt mission, a reactive AI agent, a journey route with defined steps, or a capture. Capture playbooks are available under **Playbooks** > **Explore playbooks** > **Captures**. This Help Center gives captures and campaigns dedicated sections because their setup and operating models are different. Start with the simplest option that can deliver the outcome and teach you something useful.
+In Hellotext, a playbook can be an autonomous prebuilt mission, a reactive AI agent, a journey route with defined steps, or a capture. Capture playbooks are available under **Playbooks** > **Explore Playbooks** > **Capture**. This Help Center gives captures and campaigns dedicated sections because their setup and operating models are different. Start with the simplest option that can deliver the outcome and teach you something useful.
 
 ## Before you choose
 
@@ -9,8 +9,8 @@ Confirm the basics first:
 - Your store, website, or data source is connected.
 - The signals the playbook needs are available on customer profiles.
 - The channel you want to use, such as WhatsApp or SMS, is connected and ready.
-- The audience has clear consent and enough recent activity to make the launch meaningful.
-- Someone on your team can review replies or handoffs.
+- For outbound messages, the audience has consent and channel eligibility; if the playbook depends on recent activity, that signal is available.
+- If you expect replies or handoffs, someone on your team can review them.
 
 If the signal is not available yet, set up tracking or integrations before choosing a playbook that depends on it.
 
@@ -24,24 +24,65 @@ After you choose the first option to launch, follow [How to enable a playbook]({
 
 ## Choose by first goal
 
-| If your first goal is... | Start with... | Why |
-| --- | --- | --- |
-| Grow your reachable audience or website conversations | A capture such as [Subscriber Booster]({% link _captures/subscriber-booster-playbook.md %}), [Webchat Widget]({% link _captures/webchat-widget-playbook.md %}), QR code, shareable link, form, or popup | You need customers to opt in or start a conversation before many playbooks, routes, or campaigns can perform well. |
-| Complete missing customer profile data | [Property Collector]({% link _captures/property-collector-playbook.md %}) | Use it directly or as a prerequisite when another AI playbook needs selected profile properties before continuing. |
-| Recover carts | [Cart Saver route]({% link _journeys/cart-saver-route.md %}) or an AI cart saver playbook | Use a route when the follow-up should be predictable. Use an AI playbook when the experience should react to product context, customer intent, replies, or objections. |
-| Alert shoppers about products back in stock | [Back-in-Stock Pounce]({% link _journeys/back-in-stock-pounce.md %}) | Use this when customers asked to be notified about an unavailable product and your stock signals are reliable. |
-| Alert interested shoppers about a product price drop | [Price-Drop Pouncer]({% link _journeys/price-drop-pouncer.md %}) | Use this when catalog price changes are reliable and Hellotext can see recent product, cart, or recommendation interest. |
-| Suggest matching products around what shoppers picked or viewed | [Complete-the-Look]({% link _journeys/complete-the-look-playbook.md %}) | Use this when your catalog has clear matching products, compatible accessories, looks, kits, or routines. |
-| Convert new subscribers or window shoppers | [First-Purchase Driver]({% link _journeys/first-purchase-driver-playbook.md %}), [Browse Recovery]({% link _journeys/browse-recovery-playbook.md %}), or [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}) | These playbooks work best when Hellotext can see product, browsing, subscription, and purchase signals. |
-| Drive repeat purchases or relationship moments | [Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}), [Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}), [Birthday Bash]({% link _journeys/birthday-bash-playbook.md %}), [Anniversary Surprise]({% link _journeys/anniversary-surprise-playbook.md %}), or [Soft Reactivation]({% link _journeys/soft-reactivation-playbook.md %}) | These need enough purchase history, product data, or profile data to make the timing and recommendation useful. |
-| Win back inactive customers | [Dormant Revival]({% link _journeys/dormant-revival-playbook.md %}) or [Sunset Saver]({% link _journeys/sunset-saver-playbook.md %}) | Use Dormant Revival around 3 months of inactivity. Use Sunset Saver around 12 months inactive or not reactivated. |
-| Collect product reviews after delivery | [Review Builder]({% link _journeys/review-builder-playbook.md %}) | Use this when delivered-order and product data are reliable and you want ratings, written reviews, low-rating follow-up, and exportable review records. |
-| Measure loyalty after delivery | [NPS Pulse]({% link _journeys/nps-pulse-playbook.md %}) | Use this when delivered-order signals are reliable and you want a relationship-level 0-10 recommendation signal. |
-| Answer frequent questions or reduce support load | [Instant Answers]({% link _journeys/instant-answers-playbook.md %}), [Order-Update Delight]({% link _journeys/order-update-playbook.md %}), [Return & Exchange Helper]({% link _journeys/return-and-exchange-helper-playbook.md %}), or [Order Cancellation Assistant]({% link _journeys/order-cancellation-assistant-playbook.md %}) | Start here when your team spends time answering repeat questions and you have clear policies, order data, and handoff rules. |
-| Measure satisfaction after resolved conversations | [CSAT Pulse]({% link _journeys/csat-pulse-playbook.md %}) | Use this when support, Inbox, AI, or playbook conversations can be resolved and negative feedback should create follow-up. |
-| Send one planned announcement | A campaign | Use a campaign when the message is time-bound and should go to a selected audience once. |
-| Build a custom flow | A journey route or [custom agent]({% link _journeys/custom-agent-playbook.md %}) | Use this when no prebuilt mission fits, or when you need specific steps, conditions, actions, or business logic. |
+- **Grow your reachable audience or website conversations** — **Start with:** A capture such as [Subscriber Booster]({% link _captures/subscriber-booster-playbook.md %}), [Webchat Widget]({% link _captures/webchat-widget-playbook.md %}), QR code, shareable link, form, or popup
 
+  **Why:** You need customers to opt in or start a conversation before many playbooks, routes, or campaigns can perform well.
+
+- **Complete missing customer profile data** — **Start with:** [Property Collector]({% link _captures/property-collector-playbook.md %})
+
+  **Why:** Use it directly or as a prerequisite when another AI playbook needs selected profile properties before continuing.
+
+- **Recover carts** — **Start with:** [Cart Saver route]({% link _journeys/cart-saver-route.md %}) or [AI Cart Saver]({% link _journeys/ai-cart-saver-playbook.md %})
+
+  **Why:** Use a route for a configurable sequence and wait. Use the AI playbook to prepare an outbound reminder from cart, product, and profile context and check whether it can send. Arrange separate Inbox coverage if you invite replies.
+
+- **Alert shoppers about products back in stock** — **Start with:** [Back-in-Stock Pounce]({% link _journeys/back-in-stock-pounce.md %})
+
+  **Why:** Use this when a customer showed interest in a product that returned to stock and your product identifiers and availability signals are reliable.
+
+- **Alert interested shoppers about a product price drop** — **Start with:** [Price-Drop Pouncer]({% link _journeys/price-drop-pouncer.md %})
+
+  **Why:** Use this when catalog price changes are reliable and Hellotext can see recent product, cart, or recommendation interest.
+
+- **Suggest matching products around what shoppers picked or viewed** — **Start with:** [Complete-the-Look]({% link _journeys/complete-the-look-playbook.md %})
+
+  **Why:** Use this when your catalog has clear matching products, compatible accessories, looks, kits, or routines.
+
+- **Convert new subscribers or window shoppers** — **Start with:** For new subscribers, check availability of [First-Purchase Driver]({% link _journeys/first-purchase-driver-playbook.md %}); for product views, use [Browse Recovery]({% link _journeys/browse-recovery-playbook.md %}); for incoming product questions, use [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}).
+
+  **Why:** Choose by the actual signal: a subscription without a purchase, browsing without a cart, or an incoming question. Each option needs the product, profile, or purchase data it uses to decide.
+
+- **Drive repeat purchases or relationship moments** — **Start with:** [Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}), [Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}), [Birthday Bash]({% link _journeys/birthday-bash-playbook.md %}), [Anniversary Surprise]({% link _journeys/anniversary-surprise-playbook.md %}), or [Soft Reactivation]({% link _journeys/soft-reactivation-playbook.md %})
+
+  **Why:** These need enough purchase history, product data, or profile data to make the timing and recommendation useful.
+
+- **Win back inactive customers** — **Start with:** [Dormant Revival]({% link _journeys/dormant-revival-playbook.md %}) or [Sunset Saver]({% link _journeys/sunset-saver-playbook.md %})
+
+  **Why:** Use Dormant Revival around 3 months of inactivity. Use Sunset Saver around 12 months inactive or not reactivated.
+
+- **Collect product reviews after delivery** — **Start with:** [Review Builder]({% link _journeys/review-builder-playbook.md %})
+
+  **Why:** Use this when delivered-order and product data are reliable and you want ratings, written reviews, and low-rating follow-up.
+
+- **Measure loyalty after delivery** — **Start with:** [NPS Pulse]({% link _journeys/nps-pulse-playbook.md %})
+
+  **Why:** Use this when delivered-order signals are reliable and you want to collect a 1-10 recommendation score. The current Playbooks view has no dedicated NPS report; confirm how you will access the results before launch.
+
+- **Answer frequent questions or reduce support load** — **Start with:** [Instant Answers]({% link _journeys/instant-answers-playbook.md %}), [Order-Update Delight]({% link _journeys/order-update-playbook.md %}), [Return & Exchange Helper]({% link _journeys/return-and-exchange-helper-playbook.md %}), or [Order Cancellation Assistant]({% link _journeys/order-cancellation-assistant-playbook.md %})
+
+  **Why:** Start here when your team spends time answering repeat questions and you have clear policies, order data, and handoff rules.
+
+- **Measure satisfaction after resolved conversations** — **Start with:** [CSAT Pulse]({% link _journeys/csat-pulse-playbook.md %})
+
+  **Why:** Use this when support, Inbox, AI, or playbook conversations can be resolved and your team is ready to handle negative feedback; escalation must be configured.
+
+- **Send one planned announcement** — **Start with:** A campaign
+
+  **Why:** Use a campaign when the message is time-bound and should go to a selected audience once.
+
+- **Build a custom flow** — **Start with:** A journey route or [custom agent]({% link _journeys/custom-agent-playbook.md %})
+
+  **Why:** Use this when no prebuilt mission fits, or when you need specific steps, conditions, actions, or business logic.
 ## Start small
 
 Choose one first outcome, one channel, and one audience.
@@ -64,7 +105,9 @@ Use a **campaign** when you already know the audience, message, and send time.
 
 Use a **route** when the experience should follow known steps: trigger, wait, message, condition, branch, and handoff.
 
-Use an **AI playbook or agent** when Hellotext needs to interpret replies, use product or policy knowledge, personalize recommendations, choose from several next steps, or decide when to escalate.
+Use a **proactive AI playbook** when an event starts an outbound message and Hellotext must adapt its content to the context before checking whether it can send.
+
+Use a **reactive agent** when Hellotext must handle incoming messages, answer questions with product or policy knowledge, suggest alternatives, or hand off to a person.
 
 Use a **capture** when the main job is to collect subscribers, customer data, or website conversations before another playbook can run.
 

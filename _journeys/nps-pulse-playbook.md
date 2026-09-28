@@ -8,10 +8,10 @@ avatar:
 
 en:
   title: NPS Pulse playbook
-  description: Measure loyalty after delivery with a 0-10 recommendation question and follow up on detractors.
+  description: Ask a 1-10 recommendation question after delivery and record the first valid score and bucket.
 es:
   title: Misión Pulso NPS
-  description: Mide lealtad después de la entrega con una pregunta de recomendación de 0 a 10 y da seguimiento a detractores.
+  description: Pregunta por recomendación del 1 al 10 después de la entrega y registra el primer puntaje válido y su grupo.
 
 permalink: nps-pulse-playbook
 permalink_es: pulso-nps

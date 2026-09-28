@@ -1,17 +1,19 @@
-Hellotext uses results-based pricing. Instead of adding every type of usage together, Hellotext compares the main billable amounts for the month and uses only the highest one as the Hellotext charge.
+Hellotext offers results-based pricing. For plans under the standard monthly comparison, it compares the main billable amounts and uses the highest as the charge for that comparison instead of adding them together.
 
-Current plan prices, performance rates, SMS allowances, and included features can change. Use the public [Hellotext pricing page](https://www.hellotext.com/pricing) for the current plan comparison.
+Current plan prices, performance rates, SMS equivalents, and included features can change. Use the public [Hellotext pricing page](https://www.hellotext.com/pricing) for the current plan comparison.
 
 ## The four amounts Hellotext compares
 
-For each billing period, Hellotext compares:
+In that monthly comparison, Hellotext considers:
 
 1. **Plan minimum:** the base amount for your selected plan and billing agreement.
 2. **Performance fee:** your plan rate applied to revenue attributed to Hellotext.
-3. **SMS costs:** billable SMS usage after any allowance that applies to your plan and country.
+3. **SMS costs:** the billable amount calculated from SMS parts at the applicable rate. The published “up to X SMS” figure is an approximate equivalent derived from the plan minimum and country rate, not a separate free balance deducted first.
 4. **Variable messaging fee:** non-SMS messages billed at the published rate when this amount is higher than the other three.
 
 The Hellotext charge is the highest of these four amounts. They are not added together.
+
+For prepaid accounts, usage can be collected as it is recorded. A fixed-plan agreement can use its fixed amount instead of choosing the highest. Check your account terms to see how each charge is settled.
 
 ## Example of the highest-only rule
 

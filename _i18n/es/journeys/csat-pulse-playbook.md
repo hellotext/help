@@ -1,6 +1,6 @@
 Usa esta guía cuando quieres que Hellotext pregunte a clientes si quedaron satisfechos después de resolver una conversación de soporte, Inbox, IA o misión.
 
-Pulso CSAT es una misión de feedback posterior a una interacción. Envía una pregunta breve de satisfacción después de cerrar una conversación, registra la respuesta para reportes CSAT y puede crear un camino de recuperación cuando el cliente responde negativamente.
+Pulso CSAT es una misión de feedback posterior a una interacción. Envía una pregunta breve de satisfacción después de cerrar una conversación, registra la respuesta para Satisfacción del cliente en Calidad de servicio y puede derivar el feedback negativo a un colaborador cuando hay una derivación configurada.
 
 No es una solicitud de reseña de producto ni una encuesta de lealtad de marca. Usa [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}) para reseñas de productos después de la entrega, y usa [Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}) cuando el objetivo es medir lealtad o probabilidad de recomendación.
 
@@ -15,9 +15,8 @@ Puede:
 - Registrar respuestas positivas y negativas de satisfacción.
 - Evitar preguntar dos veces por la misma conversación.
 - Respetar reglas de canal, consentimiento y elegibilidad de envío.
-- Crear un camino de recuperación cuando el cliente responde negativamente.
-- Asignar o derivar feedback negativo a la persona o equipo correcto.
-- Alimentar reportes CSAT por canal, rango de fechas, camino de resolución, agente, intención o misión cuando ese contexto está disponible.
+- Enviar un seguimiento después de una respuesta y derivar el feedback negativo cuando hay una derivación configurada.
+- Aportar las respuestas recibidas a los porcentajes de CSAT de agentes de IA y CSAT de colaboradores en Calidad de servicio.
 
 El objetivo es aprender si la interacción funcionó y recuperar rápido cuando no funcionó.
 
@@ -27,8 +26,8 @@ Usa Pulso CSAT cuando:
 
 - Tu equipo cierra conversaciones de soporte o venta en el Inbox.
 - Agentes de IA o misiones resuelven conversaciones y quieres feedback de satisfacción.
-- Quieres comparar resultados de conversaciones resueltas solo por IA, solo por personas o con derivación.
-- Quieres que el feedback negativo cree un seguimiento en lugar de quedar solo en un reporte.
+- Quieres comparar la satisfacción agregada de agentes de IA y colaboradores.
+- Puedes asignar a un colaborador el seguimiento del feedback negativo cuando hay una derivación configurada.
 - Tienes suficiente volumen de conversaciones para aprender de los resultados.
 
 Funciona mejor después de un evento real de resolución. Si el cliente nunca tuvo una interacción significativa, no envíes una pregunta CSAT.
@@ -56,7 +55,7 @@ Antes de habilitar Pulso CSAT, confirma:
 - Los canales donde quieres pedir CSAT están conectados y son elegibles.
 - Los perfiles de cliente tienen consentimiento para el canal.
 - Tu equipo sabe quién revisa y da seguimiento al feedback negativo.
-- Tu equipo sabe dónde revisar los resultados CSAT.
+- Tu equipo sabe dónde revisar Satisfacción del cliente en Calidad de servicio y cómo dar seguimiento en las conversaciones de clientes.
 
 Para validar la configuración, usa [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %}).
 
@@ -98,34 +97,17 @@ Si una pregunta CSAT se omite por elegibilidad, no lo trates como una encuesta f
 
 Cuando el cliente responde positivamente, Pulso CSAT registra la respuesta.
 
-Cuando el cliente responde negativamente, Pulso CSAT debería crear un camino de recuperación.
-
-El feedback negativo puede:
-
-- Reabrir la conversación o enviarla al Inbox para seguimiento.
-- Crear un caso de recuperación para el equipo.
-- Mantener el feedback conectado a la conversación original.
+Cuando el cliente responde negativamente, Pulso CSAT registra la respuesta y envía un seguimiento. La respuesta y el motivo elegido, si lo hay, permanecen conectados a la conversación original. Si hay un componente de derivación configurado, también asigna la conversación para que un colaborador o equipo haga el seguimiento.
 
 Para el comportamiento de derivación, usa [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %}).
 
-## Revisa reportes CSAT
+## Revisa Satisfacción del cliente
 
-Los reportes CSAT ayudan a entender la satisfacción después de conversaciones resueltas.
+En **Calidad de servicio**, **Satisfacción del cliente** muestra dos porcentajes agregados para el período seleccionado: **CSAT de agentes de IA** y **CSAT de colaboradores**. El porcentaje de colaboradores combina las conversaciones atendidas por una persona desde el inicio con las derivadas de IA a una persona. El período usa la fecha en que respondió el cliente.
 
-Revisa:
+Cada porcentaje se calcula como respuestas positivas divididas entre respuestas positivas más negativas. Cuando ambos períodos tienen datos, el panel compara el período seleccionado con el anterior.
 
-- Porcentaje CSAT.
-- Tasa de respuesta.
-- Cantidad de respuestas positivas y negativas.
-- Desglose por canal.
-- Caminos de resolución: solo IA, solo persona o con derivación.
-- Desglose por agente o equipo cuando esté disponible.
-- Desglose por intención o misión cuando esté disponible.
-- Motivos de feedback negativo.
-- Tendencias por rango de fechas.
-- Links a conversaciones para seguimiento.
-
-Para la respuesta de pulgar arriba/abajo, el porcentaje CSAT es respuestas positivas dividido entre respuestas positivas más negativas.
+No hay un reporte de resultados específico de Pulso CSAT en **Misiones**. El panel de Calidad de servicio no muestra tasa de respuesta, cantidades de respuestas, porcentajes separados de conversaciones solo con personas y con derivación, ni desgloses por canal, agente, equipo, intención o misión. Revisa las conversaciones individuales de clientes para consultar motivos negativos y el contexto del seguimiento. Consulta [Reporte de Calidad de servicio]({% link _analytics-reporting-attribution/service-quality-report-guide.md %}) para conocer el reporte.
 
 ## Cómo probarla
 
@@ -136,26 +118,22 @@ Prueba:
 - Una conversación resuelta que debería recibir CSAT.
 - Una conversación demasiado corta que no debería recibir CSAT.
 - Una respuesta positiva.
-- Una respuesta negativa que debería crear un camino de recuperación.
+- Una respuesta negativa con una derivación configurada para el seguimiento.
 - Un canal fuera de su ventana de envío.
 - Una conversación resuelta solo por IA.
 - Una conversación resuelta por una persona.
 - Una conversación que fue derivada de IA a una persona.
 
-Confirma que la pregunta se envía solo cuando corresponde, las respuestas se registran correctamente, el feedback negativo llega al responsable correcto y los reportes reflejan los casos de prueba.
+Confirma que la pregunta se envía solo cuando corresponde, las respuestas se registran correctamente, la derivación configurada llega al responsable correcto y los porcentajes de Calidad de servicio reflejan los casos respondidos en el período seleccionado.
 
 ## Qué revisar después del lanzamiento
 
 Durante los primeros días, revisa:
 
-- Cuántas conversaciones resueltas fueron elegibles.
-- Cuántas preguntas fueron enviadas, omitidas, entregadas y respondidas.
-- Porcentaje CSAT y tasa de respuesta.
-- Motivos de feedback negativo.
-- Seguimiento de recuperación y velocidad de respuesta.
-- Diferencias entre conversaciones solo IA, solo persona y con derivación.
-- Diferencias por canal, equipo, agente, intención o misión.
-- Señales de que las preguntas se envían en el momento equivocado.
+- CSAT de agentes de IA y CSAT de colaboradores en Calidad de servicio para el período seleccionado.
+- Ejemplos de preguntas y respuestas en las conversaciones de clientes, incluidos los motivos negativos.
+- Si la derivación configurada llevó el feedback negativo al colaborador correcto.
+- Señales en las conversaciones que revisas de que las preguntas se envían en el momento equivocado.
 
 Ajusta una cosa por vez: texto del mensaje, proceso de resolución, preparación del canal o responsable del feedback negativo.
 

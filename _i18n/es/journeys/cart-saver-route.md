@@ -1,6 +1,6 @@
 Usa esta guía cuando quieres un seguimiento de carrito abandonado predecible, que tu equipo pueda revisar paso por paso.
 
-Recuperador de Carritos es una plantilla de ruta. Empieza con actividad de carrito abandonado o checkout, espera, revisa si el cliente compró y envía un recordatorio fijo cuando las condiciones de la ruta todavía aplican.
+Recuperador de Carritos es una plantilla de ruta. En su configuración inicial empieza cuando se registra `cart.abandoned`, espera, revisa si el cliente compró y envía un recordatorio fijo cuando las condiciones de la ruta todavía aplican. Salir de una página no genera por sí solo ese evento.
 
 No es un agente de IA. Sigue la ruta que publicas.
 
@@ -10,7 +10,7 @@ Recuperador de Carritos ayuda a recuperar carritos abandonados con una secuencia
 
 Puede:
 
-- Empezar cuando Hellotext recibe una señal de carrito abandonado o checkout.
+- Empezar cuando Hellotext recibe `cart.abandoned`; puedes cambiar el disparador si tu tienda envía otra señal de checkout compatible.
 - Esperar antes de enviar el primer recordatorio.
 - Revisar si el cliente ya compró antes de enviar.
 - Enviar un recordatorio con texto fijo, personalización, link de checkout y una oferta si agregas una.
@@ -29,9 +29,9 @@ Encaja bien cuando:
 - El timing debería ser igual para la mayoría de los clientes.
 - El mensaje, link de checkout, cupón, canal y condición de detención ya están claros.
 - Quieres inspeccionar cada paso antes del lanzamiento.
-- No necesitas que la IA interprete respuestas, responda preguntas, recomiende alternativas o elija entre varios siguientes pasos.
+- No necesitas adaptar el texto de cada recordatorio al carrito y al perfil antes de enviarlo.
 
-Si la recuperación de carrito debería reaccionar al contexto de producto, respuestas del cliente, objeciones, recomendaciones o decisiones de derivación, usa [Misión Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}).
+Si el recordatorio saliente debería adaptar su texto al carrito, los productos y el perfil del cliente, revisa [Misión Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}). Las respuestas de los clientes requieren atención configurada por separado en Inbox.
 
 Si el cliente solo vio productos y nunca agregó nada al carrito o checkout, usa [Misión Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}).
 
@@ -81,7 +81,7 @@ Recuperador de Carritos con IA toma decisiones más dinámicas.
 
 Usa Recuperador de Carritos cuando el camino debería ser predecible: esperar, revisar compra, enviar un recordatorio y luego detenerse o continuar por los pasos que definiste.
 
-Usa Recuperador de Carritos con IA cuando Hellotext debería usar más contexto antes de decidir qué hacer después, como detalles de producto, respuestas del cliente, objeciones, recomendaciones, preparación del canal o derivación.
+Usa Recuperador de Carritos con IA cuando el recordatorio saliente debería usar el contexto del carrito, los productos, el perfil y los canales disponibles antes de enviarse.
 
 Para una comparación completa, mira [Carrito abandonado: plantilla de ruta vs misión con IA]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
 
@@ -100,7 +100,7 @@ La ruta puede no enviar cuando:
 - El link de checkout, cupón o personalización no es válido.
 - El canal, remitente, plantilla de WhatsApp o formato del mensaje no está listo.
 - Horarios silenciosos, límites de frecuencia u otra regla de envío demoran o bloquean el mensaje.
-- Otro flujo de recuperación de carrito ya está manejando la misma audiencia.
+- Recuperador de Carritos con IA está activo y recibe `cart.abandoned` antes que la ruta.
 
 Para un diagnóstico paso a paso, usa [Soluciona una misión que no se disparó o no envió]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}).
 
@@ -132,7 +132,7 @@ Durante la primera semana, revisa:
 - Si las compras ocurrieron antes o después del recordatorio.
 - Respuestas, bajas y preguntas de soporte.
 - Clicks, ingresos atribuidos y conversión.
-- Si esta ruta se superpone con Recuperador de Carritos con IA u otro flujo de recuperación de carrito.
+- Si Recuperador de Carritos con IA tomó `cart.abandoned`; la ruta es el camino alternativo cuando esa misión no está activa.
 
 Ajusta una parte por vez: espera, texto del mensaje, oferta, audiencia, canal o condición de detención.
 

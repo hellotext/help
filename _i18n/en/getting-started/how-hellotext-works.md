@@ -6,13 +6,13 @@ This guide helps you choose the right tool before you build.
 
 ## The basic model
 
-Most Hellotext workflows follow the same pattern:
+These tools can begin with a signal or with a send planned by your team:
 
-1. A customer or business signal appears.
-2. Hellotext checks audience, consent, channel eligibility, timing, and limits.
-3. Hellotext chooses or runs the next action.
-4. The customer receives a message, enters a flow, or reaches a teammate.
-5. Reports connect replies, clicks, orders, and revenue back to the action.
+1. A customer signal appears or your team prepares a campaign.
+2. Hellotext checks the applicable conditions, such as audience, consent, channel eligibility, timing, and limits.
+3. A playbook may decide how to act, a route follows its steps, or a campaign carries out the planned send.
+4. Depending on the result, the customer may receive a message or a teammate may handle the conversation.
+5. Reports show recorded activity; revenue is linked to an action only when the [sales attribution rules]({% link _analytics-reporting-attribution/sales-attribution.md %}) are met.
 
 The difference between playbooks, campaigns, and Inbox is who decides the next step and how repeatable the work should be.
 
@@ -74,7 +74,7 @@ Playbooks, campaigns, and Inbox are not separate silos.
 
 Examples:
 
-- A capture tool subscribes a customer, then a welcome playbook starts.
+- A customer subscribes through a capture; if a welcome route is active for that signal and its conditions are met, the route can start.
 - A cart signal starts a route, but a customer reply sends the conversation to the Inbox.
 - A campaign announces a product launch, and replies become Inbox conversations.
 - An AI agent answers a frequent question, then hands off when the customer asks for human help.

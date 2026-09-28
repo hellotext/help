@@ -1,21 +1,23 @@
-SMS pricing depends on the destination country, the active plan, any SMS allowance included for that market, and billable messages beyond that allowance.
+SMS cost depends on the destination country, the plan and account terms, the applicable rate, and the number of billable parts in each message.
 
-Use the public [Hellotext pricing page](https://www.hellotext.com/pricing) and select the relevant country to see current plan allowances and extra-message rates.
+Use the public [Hellotext pricing page](https://www.hellotext.com/pricing) and select the relevant country to see each plan's displayed SMS equivalent and published rate. If your business has an agreed rate or sends across borders, confirm the account's applicable rate with Hellotext before estimating cost.
 
 ## How SMS enters the monthly calculation
 
-Hellotext calculates the SMS amount for the billing period and compares it with the plan minimum, performance fee, and variable non-SMS messaging amount.
+For accounts under the monthly results-based comparison, Hellotext calculates the SMS amount from billable parts and the applicable rate. It compares that amount with the plan minimum, performance fee, and variable non-SMS messaging amount.
 
 - If SMS is the highest amount, SMS becomes the Hellotext charge for that comparison.
 - If another Hellotext amount is higher, SMS is not added on top of it.
 
-Applicable taxes and services covered by a separate agreement can still appear separately.
+Applicable taxes and services covered by a separate agreement can still appear separately. If your account is prepaid or has a fixed plan, check its agreement and Billing summary: usage may be recorded and collected differently.
 
-## Included SMS and extra SMS
+## What “up to X SMS” means on a plan
 
-Some plan and country combinations include an SMS allowance. Messages beyond that allowance use the published extra-message rate.
+The “up to X SMS” figure on the pricing page is an approximate equivalent of one-part messages derived from the plan minimum and that country's published rate. Because it is rounded, it does not guarantee that every displayed message falls under the minimum. It is also not a free bucket subtracted before adding a separate overage charge. Hellotext calculates actual usage cost and compares it with the other monthly amounts.
 
-Do not assume that an allowance shown for one country applies to another. Select the country where messages will be delivered and review the active plan.
+One message in the editor can use multiple SMS parts because of its length, characters, encoding, personalization, or links. Review the editor's part estimate with realistic personalization values and complete links before sending; each part can affect usage and cost. One country's displayed equivalent does not automatically apply to another.
+
+For example, if you plan 100 sends whose final messages each use two parts, budget for 200 parts at the applicable rate before comparing that amount with the other monthly charges. Actual usage depends on which messages are billable and their final part counts.
 
 ## Approved senders and short codes
 
@@ -30,10 +32,10 @@ See [Exclusive short codes]({% link _numbers/exclusive-short-codes.md %}) for op
 Confirm:
 
 - destination country or countries;
-- current plan and included SMS allowance;
+- current plan, published SMS equivalent, and any agreed account rate;
 - estimated recipient count and number of sends;
-- whether message length or encoding can create more than one SMS segment; and
-- whether the business needs an approved shared sender or an exclusive short code.
+- estimated parts after personalizing the message, including links; and
+- whether the business needs an approved sender, a shared short code, or an exclusive one.
 
 ## Related guides
 

@@ -1,4 +1,4 @@
-Las señales son la actividad de clientes y del negocio que Hellotext puede usar para entender qué está pasando y decidir qué debería pasar después.
+Las señales son datos y actividad de clientes y del negocio que Hellotext puede usar para entender qué está pasando y decidir qué debería pasar después.
 
 Una señal puede venir de tu tienda, sitio web, canales conectados, herramientas de captura, tracking personalizado, perfiles de cliente o conversaciones en el Inbox.
 
@@ -22,15 +22,15 @@ Por ejemplo:
 - Una misión puede decidir si un cliente debería recibir un seguimiento de carrito abandonado.
 - Una ruta puede empezar cuando un cliente se suscribe o coincide con un disparador.
 - Un segmento puede actualizarse automáticamente cuando cambia el comportamiento del cliente.
-- Una campaña puede dirigirse a clientes que coinciden con actividad reciente o datos de perfil.
-- Un reporte puede conectar clicks, órdenes, respuestas e ingresos con el mensaje o la misión que influyó en el resultado.
+- Una campaña planificada por tu equipo puede seleccionar su audiencia según actividad reciente o datos de perfil.
+- Un reporte puede mostrar actividad registrada e ingresos atribuidos cuando se cumplen las [reglas de origen y atribución]({% link _analytics-reporting-attribution/sales-attribution.md %}).
 - El Inbox puede darle más contexto a tu equipo antes de responder.
 
 ## Tipos comunes de señales
 
 Las señales de comercio incluyen carritos, vistas de producto, compras, estado de órdenes, devoluciones, cupones, cambios de stock y datos del catálogo.
 
-Las señales de perfil incluyen propiedades del perfil de cliente, estado de suscripción, consentimiento, canal preferido, ubicación, cumpleaños, etiquetas y pertenencia a listas o segmentos.
+Las señales de perfil incluyen propiedades del cliente, estado de suscripción, consentimiento, ubicación, cumpleaños, etiquetas y pertenencia a listas o segmentos.
 
 Las señales de conversación incluyen respuestas, intención, preguntas de soporte, necesidad de derivación y si una conversación está abierta, asignada o cerrada.
 
@@ -54,13 +54,17 @@ Antes de que una misión, ruta o campaña actúe, Hellotext también puede consi
 
 Por eso dos clientes pueden generar la misma señal y recibir siguientes pasos distintos.
 
+Por ejemplo, una ruta configurada para un carrito abandonado podría hacer seguimiento a un cliente que aún no compró y puede recibir mensajes. Si otro cliente abandona un carrito pero después compra o no tiene consentimiento para ese canal, la misma ruta puede no enviarle el seguimiento. El tipo de evento es el mismo; las reglas y el contexto actualizado cambian la decisión.
+
 ## Señales, eventos y propiedades de perfil
 
-Un **evento** es una acción registrada en un momento específico, como `cart.abandoned`, `product.viewed`, `order.placed` o un evento personalizado de tu sistema.
+Un **evento** es una ocurrencia registrada en un momento específico para un cliente o una sesión anónima. `cart.abandoned`, `product.viewed` y `order.placed` son nombres de acciones que pueden identificar el tipo de evento; tu sistema también puede enviar eventos personalizados.
 
-Una **propiedad de perfil** es información guardada en el perfil de cliente, como nombre, ciudad, cumpleaños, talle preferido, estado de consentimiento o campos personalizados que recopilas.
+Una **propiedad de perfil** es información estándar o personalizada guardada sobre el cliente, como cumpleaños, empresa, etiquetas o talla preferida. El estado de suscripción también puede orientar decisiones, pero se administra por separado de las propiedades editables.
 
 Una **señal** es la idea más amplia: cualquier evento, propiedad, estado de canal, estado de conversación o contexto del negocio que Hellotext puede usar para entender al cliente y decidir qué hacer después.
+
+Para ver cómo se presentan los atributos y los eventos registrados, consulta la [guía de perfiles del cliente]({% link _audience/customer-profiles.md %}).
 
 ## Cómo hacer disponibles las señales
 
