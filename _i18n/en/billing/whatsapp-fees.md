@@ -11,7 +11,7 @@ Meta fees are paid directly to Meta through the billing setup for your WhatsApp 
 
 Meta applies its current pricing rules to **delivered** messages, not merely sent messages. When a message is billable, its rate depends on the recipient market and its category: marketing, utility, or authentication. Meta calculates these charges and collects payment directly using the billing arrangement configured for your WhatsApp Business Platform account.
 
-Under Meta's current rules, service messages and utility messages sent in response to users have no charge. Messages sent within 72 hours after a customer sends your business a message from an ad that opens WhatsApp or a Facebook Page call-to-action can also be free. Utility and authentication messages may qualify for volume discounts. Check the exact terms for your case: using WhatsApp does not mean every message incurs a Meta fee.
+Under Meta's current rules, service messages and utility messages sent in response to users within the 24-hour customer service window opened or reset by their latest message have no charge. Messages sent within 72 hours after a customer sends your business a message from an ad that opens WhatsApp or a Facebook Page call-to-action can also be free. Utility and authentication messages may qualify for volume discounts. Check the exact terms for your case: using WhatsApp does not mean every message incurs a Meta fee.
 
 Because Meta can change its categories and rates, use the official [WhatsApp Business Platform pricing page](https://business.whatsapp.com/products/platform-pricing) for current values.
 
