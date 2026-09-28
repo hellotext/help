@@ -58,7 +58,7 @@ Por ejemplo, una ruta configurada para un carrito abandonado podría hacer segui
 
 ## Señales, eventos y propiedades de perfil
 
-Un **evento** es una ocurrencia registrada en un momento específico para un cliente. `cart.abandoned`, `product.viewed` y `order.placed` son nombres de acciones que pueden identificar el tipo de evento; tu sistema también puede enviar eventos personalizados.
+Un **evento** es una ocurrencia registrada en un momento específico para un cliente o una sesión anónima. `cart.abandoned`, `product.viewed` y `order.placed` son nombres de acciones que pueden identificar el tipo de evento; tu sistema también puede enviar eventos personalizados.
 
 Una **propiedad de perfil** es información estándar o personalizada guardada sobre el cliente, como cumpleaños, empresa, etiquetas o talla preferida. El estado de suscripción también puede orientar decisiones, pero se administra por separado de las propiedades editables.
 

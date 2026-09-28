@@ -58,7 +58,7 @@ For example, a route configured for abandoned carts could follow up with a custo
 
 ## Signals, events, and profile properties
 
-An **event** is an occurrence recorded at a specific time for a customer. `cart.abandoned`, `product.viewed`, and `order.placed` are action names that can identify the event type; your system can also send custom events.
+An **event** is an occurrence recorded at a specific time for a customer or anonymous session. `cart.abandoned`, `product.viewed`, and `order.placed` are action names that can identify the event type; your system can also send custom events.
 
 A **profile property** is standard or custom information stored about a customer, such as birthday, company, tags, or preferred size. Subscription status can also inform decisions, but it is managed separately from editable properties.
 

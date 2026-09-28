@@ -11,7 +11,7 @@
 
 The reader needs to distinguish a recorded event from persistent profile data, understand how either can influence a configured workflow, and know why a signal need not lead to a message.
 
-1. Clarify in Spanish, then English, that an event is a timestamped occurrence and strings such as `cart.abandoned` name its action type. The Rails `Track::Event` and `Track::Action` models and the Tracking events guide support that distinction.
+1. Clarify in Spanish, then English, that an event is a timestamped occurrence for a customer or anonymous session and strings such as `cart.abandoned` name its action type. The Rails `Track::Event` and `Track::Action` models and the Tracking events guide support that distinction.
 2. Keep subscription status among the broader profile signals but separate it from editable properties. The Rails `Contact` model stores `subscription_state` separately from `profile_attributes`; the published Customer profiles guide makes the same distinction.
 3. Explain with two illustrative abandoned-cart customers why a configured route can make different decisions from the same event type, depending on later purchase and channel eligibility. Do not imply a send actually occurred.
 4. Clarify that a team plans a campaign and may select its audience using signals. Describe report activity and attributed revenue without claiming every interaction caused a sale; link the published Sales attribution guide.
@@ -38,3 +38,9 @@ No new screenshot or message preview is useful in this conceptual article. The l
 - Independent scoped in-app browser review passed for complete ES/EN pages at 1280px desktop and an actual 390px mobile viewport. The article occupied x=336–1021 at desktop and x=16–374 on mobile. Document scroll width equaled the viewport (1280px and 390px); all six sections and the new links rendered without clipped elements or horizontal overflow. Neither page contains an image or image link. The four linked local target HTML pages responded HTTP 200.
 - The content, originals, and this record were committed as `88dff7b0c406bb057d66f41cb5484c9cd93b1854` (`Clarify signal events and eligibility guide`) after a focused staged diff review and `git diff --cached --check`. The separate progress row records `local_verified` against that exact content commit.
 - Local verification is complete. Push, PR, merge, production deployment, and public page checks are separate later steps; no local edit is a publication.
+
+## PR review correction
+
+- PR #182's automated inline review found that the event definition omitted anonymous sessions. The published bilingual Tracking events guide defines an event as an occurrence for a customer **or session**, and its Hellotext.js section describes anonymous session context. The Spanish and English definitions now include anonymous sessions.
+- The production build and security-header check passed again. Both served localized HTML pages returned 200 with the corrected phrase in an ordinary paragraph, six unchanged sections and no new layout markup. A scoped IAB reconnection was unavailable for a repeat viewport check; the complete desktop/mobile browser review above passed before this three-word addition, and the corrected paragraph wraps as ordinary article text. No screenshot or interface state changed.
+- Move the verifier row to the corrective content commit before merging.
