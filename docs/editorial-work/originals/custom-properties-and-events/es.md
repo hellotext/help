@@ -18,18 +18,7 @@ Un evento también puede hacer referencia a un objeto asociado. Por ejemplo, un 
 2. En las propiedades del perfil, selecciona **Agregar más campos**.
 3. Elige el tipo que corresponda al valor, como texto, texto largo, número, checkbox, fecha, dinero, URL o etiquetas.
 4. Dale un nombre claro a la propiedad e ingresa el valor para ese cliente.
-5. Guarda el valor del campo y comprueba que aparece en el perfil.
-
-El selector muestra primero los tipos más comunes. Desplázate dentro del menú para ver los demás.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Tipos visibles en Agregar más campos">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 175px; margin: 0 auto;">
-      <img class="ht-editorial-visual__image" src="/images/audience/custom-properties-and-events/property-types-es.png" width="350" height="710" loading="lazy" decoding="async" alt="Opciones visibles del selector Agregar más campos: Teléfono, E-mail, Dirección, URL, Fecha, Fecha y hora, Texto y Texto largo." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Captura de la interfaz real en español; muestra las primeras opciones del selector en un perfil ficticio.</figcaption>
-</figure>
+5. Guarda el cambio del perfil.
 
 El teléfono y el email funcionan de manera diferente a las propiedades personalizadas del negocio:
 
@@ -100,29 +89,11 @@ Si tu plan y permisos admiten acciones personalizadas:
 1. Ve a **Ajustes** y luego a **Acciones**.
 2. Abre la pestaña **Personalizado** y selecciona **Crear nueva acción**.
 3. Ingresa un nombre legible para la interfaz.
-4. Ingresa un **Nombre de seguimiento**, como `appointment.completed`.
+4. Ingresa un nombre de tracking, como `appointment.completed`.
 5. Elige si la acción debe marcarse como conversión o como importante.
 6. Guarda la acción.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Nombres de una acción personalizada">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 435px; margin: 0 auto;">
-      <img class="ht-editorial-visual__image" src="/images/audience/custom-properties-and-events/action-names-es.png" width="870" height="850" loading="lazy" decoding="async" alt="Formulario Nueva acción con Nombre legible Cita completada y Nombre de seguimiento appointment.completed." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Captura de la interfaz real en español con nombres ficticios; la acción no se guardó.</figcaption>
-</figure>
-
 Marcar una acción como conversión permite que los reportes traten sus eventos como conversiones. Marcarla como importante hace que las nuevas ocurrencias requieran atención y puede mover la conversación relacionada al principio del Inbox.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Opciones de conversión e importancia de una acción">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 435px; margin: 0 auto;">
-      <img class="ht-editorial-visual__image" src="/images/audience/custom-properties-and-events/action-options-es.png" width="870" height="1376" loading="lazy" decoding="async" alt="Formulario Nueva acción sin guardar: Nombre de seguimiento appointment.completed, Marcar como conversión activado y Marcar como importante desactivado." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Captura de la interfaz real en español con una acción ficticia sin guardar.</figcaption>
-</figure>
 
 Trata el nombre de tracking como un contrato con tu sitio, backend e integraciones. Si lo cambias, actualiza cada fuente que envía el evento. Eliminar una acción personalizada también elimina sus eventos asociados y no se puede deshacer.
 
@@ -142,21 +113,10 @@ El evento debe quedar conectado al cliente o sesión correctos e incluir el cont
 También puedes agregar una ocurrencia manualmente cuando la acción correspondiente ya existe:
 
 1. Abre el perfil del cliente en **Audiencia**.
-2. En la esquina inferior derecha, abre el menú **+** y selecciona **Nuevo Evento**.
-3. Elige la acción y el **Objeto asociado** que solicita el formulario.
-4. Agrega, cuando corresponda, el monto, monto convertido, metadatos, fecha o URL relevantes.
+2. Abre el menú de acciones del perfil y selecciona **Nuevo Evento**.
+3. Elige la acción y, cuando corresponda, un objeto asociado.
+4. Agrega el monto, metadatos, fecha o URL relevantes.
 5. Guarda el evento.
-
-En el formulario manual, **Guardar** permanece deshabilitado hasta completar los campos obligatorios. La imagen muestra dónde se eligen la acción y el objeto, antes de guardar una ocurrencia.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Formulario para registrar un evento manual">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 435px; margin: 0 auto;">
-      <img class="ht-editorial-visual__image" src="/images/audience/custom-properties-and-events/manual-event-es.png" width="870" height="1376" loading="lazy" decoding="async" alt="Formulario Nuevo evento para Demo Caso 12 con Realizó una orden seleccionado; Objeto asociado vacío y Guardar deshabilitado." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Captura de la interfaz real en español con un perfil ficticio; el evento no se guardó.</figcaption>
-</figure>
 
 El evento aparece en la actividad del perfil de cliente. Abre un elemento de actividad para revisar sus propiedades. **Nuevo Evento** registra esa ocurrencia manualmente; no configura el tracking automático de ocurrencias futuras. Los eventos manuales deben representar algo que realmente ocurrió y no deberían agregarse solo para forzar la entrada de un cliente en un segmento o disparador.
 
