@@ -74,7 +74,7 @@ Después de elegir la primera opción para lanzar, sigue [Cómo habilitar una mi
 
 - **Medir satisfacción después de conversaciones resueltas** — **Empieza con:** [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %})
 
-  **Por qué:** Úsala cuando conversaciones de soporte, Inbox, IA o misiones pueden cerrarse y el feedback negativo debería crear seguimiento.
+  **Por qué:** Úsala cuando conversaciones de soporte, Inbox, IA o misiones pueden cerrarse y tu equipo está preparado para atender el feedback negativo; la derivación requiere estar configurada.
 
 - **Enviar un anuncio puntual** — **Empieza con:** Una campaña
 

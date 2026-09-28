@@ -1,6 +1,6 @@
 Use this guide when you want Hellotext to ask customers for product reviews after an order has been delivered.
 
-Review Builder is a post-purchase playbook for collecting structured product reviews. It asks for a star rating, follows up for a written review, and can collect optional photos or videos as part of that review.
+Review Builder is a post-purchase playbook for collecting structured product reviews. It asks for a star rating, follows up for a written review, can collect optional photos or videos as part of that review, and helps your team review or export the results.
 
 It is not a general satisfaction survey, a support agent, or a broad content campaign. Its job is to collect product reviews at the right time after delivery.
 
@@ -18,7 +18,7 @@ It can:
 - Avoid asking again for the same product, repeated purchase, or close variant when the customer was already asked.
 - Ask what went wrong when the customer gives a low rating.
 - Offer to hand off to the team when the customer gives a low rating or needs help.
-- Store the rating, written review, and available attachments with the review attempt.
+- Store review responses for review reporting and export.
 
 Photos and videos are treated as optional review attachments. Review Builder should not be positioned as a separate content-collection workflow unless Hellotext offers that as its own playbook or feature later.
 
@@ -30,7 +30,7 @@ Use Review Builder when:
 - Your store integration can provide order, product, and delivery signals.
 - You want product-level ratings and written feedback.
 - You want to identify low-rating experiences and route them to a person when needed.
-- You can review individual customer conversations to follow up on product feedback.
+- You want a downloadable review record that can be used outside Hellotext.
 
 It works best when customers have had enough time to receive and try the product before the message arrives.
 
@@ -61,7 +61,7 @@ Before enabling Review Builder, confirm:
 - Customer profiles have consent and an eligible channel.
 - The channel can support the rating and follow-up experience you want.
 - Your team knows who handles low ratings or negative replies.
-- Your team knows who will review customer conversations for feedback that needs follow-up.
+- You know where review results will be reviewed or exported.
 - You have a policy for using photos, videos, or customer quotes outside Hellotext.
 
 For setup validation, use [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %}).
@@ -118,13 +118,22 @@ Low-rating cases may need a person when:
 
 For handoff behavior, use [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %}).
 
-## Review responses
+## Review and export results
 
-Review Builder stores the rating, written review, and available attachments with the review attempt. The customer's replies remain connected to the conversation.
+Review Builder stores the reviews it collects.
 
-Review individual customer conversations to follow up on feedback. Playbooks does not currently provide a dedicated Review Builder results report, rating distribution, or review-record export.
+The automatic playbook report lets you see:
 
-If you need to use reviews in another system, plan a separate process with your team. Do not rely on a downloadable review file from this playbook.
+- Products with reviews received.
+- Rating distribution.
+- Review text.
+- Review attachments such as image or video URLs when available.
+- The customer profile and eCommerce customer identifier when available.
+- The product name and eCommerce product identifier when available.
+- The date and time of the review.
+- A link back to the conversation where the review was given.
+
+Reviews can be downloaded so your team can analyze them or upload them to another review system. If Hellotext adds direct integrations with review platforms later, document that as a separate setup path.
 
 ## How to test it
 
@@ -142,19 +151,24 @@ Try:
 - A customer who asks for help instead of leaving a review.
 - A customer who should not receive the request because delivery data or channel eligibility is missing.
 
-Confirm that the channel, rating buttons, review capture, automatic spacing, low-rating path, and customer conversation all behave as expected.
+Confirm that the channel, rating buttons, review capture, automatic spacing, low-rating path, and reporting all behave as expected.
 
 ## What to review after launch
 
 During the first days, review:
 
+- How many eligible delivered orders entered the playbook.
 - Whether requests were sent too early, too late, or too often.
-- Examples of ratings, written reviews, and attachments in customer conversations.
-- Low-rating reasons and whether feedback needing help reached the team.
-- Repeated quality or fulfillment concerns visible in the conversations you review.
+- Rating distribution by product.
+- Written review quality.
+- Attachments received.
+- Low-rating reasons.
+- Handoffs created from negative feedback.
+- Products with repeated quality or fulfillment concerns.
 - Opt-outs, failed messages, and negative replies.
+- Export completeness.
 
-Tune one thing at a time in the settings you control: channel or tone. Use the messages and conversations you review to identify unexpected timing, spacing, duplicate requests, or low-rating behavior.
+Tune one thing at a time in the settings you control: channel or tone. Use the report to identify unexpected timing, spacing, duplicate requests, or low-rating behavior.
 
 ## Related guides
 

@@ -38,4 +38,11 @@ No screenshot or message preview is warranted in this cross-product decision gui
 
 The content and original-snapshot commit is `1419af6f` (`Clarify first playbook choices and linked feedback behavior`). This is the local verification anchor recorded in `progress.csv`; First Wins and NPS stay `pending` for their complete future reviews.
 
-Pending: verifier commit, PR checks, merge, normal deploy for the exact main SHA, and public ES/EN verification.
+## Publication and public verification
+
+- [Help PR #186](https://github.com/hellotext/help/pull/186) passed Build, Aikido Security, Netlify deploy-preview and header checks. Netlify's page/redirect checks were neutral skips. The six changed preview pages returned HTTP 200. An automated review completed after merge and identified a P2 contradiction in the linked Playbook reporting guide; the follow-up is recorded separately below.
+- The PR merged without squash as merge commit `d27cb2cdcf7b5e85ce3bf3381565c98014d532b1`, preserving content commit `1419af6f` and verifier commit `38c9f04f`. The [normal main Build](https://github.com/hellotext/help/actions/runs/36430827540) passed for the exact merge SHA. Netlify's [production deploy](https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6aba6f5cf569c30008123b36) reports `ready`, `main`, `production`, and that same SHA, published at 2026-09-28 13:45:32 UTC. No manual deployment was run.
+- The public [English guide](https://help.hellotext.com/choose-your-first-playbook) and [Spanish guide](https://help.hellotext.com/es/elige-tu-primera-mision) returned HTTP 200 with the NPS reporting limitation and the localized goal list. The four linked erratum pages below also returned HTTP 200 with their corrected text; their pairs remain `pending` for complete independent reviews.
+- Attaching PR #186 to the Codex task failed because the thread has exceeded 100 attachment identities. The PR itself is merged and publicly verified.
+
+The late P2 review finding concerned the already published Playbook reporting guide's promise of a dedicated NPS report. The bilingual correction and its linked Review Builder and CSAT errata are tracked in `choose-first-reporting-errata.md` and `choose-first-feedback-errata.md` and carried by follow-up PR #187, content commit `79f99433`. The Choose-first CSAT recommendation was also narrowed to state that negative-feedback escalation must be configured. Its NPS results-access warning remains correct.
