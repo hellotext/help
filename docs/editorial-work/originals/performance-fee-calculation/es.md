@@ -24,9 +24,9 @@ Consulta la página pública de [precios de Hellotext](https://www.hellotext.com
 
 ## Por qué pueden cambiar los montos recientes
 
-Una compra atribuida puede ocurrir después de la campaña, misión, ruta, entrega, señal, clic o interacción original. Los reportes agregan el resultado según el modelo de fechas explicado en cada reporte, mientras que la facturación incluye los ingresos atribuidos elegibles para el período correspondiente. Una corrección tardía del pedido, cancelación, reembolso o actualización de la atribución también puede cambiar el valor asignado a la fecha de compra original.
+Una compra atribuida puede ocurrir después de la campaña, misión, ruta, entrega, señal, clic o interacción original. Los reportes agregan el resultado según el modelo de fechas explicado en cada reporte, mientras que la facturación incluye los ingresos atribuidos elegibles para el período correspondiente.
 
-Para conciliar un monto, comprueba que Facturación y el reporte utilicen rangos de fechas, monedas y zonas horarias comparables. Verifica si el reporte agrupa los ingresos por fecha de compra o por fecha del mensaje de origen: cifras con bases de fecha distintas no se comparan directamente.
+Para conciliar un monto, compara el mismo rango de fechas y moneda en Facturación y en el reporte de ingresos o de la fuente correspondiente.
 
 ## Guías relacionadas
 

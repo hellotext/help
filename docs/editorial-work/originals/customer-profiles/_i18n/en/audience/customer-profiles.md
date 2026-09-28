@@ -4,22 +4,9 @@ A profile is not necessarily a subscriber. Hellotext can know about a customer b
 
 ## Open a customer profile
 
-Go to **Audience** and select a profile. On desktop, it opens beside the audience list. On mobile, use **Back** to return to the list.
+Go to **Audience** and select a profile. The profile opens beside the audience list so you can review its information without losing your place.
 
-Use search when you know the customer's name, phone number, email address, alias, or profile ID.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Audience list with a selected demonstration profile">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 688px; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 500px)" srcset="/images/audience/customer-profiles/audience-list-en-mobile.png" width="800" height="380" />
-        <source media="(max-width: 600px)" srcset="/images/audience/customer-profiles/audience-list-en-medium.png" width="1000" height="380" />
-        <img class="ht-editorial-visual__image" src="/images/audience/customer-profiles/audience-list-en.png" width="1340" height="380" loading="lazy" decoding="async" alt="Audience search control and the selected Camila Torres row, a fictional profile with an example email address." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Real English interface with fictional data. Narrow screens show a closer crop of the same desktop list.</figcaption>
-</figure>
+Use search when you know the customer's name, phone number, email address, or another searchable identifier.
 
 ## What a profile can contain
 
@@ -35,37 +22,13 @@ The available information depends on the channels and integrations connected to 
 
 Some profiles contain only a name or channel identity at first. They become more useful as Hellotext receives additional properties and activity.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Identity and properties of a demonstration profile">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 473px; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 420px)" srcset="/images/audience/customer-profiles/profile-fields-en-mobile.png" width="700" height="1330" />
-        <img class="ht-editorial-visual__image" src="/images/audience/customer-profiles/profile-fields-en.png" width="910" height="1330" loading="lazy" decoding="async" alt="Fictional unconfirmed Camila Torres profile with an example email address, address, company, and birthday; the phone field is empty." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Real English interface with fictional data for a profile that cannot receive messages.</figcaption>
-</figure>
-
 ## Properties and activity are different
 
-**Properties** describe what is currently known about the customer. They can be used for segmentation and personalization. Team members with the required permissions can change editable properties.
+**Properties** describe what is currently known about the customer. They can be used for segmentation and personalization and can usually be edited when the source allows it.
 
 **Activity** is the chronological record of what happened. Events can come from commerce integrations, capture tools, tracked links, conversations, Hellotext.js, or the API.
 
 For example, `birthday` can be a profile property, while a product view or confirmed order is recorded as activity. Both can help Hellotext decide which experience is relevant, but they represent different kinds of data.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Recent activity on a demonstration profile">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 468px; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 420px)" srcset="/images/audience/customer-profiles/activity-en-mobile.png" width="700" height="460" />
-        <img class="ht-editorial-visual__image" src="/images/audience/customer-profiles/activity-en.png" width="900" height="460" loading="lazy" decoding="async" alt="Fictional profile's Activity tab with three recent orders for 68, 68, and 52 dollars in chronological order." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Real English interface with fictional order activity; the figures are not customer results.</figcaption>
-</figure>
 
 ## How profiles are created and updated
 
@@ -82,9 +45,9 @@ When the same reliable identifier is available, Hellotext can use it to associat
 
 ## Review and merge possible duplicates
 
-If Hellotext flags possible duplicates, you will see a similar-profiles badge on the profile. Review the suggested profiles before merging them: a similar name or incomplete imported data does not prove the profiles belong to the same person.
+A duplicate warning appears when Hellotext finds profiles with similar identity information. Review the suggested profiles before merging them; two people can share a name, phone number, or email in imported data.
 
-Open the profile options and select **Merge** to start the merge flow. Confirm which data belongs to the same customer before completing it so reporting, segmentation, and conversation context remain attached to the correct person.
+Use the profile options to open the merge flow. Confirm which data belongs to the same customer before completing it so reporting, segmentation, and conversation context remain attached to the correct person.
 
 ## Use profiles across Hellotext
 
@@ -98,7 +61,7 @@ Customer profiles connect the main parts of Hellotext:
 
 ## Manage profile information carefully
 
-From a profile, team members with the required permissions can manage list membership, review subscription status, and change properties that support editing. They can also open an existing conversation, start a message when the profile supports it, merge duplicates, block the profile when that option is available, or delete it.
+From a profile, team members with the required permissions can edit properties, manage list membership, review subscription status, start or open a conversation, merge duplicates, block a profile, or delete it.
 
 Keep these practices in mind:
 
