@@ -37,3 +37,9 @@ This is a billing and sender-choice explanation, not an interface walkthrough. N
 ## Review follow-up — PR #193
 
 The automated PR review found two conflicting SMS allowance summaries in the already published Billing overview. Its narrow bilingual correction is documented in `docs/editorial-work/billing-overview.md` and committed separately as `89ea8bcb`; the updated overview verifier is recorded in `progress.csv`. The original SMS article and Pricing model corrections remain unchanged.
+
+## Public verification — 2026-09-28
+
+- [Help PR #193](https://github.com/hellotext/help/pull/193) preserved article commit `295ebb80`, local verifier `ec86f259`, reviewer correction `89ea8bcb` and its verifier `45fb8412` in merge commit `9f9a5a498a0ac1d9db935927d8972f4d52034c26`. The P2 review thread was answered and resolved; the repeated automated review completed without a new finding. Build, Aikido Security, Netlify header and deploy-preview checks passed; page and redirect checks completed neutrally under their conditions.
+- The normal [main Build](https://github.com/hellotext/help/actions/runs/36448959605) passed for that exact merge SHA. Netlify's normal [production deploy](https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6aba912b6571f10008cb160a) reported Published, `main`, `production` and the same SHA. No manual deployment ran.
+- The public [Spanish guide](https://help.hellotext.com/es/precios-sms-tipos-remitente) and [English guide](https://help.hellotext.com/sms-pricing-and-number-types) each returned HTTP 200 and showed the localized approximate SMS equivalent, conditional monthly comparison and sender guidance without horizontal overflow. The merged ledger records this pair as `local_verified`.
