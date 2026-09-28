@@ -1659,6 +1659,18 @@ html[lang="es"] .home-hero h1 {
   letter-spacing: -0.02em;
 }
 
+.guide-content .ht-import-responsive-frame {
+  width: 100%;
+  max-width: 778px;
+  margin: 0 auto;
+}
+
+@media (max-width: 760px) {
+  .guide-content .ht-import-responsive-frame {
+    max-width: 408px;
+  }
+}
+
 .guide-content > figure.ht-editorial-visual--campaign-report {
   --campaign-frame-max-width: 648px;
 }
