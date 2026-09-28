@@ -1,6 +1,6 @@
 Use this guide when you want a predictable abandoned-cart follow-up that your team can review step by step.
 
-Cart Saver is a journey route template. Its default setup starts when `cart.abandoned` is recorded, waits, checks whether the customer purchased, and sends a fixed reminder when the route conditions still apply. Leaving a page alone does not create that event.
+Cart Saver is a journey route template. It starts from abandoned-cart or checkout activity, waits, checks whether the customer purchased, and sends a fixed reminder when the route conditions still apply.
 
 It is not an AI agent. It follows the route you publish.
 
@@ -10,7 +10,7 @@ Cart Saver helps recover abandoned carts with a simple, controlled sequence.
 
 It can:
 
-- Start when Hellotext receives `cart.abandoned`; you can change the trigger if your store sends another compatible checkout signal.
+- Start when Hellotext receives an abandoned-cart or checkout signal.
 - Wait before sending the first reminder.
 - Check whether the customer already purchased before sending.
 - Send a reminder with fixed copy, personalization, a checkout link, and an offer if you add one.
@@ -29,9 +29,9 @@ It is a good fit when:
 - The timing should be the same for most customers.
 - The message, checkout link, coupon, channel, and stop condition are already clear.
 - You want to inspect every step before launch.
-- You do not need to adapt each reminder's copy to the cart and profile before sending.
+- You do not need AI to interpret replies, answer questions, recommend alternatives, or choose between several next actions.
 
-If the outbound reminder should adapt its copy to the cart, products, and customer profile, see [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %}). Customer replies require separately configured Inbox coverage.
+If cart recovery should react to product context, customer replies, objections, recommendations, or handoff decisions, use [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %}) instead.
 
 If the customer only viewed products and never added anything to cart or checkout, use [Browse Recovery playbook]({% link _journeys/browse-recovery-playbook.md %}) instead.
 
@@ -81,7 +81,7 @@ AI Cart Saver makes more dynamic decisions.
 
 Use Cart Saver when the path should be predictable: wait, check purchase, send a reminder, then stop or continue through steps you defined.
 
-Use AI Cart Saver when the outbound reminder should use cart, product, profile, and available-channel context before it is sent.
+Use AI Cart Saver when Hellotext should use more context before deciding what to do next, such as product details, customer replies, objections, recommendations, channel readiness, or handoff.
 
 For a full comparison, see [Abandoned cart: route template vs AI playbook]({% link _journeys/abandoned-cart-route-vs-ai-playbook.md %}).
 
@@ -100,7 +100,7 @@ The route may not send when:
 - The checkout link, coupon, or personalization is invalid.
 - The channel, sender, WhatsApp template, or message format is not ready.
 - Quiet hours, frequency limits, or another send rule delays or blocks the message.
-- AI Cart Saver is active and receives `cart.abandoned` before the route.
+- Another cart recovery flow is already handling the same audience.
 
 For a step-by-step diagnosis, use [Troubleshoot a playbook that did not trigger or send]({% link _journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md %}).
 
@@ -132,7 +132,7 @@ During the first week, review:
 - Whether purchases happened before or after the reminder.
 - Replies, opt-outs, and support questions.
 - Clicks, attributed revenue, and conversion.
-- Whether AI Cart Saver claimed `cart.abandoned`; the route is the fallback when that playbook is not active.
+- Whether this route overlaps with AI Cart Saver or another cart recovery flow.
 
 Tune one part at a time: wait time, message copy, offer, audience, channel, or stop condition.
 
