@@ -24,9 +24,9 @@ Use the public [Hellotext pricing page](https://www.hellotext.com/pricing) for c
 
 ## Why recent amounts can change
 
-An attributed purchase can happen after the original campaign, playbook, journey, delivery, signal, click, or engagement. Reports add the result according to the date model described in each report, while billing includes eligible attributed revenue for the applicable billing period. A late order correction, cancellation, refund, or attribution update can also change the value assigned to the original purchase date.
+An attributed purchase can happen after the original campaign, playbook, journey, delivery, signal, click, or engagement. Reports add the result according to the date model described in each report, while billing includes eligible attributed revenue for the applicable billing period.
 
-When reconciling an amount, check that Billing and the report use comparable date ranges, currencies, and timezones. Check whether the report groups revenue by purchase date or by the credited source-message date: totals based on different dates cannot be compared directly.
+When reconciling an amount, compare the same date range and currency in Billing and in the relevant revenue or source report.
 
 ## Related guides
 
