@@ -42,6 +42,8 @@ Before uploading:
 
 Drag the file into the upload area or choose it from your computer. Always prepare the first row with column names: the importer uses it as the header and does not import it as a profile. Hellotext detects the file separator before continuing.
 
+When the file name appears, select **Continue to import** to move to column mapping.
+
 ## Map columns to profile properties
 
 Hellotext shows each file column so you can choose which customer profile property it should update.
@@ -53,6 +55,8 @@ Hellotext shows each file column so you can choose which customer profile proper
 
 If two columns represent the same property, choose the cleaner one or combine them in the source file before importing.
 
+After reviewing the mappings, select **Save & Continue** to move to the consent question.
+
 ## Choose the subscription state
 
 For a file import, Hellotext asks whether the customers have consented to marketing promotions.
@@ -63,6 +67,8 @@ For a file import, Hellotext asks whether the customers have consented to market
 The choice sets the subscription state of newly created profiles. If a row matches an existing profile, the import keeps that profile's current subscription state; review it separately before using the audience. If the file contains records with and without confirmed consent, split it into separate imports. Do not answer **Yes** based only on the presence of a phone number or email address.
 
 This choice is specific to file imports. A connected integration can supply subscription status from its own source instead.
+
+After choosing an answer, select **Save & Continue** to organize the profiles into lists.
 
 Keep reading: [Who can I message? Consent and subscriber status]({% link _audience/consent-and-subscriber-status.md %}).
 
@@ -76,6 +82,8 @@ You can also choose whether mapped file values should overwrite the properties o
 - Turn it on when the file is the source of truth and its mapped values should replace existing ones.
 
 Review this option carefully: it does not itself change existing profiles' subscription state.
+
+After reviewing the lists and overwrite choice, select **Save & Start import**. This starts processing the profiles in the background.
 
 ## Review the result
 

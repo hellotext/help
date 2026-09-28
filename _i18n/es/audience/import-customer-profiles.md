@@ -42,6 +42,8 @@ Antes de subirlo:
 
 Arrastra el archivo al área de carga o elígelo desde tu computadora. Prepara siempre la primera fila con nombres de columnas: el importador la usa como encabezado y no la importa como perfil. Hellotext detecta el separador del archivo antes de continuar.
 
+Cuando aparezca el nombre del archivo, selecciona **Continuar con la importación** para pasar al mapeo.
+
 ## Mapea columnas a propiedades del perfil
 
 Hellotext muestra cada columna del archivo para que elijas qué propiedad del perfil de cliente debe actualizar.
@@ -53,6 +55,8 @@ Hellotext muestra cada columna del archivo para que elijas qué propiedad del pe
 
 Si dos columnas representan la misma propiedad, elige la más confiable o combínalas en el archivo de origen antes de importar.
 
+Después de revisar las asignaciones, selecciona **Guardar & Continuar** para pasar a la pregunta sobre consentimiento.
+
 ## Elige el estado de suscripción
 
 En una importación por archivo, Hellotext pregunta si los clientes dieron consentimiento para promociones de marketing.
@@ -63,6 +67,8 @@ En una importación por archivo, Hellotext pregunta si los clientes dieron conse
 La elección determina el estado de suscripción de los perfiles nuevos. Si una fila coincide con un perfil existente, la importación conserva el estado que ese perfil ya tenía; revísalo por separado antes de usar la audiencia. Si el archivo contiene registros con y sin consentimiento confirmado, divídelo en importaciones separadas. No respondas **Sí** solo porque contiene teléfonos o emails.
 
 Esta elección corresponde a las importaciones por archivo. Una integración conectada puede obtener el estado de suscripción desde su propia fuente.
+
+Después de elegir una respuesta, selecciona **Guardar & Continuar** para organizar los perfiles en listas.
 
 Sigue leyendo: [A quién puedo escribirle: consentimiento y estado de suscripción]({% link _audience/consent-and-subscriber-status.md %}).
 
@@ -76,6 +82,8 @@ También puedes elegir si los valores mapeados del archivo deben sobrescribir la
 - Actívala cuando el archivo sea la fuente de verdad y sus valores mapeados deban reemplazar los existentes.
 
 Revisa esta opción con cuidado: no cambia por sí misma el estado de suscripción de los perfiles existentes.
+
+Cuando hayas revisado las listas y la sobrescritura, selecciona **Guardar e importar**. Este paso inicia el procesamiento de los perfiles en segundo plano.
 
 ## Revisa el resultado
 
