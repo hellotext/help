@@ -2,11 +2,11 @@ Usa esta sección para entender qué cobra Hellotext, por qué aparece un monto 
 
 ## Empieza por el modelo de precios
 
-En los planes sujetos a la comparación mensual estándar, Hellotext compara el piso del plan, la tarifa por rendimiento, los costos de SMS y el monto variable por mensajes que no son SMS. Solo el mayor de esos cuatro se convierte en el monto de Hellotext de esa comparación.
+Hellotext compara el piso del plan, la tarifa por rendimiento, los costos de SMS y el monto variable por mensajes que no son SMS. Solo el mayor de esos cuatro se convierte en el monto de Hellotext para el período.
 
 Lee [Modelo de precios]({% link _billing/how-pricing-works.md %}) antes de intentar sumar consumos individuales.
 
-Los precios actuales, las funcionalidades incluidas, las tarifas de SMS por país y las equivalencias aproximadas de SMS que muestran los planes están en la página pública de [precios de Hellotext](https://www.hellotext.com/precios).
+Los precios actuales, funcionalidades incluidas, tarifas y cantidades de SMS por país están en la página pública de [precios de Hellotext](https://www.hellotext.com/precios).
 
 ## Entiende los ingresos atribuidos
 
@@ -20,7 +20,7 @@ La tarifa por rendimiento usa ingresos atribuidos a Hellotext, no todos los ingr
 La mensajería tiene tres conceptos diferentes:
 
 - [Política de fair use para mensajes]({% link _billing/fair-use-message-policy.md %}) explica cuándo el volumen elegible de mensajes que no son SMS se convierte en el monto de Hellotext.
-- [Precios de SMS y tipos de remitente]({% link _billing/sms-pricing-and-number-types.md %}) explica las tarifas por país, las partes de SMS facturables, las equivalencias aproximadas del piso del plan y las opciones de remitente.
+- [Precios de SMS y tipos de remitente]({% link _billing/sms-pricing-and-number-types.md %}) explica tarifas por país, cantidades incluidas y opciones de remitente.
 - [Tarifas de Meta para WhatsApp]({% link _billing/whatsapp-fees.md %}) explica los costos separados que se pagan directamente a Meta, no a Hellotext.
 
 ## Revisa consumos y facturas

@@ -2,11 +2,11 @@ Use this section to understand what Hellotext charges, why a particular amount a
 
 ## Start with the pricing model
 
-For plans under the standard monthly comparison, Hellotext compares the plan minimum, performance fee, SMS costs, and the variable non-SMS messaging amount. Only the highest of those four becomes the Hellotext amount for that comparison.
+Hellotext compares the plan minimum, performance fee, SMS costs, and the variable non-SMS messaging amount. Only the highest of those four becomes the Hellotext amount for the period.
 
 Read [Pricing model]({% link _billing/how-pricing-works.md %}) before trying to add individual usage amounts together.
 
-Current plan prices, included features, country-specific SMS rates, and the displayed approximate SMS equivalents are on the public [Hellotext pricing page](https://www.hellotext.com/pricing).
+Current plan prices, included features, rates, and country-specific SMS allowances live on the public [Hellotext pricing page](https://www.hellotext.com/pricing).
 
 ## Understand attributed revenue
 
@@ -20,7 +20,7 @@ The performance fee uses revenue attributed to Hellotext, not all store revenue.
 Messaging has three distinct concepts:
 
 - [Fair-use message policy]({% link _billing/fair-use-message-policy.md %}) explains when eligible non-SMS message volume becomes the Hellotext amount.
-- [SMS pricing and sender types]({% link _billing/sms-pricing-and-number-types.md %}) explains country rates, billable SMS parts, approximate plan-minimum equivalents, and sender options.
+- [SMS pricing and sender types]({% link _billing/sms-pricing-and-number-types.md %}) explains country rates, plan allowances, and sender options.
 - [Meta fees for WhatsApp]({% link _billing/whatsapp-fees.md %}) explains the separate costs paid directly to Meta rather than Hellotext.
 
 ## Review usage and invoices
