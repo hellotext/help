@@ -23,6 +23,6 @@ Native capture remains blocked by automatic review because the helper enumerates
 
 ## Local verification
 
-The complete Spanish and English article text and the shared description were checked against the Rails source points above. The bilingual Jekyll build and security-header check passed. The complete local preview was reviewed at 1440×900 and 390×844 in both languages: headings, locale mapping and focused links worked, the 1–10 prompt and 9–10 / 7–8 / 1–6 buckets were consistent, and the mobile score tables did not clip. `git diff --check` passed. No native screenshot was added. The row remains `pending` for a future interface and visual review; these corrections do not claim full completion.
+The complete Spanish and English article text and the shared description were checked against the Rails source points above. The bilingual Jekyll build and security-header check passed. The complete local preview was reviewed at 1440×900 and 390×844 in both languages: headings, locale mapping and focused links worked, the 1–10 prompt and 9–10 / 7–8 / 1–6 buckets were consistent, and the mobile score tables did not clip. `git diff --check` passed. The correction is included in content commit `1419af6f`. No native screenshot was added. The row remains `pending` for a future interface and visual review; these corrections do not claim full completion.
 
-Pending: content and verifier commits, PR checks, merge, deployed-SHA check, and public verification. Record the actual publication separately when complete.
+Pending: verifier commit, PR checks, merge, deployed-SHA check, and public verification. Record the actual publication separately when complete.

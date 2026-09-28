@@ -36,4 +36,6 @@ No screenshot or message preview is warranted in this cross-product decision gui
 - Reviewed the complete local preview in both languages at 1440×900 and 390×844. The goal list has no horizontal clipping; every recommendation and reason is a separate paragraph, and both locales show 15 items. Headings, footer, locale mapping and focused cross-links to First Wins and NPS resolve correctly. This is local verification, not publication.
 - The guide is a cross-product choice aid with no distinctive single interface state to capture. The visual decision table above covers every section; linked interface guides retain their own screenshot debt.
 
-Pending: content and verifier commits, PR checks, merge, normal deploy for the exact main SHA, and public ES/EN verification.
+The content and original-snapshot commit is `1419af6f` (`Clarify first playbook choices and linked feedback behavior`). This is the local verification anchor recorded in `progress.csv`; First Wins and NPS stay `pending` for their complete future reviews.
+
+Pending: verifier commit, PR checks, merge, normal deploy for the exact main SHA, and public ES/EN verification.
