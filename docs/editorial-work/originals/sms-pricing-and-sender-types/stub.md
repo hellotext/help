@@ -3,10 +3,10 @@ languages: ["en", "es"]
 
 en:
   title: SMS pricing and sender types
-  description: "Understand SMS rates, how usage compares with the plan minimum, and shared or exclusive short codes."
+  description: "Understand SMS rates, plan allowances, and shared or exclusive short codes."
 es:
   title: Precios de SMS y tipos de remitente
-  description: "Entiende las tarifas de SMS, cómo se compara el uso con el piso del plan y los códigos cortos compartidos o exclusivos."
+  description: "Entiende las tarifas de SMS, lo incluido en tu plan y los códigos cortos compartidos o exclusivos."
 
 permalink: sms-pricing-and-number-types
 permalink_es: precios-sms-tipos-remitente
