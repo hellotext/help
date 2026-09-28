@@ -42,7 +42,7 @@ See [Performance fee calculation]({% link _billing/performance-fee-calculation.m
 
 ## Where to review your amount
 
-Open **Settings → Billing** to review your current plan, the usage summary for a billing period, the balance when applicable, payment history, payment methods, billing information, and available invoices.
+Open **Settings → Billing** to review your current plan, the usage summary for a billing period, balance and payment history, payment methods, billing information, and available invoices.
 
 See [Plan usage and monthly charges]({% link _billing/understanding-plan-quotas.md %}) for help reading the usage summary.
 

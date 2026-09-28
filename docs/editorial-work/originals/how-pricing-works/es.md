@@ -42,7 +42,7 @@ Consulta [Cálculo de la tarifa por rendimiento]({% link _billing/performance-fe
 
 ## Dónde revisar el monto
 
-Abre **Configuración → Facturación** para revisar tu plan actual, el resumen de consumos de un período, el saldo cuando corresponda, el historial de pagos, los métodos de pago, los datos de facturación y las facturas disponibles.
+Abre **Configuración → Facturación** para revisar tu plan actual, el resumen de consumos de un período, saldo e historial de pagos, métodos de pago, datos de facturación y facturas disponibles.
 
 Consulta [Uso del plan y cargos mensuales]({% link _billing/understanding-plan-quotas.md %}) para interpretar el resumen de consumos.
 

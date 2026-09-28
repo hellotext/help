@@ -4,22 +4,9 @@ Un perfil no es necesariamente un suscriptor. Hellotext puede conocer a un clien
 
 ## Abre un perfil del cliente
 
-Ve a **Audiencia** y selecciona un perfil. En escritorio, se abre junto a la lista de audiencia. En móvil, usa **Atrás** para regresar a la lista.
+Ve a **Audiencia** y selecciona un perfil. El perfil se abre junto a la lista de audiencia para que puedas revisar su información sin perder tu ubicación.
 
-Usa la búsqueda cuando conozcas el nombre, teléfono, email, alias o ID de perfil del cliente.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Lista de Audiencia con un perfil de demostración seleccionado">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 688px; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 500px)" srcset="/images/audience/customer-profiles/audience-list-es-mobile.png" width="800" height="380" />
-        <source media="(max-width: 600px)" srcset="/images/audience/customer-profiles/audience-list-es-medium.png" width="1000" height="380" />
-        <img class="ht-editorial-visual__image" src="/images/audience/customer-profiles/audience-list-es.png" width="1340" height="380" loading="lazy" decoding="async" alt="Control de búsqueda de Audiencia y fila seleccionada de Camila Torres, un perfil ficticio con email de ejemplo." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Interfaz real en español con datos ficticios. En pantallas estrechas se muestra un recorte más cercano de la misma lista de escritorio.</figcaption>
-</figure>
+Usa la búsqueda cuando conozcas el nombre, teléfono, email u otro identificador del cliente.
 
 ## Qué puede contener un perfil
 
@@ -35,37 +22,13 @@ La información disponible depende de los canales y las integraciones conectadas
 
 Algunos perfiles contienen solo un nombre o una identidad de canal al principio. Se vuelven más útiles a medida que Hellotext recibe propiedades y actividad adicionales.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Identidad y propiedades de un perfil de demostración">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 473px; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 420px)" srcset="/images/audience/customer-profiles/profile-fields-es-mobile.png" width="700" height="1330" />
-        <img class="ht-editorial-visual__image" src="/images/audience/customer-profiles/profile-fields-es.png" width="910" height="1330" loading="lazy" decoding="async" alt="Perfil ficticio de Camila Torres sin confirmar, con email de ejemplo, dirección, negocio y cumpleaños completos; el teléfono está vacío." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Interfaz real en español con datos ficticios de un perfil que no puede recibir mensajes.</figcaption>
-</figure>
-
 ## Las propiedades y la actividad son diferentes
 
-Las **propiedades** describen lo que se sabe actualmente del cliente. Se pueden usar para segmentación y personalización. Los integrantes con los permisos necesarios pueden modificar las propiedades editables.
+Las **propiedades** describen lo que se sabe actualmente del cliente. Se pueden usar para segmentación y personalización y normalmente pueden editarse cuando la fuente lo permite.
 
 La **actividad** es el registro cronológico de lo que ocurrió. Los eventos pueden venir de integraciones de comercio, herramientas de captura, links rastreados, conversaciones, Hellotext.js o la API.
 
 Por ejemplo, `cumpleaños` puede ser una propiedad del perfil, mientras que una vista de producto o un pedido confirmado se registra como actividad. Ambos pueden ayudar a Hellotext a decidir qué experiencia es relevante, pero representan datos diferentes.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Actividad reciente en un perfil de demostración">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 468px; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 420px)" srcset="/images/audience/customer-profiles/activity-es-mobile.png" width="700" height="460" />
-        <img class="ht-editorial-visual__image" src="/images/audience/customer-profiles/activity-es.png" width="900" height="460" loading="lazy" decoding="async" alt="Pestaña Actividad del perfil ficticio con tres pedidos recientes de 68, 68 y 52 dólares, ordenados cronológicamente." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Interfaz real en español con actividad de pedidos ficticios; las cifras no representan resultados de clientes.</figcaption>
-</figure>
 
 ## Cómo se crean y actualizan los perfiles
 
@@ -82,9 +45,9 @@ Cuando está disponible el mismo identificador confiable, Hellotext puede usarlo
 
 ## Revisa y une posibles duplicados
 
-Si Hellotext marca posibles duplicados, verás una etiqueta de perfiles similares en el perfil. Revisa los perfiles sugeridos antes de unirlos: un nombre similar o datos importados incompletos no prueban que se trate de la misma persona.
+Hellotext muestra una advertencia cuando encuentra perfiles con información de identidad similar. Revisa los perfiles sugeridos antes de unirlos; dos personas pueden compartir un nombre, teléfono o email en datos importados.
 
-Abre las opciones del perfil y selecciona **Combinar** para iniciar el proceso de unión. Confirma qué datos pertenecen al mismo cliente antes de completarlo para que los reportes, la segmentación y el contexto de conversaciones permanezcan asociados con la persona correcta.
+Usa las opciones del perfil para abrir el proceso de unión. Confirma qué datos pertenecen al mismo cliente antes de completarlo para que los reportes, la segmentación y el contexto de conversaciones permanezcan asociados con la persona correcta.
 
 ## Usa los perfiles en Hellotext
 
@@ -98,7 +61,7 @@ Los perfiles de clientes conectan las áreas principales de Hellotext:
 
 ## Gestiona la información con cuidado
 
-Desde un perfil, quienes tengan los permisos necesarios pueden gestionar listas, revisar el estado de suscripción y modificar las propiedades que admitan edición. También pueden abrir una conversación existente, iniciar un mensaje si el perfil lo permite, unir duplicados, bloquear el perfil cuando esa opción esté disponible o eliminarlo.
+Desde un perfil, los integrantes con los permisos necesarios pueden editar propiedades, gestionar listas, revisar el estado de suscripción, iniciar o abrir una conversación, unir duplicados, bloquear el perfil o eliminarlo.
 
 Ten en cuenta estas prácticas:
 
