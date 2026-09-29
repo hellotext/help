@@ -33,6 +33,10 @@ const viewport = options.viewport?.split(',').map(Number);
 if (viewport && (viewport.length !== 2 || viewport.some((value) => !Number.isInteger(value) || value < 320))) {
   throw new Error('Viewport must be width,height in CSS pixels');
 }
+const scroll = options.scroll?.split(',').map(Number);
+if (scroll && (scroll.length !== 2 || scroll.some((value) => !Number.isInteger(value) || value < 0))) {
+  throw new Error('Scroll must be x,y in CSS pixels');
+}
 const output = resolve(options.output);
 const temporary = `${output}.partial`;
 const profile = resolve(options.profile);
@@ -83,6 +87,7 @@ async function state(connection) {
     expression: `JSON.stringify({url: location.href, title: document.title,
       locale: document.documentElement.lang, width: innerWidth, height: innerHeight,
       dpr: devicePixelRatio, zoom: visualViewport.scale,
+      scrollX, scrollY,
       account: [...document.querySelectorAll('h2')].some(e => e.textContent.trim() === ${JSON.stringify(options.email)}),
       target: document.body.innerText.includes(${JSON.stringify(options.text)})})`,
     returnByValue: true,
@@ -96,6 +101,9 @@ function verifyState(actual) {
   if (options.locale && actual.locale !== options.locale) throw new Error('Unexpected UI locale');
   if (!actual.account || !actual.target) throw new Error('Fictional account or target control not present');
   if (actual.zoom !== 1 || actual.dpr < 2) throw new Error('Zoom or device pixel ratio does not meet capture standard');
+  if (![actual.scrollX, actual.scrollY].every((value) => Number.isFinite(value) && value >= 0)) {
+    throw new Error('Page scroll offset is unavailable');
+  }
   if (clip[0] + clip[2] > actual.width || clip[1] + clip[3] > actual.height) {
     throw new Error('Clip exceeds the real CSS viewport');
   }
@@ -114,12 +122,21 @@ try {
       width: viewport[0], height: viewport[1], deviceScaleFactor: 2, mobile: false,
     });
   }
+  if (scroll) {
+    await connection.call('Runtime.evaluate', {
+      expression: `window.scrollTo(${scroll[0]}, ${scroll[1]})`,
+    });
+  }
   const before = await state(connection);
   verifyState(before);
+  if (scroll && (before.scrollX !== scroll[0] || before.scrollY !== scroll[1])) {
+    throw new Error('Requested scroll position was not reached');
+  }
   await delay(250);
   const capture = await connection.call('Page.captureScreenshot', {
     format: 'png', fromSurface: true, captureBeyondViewport: false,
-    clip: { x: clip[0], y: clip[1], width: clip[2], height: clip[3], scale },
+    // The CLI clip is viewport-relative; CDP expects document coordinates.
+    clip: { x: before.scrollX + clip[0], y: before.scrollY + clip[1], width: clip[2], height: clip[3], scale },
   });
   const after = await state(connection);
   verifyState(after);
@@ -136,7 +153,7 @@ try {
   const digest = createHash('sha256').update(png).digest('hex');
   console.log(JSON.stringify({ output, sha256: digest, url: before.url, locale: before.locale,
     cssViewport: [before.width, before.height], browserDpr: before.dpr,
-    clip, pixelSize: [pixelWidth, pixelHeight], sourceDensity: pixelWidth / clip[2],
+    clip, pageScroll: [before.scrollX, before.scrollY], pixelSize: [pixelWidth, pixelHeight], sourceDensity: pixelWidth / clip[2],
     icc: 'Display P3', route: 'isolated Chrome compositor via CDP' }));
 } catch (error) {
   await rm(temporary, { force: true });
