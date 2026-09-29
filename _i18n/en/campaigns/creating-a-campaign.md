@@ -126,7 +126,7 @@ The confirmation screen is the last opportunity to catch a wrong audience or mes
 
 ## Understand campaign review
 
-Campaigns targeting at least 100 customers require editorial review. A WhatsApp campaign can also wait for Meta when its template has not already been approved.
+Campaigns targeting at least 100 customers may require editorial review. An already approved WhatsApp template can bypass that review even at this audience size. A WhatsApp campaign can also wait for Meta when its template has not already been approved.
 
 While review is pending, the campaign appears **In review** or **WhatsApp in review**. Once approved, it follows the selected delivery time. If a reviewer or Meta rejects the content, open the campaign, review the feedback, make the requested changes, and submit it again.
 

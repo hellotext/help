@@ -6,6 +6,7 @@
 - Original ES, EN and stub are preserved in `originals/campaigns-overview/`; SHA-256: ES `ea3f040bc40b4f9e7e49b1d7dcd77665c9e7e8f8837ce7bdd73db1c04ae06b47`, EN `33d3659ad62f528df571a281404adcb1cd678d863d01a3aedf164a051081426e`, stub `4fa70e1d9b45796f1ac77049d961f6389ffd1c805ec80ae679eacc564dfeac3f`. Titles, slugs, links, locale pair and published status are unchanged.
 - Reader task: decide when a one-time campaign fits, recognize its lifecycle in the product, prepare the audience and channels, and find the resulting report.
 - Rails source at `/private/tmp/hellotext-workload-fixed` commit `d348bd09825d62c2cf551757598ed04a4bca0ce6`: `CampaignsController#index` redirects to a campaign tab; `app/views/campaigns/index.html.erb` renders Scheduled, Delivered, Draft and Archived tabs. `Campaign::TargetsContactables#needs_review?` makes editorial review conditional, including an approved-template bypass; the former blanket assertion that larger campaigns always need review was corrected in both languages.
+- PR review found the same blanket assertion in the linked Create a campaign workflow. Its ES/EN review paragraph was narrowly corrected to match `Campaign::TargetsContactables#needs_review?`; that pair stays pending for its own complete visual review and is not marked verified by this erratum.
 
 ## Section-by-section visual coverage
 
@@ -28,7 +29,7 @@
 ## Local verification
 
 - `yarn build` passed, including security headers. Complete ES and EN article HTML was reviewed at desktop 1280 CSS px and mobile 390 CSS px. Each locale rendered two static figures in the intended sections, the correct localized responsive assets, and no horizontal page overflow (`scrollWidth=390` at mobile). The mobile tab and funnel were visually inspected in both languages; all labels and complete controls are readable. Desktop tabs and funnels were visually inspected in both languages in the local Help browser. The article does not link its figures to new windows.
-- Content and four new P3 sources were committed in `a185ed50`; this following verifier commit records the local `local_verified` state in `progress.csv`. Public status remains pending until the Help PR, main build and public pages/assets are verified.
+- Content and four new P3 sources were committed in `a185ed50`; verifier commit `c0a5d66e` records `local_verified` in `progress.csv`. After PR review identified the linked guide contradiction, the narrow ES/EN correction was rebuilt successfully and its updated paragraph was confirmed in both local pages. Public status remains pending until the Help PR, main build and public pages/assets are verified.
 
 ## Public verification
 
