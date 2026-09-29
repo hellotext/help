@@ -36,4 +36,6 @@
 
 ## Public verification
 
-Pending merge and normal production publication. Record exact PRs, merge commits, Build/Netlify evidence, public ES/EN pages and all new/reused PNG URLs and hashes here after publication.
+Help PR #217 merged with merge commit `86119d33a9c49c54f8a51e477a926f3e8e7bc6a7`, preserving content commit `022cc577`, local verifier commit `e73f3259`, and density fixes `01a8e280` and `2bfcccb2`. A P2 review finding about mobile source density was fixed in both languages, and the completed review of the final head had no new findings. Build, Aikido, Netlify preview and header checks passed for the final head. The Build workflow on the exact main merge SHA passed (`36540944239`). Netlify's production deploy listing returned HTTP 401 without credentials, so an exact production deploy ID-to-SHA association could not be verified. No manual deployment was run.
+
+The public [Spanish page](https://help.hellotext.com/es/buenas-practicas-campanas) and [English page](https://help.hellotext.com/campaign-best-practices) returned HTTP 200 and each rendered three figures. All eight new public PNGs under `https://help.hellotext.com/images/campaigns/campaign-best-practices/` and all four reused Campaign reporting funnel PNGs returned HTTP 200 with SHA-256 bytes matching `captures/campaign-best-practices/capture-provenance.json`. The existing funnel assets were referenced instead of uploaded again. Exact filenames, locale variants and hashes are retained in that provenance record.
