@@ -374,6 +374,6 @@
     "source_pixels": "All sixteen retained images were inspected visually at source size; responsive variants use 390 or 430 CSS px so labels remain complete and legible at the 390 px Help breakpoint. Each card/control and border is complete, with no private data, cursor, debugger overlay, scrollbar or cut row.",
     "article_desktop": "Passed production build and complete ES/EN review at 1280x900 CSS px. All four locale-specific desktop sources loaded; images rendered at 609 CSS px in 685 CSS px stages without overflow.",
     "article_mobile": "Passed complete ES/EN review at 390x844 CSS px. All four locale-specific mobile sources loaded; images rendered at 316 CSS px in 358 CSS px stages without overflow and remained legible.",
-    "public_assets": "pending publication"
+    "public_assets": "After Help PR #209 merge, both public pages returned HTTP 200 with four localized figures each; all sixteen public PNGs returned HTTP 200 and SHA-256 matched the approved native sources. The exact production Netlify deploy ID is unverified because its listing requires credentials."
   }
 }
