@@ -26,6 +26,7 @@ No customer-facing example is taught here, so a message preview would be decorat
 - The current Rails `Technology::Selection`, campaign technology wizard, audience controller and campaign delivery engine show WhatsApp, SMS and Email options. The Email card itself is visible before eligibility checks; actual sending requires channel access and an active verified sender. The linked Email fundamentals guide also had stale blanket exclusions for Email campaigns, routes and proactive playbooks. A narrow bilingual correction is in `docs/editorial-work/email-channel-availability-errata.md`; that guide's full visual review remains pending. Help Instagram DM and Facebook Messenger fundamentals document customer-initiated social conversations, not campaign delivery.
 - The current Help Push setup guide requires a device subscription and a support-arranged test notification. The Mercado Libre guide requires an eligible order/conversation rather than an arbitrary outbound test.
 - The current Help consent and subscriber status guide separates marketing consent from destination reachability.
+- PR #205 review identified linked contradictions in the Campaigns overview, Create a campaign, and Campaign best practices pairs: they omitted Email-only delivery or instructed every test to a phone number. Narrow bilingual corrections and preserved originals are recorded in `docs/editorial-work/campaign-email-availability-errata.md`; those campaign pairs remain `pending` for their own complete visual reviews.
 
 ## Verification and publication
 

@@ -24,7 +24,7 @@ Empieza con la audiencia más pequeña que coincida con el objetivo. Puedes incl
 - Usa un **segmento** cuando sus integrantes deban actualizarse según datos o comportamiento.
 - Usa **exclusiones** para quitar grupos que no deberían recibir ese mensaje en particular.
 
-Hellotext elimina superposiciones y calcula el target estimado según los canales seleccionados, el estado de suscripción, los destinos utilizables, las inclusiones y las exclusiones. Compara el **Target estimado** con lo que esperabas antes de continuar; puede ser menor que la cantidad total de integrantes de los grupos seleccionados y no confirma por sí solo el permiso para enviar.
+Hellotext elimina superposiciones y calcula el target estimado según los canales seleccionados, el consentimiento, la contactabilidad, las inclusiones y las exclusiones. Compara el **Target estimado** con lo que esperabas antes de continuar; puede ser menor que la cantidad total de integrantes de los grupos seleccionados.
 
 Usa el límite de audiencia cuando quieras enviar intencionalmente a una cantidad máxima de clientes elegibles. El límite controla el tamaño de la campaña, pero no vuelve contactable a un perfil que no sea elegible.
 
@@ -37,9 +37,8 @@ Selecciona la opción que coincida con la audiencia y el contenido:
 - **WhatsApp y SMS** intenta primero por WhatsApp y usa SMS cuando WhatsApp no está disponible para un cliente elegible.
 - **Solo WhatsApp** mantiene la entrega en WhatsApp y puede soportar contenido de campaña más enriquecido.
 - **Solo SMS** mantiene la campaña concisa y la entrega por SMS.
-- **Solo correo** envía únicamente por correo electrónico y requiere acceso al canal y un remitente verificado y activo.
 
-El creador muestra estas opciones, pero poder enviar depende del acceso y de tener un remitente listo para el canal elegido. Confirma el remitente, el target estimado y la vista previa de cada canal seleccionado en lugar de asumir que los mismos perfiles de cliente son elegibles en todos.
+Las opciones disponibles dependen de los canales conectados al negocio. Confirma el remitente, el target estimado y la vista previa de cada canal seleccionado en lugar de asumir que los mismos perfiles de cliente son elegibles en todos.
 
 ## Escribe para los canales seleccionados
 
@@ -58,7 +57,7 @@ Sigue leyendo: [Resumen del editor de mensajes]({% link _numbers/message-editor-
 
 ## Prueba lo que recibirá el cliente
 
-Envía una prueba a un número que controles para SMS o WhatsApp, o a una dirección propia para una campaña de solo correo. Revisa cada canal seleccionado y confirma que:
+Envía una prueba a un número de teléfono y revisa cada canal seleccionado. Confirma que:
 
 - La primera línea y el llamado a la acción sean claros.
 - La personalización y los valores alternativos se lean naturalmente.
@@ -67,7 +66,7 @@ Envía una prueba a un número que controles para SMS o WhatsApp, o a una direcc
 - Los archivos, botones, pie de página y ubicación aparezcan como esperabas.
 - La estimación de partes del SMS sea aceptable.
 
-Una prueba de WhatsApp con contenido nuevo puede esperar la aprobación de Meta. Una prueba permite revisar el mensaje en el número o la dirección elegidos; no demuestra que todos los perfiles de la audiencia final sean elegibles.
+Una prueba de WhatsApp con contenido nuevo puede esperar la aprobación de Meta. Una prueba exitosa confirma la presentación y entrega al número de prueba; no demuestra que todos los perfiles de la audiencia final sean elegibles.
 
 ## Deja margen para la revisión y las ventanas de entrega
 
