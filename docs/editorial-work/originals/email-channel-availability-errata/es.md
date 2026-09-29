@@ -18,9 +18,9 @@ Usa Correo electrónico para:
 
 El correo electrónico no requiere que el cliente instale una aplicación de mensajería ni que tenga un número de teléfono en su perfil. Sí necesitas la dirección correcta y permiso para contactar al cliente con el propósito del mensaje.
 
-## Antes de enviar desde el Inbox
+## Antes de usar el canal
 
-Antes de enviar un correo individual desde el Inbox, confirma que:
+Confirma que:
 
 - Estás trabajando en el negocio correcto de Hellotext.
 - El negocio tiene Correo electrónico habilitado y al menos un remitente de correo verificado y activo.
@@ -37,9 +37,9 @@ Sigue leyendo: [Cómo funcionan los perfiles de clientes]({% link _audience/cust
 
 El Inbox ofrece un destino de correo electrónico para los clientes que tienen una dirección de correo cuando el negocio cuenta con un remitente de correo activo.
 
-El creador de campañas muestra Correo electrónico como opción de entrega, pero seleccionarla por sí sola no habilita el envío. Para enviar una campaña por correo, el negocio necesita acceso al canal según su suscripción y un remitente verificado y activo. Conectar un remitente no cambia automáticamente los canales de una campaña existente.
+Correo electrónico no es actualmente una opción de canal en el creador de campañas ni en los selectores de canales de agentes de IA personalizados y misiones autónomas. Conectar un remitente no agrega Correo electrónico a esos selectores ni cambia los canales de envío de una campaña o una misión existente.
 
-Las rutas pueden enviar correos desde pasos de Mensaje o Pregunta configurados con un diseño de correo, y las misiones proactivas compatibles pueden seleccionar este canal. Cada envío depende de las reglas del flujo, de un destinatario apto y del acceso y remitente del negocio. Usa el Inbox para conversaciones individuales por correo y para gestionar las respuestas compatibles.
+El envío de correos mediante rutas tampoco está disponible actualmente, aunque Correo electrónico aparezca en el selector de canales de una ruta. Usa el Inbox para las conversaciones de correo que se describen en esta guía.
 
 ## Entiende el remitente, el destinatario y la dirección de respuesta
 
@@ -228,7 +228,7 @@ Para un documento o archivo multimedia grande, considera compartir un link de de
 
 ## Checklist para la primera conversación por correo
 
-Antes de que tu equipo dependa de las conversaciones por correo en el Inbox, confirma que:
+Antes de que tu equipo dependa del correo electrónico, confirma que:
 
 1. El remitente elegido esté verificado y activo en el negocio correcto.
 2. La dirección de un cliente de prueba esté guardada correctamente en su perfil.

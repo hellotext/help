@@ -16,9 +16,9 @@ Use **Facebook Messenger** when customers contact your Facebook Page and your te
 
 Use **Push notifications** to reach visitors who subscribe through your website. Push is available on Pro and Enterprise, with automatic installation through Shopify and VTEX. Start with [Set up Push notifications]({% link _integrations/setup-push-notifications.md %}).
 
-Use **Mercado Libre** if your business is in Colombia or Uruguay, sells through that marketplace, and needs post-sale conversations in the Inbox. The channel requires an eligible order; it cannot be used for campaigns or to contact buyers outside a transaction.
+Use **Mercado Libre** when you sell through the marketplace and need transaction-specific post-sale conversations in the Inbox. It is tied to eligible Mercado Libre orders and is not a general campaign destination.
 
-Many businesses use several channels: SMS for reach, WhatsApp for richer outbound and conversational experiences, Instagram or Messenger for customer-initiated social conversations, and Mercado Libre for marketplace post-sale support. The campaign creator shows WhatsApp, SMS, and Email delivery options; sending by Email requires channel access and a verified, active sender. Instagram DM and Messenger are not campaign destinations, and Mercado Libre only supports conversations tied to eligible orders. Routes and playbooks can use other channels according to their rules and each customer's reachability.
+Many businesses use several channels: SMS for reach, WhatsApp for richer outbound and conversational experiences, Instagram or Messenger for customer-initiated social conversations, and Mercado Libre for marketplace post-sale support. Campaigns, routes, and playbooks can use the channels differently, so confirm how channel selection works for the experience you are launching.
 
 To start using a social channel, see [Connect Instagram DM]({% link _integrations/connect-instagram-dm.md %}) or [Connect Facebook Messenger]({% link _integrations/connect-facebook-messenger.md %}). To understand which conversations each channel supports, read [Instagram DM fundamentals]({% link _numbers/instagram-dm-fundamentals.md %}) and [Facebook Messenger fundamentals]({% link _numbers/facebook-messenger-fundamentals.md %}).
 
@@ -28,19 +28,15 @@ Use an **exclusive short code** when you send at higher volume or need a short c
 
 If you are not sure which SMS sender is available for your account, contact your Hellotext representative before building the campaign, playbook, or route.
 
-## Before you use the channel
+## Before you send
 
-Before launching a campaign, playbook, or route, or starting to reply from a new channel:
+Before launching a campaign, playbook, or route, confirm that:
 
-- Confirm that the channel is connected and active. For SMS, check that you have an approved sender or short code; for WhatsApp, that the number is ready.
-- Verify consent, subscription state, and a usable destination for the outbound message you plan to send. Subscription copy should explain what the customer will receive; an address or channel identity alone does not prove consent.
-- Test only an interaction the channel supports:
-  - **WhatsApp or SMS:** use an authorized internal profile.
-  - **Email:** check a send and reply with an address you control.
-  - **Instagram DM or Messenger:** start a conversation from an account you control.
-  - **Push:** verify the subscription in your browser and arrange a test notification with support.
-  - **Mercado Libre:** verify a new order and an eligible conversation; do not send test messages outside a transaction.
-- If the channel supports replies, confirm that they reach the Inbox and the team that will handle them. Check opt-out options where applicable.
+- The sender or short code is active.
+- You have tested inbound and outbound messages.
+- Subscription copy clearly explains what customers are joining.
+- Replies are routed to the people who will answer them.
+- Your audience has consent for the channel you plan to use.
 
 ## Related setup
 
@@ -53,7 +49,6 @@ Before launching a campaign, playbook, or route, or starting to reply from a new
 - [Connect Facebook Messenger]({% link _integrations/connect-facebook-messenger.md %})
 - [Facebook Messenger fundamentals]({% link _numbers/facebook-messenger-fundamentals.md %})
 - [Connect Mercado Libre]({% link _integrations/connect-mercado-libre.md %})
-- [Set up Push notifications]({% link _integrations/setup-push-notifications.md %})
 - [Connect WhatsApp]({% link _integrations/connect-whatsapp.md %})
 - [Who can I message? Consent and subscriber status]({% link _audience/consent-and-subscriber-status.md %})
 - [Capture tools overview]({% link _captures/capture-overview.md %})

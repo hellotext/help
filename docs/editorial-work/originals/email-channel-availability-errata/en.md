@@ -18,9 +18,9 @@ Use Email for:
 
 Email does not require the customer to install a messaging app or have a phone number on their profile. You do need the correct email address and permission to contact the customer for the purpose of the message.
 
-## Before sending from the Inbox
+## Before you use the channel
 
-Before sending an individual Email from the Inbox, confirm that:
+Confirm that:
 
 - You are working in the correct Hellotext business.
 - The business has Email enabled and at least one verified, active email sender.
@@ -37,9 +37,9 @@ Keep reading: [Customer profiles]({% link _audience/customer-profiles.md %}) and
 
 The Inbox provides an Email destination for customers with an email address when the business has an active Email sender.
 
-The campaign creator shows Email as a delivery option, but selecting it does not by itself enable sending. To send an Email campaign, the business needs Email access through its subscription and a verified, active sender. Connecting a sender does not automatically change the delivery channels of an existing campaign.
+Email is not currently a channel option in the campaign creator or the channel selectors for custom AI agents and autonomous playbooks. Connecting a sender does not add Email to those selectors or change the delivery channels of an existing campaign or playbook.
 
-Journeys can send Email from Message or Question steps configured with an Email design, and compatible proactive playbooks can select this channel. Each send depends on the flow's rules, an eligible recipient, and the business's Email access and sender. Use the Inbox for individual Email conversations and supported replies.
+Email delivery through routes is also not currently supported, even if Email appears in a route's channel selector. Use the Inbox for the Email conversations described in this guide.
 
 ## Understand the sender, recipient, and reply address
 
@@ -228,7 +228,7 @@ For a large document or media file, consider sharing an appropriate download lin
 
 ## First Email conversation checklist
 
-Before your team relies on Email conversations in the Inbox, confirm that:
+Before your team relies on Email, confirm that:
 
 1. The intended sender is verified and active in the correct business.
 2. A test customer's email address is saved correctly on the profile.
