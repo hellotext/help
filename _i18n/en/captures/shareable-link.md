@@ -8,8 +8,29 @@ You can also attach a coupon when the configured follow-up route contains a mess
 
 To set up a Shareable Link, open **Playbooks**, click **Explore playbooks**, find the **Capture** group, and choose **Shareable Link**. Give it a name that identifies where you will share it, such as “Instagram Link.”
 
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Shareable Link in the fictional account's desktop catalog">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 400px; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/desktop-link-en.png" width="800" height="480" loading="lazy" decoding="async" alt="Shareable Link card in the Capture playbook catalog." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Find this card in Capture to start the link.</figcaption>
+</figure>
+
 ### Choose the app you want the link to open
 Choose the app the link should open. Available options are _SMS_ and _WhatsApp_. WhatsApp is available only when a compatible WhatsApp account is connected.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="SMS and WhatsApp options for the Shareable Link">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 600px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 400px)" srcset="/images/captures/shareable-link/type-en-mobile.png" width="732" height="1300" />
+        <img class="ht-editorial-visual__image" src="/images/captures/shareable-link/type-en.png" width="1200" height="1200" loading="lazy" decoding="async" alt="Type selector with SMS selected and WhatsApp unavailable in the fictional account." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Choose an app available to the account; WhatsApp depends on a connected channel.</figcaption>
+</figure>
 
 ### Choose the phone number and message 
 
@@ -22,6 +43,18 @@ If you do not choose a specific number, you can keep **Using default settings fo
 
 You can customize the pre-filled message customers send to subscribe. Keep the subscription intent clear; Hellotext preserves the capture reference needed to identify the source.
 
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Default destination and draft opt-in text for a fictional Shareable Link">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 580px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 470px)" srcset="/images/captures/shareable-link/message-en-mobile.png" width="860" height="700" />
+        <img class="ht-editorial-visual__image" src="/images/captures/shareable-link/message-en.png" width="1160" height="810" loading="lazy" decoding="async" alt="Default destination control and unsent draft message I want updates from Example Store." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Example message in the editor; it was neither saved nor sent for this figure.</figcaption>
+</figure>
+
 ### Choose the follow-up
 
 Saving the number and message creates the link and opens the step for assigning a coupon and a playbook compatible with the subscription event.
@@ -30,9 +63,33 @@ No welcome message is sent automatically when you leave the follow-up playbook u
 
 You can choose a coupon when the selected playbook has a message prepared to include it. If you skip this step, the link remains available without that automatic follow-up.
 
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Optional coupon and journey selected for a disabled fictional Shareable Link">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 650px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 470px)" srcset="/images/captures/shareable-link/assignment-en-mobile.png" width="860" height="910" />
+        <img class="ht-editorial-visual__image" src="/images/captures/shareable-link/assignment-en.png" width="1300" height="1140" loading="lazy" decoding="async" alt="Fictional coupon GUIA-QR-10 and an example welcome journey selected in the optional step." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">The demo link is disabled and the journey remains a draft; no message was delivered.</figcaption>
+</figure>
+
 ### Share the link
 
 After you save or skip the follow-up, copy the link from the last step.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Fictional Shareable Link result and Copy button">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <picture>
+        <source media="(max-width: 470px)" srcset="/images/captures/shareable-link/result-en-mobile.png" width="860" height="780" />
+        <img class="ht-editorial-visual__image" src="/images/captures/shareable-link/result-en.png" width="1580" height="810" loading="lazy" decoding="async" alt="Link generated in the isolated fictional account and Copy button on the result page." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Copy the link from the last step. The shown address is an isolated example and was neither published nor opened.</figcaption>
+</figure>
 
 Share this link as you would do with a regular link.
 
