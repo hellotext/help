@@ -44,13 +44,16 @@ Para conocer los requisitos de elegibilidad y consentimiento, consulta [A quién
 
 Usa un nombre diferente para cada ubicación cuando necesites comparar resultados, por ejemplo `Footer del newsletter` o `Página de consultas mayoristas`.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Formulario de Sitio Web">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Formulario de Sitio Web en el catálogo de misiones">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 416px; margin: 0 auto;">
-      <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/desktop-form-es.png" width="800" height="480" loading="lazy" decoding="async" alt="Formulario de Sitio Web en una cuenta ficticia." />
+    <div class="ht-editorial-visual__image-frame" style="max-width: 816px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/capture-overview/desktop-form-es.png" width="800" height="480" />
+        <img class="ht-editorial-visual__image" src="/images/captures/forms/es/catalog-desktop-row.png" width="1632" height="480" loading="lazy" decoding="async" alt="Formulario de Sitio Web en el catálogo de escritorio, junto a Popup de Sitio Web; en pantallas estrechas se muestra solo la tarjeta del formulario." />
+      </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Tarjeta de Formulario de Sitio Web en la vista de escritorio del catálogo ficticio.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Cuadrícula de escritorio del catálogo ficticio; la vista estrecha conserva la tarjeta de Formulario de Sitio Web a un tamaño legible.</figcaption>
 </figure>
 
 ## Configurar el contenido y los campos

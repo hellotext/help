@@ -1,0 +1,37 @@
+{
+  "article_key": "captures/forms.md",
+  "status": "local_verified",
+  "capture_date_utc": "2026-09-29",
+  "route": "isolated Chrome compositor via loopback CDP Page.captureScreenshot",
+  "url": "http://127.0.0.1:3191/hellotext/journeys/new",
+  "database": "hellotext_editorial_workload_20260928",
+  "business_id": 5,
+  "fictional_account": "design-system@example.test",
+  "safety": "The local clone held 127 contacts, zero messageable contacts, zero subscribers and 49 messages before and after capture. The fictional owner's locale was switched from Spanish to English and restored to Spanish. No playbook, capture, campaign, message or test was created, activated or sent.",
+  "chrome_profile": "/private/tmp/hellotext-qr-guide-headless-9447",
+  "cdp_loopback_port": 9447,
+  "css_viewport": [1280, 1600],
+  "grid_columns_css": [384, 384, 384],
+  "zoom": 1,
+  "device_pixel_ratio": 2,
+  "clip_css": [24, 640, 816, 240],
+  "source_pixels": [1632, 480],
+  "logical_capture_width_css": 816,
+  "icc": "Display P3",
+  "source_transform": "Direct unaltered compositor crop at DPR 2. Published asset is a byte copy. No stitching, pixel editing or resampling.",
+  "responsive_mobile_source": "The approved 400-CSS-pixel desktop-form card from Capture overview is reused below 600 CSS pixels, without a new upload.",
+  "records": [
+    {
+      "locale": "es",
+      "source": "docs/editorial-work/captures/forms/catalog-desktop-row-es-original.png",
+      "asset": "images/captures/forms/es/catalog-desktop-row.png",
+      "sha256": "566beb2c6e7b0d3c249b910ae4f4e64b8af41f827f9278795129e4c677873e8a"
+    },
+    {
+      "locale": "en",
+      "source": "docs/editorial-work/captures/forms/catalog-desktop-row-en-original.png",
+      "asset": "images/captures/forms/en/catalog-desktop-row.png",
+      "sha256": "7ee2d1dc3d8e3f432ec838e55987946f00163e53400a3ce124721570517488cc"
+    }
+  ]
+}
