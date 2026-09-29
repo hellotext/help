@@ -64,7 +64,7 @@ The form editor lets you configure four parts.
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Preview of a fictional form with heading, phone field, button and SMS notice">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 490px; margin: 0 auto;">
       <img class="ht-editorial-visual__image" src="/images/captures/forms/en/preview.png" width="1960" height="1460" loading="lazy" decoding="async" alt="Fictional form with a Get updates heading, Phone number field, Subscribe button and SMS consent notice." />
     </div>
   </div>
@@ -111,7 +111,7 @@ Assign a journey when the new subscriber should enter a welcome or follow-up flo
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Optional coupon and journey selectors">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 430px; margin: 0 auto;">
       <img class="ht-editorial-visual__image" src="/images/captures/forms/en/optional.png" width="1720" height="1240" loading="lazy" decoding="async" alt="Optional step of a fictional form with coupon and journey selectors left unassigned." />
     </div>
   </div>
@@ -139,7 +139,7 @@ The generated code contains the identifier Hellotext uses to load the form defin
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Generated HTML for embedding the form">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 525px; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/captures/forms/shared/embed-mobile.png" width="1664" height="820" />
         <img class="ht-editorial-visual__image" src="/images/captures/forms/en/embed.png" width="2100" height="2100" loading="lazy" decoding="async" alt="Embed card showing the generated HTML for a fictional form." />

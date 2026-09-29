@@ -64,7 +64,7 @@ El editor permite configurar cuatro partes.
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Vista previa de un formulario ficticio con título, teléfono, botón y aviso SMS">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 490px; margin: 0 auto;">
       <img class="ht-editorial-visual__image" src="/images/captures/forms/es/preview.png" width="1960" height="1580" loading="lazy" decoding="async" alt="Formulario ficticio con encabezado Recibe novedades de Editorial Demo, campo Teléfono, botón Suscribirme y aviso de consentimiento para SMS." />
     </div>
   </div>
@@ -111,7 +111,7 @@ Asigna una ruta cuando la nueva persona suscrita deba entrar en un flujo de bien
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Selectores opcionales de cupón y ruta">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 430px; margin: 0 auto;">
       <img class="ht-editorial-visual__image" src="/images/captures/forms/es/optional.png" width="1720" height="1240" loading="lazy" decoding="async" alt="Paso opcional de un formulario ficticio con selectores de cupón y ruta sin asignar." />
     </div>
   </div>
@@ -139,7 +139,7 @@ El código contiene el identificador que Hellotext utiliza para cargar la defini
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Código HTML generado para integrar el formulario">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 525px; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/captures/forms/shared/embed-mobile.png" width="1664" height="820" />
         <img class="ht-editorial-visual__image" src="/images/captures/forms/es/embed.png" width="2100" height="2100" loading="lazy" decoding="async" alt="Tarjeta de integración que muestra el HTML generado para el formulario ficticio." />
