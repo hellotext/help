@@ -6,32 +6,32 @@ Usa el **Resumen de uso** de Facturación para entender qué ocurrió en un per�
 2. Busca la tarjeta de tu plan actual.
 3. En **Resumen de uso**, selecciona el período que quieres revisar.
 
-La primera tarjeta muestra el plan activo, el importe mensual calculado hasta ese momento y **Cambiar mi Plan**. En la imagen, el mínimo del plan es el monto mayor de una cuenta ficticia sin ventas atribuidas ni mensajes facturables.
+La primera tarjeta muestra el plan activo, el importe mensual calculado hasta ese momento y **Cambiar mi Plan**. En la cuenta ficticia, Grow sigue siendo el monto mayor aunque ya hay ventas atribuidas y mensajes registrados.
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Plan activo y monto mensual">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 800px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/billing/understanding-plan-quotas/plan-es-mobile.png" width="740" height="528" />
-        <img class="ht-editorial-visual__image" src="/images/billing/understanding-plan-quotas/plan-es.png" width="1464" height="464" loading="lazy" decoding="async" alt="Tarjeta del plan Grow ficticio con monto mensual de $299 y el control Cambiar mi Plan." />
+        <source media="(max-width: 600px)" srcset="/images/billing/understanding-plan-quotas/plan-es-mobile.png" width="920" height="528" />
+        <img class="ht-editorial-visual__image" src="/images/billing/understanding-plan-quotas/plan-es.png" width="1464" height="504" loading="lazy" decoding="async" alt="Tarjeta ficticia del plan Grow con $299, barra de uso de plan, atribución, SMS y otros mensajes, y el control Cambiar mi Plan." />
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">La cuenta aislada no registra ventas atribuidas ni mensajes facturables; el monto ilustrado corresponde al plan.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">En esta cuenta ficticia, los $299 del plan superan los otros montos calculados. La barra identifica las cuatro categorías que se comparan.</figcaption>
 </figure>
 
-La segunda tarjeta separa las ventas atribuidas de su tarifa, y muestra los recuentos y costos de SMS y del resto de mensajes. El selector permite elegir el período disponible. En esta cuenta de demostración esas filas están en cero; la imagen sirve para reconocer los campos, no para representar un negocio con consumo.
+La segunda tarjeta separa las ventas atribuidas de su tarifa, y muestra los recuentos y costos de SMS y del resto de mensajes. El selector permite elegir el período disponible. Los valores son ficticios: $8.400 de ventas atribuidas producen una tarifa de $252 al 3 %; 80 mensajes SMS con 88 segmentos cuestan $12 y 1.250 mensajes de otros canales producen $2 según el tramo ilustrado.
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Resumen de uso y selector de período">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 800px; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/billing/understanding-plan-quotas/usage-es-mobile.png" width="740" height="1002" />
-        <img class="ht-editorial-visual__image" src="/images/billing/understanding-plan-quotas/usage-es.png" width="1464" height="922" loading="lazy" decoding="async" alt="Resumen de uso ficticio con selector Septiembre 2026, ventas atribuidas, tarifa, SMS y otros mensajes sin consumo." />
+        <img class="ht-editorial-visual__image" src="/images/billing/understanding-plan-quotas/usage-es.png" width="1464" height="922" loading="lazy" decoding="async" alt="Resumen de uso ficticio de septiembre de 2026: ventas atribuidas $8.400, tarifa $252, 80 mensajes SMS por $12 y 1.250 mensajes de otros canales por $2." />
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">La captura muestra una cuenta ficticia sin transacciones. El selector solo ofrece los períodos disponibles para el negocio.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Los importes y recuentos provienen de registros ficticios de la cuenta aislada. El selector solo ofrece los períodos disponibles para ese negocio.</figcaption>
 </figure>
 
 ## Interpretar la comparación

@@ -4,17 +4,17 @@
   "status": "local_verified",
   "route": "isolated headless Chrome compositor via CDP Page.captureScreenshot",
   "source_url": "http://127.0.0.1:3192/hellotext/settings/billing",
-  "chrome_profile": "dedicated headless Chrome profile on 127.0.0.1:9341 with one local 3192 tab",
+  "chrome_profile": "dedicated headless Chrome profile on 127.0.0.1:9343 with one local 3192 tab",
   "chrome_flags": [
     "--headless=new",
     "--force-color-profile=display-p3-d65",
     "--force-device-scale-factor=2"
   ],
-  "database": "hellotext_editorial_billing_grow_20260929 isolated clone; business 5; all 127 contacts unconfirmed",
+  "database": "hellotext_editorial_billing_usage_20260929 isolated clone of prior Grow demo; business 5; all 127 contacts have unconfirmed subscription state and messageable=false",
   "account": "design-system@example.test fictional owner; guarded callback-free locale es -> en -> es in clone",
-  "business_state": "Grow active monthly plan at USD 299; attribution fee 3%; zero quota transactions. Enterprise catalog monthly amount set to user-confirmed USD 1899 in clone. Pro selected for review at USD 699 without submitting a plan change.",
-  "safety": "Separate local database clone, guarded by database name, business ID, fictitious owner, unconfirmed contact states, and zero quota transactions. No subscription, payment, cancellation, campaign, or message action submitted. The cancellation modal was only opened.",
-  "guard": "Each capture verified the dedicated Chrome PID/profile/loopback CDP port, exactly one local tab, exact URL/title/locale, fictional account, target text, CSS viewport, zoom 1, DPR 2, stable pre/post state, PNG dimensions and embedded Display P3. Development profiler overlays were removed from the isolated page DOM; application data and screenshot pixels were not edited.",
+  "business_state": "Grow active monthly plan at USD 299; 12 fictional attributed sales totaling USD 8,400 and a 3% fee of USD 252; 80 synthetic historical SMS messages with 88 segments and USD 12 cost; 1,250 synthetic historical WhatsApp/Email messages with USD 2 bucket cost. Grow remains the highest monthly amount. No transport, payment or campaign action executed.",
+  "safety": "Guarded isolated local clone, fictional owner, 127 contacts with both subscription_state=unconfirmed and messageable=false, and empty quota ledger before seeding. Direct SQL created synthetic historical message and quota rows without application callbacks, outbound transport, campaigns, payments or subscription actions; both contact safety fields remained unchanged.",
+  "guard": "Each capture verified dedicated Chrome PID/profile/loopback CDP port, exactly one local tab, exact URL/title/locale, fictional account, target text, CSS viewport, zoom 1, DPR 2, stable pre/post state, native PNG dimensions and embedded Display P3. No screenshot pixels were edited.",
   "source_transform": "direct compositor crop only, no pixel editing, resampling or chart reconstruction",
   "records": [
     {
@@ -23,7 +23,7 @@
       "variant": "desktop",
       "source": "docs/editorial-work/captures/understanding-plan-quotas/plan-es-original.png",
       "asset": "images/billing/understanding-plan-quotas/plan-es.png",
-      "sha256": "0c201a4b3c448e363e82a4fffcf3fff9027686428dec3daeaa074461fcdda124",
+      "sha256": "0b312959f5473fb03f12bab6d6c10a62ec725cd53158cee82a55834276e67601",
       "css_viewport": [
         1024,
         900
@@ -32,7 +32,7 @@
         266,
         149,
         732,
-        232
+        252
       ],
       "page_scroll": [
         0,
@@ -40,7 +40,7 @@
       ],
       "source_pixels": [
         1464,
-        464
+        504
       ],
       "source_density": 2,
       "title": "Facturación - Hellotext",
@@ -53,15 +53,15 @@
       "variant": "mobile",
       "source": "docs/editorial-work/captures/understanding-plan-quotas/plan-es-mobile-original.png",
       "asset": "images/billing/understanding-plan-quotas/plan-es-mobile.png",
-      "sha256": "aefd87bdd9bc7c71d228023118240f8a3068d0a7206603f0508f4e02e79714f0",
+      "sha256": "d006b7d640a46d094e9ef63510d5003273ca8d4329533b3f7038e95455fc04db",
       "css_viewport": [
-        390,
-        844
+        480,
+        900
       ],
       "css_clip": [
         10,
-        338,
-        370,
+        302,
+        460,
         264
       ],
       "page_scroll": [
@@ -69,7 +69,7 @@
         0
       ],
       "source_pixels": [
-        740,
+        920,
         528
       ],
       "source_density": 2,
@@ -83,14 +83,14 @@
       "variant": "desktop",
       "source": "docs/editorial-work/captures/understanding-plan-quotas/usage-es-original.png",
       "asset": "images/billing/understanding-plan-quotas/usage-es.png",
-      "sha256": "36f4e84a0de720c1005c0931c2fc397ba0b4d3ceef4be0ef87e4247d71deac95",
+      "sha256": "1fe366e53bc3355b84504c21c005878764a05dada82e9e8680f60e3ff350f3b5",
       "css_viewport": [
         1024,
         900
       ],
       "css_clip": [
         266,
-        393,
+        413,
         732,
         461
       ],
@@ -113,14 +113,14 @@
       "variant": "mobile",
       "source": "docs/editorial-work/captures/understanding-plan-quotas/usage-es-mobile-original.png",
       "asset": "images/billing/understanding-plan-quotas/usage-es-mobile.png",
-      "sha256": "eb366f5fc780b1ac917a7f9afbf1efbf2d6814a0ea0d198f5ce6021623bca133",
+      "sha256": "5e3a11b646a1643e3a3b405609eca9548984c69a7193e348180e85887db92469",
       "css_viewport": [
         390,
         844
       ],
       "css_clip": [
         10,
-        14,
+        34,
         370,
         501
       ],
@@ -143,7 +143,7 @@
       "variant": "desktop",
       "source": "docs/editorial-work/captures/understanding-plan-quotas/plan-en-original.png",
       "asset": "images/billing/understanding-plan-quotas/plan-en.png",
-      "sha256": "aedba16b4f67229a4f9666c43d3c936d5fdfa415ec911d2a7ccb5a9f35419ef5",
+      "sha256": "3eb12f382cb915b934e304c8217e94ac07d658c21e3b2e431363f1c52d3e3b9a",
       "css_viewport": [
         1024,
         900
@@ -152,7 +152,7 @@
         266,
         149,
         732,
-        232
+        252
       ],
       "page_scroll": [
         0,
@@ -160,7 +160,7 @@
       ],
       "source_pixels": [
         1464,
-        464
+        504
       ],
       "source_density": 2,
       "title": "Billing - Hellotext",
@@ -173,15 +173,15 @@
       "variant": "mobile",
       "source": "docs/editorial-work/captures/understanding-plan-quotas/plan-en-mobile-original.png",
       "asset": "images/billing/understanding-plan-quotas/plan-en-mobile.png",
-      "sha256": "b5b43eaed7e4da2e62db73ad5c5ae70f92826b9fa75b05b810d12390c3cca588",
+      "sha256": "dc0e52bb026686bdd9611439f70ae686a525a835e17b5ca4bc25d8748e95e119",
       "css_viewport": [
-        390,
-        844
+        480,
+        900
       ],
       "css_clip": [
         10,
-        338,
-        370,
+        302,
+        460,
         264
       ],
       "page_scroll": [
@@ -189,7 +189,7 @@
         0
       ],
       "source_pixels": [
-        740,
+        920,
         528
       ],
       "source_density": 2,
@@ -203,14 +203,14 @@
       "variant": "desktop",
       "source": "docs/editorial-work/captures/understanding-plan-quotas/usage-en-original.png",
       "asset": "images/billing/understanding-plan-quotas/usage-en.png",
-      "sha256": "a94b2d82b0acc131d33a572f2fd0c3a9b38a3077aa15e6cff88a7a57bcef82bc",
+      "sha256": "bcd9af704cf241b67d3913d479dd9112fc01e4845e64dc3fbfd71a2fae4538ae",
       "css_viewport": [
         1024,
         900
       ],
       "css_clip": [
         266,
-        393,
+        413,
         732,
         461
       ],
@@ -233,14 +233,14 @@
       "variant": "mobile",
       "source": "docs/editorial-work/captures/understanding-plan-quotas/usage-en-mobile-original.png",
       "asset": "images/billing/understanding-plan-quotas/usage-en-mobile.png",
-      "sha256": "f4623da9c96d2e16747c30a9775cc325f0b8be5e36cfbb76bdef2040b590fa86",
+      "sha256": "467258ad241bf6ae5cabbbe25626c50ba32c7059c1bbabfd6cb467e81c5c0fed",
       "css_viewport": [
         390,
         844
       ],
       "css_clip": [
         10,
-        14,
+        34,
         370,
         477
       ],
@@ -292,5 +292,6 @@
       "from_article": "billing/billing-settings-and-invoices.md"
     }
   ],
-  "correction": "Replaces the earlier Enterprise USD 2499 examples after the user specified USD 1899. Grow is the illustrated current plan and Pro is the safe unsubmitted upgrade example."
+  "correction": "Replaces the earlier Enterprise USD 2499 examples after the user specified USD 1899. Grow is the illustrated current plan and Pro is the safe unsubmitted upgrade example.",
+  "fixture_source": "docs/editorial-work/captures/understanding-plan-quotas/usage-fixture.sql (guarded one-shot SQL against exact isolated clone)"
 }
