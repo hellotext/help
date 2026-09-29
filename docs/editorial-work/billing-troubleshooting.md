@@ -26,4 +26,4 @@ The final production `yarn build` and security-header verification passed. The c
 
 The underlying interface labels and conditional invoice/plan states were checked against the Rails Billing views in `/private/tmp/hellotext-workload-fixed`. The current public Hellotext [pricing page](https://www.hellotext.com/pricing/us) and the already verified Pricing, SMS and Meta-fee Help guides support the distinction between the four-way comparison, estimated SMS equivalent and charges collected separately by Meta. No live price or tax amount was copied into this guide.
 
-Record the content commit in `progress.csv` and publish by the normal Help PR process. Public page verification follows the merge; do not claim a production Netlify deploy ID without its SHA evidence.
+Content commit: `1df2f0d2`. The `local_verified` progress entry records this commit. Public page verification follows the merge; do not claim a production Netlify deploy ID without its SHA evidence.
