@@ -2,7 +2,7 @@
 
 - Pair: `captures/subscriber-booster-playbook.md`; public ES `/es/impulsor-suscriptores`, EN `/subscriber-booster-playbook`.
 - Originals preserved in `originals/subscriber-booster/`: ES SHA-256 `aca8808af839f319d2ea5c1f735554c5271676ffdc844beb69f7de5b61db3490`, EN `73a7a6d3a311ca51d9d5bdc3ffb65802d2b9fee7ea8711f2f387adbcdcdd541d`, stub `2b3dfc67997dd56c9458d2bf2d28856a547b135d3963bed123ae2cb69119acc8`.
-- Preparation base: `origin/main 0d83a8c8240b113dd91b5bf263d3385471bf31d7`, 49 `local_verified`, 104 `pending`, one redirect `out_of_scope`; no open Help PR. This branch remains unpublished until all bilingual visual, build, review and public gates pass.
+- Preparation base: `origin/main 0d83a8c8240b113dd91b5bf263d3385471bf31d7`, 49 `local_verified`, 104 `pending`, one redirect `out_of_scope`; no open Help PR. The completed pair is now integrated and publicly verified as recorded below.
 
 ## Full source audit and section plan
 
@@ -36,6 +36,18 @@ The production `yarn build` ran with Ruby 3.3.6 and the security-header verifier
 
 Density descriptors and `width: auto` keep the selected responsive image at or below its original logical size. Desktop images render below their 400–580 CSS-pixel crop widths. At 390 CSS pixels the images render at 316 pixels or less, except the ES discount focus which remains exactly 245 pixels. At 590 pixels every narrower source remains at its logical cap (ES discount 245, EN discount 330, invitation 341, controls 345, prerequisite 390). The browser observations are saved with the source provenance. No useful visual state remains blocked for this pair; final enablement, customer acceptance and provider delivery are described as controlled user testing and were not performed for photography.
 
-Public checks and the deployed revision remain pending until the authorized PR is integrated.
+Public checks for the integrated revision are recorded below.
 
-Content commit: `28eacbe680c32e5224ce298ca20cd5eaab7f13c0`. The ledger now points to this preserved content commit after the complete local ES/EN visual/build checks. Public verification is recorded separately after integration.
+Original content commit: `28eacbe680c32e5224ce298ca20cd5eaab7f13c0`, preserved after the complete initial local ES/EN visual/build checks. The current ledger points to the later verified frame refinement `6959cb2f70ace6c91c8a16526d9a10062f13085b`, as recorded below.
+
+## Public verification (2026-09-29)
+
+Help PR [#243](https://github.com/hellotext/help/pull/243) merged by commit `3551ef5fc35a8c862c9fb574d6322c84567b42b3`, preserving content `28eacbe6` and local verifier `ea93999f` as ancestors. PR Build, Aikido, Netlify preview and header checks passed; the automatic Codex review completed for the exact head without findings. Branch protection and branch rules returned no active rules; no check was skipped. [Main Build run 36640300362](https://github.com/hellotext/help/actions/runs/36640300362) passed for the exact merge SHA. Attaching the PR to the chat reached the existing 100-identity limit; integration was unaffected.
+
+The public [ES guide](https://help.hellotext.com/es/impulsor-suscriptores) and [EN guide](https://help.hellotext.com/subscriber-booster-playbook) returned HTTP 200 with six figures each and the corrected predefined-invitation explanation. All fourteen new PNGs and six reused PNGs returned 200 and matched their approved SHA-256 hashes. Reused images were not uploaded again. Exact public URLs and hashes are saved in `captures/subscriber-booster/public-verification.json`. No manual deployment was run. A production Netlify deploy ID to SHA association is not claimed because access to that listing has not been available.
+
+### Responsive frame refinement
+
+The registration batch also narrows each white frame to fit its selected responsive image, keeping the original logical-size cap and full-width lavender stage. At 390 CSS pixels the ES discount frame is now 257 pixels around its 245-pixel source, with the same inner inset as the other mobile figures. At 590 pixels the responsive invitation, prerequisite, discount and options frames fit their native source widths plus the standard inset. Both locales were reviewed again in the browser at 1440, 390 and 590 pixels, and the production build/security-header checks passed. All screenshot bytes and hashes are unchanged.
+
+The ledger now references the final verified frame refinement commit `6959cb2f70ace6c91c8a16526d9a10062f13085b`; original article content `28eacbe6` remains its ancestor. This verifier is a separate commit.

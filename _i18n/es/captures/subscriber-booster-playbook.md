@@ -6,7 +6,7 @@ La invitación usa variantes de texto predefinidas en el idioma del negocio. Des
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Vista previa de la invitación de Impulsor de Suscriptores con un incentivo del 10%, consentimiento y opciones para aceptar o rechazar.">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 550px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 550px; width: fit-content; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/captures/subscriber-booster/invitation-mobile-es.png 2x" width="682" height="620" />
         <img class="ht-editorial-visual__image" src="/images/captures/subscriber-booster/invitation-es.png" srcset="/images/captures/subscriber-booster/invitation-es.png 2x" width="1100" height="540" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Vista previa de la invitación de Impulsor de Suscriptores con un incentivo del 10%, consentimiento y opciones para aceptar o rechazar." />
@@ -41,7 +41,7 @@ La opción de no mostrar el teaser conserva el acceso normal al chat. No desacti
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Teaser de Webchat con una oferta del 10% junto al lanzador naranja del chat.">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 430px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 430px; width: fit-content; margin: 0 auto;">
       <img class="ht-editorial-visual__image" src="/images/captures/subscriber-booster/teaser-es.png" srcset="/images/captures/subscriber-booster/teaser-es.png 2x" width="860" height="400" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Teaser de Webchat con una oferta del 10% junto al lanzador naranja del chat." />
     </div>
   </div>
@@ -62,7 +62,7 @@ Para que la conversación de recopilación funcione, también debe estar habilit
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Impulsor de Suscriptores muestra el aviso para habilitar Recolector de Propiedades antes de configurar los datos que recopilará.">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 575px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 575px; width: fit-content; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/captures/property-collector/prerequisite-es-mobile.png 2x" width="780" height="1160" />
         <img class="ht-editorial-visual__image" src="/images/captures/property-collector/prerequisite-es.png" srcset="/images/captures/property-collector/prerequisite-es.png 2x" width="1150" height="1160" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Impulsor de Suscriptores muestra el aviso para habilitar Recolector de Propiedades antes de configurar los datos que recopilará." />
@@ -116,7 +116,7 @@ Abre **Misiones**, haz clic en **Explorar misiones**, busca el grupo **Captura**
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Tarjeta Impulsor de Suscriptores en la grilla de escritorio del catálogo de misiones.">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 400px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 400px; width: fit-content; margin: 0 auto;">
       <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/desktop-subscriber-es.png" srcset="/images/captures/capture-overview/desktop-subscriber-es.png 2x" width="800" height="480" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Tarjeta Impulsor de Suscriptores en la grilla de escritorio del catálogo de misiones." />
     </div>
   </div>
@@ -134,7 +134,7 @@ Las modalidades **Combinar ofertas de la tienda con incentivos de IA** y **Crear
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Estrategia de incentivo seleccionada con el porcentaje 10% resaltado entre 5%, 10%, 15% y 20%.">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 530px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 530px; width: fit-content; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/captures/subscriber-booster/discount-mobile-es.png 2x" width="490" height="236" />
         <img class="ht-editorial-visual__image" src="/images/captures/subscriber-booster/discount-es.png" srcset="/images/captures/subscriber-booster/discount-es.png 2x" width="1060" height="820" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Estrategia de incentivo seleccionada con el porcentaje 10% resaltado entre 5%, 10%, 15% y 20%." />
@@ -148,7 +148,7 @@ En **Opciones de webchat**, selecciona **Mostrar mensaje teaser a visitantes nue
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Opciones de Webchat con la opción Mostrar mensaje teaser a visitantes nuevos seleccionada y la alternativa de no mostrarlo.">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 580px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 580px; width: fit-content; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/captures/subscriber-booster/webchat-options-mobile-es.png 2x" width="690" height="720" />
         <img class="ht-editorial-visual__image" src="/images/captures/subscriber-booster/webchat-options-es.png" srcset="/images/captures/subscriber-booster/webchat-options-es.png 2x" width="1160" height="660" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Opciones de Webchat con la opción Mostrar mensaje teaser a visitantes nuevos seleccionada y la alternativa de no mostrarlo." />
