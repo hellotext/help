@@ -1,0 +1,396 @@
+{
+  "source": "isolated Chrome compositor through CDP, localhost-only, one demo tab",
+  "database": "hellotext_editorial_workload_20260928",
+  "business_id": 5,
+  "account": "design-system@example.test",
+  "fixture": {
+    "capture_id": 6,
+    "social_media_link_hashed_id": "3oDXBQG4",
+    "capture_state": "disabled",
+    "channel_id": 57,
+    "channel_state": "inactive",
+    "coupon_id": 2,
+    "journey_id": 8,
+    "journey_state": "draft",
+    "message_count_before_and_after": 49,
+    "messageable_contacts_before_and_after": 0,
+    "subscribers_before_and_after": 0,
+    "reference_generated": true,
+    "link_opened": false,
+    "message_sent": false
+  },
+  "images": [
+    {
+      "file": "type-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/captures/instagram-stories/new",
+      "css_viewport": [
+        1280,
+        1600
+      ],
+      "css_clip": [
+        140,
+        140,
+        600,
+        600
+      ],
+      "pixel_size": [
+        1200,
+        1200
+      ],
+      "dpr": 2,
+      "zoom": 1,
+      "icc": "Display P3",
+      "sha256": "3fa1ba020323e098d4c5125da8a775cea0be3b4b7017e5e44bf437a969dcbefe"
+    },
+    {
+      "file": "type-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/captures/instagram-stories/new",
+      "css_viewport": [
+        1280,
+        1600
+      ],
+      "css_clip": [
+        140,
+        140,
+        600,
+        600
+      ],
+      "pixel_size": [
+        1200,
+        1200
+      ],
+      "dpr": 2,
+      "zoom": 1,
+      "icc": "Display P3",
+      "sha256": "db5843155cd7e3a6ed5b5f5d772a2a6967467830c2fc5b15b8fbf2c3febe1d15"
+    },
+    {
+      "file": "type-es-mobile.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/captures/instagram-stories/new",
+      "css_viewport": [
+        390,
+        1000
+      ],
+      "css_clip": [
+        12,
+        50,
+        366,
+        650
+      ],
+      "pixel_size": [
+        732,
+        1300
+      ],
+      "dpr": 2,
+      "zoom": 1,
+      "icc": "Display P3",
+      "sha256": "0cd707150da0b834ba93a19bd6bf9bce92ddad4111c115d3fd0b9efcc205c9f7"
+    },
+    {
+      "file": "type-en-mobile.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/captures/instagram-stories/new",
+      "css_viewport": [
+        390,
+        1000
+      ],
+      "css_clip": [
+        12,
+        50,
+        366,
+        650
+      ],
+      "pixel_size": [
+        732,
+        1300
+      ],
+      "dpr": 2,
+      "zoom": 1,
+      "icc": "Display P3",
+      "sha256": "7c4e48cddd6a45babb2b588d22c4c53b6b25c4e36171ef93f9eff5fae82e3498"
+    },
+    {
+      "file": "message-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/captures/instagram-stories/new?technology=sms&name=Link%20de%20Instagram%20demo",
+      "css_viewport": [
+        1280,
+        1600
+      ],
+      "css_clip": [
+        140,
+        450,
+        580,
+        370
+      ],
+      "pixel_size": [
+        1160,
+        740
+      ],
+      "dpr": 2,
+      "zoom": 1,
+      "icc": "Display P3",
+      "sha256": "177b5aa3445f19298ca2e98b9d1415080a75941d5dffb700780f04f7dd890d90"
+    },
+    {
+      "file": "message-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/captures/instagram-stories/new?technology=sms&name=Instagram%20link%20demo",
+      "css_viewport": [
+        1280,
+        1600
+      ],
+      "css_clip": [
+        140,
+        415,
+        580,
+        405
+      ],
+      "pixel_size": [
+        1160,
+        810
+      ],
+      "dpr": 2,
+      "zoom": 1,
+      "icc": "Display P3",
+      "sha256": "c28e14dd9832bfb055f92276df807ee62780a3ac547231fe6bf74b721ae79458"
+    },
+    {
+      "file": "message-es-mobile.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/captures/instagram-stories/new?technology=sms&name=Link%20de%20Instagram%20demo",
+      "css_viewport": [
+        450,
+        1000
+      ],
+      "css_clip": [
+        10,
+        320,
+        430,
+        350
+      ],
+      "pixel_size": [
+        860,
+        700
+      ],
+      "dpr": 2,
+      "zoom": 1,
+      "icc": "Display P3",
+      "sha256": "ebf21e65594870ac1c587d6e524e045a55ab689a233edfa83efaec15bf31a3cd"
+    },
+    {
+      "file": "message-en-mobile.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/captures/instagram-stories/new?technology=sms&name=Instagram%20link%20demo",
+      "css_viewport": [
+        450,
+        900
+      ],
+      "css_clip": [
+        10,
+        300,
+        430,
+        350
+      ],
+      "pixel_size": [
+        860,
+        700
+      ],
+      "dpr": 2,
+      "zoom": 1,
+      "icc": "Display P3",
+      "sha256": "9d8774964edf55ed61156f2222df6be655b281bc10cbc1f39f883a0acd14a9c9"
+    },
+    {
+      "file": "assignment-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/captures/instagram-stories/3oDXBQG4/assign-coupon",
+      "css_viewport": [
+        1280,
+        1600
+      ],
+      "css_clip": [
+        130,
+        110,
+        650,
+        620
+      ],
+      "pixel_size": [
+        1300,
+        1240
+      ],
+      "dpr": 2,
+      "zoom": 1,
+      "icc": "Display P3",
+      "sha256": "42989610c02d0f8ca394a3c9ef81aaad3efa00a0fb53314e81a35d7785bea3d2"
+    },
+    {
+      "file": "assignment-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/captures/instagram-stories/3oDXBQG4/assign-coupon",
+      "css_viewport": [
+        1280,
+        1600
+      ],
+      "css_clip": [
+        130,
+        110,
+        650,
+        570
+      ],
+      "pixel_size": [
+        1300,
+        1140
+      ],
+      "dpr": 2,
+      "zoom": 1,
+      "icc": "Display P3",
+      "sha256": "ca4f55eadaab6295c7b5382762c8f7ca5c37696db68b4ca0c3f9604c1d17ada9"
+    },
+    {
+      "file": "assignment-es-mobile.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/captures/instagram-stories/3oDXBQG4/assign-coupon",
+      "css_viewport": [
+        450,
+        900
+      ],
+      "css_clip": [
+        10,
+        50,
+        430,
+        490
+      ],
+      "pixel_size": [
+        860,
+        980
+      ],
+      "dpr": 2,
+      "zoom": 1,
+      "icc": "Display P3",
+      "sha256": "8572f006aa6aeceddef1a99a43a75a9f8a7cc2c98aa5b8d17c078d81febe51b9"
+    },
+    {
+      "file": "assignment-en-mobile.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/captures/instagram-stories/3oDXBQG4/assign-coupon",
+      "css_viewport": [
+        450,
+        900
+      ],
+      "css_clip": [
+        10,
+        50,
+        430,
+        455
+      ],
+      "pixel_size": [
+        860,
+        910
+      ],
+      "dpr": 2,
+      "zoom": 1,
+      "icc": "Display P3",
+      "sha256": "c1f93ac586de4370d4e7de910eecae9a57f3956df5c0190768adb96b8503e9a8"
+    },
+    {
+      "file": "result-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/captures/instagram-stories/3oDXBQG4",
+      "css_viewport": [
+        810,
+        450
+      ],
+      "css_clip": [
+        10,
+        35,
+        790,
+        405
+      ],
+      "pixel_size": [
+        1580,
+        810
+      ],
+      "dpr": 2,
+      "zoom": 1,
+      "icc": "Display P3",
+      "sha256": "55fe1c197b9231e9af0cbacd7097d58d6bb834befd3a19f1e20fc1caccf6712d"
+    },
+    {
+      "file": "result-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/captures/instagram-stories/3oDXBQG4",
+      "css_viewport": [
+        810,
+        450
+      ],
+      "css_clip": [
+        10,
+        35,
+        790,
+        405
+      ],
+      "pixel_size": [
+        1580,
+        810
+      ],
+      "dpr": 2,
+      "zoom": 1,
+      "icc": "Display P3",
+      "sha256": "1570bafa6e15e80a584ed99bdd85d1200a41327e6f18d6933884fde77a4fcbed"
+    },
+    {
+      "file": "result-es-mobile.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/captures/instagram-stories/3oDXBQG4",
+      "css_viewport": [
+        450,
+        450
+      ],
+      "css_clip": [
+        10,
+        50,
+        430,
+        390
+      ],
+      "pixel_size": [
+        860,
+        780
+      ],
+      "dpr": 2,
+      "zoom": 1,
+      "icc": "Display P3",
+      "sha256": "52060a56f129117adc7eeb428e6162dc78a66f73b8580b07ac2dac72ea35ea1b"
+    },
+    {
+      "file": "result-en-mobile.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/captures/instagram-stories/3oDXBQG4",
+      "css_viewport": [
+        450,
+        450
+      ],
+      "css_clip": [
+        10,
+        50,
+        430,
+        390
+      ],
+      "pixel_size": [
+        860,
+        780
+      ],
+      "dpr": 2,
+      "zoom": 1,
+      "icc": "Display P3",
+      "sha256": "f96ab4937b9b3b7d5a2686ed773b3b6656ba62d40e1045aeb301c84f6ea44697"
+    }
+  ],
+  "reused_without_copy": [
+    "images/captures/capture-overview/desktop-link-es.png",
+    "images/captures/capture-overview/desktop-link-en.png"
+  ]
+}
