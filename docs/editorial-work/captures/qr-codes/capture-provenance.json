@@ -1,0 +1,300 @@
+{
+  "status": "local_verified",
+  "captured_at": "2026-09-29",
+  "database": "hellotext_editorial_workload_20260928",
+  "business_id": 5,
+  "fictional_account": "design-system@example.test",
+  "chrome_profile": "/private/tmp/hellotext-qr-guide-headless-9447",
+  "cdp_loopback_port": 9447,
+  "zoom": 1,
+  "device_pixel_ratio": 2,
+  "notes": [
+    "A guarded fictional QR capture, reserved +12025550147 destination, coupon, and compatible subscription-triggered draft journey were created only in the isolated clone. The capture and channel remain disabled/inactive; the journey remains draft; no contact became messageable or subscribed and no scan or message occurred.",
+    "The assignment screen used selected fictional coupon and journey controls. The final QR was rendered by Save & Continue on the disabled fixture; no send, activation, scan, or file download occurred. The ES and EN QR payloads used locale-matched unsent opt-in text with the same generated reference.",
+    "WhatsApp was disabled in the isolated account.",
+    "The legacy GET follow-up route fails with a NoMethodError; the live flow reaches assignment only after saving a QR capture.",
+    "The complete ES and EN Help articles passed production Jekyll build and desktop/mobile browser review. All sixteen new source, asset, and built PNGs matched their approved SHA-256 hashes. Desktop assignment crops were recaptured at 1220 pixels to preserve at least two source pixels per final CSS pixel."
+  ],
+  "sources": [
+    {
+      "file": "type-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/captures/qr-codes/new",
+      "css_viewport": [
+        1200,
+        1000
+      ],
+      "clip_css": [
+        125,
+        115,
+        660,
+        655
+      ],
+      "pixels": [
+        1320,
+        1310
+      ],
+      "sha256": "eede258c9564f35a12937dc91e1dfe2ca1a42b55b91aa656eb43d4ba9adc6b68",
+      "color_profile": "Display P3",
+      "source_density": 2,
+      "capture_route": "isolated Chrome compositor via CDP"
+    },
+    {
+      "file": "type-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/captures/qr-codes/new",
+      "css_viewport": [
+        1200,
+        1000
+      ],
+      "clip_css": [
+        125,
+        115,
+        660,
+        655
+      ],
+      "pixels": [
+        1320,
+        1310
+      ],
+      "sha256": "ace129e7e733ed1a67517f502e903aa64e96147c056126dd034253f91b95ebac",
+      "color_profile": "Display P3",
+      "source_density": 2,
+      "capture_route": "isolated Chrome compositor via CDP"
+    },
+    {
+      "file": "type-es-mobile.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/captures/qr-codes/new",
+      "css_viewport": [
+        390,
+        1000
+      ],
+      "clip_css": [
+        10,
+        50,
+        370,
+        750
+      ],
+      "pixels": [
+        740,
+        1500
+      ],
+      "sha256": "64eb482e351a951426188c8219d6c581a8c1d2637f2a799395cd0e40ffcb0ee5",
+      "color_profile": "Display P3",
+      "source_density": 2,
+      "capture_route": "isolated Chrome compositor via CDP"
+    },
+    {
+      "file": "type-en-mobile.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/captures/qr-codes/new",
+      "css_viewport": [
+        390,
+        1000
+      ],
+      "clip_css": [
+        10,
+        50,
+        370,
+        750
+      ],
+      "pixels": [
+        740,
+        1500
+      ],
+      "sha256": "cffe0390ce515e36f8f3338747e94826de6bbb2e77e94f5780b2217003eded34",
+      "color_profile": "Display P3",
+      "source_density": 2,
+      "capture_route": "isolated Chrome compositor via CDP"
+    },
+    {
+      "file": "message-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/captures/qr-codes/new?technology=sms&name=QR%20empaque%20demo",
+      "css_viewport": [
+        1200,
+        1000
+      ],
+      "clip_css": [
+        125,
+        120,
+        660,
+        690
+      ],
+      "pixels": [
+        1320,
+        1380
+      ],
+      "sha256": "37c839fae4a22ed7d3dc7e4bc06fb7e86df2c8ca4f223bab552a7b54d32c1572",
+      "color_profile": "Display P3",
+      "source_density": 2,
+      "capture_route": "isolated Chrome compositor via CDP"
+    },
+    {
+      "file": "message-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/captures/qr-codes/new?technology=sms&name=Demo%20packaging%20QR",
+      "css_viewport": [
+        1200,
+        1000
+      ],
+      "clip_css": [
+        125,
+        120,
+        660,
+        690
+      ],
+      "pixels": [
+        1320,
+        1380
+      ],
+      "sha256": "41f26a58085649faf0a1b7fbb6f2f97be767f6688a9cfe7b3ffa0dc1e345aac4",
+      "color_profile": "Display P3",
+      "source_density": 2,
+      "capture_route": "isolated Chrome compositor via CDP"
+    },
+    {
+      "file": "message-es-mobile.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/captures/qr-codes/new?technology=sms&name=QR%20empaque%20demo",
+      "css_viewport": [
+        450,
+        1000
+      ],
+      "clip_css": [
+        10,
+        50,
+        430,
+        580
+      ],
+      "pixels": [
+        860,
+        1160
+      ],
+      "sha256": "e6979bb6d4d3ba5e0074dc1b552c48c2499ed870ed4558156352b1b70338a5c0",
+      "color_profile": "Display P3",
+      "source_density": 2,
+      "capture_route": "isolated Chrome compositor via CDP"
+    },
+    {
+      "file": "message-en-mobile.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/captures/qr-codes/new?technology=sms&name=Demo%20packaging%20QR",
+      "css_viewport": [
+        450,
+        1000
+      ],
+      "clip_css": [
+        10,
+        50,
+        430,
+        580
+      ],
+      "pixels": [
+        860,
+        1160
+      ],
+      "sha256": "987de25144dad12b3b9ee469f2338a50fbe0114807d39809c8720f69750eff0c",
+      "color_profile": "Display P3",
+      "source_density": 2,
+      "capture_route": "isolated Chrome compositor via CDP"
+    },
+    {
+      "file": "assignment-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/captures/qr-codes/3oDXBQG4/assign-coupon",
+      "css_viewport": [1200, 913],
+      "clip_css": [130, 130, 610, 550],
+      "pixels": [1220, 1100],
+      "sha256": "88378e7749c6c3d2866f556328bc792866161d2578f026998867410c388a7893",
+      "color_profile": "Display P3",
+      "source_density": 2,
+      "capture_route": "isolated Chrome compositor via CDP"
+    },
+    {
+      "file": "assignment-es-mobile.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/captures/qr-codes/3oDXBQG4/assign-coupon",
+      "css_viewport": [450, 900],
+      "clip_css": [0, 35, 450, 525],
+      "pixels": [900, 1050],
+      "sha256": "8d0f35a0f01503881e7d0f32a4a68c95b8ddc5f3b4473e7fb03b7d0b824f67c1",
+      "color_profile": "Display P3",
+      "source_density": 2,
+      "capture_route": "isolated Chrome compositor via CDP"
+    },
+    {
+      "file": "assignment-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/captures/qr-codes/3oDXBQG4/assign-coupon",
+      "css_viewport": [1200, 913],
+      "clip_css": [130, 130, 610, 550],
+      "pixels": [1220, 1100],
+      "sha256": "13b6562f457b3fb9d02a9bc296d7f5a1d204b253c044879ab4ad7f250f404250",
+      "color_profile": "Display P3",
+      "source_density": 2,
+      "capture_route": "isolated Chrome compositor via CDP"
+    },
+    {
+      "file": "assignment-en-mobile.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/captures/qr-codes/3oDXBQG4/assign-coupon",
+      "css_viewport": [450, 900],
+      "clip_css": [0, 35, 450, 525],
+      "pixels": [900, 1050],
+      "sha256": "7ca45abab875daa7786d3efd1761aaca766ee3005490c8e1c4214eb68616eccf",
+      "color_profile": "Display P3",
+      "source_density": 2,
+      "capture_route": "isolated Chrome compositor via CDP"
+    },
+    {
+      "file": "result-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/captures/qr-codes/3oDXBQG4/assign-coupon",
+      "css_viewport": [1200, 913],
+      "clip_css": [75, 125, 1100, 775],
+      "pixels": [2200, 1550],
+      "sha256": "903ef2a1e3a6af02aff529f1e42f15f6643dcfa98e96f89ef6d18688ae25a78a",
+      "color_profile": "Display P3",
+      "source_density": 2,
+      "capture_route": "isolated Chrome compositor via CDP"
+    },
+    {
+      "file": "result-es-mobile.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/captures/qr-codes/3oDXBQG4/assign-coupon",
+      "css_viewport": [450, 913],
+      "clip_css": [0, 35, 450, 865],
+      "pixels": [900, 1730],
+      "sha256": "18b2e4b3112d231c73f65d5df0287090d5f60a0dbd87af1d00979bbde6a17e9a",
+      "color_profile": "Display P3",
+      "source_density": 2,
+      "capture_route": "isolated Chrome compositor via CDP"
+    },
+    {
+      "file": "result-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/captures/qr-codes/3oDXBQG4/assign-coupon",
+      "css_viewport": [1200, 913],
+      "clip_css": [75, 125, 1100, 775],
+      "pixels": [2200, 1550],
+      "sha256": "ef6d6b49658c564a18e2b6f508b340dad78220bf30d8065c0ec086ec6a02a4b7",
+      "color_profile": "Display P3",
+      "source_density": 2,
+      "capture_route": "isolated Chrome compositor via CDP"
+    },
+    {
+      "file": "result-en-mobile.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/captures/qr-codes/3oDXBQG4/assign-coupon",
+      "css_viewport": [450, 913],
+      "clip_css": [0, 35, 450, 865],
+      "pixels": [900, 1730],
+      "sha256": "f925718ff16364349bf993908870b84a62d540537ca442cac08b3b84e56d7441",
+      "color_profile": "Display P3",
+      "source_density": 2,
+      "capture_route": "isolated Chrome compositor via CDP"
+    }
+  ]
+}

@@ -1,46 +1,102 @@
-QR Code Subscriber is a capture playbook that lets customers start an SMS subscription by scanning a code. It works well for eCommerce, retail, and consumer packaged goods (CPG) brands that interact with customers through physical placements.
+QR Code Subscriber is a capture playbook that starts a subscription from a printed or digital code. You can create a code that opens SMS or, when WhatsApp is enabled for your business, one that opens WhatsApp. Scanning prepares the message; the person chooses whether to send it.
 
-Here are some examples of how QR codes can be used in these contexts:
+Use separate codes for different placements so you can recognize where each subscription began:
 
-* A clothing store could display QR codes in their store or on their website, allowing customers to easily subscribe to receive updates on new arrivals, sales, and special promotions via SMS.
-* A physical store could display QR codes next to products or in their weekly flyer, allowing customers to subscribe to receive notifications about new product releases, discounts via SMS.
-* A CPG company could include QR codes on product packaging, allowing customers to subscribe to receive updates about the product, such as usage tips, recipes, or special offers via SMS.
+* A clothing store can place one code at the counter to invite customers to receive news and offers.
+* A retailer can include another code in its weekly flyer and distinguish that source from the store.
+* A consumer packaged goods brand can print a code on packaging to invite customers to receive tips or promotions.
 
 ## How it works
 
-When a customer scans the QR code, they will be taken to the native SMS app on their phone with a pre-filled, customizable text message and the number to subscribe to. 
+Scanning opens the selected app: the native SMS app or WhatsApp. The destination number and text are prepared. Hellotext adds a unique reference to the text to identify this QR code.
 
-The customer still needs to press *Send* to submit the opt-in message. Hellotext then associates the subscription with the resulting customer profile and the capture reference.
+The person must press **Send**. Only after Hellotext receives that message can it record the subscription on the customer profile and attribute it to the capture. Scanning without sending does not subscribe anyone.
 
 ## Create a QR code
 
-To set up a QR code, open **Playbooks**, click **Explore playbooks**, find the **Captures** group, and choose **QR Code Subscriber**.
+Open **Playbooks**, click **Explore playbooks**, find the **Capture** group, and choose **QR Code Subscriber**. Give it a name that identifies its placement, such as “Packaging QR.”
 
-If you have phone numbers or short codes associated with your business, you can choose one of these as the number that customers will send the opt-in message to. 
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="QR Code Subscriber card in the Capture group of the playbook catalog.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/capture-overview/site-en-mobile.png" width="760" height="1568" />
+        <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/site-en.png" width="1780" height="1030" loading="lazy" decoding="async" alt="QR Code Subscriber card beside the other site and link capture choices." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Where to find QR Code Subscriber in a fictional account.</figcaption>
+</figure>
 
-If you do not choose a specific number, keep the default setting so Hellotext can use an available compatible number.
+First choose **SMS** or **WhatsApp**. WhatsApp is available only when that channel is enabled for your business.
 
-You can also customize the pre-filled message that customers will send to subscribe.
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="QR code type chooser with SMS available and WhatsApp disabled in the fictional account.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/qr-codes/type-en-mobile.png" width="740" height="1500" />
+        <img class="ht-editorial-visual__image" src="/images/captures/qr-codes/type-en.png" width="1320" height="1310" loading="lazy" decoding="async" alt="Choose the Type step: SMS selected and WhatsApp unavailable for this account." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Choose the app the code opens; WhatsApp availability depends on the account.</figcaption>
+</figure>
+
+On the next step, select the number or channel that will receive the message. For SMS, you can choose an available business number or short code, or keep **Using default settings for sending**. Check the destination prepared on the customer's phone before you share the code.
+
+Write clear consent text in **Personalize the message your users will send to subscribe**. The editor previews the text but does not send it. Hellotext appends the capture reference when it generates the QR code.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Number and opt-in message setup in a fictional QR code draft.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/qr-codes/message-en-mobile.png" width="860" height="1160" />
+        <img class="ht-editorial-visual__image" src="/images/captures/qr-codes/message-en.png" width="1320" height="1380" loading="lazy" decoding="async" alt="Default number and fictional opt-in text in the QR code editor." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Number and message before saving. The example text was not sent.</figcaption>
+</figure>
 
 ## Choose the follow-up
 
-On the next step, you have the option to choose what happens after your customer subscribes.
+Saving the number and message creates the QR code and opens the step for assigning a coupon and a playbook compatible with the subscription event.
 
-By default, a welcome message is sent to the new subscriber.
+No welcome message is sent automatically when you leave the follow-up playbook unselected. To welcome new subscribers, choose a route or playbook that starts on subscription and contains the appropriate message.
 
-However, if you have created any coupons, you can choose to include them in the welcome message as an incentive for subscribing. 
+You can choose a coupon when the selected playbook has a message prepared to include it. If you skip this step, the QR code remains available without that automatic follow-up.
 
-Alternatively, you can select a route or another compatible playbook to replace the default welcome message.
-
-That follow-up will be sent to the new subscriber instead of the default message.
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Optional compatible coupon and welcome journey choices for a fictional QR code.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/qr-codes/assignment-en-mobile.png" width="900" height="1050" />
+        <img class="ht-editorial-visual__image" src="/images/captures/qr-codes/assignment-en.png" width="1220" height="1100" loading="lazy" decoding="async" alt="Assign a coupon and journey step with fictional GUIA-QR-10 coupon and QR welcome journey selected." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Follow-up choices in a disabled fictional capture. No message was sent.</figcaption>
+</figure>
 
 ## Download and test the QR code
 
-Once you're finished, you can move on to the next step to download your QR code in SVG format. 
+After you save or skip the follow-up, you will see the QR code and **Download QR Code in SVG**.
 
-SVG is a vector format, which means that your QR code will always look great, whether it's used in printed materials, packaging, or online. 
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Fictional QR code result with an option to download the SVG file.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/qr-codes/result-en-mobile.png" width="900" height="1730" />
+        <img class="ht-editorial-visual__image" src="/images/captures/qr-codes/result-en.png" width="2200" height="1550" loading="lazy" decoding="async" alt="Generated QR code and Download QR Code in SVG button on the final screen." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Demo account result: the code opens an unsent SMS draft to a reserved fictional number.</figcaption>
+</figure>
 
-Test the final QR code with a phone before printing or publishing it. Confirm that it opens the intended SMS number, includes the configured message and reference, and subscribes the correct customer profile only after the message is sent.
+SVG is a vector format that scales cleanly for printed materials, packaging, or websites.
+
+Before publishing, scan it with a phone and check that it opens SMS or WhatsApp as selected, with the expected destination, message, and reference. You can check these details without sending the message. For a complete subscription test, use an authorized test number and check the profile and follow-up after sending.
 
 ## Related guides
 

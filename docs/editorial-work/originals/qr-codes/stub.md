@@ -8,10 +8,10 @@ avatar:
 
 en:
   title: QR Code Subscriber
-  description: Start a customer subscription by QR code through SMS or an enabled WhatsApp channel.
+  description: Quick and easy SMS subscription for customers in eCommerce, retail, and CPG brands.
 es:
   title: Suscriptor por Código QR
-  description: Inicia una suscripción desde un código QR por SMS o por un canal de WhatsApp habilitado.
+  description: Suscripción rápida y fácil a promociones SMS para eCommerce, comercios y marcas de productos empacados.
 
 permalink: qr-codes
 permalink_es: codigos-qr
