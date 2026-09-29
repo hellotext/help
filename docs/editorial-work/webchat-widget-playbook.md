@@ -40,3 +40,5 @@ Guarded postflight restored locale ES and the original fictional business label 
 Production `yarn build` with Ruby 3.3.6 and the security-header verifier passed. All 24 source/asset/built PNG hashes match, both locales have seven figures, original links and identity metadata are unchanged, and docs/provenance remains excluded from `_site`. Complete ES/EN pages were inspected at 1440 and 390 CSS pixels, including figures and ending; the responsive boundary was also measured at 590 pixels. There is no horizontal overflow or linked screenshot. Images render at 382–526 CSS pixels on desktop and 316 or less at 390 pixels. At 590 pixels, each selected narrower source stays exactly at or below its native logical width (333–394 pixels). The white frames fit the selected sources within the full-column lavender stage.
 
 Public verification is pending; local checks do not imply publication.
+
+Local content verifier: `aad737def4620ea46ef231c8f18f990465a90397`. The separate ledger commit preserves this verified content commit as its ancestor.
