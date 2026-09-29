@@ -29,7 +29,8 @@ No customer-facing example is taught here, so a message preview would be decorat
 
 ## Verification and publication
 
-- The bilingual article edit and the narrow Email fundamentals errata were built with `yarn build`; Jekyll and the link/security validation completed successfully.
-- Reviewed both complete Messaging overview pages and both affected Email fundamentals pages in the local browser at 1280 CSS px desktop and 390 CSS px mobile. The headings, corrected passages, navigation and footer rendered, and none of the four pages overflowed horizontally. The Spanish and English Email availability sections remained legible on mobile.
-- `git diff --check` passed before committing.
-- Pending: local verifier commit, PR checks and review, merge commit, main build, normal Netlify deployment and public ES/EN verification. Do not mark the progress row complete before the bilingual content and verification pass.
+- Content commit `e04f9413` preserves the bilingual article edit and narrow Email fundamentals errata after rebasing on `origin/main`.
+- `yarn build` passed after the rebase; Jekyll and the security-header validation completed successfully.
+- Reviewed both complete Messaging overview pages and both affected Email fundamentals pages in the local browser at 1280 CSS px desktop and 390 CSS px mobile. The headings, corrected passages, navigation and footer rendered, and none of the four pages overflowed horizontally. The Spanish and English Email availability sections remained legible on mobile. Rechecked all four pages at both widths after the rebase.
+- `git diff --check` passed before committing; the Messaging overview row is `local_verified`. Email fundamentals remains `pending` for its own full review.
+- Pending: PR checks and review, merge commit, main build, normal Netlify deployment and public ES/EN verification.
