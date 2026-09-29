@@ -1724,7 +1724,15 @@ html[lang="es"] .home-hero h1 {
   margin: 0 auto;
 }
 
+.guide-content > figure.ht-editorial-visual--campaign-index .ht-editorial-visual__image-frame--mobile-only {
+  display: none;
+}
+
 @media (max-width: 600px) {
+  .guide-content > figure.ht-editorial-visual--campaign-index .ht-editorial-visual__image-frame--mobile-only {
+    display: block;
+  }
+
   .guide-content > figure.ht-editorial-visual--campaign-tabs .ht-editorial-visual__image-frame {
     max-width: 205px;
   }

@@ -50,13 +50,16 @@ La página Campañas organiza este ciclo en las pestañas **Programadas**, **Env
 
 En **Enviadas**, la tabla resume por campaña los mensajes entregados, la conversión, el ROI y los ingresos atribuidos. Un guion indica que esa métrica no está disponible para la campaña.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Resumen de campañas enviadas">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--campaign-index" aria-label="Resumen de campañas enviadas">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 600px; margin: 0 auto 12px;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/campaigns/campaigns-overview/campaign-index-list-es-mobile.png" width="660" height="780" />
         <img class="ht-editorial-visual__image" src="/images/campaigns/campaigns-overview/campaign-index-list-es.png" width="1200" height="730" loading="lazy" decoding="async" alt="Dos campañas ficticias en la pestaña Enviadas, con su estado de entrega." />
       </picture>
+    </div>
+    <div class="ht-editorial-visual__image-frame ht-editorial-visual__image-frame--mobile-only" style="max-width: 365px; margin: 0 auto 12px;">
+      <img class="ht-editorial-visual__image" src="/images/campaigns/campaigns-overview/campaign-index-delivery-es-mobile.png" width="730" height="780" loading="lazy" decoding="async" alt="Mensajes entregados y conversión de las mismas dos campañas ficticias en la tabla móvil." />
     </div>
     <div class="ht-editorial-visual__image-frame" style="max-width: 570px; margin: 0 auto;">
       <picture>
@@ -65,7 +68,7 @@ En **Enviadas**, la tabla resume por campaña los mensajes entregados, la conver
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Dos recortes de las mismas filas de una cuenta ficticia. En móvil, la tabla se desplaza horizontalmente y el segundo recorte muestra sus columnas del extremo derecho.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Recortes de las mismas filas de una cuenta ficticia. En móvil, la tabla se desplaza horizontalmente: los tres recortes muestran nombres, entrega y conversión, y luego ROI e ingresos atribuidos.</figcaption>
 </figure>
 
 ## Prepara lo esencial
