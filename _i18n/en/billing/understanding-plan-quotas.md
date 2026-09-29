@@ -6,32 +6,32 @@ Use the Billing **Usage summary** to understand what happened in a billing perio
 2. Find the card for your current plan.
 3. In **Usage summary**, select the billing period you want to review.
 
-The first card shows the active plan, the monthly amount calculated so far, and **Change My Plan**. In the image, the plan minimum is the highest amount for a fictional account with no attributed sales or billable messages.
+The first card shows the active plan, the monthly amount calculated so far, and **Change My Plan**. In the fictional account, Grow remains the highest amount even though attributed sales and messages have been recorded.
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Active plan and monthly amount">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 800px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/billing/understanding-plan-quotas/plan-en-mobile.png" width="740" height="528" />
-        <img class="ht-editorial-visual__image" src="/images/billing/understanding-plan-quotas/plan-en.png" width="1464" height="464" loading="lazy" decoding="async" alt="Fictional Grow plan card with a $299 monthly amount and the Change My Plan control." />
+        <source media="(max-width: 600px)" srcset="/images/billing/understanding-plan-quotas/plan-en-mobile.png" width="920" height="528" />
+        <img class="ht-editorial-visual__image" src="/images/billing/understanding-plan-quotas/plan-en.png" width="1464" height="504" loading="lazy" decoding="async" alt="Fictional Grow plan card with $299, a usage bar for plan, attribution, SMS, and other messages, and the Change My Plan control." />
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">The isolated account has no attributed sales or billable messages; the illustrated amount comes from the plan.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">In this fictional account, the $299 plan amount exceeds the other calculated amounts. The bar identifies the four categories being compared.</figcaption>
 </figure>
 
-The second card separates attributed sales from their fee and shows SMS and other message counts and costs. Use its period selector to choose an available month. These rows are zero in the demonstration account; the image helps identify the fields and does not represent a business with usage.
+The second card separates attributed sales from their fee and shows SMS and other message counts and costs. Use its period selector to choose an available month. The figures are fictional: $8,400 in attributed sales produces a $252 fee at 3%; 80 SMS messages with 88 segments cost $12, and 1,250 messages on other channels produce $2 under the illustrated bucket.
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Usage summary and period selector">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 800px; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/billing/understanding-plan-quotas/usage-en-mobile.png" width="740" height="954" />
-        <img class="ht-editorial-visual__image" src="/images/billing/understanding-plan-quotas/usage-en.png" width="1464" height="922" loading="lazy" decoding="async" alt="Fictional Usage summary with a September 2026 selector and no attributed sales, SMS, or other message usage." />
+        <img class="ht-editorial-visual__image" src="/images/billing/understanding-plan-quotas/usage-en.png" width="1464" height="922" loading="lazy" decoding="async" alt="Fictional September 2026 Usage summary: $8,400 in attributed sales, a $252 fee, 80 SMS messages costing $12, and 1,250 other messages costing $2." />
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">The fictional account has no transactions. The selector only offers periods available to that business.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Amounts and counts come from fictional records in the isolated account. The selector only offers periods available to that business.</figcaption>
 </figure>
 
 ## Read the comparison
