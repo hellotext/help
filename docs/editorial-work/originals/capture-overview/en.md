@@ -2,19 +2,7 @@ Capture playbooks help people subscribe to your business or share useful custome
 
 Hellotext presents these options as playbooks, but they do not all work in the same way. Some open SMS or WhatsApp with a pre-filled opt-in message. Others collect information on your website or during checkout. Webchat creates an on-site conversation entry point, while Subscriber Booster and Property Collector use AI inside a conversation.
 
-To find capture playbooks in Hellotext, open **Playbooks**, click **Explore playbooks**, and go to the **Capture** group.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Capture catalog group with Webchat Widget and WhatsApp Widget cards.">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/capture-overview/entry-en-mobile.png" width="760" height="860" />
-        <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/entry-en.png" width="1780" height="600" loading="lazy" decoding="async" alt="Capture catalog group with Webchat Widget and WhatsApp Widget cards." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Capture group and conversation widget cards in a fictional account.</figcaption>
-</figure>
+To find capture playbooks in Hellotext, open **Playbooks**, click **Explore playbooks**, and go to the **Captures** group.
 
 ## Choose a capture tool
 
@@ -26,43 +14,17 @@ Use **Website Popup** when you want to collect phone numbers, email addresses, o
 
 Use **Forms** when you want to collect contact details or custom profile properties directly on your website.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="QR Code Subscriber, Website Popup, Website Form, and Shareable Link cards.">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/capture-overview/site-en-mobile.png" width="760" height="1568" />
-        <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/site-en.png" width="1780" height="1030" loading="lazy" decoding="async" alt="QR Code Subscriber, Website Popup, Website Form, and Shareable Link cards." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">QR code, popup, form, and shareable link choices in a fictional account.</figcaption>
-</figure>
-
 Use **Webchat Widget** when you want visitors to start a conversation from your site before they buy, ask for support, or continue through WhatsApp.
-
-Use **WhatsApp Widget** when you want a floating button that opens WhatsApp from your site. It is a different entry point from Webchat.
 
 Use **Subscriber Booster** when AI should introduce a consent-based subscription at a relevant point in a Webchat or customer-initiated WhatsApp conversation.
 
 Use **Property Collector** when you want AI to collect missing customer profile properties directly or before another playbook continues.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Subscriber Booster and Property Collector cards.">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/capture-overview/ai-en-mobile.png" width="760" height="770" />
-        <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/ai-en.png" width="1780" height="520" loading="lazy" decoding="async" alt="Subscriber Booster and Property Collector cards." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">AI-assisted capture choices in a fictional account.</figcaption>
-</figure>
-
 Use **Shopify checkout opt-in** or **Wix checkout opt-in** when you want customers to subscribe while they complete a purchase.
 
 ## Before you create a capture
 
-Decide which channel customers should subscribe to: SMS, WhatsApp, or email, depending on the capture tool.
+Decide which channel customers should subscribe to, usually SMS or WhatsApp.
 
 Confirm that the channel is connected and ready to receive opt-ins.
 
