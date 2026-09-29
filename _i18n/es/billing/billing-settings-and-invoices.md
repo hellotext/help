@@ -2,7 +2,7 @@ Abre **Configuración → Facturación** para administrar la información de fac
 
 ## Plan actual y consumos
 
-Las primeras tarjetas muestran el plan activo y el resumen de consumos. Usa **Cambiar plan** para revisar otros planes y selecciona un período en el resumen para consultar la actividad facturable.
+Las primeras tarjetas muestran el plan activo y el resumen de consumos. Usa **Cambiar mi Plan** para revisar otros planes y selecciona un período en el resumen para consultar la actividad facturable.
 
 Consulta [Uso del plan y cargos mensuales]({% link _billing/understanding-plan-quotas.md %}) para interpretar la comparación.
 
