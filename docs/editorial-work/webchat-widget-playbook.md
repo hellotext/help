@@ -39,6 +39,12 @@ Guarded postflight restored locale ES and the original fictional business label 
 
 Production `yarn build` with Ruby 3.3.6 and the security-header verifier passed. All 24 source/asset/built PNG hashes match, both locales have seven figures, original links and identity metadata are unchanged, and docs/provenance remains excluded from `_site`. Complete ES/EN pages were inspected at 1440 and 390 CSS pixels, including figures and ending; the responsive boundary was also measured at 590 pixels. There is no horizontal overflow or linked screenshot. Images render at 382–526 CSS pixels on desktop and 316 or less at 390 pixels. At 590 pixels, each selected narrower source stays exactly at or below its native logical width (333–394 pixels). The white frames fit the selected sources within the full-column lavender stage.
 
-Public verification is pending; local checks do not imply publication.
+Public verification of the integrated content is recorded below.
 
 Local content verifier: `aad737def4620ea46ef231c8f18f990465a90397`. The separate ledger commit preserves this verified content commit as its ancestor.
+
+## Public verification (2026-09-29)
+
+Help PR [#245](https://github.com/hellotext/help/pull/245) merged by commit `0410c6e779236bf87b0dd836353b19f1f2eddc6c`, preserving content `aad737def4620ea46ef231c8f18f990465a90397` and ledger verifier `f64a260ae791e39c5fec2f3f369c21c5f14ec1b1` as ancestors. Build, Aikido, Netlify preview and header checks passed. The review's proposed synthetic squash reference was disproved by GitHub's actual PR commit parents and successful local ancestry; its thread was resolved. The final review completed without another finding. Main [Build 36645412496](https://github.com/hellotext/help/actions/runs/36645412496) passed for the exact merge SHA. No protection or check was bypassed. Attaching the PR reached the existing 100-identity limit.
+
+The public [ES page](https://help.hellotext.com/es/widget-webchat) and [EN page](https://help.hellotext.com/webchat-widget-playbook) returned HTTP 200 with seven static figures each and the corrected installation explanation. All 24 new PNGs and two reused catalog PNGs returned 200 and matched approved SHA-256 hashes. No reused image was uploaded again. Exact URLs/hashes are saved in `captures/webchat-widget/public-verification.json`. No manual deploy was used. A production Netlify deploy ID to SHA association is not asserted because the authenticated production listing has not been accessible.
