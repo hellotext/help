@@ -19,6 +19,38 @@ Spanish text was corrected first, then adapted to English. No demo campaign, mes
 
 ## Capture readiness and exact resume point
 
+### Automatic isolated Chrome route, 2026-09-29
+
+The prior ScreenCaptureKit picker failure is superseded by a verified capture
+route that needs no macOS window or repeated editor selection. A dedicated
+headless Chrome profile was opened against the isolated Rails clone with
+`--force-color-profile=display-p3-d65` and device scale factor 2. The guarded
+`script/capture_isolated_chrome.mjs` checks only that profile's localhost CDP
+port and one local tab, and validates the fake account, exact page title/URL,
+locale, visible selector, viewport and zoom both before and after each shot.
+It rejects JPEG, absent P3 ICC and output below 2×. The ES and EN selector
+figures were captured directly from the compositor at 1600×1360 pixels for an
+800×680 CSS crop. Focused 1020×780 source variants from a 510×390 CSS crop
+keep the complete selector and its labels readable in the mobile Help column.
+All four originals, published copies and hashes are recorded in
+`captures/personalization-tags/capture-provenance.json`. The temporary login
+credential is not stored in this repository. Both images show the complete
+real tag menu, the braces control and a fictitious custom property; no action
+sent the unsaved message. A separate fallback/preview screenshot would not
+demonstrate a resolved customer value in this campaign draft without a chosen
+recipient, so the fallback behavior remains a checked text example rather
+than a misleading duplicate figure. The contextual-token section likewise
+has no single UI state that proves availability across workflows.
+
+Both complete rendered articles were checked after insertion at 1280×900 and
+390×844 CSS pixels: no horizontal overflow, correct language, centered
+full-width lavender stage, desktop and focused mobile source selected as
+intended, and no clipped controls. All four published copies are byte-identical
+to their retained originals and to the local production build. `yarn build`,
+the security-header check and `git diff --check` passed. The older native-picker
+notes below remain as the failure history, not an instruction to retry it.
+Public deployment, final URL and public PNG checks remain pending.
+
 The previously selected fictitious Chrome window ID `33329` / PID `18093` expired: an exact-ID check did not find it. A fresh native `CGPreflightScreenCaptureAccess` check returned false. Do not reuse that ID, enumerate other windows or substitute browser screenshots as native sources.
 
 On 2026-09-28, a new Chrome demo tab `437089151` was opened directly at `http://127.0.0.1:3191/hellotext/audience`. It was already signed in as the fictional `design-system@example.test` account in Enterprise. A read-only database check confirmed `hellotext_editorial_workload_20260928` and zero messageable contacts in business 5. The Campaigns UI had no drafts, so the normal wizard created only the new draft `95DJOZvb` (database row 16: `state=pending`, `status=draft`) and opened `/hellotext/campaigns/95DJOZvb/broadcasts/compose`. Its editor contains only the unsent `Hola ` sample; the native tag popover is open and visibly offers profile tags plus the fictional `Nivel de fidelidad` custom property. No send, test message, schedule, or final action was invoked. The clone still has zero messageable contacts. The exact tab was marked for handoff; verify it again before use.
@@ -29,4 +61,6 @@ A one-window native picker helper was compiled from the existing Workload captur
 
 The complete ES/EN article text, headings, related links and footers were reviewed in the locally built site at 1280 CSS px desktop and 390 CSS px mobile. The contextual-token and fallback corrections appeared in both languages without page overflow. Long code examples were split across lines or reduced to the tag after a mobile screenshot showed the original property sentence clipped; the final English and Spanish fallback examples and the English property token were visually checked at mobile width. `yarn build` and the security-header check passed, and `git diff --check` passed. These checks verify text/layout only, not the missing interface figures.
 
-Pending: native ES/EN figures and provenance, complete post-insertion article review at desktop/mobile widths, final verifier commit, PR checks and review, merge commit, normal Netlify deployment, and public page/PNG checks. Keep the row `visual_pending`; do not mark `local_verified` while useful figures are missing.
+The previous pending list above is superseded by the automatic source captures
+and local checks. Pending: final verifier commit, PR checks and review, merge
+commit, normal Netlify deployment, and public page/PNG checks.

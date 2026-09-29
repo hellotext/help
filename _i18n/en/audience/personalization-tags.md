@@ -8,6 +8,18 @@ The message editor appears in campaigns, journeys, playbooks, Inbox, and other p
 
 Open the selector to see the profile tags and custom properties offered by that editor. This is more reliable than typing them from memory because the options can depend on your business properties. Contextual tags for products, carts, or other objects depend on the workflow and do not necessarily appear in that selector.
 
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Message editor tag selector">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 800px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/audience/personalization-tags/selector-en-mobile.png" width="1020" height="780" />
+        <img class="ht-editorial-visual__image" src="/images/audience/personalization-tags/selector-en.png" width="1600" height="1360" loading="lazy" decoding="async" alt="Message editor with the braces button and Tags selector open; it shows name, email, and a fictional custom property named Nivel de fidelidad." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real English interface in an isolated account with fictional data; the draft was not sent. Custom property names retain the language configured by the business.</figcaption>
+</figure>
+
 ## Insert a tag
 
 1. Place the cursor where the personalized value should appear.

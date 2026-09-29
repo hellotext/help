@@ -1,0 +1,69 @@
+{
+  "article_key": "audience/personalization-tags.md",
+  "capture_date_utc": "2026-09-29",
+  "status": "local_assets_verified_publication_pending",
+  "route": "isolated headless Chrome compositor through Page.captureScreenshot",
+  "chrome_profile": "dedicated temporary profile; no personal browser tabs",
+  "chrome_flags": [
+    "--headless=new",
+    "--force-color-profile=display-p3-d65",
+    "--force-device-scale-factor=2"
+  ],
+  "guard": "script/capture_isolated_chrome.mjs verifies the local Chrome process owns its dedicated profile, exactly one local page, exact URL/title/locale, fictional account in the DOM, visible Tags control, CSS viewport, zoom and DPR before and after capture; it rejects non-PNG, non-P3 and under-2x output",
+  "source_url": "http://127.0.0.1:3191/hellotext/campaigns/95DJOZvb/broadcasts/compose",
+  "source_state": "Unsent fictitious campaign draft 95DJOZvb with the profile tag selector open; no save, test message, schedule or send action",
+  "database": "hellotext_editorial_workload_20260928 clone, Enterprise business 5, zero deliverable contacts at preflight",
+  "account": "editorial_workload_20260928_low_a@example.test",
+  "css_viewport": [1200, 1000],
+  "browser_zoom": 1,
+  "device_pixel_ratio": 2,
+  "desktop_clip_css": [0, 100, 800, 680],
+  "desktop_output_pixels": [1600, 1360],
+  "mobile_asset_clip_css": [20, 390, 510, 390],
+  "mobile_asset_output_pixels": [1020, 780],
+  "format": "PNG",
+  "icc_profile": "Display P3 Gamut with sRGB Transfer; verified with sips",
+  "pointer": "absent",
+  "debug_overlay": "outside captured rectangle",
+  "transformations": "direct compositor clip only; no resampling, generated pixels or chart edits",
+  "records": [
+    {
+      "locale": "es",
+      "title": "Redacta tu mensaje - Hellotext",
+      "original": "docs/editorial-work/captures/personalization-tags/selector-es-original.png",
+      "asset": "images/audience/personalization-tags/selector-es.png",
+      "sha256": "4d6643bf45c2f0dfd93a6ccc5b29768837a5afb3096b49507e0bca8ebac8f5b7"
+    },
+    {
+      "locale": "en",
+      "title": "Compose your message - Hellotext",
+      "original": "docs/editorial-work/captures/personalization-tags/selector-en-original.png",
+      "asset": "images/audience/personalization-tags/selector-en.png",
+      "sha256": "093890c7b90d3b942c1bf755a14dc0fc55be0a95668b687cf93bbfbfc6aad89b"
+    },
+    {
+      "locale": "es",
+      "title": "Redacta tu mensaje - Hellotext",
+      "role": "focused mobile article variant from the same desktop UI state",
+      "original": "docs/editorial-work/captures/personalization-tags/selector-es-mobile-original.png",
+      "asset": "images/audience/personalization-tags/selector-es-mobile.png",
+      "sha256": "0e088a7435f7ffcd2a858a90d6aefb863eb0ba1d58692834f746724a10bedb35"
+    },
+    {
+      "locale": "en",
+      "title": "Compose your message - Hellotext",
+      "role": "focused mobile article variant from the same desktop UI state",
+      "original": "docs/editorial-work/captures/personalization-tags/selector-en-mobile-original.png",
+      "asset": "images/audience/personalization-tags/selector-en-mobile.png",
+      "sha256": "755d3c948f40c17a3f50d59e7477afafaaf5f859718308290e6dce4fd9ce92d3"
+    }
+  ],
+  "verification": {
+    "density": "passed",
+    "icc": "passed",
+    "pixel_review": "passed at source and final display sizes; selector, toolbar and all labels complete, no pointer, debug overlay or clipped control",
+    "desktop_article": "passed in full ES/EN production build at 1280×900 CSS, no overflow; source retained at 2.6x actual display width",
+    "mobile_article": "passed in full ES/EN production build at 390×844 CSS with focused picture source, no overflow; source retained at 3.2x actual display width",
+    "served_asset": "local production build byte-identical; public deployment pending"
+  }
+}

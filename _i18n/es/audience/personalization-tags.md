@@ -8,6 +8,18 @@ El editor de mensajes aparece en campañas, rutas, misiones, Inbox y otras parte
 
 Abre el selector para ver las etiquetas de perfil y propiedades personalizadas que ofrece ese editor. Es más confiable que escribirlas de memoria porque las opciones pueden depender de las propiedades de tu negocio. Las etiquetas contextuales de productos, carritos u otros objetos dependen del flujo y no necesariamente aparecen en ese selector.
 
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Selector de etiquetas del editor de mensajes">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 800px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/audience/personalization-tags/selector-es-mobile.png" width="1020" height="780" />
+        <img class="ht-editorial-visual__image" src="/images/audience/personalization-tags/selector-es.png" width="1600" height="1360" loading="lazy" decoding="async" alt="Editor de mensajes con el botón de llaves y el selector Etiquetas abierto; muestra name, email y la propiedad ficticia Nivel de fidelidad." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real en español de una cuenta aislada con datos ficticios; el borrador no se envió.</figcaption>
+</figure>
+
 ## Inserta una etiqueta
 
 1. Coloca el cursor donde debe aparecer el valor personalizado.
