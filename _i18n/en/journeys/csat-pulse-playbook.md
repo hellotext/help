@@ -1,6 +1,6 @@
 Use this guide when you want Hellotext to ask customers whether they were satisfied after a support, Inbox, AI, or playbook conversation is resolved.
 
-CSAT Pulse is a post-interaction feedback playbook. It sends a lightweight satisfaction prompt after a conversation is closed, records the response for CSAT reporting, and can create a recovery path when the customer gives negative feedback.
+CSAT Pulse is a post-interaction feedback playbook. It sends a lightweight satisfaction prompt after a conversation is closed, records the response for Customer Satisfaction in Service Quality, and can route negative feedback to a teammate when an escalation is configured.
 
 It is not a product review request and it is not a brand-loyalty survey. Use [Review Builder]({% link _journeys/review-builder-playbook.md %}) for product reviews after delivery, and use [NPS Pulse]({% link _journeys/nps-pulse-playbook.md %}) when the goal is loyalty or likelihood to recommend.
 
@@ -15,9 +15,8 @@ It can:
 - Record positive and negative satisfaction responses.
 - Avoid asking twice for the same conversation.
 - Respect channel, consent, and send-eligibility rules.
-- Create a recovery path when the customer responds negatively.
-- Assign or route negative feedback to the right teammate or team.
-- Feed CSAT reports by channel, time range, resolution path, agent, intent, or playbook when that context is available.
+- Send a follow-up after a response and route negative feedback when an escalation is configured.
+- Contribute answered responses to the AI Agents CSAT and Teammates CSAT percentages in Service Quality.
 
 The goal is to learn whether the interaction worked and recover quickly when it did not.
 
@@ -27,8 +26,8 @@ Use CSAT Pulse when:
 
 - Your team closes support or sales conversations in the Inbox.
 - AI agents or playbooks resolve conversations and you want satisfaction feedback.
-- You want to compare AI-only, human-only, and escalated conversation outcomes.
-- You want negative feedback to create a follow-up path instead of disappearing into a report.
+- You want to compare aggregate satisfaction for AI agents and teammates.
+- You can arrange a teammate to follow up on negative feedback when escalation is configured.
 - You have enough conversation volume to learn from the results.
 
 It works best after an actual resolution event. If the customer never had a meaningful interaction, do not send a CSAT prompt.
@@ -56,7 +55,7 @@ Before enabling CSAT Pulse, confirm:
 - The channels where you want to ask for CSAT are connected and eligible.
 - Customer profiles have consent for the channel.
 - Your team knows who reviews and follows up on negative feedback.
-- Your team knows where CSAT results will be reviewed.
+- Your team knows where to review Customer Satisfaction in Service Quality and how to follow up in customer conversations.
 
 For setup validation, use [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %}).
 
@@ -98,34 +97,17 @@ If a CSAT prompt is skipped because of eligibility, do not treat that as a faile
 
 When the customer responds positively, CSAT Pulse records the response.
 
-When the customer responds negatively, CSAT Pulse should create a recovery path.
-
-Negative feedback can:
-
-- Reopen the conversation or send it to the Inbox for follow-up.
-- Create a recovery item for the team.
-- Keep the feedback connected to the original conversation.
+When the customer responds negatively, CSAT Pulse records the response and sends a follow-up. The response and any selected reason remain connected to the original conversation. If an escalation component is configured, it also assigns the conversation for teammate or team follow-up.
 
 For handoff behavior, use [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %}).
 
-## Review CSAT reports
+## Review Customer Satisfaction
 
-CSAT reporting helps you understand satisfaction after resolved conversations.
+In **Service Quality**, **Customer Satisfaction** shows two aggregate percentages for the selected period: **AI Agents CSAT** and **Teammates CSAT**. The teammate percentage combines conversations handled by a person from the beginning with conversations escalated from AI to a person. The period uses the date the customer answered.
 
-Review:
+Each percentage is positive responses divided by positive plus negative responses. When both periods have data, the panel compares the selected period with the previous period.
 
-- CSAT percentage.
-- Response rate.
-- Positive and negative response counts.
-- Channel breakdown.
-- AI-only, human-only, and escalated resolution paths.
-- Agent or team breakdown when available.
-- Intent or playbook breakdown when available.
-- Negative feedback reasons.
-- Time range trends.
-- Conversation links for follow-up.
-
-For the thumbs response, CSAT percentage is positive responses divided by positive plus negative responses.
+There is no dedicated CSAT Pulse results report in **Playbooks**. The Service Quality panel does not show response rate, response counts, separate human-only and escalated percentages, or breakdowns by channel, agent, team, intent, or playbook. Review individual customer conversations for negative reasons and follow-up context. See [Service Quality report]({% link _analytics-reporting-attribution/service-quality-report-guide.md %}) for the report layout.
 
 ## How to test it
 
@@ -136,26 +118,22 @@ Try:
 - A conversation that is resolved and should receive CSAT.
 - A conversation that is too short and should not receive CSAT.
 - A positive response.
-- A negative response that should create a recovery path.
+- A negative response with an escalation configured for follow-up.
 - A channel that is outside its send window.
 - A conversation resolved by AI only.
 - A conversation resolved by a person.
 - A conversation that was escalated from AI to a person.
 
-Confirm that the prompt is sent only when expected, responses are recorded correctly, negative feedback reaches the right owner, and reporting reflects the test cases.
+Confirm that the prompt is sent only when expected, responses are recorded correctly, configured escalation reaches the right owner, and the Service Quality percentages reflect answered test cases in the selected period.
 
 ## What to review after launch
 
 During the first days, review:
 
-- How many resolved conversations were eligible.
-- How many prompts were sent, skipped, delivered, and answered.
-- CSAT percentage and response rate.
-- Negative feedback reasons.
-- Recovery follow-up and response speed.
-- Differences between AI-only, human-only, and escalated conversations.
-- Differences by channel, team, agent, intent, or playbook.
-- Any signs that prompts are being sent at the wrong moment.
+- AI Agents CSAT and Teammates CSAT in Service Quality for the selected period.
+- Examples of prompts and answers in customer conversations, including negative reasons.
+- Whether configured escalation brought negative feedback to the right teammate.
+- Any signs in the conversations you review that prompts are being sent at the wrong moment.
 
 Tune one thing at a time: message copy, resolution process, channel readiness, or negative-feedback ownership.
 

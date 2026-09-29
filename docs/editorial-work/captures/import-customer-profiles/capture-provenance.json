@@ -1,0 +1,952 @@
+{
+  "article_key": "audience/import-customer-profiles.md",
+  "capture_date_utc": "2026-09-28",
+  "status": "native sources, bilingual article build and responsive review, and public ES/EN deployment verified",
+  "capture_route": "macOS /usr/sbin/screencapture -l restricted to one previously authorized Chrome window ID; one persistent pinned-window helper process captured all accepted states without a per-image picker",
+  "capture_helper": "docs/editorial-work/captures/import-customer-profiles/pinned-window-capture.swift",
+  "selected_window": {
+    "id": 33329,
+    "owner_pid": 18093,
+    "bundle_id": "com.google.Chrome",
+    "bounds_points": [
+      -1253,
+      88,
+      1253,
+      897
+    ],
+    "title": "exact localized page title checked for each capture; titles defined by shot key in helper",
+    "metadata_scope": "selected ID only; no other Chrome windows or tabs enumerated"
+  },
+  "controlled_tab": {
+    "origin": "http://127.0.0.1:3191",
+    "signed_in_fictional_account": "design-system@example.test",
+    "business": "Enterprise, business 5",
+    "verification": "Exact route and fictional account checked on the bound browser tab before and after capture; native visible-control OCR and pinned ID/PID/title/bounds checked per shot"
+  },
+  "viewport": {
+    "browser_inner_css_px": [
+      1253,
+      841
+    ],
+    "visual_viewport_scale": 1,
+    "device_pixel_ratio": 2,
+    "window_bounds_points": [
+      1253,
+      897
+    ],
+    "native_full_window_pixels": [
+      2506,
+      1794
+    ],
+    "browser_zoom_percent": null,
+    "device_emulation": "none for the original 14 desktop-state sources; separate responsive mapping sources used a 390 × 841 CSS viewport override"
+  },
+  "source_fixture": {
+    "database": "hellotext_editorial_workload_20260928 isolated clone",
+    "business_id": 5,
+    "contacts_before_draft": 127,
+    "messageable_contacts": 0,
+    "channel_status": "inactive",
+    "file": "docs/editorial-work/captures/import-customer-profiles/import-demo.csv",
+    "file_rows": 3,
+    "identifiers": "invented names and .test email addresses only",
+    "draft_import": "e9Z2LN51, pending, zero processed import customers",
+    "mapping": "email, first_name, last_name, company and birthday; YYYY-MM-DD date format",
+    "consent": "No selected; newly imported profiles not subscribed",
+    "list": "empty fictitious Clientes de ejemplo · Importación",
+    "overwrite_existing_properties": false,
+    "final_import_started": false,
+    "messages_or_campaigns_sent": false
+  },
+  "route_and_pixel_proof": {
+    "native_url_ocr": "unavailable: the selected Chrome native window omitted its URL toolbar, so no native-pixel URL claim is made",
+    "corroboration": "Exact URL and account from the bound CUA tab before/after each native shot; pinned Chrome ID, PID, localized title, unchanged bounds and visible-control OCR from native capture",
+    "source_retention": "20 unaltered full native originals (14 original-layout states and 6 responsive mapping/consent/lists states) kept in docs/editorial-work/captures/import-customer-profiles/native",
+    "crop_verification": "Each of 22 article crops compared pixel-for-pixel to the stated rectangle of its native original; AE=0",
+    "native_icc": "Display P3 embedded profile checked in each original and crop with sips"
+  },
+  "assets": [
+    {
+      "kind": "audience-add",
+      "locale": "en",
+      "source_route": "http://127.0.0.1:3191/hellotext/audience",
+      "native_original": "docs/editorial-work/captures/import-customer-profiles/native/audience-add-en-native.png",
+      "original_sha256": "d260266427052190efaad49a54a59a5cb77f600b0493f2dfb28f90e9f9182e58",
+      "original_pixels": [
+        2506,
+        1794
+      ],
+      "original_format": "PNG",
+      "original_icc_profile": "Display P3, checked by sips",
+      "article_derivatives": [
+        {
+          "article_asset": "images/audience/import-customer-profiles/import-audience-add-en-20260928-crop.png",
+          "sha256": "9ae112f1e8867eea208d4c98af339e42156dbd51642693e0fee5c6c39a499fcb",
+          "pixels": [
+            480,
+            630
+          ],
+          "crop_origin_source_px": [
+            1880,
+            1160
+          ],
+          "crop_size_source_px": [
+            480,
+            630
+          ],
+          "pixel_comparison_to_original_crop": "exact (ImageMagick AE=0)",
+          "intended_max_css_width_px": 240.0,
+          "source_pixels_per_max_css_px": 2.0,
+          "intended_control": "Import Customers in Audience add menu",
+          "icc_profile": "Display P3, checked by sips"
+        }
+      ]
+    },
+    {
+      "kind": "audience-add",
+      "locale": "es",
+      "source_route": "http://127.0.0.1:3191/hellotext/audience",
+      "native_original": "docs/editorial-work/captures/import-customer-profiles/native/audience-add-es-native.png",
+      "original_sha256": "189a7d2522471ec2bd63bec7b37d5b44f7b272360bf1d9e4cc208d7873e994ef",
+      "original_pixels": [
+        2506,
+        1794
+      ],
+      "original_format": "PNG",
+      "original_icc_profile": "Display P3, checked by sips",
+      "article_derivatives": [
+        {
+          "article_asset": "images/audience/import-customer-profiles/import-audience-add-es-20260928-crop.png",
+          "sha256": "cc0586460e77adb2fa1c40079835eab1ca1900a2d9e112902748bd22cea74c88",
+          "pixels": [
+            480,
+            630
+          ],
+          "crop_origin_source_px": [
+            1880,
+            1160
+          ],
+          "crop_size_source_px": [
+            480,
+            630
+          ],
+          "pixel_comparison_to_original_crop": "exact (ImageMagick AE=0)",
+          "intended_max_css_width_px": 240.0,
+          "source_pixels_per_max_css_px": 2.0,
+          "intended_control": "Importar Clientes in Audience add menu",
+          "icc_profile": "Display P3, checked by sips"
+        }
+      ]
+    },
+    {
+      "kind": "chooser",
+      "locale": "en",
+      "source_route": "http://127.0.0.1:3191/hellotext/audience/imports/new",
+      "native_original": "docs/editorial-work/captures/import-customer-profiles/native/chooser-en-native.png",
+      "original_sha256": "c5efdf8aaf2a05d979a141ca5041fe19e2e06952f3c47efb06e35c561401d3db",
+      "original_pixels": [
+        2506,
+        1794
+      ],
+      "original_format": "PNG",
+      "original_icc_profile": "Display P3, checked by sips",
+      "article_derivatives": [
+        {
+          "article_asset": "images/audience/import-customer-profiles/import-chooser-en-20260928-crop.png",
+          "sha256": "3ad16dedf30ed460b2f15ba24c5216753428f87f0aa607f894a78976bf75bd4b",
+          "pixels": [
+            2080,
+            1300
+          ],
+          "crop_origin_source_px": [
+            210,
+            350
+          ],
+          "crop_size_source_px": [
+            2080,
+            1300
+          ],
+          "pixel_comparison_to_original_crop": "exact (ImageMagick AE=0)",
+          "intended_max_css_width_px": 810,
+          "source_pixels_per_max_css_px": 2.57,
+          "intended_control": "Connect a service and Choose a file to upload",
+          "icc_profile": "Display P3, checked by sips"
+        },
+        {
+          "article_asset": "images/audience/import-customer-profiles/import-chooser-file-en-20260928-crop.png",
+          "sha256": "8ef86d27a9a6d9c7750636085e1904e76f5de94325781defd2e70303d1485ebc",
+          "pixels": [
+            945,
+            970
+          ],
+          "crop_origin_source_px": [
+            1340,
+            700
+          ],
+          "crop_size_source_px": [
+            945,
+            970
+          ],
+          "pixel_comparison_to_original_crop": "exact (ImageMagick AE=0)",
+          "intended_max_css_width_px": 390,
+          "source_pixels_per_max_css_px": 2.42,
+          "intended_control": "Focused file upload choice for narrow Help display",
+          "icc_profile": "Display P3, checked by sips"
+        }
+      ]
+    },
+    {
+      "kind": "chooser",
+      "locale": "es",
+      "source_route": "http://127.0.0.1:3191/hellotext/audience/imports/new",
+      "native_original": "docs/editorial-work/captures/import-customer-profiles/native/chooser-es-native.png",
+      "original_sha256": "60225431403b8884a911e055853b829d057c72a245fc52ff75663ce1a8fc16ff",
+      "original_pixels": [
+        2506,
+        1794
+      ],
+      "original_format": "PNG",
+      "original_icc_profile": "Display P3, checked by sips",
+      "article_derivatives": [
+        {
+          "article_asset": "images/audience/import-customer-profiles/import-chooser-es-20260928-crop.png",
+          "sha256": "67af99979511e61a8bd14a13b5e4342d072fa5adaaf666b56f9b9e7280f24558",
+          "pixels": [
+            2080,
+            1300
+          ],
+          "crop_origin_source_px": [
+            210,
+            350
+          ],
+          "crop_size_source_px": [
+            2080,
+            1300
+          ],
+          "pixel_comparison_to_original_crop": "exact (ImageMagick AE=0)",
+          "intended_max_css_width_px": 810,
+          "source_pixels_per_max_css_px": 2.57,
+          "intended_control": "Conectar un servicio and Elegir un archivo para subir",
+          "icc_profile": "Display P3, checked by sips"
+        },
+        {
+          "article_asset": "images/audience/import-customer-profiles/import-chooser-file-es-20260928-crop.png",
+          "sha256": "a497a053651e46b6cf6a0895c828bffa57e5cf2ae4d29a2ec55fedbdd2f69cfe",
+          "pixels": [
+            945,
+            1170
+          ],
+          "crop_origin_source_px": [
+            1340,
+            470
+          ],
+          "crop_size_source_px": [
+            945,
+            1170
+          ],
+          "pixel_comparison_to_original_crop": "exact (ImageMagick AE=0)",
+          "intended_max_css_width_px": 390,
+          "source_pixels_per_max_css_px": 2.42,
+          "intended_control": "Focused file upload choice for narrow Help display",
+          "icc_profile": "Display P3, checked by sips"
+        }
+      ]
+    },
+    {
+      "kind": "consent",
+      "locale": "en",
+      "source_route": "http://127.0.0.1:3191/hellotext/audience/imports/e9Z2LN51/consent",
+      "native_original": "docs/editorial-work/captures/import-customer-profiles/native/consent-en-native.png",
+      "original_sha256": "ac4f3c79d9c6c352264113ef7c2d7831737fad3b2dad71d09f4ffa040bdab1ab",
+      "original_pixels": [
+        2506,
+        1794
+      ],
+      "original_format": "PNG",
+      "original_icc_profile": "Display P3, checked by sips",
+      "article_derivatives": [
+        {
+          "article_asset": "images/audience/import-customer-profiles/import-consent-en-20260928-crop.png",
+          "sha256": "f9857f0417d21d45939407689348edbd13117a3624a84133741845c3a9a505fa",
+          "pixels": [
+            2065,
+            705
+          ],
+          "crop_origin_source_px": [
+            215,
+            385
+          ],
+          "crop_size_source_px": [
+            2065,
+            705
+          ],
+          "pixel_comparison_to_original_crop": "exact (ImageMagick AE=0)",
+          "intended_max_css_width_px": 810,
+          "source_pixels_per_max_css_px": 2.55,
+          "intended_control": "Marketing consent radio choices with No selected",
+          "icc_profile": "Display P3, checked by sips"
+        }
+      ]
+    },
+    {
+      "kind": "consent",
+      "locale": "es",
+      "source_route": "http://127.0.0.1:3191/hellotext/audience/imports/e9Z2LN51/consent",
+      "native_original": "docs/editorial-work/captures/import-customer-profiles/native/consent-es-native.png",
+      "original_sha256": "c8720879914858bd42ad5e81f90a990cf91d082a8a51ec6ab0f73a0982e4cad0",
+      "original_pixels": [
+        2506,
+        1794
+      ],
+      "original_format": "PNG",
+      "original_icc_profile": "Display P3, checked by sips",
+      "article_derivatives": [
+        {
+          "article_asset": "images/audience/import-customer-profiles/import-consent-es-20260928-crop.png",
+          "sha256": "c13aa819df5bcd86180a5f0f455c520fdc7cb06d5bcb397eabc16036f915f683",
+          "pixels": [
+            2065,
+            705
+          ],
+          "crop_origin_source_px": [
+            215,
+            385
+          ],
+          "crop_size_source_px": [
+            2065,
+            705
+          ],
+          "pixel_comparison_to_original_crop": "exact (ImageMagick AE=0)",
+          "intended_max_css_width_px": 810,
+          "source_pixels_per_max_css_px": 2.55,
+          "intended_control": "Marketing consent radio choices with No selected",
+          "icc_profile": "Display P3, checked by sips"
+        }
+      ]
+    },
+    {
+      "kind": "consent-mobile",
+      "locale": "en",
+      "captured_at_utc": "2026-09-28T22:39:47Z",
+      "source_route": "http://127.0.0.1:3191/hellotext/audience/imports/e9Z2LN51/consent",
+      "native_original": "docs/editorial-work/captures/import-customer-profiles/native/consent-mobile-en-native.png",
+      "original_sha256": "bca06f6a428c880cbebdb52ee538f70e4c903ff1d65322eab314e6484a8e697b",
+      "original_pixels": [
+        2506,
+        1794
+      ],
+      "original_format": "PNG",
+      "original_icc_profile": "Display P3, checked by sips and embedded iCCP chunk",
+      "viewport_css_px": [
+        390,
+        841
+      ],
+      "visual_viewport_scale": 1,
+      "javascript_device_pixel_ratio_under_override": 1,
+      "article_derivatives": [
+        {
+          "article_asset": "images/audience/import-customer-profiles/import-consent-mobile-en-20260928-crop.png",
+          "sha256": "c5185ed2ab0d9a8a2b198f4df9e14d10b1e64bac51ad911d3ef21713e9c86bda",
+          "pixels": [
+            780,
+            1200
+          ],
+          "crop_origin_source_px": [
+            0,
+            160
+          ],
+          "crop_size_source_px": [
+            780,
+            1200
+          ],
+          "pixel_comparison_to_original_crop": "exact (ImageMagick AE=0)",
+          "intended_max_css_width_px": 390,
+          "source_pixels_per_max_css_px": 2,
+          "intended_control": "Marketing consent question with No selected",
+          "icc_profile": "Display P3, checked by sips and embedded iCCP chunk",
+          "layout_note": "True 390 CSS px responsive application state; crop excludes debug banner, timing chip, pointer and sticky footer."
+        }
+      ]
+    },
+    {
+      "kind": "consent-mobile",
+      "locale": "es",
+      "captured_at_utc": "2026-09-28T22:35:55Z",
+      "source_route": "http://127.0.0.1:3191/hellotext/audience/imports/e9Z2LN51/consent",
+      "native_original": "docs/editorial-work/captures/import-customer-profiles/native/consent-mobile-es-native.png",
+      "original_sha256": "653f5b06dada082344e0e9052371b5439aef12c8bae9e239e2be6454bfed3c2b",
+      "original_pixels": [
+        2506,
+        1794
+      ],
+      "original_format": "PNG",
+      "original_icc_profile": "Display P3, checked by sips and embedded iCCP chunk",
+      "viewport_css_px": [
+        390,
+        841
+      ],
+      "visual_viewport_scale": 1,
+      "javascript_device_pixel_ratio_under_override": 1,
+      "article_derivatives": [
+        {
+          "article_asset": "images/audience/import-customer-profiles/import-consent-mobile-es-20260928-crop.png",
+          "sha256": "3b1bb1b4170ab98a325779593a4a12971d015e3e5908c912cff88b372451839f",
+          "pixels": [
+            780,
+            1200
+          ],
+          "crop_origin_source_px": [
+            0,
+            160
+          ],
+          "crop_size_source_px": [
+            780,
+            1200
+          ],
+          "pixel_comparison_to_original_crop": "exact (ImageMagick AE=0)",
+          "intended_max_css_width_px": 390,
+          "source_pixels_per_max_css_px": 2,
+          "intended_control": "Marketing consent question with No selected",
+          "icc_profile": "Display P3, checked by sips and embedded iCCP chunk",
+          "layout_note": "True 390 CSS px responsive application state; crop excludes debug banner, timing chip, pointer and sticky footer."
+        }
+      ]
+    },
+    {
+      "kind": "date-format",
+      "locale": "en",
+      "source_route": "http://127.0.0.1:3191/hellotext/audience/imports/e9Z2LN51/mapping",
+      "native_original": "docs/editorial-work/captures/import-customer-profiles/native/date-format-en-native.png",
+      "original_sha256": "78614e0ca8bd3376f0280a47e118a83fae6666391c9f365ed089427aad445be9",
+      "original_pixels": [
+        2506,
+        1794
+      ],
+      "original_format": "PNG",
+      "original_icc_profile": "Display P3, checked by sips",
+      "article_derivatives": [
+        {
+          "article_asset": "images/audience/import-customer-profiles/import-date-format-en-20260928-crop.png",
+          "sha256": "7438682ecddb0a0b7125124c4d753f4caec4eedb0e7933397c0e6967f5480a0e",
+          "pixels": [
+            850,
+            1175
+          ],
+          "crop_origin_source_px": [
+            1330,
+            440
+          ],
+          "crop_size_source_px": [
+            850,
+            1175
+          ],
+          "pixel_comparison_to_original_crop": "exact (ImageMagick AE=0)",
+          "intended_max_css_width_px": 425.0,
+          "source_pixels_per_max_css_px": 2.0,
+          "intended_control": "Birthday property and YYYY-MM-DD date format",
+          "icc_profile": "Display P3, checked by sips"
+        }
+      ]
+    },
+    {
+      "kind": "date-format",
+      "locale": "es",
+      "source_route": "http://127.0.0.1:3191/hellotext/audience/imports/e9Z2LN51/mapping",
+      "native_original": "docs/editorial-work/captures/import-customer-profiles/native/date-format-es-native.png",
+      "original_sha256": "394fd374f92b3bd24e881b9bb5fe2eb2f2ce0d5a7072d33370b3ed8fe922e67c",
+      "original_pixels": [
+        2506,
+        1794
+      ],
+      "original_format": "PNG",
+      "original_icc_profile": "Display P3, checked by sips",
+      "article_derivatives": [
+        {
+          "article_asset": "images/audience/import-customer-profiles/import-date-format-es-20260928-crop.png",
+          "sha256": "af9ffc7e696bc0f192447ad91b5a20633fa95b907d270df8620188c903d691a7",
+          "pixels": [
+            850,
+            1175
+          ],
+          "crop_origin_source_px": [
+            1330,
+            440
+          ],
+          "crop_size_source_px": [
+            850,
+            1175
+          ],
+          "pixel_comparison_to_original_crop": "exact (ImageMagick AE=0)",
+          "intended_max_css_width_px": 425.0,
+          "source_pixels_per_max_css_px": 2.0,
+          "intended_control": "Cumpleaños property and YYYY-MM-DD date format",
+          "icc_profile": "Display P3, checked by sips"
+        }
+      ]
+    },
+    {
+      "kind": "lists",
+      "locale": "en",
+      "source_route": "http://127.0.0.1:3191/hellotext/audience/imports/e9Z2LN51/lists",
+      "native_original": "docs/editorial-work/captures/import-customer-profiles/native/lists-en-native.png",
+      "original_sha256": "bc41606554fb7760ad0b4b75644194839933d0a491ff4ecdb8d76bd0a3dcade3",
+      "original_pixels": [
+        2506,
+        1794
+      ],
+      "original_format": "PNG",
+      "original_icc_profile": "Display P3, checked by sips",
+      "article_derivatives": [
+        {
+          "article_asset": "images/audience/import-customer-profiles/import-lists-en-20260928-crop.png",
+          "sha256": "48f209dada23f5da59a9601eb97ddcc28352969b89b3aa82d78db32af8b3e3df",
+          "pixels": [
+            1520,
+            640
+          ],
+          "crop_origin_source_px": [
+            210,
+            390
+          ],
+          "crop_size_source_px": [
+            1520,
+            640
+          ],
+          "pixel_comparison_to_original_crop": "exact (ImageMagick AE=0)",
+          "intended_max_css_width_px": 760.0,
+          "source_pixels_per_max_css_px": 2.0,
+          "intended_control": "Fictitious list selected and overwrite left unchecked",
+          "icc_profile": "Display P3, checked by sips"
+        }
+      ]
+    },
+    {
+      "kind": "lists",
+      "locale": "es",
+      "source_route": "http://127.0.0.1:3191/hellotext/audience/imports/e9Z2LN51/lists",
+      "native_original": "docs/editorial-work/captures/import-customer-profiles/native/lists-es-native.png",
+      "original_sha256": "ffff7e2336cfc419148488c0c0ca54e527147d5334bb6c52d95da9e6ede73fd6",
+      "original_pixels": [
+        2506,
+        1794
+      ],
+      "original_format": "PNG",
+      "original_icc_profile": "Display P3, checked by sips",
+      "article_derivatives": [
+        {
+          "article_asset": "images/audience/import-customer-profiles/import-lists-es-20260928-crop.png",
+          "sha256": "7f9b903144987d71285042d227e54a172d5e29203e9568224ae787c29f04404f",
+          "pixels": [
+            1520,
+            640
+          ],
+          "crop_origin_source_px": [
+            210,
+            390
+          ],
+          "crop_size_source_px": [
+            1520,
+            640
+          ],
+          "pixel_comparison_to_original_crop": "exact (ImageMagick AE=0)",
+          "intended_max_css_width_px": 760.0,
+          "source_pixels_per_max_css_px": 2.0,
+          "intended_control": "Fictitious list selected and overwrite left unchecked",
+          "icc_profile": "Display P3, checked by sips"
+        }
+      ]
+    },
+    {
+      "kind": "lists-mobile",
+      "locale": "en",
+      "captured_at_utc": "2026-09-28T22:41:09Z",
+      "source_route": "http://127.0.0.1:3191/hellotext/audience/imports/e9Z2LN51/lists",
+      "native_original": "docs/editorial-work/captures/import-customer-profiles/native/lists-mobile-en-native.png",
+      "original_sha256": "1870a90dbfa53956d20974db11a7b37e055771b149d6d5b7941f32f979ea70c3",
+      "original_pixels": [
+        2506,
+        1794
+      ],
+      "original_format": "PNG",
+      "original_icc_profile": "Display P3, checked by sips and embedded iCCP chunk",
+      "viewport_css_px": [
+        390,
+        841
+      ],
+      "visual_viewport_scale": 1,
+      "javascript_device_pixel_ratio_under_override": 1,
+      "article_derivatives": [
+        {
+          "article_asset": "images/audience/import-customer-profiles/import-lists-mobile-en-20260928-crop.png",
+          "sha256": "5cc74d41c18e9aa83fbf048deed04dbd35334022bee0362a2a09c7ea82bd5ba7",
+          "pixels": [
+            780,
+            850
+          ],
+          "crop_origin_source_px": [
+            0,
+            160
+          ],
+          "crop_size_source_px": [
+            780,
+            850
+          ],
+          "pixel_comparison_to_original_crop": "exact (ImageMagick AE=0)",
+          "intended_max_css_width_px": 390,
+          "source_pixels_per_max_css_px": 2,
+          "intended_control": "Fictitious list selected with overwrite unchecked",
+          "icc_profile": "Display P3, checked by sips and embedded iCCP chunk",
+          "layout_note": "True 390 CSS px responsive application state; crop excludes debug banner, timing chip, pointer and sticky footer."
+        }
+      ]
+    },
+    {
+      "kind": "lists-mobile",
+      "locale": "es",
+      "captured_at_utc": "2026-09-28T22:38:25Z",
+      "source_route": "http://127.0.0.1:3191/hellotext/audience/imports/e9Z2LN51/lists",
+      "native_original": "docs/editorial-work/captures/import-customer-profiles/native/lists-mobile-es-native.png",
+      "original_sha256": "06e9007cf734eac0dcb0d28748cdf8f336d678141e33ed903aa70ac52961a209",
+      "original_pixels": [
+        2506,
+        1794
+      ],
+      "original_format": "PNG",
+      "original_icc_profile": "Display P3, checked by sips and embedded iCCP chunk",
+      "viewport_css_px": [
+        390,
+        841
+      ],
+      "visual_viewport_scale": 1,
+      "javascript_device_pixel_ratio_under_override": 1,
+      "article_derivatives": [
+        {
+          "article_asset": "images/audience/import-customer-profiles/import-lists-mobile-es-20260928-crop.png",
+          "sha256": "db3c22397dfc6a91c2ea820b2e46fe862872dcffb2f19468cdf1b3629c9ede7d",
+          "pixels": [
+            780,
+            850
+          ],
+          "crop_origin_source_px": [
+            0,
+            160
+          ],
+          "crop_size_source_px": [
+            780,
+            850
+          ],
+          "pixel_comparison_to_original_crop": "exact (ImageMagick AE=0)",
+          "intended_max_css_width_px": 390,
+          "source_pixels_per_max_css_px": 2,
+          "intended_control": "Fictitious list selected with overwrite unchecked",
+          "icc_profile": "Display P3, checked by sips and embedded iCCP chunk",
+          "layout_note": "True 390 CSS px responsive application state; crop excludes debug banner, timing chip, pointer and sticky footer."
+        }
+      ]
+    },
+    {
+      "kind": "mapping",
+      "locale": "en",
+      "source_route": "http://127.0.0.1:3191/hellotext/audience/imports/e9Z2LN51/mapping",
+      "native_original": "docs/editorial-work/captures/import-customer-profiles/native/mapping-en-native.png",
+      "original_sha256": "58d51190916aebfd129053ca7534dff1b8bbb3fadc08a6325478737e060d4c63",
+      "original_pixels": [
+        2506,
+        1794
+      ],
+      "original_format": "PNG",
+      "original_icc_profile": "Display P3, checked by sips",
+      "article_derivatives": [
+        {
+          "article_asset": "images/audience/import-customer-profiles/import-mapping-en-20260928-crop.png",
+          "sha256": "a96fdb3f717a85d7d53842eef8fcfabf37a1b51301643f1f0b0f54f54747c1a2",
+          "pixels": [
+            2060,
+            1000
+          ],
+          "crop_origin_source_px": [
+            230,
+            360
+          ],
+          "crop_size_source_px": [
+            2060,
+            1000
+          ],
+          "pixel_comparison_to_original_crop": "exact (ImageMagick AE=0)",
+          "intended_max_css_width_px": 810,
+          "source_pixels_per_max_css_px": 2.54,
+          "intended_control": "Mapped CSV headers and sample values",
+          "icc_profile": "Display P3, checked by sips"
+        }
+      ]
+    },
+    {
+      "kind": "mapping",
+      "locale": "es",
+      "source_route": "http://127.0.0.1:3191/hellotext/audience/imports/e9Z2LN51/mapping",
+      "native_original": "docs/editorial-work/captures/import-customer-profiles/native/mapping-es-native.png",
+      "original_sha256": "87353660c0ca8e04eeee575c2fc782e7e82f76111dc695281d2ae1982160637a",
+      "original_pixels": [
+        2506,
+        1794
+      ],
+      "original_format": "PNG",
+      "original_icc_profile": "Display P3, checked by sips",
+      "article_derivatives": [
+        {
+          "article_asset": "images/audience/import-customer-profiles/import-mapping-es-20260928-crop.png",
+          "sha256": "59c73255a610fa3302872f932ea806a2f4792e9dcccb36f17ee2ce8dbf73fb38",
+          "pixels": [
+            2060,
+            1000
+          ],
+          "crop_origin_source_px": [
+            230,
+            360
+          ],
+          "crop_size_source_px": [
+            2060,
+            1000
+          ],
+          "pixel_comparison_to_original_crop": "exact (ImageMagick AE=0)",
+          "intended_max_css_width_px": 810,
+          "source_pixels_per_max_css_px": 2.54,
+          "intended_control": "Mapped CSV headers and sample values",
+          "icc_profile": "Display P3, checked by sips"
+        }
+      ]
+    },
+    {
+      "kind": "mapping-mobile",
+      "locale": "en",
+      "captured_at_utc": "2026-09-28T22:29:12Z",
+      "source_route": "http://127.0.0.1:3191/hellotext/audience/imports/e9Z2LN51/mapping",
+      "native_original": "docs/editorial-work/captures/import-customer-profiles/native/mapping-mobile-en-native.png",
+      "original_sha256": "2243a79ac852836d2f545f880c7e7adeafd762f4e5d26ccb0a4b957c5f01d239",
+      "original_pixels": [
+        2506,
+        1794
+      ],
+      "original_format": "PNG",
+      "original_icc_profile": "Display P3, checked by sips and embedded iCCP chunk",
+      "viewport_css_px": [
+        390,
+        841
+      ],
+      "visual_viewport_scale": 1,
+      "javascript_device_pixel_ratio_under_override": 1,
+      "article_derivatives": [
+        {
+          "article_asset": "images/audience/import-customer-profiles/import-mapping-mobile-en-20260928-crop.png",
+          "sha256": "ac1d967a48c6b6c46508c61a32389c445b79964db85d0d029d09180e1311a5cf",
+          "pixels": [
+            780,
+            1390
+          ],
+          "crop_origin_source_px": [
+            0,
+            160
+          ],
+          "crop_size_source_px": [
+            780,
+            1390
+          ],
+          "pixel_comparison_to_original_crop": "exact (ImageMagick AE=0)",
+          "intended_max_css_width_px": 390,
+          "source_pixels_per_max_css_px": 2,
+          "intended_control": "Two mapped rows and selectors in the real responsive importer layout",
+          "icc_profile": "Display P3, checked by sips and embedded iCCP chunk",
+          "layout_note": "True 390 CSS px responsive application state; crop excludes debug banner, timing chip, pointer and sticky footer."
+        }
+      ]
+    },
+    {
+      "kind": "mapping-mobile",
+      "locale": "es",
+      "captured_at_utc": "2026-09-28T22:27:07Z",
+      "source_route": "http://127.0.0.1:3191/hellotext/audience/imports/e9Z2LN51/mapping",
+      "native_original": "docs/editorial-work/captures/import-customer-profiles/native/mapping-mobile-es-native.png",
+      "original_sha256": "22e898f6fc9feff58aeef14a3a5cbc8496cc23cd2c3cca7d8423ee9cbf92552d",
+      "original_pixels": [
+        2506,
+        1794
+      ],
+      "original_format": "PNG",
+      "original_icc_profile": "Display P3, checked by sips and embedded iCCP chunk",
+      "viewport_css_px": [
+        390,
+        841
+      ],
+      "visual_viewport_scale": 1,
+      "javascript_device_pixel_ratio_under_override": 1,
+      "article_derivatives": [
+        {
+          "article_asset": "images/audience/import-customer-profiles/import-mapping-mobile-es-20260928-crop.png",
+          "sha256": "7ac530468c5fece6466a75704a620bcec85a85714ce4d37b0498cc47b385cc0c",
+          "pixels": [
+            780,
+            1390
+          ],
+          "crop_origin_source_px": [
+            0,
+            160
+          ],
+          "crop_size_source_px": [
+            780,
+            1390
+          ],
+          "pixel_comparison_to_original_crop": "exact (ImageMagick AE=0)",
+          "intended_max_css_width_px": 390,
+          "source_pixels_per_max_css_px": 2,
+          "intended_control": "Two mapped rows and selectors in the real responsive importer layout",
+          "icc_profile": "Display P3, checked by sips and embedded iCCP chunk",
+          "layout_note": "True 390 CSS px responsive application state; crop excludes debug banner, timing chip, pointer and sticky footer."
+        }
+      ]
+    },
+    {
+      "kind": "selected-file",
+      "locale": "en",
+      "source_route": "http://127.0.0.1:3191/hellotext/audience/imports/new",
+      "native_original": "docs/editorial-work/captures/import-customer-profiles/native/selected-file-en-native.png",
+      "original_sha256": "9d8943ed931ec12cecaaf36e339af4cb9d7ce2965be74a007cde7ac7da6d6163",
+      "original_pixels": [
+        2506,
+        1794
+      ],
+      "original_format": "PNG",
+      "original_icc_profile": "Display P3, checked by sips",
+      "article_derivatives": [
+        {
+          "article_asset": "images/audience/import-customer-profiles/import-selected-file-en-20260928-crop.png",
+          "sha256": "b393605d811287c2cad9ea90e56b773c0cff79fd600a826d6d3c8efac803b2a3",
+          "pixels": [
+            955,
+            1100
+          ],
+          "crop_origin_source_px": [
+            1335,
+            690
+          ],
+          "crop_size_source_px": [
+            955,
+            1100
+          ],
+          "pixel_comparison_to_original_crop": "exact (ImageMagick AE=0)",
+          "intended_max_css_width_px": 477.5,
+          "source_pixels_per_max_css_px": 2.0,
+          "intended_control": "Selected fictitious CSV and Continue to import",
+          "icc_profile": "Display P3, checked by sips"
+        }
+      ]
+    },
+    {
+      "kind": "selected-file",
+      "locale": "es",
+      "source_route": "http://127.0.0.1:3191/hellotext/audience/imports/new",
+      "native_original": "docs/editorial-work/captures/import-customer-profiles/native/selected-file-es-native.png",
+      "original_sha256": "8b42baed13fce38694201a9c25dac4e68df273d0a09554d65ff873f8173f497b",
+      "original_pixels": [
+        2506,
+        1794
+      ],
+      "original_format": "PNG",
+      "original_icc_profile": "Display P3, checked by sips",
+      "article_derivatives": [
+        {
+          "article_asset": "images/audience/import-customer-profiles/import-selected-file-es-20260928-crop.png",
+          "sha256": "990a84014a5cc06c643959273ef6875366455ea057fa44a300a958eca22e1da6",
+          "pixels": [
+            955,
+            1100
+          ],
+          "crop_origin_source_px": [
+            1335,
+            560
+          ],
+          "crop_size_source_px": [
+            955,
+            1100
+          ],
+          "pixel_comparison_to_original_crop": "exact (ImageMagick AE=0)",
+          "intended_max_css_width_px": 477.5,
+          "source_pixels_per_max_css_px": 2.0,
+          "intended_control": "Selected fictitious CSV and Continuar con la importación",
+          "icc_profile": "Display P3, checked by sips"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "native_format_profile_density": "verified locally",
+    "crop_pixels_and_offsets": "verified locally",
+    "desktop_article": "verified in full in ES and EN at 1440 CSS px; seven full-column lavender stages per locale with separate white frames and 1 px borders",
+    "mobile_article": "verified in full in ES and EN at 390 CSS px; four picture elements choose the focused mobile sources, every figure fits the Help column without horizontal overflow",
+    "intermediate_article": "verified in ES and EN at 500, 760 and 761 CSS px; the four focused 390 CSS px images stay centered through 760, then wide sources load from 761; no horizontal overflow",
+    "responsive_source_density": "picture width descriptors and sizes render focused sources at no more than 390 CSS px (780 source pixels for mapping, consent and lists; 945 for chooser); desktop images render below half source width",
+    "production_build": "local yarn build and security-header verification passed; both built locales contain all seven figures and 22 PNG assets were copied byte-for-byte to both output trees",
+    "public_pages_and_pngs": "Help merge 80c013f9f2246e1e0ba2aa36bd1d0379d7a2197c; normal Netlify production deploy 6abaf822efbc9100081920dd Published for the same SHA. ES and EN public pages returned HTTP 200 with seven figures and lazy loading; all 22 public PNGs returned HTTP 200 and matched their recorded SHA-256 hashes",
+    "responsive_mobile_mapping_native": "verified 390 CSS px viewport and 780 px content width; English and Spanish article rendering verified",
+    "responsive_mobile_consent_and_lists_native": "verified 390 CSS px viewport and 780 px content width; English and Spanish article rendering verified"
+  },
+  "limitations": [
+    "Chrome hid the URL in the selected window; route and account were corroborated through the exact bound browser tab rather than native URL OCR.",
+    "Browser zoom percent was not independently measured; recorded visual viewport scale and device pixel ratio do not prove browser zoom.",
+    "No completed-import result was captured because the final Save & Start import would queue contact processing.",
+    "Phone-country and money-currency mapping controls were not staged because the fictitious file contains no phone or money column; the article explains these in text.",
+    "Provider-specific integration setup differs by provider and is explained in text, while the method chooser is shown."
+  ],
+  "responsive_mobile_mapping_capture": {
+    "source_route": "http://127.0.0.1:3191/hellotext/audience/imports/e9Z2LN51/mapping",
+    "browser_viewport_css_px": [
+      390,
+      841
+    ],
+    "visual_viewport_scale": 1,
+    "javascript_device_pixel_ratio_under_override": 1,
+    "native_window_pixels": [
+      2506,
+      1794
+    ],
+    "native_window_bounds_points": [
+      1253,
+      897
+    ],
+    "native_content_width_px": 780,
+    "density_at_390_css_px": 2,
+    "selected_window_id": 33329,
+    "selected_chrome_pid": 18093,
+    "selected_bounds_points": [
+      -1253,
+      88,
+      1253,
+      897
+    ],
+    "locale_restored_after_capture": "Spanish; original viewport restored",
+    "layout_note": "Genuine responsive importer layout in a 390 CSS px browser viewport, saved by the same pinned native Chrome-window capture route; the browser override reports JS DPR 1 while the full native PNG still has 2 physical pixels per window point and the content spans 780 source pixels."
+  },
+  "responsive_mobile_consent_and_lists_capture": {
+    "browser_viewport_css_px": [
+      390,
+      841
+    ],
+    "visual_viewport_scale": 1,
+    "javascript_device_pixel_ratio_under_override": 1,
+    "native_window_pixels": [
+      2506,
+      1794
+    ],
+    "native_content_width_px": 780,
+    "density_at_390_css_px": 2,
+    "selected_window_id": 33329,
+    "selected_chrome_pid": 18093,
+    "selected_bounds_points": [
+      -1253,
+      88,
+      1253,
+      897
+    ],
+    "locale_restored_after_capture": "Spanish; original viewport restored",
+    "layout_note": "Actual responsive importer states in the 390 CSS px viewport. The crop shows full consent controls or list/overwrite controls without the native debug banner, timing chip, pointer, or sticky footer."
+  }
+}

@@ -6,13 +6,13 @@ Esta guía te ayuda a elegir la herramienta correcta antes de construir.
 
 ## El modelo básico
 
-La mayoría de los flujos de Hellotext siguen el mismo patrón:
+Estas herramientas pueden comenzar con una señal o con un envío planificado por tu equipo:
 
-1. Aparece una señal de cliente o del negocio.
-2. Hellotext revisa audiencia, consentimiento, elegibilidad de canal, timing y límites.
-3. Hellotext elige o ejecuta la siguiente acción.
-4. El cliente recibe un mensaje, entra en un flujo o llega a un miembro del equipo.
-5. Los reportes conectan respuestas, clicks, pedidos e ingresos con la acción.
+1. Aparece una señal del cliente o tu equipo prepara una campaña.
+2. Hellotext comprueba las condiciones que correspondan, como audiencia, consentimiento, elegibilidad del canal, horario y límites.
+3. Una misión puede decidir cómo actuar, una ruta sigue sus pasos o una campaña realiza el envío planificado.
+4. Según el resultado, el cliente puede recibir un mensaje o una persona puede atender la conversación.
+5. Los reportes muestran la actividad registrada; los ingresos sólo se vinculan con una acción cuando se cumplen las [reglas de atribución de ventas]({% link _analytics-reporting-attribution/sales-attribution.md %}).
 
 La diferencia entre misiones, campañas e Inbox es quién decide el siguiente paso y qué tan repetible debería ser el trabajo.
 
@@ -74,7 +74,7 @@ Misiones, campañas e Inbox no son silos separados.
 
 Ejemplos:
 
-- Una herramienta de captura suscribe a un cliente y después empieza una misión de bienvenida.
+- Un cliente se suscribe mediante una captura; si hay una ruta de bienvenida activa para esa señal y se cumplen sus condiciones, la ruta puede comenzar.
 - Una señal de carrito inicia una ruta, pero una respuesta del cliente envía la conversación al Inbox.
 - Una campaña anuncia un lanzamiento y las respuestas se vuelven conversaciones en el Inbox.
 - Un agente de IA responde una pregunta frecuente y luego deriva cuando el cliente pide ayuda humana.

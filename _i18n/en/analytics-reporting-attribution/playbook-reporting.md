@@ -12,9 +12,9 @@ Use the [Performance report guide]({% link _analytics-reporting-attribution/perf
 
 Use the **Inbox** and conversation history when you need to understand why a playbook escalated, what the customer asked, and whether the handoff gave the team enough context.
 
-Use a playbook-specific report when one is available for that type of playbook and it collects its own outcome, such as product reviews from [Review Builder]({% link _journeys/review-builder-playbook.md %}), loyalty scores from [NPS Pulse]({% link _journeys/nps-pulse-playbook.md %}), or satisfaction responses from [CSAT Pulse]({% link _journeys/csat-pulse-playbook.md %}).
+Use a playbook-specific report when one is available for that playbook type. [Review Builder]({% link _journeys/review-builder-playbook.md %}), [NPS Pulse]({% link _journeys/nps-pulse-playbook.md %}), and [CSAT Pulse]({% link _journeys/csat-pulse-playbook.md %}) currently have no dedicated outcome report in Playbooks. Aggregate CSAT satisfaction appears in [Service Quality]({% link _analytics-reporting-attribution/service-quality-report-guide.md %}).
 
-When you review feedback playbooks together, keep their outcomes separate. Review Builder explains product-level feedback, CSAT Pulse explains whether a resolved conversation worked, and NPS Pulse explains broader relationship loyalty after a delivery experience.
+These playbooks collect different kinds of feedback: product reviews, satisfaction after a resolved conversation, and recommendation after delivery. Do not interpret one signal as if it measured the others.
 
 Before comparing results, choose the right date range and confirm that the playbook had enough traffic to learn from.
 
@@ -107,9 +107,10 @@ Use the pattern you see to decide what to inspect next.
 | High revenue classified as team-managed | Attribution evidence and the team's commercial role. Check escalations separately: this revenue classification does not prove AI requested a takeover. |
 | Missing attributed revenue | Tracking, links, order events, attribution windows, and whether a recognized external source took precedence. |
 | High opt-outs or negative replies | Audience quality, consent, frequency, tone, and offer relevance. |
-| Weak review collection | Delivered-order signals, review timing, product spacing, channel support, and whether low ratings are handled correctly. |
-| Weak NPS response or many detractors | Delivered-order signals, delivery timing, message clarity, channel eligibility, and whether detractor feedback creates the right recovery path. |
-| Weak CSAT response or many negative CSAT responses | Resolution trigger, meaningful-interaction checks, duplicate-prompt safeguards, message clarity, channel eligibility, and whether negative feedback creates the right recovery path. |
+| An expected review request is missing | Delivered-order signal, product eligibility, request timing, and channel availability. |
+| An expected NPS question is missing | Recognized delivered-order event, 90-day interval, audience, consent, and channel. Arrange human follow-up for low scores separately. |
+| An expected CSAT question is missing | Resolution trigger, meaningful-interaction checks, duplicate-prompt safeguards, audience and channel eligibility. |
+| Low Customer Satisfaction in Service Quality | Review negative answers and their conversations: what the customer needed, whether the issue was resolved, message clarity, and how a handoff or follow-up was handled. |
 
 If signals or activity are missing, use [Troubleshoot missing signals or activity]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %}) before judging the playbook.
 

@@ -12,9 +12,9 @@ Usa la [guía del Reporte de rendimiento]({% link _analytics-reporting-attributi
 
 Usa el **Inbox** y el historial de conversaciones cuando necesitas entender por qué una misión derivó, qué preguntó el cliente y si la derivación le dio suficiente contexto al equipo.
 
-Usa un reporte específico de la misión cuando esté disponible para ese tipo de misión y recopile su propio resultado, como reseñas de productos desde [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}), puntajes de lealtad desde [Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}) o respuestas de satisfacción desde [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}).
+Usa un reporte específico cuando esté disponible para ese tipo de misión. [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %}), [Pulso NPS]({% link _journeys/nps-pulse-playbook.md %}) y [Pulso CSAT]({% link _journeys/csat-pulse-playbook.md %}) no tienen actualmente un reporte propio de resultados en Misiones. La satisfacción CSAT agregada aparece en [Calidad de servicio]({% link _analytics-reporting-attribution/service-quality-report-guide.md %}).
 
-Cuando revises misiones de feedback juntas, mantén separados sus resultados. Generador de Reseñas explica feedback a nivel producto, Pulso CSAT explica si una conversación resuelta funcionó y Pulso NPS explica lealtad de relación después de una experiencia de entrega.
+Estas misiones recopilan tipos distintos de feedback: reseñas de productos, satisfacción después de una conversación resuelta y recomendación después de la entrega. No interpretes una de estas señales como si midiera las otras.
 
 Antes de comparar resultados, elige el rango de fechas correcto y confirma que la misión tuvo suficiente tráfico para aprender algo.
 
@@ -107,9 +107,10 @@ Usa el patrón que ves para decidir qué revisar después.
 | Muchos ingresos clasificados como gestionados por el equipo | La evidencia de atribución y la participación comercial del equipo. Comprueba las Derivaciones por separado: esta clasificación de ingresos no prueba que la IA haya solicitado un traspaso. |
 | Ingresos atribuidos faltantes | Tracking, links, eventos de pedidos, ventanas de atribución y si una fuente externa reconocida tuvo precedencia. |
 | Muchas bajas o respuestas negativas | Calidad de audiencia, consentimiento, frecuencia, tono y relevancia de la oferta. |
-| Poca recopilación de reseñas | Señales de pedido entregado, timing de solicitud, separación entre productos, soporte del canal y si las calificaciones bajas se manejan correctamente. |
-| Baja respuesta de NPS o muchos detractores | Señales de pedido entregado, timing de entrega, claridad del mensaje, elegibilidad del canal y si el feedback de detractores crea la recuperación correcta. |
-| Baja respuesta de CSAT o muchas respuestas negativas de CSAT | Disparador de resolución, controles de interacción significativa, protección contra preguntas duplicadas, claridad del mensaje, elegibilidad del canal y si el feedback negativo crea la recuperación correcta. |
+| Falta una solicitud de reseña esperada | Señal de pedido entregado, elegibilidad de producto, timing de la solicitud y canal disponible. |
+| Falta una pregunta NPS esperada | Evento de pedido entregado reconocido, intervalo de 90 días, audiencia, consentimiento y canal. Organiza por separado el seguimiento humano de puntajes bajos. |
+| Falta una pregunta CSAT esperada | Disparador de resolución, controles de interacción significativa, protección contra preguntas duplicadas y elegibilidad de audiencia y canal. |
+| Satisfacción del cliente baja en Calidad de servicio | Revisa las respuestas negativas y sus conversaciones: qué necesitaba el cliente, si se resolvió el problema, claridad del mensaje y cómo se manejó la derivación o el seguimiento. |
 
 Si faltan señales o actividad, usa [Soluciona señales o actividad faltante]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %}) antes de juzgar la misión.
 

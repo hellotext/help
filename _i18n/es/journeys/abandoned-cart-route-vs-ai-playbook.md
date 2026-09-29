@@ -1,6 +1,6 @@
 La recuperación de carrito abandonado puede ser simple o dinámica.
 
-En Hellotext, un seguimiento básico de carrito abandonado puede funcionar como una plantilla de ruta con pasos fijos. Una experiencia más dinámica de recuperación puede funcionar como una misión con IA que usa señales, contexto de producto y respuestas del cliente para decidir qué hacer después.
+En Hellotext, un seguimiento básico de carrito abandonado puede funcionar como una plantilla de ruta con pasos fijos. La misión Recuperador de Carritos con IA usa el contexto del carrito y del cliente para preparar un recordatorio saliente y evaluar si puede enviarlo.
 
 Ambas opciones son válidas. Elige la versión más simple que coincida con tu objetivo, datos y preparación del equipo.
 
@@ -10,27 +10,25 @@ Usa [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) cua
 
 Una ruta suele ser la mejor primera opción cuando:
 
-- Quieres uno o dos recordatorios fijos después de que se abandona un carrito.
-- El timing debería ser igual para la mayoría de los clientes.
-- El texto, cupón, canal y condiciones de detención ya están claros.
+- Quieres una secuencia y un mensaje que puedas definir de antemano.
+- Quieres configurar la espera, la condición de compra y los pasos de la ruta.
+- Ya sabes qué link de checkout usar y si ofrecerás un cupón.
 - Quieres revisar cada paso antes de publicar.
-- No necesitas que el seguimiento interprete respuestas o elija entre varios siguientes pasos.
 
-Por ejemplo, una ruta simple puede esperar después de `cart.abandoned`, enviar un recordatorio, revisar si el cliente compró y detenerse o enviar un seguimiento más.
+Por ejemplo, cuando se registra `cart.abandoned`, la ruta puede esperar, comprobar si hubo una compra y enviar un recordatorio sólo si todavía se cumplen las condiciones. Puedes añadir otros pasos si los necesitas.
 
 ## Usa una misión de carrito con IA cuando
 
-Usa una misión con IA cuando la recuperación de carrito debería adaptarse al cliente.
+Usa una misión con IA cuando el recordatorio saliente debería adaptarse al carrito y al cliente.
 
 Una misión de carrito con IA encaja mejor cuando:
 
-- El cliente puede responder con preguntas u objeciones.
-- Importan recomendaciones de producto, alternativas, talles, stock o detalles de políticas.
-- El mejor siguiente paso puede cambiar según cliente, valor del carrito, producto, historial o respuesta.
-- Quieres que Hellotext use más contexto antes de decidir el siguiente mensaje.
-- Una persona debería tomar la conversación solo cuando hace falta ayuda.
+- El contenido del carrito, los productos y los datos del cliente varían entre casos.
+- Quieres que el texto del recordatorio use ese contexto antes de enviarse.
+- La elegibilidad, el momento de envío y los canales disponibles pueden variar por cliente.
+- Quieres configurar el tono y, si corresponde, la estrategia de descuento.
 
-Por ejemplo, [Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}) puede usar señales de carrito, producto, perfil, conversación y compra para decidir si recordar, recomendar, responder, esperar, detenerse o derivar.
+Por ejemplo, [Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}) puede preparar un recordatorio según el carrito, el producto y el perfil; también puede omitir o detener el envío si el cliente no es elegible o hizo una compra pertinente. Si invitas al cliente a responder, configura por separado quién atenderá esa respuesta en Inbox: esta misión no responde preguntas ni recomienda alternativas por sí sola.
 
 ## Qué necesitan ambas opciones
 
@@ -38,12 +36,12 @@ Ambas opciones dependen de una configuración confiable.
 
 Antes de lanzar cualquiera de las dos, confirma:
 
-- La actividad de carrito o checkout tiene tracking.
-- El cliente puede identificarse en el perfil de cliente correcto.
-- Los datos de producto y orden están disponibles si el mensaje usa detalles de producto.
-- El canal está conectado y el cliente puede recibir mensajes.
-- Una señal de compra u orden puede detener el seguimiento.
-- Los links, cupones y eventos con tracking funcionan en una prueba.
+- La señal de carrito o checkout llega y coincide con el disparador elegido. En las configuraciones iniciales, `cart.abandoned` se registra después de detectar el abandono; salir de una página no basta por sí solo.
+- La señal se asocia al perfil de cliente correcto.
+- Los datos del producto y el link de checkout que usará el mensaje están actualizados.
+- Hay un canal disponible y el cliente tiene consentimiento para recibir el mensaje.
+- Una compra que cumple las condiciones de la ruta o la misión impide que se envíe un recordatorio innecesario.
+- Los links y eventos funcionan en una prueba; si ofreces un cupón, prueba también que se aplique.
 
 Sigue leyendo: [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %}).
 
@@ -51,26 +49,21 @@ Sigue leyendo: [Verifica tus datos y señales después de configurar]({% link _i
 
 Elige una **plantilla de ruta** si principalmente necesitas control, velocidad y una secuencia conocida.
 
-Elige una **misión de carrito con IA** si principalmente necesitas adaptación, manejo conversacional y decisiones con más contexto.
+Elige una **misión de carrito con IA** si principalmente necesitas redactar y enviar un recordatorio según el contexto del carrito, el cliente y el canal disponible.
 
-Si este es tu primer lanzamiento de recuperación de carritos, empieza con la versión que tu equipo pueda probar y medir con confianza. Puedes empezar con una ruta, aprender de los primeros resultados y pasar a una misión con IA cuando la calidad de señales, datos de producto y reglas de derivación estén listas.
+Si este es tu primer lanzamiento de recuperación de carritos, empieza con la versión que tu equipo pueda probar y medir con confianza. Puedes empezar con una ruta, aprender de los primeros resultados y pasar a una misión con IA cuando las señales y los datos de producto sean confiables.
 
 ## Antes de publicar
 
 Revisa la configuración real que estás por activar.
 
-Confirma:
+En ambos casos, confirma qué perfiles son elegibles, qué reglas de consentimiento y frecuencia aplican, si una compra detiene el envío según la opción elegida y qué métrica revisarás después del lanzamiento.
 
-- Qué señal inicia el flujo.
-- Cuánto espera Hellotext antes del primer mensaje.
-- Qué audiencia puede entrar.
-- Qué canal envía el mensaje.
-- Si aplican horarios silenciosos, límites de frecuencia y reglas de consentimiento.
-- Qué detiene el seguimiento.
-- Cuándo debería tomar la conversación una persona.
-- Qué reporte o métrica vas a revisar después del lanzamiento.
+Si eliges la **ruta**, revisa el disparador, la espera, la condición de compra antes del mensaje, el texto, el link y cualquier cupón. Comprueba el canal disponible para ese mensaje.
 
-No actives varios flujos de recuperación de carrito para los mismos clientes al mismo tiempo, salvo que estés probando intencionalmente cómo interactúan.
+Si eliges la **misión con IA**, revisa la selección de canales, el tono, la estrategia de descuento si la usas y las condiciones que permiten u omiten el envío. Si el mensaje invita a responder, comprueba que haya una atención de Inbox configurada por separado.
+
+Si Recuperador de Carritos con IA está activo, recibe `cart.abandoned` antes que la ruta; la ruta se usa cuando esa misión no está activa. Comprueba cuál de las dos opciones debería gestionar el evento antes de habilitarlas.
 
 ## Guías relacionadas
 

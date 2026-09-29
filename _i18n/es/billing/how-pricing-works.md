@@ -1,17 +1,19 @@
-Hellotext usa un modelo de precios basado en resultados. En lugar de sumar todos los tipos de consumo, compara los principales montos facturables del mes y usa solamente el mayor como cargo de Hellotext.
+Hellotext ofrece un modelo de precios basado en resultados. En los planes sujetos a la comparación mensual estándar, compara los principales montos facturables y usa el mayor como cargo de esa comparación, en lugar de sumarlos.
 
-Los precios, tarifas por rendimiento, SMS incluidos y funcionalidades de cada plan pueden cambiar. Consulta la página pública de [precios de Hellotext](https://www.hellotext.com/precios) para ver la comparación vigente.
+Los precios, tarifas por rendimiento, equivalencias de SMS y funcionalidades de cada plan pueden cambiar. Consulta la página pública de [precios de Hellotext](https://www.hellotext.com/precios) para ver la comparación vigente.
 
 ## Los cuatro montos que compara Hellotext
 
-En cada período de facturación, Hellotext compara:
+En esa comparación mensual, Hellotext considera:
 
 1. **Piso del plan:** el monto base del plan y acuerdo de facturación seleccionados.
 2. **Tarifa por rendimiento:** la tarifa de tu plan aplicada a los ingresos atribuidos a Hellotext.
-3. **Costos de SMS:** el uso facturable de SMS después de lo incluido para tu plan y país.
+3. **Costos de SMS:** el monto facturable calculado a partir de las partes de SMS y la tarifa aplicable. La cifra «hasta X SMS» publicada es una equivalencia aproximada calculada a partir del piso del plan y la tarifa del país, no un saldo gratuito que se descuenta primero.
 4. **Cargo variable por mensajes:** los mensajes que no son SMS, calculados con la tarifa publicada cuando este monto supera a los otros tres.
 
 El cargo de Hellotext es el mayor de estos cuatro montos. No se suman entre sí.
+
+En cuentas prepagas, el uso puede cobrarse al registrarse. Un acuerdo de plan fijo puede usar el monto fijo en lugar de elegir el mayor. Revisa las condiciones de tu cuenta para saber cómo se liquida cada cargo.
 
 ## Ejemplo de la regla de pagar solo el mayor
 

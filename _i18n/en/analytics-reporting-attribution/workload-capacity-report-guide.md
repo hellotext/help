@@ -19,6 +19,17 @@ This report does not wait for an attribution window to mature. Historical values
 
 Select a metric to update the timeline and available breakdowns.
 
+In this fictional account, **Custom** is selected for September 11–24, 2026. The cards show **Active load 20.3%** selected, **Handled 27**, **Resolved 39**, and **Avg. concurrent 1.5**. Their green indicators show favorable comparisons with the previous period.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Main Workload and capacity report metrics">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/workload-capacity-report-guide/kpi-overview-en.png" width="2470" height="605" loading="lazy" decoding="async" alt="Custom period selector and four cards: Active load 20.3%, Handled 27, Resolved 39, and Avg. concurrent 1.5; all show green comparison indicators." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real English interface with fictional data. Selecting a card changes the metric shown in the timeline.</figcaption>
+</figure>
+
 ### Active load
 
 The percentage of available handling capacity consumed by recorded handling time during the selected period. Available capacity adds each session's duration multiplied by the concurrent-conversation limit saved for that session.
@@ -61,6 +72,17 @@ Most metrics can be broken down by teammate or team. **Assigned** and **Transfer
 
 Compare like with like. Different teams can receive different intents, channels, schedules, or conversation complexity. A higher volume does not by itself mean better performance, and a lower volume does not by itself mean unused capacity.
 
+With **Active load** selected, **View by team** shows how two fictional teams changed from September 11 to 24, 2026. The legend summarizes 21.6% for Ventas demo and 19.1% for Atención demo across the full period.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Active load over time by team">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/workload-capacity-report-guide/active-load-team-trend-en.png" width="2470" height="1000" loading="lazy" decoding="async" alt="Active load over time from September 11 to 24, 2026 with View by team selected. The Ventas demo and Atención demo lines vary by day; the legend summarizes 21.6% and 19.1% for the full period." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real English interface with fictional data. The chart compares two teams by day, and the legend shows their full-period results.</figcaption>
+</figure>
+
 ## Understand Capacity pressure
 
 **Capacity pressure** compares consumed handling time with the available handling capacity represented in the selected period. You can view it by teammate or team.
@@ -75,6 +97,17 @@ The capacity shown depends on recorded sessions and their concurrent-conversatio
 
 In team bars, the report shares a session's capacity among the teams to which handling was attributed during the period. A team's capacity therefore does not necessarily equal the sum of every complete session for its members.
 
+In this example, Ventas demo has 42.9 days of attributed capacity and Atención demo has 40.6 days. The stronger-colored part of each bar shows consumed time.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Capacity pressure by team">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/workload-capacity-report-guide/capacity-pressure-team-en.png" width="2470" height="1008" loading="lazy" decoding="async" alt="Capacity pressure by team chart with two bars comparing consumed and available capacity: Ventas demo shows 42.9 days of available capacity and Atención demo shows 40.6 days." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real English interface with fictional data. Each bar shows consumed capacity within the available capacity attributed to that team.</figcaption>
+</figure>
+
 Read [Teams and Inbox capacity]({% link _team/teams-and-inbox-capacity.md %}) before changing these settings.
 
 ## Understand Session efficiency
@@ -86,6 +119,17 @@ The chart separates:
 - **Total logged-in time:** the session time recorded during the period.
 - **Active time:** wall-clock time spent actively handling conversations; overlapping intervals count once.
 - **Idle time:** logged-in time without active conversation handling.
+
+In the fictional data, the values above the bars show 5 days of active handling for Ventas demo and 4.9 days for Atención demo. The stronger-colored segment represents that active time; the lighter segment is idle time, and the complete bar represents total logged-in time.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Session efficiency by team">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/workload-capacity-report-guide/session-efficiency-team-en.png" width="2470" height="1008" loading="lazy" decoding="async" alt="Session efficiency by team chart: the labels show 5 days of active handling for Ventas demo and 4.9 days for Atención demo; each complete bar separates active and idle logged-in time." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real English interface with fictional data. The stronger-colored part of each bar represents active time, and the lighter part represents idle time.</figcaption>
+</figure>
 
 Use this view to understand how recorded Inbox time was distributed. It is not a complete productivity score: meetings, breaks, administrative work, and responsibilities outside the Inbox may not appear as active handling time.
 
@@ -103,6 +147,17 @@ View it by teammate or team and use these columns:
 - **Utilization:** the share of logged-in session time spent actively handling conversations during the selected period.
 - **Concurrent:** average simultaneous conversations during active handling in the selected period.
 - **Burn:** a signal combining period Utilization and Concurrent with current SLA pressure. Its states are Normal, Watch, and At risk.
+
+In the capture, Ventas demo has 1 unanswered conversation, an 11 h 48 m oldest wait, and Imminent SLA risk; Atención demo has 0 unanswered, a 0 m wait, and Safe risk. Those are queue values at capture time. Period values are 42% Utilization and 1.7 Concurrent for Ventas demo, compared with 43% and 1.4 for Atención demo. **Burn** shows Watch for Ventas demo with a yellow neutral icon and Normal for Atención demo with a green smiling icon.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Operational pressure for two fictional teams">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/workload-capacity-report-guide/operational-pressure-team-en.png" width="2470" height="950" loading="lazy" decoding="async" alt="Operational pressure by team table: Ventas demo has 1 unanswered conversation, an 11 h 48 m oldest wait, Imminent SLA risk, 42% Utilization, and 1.7 Concurrent; Atención demo has 0 unanswered, Safe SLA risk, 43% Utilization, and 1.4 Concurrent. Burn is Watch for Ventas demo and Normal for Atención demo." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real English interface with fictional data. Unanswered, Oldest waiting, and SLA risk reflect the queue when captured; Utilization and Concurrent use the selected period.</figcaption>
+</figure>
 
 Burn is a blended signal, not a diagnosis or a performance rating for a person. Review current waiting conversations and consider schedules, routing, and capacity before taking action.
 

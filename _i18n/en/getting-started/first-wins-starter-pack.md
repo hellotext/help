@@ -1,14 +1,14 @@
 Use this starter pack when you want early value without turning on too many workflows at once.
 
-The goal is to launch a few focused wins, learn from real customer behavior, and expand only after your data, channels, and team process are working.
+The goal is to plan a few focused wins, launch the first one, learn from real customer behavior, and expand only after your data, channels, and team process are working.
 
 Exact playbook availability can depend on your plan, account setup, country, channels, and data sources. Use the closest available playbook, route, capture, or campaign in your account.
 
-## Start with 3 to 5 wins
+## Plan 3 to 5 wins
 
-Do not launch every playbook at the same time.
+Choose 3 to 5 wins as a shortlist of next steps, but launch one first. Do not turn on every playbook at the same time.
 
-Start with a mix that covers the full customer path:
+Plan a sequence that can cover the full customer path:
 
 1. Grow the audience.
 2. Recover lost intent.
@@ -16,7 +16,7 @@ Start with a mix that covers the full customer path:
 4. Reduce support load.
 5. Collect feedback or send one focused campaign when you have a clear moment.
 
-This gives you cleaner signals and makes it easier to understand what worked.
+Moving one step at a time gives you cleaner signals and makes it easier to understand what worked before expanding.
 
 ## 1. Grow your reachable audience
 
@@ -34,9 +34,9 @@ Expected win: more reachable customer profiles and cleaner consent for future pl
 
 ## 2. Recover abandoned carts
 
-Start here if your store has cart or checkout signals.
+Start here if detected abandonment produces a `cart.abandoned` event linked to the right customer profile.
 
-Use [Cart Saver route]({% link _journeys/cart-saver-route.md %}) when you want fixed reminders with predictable timing. Use an AI cart saver playbook when replies, product context, objections, or recommendations should change the next step.
+Use [Cart Saver route]({% link _journeys/cart-saver-route.md %}) when you want fixed reminders with a configurable wait and purchase condition. Use [AI Cart Saver playbook]({% link _journeys/ai-cart-saver-playbook.md %}) when you want Hellotext to prepare an outbound reminder from cart, product, and profile context and check whether it can send. If the message invites replies, arrange separate Inbox coverage.
 
 Expected win: recover purchase intent that already exists instead of only trying to create new demand.
 
@@ -48,14 +48,12 @@ Start here when you have product, browsing, subscription, or purchase signals.
 
 Useful options can include:
 
-- [First-Purchase Driver]({% link _journeys/first-purchase-driver-playbook.md %}) for new subscribers who have not bought yet.
+- Check availability of [First-Purchase Driver]({% link _journeys/first-purchase-driver-playbook.md %}) for new subscribers who have not bought yet.
 - [Browse Recovery]({% link _journeys/browse-recovery-playbook.md %}) for customers who viewed products but did not add to cart.
-- [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}) when product and inventory context are strong.
-- [Complete-the-Look]({% link _journeys/complete-the-look-playbook.md %}) when shoppers picked or viewed products that have clear matching items.
+- [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}) for incoming product questions when catalog and inventory data are reliable.
+- [Complete-the-Look]({% link _journeys/complete-the-look-playbook.md %}) for confirmed orders whose products have clear matching items.
 - [Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}) or [Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}) when you have enough order history.
 - [Soft Reactivation]({% link _journeys/soft-reactivation-playbook.md %}) when existing customers are starting to go quiet but are not fully dormant.
-- [Review Builder]({% link _journeys/review-builder-playbook.md %}) when delivered-order signals are reliable and you want product reviews.
-- [NPS Pulse]({% link _journeys/nps-pulse-playbook.md %}) when delivered-order signals are reliable and you want loyalty feedback after customers have had the product experience.
 
 Expected win: move customers from interest to purchase, repeat purchase, or higher-value orders.
 
@@ -69,24 +67,25 @@ Useful options can include:
 - [Order-Update Delight]({% link _journeys/order-update-playbook.md %}) when customers often ask where their order is.
 - [Return & Exchange Helper]({% link _journeys/return-and-exchange-helper-playbook.md %}) when your policy is clear enough to automate parts of the conversation.
 - [Order Cancellation Assistant]({% link _journeys/order-cancellation-assistant-playbook.md %}) when cancellation requests are frequent and your rules are clear.
-- [CSAT Pulse]({% link _journeys/csat-pulse-playbook.md %}) when conversations are being resolved consistently and you want lightweight satisfaction feedback.
 - Inbox assignment and response rules when humans still need to own replies.
 
 Expected win: faster answers, cleaner handoffs, and fewer repetitive tickets for your team.
 
 ## 5. Collect feedback or send one focused campaign
 
-Use [Review Builder]({% link _journeys/review-builder-playbook.md %}) when you already have delivered orders and want to collect product ratings and written reviews.
+Use [Review Builder]({% link _journeys/review-builder-playbook.md %}) when you receive reliable delivered-order events, have product data, and want to collect product ratings and written reviews.
 
-Use [NPS Pulse]({% link _journeys/nps-pulse-playbook.md %}) when you want to measure whether customers would recommend the brand after a delivered order.
+Use [NPS Pulse]({% link _journeys/nps-pulse-playbook.md %}) when you receive reliable delivered-order events and want to measure whether customers would recommend the brand after that experience.
 
 If you also use [CSAT Pulse]({% link _journeys/csat-pulse-playbook.md %}), keep the feedback moments separate: Review Builder is for product reviews, NPS Pulse is for loyalty after a delivery experience, and CSAT Pulse is for satisfaction after resolved conversations.
 
-Expected win: learn which products and delivery experiences create strong feedback, which customers need recovery, and which feedback records can guide future improvements.
+Expected win: learn which products and experiences produce positive or negative feedback, then use those signals to plan improvements and human follow-up.
+
+NPS Pulse does not automatically recover low scores or offer its own results report in Playbooks: confirm how you will review responses and arrange follow-up separately before launch. Service Quality shows aggregate CSAT satisfaction, not a CSAT Pulse-specific report.
 
 If you have one clear audience, one message, and one planned send time, use a campaign instead.
 
-If customers asked to be notified about a specific unavailable product, use [Back-in-Stock Pounce]({% link _journeys/back-in-stock-pounce.md %}) instead of a broad campaign.
+If an unavailable product returns to stock for customers with eligible recorded interest in that product, use [Back-in-Stock Pounce]({% link _journeys/back-in-stock-pounce.md %}) instead of a broad campaign.
 
 If customers already showed interest in a product and the product became meaningfully cheaper for them, use [Price-Drop Pouncer]({% link _journeys/price-drop-pouncer.md %}) instead of a broad sale campaign.
 
@@ -112,7 +111,7 @@ Avoid:
 
 ## Review after 7 days
 
-After the first week, review:
+After the first week of the first launch, review the signals that workflow can already produce:
 
 - Audience growth and opt-in sources.
 - Cart recovery or conversion activity.
@@ -120,7 +119,7 @@ After the first week, review:
 - Clicks, orders, and attributed revenue.
 - Any failed messages, opt-outs, or unexpected behavior.
 
-Then decide what to tune, pause, or expand.
+Do not necessarily expect Review Builder or NPS Pulse results in this first review: their questions are timed for 7 days or later after delivery, and responses may arrive later. Then decide what to tune, pause, or expand.
 
 Keep reading: [Measure success in your first 7 days]({% link _getting-started/measure-success-first-7-days.md %}).
 

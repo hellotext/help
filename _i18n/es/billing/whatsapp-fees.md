@@ -9,13 +9,15 @@ Las tarifas de Meta se pagan directamente a Meta mediante la configuración de f
 
 ## Qué controla Meta
 
-Meta determina qué mensajes de WhatsApp son facturables y qué tarifa aplica. El monto puede depender de factores como el país del destinatario, la categoría del mensaje y las reglas de precios vigentes de Meta. Meta calcula estos cargos y cobra el pago directamente mediante el acuerdo de facturación configurado para tu cuenta de la Plataforma de WhatsApp Business.
+Meta aplica sus reglas de precios a los mensajes **entregados**, no simplemente enviados. Cuando un mensaje es facturable, la tarifa depende del mercado del destinatario y de su categoría: marketing, utilidad o autenticación. Meta calcula estos cargos y cobra el pago directamente mediante el acuerdo de facturación configurado para tu cuenta de la Plataforma de WhatsApp Business.
+
+Según las reglas actuales de Meta, los mensajes de servicio y los de utilidad enviados en respuesta al usuario dentro de la ventana de atención de 24 horas que abre o renueva su último mensaje no tienen cargo. En entradas elegibles desde un anuncio que abre WhatsApp o un botón de llamada a la acción de una página de Facebook, responder al mensaje del cliente dentro de 24 horas abre una ventana de 72 horas sin cargos por mensajes, contadas desde la respuesta de tu negocio. Las categorías de utilidad y autenticación pueden tener descuentos por volumen. Consulta las condiciones exactas para tu caso: que un mensaje use WhatsApp no significa que siempre genere un cargo de Meta.
 
 Como Meta puede cambiar sus categorías y tarifas, consulta la página oficial de [precios de la Plataforma de WhatsApp Business](https://business.whatsapp.com/products/platform-pricing) para ver los valores actuales.
 
 ## Qué controla Hellotext
 
-Hellotext aplica su propio modelo de precios al servicio de Hellotext. El volumen elegible de mensajes de WhatsApp puede formar parte del monto variable por mensajes que no son SMS, pero ese monto solo se cobra cuando es el mayor monto de Hellotext del mes.
+Hellotext aplica su propio modelo de precios al servicio de Hellotext. En los planes sujetos a la comparación mensual estándar, el volumen elegible de mensajes de WhatsApp puede formar parte del monto variable por mensajes que no son SMS; ese monto se cobra cuando es el mayor de los cuatro montos de la comparación. Las cuentas prepagas y los acuerdos de plan fijo pueden liquidarse de otra manera. Revisa las condiciones de tu cuenta y el [modelo de precios]({% link _billing/how-pricing-works.md %}).
 
 Esto no reemplaza ni absorbe las tarifas de Meta. Hellotext no agrega esos costos a la factura de Hellotext ni los recauda en nombre de Meta.
 
@@ -25,9 +27,9 @@ Revisa ambas partes:
 
 - Usa **Configuración → Facturación** para consultar tu plan, consumos y facturas de Hellotext.
 - Usa el método de pago y los datos de facturación configurados en Meta, junto con su tabla de tarifas vigente, para revisar los costos de WhatsApp pagados directamente a Meta.
-- Confirma el país del negocio, los mercados de destino y las categorías de mensajes esperadas en la estimación.
+- Confirma el país de facturación de tu negocio para Hellotext. Para Meta, estima cuántos mensajes se entregarán en cada mercado de destino y categoría, y considera las excepciones gratuitas y los descuentos por volumen que correspondan.
 
-No sumes los cuatro componentes de precios de Hellotext. Primero aplica la regla de Hellotext de pagar solo el mayor. Después considera los impuestos aplicables y revisa los cargos de Meta por separado en el entorno de facturación de Meta: esos cargos se pagan a Meta, no a Hellotext.
+Si tu plan usa la comparación mensual estándar, no sumes los cuatro componentes de precios de Hellotext: identifica el mayor. Si tienes una cuenta prepaga o un acuerdo fijo, usa sus condiciones de facturación. Después considera los impuestos aplicables y revisa los cargos de Meta por separado en el entorno de facturación de Meta: esos cargos se pagan a Meta, no a Hellotext.
 
 ## Preguntas frecuentes
 
@@ -37,7 +39,7 @@ No. No están incluidas en el piso del plan ni se pagan a Hellotext. Meta las co
 
 **¿Fair use significa que WhatsApp no tiene costos de Meta?**
 
-No. Fair use determina si el monto variable de Hellotext por mensajes que no son SMS se convierte en el cargo de Hellotext. No modifica los precios de WhatsApp definidos por Meta.
+No. En la comparación mensual estándar, fair use determina si el monto variable de Hellotext por mensajes que no son SMS se convierte en el cargo de Hellotext. No modifica los precios de WhatsApp definidos por Meta.
 
 **¿Por qué dos negocios pueden tener costos distintos de WhatsApp?**
 
