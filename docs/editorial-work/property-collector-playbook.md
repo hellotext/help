@@ -28,5 +28,5 @@ Use the isolated Rails clone and fictitious account only after read-only DB/acco
 
 ## Publication pending
 
-- Record the local verifier commit, push this article-specific branch, pass Build/Aikido/Netlify preview/review, and merge with a merge commit.
+- Content and visual assets are in `c8d14c35`; the local verifier records the successful production build, security-header check, browser review, and twenty source/asset/build hash matches. Push this article-specific branch, pass Build/Aikido/Netlify preview/review, and merge with a merge commit.
 - Verify main Build, normal production deployment if its SHA evidence is accessible, both public articles and every new/reused PNG. Add direct URLs to the integrated-batch report and record public checks in the ledger.
