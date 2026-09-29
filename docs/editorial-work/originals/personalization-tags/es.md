@@ -6,7 +6,7 @@ Estas etiquetas son variables que se usan dentro del contenido del mensaje. Son 
 
 El editor de mensajes aparece en campañas, rutas, misiones, Inbox y otras partes de Hellotext. Cuando ese editor admite personalización, su barra de herramientas incluye el botón **Insertar etiquetas** con un icono de llaves.
 
-Abre el selector para ver las etiquetas de perfil y propiedades personalizadas que ofrece ese editor. Es más confiable que escribirlas de memoria porque las opciones pueden depender de las propiedades de tu negocio. Las etiquetas contextuales de productos, carritos u otros objetos dependen del flujo y no necesariamente aparecen en ese selector.
+Abre el selector para ver las etiquetas disponibles en ese editor. Es más confiable que escribir una etiqueta de memoria porque las opciones pueden depender de las propiedades de tu negocio y del contexto del mensaje.
 
 ## Inserta una etiqueta
 
@@ -18,8 +18,7 @@ Abre el selector para ver las etiquetas de perfil y propiedades personalizadas q
 Hellotext inserta la etiqueta entre llaves. Por ejemplo:
 
 ```text
-Hola {name},
-elegimos algo para ti.
+Hola {name}, elegimos algo para ti.
 ```
 
 Cuando el mensaje se prepara para una cliente llamada Ana, Hellotext reemplaza `{name}` por `Ana`.
@@ -38,11 +37,10 @@ El selector también puede incluir propiedades personalizadas compatibles config
 
 Si el perfil de cliente no contiene el dato solicitado, Hellotext elimina la etiqueta válida del mensaje entregado. Esto puede dejar un espacio extraño en la frase.
 
-En etiquetas de perfil o propiedades personalizadas, agrega un valor alternativo después de una barra vertical para que el mensaje siga siendo natural:
+Agrega un valor alternativo después de una barra vertical para que el mensaje siga siendo natural:
 
 ```text
-Hola {name|cliente},
-elegimos algo para ti.
+Hola {name|cliente}, elegimos algo para ti.
 ```
 
 Hellotext usa el nombre cuando está disponible y `cliente` cuando falta.
@@ -54,10 +52,10 @@ Elige un valor alternativo que funcione con la frase completa. Una palabra neutr
 El selector puede mostrar propiedades personalizadas disponibles para tu negocio. Una propiedad llamada `Nivel de fidelidad` puede insertarse así:
 
 ```text
-{Nivel de fidelidad|sin asignar}
+Tu nivel actual es {Nivel de fidelidad|sin asignar}.
 ```
 
-Coloca la etiqueta dentro de una frase que también funcione con el valor alternativo. Usa el nombre de propiedad que muestra el selector. Cuando varias propiedades personalizadas comparten el mismo tipo, darles nombres claros evita ambigüedades y permite identificar la etiqueta correcta.
+Usa el nombre de propiedad que muestra el selector. Cuando varias propiedades personalizadas comparten el mismo tipo, darles nombres claros evita ambigüedades y permite identificar la etiqueta correcta.
 
 Los nombres de propiedades no pueden comenzar con un número ni contener llaves. Si cambias el nombre de una propiedad usada en mensajes existentes, revisa esos mensajes antes de volver a enviarlos.
 
@@ -71,20 +69,20 @@ Algunas misiones, rutas y automatizaciones pueden aportar datos de un producto, 
 
 Las etiquetas contextuales solo se resuelven cuando el flujo del mensaje tiene el objeto y valor correspondientes. Una etiqueta de producto que funciona dentro de una misión basada en productos puede no funcionar en una campaña que no tiene un producto seleccionado.
 
-Usa solo etiquetas contextuales compatibles con ese flujo y comprueba que el objeto exista antes del envío. Si reutilizas el contenido del mensaje en otro lugar, prueba otra vez esos valores: el selector de etiquetas de perfil no confirma que un token contextual vaya a resolverse allí. No apliques automáticamente el valor alternativo con barra vertical a tokens contextuales como `{product.url}`.
+Usa las etiquetas que ofrece el editor para ese flujo. Si reutilizas el contenido del mensaje en otro lugar, revisa nuevamente el selector y prueba los valores contextuales.
 
 ## Previsualiza y prueba antes de enviar
 
 Antes de lanzar un mensaje con personalización:
 
 - Prueba perfiles con datos completos e incompletos.
-- Confirma que cada valor opcional de perfil tenga una alternativa natural.
+- Confirma que cada valor opcional tenga una alternativa natural.
 - Revisa espacios y puntuación alrededor de las etiquetas.
 - Verifica que las etiquetas contextuales tengan el producto, carrito, pedido u objeto que necesitan.
 - Revisa los links después del reemplazo, especialmente los de checkout o producto.
 - Haz una prueba pequeña antes de usar una audiencia grande.
 
-Si una etiqueta queda visible en la vista previa o mensaje entregado, comprueba que sus llaves estén completas. Para una etiqueta de perfil, revisa su nombre en el selector y los datos del cliente; para una contextual, confirma que ese flujo admita el token y disponga del objeto y valor necesarios.
+Si una etiqueta queda visible en la vista previa o mensaje entregado, revisa que aparezca en el selector de ese editor, que sus llaves estén completas y que el contexto necesario esté disponible.
 
 ## Guías relacionadas
 
