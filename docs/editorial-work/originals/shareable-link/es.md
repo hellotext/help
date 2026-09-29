@@ -1,14 +1,14 @@
-Enlace Compartible es una misión de captura que crea un link para iniciar una suscripción desde SMS o WhatsApp.
+Enlace Compartible es una misión de captura que crea un link de protocolo SMS o WhatsApp con el que los clientes pueden suscribirse a tu negocio.
 
 Cuando los clientes hacen clic en el enlace, se abre la aplicación de SMS o WhatsApp en su teléfono con un mensaje de opt-in predefinido.
 
-La persona decide si toca **Enviar**. Solo cuando Hellotext recibe ese mensaje puede registrar la suscripción en su perfil y atribuirla al enlace; abrirlo sin enviar no suscribe a nadie.
+Solo tienen que tocar *Enviar*. Después de eso, Hellotext puede registrar qué perfiles de cliente se suscribieron desde ese link.
 
 También puedes asociar un cupón cuando la ruta de seguimiento configurada contiene un mensaje capaz de entregarlo.
 
 ## Crear un Enlace Compartible
 
-Para crear un Enlace Compartible, abre **Misiones**, haz clic en **Explorar misiones**, busca el grupo **Captura** y elige **Enlace Compartible**. Ponle un nombre que identifique dónde lo compartirás, como «Link de Instagram».
+Para crear un Link Compartible, abre **Misiones**, haz clic en **Explorar misiones**, busca el grupo **Capturas** y elige **Enlace Compartible**.
 
 ### Elige la aplicación que quieres que se abra con el enlace.
 
@@ -19,27 +19,31 @@ Elige la aplicación que debería abrir el enlace. Las opciones disponibles son 
 Puedes elegir el número de teléfono al que se enviará el mensaje:
 
 - Si seleccionaste SMS en el primer paso, y si tienes números de teléfono o códigos cortos asociados con tu negocio, puedes elegir uno de estos como el número al que los clientes enviarán el mensaje de suscripción.
-- Si seleccionaste WhatsApp, comprueba que esté habilitado para tu negocio y verifica el destino preparado antes de compartir el enlace.
+- Si seleccionaste WhatsApp, Hellotext muestra los números compatibles de la cuenta de WhatsApp Business Account (WABA) conectada, no los canales SMS.
 
-Si no eliges un número específico, puedes conservar **Configuración predeterminada para envíos**. Verifica el destino que abrirá el enlace antes de publicarlo.
+Si no eliges un número específico, conserva la configuración predeterminada para que Hellotext use un número compatible disponible.
 
 También puedes personalizar el mensaje predefinido que los clientes enviarán para suscribirse. Mantén clara la intención de suscripción; Hellotext conserva la referencia necesaria para identificar el origen.
 
 ## Elige el seguimiento
 
-Al guardar el número y el mensaje, se crea el enlace y aparece el paso para asignar un cupón y una misión compatible con el evento de suscripción.
+En el siguiente paso, tienes la opción de elegir qué sucede después de que tu cliente se suscriba.
 
-No se envía automáticamente un mensaje de bienvenida si dejas la misión de seguimiento sin seleccionar. Para dar la bienvenida, elige una misión o ruta que comience con la suscripción y contenga el mensaje correspondiente.
+Por defecto, se envía un mensaje de bienvenida al nuevo suscriptor.
 
-Puedes seleccionar un cupón si la misión elegida tiene un mensaje preparado para incluirlo. Si omites este paso, el enlace sigue disponible sin ese seguimiento automático.
+Sin embargo, si has creado algún cupón, puedes elegir incluirlo en el mensaje de bienvenida como un incentivo para suscribirse.
+
+Alternativamente, puedes seleccionar una ruta u otra misión compatible para reemplazar el mensaje de bienvenida predeterminado.
+
+Ese seguimiento se enviará al nuevo suscriptor en lugar del mensaje predeterminado.
 
 ## Comparte el enlace
 
-Después de guardar u omitir el seguimiento, copia el enlace del último paso.
+Ve al último paso y copia el enlace proporcionado.
 
 Comparte este enlace como lo harías con un enlace regular.
 
-Antes de publicarlo, abre el enlace desde un teléfono y comprueba que prepara la aplicación, el destino, el mensaje de suscripción y la referencia esperados. Puedes revisar esos datos sin enviar el mensaje. Para una prueba completa de suscripción, usa un número de prueba autorizado y comprueba después el perfil y el seguimiento.
+Prueba el enlace desde un teléfono antes de publicarlo. Confirma que abre la aplicación y el número esperados, conserva el mensaje de opt-in y la referencia de la captura, y suscribe el perfil solamente después de que el cliente envía el mensaje.
 
 ## Compartir en Instagram {#howto-share-instagram}
 

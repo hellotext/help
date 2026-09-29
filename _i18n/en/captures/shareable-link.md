@@ -1,12 +1,12 @@
-Shareable Link is a capture playbook that creates an SMS or WhatsApp protocol link customers can use to subscribe to your business. When clicked, the link opens the compatible messaging app on the customer's phone with a pre-filled opt-in message.
+Shareable Link is a capture playbook that creates a link for starting a subscription through SMS or WhatsApp. Opening it prepares a pre-filled opt-in message in the selected app on the customer's phone.
 
-All they have to do is tap *Send*. After that, Hellotext can track which customer profiles subscribed from the link.
+The person decides whether to tap **Send**. Only when Hellotext receives that message can it record the subscription on the customer profile and attribute it to the link. Opening the link without sending does not subscribe anyone.
 
 You can also attach a coupon when the configured follow-up route contains a message that can deliver it.
 
 ## Create a Shareable Link capture
 
-To set up a Shareable Link, open **Playbooks**, click **Explore playbooks**, find the **Captures** group, and choose **Shareable Link**.
+To set up a Shareable Link, open **Playbooks**, click **Explore playbooks**, find the **Capture** group, and choose **Shareable Link**. Give it a name that identifies where you will share it, such as “Instagram Link.”
 
 ### Choose the app you want the link to open
 Choose the app the link should open. Available options are _SMS_ and _WhatsApp_. WhatsApp is available only when a compatible WhatsApp account is connected.
@@ -16,31 +16,27 @@ Choose the app the link should open. Available options are _SMS_ and _WhatsApp_.
 Choose the phone number that should receive the opt-in message:
 
 - If you have selected SMS in the first step, and if you have phone numbers or short codes associated with your business, you can choose one of these as the number that customers will send the opt-in message to.
-- If you selected WhatsApp, Hellotext shows compatible phone numbers from the connected WhatsApp Business Account (WABA), not SMS channels.
+- If you selected WhatsApp, confirm that it is enabled for your business and check the prepared destination before sharing the link.
 
-If you do not choose a specific number, keep the default setting so Hellotext can use an available compatible number.
+If you do not choose a specific number, you can keep **Using default settings for sending**. Check the destination the link opens before publishing it.
 
 You can customize the pre-filled message customers send to subscribe. Keep the subscription intent clear; Hellotext preserves the capture reference needed to identify the source.
 
 ### Choose the follow-up
 
-On the next step, you have the option to choose what happens after your customer subscribes.
+Saving the number and message creates the link and opens the step for assigning a coupon and a playbook compatible with the subscription event.
 
-By default, a welcome message is sent to the new subscriber.
+No welcome message is sent automatically when you leave the follow-up playbook unselected. To welcome new subscribers, choose a route or playbook that starts on subscription and contains the appropriate message.
 
-However, if you have created any coupons, you can choose to include them in the welcome message as an incentive for subscribing. 
-
-Alternatively, you can select a route or another compatible playbook to replace the default welcome message.
-
-That follow-up will be sent to the new subscriber instead of the default message.
+You can choose a coupon when the selected playbook has a message prepared to include it. If you skip this step, the link remains available without that automatic follow-up.
 
 ### Share the link
 
-Move to the last step and copy the link given.
+After you save or skip the follow-up, copy the link from the last step.
 
 Share this link as you would do with a regular link.
 
-Test the link from a phone before publishing it. Confirm that it opens the expected app and number, keeps the opt-in message and capture reference, and subscribes the profile only after the customer sends the message.
+Before publishing, open the link on a phone and check that it prepares the expected app, destination, opt-in message, and capture reference. You can inspect these details without sending. For a complete subscription test, use an authorized test number and check the profile and follow-up afterward.
 
 ### Share on Instagram {#howto-share-instagram}
 
