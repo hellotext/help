@@ -2,7 +2,7 @@ Open **Settings → Billing** to manage the billing information for your busines
 
 ## Current plan and usage
 
-The first cards show the active plan and the usage summary. Use **Change plan** to review other plans, and select a period in the usage summary to inspect billable activity.
+The first cards show the active plan and the usage summary. Use **Change My Plan** to review other plans, and select a period in the usage summary to inspect billable activity.
 
 See [Plan usage and monthly charges]({% link _billing/understanding-plan-quotas.md %}) for help interpreting the comparison.
 

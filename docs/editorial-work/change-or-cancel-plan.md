@@ -1,0 +1,37 @@
+# Change or cancel your plan
+
+## Source and reader task
+
+- Pair: `billing/change-or-cancel-your-plan.md`; public ES `/es/cambiar-o-cancelar-plan` and EN `/change-or-cancel-your-plan`.
+- Unchanged originals: `originals/change-or-cancel-plan/`. Inventory SHA-256: ES `b9219236a09a644f56ad684f442acbe3ef5f3bb6f7f02a85c6ed9cefcf0b5ff3`, EN `80bc8501219b47fc536186fd1ef8d62b4656f0830773f4b657eb922c17612986`.
+- Reader task: locate the current plan and safely inspect the plan chooser, comparison, agreement, and cancellation confirmation before any final billing action.
+- Start revision: Help `6306f057fadc6b03d52a5fd4b88bff5092c3cf54` on `codex/change-or-cancel-plan-guide`. Preserve the shared stub, title, slugs, links, languages, and publication state.
+
+## Section-level audit and visual plan
+
+| Section | Verified UI or correction to make | Figure decision |
+| --- | --- | --- |
+| Entry | Current Billing uses **Cambiar mi Plan / Change My Plan**, which opens the subscription chooser. The article says **Cambiar plan / Change plan**. | The chooser itself can show the destination; a separate zero-only Billing quota card would misrepresent usage, so omit that card. |
+| Plan choice | The current chooser has package cards, monthly/yearly agreement controls where supported, details for the selected package, a persistent price summary, and **Siguiente / Next**. The selected plan is not committed at this step. | Capture the real package chooser and a focused detail/summary state if labels stay readable inside the Help column. |
+| Upgrade | The review page and payment-method flow precede final **Confirmar / Confirm**; the amount can depend on the billing method, tax, agreement and proration. | A screenshot of a fabricated successful upgrade would be misleading. Use the safe pre-confirmation chooser/review only if the cloned account can reach it without payment or persistent action. |
+| Downgrade | `Quota::Downgradable` schedules a new quota; the ready view names the future start date. The isolated business has no scheduled downgrade. | Omit a post-action screenshot rather than create financial state merely for documentation. Describe the resulting notice from source and link Billing. |
+| Cancellation | The current chooser exposes **Cancelar Suscripción / Cancel Subscription** only when cancellable; its modal states that the current plan remains valid until its displayed date. The final button submits a DELETE and must not be pressed. | Capture the genuine open modal with only fictional account data and a complete date, stopping before final confirmation. |
+| Missing controls and checklist | Eligibility depends on business and account state; review owner/admin access and the actual commercial agreement. | No further distinct UI state; the chooser and modal cover the recognition task. |
+
+Rails source checked in `/private/tmp/hellotext-workload-fixed`: `subscriptions/index.html.erb`, `review.html.erb`, `ready.html.erb`, `SubscriptionsController`, `Business::Subscription`, `Quota::Downgradable`, Billing quota header, and ES/EN locale files. The current public [Spanish pricing page](https://www.hellotext.com/precios) and [English pricing page](https://www.hellotext.com/pricing) were checked for the plan/annual toggle; no country-specific price will be copied into prose. The UI in the isolated Chrome tab is `http://127.0.0.1:3191/hellotext/subscriptions`, title `Selecciona tu plan - Hellotext`, locale ES and account `design-system@example.test`.
+
+## Protected capture and retained figures
+
+The protected clone `hellotext_editorial_workload_20260928` and its fictitious business 5 were documented in the published Billing settings record. This run reconfirmed the exact local database, loopback address, fictitious owner `design-system@example.test`, owner privilege and zero messageable contacts. No seed, payment or subscription write was required. A guarded callback-free change set the demo owner's locale to EN only for capture and restored ES afterward. It did not invoke the User locale callback that syncs Stripe customers. The isolated Chrome process on loopback CDP 9339 kept one local tab at `http://127.0.0.1:3191/hellotext/subscriptions`; no macOS picker or personal window was involved.
+
+Ten retained PNGs cover three distinct states in both languages: the five-card chooser and agreement toggle, a client-side Grow selection with the **Siguiente / Next** summary, and the open Enterprise cancellation confirmation. The chooser and summary each have desktop and responsive sources; the modal uses one focused responsive source per language. Every retained file is a direct 2× Display P3 compositor crop and is byte-identical to its public asset copy. Dimensions, clip, SHA-256, title, account and URL guards are in `captures/change-or-cancel-plan/capture-provenance.json`. Rejected probes with debugger badges, clipped labels, partial rows or cut confirmation controls were not retained. The live 390 CSS px Spanish modal clips its secondary **Cancelar** control, so the figure uses a complete 599 CSS px responsive view instead. No pixel edits or resampling were applied.
+
+Only a plan card was selected in the GET form and the non-submitting cancellation modal was opened. **Siguiente / Next**, **Confirmar / Confirm**, and the modal's final **Cancelar Suscripción / Cancel Subscription** action were never pressed. The clone has no stored payment method or scheduled downgrade; neither state was fabricated. The article explains the subsequent review, effective date and scheduled state from the verified Rails source instead of inventing a success screen. The public pricing page is linked for current country-specific terms, without copying a fixed price into prose.
+
+## Local article verification
+
+The production Jekyll build and security-header check passed. Both complete built pages were reviewed in a dedicated local Chrome tab at 1200×900 and 390×900 CSS px. Each language rendered three correctly ordered static figures, loaded the expected locale-specific desktop or responsive PNG at its declared natural dimensions, retained the lavender full-column stage and inset white frame, and had no horizontal document overflow. The source chooser displayed all five complete cards and the toggle; the summary and modal showed their complete controls. Links, captions, alt text, headings and final checklists were reviewed in both languages. No CSS or migration tests were added.
+
+During this article's source check, the already published Billing settings guide was found to call the CTA **Cambiar plan / Change plan**. The live control is **Cambiar mi Plan / Change My Plan**, so this batch makes a narrowly scoped bilingual label correction there without changing its existing figures or verified status. Both linked public pages must be checked again after merge.
+
+Pending: content commit, durable ledger verifier commit, PR checks, merge and public page/PNG verification. Do not mark the pair publicly verified before the exact assets and pages respond after deployment.
