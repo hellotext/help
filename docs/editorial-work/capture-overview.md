@@ -2,7 +2,7 @@
 
 - Pair: `captures/capture-overview.md`; public ES `/es/resumen-herramientas-captura`, EN `/capture-tools-overview`.
 - Original ES, EN and stub are preserved in `originals/capture-overview/`; SHA-256: ES `e880d174931820336920d7c0cf2d462814499b6ac5f01e79823bac80ef467d97`, EN `615831305f3175fa37aa13f882a242839aeac21848c7921652c5bc0b6b700935`, stub `c65533762831f4952afb811dbeb48af3354545f26096a33ef7647dd13806ee12`.
-- Main remains pending. The dedicated branch is local_verified by content commit `51cb2a00ef8add8b2c78719c7de81f6258db7efc` and the following ledger verifier. No publication is claimed.
+- Main remains pending. The dedicated branch is local_verified by final content commit `72eda47bf5d7366d0981176bfe590b11065791fe` and the following ledger verifier. No publication is claimed.
 
 ## Source audit and section plan
 
