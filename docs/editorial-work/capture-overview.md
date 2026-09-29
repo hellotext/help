@@ -2,7 +2,7 @@
 
 - Pair: `captures/capture-overview.md`; public ES `/es/resumen-herramientas-captura`, EN `/capture-tools-overview`.
 - Original ES, EN and stub are preserved in `originals/capture-overview/`; SHA-256: ES `e880d174931820336920d7c0cf2d462814499b6ac5f01e79823bac80ef467d97`, EN `615831305f3175fa37aa13f882a242839aeac21848c7921652c5bc0b6b700935`, stub `c65533762831f4952afb811dbeb48af3354545f26096a33ef7647dd13806ee12`.
-- Main remains pending. The dedicated branch is local_verified by final content commit `72eda47bf5d7366d0981176bfe590b11065791fe` and the following ledger verifier. No publication is claimed.
+- Main is `local_verified`. Final content commit `72eda47bf5d7366d0981176bfe590b11065791fe` and ledger verifier `9b7e603b9b71e80215d13cdaa9771358eabc727b` are both ancestors of merge `64c9d879b1e3a0e531212c3cf225ba7eae2868b9` (Help PR #225).
 
 ## Source audit and section plan
 
@@ -10,7 +10,7 @@ Rails `JourneysController#new` renders `new_journey_type` when no type is select
 
 | Section | Reader question | Visual decision |
 | --- | --- | --- |
-| Introduction and entry | Where does Explore playbooks lead, and how is Captures labeled? | A focused native ES/EN catalog screenshot with the Captures heading and complete recognizable cards is useful. Inspect the current page at final Help width; split into complementary crops only if one figure would make labels too small. |
+| Introduction and entry | Where does Explore playbooks lead, and how is Capture labeled? | A focused native ES/EN catalog screenshot with the Capture heading and complete recognizable cards is useful. Inspect the current page at final Help width; split into complementary crops only if one figure would make labels too small. |
 | Choose a capture tool | Which card corresponds to QR, link, popup, form, Webchat or AI capture? | Reuse the catalog screenshot when it identifies those choices. Avoid repeating the same screen for every paragraph. Individual linked guides own their configuration screens. |
 | Before creating | Channel, opt-in copy and next action are decisions made across tools. | No common control; the channel/consent UI differs by tool, so use prose and linked guides. |
 | Identify and test | Placement naming and device testing vary by tool. | No shared result screen. A generic catalog screenshot would not prove a completed opt-in; linked guides own those specific flows. |
@@ -24,4 +24,10 @@ The clone preflight confirmed database `hellotext_editorial_workload_20260928`, 
 
 The first figure locates the Capture category and distinguishes Webchat from the WhatsApp button. The second identifies QR code, popup, form and shareable-link cards. The third identifies Subscriber Booster and Property Collector. Website checkout opt-ins have no card in this category; their linked integration guides own the UI. The prerequisite and testing paragraphs describe decisions across different tools, so another generic catalog image would duplicate these cards without proving a configured result.
 
-The complete ES/EN articles were reviewed in the local build at a 1280 CSS px desktop viewport and 390 CSS px mobile viewport. All six figure placements and all responsive sources rendered; mobile had no horizontal overflow, and the heading, card labels, prose, and article closing remained legible. The final production-mode build and security-header check passed with Ruby 3.3.6. All twelve source, Help asset, and built PNG files matched their provenance hashes byte for byte. Both built article URLs returned HTTP 200. PR checks and public verification remain pending; no public release is claimed here.
+The complete ES/EN articles were reviewed in the local build at a 1280 CSS px desktop viewport and 390 CSS px mobile viewport. All six figure placements and all responsive sources rendered; mobile had no horizontal overflow, and the heading, card labels, prose, and article closing remained legible. The final production-mode build and security-header check passed with Ruby 3.3.6. All twelve source, Help asset, and built PNG files matched their provenance hashes byte for byte. Both built article URLs returned HTTP 200.
+
+## Public verification (2026-09-29)
+
+Help PR #225 merged with a merge commit after Build, Aikido, Netlify preview, header rules and final-head Codex review passed. The reviewer correctly identified that root-level native sources would be published by Jekyll; commit `72eda47b` moved them under the excluded editorial-work tree. The rebuilt preview returned 404 for the former public provenance URL while all twelve intended image URLs remained 200 with matching hashes. A second comment incorrectly treated the content commit as a sibling; the branch graph and `git merge-base --is-ancestor` confirmed the final recorded content commit is an ancestor of the verifier and merge. Both review threads were answered and resolved.
+
+The main Build workflow `36568851933` passed for exact merge SHA `64c9d879b1e3a0e531212c3cf225ba7eae2868b9`. Public [Spanish](https://help.hellotext.com/es/resumen-herramientas-captura) and [English](https://help.hellotext.com/capture-tools-overview) pages returned HTTP 200 with the three figures per language. All twelve public PNGs returned HTTP 200 and matched the approved native SHA-256 hashes in the provenance file. The production Netlify deploy listing is not accessible without credentials, so no production deploy ID-to-SHA association is claimed; no manual deploy was run.
