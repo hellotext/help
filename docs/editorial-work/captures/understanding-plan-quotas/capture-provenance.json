@@ -10,10 +10,10 @@
     "--force-color-profile=display-p3-d65",
     "--force-device-scale-factor=2"
   ],
-  "database": "hellotext_editorial_billing_usage_20260929 isolated clone of prior Grow demo; business 5; all 127 contacts unconfirmed",
+  "database": "hellotext_editorial_billing_usage_20260929 isolated clone of prior Grow demo; business 5; all 127 contacts have unconfirmed subscription state and messageable=false",
   "account": "design-system@example.test fictional owner; guarded callback-free locale es -> en -> es in clone",
   "business_state": "Grow active monthly plan at USD 299; 12 fictional attributed sales totaling USD 8,400 and a 3% fee of USD 252; 80 synthetic historical SMS messages with 88 segments and USD 12 cost; 1,250 synthetic historical WhatsApp/Email messages with USD 2 bucket cost. Grow remains the highest monthly amount. No transport, payment or campaign action executed.",
-  "safety": "Guarded isolated local clone, fictional owner, 127 unconfirmed contacts and empty quota ledger before seeding. Direct SQL created synthetic historical message and quota rows without application callbacks, outbound transport, campaigns, payments or subscription actions; all contacts remain unconfirmed.",
+  "safety": "Guarded isolated local clone, fictional owner, 127 contacts with both subscription_state=unconfirmed and messageable=false, and empty quota ledger before seeding. Direct SQL created synthetic historical message and quota rows without application callbacks, outbound transport, campaigns, payments or subscription actions; both contact safety fields remained unchanged.",
   "guard": "Each capture verified dedicated Chrome PID/profile/loopback CDP port, exactly one local tab, exact URL/title/locale, fictional account, target text, CSS viewport, zoom 1, DPR 2, stable pre/post state, native PNG dimensions and embedded Display P3. No screenshot pixels were edited.",
   "source_transform": "direct compositor crop only, no pixel editing, resampling or chart reconstruction",
   "records": [

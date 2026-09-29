@@ -25,7 +25,8 @@ BEGIN
   IF NOT EXISTS (SELECT 1 FROM products_configuration_attributions WHERE id = 3 AND commission = 3) THEN
     RAISE EXCEPTION 'Attribution rate guard failed';
   END IF;
-  IF EXISTS (SELECT 1 FROM contacts WHERE business_id = 5 AND subscription_state <> 'unconfirmed') THEN
+  IF EXISTS (SELECT 1 FROM contacts WHERE business_id = 5 AND
+    (subscription_state IS DISTINCT FROM 'unconfirmed' OR messageable IS DISTINCT FROM false)) THEN
     RAISE EXCEPTION 'Messageable contact guard failed';
   END IF;
   IF (SELECT count(*) FROM contacts WHERE business_id = 5) <> 127 THEN
