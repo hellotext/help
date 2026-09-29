@@ -37,3 +37,5 @@ The production `yarn build` ran with Ruby 3.3.6 and the security-header verifier
 Density descriptors and `width: auto` keep the selected responsive image at or below its original logical size. Desktop images render below their 400–580 CSS-pixel crop widths. At 390 CSS pixels the images render at 316 pixels or less, except the ES discount focus which remains exactly 245 pixels. At 590 pixels every narrower source remains at its logical cap (ES discount 245, EN discount 330, invitation 341, controls 345, prerequisite 390). The browser observations are saved with the source provenance. No useful visual state remains blocked for this pair; final enablement, customer acceptance and provider delivery are described as controlled user testing and were not performed for photography.
 
 Public checks and the deployed revision remain pending until the authorized PR is integrated.
+
+Content commit: `28eacbe680c32e5224ce298ca20cd5eaab7f13c0`. The ledger now points to this preserved content commit after the complete local ES/EN visual/build checks. Public verification is recorded separately after integration.
