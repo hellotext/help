@@ -26,4 +26,12 @@ The final production `yarn build` and security-header verification passed. The c
 
 The underlying interface labels and conditional invoice/plan states were checked against the Rails Billing views in `/private/tmp/hellotext-workload-fixed`. The current public Hellotext [pricing page](https://www.hellotext.com/pricing/us) and the already verified Pricing, SMS and Meta-fee Help guides support the distinction between the four-way comparison, estimated SMS equivalent and charges collected separately by Meta. No live price or tax amount was copied into this guide.
 
-Content commit: `1df2f0d2`. The `local_verified` progress entry records this commit. Public page verification follows the merge; do not claim a production Netlify deploy ID without its SHA evidence.
+Content commit: `1df2f0d2`. The `local_verified` progress entry records this commit.
+
+## Public verification
+
+- Help PR [#211](https://github.com/hellotext/help/pull/211) merged the content and local verification commits by merge commit `8db1aadd49431995f1f02bda4e786a57cd6788ae`, preserving both commits. Build, Aikido, Netlify preview, security headers, and the repository's Codex review completed without findings before merge.
+- The [main Build](https://github.com/hellotext/help/actions/runs/36525488856) passed for that exact merge SHA.
+- The public [ES](https://help.hellotext.com/es/solucionar-dudas-facturacion) and [EN](https://help.hellotext.com/billing-troubleshooting) pages returned 200 with two static figures each and the visible payment-preview explanation.
+- All eight reused desktop/mobile PNG URLs returned 200 and matched the approved local files byte for byte. They were previously published by the Billing settings guide; this PR added references, not duplicate assets.
+- The production Netlify deploy listing did not provide an authenticated SHA association, so no production deploy ID is claimed. Public page and asset checks establish the published result.
