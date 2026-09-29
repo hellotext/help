@@ -65,7 +65,7 @@ The form editor lets you configure four parts.
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Preview of a fictional form with heading, phone field, button and SMS notice">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/captures/forms/en/preview.png" width="1960" height="1460" loading="lazy" decoding="async" alt="Fictional form with a Get updates from Editorial Demo heading, Phone number field, Subscribe button and SMS consent notice." />
+      <img class="ht-editorial-visual__image" src="/images/captures/forms/en/preview.png" width="1960" height="1460" loading="lazy" decoding="async" alt="Fictional form with a Get updates heading, Phone number field, Subscribe button and SMS consent notice." />
     </div>
   </div>
   <figcaption class="ht-editorial-visual__caption">The preview shows the form's four parts together. Its SMS notice matches the phone field.</figcaption>
@@ -78,7 +78,10 @@ The heading contains the title and supporting content shown before the fields. U
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Phone field settings in the form editor">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/captures/forms/en/fields.png" width="3320" height="2480" loading="lazy" decoding="async" alt="Fictional Phone field settings with type, label, placeholder and Required control." />
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/forms/en/fields-mobile.png" width="1536" height="1344" />
+        <img class="ht-editorial-visual__image" src="/images/captures/forms/en/fields.png" width="3320" height="2480" loading="lazy" decoding="async" alt="Fictional Phone field settings with type, label, placeholder and Required control." />
+      </picture>
     </div>
   </div>
   <figcaption class="ht-editorial-visual__caption">Select a field in the preview to set its type, label, placeholder and whether it is required.</figcaption>
@@ -137,7 +140,10 @@ The generated code contains the identifier Hellotext uses to load the form defin
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Generated HTML for embedding the form">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/captures/forms/en/embed.png" width="2100" height="2100" loading="lazy" decoding="async" alt="Embed card showing the generated HTML for a fictional form." />
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/forms/shared/embed-mobile.png" width="1664" height="820" />
+        <img class="ht-editorial-visual__image" src="/images/captures/forms/en/embed.png" width="2100" height="2100" loading="lazy" decoding="async" alt="Embed card showing the generated HTML for a fictional form." />
+      </picture>
     </div>
   </div>
   <figcaption class="ht-editorial-visual__caption">The snippet includes the form identifier and the parts Hellotext fills in when it loads on your page.</figcaption>

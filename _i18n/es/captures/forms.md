@@ -78,7 +78,10 @@ El encabezado contiene el título y el contenido de apoyo que aparecen antes de 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Configuración del campo Teléfono en el editor de formularios">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/captures/forms/es/fields.png" width="3320" height="2480" loading="lazy" decoding="async" alt="Panel de un campo Teléfono ficticio con tipo, etiqueta, marcador de posición y control Requerido." />
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/forms/es/fields-mobile.png" width="1536" height="1344" />
+        <img class="ht-editorial-visual__image" src="/images/captures/forms/es/fields.png" width="3320" height="2480" loading="lazy" decoding="async" alt="Panel de un campo Teléfono ficticio con tipo, etiqueta, marcador de posición y control Requerido." />
+      </picture>
     </div>
   </div>
   <figcaption class="ht-editorial-visual__caption">Selecciona un campo en la vista previa para ajustar su tipo, etiqueta, marcador de posición y obligatoriedad.</figcaption>
@@ -137,7 +140,10 @@ El código contiene el identificador que Hellotext utiliza para cargar la defini
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Código HTML generado para integrar el formulario">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/captures/forms/es/embed.png" width="2100" height="2100" loading="lazy" decoding="async" alt="Tarjeta de integración que muestra el HTML generado para el formulario ficticio." />
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/forms/shared/embed-mobile.png" width="1664" height="820" />
+        <img class="ht-editorial-visual__image" src="/images/captures/forms/es/embed.png" width="2100" height="2100" loading="lazy" decoding="async" alt="Tarjeta de integración que muestra el HTML generado para el formulario ficticio." />
+      </picture>
     </div>
   </div>
   <figcaption class="ht-editorial-visual__caption">El snippet incluye el identificador del formulario y las partes que Hellotext completa al cargarlo en tu página.</figcaption>

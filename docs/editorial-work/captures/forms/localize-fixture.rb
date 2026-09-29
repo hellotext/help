@@ -13,7 +13,7 @@ copy = {
   'es' => { header: 'Recibe novedades de Editorial Demo.', label: 'Teléfono',
             placeholder: 'Número de teléfono', button: 'Suscribirme',
             footer: 'Al suscribirte, aceptas recibir mensajes SMS de Editorial Demo. Consulta nuestros términos y aviso de privacidad.' },
-  'en' => { header: 'Get updates from Editorial Demo.', label: 'Phone number',
+  'en' => { header: 'Get updates.', label: 'Phone number',
             placeholder: 'Phone number', button: 'Subscribe',
             footer: 'By subscribing, you agree to receive SMS updates from Editorial Demo. See our terms and privacy notice.' }
 }
