@@ -44,16 +44,13 @@ For channel eligibility and consent, see [Who you can message]({% link _audience
 
 Use a distinct name for each placement when you need to compare results, such as `Newsletter footer` or `Wholesale inquiry page`.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Capture options, including Website Form">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Website Form">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/capture-overview/site-en-mobile.png" width="760" height="1568" />
-        <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/site-en.png" width="1780" height="1030" loading="lazy" decoding="async" alt="Capture group with the Website Form card among the signup tools." />
-      </picture>
+    <div class="ht-editorial-visual__image-frame" style="max-width: 416px; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/desktop-form-en.png" width="800" height="480" loading="lazy" decoding="async" alt="Website Form in a fictional account." />
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Website Form appears in the Capture group of the playbook catalog. This reuses the approved image from Capture tools overview.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Website Form card in the fictional catalog desktop view.</figcaption>
 </figure>
 
 ## Configure content and fields

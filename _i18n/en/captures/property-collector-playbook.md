@@ -31,16 +31,13 @@ Use Property Collector directly when the main purpose of the conversation is to 
 
 The playbook follows its configured collection list, asks for missing values, and saves valid answers to the profile. This works well when the business needs a reusable conversational capture for selected properties. To use it this way, configure and enable the standalone Property Collector playbook.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Subscriber Booster and Property Collector cards in the Captures catalog group.">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Property Collector">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 800px; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/capture-overview/ai-en-mobile.png" width="760" height="760" />
-        <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/ai-en.png" width="1780" height="520" loading="lazy" decoding="async" alt="Subscriber Booster and Property Collector cards in the Captures catalog group." />
-      </picture>
+    <div class="ht-editorial-visual__image-frame" style="max-width: 416px; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/desktop-properties-en.png" width="800" height="480" loading="lazy" decoding="async" alt="Property Collector in a fictional account." />
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">The catalog shows Property Collector beside Subscriber Booster in a fictional account.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Property Collector card in the fictional catalog desktop view.</figcaption>
 </figure>
 
 ### As a prerequisite for another playbook

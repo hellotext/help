@@ -16,16 +16,13 @@ La persona debe presionar **Enviar**. Solo al recibir ese mensaje Hellotext pued
 
 Abre **Misiones**, haz clic en **Explorar misiones**, busca el grupo **Captura** y elige **Suscriptor por Código QR**. Ponle un nombre que identifique dónde lo usarás, como «QR del empaque».
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Tarjeta de Suscriptor por Código QR en el grupo Captura del catálogo de misiones.">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Suscriptor por Código QR">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/capture-overview/site-es-mobile.png" width="760" height="1580" />
-        <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/site-es.png" width="1780" height="1030" loading="lazy" decoding="async" alt="Tarjeta de Suscriptor por Código QR junto a las otras capturas de sitio y enlace." />
-      </picture>
+    <div class="ht-editorial-visual__image-frame" style="max-width: 416px; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/desktop-qr-es.png" width="800" height="480" loading="lazy" decoding="async" alt="Suscriptor por Código QR en una cuenta ficticia." />
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Ubicación de Suscriptor por Código QR en una cuenta ficticia.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Tarjeta de Suscriptor por Código QR en la vista de escritorio del catálogo ficticio.</figcaption>
 </figure>
 
 Primero elige **SMS** o **WhatsApp**. La opción de WhatsApp solo está disponible si ese canal está habilitado en tu negocio.

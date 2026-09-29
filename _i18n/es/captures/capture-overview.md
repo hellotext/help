@@ -4,16 +4,16 @@ Hellotext presenta estas opciones como misiones, pero no todas funcionan de la m
 
 Para encontrar las misiones de captura en Hellotext, abre **Misiones**, haz clic en **Explorar misiones** y ve al grupo **Captura**.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Grupo Captura del catálogo con las tarjetas Widget de Webchat y Widget de WhatsApp.">
-  <div class="ht-editorial-visual__stage">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Widget de Webchat, Widget de WhatsApp">
+  <div class="ht-editorial-visual__stage" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px;">
     <div class="ht-editorial-visual__image-frame">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/capture-overview/entry-es-mobile.png" width="760" height="870" />
-        <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/entry-es.png" width="1780" height="600" loading="lazy" decoding="async" alt="Grupo Captura del catálogo con las tarjetas Widget de Webchat y Widget de WhatsApp." />
-      </picture>
+      <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/desktop-webchat-es.png" width="800" height="480" loading="lazy" decoding="async" alt="Widget de Webchat" />
+    </div>
+    <div class="ht-editorial-visual__image-frame">
+      <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/desktop-whatsapp-es.png" width="800" height="480" loading="lazy" decoding="async" alt="Widget de WhatsApp" />
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Grupo Captura y tarjetas de los widgets conversacionales en la interfaz de una cuenta ficticia.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Tarjetas de los widgets conversacionales en la vista de escritorio del catálogo ficticio.</figcaption>
 </figure>
 
 ## Elige una herramienta de captura
@@ -26,16 +26,22 @@ Usa **Popup de Sitio Web** cuando quieres captar teléfonos, emails u otros dato
 
 Usa **formularios** cuando quieres recopilar datos de contacto o propiedades personalizadas del perfil directamente en tu sitio web.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Tarjetas de Suscriptor por Código QR, Popup de Sitio Web, Formulario de Sitio Web y Enlace Compartible.">
-  <div class="ht-editorial-visual__stage">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Suscriptor por Código QR, Popup de Sitio Web, Formulario de Sitio Web, Enlace Compartible">
+  <div class="ht-editorial-visual__stage" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px;">
     <div class="ht-editorial-visual__image-frame">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/capture-overview/site-es-mobile.png" width="760" height="1580" />
-        <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/site-es.png" width="1780" height="1030" loading="lazy" decoding="async" alt="Tarjetas de Suscriptor por Código QR, Popup de Sitio Web, Formulario de Sitio Web y Enlace Compartible." />
-      </picture>
+      <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/desktop-qr-es.png" width="800" height="480" loading="lazy" decoding="async" alt="Suscriptor por Código QR" />
+    </div>
+    <div class="ht-editorial-visual__image-frame">
+      <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/desktop-popup-es.png" width="800" height="480" loading="lazy" decoding="async" alt="Popup de Sitio Web" />
+    </div>
+    <div class="ht-editorial-visual__image-frame">
+      <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/desktop-form-es.png" width="800" height="480" loading="lazy" decoding="async" alt="Formulario de Sitio Web" />
+    </div>
+    <div class="ht-editorial-visual__image-frame">
+      <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/desktop-link-es.png" width="800" height="480" loading="lazy" decoding="async" alt="Enlace Compartible" />
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Opciones de captura para códigos QR, popup, formulario y enlace compartible en la interfaz de una cuenta ficticia.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Tarjetas de código QR, popup, formulario y enlace compartible en la vista de escritorio del catálogo ficticio.</figcaption>
 </figure>
 
 Usa **Widget de Webchat** cuando quieres que visitantes inicien una conversación desde tu sitio antes de comprar, pedir soporte o continuar por WhatsApp.
@@ -46,16 +52,16 @@ Usa **Impulsor de Suscriptores** cuando la IA debería introducir una suscripci�
 
 Usa **Recolector de Propiedades** cuando quieres que la IA recopile propiedades faltantes del perfil directamente o antes de que otra misión continúe.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Tarjetas de Impulsor de Suscriptores y Recolector de Propiedades.">
-  <div class="ht-editorial-visual__stage">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Impulsor de Suscriptores, Recolector de Propiedades">
+  <div class="ht-editorial-visual__stage" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px;">
     <div class="ht-editorial-visual__image-frame">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/capture-overview/ai-es-mobile.png" width="760" height="760" />
-        <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/ai-es.png" width="1780" height="520" loading="lazy" decoding="async" alt="Tarjetas de Impulsor de Suscriptores y Recolector de Propiedades." />
-      </picture>
+      <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/desktop-subscriber-es.png" width="800" height="480" loading="lazy" decoding="async" alt="Impulsor de Suscriptores" />
+    </div>
+    <div class="ht-editorial-visual__image-frame">
+      <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/desktop-properties-es.png" width="800" height="480" loading="lazy" decoding="async" alt="Recolector de Propiedades" />
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Opciones de captura asistida en la interfaz de una cuenta ficticia.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Tarjetas de captura asistida por IA en la vista de escritorio del catálogo ficticio.</figcaption>
 </figure>
 
 Usa **opt-in en checkout de Shopify** u **opt-in en checkout de Wix** cuando quieres que tus clientes se suscriban mientras completan una compra.
