@@ -1,0 +1,232 @@
+{
+  "article_key": "campaigns/campaign-best-practices.md",
+  "capture_date_utc": "2026-09-29",
+  "status": "local_verified",
+  "route": "isolated headless Chrome compositor via CDP Page.captureScreenshot",
+  "database": "hellotext_editorial_workload_20260928 local clone, business 5, zero messageable contacts",
+  "account": "design-system@example.test fictional owner; changed locale es -> en -> es with exact database guard",
+  "safety": "Only GET campaign technology and draft audience screens were opened; the audience-limit settings popover was opened and no limit was applied. No campaign was created, saved, tested, scheduled or sent. All accepted crops exclude the stale subscriber estimate and all customer records. The fictional account password was restored in the isolated clone only.",
+  "guard": "Capture tool verified the dedicated Chrome PID/profile and loopback CDP port, exactly one local tab, exact URL/title/locale/account/control, CSS viewport, zoom 1, DPR 2, stable pre/post state, encoded PNG and embedded Display P3.",
+  "source_transform": "direct compositor crop, no pixel editing or resampling",
+  "mobile_popover_decision": "At a 390 CSS pixel viewport the product's audience-limit popover cuts off the label beside its number field. That rejected native source was removed. Mobile Help uses a separately captured, focused native detail of the complete Limit to radio and number field from the desktop popover. The full popover appears on desktop. The focused detail remains legible at the final Help column width and has no cut-off control or text.",
+  "records": [
+    {
+      "section": "audience_limit",
+      "locale": "es",
+      "variant": "desktop_responsive",
+      "source": "docs/editorial-work/captures/campaign-best-practices/audience-limit-es-original.png",
+      "asset": "images/campaigns/campaign-best-practices/audience-limit-es.png",
+      "sha256": "bc479d9b5f27fa592ce08d845d8c60738f9d60170821f2cf9cf31b19da3427f7",
+      "source_url": "http://127.0.0.1:3191/hellotext/campaigns/draft/audience?technologies=sms",
+      "css_viewport": [1200, 900],
+      "css_clip": [381, 399, 576, 313],
+      "page_scroll": [0, 0],
+      "source_pixels": [1152, 626],
+      "source_density": 2,
+      "icc": "Display P3",
+      "visible_state": "Audience limit settings open without applying them; stale subscriber estimate and customer records excluded"
+    },
+    {
+      "section": "audience_limit",
+      "locale": "es",
+      "variant": "mobile_detail",
+      "source": "docs/editorial-work/captures/campaign-best-practices/audience-limit-es-mobile-detail-original.png",
+      "asset": "images/campaigns/campaign-best-practices/audience-limit-es-mobile.png",
+      "sha256": "dedaf29c57261ef185c6b6f65ec664a11b26bd1f4801082adfa60f428c9c7e8e",
+      "source_url": "http://127.0.0.1:3191/hellotext/campaigns/draft/audience?technologies=sms",
+      "css_viewport": [1200, 900],
+      "css_clip": [405, 533, 235, 52],
+      "page_scroll": [0, 0],
+      "source_pixels": [470, 104],
+      "source_density": 2,
+      "icc": "Display P3",
+      "visible_state": "Native focus crop of the complete Limit to radio and number field; no setting applied"
+    },
+    {
+      "section": "audience_limit",
+      "locale": "en",
+      "variant": "desktop_responsive",
+      "source": "docs/editorial-work/captures/campaign-best-practices/audience-limit-en-original.png",
+      "asset": "images/campaigns/campaign-best-practices/audience-limit-en.png",
+      "sha256": "0627a9558201477b24ab74b67fc35cbf4a079d3524d44c9eb770930e9ef44d04",
+      "source_url": "http://127.0.0.1:3191/hellotext/campaigns/draft/audience?technologies=sms",
+      "css_viewport": [1200, 900],
+      "css_clip": [373, 371, 576, 313],
+      "page_scroll": [0, 0],
+      "source_pixels": [1152, 626],
+      "source_density": 2,
+      "icc": "Display P3",
+      "visible_state": "Audience limit settings open without applying them; stale subscriber estimate and customer records excluded"
+    },
+    {
+      "section": "audience_limit",
+      "locale": "en",
+      "variant": "mobile_detail",
+      "source": "docs/editorial-work/captures/campaign-best-practices/audience-limit-en-mobile-detail-original.png",
+      "asset": "images/campaigns/campaign-best-practices/audience-limit-en-mobile.png",
+      "sha256": "60cfc52b50fc6db0f48a3d2053b70da20f451c838afe50d5736abca134cf569d",
+      "source_url": "http://127.0.0.1:3191/hellotext/campaigns/draft/audience?technologies=sms",
+      "css_viewport": [1200, 900],
+      "css_clip": [398, 505, 225, 48],
+      "page_scroll": [0, 0],
+      "source_pixels": [450, 96],
+      "source_density": 2,
+      "icc": "Display P3",
+      "visible_state": "Native focus crop of the complete Limit to radio and number field; no setting applied"
+    },
+    {
+      "section": "delivery_option",
+      "locale": "es",
+      "variant": "desktop",
+      "source": "docs/editorial-work/captures/campaign-best-practices/channel-choice-es-original.png",
+      "asset": "images/campaigns/campaign-best-practices/channel-choice-es.png",
+      "sha256": "7490cbad89c848bd244d770e5eea46eda57df7031fb22c00ab067e236a940581",
+      "source_url": "http://127.0.0.1:3191/hellotext/campaigns/new",
+      "css_viewport": [
+        1200,
+        900
+      ],
+      "css_clip": [
+        30,
+        95,
+        675,
+        530
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "source_pixels": [
+        1350,
+        1060
+      ],
+      "source_density": 2,
+      "icc": "Display P3",
+      "visible_state": "SMS only selected; WhatsApp and SMS unavailable in the isolated demonstration business; subscriber estimate and customer records excluded from crop"
+    },
+    {
+      "section": "delivery_option",
+      "locale": "es",
+      "variant": "mobile",
+      "source": "docs/editorial-work/captures/campaign-best-practices/channel-choice-es-mobile-original.png",
+      "asset": "images/campaigns/campaign-best-practices/channel-choice-es-mobile.png",
+      "sha256": "e186a8c9272586624edeab7b898e12d224f04bebbd18c7232ec2dc5119e9abd8",
+      "source_url": "http://127.0.0.1:3191/hellotext/campaigns/new",
+      "css_viewport": [
+        390,
+        900
+      ],
+      "css_clip": [
+        16,
+        45,
+        358,
+        565
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "source_pixels": [
+        716,
+        1130
+      ],
+      "source_density": 2,
+      "icc": "Display P3",
+      "visible_state": "SMS only selected; WhatsApp and SMS unavailable in the isolated demonstration business; subscriber estimate and customer records excluded from crop"
+    },
+    {
+      "section": "delivery_option",
+      "locale": "en",
+      "variant": "desktop",
+      "source": "docs/editorial-work/captures/campaign-best-practices/channel-choice-en-original.png",
+      "asset": "images/campaigns/campaign-best-practices/channel-choice-en.png",
+      "sha256": "08c124047756406d99898695e49c6b464d33de8f06300d8ea13ec9cd6f917000",
+      "source_url": "http://127.0.0.1:3191/hellotext/campaigns/new",
+      "css_viewport": [
+        1200,
+        900
+      ],
+      "css_clip": [
+        30,
+        95,
+        675,
+        550
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "source_pixels": [
+        1350,
+        1100
+      ],
+      "source_density": 2,
+      "icc": "Display P3",
+      "visible_state": "SMS only selected; WhatsApp and SMS unavailable in the isolated demonstration business; subscriber estimate and customer records excluded from crop"
+    },
+    {
+      "section": "delivery_option",
+      "locale": "en",
+      "variant": "mobile",
+      "source": "docs/editorial-work/captures/campaign-best-practices/channel-choice-en-mobile-original.png",
+      "asset": "images/campaigns/campaign-best-practices/channel-choice-en-mobile.png",
+      "sha256": "c7f199d8bf6e61096c4e8126cb27fc06a2762062dfd0781b08064eae50fa2d4f",
+      "source_url": "http://127.0.0.1:3191/hellotext/campaigns/new",
+      "css_viewport": [
+        390,
+        900
+      ],
+      "css_clip": [
+        16,
+        45,
+        358,
+        565
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "source_pixels": [
+        716,
+        1130
+      ],
+      "source_density": 2,
+      "icc": "Display P3",
+      "visible_state": "SMS only selected; WhatsApp and SMS unavailable in the isolated demonstration business; subscriber estimate and customer records excluded from crop"
+    }
+  ],
+  "reused_assets": [
+    {
+      "section": "campaign_report_delivery_funnel",
+      "locale": "es",
+      "variant": "desktop",
+      "asset": "images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-es.png",
+      "sha256": "97a7ffa8ab9ea3c57ec0efb2ec12eca5841b6019592bbdd92b49e16caa6b420e",
+      "from_article": "analytics-reporting-attribution/campaign-reporting.md"
+    },
+    {
+      "section": "campaign_report_delivery_funnel",
+      "locale": "es",
+      "variant": "mobile",
+      "asset": "images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-es-mobile.png",
+      "sha256": "a9c36d3abe18aab598d2b1daffe50d9d3eb03726e0f5e002d5e2044ec550dfa1",
+      "from_article": "analytics-reporting-attribution/campaign-reporting.md"
+    },
+    {
+      "section": "campaign_report_delivery_funnel",
+      "locale": "en",
+      "variant": "desktop",
+      "asset": "images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-en.png",
+      "sha256": "0464f0b52d1bac89129015255f2aee2ac8df40f73ec2ac3fe902152a6f923edf",
+      "from_article": "analytics-reporting-attribution/campaign-reporting.md"
+    },
+    {
+      "section": "campaign_report_delivery_funnel",
+      "locale": "en",
+      "variant": "mobile",
+      "asset": "images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-en-mobile.png",
+      "sha256": "0498f8842afd448ad0b17ddb5c9d931efa25c0714854608ebc2d75a1a79c746f",
+      "from_article": "analytics-reporting-attribution/campaign-reporting.md"
+    }
+  ]
+}

@@ -28,18 +28,6 @@ Hellotext elimina superposiciones y calcula el target estimado según los canale
 
 Usa el límite de audiencia cuando quieras enviar intencionalmente a una cantidad máxima de clientes elegibles. El límite controla el tamaño de la campaña, pero no vuelve contactable a un perfil que no sea elegible.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--campaign-audience-limit" aria-label="Opciones de límite de audiencia">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/campaigns/campaign-best-practices/audience-limit-es-mobile.png" width="470" height="104" />
-        <img class="ht-editorial-visual__image" src="/images/campaigns/campaign-best-practices/audience-limit-es.png" width="1152" height="626" loading="lazy" decoding="async" alt="Opciones de límite de audiencia, con el control Limitar a y su campo para la cantidad de clientes." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">El límite se configura desde los ajustes del target estimado; la captura muestra un borrador ficticio sin enviar.</figcaption>
-</figure>
-
 Sigue leyendo: [Diferencias entre Listas y Segmentos]({% link _audience/lists-and-segments.md %}) y [¿A quién puedo escribirle?]({% link _audience/consent-and-subscriber-status.md %}).
 
 ## Elige la opción de envío de forma intencional
@@ -51,21 +39,7 @@ Selecciona la opción que coincida con la audiencia y el contenido:
 - **Solo SMS** mantiene la campaña concisa y la entrega por SMS.
 - **Solo correo** envía únicamente por correo electrónico y requiere acceso al canal y un remitente verificado y activo.
 
-El creador muestra estas opciones, pero poder enviar depende del acceso y de tener un remitente listo para el canal elegido. En esta cuenta de demostración se puede seleccionar SMS, mientras que WhatsApp aparece deshabilitado.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Selección del canal de una campaña de demostración">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 711px; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/campaigns/campaign-best-practices/channel-choice-es-mobile.png" width="716" height="1130" />
-        <img class="ht-editorial-visual__image" src="/images/campaigns/campaign-best-practices/channel-choice-es.png" width="1350" height="1060" loading="lazy" decoding="async" alt="En Cómo se enviará, Solo SMS está seleccionado y WhatsApp y SMS aparece deshabilitado en una cuenta ficticia." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Interfaz real con una cuenta ficticia; la disponibilidad de los canales cambia según el negocio.</figcaption>
-</figure>
-
-Confirma el remitente, el target estimado y la vista previa de cada canal seleccionado en lugar de asumir que los mismos perfiles de cliente son elegibles en todos.
+El creador muestra estas opciones, pero poder enviar depende del acceso y de tener un remitente listo para el canal elegido. Confirma el remitente, el target estimado y la vista previa de cada canal seleccionado en lugar de asumir que los mismos perfiles de cliente son elegibles en todos.
 
 ## Escribe para los canales seleccionados
 
@@ -99,7 +73,7 @@ Una prueba de WhatsApp con contenido nuevo puede esperar la aprobación de Meta.
 
 Las campañas pueden enviarse ahora o programarse para una fecha y hora futuras. Hellotext aplica las ventanas de comunicación del país de destino y los ajustes de horas nocturnas del negocio.
 
-Las campañas dirigidas a por lo menos 100 clientes pueden requerir revisión editorial; una campaña cuyas plantillas de WhatsApp ya fueron aprobadas puede omitir ese paso. El contenido nuevo de WhatsApp también puede necesitar aprobación de Meta. Programa los lanzamientos importantes con margen para las revisiones que correspondan en lugar de enviarlos inmediatamente antes del horario de entrega deseado.
+Las campañas dirigidas a por lo menos 100 clientes requieren revisión editorial. El contenido de WhatsApp también puede necesitar aprobación de Meta. Programa los lanzamientos importantes con margen para ambas revisiones en lugar de enviarlos inmediatamente antes del horario de entrega deseado.
 
 ## Coordina campañas con misiones activas
 
@@ -121,18 +95,6 @@ Hellotext genera el reporte de campaña automáticamente después de la entrega.
 - Conversión y compras atribuidas.
 - ROI, ingresos atribuidos e ingresos por mensaje.
 - Actividad de clientes y rendimiento por canal cuando esté disponible.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Embudo de entrega de un reporte de campaña">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 800px; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-es-mobile.png" width="754" height="820" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-es.png" width="1560" height="880" loading="lazy" decoding="async" alt="Embudo de demostración con las etapas Enviado, Entregado, Interacción y Conversión para revisar dónde se pierde respuesta." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Se reutiliza una captura aprobada de Reportes de campaña con datos ficticios; no se envió una campaña para esta guía.</figcaption>
-</figure>
 
 No optimices una sola métrica de forma aislada. Un CTR alto con conversión baja puede significar que el mensaje generó interés, pero la oferta, el destino, la audiencia o la experiencia de compra no completaron el trabajo.
 

@@ -28,18 +28,6 @@ Hellotext removes overlaps and calculates the estimated target from the selected
 
 Use the audience limit when you intentionally want to send to a maximum number of eligible customers. A limit controls campaign size but does not make an ineligible profile contactable.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--campaign-audience-limit" aria-label="Audience limit options">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/campaigns/campaign-best-practices/audience-limit-en-mobile.png" width="450" height="96" />
-        <img class="ht-editorial-visual__image" src="/images/campaigns/campaign-best-practices/audience-limit-en.png" width="1152" height="626" loading="lazy" decoding="async" alt="Audience limit options, including the Limit to control and its customer-count field." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Set the limit from the estimated target settings; the image shows an unsent fictional draft.</figcaption>
-</figure>
-
 Keep reading: [Lists vs. segments]({% link _audience/lists-and-segments.md %}) and [Who can I message?]({% link _audience/consent-and-subscriber-status.md %}).
 
 ## Choose the delivery option intentionally
@@ -51,21 +39,7 @@ Select the option that matches the audience and content:
 - **SMS only** keeps the campaign concise and delivers it through SMS.
 - **Email only** sends only through Email and requires channel access and a verified, active sender.
 
-The creator shows these options, but sending depends on channel access and a ready sender for the selected option. In this demonstration account, SMS can be selected while WhatsApp appears unavailable.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Delivery channel selection for a demonstration campaign">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 711px; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/campaigns/campaign-best-practices/channel-choice-en-mobile.png" width="716" height="1130" />
-        <img class="ht-editorial-visual__image" src="/images/campaigns/campaign-best-practices/channel-choice-en.png" width="1350" height="1100" loading="lazy" decoding="async" alt="On How it will be sent, SMS only is selected and WhatsApp and SMS is unavailable in a fictional account." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Real interface with a fictional account; channel availability depends on the business.</figcaption>
-</figure>
-
-Confirm the sender, estimated target, and preview for every selected channel instead of assuming that the same customer profiles are eligible everywhere.
+The creator shows these options, but sending depends on channel access and a ready sender for the selected option. Confirm the sender, estimated target, and preview for every selected channel instead of assuming that the same customer profiles are eligible everywhere.
 
 ## Write for the selected channels
 
@@ -99,7 +73,7 @@ A WhatsApp test with new content can wait for Meta approval. A test lets you rev
 
 Campaigns can be sent now or scheduled for a future date and time. Hellotext applies communication windows for the destination country and the business's night-hour settings.
 
-Campaigns targeting at least 100 customers can require editorial review; a campaign whose WhatsApp templates are already approved can skip that step. New WhatsApp content can also require Meta approval. Schedule important launches with enough time for the applicable reviews instead of submitting immediately before the desired delivery time.
+Campaigns targeting at least 100 customers require editorial review. WhatsApp content can also require Meta approval. Schedule important launches with enough time for both reviews instead of submitting immediately before the desired delivery time.
 
 ## Coordinate campaigns with ongoing playbooks
 
@@ -121,18 +95,6 @@ Hellotext generates the campaign report automatically after delivery. Review the
 - Conversion and attributed purchases.
 - ROI, attributed revenue, and revenue per message.
 - Customer activity and performance by channel when available.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Campaign report delivery funnel">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 800px; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-en-mobile.png" width="740" height="860" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-en.png" width="1560" height="860" loading="lazy" decoding="async" alt="Demonstration funnel with Sent, Delivered, Engaged, and Conversion stages for checking where response drops off." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">This reuses an approved Campaign reporting screenshot with fictional data; no campaign was sent for this guide.</figcaption>
-</figure>
 
 Do not optimize one metric in isolation. A high CTR with weak conversion can mean that the message created interest but the offer, destination, audience, or purchase experience did not complete the job.
 
