@@ -49,7 +49,7 @@ intended, and no clipped controls. All four published copies are byte-identical
 to their retained originals and to the local production build. `yarn build`,
 the security-header check and `git diff --check` passed. The older native-picker
 notes below remain as the failure history, not an instruction to retry it.
-Public deployment, final URL and public PNG checks remain pending.
+Help PR #207 merged with a merge commit, `df254f88b59061bdffc2a930934676d4e6eb9d11`, preserving the article and verifier commits. Build passed on that exact main SHA. On 2026-09-29, both public pages returned HTTP 200 with their localized figure sources, and all four public PNGs returned HTTP 200 with hashes identical to the approved originals (see the provenance record). The Netlify production deploy listing returned HTTP 401 without site credentials, so its individual deploy ID and commit association could not be independently checked. No manual deployment was run.
 
 The previously selected fictitious Chrome window ID `33329` / PID `18093` expired: an exact-ID check did not find it. A fresh native `CGPreflightScreenCaptureAccess` check returned false. Do not reuse that ID, enumerate other windows or substitute browser screenshots as native sources.
 
@@ -61,6 +61,6 @@ A one-window native picker helper was compiled from the existing Workload captur
 
 The complete ES/EN article text, headings, related links and footers were reviewed in the locally built site at 1280 CSS px desktop and 390 CSS px mobile. The contextual-token and fallback corrections appeared in both languages without page overflow. Long code examples were split across lines or reduced to the tag after a mobile screenshot showed the original property sentence clipped; the final English and Spanish fallback examples and the English property token were visually checked at mobile width. `yarn build` and the security-header check passed, and `git diff --check` passed. These checks verify text/layout only, not the missing interface figures.
 
-The previous pending list above is superseded by the automatic source captures
-and local checks. Pending: final verifier commit, PR checks and review, merge
-commit, normal Netlify deployment, and public page/PNG checks.
+The previous pending list above is superseded by the automatic source captures,
+merged PR and public page/PNG checks. Only the individual Netlify production
+deploy record remains unverified because its listing requires site credentials.

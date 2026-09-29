@@ -1,7 +1,7 @@
 {
   "article_key": "audience/personalization-tags.md",
   "capture_date_utc": "2026-09-29",
-  "status": "local_assets_verified_publication_pending",
+  "status": "public_assets_verified",
   "route": "isolated headless Chrome compositor through Page.captureScreenshot",
   "chrome_profile": "dedicated temporary profile; no personal browser tabs",
   "chrome_flags": [
@@ -64,6 +64,6 @@
     "pixel_review": "passed at source and final display sizes; selector, toolbar and all labels complete, no pointer, debug overlay or clipped control",
     "desktop_article": "passed in full ES/EN production build at 1280×900 CSS, no overflow; source retained at 2.6x actual display width",
     "mobile_article": "passed in full ES/EN production build at 390×844 CSS with focused picture source, no overflow; source retained at 3.2x actual display width",
-    "served_asset": "local production build byte-identical; public deployment pending"
+    "served_asset": "Help PR #207 merged as df254f88b59061bdffc2a930934676d4e6eb9d11; main Build passed for that SHA; public ES/EN pages and all four PNGs returned HTTP 200 and each PNG matched its approved original SHA-256 on 2026-09-29; individual Netlify production deploy ID/commit association unavailable because listing API returned HTTP 401 without site credentials"
   }
 }
