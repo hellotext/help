@@ -1,0 +1,1736 @@
+[
+  {
+    "url": "http://127.0.0.1:4191/es/widget-webchat.html",
+    "locale": "es",
+    "title": "Misión Widget de Webchat | Hellotext",
+    "viewport": [
+      1440,
+      1000
+    ],
+    "dpr": 2,
+    "zoom": 1,
+    "pageSize": [
+      1440,
+      11983
+    ],
+    "articleWidth": 774.4140625,
+    "headings": [
+      "Qué hace Widget de Webchat",
+      "Cuándo usarlo",
+      "Cuándo no usarlo",
+      "Qué necesita antes de lanzarlo",
+      "Qué puedes configurar",
+      "Diseña la apariencia",
+      "Elige el comportamiento con cuidado",
+      "Escribe la secuencia inicial",
+      "Usa el teaser con intención",
+      "Configura la derivación de canal",
+      "Instala y prueba",
+      "Qué revisar después del lanzamiento",
+      "Guías relacionadas"
+    ],
+    "text": "Usa esta guía cuando quieres que visitantes inicien una conversación desde tu sitio web.\n\nWidget de Webchat es una entrada conversacional dentro del sitio. En Hellotext se configura como misión y captura: controlas cómo aparece, cuándo se abre, qué dice primero y si los visitantes pueden continuar por otro canal como WhatsApp.\n\nNo es el agente de IA en sí. Piensa en el webchat como la puerta de entrada en tu sitio. Después de que una persona inicia una conversación, tu equipo, reglas del Inbox, misiones con IA o agentes personalizados pueden manejar el siguiente paso según tu configuración.\n\nQué hace Widget de Webchat\n\nWidget de Webchat permite que clientes escriban a tu negocio directamente desde tu sitio.\n\nPuede:\n\nMostrar un lanzador en las páginas donde instalas el widget.\nAbrirse cuando el visitante hace click en el lanzador o, si lo configuras, después de cargar la página.\nMostrar un teaser corto antes de que la persona abra el chat.\nEmpezar con una secuencia inicial configurada.\nPermitir que visitantes pidan ayuda, orientación sobre órdenes, recomendaciones de producto o soporte.\nEnviar la conversación al Inbox cuando una persona necesita responder.\nContinuar por WhatsApp cuando la derivación de canal está configurada.\nTrabajar junto con misiones de IA, misiones de atención, agentes personalizados, rutas y reglas de respuesta.\n\nWebchat funciona mejor cuando el sitio necesita una forma simple para que visitantes hagan preguntas sin salir de la página.\n\nCuándo usarlo\n\nUsa Widget de Webchat cuando:\n\nLos visitantes suelen necesitar ayuda antes de comprar.\nTu equipo quiere una entrada de chat visible en la tienda.\nQuieres que preguntas de recomendación, soporte u órdenes empiecen desde el sitio.\nQuieres invitar a visitantes a una conversación sin depender solo de SMS, WhatsApp o redes sociales.\nQuieres que las conversaciones lleguen al Inbox con el proceso correcto del equipo.\nQuieres ofrecer continuidad por WhatsApp después de que la persona empieza en el sitio.\n\nEs especialmente útil combinado con Respuestas Instantáneas, Recomendador Inteligente, Seguimiento de Pedidos, Asistente de Cambios y Devoluciones, Asistente de Cancelación de Pedidos o un Agente Personalizado enfocado.\n\nCuándo no usarlo\n\nNo uses Widget de Webchat como reemplazo de todas las demás misiones.\n\nUsa una campaña cuando necesitas un anuncio puntual a una audiencia seleccionada.\n\nUsa una ruta cuando la experiencia del cliente debe seguir pasos, esperas, condiciones y asignaciones explícitas.\n\nUsa una misión de producto o soporte con IA cuando el trabajo principal es el razonamiento del agente, no la entrada desde el sitio. Webchat puede iniciar la conversación, pero el agente igual necesita un objetivo, conocimiento y reglas de derivación propias.\n\nUsa opt-in de checkout, formularios, códigos QR o links compartibles cuando el trabajo principal es recopilar consentimiento o datos del perfil en vez de iniciar un chat en el sitio.\n\nQué necesita antes de lanzarlo\n\nAntes de habilitar Widget de Webchat, confirma:\n\nTu sitio web o plataforma de comercio está conectada, o sabes qué método de instalación vas a usar.\nEl método de instalación está listo: Hellotext.js, el plugin de WooCommerce o una integración compatible de VTEX o Fenicio.\nSabes en qué sitio y páginas vas a instalar el widget.\nEl equipo sabe quién se hace cargo de las nuevas conversaciones de webchat en el Inbox.\nEl mensaje inicial explica qué puede preguntar el visitante.\nLa derivación a WhatsApp está configurada si quieres que visitantes continúen por ese canal.\nLas misiones con IA y los agentes personalizados que deberían responder conversaciones de webchat están listos.\nLas reglas de respuesta y el horario comercial coinciden con el nivel de servicio que quieres para webchat.\n\nPara validar la configuración, usa Verifica tus datos y señales después de configurar.\n\nQué puedes configurar\n\nAbre Misiones, haz clic en Explorar misiones, busca el grupo Captura y elige Widget de Webchat. Si ya existe una misión de este tipo, se abre su editor.\n\nWidget de Webchat en el catálogo de escritorio.\n\nWidget de Webchat incluye:\n\nApariencia: color de marca, tipografía, lanzador, encabezado, colores de conversación, logo y marca Hellotext.\nComportamiento: ubicación, apertura por click o apertura automática, demora, comportamiento de primera visita y una vez por sesión.\nSecuencia inicial: los primeros mensajes que se muestran en una nueva conversación de webchat.\nTeaser: la invitación pequeña que aparece antes de que la persona abra el chat.\nCanales o derivación: si se muestra WhatsApp, si se restringe la continuación a WhatsApp y qué número de WhatsApp se muestra.\nInstalación: opciones de instalación automática o instrucciones manuales.\n\nNo necesitas personalizar todas las tarjetas. Empieza por las que definen la experiencia del visitante: apariencia, comportamiento, secuencia inicial y derivación.\n\nDiseña la apariencia\n\nEl widget debería sentirse parte de tu sitio, pero seguir siendo fácil de encontrar.\n\nRevisa:\n\nColor del lanzador, color de texto, notificación e ícono.\nEncabezado, nombre del negocio, logo y colores.\nFondo de conversación y colores de burbujas.\nColores de botones y carruseles cuando aparezcan.\nSi tu plan permite remover la marca Hellotext.\nLa marca define la tipografía y el color primario del widget.\n\nPrueba en desktop y mobile. El lanzador no debería tapar botones de checkout, agregar al carrito, links de soporte, banners de cookies u otros controles importantes del sitio.\n\nElige el comportamiento con cuidado\n\nPara un primer lanzamiento, usa apertura por click salvo que tengas una razón clara para abrirlo automáticamente.\n\nEn Comportamiento → Apertura, elige Automáticamente al cargar la página para ver la demora y los límites. Puedes abrir inmediatamente o después de 5, 10 o 30 segundos. Usa Solo en la primera visita y Una vez por sesión cuando corresponda; en el ejemplo, la apertura espera 5 segundos y ambos límites están marcados. La apertura automática también puede interrumpir la navegación.\n\nEl ejemplo espera 5 segundos. El foco móvil muestra los dos límites seleccionados.\n\nLa ubicación importa. Abajo a la derecha suele ser familiar para visitantes, pero usa la posición que no choque con el layout de tu tienda, navegación mobile o controles de checkout.\n\nEscribe la secuencia inicial\n\nLa secuencia inicial debería ayudar al visitante a elegir qué hacer después.\n\nHazla corta:\n\nDa la bienvenida.\nNombra las principales cosas que puede preguntar.\nOfrece uno o dos caminos útiles, como ayuda con una orden, recomendación de producto o hablar con una persona.\nEvita textos largos de política en el primer mensaje.\n\nAbre Secuencia inicial y escribe el saludo en el editor. Nuevo mensaje agrega otro mensaje a esa secuencia; también puedes definir retrasos y horarios. La vista previa refleja el texto que editas. Mantén el mensaje específico sin prometer que el webchat puede resolver todo por sí solo.\n\nEn escritorio se ve el editor; el foco móvil muestra el saludo en la vista previa, sin enviar mensajes.\n\nSi una misión con IA o un agente personalizado va a responder después de que empieza la conversación, asegúrate de que la secuencia inicial coincida con el alcance real de ese agente.\n\nUsa el teaser con intención\n\nEl teaser es el mensaje pequeño que invita al visitante a abrir el chat.\n\nÚsalo para que el chat se sienta útil:\n\n“¿Necesitas ayuda con el talle?”\n“¿Quieres una recomendación de producto?”\n“¿Tienes una pregunta sobre tu orden?”\n“¿Necesitas ayuda antes de pagar?”\n\nEvita textos que se sientan como un popup forzado o una promesa que tu equipo no puede cumplir.\n\nEn Teaser, activa Burbuja teaser para mostrar el mensaje pequeño. Activa Usar secuencia inicial personalizada si quieres definir un texto distinto de la secuencia inicial. Revisa ambos mensajes para evitar repeticiones.\n\nCon la burbuja activa y sin texto personalizado, el teaser usa la secuencia inicial.\n\nCuando Impulsor de Suscriptores está habilitado para Webchat y permite mostrar su teaser, puede reemplazar este mensaje con una invitación de suscripción para un visitante elegible. El incentivo depende de su configuración y del historial del perfil. Desactivar sólo su teaser no desactiva la invitación dentro del chat.\n\nConfigura la derivación de canal\n\nEn Canales, Mostrar ícono de WhatsApp agrega el acceso a ese canal. Restringir comunicación solo a WhatsApp cambia la experiencia a una entrada hacia WhatsApp. Selecciona el número correspondiente; el editor también permite escribir un número. El número ficticio del ejemplo no pertenece a un canal conectado y no se usa para enviar mensajes.\n\nEl número es ficticio. Mostrar el ícono y restringir el chat son opciones distintas.\n\nUsa continuidad por WhatsApp cuando:\n\nLos clientes pueden salir del sitio antes de que tu equipo responda.\nTu equipo prefiere continuar conversaciones largas en WhatsApp.\nLos visitantes mobile tienen más probabilidad de responder desde WhatsApp que desde el navegador.\nQuieres que el visitante vea un número específico de WhatsApp del negocio.\n\nTen cuidado con restringir la comunicación solo a WhatsApp. Usa esa opción cuando webchat debería funcionar principalmente como puerta hacia WhatsApp, no cuando quieres que visitantes sigan respondiendo en el sitio.\n\nSi las conversaciones deberían asignarse a una persona o equipo, configura el camino de ownership en Inbox y revisa Derivación de IA al Inbox.\n\nInstala y prueba\n\nAbre el ícono de Configuración del editor para ver las opciones de instalación. Elige el método que coincide con tu sitio:\n\nInstalación automática en VTEX o Fenicio, cuando la cuenta correspondiente está conectada.\nInstalación manual en un sitio con Hellotext.js.\nInstalación manual en WooCommerce con el plugin de Hellotext.\n\nLa instalación manual muestra el código y las instrucciones. En esta pantalla, Ya instalé mi código o Instalar y activar habilitan la misión y su flujo; no los uses hasta haber preparado el sitio. Una opción automática deshabilitada indica que falta conectar la plataforma. La vista previa del editor permite revisar la apariencia y los textos sin activar el widget.\n\nEn escritorio se ven los métodos disponibles; el foco móvil muestra la opción manual. No se instaló ni activó el widget.\n\nDespués prueba el sitio exacto donde debería aparecer el widget.\n\nRevisa:\n\nEl widget carga en el sitio y las páginas donde lo instalaste.\nEl lanzador, teaser y secuencia inicial aparecen correctamente.\nLa apertura por click o automática se comporta como configuraste.\nLa demora, primera visita y una vez por sesión funcionan como esperas.\nLos mensajes llegan al Inbox.\nLa asignación, ownership de equipo y reglas de respuesta se comportan como esperas.\nLa derivación o continuidad por WhatsApp usa el número correcto.\nLas misiones con IA y los agentes personalizados conectados responden solo dentro de su alcance.\nEl widget funciona en desktop y mobile sin tapar controles importantes del sitio.\nQué revisar después del lanzamiento\n\nDurante los primeros días, revisa:\n\nQué páginas inician más conversaciones de webchat.\nSi los visitantes entienden la secuencia inicial.\nSi el teaser atrae conversaciones útiles o genera ruido.\nSi las conversaciones se responden suficientemente rápido.\nSi las derivaciones llegan a la persona, equipo o número de WhatsApp correcto.\nSi las misiones con IA responden correctamente o derivan cuando corresponde.\nPreguntas repetidas que sugieren crear Respuestas Instantáneas, Asistente de Cambios y Devoluciones, Asistente de Cancelación de Pedidos, un Agente Personalizado, mejor contenido de políticas o mejor copy en el sitio.\nOpt-ins, órdenes, ingresos atribuidos, salud de respuesta y respuestas perdidas cuando aplique.\n\nAjusta una parte por vez: ubicación, disparador, demora, teaser, secuencia inicial, derivación o la misión que responde después de que empieza la conversación.\n\nGuías relacionadas\nResumen de herramientas de captura\nMisión Impulsor de Suscriptores\nMisión Recolector de Propiedades\nBiblioteca de misiones por objetivo\nCómo habilitar una misión\nCómo personalizar una misión de forma segura\nResumen de inbox y conversaciones\nDerivación de IA al Inbox\nTiempo de respuesta y reglas de respuesta\nMisión Recomendador Inteligente\nMisión Seguimiento de Pedidos\nMisión Respuestas Instantáneas\nMisión Asistente de Cambios y Devoluciones\nMisión Asistente de Cancelación de Pedidos\nMisión Agente Personalizado\nVerifica tus datos y señales después de configurar",
+    "links": [
+      {
+        "text": "Respuestas Instantáneas",
+        "url": "http://127.0.0.1:4191/es/respuestas-instantaneas"
+      },
+      {
+        "text": "Recomendador Inteligente",
+        "url": "http://127.0.0.1:4191/es/recomendador-inteligente"
+      },
+      {
+        "text": "Seguimiento de Pedidos",
+        "url": "http://127.0.0.1:4191/es/seguimiento-de-pedidos"
+      },
+      {
+        "text": "Asistente de Cambios y Devoluciones",
+        "url": "http://127.0.0.1:4191/es/asistente-cambios-devoluciones"
+      },
+      {
+        "text": "Asistente de Cancelación de Pedidos",
+        "url": "http://127.0.0.1:4191/es/asistente-cancelacion-pedidos"
+      },
+      {
+        "text": "Agente Personalizado",
+        "url": "http://127.0.0.1:4191/es/agente-personalizado"
+      },
+      {
+        "text": "campaña",
+        "url": "http://127.0.0.1:4191/es/resumen-campanas-broadcasts"
+      },
+      {
+        "text": "ruta",
+        "url": "http://127.0.0.1:4191/es/primeros-pasos-con-rutas"
+      },
+      {
+        "text": "Verifica tus datos y señales después de configurar",
+        "url": "http://127.0.0.1:4191/es/verifica-datos-y-senales"
+      },
+      {
+        "text": "Impulsor de Suscriptores",
+        "url": "http://127.0.0.1:4191/es/impulsor-suscriptores"
+      },
+      {
+        "text": "Derivación de IA al Inbox",
+        "url": "http://127.0.0.1:4191/es/derivacion-ia-inbox"
+      },
+      {
+        "text": "Respuestas Instantáneas",
+        "url": "http://127.0.0.1:4191/es/respuestas-instantaneas"
+      },
+      {
+        "text": "Asistente de Cambios y Devoluciones",
+        "url": "http://127.0.0.1:4191/es/asistente-cambios-devoluciones"
+      },
+      {
+        "text": "Asistente de Cancelación de Pedidos",
+        "url": "http://127.0.0.1:4191/es/asistente-cancelacion-pedidos"
+      },
+      {
+        "text": "Resumen de herramientas de captura",
+        "url": "http://127.0.0.1:4191/es/resumen-herramientas-captura"
+      },
+      {
+        "text": "Misión Impulsor de Suscriptores",
+        "url": "http://127.0.0.1:4191/es/impulsor-suscriptores"
+      },
+      {
+        "text": "Misión Recolector de Propiedades",
+        "url": "http://127.0.0.1:4191/es/recolector-propiedades"
+      },
+      {
+        "text": "Biblioteca de misiones por objetivo",
+        "url": "http://127.0.0.1:4191/es/biblioteca-misiones-por-objetivo"
+      },
+      {
+        "text": "Cómo habilitar una misión",
+        "url": "http://127.0.0.1:4191/es/como-habilitar-una-mision"
+      },
+      {
+        "text": "Cómo personalizar una misión de forma segura",
+        "url": "http://127.0.0.1:4191/es/como-personalizar-una-mision"
+      },
+      {
+        "text": "Resumen de inbox y conversaciones",
+        "url": "http://127.0.0.1:4191/es/resumen-inbox-conversaciones"
+      },
+      {
+        "text": "Derivación de IA al Inbox",
+        "url": "http://127.0.0.1:4191/es/derivacion-ia-inbox"
+      },
+      {
+        "text": "Tiempo de respuesta y reglas de respuesta",
+        "url": "http://127.0.0.1:4191/es/tiempo-de-respuesta-y-reglas-de-respuesta"
+      },
+      {
+        "text": "Misión Recomendador Inteligente",
+        "url": "http://127.0.0.1:4191/es/recomendador-inteligente"
+      },
+      {
+        "text": "Misión Seguimiento de Pedidos",
+        "url": "http://127.0.0.1:4191/es/seguimiento-de-pedidos"
+      },
+      {
+        "text": "Misión Respuestas Instantáneas",
+        "url": "http://127.0.0.1:4191/es/respuestas-instantaneas"
+      },
+      {
+        "text": "Misión Asistente de Cambios y Devoluciones",
+        "url": "http://127.0.0.1:4191/es/asistente-cambios-devoluciones"
+      },
+      {
+        "text": "Misión Asistente de Cancelación de Pedidos",
+        "url": "http://127.0.0.1:4191/es/asistente-cancelacion-pedidos"
+      },
+      {
+        "text": "Misión Agente Personalizado",
+        "url": "http://127.0.0.1:4191/es/agente-personalizado"
+      },
+      {
+        "text": "Verifica tus datos y señales después de configurar",
+        "url": "http://127.0.0.1:4191/es/verifica-datos-y-senales"
+      }
+    ],
+    "figures": [
+      {
+        "rect": [
+          375.9921875,
+          3075.7421875,
+          774.4140625,
+          305.1953125
+        ],
+        "stageWidth": 774.4140625,
+        "frameWidth": 400,
+        "imageWidth": 381.9921875,
+        "natural": [
+          400,
+          240
+        ],
+        "src": "/images/captures/capture-overview/desktop-webchat-es.png",
+        "alt": "Tarjeta Widget de Webchat del catálogo de misiones en escritorio.",
+        "caption": "Widget de Webchat en el catálogo de escritorio.",
+        "linked": false
+      },
+      {
+        "rect": [
+          375.9921875,
+          4194.9375,
+          774.4140625,
+          444.0078125
+        ],
+        "stageWidth": 774.4140625,
+        "frameWidth": 528,
+        "imageWidth": 509.9921875,
+        "natural": [
+          528,
+          381
+        ],
+        "src": "/images/captures/webchat-widget/appearance-es.png",
+        "alt": "Controles de marca de Webchat, con tipografía y color primario.",
+        "caption": "La marca define la tipografía y el color primario del widget.",
+        "linked": false
+      },
+      {
+        "rect": [
+          375.9921875,
+          5032.9453125,
+          774.4140625,
+          449.8046875
+        ],
+        "stageWidth": 774.4140625,
+        "frameWidth": 528,
+        "imageWidth": 509.9921875,
+        "natural": [
+          528,
+          387
+        ],
+        "src": "/images/captures/webchat-widget/behavior-es.png",
+        "alt": "Apertura automática y límites de primera visita y una vez por sesión.",
+        "caption": "El ejemplo espera 5 segundos. El foco móvil muestra los dos límites seleccionados.",
+        "linked": false
+      },
+      {
+        "rect": [
+          375.9921875,
+          6040.75,
+          774.4140625,
+          500.03125
+        ],
+        "stageWidth": 774.4140625,
+        "frameWidth": 528,
+        "imageWidth": 509.9921875,
+        "natural": [
+          528,
+          439
+        ],
+        "src": "/images/captures/webchat-widget/opening-es.png",
+        "alt": "Configuración y vista previa del saludo ficticio de Webchat.",
+        "caption": "En escritorio se ve el editor; el foco móvil muestra el saludo en la vista previa, sin enviar mensajes.",
+        "linked": false
+      },
+      {
+        "rect": [
+          375.9921875,
+          7114.78125,
+          774.4140625,
+          319.65625
+        ],
+        "stageWidth": 774.4140625,
+        "frameWidth": 544,
+        "imageWidth": 525.984375,
+        "natural": [
+          544,
+          252
+        ],
+        "src": "/images/captures/webchat-widget/teaser-es.png",
+        "alt": "Burbuja teaser activa y secuencia personalizada desactivada.",
+        "caption": "Con la burbuja activa y sin texto personalizado, el teaser usa la secuencia inicial.",
+        "linked": false
+      },
+      {
+        "rect": [
+          375.9921875,
+          7812.4375,
+          774.4140625,
+          464.2890625
+        ],
+        "stageWidth": 774.4140625,
+        "frameWidth": 528,
+        "imageWidth": 509.984375,
+        "natural": [
+          528,
+          402
+        ],
+        "src": "/images/captures/webchat-widget/channels-es.png",
+        "alt": "Ícono de WhatsApp activo con un número ficticio, sin restringir el chat a ese canal.",
+        "caption": "El número es ficticio. Mostrar el ícono y restringir el chat son opciones distintas.",
+        "linked": false
+      },
+      {
+        "rect": [
+          375.9921875,
+          9082.7265625,
+          774.4140625,
+          791.703125
+        ],
+        "stageWidth": 774.4140625,
+        "frameWidth": 508,
+        "imageWidth": 489.9921875,
+        "natural": [
+          508,
+          742
+        ],
+        "src": "/images/captures/webchat-widget/installation-es.png",
+        "alt": "Opciones de instalación de Webchat y descripción de la instalación manual con Hellotext.js.",
+        "caption": "En escritorio se ven los métodos disponibles; el foco móvil muestra la opción manual. No se instaló ni activó el widget.",
+        "linked": false
+      }
+    ]
+  },
+  {
+    "url": "http://127.0.0.1:4191/es/widget-webchat.html",
+    "locale": "es",
+    "title": "Misión Widget de Webchat | Hellotext",
+    "viewport": [
+      390,
+      1000
+    ],
+    "dpr": 2,
+    "zoom": 1,
+    "pageSize": [
+      390,
+      13926
+    ],
+    "articleWidth": 358,
+    "headings": [
+      "Qué hace Widget de Webchat",
+      "Cuándo usarlo",
+      "Cuándo no usarlo",
+      "Qué necesita antes de lanzarlo",
+      "Qué puedes configurar",
+      "Diseña la apariencia",
+      "Elige el comportamiento con cuidado",
+      "Escribe la secuencia inicial",
+      "Usa el teaser con intención",
+      "Configura la derivación de canal",
+      "Instala y prueba",
+      "Qué revisar después del lanzamiento",
+      "Guías relacionadas"
+    ],
+    "text": "Usa esta guía cuando quieres que visitantes inicien una conversación desde tu sitio web.\n\nWidget de Webchat es una entrada conversacional dentro del sitio. En Hellotext se configura como misión y captura: controlas cómo aparece, cuándo se abre, qué dice primero y si los visitantes pueden continuar por otro canal como WhatsApp.\n\nNo es el agente de IA en sí. Piensa en el webchat como la puerta de entrada en tu sitio. Después de que una persona inicia una conversación, tu equipo, reglas del Inbox, misiones con IA o agentes personalizados pueden manejar el siguiente paso según tu configuración.\n\nQué hace Widget de Webchat\n\nWidget de Webchat permite que clientes escriban a tu negocio directamente desde tu sitio.\n\nPuede:\n\nMostrar un lanzador en las páginas donde instalas el widget.\nAbrirse cuando el visitante hace click en el lanzador o, si lo configuras, después de cargar la página.\nMostrar un teaser corto antes de que la persona abra el chat.\nEmpezar con una secuencia inicial configurada.\nPermitir que visitantes pidan ayuda, orientación sobre órdenes, recomendaciones de producto o soporte.\nEnviar la conversación al Inbox cuando una persona necesita responder.\nContinuar por WhatsApp cuando la derivación de canal está configurada.\nTrabajar junto con misiones de IA, misiones de atención, agentes personalizados, rutas y reglas de respuesta.\n\nWebchat funciona mejor cuando el sitio necesita una forma simple para que visitantes hagan preguntas sin salir de la página.\n\nCuándo usarlo\n\nUsa Widget de Webchat cuando:\n\nLos visitantes suelen necesitar ayuda antes de comprar.\nTu equipo quiere una entrada de chat visible en la tienda.\nQuieres que preguntas de recomendación, soporte u órdenes empiecen desde el sitio.\nQuieres invitar a visitantes a una conversación sin depender solo de SMS, WhatsApp o redes sociales.\nQuieres que las conversaciones lleguen al Inbox con el proceso correcto del equipo.\nQuieres ofrecer continuidad por WhatsApp después de que la persona empieza en el sitio.\n\nEs especialmente útil combinado con Respuestas Instantáneas, Recomendador Inteligente, Seguimiento de Pedidos, Asistente de Cambios y Devoluciones, Asistente de Cancelación de Pedidos o un Agente Personalizado enfocado.\n\nCuándo no usarlo\n\nNo uses Widget de Webchat como reemplazo de todas las demás misiones.\n\nUsa una campaña cuando necesitas un anuncio puntual a una audiencia seleccionada.\n\nUsa una ruta cuando la experiencia del cliente debe seguir pasos, esperas, condiciones y asignaciones explícitas.\n\nUsa una misión de producto o soporte con IA cuando el trabajo principal es el razonamiento del agente, no la entrada desde el sitio. Webchat puede iniciar la conversación, pero el agente igual necesita un objetivo, conocimiento y reglas de derivación propias.\n\nUsa opt-in de checkout, formularios, códigos QR o links compartibles cuando el trabajo principal es recopilar consentimiento o datos del perfil en vez de iniciar un chat en el sitio.\n\nQué necesita antes de lanzarlo\n\nAntes de habilitar Widget de Webchat, confirma:\n\nTu sitio web o plataforma de comercio está conectada, o sabes qué método de instalación vas a usar.\nEl método de instalación está listo: Hellotext.js, el plugin de WooCommerce o una integración compatible de VTEX o Fenicio.\nSabes en qué sitio y páginas vas a instalar el widget.\nEl equipo sabe quién se hace cargo de las nuevas conversaciones de webchat en el Inbox.\nEl mensaje inicial explica qué puede preguntar el visitante.\nLa derivación a WhatsApp está configurada si quieres que visitantes continúen por ese canal.\nLas misiones con IA y los agentes personalizados que deberían responder conversaciones de webchat están listos.\nLas reglas de respuesta y el horario comercial coinciden con el nivel de servicio que quieres para webchat.\n\nPara validar la configuración, usa Verifica tus datos y señales después de configurar.\n\nQué puedes configurar\n\nAbre Misiones, haz clic en Explorar misiones, busca el grupo Captura y elige Widget de Webchat. Si ya existe una misión de este tipo, se abre su editor.\n\nWidget de Webchat en el catálogo de escritorio.\n\nWidget de Webchat incluye:\n\nApariencia: color de marca, tipografía, lanzador, encabezado, colores de conversación, logo y marca Hellotext.\nComportamiento: ubicación, apertura por click o apertura automática, demora, comportamiento de primera visita y una vez por sesión.\nSecuencia inicial: los primeros mensajes que se muestran en una nueva conversación de webchat.\nTeaser: la invitación pequeña que aparece antes de que la persona abra el chat.\nCanales o derivación: si se muestra WhatsApp, si se restringe la continuación a WhatsApp y qué número de WhatsApp se muestra.\nInstalación: opciones de instalación automática o instrucciones manuales.\n\nNo necesitas personalizar todas las tarjetas. Empieza por las que definen la experiencia del visitante: apariencia, comportamiento, secuencia inicial y derivación.\n\nDiseña la apariencia\n\nEl widget debería sentirse parte de tu sitio, pero seguir siendo fácil de encontrar.\n\nRevisa:\n\nColor del lanzador, color de texto, notificación e ícono.\nEncabezado, nombre del negocio, logo y colores.\nFondo de conversación y colores de burbujas.\nColores de botones y carruseles cuando aparezcan.\nSi tu plan permite remover la marca Hellotext.\nLa marca define la tipografía y el color primario del widget.\n\nPrueba en desktop y mobile. El lanzador no debería tapar botones de checkout, agregar al carrito, links de soporte, banners de cookies u otros controles importantes del sitio.\n\nElige el comportamiento con cuidado\n\nPara un primer lanzamiento, usa apertura por click salvo que tengas una razón clara para abrirlo automáticamente.\n\nEn Comportamiento → Apertura, elige Automáticamente al cargar la página para ver la demora y los límites. Puedes abrir inmediatamente o después de 5, 10 o 30 segundos. Usa Solo en la primera visita y Una vez por sesión cuando corresponda; en el ejemplo, la apertura espera 5 segundos y ambos límites están marcados. La apertura automática también puede interrumpir la navegación.\n\nEl ejemplo espera 5 segundos. El foco móvil muestra los dos límites seleccionados.\n\nLa ubicación importa. Abajo a la derecha suele ser familiar para visitantes, pero usa la posición que no choque con el layout de tu tienda, navegación mobile o controles de checkout.\n\nEscribe la secuencia inicial\n\nLa secuencia inicial debería ayudar al visitante a elegir qué hacer después.\n\nHazla corta:\n\nDa la bienvenida.\nNombra las principales cosas que puede preguntar.\nOfrece uno o dos caminos útiles, como ayuda con una orden, recomendación de producto o hablar con una persona.\nEvita textos largos de política en el primer mensaje.\n\nAbre Secuencia inicial y escribe el saludo en el editor. Nuevo mensaje agrega otro mensaje a esa secuencia; también puedes definir retrasos y horarios. La vista previa refleja el texto que editas. Mantén el mensaje específico sin prometer que el webchat puede resolver todo por sí solo.\n\nEn escritorio se ve el editor; el foco móvil muestra el saludo en la vista previa, sin enviar mensajes.\n\nSi una misión con IA o un agente personalizado va a responder después de que empieza la conversación, asegúrate de que la secuencia inicial coincida con el alcance real de ese agente.\n\nUsa el teaser con intención\n\nEl teaser es el mensaje pequeño que invita al visitante a abrir el chat.\n\nÚsalo para que el chat se sienta útil:\n\n“¿Necesitas ayuda con el talle?”\n“¿Quieres una recomendación de producto?”\n“¿Tienes una pregunta sobre tu orden?”\n“¿Necesitas ayuda antes de pagar?”\n\nEvita textos que se sientan como un popup forzado o una promesa que tu equipo no puede cumplir.\n\nEn Teaser, activa Burbuja teaser para mostrar el mensaje pequeño. Activa Usar secuencia inicial personalizada si quieres definir un texto distinto de la secuencia inicial. Revisa ambos mensajes para evitar repeticiones.\n\nCon la burbuja activa y sin texto personalizado, el teaser usa la secuencia inicial.\n\nCuando Impulsor de Suscriptores está habilitado para Webchat y permite mostrar su teaser, puede reemplazar este mensaje con una invitación de suscripción para un visitante elegible. El incentivo depende de su configuración y del historial del perfil. Desactivar sólo su teaser no desactiva la invitación dentro del chat.\n\nConfigura la derivación de canal\n\nEn Canales, Mostrar ícono de WhatsApp agrega el acceso a ese canal. Restringir comunicación solo a WhatsApp cambia la experiencia a una entrada hacia WhatsApp. Selecciona el número correspondiente; el editor también permite escribir un número. El número ficticio del ejemplo no pertenece a un canal conectado y no se usa para enviar mensajes.\n\nEl número es ficticio. Mostrar el ícono y restringir el chat son opciones distintas.\n\nUsa continuidad por WhatsApp cuando:\n\nLos clientes pueden salir del sitio antes de que tu equipo responda.\nTu equipo prefiere continuar conversaciones largas en WhatsApp.\nLos visitantes mobile tienen más probabilidad de responder desde WhatsApp que desde el navegador.\nQuieres que el visitante vea un número específico de WhatsApp del negocio.\n\nTen cuidado con restringir la comunicación solo a WhatsApp. Usa esa opción cuando webchat debería funcionar principalmente como puerta hacia WhatsApp, no cuando quieres que visitantes sigan respondiendo en el sitio.\n\nSi las conversaciones deberían asignarse a una persona o equipo, configura el camino de ownership en Inbox y revisa Derivación de IA al Inbox.\n\nInstala y prueba\n\nAbre el ícono de Configuración del editor para ver las opciones de instalación. Elige el método que coincide con tu sitio:\n\nInstalación automática en VTEX o Fenicio, cuando la cuenta correspondiente está conectada.\nInstalación manual en un sitio con Hellotext.js.\nInstalación manual en WooCommerce con el plugin de Hellotext.\n\nLa instalación manual muestra el código y las instrucciones. En esta pantalla, Ya instalé mi código o Instalar y activar habilitan la misión y su flujo; no los uses hasta haber preparado el sitio. Una opción automática deshabilitada indica que falta conectar la plataforma. La vista previa del editor permite revisar la apariencia y los textos sin activar el widget.\n\nEn escritorio se ven los métodos disponibles; el foco móvil muestra la opción manual. No se instaló ni activó el widget.\n\nDespués prueba el sitio exacto donde debería aparecer el widget.\n\nRevisa:\n\nEl widget carga en el sitio y las páginas donde lo instalaste.\nEl lanzador, teaser y secuencia inicial aparecen correctamente.\nLa apertura por click o automática se comporta como configuraste.\nLa demora, primera visita y una vez por sesión funcionan como esperas.\nLos mensajes llegan al Inbox.\nLa asignación, ownership de equipo y reglas de respuesta se comportan como esperas.\nLa derivación o continuidad por WhatsApp usa el número correcto.\nLas misiones con IA y los agentes personalizados conectados responden solo dentro de su alcance.\nEl widget funciona en desktop y mobile sin tapar controles importantes del sitio.\nQué revisar después del lanzamiento\n\nDurante los primeros días, revisa:\n\nQué páginas inician más conversaciones de webchat.\nSi los visitantes entienden la secuencia inicial.\nSi el teaser atrae conversaciones útiles o genera ruido.\nSi las conversaciones se responden suficientemente rápido.\nSi las derivaciones llegan a la persona, equipo o número de WhatsApp correcto.\nSi las misiones con IA responden correctamente o derivan cuando corresponde.\nPreguntas repetidas que sugieren crear Respuestas Instantáneas, Asistente de Cambios y Devoluciones, Asistente de Cancelación de Pedidos, un Agente Personalizado, mejor contenido de políticas o mejor copy en el sitio.\nOpt-ins, órdenes, ingresos atribuidos, salud de respuesta y respuestas perdidas cuando aplique.\n\nAjusta una parte por vez: ubicación, disparador, demora, teaser, secuencia inicial, derivación o la misión que responde después de que empieza la conversación.\n\nGuías relacionadas\nResumen de herramientas de captura\nMisión Impulsor de Suscriptores\nMisión Recolector de Propiedades\nBiblioteca de misiones por objetivo\nCómo habilitar una misión\nCómo personalizar una misión de forma segura\nResumen de inbox y conversaciones\nDerivación de IA al Inbox\nTiempo de respuesta y reglas de respuesta\nMisión Recomendador Inteligente\nMisión Seguimiento de Pedidos\nMisión Respuestas Instantáneas\nMisión Asistente de Cambios y Devoluciones\nMisión Asistente de Cancelación de Pedidos\nMisión Agente Personalizado\nVerifica tus datos y señales después de configurar",
+    "links": [
+      {
+        "text": "Respuestas Instantáneas",
+        "url": "http://127.0.0.1:4191/es/respuestas-instantaneas"
+      },
+      {
+        "text": "Recomendador Inteligente",
+        "url": "http://127.0.0.1:4191/es/recomendador-inteligente"
+      },
+      {
+        "text": "Seguimiento de Pedidos",
+        "url": "http://127.0.0.1:4191/es/seguimiento-de-pedidos"
+      },
+      {
+        "text": "Asistente de Cambios y Devoluciones",
+        "url": "http://127.0.0.1:4191/es/asistente-cambios-devoluciones"
+      },
+      {
+        "text": "Asistente de Cancelación de Pedidos",
+        "url": "http://127.0.0.1:4191/es/asistente-cancelacion-pedidos"
+      },
+      {
+        "text": "Agente Personalizado",
+        "url": "http://127.0.0.1:4191/es/agente-personalizado"
+      },
+      {
+        "text": "campaña",
+        "url": "http://127.0.0.1:4191/es/resumen-campanas-broadcasts"
+      },
+      {
+        "text": "ruta",
+        "url": "http://127.0.0.1:4191/es/primeros-pasos-con-rutas"
+      },
+      {
+        "text": "Verifica tus datos y señales después de configurar",
+        "url": "http://127.0.0.1:4191/es/verifica-datos-y-senales"
+      },
+      {
+        "text": "Impulsor de Suscriptores",
+        "url": "http://127.0.0.1:4191/es/impulsor-suscriptores"
+      },
+      {
+        "text": "Derivación de IA al Inbox",
+        "url": "http://127.0.0.1:4191/es/derivacion-ia-inbox"
+      },
+      {
+        "text": "Respuestas Instantáneas",
+        "url": "http://127.0.0.1:4191/es/respuestas-instantaneas"
+      },
+      {
+        "text": "Asistente de Cambios y Devoluciones",
+        "url": "http://127.0.0.1:4191/es/asistente-cambios-devoluciones"
+      },
+      {
+        "text": "Asistente de Cancelación de Pedidos",
+        "url": "http://127.0.0.1:4191/es/asistente-cancelacion-pedidos"
+      },
+      {
+        "text": "Resumen de herramientas de captura",
+        "url": "http://127.0.0.1:4191/es/resumen-herramientas-captura"
+      },
+      {
+        "text": "Misión Impulsor de Suscriptores",
+        "url": "http://127.0.0.1:4191/es/impulsor-suscriptores"
+      },
+      {
+        "text": "Misión Recolector de Propiedades",
+        "url": "http://127.0.0.1:4191/es/recolector-propiedades"
+      },
+      {
+        "text": "Biblioteca de misiones por objetivo",
+        "url": "http://127.0.0.1:4191/es/biblioteca-misiones-por-objetivo"
+      },
+      {
+        "text": "Cómo habilitar una misión",
+        "url": "http://127.0.0.1:4191/es/como-habilitar-una-mision"
+      },
+      {
+        "text": "Cómo personalizar una misión de forma segura",
+        "url": "http://127.0.0.1:4191/es/como-personalizar-una-mision"
+      },
+      {
+        "text": "Resumen de inbox y conversaciones",
+        "url": "http://127.0.0.1:4191/es/resumen-inbox-conversaciones"
+      },
+      {
+        "text": "Derivación de IA al Inbox",
+        "url": "http://127.0.0.1:4191/es/derivacion-ia-inbox"
+      },
+      {
+        "text": "Tiempo de respuesta y reglas de respuesta",
+        "url": "http://127.0.0.1:4191/es/tiempo-de-respuesta-y-reglas-de-respuesta"
+      },
+      {
+        "text": "Misión Recomendador Inteligente",
+        "url": "http://127.0.0.1:4191/es/recomendador-inteligente"
+      },
+      {
+        "text": "Misión Seguimiento de Pedidos",
+        "url": "http://127.0.0.1:4191/es/seguimiento-de-pedidos"
+      },
+      {
+        "text": "Misión Respuestas Instantáneas",
+        "url": "http://127.0.0.1:4191/es/respuestas-instantaneas"
+      },
+      {
+        "text": "Misión Asistente de Cambios y Devoluciones",
+        "url": "http://127.0.0.1:4191/es/asistente-cambios-devoluciones"
+      },
+      {
+        "text": "Misión Asistente de Cancelación de Pedidos",
+        "url": "http://127.0.0.1:4191/es/asistente-cancelacion-pedidos"
+      },
+      {
+        "text": "Misión Agente Personalizado",
+        "url": "http://127.0.0.1:4191/es/agente-personalizado"
+      },
+      {
+        "text": "Verifica tus datos y señales después de configurar",
+        "url": "http://127.0.0.1:4191/es/verifica-datos-y-senales"
+      }
+    ],
+    "figures": [
+      {
+        "rect": [
+          16,
+          4207.5,
+          358,
+          239.59375
+        ],
+        "stageWidth": 358,
+        "frameWidth": 328,
+        "imageWidth": 315.984375,
+        "natural": [
+          400,
+          240
+        ],
+        "src": "/images/captures/capture-overview/desktop-webchat-es.png",
+        "alt": "Tarjeta Widget de Webchat del catálogo de misiones en escritorio.",
+        "caption": "Widget de Webchat en el catálogo de escritorio.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          5651.09375,
+          358,
+          109.6875
+        ],
+        "stageWidth": 358,
+        "frameWidth": 328,
+        "imageWidth": 315.9921875,
+        "natural": [
+          360,
+          68
+        ],
+        "src": "/images/captures/webchat-widget/appearance-mobile-es.png",
+        "alt": "Controles de marca de Webchat, con tipografía y color primario.",
+        "caption": "La marca define la tipografía y el color primario del widget.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          6388.78125,
+          358,
+          150.0625
+        ],
+        "stageWidth": 358,
+        "frameWidth": 328,
+        "imageWidth": 315.984375,
+        "natural": [
+          360,
+          114
+        ],
+        "src": "/images/captures/webchat-widget/behavior-mobile-es.png",
+        "alt": "Apertura automática y límites de primera visita y una vez por sesión.",
+        "caption": "El ejemplo espera 5 segundos. El foco móvil muestra los dos límites seleccionados.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          7354.84375,
+          358,
+          131.6015625
+        ],
+        "stageWidth": 358,
+        "frameWidth": 328,
+        "imageWidth": 315.984375,
+        "natural": [
+          364,
+          94
+        ],
+        "src": "/images/captures/webchat-widget/opening-mobile-es.png",
+        "alt": "Configuración y vista previa del saludo ficticio de Webchat.",
+        "caption": "En escritorio se ve el editor; el foco móvil muestra el saludo en la vista previa, sin enviar mensajes.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          8294.4453125,
+          358,
+          303.5234375
+        ],
+        "stageWidth": 358,
+        "frameWidth": 328,
+        "imageWidth": 315.9921875,
+        "natural": [
+          349,
+          280
+        ],
+        "src": "/images/captures/webchat-widget/teaser-mobile-es.png",
+        "alt": "Burbuja teaser activa y secuencia personalizada desactivada.",
+        "caption": "Con la burbuja activa y sin texto personalizado, el teaser usa la secuencia inicial.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          9209.96875,
+          358,
+          458.046875
+        ],
+        "stageWidth": 358,
+        "frameWidth": 328,
+        "imageWidth": 315.9921875,
+        "natural": [
+          333,
+          430
+        ],
+        "src": "/images/captures/webchat-widget/channels-mobile-es.png",
+        "alt": "Ícono de WhatsApp activo con un número ficticio, sin restringir el chat a ese canal.",
+        "caption": "El número es ficticio. Mostrar el ícono y restringir el chat son opciones distintas.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          10888.015625,
+          358,
+          146.2421875
+        ],
+        "stageWidth": 358,
+        "frameWidth": 328,
+        "imageWidth": 315.9921875,
+        "natural": [
+          394,
+          120
+        ],
+        "src": "/images/captures/webchat-widget/installation-mobile-es.png",
+        "alt": "Opciones de instalación de Webchat y descripción de la instalación manual con Hellotext.js.",
+        "caption": "En escritorio se ven los métodos disponibles; el foco móvil muestra la opción manual. No se instaló ni activó el widget.",
+        "linked": false
+      }
+    ]
+  },
+  {
+    "url": "http://127.0.0.1:4191/es/widget-webchat.html",
+    "locale": "es",
+    "title": "Misión Widget de Webchat | Hellotext",
+    "viewport": [
+      590,
+      1000
+    ],
+    "dpr": 2,
+    "zoom": 1,
+    "pageSize": [
+      590,
+      11383
+    ],
+    "articleWidth": 558,
+    "headings": [
+      "Qué hace Widget de Webchat",
+      "Cuándo usarlo",
+      "Cuándo no usarlo",
+      "Qué necesita antes de lanzarlo",
+      "Qué puedes configurar",
+      "Diseña la apariencia",
+      "Elige el comportamiento con cuidado",
+      "Escribe la secuencia inicial",
+      "Usa el teaser con intención",
+      "Configura la derivación de canal",
+      "Instala y prueba",
+      "Qué revisar después del lanzamiento",
+      "Guías relacionadas"
+    ],
+    "text": "Usa esta guía cuando quieres que visitantes inicien una conversación desde tu sitio web.\n\nWidget de Webchat es una entrada conversacional dentro del sitio. En Hellotext se configura como misión y captura: controlas cómo aparece, cuándo se abre, qué dice primero y si los visitantes pueden continuar por otro canal como WhatsApp.\n\nNo es el agente de IA en sí. Piensa en el webchat como la puerta de entrada en tu sitio. Después de que una persona inicia una conversación, tu equipo, reglas del Inbox, misiones con IA o agentes personalizados pueden manejar el siguiente paso según tu configuración.\n\nQué hace Widget de Webchat\n\nWidget de Webchat permite que clientes escriban a tu negocio directamente desde tu sitio.\n\nPuede:\n\nMostrar un lanzador en las páginas donde instalas el widget.\nAbrirse cuando el visitante hace click en el lanzador o, si lo configuras, después de cargar la página.\nMostrar un teaser corto antes de que la persona abra el chat.\nEmpezar con una secuencia inicial configurada.\nPermitir que visitantes pidan ayuda, orientación sobre órdenes, recomendaciones de producto o soporte.\nEnviar la conversación al Inbox cuando una persona necesita responder.\nContinuar por WhatsApp cuando la derivación de canal está configurada.\nTrabajar junto con misiones de IA, misiones de atención, agentes personalizados, rutas y reglas de respuesta.\n\nWebchat funciona mejor cuando el sitio necesita una forma simple para que visitantes hagan preguntas sin salir de la página.\n\nCuándo usarlo\n\nUsa Widget de Webchat cuando:\n\nLos visitantes suelen necesitar ayuda antes de comprar.\nTu equipo quiere una entrada de chat visible en la tienda.\nQuieres que preguntas de recomendación, soporte u órdenes empiecen desde el sitio.\nQuieres invitar a visitantes a una conversación sin depender solo de SMS, WhatsApp o redes sociales.\nQuieres que las conversaciones lleguen al Inbox con el proceso correcto del equipo.\nQuieres ofrecer continuidad por WhatsApp después de que la persona empieza en el sitio.\n\nEs especialmente útil combinado con Respuestas Instantáneas, Recomendador Inteligente, Seguimiento de Pedidos, Asistente de Cambios y Devoluciones, Asistente de Cancelación de Pedidos o un Agente Personalizado enfocado.\n\nCuándo no usarlo\n\nNo uses Widget de Webchat como reemplazo de todas las demás misiones.\n\nUsa una campaña cuando necesitas un anuncio puntual a una audiencia seleccionada.\n\nUsa una ruta cuando la experiencia del cliente debe seguir pasos, esperas, condiciones y asignaciones explícitas.\n\nUsa una misión de producto o soporte con IA cuando el trabajo principal es el razonamiento del agente, no la entrada desde el sitio. Webchat puede iniciar la conversación, pero el agente igual necesita un objetivo, conocimiento y reglas de derivación propias.\n\nUsa opt-in de checkout, formularios, códigos QR o links compartibles cuando el trabajo principal es recopilar consentimiento o datos del perfil en vez de iniciar un chat en el sitio.\n\nQué necesita antes de lanzarlo\n\nAntes de habilitar Widget de Webchat, confirma:\n\nTu sitio web o plataforma de comercio está conectada, o sabes qué método de instalación vas a usar.\nEl método de instalación está listo: Hellotext.js, el plugin de WooCommerce o una integración compatible de VTEX o Fenicio.\nSabes en qué sitio y páginas vas a instalar el widget.\nEl equipo sabe quién se hace cargo de las nuevas conversaciones de webchat en el Inbox.\nEl mensaje inicial explica qué puede preguntar el visitante.\nLa derivación a WhatsApp está configurada si quieres que visitantes continúen por ese canal.\nLas misiones con IA y los agentes personalizados que deberían responder conversaciones de webchat están listos.\nLas reglas de respuesta y el horario comercial coinciden con el nivel de servicio que quieres para webchat.\n\nPara validar la configuración, usa Verifica tus datos y señales después de configurar.\n\nQué puedes configurar\n\nAbre Misiones, haz clic en Explorar misiones, busca el grupo Captura y elige Widget de Webchat. Si ya existe una misión de este tipo, se abre su editor.\n\nWidget de Webchat en el catálogo de escritorio.\n\nWidget de Webchat incluye:\n\nApariencia: color de marca, tipografía, lanzador, encabezado, colores de conversación, logo y marca Hellotext.\nComportamiento: ubicación, apertura por click o apertura automática, demora, comportamiento de primera visita y una vez por sesión.\nSecuencia inicial: los primeros mensajes que se muestran en una nueva conversación de webchat.\nTeaser: la invitación pequeña que aparece antes de que la persona abra el chat.\nCanales o derivación: si se muestra WhatsApp, si se restringe la continuación a WhatsApp y qué número de WhatsApp se muestra.\nInstalación: opciones de instalación automática o instrucciones manuales.\n\nNo necesitas personalizar todas las tarjetas. Empieza por las que definen la experiencia del visitante: apariencia, comportamiento, secuencia inicial y derivación.\n\nDiseña la apariencia\n\nEl widget debería sentirse parte de tu sitio, pero seguir siendo fácil de encontrar.\n\nRevisa:\n\nColor del lanzador, color de texto, notificación e ícono.\nEncabezado, nombre del negocio, logo y colores.\nFondo de conversación y colores de burbujas.\nColores de botones y carruseles cuando aparezcan.\nSi tu plan permite remover la marca Hellotext.\nLa marca define la tipografía y el color primario del widget.\n\nPrueba en desktop y mobile. El lanzador no debería tapar botones de checkout, agregar al carrito, links de soporte, banners de cookies u otros controles importantes del sitio.\n\nElige el comportamiento con cuidado\n\nPara un primer lanzamiento, usa apertura por click salvo que tengas una razón clara para abrirlo automáticamente.\n\nEn Comportamiento → Apertura, elige Automáticamente al cargar la página para ver la demora y los límites. Puedes abrir inmediatamente o después de 5, 10 o 30 segundos. Usa Solo en la primera visita y Una vez por sesión cuando corresponda; en el ejemplo, la apertura espera 5 segundos y ambos límites están marcados. La apertura automática también puede interrumpir la navegación.\n\nEl ejemplo espera 5 segundos. El foco móvil muestra los dos límites seleccionados.\n\nLa ubicación importa. Abajo a la derecha suele ser familiar para visitantes, pero usa la posición que no choque con el layout de tu tienda, navegación mobile o controles de checkout.\n\nEscribe la secuencia inicial\n\nLa secuencia inicial debería ayudar al visitante a elegir qué hacer después.\n\nHazla corta:\n\nDa la bienvenida.\nNombra las principales cosas que puede preguntar.\nOfrece uno o dos caminos útiles, como ayuda con una orden, recomendación de producto o hablar con una persona.\nEvita textos largos de política en el primer mensaje.\n\nAbre Secuencia inicial y escribe el saludo en el editor. Nuevo mensaje agrega otro mensaje a esa secuencia; también puedes definir retrasos y horarios. La vista previa refleja el texto que editas. Mantén el mensaje específico sin prometer que el webchat puede resolver todo por sí solo.\n\nEn escritorio se ve el editor; el foco móvil muestra el saludo en la vista previa, sin enviar mensajes.\n\nSi una misión con IA o un agente personalizado va a responder después de que empieza la conversación, asegúrate de que la secuencia inicial coincida con el alcance real de ese agente.\n\nUsa el teaser con intención\n\nEl teaser es el mensaje pequeño que invita al visitante a abrir el chat.\n\nÚsalo para que el chat se sienta útil:\n\n“¿Necesitas ayuda con el talle?”\n“¿Quieres una recomendación de producto?”\n“¿Tienes una pregunta sobre tu orden?”\n“¿Necesitas ayuda antes de pagar?”\n\nEvita textos que se sientan como un popup forzado o una promesa que tu equipo no puede cumplir.\n\nEn Teaser, activa Burbuja teaser para mostrar el mensaje pequeño. Activa Usar secuencia inicial personalizada si quieres definir un texto distinto de la secuencia inicial. Revisa ambos mensajes para evitar repeticiones.\n\nCon la burbuja activa y sin texto personalizado, el teaser usa la secuencia inicial.\n\nCuando Impulsor de Suscriptores está habilitado para Webchat y permite mostrar su teaser, puede reemplazar este mensaje con una invitación de suscripción para un visitante elegible. El incentivo depende de su configuración y del historial del perfil. Desactivar sólo su teaser no desactiva la invitación dentro del chat.\n\nConfigura la derivación de canal\n\nEn Canales, Mostrar ícono de WhatsApp agrega el acceso a ese canal. Restringir comunicación solo a WhatsApp cambia la experiencia a una entrada hacia WhatsApp. Selecciona el número correspondiente; el editor también permite escribir un número. El número ficticio del ejemplo no pertenece a un canal conectado y no se usa para enviar mensajes.\n\nEl número es ficticio. Mostrar el ícono y restringir el chat son opciones distintas.\n\nUsa continuidad por WhatsApp cuando:\n\nLos clientes pueden salir del sitio antes de que tu equipo responda.\nTu equipo prefiere continuar conversaciones largas en WhatsApp.\nLos visitantes mobile tienen más probabilidad de responder desde WhatsApp que desde el navegador.\nQuieres que el visitante vea un número específico de WhatsApp del negocio.\n\nTen cuidado con restringir la comunicación solo a WhatsApp. Usa esa opción cuando webchat debería funcionar principalmente como puerta hacia WhatsApp, no cuando quieres que visitantes sigan respondiendo en el sitio.\n\nSi las conversaciones deberían asignarse a una persona o equipo, configura el camino de ownership en Inbox y revisa Derivación de IA al Inbox.\n\nInstala y prueba\n\nAbre el ícono de Configuración del editor para ver las opciones de instalación. Elige el método que coincide con tu sitio:\n\nInstalación automática en VTEX o Fenicio, cuando la cuenta correspondiente está conectada.\nInstalación manual en un sitio con Hellotext.js.\nInstalación manual en WooCommerce con el plugin de Hellotext.\n\nLa instalación manual muestra el código y las instrucciones. En esta pantalla, Ya instalé mi código o Instalar y activar habilitan la misión y su flujo; no los uses hasta haber preparado el sitio. Una opción automática deshabilitada indica que falta conectar la plataforma. La vista previa del editor permite revisar la apariencia y los textos sin activar el widget.\n\nEn escritorio se ven los métodos disponibles; el foco móvil muestra la opción manual. No se instaló ni activó el widget.\n\nDespués prueba el sitio exacto donde debería aparecer el widget.\n\nRevisa:\n\nEl widget carga en el sitio y las páginas donde lo instalaste.\nEl lanzador, teaser y secuencia inicial aparecen correctamente.\nLa apertura por click o automática se comporta como configuraste.\nLa demora, primera visita y una vez por sesión funcionan como esperas.\nLos mensajes llegan al Inbox.\nLa asignación, ownership de equipo y reglas de respuesta se comportan como esperas.\nLa derivación o continuidad por WhatsApp usa el número correcto.\nLas misiones con IA y los agentes personalizados conectados responden solo dentro de su alcance.\nEl widget funciona en desktop y mobile sin tapar controles importantes del sitio.\nQué revisar después del lanzamiento\n\nDurante los primeros días, revisa:\n\nQué páginas inician más conversaciones de webchat.\nSi los visitantes entienden la secuencia inicial.\nSi el teaser atrae conversaciones útiles o genera ruido.\nSi las conversaciones se responden suficientemente rápido.\nSi las derivaciones llegan a la persona, equipo o número de WhatsApp correcto.\nSi las misiones con IA responden correctamente o derivan cuando corresponde.\nPreguntas repetidas que sugieren crear Respuestas Instantáneas, Asistente de Cambios y Devoluciones, Asistente de Cancelación de Pedidos, un Agente Personalizado, mejor contenido de políticas o mejor copy en el sitio.\nOpt-ins, órdenes, ingresos atribuidos, salud de respuesta y respuestas perdidas cuando aplique.\n\nAjusta una parte por vez: ubicación, disparador, demora, teaser, secuencia inicial, derivación o la misión que responde después de que empieza la conversación.\n\nGuías relacionadas\nResumen de herramientas de captura\nMisión Impulsor de Suscriptores\nMisión Recolector de Propiedades\nBiblioteca de misiones por objetivo\nCómo habilitar una misión\nCómo personalizar una misión de forma segura\nResumen de inbox y conversaciones\nDerivación de IA al Inbox\nTiempo de respuesta y reglas de respuesta\nMisión Recomendador Inteligente\nMisión Seguimiento de Pedidos\nMisión Respuestas Instantáneas\nMisión Asistente de Cambios y Devoluciones\nMisión Asistente de Cancelación de Pedidos\nMisión Agente Personalizado\nVerifica tus datos y señales después de configurar",
+    "links": [
+      {
+        "text": "Respuestas Instantáneas",
+        "url": "http://127.0.0.1:4191/es/respuestas-instantaneas"
+      },
+      {
+        "text": "Recomendador Inteligente",
+        "url": "http://127.0.0.1:4191/es/recomendador-inteligente"
+      },
+      {
+        "text": "Seguimiento de Pedidos",
+        "url": "http://127.0.0.1:4191/es/seguimiento-de-pedidos"
+      },
+      {
+        "text": "Asistente de Cambios y Devoluciones",
+        "url": "http://127.0.0.1:4191/es/asistente-cambios-devoluciones"
+      },
+      {
+        "text": "Asistente de Cancelación de Pedidos",
+        "url": "http://127.0.0.1:4191/es/asistente-cancelacion-pedidos"
+      },
+      {
+        "text": "Agente Personalizado",
+        "url": "http://127.0.0.1:4191/es/agente-personalizado"
+      },
+      {
+        "text": "campaña",
+        "url": "http://127.0.0.1:4191/es/resumen-campanas-broadcasts"
+      },
+      {
+        "text": "ruta",
+        "url": "http://127.0.0.1:4191/es/primeros-pasos-con-rutas"
+      },
+      {
+        "text": "Verifica tus datos y señales después de configurar",
+        "url": "http://127.0.0.1:4191/es/verifica-datos-y-senales"
+      },
+      {
+        "text": "Impulsor de Suscriptores",
+        "url": "http://127.0.0.1:4191/es/impulsor-suscriptores"
+      },
+      {
+        "text": "Derivación de IA al Inbox",
+        "url": "http://127.0.0.1:4191/es/derivacion-ia-inbox"
+      },
+      {
+        "text": "Respuestas Instantáneas",
+        "url": "http://127.0.0.1:4191/es/respuestas-instantaneas"
+      },
+      {
+        "text": "Asistente de Cambios y Devoluciones",
+        "url": "http://127.0.0.1:4191/es/asistente-cambios-devoluciones"
+      },
+      {
+        "text": "Asistente de Cancelación de Pedidos",
+        "url": "http://127.0.0.1:4191/es/asistente-cancelacion-pedidos"
+      },
+      {
+        "text": "Resumen de herramientas de captura",
+        "url": "http://127.0.0.1:4191/es/resumen-herramientas-captura"
+      },
+      {
+        "text": "Misión Impulsor de Suscriptores",
+        "url": "http://127.0.0.1:4191/es/impulsor-suscriptores"
+      },
+      {
+        "text": "Misión Recolector de Propiedades",
+        "url": "http://127.0.0.1:4191/es/recolector-propiedades"
+      },
+      {
+        "text": "Biblioteca de misiones por objetivo",
+        "url": "http://127.0.0.1:4191/es/biblioteca-misiones-por-objetivo"
+      },
+      {
+        "text": "Cómo habilitar una misión",
+        "url": "http://127.0.0.1:4191/es/como-habilitar-una-mision"
+      },
+      {
+        "text": "Cómo personalizar una misión de forma segura",
+        "url": "http://127.0.0.1:4191/es/como-personalizar-una-mision"
+      },
+      {
+        "text": "Resumen de inbox y conversaciones",
+        "url": "http://127.0.0.1:4191/es/resumen-inbox-conversaciones"
+      },
+      {
+        "text": "Derivación de IA al Inbox",
+        "url": "http://127.0.0.1:4191/es/derivacion-ia-inbox"
+      },
+      {
+        "text": "Tiempo de respuesta y reglas de respuesta",
+        "url": "http://127.0.0.1:4191/es/tiempo-de-respuesta-y-reglas-de-respuesta"
+      },
+      {
+        "text": "Misión Recomendador Inteligente",
+        "url": "http://127.0.0.1:4191/es/recomendador-inteligente"
+      },
+      {
+        "text": "Misión Seguimiento de Pedidos",
+        "url": "http://127.0.0.1:4191/es/seguimiento-de-pedidos"
+      },
+      {
+        "text": "Misión Respuestas Instantáneas",
+        "url": "http://127.0.0.1:4191/es/respuestas-instantaneas"
+      },
+      {
+        "text": "Misión Asistente de Cambios y Devoluciones",
+        "url": "http://127.0.0.1:4191/es/asistente-cambios-devoluciones"
+      },
+      {
+        "text": "Misión Asistente de Cancelación de Pedidos",
+        "url": "http://127.0.0.1:4191/es/asistente-cancelacion-pedidos"
+      },
+      {
+        "text": "Misión Agente Personalizado",
+        "url": "http://127.0.0.1:4191/es/agente-personalizado"
+      },
+      {
+        "text": "Verifica tus datos y señales después de configurar",
+        "url": "http://127.0.0.1:4191/es/verifica-datos-y-senales"
+      }
+    ],
+    "figures": [
+      {
+        "rect": [
+          16,
+          3244,
+          558,
+          305.1953125
+        ],
+        "stageWidth": 558,
+        "frameWidth": 400,
+        "imageWidth": 381.9921875,
+        "natural": [
+          400,
+          240
+        ],
+        "src": "/images/captures/capture-overview/desktop-webchat-es.png",
+        "alt": "Tarjeta Widget de Webchat del catálogo de misiones en escritorio.",
+        "caption": "Widget de Webchat en el catálogo de escritorio.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          4465.1953125,
+          558,
+          144
+        ],
+        "stageWidth": 558,
+        "frameWidth": 378,
+        "imageWidth": 360,
+        "natural": [
+          360,
+          68
+        ],
+        "src": "/images/captures/webchat-widget/appearance-mobile-es.png",
+        "alt": "Controles de marca de Webchat, con tipografía y color primario.",
+        "caption": "La marca define la tipografía y el color primario del widget.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          5057.1953125,
+          558,
+          190
+        ],
+        "stageWidth": 558,
+        "frameWidth": 378,
+        "imageWidth": 360,
+        "natural": [
+          360,
+          114
+        ],
+        "src": "/images/captures/webchat-widget/behavior-mobile-es.png",
+        "alt": "Apertura automática y límites de primera visita y una vez por sesión.",
+        "caption": "El ejemplo espera 5 segundos. El foco móvil muestra los dos límites seleccionados.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          5835.1953125,
+          558,
+          170
+        ],
+        "stageWidth": 558,
+        "frameWidth": 382,
+        "imageWidth": 364,
+        "natural": [
+          364,
+          94
+        ],
+        "src": "/images/captures/webchat-widget/opening-mobile-es.png",
+        "alt": "Configuración y vista previa del saludo ficticio de Webchat.",
+        "caption": "En escritorio se ve el editor; el foco móvil muestra el saludo en la vista previa, sin enviar mensajes.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          6609.1953125,
+          558,
+          356
+        ],
+        "stageWidth": 558,
+        "frameWidth": 367,
+        "imageWidth": 349,
+        "natural": [
+          349,
+          280
+        ],
+        "src": "/images/captures/webchat-widget/teaser-mobile-es.png",
+        "alt": "Burbuja teaser activa y secuencia personalizada desactivada.",
+        "caption": "Con la burbuja activa y sin texto personalizado, el teaser usa la secuencia inicial.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          7373.1953125,
+          558,
+          506
+        ],
+        "stageWidth": 558,
+        "frameWidth": 351,
+        "imageWidth": 333,
+        "natural": [
+          333,
+          430
+        ],
+        "src": "/images/captures/webchat-widget/channels-mobile-es.png",
+        "alt": "Ícono de WhatsApp activo con un número ficticio, sin restringir el chat a ese canal.",
+        "caption": "El número es ficticio. Mostrar el ícono y restringir el chat son opciones distintas.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          8787.1953125,
+          558,
+          196
+        ],
+        "stageWidth": 558,
+        "frameWidth": 412,
+        "imageWidth": 394,
+        "natural": [
+          394,
+          120
+        ],
+        "src": "/images/captures/webchat-widget/installation-mobile-es.png",
+        "alt": "Opciones de instalación de Webchat y descripción de la instalación manual con Hellotext.js.",
+        "caption": "En escritorio se ven los métodos disponibles; el foco móvil muestra la opción manual. No se instaló ni activó el widget.",
+        "linked": false
+      }
+    ]
+  },
+  {
+    "url": "http://127.0.0.1:4191/webchat-widget-playbook.html",
+    "locale": "en",
+    "title": "Webchat Widget playbook | Hellotext",
+    "viewport": [
+      1440,
+      1000
+    ],
+    "dpr": 2,
+    "zoom": 1,
+    "pageSize": [
+      1440,
+      11601
+    ],
+    "articleWidth": 774.4140625,
+    "headings": [
+      "What Webchat Widget does",
+      "When to use it",
+      "When not to use it",
+      "What it needs before launch",
+      "What you can configure",
+      "Design the appearance",
+      "Choose behavior carefully",
+      "Write the opening sequence",
+      "Use the teaser intentionally",
+      "Configure channel handoff",
+      "Install and test",
+      "What to review after launch",
+      "Related guides"
+    ],
+    "text": "Use this guide when you want visitors to start a conversation from your website.\n\nWebchat Widget is an on-site conversational entry point. In Hellotext, it is configured as a playbook and capture: you control how it appears, when it opens, what it says first, and whether visitors can continue through another channel such as WhatsApp.\n\nIt is not the AI agent itself. Think of it as the front door on your site. After a visitor starts a conversation, your team, Inbox rules, AI playbooks, or custom agents can handle the next step depending on your setup.\n\nWhat Webchat Widget does\n\nWebchat Widget lets customers message your business directly from your site.\n\nIt can:\n\nShow a launcher on the pages where you install the widget.\nOpen when the visitor clicks the launcher or, if configured, after the page loads.\nDisplay a short teaser before the visitor opens the chat.\nStart with a configured opening sequence.\nLet visitors ask for help, order guidance, product recommendations, or support.\nSend the conversation to the Inbox when a person needs to reply.\nContinue through WhatsApp when channel handoff is configured.\nWork alongside AI playbooks, support playbooks, custom agents, routes, and response rules.\n\nWebchat works best when the site needs a simple way for visitors to ask questions without leaving the page.\n\nWhen to use it\n\nUse Webchat Widget when:\n\nVisitors often need help before they buy.\nYour team wants a visible chat entry point on the storefront.\nYou want product recommendation, support, or order questions to start from the website.\nYou want to invite visitors into a conversation without relying only on SMS, WhatsApp, or social channels.\nYou want conversations to land in the Inbox with the right team process.\nYou want to offer WhatsApp continuation after the visitor starts on the site.\n\nIt is especially useful when paired with Instant Answers, Smart Recommender, Order-Update Delight, Return & Exchange Helper, Order Cancellation Assistant, or a focused Custom Agent.\n\nWhen not to use it\n\nDo not use Webchat Widget as a replacement for every other playbook.\n\nUse a campaign when you need a one-time announcement to a selected audience.\n\nUse a journey route when the customer experience must follow explicit steps, waits, conditions, and assignments.\n\nUse a product or support AI playbook when the main job is the agent’s reasoning, not the website entry point. Webchat can start the conversation, but the agent still needs its own mission, knowledge, and handoff rules.\n\nUse checkout opt-in, forms, QR codes, or shareable links when the main job is collecting consent or profile data instead of starting an on-site chat.\n\nWhat it needs before launch\n\nBefore enabling Webchat Widget, confirm:\n\nYour website or commerce platform is connected, or you know which installation method you will use.\nYour installation method is ready: Hellotext.js, the WooCommerce plugin, or a compatible VTEX or Fenicio integration.\nYou know which website and pages will include the widget.\nThe team knows who owns new webchat conversations in the Inbox.\nThe opening message explains what the visitor can ask.\nHandoff to WhatsApp is configured if you want visitors to continue there.\nAny AI playbook or custom agent that should answer webchat conversations is ready.\nResponse rules and business hours match the level of service you want for webchat.\n\nFor setup validation, use Verify your data and signals after setup.\n\nWhat you can configure\n\nOpen Playbooks, click Explore playbooks, find the Capture group, and choose Webchat Widget. If a playbook of this type already exists, its editor opens.\n\nWebchat Widget in the desktop catalog.\n\nWebchat Widget includes:\n\nAppearance: brand color, typography, launcher, header, conversation colors, logo, and Hellotext branding.\nBehavior: placement, click-to-open or automatic opening, delay, first-visit behavior, and once-per-session behavior.\nOpening sequence: the first messages shown in a new webchat conversation.\nTeaser: the small invitation that appears before the visitor opens the chat.\nChannels or handoff: whether to show WhatsApp, restrict continuation to WhatsApp, and which WhatsApp number to display.\nInstallation: automatic installation options or manual installation instructions.\n\nYou do not need to customize every card. Start with the cards that shape the visitor experience: appearance, behavior, opening sequence, and handoff.\n\nDesign the appearance\n\nThe widget should feel like part of your site, but it should still be easy to notice.\n\nReview:\n\nLauncher color, text color, notification style, and icon.\nHeader display, business name, logo, and colors.\nConversation background and message bubble colors.\nButton and carousel colors when those elements appear.\nWhether your plan allows removing Hellotext branding.\nBrand settings define the widget typography and primary color.\n\nTest on desktop and mobile. The launcher should not cover checkout buttons, add-to-cart buttons, support links, cookie banners, or other important site controls.\n\nChoose behavior carefully\n\nFor a first launch, use click-to-open unless you have a clear reason to open automatically.\n\nIn Behavior → Opening, select Automatically on page load to reveal the delay and limits. You can open immediately or after 5, 10, or 30 seconds. Use First visit only and Once per session where appropriate; the example waits 5 seconds and has both limits selected. Automatic opening can also interrupt browsing.\n\nThe example waits 5 seconds. The mobile focus shows both selected limits.\n\nPlacement matters. Bottom right is usually familiar to visitors, but use the position that does not conflict with your store layout, mobile navigation, or checkout controls.\n\nWrite the opening sequence\n\nThe opening sequence should help visitors choose what to do next.\n\nKeep it short:\n\nWelcome the visitor.\nName the main things they can ask.\nOffer one or two useful paths, such as order help, product recommendation, or talking to a person.\nAvoid long policy text in the first message.\n\nOpen Opening sequence and enter the greeting in the editor. New message adds another message to that sequence; delays and schedules are also available. The preview reflects the text you edit. Keep the message specific without promising that webchat can solve everything by itself.\n\nDesktop shows the editor; the mobile focus shows the greeting in the preview, without sending messages.\n\nIf an AI playbook or custom agent will answer after the conversation starts, make sure the opening sequence matches that agent’s actual scope.\n\nUse the teaser intentionally\n\nThe teaser is the small prompt that invites the visitor to open the chat.\n\nUse it to make the chat feel useful:\n\n“Need help choosing a size?”\n“Want a product recommendation?”\n“Have a question about your order?”\n“Need help before checkout?”\n\nAvoid teaser copy that feels like a forced popup or a promise your team cannot keep.\n\nIn Teaser, turn on Teaser bubble to show the small prompt. Turn on Use custom opening sequence if you want different copy from the opening sequence. Review both messages to avoid repetition.\n\nWith the bubble enabled and no custom text, the teaser uses the opening sequence.\n\nWhen Subscriber Booster is enabled for Webchat and allows its teaser, it can replace this message with a subscription invitation for an eligible visitor. The incentive depends on its configuration and the profile’s purchase history. Turning off only its teaser does not disable the invitation inside the chat.\n\nConfigure channel handoff\n\nIn Channels, Display WhatsApp icon adds access to that channel. Restrict communication only to WhatsApp changes the experience to a WhatsApp entry point. Select the appropriate number; the editor also allows you to type a number. The fictional example number is not a connected channel and is not used to send messages.\n\nThe number is fictional. Showing the icon and restricting the chat are different options.\n\nUse WhatsApp continuation when:\n\nCustomers may leave the site before your team replies.\nYour team prefers to continue longer conversations in WhatsApp.\nMobile visitors are more likely to respond from WhatsApp than from the browser.\nYou want the visitor to see a specific WhatsApp number for the business.\n\nBe careful with restricting communication only to WhatsApp. Use that option when webchat should mainly act as a doorway to WhatsApp, not when you want visitors to continue replying on the site.\n\nIf conversations should be assigned to a teammate or team, configure the Inbox ownership path and review AI handoff to Inbox.\n\nInstall and test\n\nOpen the editor’s Settings icon to see installation options. Choose the method that matches your site:\n\nAutomatic installation on VTEX or Fenicio, when the corresponding account is connected.\nManual installation on a website with Hellotext.js.\nManual installation on WooCommerce with the Hellotext plugin.\n\nManual installation shows the code and instructions. On this screen, I’ve installed my code or Install and activate enable the playbook and its workflow; use them only after preparing your site. A disabled automatic option indicates that the platform must be connected first. The editor preview lets you review appearance and text without activating the widget.\n\nDesktop shows the available methods; the mobile focus shows the manual option. The widget was not installed or enabled.\n\nThen test the exact website where the widget should appear.\n\nCheck:\n\nThe widget loads on the website and pages where you installed it.\nThe launcher, teaser, and opening sequence appear correctly.\nClick-to-open or automatic opening behaves as configured.\nDelay, first-visit, and once-per-session settings work as expected.\nMessages arrive in the Inbox.\nAssignment, team ownership, and response rules behave as expected.\nWhatsApp handoff or continuation uses the correct number.\nAny connected AI playbook or custom agent answers only within its scope.\nThe widget works on desktop and mobile without covering important site controls.\nWhat to review after launch\n\nDuring the first days, review:\n\nWhich pages start the most webchat conversations.\nWhether visitors understand the opening sequence.\nWhether the teaser attracts useful conversations or creates noise.\nWhether conversations are answered quickly enough.\nWhether handoffs go to the right teammate, team, or WhatsApp number.\nWhether AI playbooks answer correctly or hand off when needed.\nRepeated questions that suggest you need Instant Answers, Return & Exchange Helper, Order Cancellation Assistant, a Custom Agent, better policy content, or better site copy.\nOpt-ins, orders, attributed revenue, response health, and missed replies when relevant.\n\nTune one part at a time: placement, trigger, delay, teaser, opening sequence, handoff, or the playbook that answers after the conversation starts.\n\nRelated guides\nCapture tools overview\nSubscriber Booster playbook\nProperty Collector playbook\nPlaybook library by mission\nHow to enable a playbook\nHow to customize a playbook safely\nInbox and conversations overview\nAI handoff to Inbox\nResponse times and response rules\nSmart Recommender playbook\nOrder-Update Delight playbook\nInstant Answers playbook\nReturn & Exchange Helper playbook\nOrder Cancellation Assistant playbook\nCustom Agent playbook\nVerify your data and signals after setup",
+    "links": [
+      {
+        "text": "Instant Answers",
+        "url": "http://127.0.0.1:4191/instant-answers-playbook"
+      },
+      {
+        "text": "Smart Recommender",
+        "url": "http://127.0.0.1:4191/smart-recommender-playbook"
+      },
+      {
+        "text": "Order-Update Delight",
+        "url": "http://127.0.0.1:4191/order-update-playbook"
+      },
+      {
+        "text": "Return & Exchange Helper",
+        "url": "http://127.0.0.1:4191/return-and-exchange-helper-playbook"
+      },
+      {
+        "text": "Order Cancellation Assistant",
+        "url": "http://127.0.0.1:4191/order-cancellation-assistant-playbook"
+      },
+      {
+        "text": "Custom Agent",
+        "url": "http://127.0.0.1:4191/custom-agent-playbook"
+      },
+      {
+        "text": "campaign",
+        "url": "http://127.0.0.1:4191/campaigns-broadcasts-overview"
+      },
+      {
+        "text": "journey route",
+        "url": "http://127.0.0.1:4191/getting-started-with-journeys"
+      },
+      {
+        "text": "Verify your data and signals after setup",
+        "url": "http://127.0.0.1:4191/verify-data-and-signals"
+      },
+      {
+        "text": "Subscriber Booster",
+        "url": "http://127.0.0.1:4191/subscriber-booster-playbook"
+      },
+      {
+        "text": "AI handoff to Inbox",
+        "url": "http://127.0.0.1:4191/ai-handoff-to-inbox"
+      },
+      {
+        "text": "Instant Answers",
+        "url": "http://127.0.0.1:4191/instant-answers-playbook"
+      },
+      {
+        "text": "Return & Exchange Helper",
+        "url": "http://127.0.0.1:4191/return-and-exchange-helper-playbook"
+      },
+      {
+        "text": "Order Cancellation Assistant",
+        "url": "http://127.0.0.1:4191/order-cancellation-assistant-playbook"
+      },
+      {
+        "text": "Capture tools overview",
+        "url": "http://127.0.0.1:4191/capture-tools-overview"
+      },
+      {
+        "text": "Subscriber Booster playbook",
+        "url": "http://127.0.0.1:4191/subscriber-booster-playbook"
+      },
+      {
+        "text": "Property Collector playbook",
+        "url": "http://127.0.0.1:4191/property-collector-playbook"
+      },
+      {
+        "text": "Playbook library by mission",
+        "url": "http://127.0.0.1:4191/playbook-library-by-mission"
+      },
+      {
+        "text": "How to enable a playbook",
+        "url": "http://127.0.0.1:4191/how-to-enable-a-playbook"
+      },
+      {
+        "text": "How to customize a playbook safely",
+        "url": "http://127.0.0.1:4191/how-to-customize-a-playbook-safely"
+      },
+      {
+        "text": "Inbox and conversations overview",
+        "url": "http://127.0.0.1:4191/inbox-conversations-overview"
+      },
+      {
+        "text": "AI handoff to Inbox",
+        "url": "http://127.0.0.1:4191/ai-handoff-to-inbox"
+      },
+      {
+        "text": "Response times and response rules",
+        "url": "http://127.0.0.1:4191/understanding-response-times"
+      },
+      {
+        "text": "Smart Recommender playbook",
+        "url": "http://127.0.0.1:4191/smart-recommender-playbook"
+      },
+      {
+        "text": "Order-Update Delight playbook",
+        "url": "http://127.0.0.1:4191/order-update-playbook"
+      },
+      {
+        "text": "Instant Answers playbook",
+        "url": "http://127.0.0.1:4191/instant-answers-playbook"
+      },
+      {
+        "text": "Return & Exchange Helper playbook",
+        "url": "http://127.0.0.1:4191/return-and-exchange-helper-playbook"
+      },
+      {
+        "text": "Order Cancellation Assistant playbook",
+        "url": "http://127.0.0.1:4191/order-cancellation-assistant-playbook"
+      },
+      {
+        "text": "Custom Agent playbook",
+        "url": "http://127.0.0.1:4191/custom-agent-playbook"
+      },
+      {
+        "text": "Verify your data and signals after setup",
+        "url": "http://127.0.0.1:4191/verify-data-and-signals"
+      }
+    ],
+    "figures": [
+      {
+        "rect": [
+          375.9921875,
+          2955.7421875,
+          774.4140625,
+          305.1953125
+        ],
+        "stageWidth": 774.4140625,
+        "frameWidth": 400,
+        "imageWidth": 381.9921875,
+        "natural": [
+          400,
+          240
+        ],
+        "src": "/images/captures/capture-overview/desktop-webchat-en.png",
+        "alt": "Webchat Widget card in the desktop playbook catalog.",
+        "caption": "Webchat Widget in the desktop catalog.",
+        "linked": false
+      },
+      {
+        "rect": [
+          375.9921875,
+          4074.9375,
+          774.4140625,
+          444.0078125
+        ],
+        "stageWidth": 774.4140625,
+        "frameWidth": 528,
+        "imageWidth": 509.9921875,
+        "natural": [
+          528,
+          381
+        ],
+        "src": "/images/captures/webchat-widget/appearance-en.png",
+        "alt": "Webchat brand controls, including typography and primary color.",
+        "caption": "Brand settings define the widget typography and primary color.",
+        "linked": false
+      },
+      {
+        "rect": [
+          375.9921875,
+          4888.9453125,
+          774.4140625,
+          449.8046875
+        ],
+        "stageWidth": 774.4140625,
+        "frameWidth": 528,
+        "imageWidth": 509.9921875,
+        "natural": [
+          528,
+          387
+        ],
+        "src": "/images/captures/webchat-widget/behavior-en.png",
+        "alt": "Automatic opening and first-visit and once-per-session limits.",
+        "caption": "The example waits 5 seconds. The mobile focus shows both selected limits.",
+        "linked": false
+      },
+      {
+        "rect": [
+          375.9921875,
+          5872.75,
+          774.4140625,
+          500.03125
+        ],
+        "stageWidth": 774.4140625,
+        "frameWidth": 528,
+        "imageWidth": 509.9921875,
+        "natural": [
+          528,
+          439
+        ],
+        "src": "/images/captures/webchat-widget/opening-en.png",
+        "alt": "Configuration and preview of the fictional Webchat greeting.",
+        "caption": "Desktop shows the editor; the mobile focus shows the greeting in the preview, without sending messages.",
+        "linked": false
+      },
+      {
+        "rect": [
+          375.9921875,
+          6922.78125,
+          774.4140625,
+          319.65625
+        ],
+        "stageWidth": 774.4140625,
+        "frameWidth": 544,
+        "imageWidth": 525.984375,
+        "natural": [
+          544,
+          252
+        ],
+        "src": "/images/captures/webchat-widget/teaser-en.png",
+        "alt": "Teaser bubble enabled with the custom sequence disabled.",
+        "caption": "With the bubble enabled and no custom text, the teaser uses the opening sequence.",
+        "linked": false
+      },
+      {
+        "rect": [
+          375.9921875,
+          7596.4375,
+          774.4140625,
+          464.2890625
+        ],
+        "stageWidth": 774.4140625,
+        "frameWidth": 528,
+        "imageWidth": 509.984375,
+        "natural": [
+          528,
+          402
+        ],
+        "src": "/images/captures/webchat-widget/channels-en.png",
+        "alt": "WhatsApp icon enabled with a fictional number, without restricting the chat to that channel.",
+        "caption": "The number is fictional. Showing the icon and restricting the chat are different options.",
+        "linked": false
+      },
+      {
+        "rect": [
+          375.9921875,
+          8794.7265625,
+          774.4140625,
+          745.40625
+        ],
+        "stageWidth": 774.4140625,
+        "frameWidth": 508,
+        "imageWidth": 489.9921875,
+        "natural": [
+          508,
+          694
+        ],
+        "src": "/images/captures/webchat-widget/installation-en.png",
+        "alt": "Webchat installation options and manual Hellotext.js installation description.",
+        "caption": "Desktop shows the available methods; the mobile focus shows the manual option. The widget was not installed or enabled.",
+        "linked": false
+      }
+    ]
+  },
+  {
+    "url": "http://127.0.0.1:4191/webchat-widget-playbook.html",
+    "locale": "en",
+    "title": "Webchat Widget playbook | Hellotext",
+    "viewport": [
+      390,
+      1000
+    ],
+    "dpr": 2,
+    "zoom": 1,
+    "pageSize": [
+      390,
+      13079
+    ],
+    "articleWidth": 358,
+    "headings": [
+      "What Webchat Widget does",
+      "When to use it",
+      "When not to use it",
+      "What it needs before launch",
+      "What you can configure",
+      "Design the appearance",
+      "Choose behavior carefully",
+      "Write the opening sequence",
+      "Use the teaser intentionally",
+      "Configure channel handoff",
+      "Install and test",
+      "What to review after launch",
+      "Related guides"
+    ],
+    "text": "Use this guide when you want visitors to start a conversation from your website.\n\nWebchat Widget is an on-site conversational entry point. In Hellotext, it is configured as a playbook and capture: you control how it appears, when it opens, what it says first, and whether visitors can continue through another channel such as WhatsApp.\n\nIt is not the AI agent itself. Think of it as the front door on your site. After a visitor starts a conversation, your team, Inbox rules, AI playbooks, or custom agents can handle the next step depending on your setup.\n\nWhat Webchat Widget does\n\nWebchat Widget lets customers message your business directly from your site.\n\nIt can:\n\nShow a launcher on the pages where you install the widget.\nOpen when the visitor clicks the launcher or, if configured, after the page loads.\nDisplay a short teaser before the visitor opens the chat.\nStart with a configured opening sequence.\nLet visitors ask for help, order guidance, product recommendations, or support.\nSend the conversation to the Inbox when a person needs to reply.\nContinue through WhatsApp when channel handoff is configured.\nWork alongside AI playbooks, support playbooks, custom agents, routes, and response rules.\n\nWebchat works best when the site needs a simple way for visitors to ask questions without leaving the page.\n\nWhen to use it\n\nUse Webchat Widget when:\n\nVisitors often need help before they buy.\nYour team wants a visible chat entry point on the storefront.\nYou want product recommendation, support, or order questions to start from the website.\nYou want to invite visitors into a conversation without relying only on SMS, WhatsApp, or social channels.\nYou want conversations to land in the Inbox with the right team process.\nYou want to offer WhatsApp continuation after the visitor starts on the site.\n\nIt is especially useful when paired with Instant Answers, Smart Recommender, Order-Update Delight, Return & Exchange Helper, Order Cancellation Assistant, or a focused Custom Agent.\n\nWhen not to use it\n\nDo not use Webchat Widget as a replacement for every other playbook.\n\nUse a campaign when you need a one-time announcement to a selected audience.\n\nUse a journey route when the customer experience must follow explicit steps, waits, conditions, and assignments.\n\nUse a product or support AI playbook when the main job is the agent’s reasoning, not the website entry point. Webchat can start the conversation, but the agent still needs its own mission, knowledge, and handoff rules.\n\nUse checkout opt-in, forms, QR codes, or shareable links when the main job is collecting consent or profile data instead of starting an on-site chat.\n\nWhat it needs before launch\n\nBefore enabling Webchat Widget, confirm:\n\nYour website or commerce platform is connected, or you know which installation method you will use.\nYour installation method is ready: Hellotext.js, the WooCommerce plugin, or a compatible VTEX or Fenicio integration.\nYou know which website and pages will include the widget.\nThe team knows who owns new webchat conversations in the Inbox.\nThe opening message explains what the visitor can ask.\nHandoff to WhatsApp is configured if you want visitors to continue there.\nAny AI playbook or custom agent that should answer webchat conversations is ready.\nResponse rules and business hours match the level of service you want for webchat.\n\nFor setup validation, use Verify your data and signals after setup.\n\nWhat you can configure\n\nOpen Playbooks, click Explore playbooks, find the Capture group, and choose Webchat Widget. If a playbook of this type already exists, its editor opens.\n\nWebchat Widget in the desktop catalog.\n\nWebchat Widget includes:\n\nAppearance: brand color, typography, launcher, header, conversation colors, logo, and Hellotext branding.\nBehavior: placement, click-to-open or automatic opening, delay, first-visit behavior, and once-per-session behavior.\nOpening sequence: the first messages shown in a new webchat conversation.\nTeaser: the small invitation that appears before the visitor opens the chat.\nChannels or handoff: whether to show WhatsApp, restrict continuation to WhatsApp, and which WhatsApp number to display.\nInstallation: automatic installation options or manual installation instructions.\n\nYou do not need to customize every card. Start with the cards that shape the visitor experience: appearance, behavior, opening sequence, and handoff.\n\nDesign the appearance\n\nThe widget should feel like part of your site, but it should still be easy to notice.\n\nReview:\n\nLauncher color, text color, notification style, and icon.\nHeader display, business name, logo, and colors.\nConversation background and message bubble colors.\nButton and carousel colors when those elements appear.\nWhether your plan allows removing Hellotext branding.\nBrand settings define the widget typography and primary color.\n\nTest on desktop and mobile. The launcher should not cover checkout buttons, add-to-cart buttons, support links, cookie banners, or other important site controls.\n\nChoose behavior carefully\n\nFor a first launch, use click-to-open unless you have a clear reason to open automatically.\n\nIn Behavior → Opening, select Automatically on page load to reveal the delay and limits. You can open immediately or after 5, 10, or 30 seconds. Use First visit only and Once per session where appropriate; the example waits 5 seconds and has both limits selected. Automatic opening can also interrupt browsing.\n\nThe example waits 5 seconds. The mobile focus shows both selected limits.\n\nPlacement matters. Bottom right is usually familiar to visitors, but use the position that does not conflict with your store layout, mobile navigation, or checkout controls.\n\nWrite the opening sequence\n\nThe opening sequence should help visitors choose what to do next.\n\nKeep it short:\n\nWelcome the visitor.\nName the main things they can ask.\nOffer one or two useful paths, such as order help, product recommendation, or talking to a person.\nAvoid long policy text in the first message.\n\nOpen Opening sequence and enter the greeting in the editor. New message adds another message to that sequence; delays and schedules are also available. The preview reflects the text you edit. Keep the message specific without promising that webchat can solve everything by itself.\n\nDesktop shows the editor; the mobile focus shows the greeting in the preview, without sending messages.\n\nIf an AI playbook or custom agent will answer after the conversation starts, make sure the opening sequence matches that agent’s actual scope.\n\nUse the teaser intentionally\n\nThe teaser is the small prompt that invites the visitor to open the chat.\n\nUse it to make the chat feel useful:\n\n“Need help choosing a size?”\n“Want a product recommendation?”\n“Have a question about your order?”\n“Need help before checkout?”\n\nAvoid teaser copy that feels like a forced popup or a promise your team cannot keep.\n\nIn Teaser, turn on Teaser bubble to show the small prompt. Turn on Use custom opening sequence if you want different copy from the opening sequence. Review both messages to avoid repetition.\n\nWith the bubble enabled and no custom text, the teaser uses the opening sequence.\n\nWhen Subscriber Booster is enabled for Webchat and allows its teaser, it can replace this message with a subscription invitation for an eligible visitor. The incentive depends on its configuration and the profile’s purchase history. Turning off only its teaser does not disable the invitation inside the chat.\n\nConfigure channel handoff\n\nIn Channels, Display WhatsApp icon adds access to that channel. Restrict communication only to WhatsApp changes the experience to a WhatsApp entry point. Select the appropriate number; the editor also allows you to type a number. The fictional example number is not a connected channel and is not used to send messages.\n\nThe number is fictional. Showing the icon and restricting the chat are different options.\n\nUse WhatsApp continuation when:\n\nCustomers may leave the site before your team replies.\nYour team prefers to continue longer conversations in WhatsApp.\nMobile visitors are more likely to respond from WhatsApp than from the browser.\nYou want the visitor to see a specific WhatsApp number for the business.\n\nBe careful with restricting communication only to WhatsApp. Use that option when webchat should mainly act as a doorway to WhatsApp, not when you want visitors to continue replying on the site.\n\nIf conversations should be assigned to a teammate or team, configure the Inbox ownership path and review AI handoff to Inbox.\n\nInstall and test\n\nOpen the editor’s Settings icon to see installation options. Choose the method that matches your site:\n\nAutomatic installation on VTEX or Fenicio, when the corresponding account is connected.\nManual installation on a website with Hellotext.js.\nManual installation on WooCommerce with the Hellotext plugin.\n\nManual installation shows the code and instructions. On this screen, I’ve installed my code or Install and activate enable the playbook and its workflow; use them only after preparing your site. A disabled automatic option indicates that the platform must be connected first. The editor preview lets you review appearance and text without activating the widget.\n\nDesktop shows the available methods; the mobile focus shows the manual option. The widget was not installed or enabled.\n\nThen test the exact website where the widget should appear.\n\nCheck:\n\nThe widget loads on the website and pages where you installed it.\nThe launcher, teaser, and opening sequence appear correctly.\nClick-to-open or automatic opening behaves as configured.\nDelay, first-visit, and once-per-session settings work as expected.\nMessages arrive in the Inbox.\nAssignment, team ownership, and response rules behave as expected.\nWhatsApp handoff or continuation uses the correct number.\nAny connected AI playbook or custom agent answers only within its scope.\nThe widget works on desktop and mobile without covering important site controls.\nWhat to review after launch\n\nDuring the first days, review:\n\nWhich pages start the most webchat conversations.\nWhether visitors understand the opening sequence.\nWhether the teaser attracts useful conversations or creates noise.\nWhether conversations are answered quickly enough.\nWhether handoffs go to the right teammate, team, or WhatsApp number.\nWhether AI playbooks answer correctly or hand off when needed.\nRepeated questions that suggest you need Instant Answers, Return & Exchange Helper, Order Cancellation Assistant, a Custom Agent, better policy content, or better site copy.\nOpt-ins, orders, attributed revenue, response health, and missed replies when relevant.\n\nTune one part at a time: placement, trigger, delay, teaser, opening sequence, handoff, or the playbook that answers after the conversation starts.\n\nRelated guides\nCapture tools overview\nSubscriber Booster playbook\nProperty Collector playbook\nPlaybook library by mission\nHow to enable a playbook\nHow to customize a playbook safely\nInbox and conversations overview\nAI handoff to Inbox\nResponse times and response rules\nSmart Recommender playbook\nOrder-Update Delight playbook\nInstant Answers playbook\nReturn & Exchange Helper playbook\nOrder Cancellation Assistant playbook\nCustom Agent playbook\nVerify your data and signals after setup",
+    "links": [
+      {
+        "text": "Instant Answers",
+        "url": "http://127.0.0.1:4191/instant-answers-playbook"
+      },
+      {
+        "text": "Smart Recommender",
+        "url": "http://127.0.0.1:4191/smart-recommender-playbook"
+      },
+      {
+        "text": "Order-Update Delight",
+        "url": "http://127.0.0.1:4191/order-update-playbook"
+      },
+      {
+        "text": "Return & Exchange Helper",
+        "url": "http://127.0.0.1:4191/return-and-exchange-helper-playbook"
+      },
+      {
+        "text": "Order Cancellation Assistant",
+        "url": "http://127.0.0.1:4191/order-cancellation-assistant-playbook"
+      },
+      {
+        "text": "Custom Agent",
+        "url": "http://127.0.0.1:4191/custom-agent-playbook"
+      },
+      {
+        "text": "campaign",
+        "url": "http://127.0.0.1:4191/campaigns-broadcasts-overview"
+      },
+      {
+        "text": "journey route",
+        "url": "http://127.0.0.1:4191/getting-started-with-journeys"
+      },
+      {
+        "text": "Verify your data and signals after setup",
+        "url": "http://127.0.0.1:4191/verify-data-and-signals"
+      },
+      {
+        "text": "Subscriber Booster",
+        "url": "http://127.0.0.1:4191/subscriber-booster-playbook"
+      },
+      {
+        "text": "AI handoff to Inbox",
+        "url": "http://127.0.0.1:4191/ai-handoff-to-inbox"
+      },
+      {
+        "text": "Instant Answers",
+        "url": "http://127.0.0.1:4191/instant-answers-playbook"
+      },
+      {
+        "text": "Return & Exchange Helper",
+        "url": "http://127.0.0.1:4191/return-and-exchange-helper-playbook"
+      },
+      {
+        "text": "Order Cancellation Assistant",
+        "url": "http://127.0.0.1:4191/order-cancellation-assistant-playbook"
+      },
+      {
+        "text": "Capture tools overview",
+        "url": "http://127.0.0.1:4191/capture-tools-overview"
+      },
+      {
+        "text": "Subscriber Booster playbook",
+        "url": "http://127.0.0.1:4191/subscriber-booster-playbook"
+      },
+      {
+        "text": "Property Collector playbook",
+        "url": "http://127.0.0.1:4191/property-collector-playbook"
+      },
+      {
+        "text": "Playbook library by mission",
+        "url": "http://127.0.0.1:4191/playbook-library-by-mission"
+      },
+      {
+        "text": "How to enable a playbook",
+        "url": "http://127.0.0.1:4191/how-to-enable-a-playbook"
+      },
+      {
+        "text": "How to customize a playbook safely",
+        "url": "http://127.0.0.1:4191/how-to-customize-a-playbook-safely"
+      },
+      {
+        "text": "Inbox and conversations overview",
+        "url": "http://127.0.0.1:4191/inbox-conversations-overview"
+      },
+      {
+        "text": "AI handoff to Inbox",
+        "url": "http://127.0.0.1:4191/ai-handoff-to-inbox"
+      },
+      {
+        "text": "Response times and response rules",
+        "url": "http://127.0.0.1:4191/understanding-response-times"
+      },
+      {
+        "text": "Smart Recommender playbook",
+        "url": "http://127.0.0.1:4191/smart-recommender-playbook"
+      },
+      {
+        "text": "Order-Update Delight playbook",
+        "url": "http://127.0.0.1:4191/order-update-playbook"
+      },
+      {
+        "text": "Instant Answers playbook",
+        "url": "http://127.0.0.1:4191/instant-answers-playbook"
+      },
+      {
+        "text": "Return & Exchange Helper playbook",
+        "url": "http://127.0.0.1:4191/return-and-exchange-helper-playbook"
+      },
+      {
+        "text": "Order Cancellation Assistant playbook",
+        "url": "http://127.0.0.1:4191/order-cancellation-assistant-playbook"
+      },
+      {
+        "text": "Custom Agent playbook",
+        "url": "http://127.0.0.1:4191/custom-agent-playbook"
+      },
+      {
+        "text": "Verify your data and signals after setup",
+        "url": "http://127.0.0.1:4191/verify-data-and-signals"
+      }
+    ],
+    "figures": [
+      {
+        "rect": [
+          16,
+          3871.5,
+          358,
+          239.59375
+        ],
+        "stageWidth": 358,
+        "frameWidth": 328,
+        "imageWidth": 315.984375,
+        "natural": [
+          400,
+          240
+        ],
+        "src": "/images/captures/capture-overview/desktop-webchat-en.png",
+        "alt": "Webchat Widget card in the desktop playbook catalog.",
+        "caption": "Webchat Widget in the desktop catalog.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          5303.09375,
+          358,
+          109.6875
+        ],
+        "stageWidth": 358,
+        "frameWidth": 328,
+        "imageWidth": 315.9921875,
+        "natural": [
+          360,
+          68
+        ],
+        "src": "/images/captures/webchat-widget/appearance-mobile-en.png",
+        "alt": "Webchat brand controls, including typography and primary color.",
+        "caption": "Brand settings define the widget typography and primary color.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          5944.78125,
+          358,
+          150.0625
+        ],
+        "stageWidth": 358,
+        "frameWidth": 328,
+        "imageWidth": 315.984375,
+        "natural": [
+          360,
+          114
+        ],
+        "src": "/images/captures/webchat-widget/behavior-mobile-en.png",
+        "alt": "Automatic opening and first-visit and once-per-session limits.",
+        "caption": "The example waits 5 seconds. The mobile focus shows both selected limits.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          6862.84375,
+          358,
+          131.6015625
+        ],
+        "stageWidth": 358,
+        "frameWidth": 328,
+        "imageWidth": 315.984375,
+        "natural": [
+          364,
+          94
+        ],
+        "src": "/images/captures/webchat-widget/opening-mobile-en.png",
+        "alt": "Configuration and preview of the fictional Webchat greeting.",
+        "caption": "Desktop shows the editor; the mobile focus shows the greeting in the preview, without sending messages.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          7730.4453125,
+          358,
+          303.5234375
+        ],
+        "stageWidth": 358,
+        "frameWidth": 328,
+        "imageWidth": 315.9921875,
+        "natural": [
+          349,
+          280
+        ],
+        "src": "/images/captures/webchat-widget/teaser-mobile-en.png",
+        "alt": "Teaser bubble enabled with the custom sequence disabled.",
+        "caption": "With the bubble enabled and no custom text, the teaser uses the opening sequence.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          8597.96875,
+          358,
+          458.046875
+        ],
+        "stageWidth": 358,
+        "frameWidth": 328,
+        "imageWidth": 315.9921875,
+        "natural": [
+          333,
+          430
+        ],
+        "src": "/images/captures/webchat-widget/channels-mobile-en.png",
+        "alt": "WhatsApp icon enabled with a fictional number, without restricting the chat to that channel.",
+        "caption": "The number is fictional. Showing the icon and restricting the chat are different options.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          10228.015625,
+          358,
+          126.9921875
+        ],
+        "stageWidth": 358,
+        "frameWidth": 328,
+        "imageWidth": 315.984375,
+        "natural": [
+          394,
+          96
+        ],
+        "src": "/images/captures/webchat-widget/installation-mobile-en.png",
+        "alt": "Webchat installation options and manual Hellotext.js installation description.",
+        "caption": "Desktop shows the available methods; the mobile focus shows the manual option. The widget was not installed or enabled.",
+        "linked": false
+      }
+    ]
+  },
+  {
+    "url": "http://127.0.0.1:4191/webchat-widget-playbook.html",
+    "locale": "en",
+    "title": "Webchat Widget playbook | Hellotext",
+    "viewport": [
+      590,
+      1000
+    ],
+    "dpr": 2,
+    "zoom": 1,
+    "pageSize": [
+      590,
+      10991
+    ],
+    "articleWidth": 558,
+    "headings": [
+      "What Webchat Widget does",
+      "When to use it",
+      "When not to use it",
+      "What it needs before launch",
+      "What you can configure",
+      "Design the appearance",
+      "Choose behavior carefully",
+      "Write the opening sequence",
+      "Use the teaser intentionally",
+      "Configure channel handoff",
+      "Install and test",
+      "What to review after launch",
+      "Related guides"
+    ],
+    "text": "Use this guide when you want visitors to start a conversation from your website.\n\nWebchat Widget is an on-site conversational entry point. In Hellotext, it is configured as a playbook and capture: you control how it appears, when it opens, what it says first, and whether visitors can continue through another channel such as WhatsApp.\n\nIt is not the AI agent itself. Think of it as the front door on your site. After a visitor starts a conversation, your team, Inbox rules, AI playbooks, or custom agents can handle the next step depending on your setup.\n\nWhat Webchat Widget does\n\nWebchat Widget lets customers message your business directly from your site.\n\nIt can:\n\nShow a launcher on the pages where you install the widget.\nOpen when the visitor clicks the launcher or, if configured, after the page loads.\nDisplay a short teaser before the visitor opens the chat.\nStart with a configured opening sequence.\nLet visitors ask for help, order guidance, product recommendations, or support.\nSend the conversation to the Inbox when a person needs to reply.\nContinue through WhatsApp when channel handoff is configured.\nWork alongside AI playbooks, support playbooks, custom agents, routes, and response rules.\n\nWebchat works best when the site needs a simple way for visitors to ask questions without leaving the page.\n\nWhen to use it\n\nUse Webchat Widget when:\n\nVisitors often need help before they buy.\nYour team wants a visible chat entry point on the storefront.\nYou want product recommendation, support, or order questions to start from the website.\nYou want to invite visitors into a conversation without relying only on SMS, WhatsApp, or social channels.\nYou want conversations to land in the Inbox with the right team process.\nYou want to offer WhatsApp continuation after the visitor starts on the site.\n\nIt is especially useful when paired with Instant Answers, Smart Recommender, Order-Update Delight, Return & Exchange Helper, Order Cancellation Assistant, or a focused Custom Agent.\n\nWhen not to use it\n\nDo not use Webchat Widget as a replacement for every other playbook.\n\nUse a campaign when you need a one-time announcement to a selected audience.\n\nUse a journey route when the customer experience must follow explicit steps, waits, conditions, and assignments.\n\nUse a product or support AI playbook when the main job is the agent’s reasoning, not the website entry point. Webchat can start the conversation, but the agent still needs its own mission, knowledge, and handoff rules.\n\nUse checkout opt-in, forms, QR codes, or shareable links when the main job is collecting consent or profile data instead of starting an on-site chat.\n\nWhat it needs before launch\n\nBefore enabling Webchat Widget, confirm:\n\nYour website or commerce platform is connected, or you know which installation method you will use.\nYour installation method is ready: Hellotext.js, the WooCommerce plugin, or a compatible VTEX or Fenicio integration.\nYou know which website and pages will include the widget.\nThe team knows who owns new webchat conversations in the Inbox.\nThe opening message explains what the visitor can ask.\nHandoff to WhatsApp is configured if you want visitors to continue there.\nAny AI playbook or custom agent that should answer webchat conversations is ready.\nResponse rules and business hours match the level of service you want for webchat.\n\nFor setup validation, use Verify your data and signals after setup.\n\nWhat you can configure\n\nOpen Playbooks, click Explore playbooks, find the Capture group, and choose Webchat Widget. If a playbook of this type already exists, its editor opens.\n\nWebchat Widget in the desktop catalog.\n\nWebchat Widget includes:\n\nAppearance: brand color, typography, launcher, header, conversation colors, logo, and Hellotext branding.\nBehavior: placement, click-to-open or automatic opening, delay, first-visit behavior, and once-per-session behavior.\nOpening sequence: the first messages shown in a new webchat conversation.\nTeaser: the small invitation that appears before the visitor opens the chat.\nChannels or handoff: whether to show WhatsApp, restrict continuation to WhatsApp, and which WhatsApp number to display.\nInstallation: automatic installation options or manual installation instructions.\n\nYou do not need to customize every card. Start with the cards that shape the visitor experience: appearance, behavior, opening sequence, and handoff.\n\nDesign the appearance\n\nThe widget should feel like part of your site, but it should still be easy to notice.\n\nReview:\n\nLauncher color, text color, notification style, and icon.\nHeader display, business name, logo, and colors.\nConversation background and message bubble colors.\nButton and carousel colors when those elements appear.\nWhether your plan allows removing Hellotext branding.\nBrand settings define the widget typography and primary color.\n\nTest on desktop and mobile. The launcher should not cover checkout buttons, add-to-cart buttons, support links, cookie banners, or other important site controls.\n\nChoose behavior carefully\n\nFor a first launch, use click-to-open unless you have a clear reason to open automatically.\n\nIn Behavior → Opening, select Automatically on page load to reveal the delay and limits. You can open immediately or after 5, 10, or 30 seconds. Use First visit only and Once per session where appropriate; the example waits 5 seconds and has both limits selected. Automatic opening can also interrupt browsing.\n\nThe example waits 5 seconds. The mobile focus shows both selected limits.\n\nPlacement matters. Bottom right is usually familiar to visitors, but use the position that does not conflict with your store layout, mobile navigation, or checkout controls.\n\nWrite the opening sequence\n\nThe opening sequence should help visitors choose what to do next.\n\nKeep it short:\n\nWelcome the visitor.\nName the main things they can ask.\nOffer one or two useful paths, such as order help, product recommendation, or talking to a person.\nAvoid long policy text in the first message.\n\nOpen Opening sequence and enter the greeting in the editor. New message adds another message to that sequence; delays and schedules are also available. The preview reflects the text you edit. Keep the message specific without promising that webchat can solve everything by itself.\n\nDesktop shows the editor; the mobile focus shows the greeting in the preview, without sending messages.\n\nIf an AI playbook or custom agent will answer after the conversation starts, make sure the opening sequence matches that agent’s actual scope.\n\nUse the teaser intentionally\n\nThe teaser is the small prompt that invites the visitor to open the chat.\n\nUse it to make the chat feel useful:\n\n“Need help choosing a size?”\n“Want a product recommendation?”\n“Have a question about your order?”\n“Need help before checkout?”\n\nAvoid teaser copy that feels like a forced popup or a promise your team cannot keep.\n\nIn Teaser, turn on Teaser bubble to show the small prompt. Turn on Use custom opening sequence if you want different copy from the opening sequence. Review both messages to avoid repetition.\n\nWith the bubble enabled and no custom text, the teaser uses the opening sequence.\n\nWhen Subscriber Booster is enabled for Webchat and allows its teaser, it can replace this message with a subscription invitation for an eligible visitor. The incentive depends on its configuration and the profile’s purchase history. Turning off only its teaser does not disable the invitation inside the chat.\n\nConfigure channel handoff\n\nIn Channels, Display WhatsApp icon adds access to that channel. Restrict communication only to WhatsApp changes the experience to a WhatsApp entry point. Select the appropriate number; the editor also allows you to type a number. The fictional example number is not a connected channel and is not used to send messages.\n\nThe number is fictional. Showing the icon and restricting the chat are different options.\n\nUse WhatsApp continuation when:\n\nCustomers may leave the site before your team replies.\nYour team prefers to continue longer conversations in WhatsApp.\nMobile visitors are more likely to respond from WhatsApp than from the browser.\nYou want the visitor to see a specific WhatsApp number for the business.\n\nBe careful with restricting communication only to WhatsApp. Use that option when webchat should mainly act as a doorway to WhatsApp, not when you want visitors to continue replying on the site.\n\nIf conversations should be assigned to a teammate or team, configure the Inbox ownership path and review AI handoff to Inbox.\n\nInstall and test\n\nOpen the editor’s Settings icon to see installation options. Choose the method that matches your site:\n\nAutomatic installation on VTEX or Fenicio, when the corresponding account is connected.\nManual installation on a website with Hellotext.js.\nManual installation on WooCommerce with the Hellotext plugin.\n\nManual installation shows the code and instructions. On this screen, I’ve installed my code or Install and activate enable the playbook and its workflow; use them only after preparing your site. A disabled automatic option indicates that the platform must be connected first. The editor preview lets you review appearance and text without activating the widget.\n\nDesktop shows the available methods; the mobile focus shows the manual option. The widget was not installed or enabled.\n\nThen test the exact website where the widget should appear.\n\nCheck:\n\nThe widget loads on the website and pages where you installed it.\nThe launcher, teaser, and opening sequence appear correctly.\nClick-to-open or automatic opening behaves as configured.\nDelay, first-visit, and once-per-session settings work as expected.\nMessages arrive in the Inbox.\nAssignment, team ownership, and response rules behave as expected.\nWhatsApp handoff or continuation uses the correct number.\nAny connected AI playbook or custom agent answers only within its scope.\nThe widget works on desktop and mobile without covering important site controls.\nWhat to review after launch\n\nDuring the first days, review:\n\nWhich pages start the most webchat conversations.\nWhether visitors understand the opening sequence.\nWhether the teaser attracts useful conversations or creates noise.\nWhether conversations are answered quickly enough.\nWhether handoffs go to the right teammate, team, or WhatsApp number.\nWhether AI playbooks answer correctly or hand off when needed.\nRepeated questions that suggest you need Instant Answers, Return & Exchange Helper, Order Cancellation Assistant, a Custom Agent, better policy content, or better site copy.\nOpt-ins, orders, attributed revenue, response health, and missed replies when relevant.\n\nTune one part at a time: placement, trigger, delay, teaser, opening sequence, handoff, or the playbook that answers after the conversation starts.\n\nRelated guides\nCapture tools overview\nSubscriber Booster playbook\nProperty Collector playbook\nPlaybook library by mission\nHow to enable a playbook\nHow to customize a playbook safely\nInbox and conversations overview\nAI handoff to Inbox\nResponse times and response rules\nSmart Recommender playbook\nOrder-Update Delight playbook\nInstant Answers playbook\nReturn & Exchange Helper playbook\nOrder Cancellation Assistant playbook\nCustom Agent playbook\nVerify your data and signals after setup",
+    "links": [
+      {
+        "text": "Instant Answers",
+        "url": "http://127.0.0.1:4191/instant-answers-playbook"
+      },
+      {
+        "text": "Smart Recommender",
+        "url": "http://127.0.0.1:4191/smart-recommender-playbook"
+      },
+      {
+        "text": "Order-Update Delight",
+        "url": "http://127.0.0.1:4191/order-update-playbook"
+      },
+      {
+        "text": "Return & Exchange Helper",
+        "url": "http://127.0.0.1:4191/return-and-exchange-helper-playbook"
+      },
+      {
+        "text": "Order Cancellation Assistant",
+        "url": "http://127.0.0.1:4191/order-cancellation-assistant-playbook"
+      },
+      {
+        "text": "Custom Agent",
+        "url": "http://127.0.0.1:4191/custom-agent-playbook"
+      },
+      {
+        "text": "campaign",
+        "url": "http://127.0.0.1:4191/campaigns-broadcasts-overview"
+      },
+      {
+        "text": "journey route",
+        "url": "http://127.0.0.1:4191/getting-started-with-journeys"
+      },
+      {
+        "text": "Verify your data and signals after setup",
+        "url": "http://127.0.0.1:4191/verify-data-and-signals"
+      },
+      {
+        "text": "Subscriber Booster",
+        "url": "http://127.0.0.1:4191/subscriber-booster-playbook"
+      },
+      {
+        "text": "AI handoff to Inbox",
+        "url": "http://127.0.0.1:4191/ai-handoff-to-inbox"
+      },
+      {
+        "text": "Instant Answers",
+        "url": "http://127.0.0.1:4191/instant-answers-playbook"
+      },
+      {
+        "text": "Return & Exchange Helper",
+        "url": "http://127.0.0.1:4191/return-and-exchange-helper-playbook"
+      },
+      {
+        "text": "Order Cancellation Assistant",
+        "url": "http://127.0.0.1:4191/order-cancellation-assistant-playbook"
+      },
+      {
+        "text": "Capture tools overview",
+        "url": "http://127.0.0.1:4191/capture-tools-overview"
+      },
+      {
+        "text": "Subscriber Booster playbook",
+        "url": "http://127.0.0.1:4191/subscriber-booster-playbook"
+      },
+      {
+        "text": "Property Collector playbook",
+        "url": "http://127.0.0.1:4191/property-collector-playbook"
+      },
+      {
+        "text": "Playbook library by mission",
+        "url": "http://127.0.0.1:4191/playbook-library-by-mission"
+      },
+      {
+        "text": "How to enable a playbook",
+        "url": "http://127.0.0.1:4191/how-to-enable-a-playbook"
+      },
+      {
+        "text": "How to customize a playbook safely",
+        "url": "http://127.0.0.1:4191/how-to-customize-a-playbook-safely"
+      },
+      {
+        "text": "Inbox and conversations overview",
+        "url": "http://127.0.0.1:4191/inbox-conversations-overview"
+      },
+      {
+        "text": "AI handoff to Inbox",
+        "url": "http://127.0.0.1:4191/ai-handoff-to-inbox"
+      },
+      {
+        "text": "Response times and response rules",
+        "url": "http://127.0.0.1:4191/understanding-response-times"
+      },
+      {
+        "text": "Smart Recommender playbook",
+        "url": "http://127.0.0.1:4191/smart-recommender-playbook"
+      },
+      {
+        "text": "Order-Update Delight playbook",
+        "url": "http://127.0.0.1:4191/order-update-playbook"
+      },
+      {
+        "text": "Instant Answers playbook",
+        "url": "http://127.0.0.1:4191/instant-answers-playbook"
+      },
+      {
+        "text": "Return & Exchange Helper playbook",
+        "url": "http://127.0.0.1:4191/return-and-exchange-helper-playbook"
+      },
+      {
+        "text": "Order Cancellation Assistant playbook",
+        "url": "http://127.0.0.1:4191/order-cancellation-assistant-playbook"
+      },
+      {
+        "text": "Custom Agent playbook",
+        "url": "http://127.0.0.1:4191/custom-agent-playbook"
+      },
+      {
+        "text": "Verify your data and signals after setup",
+        "url": "http://127.0.0.1:4191/verify-data-and-signals"
+      }
+    ],
+    "figures": [
+      {
+        "rect": [
+          16,
+          3020,
+          558,
+          305.1953125
+        ],
+        "stageWidth": 558,
+        "frameWidth": 400,
+        "imageWidth": 381.9921875,
+        "natural": [
+          400,
+          240
+        ],
+        "src": "/images/captures/capture-overview/desktop-webchat-en.png",
+        "alt": "Webchat Widget card in the desktop playbook catalog.",
+        "caption": "Webchat Widget in the desktop catalog.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          4241.1953125,
+          558,
+          144
+        ],
+        "stageWidth": 558,
+        "frameWidth": 378,
+        "imageWidth": 360,
+        "natural": [
+          360,
+          68
+        ],
+        "src": "/images/captures/webchat-widget/appearance-mobile-en.png",
+        "alt": "Webchat brand controls, including typography and primary color.",
+        "caption": "Brand settings define the widget typography and primary color.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          4809.1953125,
+          558,
+          190
+        ],
+        "stageWidth": 558,
+        "frameWidth": 378,
+        "imageWidth": 360,
+        "natural": [
+          360,
+          114
+        ],
+        "src": "/images/captures/webchat-widget/behavior-mobile-en.png",
+        "alt": "Automatic opening and first-visit and once-per-session limits.",
+        "caption": "The example waits 5 seconds. The mobile focus shows both selected limits.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          5611.1953125,
+          558,
+          170
+        ],
+        "stageWidth": 558,
+        "frameWidth": 382,
+        "imageWidth": 364,
+        "natural": [
+          364,
+          94
+        ],
+        "src": "/images/captures/webchat-widget/opening-mobile-en.png",
+        "alt": "Configuration and preview of the fictional Webchat greeting.",
+        "caption": "Desktop shows the editor; the mobile focus shows the greeting in the preview, without sending messages.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          6361.1953125,
+          558,
+          356
+        ],
+        "stageWidth": 558,
+        "frameWidth": 367,
+        "imageWidth": 349,
+        "natural": [
+          349,
+          280
+        ],
+        "src": "/images/captures/webchat-widget/teaser-mobile-en.png",
+        "alt": "Teaser bubble enabled with the custom sequence disabled.",
+        "caption": "With the bubble enabled and no custom text, the teaser uses the opening sequence.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          7125.1953125,
+          558,
+          506
+        ],
+        "stageWidth": 558,
+        "frameWidth": 351,
+        "imageWidth": 333,
+        "natural": [
+          333,
+          430
+        ],
+        "src": "/images/captures/webchat-widget/channels-mobile-en.png",
+        "alt": "WhatsApp icon enabled with a fictional number, without restricting the chat to that channel.",
+        "caption": "The number is fictional. Showing the icon and restricting the chat are different options.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          8515.1953125,
+          558,
+          172
+        ],
+        "stageWidth": 558,
+        "frameWidth": 412,
+        "imageWidth": 394,
+        "natural": [
+          394,
+          96
+        ],
+        "src": "/images/captures/webchat-widget/installation-mobile-en.png",
+        "alt": "Webchat installation options and manual Hellotext.js installation description.",
+        "caption": "Desktop shows the available methods; the mobile focus shows the manual option. The widget was not installed or enabled.",
+        "linked": false
+      }
+    ]
+  }
+]

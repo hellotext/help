@@ -10,7 +10,7 @@ Webchat Widget lets customers message your business directly from your site.
 
 It can:
 
-- Show a launcher on the pages where you install the widget.
+- Show a launcher on selected website pages.
 - Open when the visitor clicks the launcher or, if configured, after the page loads.
 - Display a short teaser before the visitor opens the chat.
 - Start with a configured opening sequence.
@@ -51,8 +51,8 @@ Use checkout opt-in, forms, QR codes, or shareable links when the main job is co
 Before enabling Webchat Widget, confirm:
 
 - Your website or commerce platform is connected, or you know which installation method you will use.
-- Your installation method is ready: Hellotext.js, the WooCommerce plugin, or a compatible VTEX or Fenicio integration.
-- You know which website and pages will include the widget.
+- Hellotext.js, automatic Shopify or VTEX installation, or the WooCommerce plugin path is ready for your site.
+- Allowed domains include the site where the widget should load, if your account restricts webchat, popups, and forms by domain.
 - The team knows who owns new webchat conversations in the Inbox.
 - The opening message explains what the visitor can ask.
 - Handoff to WhatsApp is configured if you want visitors to continue there.
@@ -63,16 +63,7 @@ For setup validation, use [Verify your data and signals after setup]({% link _in
 
 ## What you can configure
 
-Open **Playbooks**, click **Explore playbooks**, find the **Capture** group, and choose **Webchat Widget**. If a playbook of this type already exists, its editor opens.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Webchat Widget card in the desktop playbook catalog.">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 400px; width: fit-content; margin: 0 auto;">
-      <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/desktop-webchat-en.png" srcset="/images/captures/capture-overview/desktop-webchat-en.png 2x" width="800" height="480" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Webchat Widget card in the desktop playbook catalog." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Webchat Widget in the desktop catalog.</figcaption>
-</figure>
+Open **Playbooks**, click **Explore playbooks**, find the **Captures** group, and choose **Webchat Widget**.
 
 Webchat Widget includes:
 
@@ -97,37 +88,13 @@ Review:
 - Button and carousel colors when those elements appear.
 - Whether your plan allows removing Hellotext branding.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Webchat brand controls, including typography and primary color.">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 528px; width: fit-content; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/webchat-widget/appearance-mobile-en.png 2x" width="720" height="136" />
-        <img class="ht-editorial-visual__image" src="/images/captures/webchat-widget/appearance-en.png" srcset="/images/captures/webchat-widget/appearance-en.png 2x" width="1056" height="762" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Webchat brand controls, including typography and primary color." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Brand settings define the widget typography and primary color.</figcaption>
-</figure>
-
 Test on desktop and mobile. The launcher should not cover checkout buttons, add-to-cart buttons, support links, cookie banners, or other important site controls.
 
 ## Choose behavior carefully
 
 For a first launch, use click-to-open unless you have a clear reason to open automatically.
 
-In **Behavior → Opening**, select **Automatically on page load** to reveal the delay and limits. You can open immediately or after 5, 10, or 30 seconds. Use **First visit only** and **Once per session** where appropriate; the example waits 5 seconds and has both limits selected. Automatic opening can also interrupt browsing.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Automatic opening and first-visit and once-per-session limits.">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 528px; width: fit-content; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/webchat-widget/behavior-mobile-en.png 2x" width="720" height="228" />
-        <img class="ht-editorial-visual__image" src="/images/captures/webchat-widget/behavior-en.png" srcset="/images/captures/webchat-widget/behavior-en.png 2x" width="1056" height="774" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Automatic opening and first-visit and once-per-session limits." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">The example waits 5 seconds. The mobile focus shows both selected limits.</figcaption>
-</figure>
+Automatic opening can increase visibility, but it can also interrupt browsing. If you use it, choose a short delay and consider first-visit or once-per-session limits so the widget does not repeatedly open for the same visitor.
 
 Placement matters. Bottom right is usually familiar to visitors, but use the position that does not conflict with your store layout, mobile navigation, or checkout controls.
 
@@ -142,19 +109,7 @@ Keep it short:
 - Offer one or two useful paths, such as order help, product recommendation, or talking to a person.
 - Avoid long policy text in the first message.
 
-Open **Opening sequence** and enter the greeting in the editor. **New message** adds another message to that sequence; delays and schedules are also available. The preview reflects the text you edit. Keep the message specific without promising that webchat can solve everything by itself.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Configuration and preview of the fictional Webchat greeting.">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 528px; width: fit-content; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/webchat-widget/opening-mobile-en.png 2x" width="728" height="188" />
-        <img class="ht-editorial-visual__image" src="/images/captures/webchat-widget/opening-en.png" srcset="/images/captures/webchat-widget/opening-en.png 2x" width="1056" height="878" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Configuration and preview of the fictional Webchat greeting." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Desktop shows the editor; the mobile focus shows the greeting in the preview, without sending messages.</figcaption>
-</figure>
+Good opening messages are specific enough to guide the visitor without pretending the webchat can solve everything by itself.
 
 If an AI playbook or custom agent will answer after the conversation starts, make sure the opening sequence matches that agent's actual scope.
 
@@ -171,37 +126,13 @@ Use it to make the chat feel useful:
 
 Avoid teaser copy that feels like a forced popup or a promise your team cannot keep.
 
-In **Teaser**, turn on **Teaser bubble** to show the small prompt. Turn on **Use custom opening sequence** if you want different copy from the opening sequence. Review both messages to avoid repetition.
+If you use a custom teaser sequence, test the full path from teaser to opening message so the copy does not repeat itself.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Teaser bubble enabled with the custom sequence disabled.">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 544px; width: fit-content; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/webchat-widget/teaser-mobile-en.png 2x" width="698" height="560" />
-        <img class="ht-editorial-visual__image" src="/images/captures/webchat-widget/teaser-en.png" srcset="/images/captures/webchat-widget/teaser-en.png 2x" width="1088" height="504" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Teaser bubble enabled with the custom sequence disabled." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">With the bubble enabled and no custom text, the teaser uses the opening sequence.</figcaption>
-</figure>
-
-When [Subscriber Booster]({% link _captures/subscriber-booster-playbook.md %}) is enabled for Webchat and allows its teaser, it can replace this message with a subscription invitation for an eligible visitor. The incentive depends on its configuration and the profile's purchase history. Turning off only its teaser does not disable the invitation inside the chat.
+When [Subscriber Booster]({% link _captures/subscriber-booster-playbook.md %}) is enabled, the teaser can invite a new visitor to subscribe in exchange for a first-purchase incentive. Subscriber Booster handles the consent conversation after the visitor opens it.
 
 ## Configure channel handoff
 
-In **Channels**, **Display WhatsApp icon** adds access to that channel. **Restrict communication only to WhatsApp** changes the experience to a WhatsApp entry point. Select the appropriate number; the editor also allows you to type a number. The fictional example number is not a connected channel and is not used to send messages.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="WhatsApp icon enabled with a fictional number, without restricting the chat to that channel.">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 528px; width: fit-content; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/webchat-widget/channels-mobile-en.png 2x" width="666" height="860" />
-        <img class="ht-editorial-visual__image" src="/images/captures/webchat-widget/channels-en.png" srcset="/images/captures/webchat-widget/channels-en.png 2x" width="1056" height="804" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="WhatsApp icon enabled with a fictional number, without restricting the chat to that channel." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">The number is fictional. Showing the icon and restricting the chat are different options.</figcaption>
-</figure>
+Webchat can hand off or continue the conversation through another channel, commonly WhatsApp.
 
 Use WhatsApp continuation when:
 
@@ -216,31 +147,18 @@ If conversations should be assigned to a teammate or team, configure the Inbox o
 
 ## Install and test
 
-Open the editor's **Settings** icon to see installation options. Choose the method that matches your site:
+Use the installation option that matches your site:
 
-- Automatic installation on VTEX or Fenicio, when the corresponding account is connected.
+- Automatic installation on Shopify.
+- Automatic installation on VTEX.
 - Manual installation on a website with Hellotext.js.
 - Manual installation on WooCommerce with the Hellotext plugin.
-
-Manual installation shows the code and instructions. On this screen, **I've installed my code** or **Install and activate** enable the playbook and its workflow; use them only after preparing your site. A disabled automatic option indicates that the platform must be connected first. The editor preview lets you review appearance and text without activating the widget.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Webchat installation options and manual Hellotext.js installation description.">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 508px; width: fit-content; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/webchat-widget/installation-mobile-en.png 2x" width="788" height="192" />
-        <img class="ht-editorial-visual__image" src="/images/captures/webchat-widget/installation-en.png" srcset="/images/captures/webchat-widget/installation-en.png 2x" width="1016" height="1388" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Webchat installation options and manual Hellotext.js installation description." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Desktop shows the available methods; the mobile focus shows the manual option. The widget was not installed or enabled.</figcaption>
-</figure>
 
 Then test the exact website where the widget should appear.
 
 Check:
 
-- The widget loads on the website and pages where you installed it.
+- The widget loads only on allowed domains and expected pages.
 - The launcher, teaser, and opening sequence appear correctly.
 - Click-to-open or automatic opening behaves as configured.
 - Delay, first-visit, and once-per-session settings work as expected.

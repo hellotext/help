@@ -1,0 +1,1178 @@
+{
+  "source": "isolated Chrome native compositor through loopback CDP",
+  "rails_revision": "d348bd09825d62c2cf551757598ed04a4bca0ce6",
+  "database": "hellotext_editorial_workload_20260928",
+  "business_id": 5,
+  "account": "design-system@example.test",
+  "fixture": {
+    "contacts": 127,
+    "messageable_contacts_before_and_after": 0,
+    "subscribers_before_and_after": 0,
+    "messages_before_and_after": 49,
+    "saved_playbooks": "disabled",
+    "webchat_id": 36,
+    "webchat_components": 5,
+    "webchat_workflow": null,
+    "seeds_repeated": false,
+    "locale_restored": "es",
+    "business_label_restored": "Enterprise",
+    "final_actions_used": false
+  },
+  "display_rule": "2x density descriptors, width:auto and fit-content frame limit each selected source to its native logical size within the full-width stage",
+  "images": [
+    {
+      "file": "appearance-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/RbQxgZdE/edit?component=webchat--appearance",
+      "css_viewport": [
+        1200,
+        1100
+      ],
+      "css_clip": [
+        52,
+        125,
+        528,
+        381
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        1056,
+        762
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        528,
+        381
+      ],
+      "maximum_display_width": 528,
+      "icc": "Display P3",
+      "sha256": "669e04c2805025209e750a06c9370ffbdc84a50b398190903059ee4da3752a16",
+      "pointer": "absent",
+      "capture_date": "2026-09-29",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback CDP port",
+        "single exact local URL/title",
+        "locale",
+        "fictional account via same-origin catalog",
+        "visible target text",
+        "CSS viewport",
+        "zoom 1",
+        "DPR 2"
+      ],
+      "saved_pixels_reviewed": "complete control or explicitly scoped text/message focus; no cursor, scrollbar, debugger or clipped heading"
+    },
+    {
+      "file": "appearance-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/RbQxgZdE/edit?component=webchat--appearance",
+      "css_viewport": [
+        1200,
+        1100
+      ],
+      "css_clip": [
+        52,
+        125,
+        528,
+        381
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        1056,
+        762
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        528,
+        381
+      ],
+      "maximum_display_width": 528,
+      "icc": "Display P3",
+      "sha256": "c5782326e0a730937abde8041a31936d4f97e7da2661eaab9eaa75e2a4daf5dc",
+      "pointer": "absent",
+      "capture_date": "2026-09-29",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback CDP port",
+        "single exact local URL/title",
+        "locale",
+        "fictional account via same-origin catalog",
+        "visible target text",
+        "CSS viewport",
+        "zoom 1",
+        "DPR 2"
+      ],
+      "saved_pixels_reviewed": "complete control or explicitly scoped text/message focus; no cursor, scrollbar, debugger or clipped heading"
+    },
+    {
+      "file": "appearance-mobile-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/RbQxgZdE/edit?component=webchat--appearance",
+      "css_viewport": [
+        880,
+        1100
+      ],
+      "css_clip": [
+        54,
+        478,
+        360,
+        68
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        720,
+        136
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        360,
+        68
+      ],
+      "maximum_display_width": 360,
+      "icc": "Display P3",
+      "sha256": "1aff5e4783fd44cc6b828a4d5d3322332e7d6dfb93faf078829ed40b0c75c9a0",
+      "pointer": "absent",
+      "capture_date": "2026-09-29",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback CDP port",
+        "single exact local URL/title",
+        "locale",
+        "fictional account via same-origin catalog",
+        "visible target text",
+        "CSS viewport",
+        "zoom 1",
+        "DPR 2"
+      ],
+      "saved_pixels_reviewed": "complete control or explicitly scoped text/message focus; no cursor, scrollbar, debugger or clipped heading"
+    },
+    {
+      "file": "appearance-mobile-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/RbQxgZdE/edit?component=webchat--appearance",
+      "css_viewport": [
+        880,
+        1100
+      ],
+      "css_clip": [
+        54,
+        478,
+        360,
+        68
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        720,
+        136
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        360,
+        68
+      ],
+      "maximum_display_width": 360,
+      "icc": "Display P3",
+      "sha256": "2d71d341f51ba0abfa4d83649c65d9e6b3aa5d611bd7906c9b486f93d04dbf04",
+      "pointer": "absent",
+      "capture_date": "2026-09-29",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback CDP port",
+        "single exact local URL/title",
+        "locale",
+        "fictional account via same-origin catalog",
+        "visible target text",
+        "CSS viewport",
+        "zoom 1",
+        "DPR 2"
+      ],
+      "saved_pixels_reviewed": "complete control or explicitly scoped text/message focus; no cursor, scrollbar, debugger or clipped heading"
+    },
+    {
+      "file": "behavior-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/RbQxgZdE/edit?component=webchat--behaviour",
+      "css_viewport": [
+        1200,
+        1100
+      ],
+      "css_clip": [
+        52,
+        363,
+        528,
+        387
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        1056,
+        774
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        528,
+        387
+      ],
+      "maximum_display_width": 528,
+      "icc": "Display P3",
+      "sha256": "c5027d4bdba0246c5264ccc0cdd762ab80520cfdf2c405279c58f464f9d07300",
+      "pointer": "absent",
+      "capture_date": "2026-09-29",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback CDP port",
+        "single exact local URL/title",
+        "locale",
+        "fictional account via same-origin catalog",
+        "visible target text",
+        "CSS viewport",
+        "zoom 1",
+        "DPR 2"
+      ],
+      "saved_pixels_reviewed": "complete control or explicitly scoped text/message focus; no cursor, scrollbar, debugger or clipped heading"
+    },
+    {
+      "file": "behavior-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/RbQxgZdE/edit?component=webchat--behaviour",
+      "css_viewport": [
+        1200,
+        1100
+      ],
+      "css_clip": [
+        52,
+        363,
+        528,
+        387
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        1056,
+        774
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        528,
+        387
+      ],
+      "maximum_display_width": 528,
+      "icc": "Display P3",
+      "sha256": "0c66189d4751f9634a37408378a0d6c703edaf4661d552a3ac763f7684027b54",
+      "pointer": "absent",
+      "capture_date": "2026-09-29",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback CDP port",
+        "single exact local URL/title",
+        "locale",
+        "fictional account via same-origin catalog",
+        "visible target text",
+        "CSS viewport",
+        "zoom 1",
+        "DPR 2"
+      ],
+      "saved_pixels_reviewed": "complete control or explicitly scoped text/message focus; no cursor, scrollbar, debugger or clipped heading"
+    },
+    {
+      "file": "behavior-mobile-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/RbQxgZdE/edit?component=webchat--behaviour",
+      "css_viewport": [
+        1060,
+        1100
+      ],
+      "css_clip": [
+        100,
+        666,
+        360,
+        114
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        720,
+        228
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        360,
+        114
+      ],
+      "maximum_display_width": 360,
+      "icc": "Display P3",
+      "sha256": "2f47245fe9d08de0f099cd2ee216a00f54e76155fcfee1828439e4157ef3b66b",
+      "pointer": "absent",
+      "capture_date": "2026-09-29",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback CDP port",
+        "single exact local URL/title",
+        "locale",
+        "fictional account via same-origin catalog",
+        "visible target text",
+        "CSS viewport",
+        "zoom 1",
+        "DPR 2"
+      ],
+      "saved_pixels_reviewed": "complete control or explicitly scoped text/message focus; no cursor, scrollbar, debugger or clipped heading"
+    },
+    {
+      "file": "behavior-mobile-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/RbQxgZdE/edit?component=webchat--behaviour",
+      "css_viewport": [
+        1060,
+        1100
+      ],
+      "css_clip": [
+        100,
+        666,
+        360,
+        114
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        720,
+        228
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        360,
+        114
+      ],
+      "maximum_display_width": 360,
+      "icc": "Display P3",
+      "sha256": "14b9443d6cd63896109792495171d333f9ebadd7bfa4cf8528dcfa3f81dd1dc0",
+      "pointer": "absent",
+      "capture_date": "2026-09-29",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback CDP port",
+        "single exact local URL/title",
+        "locale",
+        "fictional account via same-origin catalog",
+        "visible target text",
+        "CSS viewport",
+        "zoom 1",
+        "DPR 2"
+      ],
+      "saved_pixels_reviewed": "complete control or explicitly scoped text/message focus; no cursor, scrollbar, debugger or clipped heading"
+    },
+    {
+      "file": "channels-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/RbQxgZdE/edit?component=webchat--handoff",
+      "css_viewport": [
+        1200,
+        1100
+      ],
+      "css_clip": [
+        52,
+        125,
+        528,
+        402
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        1056,
+        804
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        528,
+        402
+      ],
+      "maximum_display_width": 528,
+      "icc": "Display P3",
+      "sha256": "ad80bdbc54e4be538ecbbc9f638a4d17f659019116f4628555e681d77c1ea2fb",
+      "pointer": "absent",
+      "capture_date": "2026-09-29",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback CDP port",
+        "single exact local URL/title",
+        "locale",
+        "fictional account via same-origin catalog",
+        "visible target text",
+        "CSS viewport",
+        "zoom 1",
+        "DPR 2"
+      ],
+      "saved_pixels_reviewed": "complete control or explicitly scoped text/message focus; no cursor, scrollbar, debugger or clipped heading"
+    },
+    {
+      "file": "channels-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/RbQxgZdE/edit?component=webchat--handoff",
+      "css_viewport": [
+        1200,
+        1100
+      ],
+      "css_clip": [
+        52,
+        125,
+        528,
+        402
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        1056,
+        804
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        528,
+        402
+      ],
+      "maximum_display_width": 528,
+      "icc": "Display P3",
+      "sha256": "64ecc8cac5cd6143f3ba85cd2f2aa0a1f6dc16cd5dc521bfd54265f1ff65b09b",
+      "pointer": "absent",
+      "capture_date": "2026-09-29",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback CDP port",
+        "single exact local URL/title",
+        "locale",
+        "fictional account via same-origin catalog",
+        "visible target text",
+        "CSS viewport",
+        "zoom 1",
+        "DPR 2"
+      ],
+      "saved_pixels_reviewed": "complete control or explicitly scoped text/message focus; no cursor, scrollbar, debugger or clipped heading"
+    },
+    {
+      "file": "channels-mobile-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/RbQxgZdE/edit?component=webchat--handoff",
+      "css_viewport": [
+        810,
+        1100
+      ],
+      "css_clip": [
+        52,
+        125,
+        333,
+        430
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        666,
+        860
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        333,
+        430
+      ],
+      "maximum_display_width": 333,
+      "icc": "Display P3",
+      "sha256": "fe63e71df809d4db8fbbec920f2364cdc3835adb58c8d695c55b29fe453835f0",
+      "pointer": "absent",
+      "capture_date": "2026-09-29",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback CDP port",
+        "single exact local URL/title",
+        "locale",
+        "fictional account via same-origin catalog",
+        "visible target text",
+        "CSS viewport",
+        "zoom 1",
+        "DPR 2"
+      ],
+      "saved_pixels_reviewed": "complete control or explicitly scoped text/message focus; no cursor, scrollbar, debugger or clipped heading"
+    },
+    {
+      "file": "channels-mobile-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/RbQxgZdE/edit?component=webchat--handoff",
+      "css_viewport": [
+        810,
+        1100
+      ],
+      "css_clip": [
+        52,
+        125,
+        333,
+        430
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        666,
+        860
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        333,
+        430
+      ],
+      "maximum_display_width": 333,
+      "icc": "Display P3",
+      "sha256": "44b1880874da8e5f8172b53e4907100280bcc3636b68704a493a0b5b5140a979",
+      "pointer": "absent",
+      "capture_date": "2026-09-29",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback CDP port",
+        "single exact local URL/title",
+        "locale",
+        "fictional account via same-origin catalog",
+        "visible target text",
+        "CSS viewport",
+        "zoom 1",
+        "DPR 2"
+      ],
+      "saved_pixels_reviewed": "complete control or explicitly scoped text/message focus; no cursor, scrollbar, debugger or clipped heading"
+    },
+    {
+      "file": "installation-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/RbQxgZdE/edit",
+      "css_viewport": [
+        1200,
+        1200
+      ],
+      "css_clip": [
+        524,
+        90,
+        508,
+        694
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        1016,
+        1388
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        508,
+        694
+      ],
+      "maximum_display_width": 508,
+      "icc": "Display P3",
+      "sha256": "bf19cfae69dca033eba1545db7263e81e0f663b5d0abdd0bacbac79f2f956502",
+      "pointer": "absent",
+      "capture_date": "2026-09-29",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback CDP port",
+        "single exact local URL/title",
+        "locale",
+        "fictional account via same-origin catalog",
+        "visible target text",
+        "CSS viewport",
+        "zoom 1",
+        "DPR 2"
+      ],
+      "saved_pixels_reviewed": "complete control or explicitly scoped text/message focus; no cursor, scrollbar, debugger or clipped heading"
+    },
+    {
+      "file": "installation-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/RbQxgZdE/edit",
+      "css_viewport": [
+        1200,
+        1200
+      ],
+      "css_clip": [
+        519,
+        90,
+        508,
+        742
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        1016,
+        1484
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        508,
+        742
+      ],
+      "maximum_display_width": 508,
+      "icc": "Display P3",
+      "sha256": "1893847155370117e951a69fbcf273231f64e2b2c721091367ba5d0cd23da9f8",
+      "pointer": "absent",
+      "capture_date": "2026-09-29",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback CDP port",
+        "single exact local URL/title",
+        "locale",
+        "fictional account via same-origin catalog",
+        "visible target text",
+        "CSS viewport",
+        "zoom 1",
+        "DPR 2"
+      ],
+      "saved_pixels_reviewed": "complete control or explicitly scoped text/message focus; no cursor, scrollbar, debugger or clipped heading"
+    },
+    {
+      "file": "installation-mobile-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/RbQxgZdE/edit",
+      "css_viewport": [
+        880,
+        1400
+      ],
+      "css_clip": [
+        297,
+        543,
+        394,
+        96
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        788,
+        192
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        394,
+        96
+      ],
+      "maximum_display_width": 394,
+      "icc": "Display P3",
+      "sha256": "518de75f2ac112bef8c5ee11123f6a0f8451081cd627d23fd4bbf80232d5b8fe",
+      "pointer": "absent",
+      "capture_date": "2026-09-29",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback CDP port",
+        "single exact local URL/title",
+        "locale",
+        "fictional account via same-origin catalog",
+        "visible target text",
+        "CSS viewport",
+        "zoom 1",
+        "DPR 2"
+      ],
+      "saved_pixels_reviewed": "complete control or explicitly scoped text/message focus; no cursor, scrollbar, debugger or clipped heading"
+    },
+    {
+      "file": "installation-mobile-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/RbQxgZdE/edit",
+      "css_viewport": [
+        880,
+        1400
+      ],
+      "css_clip": [
+        292,
+        567,
+        394,
+        120
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        788,
+        240
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        394,
+        120
+      ],
+      "maximum_display_width": 394,
+      "icc": "Display P3",
+      "sha256": "59b42d57a36f15b8029a5b822de5b471a17f81517410582be87b194a2dc8e71d",
+      "pointer": "absent",
+      "capture_date": "2026-09-29",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback CDP port",
+        "single exact local URL/title",
+        "locale",
+        "fictional account via same-origin catalog",
+        "visible target text",
+        "CSS viewport",
+        "zoom 1",
+        "DPR 2"
+      ],
+      "saved_pixels_reviewed": "complete control or explicitly scoped text/message focus; no cursor, scrollbar, debugger or clipped heading"
+    },
+    {
+      "file": "opening-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/RbQxgZdE/edit?component=webchat--sequence",
+      "css_viewport": [
+        1200,
+        1100
+      ],
+      "css_clip": [
+        52,
+        125,
+        528,
+        439
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        1056,
+        878
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        528,
+        439
+      ],
+      "maximum_display_width": 528,
+      "icc": "Display P3",
+      "sha256": "71f03287691d38d5960c5bede1078e5695f459a427ed611cd45ae94e45e484e7",
+      "pointer": "absent",
+      "capture_date": "2026-09-29",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback CDP port",
+        "single exact local URL/title",
+        "locale",
+        "fictional account via same-origin catalog",
+        "visible target text",
+        "CSS viewport",
+        "zoom 1",
+        "DPR 2"
+      ],
+      "saved_pixels_reviewed": "complete control or explicitly scoped text/message focus; no cursor, scrollbar, debugger or clipped heading"
+    },
+    {
+      "file": "opening-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/RbQxgZdE/edit?component=webchat--sequence",
+      "css_viewport": [
+        1200,
+        1100
+      ],
+      "css_clip": [
+        52,
+        125,
+        528,
+        439
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        1056,
+        878
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        528,
+        439
+      ],
+      "maximum_display_width": 528,
+      "icc": "Display P3",
+      "sha256": "d5ca02e858c108e6b3e82eca9b54d3589df3cc3edade5e7c3f729c3ad40706a5",
+      "pointer": "absent",
+      "capture_date": "2026-09-29",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback CDP port",
+        "single exact local URL/title",
+        "locale",
+        "fictional account via same-origin catalog",
+        "visible target text",
+        "CSS viewport",
+        "zoom 1",
+        "DPR 2"
+      ],
+      "saved_pixels_reviewed": "complete control or explicitly scoped text/message focus; no cursor, scrollbar, debugger or clipped heading"
+    },
+    {
+      "file": "opening-mobile-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/RbQxgZdE/edit?component=webchat--sequence",
+      "css_viewport": [
+        810,
+        1100
+      ],
+      "css_clip": [
+        406,
+        483,
+        364,
+        94
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        728,
+        188
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        364,
+        94
+      ],
+      "maximum_display_width": 364,
+      "icc": "Display P3",
+      "sha256": "6e2e3991ee75aadb469ea5a4840ac57b5975f039ed046c2cc21ed55e42f77dba",
+      "pointer": "absent",
+      "capture_date": "2026-09-29",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback CDP port",
+        "single exact local URL/title",
+        "locale",
+        "fictional account via same-origin catalog",
+        "visible target text",
+        "CSS viewport",
+        "zoom 1",
+        "DPR 2"
+      ],
+      "saved_pixels_reviewed": "complete control or explicitly scoped text/message focus; no cursor, scrollbar, debugger or clipped heading"
+    },
+    {
+      "file": "opening-mobile-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/RbQxgZdE/edit?component=webchat--sequence",
+      "css_viewport": [
+        810,
+        1100
+      ],
+      "css_clip": [
+        406,
+        483,
+        364,
+        94
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        728,
+        188
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        364,
+        94
+      ],
+      "maximum_display_width": 364,
+      "icc": "Display P3",
+      "sha256": "b11a7f179b7c0cb4a2de9c0e5cb09da3f03bda11a4821c8b72309121b6f18b87",
+      "pointer": "absent",
+      "capture_date": "2026-09-29",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback CDP port",
+        "single exact local URL/title",
+        "locale",
+        "fictional account via same-origin catalog",
+        "visible target text",
+        "CSS viewport",
+        "zoom 1",
+        "DPR 2"
+      ],
+      "saved_pixels_reviewed": "complete control or explicitly scoped text/message focus; no cursor, scrollbar, debugger or clipped heading"
+    },
+    {
+      "file": "teaser-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/RbQxgZdE/edit?component=webchat--teaser",
+      "css_viewport": [
+        1200,
+        1100
+      ],
+      "css_clip": [
+        44,
+        125,
+        544,
+        252
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        1088,
+        504
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        544,
+        252
+      ],
+      "maximum_display_width": 544,
+      "icc": "Display P3",
+      "sha256": "71fafe1d6d35572ee0c8a96bc22eb68ff683b89c107420175917e3798017f725",
+      "pointer": "absent",
+      "capture_date": "2026-09-29",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback CDP port",
+        "single exact local URL/title",
+        "locale",
+        "fictional account via same-origin catalog",
+        "visible target text",
+        "CSS viewport",
+        "zoom 1",
+        "DPR 2"
+      ],
+      "saved_pixels_reviewed": "complete control or explicitly scoped text/message focus; no cursor, scrollbar, debugger or clipped heading"
+    },
+    {
+      "file": "teaser-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/RbQxgZdE/edit?component=webchat--teaser",
+      "css_viewport": [
+        1200,
+        1100
+      ],
+      "css_clip": [
+        44,
+        125,
+        544,
+        252
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        1088,
+        504
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        544,
+        252
+      ],
+      "maximum_display_width": 544,
+      "icc": "Display P3",
+      "sha256": "d34d63c084ed71d46dd877fee4655d5170260b5ed554c15f626d9f68442e7977",
+      "pointer": "absent",
+      "capture_date": "2026-09-29",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback CDP port",
+        "single exact local URL/title",
+        "locale",
+        "fictional account via same-origin catalog",
+        "visible target text",
+        "CSS viewport",
+        "zoom 1",
+        "DPR 2"
+      ],
+      "saved_pixels_reviewed": "complete control or explicitly scoped text/message focus; no cursor, scrollbar, debugger or clipped heading"
+    },
+    {
+      "file": "teaser-mobile-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/RbQxgZdE/edit?component=webchat--teaser",
+      "css_viewport": [
+        810,
+        1100
+      ],
+      "css_clip": [
+        44,
+        125,
+        349,
+        280
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        698,
+        560
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        349,
+        280
+      ],
+      "maximum_display_width": 349,
+      "icc": "Display P3",
+      "sha256": "875ee90479a5a906af26d8bf500dd8c6ec40287b8b341cf3f8e009e051b61d44",
+      "pointer": "absent",
+      "capture_date": "2026-09-29",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback CDP port",
+        "single exact local URL/title",
+        "locale",
+        "fictional account via same-origin catalog",
+        "visible target text",
+        "CSS viewport",
+        "zoom 1",
+        "DPR 2"
+      ],
+      "saved_pixels_reviewed": "complete control or explicitly scoped text/message focus; no cursor, scrollbar, debugger or clipped heading"
+    },
+    {
+      "file": "teaser-mobile-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/RbQxgZdE/edit?component=webchat--teaser",
+      "css_viewport": [
+        810,
+        1100
+      ],
+      "css_clip": [
+        44,
+        125,
+        349,
+        280
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        698,
+        560
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        349,
+        280
+      ],
+      "maximum_display_width": 349,
+      "icc": "Display P3",
+      "sha256": "fe15b76ac717c7dfb40dda003ae5b596d466e5df732af712e7649f581c84abec",
+      "pointer": "absent",
+      "capture_date": "2026-09-29",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback CDP port",
+        "single exact local URL/title",
+        "locale",
+        "fictional account via same-origin catalog",
+        "visible target text",
+        "CSS viewport",
+        "zoom 1",
+        "DPR 2"
+      ],
+      "saved_pixels_reviewed": "complete control or explicitly scoped text/message focus; no cursor, scrollbar, debugger or clipped heading"
+    }
+  ],
+  "reused_images": [
+    {
+      "file": "images/captures/capture-overview/desktop-webchat-es.png",
+      "locale": "es",
+      "pixel_size": [
+        800,
+        480
+      ],
+      "native_logical_size": [
+        400,
+        240
+      ],
+      "sha256": "6a1a128b21c411d6b86e17d62f8538735a612d04cd8ce78d4c2a04977e3aa0e7",
+      "source_record": "docs/editorial-work/captures/capture-overview",
+      "duplicated": false
+    },
+    {
+      "file": "images/captures/capture-overview/desktop-webchat-en.png",
+      "locale": "en",
+      "pixel_size": [
+        800,
+        480
+      ],
+      "native_logical_size": [
+        400,
+        240
+      ],
+      "sha256": "0c01ba2774b48f841ea04a130845ef09e5ba929bceb68f6880d61260eea04c5a",
+      "source_record": "docs/editorial-work/captures/capture-overview",
+      "duplicated": false
+    }
+  ],
+  "local_article_review": {
+    "locales": [
+      "es",
+      "en"
+    ],
+    "css_viewports": [
+      1440,
+      390,
+      590
+    ],
+    "figures_per_locale": 7,
+    "build": "passed",
+    "security_headers": "passed",
+    "source_asset_build_hashes": "24 matched",
+    "original_links": "preserved",
+    "native_size": "all selected source widths at or below logical size",
+    "public_verification": "pending"
+  }
+}
