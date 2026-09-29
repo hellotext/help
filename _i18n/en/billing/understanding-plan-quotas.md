@@ -13,7 +13,7 @@ The first card shows the active plan, the monthly amount calculated so far, and 
     <div class="ht-editorial-visual__image-frame" style="max-width: 800px; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/billing/understanding-plan-quotas/plan-en-mobile.png" width="740" height="528" />
-        <img class="ht-editorial-visual__image" src="/images/billing/understanding-plan-quotas/plan-en.png" width="1464" height="464" loading="lazy" decoding="async" alt="Fictional Enterprise plan card with a $2,499 monthly amount and the Change My Plan control." />
+        <img class="ht-editorial-visual__image" src="/images/billing/understanding-plan-quotas/plan-en.png" width="1464" height="464" loading="lazy" decoding="async" alt="Fictional Grow plan card with a $299 monthly amount and the Change My Plan control." />
       </picture>
     </div>
   </div>
