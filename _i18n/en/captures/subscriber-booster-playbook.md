@@ -1,146 +1,184 @@
-Use this guide when you want Hellotext to turn relevant customer conversations into clear, consent-based subscriptions.
+Use this guide when you want to invite visitors and customers to subscribe from a conversation, with clear consent and an optional incentive.
 
-Subscriber Booster is an AI capture playbook. It uses the context of an active conversation to decide when a subscription invitation is useful, adapts the interaction to that moment, and collects the customer profile data you configure.
+Subscriber Booster presents an invitation with options to accept or decline. It can use an offer for a first or next purchase, depending on the customer's purchase history.
 
-It is not a fixed journey route and it does not send the same subscription sequence every time. It can enter near the beginning of a Webchat conversation or near the end of a customer-initiated WhatsApp conversation.
+The invitation uses predefined text variants in the business's language. After acceptance, Property Collector's AI can request the configured data that is still missing. You choose the incentive percentage in the configuration.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Subscriber Booster invitation preview with a 10% incentive, consent and options to accept or decline.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 550px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/subscriber-booster/invitation-mobile-en.png 2x" width="682" height="620" />
+        <img class="ht-editorial-visual__image" src="/images/captures/subscriber-booster/invitation-en.png" srcset="/images/captures/subscriber-booster/invitation-en.png 2x" width="1100" height="492" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Subscriber Booster invitation preview with a 10% incentive, consent and options to accept or decline." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Fictional invitation preview, without sending a message. The customer can accept or decline.</figcaption>
+</figure>
 
 ## What Subscriber Booster does
 
-Subscriber Booster helps grow your reachable audience without separating subscription from the conversation the customer is already having.
+The playbook can:
 
-It can:
+- Present a subscription invitation in Webchat and supported incoming conversations.
+- Show a teaser next to the Webchat launcher.
+- Offer the configured incentive or present an invitation without a discount.
+- Record subscription when the customer explicitly accepts.
+- Collect missing profile properties through Property Collector.
+- Request phone or email confirmation when the original channel does not prove ownership of that destination.
 
-- Invite a Webchat visitor to subscribe near the beginning of the conversation.
-- Use the Webchat teaser to present a relevant first-purchase incentive before the visitor opens the chat.
-- Introduce a subscription near the end of a customer-initiated WhatsApp conversation.
-- Present an incentive for a future purchase when that fits the WhatsApp conversation.
-- Ask for explicit consent before marking the customer profile as subscribed.
-- Use its Property Collector component to collect the customer profile properties you select.
-- Prevent the offered discount from being redeemed more than once by the same customer profile.
+A subscribed profile still needs a valid destination and permission for the channel you will use. Review [consent and subscriber status]({% link _audience/consent-and-subscriber-status.md %}) before including it in a campaign.
 
-The AI uses the conversation context to make the invitation feel like a useful next step rather than an unrelated interruption.
-
-## How the entry moment changes
-
-Subscriber Booster can participate at different points depending on how the customer started the conversation.
+## How the invitation starts
 
 ### At the beginning of Webchat
 
-For a website visitor, the playbook can use the Webchat teaser to offer a first-purchase incentive. Opening the teaser starts the conversation, where the AI can explain the subscription and ask for consent.
+When an eligible visitor opens Webchat, Subscriber Booster can present the opening invitation. The teaser can introduce the incentive before the chat opens; opening it reveals the acceptance options.
 
-This path works well when the visitor is new, has not purchased yet, and is already considering whether to engage with the business.
+Webchat Widget must be enabled and installed, and Subscriber Booster must be enabled. Review [Webchat Widget playbook]({% link _captures/webchat-widget-playbook.md %}) to prepare the website.
 
-Webchat Widget must be enabled and installed for visitors to see the teaser. Review [Webchat Widget playbook]({% link _captures/webchat-widget-playbook.md %}) before testing this path.
+Choosing not to show the teaser keeps the normal way to open the chat. That setting does not, by itself, disable Subscriber Booster's invitation inside the chat.
 
-### At the end of a WhatsApp conversation
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Webchat teaser offering 10% off next to the orange chat launcher.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 430px; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/captures/subscriber-booster/teaser-en.png" srcset="/images/captures/subscriber-booster/teaser-en.png 2x" width="860" height="400" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Webchat teaser offering 10% off next to the orange chat launcher." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">The teaser introduces the incentive next to the launcher. Acceptance takes place inside the chat.</figcaption>
+</figure>
 
-When a customer starts a WhatsApp conversation for another reason, Subscriber Booster can wait until that need has been handled and then offer a subscription as a relevant next step.
+### When a WhatsApp conversation starts or reopens
 
-The incentive in this context can be positioned for a future purchase. The playbook should not replace the reason the customer contacted the business or interrupt an unresolved support or sales request.
+On supported incoming channels, the invitation can start with the customer's first message or when they reopen a conversation that was closed. It applies to profiles that are not subscribed yet and to the channels allowed in the configuration.
 
-This is not a broadcast or an unsolicited outbound subscription message. It works inside a conversation the customer initiated.
+On WhatsApp, check that this entry moment fits the service experience you want to offer. The playbook does not automatically wait for a support request to be resolved before inviting the customer. The invitation begins from a conversation the person initiated.
 
 ## How it works with Property Collector
 
-Subscriber Booster includes a Property Collector component in its configuration.
+Subscriber Booster has its own **Properties to collect** list. Select useful subscription data and avoid requesting information you do not need.
 
-Use that component to select the profile properties the playbook should collect during subscription, such as name, phone, email, or custom properties available in the business.
+For the collection conversation to work, the standalone Property Collector playbook must also be enabled. Its agent performs the temporary collection using Subscriber Booster's list.
 
-You can also indicate which properties must be collected. Subscriber Booster asks only for the configured data that is still missing from the customer profile.
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Subscriber Booster displays a warning to enable Property Collector before configuring the data it will collect.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 575px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/prerequisite-en-mobile.png 2x" width="780" height="1160" />
+        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/prerequisite-en.png" srcset="/images/captures/property-collector/prerequisite-en.png 2x" width="1150" height="1160" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Subscriber Booster displays a warning to enable Property Collector before configuring the data it will collect." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">This warning identifies the requirement to enable Property Collector for data collection.</figcaption>
+</figure>
 
-Property Collector handles this part of the conversation without turning the subscription experience into a rigid form. Keep the collection short enough that customers can understand why each answer is useful.
+Phone is part of this playbook's required data. You can adjust the other available properties, such as email and name. The playbook requests configured values that are missing from the profile.
 
-For the full collection model, see [Property Collector playbook]({% link _captures/property-collector-playbook.md %}).
+For selection options and answer handling, see [Property Collector playbook]({% link _captures/property-collector-playbook.md %}).
 
-## Consent and incentive safeguards
+## Consent and incentive delivery
 
-A subscription should happen only after the customer clearly accepts it.
+The invitation should explain that the customer accepts promotional messages and can unsubscribe. Explicit acceptance records subscription; data collection or identity confirmation may continue afterward.
 
-The conversation should explain:
+When acceptance comes from Webchat, Instagram or Messenger, the captured destination may need confirmation. If the business has an active WhatsApp channel, the customer continues there; otherwise, email confirmation may be needed. A saved phone or email does not, by itself, prove that the person controls that destination.
 
-- That the customer is subscribing to promotional messages.
-- Which channel will be used.
-- What incentive is being offered, when applicable.
-- That the customer can unsubscribe later.
+For a percentage incentive, Subscriber Booster uses the rate you configured. Generating the code requires a compatible commerce integration. If you select a Hellotext coupon, review its validity and usage conditions.
 
-Subscriber Booster also protects the offer from repeat use: the discount presented by the playbook cannot be redeemed more than once by the same customer profile.
-
-This lets the playbook use a meaningful incentive without repeatedly granting it to the same person across later conversations.
+Check incentive delivery and review the coupon's redemption conditions. Retrying an acceptance does not define how many times the coupon can be redeemed.
 
 ## When to use it
 
 Use Subscriber Booster when:
 
-- Website visitors need a conversational reason to subscribe.
-- A first-purchase incentive can help a new visitor take the next step.
-- Customers already start useful WhatsApp conversations with the business.
-- You want to offer subscription after resolving the customer's original WhatsApp need.
-- You need to collect a few profile properties together with consent.
-- You want AI to adapt the subscription invitation to the conversation instead of following a fixed route.
+- You want to offer subscription when someone enters Webchat or starts an eligible conversation.
+- A first- or next-purchase incentive helps explain the benefit of subscribing.
+- You need to collect a few profile details alongside acceptance.
+- You can complete destination confirmation and deliver the incentive you offer.
 
-Use a [Website Popup]({% link _captures/website-popup.md %}) or [Website Form]({% link _captures/forms.md %}) when you want a visual form-based experience rather than a conversation.
+Use a [Website Popup]({% link _captures/website-popup.md %}) or [Website Form]({% link _captures/forms.md %}) for a visual form-based experience.
 
-Use a [QR Code Subscriber]({% link _captures/qr-codes.md %}) or [Shareable Link]({% link _captures/shareable-link.md %}) when the customer should start the opt-in from a scan or link.
+Use a [QR Code Subscriber]({% link _captures/qr-codes.md %}) or [Shareable Link]({% link _captures/shareable-link.md %}) when the person should initiate opt-in from a scan or link.
 
 ## What it needs before launch
 
-Before enabling Subscriber Booster, confirm:
+Before enabling the playbook, confirm:
 
-- Webchat Widget is enabled, installed, and tested if you want to use the website teaser.
-- WhatsApp is connected and receiving customer-initiated conversations if you want to use the WhatsApp path.
-- The subscription consent language matches the channel and experience you intend to offer.
-- The incentive is valid and appropriate for a first or future purchase.
-- The profile properties selected in Property Collector are useful and have clear labels.
-- Your team understands how Subscriber Booster fits around other sales or support playbooks.
+- Webchat Widget is enabled and installed if you will use the website invitation.
+- The selected incoming channels are connected and can receive customer replies.
+- Property Collector is enabled and the selected data is necessary and clearly named.
+- The invitation and consent match the experience you want to offer.
+- The configured incentive can be generated or delivered, with valid conditions.
+- WhatsApp or email confirmation can be completed when required.
 
 ## What you can configure
 
-Open **Playbooks**, click **Explore playbooks**, find the **Captures** group, and choose **Subscriber Booster**.
+Open **Playbooks**, click **Explore playbooks**, find the **Capture** group, and choose **Subscriber Booster**.
 
-Focus on:
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Subscriber Booster card in the desktop playbook catalog grid.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 400px; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/desktop-subscriber-en.png" srcset="/images/captures/capture-overview/desktop-subscriber-en.png 2x" width="800" height="480" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Subscriber Booster card in the desktop playbook catalog grid." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Subscriber Booster in the desktop catalog.</figcaption>
+</figure>
 
-- **Incentive or discount:** the offer Subscriber Booster can introduce when subscription is relevant.
-- **Property collection:** which customer profile properties to request and which ones must be collected.
-- **Webchat teaser:** the invitation shown near the Webchat launcher for the website path.
+Review these components:
 
-The conversation timing is contextual. You do not need to build a fixed sequence for the beginning or end of every conversation.
+1. **Incoming channels:** choose where the invitation can appear. Manual selection lets you limit it to the channels you prepared.
+2. **Discounts:** select the strategy and percentage, an available coupon, or an invitation without a discount.
+3. **Properties to collect:** configure the missing data to request after acceptance, once Property Collector is enabled.
+4. **Webchat options:** choose whether to show the teaser next to the launcher.
+
+The **Combine store offers with AI incentives** and **Create new AI-driven offers only** strategies let you choose a percentage. For this playbook, that percentage is the configured offer; AI does not change it based on the conversation. Store-only and no-discount options do not generate this percentage incentive.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Selected incentive strategy with 10% highlighted among the 5%, 10%, 15% and 20% options.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 530px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/subscriber-booster/discount-mobile-en.png 2x" width="660" height="236" />
+        <img class="ht-editorial-visual__image" src="/images/captures/subscriber-booster/discount-en.png" srcset="/images/captures/subscriber-booster/discount-en.png 2x" width="1060" height="772" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Selected incentive strategy with 10% highlighted among the 5%, 10%, 15% and 20% options." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Select the incentive percentage. The fictional example uses 10%.</figcaption>
+</figure>
+
+In **Webchat options**, choose **Show teaser message to new visitors** or **Do not show teaser; chat opens only on click or trigger**. The preview lets you review the invitation next to the launcher.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Webchat options with Show teaser message to new visitors selected and the alternative to hide it.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 580px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/subscriber-booster/webchat-options-mobile-en.png 2x" width="690" height="720" />
+        <img class="ht-editorial-visual__image" src="/images/captures/subscriber-booster/webchat-options-en.png" srcset="/images/captures/subscriber-booster/webchat-options-en.png 2x" width="1160" height="660" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Webchat options with Show teaser message to new visitors selected and the alternative to hide it." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Choose whether to show the teaser. Hiding it does not, by itself, disable the invitation inside the chat.</figcaption>
+</figure>
 
 ## How to test it
 
-Test both entry contexts with customer profiles that match the intended experience.
+Review the preview and components first. Confirm the percentage, consent text, channels and properties before enabling the playbook.
 
-For Webchat:
+In a controlled Webchat test:
 
-- Open the website as a new visitor.
-- Confirm the teaser appears with the intended incentive.
-- Open the teaser and continue through the subscription conversation.
-- Verify that consent is required before the profile becomes subscribed.
-- Confirm the configured profile properties are requested and saved.
+- Open the website with a test profile representing a new visitor.
+- Check the teaser and invitation inside the chat.
+- Verify that acceptance is explicit.
+- Review missing-data collection and destination confirmation, if requested.
+- Check the incentive received and its conditions.
 
-For WhatsApp:
+On WhatsApp, test both a first conversation and the reopening of a closed conversation. Verify the entry moment and that the team can continue handling the customer's original need.
 
-- Start a customer conversation for a realistic sales or support need.
-- Complete the original task first.
-- Confirm Subscriber Booster introduces subscription only when it is a useful next step.
-- Verify that the future-purchase incentive and consent are clear.
-
-Also test the same customer profile after redeeming the offered discount. The playbook should not allow that profile to redeem it again.
+The preview shows the invitation message. A full-flow test should also check the saved data and final delivery.
 
 ## What to review after launch
 
-Review real conversations rather than assuming every invitation should look the same.
+Review the conversations and profiles that participated. Check whether people understand the invitation, clearly accept, and complete any required data or confirmation.
 
-Check:
-
-- Whether the Webchat teaser attracts visitors who continue into a useful conversation.
-- Whether subscription invitations happen at a natural point.
-- Whether the customer's original WhatsApp need is handled before subscription is introduced.
-- Whether customers understand the consent request.
-- Whether the configured profile properties are collected accurately.
-- Whether the incentive is granted and protected from repeat redemption as expected.
-- Whether another active playbook should handle the conversation before or after Subscriber Booster.
-
-Adjust the incentive, selected properties, or teaser when the conversation shows a clear reason to change them.
+Also check that the incentive matches the configuration and can be used under its conditions. Adjust the channels, percentage or properties when those conversations give you a concrete reason.
 
 ## Related guides
 
