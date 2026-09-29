@@ -1,46 +1,78 @@
-Suscriptor por Código QR es una misión de captura que permite iniciar una suscripción por SMS al escanear un código. Funciona bien para eCommerce, comercios y marcas de productos empacados (*CPG*) que interactúan con clientes mediante ubicaciones físicas.
+Suscriptor por Código QR es una misión de captura para iniciar una suscripción desde un código impreso o digital. Puedes crear un código que abra SMS o, si WhatsApp está habilitado para tu negocio, uno que abra WhatsApp. Escanear el código prepara el mensaje; la persona decide si lo envía.
 
-Aquí hay algunos ejemplos de cómo se pueden utilizar los códigos QR en estos contextos:
+Puedes usar códigos distintos para cada ubicación y reconocer de dónde llegó cada suscripción:
 
-* Una tienda de ropa puede mostrar códigos QR en su tienda o en su sitio web, permitiendo a los clientes suscribirse fácilmente para recibir actualizaciones sobre nuevas llegadas, ventas y promociones especiales a través de SMS.
-* Una tienda física puede mostrar códigos QR junto a productos o en su volante semanal, permitiendo a los clientes suscribirse para recibir notificaciones sobre lanzamientos de productos nuevos, descuentos a través de SMS.
-* Una empresa CPG podría incluir códigos QR en el empaque de productos, permitiendo a los clientes suscribirse para recibir actualizaciones sobre el producto, como consejos de uso, recetas o ofertas especiales a través de SMS.
+* Una tienda de ropa puede colocar un código en el mostrador para invitar a recibir novedades y ofertas.
+* Un comercio puede incluir otro código en su volante semanal y distinguir esa fuente de la tienda.
+* Una marca de productos empacados puede imprimir un código en el empaque para invitar a recibir consejos o promociones.
 
 ## Cómo funciona
 
-Cuando un cliente escanea el código QR, se le llevará a la aplicación SMS nativa en su teléfono con un mensaje de texto pre-llenado y personalizable y el número al que suscribirse.
+Al escanearlo, se abre la aplicación elegida: la app de SMS o WhatsApp. El número de destino y el texto quedan preparados. Hellotext añade al texto una referencia única para identificar este código QR.
 
-El cliente igualmente debe presionar *Enviar* para enviar el mensaje de opt-in. Hellotext luego relaciona la suscripción con el perfil del cliente y la referencia de esa captura.
+La persona debe presionar **Enviar**. Solo al recibir ese mensaje Hellotext puede registrar la suscripción en su perfil y atribuirla a la captura. Escanear sin enviar no suscribe a nadie.
 
 ## Crear un código QR
 
-Para crear un código QR, abre **Misiones**, haz clic en **Explorar misiones**, busca el grupo **Capturas** y elige **Suscriptor por Código QR**.
+Abre **Misiones**, haz clic en **Explorar misiones**, busca el grupo **Captura** y elige **Suscriptor por Código QR**. Ponle un nombre que identifique dónde lo usarás, como «QR del empaque».
 
-Si tienes números de teléfono o códigos cortos asociados con tu negocio, puedes elegir uno de estos como el número al que los clientes enviarán el mensaje de opt-in.
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Tarjeta de Suscriptor por Código QR en el grupo Captura del catálogo de misiones.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/capture-overview/site-es-mobile.png" width="760" height="1580" />
+        <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/site-es.png" width="1780" height="1030" loading="lazy" decoding="async" alt="Tarjeta de Suscriptor por Código QR junto a las otras capturas de sitio y enlace." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Ubicación de Suscriptor por Código QR en una cuenta ficticia.</figcaption>
+</figure>
 
-Si no eliges un número específico, conserva la configuración predeterminada para que Hellotext use un número compatible disponible.
+Primero elige **SMS** o **WhatsApp**. La opción de WhatsApp solo está disponible si ese canal está habilitado en tu negocio.
 
-También puedes personalizar el mensaje que los clientes enviarán para suscribirse.
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Selector de tipo de código QR con SMS disponible y WhatsApp deshabilitado en la cuenta ficticia.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/qr-codes/type-es-mobile.png" width="740" height="1500" />
+        <img class="ht-editorial-visual__image" src="/images/captures/qr-codes/type-es.png" width="1320" height="1310" loading="lazy" decoding="async" alt="Paso Elige el tipo: SMS seleccionado y WhatsApp no disponible para esta cuenta." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Elige la aplicación que abrirá el código; la disponibilidad de WhatsApp depende de la cuenta.</figcaption>
+</figure>
+
+En el paso siguiente, selecciona el número o canal que recibirá el mensaje. Para SMS puedes elegir un número o código corto disponible para tu negocio, o mantener **Configuración predeterminada para envíos**. Antes de compartir el código, verifica el destino que se preparará en el teléfono del cliente.
+
+Escribe un texto de consentimiento claro en **Personaliza el mensaje que enviarán tus usuarios para suscribirse**. El editor muestra una vista previa del texto, pero no envía nada. Hellotext agregará la referencia de la captura al generar el código QR.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Configuración de número y mensaje de suscripción en el borrador ficticio de código QR.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/qr-codes/message-es-mobile.png" width="860" height="1160" />
+        <img class="ht-editorial-visual__image" src="/images/captures/qr-codes/message-es.png" width="1320" height="1380" loading="lazy" decoding="async" alt="Número predeterminado y texto de suscripción ficticio en el editor de código QR." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Número y mensaje antes de guardar. El texto de ejemplo no se envió.</figcaption>
+</figure>
 
 ## Elige el seguimiento
 
-En el siguiente paso, tienes la opción de elegir qué sucede después de que tu cliente se suscriba.
+Al guardar el número y el mensaje, se crea el código QR y aparece el paso para asignar un cupón y una misión compatible con el evento de suscripción.
 
-Por defecto, se envía un mensaje de bienvenida al nuevo suscriptor.
+No se envía automáticamente un mensaje de bienvenida si no eliges una misión de seguimiento. Si quieres dar la bienvenida, selecciona una misión o ruta que comience con la suscripción y tenga el mensaje correspondiente.
 
-Sin embargo, si has creado algún cupón, puedes elegir incluirlo en el mensaje de bienvenida como un incentivo para suscribirse.
-
-Alternativamente, puedes seleccionar una ruta u otra misión compatible para reemplazar el mensaje de bienvenida predeterminado.
-
-Ese seguimiento se enviará al nuevo suscriptor en lugar del mensaje predeterminado.
+Puedes seleccionar un cupón cuando la misión elegida tiene un mensaje preparado para incluirlo. Si omites este paso, el código QR sigue disponible sin ese seguimiento automático.
 
 ## Descarga y prueba el código QR
 
-Una vez que hayas terminado, continúa al último paso para descargar tu código QR en formato SVG.
+Después de guardar u omitir el seguimiento, verás el código QR y el botón **Descargar código QR en SVG**.
 
-SVG es un formato vectorial, lo que significa que tu código QR siempre se verá bien, independientemente de su tamaño. Es ideal para utilizar en materiales impresos, en el packaging o en la web.
+SVG es vectorial y se adapta a materiales impresos, empaques o páginas web sin perder nitidez.
 
-Prueba el código QR final con un teléfono antes de imprimirlo o publicarlo. Confirma que abre el número SMS esperado, incluye el mensaje y la referencia configurados, y suscribe el perfil correcto solamente después de enviar el mensaje.
+Antes de publicarlo, escanéalo con un teléfono y comprueba que abre SMS o WhatsApp según tu elección, con el destino, mensaje y referencia esperados. Esa revisión se puede hacer sin enviar el mensaje. Si haces una prueba completa de suscripción, usa un número de prueba autorizado y comprueba el perfil y el seguimiento después del envío.
 
 ## Guías relacionadas
 

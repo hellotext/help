@@ -1,0 +1,202 @@
+{
+  "status": "visual_pending",
+  "captured_at": "2026-09-29",
+  "database": "hellotext_editorial_workload_20260928",
+  "business_id": 5,
+  "fictional_account": "design-system@example.test",
+  "chrome_profile": "/private/tmp/hellotext-qr-guide-headless-9447",
+  "cdp_loopback_port": 9447,
+  "zoom": 1,
+  "device_pixel_ratio": 2,
+  "notes": [
+    "No QR capture was created, activated, scanned, or sent.",
+    "WhatsApp was disabled in the isolated account.",
+    "The legacy GET follow-up route fails with a NoMethodError; the live flow reaches assignment only after saving a QR capture."
+  ],
+  "sources": [
+    {
+      "file": "type-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/captures/qr-codes/new",
+      "css_viewport": [
+        1200,
+        1000
+      ],
+      "clip_css": [
+        125,
+        115,
+        660,
+        655
+      ],
+      "pixels": [
+        1320,
+        1310
+      ],
+      "sha256": "eede258c9564f35a12937dc91e1dfe2ca1a42b55b91aa656eb43d4ba9adc6b68",
+      "color_profile": "Display P3",
+      "source_density": 2,
+      "capture_route": "isolated Chrome compositor via CDP"
+    },
+    {
+      "file": "type-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/captures/qr-codes/new",
+      "css_viewport": [
+        1200,
+        1000
+      ],
+      "clip_css": [
+        125,
+        115,
+        660,
+        655
+      ],
+      "pixels": [
+        1320,
+        1310
+      ],
+      "sha256": "ace129e7e733ed1a67517f502e903aa64e96147c056126dd034253f91b95ebac",
+      "color_profile": "Display P3",
+      "source_density": 2,
+      "capture_route": "isolated Chrome compositor via CDP"
+    },
+    {
+      "file": "type-es-mobile.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/captures/qr-codes/new",
+      "css_viewport": [
+        390,
+        1000
+      ],
+      "clip_css": [
+        10,
+        50,
+        370,
+        750
+      ],
+      "pixels": [
+        740,
+        1500
+      ],
+      "sha256": "64eb482e351a951426188c8219d6c581a8c1d2637f2a799395cd0e40ffcb0ee5",
+      "color_profile": "Display P3",
+      "source_density": 2,
+      "capture_route": "isolated Chrome compositor via CDP"
+    },
+    {
+      "file": "type-en-mobile.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/captures/qr-codes/new",
+      "css_viewport": [
+        390,
+        1000
+      ],
+      "clip_css": [
+        10,
+        50,
+        370,
+        750
+      ],
+      "pixels": [
+        740,
+        1500
+      ],
+      "sha256": "cffe0390ce515e36f8f3338747e94826de6bbb2e77e94f5780b2217003eded34",
+      "color_profile": "Display P3",
+      "source_density": 2,
+      "capture_route": "isolated Chrome compositor via CDP"
+    },
+    {
+      "file": "message-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/captures/qr-codes/new?technology=sms&name=QR%20empaque%20demo",
+      "css_viewport": [
+        1200,
+        1000
+      ],
+      "clip_css": [
+        125,
+        120,
+        660,
+        690
+      ],
+      "pixels": [
+        1320,
+        1380
+      ],
+      "sha256": "37c839fae4a22ed7d3dc7e4bc06fb7e86df2c8ca4f223bab552a7b54d32c1572",
+      "color_profile": "Display P3",
+      "source_density": 2,
+      "capture_route": "isolated Chrome compositor via CDP"
+    },
+    {
+      "file": "message-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/captures/qr-codes/new?technology=sms&name=Demo%20packaging%20QR",
+      "css_viewport": [
+        1200,
+        1000
+      ],
+      "clip_css": [
+        125,
+        120,
+        660,
+        690
+      ],
+      "pixels": [
+        1320,
+        1380
+      ],
+      "sha256": "41f26a58085649faf0a1b7fbb6f2f97be767f6688a9cfe7b3ffa0dc1e345aac4",
+      "color_profile": "Display P3",
+      "source_density": 2,
+      "capture_route": "isolated Chrome compositor via CDP"
+    },
+    {
+      "file": "message-es-mobile.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/captures/qr-codes/new?technology=sms&name=QR%20empaque%20demo",
+      "css_viewport": [
+        450,
+        1000
+      ],
+      "clip_css": [
+        10,
+        50,
+        430,
+        580
+      ],
+      "pixels": [
+        860,
+        1160
+      ],
+      "sha256": "e6979bb6d4d3ba5e0074dc1b552c48c2499ed870ed4558156352b1b70338a5c0",
+      "color_profile": "Display P3",
+      "source_density": 2,
+      "capture_route": "isolated Chrome compositor via CDP"
+    },
+    {
+      "file": "message-en-mobile.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/captures/qr-codes/new?technology=sms&name=Demo%20packaging%20QR",
+      "css_viewport": [
+        450,
+        1000
+      ],
+      "clip_css": [
+        10,
+        50,
+        430,
+        580
+      ],
+      "pixels": [
+        860,
+        1160
+      ],
+      "sha256": "987de25144dad12b3b9ee469f2338a50fbe0114807d39809c8720f69750eff0c",
+      "color_profile": "Display P3",
+      "source_density": 2,
+      "capture_route": "isolated Chrome compositor via CDP"
+    }
+  ]
+}
