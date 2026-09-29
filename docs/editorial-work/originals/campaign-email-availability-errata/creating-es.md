@@ -4,7 +4,7 @@ Usa una campaña cuando quieres enviar un mensaje planificado y puntual a una au
 
 Asegúrate de tener:
 
-- Un remitente SMS aprobado, un número de WhatsApp listo o, para una campaña de solo correo, acceso al canal y un remitente de correo verificado y activo.
+- Un canal de SMS o WhatsApp activo.
 - Perfiles de cliente con consentimiento para el canal que usarás.
 - Un objetivo y llamado a la acción claros.
 - Las listas, segmentos, links con tracking, cupones o contenido multimedia que necesites.
@@ -21,9 +21,8 @@ Sigue leyendo: [¿A quién puedo escribirle?]({% link _audience/consent-and-subs
 - **WhatsApp y SMS:** intenta primero por WhatsApp y usa SMS cuando WhatsApp no está disponible para un cliente elegible.
 - **Solo WhatsApp:** envía únicamente por WhatsApp.
 - **Solo SMS:** envía únicamente por SMS.
-- **Solo correo:** envía únicamente por correo electrónico; requiere acceso al canal y un remitente verificado y activo.
 
-El creador muestra estas opciones, pero elegir una no habilita por sí solo el envío: el negocio necesita acceso y un remitente listo para el canal elegido. El **Target estimado** se actualiza para mostrar cuántos perfiles de cliente podrían contactarse con la opción elegida.
+Las opciones disponibles dependen de los canales conectados al negocio. El **Target estimado** se actualiza para mostrar cuántos perfiles de cliente podrían contactarse con la opción elegida.
 
 Selecciona **Siguiente** para continuar. Dale a la campaña un nombre interno claro en el encabezado para que el equipo pueda reconocerla después en las vistas de Borradores, Programadas, Enviadas y reportes.
 
@@ -95,9 +94,9 @@ Usa la vista previa para comprobar el mensaje en cada canal seleccionado. Revisa
 - Los archivos, botones, pie de página o ubicación de WhatsApp.
 - La longitud del SMS y la estimación de partes que muestra el editor.
 
-Envía una prueba al destino que corresponda antes de continuar: un número que controles para SMS o WhatsApp, o una dirección propia para una campaña de solo correo. Una prueba por SMS puede entregarse directamente. Una prueba de WhatsApp con contenido nuevo puede quedar programada hasta que Meta apruebe la plantilla.
+Envía una prueba a un número de teléfono antes de continuar. Una prueba por SMS puede entregarse directamente. Una prueba de WhatsApp con contenido nuevo puede quedar programada hasta que Meta apruebe la plantilla.
 
-La prueba permite revisar el mensaje en el número o la dirección elegidos. No demuestra que todos los perfiles de la audiencia final sean elegibles.
+La prueba confirma la presentación y entrega al número elegido. No demuestra que todos los perfiles de la audiencia final sean elegibles.
 
 ## 5. Elige cuándo se enviará
 

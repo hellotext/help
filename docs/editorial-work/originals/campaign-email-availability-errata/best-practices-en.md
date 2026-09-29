@@ -24,7 +24,7 @@ Start with the smallest audience that matches the goal. You can include or exclu
 - Use a **segment** when membership should update from profile data or behavior.
 - Use **exclusions** to remove groups that should not receive this particular message.
 
-Hellotext removes overlaps and calculates the estimated target from the selected channels, subscription state, usable destinations, inclusions, and exclusions. Compare the **Estimated target** with your expectations before continuing; it can be smaller than the total membership of the selected groups and does not by itself confirm permission to send.
+Hellotext removes overlaps and calculates the estimated target from the selected channels, consent, contactability, inclusions, and exclusions. Compare the **Estimated target** with your expectations before continuing; it can be smaller than the total membership of the selected groups.
 
 Use the audience limit when you intentionally want to send to a maximum number of eligible customers. A limit controls campaign size but does not make an ineligible profile contactable.
 
@@ -37,9 +37,8 @@ Select the option that matches the audience and content:
 - **WhatsApp and SMS** tries WhatsApp first and uses SMS when WhatsApp is not available for an eligible customer.
 - **WhatsApp only** keeps delivery on WhatsApp and can support richer campaign content.
 - **SMS only** keeps the campaign concise and delivers it through SMS.
-- **Email only** sends only through Email and requires channel access and a verified, active sender.
 
-The creator shows these options, but sending depends on channel access and a ready sender for the selected option. Confirm the sender, estimated target, and preview for every selected channel instead of assuming that the same customer profiles are eligible everywhere.
+Available options depend on the channels connected to the business. Confirm the sender, estimated target, and preview for every selected channel instead of assuming that the same customer profiles are eligible everywhere.
 
 ## Write for the selected channels
 
@@ -58,7 +57,7 @@ Keep reading: [Message editor overview]({% link _numbers/message-editor-overview
 
 ## Test what the customer will receive
 
-Send a test to a number you control for SMS or WhatsApp, or to your own address for an Email-only campaign. Review every selected channel and confirm:
+Send a test to a phone number and review every selected channel. Confirm:
 
 - The first line and call to action are clear.
 - Personalization and fallback values read naturally.
@@ -67,7 +66,7 @@ Send a test to a number you control for SMS or WhatsApp, or to your own address 
 - Media, buttons, footer, and location appear as expected.
 - The SMS message-part estimate is acceptable.
 
-A WhatsApp test with new content can wait for Meta approval. A test lets you review the message at the chosen number or address; it does not prove that every profile in the final audience is eligible.
+A WhatsApp test with new content can wait for Meta approval. A successful test confirms presentation and delivery to the test number; it does not prove that every profile in the final audience is eligible.
 
 ## Leave time for review and delivery windows
 

@@ -1,4 +1,4 @@
-Las campañas te permiten enviar un mensaje puntual y planificado a una audiencia seleccionada por SMS, WhatsApp con opción de SMS de respaldo o, si tu negocio tiene acceso al canal, solo correo electrónico. Tú eliges la audiencia, el contenido, los canales y el momento de entrega. Hellotext evalúa qué perfiles de cliente son elegibles, gestiona la aprobación y entrega, y crea el reporte automáticamente.
+Las campañas te permiten enviar un mensaje puntual y planificado a una audiencia seleccionada por SMS, WhatsApp o ambos. Tú eliges la audiencia, el contenido, los canales y el momento de entrega. Hellotext evalúa qué perfiles de cliente son elegibles, gestiona la aprobación y entrega, y crea el reporte automáticamente.
 
 Usa campañas para promociones, lanzamientos de productos, anuncios, reposiciones, recordatorios de eventos y otros momentos en los que quieres decidir qué se enviará y cuándo.
 
@@ -40,14 +40,14 @@ La página Campañas organiza este ciclo en las pestañas **Programadas**, **Env
 
 Antes de crear una campaña, confirma que:
 
-- Los canales que usarás están disponibles para tu negocio: SMS necesita un remitente aprobado, WhatsApp un número listo y correo electrónico acceso al canal y un remitente verificado y activo.
+- El canal de SMS o WhatsApp que usarás está conectado.
 - Los perfiles de cliente tienen consentimiento para el canal seleccionado.
 - La audiencia y sus exclusiones coinciden con el objetivo.
 - El mensaje tiene una próxima acción clara.
 - Los links, la personalización, los cupones, archivos y botones están listos.
 - El horario deja margen para cualquier revisión editorial o de Meta necesaria.
 
-Usa listas para grupos fijos de perfiles de cliente. Usa segmentos cuando sus integrantes deban actualizarse según datos o comportamiento. Hellotext elimina duplicados y estima el target alcanzable según las reglas de audiencia, el estado de suscripción, los destinos utilizables y los canales seleccionados. Esa estimación no confirma por sí sola el permiso para enviar.
+Usa listas para grupos fijos de perfiles de cliente. Usa segmentos cuando sus integrantes deban actualizarse según datos o comportamiento. Hellotext elimina duplicados y estima el target alcanzable según las reglas de audiencia, el consentimiento, la contactabilidad y los canales seleccionados.
 
 Sigue leyendo: [Diferencias entre Listas y Segmentos]({% link _audience/lists-and-segments.md %}) y [¿A quién puedo escribirle?]({% link _audience/consent-and-subscriber-status.md %}).
 

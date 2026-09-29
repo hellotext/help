@@ -4,7 +4,7 @@ Use a campaign when you want to send a planned, one-time message to a selected a
 
 Make sure you have:
 
-- An approved SMS sender, a ready WhatsApp number, or, for an Email-only campaign, channel access and a verified, active email sender.
+- An active SMS or WhatsApp channel.
 - Customer profiles with consent for the channel you plan to use.
 - A clear campaign goal and call to action.
 - Any lists, segments, tracked links, coupons, or media you need.
@@ -21,9 +21,8 @@ Keep reading: [Who can I message?]({% link _audience/consent-and-subscriber-stat
 - **WhatsApp and SMS:** tries WhatsApp first and uses SMS when WhatsApp is not available for an eligible customer.
 - **WhatsApp only:** sends only through WhatsApp.
 - **SMS only:** sends only through SMS.
-- **Email only:** sends only through Email; it requires channel access and a verified, active sender.
 
-The creator shows these options, but selecting one does not by itself enable sending: the business needs access and a ready sender for the chosen channel. The **Estimated target** updates to show how many customer profiles may be reachable through the selected delivery option.
+The options available depend on the channels connected to the business. The **Estimated target** updates to show how many customer profiles may be reachable through the selected delivery option.
 
 Select **Next** to continue. Give the campaign a clear internal name in the header so teammates can recognize it later in Draft, Scheduled, Delivered, and reporting views.
 
@@ -95,9 +94,9 @@ Use the preview to check the message in every selected channel. Review:
 - WhatsApp attachments, buttons, footer, or location.
 - SMS length and the message-part estimate shown by the editor.
 
-Send a test to the appropriate destination before continuing: a number you control for SMS or WhatsApp, or your own address for an Email-only campaign. An SMS test can be delivered directly. A WhatsApp test with new template content can remain scheduled until Meta approves that template.
+Send a test to a phone number before continuing. An SMS test can be delivered directly. A WhatsApp test with new template content can remain scheduled until Meta approves that template.
 
-A test lets you review the message at the chosen number or address. It does not prove that every customer profile in the final audience is eligible.
+A test confirms presentation and delivery to the test number. It does not prove that every customer profile in the final audience is eligible.
 
 ## 5. Choose when it will be sent
 

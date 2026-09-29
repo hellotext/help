@@ -1,4 +1,4 @@
-Campaigns let you send a planned, one-time message to a selected audience by SMS, WhatsApp with optional SMS fallback, or Email only when your business has access to that channel. You choose the audience, content, channels, and delivery time. Hellotext evaluates which customer profiles are eligible, handles approval and delivery, and creates the report automatically.
+Campaigns let you send a planned, one-time message to a selected audience by SMS, WhatsApp, or both. You choose the audience, content, channels, and delivery time. Hellotext evaluates which customer profiles are eligible, handles approval and delivery, and creates the report automatically.
 
 Use campaigns for promotions, product launches, announcements, restocks, event reminders, and other moments when you want to decide what will be sent and when.
 
@@ -40,14 +40,14 @@ The Campaigns page organizes this lifecycle into **Scheduled**, **Delivered**, *
 
 Before creating a campaign, confirm:
 
-- The channels you plan to use are available to your business: SMS needs an approved sender, WhatsApp a ready number, and Email channel access plus a verified, active sender.
+- The SMS or WhatsApp channel you plan to use is connected.
 - Customer profiles have consent for the selected channel.
 - The audience and any exclusions match the goal.
 - The message has one clear next action.
 - Links, personalization, coupons, media, and buttons are ready.
 - The delivery time leaves enough room for any required editorial or Meta review.
 
-Use lists for fixed groups of customer profiles. Use segments when membership should update from customer data or behavior. Hellotext deduplicates overlaps and estimates the reachable target according to audience rules, subscription state, usable destinations, and selected channels. That estimate does not by itself confirm permission to send.
+Use lists for fixed groups of customer profiles. Use segments when membership should update from customer data or behavior. Hellotext deduplicates overlaps and estimates the reachable target according to audience rules, consent, contactability, and selected channels.
 
 Keep reading: [Lists vs. segments]({% link _audience/lists-and-segments.md %}) and [Who can I message?]({% link _audience/consent-and-subscriber-status.md %}).
 

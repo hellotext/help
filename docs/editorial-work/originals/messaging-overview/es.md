@@ -16,9 +16,9 @@ Usa **Facebook Messenger** cuando los clientes escriben a tu página de Facebook
 
 Usa **notificaciones push** para llegar a los visitantes que se suscriben desde tu sitio. Push está disponible en Pro y Enterprise, con instalación automática mediante Shopify y VTEX. Empieza por [Configura las notificaciones push]({% link _integrations/setup-push-notifications.md %}).
 
-Usa **Mercado Libre** si tu negocio está en Colombia o Uruguay, vendes por ese marketplace y necesitas gestionar conversaciones posventa desde el Inbox. El canal requiere una orden elegible; no sirve para campañas ni para escribir a compradores fuera de una operación.
+Usa **Mercado Libre** cuando vendes por el marketplace y necesitas gestionar conversaciones posventa asociadas a operaciones específicas desde el Inbox. Está vinculado a órdenes elegibles de Mercado Libre y no es un destino general para campañas.
 
-Muchos negocios usan varios canales: SMS para alcance, WhatsApp para experiencias salientes y conversacionales más ricas, Instagram o Messenger para conversaciones sociales iniciadas por el cliente y Mercado Libre para atención posventa del marketplace. El creador de campañas muestra WhatsApp, SMS y Correo electrónico como opciones de entrega; enviar por correo requiere acceso al canal y un remitente verificado y activo. Instagram DM y Messenger no son destinos de campañas, y Mercado Libre sólo permite conversaciones asociadas a órdenes elegibles. Las rutas y misiones pueden usar otros canales según sus reglas y la disponibilidad de cada cliente.
+Muchos negocios usan varios canales: SMS para alcance, WhatsApp para experiencias salientes y conversacionales más ricas, Instagram o Messenger para conversaciones sociales iniciadas por el cliente y Mercado Libre para atención posventa del marketplace. Las campañas, rutas y misiones pueden usar los canales de maneras diferentes, por lo que debes confirmar cómo funciona la selección de canal para la experiencia que vas a lanzar.
 
 Para empezar a usar un canal social, consulta [Conecta Instagram DM]({% link _integrations/connect-instagram-dm.md %}) o [Conecta Facebook Messenger]({% link _integrations/connect-facebook-messenger.md %}). Para entender qué conversaciones admite cada uno, revisa [Fundamentos de Instagram DM]({% link _numbers/instagram-dm-fundamentals.md %}) y [Fundamentos de Facebook Messenger]({% link _numbers/facebook-messenger-fundamentals.md %}).
 
@@ -28,19 +28,15 @@ Usa un **código corto exclusivo** cuando envías mayor volumen o necesitas un c
 
 Si no sabes qué remitente SMS está disponible para tu cuenta, contacta a tu representante de Hellotext antes de crear la campaña, misión o ruta.
 
-## Antes de usar el canal
+## Antes de enviar
 
-Antes de lanzar una campaña, misión o ruta, o de empezar a responder desde un canal nuevo:
+Antes de lanzar una campaña, misión o ruta, confirma que:
 
-- Confirma que el canal esté conectado y activo. Para SMS, comprueba que tengas un remitente o código corto aprobado; para WhatsApp, que el número esté listo.
-- Verifica el consentimiento, estado de suscripción y destino apto para el mensaje saliente que planeas. El texto de suscripción debe explicar qué recibirá el cliente; tener una dirección o identidad de canal no demuestra consentimiento.
-- Prueba sólo la interacción que ese canal admite:
-  - **WhatsApp o SMS:** usa un perfil interno autorizado.
-  - **Correo electrónico:** comprueba el envío y la respuesta con una dirección propia.
-  - **Instagram DM o Messenger:** inicia una conversación desde una cuenta que controles.
-  - **Push:** verifica la suscripción en tu navegador y coordina una notificación de prueba con soporte.
-  - **Mercado Libre:** verifica una orden nueva y una conversación elegible; no envíes mensajes de prueba fuera de una operación.
-- Si el canal admite respuestas, confirma que lleguen al Inbox y al equipo que las atenderá. Revisa las opciones de baja cuando correspondan.
+- El remitente o código corto esté activo.
+- Probaste mensajes entrantes y salientes.
+- El texto de suscripción explica claramente a qué se están sumando los clientes.
+- Las respuestas están dirigidas a las personas que las van a atender.
+- Tu audiencia tiene consentimiento para el canal que vas a usar.
 
 ## Configuración relacionada
 
@@ -53,7 +49,6 @@ Antes de lanzar una campaña, misión o ruta, o de empezar a responder desde un 
 - [Conecta Facebook Messenger]({% link _integrations/connect-facebook-messenger.md %})
 - [Fundamentos de Facebook Messenger]({% link _numbers/facebook-messenger-fundamentals.md %})
 - [Conecta Mercado Libre]({% link _integrations/connect-mercado-libre.md %})
-- [Configura las notificaciones push]({% link _integrations/setup-push-notifications.md %})
 - [Conecta WhatsApp]({% link _integrations/connect-whatsapp.md %})
 - [A quién puedo escribirle: consentimiento y estado de suscripción]({% link _audience/consent-and-subscriber-status.md %})
 - [Resumen de herramientas de captura]({% link _captures/capture-overview.md %})
