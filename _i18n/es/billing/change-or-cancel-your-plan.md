@@ -12,7 +12,7 @@ Antes de cambiar, compara la página pública actual de [precios de Hellotext](h
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Comparador de planes de una cuenta ficticia">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 800px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 678px; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/billing/change-or-cancel-plan/chooser-es-mobile.png" width="1158" height="1610" />
         <img class="ht-editorial-visual__image" src="/images/billing/change-or-cancel-plan/chooser-es.png" width="1320" height="1870" loading="lazy" decoding="async" alt="Comparador con cinco planes, el plan Enterprise actual y el control de pago mensual o anual." />
@@ -30,7 +30,7 @@ En el comparador, **Siguiente** conduce a la revisión o al método de pago corr
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Resumen previo al siguiente paso de cambio de plan">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 800px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 718px; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/billing/change-or-cancel-plan/next-es-mobile.png" width="760" height="336" />
         <img class="ht-editorial-visual__image" src="/images/billing/change-or-cancel-plan/next-es.png" width="1400" height="236" loading="lazy" decoding="async" alt="Resumen ficticio de Grow con importe, impuestos aplicables y botón Siguiente, antes de confirmar el cambio." />
@@ -54,7 +54,7 @@ En el comparador, **Cancelar Suscripción** abre una confirmación cuando la cue
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Confirmación de cancelación sin ejecutar">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 800px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 587px; margin: 0 auto;">
       <img class="ht-editorial-visual__image" src="/images/billing/change-or-cancel-plan/cancel-es.png" width="1138" height="516" loading="lazy" decoding="async" alt="Confirmación ficticia de cancelación con fecha de vigencia del plan y botones Cancelar Suscripción y Cancelar." />
     </div>
   </div>
