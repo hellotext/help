@@ -44,13 +44,16 @@ For channel eligibility and consent, see [Who you can message]({% link _audience
 
 Use a distinct name for each placement when you need to compare results, such as `Newsletter footer` or `Wholesale inquiry page`.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Website Form">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Website Form in the playbook catalog">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 416px; margin: 0 auto;">
-      <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/desktop-form-en.png" width="800" height="480" loading="lazy" decoding="async" alt="Website Form in a fictional account." />
+    <div class="ht-editorial-visual__image-frame" style="max-width: 816px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/capture-overview/desktop-form-en.png" width="800" height="480" />
+        <img class="ht-editorial-visual__image" src="/images/captures/forms/en/catalog-desktop-row.png" width="1632" height="480" loading="lazy" decoding="async" alt="Website Form in the desktop catalog next to Website Popup; narrow screens show only the Website Form card." />
+      </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Website Form card in the fictional catalog desktop view.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Fictional desktop catalog grid; the narrow view keeps the Website Form card readable.</figcaption>
 </figure>
 
 ## Configure content and fields
