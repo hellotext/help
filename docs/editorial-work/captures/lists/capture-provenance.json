@@ -1,0 +1,619 @@
+{
+  "article_key": "audience/lists.md",
+  "record_date_utc": "2026-09-29",
+  "status": "native_sources_and_crops_locally_verified; public_publication_pending",
+  "source_capture": {
+    "tool": "macOS native /usr/sbin/screencapture -l pinned to the previously selected Chrome window ID; CGWindowList queried only that ID",
+    "window_id": 33329,
+    "chrome_pid": 18093,
+    "window_bounds_points_left_top_width_height": [
+      -1253,
+      88,
+      1253,
+      897
+    ],
+    "native_window_pixels": [
+      2506,
+      1794
+    ],
+    "native_scale": 2,
+    "browser_css_viewport_and_zoom": "Post-capture read-only verification on the same pinned window: 1253×841 CSS viewport, devicePixelRatio 2, visualViewport.scale 1; individual shots did not record browser zoom independently.",
+    "url_evidence": "Controlled CUA tab URL verified before and after capture. Native screenshot hides toolbar and has no URL pixels, so native URL OCR remains unverified.",
+    "account_and_fixture_reported_by_capture_operator": "design-system@example.test in isolated Enterprise clone hellotext_editorial_workload_20260928, business 5; zero deliverable contacts; visible names and contacts are fictitious demonstration data",
+    "chrome_bundle_id": "com.google.Chrome"
+  },
+  "crop_qa": "Fourteen public derivatives and fourteen selected native originals are retained. Every derivative was visually reviewed, pixel-checked against its source rectangle, confirmed Display P3 PNG, and verified byte-identical to the local production build. Both full guides were checked at 1280×900 and 390×844 with no horizontal overflow; all figures retain at least 2× source density at both widths. The debugger banner, timing badge, pointer and wrong menu hover are outside retained crops.",
+  "records": [
+    {
+      "state": "audience-menu",
+      "locale": "es",
+      "source_route_controlled_tab_pre_and_post_capture": "http://127.0.0.1:3191/hellotext/audience",
+      "native_url_ocr_status": "CANDIDATE_URL_OCR_UNVERIFIED_REVIEW_REQUIRED",
+      "visible_state": "Audience + menu open, before selecting New List / Nueva Lista",
+      "source_tmp_path": "/private/tmp/hellotext-lists-audience-menu-es-clean-20260929.png",
+      "original": "docs/editorial-work/captures/lists/audience-menu-es-original.png",
+      "original_sha256": "d90cb4d2096f82ef2555d454ba875780cdaeac035671ec72b00113c86b3bc7e5",
+      "original_pixels": [
+        2506,
+        1794
+      ],
+      "original_format": "PNG 8-bit RGBA",
+      "original_embedded_icc": "Display P3",
+      "capture_window_title": "Todos los contactos de Enterprise - Hellotext",
+      "derivatives": [
+        {
+          "asset": "images/audience/lists/audience-menu-es.png",
+          "role": "main focused lower menu: New Segment, New List, and complete + trigger; upper hover and horizontal separator excluded",
+          "source_rectangle_px_left_top_right_bottom_exclusive": [
+            1860,
+            1525,
+            2480,
+            1780
+          ],
+          "pixels": [
+            620,
+            255
+          ],
+          "maximum_css_width_for_2x_density": 310,
+          "format": "PNG 8-bit RGBA",
+          "embedded_icc": "Display P3",
+          "transformation": "sips --cropToHeightWidth with --cropOffset; rectangular crop only, no resampling or generated pixels",
+          "pixel_exact_source_rectangle_rgba8": true,
+          "sha256": "377248f82105efce483f9fc03831367e5a9dc5ef4695d6072bfd9ccc73b98ccb",
+          "article_and_served_asset_review": "ES/EN full-page desktop/mobile and local production-built asset verified 2026-09-29; public deployment pending"
+        }
+      ]
+    },
+    {
+      "state": "audience-menu",
+      "locale": "en",
+      "source_route_controlled_tab_pre_and_post_capture": "http://127.0.0.1:3191/hellotext/audience",
+      "native_url_ocr_status": "CANDIDATE_URL_OCR_UNVERIFIED_REVIEW_REQUIRED",
+      "visible_state": "Audience + menu open, before selecting New List / Nueva Lista",
+      "source_tmp_path": "/private/tmp/hellotext-lists-audience-menu-en-20260929.png",
+      "original": "docs/editorial-work/captures/lists/audience-menu-en-original.png",
+      "original_sha256": "fbbc1b458fb5b0a182dc9d8514e329441ec2e76c08b52ff7eb1f668cb1ed9ab8",
+      "original_pixels": [
+        2506,
+        1794
+      ],
+      "original_format": "PNG 8-bit RGBA",
+      "original_embedded_icc": "Display P3",
+      "capture_window_title": "View all Enterprise contacts - Hellotext",
+      "derivatives": [
+        {
+          "asset": "images/audience/lists/audience-menu-en.png",
+          "role": "main focused lower menu: New Segment, New List, and complete + trigger; upper hover and horizontal separator excluded",
+          "source_rectangle_px_left_top_right_bottom_exclusive": [
+            1860,
+            1525,
+            2480,
+            1780
+          ],
+          "pixels": [
+            620,
+            255
+          ],
+          "maximum_css_width_for_2x_density": 310,
+          "format": "PNG 8-bit RGBA",
+          "embedded_icc": "Display P3",
+          "transformation": "sips --cropToHeightWidth with --cropOffset; rectangular crop only, no resampling or generated pixels",
+          "pixel_exact_source_rectangle_rgba8": true,
+          "sha256": "7e7fe24bfebb4833361fb7d977246d3c009aada4ceef22b6630970e294fb087e",
+          "article_and_served_asset_review": "ES/EN full-page desktop/mobile and local production-built asset verified 2026-09-29; public deployment pending"
+        }
+      ]
+    },
+    {
+      "state": "new-list",
+      "locale": "es",
+      "source_route_controlled_tab_pre_and_post_capture": "http://127.0.0.1:3191/hellotext/audience",
+      "native_url_ocr_status": "CANDIDATE_URL_OCR_UNVERIFIED_REVIEW_REQUIRED",
+      "visible_state": "Unsaved new-list form with a synthetic example name; Save not pressed; source retained as a deferred candidate because the editor shows the same name control",
+      "source_tmp_path": "/private/tmp/hellotext-lists-new-list-es-clean-20260929.png",
+      "original": "docs/editorial-work/captures/lists/new-list-es-original.png",
+      "original_sha256": "da67d218d8e89f5dc84403d5ec94ffe3d29fb39ac0aa816a14d65194f7cfca33",
+      "original_pixels": [
+        2506,
+        1794
+      ],
+      "original_format": "PNG 8-bit RGBA",
+      "original_embedded_icc": "Display P3",
+      "capture_window_title": "Todos los contactos de Enterprise - Hellotext",
+      "derivatives": [],
+      "derivative_decision": "No public derivative in this batch: the new-list form repeats the name field in the retained list-editor figure; clean native source preserved for future review."
+    },
+    {
+      "state": "new-list",
+      "locale": "en",
+      "source_route_controlled_tab_pre_and_post_capture": "http://127.0.0.1:3191/hellotext/audience",
+      "native_url_ocr_status": "CANDIDATE_URL_OCR_UNVERIFIED_REVIEW_REQUIRED",
+      "visible_state": "Unsaved new-list form with a synthetic example name; Save not pressed; source retained as a deferred candidate because the editor shows the same name control",
+      "source_tmp_path": "/private/tmp/hellotext-lists-new-list-en-20260929.png",
+      "original": "docs/editorial-work/captures/lists/new-list-en-original.png",
+      "original_sha256": "51f20c288b4465a1bee45ac720f7d01ab42dd879995b0257f65fe530e354b2f9",
+      "original_pixels": [
+        2506,
+        1794
+      ],
+      "original_format": "PNG 8-bit RGBA",
+      "original_embedded_icc": "Display P3",
+      "capture_window_title": "View all Enterprise contacts - Hellotext",
+      "derivatives": [],
+      "derivative_decision": "No public derivative in this batch: the new-list form repeats the name field in the retained list-editor figure; clean native source preserved for future review."
+    },
+    {
+      "state": "profile-list-picker",
+      "locale": "es",
+      "source_route_controlled_tab_pre_and_post_capture": "http://127.0.0.1:3191/hellotext/audience/29D7LZXk",
+      "native_url_ocr_status": "CANDIDATE_URL_OCR_UNVERIFIED_REVIEW_REQUIRED",
+      "visible_state": "Fictitious Camila Torres profile with Lists search picker open; no item selected",
+      "source_tmp_path": "/private/tmp/hellotext-lists-profile-list-picker-es-20260929.png",
+      "original": "docs/editorial-work/captures/lists/profile-list-picker-es-original.png",
+      "original_sha256": "503409ca2b78504e19c72ace237f8b79fe98015f5af5193ff5043ffc1de3dcad",
+      "original_pixels": [
+        2506,
+        1794
+      ],
+      "original_format": "PNG 8-bit RGBA",
+      "original_embedded_icc": "Display P3",
+      "capture_window_title": "Todos los contactos de Enterprise - Hellotext",
+      "derivatives": [
+        {
+          "asset": "images/audience/lists/profile-list-picker-es.png",
+          "role": "main: focused Lists search and two choices",
+          "source_rectangle_px_left_top_right_bottom_exclusive": [
+            1948,
+            945,
+            2450,
+            1500
+          ],
+          "pixels": [
+            502,
+            555
+          ],
+          "maximum_css_width_for_2x_density": 251.0,
+          "format": "PNG 8-bit RGBA",
+          "embedded_icc": "Display P3",
+          "transformation": "sips --cropToHeightWidth with --cropOffset; rectangular crop only, no resampling or generated pixels",
+          "pixel_exact_source_rectangle_rgba8": true,
+          "sha256": "89eb3bcfd2d01094dc4ed02bad6f7e2d845abe8151322bba404f565295af792c",
+          "article_and_served_asset_review": "ES/EN full-page desktop/mobile and local production-built asset verified 2026-09-29; public deployment pending"
+        }
+      ]
+    },
+    {
+      "state": "profile-list-picker",
+      "locale": "en",
+      "source_route_controlled_tab_pre_and_post_capture": "http://127.0.0.1:3191/hellotext/audience/29D7LZXk",
+      "native_url_ocr_status": "CANDIDATE_URL_OCR_UNVERIFIED_REVIEW_REQUIRED",
+      "visible_state": "Fictitious Camila Torres profile with Lists search picker open; no item selected",
+      "source_tmp_path": "/private/tmp/hellotext-lists-profile-list-picker-en-20260929.png",
+      "original": "docs/editorial-work/captures/lists/profile-list-picker-en-original.png",
+      "original_sha256": "32ca21e03d5f9f752e3c74c4566da5e613a7042330cf2c6e917964725ab509f2",
+      "original_pixels": [
+        2506,
+        1794
+      ],
+      "original_format": "PNG 8-bit RGBA",
+      "original_embedded_icc": "Display P3",
+      "capture_window_title": "View all Enterprise contacts - Hellotext",
+      "derivatives": [
+        {
+          "asset": "images/audience/lists/profile-list-picker-en.png",
+          "role": "main: focused Lists search and two choices",
+          "source_rectangle_px_left_top_right_bottom_exclusive": [
+            1948,
+            945,
+            2450,
+            1500
+          ],
+          "pixels": [
+            502,
+            555
+          ],
+          "maximum_css_width_for_2x_density": 251.0,
+          "format": "PNG 8-bit RGBA",
+          "embedded_icc": "Display P3",
+          "transformation": "sips --cropToHeightWidth with --cropOffset; rectangular crop only, no resampling or generated pixels",
+          "pixel_exact_source_rectangle_rgba8": true,
+          "sha256": "5f57618856feb5d1683e9403a7115c50fc40c31d88e03b0d4a06e8789336d311",
+          "article_and_served_asset_review": "ES/EN full-page desktop/mobile and local production-built asset verified 2026-09-29; public deployment pending"
+        }
+      ]
+    },
+    {
+      "state": "bulk-lists",
+      "locale": "es",
+      "source_route_controlled_tab_pre_and_post_capture": "http://127.0.0.1:3191/hellotext/audience",
+      "native_url_ocr_status": "CANDIDATE_URL_OCR_UNVERIFIED_REVIEW_REQUIRED",
+      "visible_state": "Two fictitious rows selected in Audience with Multiple selection pane and Lists property visible; no change applied",
+      "source_tmp_path": "/private/tmp/hellotext-lists-bulk-lists-es-20260929.png",
+      "original": "docs/editorial-work/captures/lists/bulk-lists-es-original.png",
+      "original_sha256": "20be9719acb9acc0a950ca2c99777423356bbf64aceee4f42b56e244300ae6b3",
+      "original_pixels": [
+        2506,
+        1794
+      ],
+      "original_format": "PNG 8-bit RGBA",
+      "original_embedded_icc": "Display P3",
+      "capture_window_title": "Todos los contactos de Enterprise - Hellotext",
+      "derivatives": [
+        {
+          "asset": "images/audience/lists/bulk-lists-es.png",
+          "role": "main narrow-page pane: two-customer selection count and complete Lists property; selected rows shown in confirmation context",
+          "source_rectangle_px_left_top_right_bottom_exclusive": [
+            1880,
+            603,
+            2450,
+            1350
+          ],
+          "pixels": [
+            570,
+            747
+          ],
+          "maximum_css_width_for_2x_density": 285.0,
+          "format": "PNG 8-bit RGBA",
+          "embedded_icc": "Display P3",
+          "transformation": "sips --cropToHeightWidth with --cropOffset; rectangular crop only, no resampling or generated pixels",
+          "pixel_exact_source_rectangle_rgba8": true,
+          "sha256": "23e31b7a902c2cbb696f9c66780fcb8551b1554a0325f19d161f4eb36b457bd6",
+          "article_and_served_asset_review": "ES/EN full-page desktop/mobile and local production-built asset verified 2026-09-29; public deployment pending"
+        }
+      ]
+    },
+    {
+      "state": "bulk-lists",
+      "locale": "en",
+      "source_route_controlled_tab_pre_and_post_capture": "http://127.0.0.1:3191/hellotext/audience",
+      "native_url_ocr_status": "CANDIDATE_URL_OCR_UNVERIFIED_REVIEW_REQUIRED",
+      "visible_state": "Two fictitious rows selected in Audience with Multiple selection pane and Lists property visible; no change applied",
+      "source_tmp_path": "/private/tmp/hellotext-lists-bulk-lists-en-20260929.png",
+      "original": "docs/editorial-work/captures/lists/bulk-lists-en-original.png",
+      "original_sha256": "e7667836d8896955418514191d491dcf9d6ef08e5c5144b2a65795e96a87ebd6",
+      "original_pixels": [
+        2506,
+        1794
+      ],
+      "original_format": "PNG 8-bit RGBA",
+      "original_embedded_icc": "Display P3",
+      "capture_window_title": "View all Enterprise contacts - Hellotext",
+      "derivatives": [
+        {
+          "asset": "images/audience/lists/bulk-lists-en.png",
+          "role": "main narrow-page pane: two-customer selection count and complete Lists property; selected rows shown in confirmation context",
+          "source_rectangle_px_left_top_right_bottom_exclusive": [
+            1880,
+            603,
+            2450,
+            1350
+          ],
+          "pixels": [
+            570,
+            747
+          ],
+          "maximum_css_width_for_2x_density": 285.0,
+          "format": "PNG 8-bit RGBA",
+          "embedded_icc": "Display P3",
+          "transformation": "sips --cropToHeightWidth with --cropOffset; rectangular crop only, no resampling or generated pixels",
+          "pixel_exact_source_rectangle_rgba8": true,
+          "sha256": "54db80a6c319d144b59641bbfa81d69d9cd08d51f71fcaef31255293090fd979",
+          "article_and_served_asset_review": "ES/EN full-page desktop/mobile and local production-built asset verified 2026-09-29; public deployment pending"
+        }
+      ]
+    },
+    {
+      "state": "bulk-confirmation",
+      "locale": "es",
+      "source_route_controlled_tab_pre_and_post_capture": "http://127.0.0.1:3191/hellotext/audience",
+      "native_url_ocr_status": "CANDIDATE_URL_OCR_UNVERIFIED_REVIEW_REQUIRED",
+      "visible_state": "Staged addition to an existing synthetic list shown in pre-apply confirmation; Apply not pressed",
+      "source_tmp_path": "/private/tmp/hellotext-lists-bulk-confirmation-es-20260929.png",
+      "original": "docs/editorial-work/captures/lists/bulk-confirmation-es-original.png",
+      "original_sha256": "e44e3efc9875a2c18bc65fc9e6c98ec872f2dac2d531fc150d4fd613020925ca",
+      "original_pixels": [
+        2506,
+        1794
+      ],
+      "original_format": "PNG 8-bit RGBA",
+      "original_embedded_icc": "Display P3",
+      "capture_window_title": "Todos los contactos de Enterprise - Hellotext",
+      "derivatives": [
+        {
+          "asset": "images/audience/lists/bulk-confirmation-es.png",
+          "role": "main: complete pre-apply confirmation and selected-row context",
+          "source_rectangle_px_left_top_right_bottom_exclusive": [
+            570,
+            580,
+            1800,
+            1400
+          ],
+          "pixels": [
+            1230,
+            820
+          ],
+          "maximum_css_width_for_2x_density": 615.0,
+          "format": "PNG 8-bit RGBA",
+          "embedded_icc": "Display P3",
+          "transformation": "sips --cropToHeightWidth with --cropOffset; rectangular crop only, no resampling or generated pixels",
+          "pixel_exact_source_rectangle_rgba8": true,
+          "sha256": "b7f656ad0d353a33f786e028636db1192941460e5bc6d5700bc905e917414de8",
+          "article_and_served_asset_review": "ES/EN full-page desktop/mobile and local production-built asset verified 2026-09-29; public deployment pending"
+        }
+      ]
+    },
+    {
+      "state": "bulk-confirmation",
+      "locale": "en",
+      "source_route_controlled_tab_pre_and_post_capture": "http://127.0.0.1:3191/hellotext/audience",
+      "native_url_ocr_status": "CANDIDATE_URL_OCR_UNVERIFIED_REVIEW_REQUIRED",
+      "visible_state": "Staged addition to an existing synthetic list shown in pre-apply confirmation; Apply not pressed",
+      "source_tmp_path": "/private/tmp/hellotext-lists-bulk-confirmation-en-20260929.png",
+      "original": "docs/editorial-work/captures/lists/bulk-confirmation-en-original.png",
+      "original_sha256": "aff469d52a1f60479ba36a3874dba4f49490f560a3e5c374e15ce952ea63f907",
+      "original_pixels": [
+        2506,
+        1794
+      ],
+      "original_format": "PNG 8-bit RGBA",
+      "original_embedded_icc": "Display P3",
+      "capture_window_title": "View all Enterprise contacts - Hellotext",
+      "derivatives": [
+        {
+          "asset": "images/audience/lists/bulk-confirmation-en.png",
+          "role": "main: complete pre-apply confirmation and selected-row context",
+          "source_rectangle_px_left_top_right_bottom_exclusive": [
+            570,
+            580,
+            1800,
+            1400
+          ],
+          "pixels": [
+            1230,
+            820
+          ],
+          "maximum_css_width_for_2x_density": 615.0,
+          "format": "PNG 8-bit RGBA",
+          "embedded_icc": "Display P3",
+          "transformation": "sips --cropToHeightWidth with --cropOffset; rectangular crop only, no resampling or generated pixels",
+          "pixel_exact_source_rectangle_rgba8": true,
+          "sha256": "558da6752510b71119dcae159e445d46bb6469a285393ee7e8b803c40a4f9e0d",
+          "article_and_served_asset_review": "ES/EN full-page desktop/mobile and local production-built asset verified 2026-09-29; public deployment pending"
+        }
+      ]
+    },
+    {
+      "state": "list-editor",
+      "locale": "es",
+      "source_route_controlled_tab_pre_and_post_capture": "http://127.0.0.1:3191/hellotext/audience/lists/w0NjJNYl",
+      "native_url_ocr_status": "CANDIDATE_URL_OCR_UNVERIFIED_REVIEW_REQUIRED",
+      "visible_state": "Existing synthetic manual list editor open with editable name and trash control; no save or delete performed",
+      "source_tmp_path": "/private/tmp/hellotext-lists-list-editor-es-20260929.png",
+      "original": "docs/editorial-work/captures/lists/list-editor-es-original.png",
+      "original_sha256": "0a9ea67d5d00f6736b2ccd3d5005b59cf2e180378280aa3059ddb33bc6491036",
+      "original_pixels": [
+        2506,
+        1794
+      ],
+      "original_format": "PNG 8-bit RGBA",
+      "original_embedded_icc": "Display P3",
+      "capture_window_title": "Todos los contactos de Enterprise - Hellotext",
+      "derivatives": [
+        {
+          "asset": "images/audience/lists/list-editor-name-es.png",
+          "role": "main focused rename figure: localized editor title and complete synthetic list name field",
+          "source_rectangle_px_left_top_right_bottom_exclusive": [
+            1610,
+            135,
+            2490,
+            410
+          ],
+          "pixels": [
+            880,
+            275
+          ],
+          "maximum_css_width_for_2x_density": 440.0,
+          "format": "PNG 8-bit RGBA",
+          "embedded_icc": "Display P3",
+          "transformation": "sips --cropToHeightWidth with --cropOffset; rectangular crop only, no resampling or generated pixels",
+          "pixel_exact_source_rectangle_rgba8": true,
+          "sha256": "e76a8eedcfefb36e124231c95726bde69a95c85077cc60cb19c02c72e6ebe5e5",
+          "article_and_served_asset_review": "ES/EN full-page desktop/mobile and local production-built asset verified 2026-09-29; public deployment pending"
+        },
+        {
+          "asset": "images/audience/lists/list-editor-actions-es.png",
+          "role": "main focused delete figure: complete footer Save, Cancel, and trash controls",
+          "source_rectangle_px_left_top_right_bottom_exclusive": [
+            1605,
+            1580,
+            2506,
+            1794
+          ],
+          "pixels": [
+            901,
+            214
+          ],
+          "maximum_css_width_for_2x_density": 450.5,
+          "format": "PNG 8-bit RGBA",
+          "embedded_icc": "Display P3",
+          "transformation": "sips --cropToHeightWidth with --cropOffset; rectangular crop only, no resampling or generated pixels",
+          "pixel_exact_source_rectangle_rgba8": true,
+          "sha256": "2e0a8eb88d1964dee5a46d8b48fec6582595220ae336ade63472ae5b85073bcb",
+          "article_and_served_asset_review": "ES/EN full-page desktop/mobile and local production-built asset verified 2026-09-29; public deployment pending"
+        }
+      ]
+    },
+    {
+      "state": "list-editor",
+      "locale": "en",
+      "source_route_controlled_tab_pre_and_post_capture": "http://127.0.0.1:3191/hellotext/audience/lists/w0NjJNYl",
+      "native_url_ocr_status": "CANDIDATE_URL_OCR_UNVERIFIED_REVIEW_REQUIRED",
+      "visible_state": "Existing synthetic manual list editor open with editable name and trash control; no save or delete performed",
+      "source_tmp_path": "/private/tmp/hellotext-lists-list-editor-en-20260929.png",
+      "original": "docs/editorial-work/captures/lists/list-editor-en-original.png",
+      "original_sha256": "f8764ed70664f224fb6df3e911db04f809f58290e95e48407ff6cc438ea664fe",
+      "original_pixels": [
+        2506,
+        1794
+      ],
+      "original_format": "PNG 8-bit RGBA",
+      "original_embedded_icc": "Display P3",
+      "capture_window_title": "View all Enterprise contacts - Hellotext",
+      "derivatives": [
+        {
+          "asset": "images/audience/lists/list-editor-name-en.png",
+          "role": "main focused rename figure: localized editor title and complete synthetic list name field",
+          "source_rectangle_px_left_top_right_bottom_exclusive": [
+            1610,
+            135,
+            2490,
+            410
+          ],
+          "pixels": [
+            880,
+            275
+          ],
+          "maximum_css_width_for_2x_density": 440.0,
+          "format": "PNG 8-bit RGBA",
+          "embedded_icc": "Display P3",
+          "transformation": "sips --cropToHeightWidth with --cropOffset; rectangular crop only, no resampling or generated pixels",
+          "pixel_exact_source_rectangle_rgba8": true,
+          "sha256": "6fc220b2700ce185f68d0248e5d0de606f11a9abb0d1702dd8eda7124b784649",
+          "article_and_served_asset_review": "ES/EN full-page desktop/mobile and local production-built asset verified 2026-09-29; public deployment pending"
+        },
+        {
+          "asset": "images/audience/lists/list-editor-actions-en.png",
+          "role": "main focused delete figure: complete footer Save, Cancel, and trash controls",
+          "source_rectangle_px_left_top_right_bottom_exclusive": [
+            1605,
+            1580,
+            2506,
+            1794
+          ],
+          "pixels": [
+            901,
+            214
+          ],
+          "maximum_css_width_for_2x_density": 450.5,
+          "format": "PNG 8-bit RGBA",
+          "embedded_icc": "Display P3",
+          "transformation": "sips --cropToHeightWidth with --cropOffset; rectangular crop only, no resampling or generated pixels",
+          "pixel_exact_source_rectangle_rgba8": true,
+          "sha256": "9c96f43bbc2644cd83f4917f109299a78693551663bbe98a72cec20bd92ada65",
+          "article_and_served_asset_review": "ES/EN full-page desktop/mobile and local production-built asset verified 2026-09-29; public deployment pending"
+        }
+      ]
+    },
+    {
+      "state": "delete-confirmation",
+      "locale": "es",
+      "source_route_controlled_tab_pre_and_post_capture": "http://127.0.0.1:3191/hellotext/audience/lists/w0NjJNYl",
+      "native_url_ocr_status": "CANDIDATE_URL_OCR_UNVERIFIED_REVIEW_REQUIRED",
+      "visible_state": "Existing synthetic list pre-delete confirmation open; Delete not pressed",
+      "source_tmp_path": "/private/tmp/hellotext-lists-delete-confirmation-es-20260929.png",
+      "original": "docs/editorial-work/captures/lists/delete-confirmation-es-original.png",
+      "original_sha256": "00984d53138e3dcec5d3ba3474771ed22fa4eede1f2987d852a147c5d67875c4",
+      "original_pixels": [
+        2506,
+        1794
+      ],
+      "original_format": "PNG 8-bit RGBA",
+      "original_embedded_icc": "Display P3",
+      "capture_window_title": "Todos los contactos de Enterprise - Hellotext",
+      "derivatives": [
+        {
+          "asset": "images/audience/lists/delete-confirmation-es.png",
+          "role": "main: complete pre-delete confirmation",
+          "source_rectangle_px_left_top_right_bottom_exclusive": [
+            775,
+            735,
+            1730,
+            1180
+          ],
+          "pixels": [
+            955,
+            445
+          ],
+          "maximum_css_width_for_2x_density": 477.5,
+          "format": "PNG 8-bit RGBA",
+          "embedded_icc": "Display P3",
+          "transformation": "sips --cropToHeightWidth with --cropOffset; rectangular crop only, no resampling or generated pixels",
+          "pixel_exact_source_rectangle_rgba8": true,
+          "sha256": "d8b0b06389651ab492a44b65e58e0d215ba5ba9b03bfb89845f980e774088da0",
+          "article_and_served_asset_review": "ES/EN full-page desktop/mobile and local production-built asset verified 2026-09-29; public deployment pending"
+        }
+      ]
+    },
+    {
+      "state": "delete-confirmation",
+      "locale": "en",
+      "source_route_controlled_tab_pre_and_post_capture": "http://127.0.0.1:3191/hellotext/audience/lists/w0NjJNYl",
+      "native_url_ocr_status": "CANDIDATE_URL_OCR_UNVERIFIED_REVIEW_REQUIRED",
+      "visible_state": "Existing synthetic list pre-delete confirmation open; Delete not pressed",
+      "source_tmp_path": "/private/tmp/hellotext-lists-delete-confirmation-en-20260929.png",
+      "original": "docs/editorial-work/captures/lists/delete-confirmation-en-original.png",
+      "original_sha256": "90658b1ee095bb8f2f97bb5d36699bcbf7b6385d23c514ef01d5af1f0795afe4",
+      "original_pixels": [
+        2506,
+        1794
+      ],
+      "original_format": "PNG 8-bit RGBA",
+      "original_embedded_icc": "Display P3",
+      "capture_window_title": "View all Enterprise contacts - Hellotext",
+      "derivatives": [
+        {
+          "asset": "images/audience/lists/delete-confirmation-en.png",
+          "role": "main: complete pre-delete confirmation",
+          "source_rectangle_px_left_top_right_bottom_exclusive": [
+            775,
+            735,
+            1730,
+            1180
+          ],
+          "pixels": [
+            955,
+            445
+          ],
+          "maximum_css_width_for_2x_density": 477.5,
+          "format": "PNG 8-bit RGBA",
+          "embedded_icc": "Display P3",
+          "transformation": "sips --cropToHeightWidth with --cropOffset; rectangular crop only, no resampling or generated pixels",
+          "pixel_exact_source_rectangle_rgba8": true,
+          "sha256": "95a94fa96a03c21083bd981e37758a9b3b493d435f06cb670383529178e1d3d8",
+          "article_and_served_asset_review": "ES/EN full-page desktop/mobile and local production-built asset verified 2026-09-29; public deployment pending"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "The capture helper reported CANDIDATE_URL_OCR_UNVERIFIED_REVIEW_REQUIRED for every source because the native window did not show the URL.",
+    "The compact profile picker crop ends immediately after the rounded choice panel to exclude the unrelated next property; review its lower edge in the full rendered article.",
+    "The two focused editor crops split the original pane into name and footer controls; neither crop demonstrates a saved rename or deletion.",
+    "The bulk-lists closeup shows the two-customer selection count and Lists control. The separate confirmation crop shows selected fictitious rows and the staged list change.",
+    "The native bulk and delete confirmation screenshots show authentic application row and pane separator lines behind the rounded modals; these are not crop, resampling, or image-editing artifacts. Tighter rectangular crops were rejected because they still included lines or cut the complete modal border/shadow; a new UI capture over a cleaner background is needed if those lines are unacceptable in the rendered guide."
+  ],
+  "final_public_derivative_count": 14,
+  "native_original_count": 14,
+  "local_article_review": {
+    "date_utc": "2026-09-29",
+    "languages": [
+      "es",
+      "en"
+    ],
+    "viewports_css": [
+      [
+        1280,
+        900
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "build": "yarn build passed with Ruby 3.3.6; security headers verified",
+    "figures_per_language": 7,
+    "stage_and_density": "Full Help column lavender stage and inset white frame; no horizontal overflow; each native crop at least 2× final rendered width",
+    "built_asset_bytes": "All 14 _site image bytes SHA-256 identical to source assets",
+    "public_deployment": "pending"
+  }
+}
