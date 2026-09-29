@@ -1719,7 +1719,16 @@ html[lang="es"] .home-hero h1 {
   margin: 0 auto;
 }
 
+.guide-content > figure.ht-editorial-visual--campaign-tabs .ht-editorial-visual__image-frame {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
 @media (max-width: 600px) {
+  .guide-content > figure.ht-editorial-visual--campaign-tabs .ht-editorial-visual__image-frame {
+    max-width: 205px;
+  }
+
   .guide-content > figure.ht-editorial-visual--campaign-audience-limit .ht-editorial-visual__image-frame {
     max-width: 225px;
   }

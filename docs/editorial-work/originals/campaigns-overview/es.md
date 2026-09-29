@@ -29,24 +29,12 @@ Sigue leyendo: [Cómo funciona Hellotext]({% link _getting-started/how-hellotext
 ## Cómo avanza una campaña en Hellotext
 
 1. **Borrador:** elige los canales, la audiencia, el contenido y el momento de entrega. Puedes guardarla y volver antes de enviarla.
-2. **Revisión:** según el target y las plantillas, la campaña puede requerir revisión editorial. El contenido nuevo o modificado de WhatsApp también puede necesitar aprobación de Meta.
+2. **Revisión:** las campañas más grandes requieren revisión editorial, y el contenido nuevo o modificado de plantillas de WhatsApp también puede necesitar aprobación de Meta.
 3. **Programada o enviándose:** una campaña aprobada espera el momento elegido o comienza la entrega.
 4. **Enviada:** los resultados aparecen en el reporte generado automáticamente. Un envío activo puede pausarse y reanudarse cuando sea necesario.
 5. **Archivada:** mueve una campaña terminada fuera de la lista activa de Enviadas sin borrar su historial.
 
 La página Campañas organiza este ciclo en las pestañas **Programadas**, **Enviadas**, **Borradores** y **Archivadas**. Una campaña puede aparecer en Programadas mientras sigue en revisión o se prepara para enviar.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--campaign-tabs" aria-label="Pestañas del ciclo de una campaña">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/campaigns/campaigns-overview/campaign-tabs-es-mobile.png" width="520" height="130" />
-        <img class="ht-editorial-visual__image" src="/images/campaigns/campaigns-overview/campaign-tabs-es.png" width="1280" height="150" loading="lazy" decoding="async" alt="Pestañas Programadas, Enviadas, Borradores y Archivadas de Campañas, con Borradores seleccionada." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Interfaz de una cuenta ficticia. El recorte móvil enfoca Enviadas y Borradores; las demás pestañas se nombran en el texto.</figcaption>
-</figure>
 
 ## Prepara lo esencial
 
@@ -72,18 +60,6 @@ La campaña es el lanzamiento saliente; el Inbox es donde continúan las convers
 ## Mide el resultado automáticamente
 
 Hellotext crea el reporte de campaña después de la entrega. Úsalo para revisar entrega, clicks rastreados, conversión, ROI, compras e ingresos atribuidos, actividad de clientes y rendimiento por canal cuando esté disponible.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Embudo de entrega de un reporte de campaña">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 800px; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-es-mobile.png" width="754" height="820" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-es.png" width="1560" height="880" loading="lazy" decoding="async" alt="Embudo de demostración con las etapas Enviado, Entregado, Interacción y Conversión de un reporte de campaña." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Captura aprobada de Reportes de campaña con datos ficticios; no se envió una campaña para esta guía.</figcaption>
-</figure>
 
 Sigue leyendo: [Reportes de campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %}).
 

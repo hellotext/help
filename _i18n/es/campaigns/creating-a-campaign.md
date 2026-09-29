@@ -126,7 +126,7 @@ La pantalla de confirmación es la última oportunidad de detectar una audiencia
 
 ## Entiende la revisión de campañas
 
-Las campañas dirigidas a por lo menos 100 clientes requieren revisión editorial. Una campaña de WhatsApp también puede esperar a Meta cuando su plantilla todavía no fue aprobada.
+Las campañas dirigidas a por lo menos 100 clientes pueden requerir revisión editorial. Una plantilla de WhatsApp ya aprobada puede omitir esa revisión incluso con esa cantidad de destinatarios. Una campaña de WhatsApp también puede esperar a Meta cuando su plantilla todavía no fue aprobada.
 
 Mientras la revisión está pendiente, la campaña aparece como **En revisión** o **WhatsApp en revisión**. Una vez aprobada, sigue el horario de entrega elegido. Si el equipo de revisión o Meta rechazan el contenido, abre la campaña, revisa el feedback, realiza los cambios solicitados y vuelve a enviarla.
 

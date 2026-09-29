@@ -1,0 +1,83 @@
+{
+  "article_key": "campaigns/campaigns-overview.md",
+  "capture_date_utc": "2026-09-29",
+  "status": "local_verified",
+  "route": "isolated headless Chrome compositor via CDP Page.captureScreenshot",
+  "database": "hellotext_editorial_workload_20260928 local clone, business 5, zero messageable contacts",
+  "account": "design-system@example.test fictional owner; locale changed es -> en -> es with exact clone guard",
+  "safety": "Only the GET Draft campaigns index was opened. No campaign was created, saved, tested, scheduled or sent. No customer record or personal browser tab was captured.",
+  "guard": "Capture tool checked the dedicated Chrome PID/profile, loopback CDP port, single local tab, exact URL/title/locale/account/control, CSS viewport, zoom 1, DPR 2, stable pre/post state, PNG encoding and embedded Display P3.",
+  "source_transform": "direct compositor crop; assets are byte copies of sources without pixel edits or resampling",
+  "records": [
+    {
+      "section": "campaign_lifecycle_tabs",
+      "locale": "es",
+      "variant": "desktop",
+      "source": "docs/editorial-work/captures/campaigns-overview/campaign-tabs-es-original.png",
+      "asset": "images/campaigns/campaigns-overview/campaign-tabs-es.png",
+      "sha256": "4fee93ea6e84904c685433ebb74c1209f722615ba385a02878ea2138a099d821",
+      "source_url": "http://127.0.0.1:3191/hellotext/campaigns/draft",
+      "css_viewport": [1200, 900],
+      "css_clip": [45, 397, 640, 75],
+      "page_scroll": [0, 0],
+      "source_pixels": [1280, 150],
+      "source_density": 2,
+      "icc": "Display P3",
+      "visible_state": "All four Spanish campaign tabs; Borradores selected"
+    },
+    {
+      "section": "campaign_lifecycle_tabs",
+      "locale": "es",
+      "variant": "mobile_focus",
+      "source": "docs/editorial-work/captures/campaigns-overview/campaign-tabs-es-mobile-original.png",
+      "asset": "images/campaigns/campaigns-overview/campaign-tabs-es-mobile.png",
+      "sha256": "6dc24ada12592cd5172744dbed33dffef29763135795945a15c96d900ca2532b",
+      "source_url": "http://127.0.0.1:3191/hellotext/campaigns/draft",
+      "css_viewport": [390, 844],
+      "css_clip": [0, 397, 260, 65],
+      "page_scroll": [143, 0],
+      "source_pixels": [520, 130],
+      "source_density": 2,
+      "icc": "Display P3",
+      "visible_state": "Complete Enviadas and Borradores labels; Borradores selected; other tabs explained by adjacent text"
+    },
+    {
+      "section": "campaign_lifecycle_tabs",
+      "locale": "en",
+      "variant": "desktop",
+      "source": "docs/editorial-work/captures/campaigns-overview/campaign-tabs-en-original.png",
+      "asset": "images/campaigns/campaigns-overview/campaign-tabs-en.png",
+      "sha256": "ff3ce9fa3f9a8cd7ab9ba94cd666765e3866b0dd8977fc7bcbebcfea77d5f6f3",
+      "source_url": "http://127.0.0.1:3191/hellotext/campaigns/draft",
+      "css_viewport": [1200, 900],
+      "css_clip": [45, 397, 640, 75],
+      "page_scroll": [0, 0],
+      "source_pixels": [1280, 150],
+      "source_density": 2,
+      "icc": "Display P3",
+      "visible_state": "All four English campaign tabs; Draft selected"
+    },
+    {
+      "section": "campaign_lifecycle_tabs",
+      "locale": "en",
+      "variant": "mobile_focus",
+      "source": "docs/editorial-work/captures/campaigns-overview/campaign-tabs-en-mobile-original.png",
+      "asset": "images/campaigns/campaigns-overview/campaign-tabs-en-mobile.png",
+      "sha256": "9caa365b4fbd7f7692f7e5f50b755f7dfae217146152e0b63ae6c54a257e941b",
+      "source_url": "http://127.0.0.1:3191/hellotext/campaigns/draft",
+      "css_viewport": [390, 844],
+      "css_clip": [135, 397, 205, 65],
+      "page_scroll": [0, 0],
+      "source_pixels": [410, 130],
+      "source_density": 2,
+      "icc": "Display P3",
+      "visible_state": "Complete Delivered and Draft labels; Draft selected; other tabs explained by adjacent text"
+    }
+  ],
+  "reused_approved_assets": [
+    "images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-es.png",
+    "images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-es-mobile.png",
+    "images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-en.png",
+    "images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-en-mobile.png"
+  ]
+}
