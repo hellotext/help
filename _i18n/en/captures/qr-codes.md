@@ -16,16 +16,13 @@ The person must press **Send**. Only after Hellotext receives that message can i
 
 Open **Playbooks**, click **Explore playbooks**, find the **Capture** group, and choose **QR Code Subscriber**. Give it a name that identifies its placement, such as “Packaging QR.”
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="QR Code Subscriber card in the Capture group of the playbook catalog.">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="QR Code Subscriber">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/capture-overview/site-en-mobile.png" width="760" height="1568" />
-        <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/site-en.png" width="1780" height="1030" loading="lazy" decoding="async" alt="QR Code Subscriber card beside the other site and link capture choices." />
-      </picture>
+    <div class="ht-editorial-visual__image-frame" style="max-width: 416px; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/desktop-qr-en.png" width="800" height="480" loading="lazy" decoding="async" alt="QR Code Subscriber in a fictional account." />
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Where to find QR Code Subscriber in a fictional account.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">QR Code Subscriber card in the fictional catalog desktop view.</figcaption>
 </figure>
 
 First choose **SMS** or **WhatsApp**. WhatsApp is available only when that channel is enabled for your business.

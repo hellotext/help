@@ -31,16 +31,13 @@ Usa Recolector de Propiedades directamente cuando el propósito principal de la 
 
 La misión sigue su lista configurada, pide los valores faltantes y guarda las respuestas válidas en el perfil. Esto funciona bien cuando el negocio necesita una captura conversacional reutilizable para ciertas propiedades. Para usarla de esta forma, configura y habilita la misión Recolector de Propiedades independiente.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Tarjetas de Impulsor de Suscriptores y Recolector de Propiedades en el grupo Captura del catálogo.">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Recolector de Propiedades">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 800px; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/capture-overview/ai-es-mobile.png" width="760" height="760" />
-        <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/ai-es.png" width="1780" height="520" loading="lazy" decoding="async" alt="Tarjetas de Impulsor de Suscriptores y Recolector de Propiedades en el grupo Captura del catálogo." />
-      </picture>
+    <div class="ht-editorial-visual__image-frame" style="max-width: 416px; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/desktop-properties-es.png" width="800" height="480" loading="lazy" decoding="async" alt="Recolector de Propiedades en una cuenta ficticia." />
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">El catálogo muestra Recolector de Propiedades junto a Impulsor de Suscriptores en una cuenta ficticia.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Tarjeta de Recolector de Propiedades en la vista de escritorio del catálogo ficticio.</figcaption>
 </figure>
 
 ### Como requisito de otra misión

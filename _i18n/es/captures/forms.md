@@ -44,16 +44,13 @@ Para conocer los requisitos de elegibilidad y consentimiento, consulta [A quién
 
 Usa un nombre diferente para cada ubicación cuando necesites comparar resultados, por ejemplo `Footer del newsletter` o `Página de consultas mayoristas`.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Opciones de Captura, incluido Formulario de Sitio Web">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Formulario de Sitio Web">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/capture-overview/site-es-mobile.png" width="760" height="1580" />
-        <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/site-es.png" width="1780" height="1030" loading="lazy" decoding="async" alt="Grupo Captura con la tarjeta Formulario de Sitio Web entre las herramientas de suscripción." />
-      </picture>
+    <div class="ht-editorial-visual__image-frame" style="max-width: 416px; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/desktop-form-es.png" width="800" height="480" loading="lazy" decoding="async" alt="Formulario de Sitio Web en una cuenta ficticia." />
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">En el catálogo de misiones, Formulario de Sitio Web aparece en el grupo Captura. Se reutiliza la imagen aprobada del resumen de herramientas de captura.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Tarjeta de Formulario de Sitio Web en la vista de escritorio del catálogo ficticio.</figcaption>
 </figure>
 
 ## Configurar el contenido y los campos

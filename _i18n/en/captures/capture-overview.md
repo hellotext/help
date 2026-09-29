@@ -4,16 +4,16 @@ Hellotext presents these options as playbooks, but they do not all work in the s
 
 To find capture playbooks in Hellotext, open **Playbooks**, click **Explore playbooks**, and go to the **Capture** group.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Capture catalog group with Webchat Widget and WhatsApp Widget cards.">
-  <div class="ht-editorial-visual__stage">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Webchat Widget, WhatsApp Widget">
+  <div class="ht-editorial-visual__stage" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px;">
     <div class="ht-editorial-visual__image-frame">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/capture-overview/entry-en-mobile.png" width="760" height="860" />
-        <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/entry-en.png" width="1780" height="600" loading="lazy" decoding="async" alt="Capture catalog group with Webchat Widget and WhatsApp Widget cards." />
-      </picture>
+      <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/desktop-webchat-en.png" width="800" height="480" loading="lazy" decoding="async" alt="Webchat Widget" />
+    </div>
+    <div class="ht-editorial-visual__image-frame">
+      <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/desktop-whatsapp-en.png" width="800" height="480" loading="lazy" decoding="async" alt="WhatsApp Widget" />
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Capture group and conversation widget cards in a fictional account.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Conversation widget cards in the fictional catalog desktop view.</figcaption>
 </figure>
 
 ## Choose a capture tool
@@ -26,16 +26,22 @@ Use **Website Popup** when you want to collect phone numbers, email addresses, o
 
 Use **Forms** when you want to collect contact details or custom profile properties directly on your website.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="QR Code Subscriber, Website Popup, Website Form, and Shareable Link cards.">
-  <div class="ht-editorial-visual__stage">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="QR Code Subscriber, Website Popup, Website Form, Shareable Link">
+  <div class="ht-editorial-visual__stage" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px;">
     <div class="ht-editorial-visual__image-frame">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/capture-overview/site-en-mobile.png" width="760" height="1568" />
-        <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/site-en.png" width="1780" height="1030" loading="lazy" decoding="async" alt="QR Code Subscriber, Website Popup, Website Form, and Shareable Link cards." />
-      </picture>
+      <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/desktop-qr-en.png" width="800" height="480" loading="lazy" decoding="async" alt="QR Code Subscriber" />
+    </div>
+    <div class="ht-editorial-visual__image-frame">
+      <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/desktop-popup-en.png" width="800" height="480" loading="lazy" decoding="async" alt="Website Popup" />
+    </div>
+    <div class="ht-editorial-visual__image-frame">
+      <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/desktop-form-en.png" width="800" height="480" loading="lazy" decoding="async" alt="Website Form" />
+    </div>
+    <div class="ht-editorial-visual__image-frame">
+      <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/desktop-link-en.png" width="800" height="480" loading="lazy" decoding="async" alt="Shareable Link" />
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">QR code, popup, form, and shareable link choices in a fictional account.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">QR code, popup, form, and shareable link cards in the fictional catalog desktop view.</figcaption>
 </figure>
 
 Use **Webchat Widget** when you want visitors to start a conversation from your site before they buy, ask for support, or continue through WhatsApp.
@@ -46,16 +52,16 @@ Use **Subscriber Booster** when AI should introduce a consent-based subscription
 
 Use **Property Collector** when you want AI to collect missing customer profile properties directly or before another playbook continues.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Subscriber Booster and Property Collector cards.">
-  <div class="ht-editorial-visual__stage">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Subscriber Booster, Property Collector">
+  <div class="ht-editorial-visual__stage" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px;">
     <div class="ht-editorial-visual__image-frame">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/capture-overview/ai-en-mobile.png" width="760" height="770" />
-        <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/ai-en.png" width="1780" height="520" loading="lazy" decoding="async" alt="Subscriber Booster and Property Collector cards." />
-      </picture>
+      <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/desktop-subscriber-en.png" width="800" height="480" loading="lazy" decoding="async" alt="Subscriber Booster" />
+    </div>
+    <div class="ht-editorial-visual__image-frame">
+      <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/desktop-properties-en.png" width="800" height="480" loading="lazy" decoding="async" alt="Property Collector" />
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">AI-assisted capture choices in a fictional account.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">AI-assisted capture cards in the fictional catalog desktop view.</figcaption>
 </figure>
 
 Use **Shopify checkout opt-in** or **Wix checkout opt-in** when you want customers to subscribe while they complete a purchase.
