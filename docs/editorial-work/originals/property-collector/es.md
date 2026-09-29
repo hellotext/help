@@ -37,7 +37,7 @@ Otras misiones con IA pueden incluir un subcomponente Recolector de Propiedades 
 
 Cuando la misión de origen detecta que faltan una o más propiedades configuradas, usa internamente ese subcomponente. Recolector de Propiedades pide solamente el conjunto activo de propiedades faltantes.
 
-Para que esa recopilación previa funcione, el negocio también debe tener habilitada la misión Recolector de Propiedades: su agente realiza la conversación temporal. El subcomponente pertenece a la misión de origen y conserva su propia selección de propiedades; no usa la lista configurada en la misión independiente.
+No necesitas habilitar la misión Recolector de Propiedades independiente para este caso. El subcomponente forma parte de la configuración de la misión de origen y funciona con su propia selección de propiedades.
 
 La misión original continúa siendo responsable de la tarea del cliente. Cuando la recopilación necesaria se resuelve, la conversación vuelve a esa misión en vez de cambiar permanentemente de ownership.
 
@@ -63,7 +63,7 @@ Cada propiedad seleccionada puede marcarse como obligatoria u opcional.
 
 Cuando un cliente rechaza compartir una propiedad opcional, Recolector de Propiedades registra esa decisión para la recopilación activa y puede continuar sin pedir repetidamente el mismo dato opcional.
 
-En la mayoría de las misiones, Recolector de Propiedades limita los intentos de preguntar por una propiedad obligatoria. Si el cliente no aporta un valor utilizable tras esos intentos, registra que no se recopiló y sigue el flujo o la derivación correspondiente. Impulsor de Suscriptores tiene un tratamiento distinto para sus datos obligatorios. Marca una propiedad como obligatoria solo cuando la tarea de origen realmente no puede continuar sin ella.
+Una propiedad obligatoria permanece dentro de la recopilación activa hasta que se resuelve o la conversación se deriva. Marca una propiedad como obligatoria solo cuando la tarea de origen realmente no puede continuar sin ella.
 
 Demasiados campos obligatorios hacen que una captura conversacional se sienta como un formulario sin salida. Mantén pequeño el conjunto obligatorio.
 
@@ -77,7 +77,6 @@ Antes de habilitar Recolector de Propiedades como misión independiente, confirm
 - El país y código telefónico del negocio son correctos si se recopilarán teléfonos.
 - La asignación o derivación tiene una persona o equipo apropiado.
 - Cada misión que usa Recolector de Propiedades como requisito explica por qué necesita esa información.
-- La misión Recolector de Propiedades está habilitada si otra misión necesita usar su agente para recopilar datos previamente.
 
 ## Qué puedes configurar
 
@@ -91,7 +90,7 @@ Recolector de Propiedades expone:
 - **Tono:** la voz que usa al pedir información.
 - **Asignación o derivación:** quién debería continuar cuando la recopilación no puede completarse automáticamente.
 
-Otras misiones compatibles pueden mostrar un subcomponente Recolector de Propiedades con su propia lista de propiedades requeridas. La lista se configura en la misión de origen, pero su ejecución necesita que Recolector de Propiedades esté habilitado.
+Otras misiones compatibles pueden mostrar un subcomponente Recolector de Propiedades con su propia lista de propiedades requeridas. Esa configuración interna no depende de que la misión Recolector de Propiedades independiente esté habilitada.
 
 ## Cómo maneja las respuestas la IA
 

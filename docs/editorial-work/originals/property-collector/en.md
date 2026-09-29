@@ -37,7 +37,7 @@ Other AI playbooks can include a Property Collector subcomponent with the profil
 
 When the source playbook detects that one or more configured properties are missing, it uses that subcomponent internally. Property Collector asks only for that active set of missing properties.
 
-For that prerequisite collection to run, the business must also have the Property Collector playbook enabled: its agent handles the temporary conversation. The subcomponent belongs to the source playbook and keeps its own property selection; it does not use the standalone playbook's configured list.
+You do not need to enable the standalone Property Collector playbook for this case. The subcomponent is part of the source playbook's configuration and uses its own property selection.
 
 The original playbook remains responsible for the customer's task. Once the required collection is resolved, the conversation returns to that playbook instead of permanently changing ownership.
 
@@ -63,7 +63,7 @@ Each selected property can be marked as required or optional.
 
 When a customer declines an optional property, Property Collector records that decision for the active collection and can continue without asking for the same optional item repeatedly.
 
-In most playbooks, Property Collector limits how many times it asks for a required property. If the customer still provides no usable value after those attempts, it records that the value was not collected and follows the applicable continuation or derivation path. Subscriber Booster handles its required properties differently. Mark a property as required only when the originating task genuinely cannot continue without it.
+A required property remains part of the active collection until it is resolved or the conversation is derived. Mark a property as required only when the originating task genuinely cannot continue without it.
 
 Too many required fields make a conversational capture feel like a form with no exit. Keep the required set small.
 
@@ -77,7 +77,6 @@ Before enabling Property Collector as a standalone playbook, confirm:
 - The business country and calling code are correct if phone numbers will be collected.
 - Assignment or derivation has an appropriate teammate or team.
 - Any playbook that uses Property Collector as a prerequisite explains why it needs the information.
-- Property Collector is enabled if another playbook needs its agent for prerequisite collection.
 
 ## What you can configure
 
@@ -91,7 +90,7 @@ Property Collector exposes:
 - **Tone:** the voice used while requesting information.
 - **Assignment or derivation:** who should take over when collection cannot continue automatically.
 
-Other compatible playbooks can expose a Property Collector subcomponent with their own prerequisite property list. The source playbook owns that list, but execution requires Property Collector to be enabled.
+Other compatible playbooks can expose a Property Collector subcomponent with their own prerequisite property list. That internal configuration does not depend on the standalone Property Collector playbook being enabled.
 
 ## How the AI handles answers
 
