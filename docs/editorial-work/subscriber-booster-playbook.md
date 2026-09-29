@@ -38,7 +38,7 @@ Density descriptors and `width: auto` keep the selected responsive image at or b
 
 Public checks for the integrated revision are recorded below.
 
-Content commit: `28eacbe680c32e5224ce298ca20cd5eaab7f13c0`. The ledger now points to this preserved content commit after the complete local ES/EN visual/build checks. Public verification is recorded separately below.
+Original content commit: `28eacbe680c32e5224ce298ca20cd5eaab7f13c0`, preserved after the complete initial local ES/EN visual/build checks. The current ledger points to the later verified frame refinement `6959cb2f70ace6c91c8a16526d9a10062f13085b`, as recorded below.
 
 ## Public verification (2026-09-29)
 
