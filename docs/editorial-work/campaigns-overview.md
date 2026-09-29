@@ -27,8 +27,8 @@
 
 ## Local verification
 
-- `yarn build` passed, including security headers. Complete ES and EN article HTML was reviewed at desktop 1280 CSS px and mobile 390 CSS px. Each locale rendered two static figures in the intended sections, the correct localized responsive assets, and no horizontal page overflow (`scrollWidth=390` at mobile). The mobile tab and funnel were visually inspected in both languages; all labels and complete controls are readable. The desktop Spanish tab and funnel were visually inspected in the local Help browser. The article does not link its figures to new windows.
-- Published status remains pending until the Help PR, main build and public pages/assets are verified. The local content commit and verifier commit will be recorded below.
+- `yarn build` passed, including security headers. Complete ES and EN article HTML was reviewed at desktop 1280 CSS px and mobile 390 CSS px. Each locale rendered two static figures in the intended sections, the correct localized responsive assets, and no horizontal page overflow (`scrollWidth=390` at mobile). The mobile tab and funnel were visually inspected in both languages; all labels and complete controls are readable. Desktop tabs and funnels were visually inspected in both languages in the local Help browser. The article does not link its figures to new windows.
+- Content and four new P3 sources were committed in `a185ed50`; this following verifier commit records the local `local_verified` state in `progress.csv`. Public status remains pending until the Help PR, main build and public pages/assets are verified.
 
 ## Public verification
 
