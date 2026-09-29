@@ -23,7 +23,7 @@ if (expectedUrl.hostname !== '127.0.0.1' || expectedUrl.protocol !== 'http:') {
   throw new Error('Capture URL must use the loopback demo server');
 }
 if (!options.email.endsWith('@example.test')) throw new Error('Expected a fictional account');
-const clip = options.clip.split(',').map(Number);
+let clip = options.clip.split(',').map(Number);
 if (clip.length !== 4 || clip.some((value) => !Number.isInteger(value) || value < 0) || clip[2] < 1 || clip[3] < 1) {
   throw new Error('Clip must be x,y,width,height in CSS pixels');
 }
@@ -40,6 +40,10 @@ if (scroll && (scroll.length !== 2 || scroll.some((value) => !Number.isInteger(v
 const output = resolve(options.output);
 const temporary = `${output}.partial`;
 const profile = resolve(options.profile);
+const popover = options.popover?.split(',');
+if (popover && (popover.length !== 2 || popover.some((id) => !/^[a-zA-Z][a-zA-Z0-9_-]*$/.test(id)))) {
+  throw new Error('Popover must name an existing trigger ID and popover ID');
+}
 
 // Inspect only the process listening on the specified local debugging port.
 // Its open files must belong to the dedicated profile, not the editor's Chrome.
@@ -122,6 +126,38 @@ try {
       width: viewport[0], height: viewport[1], deviceScaleFactor: 2, mobile: false,
     });
   }
+  if (popover) {
+    const preOpen = await state(connection);
+    verifyState(preOpen);
+    const opened = await connection.call('Runtime.evaluate', {
+      expression: `(() => {
+        const trigger = document.getElementById(${JSON.stringify(popover[0])});
+        const panel = document.getElementById(${JSON.stringify(popover[1])});
+        if (!trigger || !panel || !panel.hasAttribute('popover')) return false;
+        if (!panel.matches(':popover-open')) trigger.click();
+        return true;
+      })()`,
+      returnByValue: true,
+    });
+    if (opened.exceptionDetails || opened.result.value !== true) throw new Error('Expected local popover not found');
+    await delay(350);
+    const visible = await connection.call('Runtime.evaluate', {
+      expression: `document.getElementById(${JSON.stringify(popover[1])}).matches(':popover-open')`,
+      returnByValue: true,
+    });
+    if (visible.result.value !== true) throw new Error('Expected local popover did not open');
+    if (options.popoverClip === 'true') {
+      const bounds = await connection.call('Runtime.evaluate', {
+        expression: `(() => { const rect = document.getElementById(${JSON.stringify(popover[1])}).getBoundingClientRect();
+          return [Math.floor(rect.x), Math.floor(rect.y), Math.ceil(rect.width), Math.ceil(rect.height)]; })()`,
+        returnByValue: true,
+      });
+      clip = bounds.result.value;
+      if (clip.length !== 4 || clip.some((value) => !Number.isInteger(value) || value < 0)) {
+        throw new Error('Popover bounds unavailable');
+      }
+    }
+  }
   if (scroll) {
     await connection.call('Runtime.evaluate', {
       expression: `window.scrollTo(${scroll[0]}, ${scroll[1]})`,
@@ -141,6 +177,13 @@ try {
   const after = await state(connection);
   verifyState(after);
   if (JSON.stringify(before) !== JSON.stringify(after)) throw new Error('Page changed during capture');
+  if (popover) {
+    const visible = await connection.call('Runtime.evaluate', {
+      expression: `document.getElementById(${JSON.stringify(popover[1])}).matches(':popover-open')`,
+      returnByValue: true,
+    });
+    if (visible.result.value !== true) throw new Error('Local popover closed during capture');
+  }
   const png = Buffer.from(capture.data, 'base64');
   if (png.subarray(0, 8).toString('hex') !== '89504e470d0a1a0a') throw new Error('Chrome did not emit PNG');
   const pixelWidth = png.readUInt32BE(16);

@@ -1,0 +1,38 @@
+# Campaign best practices
+
+## Source and reader task
+
+- Pair: `campaigns/campaign-best-practices.md`; public ES `/es/buenas-practicas-campanas`, EN `/campaign-best-practices`.
+- Originals preserved before editing in `originals/campaign-best-practices/{es,en,stub}.md` (SHA-256: ES `50ea2e16e16c38f1eacda96b76c2370567a8be75edd34ba3f51f2d6abb5b7d5e`, EN `087c971537cb08f86c618a5e734424a3c6bdf53e7f0155c71eb5ce237c0157a8`, stub `39adaf2f22107baeb29f649a9dbd80fbb37e42b56930f14248c010f9a4dea12d`). Stub, title, description, slugs, links, language pairing and published state are unchanged.
+- Reader task: make one-off campaign decisions about outcome, audience, delivery channels, message, review timing and measurement before pressing Send. This is a strategy checklist linked to the procedural Create a campaign and Message editor guides.
+- Rails source checked in `/private/tmp/hellotext-workload-fixed`: `CampaignsController#new` renders the channel step by GET, `CampaignAudiencesController#create` persists a draft, the campaign wizard lists the four delivery options, and `Campaign::TargetsContactables#needs_review?` can bypass editorial review for already approved WhatsApp templates. The previous unconditional ≥100-review language was corrected in both locales.
+
+## Section-level visual decision
+
+| Section | Reader need | Decision |
+| --- | --- | --- |
+| Start with one outcome | Choose campaign versus ongoing playbook and one CTA. | Conceptual decision; no product control to identify. |
+| Focus the audience | Recognize the audience cap control and distinguish it from consent/eligibility. | New localized native audience-limit popover figure. Desktop shows the complete panel; mobile shows a native close-up of the complete Limit to radio and number field, because the product's own 390 CSS px popover clips the following label. The rejected mobile UI capture was deleted. A full audience page would expose a stale subscriber estimate unrelated to the protected fixture, so it was not published. |
+| Choose delivery option intentionally | Identify selected SMS versus an unavailable WhatsApp option. | New localized native desktop and mobile channel-choice figures. Conditional availability is stated in the caption. |
+| Write for selected channels / Test what the customer will receive | Use editor tools and review a test for each channel. | This article provides a decision checklist and links directly to the Message editor and Create a campaign guides for their detailed controls. A separate editor or test figure here would duplicate those procedures and require persisting a draft; no test was sent to manufacture a screenshot. |
+| Leave time for review and delivery windows | Plan enough time for editorial and Meta checks. | The decision is timing, not a specific date-picker control. The linked campaign workflow owns date/time UI. A screenshot of a calendar would not explain the conditional review rule. |
+| Coordinate campaigns with playbooks | Avoid conflicting messages. | Conceptual comparison with no unique screen state. |
+| Monitor delivery and replies | Know what to check after a real send. | No campaign was sent for this guide. Capturing post-send tabs or replies would require a different fictional delivered fixture and duplicate the linked campaign workflow. |
+| Learn from the automatic report | Recognize delivery-stage drop-off without sending a campaign. | Reuse approved localized Campaign reporting funnel desktop/mobile sources by reference, with no duplicate PNGs. |
+| Final checklist / Related guides | Confirm the decisions and navigate to procedures. | Checklist and links already identify every item; decorative screenshots would not add a distinct control or result. |
+
+## Safe capture and source review
+
+- Isolated demo: Rails at `127.0.0.1:3191` against guarded clone `hellotext_editorial_workload_20260928`, business 5, fictional owner `design-system@example.test`, zero messageable contacts. Database name, connected database, account privilege and contact safety were checked before capture. The fictional account password was restored from a local mode-0600 file only in this clone; no secret was printed or committed. The account locale was switched ES→EN→ES through guarded clone-only code.
+- The dedicated headless Chrome profile `/private/tmp/hellotext-campaign-headless-9340` used one loopback tab and CDP only on `127.0.0.1:9340`. `script/capture_isolated_chrome.mjs` verified its PID/profile, exact URL/title/locale/account and visible control before and after capture, zoom 1, CSS viewport, DPR 2, PNG encoding and Display P3. Its new guarded popover option opens the exact local audience-limit control, verifies the native panel stays open and can derive the complete panel bounds. No personal Chrome window or tab was inspected.
+- Only the GET channel and draft audience screens were opened. The audience-limit popover was opened but nothing was applied. No campaign was created, saved, tested, scheduled or sent. The clone's audience aside showed a stale `127 subscribers` aggregate despite zero messageable contacts; every accepted crop excludes it and all customer records. The preliminary full-page probes and a mobile popover with a clipped label were rejected and never placed in `images/`.
+- Accepted new sources and published-byte-copy hashes are in `captures/campaign-best-practices/capture-provenance.json`: four channel-choice sources, four audience-limit sources, all native P3 and at least 2×. The two mobile audience images are compositor focus crops of a complete control, not edited or resampled pixels. Four existing funnel sources are referenced, not duplicated. Every accepted source was visually inspected for readable labels, complete controls, no cursor, debugger overlay, cut row or private data.
+
+## Local verification
+
+- `yarn build` passed with the production security-header check. The full ES/EN article was reviewed in the local Help browser at desktop 1280×720 and mobile 390×844. Each language rendered three static figures in order; localized responsive assets resolved, the lavender stage and separate white frame stayed within the article column, and document scroll width equaled the mobile viewport (390 CSS px). The focused audience cap remained legible on mobile after replacing the rejected wider detail crop. The existing Campaign reporting funnel stayed legible.
+- Built ES and EN pages include the correction that campaigns of at least 100 recipients *can* require editorial review and approved WhatsApp templates can bypass it. The article links and headings remained intact. This local build is not evidence of public publication.
+
+## Public verification
+
+Pending merge and normal production publication. Record exact PRs, merge commits, Build/Netlify evidence, public ES/EN pages and all new/reused PNG URLs and hashes here after publication.
