@@ -1,0 +1,37 @@
+{
+  "article": "captures/forms.md",
+  "status": "approved_local_verified",
+  "capture_route": "dedicated headless Chrome compositor via loopback CDP",
+  "source_account": "design-system@example.test",
+  "database": "hellotext_editorial_workload_20260928",
+  "business_id": 5,
+  "fixture_form_hash": "3oDXBQG4",
+  "fixture_state": "draft; zero submissions; zero subscribed contacts; no coupon or journey",
+  "profile": "/private/tmp/hellotext-capture-overview-headless-9341",
+  "cdp_port": 9341,
+  "browser_dpr": 2,
+  "capture_scale": 2,
+  "icc": "Display P3",
+  "identity_url": "http://127.0.0.1:3191/hellotext/journeys/new",
+  "sources": [
+    {"file":"preview-es.png","url":"http://127.0.0.1:3191/hellotext/captures/forms/3oDXBQG4/edit","locale":"es","viewport":[1200,1000],"clip":[355,160,490,395],"pixels":[1960,1580],"sha256":"81810eef05dd3eb465963869bb28b7f09443753393b89a6fb382c736068dcd61"},
+    {"file":"fields-es.png","url":"http://127.0.0.1:3191/hellotext/captures/forms/3oDXBQG4/edit","locale":"es","viewport":[1200,1000],"clip":[320,135,830,620],"pixels":[3320,2480],"sha256":"9892ff3765a00bcd55b76e09a02956df8dcdf3320c2229cfb0d1bca2435bde55"},
+    {"file":"fields-es-mobile.png","url":"http://127.0.0.1:3191/hellotext/captures/forms/3oDXBQG4/edit","locale":"es","viewport":[1200,1000],"clip":[714,241,384,336],"pixels":[1536,1344],"sha256":"09a277fc16a86628d9a0c40f5f1016ad87b82b86cc4e4f0f9823acdb0c86b371"},
+    {"file":"optional-es.png","url":"http://127.0.0.1:3191/hellotext/captures/forms/3oDXBQG4/coupon","locale":"es","viewport":[1200,1000],"clip":[125,390,430,310],"pixels":[1720,1240],"sha256":"c8a96282531f7954c3d58d31ebd4709b8b2bf3423c6aea08543f0008a078be2d"},
+    {"file":"embed-es.png","url":"http://127.0.0.1:3191/hellotext/captures/forms/3oDXBQG4","locale":"es","viewport":[1200,1000],"clip":[570,260,525,525],"pixels":[2100,2100],"sha256":"e1b964999048864a5b63d043461d8fa3d3428d39ea3ddf4c6f88353b5cc82b55"},
+    {"file":"preview-en.png","url":"http://127.0.0.1:3191/hellotext/captures/forms/3oDXBQG4/edit","locale":"en","viewport":[1200,1000],"clip":[355,160,490,365],"pixels":[1960,1460],"sha256":"17c6ba7d8246cf7fa15568f6d25880fc68addf4b75cee6a32459430a79de406e"},
+    {"file":"fields-en.png","url":"http://127.0.0.1:3191/hellotext/captures/forms/3oDXBQG4/edit","locale":"en","viewport":[1200,1000],"clip":[320,115,830,620],"pixels":[3320,2480],"sha256":"3663a9d10ae438ac38b1babb22c039ede8c6dbb7c193e8fa1e0cc1ce6906adeb"},
+    {"file":"fields-en-mobile.png","url":"http://127.0.0.1:3191/hellotext/captures/forms/3oDXBQG4/edit","locale":"en","viewport":[1200,1000],"clip":[714,213,384,336],"pixels":[1536,1344],"sha256":"567de304cf6eedd7998cded0db519143e16dd3e4ca086373dfed88d4d1260196"},
+    {"file":"optional-en.png","url":"http://127.0.0.1:3191/hellotext/captures/forms/3oDXBQG4/coupon","locale":"en","viewport":[1200,1000],"clip":[125,390,430,310],"pixels":[1720,1240],"sha256":"b75fb87a1a80a21de144231be3bcbdd7fc5a8847029d4721ced51595cb7dcc93"},
+    {"file":"embed-en.png","url":"http://127.0.0.1:3191/hellotext/captures/forms/3oDXBQG4","locale":"en","viewport":[1200,1000],"clip":[570,260,525,525],"pixels":[2100,2100],"sha256":"3673355ecb1a6bb46b37137a27785667b8d3fced319af793478c3946cb61e28b"},
+    {"file":"embed-mobile.png","asset":"/images/captures/forms/shared/embed-mobile.png","url":"http://127.0.0.1:3191/hellotext/captures/forms/3oDXBQG4","locales":["es","en"],"viewport":[1200,1000],"clip":[624,525,416,205],"pixels":[1664,820],"sha256":"1ed7391744026b74eec1eec985e16d41a830b04aa4ca0931836680e822a55421","note":"Both guarded locale captures were byte-identical; this language-neutral code panel is stored once."}
+  ],
+  "reused_assets": [
+    "/images/captures/capture-overview/site-es.png",
+    "/images/captures/capture-overview/site-es-mobile.png",
+    "/images/captures/capture-overview/site-en.png",
+    "/images/captures/capture-overview/site-en-mobile.png"
+  ],
+  "rejected_probes": "Full-page and early mobile editor probes included debug overlay, excessive whitespace, partial background text, or cut panels. They remain only under /private/tmp and are not article assets. Approved mobile fields capture the actual settings panel exactly at its native element bounds. The broad embed-card mobile layout made the code too small, so a tighter native code-panel crop was captured for mobile.",
+  "safety": "Only the isolated fictional account and guarded draft form were used. No form submission, verification, message, campaign, coupon, or journey was triggered."
+}

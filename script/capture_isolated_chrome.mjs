@@ -22,6 +22,10 @@ const expectedUrl = new URL(options.url);
 if (expectedUrl.hostname !== '127.0.0.1' || expectedUrl.protocol !== 'http:') {
   throw new Error('Capture URL must use the loopback demo server');
 }
+const identityUrl = options['identity-url'] && new URL(options['identity-url']);
+if (identityUrl && (identityUrl.origin !== expectedUrl.origin || identityUrl.pathname !== '/hellotext/journeys/new')) {
+  throw new Error('Identity check must use the local demo playbook catalog');
+}
 if (!options.email.endsWith('@example.test')) throw new Error('Expected a fictional account');
 let clip = options.clip.split(',').map(Number);
 if (clip.length !== 4 || clip.some((value) => !Number.isInteger(value) || value < 0) || clip[2] < 1 || clip[3] < 1) {
@@ -88,13 +92,23 @@ async function connect(targetUrl) {
 
 async function state(connection) {
   const result = await connection.call('Runtime.evaluate', {
-    expression: `JSON.stringify({url: location.href, title: document.title,
-      locale: document.documentElement.lang, width: innerWidth, height: innerHeight,
-      dpr: devicePixelRatio, zoom: visualViewport.scale,
-      scrollX, scrollY,
-      account: [...document.querySelectorAll('h2')].some(e => e.textContent.trim() === ${JSON.stringify(options.email)}),
-      target: document.body.innerText.includes(${JSON.stringify(options.text)})})`,
+    expression: `(async () => {
+      let account = [...document.querySelectorAll('h2')].some(e => e.textContent.trim() === ${JSON.stringify(options.email)});
+      if (!account && ${JSON.stringify(identityUrl?.href ?? null)}) {
+        const response = await fetch(${JSON.stringify(identityUrl?.href ?? null)}, { credentials: 'same-origin' });
+        if (response.ok && response.url === ${JSON.stringify(identityUrl?.href ?? null)}) {
+          const identityPage = new DOMParser().parseFromString(await response.text(), 'text/html');
+          account = [...identityPage.querySelectorAll('h2')].some(e => e.textContent.trim() === ${JSON.stringify(options.email)});
+        }
+      }
+      return JSON.stringify({url: location.href, title: document.title,
+        locale: document.documentElement.lang, width: innerWidth, height: innerHeight,
+        dpr: devicePixelRatio, zoom: visualViewport.scale,
+        scrollX, scrollY, account,
+        target: document.body.innerText.includes(${JSON.stringify(options.text)})});
+    })()`,
     returnByValue: true,
+    awaitPromise: true,
   });
   if (result.exceptionDetails || typeof result.result.value !== 'string') throw new Error('Page state unavailable');
   return JSON.parse(result.result.value);
