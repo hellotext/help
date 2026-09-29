@@ -1,0 +1,379 @@
+{
+  "article_key": "billing/billing-settings-and-invoices.md",
+  "capture_date_utc": "2026-09-29",
+  "status": "local_reviewed",
+  "route": "isolated headless Chrome compositor through CDP Page.captureScreenshot",
+  "source_url": "http://127.0.0.1:3191/hellotext/settings/billing",
+  "chrome_profile": "dedicated temporary profile bound to 127.0.0.1:9339; exactly one local tab, no personal browser windows",
+  "chrome_flags": [
+    "--headless=new",
+    "--force-color-profile=display-p3-d65",
+    "--force-device-scale-factor=2"
+  ],
+  "database": "hellotext_editorial_workload_20260928 cloned local DB, business 5, zero messageable contacts at preflight",
+  "account": "design-system@example.test fictional owner; only locale temporarily changed to capture EN and restored to ES",
+  "business_state": "Enterprise plan, no saved payment methods, no invoices; the payment cards shown are the application empty-state preview, not saved payment credentials",
+  "safety": "No card, payment, country, billing information, invoice, campaign or message was created, saved, submitted or sent. Open forms were canceled or abandoned on reload.",
+  "guard": "script/capture_isolated_chrome.mjs verified local PID/profile/port, exactly one exact local URL/title/locale tab, fictional account and control, viewport, zoom, DPR, page scroll and stable pre/post state; output checked as PNG with embedded Display P3 and 2 source pixels per CSS pixel. Explicit --scroll positions keep viewport-relative clips aligned after responsive emulation.",
+  "source_transform": "direct compositor crop only; no pixel edits, image generation, resampling or chart alteration",
+  "records": [
+    {
+      "section": "history",
+      "locale": "es",
+      "variant": "desktop",
+      "source": "docs/editorial-work/captures/billing-settings-and-invoices/history-es-original.png",
+      "asset": "images/billing/billing-settings-and-invoices/history-es.png",
+      "sha256": "0a92837399773c9fba39c27e6574f1e3fd06a7a8817b49a0da2fce9e457e61b1",
+      "css_viewport": [
+        1200,
+        913
+      ],
+      "css_clip_size": [
+        885,
+        284
+      ],
+      "source_pixels": [
+        1770,
+        568
+      ],
+      "source_density": 2,
+      "title": "Facturación - Hellotext"
+    },
+    {
+      "section": "history",
+      "locale": "es",
+      "variant": "mobile",
+      "source": "docs/editorial-work/captures/billing-settings-and-invoices/history-es-mobile-original.png",
+      "asset": "images/billing/billing-settings-and-invoices/history-es-mobile.png",
+      "sha256": "27cec29f66dbc52fc831b2eb48009bb258c4e68a8524c9204655837ae0abff88",
+      "css_viewport": [
+        390,
+        900
+      ],
+      "css_clip_size": [
+        374,
+        364
+      ],
+      "source_pixels": [
+        748,
+        728
+      ],
+      "source_density": 2,
+      "title": "Facturación - Hellotext"
+    },
+    {
+      "section": "history",
+      "locale": "en",
+      "variant": "desktop",
+      "source": "docs/editorial-work/captures/billing-settings-and-invoices/history-en-original.png",
+      "asset": "images/billing/billing-settings-and-invoices/history-en.png",
+      "sha256": "479083114f842ef07dfd1a03f3aa75a71c3f2224553c1b523acfab0421d6328f",
+      "css_viewport": [
+        1200,
+        913
+      ],
+      "css_clip_size": [
+        885,
+        284
+      ],
+      "source_pixels": [
+        1770,
+        568
+      ],
+      "source_density": 2,
+      "title": "Billing - Hellotext"
+    },
+    {
+      "section": "history",
+      "locale": "en",
+      "variant": "mobile",
+      "source": "docs/editorial-work/captures/billing-settings-and-invoices/history-en-mobile-original.png",
+      "asset": "images/billing/billing-settings-and-invoices/history-en-mobile.png",
+      "sha256": "a1b6803eaee04083e7c778a0d8186f5ce136d658e355124a8a2ec0e7449052dc",
+      "css_viewport": [
+        390,
+        900
+      ],
+      "css_clip_size": [
+        374,
+        344
+      ],
+      "source_pixels": [
+        748,
+        688
+      ],
+      "source_density": 2,
+      "title": "Billing - Hellotext"
+    },
+    {
+      "section": "payment-methods",
+      "locale": "es",
+      "variant": "desktop",
+      "source": "docs/editorial-work/captures/billing-settings-and-invoices/payment-methods-es-original.png",
+      "asset": "images/billing/billing-settings-and-invoices/payment-methods-es.png",
+      "sha256": "cfd553bdf46a17e704b25a4f1d4465817acfbddcab39c22659b179ee47a550b6",
+      "css_viewport": [
+        1200,
+        913
+      ],
+      "css_clip_size": [
+        885,
+        540
+      ],
+      "source_pixels": [
+        1770,
+        1080
+      ],
+      "source_density": 2,
+      "title": "Facturación - Hellotext"
+    },
+    {
+      "section": "payment-methods",
+      "locale": "es",
+      "variant": "mobile",
+      "source": "docs/editorial-work/captures/billing-settings-and-invoices/payment-methods-es-mobile-original.png",
+      "asset": "images/billing/billing-settings-and-invoices/payment-methods-es-mobile.png",
+      "sha256": "197932fab585f1ccac6812d033d653bcd1037103609c9dc3a5d679d550fbaed9",
+      "css_viewport": [
+        430,
+        900
+      ],
+      "css_clip_size": [
+        406,
+        520
+      ],
+      "source_pixels": [
+        812,
+        1040
+      ],
+      "source_density": 2,
+      "title": "Facturación - Hellotext"
+    },
+    {
+      "section": "payment-methods",
+      "locale": "en",
+      "variant": "desktop",
+      "source": "docs/editorial-work/captures/billing-settings-and-invoices/payment-methods-en-original.png",
+      "asset": "images/billing/billing-settings-and-invoices/payment-methods-en.png",
+      "sha256": "17568d17b266c48629f7c2e8635bb8c99c2de92b41565402da99a1d186828005",
+      "css_viewport": [
+        1200,
+        913
+      ],
+      "css_clip_size": [
+        885,
+        535
+      ],
+      "source_pixels": [
+        1770,
+        1070
+      ],
+      "source_density": 2,
+      "title": "Billing - Hellotext"
+    },
+    {
+      "section": "payment-methods",
+      "locale": "en",
+      "variant": "mobile",
+      "source": "docs/editorial-work/captures/billing-settings-and-invoices/payment-methods-en-mobile-original.png",
+      "asset": "images/billing/billing-settings-and-invoices/payment-methods-en-mobile.png",
+      "sha256": "d06813a7ef630be917b7713515790f763a94a9e8e815400a92c099dbd30fdc6a",
+      "css_viewport": [
+        430,
+        900
+      ],
+      "css_clip_size": [
+        406,
+        520
+      ],
+      "source_pixels": [
+        812,
+        1040
+      ],
+      "source_density": 2,
+      "title": "Billing - Hellotext"
+    },
+    {
+      "section": "billing-information",
+      "locale": "es",
+      "variant": "desktop",
+      "source": "docs/editorial-work/captures/billing-settings-and-invoices/billing-information-es-original.png",
+      "asset": "images/billing/billing-settings-and-invoices/billing-information-es.png",
+      "sha256": "7c385528870952394fafe9a07694d9b9a78e78c2897a93b3c37f5d202a167e30",
+      "css_viewport": [
+        1200,
+        913
+      ],
+      "css_clip_size": [
+        885,
+        332
+      ],
+      "source_pixels": [
+        1770,
+        664
+      ],
+      "source_density": 2,
+      "title": "Facturación - Hellotext"
+    },
+    {
+      "section": "billing-information",
+      "locale": "es",
+      "variant": "mobile",
+      "source": "docs/editorial-work/captures/billing-settings-and-invoices/billing-information-es-mobile-original.png",
+      "asset": "images/billing/billing-settings-and-invoices/billing-information-es-mobile.png",
+      "sha256": "97f24f098b51cb66b7c85e1396ed31f270d4ccdcbadce1614f3ca3e8e2894671",
+      "css_viewport": [
+        430,
+        900
+      ],
+      "css_clip_size": [
+        406,
+        307
+      ],
+      "source_pixels": [
+        812,
+        614
+      ],
+      "source_density": 2,
+      "title": "Facturación - Hellotext"
+    },
+    {
+      "section": "billing-information",
+      "locale": "en",
+      "variant": "desktop",
+      "source": "docs/editorial-work/captures/billing-settings-and-invoices/billing-information-en-original.png",
+      "asset": "images/billing/billing-settings-and-invoices/billing-information-en.png",
+      "sha256": "7e40bc9ba95c416253f9468c1a54d4aeb1ed6cdeb75c9e55ade9b46c65d51f5e",
+      "css_viewport": [
+        1200,
+        913
+      ],
+      "css_clip_size": [
+        885,
+        332
+      ],
+      "source_pixels": [
+        1770,
+        664
+      ],
+      "source_density": 2,
+      "title": "Billing - Hellotext"
+    },
+    {
+      "section": "billing-information",
+      "locale": "en",
+      "variant": "mobile",
+      "source": "docs/editorial-work/captures/billing-settings-and-invoices/billing-information-en-mobile-original.png",
+      "asset": "images/billing/billing-settings-and-invoices/billing-information-en-mobile.png",
+      "sha256": "ea064d8ac4e0c0f4b4bcc38385c03489c3330ae6a3effd46975aa46a156c98a1",
+      "css_viewport": [
+        430,
+        900
+      ],
+      "css_clip_size": [
+        406,
+        307
+      ],
+      "source_pixels": [
+        812,
+        614
+      ],
+      "source_density": 2,
+      "title": "Billing - Hellotext"
+    },
+    {
+      "section": "country",
+      "locale": "es",
+      "variant": "desktop",
+      "source": "docs/editorial-work/captures/billing-settings-and-invoices/country-es-original.png",
+      "asset": "images/billing/billing-settings-and-invoices/country-es.png",
+      "sha256": "832def5f71def559ed7bb7a5915d057785e78b75f5c765cfe2a2310b25bb7c88",
+      "css_viewport": [
+        1200,
+        913
+      ],
+      "css_clip_size": [
+        885,
+        284
+      ],
+      "source_pixels": [
+        1770,
+        568
+      ],
+      "source_density": 2,
+      "title": "Facturación - Hellotext"
+    },
+    {
+      "section": "country",
+      "locale": "es",
+      "variant": "mobile",
+      "source": "docs/editorial-work/captures/billing-settings-and-invoices/country-es-mobile-original.png",
+      "asset": "images/billing/billing-settings-and-invoices/country-es-mobile.png",
+      "sha256": "507ca867365d038486fc3c53c59cf3c241a3fd8aa6bf4358f5fdcf5b2b60b0a5",
+      "css_viewport": [
+        430,
+        900
+      ],
+      "css_clip_size": [
+        406,
+        282
+      ],
+      "source_pixels": [
+        812,
+        564
+      ],
+      "source_density": 2,
+      "title": "Facturación - Hellotext"
+    },
+    {
+      "section": "country",
+      "locale": "en",
+      "variant": "desktop",
+      "source": "docs/editorial-work/captures/billing-settings-and-invoices/country-en-original.png",
+      "asset": "images/billing/billing-settings-and-invoices/country-en.png",
+      "sha256": "6ec4df3a539a322dd748e7eeb9178070f6b230f50df7070d19f4cb892d108803",
+      "css_viewport": [
+        1200,
+        913
+      ],
+      "css_clip_size": [
+        885,
+        284
+      ],
+      "source_pixels": [
+        1770,
+        568
+      ],
+      "source_density": 2,
+      "title": "Billing - Hellotext"
+    },
+    {
+      "section": "country",
+      "locale": "en",
+      "variant": "mobile",
+      "source": "docs/editorial-work/captures/billing-settings-and-invoices/country-en-mobile-original.png",
+      "asset": "images/billing/billing-settings-and-invoices/country-en-mobile.png",
+      "sha256": "d5566613e669f7abafc6a2e8638e8ef56f6806ef6f336aeb8c419abddd9bc5cf",
+      "css_viewport": [
+        430,
+        900
+      ],
+      "css_clip_size": [
+        406,
+        282
+      ],
+      "source_pixels": [
+        812,
+        564
+      ],
+      "source_density": 2,
+      "title": "Billing - Hellotext"
+    }
+  ],
+  "review": {
+    "source_pixels": "All sixteen retained images were inspected visually at source size; responsive variants use 390 or 430 CSS px so labels remain complete and legible at the 390 px Help breakpoint. Each card/control and border is complete, with no private data, cursor, debugger overlay, scrollbar or cut row.",
+    "article_desktop": "Passed production build and complete ES/EN review at 1280x900 CSS px. All four locale-specific desktop sources loaded; images rendered at 609 CSS px in 685 CSS px stages without overflow.",
+    "article_mobile": "Passed complete ES/EN review at 390x844 CSS px. All four locale-specific mobile sources loaded; images rendered at 316 CSS px in 358 CSS px stages without overflow and remained legible.",
+    "public_assets": "pending publication"
+  }
+}
