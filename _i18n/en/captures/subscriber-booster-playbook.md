@@ -6,7 +6,7 @@ The invitation uses predefined text variants in the business's language. After a
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Subscriber Booster invitation preview with a 10% incentive, consent and options to accept or decline.">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 550px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 550px; width: fit-content; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/captures/subscriber-booster/invitation-mobile-en.png 2x" width="682" height="620" />
         <img class="ht-editorial-visual__image" src="/images/captures/subscriber-booster/invitation-en.png" srcset="/images/captures/subscriber-booster/invitation-en.png 2x" width="1100" height="492" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Subscriber Booster invitation preview with a 10% incentive, consent and options to accept or decline." />
@@ -41,7 +41,7 @@ Choosing not to show the teaser keeps the normal way to open the chat. That sett
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Webchat teaser offering 10% off next to the orange chat launcher.">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 430px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 430px; width: fit-content; margin: 0 auto;">
       <img class="ht-editorial-visual__image" src="/images/captures/subscriber-booster/teaser-en.png" srcset="/images/captures/subscriber-booster/teaser-en.png 2x" width="860" height="400" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Webchat teaser offering 10% off next to the orange chat launcher." />
     </div>
   </div>
@@ -62,7 +62,7 @@ For the collection conversation to work, the standalone Property Collector playb
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Subscriber Booster displays a warning to enable Property Collector before configuring the data it will collect.">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 575px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 575px; width: fit-content; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/captures/property-collector/prerequisite-en-mobile.png 2x" width="780" height="1160" />
         <img class="ht-editorial-visual__image" src="/images/captures/property-collector/prerequisite-en.png" srcset="/images/captures/property-collector/prerequisite-en.png 2x" width="1150" height="1160" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Subscriber Booster displays a warning to enable Property Collector before configuring the data it will collect." />
@@ -116,7 +116,7 @@ Open **Playbooks**, click **Explore playbooks**, find the **Capture** group, and
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Subscriber Booster card in the desktop playbook catalog grid.">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 400px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 400px; width: fit-content; margin: 0 auto;">
       <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/desktop-subscriber-en.png" srcset="/images/captures/capture-overview/desktop-subscriber-en.png 2x" width="800" height="480" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Subscriber Booster card in the desktop playbook catalog grid." />
     </div>
   </div>
@@ -134,7 +134,7 @@ The **Combine store offers with AI incentives** and **Create new AI-driven offer
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Selected incentive strategy with 10% highlighted among the 5%, 10%, 15% and 20% options.">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 530px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 530px; width: fit-content; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/captures/subscriber-booster/discount-mobile-en.png 2x" width="660" height="236" />
         <img class="ht-editorial-visual__image" src="/images/captures/subscriber-booster/discount-en.png" srcset="/images/captures/subscriber-booster/discount-en.png 2x" width="1060" height="772" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Selected incentive strategy with 10% highlighted among the 5%, 10%, 15% and 20% options." />
@@ -148,7 +148,7 @@ In **Webchat options**, choose **Show teaser message to new visitors** or **Do n
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Webchat options with Show teaser message to new visitors selected and the alternative to hide it.">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 580px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 580px; width: fit-content; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/captures/subscriber-booster/webchat-options-mobile-en.png 2x" width="690" height="720" />
         <img class="ht-editorial-visual__image" src="/images/captures/subscriber-booster/webchat-options-en.png" srcset="/images/captures/subscriber-booster/webchat-options-en.png 2x" width="1160" height="660" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Webchat options with Show teaser message to new visitors selected and the alternative to hide it." />
