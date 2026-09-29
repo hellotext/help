@@ -66,9 +66,33 @@ No welcome message is sent automatically when you leave the follow-up playbook u
 
 You can choose a coupon when the selected playbook has a message prepared to include it. If you skip this step, the QR code remains available without that automatic follow-up.
 
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Optional compatible coupon and welcome journey choices for a fictional QR code.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/qr-codes/assignment-en-mobile.png" width="900" height="1050" />
+        <img class="ht-editorial-visual__image" src="/images/captures/qr-codes/assignment-en.png" width="1220" height="1100" loading="lazy" decoding="async" alt="Assign a coupon and journey step with fictional GUIA-QR-10 coupon and QR welcome journey selected." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Follow-up choices in a disabled fictional capture. No message was sent.</figcaption>
+</figure>
+
 ## Download and test the QR code
 
 After you save or skip the follow-up, you will see the QR code and **Download QR Code in SVG**.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Fictional QR code result with an option to download the SVG file.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/qr-codes/result-en-mobile.png" width="900" height="1730" />
+        <img class="ht-editorial-visual__image" src="/images/captures/qr-codes/result-en.png" width="2200" height="1550" loading="lazy" decoding="async" alt="Generated QR code and Download QR Code in SVG button on the final screen." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Demo account result: the code opens an unsent SMS draft to a reserved fictional number.</figcaption>
+</figure>
 
 SVG is a vector format that scales cleanly for printed materials, packaging, or websites.
 

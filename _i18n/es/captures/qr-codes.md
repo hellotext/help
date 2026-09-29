@@ -66,9 +66,33 @@ No se envía automáticamente un mensaje de bienvenida si no eliges una misión 
 
 Puedes seleccionar un cupón cuando la misión elegida tiene un mensaje preparado para incluirlo. Si omites este paso, el código QR sigue disponible sin ese seguimiento automático.
 
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Selección opcional de un cupón y una ruta de bienvenida compatibles para un código QR ficticio.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/qr-codes/assignment-es-mobile.png" width="900" height="1050" />
+        <img class="ht-editorial-visual__image" src="/images/captures/qr-codes/assignment-es.png" width="1220" height="1100" loading="lazy" decoding="async" alt="Paso Asigna un cupón y una ruta: cupón GUIA-QR-10 y ruta ficticia Bienvenida QR seleccionados." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Opciones de seguimiento en una captura ficticia desactivada; no se envió ningún mensaje.</figcaption>
+</figure>
+
 ## Descarga y prueba el código QR
 
 Después de guardar u omitir el seguimiento, verás el código QR y el botón **Descargar código QR en SVG**.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Resultado de un código QR ficticio con la opción de descargar el archivo SVG.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/qr-codes/result-es-mobile.png" width="900" height="1730" />
+        <img class="ht-editorial-visual__image" src="/images/captures/qr-codes/result-es.png" width="2200" height="1550" loading="lazy" decoding="async" alt="Código QR generado y botón Descargar código QR en SVG en la pantalla final." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Resultado de la cuenta de demostración: el código abre un borrador de SMS dirigido a un número ficticio reservado.</figcaption>
+</figure>
 
 SVG es vectorial y se adapta a materiales impresos, empaques o páginas web sin perder nitidez.
 
