@@ -2,7 +2,7 @@
 
 - Pair: `captures/capture-overview.md`; public ES `/es/resumen-herramientas-captura`, EN `/capture-tools-overview`.
 - Original ES, EN and stub are preserved in `originals/capture-overview/`; SHA-256: ES `e880d174931820336920d7c0cf2d462814499b6ac5f01e79823bac80ef467d97`, EN `615831305f3175fa37aa13f882a242839aeac21848c7921652c5bc0b6b700935`, stub `c65533762831f4952afb811dbeb48af3354545f26096a33ef7647dd13806ee12`.
-- Main is pending. This branch records visual_pending until its verifier commit. No publication is claimed.
+- Main remains pending. The dedicated branch is local_verified by content commit `51cb2a00ef8add8b2c78719c7de81f6258db7efc` and the following ledger verifier. No publication is claimed.
 
 ## Source audit and section plan
 
@@ -24,4 +24,4 @@ The clone preflight confirmed database `hellotext_editorial_workload_20260928`, 
 
 The first figure locates the Capture category and distinguishes Webchat from the WhatsApp button. The second identifies QR code, popup, form and shareable-link cards. The third identifies Subscriber Booster and Property Collector. Website checkout opt-ins have no card in this category; their linked integration guides own the UI. The prerequisite and testing paragraphs describe decisions across different tools, so another generic catalog image would duplicate these cards without proving a configured result.
 
-The complete ES/EN articles were reviewed in the local build at a 1280 CSS px desktop viewport and 390 CSS px mobile viewport. All six figure placements and all responsive sources rendered; mobile had no horizontal overflow, and the heading, card labels, prose, and article closing remained legible. The final production-mode build and security-header check passed with Ruby 3.3.6. All twelve source, Help asset, and built PNG files matched their provenance hashes byte for byte. Both built article URLs returned HTTP 200. The ledger verifier, PR checks and public verification remain pending; no public release is claimed here.
+The complete ES/EN articles were reviewed in the local build at a 1280 CSS px desktop viewport and 390 CSS px mobile viewport. All six figure placements and all responsive sources rendered; mobile had no horizontal overflow, and the heading, card labels, prose, and article closing remained legible. The final production-mode build and security-header check passed with Ruby 3.3.6. All twelve source, Help asset, and built PNG files matched their provenance hashes byte for byte. Both built article URLs returned HTTP 200. PR checks and public verification remain pending; no public release is claimed here.
