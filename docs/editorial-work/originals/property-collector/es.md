@@ -31,39 +31,15 @@ Usa Recolector de Propiedades directamente cuando el propósito principal de la 
 
 La misión sigue su lista configurada, pide los valores faltantes y guarda las respuestas válidas en el perfil. Esto funciona bien cuando el negocio necesita una captura conversacional reutilizable para ciertas propiedades. Para usarla de esta forma, configura y habilita la misión Recolector de Propiedades independiente.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Tarjetas de Impulsor de Suscriptores y Recolector de Propiedades en el grupo Captura del catálogo.">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 800px; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/capture-overview/ai-es-mobile.png" width="760" height="760" />
-        <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/ai-es.png" width="1780" height="520" loading="lazy" decoding="async" alt="Tarjetas de Impulsor de Suscriptores y Recolector de Propiedades en el grupo Captura del catálogo." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">El catálogo muestra Recolector de Propiedades junto a Impulsor de Suscriptores en una cuenta ficticia.</figcaption>
-</figure>
-
 ### Como requisito de otra misión
 
 Otras misiones con IA pueden incluir un subcomponente Recolector de Propiedades con los datos del perfil que necesitan.
 
 Cuando la misión de origen detecta que faltan una o más propiedades configuradas, usa internamente ese subcomponente. Recolector de Propiedades pide solamente el conjunto activo de propiedades faltantes.
 
-Para que esa recopilación previa funcione, el negocio también debe tener habilitada la misión Recolector de Propiedades: su agente realiza la conversación temporal. El subcomponente pertenece a la misión de origen y conserva su propia selección de propiedades; no usa la lista configurada en la misión independiente.
+No necesitas habilitar la misión Recolector de Propiedades independiente para este caso. El subcomponente forma parte de la configuración de la misión de origen y funciona con su propia selección de propiedades.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Aviso en Impulsor de Suscriptores que exige habilitar Recolector de Propiedades antes de configurar sus propiedades.">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 575px; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/prerequisite-es-mobile.png" width="780" height="1160" />
-        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/prerequisite-es.png" width="1150" height="1160" loading="lazy" decoding="async" alt="Impulsor de Suscriptores muestra el aviso para habilitar Recolector de Propiedades y desactiva su selección de propiedades." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Así aparece el requisito en una misión ficticia de Impulsor de Suscriptores antes de habilitar Recolector de Propiedades.</figcaption>
-</figure>
-
-La misión original continúa siendo responsable de la tarea del cliente. Cuando la recopilación necesaria se resuelve, la conversación vuelve a esa misión en vez de cambiar permanentemente de responsable.
+La misión original continúa siendo responsable de la tarea del cliente. Cuando la recopilación necesaria se resuelve, la conversación vuelve a esa misión en vez de cambiar permanentemente de ownership.
 
 [Impulsor de Suscriptores]({% link _captures/subscriber-booster-playbook.md %}) usa este modelo para elegir qué propiedades del perfil recopilar junto con el consentimiento de suscripción.
 
@@ -87,21 +63,9 @@ Cada propiedad seleccionada puede marcarse como obligatoria u opcional.
 
 Cuando un cliente rechaza compartir una propiedad opcional, Recolector de Propiedades registra esa decisión para la recopilación activa y puede continuar sin pedir repetidamente el mismo dato opcional.
 
-En la mayoría de las misiones, Recolector de Propiedades limita los intentos de preguntar por una propiedad obligatoria. Si el cliente no aporta un valor utilizable tras esos intentos, registra que no se recopiló y sigue el flujo o la derivación correspondiente. Impulsor de Suscriptores tiene un tratamiento distinto para sus datos obligatorios. Marca una propiedad como obligatoria solo cuando la tarea de origen realmente no puede continuar sin ella.
+Una propiedad obligatoria permanece dentro de la recopilación activa hasta que se resuelve o la conversación se deriva. Marca una propiedad como obligatoria solo cuando la tarea de origen realmente no puede continuar sin ella.
 
 Demasiados campos obligatorios hacen que una captura conversacional se sienta como un formulario sin salida. Mantén pequeño el conjunto obligatorio.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Editor ficticio con Nombre importante y E Mail opcional en la lista de propiedades a recopilar.">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 575px; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/fields-es-mobile.png" width="780" height="680" />
-        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/fields-es.png" width="1150" height="760" loading="lazy" decoding="async" alt="Editor ficticio con Nombre importante y E Mail opcional en la lista de propiedades a recopilar." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Lista sin guardar: Nombre está marcado como importante y E Mail queda opcional.</figcaption>
-</figure>
 
 ## Qué necesita antes de usarlo directamente
 
@@ -113,7 +77,6 @@ Antes de habilitar Recolector de Propiedades como misión independiente, confirm
 - El país y código telefónico del negocio son correctos si se recopilarán teléfonos.
 - La asignación o derivación tiene una persona o equipo apropiado.
 - Cada misión que usa Recolector de Propiedades como requisito explica por qué necesita esa información.
-- La misión Recolector de Propiedades está habilitada si otra misión necesita usar su agente para recopilar datos previamente.
 
 ## Qué puedes configurar
 
@@ -127,53 +90,7 @@ Recolector de Propiedades expone:
 - **Tono:** la voz que usa al pedir información.
 - **Asignación o derivación:** quién debería continuar cuando la recopilación no puede completarse automáticamente.
 
-Otras misiones compatibles pueden mostrar un subcomponente Recolector de Propiedades con su propia lista de propiedades requeridas. La lista se configura en la misión de origen, pero su ejecución necesita que Recolector de Propiedades esté habilitado.
-
-### Controles del editor
-
-Las siguientes vistas muestran estados de configuración de una misión ficticia sin guardar:
-
-En **Canales entrantes**, elige si la misión responde en todos los canales disponibles o sólo en una selección manual.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Control de canales entrantes con todos los canales seleccionados y opción de selección manual.">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 575px; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/channels-es-mobile.png" width="780" height="1520" />
-        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/channels-es.png" width="1150" height="1180" loading="lazy" decoding="async" alt="Control de canales entrantes con todos los canales seleccionados y opción de selección manual." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Elige todos los canales entrantes o selecciona manualmente los que usará la misión. Ejemplo sin guardar.</figcaption>
-</figure>
-
-En **Tono**, selecciona hasta tres opciones para definir cómo pide los datos.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Control de tono con Amigable, Juguetón y Exclusivo seleccionados.">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 575px; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/tone-es-mobile.png" width="780" height="970" />
-        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/tone-es.png" width="1150" height="1030" loading="lazy" decoding="async" alt="Control de tono con Amigable, Juguetón y Exclusivo seleccionados." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">El editor permite elegir hasta tres tonos; estos tres son una selección ficticia sin guardar.</figcaption>
-</figure>
-
-En **Derivación**, activa el traspaso y elige un compañero o equipo que pueda intervenir.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Control de derivación activo con el equipo ficticio Atención demo seleccionado.">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 575px; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/handoff-es-mobile.png" width="780" height="680" />
-        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/handoff-es.png" width="1150" height="660" loading="lazy" decoding="async" alt="Control de derivación activo con el equipo ficticio Atención demo seleccionado." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">La derivación puede asignarse a un equipo; el ejemplo muestra Atención demo sin guardar la misión.</figcaption>
-</figure>
+Otras misiones compatibles pueden mostrar un subcomponente Recolector de Propiedades con su propia lista de propiedades requeridas. Esa configuración interna no depende de que la misión Recolector de Propiedades independiente esté habilitada.
 
 ## Cómo maneja las respuestas la IA
 

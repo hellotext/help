@@ -144,7 +144,7 @@ When configuring properties:
 - If **Must collect** is available, select it only when the playbook cannot continue without that value. Other properties can remain optional.
 - Test with a profile missing every property, one that already has some of them, and a customer who declines an optional property.
 
-Behind the scenes, the playbook uses the [Property Collector]({% link _captures/property-collector-playbook.md %}) component to ask for, validate, and save the answers. You do not need to enable the standalone Property Collector playbook: the playbook you are configuring uses its own subcomponent. Enable the standalone Property Collector only if you also want to use it directly as a capture experience.
+Behind the scenes, the playbook uses the [Property Collector]({% link _captures/property-collector-playbook.md %}) agent to ask for, validate, and save the answers. The playbook you are configuring keeps its own selection of prerequisite properties, but the business must also enable the standalone Property Collector playbook for its agent to run that collection. You can configure the standalone playbook's own property list separately if you also want to use it directly as a capture experience.
 
 ## Customize channels
 

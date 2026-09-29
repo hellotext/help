@@ -144,7 +144,7 @@ Al configurar las propiedades:
 - Si aparece la opción **Debe recopilar**, márcala solo cuando la misión no pueda continuar sin ese dato. Las demás propiedades pueden quedar como opcionales.
 - Prueba un perfil sin ninguna de las propiedades, otro que ya tenga algunas y un cliente que no quiera compartir una propiedad opcional.
 
-Por detrás, la misión usa el componente [Recolector de Propiedades]({% link _captures/property-collector-playbook.md %}) para pedir, validar y guardar las respuestas. No necesitas habilitar la misión independiente Recolector de Propiedades: la misión que estás configurando usa su propio subcomponente. Habilita el Recolector de Propiedades independiente solo si también quieres usarlo directamente como una experiencia de captura.
+Por detrás, la misión usa el agente de [Recolector de Propiedades]({% link _captures/property-collector-playbook.md %}) para pedir, validar y guardar las respuestas. La misión que estás configurando conserva su propia selección de propiedades previas, pero el negocio también debe habilitar la misión independiente Recolector de Propiedades para que su agente ejecute esa recopilación. Puedes configurar aparte la lista propia de esa misión independiente si además quieres usarla directamente como experiencia de captura.
 
 ## Personaliza canales
 

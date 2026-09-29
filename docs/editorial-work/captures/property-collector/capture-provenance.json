@@ -1,0 +1,542 @@
+{
+  "articleKey": "captures/property-collector-playbook.md",
+  "status": "local_verified",
+  "captureMethod": "isolated Chrome compositor via loopback CDP",
+  "fixture": {
+    "database": "hellotext_editorial_workload_20260928",
+    "businessId": 5,
+    "account": "design-system@example.test",
+    "localeRestored": "es",
+    "contacts": 127,
+    "subscribedContacts": 0,
+    "propertyCollectorPlaybooks": 0,
+    "changesSaved": false
+  },
+  "sources": [
+    {
+      "file": "fields-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=property_collection",
+      "title": "Nueva misión Recolector de Propiedades | Hellotext",
+      "viewportCss": [
+        1200,
+        1000
+      ],
+      "clipCss": [
+        50,
+        100,
+        575,
+        380
+      ],
+      "pixelSize": [
+        1150,
+        760
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "7466e3d18b55f7c486f018175b070fd82fe94471fce508cd06dedb6572183d51",
+      "state": "Unsaved Name and E Mail fields; Name marked important, E Mail optional",
+      "publicationDecision": "approved source; insert with English counterpart after full guide review"
+    },
+    {
+      "file": "fields-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=property_collection",
+      "title": "New Property Collector playbook | Hellotext",
+      "viewportCss": [
+        1200,
+        1000
+      ],
+      "clipCss": [
+        50,
+        100,
+        575,
+        380
+      ],
+      "pixelSize": [
+        1150,
+        760
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "0ee9921301d5fbd667d2759c5688f33430271f20c0f19b68cac66ada9a61291e",
+      "state": "Unsaved Name and Email fields; Name marked important, Email optional",
+      "publicationDecision": "approved source; insert with Spanish counterpart after full guide review"
+    },
+    {
+      "file": "selector-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=property_collection",
+      "title": "Nueva misión Recolector de Propiedades | Hellotext",
+      "viewportCss": [
+        1200,
+        1000
+      ],
+      "clipCss": [
+        50,
+        100,
+        575,
+        480
+      ],
+      "pixelSize": [
+        1150,
+        960
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "62ff0d09f2f65b8b6038eb8acfba00e74a745c44965c2d502511c8f751da5d8b",
+      "state": "Unsaved property selector with remaining options, including custom profile property labels",
+      "publicationDecision": "candidate only; the English dropdown exposes a custom label that remains Spanish, so do not publish this figure pair yet"
+    },
+    {
+      "file": "channels-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=channel",
+      "title": "Nueva misión Recolector de Propiedades | Hellotext",
+      "viewportCss": [
+        1200,
+        1000
+      ],
+      "clipCss": [
+        50,
+        100,
+        575,
+        590
+      ],
+      "pixelSize": [
+        1150,
+        1180
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "09a69bcc4d04170870d9e7123c84391069810694179dc20ac44248df0abc1571",
+      "state": "Unsaved incoming-channel choice: all channels selected and manual selection available",
+      "publicationDecision": "approved source; insert with bilingual counterpart after full guide review"
+    },
+    {
+      "file": "channels-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=channel",
+      "title": "New Property Collector playbook | Hellotext",
+      "viewportCss": [
+        1200,
+        1000
+      ],
+      "clipCss": [
+        50,
+        100,
+        575,
+        590
+      ],
+      "pixelSize": [
+        1150,
+        1180
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "fed5b1e6710e0f6ad456ee06a4cae92680c2d85f1a78fef79dbe95d08a18222d",
+      "state": "Unsaved incoming-channel choice: all channels selected and manual selection available",
+      "publicationDecision": "approved source; insert with bilingual counterpart after full guide review"
+    },
+    {
+      "file": "tone-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=tone",
+      "title": "Nueva misión Recolector de Propiedades | Hellotext",
+      "viewportCss": [
+        1200,
+        1000
+      ],
+      "clipCss": [
+        50,
+        100,
+        575,
+        515
+      ],
+      "pixelSize": [
+        1150,
+        1030
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "f97c2e66346680730e6c64708e701b95a3abf460ac099a1cb214d8baf22fdd8d",
+      "state": "Unsaved tone choice: three selected tones",
+      "publicationDecision": "approved source; insert with bilingual counterpart after full guide review"
+    },
+    {
+      "file": "tone-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=tone",
+      "title": "New Property Collector playbook | Hellotext",
+      "viewportCss": [
+        1200,
+        1000
+      ],
+      "clipCss": [
+        50,
+        100,
+        575,
+        515
+      ],
+      "pixelSize": [
+        1150,
+        1030
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "b8c33b227fbb6fc79ab89a2eccc079f9a9b0c8a06cf21773005ad1ffcec1d053",
+      "state": "Unsaved tone choice: three selected tones",
+      "publicationDecision": "approved source; insert with bilingual counterpart after full guide review"
+    },
+    {
+      "file": "handoff-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+      "title": "Nueva misión Recolector de Propiedades | Hellotext",
+      "viewportCss": [
+        1200,
+        1000
+      ],
+      "clipCss": [
+        50,
+        100,
+        575,
+        330
+      ],
+      "pixelSize": [
+        1150,
+        660
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "ef1c8abc4712dacc2effa83f6c968dd4a9453a5b1be059609a877a91e1693356",
+      "state": "Unsaved escalation control with fictional team Atención demo selected",
+      "publicationDecision": "approved source; insert with bilingual counterpart after full guide review"
+    },
+    {
+      "file": "handoff-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+      "title": "New Property Collector playbook | Hellotext",
+      "viewportCss": [
+        1200,
+        1000
+      ],
+      "clipCss": [
+        50,
+        100,
+        575,
+        330
+      ],
+      "pixelSize": [
+        1150,
+        660
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "0c5506ceed87f6ed0c9e57a4969d80cee2dc41f04ab25b04969917ab3f3bdfe9",
+      "state": "Unsaved escalation control with fictional team Atención demo selected",
+      "publicationDecision": "approved source; insert with bilingual counterpart after full guide review"
+    },
+    {
+      "file": "fields-es-mobile.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=property_collection",
+      "title": "Nueva misión Recolector de Propiedades | Hellotext",
+      "viewportCss": [
+        390,
+        1000
+      ],
+      "clipCss": [
+        0,
+        120,
+        390,
+        340
+      ],
+      "pixelSize": [
+        780,
+        680
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "cbeb6dd7e5d40b9ae75a5a6224525274ffe7b178829eee98327245dee47f7a61",
+      "state": "Focused responsive mobile control using unsaved fictional editor state",
+      "publicationDecision": "approved source; pair with desktop asset"
+    },
+    {
+      "file": "fields-en-mobile.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=property_collection",
+      "title": "New Property Collector playbook | Hellotext",
+      "viewportCss": [
+        390,
+        1000
+      ],
+      "clipCss": [
+        0,
+        120,
+        390,
+        380
+      ],
+      "pixelSize": [
+        780,
+        760
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "68f6c4ff87842bedc623577c685d6008c3b10a5f9b4f21609ac78aa74b5a0146",
+      "state": "Focused responsive mobile control using unsaved fictional editor state",
+      "publicationDecision": "approved source; pair with desktop asset"
+    },
+    {
+      "file": "channels-es-mobile.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=channel",
+      "title": "Nueva misión Recolector de Propiedades | Hellotext",
+      "viewportCss": [
+        390,
+        1000
+      ],
+      "clipCss": [
+        0,
+        120,
+        390,
+        760
+      ],
+      "pixelSize": [
+        780,
+        1520
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "213da9d4c0fa8688e03ce9f368928e7df240b1d538670285a437c5935c0a24a3",
+      "state": "Focused responsive mobile control using unsaved fictional editor state",
+      "publicationDecision": "approved source; pair with desktop asset"
+    },
+    {
+      "file": "channels-en-mobile.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=channel",
+      "title": "New Property Collector playbook | Hellotext",
+      "viewportCss": [
+        390,
+        1000
+      ],
+      "clipCss": [
+        0,
+        120,
+        390,
+        760
+      ],
+      "pixelSize": [
+        780,
+        1520
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "260918096cf05d4ac82990773682e76fa51ea9b3478ab6e6305d67cc8fcbaf0e",
+      "state": "Focused responsive mobile control using unsaved fictional editor state",
+      "publicationDecision": "approved source; pair with desktop asset"
+    },
+    {
+      "file": "tone-es-mobile.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=tone",
+      "title": "Nueva misión Recolector de Propiedades | Hellotext",
+      "viewportCss": [
+        390,
+        1000
+      ],
+      "clipCss": [
+        0,
+        120,
+        390,
+        485
+      ],
+      "pixelSize": [
+        780,
+        970
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "bb6765e4ad6cfca6b321bf5ed74fd9c37e89be50045c6649cfbd640120decf62",
+      "state": "Focused responsive mobile control using unsaved fictional editor state",
+      "publicationDecision": "approved source; pair with desktop asset"
+    },
+    {
+      "file": "tone-en-mobile.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=tone",
+      "title": "New Property Collector playbook | Hellotext",
+      "viewportCss": [
+        390,
+        1000
+      ],
+      "clipCss": [
+        0,
+        120,
+        390,
+        485
+      ],
+      "pixelSize": [
+        780,
+        970
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "5b59a2acc71f53d84aa7bb1d7280af18a300e2fe34a7a0bf3058f52328f7a21f",
+      "state": "Focused responsive mobile control using unsaved fictional editor state",
+      "publicationDecision": "approved source; pair with desktop asset"
+    },
+    {
+      "file": "handoff-es-mobile.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+      "title": "Nueva misión Recolector de Propiedades | Hellotext",
+      "viewportCss": [
+        390,
+        1000
+      ],
+      "clipCss": [
+        0,
+        120,
+        390,
+        340
+      ],
+      "pixelSize": [
+        780,
+        680
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "4f252e8b5d86ad772df8b7f979ae8d61de1970ff36f7110f5f1e0b1b5867b2cc",
+      "state": "Focused responsive mobile control using unsaved fictional editor state",
+      "publicationDecision": "approved source; pair with desktop asset"
+    },
+    {
+      "file": "handoff-en-mobile.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+      "title": "New Property Collector playbook | Hellotext",
+      "viewportCss": [
+        390,
+        1000
+      ],
+      "clipCss": [
+        0,
+        120,
+        390,
+        340
+      ],
+      "pixelSize": [
+        780,
+        680
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "97bad463814d7ec88c224ea32ccf6500c65c8eed86a39ef83cd8fba79d2f3793",
+      "state": "Focused responsive mobile control using unsaved fictional editor state",
+      "publicationDecision": "approved source; pair with desktop asset"
+    },
+    {
+      "file": "prerequisite-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/subscriber-booster/new?component=property_collection",
+      "title": "Nueva misión Impulsor de Suscriptores | Hellotext",
+      "viewportCss": [
+        1200,
+        1000
+      ],
+      "clipCss": [
+        50,
+        100,
+        575,
+        580
+      ],
+      "pixelSize": [
+        1150,
+        1160
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "b027833ab5672866a829b880b154344f1ebcd67fcb9d416f1c7b4b1f18e5de08",
+      "state": "Unsaved Subscriber Booster prerequisite panel disabled until Property Collector is enabled",
+      "publicationDecision": "approved source; demonstrates distinct prerequisite state"
+    },
+    {
+      "file": "prerequisite-es-mobile.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/subscriber-booster/new?component=property_collection",
+      "title": "Nueva misión Impulsor de Suscriptores | Hellotext",
+      "viewportCss": [
+        390,
+        1000
+      ],
+      "clipCss": [
+        0,
+        120,
+        390,
+        580
+      ],
+      "pixelSize": [
+        780,
+        1160
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "91d1607736fb99bb52251a32a52d53166655f3dbe739603ea70abcaa70aded36",
+      "state": "Unsaved Subscriber Booster prerequisite panel disabled until Property Collector is enabled",
+      "publicationDecision": "approved source; demonstrates distinct prerequisite state"
+    },
+    {
+      "file": "prerequisite-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/subscriber-booster/new?component=property_collection",
+      "title": "New Subscriber Booster playbook | Hellotext",
+      "viewportCss": [
+        1200,
+        1000
+      ],
+      "clipCss": [
+        50,
+        100,
+        575,
+        580
+      ],
+      "pixelSize": [
+        1150,
+        1160
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "122d9f3ccf0b4a3615076e05c9747ab2df64ee5e1a37ed716daf816375a74b80",
+      "state": "Unsaved Subscriber Booster prerequisite panel disabled until Property Collector is enabled",
+      "publicationDecision": "approved source; demonstrates distinct prerequisite state"
+    },
+    {
+      "file": "prerequisite-en-mobile.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/subscriber-booster/new?component=property_collection",
+      "title": "New Subscriber Booster playbook | Hellotext",
+      "viewportCss": [
+        390,
+        1000
+      ],
+      "clipCss": [
+        0,
+        120,
+        390,
+        580
+      ],
+      "pixelSize": [
+        780,
+        1160
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "d4539f46e52f43ca84e14408bf36e4f20c17f1a66c36a6c62fcbe79622d87802",
+      "state": "Unsaved Subscriber Booster prerequisite panel disabled until Property Collector is enabled",
+      "publicationDecision": "approved source; demonstrates distinct prerequisite state"
+    }
+  ]
+}
