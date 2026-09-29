@@ -31,6 +31,18 @@ Use Property Collector directly when the main purpose of the conversation is to 
 
 The playbook follows its configured collection list, asks for missing values, and saves valid answers to the profile. This works well when the business needs a reusable conversational capture for selected properties. To use it this way, configure and enable the standalone Property Collector playbook.
 
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Subscriber Booster and Property Collector cards in the Captures catalog group.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 800px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/capture-overview/ai-en-mobile.png" width="760" height="760" />
+        <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/ai-en.png" width="1780" height="520" loading="lazy" decoding="async" alt="Subscriber Booster and Property Collector cards in the Captures catalog group." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">The catalog shows Property Collector beside Subscriber Booster in a fictional account.</figcaption>
+</figure>
+
 ### As a prerequisite for another playbook
 
 Other AI playbooks can include a Property Collector subcomponent with the profile data they need.
@@ -38,6 +50,18 @@ Other AI playbooks can include a Property Collector subcomponent with the profil
 When the source playbook detects that one or more configured properties are missing, it uses that subcomponent internally. Property Collector asks only for that active set of missing properties.
 
 For that prerequisite collection to run, the business must also have the Property Collector playbook enabled: its agent handles the temporary conversation. The subcomponent belongs to the source playbook and keeps its own property selection; it does not use the standalone playbook's configured list.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Subscriber Booster notice requiring Property Collector to be enabled before configuring its properties.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 575px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/prerequisite-en-mobile.png" width="780" height="1160" />
+        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/prerequisite-en.png" width="1150" height="1160" loading="lazy" decoding="async" alt="Subscriber Booster shows the enable Property Collector notice and disables its property selection." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">This prerequisite appears in a fictional Subscriber Booster playbook before Property Collector is enabled.</figcaption>
+</figure>
 
 The original playbook remains responsible for the customer's task. Once the required collection is resolved, the conversation returns to that playbook instead of permanently changing ownership.
 
@@ -67,6 +91,18 @@ In most playbooks, Property Collector limits how many times it asks for a requir
 
 Too many required fields make a conversational capture feel like a form with no exit. Keep the required set small.
 
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Fictional editor with Name marked important and Email optional in the property collection list.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 575px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/fields-en-mobile.png" width="780" height="760" />
+        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/fields-en.png" width="1150" height="760" loading="lazy" decoding="async" alt="Fictional editor with Name marked important and Email optional in the property collection list." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Unsaved list: Name is marked important and Email remains optional.</figcaption>
+</figure>
+
 ## What it needs before direct use
 
 Before enabling Property Collector as a standalone playbook, confirm:
@@ -92,6 +128,52 @@ Property Collector exposes:
 - **Assignment or derivation:** who should take over when collection cannot continue automatically.
 
 Other compatible playbooks can expose a Property Collector subcomponent with their own prerequisite property list. The source playbook owns that list, but execution requires Property Collector to be enabled.
+
+### Editor controls
+
+The following views show unsaved configuration states for a fictional playbook:
+
+Under **Incoming channels**, choose all available channels or make a manual selection.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Incoming-channel control with all channels selected and a manual-selection option.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 575px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/channels-en-mobile.png" width="780" height="1520" />
+        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/channels-en.png" width="1150" height="1180" loading="lazy" decoding="async" alt="Incoming-channel control with all channels selected and a manual-selection option." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Use all incoming channels or select the channels manually. Unsaved example.</figcaption>
+</figure>
+
+Under **Tone**, select up to three options to shape how the agent asks for information.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Tone control with Friendly, Playful, and Exclusive selected.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 575px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/tone-en-mobile.png" width="780" height="970" />
+        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/tone-en.png" width="1150" height="1030" loading="lazy" decoding="async" alt="Tone control with Friendly, Playful, and Exclusive selected." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">The editor supports up to three tones; these are an unsaved fictional selection.</figcaption>
+</figure>
+
+Under **Escalation**, enable the handoff and choose a teammate or team who can step in.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Escalation control enabled with the fictional Atención demo team selected.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 575px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/handoff-en-mobile.png" width="780" height="680" />
+        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/handoff-en.png" width="1150" height="660" loading="lazy" decoding="async" alt="Escalation control enabled with the fictional Atención demo team selected." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Escalation can route to a team; this unsaved example uses the fictional Atención demo team.</figcaption>
+</figure>
 
 ## How the AI handles answers
 
