@@ -29,24 +29,12 @@ Keep reading: [How Hellotext works]({% link _getting-started/how-hellotext-works
 ## How a campaign moves through Hellotext
 
 1. **Draft:** choose the delivery channels, audience, content, and timing. You can save and return before submitting it.
-2. **Review:** depending on the target and templates, a campaign may require editorial review. New or changed WhatsApp content can also require Meta approval.
+2. **Review:** larger campaigns require editorial review, and new or changed WhatsApp template content can also require Meta approval.
 3. **Scheduled or sending:** an approved campaign waits for its selected time or begins delivery.
 4. **Delivered:** results become available in the automatically generated report. An active send can be paused and resumed when needed.
 5. **Archived:** move a completed campaign out of the active Delivered list without deleting its history.
 
 The Campaigns page organizes this lifecycle into **Scheduled**, **Delivered**, **Draft**, and **Archived** tabs. A campaign can appear in Scheduled while it is still under review or preparing to send.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--campaign-tabs" aria-label="Campaign lifecycle tabs">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/campaigns/campaigns-overview/campaign-tabs-en-mobile.png" width="410" height="130" />
-        <img class="ht-editorial-visual__image" src="/images/campaigns/campaigns-overview/campaign-tabs-en.png" width="1280" height="150" loading="lazy" decoding="async" alt="Scheduled, Delivered, Draft, and Archived campaign tabs, with Draft selected." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Fictional account interface. The mobile crop focuses on Delivered and Draft; the other tabs are named in the text.</figcaption>
-</figure>
 
 ## Prepare the essentials
 
@@ -72,18 +60,6 @@ A campaign is the outbound launch; the Inbox is where the resulting one-to-one c
 ## Measure the result automatically
 
 Hellotext creates the campaign report after delivery. Use it to review delivery, tracked clicks, conversion, ROI, attributed purchases and revenue, customer activity, and performance by channel when available.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Campaign report delivery funnel">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 800px; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-en-mobile.png" width="740" height="860" />
-        <img class="ht-editorial-visual__image" src="/images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-en.png" width="1560" height="860" loading="lazy" decoding="async" alt="Fictional campaign report funnel showing Sent, Delivered, Engagement, and Conversion stages." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Approved Campaign reporting screenshot with fictional data; no campaign was sent for this guide.</figcaption>
-</figure>
 
 Keep reading: [Campaign reporting]({% link _analytics-reporting-attribution/campaign-reporting.md %}).
 
