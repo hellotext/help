@@ -6,6 +6,7 @@ import { createHash } from 'node:crypto';
 import { execFileSync } from 'node:child_process';
 import { rename, rm, writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
+import WebSocket from 'ws';
 
 const options = Object.fromEntries(process.argv.slice(2).map((arg) => {
   const separator = arg.indexOf('=');

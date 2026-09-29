@@ -5,6 +5,7 @@
 import { execFileSync } from 'node:child_process';
 import { readFile, stat } from 'node:fs/promises';
 import { resolve } from 'node:path';
+import WebSocket from 'ws';
 
 const options = Object.fromEntries(process.argv.slice(2).map((arg) => {
   const separator = arg.indexOf('=');
