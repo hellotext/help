@@ -28,9 +28,9 @@ Hellotext elimina superposiciones y calcula el target estimado según los canale
 
 Usa el límite de audiencia cuando quieras enviar intencionalmente a una cantidad máxima de clientes elegibles. El límite controla el tamaño de la campaña, pero no vuelve contactable a un perfil que no sea elegible.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Opciones de límite de audiencia">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--campaign-audience-limit" aria-label="Opciones de límite de audiencia">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 600px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/campaigns/campaign-best-practices/audience-limit-es-mobile.png" width="470" height="104" />
         <img class="ht-editorial-visual__image" src="/images/campaigns/campaign-best-practices/audience-limit-es.png" width="1152" height="626" loading="lazy" decoding="async" alt="Opciones de límite de audiencia, con el control Limitar a y su campo para la cantidad de clientes." />

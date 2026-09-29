@@ -28,9 +28,9 @@ Hellotext removes overlaps and calculates the estimated target from the selected
 
 Use the audience limit when you intentionally want to send to a maximum number of eligible customers. A limit controls campaign size but does not make an ineligible profile contactable.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Audience limit options">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--campaign-audience-limit" aria-label="Audience limit options">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 600px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/campaigns/campaign-best-practices/audience-limit-en-mobile.png" width="450" height="96" />
         <img class="ht-editorial-visual__image" src="/images/campaigns/campaign-best-practices/audience-limit-en.png" width="1152" height="626" loading="lazy" decoding="async" alt="Audience limit options, including the Limit to control and its customer-count field." />
