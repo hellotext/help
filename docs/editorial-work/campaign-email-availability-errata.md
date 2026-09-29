@@ -14,4 +14,6 @@
 
 ## Verification
 
-`yarn build` and the security-header validation passed. All six complete edited pages were reviewed in the local browser at 1280 CSS px desktop and 390 CSS px mobile; corrected passages and headings rendered without horizontal overflow. The English option list and test guidance were also inspected visually at mobile width. `git diff --check` passed. Pending: re-run PR checks and review, merge, and public verification. The public pages remain unchanged until PR #205 merges.
+`yarn build` and the security-header validation passed. All six complete edited pages were reviewed in the local browser at 1280 CSS px desktop and 390 CSS px mobile; corrected passages and headings rendered without horizontal overflow. The English option list and test guidance were also inspected visually at mobile width. `git diff --check` passed.
+
+Help PR #205 integrated the bilingual errata with merge commit `e4db48574d2b2ef942a3cdfe0c3fab69080593e3`. Build, Aikido Security, Netlify preview, header checks and repeated Codex review passed. Main Build passed, and normal Netlify production deploy `6abb1cf037aff100087f4232` published for the exact merge SHA. The six public campaign pages returned HTTP 200 with their corrected Email-only text. These three campaign rows remain `pending` until their own full reviews and useful captures are complete.
