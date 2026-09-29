@@ -1,0 +1,59 @@
+{
+  "articleKey": "captures/property-collector-playbook.md",
+  "status": "visual_pending",
+  "captureMethod": "isolated Chrome compositor via loopback CDP",
+  "fixture": {
+    "database": "hellotext_editorial_workload_20260928",
+    "businessId": 5,
+    "account": "design-system@example.test",
+    "localeRestored": "es",
+    "contacts": 127,
+    "subscribedContacts": 0,
+    "propertyCollectorPlaybooks": 0,
+    "changesSaved": false
+  },
+  "sources": [
+    {
+      "file": "fields-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=property_collection",
+      "title": "Nueva misión Recolector de Propiedades | Hellotext",
+      "viewportCss": [1200, 1000],
+      "clipCss": [50, 100, 575, 380],
+      "pixelSize": [1150, 760],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "7466e3d18b55f7c486f018175b070fd82fe94471fce508cd06dedb6572183d51",
+      "state": "Unsaved Name and E Mail fields; Name marked important, E Mail optional",
+      "publicationDecision": "approved source; insert with English counterpart after full guide review"
+    },
+    {
+      "file": "fields-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=property_collection",
+      "title": "New Property Collector playbook | Hellotext",
+      "viewportCss": [1200, 1000],
+      "clipCss": [50, 100, 575, 380],
+      "pixelSize": [1150, 760],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "0ee9921301d5fbd667d2759c5688f33430271f20c0f19b68cac66ada9a61291e",
+      "state": "Unsaved Name and Email fields; Name marked important, Email optional",
+      "publicationDecision": "approved source; insert with Spanish counterpart after full guide review"
+    },
+    {
+      "file": "selector-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=property_collection",
+      "title": "Nueva misión Recolector de Propiedades | Hellotext",
+      "viewportCss": [1200, 1000],
+      "clipCss": [50, 100, 575, 480],
+      "pixelSize": [1150, 960],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "62ff0d09f2f65b8b6038eb8acfba00e74a745c44965c2d502511c8f751da5d8b",
+      "state": "Unsaved property selector with remaining options, including custom profile property labels",
+      "publicationDecision": "candidate only; the English dropdown exposes a custom label that remains Spanish, so do not publish this figure pair yet"
+    }
+  ]
+}
