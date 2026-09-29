@@ -14,8 +14,8 @@ Before changing plans, compare the current public [Hellotext pricing page](https
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 678px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/billing/change-or-cancel-plan/chooser-en-mobile.png" width="1158" height="1610" />
-        <img class="ht-editorial-visual__image" src="/images/billing/change-or-cancel-plan/chooser-en.png" width="1320" height="1870" loading="lazy" decoding="async" alt="Comparison with five plans, the current Enterprise plan, and the monthly or yearly payment control." />
+        <source media="(max-width: 600px)" srcset="/images/billing/change-or-cancel-plan/chooser-en-mobile.png" width="1158" height="1530" />
+        <img class="ht-editorial-visual__image" src="/images/billing/change-or-cancel-plan/chooser-en.png" width="1320" height="1870" loading="lazy" decoding="async" alt="Comparison with four plans, Grow as the current plan, Pro as a higher option, and the monthly or yearly payment control." />
       </picture>
     </div>
   </div>
@@ -33,11 +33,11 @@ In the comparison, **Next** leads to the applicable review or payment-method ste
     <div class="ht-editorial-visual__image-frame" style="max-width: 718px; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/billing/change-or-cancel-plan/next-en-mobile.png" width="760" height="336" />
-        <img class="ht-editorial-visual__image" src="/images/billing/change-or-cancel-plan/next-en.png" width="1400" height="212" loading="lazy" decoding="async" alt="Fictional Grow summary with amount, applicable taxes, and the Next button before a plan change is confirmed." />
+        <img class="ht-editorial-visual__image" src="/images/billing/change-or-cancel-plan/next-en.png" width="1400" height="212" loading="lazy" decoding="async" alt="Fictional Pro summary with amount, applicable taxes, and the Next button before a plan change is confirmed." />
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Selecting Grow illustrates where Next appears; no plan change was made.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Selecting Pro from Grow illustrates where Next appears; no plan change was made.</figcaption>
 </figure>
 
 ## Move to a lower plan
@@ -55,7 +55,7 @@ In the comparison, **Cancel Subscription** opens a confirmation when the account
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Cancellation confirmation without submitting it">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 587px; margin: 0 auto;">
-      <img class="ht-editorial-visual__image" src="/images/billing/change-or-cancel-plan/cancel-en.png" width="1138" height="470" loading="lazy" decoding="async" alt="Fictional cancellation confirmation with the plan-validity date and Cancel Subscription and Cancel buttons." />
+      <img class="ht-editorial-visual__image" src="/images/billing/change-or-cancel-plan/cancel-en.png" width="1138" height="460" loading="lazy" decoding="async" alt="Fictional Grow cancellation confirmation with the plan-validity date and Cancel Subscription and Cancel buttons." />
     </div>
   </div>
   <figcaption class="ht-editorial-visual__caption">The dialog was opened in an isolated account to show the date; its final cancellation button was not pressed.</figcaption>

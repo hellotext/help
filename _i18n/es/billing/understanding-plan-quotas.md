@@ -13,7 +13,7 @@ La primera tarjeta muestra el plan activo, el importe mensual calculado hasta es
     <div class="ht-editorial-visual__image-frame" style="max-width: 800px; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/billing/understanding-plan-quotas/plan-es-mobile.png" width="740" height="528" />
-        <img class="ht-editorial-visual__image" src="/images/billing/understanding-plan-quotas/plan-es.png" width="1464" height="464" loading="lazy" decoding="async" alt="Tarjeta del plan Enterprise ficticio con monto mensual de $2,499 y el control Cambiar mi Plan." />
+        <img class="ht-editorial-visual__image" src="/images/billing/understanding-plan-quotas/plan-es.png" width="1464" height="464" loading="lazy" decoding="async" alt="Tarjeta del plan Grow ficticio con monto mensual de $299 y el control Cambiar mi Plan." />
       </picture>
     </div>
   </div>

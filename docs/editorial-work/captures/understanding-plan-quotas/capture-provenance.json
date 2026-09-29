@@ -1,20 +1,20 @@
 {
   "article_key": "billing/understanding-plan-quotas.md",
   "capture_date_utc": "2026-09-29",
-  "status": "public_verified",
+  "status": "local_verified",
   "route": "isolated headless Chrome compositor via CDP Page.captureScreenshot",
-  "source_url": "http://127.0.0.1:3191/hellotext/settings/billing",
-  "chrome_profile": "dedicated temporary Chrome profile on 127.0.0.1:9339, exactly one local tab",
+  "source_url": "http://127.0.0.1:3192/hellotext/settings/billing",
+  "chrome_profile": "dedicated headless Chrome profile on 127.0.0.1:9341 with one local 3192 tab",
   "chrome_flags": [
     "--headless=new",
     "--force-color-profile=display-p3-d65",
     "--force-device-scale-factor=2"
   ],
-  "database": "hellotext_editorial_workload_20260928 isolated local clone, business 5, zero messageable contacts",
-  "account": "design-system@example.test fictional owner; temporarily changed locale es -> en -> es with exact database guard",
-  "business_state": "Enterprise plan, one active September 2026 quota, $2,499 plan minimum, zero attributed revenue, zero SMS and other message transactions; no invoice or payment created",
-  "safety": "No payment method, invoice, billing data, campaign, message or financial transaction was created, submitted or sent.",
-  "guard": "Capture tool verified local PID/profile/port, exactly one exact local URL/title/locale tab, fictional account and control, CSS viewport, zoom 1, DPR 2, scroll, stable pre/post state, PNG and embedded Display P3 ICC. The development-only profiler/Bullet overlays were removed from the isolated page DOM before two mobile captures; no application content or saved data changed.",
+  "database": "hellotext_editorial_billing_grow_20260929 isolated clone; business 5; all 127 contacts unconfirmed",
+  "account": "design-system@example.test fictional owner; guarded callback-free locale es -> en -> es in clone",
+  "business_state": "Grow active monthly plan at USD 299; attribution fee 3%; zero quota transactions. Enterprise catalog monthly amount set to user-confirmed USD 1899 in clone. Pro selected for review at USD 699 without submitting a plan change.",
+  "safety": "Separate local database clone, guarded by database name, business ID, fictitious owner, unconfirmed contact states, and zero quota transactions. No subscription, payment, cancellation, campaign, or message action submitted. The cancellation modal was only opened.",
+  "guard": "Each capture verified the dedicated Chrome PID/profile/loopback CDP port, exactly one local tab, exact URL/title/locale, fictional account, target text, CSS viewport, zoom 1, DPR 2, stable pre/post state, PNG dimensions and embedded Display P3. Development profiler overlays were removed from the isolated page DOM; application data and screenshot pixels were not edited.",
   "source_transform": "direct compositor crop only, no pixel editing, resampling or chart reconstruction",
   "records": [
     {
@@ -23,7 +23,7 @@
       "variant": "desktop",
       "source": "docs/editorial-work/captures/understanding-plan-quotas/plan-es-original.png",
       "asset": "images/billing/understanding-plan-quotas/plan-es.png",
-      "sha256": "bea0e41822724dba39af3fc0cb6b223cdc244921cf5c372fe6a3fb534a099e62",
+      "sha256": "0c201a4b3c448e363e82a4fffcf3fff9027686428dec3daeaa074461fcdda124",
       "css_viewport": [
         1024,
         900
@@ -44,7 +44,8 @@
       ],
       "source_density": 2,
       "title": "Facturación - Hellotext",
-      "icc": "Display P3 Gamut with sRGB Transfer"
+      "icc": "Display P3 Gamut with sRGB Transfer",
+      "url": "http://127.0.0.1:3192/hellotext/settings/billing"
     },
     {
       "section": "plan",
@@ -52,7 +53,7 @@
       "variant": "mobile",
       "source": "docs/editorial-work/captures/understanding-plan-quotas/plan-es-mobile-original.png",
       "asset": "images/billing/understanding-plan-quotas/plan-es-mobile.png",
-      "sha256": "2008fa24a2deb59ebb8d17a6a21953ff36a8f3967e4cb0f2b22a22d73def2dac",
+      "sha256": "aefd87bdd9bc7c71d228023118240f8a3068d0a7206603f0508f4e02e79714f0",
       "css_viewport": [
         390,
         844
@@ -73,7 +74,8 @@
       ],
       "source_density": 2,
       "title": "Facturación - Hellotext",
-      "icc": "Display P3 Gamut with sRGB Transfer"
+      "icc": "Display P3 Gamut with sRGB Transfer",
+      "url": "http://127.0.0.1:3192/hellotext/settings/billing"
     },
     {
       "section": "usage",
@@ -81,7 +83,7 @@
       "variant": "desktop",
       "source": "docs/editorial-work/captures/understanding-plan-quotas/usage-es-original.png",
       "asset": "images/billing/understanding-plan-quotas/usage-es.png",
-      "sha256": "5fa006bee16e36566009ccb43cfe7683d84795a68ed66f51d61fd5d4ebce0833",
+      "sha256": "36f4e84a0de720c1005c0931c2fc397ba0b4d3ceef4be0ef87e4247d71deac95",
       "css_viewport": [
         1024,
         900
@@ -102,7 +104,8 @@
       ],
       "source_density": 2,
       "title": "Facturación - Hellotext",
-      "icc": "Display P3 Gamut with sRGB Transfer"
+      "icc": "Display P3 Gamut with sRGB Transfer",
+      "url": "http://127.0.0.1:3192/hellotext/settings/billing"
     },
     {
       "section": "usage",
@@ -110,7 +113,7 @@
       "variant": "mobile",
       "source": "docs/editorial-work/captures/understanding-plan-quotas/usage-es-mobile-original.png",
       "asset": "images/billing/understanding-plan-quotas/usage-es-mobile.png",
-      "sha256": "2b9f9d00456b1e6219d8782d2ba1d13ee18fd7b0ca8f8909f420491b27b09996",
+      "sha256": "eb366f5fc780b1ac917a7f9afbf1efbf2d6814a0ea0d198f5ce6021623bca133",
       "css_viewport": [
         390,
         844
@@ -131,7 +134,8 @@
       ],
       "source_density": 2,
       "title": "Facturación - Hellotext",
-      "icc": "Display P3 Gamut with sRGB Transfer"
+      "icc": "Display P3 Gamut with sRGB Transfer",
+      "url": "http://127.0.0.1:3192/hellotext/settings/billing"
     },
     {
       "section": "plan",
@@ -139,7 +143,7 @@
       "variant": "desktop",
       "source": "docs/editorial-work/captures/understanding-plan-quotas/plan-en-original.png",
       "asset": "images/billing/understanding-plan-quotas/plan-en.png",
-      "sha256": "75cf59d3f6c49e5fbc7ef6b3168db015a5fdf5ede7dec4a9acee374231652c10",
+      "sha256": "aedba16b4f67229a4f9666c43d3c936d5fdfa415ec911d2a7ccb5a9f35419ef5",
       "css_viewport": [
         1024,
         900
@@ -160,7 +164,8 @@
       ],
       "source_density": 2,
       "title": "Billing - Hellotext",
-      "icc": "Display P3 Gamut with sRGB Transfer"
+      "icc": "Display P3 Gamut with sRGB Transfer",
+      "url": "http://127.0.0.1:3192/hellotext/settings/billing"
     },
     {
       "section": "plan",
@@ -168,7 +173,7 @@
       "variant": "mobile",
       "source": "docs/editorial-work/captures/understanding-plan-quotas/plan-en-mobile-original.png",
       "asset": "images/billing/understanding-plan-quotas/plan-en-mobile.png",
-      "sha256": "f3d821655d379ea2263fd02cfdef94eb532cdc24cf3e15aae79254c4ad98f5da",
+      "sha256": "b5b43eaed7e4da2e62db73ad5c5ae70f92826b9fa75b05b810d12390c3cca588",
       "css_viewport": [
         390,
         844
@@ -189,7 +194,8 @@
       ],
       "source_density": 2,
       "title": "Billing - Hellotext",
-      "icc": "Display P3 Gamut with sRGB Transfer"
+      "icc": "Display P3 Gamut with sRGB Transfer",
+      "url": "http://127.0.0.1:3192/hellotext/settings/billing"
     },
     {
       "section": "usage",
@@ -197,7 +203,7 @@
       "variant": "desktop",
       "source": "docs/editorial-work/captures/understanding-plan-quotas/usage-en-original.png",
       "asset": "images/billing/understanding-plan-quotas/usage-en.png",
-      "sha256": "eaecfa8c0d9a068e9d0e14dfadc3a93878dc992fcdf238c5d05520cba2a65d44",
+      "sha256": "a94b2d82b0acc131d33a572f2fd0c3a9b38a3077aa15e6cff88a7a57bcef82bc",
       "css_viewport": [
         1024,
         900
@@ -218,7 +224,8 @@
       ],
       "source_density": 2,
       "title": "Billing - Hellotext",
-      "icc": "Display P3 Gamut with sRGB Transfer"
+      "icc": "Display P3 Gamut with sRGB Transfer",
+      "url": "http://127.0.0.1:3192/hellotext/settings/billing"
     },
     {
       "section": "usage",
@@ -226,7 +233,7 @@
       "variant": "mobile",
       "source": "docs/editorial-work/captures/understanding-plan-quotas/usage-en-mobile-original.png",
       "asset": "images/billing/understanding-plan-quotas/usage-en-mobile.png",
-      "sha256": "01abf320cd20c8fb15a05c55ed3f09720c4fb7fe2270235b8c4ad0d926038993",
+      "sha256": "f4623da9c96d2e16747c30a9775cc325f0b8be5e36cfbb76bdef2040b590fa86",
       "css_viewport": [
         390,
         844
@@ -247,7 +254,8 @@
       ],
       "source_density": 2,
       "title": "Billing - Hellotext",
-      "icc": "Display P3 Gamut with sRGB Transfer"
+      "icc": "Display P3 Gamut with sRGB Transfer",
+      "url": "http://127.0.0.1:3192/hellotext/settings/billing"
     }
   ],
   "reused_assets": [
@@ -283,5 +291,6 @@
       "sha256": "a1b6803eaee04083e7c778a0d8186f5ce136d658e355124a8a2ec0e7449052dc",
       "from_article": "billing/billing-settings-and-invoices.md"
     }
-  ]
+  ],
+  "correction": "Replaces the earlier Enterprise USD 2499 examples after the user specified USD 1899. Grow is the illustrated current plan and Pro is the safe unsubmitted upgrade example."
 }
