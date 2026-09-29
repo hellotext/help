@@ -48,6 +48,29 @@ The Campaigns page organizes this lifecycle into **Scheduled**, **Delivered**, *
   <figcaption class="ht-editorial-visual__caption">Fictional account interface. The mobile crop focuses on Delivered and Draft; the other tabs are named in the text.</figcaption>
 </figure>
 
+In **Delivered**, the table summarizes delivered messages, conversion, ROI, and attributed revenue for each campaign. A dash means that a metric is unavailable for that campaign.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--campaign-index" aria-label="Delivered campaign summary">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 600px; margin: 0 auto 12px;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/campaigns/campaigns-overview/campaign-index-list-en-mobile.png" width="660" height="630" />
+        <img class="ht-editorial-visual__image" src="/images/campaigns/campaigns-overview/campaign-index-list-en.png" width="1200" height="630" loading="lazy" decoding="async" alt="Two fictional campaigns in the Delivered tab, with their delivery states." />
+      </picture>
+    </div>
+    <div class="ht-editorial-visual__image-frame ht-editorial-visual__image-frame--mobile-only" style="max-width: 365px; margin: 0 auto 12px;">
+      <img class="ht-editorial-visual__image" src="/images/campaigns/campaigns-overview/campaign-index-delivery-en-mobile.png" width="730" height="630" loading="lazy" decoding="async" alt="Delivered messages and conversion for the same two fictional campaigns in the mobile table." />
+    </div>
+    <div class="ht-editorial-visual__image-frame" style="max-width: 570px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/campaigns/campaigns-overview/campaign-index-results-en-mobile.png" width="680" height="630" />
+        <img class="ht-editorial-visual__image" src="/images/campaigns/campaigns-overview/campaign-index-results-en.png" width="1140" height="630" loading="lazy" decoding="async" alt="Results columns for the same two fictional campaigns." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Crops of the same rows in a fictional account. On mobile, the table scrolls horizontally: three crops show names, delivery and conversion, then ROI and attributed revenue.</figcaption>
+</figure>
+
 ## Prepare the essentials
 
 Before creating a campaign, confirm:
