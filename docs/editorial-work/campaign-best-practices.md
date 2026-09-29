@@ -32,6 +32,7 @@
 
 - `yarn build` passed with the production security-header check. The full ES/EN article was reviewed in the local Help browser at desktop 1280×720 and mobile 390×844. Each language rendered three static figures in order; localized responsive assets resolved, the lavender stage and separate white frame stayed within the article column, and document scroll width equaled the mobile viewport (390 CSS px). The focused audience cap remained legible on mobile after replacing the rejected wider detail crop. The existing Campaign reporting funnel stayed legible.
 - Built ES and EN pages include the correction that campaigns of at least 100 recipients *can* require editorial review and approved WhatsApp templates can bypass it. The article links and headings remained intact. This local build is not evidence of public publication.
+- Content and eight new P3 sources were committed in `022cc577`; the following verifier commit records the local `local_verified` state in `progress.csv` and provenance.
 
 ## Public verification
 
