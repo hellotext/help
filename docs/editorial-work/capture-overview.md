@@ -1,0 +1,27 @@
+# Capture tools overview
+
+- Pair: `captures/capture-overview.md`; public ES `/es/resumen-herramientas-captura`, EN `/capture-tools-overview`.
+- Original ES, EN and stub are preserved in `originals/capture-overview/`; SHA-256: ES `e880d174931820336920d7c0cf2d462814499b6ac5f01e79823bac80ef467d97`, EN `615831305f3175fa37aa13f882a242839aeac21848c7921652c5bc0b6b700935`, stub `c65533762831f4952afb811dbeb48af3354545f26096a33ef7647dd13806ee12`.
+- Main is pending. This branch records visual_pending until its verifier commit. No publication is claimed.
+
+## Source audit and section plan
+
+Rails `JourneysController#new` renders `new_journey_type` when no type is selected. The template contains the All/In plan filters and grouped catalog cards. `JourneysHelper#playbook_catalog_categories` includes the Capture group with Webchat Widget, WhatsApp Widget, QR Code, Website Popup, Website Form, Shareable Link, Subscriber Booster and Property Collector, among other cards. The existing route to Missions/Playbooks and Explore playbooks is consistent with the current UI. The displayed category label is singular CAPTURA/CAPTURE, so both guide languages now name that exact label. The current catalog cards were inspected in the isolated fictional UI before capture. Website Popup explicitly offers email and SMS subscriptions, so the shared prerequisite now names email alongside SMS and WhatsApp as a channel that depends on the chosen tool.
+
+| Section | Reader question | Visual decision |
+| --- | --- | --- |
+| Introduction and entry | Where does Explore playbooks lead, and how is Captures labeled? | A focused native ES/EN catalog screenshot with the Captures heading and complete recognizable cards is useful. Inspect the current page at final Help width; split into complementary crops only if one figure would make labels too small. |
+| Choose a capture tool | Which card corresponds to QR, link, popup, form, Webchat or AI capture? | Reuse the catalog screenshot when it identifies those choices. Avoid repeating the same screen for every paragraph. Individual linked guides own their configuration screens. |
+| Before creating | Channel, opt-in copy and next action are decisions made across tools. | No common control; the channel/consent UI differs by tool, so use prose and linked guides. |
+| Identify and test | Placement naming and device testing vary by tool. | No shared result screen. A generic catalog screenshot would not prove a completed opt-in; linked guides own those specific flows. |
+| Next steps | Link list only. | No additional screenshot. |
+
+No capture may contain real customer data. The clone at `127.0.0.1:3191` uses `hellotext_editorial_workload_20260928`, business 5 and fictitious account `design-system@example.test`; verify these again before each capture. Use automatic isolated Chrome CDP PNG P3 at 2×, one local tab, ES then EN and restore ES. Do not save a playbook, submit opt-in, or send a message.
+
+## Protected capture evidence and editorial decisions
+
+The clone preflight confirmed database `hellotext_editorial_workload_20260928`, business 5, fictional owner `design-system@example.test`, 127 contacts, zero messageable and zero subscribed. No playbook was created, activated, tested or shared. The owner locale was guardedly changed ES→EN→ES. The dedicated isolated Chrome profile `/private/tmp/hellotext-capture-overview-headless-9341` had one loopback tab at `http://127.0.0.1:3191/hellotext/journeys/new`. The compositor capture tool checked process/profile ownership, exact URL/title/locale/account, visible text, CSS viewport, zoom 1 and DPR 2 before and after each shot. Twelve genuine Display P3 PNGs were visually inspected: three distinct catalog regions per language, each with a responsive mobile source. The first English mobile crops exposed part of the next card or heading; they were recaptured with complete, balanced card boundaries. Exact source clips, dimensions and SHA-256 are in `captures/capture-overview/capture-provenance.json`. Help assets are byte-identical copies, with no pixel editing.
+
+The first figure locates the Capture category and distinguishes Webchat from the WhatsApp button. The second identifies QR code, popup, form and shareable-link cards. The third identifies Subscriber Booster and Property Collector. Website checkout opt-ins have no card in this category; their linked integration guides own the UI. The prerequisite and testing paragraphs describe decisions across different tools, so another generic catalog image would duplicate these cards without proving a configured result.
+
+The complete ES/EN articles were reviewed in the local build at a 1280 CSS px desktop viewport and 390 CSS px mobile viewport. All six figure placements and all responsive sources rendered; mobile had no horizontal overflow, and the heading, card labels, prose, and article closing remained legible. The final production-mode build and security-header check passed with Ruby 3.3.6. All twelve source, Help asset, and built PNG files matched their provenance hashes byte for byte. Both built article URLs returned HTTP 200. The ledger verifier, PR checks and public verification remain pending; no public release is claimed here.

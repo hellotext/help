@@ -2,19 +2,7 @@ Las misiones de captura ayudan a que las personas se suscriban a tu negocio o co
 
 Hellotext presenta estas opciones como misiones, pero no todas funcionan de la misma manera. Algunas abren SMS o WhatsApp con un mensaje de opt-in prellenado. Otras recopilan información en tu sitio web o durante el checkout. Webchat crea una entrada conversacional en el sitio, mientras que Impulsor de Suscriptores y Recolector de Propiedades usan IA dentro de una conversación.
 
-Para encontrar las misiones de captura en Hellotext, abre **Misiones**, haz clic en **Explorar misiones** y ve al grupo **Captura**.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Grupo Captura del catálogo con las tarjetas Widget de Webchat y Widget de WhatsApp.">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/capture-overview/entry-es-mobile.png" width="760" height="870" />
-        <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/entry-es.png" width="1780" height="600" loading="lazy" decoding="async" alt="Grupo Captura del catálogo con las tarjetas Widget de Webchat y Widget de WhatsApp." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Grupo Captura y tarjetas de los widgets conversacionales en la interfaz de una cuenta ficticia.</figcaption>
-</figure>
+Para encontrar las misiones de captura en Hellotext, abre **Misiones**, haz clic en **Explorar misiones** y ve al grupo **Capturas**.
 
 ## Elige una herramienta de captura
 
@@ -26,43 +14,17 @@ Usa **Popup de Sitio Web** cuando quieres captar teléfonos, emails u otros dato
 
 Usa **formularios** cuando quieres recopilar datos de contacto o propiedades personalizadas del perfil directamente en tu sitio web.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Tarjetas de Suscriptor por Código QR, Popup de Sitio Web, Formulario de Sitio Web y Enlace Compartible.">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/capture-overview/site-es-mobile.png" width="760" height="1580" />
-        <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/site-es.png" width="1780" height="1030" loading="lazy" decoding="async" alt="Tarjetas de Suscriptor por Código QR, Popup de Sitio Web, Formulario de Sitio Web y Enlace Compartible." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Opciones de captura para códigos QR, popup, formulario y enlace compartible en la interfaz de una cuenta ficticia.</figcaption>
-</figure>
-
 Usa **Widget de Webchat** cuando quieres que visitantes inicien una conversación desde tu sitio antes de comprar, pedir soporte o continuar por WhatsApp.
-
-Usa **Widget de WhatsApp** cuando quieres mostrar un botón flotante que abra WhatsApp desde tu sitio. Es una entrada distinta del Webchat.
 
 Usa **Impulsor de Suscriptores** cuando la IA debería introducir una suscripción basada en consentimiento en un momento relevante de una conversación de Webchat o una conversación iniciada por el cliente en WhatsApp.
 
 Usa **Recolector de Propiedades** cuando quieres que la IA recopile propiedades faltantes del perfil directamente o antes de que otra misión continúe.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Tarjetas de Impulsor de Suscriptores y Recolector de Propiedades.">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/capture-overview/ai-es-mobile.png" width="760" height="760" />
-        <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/ai-es.png" width="1780" height="520" loading="lazy" decoding="async" alt="Tarjetas de Impulsor de Suscriptores y Recolector de Propiedades." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Opciones de captura asistida en la interfaz de una cuenta ficticia.</figcaption>
-</figure>
-
 Usa **opt-in en checkout de Shopify** u **opt-in en checkout de Wix** cuando quieres que tus clientes se suscriban mientras completan una compra.
 
 ## Antes de crear una captura
 
-Decide a qué canal se deberían suscribir tus clientes: SMS, WhatsApp o email, según la herramienta de captura.
+Decide a qué canal se deberían suscribir tus clientes, normalmente SMS o WhatsApp.
 
 Confirma que el canal esté conectado y listo para recibir opt-ins.
 
