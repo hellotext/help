@@ -49,3 +49,5 @@ The public [ES guide](https://help.hellotext.com/es/impulsor-suscriptores) and [
 ### Responsive frame refinement
 
 The registration batch also narrows each white frame to fit its selected responsive image, keeping the original logical-size cap and full-width lavender stage. At 390 CSS pixels the ES discount frame is now 257 pixels around its 245-pixel source, with the same inner inset as the other mobile figures. At 590 pixels the responsive invitation, prerequisite, discount and options frames fit their native source widths plus the standard inset. Both locales were reviewed again in the browser at 1440, 390 and 590 pixels, and the production build/security-header checks passed. All screenshot bytes and hashes are unchanged.
+
+The ledger now references the final verified frame refinement commit `6959cb2f70ace6c91c8a16526d9a10062f13085b`; original article content `28eacbe6` remains its ancestor. This verifier is a separate commit.
