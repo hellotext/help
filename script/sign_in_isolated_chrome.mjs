@@ -18,9 +18,13 @@ for (const key of ['port', 'profile', 'url', 'email', 'password-file']) {
 const port = Number(options.port);
 const profile = resolve(options.profile);
 const destination = new URL(options.url);
+const identityUrl = options['identity-url'] && new URL(options['identity-url']);
 if (!Number.isInteger(port) || port < 1024 || port > 65535) throw new Error('Invalid port');
 if (!profile.startsWith('/private/tmp/hellotext-')) throw new Error('Use a dedicated temporary profile');
 if (destination.protocol !== 'http:' || destination.hostname !== '127.0.0.1') throw new Error('Use only a loopback demo URL');
+if (identityUrl && (identityUrl.origin !== destination.origin || identityUrl.pathname !== '/hellotext/journeys/new')) {
+  throw new Error('Identity check must use the local demo playbook catalog');
+}
 if (!options.email.endsWith('@example.test')) throw new Error('Use only a fictional account');
 
 const listener = execFileSync('lsof', ['-nP', `-iTCP:${port}`, '-sTCP:LISTEN', '-Fpcn'], { encoding: 'utf8' });
@@ -60,7 +64,7 @@ function call(method, params = {}) {
   });
 }
 async function evaluate(expression) {
-  const response = await call('Runtime.evaluate', { expression, returnByValue: true });
+  const response = await call('Runtime.evaluate', { expression, returnByValue: true, awaitPromise: true });
   if (response.exceptionDetails) throw new Error('Demo page evaluation failed');
   return response.result.value;
 }
@@ -71,7 +75,14 @@ async function waitFor(predicate, label) {
   }
   throw new Error(`${label} did not appear in the isolated app`);
 }
-const accountExpression = `[...document.querySelectorAll('h2')].some(e => e.textContent.trim() === ${JSON.stringify(options.email)})`;
+const accountExpression = `(async () => {
+  if ([...document.querySelectorAll('h2')].some(e => e.textContent.trim() === ${JSON.stringify(options.email)})) return true;
+  if (!${JSON.stringify(identityUrl?.href ?? null)}) return false;
+  const response = await fetch(${JSON.stringify(identityUrl?.href ?? null)}, { credentials: 'same-origin' });
+  if (!response.ok || response.url !== ${JSON.stringify(identityUrl?.href ?? null)}) return false;
+  const identityPage = new DOMParser().parseFromString(await response.text(), 'text/html');
+  return [...identityPage.querySelectorAll('h2')].some(e => e.textContent.trim() === ${JSON.stringify(options.email)});
+})()`;
 
 try {
   if (!(await evaluate(accountExpression))) {

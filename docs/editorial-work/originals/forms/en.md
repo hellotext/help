@@ -33,28 +33,16 @@ For channel eligibility and consent, see [Who you can message]({% link _audience
 ## Create the form
 
 1. Open **Playbooks** and click **Explore playbooks**.
-2. Find the **Capture** group and choose **Website Form**.
+2. Find the **Captures** group and choose **Website Form**.
 3. Give the form a name that identifies its placement or purpose.
 4. Edit the heading and supporting content.
 5. Add and configure the customer profile fields you need.
 6. Edit the submission button and consent notice.
-7. Click **Save & Continue**.
+7. Click **Save and continue**.
 8. Assign a coupon and journey, or skip this optional step.
 9. Choose whether to share the hosted link or embed the form on your website.
 
 Use a distinct name for each placement when you need to compare results, such as `Newsletter footer` or `Wholesale inquiry page`.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Capture options, including Website Form">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/capture-overview/site-en-mobile.png" width="760" height="1568" />
-        <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/site-en.png" width="1780" height="1030" loading="lazy" decoding="async" alt="Capture group with the Website Form card among the signup tools." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Website Form appears in the Capture group of the playbook catalog. This reuses the approved image from Capture tools overview.</figcaption>
-</figure>
 
 ## Configure content and fields
 
@@ -62,27 +50,13 @@ The form editor lets you configure four parts.
 
 ### Heading
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Preview of a fictional form with heading, phone field, button and SMS notice">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/captures/forms/en/preview.png" width="1960" height="1460" loading="lazy" decoding="async" alt="Fictional form with a Get updates from Editorial Demo heading, Phone number field, Subscribe button and SMS consent notice." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">The preview shows the form's four parts together. Its SMS notice matches the phone field.</figcaption>
-</figure>
+![Website Form heading editor](images/captures/forms/en/component-header.jpeg)
 
 The heading contains the title and supporting content shown before the fields. Use it to explain why the visitor should complete the form and what happens next.
 
 ### Fields
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Phone field settings in the form editor">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/captures/forms/en/fields.png" width="3320" height="2480" loading="lazy" decoding="async" alt="Fictional Phone field settings with type, label, placeholder and Required control." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Select a field in the preview to set its type, label, placeholder and whether it is required.</figcaption>
-</figure>
+![Website Form fields editor](images/captures/forms/en/component-inputs.jpeg)
 
 Fields can use standard information such as first name, last name, phone, and email, as well as supported custom properties already defined for customer profiles. For each field, use a clear label and placeholder, and make it required only when the form cannot serve its purpose without it.
 
@@ -90,13 +64,15 @@ Keep the form focused. A shorter form is easier to complete on a phone and leave
 
 ### Button
 
+![Website Form button editor](images/captures/forms/en/component-button.jpeg)
+
 The button submits the form. Use a short action label that makes the result clear, such as **Subscribe**, **Get updates**, or **Send**.
 
 ### Notice
 
-The notice appears after the button and can contain consent, privacy, or other supporting information. Make sure it matches the channels and message types the visitor agrees to receive.
+![Website Form notice editor](images/captures/forms/en/component-footer.jpeg)
 
-Review the prefilled text before saving: match the channel it names to the fields in this form. If you ask for a phone number, an email-only notice does not describe that signup.
+The notice appears after the button and can contain consent, privacy, or other supporting information. Make sure it matches the channels and message types the visitor agrees to receive.
 
 ## Assign a coupon and journey
 
@@ -105,15 +81,6 @@ Coupon and journey assignment are optional.
 Assign a coupon only when the page promises a discount for completing the form. Confirm that the offer and its conditions match what the visitor sees before submitting.
 
 Assign a journey when the new subscriber should enter a welcome or follow-up flow. Check that another capture or integration does not already start the same journey for this signup.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Optional coupon and journey selectors">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/captures/forms/en/optional.png" width="1720" height="1240" loading="lazy" decoding="async" alt="Optional step of a fictional form with coupon and journey selectors left unassigned." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Both assignments are optional; this fictional draft does not activate a coupon or journey.</figcaption>
-</figure>
 
 ## Publish the form
 
@@ -133,15 +100,6 @@ Use the generated HTML when the form should appear inside one of your pages.
 4. Apply your website styles without removing or renaming the generated form attributes.
 
 The generated code contains the identifier Hellotext uses to load the form definition. Copy the current snippet from the product instead of recreating it from an example in this guide.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Generated HTML for embedding the form">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/captures/forms/en/embed.png" width="2100" height="2100" loading="lazy" decoding="async" alt="Embed card showing the generated HTML for a fictional form." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">The snippet includes the form identifier and the parts Hellotext fills in when it loads on your page.</figcaption>
-</figure>
 
 ## How verification works
 

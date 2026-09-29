@@ -33,28 +33,16 @@ Para conocer los requisitos de elegibilidad y consentimiento, consulta [A quién
 ## Crear el formulario
 
 1. Abre **Misiones** y haz clic en **Explorar misiones**.
-2. Busca el grupo **Captura** y elige **Formulario de Sitio Web**.
+2. Busca el grupo **Capturas** y elige **Formulario de Sitio Web**.
 3. Asigna un nombre que identifique la ubicación o el propósito del formulario.
 4. Edita el encabezado y el contenido de apoyo.
 5. Agrega y configura los campos del perfil del cliente que necesites.
 6. Edita el botón de envío y el aviso de consentimiento.
-7. Haz clic en **Guardar & Continuar**.
+7. Haz clic en **Guardar y continuar**.
 8. Asigna un cupón y una ruta, u omite este paso opcional.
 9. Elige entre compartir el enlace alojado o integrar el formulario en tu sitio.
 
 Usa un nombre diferente para cada ubicación cuando necesites comparar resultados, por ejemplo `Footer del newsletter` o `Página de consultas mayoristas`.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Opciones de Captura, incluido Formulario de Sitio Web">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/capture-overview/site-es-mobile.png" width="760" height="1580" />
-        <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/site-es.png" width="1780" height="1030" loading="lazy" decoding="async" alt="Grupo Captura con la tarjeta Formulario de Sitio Web entre las herramientas de suscripción." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">En el catálogo de misiones, Formulario de Sitio Web aparece en el grupo Captura. Se reutiliza la imagen aprobada del resumen de herramientas de captura.</figcaption>
-</figure>
 
 ## Configurar el contenido y los campos
 
@@ -62,27 +50,13 @@ El editor permite configurar cuatro partes.
 
 ### Encabezado
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Vista previa de un formulario ficticio con título, teléfono, botón y aviso SMS">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/captures/forms/es/preview.png" width="1960" height="1580" loading="lazy" decoding="async" alt="Formulario ficticio con encabezado Recibe novedades de Editorial Demo, campo Teléfono, botón Suscribirme y aviso de consentimiento para SMS." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">La vista previa reúne las cuatro partes del formulario. El aviso de SMS coincide con el teléfono solicitado.</figcaption>
-</figure>
+![Editor del encabezado del Formulario de Sitio Web](images/captures/forms/es/component-header.jpeg)
 
 El encabezado contiene el título y el contenido de apoyo que aparecen antes de los campos. Úsalo para explicar por qué conviene completar el formulario y qué sucederá después.
 
 ### Campos
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Configuración del campo Teléfono en el editor de formularios">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/captures/forms/es/fields.png" width="3320" height="2480" loading="lazy" decoding="async" alt="Panel de un campo Teléfono ficticio con tipo, etiqueta, marcador de posición y control Requerido." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Selecciona un campo en la vista previa para ajustar su tipo, etiqueta, marcador de posición y obligatoriedad.</figcaption>
-</figure>
+![Editor de campos del Formulario de Sitio Web](images/captures/forms/es/component-inputs.jpeg)
 
 Los campos pueden usar información estándar como nombre, apellido, teléfono y email, además de las propiedades personalizadas compatibles que ya existan en los perfiles del cliente. Usa una etiqueta y un placeholder claros para cada campo, y márcalo como obligatorio solo cuando el formulario no pueda cumplir su propósito sin esa información.
 
@@ -90,13 +64,15 @@ Mantén el formulario enfocado. Un formulario corto es más fácil de completar 
 
 ### Botón
 
+![Editor del botón del Formulario de Sitio Web](images/captures/forms/es/component-button.jpeg)
+
 El botón envía el formulario. Usa una etiqueta de acción breve que deje claro el resultado, como **Suscribirme**, **Recibir novedades** o **Enviar**.
 
 ### Aviso
 
-El aviso aparece después del botón y puede contener el consentimiento, la privacidad u otra información de apoyo. Confirma que coincida con los canales y tipos de mensajes que la persona acepta recibir.
+![Editor del aviso del Formulario de Sitio Web](images/captures/forms/es/component-footer.jpeg)
 
-Revisa el texto precargado antes de guardar: adapta la mención del canal a los campos que solicita este formulario. Si pides un teléfono, un aviso que solo habla de emails no describe esa suscripción.
+El aviso aparece después del botón y puede contener el consentimiento, la privacidad u otra información de apoyo. Confirma que coincida con los canales y tipos de mensajes que la persona acepta recibir.
 
 ## Asignar un cupón y una ruta
 
@@ -105,15 +81,6 @@ La asignación de cupón y ruta es opcional.
 Asigna un cupón solo cuando la página prometa un descuento por completar el formulario. Confirma que la oferta y sus condiciones coincidan con lo que la persona ve antes de enviarlo.
 
 Asigna una ruta cuando la nueva persona suscrita deba entrar en un flujo de bienvenida o seguimiento. Comprueba que otra captura o integración no inicie ya la misma ruta para esta suscripción.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Selectores opcionales de cupón y ruta">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/captures/forms/es/optional.png" width="1720" height="1240" loading="lazy" decoding="async" alt="Paso opcional de un formulario ficticio con selectores de cupón y ruta sin asignar." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Ambas asignaciones son opcionales; este borrador ficticio no activa cupón ni ruta.</figcaption>
-</figure>
 
 ## Publicar el formulario
 
@@ -133,15 +100,6 @@ Usa el HTML generado cuando el formulario deba aparecer dentro de una de tus pá
 4. Aplica los estilos de tu sitio sin eliminar ni cambiar los atributos generados del formulario.
 
 El código contiene el identificador que Hellotext utiliza para cargar la definición del formulario. Copia siempre el snippet actual desde el producto en lugar de reconstruirlo a partir de un ejemplo de esta guía.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Código HTML generado para integrar el formulario">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame">
-      <img class="ht-editorial-visual__image" src="/images/captures/forms/es/embed.png" width="2100" height="2100" loading="lazy" decoding="async" alt="Tarjeta de integración que muestra el HTML generado para el formulario ficticio." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">El snippet incluye el identificador del formulario y las partes que Hellotext completa al cargarlo en tu página.</figcaption>
-</figure>
 
 ## Cómo funciona la verificación
 
