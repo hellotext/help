@@ -1,0 +1,26 @@
+{
+  "rails_revision": "e6ae33a310d46ba88d9bf5b70845618a0b4a6461",
+  "verified_sdk": {
+    "name": "@hellotext/hellotext",
+    "version": "2.6.0",
+    "npm_tarball_sha256": "de0125ba4e8e920ec9f57a9d1fe4a8dd794ebd581030c11a5d37ffc55da859d4",
+    "cdn_sha256": "0b0226a25c43002a9da506c80de12b576b0c0fd074a16e6d4f465a7748c26331",
+    "source_files": {
+      "npm-session.js": "044a8aa34abb70a4cdfb26c9f38c2bf23af0eacc4229fb08ab0d78897f5fd745",
+      "npm-hellotext.js": "76eafba301b960171dc358e7ccf6423618882c7d3f4dbcf2f63c1287d5fc24dc",
+      "npm-page.js": "f791f8094ca4572571e5e4a1c507cd4d3199cc118ef0b98ebaa876b250c46d42"
+    }
+  },
+  "contracts": [
+    "Product POST201/object vs tracking received; active subscription/token business scope and422 validation.",
+    "Product parent variants response includes parent default-variant representation; variants PATCH empty array discards existing variants; dedicated variant endpoints preferred.",
+    "Public IDs vs reference/SKU/source: controller no source selector; case-insensitive finder; SKU uniqueness managed by integration, not promised database constraint.",
+    "Price decimal/currency/converted amount vs stock; existing price unchanged.",
+    "No public inventory stock/state/location parameters; Internal lookup in_stock fallback not evidence of upstream availability.",
+    "Published SDK2.6.0 async initialize and explicit page.viewed/product.viewed, URL/session context and no double dispatch.",
+    "Same-business profile/session, original seconds/ISO timestamp, consent distinct, received vs processed and no returned product ID.",
+    "Bounded pagination/checkpoint, ambiguous references and uncertain POST retry, no general idempotency key."
+  ],
+  "executed_examples": false,
+  "mutation_api_calls": 0
+}
