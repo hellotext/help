@@ -1,17 +1,5 @@
 Popup de Sitio Web te permite captar números de teléfono, direcciones de email y otros datos del perfil del cliente sin sacar a los visitantes de tu sitio.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Editor completo en pantallas amplias; vista enfocada del primer paso en pantallas pequeñas. Ambas vistas incluyen una fotografía en la cabecera.">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 1266px; width: fit-content; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 1399px)" srcset="/images/captures/website-popup/editor-follow-up/es/steps-mobile.png 2x" width="764" height="1240" />
-        <img class="ht-editorial-visual__image" src="/images/captures/website-popup/editor-follow-up/es/overview.png" srcset="/images/captures/website-popup/editor-follow-up/es/overview.png 2x" width="2496" height="1568" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Editor completo en pantallas amplias; vista enfocada del primer paso en pantallas pequeñas. Ambas vistas incluyen una fotografía en la cabecera." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Editor desktop real con una fotografía de ejemplo en la cabecera. En pantallas estrechas se muestra el foco del popup; los controles se detallan más abajo.</figcaption>
-</figure>
-
 Es una misión de captura, no una misión agéntica ni una ruta. El popup crea o actualiza un perfil del cliente. Puedes asignar una ruta activa de bienvenida o seguimiento y, de forma opcional, un cupón. Guardar un dato de contacto no equivale por sí solo a completar una suscripción verificada.
 
 Popup de Sitio Web se está habilitando de forma progresiva. Si aparece como **A solicitud**, está deshabilitado o no aparece en el grupo **Captura** dentro de **Explorar misiones**, confirma su disponibilidad con tu equipo de Hellotext antes de planificar el lanzamiento.
@@ -65,16 +53,16 @@ Para revisar elegibilidad por canal y consentimiento, consulta [A quién puedes 
 
 Los íconos de móvil y escritorio cambian la vista del editor. **Vista previa** abre una vista separada que permite revisar la experiencia sin publicar el popup. Revisa ambas mientras trabajas en lugar de considerar que la vista de desktop representa el resultado final para todos los visitantes.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Pasos y selectores de dispositivo junto al popup ficticio; en pantallas pequeñas, vista enfocada del primer paso con fotografía en la cabecera.">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Editor del popup ficticio con pasos Email, Nombre y Completado y selectores de dispositivo.">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 538px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 511px; width: fit-content; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/website-popup/editor-follow-up/es/steps-mobile.png 2x" width="764" height="1240" />
-        <img class="ht-editorial-visual__image" src="/images/captures/website-popup/editor-follow-up/es/steps.png" srcset="/images/captures/website-popup/editor-follow-up/es/steps.png 2x" width="1040" height="1352" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Pasos y selectores de dispositivo junto al popup ficticio; en pantallas pequeñas, vista enfocada del primer paso con fotografía en la cabecera." />
+        <source media="(max-width: 600px)" srcset="/images/captures/website-popup/steps-mobile-es.png 2x" width="748" height="1370" />
+        <img class="ht-editorial-visual__image" src="/images/captures/website-popup/steps-es.png" srcset="/images/captures/website-popup/steps-es.png 2x" width="1022" height="1504" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Editor del popup ficticio con pasos Email, Nombre y Completado y selectores de dispositivo." />
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Datos ficticios; la cabecera con imagen se muestra en la vista móvil Default. El popup sigue en borrador y no se envió el formulario.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Datos ficticios; el foco móvil muestra el preview del primer paso. No se publicó ni se envió el formulario.</figcaption>
 </figure>
 
 ## Construye los pasos de suscripción
@@ -90,27 +78,27 @@ En cada paso puedes:
 - Agregar, eliminar, renombrar y reordenar pasos.
 - Ver cómo se muestra el paso en mobile y desktop.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Controles de tipo de campo, marcador y email requerido; en pantallas amplias también se muestra el popup ficticio con imagen de cabecera.">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Controles de tipo de campo, marcador de posición y requisito obligatorio del email.">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 772px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 739px; width: fit-content; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/website-popup/editor-follow-up/es/fields-mobile.png 2x" width="712" height="516" />
-        <img class="ht-editorial-visual__image" src="/images/captures/website-popup/editor-follow-up/es/fields.png" srcset="/images/captures/website-popup/editor-follow-up/es/fields.png 2x" width="1508" height="1340" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Controles de tipo de campo, marcador y email requerido; en pantallas amplias también se muestra el popup ficticio con imagen de cabecera." />
+        <source media="(max-width: 600px)" srcset="/images/captures/website-popup/fields-mobile-es.png 2x" width="712" height="516" />
+        <img class="ht-editorial-visual__image" src="/images/captures/website-popup/fields-es.png" srcset="/images/captures/website-popup/fields-es.png 2x" width="1478" height="1524" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Controles de tipo de campo, marcador de posición y requisito obligatorio del email." />
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Desktop muestra el campo y su panel; el foco móvil conserva completos los controles de tipo, marcador y requerido.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">En escritorio se ve el campo y su panel; el foco móvil muestra los controles de tipo, placeholder y requisito.</figcaption>
 </figure>
 
 Usa el estado **Completado** para explicar qué ocurrirá después del formulario. La vista previa de este estado es una simulación de diseño; no confirma una suscripción, verificación o entrega real. Haz que este mensaje sea útil incluso cuando no hayas asignado un cupón.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Vista previa del estado Completado del popup ficticio con fotografía en la cabecera.">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Vista previa del estado Completado del popup ficticio.">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 400px; width: fit-content; margin: 0 auto;">
-      <img class="ht-editorial-visual__image" src="/images/captures/website-popup/editor-follow-up/es/completion.png" srcset="/images/captures/website-popup/editor-follow-up/es/completion.png 2x" width="764" height="1088" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Vista previa del estado Completado del popup ficticio con fotografía en la cabecera." />
+    <div class="ht-editorial-visual__image-frame" style="max-width: 374px; width: fit-content; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/captures/website-popup/completion-es.png" srcset="/images/captures/website-popup/completion-es.png 2x" width="748" height="1072" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Vista previa del estado Completado del popup ficticio." />
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Simulación de diseño con la misma cabecera; no demuestra una suscripción ni un mensaje recibido.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Es un preview de diseño, no evidencia de una suscripción o mensaje recibido.</figcaption>
 </figure>
 
 No pidas todas las propiedades disponibles solo porque existen. Cada campo adicional exige más esfuerzo al visitante y puede reducir la cantidad de personas que completan el popup. Para publicar, incluye y marca como obligatorio al menos un campo de email o teléfono. Capta lo mínimo necesario para el primer seguimiento útil y enriquece el perfil más adelante mediante conversaciones, compras, formularios u otras señales.

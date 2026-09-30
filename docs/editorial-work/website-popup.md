@@ -44,3 +44,27 @@ Local content verifier: `47364a64a3c89f42be2c7c51fc1ecfcc39685190`. The separate
 Help PR [#247](https://github.com/hellotext/help/pull/247) merged by commit `e699783005766ce5fdf663fbb9eb82a97f8f2c05`, preserving content `47364a64a3c89f42be2c7c51fc1ecfcc39685190` and ledger verifier `7b5d12f17e147d1f2553d070978d37330649eaf8` as ancestors. Build, Aikido, Netlify preview and header checks passed. Both preview pages and all 26 preview PNGs matched the intended figures and approved hashes. PR review and comments were checked before merge; the final review completed without an unresolved finding. Main [Build 36649103454](https://github.com/hellotext/help/actions/runs/36649103454) passed for the exact merge SHA. No check or protection was bypassed. Attaching the PR reached the existing 100-identity limit.
 
 The public [ES page](https://help.hellotext.com/es/popup-sitio-web) and [EN page](https://help.hellotext.com/website-popup) returned HTTP 200 with ten static figures each and the corrected installation explanation. All 24 new PNGs and two reused catalog PNGs returned 200 and matched approved SHA-256 hashes. Locale-independent code and its responsive source are shared, and no reused image was uploaded again. Exact URLs/hashes are saved in `captures/website-popup/public-verification.json`. No manual deploy was used. A production Netlify deploy ID to SHA association is not asserted because the authenticated production listing has not been accessible.
+
+
+## Editor overview and header-image follow-up — 2026-09-30
+
+User requested the complete editor at the beginning and a header image in the fictional example. Preserve all published originals in `originals/popup-editor-follow-up`. Review the existing eleven sections; retain their factual copy, links and publication identity.
+
+Section plan:
+- Introduction: add the complete real desktop editor, including name/actions, Style/Layout/Settings, device/step controls and first-step preview. Use the focused first-step source on narrow pages.
+- Create the popup: refresh the steps/device figure and focused preview to include the header photograph.
+- Build the signup steps: refresh the field panel/context and completed preview so their shared header remains coherent.
+- Style/Layout/Settings: retain approved panel crops; their controls do not display the changed example image. Desktop Footer and mobile Default remain selected.
+- Assignment, installation, code and remaining conceptual/troubleshooting sections: retain existing figures and text; they do not display the changed header. No new figure clarifies a distinct control there.
+
+Use existing protected hidden Popup 1 / e9Z2LN51, draft capture, two existing steps, zero submissions and no coupon/journey. Do not rerun fixture.rb. Add only the existing application example photograph `app/assets/images/examples/intro-popup-left2.jpg` (SHA256 8bdd2a5c28352db450dbd6bb40a7019cc5fb1fc9dd268c44e93a5aa0c96070ac) to the isolated fixture header; localize existing text records in place. All contacts remain non-deliverable and unsubscribed, messages remain 49, playbooks disabled. No publish/install/save/next/test/send actions. Restore ES and Enterprise after capture.
+
+Sources come from the reviewed Rails UI commit 11731d118e581bb1d67853b1add1f4f495160288, local port 3192, dedicated headless profile/port 9460, actual desktop CSS viewport with a mobile-device popup preview, DPR 2, zoom 1, native Display P3. No application renderer or shared generated bundle changes are needed.
+
+Local verification: 12 approved native P3 PNGs at 2×, no pixel editing, with 11 figures per locale. Six complete-page desktop/mobile/narrow states and twelve responsive-boundary states were inspected at 390/580/600/601/1024/1280/1399/1400/1440 CSS px. All measured image widths stay at or below their logical source width, without page overflow. Overview uses the focused first-step source through 1399 px; the full editor appears from 1400 px. Steps and field figures retain their 600 px source switch. Source/asset/build bytes match and docs remain excluded. Build/security headers and diff checks passed. The header image remains attached only to the hidden fictional draft; ES/Enterprise and all delivery-safety counts are restored. Publication remains pending until PR gates and public verification complete.
+
+Follow-up local verifier: `11466e9e94fa7fe69c641708ece3dbd9aa3d829b`. This is a visual follow-up to an already complete pair; inventory totals remain 52 local_verified, 101 pending and one out_of_scope redirect.
+
+PR #253 review: corrected the alternative text of all three changed responsive figures in ES/EN to cover both the wide context and focused source accurately. Native PNG bytes and visual layout are unchanged. The reviewer ancestry claim used a synthetic reviewed commit; provider head ac04ec1cd7eb7301f75751fad084b165e47d1a9e is a direct child of 11466e9e, confirmed by GitHub's commit parents and git merge-base. The provider history preserves the real verifier.
+
+Final local verifier after the responsive accessibility correction: `e233b4ef227cb15c0e387ffeb00ec3ed8f03ed07`. Production build/security headers and both built alternative-text variants passed; all twelve built PNG hashes remain unchanged.

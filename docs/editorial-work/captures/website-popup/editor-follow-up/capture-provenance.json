@@ -1,0 +1,1837 @@
+{
+  "date": "2026-09-30",
+  "rails_revision": "11731d118e581bb1d67853b1add1f4f495160288",
+  "capture": "isolated automatic native Chrome compositor",
+  "image_example": {
+    "file": "app/assets/images/examples/intro-popup-left2.jpg",
+    "sha256": "8bdd2a5c28352db450dbd6bb40a7019cc5fb1fc9dd268c44e93a5aa0c96070ac",
+    "usage": "existing application example photograph, only isolated hidden Popup header",
+    "saved_to_fixture": true,
+    "fixture_seed_repeated": false
+  },
+  "preflight": {
+    "database": "hellotext_editorial_workload_20260928",
+    "account": "design-system@example.test",
+    "business_id": 5,
+    "business_name": "Tienda Ejemplo",
+    "locale": "es",
+    "popup": "e9Z2LN51",
+    "hidden": true,
+    "state": "draft",
+    "steps": 2,
+    "submissions": 0,
+    "contacts": 127,
+    "messageable": 0,
+    "subscribed": 0,
+    "messages": 49,
+    "header_attached": true,
+    "header": "<!-- BEGIN app/views/layouts/action_text/contents/_content.html.erb\n--><div class=\"trix-content\">\n  <!-- BEGIN /Users/pel/.rbenv/versions/4.0.6/lib/ruby/gems/4.0.0/gems/actiontext-8.1.3.1/app/views/action_text/contents/_content.html.erb\n--><h4><strong>Novedades de Tienda Ejemplo</strong></h4><div>Recibe ideas y lanzamientos por email.</div>\n<!-- END /Users/pel/.rbenv/versions/4.0.6/lib/ruby/gems/4.0.0/gems/actiontext-8.1.3.1/app/views/action_text/contents/_content.html.erb --></div>\n<!-- END app/views/layouts/action_text/contents/_content.html.erb -->"
+  },
+  "postflight": {
+    "database": "hellotext_editorial_workload_20260928",
+    "account": "design-system@example.test",
+    "business_id": 5,
+    "business_name": "Enterprise",
+    "locale": "es",
+    "popup": "e9Z2LN51",
+    "hidden": true,
+    "state": "draft",
+    "steps": 2,
+    "submissions": 0,
+    "contacts": 127,
+    "messageable": 0,
+    "subscribed": 0,
+    "messages": 49,
+    "header_attached": true,
+    "header": "<!-- BEGIN app/views/layouts/action_text/contents/_content.html.erb\n--><div class=\"trix-content\">\n  <!-- BEGIN /Users/pel/.rbenv/versions/4.0.6/lib/ruby/gems/4.0.0/gems/actiontext-8.1.3.1/app/views/action_text/contents/_content.html.erb\n--><h4><strong>Novedades de Tienda Ejemplo</strong></h4><div>Recibe ideas y lanzamientos por email.</div>\n<!-- END /Users/pel/.rbenv/versions/4.0.6/lib/ruby/gems/4.0.0/gems/actiontext-8.1.3.1/app/views/action_text/contents/_content.html.erb --></div>\n<!-- END app/views/layouts/action_text/contents/_content.html.erb -->"
+  },
+  "restored": {
+    "database": "hellotext_editorial_workload_20260928",
+    "account": "design-system@example.test",
+    "business_id": 5,
+    "business_name": "Enterprise",
+    "locale": "es",
+    "popup": "e9Z2LN51",
+    "hidden": true,
+    "state": "draft",
+    "steps": 2,
+    "submissions": 0,
+    "contacts": 127,
+    "messageable": 0,
+    "subscribed": 0,
+    "messages": 49,
+    "header_attached": true,
+    "header": "<!-- BEGIN app/views/layouts/action_text/contents/_content.html.erb\n--><div class=\"trix-content\">\n  <!-- BEGIN /Users/pel/.rbenv/versions/4.0.6/lib/ruby/gems/4.0.0/gems/actiontext-8.1.3.1/app/views/action_text/contents/_content.html.erb\n--><h4><strong>Novedades de Tienda Ejemplo</strong></h4><div>Recibe ideas y lanzamientos por email.</div>\n<!-- END /Users/pel/.rbenv/versions/4.0.6/lib/ruby/gems/4.0.0/gems/actiontext-8.1.3.1/app/views/action_text/contents/_content.html.erb --></div>\n<!-- END app/views/layouts/action_text/contents/_content.html.erb -->"
+  },
+  "images": [
+    {
+      "name": "overview",
+      "locale": "es",
+      "display": {
+        "database": "hellotext_editorial_workload_20260928",
+        "account": "design-system@example.test",
+        "business_id": 5,
+        "business_name": "Tienda Ejemplo",
+        "locale": "es",
+        "popup": "e9Z2LN51",
+        "hidden": true,
+        "state": "draft",
+        "steps": 2,
+        "submissions": 0,
+        "contacts": 127,
+        "messageable": 0,
+        "subscribed": 0,
+        "messages": 49,
+        "header_attached": true,
+        "header": "<!-- BEGIN app/views/layouts/action_text/contents/_content.html.erb\n--><div class=\"trix-content\">\n  <!-- BEGIN /Users/pel/.rbenv/versions/4.0.6/lib/ruby/gems/4.0.0/gems/actiontext-8.1.3.1/app/views/action_text/contents/_content.html.erb\n--><h4><strong>Novedades de Tienda Ejemplo</strong></h4><div>Recibe ideas y lanzamientos por email.</div>\n<!-- END /Users/pel/.rbenv/versions/4.0.6/lib/ruby/gems/4.0.0/gems/actiontext-8.1.3.1/app/views/action_text/contents/_content.html.erb --></div>\n<!-- END app/views/layouts/action_text/contents/_content.html.erb -->"
+      },
+      "state": {
+        "url": "http://127.0.0.1:3192/hellotext/capture/popup/e9Z2LN51/edit",
+        "title": "Editar pop-up - Hellotext",
+        "locale": "es",
+        "viewport": [
+          1280,
+          1100
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "menus": [
+          {
+            "target": "relative flex w-full flex-col overflow-visible rounded-3xl shadow-[0_18px_45px_rgba(20,4,52,0.14)]",
+            "rect": [
+              465,
+              214,
+              350,
+              554
+            ],
+            "text": "Novedades de Tienda Ejemplo\nRecibe ideas y lanzamientos por email.\n\nTu email\n\nAl suscribirte, aceptas recibir emails de marketing. Puedes cancelar tu suscripción."
+          }
+        ],
+        "panels": [
+          {
+            "target": "sidebar",
+            "rect": [
+              32,
+              116,
+              112,
+              326.78125
+            ]
+          },
+          {
+            "target": "controls",
+            "rect": [
+              32,
+              116,
+              112,
+              326.78125
+            ]
+          },
+          {
+            "target": "styleButton",
+            "rect": [
+              45,
+              141,
+              86,
+              73.59375
+            ]
+          },
+          {
+            "target": "layoutButton",
+            "rect": [
+              45,
+              242.59375,
+              86,
+              73.59375
+            ]
+          },
+          {
+            "target": "settingsButton",
+            "rect": [
+              45,
+              344.1875,
+              86,
+              73.59375
+            ]
+          },
+          {
+            "target": "mt-10 flex shrink-0",
+            "rect": [
+              396.2890625,
+              124,
+              487.4140625,
+              42
+            ]
+          },
+          {
+            "target": "canvas",
+            "rect": [
+              465,
+              214,
+              350,
+              554
+            ]
+          },
+          {
+            "target": "relative flex flex-col w-full h-full justify-start items-center",
+            "rect": [
+              465,
+              214,
+              350,
+              554
+            ]
+          }
+        ],
+        "text": "Popup editorial · ejemplo\nCancelar\nVista previa\nGuardar & Continuar\nEstilo\nDiseño\nAjustes\nEmail\nNombre\nCompletado\n\nNovedades de Tienda Ejemplo\nRecibe ideas y lanzamientos por email.\n\nTu email\n\nAl suscribirte, aceptas recibir emails de marketing. Puedes cancelar tu suscripción."
+      },
+      "clip": [
+        16,
+        12,
+        1248,
+        784
+      ],
+      "native": {
+        "output": "/private/tmp/hellotext-popup-follow-up/native/overview-es.png",
+        "sha256": "c297e5193fcf8302682939102cdf8c4245bc0b2e54e96f5cdc7fe8d552fce22e",
+        "url": "http://127.0.0.1:3192/hellotext/capture/popup/e9Z2LN51/edit",
+        "locale": "es",
+        "cssViewport": [
+          1280,
+          1100
+        ],
+        "browserDpr": 2,
+        "clip": [
+          16,
+          12,
+          1248,
+          784
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          2496,
+          1568
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "source_file": "docs/editorial-work/captures/website-popup/editor-follow-up/overview-es.png",
+      "published_asset": "images/captures/website-popup/editor-follow-up/es/overview.png",
+      "logical_size": [
+        1248,
+        784
+      ],
+      "pointer": "absent",
+      "pixel_edits": false,
+      "profile_verified": "Display P3 Gamut with sRGB Transfer",
+      "url_ocr": "not applicable: compositor crop excludes browser chrome; guarded CDP URL before/after",
+      "approval": "accepted after pixel review"
+    },
+    {
+      "name": "steps",
+      "locale": "es",
+      "display": {
+        "database": "hellotext_editorial_workload_20260928",
+        "account": "design-system@example.test",
+        "business_id": 5,
+        "business_name": "Tienda Ejemplo",
+        "locale": "es",
+        "popup": "e9Z2LN51",
+        "hidden": true,
+        "state": "draft",
+        "steps": 2,
+        "submissions": 0,
+        "contacts": 127,
+        "messageable": 0,
+        "subscribed": 0,
+        "messages": 49,
+        "header_attached": true,
+        "header": "<!-- BEGIN app/views/layouts/action_text/contents/_content.html.erb\n--><div class=\"trix-content\">\n  <!-- BEGIN /Users/pel/.rbenv/versions/4.0.6/lib/ruby/gems/4.0.0/gems/actiontext-8.1.3.1/app/views/action_text/contents/_content.html.erb\n--><h4><strong>Novedades de Tienda Ejemplo</strong></h4><div>Recibe ideas y lanzamientos por email.</div>\n<!-- END /Users/pel/.rbenv/versions/4.0.6/lib/ruby/gems/4.0.0/gems/actiontext-8.1.3.1/app/views/action_text/contents/_content.html.erb --></div>\n<!-- END app/views/layouts/action_text/contents/_content.html.erb -->"
+      },
+      "state": {
+        "url": "http://127.0.0.1:3192/hellotext/capture/popup/e9Z2LN51/edit",
+        "title": "Editar pop-up - Hellotext",
+        "locale": "es",
+        "viewport": [
+          1280,
+          1100
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "menus": [
+          {
+            "target": "relative flex w-full flex-col overflow-visible rounded-3xl shadow-[0_18px_45px_rgba(20,4,52,0.14)]",
+            "rect": [
+              465,
+              214,
+              350,
+              554
+            ],
+            "text": "Novedades de Tienda Ejemplo\nRecibe ideas y lanzamientos por email.\n\nTu email\n\nAl suscribirte, aceptas recibir emails de marketing. Puedes cancelar tu suscripción."
+          }
+        ],
+        "panels": [
+          {
+            "target": "sidebar",
+            "rect": [
+              32,
+              116,
+              112,
+              326.78125
+            ]
+          },
+          {
+            "target": "controls",
+            "rect": [
+              32,
+              116,
+              112,
+              326.78125
+            ]
+          },
+          {
+            "target": "styleButton",
+            "rect": [
+              45,
+              141,
+              86,
+              73.59375
+            ]
+          },
+          {
+            "target": "layoutButton",
+            "rect": [
+              45,
+              242.59375,
+              86,
+              73.59375
+            ]
+          },
+          {
+            "target": "settingsButton",
+            "rect": [
+              45,
+              344.1875,
+              86,
+              73.59375
+            ]
+          },
+          {
+            "target": "mt-10 flex shrink-0",
+            "rect": [
+              396.2890625,
+              124,
+              487.4140625,
+              42
+            ]
+          },
+          {
+            "target": "canvas",
+            "rect": [
+              465,
+              214,
+              350,
+              554
+            ]
+          },
+          {
+            "target": "relative flex flex-col w-full h-full justify-start items-center",
+            "rect": [
+              465,
+              214,
+              350,
+              554
+            ]
+          }
+        ],
+        "text": "Popup editorial · ejemplo\nCancelar\nVista previa\nGuardar & Continuar\nEstilo\nDiseño\nAjustes\nEmail\nNombre\nCompletado\n\nNovedades de Tienda Ejemplo\nRecibe ideas y lanzamientos por email.\n\nTu email\n\nAl suscribirte, aceptas recibir emails de marketing. Puedes cancelar tu suscripción."
+      },
+      "clip": [
+        380,
+        108,
+        520,
+        676
+      ],
+      "native": {
+        "output": "/private/tmp/hellotext-popup-follow-up/native/steps-es.png",
+        "sha256": "827e88a3c120c4b61e1aac486d630df6aef4e5b90ed3e5de2331471d8ff38e54",
+        "url": "http://127.0.0.1:3192/hellotext/capture/popup/e9Z2LN51/edit",
+        "locale": "es",
+        "cssViewport": [
+          1280,
+          1100
+        ],
+        "browserDpr": 2,
+        "clip": [
+          380,
+          108,
+          520,
+          676
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1040,
+          1352
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "source_file": "docs/editorial-work/captures/website-popup/editor-follow-up/steps-es.png",
+      "published_asset": "images/captures/website-popup/editor-follow-up/es/steps.png",
+      "logical_size": [
+        520,
+        676
+      ],
+      "pointer": "absent",
+      "pixel_edits": false,
+      "profile_verified": "Display P3 Gamut with sRGB Transfer",
+      "url_ocr": "not applicable: compositor crop excludes browser chrome; guarded CDP URL before/after",
+      "approval": "accepted after pixel review"
+    },
+    {
+      "name": "steps-mobile",
+      "locale": "es",
+      "display": {
+        "database": "hellotext_editorial_workload_20260928",
+        "account": "design-system@example.test",
+        "business_id": 5,
+        "business_name": "Tienda Ejemplo",
+        "locale": "es",
+        "popup": "e9Z2LN51",
+        "hidden": true,
+        "state": "draft",
+        "steps": 2,
+        "submissions": 0,
+        "contacts": 127,
+        "messageable": 0,
+        "subscribed": 0,
+        "messages": 49,
+        "header_attached": true,
+        "header": "<!-- BEGIN app/views/layouts/action_text/contents/_content.html.erb\n--><div class=\"trix-content\">\n  <!-- BEGIN /Users/pel/.rbenv/versions/4.0.6/lib/ruby/gems/4.0.0/gems/actiontext-8.1.3.1/app/views/action_text/contents/_content.html.erb\n--><h4><strong>Novedades de Tienda Ejemplo</strong></h4><div>Recibe ideas y lanzamientos por email.</div>\n<!-- END /Users/pel/.rbenv/versions/4.0.6/lib/ruby/gems/4.0.0/gems/actiontext-8.1.3.1/app/views/action_text/contents/_content.html.erb --></div>\n<!-- END app/views/layouts/action_text/contents/_content.html.erb -->"
+      },
+      "state": {
+        "url": "http://127.0.0.1:3192/hellotext/capture/popup/e9Z2LN51/preview?device=mobile",
+        "title": "Hellotext",
+        "locale": "es",
+        "viewport": [
+          1280,
+          1100
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "menus": [
+          {
+            "target": "",
+            "rect": [
+              465,
+              256.5,
+              350,
+              587
+            ],
+            "text": "Novedades de Tienda Ejemplo\nRecibe ideas y lanzamientos por email.\nContinuar\nAl suscribirte, aceptas recibir emails de marketing. Puedes cancelar tu suscripción."
+          }
+        ],
+        "panels": [
+          {
+            "target": "relative rounded-2.5xl overflow-visible shadow-[0_18px_45px_rgba(20,4,52,0.14)] max-w-[calc(100vw-2rem)] w-[21.875rem] flex flex-col",
+            "rect": [
+              465,
+              256.5,
+              350,
+              587
+            ]
+          }
+        ],
+        "text": "Novedades de Tienda Ejemplo\nRecibe ideas y lanzamientos por email.\nContinuar\nAl suscribirte, aceptas recibir emails de marketing. Puedes cancelar tu suscripción."
+      },
+      "clip": [
+        449,
+        240,
+        382,
+        620
+      ],
+      "native": {
+        "output": "/private/tmp/hellotext-popup-follow-up/native/steps-mobile-es.png",
+        "sha256": "151c6b82b3e8dc207214be84d29b1c046532422935e0d7fd11436f62a36c7c18",
+        "url": "http://127.0.0.1:3192/hellotext/capture/popup/e9Z2LN51/preview?device=mobile",
+        "locale": "es",
+        "cssViewport": [
+          1280,
+          1100
+        ],
+        "browserDpr": 2,
+        "clip": [
+          449,
+          240,
+          382,
+          620
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          764,
+          1240
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "source_file": "docs/editorial-work/captures/website-popup/editor-follow-up/steps-mobile-es.png",
+      "published_asset": "images/captures/website-popup/editor-follow-up/es/steps-mobile.png",
+      "logical_size": [
+        382,
+        620
+      ],
+      "pointer": "absent",
+      "pixel_edits": false,
+      "profile_verified": "Display P3 Gamut with sRGB Transfer",
+      "url_ocr": "not applicable: compositor crop excludes browser chrome; guarded CDP URL before/after",
+      "approval": "accepted after pixel review"
+    },
+    {
+      "name": "fields",
+      "locale": "es",
+      "display": {
+        "database": "hellotext_editorial_workload_20260928",
+        "account": "design-system@example.test",
+        "business_id": 5,
+        "business_name": "Tienda Ejemplo",
+        "locale": "es",
+        "popup": "e9Z2LN51",
+        "hidden": true,
+        "state": "draft",
+        "steps": 2,
+        "submissions": 0,
+        "contacts": 127,
+        "messageable": 0,
+        "subscribed": 0,
+        "messages": 49,
+        "header_attached": true,
+        "header": "<!-- BEGIN app/views/layouts/action_text/contents/_content.html.erb\n--><div class=\"trix-content\">\n  <!-- BEGIN /Users/pel/.rbenv/versions/4.0.6/lib/ruby/gems/4.0.0/gems/actiontext-8.1.3.1/app/views/action_text/contents/_content.html.erb\n--><h4><strong>Novedades de Tienda Ejemplo</strong></h4><div>Recibe ideas y lanzamientos por email.</div>\n<!-- END /Users/pel/.rbenv/versions/4.0.6/lib/ruby/gems/4.0.0/gems/actiontext-8.1.3.1/app/views/action_text/contents/_content.html.erb --></div>\n<!-- END app/views/layouts/action_text/contents/_content.html.erb -->"
+      },
+      "state": {
+        "url": "http://127.0.0.1:3192/hellotext/capture/popup/e9Z2LN51/edit",
+        "title": "Editar pop-up - Hellotext",
+        "locale": "es",
+        "viewport": [
+          1280,
+          1100
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "menus": [
+          {
+            "target": "relative flex w-full flex-col overflow-visible rounded-3xl shadow-[0_18px_45px_rgba(20,4,52,0.14)]",
+            "rect": [
+              465,
+              214,
+              350,
+              554
+            ],
+            "text": "Novedades de Tienda Ejemplo\nRecibe ideas y lanzamientos por email.\n\nTu email\n\nTipo de campo\nE-mail\nMarcador de posición\nRequerido\n\nAl suscribirte, aceptas recibir emails de marketing. Puedes cancelar tu suscripción."
+          },
+          {
+            "target": "dropdown-container shadow-lg py-2 w-[24rem] flex flex-col space-y-4 !p-6 z-max managed-hover popup-editor-viewport-surface",
+            "rect": [
+              803,
+              566,
+              384,
+              286
+            ],
+            "text": "Tipo de campo\nE-mail\nMarcador de posición\nRequerido"
+          }
+        ],
+        "panels": [
+          {
+            "target": "sidebar",
+            "rect": [
+              32,
+              116,
+              112,
+              326.78125
+            ]
+          },
+          {
+            "target": "controls",
+            "rect": [
+              32,
+              116,
+              112,
+              326.78125
+            ]
+          },
+          {
+            "target": "styleButton",
+            "rect": [
+              45,
+              141,
+              86,
+              73.59375
+            ]
+          },
+          {
+            "target": "layoutButton",
+            "rect": [
+              45,
+              242.59375,
+              86,
+              73.59375
+            ]
+          },
+          {
+            "target": "settingsButton",
+            "rect": [
+              45,
+              344.1875,
+              86,
+              73.59375
+            ]
+          },
+          {
+            "target": "mt-10 flex shrink-0",
+            "rect": [
+              396.2890625,
+              124,
+              487.4140625,
+              42
+            ]
+          },
+          {
+            "target": "canvas",
+            "rect": [
+              465,
+              214,
+              350,
+              554
+            ]
+          },
+          {
+            "target": "relative flex flex-col w-full h-full justify-start items-center",
+            "rect": [
+              465,
+              214,
+              350,
+              554
+            ]
+          }
+        ],
+        "text": "Popup editorial · ejemplo\nCancelar\nVista previa\nGuardar & Continuar\nEstilo\nDiseño\nAjustes\nEmail\nNombre\nCompletado\n\nNovedades de Tienda Ejemplo\nRecibe ideas y lanzamientos por email.\n\nTu email\n\nTipo de campo\nE-mail\nMarcador de posición\nRequerido\n\nAl suscribirte, aceptas recibir emails de marketing. Puedes cancelar tu suscripción."
+      },
+      "clip": [
+        449,
+        198,
+        754,
+        670
+      ],
+      "native": {
+        "output": "/private/tmp/hellotext-popup-follow-up/native/fields-es.png",
+        "sha256": "8a12256305494f0add5a3f9148e87ede3a129fe84ebb0d624f11828f061d599a",
+        "url": "http://127.0.0.1:3192/hellotext/capture/popup/e9Z2LN51/edit",
+        "locale": "es",
+        "cssViewport": [
+          1280,
+          1100
+        ],
+        "browserDpr": 2,
+        "clip": [
+          449,
+          198,
+          754,
+          670
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1508,
+          1340
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "source_file": "docs/editorial-work/captures/website-popup/editor-follow-up/fields-es.png",
+      "published_asset": "images/captures/website-popup/editor-follow-up/es/fields.png",
+      "logical_size": [
+        754,
+        670
+      ],
+      "pointer": "absent",
+      "pixel_edits": false,
+      "profile_verified": "Display P3 Gamut with sRGB Transfer",
+      "url_ocr": "not applicable: compositor crop excludes browser chrome; guarded CDP URL before/after",
+      "approval": "accepted after pixel review"
+    },
+    {
+      "name": "fields-mobile",
+      "locale": "es",
+      "display": {
+        "database": "hellotext_editorial_workload_20260928",
+        "account": "design-system@example.test",
+        "business_id": 5,
+        "business_name": "Tienda Ejemplo",
+        "locale": "es",
+        "popup": "e9Z2LN51",
+        "hidden": true,
+        "state": "draft",
+        "steps": 2,
+        "submissions": 0,
+        "contacts": 127,
+        "messageable": 0,
+        "subscribed": 0,
+        "messages": 49,
+        "header_attached": true,
+        "header": "<!-- BEGIN app/views/layouts/action_text/contents/_content.html.erb\n--><div class=\"trix-content\">\n  <!-- BEGIN /Users/pel/.rbenv/versions/4.0.6/lib/ruby/gems/4.0.0/gems/actiontext-8.1.3.1/app/views/action_text/contents/_content.html.erb\n--><h4><strong>Novedades de Tienda Ejemplo</strong></h4><div>Recibe ideas y lanzamientos por email.</div>\n<!-- END /Users/pel/.rbenv/versions/4.0.6/lib/ruby/gems/4.0.0/gems/actiontext-8.1.3.1/app/views/action_text/contents/_content.html.erb --></div>\n<!-- END app/views/layouts/action_text/contents/_content.html.erb -->"
+      },
+      "state": {
+        "url": "http://127.0.0.1:3192/hellotext/capture/popup/e9Z2LN51/edit",
+        "title": "Editar pop-up - Hellotext",
+        "locale": "es",
+        "viewport": [
+          1280,
+          1100
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "menus": [
+          {
+            "target": "relative flex w-full flex-col overflow-visible rounded-3xl shadow-[0_18px_45px_rgba(20,4,52,0.14)]",
+            "rect": [
+              465,
+              214,
+              350,
+              554
+            ],
+            "text": "Novedades de Tienda Ejemplo\nRecibe ideas y lanzamientos por email.\n\nTu email\n\nTipo de campo\nE-mail\nMarcador de posición\nRequerido\n\nAl suscribirte, aceptas recibir emails de marketing. Puedes cancelar tu suscripción."
+          },
+          {
+            "target": "dropdown-container shadow-lg py-2 w-[24rem] flex flex-col space-y-4 !p-6 z-max managed-hover popup-editor-viewport-surface",
+            "rect": [
+              803,
+              566,
+              384,
+              286
+            ],
+            "text": "Tipo de campo\nE-mail\nMarcador de posición\nRequerido"
+          }
+        ],
+        "panels": [
+          {
+            "target": "sidebar",
+            "rect": [
+              32,
+              116,
+              112,
+              326.78125
+            ]
+          },
+          {
+            "target": "controls",
+            "rect": [
+              32,
+              116,
+              112,
+              326.78125
+            ]
+          },
+          {
+            "target": "styleButton",
+            "rect": [
+              45,
+              141,
+              86,
+              73.59375
+            ]
+          },
+          {
+            "target": "layoutButton",
+            "rect": [
+              45,
+              242.59375,
+              86,
+              73.59375
+            ]
+          },
+          {
+            "target": "settingsButton",
+            "rect": [
+              45,
+              344.1875,
+              86,
+              73.59375
+            ]
+          },
+          {
+            "target": "mt-10 flex shrink-0",
+            "rect": [
+              396.2890625,
+              124,
+              487.4140625,
+              42
+            ]
+          },
+          {
+            "target": "canvas",
+            "rect": [
+              465,
+              214,
+              350,
+              554
+            ]
+          },
+          {
+            "target": "relative flex flex-col w-full h-full justify-start items-center",
+            "rect": [
+              465,
+              214,
+              350,
+              554
+            ]
+          }
+        ],
+        "text": "Popup editorial · ejemplo\nCancelar\nVista previa\nGuardar & Continuar\nEstilo\nDiseño\nAjustes\nEmail\nNombre\nCompletado\n\nNovedades de Tienda Ejemplo\nRecibe ideas y lanzamientos por email.\n\nTu email\n\nTipo de campo\nE-mail\nMarcador de posición\nRequerido\n\nAl suscribirte, aceptas recibir emails de marketing. Puedes cancelar tu suscripción."
+      },
+      "clip": [
+        817,
+        580,
+        356,
+        258
+      ],
+      "native": {
+        "output": "/private/tmp/hellotext-popup-follow-up/field-focus/fields-mobile-es.png",
+        "sha256": "603c2c872823ebd6aa9bf479c87a6712e7becee28662ab087c7b85a1cb8ef84e",
+        "url": "http://127.0.0.1:3192/hellotext/capture/popup/e9Z2LN51/edit",
+        "locale": "es",
+        "cssViewport": [
+          1280,
+          1100
+        ],
+        "browserDpr": 2,
+        "clip": [
+          817,
+          580,
+          356,
+          258
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          712,
+          516
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "source_file": "docs/editorial-work/captures/website-popup/editor-follow-up/fields-mobile-es.png",
+      "published_asset": "images/captures/website-popup/editor-follow-up/es/fields-mobile.png",
+      "logical_size": [
+        356,
+        258
+      ],
+      "pointer": "absent",
+      "pixel_edits": false,
+      "profile_verified": "Display P3 Gamut with sRGB Transfer",
+      "url_ocr": "not applicable: compositor crop excludes browser chrome; guarded CDP URL before/after",
+      "approval": "accepted after pixel review"
+    },
+    {
+      "name": "completion",
+      "locale": "es",
+      "display": {
+        "database": "hellotext_editorial_workload_20260928",
+        "account": "design-system@example.test",
+        "business_id": 5,
+        "business_name": "Tienda Ejemplo",
+        "locale": "es",
+        "popup": "e9Z2LN51",
+        "hidden": true,
+        "state": "draft",
+        "steps": 2,
+        "submissions": 0,
+        "contacts": 127,
+        "messageable": 0,
+        "subscribed": 0,
+        "messages": 49,
+        "header_attached": true,
+        "header": "<!-- BEGIN app/views/layouts/action_text/contents/_content.html.erb\n--><div class=\"trix-content\">\n  <!-- BEGIN /Users/pel/.rbenv/versions/4.0.6/lib/ruby/gems/4.0.0/gems/actiontext-8.1.3.1/app/views/action_text/contents/_content.html.erb\n--><h4><strong>Novedades de Tienda Ejemplo</strong></h4><div>Recibe ideas y lanzamientos por email.</div>\n<!-- END /Users/pel/.rbenv/versions/4.0.6/lib/ruby/gems/4.0.0/gems/actiontext-8.1.3.1/app/views/action_text/contents/_content.html.erb --></div>\n<!-- END app/views/layouts/action_text/contents/_content.html.erb -->"
+      },
+      "state": {
+        "url": "http://127.0.0.1:3192/hellotext/capture/popup/e9Z2LN51/preview?device=mobile&preview_mode=completed",
+        "title": "Hellotext",
+        "locale": "es",
+        "viewport": [
+          1280,
+          1100
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "menus": [
+          {
+            "target": "",
+            "rect": [
+              465,
+              294,
+              350,
+              512
+            ],
+            "text": "¡Gracias por tu interés!\n\nPuedes seguir explorando Tienda Ejemplo.\n\nSeguir explorando"
+          }
+        ],
+        "panels": [
+          {
+            "target": "relative rounded-2.5xl overflow-visible shadow-[0_18px_45px_rgba(20,4,52,0.14)] max-w-[calc(100vw-2rem)] w-[21.875rem] flex flex-col",
+            "rect": [
+              465,
+              307.75,
+              350,
+              484.5
+            ]
+          }
+        ],
+        "text": "¡Gracias por tu interés!\n\nPuedes seguir explorando Tienda Ejemplo.\n\nSeguir explorando"
+      },
+      "clip": [
+        449,
+        278,
+        382,
+        544
+      ],
+      "native": {
+        "output": "/private/tmp/hellotext-popup-follow-up/native/completion-es.png",
+        "sha256": "44b01f488d9d6749ed46916c006e2e42c8b514044a712e5677e0dd0b4efd86ab",
+        "url": "http://127.0.0.1:3192/hellotext/capture/popup/e9Z2LN51/preview?device=mobile&preview_mode=completed",
+        "locale": "es",
+        "cssViewport": [
+          1280,
+          1100
+        ],
+        "browserDpr": 2,
+        "clip": [
+          449,
+          278,
+          382,
+          544
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          764,
+          1088
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "source_file": "docs/editorial-work/captures/website-popup/editor-follow-up/completion-es.png",
+      "published_asset": "images/captures/website-popup/editor-follow-up/es/completion.png",
+      "logical_size": [
+        382,
+        544
+      ],
+      "pointer": "absent",
+      "pixel_edits": false,
+      "profile_verified": "Display P3 Gamut with sRGB Transfer",
+      "url_ocr": "not applicable: compositor crop excludes browser chrome; guarded CDP URL before/after",
+      "approval": "accepted after pixel review"
+    },
+    {
+      "name": "overview",
+      "locale": "en",
+      "display": {
+        "database": "hellotext_editorial_workload_20260928",
+        "account": "design-system@example.test",
+        "business_id": 5,
+        "business_name": "Example Store",
+        "locale": "en",
+        "popup": "e9Z2LN51",
+        "hidden": true,
+        "state": "draft",
+        "steps": 2,
+        "submissions": 0,
+        "contacts": 127,
+        "messageable": 0,
+        "subscribed": 0,
+        "messages": 49,
+        "header_attached": true,
+        "header": "<!-- BEGIN app/views/layouts/action_text/contents/_content.html.erb\n--><div class=\"trix-content\">\n  <!-- BEGIN /Users/pel/.rbenv/versions/4.0.6/lib/ruby/gems/4.0.0/gems/actiontext-8.1.3.1/app/views/action_text/contents/_content.html.erb\n--><h4><strong>News from Example Store</strong></h4><div>Get ideas and product launches by email.</div>\n<!-- END /Users/pel/.rbenv/versions/4.0.6/lib/ruby/gems/4.0.0/gems/actiontext-8.1.3.1/app/views/action_text/contents/_content.html.erb --></div>\n<!-- END app/views/layouts/action_text/contents/_content.html.erb -->"
+      },
+      "state": {
+        "url": "http://127.0.0.1:3192/hellotext/capture/popup/e9Z2LN51/edit",
+        "title": "Edit Pop-up - Hellotext",
+        "locale": "en",
+        "viewport": [
+          1280,
+          1100
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "menus": [
+          {
+            "target": "relative flex w-full flex-col overflow-visible rounded-3xl shadow-[0_18px_45px_rgba(20,4,52,0.14)]",
+            "rect": [
+              465,
+              214,
+              350,
+              574
+            ],
+            "text": "News from Example Store\nGet ideas and product launches by email.\n\nYour email\n\nBy subscribing, you agree to receive marketing emails. You can unsubscribe."
+          }
+        ],
+        "panels": [
+          {
+            "target": "sidebar",
+            "rect": [
+              32,
+              116,
+              112,
+              326.78125
+            ]
+          },
+          {
+            "target": "controls",
+            "rect": [
+              32,
+              116,
+              112,
+              326.78125
+            ]
+          },
+          {
+            "target": "styleButton",
+            "rect": [
+              45,
+              141,
+              86,
+              73.59375
+            ]
+          },
+          {
+            "target": "layoutButton",
+            "rect": [
+              45,
+              242.59375,
+              86,
+              73.59375
+            ]
+          },
+          {
+            "target": "settingsButton",
+            "rect": [
+              45,
+              344.1875,
+              86,
+              73.59375
+            ]
+          },
+          {
+            "target": "mt-10 flex shrink-0",
+            "rect": [
+              391.0390625,
+              124,
+              497.9140625,
+              42
+            ]
+          },
+          {
+            "target": "canvas",
+            "rect": [
+              465,
+              214,
+              350,
+              574
+            ]
+          },
+          {
+            "target": "relative flex flex-col w-full h-full justify-start items-center",
+            "rect": [
+              465,
+              214,
+              350,
+              574
+            ]
+          }
+        ],
+        "text": "Editorial popup · example\nCancel\nPreview\nSave & Continue\nStyle\nLayout\nSettings\nEmail\nFirst name\nCompleted\n\nNews from Example Store\nGet ideas and product launches by email.\n\nYour email\n\nBy subscribing, you agree to receive marketing emails. You can unsubscribe."
+      },
+      "clip": [
+        16,
+        12,
+        1248,
+        804
+      ],
+      "native": {
+        "output": "/private/tmp/hellotext-popup-follow-up/native/overview-en.png",
+        "sha256": "2b9cfdbdfba961d1d8886d6a5e7a0ab58704ba6932e11c94e291fd7b1b43fb04",
+        "url": "http://127.0.0.1:3192/hellotext/capture/popup/e9Z2LN51/edit",
+        "locale": "en",
+        "cssViewport": [
+          1280,
+          1100
+        ],
+        "browserDpr": 2,
+        "clip": [
+          16,
+          12,
+          1248,
+          804
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          2496,
+          1608
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "source_file": "docs/editorial-work/captures/website-popup/editor-follow-up/overview-en.png",
+      "published_asset": "images/captures/website-popup/editor-follow-up/en/overview.png",
+      "logical_size": [
+        1248,
+        804
+      ],
+      "pointer": "absent",
+      "pixel_edits": false,
+      "profile_verified": "Display P3 Gamut with sRGB Transfer",
+      "url_ocr": "not applicable: compositor crop excludes browser chrome; guarded CDP URL before/after",
+      "approval": "accepted after pixel review"
+    },
+    {
+      "name": "steps",
+      "locale": "en",
+      "display": {
+        "database": "hellotext_editorial_workload_20260928",
+        "account": "design-system@example.test",
+        "business_id": 5,
+        "business_name": "Example Store",
+        "locale": "en",
+        "popup": "e9Z2LN51",
+        "hidden": true,
+        "state": "draft",
+        "steps": 2,
+        "submissions": 0,
+        "contacts": 127,
+        "messageable": 0,
+        "subscribed": 0,
+        "messages": 49,
+        "header_attached": true,
+        "header": "<!-- BEGIN app/views/layouts/action_text/contents/_content.html.erb\n--><div class=\"trix-content\">\n  <!-- BEGIN /Users/pel/.rbenv/versions/4.0.6/lib/ruby/gems/4.0.0/gems/actiontext-8.1.3.1/app/views/action_text/contents/_content.html.erb\n--><h4><strong>News from Example Store</strong></h4><div>Get ideas and product launches by email.</div>\n<!-- END /Users/pel/.rbenv/versions/4.0.6/lib/ruby/gems/4.0.0/gems/actiontext-8.1.3.1/app/views/action_text/contents/_content.html.erb --></div>\n<!-- END app/views/layouts/action_text/contents/_content.html.erb -->"
+      },
+      "state": {
+        "url": "http://127.0.0.1:3192/hellotext/capture/popup/e9Z2LN51/edit",
+        "title": "Edit Pop-up - Hellotext",
+        "locale": "en",
+        "viewport": [
+          1280,
+          1100
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "menus": [
+          {
+            "target": "relative flex w-full flex-col overflow-visible rounded-3xl shadow-[0_18px_45px_rgba(20,4,52,0.14)]",
+            "rect": [
+              465,
+              214,
+              350,
+              574
+            ],
+            "text": "News from Example Store\nGet ideas and product launches by email.\n\nYour email\n\nBy subscribing, you agree to receive marketing emails. You can unsubscribe."
+          }
+        ],
+        "panels": [
+          {
+            "target": "sidebar",
+            "rect": [
+              32,
+              116,
+              112,
+              326.78125
+            ]
+          },
+          {
+            "target": "controls",
+            "rect": [
+              32,
+              116,
+              112,
+              326.78125
+            ]
+          },
+          {
+            "target": "styleButton",
+            "rect": [
+              45,
+              141,
+              86,
+              73.59375
+            ]
+          },
+          {
+            "target": "layoutButton",
+            "rect": [
+              45,
+              242.59375,
+              86,
+              73.59375
+            ]
+          },
+          {
+            "target": "settingsButton",
+            "rect": [
+              45,
+              344.1875,
+              86,
+              73.59375
+            ]
+          },
+          {
+            "target": "mt-10 flex shrink-0",
+            "rect": [
+              391.0390625,
+              124,
+              497.9140625,
+              42
+            ]
+          },
+          {
+            "target": "canvas",
+            "rect": [
+              465,
+              214,
+              350,
+              574
+            ]
+          },
+          {
+            "target": "relative flex flex-col w-full h-full justify-start items-center",
+            "rect": [
+              465,
+              214,
+              350,
+              574
+            ]
+          }
+        ],
+        "text": "Editorial popup · example\nCancel\nPreview\nSave & Continue\nStyle\nLayout\nSettings\nEmail\nFirst name\nCompleted\n\nNews from Example Store\nGet ideas and product launches by email.\n\nYour email\n\nBy subscribing, you agree to receive marketing emails. You can unsubscribe."
+      },
+      "clip": [
+        375,
+        108,
+        530,
+        696
+      ],
+      "native": {
+        "output": "/private/tmp/hellotext-popup-follow-up/native/steps-en.png",
+        "sha256": "c121432e01f4092ace05e4141c2f53e53401974907849fded0b8831a09eedf67",
+        "url": "http://127.0.0.1:3192/hellotext/capture/popup/e9Z2LN51/edit",
+        "locale": "en",
+        "cssViewport": [
+          1280,
+          1100
+        ],
+        "browserDpr": 2,
+        "clip": [
+          375,
+          108,
+          530,
+          696
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1060,
+          1392
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "source_file": "docs/editorial-work/captures/website-popup/editor-follow-up/steps-en.png",
+      "published_asset": "images/captures/website-popup/editor-follow-up/en/steps.png",
+      "logical_size": [
+        530,
+        696
+      ],
+      "pointer": "absent",
+      "pixel_edits": false,
+      "profile_verified": "Display P3 Gamut with sRGB Transfer",
+      "url_ocr": "not applicable: compositor crop excludes browser chrome; guarded CDP URL before/after",
+      "approval": "accepted after pixel review"
+    },
+    {
+      "name": "steps-mobile",
+      "locale": "en",
+      "display": {
+        "database": "hellotext_editorial_workload_20260928",
+        "account": "design-system@example.test",
+        "business_id": 5,
+        "business_name": "Example Store",
+        "locale": "en",
+        "popup": "e9Z2LN51",
+        "hidden": true,
+        "state": "draft",
+        "steps": 2,
+        "submissions": 0,
+        "contacts": 127,
+        "messageable": 0,
+        "subscribed": 0,
+        "messages": 49,
+        "header_attached": true,
+        "header": "<!-- BEGIN app/views/layouts/action_text/contents/_content.html.erb\n--><div class=\"trix-content\">\n  <!-- BEGIN /Users/pel/.rbenv/versions/4.0.6/lib/ruby/gems/4.0.0/gems/actiontext-8.1.3.1/app/views/action_text/contents/_content.html.erb\n--><h4><strong>News from Example Store</strong></h4><div>Get ideas and product launches by email.</div>\n<!-- END /Users/pel/.rbenv/versions/4.0.6/lib/ruby/gems/4.0.0/gems/actiontext-8.1.3.1/app/views/action_text/contents/_content.html.erb --></div>\n<!-- END app/views/layouts/action_text/contents/_content.html.erb -->"
+      },
+      "state": {
+        "url": "http://127.0.0.1:3192/hellotext/capture/popup/e9Z2LN51/preview?device=mobile",
+        "title": "Hellotext",
+        "locale": "en",
+        "viewport": [
+          1280,
+          1100
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "menus": [
+          {
+            "target": "",
+            "rect": [
+              465,
+              272.75,
+              350,
+              554.5
+            ],
+            "text": "News from Example Store\nGet ideas and product launches by email.\nContinue\nBy subscribing, you agree to receive marketing emails. You can unsubscribe."
+          }
+        ],
+        "panels": [
+          {
+            "target": "relative rounded-2.5xl overflow-visible shadow-[0_18px_45px_rgba(20,4,52,0.14)] max-w-[calc(100vw-2rem)] w-[21.875rem] flex flex-col",
+            "rect": [
+              465,
+              272.75,
+              350,
+              554.5
+            ]
+          }
+        ],
+        "text": "News from Example Store\nGet ideas and product launches by email.\nContinue\nBy subscribing, you agree to receive marketing emails. You can unsubscribe."
+      },
+      "clip": [
+        449,
+        256,
+        382,
+        588
+      ],
+      "native": {
+        "output": "/private/tmp/hellotext-popup-follow-up/native/steps-mobile-en.png",
+        "sha256": "9ebbab7759693ed8b9efe941c39a3d1e442b1f5ac5e225f61628b20756a8775f",
+        "url": "http://127.0.0.1:3192/hellotext/capture/popup/e9Z2LN51/preview?device=mobile",
+        "locale": "en",
+        "cssViewport": [
+          1280,
+          1100
+        ],
+        "browserDpr": 2,
+        "clip": [
+          449,
+          256,
+          382,
+          588
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          764,
+          1176
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "source_file": "docs/editorial-work/captures/website-popup/editor-follow-up/steps-mobile-en.png",
+      "published_asset": "images/captures/website-popup/editor-follow-up/en/steps-mobile.png",
+      "logical_size": [
+        382,
+        588
+      ],
+      "pointer": "absent",
+      "pixel_edits": false,
+      "profile_verified": "Display P3 Gamut with sRGB Transfer",
+      "url_ocr": "not applicable: compositor crop excludes browser chrome; guarded CDP URL before/after",
+      "approval": "accepted after pixel review"
+    },
+    {
+      "name": "fields",
+      "locale": "en",
+      "display": {
+        "database": "hellotext_editorial_workload_20260928",
+        "account": "design-system@example.test",
+        "business_id": 5,
+        "business_name": "Example Store",
+        "locale": "en",
+        "popup": "e9Z2LN51",
+        "hidden": true,
+        "state": "draft",
+        "steps": 2,
+        "submissions": 0,
+        "contacts": 127,
+        "messageable": 0,
+        "subscribed": 0,
+        "messages": 49,
+        "header_attached": true,
+        "header": "<!-- BEGIN app/views/layouts/action_text/contents/_content.html.erb\n--><div class=\"trix-content\">\n  <!-- BEGIN /Users/pel/.rbenv/versions/4.0.6/lib/ruby/gems/4.0.0/gems/actiontext-8.1.3.1/app/views/action_text/contents/_content.html.erb\n--><h4><strong>News from Example Store</strong></h4><div>Get ideas and product launches by email.</div>\n<!-- END /Users/pel/.rbenv/versions/4.0.6/lib/ruby/gems/4.0.0/gems/actiontext-8.1.3.1/app/views/action_text/contents/_content.html.erb --></div>\n<!-- END app/views/layouts/action_text/contents/_content.html.erb -->"
+      },
+      "state": {
+        "url": "http://127.0.0.1:3192/hellotext/capture/popup/e9Z2LN51/edit",
+        "title": "Edit Pop-up - Hellotext",
+        "locale": "en",
+        "viewport": [
+          1280,
+          1100
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "menus": [
+          {
+            "target": "relative flex w-full flex-col overflow-visible rounded-3xl shadow-[0_18px_45px_rgba(20,4,52,0.14)]",
+            "rect": [
+              465,
+              214,
+              350,
+              574
+            ],
+            "text": "News from Example Store\nGet ideas and product launches by email.\n\nYour email\n\nField Type\nEmail\nPlaceholder\nRequired\n\nBy subscribing, you agree to receive marketing emails. You can unsubscribe."
+          },
+          {
+            "target": "dropdown-container shadow-lg py-2 w-[24rem] flex flex-col space-y-4 !p-6 z-max managed-hover popup-editor-viewport-surface",
+            "rect": [
+              803,
+              586,
+              384,
+              286
+            ],
+            "text": "Field Type\nEmail\nPlaceholder\nRequired"
+          }
+        ],
+        "panels": [
+          {
+            "target": "sidebar",
+            "rect": [
+              32,
+              116,
+              112,
+              326.78125
+            ]
+          },
+          {
+            "target": "controls",
+            "rect": [
+              32,
+              116,
+              112,
+              326.78125
+            ]
+          },
+          {
+            "target": "styleButton",
+            "rect": [
+              45,
+              141,
+              86,
+              73.59375
+            ]
+          },
+          {
+            "target": "layoutButton",
+            "rect": [
+              45,
+              242.59375,
+              86,
+              73.59375
+            ]
+          },
+          {
+            "target": "settingsButton",
+            "rect": [
+              45,
+              344.1875,
+              86,
+              73.59375
+            ]
+          },
+          {
+            "target": "mt-10 flex shrink-0",
+            "rect": [
+              391.0390625,
+              124,
+              497.9140625,
+              42
+            ]
+          },
+          {
+            "target": "canvas",
+            "rect": [
+              465,
+              214,
+              350,
+              574
+            ]
+          },
+          {
+            "target": "relative flex flex-col w-full h-full justify-start items-center",
+            "rect": [
+              465,
+              214,
+              350,
+              574
+            ]
+          }
+        ],
+        "text": "Editorial popup · example\nCancel\nPreview\nSave & Continue\nStyle\nLayout\nSettings\nEmail\nFirst name\nCompleted\n\nNews from Example Store\nGet ideas and product launches by email.\n\nYour email\n\nField Type\nEmail\nPlaceholder\nRequired\n\nBy subscribing, you agree to receive marketing emails. You can unsubscribe."
+      },
+      "clip": [
+        449,
+        198,
+        754,
+        690
+      ],
+      "native": {
+        "output": "/private/tmp/hellotext-popup-follow-up/native/fields-en.png",
+        "sha256": "e17f476e95cf64c2afff4d5678153460622f9b29b3f5e7d401d0925396ac7e58",
+        "url": "http://127.0.0.1:3192/hellotext/capture/popup/e9Z2LN51/edit",
+        "locale": "en",
+        "cssViewport": [
+          1280,
+          1100
+        ],
+        "browserDpr": 2,
+        "clip": [
+          449,
+          198,
+          754,
+          690
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1508,
+          1380
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "source_file": "docs/editorial-work/captures/website-popup/editor-follow-up/fields-en.png",
+      "published_asset": "images/captures/website-popup/editor-follow-up/en/fields.png",
+      "logical_size": [
+        754,
+        690
+      ],
+      "pointer": "absent",
+      "pixel_edits": false,
+      "profile_verified": "Display P3 Gamut with sRGB Transfer",
+      "url_ocr": "not applicable: compositor crop excludes browser chrome; guarded CDP URL before/after",
+      "approval": "accepted after pixel review"
+    },
+    {
+      "name": "fields-mobile",
+      "locale": "en",
+      "display": {
+        "database": "hellotext_editorial_workload_20260928",
+        "account": "design-system@example.test",
+        "business_id": 5,
+        "business_name": "Example Store",
+        "locale": "en",
+        "popup": "e9Z2LN51",
+        "hidden": true,
+        "state": "draft",
+        "steps": 2,
+        "submissions": 0,
+        "contacts": 127,
+        "messageable": 0,
+        "subscribed": 0,
+        "messages": 49,
+        "header_attached": true,
+        "header": "<!-- BEGIN app/views/layouts/action_text/contents/_content.html.erb\n--><div class=\"trix-content\">\n  <!-- BEGIN /Users/pel/.rbenv/versions/4.0.6/lib/ruby/gems/4.0.0/gems/actiontext-8.1.3.1/app/views/action_text/contents/_content.html.erb\n--><h4><strong>News from Example Store</strong></h4><div>Get ideas and product launches by email.</div>\n<!-- END /Users/pel/.rbenv/versions/4.0.6/lib/ruby/gems/4.0.0/gems/actiontext-8.1.3.1/app/views/action_text/contents/_content.html.erb --></div>\n<!-- END app/views/layouts/action_text/contents/_content.html.erb -->"
+      },
+      "state": {
+        "url": "http://127.0.0.1:3192/hellotext/capture/popup/e9Z2LN51/edit",
+        "title": "Edit Pop-up - Hellotext",
+        "locale": "en",
+        "viewport": [
+          1280,
+          1100
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "menus": [
+          {
+            "target": "relative flex w-full flex-col overflow-visible rounded-3xl shadow-[0_18px_45px_rgba(20,4,52,0.14)]",
+            "rect": [
+              465,
+              214,
+              350,
+              574
+            ],
+            "text": "News from Example Store\nGet ideas and product launches by email.\n\nYour email\n\nField Type\nEmail\nPlaceholder\nRequired\n\nBy subscribing, you agree to receive marketing emails. You can unsubscribe."
+          },
+          {
+            "target": "dropdown-container shadow-lg py-2 w-[24rem] flex flex-col space-y-4 !p-6 z-max managed-hover popup-editor-viewport-surface",
+            "rect": [
+              803,
+              586,
+              384,
+              286
+            ],
+            "text": "Field Type\nEmail\nPlaceholder\nRequired"
+          }
+        ],
+        "panels": [
+          {
+            "target": "sidebar",
+            "rect": [
+              32,
+              116,
+              112,
+              326.78125
+            ]
+          },
+          {
+            "target": "controls",
+            "rect": [
+              32,
+              116,
+              112,
+              326.78125
+            ]
+          },
+          {
+            "target": "styleButton",
+            "rect": [
+              45,
+              141,
+              86,
+              73.59375
+            ]
+          },
+          {
+            "target": "layoutButton",
+            "rect": [
+              45,
+              242.59375,
+              86,
+              73.59375
+            ]
+          },
+          {
+            "target": "settingsButton",
+            "rect": [
+              45,
+              344.1875,
+              86,
+              73.59375
+            ]
+          },
+          {
+            "target": "mt-10 flex shrink-0",
+            "rect": [
+              391.0390625,
+              124,
+              497.9140625,
+              42
+            ]
+          },
+          {
+            "target": "canvas",
+            "rect": [
+              465,
+              214,
+              350,
+              574
+            ]
+          },
+          {
+            "target": "relative flex flex-col w-full h-full justify-start items-center",
+            "rect": [
+              465,
+              214,
+              350,
+              574
+            ]
+          }
+        ],
+        "text": "Editorial popup · example\nCancel\nPreview\nSave & Continue\nStyle\nLayout\nSettings\nEmail\nFirst name\nCompleted\n\nNews from Example Store\nGet ideas and product launches by email.\n\nYour email\n\nField Type\nEmail\nPlaceholder\nRequired\n\nBy subscribing, you agree to receive marketing emails. You can unsubscribe."
+      },
+      "clip": [
+        817,
+        600,
+        356,
+        258
+      ],
+      "native": {
+        "output": "/private/tmp/hellotext-popup-follow-up/field-focus/fields-mobile-en.png",
+        "sha256": "8fe616423930cdea992ddceff0788b3ab317a7201e8f495313b64091e31efc37",
+        "url": "http://127.0.0.1:3192/hellotext/capture/popup/e9Z2LN51/edit",
+        "locale": "en",
+        "cssViewport": [
+          1280,
+          1100
+        ],
+        "browserDpr": 2,
+        "clip": [
+          817,
+          600,
+          356,
+          258
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          712,
+          516
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "source_file": "docs/editorial-work/captures/website-popup/editor-follow-up/fields-mobile-en.png",
+      "published_asset": "images/captures/website-popup/editor-follow-up/en/fields-mobile.png",
+      "logical_size": [
+        356,
+        258
+      ],
+      "pointer": "absent",
+      "pixel_edits": false,
+      "profile_verified": "Display P3 Gamut with sRGB Transfer",
+      "url_ocr": "not applicable: compositor crop excludes browser chrome; guarded CDP URL before/after",
+      "approval": "accepted after pixel review"
+    },
+    {
+      "name": "completion",
+      "locale": "en",
+      "display": {
+        "database": "hellotext_editorial_workload_20260928",
+        "account": "design-system@example.test",
+        "business_id": 5,
+        "business_name": "Example Store",
+        "locale": "en",
+        "popup": "e9Z2LN51",
+        "hidden": true,
+        "state": "draft",
+        "steps": 2,
+        "submissions": 0,
+        "contacts": 127,
+        "messageable": 0,
+        "subscribed": 0,
+        "messages": 49,
+        "header_attached": true,
+        "header": "<!-- BEGIN app/views/layouts/action_text/contents/_content.html.erb\n--><div class=\"trix-content\">\n  <!-- BEGIN /Users/pel/.rbenv/versions/4.0.6/lib/ruby/gems/4.0.0/gems/actiontext-8.1.3.1/app/views/action_text/contents/_content.html.erb\n--><h4><strong>News from Example Store</strong></h4><div>Get ideas and product launches by email.</div>\n<!-- END /Users/pel/.rbenv/versions/4.0.6/lib/ruby/gems/4.0.0/gems/actiontext-8.1.3.1/app/views/action_text/contents/_content.html.erb --></div>\n<!-- END app/views/layouts/action_text/contents/_content.html.erb -->"
+      },
+      "state": {
+        "url": "http://127.0.0.1:3192/hellotext/capture/popup/e9Z2LN51/preview?device=mobile&preview_mode=completed",
+        "title": "Hellotext",
+        "locale": "en",
+        "viewport": [
+          1280,
+          1100
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "menus": [
+          {
+            "target": "",
+            "rect": [
+              465,
+              294,
+              350,
+              512
+            ],
+            "text": "Thanks for your interest!\n\nYou can keep exploring Example Store.\n\nKeep exploring"
+          }
+        ],
+        "panels": [
+          {
+            "target": "relative rounded-2.5xl overflow-visible shadow-[0_18px_45px_rgba(20,4,52,0.14)] max-w-[calc(100vw-2rem)] w-[21.875rem] flex flex-col",
+            "rect": [
+              465,
+              317.75,
+              350,
+              464.5
+            ]
+          }
+        ],
+        "text": "Thanks for your interest!\n\nYou can keep exploring Example Store.\n\nKeep exploring"
+      },
+      "clip": [
+        449,
+        278,
+        382,
+        544
+      ],
+      "native": {
+        "output": "/private/tmp/hellotext-popup-follow-up/native/completion-en.png",
+        "sha256": "4cdf1aa837cb67dfc36576eaa99179c93772d8ec44689881bd832657e96ab717",
+        "url": "http://127.0.0.1:3192/hellotext/capture/popup/e9Z2LN51/preview?device=mobile&preview_mode=completed",
+        "locale": "en",
+        "cssViewport": [
+          1280,
+          1100
+        ],
+        "browserDpr": 2,
+        "clip": [
+          449,
+          278,
+          382,
+          544
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          764,
+          1088
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "source_file": "docs/editorial-work/captures/website-popup/editor-follow-up/completion-en.png",
+      "published_asset": "images/captures/website-popup/editor-follow-up/en/completion.png",
+      "logical_size": [
+        382,
+        544
+      ],
+      "pointer": "absent",
+      "pixel_edits": false,
+      "profile_verified": "Display P3 Gamut with sRGB Transfer",
+      "url_ocr": "not applicable: compositor crop excludes browser chrome; guarded CDP URL before/after",
+      "approval": "accepted after pixel review"
+    }
+  ],
+  "review_note": "The initial field focus included part of the neighboring field. Only those two candidates were replaced with native interior-panel crops; all field controls are complete, with no partial background control or gray edge. Failed candidates are not committed."
+}
