@@ -344,7 +344,7 @@ await Hellotext.track('order.placed', {
 
 Los eventos del navegador son apropiados para navegación y actividad del carrito. Siempre que sea posible, registra desde el backend los hitos confiables de compra y entrega para que un cliente no pueda simular pedidos llamando código del navegador. No envíes el mismo evento de pedido desde el navegador y el backend.
 
-La versión 2.6.0 requiere la llamada explícita a `page.viewed` mostrada arriba. [Seguimiento de eventos]({% link _developers/tracking-events.md %}) explica la inicialización y el registro explícito; usa los pasos 6 y 7 de esta guía para implementar las vistas de páginas. Consulta los [eventos de productos](https://www.hellotext.com/api#track_product_events), [eventos de carritos](https://www.hellotext.com/api#track_cart_events) y [eventos de pedidos](https://www.hellotext.com/api#track_order_events) para ver las acciones y parámetros compatibles.
+La versión 2.6.0 requiere la llamada explícita a `page.viewed` mostrada arriba, aunque [Seguimiento de eventos]({% link _developers/tracking-events.md %}) conserva una descripción de registro automático. Usa los pasos 6 y 7 de esta guía para implementar las vistas de páginas. Consulta los [eventos de productos](https://www.hellotext.com/api#track_product_events), [eventos de carritos](https://www.hellotext.com/api#track_cart_events) y [eventos de pedidos](https://www.hellotext.com/api#track_order_events) para ver las acciones y parámetros compatibles.
 
 ## 8. Conecta la actividad anónima con el cliente
 

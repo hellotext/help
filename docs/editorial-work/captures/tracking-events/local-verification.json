@@ -1,0 +1,364 @@
+{
+  "originals": [
+    {
+      "article": "_i18n/es/developers/tracking-events.md",
+      "snapshot": "docs/editorial-work/originals/es/developers/tracking-events.md",
+      "sha256": "4a4356f18ba120333f307143d76ad75df575b770cb86ce243ca1539965555ad1",
+      "live_sha256": "f718c6630f68dca4eef4194781e1c2ca9564de9544e29cb9b8b874af44ecd977",
+      "scope_preserved": true
+    },
+    {
+      "article": "_i18n/es/developers/custom-store-integration.md",
+      "snapshot": "docs/editorial-work/captures/tracking-events/custom-store-es-before.md",
+      "sha256": "3d298991c4f04a0dc6b4fb4e918da3287e2d6e2085a86b03c8da57022bea8191",
+      "scope": "Only replace the stale automatic-page-view debt paragraph, preserving all other bytes.",
+      "live_sha256": "d08265386703b963d36067c4b03ca069ec7aeec72bedf0a27bd22c2eada318a9",
+      "scope_preserved": true
+    },
+    {
+      "article": "_i18n/en/developers/tracking-events.md",
+      "snapshot": "docs/editorial-work/originals/en/developers/tracking-events.md",
+      "sha256": "e39ef0fae9334ecaff7b31edece0b0ab9667c1b3073e5ab8c20176b7ed6d8f85",
+      "live_sha256": "1b3d0a676d7144326bc3e65c45808b3fb7ed6c19f85d0e1367ed83e5067d3f6d",
+      "scope_preserved": true
+    },
+    {
+      "article": "_i18n/en/developers/custom-store-integration.md",
+      "snapshot": "docs/editorial-work/captures/tracking-events/custom-store-en-before.md",
+      "sha256": "2036bd50a900d0d91a293147fca72e8e30f560c187f6abd93ccf0e414d716a9b",
+      "scope": "Only replace the stale automatic-page-view debt paragraph, preserving all other bytes.",
+      "live_sha256": "7d3fd985c699f313eddd8064f9492f717562fa5d8f5a18101881d281a360a460",
+      "scope_preserved": true
+    },
+    {
+      "article": "_developers/tracking-events.md",
+      "snapshot": "docs/editorial-work/captures/tracking-events/original-stub.md",
+      "sha256": "1464dd062e327751be81b121bb30f04382a5181215e9511082341bc75efc4154",
+      "live_sha256": "1464dd062e327751be81b121bb30f04382a5181215e9511082341bc75efc4154",
+      "scope_preserved": true
+    }
+  ],
+  "examples": [
+    {
+      "locale": "es",
+      "block": 0,
+      "type": "json",
+      "syntax": "passed",
+      "executed": false
+    },
+    {
+      "locale": "es",
+      "block": 1,
+      "type": "javascript",
+      "syntax": "passed",
+      "executed": false
+    },
+    {
+      "locale": "en",
+      "block": 0,
+      "type": "json",
+      "syntax": "passed",
+      "executed": false
+    },
+    {
+      "locale": "en",
+      "block": 1,
+      "type": "javascript",
+      "syntax": "passed",
+      "executed": false
+    }
+  ],
+  "images": [
+    {
+      "asset": "images/developers/custom-actions/catalog-es.png",
+      "sha256": "a12712f6c78adc83c29a0c497ccb3a061449789f26a7d5cbaf6fdab127612389",
+      "reused": true,
+      "unchanged_cross_guide_asset": false,
+      "source_asset_root_build_es_build_match": true,
+      "native_p3": true,
+      "density": 2
+    },
+    {
+      "asset": "images/developers/custom-actions/catalog-es-mobile.png",
+      "sha256": "fab59f9490d84ad14feb17be6a5701ba29c39161fdc7bd5fbd391a2a16651d76",
+      "reused": true,
+      "unchanged_cross_guide_asset": false,
+      "source_asset_root_build_es_build_match": true,
+      "native_p3": true,
+      "density": 2
+    },
+    {
+      "asset": "images/developers/custom-actions/manual-es.png",
+      "sha256": "144e3281a27f8c6e5434f2e5e12585039d18bd9f300e259df95381af25c376a2",
+      "reused": true,
+      "unchanged_cross_guide_asset": false,
+      "source_asset_root_build_es_build_match": true,
+      "native_p3": true,
+      "density": 2
+    },
+    {
+      "asset": "images/developers/custom-actions/manual-es-mobile.png",
+      "sha256": "9cc3f116cb1a88b065f769c74e3b215dc3a39383af884a203e240a965970dacf",
+      "reused": true,
+      "unchanged_cross_guide_asset": false,
+      "source_asset_root_build_es_build_match": true,
+      "native_p3": true,
+      "density": 2
+    },
+    {
+      "asset": "images/developers/custom-actions/catalog-en.png",
+      "sha256": "6fdbbbe59759abe2be46c35406174c9dae62c52dcdb56d65f5875e003e278bef",
+      "reused": true,
+      "unchanged_cross_guide_asset": false,
+      "source_asset_root_build_es_build_match": true,
+      "native_p3": true,
+      "density": 2
+    },
+    {
+      "asset": "images/developers/custom-actions/catalog-en-mobile.png",
+      "sha256": "9f1460df43463d2eef8bbd04d6c550782d05bd4129eb7f9bf0faa5f553588561",
+      "reused": true,
+      "unchanged_cross_guide_asset": false,
+      "source_asset_root_build_es_build_match": true,
+      "native_p3": true,
+      "density": 2
+    },
+    {
+      "asset": "images/developers/custom-actions/manual-en.png",
+      "sha256": "77dd2a9505cbc073897db00674689fcf819a0ace5b5b58bc53ad36e3aad8ba7b",
+      "reused": true,
+      "unchanged_cross_guide_asset": false,
+      "source_asset_root_build_es_build_match": true,
+      "native_p3": true,
+      "density": 2
+    },
+    {
+      "asset": "images/developers/custom-actions/manual-en-mobile.png",
+      "sha256": "77277beaf19ecfad6b22bb3933c8a563bedb3dabc0a43fbaff07a055358fa80e",
+      "reused": true,
+      "unchanged_cross_guide_asset": false,
+      "source_asset_root_build_es_build_match": true,
+      "native_p3": true,
+      "density": 2
+    },
+    {
+      "asset": "images/developers/custom-store-integration/token-spacing/token-es.png",
+      "sha256": "9edcb6a1e9354047b98feb41d5a10b613acdaed33e1dfce768406dd6f3504f8a",
+      "reused": false,
+      "unchanged_cross_guide_asset": true,
+      "source_asset_root_build_es_build_match": true,
+      "native_p3": true,
+      "density": 2
+    },
+    {
+      "asset": "images/developers/custom-store-integration/token-spacing/token-es-mobile.png",
+      "sha256": "6c9ef30747a2fe23a65542aa040142515cfe034a5df24c6a51e0161f4052b94b",
+      "reused": false,
+      "unchanged_cross_guide_asset": true,
+      "source_asset_root_build_es_build_match": true,
+      "native_p3": true,
+      "density": 2
+    },
+    {
+      "asset": "images/developers/custom-store-integration/token-spacing/token-en.png",
+      "sha256": "efe16993a26fbf2e3047bc57da420ff888069022f45fcebd3af561965906a4c2",
+      "reused": false,
+      "unchanged_cross_guide_asset": true,
+      "source_asset_root_build_es_build_match": true,
+      "native_p3": true,
+      "density": 2
+    },
+    {
+      "asset": "images/developers/custom-store-integration/token-spacing/token-en-mobile.png",
+      "sha256": "2200d9bccae650ed15f47970ab7eb729365e544e6000b1bde4758e600697778b",
+      "reused": false,
+      "unchanged_cross_guide_asset": true,
+      "source_asset_root_build_es_build_match": true,
+      "native_p3": true,
+      "density": 2
+    },
+    {
+      "asset": "images/developers/custom-store-integration/business-es.png",
+      "sha256": "17ec399500cee235d73459ced0de47fac99054987976a56f4e09603150ef5dfb",
+      "reused": false,
+      "unchanged_cross_guide_asset": true,
+      "source_asset_root_build_es_build_match": true,
+      "native_p3": true,
+      "density": 2
+    },
+    {
+      "asset": "images/developers/custom-store-integration/business-es-mobile.png",
+      "sha256": "0c7ac4c233075fa5d072e27ac33e7947092bf6406858524ab12fa546be553ed8",
+      "reused": false,
+      "unchanged_cross_guide_asset": true,
+      "source_asset_root_build_es_build_match": true,
+      "native_p3": true,
+      "density": 2
+    },
+    {
+      "asset": "images/developers/custom-store-integration/business-en.png",
+      "sha256": "1f7f132b2245056eda5166b1b1cfdbeee406ebcf7bad4a13a6eb3fd501184d7f",
+      "reused": false,
+      "unchanged_cross_guide_asset": true,
+      "source_asset_root_build_es_build_match": true,
+      "native_p3": true,
+      "density": 2
+    },
+    {
+      "asset": "images/developers/custom-store-integration/business-en-mobile.png",
+      "sha256": "c7badab42d6878393ab746c2950605b8153dc38d60ac1ae09c747a949706bfeb",
+      "reused": false,
+      "unchanged_cross_guide_asset": true,
+      "source_asset_root_build_es_build_match": true,
+      "native_p3": true,
+      "density": 2
+    }
+  ],
+  "browser": [
+    {
+      "locale_page": "es",
+      "device": "desktop",
+      "width": 1440,
+      "sections": 8,
+      "code_blocks": 2,
+      "figures": 2,
+      "whole_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_upscale": true,
+      "code_horizontal_scrolling": "Existing scrollable code blocks preserve full copyable snippets."
+    },
+    {
+      "locale_page": "es",
+      "device": "mobile",
+      "width": 390,
+      "sections": 8,
+      "code_blocks": 2,
+      "figures": 2,
+      "whole_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_upscale": true,
+      "code_horizontal_scrolling": "Existing scrollable code blocks preserve full copyable snippets."
+    },
+    {
+      "locale_page": "es",
+      "device": "narrow",
+      "width": 580,
+      "sections": 8,
+      "code_blocks": 2,
+      "figures": 2,
+      "whole_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_upscale": true,
+      "code_horizontal_scrolling": "Existing scrollable code blocks preserve full copyable snippets."
+    },
+    {
+      "locale_page": "en",
+      "device": "desktop",
+      "width": 1440,
+      "sections": 8,
+      "code_blocks": 2,
+      "figures": 2,
+      "whole_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_upscale": true,
+      "code_horizontal_scrolling": "Existing scrollable code blocks preserve full copyable snippets."
+    },
+    {
+      "locale_page": "en",
+      "device": "mobile",
+      "width": 390,
+      "sections": 8,
+      "code_blocks": 2,
+      "figures": 2,
+      "whole_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_upscale": true,
+      "code_horizontal_scrolling": "Existing scrollable code blocks preserve full copyable snippets."
+    },
+    {
+      "locale_page": "en",
+      "device": "narrow",
+      "width": 580,
+      "sections": 8,
+      "code_blocks": 2,
+      "figures": 2,
+      "whole_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_upscale": true,
+      "code_horizontal_scrolling": "Existing scrollable code blocks preserve full copyable snippets."
+    },
+    {
+      "locale_page": "es-store",
+      "device": "desktop",
+      "width": 1440,
+      "sections": 13,
+      "code_blocks": 16,
+      "figures": 2,
+      "whole_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_upscale": true,
+      "code_horizontal_scrolling": "Existing scrollable code blocks preserve full copyable snippets."
+    },
+    {
+      "locale_page": "es-store",
+      "device": "mobile",
+      "width": 390,
+      "sections": 13,
+      "code_blocks": 16,
+      "figures": 2,
+      "whole_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_upscale": true,
+      "code_horizontal_scrolling": "Existing scrollable code blocks preserve full copyable snippets."
+    },
+    {
+      "locale_page": "es-store",
+      "device": "narrow",
+      "width": 580,
+      "sections": 13,
+      "code_blocks": 16,
+      "figures": 2,
+      "whole_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_upscale": true,
+      "code_horizontal_scrolling": "Existing scrollable code blocks preserve full copyable snippets."
+    },
+    {
+      "locale_page": "en-store",
+      "device": "desktop",
+      "width": 1440,
+      "sections": 13,
+      "code_blocks": 16,
+      "figures": 2,
+      "whole_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_upscale": true,
+      "code_horizontal_scrolling": "Existing scrollable code blocks preserve full copyable snippets."
+    },
+    {
+      "locale_page": "en-store",
+      "device": "mobile",
+      "width": 390,
+      "sections": 13,
+      "code_blocks": 16,
+      "figures": 2,
+      "whole_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_upscale": true,
+      "code_horizontal_scrolling": "Existing scrollable code blocks preserve full copyable snippets."
+    },
+    {
+      "locale_page": "en-store",
+      "device": "narrow",
+      "width": 580,
+      "sections": 13,
+      "code_blocks": 16,
+      "figures": 2,
+      "whole_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_upscale": true,
+      "code_horizontal_scrolling": "Existing scrollable code blocks preserve full copyable snippets."
+    }
+  ],
+  "publication_state": "not_yet_publicly_verified"
+}
