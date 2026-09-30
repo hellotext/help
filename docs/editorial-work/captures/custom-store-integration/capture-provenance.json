@@ -1,5 +1,5 @@
 {
-  "status": "local_verified; external integration and publication pending",
+  "status": "public_verified",
   "base_revision": "507e112c01d1481793e83933c8ec7b6669a361c4",
   "originals": [
     {
@@ -60,7 +60,8 @@
       "intended_max_display_width_css": 540.0,
       "ui_evidence": "token-es-ui.json",
       "pointer": "absent",
-      "pixel_edits": "none"
+      "pixel_edits": "none",
+      "publication_status": "New native P3 2x source uploaded; public URL/hash verified in public-verification.json."
     },
     {
       "name": "token-es-mobile",
@@ -103,7 +104,8 @@
       "intended_max_display_width_css": 374.0,
       "ui_evidence": "token-es-mobile-ui.json",
       "pointer": "absent",
-      "pixel_edits": "none"
+      "pixel_edits": "none",
+      "publication_status": "New native P3 2x source uploaded; public URL/hash verified in public-verification.json."
     },
     {
       "name": "business-es",
@@ -146,7 +148,8 @@
       "intended_max_display_width_css": 868.0,
       "ui_evidence": "business-es-ui.json",
       "pointer": "absent",
-      "pixel_edits": "none"
+      "pixel_edits": "none",
+      "publication_status": "New native P3 2x source uploaded; public URL/hash verified in public-verification.json."
     },
     {
       "name": "business-es-mobile",
@@ -189,7 +192,8 @@
       "intended_max_display_width_css": 374.0,
       "ui_evidence": "business-es-mobile-ui.json",
       "pointer": "absent",
-      "pixel_edits": "none"
+      "pixel_edits": "none",
+      "publication_status": "New native P3 2x source uploaded; public URL/hash verified in public-verification.json."
     },
     {
       "name": "token-en",
@@ -232,7 +236,8 @@
       "intended_max_display_width_css": 540.0,
       "ui_evidence": "token-en-ui.json",
       "pointer": "absent",
-      "pixel_edits": "none"
+      "pixel_edits": "none",
+      "publication_status": "New native P3 2x source uploaded; public URL/hash verified in public-verification.json."
     },
     {
       "name": "token-en-mobile",
@@ -275,7 +280,8 @@
       "intended_max_display_width_css": 374.0,
       "ui_evidence": "token-en-mobile-ui.json",
       "pointer": "absent",
-      "pixel_edits": "none"
+      "pixel_edits": "none",
+      "publication_status": "New native P3 2x source uploaded; public URL/hash verified in public-verification.json."
     },
     {
       "name": "business-en",
@@ -318,7 +324,8 @@
       "intended_max_display_width_css": 868.0,
       "ui_evidence": "business-en-ui.json",
       "pointer": "absent",
-      "pixel_edits": "none"
+      "pixel_edits": "none",
+      "publication_status": "New native P3 2x source uploaded; public URL/hash verified in public-verification.json."
     },
     {
       "name": "business-en-mobile",
@@ -361,14 +368,11 @@
       "intended_max_display_width_css": 374.0,
       "ui_evidence": "business-en-mobile-ui.json",
       "pointer": "absent",
-      "pixel_edits": "none"
+      "pixel_edits": "none",
+      "publication_status": "New native P3 2x source uploaded; public URL/hash verified in public-verification.json."
     }
   ],
-  "pending": [
-    "Git/PR/checks/review/merge",
-    "Exact main Build and normal deployment",
-    "Public pages and all 8 PNG checks"
-  ],
+  "pending": [],
   "captured_date": "2026-09-30",
   "capture_method": "Native isolated headless Chrome compositor, Display P3 D65, genuine 2x; no window picker.",
   "chrome": {
@@ -415,6 +419,26 @@
     "source_asset_root_build_es_build_hashes": "All eight PNG sets match native SHA256; Display P3 genuine 2x.",
     "visual_review": "Full article ES/EN desktop 1440x1000, mobile390x844 and narrow580x900 including 13 section headings, 16 code blocks, figures and footer; native figures separately inspected. No page overflow. Horizontal code scrolling checked.",
     "unresolved_article_visual_debt": "none; section-specific no-figure reasons in work record",
-    "evidence_publication_state": "not yet deployed"
-  }
+    "evidence_publication_state": "public_verified",
+    "publication_evidence": "public-verification.json"
+  },
+  "public_verification": {
+    "state": "public_verified",
+    "pull_request": 270,
+    "merge_sha": "4302547431860564e5661fe52839fea9c89f58d8",
+    "evidence": "public-verification.json"
+  },
+  "content_sources": [
+    "https://www.hellotext.com/api#authentication",
+    "https://www.hellotext.com/api#create_a_property",
+    "https://www.hellotext.com/api#create_a_profile",
+    "https://www.hellotext.com/api#create_a_product",
+    "https://www.hellotext.com/api#create_an_order",
+    "https://www.hellotext.com/api#attach_session",
+    "https://www.hellotext.com/api#tracking",
+    "https://github.com/hellotext/hellotext.js",
+    "https://registry.npmjs.org/@hellotext/hellotext/2.6.0",
+    "https://docs.npmjs.com/cli/v11/commands/npm-install/",
+    "https://docs.npmjs.com/cli/v11/using-npm/config/#save-exact"
+  ]
 }

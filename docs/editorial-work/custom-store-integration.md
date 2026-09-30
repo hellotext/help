@@ -36,7 +36,7 @@ The complete ES/EN article was reviewed in the isolated Help browser at 1440×10
 
 Normal yarn build passed with Ruby3.3.6 and configured security headers. Eight source/asset/root-build/ES-build hash sets match. Docs originals/provenance remain excluded from public output. All16 code examples per locale passed syntax-only Bash/JavaScript and embedded JSON parsing; no example request or tracking event was executed. git diff --check passed. No CSS or migration tests were added. Local evidence: captures/custom-store-integration/local-verification.json.
 
-Safe fixture checks before/after confirm the isolated DB/account:127contacts,zero messageable/subscribed,49messages,318existing tracked events,zero tokens,zero enabled playbooks. Only account locale changed for ES/EN and was restored ES; token names were temporary DOM drafts. No token, profile, property, product, order, cart, event, campaign, message, test delivery or worker was created. Existing fixtures and old3191checkout were preserved. Commit, PR/independent review and actual public deployment remain pending below.
+Safe fixture checks before/after confirm the isolated DB/account:127contacts,zero messageable/subscribed,49messages,318existing tracked events,zero tokens,zero enabled playbooks. Only account locale changed for ES/EN and was restored ES; token names were temporary DOM drafts. No token, profile, property, product, order, cart, event, campaign, message, test delivery or worker was created. Existing fixtures and old3191checkout were preserved. Commit, PR/independent review and actual public deployment are recorded below.
 
 ## PR review correction — linked page-view instructions
 
@@ -47,3 +47,15 @@ Independent PR269 review found a real P2: the inherited tracking-events pair des
 The second review of PR269 found another real P2: npm's default save prefix would record ^2.6.0 despite the verified-version wording. The content PR was already merged when this thread was inspected, so it is not yet treated as the completed batch. A focused supported follow-up PR corrects both npm commands with --save-exact and explains retaining package-lock.json plus npm ci; no assets or fixtures change. The linked-guide finding was already corrected. All current-head checks, reviews, threads and exact normal production evidence are required before the final public record.
 
 The follow-up normal build passed, all eight source/asset/root-build/ES-build hashes remain unchanged, and the updated SDK section was inspected ES/EN desktop/mobile. The install command passes syntax-only Bash checking. No install, live request, recapture or fixture change occurred.
+
+## Public verification — 2026-09-30
+
+Help PR [#270](https://github.com/hellotext/help/pull/270) merged by `4302547431860564e5661fe52839fea9c89f58d8`, preserving all individual content/verifier commits. Build, Aikido, normal Netlify preview/header checks and independent review passed on `ae4ef3a91287c1192b90381516467d3f252ac9a2`; both original linked-page-view and exact npm pin findings are corrected, and this follow-up head review completed with no additional findings (https://github.com/hellotext/help/pull/270#issuecomment-5907961340) and no unresolved threads. No bypass or squash. PR attachment hit the existing 100-identity limit without affecting publication.
+
+Main [Build 36695056003](https://github.com/hellotext/help/actions/runs/36695056003) passed for the exact merge SHA. Normal Netlify production deploy `6abcd3680c202300072f45eb` is ready/published with matching `commit_ref` and `published_at` `2026-09-30T09:17:06.120Z`, checked through the public site-alias API. No manual deployment.
+
+Public [ES](https://help.hellotext.com/es/integrar-tienda-personalizada) and [EN](https://help.hellotext.com/integrate-custom-store) pages returned HTTP 200, with two localized figures each. All eight native desktop/mobile P3 PNGs initially uploaded by #269 were preserved unchanged by #270, returned HTTP 200 and matched approved source hashes. Public URLs, hashes and deployment evidence: `captures/custom-store-integration/public-verification.json`. The ledger reconciles 55 local_verified,98 pending,1 out_of_scope with this pair pointing to the actual content verifier. No token, event, message, test delivery or worker was created for this batch; the safe fixtures retain zero tokens and ES locale.
+
+## Public-record review correction
+
+PR271 found a real P2 in promotion metadata: the root was public_verified while a nested publication state still said not yet deployed. Both capture-provenance and the corresponding local-verification evidence now consistently use public_verified and link public-verification.json. The original local checks remain intact; no article, asset, fixture or capture changed. The record build passed and the corrected head still requires independent review and protected checks.
