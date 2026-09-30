@@ -32,3 +32,5 @@ First complete browser pass found a9px mobile page overflow from the newly added
 ## Local verification complete
 
 Normal yarn build with Ruby3.3.6 on PATH passed including security headers. All twelve native/asset/root-build/ES-build hashes match and docs are excluded from publication. Full ES/EN browser review at1440,390,580px passed with nine original headings, three figures and three syntax-only examples; original links/stub/publication preserved. All source densities are2x and image/frame caps stay within their original logical sizes including responsive sources. No overflow remains after the inline endpoint correction. No CSS/migration tests or renderer changes. Article/source audit/fixture/provenance are locally complete; PR checks/review and exact normal/public verification remain pending.
+
+Content verifier `9eb84f0ce33bc1b4550c9d4bdcc5c85d8cbc6a2c`. Progress now60 local_verified,93 pending,1 out_of_scope; publication remains pending and is recorded separately after normal deployment.
