@@ -62,10 +62,10 @@ Para que la conversación de recopilación funcione, también debe estar habilit
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Impulsor de Suscriptores muestra el aviso para habilitar Recolector de Propiedades antes de configurar los datos que recopilará.">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 666px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 575px; width: fit-content; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/style-refresh/prerequisite-es-mobile.png 2x" width="764" height="1092" />
-        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/style-refresh/prerequisite-es.png" srcset="/images/captures/property-collector/style-refresh/prerequisite-es.png 2x" width="1296" height="1036" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Impulsor de Suscriptores muestra el aviso para habilitar Recolector de Propiedades antes de configurar los datos que recopilará." />
+        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/prerequisite-es-mobile.png 2x" width="780" height="1160" />
+        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/prerequisite-es.png" srcset="/images/captures/property-collector/prerequisite-es.png 2x" width="1150" height="1160" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Impulsor de Suscriptores muestra el aviso para habilitar Recolector de Propiedades antes de configurar los datos que recopilará." />
       </picture>
     </div>
   </div>
