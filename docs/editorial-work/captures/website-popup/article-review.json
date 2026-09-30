@@ -1,0 +1,1610 @@
+[
+  {
+    "url": "http://127.0.0.1:4191/es/popup-sitio-web.html",
+    "locale": "es",
+    "title": "Popup de Sitio Web | Hellotext",
+    "viewport": [
+      1440,
+      1000
+    ],
+    "dpr": 2,
+    "zoom": 1,
+    "pageSize": [
+      1440,
+      12901
+    ],
+    "articleWidth": 774.4140625,
+    "headings": [
+      "Cuándo usar Popup de Sitio Web",
+      "Antes de empezar",
+      "Crea el popup",
+      "Construye los pasos de suscripción",
+      "Escribe textos claros para el popup",
+      "Configura el estilo, layout y apertura",
+      "Asigna un cupón y una ruta",
+      "Instala el popup",
+      "Prueba antes de publicar",
+      "Si el popup no aparece",
+      "Guías relacionadas"
+    ],
+    "text": "Popup de Sitio Web te permite captar números de teléfono, direcciones de email y otros datos del perfil del cliente sin sacar a los visitantes de tu sitio.\n\nEs una misión de captura, no una misión agéntica ni una ruta. El popup crea o actualiza un perfil del cliente. Puedes asignar una ruta activa de bienvenida o seguimiento y, de forma opcional, un cupón. Guardar un dato de contacto no equivale por sí solo a completar una suscripción verificada.\n\nPopup de Sitio Web se está habilitando de forma progresiva. Si aparece como A solicitud, está deshabilitado o no aparece en el grupo Captura dentro de Explorar misiones, confirma su disponibilidad con tu equipo de Hellotext antes de planificar el lanzamiento.\n\nCuándo usar Popup de Sitio Web\n\nUsa Popup de Sitio Web cuando quieres:\n\nCaptar datos de visitantes y, con una ruta y la verificación correspondientes, incorporarlos como personas suscritas.\nCaptar un número de teléfono, email u otras propiedades del perfil del cliente.\nPresentar una oferta sin enviar al visitante a otra página.\nUsar más de un paso para mantener breve la primera interacción.\nAdaptar la experiencia para mobile y desktop.\nIniciar una ruta de bienvenida después de la suscripción.\n\nUsa un Formulario Web cuando el formulario deba vivir dentro de la página en lugar de abrirse sobre ella. Usa un Link Compartible cuando el opt-in comience fuera de tu sitio, por ejemplo desde redes sociales, un anuncio o un email.\n\nAntes de empezar\n\nDecide qué datos realmente necesitas al momento de la suscripción. Un número de teléfono o un email suele ser suficiente para el primer paso. Los campos adicionales pueden usar propiedades existentes del perfil del cliente, incluidas las propiedades personalizadas creadas por tu negocio.\n\nTambién confirma:\n\nA qué canal se suscribe el visitante.\nQué valor u oferta comunica el popup.\nSi se debe entregar un cupón después de la suscripción.\nSi una ruta debe comenzar al completar la captura.\nQuién puede instalar Hellotext en el sitio si hace falta una instalación manual.\nQue el aviso de consentimiento describa correctamente los mensajes que el visitante acepta recibir.\n\nPara revisar elegibilidad por canal y consentimiento, consulta A quién puedes escribirle.\n\nCrea el popup\nAbre Misiones y haz clic en Explorar misiones.\nBusca el grupo Captura y elige Popup de Sitio Web.\nDale un nombre que identifique su ubicación o propósito.\nConstruye los pasos de suscripción y el estado Completado.\nRevisa Estilo, Diseño y Ajustes.\nHaz clic en Guardar & Continuar para guardar el borrador y abrir la asignación opcional de cupón y ruta.\nRevisa el método de instalación antes de confirmar la activación del popup.\nCard de la grilla real de escritorio, sin ampliar.\n\nLos íconos de móvil y escritorio cambian la vista del editor. Vista previa abre una vista separada que permite revisar la experiencia sin publicar el popup. Revisa ambas mientras trabajas en lugar de considerar que la vista de desktop representa el resultado final para todos los visitantes.\n\nDatos ficticios; el foco móvil muestra el preview del primer paso. No se publicó ni se envió el formulario.\nConstruye los pasos de suscripción\n\nUn popup puede usar varios pasos. Esto te permite pedir primero un dato importante y solicitar más información solamente después de que el visitante continúa.\n\nEn cada paso puedes:\n\nEditar el título, texto de apoyo, botón, links y aviso de consentimiento.\nAgregar campos basados en propiedades estándar o personalizadas del perfil del cliente.\nCambiar el placeholder de cada campo que lo admite.\nMarcar campos como obligatorios cuando el flujo no pueda continuar sin ellos.\nAgregar, eliminar, renombrar y reordenar pasos.\nVer cómo se muestra el paso en mobile y desktop.\nEn escritorio se ve el campo y su panel; el foco móvil muestra los controles de tipo, placeholder y requisito.\n\nUsa el estado Completado para explicar qué ocurrirá después del formulario. La vista previa de este estado es una simulación de diseño; no confirma una suscripción, verificación o entrega real. Haz que este mensaje sea útil incluso cuando no hayas asignado un cupón.\n\nEs un preview de diseño, no evidencia de una suscripción o mensaje recibido.\n\nNo pidas todas las propiedades disponibles solo porque existen. Cada campo adicional exige más esfuerzo al visitante y puede reducir la cantidad de personas que completan el popup. Para publicar, incluye y marca como obligatorio al menos un campo de email o teléfono. Capta lo mínimo necesario para el primer seguimiento útil y enriquece el perfil más adelante mediante conversaciones, compras, formularios u otras señales.\n\nEscribe textos claros para el popup\n\nEl visitante debería entender el valor, los datos solicitados y la siguiente acción antes de ingresar información.\n\nComienza con el beneficio concreto o la razón para suscribirse.\nUsa el texto de apoyo para explicar qué recibirá el visitante, no para repetir el título.\nHaz que el botón describa la acción, por ejemplo Obtén mi descuento o Notifícame, en lugar de usar una etiqueta vaga.\nMantén el primer paso lo bastante breve como para leerlo fácilmente en un teléfono.\nMantén el aviso de consentimiento legible y separado de la promesa promocional.\nHaz que el estado completado explique si debe revisar WhatsApp, SMS o email, seguir comprando o esperar un seguimiento.\nNo crees urgencia falsa ni prometas un cupón, canal de entrega o tiempo de respuesta que el flujo configurado no puede ofrecer.\n\nLee todos los pasos como una sola secuencia. Un buen primer paso igualmente puede resultar confuso si el segundo cambia la oferta, pide datos inesperados o usa una llamada a la acción diferente.\n\nConfigura el estilo, layout y apertura\n\nEl editor separa la configuración del popup en tres áreas:\n\nÁrea\tQué controla\nEstilo\tLa tipografía, los colores de texto y fondo y el tamaño de fuente. Los controles del botón y de la cabecera se editan también desde esos elementos de la vista previa.\nDiseño\tLa disposición usada en desktop y mobile. Cada dispositivo puede usar el layout que mejor se adapte a su pantalla.\nAjustes\tSi el popup se abre automáticamente o primero aparece como una burbuja y si se muestra en mobile, desktop o ambos.\n\nAbre Estilo para revisar tipografía, colores y tamaño. Estos controles comparten la tipografía y los colores del popup.\n\nPanel real de Estilo del editor desktop.\n\nAbre Diseño para comparar las disposiciones disponibles. Elige un layout separado para cada dispositivo y revisa el resultado con los íconos de móvil y escritorio.\n\nFooter está seleccionado para escritorio y Default para móvil en el ejemplo ficticio.\n\nCuando el popup usa una burbuja, los visitantes ven un pequeño acceso flotante y abren el popup completo al seleccionarlo. Configura el texto, color de texto, color de fondo y alineación de la burbuja para que sea visible sin cubrir controles importantes del sitio.\n\nEl panel Ajustes muestra la selección de dispositivos y las opciones No mostrar burbuja y Mostrar una burbuja. En esta versión no presenta un selector de demora; no supongas que puedes programar un retraso desde ese panel.\n\nEl panel actual no incluye un selector de demora.\n\nEl editor revisado no ofrece condiciones por URL, scroll, ubicación o visualizaciones anteriores. Confirma con Hellotext cualquier requisito de segmentación adicional antes de planificar el lanzamiento.\n\nAsigna un cupón y una ruta\n\nLa asignación de cupón y ruta es opcional.\n\nSelecciona una ruta activa con un disparador de suscripción para que el contacto entre al flujo de bienvenida. El formulario registra la captura de datos; la suscripción y la entrada a la ruta esperan la verificación de los datos de contacto requeridos. Una ruta desactivada no aparece como opción compatible.\n\nSi también ofreces un cupón, revisa que la ruta contenga el mensaje que lo entrega. La asignación muestra una advertencia si falta la ruta o si el mensaje no contiene un cupón. Lee la advertencia antes de continuar: seleccionar un cupón no demuestra que ya se haya enviado.\n\nLa entrega requiere un canal disponible para los datos ingresados. El teléfono puede usar WhatsApp si la configuración y plantilla son compatibles, con SMS como alternativa; el email usa correo electrónico. No lo presentes como una elección automática del canal más barato.\n\nEl estado completado puede mostrar un destino y permitir cambiarlo o reenviar después de una espera, según la configuración. Comprueba ese flujo en tu instalación; las acciones del preview no son envíos reales.\n\nSi no necesitas seguimiento, puedes dejar las selecciones vacías. El ejemplo muestra los controles y un cupón ficticio sin guardar la asignación; no muestra un mensaje enviado ni una ruta activa. Una captura sin ruta no debe presentarse como una suscripción completada.\n\nEl cupón es un ejemplo ficticio; la selección no se guardó y la ruta está sin asignar. No se muestra una entrega.\nInstala el popup\n\nEl paso de instalación ofrece los métodos disponibles para el sitio conectado:\n\nInstalación automática: úsala cuando aparece una tienda Shopify conectada o una integración compatible de VTEX o Fenicio. Las opciones no disponibles se muestran deshabilitadas.\nInstalación manual: instala Hellotext.js y luego agrega al sitio el código de inicialización generado para este popup.\nLa integración local ficticia no está conectada a VTEX, Fenicio ni Shopify. No se confirmó la instalación.\n\nUsa el código generado exactamente como aparece porque incluye los identificadores de tu negocio y del popup. Si un desarrollador o una agencia administra el sitio, envíale las instrucciones completas de instalación manual que aparecen en este paso.\n\nLos identificadores pertenecen sólo al ejemplo local. El código no se instaló y no se pulsó la confirmación de publicación.\n\nContinuar en una opción automática confirma la publicación del popup. Con la opción manual, Continuar abre las instrucciones; la confirmación final con Cerrar publica el popup y registra su instalación. Revisa el diseño y prepara una prueba controlada antes de confirmar cualquiera de esas acciones. Una vista previa correcta no demuestra que Hellotext.js esté instalado ni que el envío de datos funcione en el sitio.\n\nPrueba antes de publicar\n\nRevisa primero los pasos y dispositivos con Vista previa. Después de una activación controlada, valida la experiencia en el sitio con datos de prueba autorizados, teniendo en cuenta que un envío real puede generar verificaciones, mensajes y entradas a rutas.\n\nConfirma que:\n\nEl popup se abre mediante la activación automática o la burbuja configurada.\nAparece en los dispositivos mobile y desktop previstos.\nNo cubre la navegación, checkout, controles de consentimiento u otras acciones esenciales del sitio.\nCada paso cabe en la pantalla sin texto ni controles cortados.\nLos campos obligatorios detienen envíos incompletos y explican qué falta corregir.\nLos teléfonos, emails y otras propiedades llegan al perfil del cliente correcto.\nEl aviso de consentimiento coincide con el canal y tipo de mensaje.\nEl estado completado explica claramente la siguiente acción.\nEl cupón asignado llega al destino esperado cuando la entrega está habilitada.\nLa ruta asignada comienza una sola vez y no se superpone con otro flujo de bienvenida.\nCerrar, volver a abrir y usar la burbuja funciona como esperas.\n\nRepite la prueba en una ventana privada y en un teléfono real. Esto permite detectar problemas de instalación, sesión y layout responsive que la vista previa del editor no puede mostrar.\n\nSi el popup no aparece\n\nRevisa estos puntos en orden:\n\nConfirma que el popup se haya guardado, instalado y publicado.\nConfirma que Hellotext.js y el código de inicialización del popup carguen en la página.\nRevisa si el popup está limitado a mobile o desktop.\nRevisa si se abre automáticamente, o solamente desde una burbuja.\nPrueba en una ventana privada para evitar que una sesión anterior afecte el resultado.\nConfirma que el popup corresponda al sitio y dispositivo que estás probando.\nVuelve a abrir el paso de instalación y compara el código generado con el que se ejecuta en el sitio.\n\nAl reportar un problema, incluye el nombre del popup, URL probada, dispositivo, hora aproximada, forma de apertura y si el popup no apareció o falló después del envío.\n\nGuías relacionadas\nResumen de herramientas de captura\nFormularios Web\nLinks Compartibles\nOpt-in en checkout de Shopify\nA quién puedes escribirle\nPrimeros pasos con rutas\nConecta Shopify",
+    "links": [
+      {
+        "text": "Formulario Web",
+        "url": "http://127.0.0.1:4191/es/formularios"
+      },
+      {
+        "text": "Link Compartible",
+        "url": "http://127.0.0.1:4191/es/link-compartible"
+      },
+      {
+        "text": "A quién puedes escribirle",
+        "url": "http://127.0.0.1:4191/es/a-quien-puedo-escribirle"
+      },
+      {
+        "text": "Hellotext.js",
+        "url": "https://github.com/hellotext/hellotext.js"
+      },
+      {
+        "text": "Resumen de herramientas de captura",
+        "url": "http://127.0.0.1:4191/es/resumen-herramientas-captura"
+      },
+      {
+        "text": "Formularios Web",
+        "url": "http://127.0.0.1:4191/es/formularios"
+      },
+      {
+        "text": "Links Compartibles",
+        "url": "http://127.0.0.1:4191/es/link-compartible"
+      },
+      {
+        "text": "Opt-in en checkout de Shopify",
+        "url": "http://127.0.0.1:4191/es/shopify-checkout"
+      },
+      {
+        "text": "A quién puedes escribirle",
+        "url": "http://127.0.0.1:4191/es/a-quien-puedo-escribirle"
+      },
+      {
+        "text": "Primeros pasos con rutas",
+        "url": "http://127.0.0.1:4191/es/primeros-pasos-con-rutas"
+      },
+      {
+        "text": "Conecta Shopify",
+        "url": "http://127.0.0.1:4191/es/conecta-shopify"
+      }
+    ],
+    "figures": [
+      {
+        "rect": [
+          375.9921875,
+          2181.828125,
+          774.4140625,
+          305.1953125
+        ],
+        "stageWidth": 774.4140625,
+        "frameWidth": 400,
+        "imageWidth": 381.9921875,
+        "natural": [
+          400,
+          240
+        ],
+        "src": "/images/captures/capture-overview/desktop-popup-es.png",
+        "alt": "Tarjeta Popup de Sitio Web del catálogo de escritorio.",
+        "caption": "Card de la grilla real de escritorio, sin ampliar.",
+        "linked": false
+      },
+      {
+        "rect": [
+          375.9921875,
+          2631.0234375,
+          774.4140625,
+          801.5078125
+        ],
+        "stageWidth": 774.4140625,
+        "frameWidth": 511,
+        "imageWidth": 492.9921875,
+        "natural": [
+          511,
+          752
+        ],
+        "src": "/images/captures/website-popup/steps-es.png",
+        "alt": "Editor del popup ficticio con pasos Email, Nombre y Completado y selectores de dispositivo.",
+        "caption": "Datos ficticios; el foco móvil muestra el preview del primer paso. No se publicó ni se envió el formulario.",
+        "linked": false
+      },
+      {
+        "rect": [
+          375.9921875,
+          3890.53125,
+          774.4140625,
+          796.1484375
+        ],
+        "stageWidth": 774.4140625,
+        "frameWidth": 716.4140625,
+        "imageWidth": 698.40625,
+        "natural": [
+          739,
+          762
+        ],
+        "src": "/images/captures/website-popup/fields-es.png",
+        "alt": "Controles de tipo de campo, marcador de posición y requisito obligatorio del email.",
+        "caption": "En escritorio se ve el campo y su panel; el foco móvil muestra los controles de tipo, placeholder y requisito.",
+        "linked": false
+      },
+      {
+        "rect": [
+          375.9921875,
+          4830.6796875,
+          774.4140625,
+          586.203125
+        ],
+        "stageWidth": 774.4140625,
+        "frameWidth": 374,
+        "imageWidth": 355.9921875,
+        "natural": [
+          374,
+          536
+        ],
+        "src": "/images/captures/website-popup/completion-es.png",
+        "alt": "Vista previa del estado Completado del popup ficticio.",
+        "caption": "Es un preview de diseño, no evidencia de una suscripción o mensaje recibido.",
+        "linked": false
+      },
+      {
+        "rect": [
+          375.9921875,
+          6648.8828125,
+          774.4140625,
+          657.3046875
+        ],
+        "stageWidth": 774.4140625,
+        "frameWidth": 410,
+        "imageWidth": 391.9921875,
+        "natural": [
+          410,
+          608
+        ],
+        "src": "/images/captures/website-popup/style-es.png",
+        "alt": "Panel Estilo con tipografía, colores de texto y fondo y tamaño de fuente.",
+        "caption": "Panel real de Estilo del editor desktop.",
+        "linked": false
+      },
+      {
+        "rect": [
+          375.9921875,
+          7426.1875,
+          774.4140625,
+          395.3359375
+        ],
+        "stageWidth": 774.4140625,
+        "frameWidth": 410,
+        "imageWidth": 391.9921875,
+        "natural": [
+          410,
+          334
+        ],
+        "src": "/images/captures/website-popup/layout-es.png",
+        "alt": "Panel Diseño con layouts separados para escritorio y móvil.",
+        "caption": "Footer está seleccionado para escritorio y Default para móvil en el ejemplo ficticio.",
+        "linked": false
+      },
+      {
+        "rect": [
+          375.9921875,
+          8053.5234375,
+          774.4140625,
+          431.6640625
+        ],
+        "stageWidth": 774.4140625,
+        "frameWidth": 410,
+        "imageWidth": 391.9921875,
+        "natural": [
+          410,
+          372
+        ],
+        "src": "/images/captures/website-popup/settings-es.png",
+        "alt": "Panel Ajustes con dispositivos y opciones de burbuja.",
+        "caption": "El panel actual no incluye un selector de demora.",
+        "linked": false
+      },
+      {
+        "rect": [
+          375.9921875,
+          9231.1875,
+          774.4140625,
+          294.765625
+        ],
+        "stageWidth": 774.4140625,
+        "frameWidth": 403,
+        "imageWidth": 384.984375,
+        "natural": [
+          403,
+          229
+        ],
+        "src": "/images/captures/website-popup/assignment-es.png",
+        "alt": "Selectores de cupón y ruta, con GUIA-QR-10 seleccionado de forma transitoria.",
+        "caption": "El cupón es un ejemplo ficticio; la selección no se guardó y la ruta está sin asignar. No se muestra una entrega.",
+        "linked": false
+      },
+      {
+        "rect": [
+          375.9921875,
+          9823.953125,
+          774.4140625,
+          527.53125
+        ],
+        "stageWidth": 774.4140625,
+        "frameWidth": 670,
+        "imageWidth": 651.9921875,
+        "natural": [
+          670,
+          464
+        ],
+        "src": "/images/captures/website-popup/installation-es.png",
+        "alt": "Métodos de instalación del popup; VTEX y Fenicio deshabilitados y opción manual disponible.",
+        "caption": "La integración local ficticia no está conectada a VTEX, Fenicio ni Shopify. No se confirmó la instalación.",
+        "linked": false
+      },
+      {
+        "rect": [
+          375.9921875,
+          10495.484375,
+          774.4140625,
+          262.7890625
+        ],
+        "stageWidth": 774.4140625,
+        "frameWidth": 664,
+        "imageWidth": 645.9765625,
+        "natural": [
+          664,
+          192
+        ],
+        "src": "/images/captures/website-popup/code-es.png",
+        "alt": "Código de inicialización generado para el popup ficticio.",
+        "caption": "Los identificadores pertenecen sólo al ejemplo local. El código no se instaló y no se pulsó la confirmación de publicación.",
+        "linked": false
+      }
+    ]
+  },
+  {
+    "url": "http://127.0.0.1:4191/es/popup-sitio-web.html",
+    "locale": "es",
+    "title": "Popup de Sitio Web | Hellotext",
+    "viewport": [
+      390,
+      1000
+    ],
+    "dpr": 2,
+    "zoom": 1,
+    "pageSize": [
+      390,
+      15046
+    ],
+    "articleWidth": 358,
+    "headings": [
+      "Cuándo usar Popup de Sitio Web",
+      "Antes de empezar",
+      "Crea el popup",
+      "Construye los pasos de suscripción",
+      "Escribe textos claros para el popup",
+      "Configura el estilo, layout y apertura",
+      "Asigna un cupón y una ruta",
+      "Instala el popup",
+      "Prueba antes de publicar",
+      "Si el popup no aparece",
+      "Guías relacionadas"
+    ],
+    "text": "Popup de Sitio Web te permite captar números de teléfono, direcciones de email y otros datos del perfil del cliente sin sacar a los visitantes de tu sitio.\n\nEs una misión de captura, no una misión agéntica ni una ruta. El popup crea o actualiza un perfil del cliente. Puedes asignar una ruta activa de bienvenida o seguimiento y, de forma opcional, un cupón. Guardar un dato de contacto no equivale por sí solo a completar una suscripción verificada.\n\nPopup de Sitio Web se está habilitando de forma progresiva. Si aparece como A solicitud, está deshabilitado o no aparece en el grupo Captura dentro de Explorar misiones, confirma su disponibilidad con tu equipo de Hellotext antes de planificar el lanzamiento.\n\nCuándo usar Popup de Sitio Web\n\nUsa Popup de Sitio Web cuando quieres:\n\nCaptar datos de visitantes y, con una ruta y la verificación correspondientes, incorporarlos como personas suscritas.\nCaptar un número de teléfono, email u otras propiedades del perfil del cliente.\nPresentar una oferta sin enviar al visitante a otra página.\nUsar más de un paso para mantener breve la primera interacción.\nAdaptar la experiencia para mobile y desktop.\nIniciar una ruta de bienvenida después de la suscripción.\n\nUsa un Formulario Web cuando el formulario deba vivir dentro de la página en lugar de abrirse sobre ella. Usa un Link Compartible cuando el opt-in comience fuera de tu sitio, por ejemplo desde redes sociales, un anuncio o un email.\n\nAntes de empezar\n\nDecide qué datos realmente necesitas al momento de la suscripción. Un número de teléfono o un email suele ser suficiente para el primer paso. Los campos adicionales pueden usar propiedades existentes del perfil del cliente, incluidas las propiedades personalizadas creadas por tu negocio.\n\nTambién confirma:\n\nA qué canal se suscribe el visitante.\nQué valor u oferta comunica el popup.\nSi se debe entregar un cupón después de la suscripción.\nSi una ruta debe comenzar al completar la captura.\nQuién puede instalar Hellotext en el sitio si hace falta una instalación manual.\nQue el aviso de consentimiento describa correctamente los mensajes que el visitante acepta recibir.\n\nPara revisar elegibilidad por canal y consentimiento, consulta A quién puedes escribirle.\n\nCrea el popup\nAbre Misiones y haz clic en Explorar misiones.\nBusca el grupo Captura y elige Popup de Sitio Web.\nDale un nombre que identifique su ubicación o propósito.\nConstruye los pasos de suscripción y el estado Completado.\nRevisa Estilo, Diseño y Ajustes.\nHaz clic en Guardar & Continuar para guardar el borrador y abrir la asignación opcional de cupón y ruta.\nRevisa el método de instalación antes de confirmar la activación del popup.\nCard de la grilla real de escritorio, sin ampliar.\n\nLos íconos de móvil y escritorio cambian la vista del editor. Vista previa abre una vista separada que permite revisar la experiencia sin publicar el popup. Revisa ambas mientras trabajas en lugar de considerar que la vista de desktop representa el resultado final para todos los visitantes.\n\nDatos ficticios; el foco móvil muestra el preview del primer paso. No se publicó ni se envió el formulario.\nConstruye los pasos de suscripción\n\nUn popup puede usar varios pasos. Esto te permite pedir primero un dato importante y solicitar más información solamente después de que el visitante continúa.\n\nEn cada paso puedes:\n\nEditar el título, texto de apoyo, botón, links y aviso de consentimiento.\nAgregar campos basados en propiedades estándar o personalizadas del perfil del cliente.\nCambiar el placeholder de cada campo que lo admite.\nMarcar campos como obligatorios cuando el flujo no pueda continuar sin ellos.\nAgregar, eliminar, renombrar y reordenar pasos.\nVer cómo se muestra el paso en mobile y desktop.\nEn escritorio se ve el campo y su panel; el foco móvil muestra los controles de tipo, placeholder y requisito.\n\nUsa el estado Completado para explicar qué ocurrirá después del formulario. La vista previa de este estado es una simulación de diseño; no confirma una suscripción, verificación o entrega real. Haz que este mensaje sea útil incluso cuando no hayas asignado un cupón.\n\nEs un preview de diseño, no evidencia de una suscripción o mensaje recibido.\n\nNo pidas todas las propiedades disponibles solo porque existen. Cada campo adicional exige más esfuerzo al visitante y puede reducir la cantidad de personas que completan el popup. Para publicar, incluye y marca como obligatorio al menos un campo de email o teléfono. Capta lo mínimo necesario para el primer seguimiento útil y enriquece el perfil más adelante mediante conversaciones, compras, formularios u otras señales.\n\nEscribe textos claros para el popup\n\nEl visitante debería entender el valor, los datos solicitados y la siguiente acción antes de ingresar información.\n\nComienza con el beneficio concreto o la razón para suscribirse.\nUsa el texto de apoyo para explicar qué recibirá el visitante, no para repetir el título.\nHaz que el botón describa la acción, por ejemplo Obtén mi descuento o Notifícame, en lugar de usar una etiqueta vaga.\nMantén el primer paso lo bastante breve como para leerlo fácilmente en un teléfono.\nMantén el aviso de consentimiento legible y separado de la promesa promocional.\nHaz que el estado completado explique si debe revisar WhatsApp, SMS o email, seguir comprando o esperar un seguimiento.\nNo crees urgencia falsa ni prometas un cupón, canal de entrega o tiempo de respuesta que el flujo configurado no puede ofrecer.\n\nLee todos los pasos como una sola secuencia. Un buen primer paso igualmente puede resultar confuso si el segundo cambia la oferta, pide datos inesperados o usa una llamada a la acción diferente.\n\nConfigura el estilo, layout y apertura\n\nEl editor separa la configuración del popup en tres áreas:\n\nÁrea\tQué controla\nEstilo\tLa tipografía, los colores de texto y fondo y el tamaño de fuente. Los controles del botón y de la cabecera se editan también desde esos elementos de la vista previa.\nDiseño\tLa disposición usada en desktop y mobile. Cada dispositivo puede usar el layout que mejor se adapte a su pantalla.\nAjustes\tSi el popup se abre automáticamente o primero aparece como una burbuja y si se muestra en mobile, desktop o ambos.\n\nAbre Estilo para revisar tipografía, colores y tamaño. Estos controles comparten la tipografía y los colores del popup.\n\nPanel real de Estilo del editor desktop.\n\nAbre Diseño para comparar las disposiciones disponibles. Elige un layout separado para cada dispositivo y revisa el resultado con los íconos de móvil y escritorio.\n\nFooter está seleccionado para escritorio y Default para móvil en el ejemplo ficticio.\n\nCuando el popup usa una burbuja, los visitantes ven un pequeño acceso flotante y abren el popup completo al seleccionarlo. Configura el texto, color de texto, color de fondo y alineación de la burbuja para que sea visible sin cubrir controles importantes del sitio.\n\nEl panel Ajustes muestra la selección de dispositivos y las opciones No mostrar burbuja y Mostrar una burbuja. En esta versión no presenta un selector de demora; no supongas que puedes programar un retraso desde ese panel.\n\nEl panel actual no incluye un selector de demora.\n\nEl editor revisado no ofrece condiciones por URL, scroll, ubicación o visualizaciones anteriores. Confirma con Hellotext cualquier requisito de segmentación adicional antes de planificar el lanzamiento.\n\nAsigna un cupón y una ruta\n\nLa asignación de cupón y ruta es opcional.\n\nSelecciona una ruta activa con un disparador de suscripción para que el contacto entre al flujo de bienvenida. El formulario registra la captura de datos; la suscripción y la entrada a la ruta esperan la verificación de los datos de contacto requeridos. Una ruta desactivada no aparece como opción compatible.\n\nSi también ofreces un cupón, revisa que la ruta contenga el mensaje que lo entrega. La asignación muestra una advertencia si falta la ruta o si el mensaje no contiene un cupón. Lee la advertencia antes de continuar: seleccionar un cupón no demuestra que ya se haya enviado.\n\nLa entrega requiere un canal disponible para los datos ingresados. El teléfono puede usar WhatsApp si la configuración y plantilla son compatibles, con SMS como alternativa; el email usa correo electrónico. No lo presentes como una elección automática del canal más barato.\n\nEl estado completado puede mostrar un destino y permitir cambiarlo o reenviar después de una espera, según la configuración. Comprueba ese flujo en tu instalación; las acciones del preview no son envíos reales.\n\nSi no necesitas seguimiento, puedes dejar las selecciones vacías. El ejemplo muestra los controles y un cupón ficticio sin guardar la asignación; no muestra un mensaje enviado ni una ruta activa. Una captura sin ruta no debe presentarse como una suscripción completada.\n\nEl cupón es un ejemplo ficticio; la selección no se guardó y la ruta está sin asignar. No se muestra una entrega.\nInstala el popup\n\nEl paso de instalación ofrece los métodos disponibles para el sitio conectado:\n\nInstalación automática: úsala cuando aparece una tienda Shopify conectada o una integración compatible de VTEX o Fenicio. Las opciones no disponibles se muestran deshabilitadas.\nInstalación manual: instala Hellotext.js y luego agrega al sitio el código de inicialización generado para este popup.\nLa integración local ficticia no está conectada a VTEX, Fenicio ni Shopify. No se confirmó la instalación.\n\nUsa el código generado exactamente como aparece porque incluye los identificadores de tu negocio y del popup. Si un desarrollador o una agencia administra el sitio, envíale las instrucciones completas de instalación manual que aparecen en este paso.\n\nLos identificadores pertenecen sólo al ejemplo local. El código no se instaló y no se pulsó la confirmación de publicación.\n\nContinuar en una opción automática confirma la publicación del popup. Con la opción manual, Continuar abre las instrucciones; la confirmación final con Cerrar publica el popup y registra su instalación. Revisa el diseño y prepara una prueba controlada antes de confirmar cualquiera de esas acciones. Una vista previa correcta no demuestra que Hellotext.js esté instalado ni que el envío de datos funcione en el sitio.\n\nPrueba antes de publicar\n\nRevisa primero los pasos y dispositivos con Vista previa. Después de una activación controlada, valida la experiencia en el sitio con datos de prueba autorizados, teniendo en cuenta que un envío real puede generar verificaciones, mensajes y entradas a rutas.\n\nConfirma que:\n\nEl popup se abre mediante la activación automática o la burbuja configurada.\nAparece en los dispositivos mobile y desktop previstos.\nNo cubre la navegación, checkout, controles de consentimiento u otras acciones esenciales del sitio.\nCada paso cabe en la pantalla sin texto ni controles cortados.\nLos campos obligatorios detienen envíos incompletos y explican qué falta corregir.\nLos teléfonos, emails y otras propiedades llegan al perfil del cliente correcto.\nEl aviso de consentimiento coincide con el canal y tipo de mensaje.\nEl estado completado explica claramente la siguiente acción.\nEl cupón asignado llega al destino esperado cuando la entrega está habilitada.\nLa ruta asignada comienza una sola vez y no se superpone con otro flujo de bienvenida.\nCerrar, volver a abrir y usar la burbuja funciona como esperas.\n\nRepite la prueba en una ventana privada y en un teléfono real. Esto permite detectar problemas de instalación, sesión y layout responsive que la vista previa del editor no puede mostrar.\n\nSi el popup no aparece\n\nRevisa estos puntos en orden:\n\nConfirma que el popup se haya guardado, instalado y publicado.\nConfirma que Hellotext.js y el código de inicialización del popup carguen en la página.\nRevisa si el popup está limitado a mobile o desktop.\nRevisa si se abre automáticamente, o solamente desde una burbuja.\nPrueba en una ventana privada para evitar que una sesión anterior afecte el resultado.\nConfirma que el popup corresponda al sitio y dispositivo que estás probando.\nVuelve a abrir el paso de instalación y compara el código generado con el que se ejecuta en el sitio.\n\nAl reportar un problema, incluye el nombre del popup, URL probada, dispositivo, hora aproximada, forma de apertura y si el popup no apareció o falló después del envío.\n\nGuías relacionadas\nResumen de herramientas de captura\nFormularios Web\nLinks Compartibles\nOpt-in en checkout de Shopify\nA quién puedes escribirle\nPrimeros pasos con rutas\nConecta Shopify",
+    "links": [
+      {
+        "text": "Formulario Web",
+        "url": "http://127.0.0.1:4191/es/formularios"
+      },
+      {
+        "text": "Link Compartible",
+        "url": "http://127.0.0.1:4191/es/link-compartible"
+      },
+      {
+        "text": "A quién puedes escribirle",
+        "url": "http://127.0.0.1:4191/es/a-quien-puedo-escribirle"
+      },
+      {
+        "text": "Hellotext.js",
+        "url": "https://github.com/hellotext/hellotext.js"
+      },
+      {
+        "text": "Resumen de herramientas de captura",
+        "url": "http://127.0.0.1:4191/es/resumen-herramientas-captura"
+      },
+      {
+        "text": "Formularios Web",
+        "url": "http://127.0.0.1:4191/es/formularios"
+      },
+      {
+        "text": "Links Compartibles",
+        "url": "http://127.0.0.1:4191/es/link-compartible"
+      },
+      {
+        "text": "Opt-in en checkout de Shopify",
+        "url": "http://127.0.0.1:4191/es/shopify-checkout"
+      },
+      {
+        "text": "A quién puedes escribirle",
+        "url": "http://127.0.0.1:4191/es/a-quien-puedo-escribirle"
+      },
+      {
+        "text": "Primeros pasos con rutas",
+        "url": "http://127.0.0.1:4191/es/primeros-pasos-con-rutas"
+      },
+      {
+        "text": "Conecta Shopify",
+        "url": "http://127.0.0.1:4191/es/conecta-shopify"
+      }
+    ],
+    "figures": [
+      {
+        "rect": [
+          16,
+          2865,
+          358,
+          239.59375
+        ],
+        "stageWidth": 358,
+        "frameWidth": 328,
+        "imageWidth": 315.984375,
+        "natural": [
+          400,
+          240
+        ],
+        "src": "/images/captures/capture-overview/desktop-popup-es.png",
+        "alt": "Tarjeta Popup de Sitio Web del catálogo de escritorio.",
+        "caption": "Card de la grilla real de escritorio, sin ampliar.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          3344.59375,
+          358,
+          628.765625
+        ],
+        "stageWidth": 358,
+        "frameWidth": 328,
+        "imageWidth": 315.9921875,
+        "natural": [
+          374,
+          685
+        ],
+        "src": "/images/captures/website-popup/steps-mobile-es.png",
+        "alt": "Editor del popup ficticio con pasos Email, Nombre y Completado y selectores de dispositivo.",
+        "caption": "Datos ficticios; el foco móvil muestra el preview del primer paso. No se publicó ni se envió el formulario.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          4665.359375,
+          358,
+          279.0078125
+        ],
+        "stageWidth": 358,
+        "frameWidth": 328,
+        "imageWidth": 315.9921875,
+        "natural": [
+          356,
+          258
+        ],
+        "src": "/images/captures/website-popup/fields-mobile-es.png",
+        "alt": "Controles de tipo de campo, marcador de posición y requisito obligatorio del email.",
+        "caption": "En escritorio se ve el campo y su panel; el foco móvil muestra los controles de tipo, placeholder y requisito.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          5160.3671875,
+          358,
+          502.875
+        ],
+        "stageWidth": 358,
+        "frameWidth": 328,
+        "imageWidth": 315.9921875,
+        "natural": [
+          374,
+          536
+        ],
+        "src": "/images/captures/website-popup/completion-es.png",
+        "alt": "Vista previa del estado Completado del popup ficticio.",
+        "caption": "Es un preview de diseño, no evidencia de una suscripción o mensaje recibido.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          7627.2421875,
+          358,
+          518.6015625
+        ],
+        "stageWidth": 358,
+        "frameWidth": 328,
+        "imageWidth": 315.9921875,
+        "natural": [
+          410,
+          608
+        ],
+        "src": "/images/captures/website-popup/style-es.png",
+        "alt": "Panel Estilo con tipografía, colores de texto y fondo y tamaño de fuente.",
+        "caption": "Panel real de Estilo del editor desktop.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          8313.84375,
+          358,
+          307.421875
+        ],
+        "stageWidth": 358,
+        "frameWidth": 328,
+        "imageWidth": 315.9921875,
+        "natural": [
+          410,
+          334
+        ],
+        "src": "/images/captures/website-popup/layout-es.png",
+        "alt": "Panel Diseño con layouts separados para escritorio y móvil.",
+        "caption": "Footer está seleccionado para escritorio y Default para móvil en el ejemplo ficticio.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          8997.265625,
+          358,
+          336.7109375
+        ],
+        "stageWidth": 358,
+        "frameWidth": 328,
+        "imageWidth": 315.9921875,
+        "natural": [
+          410,
+          372
+        ],
+        "src": "/images/captures/website-popup/settings-es.png",
+        "alt": "Panel Ajustes con dispositivos y opciones de burbuja.",
+        "caption": "El panel actual no incluye un selector de demora.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          10577.9765625,
+          358,
+          229.5625
+        ],
+        "stageWidth": 358,
+        "frameWidth": 328,
+        "imageWidth": 315.9921875,
+        "natural": [
+          403,
+          229
+        ],
+        "src": "/images/captures/website-popup/assignment-es.png",
+        "alt": "Selectores de cupón y ruta, con GUIA-QR-10 seleccionado de forma transitoria.",
+        "caption": "El cupón es un ejemplo ficticio; la selección no se guardó y la ruta está sin asignar. No se muestra una entrega.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          11207.5390625,
+          358,
+          400.4453125
+        ],
+        "stageWidth": 358,
+        "frameWidth": 328,
+        "imageWidth": 315.9921875,
+        "natural": [
+          422,
+          468
+        ],
+        "src": "/images/captures/website-popup/installation-mobile-es.png",
+        "alt": "Métodos de instalación del popup; VTEX y Fenicio deshabilitados y opción manual disponible.",
+        "caption": "La integración local ficticia no está conectada a VTEX, Fenicio ni Shopify. No se confirmó la instalación.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          11823.984375,
+          358,
+          218.1171875
+        ],
+        "stageWidth": 358,
+        "frameWidth": 328,
+        "imageWidth": 315.9921875,
+        "natural": [
+          406,
+          216
+        ],
+        "src": "/images/captures/website-popup/code-mobile-es.png",
+        "alt": "Código de inicialización generado para el popup ficticio.",
+        "caption": "Los identificadores pertenecen sólo al ejemplo local. El código no se instaló y no se pulsó la confirmación de publicación.",
+        "linked": false
+      }
+    ]
+  },
+  {
+    "url": "http://127.0.0.1:4191/es/popup-sitio-web.html",
+    "locale": "es",
+    "title": "Popup de Sitio Web | Hellotext",
+    "viewport": [
+      590,
+      1000
+    ],
+    "dpr": 2,
+    "zoom": 1,
+    "pageSize": [
+      590,
+      13389
+    ],
+    "articleWidth": 558,
+    "headings": [
+      "Cuándo usar Popup de Sitio Web",
+      "Antes de empezar",
+      "Crea el popup",
+      "Construye los pasos de suscripción",
+      "Escribe textos claros para el popup",
+      "Configura el estilo, layout y apertura",
+      "Asigna un cupón y una ruta",
+      "Instala el popup",
+      "Prueba antes de publicar",
+      "Si el popup no aparece",
+      "Guías relacionadas"
+    ],
+    "text": "Popup de Sitio Web te permite captar números de teléfono, direcciones de email y otros datos del perfil del cliente sin sacar a los visitantes de tu sitio.\n\nEs una misión de captura, no una misión agéntica ni una ruta. El popup crea o actualiza un perfil del cliente. Puedes asignar una ruta activa de bienvenida o seguimiento y, de forma opcional, un cupón. Guardar un dato de contacto no equivale por sí solo a completar una suscripción verificada.\n\nPopup de Sitio Web se está habilitando de forma progresiva. Si aparece como A solicitud, está deshabilitado o no aparece en el grupo Captura dentro de Explorar misiones, confirma su disponibilidad con tu equipo de Hellotext antes de planificar el lanzamiento.\n\nCuándo usar Popup de Sitio Web\n\nUsa Popup de Sitio Web cuando quieres:\n\nCaptar datos de visitantes y, con una ruta y la verificación correspondientes, incorporarlos como personas suscritas.\nCaptar un número de teléfono, email u otras propiedades del perfil del cliente.\nPresentar una oferta sin enviar al visitante a otra página.\nUsar más de un paso para mantener breve la primera interacción.\nAdaptar la experiencia para mobile y desktop.\nIniciar una ruta de bienvenida después de la suscripción.\n\nUsa un Formulario Web cuando el formulario deba vivir dentro de la página en lugar de abrirse sobre ella. Usa un Link Compartible cuando el opt-in comience fuera de tu sitio, por ejemplo desde redes sociales, un anuncio o un email.\n\nAntes de empezar\n\nDecide qué datos realmente necesitas al momento de la suscripción. Un número de teléfono o un email suele ser suficiente para el primer paso. Los campos adicionales pueden usar propiedades existentes del perfil del cliente, incluidas las propiedades personalizadas creadas por tu negocio.\n\nTambién confirma:\n\nA qué canal se suscribe el visitante.\nQué valor u oferta comunica el popup.\nSi se debe entregar un cupón después de la suscripción.\nSi una ruta debe comenzar al completar la captura.\nQuién puede instalar Hellotext en el sitio si hace falta una instalación manual.\nQue el aviso de consentimiento describa correctamente los mensajes que el visitante acepta recibir.\n\nPara revisar elegibilidad por canal y consentimiento, consulta A quién puedes escribirle.\n\nCrea el popup\nAbre Misiones y haz clic en Explorar misiones.\nBusca el grupo Captura y elige Popup de Sitio Web.\nDale un nombre que identifique su ubicación o propósito.\nConstruye los pasos de suscripción y el estado Completado.\nRevisa Estilo, Diseño y Ajustes.\nHaz clic en Guardar & Continuar para guardar el borrador y abrir la asignación opcional de cupón y ruta.\nRevisa el método de instalación antes de confirmar la activación del popup.\nCard de la grilla real de escritorio, sin ampliar.\n\nLos íconos de móvil y escritorio cambian la vista del editor. Vista previa abre una vista separada que permite revisar la experiencia sin publicar el popup. Revisa ambas mientras trabajas en lugar de considerar que la vista de desktop representa el resultado final para todos los visitantes.\n\nDatos ficticios; el foco móvil muestra el preview del primer paso. No se publicó ni se envió el formulario.\nConstruye los pasos de suscripción\n\nUn popup puede usar varios pasos. Esto te permite pedir primero un dato importante y solicitar más información solamente después de que el visitante continúa.\n\nEn cada paso puedes:\n\nEditar el título, texto de apoyo, botón, links y aviso de consentimiento.\nAgregar campos basados en propiedades estándar o personalizadas del perfil del cliente.\nCambiar el placeholder de cada campo que lo admite.\nMarcar campos como obligatorios cuando el flujo no pueda continuar sin ellos.\nAgregar, eliminar, renombrar y reordenar pasos.\nVer cómo se muestra el paso en mobile y desktop.\nEn escritorio se ve el campo y su panel; el foco móvil muestra los controles de tipo, placeholder y requisito.\n\nUsa el estado Completado para explicar qué ocurrirá después del formulario. La vista previa de este estado es una simulación de diseño; no confirma una suscripción, verificación o entrega real. Haz que este mensaje sea útil incluso cuando no hayas asignado un cupón.\n\nEs un preview de diseño, no evidencia de una suscripción o mensaje recibido.\n\nNo pidas todas las propiedades disponibles solo porque existen. Cada campo adicional exige más esfuerzo al visitante y puede reducir la cantidad de personas que completan el popup. Para publicar, incluye y marca como obligatorio al menos un campo de email o teléfono. Capta lo mínimo necesario para el primer seguimiento útil y enriquece el perfil más adelante mediante conversaciones, compras, formularios u otras señales.\n\nEscribe textos claros para el popup\n\nEl visitante debería entender el valor, los datos solicitados y la siguiente acción antes de ingresar información.\n\nComienza con el beneficio concreto o la razón para suscribirse.\nUsa el texto de apoyo para explicar qué recibirá el visitante, no para repetir el título.\nHaz que el botón describa la acción, por ejemplo Obtén mi descuento o Notifícame, en lugar de usar una etiqueta vaga.\nMantén el primer paso lo bastante breve como para leerlo fácilmente en un teléfono.\nMantén el aviso de consentimiento legible y separado de la promesa promocional.\nHaz que el estado completado explique si debe revisar WhatsApp, SMS o email, seguir comprando o esperar un seguimiento.\nNo crees urgencia falsa ni prometas un cupón, canal de entrega o tiempo de respuesta que el flujo configurado no puede ofrecer.\n\nLee todos los pasos como una sola secuencia. Un buen primer paso igualmente puede resultar confuso si el segundo cambia la oferta, pide datos inesperados o usa una llamada a la acción diferente.\n\nConfigura el estilo, layout y apertura\n\nEl editor separa la configuración del popup en tres áreas:\n\nÁrea\tQué controla\nEstilo\tLa tipografía, los colores de texto y fondo y el tamaño de fuente. Los controles del botón y de la cabecera se editan también desde esos elementos de la vista previa.\nDiseño\tLa disposición usada en desktop y mobile. Cada dispositivo puede usar el layout que mejor se adapte a su pantalla.\nAjustes\tSi el popup se abre automáticamente o primero aparece como una burbuja y si se muestra en mobile, desktop o ambos.\n\nAbre Estilo para revisar tipografía, colores y tamaño. Estos controles comparten la tipografía y los colores del popup.\n\nPanel real de Estilo del editor desktop.\n\nAbre Diseño para comparar las disposiciones disponibles. Elige un layout separado para cada dispositivo y revisa el resultado con los íconos de móvil y escritorio.\n\nFooter está seleccionado para escritorio y Default para móvil en el ejemplo ficticio.\n\nCuando el popup usa una burbuja, los visitantes ven un pequeño acceso flotante y abren el popup completo al seleccionarlo. Configura el texto, color de texto, color de fondo y alineación de la burbuja para que sea visible sin cubrir controles importantes del sitio.\n\nEl panel Ajustes muestra la selección de dispositivos y las opciones No mostrar burbuja y Mostrar una burbuja. En esta versión no presenta un selector de demora; no supongas que puedes programar un retraso desde ese panel.\n\nEl panel actual no incluye un selector de demora.\n\nEl editor revisado no ofrece condiciones por URL, scroll, ubicación o visualizaciones anteriores. Confirma con Hellotext cualquier requisito de segmentación adicional antes de planificar el lanzamiento.\n\nAsigna un cupón y una ruta\n\nLa asignación de cupón y ruta es opcional.\n\nSelecciona una ruta activa con un disparador de suscripción para que el contacto entre al flujo de bienvenida. El formulario registra la captura de datos; la suscripción y la entrada a la ruta esperan la verificación de los datos de contacto requeridos. Una ruta desactivada no aparece como opción compatible.\n\nSi también ofreces un cupón, revisa que la ruta contenga el mensaje que lo entrega. La asignación muestra una advertencia si falta la ruta o si el mensaje no contiene un cupón. Lee la advertencia antes de continuar: seleccionar un cupón no demuestra que ya se haya enviado.\n\nLa entrega requiere un canal disponible para los datos ingresados. El teléfono puede usar WhatsApp si la configuración y plantilla son compatibles, con SMS como alternativa; el email usa correo electrónico. No lo presentes como una elección automática del canal más barato.\n\nEl estado completado puede mostrar un destino y permitir cambiarlo o reenviar después de una espera, según la configuración. Comprueba ese flujo en tu instalación; las acciones del preview no son envíos reales.\n\nSi no necesitas seguimiento, puedes dejar las selecciones vacías. El ejemplo muestra los controles y un cupón ficticio sin guardar la asignación; no muestra un mensaje enviado ni una ruta activa. Una captura sin ruta no debe presentarse como una suscripción completada.\n\nEl cupón es un ejemplo ficticio; la selección no se guardó y la ruta está sin asignar. No se muestra una entrega.\nInstala el popup\n\nEl paso de instalación ofrece los métodos disponibles para el sitio conectado:\n\nInstalación automática: úsala cuando aparece una tienda Shopify conectada o una integración compatible de VTEX o Fenicio. Las opciones no disponibles se muestran deshabilitadas.\nInstalación manual: instala Hellotext.js y luego agrega al sitio el código de inicialización generado para este popup.\nLa integración local ficticia no está conectada a VTEX, Fenicio ni Shopify. No se confirmó la instalación.\n\nUsa el código generado exactamente como aparece porque incluye los identificadores de tu negocio y del popup. Si un desarrollador o una agencia administra el sitio, envíale las instrucciones completas de instalación manual que aparecen en este paso.\n\nLos identificadores pertenecen sólo al ejemplo local. El código no se instaló y no se pulsó la confirmación de publicación.\n\nContinuar en una opción automática confirma la publicación del popup. Con la opción manual, Continuar abre las instrucciones; la confirmación final con Cerrar publica el popup y registra su instalación. Revisa el diseño y prepara una prueba controlada antes de confirmar cualquiera de esas acciones. Una vista previa correcta no demuestra que Hellotext.js esté instalado ni que el envío de datos funcione en el sitio.\n\nPrueba antes de publicar\n\nRevisa primero los pasos y dispositivos con Vista previa. Después de una activación controlada, valida la experiencia en el sitio con datos de prueba autorizados, teniendo en cuenta que un envío real puede generar verificaciones, mensajes y entradas a rutas.\n\nConfirma que:\n\nEl popup se abre mediante la activación automática o la burbuja configurada.\nAparece en los dispositivos mobile y desktop previstos.\nNo cubre la navegación, checkout, controles de consentimiento u otras acciones esenciales del sitio.\nCada paso cabe en la pantalla sin texto ni controles cortados.\nLos campos obligatorios detienen envíos incompletos y explican qué falta corregir.\nLos teléfonos, emails y otras propiedades llegan al perfil del cliente correcto.\nEl aviso de consentimiento coincide con el canal y tipo de mensaje.\nEl estado completado explica claramente la siguiente acción.\nEl cupón asignado llega al destino esperado cuando la entrega está habilitada.\nLa ruta asignada comienza una sola vez y no se superpone con otro flujo de bienvenida.\nCerrar, volver a abrir y usar la burbuja funciona como esperas.\n\nRepite la prueba en una ventana privada y en un teléfono real. Esto permite detectar problemas de instalación, sesión y layout responsive que la vista previa del editor no puede mostrar.\n\nSi el popup no aparece\n\nRevisa estos puntos en orden:\n\nConfirma que el popup se haya guardado, instalado y publicado.\nConfirma que Hellotext.js y el código de inicialización del popup carguen en la página.\nRevisa si el popup está limitado a mobile o desktop.\nRevisa si se abre automáticamente, o solamente desde una burbuja.\nPrueba en una ventana privada para evitar que una sesión anterior afecte el resultado.\nConfirma que el popup corresponda al sitio y dispositivo que estás probando.\nVuelve a abrir el paso de instalación y compara el código generado con el que se ejecuta en el sitio.\n\nAl reportar un problema, incluye el nombre del popup, URL probada, dispositivo, hora aproximada, forma de apertura y si el popup no apareció o falló después del envío.\n\nGuías relacionadas\nResumen de herramientas de captura\nFormularios Web\nLinks Compartibles\nOpt-in en checkout de Shopify\nA quién puedes escribirle\nPrimeros pasos con rutas\nConecta Shopify",
+    "links": [
+      {
+        "text": "Formulario Web",
+        "url": "http://127.0.0.1:4191/es/formularios"
+      },
+      {
+        "text": "Link Compartible",
+        "url": "http://127.0.0.1:4191/es/link-compartible"
+      },
+      {
+        "text": "A quién puedes escribirle",
+        "url": "http://127.0.0.1:4191/es/a-quien-puedo-escribirle"
+      },
+      {
+        "text": "Hellotext.js",
+        "url": "https://github.com/hellotext/hellotext.js"
+      },
+      {
+        "text": "Resumen de herramientas de captura",
+        "url": "http://127.0.0.1:4191/es/resumen-herramientas-captura"
+      },
+      {
+        "text": "Formularios Web",
+        "url": "http://127.0.0.1:4191/es/formularios"
+      },
+      {
+        "text": "Links Compartibles",
+        "url": "http://127.0.0.1:4191/es/link-compartible"
+      },
+      {
+        "text": "Opt-in en checkout de Shopify",
+        "url": "http://127.0.0.1:4191/es/shopify-checkout"
+      },
+      {
+        "text": "A quién puedes escribirle",
+        "url": "http://127.0.0.1:4191/es/a-quien-puedo-escribirle"
+      },
+      {
+        "text": "Primeros pasos con rutas",
+        "url": "http://127.0.0.1:4191/es/primeros-pasos-con-rutas"
+      },
+      {
+        "text": "Conecta Shopify",
+        "url": "http://127.0.0.1:4191/es/conecta-shopify"
+      }
+    ],
+    "figures": [
+      {
+        "rect": [
+          16,
+          2296,
+          558,
+          305.1953125
+        ],
+        "stageWidth": 558,
+        "frameWidth": 400,
+        "imageWidth": 381.9921875,
+        "natural": [
+          400,
+          240
+        ],
+        "src": "/images/captures/capture-overview/desktop-popup-es.png",
+        "alt": "Tarjeta Popup de Sitio Web del catálogo de escritorio.",
+        "caption": "Card de la grilla real de escritorio, sin ampliar.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          2769.1953125,
+          558,
+          761
+        ],
+        "stageWidth": 558,
+        "frameWidth": 392,
+        "imageWidth": 374,
+        "natural": [
+          374,
+          685
+        ],
+        "src": "/images/captures/website-popup/steps-mobile-es.png",
+        "alt": "Editor del popup ficticio con pasos Email, Nombre y Completado y selectores de dispositivo.",
+        "caption": "Datos ficticios; el foco móvil muestra el preview del primer paso. No se publicó ni se envió el formulario.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          4042.1953125,
+          558,
+          334
+        ],
+        "stageWidth": 558,
+        "frameWidth": 374,
+        "imageWidth": 356,
+        "natural": [
+          356,
+          258
+        ],
+        "src": "/images/captures/website-popup/fields-mobile-es.png",
+        "alt": "Controles de tipo de campo, marcador de posición y requisito obligatorio del email.",
+        "caption": "En escritorio se ve el campo y su panel; el foco móvil muestra los controles de tipo, placeholder y requisito.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          4544.1953125,
+          558,
+          586.203125
+        ],
+        "stageWidth": 558,
+        "frameWidth": 374,
+        "imageWidth": 355.9921875,
+        "natural": [
+          374,
+          536
+        ],
+        "src": "/images/captures/website-popup/completion-es.png",
+        "alt": "Vista previa del estado Completado del popup ficticio.",
+        "caption": "Es un preview de diseño, no evidencia de una suscripción o mensaje recibido.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          6518.3984375,
+          558,
+          657.3046875
+        ],
+        "stageWidth": 558,
+        "frameWidth": 410,
+        "imageWidth": 391.9921875,
+        "natural": [
+          410,
+          608
+        ],
+        "src": "/images/captures/website-popup/style-es.png",
+        "alt": "Panel Estilo con tipografía, colores de texto y fondo y tamaño de fuente.",
+        "caption": "Panel real de Estilo del editor desktop.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          7319.703125,
+          558,
+          395.3359375
+        ],
+        "stageWidth": 558,
+        "frameWidth": 410,
+        "imageWidth": 391.9921875,
+        "natural": [
+          410,
+          334
+        ],
+        "src": "/images/captures/website-popup/layout-es.png",
+        "alt": "Panel Diseño con layouts separados para escritorio y móvil.",
+        "caption": "Footer está seleccionado para escritorio y Default para móvil en el ejemplo ficticio.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          7995.0390625,
+          558,
+          431.6640625
+        ],
+        "stageWidth": 558,
+        "frameWidth": 410,
+        "imageWidth": 391.9921875,
+        "natural": [
+          410,
+          372
+        ],
+        "src": "/images/captures/website-popup/settings-es.png",
+        "alt": "Panel Ajustes con dispositivos y opciones de burbuja.",
+        "caption": "El panel actual no incluye un selector de demora.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          9250.703125,
+          558,
+          294.765625
+        ],
+        "stageWidth": 558,
+        "frameWidth": 403,
+        "imageWidth": 384.984375,
+        "natural": [
+          403,
+          229
+        ],
+        "src": "/images/captures/website-popup/assignment-es.png",
+        "alt": "Selectores de cupón y ruta, con GUIA-QR-10 seleccionado de forma transitoria.",
+        "caption": "El cupón es un ejemplo ficticio; la selección no se guardó y la ruta está sin asignar. No se muestra una entrega.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          9873.46875,
+          558,
+          544
+        ],
+        "stageWidth": 558,
+        "frameWidth": 440,
+        "imageWidth": 422,
+        "natural": [
+          422,
+          468
+        ],
+        "src": "/images/captures/website-popup/installation-mobile-es.png",
+        "alt": "Métodos de instalación del popup; VTEX y Fenicio deshabilitados y opción manual disponible.",
+        "caption": "La integración local ficticia no está conectada a VTEX, Fenicio ni Shopify. No se confirmó la instalación.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          10585.46875,
+          558,
+          292
+        ],
+        "stageWidth": 558,
+        "frameWidth": 424,
+        "imageWidth": 406,
+        "natural": [
+          406,
+          216
+        ],
+        "src": "/images/captures/website-popup/code-mobile-es.png",
+        "alt": "Código de inicialización generado para el popup ficticio.",
+        "caption": "Los identificadores pertenecen sólo al ejemplo local. El código no se instaló y no se pulsó la confirmación de publicación.",
+        "linked": false
+      }
+    ]
+  },
+  {
+    "url": "http://127.0.0.1:4191/website-popup.html",
+    "locale": "en",
+    "title": "Website Popup | Hellotext",
+    "viewport": [
+      1440,
+      1000
+    ],
+    "dpr": 2,
+    "zoom": 1,
+    "pageSize": [
+      1440,
+      12686
+    ],
+    "articleWidth": 774.4140625,
+    "headings": [
+      "When to use Website Popup",
+      "Before you start",
+      "Create the popup",
+      "Build the signup steps",
+      "Write clear popup copy",
+      "Configure style, layout, and opening behavior",
+      "Assign a coupon and journey",
+      "Install the popup",
+      "Test before publishing",
+      "If the popup does not appear",
+      "Related guides"
+    ],
+    "text": "Website Popup lets you collect phone numbers, email addresses, and other customer profile information without sending visitors away from your website.\n\nIt is a capture playbook, not an agentic playbook or a journey. The popup collects or updates a customer profile. You can assign an active welcome or follow-up journey and, optionally, a coupon. Saving contact information alone does not complete a verified subscription.\n\nWebsite Popup is being rolled out progressively. If it appears as On request, is disabled, or does not appear in the Capture group under Explore playbooks, confirm availability with your Hellotext team before planning a launch.\n\nWhen to use Website Popup\n\nUse Website Popup when you want to:\n\nCollect visitor details and, with the appropriate journey and verification, turn them into subscribers.\nCollect a phone number, email address, or other customer profile properties.\nPresent an offer without sending the visitor to another page.\nUse more than one step to keep the first interaction short.\nAdapt the experience for mobile and desktop.\nStart a welcome journey after a visitor subscribes.\n\nUse a Website Form when the form should live inside the page instead of opening above it. Use a Shareable Link when the opt-in starts outside your website, such as from social media, an ad, or an email.\n\nBefore you start\n\nDecide what information you truly need at signup. A phone number or email address is usually enough for the first step. Additional fields can use existing customer profile properties, including custom properties created by your business.\n\nAlso confirm:\n\nWhich channel the visitor is subscribing to.\nWhat value or offer the popup communicates.\nWhether a coupon should be delivered after signup.\nWhether a journey should start after the capture is completed.\nWho can install Hellotext on the website if manual installation is required.\nThat the consent notice accurately describes the messages the visitor agrees to receive.\n\nFor channel eligibility and consent, see Who you can message.\n\nCreate the popup\nOpen Playbooks and click Explore playbooks.\nFind the Capture group and choose Website Popup.\nGive the popup a name that identifies its placement or purpose.\nBuild the signup steps and the Completed state.\nReview Style, Layout, and Settings.\nClick Save & Continue to save the draft and open optional coupon and journey assignment.\nReview the installation method before confirming popup activation.\nCard from the real desktop grid, without upscaling.\n\nThe mobile and desktop icons switch the editor view. Preview opens a separate view where you can review the experience without publishing the popup. Check both views while you work rather than treating the desktop preview as the final version for every visitor.\n\nFictional data; the mobile focus shows the first-step preview. The popup was not published or submitted.\nBuild the signup steps\n\nA popup can use multiple steps. This lets you ask for one important detail first and request more information only after the visitor continues.\n\nFor each step, you can:\n\nEdit the heading, supporting text, button, links, and consent notice.\nAdd fields based on standard or custom customer profile properties.\nChange the placeholder for fields that support it.\nMark fields as required when the flow cannot continue without them.\nAdd, remove, rename, and reorder steps.\nPreview how the step looks on mobile and desktop.\nDesktop shows the field and its panel; the mobile focus shows type, placeholder and required controls.\n\nUse the Completed state to explain what follows the form. Its preview is a design simulation; it does not confirm a real subscription, verification, or delivery. Keep this message useful even when no coupon is assigned.\n\nThis is a design preview, not proof of a subscription or received message.\n\nDo not ask for every available property just because it exists. Each additional field adds work for the visitor and can reduce completion. To publish, include and require at least one email or phone field. Collect the minimum needed for the first useful follow-up, then enrich the profile later through conversations, purchases, forms, or other signals.\n\nWrite clear popup copy\n\nThe visitor should understand the value, requested information, and next action before entering any data.\n\nLead with the concrete benefit or reason to subscribe.\nUse supporting text to explain what the visitor will receive, not to repeat the heading.\nMake the button describe the action, such as Get my discount or Notify me, instead of using a vague label.\nKeep the first step short enough to scan on a phone.\nKeep the consent notice readable and separate from the promotional promise.\nMake the completed state explain whether to check WhatsApp, SMS, or email, continue shopping, or wait for a follow-up.\nDo not create false urgency or promise a coupon, delivery channel, or response time that the configured flow cannot provide.\n\nRead every step as one sequence. A strong first step can still feel confusing if the second step changes the offer, asks for unexpected information, or uses a different call to action.\n\nConfigure style, layout, and opening behavior\n\nThe editor separates the popup configuration into three areas:\n\nArea\tWhat it controls\nStyle\tTypography, text and background colors, and font size. Button and header controls are also edited from those elements in the preview.\nLayout\tThe arrangement used on desktop and mobile. Each device can use the layout that best fits its screen.\nSettings\tWhether the popup opens automatically or first appears as a bubble, and whether it displays on mobile, desktop, or both.\n\nOpen Style to review typography, colors, and size. These controls share the popup typography and colors.\n\nActual Style panel from the desktop editor.\n\nOpen Layout to compare the available arrangements. Choose a separate layout for each device and review it with the mobile and desktop icons.\n\nFooter is selected for desktop and Default for mobile in the fictional example.\n\nWhen the popup uses a bubble, visitors see a small floating prompt and open the full popup by selecting it. Configure the bubble text, text color, background color, and alignment so it is noticeable without covering important website controls.\n\nThe Settings panel shows device targeting and Don’t show bubble / Display a bubble options. This version does not expose a delay selector there; do not assume you can schedule a delay from that panel.\n\nThe current panel does not include a delay selector.\n\nThe reviewed editor does not offer page-path, scroll-depth, location, or previous-view conditions. Confirm any additional targeting requirement with Hellotext before planning a launch.\n\nAssign a coupon and journey\n\nCoupon and journey assignment are optional.\n\nSelect an active journey with a subscription trigger to start the welcome flow. The form records the captured data; subscription and journey entry wait for verification of the required contact details. A disabled journey does not appear as a compatible option.\n\nIf you also offer a coupon, check that the journey includes the message that delivers it. Assignment shows a warning when a journey is missing or its message does not contain a coupon. Read the warning before continuing: selecting a coupon does not show that it has been sent.\n\nDelivery needs an available channel for the submitted details. Phone delivery can use WhatsApp when its configuration and template are compatible, with SMS as an alternative; email uses email delivery. Do not describe this as an automatic choice of the cheapest channel.\n\nThe completed state may show a destination and allow visitors to change it or resend after a wait, depending on configuration. Check that flow in your installation; preview actions do not send real messages.\n\nIf you do not need follow-up, you can leave both selections empty. The example shows the controls and a fictional coupon without saving the assignment; it does not show a sent message or active journey. A capture without a journey must not be presented as a completed subscription.\n\nThe coupon is a fictional example; the selection was not saved and no journey is assigned. No delivery is shown.\nInstall the popup\n\nThe installation step offers the methods available for the connected website:\n\nAutomatic installation: use this when a connected Shopify store or compatible VTEX or Fenicio integration appears. Unavailable options are disabled.\nManual installation: install Hellotext.js, then add the initialization code generated for this popup to the website.\nThe fictional local setup has no connected VTEX, Fenicio or Shopify store. Installation was not confirmed.\n\nUse the generated code exactly as shown because it includes the identifiers for your business and popup. If a developer or agency manages the website, send them the complete manual installation instructions from this step.\n\nThe identifiers belong only to the local example. The code was not installed and publication was not confirmed.\n\nContinue with an automatic method confirms popup publication. With the manual method, Continue opens instructions; the final Close confirmation publishes the popup and records its installation. Review the design and prepare a controlled test before confirming either action. A correct preview does not show that Hellotext.js is installed or that submissions work on the website.\n\nTest before publishing\n\nFirst review the steps and devices with Preview. After a controlled activation, validate the website experience with authorized test details, remembering that a real submission can create verification deliveries, messages, and journey entries.\n\nConfirm that:\n\nThe popup opens through the configured automatic trigger or bubble.\nIt appears on the intended mobile and desktop devices.\nIt does not cover navigation, checkout, consent controls, or other essential website actions.\nEvery step fits the screen without clipped text or controls.\nRequired fields stop incomplete submissions and explain what needs attention.\nPhone numbers, email addresses, and other properties reach the correct customer profile.\nThe consent notice matches the channel and message type.\nThe completed state explains the next action clearly.\nThe assigned coupon reaches the expected destination when coupon delivery is enabled.\nThe assigned journey starts once and does not overlap with another welcome flow.\nClosing, reopening, and using the bubble behave as expected.\n\nRepeat the test in a private browser window and on a real phone. This catches installation, session, and responsive-layout problems that the editor preview cannot show.\n\nIf the popup does not appear\n\nCheck these items in order:\n\nConfirm that the popup was saved, installed, and published.\nConfirm that Hellotext.js and the popup initialization code load on the page.\nCheck whether the popup is limited to mobile or desktop.\nCheck whether it opens automatically, or only through a bubble.\nTest in a private browser window to avoid a previous session affecting the result.\nConfirm that the popup belongs to the website and device being tested.\nReopen the installation step and compare the generated code with the code running on the website.\n\nWhen reporting a problem, include the popup name, tested URL, device, approximate time, opening behavior, and whether the popup failed to appear or failed after submission.\n\nRelated guides\nCapture tools overview\nWebsite Forms\nShareable Links\nShopify checkout opt-in\nWho you can message\nGetting started with journeys\nConnect Shopify",
+    "links": [
+      {
+        "text": "Website Form",
+        "url": "http://127.0.0.1:4191/forms"
+      },
+      {
+        "text": "Shareable Link",
+        "url": "http://127.0.0.1:4191/shareable-link"
+      },
+      {
+        "text": "Who you can message",
+        "url": "http://127.0.0.1:4191/who-can-i-message"
+      },
+      {
+        "text": "Hellotext.js",
+        "url": "https://github.com/hellotext/hellotext.js"
+      },
+      {
+        "text": "Capture tools overview",
+        "url": "http://127.0.0.1:4191/capture-tools-overview"
+      },
+      {
+        "text": "Website Forms",
+        "url": "http://127.0.0.1:4191/forms"
+      },
+      {
+        "text": "Shareable Links",
+        "url": "http://127.0.0.1:4191/shareable-link"
+      },
+      {
+        "text": "Shopify checkout opt-in",
+        "url": "http://127.0.0.1:4191/shopify-checkout"
+      },
+      {
+        "text": "Who you can message",
+        "url": "http://127.0.0.1:4191/who-can-i-message"
+      },
+      {
+        "text": "Getting started with journeys",
+        "url": "http://127.0.0.1:4191/getting-started-with-journeys"
+      },
+      {
+        "text": "Connect Shopify",
+        "url": "http://127.0.0.1:4191/connect-shopify"
+      }
+    ],
+    "figures": [
+      {
+        "rect": [
+          375.9921875,
+          2109.828125,
+          774.4140625,
+          305.1953125
+        ],
+        "stageWidth": 774.4140625,
+        "frameWidth": 400,
+        "imageWidth": 381.9921875,
+        "natural": [
+          400,
+          240
+        ],
+        "src": "/images/captures/capture-overview/desktop-popup-en.png",
+        "alt": "Website Popup card from the desktop catalog.",
+        "caption": "Card from the real desktop grid, without upscaling.",
+        "linked": false
+      },
+      {
+        "rect": [
+          375.9921875,
+          2559.0234375,
+          774.4140625,
+          825.234375
+        ],
+        "stageWidth": 774.4140625,
+        "frameWidth": 522,
+        "imageWidth": 503.9921875,
+        "natural": [
+          522,
+          776
+        ],
+        "src": "/images/captures/website-popup/steps-en.png",
+        "alt": "Fictional popup editor with Email, First name and Completed steps and device selectors.",
+        "caption": "Fictional data; the mobile focus shows the first-step preview. The popup was not published or submitted.",
+        "linked": false
+      },
+      {
+        "rect": [
+          375.9921875,
+          3842.2578125,
+          774.4140625,
+          749.8359375
+        ],
+        "stageWidth": 774.4140625,
+        "frameWidth": 716.4140625,
+        "imageWidth": 698.40625,
+        "natural": [
+          739,
+          713
+        ],
+        "src": "/images/captures/website-popup/fields-en.png",
+        "alt": "Field type, placeholder and required email controls.",
+        "caption": "Desktop shows the field and its panel; the mobile focus shows type, placeholder and required controls.",
+        "linked": false
+      },
+      {
+        "rect": [
+          375.9921875,
+          4736.09375,
+          774.4140625,
+          586.203125
+        ],
+        "stageWidth": 774.4140625,
+        "frameWidth": 374,
+        "imageWidth": 355.9921875,
+        "natural": [
+          374,
+          536
+        ],
+        "src": "/images/captures/website-popup/completion-en.png",
+        "alt": "Completed-state preview of the fictional popup.",
+        "caption": "This is a design preview, not proof of a subscription or received message.",
+        "linked": false
+      },
+      {
+        "rect": [
+          375.9921875,
+          6530.296875,
+          774.4140625,
+          657.3046875
+        ],
+        "stageWidth": 774.4140625,
+        "frameWidth": 410,
+        "imageWidth": 391.9921875,
+        "natural": [
+          410,
+          608
+        ],
+        "src": "/images/captures/website-popup/style-en.png",
+        "alt": "Style panel with typography, text and background colors and font size.",
+        "caption": "Actual Style panel from the desktop editor.",
+        "linked": false
+      },
+      {
+        "rect": [
+          375.9921875,
+          7307.6015625,
+          774.4140625,
+          395.3359375
+        ],
+        "stageWidth": 774.4140625,
+        "frameWidth": 410,
+        "imageWidth": 391.9921875,
+        "natural": [
+          410,
+          334
+        ],
+        "src": "/images/captures/website-popup/layout-en.png",
+        "alt": "Layout panel with separate desktop and mobile layouts.",
+        "caption": "Footer is selected for desktop and Default for mobile in the fictional example.",
+        "linked": false
+      },
+      {
+        "rect": [
+          375.9921875,
+          7934.9375,
+          774.4140625,
+          431.6640625
+        ],
+        "stageWidth": 774.4140625,
+        "frameWidth": 410,
+        "imageWidth": 391.9921875,
+        "natural": [
+          410,
+          372
+        ],
+        "src": "/images/captures/website-popup/settings-en.png",
+        "alt": "Settings panel with devices and bubble options.",
+        "caption": "The current panel does not include a delay selector.",
+        "linked": false
+      },
+      {
+        "rect": [
+          375.9921875,
+          9064.6015625,
+          774.4140625,
+          294.765625
+        ],
+        "stageWidth": 774.4140625,
+        "frameWidth": 403,
+        "imageWidth": 384.984375,
+        "natural": [
+          403,
+          229
+        ],
+        "src": "/images/captures/website-popup/assignment-en.png",
+        "alt": "Coupon and journey selectors with GUIA-QR-10 selected transiently.",
+        "caption": "The coupon is a fictional example; the selection was not saved and no journey is assigned. No delivery is shown.",
+        "linked": false
+      },
+      {
+        "rect": [
+          375.9921875,
+          9657.3671875,
+          774.4140625,
+          527.53125
+        ],
+        "stageWidth": 774.4140625,
+        "frameWidth": 670,
+        "imageWidth": 651.9921875,
+        "natural": [
+          670,
+          464
+        ],
+        "src": "/images/captures/website-popup/installation-en.png",
+        "alt": "Popup installation methods; VTEX and Fenicio disabled and manual installation available.",
+        "caption": "The fictional local setup has no connected VTEX, Fenicio or Shopify store. Installation was not confirmed.",
+        "linked": false
+      },
+      {
+        "rect": [
+          375.9921875,
+          10328.8984375,
+          774.4140625,
+          262.7890625
+        ],
+        "stageWidth": 774.4140625,
+        "frameWidth": 664,
+        "imageWidth": 645.9765625,
+        "natural": [
+          664,
+          192
+        ],
+        "src": "/images/captures/website-popup/code-es.png",
+        "alt": "Generated initialization code for the fictional popup.",
+        "caption": "The identifiers belong only to the local example. The code was not installed and publication was not confirmed.",
+        "linked": false
+      }
+    ]
+  },
+  {
+    "url": "http://127.0.0.1:4191/website-popup.html",
+    "locale": "en",
+    "title": "Website Popup | Hellotext",
+    "viewport": [
+      390,
+      1000
+    ],
+    "dpr": 2,
+    "zoom": 1,
+    "pageSize": [
+      390,
+      14656
+    ],
+    "articleWidth": 358,
+    "headings": [
+      "When to use Website Popup",
+      "Before you start",
+      "Create the popup",
+      "Build the signup steps",
+      "Write clear popup copy",
+      "Configure style, layout, and opening behavior",
+      "Assign a coupon and journey",
+      "Install the popup",
+      "Test before publishing",
+      "If the popup does not appear",
+      "Related guides"
+    ],
+    "text": "Website Popup lets you collect phone numbers, email addresses, and other customer profile information without sending visitors away from your website.\n\nIt is a capture playbook, not an agentic playbook or a journey. The popup collects or updates a customer profile. You can assign an active welcome or follow-up journey and, optionally, a coupon. Saving contact information alone does not complete a verified subscription.\n\nWebsite Popup is being rolled out progressively. If it appears as On request, is disabled, or does not appear in the Capture group under Explore playbooks, confirm availability with your Hellotext team before planning a launch.\n\nWhen to use Website Popup\n\nUse Website Popup when you want to:\n\nCollect visitor details and, with the appropriate journey and verification, turn them into subscribers.\nCollect a phone number, email address, or other customer profile properties.\nPresent an offer without sending the visitor to another page.\nUse more than one step to keep the first interaction short.\nAdapt the experience for mobile and desktop.\nStart a welcome journey after a visitor subscribes.\n\nUse a Website Form when the form should live inside the page instead of opening above it. Use a Shareable Link when the opt-in starts outside your website, such as from social media, an ad, or an email.\n\nBefore you start\n\nDecide what information you truly need at signup. A phone number or email address is usually enough for the first step. Additional fields can use existing customer profile properties, including custom properties created by your business.\n\nAlso confirm:\n\nWhich channel the visitor is subscribing to.\nWhat value or offer the popup communicates.\nWhether a coupon should be delivered after signup.\nWhether a journey should start after the capture is completed.\nWho can install Hellotext on the website if manual installation is required.\nThat the consent notice accurately describes the messages the visitor agrees to receive.\n\nFor channel eligibility and consent, see Who you can message.\n\nCreate the popup\nOpen Playbooks and click Explore playbooks.\nFind the Capture group and choose Website Popup.\nGive the popup a name that identifies its placement or purpose.\nBuild the signup steps and the Completed state.\nReview Style, Layout, and Settings.\nClick Save & Continue to save the draft and open optional coupon and journey assignment.\nReview the installation method before confirming popup activation.\nCard from the real desktop grid, without upscaling.\n\nThe mobile and desktop icons switch the editor view. Preview opens a separate view where you can review the experience without publishing the popup. Check both views while you work rather than treating the desktop preview as the final version for every visitor.\n\nFictional data; the mobile focus shows the first-step preview. The popup was not published or submitted.\nBuild the signup steps\n\nA popup can use multiple steps. This lets you ask for one important detail first and request more information only after the visitor continues.\n\nFor each step, you can:\n\nEdit the heading, supporting text, button, links, and consent notice.\nAdd fields based on standard or custom customer profile properties.\nChange the placeholder for fields that support it.\nMark fields as required when the flow cannot continue without them.\nAdd, remove, rename, and reorder steps.\nPreview how the step looks on mobile and desktop.\nDesktop shows the field and its panel; the mobile focus shows type, placeholder and required controls.\n\nUse the Completed state to explain what follows the form. Its preview is a design simulation; it does not confirm a real subscription, verification, or delivery. Keep this message useful even when no coupon is assigned.\n\nThis is a design preview, not proof of a subscription or received message.\n\nDo not ask for every available property just because it exists. Each additional field adds work for the visitor and can reduce completion. To publish, include and require at least one email or phone field. Collect the minimum needed for the first useful follow-up, then enrich the profile later through conversations, purchases, forms, or other signals.\n\nWrite clear popup copy\n\nThe visitor should understand the value, requested information, and next action before entering any data.\n\nLead with the concrete benefit or reason to subscribe.\nUse supporting text to explain what the visitor will receive, not to repeat the heading.\nMake the button describe the action, such as Get my discount or Notify me, instead of using a vague label.\nKeep the first step short enough to scan on a phone.\nKeep the consent notice readable and separate from the promotional promise.\nMake the completed state explain whether to check WhatsApp, SMS, or email, continue shopping, or wait for a follow-up.\nDo not create false urgency or promise a coupon, delivery channel, or response time that the configured flow cannot provide.\n\nRead every step as one sequence. A strong first step can still feel confusing if the second step changes the offer, asks for unexpected information, or uses a different call to action.\n\nConfigure style, layout, and opening behavior\n\nThe editor separates the popup configuration into three areas:\n\nArea\tWhat it controls\nStyle\tTypography, text and background colors, and font size. Button and header controls are also edited from those elements in the preview.\nLayout\tThe arrangement used on desktop and mobile. Each device can use the layout that best fits its screen.\nSettings\tWhether the popup opens automatically or first appears as a bubble, and whether it displays on mobile, desktop, or both.\n\nOpen Style to review typography, colors, and size. These controls share the popup typography and colors.\n\nActual Style panel from the desktop editor.\n\nOpen Layout to compare the available arrangements. Choose a separate layout for each device and review it with the mobile and desktop icons.\n\nFooter is selected for desktop and Default for mobile in the fictional example.\n\nWhen the popup uses a bubble, visitors see a small floating prompt and open the full popup by selecting it. Configure the bubble text, text color, background color, and alignment so it is noticeable without covering important website controls.\n\nThe Settings panel shows device targeting and Don’t show bubble / Display a bubble options. This version does not expose a delay selector there; do not assume you can schedule a delay from that panel.\n\nThe current panel does not include a delay selector.\n\nThe reviewed editor does not offer page-path, scroll-depth, location, or previous-view conditions. Confirm any additional targeting requirement with Hellotext before planning a launch.\n\nAssign a coupon and journey\n\nCoupon and journey assignment are optional.\n\nSelect an active journey with a subscription trigger to start the welcome flow. The form records the captured data; subscription and journey entry wait for verification of the required contact details. A disabled journey does not appear as a compatible option.\n\nIf you also offer a coupon, check that the journey includes the message that delivers it. Assignment shows a warning when a journey is missing or its message does not contain a coupon. Read the warning before continuing: selecting a coupon does not show that it has been sent.\n\nDelivery needs an available channel for the submitted details. Phone delivery can use WhatsApp when its configuration and template are compatible, with SMS as an alternative; email uses email delivery. Do not describe this as an automatic choice of the cheapest channel.\n\nThe completed state may show a destination and allow visitors to change it or resend after a wait, depending on configuration. Check that flow in your installation; preview actions do not send real messages.\n\nIf you do not need follow-up, you can leave both selections empty. The example shows the controls and a fictional coupon without saving the assignment; it does not show a sent message or active journey. A capture without a journey must not be presented as a completed subscription.\n\nThe coupon is a fictional example; the selection was not saved and no journey is assigned. No delivery is shown.\nInstall the popup\n\nThe installation step offers the methods available for the connected website:\n\nAutomatic installation: use this when a connected Shopify store or compatible VTEX or Fenicio integration appears. Unavailable options are disabled.\nManual installation: install Hellotext.js, then add the initialization code generated for this popup to the website.\nThe fictional local setup has no connected VTEX, Fenicio or Shopify store. Installation was not confirmed.\n\nUse the generated code exactly as shown because it includes the identifiers for your business and popup. If a developer or agency manages the website, send them the complete manual installation instructions from this step.\n\nThe identifiers belong only to the local example. The code was not installed and publication was not confirmed.\n\nContinue with an automatic method confirms popup publication. With the manual method, Continue opens instructions; the final Close confirmation publishes the popup and records its installation. Review the design and prepare a controlled test before confirming either action. A correct preview does not show that Hellotext.js is installed or that submissions work on the website.\n\nTest before publishing\n\nFirst review the steps and devices with Preview. After a controlled activation, validate the website experience with authorized test details, remembering that a real submission can create verification deliveries, messages, and journey entries.\n\nConfirm that:\n\nThe popup opens through the configured automatic trigger or bubble.\nIt appears on the intended mobile and desktop devices.\nIt does not cover navigation, checkout, consent controls, or other essential website actions.\nEvery step fits the screen without clipped text or controls.\nRequired fields stop incomplete submissions and explain what needs attention.\nPhone numbers, email addresses, and other properties reach the correct customer profile.\nThe consent notice matches the channel and message type.\nThe completed state explains the next action clearly.\nThe assigned coupon reaches the expected destination when coupon delivery is enabled.\nThe assigned journey starts once and does not overlap with another welcome flow.\nClosing, reopening, and using the bubble behave as expected.\n\nRepeat the test in a private browser window and on a real phone. This catches installation, session, and responsive-layout problems that the editor preview cannot show.\n\nIf the popup does not appear\n\nCheck these items in order:\n\nConfirm that the popup was saved, installed, and published.\nConfirm that Hellotext.js and the popup initialization code load on the page.\nCheck whether the popup is limited to mobile or desktop.\nCheck whether it opens automatically, or only through a bubble.\nTest in a private browser window to avoid a previous session affecting the result.\nConfirm that the popup belongs to the website and device being tested.\nReopen the installation step and compare the generated code with the code running on the website.\n\nWhen reporting a problem, include the popup name, tested URL, device, approximate time, opening behavior, and whether the popup failed to appear or failed after submission.\n\nRelated guides\nCapture tools overview\nWebsite Forms\nShareable Links\nShopify checkout opt-in\nWho you can message\nGetting started with journeys\nConnect Shopify",
+    "links": [
+      {
+        "text": "Website Form",
+        "url": "http://127.0.0.1:4191/forms"
+      },
+      {
+        "text": "Shareable Link",
+        "url": "http://127.0.0.1:4191/shareable-link"
+      },
+      {
+        "text": "Who you can message",
+        "url": "http://127.0.0.1:4191/who-can-i-message"
+      },
+      {
+        "text": "Hellotext.js",
+        "url": "https://github.com/hellotext/hellotext.js"
+      },
+      {
+        "text": "Capture tools overview",
+        "url": "http://127.0.0.1:4191/capture-tools-overview"
+      },
+      {
+        "text": "Website Forms",
+        "url": "http://127.0.0.1:4191/forms"
+      },
+      {
+        "text": "Shareable Links",
+        "url": "http://127.0.0.1:4191/shareable-link"
+      },
+      {
+        "text": "Shopify checkout opt-in",
+        "url": "http://127.0.0.1:4191/shopify-checkout"
+      },
+      {
+        "text": "Who you can message",
+        "url": "http://127.0.0.1:4191/who-can-i-message"
+      },
+      {
+        "text": "Getting started with journeys",
+        "url": "http://127.0.0.1:4191/getting-started-with-journeys"
+      },
+      {
+        "text": "Connect Shopify",
+        "url": "http://127.0.0.1:4191/connect-shopify"
+      }
+    ],
+    "figures": [
+      {
+        "rect": [
+          16,
+          2817,
+          358,
+          239.59375
+        ],
+        "stageWidth": 358,
+        "frameWidth": 328,
+        "imageWidth": 315.984375,
+        "natural": [
+          400,
+          240
+        ],
+        "src": "/images/captures/capture-overview/desktop-popup-en.png",
+        "alt": "Website Popup card from the desktop catalog.",
+        "caption": "Card from the real desktop grid, without upscaling.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          3272.59375,
+          358,
+          601.7265625
+        ],
+        "stageWidth": 358,
+        "frameWidth": 328,
+        "imageWidth": 315.9921875,
+        "natural": [
+          374,
+          653
+        ],
+        "src": "/images/captures/website-popup/steps-mobile-en.png",
+        "alt": "Fictional popup editor with Email, First name and Completed steps and device selectors.",
+        "caption": "Fictional data; the mobile focus shows the first-step preview. The popup was not published or submitted.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          4482.3203125,
+          358,
+          279.0078125
+        ],
+        "stageWidth": 358,
+        "frameWidth": 328,
+        "imageWidth": 315.9921875,
+        "natural": [
+          356,
+          258
+        ],
+        "src": "/images/captures/website-popup/fields-mobile-en.png",
+        "alt": "Field type, placeholder and required email controls.",
+        "caption": "Desktop shows the field and its panel; the mobile focus shows type, placeholder and required controls.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          4977.328125,
+          358,
+          502.875
+        ],
+        "stageWidth": 358,
+        "frameWidth": 328,
+        "imageWidth": 315.9921875,
+        "natural": [
+          374,
+          536
+        ],
+        "src": "/images/captures/website-popup/completion-en.png",
+        "alt": "Completed-state preview of the fictional popup.",
+        "caption": "This is a design preview, not proof of a subscription or received message.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          7348.203125,
+          358,
+          518.6015625
+        ],
+        "stageWidth": 358,
+        "frameWidth": 328,
+        "imageWidth": 315.9921875,
+        "natural": [
+          410,
+          608
+        ],
+        "src": "/images/captures/website-popup/style-en.png",
+        "alt": "Style panel with typography, text and background colors and font size.",
+        "caption": "Actual Style panel from the desktop editor.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          8034.8046875,
+          358,
+          307.421875
+        ],
+        "stageWidth": 358,
+        "frameWidth": 328,
+        "imageWidth": 315.9921875,
+        "natural": [
+          410,
+          334
+        ],
+        "src": "/images/captures/website-popup/layout-en.png",
+        "alt": "Layout panel with separate desktop and mobile layouts.",
+        "caption": "Footer is selected for desktop and Default for mobile in the fictional example.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          8694.2265625,
+          358,
+          336.7109375
+        ],
+        "stageWidth": 358,
+        "frameWidth": 328,
+        "imageWidth": 315.9921875,
+        "natural": [
+          410,
+          372
+        ],
+        "src": "/images/captures/website-popup/settings-en.png",
+        "alt": "Settings panel with devices and bubble options.",
+        "caption": "The current panel does not include a delay selector.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          10226.9375,
+          358,
+          229.5625
+        ],
+        "stageWidth": 358,
+        "frameWidth": 328,
+        "imageWidth": 315.9921875,
+        "natural": [
+          403,
+          229
+        ],
+        "src": "/images/captures/website-popup/assignment-en.png",
+        "alt": "Coupon and journey selectors with GUIA-QR-10 selected transiently.",
+        "caption": "The coupon is a fictional example; the selection was not saved and no journey is assigned. No delivery is shown.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          10832.5,
+          358,
+          385.46875
+        ],
+        "stageWidth": 358,
+        "frameWidth": 328,
+        "imageWidth": 315.9921875,
+        "natural": [
+          422,
+          448
+        ],
+        "src": "/images/captures/website-popup/installation-mobile-en.png",
+        "alt": "Popup installation methods; VTEX and Fenicio disabled and manual installation available.",
+        "caption": "The fictional local setup has no connected VTEX, Fenicio or Shopify store. Installation was not confirmed.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          11409.96875,
+          358,
+          218.1171875
+        ],
+        "stageWidth": 358,
+        "frameWidth": 328,
+        "imageWidth": 315.9921875,
+        "natural": [
+          406,
+          216
+        ],
+        "src": "/images/captures/website-popup/code-mobile-es.png",
+        "alt": "Generated initialization code for the fictional popup.",
+        "caption": "The identifiers belong only to the local example. The code was not installed and publication was not confirmed.",
+        "linked": false
+      }
+    ]
+  },
+  {
+    "url": "http://127.0.0.1:4191/website-popup.html",
+    "locale": "en",
+    "title": "Website Popup | Hellotext",
+    "viewport": [
+      590,
+      1000
+    ],
+    "dpr": 2,
+    "zoom": 1,
+    "pageSize": [
+      590,
+      12957
+    ],
+    "articleWidth": 558,
+    "headings": [
+      "When to use Website Popup",
+      "Before you start",
+      "Create the popup",
+      "Build the signup steps",
+      "Write clear popup copy",
+      "Configure style, layout, and opening behavior",
+      "Assign a coupon and journey",
+      "Install the popup",
+      "Test before publishing",
+      "If the popup does not appear",
+      "Related guides"
+    ],
+    "text": "Website Popup lets you collect phone numbers, email addresses, and other customer profile information without sending visitors away from your website.\n\nIt is a capture playbook, not an agentic playbook or a journey. The popup collects or updates a customer profile. You can assign an active welcome or follow-up journey and, optionally, a coupon. Saving contact information alone does not complete a verified subscription.\n\nWebsite Popup is being rolled out progressively. If it appears as On request, is disabled, or does not appear in the Capture group under Explore playbooks, confirm availability with your Hellotext team before planning a launch.\n\nWhen to use Website Popup\n\nUse Website Popup when you want to:\n\nCollect visitor details and, with the appropriate journey and verification, turn them into subscribers.\nCollect a phone number, email address, or other customer profile properties.\nPresent an offer without sending the visitor to another page.\nUse more than one step to keep the first interaction short.\nAdapt the experience for mobile and desktop.\nStart a welcome journey after a visitor subscribes.\n\nUse a Website Form when the form should live inside the page instead of opening above it. Use a Shareable Link when the opt-in starts outside your website, such as from social media, an ad, or an email.\n\nBefore you start\n\nDecide what information you truly need at signup. A phone number or email address is usually enough for the first step. Additional fields can use existing customer profile properties, including custom properties created by your business.\n\nAlso confirm:\n\nWhich channel the visitor is subscribing to.\nWhat value or offer the popup communicates.\nWhether a coupon should be delivered after signup.\nWhether a journey should start after the capture is completed.\nWho can install Hellotext on the website if manual installation is required.\nThat the consent notice accurately describes the messages the visitor agrees to receive.\n\nFor channel eligibility and consent, see Who you can message.\n\nCreate the popup\nOpen Playbooks and click Explore playbooks.\nFind the Capture group and choose Website Popup.\nGive the popup a name that identifies its placement or purpose.\nBuild the signup steps and the Completed state.\nReview Style, Layout, and Settings.\nClick Save & Continue to save the draft and open optional coupon and journey assignment.\nReview the installation method before confirming popup activation.\nCard from the real desktop grid, without upscaling.\n\nThe mobile and desktop icons switch the editor view. Preview opens a separate view where you can review the experience without publishing the popup. Check both views while you work rather than treating the desktop preview as the final version for every visitor.\n\nFictional data; the mobile focus shows the first-step preview. The popup was not published or submitted.\nBuild the signup steps\n\nA popup can use multiple steps. This lets you ask for one important detail first and request more information only after the visitor continues.\n\nFor each step, you can:\n\nEdit the heading, supporting text, button, links, and consent notice.\nAdd fields based on standard or custom customer profile properties.\nChange the placeholder for fields that support it.\nMark fields as required when the flow cannot continue without them.\nAdd, remove, rename, and reorder steps.\nPreview how the step looks on mobile and desktop.\nDesktop shows the field and its panel; the mobile focus shows type, placeholder and required controls.\n\nUse the Completed state to explain what follows the form. Its preview is a design simulation; it does not confirm a real subscription, verification, or delivery. Keep this message useful even when no coupon is assigned.\n\nThis is a design preview, not proof of a subscription or received message.\n\nDo not ask for every available property just because it exists. Each additional field adds work for the visitor and can reduce completion. To publish, include and require at least one email or phone field. Collect the minimum needed for the first useful follow-up, then enrich the profile later through conversations, purchases, forms, or other signals.\n\nWrite clear popup copy\n\nThe visitor should understand the value, requested information, and next action before entering any data.\n\nLead with the concrete benefit or reason to subscribe.\nUse supporting text to explain what the visitor will receive, not to repeat the heading.\nMake the button describe the action, such as Get my discount or Notify me, instead of using a vague label.\nKeep the first step short enough to scan on a phone.\nKeep the consent notice readable and separate from the promotional promise.\nMake the completed state explain whether to check WhatsApp, SMS, or email, continue shopping, or wait for a follow-up.\nDo not create false urgency or promise a coupon, delivery channel, or response time that the configured flow cannot provide.\n\nRead every step as one sequence. A strong first step can still feel confusing if the second step changes the offer, asks for unexpected information, or uses a different call to action.\n\nConfigure style, layout, and opening behavior\n\nThe editor separates the popup configuration into three areas:\n\nArea\tWhat it controls\nStyle\tTypography, text and background colors, and font size. Button and header controls are also edited from those elements in the preview.\nLayout\tThe arrangement used on desktop and mobile. Each device can use the layout that best fits its screen.\nSettings\tWhether the popup opens automatically or first appears as a bubble, and whether it displays on mobile, desktop, or both.\n\nOpen Style to review typography, colors, and size. These controls share the popup typography and colors.\n\nActual Style panel from the desktop editor.\n\nOpen Layout to compare the available arrangements. Choose a separate layout for each device and review it with the mobile and desktop icons.\n\nFooter is selected for desktop and Default for mobile in the fictional example.\n\nWhen the popup uses a bubble, visitors see a small floating prompt and open the full popup by selecting it. Configure the bubble text, text color, background color, and alignment so it is noticeable without covering important website controls.\n\nThe Settings panel shows device targeting and Don’t show bubble / Display a bubble options. This version does not expose a delay selector there; do not assume you can schedule a delay from that panel.\n\nThe current panel does not include a delay selector.\n\nThe reviewed editor does not offer page-path, scroll-depth, location, or previous-view conditions. Confirm any additional targeting requirement with Hellotext before planning a launch.\n\nAssign a coupon and journey\n\nCoupon and journey assignment are optional.\n\nSelect an active journey with a subscription trigger to start the welcome flow. The form records the captured data; subscription and journey entry wait for verification of the required contact details. A disabled journey does not appear as a compatible option.\n\nIf you also offer a coupon, check that the journey includes the message that delivers it. Assignment shows a warning when a journey is missing or its message does not contain a coupon. Read the warning before continuing: selecting a coupon does not show that it has been sent.\n\nDelivery needs an available channel for the submitted details. Phone delivery can use WhatsApp when its configuration and template are compatible, with SMS as an alternative; email uses email delivery. Do not describe this as an automatic choice of the cheapest channel.\n\nThe completed state may show a destination and allow visitors to change it or resend after a wait, depending on configuration. Check that flow in your installation; preview actions do not send real messages.\n\nIf you do not need follow-up, you can leave both selections empty. The example shows the controls and a fictional coupon without saving the assignment; it does not show a sent message or active journey. A capture without a journey must not be presented as a completed subscription.\n\nThe coupon is a fictional example; the selection was not saved and no journey is assigned. No delivery is shown.\nInstall the popup\n\nThe installation step offers the methods available for the connected website:\n\nAutomatic installation: use this when a connected Shopify store or compatible VTEX or Fenicio integration appears. Unavailable options are disabled.\nManual installation: install Hellotext.js, then add the initialization code generated for this popup to the website.\nThe fictional local setup has no connected VTEX, Fenicio or Shopify store. Installation was not confirmed.\n\nUse the generated code exactly as shown because it includes the identifiers for your business and popup. If a developer or agency manages the website, send them the complete manual installation instructions from this step.\n\nThe identifiers belong only to the local example. The code was not installed and publication was not confirmed.\n\nContinue with an automatic method confirms popup publication. With the manual method, Continue opens instructions; the final Close confirmation publishes the popup and records its installation. Review the design and prepare a controlled test before confirming either action. A correct preview does not show that Hellotext.js is installed or that submissions work on the website.\n\nTest before publishing\n\nFirst review the steps and devices with Preview. After a controlled activation, validate the website experience with authorized test details, remembering that a real submission can create verification deliveries, messages, and journey entries.\n\nConfirm that:\n\nThe popup opens through the configured automatic trigger or bubble.\nIt appears on the intended mobile and desktop devices.\nIt does not cover navigation, checkout, consent controls, or other essential website actions.\nEvery step fits the screen without clipped text or controls.\nRequired fields stop incomplete submissions and explain what needs attention.\nPhone numbers, email addresses, and other properties reach the correct customer profile.\nThe consent notice matches the channel and message type.\nThe completed state explains the next action clearly.\nThe assigned coupon reaches the expected destination when coupon delivery is enabled.\nThe assigned journey starts once and does not overlap with another welcome flow.\nClosing, reopening, and using the bubble behave as expected.\n\nRepeat the test in a private browser window and on a real phone. This catches installation, session, and responsive-layout problems that the editor preview cannot show.\n\nIf the popup does not appear\n\nCheck these items in order:\n\nConfirm that the popup was saved, installed, and published.\nConfirm that Hellotext.js and the popup initialization code load on the page.\nCheck whether the popup is limited to mobile or desktop.\nCheck whether it opens automatically, or only through a bubble.\nTest in a private browser window to avoid a previous session affecting the result.\nConfirm that the popup belongs to the website and device being tested.\nReopen the installation step and compare the generated code with the code running on the website.\n\nWhen reporting a problem, include the popup name, tested URL, device, approximate time, opening behavior, and whether the popup failed to appear or failed after submission.\n\nRelated guides\nCapture tools overview\nWebsite Forms\nShareable Links\nShopify checkout opt-in\nWho you can message\nGetting started with journeys\nConnect Shopify",
+    "links": [
+      {
+        "text": "Website Form",
+        "url": "http://127.0.0.1:4191/forms"
+      },
+      {
+        "text": "Shareable Link",
+        "url": "http://127.0.0.1:4191/shareable-link"
+      },
+      {
+        "text": "Who you can message",
+        "url": "http://127.0.0.1:4191/who-can-i-message"
+      },
+      {
+        "text": "Hellotext.js",
+        "url": "https://github.com/hellotext/hellotext.js"
+      },
+      {
+        "text": "Capture tools overview",
+        "url": "http://127.0.0.1:4191/capture-tools-overview"
+      },
+      {
+        "text": "Website Forms",
+        "url": "http://127.0.0.1:4191/forms"
+      },
+      {
+        "text": "Shareable Links",
+        "url": "http://127.0.0.1:4191/shareable-link"
+      },
+      {
+        "text": "Shopify checkout opt-in",
+        "url": "http://127.0.0.1:4191/shopify-checkout"
+      },
+      {
+        "text": "Who you can message",
+        "url": "http://127.0.0.1:4191/who-can-i-message"
+      },
+      {
+        "text": "Getting started with journeys",
+        "url": "http://127.0.0.1:4191/getting-started-with-journeys"
+      },
+      {
+        "text": "Connect Shopify",
+        "url": "http://127.0.0.1:4191/connect-shopify"
+      }
+    ],
+    "figures": [
+      {
+        "rect": [
+          16,
+          2144,
+          558,
+          305.1953125
+        ],
+        "stageWidth": 558,
+        "frameWidth": 400,
+        "imageWidth": 381.9921875,
+        "natural": [
+          400,
+          240
+        ],
+        "src": "/images/captures/capture-overview/desktop-popup-en.png",
+        "alt": "Website Popup card from the desktop catalog.",
+        "caption": "Card from the real desktop grid, without upscaling.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          2617.1953125,
+          558,
+          729
+        ],
+        "stageWidth": 558,
+        "frameWidth": 392,
+        "imageWidth": 374,
+        "natural": [
+          374,
+          653
+        ],
+        "src": "/images/captures/website-popup/steps-mobile-en.png",
+        "alt": "Fictional popup editor with Email, First name and Completed steps and device selectors.",
+        "caption": "Fictional data; the mobile focus shows the first-step preview. The popup was not published or submitted.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          3786.1953125,
+          558,
+          334
+        ],
+        "stageWidth": 558,
+        "frameWidth": 374,
+        "imageWidth": 356,
+        "natural": [
+          356,
+          258
+        ],
+        "src": "/images/captures/website-popup/fields-mobile-en.png",
+        "alt": "Field type, placeholder and required email controls.",
+        "caption": "Desktop shows the field and its panel; the mobile focus shows type, placeholder and required controls.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          4264.1953125,
+          558,
+          586.203125
+        ],
+        "stageWidth": 558,
+        "frameWidth": 374,
+        "imageWidth": 355.9921875,
+        "natural": [
+          374,
+          536
+        ],
+        "src": "/images/captures/website-popup/completion-en.png",
+        "alt": "Completed-state preview of the fictional popup.",
+        "caption": "This is a design preview, not proof of a subscription or received message.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          6202.3984375,
+          558,
+          657.3046875
+        ],
+        "stageWidth": 558,
+        "frameWidth": 410,
+        "imageWidth": 391.9921875,
+        "natural": [
+          410,
+          608
+        ],
+        "src": "/images/captures/website-popup/style-en.png",
+        "alt": "Style panel with typography, text and background colors and font size.",
+        "caption": "Actual Style panel from the desktop editor.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          6979.703125,
+          558,
+          395.3359375
+        ],
+        "stageWidth": 558,
+        "frameWidth": 410,
+        "imageWidth": 391.9921875,
+        "natural": [
+          410,
+          334
+        ],
+        "src": "/images/captures/website-popup/layout-en.png",
+        "alt": "Layout panel with separate desktop and mobile layouts.",
+        "caption": "Footer is selected for desktop and Default for mobile in the fictional example.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          7631.0390625,
+          558,
+          431.6640625
+        ],
+        "stageWidth": 558,
+        "frameWidth": 410,
+        "imageWidth": 391.9921875,
+        "natural": [
+          410,
+          372
+        ],
+        "src": "/images/captures/website-popup/settings-en.png",
+        "alt": "Settings panel with devices and bubble options.",
+        "caption": "The current panel does not include a delay selector.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          8862.703125,
+          558,
+          294.765625
+        ],
+        "stageWidth": 558,
+        "frameWidth": 403,
+        "imageWidth": 384.984375,
+        "natural": [
+          403,
+          229
+        ],
+        "src": "/images/captures/website-popup/assignment-en.png",
+        "alt": "Coupon and journey selectors with GUIA-QR-10 selected transiently.",
+        "caption": "The coupon is a fictional example; the selection was not saved and no journey is assigned. No delivery is shown.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          9485.46875,
+          558,
+          524
+        ],
+        "stageWidth": 558,
+        "frameWidth": 440,
+        "imageWidth": 422,
+        "natural": [
+          422,
+          448
+        ],
+        "src": "/images/captures/website-popup/installation-mobile-en.png",
+        "alt": "Popup installation methods; VTEX and Fenicio disabled and manual installation available.",
+        "caption": "The fictional local setup has no connected VTEX, Fenicio or Shopify store. Installation was not confirmed.",
+        "linked": false
+      },
+      {
+        "rect": [
+          16,
+          10177.46875,
+          558,
+          292
+        ],
+        "stageWidth": 558,
+        "frameWidth": 424,
+        "imageWidth": 406,
+        "natural": [
+          406,
+          216
+        ],
+        "src": "/images/captures/website-popup/code-mobile-es.png",
+        "alt": "Generated initialization code for the fictional popup.",
+        "caption": "The identifiers belong only to the local example. The code was not installed and publication was not confirmed.",
+        "linked": false
+      }
+    ]
+  }
+]

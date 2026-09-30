@@ -1,14 +1,14 @@
 Popup de Sitio Web te permite captar números de teléfono, direcciones de email y otros datos del perfil del cliente sin sacar a los visitantes de tu sitio.
 
-Es una misión de captura, no una misión agéntica ni una ruta. El popup crea o actualiza un perfil del cliente. Luego puedes entregar un cupón de forma opcional y conectar la captura con una ruta de bienvenida o seguimiento para la nueva persona suscrita.
+Es una misión de captura, no una misión agéntica ni una ruta. El popup crea o actualiza un perfil del cliente. Puedes asignar una ruta activa de bienvenida o seguimiento y, de forma opcional, un cupón. Guardar un dato de contacto no equivale por sí solo a completar una suscripción verificada.
 
-Popup de Sitio Web se está habilitando de forma progresiva. Si aparece como **A solicitud**, está deshabilitado o no aparece en el grupo **Capturas** dentro de **Explorar misiones**, confirma su disponibilidad con tu equipo de Hellotext antes de planificar el lanzamiento.
+Popup de Sitio Web se está habilitando de forma progresiva. Si aparece como **A solicitud**, está deshabilitado o no aparece en el grupo **Captura** dentro de **Explorar misiones**, confirma su disponibilidad con tu equipo de Hellotext antes de planificar el lanzamiento.
 
 ## Cuándo usar Popup de Sitio Web
 
 Usa Popup de Sitio Web cuando quieres:
 
-- Convertir visitantes anónimos del sitio en personas suscritas.
+- Captar datos de visitantes y, con una ruta y la verificación correspondientes, incorporarlos como personas suscritas.
 - Captar un número de teléfono, email u otras propiedades del perfil del cliente.
 - Presentar una oferta sin enviar al visitante a otra página.
 - Usar más de un paso para mantener breve la primera interacción.
@@ -35,14 +35,35 @@ Para revisar elegibilidad por canal y consentimiento, consulta [A quién puedes 
 ## Crea el popup
 
 1. Abre **Misiones** y haz clic en **Explorar misiones**.
-2. Busca el grupo **Capturas** y elige **Popup de Sitio Web**.
+2. Busca el grupo **Captura** y elige **Popup de Sitio Web**.
 3. Dale un nombre que identifique su ubicación o propósito.
 4. Construye los pasos de suscripción y el estado **Completado**.
-5. Revisa el estilo, layout y configuración.
-6. Guarda y continúa a la asignación opcional de cupón y ruta.
-7. Revisa las opciones de visualización disponibles, luego instala y publica el popup.
+5. Revisa **Estilo**, **Diseño** y **Ajustes**.
+6. Haz clic en **Guardar & Continuar** para guardar el borrador y abrir la asignación opcional de cupón y ruta.
+7. Revisa el método de instalación antes de confirmar la activación del popup.
 
-El editor muestra vistas previas separadas para mobile y desktop. Revisa ambas mientras trabajas en lugar de considerar que la vista de desktop representa el resultado final para todos los visitantes.
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Tarjeta Popup de Sitio Web del catálogo de escritorio.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 400px; width: fit-content; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/desktop-popup-es.png" srcset="/images/captures/capture-overview/desktop-popup-es.png 2x" width="800" height="480" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Tarjeta Popup de Sitio Web del catálogo de escritorio." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Card de la grilla real de escritorio, sin ampliar.</figcaption>
+</figure>
+
+Los íconos de móvil y escritorio cambian la vista del editor. **Vista previa** abre una vista separada que permite revisar la experiencia sin publicar el popup. Revisa ambas mientras trabajas en lugar de considerar que la vista de desktop representa el resultado final para todos los visitantes.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Editor del popup ficticio con pasos Email, Nombre y Completado y selectores de dispositivo.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 511px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/website-popup/steps-mobile-es.png 2x" width="748" height="1370" />
+        <img class="ht-editorial-visual__image" src="/images/captures/website-popup/steps-es.png" srcset="/images/captures/website-popup/steps-es.png 2x" width="1022" height="1504" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Editor del popup ficticio con pasos Email, Nombre y Completado y selectores de dispositivo." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Datos ficticios; el foco móvil muestra el preview del primer paso. No se publicó ni se envió el formulario.</figcaption>
+</figure>
 
 ## Construye los pasos de suscripción
 
@@ -52,14 +73,35 @@ En cada paso puedes:
 
 - Editar el título, texto de apoyo, botón, links y aviso de consentimiento.
 - Agregar campos basados en propiedades estándar o personalizadas del perfil del cliente.
-- Cambiar la etiqueta y el placeholder de cada campo.
+- Cambiar el placeholder de cada campo que lo admite.
 - Marcar campos como obligatorios cuando el flujo no pueda continuar sin ellos.
 - Agregar, eliminar, renombrar y reordenar pasos.
 - Ver cómo se muestra el paso en mobile y desktop.
 
-Usa el estado **Completado** para confirmar que se recibió la suscripción y explicar qué ocurrirá después. Haz que este mensaje sea útil incluso cuando no hayas asignado un cupón.
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Controles de tipo de campo, marcador de posición y requisito obligatorio del email.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 739px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/website-popup/fields-mobile-es.png 2x" width="712" height="516" />
+        <img class="ht-editorial-visual__image" src="/images/captures/website-popup/fields-es.png" srcset="/images/captures/website-popup/fields-es.png 2x" width="1478" height="1524" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Controles de tipo de campo, marcador de posición y requisito obligatorio del email." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">En escritorio se ve el campo y su panel; el foco móvil muestra los controles de tipo, placeholder y requisito.</figcaption>
+</figure>
 
-No pidas todas las propiedades disponibles solo porque existen. Cada campo adicional exige más esfuerzo al visitante y puede reducir la cantidad de personas que completan el popup. Capta lo mínimo necesario para el primer seguimiento útil y enriquece el perfil más adelante mediante conversaciones, compras, formularios u otras señales.
+Usa el estado **Completado** para explicar qué ocurrirá después del formulario. La vista previa de este estado es una simulación de diseño; no confirma una suscripción, verificación o entrega real. Haz que este mensaje sea útil incluso cuando no hayas asignado un cupón.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Vista previa del estado Completado del popup ficticio.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 374px; width: fit-content; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/captures/website-popup/completion-es.png" srcset="/images/captures/website-popup/completion-es.png 2x" width="748" height="1072" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Vista previa del estado Completado del popup ficticio." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Es un preview de diseño, no evidencia de una suscripción o mensaje recibido.</figcaption>
+</figure>
+
+No pidas todas las propiedades disponibles solo porque existen. Cada campo adicional exige más esfuerzo al visitante y puede reducir la cantidad de personas que completan el popup. Para publicar, incluye y marca como obligatorio al menos un campo de email o teléfono. Capta lo mínimo necesario para el primer seguimiento útil y enriquece el perfil más adelante mediante conversaciones, compras, formularios u otras señales.
 
 ## Escribe textos claros para el popup
 
@@ -81,40 +123,108 @@ El editor separa la configuración del popup en tres áreas:
 
 | Área | Qué controla |
 | --- | --- |
-| **Estilo** | La tipografía y los colores del texto, fondo, texto del botón y fondo del botón. Estas opciones se aplican a todo el popup. |
-| **Layout** | La disposición usada en desktop y mobile. Cada dispositivo puede usar el layout que mejor se adapte a su pantalla. |
-| **Configuración** | Si el popup se abre automáticamente o primero aparece como una burbuja, la apariencia de esa burbuja y si se muestra en mobile, desktop o ambos. |
+| **Estilo** | La tipografía, los colores de texto y fondo y el tamaño de fuente. Los controles del botón y de la cabecera se editan también desde esos elementos de la vista previa. |
+| **Diseño** | La disposición usada en desktop y mobile. Cada dispositivo puede usar el layout que mejor se adapte a su pantalla. |
+| **Ajustes** | Si el popup se abre automáticamente o primero aparece como una burbuja y si se muestra en mobile, desktop o ambos. |
+
+Abre **Estilo** para revisar tipografía, colores y tamaño. Estos controles comparten la tipografía y los colores del popup.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Panel Estilo con tipografía, colores de texto y fondo y tamaño de fuente.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 410px; width: fit-content; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/captures/website-popup/style-es.png" srcset="/images/captures/website-popup/style-es.png 2x" width="820" height="1216" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Panel Estilo con tipografía, colores de texto y fondo y tamaño de fuente." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Panel real de Estilo del editor desktop.</figcaption>
+</figure>
+
+Abre **Diseño** para comparar las disposiciones disponibles. Elige un layout separado para cada dispositivo y revisa el resultado con los íconos de móvil y escritorio.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Panel Diseño con layouts separados para escritorio y móvil.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 410px; width: fit-content; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/captures/website-popup/layout-es.png" srcset="/images/captures/website-popup/layout-es.png 2x" width="820" height="668" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Panel Diseño con layouts separados para escritorio y móvil." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Footer está seleccionado para escritorio y Default para móvil en el ejemplo ficticio.</figcaption>
+</figure>
 
 Cuando el popup usa una burbuja, los visitantes ven un pequeño acceso flotante y abren el popup completo al seleccionarlo. Configura el texto, color de texto, color de fondo y alineación de la burbuja para que sea visible sin cubrir controles importantes del sitio.
 
-Cuando el popup se abre automáticamente, revisa el control de demora disponible en tu cuenta. Dale a la página tiempo suficiente para resultar útil antes de interrumpir al visitante.
+El panel **Ajustes** muestra la selección de dispositivos y las opciones **No mostrar burbuja** y **Mostrar una burbuja**. En esta versión no presenta un selector de demora; no supongas que puedes programar un retraso desde ese panel.
 
-La primera versión se concentra en la forma de apertura y los dispositivos. Las condiciones avanzadas basadas en la URL de la página, scroll, ubicación o visualizaciones anteriores del popup todavía están en desarrollo. No planifiques un lanzamiento alrededor de esas condiciones salvo que estén disponibles y se puedan guardar en tu cuenta.
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Panel Ajustes con dispositivos y opciones de burbuja.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 410px; width: fit-content; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/captures/website-popup/settings-es.png" srcset="/images/captures/website-popup/settings-es.png 2x" width="820" height="744" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Panel Ajustes con dispositivos y opciones de burbuja." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">El panel actual no incluye un selector de demora.</figcaption>
+</figure>
+
+El editor revisado no ofrece condiciones por URL, scroll, ubicación o visualizaciones anteriores. Confirma con Hellotext cualquier requisito de segmentación adicional antes de planificar el lanzamiento.
 
 ## Asigna un cupón y una ruta
 
 La asignación de cupón y ruta es opcional.
 
-Asigna un cupón cuando la promesa de suscripción incluya un descuento. Cuando la entrega de cupones está habilitada para tu cuenta, Hellotext envía el código al dato de contacto que dejó el visitante en lugar de mostrarlo inmediatamente en el navegador. Hellotext puede elegir el canal disponible más costo-eficiente entre WhatsApp y SMS, o usar email cuando no se captó un teléfono.
+Selecciona una **ruta activa** con un disparador de suscripción para que el contacto entre al flujo de bienvenida. El formulario registra la captura de datos; la suscripción y la entrada a la ruta esperan la verificación de los datos de contacto requeridos. Una ruta desactivada no aparece como opción compatible.
 
-El estado completado puede mostrar el destino oculto parcialmente y el canal de entrega. También puede permitir que el visitante cambie el número o email, o solicite otro envío una vez cumplida la espera para reenviar.
+Si también ofreces un cupón, revisa que la ruta contenga el mensaje que lo entrega. La asignación muestra una advertencia si falta la ruta o si el mensaje no contiene un cupón. Lee la advertencia antes de continuar: seleccionar un cupón no demuestra que ya se haya enviado.
 
-Asigna una ruta cuando la nueva persona suscrita deba entrar en un flujo de bienvenida o seguimiento. Si la misma captura ya activa otra ruta, revisa la advertencia antes de continuar para evitar que la persona ingrese en flujos duplicados.
+La entrega requiere un canal disponible para los datos ingresados. El teléfono puede usar WhatsApp si la configuración y plantilla son compatibles, con SMS como alternativa; el email usa correo electrónico. No lo presentes como una elección automática del canal más barato.
+
+El estado completado puede mostrar un destino y permitir cambiarlo o reenviar después de una espera, según la configuración. Comprueba ese flujo en tu instalación; las acciones del preview no son envíos reales.
+
+Si no necesitas seguimiento, puedes dejar las selecciones vacías. El ejemplo muestra los controles y un cupón ficticio sin guardar la asignación; no muestra un mensaje enviado ni una ruta activa. Una captura sin ruta no debe presentarse como una suscripción completada.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Selectores de cupón y ruta, con GUIA-QR-10 seleccionado de forma transitoria.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 403px; width: fit-content; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/captures/website-popup/assignment-es.png" srcset="/images/captures/website-popup/assignment-es.png 2x" width="806" height="458" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Selectores de cupón y ruta, con GUIA-QR-10 seleccionado de forma transitoria." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">El cupón es un ejemplo ficticio; la selección no se guardó y la ruta está sin asignar. No se muestra una entrega.</figcaption>
+</figure>
 
 ## Instala el popup
 
 El paso de instalación ofrece los métodos disponibles para el sitio conectado:
 
-- **Instalación automática:** úsala cuando Hellotext detecta una tienda Shopify conectada y compatible.
+- **Instalación automática:** úsala cuando aparece una tienda Shopify conectada o una integración compatible de VTEX o Fenicio. Las opciones no disponibles se muestran deshabilitadas.
 - **Instalación manual:** instala [Hellotext.js](https://github.com/hellotext/hellotext.js) y luego agrega al sitio el código de inicialización generado para este popup.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Métodos de instalación del popup; VTEX y Fenicio deshabilitados y opción manual disponible.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 670px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/website-popup/installation-mobile-es.png 2x" width="844" height="936" />
+        <img class="ht-editorial-visual__image" src="/images/captures/website-popup/installation-es.png" srcset="/images/captures/website-popup/installation-es.png 2x" width="1340" height="928" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Métodos de instalación del popup; VTEX y Fenicio deshabilitados y opción manual disponible." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">La integración local ficticia no está conectada a VTEX, Fenicio ni Shopify. No se confirmó la instalación.</figcaption>
+</figure>
 
 Usa el código generado exactamente como aparece porque incluye los identificadores de tu negocio y del popup. Si un desarrollador o una agencia administra el sitio, envíale las instrucciones completas de instalación manual que aparecen en este paso.
 
-Después de instalarlo, publica el popup solamente después de probar el sitio real. Que la vista previa del editor sea correcta no confirma que el script de la tienda, el comportamiento por dispositivo o el envío de datos estén funcionando.
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Código de inicialización generado para el popup ficticio.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 664px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/website-popup/code-mobile-es.png 2x" width="812" height="432" />
+        <img class="ht-editorial-visual__image" src="/images/captures/website-popup/code-es.png" srcset="/images/captures/website-popup/code-es.png 2x" width="1328" height="384" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Código de inicialización generado para el popup ficticio." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Los identificadores pertenecen sólo al ejemplo local. El código no se instaló y no se pulsó la confirmación de publicación.</figcaption>
+</figure>
+
+**Continuar** en una opción automática confirma la publicación del popup. Con la opción manual, **Continuar** abre las instrucciones; la confirmación final con **Cerrar** publica el popup y registra su instalación. Revisa el diseño y prepara una prueba controlada antes de confirmar cualquiera de esas acciones. Una vista previa correcta no demuestra que Hellotext.js esté instalado ni que el envío de datos funcione en el sitio.
 
 ## Prueba antes de publicar
 
-Prueba la experiencia completa con datos de cliente que puedas usar de forma segura.
+Revisa primero los pasos y dispositivos con **Vista previa**. Después de una activación controlada, valida la experiencia en el sitio con datos de prueba autorizados, teniendo en cuenta que un envío real puede generar verificaciones, mensajes y entradas a rutas.
 
 Confirma que:
 
@@ -139,9 +249,9 @@ Revisa estos puntos en orden:
 1. Confirma que el popup se haya guardado, instalado y publicado.
 2. Confirma que Hellotext.js y el código de inicialización del popup carguen en la página.
 3. Revisa si el popup está limitado a mobile o desktop.
-4. Revisa si se abre automáticamente, después de una demora o solamente desde una burbuja.
+4. Revisa si se abre automáticamente, o solamente desde una burbuja.
 5. Prueba en una ventana privada para evitar que una sesión anterior afecte el resultado.
-6. Confirma que las condiciones de visualización disponibles en tu cuenta coincidan con la página que estás probando.
+6. Confirma que el popup corresponda al sitio y dispositivo que estás probando.
 7. Vuelve a abrir el paso de instalación y compara el código generado con el que se ejecuta en el sitio.
 
 Al reportar un problema, incluye el nombre del popup, URL probada, dispositivo, hora aproximada, forma de apertura y si el popup no apareció o falló después del envío.

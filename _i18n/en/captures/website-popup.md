@@ -1,14 +1,14 @@
 Website Popup lets you collect phone numbers, email addresses, and other customer profile information without sending visitors away from your website.
 
-It is a capture playbook, not an agentic playbook or a journey. The popup collects or updates a customer profile. You can then optionally deliver a coupon and connect the capture to a journey that welcomes or follows up with the new subscriber.
+It is a capture playbook, not an agentic playbook or a journey. The popup collects or updates a customer profile. You can assign an active welcome or follow-up journey and, optionally, a coupon. Saving contact information alone does not complete a verified subscription.
 
-Website Popup is being rolled out progressively. If it appears as **On request**, is disabled, or does not appear in the **Captures** group under **Explore playbooks**, confirm availability with your Hellotext team before planning a launch.
+Website Popup is being rolled out progressively. If it appears as **On request**, is disabled, or does not appear in the **Capture** group under **Explore playbooks**, confirm availability with your Hellotext team before planning a launch.
 
 ## When to use Website Popup
 
 Use Website Popup when you want to:
 
-- Turn anonymous website visitors into subscribers.
+- Collect visitor details and, with the appropriate journey and verification, turn them into subscribers.
 - Collect a phone number, email address, or other customer profile properties.
 - Present an offer without sending the visitor to another page.
 - Use more than one step to keep the first interaction short.
@@ -35,14 +35,35 @@ For channel eligibility and consent, see [Who you can message]({% link _audience
 ## Create the popup
 
 1. Open **Playbooks** and click **Explore playbooks**.
-2. Find the **Captures** group and choose **Website Popup**.
+2. Find the **Capture** group and choose **Website Popup**.
 3. Give the popup a name that identifies its placement or purpose.
 4. Build the signup steps and the **Completed** state.
-5. Review the style, layout, and settings.
-6. Save and continue to the optional coupon and journey assignment.
-7. Review the available display settings, then install and publish the popup.
+5. Review **Style**, **Layout**, and **Settings**.
+6. Click **Save & Continue** to save the draft and open optional coupon and journey assignment.
+7. Review the installation method before confirming popup activation.
 
-The editor shows separate previews for mobile and desktop. Check both views while you work rather than treating the desktop preview as the final version for every visitor.
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Website Popup card from the desktop catalog.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 400px; width: fit-content; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/desktop-popup-en.png" srcset="/images/captures/capture-overview/desktop-popup-en.png 2x" width="800" height="480" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Website Popup card from the desktop catalog." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Card from the real desktop grid, without upscaling.</figcaption>
+</figure>
+
+The mobile and desktop icons switch the editor view. **Preview** opens a separate view where you can review the experience without publishing the popup. Check both views while you work rather than treating the desktop preview as the final version for every visitor.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Fictional popup editor with Email, First name and Completed steps and device selectors.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 522px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/website-popup/steps-mobile-en.png 2x" width="748" height="1306" />
+        <img class="ht-editorial-visual__image" src="/images/captures/website-popup/steps-en.png" srcset="/images/captures/website-popup/steps-en.png 2x" width="1044" height="1552" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Fictional popup editor with Email, First name and Completed steps and device selectors." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Fictional data; the mobile focus shows the first-step preview. The popup was not published or submitted.</figcaption>
+</figure>
 
 ## Build the signup steps
 
@@ -52,14 +73,35 @@ For each step, you can:
 
 - Edit the heading, supporting text, button, links, and consent notice.
 - Add fields based on standard or custom customer profile properties.
-- Change each field label and placeholder.
+- Change the placeholder for fields that support it.
 - Mark fields as required when the flow cannot continue without them.
 - Add, remove, rename, and reorder steps.
 - Preview how the step looks on mobile and desktop.
 
-Use the **Completed** state to confirm that the signup was received and explain what happens next. Keep this message useful even when no coupon is assigned.
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Field type, placeholder and required email controls.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 739px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/website-popup/fields-mobile-en.png 2x" width="712" height="516" />
+        <img class="ht-editorial-visual__image" src="/images/captures/website-popup/fields-en.png" srcset="/images/captures/website-popup/fields-en.png 2x" width="1478" height="1426" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Field type, placeholder and required email controls." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Desktop shows the field and its panel; the mobile focus shows type, placeholder and required controls.</figcaption>
+</figure>
 
-Do not ask for every available property just because it exists. Each additional field adds work for the visitor and can reduce completion. Collect the minimum needed for the first useful follow-up, then enrich the profile later through conversations, purchases, forms, or other signals.
+Use the **Completed** state to explain what follows the form. Its preview is a design simulation; it does not confirm a real subscription, verification, or delivery. Keep this message useful even when no coupon is assigned.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Completed-state preview of the fictional popup.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 374px; width: fit-content; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/captures/website-popup/completion-en.png" srcset="/images/captures/website-popup/completion-en.png 2x" width="748" height="1072" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Completed-state preview of the fictional popup." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">This is a design preview, not proof of a subscription or received message.</figcaption>
+</figure>
+
+Do not ask for every available property just because it exists. Each additional field adds work for the visitor and can reduce completion. To publish, include and require at least one email or phone field. Collect the minimum needed for the first useful follow-up, then enrich the profile later through conversations, purchases, forms, or other signals.
 
 ## Write clear popup copy
 
@@ -81,40 +123,108 @@ The editor separates the popup configuration into three areas:
 
 | Area | What it controls |
 | --- | --- |
-| **Style** | Typography and the colors used for text, background, button text, and button background. These choices apply across the popup. |
+| **Style** | Typography, text and background colors, and font size. Button and header controls are also edited from those elements in the preview. |
 | **Layout** | The arrangement used on desktop and mobile. Each device can use the layout that best fits its screen. |
-| **Settings** | Whether the popup opens automatically or first appears as a bubble, the bubble appearance, and whether it displays on mobile, desktop, or both. |
+| **Settings** | Whether the popup opens automatically or first appears as a bubble, and whether it displays on mobile, desktop, or both. |
+
+Open **Style** to review typography, colors, and size. These controls share the popup typography and colors.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Style panel with typography, text and background colors and font size.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 410px; width: fit-content; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/captures/website-popup/style-en.png" srcset="/images/captures/website-popup/style-en.png 2x" width="820" height="1216" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Style panel with typography, text and background colors and font size." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Actual Style panel from the desktop editor.</figcaption>
+</figure>
+
+Open **Layout** to compare the available arrangements. Choose a separate layout for each device and review it with the mobile and desktop icons.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Layout panel with separate desktop and mobile layouts.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 410px; width: fit-content; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/captures/website-popup/layout-en.png" srcset="/images/captures/website-popup/layout-en.png 2x" width="820" height="668" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Layout panel with separate desktop and mobile layouts." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Footer is selected for desktop and Default for mobile in the fictional example.</figcaption>
+</figure>
 
 When the popup uses a bubble, visitors see a small floating prompt and open the full popup by selecting it. Configure the bubble text, text color, background color, and alignment so it is noticeable without covering important website controls.
 
-When the popup opens automatically, review any delay control available in your account. Give the page enough time to become useful before interrupting the visitor.
+The **Settings** panel shows device targeting and **Don't show bubble** / **Display a bubble** options. This version does not expose a delay selector there; do not assume you can schedule a delay from that panel.
 
-The initial rollout focuses on opening behavior and device targeting. Advanced conditions based on page path, scroll depth, location, or previous popup views are still being developed. Do not plan a launch around those conditions unless they are available and can be saved in your account.
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Settings panel with devices and bubble options.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 410px; width: fit-content; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/captures/website-popup/settings-en.png" srcset="/images/captures/website-popup/settings-en.png 2x" width="820" height="744" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Settings panel with devices and bubble options." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">The current panel does not include a delay selector.</figcaption>
+</figure>
+
+The reviewed editor does not offer page-path, scroll-depth, location, or previous-view conditions. Confirm any additional targeting requirement with Hellotext before planning a launch.
 
 ## Assign a coupon and journey
 
 Coupon and journey assignment are optional.
 
-Assign a coupon when the signup promise includes a discount. When coupon delivery is enabled for your account, Hellotext sends the code to the contact method the visitor provided instead of revealing it immediately in the browser. Hellotext can choose the most cost-efficient available channel between WhatsApp and SMS, or use email when no phone number was collected.
+Select an **active journey** with a subscription trigger to start the welcome flow. The form records the captured data; subscription and journey entry wait for verification of the required contact details. A disabled journey does not appear as a compatible option.
 
-The completed state can show the masked destination and delivery channel. It can also let the visitor change the phone number or email address, or request another delivery after the resend wait has passed.
+If you also offer a coupon, check that the journey includes the message that delivers it. Assignment shows a warning when a journey is missing or its message does not contain a coupon. Read the warning before continuing: selecting a coupon does not show that it has been sent.
 
-Assign a journey when the new subscriber should enter a welcome or follow-up flow. If the same capture already triggers another journey, review the warning before continuing so the subscriber does not enter duplicate flows.
+Delivery needs an available channel for the submitted details. Phone delivery can use WhatsApp when its configuration and template are compatible, with SMS as an alternative; email uses email delivery. Do not describe this as an automatic choice of the cheapest channel.
+
+The completed state may show a destination and allow visitors to change it or resend after a wait, depending on configuration. Check that flow in your installation; preview actions do not send real messages.
+
+If you do not need follow-up, you can leave both selections empty. The example shows the controls and a fictional coupon without saving the assignment; it does not show a sent message or active journey. A capture without a journey must not be presented as a completed subscription.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Coupon and journey selectors with GUIA-QR-10 selected transiently.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 403px; width: fit-content; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/captures/website-popup/assignment-en.png" srcset="/images/captures/website-popup/assignment-en.png 2x" width="806" height="458" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Coupon and journey selectors with GUIA-QR-10 selected transiently." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">The coupon is a fictional example; the selection was not saved and no journey is assigned. No delivery is shown.</figcaption>
+</figure>
 
 ## Install the popup
 
 The installation step offers the methods available for the connected website:
 
-- **Automatic installation:** use this when Hellotext detects a supported connected Shopify store.
+- **Automatic installation:** use this when a connected Shopify store or compatible VTEX or Fenicio integration appears. Unavailable options are disabled.
 - **Manual installation:** install [Hellotext.js](https://github.com/hellotext/hellotext.js), then add the initialization code generated for this popup to the website.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Popup installation methods; VTEX and Fenicio disabled and manual installation available.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 670px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/website-popup/installation-mobile-en.png 2x" width="844" height="896" />
+        <img class="ht-editorial-visual__image" src="/images/captures/website-popup/installation-en.png" srcset="/images/captures/website-popup/installation-en.png 2x" width="1340" height="928" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Popup installation methods; VTEX and Fenicio disabled and manual installation available." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">The fictional local setup has no connected VTEX, Fenicio or Shopify store. Installation was not confirmed.</figcaption>
+</figure>
 
 Use the generated code exactly as shown because it includes the identifiers for your business and popup. If a developer or agency manages the website, send them the complete manual installation instructions from this step.
 
-After installation, publish the popup only after testing the live website. A correct editor preview does not confirm that the storefront script, device behavior, or submission flow is working.
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Generated initialization code for the fictional popup.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 664px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/website-popup/code-mobile-es.png 2x" width="812" height="432" />
+        <img class="ht-editorial-visual__image" src="/images/captures/website-popup/code-es.png" srcset="/images/captures/website-popup/code-es.png 2x" width="1328" height="384" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Generated initialization code for the fictional popup." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">The identifiers belong only to the local example. The code was not installed and publication was not confirmed.</figcaption>
+</figure>
+
+**Continue** with an automatic method confirms popup publication. With the manual method, **Continue** opens instructions; the final **Close** confirmation publishes the popup and records its installation. Review the design and prepare a controlled test before confirming either action. A correct preview does not show that Hellotext.js is installed or that submissions work on the website.
 
 ## Test before publishing
 
-Test the complete experience with customer details you can safely use.
+First review the steps and devices with **Preview**. After a controlled activation, validate the website experience with authorized test details, remembering that a real submission can create verification deliveries, messages, and journey entries.
 
 Confirm that:
 
@@ -139,9 +249,9 @@ Check these items in order:
 1. Confirm that the popup was saved, installed, and published.
 2. Confirm that Hellotext.js and the popup initialization code load on the page.
 3. Check whether the popup is limited to mobile or desktop.
-4. Check whether it opens automatically, after a delay, or only through a bubble.
+4. Check whether it opens automatically, or only through a bubble.
 5. Test in a private browser window to avoid a previous session affecting the result.
-6. Confirm that any display conditions available in your account match the page being tested.
+6. Confirm that the popup belongs to the website and device being tested.
 7. Reopen the installation step and compare the generated code with the code running on the website.
 
 When reporting a problem, include the popup name, tested URL, device, approximate time, opening behavior, and whether the popup failed to appear or failed after submission.
