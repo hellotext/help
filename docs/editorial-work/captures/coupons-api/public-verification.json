@@ -1,0 +1,87 @@
+{
+  "verified_at_utc": "2026-09-30T06:59:12.060630+00:00",
+  "verified_git_main_sha": "9b520edb8ee8e173cce807bbcbb5a55a4459e712",
+  "production_deploy_id_sha_association": {
+    "id": "6abcb30c4596010008feaf85",
+    "site_id": "d66a79c1-b5de-44d1-bc47-bc7809f7f3b3",
+    "state": "ready",
+    "context": "production",
+    "branch": "main",
+    "commit_ref": "9b520edb8ee8e173cce807bbcbb5a55a4459e712",
+    "created_at": "2026-09-30T06:58:20.362Z",
+    "published_at": "2026-09-30T06:58:59.533Z",
+    "deploy_ssl_url": "https://main--legendary-lollipop-e2d131.netlify.app"
+  },
+  "deployment_method": "Normal Netlify production deployment after Git merge; no manual deployment. Public site-alias listing is accessible.",
+  "pages": [
+    {
+      "url": "https://help.hellotext.com/es/cupones-con-api",
+      "status": 200,
+      "figures": 1,
+      "updated_reused_assets_present": [
+        "/images/captures/shareable-link/follow-up-refresh/assignment-es.png",
+        "/images/captures/shareable-link/follow-up-refresh/assignment-es-mobile.png"
+      ]
+    },
+    {
+      "url": "https://help.hellotext.com/coupons-with-api",
+      "status": 200,
+      "figures": 1,
+      "updated_reused_assets_present": [
+        "/images/captures/shareable-link/follow-up-refresh/assignment-en.png",
+        "/images/captures/shareable-link/follow-up-refresh/assignment-en-mobile.png"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://help.hellotext.com/images/captures/shareable-link/follow-up-refresh/assignment-es.png",
+      "status": 200,
+      "sha256": "17b7856b05114207fd5335e07574cbde6054bf6be08a662a5970976233307ce3",
+      "matches_approved_source": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/shareable-link/follow-up-refresh/assignment-es-mobile.png",
+      "status": 200,
+      "sha256": "41b58939a600a7dfad533bed2ea4baa16f3dc3b80a4060e5cb57f7bb14299334",
+      "matches_approved_source": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/shareable-link/follow-up-refresh/assignment-en.png",
+      "status": 200,
+      "sha256": "066b6ef5e394ffc2cb93635ff4c5eea52773b0c6a6ed509cdb19a3efcf24682e",
+      "matches_approved_source": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/shareable-link/follow-up-refresh/assignment-en-mobile.png",
+      "status": 200,
+      "sha256": "bc0f0955c94da57b461e49f75c2a9e4ffa8463444772e3ec241f76fcc7cb2319",
+      "matches_approved_source": true
+    }
+  ],
+  "pull_request": 265,
+  "main_build": {
+    "conclusion": "success",
+    "databaseId": 36681072777,
+    "event": "push",
+    "headSha": "9b520edb8ee8e173cce807bbcbb5a55a4459e712",
+    "status": "completed",
+    "url": "https://github.com/hellotext/help/actions/runs/36681072777"
+  },
+  "new_png_uploads": 0,
+  "reused_current_pngs": 4,
+  "independent_review": {
+    "head_sha": "66733718a323e7748638b3aeedc6e6e4376abec6",
+    "state": "completed",
+    "result_url": "https://github.com/hellotext/help/pull/265#issuecomment-5905707889",
+    "unresolved_threads": 0,
+    "finding_count": 0
+  },
+  "retained_individual_commits": [
+    "6b3a13e24dd21fd39052b63a7381396d9ee9a354",
+    "9cec0e7cca7293931a75b47d5ac64c53bfddc864",
+    "66733718a323e7748638b3aeedc6e6e4376abec6"
+  ],
+  "local_content_verifier": "6b3a13e24dd21fd39052b63a7381396d9ee9a354",
+  "security_scan_correction": "Three preserved original file digests falsely matched generic API-key syntax. Explicit article/snapshot/sha256 records retain all evidence; new-head Aikido scan passes and threads are resolved without ignore or protection bypass."
+}
