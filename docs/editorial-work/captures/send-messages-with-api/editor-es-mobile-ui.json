@@ -1,0 +1,474 @@
+{
+  "url": "http://127.0.0.1:3192/hellotext/settings/templates/new?channel=sms&group=custom",
+  "title": "Plantillas - Hellotext",
+  "locale": "es",
+  "viewport": [
+    390,
+    1200
+  ],
+  "dpr": 2,
+  "zoom": 1,
+  "dialog": [
+    20,
+    20,
+    350,
+    1160
+  ],
+  "text": "Seguimiento de devolución\n\nUn mismo propósito, con una versión para Mensaje y otra para Correo.\n\nMensaje\nCorreo\nHola {name}. Consulta las instrucciones de devolución: https://shop.example.com/returns/1001. BAJA para salir‌\nWhatsApp\nSMS\nInstagram\nMessenger\nHola Design. Consulta las instrucciones de devolución: https://shop.example.com/returns/1001. BAJA para salir\nGrupo\n\nPersonalizadas\n\nCancelar\nGuardar plantilla",
+  "sections": [
+    {
+      "tag": "HEADER",
+      "classes": "email-library__template-header outline-none",
+      "text": "Seguimiento de devolución\n\nUn mismo propósito, con una versión para Mensaje y otra para Correo.",
+      "rect": [
+        20,
+        20,
+        350,
+        143
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "classes": "email-library__editor-compose",
+      "text": "Mensaje\nCorreo\nHola {name}. Consulta las instrucciones de devolución: https://shop.example.com/returns/1001. BAJA para salir‌",
+      "rect": [
+        44,
+        163,
+        302,
+        248.796875
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "classes": "",
+      "text": "Hola {name}. Consulta las instrucciones de devolución: https://shop.example.com/returns/1001. BAJA para salir‌",
+      "rect": [
+        44,
+        231,
+        302,
+        180.796875
+      ]
+    },
+    {
+      "tag": "FOOTER",
+      "classes": "",
+      "text": "Hola {name}. Consulta las instrucciones de devolución: https://shop.example.com/returns/1001. BAJA para salir‌",
+      "rect": [
+        44,
+        231,
+        302,
+        180.796875
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "classes": "compose-content-layout flex items-start gap-x-2 w-full",
+      "text": "Hola {name}. Consulta las instrucciones de devolución: https://shop.example.com/returns/1001. BAJA para salir‌",
+      "rect": [
+        61,
+        242,
+        268,
+        108
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "classes": "min-w-0 flex-1",
+      "text": "Hola {name}. Consulta las instrucciones de devolución: https://shop.example.com/returns/1001. BAJA para salir‌",
+      "rect": [
+        61,
+        242,
+        268,
+        108
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "classes": "m-0 inline-flex shrink-0",
+      "text": "",
+      "rect": [
+        61,
+        369,
+        32,
+        32
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "classes": "cursor-pointer inline-flex shrink-0",
+      "text": "",
+      "rect": [
+        61,
+        369,
+        32,
+        32
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "classes": "cursor-pointer",
+      "text": "",
+      "rect": [
+        101,
+        369,
+        32,
+        33.796875
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "classes": "m-0 inline-flex shrink-0",
+      "text": "",
+      "rect": [
+        101,
+        369,
+        32,
+        32
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "classes": "cursor-pointer inline-flex shrink-0",
+      "text": "",
+      "rect": [
+        101,
+        369,
+        32,
+        32
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "classes": "cursor-pointer",
+      "text": "",
+      "rect": [
+        141,
+        369,
+        32,
+        33.796875
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "classes": "m-0 inline-flex shrink-0",
+      "text": "",
+      "rect": [
+        141,
+        369,
+        32,
+        32
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "classes": "cursor-pointer inline-flex shrink-0",
+      "text": "",
+      "rect": [
+        141,
+        369,
+        32,
+        32
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "classes": "cursor-pointer",
+      "text": "",
+      "rect": [
+        181,
+        369,
+        32,
+        33.796875
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "classes": "m-0 inline-flex shrink-0",
+      "text": "",
+      "rect": [
+        181,
+        369,
+        32,
+        32
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "classes": "cursor-pointer inline-flex shrink-0",
+      "text": "",
+      "rect": [
+        181,
+        369,
+        32,
+        32
+      ]
+    },
+    {
+      "tag": "ASIDE",
+      "classes": "email-library__editor-preview compose-channel-preview__container",
+      "text": "WhatsApp\nSMS\nInstagram\nMessenger\nHola Design. Consulta las instrucciones de devolución: https://shop.example.com/returns/1001. BAJA para salir",
+      "rect": [
+        44,
+        435.796875,
+        302,
+        774
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "classes": "border bg-white rounded-3xl overflow-y-auto self-center p-2 w-64 min-h-[30rem] md:h-[30rem] compose-channel-preview__phone playbook-reactive-preview__phone",
+      "text": "Hola Design. Consulta las instrucciones de devolución: https://shop.example.com/returns/1001. BAJA para salir",
+      "rect": [
+        60,
+        535.796875,
+        270,
+        650
+      ]
+    },
+    {
+      "tag": "HEADER",
+      "classes": "w-full p-4 bg-white compose-channel-preview__phone-header sticky top-0 playbook-reactive-preview__phone-header",
+      "text": "",
+      "rect": [
+        76,
+        551.796875,
+        238,
+        126
+      ]
+    },
+    {
+      "tag": "FOOTER",
+      "classes": "email-library__editor-footer",
+      "text": "Grupo\n\nPersonalizadas\n\nCancelar\nGuardar plantilla",
+      "rect": [
+        20,
+        1049,
+        350,
+        131
+      ]
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Seguimiento de devolución",
+      "title": "",
+      "aria": null,
+      "action": "click->step--name#edit",
+      "html": "<button class=\"pane__header__title pane__header__title--single-line min-w-0 text-left\" type=\"button\" data-step--name-target=\"label\" data-action=\"click-&gt;step--name#edit\">Seguimiento de devolución</button>",
+      "rect": [
+        102,
+        44,
+        231.6640625,
+        28
+      ],
+      "disabled": false
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": "Cerrar",
+      "action": "click->modal#close",
+      "html": "<button class=\"email-library__editor-close\" aria-label=\"Cerrar\" data-action=\"click-&gt;modal#close\" type=\"button\">\n  <!-- BEGIN app/components/icon_component/icon_component.html.erb\n-->  <hellotext-icon title=\"Cerrar\" class=\"\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"none\" class=\"icon-base icon-outline\"><title>Cerrar</title>\n  <path d=\"M16 8L8 16M8 8L16 16\" stroke=\"currentColor\" stroke-width=\"currentStroke\" stroke-linecap=\"round\"></path>\n</svg>\n</hellotext-icon><!-- END app/components/icon_component/icon_component.html.erb -->\n</button>",
+      "rect": [
+        346,
+        12,
+        32,
+        32
+      ],
+      "disabled": false
+    },
+    {
+      "text": "Mensaje",
+      "title": "",
+      "aria": null,
+      "action": "settings--template-editor#changeMode",
+      "html": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" data-email-library-mode=\"message\" data-settings--template-editor-target=\"modeTab\" data-action=\"settings--template-editor#changeMode\">Mensaje</button>",
+      "rect": [
+        44,
+        167,
+        67.6640625,
+        48
+      ],
+      "disabled": false
+    },
+    {
+      "text": "Correo",
+      "title": "",
+      "aria": null,
+      "action": "settings--template-editor#changeMode",
+      "html": "<button type=\"button\" role=\"tab\" aria-selected=\"false\" data-email-library-mode=\"email\" data-settings--template-editor-target=\"modeTab\" data-action=\"settings--template-editor#changeMode\">\n              Correo\n            </button>",
+      "rect": [
+        135.6640625,
+        167,
+        56.2109375,
+        48
+      ],
+      "disabled": false
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": null,
+      "action": "click->dropdown#closeOtherDropdowns click->dropdown#toggle",
+      "html": "<button class=\"flex items-center justify-center icon-button--compose\" disabled=\"disabled\" data-action=\"click-&gt;dropdown#closeOtherDropdowns click-&gt;dropdown#toggle\" data-compose--toolbar--emoji-target=\"button\" data-dropdown-target=\"trigger\" data-launcher=\"true\" type=\"button\">\n  <!-- BEGIN app/components/icon_component/icon_component.html.erb\n-->  <hellotext-icon class=\"\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" class=\"icon-base icon-outline\">\n<g style=\"stroke-width: 1.35;\">\n  <path d=\"M19.0295 19.4075C15.4293 22.8177 9.58731 22.8177 5.97762 19.4075C2.07345 15.7123 2.00694 9.55682 5.78762 5.78564C9.49231 2.07145 15.5148 2.07145 19.2195 5.78564C22.9907 9.55682 22.9242 15.7123 19.0295 19.4075Z\" stroke=\"currentColor\" stroke-width=\"currentStroke\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n  <path d=\"M16.1512 16.3488C14",
+      "rect": [
+        61,
+        369,
+        32,
+        32
+      ],
+      "disabled": true
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": null,
+      "html": "<button id=\"new-link-show\" class=\"flex items-center icon-button--compose\" data-launcher=\"true\" data-editor--link--form-target=\"button\" type=\"button\">\n  <!-- BEGIN app/components/icon_component/icon_component.html.erb\n-->  <hellotext-icon class=\"\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" class=\"icon-base icon-outline\">\n  <g fill=\"none\">\n    <g stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n      <path d=\"m13.0601 10.9399c2.25 2.25 2.25 5.89 0 8.13s-5.89001 2.25-8.13001 0-2.25-5.89 0-8.13\"></path>\n      <path d=\"m10.59 13.4099c-2.34004-2.34-2.34004-6.14002 0-8.49002 2.34-2.35 6.14-2.34 8.49 0s2.34 6.14002 0 8.49002\">\n      </path>\n    </g>\n  </g>\n</svg>\n</hellotext-icon><!-- END app/components/icon_component/icon_component.html.erb -->\n</button>",
+      "rect": [
+        101,
+        369,
+        32,
+        32
+      ],
+      "disabled": false
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": null,
+      "html": "<button class=\"flex items-center icon-button--compose\" data-compose--toolbar--tags-target=\"button\" data-launcher=\"true\" type=\"button\">\n  <!-- BEGIN app/components/icon_component/icon_component.html.erb\n-->  <hellotext-icon class=\"\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" class=\"icon-base icon-outline\">\n  <path d=\"M10.7148 3V3C9.06534 3 7.72816 4.33718 7.72816 5.98668V9.69017C7.72816 10.2603 7.3737 10.7704 6.83934 10.9692L6.69922 11.0213C5.51473 11.4619 5.57338 13.1569 6.7855 13.5146V13.5146C7.34448 13.6796 7.72816 14.1929 7.72816 14.7757V19.0133C7.72816 20.6628 9.06534 22 10.7148 22V22\" stroke=\"currentColor\" stroke-width=\"currentStroke\" stroke-linecap=\"round\"></path>\n  <path d=\"M14.2471 3V3C15.8966 3 17.2338 4.33718 17.2338 5.98668V9.69017C17.2338 10.2603 17.5883 10.7704 18.1226 10.9692L18.2628 11.0213C19.4472 11.4619 19.3886 13",
+      "rect": [
+        141,
+        369,
+        32,
+        32
+      ],
+      "disabled": false
+    },
+    {
+      "text": "",
+      "title": "",
+      "aria": null,
+      "html": "<button class=\"icon-button--compose flex items-center\" data-launcher=\"true\" data-compose--toolbar--coupon-target=\"active\" type=\"button\">\n  <!-- BEGIN app/components/icon_component/icon_component.html.erb\n-->  <hellotext-icon class=\"\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" class=\"icon-base icon-outline\">\n  <g fill=\"none\">\n    <path clip-rule=\"evenodd\" d=\"M7.393 15.283a1.115 1.115 0 1 1 0-2.23 1.115 1.115 0 0 1 0 2.23zm3.928-4.737a1.115 1.115 0 1 1 0-2.23 1.115 1.115 0 0 1 0 2.23z\" stroke=\"currentColor\"></path>\n    <path d=\"M12.436 14.472l-6.44-5.638\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n    <path clip-rule=\"evenodd\" d=\"M21.642 17.6H2.358C1.608 17.6 1 16.99 1 16.241V7.358C1 6.608 1.608 6 2.358 6h19.284C22.392 6 23 6.608 23 7.358v8.884c0 .75-.608 1.357-1.358 1.357z\" stroke=\"currentColor\"></path>\n    <path d=\"M17.083 6v11.6\" s",
+      "rect": [
+        181,
+        369,
+        32,
+        32
+      ],
+      "disabled": false
+    },
+    {
+      "text": "WhatsApp",
+      "title": "",
+      "aria": "WhatsApp",
+      "action": "click->settings--template-editor#changeEditorChannel",
+      "html": "<button type=\"button\" class=\"compose-channel-preview__channel compose-channel-preview__channel--whatsapp\" aria-label=\"WhatsApp\" aria-pressed=\"false\" data-settings--template-editor-target=\"editorChannelOption\" data-channel=\"whatsapp\" data-action=\"click-&gt;settings--template-editor#changeEditorChannel\">\n          <span aria-hidden=\"true\"><!-- BEGIN app/components/avatar_component/avatar_component.html.erb\n-->  <hellotext-icon class=\"avatar rounded-full avatar-xxs text-night avatar-adornment-mask-target relative uppercase flex justify-center items-center font-medium shrink-0\">\n    <span class=\"avatar-surface bg-seafoam\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" class=\"avatar-icon-fill fill-night\">\n    <g clip-path=\"url(#clip0_146_89991)\">\n        <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M17.4982 14.3821C17.1997 14.2333 1",
+      "rect": [
+        -39.515625,
+        469.796875,
+        121.1953125,
+        32
+      ],
+      "disabled": false
+    },
+    {
+      "text": "SMS",
+      "title": "",
+      "aria": "SMS",
+      "action": "click->settings--template-editor#changeEditorChannel",
+      "html": "<button type=\"button\" class=\"compose-channel-preview__channel compose-channel-preview__channel--sms compose-channel-preview__channel--active\" aria-label=\"SMS\" aria-pressed=\"true\" data-settings--template-editor-target=\"editorChannelOption\" data-channel=\"sms\" data-action=\"click-&gt;settings--template-editor#changeEditorChannel\">\n          <span class=\"compose-channel-preview__channel-icon\" aria-hidden=\"true\">\n            <!-- BEGIN app/components/icon_component/icon_component.html.erb\n-->  <hellotext-icon size=\"xs\" class=\"\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" class=\"icon-xs icon-outline compose-channel-preview__channel-svg\">\n  <g fill=\"none\">\n    <path d=\"M8 19c-4 0-6-1-6-6V8c0-4 2-6 6-6h8c4 0 6 2 6 6v5c0 4-2 6-6 6h-.5c-.31 0-.61.15-.8.4l-1.5 2c-.66.88-1.74.88-2.4 0l-1.5-2c-.16-.22-.53-.4-.8-.4H8z\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"r",
+      "rect": [
+        85.6796875,
+        467.796875,
+        84.578125,
+        36
+      ],
+      "disabled": false
+    },
+    {
+      "text": "Instagram",
+      "title": "",
+      "aria": "Instagram",
+      "action": "click->settings--template-editor#changeEditorChannel",
+      "html": "<button type=\"button\" class=\"compose-channel-preview__channel compose-channel-preview__channel--instagram\" aria-label=\"Instagram\" aria-pressed=\"false\" data-settings--template-editor-target=\"editorChannelOption\" data-channel=\"instagram\" data-action=\"click-&gt;settings--template-editor#changeEditorChannel\">\n          <span class=\"compose-channel-preview__channel-icon\" aria-hidden=\"true\">\n            <!-- BEGIN app/components/icon_component/icon_component.html.erb\n-->  <hellotext-icon size=\"xs\" class=\"\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"134\" height=\"134\" viewBox=\"0 0 134 134\" fill=\"none\" class=\"icon-xs icon-outline compose-channel-preview__channel-svg\">\n  <path d=\"M110.116 31.0217C110.116 26.599 106.531 23.028 102.125 23.028C97.7189 23.028 94.1313 26.599 94.1313 31.0217C94.1313 35.4281 97.7189 38.9991 102.125 38.9991C106.531 38.9991 110.116 35.4281 110.116 31.0217Z\" fill=\"",
+      "rect": [
+        174.2578125,
+        467.796875,
+        120.671875,
+        36
+      ],
+      "disabled": false
+    },
+    {
+      "text": "Messenger",
+      "title": "",
+      "aria": "Messenger",
+      "action": "click->settings--template-editor#changeEditorChannel",
+      "html": "<button type=\"button\" class=\"compose-channel-preview__channel compose-channel-preview__channel--messenger\" aria-label=\"Messenger\" aria-pressed=\"false\" data-settings--template-editor-target=\"editorChannelOption\" data-channel=\"messenger\" data-action=\"click-&gt;settings--template-editor#changeEditorChannel\">\n          <span class=\"compose-channel-preview__channel-icon\" aria-hidden=\"true\">\n            <!-- BEGIN app/components/icon_component/icon_component.html.erb\n-->  <hellotext-icon size=\"xs\" class=\"\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"56\" height=\"57\" viewBox=\"0 0 56 57\" fill=\"none\" class=\"icon-xs icon-outline compose-channel-preview__channel-svg\">\n<g clip-path=\"url(#clip0_3887_77633)\">\n<path d=\"M50.7375 28.9499C50.7375 42.2733 40.2989 52.1372 26.8331 52.1372C24.4149 52.1372 22.0943 51.8178 19.9133 51.2183C19.4897 51.1007 19.0393 51.1342 18.6368 51.3111L13.8922 53.406C12.",
+      "rect": [
+        298.9296875,
+        467.796875,
+        130.5859375,
+        36
+      ],
+      "disabled": false
+    },
+    {
+      "text": "Cancelar",
+      "title": "",
+      "aria": null,
+      "action": "modal#close",
+      "html": "<button type=\"button\" data-action=\"modal#close\" class=\"transparent__button\">\n\n    <span data-text=\"\" class=\"inline max-w-full truncate\">Cancelar</span>\n\n\n\n\n  \n\n</button>",
+      "rect": [
+        93.8046875,
+        1120,
+        94.9140625,
+        44
+      ],
+      "disabled": false
+    },
+    {
+      "text": "Guardar plantilla",
+      "title": "",
+      "aria": null,
+      "html": "<button type=\"submit\" data-settings--template-editor-target=\"messageSave\" class=\"primary__button\">\n\n    <span data-text=\"\" class=\"inline max-w-full truncate\">Guardar plantilla</span>\n\n\n\n\n  \n\n</button>",
+      "rect": [
+        196.71875,
+        1120,
+        153.28125,
+        44
+      ],
+      "disabled": false
+    }
+  ],
+  "inputs": [],
+  "trix": [
+    61,
+    242,
+    268,
+    108
+  ],
+  "preview": [
+    44,
+    435.796875,
+    302,
+    774
+  ],
+  "scrollables": [
+    {
+      "classes": "email-library__editor-workspace",
+      "rect": [
+        20,
+        163,
+        350,
+        886
+      ],
+      "scroll": [
+        0,
+        1047,
+        886
+      ]
+    }
+  ]
+}
