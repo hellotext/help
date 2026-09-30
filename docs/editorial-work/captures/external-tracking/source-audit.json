@@ -1,0 +1,222 @@
+{
+  "verified_at_utc": "2026-09-30T11:46:37.320228+00:00",
+  "reviewed_rails_revision": "e6ae33a310d46ba88d9bf5b70845618a0b4a6461",
+  "reviewed_local_sources": [
+    {
+      "path": "app/controllers/api/v1/attribution/events_controller.rb",
+      "sha256": "d52abb290cb39f2cb77876fd8c207a0047f9303e87cb33264d76ee377455d72d"
+    },
+    {
+      "path": "app/models/api/track/base.rb",
+      "sha256": "6e9998516544bbb1e2e86cb6962599b50e8229f43dc358e8c0e5e8cc9df05a2a"
+    },
+    {
+      "path": "app/models/api/track/product.rb",
+      "sha256": "b3eca485e3ca015aa817ea4c2ff5fb69fc9e4b95aaa10729e35b1780187abc3c"
+    },
+    {
+      "path": "app/models/api/track/order.rb",
+      "sha256": "a95adf35af24a8d012d22e97ad3f9317075c50574083a6d27e8883bbd9d4c7f7"
+    },
+    {
+      "path": "app/models/api/track/custom.rb",
+      "sha256": "f9c62ce381d7afc78600d4bdcbd3938a142a1ab158e8deb0e3096cc0f200f0fa"
+    },
+    {
+      "path": "app/models/api/track/event_tracker.rb",
+      "sha256": "d0e362717865b005efc82435324478e000bbc585dc4a8bcf3c553b6adcf3b9fd"
+    },
+    {
+      "path": "app/jobs/api/track_event_job.rb",
+      "sha256": "f51f840bb9beed2e655203e45c706835fdef3554ceed8f6a11b9949548f29b9f"
+    },
+    {
+      "path": "app/models/track/event/monetizable.rb",
+      "sha256": "ef7885082e5d9fa1f4c6518c853a22a3a88fdd9bbce538edab1f6675f8d99e0b"
+    },
+    {
+      "path": "app/models/attribution/session/attachable.rb",
+      "sha256": "5bfb7b8fca32d323e64f9c06194bd08c18d18da0155da5e2d6c648a619b38945"
+    },
+    {
+      "path": "app/controllers/concerns/checks_business_plan.rb",
+      "sha256": "e3a35cb3bbb36a78c91d21b7987e666abdbb2c5463e187c3c9aa700956aab308"
+    },
+    {
+      "path": "app/policies/api_policy.rb",
+      "sha256": "11303c68157d438a1ee39f5d238ad154d95d136c79c770bd793a69557565765a"
+    },
+    {
+      "path": "app/controllers/api/v1/api_controller/authenticate_token.rb",
+      "sha256": "87d2b9046f07d4f4ef70731db750064edb82dfa6513f6cc8e2993d69b7986558"
+    },
+    {
+      "path": "app/controllers/api/v1/status/received.rb",
+      "sha256": "fb2811faf32fb82661ccb2a6292194593abb717798ce90b386968a6b06cec3ef"
+    },
+    {
+      "path": "config/routes.rb",
+      "sha256": "794795628d4b6ce6dacef1a5a41b02eca457286bc9e306a70a352837cfd31264"
+    }
+  ],
+  "official_sources": [
+    "https://www.hellotext.com/api#tracking",
+    "https://www.hellotext.com/api#track_product_events",
+    "https://www.hellotext.com/api#track_order_events",
+    "https://www.hellotext.com/api#track_custom_events",
+    "https://www.hellotext.com/api#authentication",
+    "https://github.com/hellotext/hellotext.js",
+    "https://registry.npmjs.org/@hellotext/hellotext/2.6.0"
+  ],
+  "released_sdk": {
+    "version": "2.6.0",
+    "tarball_sha1_verified": "6bf08779ceb04490d7e51449ea1d83d00b5e7efb",
+    "async_initialize": true,
+    "automatic_page_view": false,
+    "src_sha256": {
+      "npm-hellotext.js": "76eafba301b960171dc358e7ccf6423618882c7d3f4dbcf2f63c1287d5fc24dc",
+      "npm-models-session.js": "044a8aa34abb70a4cdfb26c9f38c2bf23af0eacc4229fb08ab0d78897f5fd745"
+    }
+  },
+  "contract_corrections": [
+    "Private API token for same business and active subscription; public Business ID and token name are not credentials.",
+    "Backend profile mapping and actual initialized browser session; same-profile attached session for combined synchronous tracking request, dedicated attachment flow first. Official generic unattached-session statement is not copied over the reviewed controller/Base behavior.",
+    "Use one object/object_parameters choice; stable source/reference mapping to an ID obtained by a separate resource create/lookup request. Tracking returns received, not the inline object ID. Object mutation can precede acceptance and inline lookup does not guarantee catalog updates.",
+    "Original event time in explicit-zone ISO or Unix seconds; omitted default is processing time, not guaranteed request receipt time.",
+    "Major-unit amount with original currency; resource value can be inherited, not necessarily zero.",
+    "Received after initial validation before asynchronous event processing;403subscription,401token,404action,422validation.",
+    "Named action definition vs occurrence; existing fictional appointment.booked aligns catalog with example, no event saved.",
+    "Identified kept order/action protection is not general request idempotency and does not cover anonymous insertion path.",
+    "Ambiguous timeouts/server errors require outcome reconciliation before repeat; source ID belongs to integration queue and is not a Hellotext idempotency key."
+  ],
+  "syntax_only_examples": {
+    "es": [
+      {
+        "index": 0,
+        "language": "text",
+        "sha256": "08c0e95296671d53985fb450685181678967515c0512cbffcb9f724dd104597a",
+        "syntax": "passed; not executed"
+      },
+      {
+        "index": 1,
+        "language": "bash",
+        "sha256": "36d983122586516d0cdcf36aca9774a4a46c9cd89687090c8f0fba4e3b7d5261",
+        "syntax": "passed; not executed"
+      },
+      {
+        "index": 2,
+        "language": "javascript",
+        "sha256": "476db8ccee4f2364747488e85fd9c22e1b47e4dfd3b9a7cd79d3293fe40283d4",
+        "syntax": "passed; not executed"
+      },
+      {
+        "index": 3,
+        "language": "bash",
+        "sha256": "66f6834f872e93e055a5ffa11e82e78793e6379381b46e9765fb1999b4f13eda",
+        "syntax": "passed; not executed"
+      },
+      {
+        "index": 4,
+        "language": "bash",
+        "sha256": "9e21a79f3d269291869a9a425b1f94f67f0c6da0ba0a1abbe42da0cd620f7e90",
+        "syntax": "passed; not executed"
+      },
+      {
+        "index": 5,
+        "language": "bash",
+        "sha256": "da6c1135f8bf22437795bb174b5deb4a6d76b83ce7a7dd407c32589eeffded64",
+        "syntax": "passed; not executed"
+      },
+      {
+        "index": 6,
+        "language": "bash",
+        "sha256": "d253ef9fec5b12ca297ef69d046c323351992be08509eaa02267169b45d85a58",
+        "syntax": "passed; not executed"
+      },
+      {
+        "index": 7,
+        "language": "json",
+        "sha256": "1d458656cc0d31d34ba8adf196c19067a4818ca400cc3d289e482c4982aa9754",
+        "syntax": "passed; not executed"
+      },
+      {
+        "index": 8,
+        "language": "json",
+        "sha256": "abd93d1c93c1ad53bbf8aba4364dc47b4c94a78901c66061155d1f29e0b2239f",
+        "syntax": "passed; not executed"
+      }
+    ],
+    "en": [
+      {
+        "index": 0,
+        "language": "text",
+        "sha256": "08c0e95296671d53985fb450685181678967515c0512cbffcb9f724dd104597a",
+        "syntax": "passed; not executed"
+      },
+      {
+        "index": 1,
+        "language": "bash",
+        "sha256": "36d983122586516d0cdcf36aca9774a4a46c9cd89687090c8f0fba4e3b7d5261",
+        "syntax": "passed; not executed"
+      },
+      {
+        "index": 2,
+        "language": "javascript",
+        "sha256": "e86c81d070fda074bd0fbf000ed72e654835de85601521263164daa26f054bf5",
+        "syntax": "passed; not executed"
+      },
+      {
+        "index": 3,
+        "language": "bash",
+        "sha256": "66f6834f872e93e055a5ffa11e82e78793e6379381b46e9765fb1999b4f13eda",
+        "syntax": "passed; not executed"
+      },
+      {
+        "index": 4,
+        "language": "bash",
+        "sha256": "51d84fd11c68ab66d655cb17195def9c6a8260214b32de9435a942944b5aa67c",
+        "syntax": "passed; not executed"
+      },
+      {
+        "index": 5,
+        "language": "bash",
+        "sha256": "da6c1135f8bf22437795bb174b5deb4a6d76b83ce7a7dd407c32589eeffded64",
+        "syntax": "passed; not executed"
+      },
+      {
+        "index": 6,
+        "language": "bash",
+        "sha256": "d253ef9fec5b12ca297ef69d046c323351992be08509eaa02267169b45d85a58",
+        "syntax": "passed; not executed"
+      },
+      {
+        "index": 7,
+        "language": "json",
+        "sha256": "1d458656cc0d31d34ba8adf196c19067a4818ca400cc3d289e482c4982aa9754",
+        "syntax": "passed; not executed"
+      },
+      {
+        "index": 8,
+        "language": "json",
+        "sha256": "abd93d1c93c1ad53bbf8aba4364dc47b4c94a78901c66061155d1f29e0b2239f",
+        "syntax": "passed; not executed"
+      }
+    ]
+  },
+  "safe_fixture_read_only_preflight": {
+    "database": "hellotext_editorial_workload_20260928",
+    "business_id": 5,
+    "business_public_id": "4ONLdN32",
+    "business_name": "Enterprise",
+    "account": "design-system@example.test",
+    "locale": "es",
+    "contacts": 127,
+    "messageable": 0,
+    "subscribed": 0,
+    "messages": 49,
+    "events": 318,
+    "enabled_playbooks": 0,
+    "tokens": 0
+  },
+  "side_effects": "No API examples executed; no token/object/event creation, fixture/locale mutation, delivery test/campaign/message/worker or recapture. Existing reviewed figures reused."
+}
