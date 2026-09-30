@@ -1,5 +1,5 @@
 {
-  "status": "local_verified_publication_pending",
+  "status": "publicly_verified",
   "base_revision": "9afebea4b3e16ff506d77304c9de2999c95c46fe",
   "originals": [
     {
@@ -93,7 +93,7 @@
       "reuse": true,
       "reuse_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
       "source_publication": "Approved Custom actions sources #267/#268 reused unchanged",
-      "consumer_publication": "pending"
+      "consumer_publication": "Publicly verified after #293; see root publication evidence. Original source publication and UI evidence remain unchanged."
     },
     {
       "name": "catalog-es-mobile",
@@ -140,7 +140,7 @@
       "reuse": true,
       "reuse_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
       "source_publication": "Approved Custom actions sources #267/#268 reused unchanged",
-      "consumer_publication": "pending"
+      "consumer_publication": "Publicly verified after #293; see root publication evidence. Original source publication and UI evidence remain unchanged."
     },
     {
       "name": "manual-es",
@@ -187,7 +187,7 @@
       "reuse": true,
       "reuse_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
       "source_publication": "Approved Custom actions sources #267/#268 reused unchanged",
-      "consumer_publication": "pending"
+      "consumer_publication": "Publicly verified after #293; see root publication evidence. Original source publication and UI evidence remain unchanged."
     },
     {
       "name": "manual-es-mobile",
@@ -234,7 +234,7 @@
       "reuse": true,
       "reuse_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
       "source_publication": "Approved Custom actions sources #267/#268 reused unchanged",
-      "consumer_publication": "pending"
+      "consumer_publication": "Publicly verified after #293; see root publication evidence. Original source publication and UI evidence remain unchanged."
     },
     {
       "name": "catalog-en",
@@ -282,7 +282,7 @@
       "reuse": true,
       "reuse_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
       "source_publication": "Approved Custom actions sources #267/#268 reused unchanged",
-      "consumer_publication": "pending"
+      "consumer_publication": "Publicly verified after #293; see root publication evidence. Original source publication and UI evidence remain unchanged."
     },
     {
       "name": "catalog-en-mobile",
@@ -329,7 +329,7 @@
       "reuse": true,
       "reuse_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
       "source_publication": "Approved Custom actions sources #267/#268 reused unchanged",
-      "consumer_publication": "pending"
+      "consumer_publication": "Publicly verified after #293; see root publication evidence. Original source publication and UI evidence remain unchanged."
     },
     {
       "name": "manual-en",
@@ -376,7 +376,7 @@
       "reuse": true,
       "reuse_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
       "source_publication": "Approved Custom actions sources #267/#268 reused unchanged",
-      "consumer_publication": "pending"
+      "consumer_publication": "Publicly verified after #293; see root publication evidence. Original source publication and UI evidence remain unchanged."
     },
     {
       "name": "manual-en-mobile",
@@ -423,7 +423,7 @@
       "reuse": true,
       "reuse_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
       "source_publication": "Approved Custom actions sources #267/#268 reused unchanged",
-      "consumer_publication": "pending"
+      "consumer_publication": "Publicly verified after #293; see root publication evidence. Original source publication and UI evidence remain unchanged."
     }
   ],
   "new_captures": 0,
@@ -431,9 +431,7 @@
   "application_access": false,
   "database_access": false,
   "executed_examples": false,
-  "pending": [
-    "Protected PR checks/review, merge, exact main Build/production and public page/PNG verification"
-  ],
+  "pending": [],
   "source_reuse_decision": "Same real Custom actions catalog and unsaved manual New event state, same locale and breakpoint; original source/UI evidence preserved. Later Rails #6054 changes only token name layout; these controls remain current.",
   "local_verification": {
     "evidence": "local-verification.json",
@@ -448,7 +446,7 @@
     "build": "Ruby 3.3.6 yarn build with security headers passed",
     "new_capture_count": 0,
     "new_png_uploads": 0,
-    "publication_state": "pending",
+    "publication_state": "Public verification completed after the content merge; see root publication evidence.",
     "verified_commit": "636f7d5e9c178b47af82a0ef6f9d9ed710443c1e",
     "total_affected_pages": 6,
     "total_full_page_browser_states": 18
@@ -458,6 +456,18 @@
     "reviewed_head": "627c84dc14fdf0a9b3f4824ea94fefdfc06354b5",
     "finding": "Developers overview ES/EN retained an obsolete automatic-page-view warning.",
     "scope": "Exactly one paragraph per locale, all other bytes unchanged.",
-    "status": "Corrected before merge; rebuilt and both complete overview pages visually reviewed at 1440/390/580px. Fresh independent exact-head review pending."
+    "status": "Corrected before merge; rebuilt, complete six-page ES/EN browser verification and fresh exact-head independent review passed; all threads resolved before merge."
+  },
+  "publication": {
+    "state": "publicly_verified",
+    "evidence": "public-verification.json",
+    "content_pr": "https://github.com/hellotext/help/pull/293",
+    "main_merge_sha": "215c33e36a9d6786e3b53f07290045c88c58973d",
+    "deploy_id": "6abd85fc7006b40008fe67e1",
+    "public_pages_http": 200,
+    "public_asset_count": 16,
+    "approved_reused_hashes_match": true,
+    "new_captures": 0,
+    "new_png_uploads": 0
   }
 }
