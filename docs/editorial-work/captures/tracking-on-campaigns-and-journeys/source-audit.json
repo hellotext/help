@@ -1,0 +1,115 @@
+{
+  "rails_revision": "5403a7dcb567b63cae87d4c088112d65fad4eb7f",
+  "method": "Read-only current Rails and actually published npm tarball inspection; no app/DB/UI or SDK/API execution.",
+  "files": [
+    {
+      "path": "app/models/hello_link.rb",
+      "sha256": "964355f6cbfcb16a738e50dbb75e1e6cd7d92872c9ff59d4af0a99a7f97c5b9f"
+    },
+    {
+      "path": "app/models/link.rb",
+      "sha256": "004742f2a09bbdf7e4e4f112b52912e3cd9edb0f5d6151912ad05ba75bbf3952"
+    },
+    {
+      "path": "app/models/link/click.rb",
+      "sha256": "d41daca7c85a2458cab9d633caedc61cda99877b6f7a05a00388b45439262441"
+    },
+    {
+      "path": "app/models/short_link.rb",
+      "sha256": "c77678e8b1d9678725c602b90bbbde2bb95b7532d5cfd484cb49c643e2e0f0e8"
+    },
+    {
+      "path": "app/models/short_link/clickable.rb",
+      "sha256": "a8351993bf62a554a12fd5ff0487dc6ba9d42a3c0109bd811915458617f070ff"
+    },
+    {
+      "path": "app/models/liquid/shorten_link.rb",
+      "sha256": "0bf4f78ecda7028f613d09fdda70994ab669908e370c39b9aaa622fc7effcaad"
+    },
+    {
+      "path": "app/controllers/application_controller/link_click_handler.rb",
+      "sha256": "1a8b1878d228a8e5ef649f9ceb8e9fe9a7af7d38d7b52401e505858c6621d053"
+    },
+    {
+      "path": "app/models/log/request.rb",
+      "sha256": "c3a2940f16312cedf6a058fd8b61b793cbd25b727457269c622adf13cdd6c6ee"
+    },
+    {
+      "path": "app/models/attribution/session.rb",
+      "sha256": "ecad57b43e27e1db2caa5cff5e935bf199344bccf59547bfd92d0d8b6a8f8d19"
+    },
+    {
+      "path": "app/models/attribution/session/ackable.rb",
+      "sha256": "7a621853e30b6484beafa58bc258274e64523f6a1e85a44a1f2089d791d75b29"
+    },
+    {
+      "path": "app/models/attribution/session/attachable.rb",
+      "sha256": "5bfb7b8fca32d323e64f9c06194bd08c18d18da0155da5e2d6c648a619b38945"
+    },
+    {
+      "path": "app/models/attribution/window.rb",
+      "sha256": "0187c70763c82a69174af106d6a4e207e578aa1c946f53e5694dff50d669226a"
+    },
+    {
+      "path": "app/models/attribution/engine/preflight.rb",
+      "sha256": "4448dc65f63cae06f64ab7f82da047c7e36ace9a9deed65f1e831ed9d6d91153"
+    },
+    {
+      "path": "app/models/attribution/engine/preflight/campaign_resolver.rb",
+      "sha256": "0f608f8f6a5056c68dfb0ae367c414173dc61e7519f617928f1932d2e7def0cb"
+    },
+    {
+      "path": "app/models/attribution/engine/preflight/journey_resolver.rb",
+      "sha256": "05e8de9199ab025e5536815d29bb18bcf487ec7d4ba58b76d99d11094bc3f85d"
+    },
+    {
+      "path": "app/models/attribution/engine/preflight/playbook_resolver.rb",
+      "sha256": "f0f2fe4b63ce3b8705ee8e9f0c58410a16b2da25cfbaeebd7645befb24bffd4f"
+    },
+    {
+      "path": "app/models/message/daily_rollup.rb",
+      "sha256": "bac75fe98deb1e0ee4c03c394b6c8d3e3f62ab862b9bb13bb568b7464199b598"
+    },
+    {
+      "path": "app/javascript/controllers/editor/link/form_controller.js",
+      "sha256": "b9119d68307d72cd15903cbcf1170e7e501b071a3421bd6d3526a584fe7102ba"
+    },
+    {
+      "path": "app/components/compose/toolbar/link_component/link_component.html.erb",
+      "sha256": "6b52b52ca751c35566d03f4c0854166d276bdccf14b0cdbfdd7255a94c7cde68"
+    },
+    {
+      "path": "app/components/compose/link_form_component.html.erb",
+      "sha256": "f51c1ab04f59117fec5ddcfe680b21fe3580d7b5499caff09f5e4f0d20958d17"
+    }
+  ],
+  "published_sdk": {
+    "version": "2.6.0",
+    "tarball": "https://registry.npmjs.org/@hellotext/hellotext/-/hellotext-2.6.0.tgz",
+    "sha1": "6bf08779ceb04490d7e51449ea1d83d00b5e7efb",
+    "gitHead": "d9fc6311eaab233aa594d324ff0b3fa1e840fae2",
+    "files_sha256": {
+      "src/hellotext.js": "76eafba301b960171dc358e7ccf6423618882c7d3f4dbcf2f63c1287d5fc24dc",
+      "src/models/session.js": "044a8aa34abb70a4cdfb26c9f38c2bf23af0eacc4229fb08ab0d78897f5fd745",
+      "src/models/query.js": "9b67990bcc085ed63630e5cac45f85b52745dcf8c9404fdbd9fe2d744e74dd35",
+      "src/models/page.js": "f791f8094ca4572571e5e4a1c507cd4d3199cc118ef0b98ebaa876b250c46d42",
+      "src/models/cookies.js": "83a62ac87b895203b4b66bad4109852f3799af116ab72bfaced0bac55353c745",
+      "src/models/utm.js": "7225faeca145f7aa94e515f97416c1b3e2d6e582589a5eeacb424ade83d0e8ce",
+      "src/api/response.js": "fb91e76f6a0e8538931a70cd59d608906a9ba9c5a2aaaef04dd5637bde201aa0"
+    }
+  },
+  "references": [
+    "https://github.com/hellotext/hellotext.js",
+    "https://www.hellotext.com/api#tracking",
+    "https://registry.npmjs.org/@hellotext%2Fhellotext/latest"
+  ],
+  "reused_editor_ui_unchanged_since_e6ae33a310": true,
+  "observations": [
+    "Authored reusable Link redirects as preview; message materialization creates personalized ShortLink/session before click. Real link click redirects before asynchronous click recording; bot detection also occurs in worker.",
+    "Generated UTM merge replaces existing generated UTM keys; campaign/journey utm_token and playbook.code are not universally public API IDs. Fragment retained; avoid duplicate hello_session destinations.",
+    "Published async initialize does not automatically track page.viewed. Query session > config > cookie, optional generation; cookie/ack attempts do not prove processed server state. Track returns SDK Response failed/succeeded/json.",
+    "Site calls explicitly once/view with SPA current URL; product/cart calls and trusted backend records must avoid duplicates and preserve correctly associated business/profile/session and original time.",
+    "Total link clicks include repeats; unique message-click counts are not distinct people. Delivered same-business/customer source and original click/purchase chronology/windows determine attribution, not URL/UTM alone.",
+    "Approved unsaved Message/SMS editor is useful for locating the shared toolbar control. Literal URL is not a created shortlink; no fake result or new capture needed."
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "sections": [
+    {
+      "i": 0,
+      "text": "What Hellotext does when the customer clicksLink copied",
+      "top": 684
+    },
+    {
+      "i": 1,
+      "text": "Parameters received by the destination siteLink copied",
+      "top": 2008
+    },
+    {
+      "i": 2,
+      "text": "How the session continues on the siteLink copied",
+      "top": 2816
+    },
+    {
+      "i": 3,
+      "text": "Context by message sourceLink copied",
+      "top": 4020
+    },
+    {
+      "i": 4,
+      "text": "How later events are connectedLink copied",
+      "top": 4560
+    },
+    {
+      "i": 5,
+      "text": "Clicks, reporting, and attributionLink copied",
+      "top": 5296
+    },
+    {
+      "i": 6,
+      "text": "Verify the implementationLink copied",
+      "top": 6104
+    },
+    {
+      "i": 7,
+      "text": "Troubleshoot common problemsLink copied",
+      "top": 6756
+    },
+    {
+      "i": 8,
+      "text": "Related guidesLink copied",
+      "top": 7276
+    }
+  ],
+  "codes": [
+    {
+      "i": 0,
+      "top": 2136,
+      "text": "https://shop.example.com/products/everyday-sneakers?hello_session=SESSION_ID&utm_source=hellotext&utm_medium=sms&utm_campaign=example_campaign\n",
+      "width": 548,
+      "scrollWidth": 1223
+    },
+    {
+      "i": 1,
+      "top": 3128,
+      "text": "(async () => {\n  const redirectedSession = new URL(window.location.href)\n    .searchParams.get(\"hello_session\");\n\n  await Hellotext.initialize(\"HELLOTEXT_BUSINESS_ID\");\n  console.log({ redirectedSession, session: Hellotext.session });\n\n  const response = await Hellotext.track(\"page.viewed\");\n  if (response.failed) {\n    console.error(await response.json());\n  }\n})().catch((error) => {\n  console.error(error);\n});\n",
+      "width": 548,
+      "scrollWidth": 582
+    }
+  ]
+}
