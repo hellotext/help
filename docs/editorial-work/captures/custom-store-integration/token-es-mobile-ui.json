@@ -1,0 +1,72 @@
+{
+  "url": "http://127.0.0.1:3192/hellotext/settings/authorizations/new",
+  "title": "Crear nuevo token - Hellotext",
+  "locale": "es",
+  "viewport": [
+    390,
+    800
+  ],
+  "dpr": 2,
+  "zoom": 1,
+  "form": [
+    0,
+    8,
+    390,
+    400
+  ],
+  "hero": null,
+  "card": null,
+  "headings": [
+    {
+      "text": "Crear un token nuevo",
+      "rect": [
+        16,
+        56,
+        311.8203125,
+        34
+      ]
+    }
+  ],
+  "text": "Crear un token nuevo\nNombre del token\nCancelar\nContinuar",
+  "controls": [
+    {
+      "text": "Nombre del token",
+      "rect": [
+        16,
+        162,
+        358,
+        24
+      ]
+    },
+    {
+      "name": "authorization_token[name]",
+      "text": "",
+      "rect": [
+        16,
+        218,
+        358,
+        42
+      ]
+    },
+    {
+      "name": "",
+      "text": "Cancelar",
+      "rect": [
+        16,
+        740,
+        94.9140625,
+        44
+      ]
+    },
+    {
+      "name": "",
+      "text": "Continuar",
+      "rect": [
+        247.7265625,
+        740,
+        126.2734375,
+        44
+      ]
+    }
+  ]
+}
