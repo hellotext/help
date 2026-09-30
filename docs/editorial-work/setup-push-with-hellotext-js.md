@@ -21,7 +21,7 @@ One useful figure per language is sufficient for this developer code guide: ever
 
 Compared the actually published npm 2.6.0 tarball and exact CDN bytes (integrity matched), current SDK source, current primary Push reference and Rails 5403a7dcb (#6054). Review distinguishes collection on configured channels from Pro/Enterprise sending; the quota-gated custom channel creation UI is not promised on every plan. Public Business ID/VAPID setup, same HTTPS origin/MIME/scope, existing worker integration and different-key rejection, async initialize versus worker readiness, click activation, acknowledgement/background retry, cancellation semantics, per-browser permission and page disabling are covered. The current worker action destination is now preserved. Examples remain syntax-only; no browser permissions or API calls occur.
 
-Local review is complete; publication remains pending until protected checks and public verification are recorded below.
+Local review is complete. Protected content checks and post-merge public verification are complete and recorded below.
 
 ## Completed local review
 
@@ -29,4 +29,24 @@ All eight top-level sections and two worker subsections, every original link and
 
 The sole interface task, locating the public Business ID, uses a useful current figure in each language. Other sections explain reader-authored code, browser permission and result semantics; a fake storefront or notification state would be misleading. No useful interface capture is left as unresolved visual debt. Original approved provenance and UI evidence remain in their source directory, with no duplicate PNG upload. No app, DB, fixture, locale, token, message, event, permission, browser subscription, delivery test, or worker action was performed. Existing campaign commits and local dependencies are preserved.
 
-The pending integrations/setup-push-notifications.md guide still uses older plan wording; review its full article against current collection-versus-sending contracts in its own batch rather than copying that wording here. Content verifier: `fabd2f840c5df5aad690318436899be2c5aeb688`. Ledger: 63 local_verified, 90 pending and one out_of_scope; all 63 verifiers are ancestors of this branch. Protected publication is recorded separately after the content merge.
+The pending integrations/setup-push-notifications.md guide still uses older plan wording; review its full article against current collection-versus-sending contracts in its own batch rather than copying that wording here. Content verifier: `fabd2f840c5df5aad690318436899be2c5aeb688`. Ledger: 63 local_verified, 90 pending and one out_of_scope; all 63 verifiers are ancestors of this branch. Protected publication after the content merge is recorded below; the separate public record receives repeated verification after its merge.
+
+## Public verification — 2026-09-30
+
+Help [#289](https://github.com/hellotext/help/pull/289) merged by `7718f318608f6761cb0b967ea738176be66a8cc4` with every individual commit preserved. Build/Aikido/Netlify preview/header checks passed on exact head `7f14efe24dbd1473b89c783b7e5ccc76052e3bec`. The ancestry P2 compared a synthetic sibling rather than the actual PR head: GitHub's parent graph and merge-base show verifier fabd2f840c5df5aad690318436899be2c5aeb688 as the head's direct parent. Evidence was posted, the thread resolved, and the exact head reviewed again. Independent review and all actual comments/reviews/threads were read before the separate merge call, with zero unresolved findings. PR attachment was attempted; the existing 100-identity limit prevented it.
+
+Exact main [Build 36771534146](https://github.com/hellotext/help/actions/runs/36771534146) passed. Normal production Netlify `6abd6e4303038c000869a138` is ready/published at `2026-09-30T20:18:04.125Z`, with matching commit_ref `7718f318608f6761cb0b967ea738176be66a8cc4`. Both localized pages and all four approved reused PNGs returned HTTP 200; source/asset/public SHA256 values match. One useful Business ID figure per locale retains native P3/2× density, logical size cap plus 18px inset/border, and the full-column lavender stage. No new capture, duplicate PNG upload or manual deployment.
+
+Public pages:
+
+- [https://help.hellotext.com/es/configurar-push-con-hellotext-js](https://help.hellotext.com/es/configurar-push-con-hellotext-js) — HTTP 200, one figure.
+- [https://help.hellotext.com/setup-push-with-hellotext-js](https://help.hellotext.com/setup-push-with-hellotext-js) — HTTP 200, one figure.
+
+Current approved images reused without duplicate uploads, including mobile:
+
+- [https://help.hellotext.com/images/developers/custom-store-integration/business-es.png](https://help.hellotext.com/images/developers/custom-store-integration/business-es.png) — HTTP 200; SHA256 `17ec399500cee235d73459ced0de47fac99054987976a56f4e09603150ef5dfb`.
+- [https://help.hellotext.com/images/developers/custom-store-integration/business-es-mobile.png](https://help.hellotext.com/images/developers/custom-store-integration/business-es-mobile.png) — HTTP 200; SHA256 `0c7ac4c233075fa5d072e27ac33e7947092bf6406858524ab12fa546be553ed8`.
+- [https://help.hellotext.com/images/developers/custom-store-integration/business-en.png](https://help.hellotext.com/images/developers/custom-store-integration/business-en.png) — HTTP 200; SHA256 `1f7f132b2245056eda5166b1b1cfdbeee406ebcf7bad4a13a6eb3fd501184d7f`.
+- [https://help.hellotext.com/images/developers/custom-store-integration/business-en-mobile.png](https://help.hellotext.com/images/developers/custom-store-integration/business-en-mobile.png) — HTTP 200; SHA256 `c7badab42d6878393ab746c2950605b8153dc38d60ac1ae09c747a949706bfeb`.
+
+Source publication and UI evidence remain in the Custom store integration source directory. No app/DB/fixture/locale/token/event/message/browser permission/subscription/test/send/worker action occurred. Final ledger: 63 local_verified, 90 pending and one out_of_scope; all 63 verifiers must remain ancestors of final main. The separate public record PR receives exact post-merge main Build, normal production SHA association and repeated public page/PNG proof in its GitHub comment, avoiding a recursive record commit.
