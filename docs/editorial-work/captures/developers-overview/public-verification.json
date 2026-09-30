@@ -1,0 +1,183 @@
+{
+  "verified_at_utc": "2026-09-30T10:17:18.808853+00:00",
+  "verified_git_main_sha": "33614af45fb68d504031cb0f720c68b9b39cb7be",
+  "production_deploy_id_sha_association": {
+    "id": "6abce15733301400087e7169",
+    "site_id": "d66a79c1-b5de-44d1-bc47-bc7809f7f3b3",
+    "state": "ready",
+    "context": "production",
+    "branch": "main",
+    "commit_ref": "33614af45fb68d504031cb0f720c68b9b39cb7be",
+    "created_at": "2026-09-30T10:15:51.961Z",
+    "published_at": "2026-09-30T10:16:34.629Z",
+    "deploy_ssl_url": "https://main--legendary-lollipop-e2d131.netlify.app"
+  },
+  "deployment_method": "Normal Netlify production deployment after Git merge; no manual deployment. Public site-alias listing is accessible.",
+  "pages": [
+    {
+      "url": "https://help.hellotext.com/es/resumen-desarrolladores-api",
+      "status": 200,
+      "figures": 2,
+      "reused_assets_present": [
+        "/images/developers/custom-store-integration/token-es.png",
+        "/images/developers/custom-store-integration/token-es-mobile.png",
+        "/images/developers/custom-actions/catalog-es.png",
+        "/images/developers/custom-actions/catalog-es-mobile.png"
+      ],
+      "verified_updated_flow_text": true
+    },
+    {
+      "url": "https://help.hellotext.com/developers-api-overview",
+      "status": 200,
+      "figures": 2,
+      "reused_assets_present": [
+        "/images/developers/custom-store-integration/token-en.png",
+        "/images/developers/custom-store-integration/token-en-mobile.png",
+        "/images/developers/custom-actions/catalog-en.png",
+        "/images/developers/custom-actions/catalog-en-mobile.png"
+      ],
+      "verified_updated_flow_text": true
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-store-integration/token-es.png",
+      "status": 200,
+      "sha256": "1aee0b74d12bed3eb995c7211316047bd59158a92f2c491dfc4a01287c5fb953",
+      "matches_original_approved_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-store-integration/token-es-mobile.png",
+      "status": 200,
+      "sha256": "ab734e406f700b90cd37365b7a1d084cedb9e8adda7bca8757182d471e6d355a",
+      "matches_original_approved_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-store-integration/token-en.png",
+      "status": 200,
+      "sha256": "ca4b35ca243e0e6db3c52219e00162ef2c708efd61d7265dc25f599907c97bd6",
+      "matches_original_approved_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-store-integration/token-en-mobile.png",
+      "status": 200,
+      "sha256": "716908e63c1f6e914b3dc8d7456e224c02fe69b24797477dded04096b9ec7652",
+      "matches_original_approved_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-actions/catalog-es.png",
+      "status": 200,
+      "sha256": "a12712f6c78adc83c29a0c497ccb3a061449789f26a7d5cbaf6fdab127612389",
+      "matches_original_approved_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-actions/catalog-es-mobile.png",
+      "status": 200,
+      "sha256": "fab59f9490d84ad14feb17be6a5701ba29c39161fdc7bd5fbd391a2a16651d76",
+      "matches_original_approved_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-actions/catalog-en.png",
+      "status": 200,
+      "sha256": "6fdbbbe59759abe2be46c35406174c9dae62c52dcdb56d65f5875e003e278bef",
+      "matches_original_approved_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-actions/catalog-en-mobile.png",
+      "status": 200,
+      "sha256": "9f1460df43463d2eef8bbd04d6c550782d05bd4129eb7f9bf0faa5f553588561",
+      "matches_original_approved_source": true,
+      "reused": true
+    }
+  ],
+  "new_captures": 0,
+  "new_png_uploads": 0,
+  "content_pull_request": {
+    "number": 272,
+    "url": "https://github.com/hellotext/help/pull/272",
+    "head_sha": "1c0443c4b32de1dc6b5971c1c49ecf5dd948d11e",
+    "merge_sha": "33614af45fb68d504031cb0f720c68b9b39cb7be",
+    "preserved_commits": [
+      "a04fa378b70dac940493d2182ff78b0779a0b2d7",
+      "1c0443c4b32de1dc6b5971c1c49ecf5dd948d11e"
+    ],
+    "merge_method": "merge commit; no squash or protection bypass",
+    "independent_review_summary": "https://github.com/hellotext/help/pull/272#issuecomment-5909039318",
+    "all_review_threads_read_and_resolved_before_merge": true,
+    "checks": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-09-30T10:08:14Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/hellotext/help/actions/runs/36700476082/job/109838470039",
+        "name": "build",
+        "startedAt": "2026-09-30T10:07:36Z",
+        "status": "COMPLETED",
+        "workflowName": "Build"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-09-30T10:08:14Z",
+        "conclusion": "NEUTRAL",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abcdf62807f8900083dcc48",
+        "name": "Pages changed - legendary-lollipop-e2d131",
+        "startedAt": "2026-09-30T10:07:34Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-09-30T10:08:14Z",
+        "conclusion": "NEUTRAL",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abcdf62807f8900083dcc48",
+        "name": "Redirect rules - legendary-lollipop-e2d131",
+        "startedAt": "2026-09-30T10:07:34Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-09-30T10:07:55Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://app.aikido.dev/featurebranch/scan/208204078?groupId=34029",
+        "name": "Aikido Security: check code",
+        "startedAt": "2026-09-30T10:07:31Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-09-30T10:08:14Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abcdf62807f8900083dcc48",
+        "name": "Header rules - legendary-lollipop-e2d131",
+        "startedAt": "2026-09-30T10:07:34Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "StatusContext",
+        "context": "netlify/legendary-lollipop-e2d131/deploy-preview",
+        "startedAt": "2026-09-30T10:08:16Z",
+        "state": "SUCCESS",
+        "targetUrl": "https://deploy-preview-272--legendary-lollipop-e2d131.netlify.app"
+      }
+    ],
+    "attachment_result": "Attempted; existing 100-identity attachment limit. Publication unaffected."
+  },
+  "main_build": {
+    "conclusion": "success",
+    "databaseId": 36701342437,
+    "event": "push",
+    "headSha": "33614af45fb68d504031cb0f720c68b9b39cb7be",
+    "status": "completed",
+    "url": "https://github.com/hellotext/help/actions/runs/36701342437"
+  }
+}
