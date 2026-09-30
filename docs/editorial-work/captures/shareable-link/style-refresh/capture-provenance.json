@@ -1,5 +1,5 @@
 {
-  "status": "local_verified",
+  "status": "public_verified",
   "captured_at": "2026-09-30",
   "rails_revision": "e6ae33a310d46ba88d9bf5b70845618a0b4a6461",
   "request": "Refresh the number and opt-in message controls after application style changes, in ES/EN.",
@@ -112,7 +112,7 @@
         "route": "isolated Chrome compositor via CDP"
       },
       "published_asset": "images/captures/shareable-link/style-refresh/message-es.png",
-      "publication_status": "local_verified; public publication pending",
+      "publication_status": "public_verified; public URL and byte hash in public-verification.json",
       "native_logical_size": [
         674,
         298
@@ -224,7 +224,7 @@
         "route": "isolated Chrome compositor via CDP"
       },
       "published_asset": "images/captures/shareable-link/style-refresh/message-es-mobile.png",
-      "publication_status": "local_verified; public publication pending",
+      "publication_status": "public_verified; public URL and byte hash in public-verification.json",
       "native_logical_size": [
         350,
         346
@@ -336,7 +336,7 @@
         "route": "isolated Chrome compositor via CDP"
       },
       "published_asset": "images/captures/shareable-link/style-refresh/message-en.png",
-      "publication_status": "local_verified; public publication pending",
+      "publication_status": "public_verified; public URL and byte hash in public-verification.json",
       "native_logical_size": [
         674,
         298
@@ -448,7 +448,7 @@
         "route": "isolated Chrome compositor via CDP"
       },
       "published_asset": "images/captures/shareable-link/style-refresh/message-en-mobile.png",
-      "publication_status": "local_verified; public publication pending",
+      "publication_status": "public_verified; public URL and byte hash in public-verification.json",
       "native_logical_size": [
         350,
         346
@@ -547,7 +547,10 @@
   ],
   "presentation": "Five static figures per locale. Full-width lavender stages; fitted white frames include 18px border/padding overhead. Both responsive sources declare their genuine 2× density, with image width auto; each remains below its recorded logical crop size.",
   "public_verification": {
-    "state": "pending"
+    "state": "public_verified",
+    "pull_request": 259,
+    "merge_sha": "6ac8635ce5eac240ba2e98cd5a0c76027ff4b28d",
+    "evidence": "public-verification.json"
   },
   "local_verification": {
     "state": "local_verified",
@@ -555,6 +558,6 @@
     "hashes": "All four source/asset/root-build/ES-build PNG hashes match; fourteen preserved PNG bytes unchanged.",
     "whole_article_browser_review": "ES/EN at 1440,390,580 CSS pixels: five figures, correct responsive sources, native size caps, no horizontal overflow. Full article and saved screenshot pixels reviewed.",
     "page_evidence": "page-review.json",
-    "publication": "Pending protected GitHub merge and normal production deployment."
+    "publication": "Protected merge and normal production deployment publicly verified; see public-verification.json."
   }
 }
