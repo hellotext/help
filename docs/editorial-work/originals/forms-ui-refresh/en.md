@@ -46,10 +46,10 @@ Use a distinct name for each placement when you need to compare results, such as
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Website Form in the playbook catalog">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 834px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 816px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/capture-overview/desktop-form-en.png 2x" width="800" height="480" />
-        <img class="ht-editorial-visual__image" src="/images/captures/forms/en/catalog-desktop-row.png" srcset="/images/captures/forms/en/catalog-desktop-row.png 2x" style="width: auto; margin: 0 auto;" width="1632" height="480" loading="lazy" decoding="async" alt="Website Form in the desktop catalog next to Website Popup; narrow screens show only the Website Form card." />
+        <source media="(max-width: 600px)" srcset="/images/captures/capture-overview/desktop-form-en.png" width="800" height="480" />
+        <img class="ht-editorial-visual__image" src="/images/captures/forms/en/catalog-desktop-row.png" width="1632" height="480" loading="lazy" decoding="async" alt="Website Form in the desktop catalog next to Website Popup; narrow screens show only the Website Form card." />
       </picture>
     </div>
   </div>
@@ -64,8 +64,8 @@ The form editor lets you configure four parts.
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Preview of a fictional form with heading, phone field, button and SMS notice">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 490px; width: fit-content; margin: 0 auto;">
-      <img class="ht-editorial-visual__image" src="/images/captures/forms/ui-refresh/en/preview.png" srcset="/images/captures/forms/ui-refresh/en/preview.png 2x" width="944" height="692" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Fictional form with a Get updates heading, Phone number field, Subscribe button and SMS consent notice." />
+    <div class="ht-editorial-visual__image-frame" style="max-width: 490px; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/captures/forms/en/preview.png" width="1960" height="1460" loading="lazy" decoding="async" alt="Fictional form with a Get updates heading, Phone number field, Subscribe button and SMS consent notice." />
     </div>
   </div>
   <figcaption class="ht-editorial-visual__caption">The preview shows the form's four parts together. Its SMS notice matches the phone field.</figcaption>
@@ -77,10 +77,10 @@ The heading contains the title and supporting content shown before the fields. U
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Phone field settings in the form editor">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 894px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/forms/ui-refresh/en/fields-mobile.png 2x" width="712" height="632" />
-        <img class="ht-editorial-visual__image" src="/images/captures/forms/ui-refresh/en/fields.png" srcset="/images/captures/forms/ui-refresh/en/fields.png 2x" width="1752" height="940" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Fictional Phone field settings with type, label, placeholder and Required control." />
+        <source media="(max-width: 600px)" srcset="/images/captures/forms/en/fields-mobile.png" width="1536" height="1344" />
+        <img class="ht-editorial-visual__image" src="/images/captures/forms/en/fields.png" width="3320" height="2480" loading="lazy" decoding="async" alt="Fictional Phone field settings with type, label, placeholder and Required control." />
       </picture>
     </div>
   </div>
@@ -111,8 +111,8 @@ Assign a journey when the new subscriber should enter a welcome or follow-up flo
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Optional coupon and journey selectors">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 421px; width: fit-content; margin: 0 auto;">
-      <img class="ht-editorial-visual__image" src="/images/captures/forms/ui-refresh/en/optional.png" srcset="/images/captures/forms/ui-refresh/en/optional.png 2x" width="806" height="400" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Optional step of a fictional form with coupon and journey selectors left unassigned." />
+    <div class="ht-editorial-visual__image-frame" style="max-width: 430px; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/captures/forms/en/optional.png" width="1720" height="1240" loading="lazy" decoding="async" alt="Optional step of a fictional form with coupon and journey selectors left unassigned." />
     </div>
   </div>
   <figcaption class="ht-editorial-visual__caption">Both assignments are optional; this fictional draft does not activate a coupon or journey.</figcaption>
@@ -139,10 +139,10 @@ The generated code contains the identifier Hellotext uses to load the form defin
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Generated HTML for embedding the form">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 564px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 525px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/forms/ui-refresh/en/embed-mobile.png 2x" width="896" height="432" />
-        <img class="ht-editorial-visual__image" src="/images/captures/forms/ui-refresh/en/embed.png" srcset="/images/captures/forms/ui-refresh/en/embed.png 2x" width="1092" height="1084" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Embed card showing the generated HTML for a fictional form." />
+        <source media="(max-width: 600px)" srcset="/images/captures/forms/shared/embed-mobile.png" width="1664" height="820" />
+        <img class="ht-editorial-visual__image" src="/images/captures/forms/en/embed.png" width="2100" height="2100" loading="lazy" decoding="async" alt="Embed card showing the generated HTML for a fictional form." />
       </picture>
     </div>
   </div>

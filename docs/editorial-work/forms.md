@@ -71,3 +71,48 @@ Content commit: `8070127cb336e7d1428aa011161ff273573a4ca2`. The progress ledger 
 ### Public verification of the desktop catalog row
 
 Help PR [#239](https://github.com/hellotext/help/pull/239) merged by merge commit `3c0458f6762cc00f12aa713812439f289f61e5db`, preserving the content and local verifier commits as ancestors. Build, Aikido, Netlify preview and header checks passed on the PR head. Codex review completed without findings. [Main Build run 36620228896](https://github.com/hellotext/help/actions/runs/36620228896) passed for the exact merge SHA. The public [ES guide](https://help.hellotext.com/es/formularios) and [EN guide](https://help.hellotext.com/forms) returned 200, each with five figures and both responsive first-figure sources. The two new [ES](https://help.hellotext.com/images/captures/forms/es/catalog-desktop-row.png) and [EN](https://help.hellotext.com/images/captures/forms/en/catalog-desktop-row.png) desktop PNGs returned 200 and matched their approved source SHA-256 hashes byte for byte. The existing focused mobile sources also returned 200 with approved hashes; they were reused without uploading duplicates. The production Netlify deploy listing remains credential-protected, so no deploy-ID-to-SHA association is claimed. No manual deploy was run.
+
+
+## Forms UI refresh — 2026-09-30
+
+Requested by the user after Rails PR #6043 improved the UI. Reopen only the four reported figure concepts: form preview, field settings, optional coupon/journey assignment, and generated embed HTML. Preserve the approved desktop catalog figure and all article routes, links and publication metadata. Spanish first, then English.
+
+| Section | Action and visual purpose |
+| --- | --- |
+| Catalog | Keep the approved desktop grid and narrow card; no new catalog state requested. |
+| Heading | Recapture the existing protected draft with the actual centered heading and slate consent text. |
+| Fields | Recapture the actual type, label, placeholder and Required controls; full editor context on desktop and a native control crop on narrow screens. |
+| Optional assignments | Recapture the new standard labels with both assignments empty, demonstrating the explicitly optional state without activation. |
+| Embed | Recapture the real installation card and current generated `data-form-header` / `data-form-footer` snippet; narrow view focuses on the native code panel. |
+| Other sections | Existing explanatory text remains relevant; this request concerns the four reported UI figures. |
+
+Original published ES/EN bodies are preserved in `originals/forms-ui-refresh/`. Fresh capture provenance and sources belong under `captures/forms/ui-refresh/` in this excluded docs directory; new published assets use versioned paths under `images/captures/forms/ui-refresh/`.
+
+### Local capture and verification
+
+- Captured the requested four concepts in both locales from merged Rails `11731d118e581bb1d67853b1add1f4f495160288` (PR #6043), using a fresh temporary checkout and local Rails 3192/Vite 3042. The existing dirty 3191 checkout was preserved.
+- Reused protected form `3oDXBQG4`; no seed repeated. Its fictional heading was formatted with the actual centered Heading 3 control and its SMS notice with the new slate text color. Translations retained their prior wording. Spanish restored after captures.
+- Twelve unique native Display P3 PNGs at 2×: preview, desktop fields, narrow field-controls crop, optional assignments, installation card and narrow code crop for each language. Native ES/EN code boxes differ in width and are stored separately. Catalog sources were retained without copies.
+- No pixel editing, browser scaling, native window picker, submission, verification, message, campaign, test, assignment activation or delivery worker. Final protected counts: 127 contacts, zero messageable/subscribed, 49 messages, zero form submissions, all stored playbooks disabled; form remains draft without a coupon/journey.
+- Native field crops were rechecked after removing the caret. Desktop context contains the whole notice boundary; narrow crops focus on the four controls with no background fragments or incomplete controls.
+- `yarn build` and security-header verification passed. The twelve source/asset/build hash triples matched. `docs/` remained absent from `_site`.
+- Complete ES/EN articles inspected in a dedicated local review browser at desktop 1280×900 and mobile 390×844. Five figures per locale; the four replacements select their correct assets. Stage stays in the original column; white frame follows the image; each new image remains below its source CSS width. Styling was inspected in the browser, with no CSS tests.
+- Durable source, provenance, safety and local browser observations: `captures/forms/ui-refresh/`. Publication is still pending at this local verification step.
+
+The refreshed content was locally verified at `bf2bdeb03e90ce3541389255be69a5038a895ec8`; `progress.csv` keeps Forms `local_verified` and points to this content commit. Inventory totals remain 52 verified, 101 pending and one out-of-scope redirect. The subsequent ledger commit preserves this verifier reference.
+
+### Narrow catalog size correction
+
+Additional browser inspection at 580 CSS px found that the unchanged 400 CSS px catalog focus rendered at 472 px. Declare the approved catalog sources as 2× and let the image and white frame use their intrinsic width. No catalog PNG was recaptured or duplicated. This fixes the existing size issue while preserving the requested four-figure UI refresh. The final verification reference will point to the refreshed content including this correction.
+
+The catalog size fix passed a repeated production build and security-header verification. Full ES/EN browser review was repeated at 1280×900, 390×844 and 580×900; at 580 px the reused catalog image now displays at exactly its original 400 CSS px width. New source/asset/build bytes are unchanged.
+
+Final local verification, including the catalog density fix, points to content commit `a91ad5a2b9228ddc09b3d785f9b9b8cd5e7c563a`. All content commits remain reachable through the following ledger commit; the PR uses merge rather than squash.
+
+### Frame overhead correction from PR review
+
+The reviewer found that the maximum frame widths included their 8px padding and 1px border on each side, reducing the preview, optional assignment and installation figures by 18 CSS px. Include that overhead in each frame cap in both languages. Intrinsic 2× image sizing still prevents enlargement; the full lavender stage is unchanged. No source PNG was changed. Browser review and build are repeated below before publishing.
+
+The final frame overhead correction passed the production build and security-header verifier. Complete ES/EN browser review at 1280, 390 and 580 CSS px confirmed no overflow or enlargement. On desktop the preview displays at 472 CSS px, optional assignments at 403, and embed at 550 ES / 546 EN, their original logical widths. All twelve source/asset/build hash triples remain unchanged.
+
+The current final local verifier is content commit `68ea8fc4e9071a73b4e745d9aaf4726848cd4328`, including the reviewed frame overhead correction. Earlier content and verifier commits remain preserved in this PR.
