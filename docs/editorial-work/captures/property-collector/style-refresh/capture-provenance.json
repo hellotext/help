@@ -1,6 +1,6 @@
 {
   "article_key": "captures/property-collector-playbook.md",
-  "status": "local_verified; publication pending",
+  "status": "public_verified",
   "capture_date_utc": "2026-09-30T04:04:18.809831+00:00",
   "rails_ui_revision": "e6ae33a310d46ba88d9bf5b70845618a0b4a6461",
   "canonical_editorial_revision": "d5319b02e1c6a85f3a6294f11763b9be8dd58a43",
@@ -165,7 +165,7 @@
       "maximum_image_width_css": 648,
       "maximum_white_frame_width_css": 666,
       "browser_zoom": 1,
-      "publication_status": "local source; public verification pending",
+      "publication_status": "public_verified; public URL and byte hash in public-verification.json",
       "png_metadata": [
         "  format: png",
         "  pixelWidth: 1296",
@@ -331,7 +331,7 @@
       "maximum_image_width_css": 382,
       "maximum_white_frame_width_css": 400,
       "browser_zoom": 1,
-      "publication_status": "local source; public verification pending",
+      "publication_status": "public_verified; public URL and byte hash in public-verification.json",
       "png_metadata": [
         "  format: png",
         "  pixelWidth: 764",
@@ -480,7 +480,7 @@
       "maximum_image_width_css": 648,
       "maximum_white_frame_width_css": 666,
       "browser_zoom": 1,
-      "publication_status": "local source; public verification pending",
+      "publication_status": "public_verified; public URL and byte hash in public-verification.json",
       "png_metadata": [
         "  format: png",
         "  pixelWidth: 1296",
@@ -629,7 +629,7 @@
       "maximum_image_width_css": 382,
       "maximum_white_frame_width_css": 400,
       "browser_zoom": 1,
-      "publication_status": "local source; public verification pending",
+      "publication_status": "public_verified; public URL and byte hash in public-verification.json",
       "png_metadata": [
         "  format: png",
         "  pixelWidth: 764",
@@ -795,7 +795,7 @@
       "maximum_image_width_css": 648,
       "maximum_white_frame_width_css": 666,
       "browser_zoom": 1,
-      "publication_status": "local source; public verification pending",
+      "publication_status": "public_verified; public URL and byte hash in public-verification.json",
       "png_metadata": [
         "  format: png",
         "  pixelWidth: 1296",
@@ -961,7 +961,7 @@
       "maximum_image_width_css": 382,
       "maximum_white_frame_width_css": 400,
       "browser_zoom": 1,
-      "publication_status": "local source; public verification pending",
+      "publication_status": "public_verified; public URL and byte hash in public-verification.json",
       "png_metadata": [
         "  format: png",
         "  pixelWidth: 764",
@@ -1110,7 +1110,7 @@
       "maximum_image_width_css": 648,
       "maximum_white_frame_width_css": 666,
       "browser_zoom": 1,
-      "publication_status": "local source; public verification pending",
+      "publication_status": "public_verified; public URL and byte hash in public-verification.json",
       "png_metadata": [
         "  format: png",
         "  pixelWidth: 1296",
@@ -1259,7 +1259,7 @@
       "maximum_image_width_css": 382,
       "maximum_white_frame_width_css": 400,
       "browser_zoom": 1,
-      "publication_status": "local source; public verification pending",
+      "publication_status": "public_verified; public URL and byte hash in public-verification.json",
       "png_metadata": [
         "  format: png",
         "  pixelWidth: 764",
@@ -1269,7 +1269,12 @@
       "source_asset_build_hashes_match": true
     }
   ],
-  "public_verification": null,
+  "public_verification": {
+    "state": "public_verified",
+    "pull_request": 257,
+    "merge_sha": "135e68c6250b6c1945710af45afa28cc862101da",
+    "evidence": "public-verification.json"
+  },
   "source_asset_build_verification": "All eight P3 PNG hashes match source, public candidate, root and ES Jekyll build; originals and provenance are excluded.",
   "fixture_postflight": {
     "database": "hellotext_editorial_workload_20260928",
