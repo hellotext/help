@@ -1,0 +1,108 @@
+{
+  "sections": [
+    {
+      "i": 0,
+      "text": "Before you startLink copied",
+      "top": 661
+    },
+    {
+      "i": 1,
+      "text": "1. Create an authorization tokenLink copied",
+      "top": 1185
+    },
+    {
+      "i": 2,
+      "text": "2. Choose how to identify the recipientLink copied",
+      "top": 2070
+    },
+    {
+      "i": 3,
+      "text": "3. Send your first SMSLink copied",
+      "top": 2750
+    },
+    {
+      "i": 4,
+      "text": "4. Interpret the responseLink copied",
+      "top": 4134
+    },
+    {
+      "i": 5,
+      "text": "5. Test the complete flowLink copied",
+      "top": 5682
+    },
+    {
+      "i": 6,
+      "text": "Messages with linksLink copied",
+      "top": 6374
+    },
+    {
+      "i": 7,
+      "text": "When to use a templateLink copied",
+      "top": 6918
+    },
+    {
+      "i": 8,
+      "text": "Length, encoding, and costLink copied",
+      "top": 8679
+    },
+    {
+      "i": 9,
+      "text": "Consent and sending limitsLink copied",
+      "top": 9559
+    },
+    {
+      "i": 10,
+      "text": "Common errorsLink copied",
+      "top": 10119
+    },
+    {
+      "i": 11,
+      "text": "Related guidesLink copied",
+      "top": 10951
+    }
+  ],
+  "codes": [
+    {
+      "i": 0,
+      "top": 1786,
+      "text": "Authorization: Bearer YOUR_TOKEN\n",
+      "width": 358,
+      "scrollWidth": 358
+    },
+    {
+      "i": 1,
+      "top": 3138,
+      "text": "curl -X POST \"https://api.hellotext.com/v1/messages\" \\\n  -H \"Authorization: Bearer YOUR_TOKEN\" \\\n  -H \"Content-Type: application/json\" \\\n  --data '{\n    \"technology\": \"sms\",\n    \"destination\": \"+14155552671\",\n    \"body\": \"Your order is ready for pickup.\"\n  }'\n",
+      "width": 358,
+      "scrollWidth": 490
+    },
+    {
+      "i": 2,
+      "top": 3514,
+      "text": "curl -X POST \"https://api.hellotext.com/v1/messages\" \\\n  -H \"Authorization: Bearer YOUR_TOKEN\" \\\n  -H \"Content-Type: application/json\" \\\n  --data '{\n    \"technology\": \"sms\",\n    \"profile\": \"PROFILE_ID\",\n    \"body\": \"Your order is ready for pickup.\"\n  }'\n",
+      "width": 358,
+      "scrollWidth": 490
+    },
+    {
+      "i": 3,
+      "top": 4286,
+      "text": "{\n  \"status\": \"received\"\n}\n",
+      "width": 358,
+      "scrollWidth": 358
+    },
+    {
+      "i": 4,
+      "top": 6514,
+      "text": "Track your order here: {shortlink:https://shop.example.com/orders/123}\n",
+      "width": 358,
+      "scrollWidth": 623
+    },
+    {
+      "i": 5,
+      "top": 8091,
+      "text": "{\n  \"technology\": \"sms\",\n  \"profile\": \"PROFILE_ID\",\n  \"template\": {\n    \"id\": \"TEMPLATE_ID\",\n    \"shortlinks\": {\n      \"order\": \"https://shop.example.com/orders/123\"\n    }\n  }\n}\n",
+      "width": 358,
+      "scrollWidth": 473
+    }
+  ]
+}

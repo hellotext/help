@@ -1,0 +1,84 @@
+{
+  "rails_revision": "5403a7dcb567b63cae87d4c088112d65fad4eb7f",
+  "files": [
+    {
+      "path": "app/controllers/api/v1/messages_controller.rb",
+      "sha256": "4e1ebedb02135b4ed2649a5fac574ae00cffbcf66fb6abd2ea1fe07ee18e9ab7"
+    },
+    {
+      "path": "app/models/api/message_creator.rb",
+      "sha256": "ebbc8aad0b5aa02d3953e44d9ac7fa73ef63c6c8f43b0c67415bc25088eba2ea"
+    },
+    {
+      "path": "app/jobs/api/create_message_job.rb",
+      "sha256": "6bbea37c95d25dc02a5bd71769ebc584c4aee723670b2a05a192761690b9e473"
+    },
+    {
+      "path": "app/serializers/message_serializer.rb",
+      "sha256": "33ac4605fa5704b61b145351321a059731d5ba1764c17b16258f6a4cf4a8214f"
+    },
+    {
+      "path": "app/serializers/application_serializer.rb",
+      "sha256": "22dab311d6eee6992c4becb83eba5ddb2f0493dd55e46cc656b50ad9d691f05e"
+    },
+    {
+      "path": "app/models/api/pagy_cursor.rb",
+      "sha256": "6ffdd929454188fa18e8a00fd01fb0b6a35dfa70f699a5652802424d425e6025"
+    },
+    {
+      "path": "app/controllers/api/v1/api_controller/authenticate_token.rb",
+      "sha256": "87d2b9046f07d4f4ef70731db750064edb82dfa6513f6cc8e2993d69b7986558"
+    },
+    {
+      "path": "app/controllers/concerns/checks_business_plan.rb",
+      "sha256": "e3a35cb3bbb36a78c91d21b7987e666abdbb2c5463e187c3c9aa700956aab308"
+    },
+    {
+      "path": "app/policies/api_policy.rb",
+      "sha256": "11303c68157d438a1ee39f5d238ad154d95d136c79c770bd793a69557565765a"
+    },
+    {
+      "path": "app/models/message/deliverer.rb",
+      "sha256": "41c9fde98bc5b5afc2c1e17585f510c55e48b4bd41d0d558144e9c16e280cdf4"
+    },
+    {
+      "path": "app/models/sms/channel_finder.rb",
+      "sha256": "e922ec399e66d095d3f31eb0feac3c393991aa4db46ce0be44b9273b958a2906"
+    },
+    {
+      "path": "app/models/smpp/encoder.rb",
+      "sha256": "2026b55838d24708bcca493e022d7e0814a8cfda683fc2d8fbe7b0f5d226c1f0"
+    },
+    {
+      "path": "lib/rails_ext/smpp_extensions.rb",
+      "sha256": "b79ae399ce3b69ba712d9cd9217746db2b61565093ae0b44711a0a9ddd793081"
+    },
+    {
+      "path": "app/models/liquid/text_to_html.rb",
+      "sha256": "0930f651f4f496a58b6832ae2d8681003da7aed8827208c18fbd7aefc2df100a"
+    },
+    {
+      "path": "app/models/liquid/shorten_link.rb",
+      "sha256": "0bf4f78ecda7028f613d09fdda70994ab669908e370c39b9aaa622fc7effcaad"
+    }
+  ],
+  "primary_web_sources": [
+    "https://www.hellotext.com/api#create_a_message",
+    "https://www.hellotext.com/api#list_all_messages",
+    "https://www.twilio.com/docs/glossary/what-is-gsm-7-character-encoding",
+    "https://www.hellotext.com/pricing"
+  ],
+  "contracts": [
+    "Private business token, active API subscription; authentication401 versus plan403.",
+    "Explicit sms, asynchronous same-business public profile lookup and exact existing destination; origin channel identifier and current-country routing.",
+    "200 received without ID or assurance of message creation; pending/dispatched/routed/delivered/error; documented failed compatibility. Nullable Unix-second timestamps and no transition history.",
+    "Business cursor list with no profile/date/template filters, limit25; correlation may be ambiguous and no request idempotency.",
+    "SMS template body only; template takes precedence; named URLs required. Valid shortlink syntax creates actual message short links asynchronously; do not execute for evidence.",
+    "GSM extension characters occupy two units; single capacities160/140/70. Multipart limits and emoji depend on final encoding/provider. Current encoder info parts_count and conservative UTF16 grapheme splitting differ, so no universal multipart formula published.",
+    "Daily limits checked before creation and delivery, monthly before delivery. Acceptance is not consent or delivery; retries can coexist with provider processing."
+  ],
+  "executed_examples": false,
+  "api_calls": 0,
+  "database_access": false,
+  "new_captures": 0
+}

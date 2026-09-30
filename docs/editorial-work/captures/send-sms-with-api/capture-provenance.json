@@ -1,0 +1,422 @@
+{
+  "status": "local_verified_publication_pending",
+  "base_revision": "5144879a39c88855bbcb8751c3c4ae86791cf59f",
+  "originals": [
+    {
+      "article": "_i18n/es/developers/send-sms-with-api.md",
+      "snapshot": "docs/editorial-work/originals/es/developers/send-sms-with-api.md.gz",
+      "sha256": "728a4bfe5d500b49b80cf5afc23bf06effb197f762ada6d5272583d5283ba03b",
+      "snapshot_encoding": "gzip",
+      "archive_sha256": "f94d14a514c064e95fd25bb7d9172a24bdb20161a86fd29ce69dcc641a8a7559"
+    },
+    {
+      "article": "_i18n/en/developers/send-sms-with-api.md",
+      "snapshot": "docs/editorial-work/originals/en/developers/send-sms-with-api.md.gz",
+      "sha256": "75c3677027ccf130f8709c0317e94fb8838005f341d233291500b3c5f9530826",
+      "snapshot_encoding": "gzip",
+      "archive_sha256": "5d5e0590ae492c47abb17e146031b4d4b01406ee55d64a7b7cce4b395b45f9c0"
+    },
+    {
+      "article": "_developers/send-sms-with-api.md",
+      "snapshot": "docs/editorial-work/captures/send-sms-with-api/original-stub.md",
+      "sha256": "411febb37055097a06fec8f02d0ac8fd16623555d3f9b874b5078bfc8a6f323b"
+    }
+  ],
+  "images": [
+    {
+      "name": "token-es",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/token-es-original.png",
+      "published_asset": "images/developers/custom-store-integration/token-spacing/token-es.png",
+      "native": {
+        "output": "/private/tmp/hellotext-token-spacing-refresh/native/token-es-original.png",
+        "sha256": "9edcb6a1e9354047b98feb41d5a10b613acdaed33e1dfce768406dd6f3504f8a",
+        "url": "http://127.0.0.1:3192/hellotext/settings/authorizations/new",
+        "locale": "es",
+        "cssViewport": [
+          1200,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          92,
+          124,
+          540,
+          238
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1080,
+          476
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        540,
+        238
+      ],
+      "intended_max_display_width_css": 540,
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/token-es-ui.json",
+      "corrected_label_input_gap_css": 8,
+      "reuse": true,
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "concept": "token",
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/capture-provenance.json"
+    },
+    {
+      "name": "token-es-mobile",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/token-es-mobile-original.png",
+      "published_asset": "images/developers/custom-store-integration/token-spacing/token-es-mobile.png",
+      "native": {
+        "output": "/private/tmp/hellotext-token-spacing-refresh/native/token-es-mobile-original.png",
+        "sha256": "6c9ef30747a2fe23a65542aa040142515cfe034a5df24c6a51e0161f4052b94b",
+        "url": "http://127.0.0.1:3192/hellotext/settings/authorizations/new",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          8,
+          40,
+          374,
+          216
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          748,
+          432
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        374,
+        216
+      ],
+      "intended_max_display_width_css": 374,
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/token-es-mobile-ui.json",
+      "corrected_label_input_gap_css": 8,
+      "reuse": true,
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "concept": "token",
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/capture-provenance.json"
+    },
+    {
+      "name": "token-en",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/token-en-original.png",
+      "published_asset": "images/developers/custom-store-integration/token-spacing/token-en.png",
+      "native": {
+        "output": "/private/tmp/hellotext-token-spacing-refresh/native/token-en-original.png",
+        "sha256": "efe16993a26fbf2e3047bc57da420ff888069022f45fcebd3af561965906a4c2",
+        "url": "http://127.0.0.1:3192/hellotext/settings/authorizations/new",
+        "locale": "en",
+        "cssViewport": [
+          1200,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          92,
+          124,
+          540,
+          238
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1080,
+          476
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        540,
+        238
+      ],
+      "intended_max_display_width_css": 540,
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/token-en-ui.json",
+      "corrected_label_input_gap_css": 8,
+      "reuse": true,
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "concept": "token",
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/capture-provenance.json"
+    },
+    {
+      "name": "token-en-mobile",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/token-en-mobile-original.png",
+      "published_asset": "images/developers/custom-store-integration/token-spacing/token-en-mobile.png",
+      "native": {
+        "output": "/private/tmp/hellotext-token-spacing-refresh/native/token-en-mobile-original.png",
+        "sha256": "2200d9bccae650ed15f47970ab7eb729365e544e6000b1bde4758e600697778b",
+        "url": "http://127.0.0.1:3192/hellotext/settings/authorizations/new",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          8,
+          40,
+          374,
+          216
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          748,
+          432
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        374,
+        216
+      ],
+      "intended_max_display_width_css": 374,
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/token-en-mobile-ui.json",
+      "corrected_label_input_gap_css": 8,
+      "reuse": true,
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "concept": "token",
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/capture-provenance.json"
+    },
+    {
+      "name": "editor-es",
+      "concept": "editor",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/send-messages-with-api/editor-es-original.png",
+      "published_asset": "images/developers/send-messages-with-api/editor-es.png",
+      "native": {
+        "output": "/private/tmp/hellotext-send-messages-api-guide/native/editor-es.png",
+        "sha256": "27cbe0e6670b0412f590a6030287ce264393c7d56f1ebaafb407d20dd059da02",
+        "url": "http://127.0.0.1:3192/hellotext/settings/templates/new?channel=sms&group=custom",
+        "locale": "es",
+        "cssViewport": [
+          1400,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          72,
+          174,
+          624,
+          354
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1248,
+          708
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        624,
+        354
+      ],
+      "intended_max_display_width_css": 624,
+      "ui_evidence": "docs/editorial-work/captures/send-messages-with-api/editor-es-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "reuse": true,
+      "original_provenance": "docs/editorial-work/captures/send-messages-with-api/capture-provenance.json"
+    },
+    {
+      "name": "editor-en",
+      "concept": "editor",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/send-messages-with-api/editor-en-original.png",
+      "published_asset": "images/developers/send-messages-with-api/editor-en.png",
+      "native": {
+        "output": "/private/tmp/hellotext-send-messages-api-guide/native/editor-en.png",
+        "sha256": "330f9832b65d012cbdb0cc97cb757f2c90ac197a37bbae711cb5285521261011",
+        "url": "http://127.0.0.1:3192/hellotext/settings/templates/new?channel=sms&group=custom",
+        "locale": "en",
+        "cssViewport": [
+          1400,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          72,
+          174,
+          624,
+          354
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1248,
+          708
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        624,
+        354
+      ],
+      "intended_max_display_width_css": 624,
+      "ui_evidence": "docs/editorial-work/captures/send-messages-with-api/editor-en-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "reuse": true,
+      "original_provenance": "docs/editorial-work/captures/send-messages-with-api/capture-provenance.json"
+    },
+    {
+      "name": "editor-es-mobile",
+      "concept": "editor",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/send-messages-with-api/editor-es-mobile-original.png",
+      "published_asset": "images/developers/send-messages-with-api/editor-es-mobile.png",
+      "native": {
+        "output": "/private/tmp/hellotext-send-messages-api-guide/native/editor-es-mobile.png",
+        "sha256": "0b6fcf98897f7a89bce1654e31fe8eb5fe31195f36ff3d1eb801ddfd76eb9639",
+        "url": "http://127.0.0.1:3192/hellotext/settings/templates/new?channel=sms&group=custom",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          28,
+          44,
+          334,
+          380
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          668,
+          760
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        334,
+        380
+      ],
+      "intended_max_display_width_css": 334,
+      "ui_evidence": "docs/editorial-work/captures/send-messages-with-api/editor-es-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "reuse": true,
+      "original_provenance": "docs/editorial-work/captures/send-messages-with-api/capture-provenance.json"
+    },
+    {
+      "name": "editor-en-mobile",
+      "concept": "editor",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/send-messages-with-api/editor-en-mobile-original.png",
+      "published_asset": "images/developers/send-messages-with-api/editor-en-mobile.png",
+      "native": {
+        "output": "/private/tmp/hellotext-send-messages-api-guide/native/editor-en-mobile.png",
+        "sha256": "d5f1753c4577120e5953e7b211cf36850141722623937bc72fccf729bf8b9ca2",
+        "url": "http://127.0.0.1:3192/hellotext/settings/templates/new?channel=sms&group=custom",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          28,
+          44,
+          334,
+          359
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          668,
+          718
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        334,
+        359
+      ],
+      "intended_max_display_width_css": 334,
+      "ui_evidence": "docs/editorial-work/captures/send-messages-with-api/editor-en-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "reuse": true,
+      "original_provenance": "docs/editorial-work/captures/send-messages-with-api/capture-provenance.json"
+    }
+  ],
+  "source_reuse_decision": "Eight current approved native sources reused unchanged: corrected token-name UI from #285 and actual unsaved Message/SMS editor from #283, ES/EN desktop/mobile. No new captures or duplicated images.",
+  "changes": "Article and evidence only. No application UI/DB access, fixtures, locale changes, tokens, links, events, messages, API examples, sends, tests or workers.",
+  "pending": [
+    "Complete article local review/build/hashes, exact PR checks/review, main Build/production/public verification."
+  ],
+  "local_verification": {
+    "evidence": "local-verification.json",
+    "full_page_browser_review": "page-review/",
+    "browser_widths_css": [
+      1440,
+      390,
+      580
+    ],
+    "figures_per_locale": 2,
+    "examples_per_locale": 6,
+    "syntax_only": true,
+    "build": "Ruby3.3.6 yarn build including security headers passed",
+    "source_asset_root_build_es_build_hashes": "8 reused sources match",
+    "new_capture_count": 0,
+    "new_png_uploads": 0,
+    "publication_state": "pending protected PR/main/public checks",
+    "verifier_commit": "8bed47fac86a9f0bf6007ee6223d355aa372d638"
+  }
+}
