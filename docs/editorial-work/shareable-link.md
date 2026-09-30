@@ -54,3 +54,11 @@ The other fourteen referenced PNGs retain their approved bytes. Figure markup de
 Production `yarn build` under Ruby 3.3.6 passed Jekyll for both locales and the security-header gate. Four original/asset/root-build/Spanish-build PNG copies matched their native hashes, signatures and P3 profiles; the fourteen reused PNGs were unchanged, and source/provenance files remained excluded from `_site`. Both complete articles were reviewed in the dedicated local browser at 1440, 390 and 580 CSS pixels, including all five figures and the bottom of each guide. All images remained at or below their logical source widths, desktop and phone sources matched the locale, stages stayed within the original article column, and no horizontal overflow appeared. Exact browser measurements are in the refresh `page-review.json`. No CSS tests, migrations, renderer edits or manual deployment were added. Public verification remains pending.
 
 Style refresh content verifier: `016ad318668d498157681d6e75fac029fe108c1f`. The separate ledger commit retains this reviewed content commit as an ancestor.
+
+### Number/message refresh public verification — 2026-09-30
+
+Help PR [#259](https://github.com/hellotext/help/pull/259) merged by `6ac8635ce5eac240ba2e98cd5a0c76027ff4b28d`, preserving individual content and verifier commits. Build, Aikido, normal Netlify preview/header checks and independent review passed; no protection was bypassed. The PR attachment attempt reached the existing 100-identity limit.
+
+Main [Build 36670614605](https://github.com/hellotext/help/actions/runs/36670614605) succeeded for the exact merge SHA. Normal Netlify production deploy `6abc94f1d9daf400088f1778` is ready with matching commit_ref and published_at `2026-09-30T04:50:26.206Z`, checked through the public site-alias API; no manual deployment.
+
+The public [ES page](https://help.hellotext.com/es/link-compartible) and [EN page](https://help.hellotext.com/shareable-link) returned HTTP 200 with five figures each and the refreshed number/message panel. Four new native P3 PNGs and fourteen preserved referenced PNGs returned HTTP 200 and matched approved hashes. Exact URLs and hashes are in `captures/shareable-link/style-refresh/public-verification.json`. All protected fixture counts remain unchanged and locale ES was restored. Inventory remains 52 local_verified,101 pending,1 out_of_scope.
