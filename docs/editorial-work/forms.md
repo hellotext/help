@@ -116,3 +116,11 @@ The reviewer found that the maximum frame widths included their 8px padding and 
 The final frame overhead correction passed the production build and security-header verifier. Complete ES/EN browser review at 1280, 390 and 580 CSS px confirmed no overflow or enlargement. On desktop the preview displays at 472 CSS px, optional assignments at 403, and embed at 550 ES / 546 EN, their original logical widths. All twelve source/asset/build hash triples remain unchanged.
 
 The current final local verifier is content commit `68ea8fc4e9071a73b4e745d9aaf4726848cd4328`, including the reviewed frame overhead correction. Earlier content and verifier commits remain preserved in this PR.
+
+## Forms UI refresh public verification — 2026-09-30
+
+Help PR [#249](https://github.com/hellotext/help/pull/249) merged by `eb66b83b3687eef9d59d069279910399ab46e5c8`, preserving all six content and verifier commits. The current ledger references content `68ea8fc4e9071a73b4e745d9aaf4726848cd4328`, a verified ancestor of main. Build, Aikido, Netlify preview and header checks passed for the exact PR head. The review's initial squash assumption was refuted with the actual GitHub parent chain and resolved; its real frame-padding finding was corrected in both locales and resolved. Final review of `0c12fbf281` reported no further issue.
+
+Main [Build run 36654171657](https://github.com/hellotext/help/actions/runs/36654171657) passed for the exact content merge SHA. The public [Spanish guide](https://help.hellotext.com/es/formularios) and [English guide](https://help.hellotext.com/forms) each returned HTTP 200 with five figures and all refreshed assets. All twelve new PNGs and four reused catalog PNGs returned 200 and matched approved SHA-256 hashes; no catalog duplicates were uploaded. Complete public browser review at 1280, 390 and 580 CSS px confirmed the final native-size presentation and responsive sources. Evidence, URL list and observations are in `captures/forms/ui-refresh/public-verification.json`.
+
+Netlify's production deploy listing remains inaccessible without credentials and GitHub's production deployment listing supplied no association. No production deploy ID/SHA association or manual deployment is claimed. Inventory totals remain 52 local_verified, 101 pending and one out-of-scope redirect.
