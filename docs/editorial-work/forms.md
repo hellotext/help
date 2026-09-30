@@ -114,3 +114,5 @@ Final local verification, including the catalog density fix, points to content c
 The reviewer found that the maximum frame widths included their 8px padding and 1px border on each side, reducing the preview, optional assignment and installation figures by 18 CSS px. Include that overhead in each frame cap in both languages. Intrinsic 2× image sizing still prevents enlargement; the full lavender stage is unchanged. No source PNG was changed. Browser review and build are repeated below before publishing.
 
 The final frame overhead correction passed the production build and security-header verifier. Complete ES/EN browser review at 1280, 390 and 580 CSS px confirmed no overflow or enlargement. On desktop the preview displays at 472 CSS px, optional assignments at 403, and embed at 550 ES / 546 EN, their original logical widths. All twelve source/asset/build hash triples remain unchanged.
+
+The current final local verifier is content commit `68ea8fc4e9071a73b4e745d9aaf4726848cd4328`, including the reviewed frame overhead correction. Earlier content and verifier commits remain preserved in this PR.
