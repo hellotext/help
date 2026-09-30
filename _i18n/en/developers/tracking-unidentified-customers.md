@@ -137,7 +137,7 @@ async function identifyShopifyCustomer(shopifyCustomerId) {
 }
 ```
 
-Handle network errors in the code calling the function as well. The wrapper provides `failed`, `succeeded`, and `json()`; `data` contains the `fetch` response, rather than an already parsed JSON object.
+Handle network errors in the code calling the function as well. The wrapper provides `failed`, `succeeded`, and `json()`. In SDK2.6.0 the cached result uses that wrapper too: `await response.json()` returns `{ already_identified: true }`. For a request, `data` contains the `fetch` response; on the local path it contains the reading adapter. Use `json()` to obtain the parsed object in both cases.
 
 An accepted HTTP response may contain `received`: the server queues identification. It does not return a profile ID or guarantee that the shop, customer, or attachment has been processed. The SDK remembers identity locally on HTTP success even if the later job fails. Confirm the outcome in the profile before treating it as complete.
 

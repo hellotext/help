@@ -509,6 +509,14 @@
       {
         "path": "package/src/models/fingerprint.js",
         "sha256": "6c65b4c9ad04cc6d6f7f970d7d4ed06e047fb42f37ab00fdd78124eb8d103fd2"
+      },
+      {
+        "path": "package/lib/hellotext.js",
+        "sha256": "422a8b7079485fa3dd7c6aae50f3ac8c3ce1d0ee19b4da4a14ab03e6efa29a56"
+      },
+      {
+        "path": "package/dist/hellotext.js",
+        "sha256": "0b0226a25c43002a9da506c80de12b576b0c0fd074a16e6d4f465a7748c26331"
       }
     ],
     "sdk_requests_executed": false,
@@ -550,5 +558,10 @@
     "new_png_uploads": 0,
     "publication_state": "pending"
   },
-  "local_verified_commit": "e729eb459de8478966fd2f0871d1dfa156c655fb"
+  "local_verified_commit": "e729eb459de8478966fd2f0871d1dfa156c655fb",
+  "review_followup": {
+    "thread": "https://github.com/hellotext/help/pull/297#discussion_r4150202595",
+    "classification": "False positive: actual published 2.6.0 source/lib/dist return new Response(true, {json: async () => ({already_identified: true})}), not a plain object. No SDK/API code or example executed.",
+    "clarification": "Both locales explicitly describe the cached wrapper, json() and data adapter versus network fetch response. Example remains correct."
+  }
 }
