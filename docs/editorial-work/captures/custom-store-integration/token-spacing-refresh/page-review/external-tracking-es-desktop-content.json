@@ -1,0 +1,114 @@
+{
+  "sections": [
+    {
+      "i": 0,
+      "text": "Antes de comenzarEnlace copiado",
+      "top": 892
+    },
+    {
+      "i": 1,
+      "text": "1. Elige el perfil del cliente o la sesiónEnlace copiado",
+      "top": 2032
+    },
+    {
+      "i": 2,
+      "text": "2. Asocia el objeto correctoEnlace copiado",
+      "top": 3826
+    },
+    {
+      "i": 3,
+      "text": "3. Registra el ciclo de los pedidosEnlace copiado",
+      "top": 5032
+    },
+    {
+      "i": 4,
+      "text": "4. Registra acciones personalizadasEnlace copiado",
+      "top": 5942
+    },
+    {
+      "i": 5,
+      "text": "5. Conserva la fecha y los valores monetariosEnlace copiado",
+      "top": 7170
+    },
+    {
+      "i": 6,
+      "text": "6. Interpreta la respuesta y maneja erroresEnlace copiado",
+      "top": 7812
+    },
+    {
+      "i": 7,
+      "text": "7. Evita eventos duplicadosEnlace copiado",
+      "top": 8514
+    },
+    {
+      "i": 8,
+      "text": "Guías relacionadasEnlace copiado",
+      "top": 9192
+    }
+  ],
+  "codes": [
+    {
+      "i": 0,
+      "top": 1262,
+      "text": "https://api.hellotext.com/v1/attribution/events\n",
+      "width": 774,
+      "scrollWidth": 774
+    },
+    {
+      "i": 1,
+      "top": 2294,
+      "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"product.viewed\",\n    \"profile\": \"PROFILE_ID\",\n    \"object\": \"PRODUCT_ID\"\n  }'\n",
+      "width": 774,
+      "scrollWidth": 774
+    },
+    {
+      "i": 2,
+      "top": 2858,
+      "text": "async function initializeTracking() {\n  await Hellotext.initialize(\"YOUR_BUSINESS_ID\")\n  const sessionId = Hellotext.session\n  // Envía sessionId a tu backend en este punto.\n}\n\ninitializeTracking()\n",
+      "width": 774,
+      "scrollWidth": 774
+    },
+    {
+      "i": 3,
+      "top": 3210,
+      "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"product.viewed\",\n    \"session\": \"HELLOTEXT_SESSION_ID\",\n    \"object\": \"PRODUCT_ID\"\n  }'\n",
+      "width": 774,
+      "scrollWidth": 774
+    },
+    {
+      "i": 4,
+      "top": 4152,
+      "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"product.viewed\",\n    \"profile\": \"PROFILE_ID\",\n    \"object_parameters\": {\n      \"name\": \"Championes Everyday\",\n      \"reference\": \"product-100\",\n      \"source\": \"custom_store\",\n      \"url\": \"https://shop.example.com/products/everyday-sneakers\",\n      \"price\": {\n        \"amount\": 89.90,\n        \"currency\": \"USD\"\n      }\n    }\n  }'\n",
+      "width": 774,
+      "scrollWidth": 774
+    },
+    {
+      "i": 5,
+      "top": 5154,
+      "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"order.placed\",\n    \"profile\": \"PROFILE_ID\",\n    \"object\": \"ORDER_ID\",\n    \"amount\": 89.90,\n    \"currency\": \"USD\"\n  }'\n",
+      "width": 774,
+      "scrollWidth": 774
+    },
+    {
+      "i": 6,
+      "top": 6088,
+      "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"appointment.booked\",\n    \"profile\": \"PROFILE_ID\",\n    \"tracked_at\": \"2026-08-07T12:30:00Z\"\n  }'\n",
+      "width": 774,
+      "scrollWidth": 774
+    },
+    {
+      "i": 7,
+      "top": 7468,
+      "text": "{\n  \"amount\": 89.90,\n  \"currency\": \"USD\"\n}\n",
+      "width": 774,
+      "scrollWidth": 774
+    },
+    {
+      "i": 8,
+      "top": 7910,
+      "text": "{\n  \"status\": \"received\"\n}\n",
+      "width": 774,
+      "scrollWidth": 774
+    }
+  ]
+}

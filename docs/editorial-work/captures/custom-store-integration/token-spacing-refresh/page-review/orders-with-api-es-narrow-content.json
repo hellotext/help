@@ -1,0 +1,79 @@
+{
+  "sections": [
+    {
+      "i": 0,
+      "text": "Antes de comenzarEnlace copiado",
+      "top": 928
+    },
+    {
+      "i": 1,
+      "text": "1. Crea el objeto del pedidoEnlace copiado",
+      "top": 1996
+    },
+    {
+      "i": 2,
+      "text": "2. Registra el primer evento real del cicloEnlace copiado",
+      "top": 4515
+    },
+    {
+      "i": 3,
+      "text": "3. Envía cada estado posterior cuando ocurraEnlace copiado",
+      "top": 5743
+    },
+    {
+      "i": 4,
+      "text": "4. Corrige los datos del pedido por separado de su cicloEnlace copiado",
+      "top": 6687
+    },
+    {
+      "i": 5,
+      "text": "5. Importa pedidos históricos sin hacerlos parecer recientesEnlace copiado",
+      "top": 7267
+    },
+    {
+      "i": 6,
+      "text": "6. Evita pedidos y eventos duplicadosEnlace copiado",
+      "top": 7731
+    },
+    {
+      "i": 7,
+      "text": "7. Verifica un pedido de principio a finEnlace copiado",
+      "top": 8755
+    },
+    {
+      "i": 8,
+      "text": "Guías relacionadasEnlace copiado",
+      "top": 9355
+    }
+  ],
+  "codes": [
+    {
+      "i": 0,
+      "top": 2112,
+      "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/orders \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"name\": \"Pedido #1001\",\n    \"reference\": \"ORDER-1001\",\n    \"source\": \"custom_store\",\n    \"delivery\": \"deliver\",\n    \"payment_method\": \"Visa\",\n    \"sales_channel\": \"Website\",\n    \"items\": [\n      {\n        \"product\": \"PRODUCT_ID\",\n        \"quantity\": 2,\n        \"price\": {\n          \"amount\": 44.95,\n          \"currency\": \"USD\"\n        }\n      }\n    ],\n    \"metadata\": {\n      \"warehouse\": \"main\"\n    }\n  }'\n",
+      "width": 548,
+      "scrollWidth": 548
+    },
+    {
+      "i": 1,
+      "top": 4667,
+      "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"order.placed\",\n    \"profile\": \"PROFILE_ID\",\n    \"object\": \"ORDER_ID\",\n    \"amount\": 89.90,\n    \"currency\": \"USD\",\n    \"tracked_at\": 1786104000\n  }'\n",
+      "width": 548,
+      "scrollWidth": 548
+    },
+    {
+      "i": 2,
+      "top": 5411,
+      "text": "{\n  \"status\": \"received\"\n}\n",
+      "width": 548,
+      "scrollWidth": 548
+    },
+    {
+      "i": 3,
+      "top": 6083,
+      "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"order.shipped\",\n    \"profile\": \"PROFILE_ID\",\n    \"object\": \"ORDER_ID\",\n    \"tracked_at\": 1786190400\n  }'\n",
+      "width": 548,
+      "scrollWidth": 548
+    }
+  ]
+}

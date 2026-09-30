@@ -1,0 +1,108 @@
+{
+  "sections": [
+    {
+      "i": 0,
+      "text": "Before you startLink copied",
+      "top": 944
+    },
+    {
+      "i": 1,
+      "text": "1. Choose a free-form message or a templateLink copied",
+      "top": 2040
+    },
+    {
+      "i": 2,
+      "text": "2. Select the technology and channelLink copied",
+      "top": 3514
+    },
+    {
+      "i": 3,
+      "text": "3. Identify the customer profile and destinationLink copied",
+      "top": 4470
+    },
+    {
+      "i": 4,
+      "text": "4. Send a free-form messageLink copied",
+      "top": 5434
+    },
+    {
+      "i": 5,
+      "text": "5. Send a template messageLink copied",
+      "top": 6390
+    },
+    {
+      "i": 6,
+      "text": "6. Add attachments when the channel supports themLink copied",
+      "top": 7506
+    },
+    {
+      "i": 7,
+      "text": "7. Interpret the accepted responseLink copied",
+      "top": 8306
+    },
+    {
+      "i": 8,
+      "text": "8. Retry without creating duplicatesLink copied",
+      "top": 9926
+    },
+    {
+      "i": 9,
+      "text": "9. Troubleshoot common problemsLink copied",
+      "top": 10738
+    },
+    {
+      "i": 10,
+      "text": "Go-live checklistLink copied",
+      "top": 11906
+    },
+    {
+      "i": 11,
+      "text": "Related guidesLink copied",
+      "top": 12570
+    }
+  ],
+  "codes": [
+    {
+      "i": 0,
+      "top": 1488,
+      "text": "Authorization: Bearer YOUR_TOKEN\n",
+      "width": 358,
+      "scrollWidth": 358
+    },
+    {
+      "i": 1,
+      "top": 5610,
+      "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/messages \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"technology\": \"whatsapp\",\n    \"profile\": \"PROFILE_ID\",\n    \"body\": \"Thanks for contacting us. Read your return instructions: https://shop.example.com/returns/1001\"\n  }'\n",
+      "width": 358,
+      "scrollWidth": 940
+    },
+    {
+      "i": 2,
+      "top": 6034,
+      "text": "{\n  \"technology\": \"whatsapp\",\n  \"origin\": \"+14155552671\",\n  \"profile\": \"PROFILE_ID\",\n  \"body\": \"Thanks for contacting us. Read your return instructions: https://shop.example.com/returns/1001\"\n}\n",
+      "width": 358,
+      "scrollWidth": 923
+    },
+    {
+      "i": 3,
+      "top": 6566,
+      "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/messages \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"technology\": \"whatsapp\",\n    \"profile\": \"PROFILE_ID\",\n    \"template\": {\n      \"id\": \"TEMPLATE_ID\",\n      \"shortlinks\": {\n        \"order\": \"https://shop.example.com/account/orders/1001\"\n      }\n    }\n  }'\n",
+      "width": 358,
+      "scrollWidth": 565
+    },
+    {
+      "i": 4,
+      "top": 7694,
+      "text": "{\n  \"technology\": \"whatsapp\",\n  \"profile\": \"PROFILE_ID\",\n  \"body\": \"Here is the document you requested.\",\n  \"attachments\": [\n    \"https://files.example.com/return-instructions.pdf\"\n  ]\n}\n",
+      "width": 358,
+      "scrollWidth": 498
+    },
+    {
+      "i": 5,
+      "top": 8458,
+      "text": "{\n  \"status\": \"received\"\n}\n",
+      "width": 358,
+      "scrollWidth": 358
+    }
+  ]
+}

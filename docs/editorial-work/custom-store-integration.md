@@ -59,3 +59,7 @@ Public [ES](https://help.hellotext.com/es/integrar-tienda-personalizada) and [EN
 ## Public-record review correction
 
 PR271 found a real P2 in promotion metadata: the root was public_verified while a nested publication state still said not yet deployed. Both capture-provenance and the corresponding local-verification evidence now consistently use public_verified and link public-verification.json. The original local checks remain intact; no article, asset, fixture or capture changed. The record build passed and the corrected head still requires independent review and protected checks.
+
+## Token label spacing refresh — 2026-09-30
+
+The token-name figure now uses the four current native P3 2× sources from Rails #6054, shared across all six consumers without duplicate upload per guide. Only its source paths and corrected height metadata changed; prose, captions, links, other figures and publication are preserved. Original source/provenance and publication evidence above are historical and retained. Current correction evidence: [token-spacing-refresh.md](token-spacing-refresh.md) and `captures/custom-store-integration/token-spacing-refresh/capture-provenance.json`. No token created; locale restored ES. Complete ES/EN page review at desktop/mobile/narrow sizes, native/build hash checks and the build passed. Public verification remains pending in the focused record.

@@ -26,8 +26,8 @@ Para preparar la autorización, abre **Ajustes → Autorizaciones → Crear un t
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="width: fit-content; max-width: 558px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 470px)" srcset="/images/developers/custom-store-integration/token-es-mobile.png 2x" width="748" height="480" />
-        <img src="/images/developers/custom-store-integration/token-es.png" srcset="/images/developers/custom-store-integration/token-es.png 2x" style="width: auto; margin: 0 auto;" width="1080" height="524" loading="lazy" decoding="async" alt="Nombre ficticio de token de autorización para una tienda propia, sin guardar ni mostrar un secreto." />
+        <source media="(max-width: 470px)" srcset="/images/developers/custom-store-integration/token-spacing/token-es-mobile.png 2x" width="748" height="432" />
+        <img src="/images/developers/custom-store-integration/token-spacing/token-es.png" srcset="/images/developers/custom-store-integration/token-spacing/token-es.png 2x" style="width: auto; margin: 0 auto;" width="1080" height="476" loading="lazy" decoding="async" alt="Nombre ficticio de token de autorización para una tienda propia, sin guardar ni mostrar un secreto." />
       </picture>
     </div>
   </div>

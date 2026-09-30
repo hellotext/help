@@ -46,8 +46,8 @@ La figura muestra únicamente el nombre de un borrador sin guardar. Todavía no 
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="width: fit-content; max-width: 558px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 470px)" srcset="/images/developers/custom-store-integration/token-es-mobile.png 2x" width="748" height="480" />
-        <img src="/images/developers/custom-store-integration/token-es.png" srcset="/images/developers/custom-store-integration/token-es.png 2x" style="width: auto; margin: 0 auto;" width="1080" height="524" loading="lazy" decoding="async" alt="Crear un token nuevo con Nombre del token Tienda propia · desarrollo, en un borrador sin guardar." />
+        <source media="(max-width: 470px)" srcset="/images/developers/custom-store-integration/token-spacing/token-es-mobile.png 2x" width="748" height="432" />
+        <img src="/images/developers/custom-store-integration/token-spacing/token-es.png" srcset="/images/developers/custom-store-integration/token-spacing/token-es.png 2x" style="width: auto; margin: 0 auto;" width="1080" height="476" loading="lazy" decoding="async" alt="Crear un token nuevo con Nombre del token Tienda propia · desarrollo, en un borrador sin guardar." />
       </picture>
     </div>
   </div>
