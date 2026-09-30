@@ -1221,7 +1221,14 @@
     "build": "production Jekyll and security headers passed",
     "source_asset_build_hashes": "matched",
     "docs_excluded_from_build": true,
-    "public_verification": "pending"
+    "public_verification": "verified after normal PR #247 merge deployment; see public-verification.json"
   },
-  "publication": "pending"
+  "publication": {
+    "pull_request": 247,
+    "merge_commit": "e699783005766ce5fdf663fbb9eb82a97f8f2c05",
+    "main_build_run": "36649103454",
+    "pages_and_images": "HTTP 200; approved PNG hashes matched",
+    "evidence": "public-verification.json",
+    "netlify_deploy_sha_association": "not asserted"
+  }
 }
