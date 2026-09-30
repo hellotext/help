@@ -41,11 +41,11 @@ El token autoriza operaciones del negocio al que pertenece; no es el ID público
 
 Envía `body` sin `template` cuando el canal seleccionado permita que el negocio escriba el mensaje directamente.
 
-Esto es apropiado para SMS y para canales conversacionales compatibles mientras las reglas de su proveedor permitan una respuesta libre. En WhatsApp, un mensaje libre solo puede enviarse mientras la ventana de atención esté abierta. La ventana de 24 horas comienza o se renueva cuando el cliente escribe al negocio.
+Esto es apropiado para SMS y para canales conversacionales compatibles mientras las reglas de su proveedor permitan una respuesta libre. En el flujo de WhatsApp de este endpoint, usa contenido libre mientras la ventana de atención esté abierta. La ventana de 24 horas comienza o se renueva cuando el cliente escribe al negocio.
 
 ### Mensaje con plantilla
 
-Envía `template` cuando necesites contenido reutilizable, personalización con propiedades del cliente o links cortos dinámicos. Se requiere una plantilla de WhatsApp aprobada para iniciar una conversación por WhatsApp o enviar fuera de la ventana de atención.
+Envía `template` cuando necesites contenido reutilizable, personalización con propiedades del cliente o links cortos dinámicos. Para iniciar una conversación por WhatsApp o enviar fuera de la ventana de atención mediante este endpoint, utiliza una plantilla de WhatsApp aprobada.
 
 Cuando envías `template`, Hellotext utiliza el contenido de la plantilla e ignora un `body` separado. No crees una plantilla nueva para cada envío; crea y aprueba primero plantillas reutilizables.
 

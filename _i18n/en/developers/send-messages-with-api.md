@@ -41,11 +41,11 @@ The token authorizes operations for its business; it is not the public business 
 
 Send `body` without `template` when the selected channel allows your business to write the message directly.
 
-This is appropriate for SMS and for supported conversational channels while their provider rules allow a free-form reply. On WhatsApp, a free-form message can only be sent while the customer service window is open. The 24-hour window starts or refreshes when the customer messages the business.
+This is appropriate for SMS and for supported conversational channels while their provider rules allow a free-form reply. In this endpoint’s WhatsApp flow, use free-form content while the customer service window is open. The 24-hour window starts or refreshes when the customer messages the business.
 
 ### Template message
 
-Send `template` when you want reusable content, customer-property personalization, or dynamic short links. An approved WhatsApp template is required to initiate a WhatsApp conversation or send outside the customer service window.
+Send `template` when you want reusable content, customer-property personalization, or dynamic short links. To initiate a WhatsApp conversation or send outside the customer service window through this endpoint, use an approved WhatsApp template.
 
 When `template` is present, Hellotext uses the template content and ignores a separate `body`. Do not create a new template for each send; create and approve reusable templates first.
 

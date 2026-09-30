@@ -7,8 +7,10 @@
     "200 Status::Received without ID; later creation/download/delivery can fail; no exposed template ID or supported profile/date/template list filters. Bounded cursor listing and ambiguous client-side correlation.",
     "Current MessageSerializer returns pending/dispatched/routed/delivered/error/received; documented failed also handled. State-dependent nullable timestamps, Unix seconds, not complete transition history.",
     "Template string/object and required shortlinks; body ignored; local approved!=Meta. Pending edit may retain prior active WhatsApp instance; active provider version can differ from latest edit.",
-    "Public URL attachments downloaded later,ignored forSMS; no generalPOST idempotency or guaranteed readback match; async/provider retry may still be in progress."
+    "Public URL attachments downloaded later,ignored forSMS; no generalPOST idempotency or guaranteed readback match; async/provider retry may still be in progress.",
+    "WhatsApp window/template advice scoped to this Hellotext endpoint. Current gateway sends type:text for body and type:template for active approved template; no Direct Send field. Meta June2026 announcement of eligible utility Direct Send is not proof this Hellotext endpoint supports it. No universal claim about all current Meta API flows."
   ],
   "executed_examples": false,
-  "mutation_api_calls": 0
+  "mutation_api_calls": 0,
+  "provider_follow_up": "https://developers.meta.com/resources/videos/whatsapp-direct-send-api/"
 }
