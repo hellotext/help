@@ -1,0 +1,101 @@
+{
+  "rails_revision": "5403a7dcb567b63cae87d4c088112d65fad4eb7f",
+  "files": [
+    {
+      "path": "app/controllers/api/v1/templates_controller.rb",
+      "sha256": "1e9d074f6545219828a873d285cadb25117f389ebd13d2d52669288f56349c2e"
+    },
+    {
+      "path": "app/models/api/template_repository.rb",
+      "sha256": "9197750e6aaca2f3aec70a4655a7013f07ad7c851626230a6999bd5eb3c2bab8"
+    },
+    {
+      "path": "app/serializers/template_serializer.rb",
+      "sha256": "c88157deff13e9ff3768c12ec4d79f45411e9972dc173e7991d350aa1f5790be"
+    },
+    {
+      "path": "app/models/template.rb",
+      "sha256": "5580d861be9d1142c8c2bdf9ef1e1267ca88beffb7028a96c1fc4a088c24f825"
+    },
+    {
+      "path": "app/models/template/parameterizable.rb",
+      "sha256": "eda57c9411abccded2caa33a6b98736d5d91b8bc6dbe3fd8a954179887d57e7e"
+    },
+    {
+      "path": "app/models/template/header.rb",
+      "sha256": "11c8256d306082b13fb6e398fce10c90fe6d24b9cd3876ba4912bdf0a3d70ff3"
+    },
+    {
+      "path": "app/models/template/footer.rb",
+      "sha256": "86d00b88c6576a840f4e24c9d77346d1797ae9b17ed5715dcde8e5205696579e"
+    },
+    {
+      "path": "app/models/template/button.rb",
+      "sha256": "5c69c7335e837667da8e1bf4443475db6e30142c422fd625eb27dbe9c1c7fbbf"
+    },
+    {
+      "path": "app/models/template/change.rb",
+      "sha256": "95d47bfc55064ac5a84ebd8036a92b1bbfd31dcf3843b2ae4b96d4de43c87435"
+    },
+    {
+      "path": "app/models/template/change/apply.rb",
+      "sha256": "0f0237a4349543fd3945903968c252adc1da511e1c20f1aaee4cdda93749587d"
+    },
+    {
+      "path": "app/models/template/change/processor.rb",
+      "sha256": "da84ccaf56d5f03c353af5401151019d5a72211256d68c7aea8bb6317064f829"
+    },
+    {
+      "path": "app/models/api/message_creator.rb",
+      "sha256": "ebbc8aad0b5aa02d3953e44d9ac7fa73ef63c6c8f43b0c67415bc25088eba2ea"
+    },
+    {
+      "path": "app/controllers/api/v1/messages_controller.rb",
+      "sha256": "4e1ebedb02135b4ed2649a5fac574ae00cffbcf66fb6abd2ea1fe07ee18e9ab7"
+    },
+    {
+      "path": "app/controllers/api/v1/api_controller.rb",
+      "sha256": "782f068f20035706cd9ff5593c5ebd1ee6ad5cd2efe7f8ccb35444429fd16038"
+    },
+    {
+      "path": "app/controllers/api/v1/api_controller/authenticate_token.rb",
+      "sha256": "87d2b9046f07d4f4ef70731db750064edb82dfa6513f6cc8e2993d69b7986558"
+    },
+    {
+      "path": "app/policies/template_policy.rb",
+      "sha256": "52efcd37f7f0154ca68bcbcafe505f712f7a3171945dec1a0e07366ffca4a343"
+    },
+    {
+      "path": "app/models/concerns/targets_technologies.rb",
+      "sha256": "34cdf9985314c9f27d86b295cd717d83894ee807b4435af1995b085b98d9f8af"
+    },
+    {
+      "path": "app/models/concerns/trixable.rb",
+      "sha256": "a87c5a924120a921429b863a3e6468c1302b91bdc8ce0a7f697641ad9cab8af1"
+    },
+    {
+      "path": "app/models/liquid/text_to_html.rb",
+      "sha256": "0930f651f4f496a58b6832ae2d8681003da7aed8827208c18fbd7aefc2df100a"
+    },
+    {
+      "path": "app/models/liquid/tag.rb",
+      "sha256": "2cf1441a0527b686d4657e1c2c62c2e2e96809fc3d47fbf9728688c282dba7b2"
+    },
+    {
+      "path": "app/models/api/pagy_cursor.rb",
+      "sha256": "6ffdd929454188fa18e8a00fd01fb0b6a35dfa70f699a5652802424d425e6025"
+    }
+  ],
+  "primary_reference": "https://www.hellotext.com/api",
+  "observations": [
+    "POST returns 201 serialized public template ID; validation 422. GET/current business/reusable message scope; cursor default25.",
+    "Repository defaults omitted technology to any on create and update. Change apply writes body/header/footer/category/buttons, so omitted fields are not a preservation guarantee.",
+    "Text-only header is stored/serialized but current Header#to_whatsapp_params returns without attachment/address, omitting it from Meta payload. Put essential text in body.",
+    "Current serializer state reads first WhatsApp instance and is not a guarantee that the newest edit or current connected account is approved/live.",
+    "Current static-shortlink conversion handles Template/Message but raises for Template::Change; PATCH of a static-shortlink body can fail. Named dynamic links require all URLs per send.",
+    "Message POST returns received without an ID and queues processing. It does not prove message creation or delivery; no unique correlation/idempotency key is promised.",
+    "DELETE discards standard reusable template, preserving historical records; inspect all dependents before retirement.",
+    "Body API validation currently1024 for provided body, public reference says SMS160; keep SMS example below160 and discuss final encoded segments rather than promise160 server validation."
+  ],
+  "method": "Read-only source inspection plus official API documentation; no HTTP API call, DB boot, fixture mutation, send, example execution or worker."
+}
