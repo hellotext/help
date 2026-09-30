@@ -29,13 +29,13 @@ Complete Tracking events and the narrowly corrected Custom store pages were rere
 
 During local source audit, the draft SDK example was corrected to the actual published Response wrapper (`failed`, `succeeded`, `json()`), and omitted `tracked_at` was clarified as recording time rather than a guaranteed receipt timestamp. Both corrections preceded commits and publication, followed by rebuild and repeated whole-page review. No examples, API, app/DB/fixture/locale/token/event/send/worker actions occurred. No PNGs were recaptured or uploaded. Build/security headers and `git diff --check` passed. Local review, protected content checks and post-merge public verification are complete and recorded below.
 
-Local content verifier: `636f7d5e9c178b47af82a0ef6f9d9ed710443c1e`. Ledger: 65 local_verified, 88 pending and one out_of_scope; public verification remains pending.
+Local content verifier: `636f7d5e9c178b47af82a0ef6f9d9ed710443c1e`. Ledger: 65 local_verified, 88 pending and one out_of_scope; public verification is complete, with the exact main Build, deployment and public hashes recorded below.
 
 ## Exact-head review correction before merge
 
 PR #293 review on 627c84dc identified a real P2: Developers overview ES/EN still warned that Tracking events contained the inherited automatic-page-view claim. The revised plan extends the narrow cross-reference correction to exactly one paragraph per overview locale, preserving every other byte, all nine sections, links, examples, existing token/catalog figures and publication state. Original overview baselines are lossless deterministic gzip archives; record the decompressed original SHA and archive SHA separately. Rebuild and review both complete overview pages at 1440/390/580px, then obtain a fresh exact-head review before merge. The six affected pages still use only sixteen distinct approved PNGs; no capture or duplicate asset is needed.
 
-The overview P2 correction passed rebuild/security headers, exact one-line-per-locale comparison against immutable gzip originals, complete ES/EN browser review at 1440/390/580px and all sixteen unchanged source/build hashes. Six pages and eighteen complete browser states now verified locally; fresh exact-head review remains pending before merge.
+The overview P2 correction passed rebuild/security headers, exact one-line-per-locale comparison against immutable gzip originals, complete ES/EN browser review at 1440/390/580px and all sixteen unchanged source/build hashes. Six pages and eighteen complete browser states were verified locally; fresh exact-head review passed before the #293 content merge, with all findings resolved.
 
 ## Public verification — 2026-09-30
 
@@ -72,3 +72,7 @@ Current approved sources reused without duplicates, including mobile:
 - [https://help.hellotext.com/images/developers/custom-store-integration/business-en-mobile.png](https://help.hellotext.com/images/developers/custom-store-integration/business-en-mobile.png) — HTTP 200; SHA256 `c7badab42d6878393ab746c2950605b8153dc38d60ac1ae09c747a949706bfeb`.
 
 Source publication and UI evidence remain in the original Custom actions, token-spacing and Business ID directories. No app/DB/fixture/locale/token/template/link/message/event/test/send/worker action occurred. Final ledger: 65 local_verified, 88 pending and one out_of_scope; all 65 verifiers must remain ancestors of final main. The separate public record PR receives exact post-merge main Build, normal production SHA association and repeated public page/PNG proof in its GitHub comment, avoiding a recursive record commit.
+
+## Public-record review correction
+
+PR #294 review found stale pending-publication wording in this Markdown summary. The obsolete clauses were corrected to match the completed JSON evidence and actual post-merge public verification. Article content, approved PNGs and publication evidence remain unchanged.
