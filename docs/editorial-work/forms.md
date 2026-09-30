@@ -106,3 +106,5 @@ The refreshed content was locally verified at `bf2bdeb03e90ce3541389255be69a5038
 Additional browser inspection at 580 CSS px found that the unchanged 400 CSS px catalog focus rendered at 472 px. Declare the approved catalog sources as 2× and let the image and white frame use their intrinsic width. No catalog PNG was recaptured or duplicated. This fixes the existing size issue while preserving the requested four-figure UI refresh. The final verification reference will point to the refreshed content including this correction.
 
 The catalog size fix passed a repeated production build and security-header verification. Full ES/EN browser review was repeated at 1280×900, 390×844 and 580×900; at 580 px the reused catalog image now displays at exactly its original 400 CSS px width. New source/asset/build bytes are unchanged.
+
+Final local verification, including the catalog density fix, points to content commit `a91ad5a2b9228ddc09b3d785f9b9b8cd5e7c563a`. All content commits remain reachable through the following ledger commit; the PR uses merge rather than squash.
