@@ -41,3 +41,9 @@ Safe fixture checks before/after confirm the isolated DB/account:127contacts,zer
 ## PR review correction — linked page-view instructions
 
 Independent PR269 review found a real P2: the inherited tracking-events pair describes automatic page views, so presenting its link as this integration's page-view flow could make a reader omit the explicit call required by SDK2.6.0. Both current locales now keep the original link only as context, explicitly describe this difference, and direct page-view implementation to the verified steps6/7 here. The linked pair remains pending for its full independent review. Original link targets and all other figures/content remain intact; no new captures or fixture actions. Build and focused desktop/mobile review of the corrected browser-activity section passed; external review of the corrected head remains required.
+
+## Exact dependency pin follow-up
+
+The second review of PR269 found another real P2: npm's default save prefix would record ^2.6.0 despite the verified-version wording. The content PR was already merged when this thread was inspected, so it is not yet treated as the completed batch. A focused supported follow-up PR corrects both npm commands with --save-exact and explains retaining package-lock.json plus npm ci; no assets or fixtures change. The linked-guide finding was already corrected. All current-head checks, reviews, threads and exact normal production evidence are required before the final public record.
+
+The follow-up normal build passed, all eight source/asset/root-build/ES-build hashes remain unchanged, and the updated SDK section was inspected ES/EN desktop/mobile. The install command passes syntax-only Bash checking. No install, live request, recapture or fixture change occurred.

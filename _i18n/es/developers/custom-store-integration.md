@@ -212,7 +212,7 @@ Consulta [Crea y registra pedidos con la API]({% link _developers/orders-with-ap
 Instala el paquete con npm:
 
 ```bash
-npm install @hellotext/hellotext@2.6.0
+npm install --save-exact @hellotext/hellotext@2.6.0
 ```
 
 Impórtalo e inicialízalo una sola vez cuando arranca la tienda:
@@ -237,7 +237,7 @@ El `HELLOTEXT_BUSINESS_ID` es el identificador público que aparece como **ID de
   <figcaption class="ht-editorial-visual__caption">Interfaz real de una base local aislada. El ID público pertenece solo al negocio ficticio; no es un token privado ni un ejemplo de precio Enterprise.</figcaption>
 </figure>
 
-Los ejemplos fijan la versión 2.6.0. `initialize()` devuelve una Promise: espera su resolución antes de continuar el flujo de configuración. Los fragmentos con `await` se ejecutan en un módulo JavaScript o dentro de una función `async`; en una tienda con navegación interna, inicializa una vez y registra la actividad de cada nueva vista.
+Los ejemplos fijan la versión 2.6.0. `--save-exact` conserva esa versión exacta en `package.json`; guarda también `package-lock.json` y usa `npm ci` en el despliegue para instalar las dependencias bloqueadas. `initialize()` devuelve una Promise: espera su resolución antes de continuar el flujo de configuración. Los fragmentos con `await` se ejecutan en un módulo JavaScript o dentro de una función `async`; en una tienda con navegación interna, inicializa una vez y registra la actividad de cada nueva vista.
 
 Para un sitio sin bundler de JavaScript, usa el script compilado:
 

@@ -212,7 +212,7 @@ See [Create and track orders with the API]({% link _developers/orders-with-api.m
 Install the package with npm:
 
 ```bash
-npm install @hellotext/hellotext@2.6.0
+npm install --save-exact @hellotext/hellotext@2.6.0
 ```
 
 Import and initialize it once when the storefront starts:
@@ -237,7 +237,7 @@ The `HELLOTEXT_BUSINESS_ID` is the public identifier labeled **Business ID** in 
   <figcaption class="ht-editorial-visual__caption">Real interface in an isolated local database. The public ID belongs only to the fictional business; it is not a private token or an Enterprise pricing example.</figcaption>
 </figure>
 
-The examples pin version 2.6.0. `initialize()` returns a Promise: wait for it to resolve before continuing the setup flow. Run snippets containing `await` in a JavaScript module or an `async` function; on a storefront with internal navigation, initialize once and track activity for each new view.
+The examples pin version 2.6.0. `--save-exact` saves that exact version in `package.json`; retain `package-lock.json` too and use `npm ci` during deployment to install the locked dependencies. `initialize()` returns a Promise: wait for it to resolve before continuing the setup flow. Run snippets containing `await` in a JavaScript module or an `async` function; on a storefront with internal navigation, initialize once and track activity for each new view.
 
 For a site without a JavaScript bundler, use the script build:
 
