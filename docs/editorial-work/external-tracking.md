@@ -31,3 +31,27 @@ Production yarn build passed with Ruby3.3.6 including security headers; docs/ori
 ## Review correction — PR #274
 
 The independent exact-head review found a real P2 in the inline object example: tracking returns only received, so it cannot supply the created or matched object ID. Both locales now restrict ID mappings to separate resource creation or lookup responses and state this tracking response limitation explicitly. The nine original main sections, two subheadings, original links, examples and two figures per locale remain intact. Production build/security headers, syntax-only examples and all native/source/asset/root-build/ES-build hashes passed again. Complete six page states were refreshed, and the corrected paragraph was visually inspected in both languages at desktop and mobile widths. No source recapture, duplicate upload, API example execution or fixture mutation. Review thread: https://github.com/hellotext/help/pull/274#discussion_r4144189281. A fresh review of the corrected head is required before merge.
+
+## Public verification — 2026-09-30
+
+Help PR [#274](https://github.com/hellotext/help/pull/274) merged by `c713038b4016cb0666a3d0a3a1216d5410a427ed`, preserving all individual commits. Required Build, Aikido, Netlify preview/header checks and independent review passed on exact head `db158eab692b6be835a9bbb13cb95c4616d41e57`; all review threads were read and resolved before merge. Review evidence: https://github.com/hellotext/help/pull/274#issuecomment-5910369794. No squash, protection bypass or manual deployment. PR attachment was attempted but reached the existing 100-identity limit.
+
+Exact main [Build 36712184157](https://github.com/hellotext/help/actions/runs/36712184157) passed. Normal Netlify production `6abcfa33fb9ae10008ee32dc` is ready/published at `2026-09-30T12:02:41.327Z` with matching commit_ref `c713038b4016cb0666a3d0a3a1216d5410a427ed`. Both updated pages contain two figures each, the current API/SDK text and all eight reused responsive asset URLs. Pages and PNGs returned HTTP 200; every PNG is byte-identical to its originally approved native P3 source. No source recapture, duplicate upload, fixture/locale mutation, token/object/event creation, delivery test or send. API examples were checked only by syntax. Nested local publication states also reference this actual public evidence; no stale not-yet-deployed state remains.
+
+Pages:
+
+- [https://help.hellotext.com/es/seguimiento-externo](https://help.hellotext.com/es/seguimiento-externo) — HTTP 200, two figures.
+- [https://help.hellotext.com/external-tracking](https://help.hellotext.com/external-tracking) — HTTP 200, two figures.
+
+Reused images (no duplicate uploads):
+
+- [https://help.hellotext.com/images/developers/custom-store-integration/token-es.png](https://help.hellotext.com/images/developers/custom-store-integration/token-es.png) — HTTP 200, SHA256 `1aee0b74d12bed3eb995c7211316047bd59158a92f2c491dfc4a01287c5fb953`.
+- [https://help.hellotext.com/images/developers/custom-store-integration/token-es-mobile.png](https://help.hellotext.com/images/developers/custom-store-integration/token-es-mobile.png) — HTTP 200, SHA256 `ab734e406f700b90cd37365b7a1d084cedb9e8adda7bca8757182d471e6d355a`.
+- [https://help.hellotext.com/images/developers/custom-store-integration/token-en.png](https://help.hellotext.com/images/developers/custom-store-integration/token-en.png) — HTTP 200, SHA256 `ca4b35ca243e0e6db3c52219e00162ef2c708efd61d7265dc25f599907c97bd6`.
+- [https://help.hellotext.com/images/developers/custom-store-integration/token-en-mobile.png](https://help.hellotext.com/images/developers/custom-store-integration/token-en-mobile.png) — HTTP 200, SHA256 `716908e63c1f6e914b3dc8d7456e224c02fe69b24797477dded04096b9ec7652`.
+- [https://help.hellotext.com/images/developers/custom-actions/catalog-es.png](https://help.hellotext.com/images/developers/custom-actions/catalog-es.png) — HTTP 200, SHA256 `a12712f6c78adc83c29a0c497ccb3a061449789f26a7d5cbaf6fdab127612389`.
+- [https://help.hellotext.com/images/developers/custom-actions/catalog-es-mobile.png](https://help.hellotext.com/images/developers/custom-actions/catalog-es-mobile.png) — HTTP 200, SHA256 `fab59f9490d84ad14feb17be6a5701ba29c39161fdc7bd5fbd391a2a16651d76`.
+- [https://help.hellotext.com/images/developers/custom-actions/catalog-en.png](https://help.hellotext.com/images/developers/custom-actions/catalog-en.png) — HTTP 200, SHA256 `6fdbbbe59759abe2be46c35406174c9dae62c52dcdb56d65f5875e003e278bef`.
+- [https://help.hellotext.com/images/developers/custom-actions/catalog-en-mobile.png](https://help.hellotext.com/images/developers/custom-actions/catalog-en-mobile.png) — HTTP 200, SHA256 `9f1460df43463d2eef8bbd04d6c550782d05bd4129eb7f9bf0faa5f553588561`.
+
+The separate record PR and its exact main Build/normal production/page/hash verification are required to close this batch. Post-record evidence will be attached to that PR after merge. Ledger: 57 local_verified, 96 pending, 1 out_of_scope; all verifier commits are reconciled against main. The unchanged campaign/storefront blockers remain deferred.
