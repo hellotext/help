@@ -1,0 +1,110 @@
+{
+  "sections": [
+    {
+      "i": 0,
+      "text": "Antes de comenzarEnlace copiado",
+      "top": 946
+    },
+    {
+      "i": 1,
+      "text": "1. Elige la tecnología de la plantillaEnlace copiado",
+      "top": 2042
+    },
+    {
+      "i": 2,
+      "text": "2. Crea una plantilla para SMSEnlace copiado",
+      "top": 3100
+    },
+    {
+      "i": 3,
+      "text": "3. Crea una plantilla para WhatsAppEnlace copiado",
+      "top": 4256
+    },
+    {
+      "i": 4,
+      "text": "4. Personaliza el cuerpo de forma seguraEnlace copiado",
+      "top": 5642
+    },
+    {
+      "i": 5,
+      "text": "5. Usa links cortos estáticos y dinámicosEnlace copiado",
+      "top": 6328
+    },
+    {
+      "i": 6,
+      "text": "6. Espera la aprobación de WhatsAppEnlace copiado",
+      "top": 7018
+    },
+    {
+      "i": 7,
+      "text": "7. Envía una plantilla aprobadaEnlace copiado",
+      "top": 7876
+    },
+    {
+      "i": 8,
+      "text": "8. Actualiza o retira una plantilla de forma seguraEnlace copiado",
+      "top": 9006
+    },
+    {
+      "i": 9,
+      "text": "9. Soluciona errores frecuentesEnlace copiado",
+      "top": 9894
+    },
+    {
+      "i": 10,
+      "text": "Guías relacionadasEnlace copiado",
+      "top": 10604
+    }
+  ],
+  "codes": [
+    {
+      "i": 0,
+      "top": 3198,
+      "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/templates \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"name\": \"Pedido listo SMS\",\n    \"technology\": \"sms\",\n    \"body\": \"Hola {name}, tu pedido está listo. Revísalo aquí: {shortlink:order}\"\n  }'\n",
+      "width": 774,
+      "scrollWidth": 774
+    },
+    {
+      "i": 1,
+      "top": 4378,
+      "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/templates \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"name\": \"Pedido listo WhatsApp\",\n    \"technology\": \"whatsapp\",\n    \"category\": \"utility\",\n    \"body\": \"Hola {name}, tu pedido está listo. Revisa los detalles aquí: {shortlink:order}.\",\n    \"footer\": \"Responde si necesitas ayuda\",\n    \"buttons\": [\n      {\n        \"type\": \"quick_reply\",\n        \"text\": \"Necesito ayuda\"\n      }\n    ]\n  }'\n",
+      "width": 774,
+      "scrollWidth": 823
+    },
+    {
+      "i": 2,
+      "top": 6426,
+      "text": "Mira la colección: {shortlink:https://shop.example.com/collections/new}\n",
+      "width": 774,
+      "scrollWidth": 774
+    },
+    {
+      "i": 3,
+      "top": 6610,
+      "text": "Revisa tu pedido: {shortlink:order}\n",
+      "width": 774,
+      "scrollWidth": 774
+    },
+    {
+      "i": 4,
+      "top": 7116,
+      "text": "curl --request GET \\\n  --url https://api.hellotext.com/v1/templates/TEMPLATE_ID \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\"\n",
+      "width": 774,
+      "scrollWidth": 774
+    },
+    {
+      "i": 5,
+      "top": 7998,
+      "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/messages \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"profile\": \"PROFILE_ID\",\n    \"technology\": \"whatsapp\",\n    \"template\": {\n      \"id\": \"TEMPLATE_ID\",\n      \"shortlinks\": {\n        \"order\": \"https://shop.example.com/account/orders/1001\"\n      }\n    }\n  }'\n",
+      "width": 774,
+      "scrollWidth": 774
+    },
+    {
+      "i": 6,
+      "top": 8534,
+      "text": "{\n  \"status\": \"received\"\n}\n",
+      "width": 774,
+      "scrollWidth": 774
+    }
+  ]
+}

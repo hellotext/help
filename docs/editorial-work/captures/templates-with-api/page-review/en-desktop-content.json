@@ -1,0 +1,110 @@
+{
+  "sections": [
+    {
+      "i": 0,
+      "text": "Before you startLink copied",
+      "top": 946
+    },
+    {
+      "i": 1,
+      "text": "1. Choose the template technologyLink copied",
+      "top": 1970
+    },
+    {
+      "i": 2,
+      "text": "2. Create an SMS templateLink copied",
+      "top": 2980
+    },
+    {
+      "i": 3,
+      "text": "3. Create a WhatsApp templateLink copied",
+      "top": 4136
+    },
+    {
+      "i": 4,
+      "text": "4. Personalize the body safelyLink copied",
+      "top": 5450
+    },
+    {
+      "i": 5,
+      "text": "5. Use static and dynamic short linksLink copied",
+      "top": 6112
+    },
+    {
+      "i": 6,
+      "text": "6. Wait for WhatsApp approvalLink copied",
+      "top": 6730
+    },
+    {
+      "i": 7,
+      "text": "7. Send an approved templateLink copied",
+      "top": 7564
+    },
+    {
+      "i": 8,
+      "text": "8. Update or retire a template safelyLink copied",
+      "top": 8694
+    },
+    {
+      "i": 9,
+      "text": "9. Troubleshoot common errorsLink copied",
+      "top": 9492
+    },
+    {
+      "i": 10,
+      "text": "Related guidesLink copied",
+      "top": 10154
+    }
+  ],
+  "codes": [
+    {
+      "i": 0,
+      "top": 3078,
+      "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/templates \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"name\": \"Order ready SMS\",\n    \"technology\": \"sms\",\n    \"body\": \"Hi {name}, your order is ready. View it here: {shortlink:order}\"\n  }'\n",
+      "width": 774,
+      "scrollWidth": 774
+    },
+    {
+      "i": 1,
+      "top": 4234,
+      "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/templates \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"name\": \"Order ready WhatsApp\",\n    \"technology\": \"whatsapp\",\n    \"category\": \"utility\",\n    \"body\": \"Hi {name}, your order is ready. View the details here: {shortlink:order}.\",\n    \"footer\": \"Reply if you need help\",\n    \"buttons\": [\n      {\n        \"type\": \"quick_reply\",\n        \"text\": \"I need help\"\n      }\n    ]\n  }'\n",
+      "width": 774,
+      "scrollWidth": 774
+    },
+    {
+      "i": 2,
+      "top": 6210,
+      "text": "View the collection: {shortlink:https://shop.example.com/collections/new}\n",
+      "width": 774,
+      "scrollWidth": 774
+    },
+    {
+      "i": 3,
+      "top": 6370,
+      "text": "View your order: {shortlink:order}\n",
+      "width": 774,
+      "scrollWidth": 774
+    },
+    {
+      "i": 4,
+      "top": 6828,
+      "text": "curl --request GET \\\n  --url https://api.hellotext.com/v1/templates/TEMPLATE_ID \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\"\n",
+      "width": 774,
+      "scrollWidth": 774
+    },
+    {
+      "i": 5,
+      "top": 7686,
+      "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/messages \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"profile\": \"PROFILE_ID\",\n    \"technology\": \"whatsapp\",\n    \"template\": {\n      \"id\": \"TEMPLATE_ID\",\n      \"shortlinks\": {\n        \"order\": \"https://shop.example.com/account/orders/1001\"\n      }\n    }\n  }'\n",
+      "width": 774,
+      "scrollWidth": 774
+    },
+    {
+      "i": 6,
+      "top": 8222,
+      "text": "{\n  \"status\": \"received\"\n}\n",
+      "width": 774,
+      "scrollWidth": 774
+    }
+  ]
+}
