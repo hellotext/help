@@ -1,11 +1,11 @@
 Website Popup lets you collect phone numbers, email addresses, and other customer profile information without sending visitors away from your website.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Complete popup editor with Style, Layout, Settings, steps and a mobile preview with a header image.">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Full editor on wide screens; focused first-step preview on smaller screens. Both views include an example header photograph.">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 1266px; width: fit-content; margin: 0 auto;">
       <picture>
         <source media="(max-width: 1399px)" srcset="/images/captures/website-popup/editor-follow-up/en/steps-mobile.png 2x" width="764" height="1176" />
-        <img class="ht-editorial-visual__image" src="/images/captures/website-popup/editor-follow-up/en/overview.png" srcset="/images/captures/website-popup/editor-follow-up/en/overview.png 2x" width="2496" height="1608" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Complete popup editor with Style, Layout, Settings, steps and a mobile preview with a header image." />
+        <img class="ht-editorial-visual__image" src="/images/captures/website-popup/editor-follow-up/en/overview.png" srcset="/images/captures/website-popup/editor-follow-up/en/overview.png 2x" width="2496" height="1608" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Full editor on wide screens; focused first-step preview on smaller screens. Both views include an example header photograph." />
       </picture>
     </div>
   </div>
@@ -65,12 +65,12 @@ For channel eligibility and consent, see [Who you can message]({% link _audience
 
 The mobile and desktop icons switch the editor view. **Preview** opens a separate view where you can review the experience without publishing the popup. Check both views while you work rather than treating the desktop preview as the final version for every visitor.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Email, First name and Completed steps, device selectors and a fictional popup with a header photograph.">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Steps and device selectors beside the fictional popup; smaller screens show the focused first-step preview with a header photograph.">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 548px; width: fit-content; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/captures/website-popup/editor-follow-up/en/steps-mobile.png 2x" width="764" height="1176" />
-        <img class="ht-editorial-visual__image" src="/images/captures/website-popup/editor-follow-up/en/steps.png" srcset="/images/captures/website-popup/editor-follow-up/en/steps.png 2x" width="1060" height="1392" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Email, First name and Completed steps, device selectors and a fictional popup with a header photograph." />
+        <img class="ht-editorial-visual__image" src="/images/captures/website-popup/editor-follow-up/en/steps.png" srcset="/images/captures/website-popup/editor-follow-up/en/steps.png 2x" width="1060" height="1392" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Steps and device selectors beside the fictional popup; smaller screens show the focused first-step preview with a header photograph." />
       </picture>
     </div>
   </div>
@@ -90,12 +90,12 @@ For each step, you can:
 - Add, remove, rename, and reorder steps.
 - Preview how the step looks on mobile and desktop.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Field type, placeholder and required email controls beside the fictional popup with a header image.">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Field type, placeholder and required email controls; wide screens also show the fictional popup with a header image.">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 772px; width: fit-content; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/captures/website-popup/editor-follow-up/en/fields-mobile.png 2x" width="712" height="516" />
-        <img class="ht-editorial-visual__image" src="/images/captures/website-popup/editor-follow-up/en/fields.png" srcset="/images/captures/website-popup/editor-follow-up/en/fields.png 2x" width="1508" height="1380" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Field type, placeholder and required email controls beside the fictional popup with a header image." />
+        <img class="ht-editorial-visual__image" src="/images/captures/website-popup/editor-follow-up/en/fields.png" srcset="/images/captures/website-popup/editor-follow-up/en/fields.png 2x" width="1508" height="1380" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Field type, placeholder and required email controls; wide screens also show the fictional popup with a header image." />
       </picture>
     </div>
   </div>

@@ -1,11 +1,11 @@
 Popup de Sitio Web te permite captar números de teléfono, direcciones de email y otros datos del perfil del cliente sin sacar a los visitantes de tu sitio.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Editor completo del popup con Estilo, Diseño, Ajustes, pasos y vista móvil con imagen de cabecera.">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Editor completo en pantallas amplias; vista enfocada del primer paso en pantallas pequeñas. Ambas vistas incluyen una fotografía en la cabecera.">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 1266px; width: fit-content; margin: 0 auto;">
       <picture>
         <source media="(max-width: 1399px)" srcset="/images/captures/website-popup/editor-follow-up/es/steps-mobile.png 2x" width="764" height="1240" />
-        <img class="ht-editorial-visual__image" src="/images/captures/website-popup/editor-follow-up/es/overview.png" srcset="/images/captures/website-popup/editor-follow-up/es/overview.png 2x" width="2496" height="1568" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Editor completo del popup con Estilo, Diseño, Ajustes, pasos y vista móvil con imagen de cabecera." />
+        <img class="ht-editorial-visual__image" src="/images/captures/website-popup/editor-follow-up/es/overview.png" srcset="/images/captures/website-popup/editor-follow-up/es/overview.png 2x" width="2496" height="1568" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Editor completo en pantallas amplias; vista enfocada del primer paso en pantallas pequeñas. Ambas vistas incluyen una fotografía en la cabecera." />
       </picture>
     </div>
   </div>
@@ -65,12 +65,12 @@ Para revisar elegibilidad por canal y consentimiento, consulta [A quién puedes 
 
 Los íconos de móvil y escritorio cambian la vista del editor. **Vista previa** abre una vista separada que permite revisar la experiencia sin publicar el popup. Revisa ambas mientras trabajas en lugar de considerar que la vista de desktop representa el resultado final para todos los visitantes.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Pasos Email, Nombre y Completado, selectores de dispositivo y popup ficticio con fotografía en la cabecera.">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Pasos y selectores de dispositivo junto al popup ficticio; en pantallas pequeñas, vista enfocada del primer paso con fotografía en la cabecera.">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 538px; width: fit-content; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/captures/website-popup/editor-follow-up/es/steps-mobile.png 2x" width="764" height="1240" />
-        <img class="ht-editorial-visual__image" src="/images/captures/website-popup/editor-follow-up/es/steps.png" srcset="/images/captures/website-popup/editor-follow-up/es/steps.png 2x" width="1040" height="1352" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Pasos Email, Nombre y Completado, selectores de dispositivo y popup ficticio con fotografía en la cabecera." />
+        <img class="ht-editorial-visual__image" src="/images/captures/website-popup/editor-follow-up/es/steps.png" srcset="/images/captures/website-popup/editor-follow-up/es/steps.png 2x" width="1040" height="1352" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Pasos y selectores de dispositivo junto al popup ficticio; en pantallas pequeñas, vista enfocada del primer paso con fotografía en la cabecera." />
       </picture>
     </div>
   </div>
@@ -90,12 +90,12 @@ En cada paso puedes:
 - Agregar, eliminar, renombrar y reordenar pasos.
 - Ver cómo se muestra el paso en mobile y desktop.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Controles de tipo de campo, marcador y email requerido junto al popup ficticio con imagen de cabecera.">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Controles de tipo de campo, marcador y email requerido; en pantallas amplias también se muestra el popup ficticio con imagen de cabecera.">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 772px; width: fit-content; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/captures/website-popup/editor-follow-up/es/fields-mobile.png 2x" width="712" height="516" />
-        <img class="ht-editorial-visual__image" src="/images/captures/website-popup/editor-follow-up/es/fields.png" srcset="/images/captures/website-popup/editor-follow-up/es/fields.png 2x" width="1508" height="1340" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Controles de tipo de campo, marcador y email requerido junto al popup ficticio con imagen de cabecera." />
+        <img class="ht-editorial-visual__image" src="/images/captures/website-popup/editor-follow-up/es/fields.png" srcset="/images/captures/website-popup/editor-follow-up/es/fields.png 2x" width="1508" height="1340" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Controles de tipo de campo, marcador y email requerido; en pantallas amplias también se muestra el popup ficticio con imagen de cabecera." />
       </picture>
     </div>
   </div>
