@@ -192,8 +192,8 @@ Si no necesitas seguimiento, puedes dejar las selecciones vacías. El ejemplo mu
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Selectores de cupón y ruta, con GUIA-QR-10 seleccionado de forma transitoria.">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 422px; width: fit-content; margin: 0 auto;">
-      <img class="ht-editorial-visual__image" src="/images/captures/website-popup/assignment-label-refresh/es.png" srcset="/images/captures/website-popup/assignment-label-refresh/es.png 2x" width="808" height="456" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Selectores de cupón y ruta, con GUIA-QR-10 seleccionado de forma transitoria." />
+    <div class="ht-editorial-visual__image-frame" style="max-width: 403px; width: fit-content; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/captures/website-popup/assignment-es.png" srcset="/images/captures/website-popup/assignment-es.png 2x" width="806" height="458" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Selectores de cupón y ruta, con GUIA-QR-10 seleccionado de forma transitoria." />
     </div>
   </div>
   <figcaption class="ht-editorial-visual__caption">El cupón es un ejemplo ficticio; la selección no se guardó y la ruta está sin asignar. No se muestra una entrega.</figcaption>
