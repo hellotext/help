@@ -34,3 +34,7 @@ Two complementary static figures per locale, all eight approved native PNGs reus
 No application UI or database accessed for this batch. No fixture/locale/token/message/event/template/link/object mutation, API example, delivery, send/test or worker. Existing shared sources and UI evidence remain at their original paths, including all historical proofs. Primary campaign branch and unrelated local dependencies preserved.
 
 Publication is pending until protected checks/review, main Build, normal exact production deployment and public page/PNG verification complete. Content verifier: `8bed47fac86a9f0bf6007ee6223d355aa372d638`. Ledger:62local_verified/91pending/1out_of_scope, all62verifiers are ancestors of this branch.
+
+## Original snapshot archival format
+
+Aikido flagged the literal documented YOUR_TOKEN placeholder in the added English historical curl snapshot as a potential credential. Inspection confirms no credential: the source is the immutable pre-edit article and its SHA matches the inventory. Store both locale snapshots as deterministic lossless gzip archives, keeping exact decompressed bytes and independent archive hashes. The supported snapshot metadata declares gzip and verification decompresses it before comparing original headings/links/hashes. Live article headers remain explicit placeholders. No ignore rule, check override or protection bypass; current-head Aikido must pass before merge.
