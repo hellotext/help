@@ -29,3 +29,7 @@ Read-only Rails5403a7dcb (#6054), official API and the actually published npm2.6
 ## Local verification completed
 
 Both complete articles were reread and visually reviewed at 1440/390/580 CSS px, including all eleven original sections, two copyable examples and four useful figures per locale. Original links, titles/slugs/locales/stub/publication and immutable snapshots remain intact. Bash and JSON passed syntax-only checks; no request was executed. All sixteen original PNGs were inspected, with native P3/2× profiles and source/asset/root-build/ES-build hashes matching original provenance. Responsive sources retain native logical widths; caps add18px inset/border (token558, manual449, order521, business886). Full lavender stages, legible two-column HTTP table, no page overflow, upscale, image link or open control. Browser QA uses one isolated loopback Help tab with PID/profile/port/DPR/zoom/P3 pre/post guards. Build/security headers and whitespace checks passed. No renderer/shared guide/CSS/migration tests or app/DB/UI/fixture/locale/token/object/event/message/test/send/worker action. Local verification complete; protected publication remains pending.
+
+## Verifier and reconciliation
+
+Verifier commit `2c862e33f65e4690613c586987f0dea9bb757677` contains the completed articles and local evidence. The ledger child records 68 local_verified, 85 pending and one out_of_scope. Public verification remains pending until protected merge, exact main Build and normal production deployment, and page/PNG checks.
