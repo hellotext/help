@@ -1,62 +1,101 @@
-Hellotext puede registrar la actividad de un visitante antes de saber quién es. Hellotext.js crea o reutiliza una sesión anónima y la incluye en la actividad del navegador. Cuando el visitante se convierte en un cliente conocido, puedes asociar esa sesión con el perfil del cliente para conservar el historial completo.
+Hellotext puede registrar actividad antes de conocer la identidad de un visitante. Una sesión conecta esa actividad del navegador con un perfil del cliente cuando tu aplicación confirma quién es. La asociación permite recuperar actividad anónima compatible; no garantiza recuperar eventos que nunca llegaron, resolver conflictos ni atribuir todas las conversiones a un mensaje.
 
-La sesión, el perfil del cliente y el consentimiento son conceptos diferentes:
+Distingue estos valores antes de integrar:
 
-- La **sesión** conecta la actividad de un navegador.
-- El **perfil del cliente** reúne identidad, propiedades, conversaciones y señales conocidas.
-- El **consentimiento** determina si puedes enviar mensajes por un canal. Identificar al cliente no lo convierte automáticamente en suscriptor.
+| Valor | Uso |
+| --- | --- |
+| **ID público del negocio** | Inicializa Hellotext.js en el navegador. |
+| **Sesión de Hellotext** | Identificador del contexto de actividad; puede ser un UUID del navegador o el ID de una sesión existente. No autentica a tu cliente. |
+| **ID público del perfil del cliente** | Lo resuelve tu backend en Hellotext para adjuntar la sesión. Es diferente del ID de tu tienda. |
+| **Token privado de API** | Autoriza la request del backend para ese negocio; nunca se publica en JavaScript. |
+| **Consentimiento** | Autoriza mensajes por un canal. Identificar o adjuntar una sesión no lo establece. |
 
-Si estás conectando una tienda propia desde cero, comienza con [Integra una tienda propia con Hellotext]({% link _developers/custom-store-integration.md %}).
+Si estás conectando una tienda propia desde cero, comienza con [Integra una tienda propia con Hellotext]({% link _developers/custom-store-integration.md %}). Los ejemplos siguientes corresponden al SDK publicado `@hellotext/hellotext` **2.6.0** y requieren que la librería ya esté cargada.
 
 ## 1. Obtén la sesión anónima
 
-Hellotext.js busca una sesión existente en la URL o en el navegador. Si no encuentra una y la generación automática está habilitada, crea una nueva.
+En Configuración, localiza el **ID del negocio** público que usarás como `BUSINESS_ID`:
 
-Después de inicializar Hellotext.js, lee la sesión actual:
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Configuración del negocio ficticio Enterprise con ID del negocio 4ONLdN32 y Editar negocio.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="width: fit-content; max-width: 886px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 470px)" srcset="/images/developers/custom-store-integration/business-es-mobile.png 2x" width="748" height="524" />
+        <img src="/images/developers/custom-store-integration/business-es.png" srcset="/images/developers/custom-store-integration/business-es.png 2x" style="width: auto; margin: 0 auto;" width="1736" height="404" loading="lazy" decoding="async" alt="Configuración del negocio ficticio Enterprise con ID del negocio 4ONLdN32 y Editar negocio." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real de una base local aislada. El ID público pertenece solo al negocio ficticio; no es un token privado ni un ejemplo de precio Enterprise.</figcaption>
+</figure>
+
+La selección de sesión sigue este orden: `hello_session` en la URL, la opción `session` de inicialización y la cookie existente. Si falta una sesión y `autoGenerateSession` está habilitado, el SDK genera un UUID. Un link personalizado puede traer una sesión ya vinculada a su destinatario: tener un identificador no significa que la sesión sea anónima ni que pertenezca a la cuenta que acaba de iniciar sesión.
+
+Inicializa una vez y espera la Promise antes de continuar:
 
 ```javascript
-if (Hellotext.isInitialized) {
+(async () => {
+  await Hellotext.initialize('BUSINESS_ID')
+
   const sessionId = Hellotext.session
-}
+  if (!sessionId) {
+    throw new Error('Hellotext session is not available')
+  }
+
+  // Use sessionId only after resolving your application's authentication state.
+})().catch(error => console.error(error))
 ```
 
-Si la librería todavía no terminó de inicializarse, `Hellotext.session` puede ser `undefined`. Puedes escuchar el momento en que la sesión queda disponible:
+`Hellotext.isInitialized` indica que existe un valor de sesión; puede ser verdadero antes de que termine la Promise de inicialización. Tampoco acredita que la sesión esté guardada en el servidor.
+
+Si necesitas observar cambios de sesión, registra este listener **antes** de llamar a `initialize()`:
 
 ```javascript
 Hellotext.on('session-set', sessionId => {
-  console.log('Hellotext session:', sessionId)
+  if (!sessionId) return
+
+  // Observe the local session change; do not identify a customer here.
 })
 ```
 
-Hellotext.js incluye la sesión automáticamente cuando registra actividad. Guarda el ID en tu backend únicamente cuando necesites asociarlo más adelante con un cliente conocido. Nunca envíes el token privado de la API al navegador.
+El evento puede emitir un valor vacío antes de generar el UUID y ocurre al escribir la cookie, no al confirmar la asociación. No reemplaza el `await` ni vuelve a emitir por registrar un listener tarde.
 
-Consulta [Sesiones en Hellotext.js](https://github.com/hellotext/hellotext.js/blob/main/docs/sessions.md) para ver las opciones vigentes de inicialización y eventos de la librería.
+El SDK intenta reconocer la sesión mediante una request de acknowledgment. El valor local y la cookie de acknowledgment no prueban que el servidor la haya materializado: puede existir solo información temporal hasta procesar actividad o identificación. No registres eventos falsos para eliminar un `404`. Registra `page.viewed` explícitamente una vez por vista real si tu integración lo necesita; la inicialización no lo registra automáticamente. Aplica tu política de consentimiento antes de cargar el SDK o enviar actividad.
+
+Consulta [Sesiones en Hellotext.js](https://github.com/hellotext/hellotext.js/blob/main/docs/sessions.md) para las opciones de la librería. Para el orden de ejecución y los límites de persistencia, utiliza las precisiones anteriores de la versión publicada.
 
 ## 2. Identifica al cliente en el momento correcto
 
-Asocia la sesión cuando tu aplicación ya pueda reconocer de forma confiable al cliente, por ejemplo:
+Asocia la sesión cuando tu aplicación reconozca al cliente de forma confiable:
 
-- Después de que inicia sesión correctamente.
-- Después de completar el registro y crear su cuenta.
-- Durante el checkout, cuando el backend crea o encuentra un perfil del cliente confiable.
+- Después de un login autenticado o un registro completado.
+- Durante un checkout cuando el backend resuelva una identidad verificada.
+- Después de comprobar que la sesión recibida corresponde al contexto actual de esa cuenta.
 
-No identifiques a una persona solamente porque escribió un email o teléfono en un campo que todavía no fue confirmado. Tampoco marques el perfil del cliente como suscrito salvo que tengas consentimiento válido para el canal correspondiente.
-
-En una aplicación de una sola página, espera a conocer el estado de autenticación antes de asociar la sesión. Esto evita atribuir la primera actividad del navegador al cliente equivocado.
+Un email o teléfono escrito en un campo no confirma identidad ni consentimiento. Resuelve la cuenta desde la autenticación de tu aplicación; no aceptes el perfil que el navegador elija. En una aplicación de una sola página, espera esa resolución antes de identificar o registrar eventos autenticados y evita enviar la misma actividad por navegador y backend.
 
 ## 3. Adjunta la sesión desde el backend
 
-Este es el método recomendado para una tienda propia porque el backend controla la identidad y mantiene privado el token de la API.
+Para una tienda propia, utiliza el backend con un token privado del mismo negocio y una suscripción que permita acceso a API. El **Nombre del token** ayuda a reconocer su propósito; no es la credencial que debe ir en `Authorization`:
 
-1. Lee `Hellotext.session` en el navegador.
-2. Envía el ID de la sesión a tu backend junto con la request autenticada del cliente.
-3. Resuelve el cliente usando la sesión de autenticación de tu aplicación. No confíes en un ID de perfil del cliente enviado directamente por el navegador.
-4. Crea o encuentra el perfil del cliente en Hellotext y conserva su ID.
-5. Adjunta la sesión con el token privado de la API.
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Crear un token nuevo con Nombre del token Tienda propia · desarrollo, en un borrador sin guardar.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="width: fit-content; max-width: 558px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 470px)" srcset="/images/developers/custom-store-integration/token-spacing/token-es-mobile.png 2x" width="748" height="432" />
+        <img src="/images/developers/custom-store-integration/token-spacing/token-es.png" srcset="/images/developers/custom-store-integration/token-spacing/token-es.png 2x" style="width: auto; margin: 0 auto;" width="1080" height="476" loading="lazy" decoding="async" alt="Crear un token nuevo con Nombre del token Tienda propia · desarrollo, en un borrador sin guardar." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real del formulario de autorización, con un nombre ficticio sin guardar. No se creó ni expuso ningún token privado.</figcaption>
+</figure>
 
-Si el perfil del cliente todavía no existe, créalo primero mediante [Crear un perfil del cliente](https://www.hellotext.com/api#create_a_profile). Crear el perfil no establece consentimiento.
+1. Espera la inicialización y lee `Hellotext.session`.
+2. Envía la sesión a tu backend en una request autenticada. Valida su relación con el navegador y la cuenta actuales; la sesión de Hellotext no sustituye la autenticación.
+3. Crea o encuentra el perfil correcto y guarda la correspondencia entre el ID de tu aplicación y el **ID público de Hellotext**.
+4. Confirma que la sesión exista en ese negocio y que no corresponda a otra persona.
+5. Adjunta la sesión, verifica el resultado y conserva evidencia de la asociación antes de enviar eventos autenticados con ambos valores.
 
-Adjunta la sesión existente:
+Si necesitas crear el perfil, usa [Crear un perfil del cliente](https://www.hellotext.com/api#create_a_profile). Crear un perfil puede guardar datos y activar flujos configurados; no equivale a consentimiento. `PROFILE_ID` debe ser el ID público de ese perfil, no su email, el ID del negocio ni el ID de Shopify.
 
 ```bash
 curl --request PATCH \
@@ -68,77 +107,89 @@ curl --request PATCH \
   }'
 ```
 
-Una request válida responde con HTTP `200` y el objeto de la sesión actualizado, incluyendo el perfil del cliente asociado. La actividad anónima anterior pasa a formar parte del historial del cliente; algunos datos pueden terminar de asociarse en segundo plano.
+`HELLOTEXT_SESSION_ID` acepta el UUID del SDK o el ID de una sesión existente. Ambos recursos se buscan dentro del negocio del token. Una sesión aún inexistente responde `404`.
 
-Consulta [Adjuntar una sesión](https://www.hellotext.com/api#attach_session) para ver el contrato completo del endpoint.
+La implementación actual responde `200` con el objeto de sesión después de intentar adjuntarla, **incluso si rechaza cambiar su propietario**. No uses solo el HTTP como confirmación. Además, `profile` en la respuesta actual representa un identificador interno numérico del contacto o `null`; no es el ID público enviado en la request y no debes reutilizarlo como `PROFILE_ID`. Verifica la identidad mediante una correspondencia confiable y la actividad del perfil correcto, como se explica más abajo. Si no puedes confirmar esa correspondencia, trata la asociación como pendiente.
+
+Cuando se acepta, la terminación del historial ocurre en segundo plano: vincula actividad sin perfil, procesa actividad anónima elegible y puede asociar carritos. No mueve eventos ya identificados a otra persona ni sobrescribe toda la atribución. Conserva las fechas originales; las ventanas de atribución y el origen de cada evento siguen aplicándose.
+
+Consulta [Adjuntar una sesión](https://www.hellotext.com/api#attach_session). Esta guía precisa los límites observados en la implementación actual frente a la descripción general del endpoint.
 
 ## 4. Usa la identificación en el navegador solo cuando sea necesario
 
-Hellotext.js ofrece `identify()` para integraciones compatibles que solo pueden obtener la identidad en el navegador:
+`identify()` necesita una integración de origen realmente configurada. Para Shopify, usa el ID estable de un cliente real de la tienda conectada; el primer argumento es el **ID de Shopify**, no el ID público de un perfil de Hellotext. Llama a esta función después de esperar la inicialización y confirmar la autenticación:
 
 ```javascript
-const response = await Hellotext.identify('user_123', {
-  source: 'shopify',
-  email: 'ana@example.com',
-  name: 'Ana Silva',
-})
+async function identifyShopifyCustomer(shopifyCustomerId) {
+  if (!Hellotext.session || !shopifyCustomerId) {
+    throw new Error('A session and authenticated Shopify customer are required')
+  }
 
-if (response.failed) {
-  console.error(response.data)
+  const response = await Hellotext.identify(String(shopifyCustomerId), {
+    source: 'shopify',
+  })
+
+  if (response.failed) {
+    throw new Error('Identification request was rejected')
+  }
+
+  return await response.json()
 }
 ```
 
-Usa como primer argumento el identificador estable del cliente en la plataforma de origen. El valor de `source` debe corresponder a una fuente compatible con Hellotext.js. Para una tienda propia, prefiere adjuntar la sesión desde el backend; no inventes un valor de `source`.
+Captura también los errores de red en el código que llama a la función. El wrapper ofrece `failed`, `succeeded` y `json()`. En SDK2.6.0 el resultado en caché también usa ese wrapper: `await response.json()` devuelve `{ already_identified: true }`. Cuando hay una request, `data` contiene la respuesta de `fetch`; en la ruta local contiene el adaptador de lectura. Usa `json()` para obtener el objeto procesado en ambos casos.
 
-Cuando la identificación tiene éxito, Hellotext.js conserva la identidad en el navegador y la incluye en la actividad posterior. No necesitas llamar a `identify()` en cada página si el cliente y los datos enviados no cambiaron.
+Una respuesta HTTP aceptada puede contener `received`: el servidor encola la identificación. No devuelve un ID de perfil ni garantiza que la tienda, el cliente o la asociación se hayan procesado. El SDK guarda la identidad local cuando recibe éxito HTTP, aunque el trabajo posterior falle. Confirma el resultado en el perfil antes de asumir que terminó.
 
-No incluyas un estado de suscripción salvo que tu aplicación tenga evidencia válida del consentimiento.
+Si sesión, cliente y datos normalizados coinciden con la identificación recordada, el SDK puede devolver `already_identified: true` sin otra request. Eso indica una coincidencia local, no una nueva comprobación del servidor. No reintentes en bucle para fabricar una confirmación. Para una tienda propia, adjunta desde el backend; inventar `source: 'custom_store'` no crea una integración compatible. No envíes un estado de suscripción sin evidencia válida de consentimiento.
 
 ## 5. Olvida la identidad al cerrar sesión
 
-Cuando el cliente cierre sesión en tu aplicación, llama a:
+Cuando el cliente cierre sesión en tu aplicación, si utilizaste `identify()`, llama a:
 
 ```javascript
 Hellotext.forget()
 ```
 
-Esto elimina del navegador la identidad persistida por `identify()`, pero mantiene activa la sesión de Hellotext. No elimina el perfil del cliente, su historial ni su consentimiento, y tampoco deshace una asociación realizada previamente desde el backend.
+Elimina las cookies de identidad recordada, origen del usuario y huella de identificación. **Mantiene la sesión de Hellotext y su asociación previa en el servidor**: no vuelve anónima la actividad futura por sí solo, no cierra la sesión de tu aplicación y no elimina perfil, historial ni consentimiento.
 
-Si varias cuentas pueden usar el mismo navegador, tu backend debe comprobar cada transición de login. No intentes mover una sesión que ya pertenece a un perfil del cliente diferente.
+Antes de registrar actividad de otra cuenta, detén el seguimiento que conserve el contexto anterior y establece una sesión separada mediante el ciclo de inicialización de tu integración. Puedes proporcionar un nuevo UUID válido con la opción `session`, pero primero evita que un `hello_session` antiguo en la URL lo sobrescriba; después espera la inicialización y verifica el ID efectivo. No generes una sesión nueva en cada vista ni reutilices un link personalizado de otra persona para iniciar la siguiente cuenta.
 
 ## 6. Maneja sesiones que ya tienen un cliente
 
-Una sesión puede adjuntarse nuevamente al mismo perfil del cliente, pero no debe reutilizarse para otro cliente. Antes de considerar exitosa la asociación, comprueba el campo `profile` de la respuesta.
+Adjuntar nuevamente al mismo cliente no equivale a mover una sesión entre cuentas. La implementación puede fusionar un contacto anónimo con uno conocido compatible, pero rechaza sustituir un propietario conocido diferente. No utilices esa fusión como un mecanismo general para cambiar de cuenta.
 
-Si la sesión ya pertenece a otro perfil del cliente:
+Antes de considerar exitosa la asociación:
 
-- No reasignes la actividad anterior al cliente actual.
-- Detén el proceso de asociación y revisa por qué se compartió la sesión.
-- Confirma que `Hellotext.forget()` se ejecute al cerrar sesión cuando uses `identify()`.
-- Revisa el ciclo de sesiones de tu aplicación antes de registrar más eventos autenticados.
+- Valida el perfil público resuelto por tu backend y el contexto de sesión recibido.
+- Recuerda que el `profile` numérico de la respuesta actual no puede compararse directamente con tu ID público. `null` indica ausencia de asociación; un valor no nulo por sí solo no identifica al cliente esperado.
+- Comprueba en el perfil correcto la actividad esperada después del procesamiento. Si no dispones de una correspondencia confiable o el resultado apunta a otra persona, detén los eventos autenticados y revisa el conflicto.
 
-Cuando envías `profile` y `session` juntos al registrar un evento, ambos deben pertenecer al mismo cliente. Consulta [Seguimiento de origen externo]({% link _developers/external-tracking.md %}) para ver esa validación.
+`forget()` no desadjunta ni corrige una sesión compartida. No reasignes el historial previo al nuevo cliente. Cuando envíes `profile` y `session` juntos al registrar un evento, ambos deben pertenecer al mismo cliente del mismo negocio; consulta [Seguimiento de origen externo]({% link _developers/external-tracking.md %}).
 
 ## 7. Verifica el flujo completo
 
-Prueba con un cliente reconocible:
+En un entorno de prueba autorizado, con identidad y consentimiento ficticios coherentes:
 
-1. Abre la tienda sin iniciar sesión y confirma que Hellotext.js tenga una sesión.
-2. Registra actividad anónima, como una vista de producto o una actualización del carrito.
-3. Inicia sesión o completa el checkout.
-4. Crea o encuentra el perfil del cliente correcto en Hellotext.
-5. Adjunta la sesión desde el backend.
-6. Confirma que la respuesta contenga el perfil del cliente esperado.
-7. Verifica que la actividad anterior y los eventos nuevos aparezcan en ese perfil del cliente.
-8. Cierra sesión y confirma que tu aplicación llame a `Hellotext.forget()` si usó `identify()`.
+1. Confirma la versión del SDK, el negocio público y la inicialización esperada.
+2. Comprueba el ID efectivo, su precedencia URL/configuración/cookie y si ya existe en el servidor.
+3. Registra solo actividad de prueba legítima, con sus fechas originales, sin duplicarla.
+4. Autentica la cuenta en tu aplicación y resuelve su perfil público de Hellotext desde el backend.
+5. Adjunta la sesión y revisa el objeto devuelto, incluyendo la limitación del identificador interno.
+6. Espera el procesamiento y comprueba que la actividad anterior elegible y la posterior aparecen en el perfil correcto. Identidad, atribución y suscripción se verifican por separado.
+7. Cierra sesión, ejecuta `forget()` si corresponde y valida una sesión separada antes de registrar actividad de otra cuenta.
+8. Comprueba también un conflicto y un fallo de red sin mover el historial ni repetir una request de resultado incierto.
 
 ## Soluciona problemas comunes
 
-- **La sesión es `undefined`:** espera a que Hellotext.js se inicialice o escucha `session-set`.
-- **La API responde `401`:** revisa el token privado y el encabezado `Authorization`.
-- **La API responde `404`:** la sesión puede no existir para ese negocio o todavía no haber sido enviada a Hellotext mediante actividad del navegador.
-- **La respuesta muestra otro perfil del cliente:** trata el caso como un conflicto de identidad y no continúes registrando eventos autenticados con esa sesión.
-- **La actividad anterior no aparece inmediatamente:** la asociación puede completarse en segundo plano; espera el procesamiento y vuelve a revisar.
+- **Sesión `undefined`:** espera la Promise, comprueba `autoGenerateSession`, la configuración y el contexto del navegador. Un listener tardío puede perder el evento; un evento local no prueba inicialización completa.
+- **`401` o `403`:** revisa el token privado, el negocio, el encabezado `Authorization` y el acceso de la suscripción a API.
+- **`404`:** puede faltar una sesión materializada en ese negocio. El UUID local o el acknowledgment no garantizan que exista; revisa actividad real y procesamiento, sin crear eventos falsos.
+- **HTTP `200`, pero sin asociación confirmada:** valida el perfil existente, la propiedad de la sesión y el procesamiento. No compares el identificador interno de respuesta con el público ni supongas que `received` o `already_identified` acreditan el resultado.
+- **No funciona `identify()`:** confirma el origen compatible, la conexión y el ID real de la plataforma. Un nombre de origen no implementa una integración; utiliza el backend para una tienda propia.
+- **Actividad de otra cuenta después del logout:** `forget()` conserva la sesión. Revisa su rotación y los parámetros de un link personalizado antes de continuar.
+- **Actividad previa pendiente:** revisa colas, fechas, elegibilidad y perfil correcto. Adjuntar no recupera solicitudes nunca registradas ni garantiza atribución retroactiva.
+- **Timeout o conexión interrumpida:** la operación puede haber llegado. Revisa el resultado antes de reintentar; no supongas idempotencia general ni que repetir la identificación completa el trabajo anterior.
 
 Si continúan faltando señales, usa [Soluciona señales o actividad faltante]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %}).
 

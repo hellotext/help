@@ -1,0 +1,567 @@
+{
+  "status": "local_verified_publication_pending",
+  "baseline_main": "1f98bd5fceafc3c6eeabfadf5176a7fdec1b9e41",
+  "article_key": "developers/tracking-unidentified-customers.md",
+  "originals": [
+    {
+      "article": "_i18n/es/developers/tracking-unidentified-customers.md",
+      "snapshot": "docs/editorial-work/captures/tracking-unidentified-customers/originals/es.md",
+      "sha256": "b138a213dd80616b67e504e1aa9814606025faea7bc1981245cfa8fc36b90ef6"
+    },
+    {
+      "article": "_i18n/en/developers/tracking-unidentified-customers.md",
+      "snapshot": "docs/editorial-work/captures/tracking-unidentified-customers/originals/en.md",
+      "sha256": "18cc6707afd8ce89daf911512247169dd175ddba2e82a1d1a22fb964b4409a1a"
+    },
+    {
+      "article": "_developers/tracking-unidentified-customers.md",
+      "snapshot": "docs/editorial-work/captures/tracking-unidentified-customers/originals/stub.md",
+      "sha256": "a77605967ed0d51087791b811b09d0b381ab6532b9192feb3898f41c9ccadfbf"
+    }
+  ],
+  "images": [
+    {
+      "name": "business-es",
+      "concept": "business",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/custom-store-integration/business-es-original.png",
+      "published_asset": "images/developers/custom-store-integration/business-es.png",
+      "native": {
+        "sha256": "17ec399500cee235d73459ced0de47fac99054987976a56f4e09603150ef5dfb",
+        "url": "http://127.0.0.1:3192/hellotext/settings",
+        "locale": "es",
+        "cssViewport": [
+          1200,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          308,
+          147,
+          868,
+          202
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1736,
+          404
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        868.0,
+        202.0
+      ],
+      "intended_max_display_width_css": 868.0,
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-es-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved existing source and asset; no duplicate PNG uploaded in this batch.",
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+      "reuse": true
+    },
+    {
+      "name": "business-es-mobile",
+      "concept": "business",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/custom-store-integration/business-es-mobile-original.png",
+      "published_asset": "images/developers/custom-store-integration/business-es-mobile.png",
+      "native": {
+        "sha256": "0c7ac4c233075fa5d072e27ac33e7947092bf6406858524ab12fa546be553ed8",
+        "url": "http://127.0.0.1:3192/hellotext/settings",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          8,
+          336,
+          374,
+          262
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          748,
+          524
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        374.0,
+        262.0
+      ],
+      "intended_max_display_width_css": 374.0,
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-es-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved existing source and asset; no duplicate PNG uploaded in this batch.",
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+      "reuse": true
+    },
+    {
+      "name": "business-en",
+      "concept": "business",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/custom-store-integration/business-en-original.png",
+      "published_asset": "images/developers/custom-store-integration/business-en.png",
+      "native": {
+        "sha256": "1f7f132b2245056eda5166b1b1cfdbeee406ebcf7bad4a13a6eb3fd501184d7f",
+        "url": "http://127.0.0.1:3192/hellotext/settings",
+        "locale": "en",
+        "cssViewport": [
+          1200,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          308,
+          147,
+          868,
+          202
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1736,
+          404
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        868.0,
+        202.0
+      ],
+      "intended_max_display_width_css": 868.0,
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-en-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved existing source and asset; no duplicate PNG uploaded in this batch.",
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+      "reuse": true
+    },
+    {
+      "name": "business-en-mobile",
+      "concept": "business",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/custom-store-integration/business-en-mobile-original.png",
+      "published_asset": "images/developers/custom-store-integration/business-en-mobile.png",
+      "native": {
+        "sha256": "c7badab42d6878393ab746c2950605b8153dc38d60ac1ae09c747a949706bfeb",
+        "url": "http://127.0.0.1:3192/hellotext/settings",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          8,
+          336,
+          374,
+          262
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          748,
+          524
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        374.0,
+        262.0
+      ],
+      "intended_max_display_width_css": 374.0,
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-en-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved existing source and asset; no duplicate PNG uploaded in this batch.",
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+      "reuse": true
+    },
+    {
+      "name": "token-es",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/token-es-original.png",
+      "published_asset": "images/developers/custom-store-integration/token-spacing/token-es.png",
+      "native": {
+        "output": "/private/tmp/hellotext-token-spacing-refresh/native/token-es-original.png",
+        "sha256": "9edcb6a1e9354047b98feb41d5a10b613acdaed33e1dfce768406dd6f3504f8a",
+        "url": "http://127.0.0.1:3192/hellotext/settings/authorizations/new",
+        "locale": "es",
+        "cssViewport": [
+          1200,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          92,
+          124,
+          540,
+          238
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1080,
+          476
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        540,
+        238
+      ],
+      "intended_max_display_width_css": 540,
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/token-es-ui.json",
+      "corrected_label_input_gap_css": 8,
+      "reuse": true,
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved existing source and asset; no duplicate PNG uploaded in this batch.",
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/capture-provenance.json"
+    },
+    {
+      "name": "token-es-mobile",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/token-es-mobile-original.png",
+      "published_asset": "images/developers/custom-store-integration/token-spacing/token-es-mobile.png",
+      "native": {
+        "output": "/private/tmp/hellotext-token-spacing-refresh/native/token-es-mobile-original.png",
+        "sha256": "6c9ef30747a2fe23a65542aa040142515cfe034a5df24c6a51e0161f4052b94b",
+        "url": "http://127.0.0.1:3192/hellotext/settings/authorizations/new",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          8,
+          40,
+          374,
+          216
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          748,
+          432
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        374,
+        216
+      ],
+      "intended_max_display_width_css": 374,
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/token-es-mobile-ui.json",
+      "corrected_label_input_gap_css": 8,
+      "reuse": true,
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved existing source and asset; no duplicate PNG uploaded in this batch.",
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/capture-provenance.json"
+    },
+    {
+      "name": "token-en",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/token-en-original.png",
+      "published_asset": "images/developers/custom-store-integration/token-spacing/token-en.png",
+      "native": {
+        "output": "/private/tmp/hellotext-token-spacing-refresh/native/token-en-original.png",
+        "sha256": "efe16993a26fbf2e3047bc57da420ff888069022f45fcebd3af561965906a4c2",
+        "url": "http://127.0.0.1:3192/hellotext/settings/authorizations/new",
+        "locale": "en",
+        "cssViewport": [
+          1200,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          92,
+          124,
+          540,
+          238
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1080,
+          476
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        540,
+        238
+      ],
+      "intended_max_display_width_css": 540,
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/token-en-ui.json",
+      "corrected_label_input_gap_css": 8,
+      "reuse": true,
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved existing source and asset; no duplicate PNG uploaded in this batch.",
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/capture-provenance.json"
+    },
+    {
+      "name": "token-en-mobile",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/token-en-mobile-original.png",
+      "published_asset": "images/developers/custom-store-integration/token-spacing/token-en-mobile.png",
+      "native": {
+        "output": "/private/tmp/hellotext-token-spacing-refresh/native/token-en-mobile-original.png",
+        "sha256": "2200d9bccae650ed15f47970ab7eb729365e544e6000b1bde4758e600697778b",
+        "url": "http://127.0.0.1:3192/hellotext/settings/authorizations/new",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          8,
+          40,
+          374,
+          216
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          748,
+          432
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        374,
+        216
+      ],
+      "intended_max_display_width_css": 374,
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/token-en-mobile-ui.json",
+      "corrected_label_input_gap_css": 8,
+      "reuse": true,
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved existing source and asset; no duplicate PNG uploaded in this batch.",
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/capture-provenance.json"
+    }
+  ],
+  "source_audit": {
+    "rails_revision": "5403a7dcb567b63cae87d4c088112d65fad4eb7f",
+    "rails_files": [
+      {
+        "path": "app/controllers/api/v1/sessions_controller.rb",
+        "sha256": "8b47034fc88a8b85581e99ec41cbba583202b2ce188636104109b793bee510a8"
+      },
+      {
+        "path": "app/controllers/api/v1/public/identifications_controller.rb",
+        "sha256": "047966d495877f85a8873cf2179bc19ca7e451072c3392f646e75d631d4ad4a9"
+      },
+      {
+        "path": "app/controllers/api/v1/concerns/session_scoped.rb",
+        "sha256": "764408cea50d67394dadb86d78fff3886f0da9b0e36bf9c7c67050c3145e3613"
+      },
+      {
+        "path": "app/controllers/concerns/checks_business_plan.rb",
+        "sha256": "e3a35cb3bbb36a78c91d21b7987e666abdbb2c5463e187c3c9aa700956aab308"
+      },
+      {
+        "path": "app/models/api/v1/public/identification.rb",
+        "sha256": "08f21c4dcb87d733737db9fd58f38103e9318790e8d749669ae5744cee043566"
+      },
+      {
+        "path": "app/jobs/api/v1/public/identification/job.rb",
+        "sha256": "53e2ab015e97f78f72c06003697febd6177da6456b1a30414546d10cf95da57d"
+      },
+      {
+        "path": "app/models/api/v1/public/identification/base.rb",
+        "sha256": "97ed2b343948dc7cd26fee49900b4a182d7c67ec07873c12f5f0dec79495bc6e"
+      },
+      {
+        "path": "app/models/api/v1/public/identification/shopify.rb",
+        "sha256": "16974bbd866f9e9d4001daa302e8d31e8a0c0c52531a2119ab7d798b1eecd7fb"
+      },
+      {
+        "path": "app/models/api/v1/public/identification/wix.rb",
+        "sha256": "f4a56eff734918693df7440908f3e02de2f37609ae5d6e0229519b4b2e3b3372"
+      },
+      {
+        "path": "app/models/api/v1/public/identification/vtex.rb",
+        "sha256": "d8a88761aadc0d6e27abf4c9454aaae23abb026d6179dbb7a2a9c36a7cab887b"
+      },
+      {
+        "path": "app/models/attribution/session.rb",
+        "sha256": "ecad57b43e27e1db2caa5cff5e935bf199344bccf59547bfd92d0d8b6a8f8d19"
+      },
+      {
+        "path": "app/models/attribution/session/attachable.rb",
+        "sha256": "5bfb7b8fca32d323e64f9c06194bd08c18d18da0155da5e2d6c648a619b38945"
+      },
+      {
+        "path": "app/models/attribution/session/ackable.rb",
+        "sha256": "7a621853e30b6484beafa58bc258274e64523f6a1e85a44a1f2089d791d75b29"
+      },
+      {
+        "path": "app/serializers/application_serializer.rb",
+        "sha256": "22dab311d6eee6992c4becb83eba5ddb2f0493dd55e46cc656b50ad9d691f05e"
+      },
+      {
+        "path": "app/serializers/session_serializer.rb",
+        "sha256": "e12dcd73712fb1497341f0a3125ce833485bd7172a74180f06c35235412c4508"
+      },
+      {
+        "path": "app/serializers/contact_serializer.rb",
+        "sha256": "76bebbeb0ace202762ff8cdc463f28027fdfcffed830e1115ed7f188f87c1068"
+      }
+    ],
+    "sdk_version": "2.6.0",
+    "sdk_tarball": "https://registry.npmjs.org/@hellotext/hellotext/-/hellotext-2.6.0.tgz",
+    "sdk_sha1": "6bf08779ceb04490d7e51449ea1d83d00b5e7efb",
+    "sdk_git_head": "d9fc6311eaab233aa594d324ff0b3fa1e840fae2",
+    "sdk_files": [
+      {
+        "path": "package/src/hellotext.js",
+        "sha256": "76eafba301b960171dc358e7ccf6423618882c7d3f4dbcf2f63c1287d5fc24dc"
+      },
+      {
+        "path": "package/src/models/session.js",
+        "sha256": "044a8aa34abb70a4cdfb26c9f38c2bf23af0eacc4229fb08ab0d78897f5fd745"
+      },
+      {
+        "path": "package/src/models/cookies.js",
+        "sha256": "83a62ac87b895203b4b66bad4109852f3799af116ab72bfaced0bac55353c745"
+      },
+      {
+        "path": "package/src/models/user.js",
+        "sha256": "403035d7a86287e41e94f43827f3482885e54464d5b33b239b2caa22c769633c"
+      },
+      {
+        "path": "package/src/models/query.js",
+        "sha256": "9b67990bcc085ed63630e5cac45f85b52745dcf8c9404fdbd9fe2d744e74dd35"
+      },
+      {
+        "path": "package/src/api/response.js",
+        "sha256": "fb91e76f6a0e8538931a70cd59d608906a9ba9c5a2aaaef04dd5637bde201aa0"
+      },
+      {
+        "path": "package/src/api/identifications.js",
+        "sha256": "eb7e9d1f33d4ff8287eb4c305d54c7ab65f9aa4b3ddfd71e11ca873f8ad638f1"
+      },
+      {
+        "path": "package/src/api/acks.js",
+        "sha256": "fb7cd2d2bda4a3639311c9204a2ceab82066f7fd06590638068cc992c81c004c"
+      },
+      {
+        "path": "package/src/core/configuration.js",
+        "sha256": "fa33d89ce4e7463644d499ebf7608fba925c376b45454ee8c0eb1af16b5fc900"
+      },
+      {
+        "path": "package/src/core/event.js",
+        "sha256": "8ca38d7940becc57051dd52f540db321057d3ad256929d080300a049e41b40b5"
+      },
+      {
+        "path": "package/src/models/fingerprint.js",
+        "sha256": "6c65b4c9ad04cc6d6f7f970d7d4ed06e047fb42f37ab00fdd78124eb8d103fd2"
+      },
+      {
+        "path": "package/lib/hellotext.js",
+        "sha256": "422a8b7079485fa3dd7c6aae50f3ac8c3ce1d0ee19b4da4a14ab03e6efa29a56"
+      },
+      {
+        "path": "package/dist/hellotext.js",
+        "sha256": "0b0226a25c43002a9da506c80de12b576b0c0fd074a16e6d4f465a7748c26331"
+      }
+    ],
+    "sdk_requests_executed": false,
+    "findings": [
+      "session-set is emitted by Cookies.set, can emit undefined before generation and can precede completed async initialization.",
+      "Session value and local ack cookie do not prove a persisted server session. URL overrides config, then cookie.",
+      "Backend PATCH finds same-business public profile ID/session UUID or hash, requires API subscription, returns200 even when attachment is rejected.",
+      "Current SessionSerializer.profile is internal contact_id, not the public profile ID used in requests.",
+      "Attachment completes asynchronously and fills missing eligible source context, without wholesale conversion or reassignment.",
+      "Public identify is queued/received; cached fingerprint can skip a later request. Shopify requires real connected shop/customer ID; arbitrary custom source is unsupported.",
+      "forget clears three identity cookies, preserves the session and its existing backend association."
+    ]
+  },
+  "content_sources": [
+    "https://www.hellotext.com/api#attach_session",
+    "https://www.hellotext.com/api#create_a_profile",
+    "https://github.com/hellotext/hellotext.js/blob/main/docs/sessions.md",
+    "https://registry.npmjs.org/@hellotext/hellotext/2.6.0"
+  ],
+  "new_capture_count": 0,
+  "new_png_uploads": 0,
+  "protected_state": "No app/DB/UI/fixture/locale/token/object/event/message/test/send/worker action; source and published package inspection only.",
+  "pending": [
+    "Protected PR checks/review, merge, exact main Build/production and public page/PNG verification"
+  ],
+  "local_verification": {
+    "evidence": "local-verification.json",
+    "full_page_browser_review": "page-review/",
+    "browser_widths_css": [
+      1440,
+      390,
+      580
+    ],
+    "figures_per_locale": 2,
+    "examples_per_locale": 5,
+    "syntax_only_checks": 10,
+    "build": "Ruby 3.3.6 yarn build with security headers passed",
+    "new_capture_count": 0,
+    "new_png_uploads": 0,
+    "publication_state": "pending"
+  },
+  "local_verified_commit": "e729eb459de8478966fd2f0871d1dfa156c655fb",
+  "review_followup": {
+    "thread": "https://github.com/hellotext/help/pull/297#discussion_r4150202595",
+    "classification": "False positive: actual published 2.6.0 source/lib/dist return new Response(true, {json: async () => ({already_identified: true})}), not a plain object. No SDK/API code or example executed.",
+    "clarification": "Both locales explicitly describe the cached wrapper, json() and data adapter versus network fetch response. Example remains correct."
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "sections": [
+    {
+      "i": 0,
+      "text": "1. Obtén la sesión anónimaEnlace copiado",
+      "top": 1788
+    },
+    {
+      "i": 1,
+      "text": "2. Identifica al cliente en el momento correctoEnlace copiado",
+      "top": 3967
+    },
+    {
+      "i": 2,
+      "text": "3. Adjunta la sesión desde el backendEnlace copiado",
+      "top": 4587
+    },
+    {
+      "i": 3,
+      "text": "4. Usa la identificación en el navegador solo cuando sea necesarioEnlace copiado",
+      "top": 6832
+    },
+    {
+      "i": 4,
+      "text": "5. Olvida la identidad al cerrar sesiónEnlace copiado",
+      "top": 8416
+    },
+    {
+      "i": 5,
+      "text": "6. Maneja sesiones que ya tienen un clienteEnlace copiado",
+      "top": 9204
+    },
+    {
+      "i": 6,
+      "text": "7. Verifica el flujo completoEnlace copiado",
+      "top": 10080
+    },
+    {
+      "i": 7,
+      "text": "Soluciona problemas comunesEnlace copiado",
+      "top": 10960
+    },
+    {
+      "i": 8,
+      "text": "Guías relacionadasEnlace copiado",
+      "top": 12176
+    }
+  ],
+  "codes": [
+    {
+      "i": 0,
+      "top": 2587,
+      "text": "(async () => {\n  await Hellotext.initialize('BUSINESS_ID')\n\n  const sessionId = Hellotext.session\n  if (!sessionId) {\n    throw new Error('Hellotext session is not available')\n  }\n\n  // Use sessionId only after resolving your application's authentication state.\n})().catch(error => console.error(error))\n",
+      "width": 358,
+      "scrollWidth": 707
+    },
+    {
+      "i": 1,
+      "top": 3147,
+      "text": "Hellotext.on('session-set', sessionId => {\n  if (!sessionId) return\n\n  // Observe the local session change; do not identify a customer here.\n})\n",
+      "width": 358,
+      "scrollWidth": 632
+    },
+    {
+      "i": 2,
+      "top": 5732,
+      "text": "curl --request PATCH \\\n  --url https://api.hellotext.com/v1/sessions/HELLOTEXT_SESSION_ID \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"profile\": \"PROFILE_ID\"\n  }'\n",
+      "width": 358,
+      "scrollWidth": 607
+    },
+    {
+      "i": 3,
+      "top": 7164,
+      "text": "async function identifyShopifyCustomer(shopifyCustomerId) {\n  if (!Hellotext.session || !shopifyCustomerId) {\n    throw new Error('A session and authenticated Shopify customer are required')\n  }\n\n  const response = await Hellotext.identify(String(shopifyCustomerId), {\n    source: 'shopify',\n  })\n\n  if (response.failed) {\n    throw new Error('Identification request was rejected')\n  }\n\n  return await response.json()\n}\n",
+      "width": 358,
+      "scrollWidth": 707
+    },
+    {
+      "i": 4,
+      "top": 8568,
+      "text": "Hellotext.forget()\n",
+      "width": 358,
+      "scrollWidth": 358
+    }
+  ]
+}
