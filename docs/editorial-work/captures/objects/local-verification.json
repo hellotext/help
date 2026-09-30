@@ -1,0 +1,571 @@
+{
+  "originals": [
+    {
+      "article": "_i18n/es/developers/objects.md",
+      "snapshot": "docs/editorial-work/originals/es/developers/objects.md",
+      "sha256": "f3b6eaea8c0e2ec20ab518a8461dfc7d7c09fa9a720718cd704c3d8655fdfe75",
+      "preserved_sections": 12,
+      "preserved_links": true,
+      "figures": 5
+    },
+    {
+      "article": "_i18n/en/developers/objects.md",
+      "snapshot": "docs/editorial-work/originals/en/developers/objects.md",
+      "sha256": "d639ea682795fefb1879f7cbb31b5df65c2e3af8bbf2e4ab2715ce55f4eff9a3",
+      "preserved_sections": 12,
+      "preserved_links": true,
+      "figures": 5
+    }
+  ],
+  "examples": [
+    {
+      "article": "_i18n/es/developers/objects.md",
+      "json_syntax_only": 3,
+      "executed": false
+    },
+    {
+      "article": "_i18n/en/developers/objects.md",
+      "json_syntax_only": 3,
+      "executed": false
+    }
+  ],
+  "images": [
+    {
+      "name": "catalog-es",
+      "sha256": "7c9afe78267828c20be761fdfbac9136e5d30e59e43bc7a1c744466b011b59dd",
+      "source_asset_root_build_es_build_match": true,
+      "source_density": 2
+    },
+    {
+      "name": "catalog-es-mobile",
+      "sha256": "a0a88c5f1536e76a65f3a5cb557097d5f45f4bcb3bbc97f07959acacda297002",
+      "source_asset_root_build_es_build_match": true,
+      "source_density": 2
+    },
+    {
+      "name": "draft-es",
+      "sha256": "088f4f7543ef895dcb6b819cc9c01c13316e456db4bde00303b5cbab8a5375e1",
+      "source_asset_root_build_es_build_match": true,
+      "source_density": 2
+    },
+    {
+      "name": "draft-es-mobile",
+      "sha256": "5ea75aeda9c9fc7e5c1f71050c4e30ef37bb7cdb63ae238949da7f1024a42577",
+      "source_asset_root_build_es_build_match": true,
+      "source_density": 2
+    },
+    {
+      "name": "reference-es",
+      "sha256": "92670c97256e80897b69903b542099bcf190f6eeaa9d164030a48770bc104f8f",
+      "source_asset_root_build_es_build_match": true,
+      "source_density": 2
+    },
+    {
+      "name": "reference-es-mobile",
+      "sha256": "22173f461329cf1bd5b4a44aff9953339320dd0120bd584820e1151606f1f2cc",
+      "source_asset_root_build_es_build_match": true,
+      "source_density": 2
+    },
+    {
+      "name": "money-es",
+      "sha256": "c4cf869fc04e993a6853b3aa8af9e4bff305eefdefdf29a962295f41af5c2157",
+      "source_asset_root_build_es_build_match": true,
+      "source_density": 2
+    },
+    {
+      "name": "money-es-mobile",
+      "sha256": "9e37632fb09f6839152204ac5aea2e00d2a8450a9ea751008f0bc0119106fd56",
+      "source_asset_root_build_es_build_match": true,
+      "source_density": 2
+    },
+    {
+      "name": "instance-es",
+      "sha256": "6691e66669ad884b38431d88e9c6cae3d522b20555d801f4f90b3bf2d63fa646",
+      "source_asset_root_build_es_build_match": true,
+      "source_density": 2
+    },
+    {
+      "name": "instance-es-mobile",
+      "sha256": "3a0b02900f916e94990139c89f126c298adaa9335b35f70c21976664fd880780",
+      "source_asset_root_build_es_build_match": true,
+      "source_density": 2
+    },
+    {
+      "name": "catalog-en",
+      "sha256": "6c38e12bef821c5f5dedba067ed5c5cf01d16634aa4d9dd7ad16be065cfa3a58",
+      "source_asset_root_build_es_build_match": true,
+      "source_density": 2
+    },
+    {
+      "name": "catalog-en-mobile",
+      "sha256": "bd14a0457f315943b9d4cc2c149fd683db36c82c0e5889a2fe15880b571c50c3",
+      "source_asset_root_build_es_build_match": true,
+      "source_density": 2
+    },
+    {
+      "name": "draft-en",
+      "sha256": "cbb9c2d4cc42aa0e7ab3cedb95156ec4958ad3767ab45d01b0c7400335aba510",
+      "source_asset_root_build_es_build_match": true,
+      "source_density": 2
+    },
+    {
+      "name": "draft-en-mobile",
+      "sha256": "da07952d27ca50354839fa0b1e671703d4f1a93056d56b96c1baa488145b3334",
+      "source_asset_root_build_es_build_match": true,
+      "source_density": 2
+    },
+    {
+      "name": "reference-en",
+      "sha256": "2a69faa234c1650b9981d3a05b8e28754418a3caa5ae372a8d978ba6f99beded",
+      "source_asset_root_build_es_build_match": true,
+      "source_density": 2
+    },
+    {
+      "name": "reference-en-mobile",
+      "sha256": "ead0db0cbe889510c1d4898ef4fbdc8d5cddf1ee28adaeaa26c650b97b4f7581",
+      "source_asset_root_build_es_build_match": true,
+      "source_density": 2
+    },
+    {
+      "name": "money-en",
+      "sha256": "a976c21f89232ee4448b0014981b4c591a2135eea5fe2a2942b7efcd33528059",
+      "source_asset_root_build_es_build_match": true,
+      "source_density": 2
+    },
+    {
+      "name": "money-en-mobile",
+      "sha256": "ee7a90aa6d5799efb310177d9b412b6c349818fff71e962bb508b993c9e1ad37",
+      "source_asset_root_build_es_build_match": true,
+      "source_density": 2
+    },
+    {
+      "name": "instance-en",
+      "sha256": "633cdb3eace727ca895b7ffbbbb37e53ab6426150d1f25d7f0400d0ef348d0cd",
+      "source_asset_root_build_es_build_match": true,
+      "source_density": 2
+    },
+    {
+      "name": "instance-en-mobile",
+      "sha256": "fac1bef48299df52128c28ae911124b597ef3ce0bc9bc583071274fbe2a4a411",
+      "source_asset_root_build_es_build_match": true,
+      "source_density": 2
+    }
+  ],
+  "build": "yarn build passed with Ruby3.3.6 including security headers",
+  "browser_states": [
+    {
+      "url": "http://127.0.0.1:4191/es/objetos.html",
+      "lang": "es",
+      "title": "Objetos | Hellotext",
+      "width": 1440,
+      "figures": [
+        {
+          "i": 0,
+          "top": 2204,
+          "height": 953,
+          "figWidth": 774,
+          "imageWidth": 698.40625,
+          "naturalWidth": 868,
+          "src": "http://127.0.0.1:4191/images/developers/objects/catalog-es.png",
+          "whiteFrameWidth": 716.4140625,
+          "frameWidth": 774,
+          "caption": "Catálogo real con los objetos preestablecidos y una estructura ficticia Citas. Crear una estructura no registra un evento."
+        },
+        {
+          "i": 1,
+          "top": 3587,
+          "height": 696,
+          "figWidth": 774,
+          "imageWidth": 575,
+          "naturalWidth": 575,
+          "src": "http://127.0.0.1:4191/images/developers/objects/draft-es.png",
+          "whiteFrameWidth": 593,
+          "frameWidth": 774,
+          "caption": "Primer paso del formulario sin guardar: Citas es el nombre visible y appointment el identificador técnico. A continuación se agregan las propiedades."
+        },
+        {
+          "i": 2,
+          "top": 4917,
+          "height": 1026,
+          "figWidth": 774,
+          "imageWidth": 575,
+          "naturalWidth": 575,
+          "src": "http://127.0.0.1:4191/images/developers/objects/reference-es.png",
+          "whiteFrameWidth": 593,
+          "frameWidth": 774,
+          "caption": "Menú real de reference, un campo de texto único y requerido. room es opcional; los nombres técnicos de las propiedades los define el negocio."
+        },
+        {
+          "i": 3,
+          "top": 6425,
+          "height": 1026,
+          "figWidth": 774,
+          "imageWidth": 575,
+          "naturalWidth": 575,
+          "src": "http://127.0.0.1:4191/images/developers/objects/money-es.png",
+          "whiteFrameWidth": 593,
+          "frameWidth": 774,
+          "caption": "El menú de fee ofrece Heredar este monto y la etiqueta identifica la propiedad elegida. La herencia del registro manual no debe suponerse para tracking por API."
+        },
+        {
+          "i": 4,
+          "top": 7833,
+          "height": 596,
+          "figWidth": 774,
+          "imageWidth": 575,
+          "naturalWidth": 575,
+          "src": "http://127.0.0.1:4191/images/developers/objects/instance-es.png",
+          "whiteFrameWidth": 593,
+          "frameWidth": 774,
+          "caption": "Borrador ficticio de una nueva instancia APT-1043, distinto de la cita APT-1042 del ejemplo. No se guardó ni se registró ninguna actividad."
+        }
+      ],
+      "scrollWidth": 1440
+    },
+    {
+      "url": "http://127.0.0.1:4191/es/objetos.html",
+      "lang": "es",
+      "title": "Objetos | Hellotext",
+      "width": 390,
+      "figures": [
+        {
+          "i": 0,
+          "top": 2883,
+          "height": 826,
+          "figWidth": 358,
+          "imageWidth": 315.9921875,
+          "naturalWidth": 382,
+          "src": "http://127.0.0.1:4191/images/developers/objects/catalog-es-mobile.png",
+          "whiteFrameWidth": 328,
+          "frameWidth": 358,
+          "caption": "Catálogo real con los objetos preestablecidos y una estructura ficticia Citas. Crear una estructura no registra un evento."
+        },
+        {
+          "i": 1,
+          "top": 4252,
+          "height": 554,
+          "figWidth": 358,
+          "imageWidth": 315.9921875,
+          "naturalWidth": 389,
+          "src": "http://127.0.0.1:4191/images/developers/objects/draft-es-mobile.png",
+          "whiteFrameWidth": 328,
+          "frameWidth": 358,
+          "caption": "Primer paso del formulario sin guardar: Citas es el nombre visible y appointment el identificador técnico. A continuación se agregan las propiedades."
+        },
+        {
+          "i": 2,
+          "top": 5746,
+          "height": 822,
+          "figWidth": 358,
+          "imageWidth": 315.9921875,
+          "naturalWidth": 389,
+          "src": "http://127.0.0.1:4191/images/developers/objects/reference-es-mobile.png",
+          "whiteFrameWidth": 328,
+          "frameWidth": 358,
+          "caption": "Menú real de reference, un campo de texto único y requerido. room es opcional; los nombres técnicos de las propiedades los define el negocio."
+        },
+        {
+          "i": 3,
+          "top": 7332,
+          "height": 822,
+          "figWidth": 358,
+          "imageWidth": 315.9921875,
+          "naturalWidth": 389,
+          "src": "http://127.0.0.1:4191/images/developers/objects/money-es-mobile.png",
+          "whiteFrameWidth": 328,
+          "frameWidth": 358,
+          "caption": "El menú de fee ofrece Heredar este monto y la etiqueta identifica la propiedad elegida. La herencia del registro manual no debe suponerse para tracking por API."
+        },
+        {
+          "i": 4,
+          "top": 8650,
+          "height": 472,
+          "figWidth": 358,
+          "imageWidth": 315.9921875,
+          "naturalWidth": 389,
+          "src": "http://127.0.0.1:4191/images/developers/objects/instance-es-mobile.png",
+          "whiteFrameWidth": 328,
+          "frameWidth": 358,
+          "caption": "Borrador ficticio de una nueva instancia APT-1043, distinto de la cita APT-1042 del ejemplo. No se guardó ni se registró ninguna actividad."
+        }
+      ],
+      "scrollWidth": 390
+    },
+    {
+      "url": "http://127.0.0.1:4191/es/objetos.html",
+      "lang": "es",
+      "title": "Objetos | Hellotext",
+      "width": 580,
+      "figures": [
+        {
+          "i": 0,
+          "top": 2268,
+          "height": 669,
+          "figWidth": 548,
+          "imageWidth": 471.9921875,
+          "naturalWidth": 868,
+          "src": "http://127.0.0.1:4191/images/developers/objects/catalog-es.png",
+          "whiteFrameWidth": 490,
+          "frameWidth": 548,
+          "caption": "Catálogo real con los objetos preestablecidos y una estructura ficticia Citas. Crear una estructura no registra un evento."
+        },
+        {
+          "i": 1,
+          "top": 3409,
+          "height": 585,
+          "figWidth": 548,
+          "imageWidth": 471.9921875,
+          "naturalWidth": 575,
+          "src": "http://127.0.0.1:4191/images/developers/objects/draft-es.png",
+          "whiteFrameWidth": 490,
+          "frameWidth": 548,
+          "caption": "Primer paso del formulario sin guardar: Citas es el nombre visible y appointment el identificador técnico. A continuación se agregan las propiedades."
+        },
+        {
+          "i": 2,
+          "top": 4682,
+          "height": 856,
+          "figWidth": 548,
+          "imageWidth": 471.9921875,
+          "naturalWidth": 575,
+          "src": "http://127.0.0.1:4191/images/developers/objects/reference-es.png",
+          "whiteFrameWidth": 490,
+          "frameWidth": 548,
+          "caption": "Menú real de reference, un campo de texto único y requerido. room es opcional; los nombres técnicos de las propiedades los define el negocio."
+        },
+        {
+          "i": 3,
+          "top": 6097,
+          "height": 856,
+          "figWidth": 548,
+          "imageWidth": 471.9921875,
+          "naturalWidth": 575,
+          "src": "http://127.0.0.1:4191/images/developers/objects/money-es.png",
+          "whiteFrameWidth": 490,
+          "frameWidth": 548,
+          "caption": "El menú de fee ofrece Heredar este monto y la etiqueta identifica la propiedad elegida. La herencia del registro manual no debe suponerse para tracking por API."
+        },
+        {
+          "i": 4,
+          "top": 7341,
+          "height": 503,
+          "figWidth": 548,
+          "imageWidth": 471.9921875,
+          "naturalWidth": 575,
+          "src": "http://127.0.0.1:4191/images/developers/objects/instance-es.png",
+          "whiteFrameWidth": 490,
+          "frameWidth": 548,
+          "caption": "Borrador ficticio de una nueva instancia APT-1043, distinto de la cita APT-1042 del ejemplo. No se guardó ni se registró ninguna actividad."
+        }
+      ],
+      "scrollWidth": 580
+    },
+    {
+      "url": "http://127.0.0.1:4191/objects.html",
+      "lang": "en",
+      "title": "Objects | Hellotext",
+      "width": 1440,
+      "figures": [
+        {
+          "i": 0,
+          "top": 2132,
+          "height": 953,
+          "figWidth": 774,
+          "imageWidth": 698.40625,
+          "naturalWidth": 868,
+          "src": "http://127.0.0.1:4191/images/developers/objects/catalog-en.png",
+          "whiteFrameWidth": 716.4140625,
+          "frameWidth": 774,
+          "caption": "Real catalog with built-in objects and one fictional Appointments structure. Creating a structure does not record an event."
+        },
+        {
+          "i": 1,
+          "top": 3515,
+          "height": 696,
+          "figWidth": 774,
+          "imageWidth": 575,
+          "naturalWidth": 575,
+          "src": "http://127.0.0.1:4191/images/developers/objects/draft-en.png",
+          "whiteFrameWidth": 593,
+          "frameWidth": 774,
+          "caption": "First step of the unsaved form: Appointments is the display name and appointment the technical identifier. Properties are added next."
+        },
+        {
+          "i": 2,
+          "top": 4821,
+          "height": 1026,
+          "figWidth": 774,
+          "imageWidth": 575,
+          "naturalWidth": 575,
+          "src": "http://127.0.0.1:4191/images/developers/objects/reference-en.png",
+          "whiteFrameWidth": 593,
+          "frameWidth": 774,
+          "caption": "Real menu for reference, a unique required text field. room is optional; technical property names are defined by the business."
+        },
+        {
+          "i": 3,
+          "top": 6281,
+          "height": 1026,
+          "figWidth": 774,
+          "imageWidth": 575,
+          "naturalWidth": 575,
+          "src": "http://127.0.0.1:4191/images/developers/objects/money-en.png",
+          "whiteFrameWidth": 593,
+          "frameWidth": 774,
+          "caption": "The fee menu offers Inherit this amount and the label identifies the selected property. Do not assume manual recording inheritance applies to API tracking."
+        },
+        {
+          "i": 4,
+          "top": 7665,
+          "height": 596,
+          "figWidth": 774,
+          "imageWidth": 575,
+          "naturalWidth": 575,
+          "src": "http://127.0.0.1:4191/images/developers/objects/instance-en.png",
+          "whiteFrameWidth": 593,
+          "frameWidth": 774,
+          "caption": "Fictional draft of a new APT-1043 instance, separate from appointment APT-1042 in the example. It was not saved and no activity was recorded."
+        }
+      ],
+      "scrollWidth": 1440
+    },
+    {
+      "url": "http://127.0.0.1:4191/objects.html",
+      "lang": "en",
+      "title": "Objects | Hellotext",
+      "width": 390,
+      "figures": [
+        {
+          "i": 0,
+          "top": 2799,
+          "height": 826,
+          "figWidth": 358,
+          "imageWidth": 315.9921875,
+          "naturalWidth": 382,
+          "src": "http://127.0.0.1:4191/images/developers/objects/catalog-en-mobile.png",
+          "whiteFrameWidth": 328,
+          "frameWidth": 358,
+          "caption": "Real catalog with built-in objects and one fictional Appointments structure. Creating a structure does not record an event."
+        },
+        {
+          "i": 1,
+          "top": 4168,
+          "height": 554,
+          "figWidth": 358,
+          "imageWidth": 315.9921875,
+          "naturalWidth": 389,
+          "src": "http://127.0.0.1:4191/images/developers/objects/draft-en-mobile.png",
+          "whiteFrameWidth": 328,
+          "frameWidth": 358,
+          "caption": "First step of the unsaved form: Appointments is the display name and appointment the technical identifier. Properties are added next."
+        },
+        {
+          "i": 2,
+          "top": 5602,
+          "height": 822,
+          "figWidth": 358,
+          "imageWidth": 315.9921875,
+          "naturalWidth": 389,
+          "src": "http://127.0.0.1:4191/images/developers/objects/reference-en-mobile.png",
+          "whiteFrameWidth": 328,
+          "frameWidth": 358,
+          "caption": "Real menu for reference, a unique required text field. room is optional; technical property names are defined by the business."
+        },
+        {
+          "i": 3,
+          "top": 7092,
+          "height": 822,
+          "figWidth": 358,
+          "imageWidth": 315.9921875,
+          "naturalWidth": 389,
+          "src": "http://127.0.0.1:4191/images/developers/objects/money-en-mobile.png",
+          "whiteFrameWidth": 328,
+          "frameWidth": 358,
+          "caption": "The fee menu offers Inherit this amount and the label identifies the selected property. Do not assume manual recording inheritance applies to API tracking."
+        },
+        {
+          "i": 4,
+          "top": 8386,
+          "height": 472,
+          "figWidth": 358,
+          "imageWidth": 315.9921875,
+          "naturalWidth": 389,
+          "src": "http://127.0.0.1:4191/images/developers/objects/instance-en-mobile.png",
+          "whiteFrameWidth": 328,
+          "frameWidth": 358,
+          "caption": "Fictional draft of a new APT-1043 instance, separate from appointment APT-1042 in the example. It was not saved and no activity was recorded."
+        }
+      ],
+      "scrollWidth": 390
+    },
+    {
+      "url": "http://127.0.0.1:4191/objects.html",
+      "lang": "en",
+      "title": "Objects | Hellotext",
+      "width": 580,
+      "figures": [
+        {
+          "i": 0,
+          "top": 2236,
+          "height": 669,
+          "figWidth": 548,
+          "imageWidth": 471.9921875,
+          "naturalWidth": 868,
+          "src": "http://127.0.0.1:4191/images/developers/objects/catalog-en.png",
+          "whiteFrameWidth": 490,
+          "frameWidth": 548,
+          "caption": "Real catalog with built-in objects and one fictional Appointments structure. Creating a structure does not record an event."
+        },
+        {
+          "i": 1,
+          "top": 3341,
+          "height": 585,
+          "figWidth": 548,
+          "imageWidth": 471.9921875,
+          "naturalWidth": 575,
+          "src": "http://127.0.0.1:4191/images/developers/objects/draft-en.png",
+          "whiteFrameWidth": 490,
+          "frameWidth": 548,
+          "caption": "First step of the unsaved form: Appointments is the display name and appointment the technical identifier. Properties are added next."
+        },
+        {
+          "i": 2,
+          "top": 4590,
+          "height": 856,
+          "figWidth": 548,
+          "imageWidth": 471.9921875,
+          "naturalWidth": 575,
+          "src": "http://127.0.0.1:4191/images/developers/objects/reference-en.png",
+          "whiteFrameWidth": 490,
+          "frameWidth": 548,
+          "caption": "Real menu for reference, a unique required text field. room is optional; technical property names are defined by the business."
+        },
+        {
+          "i": 3,
+          "top": 5957,
+          "height": 856,
+          "figWidth": 548,
+          "imageWidth": 471.9921875,
+          "naturalWidth": 575,
+          "src": "http://127.0.0.1:4191/images/developers/objects/money-en.png",
+          "whiteFrameWidth": 490,
+          "frameWidth": 548,
+          "caption": "The fee menu offers Inherit this amount and the label identifies the selected property. Do not assume manual recording inheritance applies to API tracking."
+        },
+        {
+          "i": 4,
+          "top": 7201,
+          "height": 503,
+          "figWidth": 548,
+          "imageWidth": 471.9921875,
+          "naturalWidth": 575,
+          "src": "http://127.0.0.1:4191/images/developers/objects/instance-en.png",
+          "whiteFrameWidth": 490,
+          "frameWidth": 548,
+          "caption": "Fictional draft of a new APT-1043 instance, separate from appointment APT-1042 in the example. It was not saved and no activity was recorded."
+        }
+      ],
+      "scrollWidth": 580
+    }
+  ]
+}
