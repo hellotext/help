@@ -1,5 +1,5 @@
 {
-  "status": "local_verified_publication_pending",
+  "status": "publicly_verified",
   "base_revision": "8d8a5bc9864bf92fca64d8a960bc55a2b05c64a2",
   "originals": [
     {
@@ -66,7 +66,7 @@
       "concept": "token",
       "reuse_provenance": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/capture-provenance.json",
       "source_publication": "Approved current token-spacing sources from #285/#286 reused unchanged",
-      "consumer_publication": "pending"
+      "consumer_publication": "Publicly verified after #291; see root publication evidence. Original source publication and UI evidence remain unchanged."
     },
     {
       "name": "token-es-mobile",
@@ -115,7 +115,7 @@
       "concept": "token",
       "reuse_provenance": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/capture-provenance.json",
       "source_publication": "Approved current token-spacing sources from #285/#286 reused unchanged",
-      "consumer_publication": "pending"
+      "consumer_publication": "Publicly verified after #291; see root publication evidence. Original source publication and UI evidence remain unchanged."
     },
     {
       "name": "token-en",
@@ -164,7 +164,7 @@
       "concept": "token",
       "reuse_provenance": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/capture-provenance.json",
       "source_publication": "Approved current token-spacing sources from #285/#286 reused unchanged",
-      "consumer_publication": "pending"
+      "consumer_publication": "Publicly verified after #291; see root publication evidence. Original source publication and UI evidence remain unchanged."
     },
     {
       "name": "token-en-mobile",
@@ -213,7 +213,7 @@
       "concept": "token",
       "reuse_provenance": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/capture-provenance.json",
       "source_publication": "Approved current token-spacing sources from #285/#286 reused unchanged",
-      "consumer_publication": "pending"
+      "consumer_publication": "Publicly verified after #291; see root publication evidence. Original source publication and UI evidence remain unchanged."
     },
     {
       "name": "editor-es",
@@ -261,7 +261,7 @@
       "reuse": true,
       "reuse_provenance": "docs/editorial-work/captures/send-messages-with-api/capture-provenance.json",
       "source_publication": "Approved Message/SMS draft sources from #283/#284 reused unchanged",
-      "consumer_publication": "pending"
+      "consumer_publication": "Publicly verified after #291; see root publication evidence. Original source publication and UI evidence remain unchanged."
     },
     {
       "name": "editor-en",
@@ -309,7 +309,7 @@
       "reuse": true,
       "reuse_provenance": "docs/editorial-work/captures/send-messages-with-api/capture-provenance.json",
       "source_publication": "Approved Message/SMS draft sources from #283/#284 reused unchanged",
-      "consumer_publication": "pending"
+      "consumer_publication": "Publicly verified after #291; see root publication evidence. Original source publication and UI evidence remain unchanged."
     },
     {
       "name": "editor-es-mobile",
@@ -357,7 +357,7 @@
       "reuse": true,
       "reuse_provenance": "docs/editorial-work/captures/send-messages-with-api/capture-provenance.json",
       "source_publication": "Approved Message/SMS draft sources from #283/#284 reused unchanged",
-      "consumer_publication": "pending"
+      "consumer_publication": "Publicly verified after #291; see root publication evidence. Original source publication and UI evidence remain unchanged."
     },
     {
       "name": "editor-en-mobile",
@@ -405,12 +405,10 @@
       "reuse": true,
       "reuse_provenance": "docs/editorial-work/captures/send-messages-with-api/capture-provenance.json",
       "source_publication": "Approved Message/SMS draft sources from #283/#284 reused unchanged",
-      "consumer_publication": "pending"
+      "consumer_publication": "Publicly verified after #291; see root publication evidence. Original source publication and UI evidence remain unchanged."
     }
   ],
-  "pending": [
-    "Protected PR checks/review, merge, exact main Build/production and public page/PNG verification"
-  ],
+  "pending": [],
   "new_captures": 0,
   "duplicate_png_uploads": 0,
   "source_reuse_decision": "Reuse the same current token-name draft and Message/SMS name/body draft in each locale and responsive state. Preserve original UI evidence and native bytes; no invented approval/send state.",
@@ -430,7 +428,19 @@
     "build": "Ruby 3.3.6 yarn build with security headers passed",
     "new_capture_count": 0,
     "new_png_uploads": 0,
-    "publication_state": "pending",
+    "publication_state": "Public verification completed after the content merge; see root publication evidence.",
     "verifier_commit": "ba704efc47015c09fe601055146083794b6ba2bb"
+  },
+  "publication": {
+    "state": "publicly_verified",
+    "evidence": "public-verification.json",
+    "content_pr": "https://github.com/hellotext/help/pull/291",
+    "main_merge_sha": "74109430592fa0419ee38a714ca1c437b5e1284a",
+    "deploy_id": "6abd79f6426d8a000883de1d",
+    "public_pages_http": 200,
+    "public_asset_count": 8,
+    "approved_reused_hashes_match": true,
+    "new_captures": 0,
+    "new_png_uploads": 0
   }
 }
