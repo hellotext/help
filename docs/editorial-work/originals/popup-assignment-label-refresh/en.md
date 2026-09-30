@@ -192,8 +192,8 @@ If you do not need follow-up, you can leave both selections empty. The example s
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Coupon and journey selectors with GUIA-QR-10 selected transiently.">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 422px; width: fit-content; margin: 0 auto;">
-      <img class="ht-editorial-visual__image" src="/images/captures/website-popup/assignment-label-refresh/en.png" srcset="/images/captures/website-popup/assignment-label-refresh/en.png 2x" width="808" height="408" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Coupon and journey selectors with GUIA-QR-10 selected transiently." />
+    <div class="ht-editorial-visual__image-frame" style="max-width: 403px; width: fit-content; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/captures/website-popup/assignment-en.png" srcset="/images/captures/website-popup/assignment-en.png 2x" width="806" height="458" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Coupon and journey selectors with GUIA-QR-10 selected transiently." />
     </div>
   </div>
   <figcaption class="ht-editorial-visual__caption">The coupon is a fictional example; the selection was not saved and no journey is assigned. No delivery is shown.</figcaption>

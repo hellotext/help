@@ -1,0 +1,186 @@
+{
+  "capture_route": "isolated Chrome native compositor via loopback CDP",
+  "rails_revision": "11731d118e581bb1d67853b1add1f4f495160288",
+  "label_change_commit": "bcfc5e91c4",
+  "label_source_unchanged_through_origin_master": "e6ae33a310d46ba88d9bf5b70845618a0b4a6461",
+  "fixture": "Existing hidden/draft Popup 1, e9Z2LN51, business5; protected DB hellotext_editorial_workload_20260928; no new seed/assignment/save/install/publish/send/test",
+  "locale_restored": "es",
+  "images": [
+    {
+      "locale": "es",
+      "labels": [
+        {
+          "text": "Dale la bienvenida a un cliente con un cupón de descuento",
+          "rect": [
+            107,
+            552,
+            379.1640625,
+            48
+          ],
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "fontWeight": "500"
+        },
+        {
+          "text": "Elige una ruta",
+          "rect": [
+            107,
+            682,
+            379.1640625,
+            24
+          ],
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "fontWeight": "500"
+        }
+      ],
+      "css_clip": [
+        95,
+        540,
+        404,
+        228
+      ],
+      "safety": {
+        "locale": "es",
+        "hidden": true,
+        "draft": true,
+        "submissions": 0,
+        "messageable": 0,
+        "subscribed": 0,
+        "messages": 49
+      },
+      "native": {
+        "output": "/private/tmp/hellotext-popup-assignment-refresh/native/assignment-es.png",
+        "sha256": "2a19496f6ecf516c72d830358ce6835ad7e6aaa5efbae1cd77acd64e03959b7c",
+        "url": "http://127.0.0.1:3192/hellotext/capture/popup/e9Z2LN51/assign-coupon",
+        "locale": "es",
+        "cssViewport": [
+          1440,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          95,
+          540,
+          404,
+          228
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          808,
+          456
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "published_asset": "images/captures/website-popup/assignment-label-refresh/es.png",
+      "native_logical_size": [
+        404,
+        228
+      ],
+      "saved_pixels_reviewed": true,
+      "checks_before_after": [
+        "dedicated PID/profile/loopback CDP",
+        "single exact URL/title/locale",
+        "fictional account on same-origin catalog",
+        "visible coupon and selectors",
+        "actual CSS viewport/zoom1/DPR2",
+        "PNG dimensions and Display P3"
+      ],
+      "captured_at_utc": "2026-09-30T03:21:46.374647+00:00"
+    },
+    {
+      "locale": "en",
+      "labels": [
+        {
+          "text": "Welcome customer with a discount coupon",
+          "rect": [
+            107,
+            504,
+            379.1640625,
+            24
+          ],
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "fontWeight": "500"
+        },
+        {
+          "text": "Select a journey",
+          "rect": [
+            107,
+            610,
+            379.1640625,
+            24
+          ],
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "fontWeight": "500"
+        }
+      ],
+      "css_clip": [
+        95,
+        492,
+        404,
+        204
+      ],
+      "safety": {
+        "locale": "en",
+        "hidden": true,
+        "draft": true,
+        "submissions": 0,
+        "messageable": 0,
+        "subscribed": 0,
+        "messages": 49
+      },
+      "native": {
+        "output": "/private/tmp/hellotext-popup-assignment-refresh/native/assignment-en.png",
+        "sha256": "69b874e62501e4028c00b4d1760d2b25bc8fdda068ac2fb4eb13f30634b8f9d4",
+        "url": "http://127.0.0.1:3192/hellotext/capture/popup/e9Z2LN51/assign-coupon",
+        "locale": "en",
+        "cssViewport": [
+          1440,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          95,
+          492,
+          404,
+          204
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          808,
+          408
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "published_asset": "images/captures/website-popup/assignment-label-refresh/en.png",
+      "native_logical_size": [
+        404,
+        204
+      ],
+      "saved_pixels_reviewed": true,
+      "checks_before_after": [
+        "dedicated PID/profile/loopback CDP",
+        "single exact URL/title/locale",
+        "fictional account on same-origin catalog",
+        "visible coupon and selectors",
+        "actual CSS viewport/zoom1/DPR2",
+        "PNG dimensions and Display P3"
+      ],
+      "captured_at_utc": "2026-09-30T03:21:53.387843+00:00"
+    }
+  ],
+  "article_review": "Complete ES/EN pages reviewed at 1440,390,580 CSS px; eleven figures preserved, default labels legible, no enlargement or overflow. Production build/security headers passed; source/asset/build hashes equal.",
+  "publication": "pending authorized PR workflow"
+}
