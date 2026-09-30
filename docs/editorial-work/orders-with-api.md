@@ -30,3 +30,34 @@ The current Rails e6ae33a310 contracts were read for orders/items, serializers, 
 Guarded supported model methods created exactly one fictional product vjNEoZop and order4ONLdN32 with one iteme9Z2LN51, all draft/untracked. Existing zero-order/product state was verified first. Property projection used callback deferral and disabled taxonomy/embedding/Meta phases. USD subunit interpretation was caught before capture and corrected with Money.from_amount; the actual readonly serializer confirms unit44.95×2=89.90USD and distinct public IDs. Spanish/English labels changed only for captures and Spanish was restored. All contacts remain non-sendable/unsubscribed; counts before/after are127contacts,49messages,318events,zero tokens/enabled playbooks. No delivery workers, API examples, tracking event, final UI Save/Next/Send/Test or existing-fixture reseed. Readonly totals and public serializer evidence: captures/orders-with-api/fixture-readonly.json.
 
 All eight new native images were inspected, then the complete ES/EN pages at1440/390/580px including all nine headings/four code blocks/figures/footer. Browser checks confirm correct source selection, legibility, logical caps and no page overflow. The normal build with Ruby3.3.6 passed including security headers; docs remain excluded. git diff --check passed. No CSS/migration tests, shared renderer or guide changes. Remaining publication evidence is recorded separately after protected checks and exact-head review.
+
+## Public verification — 2026-09-30
+
+Help PR [#278](https://github.com/hellotext/help/pull/278) merged by `716647f48f544294fab1e2108e280b343c576332`, retaining all individual commits. Required Build, Aikido, Netlify preview/header checks and independent review passed on exact head `876aee4f250aa7961efe550c753b9af9ee3534bc`. Actual review threads/comments were read with no unresolved findings before the separate merge call. Review: https://github.com/hellotext/help/pull/278#issuecomment-5913425565. PR attachment was attempted and reached the existing 100-identity limit.
+
+Exact main [Build 36731109064](https://github.com/hellotext/help/actions/runs/36731109064) passed. Normal Netlify production `6abd1fc3b38a5c00089164e5` is ready/published at `2026-09-30T14:42:57.598Z` with matching commit_ref `716647f48f544294fab1e2108e280b343c576332`. Both pages contain three localized figures each and updated order/identity/amount/lifecycle/retry guidance. Both pages and all twelve responsive PNGs returned HTTP 200 with approved native source hashes: eight new order editor images and four token-name sources reused without duplicate uploads. Source density remains 2× and browser/native logical caps prevent upscaling. No manual deployment.
+
+Public pages:
+
+- [https://help.hellotext.com/es/pedidos-con-api](https://help.hellotext.com/es/pedidos-con-api) — HTTP 200, three figures.
+- [https://help.hellotext.com/orders-with-api](https://help.hellotext.com/orders-with-api) — HTTP 200, three figures.
+
+New native images, including mobile:
+
+- [https://help.hellotext.com/images/developers/orders-with-api/details-es.png](https://help.hellotext.com/images/developers/orders-with-api/details-es.png) — HTTP 200; SHA256 `ce7071cd6129d589df554b45f6ead105ef20ce3b1b4eeaf6eace613f34b4bb00`.
+- [https://help.hellotext.com/images/developers/orders-with-api/details-es-mobile.png](https://help.hellotext.com/images/developers/orders-with-api/details-es-mobile.png) — HTTP 200; SHA256 `002115693247a8d96672d24a28406f0c452db72eb2df13ad721a9f3d12102ad9`.
+- [https://help.hellotext.com/images/developers/orders-with-api/items-es.png](https://help.hellotext.com/images/developers/orders-with-api/items-es.png) — HTTP 200; SHA256 `f611245a1d66aa6cd275bf88e30698e848fb2bd49ceccf0e15616c2edec3c70e`.
+- [https://help.hellotext.com/images/developers/orders-with-api/items-es-mobile.png](https://help.hellotext.com/images/developers/orders-with-api/items-es-mobile.png) — HTTP 200; SHA256 `4782e26f8bb5637edf966420305bacc12904ae3a2c3866e24d3327b208001b17`.
+- [https://help.hellotext.com/images/developers/orders-with-api/details-en.png](https://help.hellotext.com/images/developers/orders-with-api/details-en.png) — HTTP 200; SHA256 `b728ba41fdd9c004408a7153f0f8f9a0bfc6634d0d9e44485db3dfc7b120b08b`.
+- [https://help.hellotext.com/images/developers/orders-with-api/details-en-mobile.png](https://help.hellotext.com/images/developers/orders-with-api/details-en-mobile.png) — HTTP 200; SHA256 `8d44d00464fcffb4c98684b550a95fd7df0a64360333a384e3d6eefca81d44c0`.
+- [https://help.hellotext.com/images/developers/orders-with-api/items-en.png](https://help.hellotext.com/images/developers/orders-with-api/items-en.png) — HTTP 200; SHA256 `46b89c503b1072a817323ace28c05e6fa61b54378e73594d1daa0340e7a5e786`.
+- [https://help.hellotext.com/images/developers/orders-with-api/items-en-mobile.png](https://help.hellotext.com/images/developers/orders-with-api/items-en-mobile.png) — HTTP 200; SHA256 `5791065f10d0bb10d6edaaf628176b5a7e953e8a2b58af7f56964828478c013e`.
+
+Approved sources reused without duplicates:
+
+- [https://help.hellotext.com/images/developers/custom-store-integration/token-es.png](https://help.hellotext.com/images/developers/custom-store-integration/token-es.png) — HTTP 200; SHA256 `1aee0b74d12bed3eb995c7211316047bd59158a92f2c491dfc4a01287c5fb953`.
+- [https://help.hellotext.com/images/developers/custom-store-integration/token-es-mobile.png](https://help.hellotext.com/images/developers/custom-store-integration/token-es-mobile.png) — HTTP 200; SHA256 `ab734e406f700b90cd37365b7a1d084cedb9e8adda7bca8757182d471e6d355a`.
+- [https://help.hellotext.com/images/developers/custom-store-integration/token-en.png](https://help.hellotext.com/images/developers/custom-store-integration/token-en.png) — HTTP 200; SHA256 `ca4b35ca243e0e6db3c52219e00162ef2c708efd61d7265dc25f599907c97bd6`.
+- [https://help.hellotext.com/images/developers/custom-store-integration/token-en-mobile.png](https://help.hellotext.com/images/developers/custom-store-integration/token-en-mobile.png) — HTTP 200; SHA256 `716908e63c1f6e914b3dc8d7456e224c02fe69b24797477dded04096b9ec7652`.
+
+The independent public record PR and its exact main Build/normal production/page/hash verification close this batch. Post-record evidence is attached to that PR after merge. Ledger: 59 local_verified, 94 pending, 1 out_of_scope. The content verifier remains 12cd42398e6e0c96e21dbf4c943c2fc4c8992b1d; all verifiers must be ancestors of final main. Existing protected campaign branch and local dependency folders are preserved. No API examples, tracking events, delivery workers, final send/test/save actions or new captures are needed for this record.
