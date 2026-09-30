@@ -28,6 +28,22 @@
       "article": "_developers/tracking-events.md",
       "snapshot": "docs/editorial-work/captures/tracking-events/original-stub.md",
       "sha256": "1464dd062e327751be81b121bb30f04382a5181215e9511082341bc75efc4154"
+    },
+    {
+      "article": "_i18n/es/developers/developers-overview.md",
+      "snapshot": "docs/editorial-work/captures/tracking-events/developers-overview-es-before.md.gz",
+      "snapshot_encoding": "gzip",
+      "sha256": "6f323a55983b38e7c8a7a825e6bd756f4011e840ac559308f86d3478b5e56c4d",
+      "archive_sha256": "900de9a49a477e6421aaf471b467a82855b42a9fbb3fe0d2195b02e83a969d6e",
+      "scope": "Only correct the obsolete Tracking guide warning; every other byte unchanged."
+    },
+    {
+      "article": "_i18n/en/developers/developers-overview.md",
+      "snapshot": "docs/editorial-work/captures/tracking-events/developers-overview-en-before.md.gz",
+      "snapshot_encoding": "gzip",
+      "sha256": "00bbd87ab16fc652d1579b560f1eb76c743b86b07a52624ccffc8c8306f61c8b",
+      "archive_sha256": "c3847df985b0edd535d664f062ea0c4dc0abd50fd0b473cf2cf1e5d3ce0cac25",
+      "scope": "Only correct the obsolete Tracking guide warning; every other byte unchanged."
     }
   ],
   "images": [
@@ -433,6 +449,15 @@
     "new_capture_count": 0,
     "new_png_uploads": 0,
     "publication_state": "pending",
-    "verified_commit": "636f7d5e9c178b47af82a0ef6f9d9ed710443c1e"
+    "verified_commit": "636f7d5e9c178b47af82a0ef6f9d9ed710443c1e",
+    "total_affected_pages": 6,
+    "total_full_page_browser_states": 18
+  },
+  "review_correction": {
+    "pr": 293,
+    "reviewed_head": "627c84dc14fdf0a9b3f4824ea94fefdfc06354b5",
+    "finding": "Developers overview ES/EN retained an obsolete automatic-page-view warning.",
+    "scope": "Exactly one paragraph per locale, all other bytes unchanged.",
+    "status": "Corrected before merge; rebuilt and both complete overview pages visually reviewed at 1440/390/580px. Fresh independent exact-head review pending."
   }
 }

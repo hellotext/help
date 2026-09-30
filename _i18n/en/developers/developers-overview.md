@@ -84,7 +84,7 @@ Track visitor navigation and interaction with Hellotext.js when the browser is t
 
 Tracked events can help you segment audiences, trigger playbooks or routes, attribute revenue, and give the inbox team more context. Each result depends on its data and configuration: receipt of a request does not prove that the event has been processed or that a sale has been attributed.
 
-Keep reading: [Tracking events]({% link _developers/tracking-events.md %}). That guide contains an inherited description of automatic `page.viewed`. For a new installation using SDK **2.6.0**, follow the installation and browser-activity steps in the custom-store guide linked above: await initialization and explicitly track `page.viewed` once per navigation, without duplicating the first view.
+Keep reading: [Tracking events]({% link _developers/tracking-events.md %}) for initialization and explicit recording. For a new installation using SDK **2.6.0**, also follow the installation and browser-activity steps in the custom-store guide linked above: await initialization and explicitly track `page.viewed` once per navigation, without duplicating the first view.
 
 ## Model business-specific activity
 
