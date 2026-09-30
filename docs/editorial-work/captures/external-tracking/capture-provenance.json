@@ -1,5 +1,5 @@
 {
-  "status": "local_verified",
+  "status": "public_verified",
   "base_revision": "5775b2e85ffe7051dd7d88552774ae7fd7288e15",
   "originals": [
     {
@@ -61,7 +61,7 @@
       "ui_evidence": "docs/editorial-work/captures/custom-store-integration/token-es-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "publication_status": "Originally approved native source reused without recapture or duplicate upload; publication in this article pending.",
+      "publication_status": "Existing approved public native source reused without recapture, pixel changes or duplicate upload; current external tracking page and served hash verified in public-verification.json.",
       "reused_from_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
       "reused_from_public_evidence": "docs/editorial-work/captures/custom-store-integration/public-verification.json"
     },
@@ -107,7 +107,7 @@
       "ui_evidence": "docs/editorial-work/captures/custom-store-integration/token-es-mobile-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "publication_status": "Originally approved native source reused without recapture or duplicate upload; publication in this article pending.",
+      "publication_status": "Existing approved public native source reused without recapture, pixel changes or duplicate upload; current external tracking page and served hash verified in public-verification.json.",
       "reused_from_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
       "reused_from_public_evidence": "docs/editorial-work/captures/custom-store-integration/public-verification.json"
     },
@@ -153,7 +153,7 @@
       "ui_evidence": "docs/editorial-work/captures/custom-store-integration/token-en-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "publication_status": "Originally approved native source reused without recapture or duplicate upload; publication in this article pending.",
+      "publication_status": "Existing approved public native source reused without recapture, pixel changes or duplicate upload; current external tracking page and served hash verified in public-verification.json.",
       "reused_from_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
       "reused_from_public_evidence": "docs/editorial-work/captures/custom-store-integration/public-verification.json"
     },
@@ -199,7 +199,7 @@
       "ui_evidence": "docs/editorial-work/captures/custom-store-integration/token-en-mobile-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "publication_status": "Originally approved native source reused without recapture or duplicate upload; publication in this article pending.",
+      "publication_status": "Existing approved public native source reused without recapture, pixel changes or duplicate upload; current external tracking page and served hash verified in public-verification.json.",
       "reused_from_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
       "reused_from_public_evidence": "docs/editorial-work/captures/custom-store-integration/public-verification.json"
     },
@@ -246,7 +246,7 @@
       "ui_evidence": "docs/editorial-work/captures/custom-actions/catalog-es-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "publication_status": "Originally approved native source reused without recapture or duplicate upload; publication in this article pending.",
+      "publication_status": "Existing approved public native source reused without recapture, pixel changes or duplicate upload; current external tracking page and served hash verified in public-verification.json.",
       "reused_from_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
       "reused_from_public_evidence": "docs/editorial-work/captures/custom-actions/public-verification.json"
     },
@@ -292,7 +292,7 @@
       "ui_evidence": "docs/editorial-work/captures/custom-actions/catalog-es-mobile-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "publication_status": "Originally approved native source reused without recapture or duplicate upload; publication in this article pending.",
+      "publication_status": "Existing approved public native source reused without recapture, pixel changes or duplicate upload; current external tracking page and served hash verified in public-verification.json.",
       "reused_from_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
       "reused_from_public_evidence": "docs/editorial-work/captures/custom-actions/public-verification.json"
     },
@@ -339,7 +339,7 @@
       "ui_evidence": "docs/editorial-work/captures/custom-actions/catalog-en-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "publication_status": "Originally approved native source reused without recapture or duplicate upload; publication in this article pending.",
+      "publication_status": "Existing approved public native source reused without recapture, pixel changes or duplicate upload; current external tracking page and served hash verified in public-verification.json.",
       "reused_from_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
       "reused_from_public_evidence": "docs/editorial-work/captures/custom-actions/public-verification.json"
     },
@@ -385,7 +385,7 @@
       "ui_evidence": "docs/editorial-work/captures/custom-actions/catalog-en-mobile-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "publication_status": "Originally approved native source reused without recapture or duplicate upload; publication in this article pending.",
+      "publication_status": "Existing approved public native source reused without recapture, pixel changes or duplicate upload; current external tracking page and served hash verified in public-verification.json.",
       "reused_from_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
       "reused_from_public_evidence": "docs/editorial-work/captures/custom-actions/public-verification.json"
     }
@@ -393,14 +393,18 @@
   "new_captures": 0,
   "new_png_uploads": 0,
   "capture_method": "Reuse current approved native sources only; retain original route/state/locale and provider UI evidence. No new capture or upload.",
-  "pending": [
-    "PR exact-head checks/review/threads and merge",
-    "exact main Build/normal production and public page/PNG verification"
-  ],
+  "pending": [],
   "local_verification": {
     "evidence": "local-verification.json",
     "visual_review": "completed",
     "native_hashes": "All eight source/asset/root-build/ES-build hashes match original approved P3 2x sources.",
-    "evidence_publication_state": "not_yet_deployed"
+    "evidence_publication_state": "public_verified",
+    "publication_evidence": "public-verification.json"
+  },
+  "public_verification": {
+    "state": "public_verified",
+    "pull_request": 274,
+    "merge_sha": "c713038b4016cb0666a3d0a3a1216d5410a427ed",
+    "evidence": "public-verification.json"
   }
 }

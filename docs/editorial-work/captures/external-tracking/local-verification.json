@@ -23,7 +23,8 @@
     "stub_titles_slugs_publication_state_preserved": true,
     "docs_excluded": true,
     "diff_check": "passed",
-    "evidence_publication_state": "not_yet_deployed"
+    "evidence_publication_state": "public_verified",
+    "publication_evidence": "public-verification.json"
   },
   "assets": [
     {
@@ -1053,10 +1054,7 @@
   },
   "new_captures": 0,
   "new_uploads": 0,
-  "pending": [
-    "PR exact-head checks/review/threads and merge",
-    "exact main Build/normal production and public page/PNG verification"
-  ],
+  "pending": [],
   "review_correction": {
     "pull_request": 274,
     "thread": "https://github.com/hellotext/help/pull/274#discussion_r4144189281",
@@ -1089,5 +1087,11 @@
         "paragraph": "Keep reference and source stable. Store their mapping to a Hellotext object ID only when a separate resource creation or lookup request returns that ID; the tracking response {\"status\":\"received\"} does not return the created or matched object\u2019s ID. Changing them between requests can create separate objects for the same product, cart, or order. Use one alternative, object or object_parameters, to express which resource to associate."
       }
     ]
+  },
+  "public_verification": {
+    "state": "public_verified",
+    "pull_request": 274,
+    "merge_sha": "c713038b4016cb0666a3d0a3a1216d5410a427ed",
+    "evidence": "public-verification.json"
   }
 }
