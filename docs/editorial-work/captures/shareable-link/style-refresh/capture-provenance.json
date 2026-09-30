@@ -1,0 +1,560 @@
+{
+  "status": "local_verified",
+  "captured_at": "2026-09-30",
+  "rails_revision": "e6ae33a310d46ba88d9bf5b70845618a0b4a6461",
+  "request": "Refresh the number and opt-in message controls after application style changes, in ES/EN.",
+  "capture_method": "Official isolated Chrome compositor script; native lossless PNG, Display P3 D65, DPR 2. No operating-system window picker or personal browser inspection.",
+  "fixture_changes": "Only guarded owner locale ES→EN→ES and transient unsaved textarea values. No fixtures seeded, form submitted, link opened, channel enabled or delivery requested.",
+  "screenshots_scope": "One requested concept, four native desktop/phone sources. The other four concepts retain their approved sources without duplicates.",
+  "images": [
+    {
+      "name": "message-es",
+      "locale": "es",
+      "concept": "default-number-and-unsent-opt-in-message",
+      "mobile": false,
+      "css_clip": [
+        95,
+        424,
+        674,
+        298
+      ],
+      "viewport": [
+        1440,
+        1200
+      ],
+      "safety": {
+        "database": "hellotext_editorial_workload_20260928",
+        "business_id": 5,
+        "account": "design-system@example.test",
+        "locale": "es",
+        "contacts": 127,
+        "messageable": 0,
+        "subscribed": 0,
+        "messages": 49,
+        "enabled_playbooks": 0,
+        "capture_id": 6,
+        "capture_state": "disabled",
+        "link_id": "3oDXBQG4",
+        "journey_state": "draft",
+        "channel_active": false,
+        "social_links": 1
+      },
+      "ui": {
+        "url": "http://127.0.0.1:3192/hellotext/captures/instagram-stories/new?technology=sms&name=Link%20de%20Instagram%20demo",
+        "title": "Nuevo Link Compartible - Hellotext",
+        "locale": "es",
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "number": [
+          107,
+          440,
+          650,
+          74
+        ],
+        "group": [
+          107,
+          546,
+          650,
+          160
+        ],
+        "numberText": "Elige el número de teléfono predeterminado para suscribirse\n\nConfiguración predeterminada para envíos.",
+        "label": "Personaliza el mensaje que enviarán tus usuarios para suscribirse.",
+        "message": "Quiero recibir novedades de Tienda Ejemplo",
+        "preview": [
+          "Quiero recibir novedades de Tienda Ejemplo"
+        ],
+        "labelStyle": {
+          "fontSize": "16px",
+          "lineHeight": "24px"
+        },
+        "numberStyle": {
+          "fontSize": "16px",
+          "lineHeight": "24px"
+        },
+        "form": [
+          0,
+          84,
+          1440,
+          1116
+        ],
+        "text": "Elige un número y un mensaje\n\nLos links compartibles abren la aplicación de mensajes nativos con el número de teléfono y el mensaje de texto pre-cargados, lo que permite a los usuarios suscribirse con un solo clic.\n\nElige el número de teléfono predeterminado para suscribirse\n\nConfiguración predeterminada para envíos.\nPersonaliza el mensaje que enviarán tus usuarios para suscribirse.\nAtrás\nCancelar\n \nGuardar & Continuar\nSMS\n\nQuiero recibir novedades de Tienda Ejemplo"
+      },
+      "native": {
+        "output": "message-es.png",
+        "sha256": "88a93638e1db62974a70c106834b5e5ba7e0635b72b96963e2679de3897b36dc",
+        "url": "http://127.0.0.1:3192/hellotext/captures/instagram-stories/new?technology=sms&name=Link%20de%20Instagram%20demo",
+        "locale": "es",
+        "cssViewport": [
+          1440,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          95,
+          424,
+          674,
+          298
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1348,
+          596
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "published_asset": "images/captures/shareable-link/style-refresh/message-es.png",
+      "publication_status": "local_verified; public publication pending",
+      "native_logical_size": [
+        674,
+        298
+      ],
+      "intended_maximum_css_width": 674
+    },
+    {
+      "name": "message-es-mobile",
+      "locale": "es",
+      "concept": "default-number-and-unsent-opt-in-message",
+      "mobile": true,
+      "css_clip": [
+        20,
+        340,
+        350,
+        346
+      ],
+      "viewport": [
+        390,
+        1100
+      ],
+      "safety": {
+        "database": "hellotext_editorial_workload_20260928",
+        "business_id": 5,
+        "account": "design-system@example.test",
+        "locale": "es",
+        "contacts": 127,
+        "messageable": 0,
+        "subscribed": 0,
+        "messages": 49,
+        "enabled_playbooks": 0,
+        "capture_id": 6,
+        "capture_state": "disabled",
+        "link_id": "3oDXBQG4",
+        "journey_state": "draft",
+        "channel_active": false,
+        "social_links": 1
+      },
+      "ui": {
+        "url": "http://127.0.0.1:3192/hellotext/captures/instagram-stories/new?technology=sms&name=Link%20de%20Instagram%20demo",
+        "title": "Nuevo Link Compartible - Hellotext",
+        "locale": "es",
+        "viewport": [
+          390,
+          1100
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "number": [
+          32,
+          356,
+          326,
+          98
+        ],
+        "group": [
+          32,
+          486,
+          326,
+          184
+        ],
+        "numberText": "Elige el número de teléfono predeterminado para suscribirse\n\nConfiguración predeterminada para envíos.",
+        "label": "Personaliza el mensaje que enviarán tus usuarios para suscribirse.",
+        "message": "Quiero recibir novedades de Tienda Ejemplo",
+        "preview": [
+          "Quiero recibir novedades de Tienda Ejemplo"
+        ],
+        "labelStyle": {
+          "fontSize": "16px",
+          "lineHeight": "24px"
+        },
+        "numberStyle": {
+          "fontSize": "16px",
+          "lineHeight": "24px"
+        },
+        "form": [
+          0,
+          8,
+          390,
+          814
+        ],
+        "text": "Elige un número y un mensaje\n\nLos links compartibles abren la aplicación de mensajes nativos con el número de teléfono y el mensaje de texto pre-cargados, lo que permite a los usuarios suscribirse con un solo clic.\n\nElige el número de teléfono predeterminado para suscribirse\n\nConfiguración predeterminada para envíos.\nPersonaliza el mensaje que enviarán tus usuarios para suscribirse.\nAtrás\nCancelar\n \nGuardar & Continuar"
+      },
+      "native": {
+        "output": "message-es-mobile.png",
+        "sha256": "9030f28f9c5bad060c5447a345d3a2af6c597c3af1dc347287a0e1b228ae0ec6",
+        "url": "http://127.0.0.1:3192/hellotext/captures/instagram-stories/new?technology=sms&name=Link%20de%20Instagram%20demo",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          1100
+        ],
+        "browserDpr": 2,
+        "clip": [
+          20,
+          340,
+          350,
+          346
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          700,
+          692
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "published_asset": "images/captures/shareable-link/style-refresh/message-es-mobile.png",
+      "publication_status": "local_verified; public publication pending",
+      "native_logical_size": [
+        350,
+        346
+      ],
+      "intended_maximum_css_width": 350
+    },
+    {
+      "name": "message-en",
+      "locale": "en",
+      "concept": "default-number-and-unsent-opt-in-message",
+      "mobile": false,
+      "css_clip": [
+        95,
+        396,
+        674,
+        298
+      ],
+      "viewport": [
+        1440,
+        1200
+      ],
+      "safety": {
+        "database": "hellotext_editorial_workload_20260928",
+        "business_id": 5,
+        "account": "design-system@example.test",
+        "locale": "en",
+        "contacts": 127,
+        "messageable": 0,
+        "subscribed": 0,
+        "messages": 49,
+        "enabled_playbooks": 0,
+        "capture_id": 6,
+        "capture_state": "disabled",
+        "link_id": "3oDXBQG4",
+        "journey_state": "draft",
+        "channel_active": false,
+        "social_links": 1
+      },
+      "ui": {
+        "url": "http://127.0.0.1:3192/hellotext/captures/instagram-stories/new?technology=sms&name=Instagram%20link%20demo",
+        "title": "New Shareable Link - Hellotext",
+        "locale": "en",
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "number": [
+          107,
+          412,
+          650,
+          74
+        ],
+        "group": [
+          107,
+          518,
+          650,
+          160
+        ],
+        "numberText": "Select the default phone number to subscribe\n\nUsing default settings for sending.",
+        "label": "Personalize the message your users will send to subscribe.",
+        "message": "I want updates from Example Store",
+        "preview": [
+          "I want updates from Example Store"
+        ],
+        "labelStyle": {
+          "fontSize": "16px",
+          "lineHeight": "24px"
+        },
+        "numberStyle": {
+          "fontSize": "16px",
+          "lineHeight": "24px"
+        },
+        "form": [
+          0,
+          84,
+          1440,
+          1116
+        ],
+        "text": "Choose a number and message\n\nShareable links open the native messages app with the phone number and text message pre-filled, letting users subscribe with one click.\n\nSelect the default phone number to subscribe\n\nUsing default settings for sending.\nPersonalize the message your users will send to subscribe.\nBack\nCancel\n \nSave & Continue\nSMS\n\nI want updates from Example Store"
+      },
+      "native": {
+        "output": "message-en.png",
+        "sha256": "23ddfe0a084b45d1bec797c0ef989ff623d963132685ec4c3d83917307091d24",
+        "url": "http://127.0.0.1:3192/hellotext/captures/instagram-stories/new?technology=sms&name=Instagram%20link%20demo",
+        "locale": "en",
+        "cssViewport": [
+          1440,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          95,
+          396,
+          674,
+          298
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1348,
+          596
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "published_asset": "images/captures/shareable-link/style-refresh/message-en.png",
+      "publication_status": "local_verified; public publication pending",
+      "native_logical_size": [
+        674,
+        298
+      ],
+      "intended_maximum_css_width": 674
+    },
+    {
+      "name": "message-en-mobile",
+      "locale": "en",
+      "concept": "default-number-and-unsent-opt-in-message",
+      "mobile": true,
+      "css_clip": [
+        20,
+        316,
+        350,
+        346
+      ],
+      "viewport": [
+        390,
+        1100
+      ],
+      "safety": {
+        "database": "hellotext_editorial_workload_20260928",
+        "business_id": 5,
+        "account": "design-system@example.test",
+        "locale": "en",
+        "contacts": 127,
+        "messageable": 0,
+        "subscribed": 0,
+        "messages": 49,
+        "enabled_playbooks": 0,
+        "capture_id": 6,
+        "capture_state": "disabled",
+        "link_id": "3oDXBQG4",
+        "journey_state": "draft",
+        "channel_active": false,
+        "social_links": 1
+      },
+      "ui": {
+        "url": "http://127.0.0.1:3192/hellotext/captures/instagram-stories/new?technology=sms&name=Instagram%20link%20demo",
+        "title": "New Shareable Link - Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          1100
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "number": [
+          32,
+          332,
+          326,
+          98
+        ],
+        "group": [
+          32,
+          462,
+          326,
+          184
+        ],
+        "numberText": "Select the default phone number to subscribe\n\nUsing default settings for sending.",
+        "label": "Personalize the message your users will send to subscribe.",
+        "message": "I want updates from Example Store",
+        "preview": [
+          "I want updates from Example Store"
+        ],
+        "labelStyle": {
+          "fontSize": "16px",
+          "lineHeight": "24px"
+        },
+        "numberStyle": {
+          "fontSize": "16px",
+          "lineHeight": "24px"
+        },
+        "form": [
+          0,
+          8,
+          390,
+          790
+        ],
+        "text": "Choose a number and message\n\nShareable links open the native messages app with the phone number and text message pre-filled, letting users subscribe with one click.\n\nSelect the default phone number to subscribe\n\nUsing default settings for sending.\nPersonalize the message your users will send to subscribe.\nBack\nCancel\n \nSave & Continue"
+      },
+      "native": {
+        "output": "message-en-mobile.png",
+        "sha256": "220f78ad13060abdf1dccf8c59163a84c26a5a8a56999e769a1d8308a8edeeec",
+        "url": "http://127.0.0.1:3192/hellotext/captures/instagram-stories/new?technology=sms&name=Instagram%20link%20demo",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          1100
+        ],
+        "browserDpr": 2,
+        "clip": [
+          20,
+          316,
+          350,
+          346
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          700,
+          692
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "published_asset": "images/captures/shareable-link/style-refresh/message-en-mobile.png",
+      "publication_status": "local_verified; public publication pending",
+      "native_logical_size": [
+        350,
+        346
+      ],
+      "intended_maximum_css_width": 350
+    }
+  ],
+  "postflight": {
+    "database": "hellotext_editorial_workload_20260928",
+    "business_id": 5,
+    "account": "design-system@example.test",
+    "locale": "es",
+    "contacts": 127,
+    "messageable": 0,
+    "subscribed": 0,
+    "messages": 49,
+    "enabled_playbooks": 0,
+    "capture_id": 6,
+    "capture_state": "disabled",
+    "link_id": "3oDXBQG4",
+    "journey_state": "draft",
+    "channel_active": false,
+    "social_links": 1
+  },
+  "preserved_assets": [
+    {
+      "asset": "images/captures/capture-overview/desktop-link-es.png",
+      "sha256": "7a0de54184b72e93a0b78f6af9daa695c88520c13ad49f067db5f64451e7b857",
+      "duplicate_uploaded": false
+    },
+    {
+      "asset": "images/captures/shareable-link/assignment-es-mobile.png",
+      "sha256": "8572f006aa6aeceddef1a99a43a75a9f8a7cc2c98aa5b8d17c078d81febe51b9",
+      "duplicate_uploaded": false
+    },
+    {
+      "asset": "images/captures/shareable-link/assignment-es.png",
+      "sha256": "42989610c02d0f8ca394a3c9ef81aaad3efa00a0fb53314e81a35d7785bea3d2",
+      "duplicate_uploaded": false
+    },
+    {
+      "asset": "images/captures/shareable-link/result-es-mobile.png",
+      "sha256": "52060a56f129117adc7eeb428e6162dc78a66f73b8580b07ac2dac72ea35ea1b",
+      "duplicate_uploaded": false
+    },
+    {
+      "asset": "images/captures/shareable-link/result-es.png",
+      "sha256": "55fe1c197b9231e9af0cbacd7097d58d6bb834befd3a19f1e20fc1caccf6712d",
+      "duplicate_uploaded": false
+    },
+    {
+      "asset": "images/captures/shareable-link/type-es-mobile.png",
+      "sha256": "0cd707150da0b834ba93a19bd6bf9bce92ddad4111c115d3fd0b9efcc205c9f7",
+      "duplicate_uploaded": false
+    },
+    {
+      "asset": "images/captures/shareable-link/type-es.png",
+      "sha256": "3fa1ba020323e098d4c5125da8a775cea0be3b4b7017e5e44bf437a969dcbefe",
+      "duplicate_uploaded": false
+    },
+    {
+      "asset": "images/captures/capture-overview/desktop-link-en.png",
+      "sha256": "94023b8759e760dac96bce80baf0419d881a8f3015d1223a451f76b937d948f2",
+      "duplicate_uploaded": false
+    },
+    {
+      "asset": "images/captures/shareable-link/assignment-en-mobile.png",
+      "sha256": "c1f93ac586de4370d4e7de910eecae9a57f3956df5c0190768adb96b8503e9a8",
+      "duplicate_uploaded": false
+    },
+    {
+      "asset": "images/captures/shareable-link/assignment-en.png",
+      "sha256": "ca4f55eadaab6295c7b5382762c8f7ca5c37696db68b4ca0c3f9604c1d17ada9",
+      "duplicate_uploaded": false
+    },
+    {
+      "asset": "images/captures/shareable-link/result-en-mobile.png",
+      "sha256": "f96ab4937b9b3b7d5a2686ed773b3b6656ba62d40e1045aeb301c84f6ea44697",
+      "duplicate_uploaded": false
+    },
+    {
+      "asset": "images/captures/shareable-link/result-en.png",
+      "sha256": "1570bafa6e15e80a584ed99bdd85d1200a41327e6f18d6933884fde77a4fcbed",
+      "duplicate_uploaded": false
+    },
+    {
+      "asset": "images/captures/shareable-link/type-en-mobile.png",
+      "sha256": "7c4e48cddd6a45babb2b588d22c4c53b6b25c4e36171ef93f9eff5fae82e3498",
+      "duplicate_uploaded": false
+    },
+    {
+      "asset": "images/captures/shareable-link/type-en.png",
+      "sha256": "db5843155cd7e3a6ed5b5f5d772a2a6967467830c2fc5b15b8fbf2c3febe1d15",
+      "duplicate_uploaded": false
+    }
+  ],
+  "presentation": "Five static figures per locale. Full-width lavender stages; fitted white frames include 18px border/padding overhead. Both responsive sources declare their genuine 2× density, with image width auto; each remains below its recorded logical crop size.",
+  "public_verification": {
+    "state": "pending"
+  },
+  "local_verification": {
+    "state": "local_verified",
+    "production_build": "yarn build with Ruby 3.3.6; Jekyll ES/EN and security headers passed.",
+    "hashes": "All four source/asset/root-build/ES-build PNG hashes match; fourteen preserved PNG bytes unchanged.",
+    "whole_article_browser_review": "ES/EN at 1440,390,580 CSS pixels: five figures, correct responsive sources, native size caps, no horizontal overflow. Full article and saved screenshot pixels reviewed.",
+    "page_evidence": "page-review.json",
+    "publication": "Pending protected GitHub merge and normal production deployment."
+  }
+}

@@ -12,8 +12,8 @@ Para crear un Enlace Compartible, abre **Misiones**, haz clic en **Explorar misi
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Enlace Compartible en el catálogo de escritorio de la cuenta ficticia">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="width: fit-content; max-width: 418px; margin: 0 auto;">
-      <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/desktop-link-es.png" srcset="/images/captures/capture-overview/desktop-link-es.png 2x" style="width: auto; margin: 0 auto;" width="800" height="480" loading="lazy" decoding="async" alt="Tarjeta Enlace Compartible en el catálogo de misiones de captura." />
+    <div class="ht-editorial-visual__image-frame" style="max-width: 400px; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/desktop-link-es.png" width="800" height="480" loading="lazy" decoding="async" alt="Tarjeta Enlace Compartible en el catálogo de misiones de captura." />
     </div>
   </div>
   <figcaption class="ht-editorial-visual__caption">Busca esta tarjeta en Captura para iniciar el enlace.</figcaption>
@@ -25,10 +25,10 @@ Elige la aplicación que debería abrir el enlace. Las opciones disponibles son 
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Elección de SMS o WhatsApp para el enlace compartible">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="width: fit-content; max-width: 618px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 600px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 400px)" srcset="/images/captures/shareable-link/type-es-mobile.png 2x" width="732" height="1300" />
-        <img class="ht-editorial-visual__image" src="/images/captures/shareable-link/type-es.png" srcset="/images/captures/shareable-link/type-es.png 2x" style="width: auto; margin: 0 auto;" width="1200" height="1200" loading="lazy" decoding="async" alt="Selector de tipo con SMS elegido y WhatsApp no disponible en la cuenta ficticia." />
+        <source media="(max-width: 400px)" srcset="/images/captures/shareable-link/type-es-mobile.png" width="732" height="1300" />
+        <img class="ht-editorial-visual__image" src="/images/captures/shareable-link/type-es.png" width="1200" height="1200" loading="lazy" decoding="async" alt="Selector de tipo con SMS elegido y WhatsApp no disponible en la cuenta ficticia." />
       </picture>
     </div>
   </div>
@@ -48,10 +48,10 @@ También puedes personalizar el mensaje predefinido que los clientes enviarán p
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Número predeterminado y texto de suscripción del enlace compartible ficticio">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="width: fit-content; max-width: 692px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 580px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 470px)" srcset="/images/captures/shareable-link/style-refresh/message-es-mobile.png 2x" width="700" height="692" />
-        <img class="ht-editorial-visual__image" src="/images/captures/shareable-link/style-refresh/message-es.png" srcset="/images/captures/shareable-link/style-refresh/message-es.png 2x" style="width: auto; margin: 0 auto;" width="1348" height="596" loading="lazy" decoding="async" alt="Control del número predeterminado y borrador de mensaje Quiero recibir novedades de Tienda Ejemplo." />
+        <source media="(max-width: 470px)" srcset="/images/captures/shareable-link/message-es-mobile.png" width="860" height="700" />
+        <img class="ht-editorial-visual__image" src="/images/captures/shareable-link/message-es.png" width="1160" height="740" loading="lazy" decoding="async" alt="Control del número predeterminado y borrador de mensaje Quiero recibir novedades de Tienda Ejemplo." />
       </picture>
     </div>
   </div>
@@ -68,10 +68,10 @@ Puedes seleccionar un cupón si la misión elegida tiene un mensaje preparado pa
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Cupón y ruta opcionales asignados a un enlace compartible ficticio desactivado">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="width: fit-content; max-width: 668px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 650px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 470px)" srcset="/images/captures/shareable-link/assignment-es-mobile.png 2x" width="860" height="980" />
-        <img class="ht-editorial-visual__image" src="/images/captures/shareable-link/assignment-es.png" srcset="/images/captures/shareable-link/assignment-es.png 2x" style="width: auto; margin: 0 auto;" width="1300" height="1240" loading="lazy" decoding="async" alt="Cupón ficticio GUIA-QR-10 y ruta de bienvenida de ejemplo seleccionados en el paso opcional." />
+        <source media="(max-width: 470px)" srcset="/images/captures/shareable-link/assignment-es-mobile.png" width="860" height="980" />
+        <img class="ht-editorial-visual__image" src="/images/captures/shareable-link/assignment-es.png" width="1300" height="1240" loading="lazy" decoding="async" alt="Cupón ficticio GUIA-QR-10 y ruta de bienvenida de ejemplo seleccionados en el paso opcional." />
       </picture>
     </div>
   </div>
@@ -84,10 +84,10 @@ Después de guardar u omitir el seguimiento, copia el enlace del último paso.
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Resultado del enlace compartible ficticio y botón Copiar">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="width: fit-content; max-width: 808px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame">
       <picture>
-        <source media="(max-width: 470px)" srcset="/images/captures/shareable-link/result-es-mobile.png 2x" width="860" height="780" />
-        <img class="ht-editorial-visual__image" src="/images/captures/shareable-link/result-es.png" srcset="/images/captures/shareable-link/result-es.png 2x" style="width: auto; margin: 0 auto;" width="1580" height="810" loading="lazy" decoding="async" alt="Enlace ficticio generado en la cuenta aislada y botón Copiar de la pantalla final." />
+        <source media="(max-width: 470px)" srcset="/images/captures/shareable-link/result-es-mobile.png" width="860" height="780" />
+        <img class="ht-editorial-visual__image" src="/images/captures/shareable-link/result-es.png" width="1580" height="810" loading="lazy" decoding="async" alt="Enlace ficticio generado en la cuenta aislada y botón Copiar de la pantalla final." />
       </picture>
     </div>
   </div>
