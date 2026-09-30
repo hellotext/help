@@ -1,5 +1,5 @@
 {
-  "status": "local_verified_publication_pending",
+  "status": "publicly_verified",
   "baseline_main": "1f98bd5fceafc3c6eeabfadf5176a7fdec1b9e41",
   "article_key": "developers/tracking-unidentified-customers.md",
   "originals": [
@@ -64,7 +64,8 @@
       "pixel_edits": "none",
       "publication_status": "Approved existing source and asset; no duplicate PNG uploaded in this batch.",
       "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
-      "reuse": true
+      "reuse": true,
+      "consumer_publication": "Publicly verified after #297; see root publication evidence. Original source publication and UI evidence remain unchanged."
     },
     {
       "name": "business-es-mobile",
@@ -110,7 +111,8 @@
       "pixel_edits": "none",
       "publication_status": "Approved existing source and asset; no duplicate PNG uploaded in this batch.",
       "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
-      "reuse": true
+      "reuse": true,
+      "consumer_publication": "Publicly verified after #297; see root publication evidence. Original source publication and UI evidence remain unchanged."
     },
     {
       "name": "business-en",
@@ -156,7 +158,8 @@
       "pixel_edits": "none",
       "publication_status": "Approved existing source and asset; no duplicate PNG uploaded in this batch.",
       "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
-      "reuse": true
+      "reuse": true,
+      "consumer_publication": "Publicly verified after #297; see root publication evidence. Original source publication and UI evidence remain unchanged."
     },
     {
       "name": "business-en-mobile",
@@ -202,7 +205,8 @@
       "pixel_edits": "none",
       "publication_status": "Approved existing source and asset; no duplicate PNG uploaded in this batch.",
       "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
-      "reuse": true
+      "reuse": true,
+      "consumer_publication": "Publicly verified after #297; see root publication evidence. Original source publication and UI evidence remain unchanged."
     },
     {
       "name": "token-es",
@@ -249,7 +253,8 @@
       "pointer": "absent",
       "pixel_edits": "none",
       "publication_status": "Approved existing source and asset; no duplicate PNG uploaded in this batch.",
-      "original_provenance": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/capture-provenance.json"
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/capture-provenance.json",
+      "consumer_publication": "Publicly verified after #297; see root publication evidence. Original source publication and UI evidence remain unchanged."
     },
     {
       "name": "token-es-mobile",
@@ -296,7 +301,8 @@
       "pointer": "absent",
       "pixel_edits": "none",
       "publication_status": "Approved existing source and asset; no duplicate PNG uploaded in this batch.",
-      "original_provenance": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/capture-provenance.json"
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/capture-provenance.json",
+      "consumer_publication": "Publicly verified after #297; see root publication evidence. Original source publication and UI evidence remain unchanged."
     },
     {
       "name": "token-en",
@@ -343,7 +349,8 @@
       "pointer": "absent",
       "pixel_edits": "none",
       "publication_status": "Approved existing source and asset; no duplicate PNG uploaded in this batch.",
-      "original_provenance": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/capture-provenance.json"
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/capture-provenance.json",
+      "consumer_publication": "Publicly verified after #297; see root publication evidence. Original source publication and UI evidence remain unchanged."
     },
     {
       "name": "token-en-mobile",
@@ -390,7 +397,8 @@
       "pointer": "absent",
       "pixel_edits": "none",
       "publication_status": "Approved existing source and asset; no duplicate PNG uploaded in this batch.",
-      "original_provenance": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/capture-provenance.json"
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/capture-provenance.json",
+      "consumer_publication": "Publicly verified after #297; see root publication evidence. Original source publication and UI evidence remain unchanged."
     }
   ],
   "source_audit": {
@@ -539,9 +547,7 @@
   "new_capture_count": 0,
   "new_png_uploads": 0,
   "protected_state": "No app/DB/UI/fixture/locale/token/object/event/message/test/send/worker action; source and published package inspection only.",
-  "pending": [
-    "Protected PR checks/review, merge, exact main Build/production and public page/PNG verification"
-  ],
+  "pending": [],
   "local_verification": {
     "evidence": "local-verification.json",
     "full_page_browser_review": "page-review/",
@@ -556,12 +562,24 @@
     "build": "Ruby 3.3.6 yarn build with security headers passed",
     "new_capture_count": 0,
     "new_png_uploads": 0,
-    "publication_state": "pending"
+    "publication_state": "Public verification completed after the content merge; see root publication evidence."
   },
   "local_verified_commit": "e729eb459de8478966fd2f0871d1dfa156c655fb",
   "review_followup": {
     "thread": "https://github.com/hellotext/help/pull/297#discussion_r4150202595",
     "classification": "False positive: actual published 2.6.0 source/lib/dist return new Response(true, {json: async () => ({already_identified: true})}), not a plain object. No SDK/API code or example executed.",
     "clarification": "Both locales explicitly describe the cached wrapper, json() and data adapter versus network fetch response. Example remains correct."
+  },
+  "publication": {
+    "state": "publicly_verified",
+    "evidence": "public-verification.json",
+    "content_pr": "https://github.com/hellotext/help/pull/297",
+    "main_merge_sha": "46e11a88d3dc27f2de02b94b77cad6ecf029f180",
+    "deploy_id": "6abd9a1fae82ab000873437f",
+    "public_pages_http": 200,
+    "public_asset_count": 8,
+    "approved_reused_hashes_match": true,
+    "new_captures": 0,
+    "new_png_uploads": 0
   }
 }
