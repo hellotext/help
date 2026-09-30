@@ -1,0 +1,181 @@
+{
+  "url": "http://127.0.0.1:3192/hellotext/settings/actions?tab=custom",
+  "title": "Acciones - Hellotext",
+  "locale": "es",
+  "viewport": [
+    1200,
+    800
+  ],
+  "dpr": 2,
+  "zoom": 1,
+  "pane": [
+    768,
+    0,
+    432,
+    800
+  ],
+  "form": [
+    769,
+    0,
+    431,
+    800
+  ],
+  "main": [
+    316,
+    279,
+    852,
+    271
+  ],
+  "headings": [
+    {
+      "text": "Acciones",
+      "rect": [
+        316,
+        155,
+        210.390625,
+        52
+      ]
+    },
+    {
+      "text": "Cita reservada",
+      "rect": [
+        425,
+        362,
+        668.40625,
+        28
+      ]
+    }
+  ],
+  "list": [
+    349,
+    360,
+    786,
+    157
+  ],
+  "anchors": [
+    {
+      "text": "Acciones",
+      "rect": [
+        32,
+        728,
+        92.7265625,
+        26
+      ]
+    },
+    {
+      "text": "eCommerce",
+      "rect": [
+        340,
+        281,
+        111.625,
+        23.5
+      ]
+    },
+    {
+      "text": "Mensajes",
+      "rect": [
+        507.625,
+        281,
+        86.1015625,
+        23.5
+      ]
+    },
+    {
+      "text": "Otro",
+      "rect": [
+        649.7265625,
+        281,
+        41.2265625,
+        23.5
+      ]
+    },
+    {
+      "text": "Personalizado",
+      "rect": [
+        746.953125,
+        281,
+        125.1796875,
+        23.5
+      ]
+    },
+    {
+      "text": "Crear nueva acción",
+      "rect": [
+        641.84375,
+        473,
+        200.3046875,
+        44
+      ]
+    }
+  ],
+  "text": "Nueva acción\nNombre legible\nNombre de seguimiento\n\nEste es el nombre de la acción a utilizar para el seguimiento. Recomendamos usar caracteres alfanuméricos en minúsculas indicando primero el objeto y luego la acción, es decir, customer.profile.\n\nMarcar como conversión\n\nMarca esta acción como una conversión en los informes cuando ocurra.\n\nMarcar como importante\n\nMarca esta acción como importante y que requiere atención inmediata. Esto moverá la conversación a la parte superior de la Bandeja cuando ocurra.\n\nGuardar\nCancelar",
+  "buttons": [
+    {
+      "text": "",
+      "disabled": false,
+      "rect": [
+        1154.40625,
+        19.203125,
+        21.59375,
+        21.59375
+      ]
+    },
+    {
+      "text": "Guardar",
+      "disabled": false,
+      "rect": [
+        793,
+        724,
+        112.578125,
+        44
+      ]
+    },
+    {
+      "text": "Cancelar",
+      "disabled": false,
+      "rect": [
+        913.578125,
+        724,
+        118.9140625,
+        44
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "tab",
+      "value": "custom",
+      "checked": false
+    },
+    {
+      "name": "track_action[display_name]",
+      "value": "Cita reservada",
+      "checked": false
+    },
+    {
+      "name": "track_action[name]",
+      "value": "appointment.booked",
+      "checked": false
+    },
+    {
+      "name": "track_action[goal]",
+      "value": "0",
+      "checked": false
+    },
+    {
+      "name": "track_action[goal]",
+      "value": "1",
+      "checked": true
+    },
+    {
+      "name": "track_action[passive]",
+      "value": "0",
+      "checked": false
+    },
+    {
+      "name": "track_action[passive]",
+      "value": "1",
+      "checked": false
+    }
+  ]
+}

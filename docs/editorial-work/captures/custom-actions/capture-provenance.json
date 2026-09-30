@@ -1,0 +1,586 @@
+{
+  "status": "local_verified; external publication pending",
+  "base_revision": "1a71b2463f05dcfdf98ed574b682ca6458e6f4cb",
+  "originals": [
+    {
+      "article": "_i18n/es/developers/custom-actions.md",
+      "snapshot": "docs/editorial-work/originals/custom-actions/es.md",
+      "sha256": "cd8a93f9bab295ca6093e4694a6939cbaa6d51959e14a8de9c171b19b1fa771e"
+    },
+    {
+      "article": "_i18n/en/developers/custom-actions.md",
+      "snapshot": "docs/editorial-work/originals/custom-actions/en.md",
+      "sha256": "7fc29ed30fd004b2f4aac18dea487fccd18a08daca1226af2345fa641717d8dc"
+    },
+    {
+      "article": "_developers/custom-actions.md",
+      "snapshot": "docs/editorial-work/originals/custom-actions/stub.md",
+      "sha256": "5de985f0708b7b1b8d285a602647ad680933234693f6def02626f5718d231115"
+    }
+  ],
+  "captured_date": "2026-09-30",
+  "capture_method": "Native isolated headless Chrome compositor, Display P3 D65, genuine 2x; no window picker.",
+  "chrome": {
+    "port": 9460,
+    "pid": 57358,
+    "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+    "single_loopback_page": true,
+    "guarded_account": "design-system@example.test"
+  },
+  "rails_revision": "e6ae33a310d46ba88d9bf5b70845618a0b4a6461",
+  "fixture": {
+    "database": "hellotext_editorial_workload_20260928",
+    "business": 5,
+    "action_id": "61NgGoN0",
+    "action_name": "appointment.booked",
+    "saved_action_goal": false,
+    "saved_action_passive": true,
+    "localized_title_restored": "Cita reservada",
+    "account_locale_restored": "es",
+    "contacts": 127,
+    "messageable": 0,
+    "subscribed": 0,
+    "messages_before_after": 49,
+    "events_before_after": 318,
+    "custom_action_events": 0,
+    "enabled_playbooks": 0,
+    "changes": "One guarded idempotent custom definition only, localized for captures and restored ES. No event saved, object/contact created, API tracking request, campaign/message/test or worker.",
+    "verification_at_utc": "2026-09-30T07:46:42.152831+00:00"
+  },
+  "images": [
+    {
+      "name": "catalog-es",
+      "concept": "catalog",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/custom-actions/catalog-es-original.png",
+      "published_asset": "images/developers/custom-actions/catalog-es.png",
+      "native": {
+        "sha256": "a12712f6c78adc83c29a0c497ccb3a061449789f26a7d5cbaf6fdab127612389",
+        "url": "http://127.0.0.1:3192/hellotext/settings/actions?tab=custom",
+        "locale": "es",
+        "cssViewport": [
+          1200,
+          900
+        ],
+        "browserDpr": 2,
+        "clip": [
+          304,
+          143,
+          876,
+          419
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1752,
+          838
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP",
+        "guard_result": "Required capture tool pre/post guards passed; source hash retained in first batch output."
+      },
+      "logical_size": [
+        876.0,
+        419.0
+      ],
+      "intended_max_display_width_css": 876.0,
+      "ui_evidence": "catalog-es-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none"
+    },
+    {
+      "name": "catalog-es-mobile",
+      "concept": "catalog",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/custom-actions/catalog-es-mobile-original.png",
+      "published_asset": "images/developers/custom-actions/catalog-es-mobile.png",
+      "native": {
+        "sha256": "fab59f9490d84ad14feb17be6a5701ba29c39161fdc7bd5fbd391a2a16651d76",
+        "url": "http://127.0.0.1:3192/hellotext/settings/actions?tab=custom",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          900
+        ],
+        "browserDpr": 2,
+        "clip": [
+          4,
+          518,
+          382,
+          173
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          764,
+          346
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        382.0,
+        173.0
+      ],
+      "intended_max_display_width_css": 382.0,
+      "ui_evidence": "catalog-es-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none"
+    },
+    {
+      "name": "draft-es",
+      "concept": "draft",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/custom-actions/draft-es-original.png",
+      "published_asset": "images/developers/custom-actions/draft-es.png",
+      "native": {
+        "sha256": "258e358aa7e9f2f03d60ab7966661be2048f014991bb400673ca2a0e0296c9c1",
+        "url": "http://127.0.0.1:3192/hellotext/settings/actions?tab=custom",
+        "locale": "es",
+        "cssViewport": [
+          1200,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          769,
+          0,
+          431,
+          800
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          862,
+          1600
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP",
+        "guard_result": "Required capture tool pre/post guards passed; source hash retained in first batch output."
+      },
+      "logical_size": [
+        431.0,
+        800.0
+      ],
+      "intended_max_display_width_css": 431.0,
+      "ui_evidence": "draft-es-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none"
+    },
+    {
+      "name": "draft-es-mobile",
+      "concept": "draft",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/custom-actions/draft-es-mobile-original.png",
+      "published_asset": "images/developers/custom-actions/draft-es-mobile.png",
+      "native": {
+        "sha256": "3fa29dd6103400c248569123a6528bf88e17bc1e94d401bf6fe99ff003284b2f",
+        "url": "http://127.0.0.1:3192/hellotext/settings/actions?tab=custom",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          900
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1,
+          0,
+          389,
+          900
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          778,
+          1800
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        389.0,
+        900.0
+      ],
+      "intended_max_display_width_css": 389.0,
+      "ui_evidence": "draft-es-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none"
+    },
+    {
+      "name": "manual-es",
+      "concept": "manual",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/custom-actions/manual-es-original.png",
+      "published_asset": "images/developers/custom-actions/manual-es.png",
+      "native": {
+        "sha256": "144e3281a27f8c6e5434f2e5e12585039d18bd9f300e259df95381af25c376a2",
+        "url": "http://127.0.0.1:3192/hellotext/audience/yXQ93DnM",
+        "locale": "es",
+        "cssViewport": [
+          1200,
+          650
+        ],
+        "browserDpr": 2,
+        "clip": [
+          769,
+          0,
+          431,
+          650
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          862,
+          1300
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        431.0,
+        650.0
+      ],
+      "intended_max_display_width_css": 431.0,
+      "ui_evidence": "manual-es-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none"
+    },
+    {
+      "name": "manual-es-mobile",
+      "concept": "manual",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/custom-actions/manual-es-mobile-original.png",
+      "published_asset": "images/developers/custom-actions/manual-es-mobile.png",
+      "native": {
+        "sha256": "9cc3f116cb1a88b065f769c74e3b215dc3a39383af884a203e240a965970dacf",
+        "url": "http://127.0.0.1:3192/hellotext/audience/yXQ93DnM",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          650
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1,
+          0,
+          389,
+          650
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          778,
+          1300
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        389.0,
+        650.0
+      ],
+      "intended_max_display_width_css": 389.0,
+      "ui_evidence": "manual-es-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none"
+    },
+    {
+      "name": "catalog-en",
+      "concept": "catalog",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/custom-actions/catalog-en-original.png",
+      "published_asset": "images/developers/custom-actions/catalog-en.png",
+      "native": {
+        "sha256": "6fdbbbe59759abe2be46c35406174c9dae62c52dcdb56d65f5875e003e278bef",
+        "url": "http://127.0.0.1:3192/hellotext/settings/actions?tab=custom",
+        "locale": "en",
+        "cssViewport": [
+          1200,
+          900
+        ],
+        "browserDpr": 2,
+        "clip": [
+          304,
+          143,
+          876,
+          419
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1752,
+          838
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP",
+        "guard_result": "Required capture tool pre/post guards passed; source hash retained in first batch output."
+      },
+      "logical_size": [
+        876.0,
+        419.0
+      ],
+      "intended_max_display_width_css": 876.0,
+      "ui_evidence": "catalog-en-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none"
+    },
+    {
+      "name": "catalog-en-mobile",
+      "concept": "catalog",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/custom-actions/catalog-en-mobile-original.png",
+      "published_asset": "images/developers/custom-actions/catalog-en-mobile.png",
+      "native": {
+        "sha256": "9f1460df43463d2eef8bbd04d6c550782d05bd4129eb7f9bf0faa5f553588561",
+        "url": "http://127.0.0.1:3192/hellotext/settings/actions?tab=custom",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          900
+        ],
+        "browserDpr": 2,
+        "clip": [
+          4,
+          518,
+          382,
+          173
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          764,
+          346
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        382.0,
+        173.0
+      ],
+      "intended_max_display_width_css": 382.0,
+      "ui_evidence": "catalog-en-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none"
+    },
+    {
+      "name": "draft-en",
+      "concept": "draft",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/custom-actions/draft-en-original.png",
+      "published_asset": "images/developers/custom-actions/draft-en.png",
+      "native": {
+        "sha256": "6158a3c27087d464e776dbce27420c15e7cbc91b0d54d1085b2d385eafd86c6e",
+        "url": "http://127.0.0.1:3192/hellotext/settings/actions?tab=custom",
+        "locale": "en",
+        "cssViewport": [
+          1200,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          769,
+          0,
+          431,
+          800
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          862,
+          1600
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP",
+        "guard_result": "Required capture tool pre/post guards passed; source hash retained in first batch output."
+      },
+      "logical_size": [
+        431.0,
+        800.0
+      ],
+      "intended_max_display_width_css": 431.0,
+      "ui_evidence": "draft-en-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none"
+    },
+    {
+      "name": "draft-en-mobile",
+      "concept": "draft",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/custom-actions/draft-en-mobile-original.png",
+      "published_asset": "images/developers/custom-actions/draft-en-mobile.png",
+      "native": {
+        "sha256": "20ae392c54add5a20496f4cf68857067cbb3e9dc0d60ae6f1318c637ec1e4d74",
+        "url": "http://127.0.0.1:3192/hellotext/settings/actions?tab=custom",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          900
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1,
+          0,
+          389,
+          900
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          778,
+          1800
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        389.0,
+        900.0
+      ],
+      "intended_max_display_width_css": 389.0,
+      "ui_evidence": "draft-en-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none"
+    },
+    {
+      "name": "manual-en",
+      "concept": "manual",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/custom-actions/manual-en-original.png",
+      "published_asset": "images/developers/custom-actions/manual-en.png",
+      "native": {
+        "sha256": "77dd2a9505cbc073897db00674689fcf819a0ace5b5b58bc53ad36e3aad8ba7b",
+        "url": "http://127.0.0.1:3192/hellotext/audience/yXQ93DnM",
+        "locale": "en",
+        "cssViewport": [
+          1200,
+          650
+        ],
+        "browserDpr": 2,
+        "clip": [
+          769,
+          0,
+          431,
+          650
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          862,
+          1300
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        431.0,
+        650.0
+      ],
+      "intended_max_display_width_css": 431.0,
+      "ui_evidence": "manual-en-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none"
+    },
+    {
+      "name": "manual-en-mobile",
+      "concept": "manual",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/custom-actions/manual-en-mobile-original.png",
+      "published_asset": "images/developers/custom-actions/manual-en-mobile.png",
+      "native": {
+        "sha256": "77277beaf19ecfad6b22bb3933c8a563bedb3dabc0a43fbaff07a055358fa80e",
+        "url": "http://127.0.0.1:3192/hellotext/audience/yXQ93DnM",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          650
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1,
+          0,
+          389,
+          650
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          778,
+          1300
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        389.0,
+        650.0
+      ],
+      "intended_max_display_width_css": 389.0,
+      "ui_evidence": "manual-en-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none"
+    }
+  ],
+  "rejected_candidates": [
+    "Phone catalog with clipped active tab, replaced by complete row/Create new action focus; app horizontal navigation not fabricated.",
+    "Phone draft 800px clipped final importance explanation, replaced with 900px real viewport.",
+    "Manual 900px excessive blank space, replaced by complete 650px form.",
+    "Initial EN save guard expected Save; source actual label Save changes verified before capture."
+  ],
+  "shared_source_reuse_decision": "Earlier appointment.completed name/options and built-in manual order sources are not the same current route/state/example; originals unchanged.",
+  "manual_form": "Required associated object and disabled Save are intentional real UI state, disclosed in both guides. No completion or success is depicted.",
+  "pending": [
+    "Git push/PR/checks/review/merge",
+    "Exact main Build and normal Netlify deployment",
+    "Public ES/EN pages and 12 PNG hash checks"
+  ],
+  "local_verified_commit": "1c3c7e8503ad69ee70d1839ef349985c86c843a0"
+}
