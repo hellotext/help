@@ -62,10 +62,10 @@ For the collection conversation to work, the standalone Property Collector playb
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Subscriber Booster displays a warning to enable Property Collector before configuring the data it will collect.">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 666px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 575px; width: fit-content; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/style-refresh/prerequisite-en-mobile.png 2x" width="764" height="1100" />
-        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/style-refresh/prerequisite-en.png" srcset="/images/captures/property-collector/style-refresh/prerequisite-en.png 2x" width="1296" height="1036" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Subscriber Booster displays a warning to enable Property Collector before configuring the data it will collect." />
+        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/prerequisite-en-mobile.png 2x" width="780" height="1160" />
+        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/prerequisite-en.png" srcset="/images/captures/property-collector/prerequisite-en.png 2x" width="1150" height="1160" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Subscriber Booster displays a warning to enable Property Collector before configuring the data it will collect." />
       </picture>
     </div>
   </div>
