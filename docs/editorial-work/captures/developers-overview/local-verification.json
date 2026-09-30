@@ -23,7 +23,8 @@
     "stub_titles_slugs_publication_state_preserved": true,
     "docs_excluded": true,
     "diff_check": "passed",
-    "evidence_publication_state": "not_yet_deployed"
+    "evidence_publication_state": "public_verified",
+    "publication_evidence": "public-verification.json"
   },
   "assets": [
     {
@@ -342,8 +343,11 @@
   },
   "new_captures": 0,
   "new_uploads": 0,
-  "pending": [
-    "exact-head PR checks/review/threads and merge",
-    "normal production and public verification"
-  ]
+  "pending": [],
+  "public_verification": {
+    "state": "public_verified",
+    "pull_request": 272,
+    "merge_sha": "33614af45fb68d504031cb0f720c68b9b39cb7be",
+    "evidence": "public-verification.json"
+  }
 }
