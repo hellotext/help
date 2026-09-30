@@ -54,8 +54,37 @@ This is an unsaved draft in the actual Settings template editor, Message mode wi
 
 ## Publication
 
-Pending protected checks/review and exact main/public verification. A local build is not publication. The verifier commit will be recorded separately in progress.csv.
+Content checks/review, exact main Build, normal production deployment and public verification are complete; see evidence below. A local build alone is not publication. The verified content commit is recorded separately in progress.csv.
 
-Local content verifier: `6e7ae88260f08f767f92b5fc7f7d63f2305cc227`. Ledger reconciled to61local_verified/92pending/1out_of_scope; all61verifiers are ancestors of this branch. Required main/public verification remains pending.
+Local content verifier: `6e7ae88260f08f767f92b5fc7f7d63f2305cc227`. Ledger reconciled to61local_verified/92pending/1out_of_scope; all61verifiers are ancestors of this branch. This was the local-stage checkpoint; main/public verification is now recorded below.
 
 Provider follow-up: Meta announced eligible utility Direct Send in June2026. Current Hellotext Gateway::Text uses type:text and no Direct Send parameter; approved-template guidance is scoped to this endpoint, avoiding a universal claim about every Meta flow. Source: https://developers.meta.com/resources/videos/whatsapp-direct-send-api/. No API send or SDK change.
+
+## Public verification — 2026-09-30
+
+Help PR [#283](https://github.com/hellotext/help/pull/283) merged by `f7500957ff896b69c4ec2c456f28fba2d4a49948`, retaining all individual commits. Required Build, Aikido, Netlify preview/header checks and independent review passed on exact head `fb734cb39f4b138cbe352abbc5554753b15f4411`. Actual review threads/comments were read with no unresolved findings before the separate merge call. Review: https://github.com/hellotext/help/pull/283#issuecomment-5916216368. PR attachment was attempted and reached the existing 100-identity limit.
+
+Exact main [Build 36753185542](https://github.com/hellotext/help/actions/runs/36753185542) passed. Normal Netlify production `6abd49c0f6d5bd0008b5e9d9` is ready/published at `2026-09-30T17:42:09.473Z` with matching commit_ref `f7500957ff896b69c4ec2c456f28fba2d4a49948`. Both pages contain two localized figures each and updated Messages endpoint guidance. Both pages and all eight responsive PNGs returned HTTP 200 with approved native source hashes: four new unsaved Message editor images and four token-name sources reused without duplicate uploads. Source density remains 2× and browser/native logical caps prevent upscaling. No manual deployment.
+
+Public pages:
+
+- [https://help.hellotext.com/es/enviar-mensajes-con-api](https://help.hellotext.com/es/enviar-mensajes-con-api) — HTTP 200, two figures.
+- [https://help.hellotext.com/send-messages-with-api](https://help.hellotext.com/send-messages-with-api) — HTTP 200, two figures.
+
+New native images, including mobile:
+
+- [https://help.hellotext.com/images/developers/send-messages-with-api/editor-es.png](https://help.hellotext.com/images/developers/send-messages-with-api/editor-es.png) — HTTP 200; SHA256 `27cbe0e6670b0412f590a6030287ce264393c7d56f1ebaafb407d20dd059da02`.
+- [https://help.hellotext.com/images/developers/send-messages-with-api/editor-en.png](https://help.hellotext.com/images/developers/send-messages-with-api/editor-en.png) — HTTP 200; SHA256 `330f9832b65d012cbdb0cc97cb757f2c90ac197a37bbae711cb5285521261011`.
+- [https://help.hellotext.com/images/developers/send-messages-with-api/editor-es-mobile.png](https://help.hellotext.com/images/developers/send-messages-with-api/editor-es-mobile.png) — HTTP 200; SHA256 `0b6fcf98897f7a89bce1654e31fe8eb5fe31195f36ff3d1eb801ddfd76eb9639`.
+- [https://help.hellotext.com/images/developers/send-messages-with-api/editor-en-mobile.png](https://help.hellotext.com/images/developers/send-messages-with-api/editor-en-mobile.png) — HTTP 200; SHA256 `d5f1753c4577120e5953e7b211cf36850141722623937bc72fccf729bf8b9ca2`.
+
+Approved sources reused without duplicates:
+
+- [https://help.hellotext.com/images/developers/custom-store-integration/token-es.png](https://help.hellotext.com/images/developers/custom-store-integration/token-es.png) — HTTP 200; SHA256 `1aee0b74d12bed3eb995c7211316047bd59158a92f2c491dfc4a01287c5fb953`.
+- [https://help.hellotext.com/images/developers/custom-store-integration/token-es-mobile.png](https://help.hellotext.com/images/developers/custom-store-integration/token-es-mobile.png) — HTTP 200; SHA256 `ab734e406f700b90cd37365b7a1d084cedb9e8adda7bca8757182d471e6d355a`.
+- [https://help.hellotext.com/images/developers/custom-store-integration/token-en.png](https://help.hellotext.com/images/developers/custom-store-integration/token-en.png) — HTTP 200; SHA256 `ca4b35ca243e0e6db3c52219e00162ef2c708efd61d7265dc25f599907c97bd6`.
+- [https://help.hellotext.com/images/developers/custom-store-integration/token-en-mobile.png](https://help.hellotext.com/images/developers/custom-store-integration/token-en-mobile.png) — HTTP 200; SHA256 `716908e63c1f6e914b3dc8d7456e224c02fe69b24797477dded04096b9ec7652`.
+
+Review evidence: both P2 findings were checked against primary implementation data. The ancestry claim used a synthetic commit outside the PR; actual GitHub parent links and merge-base prove reachability. The timestamp claim used raw Ruby method values before ApplicationSerializer.sort_hash converts TimeWithZone to Unix seconds. serializer-wire-readonly.json records final serialized integer/null values for six unsaved duplicates in a READ ONLY transaction, without changing the original DB row. serializer-readonly.json is raw method evidence, not an HTTP response. Both threads were replied to with proof and resolved before merge.
+
+The independent public record PR and its exact main Build/normal production/page/hash verification close this batch. Post-record evidence is attached to that PR after merge. Ledger: 61 local_verified, 92 pending, 1 out_of_scope. Content verifier remains 6e7ae88260f08f767f92b5fc7f7d63f2305cc227; all verifiers must be ancestors of final main. Protected campaign branch and local dependencies preserved. No examples, tracking, messages, tokens, static links, saved templates, deliveries, API requests or new captures are needed for this record.

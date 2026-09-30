@@ -1,5 +1,5 @@
 {
-  "status": "local_verified",
+  "status": "public_verified",
   "base_revision": "d34dcd355d84fc91da293f6291ec300708f63a60",
   "originals": [
     {
@@ -62,7 +62,8 @@
       "ui_evidence": "docs/editorial-work/captures/send-messages-with-api/editor-es-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "reuse": false
+      "reuse": false,
+      "publication_status": "New native P3 2x PNG published; public served hash matches approved source."
     },
     {
       "name": "editor-en",
@@ -107,7 +108,8 @@
       "ui_evidence": "docs/editorial-work/captures/send-messages-with-api/editor-en-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "reuse": false
+      "reuse": false,
+      "publication_status": "New native P3 2x PNG published; public served hash matches approved source."
     },
     {
       "name": "editor-es-mobile",
@@ -152,7 +154,8 @@
       "ui_evidence": "docs/editorial-work/captures/send-messages-with-api/editor-es-mobile-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "reuse": false
+      "reuse": false,
+      "publication_status": "New native P3 2x PNG published; public served hash matches approved source."
     },
     {
       "name": "editor-en-mobile",
@@ -197,7 +200,8 @@
       "ui_evidence": "docs/editorial-work/captures/send-messages-with-api/editor-en-mobile-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "reuse": false
+      "reuse": false,
+      "publication_status": "New native P3 2x PNG published; public served hash matches approved source."
     },
     {
       "name": "token-es",
@@ -438,12 +442,21 @@
     "app/integrations/whatsapp/gateway/template.rb",
     "app/javascript/controllers/editor/link/form_controller.js"
   ],
-  "pending": [
-    "Protected PR checks and exact-head review, main Build, normal exact Netlify production deployment, and public page/PNG verification."
-  ],
+  "pending": [],
   "local_verification": {
     "verifier_commit": "6e7ae88260f08f767f92b5fc7f7d63f2305cc227",
     "evidence": "local-verification.json",
-    "evidence_publication_state": "not_yet_publicly_verified"
+    "evidence_publication_state": "public_verified",
+    "publication_evidence": "public-verification.json"
+  },
+  "publication": {
+    "status": "public_verified",
+    "evidence": "public-verification.json",
+    "content_pr": 283,
+    "merge_sha": "f7500957ff896b69c4ec2c456f28fba2d4a49948"
+  },
+  "public_verification": {
+    "state": "public_verified",
+    "evidence": "public-verification.json"
   }
 }

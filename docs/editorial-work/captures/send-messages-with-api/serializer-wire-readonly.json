@@ -1,0 +1,86 @@
+{
+  "method": "MessageSerializer.serializable_hash with timestamp/state field subset and JSON encoding; ApplicationSerializer.sort_hash applies the same conversion used by as_json.",
+  "database_transaction": "READ ONLY",
+  "objects": "Unsaved Message duplicates; original stored row reloaded unchanged.",
+  "raw_method_evidence": "serializer-readonly.json contains pre-serializable_hash Ruby method values, not HTTP wire values.",
+  "rows": [
+    {
+      "stored": "unconfirmed",
+      "persisted": false,
+      "raw_timestamp_class": "ActiveSupport::TimeWithZone",
+      "wire": {
+        "created_at": 1790769600,
+        "delivered_at": null,
+        "failed_at": null,
+        "received_at": null,
+        "routed_at": null,
+        "state": "pending"
+      }
+    },
+    {
+      "stored": "dispatched",
+      "persisted": false,
+      "raw_timestamp_class": "ActiveSupport::TimeWithZone",
+      "wire": {
+        "created_at": 1790769600,
+        "delivered_at": null,
+        "failed_at": null,
+        "received_at": null,
+        "routed_at": null,
+        "state": "dispatched"
+      }
+    },
+    {
+      "stored": "routed",
+      "persisted": false,
+      "raw_timestamp_class": "ActiveSupport::TimeWithZone",
+      "wire": {
+        "created_at": 1790769600,
+        "delivered_at": null,
+        "failed_at": null,
+        "received_at": null,
+        "routed_at": 1790769600,
+        "state": "routed"
+      }
+    },
+    {
+      "stored": "delivered",
+      "persisted": false,
+      "raw_timestamp_class": "ActiveSupport::TimeWithZone",
+      "wire": {
+        "created_at": 1790769600,
+        "delivered_at": 1790769600,
+        "failed_at": null,
+        "received_at": null,
+        "routed_at": null,
+        "state": "delivered"
+      }
+    },
+    {
+      "stored": "error",
+      "persisted": false,
+      "raw_timestamp_class": "ActiveSupport::TimeWithZone",
+      "wire": {
+        "created_at": 1790769600,
+        "delivered_at": null,
+        "failed_at": 1790769600,
+        "received_at": null,
+        "routed_at": null,
+        "state": "error"
+      }
+    },
+    {
+      "stored": "received",
+      "persisted": false,
+      "raw_timestamp_class": "ActiveSupport::TimeWithZone",
+      "wire": {
+        "created_at": 1790769600,
+        "delivered_at": null,
+        "failed_at": null,
+        "received_at": 1790769600,
+        "routed_at": null,
+        "state": "received"
+      }
+    }
+  ]
+}
