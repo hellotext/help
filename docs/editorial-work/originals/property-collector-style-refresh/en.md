@@ -33,8 +33,8 @@ The playbook follows its configured collection list, asks for missing values, an
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Property Collector">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 416px; width: fit-content; margin: 0 auto;">
-      <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/desktop-properties-en.png" srcset="/images/captures/capture-overview/desktop-properties-en.png 2x" style="width: auto; margin: 0 auto;" width="800" height="480" loading="lazy" decoding="async" alt="Property Collector in a fictional account." />
+    <div class="ht-editorial-visual__image-frame" style="max-width: 416px; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/desktop-properties-en.png" width="800" height="480" loading="lazy" decoding="async" alt="Property Collector in a fictional account." />
     </div>
   </div>
   <figcaption class="ht-editorial-visual__caption">Property Collector card in the fictional catalog desktop view.</figcaption>
@@ -50,10 +50,10 @@ For that prerequisite collection to run, the business must also have the Propert
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Subscriber Booster notice requiring Property Collector to be enabled before configuring its properties.">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 666px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 575px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/style-refresh/prerequisite-en-mobile.png 2x" width="764" height="1100" />
-        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/style-refresh/prerequisite-en.png" srcset="/images/captures/property-collector/style-refresh/prerequisite-en.png 2x" style="width: auto; margin: 0 auto;" width="1296" height="1036" loading="lazy" decoding="async" alt="Subscriber Booster shows the enable Property Collector notice and disables its property selection." />
+        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/prerequisite-en-mobile.png" width="780" height="1160" />
+        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/prerequisite-en.png" width="1150" height="1160" loading="lazy" decoding="async" alt="Subscriber Booster shows the enable Property Collector notice and disables its property selection." />
       </picture>
     </div>
   </div>
@@ -90,10 +90,10 @@ Too many required fields make a conversational capture feel like a form with no 
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Fictional editor with Name marked important and Email optional in the property collection list.">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 666px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 575px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/style-refresh/fields-en-mobile.png 2x" width="764" height="722" />
-        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/style-refresh/fields-en.png" srcset="/images/captures/property-collector/style-refresh/fields-en.png 2x" style="width: auto; margin: 0 auto;" width="1296" height="698" loading="lazy" decoding="async" alt="Fictional editor with Name marked important and Email optional in the property collection list." />
+        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/fields-en-mobile.png" width="780" height="760" />
+        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/fields-en.png" width="1150" height="760" loading="lazy" decoding="async" alt="Fictional editor with Name marked important and Email optional in the property collection list." />
       </picture>
     </div>
   </div>
@@ -134,10 +134,10 @@ Under **Incoming channels**, choose all available channels or make a manual sele
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Incoming-channel control with all channels selected and a manual-selection option.">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 575px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 575px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/channels-en-mobile.png 2x" width="780" height="1520" />
-        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/channels-en.png" srcset="/images/captures/property-collector/channels-en.png 2x" style="width: auto; margin: 0 auto;" width="1150" height="1180" loading="lazy" decoding="async" alt="Incoming-channel control with all channels selected and a manual-selection option." />
+        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/channels-en-mobile.png" width="780" height="1520" />
+        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/channels-en.png" width="1150" height="1180" loading="lazy" decoding="async" alt="Incoming-channel control with all channels selected and a manual-selection option." />
       </picture>
     </div>
   </div>
@@ -148,10 +148,10 @@ Under **Tone**, select up to three options to shape how the agent asks for infor
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Tone control with Friendly, Playful, and Exclusive selected.">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 575px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 575px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/tone-en-mobile.png 2x" width="780" height="970" />
-        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/tone-en.png" srcset="/images/captures/property-collector/tone-en.png 2x" style="width: auto; margin: 0 auto;" width="1150" height="1030" loading="lazy" decoding="async" alt="Tone control with Friendly, Playful, and Exclusive selected." />
+        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/tone-en-mobile.png" width="780" height="970" />
+        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/tone-en.png" width="1150" height="1030" loading="lazy" decoding="async" alt="Tone control with Friendly, Playful, and Exclusive selected." />
       </picture>
     </div>
   </div>
@@ -162,10 +162,10 @@ Under **Escalation**, enable the handoff and choose a teammate or team who can s
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Escalation control enabled with the fictional Atención demo team selected.">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 575px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 575px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/handoff-en-mobile.png 2x" width="780" height="680" />
-        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/handoff-en.png" srcset="/images/captures/property-collector/handoff-en.png 2x" style="width: auto; margin: 0 auto;" width="1150" height="660" loading="lazy" decoding="async" alt="Escalation control enabled with the fictional Atención demo team selected." />
+        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/handoff-en-mobile.png" width="780" height="680" />
+        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/handoff-en.png" width="1150" height="660" loading="lazy" decoding="async" alt="Escalation control enabled with the fictional Atención demo team selected." />
       </picture>
     </div>
   </div>

@@ -33,8 +33,8 @@ La misión sigue su lista configurada, pide los valores faltantes y guarda las r
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Recolector de Propiedades">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 416px; width: fit-content; margin: 0 auto;">
-      <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/desktop-properties-es.png" srcset="/images/captures/capture-overview/desktop-properties-es.png 2x" style="width: auto; margin: 0 auto;" width="800" height="480" loading="lazy" decoding="async" alt="Recolector de Propiedades en una cuenta ficticia." />
+    <div class="ht-editorial-visual__image-frame" style="max-width: 416px; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/desktop-properties-es.png" width="800" height="480" loading="lazy" decoding="async" alt="Recolector de Propiedades en una cuenta ficticia." />
     </div>
   </div>
   <figcaption class="ht-editorial-visual__caption">Tarjeta de Recolector de Propiedades en la vista de escritorio del catálogo ficticio.</figcaption>
@@ -50,10 +50,10 @@ Para que esa recopilación previa funcione, el negocio también debe tener habil
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Aviso en Impulsor de Suscriptores que exige habilitar Recolector de Propiedades antes de configurar sus propiedades.">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 666px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 575px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/style-refresh/prerequisite-es-mobile.png 2x" width="764" height="1092" />
-        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/style-refresh/prerequisite-es.png" srcset="/images/captures/property-collector/style-refresh/prerequisite-es.png 2x" style="width: auto; margin: 0 auto;" width="1296" height="1036" loading="lazy" decoding="async" alt="Impulsor de Suscriptores muestra el aviso para habilitar Recolector de Propiedades y desactiva su selección de propiedades." />
+        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/prerequisite-es-mobile.png" width="780" height="1160" />
+        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/prerequisite-es.png" width="1150" height="1160" loading="lazy" decoding="async" alt="Impulsor de Suscriptores muestra el aviso para habilitar Recolector de Propiedades y desactiva su selección de propiedades." />
       </picture>
     </div>
   </div>
@@ -90,10 +90,10 @@ Demasiados campos obligatorios hacen que una captura conversacional se sienta co
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Editor ficticio con Nombre importante y E Mail opcional en la lista de propiedades a recopilar.">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 666px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 575px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/style-refresh/fields-es-mobile.png 2x" width="764" height="674" />
-        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/style-refresh/fields-es.png" srcset="/images/captures/property-collector/style-refresh/fields-es.png 2x" style="width: auto; margin: 0 auto;" width="1296" height="698" loading="lazy" decoding="async" alt="Editor ficticio con Nombre importante y E Mail opcional en la lista de propiedades a recopilar." />
+        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/fields-es-mobile.png" width="780" height="680" />
+        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/fields-es.png" width="1150" height="760" loading="lazy" decoding="async" alt="Editor ficticio con Nombre importante y E Mail opcional en la lista de propiedades a recopilar." />
       </picture>
     </div>
   </div>
@@ -134,10 +134,10 @@ En **Canales entrantes**, elige si la misión responde en todos los canales disp
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Control de canales entrantes con todos los canales seleccionados y opción de selección manual.">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 575px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 575px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/channels-es-mobile.png 2x" width="780" height="1520" />
-        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/channels-es.png" srcset="/images/captures/property-collector/channels-es.png 2x" style="width: auto; margin: 0 auto;" width="1150" height="1180" loading="lazy" decoding="async" alt="Control de canales entrantes con todos los canales seleccionados y opción de selección manual." />
+        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/channels-es-mobile.png" width="780" height="1520" />
+        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/channels-es.png" width="1150" height="1180" loading="lazy" decoding="async" alt="Control de canales entrantes con todos los canales seleccionados y opción de selección manual." />
       </picture>
     </div>
   </div>
@@ -148,10 +148,10 @@ En **Tono**, selecciona hasta tres opciones para definir cómo pide los datos.
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Control de tono con Amigable, Juguetón y Exclusivo seleccionados.">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 575px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 575px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/tone-es-mobile.png 2x" width="780" height="970" />
-        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/tone-es.png" srcset="/images/captures/property-collector/tone-es.png 2x" style="width: auto; margin: 0 auto;" width="1150" height="1030" loading="lazy" decoding="async" alt="Control de tono con Amigable, Juguetón y Exclusivo seleccionados." />
+        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/tone-es-mobile.png" width="780" height="970" />
+        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/tone-es.png" width="1150" height="1030" loading="lazy" decoding="async" alt="Control de tono con Amigable, Juguetón y Exclusivo seleccionados." />
       </picture>
     </div>
   </div>
@@ -162,10 +162,10 @@ En **Derivación**, activa el traspaso y elige un compañero o equipo que pueda 
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Control de derivación activo con el equipo ficticio Atención demo seleccionado.">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 575px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 575px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/handoff-es-mobile.png 2x" width="780" height="680" />
-        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/handoff-es.png" srcset="/images/captures/property-collector/handoff-es.png 2x" style="width: auto; margin: 0 auto;" width="1150" height="660" loading="lazy" decoding="async" alt="Control de derivación activo con el equipo ficticio Atención demo seleccionado." />
+        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/handoff-es-mobile.png" width="780" height="680" />
+        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/handoff-es.png" width="1150" height="660" loading="lazy" decoding="async" alt="Control de derivación activo con el equipo ficticio Atención demo seleccionado." />
       </picture>
     </div>
   </div>
