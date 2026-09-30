@@ -1,0 +1,999 @@
+{
+  "status": "local_verified; PR/main/normal production/public verification pending",
+  "captured_date": "2026-09-30",
+  "capture_method": "Native isolated headless Chrome compositor, Display P3 D65, genuine2x; no window picker or pixel edits",
+  "chrome": {
+    "port": 9460,
+    "pid": 57358,
+    "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+    "single_loopback_page": true,
+    "guarded_account": "design-system@example.test"
+  },
+  "rails_revision": "e6ae33a310d46ba88d9bf5b70845618a0b4a6461",
+  "originals": [
+    {
+      "article": "_i18n/es/developers/objects.md",
+      "snapshot": "docs/editorial-work/originals/es/developers/objects.md",
+      "sha256": "f3b6eaea8c0e2ec20ab518a8461dfc7d7c09fa9a720718cd704c3d8655fdfe75"
+    },
+    {
+      "article": "_i18n/en/developers/objects.md",
+      "snapshot": "docs/editorial-work/originals/en/developers/objects.md",
+      "sha256": "d639ea682795fefb1879f7cbb31b5df65c2e3af8bbf2e4ab2715ce55f4eff9a3"
+    }
+  ],
+  "images": [
+    {
+      "name": "catalog-es",
+      "concept": "catalog",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/objects/catalog-es-original.png",
+      "published_asset": "images/developers/objects/catalog-es.png",
+      "native": {
+        "sha256": "7c9afe78267828c20be761fdfbac9136e5d30e59e43bc7a1c744466b011b59dd",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects",
+        "locale": "es",
+        "cssViewport": [
+          1200,
+          1300
+        ],
+        "browserDpr": 2,
+        "clip": [
+          308,
+          143,
+          868,
+          1090
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1736,
+          2180
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        868.0,
+        1090.0
+      ],
+      "intended_max_display_width_css": 868.0,
+      "ui_evidence": "catalog-es-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none"
+    },
+    {
+      "name": "catalog-es-mobile",
+      "concept": "catalog",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/objects/catalog-es-mobile-original.png",
+      "published_asset": "images/developers/objects/catalog-es-mobile.png",
+      "native": {
+        "sha256": "a0a88c5f1536e76a65f3a5cb557097d5f45f4bcb3bbc97f07959acacda297002",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          1400
+        ],
+        "browserDpr": 2,
+        "clip": [
+          4,
+          332,
+          382,
+          938
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          764,
+          1876
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        382.0,
+        938.0
+      ],
+      "intended_max_display_width_css": 382.0,
+      "ui_evidence": "catalog-es-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none"
+    },
+    {
+      "name": "draft-es",
+      "concept": "draft",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/objects/draft-es-original.png",
+      "published_asset": "images/developers/objects/draft-es.png",
+      "native": {
+        "sha256": "088f4f7543ef895dcb6b819cc9c01c13316e456db4bde00303b5cbab8a5375e1",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects",
+        "locale": "es",
+        "cssViewport": [
+          1600,
+          620
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1025,
+          0,
+          575,
+          620
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1150,
+          1240
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        575.0,
+        620.0
+      ],
+      "intended_max_display_width_css": 575.0,
+      "ui_evidence": "draft-es-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none"
+    },
+    {
+      "name": "draft-es-mobile",
+      "concept": "draft",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/objects/draft-es-mobile-original.png",
+      "published_asset": "images/developers/objects/draft-es-mobile.png",
+      "native": {
+        "sha256": "5ea75aeda9c9fc7e5c1f71050c4e30ef37bb7cdb63ae238949da7f1024a42577",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          620
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1,
+          0,
+          389,
+          620
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          778,
+          1240
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        389.0,
+        620.0
+      ],
+      "intended_max_display_width_css": 389.0,
+      "ui_evidence": "draft-es-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none"
+    },
+    {
+      "name": "reference-es",
+      "concept": "reference",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/objects/reference-es-original.png",
+      "published_asset": "images/developers/objects/reference-es.png",
+      "native": {
+        "sha256": "92670c97256e80897b69903b542099bcf190f6eeaa9d164030a48770bc104f8f",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/l3QqYQag/edit",
+        "locale": "es",
+        "cssViewport": [
+          1600,
+          950
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1025,
+          0,
+          575,
+          950
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1150,
+          1900
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        575.0,
+        950.0
+      ],
+      "intended_max_display_width_css": 575.0,
+      "ui_evidence": "reference-es-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none"
+    },
+    {
+      "name": "reference-es-mobile",
+      "concept": "reference",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/objects/reference-es-mobile-original.png",
+      "published_asset": "images/developers/objects/reference-es-mobile.png",
+      "native": {
+        "sha256": "22173f461329cf1bd5b4a44aff9953339320dd0120bd584820e1151606f1f2cc",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/l3QqYQag/edit",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          950
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1,
+          0,
+          389,
+          950
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          778,
+          1900
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        389.0,
+        950.0
+      ],
+      "intended_max_display_width_css": 389.0,
+      "ui_evidence": "reference-es-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none"
+    },
+    {
+      "name": "money-es",
+      "concept": "money",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/objects/money-es-original.png",
+      "published_asset": "images/developers/objects/money-es.png",
+      "native": {
+        "sha256": "c4cf869fc04e993a6853b3aa8af9e4bff305eefdefdf29a962295f41af5c2157",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/l3QqYQag/edit",
+        "locale": "es",
+        "cssViewport": [
+          1600,
+          950
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1025,
+          0,
+          575,
+          950
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1150,
+          1900
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        575.0,
+        950.0
+      ],
+      "intended_max_display_width_css": 575.0,
+      "ui_evidence": "money-es-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none"
+    },
+    {
+      "name": "money-es-mobile",
+      "concept": "money",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/objects/money-es-mobile-original.png",
+      "published_asset": "images/developers/objects/money-es-mobile.png",
+      "native": {
+        "sha256": "9e37632fb09f6839152204ac5aea2e00d2a8450a9ea751008f0bc0119106fd56",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/l3QqYQag/edit",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          950
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1,
+          0,
+          389,
+          950
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          778,
+          1900
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        389.0,
+        950.0
+      ],
+      "intended_max_display_width_css": 389.0,
+      "ui_evidence": "money-es-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none"
+    },
+    {
+      "name": "instance-es",
+      "concept": "instance",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/objects/instance-es-original.png",
+      "published_asset": "images/developers/objects/instance-es.png",
+      "native": {
+        "sha256": "6691e66669ad884b38431d88e9c6cae3d522b20555d801f4f90b3bf2d63fa646",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/l3QqYQag/instances",
+        "locale": "es",
+        "cssViewport": [
+          1600,
+          520
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1025,
+          0,
+          575,
+          520
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1150,
+          1040
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        575.0,
+        520.0
+      ],
+      "intended_max_display_width_css": 575.0,
+      "ui_evidence": "instance-es-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none"
+    },
+    {
+      "name": "instance-es-mobile",
+      "concept": "instance",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/objects/instance-es-mobile-original.png",
+      "published_asset": "images/developers/objects/instance-es-mobile.png",
+      "native": {
+        "sha256": "3a0b02900f916e94990139c89f126c298adaa9335b35f70c21976664fd880780",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/l3QqYQag/instances",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          520
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1,
+          0,
+          389,
+          520
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          778,
+          1040
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        389.0,
+        520.0
+      ],
+      "intended_max_display_width_css": 389.0,
+      "ui_evidence": "instance-es-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none"
+    },
+    {
+      "name": "catalog-en",
+      "concept": "catalog",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/objects/catalog-en-original.png",
+      "published_asset": "images/developers/objects/catalog-en.png",
+      "native": {
+        "sha256": "6c38e12bef821c5f5dedba067ed5c5cf01d16634aa4d9dd7ad16be065cfa3a58",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects",
+        "locale": "en",
+        "cssViewport": [
+          1200,
+          1300
+        ],
+        "browserDpr": 2,
+        "clip": [
+          308,
+          143,
+          868,
+          1090
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1736,
+          2180
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        868.0,
+        1090.0
+      ],
+      "intended_max_display_width_css": 868.0,
+      "ui_evidence": "catalog-en-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none"
+    },
+    {
+      "name": "catalog-en-mobile",
+      "concept": "catalog",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/objects/catalog-en-mobile-original.png",
+      "published_asset": "images/developers/objects/catalog-en-mobile.png",
+      "native": {
+        "sha256": "bd14a0457f315943b9d4cc2c149fd683db36c82c0e5889a2fe15880b571c50c3",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          1400
+        ],
+        "browserDpr": 2,
+        "clip": [
+          4,
+          332,
+          382,
+          938
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          764,
+          1876
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        382.0,
+        938.0
+      ],
+      "intended_max_display_width_css": 382.0,
+      "ui_evidence": "catalog-en-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none"
+    },
+    {
+      "name": "draft-en",
+      "concept": "draft",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/objects/draft-en-original.png",
+      "published_asset": "images/developers/objects/draft-en.png",
+      "native": {
+        "sha256": "cbb9c2d4cc42aa0e7ab3cedb95156ec4958ad3767ab45d01b0c7400335aba510",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects",
+        "locale": "en",
+        "cssViewport": [
+          1600,
+          620
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1025,
+          0,
+          575,
+          620
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1150,
+          1240
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        575.0,
+        620.0
+      ],
+      "intended_max_display_width_css": 575.0,
+      "ui_evidence": "draft-en-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none"
+    },
+    {
+      "name": "draft-en-mobile",
+      "concept": "draft",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/objects/draft-en-mobile-original.png",
+      "published_asset": "images/developers/objects/draft-en-mobile.png",
+      "native": {
+        "sha256": "da07952d27ca50354839fa0b1e671703d4f1a93056d56b96c1baa488145b3334",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          620
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1,
+          0,
+          389,
+          620
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          778,
+          1240
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        389.0,
+        620.0
+      ],
+      "intended_max_display_width_css": 389.0,
+      "ui_evidence": "draft-en-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none"
+    },
+    {
+      "name": "reference-en",
+      "concept": "reference",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/objects/reference-en-original.png",
+      "published_asset": "images/developers/objects/reference-en.png",
+      "native": {
+        "sha256": "2a69faa234c1650b9981d3a05b8e28754418a3caa5ae372a8d978ba6f99beded",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/l3QqYQag/edit",
+        "locale": "en",
+        "cssViewport": [
+          1600,
+          950
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1025,
+          0,
+          575,
+          950
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1150,
+          1900
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        575.0,
+        950.0
+      ],
+      "intended_max_display_width_css": 575.0,
+      "ui_evidence": "reference-en-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none"
+    },
+    {
+      "name": "reference-en-mobile",
+      "concept": "reference",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/objects/reference-en-mobile-original.png",
+      "published_asset": "images/developers/objects/reference-en-mobile.png",
+      "native": {
+        "sha256": "ead0db0cbe889510c1d4898ef4fbdc8d5cddf1ee28adaeaa26c650b97b4f7581",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/l3QqYQag/edit",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          950
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1,
+          0,
+          389,
+          950
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          778,
+          1900
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        389.0,
+        950.0
+      ],
+      "intended_max_display_width_css": 389.0,
+      "ui_evidence": "reference-en-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none"
+    },
+    {
+      "name": "money-en",
+      "concept": "money",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/objects/money-en-original.png",
+      "published_asset": "images/developers/objects/money-en.png",
+      "native": {
+        "sha256": "a976c21f89232ee4448b0014981b4c591a2135eea5fe2a2942b7efcd33528059",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/l3QqYQag/edit",
+        "locale": "en",
+        "cssViewport": [
+          1600,
+          950
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1025,
+          0,
+          575,
+          950
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1150,
+          1900
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        575.0,
+        950.0
+      ],
+      "intended_max_display_width_css": 575.0,
+      "ui_evidence": "money-en-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none"
+    },
+    {
+      "name": "money-en-mobile",
+      "concept": "money",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/objects/money-en-mobile-original.png",
+      "published_asset": "images/developers/objects/money-en-mobile.png",
+      "native": {
+        "sha256": "ee7a90aa6d5799efb310177d9b412b6c349818fff71e962bb508b993c9e1ad37",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/l3QqYQag/edit",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          950
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1,
+          0,
+          389,
+          950
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          778,
+          1900
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        389.0,
+        950.0
+      ],
+      "intended_max_display_width_css": 389.0,
+      "ui_evidence": "money-en-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none"
+    },
+    {
+      "name": "instance-en",
+      "concept": "instance",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/objects/instance-en-original.png",
+      "published_asset": "images/developers/objects/instance-en.png",
+      "native": {
+        "sha256": "633cdb3eace727ca895b7ffbbbb37e53ab6426150d1f25d7f0400d0ef348d0cd",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/l3QqYQag/instances",
+        "locale": "en",
+        "cssViewport": [
+          1600,
+          520
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1025,
+          0,
+          575,
+          520
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1150,
+          1040
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        575.0,
+        520.0
+      ],
+      "intended_max_display_width_css": 575.0,
+      "ui_evidence": "instance-en-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none"
+    },
+    {
+      "name": "instance-en-mobile",
+      "concept": "instance",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/objects/instance-en-mobile-original.png",
+      "published_asset": "images/developers/objects/instance-en-mobile.png",
+      "native": {
+        "sha256": "fac1bef48299df52128c28ae911124b597ef3ce0bc9bc583071274fbe2a4a411",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/l3QqYQag/instances",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          520
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1,
+          0,
+          389,
+          520
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          778,
+          1040
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        389.0,
+        520.0
+      ],
+      "intended_max_display_width_css": 389.0,
+      "ui_evidence": "instance-en-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none"
+    }
+  ],
+  "source_contracts": [
+    {
+      "path": "app/controllers/api/v1/objects_controller.rb",
+      "sha256": "6ed3d727a484c3e23eed6b3d5a8a733afc78bf3dba43b30ba1af4e41eb2f6ed6"
+    },
+    {
+      "path": "app/controllers/api/v1/attribution/events_controller.rb",
+      "sha256": "d52abb290cb39f2cb77876fd8c207a0047f9303e87cb33264d76ee377455d72d"
+    },
+    {
+      "path": "app/models/api/track/custom.rb",
+      "sha256": "f9c62ce381d7afc78600d4bdcbd3938a142a1ab158e8deb0e3096cc0f200f0fa"
+    },
+    {
+      "path": "app/models/api/entity_service.rb",
+      "sha256": "2f4574e778c43d19a60afe15d21f25ff3268a4d13e4a8fb2f4ccc39d09826afa"
+    },
+    {
+      "path": "app/models/api/track/event_tracker.rb",
+      "sha256": "d0e362717865b005efc82435324478e000bbc585dc4a8bcf3c553b6adcf3b9fd"
+    },
+    {
+      "path": "app/models/audience/event.rb",
+      "sha256": "9a4e4cf619b6a53ccb19c59edf645ad06c235732d96f56eb778da2272c0b643a"
+    },
+    {
+      "path": "app/models/artifact/blueprint_property.rb",
+      "sha256": "0ed81d331f30bc5f9d67df2f3f89ec42d40166bad3b22b462d4f63c2e5f75550"
+    },
+    {
+      "path": "app/models/artifact/blueprint/type/custom.rb",
+      "sha256": "da9ae34e7c9ed5459cef6845d841c5d2a18f436e724ac055ff9ea86746500f56"
+    },
+    {
+      "path": "app/models/artifact/entity.rb",
+      "sha256": "61ed71b00d738fd168a62bb988846b7861372b834da87ceb8bb19678ee300c1a"
+    },
+    {
+      "path": "app/models/artifact/entity_property.rb",
+      "sha256": "be8e781eea4c32b324d9a1e1c50dcbdc61c1a5dff0e732da22565b466eeea8ed"
+    },
+    {
+      "path": "app/models/track/event/monetizable.rb",
+      "sha256": "ef7885082e5d9fa1f4c6518c853a22a3a88fdd9bbce538edab1f6675f8d99e0b"
+    },
+    {
+      "path": "app/services/artifact/entity_service.rb",
+      "sha256": "34426c760831425dff58c9375338d2a98b4860405df473a6cfb19f4fe1488a36"
+    },
+    {
+      "path": "app/serializers/artifact/blueprint_serializer.rb",
+      "sha256": "00fa5da3b135008bde780567a7521d5a88be1f3656f08c88d341bbf67bb4fd60"
+    },
+    {
+      "path": "app/serializers/track/event_serializer.rb",
+      "sha256": "320203b97cad4bb7e6b62e3f8f988fc0786e36ff4ccd9cb5f8619b45a94def8e"
+    },
+    {
+      "path": "app/views/settings/entities/_entity.html.erb",
+      "sha256": "0aa34cf07eb8cef1d36232c5c175570bb6b890d6ec7eb28c4e7b3b5f0e1b6cb0"
+    },
+    {
+      "path": "app/controllers/settings/entities_controller.rb",
+      "sha256": "f9bf49b7ff53847400ce877260d264580462476da0c84c3d903a9fb1cbf7f9f4"
+    }
+  ],
+  "official_api_reference": "https://www.hellotext.com/api#objects",
+  "fixture": {
+    "database": "hellotext_editorial_workload_20260928",
+    "business": 5,
+    "blueprint": "l3QqYQag",
+    "name": "appointment",
+    "instance": "eWDGJNkJ",
+    "reference": "APT-1042",
+    "properties": [
+      "reference",
+      "room",
+      "fee"
+    ],
+    "default_money_property": "RVQABbNq",
+    "amount": "89.90",
+    "currency": "USD",
+    "saved_instance_events": 0,
+    "draft_reference_not_saved": "APT-1043",
+    "contacts_before_after": 127,
+    "messageable": 0,
+    "subscribed": 0,
+    "messages_before_after": 49,
+    "events_before_after": 318,
+    "enabled_playbooks": 0,
+    "tokens": 0,
+    "account_locale_restored": "es",
+    "fixture_title_restored": "Citas",
+    "fixture_room_restored": "Sala 3",
+    "changes": "One guarded custom structure and one instance created using model/UI entity service, no tracking. Localized title/room restored ES. Structure/instance drafts and property menus were not submitted. No delivery workers, final Save, campaign/message/test, contacts or subscriptions."
+  },
+  "candidate_rejections": [
+    "Direct HTML GET of new structure lacks a supported template; no error capture kept. Use real catalog New structure Turbo control.",
+    "Missing-menu guard after disconnect reset mobile CDP metrics; no PNG kept. Keep preparation CDP connection alive during the standard guarded native capture, with actual responsive viewport maintained.",
+    "No failed or error-state PNG kept. Preparation stays connected during responsive-menu captures; standard capture pre/post guards and native P3/density validation passed."
+  ],
+  "shared_source_reuse_decision": "No current approved equivalent Objects catalog/structure/property-menu/instance routes in prior capture provenance;20 new native sources required.",
+  "publication": {
+    "status": "pending PR/main/normal deployment/public verification"
+  },
+  "pending": [
+    "Exact-head checks/review threads and merge commit",
+    "Exact main Build and normal Netlify deployment",
+    "Both public pages and20 PNGs"
+  ],
+  "local_verification": "local-verification.json",
+  "instance_id_verification": "instance-id-readonly.json"
+}
