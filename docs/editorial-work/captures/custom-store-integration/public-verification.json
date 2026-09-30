@@ -1,0 +1,148 @@
+{
+  "verified_at_utc": "2026-09-30T09:19:29.954570+00:00",
+  "verified_git_main_sha": "4302547431860564e5661fe52839fea9c89f58d8",
+  "production_deploy_id_sha_association": {
+    "id": "6abcd3680c202300072f45eb",
+    "site_id": "d66a79c1-b5de-44d1-bc47-bc7809f7f3b3",
+    "state": "ready",
+    "context": "production",
+    "branch": "main",
+    "commit_ref": "4302547431860564e5661fe52839fea9c89f58d8",
+    "created_at": "2026-09-30T09:16:24.473Z",
+    "published_at": "2026-09-30T09:17:06.120Z",
+    "deploy_ssl_url": "https://main--legendary-lollipop-e2d131.netlify.app"
+  },
+  "deployment_method": "Normal Netlify production deployment after Git merge; no manual deployment. Public site-alias listing is accessible.",
+  "pages": [
+    {
+      "url": "https://help.hellotext.com/es/integrar-tienda-personalizada",
+      "status": 200,
+      "figures": 2,
+      "updated_assets_present": [
+        "/images/developers/custom-store-integration/token-es.png",
+        "/images/developers/custom-store-integration/token-es-mobile.png",
+        "/images/developers/custom-store-integration/business-es.png",
+        "/images/developers/custom-store-integration/business-es-mobile.png"
+      ]
+    },
+    {
+      "url": "https://help.hellotext.com/integrate-custom-store",
+      "status": 200,
+      "figures": 2,
+      "updated_assets_present": [
+        "/images/developers/custom-store-integration/token-en.png",
+        "/images/developers/custom-store-integration/token-en-mobile.png",
+        "/images/developers/custom-store-integration/business-en.png",
+        "/images/developers/custom-store-integration/business-en-mobile.png"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-store-integration/token-es.png",
+      "status": 200,
+      "sha256": "1aee0b74d12bed3eb995c7211316047bd59158a92f2c491dfc4a01287c5fb953",
+      "matches_approved_source": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-store-integration/token-es-mobile.png",
+      "status": 200,
+      "sha256": "ab734e406f700b90cd37365b7a1d084cedb9e8adda7bca8757182d471e6d355a",
+      "matches_approved_source": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-store-integration/business-es.png",
+      "status": 200,
+      "sha256": "17ec399500cee235d73459ced0de47fac99054987976a56f4e09603150ef5dfb",
+      "matches_approved_source": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-store-integration/business-es-mobile.png",
+      "status": 200,
+      "sha256": "0c7ac4c233075fa5d072e27ac33e7947092bf6406858524ab12fa546be553ed8",
+      "matches_approved_source": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-store-integration/token-en.png",
+      "status": 200,
+      "sha256": "ca4b35ca243e0e6db3c52219e00162ef2c708efd61d7265dc25f599907c97bd6",
+      "matches_approved_source": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-store-integration/token-en-mobile.png",
+      "status": 200,
+      "sha256": "716908e63c1f6e914b3dc8d7456e224c02fe69b24797477dded04096b9ec7652",
+      "matches_approved_source": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-store-integration/business-en.png",
+      "status": 200,
+      "sha256": "1f7f132b2245056eda5166b1b1cfdbeee406ebcf7bad4a13a6eb3fd501184d7f",
+      "matches_approved_source": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-store-integration/business-en-mobile.png",
+      "status": 200,
+      "sha256": "c7badab42d6878393ab746c2950605b8153dc38d60ac1ae09c747a949706bfeb",
+      "matches_approved_source": true
+    }
+  ],
+  "pull_request": 270,
+  "main_build": {
+    "conclusion": "success",
+    "databaseId": 36695056003,
+    "event": "push",
+    "headSha": "4302547431860564e5661fe52839fea9c89f58d8",
+    "status": "completed",
+    "url": "https://github.com/hellotext/help/actions/runs/36695056003"
+  },
+  "new_png_uploads": 0,
+  "new_native_png_batch": 8,
+  "initial_png_upload_pull_request": 269,
+  "reused_current_pngs": 8,
+  "independent_review": {
+    "head_sha": "ae4ef3a91287c1192b90381516467d3f252ac9a2",
+    "state": "completed",
+    "result_url": "https://github.com/hellotext/help/pull/270#issuecomment-5907961340",
+    "unresolved_threads": 0,
+    "initial_findings_in_original_pr": 2,
+    "addressed_findings": 2,
+    "final_additional_findings": 0
+  },
+  "retained_individual_commits": [
+    "573d8215d4ca05c358114483ed50e1413d73b6f2",
+    "ae4ef3a91287c1192b90381516467d3f252ac9a2"
+  ],
+  "local_content_verifier": "573d8215d4ca05c358114483ed50e1413d73b6f2",
+  "initial_content_merge": {
+    "retained_individual_commits": [
+      "c7644ff248974944049c72918efdf85b28b98825",
+      "f972ea9d97ebb31dca2f2320e287b0719608d6f0",
+      "0c7ef8079538020b80445996e525d0f4baf1928c",
+      "f6df4f0436596cbca69238bde2ab81fd8f326557"
+    ],
+    "pull_request": 269,
+    "merge_sha": "05b027d2057a5142b9a61dd50134336db4f199b2",
+    "main_build": {
+      "conclusion": "success",
+      "databaseId": 36693764834,
+      "event": "push",
+      "headSha": "05b027d2057a5142b9a61dd50134336db4f199b2",
+      "status": "completed",
+      "url": "https://github.com/hellotext/help/actions/runs/36693764834"
+    },
+    "production": {
+      "id": "6abcd0a90c202300072e2af0",
+      "site_id": "d66a79c1-b5de-44d1-bc47-bc7809f7f3b3",
+      "state": "ready",
+      "context": "production",
+      "branch": "main",
+      "commit_ref": "05b027d2057a5142b9a61dd50134336db4f199b2",
+      "created_at": "2026-09-30T09:04:41.704Z",
+      "published_at": "2026-09-30T09:05:20.974Z",
+      "deploy_ssl_url": "https://main--legendary-lollipop-e2d131.netlify.app"
+    },
+    "public_pages_and_png_hashes_passed": true,
+    "review_state": "Linked-guide P2 corrected within269; exact npm pin P2 found on the second review was corrected in270 after269 had merged. Batch completion waited for270."
+  }
+}
