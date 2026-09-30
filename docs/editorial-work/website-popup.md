@@ -94,3 +94,12 @@ The existing hidden draft and its header image were reused without seeding, savi
 Local verification passed: production build/security headers and both source→asset→build hash triples; actual PNG signatures/dimensions/Display P3 profiles inspected. Complete ES/EN article browser review at 1440,390,580 CSS px retained eleven figures and no page overflow. The refreshed image displays at 404 CSS px on desktop/narrow and 316 on mobile, never above its logical width. Native pixels and all six article views were reviewed; labels and selectors remain complete and readable. Only two images and their figure dimensions/frame caps changed.
 
 Default-label refresh local verifier: `fbb366c649e695ec68d0f16ff7cc3d860e8d5b51`. The following ledger commit preserves this content verifier as its ancestor.
+
+
+## Assignment default-label public verification — 2026-09-30
+
+Help PR [#255](https://github.com/hellotext/help/pull/255) merged by `11d1050dd2b22674e35c802c426e1caaf5f473e5`, preserving the content verifier and ledger commit. Build, Aikido, Netlify preview and header checks passed; the final review completed without an unresolved finding. The ancestry comment compared a temporary synthetic commit with the verifier; actual provider head 23fd7f2 has direct parent fbb366c, both appear in the PR commit list, and the thread was resolved with that evidence. No check or protection was bypassed. Attaching the PR reached the existing 100-identity limit.
+
+Main [Build 36665385834](https://github.com/hellotext/help/actions/runs/36665385834) succeeded for the exact merge SHA. Normal Netlify production deploy `6abc847bd93d5b000808f292` is ready with matching commit_ref and published_at `2026-09-30T03:40:14.057Z`, verified through the public site-alias API; no manual deployment.
+
+The public [ES page](https://help.hellotext.com/es/popup-sitio-web) and [EN page](https://help.hellotext.com/website-popup) returned HTTP 200 with eleven figures per locale and the refreshed assignment panels. Both new native PNGs and all twenty-six preserved referenced assets returned HTTP 200 and matched approved SHA-256 hashes. Exact URLs and hashes are in captures/website-popup/assignment-label-refresh/public-verification.json. Previously published PNGs remain available and no unchanged figure was duplicated. The protected fixture and its header remain unchanged, with locale ES restored. Inventory remains 52 local_verified,101 pending,1 out_of_scope.
