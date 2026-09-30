@@ -4,20 +4,6 @@ Webchat Widget is an on-site conversational entry point. In Hellotext, it is con
 
 It is not the AI agent itself. Think of it as the front door on your site. After a visitor starts a conversation, your team, Inbox rules, AI playbooks, or custom agents can handle the next step depending on your setup.
 
-The editor groups settings into cards and shows the webchat preview on the right. This helps you connect each component to the visitor experience.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Appearance, Opening sequence, Teaser, Behavior, and Channels cards; in the wide view, with the Webchat preview on the right.">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 1234px; width: fit-content; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 1399px)" srcset="/images/captures/webchat-widget/preview-follow-up/en/overview-mobile.png 2x" width="872" height="1872" />
-        <img class="ht-editorial-visual__image" src="/images/captures/webchat-widget/preview-follow-up/en/overview.png" srcset="/images/captures/webchat-widget/preview-follow-up/en/overview.png 2x" width="2432" height="1726" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Appearance, Opening sequence, Teaser, Behavior, and Channels cards; in the wide view, with the Webchat preview on the right." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Editor overview. The narrow-screen focus keeps all five cards complete; the full preview appears below.</figcaption>
-</figure>
-
 ## What Webchat Widget does
 
 Webchat Widget lets customers message your business directly from your site.
@@ -121,17 +107,6 @@ Review:
     </div>
   </div>
   <figcaption class="ht-editorial-visual__caption">Brand settings define the widget typography and primary color.</figcaption>
-</figure>
-
-The preview lets you review the header, opening-sequence greeting, message field, and launcher together. The bubbles in this view are editor examples.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Complete Example Store Webchat preview, with greeting, message field, and launcher.">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 422px; width: fit-content; margin: 0 auto;">
-      <img class="ht-editorial-visual__image" src="/images/captures/webchat-widget/preview-follow-up/en/preview.png" srcset="/images/captures/webchat-widget/preview-follow-up/en/preview.png 2x" width="808" height="1380" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Complete Example Store Webchat preview, with greeting, message field, and launcher." />
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Open Webchat in the preview, with a fictional greeting that guides the visitor.</figcaption>
 </figure>
 
 Test on desktop and mobile. The launcher should not cover checkout buttons, add-to-cart buttons, support links, cookie banners, or other important site controls.

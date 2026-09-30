@@ -1,0 +1,656 @@
+{
+  "article": "captures/webchat-widget-playbook.md",
+  "status": "local_verified",
+  "source_rails_revision": "11731d118e581bb1d67853b1add1f4f495160288",
+  "source_rails_pr": "https://github.com/hellotext/hellotext/pull/6043",
+  "capture_date_utc": "2026-09-30",
+  "capture_route": "dedicated headless Chrome compositor via loopback CDP",
+  "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+  "cdp_port": 9460,
+  "browser_pid": 57358,
+  "source_account": "design-system@example.test",
+  "database": "hellotext_editorial_workload_20260928",
+  "business_id": 5,
+  "fixture_webchat": "RbQxgZdE",
+  "fixture_state": "disabled; no workflow; five existing components; unsaved localized greeting; zero delivery actions",
+  "identity_url": "http://127.0.0.1:3192/hellotext/journeys/new",
+  "sources": [
+    {
+      "file": "overview-es.png",
+      "asset": "/images/captures/webchat-widget/preview-follow-up/es/overview.png",
+      "sha256": "0502e7c860a0f81ddc53ac37e5edf74466ad0c146996d84662a2a2b8e81ec53c",
+      "pixelSize": [
+        2432,
+        1726
+      ],
+      "logicalSize": [
+        1216,
+        863
+      ],
+      "clip": [
+        48,
+        121,
+        1216,
+        863
+      ],
+      "url": "http://127.0.0.1:3192/hellotext/playbooks/RbQxgZdE/edit?pp=disable",
+      "title": "Editar misión Widget de Webchat | Hellotext",
+      "locale": "es",
+      "cssViewport": [
+        1280,
+        1000
+      ],
+      "browserDpr": 2,
+      "zoom": 1,
+      "icc": "Display P3",
+      "route": "isolated Chrome compositor via CDP",
+      "state": {
+        "cards": [
+          {
+            "type": "webchat--appearance",
+            "text": "Apariencia\n\nPersonaliza la apariencia de tu webchat para que coincida con la marca de tu sitio web.",
+            "rect": [
+              64,
+              137,
+              256,
+              272
+            ],
+            "visible": true
+          },
+          {
+            "type": "webchat--sequence",
+            "text": "Secuencia inicial\n\nCrea los primeros mensajes que se muestran en una nueva conversación.",
+            "rect": [
+              352,
+              137,
+              256,
+              272
+            ],
+            "visible": true
+          },
+          {
+            "type": "webchat--teaser",
+            "text": "Teaser\n\nInvita a los clientes a abrir el chat.",
+            "rect": [
+              64,
+              441,
+              256,
+              236
+            ],
+            "visible": true
+          },
+          {
+            "type": "webchat--behaviour",
+            "text": "Comportamiento\nPredeterminado\n\nControla cuándo y cómo aparece el webchat.",
+            "rect": [
+              352,
+              441,
+              256,
+              236
+            ],
+            "visible": true
+          },
+          {
+            "type": "webchat--handoff",
+            "text": "Canales\n\nPermite que los clientes continúen la conversación por otro canal.",
+            "rect": [
+              64,
+              709,
+              256,
+              220
+            ],
+            "visible": true
+          }
+        ],
+        "preview": [
+          868,
+          302,
+          380,
+          600
+        ],
+        "launcher": [
+          1192,
+          912,
+          56,
+          56
+        ]
+      }
+    },
+    {
+      "file": "preview-es.png",
+      "asset": "/images/captures/webchat-widget/preview-follow-up/es/preview.png",
+      "sha256": "9ad90405a4d502c312d2abd2cdd2034911ab3d8b19aae970ffafbf106cb9fb12",
+      "pixelSize": [
+        808,
+        1380
+      ],
+      "logicalSize": [
+        404,
+        690
+      ],
+      "clip": [
+        856,
+        290,
+        404,
+        690
+      ],
+      "url": "http://127.0.0.1:3192/hellotext/playbooks/RbQxgZdE/edit?pp=disable",
+      "title": "Editar misión Widget de Webchat | Hellotext",
+      "locale": "es",
+      "cssViewport": [
+        1280,
+        1000
+      ],
+      "browserDpr": 2,
+      "zoom": 1,
+      "icc": "Display P3",
+      "route": "isolated Chrome compositor via CDP",
+      "state": {
+        "cards": [
+          {
+            "type": "webchat--appearance",
+            "text": "Apariencia\n\nPersonaliza la apariencia de tu webchat para que coincida con la marca de tu sitio web.",
+            "rect": [
+              64,
+              137,
+              256,
+              272
+            ],
+            "visible": true
+          },
+          {
+            "type": "webchat--sequence",
+            "text": "Secuencia inicial\n\nCrea los primeros mensajes que se muestran en una nueva conversación.",
+            "rect": [
+              352,
+              137,
+              256,
+              272
+            ],
+            "visible": true
+          },
+          {
+            "type": "webchat--teaser",
+            "text": "Teaser\n\nInvita a los clientes a abrir el chat.",
+            "rect": [
+              64,
+              441,
+              256,
+              236
+            ],
+            "visible": true
+          },
+          {
+            "type": "webchat--behaviour",
+            "text": "Comportamiento\nPredeterminado\n\nControla cuándo y cómo aparece el webchat.",
+            "rect": [
+              352,
+              441,
+              256,
+              236
+            ],
+            "visible": true
+          },
+          {
+            "type": "webchat--handoff",
+            "text": "Canales\n\nPermite que los clientes continúen la conversación por otro canal.",
+            "rect": [
+              64,
+              709,
+              256,
+              220
+            ],
+            "visible": true
+          }
+        ],
+        "preview": [
+          868,
+          302,
+          380,
+          600
+        ],
+        "launcher": [
+          1192,
+          912,
+          56,
+          56
+        ]
+      }
+    },
+    {
+      "file": "overview-mobile-es.png",
+      "asset": "/images/captures/webchat-widget/preview-follow-up/es/overview-mobile.png",
+      "sha256": "cd9e36910658ddcdddfed3c0b52622e6b18ecda4e5514c96a6a9373618540444",
+      "pixelSize": [
+        872,
+        1872
+      ],
+      "logicalSize": [
+        436,
+        936
+      ],
+      "clip": [
+        48,
+        121,
+        436,
+        936
+      ],
+      "url": "http://127.0.0.1:3192/hellotext/playbooks/RbQxgZdE/edit?pp=disable",
+      "title": "Editar misión Widget de Webchat | Hellotext",
+      "locale": "es",
+      "cssViewport": [
+        1000,
+        1120
+      ],
+      "browserDpr": 2,
+      "zoom": 1,
+      "icc": "Display P3",
+      "route": "isolated Chrome compositor via CDP",
+      "state": {
+        "cards": [
+          {
+            "type": "webchat--appearance",
+            "text": "Apariencia\n\nPersonaliza la apariencia de tu webchat para que coincida con la marca de tu sitio web.",
+            "rect": [
+              64,
+              137,
+              404,
+              160
+            ],
+            "visible": true
+          },
+          {
+            "type": "webchat--sequence",
+            "text": "Secuencia inicial\n\nCrea los primeros mensajes que se muestran en una nueva conversación.",
+            "rect": [
+              64,
+              321,
+              404,
+              160
+            ],
+            "visible": true
+          },
+          {
+            "type": "webchat--teaser",
+            "text": "Teaser\n\nInvita a los clientes a abrir el chat.",
+            "rect": [
+              64,
+              505,
+              404,
+              160
+            ],
+            "visible": true
+          },
+          {
+            "type": "webchat--behaviour",
+            "text": "Comportamiento\nPredeterminado\n\nControla cuándo y cómo aparece el webchat.",
+            "rect": [
+              64,
+              689,
+              404,
+              168
+            ],
+            "visible": true
+          },
+          {
+            "type": "webchat--handoff",
+            "text": "Canales\n\nPermite que los clientes continúen la conversación por otro canal.",
+            "rect": [
+              64,
+              881,
+              404,
+              160
+            ],
+            "visible": true
+          }
+        ],
+        "preview": [
+          588,
+          422,
+          380,
+          600
+        ],
+        "launcher": [
+          912,
+          1032,
+          56,
+          56
+        ]
+      }
+    },
+    {
+      "file": "overview-en.png",
+      "asset": "/images/captures/webchat-widget/preview-follow-up/en/overview.png",
+      "sha256": "e8e8a979bdffaadda0d7c66705c9ac049363a6586c505f69b81106fe53dd32fe",
+      "pixelSize": [
+        2432,
+        1726
+      ],
+      "logicalSize": [
+        1216,
+        863
+      ],
+      "clip": [
+        48,
+        121,
+        1216,
+        863
+      ],
+      "url": "http://127.0.0.1:3192/hellotext/playbooks/RbQxgZdE/edit?pp=disable",
+      "title": "Edit Webchat Widget playbook | Hellotext",
+      "locale": "en",
+      "cssViewport": [
+        1280,
+        1000
+      ],
+      "browserDpr": 2,
+      "zoom": 1,
+      "icc": "Display P3",
+      "route": "isolated Chrome compositor via CDP",
+      "state": {
+        "cards": [
+          {
+            "type": "webchat--appearance",
+            "text": "Appearance\n\nCustomize the appearance of your webchat to match your website’s branding.",
+            "rect": [
+              64,
+              137,
+              256,
+              244
+            ],
+            "visible": true
+          },
+          {
+            "type": "webchat--sequence",
+            "text": "Opening sequence\n\nCreate the first messages shown in a new conversation.",
+            "rect": [
+              352,
+              137,
+              256,
+              244
+            ],
+            "visible": true
+          },
+          {
+            "type": "webchat--teaser",
+            "text": "Teaser\n\nInvite customers to open the chat.",
+            "rect": [
+              64,
+              413,
+              256,
+              236
+            ],
+            "visible": true
+          },
+          {
+            "type": "webchat--behaviour",
+            "text": "Behavior\nDefault\n\nControl when and how the webchat appears.",
+            "rect": [
+              352,
+              413,
+              256,
+              236
+            ],
+            "visible": true
+          },
+          {
+            "type": "webchat--handoff",
+            "text": "Channels\n\nLet customers continue the conversation through another channel.",
+            "rect": [
+              64,
+              681,
+              256,
+              244
+            ],
+            "visible": true
+          }
+        ],
+        "preview": [
+          868,
+          302,
+          380,
+          600
+        ],
+        "launcher": [
+          1192,
+          912,
+          56,
+          56
+        ]
+      }
+    },
+    {
+      "file": "preview-en.png",
+      "asset": "/images/captures/webchat-widget/preview-follow-up/en/preview.png",
+      "sha256": "9bc7e2dd9e3a3584edf7a4582b4b434a4a799a2c54382aa8a3771c3b45c73c51",
+      "pixelSize": [
+        808,
+        1380
+      ],
+      "logicalSize": [
+        404,
+        690
+      ],
+      "clip": [
+        856,
+        290,
+        404,
+        690
+      ],
+      "url": "http://127.0.0.1:3192/hellotext/playbooks/RbQxgZdE/edit?pp=disable",
+      "title": "Edit Webchat Widget playbook | Hellotext",
+      "locale": "en",
+      "cssViewport": [
+        1280,
+        1000
+      ],
+      "browserDpr": 2,
+      "zoom": 1,
+      "icc": "Display P3",
+      "route": "isolated Chrome compositor via CDP",
+      "state": {
+        "cards": [
+          {
+            "type": "webchat--appearance",
+            "text": "Appearance\n\nCustomize the appearance of your webchat to match your website’s branding.",
+            "rect": [
+              64,
+              137,
+              256,
+              244
+            ],
+            "visible": true
+          },
+          {
+            "type": "webchat--sequence",
+            "text": "Opening sequence\n\nCreate the first messages shown in a new conversation.",
+            "rect": [
+              352,
+              137,
+              256,
+              244
+            ],
+            "visible": true
+          },
+          {
+            "type": "webchat--teaser",
+            "text": "Teaser\n\nInvite customers to open the chat.",
+            "rect": [
+              64,
+              413,
+              256,
+              236
+            ],
+            "visible": true
+          },
+          {
+            "type": "webchat--behaviour",
+            "text": "Behavior\nDefault\n\nControl when and how the webchat appears.",
+            "rect": [
+              352,
+              413,
+              256,
+              236
+            ],
+            "visible": true
+          },
+          {
+            "type": "webchat--handoff",
+            "text": "Channels\n\nLet customers continue the conversation through another channel.",
+            "rect": [
+              64,
+              681,
+              256,
+              244
+            ],
+            "visible": true
+          }
+        ],
+        "preview": [
+          868,
+          302,
+          380,
+          600
+        ],
+        "launcher": [
+          1192,
+          912,
+          56,
+          56
+        ]
+      }
+    },
+    {
+      "file": "overview-mobile-en.png",
+      "asset": "/images/captures/webchat-widget/preview-follow-up/en/overview-mobile.png",
+      "sha256": "4b3d66337bdac7b4876f51a9b384e13220c08332461ed9e826226b04c5e97912",
+      "pixelSize": [
+        872,
+        1872
+      ],
+      "logicalSize": [
+        436,
+        936
+      ],
+      "clip": [
+        48,
+        121,
+        436,
+        936
+      ],
+      "url": "http://127.0.0.1:3192/hellotext/playbooks/RbQxgZdE/edit?pp=disable",
+      "title": "Edit Webchat Widget playbook | Hellotext",
+      "locale": "en",
+      "cssViewport": [
+        1000,
+        1120
+      ],
+      "browserDpr": 2,
+      "zoom": 1,
+      "icc": "Display P3",
+      "route": "isolated Chrome compositor via CDP",
+      "state": {
+        "cards": [
+          {
+            "type": "webchat--appearance",
+            "text": "Appearance\n\nCustomize the appearance of your webchat to match your website’s branding.",
+            "rect": [
+              64,
+              137,
+              404,
+              160
+            ],
+            "visible": true
+          },
+          {
+            "type": "webchat--sequence",
+            "text": "Opening sequence\n\nCreate the first messages shown in a new conversation.",
+            "rect": [
+              64,
+              321,
+              404,
+              160
+            ],
+            "visible": true
+          },
+          {
+            "type": "webchat--teaser",
+            "text": "Teaser\n\nInvite customers to open the chat.",
+            "rect": [
+              64,
+              505,
+              404,
+              160
+            ],
+            "visible": true
+          },
+          {
+            "type": "webchat--behaviour",
+            "text": "Behavior\nDefault\n\nControl when and how the webchat appears.",
+            "rect": [
+              64,
+              689,
+              404,
+              168
+            ],
+            "visible": true
+          },
+          {
+            "type": "webchat--handoff",
+            "text": "Channels\n\nLet customers continue the conversation through another channel.",
+            "rect": [
+              64,
+              881,
+              404,
+              160
+            ],
+            "visible": true
+          }
+        ],
+        "preview": [
+          588,
+          422,
+          380,
+          600
+        ],
+        "launcher": [
+          912,
+          1032,
+          56,
+          56
+        ]
+      }
+    }
+  ],
+  "restored": {
+    "database": "hellotext_editorial_workload_20260928",
+    "business_id": 5,
+    "account": "design-system@example.test",
+    "locale": "es",
+    "business_name": "Enterprise",
+    "contacts": 127,
+    "messageable": 0,
+    "subscribers": 0,
+    "messages": 49,
+    "saved_boosters": 0
+  },
+  "postflight": {
+    "database": "hellotext_editorial_workload_20260928",
+    "account": "design-system@example.test",
+    "business_id": 5,
+    "business_name": "Enterprise",
+    "locale": "es",
+    "webchat": "RbQxgZdE",
+    "enabled": false,
+    "workflow": null,
+    "components": 5,
+    "contacts": 127,
+    "messageable": 0,
+    "subscribed": 0,
+    "messages": 49
+  },
+  "preview_semantics": "The customer bubble and online status are native editor examples. No live customer conversation, sent message, or successful installation is represented.",
+  "responsive_plan": "Overview: full editor composite from 1400 CSS px; through 1399 px, a focus of all five complete cards taken from a real 1000 CSS px desktop layout. Complete preview: one 404 CSS px source serves desktop and mobile without enlargement.",
+  "unchanged_figures": 7,
+  "new_figures_per_locale": 2
+}
