@@ -73,3 +73,5 @@ Follow-up local content verifier: `d46f050ee37201f3798573ff9c0489b39aac799f`. Th
 The final PR review identified a real intermediate-width issue at 601 CSS px: the composite switched in too early and made card titles too small. Keep the five-card focus through 1399 CSS px in both locales; show the wide composite from 1400 px, where the Help column can keep its labels readable. Native sources are unchanged. Targeted browser verification covers the 600/601 boundary, tablet/narrow desktop and 1399/1400 transition.
 
 The final breakpoint fix passed production build/security headers and browser inspection in both locales at 600, 601, 1024, 1280, 1399 and 1400 CSS px. The focus remains 436 CSS px through 1399; the wide composite renders at about 676 CSS px at 1400. There is no overflow or source enlargement. Existing full-page 1440/390 review remains applicable; no PNG changed.
+
+Final follow-up verifier after the intermediate-width fix: `f5404c53925c46fee470a57fc3d970db571ccd2e`, referenced from its separate descendant ledger commit. This supersedes the earlier follow-up verifier without rewriting any existing commit.
