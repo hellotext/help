@@ -1,17 +1,5 @@
 Website Popup lets you collect phone numbers, email addresses, and other customer profile information without sending visitors away from your website.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Complete popup editor with Style, Layout, Settings, steps and a mobile preview with a header image.">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 1266px; width: fit-content; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 1399px)" srcset="/images/captures/website-popup/editor-follow-up/en/steps-mobile.png 2x" width="764" height="1176" />
-        <img class="ht-editorial-visual__image" src="/images/captures/website-popup/editor-follow-up/en/overview.png" srcset="/images/captures/website-popup/editor-follow-up/en/overview.png 2x" width="2496" height="1608" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Complete popup editor with Style, Layout, Settings, steps and a mobile preview with a header image." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Real desktop editor with an example header photograph. Narrow screens show the focused popup; the controls are detailed below.</figcaption>
-</figure>
-
 It is a capture playbook, not an agentic playbook or a journey. The popup collects or updates a customer profile. You can assign an active welcome or follow-up journey and, optionally, a coupon. Saving contact information alone does not complete a verified subscription.
 
 Website Popup is being rolled out progressively. If it appears as **On request**, is disabled, or does not appear in the **Capture** group under **Explore playbooks**, confirm availability with your Hellotext team before planning a launch.
@@ -65,16 +53,16 @@ For channel eligibility and consent, see [Who you can message]({% link _audience
 
 The mobile and desktop icons switch the editor view. **Preview** opens a separate view where you can review the experience without publishing the popup. Check both views while you work rather than treating the desktop preview as the final version for every visitor.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Email, First name and Completed steps, device selectors and a fictional popup with a header photograph.">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Fictional popup editor with Email, First name and Completed steps and device selectors.">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 548px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 522px; width: fit-content; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/website-popup/editor-follow-up/en/steps-mobile.png 2x" width="764" height="1176" />
-        <img class="ht-editorial-visual__image" src="/images/captures/website-popup/editor-follow-up/en/steps.png" srcset="/images/captures/website-popup/editor-follow-up/en/steps.png 2x" width="1060" height="1392" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Email, First name and Completed steps, device selectors and a fictional popup with a header photograph." />
+        <source media="(max-width: 600px)" srcset="/images/captures/website-popup/steps-mobile-en.png 2x" width="748" height="1306" />
+        <img class="ht-editorial-visual__image" src="/images/captures/website-popup/steps-en.png" srcset="/images/captures/website-popup/steps-en.png 2x" width="1044" height="1552" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Fictional popup editor with Email, First name and Completed steps and device selectors." />
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Fictional data; the header image appears in the Default mobile view. The popup remains a draft and the form was not submitted.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Fictional data; the mobile focus shows the first-step preview. The popup was not published or submitted.</figcaption>
 </figure>
 
 ## Build the signup steps
@@ -90,27 +78,27 @@ For each step, you can:
 - Add, remove, rename, and reorder steps.
 - Preview how the step looks on mobile and desktop.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Field type, placeholder and required email controls beside the fictional popup with a header image.">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Field type, placeholder and required email controls.">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 772px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 739px; width: fit-content; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/website-popup/editor-follow-up/en/fields-mobile.png 2x" width="712" height="516" />
-        <img class="ht-editorial-visual__image" src="/images/captures/website-popup/editor-follow-up/en/fields.png" srcset="/images/captures/website-popup/editor-follow-up/en/fields.png 2x" width="1508" height="1380" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Field type, placeholder and required email controls beside the fictional popup with a header image." />
+        <source media="(max-width: 600px)" srcset="/images/captures/website-popup/fields-mobile-en.png 2x" width="712" height="516" />
+        <img class="ht-editorial-visual__image" src="/images/captures/website-popup/fields-en.png" srcset="/images/captures/website-popup/fields-en.png 2x" width="1478" height="1426" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Field type, placeholder and required email controls." />
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Desktop shows the field and its panel; the mobile focus keeps the type, placeholder and required controls complete.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Desktop shows the field and its panel; the mobile focus shows type, placeholder and required controls.</figcaption>
 </figure>
 
 Use the **Completed** state to explain what follows the form. Its preview is a design simulation; it does not confirm a real subscription, verification, or delivery. Keep this message useful even when no coupon is assigned.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Completed-state preview of the fictional popup with a header photograph.">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Completed-state preview of the fictional popup.">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 400px; width: fit-content; margin: 0 auto;">
-      <img class="ht-editorial-visual__image" src="/images/captures/website-popup/editor-follow-up/en/completion.png" srcset="/images/captures/website-popup/editor-follow-up/en/completion.png 2x" width="764" height="1088" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Completed-state preview of the fictional popup with a header photograph." />
+    <div class="ht-editorial-visual__image-frame" style="max-width: 374px; width: fit-content; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/captures/website-popup/completion-en.png" srcset="/images/captures/website-popup/completion-en.png 2x" width="748" height="1072" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Completed-state preview of the fictional popup." />
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Design simulation with the same header; it does not prove a subscription or received message.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">This is a design preview, not proof of a subscription or received message.</figcaption>
 </figure>
 
 Do not ask for every available property just because it exists. Each additional field adds work for the visitor and can reduce completion. To publish, include and require at least one email or phone field. Collect the minimum needed for the first useful follow-up, then enrich the profile later through conversations, purchases, forms, or other signals.
