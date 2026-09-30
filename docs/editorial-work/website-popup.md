@@ -68,3 +68,14 @@ Follow-up local verifier: `11466e9e94fa7fe69c641708ece3dbd9aa3d829b`. This is a 
 PR #253 review: corrected the alternative text of all three changed responsive figures in ES/EN to cover both the wide context and focused source accurately. Native PNG bytes and visual layout are unchanged. The reviewer ancestry claim used a synthetic reviewed commit; provider head ac04ec1cd7eb7301f75751fad084b165e47d1a9e is a direct child of 11466e9e, confirmed by GitHub's commit parents and git merge-base. The provider history preserves the real verifier.
 
 Final local verifier after the responsive accessibility correction: `e233b4ef227cb15c0e387ffeb00ec3ed8f03ed07`. Production build/security headers and both built alternative-text variants passed; all twelve built PNG hashes remain unchanged.
+
+
+## Editor overview and header-image public verification — 2026-09-30
+
+Help PR [#253](https://github.com/hellotext/help/pull/253) merged by commit `a28e7261dc92315d848f9db67db1388d23fe7c39`, preserving the content and every verifier commit. Build, Aikido, Netlify preview and header checks passed. The responsive alternative-text finding was corrected in both languages; the claimed unreachable verifier was refuted using the actual provider commit parents. Both threads were resolved and the final review completed with no further finding. Attaching the PR reached the existing 100-identity limit. No protection or check was bypassed.
+
+Main [Build 36662621122](https://github.com/hellotext/help/actions/runs/36662621122) succeeded for that exact merge SHA. The normal Netlify production deploy `6abc7bd7f79bfc0008c85369` has matching `commit_ref`, state ready and published_at `2026-09-30T03:03:18.190Z` in the public site-alias API. No manual deployment was used.
+
+Both public [ES](https://help.hellotext.com/es/popup-sitio-web) and [EN](https://help.hellotext.com/website-popup) pages returned HTTP 200 with eleven static figures per language. All twelve new native PNGs and sixteen preserved referenced PNGs returned HTTP 200 and matched their approved SHA-256 hashes. No preserved PNG was uploaded as a duplicate. Exact URLs, hashes and deployment evidence are in `captures/website-popup/editor-follow-up/public-verification.json`. The follow-up refreshes only the full editor and image-bearing step/field/completion examples; unrelated figures are preserved.
+
+The protected Popup remains hidden/draft with two existing steps and zero submissions; its actual header image uses the existing application photograph. Contact/message/delivery guards are unchanged, and the fictional business label Enterprise and locale ES are restored. No earlier seed, delivery, final save, test, installation or publish action was executed. The durable row remains local_verified with the reachable final content verifier.
