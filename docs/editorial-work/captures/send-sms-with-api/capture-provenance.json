@@ -1,5 +1,5 @@
 {
-  "status": "local_verified_publication_pending",
+  "status": "publicly_verified",
   "base_revision": "5144879a39c88855bbcb8751c3c4ae86791cf59f",
   "originals": [
     {
@@ -398,9 +398,7 @@
   ],
   "source_reuse_decision": "Eight current approved native sources reused unchanged: corrected token-name UI from #285 and actual unsaved Message/SMS editor from #283, ES/EN desktop/mobile. No new captures or duplicated images.",
   "changes": "Article and evidence only. No application UI/DB access, fixtures, locale changes, tokens, links, events, messages, API examples, sends, tests or workers.",
-  "pending": [
-    "Complete article local review/build/hashes, exact PR checks/review, main Build/production/public verification."
-  ],
+  "pending": [],
   "local_verification": {
     "evidence": "local-verification.json",
     "full_page_browser_review": "page-review/",
@@ -416,7 +414,19 @@
     "source_asset_root_build_es_build_hashes": "8 reused sources match",
     "new_capture_count": 0,
     "new_png_uploads": 0,
-    "publication_state": "pending protected PR/main/public checks",
+    "publication_state": "Public verification completed after the content merge; see root publication evidence.",
     "verifier_commit": "8bed47fac86a9f0bf6007ee6223d355aa372d638"
+  },
+  "publication": {
+    "state": "publicly_verified",
+    "evidence": "public-verification.json",
+    "content_pr": "https://github.com/hellotext/help/pull/287",
+    "main_merge_sha": "654cf2c220f9f1551eee24e381519206c8c8db87",
+    "deploy_id": "6abd607f2d5d700008fcf6c1",
+    "public_pages_http": 200,
+    "public_asset_count": 8,
+    "approved_reused_hashes_match": true,
+    "new_captures": 0,
+    "new_png_uploads": 0
   }
 }
