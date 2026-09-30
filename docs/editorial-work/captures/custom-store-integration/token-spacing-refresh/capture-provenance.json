@@ -1,5 +1,5 @@
 {
-  "status": "local_verified",
+  "status": "public_verified",
   "captured_date": "2026-09-30",
   "user_finding": "New authorization-token label was separated from its input by wizard section spacing; user requested fresh screenshots after the UI correction.",
   "rails_revision": "5403a7dcb567b63cae87d4c088112d65fad4eb7f",
@@ -71,7 +71,7 @@
       "reuse": false,
       "pointer": "absent",
       "pixel_edits": "none",
-      "publication_status": "Pending authorized Git publication and public verification."
+      "publication_status": "New native P3 2x source published once and shared by six guides; HTTP200 hash matches untouched original."
     },
     {
       "name": "token-es-mobile",
@@ -117,7 +117,7 @@
       "reuse": false,
       "pointer": "absent",
       "pixel_edits": "none",
-      "publication_status": "Pending authorized Git publication and public verification."
+      "publication_status": "New native P3 2x source published once and shared by six guides; HTTP200 hash matches untouched original."
     },
     {
       "name": "token-en",
@@ -163,7 +163,7 @@
       "reuse": false,
       "pointer": "absent",
       "pixel_edits": "none",
-      "publication_status": "Pending authorized Git publication and public verification."
+      "publication_status": "New native P3 2x source published once and shared by six guides; HTTP200 hash matches untouched original."
     },
     {
       "name": "token-en-mobile",
@@ -209,7 +209,7 @@
       "reuse": false,
       "pointer": "absent",
       "pixel_edits": "none",
-      "publication_status": "Pending authorized Git publication and public verification."
+      "publication_status": "New native P3 2x source published once and shared by six guides; HTTP200 hash matches untouched original."
     }
   ],
   "articles": [
@@ -349,10 +349,15 @@
       "dpr": 2,
       "zoom": 1
     },
-    "content_verifier_commit": "4bca01d1ac460dfe5ce07b8845673492b109ffcb"
+    "content_verifier_commit": "4bca01d1ac460dfe5ce07b8845673492b109ffcb",
+    "publication_state": "public_verified",
+    "publication_evidence": "public-verification.json"
   },
-  "pending": [
-    "Required PR checks and exact-head independent review",
-    "Main Build, exact normal Netlify production and public page/PNG verification"
-  ]
+  "pending": [],
+  "publication": {
+    "state": "public_verified",
+    "evidence": "public-verification.json",
+    "content_pr": 285,
+    "merge_sha": "e89db5e3a1668bc97396ffa356563278f6396b2d"
+  }
 }
