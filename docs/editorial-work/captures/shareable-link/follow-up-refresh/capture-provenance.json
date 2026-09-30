@@ -1,0 +1,1836 @@
+{
+  "status": "local_verified",
+  "captured_at": "2026-09-30",
+  "rails_revision": "e6ae33a310d46ba88d9bf5b70845618a0b4a6461",
+  "request": "Refresh the optional coupon/journey assignment and generated-link result after application style changes, in ES/EN.",
+  "capture_method": "Official isolated Chrome compositor script; native lossless PNG, Display P3 D65, DPR 2. No operating-system window picker or personal browser inspection.",
+  "fixture_changes": "Only guarded owner locale ES→EN→ES. All requested views were GETs of the existing disabled link with its existing coupon and draft journey. No fixture creation, reseed, assignment save, skip, clipboard click, generated-link visit, channel activation or delivery request.",
+  "screenshots_scope": "Two requested concepts, eight native desktop/phone sources. The other three concepts retain their ten approved sources without duplicates.",
+  "source_audit": "Assignment and result controllers, shared coupon/journey assignment partial, SocialMediaLink result template and WizardComponent audited. Labels use the actual default 16px/24px typography. The draft journey proper name is the same fictional data in both locales; application labels and headings are localized.",
+  "images": [
+    {
+      "name": "assignment-es",
+      "locale": "es",
+      "concept": "assignment",
+      "mobile": false,
+      "css_clip": [
+        95,
+        132,
+        674,
+        504
+      ],
+      "viewport": [
+        1440,
+        1200
+      ],
+      "safety": {
+        "database": "hellotext_editorial_workload_20260928",
+        "business_id": 5,
+        "account": "design-system@example.test",
+        "locale": "es",
+        "contacts": 127,
+        "messageable": 0,
+        "subscribed": 0,
+        "messages": 49,
+        "enabled_playbooks": 0,
+        "capture_id": 6,
+        "capture_state": "disabled",
+        "link_id": "3oDXBQG4",
+        "journey_id": 8,
+        "journey_state": "draft",
+        "journey_name": "Bienvenida QR · ejemplo",
+        "coupon_id": 2,
+        "coupon_code": "GUIA-QR-10",
+        "channel_active": false,
+        "social_links": 1,
+        "generated_url": "https://hello.link/pUbPdJ"
+      },
+      "ui": {
+        "url": "http://127.0.0.1:3192/hellotext/captures/instagram-stories/3oDXBQG4/assign-coupon",
+        "title": "Asignar cupón y journey a Link de Instagram · ejemplo - Hellotext",
+        "locale": "es",
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "wizard": [
+          0,
+          84,
+          1440,
+          1116
+        ],
+        "header": [
+          0,
+          84,
+          864,
+          324
+        ],
+        "heading": [
+          107,
+          148,
+          650,
+          104
+        ],
+        "headingText": "Asigna un cupón y una ruta. Opcional.",
+        "headerInner": [
+          107,
+          132,
+          650,
+          228
+        ],
+        "main": [
+          0,
+          408,
+          864,
+          792
+        ],
+        "selector": [
+          107,
+          408,
+          379.1640625,
+          212
+        ],
+        "footer": [
+          107,
+          1123,
+          650,
+          77
+        ],
+        "fields": [
+          {
+            "text": "Dale la bienvenida a un cliente con un cupón de descuento",
+            "rect": [
+              107,
+              408,
+              379.1640625,
+              48
+            ],
+            "size": "16px",
+            "lineHeight": "24px"
+          },
+          {
+            "text": "Elige una ruta",
+            "rect": [
+              107,
+              538,
+              379.1640625,
+              24
+            ],
+            "size": "16px",
+            "lineHeight": "24px"
+          }
+        ],
+        "controls": [
+          {
+            "tag": "DIV",
+            "text": "GUIA-QR-10",
+            "rect": [
+              107,
+              464,
+              379.1640625,
+              42
+            ],
+            "id": "coupons-dropdown",
+            "controller": "custom-dropdown hidden-select"
+          },
+          {
+            "tag": "SECTION",
+            "text": "Bienvenida QR · ejemplo",
+            "rect": [
+              107,
+              570,
+              379.1640625,
+              50
+            ],
+            "id": "journeys-dropdown",
+            "controller": "ui--popover capture--assignment--journey"
+          },
+          {
+            "tag": "A",
+            "text": "Atrás",
+            "rect": [
+              107,
+              1140,
+              65.5078125,
+              44
+            ],
+            "id": "",
+            "controller": null
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "rect": [
+              467.5859375,
+              1148,
+              49.96875,
+              28
+            ],
+            "id": "",
+            "controller": null
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "rect": [
+              545.5546875,
+              1140,
+              211.4453125,
+              44
+            ],
+            "id": "",
+            "controller": null
+          }
+        ],
+        "text": "Asigna un cupón y una ruta. Opcional.\n\nOpcionalmente, da la bienvenida a nuevos suscriptores con una ruta y un cupón que puedan usar de inmediato. Puedes dejar ambas selecciones vacías.\n\nDale la bienvenida a un cliente con un cupón de descuento\n\nGUIA-QR-10\n\nElige una ruta\n\nBienvenida QR · ejemplo\nAtrás\nSMS"
+      },
+      "native": {
+        "output": "assignment-es.png",
+        "sha256": "17b7856b05114207fd5335e07574cbde6054bf6be08a662a5970976233307ce3",
+        "url": "http://127.0.0.1:3192/hellotext/captures/instagram-stories/3oDXBQG4/assign-coupon",
+        "locale": "es",
+        "cssViewport": [
+          1440,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          95,
+          132,
+          674,
+          504
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1348,
+          1008
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "published_asset": "images/captures/shareable-link/follow-up-refresh/assignment-es.png",
+      "publication_status": "local_verified; public publication pending",
+      "native_logical_size": [
+        674,
+        504
+      ],
+      "intended_maximum_css_width": 674
+    },
+    {
+      "name": "assignment-es-mobile",
+      "locale": "es",
+      "concept": "assignment",
+      "mobile": true,
+      "css_clip": [
+        20,
+        40,
+        350,
+        488
+      ],
+      "viewport": [
+        390,
+        1100
+      ],
+      "safety": {
+        "database": "hellotext_editorial_workload_20260928",
+        "business_id": 5,
+        "account": "design-system@example.test",
+        "locale": "es",
+        "contacts": 127,
+        "messageable": 0,
+        "subscribed": 0,
+        "messages": 49,
+        "enabled_playbooks": 0,
+        "capture_id": 6,
+        "capture_state": "disabled",
+        "link_id": "3oDXBQG4",
+        "journey_id": 8,
+        "journey_state": "draft",
+        "journey_name": "Bienvenida QR · ejemplo",
+        "coupon_id": 2,
+        "coupon_code": "GUIA-QR-10",
+        "channel_active": false,
+        "social_links": 1,
+        "generated_url": "https://hello.link/pUbPdJ"
+      },
+      "ui": {
+        "url": "http://127.0.0.1:3192/hellotext/captures/instagram-stories/3oDXBQG4/assign-coupon",
+        "title": "Asignar cupón y journey a Link de Instagram · ejemplo - Hellotext",
+        "locale": "es",
+        "viewport": [
+          390,
+          1100
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "wizard": [
+          0,
+          8,
+          390,
+          749.59375
+        ],
+        "header": [
+          0,
+          8,
+          390,
+          268
+        ],
+        "heading": [
+          32,
+          56,
+          326,
+          68
+        ],
+        "headingText": "Asigna un cupón y una ruta. Opcional.",
+        "headerInner": [
+          32,
+          40,
+          326,
+          204
+        ],
+        "main": [
+          0,
+          300,
+          390,
+          433.59375
+        ],
+        "selector": [
+          32,
+          300,
+          326,
+          212
+        ],
+        "footer": [
+          0,
+          1023,
+          390,
+          77
+        ],
+        "fields": [
+          {
+            "text": "Dale la bienvenida a un cliente con un cupón de descuento",
+            "rect": [
+              32,
+              300,
+              326,
+              48
+            ],
+            "size": "16px",
+            "lineHeight": "24px"
+          },
+          {
+            "text": "Elige una ruta",
+            "rect": [
+              32,
+              430,
+              326,
+              24
+            ],
+            "size": "16px",
+            "lineHeight": "24px"
+          }
+        ],
+        "controls": [
+          {
+            "tag": "DIV",
+            "text": "GUIA-QR-10",
+            "rect": [
+              32,
+              356,
+              326,
+              42
+            ],
+            "id": "coupons-dropdown",
+            "controller": "custom-dropdown hidden-select"
+          },
+          {
+            "tag": "SECTION",
+            "text": "Bienvenida QR · ejemplo",
+            "rect": [
+              32,
+              462,
+              326,
+              50
+            ],
+            "id": "journeys-dropdown",
+            "controller": "ui--popover capture--assignment--journey"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "Vista previa",
+            "rect": [
+              223.3125,
+              568,
+              134.6875,
+              37.59375
+            ],
+            "id": "",
+            "controller": null
+          },
+          {
+            "tag": "A",
+            "text": "Atrás",
+            "rect": [
+              16,
+              1040,
+              65.5078125,
+              44
+            ],
+            "id": "",
+            "controller": null
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "rect": [
+              125.5078125,
+              1048,
+              49.96875,
+              28
+            ],
+            "id": "",
+            "controller": null
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "rect": [
+              203.4765625,
+              1040,
+              211.4453125,
+              44
+            ],
+            "id": "",
+            "controller": null
+          }
+        ],
+        "text": "Asigna un cupón y una ruta. Opcional.\n\nOpcionalmente, da la bienvenida a nuevos suscriptores con una ruta y un cupón que puedan usar de inmediato. Puedes dejar ambas selecciones vacías.\n\nDale la bienvenida a un cliente con un cupón de descuento\n\nGUIA-QR-10\n\nElige una ruta\n\nBienvenida QR · ejemplo\nVista previa\nAtrás"
+      },
+      "native": {
+        "output": "assignment-es-mobile.png",
+        "sha256": "41b58939a600a7dfad533bed2ea4baa16f3dc3b80a4060e5cb57f7bb14299334",
+        "url": "http://127.0.0.1:3192/hellotext/captures/instagram-stories/3oDXBQG4/assign-coupon",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          1100
+        ],
+        "browserDpr": 2,
+        "clip": [
+          20,
+          40,
+          350,
+          488
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          700,
+          976
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "published_asset": "images/captures/shareable-link/follow-up-refresh/assignment-es-mobile.png",
+      "publication_status": "local_verified; public publication pending",
+      "native_logical_size": [
+        350,
+        488
+      ],
+      "intended_maximum_css_width": 350
+    },
+    {
+      "name": "result-es",
+      "locale": "es",
+      "concept": "result",
+      "mobile": false,
+      "css_clip": [
+        4,
+        40,
+        802,
+        400
+      ],
+      "viewport": [
+        810,
+        440
+      ],
+      "safety": {
+        "database": "hellotext_editorial_workload_20260928",
+        "business_id": 5,
+        "account": "design-system@example.test",
+        "locale": "es",
+        "contacts": 127,
+        "messageable": 0,
+        "subscribed": 0,
+        "messages": 49,
+        "enabled_playbooks": 0,
+        "capture_id": 6,
+        "capture_state": "disabled",
+        "link_id": "3oDXBQG4",
+        "journey_id": 8,
+        "journey_state": "draft",
+        "journey_name": "Bienvenida QR · ejemplo",
+        "coupon_id": 2,
+        "coupon_code": "GUIA-QR-10",
+        "channel_active": false,
+        "social_links": 1,
+        "generated_url": "https://hello.link/pUbPdJ"
+      },
+      "ui": {
+        "url": "http://127.0.0.1:3192/hellotext/captures/instagram-stories/3oDXBQG4",
+        "title": "Tu enlace compartible está creado - Hellotext",
+        "locale": "es",
+        "viewport": [
+          810,
+          440
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "wizard": [
+          0,
+          8,
+          810,
+          406
+        ],
+        "header": [
+          0,
+          8,
+          810,
+          162
+        ],
+        "heading": [
+          16,
+          56,
+          501.2734375,
+          34
+        ],
+        "headingText": "Tu enlace compartible está creado",
+        "headerInner": [
+          16,
+          40,
+          778,
+          98
+        ],
+        "main": [
+          0,
+          194,
+          810,
+          220
+        ],
+        "selector": [
+          16,
+          194,
+          389,
+          200
+        ],
+        "footer": [
+          0,
+          364,
+          810,
+          76
+        ],
+        "fields": [],
+        "controls": [
+          {
+            "tag": "ARTICLE",
+            "text": "https://hello.link/pUbPdJ",
+            "rect": [
+              16,
+              194,
+              389,
+              72
+            ],
+            "id": "",
+            "controller": "copy-to-clipboard"
+          },
+          {
+            "tag": "SPAN",
+            "text": "",
+            "rect": [
+              369,
+              202,
+              28,
+              28
+            ],
+            "id": "TjKVMXfikv",
+            "controller": "ui--tooltip"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "",
+            "rect": [
+              369,
+              202,
+              28,
+              28
+            ],
+            "id": "",
+            "controller": null
+          },
+          {
+            "tag": "A",
+            "text": "Cerrar",
+            "rect": [
+              601.3046875,
+              380,
+              75.296875,
+              44
+            ],
+            "id": "",
+            "controller": null
+          },
+          {
+            "tag": "ARTICLE",
+            "text": "Copiar",
+            "rect": [
+              692.6015625,
+              380,
+              101.3984375,
+              44
+            ],
+            "id": "",
+            "controller": "copy-to-clipboard"
+          },
+          {
+            "tag": "SPAN",
+            "text": "Copiar",
+            "rect": [
+              716.6015625,
+              390,
+              53.3984375,
+              24
+            ],
+            "id": "cE93SH68Sg",
+            "controller": "ui--tooltip"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "Copiar",
+            "rect": [
+              716.6015625,
+              390,
+              53.3984375,
+              24
+            ],
+            "id": "",
+            "controller": null
+          }
+        ],
+        "text": "Tu enlace compartible está creado\n\nCopia el siguiente enlace para compartirlo. Aprende cómo compartir enlaces\n\nhttps://hello.link/pUbPdJ\nCerrar\nCopiar"
+      },
+      "native": {
+        "output": "result-es.png",
+        "sha256": "77cc9b0c62f936c5a6d5be8ebdb204c627bf79d3e3328e8b56ce970663e55f03",
+        "url": "http://127.0.0.1:3192/hellotext/captures/instagram-stories/3oDXBQG4",
+        "locale": "es",
+        "cssViewport": [
+          810,
+          440
+        ],
+        "browserDpr": 2,
+        "clip": [
+          4,
+          40,
+          802,
+          400
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1604,
+          800
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "published_asset": "images/captures/shareable-link/follow-up-refresh/result-es.png",
+      "publication_status": "local_verified; public publication pending",
+      "native_logical_size": [
+        802,
+        400
+      ],
+      "intended_maximum_css_width": 802
+    },
+    {
+      "name": "result-es-mobile",
+      "locale": "es",
+      "concept": "result",
+      "mobile": true,
+      "css_clip": [
+        4,
+        40,
+        382,
+        480
+      ],
+      "viewport": [
+        390,
+        520
+      ],
+      "safety": {
+        "database": "hellotext_editorial_workload_20260928",
+        "business_id": 5,
+        "account": "design-system@example.test",
+        "locale": "es",
+        "contacts": 127,
+        "messageable": 0,
+        "subscribed": 0,
+        "messages": 49,
+        "enabled_playbooks": 0,
+        "capture_id": 6,
+        "capture_state": "disabled",
+        "link_id": "3oDXBQG4",
+        "journey_id": 8,
+        "journey_state": "draft",
+        "journey_name": "Bienvenida QR · ejemplo",
+        "coupon_id": 2,
+        "coupon_code": "GUIA-QR-10",
+        "channel_active": false,
+        "social_links": 1,
+        "generated_url": "https://hello.link/pUbPdJ"
+      },
+      "ui": {
+        "url": "http://127.0.0.1:3192/hellotext/captures/instagram-stories/3oDXBQG4",
+        "title": "Tu enlace compartible está creado - Hellotext",
+        "locale": "es",
+        "viewport": [
+          390,
+          520
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "wizard": [
+          0,
+          8,
+          390,
+          464
+        ],
+        "header": [
+          0,
+          8,
+          390,
+          220
+        ],
+        "heading": [
+          16,
+          56,
+          358,
+          68
+        ],
+        "headingText": "Tu enlace compartible está creado",
+        "headerInner": [
+          16,
+          40,
+          358,
+          156
+        ],
+        "main": [
+          0,
+          252,
+          390,
+          220
+        ],
+        "selector": [
+          16,
+          252,
+          358,
+          200
+        ],
+        "footer": [
+          0,
+          444,
+          390,
+          76
+        ],
+        "fields": [],
+        "controls": [
+          {
+            "tag": "ARTICLE",
+            "text": "https://hello.link/pUbPdJ",
+            "rect": [
+              16,
+              252,
+              358,
+              72
+            ],
+            "id": "",
+            "controller": "copy-to-clipboard"
+          },
+          {
+            "tag": "SPAN",
+            "text": "",
+            "rect": [
+              338,
+              260,
+              28,
+              28
+            ],
+            "id": "pJLcrMePsc",
+            "controller": "ui--tooltip"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "",
+            "rect": [
+              338,
+              260,
+              28,
+              28
+            ],
+            "id": "",
+            "controller": null
+          },
+          {
+            "tag": "A",
+            "text": "Cerrar",
+            "rect": [
+              181.3046875,
+              460,
+              75.296875,
+              44
+            ],
+            "id": "",
+            "controller": null
+          },
+          {
+            "tag": "ARTICLE",
+            "text": "Copiar",
+            "rect": [
+              272.6015625,
+              460,
+              101.3984375,
+              44
+            ],
+            "id": "",
+            "controller": "copy-to-clipboard"
+          },
+          {
+            "tag": "SPAN",
+            "text": "Copiar",
+            "rect": [
+              296.6015625,
+              470,
+              53.3984375,
+              24
+            ],
+            "id": "b_jThf4G6A",
+            "controller": "ui--tooltip"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "Copiar",
+            "rect": [
+              296.6015625,
+              470,
+              53.3984375,
+              24
+            ],
+            "id": "",
+            "controller": null
+          }
+        ],
+        "text": "Tu enlace compartible está creado\n\nCopia el siguiente enlace para compartirlo. Aprende cómo compartir enlaces\n\nhttps://hello.link/pUbPdJ\nCerrar\nCopiar"
+      },
+      "native": {
+        "output": "result-es-mobile.png",
+        "sha256": "0aebf5b16b340fd04531208afaf61439b48dbf21ebc07e1df79987f420988128",
+        "url": "http://127.0.0.1:3192/hellotext/captures/instagram-stories/3oDXBQG4",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          520
+        ],
+        "browserDpr": 2,
+        "clip": [
+          4,
+          40,
+          382,
+          480
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          764,
+          960
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "published_asset": "images/captures/shareable-link/follow-up-refresh/result-es-mobile.png",
+      "publication_status": "local_verified; public publication pending",
+      "native_logical_size": [
+        382,
+        480
+      ],
+      "intended_maximum_css_width": 382
+    },
+    {
+      "name": "assignment-en",
+      "locale": "en",
+      "concept": "assignment",
+      "mobile": false,
+      "css_clip": [
+        95,
+        132,
+        674,
+        452
+      ],
+      "viewport": [
+        1440,
+        1200
+      ],
+      "safety": {
+        "database": "hellotext_editorial_workload_20260928",
+        "business_id": 5,
+        "account": "design-system@example.test",
+        "locale": "en",
+        "contacts": 127,
+        "messageable": 0,
+        "subscribed": 0,
+        "messages": 49,
+        "enabled_playbooks": 0,
+        "capture_id": 6,
+        "capture_state": "disabled",
+        "link_id": "3oDXBQG4",
+        "journey_id": 8,
+        "journey_state": "draft",
+        "journey_name": "Bienvenida QR · ejemplo",
+        "coupon_id": 2,
+        "coupon_code": "GUIA-QR-10",
+        "channel_active": false,
+        "social_links": 1,
+        "generated_url": "https://hello.link/pUbPdJ"
+      },
+      "ui": {
+        "url": "http://127.0.0.1:3192/hellotext/captures/instagram-stories/3oDXBQG4/assign-coupon",
+        "title": "Assign coupon and journey to Link de Instagram · ejemplo - Hellotext",
+        "locale": "en",
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "wizard": [
+          0,
+          84,
+          1440,
+          1116
+        ],
+        "header": [
+          0,
+          84,
+          864,
+          296
+        ],
+        "heading": [
+          107,
+          148,
+          650,
+          104
+        ],
+        "headingText": "Assign a coupon and journey (optional).",
+        "headerInner": [
+          107,
+          132,
+          650,
+          200
+        ],
+        "main": [
+          0,
+          380,
+          864,
+          820
+        ],
+        "selector": [
+          107,
+          380,
+          379.1640625,
+          188
+        ],
+        "footer": [
+          107,
+          1123,
+          650,
+          77
+        ],
+        "fields": [
+          {
+            "text": "Welcome customer with a discount coupon",
+            "rect": [
+              107,
+              380,
+              379.1640625,
+              24
+            ],
+            "size": "16px",
+            "lineHeight": "24px"
+          },
+          {
+            "text": "Select a journey",
+            "rect": [
+              107,
+              486,
+              379.1640625,
+              24
+            ],
+            "size": "16px",
+            "lineHeight": "24px"
+          }
+        ],
+        "controls": [
+          {
+            "tag": "DIV",
+            "text": "GUIA-QR-10",
+            "rect": [
+              107,
+              412,
+              379.1640625,
+              42
+            ],
+            "id": "coupons-dropdown",
+            "controller": "custom-dropdown hidden-select"
+          },
+          {
+            "tag": "SECTION",
+            "text": "Bienvenida QR · ejemplo",
+            "rect": [
+              107,
+              518,
+              379.1640625,
+              50
+            ],
+            "id": "journeys-dropdown",
+            "controller": "ui--popover capture--assignment--journey"
+          },
+          {
+            "tag": "A",
+            "text": "Back",
+            "rect": [
+              107,
+              1140,
+              62.625,
+              44
+            ],
+            "id": "",
+            "controller": null
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "rect": [
+              514.4609375,
+              1148,
+              34.40625,
+              28
+            ],
+            "id": "",
+            "controller": null
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "rect": [
+              576.8671875,
+              1140,
+              180.1328125,
+              44
+            ],
+            "id": "",
+            "controller": null
+          }
+        ],
+        "text": "Assign a coupon and journey (optional).\n\nOptionally welcome new subscribers with a journey and a coupon they can use right away. Both selections can be left empty.\n\nWelcome customer with a discount coupon\n\nGUIA-QR-10\n\nSelect a journey\n\nBienvenida QR · ejemplo\nBack\nSMS"
+      },
+      "native": {
+        "output": "assignment-en.png",
+        "sha256": "066b6ef5e394ffc2cb93635ff4c5eea52773b0c6a6ed509cdb19a3efcf24682e",
+        "url": "http://127.0.0.1:3192/hellotext/captures/instagram-stories/3oDXBQG4/assign-coupon",
+        "locale": "en",
+        "cssViewport": [
+          1440,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          95,
+          132,
+          674,
+          452
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1348,
+          904
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "published_asset": "images/captures/shareable-link/follow-up-refresh/assignment-en.png",
+      "publication_status": "local_verified; public publication pending",
+      "native_logical_size": [
+        674,
+        452
+      ],
+      "intended_maximum_css_width": 674
+    },
+    {
+      "name": "assignment-en-mobile",
+      "locale": "en",
+      "concept": "assignment",
+      "mobile": true,
+      "css_clip": [
+        20,
+        40,
+        350,
+        488
+      ],
+      "viewport": [
+        390,
+        1100
+      ],
+      "safety": {
+        "database": "hellotext_editorial_workload_20260928",
+        "business_id": 5,
+        "account": "design-system@example.test",
+        "locale": "en",
+        "contacts": 127,
+        "messageable": 0,
+        "subscribed": 0,
+        "messages": 49,
+        "enabled_playbooks": 0,
+        "capture_id": 6,
+        "capture_state": "disabled",
+        "link_id": "3oDXBQG4",
+        "journey_id": 8,
+        "journey_state": "draft",
+        "journey_name": "Bienvenida QR · ejemplo",
+        "coupon_id": 2,
+        "coupon_code": "GUIA-QR-10",
+        "channel_active": false,
+        "social_links": 1,
+        "generated_url": "https://hello.link/pUbPdJ"
+      },
+      "ui": {
+        "url": "http://127.0.0.1:3192/hellotext/captures/instagram-stories/3oDXBQG4/assign-coupon",
+        "title": "Assign coupon and journey to Link de Instagram · ejemplo - Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          1100
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "wizard": [
+          0,
+          8,
+          390,
+          749.59375
+        ],
+        "header": [
+          0,
+          8,
+          390,
+          268
+        ],
+        "heading": [
+          32,
+          56,
+          326,
+          68
+        ],
+        "headingText": "Assign a coupon and journey (optional).",
+        "headerInner": [
+          32,
+          40,
+          326,
+          204
+        ],
+        "main": [
+          0,
+          300,
+          390,
+          433.59375
+        ],
+        "selector": [
+          32,
+          300,
+          326,
+          212
+        ],
+        "footer": [
+          0,
+          1023,
+          390,
+          77
+        ],
+        "fields": [
+          {
+            "text": "Welcome customer with a discount coupon",
+            "rect": [
+              32,
+              300,
+              326,
+              48
+            ],
+            "size": "16px",
+            "lineHeight": "24px"
+          },
+          {
+            "text": "Select a journey",
+            "rect": [
+              32,
+              430,
+              326,
+              24
+            ],
+            "size": "16px",
+            "lineHeight": "24px"
+          }
+        ],
+        "controls": [
+          {
+            "tag": "DIV",
+            "text": "GUIA-QR-10",
+            "rect": [
+              32,
+              356,
+              326,
+              42
+            ],
+            "id": "coupons-dropdown",
+            "controller": "custom-dropdown hidden-select"
+          },
+          {
+            "tag": "SECTION",
+            "text": "Bienvenida QR · ejemplo",
+            "rect": [
+              32,
+              462,
+              326,
+              50
+            ],
+            "id": "journeys-dropdown",
+            "controller": "ui--popover capture--assignment--journey"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "Preview",
+            "rect": [
+              248.53125,
+              568,
+              109.46875,
+              37.59375
+            ],
+            "id": "",
+            "controller": null
+          },
+          {
+            "tag": "A",
+            "text": "Back",
+            "rect": [
+              16,
+              1040,
+              62.625,
+              44
+            ],
+            "id": "",
+            "controller": null
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "rect": [
+              131.4609375,
+              1048,
+              34.40625,
+              28
+            ],
+            "id": "",
+            "controller": null
+          },
+          {
+            "tag": "INPUT",
+            "text": "",
+            "rect": [
+              193.8671875,
+              1040,
+              180.1328125,
+              44
+            ],
+            "id": "",
+            "controller": null
+          }
+        ],
+        "text": "Assign a coupon and journey (optional).\n\nOptionally welcome new subscribers with a journey and a coupon they can use right away. Both selections can be left empty.\n\nWelcome customer with a discount coupon\n\nGUIA-QR-10\n\nSelect a journey\n\nBienvenida QR · ejemplo\nPreview\nBack"
+      },
+      "native": {
+        "output": "assignment-en-mobile.png",
+        "sha256": "bc0f0955c94da57b461e49f75c2a9e4ffa8463444772e3ec241f76fcc7cb2319",
+        "url": "http://127.0.0.1:3192/hellotext/captures/instagram-stories/3oDXBQG4/assign-coupon",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          1100
+        ],
+        "browserDpr": 2,
+        "clip": [
+          20,
+          40,
+          350,
+          488
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          700,
+          976
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "published_asset": "images/captures/shareable-link/follow-up-refresh/assignment-en-mobile.png",
+      "publication_status": "local_verified; public publication pending",
+      "native_logical_size": [
+        350,
+        488
+      ],
+      "intended_maximum_css_width": 350
+    },
+    {
+      "name": "result-en",
+      "locale": "en",
+      "concept": "result",
+      "mobile": false,
+      "css_clip": [
+        4,
+        40,
+        802,
+        400
+      ],
+      "viewport": [
+        810,
+        440
+      ],
+      "safety": {
+        "database": "hellotext_editorial_workload_20260928",
+        "business_id": 5,
+        "account": "design-system@example.test",
+        "locale": "en",
+        "contacts": 127,
+        "messageable": 0,
+        "subscribed": 0,
+        "messages": 49,
+        "enabled_playbooks": 0,
+        "capture_id": 6,
+        "capture_state": "disabled",
+        "link_id": "3oDXBQG4",
+        "journey_id": 8,
+        "journey_state": "draft",
+        "journey_name": "Bienvenida QR · ejemplo",
+        "coupon_id": 2,
+        "coupon_code": "GUIA-QR-10",
+        "channel_active": false,
+        "social_links": 1,
+        "generated_url": "https://hello.link/pUbPdJ"
+      },
+      "ui": {
+        "url": "http://127.0.0.1:3192/hellotext/captures/instagram-stories/3oDXBQG4",
+        "title": "Your shareable link has been created - Hellotext",
+        "locale": "en",
+        "viewport": [
+          810,
+          440
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "wizard": [
+          0,
+          8,
+          810,
+          406
+        ],
+        "header": [
+          0,
+          8,
+          810,
+          162
+        ],
+        "heading": [
+          16,
+          56,
+          533.9453125,
+          34
+        ],
+        "headingText": "Your shareable link has been created",
+        "headerInner": [
+          16,
+          40,
+          778,
+          98
+        ],
+        "main": [
+          0,
+          194,
+          810,
+          220
+        ],
+        "selector": [
+          16,
+          194,
+          389,
+          200
+        ],
+        "footer": [
+          0,
+          364,
+          810,
+          76
+        ],
+        "fields": [],
+        "controls": [
+          {
+            "tag": "ARTICLE",
+            "text": "https://hello.link/pUbPdJ",
+            "rect": [
+              16,
+              194,
+              389,
+              72
+            ],
+            "id": "",
+            "controller": "copy-to-clipboard"
+          },
+          {
+            "tag": "SPAN",
+            "text": "",
+            "rect": [
+              369,
+              202,
+              28,
+              28
+            ],
+            "id": "AqiZZs0ARA",
+            "controller": "ui--tooltip"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "",
+            "rect": [
+              369,
+              202,
+              28,
+              28
+            ],
+            "id": "",
+            "controller": null
+          },
+          {
+            "tag": "A",
+            "text": "Close",
+            "rect": [
+              617.796875,
+              380,
+              70.0546875,
+              44
+            ],
+            "id": "",
+            "controller": null
+          },
+          {
+            "tag": "ARTICLE",
+            "text": "Copy",
+            "rect": [
+              703.8515625,
+              380,
+              90.1484375,
+              44
+            ],
+            "id": "",
+            "controller": "copy-to-clipboard"
+          },
+          {
+            "tag": "SPAN",
+            "text": "Copy",
+            "rect": [
+              727.8515625,
+              390,
+              42.1484375,
+              24
+            ],
+            "id": "LWmkTu7wSf",
+            "controller": "ui--tooltip"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "Copy",
+            "rect": [
+              727.8515625,
+              390,
+              42.1484375,
+              24
+            ],
+            "id": "",
+            "controller": null
+          }
+        ],
+        "text": "Your shareable link has been created\n\nCopy the following link to share it. Learn how to share links\n\nhttps://hello.link/pUbPdJ\nClose\nCopy"
+      },
+      "native": {
+        "output": "result-en.png",
+        "sha256": "b7b897aa9042c3deec739a19222fd7a51c76f945aed070952c0ee021d4a1a820",
+        "url": "http://127.0.0.1:3192/hellotext/captures/instagram-stories/3oDXBQG4",
+        "locale": "en",
+        "cssViewport": [
+          810,
+          440
+        ],
+        "browserDpr": 2,
+        "clip": [
+          4,
+          40,
+          802,
+          400
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1604,
+          800
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "published_asset": "images/captures/shareable-link/follow-up-refresh/result-en.png",
+      "publication_status": "local_verified; public publication pending",
+      "native_logical_size": [
+        802,
+        400
+      ],
+      "intended_maximum_css_width": 802
+    },
+    {
+      "name": "result-en-mobile",
+      "locale": "en",
+      "concept": "result",
+      "mobile": true,
+      "css_clip": [
+        4,
+        40,
+        382,
+        480
+      ],
+      "viewport": [
+        390,
+        520
+      ],
+      "safety": {
+        "database": "hellotext_editorial_workload_20260928",
+        "business_id": 5,
+        "account": "design-system@example.test",
+        "locale": "en",
+        "contacts": 127,
+        "messageable": 0,
+        "subscribed": 0,
+        "messages": 49,
+        "enabled_playbooks": 0,
+        "capture_id": 6,
+        "capture_state": "disabled",
+        "link_id": "3oDXBQG4",
+        "journey_id": 8,
+        "journey_state": "draft",
+        "journey_name": "Bienvenida QR · ejemplo",
+        "coupon_id": 2,
+        "coupon_code": "GUIA-QR-10",
+        "channel_active": false,
+        "social_links": 1,
+        "generated_url": "https://hello.link/pUbPdJ"
+      },
+      "ui": {
+        "url": "http://127.0.0.1:3192/hellotext/captures/instagram-stories/3oDXBQG4",
+        "title": "Your shareable link has been created - Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          520
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "wizard": [
+          0,
+          8,
+          390,
+          464
+        ],
+        "header": [
+          0,
+          8,
+          390,
+          220
+        ],
+        "heading": [
+          16,
+          56,
+          358,
+          68
+        ],
+        "headingText": "Your shareable link has been created",
+        "headerInner": [
+          16,
+          40,
+          358,
+          156
+        ],
+        "main": [
+          0,
+          252,
+          390,
+          220
+        ],
+        "selector": [
+          16,
+          252,
+          358,
+          200
+        ],
+        "footer": [
+          0,
+          444,
+          390,
+          76
+        ],
+        "fields": [],
+        "controls": [
+          {
+            "tag": "ARTICLE",
+            "text": "https://hello.link/pUbPdJ",
+            "rect": [
+              16,
+              252,
+              358,
+              72
+            ],
+            "id": "",
+            "controller": "copy-to-clipboard"
+          },
+          {
+            "tag": "SPAN",
+            "text": "",
+            "rect": [
+              338,
+              260,
+              28,
+              28
+            ],
+            "id": "vmq_YtfanD",
+            "controller": "ui--tooltip"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "",
+            "rect": [
+              338,
+              260,
+              28,
+              28
+            ],
+            "id": "",
+            "controller": null
+          },
+          {
+            "tag": "A",
+            "text": "Close",
+            "rect": [
+              197.796875,
+              460,
+              70.0546875,
+              44
+            ],
+            "id": "",
+            "controller": null
+          },
+          {
+            "tag": "ARTICLE",
+            "text": "Copy",
+            "rect": [
+              283.8515625,
+              460,
+              90.1484375,
+              44
+            ],
+            "id": "",
+            "controller": "copy-to-clipboard"
+          },
+          {
+            "tag": "SPAN",
+            "text": "Copy",
+            "rect": [
+              307.8515625,
+              470,
+              42.1484375,
+              24
+            ],
+            "id": "BhhthQSrnD",
+            "controller": "ui--tooltip"
+          },
+          {
+            "tag": "BUTTON",
+            "text": "Copy",
+            "rect": [
+              307.8515625,
+              470,
+              42.1484375,
+              24
+            ],
+            "id": "",
+            "controller": null
+          }
+        ],
+        "text": "Your shareable link has been created\n\nCopy the following link to share it. Learn how to share links\n\nhttps://hello.link/pUbPdJ\nClose\nCopy"
+      },
+      "native": {
+        "output": "result-en-mobile.png",
+        "sha256": "b96fde7fda7284f166d9e591e9eb8fb3763564dfff42280c712e0cd40ec5daee",
+        "url": "http://127.0.0.1:3192/hellotext/captures/instagram-stories/3oDXBQG4",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          520
+        ],
+        "browserDpr": 2,
+        "clip": [
+          4,
+          40,
+          382,
+          480
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          764,
+          960
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "published_asset": "images/captures/shareable-link/follow-up-refresh/result-en-mobile.png",
+      "publication_status": "local_verified; public publication pending",
+      "native_logical_size": [
+        382,
+        480
+      ],
+      "intended_maximum_css_width": 382
+    }
+  ],
+  "postflight": {
+    "database": "hellotext_editorial_workload_20260928",
+    "business_id": 5,
+    "account": "design-system@example.test",
+    "locale": "es",
+    "contacts": 127,
+    "messageable": 0,
+    "subscribed": 0,
+    "messages": 49,
+    "enabled_playbooks": 0,
+    "capture_id": 6,
+    "capture_state": "disabled",
+    "link_id": "3oDXBQG4",
+    "journey_id": 8,
+    "journey_state": "draft",
+    "journey_name": "Bienvenida QR · ejemplo",
+    "coupon_id": 2,
+    "coupon_code": "GUIA-QR-10",
+    "channel_active": false,
+    "social_links": 1,
+    "generated_url": "https://hello.link/pUbPdJ"
+  },
+  "preserved_assets": [
+    {
+      "asset": "images/captures/capture-overview/desktop-link-es.png",
+      "sha256": "7a0de54184b72e93a0b78f6af9daa695c88520c13ad49f067db5f64451e7b857",
+      "duplicate_uploaded": false
+    },
+    {
+      "asset": "images/captures/shareable-link/style-refresh/message-es-mobile.png",
+      "sha256": "9030f28f9c5bad060c5447a345d3a2af6c597c3af1dc347287a0e1b228ae0ec6",
+      "duplicate_uploaded": false
+    },
+    {
+      "asset": "images/captures/shareable-link/style-refresh/message-es.png",
+      "sha256": "88a93638e1db62974a70c106834b5e5ba7e0635b72b96963e2679de3897b36dc",
+      "duplicate_uploaded": false
+    },
+    {
+      "asset": "images/captures/shareable-link/type-es-mobile.png",
+      "sha256": "0cd707150da0b834ba93a19bd6bf9bce92ddad4111c115d3fd0b9efcc205c9f7",
+      "duplicate_uploaded": false
+    },
+    {
+      "asset": "images/captures/shareable-link/type-es.png",
+      "sha256": "3fa1ba020323e098d4c5125da8a775cea0be3b4b7017e5e44bf437a969dcbefe",
+      "duplicate_uploaded": false
+    },
+    {
+      "asset": "images/captures/capture-overview/desktop-link-en.png",
+      "sha256": "94023b8759e760dac96bce80baf0419d881a8f3015d1223a451f76b937d948f2",
+      "duplicate_uploaded": false
+    },
+    {
+      "asset": "images/captures/shareable-link/style-refresh/message-en-mobile.png",
+      "sha256": "220f78ad13060abdf1dccf8c59163a84c26a5a8a56999e769a1d8308a8edeeec",
+      "duplicate_uploaded": false
+    },
+    {
+      "asset": "images/captures/shareable-link/style-refresh/message-en.png",
+      "sha256": "23ddfe0a084b45d1bec797c0ef989ff623d963132685ec4c3d83917307091d24",
+      "duplicate_uploaded": false
+    },
+    {
+      "asset": "images/captures/shareable-link/type-en-mobile.png",
+      "sha256": "7c4e48cddd6a45babb2b588d22c4c53b6b25c4e36171ef93f9eff5fae82e3498",
+      "duplicate_uploaded": false
+    },
+    {
+      "asset": "images/captures/shareable-link/type-en.png",
+      "sha256": "db5843155cd7e3a6ed5b5f5d772a2a6967467830c2fc5b15b8fbf2c3febe1d15",
+      "duplicate_uploaded": false
+    }
+  ],
+  "presentation": "Five static figures per locale. Full-width lavender stages; fitted white frames include 18px border/padding overhead. Responsive sources declare genuine 2× density and image width auto. Assignment logical widths 674/350px; result 802/382px. No pixel editing or enlargement.",
+  "public_verification": {
+    "state": "pending"
+  },
+  "local_verification": {
+    "build": "RBENV_VERSION=3.3.6 yarn build passed for ES/EN and security headers.",
+    "hashes": "All eight native/source/asset/root-build/ES-build PNG hashes and dimensions match; ten preserved assets match.",
+    "browser_review": "Complete ES/EN articles reviewed at 1440×1000,390×844,580×900; five figures, no horizontal overflow, no image above selected logical source width. See page-review.json.",
+    "publication": "Pending protected PR checks, independent review, merge and normal deployment/public verification."
+  }
+}
