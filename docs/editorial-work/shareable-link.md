@@ -52,3 +52,5 @@ The other fourteen referenced PNGs retain their approved bytes. Figure markup de
 ### Style refresh local verification
 
 Production `yarn build` under Ruby 3.3.6 passed Jekyll for both locales and the security-header gate. Four original/asset/root-build/Spanish-build PNG copies matched their native hashes, signatures and P3 profiles; the fourteen reused PNGs were unchanged, and source/provenance files remained excluded from `_site`. Both complete articles were reviewed in the dedicated local browser at 1440, 390 and 580 CSS pixels, including all five figures and the bottom of each guide. All images remained at or below their logical source widths, desktop and phone sources matched the locale, stages stayed within the original article column, and no horizontal overflow appeared. Exact browser measurements are in the refresh `page-review.json`. No CSS tests, migrations, renderer edits or manual deployment were added. Public verification remains pending.
+
+Style refresh content verifier: `016ad318668d498157681d6e75fac029fe108c1f`. The separate ledger commit retains this reviewed content commit as an ancestor.
