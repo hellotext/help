@@ -65,10 +65,10 @@ You can choose a coupon when the selected playbook has a message prepared to inc
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Optional coupon and journey selected for a disabled fictional Shareable Link">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="width: fit-content; max-width: 692px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="width: fit-content; max-width: 668px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 470px)" srcset="/images/captures/shareable-link/follow-up-refresh/assignment-en-mobile.png 2x" width="700" height="976" />
-        <img class="ht-editorial-visual__image" src="/images/captures/shareable-link/follow-up-refresh/assignment-en.png" srcset="/images/captures/shareable-link/follow-up-refresh/assignment-en.png 2x" style="width: auto; margin: 0 auto;" width="1348" height="904" loading="lazy" decoding="async" alt="Fictional coupon GUIA-QR-10 and an example welcome journey selected in the optional step." />
+        <source media="(max-width: 470px)" srcset="/images/captures/shareable-link/assignment-en-mobile.png 2x" width="860" height="910" />
+        <img class="ht-editorial-visual__image" src="/images/captures/shareable-link/assignment-en.png" srcset="/images/captures/shareable-link/assignment-en.png 2x" style="width: auto; margin: 0 auto;" width="1300" height="1140" loading="lazy" decoding="async" alt="Fictional coupon GUIA-QR-10 and an example welcome journey selected in the optional step." />
       </picture>
     </div>
   </div>
@@ -81,10 +81,10 @@ After you save or skip the follow-up, copy the link from the last step.
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Fictional Shareable Link result and Copy button">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="width: fit-content; max-width: 820px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="width: fit-content; max-width: 808px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 470px)" srcset="/images/captures/shareable-link/follow-up-refresh/result-en-mobile.png 2x" width="764" height="960" />
-        <img class="ht-editorial-visual__image" src="/images/captures/shareable-link/follow-up-refresh/result-en.png" srcset="/images/captures/shareable-link/follow-up-refresh/result-en.png 2x" style="width: auto; margin: 0 auto;" width="1604" height="800" loading="lazy" decoding="async" alt="Link generated in the isolated fictional account and Copy button on the result page." />
+        <source media="(max-width: 470px)" srcset="/images/captures/shareable-link/result-en-mobile.png 2x" width="860" height="780" />
+        <img class="ht-editorial-visual__image" src="/images/captures/shareable-link/result-en.png" srcset="/images/captures/shareable-link/result-en.png 2x" style="width: auto; margin: 0 auto;" width="1580" height="810" loading="lazy" decoding="async" alt="Link generated in the isolated fictional account and Copy button on the result page." />
       </picture>
     </div>
   </div>

@@ -68,10 +68,10 @@ Puedes seleccionar un cupón si la misión elegida tiene un mensaje preparado pa
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Cupón y ruta opcionales asignados a un enlace compartible ficticio desactivado">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="width: fit-content; max-width: 692px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="width: fit-content; max-width: 668px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 470px)" srcset="/images/captures/shareable-link/follow-up-refresh/assignment-es-mobile.png 2x" width="700" height="976" />
-        <img class="ht-editorial-visual__image" src="/images/captures/shareable-link/follow-up-refresh/assignment-es.png" srcset="/images/captures/shareable-link/follow-up-refresh/assignment-es.png 2x" style="width: auto; margin: 0 auto;" width="1348" height="1008" loading="lazy" decoding="async" alt="Cupón ficticio GUIA-QR-10 y ruta de bienvenida de ejemplo seleccionados en el paso opcional." />
+        <source media="(max-width: 470px)" srcset="/images/captures/shareable-link/assignment-es-mobile.png 2x" width="860" height="980" />
+        <img class="ht-editorial-visual__image" src="/images/captures/shareable-link/assignment-es.png" srcset="/images/captures/shareable-link/assignment-es.png 2x" style="width: auto; margin: 0 auto;" width="1300" height="1240" loading="lazy" decoding="async" alt="Cupón ficticio GUIA-QR-10 y ruta de bienvenida de ejemplo seleccionados en el paso opcional." />
       </picture>
     </div>
   </div>
@@ -84,10 +84,10 @@ Después de guardar u omitir el seguimiento, copia el enlace del último paso.
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Resultado del enlace compartible ficticio y botón Copiar">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="width: fit-content; max-width: 820px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="width: fit-content; max-width: 808px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 470px)" srcset="/images/captures/shareable-link/follow-up-refresh/result-es-mobile.png 2x" width="764" height="960" />
-        <img class="ht-editorial-visual__image" src="/images/captures/shareable-link/follow-up-refresh/result-es.png" srcset="/images/captures/shareable-link/follow-up-refresh/result-es.png 2x" style="width: auto; margin: 0 auto;" width="1604" height="800" loading="lazy" decoding="async" alt="Enlace ficticio generado en la cuenta aislada y botón Copiar de la pantalla final." />
+        <source media="(max-width: 470px)" srcset="/images/captures/shareable-link/result-es-mobile.png 2x" width="860" height="780" />
+        <img class="ht-editorial-visual__image" src="/images/captures/shareable-link/result-es.png" srcset="/images/captures/shareable-link/result-es.png 2x" style="width: auto; margin: 0 auto;" width="1580" height="810" loading="lazy" decoding="async" alt="Enlace ficticio generado en la cuenta aislada y botón Copiar de la pantalla final." />
       </picture>
     </div>
   </div>
