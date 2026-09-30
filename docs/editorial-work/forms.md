@@ -108,3 +108,9 @@ Additional browser inspection at 580 CSS px found that the unchanged 400 CSS px 
 The catalog size fix passed a repeated production build and security-header verification. Full ES/EN browser review was repeated at 1280×900, 390×844 and 580×900; at 580 px the reused catalog image now displays at exactly its original 400 CSS px width. New source/asset/build bytes are unchanged.
 
 Final local verification, including the catalog density fix, points to content commit `a91ad5a2b9228ddc09b3d785f9b9b8cd5e7c563a`. All content commits remain reachable through the following ledger commit; the PR uses merge rather than squash.
+
+### Frame overhead correction from PR review
+
+The reviewer found that the maximum frame widths included their 8px padding and 1px border on each side, reducing the preview, optional assignment and installation figures by 18 CSS px. Include that overhead in each frame cap in both languages. Intrinsic 2× image sizing still prevents enlargement; the full lavender stage is unchanged. No source PNG was changed. Browser review and build are repeated below before publishing.
+
+The final frame overhead correction passed the production build and security-header verifier. Complete ES/EN browser review at 1280, 390 and 580 CSS px confirmed no overflow or enlargement. On desktop the preview displays at 472 CSS px, optional assignments at 403, and embed at 550 ES / 546 EN, their original logical widths. All twelve source/asset/build hash triples remain unchanged.

@@ -46,7 +46,7 @@ Usa un nombre diferente para cada ubicación cuando necesites comparar resultado
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Formulario de Sitio Web en el catálogo de misiones">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 816px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 834px; width: fit-content; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/captures/capture-overview/desktop-form-es.png 2x" width="800" height="480" />
         <img class="ht-editorial-visual__image" src="/images/captures/forms/es/catalog-desktop-row.png" srcset="/images/captures/forms/es/catalog-desktop-row.png 2x" style="width: auto; margin: 0 auto;" width="1632" height="480" loading="lazy" decoding="async" alt="Formulario de Sitio Web en el catálogo de escritorio, junto a Popup de Sitio Web; en pantallas estrechas se muestra solo la tarjeta del formulario." />
@@ -64,7 +64,7 @@ El editor permite configurar cuatro partes.
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Vista previa de un formulario ficticio con título, teléfono, botón y aviso SMS">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 472px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 490px; width: fit-content; margin: 0 auto;">
       <img class="ht-editorial-visual__image" src="/images/captures/forms/ui-refresh/es/preview.png" srcset="/images/captures/forms/ui-refresh/es/preview.png 2x" width="944" height="780" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Formulario ficticio con encabezado Recibe novedades de Editorial Demo, campo Teléfono, botón Suscribirme y aviso de consentimiento para SMS." />
     </div>
   </div>
@@ -77,7 +77,7 @@ El encabezado contiene el título y el contenido de apoyo que aparecen antes de 
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Configuración del campo Teléfono en el editor de formularios">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 876px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 894px; width: fit-content; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/captures/forms/ui-refresh/es/fields-mobile.png 2x" width="712" height="632" />
         <img class="ht-editorial-visual__image" src="/images/captures/forms/ui-refresh/es/fields.png" srcset="/images/captures/forms/ui-refresh/es/fields.png 2x" width="1752" height="1028" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Panel de un campo Teléfono ficticio con tipo, etiqueta, marcador de posición y control Requerido." />
@@ -111,7 +111,7 @@ Asigna una ruta cuando la nueva persona suscrita deba entrar en un flujo de bien
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Selectores opcionales de cupón y ruta">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 403px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 421px; width: fit-content; margin: 0 auto;">
       <img class="ht-editorial-visual__image" src="/images/captures/forms/ui-refresh/es/optional.png" srcset="/images/captures/forms/ui-refresh/es/optional.png 2x" width="806" height="456" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Paso opcional de un formulario ficticio con selectores de cupón y ruta sin asignar." />
     </div>
   </div>
@@ -139,7 +139,7 @@ El código contiene el identificador que Hellotext utiliza para cargar la defini
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Código HTML generado para integrar el formulario">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 550px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 568px; width: fit-content; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/captures/forms/ui-refresh/es/embed-mobile.png 2x" width="904" height="432" />
         <img class="ht-editorial-visual__image" src="/images/captures/forms/ui-refresh/es/embed.png" srcset="/images/captures/forms/ui-refresh/es/embed.png 2x" width="1100" height="1084" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Tarjeta de integración que muestra el HTML generado para el formulario ficticio." />
