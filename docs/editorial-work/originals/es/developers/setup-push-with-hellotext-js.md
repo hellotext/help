@@ -6,7 +6,7 @@ Usa esta guía para agregar controles de suscripción a notificaciones push a tu
 
 Necesitas:
 
-- Un negocio de Hellotext con un canal Push asociado al origen de tu tienda. Confirma esa configuración con Hellotext si usas una tienda personalizada; publicar el worker por sí solo no crea el canal. El SDK permite recopilar y administrar suscripciones en cualquier plan cuando el canal está configurado. **Enviar notificaciones requiere Pro o Enterprise**; completar la suscripción no habilita la entrega ni cambia el plan.
+- Un plan **Pro o Enterprise** con Push disponible para tu negocio. Si tienes una tienda personalizada, confirma con Hellotext que Push esté habilitado antes de probarlo; publicar el worker por sí solo no completa la configuración del negocio.
 - Acceso al código y al alojamiento de tu tienda, con la posibilidad de publicar un archivo JavaScript en el dominio HTTPS de la tienda.
 - Hellotext.js instalado y el Business ID público de tu negocio. Si todavía no lo instalaste, sigue [Integra una tienda propia con Hellotext]({% link _developers/custom-store-integration.md %}).
 - Un navegador compatible con Web Push. Consulta [Soluciona problemas con las notificaciones push]({% link _troubleshooting-deliverability/troubleshoot-push-notifications.md %}) para conocer los requisitos del dispositivo y las diferencias entre navegadores.
@@ -68,7 +68,7 @@ self.addEventListener('notificationclick', event => {
   let url
 
   try {
-    url = new URL(data.actions?.[event.action] || data.url || '/', self.location.origin)
+    url = new URL(data.url || '/', self.location.origin)
   } catch (error) {
     return
   }
@@ -85,7 +85,7 @@ self.addEventListener('notificationclick', event => {
 })
 ```
 
-El worker muestra una notificación y abre su destino al hacer clic. Si el visitante selecciona un botón de acción, usa el destino de esa acción cuando exista en `data.actions`; en otro caso, usa `data.url`. Conserva el manejador de `install`: permite que una versión actualizada se active mientras los visitantes tienen la tienda abierta, en lugar de esperar a que cierren todas las pestañas. Consulta [cómo funciona `skipWaiting()`](https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerGlobalScope/skipWaiting) para más detalles.
+El worker muestra una notificación y abre su destino al hacer clic. Conserva el manejador de `install`: permite que una versión actualizada se active mientras los visitantes tienen la tienda abierta, en lugar de esperar a que cierren todas las pestañas. Consulta [cómo funciona `skipWaiting()`](https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerGlobalScope/skipWaiting) para más detalles.
 
 ### Revisa la URL publicada
 
@@ -102,7 +102,7 @@ Publicar el archivo en la raíz pública, como en el ejemplo, le da un alcance p
 
 Agrega estos manejadores al worker que ya mantienes y usa la URL de ese archivo en el paso 2. Conserva su comportamiento de caché y las demás funciones existentes.
 
-Coloca el manejador de `push` de Hellotext **antes de cualquier manejador genérico de push**, incluso antes del código que importe uno. Su llamada a `event.stopImmediatePropagation()` se aplica solo a los mensajes de Hellotext e impide que un manejador genérico posterior vuelva a mostrar la misma notificación. Incluye los manejadores de Hellotext una sola vez en el archivo final del worker. No registres un segundo worker con el mismo alcance para reemplazar un worker de otra herramienta: integra los manejadores y comprueba que ambos usos sean compatibles. Una suscripción de Push existente con la clave de otra aplicación no se reutiliza como si fuera de Hellotext.
+Coloca el manejador de `push` de Hellotext **antes de cualquier manejador genérico de push**, incluso antes del código que importe uno. Su llamada a `event.stopImmediatePropagation()` se aplica solo a los mensajes de Hellotext e impide que un manejador genérico posterior vuelva a mostrar la misma notificación. Incluye los manejadores de Hellotext una sola vez en el archivo final del worker.
 
 ## 2. Pasa la URL del worker al inicializar Hellotext
 
@@ -118,21 +118,9 @@ await Hellotext.initialize('BUSINESS_ID', {
 })
 ```
 
-Reemplaza `BUSINESS_ID` por el identificador que aparece como **ID del negocio** en **Configuración**. Usa el de tu negocio; el de la figura pertenece solo a la demostración local y no es un token privado. Reemplaza la URL del worker por la del archivo que publicaste. También puedes usar una URL absoluta si pertenece al mismo origen que la página.
+Reemplaza `BUSINESS_ID` por el Business ID público de tu negocio en Hellotext y la URL del worker por la del archivo que publicaste. También puedes usar una URL absoluta si pertenece al mismo origen que la página.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Configuración del negocio ficticio Enterprise con ID del negocio 4ONLdN32 y Editar negocio.">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="width: fit-content; max-width: 886px; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 470px)" srcset="/images/developers/custom-store-integration/business-es-mobile.png 2x" width="748" height="524" />
-        <img src="/images/developers/custom-store-integration/business-es.png" srcset="/images/developers/custom-store-integration/business-es.png 2x" style="width: auto; margin: 0 auto;" width="1736" height="404" loading="lazy" decoding="async" alt="Configuración del negocio ficticio Enterprise con ID del negocio 4ONLdN32 y Editar negocio." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Interfaz real de una base local aislada. El ID público pertenece solo al negocio ficticio; no es un token privado ni un ejemplo de precio Enterprise.</figcaption>
-</figure>
-
-Los fragmentos con `await` deben ejecutarse en un módulo JavaScript o dentro de una función `async`, después de cargar Hellotext.js. Usa un único flujo: espera la inicialización y conecta los manejadores de los pasos 3 y 4 cuando los elementos ya existan en la página. La Promise de `initialize()` no confirma por sí sola que el worker esté activo o que una suscripción se haya registrado: Push prepara el worker en segundo plano y `subscribe()` espera esa preparación antes de registrar la suscripción. Si Shopify o VTEX se encarga de la inicialización, usa la instancia de Hellotext que ya inicializó la integración.
+Ejecuta la configuración de los botones de los próximos pasos después de que termine la inicialización y cuando los elementos ya existan en la página. Si Shopify o VTEX se encarga de la inicialización, usa la instancia de Hellotext que ya inicializó la integración.
 
 Si tu tienda ya registra y activa el worker para la página actual, puedes omitir `serviceWorkerUrl`. En ese caso, el código de registro que ya tienes es responsable de actualizar y activar el worker.
 
@@ -161,32 +149,23 @@ unsubscribeButton.disabled = !Hellotext.push
 subscribeButton.addEventListener('click', async () => {
   if (!Hellotext.push) return
 
-  subscribeButton.disabled = true
-  unsubscribeButton.disabled = true
-  pushStatus.textContent = 'Completando la suscripción…'
-
   try {
     const response = await Hellotext.push.subscribe()
 
     if (response?.succeeded) {
       pushStatus.textContent = 'Te suscribiste a las notificaciones.'
-    } else {
-      pushStatus.textContent = 'No pudimos confirmar la suscripción. Revisa los permisos e inténtalo de nuevo.'
+    } else if (response?.failed) {
+      pushStatus.textContent = 'No pudimos completar la suscripción. Inténtalo de nuevo.'
     }
   } catch (error) {
     pushStatus.textContent = 'La suscripción no se completó. Revisa los permisos de notificaciones e inténtalo de nuevo.'
-  } finally {
-    subscribeButton.disabled = !Hellotext.push
-    unsubscribeButton.disabled = !Hellotext.push
   }
 })
 ```
 
 Llama a `Hellotext.push.subscribe()` directamente desde el manejador del clic. No esperes a que termine otra operación asíncrona antes de llamarlo; el navegador puede necesitar el clic del visitante para mostrar la solicitud de permiso. El método también funciona cuando el permiso ya está concedido y reutiliza una suscripción existente de Hellotext cuando la hay.
 
-Muestra la confirmación de suscripción solo cuando `response.succeeded` sea verdadero. La presencia de `Hellotext.push`, el permiso concedido en el navegador o una suscripción del navegador por sí solos no confirman que el registro en Hellotext haya sido exitoso. Si el método no devuelve una respuesta, no muestres un mensaje de éxito. Los dos botones permanecen deshabilitados durante la operación para evitar acciones de suscripción y cancelación simultáneas. Una respuesta fallida puede dejar una suscripción del navegador pendiente de sincronizar; el SDK puede reintentar el registro en segundo plano. No deduzcas que no existe una suscripción solo por ver un error.
-
-Si el visitante bloqueó las notificaciones, el navegador normalmente no vuelve a mostrar la solicitud al pulsar otra vez el botón: debe revisar los permisos del sitio. No solicites permiso al cargar la página.
+Muestra la confirmación de suscripción solo cuando `response.succeeded` sea verdadero. La presencia de `Hellotext.push`, el permiso concedido en el navegador o una suscripción del navegador por sí solos no confirman que el registro en Hellotext haya sido exitoso. Si el método no devuelve una respuesta, no muestres un mensaje de éxito.
 
 Cuando `Hellotext.push` no esté disponible, mantén los controles deshabilitados u ocúltalos. Puede no estar disponible porque el navegador no lo admite, la página lo desactiva o falta la configuración necesaria.
 
@@ -198,28 +177,21 @@ Agrega este manejador junto al de suscripción. Usa los mismos elementos de bot�
 unsubscribeButton.addEventListener('click', async () => {
   if (!Hellotext.push) return
 
-  subscribeButton.disabled = true
-  unsubscribeButton.disabled = true
-  pushStatus.textContent = 'Cancelando la suscripción…'
-
   try {
     const response = await Hellotext.push.unsubscribe()
 
     if (response === null || response?.succeeded) {
       pushStatus.textContent = 'La suscripción a las notificaciones está cancelada.'
-    } else {
-      pushStatus.textContent = 'No pudimos confirmar la cancelación. Inténtalo de nuevo.'
+    } else if (response?.failed) {
+      pushStatus.textContent = 'No pudimos cancelar la suscripción. Inténtalo de nuevo.'
     }
   } catch (error) {
     pushStatus.textContent = 'No pudimos cancelar la suscripción. Inténtalo de nuevo.'
-  } finally {
-    subscribeButton.disabled = !Hellotext.push
-    unsubscribeButton.disabled = !Hellotext.push
   }
 })
 ```
 
-Un resultado `null` significa que no había una suscripción para eliminar, por lo que puedes confirmar que ya estaba cancelada. Ante una respuesta fallida o una solicitud rechazada, deja la acción disponible para volver a intentarlo. La ausencia de una respuesta no equivale a un resultado exitoso. El SDK primero deshabilita el registro en Hellotext y después elimina la suscripción del navegador; si la solicitud a Hellotext falla, conserva la suscripción para que puedas reintentar. Cancelar la suscripción no desinstala el worker compartido.
+Un resultado `null` significa que no había una suscripción para eliminar, por lo que puedes confirmar que ya estaba cancelada. Ante una respuesta fallida o una solicitud rechazada, deja la acción disponible para volver a intentarlo. La ausencia de una respuesta no equivale a un resultado exitoso.
 
 La cancelación se aplica a la suscripción del navegador actual. No revoca el permiso que el navegador concedió al sitio ni elimina las suscripciones de otros navegadores o dispositivos del visitante.
 
@@ -228,7 +200,7 @@ La cancelación se aplica a la suscripción del navegador actual. No revoca el p
 1. Abre tu tienda publicada en un navegador compatible.
 2. Selecciona **Suscribirme a las notificaciones** y completa la solicitud del navegador si aparece.
 3. Confirma que la página muestra el mensaje de éxito correspondiente a `response.succeeded`.
-4. Recarga la página y confirma que la inicialización no muestra errores del worker. El SDK intenta recuperar y sincronizar las suscripciones existentes de Hellotext. La recarga o `Hellotext.push.subscribed` por sí solos no prueban que la última sincronización haya tenido éxito.
+4. Recarga la página y confirma que la inicialización no muestra errores del worker. Las suscripciones existentes de Hellotext se recuperan automáticamente.
 5. Selecciona **Cancelar la suscripción** y espera la confirmación.
 6. Selecciona **Suscribirme a las notificaciones** de nuevo para verificar que el visitante puede volver a suscribirse.
 

@@ -1,0 +1,88 @@
+{
+  "sections": [
+    {
+      "i": 0,
+      "text": "Before you startLink copied",
+      "top": 952
+    },
+    {
+      "i": 1,
+      "text": "1. Publish the notification service workerLink copied",
+      "top": 1716
+    },
+    {
+      "i": 2,
+      "text": "2. Pass the worker URL when initializing HellotextLink copied",
+      "top": 5240
+    },
+    {
+      "i": 3,
+      "text": "3. Add a Subscribe buttonLink copied",
+      "top": 6823
+    },
+    {
+      "i": 4,
+      "text": "4. Add the Unsubscribe actionLink copied",
+      "top": 8859
+    },
+    {
+      "i": 5,
+      "text": "5. Verify the complete flowLink copied",
+      "top": 10079
+    },
+    {
+      "i": 6,
+      "text": "Disable Push on a particular pageLink copied",
+      "top": 10983
+    },
+    {
+      "i": 7,
+      "text": "Related guidesLink copied",
+      "top": 11443
+    }
+  ],
+  "codes": [
+    {
+      "i": 0,
+      "top": 2172,
+      "text": "self.addEventListener('install', event => {\n  event.waitUntil(self.skipWaiting())\n})\n\nself.addEventListener('push', event => {\n  if (!event.data) return\n\n  let payload\n\n  try {\n    payload = event.data.json()\n  } catch (error) {\n    return\n  }\n\n  if (\n    !payload ||\n    payload.source !== 'hellotext' ||\n    typeof payload.title !== 'string' ||\n    !payload.title\n  ) {\n    return\n  }\n\n  event.stopImmediatePropagation()\n\n  const options = payload.options || {}\n\n  event.waitUntil(\n    self.registration.showNotification(payload.title, {\n      ...options,\n      data: { ...options.data, source: 'hellotext' },\n    }),\n  )\n})\n\nself.addEventListener('notificationclick', event => {\n  const { data } = event.notification\n\n  if (!data || data.source !== 'hellotext') return\n\n  event.notification.close()\n\n  let url\n\n  try {\n    url = new URL(data.actions?.[event.action] || data.url || '/', self.location.origin)\n  } catch (error) {\n    return\n  }\n\n  if (url.protocol !== 'https:' && url.protocol !== 'http:') return\n\n  event.waitUntil(\n    self.clients.matchAll({ type: 'window', includeUncontrolled: true }).then(clients => {\n      const client = clients.find(windowClient => windowClient.url === url.href)\n\n      return client ? client.focus() : self.clients.openWindow(url.href)\n    }),\n  )\n})\n",
+      "width": 358,
+      "scrollWidth": 790
+    },
+    {
+      "i": 1,
+      "top": 5516,
+      "text": "await Hellotext.initialize('BUSINESS_ID', {\n  push: {\n    serviceWorkerUrl: '/hellotext-sw.js',\n  },\n})\n",
+      "width": 358,
+      "scrollWidth": 398
+    },
+    {
+      "i": 2,
+      "top": 6975,
+      "text": "<button id=\"push-subscribe\" type=\"button\" disabled>Subscribe to notifications</button>\n<button id=\"push-unsubscribe\" type=\"button\" disabled>Unsubscribe from notifications</button>\n<p id=\"push-status\" role=\"status\"></p>\n",
+      "width": 358,
+      "scrollWidth": 807
+    },
+    {
+      "i": 3,
+      "top": 7207,
+      "text": "const subscribeButton = document.querySelector('#push-subscribe')\nconst unsubscribeButton = document.querySelector('#push-unsubscribe')\nconst pushStatus = document.querySelector('#push-status')\n\nsubscribeButton.disabled = !Hellotext.push\nunsubscribeButton.disabled = !Hellotext.push\n\nsubscribeButton.addEventListener('click', async () => {\n  if (!Hellotext.push) return\n\n  subscribeButton.disabled = true\n  unsubscribeButton.disabled = true\n  pushStatus.textContent = 'Completing subscription…'\n\n  try {\n    const response = await Hellotext.push.subscribe()\n\n    if (response?.succeeded) {\n      pushStatus.textContent = 'You are subscribed to notifications.'\n    } else {\n      pushStatus.textContent = 'We could not confirm your subscription. Check permissions and try again.'\n    }\n  } catch (error) {\n    pushStatus.textContent = 'Subscription was not completed. Check notification permissions and try again.'\n  } finally {\n    subscribeButton.disabled = !Hellotext.push\n    unsubscribeButton.disabled = !Hellotext.push\n  }\n})\n",
+      "width": 358,
+      "scrollWidth": 940
+    },
+    {
+      "i": 4,
+      "top": 9035,
+      "text": "unsubscribeButton.addEventListener('click', async () => {\n  if (!Hellotext.push) return\n\n  subscribeButton.disabled = true\n  unsubscribeButton.disabled = true\n  pushStatus.textContent = 'Unsubscribing…'\n\n  try {\n    const response = await Hellotext.push.unsubscribe()\n\n    if (response === null || response?.succeeded) {\n      pushStatus.textContent = 'You are unsubscribed from notifications.'\n    } else {\n      pushStatus.textContent = 'We could not confirm unsubscription. Please try again.'\n    }\n  } catch (error) {\n    pushStatus.textContent = 'We could not unsubscribe you. Please try again.'\n  } finally {\n    subscribeButton.disabled = !Hellotext.push\n    unsubscribeButton.disabled = !Hellotext.push\n  }\n})\n",
+      "width": 358,
+      "scrollWidth": 765
+    },
+    {
+      "i": 5,
+      "top": 11135,
+      "text": "await Hellotext.initialize('BUSINESS_ID', { push: false })\n",
+      "width": 358,
+      "scrollWidth": 523
+    }
+  ]
+}

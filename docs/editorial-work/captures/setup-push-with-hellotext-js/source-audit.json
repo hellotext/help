@@ -1,0 +1,92 @@
+{
+  "date": "2026-09-30",
+  "rails_revision": "5403a7dcb567b63cae87d4c088112d65fad4eb7f",
+  "rails_files": [
+    {
+      "path": "app/controllers/api/v1/public/push/identities_controller.rb",
+      "sha256": "3d7c0b771fcb2b9ac7038543bb634586964b42be3d70ddbd6e5cdcc589246a57"
+    },
+    {
+      "path": "app/serializers/api/v1/public/business_serializer.rb",
+      "sha256": "bf00c8665105e0ab77967b784ce585eaa050fac6e857b00f5a9c393b71920fbc"
+    },
+    {
+      "path": "app/models/push/channel.rb",
+      "sha256": "eb0be0d8a521785d9fcb43e8481c8a3fe7e7ec0258e09e26dd985374997df866"
+    },
+    {
+      "path": "app/models/push/identity.rb",
+      "sha256": "37b3102f21169a35baf9733540269044a092bc9904e16a297a6a200d31e18e75"
+    },
+    {
+      "path": "app/policies/push/channel_policy.rb",
+      "sha256": "f37dd77db0d19c05ffa61784854b667c248581b7f67aba3a7a03c2c52b92649a"
+    },
+    {
+      "path": "public/push/service-worker.js",
+      "sha256": "c19997400b4bfe7ca41eb9d52d3f3bcad5aefbd17a31d29d55b62f0e028148ed"
+    }
+  ],
+  "sdk": {
+    "published_version": "2.6.0",
+    "npm_url": "https://registry.npmjs.org/@hellotext/hellotext/latest",
+    "tarball_url": "https://registry.npmjs.org/@hellotext/hellotext/-/hellotext-2.6.0.tgz",
+    "tarball_integrity_verified": true,
+    "tarball_sha256": "de0125ba4e8e920ec9f57a9d1fe4a8dd794ebd581030c11a5d37ffc55da859d4",
+    "cdn_url": "https://unpkg.com/@hellotext/hellotext@2.6.0/dist/hellotext.js",
+    "cdn_package_bytes_match": true,
+    "cdn_sha256": "0b0226a25c43002a9da506c80de12b576b0c0fd074a16e6d4f465a7748c26331",
+    "files": [
+      {
+        "path": "src/models/push.js",
+        "sha256": "c2a6b3e039f3da5c918aba27c699e5477cf26be7ea55d9fcee5bba1c34fc9825"
+      },
+      {
+        "path": "src/hellotext.js",
+        "sha256": "76eafba301b960171dc358e7ccf6423618882c7d3f4dbcf2f63c1287d5fc24dc"
+      },
+      {
+        "path": "src/api/push/identities.js",
+        "sha256": "5d5b1f1a2df28803a2a29c8c29b38c00052a232b4c98afa5c2abd3b60f6d43a5"
+      },
+      {
+        "path": "src/api/response.js",
+        "sha256": "fb91e76f6a0e8538931a70cd59d608906a9ba9c5a2aaaef04dd5637bde201aa0"
+      },
+      {
+        "path": "src/core/configuration/push.js",
+        "sha256": "f45f11285ddaf664ee6d081155f3ad212ea5134e425509b13f16b2ca23990497"
+      }
+    ]
+  },
+  "primary_web_sources": [
+    {
+      "url": "https://github.com/hellotext/hellotext.js/blob/main/docs/push.md",
+      "raw_sha256": "2b462f6a5e7c5f4c8663517a571c77a1d65ab586ec86c657addaf6bd241ea686",
+      "scope": "Current subscription collection versus sending eligibility, worker/button contracts"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerContainer/register",
+      "scope": "HTTPS, origin, MIME, default scope and existing registration"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerGlobalScope/skipWaiting",
+      "scope": "Updated worker activation"
+    }
+  ],
+  "contracts": [
+    "Any-plan collection requires a configured active channel, origin/channel resolution; sending eligibility is separate. New custom channel UI itself is quota-gated, so retain support setup prerequisite rather than promising any-plan creation.",
+    "Public Business ID, never private API token; SDK public configuration provides VAPID key.",
+    "initialize resolves before worker readiness; subscribe requests permission in click before await and waits registration/activation; readiness wait has bounded timeout.",
+    "Workers must preserve existing handlers, same origin and scope; foreign application key is rejected.",
+    "Subscription browser ownership versus server Response.succeeded; failure can leave browser subscription for background sync.",
+    "Unsubscribe null versus succeeded/failed/undefined; disable identity first, remove browser subscription second; no removal when server response fails.",
+    "Current page false does not revoke permission/unsubscribe other devices; subscribed is local truthiness, not latest server acknowledgement.",
+    "Current Rails worker supports data.actions[event.action] fallback data.url; source guard, skipWaiting, generic-handler ordering retained."
+  ],
+  "executed_examples": false,
+  "api_calls": 0,
+  "database_access": false,
+  "application_ui_access": false,
+  "new_captures": 0
+}
