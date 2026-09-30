@@ -1,6 +1,6 @@
 {
   "article_key": "developers/coupons-with-api.md",
-  "status": "local_verified",
+  "status": "public_verified",
   "prepared_at_utc": "2026-09-30T06:28:41.711191+00:00",
   "base_main_sha": "26fbbc71acda8a7d2964c7233c249ef95c33998d",
   "rails_ui_revision": "e6ae33a310d46ba88d9bf5b70845618a0b4a6461",
@@ -41,7 +41,8 @@
       },
       "published_asset": "images/captures/shareable-link/follow-up-refresh/assignment-es.png",
       "approved_capture_record": "docs/editorial-work/captures/shareable-link/follow-up-refresh/capture-provenance.json",
-      "use": "Real fictional coupon selection in a disabled Shareable Link; not evidence that the API example ran or that checkout redeemed it."
+      "use": "Real fictional coupon selection in a disabled Shareable Link; not evidence that the API example ran or that checkout redeemed it.",
+      "publication_status": "Approved current Shareable Link source reused in coupon API guide; public URL/hash verified in public-verification.json."
     },
     {
       "name": "assignment-es-mobile",
@@ -77,7 +78,8 @@
       },
       "published_asset": "images/captures/shareable-link/follow-up-refresh/assignment-es-mobile.png",
       "approved_capture_record": "docs/editorial-work/captures/shareable-link/follow-up-refresh/capture-provenance.json",
-      "use": "Real fictional coupon selection in a disabled Shareable Link; not evidence that the API example ran or that checkout redeemed it."
+      "use": "Real fictional coupon selection in a disabled Shareable Link; not evidence that the API example ran or that checkout redeemed it.",
+      "publication_status": "Approved current Shareable Link source reused in coupon API guide; public URL/hash verified in public-verification.json."
     },
     {
       "name": "assignment-en",
@@ -113,7 +115,8 @@
       },
       "published_asset": "images/captures/shareable-link/follow-up-refresh/assignment-en.png",
       "approved_capture_record": "docs/editorial-work/captures/shareable-link/follow-up-refresh/capture-provenance.json",
-      "use": "Real fictional coupon selection in a disabled Shareable Link; not evidence that the API example ran or that checkout redeemed it."
+      "use": "Real fictional coupon selection in a disabled Shareable Link; not evidence that the API example ran or that checkout redeemed it.",
+      "publication_status": "Approved current Shareable Link source reused in coupon API guide; public URL/hash verified in public-verification.json."
     },
     {
       "name": "assignment-en-mobile",
@@ -149,7 +152,8 @@
       },
       "published_asset": "images/captures/shareable-link/follow-up-refresh/assignment-en-mobile.png",
       "approved_capture_record": "docs/editorial-work/captures/shareable-link/follow-up-refresh/capture-provenance.json",
-      "use": "Real fictional coupon selection in a disabled Shareable Link; not evidence that the API example ran or that checkout redeemed it."
+      "use": "Real fictional coupon selection in a disabled Shareable Link; not evidence that the API example ran or that checkout redeemed it.",
+      "publication_status": "Approved current Shareable Link source reused in coupon API guide; public URL/hash verified in public-verification.json."
     }
   ],
   "new_png_uploads": 0,
@@ -181,5 +185,11 @@
       "snapshot": "docs/editorial-work/originals/coupons-api/stub.md",
       "sha256": "aaa2e49339db30cc7f6d72478d9c625fab888a496c42c2678b2e663a4750165e"
     }
-  ]
+  ],
+  "public_verification": {
+    "state": "public_verified",
+    "pull_request": 265,
+    "merge_sha": "9b520edb8ee8e173cce807bbcbb5a55a4459e712",
+    "evidence": "public-verification.json"
+  }
 }
