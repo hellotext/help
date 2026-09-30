@@ -344,7 +344,7 @@ await Hellotext.track('order.placed', {
 
 Browser events are appropriate for browsing and cart behavior. Whenever possible, record trusted purchase and fulfillment milestones from the backend so customers cannot fabricate orders by calling browser code. Do not send the same order event from both the browser and the backend.
 
-See [Tracking events]({% link _developers/tracking-events.md %}) for the page-view tracking and verification flow and [product events](https://www.hellotext.com/api#track_product_events), [cart events](https://www.hellotext.com/api#track_cart_events), and [order events](https://www.hellotext.com/api#track_order_events) for every supported action and parameter.
+Version 2.6.0 requires the explicit `page.viewed` call shown above, although [Tracking events]({% link _developers/tracking-events.md %}) retains an automatic-tracking description. Use steps 6 and 7 of this guide to implement page views. See [product events](https://www.hellotext.com/api#track_product_events), [cart events](https://www.hellotext.com/api#track_cart_events), and [order events](https://www.hellotext.com/api#track_order_events) for every supported action and parameter.
 
 ## 8. Connect anonymous activity to the customer
 
