@@ -1,0 +1,1060 @@
+{
+  "verified_at_utc": "2026-09-30T11:25:38.232340+00:00",
+  "build_and_integrity": {
+    "production_build": "PATH with rbenv shims; RBENV_VERSION=3.3.6 yarn build passed including security headers",
+    "integrity": {
+      "es": {
+        "sections": 9,
+        "original_headings_preserved": true,
+        "original_link_targets_preserved": true,
+        "figures": 2,
+        "code_examples": 9,
+        "example": "Placeholder curl/JSON and async SDK samples checked only for syntax; no API/SDK execution"
+      },
+      "en": {
+        "sections": 9,
+        "original_headings_preserved": true,
+        "original_link_targets_preserved": true,
+        "figures": 2,
+        "code_examples": 9,
+        "example": "Placeholder curl/JSON and async SDK samples checked only for syntax; no API/SDK execution"
+      }
+    },
+    "stub_titles_slugs_publication_state_preserved": true,
+    "docs_excluded": true,
+    "diff_check": "passed",
+    "evidence_publication_state": "not_yet_deployed"
+  },
+  "assets": [
+    {
+      "asset": "images/developers/custom-store-integration/token-es.png",
+      "sha256": "1aee0b74d12bed3eb995c7211316047bd59158a92f2c491dfc4a01287c5fb953",
+      "source_asset_root_build_es_build_equal": true,
+      "metadata": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/developers/custom-store-integration/token-es.png\n  format: png\n  pixelWidth: 1080\n  pixelHeight: 524\n  profile: Display P3 Gamut with sRGB Transfer",
+      "logical_size": [
+        540.0,
+        262.0
+      ],
+      "density": 2
+    },
+    {
+      "asset": "images/developers/custom-store-integration/token-es-mobile.png",
+      "sha256": "ab734e406f700b90cd37365b7a1d084cedb9e8adda7bca8757182d471e6d355a",
+      "source_asset_root_build_es_build_equal": true,
+      "metadata": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/developers/custom-store-integration/token-es-mobile.png\n  format: png\n  pixelWidth: 748\n  pixelHeight: 480\n  profile: Display P3 Gamut with sRGB Transfer",
+      "logical_size": [
+        374.0,
+        240.0
+      ],
+      "density": 2
+    },
+    {
+      "asset": "images/developers/custom-store-integration/token-en.png",
+      "sha256": "ca4b35ca243e0e6db3c52219e00162ef2c708efd61d7265dc25f599907c97bd6",
+      "source_asset_root_build_es_build_equal": true,
+      "metadata": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/developers/custom-store-integration/token-en.png\n  format: png\n  pixelWidth: 1080\n  pixelHeight: 524\n  profile: Display P3 Gamut with sRGB Transfer",
+      "logical_size": [
+        540.0,
+        262.0
+      ],
+      "density": 2
+    },
+    {
+      "asset": "images/developers/custom-store-integration/token-en-mobile.png",
+      "sha256": "716908e63c1f6e914b3dc8d7456e224c02fe69b24797477dded04096b9ec7652",
+      "source_asset_root_build_es_build_equal": true,
+      "metadata": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/developers/custom-store-integration/token-en-mobile.png\n  format: png\n  pixelWidth: 748\n  pixelHeight: 480\n  profile: Display P3 Gamut with sRGB Transfer",
+      "logical_size": [
+        374.0,
+        240.0
+      ],
+      "density": 2
+    },
+    {
+      "asset": "images/developers/custom-actions/catalog-es.png",
+      "sha256": "a12712f6c78adc83c29a0c497ccb3a061449789f26a7d5cbaf6fdab127612389",
+      "source_asset_root_build_es_build_equal": true,
+      "metadata": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/developers/custom-actions/catalog-es.png\n  format: png\n  pixelWidth: 1752\n  pixelHeight: 838\n  profile: Display P3 Gamut with sRGB Transfer",
+      "logical_size": [
+        876.0,
+        419.0
+      ],
+      "density": 2
+    },
+    {
+      "asset": "images/developers/custom-actions/catalog-es-mobile.png",
+      "sha256": "fab59f9490d84ad14feb17be6a5701ba29c39161fdc7bd5fbd391a2a16651d76",
+      "source_asset_root_build_es_build_equal": true,
+      "metadata": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/developers/custom-actions/catalog-es-mobile.png\n  format: png\n  pixelWidth: 764\n  pixelHeight: 346\n  profile: Display P3 Gamut with sRGB Transfer",
+      "logical_size": [
+        382.0,
+        173.0
+      ],
+      "density": 2
+    },
+    {
+      "asset": "images/developers/custom-actions/catalog-en.png",
+      "sha256": "6fdbbbe59759abe2be46c35406174c9dae62c52dcdb56d65f5875e003e278bef",
+      "source_asset_root_build_es_build_equal": true,
+      "metadata": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/developers/custom-actions/catalog-en.png\n  format: png\n  pixelWidth: 1752\n  pixelHeight: 838\n  profile: Display P3 Gamut with sRGB Transfer",
+      "logical_size": [
+        876.0,
+        419.0
+      ],
+      "density": 2
+    },
+    {
+      "asset": "images/developers/custom-actions/catalog-en-mobile.png",
+      "sha256": "9f1460df43463d2eef8bbd04d6c550782d05bd4129eb7f9bf0faa5f553588561",
+      "source_asset_root_build_es_build_equal": true,
+      "metadata": "/Users/pel/.codex/worktrees/campaign-reporting-visuals/hellotext-help/images/developers/custom-actions/catalog-en-mobile.png\n  format: png\n  pixelWidth: 764\n  pixelHeight: 346\n  profile: Display P3 Gamut with sRGB Transfer",
+      "logical_size": [
+        382.0,
+        173.0
+      ],
+      "density": 2
+    }
+  ],
+  "visual_review": {
+    "status": "completed",
+    "route": "Owned isolated headless Chrome CDP127.0.0.1:9452 with profile /private/tmp/hellotext-subscriber-help-review-9452; one local Help preview tab127.0.0.1:4191",
+    "deviceScaleFactor": 2,
+    "color_profile": "display-p3-d65; original review PNGmetadata Display P3 checked",
+    "pages": [
+      {
+        "locale": "es",
+        "device": "desktop",
+        "page": {
+          "url": "http://127.0.0.1:4191/es/seguimiento-externo.html",
+          "lang": "es",
+          "title": "Seguimiento de origen externo | Hellotext",
+          "width": 1440,
+          "figures": [
+            {
+              "i": 0,
+              "top": 1490,
+              "height": 338,
+              "figWidth": 774,
+              "imageWidth": 540,
+              "naturalWidth": 540,
+              "src": "http://127.0.0.1:4191/images/developers/custom-store-integration/token-es.png",
+              "whiteFrameWidth": 558,
+              "frameWidth": 774,
+              "caption": "Interfaz real del formulario de autorizaci\u00f3n, con un nombre ficticio sin guardar. No se cre\u00f3 ni expuso ning\u00fan token privado."
+            },
+            {
+              "i": 1,
+              "top": 6508,
+              "height": 410,
+              "figWidth": 774,
+              "imageWidth": 698.3984375,
+              "naturalWidth": 876,
+              "src": "http://127.0.0.1:4191/images/developers/custom-actions/catalog-es.png",
+              "whiteFrameWidth": 716.4140625,
+              "frameWidth": 774,
+              "caption": "Cat\u00e1logo real de acciones con una definici\u00f3n ficticia sin eventos; el foco m\u00f3vil muestra su fila y Crear nueva acci\u00f3n."
+            }
+          ],
+          "scrollWidth": 1440
+        },
+        "content": {
+          "sections": [
+            {
+              "i": 0,
+              "text": "Antes de comenzarEnlace copiado",
+              "top": 892
+            },
+            {
+              "i": 1,
+              "text": "1. Elige el perfil del cliente o la sesi\u00f3nEnlace copiado",
+              "top": 2056
+            },
+            {
+              "i": 2,
+              "text": "2. Asocia el objeto correctoEnlace copiado",
+              "top": 3850
+            },
+            {
+              "i": 3,
+              "text": "3. Registra el ciclo de los pedidosEnlace copiado",
+              "top": 5008
+            },
+            {
+              "i": 4,
+              "text": "4. Registra acciones personalizadasEnlace copiado",
+              "top": 5918
+            },
+            {
+              "i": 5,
+              "text": "5. Conserva la fecha y los valores monetariosEnlace copiado",
+              "top": 7146
+            },
+            {
+              "i": 6,
+              "text": "6. Interpreta la respuesta y maneja erroresEnlace copiado",
+              "top": 7788
+            },
+            {
+              "i": 7,
+              "text": "7. Evita eventos duplicadosEnlace copiado",
+              "top": 8490
+            },
+            {
+              "i": 8,
+              "text": "Gu\u00edas relacionadasEnlace copiado",
+              "top": 9168
+            }
+          ],
+          "codes": [
+            {
+              "i": 0,
+              "top": 1262,
+              "text": "https://api.hellotext.com/v1/attribution/events\n",
+              "width": 774,
+              "scrollWidth": 774
+            },
+            {
+              "i": 1,
+              "top": 2318,
+              "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"product.viewed\",\n    \"profile\": \"PROFILE_ID\",\n    \"object\": \"PRODUCT_ID\"\n  }'\n",
+              "width": 774,
+              "scrollWidth": 774
+            },
+            {
+              "i": 2,
+              "top": 2882,
+              "text": "async function initializeTracking() {\n  await Hellotext.initialize(\"YOUR_BUSINESS_ID\")\n  const sessionId = Hellotext.session\n  // Env\u00eda sessionId a tu backend en este punto.\n}\n\ninitializeTracking()\n",
+              "width": 774,
+              "scrollWidth": 774
+            },
+            {
+              "i": 3,
+              "top": 3234,
+              "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"product.viewed\",\n    \"session\": \"HELLOTEXT_SESSION_ID\",\n    \"object\": \"PRODUCT_ID\"\n  }'\n",
+              "width": 774,
+              "scrollWidth": 774
+            },
+            {
+              "i": 4,
+              "top": 4176,
+              "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"product.viewed\",\n    \"profile\": \"PROFILE_ID\",\n    \"object_parameters\": {\n      \"name\": \"Championes Everyday\",\n      \"reference\": \"product-100\",\n      \"source\": \"custom_store\",\n      \"url\": \"https://shop.example.com/products/everyday-sneakers\",\n      \"price\": {\n        \"amount\": 89.90,\n        \"currency\": \"USD\"\n      }\n    }\n  }'\n",
+              "width": 774,
+              "scrollWidth": 774
+            },
+            {
+              "i": 5,
+              "top": 5130,
+              "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"order.placed\",\n    \"profile\": \"PROFILE_ID\",\n    \"object\": \"ORDER_ID\",\n    \"amount\": 89.90,\n    \"currency\": \"USD\"\n  }'\n",
+              "width": 774,
+              "scrollWidth": 774
+            },
+            {
+              "i": 6,
+              "top": 6064,
+              "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"appointment.booked\",\n    \"profile\": \"PROFILE_ID\",\n    \"tracked_at\": \"2026-08-07T12:30:00Z\"\n  }'\n",
+              "width": 774,
+              "scrollWidth": 774
+            },
+            {
+              "i": 7,
+              "top": 7444,
+              "text": "{\n  \"amount\": 89.90,\n  \"currency\": \"USD\"\n}\n",
+              "width": 774,
+              "scrollWidth": 774
+            },
+            {
+              "i": 8,
+              "top": 7886,
+              "text": "{\n  \"status\": \"received\"\n}\n",
+              "width": 774,
+              "scrollWidth": 774
+            }
+          ]
+        },
+        "complete_review": "Intro, all original headings and code blocks, both figures, related links and footer inspected in the real built Help page. Code blocks retain their existing internal horizontal scroll without page overflow."
+      },
+      {
+        "locale": "es",
+        "device": "mobile",
+        "page": {
+          "url": "http://127.0.0.1:4191/es/seguimiento-externo.html",
+          "lang": "es",
+          "title": "Seguimiento de origen externo | Hellotext",
+          "width": 390,
+          "figures": [
+            {
+              "i": 0,
+              "top": 1944,
+              "height": 253,
+              "figWidth": 358,
+              "imageWidth": 315.984375,
+              "naturalWidth": 374,
+              "src": "http://127.0.0.1:4191/images/developers/custom-store-integration/token-es-mobile.png",
+              "whiteFrameWidth": 328,
+              "frameWidth": 358,
+              "caption": "Interfaz real del formulario de autorizaci\u00f3n, con un nombre ficticio sin guardar. No se cre\u00f3 ni expuso ning\u00fan token privado."
+            },
+            {
+              "i": 1,
+              "top": 8585,
+              "height": 193,
+              "figWidth": 358,
+              "imageWidth": 315.9921875,
+              "naturalWidth": 382,
+              "src": "http://127.0.0.1:4191/images/developers/custom-actions/catalog-es-mobile.png",
+              "whiteFrameWidth": 328,
+              "frameWidth": 358,
+              "caption": "Cat\u00e1logo real de acciones con una definici\u00f3n ficticia sin eventos; el foco m\u00f3vil muestra su fila y Crear nueva acci\u00f3n."
+            }
+          ],
+          "scrollWidth": 390
+        },
+        "content": {
+          "sections": [
+            {
+              "i": 0,
+              "text": "Antes de comenzarEnlace copiado",
+              "top": 1088
+            },
+            {
+              "i": 1,
+              "text": "1. Elige el perfil del cliente o la sesi\u00f3nEnlace copiado",
+              "top": 2532
+            },
+            {
+              "i": 2,
+              "text": "2. Asocia el objeto correctoEnlace copiado",
+              "top": 4925
+            },
+            {
+              "i": 3,
+              "text": "3. Registra el ciclo de los pedidosEnlace copiado",
+              "top": 6533
+            },
+            {
+              "i": 4,
+              "text": "4. Registra acciones personalizadasEnlace copiado",
+              "top": 7797
+            },
+            {
+              "i": 5,
+              "text": "5. Conserva la fecha y los valores monetariosEnlace copiado",
+              "top": 9114
+            },
+            {
+              "i": 6,
+              "text": "6. Interpreta la respuesta y maneja erroresEnlace copiado",
+              "top": 10086
+            },
+            {
+              "i": 7,
+              "text": "7. Evita eventos duplicadosEnlace copiado",
+              "top": 11118
+            },
+            {
+              "i": 8,
+              "text": "Gu\u00edas relacionadasEnlace copiado",
+              "top": 12246
+            }
+          ],
+          "codes": [
+            {
+              "i": 0,
+              "top": 1644,
+              "text": "https://api.hellotext.com/v1/attribution/events\n",
+              "width": 358,
+              "scrollWidth": 432
+            },
+            {
+              "i": 1,
+              "top": 2898,
+              "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"product.viewed\",\n    \"profile\": \"PROFILE_ID\",\n    \"object\": \"PRODUCT_ID\"\n  }'\n",
+              "width": 358,
+              "scrollWidth": 515
+            },
+            {
+              "i": 2,
+              "top": 3657,
+              "text": "async function initializeTracking() {\n  await Hellotext.initialize(\"YOUR_BUSINESS_ID\")\n  const sessionId = Hellotext.session\n  // Env\u00eda sessionId a tu backend en este punto.\n}\n\ninitializeTracking()\n",
+              "width": 358,
+              "scrollWidth": 440
+            },
+            {
+              "i": 3,
+              "top": 4057,
+              "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"product.viewed\",\n    \"session\": \"HELLOTEXT_SESSION_ID\",\n    \"object\": \"PRODUCT_ID\"\n  }'\n",
+              "width": 358,
+              "scrollWidth": 515
+            },
+            {
+              "i": 4,
+              "top": 5473,
+              "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"product.viewed\",\n    \"profile\": \"PROFILE_ID\",\n    \"object_parameters\": {\n      \"name\": \"Championes Everyday\",\n      \"reference\": \"product-100\",\n      \"source\": \"custom_store\",\n      \"url\": \"https://shop.example.com/products/everyday-sneakers\",\n      \"price\": {\n        \"amount\": 89.90,\n        \"currency\": \"USD\"\n      }\n    }\n  }'\n",
+              "width": 358,
+              "scrollWidth": 598
+            },
+            {
+              "i": 5,
+              "top": 6733,
+              "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"order.placed\",\n    \"profile\": \"PROFILE_ID\",\n    \"object\": \"ORDER_ID\",\n    \"amount\": 89.90,\n    \"currency\": \"USD\"\n  }'\n",
+              "width": 358,
+              "scrollWidth": 515
+            },
+            {
+              "i": 6,
+              "top": 8045,
+              "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"appointment.booked\",\n    \"profile\": \"PROFILE_ID\",\n    \"tracked_at\": \"2026-08-07T12:30:00Z\"\n  }'\n",
+              "width": 358,
+              "scrollWidth": 515
+            },
+            {
+              "i": 7,
+              "top": 9658,
+              "text": "{\n  \"amount\": 89.90,\n  \"currency\": \"USD\"\n}\n",
+              "width": 358,
+              "scrollWidth": 358
+            },
+            {
+              "i": 8,
+              "top": 10214,
+              "text": "{\n  \"status\": \"received\"\n}\n",
+              "width": 358,
+              "scrollWidth": 358
+            }
+          ]
+        },
+        "complete_review": "Intro, all original headings and code blocks, both figures, related links and footer inspected in the real built Help page. Code blocks retain their existing internal horizontal scroll without page overflow."
+      },
+      {
+        "locale": "es",
+        "device": "narrow",
+        "page": {
+          "url": "http://127.0.0.1:4191/es/seguimiento-externo.html",
+          "lang": "es",
+          "title": "Seguimiento de origen externo | Hellotext",
+          "width": 580,
+          "figures": [
+            {
+              "i": 0,
+              "top": 1592,
+              "height": 305,
+              "figWidth": 548,
+              "imageWidth": 471.984375,
+              "naturalWidth": 540,
+              "src": "http://127.0.0.1:4191/images/developers/custom-store-integration/token-es.png",
+              "whiteFrameWidth": 490,
+              "frameWidth": 548,
+              "caption": "Interfaz real del formulario de autorizaci\u00f3n, con un nombre ficticio sin guardar. No se cre\u00f3 ni expuso ning\u00fan token privado."
+            },
+            {
+              "i": 1,
+              "top": 7045,
+              "height": 302,
+              "figWidth": 548,
+              "imageWidth": 471.984375,
+              "naturalWidth": 876,
+              "src": "http://127.0.0.1:4191/images/developers/custom-actions/catalog-es.png",
+              "whiteFrameWidth": 490,
+              "frameWidth": 548,
+              "caption": "Cat\u00e1logo real de acciones con una definici\u00f3n ficticia sin eventos; el foco m\u00f3vil muestra su fila y Crear nueva acci\u00f3n."
+            }
+          ],
+          "scrollWidth": 580
+        },
+        "content": {
+          "sections": [
+            {
+              "i": 0,
+              "text": "Antes de comenzarEnlace copiado",
+              "top": 880
+            },
+            {
+              "i": 1,
+              "text": "1. Elige el perfil del cliente o la sesi\u00f3nEnlace copiado",
+              "top": 2161
+            },
+            {
+              "i": 2,
+              "text": "2. Asocia el objeto correctoEnlace copiado",
+              "top": 4117
+            },
+            {
+              "i": 3,
+              "text": "3. Registra el ciclo de los pedidosEnlace copiado",
+              "top": 5425
+            },
+            {
+              "i": 4,
+              "text": "4. Registra acciones personalizadasEnlace copiado",
+              "top": 6413
+            },
+            {
+              "i": 5,
+              "text": "5. Conserva la fecha y los valores monetariosEnlace copiado",
+              "top": 7611
+            },
+            {
+              "i": 6,
+              "text": "6. Interpreta la respuesta y maneja erroresEnlace copiado",
+              "top": 8391
+            },
+            {
+              "i": 7,
+              "text": "7. Evita eventos duplicadosEnlace copiado",
+              "top": 9207
+            },
+            {
+              "i": 8,
+              "text": "Gu\u00edas relacionadasEnlace copiado",
+              "top": 10011
+            }
+          ],
+          "codes": [
+            {
+              "i": 0,
+              "top": 1340,
+              "text": "https://api.hellotext.com/v1/attribution/events\n",
+              "width": 548,
+              "scrollWidth": 548
+            },
+            {
+              "i": 1,
+              "top": 2411,
+              "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"product.viewed\",\n    \"profile\": \"PROFILE_ID\",\n    \"object\": \"PRODUCT_ID\"\n  }'\n",
+              "width": 548,
+              "scrollWidth": 548
+            },
+            {
+              "i": 2,
+              "top": 3041,
+              "text": "async function initializeTracking() {\n  await Hellotext.initialize(\"YOUR_BUSINESS_ID\")\n  const sessionId = Hellotext.session\n  // Env\u00eda sessionId a tu backend en este punto.\n}\n\ninitializeTracking()\n",
+              "width": 548,
+              "scrollWidth": 548
+            },
+            {
+              "i": 3,
+              "top": 3417,
+              "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"product.viewed\",\n    \"session\": \"HELLOTEXT_SESSION_ID\",\n    \"object\": \"PRODUCT_ID\"\n  }'\n",
+              "width": 548,
+              "scrollWidth": 548
+            },
+            {
+              "i": 4,
+              "top": 4509,
+              "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"product.viewed\",\n    \"profile\": \"PROFILE_ID\",\n    \"object_parameters\": {\n      \"name\": \"Championes Everyday\",\n      \"reference\": \"product-100\",\n      \"source\": \"custom_store\",\n      \"url\": \"https://shop.example.com/products/everyday-sneakers\",\n      \"price\": {\n        \"amount\": 89.90,\n        \"currency\": \"USD\"\n      }\n    }\n  }'\n",
+              "width": 548,
+              "scrollWidth": 598
+            },
+            {
+              "i": 5,
+              "top": 5565,
+              "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"order.placed\",\n    \"profile\": \"PROFILE_ID\",\n    \"object\": \"ORDER_ID\",\n    \"amount\": 89.90,\n    \"currency\": \"USD\"\n  }'\n",
+              "width": 548,
+              "scrollWidth": 548
+            },
+            {
+              "i": 6,
+              "top": 6577,
+              "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"appointment.booked\",\n    \"profile\": \"PROFILE_ID\",\n    \"tracked_at\": \"2026-08-07T12:30:00Z\"\n  }'\n",
+              "width": 548,
+              "scrollWidth": 548
+            },
+            {
+              "i": 7,
+              "top": 8011,
+              "text": "{\n  \"amount\": 89.90,\n  \"currency\": \"USD\"\n}\n",
+              "width": 548,
+              "scrollWidth": 548
+            },
+            {
+              "i": 8,
+              "top": 8519,
+              "text": "{\n  \"status\": \"received\"\n}\n",
+              "width": 548,
+              "scrollWidth": 548
+            }
+          ]
+        },
+        "complete_review": "Intro, all original headings and code blocks, both figures, related links and footer inspected in the real built Help page. Code blocks retain their existing internal horizontal scroll without page overflow."
+      },
+      {
+        "locale": "en",
+        "device": "desktop",
+        "page": {
+          "url": "http://127.0.0.1:4191/external-tracking.html",
+          "lang": "en",
+          "title": "External tracking | Hellotext",
+          "width": 1440,
+          "figures": [
+            {
+              "i": 0,
+              "top": 1490,
+              "height": 338,
+              "figWidth": 774,
+              "imageWidth": 540,
+              "naturalWidth": 540,
+              "src": "http://127.0.0.1:4191/images/developers/custom-store-integration/token-en.png",
+              "whiteFrameWidth": 558,
+              "frameWidth": 774,
+              "caption": "Real authorization form with an unsaved fictional name. No private token was created or exposed."
+            },
+            {
+              "i": 1,
+              "top": 6460,
+              "height": 410,
+              "figWidth": 774,
+              "imageWidth": 698.3984375,
+              "naturalWidth": 876,
+              "src": "http://127.0.0.1:4191/images/developers/custom-actions/catalog-en.png",
+              "whiteFrameWidth": 716.4140625,
+              "frameWidth": 774,
+              "caption": "Real action catalog with a fictional definition without events; the mobile focus shows its row and Create new action."
+            }
+          ],
+          "scrollWidth": 1440
+        },
+        "content": {
+          "sections": [
+            {
+              "i": 0,
+              "text": "Before you startLink copied",
+              "top": 892
+            },
+            {
+              "i": 1,
+              "text": "1. Choose the customer profile or sessionLink copied",
+              "top": 2056
+            },
+            {
+              "i": 2,
+              "text": "2. Associate the correct objectLink copied",
+              "top": 3850
+            },
+            {
+              "i": 3,
+              "text": "3. Track the order lifecycleLink copied",
+              "top": 5008
+            },
+            {
+              "i": 4,
+              "text": "4. Track custom actionsLink copied",
+              "top": 5870
+            },
+            {
+              "i": 5,
+              "text": "5. Preserve timestamps and monetary valuesLink copied",
+              "top": 7098
+            },
+            {
+              "i": 6,
+              "text": "6. Interpret the response and handle errorsLink copied",
+              "top": 7740
+            },
+            {
+              "i": 7,
+              "text": "7. Prevent duplicate eventsLink copied",
+              "top": 8394
+            },
+            {
+              "i": 8,
+              "text": "Related guidesLink copied",
+              "top": 8976
+            }
+          ],
+          "codes": [
+            {
+              "i": 0,
+              "top": 1262,
+              "text": "https://api.hellotext.com/v1/attribution/events\n",
+              "width": 774,
+              "scrollWidth": 774
+            },
+            {
+              "i": 1,
+              "top": 2318,
+              "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"product.viewed\",\n    \"profile\": \"PROFILE_ID\",\n    \"object\": \"PRODUCT_ID\"\n  }'\n",
+              "width": 774,
+              "scrollWidth": 774
+            },
+            {
+              "i": 2,
+              "top": 2882,
+              "text": "async function initializeTracking() {\n  await Hellotext.initialize(\"YOUR_BUSINESS_ID\")\n  const sessionId = Hellotext.session\n  // Send sessionId to your backend here.\n}\n\ninitializeTracking()\n",
+              "width": 774,
+              "scrollWidth": 774
+            },
+            {
+              "i": 3,
+              "top": 3234,
+              "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"product.viewed\",\n    \"session\": \"HELLOTEXT_SESSION_ID\",\n    \"object\": \"PRODUCT_ID\"\n  }'\n",
+              "width": 774,
+              "scrollWidth": 774
+            },
+            {
+              "i": 4,
+              "top": 4176,
+              "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"product.viewed\",\n    \"profile\": \"PROFILE_ID\",\n    \"object_parameters\": {\n      \"name\": \"Everyday Sneakers\",\n      \"reference\": \"product-100\",\n      \"source\": \"custom_store\",\n      \"url\": \"https://shop.example.com/products/everyday-sneakers\",\n      \"price\": {\n        \"amount\": 89.90,\n        \"currency\": \"USD\"\n      }\n    }\n  }'\n",
+              "width": 774,
+              "scrollWidth": 774
+            },
+            {
+              "i": 5,
+              "top": 5130,
+              "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"order.placed\",\n    \"profile\": \"PROFILE_ID\",\n    \"object\": \"ORDER_ID\",\n    \"amount\": 89.90,\n    \"currency\": \"USD\"\n  }'\n",
+              "width": 774,
+              "scrollWidth": 774
+            },
+            {
+              "i": 6,
+              "top": 6016,
+              "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"appointment.booked\",\n    \"profile\": \"PROFILE_ID\",\n    \"tracked_at\": \"2026-08-07T12:30:00Z\"\n  }'\n",
+              "width": 774,
+              "scrollWidth": 774
+            },
+            {
+              "i": 7,
+              "top": 7396,
+              "text": "{\n  \"amount\": 89.90,\n  \"currency\": \"USD\"\n}\n",
+              "width": 774,
+              "scrollWidth": 774
+            },
+            {
+              "i": 8,
+              "top": 7838,
+              "text": "{\n  \"status\": \"received\"\n}\n",
+              "width": 774,
+              "scrollWidth": 774
+            }
+          ]
+        },
+        "complete_review": "Intro, all original headings and code blocks, both figures, related links and footer inspected in the real built Help page. Code blocks retain their existing internal horizontal scroll without page overflow."
+      },
+      {
+        "locale": "en",
+        "device": "mobile",
+        "page": {
+          "url": "http://127.0.0.1:4191/external-tracking.html",
+          "lang": "en",
+          "title": "External tracking | Hellotext",
+          "width": 390,
+          "figures": [
+            {
+              "i": 0,
+              "top": 1837,
+              "height": 253,
+              "figWidth": 358,
+              "imageWidth": 315.984375,
+              "naturalWidth": 374,
+              "src": "http://127.0.0.1:4191/images/developers/custom-store-integration/token-en-mobile.png",
+              "whiteFrameWidth": 328,
+              "frameWidth": 358,
+              "caption": "Real authorization form with an unsaved fictional name. No private token was created or exposed."
+            },
+            {
+              "i": 1,
+              "top": 8190,
+              "height": 193,
+              "figWidth": 358,
+              "imageWidth": 315.9921875,
+              "naturalWidth": 382,
+              "src": "http://127.0.0.1:4191/images/developers/custom-actions/catalog-en-mobile.png",
+              "whiteFrameWidth": 328,
+              "frameWidth": 358,
+              "caption": "Real action catalog with a fictional definition without events; the mobile focus shows its row and Create new action."
+            }
+          ],
+          "scrollWidth": 390
+        },
+        "content": {
+          "sections": [
+            {
+              "i": 0,
+              "text": "Before you startLink copied",
+              "top": 1029
+            },
+            {
+              "i": 1,
+              "text": "1. Choose the customer profile or sessionLink copied",
+              "top": 2402
+            },
+            {
+              "i": 2,
+              "text": "2. Associate the correct objectLink copied",
+              "top": 4722
+            },
+            {
+              "i": 3,
+              "text": "3. Track the order lifecycleLink copied",
+              "top": 6234
+            },
+            {
+              "i": 4,
+              "text": "4. Track custom actionsLink copied",
+              "top": 7450
+            },
+            {
+              "i": 5,
+              "text": "5. Preserve timestamps and monetary valuesLink copied",
+              "top": 8695
+            },
+            {
+              "i": 6,
+              "text": "6. Interpret the response and handle errorsLink copied",
+              "top": 9619
+            },
+            {
+              "i": 7,
+              "text": "7. Prevent duplicate eventsLink copied",
+              "top": 10603
+            },
+            {
+              "i": 8,
+              "text": "Related guidesLink copied",
+              "top": 11635
+            }
+          ],
+          "codes": [
+            {
+              "i": 0,
+              "top": 1537,
+              "text": "https://api.hellotext.com/v1/attribution/events\n",
+              "width": 358,
+              "scrollWidth": 432
+            },
+            {
+              "i": 1,
+              "top": 2768,
+              "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"product.viewed\",\n    \"profile\": \"PROFILE_ID\",\n    \"object\": \"PRODUCT_ID\"\n  }'\n",
+              "width": 358,
+              "scrollWidth": 515
+            },
+            {
+              "i": 2,
+              "top": 3478,
+              "text": "async function initializeTracking() {\n  await Hellotext.initialize(\"YOUR_BUSINESS_ID\")\n  const sessionId = Hellotext.session\n  // Send sessionId to your backend here.\n}\n\ninitializeTracking()\n",
+              "width": 358,
+              "scrollWidth": 440
+            },
+            {
+              "i": 3,
+              "top": 3878,
+              "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"product.viewed\",\n    \"session\": \"HELLOTEXT_SESSION_ID\",\n    \"object\": \"PRODUCT_ID\"\n  }'\n",
+              "width": 358,
+              "scrollWidth": 515
+            },
+            {
+              "i": 4,
+              "top": 5198,
+              "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"product.viewed\",\n    \"profile\": \"PROFILE_ID\",\n    \"object_parameters\": {\n      \"name\": \"Everyday Sneakers\",\n      \"reference\": \"product-100\",\n      \"source\": \"custom_store\",\n      \"url\": \"https://shop.example.com/products/everyday-sneakers\",\n      \"price\": {\n        \"amount\": 89.90,\n        \"currency\": \"USD\"\n      }\n    }\n  }'\n",
+              "width": 358,
+              "scrollWidth": 598
+            },
+            {
+              "i": 5,
+              "top": 6434,
+              "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"order.placed\",\n    \"profile\": \"PROFILE_ID\",\n    \"object\": \"ORDER_ID\",\n    \"amount\": 89.90,\n    \"currency\": \"USD\"\n  }'\n",
+              "width": 358,
+              "scrollWidth": 515
+            },
+            {
+              "i": 6,
+              "top": 7674,
+              "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"appointment.booked\",\n    \"profile\": \"PROFILE_ID\",\n    \"tracked_at\": \"2026-08-07T12:30:00Z\"\n  }'\n",
+              "width": 358,
+              "scrollWidth": 515
+            },
+            {
+              "i": 7,
+              "top": 9215,
+              "text": "{\n  \"amount\": 89.90,\n  \"currency\": \"USD\"\n}\n",
+              "width": 358,
+              "scrollWidth": 358
+            },
+            {
+              "i": 8,
+              "top": 9747,
+              "text": "{\n  \"status\": \"received\"\n}\n",
+              "width": 358,
+              "scrollWidth": 358
+            }
+          ]
+        },
+        "complete_review": "Intro, all original headings and code blocks, both figures, related links and footer inspected in the real built Help page. Code blocks retain their existing internal horizontal scroll without page overflow."
+      },
+      {
+        "locale": "en",
+        "device": "narrow",
+        "page": {
+          "url": "http://127.0.0.1:4191/external-tracking.html",
+          "lang": "en",
+          "title": "External tracking | Hellotext",
+          "width": 580,
+          "figures": [
+            {
+              "i": 0,
+              "top": 1488,
+              "height": 305,
+              "figWidth": 548,
+              "imageWidth": 471.984375,
+              "naturalWidth": 540,
+              "src": "http://127.0.0.1:4191/images/developers/custom-store-integration/token-en.png",
+              "whiteFrameWidth": 490,
+              "frameWidth": 548,
+              "caption": "Real authorization form with an unsaved fictional name. No private token was created or exposed."
+            },
+            {
+              "i": 1,
+              "top": 6809,
+              "height": 302,
+              "figWidth": 548,
+              "imageWidth": 471.984375,
+              "naturalWidth": 876,
+              "src": "http://127.0.0.1:4191/images/developers/custom-actions/catalog-en.png",
+              "whiteFrameWidth": 490,
+              "frameWidth": 548,
+              "caption": "Real action catalog with a fictional definition without events; the mobile focus shows its row and Create new action."
+            }
+          ],
+          "scrollWidth": 580
+        },
+        "content": {
+          "sections": [
+            {
+              "i": 0,
+              "text": "Before you startLink copied",
+              "top": 824
+            },
+            {
+              "i": 1,
+              "text": "1. Choose the customer profile or sessionLink copied",
+              "top": 2057
+            },
+            {
+              "i": 2,
+              "text": "2. Associate the correct objectLink copied",
+              "top": 4025
+            },
+            {
+              "i": 3,
+              "text": "3. Track the order lifecycleLink copied",
+              "top": 5285
+            },
+            {
+              "i": 4,
+              "text": "4. Track custom actionsLink copied",
+              "top": 6201
+            },
+            {
+              "i": 5,
+              "text": "5. Preserve timestamps and monetary valuesLink copied",
+              "top": 7351
+            },
+            {
+              "i": 6,
+              "text": "6. Interpret the response and handle errorsLink copied",
+              "top": 8107
+            },
+            {
+              "i": 7,
+              "text": "7. Prevent duplicate eventsLink copied",
+              "top": 8875
+            },
+            {
+              "i": 8,
+              "text": "Related guidesLink copied",
+              "top": 9631
+            }
+          ],
+          "codes": [
+            {
+              "i": 0,
+              "top": 1236,
+              "text": "https://api.hellotext.com/v1/attribution/events\n",
+              "width": 548,
+              "scrollWidth": 548
+            },
+            {
+              "i": 1,
+              "top": 2343,
+              "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"product.viewed\",\n    \"profile\": \"PROFILE_ID\",\n    \"object\": \"PRODUCT_ID\"\n  }'\n",
+              "width": 548,
+              "scrollWidth": 548
+            },
+            {
+              "i": 2,
+              "top": 2949,
+              "text": "async function initializeTracking() {\n  await Hellotext.initialize(\"YOUR_BUSINESS_ID\")\n  const sessionId = Hellotext.session\n  // Send sessionId to your backend here.\n}\n\ninitializeTracking()\n",
+              "width": 548,
+              "scrollWidth": 548
+            },
+            {
+              "i": 3,
+              "top": 3325,
+              "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"product.viewed\",\n    \"session\": \"HELLOTEXT_SESSION_ID\",\n    \"object\": \"PRODUCT_ID\"\n  }'\n",
+              "width": 548,
+              "scrollWidth": 548
+            },
+            {
+              "i": 4,
+              "top": 4393,
+              "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"product.viewed\",\n    \"profile\": \"PROFILE_ID\",\n    \"object_parameters\": {\n      \"name\": \"Everyday Sneakers\",\n      \"reference\": \"product-100\",\n      \"source\": \"custom_store\",\n      \"url\": \"https://shop.example.com/products/everyday-sneakers\",\n      \"price\": {\n        \"amount\": 89.90,\n        \"currency\": \"USD\"\n      }\n    }\n  }'\n",
+              "width": 548,
+              "scrollWidth": 598
+            },
+            {
+              "i": 5,
+              "top": 5401,
+              "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"order.placed\",\n    \"profile\": \"PROFILE_ID\",\n    \"object\": \"ORDER_ID\",\n    \"amount\": 89.90,\n    \"currency\": \"USD\"\n  }'\n",
+              "width": 548,
+              "scrollWidth": 548
+            },
+            {
+              "i": 6,
+              "top": 6341,
+              "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"appointment.booked\",\n    \"profile\": \"PROFILE_ID\",\n    \"tracked_at\": \"2026-08-07T12:30:00Z\"\n  }'\n",
+              "width": 548,
+              "scrollWidth": 548
+            },
+            {
+              "i": 7,
+              "top": 7751,
+              "text": "{\n  \"amount\": 89.90,\n  \"currency\": \"USD\"\n}\n",
+              "width": 548,
+              "scrollWidth": 548
+            },
+            {
+              "i": 8,
+              "top": 8235,
+              "text": "{\n  \"status\": \"received\"\n}\n",
+              "width": 548,
+              "scrollWidth": 548
+            }
+          ]
+        },
+        "complete_review": "Intro, all original headings and code blocks, both figures, related links and footer inspected in the real built Help page. Code blocks retain their existing internal horizontal scroll without page overflow."
+      }
+    ],
+    "source_review": "Eight currently approved original native P3 sources retained unchanged, same route/state/locale. New article full render inspected including desktop/mobile/narrow figures.",
+    "result": "Static, no link/open control, full lavender stage and separate white inset; image width never exceeds logical source; localized controls sharp and complete. No private values or UI pixel changes."
+  },
+  "safe_fixture_check": {
+    "database": "hellotext_editorial_workload_20260928",
+    "business": 5,
+    "account": "design-system@example.test",
+    "locale": "es",
+    "contacts": 127,
+    "messageable": 0,
+    "subscribed": 0,
+    "messages": 49,
+    "events": 318,
+    "tokens": 0,
+    "enabled_playbooks": 0,
+    "this_batch_mutations": 0
+  },
+  "new_captures": 0,
+  "new_uploads": 0,
+  "pending": [
+    "PR exact-head checks/review/threads and merge",
+    "exact main Build/normal production and public page/PNG verification"
+  ]
+}

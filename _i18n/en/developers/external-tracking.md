@@ -1,6 +1,6 @@
 Use this guide to send trusted events to Hellotext when they happen outside the browser, for example in your backend, POS, CRM, ERP, marketplace, logistics provider, jobs, or webhooks.
 
-External tracking complements Hellotext.js. Use Hellotext.js for navigation and cart activity that happens in the storefront. Use the API from your backend for orders, payments, cancellations, shipments, deliveries, and other actions the server can verify.
+External tracking complements Hellotext.js. Use Hellotext.js for navigation and cart activity that happens in the storefront. Use the API from your backend for orders, payments, cancellations, shipments, deliveries, and other actions the server can verify. Choose one source for each occurrence: if an existing integration already tracks an order, do not submit it again through a webhook and Hellotext.js. Track only actions that already happened and that your system can verify.
 
 If you are connecting a custom store from the beginning, start with [Integrate a custom store with Hellotext]({% link _developers/custom-store-integration.md %}) to implement customer profiles, catalog data, orders, Hellotext.js, and identity in the recommended order.
 
@@ -8,7 +8,7 @@ If you are connecting a custom store from the beginning, start with [Integrate a
 
 Prepare:
 
-- A private API authorization token stored only in your backend.
+- A private API authorization token for the correct business, stored only in your backend, and a subscription that permits API use.
 - The action name you want to track, such as `product.viewed`, `order.placed`, or an existing custom action.
 - The Hellotext customer profile ID or a Hellotext session ID.
 - The related object ID, such as a product or order, or the data needed to create it.
@@ -20,7 +20,23 @@ Every example sends a `POST` request to:
 https://api.hellotext.com/v1/attribution/events
 ```
 
-Send the token through the `Authorization` header. See [API authentication](https://www.hellotext.com/api#authentication) to create and use the token correctly.
+In the business you want to integrate, open **Settings**, select **Manage your authorization tokens**, then **Create new token**. The example shows only an unsaved fictional name: it contains no credential and does not confirm token creation.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Create a new token with Token name Custom store · development, in an unsaved draft.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="width: fit-content; max-width: 558px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 470px)" srcset="/images/developers/custom-store-integration/token-en-mobile.png 2x" width="748" height="480" />
+        <img src="/images/developers/custom-store-integration/token-en.png" srcset="/images/developers/custom-store-integration/token-en.png 2x" style="width: auto; margin: 0 auto;" width="1080" height="524" loading="lazy" decoding="async" alt="Create a new token with Token name Custom store · development, in an unsaved draft." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real authorization form with an unsaved fictional name. No private token was created or exposed.</figcaption>
+</figure>
+
+Send the private token through the `Authorization` header. The public Business ID used by Hellotext.js and the token name do not replace its secret value. See [API authentication](https://www.hellotext.com/api#authentication) to create and use the token correctly.
+
+The examples use IDs and an environment token as placeholders. Replace them with resources from the same business and facts your system can confirm.
 
 ## 1. Choose the customer profile or session
 
@@ -42,17 +58,23 @@ curl --request POST \
   }'
 ```
 
-Keep the ID returned by Hellotext when you create the customer profile. If it does not exist yet, see [Create a customer profile](https://www.hellotext.com/api#create_a_profile).
+Keep the ID returned by Hellotext when you create the customer profile and its mapping to the customer in your own system. Resolve that identity in your backend; do not trust an arbitrary ID supplied by the browser. Tracking activity does not subscribe the customer or grant permission to message them. If it does not exist yet, see [Create a customer profile](https://www.hellotext.com/api#create_a_profile).
 
 ### When only the session is known
 
-Hellotext.js exposes the current session after initialization:
+After loading SDK **2.6.0**, await initialization before reading the visitor’s actual session. The Business ID in this example is public:
 
 ```javascript
-const sessionId = Hellotext.session
+async function initializeTracking() {
+  await Hellotext.initialize("YOUR_BUSINESS_ID")
+  const sessionId = Hellotext.session
+  // Send sessionId to your backend here.
+}
+
+initializeTracking()
 ```
 
-Send that ID to your backend and use `session` when tracking the event:
+Send that ID to your backend in the correct visitor context and use `session` when tracking the event. Do not invent a session or reuse another visitor’s session; check that the SDK exposes an ID before constructing the request:
 
 ```bash
 curl --request POST \
@@ -66,7 +88,9 @@ curl --request POST \
   }'
 ```
 
-You can send `profile` and `session` together when you want to associate that session context with the customer. The session must be unassigned or belong to the same customer profile. Hellotext rejects the event if the session already belongs to another profile.
+If you send `profile` and `session` together, use a session already attached to that same profile and business. For a session that is still unidentified, complete its attachment through the documented session flow first, after verifying the customer’s identity; do not use a tracking request as a substitute for attachment. Do not try to reassign another customer’s session.
+
+Initialization does not automatically track `page.viewed` in SDK 2.6.0. For navigation tracking, follow the explicit Hellotext.js example in the custom-store guide linked above and avoid duplicating the first view. Retaining the session can provide attribution context, but does not guarantee that an event will attribute revenue.
 
 See [Tracking unidentified customers]({% link _developers/tracking-unidentified-customers.md %}) to learn how to retain and attach sessions.
 
@@ -102,7 +126,9 @@ curl --request POST \
   }'
 ```
 
-Keep `reference` and `source` stable. Changing them between requests can create separate objects for the same product, cart, or order.
+Keep `reference` and `source` stable and store their mapping to the ID returned by Hellotext. Changing them between requests can create separate objects for the same product, cart, or order. Use one alternative, `object` or `object_parameters`, to express which resource to associate.
+
+Object creation and event acceptance are separate operations. Some object data is validated or saved during the request: if the event fails, check whether the resource already exists before creating it again. Finding or creating a product also does not necessarily update an existing catalog record; use the update endpoint when its data changes.
 
 See [product events](https://www.hellotext.com/api#track_product_events), [cart events](https://www.hellotext.com/api#track_cart_events), and [order events](https://www.hellotext.com/api#track_order_events) for the object and parameters required by each action.
 
@@ -124,6 +150,8 @@ curl --request POST \
   }'
 ```
 
+The example amount is **USD 89.90**, in major currency units, not 8,990 cents. It must match the actual order. If the change occurred earlier, add `tracked_at` with its original time, as explained below.
+
 Reuse the same `ORDER_ID` to track only the changes your system can confirm:
 
 - `order.confirmed` when the business confirms the order.
@@ -131,7 +159,7 @@ Reuse the same `ORDER_ID` to track only the changes your system can confirm:
 - `order.delivered` when delivery is confirmed.
 - `order.cancelled` when the order is cancelled.
 
-Do not track every state when the order is created. Send each event only when that change actually happens. See [Create an order](https://www.hellotext.com/api#create_an_order) for every available field.
+Do not track every state when the order is created. Send each event only when that change actually happens. Do not replace the order ID with its display code or assume that tracking `order.placed` confirms a payment or attributes a sale. See [Create an order](https://www.hellotext.com/api#create_an_order) for every available field.
 
 ## 4. Track custom actions
 
@@ -143,21 +171,35 @@ curl --request POST \
   --header "Authorization: Bearer $HELLOTEXT_API_TOKEN" \
   --header "Content-Type: application/json" \
   --data '{
-    "action": "appointment.completed",
+    "action": "appointment.booked",
     "profile": "PROFILE_ID",
     "tracked_at": "2026-08-07T12:30:00Z"
   }'
 ```
 
-A custom action can be tracked without a related object. If you send a custom object, you must also specify its type according to the API contract.
+In **Settings > Actions > Custom**, the fictional “Appointment booked” definition has the tracking name `appointment.booked`. Use that exact name in `action`, not the display title or definition ID. The screenshot shows a definition without events; the JSON above illustrates an occurrence and does not confirm it was sent.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Fictional Appointment booked action with tracking name appointment.booked in the Actions Custom tab, beside Create new action.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="width: fit-content; max-width: 894px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 470px)" srcset="/images/developers/custom-actions/catalog-en-mobile.png 2x" width="764" height="346" />
+        <img src="/images/developers/custom-actions/catalog-en.png" srcset="/images/developers/custom-actions/catalog-en.png 2x" style="width: auto; margin: 0 auto;" width="1752" height="838" loading="lazy" decoding="async" alt="Fictional Appointment booked action with tracking name appointment.booked in the Actions Custom tab, beside Create new action." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real action catalog with a fictional definition without events; the mobile focus shows its row and Create new action.</figcaption>
+</figure>
+
+A custom action can be tracked without a related object. If you send an object, also provide `object_type` with a compatible type from the same business and its ID or required parameters. Creating a definition does not track activity; review its goal and passive options in [Custom actions]({% link _developers/custom-actions.md %}) before using it.
 
 See [Create an action](https://www.hellotext.com/api#create_an_action) before tracking the first custom event.
 
 ## 5. Preserve timestamps and monetary values
 
-If the event happened before the request was sent, include `tracked_at` as an ISO 8601 date or Unix timestamp. If you omit it, Hellotext uses the time when the event is received.
+If the event happened before the request was sent, include `tracked_at` as an ISO 8601 date with a time zone or a Unix timestamp **in seconds**, not milliseconds. For example, `2026-08-07T12:30:00Z` indicates UTC. If omitted, the event processing time is used; a delayed job can make it differ from the actual occurrence time.
 
-Use the original event time for historical imports, delayed jobs, and retried webhooks. This prevents old activity from appearing recent and affecting segmentation, playbook eligibility, or reporting.
+Use the original event time for historical imports, delayed jobs, and retried webhooks. This preserves activity chronology, but does not make a historical event eligible for a playbook or attribution: those results depend on their own rules and windows.
 
 When the event has a monetary value, send `amount` and `currency` together:
 
@@ -168,7 +210,7 @@ When the event has a monetary value, send `amount` and `currency` together:
 }
 ```
 
-If you include `currency`, `amount` is required. Use the ISO 4217 currency code and do not manually convert the value into the reporting currency.
+If you include `currency`, `amount` is required. Always send both when specifying a value: use major units, the original ISO 4217 currency code, and do not manually convert it into the reporting currency. If you omit the values, some actions can inherit them from the object; check the resource before assuming a zero amount.
 
 ## 6. Interpret the response and handle errors
 
@@ -180,23 +222,25 @@ A valid request responds with HTTP `200`:
 }
 ```
 
-This confirms that Hellotext received the event for processing. Always inspect the HTTP status and response body:
+This confirms that the request passed initial validation and was received for processing. It does not confirm that the event is already saved, appears in activity, triggered an automation, or attributed a sale. Check the result for the corresponding profile or object before marking your process complete. Always inspect the HTTP status and response body:
 
 - `401` means the token is missing, invalid, or revoked.
-- `404` can mean the action does not exist for that business.
+- `403` can mean the subscription does not permit the operation.
+- `404` can mean the action does not exist for that business; use its exact name.
 - `422` means parameters are missing or the customer profile, session, object, or object data is invalid.
 
-Record the status and error in your logs, but never log the token or complete customer personal data.
+Correct credentials, permissions, or data before repeating a permanent error. Record the status, `errors` fields, and source identifier in your logs, but never log the token or complete customer personal data. Retain “received” and “result verified” as separate states.
 
 ## 7. Prevent duplicate events
 
 Most accepted tracking requests can create a new event, even when the same object is reused. Finding the same object through `reference` and `source` does not remove repeated events.
 
-Built-in order lifecycle actions are a narrow exception: Hellotext stores one event for each order and action pair, such as one `order.shipped` event for a given order. This does not provide general request idempotency. Other event types can still be duplicated, so prevent repeated submissions in your integration.
+Built-in order lifecycle actions have a specific protection during identified-event processing: if the same order already has a kept event for that action, another one is not added, such as another `order.shipped`. Do not generalize that protection to anonymous events or other actions. It is not a request idempotency key; prevent repeated submissions in your integration.
 
 - Store which source event has already been accepted by Hellotext in your own system.
 - Do not retry `200` responses.
-- Retry temporary errors with progressive backoff and retain the source event identifier in your own queue.
+- After a timeout, disconnection, or server error following submission, the outcome can be uncertain: check whether the operation was received or processed before repeating it. Do not retry blindly.
+- For temporary failures you can retry safely, use progressive backoff and retain the source event identifier in your own queue. That identifier does not create an idempotency guarantee in Hellotext.
 - Do not send the same event through Hellotext.js and the backend.
 - Process repeated provider webhooks only once before calling Hellotext.
 
