@@ -1,5 +1,5 @@
 {
-  "status": "local_verified",
+  "status": "public_verified",
   "base_revision": "c9a7ef06f9e3925689a4bcd041e1de276508907a",
   "originals": [
     {
@@ -62,7 +62,8 @@
       "ui_evidence": "docs/editorial-work/captures/products-and-inventory-with-api/identity-es-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "reuse": false
+      "reuse": false,
+      "publication_status": "New native P3 2x PNG published; public served hash matches approved source."
     },
     {
       "name": "identity-es-mobile",
@@ -107,7 +108,8 @@
       "ui_evidence": "docs/editorial-work/captures/products-and-inventory-with-api/identity-es-mobile-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "reuse": false
+      "reuse": false,
+      "publication_status": "New native P3 2x PNG published; public served hash matches approved source."
     },
     {
       "name": "price-es",
@@ -152,7 +154,8 @@
       "ui_evidence": "docs/editorial-work/captures/products-and-inventory-with-api/price-es-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "reuse": false
+      "reuse": false,
+      "publication_status": "New native P3 2x PNG published; public served hash matches approved source."
     },
     {
       "name": "price-es-mobile",
@@ -197,7 +200,8 @@
       "ui_evidence": "docs/editorial-work/captures/products-and-inventory-with-api/price-es-mobile-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "reuse": false
+      "reuse": false,
+      "publication_status": "New native P3 2x PNG published; public served hash matches approved source."
     },
     {
       "name": "identity-en",
@@ -242,7 +246,8 @@
       "ui_evidence": "docs/editorial-work/captures/products-and-inventory-with-api/identity-en-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "reuse": false
+      "reuse": false,
+      "publication_status": "New native P3 2x PNG published; public served hash matches approved source."
     },
     {
       "name": "identity-en-mobile",
@@ -287,7 +292,8 @@
       "ui_evidence": "docs/editorial-work/captures/products-and-inventory-with-api/identity-en-mobile-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "reuse": false
+      "reuse": false,
+      "publication_status": "New native P3 2x PNG published; public served hash matches approved source."
     },
     {
       "name": "price-en",
@@ -332,7 +338,8 @@
       "ui_evidence": "docs/editorial-work/captures/products-and-inventory-with-api/price-en-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "reuse": false
+      "reuse": false,
+      "publication_status": "New native P3 2x PNG published; public served hash matches approved source."
     },
     {
       "name": "price-en-mobile",
@@ -377,7 +384,8 @@
       "ui_evidence": "docs/editorial-work/captures/products-and-inventory-with-api/price-en-mobile-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "reuse": false
+      "reuse": false,
+      "publication_status": "New native P3 2x PNG published; public served hash matches approved source."
     },
     {
       "name": "token-es",
@@ -618,18 +626,24 @@
     "app/serializers/artifact/product_serializer.rb",
     "app/serializers/artifact/product_variant_serializer.rb"
   ],
-  "pending": [
-    "Protected PR checks/review, normal exact production deployment and public page/asset verification."
-  ],
+  "pending": [],
   "local_verification": {
     "build": "yarn build with Ruby3.3.6 executable on PATH passed including security headers",
     "evidence": "local-verification.json",
-    "evidence_publication_state": "not_yet_publicly_verified",
+    "evidence_publication_state": "public_verified",
     "visual_review": "Full ES/EN article at1440x1000,390x844,580x900; nine headings,three code blocks,three figures,footer and actual source dimensions inspected. Final browser confirms no page overflow or source upscaling.",
     "images": "12 source/asset/root-build/ES-build PNG hashes match; eight new and four approved reused token sources; native Display P3 2x.",
-    "runtime": "Owned Chrome CDP9460,Node22.23.1,Rails3192/Vite3042; process/profile/tab/account/locale/control/viewport/zoom/DPR guards passed."
+    "runtime": "Owned Chrome CDP9460,Node22.23.1,Rails3192/Vite3042; process/profile/tab/account/locale/control/viewport/zoom/DPR guards passed.",
+    "publication_evidence": "public-verification.json"
   },
   "publication": {
-    "status": "not_yet_publicly_verified"
+    "status": "public_verified",
+    "evidence": "public-verification.json",
+    "content_pr": 280,
+    "merge_sha": "ff984286a2aa8fa71919745ece1d81c1c2ffd815"
+  },
+  "public_verification": {
+    "state": "public_verified",
+    "evidence": "public-verification.json"
   }
 }
