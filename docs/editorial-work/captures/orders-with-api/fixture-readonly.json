@@ -1,0 +1,40 @@
+{
+  "product": "vjNEoZop",
+  "order": "4ONLdN32",
+  "item": "e9Z2LN51",
+  "unit": 44.95,
+  "total": 89.9,
+  "quantity": 2,
+  "currency": "USD",
+  "serializer": {
+    "id": "4ONLdN32",
+    "type": "order",
+    "created_at": 1790777545,
+    "delivery": "deliver",
+    "items": [
+      {
+        "id": "e9Z2LN51",
+        "type": "order_item",
+        "created_at": 1790777545,
+        "price": {
+          "amount": "44.95",
+          "converted_amount": "44.95",
+          "currency": "USD",
+          "converted_currency": "USD"
+        },
+        "product": "vjNEoZop",
+        "quantity": 2
+      }
+    ],
+    "metadata": {},
+    "properties": [],
+    "reference": "ORDER-1001",
+    "source": "custom_store",
+    "total": {
+      "amount": "89.9",
+      "converted_amount": "89.9",
+      "currency": "USD",
+      "converted_currency": "USD"
+    }
+  }
+}
