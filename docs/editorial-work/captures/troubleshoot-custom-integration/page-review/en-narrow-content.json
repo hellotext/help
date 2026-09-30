@@ -1,0 +1,75 @@
+{
+  "sections": [
+    {
+      "i": 0,
+      "text": "1. Confirm the API token and businessLink copied",
+      "top": 756
+    },
+    {
+      "i": 1,
+      "text": "2. Read the HTTP status before the response bodyLink copied",
+      "top": 2064
+    },
+    {
+      "i": 2,
+      "text": "3. Reduce the request to the smallest valid exampleLink copied",
+      "top": 3251
+    },
+    {
+      "i": 3,
+      "text": "4. Separate resource creation from event trackingLink copied",
+      "top": 4219
+    },
+    {
+      "i": 4,
+      "text": "5. Interpret a received event correctlyLink copied",
+      "top": 6153
+    },
+    {
+      "i": 5,
+      "text": "6. Find the cause of duplicate recordsLink copied",
+      "top": 7205
+    },
+    {
+      "i": 6,
+      "text": "7. Retry without creating uncertain duplicatesLink copied",
+      "top": 9162
+    },
+    {
+      "i": 7,
+      "text": "8. Log enough context without exposing secretsLink copied",
+      "top": 9858
+    },
+    {
+      "i": 8,
+      "text": "9. Run an end-to-end diagnosticLink copied",
+      "top": 10442
+    },
+    {
+      "i": 9,
+      "text": "10. Contact Hellotext with a reproducible exampleLink copied",
+      "top": 11206
+    },
+    {
+      "i": 10,
+      "text": "Related guidesLink copied",
+      "top": 12084
+    }
+  ],
+  "codes": [
+    {
+      "i": 0,
+      "top": 932,
+      "text": "curl --request GET \\\n  --url 'https://api.hellotext.com/v1/profiles?limit=1' \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --include\n",
+      "width": 548,
+      "scrollWidth": 548
+    },
+    {
+      "i": 1,
+      "top": 6281,
+      "text": "{\n  \"status\": \"received\"\n}\n",
+      "width": 548,
+      "scrollWidth": 548
+    }
+  ]
+}
