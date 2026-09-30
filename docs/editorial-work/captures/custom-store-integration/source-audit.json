@@ -1,0 +1,62 @@
+{
+  "date_utc": "2026-09-30",
+  "sources": [
+    "https://www.hellotext.com/api#authentication",
+    "https://www.hellotext.com/api#create_a_property",
+    "https://www.hellotext.com/api#create_a_profile",
+    "https://www.hellotext.com/api#create_a_product",
+    "https://www.hellotext.com/api#create_an_order",
+    "https://www.hellotext.com/api#attach_session",
+    "https://www.hellotext.com/api#tracking",
+    "https://github.com/hellotext/hellotext.js",
+    "https://registry.npmjs.org/@hellotext/hellotext/2.6.0"
+  ],
+  "npm_version_verified": "2.6.0",
+  "npm_git_head": "d9fc6311eaab233aa594d324ff0b3fa1e840fae2",
+  "npm_source_files": [
+    "src/hellotext.js",
+    "src/models/session.js",
+    "src/api/acks.js",
+    "src/index.js",
+    "src/index.bundle.js"
+  ],
+  "source_scan": "Released 2.6.0 src contains no page.viewed dispatch during initialization; initialization sends session ACK, not a page-view event. Explicit track is required in this version.",
+  "rails_revision": "e6ae33a310d46ba88d9bf5b70845618a0b4a6461",
+  "reviewed_rails_paths": [
+    "app/controllers/settings/authorization_tokens_controller.rb",
+    "app/views/settings/authorization_tokens/new.html.erb",
+    "app/views/businesses/_show.html.erb",
+    "app/controllers/api/v1/profiles_controller.rb",
+    "app/models/api/profile.rb",
+    "app/controllers/api/v1/properties_controller.rb",
+    "app/controllers/api/v1/attribution/products_controller.rb",
+    "app/controllers/api/v1/attribution/orders_controller.rb",
+    "app/models/api/order_service.rb",
+    "app/models/api/cart_service.rb",
+    "app/models/api/track/order.rb",
+    "app/models/api/track/cart.rb",
+    "app/models/api/track/product.rb",
+    "app/models/api/track/base.rb",
+    "app/controllers/api/v1/sessions_controller.rb",
+    "app/models/attribution/session/attachable.rb",
+    "app/controllers/api/v1/public/acks_controller.rb"
+  ],
+  "discrepancies_corrected": [
+    "Profile list HTTP success is authentication, not expected-business proof.",
+    "Private token naming view is unsaved; no credential exposed.",
+    "unique custom profile value is not an automatic external-ID upsert.",
+    "Profile ID receipt may precede attribute update job processing.",
+    "Standalone order creation filters total and calculates it from item prices/quantities.",
+    "Browser order parameters need delivery for this custom source.",
+    "Released SDK2.6.0 requires explicit page.viewed, includes page/URL automatically, and initialize is async.",
+    "cart.added quantity sets result quantity; cart.abandoned requires existing object.",
+    "Tracking received response is not processed result or object ID.",
+    "Session attachment follows real tracked session/authenticated backend identity; forget keeps hello_session."
+  ],
+  "remaining_related_guide_debt": "developers/tracking-events.md is still pending for its own full review; its inherited automatic-page-view wording must be checked against the released SDK when that pair is reviewed. No unrelated guide was modified in this batch.",
+  "pinned_cdn_bundle": {
+    "url": "https://unpkg.com/@hellotext/hellotext@2.6.0/dist/hellotext.js",
+    "http_status": 200,
+    "bytes": 202203
+  }
+}
