@@ -1,0 +1,181 @@
+{
+  "url": "http://127.0.0.1:3192/hellotext/settings/actions?tab=custom",
+  "title": "Actions - Hellotext",
+  "locale": "en",
+  "viewport": [
+    390,
+    900
+  ],
+  "dpr": 2,
+  "zoom": 1,
+  "pane": [
+    0,
+    0,
+    390,
+    900
+  ],
+  "form": [
+    1,
+    0,
+    389,
+    900
+  ],
+  "main": [
+    16,
+    470,
+    358,
+    229
+  ],
+  "headings": [
+    {
+      "text": "Actions",
+      "rect": [
+        16,
+        344,
+        110.703125,
+        34
+      ]
+    },
+    {
+      "text": "Appointment booked",
+      "rect": [
+        68,
+        530,
+        272.40625,
+        28
+      ]
+    }
+  ],
+  "list": [
+    16,
+    530,
+    358,
+    149
+  ],
+  "anchors": [
+    {
+      "text": "Actions",
+      "rect": [
+        164.8203125,
+        281.5,
+        60.359375,
+        21
+      ]
+    },
+    {
+      "text": "eCommerce",
+      "rect": [
+        16,
+        472,
+        111.625,
+        23.5
+      ]
+    },
+    {
+      "text": "Messages",
+      "rect": [
+        167.625,
+        472,
+        92.1484375,
+        23.5
+      ]
+    },
+    {
+      "text": "Other",
+      "rect": [
+        299.7734375,
+        472,
+        52.296875,
+        23.5
+      ]
+    },
+    {
+      "text": "Custom",
+      "rect": [
+        392.0703125,
+        472,
+        70.4921875,
+        23.5
+      ]
+    },
+    {
+      "text": "Create new action",
+      "rect": [
+        98.5703125,
+        635,
+        192.8515625,
+        44
+      ]
+    }
+  ],
+  "text": "New action\nReadable name\nTracking name\n\nThis is the name of the action to use for tracking. We recommend using alphanumeric characters in lower case indicating first the object and then the action, e.g., customer.profile.\n\nMark as conversion\n\nMark this action as a conversion on reports when it happens.\n\nMark as important\n\nMark this action as important, and in need of immediate attention. This will move the conversation to the top of the Inbox when it happens.\n\nSave changes\nCancel",
+  "buttons": [
+    {
+      "text": "",
+      "disabled": false,
+      "rect": [
+        344.40625,
+        19.203125,
+        21.59375,
+        21.59375
+      ]
+    },
+    {
+      "text": "Save changes",
+      "disabled": false,
+      "rect": [
+        25,
+        824,
+        158.359375,
+        44
+      ]
+    },
+    {
+      "text": "Cancel",
+      "disabled": false,
+      "rect": [
+        191.359375,
+        824,
+        103.4296875,
+        44
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "name": "tab",
+      "value": "custom",
+      "checked": false
+    },
+    {
+      "name": "track_action[display_name]",
+      "value": "Appointment booked",
+      "checked": false
+    },
+    {
+      "name": "track_action[name]",
+      "value": "appointment.booked",
+      "checked": false
+    },
+    {
+      "name": "track_action[goal]",
+      "value": "0",
+      "checked": false
+    },
+    {
+      "name": "track_action[goal]",
+      "value": "1",
+      "checked": true
+    },
+    {
+      "name": "track_action[passive]",
+      "value": "0",
+      "checked": false
+    },
+    {
+      "name": "track_action[passive]",
+      "value": "1",
+      "checked": false
+    }
+  ]
+}
