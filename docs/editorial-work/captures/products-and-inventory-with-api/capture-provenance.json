@@ -1,0 +1,635 @@
+{
+  "status": "local_verified",
+  "base_revision": "c9a7ef06f9e3925689a4bcd041e1de276508907a",
+  "originals": [
+    {
+      "article": "_i18n/es/developers/products-and-inventory-with-api.md",
+      "snapshot": "docs/editorial-work/originals/es/developers/products-and-inventory-with-api.md",
+      "sha256": "cd01e61a8135cfab5f9393136d40d66bee4284b42c2a822ec6f4f82a636f9544"
+    },
+    {
+      "article": "_i18n/en/developers/products-and-inventory-with-api.md",
+      "snapshot": "docs/editorial-work/originals/en/developers/products-and-inventory-with-api.md",
+      "sha256": "61e5d4b247026c580268b40d542788444663d91fee7fc9125f6bc4c04edfa761"
+    },
+    {
+      "article": "_developers/products-and-inventory-with-api.md",
+      "snapshot": "docs/editorial-work/captures/products-and-inventory-with-api/original-stub.md",
+      "sha256": "b1954f53319672a2cf1c47a48dc738c64ea1fcc605b5c7794eaf20bbcc844013"
+    }
+  ],
+  "images": [
+    {
+      "name": "identity-es",
+      "concept": "identity",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/products-and-inventory-with-api/identity-es-original.png",
+      "published_asset": "images/developers/products-and-inventory-with-api/identity-es.png",
+      "native": {
+        "output": "/private/tmp/hellotext-products-api-guide/native/identity-es.png",
+        "sha256": "cad5dac8389b4545324ad7b0d2cdc0c1cfd2d04a476b42f7bf5110530cc50f43",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/OKD0AZ37/instances",
+        "locale": "es",
+        "cssViewport": [
+          1400,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          897,
+          0,
+          503,
+          393
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1006,
+          786
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        503,
+        393
+      ],
+      "intended_max_display_width_css": 503,
+      "ui_evidence": "docs/editorial-work/captures/products-and-inventory-with-api/identity-es-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "reuse": false
+    },
+    {
+      "name": "identity-es-mobile",
+      "concept": "identity",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/products-and-inventory-with-api/identity-es-mobile-original.png",
+      "published_asset": "images/developers/products-and-inventory-with-api/identity-es-mobile.png",
+      "native": {
+        "output": "/private/tmp/hellotext-products-api-guide/native/identity-es-mobile.png",
+        "sha256": "e59c825526ab948c121cde309ff647e98d8b8b015546116fe91e5cdf15ebdb00",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/OKD0AZ37/instances",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1,
+          0,
+          389,
+          393
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          778,
+          786
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        389,
+        393
+      ],
+      "intended_max_display_width_css": 389,
+      "ui_evidence": "docs/editorial-work/captures/products-and-inventory-with-api/identity-es-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "reuse": false
+    },
+    {
+      "name": "price-es",
+      "concept": "price",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/products-and-inventory-with-api/price-es-original.png",
+      "published_asset": "images/developers/products-and-inventory-with-api/price-es.png",
+      "native": {
+        "output": "/private/tmp/hellotext-products-api-guide/native/price-es.png",
+        "sha256": "b02b57decfb690fdbcd3cc26f8972fe0933c6d190ca0d5eb848ae25fadcafb31",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/OKD0AZ37/instances",
+        "locale": "es",
+        "cssViewport": [
+          1400,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          913,
+          385,
+          471,
+          150
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          942,
+          300
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        471,
+        150
+      ],
+      "intended_max_display_width_css": 471,
+      "ui_evidence": "docs/editorial-work/captures/products-and-inventory-with-api/price-es-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "reuse": false
+    },
+    {
+      "name": "price-es-mobile",
+      "concept": "price",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/products-and-inventory-with-api/price-es-mobile-original.png",
+      "published_asset": "images/developers/products-and-inventory-with-api/price-es-mobile.png",
+      "native": {
+        "output": "/private/tmp/hellotext-products-api-guide/native/price-es-mobile.png",
+        "sha256": "2e7469ff34da4443c11ae232f485b4306330a4446a56e970d1c0d8012396906a",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/OKD0AZ37/instances",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          17,
+          385,
+          357,
+          150
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          714,
+          300
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        357,
+        150
+      ],
+      "intended_max_display_width_css": 357,
+      "ui_evidence": "docs/editorial-work/captures/products-and-inventory-with-api/price-es-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "reuse": false
+    },
+    {
+      "name": "identity-en",
+      "concept": "identity",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/products-and-inventory-with-api/identity-en-original.png",
+      "published_asset": "images/developers/products-and-inventory-with-api/identity-en.png",
+      "native": {
+        "output": "/private/tmp/hellotext-products-api-guide/native/identity-en.png",
+        "sha256": "0ad4775d9bd3d743c1aa60c89c9db36609032046126386e77710f41b682c78e8",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/OKD0AZ37/instances",
+        "locale": "en",
+        "cssViewport": [
+          1400,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          897,
+          0,
+          503,
+          393
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1006,
+          786
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        503,
+        393
+      ],
+      "intended_max_display_width_css": 503,
+      "ui_evidence": "docs/editorial-work/captures/products-and-inventory-with-api/identity-en-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "reuse": false
+    },
+    {
+      "name": "identity-en-mobile",
+      "concept": "identity",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/products-and-inventory-with-api/identity-en-mobile-original.png",
+      "published_asset": "images/developers/products-and-inventory-with-api/identity-en-mobile.png",
+      "native": {
+        "output": "/private/tmp/hellotext-products-api-guide/native/identity-en-mobile.png",
+        "sha256": "ee47e9bab2033b8dc413e0eb63a5d89ad5f65f322dd07b4431e864677a332b60",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/OKD0AZ37/instances",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1,
+          0,
+          389,
+          393
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          778,
+          786
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        389,
+        393
+      ],
+      "intended_max_display_width_css": 389,
+      "ui_evidence": "docs/editorial-work/captures/products-and-inventory-with-api/identity-en-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "reuse": false
+    },
+    {
+      "name": "price-en",
+      "concept": "price",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/products-and-inventory-with-api/price-en-original.png",
+      "published_asset": "images/developers/products-and-inventory-with-api/price-en.png",
+      "native": {
+        "output": "/private/tmp/hellotext-products-api-guide/native/price-en.png",
+        "sha256": "d7def7c8355e24a8cf478cc1905d9dd4ff37d40fff2a315fb900181eea56b17d",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/OKD0AZ37/instances",
+        "locale": "en",
+        "cssViewport": [
+          1400,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          913,
+          385,
+          471,
+          150
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          942,
+          300
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        471,
+        150
+      ],
+      "intended_max_display_width_css": 471,
+      "ui_evidence": "docs/editorial-work/captures/products-and-inventory-with-api/price-en-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "reuse": false
+    },
+    {
+      "name": "price-en-mobile",
+      "concept": "price",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/products-and-inventory-with-api/price-en-mobile-original.png",
+      "published_asset": "images/developers/products-and-inventory-with-api/price-en-mobile.png",
+      "native": {
+        "output": "/private/tmp/hellotext-products-api-guide/native/price-en-mobile.png",
+        "sha256": "4236f24c45cd0b7ac0d8a6b9e00f4ab0752ba0e5fe04e46adf6e08711e4e589d",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/OKD0AZ37/instances",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          17,
+          385,
+          357,
+          150
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          714,
+          300
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        357,
+        150
+      ],
+      "intended_max_display_width_css": 357,
+      "ui_evidence": "docs/editorial-work/captures/products-and-inventory-with-api/price-en-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "reuse": false
+    },
+    {
+      "name": "token-es",
+      "concept": "token",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/custom-store-integration/token-es-original.png",
+      "published_asset": "images/developers/custom-store-integration/token-es.png",
+      "native": {
+        "sha256": "1aee0b74d12bed3eb995c7211316047bd59158a92f2c491dfc4a01287c5fb953",
+        "url": "http://127.0.0.1:3192/hellotext/settings/authorizations/new",
+        "locale": "es",
+        "cssViewport": [
+          1200,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          92,
+          124,
+          540,
+          262
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1080,
+          524
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        540.0,
+        262.0
+      ],
+      "intended_max_display_width_css": 540.0,
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/token-es-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved current P3 2x source reused without duplicate upload; public served hash verified.",
+      "reuse": true,
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json"
+    },
+    {
+      "name": "token-es-mobile",
+      "concept": "token",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/custom-store-integration/token-es-mobile-original.png",
+      "published_asset": "images/developers/custom-store-integration/token-es-mobile.png",
+      "native": {
+        "sha256": "ab734e406f700b90cd37365b7a1d084cedb9e8adda7bca8757182d471e6d355a",
+        "url": "http://127.0.0.1:3192/hellotext/settings/authorizations/new",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          8,
+          40,
+          374,
+          240
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          748,
+          480
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        374.0,
+        240.0
+      ],
+      "intended_max_display_width_css": 374.0,
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/token-es-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved current P3 2x source reused without duplicate upload; public served hash verified.",
+      "reuse": true,
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json"
+    },
+    {
+      "name": "token-en",
+      "concept": "token",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/custom-store-integration/token-en-original.png",
+      "published_asset": "images/developers/custom-store-integration/token-en.png",
+      "native": {
+        "sha256": "ca4b35ca243e0e6db3c52219e00162ef2c708efd61d7265dc25f599907c97bd6",
+        "url": "http://127.0.0.1:3192/hellotext/settings/authorizations/new",
+        "locale": "en",
+        "cssViewport": [
+          1200,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          92,
+          124,
+          540,
+          262
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1080,
+          524
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        540.0,
+        262.0
+      ],
+      "intended_max_display_width_css": 540.0,
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/token-en-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved current P3 2x source reused without duplicate upload; public served hash verified.",
+      "reuse": true,
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json"
+    },
+    {
+      "name": "token-en-mobile",
+      "concept": "token",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/custom-store-integration/token-en-mobile-original.png",
+      "published_asset": "images/developers/custom-store-integration/token-en-mobile.png",
+      "native": {
+        "sha256": "716908e63c1f6e914b3dc8d7456e224c02fe69b24797477dded04096b9ec7652",
+        "url": "http://127.0.0.1:3192/hellotext/settings/authorizations/new",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          8,
+          40,
+          374,
+          240
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          748,
+          480
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        374.0,
+        240.0
+      ],
+      "intended_max_display_width_css": 374.0,
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/token-en-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved current P3 2x source reused without duplicate upload; public served hash verified.",
+      "reuse": true,
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json"
+    }
+  ],
+  "captured_date": "2026-09-30",
+  "capture_method": "Native isolated Chrome compositor via standard guarded capture script; no pixel edits.",
+  "rails_revision": "e6ae33a310d46ba88d9bf5b70845618a0b4a6461",
+  "chrome": {
+    "port": 9460,
+    "pid": 57358,
+    "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+    "single_loopback_page": true,
+    "guarded_account": "design-system@example.test"
+  },
+  "fixture": {
+    "database": "hellotext_editorial_workload_20260928",
+    "business": 5,
+    "contacts": 127,
+    "messageable": 0,
+    "subscribed": 0,
+    "messages_before_after": 49,
+    "events_before_after": 318,
+    "tokens_before_after": 0,
+    "enabled_playbooks": 0,
+    "product": "vjNEoZop",
+    "product_state": "draft",
+    "product_events": 0,
+    "variants_before_after": 0,
+    "unit_price_before_after": 44.95,
+    "currency": "USD",
+    "account_locale_restored": "es",
+    "changes": "Reused the existing Orders product without reseeding or changing its name, state, price, or properties. Only guarded account locale changed for ES/EN and was restored. Product proper name Agenda semanal intentionally remains identical in both UI locales. Opened editor and amount control without Save, API execution, tokens, new objects, events, tracking, deliveries, or workers."
+  },
+  "shared_source_reuse_decision": "Four approved current Custom store integration token sources reused with original provenance/UI evidence. No approved equivalent same-state product identity/amount-editor focus existed; eight new sources captured.",
+  "content_sources": [
+    "https://www.hellotext.com/api#products",
+    "https://www.hellotext.com/api#create_a_product",
+    "https://www.hellotext.com/api#update_a_product",
+    "https://www.hellotext.com/api#product_variants",
+    "https://www.hellotext.com/api#track_product_events",
+    "https://registry.npmjs.org/@hellotext/hellotext/2.6.0",
+    "https://cdn.jsdelivr.net/npm/@hellotext/hellotext@2.6.0/dist/hellotext.js"
+  ],
+  "source_contracts": [
+    "app/controllers/api/v1/attribution/products_controller.rb",
+    "app/controllers/api/v1/attribution/product_variants_controller.rb",
+    "app/models/api/product_service.rb",
+    "app/models/api/entity_service.rb",
+    "app/models/api/amount.rb",
+    "app/models/api/track/product.rb",
+    "app/models/api/track/product_variant.rb",
+    "app/models/api/track/base.rb",
+    "app/models/artifact/product.rb",
+    "app/models/artifact/product/finders.rb",
+    "app/models/artifact/product/lookup.rb",
+    "app/serializers/artifact/product_serializer.rb",
+    "app/serializers/artifact/product_variant_serializer.rb"
+  ],
+  "pending": [
+    "Protected PR checks/review, normal exact production deployment and public page/asset verification."
+  ],
+  "local_verification": {
+    "build": "yarn build with Ruby3.3.6 executable on PATH passed including security headers",
+    "evidence": "local-verification.json",
+    "evidence_publication_state": "not_yet_publicly_verified",
+    "visual_review": "Full ES/EN article at1440x1000,390x844,580x900; nine headings,three code blocks,three figures,footer and actual source dimensions inspected. Final browser confirms no page overflow or source upscaling.",
+    "images": "12 source/asset/root-build/ES-build PNG hashes match; eight new and four approved reused token sources; native Display P3 2x.",
+    "runtime": "Owned Chrome CDP9460,Node22.23.1,Rails3192/Vite3042; process/profile/tab/account/locale/control/viewport/zoom/DPR guards passed."
+  },
+  "publication": {
+    "status": "not_yet_publicly_verified"
+  }
+}
