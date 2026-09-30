@@ -227,7 +227,9 @@ The examples are JSON bodies for `POST /v1/attribution/events`; replace placehol
 
 `object_parameters` attempts to create an instance: it does not automatically find or update one with the same reference. Tracking returns `received`; it does not return the instance ID or prove the event has finished processing. Instance validation or creation can happen before event processing completes.
 
-Do not send `object_parameters` repeatedly for the same unique entity. Recover and verify its instance ID from a result that actually includes it, such as `trackable.id` when retrieving the processed event through the Events API, and store that mapping to your reference. `GET /v1/objects` returns structures, not appointment IDs. Use `object` for subsequent occurrences. Reusing the object does not deduplicate events: reconcile activity before resending after a timeout or uncertain result.
+Do not send `object_parameters` repeatedly for the same unique entity. To obtain its public ID, find the instance by its reference in **Settings > Objects > Appointments**, open the row menu and copy the **Edit** link. The instance ID is the segment between `/instances/` and `/edit`; it is not the structure ID or an internal numeric ID from a nested response. Store that mapping to your reference. `GET /v1/objects` returns structures, not appointment IDs.
+
+Use `object` for subsequent occurrences. Reusing the object does not deduplicate events: reconcile activity before resending after a timeout or uncertain result.
 
 ## Update a structure carefully
 

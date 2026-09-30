@@ -940,6 +940,14 @@
     {
       "path": "app/serializers/track/event_serializer.rb",
       "sha256": "320203b97cad4bb7e6b62e3f8f988fc0786e36ff4ccd9cb5f8619b45a94def8e"
+    },
+    {
+      "path": "app/views/settings/entities/_entity.html.erb",
+      "sha256": "0aa34cf07eb8cef1d36232c5c175570bb6b890d6ec7eb28c4e7b3b5f0e1b6cb0"
+    },
+    {
+      "path": "app/controllers/settings/entities_controller.rb",
+      "sha256": "f9bf49b7ff53847400ce877260d264580462476da0c84c3d903a9fb1cbf7f9f4"
     }
   ],
   "official_api_reference": "https://www.hellotext.com/api#objects",
@@ -986,5 +994,6 @@
     "Exact main Build and normal Netlify deployment",
     "Both public pages and20 PNGs"
   ],
-  "local_verification": "local-verification.json"
+  "local_verification": "local-verification.json",
+  "instance_id_verification": "instance-id-readonly.json"
 }

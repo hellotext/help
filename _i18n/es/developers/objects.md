@@ -227,7 +227,9 @@ Los ejemplos son cuerpos JSON para `POST /v1/attribution/events`; sustituye los 
 
 `object_parameters` intenta crear una instancia: no busca ni actualiza automáticamente la que tenga la misma referencia. La respuesta de tracking indica `received`; no devuelve el ID de la instancia ni prueba que el evento ya esté procesado. La validación o creación de la instancia puede ocurrir antes de completar el procesamiento del evento.
 
-No envíes `object_parameters` repetidamente para la misma entidad única. Recupera y verifica el ID de la instancia en un resultado que realmente la incluya, por ejemplo `trackable.id` al consultar el evento procesado mediante la API de Eventos, y guarda esa correspondencia con tu referencia. `GET /v1/objects` devuelve estructuras, no IDs de citas. Usa `object` para las ocurrencias posteriores. Reutilizar el objeto no evita duplicar eventos: ante un timeout o resultado incierto, concilia la actividad antes de reenviar.
+No envíes `object_parameters` repetidamente para la misma entidad única. Para obtener su ID público, busca la instancia por su referencia en **Configuración > Objetos > Citas**, abre el menú de la fila y copia el vínculo de **Editar**. El ID de la instancia es el segmento entre `/instances/` y `/edit`; no es el ID de la estructura ni un ID numérico interno de una respuesta anidada. Guarda esa correspondencia con tu referencia. `GET /v1/objects` devuelve estructuras, no IDs de citas.
+
+Usa `object` para las ocurrencias posteriores. Reutilizar el objeto no evita duplicar eventos: ante un timeout o resultado incierto, concilia la actividad antes de reenviar.
 
 ## Actualiza una estructura con cuidado
 
