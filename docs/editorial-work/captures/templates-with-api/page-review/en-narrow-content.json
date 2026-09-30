@@ -23,37 +23,37 @@
     {
       "i": 4,
       "text": "4. Personalize the body safelyLink copied",
-      "top": 5658
+      "top": 5718
     },
     {
       "i": 5,
       "text": "5. Use static and dynamic short linksLink copied",
-      "top": 6374
+      "top": 6434
     },
     {
       "i": 6,
       "text": "6. Wait for WhatsApp approvalLink copied",
-      "top": 7118
+      "top": 7178
     },
     {
       "i": 7,
       "text": "7. Send an approved templateLink copied",
-      "top": 8054
+      "top": 8114
     },
     {
       "i": 8,
       "text": "8. Update or retire a template safelyLink copied",
-      "top": 9286
+      "top": 9346
     },
     {
       "i": 9,
       "text": "9. Troubleshoot common errorsLink copied",
-      "top": 10210
+      "top": 10270
     },
     {
       "i": 10,
       "text": "Related guidesLink copied",
-      "top": 11022
+      "top": 11082
     }
   ],
   "codes": [
@@ -73,35 +73,35 @@
     },
     {
       "i": 2,
-      "top": 6490,
+      "top": 6550,
       "text": "View the collection: {shortlink:https://shop.example.com/collections/new}\n",
       "width": 548,
       "scrollWidth": 648
     },
     {
       "i": 3,
-      "top": 6674,
+      "top": 6734,
       "text": "View your order: {shortlink:order}\n",
       "width": 548,
       "scrollWidth": 548
     },
     {
       "i": 4,
-      "top": 7210,
+      "top": 7270,
       "text": "curl --request GET \\\n  --url https://api.hellotext.com/v1/templates/TEMPLATE_ID \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\"\n",
       "width": 548,
       "scrollWidth": 548
     },
     {
       "i": 5,
-      "top": 8194,
+      "top": 8254,
       "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/messages \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"profile\": \"PROFILE_ID\",\n    \"technology\": \"whatsapp\",\n    \"template\": {\n      \"id\": \"TEMPLATE_ID\",\n      \"shortlinks\": {\n        \"order\": \"https://shop.example.com/account/orders/1001\"\n      }\n    }\n  }'\n",
       "width": 548,
       "scrollWidth": 565
     },
     {
       "i": 6,
-      "top": 8754,
+      "top": 8814,
       "text": "{\n  \"status\": \"received\"\n}\n",
       "width": 548,
       "scrollWidth": 548

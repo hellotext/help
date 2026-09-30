@@ -129,7 +129,8 @@ The current adapter has a limitation: a text-only header can be stored and appea
 Important component rules include:
 
 - The WhatsApp body supports up to 1024 characters and cannot begin or end with a standalone parameter.
-- Local text-header validation allows up to 60 characters; this does not remove the sending limitation above. The footer allows up to 160 characters.
+- Local text-header validation allows up to 60 characters; this does not remove the sending limitation above.
+- For WhatsApp, limit the footer to 60 characters. Hellotext’s local validation allows up to 160, which does not guarantee Meta acceptance. See the [WhatsApp component limits](https://www.twilio.com/docs/content/whatsappcard).
 - An attachment header requires a publicly accessible `attachment_url`; Hellotext downloads and stores the file.
 - A template supports up to 10 buttons in total.
 - Button text is limited to 25 characters.

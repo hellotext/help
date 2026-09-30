@@ -129,7 +129,8 @@ Hay una limitación en el adaptador actual: un header solo de texto puede guarda
 Algunas reglas importantes para los componentes son:
 
 - El cuerpo de WhatsApp admite hasta 1024 caracteres y no puede comenzar ni terminar con un parámetro aislado.
-- La validación local de headers de texto admite hasta 60 caracteres; esto no elimina la limitación de envío descrita arriba. El footer admite hasta 160 caracteres.
+- La validación local de headers de texto admite hasta 60 caracteres; esto no elimina la limitación de envío descrita arriba.
+- Para WhatsApp, limita el footer a 60 caracteres. La validación local de Hellotext permite hasta 160, pero eso no garantiza aceptación por Meta. Consulta los [límites de componentes de WhatsApp](https://www.twilio.com/docs/content/whatsappcard).
 - Un header con archivo requiere una `attachment_url` accesible públicamente; Hellotext descarga y guarda el archivo.
 - Una plantilla admite hasta 10 botones en total.
 - El texto de cada botón está limitado a 25 caracteres.

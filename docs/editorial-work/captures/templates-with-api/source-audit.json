@@ -97,5 +97,13 @@
     "DELETE discards standard reusable template, preserving historical records; inspect all dependents before retirement.",
     "Body API validation currently1024 for provided body, public reference says SMS160; keep SMS example below160 and discuss final encoded segments rather than promise160 server validation."
   ],
-  "method": "Read-only source inspection plus official API documentation; no HTTP API call, DB boot, fixture mutation, send, example execution or worker."
+  "method": "Read-only source inspection plus official API documentation; no HTTP API call, DB boot, fixture mutation, send, example execution or worker.",
+  "review_correction": {
+    "finding": "#291 P2: distinguish local footer validation from WhatsApp acceptance",
+    "local_source": "app/models/template/footer.rb validates160",
+    "primary_provider_reference": "https://www.twilio.com/docs/content/whatsappcard",
+    "provider_footer_maximum_characters": 60,
+    "meta_direct_reference_attempt": "https://developers.facebook.com/docs/whatsapp/business-management-api/message-templates/components returned429; no direct Meta fetch success claimed",
+    "resolution": "Both languages instruct a60-character WhatsApp footer and distinguish160-character local validation."
+  }
 }

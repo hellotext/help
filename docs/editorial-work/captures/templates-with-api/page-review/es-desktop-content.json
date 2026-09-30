@@ -23,37 +23,37 @@
     {
       "i": 4,
       "text": "4. Personaliza el cuerpo de forma seguraEnlace copiado",
-      "top": 5582
+      "top": 5642
     },
     {
       "i": 5,
       "text": "5. Usa links cortos estáticos y dinámicosEnlace copiado",
-      "top": 6268
+      "top": 6328
     },
     {
       "i": 6,
       "text": "6. Espera la aprobación de WhatsAppEnlace copiado",
-      "top": 6958
+      "top": 7018
     },
     {
       "i": 7,
       "text": "7. Envía una plantilla aprobadaEnlace copiado",
-      "top": 7816
+      "top": 7876
     },
     {
       "i": 8,
       "text": "8. Actualiza o retira una plantilla de forma seguraEnlace copiado",
-      "top": 8946
+      "top": 9006
     },
     {
       "i": 9,
       "text": "9. Soluciona errores frecuentesEnlace copiado",
-      "top": 9834
+      "top": 9894
     },
     {
       "i": 10,
       "text": "Guías relacionadasEnlace copiado",
-      "top": 10544
+      "top": 10604
     }
   ],
   "codes": [
@@ -73,35 +73,35 @@
     },
     {
       "i": 2,
-      "top": 6366,
+      "top": 6426,
       "text": "Mira la colección: {shortlink:https://shop.example.com/collections/new}\n",
       "width": 774,
       "scrollWidth": 774
     },
     {
       "i": 3,
-      "top": 6550,
+      "top": 6610,
       "text": "Revisa tu pedido: {shortlink:order}\n",
       "width": 774,
       "scrollWidth": 774
     },
     {
       "i": 4,
-      "top": 7056,
+      "top": 7116,
       "text": "curl --request GET \\\n  --url https://api.hellotext.com/v1/templates/TEMPLATE_ID \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\"\n",
       "width": 774,
       "scrollWidth": 774
     },
     {
       "i": 5,
-      "top": 7938,
+      "top": 7998,
       "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/messages \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"profile\": \"PROFILE_ID\",\n    \"technology\": \"whatsapp\",\n    \"template\": {\n      \"id\": \"TEMPLATE_ID\",\n      \"shortlinks\": {\n        \"order\": \"https://shop.example.com/account/orders/1001\"\n      }\n    }\n  }'\n",
       "width": 774,
       "scrollWidth": 774
     },
     {
       "i": 6,
-      "top": 8474,
+      "top": 8534,
       "text": "{\n  \"status\": \"received\"\n}\n",
       "width": 774,
       "scrollWidth": 774
