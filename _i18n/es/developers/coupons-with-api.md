@@ -8,7 +8,8 @@ Usa la [referencia de la API de cupones](https://www.hellotext.com/api#coupons) 
 
 Prepara:
 
-- Un token privado de autorización para la API.
+- Un token privado de autorización para la API, guardado en tu backend. No lo incluyas en formularios, JavaScript público ni mensajes.
+- Una suscripción activa para crear o actualizar cupones y registrar eventos.
 - Un código de cupón que ya funcione en la plataforma de eCommerce.
 - Una URL pública donde el cliente pueda canjearlo.
 - Una descripción breve que pueda utilizarse en un mensaje.
@@ -30,7 +31,7 @@ Hellotext puede entregar y registrar el contexto del cupón, pero el sistema de 
 
 ## 2. Crea el objeto del cupón en Hellotext
 
-Crea el cupón correspondiente:
+Los ejemplos usan datos ficticios. Reemplaza `COUPON_ID` y `PROFILE_ID` por los IDs de Hellotext correspondientes y carga tu token en la variable de entorno `HELLOTEXT_API_TOKEN` de tu servidor. Crea el cupón correspondiente:
 
 ```bash
 curl --request POST \
@@ -38,20 +39,43 @@ curl --request POST \
   --header "Authorization: Bearer $HELLOTEXT_API_TOKEN" \
   --header "Content-Type: application/json" \
   --data '{
-    "code": "WELCOME10",
+    "code": "GUIA-QR-10",
     "description": "Obtén 10% de descuento en tu primera compra",
-    "destination_url": "https://shop.example.com/discount/WELCOME10",
-    "reference": "promotion-2026-welcome"
+    "destination_url": "https://shop.example.com/discount/GUIA-QR-10",
+    "reference": "promotion-2026-guide"
   }'
 ```
 
-El código distingue mayúsculas de minúsculas y debe ser único. Mantén la descripción dentro del límite compatible y asegúrate de que la URL de destino sea accesible públicamente.
+El código distingue mayúsculas de minúsculas y debe ser único dentro de tu negocio. La descripción admite hasta 140 caracteres. Usa una URL pública con `https://` o `http://` y comprueba que abra la oferta correcta.
 
-Guarda el `id` devuelto para el cupón. Consulta [Crear un cupón](https://www.hellotext.com/api#create_a_coupon) para ver todos los campos compatibles.
+Guarda el `id` devuelto para el cupón. Es distinto del `code` que recibe el cliente y de la `reference` que identifica la promoción en tu sistema. Para recuperar, actualizar o registrar eventos del objeto, usa el ID de Hellotext.
+
+Comprueba el objeto guardado con [Recuperar un cupón](https://www.hellotext.com/api#retrieve_a_coupon):
+
+```bash
+curl --request GET \
+  --url https://api.hellotext.com/v1/coupons/COUPON_ID \
+  --header "Authorization: Bearer $HELLOTEXT_API_TOKEN"
+```
+
+Si la creación devuelve un error por código duplicado o no sabes si una request llegó a completarse, consulta [Listar cupones](https://www.hellotext.com/api#list_all_coupons) y revisa las páginas de resultados para identificar el código y la referencia existentes antes de volver a crear el objeto. Consulta [Crear un cupón](https://www.hellotext.com/api#create_a_coupon) para ver todos los campos compatibles.
 
 ## 3. Actualiza el mismo cupón cuando cambie su presentación
 
-Usa `PATCH /v1/coupons/:id` cuando cambie la descripción o la URL de destino. Conserva el mismo ID del cupón en Hellotext mientras siga representando la misma promoción.
+Usa `PATCH /v1/coupons/:id` cuando cambie la descripción o la URL de destino. Conserva el mismo ID del cupón en Hellotext mientras siga representando la misma promoción. Envía los campos que necesitas cambiar:
+
+```bash
+curl --request PATCH \
+  --url https://api.hellotext.com/v1/coupons/COUPON_ID \
+  --header "Authorization: Bearer $HELLOTEXT_API_TOKEN" \
+  --header "Content-Type: application/json" \
+  --data '{
+    "description": "10% de descuento en tu primera compra con GUIA-QR-10",
+    "destination_url": "https://shop.example.com/discount/GUIA-QR-10"
+  }'
+```
+
+Vuelve a recuperar el objeto y comprueba la nueva presentación. Consulta [Actualizar un cupón](https://www.hellotext.com/api#update_a_coupon).
 
 No conviertas un código vencido en una promoción sin relación solamente para reutilizar el registro. Crea un cupón nuevo cuando la oferta tenga otra identidad comercial, elegibilidad o código.
 
@@ -59,7 +83,19 @@ Como las reglas del checkout viven en el sistema de comercio, actualizar el obje
 
 ## 4. Usa el cupón en un mensaje o una misión compatible
 
-Una vez que el cupón existe, puedes seleccionarlo donde Hellotext ofrezca soporte para cupones, como capturas, mensajes, rutas o misiones compatibles.
+Una vez que el cupón existe, puedes seleccionarlo donde Hellotext ofrezca soporte para cupones, como capturas, mensajes, rutas o misiones compatibles. En este ejemplo de demostración, un Link Compartible selecciona `GUIA-QR-10` y una ruta de bienvenida opcional en borrador.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Cupón ficticio GUIA-QR-10 y ruta de bienvenida opcional seleccionados en un Link Compartible de demostración.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="width: fit-content; max-width: 692px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 470px)" srcset="/images/captures/shareable-link/follow-up-refresh/assignment-es-mobile.png 2x" width="700" height="976" />
+        <img src="/images/captures/shareable-link/follow-up-refresh/assignment-es.png" srcset="/images/captures/shareable-link/follow-up-refresh/assignment-es.png 2x" style="width: auto; margin: 0 auto;" width="1348" height="1008" loading="lazy" decoding="async" alt="Cupón ficticio GUIA-QR-10 y ruta de bienvenida opcional seleccionados en un Link Compartible de demostración." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Ejemplo de selección de un cupón existente en un Link Compartible. La ruta de bienvenida es opcional; seleccionarla y elegir el cupón no crea las reglas del descuento en tu tienda.</figcaption>
+</figure>
 
 Antes del lanzamiento, prueba toda la experiencia del cliente:
 
@@ -89,7 +125,9 @@ curl --request POST \
   }'
 ```
 
-Usa el valor monetario asociado con el canje confirmado según tu implementación de reportes. Envía `amount` y `currency` juntos y conserva la fecha original del evento.
+`object` es el ID del cupón de Hellotext y `profile` es el ID del cliente que realizó el canje. `amount` representa los ingresos asociados a esa compra: en el ejemplo, USD 89.90 es el valor de la compra que registras, no el valor del descuento del 10%. Envía siempre la moneda real en formato ISO 4217 junto con el monto y conserva en `tracked_at` la fecha original del canje, como timestamp Unix en segundos.
+
+Una respuesta `{"status":"received"}` indica que la request fue aceptada para su procesamiento; después comprueba que el evento aparezca en el perfil correcto. Si tu integración dispone de una sesión de atribución real del mismo cliente, puedes incluir su ID en `session`. No inventes una sesión ni atribuyas el canje a una campaña solamente porque se utilizó su cupón.
 
 No envíes `coupon.redeemed` cuando el cupón se muestra, entrega, abre o copia. Esas acciones no demuestran que el checkout lo haya aceptado.
 
@@ -99,11 +137,13 @@ Consulta [Registrar eventos de cupones](https://www.hellotext.com/api#track_coup
 
 El objeto del cupón puede reutilizarse entre muchos clientes, pero cada canje confirmado es un evento separado.
 
-- Asigna un ID interno estable a cada canje del sistema de comercio.
-- Procesa una sola vez la misma notificación del checkout.
-- Márcala como enviada después de que Hellotext responda con `status: received`.
+- Asigna un ID interno estable a cada canje del sistema de comercio y guarda su estado de envío en tu integración.
+- Procesa una sola vez la misma notificación del checkout, incluso si llega simultáneamente a dos procesos.
+- Márcala como aceptada después de que Hellotext responda con `status: received`; verifica luego su procesamiento.
 - No envíes el mismo canje desde el navegador y el backend.
-- Conserva el mismo perfil del cliente e ID del cupón en los reintentos.
+- Si hay un timeout, comprueba el resultado antes de reintentar: la request pudo haberse aceptado aunque no hayas recibido la respuesta.
+
+Conservar el mismo perfil, cupón y fecha no garantiza que un reintento se deduplique. Tu integración debe impedir el envío repetido del mismo canje.
 
 La plataforma de comercio sigue siendo responsable de impedir que un código se canjee más veces de lo permitido por sus reglas. Hellotext debe recibir el resultado final confirmado.
 
@@ -112,6 +152,7 @@ La plataforma de comercio sigue siendo responsable de impedir que un código se 
 Usa un cupón de prueba y un cliente fácil de reconocer:
 
 - El código funciona en la tienda antes de agregarlo a Hellotext.
+- Al recuperar el objeto, su ID, código, referencia y destino coinciden con la promoción.
 - El cupón de Hellotext abre el destino correcto.
 - Un mensaje compatible muestra la oferta esperada.
 - Un checkout sin éxito no crea `coupon.redeemed`.
