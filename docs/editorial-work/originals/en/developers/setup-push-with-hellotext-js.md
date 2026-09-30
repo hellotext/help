@@ -6,7 +6,7 @@ Use this guide to add Push subscription controls to your storefront with Hellote
 
 You need:
 
-- A Hellotext business with a Push channel associated with your storefront origin. Confirm this setup with Hellotext for a custom store; publishing the worker alone does not create the channel. The SDK can collect and manage subscriptions on any plan once the channel is configured. **Sending notifications requires Pro or Enterprise**; completing a subscription does not enable delivery or change the plan.
+- A **Pro or Enterprise** plan with Push available for your business. For a custom store, confirm with Hellotext that Push is enabled before testing; publishing the worker alone does not complete business setup.
 - Access to your storefront code and hosting, including the ability to publish a JavaScript file on your store's HTTPS domain.
 - Hellotext.js installed and your public Business ID. Follow [Integrate a custom store with Hellotext]({% link _developers/custom-store-integration.md %}) if you have not installed it yet.
 - A browser that supports Web Push. See [Troubleshoot Push notifications]({% link _troubleshooting-deliverability/troubleshoot-push-notifications.md %}) for device requirements and browser differences.
@@ -68,7 +68,7 @@ self.addEventListener('notificationclick', event => {
   let url
 
   try {
-    url = new URL(data.actions?.[event.action] || data.url || '/', self.location.origin)
+    url = new URL(data.url || '/', self.location.origin)
   } catch (error) {
     return
   }
@@ -85,7 +85,7 @@ self.addEventListener('notificationclick', event => {
 })
 ```
 
-The worker displays a notification and opens its destination when clicked. If the visitor selects an action button, it uses that action's destination when present in `data.actions`; otherwise, it uses `data.url`. Keep the `install` handler: it allows an updated version to activate while visitors still have your store open, instead of waiting for them to close every tab. See [how `skipWaiting()` works](https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerGlobalScope/skipWaiting) for details.
+The worker displays a notification and opens its destination when clicked. Keep the `install` handler: it allows an updated version to activate while visitors still have your store open, instead of waiting for them to close every tab. See [how `skipWaiting()` works](https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerGlobalScope/skipWaiting) for details.
 
 ### Check the published URL
 
@@ -102,7 +102,7 @@ Putting the file at the public root, as shown above, gives it a default scope co
 
 Add these handlers to the worker you already maintain and use that file's URL in step 2. Preserve its existing caching and other behavior.
 
-Place the Hellotext `push` handler **before any generic push handler**, including before code that imports one. Its `event.stopImmediatePropagation()` call applies only to Hellotext messages and prevents a later generic handler from displaying the same notification again. Include the Hellotext handlers only once in the final worker file. Do not register a second worker at the same scope to replace another tool's worker: integrate the handlers and check that both uses are compatible. An existing Push subscription using another application's key is not reused as a Hellotext subscription.
+Place the Hellotext `push` handler **before any generic push handler**, including before code that imports one. Its `event.stopImmediatePropagation()` call applies only to Hellotext messages and prevents a later generic handler from displaying the same notification again. Include the Hellotext handlers only once in the final worker file.
 
 ## 2. Pass the worker URL when initializing Hellotext
 
@@ -118,21 +118,9 @@ await Hellotext.initialize('BUSINESS_ID', {
 })
 ```
 
-Replace `BUSINESS_ID` with the identifier shown as **Business ID** in **Settings**. Use your own business ID; the figure belongs only to the local demonstration and is not a private token. Replace the worker URL with the file you published. An absolute URL is also valid if it is on the same origin as the page.
+Replace `BUSINESS_ID` with your public Hellotext Business ID and the worker URL with the file you published. An absolute URL is also valid if it is on the same origin as the page.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Settings for the fictional Enterprise business with Business ID 4ONLdN32 and Edit business.">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="width: fit-content; max-width: 886px; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 470px)" srcset="/images/developers/custom-store-integration/business-en-mobile.png 2x" width="748" height="524" />
-        <img src="/images/developers/custom-store-integration/business-en.png" srcset="/images/developers/custom-store-integration/business-en.png 2x" style="width: auto; margin: 0 auto;" width="1736" height="404" loading="lazy" decoding="async" alt="Settings for the fictional Enterprise business with Business ID 4ONLdN32 and Edit business." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Real interface in an isolated local database. The public ID belongs only to the fictional business; it is not a private token or an Enterprise pricing example.</figcaption>
-</figure>
-
-Snippets using `await` must run in a JavaScript module or inside an `async` function, after Hellotext.js loads. Use one setup flow: await initialization and connect the handlers in steps 3 and 4 when the button elements exist in the page. The `initialize()` Promise alone does not confirm that the worker is active or a subscription is registered: Push prepares the worker in the background, and `subscribe()` waits for that preparation before registering the subscription. If Shopify or VTEX handles initialization, use its existing initialized Hellotext instance.
+Run the button setup in the next steps after initialization has finished and the button elements exist in the page. If Shopify or VTEX handles initialization, use its existing initialized Hellotext instance.
 
 If your storefront already registers and activates the worker for the current page, you can omit `serviceWorkerUrl`. In that case, your existing registration code is responsible for updating and activating the worker.
 
@@ -161,32 +149,23 @@ unsubscribeButton.disabled = !Hellotext.push
 subscribeButton.addEventListener('click', async () => {
   if (!Hellotext.push) return
 
-  subscribeButton.disabled = true
-  unsubscribeButton.disabled = true
-  pushStatus.textContent = 'Completing subscription…'
-
   try {
     const response = await Hellotext.push.subscribe()
 
     if (response?.succeeded) {
       pushStatus.textContent = 'You are subscribed to notifications.'
-    } else {
-      pushStatus.textContent = 'We could not confirm your subscription. Check permissions and try again.'
+    } else if (response?.failed) {
+      pushStatus.textContent = 'We could not complete your subscription. Please try again.'
     }
   } catch (error) {
     pushStatus.textContent = 'Subscription was not completed. Check notification permissions and try again.'
-  } finally {
-    subscribeButton.disabled = !Hellotext.push
-    unsubscribeButton.disabled = !Hellotext.push
   }
 })
 ```
 
 Call `Hellotext.push.subscribe()` directly from the click handler. Do not wait for another asynchronous operation before calling it; the browser may require the visitor's click to show its permission prompt. The method also works when permission has already been granted and reuses an existing Hellotext subscription when one is present.
 
-Show the subscribed confirmation only when `response.succeeded` is true. The presence of `Hellotext.push`, a granted browser permission, or a browser subscription alone does not confirm that registration with Hellotext succeeded. If no response is returned, do not show a success message. Both buttons stay disabled during the operation to prevent simultaneous Subscribe and Unsubscribe actions. A failed response can leave a browser subscription waiting to synchronize; the SDK can retry registration in the background. An error does not prove that no subscription exists.
-
-If the visitor blocked notifications, clicking again normally does not show another permission prompt: they must review the site permissions in their browser. Do not request permission when the page loads.
+Show the subscribed confirmation only when `response.succeeded` is true. The presence of `Hellotext.push`, a granted browser permission, or a browser subscription alone does not confirm that registration with Hellotext succeeded. If no response is returned, do not show a success message.
 
 When `Hellotext.push` is unavailable, keep these controls disabled or hide them. Push can be unavailable because the browser does not support it, the page disables it, or the required configuration is unavailable.
 
@@ -198,28 +177,21 @@ Add this handler alongside the Subscribe handler. It uses the same button and st
 unsubscribeButton.addEventListener('click', async () => {
   if (!Hellotext.push) return
 
-  subscribeButton.disabled = true
-  unsubscribeButton.disabled = true
-  pushStatus.textContent = 'Unsubscribing…'
-
   try {
     const response = await Hellotext.push.unsubscribe()
 
     if (response === null || response?.succeeded) {
       pushStatus.textContent = 'You are unsubscribed from notifications.'
-    } else {
-      pushStatus.textContent = 'We could not confirm unsubscription. Please try again.'
+    } else if (response?.failed) {
+      pushStatus.textContent = 'We could not unsubscribe you. Please try again.'
     }
   } catch (error) {
     pushStatus.textContent = 'We could not unsubscribe you. Please try again.'
-  } finally {
-    subscribeButton.disabled = !Hellotext.push
-    unsubscribeButton.disabled = !Hellotext.push
   }
 })
 ```
 
-A `null` result means there was no subscription to remove, so it is safe to confirm that the visitor is already unsubscribed. A failed response or a rejected request should leave the action available for another attempt. A missing response is not a success result. The SDK first disables the identity in Hellotext, then removes the browser subscription; if the Hellotext request fails, it keeps the subscription so you can retry. Unsubscribing does not uninstall the shared worker.
+A `null` result means there was no subscription to remove, so it is safe to confirm that the visitor is already unsubscribed. A failed response or a rejected request should leave the action available for another attempt. A missing response is not a success result.
 
 Unsubscribing applies to the current browser subscription. It does not revoke the site's browser permission or remove subscriptions from the visitor's other browsers or devices.
 
@@ -228,7 +200,7 @@ Unsubscribing applies to the current browser subscription. It does not revoke th
 1. Open your deployed storefront in a supported browser.
 2. Select **Subscribe to notifications** and complete the browser prompt if one appears.
 3. Confirm that your page displays the success message from `response.succeeded`.
-4. Reload the page and confirm that initialization does not report a worker error. The SDK attempts to restore and synchronize existing Hellotext subscriptions. Reloading or checking `Hellotext.push.subscribed` alone does not prove that the latest synchronization succeeded.
+4. Reload the page and confirm that initialization does not report a worker error. Existing Hellotext subscriptions are restored automatically.
 5. Select **Unsubscribe from notifications** and wait for its confirmation.
 6. Select **Subscribe to notifications** again to verify that visitors can subscribe again.
 
