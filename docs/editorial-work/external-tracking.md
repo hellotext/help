@@ -55,3 +55,7 @@ Reused images (no duplicate uploads):
 - [https://help.hellotext.com/images/developers/custom-actions/catalog-en-mobile.png](https://help.hellotext.com/images/developers/custom-actions/catalog-en-mobile.png) — HTTP 200, SHA256 `9f1460df43463d2eef8bbd04d6c550782d05bd4129eb7f9bf0faa5f553588561`.
 
 The separate record PR and its exact main Build/normal production/page/hash verification are required to close this batch. Post-record evidence will be attached to that PR after merge. Ledger: 57 local_verified, 96 pending, 1 out_of_scope; all verifier commits are reconciled against main. The unchanged campaign/storefront blockers remain deferred.
+
+## Token label spacing refresh — 2026-09-30
+
+The token-name figure now uses the four current native P3 2× sources from Rails #6054, shared across all six consumers without duplicate upload per guide. Only its source paths and corrected height metadata changed; prose, captions, links, other figures and publication are preserved. Original source/provenance and publication evidence above are historical and retained. Current correction evidence: [token-spacing-refresh.md](token-spacing-refresh.md) and `captures/custom-store-integration/token-spacing-refresh/capture-provenance.json`. No token created; locale restored ES. Complete ES/EN page review at desktop/mobile/narrow sizes, native/build hash checks and the build passed. Public verification remains pending in the focused record.

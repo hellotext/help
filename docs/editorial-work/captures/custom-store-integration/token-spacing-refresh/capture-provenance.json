@@ -1,0 +1,357 @@
+{
+  "status": "local_verified",
+  "captured_date": "2026-09-30",
+  "user_finding": "New authorization-token label was separated from its input by wizard section spacing; user requested fresh screenshots after the UI correction.",
+  "rails_revision": "5403a7dcb567b63cae87d4c088112d65fad4eb7f",
+  "ui_fix_pr": "https://github.com/hellotext/hellotext/pull/6054",
+  "source_reuse_decision": "The original four sources record pre-fix UI and are preserved unchanged. Capture four updated native sources once; all six existing consumers share them without six duplicate uploads.",
+  "capture_method": "Canonical isolated Chrome headless compositor, native Display P3 D65, DPR 2, scale 1; no picker, pixel editing or account outside the fictitious clone.",
+  "chrome": {
+    "pid": 57358,
+    "port": 9460,
+    "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+    "single_loopback_page": true
+  },
+  "fixture": {
+    "database": "hellotext_editorial_workload_20260928",
+    "business": 5,
+    "account": "design-system@example.test",
+    "tokens_before_after": 0,
+    "events_before_after": 318,
+    "messages_before_after": 49,
+    "contacts": 127,
+    "messageable": 0,
+    "subscribed": 0,
+    "enabled_playbooks": 0,
+    "locale_restored": "es",
+    "changes": "Only account locale ES/EN, restored ES; token name is DOM draft only. No Continue/Save/Send/Test, token/API call, object, message, event, worker or delivery."
+  },
+  "images": [
+    {
+      "name": "token-es",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/token-es-original.png",
+      "published_asset": "images/developers/custom-store-integration/token-spacing/token-es.png",
+      "native": {
+        "output": "/private/tmp/hellotext-token-spacing-refresh/native/token-es-original.png",
+        "sha256": "9edcb6a1e9354047b98feb41d5a10b613acdaed33e1dfce768406dd6f3504f8a",
+        "url": "http://127.0.0.1:3192/hellotext/settings/authorizations/new",
+        "locale": "es",
+        "cssViewport": [
+          1200,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          92,
+          124,
+          540,
+          238
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1080,
+          476
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        540,
+        238
+      ],
+      "intended_max_display_width_css": 540,
+      "ui_evidence": "token-es-ui.json",
+      "corrected_label_input_gap_css": 8,
+      "reuse": false,
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Pending authorized Git publication and public verification."
+    },
+    {
+      "name": "token-es-mobile",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/token-es-mobile-original.png",
+      "published_asset": "images/developers/custom-store-integration/token-spacing/token-es-mobile.png",
+      "native": {
+        "output": "/private/tmp/hellotext-token-spacing-refresh/native/token-es-mobile-original.png",
+        "sha256": "6c9ef30747a2fe23a65542aa040142515cfe034a5df24c6a51e0161f4052b94b",
+        "url": "http://127.0.0.1:3192/hellotext/settings/authorizations/new",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          8,
+          40,
+          374,
+          216
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          748,
+          432
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        374,
+        216
+      ],
+      "intended_max_display_width_css": 374,
+      "ui_evidence": "token-es-mobile-ui.json",
+      "corrected_label_input_gap_css": 8,
+      "reuse": false,
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Pending authorized Git publication and public verification."
+    },
+    {
+      "name": "token-en",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/token-en-original.png",
+      "published_asset": "images/developers/custom-store-integration/token-spacing/token-en.png",
+      "native": {
+        "output": "/private/tmp/hellotext-token-spacing-refresh/native/token-en-original.png",
+        "sha256": "efe16993a26fbf2e3047bc57da420ff888069022f45fcebd3af561965906a4c2",
+        "url": "http://127.0.0.1:3192/hellotext/settings/authorizations/new",
+        "locale": "en",
+        "cssViewport": [
+          1200,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          92,
+          124,
+          540,
+          238
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1080,
+          476
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        540,
+        238
+      ],
+      "intended_max_display_width_css": 540,
+      "ui_evidence": "token-en-ui.json",
+      "corrected_label_input_gap_css": 8,
+      "reuse": false,
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Pending authorized Git publication and public verification."
+    },
+    {
+      "name": "token-en-mobile",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/token-en-mobile-original.png",
+      "published_asset": "images/developers/custom-store-integration/token-spacing/token-en-mobile.png",
+      "native": {
+        "output": "/private/tmp/hellotext-token-spacing-refresh/native/token-en-mobile-original.png",
+        "sha256": "2200d9bccae650ed15f47970ab7eb729365e544e6000b1bde4758e600697778b",
+        "url": "http://127.0.0.1:3192/hellotext/settings/authorizations/new",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          8,
+          40,
+          374,
+          216
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          748,
+          432
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        374,
+        216
+      ],
+      "intended_max_display_width_css": 374,
+      "ui_evidence": "token-en-mobile-ui.json",
+      "corrected_label_input_gap_css": 8,
+      "reuse": false,
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Pending authorized Git publication and public verification."
+    }
+  ],
+  "articles": [
+    {
+      "article": "_i18n/es/developers/developers-overview.md",
+      "snapshot": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/originals/es/developers-overview.md",
+      "sha256": "4506195df68917d5a58a6b7d7976b99c8bdb0d1c2a93e980a71368b66f585a16",
+      "updated_sha256": "6f323a55983b38e7c8a7a825e6bd756f4011e840ac559308f86d3478b5e56c4d",
+      "public_path": "/es/resumen-desarrolladores-api",
+      "figures": 2,
+      "text_captions_links_other_figures_stub_unchanged": true
+    },
+    {
+      "article": "_i18n/es/developers/custom-store-integration.md",
+      "snapshot": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/originals/es/custom-store-integration.md",
+      "sha256": "366fc25a8f19b3cc725df9351cfdcb327ac75babcdec539dad09266015a2700b",
+      "updated_sha256": "3d298991c4f04a0dc6b4fb4e918da3287e2d6e2085a86b03c8da57022bea8191",
+      "public_path": "/es/integrar-tienda-personalizada",
+      "figures": 2,
+      "text_captions_links_other_figures_stub_unchanged": true
+    },
+    {
+      "article": "_i18n/es/developers/external-tracking.md",
+      "snapshot": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/originals/es/external-tracking.md",
+      "sha256": "6c8eb8ca4bc5d0e545eb60a997abe5d47ca8b45ec07ce0eae8f6e286ed3fcea1",
+      "updated_sha256": "00fd639da52cedec456d691d60d8ec70849f5f7046ff8d22c3c3d9775b9912c7",
+      "public_path": "/es/seguimiento-externo",
+      "figures": 2,
+      "text_captions_links_other_figures_stub_unchanged": true
+    },
+    {
+      "article": "_i18n/es/developers/orders-with-api.md",
+      "snapshot": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/originals/es/orders-with-api.md",
+      "sha256": "d10c181bac21eebe5ddde8b5dbf9c1869345e2ba15a6926127af35ae07bef566",
+      "updated_sha256": "f4a24564026e38f66eeba3658a0e933fb791b2533f16b0dcf34291660fc8ce83",
+      "public_path": "/es/pedidos-con-api",
+      "figures": 3,
+      "text_captions_links_other_figures_stub_unchanged": true
+    },
+    {
+      "article": "_i18n/es/developers/products-and-inventory-with-api.md",
+      "snapshot": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/originals/es/products-and-inventory-with-api.md",
+      "sha256": "bbd5290a75a8e84dc9f6a12ce2c91d31abc0c415432b25bd61e0fef8c3714d10",
+      "updated_sha256": "2e560bef369125abf672674167f0e2c77ba2d95fc7eeff136c2505e1bfe914ed",
+      "public_path": "/es/productos-inventario-con-api",
+      "figures": 3,
+      "text_captions_links_other_figures_stub_unchanged": true
+    },
+    {
+      "article": "_i18n/es/developers/send-messages-with-api.md",
+      "snapshot": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/originals/es/send-messages-with-api.md",
+      "sha256": "d23c4910ea6ce612aa5895ad8c8fef4593ac221bf41bcc01f3d49e2dbbb5d6fc",
+      "updated_sha256": "1690f04cf1926d68fd41271be9cdfb3e696ef3ce2552c8b36ea8f52088bad3d5",
+      "public_path": "/es/enviar-mensajes-con-api",
+      "figures": 2,
+      "text_captions_links_other_figures_stub_unchanged": true
+    },
+    {
+      "article": "_i18n/en/developers/developers-overview.md",
+      "snapshot": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/originals/en/developers-overview.md",
+      "sha256": "ba24d4d02f1a7325b7366129d66d7ff7cd004421e1e46d23efbfb029657d14ba",
+      "updated_sha256": "00bbd87ab16fc652d1579b560f1eb76c743b86b07a52624ccffc8c8306f61c8b",
+      "public_path": "/developers-api-overview",
+      "figures": 2,
+      "text_captions_links_other_figures_stub_unchanged": true
+    },
+    {
+      "article": "_i18n/en/developers/custom-store-integration.md",
+      "snapshot": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/originals/en/custom-store-integration.md",
+      "sha256": "70f4c2187135143862c741ff9718147f5ea113f3455dfe70e7437bc8dcdca9ab",
+      "updated_sha256": "2036bd50a900d0d91a293147fca72e8e30f560c187f6abd93ccf0e414d716a9b",
+      "public_path": "/integrate-custom-store",
+      "figures": 2,
+      "text_captions_links_other_figures_stub_unchanged": true
+    },
+    {
+      "article": "_i18n/en/developers/external-tracking.md",
+      "snapshot": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/originals/en/external-tracking.md",
+      "sha256": "4d02cf5a81eb5a2a998fe26d8de2029e2a78cb96bb4858b1230067f93487d604",
+      "updated_sha256": "3480d71a0d8203cf81890e97cdb53c29eba60059df750bfb50567f9fa56772e5",
+      "public_path": "/external-tracking",
+      "figures": 2,
+      "text_captions_links_other_figures_stub_unchanged": true
+    },
+    {
+      "article": "_i18n/en/developers/orders-with-api.md",
+      "snapshot": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/originals/en/orders-with-api.md",
+      "sha256": "02d48b8ac463c4c44739f97175d979a208e30535c3171257edd18d8d75652522",
+      "updated_sha256": "aabe14f48492d1f2d414d42da732896a78e238a8158d0284220cbbf90823609a",
+      "public_path": "/orders-with-api",
+      "figures": 3,
+      "text_captions_links_other_figures_stub_unchanged": true
+    },
+    {
+      "article": "_i18n/en/developers/products-and-inventory-with-api.md",
+      "snapshot": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/originals/en/products-and-inventory-with-api.md",
+      "sha256": "d8ed6bbea14279b14a53f81deb707655f09b6a38bfd5d2e80cc5613d321c15ef",
+      "updated_sha256": "67295979db2f91812b982f045b295837b7b1ae4a595325116bfd7f615583035b",
+      "public_path": "/products-and-inventory-with-api",
+      "figures": 3,
+      "text_captions_links_other_figures_stub_unchanged": true
+    },
+    {
+      "article": "_i18n/en/developers/send-messages-with-api.md",
+      "snapshot": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/originals/en/send-messages-with-api.md",
+      "sha256": "c2597da948ec497e5912e75d04ec36dc049f1e69beec88acc91a1325e47bcbd2",
+      "updated_sha256": "aaca48cf8a9fdf3d61fc79bf39ec9318bc1a4e13af2d3d496cc10a513a0bd2be",
+      "public_path": "/send-messages-with-api",
+      "figures": 2,
+      "text_captions_links_other_figures_stub_unchanged": true
+    }
+  ],
+  "ledger": {
+    "main": "ef3d4511ad18b6ab9736d28171401e5c2101e54e",
+    "counts": {
+      "local_verified": 61,
+      "pending": 92,
+      "out_of_scope": 1
+    },
+    "all_61_verifiers_ancestors": true,
+    "inventory_pairs_excluding_redirect": 153,
+    "out_of_scope_redirect": "developers/api.md"
+  },
+  "local_verification": {
+    "status": "passed",
+    "frame_max_width_css": 558,
+    "desktop_native_width_css": 540,
+    "mobile_native_width_css": 374,
+    "responsive_density": "Every source declares 2x; frame cap adds 18px border/inset to desktop logical width. Lavender stage stays full column width.",
+    "unchanged_content": "Reverse-patch checks recover all twelve pre-refresh snapshots exactly; only shared token paths and height metadata changed.",
+    "evidence": "local-verification.json",
+    "visual_inspection": "All four untouched native PNGs and all 36 localized token-figure presentations inspected; Object Sans, spacing, complete input, no cursor/caret/clipped controls/scrollbar/gray line/private data; no enlargement. All other existing figure bytes unchanged.",
+    "review_browser": {
+      "port": 9452,
+      "profile": "/private/tmp/hellotext-subscriber-help-review-9452",
+      "single_local_tab": true,
+      "dpr": 2,
+      "zoom": 1
+    }
+  },
+  "pending": [
+    "Required PR checks and exact-head independent review",
+    "Main Build, exact normal Netlify production and public page/PNG verification"
+  ]
+}

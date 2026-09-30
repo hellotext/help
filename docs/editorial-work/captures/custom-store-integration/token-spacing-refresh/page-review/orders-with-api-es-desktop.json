@@ -1,0 +1,45 @@
+{
+  "url": "http://127.0.0.1:4191/es/pedidos-con-api.html",
+  "lang": "es",
+  "title": "Crea y registra pedidos con la API | Hellotext",
+  "width": 1440,
+  "figures": [
+    {
+      "i": 0,
+      "top": 1624,
+      "height": 314,
+      "figWidth": 774,
+      "imageWidth": 540,
+      "naturalWidth": 540,
+      "src": "http://127.0.0.1:4191/images/developers/custom-store-integration/token-spacing/token-es.png",
+      "whiteFrameWidth": 558,
+      "frameWidth": 774,
+      "caption": "Prepara la autorización desde el negocio correcto; este borrador no crea ni expone un token. El secreto pertenece sólo al backend."
+    },
+    {
+      "i": 1,
+      "top": 3368,
+      "height": 533,
+      "figWidth": 774,
+      "imageWidth": 503,
+      "naturalWidth": 503,
+      "src": "http://127.0.0.1:4191/images/developers/orders-with-api/details-es.png",
+      "whiteFrameWidth": 521,
+      "frameWidth": 774,
+      "caption": "Vista real de un pedido ficticio sin eventos. «ID de la orden» muestra aquí la referencia ORDER-1001; conserva por separado el id público devuelto por la API."
+    },
+    {
+      "i": 2,
+      "top": 3937,
+      "height": 362,
+      "figWidth": 774,
+      "imageWidth": 471,
+      "naturalWidth": 471,
+      "src": "http://127.0.0.1:4191/images/developers/orders-with-api/items-es.png",
+      "whiteFrameWidth": 489,
+      "frameWidth": 774,
+      "caption": "La línea conserva producto, cantidad y precio unitario: 2 × USD 44.95 = USD 89.90. Esta vista de datos no demuestra que se haya registrado una compra o un evento."
+    }
+  ],
+  "scrollWidth": 1440
+}

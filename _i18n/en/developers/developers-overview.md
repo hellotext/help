@@ -52,8 +52,8 @@ Open **Settings**, select **Manage your authorization tokens**, then **Create ne
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="width: fit-content; max-width: 558px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 470px)" srcset="/images/developers/custom-store-integration/token-en-mobile.png 2x" width="748" height="480" />
-        <img src="/images/developers/custom-store-integration/token-en.png" srcset="/images/developers/custom-store-integration/token-en.png 2x" style="width: auto; margin: 0 auto;" width="1080" height="524" loading="lazy" decoding="async" alt="Create a new token with Token name Custom store · development, in an unsaved draft." />
+        <source media="(max-width: 470px)" srcset="/images/developers/custom-store-integration/token-spacing/token-en-mobile.png 2x" width="748" height="432" />
+        <img src="/images/developers/custom-store-integration/token-spacing/token-en.png" srcset="/images/developers/custom-store-integration/token-spacing/token-en.png 2x" style="width: auto; margin: 0 auto;" width="1080" height="476" loading="lazy" decoding="async" alt="Create a new token with Token name Custom store · development, in an unsaved draft." />
       </picture>
     </div>
   </div>

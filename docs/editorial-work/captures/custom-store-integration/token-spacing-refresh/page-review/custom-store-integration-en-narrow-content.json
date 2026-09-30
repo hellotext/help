@@ -1,0 +1,183 @@
+{
+  "sections": [
+    {
+      "i": 0,
+      "text": "Before you startLink copied",
+      "top": 1088
+    },
+    {
+      "i": 1,
+      "text": "1. Create an API authorization tokenLink copied",
+      "top": 2062
+    },
+    {
+      "i": 2,
+      "text": "2. Create the property definitions you needLink copied",
+      "top": 3246
+    },
+    {
+      "i": 3,
+      "text": "3. Create or synchronize customer profilesLink copied",
+      "top": 4186
+    },
+    {
+      "i": 4,
+      "text": "4. Synchronize the product catalogLink copied",
+      "top": 5110
+    },
+    {
+      "i": 5,
+      "text": "5. Import historical ordersLink copied",
+      "top": 6254
+    },
+    {
+      "i": 6,
+      "text": "6. Install Hellotext.js on the storefrontLink copied",
+      "top": 8206
+    },
+    {
+      "i": 7,
+      "text": "7. Track browser activityLink copied",
+      "top": 9644
+    },
+    {
+      "i": 8,
+      "text": "8. Connect anonymous activity to the customerLink copied",
+      "top": 12588
+    },
+    {
+      "i": 9,
+      "text": "9. Track trusted events from the backendLink copied",
+      "top": 13736
+    },
+    {
+      "i": 10,
+      "text": "10. Verify the complete integrationLink copied",
+      "top": 14956
+    },
+    {
+      "i": 11,
+      "text": "Go-live checklistLink copied",
+      "top": 15640
+    },
+    {
+      "i": 12,
+      "text": "Related guidesLink copied",
+      "top": 16252
+    }
+  ],
+  "codes": [
+    {
+      "i": 0,
+      "top": 2826,
+      "text": "curl --request GET \\\n  --url https://api.hellotext.com/v1/profiles \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\"\n",
+      "width": 548,
+      "scrollWidth": 548
+    },
+    {
+      "i": 1,
+      "top": 3574,
+      "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/properties \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"name\": \"Customer ID\",\n    \"kind\": \"text\",\n    \"unique\": true\n  }'\n",
+      "width": 548,
+      "scrollWidth": 548
+    },
+    {
+      "i": 2,
+      "top": 4338,
+      "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/profiles \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"first_name\": \"Ana\",\n    \"last_name\": \"Silva\",\n    \"email[primary]\": \"ana@example.test\",\n    \"property_by_id[PROPERTY_ID]\": \"customer-4821\"\n  }'\n",
+      "width": 548,
+      "scrollWidth": 548
+    },
+    {
+      "i": 3,
+      "top": 5226,
+      "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/products \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"name\": \"Everyday Sneakers\",\n    \"reference\": \"product-100\",\n    \"sku\": \"SKU-100\",\n    \"source\": \"custom_store\",\n    \"url\": \"https://shop.example.com/products/everyday-sneakers\",\n    \"image_url\": \"https://shop.example.com/images/everyday-sneakers.jpg\",\n    \"price\": {\n      \"amount\": 89.90,\n      \"currency\": \"USD\"\n    },\n    \"categories\": [\"Shoes\"],\n    \"tags\": [\"Everyday\"]\n  }'\n",
+      "width": 548,
+      "scrollWidth": 648
+    },
+    {
+      "i": 4,
+      "top": 6594,
+      "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/orders \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"reference\": \"ORDER-1001\",\n    \"source\": \"custom_store\",\n    \"delivery\": \"deliver\",\n    \"items\": [\n      {\n        \"product\": \"PRODUCT_ID\",\n        \"quantity\": 1,\n        \"price\": {\n          \"amount\": 89.90,\n          \"currency\": \"USD\"\n        }\n      }\n    ]\n  }'\n",
+      "width": 548,
+      "scrollWidth": 548
+    },
+    {
+      "i": 5,
+      "top": 7370,
+      "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"order.confirmed\",\n    \"profile\": \"PROFILE_ID\",\n    \"object\": \"ORDER_ID\",\n    \"amount\": 89.90,\n    \"currency\": \"USD\",\n    \"tracked_at\": 1751328000\n  }'\n",
+      "width": 548,
+      "scrollWidth": 548
+    },
+    {
+      "i": 6,
+      "top": 8334,
+      "text": "npm install --save-exact @hellotext/hellotext@2.6.0\n",
+      "width": 548,
+      "scrollWidth": 548
+    },
+    {
+      "i": 7,
+      "top": 8494,
+      "text": "import Hellotext from '@hellotext/hellotext'\n\nawait Hellotext.initialize('HELLOTEXT_BUSINESS_ID')\n",
+      "width": 548,
+      "scrollWidth": 548
+    },
+    {
+      "i": 8,
+      "top": 9240,
+      "text": "<script src=\"https://unpkg.com/@hellotext/hellotext@2.6.0/dist/hellotext.js\"></script>\n<script>\n  Hellotext.initialize('HELLOTEXT_BUSINESS_ID')\n    .then(() => Hellotext.track('page.viewed'))\n    .then(response => {\n      if (response.failed) console.error(response.data)\n    })\n    .catch(error => console.error(error))\n</script>\n",
+      "width": 548,
+      "scrollWidth": 757
+    },
+    {
+      "i": 9,
+      "top": 9808,
+      "text": "const pageResponse = await Hellotext.track('page.viewed')\n\nif (pageResponse.failed) {\n  console.error(pageResponse.data)\n}\n",
+      "width": 548,
+      "scrollWidth": 548
+    },
+    {
+      "i": 10,
+      "top": 10288,
+      "text": "await Hellotext.track('product.viewed', {\n  object: 'PRODUCT_ID',\n})\n",
+      "width": 548,
+      "scrollWidth": 548
+    },
+    {
+      "i": 11,
+      "top": 10544,
+      "text": "await Hellotext.track('product.viewed', {\n  object_parameters: {\n    name: 'Everyday Sneakers',\n    reference: 'product-100',\n    source: 'custom_store',\n    url: window.location.href,\n    image_url: 'https://shop.example.com/images/everyday-sneakers.jpg',\n    price: {\n      amount: 89.90,\n      currency: 'USD',\n    },\n  },\n})\n",
+      "width": 548,
+      "scrollWidth": 632
+    },
+    {
+      "i": 12,
+      "top": 10992,
+      "text": "const response = await Hellotext.track('cart.added', {\n  object_parameters: {\n    reference: 'CART-9001',\n    source: 'custom_store',\n    items: [\n      {\n        product: 'PRODUCT_ID',\n        quantity: 1,\n      },\n    ],\n  },\n})\n\nif (response.failed) {\n  console.error(response.data)\n}\n",
+      "width": 548,
+      "scrollWidth": 548
+    },
+    {
+      "i": 13,
+      "top": 11832,
+      "text": "await Hellotext.track('order.placed', {\n  amount: 89.90,\n  currency: 'USD',\n  object_parameters: {\n    reference: 'ORDER-1001',\n    source: 'custom_store',\n    delivery: 'deliver',\n    items: [\n      {\n        product: 'PRODUCT_ID',\n        quantity: 1,\n      },\n    ],\n  },\n})\n",
+      "width": 548,
+      "scrollWidth": 548
+    },
+    {
+      "i": 14,
+      "top": 13012,
+      "text": "curl --request PATCH \\\n  --url https://api.hellotext.com/v1/sessions/HELLOTEXT_SESSION_ID \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"profile\": \"PROFILE_ID\"\n  }'\n",
+      "width": 548,
+      "scrollWidth": 607
+    },
+    {
+      "i": 15,
+      "top": 14320,
+      "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"order.placed\",\n    \"profile\": \"PROFILE_ID\",\n    \"object\": \"ORDER_ID\",\n    \"amount\": 89.90,\n    \"currency\": \"USD\"\n  }'\n",
+      "width": 548,
+      "scrollWidth": 548
+    }
+  ]
+}

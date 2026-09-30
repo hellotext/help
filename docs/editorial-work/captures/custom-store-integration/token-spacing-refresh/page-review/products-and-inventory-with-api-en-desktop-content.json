@@ -1,0 +1,72 @@
+{
+  "sections": [
+    {
+      "i": 0,
+      "text": "Before you startLink copied",
+      "top": 1126
+    },
+    {
+      "i": 1,
+      "text": "1. Choose stable product identityLink copied",
+      "top": 2086
+    },
+    {
+      "i": 2,
+      "text": "2. Create a product and its variantsLink copied",
+      "top": 3145
+    },
+    {
+      "i": 3,
+      "text": "3. Update the existing record when catalog data changesLink copied",
+      "top": 4427
+    },
+    {
+      "i": 4,
+      "text": "4. Understand the inventory boundaryLink copied",
+      "top": 5729
+    },
+    {
+      "i": 5,
+      "text": "5. Track product activity with the product IDLink copied",
+      "top": 6343
+    },
+    {
+      "i": 6,
+      "text": "6. Design a safe catalog synchronizationLink copied",
+      "top": 7265
+    },
+    {
+      "i": 7,
+      "text": "7. Verify catalog qualityLink copied",
+      "top": 7859
+    },
+    {
+      "i": 8,
+      "text": "Related guidesLink copied",
+      "top": 8341
+    }
+  ],
+  "codes": [
+    {
+      "i": 0,
+      "top": 3243,
+      "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/products \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"name\": \"Everyday Sneakers\",\n    \"reference\": \"product-100\",\n    \"source\": \"custom_store\",\n    \"brand\": \"Acme\",\n    \"url\": \"https://shop.example.com/products/everyday-sneakers\",\n    \"image_url\": \"https://shop.example.com/images/everyday-sneakers.jpg\",\n    \"price\": {\n      \"amount\": 89.90,\n      \"currency\": \"USD\"\n    },\n    \"categories\": [\"Shoes\"],\n    \"collection\": [\"Everyday\"],\n    \"tags\": [\"Comfort\"],\n    \"variants\": [\n      {\n        \"name\": \"Everyday Sneakers / Black / 42\",\n        \"reference\": \"variant-100-black-42\",\n        \"sku\": \"SKU-100-BLK-42\",\n        \"price\": {\n          \"amount\": 89.90,\n          \"currency\": \"USD\"\n        }\n      }\n    ]\n  }'\n",
+      "width": 774,
+      "scrollWidth": 774
+    },
+    {
+      "i": 1,
+      "top": 4631,
+      "text": "curl --request PATCH \\\n  --url https://api.hellotext.com/v1/attribution/products/PRODUCT_ID \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"price\": {\n      \"amount\": 79.90,\n      \"currency\": \"USD\"\n    },\n    \"tags\": [\"Comfort\", \"Sale\"]\n  }'\n",
+      "width": 774,
+      "scrollWidth": 774
+    },
+    {
+      "i": 2,
+      "top": 6641,
+      "text": "await Hellotext.initialize('PUBLIC_BUSINESS_ID')\nawait Hellotext.track('page.viewed')\nawait Hellotext.track('product.viewed', {\n  object: 'PRODUCT_ID',\n})\n",
+      "width": 774,
+      "scrollWidth": 774
+    }
+  ]
+}
