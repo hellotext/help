@@ -75,3 +75,14 @@ The final PR review identified a real intermediate-width issue at 601 CSS px: th
 The final breakpoint fix passed production build/security headers and browser inspection in both locales at 600, 601, 1024, 1280, 1399 and 1400 CSS px. The focus remains 436 CSS px through 1399; the wide composite renders at about 676 CSS px at 1400. There is no overflow or source enlargement. Existing full-page 1440/390 review remains applicable; no PNG changed.
 
 Final follow-up verifier after the intermediate-width fix: `f5404c53925c46fee470a57fc3d970db571ccd2e`, referenced from its separate descendant ledger commit. This supersedes the earlier follow-up verifier without rewriting any existing commit.
+
+
+### Public preview follow-up verification — 2026-09-30
+
+Help PR [#251](https://github.com/hellotext/help/pull/251) merged by `d5ca4b3201766ce0c3f3929c4ff5e85727fb484e`, preserving all four real content/verifier commits. Build, Aikido, Netlify preview and header checks passed. The synthetic ancestry finding was refuted using the GitHub PR commit parents and local ancestry, and its thread was resolved. The real 601 px legibility finding was corrected in both locales, verified across tablet/narrow desktop and the 1399/1400 boundary, then resolved. The final review completed without a new finding. No check or protection was bypassed. Attaching the PR reached the existing 100-identity limit.
+
+Main [Build 36658247561](https://github.com/hellotext/help/actions/runs/36658247561) passed for that exact merge SHA. The public [ES page](https://help.hellotext.com/es/widget-webchat) and [EN page](https://help.hellotext.com/webchat-widget-playbook) returned 200 with nine figures per locale, all three locale-matched new assets and the final 1399 px source condition. All six new native PNGs and 26 preserved earlier assets returned 200 and matched their approved SHA-256 hashes. The seven earlier figures were preserved without uploads or duplicate assets.
+
+The public site-alias Netlify listing is now accessible at `https://api.netlify.com/api/v1/sites/legendary-lollipop-e2d131.netlify.app/deploys`. It shows normal production deployment `6abc6e88678c5200089f1aec`, branch main, state ready and published_at 2026-09-30T02:06:31.822Z, with commit_ref exactly matching `d5ca4b3201766ce0c3f3929c4ff5e85727fb484e`. This follow-up can establish the deployment-to-SHA association from current evidence; earlier records accurately retain their historical access limitation. No manual deploy ran. URLs/hashes and selected deployment metadata are saved in `captures/webchat-widget/preview-follow-up/public-verification.json`.
+
+The guide remains local_verified and the inventory stays at 52 complete pairs, 101 pending and one out_of_scope redirect. Its final content verifier `f5404c53925c46fee470a57fc3d970db571ccd2e` is an ancestor of the supported content merge and this separate public-verification record.
