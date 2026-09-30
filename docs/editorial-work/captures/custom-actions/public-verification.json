@@ -1,0 +1,141 @@
+{
+  "verified_at_utc": "2026-09-30T08:01:23.398201+00:00",
+  "verified_git_main_sha": "09740770751cfa909ea5d96a9ec4122f1b1d6c2c",
+  "production_deploy_id_sha_association": {
+    "id": "6abcc187033d300008f2585a",
+    "site_id": "d66a79c1-b5de-44d1-bc47-bc7809f7f3b3",
+    "state": "ready",
+    "context": "production",
+    "branch": "main",
+    "commit_ref": "09740770751cfa909ea5d96a9ec4122f1b1d6c2c",
+    "created_at": "2026-09-30T08:00:07.803Z",
+    "published_at": "2026-09-30T08:00:50.212Z",
+    "deploy_ssl_url": "https://main--legendary-lollipop-e2d131.netlify.app"
+  },
+  "deployment_method": "Normal Netlify production deployment after Git merge; no manual deployment. Public site-alias listing is accessible.",
+  "pages": [
+    {
+      "url": "https://help.hellotext.com/es/acciones-personalizadas",
+      "status": 200,
+      "figures": 3,
+      "updated_assets_present": [
+        "/images/developers/custom-actions/catalog-es.png",
+        "/images/developers/custom-actions/catalog-es-mobile.png",
+        "/images/developers/custom-actions/draft-es.png",
+        "/images/developers/custom-actions/draft-es-mobile.png",
+        "/images/developers/custom-actions/manual-es.png",
+        "/images/developers/custom-actions/manual-es-mobile.png"
+      ]
+    },
+    {
+      "url": "https://help.hellotext.com/custom-actions",
+      "status": 200,
+      "figures": 3,
+      "updated_assets_present": [
+        "/images/developers/custom-actions/catalog-en.png",
+        "/images/developers/custom-actions/catalog-en-mobile.png",
+        "/images/developers/custom-actions/draft-en.png",
+        "/images/developers/custom-actions/draft-en-mobile.png",
+        "/images/developers/custom-actions/manual-en.png",
+        "/images/developers/custom-actions/manual-en-mobile.png"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-actions/catalog-es.png",
+      "status": 200,
+      "sha256": "a12712f6c78adc83c29a0c497ccb3a061449789f26a7d5cbaf6fdab127612389",
+      "matches_approved_source": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-actions/catalog-es-mobile.png",
+      "status": 200,
+      "sha256": "fab59f9490d84ad14feb17be6a5701ba29c39161fdc7bd5fbd391a2a16651d76",
+      "matches_approved_source": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-actions/draft-es.png",
+      "status": 200,
+      "sha256": "258e358aa7e9f2f03d60ab7966661be2048f014991bb400673ca2a0e0296c9c1",
+      "matches_approved_source": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-actions/draft-es-mobile.png",
+      "status": 200,
+      "sha256": "3fa29dd6103400c248569123a6528bf88e17bc1e94d401bf6fe99ff003284b2f",
+      "matches_approved_source": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-actions/manual-es.png",
+      "status": 200,
+      "sha256": "144e3281a27f8c6e5434f2e5e12585039d18bd9f300e259df95381af25c376a2",
+      "matches_approved_source": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-actions/manual-es-mobile.png",
+      "status": 200,
+      "sha256": "9cc3f116cb1a88b065f769c74e3b215dc3a39383af884a203e240a965970dacf",
+      "matches_approved_source": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-actions/catalog-en.png",
+      "status": 200,
+      "sha256": "6fdbbbe59759abe2be46c35406174c9dae62c52dcdb56d65f5875e003e278bef",
+      "matches_approved_source": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-actions/catalog-en-mobile.png",
+      "status": 200,
+      "sha256": "9f1460df43463d2eef8bbd04d6c550782d05bd4129eb7f9bf0faa5f553588561",
+      "matches_approved_source": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-actions/draft-en.png",
+      "status": 200,
+      "sha256": "6158a3c27087d464e776dbce27420c15e7cbc91b0d54d1085b2d385eafd86c6e",
+      "matches_approved_source": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-actions/draft-en-mobile.png",
+      "status": 200,
+      "sha256": "20ae392c54add5a20496f4cf68857067cbb3e9dc0d60ae6f1318c637ec1e4d74",
+      "matches_approved_source": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-actions/manual-en.png",
+      "status": 200,
+      "sha256": "77dd2a9505cbc073897db00674689fcf819a0ace5b5b58bc53ad36e3aad8ba7b",
+      "matches_approved_source": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-actions/manual-en-mobile.png",
+      "status": 200,
+      "sha256": "77277beaf19ecfad6b22bb3933c8a563bedb3dabc0a43fbaff07a055358fa80e",
+      "matches_approved_source": true
+    }
+  ],
+  "pull_request": 267,
+  "main_build": {
+    "conclusion": "success",
+    "databaseId": 36687001089,
+    "event": "push",
+    "headSha": "09740770751cfa909ea5d96a9ec4122f1b1d6c2c",
+    "status": "completed",
+    "url": "https://github.com/hellotext/help/actions/runs/36687001089"
+  },
+  "new_png_uploads": 12,
+  "reused_current_pngs": 0,
+  "independent_review": {
+    "head_sha": "d6ebd4d775b5b2898ea637f37c62d55593316617",
+    "state": "completed",
+    "result_url": "https://github.com/hellotext/help/pull/267#issuecomment-5906657387",
+    "unresolved_threads": 0,
+    "finding_count": 0
+  },
+  "retained_individual_commits": [
+    "1c3c7e8503ad69ee70d1839ef349985c86c843a0",
+    "d6ebd4d775b5b2898ea637f37c62d55593316617"
+  ],
+  "local_content_verifier": "1c3c7e8503ad69ee70d1839ef349985c86c843a0"
+}
