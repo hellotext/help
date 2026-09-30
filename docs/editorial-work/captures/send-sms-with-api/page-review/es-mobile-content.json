@@ -1,0 +1,108 @@
+{
+  "sections": [
+    {
+      "i": 0,
+      "text": "Antes de empezarEnlace copiado",
+      "top": 685
+    },
+    {
+      "i": 1,
+      "text": "1. Crea un token de autorizaciónEnlace copiado",
+      "top": 1209
+    },
+    {
+      "i": 2,
+      "text": "2. Elige cómo identificar al destinatarioEnlace copiado",
+      "top": 2118
+    },
+    {
+      "i": 3,
+      "text": "3. Envía el primer SMSEnlace copiado",
+      "top": 2822
+    },
+    {
+      "i": 4,
+      "text": "4. Interpreta la respuestaEnlace copiado",
+      "top": 4206
+    },
+    {
+      "i": 5,
+      "text": "5. Prueba el flujo completoEnlace copiado",
+      "top": 5778
+    },
+    {
+      "i": 6,
+      "text": "Mensajes con linksEnlace copiado",
+      "top": 6470
+    },
+    {
+      "i": 7,
+      "text": "Cuándo usar una plantillaEnlace copiado",
+      "top": 7062
+    },
+    {
+      "i": 8,
+      "text": "Longitud, codificación y costoEnlace copiado",
+      "top": 8915
+    },
+    {
+      "i": 9,
+      "text": "Consentimiento y límites de envíoEnlace copiado",
+      "top": 9867
+    },
+    {
+      "i": 10,
+      "text": "Errores frecuentesEnlace copiado",
+      "top": 10451
+    },
+    {
+      "i": 11,
+      "text": "Guías relacionadasEnlace copiado",
+      "top": 11331
+    }
+  ],
+  "codes": [
+    {
+      "i": 0,
+      "top": 1834,
+      "text": "Authorization: Bearer TU_TOKEN\n",
+      "width": 358,
+      "scrollWidth": 358
+    },
+    {
+      "i": 1,
+      "top": 3210,
+      "text": "curl -X POST \"https://api.hellotext.com/v1/messages\" \\\n  -H \"Authorization: Bearer TU_TOKEN\" \\\n  -H \"Content-Type: application/json\" \\\n  --data '{\n    \"technology\": \"sms\",\n    \"destination\": \"+59899123456\",\n    \"body\": \"Tu pedido ya está listo para retirar.\"\n  }'\n",
+      "width": 358,
+      "scrollWidth": 490
+    },
+    {
+      "i": 2,
+      "top": 3562,
+      "text": "curl -X POST \"https://api.hellotext.com/v1/messages\" \\\n  -H \"Authorization: Bearer TU_TOKEN\" \\\n  -H \"Content-Type: application/json\" \\\n  --data '{\n    \"technology\": \"sms\",\n    \"profile\": \"ID_DEL_PERFIL\",\n    \"body\": \"Tu pedido ya está listo para retirar.\"\n  }'\n",
+      "width": 358,
+      "scrollWidth": 490
+    },
+    {
+      "i": 3,
+      "top": 4334,
+      "text": "{\n  \"status\": \"received\"\n}\n",
+      "width": 358,
+      "scrollWidth": 358
+    },
+    {
+      "i": 4,
+      "top": 6610,
+      "text": "Sigue tu pedido aquí: {shortlink:https://shop.example.com/orders/123}\n",
+      "width": 358,
+      "scrollWidth": 615
+    },
+    {
+      "i": 5,
+      "top": 8327,
+      "text": "{\n  \"technology\": \"sms\",\n  \"profile\": \"ID_DEL_PERFIL\",\n  \"template\": {\n    \"id\": \"ID_DE_LA_PLANTILLA\",\n    \"shortlinks\": {\n      \"order\": \"https://shop.example.com/orders/123\"\n    }\n  }\n}\n",
+      "width": 358,
+      "scrollWidth": 473
+    }
+  ]
+}
