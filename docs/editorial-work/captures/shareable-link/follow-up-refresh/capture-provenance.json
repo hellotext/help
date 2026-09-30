@@ -1,5 +1,5 @@
 {
-  "status": "local_verified",
+  "status": "public_verified",
   "captured_at": "2026-09-30",
   "rails_revision": "e6ae33a310d46ba88d9bf5b70845618a0b4a6461",
   "request": "Refresh the optional coupon/journey assignment and generated-link result after application style changes, in ES/EN.",
@@ -215,7 +215,7 @@
         "route": "isolated Chrome compositor via CDP"
       },
       "published_asset": "images/captures/shareable-link/follow-up-refresh/assignment-es.png",
-      "publication_status": "local_verified; public publication pending",
+      "publication_status": "public_verified; public URL and byte hash in public-verification.json",
       "native_logical_size": [
         674,
         504
@@ -441,7 +441,7 @@
         "route": "isolated Chrome compositor via CDP"
       },
       "published_asset": "images/captures/shareable-link/follow-up-refresh/assignment-es-mobile.png",
-      "publication_status": "local_verified; public publication pending",
+      "publication_status": "public_verified; public URL and byte hash in public-verification.json",
       "native_logical_size": [
         350,
         488
@@ -656,7 +656,7 @@
         "route": "isolated Chrome compositor via CDP"
       },
       "published_asset": "images/captures/shareable-link/follow-up-refresh/result-es.png",
-      "publication_status": "local_verified; public publication pending",
+      "publication_status": "public_verified; public URL and byte hash in public-verification.json",
       "native_logical_size": [
         802,
         400
@@ -871,7 +871,7 @@
         "route": "isolated Chrome compositor via CDP"
       },
       "published_asset": "images/captures/shareable-link/follow-up-refresh/result-es-mobile.png",
-      "publication_status": "local_verified; public publication pending",
+      "publication_status": "public_verified; public URL and byte hash in public-verification.json",
       "native_logical_size": [
         382,
         480
@@ -1085,7 +1085,7 @@
         "route": "isolated Chrome compositor via CDP"
       },
       "published_asset": "images/captures/shareable-link/follow-up-refresh/assignment-en.png",
-      "publication_status": "local_verified; public publication pending",
+      "publication_status": "public_verified; public URL and byte hash in public-verification.json",
       "native_logical_size": [
         674,
         452
@@ -1311,7 +1311,7 @@
         "route": "isolated Chrome compositor via CDP"
       },
       "published_asset": "images/captures/shareable-link/follow-up-refresh/assignment-en-mobile.png",
-      "publication_status": "local_verified; public publication pending",
+      "publication_status": "public_verified; public URL and byte hash in public-verification.json",
       "native_logical_size": [
         350,
         488
@@ -1526,7 +1526,7 @@
         "route": "isolated Chrome compositor via CDP"
       },
       "published_asset": "images/captures/shareable-link/follow-up-refresh/result-en.png",
-      "publication_status": "local_verified; public publication pending",
+      "publication_status": "public_verified; public URL and byte hash in public-verification.json",
       "native_logical_size": [
         802,
         400
@@ -1741,7 +1741,7 @@
         "route": "isolated Chrome compositor via CDP"
       },
       "published_asset": "images/captures/shareable-link/follow-up-refresh/result-en-mobile.png",
-      "publication_status": "local_verified; public publication pending",
+      "publication_status": "public_verified; public URL and byte hash in public-verification.json",
       "native_logical_size": [
         382,
         480
@@ -1825,12 +1825,15 @@
   ],
   "presentation": "Five static figures per locale. Full-width lavender stages; fitted white frames include 18px border/padding overhead. Responsive sources declare genuine 2× density and image width auto. Assignment logical widths 674/350px; result 802/382px. No pixel editing or enlargement.",
   "public_verification": {
-    "state": "pending"
+    "state": "public_verified",
+    "pull_request": 261,
+    "merge_sha": "1b8b822ac80ac8831070919d33e805fb25e928d5",
+    "evidence": "public-verification.json"
   },
   "local_verification": {
     "build": "RBENV_VERSION=3.3.6 yarn build passed for ES/EN and security headers.",
     "hashes": "All eight native/source/asset/root-build/ES-build PNG hashes and dimensions match; ten preserved assets match.",
     "browser_review": "Complete ES/EN articles reviewed at 1440×1000,390×844,580×900; five figures, no horizontal overflow, no image above selected logical source width. See page-review.json.",
-    "publication": "Pending protected PR checks, independent review, merge and normal deployment/public verification."
+    "publication": "Protected merge and normal production deployment publicly verified; see public-verification.json."
   }
 }
