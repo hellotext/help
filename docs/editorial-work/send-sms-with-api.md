@@ -33,4 +33,4 @@ Two complementary static figures per locale, all eight approved native PNGs reus
 
 No application UI or database accessed for this batch. No fixture/locale/token/message/event/template/link/object mutation, API example, delivery, send/test or worker. Existing shared sources and UI evidence remain at their original paths, including all historical proofs. Primary campaign branch and unrelated local dependencies preserved.
 
-Publication is pending until protected checks/review, main Build, normal exact production deployment and public page/PNG verification complete. The actual content verifier is recorded after the content commit.
+Publication is pending until protected checks/review, main Build, normal exact production deployment and public page/PNG verification complete. Content verifier: `8bed47fac86a9f0bf6007ee6223d355aa372d638`. Ledger:62local_verified/91pending/1out_of_scope, all62verifiers are ancestors of this branch.
