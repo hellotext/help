@@ -2557,5 +2557,12 @@
   "source_to_display_size": "All measured displayed images <= native logical size, no page overflow; no enlargement links",
   "build": "Production yarn build and security-header verification passed; 12 source/asset/build hashes equal; docs absent from public build",
   "fixture": "ES and Enterprise restored; hidden draft/two steps/zero submissions and delivery-safety counts unchanged",
-  "publication": "pending authorized PR checks and merge"
+  "publication": {
+    "state": "public_verified",
+    "merge_sha": "a28e7261dc92315d848f9db67db1388d23fe7c39",
+    "evidence": "public-verification.json",
+    "pages": 2,
+    "new_png": 12,
+    "preserved_png": 16
+  }
 }
