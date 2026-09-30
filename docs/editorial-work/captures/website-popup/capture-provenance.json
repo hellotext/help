@@ -1,0 +1,1227 @@
+{
+  "source": "isolated Chrome native compositor via loopback CDP",
+  "rails_revision": "d348bd09825d62c2cf551757598ed04a4bca0ce6",
+  "database": "hellotext_editorial_workload_20260928",
+  "business_id": 5,
+  "account": "design-system@example.test",
+  "fixture": {
+    "popup_id": 1,
+    "popup_hash": "e9Z2LN51",
+    "hidden": true,
+    "capture_state": "draft",
+    "steps": 2,
+    "submissions": 0,
+    "journey": null,
+    "coupon": null,
+    "contacts": 127,
+    "messageable_before_and_after": 0,
+    "subscribers_before_and_after": 0,
+    "messages_before_and_after": 49,
+    "saved_playbooks": "disabled",
+    "earlier_seeds_repeated": false,
+    "final_actions_used": false,
+    "locale_restored": "es",
+    "business_label_restored": "Enterprise",
+    "submissions_after": 0,
+    "hidden_after": true,
+    "capture_state_after": "draft"
+  },
+  "images": [
+    {
+      "file": "assignment-en.png",
+      "published_asset": "images/captures/website-popup/assignment-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/capture/popup/e9Z2LN51/assign-coupon",
+      "css_viewport": [
+        1440,
+        1200
+      ],
+      "css_clip": [
+        95,
+        503,
+        403,
+        229
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        806,
+        458
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        403,
+        229
+      ],
+      "maximum_display_width": 403,
+      "icc": "Display P3",
+      "sha256": "0e757742c656f2c595a031f9d06ff05a992be32dcda9b4945b05d868f5866198",
+      "pointer": "absent",
+      "capture_date": "2026-09-29T23:57:24.566782+00:00",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback port",
+        "single exact URL/title/locale",
+        "fictional owner via same-origin catalog",
+        "visible target text",
+        "viewport, zoom, DPR"
+      ],
+      "saved_pixels_reviewed": true
+    },
+    {
+      "file": "assignment-es.png",
+      "published_asset": "images/captures/website-popup/assignment-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/capture/popup/e9Z2LN51/assign-coupon",
+      "css_viewport": [
+        1440,
+        1200
+      ],
+      "css_clip": [
+        95,
+        551,
+        403,
+        229
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        806,
+        458
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        403,
+        229
+      ],
+      "maximum_display_width": 403,
+      "icc": "Display P3",
+      "sha256": "b43f78db23629ae77e1298b79678aa7e2f1f624fd16eec9e5ea9d0826a28d355",
+      "pointer": "absent",
+      "capture_date": "2026-09-29T23:54:21.135921+00:00",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback port",
+        "single exact URL/title/locale",
+        "fictional owner via same-origin catalog",
+        "visible target text",
+        "viewport, zoom, DPR"
+      ],
+      "saved_pixels_reviewed": true
+    },
+    {
+      "file": "code-en.png",
+      "published_asset": "images/captures/website-popup/code-es.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/capture/popup/e9Z2LN51/done?manual=true",
+      "css_viewport": [
+        1440,
+        1200
+      ],
+      "css_clip": [
+        100,
+        395,
+        664,
+        192
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        1328,
+        384
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        664,
+        192
+      ],
+      "maximum_display_width": 664,
+      "icc": "Display P3",
+      "sha256": "c5e364e42dba3f28cc5a740344184dd88e987b7dc0e8c552e7c1004b8bf02ff6",
+      "pointer": "absent",
+      "capture_date": "2026-09-29T23:57:37.216672+00:00",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback port",
+        "single exact URL/title/locale",
+        "fictional owner via same-origin catalog",
+        "visible target text",
+        "viewport, zoom, DPR"
+      ],
+      "saved_pixels_reviewed": true
+    },
+    {
+      "file": "code-es.png",
+      "published_asset": "images/captures/website-popup/code-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/capture/popup/e9Z2LN51/done?manual=true",
+      "css_viewport": [
+        1440,
+        1200
+      ],
+      "css_clip": [
+        100,
+        395,
+        664,
+        192
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        1328,
+        384
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        664,
+        192
+      ],
+      "maximum_display_width": 664,
+      "icc": "Display P3",
+      "sha256": "c5e364e42dba3f28cc5a740344184dd88e987b7dc0e8c552e7c1004b8bf02ff6",
+      "pointer": "absent",
+      "capture_date": "2026-09-29T23:55:15.051565+00:00",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback port",
+        "single exact URL/title/locale",
+        "fictional owner via same-origin catalog",
+        "visible target text",
+        "viewport, zoom, DPR"
+      ],
+      "saved_pixels_reviewed": true
+    },
+    {
+      "file": "code-mobile-en.png",
+      "published_asset": "images/captures/website-popup/code-mobile-es.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/capture/popup/e9Z2LN51/done?manual=true",
+      "css_viewport": [
+        430,
+        1200
+      ],
+      "css_clip": [
+        12,
+        438,
+        406,
+        216
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        812,
+        432
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        406,
+        216
+      ],
+      "maximum_display_width": 406,
+      "icc": "Display P3",
+      "sha256": "83d435d3c8f6ad4360832cb830260f13acd758fc81199d2982bc15f9b1ea6307",
+      "pointer": "absent",
+      "capture_date": "2026-09-29T23:57:41.413776+00:00",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback port",
+        "single exact URL/title/locale",
+        "fictional owner via same-origin catalog",
+        "visible target text",
+        "viewport, zoom, DPR"
+      ],
+      "saved_pixels_reviewed": true
+    },
+    {
+      "file": "code-mobile-es.png",
+      "published_asset": "images/captures/website-popup/code-mobile-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/capture/popup/e9Z2LN51/done?manual=true",
+      "css_viewport": [
+        430,
+        1200
+      ],
+      "css_clip": [
+        12,
+        438,
+        406,
+        216
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        812,
+        432
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        406,
+        216
+      ],
+      "maximum_display_width": 406,
+      "icc": "Display P3",
+      "sha256": "83d435d3c8f6ad4360832cb830260f13acd758fc81199d2982bc15f9b1ea6307",
+      "pointer": "absent",
+      "capture_date": "2026-09-29T23:54:36.589303+00:00",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback port",
+        "single exact URL/title/locale",
+        "fictional owner via same-origin catalog",
+        "visible target text",
+        "viewport, zoom, DPR"
+      ],
+      "saved_pixels_reviewed": true
+    },
+    {
+      "file": "completion-en.png",
+      "published_asset": "images/captures/website-popup/completion-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/capture/popup/e9Z2LN51/preview?device=mobile&preview_mode=completed",
+      "css_viewport": [
+        1440,
+        1200
+      ],
+      "css_clip": [
+        533,
+        332,
+        374,
+        536
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        748,
+        1072
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        374,
+        536
+      ],
+      "maximum_display_width": 374,
+      "icc": "Display P3",
+      "sha256": "6d1b9884053f22cd62635bd8cd3f3c753b01b50e3dc110e4458a97ad1d9866e3",
+      "pointer": "absent",
+      "capture_date": "2026-09-29T23:55:49.031727+00:00",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback port",
+        "single exact URL/title/locale",
+        "fictional owner via same-origin catalog",
+        "visible target text",
+        "viewport, zoom, DPR"
+      ],
+      "saved_pixels_reviewed": true
+    },
+    {
+      "file": "completion-es.png",
+      "published_asset": "images/captures/website-popup/completion-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/capture/popup/e9Z2LN51/preview?device=mobile&preview_mode=completed",
+      "css_viewport": [
+        1440,
+        1200
+      ],
+      "css_clip": [
+        533,
+        332,
+        374,
+        536
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        748,
+        1072
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        374,
+        536
+      ],
+      "maximum_display_width": 374,
+      "icc": "Display P3",
+      "sha256": "5dce6c989bcb5de0b6d668884c327654003796d526f9275f4b0b1d4509811959",
+      "pointer": "absent",
+      "capture_date": "2026-09-29T23:49:22.679299+00:00",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback port",
+        "single exact URL/title/locale",
+        "fictional owner via same-origin catalog",
+        "visible target text",
+        "viewport, zoom, DPR"
+      ],
+      "saved_pixels_reviewed": true
+    },
+    {
+      "file": "fields-en.png",
+      "published_asset": "images/captures/website-popup/fields-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/capture/popup/e9Z2LN51/edit",
+      "css_viewport": [
+        1440,
+        1200
+      ],
+      "css_clip": [
+        533,
+        202,
+        739,
+        713
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        1478,
+        1426
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        739,
+        713
+      ],
+      "maximum_display_width": 739,
+      "icc": "Display P3",
+      "sha256": "0d0a3cb526082711d2bba075f418254f58b2e9fa46ee3598ee5451be82623183",
+      "pointer": "absent",
+      "capture_date": "2026-09-29T23:55:38.343946+00:00",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback port",
+        "single exact URL/title/locale",
+        "fictional owner via same-origin catalog",
+        "visible target text",
+        "viewport, zoom, DPR"
+      ],
+      "saved_pixels_reviewed": true
+    },
+    {
+      "file": "fields-es.png",
+      "published_asset": "images/captures/website-popup/fields-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/capture/popup/e9Z2LN51/edit",
+      "css_viewport": [
+        1440,
+        1200
+      ],
+      "css_clip": [
+        533,
+        202,
+        739,
+        762
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        1478,
+        1524
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        739,
+        762
+      ],
+      "maximum_display_width": 739,
+      "icc": "Display P3",
+      "sha256": "8c721fa06656cd03f89d253e8df59f9198c95960656dc2498b54122c6a2b9a13",
+      "pointer": "absent",
+      "capture_date": "2026-09-29T23:53:40.662182+00:00",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback port",
+        "single exact URL/title/locale",
+        "fictional owner via same-origin catalog",
+        "visible target text",
+        "viewport, zoom, DPR"
+      ],
+      "saved_pixels_reviewed": true
+    },
+    {
+      "file": "fields-mobile-en.png",
+      "published_asset": "images/captures/website-popup/fields-mobile-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/capture/popup/e9Z2LN51/edit",
+      "css_viewport": [
+        1440,
+        1200
+      ],
+      "css_clip": [
+        890,
+        631,
+        356,
+        258
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        712,
+        516
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        356,
+        258
+      ],
+      "maximum_display_width": 356,
+      "icc": "Display P3",
+      "sha256": "6fbb01a4eb3cea4288d047185f53abfc41cf6d280cec3b5a516f5defc792c1a7",
+      "pointer": "absent",
+      "capture_date": "2026-09-29T23:55:44.040282+00:00",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback port",
+        "single exact URL/title/locale",
+        "fictional owner via same-origin catalog",
+        "visible target text",
+        "viewport, zoom, DPR"
+      ],
+      "saved_pixels_reviewed": true
+    },
+    {
+      "file": "fields-mobile-es.png",
+      "published_asset": "images/captures/website-popup/fields-mobile-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/capture/popup/e9Z2LN51/edit",
+      "css_viewport": [
+        1440,
+        1200
+      ],
+      "css_clip": [
+        890,
+        607,
+        356,
+        258
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        712,
+        516
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        356,
+        258
+      ],
+      "maximum_display_width": 356,
+      "icc": "Display P3",
+      "sha256": "319a2abcba18e3c5808e1cc9bc0765008a1666e35a79c2c1d02be307c17b19f2",
+      "pointer": "absent",
+      "capture_date": "2026-09-29T23:54:07.689611+00:00",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback port",
+        "single exact URL/title/locale",
+        "fictional owner via same-origin catalog",
+        "visible target text",
+        "viewport, zoom, DPR"
+      ],
+      "saved_pixels_reviewed": true
+    },
+    {
+      "file": "installation-en.png",
+      "published_asset": "images/captures/website-popup/installation-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/capture/popup/e9Z2LN51/install",
+      "css_viewport": [
+        1440,
+        1200
+      ],
+      "css_clip": [
+        89,
+        351,
+        670,
+        464
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        1340,
+        928
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        670,
+        464
+      ],
+      "maximum_display_width": 670,
+      "icc": "Display P3",
+      "sha256": "fc0ae79feadc4064b9142d1d5250cfe7cf31c3d83538d159ee77b8630d8ed198",
+      "pointer": "absent",
+      "capture_date": "2026-09-29T23:57:28.961179+00:00",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback port",
+        "single exact URL/title/locale",
+        "fictional owner via same-origin catalog",
+        "visible target text",
+        "viewport, zoom, DPR"
+      ],
+      "saved_pixels_reviewed": true
+    },
+    {
+      "file": "installation-es.png",
+      "published_asset": "images/captures/website-popup/installation-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/capture/popup/e9Z2LN51/install",
+      "css_viewport": [
+        1440,
+        1200
+      ],
+      "css_clip": [
+        89,
+        351,
+        670,
+        464
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        1340,
+        928
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        670,
+        464
+      ],
+      "maximum_display_width": 670,
+      "icc": "Display P3",
+      "sha256": "8a6d8a050a2e48361ee4ba6617d9c603d60f632650917d28bd61d0a8a3a53ad3",
+      "pointer": "absent",
+      "capture_date": "2026-09-29T23:54:25.394059+00:00",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback port",
+        "single exact URL/title/locale",
+        "fictional owner via same-origin catalog",
+        "visible target text",
+        "viewport, zoom, DPR"
+      ],
+      "saved_pixels_reviewed": true
+    },
+    {
+      "file": "installation-mobile-en.png",
+      "published_asset": "images/captures/website-popup/installation-mobile-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/capture/popup/e9Z2LN51/install",
+      "css_viewport": [
+        430,
+        1400
+      ],
+      "css_clip": [
+        4,
+        282,
+        422,
+        448
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        844,
+        896
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        422,
+        448
+      ],
+      "maximum_display_width": 422,
+      "icc": "Display P3",
+      "sha256": "75e56c7110f86e28316e8d76a212903aa49f2972a0d6af36c450348759c0f0b8",
+      "pointer": "absent",
+      "capture_date": "2026-09-29T23:57:32.990639+00:00",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback port",
+        "single exact URL/title/locale",
+        "fictional owner via same-origin catalog",
+        "visible target text",
+        "viewport, zoom, DPR"
+      ],
+      "saved_pixels_reviewed": true
+    },
+    {
+      "file": "installation-mobile-es.png",
+      "published_asset": "images/captures/website-popup/installation-mobile-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/capture/popup/e9Z2LN51/install",
+      "css_viewport": [
+        430,
+        1400
+      ],
+      "css_clip": [
+        4,
+        230,
+        422,
+        468
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        844,
+        936
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        422,
+        468
+      ],
+      "maximum_display_width": 422,
+      "icc": "Display P3",
+      "sha256": "dee29fb3c6d8b5815c819b9ac3427e5a7205d9fa756eeb768e77d8f56644b2fc",
+      "pointer": "absent",
+      "capture_date": "2026-09-29T23:55:11.621081+00:00",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback port",
+        "single exact URL/title/locale",
+        "fictional owner via same-origin catalog",
+        "visible target text",
+        "viewport, zoom, DPR"
+      ],
+      "saved_pixels_reviewed": true
+    },
+    {
+      "file": "layout-en.png",
+      "published_asset": "images/captures/website-popup/layout-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/capture/popup/e9Z2LN51/edit",
+      "css_viewport": [
+        1440,
+        1200
+      ],
+      "css_clip": [
+        20,
+        104,
+        410,
+        334
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        820,
+        668
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        410,
+        334
+      ],
+      "maximum_display_width": 410,
+      "icc": "Display P3",
+      "sha256": "69c7b64d253b9ce902bfcac2ebcd9ca11ac508a64599c554b5df265cfd11af46",
+      "pointer": "absent",
+      "capture_date": "2026-09-29T23:56:00.520805+00:00",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback port",
+        "single exact URL/title/locale",
+        "fictional owner via same-origin catalog",
+        "visible target text",
+        "viewport, zoom, DPR"
+      ],
+      "saved_pixels_reviewed": true
+    },
+    {
+      "file": "layout-es.png",
+      "published_asset": "images/captures/website-popup/layout-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/capture/popup/e9Z2LN51/edit",
+      "css_viewport": [
+        1440,
+        1200
+      ],
+      "css_clip": [
+        20,
+        104,
+        410,
+        334
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        820,
+        668
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        410,
+        334
+      ],
+      "maximum_display_width": 410,
+      "icc": "Display P3",
+      "sha256": "696b77b5ca0442a94234462577c18832e9e8b61d069c832f8527cbe7b937d4ef",
+      "pointer": "absent",
+      "capture_date": "2026-09-29T23:49:33.865991+00:00",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback port",
+        "single exact URL/title/locale",
+        "fictional owner via same-origin catalog",
+        "visible target text",
+        "viewport, zoom, DPR"
+      ],
+      "saved_pixels_reviewed": true
+    },
+    {
+      "file": "settings-en.png",
+      "published_asset": "images/captures/website-popup/settings-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/capture/popup/e9Z2LN51/edit",
+      "css_viewport": [
+        1440,
+        1200
+      ],
+      "css_clip": [
+        20,
+        104,
+        410,
+        372
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        820,
+        744
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        410,
+        372
+      ],
+      "maximum_display_width": 410,
+      "icc": "Display P3",
+      "sha256": "0231cd9de10ea6889afcd48470746ec90793d797327ee2509aa6a4436b29a717",
+      "pointer": "absent",
+      "capture_date": "2026-09-29T23:57:19.926403+00:00",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback port",
+        "single exact URL/title/locale",
+        "fictional owner via same-origin catalog",
+        "visible target text",
+        "viewport, zoom, DPR"
+      ],
+      "saved_pixels_reviewed": true
+    },
+    {
+      "file": "settings-es.png",
+      "published_asset": "images/captures/website-popup/settings-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/capture/popup/e9Z2LN51/edit",
+      "css_viewport": [
+        1440,
+        1200
+      ],
+      "css_clip": [
+        20,
+        104,
+        410,
+        372
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        820,
+        744
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        410,
+        372
+      ],
+      "maximum_display_width": 410,
+      "icc": "Display P3",
+      "sha256": "7426ccc4a876c7b8ab126171f1b800c4f6ec0080df80c700fe98cdd3587c479b",
+      "pointer": "absent",
+      "capture_date": "2026-09-29T23:49:39.075101+00:00",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback port",
+        "single exact URL/title/locale",
+        "fictional owner via same-origin catalog",
+        "visible target text",
+        "viewport, zoom, DPR"
+      ],
+      "saved_pixels_reviewed": true
+    },
+    {
+      "file": "steps-en.png",
+      "published_asset": "images/captures/website-popup/steps-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/capture/popup/e9Z2LN51/edit",
+      "css_viewport": [
+        1440,
+        1200
+      ],
+      "css_clip": [
+        459,
+        112,
+        522,
+        776
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        1044,
+        1552
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        522,
+        776
+      ],
+      "maximum_display_width": 522,
+      "icc": "Display P3",
+      "sha256": "b50fdb0d93a7354f7121732385e024a9b432072841919b32a1edbc17a5cc0f4a",
+      "pointer": "absent",
+      "capture_date": "2026-09-29T23:55:27.647952+00:00",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback port",
+        "single exact URL/title/locale",
+        "fictional owner via same-origin catalog",
+        "visible target text",
+        "viewport, zoom, DPR"
+      ],
+      "saved_pixels_reviewed": true
+    },
+    {
+      "file": "steps-es.png",
+      "published_asset": "images/captures/website-popup/steps-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/capture/popup/e9Z2LN51/edit",
+      "css_viewport": [
+        1440,
+        1200
+      ],
+      "css_clip": [
+        464,
+        112,
+        511,
+        752
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        1022,
+        1504
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        511,
+        752
+      ],
+      "maximum_display_width": 511,
+      "icc": "Display P3",
+      "sha256": "7919bb736ee2b0819dedce1e0d6b22d44760d43ac124ac96c395e58eed127ad8",
+      "pointer": "absent",
+      "capture_date": "2026-09-29T23:53:20.839478+00:00",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback port",
+        "single exact URL/title/locale",
+        "fictional owner via same-origin catalog",
+        "visible target text",
+        "viewport, zoom, DPR"
+      ],
+      "saved_pixels_reviewed": true
+    },
+    {
+      "file": "steps-mobile-en.png",
+      "published_asset": "images/captures/website-popup/steps-mobile-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/capture/popup/e9Z2LN51/preview?device=mobile",
+      "css_viewport": [
+        1440,
+        1200
+      ],
+      "css_clip": [
+        533,
+        274,
+        374,
+        653
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        748,
+        1306
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        374,
+        653
+      ],
+      "maximum_display_width": 374,
+      "icc": "Display P3",
+      "sha256": "77b65998968ed8a25dfc3361bf60fca50987fd8fd4d6331a363e2232bd5b0eb6",
+      "pointer": "absent",
+      "capture_date": "2026-09-29T23:55:32.633321+00:00",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback port",
+        "single exact URL/title/locale",
+        "fictional owner via same-origin catalog",
+        "visible target text",
+        "viewport, zoom, DPR"
+      ],
+      "saved_pixels_reviewed": true
+    },
+    {
+      "file": "steps-mobile-es.png",
+      "published_asset": "images/captures/website-popup/steps-mobile-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/capture/popup/e9Z2LN51/preview?device=mobile",
+      "css_viewport": [
+        1440,
+        1200
+      ],
+      "css_clip": [
+        533,
+        258,
+        374,
+        685
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        748,
+        1370
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        374,
+        685
+      ],
+      "maximum_display_width": 374,
+      "icc": "Display P3",
+      "sha256": "624cf05f11e3f2d5032b1a7d578da593281ecae69fa76c711ee39372c459ffc4",
+      "pointer": "absent",
+      "capture_date": "2026-09-29T23:49:11.564831+00:00",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback port",
+        "single exact URL/title/locale",
+        "fictional owner via same-origin catalog",
+        "visible target text",
+        "viewport, zoom, DPR"
+      ],
+      "saved_pixels_reviewed": true
+    },
+    {
+      "file": "style-en.png",
+      "published_asset": "images/captures/website-popup/style-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/capture/popup/e9Z2LN51/edit",
+      "css_viewport": [
+        1440,
+        1200
+      ],
+      "css_clip": [
+        20,
+        104,
+        410,
+        608
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        820,
+        1216
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        410,
+        608
+      ],
+      "maximum_display_width": 410,
+      "icc": "Display P3",
+      "sha256": "13b4265a26020c80c68b18d49816bf260ea6d8b6647b568004e0c9b116cc9519",
+      "pointer": "absent",
+      "capture_date": "2026-09-29T23:55:54.726150+00:00",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback port",
+        "single exact URL/title/locale",
+        "fictional owner via same-origin catalog",
+        "visible target text",
+        "viewport, zoom, DPR"
+      ],
+      "saved_pixels_reviewed": true
+    },
+    {
+      "file": "style-es.png",
+      "published_asset": "images/captures/website-popup/style-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/capture/popup/e9Z2LN51/edit",
+      "css_viewport": [
+        1440,
+        1200
+      ],
+      "css_clip": [
+        20,
+        104,
+        410,
+        608
+      ],
+      "page_scroll": [
+        0,
+        0
+      ],
+      "pixel_size": [
+        820,
+        1216
+      ],
+      "dpr": 2,
+      "capture_scale": 1,
+      "zoom": 1,
+      "native_logical_size": [
+        410,
+        608
+      ],
+      "maximum_display_width": 410,
+      "icc": "Display P3",
+      "sha256": "10f54d2e116fa91f8332f20ac801542d353ce8535b585b1aac89d511a48a6a66",
+      "pointer": "absent",
+      "capture_date": "2026-09-29T23:49:28.345778+00:00",
+      "verified_before_and_after": [
+        "dedicated Chrome PID/profile/loopback port",
+        "single exact URL/title/locale",
+        "fictional owner via same-origin catalog",
+        "visible target text",
+        "viewport, zoom, DPR"
+      ],
+      "saved_pixels_reviewed": true
+    }
+  ],
+  "reused_images": [
+    {
+      "file": "images/captures/capture-overview/desktop-popup-es.png",
+      "locale": "es",
+      "pixel_size": [
+        800,
+        480
+      ],
+      "native_logical_size": [
+        400,
+        240
+      ],
+      "sha256": "63e4811d8ee0d212e3b34c70cee6e501ccec2b4294272f45647bde5ebc0a5633",
+      "source_record": "docs/editorial-work/captures/capture-overview/desktop-cards/capture-provenance.json",
+      "duplicated": false
+    },
+    {
+      "file": "images/captures/capture-overview/desktop-popup-en.png",
+      "locale": "en",
+      "pixel_size": [
+        800,
+        480
+      ],
+      "native_logical_size": [
+        400,
+        240
+      ],
+      "sha256": "0c412e55415865651d4cb392ba1d046e743ab158b391e44e901eecba0040fc0e",
+      "source_record": "docs/editorial-work/captures/capture-overview/desktop-cards/capture-provenance.json",
+      "duplicated": false
+    }
+  ],
+  "local_article_review": {
+    "viewports": [
+      1440,
+      390,
+      590
+    ],
+    "complete_articles": "ES/EN text, headings, navigation, all figures and viewport sections reviewed",
+    "figures_per_locale": 10,
+    "new_distinct_assets": 24,
+    "raw_native_sources": 26,
+    "reused_catalog_assets": 2,
+    "identical_code_assets_shared_between_locales": 2,
+    "native_display_limits": "passed for every currentSrc at all viewports; no enlargement",
+    "stage_and_frame": "full-column lavender stages with fitted white frames; no image links",
+    "build": "production Jekyll and security headers passed",
+    "source_asset_build_hashes": "matched",
+    "docs_excluded_from_build": true,
+    "public_verification": "pending"
+  },
+  "publication": "pending"
+}
