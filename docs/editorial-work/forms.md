@@ -98,3 +98,5 @@ Original published ES/EN bodies are preserved in `originals/forms-ui-refresh/`. 
 - `yarn build` and security-header verification passed. The twelve source/asset/build hash triples matched. `docs/` remained absent from `_site`.
 - Complete ES/EN articles inspected in a dedicated local review browser at desktop 1280×900 and mobile 390×844. Five figures per locale; the four replacements select their correct assets. Stage stays in the original column; white frame follows the image; each new image remains below its source CSS width. Styling was inspected in the browser, with no CSS tests.
 - Durable source, provenance, safety and local browser observations: `captures/forms/ui-refresh/`. Publication is still pending at this local verification step.
+
+The refreshed content was locally verified at `bf2bdeb03e90ce3541389255be69a5038a895ec8`; `progress.csv` keeps Forms `local_verified` and points to this content commit. Inventory totals remain 52 verified, 101 pending and one out-of-scope redirect. The subsequent ledger commit preserves this verifier reference.
