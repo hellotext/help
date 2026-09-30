@@ -1,5 +1,5 @@
 {
-  "status": "local_verified",
+  "status": "public_verified",
   "base_revision": "d9d06d44bb700a5b25ac872d2c0021272f7320fd",
   "originals": [
     {
@@ -62,7 +62,8 @@
       "ui_evidence": "docs/editorial-work/captures/orders-with-api/details-es-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "reuse": false
+      "reuse": false,
+      "publication_status": "New native P3 2x PNG published; public served hash matches approved source."
     },
     {
       "name": "details-es-mobile",
@@ -107,7 +108,8 @@
       "ui_evidence": "docs/editorial-work/captures/orders-with-api/details-es-mobile-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "reuse": false
+      "reuse": false,
+      "publication_status": "New native P3 2x PNG published; public served hash matches approved source."
     },
     {
       "name": "items-es",
@@ -152,7 +154,8 @@
       "ui_evidence": "docs/editorial-work/captures/orders-with-api/items-es-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "reuse": false
+      "reuse": false,
+      "publication_status": "New native P3 2x PNG published; public served hash matches approved source."
     },
     {
       "name": "items-es-mobile",
@@ -197,7 +200,8 @@
       "ui_evidence": "docs/editorial-work/captures/orders-with-api/items-es-mobile-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "reuse": false
+      "reuse": false,
+      "publication_status": "New native P3 2x PNG published; public served hash matches approved source."
     },
     {
       "name": "details-en",
@@ -242,7 +246,8 @@
       "ui_evidence": "docs/editorial-work/captures/orders-with-api/details-en-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "reuse": false
+      "reuse": false,
+      "publication_status": "New native P3 2x PNG published; public served hash matches approved source."
     },
     {
       "name": "details-en-mobile",
@@ -287,7 +292,8 @@
       "ui_evidence": "docs/editorial-work/captures/orders-with-api/details-en-mobile-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "reuse": false
+      "reuse": false,
+      "publication_status": "New native P3 2x PNG published; public served hash matches approved source."
     },
     {
       "name": "items-en",
@@ -332,7 +338,8 @@
       "ui_evidence": "docs/editorial-work/captures/orders-with-api/items-en-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "reuse": false
+      "reuse": false,
+      "publication_status": "New native P3 2x PNG published; public served hash matches approved source."
     },
     {
       "name": "items-en-mobile",
@@ -377,7 +384,8 @@
       "ui_evidence": "docs/editorial-work/captures/orders-with-api/items-en-mobile-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "reuse": false
+      "reuse": false,
+      "publication_status": "New native P3 2x PNG published; public served hash matches approved source."
     },
     {
       "name": "token-es",
@@ -421,7 +429,7 @@
       "ui_evidence": "docs/editorial-work/captures/custom-store-integration/token-es-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "publication_status": "New native P3 2x source uploaded; public URL/hash verified in public-verification.json.",
+      "publication_status": "Approved current P3 2x source reused without duplicate upload; public served hash verified.",
       "reuse": true,
       "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json"
     },
@@ -467,7 +475,7 @@
       "ui_evidence": "docs/editorial-work/captures/custom-store-integration/token-es-mobile-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "publication_status": "New native P3 2x source uploaded; public URL/hash verified in public-verification.json.",
+      "publication_status": "Approved current P3 2x source reused without duplicate upload; public served hash verified.",
       "reuse": true,
       "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json"
     },
@@ -513,7 +521,7 @@
       "ui_evidence": "docs/editorial-work/captures/custom-store-integration/token-en-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "publication_status": "New native P3 2x source uploaded; public URL/hash verified in public-verification.json.",
+      "publication_status": "Approved current P3 2x source reused without duplicate upload; public served hash verified.",
       "reuse": true,
       "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json"
     },
@@ -559,7 +567,7 @@
       "ui_evidence": "docs/editorial-work/captures/custom-store-integration/token-en-mobile-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "publication_status": "New native P3 2x source uploaded; public URL/hash verified in public-verification.json.",
+      "publication_status": "Approved current P3 2x source reused without duplicate upload; public served hash verified.",
       "reuse": true,
       "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json"
     }
@@ -618,15 +626,24 @@
     "app/models/artifact/order.rb",
     "app/models/attribution/order_item.rb"
   ],
-  "pending": [
-    "Protected PR checks and exact-head independent review; normal main Build/deploy SHA and public pages/PNG verification."
-  ],
+  "pending": [],
   "local_verification": {
     "build": "yarn build with Ruby 3.3.6 executable on PATH passed including security headers",
     "evidence": "local-verification.json",
-    "evidence_publication_state": "not_yet_publicly_verified",
+    "evidence_publication_state": "public_verified",
     "visual_review": "Full ES/EN article at1440x1000,390x844,580x900; nine headings, four code blocks, three figures, footer, all sources inspected. Browser confirms no page overflow or logical source upscaling.",
     "images": "12 source/asset/root-build/ES-build PNG hashes match; eight new and four approved reused token sources; native Display P3 2x.",
-    "runtime": "Owned isolated Chrome CDP9460, Node22.23.1, Rails3192/Vite3042; all process/profile/local-tab/account/locale/control/viewport/zoom/DPR guards passed."
+    "runtime": "Owned isolated Chrome CDP9460, Node22.23.1, Rails3192/Vite3042; all process/profile/local-tab/account/locale/control/viewport/zoom/DPR guards passed.",
+    "publication_evidence": "public-verification.json"
+  },
+  "publication": {
+    "status": "public_verified",
+    "evidence": "public-verification.json",
+    "content_pr": 278,
+    "merge_sha": "716647f48f544294fab1e2108e280b343c576332"
+  },
+  "public_verification": {
+    "state": "public_verified",
+    "evidence": "public-verification.json"
   }
 }
