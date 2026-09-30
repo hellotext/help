@@ -1,5 +1,5 @@
 {
-  "status": "local_verified_publication_pending",
+  "status": "publicly_verified",
   "base_revision": "14d4a302b555b8152ebfcb655bd7f6f34c7ee4eb",
   "originals": [
     {
@@ -68,7 +68,7 @@
       "publication_status": "Approved existing source and asset; no duplicate PNG uploaded in this batch.",
       "original_provenance": "docs/editorial-work/captures/send-messages-with-api/capture-provenance.json",
       "source_publication": "Approved Messages API #283/#284 source; same Message/SMS draft and locale, no recapture or duplicate upload.",
-      "consumer_publication": "pending"
+      "consumer_publication": "Publicly verified after #295; see root publication evidence. Original source publication and UI evidence remain unchanged."
     },
     {
       "name": "editor-en",
@@ -117,7 +117,7 @@
       "publication_status": "Approved existing source and asset; no duplicate PNG uploaded in this batch.",
       "original_provenance": "docs/editorial-work/captures/send-messages-with-api/capture-provenance.json",
       "source_publication": "Approved Messages API #283/#284 source; same Message/SMS draft and locale, no recapture or duplicate upload.",
-      "consumer_publication": "pending"
+      "consumer_publication": "Publicly verified after #295; see root publication evidence. Original source publication and UI evidence remain unchanged."
     },
     {
       "name": "editor-es-mobile",
@@ -166,7 +166,7 @@
       "publication_status": "Approved existing source and asset; no duplicate PNG uploaded in this batch.",
       "original_provenance": "docs/editorial-work/captures/send-messages-with-api/capture-provenance.json",
       "source_publication": "Approved Messages API #283/#284 source; same Message/SMS draft and locale, no recapture or duplicate upload.",
-      "consumer_publication": "pending"
+      "consumer_publication": "Publicly verified after #295; see root publication evidence. Original source publication and UI evidence remain unchanged."
     },
     {
       "name": "editor-en-mobile",
@@ -215,7 +215,7 @@
       "publication_status": "Approved existing source and asset; no duplicate PNG uploaded in this batch.",
       "original_provenance": "docs/editorial-work/captures/send-messages-with-api/capture-provenance.json",
       "source_publication": "Approved Messages API #283/#284 source; same Message/SMS draft and locale, no recapture or duplicate upload.",
-      "consumer_publication": "pending"
+      "consumer_publication": "Publicly verified after #295; see root publication evidence. Original source publication and UI evidence remain unchanged."
     }
   ],
   "new_captures": 0,
@@ -224,9 +224,7 @@
   "database_access": false,
   "executed_examples": false,
   "source_reuse_decision": "Current Message/SMS draft identifies the shared Insert short link toolbar control. It is explicitly an unsaved Settings/Templates draft with a literal destination URL, not a created tracked message link or a sent campaign. Same approved route/state/locale/breakpoints; preserve original UI evidence. Rails #6054 changed token spacing only; verify editor contracts unchanged.",
-  "pending": [
-    "Protected PR checks/review, merge, exact main Build/production and public page/PNG verification"
-  ],
+  "pending": [],
   "local_verification": {
     "evidence": "local-verification.json",
     "full_page_browser_review": "page-review/",
@@ -241,6 +239,18 @@
     "build": "Ruby 3.3.6 yarn build with security headers passed",
     "new_capture_count": 0,
     "new_png_uploads": 0,
-    "publication_state": "pending"
+    "publication_state": "Public verification completed after the content merge; see root publication evidence."
+  },
+  "publication": {
+    "state": "publicly_verified",
+    "evidence": "public-verification.json",
+    "content_pr": "https://github.com/hellotext/help/pull/295",
+    "main_merge_sha": "c4f48a8aa1f238b2db2529acf10d11d3ac40dfd4",
+    "deploy_id": "6abd9046aa01020008644efa",
+    "public_pages_http": 200,
+    "public_asset_count": 4,
+    "approved_reused_hashes_match": true,
+    "new_captures": 0,
+    "new_png_uploads": 0
   }
 }

@@ -1,0 +1,87 @@
+{
+  "verified_at_utc": "2026-09-30T22:43:36.640173+00:00",
+  "verified_git_main_sha": "c4f48a8aa1f238b2db2529acf10d11d3ac40dfd4",
+  "production_deploy_id_sha_association": {
+    "id": "6abd9046aa01020008644efa",
+    "site_id": "d66a79c1-b5de-44d1-bc47-bc7809f7f3b3",
+    "state": "ready",
+    "context": "production",
+    "branch": "main",
+    "commit_ref": "c4f48a8aa1f238b2db2529acf10d11d3ac40dfd4",
+    "created_at": "2026-09-30T22:42:14.627Z",
+    "published_at": "2026-09-30T22:43:15.642Z",
+    "deploy_ssl_url": "https://main--legendary-lollipop-e2d131.netlify.app"
+  },
+  "deployment_method": "Normal Netlify production deployment after Git merge; no manual deployment. Public site-alias listing is accessible.",
+  "pages": [
+    {
+      "url": "https://help.hellotext.com/es/seguimiento-en-campa\u00f1as-y-rutas",
+      "status": 200,
+      "figures": 1,
+      "sections": 9,
+      "approved_reused_assets_present": [
+        "/images/developers/send-messages-with-api/editor-es.png",
+        "/images/developers/send-messages-with-api/editor-es-mobile.png"
+      ],
+      "verified_updated_flow_text": true,
+      "html_sha256": "3f781a3528d552acaab044b4104434232ddf2759b764db136f400812477e8a0c"
+    },
+    {
+      "url": "https://help.hellotext.com/tracking-on-campaigns-and-journeys",
+      "status": 200,
+      "figures": 1,
+      "sections": 9,
+      "approved_reused_assets_present": [
+        "/images/developers/send-messages-with-api/editor-en.png",
+        "/images/developers/send-messages-with-api/editor-en-mobile.png"
+      ],
+      "verified_updated_flow_text": true,
+      "html_sha256": "f29d02d02377143b8fe78c958a1717cb20f60e8e6701b2f5e7a8953185cf0a02"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://help.hellotext.com/images/developers/send-messages-with-api/editor-es.png",
+      "status": 200,
+      "sha256": "27cbe0e6670b0412f590a6030287ce264393c7d56f1ebaafb407d20dd059da02",
+      "matches_original_approved_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/send-messages-with-api/editor-en.png",
+      "status": 200,
+      "sha256": "330f9832b65d012cbdb0cc97cb757f2c90ac197a37bbae711cb5285521261011",
+      "matches_original_approved_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/send-messages-with-api/editor-es-mobile.png",
+      "status": 200,
+      "sha256": "0b6fcf98897f7a89bce1654e31fe8eb5fe31195f36ff3d1eb801ddfd76eb9639",
+      "matches_original_approved_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/send-messages-with-api/editor-en-mobile.png",
+      "status": 200,
+      "sha256": "d5f1753c4577120e5953e7b211cf36850141722623937bc72fccf729bf8b9ca2",
+      "matches_original_approved_source": true,
+      "reused": true
+    }
+  ],
+  "new_captures": 0,
+  "new_png_uploads": 0,
+  "reused_pngs": 4,
+  "main_build": {
+    "conclusion": "success",
+    "databaseId": 36787081843,
+    "event": "push",
+    "headSha": "c4f48a8aa1f238b2db2529acf10d11d3ac40dfd4",
+    "status": "completed",
+    "url": "https://github.com/hellotext/help/actions/runs/36787081843"
+  },
+  "content_pr": "https://github.com/hellotext/help/pull/295",
+  "content_pr_head": "fed1e76589a857d42fea6c78e36fd990d84a8f17",
+  "all_individual_commits_preserved": true,
+  "unresolved_review_threads_before_merge": 0
+}
