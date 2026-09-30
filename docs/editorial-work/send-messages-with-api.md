@@ -55,3 +55,5 @@ This is an unsaved draft in the actual Settings template editor, Message mode wi
 ## Publication
 
 Pending protected checks/review and exact main/public verification. A local build is not publication. The verifier commit will be recorded separately in progress.csv.
+
+Local content verifier: `0210d72e363a558496d605ffc26aac2f2d72badf`. Ledger reconciled to61local_verified/92pending/1out_of_scope; all61verifiers are ancestors of this branch. Required main/public verification remains pending.
