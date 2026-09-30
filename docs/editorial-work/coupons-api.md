@@ -1,0 +1,40 @@
+# Create and track coupons with the API
+
+- Pair: `developers/coupons-with-api.md`; ES `/es/cupones-con-api`, EN `/coupons-with-api`. Original bodies/stub and SHA-256 values are preserved in `originals/coupons-api/` and `captures/coupons-api/capture-provenance.json`.
+- Reconciled base: `origin/main 26fbbc71acda8a7d2964c7233c249ef95c33998d`; 52 local_verified, 101 pending, one out_of_scope. No open Help PR. Creating a campaign retains its unchanged final-confirmation visual debt in the primary worktree; no approved source is recaptured. Shopify/Wix checkout still require an authorized isolated commerce environment; no personal store is inspected. This independent API pair is the next viable pending entry.
+- Read AGENTS, the initialized pinned editorial skill/guide/workflow/screenshots and Help integration, inventory/progress, both complete locale bodies and identity stub before changes. Spanish first, then English adaptation; preserve titles, slugs, links, languages and publication.
+
+## Source and contract audit (2026-09-30)
+
+Authoritative public [coupon creation](https://www.hellotext.com/api#create_a_coupon), [coupon retrieval](https://www.hellotext.com/api#retrieve_a_coupon), [coupon updates](https://www.hellotext.com/api#update_a_coupon), [listing](https://www.hellotext.com/api#list_all_coupons) and [coupon events](https://www.hellotext.com/api#track_coupon_events) were read without executing requests. Reviewed Rails revision `e6ae33a310d46ba88d9bf5b70845618a0b4a6461` confirms `API::V1::CouponsController` accepts code/destination_url/description/reference and requires an active subscription for creation/update; `Coupon` limits descriptions to 140 characters and validates existing code scope and URL format. Serializer exposes the stable Hellotext ID separately from code/reference. The public table describes PATCH fields broadly as required, while the actual update controller changes only supplied permitted fields; do not add invented fields or contract promises.
+
+`API::Track::Coupon` validates the coupon belongs to the business, reuses an existing code only in object_parameters tracking, and enqueues `API::TrackEventJob`. `API::Track::Base` validates profile/session, subscription, timestamp and amount presence when currency is supplied. The coupon branch defaults an omitted currency to USD in this revision, so the guide always supplies the actual ISO currency rather than relying on a default. `EventsController` returns status received for accepted tracking; `API::Track::EventTracker` asynchronously creates coupon events and does not implement the order-event deduplication branch for coupons. Reusing object/profile/time is not an idempotency guarantee. A timeout after submission is an uncertain outcome; prevent duplicate checkout processing in the integration and reconcile before retrying. amount represents associated revenue, not the discount value or proof of a particular campaign attribution. Keep an existing attribution session only when it belongs to the same customer; never invent it.
+
+## Section-by-section visual plan
+
+| Section | Reader question | Decision |
+| --- | --- | --- |
+| Introduction / prerequisites | Who creates the discount and where does the private token belong? | Explain backend authorization and checkout ownership in prose; no app screen can demonstrate token security or commerce eligibility. |
+| 1. Commerce rules | Which offer must exist first? | Checklist; no isolated commerce environment is available and a different platform screen would not establish this API contract. No useful Help UI capture is blocked by this omission. |
+| 2. Create and retrieve | Which ID is returned and how is the object verified? | Copyable POST/GET examples and ID/code/reference explanation. A screenshot of an API client adds no information and would encourage publishing credentials. Do not execute examples or manufacture a response. |
+| 3. Update | Which fields change while identity stays the same? | Copyable partial PATCH example; UI screenshot cannot prove endpoint behavior. |
+| 4. Compatible usage | Where will a developer's coupon be selected? | One current real bilingual Shareable Link assignment figure, desktop/phone, reusing approved P3 sources from #261/#262. The code GUIA-QR-10 is the same fictional code used in the API samples; the selected draft journey is illustrative and optional. Caption explicitly identifies a demo, not API execution, activation or successful redemption. |
+| 5. Confirmed redemption | Which event, money and timestamp should be sent? | Copyable event payload and receipt semantics; no invented checkout success or live customer event screenshot. |
+| 6. Duplicate prevention | Does a retry guarantee only one event? | Explain local redemption identity, concurrency/uncertain outcomes and reconciliation; screenshots cannot demonstrate these server guarantees. |
+| 7. Full verification / links | How to verify object and processing? | Checklist and linked API/Help references, no redundant selection figure or fabricated delivery result. |
+
+Four approved source PNGs already show the real current UI revision and localized controls. Source pixel/logical widths are 1348/674 desktop and 700/350 phone at genuine 2× with Display P3; desktop heights differ by language. White frame cap 692px includes the standard 18px inset/border; phone density and width:auto preserve the 350px logical cap. The stage remains full-width lavender inside the original Help column. No new PNG is uploaded, no fixture or account is changed, and no capture tool/session/picker is needed. The original guarded route, disabled link, existing coupon and draft route evidence remain in `captures/shareable-link/follow-up-refresh/`.
+
+## Verification state
+
+Local bilingual editorial and visual review completed. Added backend token/subscription prerequisites; concrete 140-character description limit; stable ID/code/reference distinction; copyable GET and partial PATCH; purchase-revenue/currency/original-time explanation; accepted versus processed tracking receipt; real session attribution and duplicate/timeout handling. The section-four figure reuses four approved real localized selection assets without creating a coupon, sending an event or presenting a fabricated API response.
+
+Ruby 3.3.6 `yarn build` passed with security headers. All original headings and link targets and the identity stub are preserved. Four curl examples per language pass shell syntax checks; three JSON bodies per language parse; no request was executed. The four source/published/root-build/ES-build hashes match. File metadata confirms native P3 PNG at 2×, and docs remains excluded from both builds.
+
+Inspected all nine headings, four code blocks, figure and footer in ES/EN at 1440×1000, 390×844 and 580×900. Desktop image width 674px/frame692px, phone source image approximately316px below350px logical, intermediate source approximately472px below674px logical; full lavender stage remains in the Help article column. Mobile code blocks use the existing internal horizontal scroll, reviewed through the right-hand end; no page overflow or screenshot enlargement. No stylesheet or migration tests, renderer or shared guide edits, new captures, database actions or PNG uploads. Evidence: `captures/coupons-api/local-verification.json`. Content verifier, checks/review, merge and public verification remain pending.
+
+Local content verifier: `6b3a13e24dd21fd39052b63a7381396d9ee9a354`. The child ledger commit records the verified pair; external publication remains pending until checks, review, merge and public evidence pass.
+
+### Pre-merge scanner finding
+
+Aikido flagged three original snapshot hashes as generic API keys because article filenames containing `api` were used as JSON keys next to their SHA-256 values. These are file digests, not credentials. Replaced the redundant filename-key representation with explicit article/snapshot/sha256 records, preserving the original snapshots and exact digests. Wait for the new head scan to pass; no scanner ignore or protection bypass.

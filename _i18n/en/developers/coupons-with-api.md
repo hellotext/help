@@ -8,7 +8,8 @@ Use the [Coupons API reference](https://www.hellotext.com/api#coupons) for the c
 
 Prepare:
 
-- A private API authorization token.
+- A private API authorization token, stored in your backend. Do not put it in forms, public JavaScript, or messages.
+- An active subscription to create or update coupons and track events.
 - A coupon code that already works in the eCommerce platform.
 - A public destination URL where the customer can redeem it.
 - A short description that can be used in a message.
@@ -30,7 +31,7 @@ Hellotext can deliver and track the coupon context, but the commerce system deci
 
 ## 2. Create the coupon object in Hellotext
 
-Create the matching coupon:
+The examples use fictional data. Replace `COUPON_ID` and `PROFILE_ID` with the corresponding Hellotext IDs, and load your token into the `HELLOTEXT_API_TOKEN` environment variable on your server. Create the matching coupon:
 
 ```bash
 curl --request POST \
@@ -38,20 +39,43 @@ curl --request POST \
   --header "Authorization: Bearer $HELLOTEXT_API_TOKEN" \
   --header "Content-Type: application/json" \
   --data '{
-    "code": "WELCOME10",
+    "code": "GUIA-QR-10",
     "description": "Get 10% off your first order",
-    "destination_url": "https://shop.example.com/discount/WELCOME10",
-    "reference": "promotion-2026-welcome"
+    "destination_url": "https://shop.example.com/discount/GUIA-QR-10",
+    "reference": "promotion-2026-guide"
   }'
 ```
 
-The code is case-sensitive and must be unique. Keep the description under the supported limit and make the destination URL publicly reachable.
+The code is case-sensitive and must be unique within your business. Descriptions support up to 140 characters. Use a public URL with `https://` or `http://`, and check that it opens the correct offer.
 
-Save the returned coupon `id`. See [Create a coupon](https://www.hellotext.com/api#create_a_coupon) for every supported field.
+Save the returned coupon `id`. It is different from the customer-facing `code` and the `reference` that identifies the promotion in your system. Use the Hellotext ID to retrieve, update, or track events for the object.
+
+Check the saved object with [Retrieve a coupon](https://www.hellotext.com/api#retrieve_a_coupon):
+
+```bash
+curl --request GET \
+  --url https://api.hellotext.com/v1/coupons/COUPON_ID \
+  --header "Authorization: Bearer $HELLOTEXT_API_TOKEN"
+```
+
+If creation returns a duplicate-code error or you do not know whether a request completed, use [List all coupons](https://www.hellotext.com/api#list_all_coupons) and review the result pages to identify the existing code and reference before creating the object again. See [Create a coupon](https://www.hellotext.com/api#create_a_coupon) for every supported field.
 
 ## 3. Update the same coupon when its presentation changes
 
-Use `PATCH /v1/coupons/:id` when the description or destination URL changes. Keep the same Hellotext coupon ID while it still represents the same promotion.
+Use `PATCH /v1/coupons/:id` when the description or destination URL changes. Keep the same Hellotext coupon ID while it still represents the same promotion. Send the fields you need to change:
+
+```bash
+curl --request PATCH \
+  --url https://api.hellotext.com/v1/coupons/COUPON_ID \
+  --header "Authorization: Bearer $HELLOTEXT_API_TOKEN" \
+  --header "Content-Type: application/json" \
+  --data '{
+    "description": "Get 10% off your first order with GUIA-QR-10",
+    "destination_url": "https://shop.example.com/discount/GUIA-QR-10"
+  }'
+```
+
+Retrieve the object again and check its new presentation. See [Update a coupon](https://www.hellotext.com/api#update_a_coupon).
 
 Do not rotate an expired code into an unrelated promotion just to reuse its record. Create a new coupon when the offer has a different commercial identity, eligibility, or code.
 
@@ -59,7 +83,19 @@ Because checkout rules live in the commerce system, updating the Hellotext objec
 
 ## 4. Use the coupon in a compatible message or playbook
 
-After the coupon exists, it can be selected where Hellotext exposes coupon support, such as compatible captures, messages, routes, or playbooks.
+After the coupon exists, it can be selected where Hellotext exposes coupon support, such as compatible captures, messages, routes, or playbooks. In this demo example, a Shareable Link selects `GUIA-QR-10` and an optional draft welcome journey.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Fictional GUIA-QR-10 coupon and optional welcome journey selected in a demo Shareable Link.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="width: fit-content; max-width: 692px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 470px)" srcset="/images/captures/shareable-link/follow-up-refresh/assignment-en-mobile.png 2x" width="700" height="976" />
+        <img src="/images/captures/shareable-link/follow-up-refresh/assignment-en.png" srcset="/images/captures/shareable-link/follow-up-refresh/assignment-en.png 2x" style="width: auto; margin: 0 auto;" width="1348" height="904" loading="lazy" decoding="async" alt="Fictional GUIA-QR-10 coupon and optional welcome journey selected in a demo Shareable Link." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Example of selecting an existing coupon in a Shareable Link. The welcome journey is optional; selecting it and the coupon does not create the discount rules in your store.</figcaption>
+</figure>
 
 Before launch, test the complete customer experience:
 
@@ -89,7 +125,9 @@ curl --request POST \
   }'
 ```
 
-Use the monetary value associated with the confirmed redemption according to your reporting implementation. Keep `amount` and `currency` together, and preserve the original event time.
+`object` is the Hellotext coupon ID, and `profile` is the ID of the customer who redeemed it. `amount` represents the revenue associated with that purchase: in the example, USD 89.90 is the purchase value you record, not the value of the 10% discount. Always send the actual ISO 4217 currency together with the amount, and preserve the original redemption time in `tracked_at` as a Unix timestamp in seconds.
+
+A `{"status":"received"}` response means the request was accepted for processing; check afterward that the event appears on the correct profile. If your integration has a real attribution session for the same customer, you can include its ID in `session`. Do not invent a session or attribute a redemption to a campaign solely because its coupon was used.
 
 Do not send `coupon.redeemed` when the coupon is displayed, delivered, clicked, or copied. Those actions do not prove that checkout accepted it.
 
@@ -99,11 +137,13 @@ See [Track coupon events](https://www.hellotext.com/api#track_coupon_events).
 
 The coupon object can be reused across many customers, but each confirmed redemption is a separate event.
 
-- Give each commerce redemption a stable internal ID.
-- Process the same checkout notification only once.
-- Mark it as sent after Hellotext responds with `status: received`.
+- Give each commerce redemption a stable internal ID and store its submission state in your integration.
+- Process the same checkout notification only once, even if it reaches two processes at the same time.
+- Mark it as accepted after Hellotext responds with `status: received`; verify processing afterward.
 - Do not send the same redemption from browser and backend code.
-- Preserve the same customer profile and coupon ID on retries.
+- After a timeout, check the outcome before retrying: the request may have been accepted even if you did not receive the response.
+
+Preserving the same profile, coupon, and time does not guarantee that a retry will be deduplicated. Your integration must prevent repeated submission of the same redemption.
 
 The commerce platform remains responsible for preventing a code from being redeemed more times than its rules allow. Hellotext should receive the final confirmed outcome.
 
@@ -112,6 +152,7 @@ The commerce platform remains responsible for preventing a code from being redee
 Use one test coupon and one recognizable customer:
 
 - The code works in the store before it is added to Hellotext.
+- Retrieving the object confirms that its ID, code, reference, and destination match the promotion.
 - The Hellotext coupon opens the correct destination.
 - A compatible message displays the expected offer.
 - An unsuccessful checkout does not create `coupon.redeemed`.
