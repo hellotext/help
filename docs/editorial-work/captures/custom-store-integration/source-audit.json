@@ -9,7 +9,9 @@
     "https://www.hellotext.com/api#attach_session",
     "https://www.hellotext.com/api#tracking",
     "https://github.com/hellotext/hellotext.js",
-    "https://registry.npmjs.org/@hellotext/hellotext/2.6.0"
+    "https://registry.npmjs.org/@hellotext/hellotext/2.6.0",
+    "https://docs.npmjs.com/cli/v11/commands/npm-install/",
+    "https://docs.npmjs.com/cli/v11/using-npm/config/#save-exact"
   ],
   "npm_version_verified": "2.6.0",
   "npm_git_head": "d9fc6311eaab233aa594d324ff0b3fa1e840fae2",
@@ -63,5 +65,10 @@
     "finding": "PR269 P2: presenting inherited automatic-page-view guide as the implementation flow could lose activity.",
     "resolution": "Keep original link as context, explicitly identify its automatic-tracking description as differing from pinned2.6.0, and direct ES/EN readers to current steps6/7. Preserve independent pending guide scope.",
     "review_url": "https://github.com/hellotext/help/pull/269#discussion_r4142717356"
+  },
+  "exact_sdk_pin_follow_up": {
+    "finding": "PR269 second review P2: npm default saves a semver range, not an exact version.",
+    "resolution": "Both commands use --save-exact; retain package-lock.json and use npm ci for locked deployments. Official npm documentation verified; syntax-only example, no installation or API request.",
+    "review_url": "https://github.com/hellotext/help/pull/269#discussion_r4142805929"
   }
 }
