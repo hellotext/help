@@ -1,118 +1,148 @@
 Tracked links connect a click with the message that created it, the customer profile, a session, reporting, and later activity on your site.
 
-Hellotext can create these links in campaign, journey, playbook, and Inbox messages. For the context to continue after the redirect, the destination site must preserve the session and track later activity correctly.
+Hellotext can create these links in campaign, journey, playbook, and Inbox messages. For the context to continue after the redirect, the destination site must preserve the session and explicitly track later activity.
 
 ## What Hellotext does when the customer clicks
 
-When you add a link with the editor tool, Hellotext generates a short URL such as `hello.link/XXXXXX` or uses the custom domain configured by the business.
+In the editor, use **Insert short link**, the chain icon in the bottom toolbar. Paste the complete destination into **Create a shortlink** and select **Add short link**. Typing a URL as text is not the same as inserting it with this tool.
 
-When the customer clicks, Hellotext:
+The following real draft in **Settings → Templates**, **Message** mode with an SMS preview, helps you recognize the control. Its URL is still text: no link was created, the template was not saved, and the message was not sent.
 
-1. Tracks the `short_link.clicked` action for the customer profile and corresponding message.
-2. Updates the link click count and available reports.
-3. Preserves the campaign, broadcast, journey, step, or playbook context that created the message.
-4. Redirects the customer to the original URL.
-5. Adds a session and UTM parameters to the destination URL.
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Real Message editor with a fictional return draft and the Insert short link control in the bottom toolbar; the URL is still text.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="width: fit-content; max-width: 642px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 470px)" srcset="/images/developers/send-messages-with-api/editor-en-mobile.png 2x" width="668" height="718" />
+        <img src="/images/developers/send-messages-with-api/editor-en.png" srcset="/images/developers/send-messages-with-api/editor-en.png 2x" style="width: auto; margin: 0 auto;" width="1248" height="708" loading="lazy" decoding="async" alt="Real Message editor with a fictional return draft and the Insert short link control in the bottom toolbar; the URL is still text." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Unsaved Settings → Templates draft in Message mode with SMS preview. The URL is text, not a personalized tracked link; no link was created or message sent.</figcaption>
+</figure>
 
-Hellotext filters previews it identifies as bots so they are not counted as customer clicks. Even so, a recorded click represents an interaction, not a purchase or guaranteed conversion.
+The editor creates a reusable business link. When Hellotext prepares a message for a recipient, it creates the personalized link and its session, with an address such as `hello.link/XXXXXX` or the business's verified custom domain. Opening the editor link or a preview does not demonstrate a click by that recipient: those addresses can redirect in preview mode without the sent message's context.
 
-Do not send `short_link.clicked` manually from your integration. Hellotext creates it when processing the link click.
+When the customer opens the personalized link, Hellotext:
+
+1. Redirects to the original URL with `hello_session` and the applicable UTM parameters.
+2. Queues click recording; the redirect can finish before processing does.
+3. When processing an accepted click, records `short_link.clicked` for the corresponding profile and message, preserves its source references, and updates the available counters and reports.
+
+Hellotext filters previews it identifies as bots, both at redirect time and during request processing. This does not infallibly identify every person: a recorded click represents interaction with the link, not verified identity, a purchase, or guaranteed conversion.
+
+Do not send `short_link.clicked` manually from your integration. Hellotext creates it when processing the click; duplicating it from the site would distort activity and counters.
 
 ## Parameters received by the destination site
 
-The redirected URL can look like this:
+The redirected URL can look like this; the values are illustrative:
 
 ```text
-https://shop.example.com/products/everyday-sneakers?hello_session=SESSION_ID&utm_source=hellotext&utm_medium=sms&utm_campaign=CAMPAIGN_ID
+https://shop.example.com/products/everyday-sneakers?hello_session=SESSION_ID&utm_source=hellotext&utm_medium=sms&utm_campaign=example_campaign
 ```
 
 The parameters have different purposes:
 
-- `hello_session` preserves the session associated with the link and connects later activity.
+- `hello_session` contains the ID of the session associated with the personalized link. It is not a private API token or authorization to send messages.
 - `utm_source` identifies the traffic source; its value is normally `hellotext`.
-- `utm_medium` identifies the channel when available.
-- `utm_campaign` identifies the campaign, journey, or playbook when applicable.
+- `utm_medium` identifies the message technology, such as `sms`, when available.
+- `utm_campaign` uses the campaign or journey's configured UTM token, or the playbook code. Do not assume it is the API object's public ID; it may be absent when that source does not apply.
 
 The current parameter is `hello_session`. Do not use or look for `hellotext_session`.
 
-If the original URL already contains parameters, Hellotext preserves them and adds its own. Do not remove `hello_session` or the UTM parameters in an intermediate redirect.
+Hellotext preserves the destination fragment and other parameters. If a UTM key generated by Hellotext already exists, its generated value replaces the previous one; avoid destinations that already contain `hello_session` or duplicate keys. Do not remove these parameters in an intermediate redirect or substitute another person's session ID.
 
 ## How the session continues on the site
 
-Hellotext.js reads `hello_session` from the URL, retains the session in the browser, and includes it with later activity.
+In the [published Hellotext.js SDK](https://github.com/hellotext/hellotext.js), version `2.6.0`, the session comes first from `hello_session` in the URL, then from a session supplied in configuration, then from the cookie. If none exists and `autoGenerateSession` is enabled, another session is generated.
 
-Initialize Hellotext.js before your router or storefront code removes URL parameters. In a single-page application, preserve the query string during the initial load.
-
-You can inspect the session after the library initializes:
+Initialize the library before your router or storefront code removes the parameters. `initialize()` is asynchronous: await its completion. This example assumes Hellotext.js is already loaded and uses the **public Business ID**, without a private token:
 
 ```javascript
-if (Hellotext.isInitialized) {
-  console.log(Hellotext.session)
-}
+(async () => {
+  const redirectedSession = new URL(window.location.href)
+    .searchParams.get("hello_session");
+
+  await Hellotext.initialize("HELLOTEXT_BUSINESS_ID");
+  console.log({ redirectedSession, session: Hellotext.session });
+
+  const response = await Hellotext.track("page.viewed");
+  if (response.failed) {
+    console.error(await response.json());
+  }
+})().catch((error) => {
+  console.error(error);
+});
 ```
 
-Hellotext.js automatically tracks `page.viewed` with the current URL. If the page represents a product, also track `product.viewed` and explicitly include the product. The URL alone does not provide all catalog information.
+When `hello_session` arrives, compare it with `Hellotext.session` after initialization. The SDK retains the session in a cookie when the browser allows writing it and attempts to acknowledge receipt to the server. Seeing a local ID does not prove that acknowledgement or an event has been processed. If storage is blocked, check continuity again when navigating or reloading.
 
-See [Tracking unidentified customers]({% link _developers/tracking-unidentified-customers.md %}) for the complete session and identity lifecycle.
+Hellotext.js **does not automatically track `page.viewed` during initialization**. Make one explicit call per real view. In a single-page application, initialize once and, after each navigation you want to measure, call `Hellotext.track("page.viewed", { url: window.location.href })` once; avoid duplicating another integration's recording. If the page represents a product, also track `product.viewed` with the corresponding product. The URL alone does not provide all catalog data.
+
+See [Tracking unidentified customers]({% link _developers/tracking-unidentified-customers.md %}) for the session and identity lifecycle, and check examples against the SDK version you use.
 
 ## Context by message source
 
 The same mechanism preserves different references depending on where the message was created:
 
-- **Campaign:** the click is related to the campaign, broadcast, and sent message.
-- **Journey:** the click is related to the journey, step, and executed message.
-- **Playbook:** the click is related to the playbook and generated or sent message.
-- **Inbox:** the click remains in customer and conversation activity even when there is no campaign or automation report.
+- **Campaign:** the campaign, broadcast, and recipient's message.
+- **Journey:** the journey, step, and executed message.
+- **Playbook:** the playbook and message generated for the recipient.
+- **Inbox:** the profile and conversation message, even when there is no campaign or automation report.
 
-Do not manually reuse a personalized message link for other customers or sends. Add the destination through the editor link tool and let Hellotext generate the correct context for each message.
+Hellotext retains these references; they are not all transmitted as separate URL parameters. A `utm_campaign` alone does not replace the session or prove a message is eligible for attribution.
+
+Do not manually reuse a personalized message link for other customers or sends. If someone forwards it, it retains the original recipient's context; you cannot assume the person opening it is that same recipient. Add the destination through the editor tool and let Hellotext prepare each message's context.
 
 ## How later events are connected
 
-A click is only the beginning of the session. To understand what happened next, the site or backend must track the relevant actions:
+The click lets you continue a session that may already have been created during message preparation. To understand what happened next, track relevant actions:
 
-- Hellotext.js tracks navigation, product views, and cart changes.
-- Your backend tracks trusted orders, payments, cancellations, shipments, and deliveries.
-- When the customer becomes known, the session must be associated with the correct customer profile.
+- Your site explicitly calls Hellotext.js for navigation, product views, and cart changes that another integration does not already track.
+- Your backend tracks orders, payments, cancellations, shipments, and deliveries using reliable system data.
+- When the customer becomes known, the session must be associated with the correct profile in the same business. Do not reassign it based only on a forwarded URL.
 
-If checkout happens on another domain or application, send the `Hellotext.session` ID to your backend before losing the context. You can then track the order with the corresponding customer profile or session.
+If checkout happens on another domain or application, retain `Hellotext.session` in your checkout context and pass it to your backend before losing it. A cookie is not automatically shared between different domains. Tracking a profile without its session does not by itself retain all earlier navigation, and supplying both IDs does not automatically create a valid association if one did not exist.
 
-Do not send the same event from Hellotext.js and the backend. See [Tracking events]({% link _developers/tracking-events.md %}) and [External tracking]({% link _developers/external-tracking.md %}).
+Include the original event time when recording delayed activity, using the format supported by your endpoint. Distinguish `received` from a processed event and an attributed sale. Neither a click nor a session grants consent to communications.
+
+Do not send the same event from Hellotext.js and your backend or immediately repeat a request with an uncertain outcome. See [Tracking events]({% link _developers/tracking-events.md %}) and [External tracking]({% link _developers/external-tracking.md %}).
 
 ## Clicks, reporting, and attribution
 
-Clicks can appear in customer profile activity and in campaign, journey, or playbook reports when that report is available.
+Processed clicks can appear in profile activity and campaign, journey, or playbook reports when available. The link counter includes accepted repeated clicks; it does not equal unique people. Message-level unique-click metrics also do not prove how many different people opened a forwarded URL. A successful redirect does not guarantee an immediately updated counter.
 
-An eligible click can provide active attribution evidence and normally opens a seven-day window from the click. An eligible delivery or another passive signal can apply within the default 24-hour window. These windows can be configured by account.
+An eligible click can provide active attribution evidence inside the default seven-day window from the click. An eligible delivery can provide passive evidence inside the default 24-hour window. These windows can be configured by business; they do not represent automatic link or cookie expiration.
 
-The click does not guarantee that a purchase will be attributed to that source. Hellotext also evaluates:
+Hellotext also evaluates:
 
-- Whether the customer and order are identified correctly.
-- Whether the purchase occurs inside the applicable window.
-- Whether the campaign, journey, playbook, or delivery is eligible.
+- Whether the customer, business, and order are identified correctly.
+- Whether the click belongs to a message delivered to that customer and occurs after delivery.
+- Whether the source is usable and, for a campaign, had already started when the purchase occurred.
+- Whether the click precedes the purchase and the purchase falls inside the applicable window, using original timestamps even if processing happens later.
 - Whether another valid source has higher precedence.
 
-See [How we attribute sales]({% link _analytics-reporting-attribution/sales-attribution.md %}) for complete windows, precedence, and examples.
+Keeping `hello_session` helps connect context, but does not guarantee that every later event receives that source or every purchase is attributed. See [How we attribute sales]({% link _analytics-reporting-attribution/sales-attribution.md %}) for complete windows, precedence, and examples.
 
 ## Verify the implementation
 
-Test with a recognizable customer profile and message:
+In an authorized test environment, use a recognizable profile and message, with the appropriate channel and consent:
 
-1. Create a tracked link through the editor.
-2. Send the test message and open the link as the customer would.
-3. Confirm that the destination URL includes `hello_session` and the expected UTM parameters.
-4. Verify that `Hellotext.session` matches the received session.
-5. Confirm that the click appears in customer profile activity.
-6. Review the campaign, journey, or playbook report when available.
-7. Track a test product view, cart, or order and confirm that it preserves the correct customer and source.
-8. Confirm that the same activity was not tracked twice.
+1. Insert the destination with the editor tool and distinguish the draft link from the recipient message's personalized link.
+2. If you perform an authorized test send, open that message's link; an editor preview does not test the same flow.
+3. Confirm that intermediate redirects preserve `hello_session` and the expected UTM values without duplicating or overwriting the session.
+4. Await `initialize()`, compare `Hellotext.session` with the received ID, and explicitly track `page.viewed` once.
+5. Check profile activity after processing and distinguish total clicks from unique metrics.
+6. Review the source report when available, using the correct period and channel.
+7. Record only activity needed for the test and verify the object, customer, session, and original time; check attribution separately.
+8. Confirm another integration did not record the same activity or an extra manual `short_link.clicked`.
 
 ## Troubleshoot common problems
 
-- **The click appears, but later activity does not:** confirm that the site preserves `hello_session` until Hellotext.js initializes.
-- **The session changes when the customer reaches the site:** review redirects, domains, cookies, and Hellotext.js initialization order.
+- **The click appears, but later activity does not:** preserve `hello_session` until initialization, await the library, and verify explicit tracking calls and their processing.
+- **The session changes on arrival:** review redirects, duplicate keys, domains, blocked storage, and initialization order. Do not confuse a local ID with a confirmed profile association.
 - **The page view appears without a product:** track `product.viewed` with the corresponding product.
-- **The click does not appear in the report:** verify that the link was created in the correct message and was not a preview detected as a bot.
-- **The purchase is not attributed:** review identity, order, timestamp, window, and source precedence.
+- **The click does not appear in the report:** check that you opened the correct personalized message link rather than the draft link or a preview; consider bot filtering, processing, and the report period.
+- **The purchase is not attributed:** review identity, business, order, delivery, original times, window, and precedence. A UTM value or session alone is not enough.
 
 If signals are missing, use [Troubleshoot missing signals or activity]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %}).
 

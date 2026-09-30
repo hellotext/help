@@ -1,0 +1,65 @@
+{
+  "sections": [
+    {
+      "i": 0,
+      "text": "Qué hace Hellotext cuando el cliente hace clicEnlace copiado",
+      "top": 832
+    },
+    {
+      "i": 1,
+      "text": "Parámetros que recibe el sitio de destinoEnlace copiado",
+      "top": 2180
+    },
+    {
+      "i": 2,
+      "text": "Cómo continúa la sesión en el sitioEnlace copiado",
+      "top": 2988
+    },
+    {
+      "i": 3,
+      "text": "Contexto según el origen del mensajeEnlace copiado",
+      "top": 4204
+    },
+    {
+      "i": 4,
+      "text": "Cómo se conectan los eventos posterioresEnlace copiado",
+      "top": 4804
+    },
+    {
+      "i": 5,
+      "text": "Clics, reportes y atribuciónEnlace copiado",
+      "top": 5576
+    },
+    {
+      "i": 6,
+      "text": "Verifica la implementaciónEnlace copiado",
+      "top": 6408
+    },
+    {
+      "i": 7,
+      "text": "Soluciona problemas comunesEnlace copiado",
+      "top": 7084
+    },
+    {
+      "i": 8,
+      "text": "Guías relacionadasEnlace copiado",
+      "top": 7628
+    }
+  ],
+  "codes": [
+    {
+      "i": 0,
+      "top": 2308,
+      "text": "https://shop.example.com/products/everyday-sneakers?hello_session=SESSION_ID&utm_source=hellotext&utm_medium=sms&utm_campaign=campana_ejemplo\n",
+      "width": 548,
+      "scrollWidth": 1215
+    },
+    {
+      "i": 1,
+      "top": 3264,
+      "text": "(async () => {\n  const redirectedSession = new URL(window.location.href)\n    .searchParams.get(\"hello_session\");\n\n  await Hellotext.initialize(\"HELLOTEXT_BUSINESS_ID\");\n  console.log({ redirectedSession, session: Hellotext.session });\n\n  const response = await Hellotext.track(\"page.viewed\");\n  if (response.failed) {\n    console.error(await response.json());\n  }\n})().catch((error) => {\n  console.error(error);\n});\n",
+      "width": 548,
+      "scrollWidth": 582
+    }
+  ]
+}
