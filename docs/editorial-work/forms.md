@@ -100,3 +100,9 @@ Original published ES/EN bodies are preserved in `originals/forms-ui-refresh/`. 
 - Durable source, provenance, safety and local browser observations: `captures/forms/ui-refresh/`. Publication is still pending at this local verification step.
 
 The refreshed content was locally verified at `bf2bdeb03e90ce3541389255be69a5038a895ec8`; `progress.csv` keeps Forms `local_verified` and points to this content commit. Inventory totals remain 52 verified, 101 pending and one out-of-scope redirect. The subsequent ledger commit preserves this verifier reference.
+
+### Narrow catalog size correction
+
+Additional browser inspection at 580 CSS px found that the unchanged 400 CSS px catalog focus rendered at 472 px. Declare the approved catalog sources as 2× and let the image and white frame use their intrinsic width. No catalog PNG was recaptured or duplicated. This fixes the existing size issue while preserving the requested four-figure UI refresh. The final verification reference will point to the refreshed content including this correction.
+
+The catalog size fix passed a repeated production build and security-header verification. Full ES/EN browser review was repeated at 1280×900, 390×844 and 580×900; at 580 px the reused catalog image now displays at exactly its original 400 CSS px width. New source/asset/build bytes are unchanged.

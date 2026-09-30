@@ -46,10 +46,10 @@ Usa un nombre diferente para cada ubicación cuando necesites comparar resultado
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Formulario de Sitio Web en el catálogo de misiones">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 816px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 816px; width: fit-content; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/capture-overview/desktop-form-es.png" width="800" height="480" />
-        <img class="ht-editorial-visual__image" src="/images/captures/forms/es/catalog-desktop-row.png" width="1632" height="480" loading="lazy" decoding="async" alt="Formulario de Sitio Web en el catálogo de escritorio, junto a Popup de Sitio Web; en pantallas estrechas se muestra solo la tarjeta del formulario." />
+        <source media="(max-width: 600px)" srcset="/images/captures/capture-overview/desktop-form-es.png 2x" width="800" height="480" />
+        <img class="ht-editorial-visual__image" src="/images/captures/forms/es/catalog-desktop-row.png" srcset="/images/captures/forms/es/catalog-desktop-row.png 2x" style="width: auto; margin: 0 auto;" width="1632" height="480" loading="lazy" decoding="async" alt="Formulario de Sitio Web en el catálogo de escritorio, junto a Popup de Sitio Web; en pantallas estrechas se muestra solo la tarjeta del formulario." />
       </picture>
     </div>
   </div>

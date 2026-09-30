@@ -46,10 +46,10 @@ Use a distinct name for each placement when you need to compare results, such as
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Website Form in the playbook catalog">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 816px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 816px; width: fit-content; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/capture-overview/desktop-form-en.png" width="800" height="480" />
-        <img class="ht-editorial-visual__image" src="/images/captures/forms/en/catalog-desktop-row.png" width="1632" height="480" loading="lazy" decoding="async" alt="Website Form in the desktop catalog next to Website Popup; narrow screens show only the Website Form card." />
+        <source media="(max-width: 600px)" srcset="/images/captures/capture-overview/desktop-form-en.png 2x" width="800" height="480" />
+        <img class="ht-editorial-visual__image" src="/images/captures/forms/en/catalog-desktop-row.png" srcset="/images/captures/forms/en/catalog-desktop-row.png 2x" style="width: auto; margin: 0 auto;" width="1632" height="480" loading="lazy" decoding="async" alt="Website Form in the desktop catalog next to Website Popup; narrow screens show only the Website Form card." />
       </picture>
     </div>
   </div>
