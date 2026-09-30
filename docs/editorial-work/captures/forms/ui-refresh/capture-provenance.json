@@ -1,6 +1,6 @@
 {
   "article": "captures/forms.md",
-  "status": "approved_local_verified",
+  "status": "published_verified",
   "requested_ui_revision": "11731d118e581bb1d67853b1add1f4f495160288",
   "rails_pr": "https://github.com/hellotext/hellotext/pull/6043",
   "capture_route": "dedicated headless Chrome compositor via loopback CDP",
@@ -379,5 +379,6 @@
   ],
   "safety": "Existing fictional form reused and localized; no seed repeated, form submission, test, coupon/journey assignment, message or campaign triggered; no delivery worker started. Owner locale restored to Spanish.",
   "local_runtime": "Fresh temporary checkout at merged Rails PR #6043, Rails 3192 and Vite 3042. Prior dirty clone on 3191 left intact. Local mail delivery and Bullet disabled. Pending migration page check disabled only in temporary checkout: unrelated seasonal migrations were not run; Forms model/step reads and writes passed guarded audits on the existing protected schema. Explicit protected DATABASE_URL was set before restarting Rails; guarded runner audits used the same URL before and after fixture changes.",
-  "capture_notes": "Native desktop UI for all sources. Narrow figures use tighter native crops of the four field controls and code panel, without resizing or pixel edits. Early field probes showing caret or a clipped notice were discarded; final desktop crops include the entire notice boundary and popover, with only normal UI overlap. Narrow fields omit the separate Remove footer. Embed boxes have slightly different real ES/EN widths, so their code crops are distinct native PNGs."
+  "capture_notes": "Native desktop UI for all sources. Narrow figures use tighter native crops of the four field controls and code panel, without resizing or pixel edits. Early field probes showing caret or a clipped notice were discarded; final desktop crops include the entire notice boundary and popover, with only normal UI overlap. Narrow fields omit the separate Remove footer. Embed boxes have slightly different real ES/EN widths, so their code crops are distinct native PNGs.",
+  "public_verification": "public-verification.json"
 }

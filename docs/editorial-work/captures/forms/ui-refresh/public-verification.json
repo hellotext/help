@@ -1,12 +1,151 @@
 {
-  "status": "passed",
-  "build": "yarn build with Ruby 3.3.6; security headers passed",
-  "hashes": "12 native source/asset/build triples matched byte for byte",
-  "docs_excluded": true,
-  "page_review": "Complete ES/EN articles inspected at 1280x900, 390x844 and 580x900. Five figures per page, correct responsive selections and no overflow; original Help column retained. Frame caps include 18 CSS px of border and padding. At desktop, preview renders at 472 px, optional assignments at 403 px and embed at 550 ES / 546 EN px, exactly their native logical widths. The catalog narrow focus renders at 400 px at the intermediate width. Images remain within source logical widths and white frames fit their images inside full-width lavender stages. No CSS tests added.",
+  "verified_at_utc": "2026-09-30T01:15:55.999516+00:00",
+  "verified_git_main_sha": "eb66b83b3687eef9d59d069279910399ab46e5c8",
+  "production_deploy_id_sha_association": "unavailable; Netlify production listing requires credentials and GitHub production deployments list is empty. No manual deployment.",
+  "pages": [
+    {
+      "url": "https://help.hellotext.com/es/formularios",
+      "status": 200,
+      "figures": 5,
+      "new_assets_present": [
+        "/images/captures/forms/ui-refresh/es/embed.png",
+        "/images/captures/forms/ui-refresh/es/embed-mobile.png",
+        "/images/captures/forms/ui-refresh/es/fields.png",
+        "/images/captures/forms/ui-refresh/es/fields-mobile.png",
+        "/images/captures/forms/ui-refresh/es/optional.png",
+        "/images/captures/forms/ui-refresh/es/preview.png"
+      ]
+    },
+    {
+      "url": "https://help.hellotext.com/forms",
+      "status": 200,
+      "figures": 5,
+      "new_assets_present": [
+        "/images/captures/forms/ui-refresh/en/embed.png",
+        "/images/captures/forms/ui-refresh/en/embed-mobile.png",
+        "/images/captures/forms/ui-refresh/en/fields.png",
+        "/images/captures/forms/ui-refresh/en/fields-mobile.png",
+        "/images/captures/forms/ui-refresh/en/optional.png",
+        "/images/captures/forms/ui-refresh/en/preview.png"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://help.hellotext.com/images/captures/forms/ui-refresh/en/embed.png",
+      "status": 200,
+      "sha256": "8f62f191da2f8ace2797c649a195b32e8cd0ed0474870d3a8df26155a253eccb",
+      "matches_approved_source": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/forms/ui-refresh/es/embed.png",
+      "status": 200,
+      "sha256": "37c3b645ca347205e11e6356cf1c141a954d526d840ae36ef147a5dc09320c25",
+      "matches_approved_source": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/forms/ui-refresh/en/embed-mobile.png",
+      "status": 200,
+      "sha256": "3a6430c73c3ed4f2210d8d484f797d1797884a27f358367450e5e5647f89ed3a",
+      "matches_approved_source": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/forms/ui-refresh/es/embed-mobile.png",
+      "status": 200,
+      "sha256": "9b6f8b0c5ad9310a9068ffca92f442e4c47258439c71bda54a71ee96ee1941f7",
+      "matches_approved_source": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/forms/ui-refresh/en/fields.png",
+      "status": 200,
+      "sha256": "7b8ffed3ecae07389211459bc121c725ab17cf4049729f09d678b03ffe044bba",
+      "matches_approved_source": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/forms/ui-refresh/es/fields.png",
+      "status": 200,
+      "sha256": "f76552b8a5fe00767f4a42899b6de8dadb80dbd10406177d9ce5ff55f0f72f10",
+      "matches_approved_source": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/forms/ui-refresh/en/fields-mobile.png",
+      "status": 200,
+      "sha256": "c80f76175009f4ad6fc871077006c787e4f9eb30c605999f46382cd749c20829",
+      "matches_approved_source": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/forms/ui-refresh/es/fields-mobile.png",
+      "status": 200,
+      "sha256": "5602321348ba16d1961b70f4ee16bc9428d8153c6f361db2b9fc4bdbf1a7562d",
+      "matches_approved_source": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/forms/ui-refresh/en/optional.png",
+      "status": 200,
+      "sha256": "d9c9c152dbc1b08c3e3669a36cc7a553b3cf08e3f2a9bf01e877571a6a10b157",
+      "matches_approved_source": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/forms/ui-refresh/es/optional.png",
+      "status": 200,
+      "sha256": "e12696a55f4ca48cb684180a19632de80577631c60c0dfe09f84ba7e087eb26f",
+      "matches_approved_source": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/forms/ui-refresh/en/preview.png",
+      "status": 200,
+      "sha256": "fd99e7e004f2a1a0a084405aef1191469e23a7f034c83374caad6a38d48cc0e6",
+      "matches_approved_source": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/forms/ui-refresh/es/preview.png",
+      "status": 200,
+      "sha256": "8caa6c2618d9dfbff44dd7c9b5dc6048dd37020cc58e6b12479549be749550b2",
+      "matches_approved_source": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/forms/es/catalog-desktop-row.png",
+      "status": 200,
+      "sha256": "566beb2c6e7b0d3c249b910ae4f4e64b8af41f827f9278795129e4c677873e8a",
+      "matches_approved_source": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/forms/en/catalog-desktop-row.png",
+      "status": 200,
+      "sha256": "7ee2d1dc3d8e3f432ec838e55987946f00163e53400a3ce124721570517488cc",
+      "matches_approved_source": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/capture-overview/desktop-form-es.png",
+      "status": 200,
+      "sha256": "9ce384f09ff7528d172498cd65436a902ea3bfaf6ae3af46adafb33633f1e951",
+      "matches_approved_source": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/capture-overview/desktop-form-en.png",
+      "status": 200,
+      "sha256": "ac896380329371ff4ff4395b6b7e393eecf0075071f1f361daf273992236bbd4",
+      "matches_approved_source": true
+    }
+  ],
+  "main_build": {
+    "run_id": 36654171657,
+    "head_sha": "eb66b83b3687eef9d59d069279910399ab46e5c8",
+    "conclusion": "success",
+    "url": "https://github.com/hellotext/help/actions/runs/36654171657"
+  },
+  "pull_request": "https://github.com/hellotext/help/pull/249",
+  "preserved_content_and_verifier_commits": [
+    "bf2bdeb03e90ce3541389255be69a5038a895ec8",
+    "5c9a3400afe3558c0ad1f036d4fcc33dc721b606",
+    "a91ad5a2b9228ddc09b3d785f9b9b8cd5e7c563a",
+    "faeb81c17c0239a3dfb0c7fc5bc8b3d380fb37be",
+    "68ea8fc4e9071a73b4e745d9aaf4726848cd4328",
+    "0c12fbf281688cfced29948879e4d44a97dd2236"
+  ],
   "browser_observations": [
     {
-      "url": "http://127.0.0.1:4191/forms.html",
+      "url": "https://help.hellotext.com/forms",
       "lang": "en",
       "title": "Website Form | Hellotext",
       "width": 1280,
@@ -18,7 +157,7 @@
           "figWidth": 685,
           "imageWidth": 608.8125,
           "naturalWidth": 1632,
-          "src": "http://127.0.0.1:4191/images/captures/forms/en/catalog-desktop-row.png",
+          "src": "https://help.hellotext.com/images/captures/forms/en/catalog-desktop-row.png",
           "whiteFrameWidth": 626.8125,
           "frameWidth": 685,
           "caption": "Fictional desktop catalog grid; the narrow view keeps the Website Form card readable."
@@ -30,7 +169,7 @@
           "figWidth": 685,
           "imageWidth": 472,
           "naturalWidth": 944,
-          "src": "http://127.0.0.1:4191/images/captures/forms/ui-refresh/en/preview.png",
+          "src": "https://help.hellotext.com/images/captures/forms/ui-refresh/en/preview.png",
           "whiteFrameWidth": 490,
           "frameWidth": 685,
           "caption": "The preview shows the form's four parts together. Its SMS notice matches the phone field."
@@ -42,7 +181,7 @@
           "figWidth": 685,
           "imageWidth": 608.796875,
           "naturalWidth": 1752,
-          "src": "http://127.0.0.1:4191/images/captures/forms/ui-refresh/en/fields.png",
+          "src": "https://help.hellotext.com/images/captures/forms/ui-refresh/en/fields.png",
           "whiteFrameWidth": 626.8125,
           "frameWidth": 685,
           "caption": "Select a field in the preview to set its type, label, placeholder and whether it is required."
@@ -54,7 +193,7 @@
           "figWidth": 685,
           "imageWidth": 403,
           "naturalWidth": 806,
-          "src": "http://127.0.0.1:4191/images/captures/forms/ui-refresh/en/optional.png",
+          "src": "https://help.hellotext.com/images/captures/forms/ui-refresh/en/optional.png",
           "whiteFrameWidth": 421,
           "frameWidth": 685,
           "caption": "Both assignments are optional; this fictional draft does not activate a coupon or journey."
@@ -66,7 +205,7 @@
           "figWidth": 685,
           "imageWidth": 546,
           "naturalWidth": 1092,
-          "src": "http://127.0.0.1:4191/images/captures/forms/ui-refresh/en/embed.png",
+          "src": "https://help.hellotext.com/images/captures/forms/ui-refresh/en/embed.png",
           "whiteFrameWidth": 564,
           "frameWidth": 685,
           "caption": "The snippet includes the form identifier and the parts Hellotext fills in when it loads on your page."
@@ -75,7 +214,7 @@
       "scrollWidth": 1280
     },
     {
-      "url": "http://127.0.0.1:4191/forms.html",
+      "url": "https://help.hellotext.com/forms",
       "lang": "en",
       "title": "Website Form | Hellotext",
       "width": 390,
@@ -87,7 +226,7 @@
           "figWidth": 358,
           "imageWidth": 315.984375,
           "naturalWidth": 400,
-          "src": "http://127.0.0.1:4191/images/captures/capture-overview/desktop-form-en.png",
+          "src": "https://help.hellotext.com/images/captures/capture-overview/desktop-form-en.png",
           "whiteFrameWidth": 328,
           "frameWidth": 358,
           "caption": "Fictional desktop catalog grid; the narrow view keeps the Website Form card readable."
@@ -99,7 +238,7 @@
           "figWidth": 358,
           "imageWidth": 315.9921875,
           "naturalWidth": 944,
-          "src": "http://127.0.0.1:4191/images/captures/forms/ui-refresh/en/preview.png",
+          "src": "https://help.hellotext.com/images/captures/forms/ui-refresh/en/preview.png",
           "whiteFrameWidth": 328,
           "frameWidth": 358,
           "caption": "The preview shows the form's four parts together. Its SMS notice matches the phone field."
@@ -111,7 +250,7 @@
           "figWidth": 358,
           "imageWidth": 315.9921875,
           "naturalWidth": 356,
-          "src": "http://127.0.0.1:4191/images/captures/forms/ui-refresh/en/fields-mobile.png",
+          "src": "https://help.hellotext.com/images/captures/forms/ui-refresh/en/fields-mobile.png",
           "whiteFrameWidth": 328,
           "frameWidth": 358,
           "caption": "Select a field in the preview to set its type, label, placeholder and whether it is required."
@@ -123,7 +262,7 @@
           "figWidth": 358,
           "imageWidth": 315.9921875,
           "naturalWidth": 806,
-          "src": "http://127.0.0.1:4191/images/captures/forms/ui-refresh/en/optional.png",
+          "src": "https://help.hellotext.com/images/captures/forms/ui-refresh/en/optional.png",
           "whiteFrameWidth": 328,
           "frameWidth": 358,
           "caption": "Both assignments are optional; this fictional draft does not activate a coupon or journey."
@@ -135,7 +274,7 @@
           "figWidth": 358,
           "imageWidth": 315.984375,
           "naturalWidth": 448,
-          "src": "http://127.0.0.1:4191/images/captures/forms/ui-refresh/en/embed-mobile.png",
+          "src": "https://help.hellotext.com/images/captures/forms/ui-refresh/en/embed-mobile.png",
           "whiteFrameWidth": 328,
           "frameWidth": 358,
           "caption": "The snippet includes the form identifier and the parts Hellotext fills in when it loads on your page."
@@ -144,7 +283,7 @@
       "scrollWidth": 390
     },
     {
-      "url": "http://127.0.0.1:4191/es/formularios.html",
+      "url": "https://help.hellotext.com/es/formularios",
       "lang": "es",
       "title": "Formulario de Sitio Web | Hellotext",
       "width": 1280,
@@ -156,7 +295,7 @@
           "figWidth": 685,
           "imageWidth": 608.8125,
           "naturalWidth": 1632,
-          "src": "http://127.0.0.1:4191/images/captures/forms/es/catalog-desktop-row.png",
+          "src": "https://help.hellotext.com/images/captures/forms/es/catalog-desktop-row.png",
           "whiteFrameWidth": 626.8125,
           "frameWidth": 685,
           "caption": "Cuadr\u00edcula de escritorio del cat\u00e1logo ficticio; la vista estrecha conserva la tarjeta de Formulario de Sitio Web a un tama\u00f1o legible."
@@ -168,7 +307,7 @@
           "figWidth": 685,
           "imageWidth": 472,
           "naturalWidth": 944,
-          "src": "http://127.0.0.1:4191/images/captures/forms/ui-refresh/es/preview.png",
+          "src": "https://help.hellotext.com/images/captures/forms/ui-refresh/es/preview.png",
           "whiteFrameWidth": 490,
           "frameWidth": 685,
           "caption": "La vista previa re\u00fane las cuatro partes del formulario. El aviso de SMS coincide con el tel\u00e9fono solicitado."
@@ -180,7 +319,7 @@
           "figWidth": 685,
           "imageWidth": 608.796875,
           "naturalWidth": 1752,
-          "src": "http://127.0.0.1:4191/images/captures/forms/ui-refresh/es/fields.png",
+          "src": "https://help.hellotext.com/images/captures/forms/ui-refresh/es/fields.png",
           "whiteFrameWidth": 626.8125,
           "frameWidth": 685,
           "caption": "Selecciona un campo en la vista previa para ajustar su tipo, etiqueta, marcador de posici\u00f3n y obligatoriedad."
@@ -192,7 +331,7 @@
           "figWidth": 685,
           "imageWidth": 403,
           "naturalWidth": 806,
-          "src": "http://127.0.0.1:4191/images/captures/forms/ui-refresh/es/optional.png",
+          "src": "https://help.hellotext.com/images/captures/forms/ui-refresh/es/optional.png",
           "whiteFrameWidth": 421,
           "frameWidth": 685,
           "caption": "Ambas asignaciones son opcionales; este borrador ficticio no activa cup\u00f3n ni ruta."
@@ -204,7 +343,7 @@
           "figWidth": 685,
           "imageWidth": 550,
           "naturalWidth": 1100,
-          "src": "http://127.0.0.1:4191/images/captures/forms/ui-refresh/es/embed.png",
+          "src": "https://help.hellotext.com/images/captures/forms/ui-refresh/es/embed.png",
           "whiteFrameWidth": 568,
           "frameWidth": 685,
           "caption": "El snippet incluye el identificador del formulario y las partes que Hellotext completa al cargarlo en tu p\u00e1gina."
@@ -213,7 +352,7 @@
       "scrollWidth": 1280
     },
     {
-      "url": "http://127.0.0.1:4191/es/formularios.html",
+      "url": "https://help.hellotext.com/es/formularios",
       "lang": "es",
       "title": "Formulario de Sitio Web | Hellotext",
       "width": 390,
@@ -225,7 +364,7 @@
           "figWidth": 358,
           "imageWidth": 315.984375,
           "naturalWidth": 400,
-          "src": "http://127.0.0.1:4191/images/captures/capture-overview/desktop-form-es.png",
+          "src": "https://help.hellotext.com/images/captures/capture-overview/desktop-form-es.png",
           "whiteFrameWidth": 328,
           "frameWidth": 358,
           "caption": "Cuadr\u00edcula de escritorio del cat\u00e1logo ficticio; la vista estrecha conserva la tarjeta de Formulario de Sitio Web a un tama\u00f1o legible."
@@ -237,7 +376,7 @@
           "figWidth": 358,
           "imageWidth": 315.9921875,
           "naturalWidth": 944,
-          "src": "http://127.0.0.1:4191/images/captures/forms/ui-refresh/es/preview.png",
+          "src": "https://help.hellotext.com/images/captures/forms/ui-refresh/es/preview.png",
           "whiteFrameWidth": 328,
           "frameWidth": 358,
           "caption": "La vista previa re\u00fane las cuatro partes del formulario. El aviso de SMS coincide con el tel\u00e9fono solicitado."
@@ -249,7 +388,7 @@
           "figWidth": 358,
           "imageWidth": 315.9921875,
           "naturalWidth": 356,
-          "src": "http://127.0.0.1:4191/images/captures/forms/ui-refresh/es/fields-mobile.png",
+          "src": "https://help.hellotext.com/images/captures/forms/ui-refresh/es/fields-mobile.png",
           "whiteFrameWidth": 328,
           "frameWidth": 358,
           "caption": "Selecciona un campo en la vista previa para ajustar su tipo, etiqueta, marcador de posici\u00f3n y obligatoriedad."
@@ -261,7 +400,7 @@
           "figWidth": 358,
           "imageWidth": 315.984375,
           "naturalWidth": 806,
-          "src": "http://127.0.0.1:4191/images/captures/forms/ui-refresh/es/optional.png",
+          "src": "https://help.hellotext.com/images/captures/forms/ui-refresh/es/optional.png",
           "whiteFrameWidth": 328,
           "frameWidth": 358,
           "caption": "Ambas asignaciones son opcionales; este borrador ficticio no activa cup\u00f3n ni ruta."
@@ -273,7 +412,7 @@
           "figWidth": 358,
           "imageWidth": 315.9921875,
           "naturalWidth": 452,
-          "src": "http://127.0.0.1:4191/images/captures/forms/ui-refresh/es/embed-mobile.png",
+          "src": "https://help.hellotext.com/images/captures/forms/ui-refresh/es/embed-mobile.png",
           "whiteFrameWidth": 328,
           "frameWidth": 358,
           "caption": "El snippet incluye el identificador del formulario y las partes que Hellotext completa al cargarlo en tu p\u00e1gina."
@@ -282,7 +421,7 @@
       "scrollWidth": 390
     },
     {
-      "url": "http://127.0.0.1:4191/forms.html",
+      "url": "https://help.hellotext.com/forms",
       "lang": "en",
       "title": "Website Form | Hellotext",
       "width": 580,
@@ -294,7 +433,7 @@
           "figWidth": 548,
           "imageWidth": 400,
           "naturalWidth": 400,
-          "src": "http://127.0.0.1:4191/images/captures/capture-overview/desktop-form-en.png",
+          "src": "https://help.hellotext.com/images/captures/capture-overview/desktop-form-en.png",
           "whiteFrameWidth": 418,
           "frameWidth": 548,
           "caption": "Fictional desktop catalog grid; the narrow view keeps the Website Form card readable."
@@ -306,7 +445,7 @@
           "figWidth": 548,
           "imageWidth": 472,
           "naturalWidth": 944,
-          "src": "http://127.0.0.1:4191/images/captures/forms/ui-refresh/en/preview.png",
+          "src": "https://help.hellotext.com/images/captures/forms/ui-refresh/en/preview.png",
           "whiteFrameWidth": 490,
           "frameWidth": 548,
           "caption": "The preview shows the form's four parts together. Its SMS notice matches the phone field."
@@ -318,7 +457,7 @@
           "figWidth": 548,
           "imageWidth": 356,
           "naturalWidth": 356,
-          "src": "http://127.0.0.1:4191/images/captures/forms/ui-refresh/en/fields-mobile.png",
+          "src": "https://help.hellotext.com/images/captures/forms/ui-refresh/en/fields-mobile.png",
           "whiteFrameWidth": 374,
           "frameWidth": 548,
           "caption": "Select a field in the preview to set its type, label, placeholder and whether it is required."
@@ -330,7 +469,7 @@
           "figWidth": 548,
           "imageWidth": 403,
           "naturalWidth": 806,
-          "src": "http://127.0.0.1:4191/images/captures/forms/ui-refresh/en/optional.png",
+          "src": "https://help.hellotext.com/images/captures/forms/ui-refresh/en/optional.png",
           "whiteFrameWidth": 421,
           "frameWidth": 548,
           "caption": "Both assignments are optional; this fictional draft does not activate a coupon or journey."
@@ -342,7 +481,7 @@
           "figWidth": 548,
           "imageWidth": 448,
           "naturalWidth": 448,
-          "src": "http://127.0.0.1:4191/images/captures/forms/ui-refresh/en/embed-mobile.png",
+          "src": "https://help.hellotext.com/images/captures/forms/ui-refresh/en/embed-mobile.png",
           "whiteFrameWidth": 466,
           "frameWidth": 548,
           "caption": "The snippet includes the form identifier and the parts Hellotext fills in when it loads on your page."
@@ -351,7 +490,7 @@
       "scrollWidth": 580
     },
     {
-      "url": "http://127.0.0.1:4191/es/formularios.html",
+      "url": "https://help.hellotext.com/es/formularios",
       "lang": "es",
       "title": "Formulario de Sitio Web | Hellotext",
       "width": 580,
@@ -363,7 +502,7 @@
           "figWidth": 548,
           "imageWidth": 400,
           "naturalWidth": 400,
-          "src": "http://127.0.0.1:4191/images/captures/capture-overview/desktop-form-es.png",
+          "src": "https://help.hellotext.com/images/captures/capture-overview/desktop-form-es.png",
           "whiteFrameWidth": 418,
           "frameWidth": 548,
           "caption": "Cuadr\u00edcula de escritorio del cat\u00e1logo ficticio; la vista estrecha conserva la tarjeta de Formulario de Sitio Web a un tama\u00f1o legible."
@@ -375,7 +514,7 @@
           "figWidth": 548,
           "imageWidth": 472,
           "naturalWidth": 944,
-          "src": "http://127.0.0.1:4191/images/captures/forms/ui-refresh/es/preview.png",
+          "src": "https://help.hellotext.com/images/captures/forms/ui-refresh/es/preview.png",
           "whiteFrameWidth": 490,
           "frameWidth": 548,
           "caption": "La vista previa re\u00fane las cuatro partes del formulario. El aviso de SMS coincide con el tel\u00e9fono solicitado."
@@ -387,7 +526,7 @@
           "figWidth": 548,
           "imageWidth": 356,
           "naturalWidth": 356,
-          "src": "http://127.0.0.1:4191/images/captures/forms/ui-refresh/es/fields-mobile.png",
+          "src": "https://help.hellotext.com/images/captures/forms/ui-refresh/es/fields-mobile.png",
           "whiteFrameWidth": 374,
           "frameWidth": 548,
           "caption": "Selecciona un campo en la vista previa para ajustar su tipo, etiqueta, marcador de posici\u00f3n y obligatoriedad."
@@ -399,7 +538,7 @@
           "figWidth": 548,
           "imageWidth": 403,
           "naturalWidth": 806,
-          "src": "http://127.0.0.1:4191/images/captures/forms/ui-refresh/es/optional.png",
+          "src": "https://help.hellotext.com/images/captures/forms/ui-refresh/es/optional.png",
           "whiteFrameWidth": 421,
           "frameWidth": 548,
           "caption": "Ambas asignaciones son opcionales; este borrador ficticio no activa cup\u00f3n ni ruta."
@@ -411,7 +550,7 @@
           "figWidth": 548,
           "imageWidth": 452,
           "naturalWidth": 452,
-          "src": "http://127.0.0.1:4191/images/captures/forms/ui-refresh/es/embed-mobile.png",
+          "src": "https://help.hellotext.com/images/captures/forms/ui-refresh/es/embed-mobile.png",
           "whiteFrameWidth": 470,
           "frameWidth": 548,
           "caption": "El snippet incluye el identificador del formulario y las partes que Hellotext completa al cargarlo en tu p\u00e1gina."
@@ -420,5 +559,5 @@
       "scrollWidth": 580
     }
   ],
-  "publication_status": "published_verified; see public-verification.json"
+  "browser_review": "Published ES/EN pages visually inspected at 1280, 390 and 580 CSS px. Five figures, responsive controls/code crops, fitted frames and full lavender stages within the original column. Desktop preview 472 px, optional 403 px, embed 550 ES / 546 EN; reused narrow catalog 400 px at 580. No image enlargement or overflow observed. No CSS tests."
 }
