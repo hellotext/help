@@ -1,0 +1,406 @@
+{
+  "status": "local_verified_public_pending",
+  "base_revision": "25f57b03fc6804fd492c79ba83dfb212a23146dc",
+  "originals": [
+    {
+      "article": "_i18n/es/developers/developers-overview.md",
+      "snapshot": "docs/editorial-work/originals/developers-overview/es.md",
+      "sha256": "73a8f166f1c2220a0609ad7345d06f675d169bd39528f95bf5984abc0743636d"
+    },
+    {
+      "article": "_i18n/en/developers/developers-overview.md",
+      "snapshot": "docs/editorial-work/originals/developers-overview/en.md",
+      "sha256": "5ce34b402584f039aaba6ddb227daf3f2b29d28dcfa390781cab11797be2b46c"
+    },
+    {
+      "article": "_developers/developers-overview.md",
+      "snapshot": "docs/editorial-work/originals/developers-overview/stub.md",
+      "sha256": "f4180365703e38a0e0eef0b48cda8e9d6e7a1a126e28980c584647e65cd3ff6f"
+    }
+  ],
+  "images": [
+    {
+      "name": "token-es",
+      "concept": "token",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/custom-store-integration/token-es-original.png",
+      "published_asset": "images/developers/custom-store-integration/token-es.png",
+      "native": {
+        "sha256": "1aee0b74d12bed3eb995c7211316047bd59158a92f2c491dfc4a01287c5fb953",
+        "url": "http://127.0.0.1:3192/hellotext/settings/authorizations/new",
+        "locale": "es",
+        "cssViewport": [
+          1200,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          92,
+          124,
+          540,
+          262
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1080,
+          524
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        540.0,
+        262.0
+      ],
+      "intended_max_display_width_css": 540.0,
+      "ui_evidence": "token-es-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Existing approved public native source reused without recapture, editing or duplicate upload; this article publication pending.",
+      "reused_from_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+      "reused_from_public_evidence": "docs/editorial-work/captures/custom-store-integration/public-verification.json"
+    },
+    {
+      "name": "token-es-mobile",
+      "concept": "token",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/custom-store-integration/token-es-mobile-original.png",
+      "published_asset": "images/developers/custom-store-integration/token-es-mobile.png",
+      "native": {
+        "sha256": "ab734e406f700b90cd37365b7a1d084cedb9e8adda7bca8757182d471e6d355a",
+        "url": "http://127.0.0.1:3192/hellotext/settings/authorizations/new",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          8,
+          40,
+          374,
+          240
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          748,
+          480
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        374.0,
+        240.0
+      ],
+      "intended_max_display_width_css": 374.0,
+      "ui_evidence": "token-es-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Existing approved public native source reused without recapture, editing or duplicate upload; this article publication pending.",
+      "reused_from_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+      "reused_from_public_evidence": "docs/editorial-work/captures/custom-store-integration/public-verification.json"
+    },
+    {
+      "name": "token-en",
+      "concept": "token",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/custom-store-integration/token-en-original.png",
+      "published_asset": "images/developers/custom-store-integration/token-en.png",
+      "native": {
+        "sha256": "ca4b35ca243e0e6db3c52219e00162ef2c708efd61d7265dc25f599907c97bd6",
+        "url": "http://127.0.0.1:3192/hellotext/settings/authorizations/new",
+        "locale": "en",
+        "cssViewport": [
+          1200,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          92,
+          124,
+          540,
+          262
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1080,
+          524
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        540.0,
+        262.0
+      ],
+      "intended_max_display_width_css": 540.0,
+      "ui_evidence": "token-en-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Existing approved public native source reused without recapture, editing or duplicate upload; this article publication pending.",
+      "reused_from_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+      "reused_from_public_evidence": "docs/editorial-work/captures/custom-store-integration/public-verification.json"
+    },
+    {
+      "name": "token-en-mobile",
+      "concept": "token",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/custom-store-integration/token-en-mobile-original.png",
+      "published_asset": "images/developers/custom-store-integration/token-en-mobile.png",
+      "native": {
+        "sha256": "716908e63c1f6e914b3dc8d7456e224c02fe69b24797477dded04096b9ec7652",
+        "url": "http://127.0.0.1:3192/hellotext/settings/authorizations/new",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          8,
+          40,
+          374,
+          240
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          748,
+          480
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        374.0,
+        240.0
+      ],
+      "intended_max_display_width_css": 374.0,
+      "ui_evidence": "token-en-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Existing approved public native source reused without recapture, editing or duplicate upload; this article publication pending.",
+      "reused_from_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+      "reused_from_public_evidence": "docs/editorial-work/captures/custom-store-integration/public-verification.json"
+    },
+    {
+      "name": "catalog-es",
+      "concept": "catalog",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/custom-actions/catalog-es-original.png",
+      "published_asset": "images/developers/custom-actions/catalog-es.png",
+      "native": {
+        "sha256": "a12712f6c78adc83c29a0c497ccb3a061449789f26a7d5cbaf6fdab127612389",
+        "url": "http://127.0.0.1:3192/hellotext/settings/actions?tab=custom",
+        "locale": "es",
+        "cssViewport": [
+          1200,
+          900
+        ],
+        "browserDpr": 2,
+        "clip": [
+          304,
+          143,
+          876,
+          419
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1752,
+          838
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP",
+        "guard_result": "Required capture tool pre/post guards passed; source hash retained in first batch output."
+      },
+      "logical_size": [
+        876.0,
+        419.0
+      ],
+      "intended_max_display_width_css": 876.0,
+      "ui_evidence": "catalog-es-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Existing approved public native source reused without recapture, editing or duplicate upload; this article publication pending.",
+      "reused_from_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
+      "reused_from_public_evidence": "docs/editorial-work/captures/custom-actions/public-verification.json"
+    },
+    {
+      "name": "catalog-es-mobile",
+      "concept": "catalog",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/custom-actions/catalog-es-mobile-original.png",
+      "published_asset": "images/developers/custom-actions/catalog-es-mobile.png",
+      "native": {
+        "sha256": "fab59f9490d84ad14feb17be6a5701ba29c39161fdc7bd5fbd391a2a16651d76",
+        "url": "http://127.0.0.1:3192/hellotext/settings/actions?tab=custom",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          900
+        ],
+        "browserDpr": 2,
+        "clip": [
+          4,
+          518,
+          382,
+          173
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          764,
+          346
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        382.0,
+        173.0
+      ],
+      "intended_max_display_width_css": 382.0,
+      "ui_evidence": "catalog-es-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Existing approved public native source reused without recapture, editing or duplicate upload; this article publication pending.",
+      "reused_from_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
+      "reused_from_public_evidence": "docs/editorial-work/captures/custom-actions/public-verification.json"
+    },
+    {
+      "name": "catalog-en",
+      "concept": "catalog",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/custom-actions/catalog-en-original.png",
+      "published_asset": "images/developers/custom-actions/catalog-en.png",
+      "native": {
+        "sha256": "6fdbbbe59759abe2be46c35406174c9dae62c52dcdb56d65f5875e003e278bef",
+        "url": "http://127.0.0.1:3192/hellotext/settings/actions?tab=custom",
+        "locale": "en",
+        "cssViewport": [
+          1200,
+          900
+        ],
+        "browserDpr": 2,
+        "clip": [
+          304,
+          143,
+          876,
+          419
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1752,
+          838
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP",
+        "guard_result": "Required capture tool pre/post guards passed; source hash retained in first batch output."
+      },
+      "logical_size": [
+        876.0,
+        419.0
+      ],
+      "intended_max_display_width_css": 876.0,
+      "ui_evidence": "catalog-en-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Existing approved public native source reused without recapture, editing or duplicate upload; this article publication pending.",
+      "reused_from_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
+      "reused_from_public_evidence": "docs/editorial-work/captures/custom-actions/public-verification.json"
+    },
+    {
+      "name": "catalog-en-mobile",
+      "concept": "catalog",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/custom-actions/catalog-en-mobile-original.png",
+      "published_asset": "images/developers/custom-actions/catalog-en-mobile.png",
+      "native": {
+        "sha256": "9f1460df43463d2eef8bbd04d6c550782d05bd4129eb7f9bf0faa5f553588561",
+        "url": "http://127.0.0.1:3192/hellotext/settings/actions?tab=custom",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          900
+        ],
+        "browserDpr": 2,
+        "clip": [
+          4,
+          518,
+          382,
+          173
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          764,
+          346
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        382.0,
+        173.0
+      ],
+      "intended_max_display_width_css": 382.0,
+      "ui_evidence": "catalog-en-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Existing approved public native source reused without recapture, editing or duplicate upload; this article publication pending.",
+      "reused_from_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
+      "reused_from_public_evidence": "docs/editorial-work/captures/custom-actions/public-verification.json"
+    }
+  ],
+  "capture_method": "Reuse approved native sources only; no new screenshot, upload, fixture mutation or API example execution.",
+  "pending": [
+    "exact-head PR checks/review/threads and merge",
+    "normal production and public verification"
+  ],
+  "new_captures": 0,
+  "new_png_uploads": 0,
+  "local_verification": {
+    "evidence": "local-verification.json",
+    "evidence_publication_state": "not_yet_deployed",
+    "visual_review": "completed",
+    "native_hashes": "all eight source/asset/root-build/es-build hashes match"
+  }
+}

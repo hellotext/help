@@ -1,0 +1,72 @@
+{
+  "verified_at_utc": "2026-09-30T09:52:53.442591+00:00",
+  "official_sources": [
+    "https://www.hellotext.com/api#authentication",
+    "https://www.hellotext.com/api#send_a_message",
+    "https://www.hellotext.com/api#tracking",
+    "https://www.hellotext.com/api#actions",
+    "https://www.hellotext.com/api#attach_session",
+    "https://github.com/hellotext/hellotext.js",
+    "https://registry.npmjs.org/@hellotext/hellotext/2.6.0"
+  ],
+  "reviewed_rails_revision": "e6ae33a310d46ba88d9bf5b70845618a0b4a6461",
+  "reviewed_local_sources": [
+    {
+      "path": "app/controllers/api/v1/api_controller/authenticate_token.rb",
+      "sha256": "87d2b9046f07d4f4ef70731db750064edb82dfa6513f6cc8e2993d69b7986558"
+    },
+    {
+      "path": "app/controllers/api/v1/messages_controller.rb",
+      "sha256": "4e1ebedb02135b4ed2649a5fac574ae00cffbcf66fb6abd2ea1fe07ee18e9ab7"
+    },
+    {
+      "path": "app/controllers/api/v1/status/received.rb",
+      "sha256": "fb2811faf32fb82661ccb2a6292194593abb717798ce90b386968a6b06cec3ef"
+    },
+    {
+      "path": "app/controllers/api/v1/track/events_controller.rb",
+      "sha256": "eecdb61c10e1de2455effdfd51f784855755f96344561faa7bc4817c146b2360"
+    },
+    {
+      "path": "app/controllers/api/v1/sessions_controller.rb",
+      "sha256": "8b47034fc88a8b85581e99ec41cbba583202b2ce188636104109b793bee510a8"
+    },
+    {
+      "path": "app/models/attribution/session/attachable.rb",
+      "sha256": "5bfb7b8fca32d323e64f9c06194bd08c18d18da0155da5e2d6c648a619b38945"
+    },
+    {
+      "path": "app/controllers/settings/authorization_tokens_controller.rb",
+      "sha256": "9f33334680a87cfb4571463b71ac78d3b7256df466af344d219293e82604202d"
+    },
+    {
+      "path": "config/locales/es.yml",
+      "sha256": "a921f8a58037f57409eb10a41a25d5561381d319580174c77900a701a48f0d2f"
+    },
+    {
+      "path": "config/locales/en.yml",
+      "sha256": "ff27beff01d5d00fd862025a1c0217d7a2e1d3b1b119404bf49dc8014ad2047b"
+    }
+  ],
+  "released_sdk": {
+    "version": "2.6.0",
+    "git_head": "d9fc6311eaab233aa594d324ff0b3fa1e840fae2",
+    "tarball_sha1_verified": "6bf08779ceb04490d7e51449ea1d83d00b5e7efb",
+    "async_initialize": true,
+    "automatic_page_view_dispatch_in_released_src": false,
+    "reviewed_src_sha256": {
+      "package/src/api/acks.js": "fb7cd2d2bda4a3639311c9204a2ceab82066f7fd06590638068cc992c81c004c",
+      "package/src/hellotext.js": "76eafba301b960171dc358e7ccf6423618882c7d3f4dbcf2f63c1287d5fc24dc",
+      "package/src/models/session.js": "044a8aa34abb70a4cdfb26c9f38c2bf23af0eacc4229fb08ab0d78897f5fd745"
+    }
+  },
+  "corrections": [
+    "Private bearer token belongs to its business; public SDK Business ID and token name are not credentials.",
+    "Use exact localized current Settings/token controls and unsaved example description.",
+    "Messages and events return received before asynchronous processing/delivery; do not claim automatic attribution or repeat a timed-out send.",
+    "Definition versus occurrence, tracking name versus definition ID, profile state versus reusable object.",
+    "Actual session and trusted identity mapping, consent is separate.",
+    "Inherited tracking-events automatic-pageview wording remains explicit pending debt; route new SDK2.6.0 setup to verified custom-store implementation."
+  ],
+  "side_effects": "No API examples executed, token created, event tracked, message sent, fixture/locale modified or worker started. A read-only guarded clone preflight confirmed127contacts/zero messageable/subscribed,49messages,318events,0tokens/0enabledplaybooks and localeES."
+}
