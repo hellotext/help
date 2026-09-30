@@ -84,7 +84,7 @@ Registra la navegación y la interacción del visitante con Hellotext.js cuando 
 
 Los eventos rastreados pueden ayudarte a segmentar audiencias, activar misiones o rutas, atribuir ingresos y darle más contexto al equipo de Bandeja. Cada resultado depende de sus datos y configuración: una solicitud recibida no prueba que el evento ya se haya procesado ni que haya atribuido una venta.
 
-Sigue leyendo: [Seguimiento de eventos]({% link _developers/tracking-events.md %}). Esa guía contiene una descripción heredada de `page.viewed` automático. Para una instalación nueva con el SDK **2.6.0**, sigue los pasos de instalación y actividad del navegador en la guía de tienda propia enlazada arriba: espera la inicialización y registra `page.viewed` explícitamente una vez por navegación, sin duplicar la primera vista.
+Sigue leyendo: [Seguimiento de eventos]({% link _developers/tracking-events.md %}) para entender la inicialización y el registro explícito. Para una instalación nueva con el SDK **2.6.0**, sigue también los pasos de instalación y actividad del navegador en la guía de tienda propia enlazada arriba: espera la inicialización y registra `page.viewed` explícitamente una vez por navegación, sin duplicar la primera vista.
 
 ## Modela actividad específica del negocio
 

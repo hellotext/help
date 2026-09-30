@@ -1,0 +1,60 @@
+{
+  "sections": [
+    {
+      "i": 0,
+      "text": "Señales, acciones, eventos y objetosEnlace copiado",
+      "top": 813
+    },
+    {
+      "i": 1,
+      "text": "Acciones incorporadas para integracionesEnlace copiado",
+      "top": 2029
+    },
+    {
+      "i": 2,
+      "text": "Acciones generadas por HellotextEnlace copiado",
+      "top": 5014
+    },
+    {
+      "i": 3,
+      "text": "Acciones personalizadasEnlace copiado",
+      "top": 5498
+    },
+    {
+      "i": 4,
+      "text": "Cómo llegan los eventos a HellotextEnlace copiado",
+      "top": 6759
+    },
+    {
+      "i": 5,
+      "text": "Datos que debe conservar cada eventoEnlace copiado",
+      "top": 10182
+    },
+    {
+      "i": 6,
+      "text": "Verifica el trackingEnlace copiado",
+      "top": 11302
+    },
+    {
+      "i": 7,
+      "text": "Guías relacionadasEnlace copiado",
+      "top": 12386
+    }
+  ],
+  "codes": [
+    {
+      "i": 0,
+      "top": 1417,
+      "text": "{\n  \"action\": \"product.viewed\",\n  \"profile\": \"PROFILE_ID\",\n  \"object\": \"PRODUCT_ID\",\n  \"tracked_at\": \"2026-08-07T12:30:00Z\"\n}\n",
+      "width": 358,
+      "scrollWidth": 358
+    },
+    {
+      "i": 1,
+      "top": 7468,
+      "text": "(async () => {\n  await Hellotext.initialize(\"HELLOTEXT_BUSINESS_ID\");\n  const response = await Hellotext.track(\"page.viewed\");\n  if (response.failed) {\n    console.error(await response.json());\n  }\n})().catch((error) => {\n  console.error(error);\n});\n",
+      "width": 358,
+      "scrollWidth": 507
+    }
+  ]
+}

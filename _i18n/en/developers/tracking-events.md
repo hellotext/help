@@ -13,7 +13,7 @@ These terms describe different parts of the same flow:
 - An **event** is one occurrence of that action for a customer or session at a specific time.
 - An **object** provides related context, such as the product, cart, order, coupon, or form.
 
-For example, this event says that one customer profile viewed a specific product:
+For example, this tracking API body says that one customer profile viewed a specific product. Replace the placeholders with public IDs from the same business; the action name describes the activity but does not identify the profile or product:
 
 ```json
 {
@@ -24,20 +24,20 @@ For example, this event says that one customer profile viewed a specific product
 }
 ```
 
-The action alone is not always enough. `product.viewed` needs the viewed product, and order actions need the corresponding order.
+The action alone is not always enough. `product.viewed` needs the viewed product, and order actions need the corresponding order. Creating a product or order through the API does not replace recording customer activity. Retain the public ID obtained when creating or retrieving the object; do not treat its external reference, SKU, or label as that ID.
 
 Most built-in actions use the `object.verb` format. `subscribed` and `unsubscribed` are current exceptions and must not be renamed by adding a prefix.
 
 ## Built-in actions for integrations
 
-These are the actions an integration can normally track. Use only the actions that represent real activity in your system.
+These are common actions, not a complete catalog or a promise that every source supports all of them. Check the parameters and actions supported by your chosen integration, SDK, or endpoint in the tracking reference. Use only the actions that represent real activity in your system.
 
 ### Subscription
 
 - `subscribed`: the customer gave consent and subscribed through a compatible channel.
 - `unsubscribed`: the customer withdrew consent or opted out.
 
-Do not use `subscribed` simply because you created a customer profile. See [Who can I message?]({% link _audience/consent-and-subscriber-status.md %}).
+The event describes a subscription; recording it alone does not establish consent or that the contact is reachable. Manage subscription and opt-out through the channel’s supported flow. Do not use `subscribed` simply because you created a customer profile. See [Who can I message?]({% link _audience/consent-and-subscriber-status.md %}).
 
 ### Pages and products
 
@@ -45,7 +45,7 @@ Do not use `subscribed` simply because you created a customer profile. See [Who 
 - `product.viewed`: the customer viewed a specific product.
 - `product.purchased`: the customer purchased a product outside a more complete order lifecycle.
 
-Hellotext.js automatically tracks `page.viewed` with the current URL. A page view does not identify the product by itself, so `product.viewed` must explicitly include the corresponding product.
+In Hellotext.js 2.6.0, `initialize()` prepares the session and components but does not automatically track `page.viewed`. Track it explicitly after awaiting initialization, once per actual view. The SDK includes the current URL. A page view does not identify the product by itself, so `product.viewed` must explicitly include the corresponding product.
 
 If your store uses orders, prefer order actions instead of also tracking `product.purchased` for the same purchase.
 
@@ -57,7 +57,7 @@ If your store uses orders, prefer order actions instead of also tracking `produc
 - `cart.abandoned`: the store determined that the cart was abandoned.
 - `checkout.started`: the customer started checkout.
 
-Do not send `cart.abandoned` simply because the customer left a page. Track it when your store or integration has actually determined that the cart was abandoned.
+Do not send `cart.abandoned` simply because the customer left a page. Track it when your store or integration has actually determined that the cart was abandoned. In cart item data, `quantity` is the resulting quantity, not how many units were added or removed in that change. Retain the cart object and check each action’s contract before sending its contents.
 
 ### Orders
 
@@ -102,7 +102,21 @@ Use a stable, descriptive name, for example:
 
 Do not generate a new name for each customer, order, or date. An action represents one reusable activity type, and each event represents one occurrence.
 
-The custom action must exist before you track the first event. See [Create an action](https://www.hellotext.com/api#create_an_action).
+The custom action must exist before you track the first event. The catalog shows its display title and tracking name: in the fictional example, **Appointment booked** uses `appointment.booked`. The row confirms the definition, not that an appointment was booked.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Fictional Appointment booked action with tracking name appointment.booked in the Actions Custom tab, beside Create new action.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="width: fit-content; max-width: 894px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 470px)" srcset="/images/developers/custom-actions/catalog-en-mobile.png 2x" width="764" height="346" />
+        <img src="/images/developers/custom-actions/catalog-en.png" srcset="/images/developers/custom-actions/catalog-en.png 2x" style="width: auto; margin: 0 auto;" width="1752" height="838" loading="lazy" decoding="async" alt="Fictional Appointment booked action with tracking name appointment.booked in the Actions Custom tab, beside Create new action." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real action catalog with a fictional definition without events; the mobile focus shows its row and Create new action.</figcaption>
+</figure>
+
+See [Create an action](https://www.hellotext.com/api#create_an_action).
 
 To define the name, track occurrences, and use the action in journeys or reports, read [Custom actions]({% link _developers/custom-actions.md %}).
 
@@ -118,13 +132,29 @@ See [Setup and integrations]({% link _integrations/setup-overview.md %}) and [Ve
 
 ### Hellotext.js
 
-Use Hellotext.js for activity that happens in the browser, such as page views, product views, and cart changes. The library includes the current session to preserve anonymous context.
+Use Hellotext.js for activity that happens in the browser, such as page views, product views, and cart changes. The library includes the current session to preserve anonymous context. With SDK 2.6.0 already loaded and your public Business ID, this example awaits initialization and explicitly tracks one view; it requires no private token in the browser:
+
+```javascript
+(async () => {
+  await Hellotext.initialize("HELLOTEXT_BUSINESS_ID");
+  const response = await Hellotext.track("page.viewed");
+  if (response.failed) {
+    console.error(await response.json());
+  }
+})().catch((error) => {
+  console.error(error);
+});
+```
+
+On a store with internal navigation, initialize once and call `track("page.viewed")` for each actual new view. Do not repeat the entire initialization on every change or add another recording when your integration already generates that same view. The example uses the SDK response’s `failed` and `json()`. `succeeded` indicates an accepted request, and `received` confirms receipt, not completed processing. Retain the error for investigation before automatically retrying.
 
 See the [Hellotext.js repository](https://github.com/hellotext/hellotext.js) for current instructions.
 
 ### API
 
-Use the API from your backend for trusted events such as orders, payments, cancellations, shipments, deliveries, and external-system activity.
+Use the API from your backend for trusted events such as orders, payments, cancellations, shipments, deliveries, and external-system activity. Authenticate the attribution endpoint `/v1/attribution/events` with the business’s private token and a subscription that supports the API. Profiles and objects must belong to that business. When sending both a profile and a session, the session must already be associated with that profile; sending both identifiers does not create the association.
+
+Distinguish the results: the objects API can return `201` and the created object; the tracking endpoint returns `200` with `received`, without an event ID, and delegates subsequent recording. The endpoint used by the SDK can accept the request before validating all its data in the background. Receipt does not guarantee a visible event, attribution, or journey execution. Keep the ID mapping obtained through separate retrieval or creation requests.
 
 - For a complete implementation, see [Integrate a custom store with Hellotext]({% link _developers/custom-store-integration.md %}).
 - To send events from the backend, see [External tracking]({% link _developers/external-tracking.md %}).
@@ -132,7 +162,21 @@ Use the API from your backend for trusted events such as orders, payments, cance
 
 ### Manual tracking
 
-You can also use **New event** inside a customer profile to record one manual occurrence. This does not configure automatic tracking for future events.
+You can also use **New event** inside a customer profile to record one manual occurrence. Check the customer and select the action, associated object, and actual data before saving. The manual form for a custom action requires an **Associated object**; this interface requirement does not mean every custom API event needs an object. In the API, when you include one, it must match the specified object type.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="New Event for Demo Caso 1 with Appointment booked selected, required associated object unfilled, and Save changes disabled.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="width: fit-content; max-width: 449px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 470px)" srcset="/images/developers/custom-actions/manual-en-mobile.png 2x" width="778" height="1300" />
+        <img src="/images/developers/custom-actions/manual-en.png" srcset="/images/developers/custom-actions/manual-en.png 2x" style="width: auto; margin: 0 auto;" width="862" height="1300" loading="lazy" decoding="async" alt="New Event for Demo Caso 1 with Appointment booked selected, required associated object unfilled, and Save changes disabled." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real unsaved manual form for a fictional non-deliverable customer. There is no associated object or recorded event; Save changes remains disabled.</figcaption>
+</figure>
+
+The example shows **Appointment booked** for the fictional customer **Demo Caso 1**, with no associated object and **Save changes** disabled. No event was recorded. Saving a valid form records an occurrence and can trigger effects configured for that activity; it does not configure automatic tracking for future events.
 
 ## Data each event should preserve
 
@@ -144,11 +188,15 @@ Before implementing an action, define:
 - **Value:** `amount` and `currency` when the action has a monetary value.
 - **Source:** the integration or system that produced the activity.
 
-Use stable identifiers and do not send the same event from multiple sources.
+Use stable identifiers and do not send the same event from multiple sources. For `tracked_at`, use an ISO 8601 timestamp with a time zone or Unix seconds, not milliseconds; omitting it uses the current time when Hellotext records the activity. Preserve the original instant for delayed events.
+
+Amounts use currency units, not cents. Supply `currency` together with `amount` where applicable and check the value read back: some actions inherit the object’s value when the event amount is empty or zero. The converted reporting amount and attributed revenue are separate results from the original value.
+
+Keep the source and activity key in your own records and use the session, URL, and object fields supported by the chosen contract. Do not assume a universal `source` parameter exists for every event. An anonymous session does not automatically identify a person or establish consent.
 
 ## Verify tracking
 
-Test with one recognizable customer first:
+Validate first with a recognizable fictional customer and isolated activity that does not trigger sends or operational journeys. Do not use a real sale or reachable contact to check tracking:
 
 1. Confirm that the event appears on the correct customer profile.
 2. Check that the action uses the exact name.
@@ -156,6 +204,10 @@ Test with one recognizable customer first:
 4. Check that the timestamp represents when the activity happened.
 5. Confirm that the integration did not already create the same event automatically.
 6. Review segments, playbooks, and reports only after validating the underlying data.
+
+An actions catalog and a successful HTTP response do not prove that the occurrence was recorded. Check the identified customer’s record or corresponding session, respecting the configuration that determines which activity appears in Inbox. For anonymous activity, validate the session and its subsequent association first.
+
+There is no universal idempotency guarantee for all actions: some validations prevent particular duplicates, and other requests can cause effects before recording. Keep the action, identity, object, timestamp, payload, and result in your system. After a timeout, check state and logs before retrying; do not change the timestamp or object to force a second event.
 
 If events do not appear where expected, use [Troubleshoot missing signals or activity]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %}).
 

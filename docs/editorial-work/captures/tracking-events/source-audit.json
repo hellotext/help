@@ -1,0 +1,249 @@
+{
+  "rails_revision": "5403a7dcb567b63cae87d4c088112d65fad4eb7f",
+  "files": [
+    {
+      "path": "app/controllers/api/v1/attribution/events_controller.rb",
+      "sha256": "d52abb290cb39f2cb77876fd8c207a0047f9303e87cb33264d76ee377455d72d"
+    },
+    {
+      "path": "app/controllers/api/v1/track/events_controller.rb",
+      "sha256": "eecdb61c10e1de2455effdfd51f784855755f96344561faa7bc4817c146b2360"
+    },
+    {
+      "path": "app/models/api/track/base.rb",
+      "sha256": "6e9998516544bbb1e2e86cb6962599b50e8229f43dc358e8c0e5e8cc9df05a2a"
+    },
+    {
+      "path": "app/models/api/track/custom.rb",
+      "sha256": "f9c62ce381d7afc78600d4bdcbd3938a142a1ab158e8deb0e3096cc0f200f0fa"
+    },
+    {
+      "path": "app/models/api/track/event_tracker.rb",
+      "sha256": "d0e362717865b005efc82435324478e000bbc585dc4a8bcf3c553b6adcf3b9fd"
+    },
+    {
+      "path": "app/jobs/api/event_tracker_job.rb",
+      "sha256": "3a3dc9d360dd57b1f738a2153d29f97c985f7e12eae1f2f5aa1997c3680516db"
+    },
+    {
+      "path": "app/models/track/action.rb",
+      "sha256": "f6101174242737d74a431125889b9c613911044799686b1e9b925a1d04215ad3"
+    },
+    {
+      "path": "app/models/track/action/subscription.rb",
+      "sha256": "9a60375b432a3d37008f2aa9bed27fcbf0bc16d0f4e788315d83ce0aa5c05477"
+    },
+    {
+      "path": "app/models/track/action/app.rb",
+      "sha256": "84270e5d56fe52e75dbd5029c9375c3e4809df4cb69f4adfe07461ea9723c499"
+    },
+    {
+      "path": "app/models/api/track/cart.rb",
+      "sha256": "755e11625890e24882c79982189d266510a5b8f07376c3aaa88710cd2cc238e8"
+    },
+    {
+      "path": "app/models/api/track/page.rb",
+      "sha256": "36635a8e20808b48fb9e805214a3ce1be0b3a85b3e7a5a9cde6a199ccf49dc7a"
+    },
+    {
+      "path": "app/models/api/track/app.rb",
+      "sha256": "b5fd733478964d8441815ab5cf719cdd2874bb04fa630b0e79d10d691fc041a0"
+    },
+    {
+      "path": "app/models/audience/event.rb",
+      "sha256": "9a4e4cf619b6a53ccb19c59edf645ad06c235732d96f56eb778da2272c0b643a"
+    },
+    {
+      "path": "app/javascript/controllers/track/event_form_controller.js",
+      "sha256": "b89ed0eeebcc98a9c7f038290af3f169643e40988a83abcbb6004285a88e3a94"
+    },
+    {
+      "path": "app/models/track/event/monetizable.rb",
+      "sha256": "ef7885082e5d9fa1f4c6518c853a22a3a88fdd9bbce538edab1f6675f8d99e0b"
+    },
+    {
+      "path": "app/models/track/event/recordable.rb",
+      "sha256": "c7a866d6617ac7c4839ef03941683324cffd8d2de31458cedece188c8a8cb28b"
+    },
+    {
+      "path": "app/jobs/api/track_event_job.rb",
+      "sha256": "f51f840bb9beed2e655203e45c706835fdef3554ceed8f6a11b9949548f29b9f"
+    }
+  ],
+  "published_sdk": {
+    "version": "2.6.0",
+    "metadata": {
+      "bugs": {
+        "url": "https://github.com/hellotext/hellotext.js/issues"
+      },
+      "dist": {
+        "shasum": "6bf08779ceb04490d7e51449ea1d83d00b5e7efb",
+        "tarball": "https://registry.npmjs.org/@hellotext/hellotext/-/hellotext-2.6.0.tgz",
+        "fileCount": 189,
+        "integrity": "sha512-Sn4IPN877EAfS77R/hhs3/qINCNajG7OdxU2bzNlpcefJWlOpDyEjfwEXqLzpG/hRa3mxRDAlhM2/106Sihcog==",
+        "signatures": [
+          {
+            "sig": "MEYCIQDV2N7ahZTRBbuKR9hGTu48yyvx92pFFxJJ2YJZDINrggIhAKDQIiPpP3dCeBT5k9ErQfuFKY0y3kkKvvTJCepGzo36",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "unpackedSize": 979028
+      },
+      "main": "lib/index.cjs",
+      "name": "@hellotext/hellotext",
+      "types": "index.d.ts",
+      "unpkg": "dist/hellotext.js",
+      "author": {
+        "name": "Hellotext"
+      },
+      "module": "lib/index.js",
+      "source": "src/index.js",
+      "browser": "dist/hellotext.js",
+      "engines": {
+        "node": ">=20.0.0"
+      },
+      "exports": {
+        ".": {
+          "types": "./index.d.ts",
+          "import": "./lib/index.js",
+          "default": "./dist/hellotext.js",
+          "require": "./lib/index.cjs"
+        },
+        "./vanilla": {
+          "types": "./index.d.ts",
+          "import": "./lib/vanilla.js",
+          "require": "./lib/vanilla.cjs"
+        },
+        "./package.json": "./package.json"
+      },
+      "gitHead": "d9fc6311eaab233aa594d324ff0b3fa1e840fae2",
+      "license": "MIT",
+      "scripts": {
+        "test": "NODE_ENV=test jest",
+        "build": "npm run clean && npm run build:esm && npm run build:cjs && npm run build:bundle",
+        "clean": "rm -rf lib dist",
+        "build:cjs": "BABEL_ENV=cjs babel src -d lib --out-file-extension .cjs --ignore src/index.bundle.js",
+        "build:esm": "babel src -d lib --ignore src/index.bundle.js",
+        "build:bundle": "webpack",
+        "prepublishOnly": "npm test && npm run build"
+      },
+      "_npmUser": {
+        "name": "rockwell",
+        "email": "ahmed@hellotext.com"
+      },
+      "homepage": "https://github.com/hellotext/hellotext.js",
+      "keywords": [
+        "hellotext",
+        "javascript",
+        "sms",
+        "whatsapp",
+        "messaging",
+        "chat",
+        "webchat",
+        "customer-engagement",
+        "sdk",
+        "client-library",
+        "typescript",
+        "browser",
+        "node"
+      ],
+      "repository": {
+        "url": "git+https://github.com/hellotext/hellotext.js.git",
+        "type": "git"
+      },
+      "_npmVersion": "11.17.0",
+      "description": "Hellotext JavaScript Client",
+      "directories": {},
+      "maintainers": [
+        {
+          "name": "rockwell",
+          "email": "ahmed@hellotext.com"
+        },
+        {
+          "name": "martincaetano",
+          "email": "martin.caetano@icloud.com"
+        }
+      ],
+      "resolutions": {
+        "@babel/traverse": "7.23.2"
+      },
+      "sideEffects": [
+        "./lib/index.js",
+        "./lib/index.cjs"
+      ],
+      "_nodeVersion": "26.5.1",
+      "dependencies": {
+        "dompurify": "^3.4.15",
+        "emoji-mart": "^5.6.0",
+        "@emoji-mart/data": "^1.2.1",
+        "@floating-ui/dom": "^1.7.3",
+        "@hotwired/stimulus": "^3.0.0"
+      },
+      "_hasShrinkwrap": false,
+      "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610",
+      "devDependencies": {
+        "jest": "^29.3.1",
+        "webpack": "^5.107.2",
+        "prettier": "2.8.2",
+        "@babel/cli": "^7.20.7",
+        "@babel/core": "^7.20.12",
+        "webpack-cli": "^5.0.1",
+        "babel-loader": "^9.1.2",
+        "whatwg-fetch": "^3.6.20",
+        "@babel/preset-env": "^7.20.2",
+        "jest-environment-jsdom": "^29.3.1",
+        "@testing-library/jest-dom": "^5.16.5"
+      },
+      "_npmOperationalInternal": {
+        "tmp": "tmp/hellotext_2.6.0_1789489003303_0.8937680472961653",
+        "host": "s3://npm-registry-packages-npm-production"
+      },
+      "_id": "@hellotext/hellotext@2.6.0",
+      "version": "2.6.0"
+    },
+    "files": [
+      {
+        "path": "published-sdk.tgz",
+        "sha256": "de0125ba4e8e920ec9f57a9d1fe4a8dd794ebd581030c11a5d37ffc55da859d4"
+      },
+      {
+        "path": "package.json",
+        "sha256": "c77dcdfab62c168455e4bdd35f8d238b3373bdd58fbf579adf4ec35606102007"
+      },
+      {
+        "path": "hellotext.js",
+        "sha256": "76eafba301b960171dc358e7ccf6423618882c7d3f4dbcf2f63c1287d5fc24dc"
+      },
+      {
+        "path": "session.js",
+        "sha256": "044a8aa34abb70a4cdfb26c9f38c2bf23af0eacc4229fb08ab0d78897f5fd745"
+      },
+      {
+        "path": "published-sdk-cdn.js",
+        "sha256": "0b0226a25c43002a9da506c80de12b576b0c0fd074a16e6d4f465a7748c26331"
+      },
+      {
+        "path": "response.js",
+        "sha256": "fb91e76f6a0e8538931a70cd59d608906a9ba9c5a2aaaef04dd5637bde201aa0"
+      }
+    ],
+    "cdn": "https://unpkg.com/@hellotext/hellotext@2.6.0/dist/hellotext.js"
+  },
+  "references": [
+    "https://www.hellotext.com/api#tracking",
+    "https://github.com/hellotext/hellotext.js"
+  ],
+  "reused_ui_unchanged_since_e6ae33a310": true,
+  "observations": [
+    "Published async initialize prepares session/widgets and sends no automatic page.viewed. Explicit track once per view; browser response precedes full asynchronous validation.",
+    "Authenticated attribution/events validates before received but still queues tracking; received has no event ID or completion promise. Session/profile must already agree; business scopes identifiers.",
+    "Action definition is separate from occurrences; custom name normalized and action must exist. Manual custom event requires object, whereas Custom API can omit it; present object requires matching blueprint/object_type.",
+    "Object creation and inline entity setup may occur before tracking; received is not proof of every desired result or a universally deduplicated event.",
+    "Unix seconds or ISO timestamp, amount/currency and inherited object amount are distinct from reporting conversion/attribution. Cart quantity is resulting quantity, not change amount.",
+    "Source origin is recorded in caller bookkeeping and supported session/URL context; not a universal invented source event field. Subscription event is not proof of customer consent/sendability.",
+    "Existing safe catalog/manual sources are approved P3 2x. No DB, UI, API, SDK execution, fixture, consent, token, event, send or worker action.",
+    "Published track returns the SDK Response wrapper: failed/succeeded/json(), not native fetch ok/status. This was corrected during local source audit before any commit/publication, then rebuilt and rechecked visually.",
+    "Omitted tracked_at falls back to Time.current in EventTracker at processing, not a guaranteed HTTP receipt timestamp; article states recording time and requires original timestamp for delayed events."
+  ],
+  "method": "Read-only source and published npm/CDN inspection; code snippets checked for syntax only."
+}
