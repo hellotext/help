@@ -1,6 +1,6 @@
 {
   "article_key": "captures/subscriber-booster-playbook.md",
-  "status": "local_verified",
+  "status": "public_verified",
   "prepared_at_utc": "2026-09-30T05:47:19.527396+00:00",
   "base_main_sha": "c43d12c73eba6e035f46cadce8e184be5b240e39",
   "request": "Replace the stale property collection prerequisite screenshot with current UI styles in both locales.",
@@ -48,7 +48,8 @@
       },
       "approved_capture_record": "docs/editorial-work/captures/property-collector/style-refresh/capture-provenance.json",
       "approved_capture_name": "prerequisite-es",
-      "use": "Reuse the already published current Subscriber Booster prerequisite view from Help #257/#258 without copying or editing PNG bytes."
+      "use": "Reuse the already published current Subscriber Booster prerequisite view from Help #257/#258 without copying or editing PNG bytes.",
+      "publication_status": "Current approved source reused and publicly verified in Subscriber Booster; exact URL/hash in public-verification.json."
     },
     {
       "name": "prerequisite-es-mobile",
@@ -85,7 +86,8 @@
       },
       "approved_capture_record": "docs/editorial-work/captures/property-collector/style-refresh/capture-provenance.json",
       "approved_capture_name": "prerequisite-es-mobile",
-      "use": "Reuse the already published current Subscriber Booster prerequisite view from Help #257/#258 without copying or editing PNG bytes."
+      "use": "Reuse the already published current Subscriber Booster prerequisite view from Help #257/#258 without copying or editing PNG bytes.",
+      "publication_status": "Current approved source reused and publicly verified in Subscriber Booster; exact URL/hash in public-verification.json."
     },
     {
       "name": "prerequisite-en",
@@ -122,7 +124,8 @@
       },
       "approved_capture_record": "docs/editorial-work/captures/property-collector/style-refresh/capture-provenance.json",
       "approved_capture_name": "prerequisite-en",
-      "use": "Reuse the already published current Subscriber Booster prerequisite view from Help #257/#258 without copying or editing PNG bytes."
+      "use": "Reuse the already published current Subscriber Booster prerequisite view from Help #257/#258 without copying or editing PNG bytes.",
+      "publication_status": "Current approved source reused and publicly verified in Subscriber Booster; exact URL/hash in public-verification.json."
     },
     {
       "name": "prerequisite-en-mobile",
@@ -159,7 +162,8 @@
       },
       "approved_capture_record": "docs/editorial-work/captures/property-collector/style-refresh/capture-provenance.json",
       "approved_capture_name": "prerequisite-en-mobile",
-      "use": "Reuse the already published current Subscriber Booster prerequisite view from Help #257/#258 without copying or editing PNG bytes."
+      "use": "Reuse the already published current Subscriber Booster prerequisite view from Help #257/#258 without copying or editing PNG bytes.",
+      "publication_status": "Current approved source reused and publicly verified in Subscriber Booster; exact URL/hash in public-verification.json."
     }
   ],
   "preserved_assets": [
@@ -230,5 +234,11 @@
   ],
   "scope": "Only figure 2 (third of six) changes. Article prose, captions, links, identity stub and five other figures per locale remain byte-identical.",
   "source_safety": "Original guarded capture and protected fixture evidence remain in the referenced canonical capture record; no new safety checks or capture dates are claimed.",
-  "local_verification": "page-review.json"
+  "local_verification": "page-review.json",
+  "public_verification": {
+    "state": "public_verified",
+    "pull_request": 263,
+    "merge_sha": "47ef1f648710e0edfc41202a0ab835b35e876e9a",
+    "evidence": "public-verification.json"
+  }
 }
