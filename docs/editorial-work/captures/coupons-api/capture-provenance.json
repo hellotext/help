@@ -6,11 +6,6 @@
   "rails_ui_revision": "e6ae33a310d46ba88d9bf5b70845618a0b4a6461",
   "canonical_editorial_revision": "d5319b02e1c6a85f3a6294f11763b9be8dd58a43",
   "batch_actions": "Source/API audit and article work only; no HTTP POST/PATCH, fixture, database, capture, save, enabled flow, delivery or test action.",
-  "original_hashes": {
-    "_i18n/es/developers/coupons-with-api.md": "39231509c54f2944074dd93f2cdba7a37a8e9cceaf5e24abfa9504672ace9462",
-    "_i18n/en/developers/coupons-with-api.md": "dcbd545a85a75b005db75970bc90d155a32b5a311bbf17d40cfd44ef210ae986",
-    "_developers/coupons-with-api.md": "aaa2e49339db30cc7f6d72478d9c625fab888a496c42c2678b2e663a4750165e"
-  },
   "images": [
     {
       "name": "assignment-es",
@@ -169,5 +164,22 @@
     },
     "desktop_white_frame_cap_css": 692,
     "new_png_uploads": 0
-  }
+  },
+  "originals": [
+    {
+      "article": "_i18n/es/developers/coupons-with-api.md",
+      "snapshot": "docs/editorial-work/originals/coupons-api/es.md",
+      "sha256": "39231509c54f2944074dd93f2cdba7a37a8e9cceaf5e24abfa9504672ace9462"
+    },
+    {
+      "article": "_i18n/en/developers/coupons-with-api.md",
+      "snapshot": "docs/editorial-work/originals/coupons-api/en.md",
+      "sha256": "dcbd545a85a75b005db75970bc90d155a32b5a311bbf17d40cfd44ef210ae986"
+    },
+    {
+      "article": "_developers/coupons-with-api.md",
+      "snapshot": "docs/editorial-work/originals/coupons-api/stub.md",
+      "sha256": "aaa2e49339db30cc7f6d72478d9c625fab888a496c42c2678b2e663a4750165e"
+    }
+  ]
 }

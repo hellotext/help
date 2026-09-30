@@ -34,3 +34,7 @@ Ruby 3.3.6 `yarn build` passed with security headers. All original headings and 
 Inspected all nine headings, four code blocks, figure and footer in ES/EN at 1440×1000, 390×844 and 580×900. Desktop image width 674px/frame692px, phone source image approximately316px below350px logical, intermediate source approximately472px below674px logical; full lavender stage remains in the Help article column. Mobile code blocks use the existing internal horizontal scroll, reviewed through the right-hand end; no page overflow or screenshot enlargement. No stylesheet or migration tests, renderer or shared guide edits, new captures, database actions or PNG uploads. Evidence: `captures/coupons-api/local-verification.json`. Content verifier, checks/review, merge and public verification remain pending.
 
 Local content verifier: `6b3a13e24dd21fd39052b63a7381396d9ee9a354`. The child ledger commit records the verified pair; external publication remains pending until checks, review, merge and public evidence pass.
+
+### Pre-merge scanner finding
+
+Aikido flagged three original snapshot hashes as generic API keys because article filenames containing `api` were used as JSON keys next to their SHA-256 values. These are file digests, not credentials. Replaced the redundant filename-key representation with explicit article/snapshot/sha256 records, preserving the original snapshots and exact digests. Wait for the new head scan to pass; no scanner ignore or protection bypass.
