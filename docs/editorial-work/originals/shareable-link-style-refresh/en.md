@@ -10,8 +10,8 @@ To set up a Shareable Link, open **Playbooks**, click **Explore playbooks**, fin
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Shareable Link in the fictional account's desktop catalog">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="width: fit-content; max-width: 418px; margin: 0 auto;">
-      <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/desktop-link-en.png" srcset="/images/captures/capture-overview/desktop-link-en.png 2x" style="width: auto; margin: 0 auto;" width="800" height="480" loading="lazy" decoding="async" alt="Shareable Link card in the Capture playbook catalog." />
+    <div class="ht-editorial-visual__image-frame" style="max-width: 400px; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/captures/capture-overview/desktop-link-en.png" width="800" height="480" loading="lazy" decoding="async" alt="Shareable Link card in the Capture playbook catalog." />
     </div>
   </div>
   <figcaption class="ht-editorial-visual__caption">Find this card in Capture to start the link.</figcaption>
@@ -22,10 +22,10 @@ Choose the app the link should open. Available options are _SMS_ and _WhatsApp_.
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="SMS and WhatsApp options for the Shareable Link">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="width: fit-content; max-width: 618px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 600px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 400px)" srcset="/images/captures/shareable-link/type-en-mobile.png 2x" width="732" height="1300" />
-        <img class="ht-editorial-visual__image" src="/images/captures/shareable-link/type-en.png" srcset="/images/captures/shareable-link/type-en.png 2x" style="width: auto; margin: 0 auto;" width="1200" height="1200" loading="lazy" decoding="async" alt="Type selector with SMS selected and WhatsApp unavailable in the fictional account." />
+        <source media="(max-width: 400px)" srcset="/images/captures/shareable-link/type-en-mobile.png" width="732" height="1300" />
+        <img class="ht-editorial-visual__image" src="/images/captures/shareable-link/type-en.png" width="1200" height="1200" loading="lazy" decoding="async" alt="Type selector with SMS selected and WhatsApp unavailable in the fictional account." />
       </picture>
     </div>
   </div>
@@ -45,10 +45,10 @@ You can customize the pre-filled message customers send to subscribe. Keep the s
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Default destination and draft opt-in text for a fictional Shareable Link">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="width: fit-content; max-width: 692px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 580px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 470px)" srcset="/images/captures/shareable-link/style-refresh/message-en-mobile.png 2x" width="700" height="692" />
-        <img class="ht-editorial-visual__image" src="/images/captures/shareable-link/style-refresh/message-en.png" srcset="/images/captures/shareable-link/style-refresh/message-en.png 2x" style="width: auto; margin: 0 auto;" width="1348" height="596" loading="lazy" decoding="async" alt="Default destination control and unsent draft message I want updates from Example Store." />
+        <source media="(max-width: 470px)" srcset="/images/captures/shareable-link/message-en-mobile.png" width="860" height="700" />
+        <img class="ht-editorial-visual__image" src="/images/captures/shareable-link/message-en.png" width="1160" height="810" loading="lazy" decoding="async" alt="Default destination control and unsent draft message I want updates from Example Store." />
       </picture>
     </div>
   </div>
@@ -65,10 +65,10 @@ You can choose a coupon when the selected playbook has a message prepared to inc
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Optional coupon and journey selected for a disabled fictional Shareable Link">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="width: fit-content; max-width: 668px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 650px; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 470px)" srcset="/images/captures/shareable-link/assignment-en-mobile.png 2x" width="860" height="910" />
-        <img class="ht-editorial-visual__image" src="/images/captures/shareable-link/assignment-en.png" srcset="/images/captures/shareable-link/assignment-en.png 2x" style="width: auto; margin: 0 auto;" width="1300" height="1140" loading="lazy" decoding="async" alt="Fictional coupon GUIA-QR-10 and an example welcome journey selected in the optional step." />
+        <source media="(max-width: 470px)" srcset="/images/captures/shareable-link/assignment-en-mobile.png" width="860" height="910" />
+        <img class="ht-editorial-visual__image" src="/images/captures/shareable-link/assignment-en.png" width="1300" height="1140" loading="lazy" decoding="async" alt="Fictional coupon GUIA-QR-10 and an example welcome journey selected in the optional step." />
       </picture>
     </div>
   </div>
@@ -81,10 +81,10 @@ After you save or skip the follow-up, copy the link from the last step.
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Fictional Shareable Link result and Copy button">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="width: fit-content; max-width: 808px; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame">
       <picture>
-        <source media="(max-width: 470px)" srcset="/images/captures/shareable-link/result-en-mobile.png 2x" width="860" height="780" />
-        <img class="ht-editorial-visual__image" src="/images/captures/shareable-link/result-en.png" srcset="/images/captures/shareable-link/result-en.png 2x" style="width: auto; margin: 0 auto;" width="1580" height="810" loading="lazy" decoding="async" alt="Link generated in the isolated fictional account and Copy button on the result page." />
+        <source media="(max-width: 470px)" srcset="/images/captures/shareable-link/result-en-mobile.png" width="860" height="780" />
+        <img class="ht-editorial-visual__image" src="/images/captures/shareable-link/result-en.png" width="1580" height="810" loading="lazy" decoding="async" alt="Link generated in the isolated fictional account and Copy button on the result page." />
       </picture>
     </div>
   </div>
