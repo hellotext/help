@@ -66,3 +66,5 @@ Local verification: 12 approved native P3 PNGs at 2×, no pixel editing, with 11
 Follow-up local verifier: `11466e9e94fa7fe69c641708ece3dbd9aa3d829b`. This is a visual follow-up to an already complete pair; inventory totals remain 52 local_verified, 101 pending and one out_of_scope redirect.
 
 PR #253 review: corrected the alternative text of all three changed responsive figures in ES/EN to cover both the wide context and focused source accurately. Native PNG bytes and visual layout are unchanged. The reviewer ancestry claim used a synthetic reviewed commit; provider head ac04ec1cd7eb7301f75751fad084b165e47d1a9e is a direct child of 11466e9e, confirmed by GitHub's commit parents and git merge-base. The provider history preserves the real verifier.
+
+Final local verifier after the responsive accessibility correction: `e233b4ef227cb15c0e387ffeb00ec3ed8f03ed07`. Production build/security headers and both built alternative-text variants passed; all twelve built PNG hashes remain unchanged.
