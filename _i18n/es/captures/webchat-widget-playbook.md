@@ -6,16 +6,16 @@ No es el agente de IA en sí. Piensa en el webchat como la puerta de entrada en 
 
 El editor agrupa los ajustes en tarjetas y muestra el preview del webchat a la derecha. Así puedes relacionar cada componente con la experiencia del visitante.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Tarjetas de Apariencia, Secuencia inicial, Teaser, Comportamiento y Canales; en escritorio, con el preview de Webchat a la derecha.">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Tarjetas de Apariencia, Secuencia inicial, Teaser, Comportamiento y Canales; en la vista amplia, con el preview de Webchat a la derecha.">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 1234px; width: fit-content; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/webchat-widget/preview-follow-up/es/overview-mobile.png 2x" width="872" height="1872" />
-        <img class="ht-editorial-visual__image" src="/images/captures/webchat-widget/preview-follow-up/es/overview.png" srcset="/images/captures/webchat-widget/preview-follow-up/es/overview.png 2x" width="2432" height="1726" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Tarjetas de Apariencia, Secuencia inicial, Teaser, Comportamiento y Canales; en escritorio, con el preview de Webchat a la derecha." />
+        <source media="(max-width: 1399px)" srcset="/images/captures/webchat-widget/preview-follow-up/es/overview-mobile.png 2x" width="872" height="1872" />
+        <img class="ht-editorial-visual__image" src="/images/captures/webchat-widget/preview-follow-up/es/overview.png" srcset="/images/captures/webchat-widget/preview-follow-up/es/overview.png 2x" width="2432" height="1726" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Tarjetas de Apariencia, Secuencia inicial, Teaser, Comportamiento y Canales; en la vista amplia, con el preview de Webchat a la derecha." />
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Vista general del editor. El foco móvil conserva las cinco tarjetas completas; el preview completo se muestra más abajo.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Vista general del editor. El foco para pantallas estrechas conserva las cinco tarjetas completas; el preview completo se muestra más abajo.</figcaption>
 </figure>
 
 ## Qué hace Widget de Webchat

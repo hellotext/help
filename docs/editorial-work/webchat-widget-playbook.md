@@ -69,3 +69,7 @@ Production build and the security-header verifier passed under Ruby 3.3.6. All s
 New source details and measured full-page review are in `captures/webchat-widget/preview-follow-up/capture-provenance.json` and `local-article-review.json`. Public verification remains pending until the supported merge and normal production publication.
 
 Follow-up local content verifier: `d46f050ee37201f3798573ff9c0489b39aac799f`. The ledger update is a separate descendant commit, so the verified content remains reachable. The pair stays local_verified; the inventory count does not increase for this requested visual follow-up.
+
+The final PR review identified a real intermediate-width issue at 601 CSS px: the composite switched in too early and made card titles too small. Keep the five-card focus through 1399 CSS px in both locales; show the wide composite from 1400 px, where the Help column can keep its labels readable. Native sources are unchanged. Targeted browser verification covers the 600/601 boundary, tablet/narrow desktop and 1399/1400 transition.
+
+The final breakpoint fix passed production build/security headers and browser inspection in both locales at 600, 601, 1024, 1280, 1399 and 1400 CSS px. The focus remains 436 CSS px through 1399; the wide composite renders at about 676 CSS px at 1400. There is no overflow or source enlargement. Existing full-page 1440/390 review remains applicable; no PNG changed.

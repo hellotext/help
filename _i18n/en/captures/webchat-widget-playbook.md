@@ -6,16 +6,16 @@ It is not the AI agent itself. Think of it as the front door on your site. After
 
 The editor groups settings into cards and shows the webchat preview on the right. This helps you connect each component to the visitor experience.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Appearance, Opening sequence, Teaser, Behavior, and Channels cards; on desktop, with the Webchat preview on the right.">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Appearance, Opening sequence, Teaser, Behavior, and Channels cards; in the wide view, with the Webchat preview on the right.">
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 1234px; width: fit-content; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/webchat-widget/preview-follow-up/en/overview-mobile.png 2x" width="872" height="1872" />
-        <img class="ht-editorial-visual__image" src="/images/captures/webchat-widget/preview-follow-up/en/overview.png" srcset="/images/captures/webchat-widget/preview-follow-up/en/overview.png 2x" width="2432" height="1726" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Appearance, Opening sequence, Teaser, Behavior, and Channels cards; on desktop, with the Webchat preview on the right." />
+        <source media="(max-width: 1399px)" srcset="/images/captures/webchat-widget/preview-follow-up/en/overview-mobile.png 2x" width="872" height="1872" />
+        <img class="ht-editorial-visual__image" src="/images/captures/webchat-widget/preview-follow-up/en/overview.png" srcset="/images/captures/webchat-widget/preview-follow-up/en/overview.png 2x" width="2432" height="1726" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Appearance, Opening sequence, Teaser, Behavior, and Channels cards; in the wide view, with the Webchat preview on the right." />
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Editor overview. The mobile focus keeps all five cards complete; the full preview appears below.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Editor overview. The narrow-screen focus keeps all five cards complete; the full preview appears below.</figcaption>
 </figure>
 
 ## What Webchat Widget does
