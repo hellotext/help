@@ -12,7 +12,7 @@ The versions below are the ones used by the production build (see `netlify.toml`
 | ------- | --------- | --------------------------------- |
 | Ruby    | `3.3.6`   | `.ruby-version`                   |
 | Bundler | `2.4.22`  | `netlify.toml`                    |
-| Node.js | `18`      | `.nvmrc` / `netlify.toml`         |
+| Node.js | `22`      | `.nvmrc` / `netlify.toml`         |
 | Yarn    | `1.22.22` | `package.json` (`packageManager`) |
 
 Use a version manager such as [rbenv](https://github.com/rbenv/rbenv) / [asdf](https://asdf-vm.com) for Ruby and [nvm](https://github.com/nvm-sh/nvm) for Node. Enable Yarn via Corepack: `corepack enable`.
