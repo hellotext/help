@@ -1,0 +1,16 @@
+{
+  "rails_revision": "e6ae33a310d46ba88d9bf5b70845618a0b4a6461",
+  "contracts": [
+    "Business-scoped private token and active API subscription;401 vs403.",
+    "Explicit technology whatsapp/sms/instagram/mercadolibre; public documentation automatic selection is not implemented by current MessageCreator. Origin uses channel identifier, not hashed channel ID.",
+    "Profile scoped to business is resolved later; received acknowledgement is no guarantee of valid profile/origin or even message creation. Exact existing phone when profile+destination; no implicit marketing consent.",
+    "200 Status::Received without ID; later creation/download/delivery can fail; no exposed template ID or supported profile/date/template list filters. Bounded cursor listing and ambiguous client-side correlation.",
+    "Current MessageSerializer returns pending/dispatched/routed/delivered/error/received; documented failed also handled. State-dependent nullable timestamps, Unix seconds, not complete transition history.",
+    "Template string/object and required shortlinks; body ignored; local approved!=Meta. Pending edit may retain prior active WhatsApp instance; active provider version can differ from latest edit.",
+    "Public URL attachments downloaded later,ignored forSMS; no generalPOST idempotency or guaranteed readback match; async/provider retry may still be in progress.",
+    "WhatsApp window/template advice scoped to this Hellotext endpoint. Current gateway sends type:text for body and type:template for active approved template; no Direct Send field. Meta June2026 announcement of eligible utility Direct Send is not proof this Hellotext endpoint supports it. No universal claim about all current Meta API flows."
+  ],
+  "executed_examples": false,
+  "mutation_api_calls": 0,
+  "provider_follow_up": "https://developers.meta.com/resources/videos/whatsapp-direct-send-api/"
+}
