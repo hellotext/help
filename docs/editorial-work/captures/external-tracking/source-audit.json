@@ -1,5 +1,5 @@
 {
-  "verified_at_utc": "2026-09-30T11:24:47.371322+00:00",
+  "verified_at_utc": "2026-09-30T11:46:37.320228+00:00",
   "reviewed_rails_revision": "e6ae33a310d46ba88d9bf5b70845618a0b4a6461",
   "reviewed_local_sources": [
     {
@@ -81,7 +81,7 @@
   "contract_corrections": [
     "Private API token for same business and active subscription; public Business ID and token name are not credentials.",
     "Backend profile mapping and actual initialized browser session; same-profile attached session for combined synchronous tracking request, dedicated attachment flow first. Official generic unattached-session statement is not copied over the reviewed controller/Base behavior.",
-    "Use one object/object_parameters choice, stable source/reference+ID mapping; object mutation can precede acceptance and inline lookup does not guarantee catalog updates.",
+    "Use one object/object_parameters choice; stable source/reference mapping to an ID obtained by a separate resource create/lookup request. Tracking returns received, not the inline object ID. Object mutation can precede acceptance and inline lookup does not guarantee catalog updates.",
     "Original event time in explicit-zone ISO or Unix seconds; omitted default is processing time, not guaranteed request receipt time.",
     "Major-unit amount with original currency; resource value can be inherited, not necessarily zero.",
     "Received after initial validation before asynchronous event processing;403subscription,401token,404action,422validation.",

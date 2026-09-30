@@ -1,5 +1,5 @@
 {
-  "verified_at_utc": "2026-09-30T11:25:38.232340+00:00",
+  "verified_at_utc": "2026-09-30T11:46:58.161780+00:00",
   "build_and_integrity": {
     "production_build": "PATH with rbenv shims; RBENV_VERSION=3.3.6 yarn build passed including security headers",
     "integrity": {
@@ -144,7 +144,7 @@
             },
             {
               "i": 1,
-              "top": 6508,
+              "top": 6556,
               "height": 410,
               "figWidth": 774,
               "imageWidth": 698.3984375,
@@ -177,32 +177,32 @@
             {
               "i": 3,
               "text": "3. Registra el ciclo de los pedidosEnlace copiado",
-              "top": 5008
+              "top": 5056
             },
             {
               "i": 4,
               "text": "4. Registra acciones personalizadasEnlace copiado",
-              "top": 5918
+              "top": 5966
             },
             {
               "i": 5,
               "text": "5. Conserva la fecha y los valores monetariosEnlace copiado",
-              "top": 7146
+              "top": 7194
             },
             {
               "i": 6,
               "text": "6. Interpreta la respuesta y maneja erroresEnlace copiado",
-              "top": 7788
+              "top": 7836
             },
             {
               "i": 7,
               "text": "7. Evita eventos duplicadosEnlace copiado",
-              "top": 8490
+              "top": 8538
             },
             {
               "i": 8,
               "text": "Gu\u00edas relacionadasEnlace copiado",
-              "top": 9168
+              "top": 9216
             }
           ],
           "codes": [
@@ -243,28 +243,28 @@
             },
             {
               "i": 5,
-              "top": 5130,
+              "top": 5178,
               "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"order.placed\",\n    \"profile\": \"PROFILE_ID\",\n    \"object\": \"ORDER_ID\",\n    \"amount\": 89.90,\n    \"currency\": \"USD\"\n  }'\n",
               "width": 774,
               "scrollWidth": 774
             },
             {
               "i": 6,
-              "top": 6064,
+              "top": 6112,
               "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"appointment.booked\",\n    \"profile\": \"PROFILE_ID\",\n    \"tracked_at\": \"2026-08-07T12:30:00Z\"\n  }'\n",
               "width": 774,
               "scrollWidth": 774
             },
             {
               "i": 7,
-              "top": 7444,
+              "top": 7492,
               "text": "{\n  \"amount\": 89.90,\n  \"currency\": \"USD\"\n}\n",
               "width": 774,
               "scrollWidth": 774
             },
             {
               "i": 8,
-              "top": 7886,
+              "top": 7934,
               "text": "{\n  \"status\": \"received\"\n}\n",
               "width": 774,
               "scrollWidth": 774
@@ -296,7 +296,7 @@
             },
             {
               "i": 1,
-              "top": 8585,
+              "top": 8681,
               "height": 193,
               "figWidth": 358,
               "imageWidth": 315.9921875,
@@ -329,32 +329,32 @@
             {
               "i": 3,
               "text": "3. Registra el ciclo de los pedidosEnlace copiado",
-              "top": 6533
+              "top": 6629
             },
             {
               "i": 4,
               "text": "4. Registra acciones personalizadasEnlace copiado",
-              "top": 7797
+              "top": 7893
             },
             {
               "i": 5,
               "text": "5. Conserva la fecha y los valores monetariosEnlace copiado",
-              "top": 9114
+              "top": 9210
             },
             {
               "i": 6,
               "text": "6. Interpreta la respuesta y maneja erroresEnlace copiado",
-              "top": 10086
+              "top": 10182
             },
             {
               "i": 7,
               "text": "7. Evita eventos duplicadosEnlace copiado",
-              "top": 11118
+              "top": 11214
             },
             {
               "i": 8,
               "text": "Gu\u00edas relacionadasEnlace copiado",
-              "top": 12246
+              "top": 12342
             }
           ],
           "codes": [
@@ -395,28 +395,28 @@
             },
             {
               "i": 5,
-              "top": 6733,
+              "top": 6829,
               "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"order.placed\",\n    \"profile\": \"PROFILE_ID\",\n    \"object\": \"ORDER_ID\",\n    \"amount\": 89.90,\n    \"currency\": \"USD\"\n  }'\n",
               "width": 358,
               "scrollWidth": 515
             },
             {
               "i": 6,
-              "top": 8045,
+              "top": 8141,
               "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"appointment.booked\",\n    \"profile\": \"PROFILE_ID\",\n    \"tracked_at\": \"2026-08-07T12:30:00Z\"\n  }'\n",
               "width": 358,
               "scrollWidth": 515
             },
             {
               "i": 7,
-              "top": 9658,
+              "top": 9754,
               "text": "{\n  \"amount\": 89.90,\n  \"currency\": \"USD\"\n}\n",
               "width": 358,
               "scrollWidth": 358
             },
             {
               "i": 8,
-              "top": 10214,
+              "top": 10310,
               "text": "{\n  \"status\": \"received\"\n}\n",
               "width": 358,
               "scrollWidth": 358
@@ -448,7 +448,7 @@
             },
             {
               "i": 1,
-              "top": 7045,
+              "top": 7117,
               "height": 302,
               "figWidth": 548,
               "imageWidth": 471.984375,
@@ -481,32 +481,32 @@
             {
               "i": 3,
               "text": "3. Registra el ciclo de los pedidosEnlace copiado",
-              "top": 5425
+              "top": 5497
             },
             {
               "i": 4,
               "text": "4. Registra acciones personalizadasEnlace copiado",
-              "top": 6413
+              "top": 6485
             },
             {
               "i": 5,
               "text": "5. Conserva la fecha y los valores monetariosEnlace copiado",
-              "top": 7611
+              "top": 7683
             },
             {
               "i": 6,
               "text": "6. Interpreta la respuesta y maneja erroresEnlace copiado",
-              "top": 8391
+              "top": 8463
             },
             {
               "i": 7,
               "text": "7. Evita eventos duplicadosEnlace copiado",
-              "top": 9207
+              "top": 9279
             },
             {
               "i": 8,
               "text": "Gu\u00edas relacionadasEnlace copiado",
-              "top": 10011
+              "top": 10083
             }
           ],
           "codes": [
@@ -547,28 +547,28 @@
             },
             {
               "i": 5,
-              "top": 5565,
+              "top": 5637,
               "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"order.placed\",\n    \"profile\": \"PROFILE_ID\",\n    \"object\": \"ORDER_ID\",\n    \"amount\": 89.90,\n    \"currency\": \"USD\"\n  }'\n",
               "width": 548,
               "scrollWidth": 548
             },
             {
               "i": 6,
-              "top": 6577,
+              "top": 6649,
               "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"appointment.booked\",\n    \"profile\": \"PROFILE_ID\",\n    \"tracked_at\": \"2026-08-07T12:30:00Z\"\n  }'\n",
               "width": 548,
               "scrollWidth": 548
             },
             {
               "i": 7,
-              "top": 8011,
+              "top": 8083,
               "text": "{\n  \"amount\": 89.90,\n  \"currency\": \"USD\"\n}\n",
               "width": 548,
               "scrollWidth": 548
             },
             {
               "i": 8,
-              "top": 8519,
+              "top": 8591,
               "text": "{\n  \"status\": \"received\"\n}\n",
               "width": 548,
               "scrollWidth": 548
@@ -600,7 +600,7 @@
             },
             {
               "i": 1,
-              "top": 6460,
+              "top": 6508,
               "height": 410,
               "figWidth": 774,
               "imageWidth": 698.3984375,
@@ -633,32 +633,32 @@
             {
               "i": 3,
               "text": "3. Track the order lifecycleLink copied",
-              "top": 5008
+              "top": 5056
             },
             {
               "i": 4,
               "text": "4. Track custom actionsLink copied",
-              "top": 5870
+              "top": 5918
             },
             {
               "i": 5,
               "text": "5. Preserve timestamps and monetary valuesLink copied",
-              "top": 7098
+              "top": 7146
             },
             {
               "i": 6,
               "text": "6. Interpret the response and handle errorsLink copied",
-              "top": 7740
+              "top": 7788
             },
             {
               "i": 7,
               "text": "7. Prevent duplicate eventsLink copied",
-              "top": 8394
+              "top": 8442
             },
             {
               "i": 8,
               "text": "Related guidesLink copied",
-              "top": 8976
+              "top": 9024
             }
           ],
           "codes": [
@@ -699,28 +699,28 @@
             },
             {
               "i": 5,
-              "top": 5130,
+              "top": 5178,
               "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"order.placed\",\n    \"profile\": \"PROFILE_ID\",\n    \"object\": \"ORDER_ID\",\n    \"amount\": 89.90,\n    \"currency\": \"USD\"\n  }'\n",
               "width": 774,
               "scrollWidth": 774
             },
             {
               "i": 6,
-              "top": 6016,
+              "top": 6064,
               "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"appointment.booked\",\n    \"profile\": \"PROFILE_ID\",\n    \"tracked_at\": \"2026-08-07T12:30:00Z\"\n  }'\n",
               "width": 774,
               "scrollWidth": 774
             },
             {
               "i": 7,
-              "top": 7396,
+              "top": 7444,
               "text": "{\n  \"amount\": 89.90,\n  \"currency\": \"USD\"\n}\n",
               "width": 774,
               "scrollWidth": 774
             },
             {
               "i": 8,
-              "top": 7838,
+              "top": 7886,
               "text": "{\n  \"status\": \"received\"\n}\n",
               "width": 774,
               "scrollWidth": 774
@@ -752,7 +752,7 @@
             },
             {
               "i": 1,
-              "top": 8190,
+              "top": 8262,
               "height": 193,
               "figWidth": 358,
               "imageWidth": 315.9921875,
@@ -785,32 +785,32 @@
             {
               "i": 3,
               "text": "3. Track the order lifecycleLink copied",
-              "top": 6234
+              "top": 6306
             },
             {
               "i": 4,
               "text": "4. Track custom actionsLink copied",
-              "top": 7450
+              "top": 7522
             },
             {
               "i": 5,
               "text": "5. Preserve timestamps and monetary valuesLink copied",
-              "top": 8695
+              "top": 8767
             },
             {
               "i": 6,
               "text": "6. Interpret the response and handle errorsLink copied",
-              "top": 9619
+              "top": 9691
             },
             {
               "i": 7,
               "text": "7. Prevent duplicate eventsLink copied",
-              "top": 10603
+              "top": 10675
             },
             {
               "i": 8,
               "text": "Related guidesLink copied",
-              "top": 11635
+              "top": 11707
             }
           ],
           "codes": [
@@ -851,28 +851,28 @@
             },
             {
               "i": 5,
-              "top": 6434,
+              "top": 6506,
               "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"order.placed\",\n    \"profile\": \"PROFILE_ID\",\n    \"object\": \"ORDER_ID\",\n    \"amount\": 89.90,\n    \"currency\": \"USD\"\n  }'\n",
               "width": 358,
               "scrollWidth": 515
             },
             {
               "i": 6,
-              "top": 7674,
+              "top": 7746,
               "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"appointment.booked\",\n    \"profile\": \"PROFILE_ID\",\n    \"tracked_at\": \"2026-08-07T12:30:00Z\"\n  }'\n",
               "width": 358,
               "scrollWidth": 515
             },
             {
               "i": 7,
-              "top": 9215,
+              "top": 9287,
               "text": "{\n  \"amount\": 89.90,\n  \"currency\": \"USD\"\n}\n",
               "width": 358,
               "scrollWidth": 358
             },
             {
               "i": 8,
-              "top": 9747,
+              "top": 9819,
               "text": "{\n  \"status\": \"received\"\n}\n",
               "width": 358,
               "scrollWidth": 358
@@ -904,7 +904,7 @@
             },
             {
               "i": 1,
-              "top": 6809,
+              "top": 6857,
               "height": 302,
               "figWidth": 548,
               "imageWidth": 471.984375,
@@ -937,32 +937,32 @@
             {
               "i": 3,
               "text": "3. Track the order lifecycleLink copied",
-              "top": 5285
+              "top": 5333
             },
             {
               "i": 4,
               "text": "4. Track custom actionsLink copied",
-              "top": 6201
+              "top": 6249
             },
             {
               "i": 5,
               "text": "5. Preserve timestamps and monetary valuesLink copied",
-              "top": 7351
+              "top": 7399
             },
             {
               "i": 6,
               "text": "6. Interpret the response and handle errorsLink copied",
-              "top": 8107
+              "top": 8155
             },
             {
               "i": 7,
               "text": "7. Prevent duplicate eventsLink copied",
-              "top": 8875
+              "top": 8923
             },
             {
               "i": 8,
               "text": "Related guidesLink copied",
-              "top": 9631
+              "top": 9679
             }
           ],
           "codes": [
@@ -1003,28 +1003,28 @@
             },
             {
               "i": 5,
-              "top": 5401,
+              "top": 5449,
               "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"order.placed\",\n    \"profile\": \"PROFILE_ID\",\n    \"object\": \"ORDER_ID\",\n    \"amount\": 89.90,\n    \"currency\": \"USD\"\n  }'\n",
               "width": 548,
               "scrollWidth": 548
             },
             {
               "i": 6,
-              "top": 6341,
+              "top": 6389,
               "text": "curl --request POST \\\n  --url https://api.hellotext.com/v1/attribution/events \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --header \"Content-Type: application/json\" \\\n  --data '{\n    \"action\": \"appointment.booked\",\n    \"profile\": \"PROFILE_ID\",\n    \"tracked_at\": \"2026-08-07T12:30:00Z\"\n  }'\n",
               "width": 548,
               "scrollWidth": 548
             },
             {
               "i": 7,
-              "top": 7751,
+              "top": 7799,
               "text": "{\n  \"amount\": 89.90,\n  \"currency\": \"USD\"\n}\n",
               "width": 548,
               "scrollWidth": 548
             },
             {
               "i": 8,
-              "top": 8235,
+              "top": 8283,
               "text": "{\n  \"status\": \"received\"\n}\n",
               "width": 548,
               "scrollWidth": 548
@@ -1056,5 +1056,38 @@
   "pending": [
     "PR exact-head checks/review/threads and merge",
     "exact main Build/normal production and public page/PNG verification"
-  ]
+  ],
+  "review_correction": {
+    "pull_request": 274,
+    "thread": "https://github.com/hellotext/help/pull/274#discussion_r4144189281",
+    "finding": "Tracking receipt does not return the inline created/matched object ID.",
+    "correction": "Both locales restrict saved ID mappings to IDs returned by a separate resource create/lookup request and explicitly state tracking returns only received.",
+    "verification": "Production build/security headers, original sections/links/stub, eight native PNG hashes and nine syntax-only examples per locale passed again. Complete six page states refreshed; corrected paragraph inspected visually ES/EN desktop/mobile. Figures and source bytes unchanged.",
+    "paragraphs": [
+      {
+        "url": "http://127.0.0.1:4191/es/seguimiento-externo.html",
+        "locale": "es",
+        "width": 1440,
+        "paragraph": "Mant\u00e9n reference y source estables. Guarda su correspondencia con el ID del objeto en Hellotext \u00fanicamente cuando una solicitud separada de creaci\u00f3n o consulta del recurso devuelva ese ID; la respuesta de tracking {\"status\":\"received\"} no devuelve el ID del objeto creado o encontrado. Cambiarlos entre requests puede crear objetos separados para el mismo producto, carrito o pedido. Usa una sola alternativa, object o object_parameters, para expresar qu\u00e9 recurso quieres asociar."
+      },
+      {
+        "url": "http://127.0.0.1:4191/es/seguimiento-externo.html",
+        "locale": "es",
+        "width": 390,
+        "paragraph": "Mant\u00e9n reference y source estables. Guarda su correspondencia con el ID del objeto en Hellotext \u00fanicamente cuando una solicitud separada de creaci\u00f3n o consulta del recurso devuelva ese ID; la respuesta de tracking {\"status\":\"received\"} no devuelve el ID del objeto creado o encontrado. Cambiarlos entre requests puede crear objetos separados para el mismo producto, carrito o pedido. Usa una sola alternativa, object o object_parameters, para expresar qu\u00e9 recurso quieres asociar."
+      },
+      {
+        "url": "http://127.0.0.1:4191/external-tracking.html",
+        "locale": "en",
+        "width": 1440,
+        "paragraph": "Keep reference and source stable. Store their mapping to a Hellotext object ID only when a separate resource creation or lookup request returns that ID; the tracking response {\"status\":\"received\"} does not return the created or matched object\u2019s ID. Changing them between requests can create separate objects for the same product, cart, or order. Use one alternative, object or object_parameters, to express which resource to associate."
+      },
+      {
+        "url": "http://127.0.0.1:4191/external-tracking.html",
+        "locale": "en",
+        "width": 390,
+        "paragraph": "Keep reference and source stable. Store their mapping to a Hellotext object ID only when a separate resource creation or lookup request returns that ID; the tracking response {\"status\":\"received\"} does not return the created or matched object\u2019s ID. Changing them between requests can create separate objects for the same product, cart, or order. Use one alternative, object or object_parameters, to express which resource to associate."
+      }
+    ]
+  }
 }

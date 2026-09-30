@@ -126,7 +126,7 @@ curl --request POST \
   }'
 ```
 
-Mantén `reference` y `source` estables y guarda la correspondencia con el ID devuelto por Hellotext. Cambiarlos entre requests puede crear objetos separados para el mismo producto, carrito o pedido. Usa una sola alternativa, `object` o `object_parameters`, para expresar qué recurso quieres asociar.
+Mantén `reference` y `source` estables. Guarda su correspondencia con el ID del objeto en Hellotext únicamente cuando una solicitud separada de creación o consulta del recurso devuelva ese ID; la respuesta de tracking `{"status":"received"}` no devuelve el ID del objeto creado o encontrado. Cambiarlos entre requests puede crear objetos separados para el mismo producto, carrito o pedido. Usa una sola alternativa, `object` o `object_parameters`, para expresar qué recurso quieres asociar.
 
 La creación de objetos y la aceptación del evento son operaciones distintas. Algunos datos del objeto se validan o guardan durante la solicitud: si falla el evento, comprueba si el recurso ya existe antes de volver a crearlo. Encontrar o crear un producto tampoco actualiza necesariamente un catálogo ya existente; usa el endpoint de actualización cuando cambien sus datos.
 

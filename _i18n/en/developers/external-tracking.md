@@ -126,7 +126,7 @@ curl --request POST \
   }'
 ```
 
-Keep `reference` and `source` stable and store their mapping to the ID returned by Hellotext. Changing them between requests can create separate objects for the same product, cart, or order. Use one alternative, `object` or `object_parameters`, to express which resource to associate.
+Keep `reference` and `source` stable. Store their mapping to a Hellotext object ID only when a separate resource creation or lookup request returns that ID; the tracking response `{"status":"received"}` does not return the created or matched object’s ID. Changing them between requests can create separate objects for the same product, cart, or order. Use one alternative, `object` or `object_parameters`, to express which resource to associate.
 
 Object creation and event acceptance are separate operations. Some object data is validated or saved during the request: if the event fails, check whether the resource already exists before creating it again. Finding or creating a product also does not necessarily update an existing catalog record; use the update endpoint when its data changes.
 
