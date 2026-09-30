@@ -1,5 +1,5 @@
 {
-  "status": "local_verified_publication_pending",
+  "status": "publicly_verified",
   "base_revision": "f1590b86bc2ee65110cc9b4eb15762cac0d7bbd8",
   "originals": [
     {
@@ -64,7 +64,7 @@
       "reuse": true,
       "reuse_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
       "source_publication": "Approved source from #269/#271 reused unchanged",
-      "consumer_publication": "pending"
+      "consumer_publication": "Publicly verified after #289; see root publication evidence. Original source publication and UI evidence remain unchanged."
     },
     {
       "name": "business-es-mobile",
@@ -111,7 +111,7 @@
       "reuse": true,
       "reuse_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
       "source_publication": "Approved source from #269/#271 reused unchanged",
-      "consumer_publication": "pending"
+      "consumer_publication": "Publicly verified after #289; see root publication evidence. Original source publication and UI evidence remain unchanged."
     },
     {
       "name": "business-en",
@@ -158,7 +158,7 @@
       "reuse": true,
       "reuse_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
       "source_publication": "Approved source from #269/#271 reused unchanged",
-      "consumer_publication": "pending"
+      "consumer_publication": "Publicly verified after #289; see root publication evidence. Original source publication and UI evidence remain unchanged."
     },
     {
       "name": "business-en-mobile",
@@ -205,12 +205,10 @@
       "reuse": true,
       "reuse_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
       "source_publication": "Approved source from #269/#271 reused unchanged",
-      "consumer_publication": "pending"
+      "consumer_publication": "Publicly verified after #289; see root publication evidence. Original source publication and UI evidence remain unchanged."
     }
   ],
-  "pending": [
-    "Protected PR checks/review, merge, exact main Build/production and public page/PNG verification"
-  ],
+  "pending": [],
   "new_captures": 0,
   "duplicate_png_uploads": 0,
   "source_reuse_decision": "The same current Settings public Business ID panel, same safe business/state/locale, already approved in #269/#271. Keep original UI evidence paths and PNG bytes. No safe storefront browser subscription/result is available; code examples remain the functional evidence for worker/button implementation.",
@@ -230,7 +228,19 @@
     "build": "Ruby 3.3.6 yarn build with security headers passed",
     "new_capture_count": 0,
     "new_png_uploads": 0,
-    "publication_state": "pending",
+    "publication_state": "Public verification completed after the content merge; see root publication evidence.",
     "verifier_commit": "fabd2f840c5df5aad690318436899be2c5aeb688"
+  },
+  "publication": {
+    "state": "publicly_verified",
+    "evidence": "public-verification.json",
+    "content_pr": "https://github.com/hellotext/help/pull/289",
+    "main_merge_sha": "7718f318608f6761cb0b967ea738176be66a8cc4",
+    "deploy_id": "6abd6e4303038c000869a138",
+    "public_pages_http": 200,
+    "public_asset_count": 4,
+    "approved_reused_hashes_match": true,
+    "new_captures": 0,
+    "new_png_uploads": 0
   }
 }
