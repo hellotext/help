@@ -51,3 +51,7 @@ Reused images (no duplicate uploads):
 - [https://help.hellotext.com/images/developers/custom-actions/catalog-en-mobile.png](https://help.hellotext.com/images/developers/custom-actions/catalog-en-mobile.png) — HTTP 200, SHA256 `9f1460df43463d2eef8bbd04d6c550782d05bd4129eb7f9bf0faa5f553588561`.
 
 The separate record PR and its exact main Build/normal production/page/hash verification are required to close this batch. Post-record evidence will be attached to that PR after merge. Ledger: 56 local_verified, 97 pending, 1 out_of_scope; all verifier commits are reconciled against main. The unchanged campaign/storefront blockers remain deferred.
+
+## Provenance reference correction before record merge
+
+Reused UI-evidence filenames now point explicitly to their original provider directories, matching the retained source/provenance/public-evidence paths. All eight original UI JSON records exist; no recapture, asset, article, fixture or runtime change. This avoids interpreting a provider-relative filename as a nonexistent new overview capture. The corrected record head requires fresh checks/review before merge.
