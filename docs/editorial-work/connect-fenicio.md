@@ -44,3 +44,7 @@ Read-only fixture snapshots before/after are identical: DB hellotext_editorial_w
 All16 PNGs are native Display P32×. Responsive pictures≤600px declare density and intrinsic dimensions for each source; no source is enlarged. Static lavender stage fills the article column and the white frame fits the image. Full ES/EN articles at1440/390/580px were visually inspected with no page overflow. The final verification categories use visible numbers1–5 to avoid the current renderer resetting ordered-list numbers across figures; the six views were rebuilt and reviewed after that local correction. No renderer/shared-rule/CSS change or CSS/migration test was added. Production build and security-header configuration passed; root/ES build copies and approved PNG/source/ICC hashes match. Original headings/links/stub checks and `git diff --check` passed; detailed evidence is `local-verification.json` and `page-review`.
 
 Protected publication and public proof remain pending.
+
+## Ledger verifier
+
+Verifier `b4d8dcea091cd3f09a4c6651c7fe51b92981cc48` contains the completed articles, four new native captures, twelve unchanged reusable sources and local proof. This ledger commit is its direct child; all79 pair verifiers and both prior corrections are ancestors of the resulting head. Ledger now79 local_verified,74 pending,one out_of_scope. Exact PR checks/review, normal production deployment and public verification remain pending.
