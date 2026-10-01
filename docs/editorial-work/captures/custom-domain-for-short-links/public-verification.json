@@ -1,0 +1,271 @@
+{
+  "verified_at_utc": "2026-10-01T09:27:48.190105+00:00",
+  "verified_git_main_sha": "234ff9066fe08224f162bff903396b803f0c7bf1",
+  "production_deploy_id_sha_association": {
+    "id": "6abe272200f83300087ab735",
+    "site_id": "d66a79c1-b5de-44d1-bc47-bc7809f7f3b3",
+    "state": "ready",
+    "context": "production",
+    "branch": "main",
+    "commit_ref": "234ff9066fe08224f162bff903396b803f0c7bf1",
+    "created_at": "2026-10-01T09:25:54.221Z",
+    "published_at": "2026-10-01T09:27:03.371Z",
+    "deploy_ssl_url": "https://main--legendary-lollipop-e2d131.netlify.app"
+  },
+  "deployment_method": "Normal Netlify production after Git merge; no manual deploy. Accessible public site-alias listing provided exact commit_ref.",
+  "pages": [
+    {
+      "url": "https://help.hellotext.com/es/configurando-dominio-para-enlaces-cortos",
+      "status": 200,
+      "article_key": "integrations/custom-domain-for-short-links.md",
+      "locale": "es",
+      "figures": 2,
+      "sections": 6,
+      "approved_assets_present": [
+        "/images/developers/custom-store-integration/business-es.png",
+        "/images/developers/custom-store-integration/business-es-mobile.png",
+        "/images/integrations/custom-domain-for-short-links/domain-es.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "dc5db1e6d9dee338b20579173ed91a15715f1cc1658cb0172b6f9e1610d7f8a4",
+      "html_sha256": "3ceee9666f96ece0a953b1f87d432c73b67a1351c3d76b5869ff92d74656e8f0"
+    },
+    {
+      "url": "https://help.hellotext.com/setting-up-custom-shortlink-domain",
+      "status": 200,
+      "article_key": "integrations/custom-domain-for-short-links.md",
+      "locale": "en",
+      "figures": 2,
+      "sections": 6,
+      "approved_assets_present": [
+        "/images/developers/custom-store-integration/business-en.png",
+        "/images/developers/custom-store-integration/business-en-mobile.png",
+        "/images/integrations/custom-domain-for-short-links/domain-en.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "5b821cbdf96280d58d2168a244c3729007ebd60a9041c9811a13e8628b634907",
+      "html_sha256": "4712f6c2aea6cca74ff0d781079208e39189854dc8763d9b5c46274cedfa2da8"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-store-integration/business-es.png",
+      "status": 200,
+      "sha256": "17ec399500cee235d73459ced0de47fac99054987976a56f4e09603150ef5dfb",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-store-integration/business-es-mobile.png",
+      "status": 200,
+      "sha256": "0c7ac4c233075fa5d072e27ac33e7947092bf6406858524ab12fa546be553ed8",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-store-integration/business-en.png",
+      "status": 200,
+      "sha256": "1f7f132b2245056eda5166b1b1cfdbeee406ebcf7bad4a13a6eb3fd501184d7f",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-store-integration/business-en-mobile.png",
+      "status": 200,
+      "sha256": "c7badab42d6878393ab746c2950605b8153dc38d60ac1ae09c747a949706bfeb",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/integrations/custom-domain-for-short-links/domain-es.png",
+      "status": 200,
+      "sha256": "f63afb37449b062e8e2baca5da3ca022ebe11cb7d8234f6956c252985570d15d",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/integrations/custom-domain-for-short-links/domain-en.png",
+      "status": 200,
+      "sha256": "bb1e4bb80258ac94c8cf0d20f40c8a52186d92adb97c8e4f23ae33b65ae5efd4",
+      "matches_approved_asset": true,
+      "reused": false
+    }
+  ],
+  "new_captures": 2,
+  "new_png_uploads": 2,
+  "reused_pngs": 4,
+  "all_affected_article_pngs": 6,
+  "main_build": {
+    "conclusion": "success",
+    "databaseId": 36842680900,
+    "event": "push",
+    "headSha": "234ff9066fe08224f162bff903396b803f0c7bf1",
+    "status": "completed",
+    "url": "https://github.com/hellotext/help/actions/runs/36842680900"
+  },
+  "content_pr": "https://github.com/hellotext/help/pull/323",
+  "content_pr_head": "e51831ca3ad19f7af98825b315322a4fac6a2228",
+  "individual_commits_preserved": [
+    "f558ce5c014e375df40f7c74979a370773bc0051",
+    "75252a1f5bc4662d5522e0974c56842caaff04f5",
+    "e51831ca3ad19f7af98825b315322a4fac6a2228"
+  ],
+  "unresolved_review_threads_before_merge": 0,
+  "pre_merge_review": {
+    "head": "e51831ca3ad19f7af98825b315322a4fac6a2228",
+    "checks": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T09:21:15Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/hellotext/help/actions/runs/36842108234/job/110303394713",
+        "name": "build",
+        "startedAt": "2026-10-01T09:20:43Z",
+        "status": "COMPLETED",
+        "workflowName": "Build"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T09:21:50Z",
+        "conclusion": "NEUTRAL",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abe25e7665b250008d1e348",
+        "name": "Pages changed - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T09:20:40Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T09:21:50Z",
+        "conclusion": "NEUTRAL",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abe25e7665b250008d1e348",
+        "name": "Redirect rules - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T09:20:40Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T09:21:07Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://app.aikido.dev/featurebranch/scan/209228831?groupId=34029",
+        "name": "Aikido Security: check code",
+        "startedAt": "2026-10-01T09:20:41Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T09:21:50Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abe25e7665b250008d1e348",
+        "name": "Header rules - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T09:20:40Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "StatusContext",
+        "context": "netlify/legendary-lollipop-e2d131/deploy-preview",
+        "startedAt": "2026-10-01T09:21:52Z",
+        "state": "SUCCESS",
+        "targetUrl": "https://deploy-preview-323--legendary-lollipop-e2d131.netlify.app"
+      }
+    ],
+    "actual_comment_urls": [
+      "https://github.com/hellotext/help/pull/323#issuecomment-5928512981",
+      "https://github.com/hellotext/help/pull/323#issuecomment-5928515075"
+    ],
+    "threads": [],
+    "all_actual_comments_reviews_threads_read": true
+  },
+  "preview_verification": {
+    "head": "e51831ca3ad19f7af98825b315322a4fac6a2228",
+    "preview_url": "https://deploy-preview-323--legendary-lollipop-e2d131.netlify.app",
+    "deployment": {
+      "id": "6abe25e7665b250008d1e348",
+      "context": "deploy-preview",
+      "commit_ref": "e51831ca3ad19f7af98825b315322a4fac6a2228",
+      "state": "ready",
+      "review_id": 323
+    },
+    "pages": [
+      {
+        "url": "https://deploy-preview-323--legendary-lollipop-e2d131.netlify.app/es/configurando-dominio-para-enlaces-cortos",
+        "status": 200,
+        "article_key": "integrations/custom-domain-for-short-links.md",
+        "locale": "es",
+        "figures": 2,
+        "sections": 6,
+        "approved_assets_present": [
+          "/images/developers/custom-store-integration/business-es.png",
+          "/images/developers/custom-store-integration/business-es-mobile.png",
+          "/images/integrations/custom-domain-for-short-links/domain-es.png"
+        ],
+        "complete_article_matches_verified_build": true,
+        "article_sha256": "dc5db1e6d9dee338b20579173ed91a15715f1cc1658cb0172b6f9e1610d7f8a4",
+        "html_sha256": "1083153066cc50e94266d6e5becef6c452134440e896b1b864b6c88498ef1bcc"
+      },
+      {
+        "url": "https://deploy-preview-323--legendary-lollipop-e2d131.netlify.app/setting-up-custom-shortlink-domain",
+        "status": 200,
+        "article_key": "integrations/custom-domain-for-short-links.md",
+        "locale": "en",
+        "figures": 2,
+        "sections": 6,
+        "approved_assets_present": [
+          "/images/developers/custom-store-integration/business-en.png",
+          "/images/developers/custom-store-integration/business-en-mobile.png",
+          "/images/integrations/custom-domain-for-short-links/domain-en.png"
+        ],
+        "complete_article_matches_verified_build": true,
+        "article_sha256": "5b821cbdf96280d58d2168a244c3729007ebd60a9041c9811a13e8628b634907",
+        "html_sha256": "960b4138879de0fb7448c23af2b5a20e70be534ea95cf9ae3c33e61db96c0630"
+      }
+    ],
+    "assets": [
+      {
+        "url": "https://deploy-preview-323--legendary-lollipop-e2d131.netlify.app/images/developers/custom-store-integration/business-es.png",
+        "status": 200,
+        "sha256": "17ec399500cee235d73459ced0de47fac99054987976a56f4e09603150ef5dfb",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-323--legendary-lollipop-e2d131.netlify.app/images/developers/custom-store-integration/business-es-mobile.png",
+        "status": 200,
+        "sha256": "0c7ac4c233075fa5d072e27ac33e7947092bf6406858524ab12fa546be553ed8",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-323--legendary-lollipop-e2d131.netlify.app/images/developers/custom-store-integration/business-en.png",
+        "status": 200,
+        "sha256": "1f7f132b2245056eda5166b1b1cfdbeee406ebcf7bad4a13a6eb3fd501184d7f",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-323--legendary-lollipop-e2d131.netlify.app/images/developers/custom-store-integration/business-en-mobile.png",
+        "status": 200,
+        "sha256": "c7badab42d6878393ab746c2950605b8153dc38d60ac1ae09c747a949706bfeb",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-323--legendary-lollipop-e2d131.netlify.app/images/integrations/custom-domain-for-short-links/domain-es.png",
+        "status": 200,
+        "sha256": "f63afb37449b062e8e2baca5da3ca022ebe11cb7d8234f6956c252985570d15d",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-323--legendary-lollipop-e2d131.netlify.app/images/integrations/custom-domain-for-short-links/domain-en.png",
+        "status": 200,
+        "sha256": "bb1e4bb80258ac94c8cf0d20f40c8a52186d92adb97c8e4f23ae33b65ae5efd4",
+        "matches_approved_asset": true,
+        "reused": false
+      }
+    ]
+  }
+}

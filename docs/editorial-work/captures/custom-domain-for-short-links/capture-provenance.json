@@ -1,5 +1,5 @@
 {
-  "status": "locally_verified",
+  "status": "publicly_verified",
   "base_revision": "618d314bc4940e22c3e86bd1efc776fce2b5d8f8",
   "originals": [
     {
@@ -102,7 +102,10 @@
       },
       "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
       "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-es-ui.json",
-      "pixel_edits": "none"
+      "pixel_edits": "none",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Current consumer publicly verified using the existing approved native asset; no recapture, duplicate upload or pixel edit."
     },
     {
       "name": "business-es-mobile",
@@ -147,7 +150,10 @@
       },
       "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
       "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-es-mobile-ui.json",
-      "pixel_edits": "none"
+      "pixel_edits": "none",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Current consumer publicly verified using the existing approved native asset; no recapture, duplicate upload or pixel edit."
     },
     {
       "name": "business-en",
@@ -192,7 +198,10 @@
       },
       "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
       "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-en-ui.json",
-      "pixel_edits": "none"
+      "pixel_edits": "none",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Current consumer publicly verified using the existing approved native asset; no recapture, duplicate upload or pixel edit."
     },
     {
       "name": "business-en-mobile",
@@ -237,7 +246,10 @@
       },
       "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
       "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-en-mobile-ui.json",
-      "pixel_edits": "none"
+      "pixel_edits": "none",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Current consumer publicly verified using the existing approved native asset; no recapture, duplicate upload or pixel edit."
     },
     {
       "name": "domain-es",
@@ -284,7 +296,10 @@
       "original_provenance": "docs/editorial-work/captures/custom-domain-for-short-links/capture-provenance.json",
       "ui_evidence": "docs/editorial-work/captures/custom-domain-for-short-links/domain-es-ui.json",
       "pixel_edits": "none",
-      "responsive_use": "Same complete native desktop control in both Help layouts; no enlarged source or duplicated mobile asset."
+      "responsive_use": "Same complete native desktop control in both Help layouts; no enlarged source or duplicated mobile asset.",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "New native guarded capture and approved asset publicly verified with matching SHA256; no pixel edit."
     },
     {
       "name": "domain-en",
@@ -331,14 +346,15 @@
       "original_provenance": "docs/editorial-work/captures/custom-domain-for-short-links/capture-provenance.json",
       "ui_evidence": "docs/editorial-work/captures/custom-domain-for-short-links/domain-en-ui.json",
       "pixel_edits": "none",
-      "responsive_use": "Same complete native desktop control in both Help layouts; no enlarged source or duplicated mobile asset."
+      "responsive_use": "Same complete native desktop control in both Help layouts; no enlarged source or duplicated mobile asset.",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "New native guarded capture and approved asset publicly verified with matching SHA256; no pixel edit."
     }
   ],
   "new_pngs": 2,
   "reused_pngs": 4,
-  "pending": [
-    "Commit/PR protected checks and independent exact-head review, normal production deployment and public page/hash verification."
-  ],
+  "pending": [],
   "new_source_capture": "Native guarded isolated Chrome compositor, Display P3 D65/DPR2/zoom1; desktop1200x900; per-source native metadata and before/after guard.",
   "mobile_source_decision": "Domain panel uses complete approved desktop source at both article sizes. Real mobile General editor has preexisting handle overflow and narrow126px domain field; no defective source published, no Rails/CSS changes.",
   "section_visual_plan": "See ../../custom-domain-for-short-links.md",
@@ -357,5 +373,17 @@
       900
     ],
     "before_after_capture_guard": "script/capture_isolated_chrome.mjs validates before and after; measured viewport/DPR/scroll match saved UI/native metadata"
+  },
+  "publication": {
+    "state": "publicly_verified",
+    "evidence": "public-verification.json",
+    "content_pr": "https://github.com/hellotext/help/pull/323",
+    "main_merge_sha": "234ff9066fe08224f162bff903396b803f0c7bf1",
+    "deploy_id": "6abe272200f83300087ab735",
+    "public_pages_http": 200,
+    "approved_hashes_match": true,
+    "new_captures": 2,
+    "new_png_uploads": 2,
+    "reused_pngs": 4
   }
 }
