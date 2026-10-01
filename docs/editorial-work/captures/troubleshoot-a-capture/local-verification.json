@@ -1,0 +1,555 @@
+{
+  "originals": [
+    {
+      "article": "_i18n/es/troubleshooting-deliverability/troubleshoot-a-capture.md",
+      "snapshot": "docs/editorial-work/captures/troubleshoot-a-capture/originals/es.md",
+      "sha256": "6a8175a11deef2235badc0c523c3340465bd79537122c833b44f9900859eedd4",
+      "headings": [
+        "## Identifica d\u00f3nde se detuvo",
+        "## Si la misi\u00f3n no est\u00e1 disponible",
+        "## Si un popup o Webchat no aparece",
+        "## Si un formulario no carga",
+        "## Si un c\u00f3digo QR o link no registra la suscripci\u00f3n",
+        "## Si el opt-in de checkout no registra al cliente",
+        "## Si los datos no aparecen en el perfil del cliente",
+        "## Si fall\u00f3 lo que deb\u00eda pasar despu\u00e9s",
+        "## Qu\u00e9 incluir al pedir ayuda",
+        "## Gu\u00edas relacionadas"
+      ],
+      "links": [
+        "_troubleshooting-deliverability/why-a-message-did-not-send.md",
+        "_captures/capture-overview.md",
+        "_captures/website-popup.md",
+        "_captures/forms.md",
+        "_captures/webchat-widget-playbook.md",
+        "_captures/subscriber-booster-playbook.md",
+        "_audience/consent-and-subscriber-status.md",
+        "_integrations/verify-data-and-signals.md"
+      ],
+      "live_sha256": "3e8a9f9353f76a0e6ef454c2433012e2af4769c4a01e2b9c1b401b1caf121512",
+      "headings_original_links_stub_preserved": true
+    },
+    {
+      "article": "_i18n/en/troubleshooting-deliverability/troubleshoot-a-capture.md",
+      "snapshot": "docs/editorial-work/captures/troubleshoot-a-capture/originals/en.md",
+      "sha256": "e9425aec4c193631a97c5ee4b10952553523e26616a4a0352a74be62821064ae",
+      "headings": [
+        "## Identify where it stopped",
+        "## If the playbook is not available",
+        "## If a popup or Webchat does not appear",
+        "## If a form does not load",
+        "## If a QR code or link does not register the subscription",
+        "## If checkout opt-in does not register the customer",
+        "## If data is missing from the customer profile",
+        "## If the next action failed",
+        "## What to include when asking for help",
+        "## Related guides"
+      ],
+      "links": [
+        "_troubleshooting-deliverability/why-a-message-did-not-send.md",
+        "_captures/capture-overview.md",
+        "_captures/website-popup.md",
+        "_captures/forms.md",
+        "_captures/webchat-widget-playbook.md",
+        "_captures/subscriber-booster-playbook.md",
+        "_audience/consent-and-subscriber-status.md",
+        "_integrations/verify-data-and-signals.md"
+      ],
+      "live_sha256": "65b140f273d20330a8e8149238417ba31ad1a99ce8e8ade068b5522688431104",
+      "headings_original_links_stub_preserved": true
+    },
+    {
+      "article": "_troubleshooting-deliverability/troubleshoot-a-capture.md",
+      "snapshot": "docs/editorial-work/captures/troubleshoot-a-capture/originals/stub.md",
+      "sha256": "fb7715c354dcb434748885ba348538fd0e4b488feed7b15f6b9090c211830be0",
+      "headings": [],
+      "links": [],
+      "live_sha256": "fb7715c354dcb434748885ba348538fd0e4b488feed7b15f6b9090c211830be0",
+      "headings_original_links_stub_preserved": true
+    }
+  ],
+  "images": [
+    {
+      "asset": "images/captures/forms/es/catalog-desktop-row.png",
+      "sha256": "566beb2c6e7b0d3c249b910ae4f4e64b8af41f827f9278795129e4c677873e8a",
+      "pixels": [
+        1632,
+        480
+      ],
+      "logical_size": [
+        816.0,
+        240.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/forms/catalog-desktop-row-provenance.json"
+    },
+    {
+      "asset": "images/captures/forms/en/catalog-desktop-row.png",
+      "sha256": "7ee2d1dc3d8e3f432ec838e55987946f00163e53400a3ce124721570517488cc",
+      "pixels": [
+        1632,
+        480
+      ],
+      "logical_size": [
+        816.0,
+        240.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/forms/catalog-desktop-row-provenance.json"
+    },
+    {
+      "asset": "images/captures/capture-overview/desktop-form-es.png",
+      "sha256": "9ce384f09ff7528d172498cd65436a902ea3bfaf6ae3af46adafb33633f1e951",
+      "pixels": [
+        800,
+        480
+      ],
+      "logical_size": [
+        400.0,
+        240.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/capture-overview/desktop-cards/capture-provenance.json"
+    },
+    {
+      "asset": "images/captures/capture-overview/desktop-form-en.png",
+      "sha256": "ac896380329371ff4ff4395b6b7e393eecf0075071f1f361daf273992236bbd4",
+      "pixels": [
+        800,
+        480
+      ],
+      "logical_size": [
+        400.0,
+        240.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/capture-overview/desktop-cards/capture-provenance.json"
+    },
+    {
+      "asset": "images/captures/website-popup/settings-en.png",
+      "sha256": "0231cd9de10ea6889afcd48470746ec90793d797327ee2509aa6a4436b29a717",
+      "pixels": [
+        820,
+        744
+      ],
+      "logical_size": [
+        410.0,
+        372.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/website-popup/capture-provenance.json"
+    },
+    {
+      "asset": "images/captures/website-popup/settings-es.png",
+      "sha256": "7426ccc4a876c7b8ab126171f1b800c4f6ec0080df80c700fe98cdd3587c479b",
+      "pixels": [
+        820,
+        744
+      ],
+      "logical_size": [
+        410.0,
+        372.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/website-popup/capture-provenance.json"
+    },
+    {
+      "asset": "images/captures/webchat-widget/behavior-en.png",
+      "sha256": "c5027d4bdba0246c5264ccc0cdd762ab80520cfdf2c405279c58f464f9d07300",
+      "pixels": [
+        1056,
+        774
+      ],
+      "logical_size": [
+        528.0,
+        387.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/webchat-widget/capture-provenance.json"
+    },
+    {
+      "asset": "images/captures/webchat-widget/behavior-es.png",
+      "sha256": "0c66189d4751f9634a37408378a0d6c703edaf4661d552a3ac763f7684027b54",
+      "pixels": [
+        1056,
+        774
+      ],
+      "logical_size": [
+        528.0,
+        387.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/webchat-widget/capture-provenance.json"
+    },
+    {
+      "asset": "images/captures/webchat-widget/behavior-mobile-en.png",
+      "sha256": "2f47245fe9d08de0f099cd2ee216a00f54e76155fcfee1828439e4157ef3b66b",
+      "pixels": [
+        720,
+        228
+      ],
+      "logical_size": [
+        360.0,
+        114.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/webchat-widget/capture-provenance.json"
+    },
+    {
+      "asset": "images/captures/webchat-widget/behavior-mobile-es.png",
+      "sha256": "14b9443d6cd63896109792495171d333f9ebadd7bfa4cf8528dcfa3f81dd1dc0",
+      "pixels": [
+        720,
+        228
+      ],
+      "logical_size": [
+        360.0,
+        114.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/webchat-widget/capture-provenance.json"
+    },
+    {
+      "asset": "images/captures/forms/ui-refresh/en/preview.png",
+      "sha256": "fd99e7e004f2a1a0a084405aef1191469e23a7f034c83374caad6a38d48cc0e6",
+      "pixels": [
+        944,
+        692
+      ],
+      "logical_size": [
+        472.0,
+        346.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/forms/ui-refresh/capture-provenance.json"
+    },
+    {
+      "asset": "images/captures/forms/ui-refresh/es/preview.png",
+      "sha256": "8caa6c2618d9dfbff44dd7c9b5dc6048dd37020cc58e6b12479549be749550b2",
+      "pixels": [
+        944,
+        780
+      ],
+      "logical_size": [
+        472.0,
+        390.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/forms/ui-refresh/capture-provenance.json"
+    },
+    {
+      "asset": "images/captures/qr-codes/type-es.png",
+      "sha256": "eede258c9564f35a12937dc91e1dfe2ca1a42b55b91aa656eb43d4ba9adc6b68",
+      "pixels": [
+        1320,
+        1310
+      ],
+      "logical_size": [
+        660.0,
+        655.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/qr-codes/capture-provenance.json"
+    },
+    {
+      "asset": "images/captures/qr-codes/type-en.png",
+      "sha256": "ace129e7e733ed1a67517f502e903aa64e96147c056126dd034253f91b95ebac",
+      "pixels": [
+        1320,
+        1310
+      ],
+      "logical_size": [
+        660.0,
+        655.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/qr-codes/capture-provenance.json"
+    },
+    {
+      "asset": "images/captures/qr-codes/type-es-mobile.png",
+      "sha256": "64eb482e351a951426188c8219d6c581a8c1d2637f2a799395cd0e40ffcb0ee5",
+      "pixels": [
+        740,
+        1500
+      ],
+      "logical_size": [
+        370.0,
+        750.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/qr-codes/capture-provenance.json"
+    },
+    {
+      "asset": "images/captures/qr-codes/type-en-mobile.png",
+      "sha256": "cffe0390ce515e36f8f3338747e94826de6bbb2e77e94f5780b2217003eded34",
+      "pixels": [
+        740,
+        1500
+      ],
+      "logical_size": [
+        370.0,
+        750.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/qr-codes/capture-provenance.json"
+    },
+    {
+      "asset": "images/audience/customer-profiles/profile-fields-es.png",
+      "sha256": "bf1ee79e29d0ef384913cad51a1792ddf0050d75a5b4e138bd49df682e203b40",
+      "pixels": [
+        910,
+        1330
+      ],
+      "logical_size": [
+        455.0,
+        665.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/customer-profiles/capture-provenance.json"
+    },
+    {
+      "asset": "images/audience/customer-profiles/profile-fields-en.png",
+      "sha256": "9bbb727226b2a20d5df4be2ca7612d29037b9d18d8e7e2ec488c407c54945f5d",
+      "pixels": [
+        910,
+        1330
+      ],
+      "logical_size": [
+        455.0,
+        665.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/customer-profiles/capture-provenance.json"
+    },
+    {
+      "asset": "images/audience/customer-profiles/profile-fields-es-mobile.png",
+      "sha256": "1525d3add44bb64b93d457bb3353f8bfdd9fe0f1f99b84580aed0807db7829c3",
+      "pixels": [
+        700,
+        1330
+      ],
+      "logical_size": [
+        350.0,
+        665.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/customer-profiles/capture-provenance.json"
+    },
+    {
+      "asset": "images/audience/customer-profiles/profile-fields-en-mobile.png",
+      "sha256": "0e2c6a1622ea73ec0fa008f5100b7ce5f04e2695cdb1aa2414c855db6ca760cb",
+      "pixels": [
+        700,
+        1330
+      ],
+      "logical_size": [
+        350.0,
+        665.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/customer-profiles/capture-provenance.json"
+    }
+  ],
+  "browser": [
+    {
+      "locale": "es",
+      "device": "desktop",
+      "width_css": 1440,
+      "headings": 10,
+      "figures": 6,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    },
+    {
+      "locale": "es",
+      "device": "mobile",
+      "width_css": 390,
+      "headings": 10,
+      "figures": 6,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    },
+    {
+      "locale": "es",
+      "device": "narrow",
+      "width_css": 580,
+      "headings": 10,
+      "figures": 6,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    },
+    {
+      "locale": "en",
+      "device": "desktop",
+      "width_css": 1440,
+      "headings": 10,
+      "figures": 6,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    },
+    {
+      "locale": "en",
+      "device": "mobile",
+      "width_css": 390,
+      "headings": 10,
+      "figures": 6,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    },
+    {
+      "locale": "en",
+      "device": "narrow",
+      "width_css": 580,
+      "headings": 10,
+      "figures": 6,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    }
+  ],
+  "build": {
+    "command": "RBENV_VERSION=3.3.6 PATH=/Users/pel/.rbenv/shims:$PATH yarn build",
+    "exit_code": 0,
+    "production_bilingual_build": "passed",
+    "security_headers": "configured"
+  },
+  "publication_state": "Not yet publicly verified; protected PR and normal production verification pending.",
+  "safety": "No source app/DB/account/locale/fixture/capture/verification/subscription/API/example/message/provider/worker operation or new fixture audit. Dedicated Help browser only renders, scrolls and captures review pages. Original evidence stays in its source folders; historical source URLs, metadata, guard and fixture limits are retained without retroactive claims."
+}
