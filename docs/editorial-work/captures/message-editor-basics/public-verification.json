@@ -1,0 +1,341 @@
+{
+  "verified_at_utc": "2026-10-01T10:30:00.012839+00:00",
+  "verified_git_main_sha": "558a931643f08be97c61bb5d743bcb550c84530a",
+  "production_deploy_id_sha_association": {
+    "id": "6abe35d6d0fa6d000898d08a",
+    "site_id": "d66a79c1-b5de-44d1-bc47-bc7809f7f3b3",
+    "state": "ready",
+    "context": "production",
+    "branch": "main",
+    "commit_ref": "558a931643f08be97c61bb5d743bcb550c84530a",
+    "created_at": "2026-10-01T10:28:38.018Z",
+    "published_at": "2026-10-01T10:29:45.813Z",
+    "deploy_ssl_url": "https://main--legendary-lollipop-e2d131.netlify.app"
+  },
+  "deployment_method": "Normal Netlify production after Git merge; no manual deploy. Accessible public site-alias listing provided exact commit_ref.",
+  "pages": [
+    {
+      "url": "https://help.hellotext.com/es/conceptos-basicos-editor-mensajes",
+      "status": 200,
+      "article_key": "numbers/message-editor-basics.md",
+      "locale": "es",
+      "figures": 2,
+      "sections": 4,
+      "approved_assets_present": [
+        "/images/numbers/message-editor-basics/format-es.png",
+        "/images/numbers/message-editor-basics/format-es-mobile.png",
+        "/images/numbers/message-editor-basics/link-es.png",
+        "/images/numbers/message-editor-basics/link-es-mobile.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "d0cad3f00bff26f6d0f94acde306880c3bd73308753b5c6f298043e33cb6b29f",
+      "html_sha256": "cb0d67d3971e159025abdbd9ebf21afbae38ec9252222e55f2df7d7a56519972"
+    },
+    {
+      "url": "https://help.hellotext.com/message-editor-basics",
+      "status": 200,
+      "article_key": "numbers/message-editor-basics.md",
+      "locale": "en",
+      "figures": 2,
+      "sections": 4,
+      "approved_assets_present": [
+        "/images/numbers/message-editor-basics/format-en.png",
+        "/images/numbers/message-editor-basics/format-en-mobile.png",
+        "/images/numbers/message-editor-basics/link-en.png",
+        "/images/numbers/message-editor-basics/link-en-mobile.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "ed0cce115261f5a3fa5311c52c935fcc2c5e3c7bfdf844dc80dc0106d73d84cc",
+      "html_sha256": "ff69dd789ea95e99b2b7a8346b8fc25d97e3bae7e38124084d3c686f1543d697"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://help.hellotext.com/images/numbers/message-editor-basics/format-es.png",
+      "status": 200,
+      "sha256": "7c7077129a2901111f67109eb367a5bb54220ac11838f50b61e29b48a1603a1e",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/numbers/message-editor-basics/format-es-mobile.png",
+      "status": 200,
+      "sha256": "eb624ee9580528cbc670313af7dea68bbe6a29ce42ea23c6747668029dce73b1",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/numbers/message-editor-basics/link-es.png",
+      "status": 200,
+      "sha256": "ecae4a8faae7de2738bdea87c8ea1896e7cf62303c129769905b2050f8ffe288",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/numbers/message-editor-basics/link-es-mobile.png",
+      "status": 200,
+      "sha256": "e0d87adab619006f594d72e9bd1590f79bdc8bf1333fb272bdcfcd4ff672d4f5",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/numbers/message-editor-basics/format-en.png",
+      "status": 200,
+      "sha256": "2817aa394f2917c9e5faa0bc2e2a9eeebacdc62ba872e727b33f03c0c05d9d9a",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/numbers/message-editor-basics/format-en-mobile.png",
+      "status": 200,
+      "sha256": "3754139f79d32c654e2bbcae936acfe841df4f4d687b33013e39ee6a5fd6643a",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/numbers/message-editor-basics/link-en.png",
+      "status": 200,
+      "sha256": "ee72b8b34eec69b1161ad3fc71b2b51aff5fc1abc6b597b15c6f5f89a6837f07",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/numbers/message-editor-basics/link-en-mobile.png",
+      "status": 200,
+      "sha256": "51ea1259208d02a2e908389187c37282e68d5b2e3cd8e80550257fc043c6a9fe",
+      "matches_approved_asset": true,
+      "reused": false
+    }
+  ],
+  "new_captures": 8,
+  "new_png_uploads": 8,
+  "reused_pngs": 0,
+  "all_affected_article_pngs": 8,
+  "ancestry_finding_rebuttal": {
+    "github_head": "26822f159518a4fa49f2242227f4a460939d4e1e",
+    "github_parents": [
+      "08b588f6786c857070e350aeaa6396d85bcc004c"
+    ],
+    "local_merge_base_exit": 0,
+    "finding_reference": "6b01e81c1a8bf5195eddf4932bc72aa1d7d99a51",
+    "actual_review_head": "26822f159518a4fa49f2242227f4a460939d4e1e"
+  },
+  "main_build": {
+    "conclusion": "success",
+    "databaseId": 36849370382,
+    "event": "push",
+    "headSha": "558a931643f08be97c61bb5d743bcb550c84530a",
+    "status": "completed",
+    "url": "https://github.com/hellotext/help/actions/runs/36849370382"
+  },
+  "content_pr": "https://github.com/hellotext/help/pull/325",
+  "content_pr_head": "26822f159518a4fa49f2242227f4a460939d4e1e",
+  "individual_commits_preserved": [
+    "08b588f6786c857070e350aeaa6396d85bcc004c",
+    "26822f159518a4fa49f2242227f4a460939d4e1e"
+  ],
+  "unresolved_review_threads_before_merge": 0,
+  "pre_merge_review": {
+    "head": "26822f159518a4fa49f2242227f4a460939d4e1e",
+    "checks": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T10:17:17Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/hellotext/help/actions/runs/36848124895/job/110323073865",
+        "name": "build",
+        "startedAt": "2026-10-01T10:16:47Z",
+        "status": "COMPLETED",
+        "workflowName": "Build"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T10:17:57Z",
+        "conclusion": "NEUTRAL",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abe330c899c5e00088020b0",
+        "name": "Pages changed - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T10:16:46Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T10:17:57Z",
+        "conclusion": "NEUTRAL",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abe330c899c5e00088020b0",
+        "name": "Redirect rules - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T10:16:46Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T10:17:09Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://app.aikido.dev/featurebranch/scan/209281583?groupId=34029",
+        "name": "Aikido Security: check code",
+        "startedAt": "2026-10-01T10:16:45Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T10:17:57Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abe330c899c5e00088020b0",
+        "name": "Header rules - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T10:16:46Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "StatusContext",
+        "context": "netlify/legendary-lollipop-e2d131/deploy-preview",
+        "startedAt": "2026-10-01T10:17:58Z",
+        "state": "SUCCESS",
+        "targetUrl": "https://deploy-preview-325--legendary-lollipop-e2d131.netlify.app"
+      }
+    ],
+    "actual_comment_urls": [
+      "https://github.com/hellotext/help/pull/325#issuecomment-5929355543",
+      "https://github.com/hellotext/help/pull/325#issuecomment-5929357195",
+      "https://github.com/hellotext/help/pull/325#issuecomment-5929359377",
+      "https://github.com/hellotext/help/pull/325#issuecomment-5929450385",
+      "https://github.com/hellotext/help/pull/325#issuecomment-5929480772"
+    ],
+    "threads": [
+      {
+        "id": "PRRT_kwDOIVbAxs6n5oUZ",
+        "isResolved": true,
+        "comments": {
+          "nodes": [
+            {
+              "id": "PRRC_kwDOIVbAxs73ne34",
+              "body": "**<sub><sub>![P2 Badge](https://img.shields.io/badge/P2-yellow?style=flat)</sub></sub>  Make the recorded verifier an ancestor**\n\nFor this reviewed commit, `git merge-base --is-ancestor 08b588f6786c857070e350aeaa6396d85bcc004c 6b01e81c1a8bf5195eddf4932bc72aa1d7d99a51` fails because both commits are children of `1a23f5d`; therefore this row records an unreachable sibling rather than a verifier in the resulting history. If this commit is merged by itself, the ledger cannot recover that verifier through `main`, and the accompanying work record's direct-parent claim is false. Rebuild this ledger commit on top of the verifier (or otherwise merge that verifier into its ancestry).\n\nUseful? React with \ud83d\udc4d\u00a0/ \ud83d\udc4e.",
+              "url": "https://github.com/hellotext/help/pull/325#discussion_r4154322424",
+              "path": "docs/editorial-work/progress.csv",
+              "originalCommit": {
+                "oid": "26822f159518a4fa49f2242227f4a460939d4e1e"
+              }
+            },
+            {
+              "id": "PRRC_kwDOIVbAxs73nkAF",
+              "body": "The actual GitHub head is `26822f159518a4fa49f2242227f4a460939d4e1e`, whose sole direct parent is the recorded verifier `08b588f6786c857070e350aeaa6396d85bcc004c`. GitHub git/commits returns that exact parent, matching local `git show --format='%H %P'`. `git merge-base --is-ancestor 08b588f6786c857070e350aeaa6396d85bcc004c 26822f159518a4fa49f2242227f4a460939d4e1e` exits 0. The PR retains both individual commits, so the verifier is reachable before merging and remains an ancestor after the required merge commit.\n\nThe finding instead checks `6b01e81c1a8bf5195eddf4932bc72aa1d7d99a51`, which is not this PR's head. No ancestry repair or history rewrite is warranted. The ledger row and direct-parent claim match the actual local and GitHub history. Resolving this false positive against the exact GitHub head; please review the actual PR head.",
+              "url": "https://github.com/hellotext/help/pull/325#discussion_r4154343429",
+              "path": "docs/editorial-work/progress.csv",
+              "originalCommit": {
+                "oid": "26822f159518a4fa49f2242227f4a460939d4e1e"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "all_actual_comments_reviews_threads_read": true
+  },
+  "preview_verification": {
+    "head": "26822f159518a4fa49f2242227f4a460939d4e1e",
+    "preview_url": "https://deploy-preview-325--legendary-lollipop-e2d131.netlify.app",
+    "deployment": {
+      "id": "6abe330c899c5e00088020b0",
+      "context": "deploy-preview",
+      "commit_ref": "26822f159518a4fa49f2242227f4a460939d4e1e",
+      "state": "ready",
+      "review_id": 325
+    },
+    "pages": [
+      {
+        "url": "https://deploy-preview-325--legendary-lollipop-e2d131.netlify.app/es/conceptos-basicos-editor-mensajes",
+        "status": 200,
+        "article_key": "numbers/message-editor-basics.md",
+        "locale": "es",
+        "figures": 2,
+        "sections": 4,
+        "approved_assets_present": [
+          "/images/numbers/message-editor-basics/format-es.png",
+          "/images/numbers/message-editor-basics/format-es-mobile.png",
+          "/images/numbers/message-editor-basics/link-es.png",
+          "/images/numbers/message-editor-basics/link-es-mobile.png"
+        ],
+        "complete_article_matches_verified_build": true,
+        "article_sha256": "d0cad3f00bff26f6d0f94acde306880c3bd73308753b5c6f298043e33cb6b29f",
+        "html_sha256": "1f122de5daa5057fac738b2f1baf086ad4eedd4d3a8c0f7e050379e52ec3dd7c"
+      },
+      {
+        "url": "https://deploy-preview-325--legendary-lollipop-e2d131.netlify.app/message-editor-basics",
+        "status": 200,
+        "article_key": "numbers/message-editor-basics.md",
+        "locale": "en",
+        "figures": 2,
+        "sections": 4,
+        "approved_assets_present": [
+          "/images/numbers/message-editor-basics/format-en.png",
+          "/images/numbers/message-editor-basics/format-en-mobile.png",
+          "/images/numbers/message-editor-basics/link-en.png",
+          "/images/numbers/message-editor-basics/link-en-mobile.png"
+        ],
+        "complete_article_matches_verified_build": true,
+        "article_sha256": "ed0cce115261f5a3fa5311c52c935fcc2c5e3c7bfdf844dc80dc0106d73d84cc",
+        "html_sha256": "f5b6a2ae7bfed1f0eb023d86cbb6cf5965e3058f803440db95b315d70b9ee8a5"
+      }
+    ],
+    "assets": [
+      {
+        "url": "https://deploy-preview-325--legendary-lollipop-e2d131.netlify.app/images/numbers/message-editor-basics/format-es.png",
+        "status": 200,
+        "sha256": "7c7077129a2901111f67109eb367a5bb54220ac11838f50b61e29b48a1603a1e",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-325--legendary-lollipop-e2d131.netlify.app/images/numbers/message-editor-basics/format-es-mobile.png",
+        "status": 200,
+        "sha256": "eb624ee9580528cbc670313af7dea68bbe6a29ce42ea23c6747668029dce73b1",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-325--legendary-lollipop-e2d131.netlify.app/images/numbers/message-editor-basics/link-es.png",
+        "status": 200,
+        "sha256": "ecae4a8faae7de2738bdea87c8ea1896e7cf62303c129769905b2050f8ffe288",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-325--legendary-lollipop-e2d131.netlify.app/images/numbers/message-editor-basics/link-es-mobile.png",
+        "status": 200,
+        "sha256": "e0d87adab619006f594d72e9bd1590f79bdc8bf1333fb272bdcfcd4ff672d4f5",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-325--legendary-lollipop-e2d131.netlify.app/images/numbers/message-editor-basics/format-en.png",
+        "status": 200,
+        "sha256": "2817aa394f2917c9e5faa0bc2e2a9eeebacdc62ba872e727b33f03c0c05d9d9a",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-325--legendary-lollipop-e2d131.netlify.app/images/numbers/message-editor-basics/format-en-mobile.png",
+        "status": 200,
+        "sha256": "3754139f79d32c654e2bbcae936acfe841df4f4d687b33013e39ee6a5fd6643a",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-325--legendary-lollipop-e2d131.netlify.app/images/numbers/message-editor-basics/link-en.png",
+        "status": 200,
+        "sha256": "ee72b8b34eec69b1161ad3fc71b2b51aff5fc1abc6b597b15c6f5f89a6837f07",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-325--legendary-lollipop-e2d131.netlify.app/images/numbers/message-editor-basics/link-en-mobile.png",
+        "status": 200,
+        "sha256": "51ea1259208d02a2e908389187c37282e68d5b2e3cd8e80550257fc043c6a9fe",
+        "matches_approved_asset": true,
+        "reused": false
+      }
+    ]
+  }
+}

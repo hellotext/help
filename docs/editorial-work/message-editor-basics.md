@@ -20,8 +20,38 @@ Only safe local GET, DOM fictional return text/static URL, actual shortcuts and 
 
 ## Local verification
 
-Complete ES/EN article pixels reviewed at1440/390/580px, all four headings, both figures and footer; full-column static lavender stages, native logical-width+18px caps, no page overflow or source enlargement. Source/asset/root-build/ES-build PNG hashes, pixels and P3 ICC profiles match. Normal build/security headers passed, docs excluded, diff check clean. No CSS/migration tests or app/renderer changes. Original snapshots/headings/stub/title/slugs/locales/publication preserved, redundant inline SVG removed as prior screenshot checkpoint requires, source asset intact. No outstanding article visual debt. Protected publication workflow remains pending.
+Complete ES/EN article pixels reviewed at1440/390/580px, all four headings, both figures and footer; full-column static lavender stages, native logical-width+18px caps, no page overflow or source enlargement. Source/asset/root-build/ES-build PNG hashes, pixels and P3 ICC profiles match. Normal build/security headers passed, docs excluded, diff check clean. No CSS/migration tests or app/renderer changes. Original snapshots/headings/stub/title/slugs/locales/publication preserved, redundant inline SVG removed as prior screenshot checkpoint requires, source asset intact. No outstanding article visual debt. Protected publication workflow passed as recorded below.
 
 ## Ledger checkpoint
 
-Local verifier `08b588f6786c857070e350aeaa6396d85bcc004c` contains the complete reviewed bilingual article, eight approved native sources and local evidence. The ledger commit is its child, retaining the verifier as a main-reachable ancestor. Counts81 local_verified /72 pending /1 out_of_scope; public verification remains pending. Existing correction verifiers and protected campaign branch are preserved.
+Local verifier `08b588f6786c857070e350aeaa6396d85bcc004c` contains the complete reviewed bilingual article, eight approved native sources and local evidence. The ledger commit is its child, retaining the verifier as a main-reachable ancestor. Counts81 local_verified /72 pending /1 out_of_scope; public verification passed as recorded below. Existing correction verifiers and protected campaign branch are preserved.
+
+## Public verification — 2026-10-01
+
+Help [#325](https://github.com/hellotext/help/pull/325) merged by `558a931643f08be97c61bb5d743bcb550c84530a`, retaining both individual commits. Build/Aikido/Netlify preview/header checks passed on exact head `26822f159518a4fa49f2242227f4a460939d4e1e`. Independent review and every actual comment/review/thread were read before the separate merge call; zero unresolved findings or threads. The repeated P2 ancestry claim referenced a different commit; actual GitHub parents and local merge-base prove the verifier is the direct parent of the head. That thread was read, answered with evidence and resolved before a fresh exact-head review. No history was rewritten or omitted. Attachment attempted; the existing100-identity cap prevented it.
+
+Exact main [Build 36849370382](https://github.com/hellotext/help/actions/runs/36849370382) passed. Normal Netlify production `6abe35d6d0fa6d000898d08a` is ready/published at `2026-10-01T10:29:45.813Z`, with commit_ref `558a931643f08be97c61bb5d743bcb550c84530a` confirmed from the public site-alias list. No manual deployment. Both complete localized articles match the verified build; all eight new native PNGs returnedHTTP200 with approved hashes. No reused or duplicate asset upload.
+
+One original h3 and three h4, keyboard shortcuts, titles/slugs/stub/redirects/locales/publication and original snapshots preserved. Two complementary useful figures per language, eight new nativeP3 2× sources, three useful Help links and no executable examples. Prior #112 screenshot follow-up satisfied by removing redundant inline SVG markup after the full editor figure shows the chain button; the source SVG asset remains unchanged. Actual Command+B/I produce strong/em, SMS gateways use plain text, selection/focus/channel/paired versions and Link Add/Enter side effects documented. Preview/draft/link/click remain distinct from approval/consent/delivery/attribution. All19 source files reviewed;18 identical, current input_controller timing-only difference recorded.
+
+Full article pixels reviewed at1440/390/580px, intrinsic responsive dimensions, logical-width+18px caps642/464, static lavender stage, no source enlargement or page overflow. Link mobile430px shows complete controls without publishing the real390px clipping defect; no UI/renderer/CSS/pixel change. Isolated local Chrome9460/PID57358/P3/DPR2/zoom1, one Rails3192 tab and fictional owner with pre/post guards. Only safe GET, unsaved DOM text/URL and actual keyboard/link-tool opening. LocaleES restored in DB and visible UI; before/after fixture arrays identical. No Add/Enter/Save/Test/Send, saved template/version/approval, Link/ShortLink/message/event/fixture/API/example or worker.
+
+The content verifier `08b588f6786c857070e350aeaa6396d85bcc004c` is the direct parent of ledger `26822f159518a4fa49f2242227f4a460939d4e1e`; both are main ancestors. All81 verifiers and the prior token/Engaged corrections remain reachable.
+
+Pages:
+
+- [https://help.hellotext.com/es/conceptos-basicos-editor-mensajes](https://help.hellotext.com/es/conceptos-basicos-editor-mensajes) — HTTP200; complete verified article.
+- [https://help.hellotext.com/message-editor-basics](https://help.hellotext.com/message-editor-basics) — HTTP200; complete verified article.
+
+All eight new native PNGs, including every mobile variant:
+
+- [https://help.hellotext.com/images/numbers/message-editor-basics/format-es.png](https://help.hellotext.com/images/numbers/message-editor-basics/format-es.png) — HTTP200, new guarded capture, SHA256 `7c7077129a2901111f67109eb367a5bb54220ac11838f50b61e29b48a1603a1e`.
+- [https://help.hellotext.com/images/numbers/message-editor-basics/format-es-mobile.png](https://help.hellotext.com/images/numbers/message-editor-basics/format-es-mobile.png) — HTTP200, new guarded capture, SHA256 `eb624ee9580528cbc670313af7dea68bbe6a29ce42ea23c6747668029dce73b1`.
+- [https://help.hellotext.com/images/numbers/message-editor-basics/link-es.png](https://help.hellotext.com/images/numbers/message-editor-basics/link-es.png) — HTTP200, new guarded capture, SHA256 `ecae4a8faae7de2738bdea87c8ea1896e7cf62303c129769905b2050f8ffe288`.
+- [https://help.hellotext.com/images/numbers/message-editor-basics/link-es-mobile.png](https://help.hellotext.com/images/numbers/message-editor-basics/link-es-mobile.png) — HTTP200, new guarded capture, SHA256 `e0d87adab619006f594d72e9bd1590f79bdc8bf1333fb272bdcfcd4ff672d4f5`.
+- [https://help.hellotext.com/images/numbers/message-editor-basics/format-en.png](https://help.hellotext.com/images/numbers/message-editor-basics/format-en.png) — HTTP200, new guarded capture, SHA256 `2817aa394f2917c9e5faa0bc2e2a9eeebacdc62ba872e727b33f03c0c05d9d9a`.
+- [https://help.hellotext.com/images/numbers/message-editor-basics/format-en-mobile.png](https://help.hellotext.com/images/numbers/message-editor-basics/format-en-mobile.png) — HTTP200, new guarded capture, SHA256 `3754139f79d32c654e2bbcae936acfe841df4f4d687b33013e39ee6a5fd6643a`.
+- [https://help.hellotext.com/images/numbers/message-editor-basics/link-en.png](https://help.hellotext.com/images/numbers/message-editor-basics/link-en.png) — HTTP200, new guarded capture, SHA256 `ee72b8b34eec69b1161ad3fc71b2b51aff5fc1abc6b597b15c6f5f89a6837f07`.
+- [https://help.hellotext.com/images/numbers/message-editor-basics/link-en-mobile.png](https://help.hellotext.com/images/numbers/message-editor-basics/link-en-mobile.png) — HTTP200, new guarded capture, SHA256 `51ea1259208d02a2e908389187c37282e68d5b2e3cd8e80550257fc043c6a9fe`.
+
+Ledger:81 local_verified,72 pending,one out_of_scope. Public-record PR receives independent exact-head review, main Build, normal production and repeated public checks; final proof is recorded in a GitHub comment without recursive commits.
