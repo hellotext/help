@@ -1,0 +1,421 @@
+{
+  "url": "http://127.0.0.1:3192/hellotext/settings/members",
+  "title": "Tu Equipo",
+  "locale": "es",
+  "viewport": [
+    390,
+    844
+  ],
+  "dpr": 2,
+  "zoom": 1,
+  "scroll": [
+    0,
+    0
+  ],
+  "pageText": "D\nAJUSTES\nResumen\nAgente\nIntegraciones\nUso & Facturación\nNotificaciones\nAutorizaciones\nPlantillas\nCupones\nEquipo\nTiempo de respuesta\nObjetos\nAcciones\nEquipo\n\nSácale el máximo provecho invitando a tu equipo a colaborar.\n\nMiembros\nInvitaciones\nEquipo\nSSO\nOpciones\nDS\nDesign System\nDueño\nTú\nRespuesta al día\nCapacidad OK\n\ndesign-system@example.test\n\nLM\nLucía Méndez\nAgente\nRespuesta al día\nCapacidad OK\n\ndesign_system_reports_operations_5_0@example.test\n\nAjustes\nTransferir Propiedad\nEliminar\nDP\nDiego Pereira\nAgente\nRespuesta al día\nCapacidad OK\n\ndesign_system_reports_operations_5_1@example.test\n\nVR\nValentina Rojas\nAgente\nRespuesta al día\nCapacidad OK\n\ndesign_system_reports_operations_5_2@example.test\n\nMS\nMateo Silva\nAgente\nRespuesta al día\nCapacidad OK\n\ndesign_system_reports_operations_5_3@example.test\n\nLD\nLucía Demo carga\nAgente\nRespuesta al día\nCapacidad OK\n\neditorial_workload_20260928_low_a@example.test\n\nMD\nMateo Demo carga\nAgente\nRespuesta al día\nCapacidad OK\n\neditorial_workload_20260928_low_b@example.test\n\nSD\nSara Demo carga\nAgente\nRespuesta vencida\nCapacidad OK\n\neditorial_workload_20260928_high@example.test\n\nTD\nTomás Demo carga\nAgente\nRespuesta al día\nCapacidad OK\n\neditorial_workload_20260928_watch@example.test\n\nInvitar a un miembro del equipo\n¿Estás seguro de transferir la propiedad de Enterprise\n\nLa transferencia estará pendiente hasta que Lucía Méndez acepte la invitación\n\nIngresa tu contraseña para confirmar\nContinuar\nCancelar",
+  "controls": [
+    {
+      "tag": "UL",
+      "text": "DS\nDesign System\nDueño\nTú\nRespuesta al día\nCapacidad OK\n\ndesign-system@example.test\n\nLM\nLucía Méndez\nAgente\nRespuesta al día\nCapacidad OK\n\ndesign_system_reports_operations_5_0@example.test\n\nAjustes\nTransferir Propiedad\nEliminar\nDP\nDiego Pereira\nAgente\nRespuesta al día\nCapacidad OK\n\ndesign_system_reports_operations_5_1@example.test\n\nVR\nValentina Rojas\nAgente\nRespuesta al día\nCapacidad OK\n\ndesign_system_reports_operations_5_2@example.test\n\nMS\nMateo Silva\nAgente\nRespuesta al día\nCapacidad OK\n\ndesign_system_reports_operations_5_3@example.test\n\nLD\nLucía Demo carga\nAgente\nRespuesta al día\nCapacidad OK\n\neditorial_workload_20260928_low_a@example.test\n\nMD\nMateo Demo carga\nAgente\nRespuesta al día\nCapacidad OK\n\neditorial_workload_20260928_low_b@example.test\n\nSD\nSara Demo carga\nAgente\nRespuesta vencida\nCapacidad OK\n\neditorial_workload_20260928_high@example.test\n\nTD\nTomás Demo carga\nAgente\nRespuesta al día\nCapacidad OK\n\neditorial_workload_20260928_watch@example.test\n\nInvitar a un miembro del equipo",
+      "id": "users-container",
+      "role": null,
+      "action": null,
+      "rect": [
+        16,
+        530,
+        358,
+        1313
+      ]
+    },
+    {
+      "tag": "LI",
+      "text": "DS\nDesign System\nDueño\nTú\nRespuesta al día\nCapacidad OK\n\ndesign-system@example.test",
+      "id": "privilege_4ONLdN32",
+      "role": null,
+      "action": "",
+      "rect": [
+        16,
+        530,
+        358,
+        100
+      ]
+    },
+    {
+      "tag": "LI",
+      "text": "LM\nLucía Méndez\nAgente\nRespuesta al día\nCapacidad OK\n\ndesign_system_reports_operations_5_0@example.test\n\nAjustes\nTransferir Propiedad\nEliminar",
+      "id": "privilege_29D7LZXk",
+      "role": null,
+      "action": "keydown.esc@window->modal#close",
+      "rect": [
+        16,
+        650,
+        358,
+        121
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": "click->dropdown#toggle click@window->dropdown#hide",
+      "disabled": false,
+      "rect": [
+        352.40625,
+        710.203125,
+        21.59375,
+        21.59375
+      ]
+    },
+    {
+      "tag": "DIV",
+      "text": "Ajustes\nTransferir Propiedad\nEliminar",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        166,
+        530.203125,
+        192,
+        186
+      ]
+    },
+    {
+      "tag": "A",
+      "text": "Ajustes",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": null,
+      "href": "http://127.0.0.1:3192/hellotext/settings/members/29D7LZXk/edit",
+      "rect": [
+        189,
+        555.203125,
+        59.765625,
+        24
+      ]
+    },
+    {
+      "tag": "A",
+      "text": "Transferir Propiedad",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": null,
+      "href": "http://127.0.0.1:3192/hellotext/ownership/transfer?to=29D7LZXk",
+      "rect": [
+        175,
+        591.203125,
+        174,
+        64
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Eliminar",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": "click->modal#open",
+      "disabled": false,
+      "rect": [
+        175,
+        659.203125,
+        174,
+        40
+      ]
+    },
+    {
+      "tag": "LI",
+      "text": "DP\nDiego Pereira\nAgente\nRespuesta al día\nCapacidad OK\n\ndesign_system_reports_operations_5_1@example.test",
+      "id": "privilege_nMNaOZrd",
+      "role": null,
+      "action": "keydown.esc@window->modal#close",
+      "rect": [
+        16,
+        791,
+        358,
+        121
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": "click->dropdown#toggle click@window->dropdown#hide",
+      "disabled": false,
+      "rect": [
+        352.40625,
+        851.203125,
+        21.59375,
+        21.59375
+      ]
+    },
+    {
+      "tag": "LI",
+      "text": "VR\nValentina Rojas\nAgente\nRespuesta al día\nCapacidad OK\n\ndesign_system_reports_operations_5_2@example.test",
+      "id": "privilege_EqZvKQrp",
+      "role": null,
+      "action": "keydown.esc@window->modal#close",
+      "rect": [
+        16,
+        932,
+        358,
+        121
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": "click->dropdown#toggle click@window->dropdown#hide",
+      "disabled": false,
+      "rect": [
+        352.40625,
+        992.203125,
+        21.59375,
+        21.59375
+      ]
+    },
+    {
+      "tag": "LI",
+      "text": "MS\nMateo Silva\nAgente\nRespuesta al día\nCapacidad OK\n\ndesign_system_reports_operations_5_3@example.test",
+      "id": "privilege_31Qb3NX0",
+      "role": null,
+      "action": "keydown.esc@window->modal#close",
+      "rect": [
+        16,
+        1073,
+        358,
+        121
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": "click->dropdown#toggle click@window->dropdown#hide",
+      "disabled": false,
+      "rect": [
+        352.40625,
+        1133.203125,
+        21.59375,
+        21.59375
+      ]
+    },
+    {
+      "tag": "LI",
+      "text": "LD\nLucía Demo carga\nAgente\nRespuesta al día\nCapacidad OK\n\neditorial_workload_20260928_low_a@example.test",
+      "id": "privilege_PqQYxZ1a",
+      "role": null,
+      "action": "keydown.esc@window->modal#close",
+      "rect": [
+        16,
+        1214,
+        358,
+        121
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": "click->dropdown#toggle click@window->dropdown#hide",
+      "disabled": false,
+      "rect": [
+        352.40625,
+        1274.203125,
+        21.59375,
+        21.59375
+      ]
+    },
+    {
+      "tag": "LI",
+      "text": "MD\nMateo Demo carga\nAgente\nRespuesta al día\nCapacidad OK\n\neditorial_workload_20260928_low_b@example.test",
+      "id": "privilege_yzZwyN3A",
+      "role": null,
+      "action": "keydown.esc@window->modal#close",
+      "rect": [
+        16,
+        1355,
+        358,
+        121
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": "click->dropdown#toggle click@window->dropdown#hide",
+      "disabled": false,
+      "rect": [
+        352.40625,
+        1415.203125,
+        21.59375,
+        21.59375
+      ]
+    },
+    {
+      "tag": "LI",
+      "text": "SD\nSara Demo carga\nAgente\nRespuesta vencida\nCapacidad OK\n\neditorial_workload_20260928_high@example.test",
+      "id": "privilege_JwZVoQXo",
+      "role": null,
+      "action": "keydown.esc@window->modal#close",
+      "rect": [
+        16,
+        1496,
+        358,
+        121
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": "click->dropdown#toggle click@window->dropdown#hide",
+      "disabled": false,
+      "rect": [
+        352.40625,
+        1556.203125,
+        21.59375,
+        21.59375
+      ]
+    },
+    {
+      "tag": "LI",
+      "text": "TD\nTomás Demo carga\nAgente\nRespuesta al día\nCapacidad OK\n\neditorial_workload_20260928_watch@example.test",
+      "id": "privilege_KXNorQxM",
+      "role": null,
+      "action": "keydown.esc@window->modal#close",
+      "rect": [
+        16,
+        1637,
+        358,
+        121
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": "click->dropdown#toggle click@window->dropdown#hide",
+      "disabled": false,
+      "rect": [
+        352.40625,
+        1697.203125,
+        21.59375,
+        21.59375
+      ]
+    },
+    {
+      "tag": "MAIN",
+      "text": "¿Estás seguro de transferir la propiedad de Enterprise\n\nLa transferencia estará pendiente hasta que Lucía Méndez acepte la invitación\n\nIngresa tu contraseña para confirmar\nContinuar\nCancelar",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        19,
+        223,
+        352,
+        398
+      ]
+    },
+    {
+      "tag": "FORM",
+      "text": "Ingresa tu contraseña para confirmar\nContinuar\nCancelar",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        55,
+        407,
+        280,
+        158
+      ]
+    },
+    {
+      "tag": "LABEL",
+      "text": "Ingresa tu contraseña para confirmar",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        55,
+        407,
+        280,
+        48
+      ]
+    },
+    {
+      "tag": "INPUT",
+      "text": "",
+      "id": "password",
+      "name": "password",
+      "role": null,
+      "action": "input->form--submit-inactive#sync",
+      "disabled": false,
+      "value": "EMPTY",
+      "rect": [
+        55,
+        471,
+        280,
+        42
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Continuar",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": null,
+      "disabled": true,
+      "rect": [
+        55,
+        521,
+        126.2734375,
+        44
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Cancelar",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": "modal#close",
+      "disabled": false,
+      "rect": [
+        197.2734375,
+        521,
+        118.9140625,
+        44
+      ]
+    }
+  ],
+  "guard": {
+    "pid": 57358,
+    "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+    "port": 9460,
+    "one_local_page": true,
+    "account": "design-system@example.test",
+    "color_profile": "display-p3-d65",
+    "no_final_action": true
+  }
+}
