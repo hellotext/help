@@ -36,6 +36,36 @@ Complete ES/EN article pixels inspected at 1440/390/580px, including the identit
 
 Production build and security headers passed; git diff --check clean. Nine original headings, five subheadings, sixteen original links per locale, titles/slugs/stub/locales/publication preserved. Zero executable examples or app/DB/UI actions. Compared 31 read-only protected Rails5403a7dcb source files with current GitHub master a6a32d95a0b6cdbd63342100012413446aa2a2f5: identical. Source audit covers API identity/variants/price, importer and availability differences, fallback/cache, Meta eligibility/jobs, order-item amount semantics, events and uncertain writes. Official current Products API reference read without executing examples.
 
-Exact protected PR review, merge and public verification pending.
+Exact protected PR review, merge and public verification are recorded below.
 
 Local verifier `50dfa4510af32d1a51d47eb4639c477bea509d4d` records the final verified content before this separate ledger commit. Ledger: 74 local_verified, 79 pending, one out_of_scope; local verification is independent of public publication.
+
+## Public verification — 2026-10-01
+
+Help [#311](https://github.com/hellotext/help/pull/311) merged by `e53a735779da3667e2a55be3d263eaa093aa9cd3`, preserving all individual commits. Build/Aikido/Netlify preview/header checks passed on exact head `660eae55389b75a211fe0e56d1a4a6660dad9f9c`. Independent review and every actual comment/review/thread were read before the separate merge call; zero unresolved findings. Attachment was attempted and hit the existing 100-identity cap.
+
+Exact main [Build 36816199915](https://github.com/hellotext/help/actions/runs/36816199915) passed. Normal Netlify production `6abde4330dc3e00008b6c233` is ready/published at `2026-10-01T04:41:21.499Z`, with commit_ref `e53a735779da3667e2a55be3d263eaa093aa9cd3` verified in the public site-alias list. No manual deployment. Both complete localized articles match the verified build; all twelve reused PNGs returned HTTP200 with approved hashes. Zero new captures/uploads/duplicates; original UI source evidence and historical limitations remain intact.
+
+Nine original headings, five troubleshooting subsections, sixteen original internal links per locale, titles/slugs/stub/locales/publication preserved; no executable examples. Three figures per locale, native P3/2×, intrinsic dimensions/caps and no enlargement or page overflow at1440/390/580px. No executable examples or app/DB/UI/fixture/locale/permission/template/token/link/object/event/message/test/delivery/worker action.
+
+Pages:
+
+- [https://help.hellotext.com/es/sincronizacion-catalogo-productos](https://help.hellotext.com/es/sincronizacion-catalogo-productos) — HTTP200; complete verified article.
+- [https://help.hellotext.com/product-catalog-synchronization](https://help.hellotext.com/product-catalog-synchronization) — HTTP200; complete verified article.
+
+Approved reused native PNGs, including every small/mobile variant:
+
+- [https://help.hellotext.com/images/developers/products-and-inventory-with-api/identity-es.png](https://help.hellotext.com/images/developers/products-and-inventory-with-api/identity-es.png) — HTTP200, reused without duplicate upload, SHA256 `cad5dac8389b4545324ad7b0d2cdc0c1cfd2d04a476b42f7bf5110530cc50f43`.
+- [https://help.hellotext.com/images/developers/products-and-inventory-with-api/identity-es-mobile.png](https://help.hellotext.com/images/developers/products-and-inventory-with-api/identity-es-mobile.png) — HTTP200, reused without duplicate upload, SHA256 `e59c825526ab948c121cde309ff647e98d8b8b015546116fe91e5cdf15ebdb00`.
+- [https://help.hellotext.com/images/developers/products-and-inventory-with-api/price-es.png](https://help.hellotext.com/images/developers/products-and-inventory-with-api/price-es.png) — HTTP200, reused without duplicate upload, SHA256 `b02b57decfb690fdbcd3cc26f8972fe0933c6d190ca0d5eb848ae25fadcafb31`.
+- [https://help.hellotext.com/images/developers/products-and-inventory-with-api/price-es-mobile.png](https://help.hellotext.com/images/developers/products-and-inventory-with-api/price-es-mobile.png) — HTTP200, reused without duplicate upload, SHA256 `2e7469ff34da4443c11ae232f485b4306330a4446a56e970d1c0d8012396906a`.
+- [https://help.hellotext.com/images/developers/products-and-inventory-with-api/identity-en.png](https://help.hellotext.com/images/developers/products-and-inventory-with-api/identity-en.png) — HTTP200, reused without duplicate upload, SHA256 `0ad4775d9bd3d743c1aa60c89c9db36609032046126386e77710f41b682c78e8`.
+- [https://help.hellotext.com/images/developers/products-and-inventory-with-api/identity-en-mobile.png](https://help.hellotext.com/images/developers/products-and-inventory-with-api/identity-en-mobile.png) — HTTP200, reused without duplicate upload, SHA256 `ee47e9bab2033b8dc413e0eb63a5d89ad5f65f322dd07b4431e864677a332b60`.
+- [https://help.hellotext.com/images/developers/products-and-inventory-with-api/price-en.png](https://help.hellotext.com/images/developers/products-and-inventory-with-api/price-en.png) — HTTP200, reused without duplicate upload, SHA256 `d7def7c8355e24a8cf478cc1905d9dd4ff37d40fff2a315fb900181eea56b17d`.
+- [https://help.hellotext.com/images/developers/products-and-inventory-with-api/price-en-mobile.png](https://help.hellotext.com/images/developers/products-and-inventory-with-api/price-en-mobile.png) — HTTP200, reused without duplicate upload, SHA256 `4236f24c45cd0b7ac0d8a6b9e00f4ab0752ba0e5fe04e46adf6e08711e4e589d`.
+- [https://help.hellotext.com/images/developers/orders-with-api/items-es.png](https://help.hellotext.com/images/developers/orders-with-api/items-es.png) — HTTP200, reused without duplicate upload, SHA256 `f611245a1d66aa6cd275bf88e30698e848fb2bd49ceccf0e15616c2edec3c70e`.
+- [https://help.hellotext.com/images/developers/orders-with-api/items-es-mobile.png](https://help.hellotext.com/images/developers/orders-with-api/items-es-mobile.png) — HTTP200, reused without duplicate upload, SHA256 `4782e26f8bb5637edf966420305bacc12904ae3a2c3866e24d3327b208001b17`.
+- [https://help.hellotext.com/images/developers/orders-with-api/items-en.png](https://help.hellotext.com/images/developers/orders-with-api/items-en.png) — HTTP200, reused without duplicate upload, SHA256 `46b89c503b1072a817323ace28c05e6fa61b54378e73594d1daa0340e7a5e786`.
+- [https://help.hellotext.com/images/developers/orders-with-api/items-en-mobile.png](https://help.hellotext.com/images/developers/orders-with-api/items-en-mobile.png) — HTTP200, reused without duplicate upload, SHA256 `5791065f10d0bb10d6edaaf628176b5a7e953e8a2b58af7f56964828478c013e`.
+
+Ledger:74 local_verified,79 pending,1 out_of_scope; every verifier and prior correction remains an ancestor of main. The public-record PR gets its own exact review/main Build/normal production and repeated public checks, recorded in a GitHub comment without recursive commits.
