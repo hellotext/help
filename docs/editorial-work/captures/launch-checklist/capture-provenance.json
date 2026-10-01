@@ -1,0 +1,750 @@
+{
+  "status": "local_verified_publication_pending",
+  "article_key": "getting-started/launch-checklist.md",
+  "baseline_main": "af815c0e776b9fd45dbefa714379fd8ec2b7ee52",
+  "originals": [
+    {
+      "article": "_i18n/es/getting-started/launch-checklist.md",
+      "snapshot": "docs/editorial-work/captures/launch-checklist/originals/es.md",
+      "sha256": "4061c2a7ba849ba4c95742b2c0f2095ad2fdced255f9adad2a0dbc197fcf689d"
+    },
+    {
+      "article": "_i18n/en/getting-started/launch-checklist.md",
+      "snapshot": "docs/editorial-work/captures/launch-checklist/originals/en.md",
+      "sha256": "89875eba8327455b5289c9b77dc392a88912efb27a16c86c24f42067b373bfba"
+    },
+    {
+      "article": "_getting-started/launch-checklist.md",
+      "snapshot": "docs/editorial-work/captures/launch-checklist/originals/stub.md",
+      "sha256": "bf71a171d393701f764aefd59220b617df43b767db5165df882d9cd2aeb72b6c"
+    }
+  ],
+  "images": [
+    {
+      "name": "business-es",
+      "concept": "business",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/custom-store-integration/business-es-original.png",
+      "published_asset": "images/developers/custom-store-integration/business-es.png",
+      "native": {
+        "sha256": "17ec399500cee235d73459ced0de47fac99054987976a56f4e09603150ef5dfb",
+        "url": "http://127.0.0.1:3192/hellotext/settings",
+        "locale": "es",
+        "cssViewport": [
+          1200,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          308,
+          147,
+          868,
+          202
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1736,
+          404
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        868.0,
+        202.0
+      ],
+      "intended_max_display_width_css": 868.0,
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-es-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved existing current source reused; launch-checklist publication pending.",
+      "reuse": true,
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json"
+    },
+    {
+      "name": "business-es-mobile",
+      "concept": "business",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/custom-store-integration/business-es-mobile-original.png",
+      "published_asset": "images/developers/custom-store-integration/business-es-mobile.png",
+      "native": {
+        "sha256": "0c7ac4c233075fa5d072e27ac33e7947092bf6406858524ab12fa546be553ed8",
+        "url": "http://127.0.0.1:3192/hellotext/settings",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          8,
+          336,
+          374,
+          262
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          748,
+          524
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        374.0,
+        262.0
+      ],
+      "intended_max_display_width_css": 374.0,
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-es-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved existing current source reused; launch-checklist publication pending.",
+      "reuse": true,
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json"
+    },
+    {
+      "name": "business-en",
+      "concept": "business",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/custom-store-integration/business-en-original.png",
+      "published_asset": "images/developers/custom-store-integration/business-en.png",
+      "native": {
+        "sha256": "1f7f132b2245056eda5166b1b1cfdbeee406ebcf7bad4a13a6eb3fd501184d7f",
+        "url": "http://127.0.0.1:3192/hellotext/settings",
+        "locale": "en",
+        "cssViewport": [
+          1200,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          308,
+          147,
+          868,
+          202
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1736,
+          404
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        868.0,
+        202.0
+      ],
+      "intended_max_display_width_css": 868.0,
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-en-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved existing current source reused; launch-checklist publication pending.",
+      "reuse": true,
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json"
+    },
+    {
+      "name": "business-en-mobile",
+      "concept": "business",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/custom-store-integration/business-en-mobile-original.png",
+      "published_asset": "images/developers/custom-store-integration/business-en-mobile.png",
+      "native": {
+        "sha256": "c7badab42d6878393ab746c2950605b8153dc38d60ac1ae09c747a949706bfeb",
+        "url": "http://127.0.0.1:3192/hellotext/settings",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          8,
+          336,
+          374,
+          262
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          748,
+          524
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        374.0,
+        262.0
+      ],
+      "intended_max_display_width_css": 374.0,
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-en-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved existing current source reused; launch-checklist publication pending.",
+      "reuse": true,
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json"
+    },
+    {
+      "name": "details-es",
+      "concept": "details",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/orders-with-api/details-es-original.png",
+      "published_asset": "images/developers/orders-with-api/details-es.png",
+      "native": {
+        "output": "/private/tmp/hellotext-orders-api-guide/native/details-es.png",
+        "sha256": "ce7071cd6129d589df554b45f6ead105ef20ce3b1b4eeaf6eace613f34b4bb00",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/BbZzpNd9/instances",
+        "locale": "es",
+        "cssViewport": [
+          1400,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          897,
+          0,
+          503,
+          457
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1006,
+          914
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        503,
+        457
+      ],
+      "intended_max_display_width_css": 503,
+      "ui_evidence": "docs/editorial-work/captures/orders-with-api/details-es-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "reuse": true,
+      "publication_status": "Approved existing current source reused; launch-checklist publication pending.",
+      "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json"
+    },
+    {
+      "name": "details-es-mobile",
+      "concept": "details",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/orders-with-api/details-es-mobile-original.png",
+      "published_asset": "images/developers/orders-with-api/details-es-mobile.png",
+      "native": {
+        "output": "/private/tmp/hellotext-orders-api-guide/native/details-es-mobile.png",
+        "sha256": "002115693247a8d96672d24a28406f0c452db72eb2df13ad721a9f3d12102ad9",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/BbZzpNd9/instances",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1,
+          0,
+          389,
+          457
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          778,
+          914
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        389,
+        457
+      ],
+      "intended_max_display_width_css": 389,
+      "ui_evidence": "docs/editorial-work/captures/orders-with-api/details-es-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "reuse": true,
+      "publication_status": "Approved existing current source reused; launch-checklist publication pending.",
+      "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json"
+    },
+    {
+      "name": "details-en",
+      "concept": "details",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/orders-with-api/details-en-original.png",
+      "published_asset": "images/developers/orders-with-api/details-en.png",
+      "native": {
+        "output": "/private/tmp/hellotext-orders-api-guide/native/details-en.png",
+        "sha256": "b728ba41fdd9c004408a7153f0f8f9a0bfc6634d0d9e44485db3dfc7b120b08b",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/BbZzpNd9/instances",
+        "locale": "en",
+        "cssViewport": [
+          1400,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          897,
+          0,
+          503,
+          457
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1006,
+          914
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        503,
+        457
+      ],
+      "intended_max_display_width_css": 503,
+      "ui_evidence": "docs/editorial-work/captures/orders-with-api/details-en-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "reuse": true,
+      "publication_status": "Approved existing current source reused; launch-checklist publication pending.",
+      "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json"
+    },
+    {
+      "name": "details-en-mobile",
+      "concept": "details",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/orders-with-api/details-en-mobile-original.png",
+      "published_asset": "images/developers/orders-with-api/details-en-mobile.png",
+      "native": {
+        "output": "/private/tmp/hellotext-orders-api-guide/native/details-en-mobile.png",
+        "sha256": "8d44d00464fcffb4c98684b550a95fd7df0a64360333a384e3d6eefca81d44c0",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/BbZzpNd9/instances",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1,
+          0,
+          389,
+          457
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          778,
+          914
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        389,
+        457
+      ],
+      "intended_max_display_width_css": 389,
+      "ui_evidence": "docs/editorial-work/captures/orders-with-api/details-en-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "reuse": true,
+      "publication_status": "Approved existing current source reused; launch-checklist publication pending.",
+      "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json"
+    },
+    {
+      "name": "form-en",
+      "concept": "form",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/forms/ui-refresh/preview-en.png",
+      "published_asset": "images/captures/forms/ui-refresh/en/preview.png",
+      "native": {
+        "sha256": "fd99e7e004f2a1a0a084405aef1191469e23a7f034c83374caad6a38d48cc0e6",
+        "url": "http://127.0.0.1:3192/hellotext/captures/forms/3oDXBQG4/edit",
+        "locale": "en",
+        "cssViewport": [
+          1400,
+          1100
+        ],
+        "browserDpr": 2,
+        "clip": [
+          464,
+          152,
+          472,
+          346
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          944,
+          692
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP",
+        "file": "preview-en.png",
+        "asset": "/images/captures/forms/ui-refresh/en/preview.png"
+      },
+      "logical_size": [
+        472,
+        346
+      ],
+      "intended_max_display_width_css": 472,
+      "ui_evidence": "docs/editorial-work/captures/forms/ui-refresh/preview-en-ui.json",
+      "original_provenance": "docs/editorial-work/captures/forms/ui-refresh/capture-provenance.json",
+      "original_state": "Existing fictional form 3oDXBQG4 remains draft with no submissions, coupon or journey; centered heading and SMS-matched consent notice.",
+      "responsive_decision": "Same complete native preview is legible on mobile when scaled down; no separate mobile capture exists or is needed.",
+      "reuse": true,
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved existing current source reused; launch-checklist publication pending."
+    },
+    {
+      "name": "form-es",
+      "concept": "form",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/forms/ui-refresh/preview-es.png",
+      "published_asset": "images/captures/forms/ui-refresh/es/preview.png",
+      "native": {
+        "sha256": "8caa6c2618d9dfbff44dd7c9b5dc6048dd37020cc58e6b12479549be749550b2",
+        "url": "http://127.0.0.1:3192/hellotext/captures/forms/3oDXBQG4/edit",
+        "locale": "es",
+        "cssViewport": [
+          1400,
+          1100
+        ],
+        "browserDpr": 2,
+        "clip": [
+          464,
+          152,
+          472,
+          390
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          944,
+          780
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP",
+        "file": "preview-es.png",
+        "asset": "/images/captures/forms/ui-refresh/es/preview.png"
+      },
+      "logical_size": [
+        472,
+        390
+      ],
+      "intended_max_display_width_css": 472,
+      "ui_evidence": "docs/editorial-work/captures/forms/ui-refresh/preview-es-ui.json",
+      "original_provenance": "docs/editorial-work/captures/forms/ui-refresh/capture-provenance.json",
+      "original_state": "Existing fictional form 3oDXBQG4 remains draft with no submissions, coupon or journey; centered heading and SMS-matched consent notice.",
+      "responsive_decision": "Same complete native preview is legible on mobile when scaled down; no separate mobile capture exists or is needed.",
+      "reuse": true,
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved existing current source reused; launch-checklist publication pending."
+    },
+    {
+      "name": "handoff-es",
+      "concept": "handoff",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/property-collector/handoff-es.png",
+      "published_asset": "images/captures/property-collector/handoff-es.png",
+      "native": {
+        "sha256": "ef1c8abc4712dacc2effa83f6c968dd4a9453a5b1be059609a877a91e1693356",
+        "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+        "title": "Nueva misión Recolector de Propiedades | Hellotext",
+        "cssViewport": [
+          1200,
+          1000
+        ],
+        "clip": [
+          50,
+          100,
+          575,
+          330
+        ],
+        "pixelSize": [
+          1150,
+          660
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3 Gamut with sRGB Transfer",
+        "route": "isolated Chrome compositor via loopback CDP"
+      },
+      "logical_size": [
+        575,
+        330
+      ],
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "original_state": "Unsaved escalation control with fictional team Atención demo selected",
+      "reuse": true,
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved existing current source reused; launch-checklist publication pending."
+    },
+    {
+      "name": "handoff-en",
+      "concept": "handoff",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/property-collector/handoff-en.png",
+      "published_asset": "images/captures/property-collector/handoff-en.png",
+      "native": {
+        "sha256": "0c5506ceed87f6ed0c9e57a4969d80cee2dc41f04ab25b04969917ab3f3bdfe9",
+        "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+        "title": "New Property Collector playbook | Hellotext",
+        "cssViewport": [
+          1200,
+          1000
+        ],
+        "clip": [
+          50,
+          100,
+          575,
+          330
+        ],
+        "pixelSize": [
+          1150,
+          660
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3 Gamut with sRGB Transfer",
+        "route": "isolated Chrome compositor via loopback CDP"
+      },
+      "logical_size": [
+        575,
+        330
+      ],
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "original_state": "Unsaved escalation control with fictional team Atención demo selected",
+      "reuse": true,
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved existing current source reused; launch-checklist publication pending."
+    },
+    {
+      "name": "handoff-es-mobile",
+      "concept": "handoff",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/property-collector/handoff-es-mobile.png",
+      "published_asset": "images/captures/property-collector/handoff-es-mobile.png",
+      "native": {
+        "sha256": "4f252e8b5d86ad772df8b7f979ae8d61de1970ff36f7110f5f1e0b1b5867b2cc",
+        "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+        "title": "Nueva misión Recolector de Propiedades | Hellotext",
+        "cssViewport": [
+          390,
+          1000
+        ],
+        "clip": [
+          0,
+          120,
+          390,
+          340
+        ],
+        "pixelSize": [
+          780,
+          680
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3 Gamut with sRGB Transfer",
+        "route": "isolated Chrome compositor via loopback CDP"
+      },
+      "logical_size": [
+        390,
+        340
+      ],
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "original_state": "Focused responsive mobile control using unsaved fictional editor state",
+      "reuse": true,
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved existing current source reused; launch-checklist publication pending."
+    },
+    {
+      "name": "handoff-en-mobile",
+      "concept": "handoff",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/property-collector/handoff-en-mobile.png",
+      "published_asset": "images/captures/property-collector/handoff-en-mobile.png",
+      "native": {
+        "sha256": "97bad463814d7ec88c224ea32ccf6500c65c8eed86a39ef83cd8fba79d2f3793",
+        "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+        "title": "New Property Collector playbook | Hellotext",
+        "cssViewport": [
+          390,
+          1000
+        ],
+        "clip": [
+          0,
+          120,
+          390,
+          340
+        ],
+        "pixelSize": [
+          780,
+          680
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3 Gamut with sRGB Transfer",
+        "route": "isolated Chrome compositor via loopback CDP"
+      },
+      "logical_size": [
+        390,
+        340
+      ],
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "original_state": "Focused responsive mobile control using unsaved fictional editor state",
+      "reuse": true,
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved existing current source reused; launch-checklist publication pending."
+    }
+  ],
+  "new_captures": 0,
+  "new_png_uploads": 0,
+  "content_sources": [
+    "https://whatsappbusiness.com/policy/"
+  ],
+  "source_audit": {
+    "rails_revision": "5403a7dcb567b63cae87d4c088112d65fad4eb7f",
+    "rails_files": [
+      {
+        "path": "app/views/businesses/_show.html.erb",
+        "sha256": "2dd28dcfb5fba84b741d519d6d4932664c9b69f30f293f730a505d6ec35db8fc"
+      },
+      {
+        "path": "app/controllers/businesses_controller.rb",
+        "sha256": "63dbd02151e460a8065f355609aa3a146dde608e2a3017e23113599567e5bf54"
+      },
+      {
+        "path": "app/models/contact/audience_query.rb",
+        "sha256": "60f52b8f1c7efdf96838df053f7f45b2afb67b2d078fe8b299ca3380d45abcb6"
+      },
+      {
+        "path": "app/models/contact/reachability_query.rb",
+        "sha256": "01ed1128699969441e7dfed957a1b1542070fe986a71f6c1fc083943c70c486a"
+      },
+      {
+        "path": "app/models/segment.rb",
+        "sha256": "931acd44ea191c72352369fd7f0719b408e6d321b0a89c0e9ccd92e29acc3b8e"
+      },
+      {
+        "path": "app/models/capture.rb",
+        "sha256": "b2a2889447a6b5aad16465d360d6f1d24a6bfe7b81d860c95a583acb984038e3"
+      },
+      {
+        "path": "app/models/artifact/form.rb",
+        "sha256": "2ea3f743af43f76e153214d7ec98b9151e19327f6c1b989a199fadcda5295cbb"
+      },
+      {
+        "path": "app/controllers/forms_controller.rb",
+        "sha256": "59bd98fce2bcac1ab004d1b56b1c4a8553a4c594c5f676d01c4a2f5bd11d0be1"
+      },
+      {
+        "path": "app/models/playbook/runner/assignment.rb",
+        "sha256": "faf2405b8c915fb9afbbe3b1863323b186f75415a392f221f38217ce1246ad43"
+      },
+      {
+        "path": "app/policies/campaign_policy.rb",
+        "sha256": "3021bd27394428543a22429db77e7d0e11c077f4ec20f4e617f61fdfafab3cdc"
+      },
+      {
+        "path": "app/models/campaign/states.rb",
+        "sha256": "2fc6ad49a08fcc09eedccf326ca52b3396da29d93ee2c056ed0cc2ecc3c84fa3"
+      },
+      {
+        "path": "app/models/template.rb",
+        "sha256": "5580d861be9d1142c8c2bdf9ef1e1267ca88beffb7028a96c1fc4a088c24f825"
+      },
+      {
+        "path": "app/views/playbook/component/assignments/_form.html.erb",
+        "sha256": "796035fd7888972b730be52c701b0e76b0ab13bf41d7267efe29d96cfc979992"
+      },
+      {
+        "sha256": "bac75fe98deb1e0ee4c03c394b6c8d3e3f62ab862b9bb13bb568b7464199b598",
+        "path": "app/models/message/daily_rollup.rb"
+      },
+      {
+        "sha256": "b531244ddac2e671d2692f5152c1585925d301332050d82bef38f29d19a9a150",
+        "path": "app/models/report/channel_performance/README.md"
+      }
+    ],
+    "current_reuse": "Current approved Business ID, order details, Forms centered preview and handoff sources retain their original UI proof. Token-only #6054 does not change these views. No new browser app/DB fixture action or retroactive capture is claimed."
+  },
+  "protected_state": "Primary campaign branch and dirty Rails3191 preserved. No app/DB/UI/fixture/locale/token/template/link/object/event/message/test/send/worker action.",
+  "pending": [
+    "Protected checks/review, merge, exact main Build/normal production and public page/PNG verification"
+  ],
+  "local_verification": {
+    "evidence": "local-verification.json",
+    "full_page_browser_review": "page-review/",
+    "widths_css": [
+      1440,
+      390,
+      580
+    ],
+    "sections": 9,
+    "figures_per_locale": 4,
+    "examples_per_locale": 0,
+    "new_captures": 0,
+    "new_png_uploads": 0,
+    "publication_state": "pending"
+  }
+}
