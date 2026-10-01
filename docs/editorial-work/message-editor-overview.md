@@ -20,8 +20,42 @@ Complete ES/EN articles, all three sections/figures, related links and footer pi
 
 Thirty-eight primary Rails source files compared against current mastera6a32d95a0b6cdbd63342100012413446aa2a2f5:36 byte-identical; input_controller instrumentation and Inbox footer controller/template-contact/lazy-note differences inspected without changing protectedRails5403a7dcb. No new Inbox screenshot or identical-menu guarantee. Channel/tool/context/window differences, Message/Email, SMS actual plain-text gateways, static Link URL/Add/Enter side effects, profile versus context/fallback, playbook location exclusion and authorized isolated preflight reviewed. Existing captures retain their original account/route/native guards; no retroactive capture evidence. No application/DB/UI/locale/fixture/provider/API/example/token/template/link/message/event/test/send or worker action.
 
-Protected publication workflow remains pending.
+Protected publication workflow passed as recorded below.
 
 ## Ledger checkpoint
 
-Local verifier `7069de6a41a5082291dc259ab6cb19aabc7fdd38` contains the complete bilingual article, approved source references and local visual/build/hash evidence. The ledger commit is its child. Counts82 local_verified/71 pending/1 out_of_scope; public verification is still pending. Existing verifier commits and protected campaign branch preserved.
+Local verifier `7069de6a41a5082291dc259ab6cb19aabc7fdd38` contains the complete bilingual article, approved source references and local visual/build/hash evidence. The ledger commit is its child. Counts82 local_verified/71 pending/1 out_of_scope; public verification passed as recorded below. Existing verifier commits and protected campaign branch preserved.
+
+## Public verification — 2026-10-01
+
+Help [#327](https://github.com/hellotext/help/pull/327) merged by `530a87d854d50d926564368c683b31a8a42189c0`, preserving both individual commits and verifier `7069de6a41a5082291dc259ab6cb19aabc7fdd38`. Build/Aikido/Netlify preview/header checks passed on exact head `28cee3c3fda69087e1ca32b36864fb0fb8cb2938`. Independent review and every actual comment/review/thread were read before the separate merge call; zero unresolved findings and threads. Actual GitHub/local parents prove the verifier is the direct parent of the ledger head. The initial ancestry finding described alternate SHA `188e48c`, not the actual reviewed head. We read and replied to the finding with real parent and merge-base evidence, resolved the refuted thread and requested a fresh exact-head review, which was read in full. No history rewrite, squash, protection bypass or manual deployment. Attachment attempted; the existing 100-identity cap prevented it.
+
+Exact main [Build 36853660999](https://github.com/hellotext/help/actions/runs/36853660999) passed. Normal Netlify production `6abe3f8d2b3b040008af5709` is ready/published at `2026-10-01T11:11:18.459Z`, with matching commit_ref `530a87d854d50d926564368c683b31a8a42189c0` confirmed from the public site-alias listing. Both complete localized articles match the reviewed build. All twelve reused native PNGs returned HTTP 200 with approved hashes; zero new/duplicate image uploads or recaptures.
+
+Three original sections, five original links plus one checklist link, titles/slugs/stub/redirects/languages/publication and original snapshots preserved. Three useful figures per language from Message editor basics #325 and Personalization tags #207. Full pages reviewed at 1440/390/580 px with intrinsic dimensions, 2× descriptors, native-width+18px caps 642/464/818 px and static full-column lavender stages, no overflow/enlargement. Historical selector small variant is a focused desktop crop; original guards and account/route retained. No retroactive automation evidence or pixel edits.
+
+Thirty-eight primary Rails files compared with current master a6a32d95: 36 identical; input timing and Inbox footer changes inspected. Channel/context/window tool gating, Message/Email, SMS plain-text gateways, static Link URL/Add/Enter resource creation, profile/context/fallback and playbook location exclusion reviewed. Native figures show independent fictional unsaved states, not approved/delivered content, resolved values or created links. No application/DB/UI/locale/fixture/API/example/provider/token/template/link/message/event/test/send or worker action. Protected fixtures and primary campaign branch preserved.
+
+Pages:
+
+- [https://help.hellotext.com/es/resumen-editor-mensajes](https://help.hellotext.com/es/resumen-editor-mensajes) — HTTP 200; complete verified article.
+- [https://help.hellotext.com/message-editor-overview](https://help.hellotext.com/message-editor-overview) — HTTP 200; complete verified article.
+
+All twelve reused PNGs, including every small variant; no duplicate uploads:
+
+- [https://help.hellotext.com/images/numbers/message-editor-basics/format-es.png](https://help.hellotext.com/images/numbers/message-editor-basics/format-es.png) — HTTP 200, reused original, SHA256 `7c7077129a2901111f67109eb367a5bb54220ac11838f50b61e29b48a1603a1e`.
+- [https://help.hellotext.com/images/numbers/message-editor-basics/format-es-mobile.png](https://help.hellotext.com/images/numbers/message-editor-basics/format-es-mobile.png) — HTTP 200, reused original, SHA256 `eb624ee9580528cbc670313af7dea68bbe6a29ce42ea23c6747668029dce73b1`.
+- [https://help.hellotext.com/images/numbers/message-editor-basics/link-es.png](https://help.hellotext.com/images/numbers/message-editor-basics/link-es.png) — HTTP 200, reused original, SHA256 `ecae4a8faae7de2738bdea87c8ea1896e7cf62303c129769905b2050f8ffe288`.
+- [https://help.hellotext.com/images/numbers/message-editor-basics/link-es-mobile.png](https://help.hellotext.com/images/numbers/message-editor-basics/link-es-mobile.png) — HTTP 200, reused original, SHA256 `e0d87adab619006f594d72e9bd1590f79bdc8bf1333fb272bdcfcd4ff672d4f5`.
+- [https://help.hellotext.com/images/numbers/message-editor-basics/format-en.png](https://help.hellotext.com/images/numbers/message-editor-basics/format-en.png) — HTTP 200, reused original, SHA256 `2817aa394f2917c9e5faa0bc2e2a9eeebacdc62ba872e727b33f03c0c05d9d9a`.
+- [https://help.hellotext.com/images/numbers/message-editor-basics/format-en-mobile.png](https://help.hellotext.com/images/numbers/message-editor-basics/format-en-mobile.png) — HTTP 200, reused original, SHA256 `3754139f79d32c654e2bbcae936acfe841df4f4d687b33013e39ee6a5fd6643a`.
+- [https://help.hellotext.com/images/numbers/message-editor-basics/link-en.png](https://help.hellotext.com/images/numbers/message-editor-basics/link-en.png) — HTTP 200, reused original, SHA256 `ee72b8b34eec69b1161ad3fc71b2b51aff5fc1abc6b597b15c6f5f89a6837f07`.
+- [https://help.hellotext.com/images/numbers/message-editor-basics/link-en-mobile.png](https://help.hellotext.com/images/numbers/message-editor-basics/link-en-mobile.png) — HTTP 200, reused original, SHA256 `51ea1259208d02a2e908389187c37282e68d5b2e3cd8e80550257fc043c6a9fe`.
+- [https://help.hellotext.com/images/audience/personalization-tags/selector-es.png](https://help.hellotext.com/images/audience/personalization-tags/selector-es.png) — HTTP 200, reused original, SHA256 `4d6643bf45c2f0dfd93a6ccc5b29768837a5afb3096b49507e0bca8ebac8f5b7`.
+- [https://help.hellotext.com/images/audience/personalization-tags/selector-en.png](https://help.hellotext.com/images/audience/personalization-tags/selector-en.png) — HTTP 200, reused original, SHA256 `093890c7b90d3b942c1bf755a14dc0fc55be0a95668b687cf93bbfbfc6aad89b`.
+- [https://help.hellotext.com/images/audience/personalization-tags/selector-es-mobile.png](https://help.hellotext.com/images/audience/personalization-tags/selector-es-mobile.png) — HTTP 200, reused original, SHA256 `0e088a7435f7ffcd2a858a90d6aefb863eb0ba1d58692834f746724a10bedb35`.
+- [https://help.hellotext.com/images/audience/personalization-tags/selector-en-mobile.png](https://help.hellotext.com/images/audience/personalization-tags/selector-en-mobile.png) — HTTP 200, reused original, SHA256 `755d3c948f40c17a3f50d59e7477afafaaf5f859718308290e6dce4fd9ce92d3`.
+
+Ledger: 82 local_verified / 71 pending / one out_of_scope. Public-record PR receives independent exact-head review, exact main Build, normal production and repeated page/asset checks; final proof recorded in its GitHub comment without recursive commits.
+
+Record PR #328 review identified a stale `publication_state` in the linked local verification record. It now refers to the existing public proof, matching the publicly verified provenance. All other local visual/build/hash evidence, article bodies, source PNGs and original snapshots remain byte-identical. The corrected record head receives fresh independent review and all required checks before the separate merge call.
