@@ -1,5 +1,5 @@
 {
-  "status": "locally_verified",
+  "status": "publicly_verified",
   "article_key": "troubleshooting-deliverability/troubleshooting-overview.md",
   "base_revision": "44f1d491d459e1f43df52e4af38b5e0c274e9bb2",
   "originals": [
@@ -96,7 +96,7 @@
       "reused": true,
       "pixel_edits": "none in this batch",
       "capture_evidence": "Original retained native compositor guards; no retrospective capture claim.",
-      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_state": "publicly_verified",
       "historical_consumer_record": {
         "name": "business-es",
         "concept": "business",
@@ -124,7 +124,8 @@
       },
       "original_consumer_provenance": "docs/editorial-work/captures/setting-up-your-business/capture-provenance.json",
       "new_capture": false,
-      "publication_status": "Existing approved native asset reused unchanged; current consumer not yet publicly verified."
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "business-es-mobile",
@@ -148,7 +149,7 @@
       "reused": true,
       "pixel_edits": "none in this batch",
       "capture_evidence": "Original retained native compositor guards; no retrospective capture claim.",
-      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_state": "publicly_verified",
       "historical_consumer_record": {
         "name": "business-es-mobile",
         "concept": "business",
@@ -176,7 +177,8 @@
       },
       "original_consumer_provenance": "docs/editorial-work/captures/setting-up-your-business/capture-provenance.json",
       "new_capture": false,
-      "publication_status": "Existing approved native asset reused unchanged; current consumer not yet publicly verified."
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "business-en",
@@ -200,7 +202,7 @@
       "reused": true,
       "pixel_edits": "none in this batch",
       "capture_evidence": "Original retained native compositor guards; no retrospective capture claim.",
-      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_state": "publicly_verified",
       "historical_consumer_record": {
         "name": "business-en",
         "concept": "business",
@@ -228,7 +230,8 @@
       },
       "original_consumer_provenance": "docs/editorial-work/captures/setting-up-your-business/capture-provenance.json",
       "new_capture": false,
-      "publication_status": "Existing approved native asset reused unchanged; current consumer not yet publicly verified."
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "business-en-mobile",
@@ -252,7 +255,7 @@
       "reused": true,
       "pixel_edits": "none in this batch",
       "capture_evidence": "Original retained native compositor guards; no retrospective capture claim.",
-      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_state": "publicly_verified",
       "historical_consumer_record": {
         "name": "business-en-mobile",
         "concept": "business",
@@ -280,7 +283,8 @@
       },
       "original_consumer_provenance": "docs/editorial-work/captures/setting-up-your-business/capture-provenance.json",
       "new_capture": false,
-      "publication_status": "Existing approved native asset reused unchanged; current consumer not yet publicly verified."
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "origin-es",
@@ -327,9 +331,9 @@
       "pointer": "absent",
       "pixel_edits": "none in this batch",
       "reuse": false,
-      "publication_status": "Existing approved native asset reused unchanged; current consumer not yet publicly verified.",
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
       "original_provenance": "docs/editorial-work/captures/setup-push-notifications/capture-provenance.json",
-      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_state": "publicly_verified",
       "historical_consumer_record": {
         "name": "origin-es",
         "concept": "origin",
@@ -384,7 +388,8 @@
       "sha256": "fa59b9a6e10d67c3564f94e521167c033ca6919d38770e85479402e3626908d5",
       "source_density": 2,
       "reused": true,
-      "new_capture": false
+      "new_capture": false,
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "origin-es-mobile",
@@ -431,9 +436,9 @@
       "pointer": "absent",
       "pixel_edits": "none in this batch",
       "reuse": false,
-      "publication_status": "Existing approved native asset reused unchanged; current consumer not yet publicly verified.",
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
       "original_provenance": "docs/editorial-work/captures/setup-push-notifications/capture-provenance.json",
-      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_state": "publicly_verified",
       "historical_consumer_record": {
         "name": "origin-es-mobile",
         "concept": "origin",
@@ -488,7 +493,8 @@
       "sha256": "14c8a9c76ffe7998b42e154756d3030b572c2fb509cbcc7b5a91b40ed7b7bc43",
       "source_density": 2,
       "reused": true,
-      "new_capture": false
+      "new_capture": false,
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "origin-en",
@@ -535,9 +541,9 @@
       "pointer": "absent",
       "pixel_edits": "none in this batch",
       "reuse": false,
-      "publication_status": "Existing approved native asset reused unchanged; current consumer not yet publicly verified.",
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
       "original_provenance": "docs/editorial-work/captures/setup-push-notifications/capture-provenance.json",
-      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_state": "publicly_verified",
       "historical_consumer_record": {
         "name": "origin-en",
         "concept": "origin",
@@ -592,7 +598,8 @@
       "sha256": "dd56bbed90b8d9fc69ad9bae67f37f3eced0c3bc13211af14d27d8740a2b811f",
       "source_density": 2,
       "reused": true,
-      "new_capture": false
+      "new_capture": false,
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "origin-en-mobile",
@@ -639,9 +646,9 @@
       "pointer": "absent",
       "pixel_edits": "none in this batch",
       "reuse": false,
-      "publication_status": "Existing approved native asset reused unchanged; current consumer not yet publicly verified.",
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
       "original_provenance": "docs/editorial-work/captures/setup-push-notifications/capture-provenance.json",
-      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_state": "publicly_verified",
       "historical_consumer_record": {
         "name": "origin-en-mobile",
         "concept": "origin",
@@ -696,7 +703,8 @@
       "sha256": "bb8c060dad6b6ab9a1d07a5f94175f1b7463cec61d1c73e03908215cd8ff6d8e",
       "source_density": 2,
       "reused": true,
-      "new_capture": false
+      "new_capture": false,
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "summary-es",
@@ -758,12 +766,12 @@
         "Original desktop CSS viewport and browser zoom were not retained. Original native source and fixture evidence are preserved; no retrospective automatic guard is claimed."
       ],
       "capture_scope": "Existing approved native source/UI evidence retained; no recapture or retrospective guard assertion.",
-      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_state": "publicly_verified",
       "original_source_pixels": [
         2880,
         610
       ],
-      "publication_status": "Existing approved native asset reused unchanged; current consumer not yet publicly verified.",
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
       "historical_consumer_record": {
         "name": "summary-es",
         "concept": "summary",
@@ -833,7 +841,8 @@
         "publication_status": "Current consumer publicly verified using the existing approved native asset; no recapture, duplicate upload or pixel edit."
       },
       "original_consumer_provenance": "docs/editorial-work/captures/verify-data-and-signals/capture-provenance.json",
-      "new_capture": false
+      "new_capture": false,
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "summary-es-mobile",
@@ -888,8 +897,8 @@
       },
       "original_guard_limitations": [],
       "capture_scope": "Existing approved native source/UI evidence retained; no recapture or retrospective guard assertion.",
-      "consumer_publication_state": "not_yet_publicly_verified",
-      "publication_status": "Existing approved native asset reused unchanged; current consumer not yet publicly verified.",
+      "consumer_publication_state": "publicly_verified",
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
       "historical_consumer_record": {
         "name": "summary-es-mobile",
         "concept": "summary",
@@ -948,7 +957,8 @@
         "publication_status": "Current consumer publicly verified using the existing approved native asset; no recapture, duplicate upload or pixel edit."
       },
       "original_consumer_provenance": "docs/editorial-work/captures/verify-data-and-signals/capture-provenance.json",
-      "new_capture": false
+      "new_capture": false,
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "summary-en",
@@ -1010,12 +1020,12 @@
         "Original desktop CSS viewport and browser zoom were not retained. Original native source and fixture evidence are preserved; no retrospective automatic guard is claimed."
       ],
       "capture_scope": "Existing approved native source/UI evidence retained; no recapture or retrospective guard assertion.",
-      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_state": "publicly_verified",
       "original_source_pixels": [
         2880,
         610
       ],
-      "publication_status": "Existing approved native asset reused unchanged; current consumer not yet publicly verified.",
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
       "historical_consumer_record": {
         "name": "summary-en",
         "concept": "summary",
@@ -1085,7 +1095,8 @@
         "publication_status": "Current consumer publicly verified using the existing approved native asset; no recapture, duplicate upload or pixel edit."
       },
       "original_consumer_provenance": "docs/editorial-work/captures/verify-data-and-signals/capture-provenance.json",
-      "new_capture": false
+      "new_capture": false,
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "summary-en-mobile",
@@ -1140,8 +1151,8 @@
       },
       "original_guard_limitations": [],
       "capture_scope": "Existing approved native source/UI evidence retained; no recapture or retrospective guard assertion.",
-      "consumer_publication_state": "not_yet_publicly_verified",
-      "publication_status": "Existing approved native asset reused unchanged; current consumer not yet publicly verified.",
+      "consumer_publication_state": "publicly_verified",
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
       "historical_consumer_record": {
         "name": "summary-en-mobile",
         "concept": "summary",
@@ -1200,7 +1211,8 @@
         "publication_status": "Current consumer publicly verified using the existing approved native asset; no recapture, duplicate upload or pixel edit."
       },
       "original_consumer_provenance": "docs/editorial-work/captures/verify-data-and-signals/capture-provenance.json",
-      "new_capture": false
+      "new_capture": false,
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "catalog-es",
@@ -1245,7 +1257,7 @@
       "ui_evidence": "docs/editorial-work/captures/custom-actions/catalog-es-ui.json",
       "pointer": "absent",
       "pixel_edits": "none in this batch",
-      "publication_status": "Existing approved native asset reused unchanged; current consumer not yet publicly verified.",
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
       "historical_consumer_record": {
         "name": "catalog-es",
         "concept": "catalog",
@@ -1297,7 +1309,8 @@
       "source_density": 2,
       "reused": true,
       "new_capture": false,
-      "consumer_publication_state": "not_yet_publicly_verified"
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "catalog-es-mobile",
@@ -1341,7 +1354,7 @@
       "ui_evidence": "docs/editorial-work/captures/custom-actions/catalog-es-mobile-ui.json",
       "pointer": "absent",
       "pixel_edits": "none in this batch",
-      "publication_status": "Existing approved native asset reused unchanged; current consumer not yet publicly verified.",
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
       "historical_consumer_record": {
         "name": "catalog-es-mobile",
         "concept": "catalog",
@@ -1392,7 +1405,8 @@
       "source_density": 2,
       "reused": true,
       "new_capture": false,
-      "consumer_publication_state": "not_yet_publicly_verified"
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "catalog-en",
@@ -1437,7 +1451,7 @@
       "ui_evidence": "docs/editorial-work/captures/custom-actions/catalog-en-ui.json",
       "pointer": "absent",
       "pixel_edits": "none in this batch",
-      "publication_status": "Existing approved native asset reused unchanged; current consumer not yet publicly verified.",
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
       "historical_consumer_record": {
         "name": "catalog-en",
         "concept": "catalog",
@@ -1489,7 +1503,8 @@
       "source_density": 2,
       "reused": true,
       "new_capture": false,
-      "consumer_publication_state": "not_yet_publicly_verified"
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "catalog-en-mobile",
@@ -1533,7 +1548,7 @@
       "ui_evidence": "docs/editorial-work/captures/custom-actions/catalog-en-mobile-ui.json",
       "pointer": "absent",
       "pixel_edits": "none in this batch",
-      "publication_status": "Existing approved native asset reused unchanged; current consumer not yet publicly verified.",
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
       "historical_consumer_record": {
         "name": "catalog-en-mobile",
         "concept": "catalog",
@@ -1584,7 +1599,8 @@
       "source_density": 2,
       "reused": true,
       "new_capture": false,
-      "consumer_publication_state": "not_yet_publicly_verified"
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "concept": "roles",
@@ -1658,7 +1674,7 @@
       ],
       "reused": true,
       "new_capture": false,
-      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_state": "publicly_verified",
       "historical_consumer_record": {
         "concept": "roles",
         "locale": "es",
@@ -1737,8 +1753,9 @@
       "original_consumer_provenance": "docs/editorial-work/captures/understanding-team-roles/capture-provenance.json",
       "original_provenance": "docs/editorial-work/captures/understanding-team-roles/capture-provenance.json",
       "source_density": 2,
-      "publication_status": "Existing approved native asset reused unchanged; current consumer not yet publicly verified.",
-      "pixel_edits": "none in this batch"
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
+      "pixel_edits": "none in this batch",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "concept": "roles",
@@ -1812,7 +1829,7 @@
       ],
       "reused": true,
       "new_capture": false,
-      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_state": "publicly_verified",
       "historical_consumer_record": {
         "concept": "roles",
         "locale": "es",
@@ -1891,8 +1908,9 @@
       "original_consumer_provenance": "docs/editorial-work/captures/understanding-team-roles/capture-provenance.json",
       "original_provenance": "docs/editorial-work/captures/understanding-team-roles/capture-provenance.json",
       "source_density": 2,
-      "publication_status": "Existing approved native asset reused unchanged; current consumer not yet publicly verified.",
-      "pixel_edits": "none in this batch"
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
+      "pixel_edits": "none in this batch",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "concept": "roles",
@@ -1966,7 +1984,7 @@
       ],
       "reused": true,
       "new_capture": false,
-      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_state": "publicly_verified",
       "historical_consumer_record": {
         "concept": "roles",
         "locale": "en",
@@ -2045,8 +2063,9 @@
       "original_consumer_provenance": "docs/editorial-work/captures/understanding-team-roles/capture-provenance.json",
       "original_provenance": "docs/editorial-work/captures/understanding-team-roles/capture-provenance.json",
       "source_density": 2,
-      "publication_status": "Existing approved native asset reused unchanged; current consumer not yet publicly verified.",
-      "pixel_edits": "none in this batch"
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
+      "pixel_edits": "none in this batch",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "concept": "roles",
@@ -2120,7 +2139,7 @@
       ],
       "reused": true,
       "new_capture": false,
-      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_state": "publicly_verified",
       "historical_consumer_record": {
         "concept": "roles",
         "locale": "en",
@@ -2199,8 +2218,9 @@
       "original_consumer_provenance": "docs/editorial-work/captures/understanding-team-roles/capture-provenance.json",
       "original_provenance": "docs/editorial-work/captures/understanding-team-roles/capture-provenance.json",
       "source_density": 2,
-      "publication_status": "Existing approved native asset reused unchanged; current consumer not yet publicly verified.",
-      "pixel_edits": "none in this batch"
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
+      "pixel_edits": "none in this batch",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "catalog-desktop-row",
@@ -2219,8 +2239,8 @@
       "reused": true,
       "new_capture": false,
       "pixel_edits": "none in this batch",
-      "consumer_publication_state": "not_yet_publicly_verified",
-      "publication_status": "Existing approved native asset reused unchanged; current consumer not yet publicly verified.",
+      "consumer_publication_state": "publicly_verified",
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
       "historical_consumer_record": {
         "name": "catalog-desktop-row",
         "concept": "catalog",
@@ -2243,7 +2263,8 @@
         "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json."
       },
       "original_consumer_provenance": "docs/editorial-work/captures/troubleshoot-a-capture/capture-provenance.json",
-      "source": "docs/editorial-work/captures/forms/catalog-desktop-row-es-original.png"
+      "source": "docs/editorial-work/captures/forms/catalog-desktop-row-es-original.png",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "catalog-desktop-row",
@@ -2262,8 +2283,8 @@
       "reused": true,
       "new_capture": false,
       "pixel_edits": "none in this batch",
-      "consumer_publication_state": "not_yet_publicly_verified",
-      "publication_status": "Existing approved native asset reused unchanged; current consumer not yet publicly verified.",
+      "consumer_publication_state": "publicly_verified",
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
       "historical_consumer_record": {
         "name": "catalog-desktop-row",
         "concept": "catalog",
@@ -2286,7 +2307,8 @@
         "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json."
       },
       "original_consumer_provenance": "docs/editorial-work/captures/troubleshoot-a-capture/capture-provenance.json",
-      "source": "docs/editorial-work/captures/forms/catalog-desktop-row-en-original.png"
+      "source": "docs/editorial-work/captures/forms/catalog-desktop-row-en-original.png",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "desktop-form-es",
@@ -2305,8 +2327,8 @@
       "reused": true,
       "new_capture": false,
       "pixel_edits": "none in this batch",
-      "consumer_publication_state": "not_yet_publicly_verified",
-      "publication_status": "Existing approved native asset reused unchanged; current consumer not yet publicly verified.",
+      "consumer_publication_state": "publicly_verified",
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
       "historical_consumer_record": {
         "name": "desktop-form-es",
         "concept": "catalog",
@@ -2329,7 +2351,8 @@
         "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json."
       },
       "original_consumer_provenance": "docs/editorial-work/captures/troubleshoot-a-capture/capture-provenance.json",
-      "source": "docs/editorial-work/captures/capture-overview/desktop-cards/desktop-form-es.png"
+      "source": "docs/editorial-work/captures/capture-overview/desktop-cards/desktop-form-es.png",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "desktop-form-en",
@@ -2348,8 +2371,8 @@
       "reused": true,
       "new_capture": false,
       "pixel_edits": "none in this batch",
-      "consumer_publication_state": "not_yet_publicly_verified",
-      "publication_status": "Existing approved native asset reused unchanged; current consumer not yet publicly verified.",
+      "consumer_publication_state": "publicly_verified",
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
       "historical_consumer_record": {
         "name": "desktop-form-en",
         "concept": "catalog",
@@ -2372,12 +2395,12 @@
         "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json."
       },
       "original_consumer_provenance": "docs/editorial-work/captures/troubleshoot-a-capture/capture-provenance.json",
-      "source": "docs/editorial-work/captures/capture-overview/desktop-cards/desktop-form-en.png"
+      "source": "docs/editorial-work/captures/capture-overview/desktop-cards/desktop-form-en.png",
+      "consumer_publication_evidence": "public-verification.json"
     }
   ],
   "operations": "Read-only protected/current source and published SDK/API documentation audit. Approved PNG reuse with original historical guards and limitations; no source app/DB/account/locale/fixture/API/example/event/message/submission/permission/subscription/provider/worker action or new fixture audit. Separate isolated Help browser only for rendering, scrolling and review captures; no Rails visit.",
   "local_verification": "docs/editorial-work/captures/troubleshooting-overview/local-verification.json",
-  "pending": [
-    "Protected PR/checks, independent exact-head review, normal production and public page/hash verification."
-  ]
+  "pending": [],
+  "public_verification": "docs/editorial-work/captures/troubleshooting-overview/public-verification.json"
 }
