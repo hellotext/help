@@ -1,0 +1,661 @@
+{
+  "verified_at_utc": "2026-10-01T18:53:51.933811+00:00",
+  "verified_git_main_sha": "e7da0f2fc3b443d3f5180ebe3183539222a62279",
+  "production_deploy_id_sha_association": {
+    "id": "6abeabfd53fc480007e67d07",
+    "site_id": "d66a79c1-b5de-44d1-bc47-bc7809f7f3b3",
+    "state": "ready",
+    "context": "production",
+    "branch": "main",
+    "commit_ref": "e7da0f2fc3b443d3f5180ebe3183539222a62279",
+    "created_at": "2026-10-01T18:52:45.200Z",
+    "published_at": "2026-10-01T18:53:21.866Z",
+    "deploy_ssl_url": "https://main--legendary-lollipop-e2d131.netlify.app"
+  },
+  "deployment_method": "Normal Netlify production after Git merge; no manual deploy. Accessible public site-alias listing provided exact commit_ref.",
+  "pages": [
+    {
+      "url": "https://help.hellotext.com/es/tiempo-de-respuesta-y-reglas-de-respuesta",
+      "status": 200,
+      "article_key": "team/understanding-response-times.md",
+      "locale": "es",
+      "figures": 6,
+      "sections": 11,
+      "approved_assets_present": [
+        "/images/team/understanding-response-times/default-es.png",
+        "/images/team/understanding-response-times/default-es-mobile.png",
+        "/images/team/understanding-response-times/channel-es.png",
+        "/images/team/understanding-response-times/channel-es-mobile.png",
+        "/images/team/understanding-response-times/technology-es.png",
+        "/images/team/understanding-response-times/technology-es-mobile.png",
+        "/images/team/understanding-response-times/hours-es.png",
+        "/images/team/understanding-response-times/hours-es-mobile.png",
+        "/images/team/understanding-response-times/weekday-es.png",
+        "/images/team/understanding-response-times/weekday-es-mobile.png",
+        "/images/analytics-reporting-attribution/workload-capacity-report-guide/operational-pressure-team-es.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "7bbb3833ab59a5c1ea2b9406fb19eb55e5b59db31a74394891d306e6e8aab121",
+      "html_sha256": "d5a24ba22ffd393ebba235246fc667a3ea2deddc091517d5a3aa1d4e700cd951"
+    },
+    {
+      "url": "https://help.hellotext.com/understanding-response-times",
+      "status": 200,
+      "article_key": "team/understanding-response-times.md",
+      "locale": "en",
+      "figures": 6,
+      "sections": 11,
+      "approved_assets_present": [
+        "/images/team/understanding-response-times/default-en.png",
+        "/images/team/understanding-response-times/default-en-mobile.png",
+        "/images/team/understanding-response-times/channel-en.png",
+        "/images/team/understanding-response-times/channel-en-mobile.png",
+        "/images/team/understanding-response-times/technology-en.png",
+        "/images/team/understanding-response-times/technology-en-mobile.png",
+        "/images/team/understanding-response-times/hours-en.png",
+        "/images/team/understanding-response-times/hours-en-mobile.png",
+        "/images/team/understanding-response-times/weekday-en.png",
+        "/images/team/understanding-response-times/weekday-en-mobile.png",
+        "/images/analytics-reporting-attribution/workload-capacity-report-guide/operational-pressure-team-en.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "d80862632e65953d034d90fa4ae74b21e1150465ed4db86c040b5dbcea7ddd2e",
+      "html_sha256": "eea8ab23a61ee11d65aee9fc0be9d9a8cfa2f74d258c7049ba093c32686cf234"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-response-times/default-es.png",
+      "status": 200,
+      "sha256": "339b5749ee334a9d43c5ba547e6d41248962a12c3854fd211e2bd982f04081d0",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-response-times/default-es-mobile.png",
+      "status": 200,
+      "sha256": "6e75d88d34ec270d7c1c65e424da76fbd1c27bd54975feda0fda196fa167455e",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-response-times/channel-es.png",
+      "status": 200,
+      "sha256": "7b814dac69a499188aefcfd7f3fec160d44400d790eb997d47d6f47cf805a7b0",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-response-times/channel-es-mobile.png",
+      "status": 200,
+      "sha256": "74dae0acd6a53aab786b49b8845bf41bd966bf15e3184c6f952dc15823cee31f",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-response-times/technology-es.png",
+      "status": 200,
+      "sha256": "6abcce4baf749e138f4bd995b2a63f20cefbaf404b8e1e48c97c6a0772e4c197",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-response-times/technology-es-mobile.png",
+      "status": 200,
+      "sha256": "b0556faf2a11f2af702e5d533f40d2fcd651fbff783cca55dec9f920f27cbce2",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-response-times/hours-es.png",
+      "status": 200,
+      "sha256": "0dcd005f9ecd12ab58c192170e4bc695b6f511f2d8b99d7dfab7a9dfb5f7976e",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-response-times/hours-es-mobile.png",
+      "status": 200,
+      "sha256": "97977418bb3df59859f7db80eae7eb31e7bf956a3f670028bb9d5c79364be9c3",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-response-times/weekday-es.png",
+      "status": 200,
+      "sha256": "b856a4c0fd5d7890728635d4ea4cb078defb13497688d97c18bcb1ea21e59d0a",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-response-times/weekday-es-mobile.png",
+      "status": 200,
+      "sha256": "6d81da268d8157ab9d734b8c49bc1df93246ab79da7587ec8db8162ac928ca68",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-response-times/default-en.png",
+      "status": 200,
+      "sha256": "c377e27ca01cfa3614d3ca758985ec5a8b253d4bd3082d9b48cef4780a2cf6c3",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-response-times/default-en-mobile.png",
+      "status": 200,
+      "sha256": "a41cb142e4f4b31a3de34b0ce7af740611fa3f9063e675b3ec4c0ceb194f1c8e",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-response-times/channel-en.png",
+      "status": 200,
+      "sha256": "0ad92dfa7162f469211ccfb870933f3dada0b1fb7a08420248b5fda644341b6c",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-response-times/channel-en-mobile.png",
+      "status": 200,
+      "sha256": "328460ee502502c09bd4c325ed15d4a9885f8254b310060d0cfd4d19a82c4bd3",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-response-times/technology-en.png",
+      "status": 200,
+      "sha256": "6abcce4baf749e138f4bd995b2a63f20cefbaf404b8e1e48c97c6a0772e4c197",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-response-times/technology-en-mobile.png",
+      "status": 200,
+      "sha256": "b0556faf2a11f2af702e5d533f40d2fcd651fbff783cca55dec9f920f27cbce2",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-response-times/hours-en.png",
+      "status": 200,
+      "sha256": "bdabc81ad2bbee56ffec76fbce5a90f83ed045741c6bbc345ea44e4b0dde11b6",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-response-times/hours-en-mobile.png",
+      "status": 200,
+      "sha256": "f5d558fbe9d1613fd53cbd612847c83afb5de5ad758ff221217c54f3a0fc4f6b",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-response-times/weekday-en.png",
+      "status": 200,
+      "sha256": "3fef573a1cedc2f985c95d6dca01cd3310c30321f5322bcc28c6f64a7cacd2c3",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-response-times/weekday-en-mobile.png",
+      "status": 200,
+      "sha256": "17803b6cee140d751e794d3558adee394b441b849fa1ce35884378c91afaeac2",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/workload-capacity-report-guide/operational-pressure-team-es.png",
+      "status": 200,
+      "sha256": "f80ae4e86f5544236440e62408dabb1c703f30e6a645c9ce5144a066c7e87156",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/workload-capacity-report-guide/operational-pressure-team-en.png",
+      "status": 200,
+      "sha256": "713754b1a5b1cee0eb3a8073d29199ff0628b4190395f37013be58fb1e842b37",
+      "matches_approved_asset": true,
+      "reused": true
+    }
+  ],
+  "new_captures": 20,
+  "new_png_uploads": 20,
+  "reused_pngs": 2,
+  "all_affected_article_pngs": 22,
+  "main_build": {
+    "conclusion": "success",
+    "databaseId": 36910122283,
+    "event": "push",
+    "headSha": "e7da0f2fc3b443d3f5180ebe3183539222a62279",
+    "status": "completed",
+    "url": "https://github.com/hellotext/help/actions/runs/36910122283"
+  },
+  "content_pr": "https://github.com/hellotext/help/pull/339",
+  "content_pr_head": "c4d55d71aa71e2f7c3b494681db1d331eccfea6d",
+  "individual_commits_preserved": [
+    "c4ec78526f74bc1b88c6b8f4e47f87e19da63f3d",
+    "18b4c8fe43d3bd98d34cdc79302cf55a6ed278ab",
+    "f1783514787c2dc79dcf869dd46d56ca0db359dc",
+    "c4d55d71aa71e2f7c3b494681db1d331eccfea6d"
+  ],
+  "unresolved_review_threads_before_merge": 0,
+  "pre_merge_review": {
+    "head": "c4d55d71aa71e2f7c3b494681db1d331eccfea6d",
+    "checks": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T18:47:54Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/hellotext/help/actions/runs/36909413119/job/110528038107",
+        "name": "build",
+        "startedAt": "2026-10-01T18:47:10Z",
+        "status": "COMPLETED",
+        "workflowName": "Build"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T18:47:45Z",
+        "conclusion": "NEUTRAL",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abeaaa973f5310008589ea0",
+        "name": "Pages changed - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T18:47:07Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T18:47:45Z",
+        "conclusion": "NEUTRAL",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abeaaa973f5310008589ea0",
+        "name": "Redirect rules - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T18:47:07Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T18:47:33Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://app.aikido.dev/featurebranch/scan/209645801?groupId=34029",
+        "name": "Aikido Security: check code",
+        "startedAt": "2026-10-01T18:47:07Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T18:47:45Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abeaaa973f5310008589ea0",
+        "name": "Header rules - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T18:47:07Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "StatusContext",
+        "context": "netlify/legendary-lollipop-e2d131/deploy-preview",
+        "startedAt": "2026-10-01T18:47:46Z",
+        "state": "SUCCESS",
+        "targetUrl": "https://deploy-preview-339--legendary-lollipop-e2d131.netlify.app"
+      }
+    ],
+    "comments": [
+      {
+        "id": "IC_kwDOIVbAxs8AAAABYe97zA",
+        "author": {
+          "login": "netlify"
+        },
+        "authorAssociation": "NONE",
+        "body": "### <span aria-hidden=\"true\">\u2705</span> Deploy Preview for *legendary-lollipop-e2d131* ready!\n\n\n|  Name | Link |\n|:-:|------------------------|\n|<span aria-hidden=\"true\">\ud83d\udd28</span> Latest commit | c4d55d71aa71e2f7c3b494681db1d331eccfea6d |\n|<span aria-hidden=\"true\">\ud83d\udd0d</span> Latest deploy log | https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abeaaa973f5310008589ea0 |\n|<span aria-hidden=\"true\">\ud83d\ude0e</span> Deploy Preview | [https://deploy-preview-339--legendary-lollipop-e2d131.netlify.app](https://deploy-preview-339--legendary-lollipop-e2d131.netlify.app) |\n|<span aria-hidden=\"true\">\ud83d\udcf1</span> Preview on mobile | <details><summary> Toggle QR Code... </summary><br /><br />![QR Code](https://app.netlify.com/qr-code/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJodHRwczovL2RlcGxveS1wcmV2aWV3LTMzOS0tbGVnZW5kYXJ5LWxvbGxpcG9wLWUyZDEzMS5uZXRsaWZ5LmFwcCJ9.pyFYVSr1NJFL24YUWpl38THK_p2QwCvsAHev7_DHO1k)<br /><br />_Use your smartphone camera to open QR code link._</details> |\n|<span aria-hidden=\"true\">\ud83e\udd16</span> Make changes | [Run an agent on this branch](https://app.netlify.com/projects/legendary-lollipop-e2d131/agent-runs#DcpLCoAgEADQu8y6yBBLu0HHGHUqIT-oQRHdPXdv8V5IOfpUYQHoQGcM5mg20dI9ZCophkJ9dZ5Kv1_OUluW0hmf1bY3oSZEVDPfBB8ZY1JIRcjg-wE) |\n---\n<!-- [legendary-lollipop-e2d131 Preview](https://deploy-preview-339--legendary-lollipop-e2d131.netlify.app) -->\n_To edit notification comments on pull requests, go to your [Netlify project configuration](https://app.netlify.com/projects/legendary-lollipop-e2d131/configuration/notifications#deploy-notifications)._",
+        "createdAt": "2026-10-01T18:37:01Z",
+        "includesCreatedEdit": true,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/hellotext/help/pull/339#issuecomment-5938052044",
+        "viewerDidAuthor": false
+      },
+      {
+        "id": "IC_kwDOIVbAxs8AAAABYe98bw",
+        "author": {
+          "login": "pelcasandra"
+        },
+        "authorAssociation": "MEMBER",
+        "body": "@codex review",
+        "createdAt": "2026-10-01T18:37:02Z",
+        "includesCreatedEdit": false,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/hellotext/help/pull/339#issuecomment-5938052207",
+        "viewerDidAuthor": true
+      },
+      {
+        "id": "IC_kwDOIVbAxs8AAAABYe-A4A",
+        "author": {
+          "login": "chatgpt-codex-connector"
+        },
+        "authorAssociation": "NONE",
+        "body": "<!-- codex-pull-request-review-summary -->\n\n## Codex Review Summary\n\nThis comment shows the latest Codex review activity on this pull request.\n\n| Review | Status | Commit | Review trigger |\n| --- | --- | --- | --- |\n| \ud83d\udcdd **Code Review** | \u2705 **Completed** <relative-time datetime=\"2026-10-01T18:51:47.967583Z\">2026-10-01T18:51:47.967583Z</relative-time> | `c4d55d7` | Manual request |\n\n\n\n<details> <summary>\u2139\ufe0f About Codex in GitHub</summary>\n<br/>\n\n[Your team has set up Codex to review pull requests in this repo](https://chatgpt.com/codex/cloud/settings/general). Reviews are triggered when you\n- Open a pull request for review\n- Mark a draft as ready\n- Comment \"@codex review\" or \"@codex security review\".\n\nCodex reacts with \ud83d\udc40 while any review is running, comments if it has suggestions, and reacts with \ud83d\udc4d once all reviews finish with no findings.\n\n</details>",
+        "createdAt": "2026-10-01T18:37:05Z",
+        "includesCreatedEdit": true,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/hellotext/help/pull/339#issuecomment-5938053344",
+        "viewerDidAuthor": false
+      },
+      {
+        "id": "IC_kwDOIVbAxs8AAAABYfKm2w",
+        "author": {
+          "login": "pelcasandra"
+        },
+        "authorAssociation": "MEMBER",
+        "body": "@codex review",
+        "createdAt": "2026-10-01T18:47:40Z",
+        "includesCreatedEdit": false,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/hellotext/help/pull/339#issuecomment-5938259675",
+        "viewerDidAuthor": true
+      },
+      {
+        "id": "IC_kwDOIVbAxs8AAAABYfOq7A",
+        "author": {
+          "login": "chatgpt-codex-connector"
+        },
+        "authorAssociation": "NONE",
+        "body": "Codex Review: Didn't find any major issues. What shall we delve into next?\n\n**Reviewed commit:** `c4d55d71aa`\n\n<details> <summary>\u2139\ufe0f About Codex in GitHub</summary>\n<br/>\n\n[Your team has set up Codex to review pull requests in this repo](https://chatgpt.com/codex/cloud/settings/general). Reviews are triggered when you\n- Open a pull request for review\n- Mark a draft as ready\n- Comment \"@codex review\".\n\nIf Codex has suggestions, it will comment; otherwise it will react with \ud83d\udc4d.\n\n\n\n\nCodex can also answer questions or update the PR. Try commenting \"@codex address that feedback\".\n            \n</details>",
+        "createdAt": "2026-10-01T18:51:46Z",
+        "includesCreatedEdit": false,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/hellotext/help/pull/339#issuecomment-5938326252",
+        "viewerDidAuthor": false
+      }
+    ],
+    "reviews": [
+      {
+        "id": "PRR_kwDOIVbAxs8AAAABQOeg-w",
+        "author": {
+          "login": "chatgpt-codex-connector"
+        },
+        "authorAssociation": "NONE",
+        "body": "\n### \ud83d\udca1 Codex Review\n\nHere are some automated review suggestions for this pull request.\n\n**Reviewed commit:** `18b4c8fe43`\n    \n\n<details> <summary>\u2139\ufe0f About Codex in GitHub</summary>\n<br/>\n\n[Your team has set up Codex to review pull requests in this repo](https://chatgpt.com/codex/cloud/settings/general). Reviews are triggered when you\n- Open a pull request for review\n- Mark a draft as ready\n- Comment \"@codex review\".\n\nIf Codex has suggestions, it will comment; otherwise it will react with \ud83d\udc4d.\n\n\n\n\nCodex can also answer questions or update the PR. Try commenting \"@codex address that feedback\".\n            \n</details>",
+        "submittedAt": "2026-10-01T18:41:04Z",
+        "includesCreatedEdit": false,
+        "reactionGroups": [],
+        "state": "COMMENTED",
+        "commit": {
+          "oid": "18b4c8fe43d3bd98d34cdc79302cf55a6ed278ab"
+        }
+      },
+      {
+        "id": "PRR_kwDOIVbAxs8AAAABQOkU1A",
+        "author": {
+          "login": "pelcasandra"
+        },
+        "authorAssociation": "MEMBER",
+        "body": "",
+        "submittedAt": "2026-10-01T18:48:07Z",
+        "includesCreatedEdit": false,
+        "reactionGroups": [],
+        "state": "COMMENTED",
+        "commit": {
+          "oid": "c4d55d71aa71e2f7c3b494681db1d331eccfea6d"
+        }
+      }
+    ],
+    "threads": [
+      {
+        "id": "PRRT_kwDOIVbAxs6oFd7L",
+        "isResolved": true,
+        "comments": {
+          "nodes": [
+            {
+              "id": "PRRC_kwDOIVbAxs735x_2",
+              "body": "**<sub><sub>![P3 Badge](https://img.shields.io/badge/P3-lightgrey?style=flat)</sub></sub>  Add the missing negation before \u201cse eligieron horas\u201d**\n\nIn the Spanish guide, `se eligieron horas` affirmatively says that times were selected, contradicting the surrounding claim that the form was only viewed and nothing was changed. Add `ni` before this clause (for example, `No se toc\u00f3 el interruptor, ni se eligieron horas ni se guard\u00f3`) so Spanish readers receive the intended capture-safety explanation.\n\nUseful? React with \ud83d\udc4d\u00a0/ \ud83d\udc4e.",
+              "url": "https://github.com/hellotext/help/pull/339#discussion_r4159119350",
+              "path": "_i18n/es/team/understanding-response-times.md",
+              "originalCommit": {
+                "oid": "18b4c8fe43d3bd98d34cdc79302cf55a6ed278ab"
+              }
+            },
+            {
+              "id": "PRRC_kwDOIVbAxs736E_d",
+              "body": "Fixed in f1783514787c2dc79dcf869dd46d56ca0db359dc: the Spanish explanation now says No se toc\u00f3 el interruptor ni se eligieron horas ni se guard\u00f3. Rebuild/security headers, both complete articles at 1440/390/580px and all 22 PNG hashes passed again. No application fields or native capture assets changed; all prior commits are retained. The direct-child ledger c4d55d71aa71e2f7c3b494681db1d331eccfea6d points to the corrected verifier.",
+              "url": "https://github.com/hellotext/help/pull/339#discussion_r4159197149",
+              "path": "_i18n/es/team/understanding-response-times.md",
+              "originalCommit": {
+                "oid": "18b4c8fe43d3bd98d34cdc79302cf55a6ed278ab"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "all_actual_comments_reviews_threads_read": true
+  },
+  "preview_verification": {
+    "head": "c4d55d71aa71e2f7c3b494681db1d331eccfea6d",
+    "preview_url": "https://deploy-preview-339--legendary-lollipop-e2d131.netlify.app",
+    "deployment": {
+      "id": "6abeaaa973f5310008589ea0",
+      "context": "deploy-preview",
+      "commit_ref": "c4d55d71aa71e2f7c3b494681db1d331eccfea6d",
+      "state": "ready",
+      "review_id": 339
+    },
+    "pages": [
+      {
+        "url": "https://deploy-preview-339--legendary-lollipop-e2d131.netlify.app/es/tiempo-de-respuesta-y-reglas-de-respuesta",
+        "status": 200,
+        "article_key": "team/understanding-response-times.md",
+        "locale": "es",
+        "figures": 6,
+        "sections": 11,
+        "approved_assets_present": [
+          "/images/team/understanding-response-times/default-es.png",
+          "/images/team/understanding-response-times/default-es-mobile.png",
+          "/images/team/understanding-response-times/channel-es.png",
+          "/images/team/understanding-response-times/channel-es-mobile.png",
+          "/images/team/understanding-response-times/technology-es.png",
+          "/images/team/understanding-response-times/technology-es-mobile.png",
+          "/images/team/understanding-response-times/hours-es.png",
+          "/images/team/understanding-response-times/hours-es-mobile.png",
+          "/images/team/understanding-response-times/weekday-es.png",
+          "/images/team/understanding-response-times/weekday-es-mobile.png",
+          "/images/analytics-reporting-attribution/workload-capacity-report-guide/operational-pressure-team-es.png"
+        ],
+        "complete_article_matches_verified_build": true,
+        "article_sha256": "7bbb3833ab59a5c1ea2b9406fb19eb55e5b59db31a74394891d306e6e8aab121",
+        "html_sha256": "985aeaadf694090b891c568284a334330d20432533a940239230750defb6c6e6"
+      },
+      {
+        "url": "https://deploy-preview-339--legendary-lollipop-e2d131.netlify.app/understanding-response-times",
+        "status": 200,
+        "article_key": "team/understanding-response-times.md",
+        "locale": "en",
+        "figures": 6,
+        "sections": 11,
+        "approved_assets_present": [
+          "/images/team/understanding-response-times/default-en.png",
+          "/images/team/understanding-response-times/default-en-mobile.png",
+          "/images/team/understanding-response-times/channel-en.png",
+          "/images/team/understanding-response-times/channel-en-mobile.png",
+          "/images/team/understanding-response-times/technology-en.png",
+          "/images/team/understanding-response-times/technology-en-mobile.png",
+          "/images/team/understanding-response-times/hours-en.png",
+          "/images/team/understanding-response-times/hours-en-mobile.png",
+          "/images/team/understanding-response-times/weekday-en.png",
+          "/images/team/understanding-response-times/weekday-en-mobile.png",
+          "/images/analytics-reporting-attribution/workload-capacity-report-guide/operational-pressure-team-en.png"
+        ],
+        "complete_article_matches_verified_build": true,
+        "article_sha256": "d80862632e65953d034d90fa4ae74b21e1150465ed4db86c040b5dbcea7ddd2e",
+        "html_sha256": "037d0461f968f615e25629b00614be427a8c99fdabcba4a32fbe3402b44513b5"
+      }
+    ],
+    "assets": [
+      {
+        "url": "https://deploy-preview-339--legendary-lollipop-e2d131.netlify.app/images/team/understanding-response-times/default-es.png",
+        "status": 200,
+        "sha256": "339b5749ee334a9d43c5ba547e6d41248962a12c3854fd211e2bd982f04081d0",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-339--legendary-lollipop-e2d131.netlify.app/images/team/understanding-response-times/default-es-mobile.png",
+        "status": 200,
+        "sha256": "6e75d88d34ec270d7c1c65e424da76fbd1c27bd54975feda0fda196fa167455e",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-339--legendary-lollipop-e2d131.netlify.app/images/team/understanding-response-times/channel-es.png",
+        "status": 200,
+        "sha256": "7b814dac69a499188aefcfd7f3fec160d44400d790eb997d47d6f47cf805a7b0",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-339--legendary-lollipop-e2d131.netlify.app/images/team/understanding-response-times/channel-es-mobile.png",
+        "status": 200,
+        "sha256": "74dae0acd6a53aab786b49b8845bf41bd966bf15e3184c6f952dc15823cee31f",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-339--legendary-lollipop-e2d131.netlify.app/images/team/understanding-response-times/technology-es.png",
+        "status": 200,
+        "sha256": "6abcce4baf749e138f4bd995b2a63f20cefbaf404b8e1e48c97c6a0772e4c197",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-339--legendary-lollipop-e2d131.netlify.app/images/team/understanding-response-times/technology-es-mobile.png",
+        "status": 200,
+        "sha256": "b0556faf2a11f2af702e5d533f40d2fcd651fbff783cca55dec9f920f27cbce2",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-339--legendary-lollipop-e2d131.netlify.app/images/team/understanding-response-times/hours-es.png",
+        "status": 200,
+        "sha256": "0dcd005f9ecd12ab58c192170e4bc695b6f511f2d8b99d7dfab7a9dfb5f7976e",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-339--legendary-lollipop-e2d131.netlify.app/images/team/understanding-response-times/hours-es-mobile.png",
+        "status": 200,
+        "sha256": "97977418bb3df59859f7db80eae7eb31e7bf956a3f670028bb9d5c79364be9c3",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-339--legendary-lollipop-e2d131.netlify.app/images/team/understanding-response-times/weekday-es.png",
+        "status": 200,
+        "sha256": "b856a4c0fd5d7890728635d4ea4cb078defb13497688d97c18bcb1ea21e59d0a",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-339--legendary-lollipop-e2d131.netlify.app/images/team/understanding-response-times/weekday-es-mobile.png",
+        "status": 200,
+        "sha256": "6d81da268d8157ab9d734b8c49bc1df93246ab79da7587ec8db8162ac928ca68",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-339--legendary-lollipop-e2d131.netlify.app/images/team/understanding-response-times/default-en.png",
+        "status": 200,
+        "sha256": "c377e27ca01cfa3614d3ca758985ec5a8b253d4bd3082d9b48cef4780a2cf6c3",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-339--legendary-lollipop-e2d131.netlify.app/images/team/understanding-response-times/default-en-mobile.png",
+        "status": 200,
+        "sha256": "a41cb142e4f4b31a3de34b0ce7af740611fa3f9063e675b3ec4c0ceb194f1c8e",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-339--legendary-lollipop-e2d131.netlify.app/images/team/understanding-response-times/channel-en.png",
+        "status": 200,
+        "sha256": "0ad92dfa7162f469211ccfb870933f3dada0b1fb7a08420248b5fda644341b6c",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-339--legendary-lollipop-e2d131.netlify.app/images/team/understanding-response-times/channel-en-mobile.png",
+        "status": 200,
+        "sha256": "328460ee502502c09bd4c325ed15d4a9885f8254b310060d0cfd4d19a82c4bd3",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-339--legendary-lollipop-e2d131.netlify.app/images/team/understanding-response-times/technology-en.png",
+        "status": 200,
+        "sha256": "6abcce4baf749e138f4bd995b2a63f20cefbaf404b8e1e48c97c6a0772e4c197",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-339--legendary-lollipop-e2d131.netlify.app/images/team/understanding-response-times/technology-en-mobile.png",
+        "status": 200,
+        "sha256": "b0556faf2a11f2af702e5d533f40d2fcd651fbff783cca55dec9f920f27cbce2",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-339--legendary-lollipop-e2d131.netlify.app/images/team/understanding-response-times/hours-en.png",
+        "status": 200,
+        "sha256": "bdabc81ad2bbee56ffec76fbce5a90f83ed045741c6bbc345ea44e4b0dde11b6",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-339--legendary-lollipop-e2d131.netlify.app/images/team/understanding-response-times/hours-en-mobile.png",
+        "status": 200,
+        "sha256": "f5d558fbe9d1613fd53cbd612847c83afb5de5ad758ff221217c54f3a0fc4f6b",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-339--legendary-lollipop-e2d131.netlify.app/images/team/understanding-response-times/weekday-en.png",
+        "status": 200,
+        "sha256": "3fef573a1cedc2f985c95d6dca01cd3310c30321f5322bcc28c6f64a7cacd2c3",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-339--legendary-lollipop-e2d131.netlify.app/images/team/understanding-response-times/weekday-en-mobile.png",
+        "status": 200,
+        "sha256": "17803b6cee140d751e794d3558adee394b441b849fa1ce35884378c91afaeac2",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-339--legendary-lollipop-e2d131.netlify.app/images/analytics-reporting-attribution/workload-capacity-report-guide/operational-pressure-team-es.png",
+        "status": 200,
+        "sha256": "f80ae4e86f5544236440e62408dabb1c703f30e6a645c9ce5144a066c7e87156",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-339--legendary-lollipop-e2d131.netlify.app/images/analytics-reporting-attribution/workload-capacity-report-guide/operational-pressure-team-en.png",
+        "status": 200,
+        "sha256": "713754b1a5b1cee0eb3a8073d29199ff0628b4190395f37013be58fb1e842b37",
+        "matches_approved_asset": true,
+        "reused": true
+      }
+    ]
+  },
+  "earlier_record_332_limitation": "The genuine later content SHA published normally. It does not prove publication of ad6d6455d0671cda042dc5ef184f73c86d64f8fb, whose internal Netlify failure remains historical. No manual deployment or retry."
+}
