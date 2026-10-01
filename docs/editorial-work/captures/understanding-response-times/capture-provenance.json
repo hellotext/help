@@ -1,0 +1,1640 @@
+{
+  "article_key": "team/understanding-response-times.md",
+  "status": "locally_verified",
+  "originals": [
+    {
+      "article": "_i18n/es/team/understanding-response-times.md",
+      "snapshot": "docs/editorial-work/captures/understanding-response-times/originals/es.md",
+      "sha256": "95c82cc4081f04c4e244d7b87d705d58811f70d89119f9531ca1648c0f26bf44",
+      "headings": [
+        "## Qué son las reglas de respuesta",
+        "## Cómo funcionan",
+        "## Horario comercial",
+        "## Política predeterminada y reglas por canal",
+        "## Estados en conversaciones",
+        "## Estados en Equipo y colaboradores",
+        "## Reportes",
+        "## Cómo configurar reglas de respuesta",
+        "## Plan necesario",
+        "## Buenas prácticas",
+        "## Guías relacionadas"
+      ],
+      "links": [
+        "_team/conversation-lifecycle.md",
+        "_captures/webchat-widget-playbook.md",
+        "_analytics-reporting-attribution/service-quality-report-guide.md",
+        "_analytics-reporting-attribution/workload-capacity-report-guide.md",
+        "_team/teams-and-inbox-capacity.md",
+        "_team/assigning-conversations.md",
+        "_team/conversation-lifecycle.md"
+      ]
+    },
+    {
+      "article": "_i18n/en/team/understanding-response-times.md",
+      "snapshot": "docs/editorial-work/captures/understanding-response-times/originals/en.md",
+      "sha256": "edec577e978de2e757e85cdbe3e49dd1eca29b864f827074ec58ce483bb0a9e3",
+      "headings": [
+        "## What response rules do",
+        "## How response timers work",
+        "## Business hours",
+        "## Default policy and channel rules",
+        "## What teammates see in conversations",
+        "## What supervisors see in teams and teammates",
+        "## Reports",
+        "## How to configure response rules",
+        "## Plan requirements",
+        "## Best practices",
+        "## Related guides"
+      ],
+      "links": [
+        "_team/conversation-lifecycle.md",
+        "_captures/webchat-widget-playbook.md",
+        "_analytics-reporting-attribution/service-quality-report-guide.md",
+        "_analytics-reporting-attribution/workload-capacity-report-guide.md",
+        "_team/teams-and-inbox-capacity.md",
+        "_team/assigning-conversations.md",
+        "_team/conversation-lifecycle.md"
+      ]
+    },
+    {
+      "article": "_team/understanding-response-times.md",
+      "snapshot": "docs/editorial-work/captures/understanding-response-times/originals/stub.md",
+      "sha256": "9f42be1ea625fda32d77d57c39942a1f1d89509e3b1c632119876dac6c45ad6b",
+      "headings": [],
+      "links": []
+    }
+  ],
+  "images": [
+    {
+      "concept": "default",
+      "locale": "es",
+      "mobile": false,
+      "published_asset": "images/team/understanding-response-times/default-es.png",
+      "sha256": "339b5749ee334a9d43c5ba547e6d41248962a12c3854fd211e2bd982f04081d0",
+      "pixels": [
+        972,
+        820
+      ],
+      "logical_size": [
+        486.0,
+        410.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/understanding-response-times/native/default-es-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-response-times-editorial-20261001/native/default-es-original.png",
+        "sha256": "339b5749ee334a9d43c5ba547e6d41248962a12c3854fd211e2bd982f04081d0",
+        "url": "http://127.0.0.1:3192/hellotext/settings/slas/4ONLdN32/edit",
+        "locale": "es",
+        "cssViewport": [
+          1400,
+          1600
+        ],
+        "browserDpr": 2,
+        "clip": [
+          905,
+          8,
+          486,
+          410
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          972,
+          820
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/settings/slas/4ONLdN32/edit",
+        "title": "Tiempo de respuesta - Hellotext",
+        "locale": "es",
+        "viewport": [
+          1400,
+          1600
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "reused": false,
+      "new_capture": true
+    },
+    {
+      "concept": "default",
+      "locale": "es",
+      "mobile": true,
+      "published_asset": "images/team/understanding-response-times/default-es-mobile.png",
+      "sha256": "6e75d88d34ec270d7c1c65e424da76fbd1c27bd54975feda0fda196fa167455e",
+      "pixels": [
+        824,
+        844
+      ],
+      "logical_size": [
+        412.0,
+        422.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/understanding-response-times/native/default-es-mobile-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-response-times-editorial-20261001/native/default-es-mobile-original.png",
+        "sha256": "6e75d88d34ec270d7c1c65e424da76fbd1c27bd54975feda0fda196fa167455e",
+        "url": "http://127.0.0.1:3192/hellotext/settings/slas/4ONLdN32/edit",
+        "locale": "es",
+        "cssViewport": [
+          430,
+          1600
+        ],
+        "browserDpr": 2,
+        "clip": [
+          9,
+          8,
+          412,
+          422
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          824,
+          844
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/settings/slas/4ONLdN32/edit",
+        "title": "Tiempo de respuesta - Hellotext",
+        "locale": "es",
+        "viewport": [
+          430,
+          1600
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "reused": false,
+      "new_capture": true
+    },
+    {
+      "concept": "channel",
+      "locale": "es",
+      "mobile": false,
+      "published_asset": "images/team/understanding-response-times/channel-es.png",
+      "sha256": "7b814dac69a499188aefcfd7f3fec160d44400d790eb997d47d6f47cf805a7b0",
+      "pixels": [
+        972,
+        1018
+      ],
+      "logical_size": [
+        486.0,
+        509.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/understanding-response-times/native/channel-es-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-response-times-editorial-20261001/native/channel-es-original.png",
+        "sha256": "7b814dac69a499188aefcfd7f3fec160d44400d790eb997d47d6f47cf805a7b0",
+        "url": "http://127.0.0.1:3192/hellotext/settings/slas/new",
+        "locale": "es",
+        "cssViewport": [
+          1400,
+          1600
+        ],
+        "browserDpr": 2,
+        "clip": [
+          905,
+          8,
+          486,
+          509
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          972,
+          1018
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/settings/slas/new",
+        "title": "Tiempo de respuesta - Hellotext",
+        "locale": "es",
+        "viewport": [
+          1400,
+          1600
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "reused": false,
+      "new_capture": true
+    },
+    {
+      "concept": "channel",
+      "locale": "es",
+      "mobile": true,
+      "published_asset": "images/team/understanding-response-times/channel-es-mobile.png",
+      "sha256": "74dae0acd6a53aab786b49b8845bf41bd966bf15e3184c6f952dc15823cee31f",
+      "pixels": [
+        824,
+        1098
+      ],
+      "logical_size": [
+        412.0,
+        549.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/understanding-response-times/native/channel-es-mobile-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-response-times-editorial-20261001/native/channel-es-mobile-original.png",
+        "sha256": "74dae0acd6a53aab786b49b8845bf41bd966bf15e3184c6f952dc15823cee31f",
+        "url": "http://127.0.0.1:3192/hellotext/settings/slas/new",
+        "locale": "es",
+        "cssViewport": [
+          430,
+          1600
+        ],
+        "browserDpr": 2,
+        "clip": [
+          9,
+          8,
+          412,
+          549
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          824,
+          1098
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/settings/slas/new",
+        "title": "Tiempo de respuesta - Hellotext",
+        "locale": "es",
+        "viewport": [
+          430,
+          1600
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "reused": false,
+      "new_capture": true
+    },
+    {
+      "concept": "technology",
+      "locale": "es",
+      "mobile": false,
+      "published_asset": "images/team/understanding-response-times/technology-es.png",
+      "sha256": "6abcce4baf749e138f4bd995b2a63f20cefbaf404b8e1e48c97c6a0772e4c197",
+      "pixels": [
+        890,
+        464
+      ],
+      "logical_size": [
+        445.0,
+        232.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/understanding-response-times/native/technology-es-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-response-times-editorial-20261001/native/technology-es-original.png",
+        "sha256": "c2e341f75d74fdab5479ace4093f8ad5c2f543dcc71d3f4acd0ad8f6914c9c8f",
+        "url": "http://127.0.0.1:3192/hellotext/settings/slas/new",
+        "locale": "es",
+        "cssViewport": [
+          1400,
+          1600
+        ],
+        "browserDpr": 2,
+        "clip": [
+          921,
+          168,
+          455,
+          250
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          910,
+          500
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/settings/slas/new",
+        "title": "Tiempo de respuesta - Hellotext",
+        "locale": "es",
+        "viewport": [
+          1400,
+          1600
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "reused": false,
+      "new_capture": true,
+      "derived_crop": {
+        "parent_sha256": "c2e341f75d74fdab5479ace4093f8ad5c2f543dcc71d3f4acd0ad8f6914c9c8f",
+        "crop_pixels": [
+          10,
+          18,
+          890,
+          464
+        ],
+        "operations": "Lossless native list focus only; no resize or pixel editing. Complete five menu items with native eight-CSS-pixel vertical inset and list horizontal padding; outer popover wrapper omitted to exclude underlying corner text."
+      }
+    },
+    {
+      "concept": "technology",
+      "locale": "es",
+      "mobile": true,
+      "published_asset": "images/team/understanding-response-times/technology-es-mobile.png",
+      "sha256": "b0556faf2a11f2af702e5d533f40d2fcd651fbff783cca55dec9f920f27cbce2",
+      "pixels": [
+        742,
+        464
+      ],
+      "logical_size": [
+        371.0,
+        232.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/understanding-response-times/native/technology-es-mobile-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-response-times-editorial-20261001/native/technology-es-mobile-original.png",
+        "sha256": "d36924f300bdb75592584b9a83bbaed1ddbdfce13477c755749de783c1b9d69d",
+        "url": "http://127.0.0.1:3192/hellotext/settings/slas/new",
+        "locale": "es",
+        "cssViewport": [
+          430,
+          1600
+        ],
+        "browserDpr": 2,
+        "clip": [
+          25,
+          168,
+          381,
+          250
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          762,
+          500
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/settings/slas/new",
+        "title": "Tiempo de respuesta - Hellotext",
+        "locale": "es",
+        "viewport": [
+          430,
+          1600
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "reused": false,
+      "new_capture": true,
+      "derived_crop": {
+        "parent_sha256": "d36924f300bdb75592584b9a83bbaed1ddbdfce13477c755749de783c1b9d69d",
+        "crop_pixels": [
+          10,
+          18,
+          742,
+          464
+        ],
+        "operations": "Lossless native list focus only; no resize or pixel editing. Complete five menu items with native eight-CSS-pixel vertical inset and list horizontal padding; outer popover wrapper omitted to exclude underlying corner text."
+      }
+    },
+    {
+      "concept": "hours",
+      "locale": "es",
+      "mobile": false,
+      "published_asset": "images/team/understanding-response-times/hours-es.png",
+      "sha256": "0dcd005f9ecd12ab58c192170e4bc695b6f511f2d8b99d7dfab7a9dfb5f7976e",
+      "pixels": [
+        1736,
+        1784
+      ],
+      "logical_size": [
+        868.0,
+        892.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/understanding-response-times/native/hours-es-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-response-times-editorial-20261001/native/hours-es-original.png",
+        "sha256": "0dcd005f9ecd12ab58c192170e4bc695b6f511f2d8b99d7dfab7a9dfb5f7976e",
+        "url": "http://127.0.0.1:3192/hellotext/settings/weekdays",
+        "locale": "es",
+        "cssViewport": [
+          1400,
+          1600
+        ],
+        "browserDpr": 2,
+        "clip": [
+          408,
+          147,
+          868,
+          892
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1736,
+          1784
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/settings/weekdays",
+        "title": "Tiempo de respuesta - Hellotext",
+        "locale": "es",
+        "viewport": [
+          1400,
+          1600
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "reused": false,
+      "new_capture": true
+    },
+    {
+      "concept": "hours",
+      "locale": "es",
+      "mobile": true,
+      "published_asset": "images/team/understanding-response-times/hours-es-mobile.png",
+      "sha256": "97977418bb3df59859f7db80eae7eb31e7bf956a3f670028bb9d5c79364be9c3",
+      "pixels": [
+        828,
+        1608
+      ],
+      "logical_size": [
+        414.0,
+        804.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/understanding-response-times/native/hours-es-mobile-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-response-times-editorial-20261001/native/hours-es-mobile-original.png",
+        "sha256": "97977418bb3df59859f7db80eae7eb31e7bf956a3f670028bb9d5c79364be9c3",
+        "url": "http://127.0.0.1:3192/hellotext/settings/weekdays",
+        "locale": "es",
+        "cssViewport": [
+          430,
+          1600
+        ],
+        "browserDpr": 2,
+        "clip": [
+          8,
+          336,
+          414,
+          804
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          828,
+          1608
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/settings/weekdays",
+        "title": "Tiempo de respuesta - Hellotext",
+        "locale": "es",
+        "viewport": [
+          430,
+          1600
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "reused": false,
+      "new_capture": true
+    },
+    {
+      "concept": "weekday",
+      "locale": "es",
+      "mobile": false,
+      "published_asset": "images/team/understanding-response-times/weekday-es.png",
+      "sha256": "b856a4c0fd5d7890728635d4ea4cb078defb13497688d97c18bcb1ea21e59d0a",
+      "pixels": [
+        972,
+        840
+      ],
+      "logical_size": [
+        486.0,
+        420.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/understanding-response-times/native/weekday-es-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-response-times-editorial-20261001/native/weekday-es-original.png",
+        "sha256": "b856a4c0fd5d7890728635d4ea4cb078defb13497688d97c18bcb1ea21e59d0a",
+        "url": "http://127.0.0.1:3192/hellotext/settings/weekdays/monday/edit",
+        "locale": "es",
+        "cssViewport": [
+          1400,
+          1600
+        ],
+        "browserDpr": 2,
+        "clip": [
+          905,
+          8,
+          486,
+          420
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          972,
+          840
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/settings/weekdays/monday/edit",
+        "title": "Tiempo de respuesta - Hellotext",
+        "locale": "es",
+        "viewport": [
+          1400,
+          1600
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "reused": false,
+      "new_capture": true
+    },
+    {
+      "concept": "weekday",
+      "locale": "es",
+      "mobile": true,
+      "published_asset": "images/team/understanding-response-times/weekday-es-mobile.png",
+      "sha256": "6d81da268d8157ab9d734b8c49bc1df93246ab79da7587ec8db8162ac928ca68",
+      "pixels": [
+        824,
+        840
+      ],
+      "logical_size": [
+        412.0,
+        420.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/understanding-response-times/native/weekday-es-mobile-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-response-times-editorial-20261001/native/weekday-es-mobile-original.png",
+        "sha256": "6d81da268d8157ab9d734b8c49bc1df93246ab79da7587ec8db8162ac928ca68",
+        "url": "http://127.0.0.1:3192/hellotext/settings/weekdays/monday/edit",
+        "locale": "es",
+        "cssViewport": [
+          430,
+          1600
+        ],
+        "browserDpr": 2,
+        "clip": [
+          9,
+          8,
+          412,
+          420
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          824,
+          840
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/settings/weekdays/monday/edit",
+        "title": "Tiempo de respuesta - Hellotext",
+        "locale": "es",
+        "viewport": [
+          430,
+          1600
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "reused": false,
+      "new_capture": true
+    },
+    {
+      "concept": "default",
+      "locale": "en",
+      "mobile": false,
+      "published_asset": "images/team/understanding-response-times/default-en.png",
+      "sha256": "c377e27ca01cfa3614d3ca758985ec5a8b253d4bd3082d9b48cef4780a2cf6c3",
+      "pixels": [
+        972,
+        764
+      ],
+      "logical_size": [
+        486.0,
+        382.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/understanding-response-times/native/default-en-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-response-times-editorial-20261001/native/default-en-original.png",
+        "sha256": "c377e27ca01cfa3614d3ca758985ec5a8b253d4bd3082d9b48cef4780a2cf6c3",
+        "url": "http://127.0.0.1:3192/hellotext/settings/slas/4ONLdN32/edit",
+        "locale": "en",
+        "cssViewport": [
+          1400,
+          1600
+        ],
+        "browserDpr": 2,
+        "clip": [
+          905,
+          8,
+          486,
+          382
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          972,
+          764
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/settings/slas/4ONLdN32/edit",
+        "title": "Response times - Hellotext",
+        "locale": "en",
+        "viewport": [
+          1400,
+          1600
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "reused": false,
+      "new_capture": true
+    },
+    {
+      "concept": "default",
+      "locale": "en",
+      "mobile": true,
+      "published_asset": "images/team/understanding-response-times/default-en-mobile.png",
+      "sha256": "a41cb142e4f4b31a3de34b0ce7af740611fa3f9063e675b3ec4c0ceb194f1c8e",
+      "pixels": [
+        824,
+        804
+      ],
+      "logical_size": [
+        412.0,
+        402.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/understanding-response-times/native/default-en-mobile-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-response-times-editorial-20261001/native/default-en-mobile-original.png",
+        "sha256": "a41cb142e4f4b31a3de34b0ce7af740611fa3f9063e675b3ec4c0ceb194f1c8e",
+        "url": "http://127.0.0.1:3192/hellotext/settings/slas/4ONLdN32/edit",
+        "locale": "en",
+        "cssViewport": [
+          430,
+          1600
+        ],
+        "browserDpr": 2,
+        "clip": [
+          9,
+          8,
+          412,
+          402
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          824,
+          804
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/settings/slas/4ONLdN32/edit",
+        "title": "Response times - Hellotext",
+        "locale": "en",
+        "viewport": [
+          430,
+          1600
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "reused": false,
+      "new_capture": true
+    },
+    {
+      "concept": "channel",
+      "locale": "en",
+      "mobile": false,
+      "published_asset": "images/team/understanding-response-times/channel-en.png",
+      "sha256": "0ad92dfa7162f469211ccfb870933f3dada0b1fb7a08420248b5fda644341b6c",
+      "pixels": [
+        972,
+        1018
+      ],
+      "logical_size": [
+        486.0,
+        509.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/understanding-response-times/native/channel-en-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-response-times-editorial-20261001/native/channel-en-original.png",
+        "sha256": "0ad92dfa7162f469211ccfb870933f3dada0b1fb7a08420248b5fda644341b6c",
+        "url": "http://127.0.0.1:3192/hellotext/settings/slas/new",
+        "locale": "en",
+        "cssViewport": [
+          1400,
+          1600
+        ],
+        "browserDpr": 2,
+        "clip": [
+          905,
+          8,
+          486,
+          509
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          972,
+          1018
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/settings/slas/new",
+        "title": "Response times - Hellotext",
+        "locale": "en",
+        "viewport": [
+          1400,
+          1600
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "reused": false,
+      "new_capture": true
+    },
+    {
+      "concept": "channel",
+      "locale": "en",
+      "mobile": true,
+      "published_asset": "images/team/understanding-response-times/channel-en-mobile.png",
+      "sha256": "328460ee502502c09bd4c325ed15d4a9885f8254b310060d0cfd4d19a82c4bd3",
+      "pixels": [
+        824,
+        1058
+      ],
+      "logical_size": [
+        412.0,
+        529.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/understanding-response-times/native/channel-en-mobile-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-response-times-editorial-20261001/native/channel-en-mobile-original.png",
+        "sha256": "328460ee502502c09bd4c325ed15d4a9885f8254b310060d0cfd4d19a82c4bd3",
+        "url": "http://127.0.0.1:3192/hellotext/settings/slas/new",
+        "locale": "en",
+        "cssViewport": [
+          430,
+          1600
+        ],
+        "browserDpr": 2,
+        "clip": [
+          9,
+          8,
+          412,
+          529
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          824,
+          1058
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/settings/slas/new",
+        "title": "Response times - Hellotext",
+        "locale": "en",
+        "viewport": [
+          430,
+          1600
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "reused": false,
+      "new_capture": true
+    },
+    {
+      "concept": "technology",
+      "locale": "en",
+      "mobile": false,
+      "published_asset": "images/team/understanding-response-times/technology-en.png",
+      "sha256": "6abcce4baf749e138f4bd995b2a63f20cefbaf404b8e1e48c97c6a0772e4c197",
+      "pixels": [
+        890,
+        464
+      ],
+      "logical_size": [
+        445.0,
+        232.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/understanding-response-times/native/technology-en-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-response-times-editorial-20261001/native/technology-en-original.png",
+        "sha256": "7d85f94a4ab101baa8576590cee77c6f3d4f39367b7b877cd704ef18d3df61ec",
+        "url": "http://127.0.0.1:3192/hellotext/settings/slas/new",
+        "locale": "en",
+        "cssViewport": [
+          1400,
+          1600
+        ],
+        "browserDpr": 2,
+        "clip": [
+          921,
+          168,
+          455,
+          250
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          910,
+          500
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/settings/slas/new",
+        "title": "Response times - Hellotext",
+        "locale": "en",
+        "viewport": [
+          1400,
+          1600
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "reused": false,
+      "new_capture": true,
+      "derived_crop": {
+        "parent_sha256": "7d85f94a4ab101baa8576590cee77c6f3d4f39367b7b877cd704ef18d3df61ec",
+        "crop_pixels": [
+          10,
+          18,
+          890,
+          464
+        ],
+        "operations": "Lossless native list focus only; no resize or pixel editing. Complete five menu items with native eight-CSS-pixel vertical inset and list horizontal padding; outer popover wrapper omitted to exclude underlying corner text."
+      }
+    },
+    {
+      "concept": "technology",
+      "locale": "en",
+      "mobile": true,
+      "published_asset": "images/team/understanding-response-times/technology-en-mobile.png",
+      "sha256": "b0556faf2a11f2af702e5d533f40d2fcd651fbff783cca55dec9f920f27cbce2",
+      "pixels": [
+        742,
+        464
+      ],
+      "logical_size": [
+        371.0,
+        232.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/understanding-response-times/native/technology-en-mobile-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-response-times-editorial-20261001/native/technology-en-mobile-original.png",
+        "sha256": "11a9d3689a5e5ef4f076f7b537e21a140767e54fb69a85b6e3e4bcfc80cd0c79",
+        "url": "http://127.0.0.1:3192/hellotext/settings/slas/new",
+        "locale": "en",
+        "cssViewport": [
+          430,
+          1600
+        ],
+        "browserDpr": 2,
+        "clip": [
+          25,
+          168,
+          381,
+          250
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          762,
+          500
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/settings/slas/new",
+        "title": "Response times - Hellotext",
+        "locale": "en",
+        "viewport": [
+          430,
+          1600
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "reused": false,
+      "new_capture": true,
+      "derived_crop": {
+        "parent_sha256": "11a9d3689a5e5ef4f076f7b537e21a140767e54fb69a85b6e3e4bcfc80cd0c79",
+        "crop_pixels": [
+          10,
+          18,
+          742,
+          464
+        ],
+        "operations": "Lossless native list focus only; no resize or pixel editing. Complete five menu items with native eight-CSS-pixel vertical inset and list horizontal padding; outer popover wrapper omitted to exclude underlying corner text."
+      }
+    },
+    {
+      "concept": "hours",
+      "locale": "en",
+      "mobile": false,
+      "published_asset": "images/team/understanding-response-times/hours-en.png",
+      "sha256": "bdabc81ad2bbee56ffec76fbce5a90f83ed045741c6bbc345ea44e4b0dde11b6",
+      "pixels": [
+        1736,
+        1784
+      ],
+      "logical_size": [
+        868.0,
+        892.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/understanding-response-times/native/hours-en-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-response-times-editorial-20261001/native/hours-en-original.png",
+        "sha256": "bdabc81ad2bbee56ffec76fbce5a90f83ed045741c6bbc345ea44e4b0dde11b6",
+        "url": "http://127.0.0.1:3192/hellotext/settings/weekdays",
+        "locale": "en",
+        "cssViewport": [
+          1400,
+          1600
+        ],
+        "browserDpr": 2,
+        "clip": [
+          408,
+          147,
+          868,
+          892
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1736,
+          1784
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/settings/weekdays",
+        "title": "Response times - Hellotext",
+        "locale": "en",
+        "viewport": [
+          1400,
+          1600
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "reused": false,
+      "new_capture": true
+    },
+    {
+      "concept": "hours",
+      "locale": "en",
+      "mobile": true,
+      "published_asset": "images/team/understanding-response-times/hours-en-mobile.png",
+      "sha256": "f5d558fbe9d1613fd53cbd612847c83afb5de5ad758ff221217c54f3a0fc4f6b",
+      "pixels": [
+        828,
+        1608
+      ],
+      "logical_size": [
+        414.0,
+        804.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/understanding-response-times/native/hours-en-mobile-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-response-times-editorial-20261001/native/hours-en-mobile-original.png",
+        "sha256": "f5d558fbe9d1613fd53cbd612847c83afb5de5ad758ff221217c54f3a0fc4f6b",
+        "url": "http://127.0.0.1:3192/hellotext/settings/weekdays",
+        "locale": "en",
+        "cssViewport": [
+          430,
+          1600
+        ],
+        "browserDpr": 2,
+        "clip": [
+          8,
+          336,
+          414,
+          804
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          828,
+          1608
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/settings/weekdays",
+        "title": "Response times - Hellotext",
+        "locale": "en",
+        "viewport": [
+          430,
+          1600
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "reused": false,
+      "new_capture": true
+    },
+    {
+      "concept": "weekday",
+      "locale": "en",
+      "mobile": false,
+      "published_asset": "images/team/understanding-response-times/weekday-en.png",
+      "sha256": "3fef573a1cedc2f985c95d6dca01cd3310c30321f5322bcc28c6f64a7cacd2c3",
+      "pixels": [
+        972,
+        840
+      ],
+      "logical_size": [
+        486.0,
+        420.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/understanding-response-times/native/weekday-en-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-response-times-editorial-20261001/native/weekday-en-original.png",
+        "sha256": "3fef573a1cedc2f985c95d6dca01cd3310c30321f5322bcc28c6f64a7cacd2c3",
+        "url": "http://127.0.0.1:3192/hellotext/settings/weekdays/monday/edit",
+        "locale": "en",
+        "cssViewport": [
+          1400,
+          1600
+        ],
+        "browserDpr": 2,
+        "clip": [
+          905,
+          8,
+          486,
+          420
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          972,
+          840
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/settings/weekdays/monday/edit",
+        "title": "Response times - Hellotext",
+        "locale": "en",
+        "viewport": [
+          1400,
+          1600
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "reused": false,
+      "new_capture": true
+    },
+    {
+      "concept": "weekday",
+      "locale": "en",
+      "mobile": true,
+      "published_asset": "images/team/understanding-response-times/weekday-en-mobile.png",
+      "sha256": "17803b6cee140d751e794d3558adee394b441b849fa1ce35884378c91afaeac2",
+      "pixels": [
+        824,
+        840
+      ],
+      "logical_size": [
+        412.0,
+        420.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/understanding-response-times/native/weekday-en-mobile-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-response-times-editorial-20261001/native/weekday-en-mobile-original.png",
+        "sha256": "17803b6cee140d751e794d3558adee394b441b849fa1ce35884378c91afaeac2",
+        "url": "http://127.0.0.1:3192/hellotext/settings/weekdays/monday/edit",
+        "locale": "en",
+        "cssViewport": [
+          430,
+          1600
+        ],
+        "browserDpr": 2,
+        "clip": [
+          9,
+          8,
+          412,
+          420
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          824,
+          840
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/settings/weekdays/monday/edit",
+        "title": "Response times - Hellotext",
+        "locale": "en",
+        "viewport": [
+          430,
+          1600
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "reused": false,
+      "new_capture": true
+    },
+    {
+      "concept": "pressure",
+      "locale": "es",
+      "mobile": false,
+      "published_asset": "images/analytics-reporting-attribution/workload-capacity-report-guide/operational-pressure-team-es.png",
+      "sha256": "f80ae4e86f5544236440e62408dabb1c703f30e6a645c9ce5144a066c7e87156",
+      "pixels": [
+        2470,
+        950
+      ],
+      "logical_size": [
+        1235.0,
+        475.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/workload-capacity/operational-pressure-team-es-original.png",
+      "reused": true,
+      "new_capture": false,
+      "original_provenance": "docs/editorial-work/captures/workload-capacity/operational-pressure-team-es.json",
+      "historical_limits": [
+        "Operational Pressure oldest-waiting is a live snapshot and advanced three minutes between ES and EN captures."
+      ],
+      "capture_route": "Native macOS selected-window /usr/sbin/screencapture -l, scoped to one SCContentSharingPicker-selected Chrome window. The helper checked the exact window ID, owner PID, title, bounds, 2x raster, Display P3 color space, embedded ICC, and report OCR before saving."
+    },
+    {
+      "concept": "pressure",
+      "locale": "en",
+      "mobile": false,
+      "published_asset": "images/analytics-reporting-attribution/workload-capacity-report-guide/operational-pressure-team-en.png",
+      "sha256": "713754b1a5b1cee0eb3a8073d29199ff0628b4190395f37013be58fb1e842b37",
+      "pixels": [
+        2470,
+        950
+      ],
+      "logical_size": [
+        1235.0,
+        475.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/workload-capacity/operational-pressure-team-en-original.png",
+      "reused": true,
+      "new_capture": false,
+      "original_provenance": "docs/editorial-work/captures/workload-capacity/operational-pressure-team-en.json",
+      "historical_limits": [
+        "Team names remain Spanish fictional proper names in the English UI; product labels are localized.",
+        "Operational Pressure oldest-waiting is a live snapshot and advanced three minutes between ES and EN captures."
+      ],
+      "capture_route": "Native macOS selected-window /usr/sbin/screencapture -l, scoped to one SCContentSharingPicker-selected Chrome window. The helper checked the exact window ID, owner PID, title, bounds, 2x raster, Display P3 color space, embedded ICC, and report OCR before saving."
+    }
+  ],
+  "operations": "Native GETs only, technology menu opened without selection; locale owner ES/EN restored ES. No fields edited, no save/rule/hour/conversation/message/event/provider/API/test/send/worker action.",
+  "new_pngs": 20,
+  "reused_pngs": 2,
+  "capture_date": "2026-10-01",
+  "capture_route": "Guarded isolated native Chrome compositor PNG Display P3 D65 at DPR2, zoom1; helper validates before/after and returns metadata, not retained raw post-guard snapshots.",
+  "rejected_candidates": "Ten initial bounds candidates plus two mobile popover-wrapper corner-text candidates (mobile form bounds included unrelated background sections; technology crop included partly obscured underlying copy) rejected and never integrated. Final mobile bounds scoped to real pane; technology focuses the complete native five-item list with native inset; parent/crop hashes separate and ICC/pixels preserved.",
+  "section_visual_decisions": {
+    "targets": "Existing default form identifies two phase fields.",
+    "timers": "Conceptual response/phase/AI handoff contracts explained in prose. No new or reopened conversation, message, reaction, SLA cycle or background job manufactured; no Inbox GET because cursor can enqueue.",
+    "hours": "Seven-day native existing schedule and separate Monday controls explain weekly calendar vs one day.",
+    "channel_rules": "All five native technology options; unsaved empty form separately identifies fields/placeholder.",
+    "conversation_statuses": "Labels/state distinctions explained in prose; do not manufacture timers or frozen status sequences.",
+    "team_health": "Aggregated SLA vs queue-age/capacity distinctions in prose; existing aggregate report explains a different representation.",
+    "reports": "Historical approved team Operational Pressure PNG reused, unchanged, with period/current-wait/units in visible text.",
+    "configuration": "Real new form, empty targets/technology; final save omitted consistently.",
+    "plan": "Access rule in prose; no quota/plan switch or fake upgrade capture.",
+    "best_practices_related": "Decision guidance and existing links, no extra redundant captures."
+  },
+  "pending": [
+    "Protected PR/checks, independent exact-head review, normal production and public page/hash verification."
+  ],
+  "local_verification": "docs/editorial-work/captures/understanding-response-times/local-verification.json"
+}
