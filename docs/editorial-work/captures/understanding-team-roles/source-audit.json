@@ -1,0 +1,317 @@
+{
+  "inspected_at_utc": "2026-10-01T16:46:10.621595+00:00",
+  "protected_rails_sha": "5403a7dcb567b63cae87d4c088112d65fad4eb7f",
+  "current_master_sha": "c9fa00a0dd46d870644af3ad9876b251501cc179",
+  "source_files": [
+    {
+      "path": "app/controllers/settings/privileges_controller.rb",
+      "protected_sha256": "dfd8eb7cf16306c3681e2ac9e628c7b6bd219441de43658bf9fe56207c55e4ad",
+      "current_sha256": "dfd8eb7cf16306c3681e2ac9e628c7b6bd219441de43658bf9fe56207c55e4ad",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/controllers/settings/privileges_controller.rb"
+    },
+    {
+      "path": "app/controllers/settings/invitations_controller.rb",
+      "protected_sha256": "d7318eb633c3d701c658bd3f3cf9f6ed34cf1b2d5efd6e152c85bcc2ca389cae",
+      "current_sha256": "d7318eb633c3d701c658bd3f3cf9f6ed34cf1b2d5efd6e152c85bcc2ca389cae",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/controllers/settings/invitations_controller.rb"
+    },
+    {
+      "path": "app/models/privilege.rb",
+      "protected_sha256": "0961d7b6c10127123b31d65d4a73e8bab273e01d577fd2143a667785e3eec37d",
+      "current_sha256": "0961d7b6c10127123b31d65d4a73e8bab273e01d577fd2143a667785e3eec37d",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/models/privilege.rb"
+    },
+    {
+      "path": "app/models/privilege/redistribute_conversations.rb",
+      "protected_sha256": "219dc0da58053aa6a8b623a10b8807a6909dc3c02dfd20996c0b2d1c14857998",
+      "current_sha256": "219dc0da58053aa6a8b623a10b8807a6909dc3c02dfd20996c0b2d1c14857998",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/models/privilege/redistribute_conversations.rb"
+    },
+    {
+      "path": "app/models/invitation.rb",
+      "protected_sha256": "2cbbecdcb781007cf1cc72e1b4bc425e170f5da0ee9cdd4649d1ad560c399a35",
+      "current_sha256": "2cbbecdcb781007cf1cc72e1b4bc425e170f5da0ee9cdd4649d1ad560c399a35",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/models/invitation.rb"
+    },
+    {
+      "path": "app/models/user/invitable.rb",
+      "protected_sha256": "d3508e91ac253ed657c9469c19da5521a9ccc1ed5840f51aadd00e24fed1ad1d",
+      "current_sha256": "d3508e91ac253ed657c9469c19da5521a9ccc1ed5840f51aadd00e24fed1ad1d",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/models/user/invitable.rb"
+    },
+    {
+      "path": "app/models/business/privileges.rb",
+      "protected_sha256": "45c04ac9d114db843f9f9b0d79bf4bd281c6c1c3a0175a214d19fc4dd81bb548",
+      "current_sha256": "45c04ac9d114db843f9f9b0d79bf4bd281c6c1c3a0175a214d19fc4dd81bb548",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/models/business/privileges.rb"
+    },
+    {
+      "path": "app/models/business/plan_access.rb",
+      "protected_sha256": "bf51b7dbc509af9a9c2fade9d16b9eacac22e5ed29c79b09a77146cb44491fb8",
+      "current_sha256": "bf51b7dbc509af9a9c2fade9d16b9eacac22e5ed29c79b09a77146cb44491fb8",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/models/business/plan_access.rb"
+    },
+    {
+      "path": "app/models/team/concurrency_controls.rb",
+      "protected_sha256": "a3750d6ddcb7a29e921e4ccbec31fe3cbb9c58380452345a0cfd12d5d3060583",
+      "current_sha256": "a3750d6ddcb7a29e921e4ccbec31fe3cbb9c58380452345a0cfd12d5d3060583",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/models/team/concurrency_controls.rb"
+    },
+    {
+      "path": "app/models/concerns/discardable.rb",
+      "protected_sha256": "63aa0a351aa09444a3606e1a178f7cc99604bda2c037d5255e1f2085fb02065e",
+      "current_sha256": "63aa0a351aa09444a3606e1a178f7cc99604bda2c037d5255e1f2085fb02065e",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/models/concerns/discardable.rb"
+    },
+    {
+      "path": "app/policies/privilege_policy.rb",
+      "protected_sha256": "55f5aa67b2ebfc5e80bd9cd239cd0fae15f74721df974b67fab41cac3be10cd2",
+      "current_sha256": "55f5aa67b2ebfc5e80bd9cd239cd0fae15f74721df974b67fab41cac3be10cd2",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/policies/privilege_policy.rb"
+    },
+    {
+      "path": "app/policies/invitation_policy.rb",
+      "protected_sha256": "d151293a01cad796259dc237c60657ca5bb91a5ef6dc0e38e94ec280bf5a61e2",
+      "current_sha256": "d151293a01cad796259dc237c60657ca5bb91a5ef6dc0e38e94ec280bf5a61e2",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/policies/invitation_policy.rb"
+    },
+    {
+      "path": "app/policies/team_policy.rb",
+      "protected_sha256": "5c016a3a8d141108dd70d19c20fee2e33ae7256efedac4031a487af388ac5d47",
+      "current_sha256": "5c016a3a8d141108dd70d19c20fee2e33ae7256efedac4031a487af388ac5d47",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/policies/team_policy.rb"
+    },
+    {
+      "path": "app/policies/settings_policy.rb",
+      "protected_sha256": "053660c869008157e1db58c297f76546c4de59e07ed41be37100f1b8c3d22387",
+      "current_sha256": "053660c869008157e1db58c297f76546c4de59e07ed41be37100f1b8c3d22387",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/policies/settings_policy.rb"
+    },
+    {
+      "path": "app/policies/business_policy.rb",
+      "protected_sha256": "aa3d940e0887c2727e2531daacb133f84e666070c5cae68a3fab22a5d182abc2",
+      "current_sha256": "aa3d940e0887c2727e2531daacb133f84e666070c5cae68a3fab22a5d182abc2",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/policies/business_policy.rb"
+    },
+    {
+      "path": "app/policies/application_policy.rb",
+      "protected_sha256": "32618664dce303185b2b5d0565a13852a8b400d06776c215638ef897440b3933",
+      "current_sha256": "32618664dce303185b2b5d0565a13852a8b400d06776c215638ef897440b3933",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/policies/application_policy.rb"
+    },
+    {
+      "path": "app/policies/contact_policy.rb",
+      "protected_sha256": "cae799bdc45dffb42065fe3fbcc440bbbcbedfafb365823f7cfefbff1e353966",
+      "current_sha256": "cae799bdc45dffb42065fe3fbcc440bbbcbedfafb365823f7cfefbff1e353966",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/policies/contact_policy.rb"
+    },
+    {
+      "path": "app/policies/campaign_policy.rb",
+      "protected_sha256": "3021bd27394428543a22429db77e7d0e11c077f4ec20f4e617f61fdfafab3cdc",
+      "current_sha256": "3021bd27394428543a22429db77e7d0e11c077f4ec20f4e617f61fdfafab3cdc",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/policies/campaign_policy.rb"
+    },
+    {
+      "path": "app/policies/report_policy.rb",
+      "protected_sha256": "fc54b38e82efcbf53d0de3ed859b61670e5fe98ef01744401b8054008af886d0",
+      "current_sha256": "fc54b38e82efcbf53d0de3ed859b61670e5fe98ef01744401b8054008af886d0",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/policies/report_policy.rb"
+    },
+    {
+      "path": "app/policies/playbook_policy.rb",
+      "protected_sha256": "142f231b5cedb9d8e63e035f647fbccb59ab424974cd8f31ff78cb9858a3a7cf",
+      "current_sha256": "142f231b5cedb9d8e63e035f647fbccb59ab424974cd8f31ff78cb9858a3a7cf",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/policies/playbook_policy.rb"
+    },
+    {
+      "path": "app/policies/journey_policy.rb",
+      "protected_sha256": "7ad1d31cfe963331be3138b647d08bfac7e3471ca3db18a4850e94f597c34491",
+      "current_sha256": "7ad1d31cfe963331be3138b647d08bfac7e3471ca3db18a4850e94f597c34491",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/policies/journey_policy.rb"
+    },
+    {
+      "path": "app/policies/channel_policy.rb",
+      "protected_sha256": "4f6d8b9efb0e373070abdca5990866ddaa652fcc135682d2fa32ea069a5d092f",
+      "current_sha256": "4f6d8b9efb0e373070abdca5990866ddaa652fcc135682d2fa32ea069a5d092f",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/policies/channel_policy.rb"
+    },
+    {
+      "path": "app/policies/authorization_token_policy.rb",
+      "protected_sha256": "e67fbce4246adc4076a0839174b718a9f8bfa60fcda0a2e7d21a3dc63b492186",
+      "current_sha256": "e67fbce4246adc4076a0839174b718a9f8bfa60fcda0a2e7d21a3dc63b492186",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/policies/authorization_token_policy.rb"
+    },
+    {
+      "path": "app/policies/business/billing_policy.rb",
+      "protected_sha256": "e1fd1a018688e6d157bd0ccfe3e547c776a552ca46fbb46f76f64859a4dc2a0f",
+      "current_sha256": "e1fd1a018688e6d157bd0ccfe3e547c776a552ca46fbb46f76f64859a4dc2a0f",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/policies/business/billing_policy.rb"
+    },
+    {
+      "path": "app/controllers/settings/billings_controller.rb",
+      "protected_sha256": "6efbd383fa8116c3a51b680f934183f50ab221a5c981a18ba01a9bb5211d7898",
+      "current_sha256": "6efbd383fa8116c3a51b680f934183f50ab221a5c981a18ba01a9bb5211d7898",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/controllers/settings/billings_controller.rb"
+    },
+    {
+      "path": "app/controllers/settings/integrations_controller.rb",
+      "protected_sha256": "d172d0c574f253aa4d5d4504a91ba16abf680f6e9cd7f825f8fd8e2b556558d8",
+      "current_sha256": "d172d0c574f253aa4d5d4504a91ba16abf680f6e9cd7f825f8fd8e2b556558d8",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/controllers/settings/integrations_controller.rb"
+    },
+    {
+      "path": "app/controllers/settings/authorization_tokens_controller.rb",
+      "protected_sha256": "9f33334680a87cfb4571463b71ac78d3b7256df466af344d219293e82604202d",
+      "current_sha256": "9f33334680a87cfb4571463b71ac78d3b7256df466af344d219293e82604202d",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/controllers/settings/authorization_tokens_controller.rb"
+    },
+    {
+      "path": "app/controllers/teams/transfer_ownership_controller.rb",
+      "protected_sha256": "bd4a1f60d10ded1f0b73ffc9375a30c3c07437ebd1c28ff6bf1cd6088af84273",
+      "current_sha256": "bd4a1f60d10ded1f0b73ffc9375a30c3c07437ebd1c28ff6bf1cd6088af84273",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/controllers/teams/transfer_ownership_controller.rb"
+    },
+    {
+      "path": "app/controllers/invitation/accept_controller.rb",
+      "protected_sha256": "cd538c952dabc55ff436a38868eae9f5fc57ea8593da186bd259fd9e7f9f5782",
+      "current_sha256": "cd538c952dabc55ff436a38868eae9f5fc57ea8593da186bd259fd9e7f9f5782",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/controllers/invitation/accept_controller.rb"
+    },
+    {
+      "path": "app/controllers/settings/teams_controller.rb",
+      "protected_sha256": "034e36b9781ed22e449c1513d8e14e97cf5518316f55f78f04b93377784bf93c",
+      "current_sha256": "034e36b9781ed22e449c1513d8e14e97cf5518316f55f78f04b93377784bf93c",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/controllers/settings/teams_controller.rb"
+    },
+    {
+      "path": "app/controllers/reports_controller.rb",
+      "protected_sha256": "404af5fc3553e80a6dad2ede2493de2e32ba1aaa4c5138f1d9599fd3fab58dd8",
+      "current_sha256": "404af5fc3553e80a6dad2ede2493de2e32ba1aaa4c5138f1d9599fd3fab58dd8",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/controllers/reports_controller.rb"
+    },
+    {
+      "path": "app/controllers/contacts_controller.rb",
+      "protected_sha256": "fdfa97d99e0f2bedee1714ed8ef54c6c84a2f77d36ca3a0802ca19cdbfe906c5",
+      "current_sha256": "fdfa97d99e0f2bedee1714ed8ef54c6c84a2f77d36ca3a0802ca19cdbfe906c5",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/controllers/contacts_controller.rb"
+    },
+    {
+      "path": "app/controllers/playbooks_controller.rb",
+      "protected_sha256": "a6ad61417600b5bd45b083f3094da32fddbec158029d703591a993e5e35d7538",
+      "current_sha256": "a6ad61417600b5bd45b083f3094da32fddbec158029d703591a993e5e35d7538",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/controllers/playbooks_controller.rb"
+    },
+    {
+      "path": "app/models/conversation/ownership/team_member_pool.rb",
+      "protected_sha256": "68f755d5f4d265da86928100994f51f017557c2ad4c702b450e7fd0b857a44e7",
+      "current_sha256": "68f755d5f4d265da86928100994f51f017557c2ad4c702b450e7fd0b857a44e7",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/models/conversation/ownership/team_member_pool.rb"
+    },
+    {
+      "path": "app/views/settings/privileges/_privilege.html.erb",
+      "protected_sha256": "c9394126ada5e5dd59e12e3558d97d5dcfc23f84c6ea2465f22c5b96c9b9c16f",
+      "current_sha256": "c9394126ada5e5dd59e12e3558d97d5dcfc23f84c6ea2465f22c5b96c9b9c16f",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/views/settings/privileges/_privilege.html.erb"
+    },
+    {
+      "path": "app/views/settings/privileges/new.html.erb",
+      "protected_sha256": "0f27f708a16caa4a95f824cfccbe6e7715de23c08511bb7190cf74e5cd5262f2",
+      "current_sha256": "0f27f708a16caa4a95f824cfccbe6e7715de23c08511bb7190cf74e5cd5262f2",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/views/settings/privileges/new.html.erb"
+    },
+    {
+      "path": "app/views/settings/privileges/capacity.html.erb",
+      "protected_sha256": "59bd43af8917a8064af013aee5c560cd7cd6a5fe84e91055c06df0e711d737fb",
+      "current_sha256": "59bd43af8917a8064af013aee5c560cd7cd6a5fe84e91055c06df0e711d737fb",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/views/settings/privileges/capacity.html.erb"
+    },
+    {
+      "path": "app/views/settings/invitations/new.html.erb",
+      "protected_sha256": "bfd8e817786400a6fe37ba205c7115a3c2b88523194ed03c4589dfe5da1a5aff",
+      "current_sha256": "bfd8e817786400a6fe37ba205c7115a3c2b88523194ed03c4589dfe5da1a5aff",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/views/settings/invitations/new.html.erb"
+    },
+    {
+      "path": "app/views/settings/invitations/roles.html.erb",
+      "protected_sha256": "c7cc84c1b2dd70c05c883e2e1e0dd6ca70bf003040d4fbfc387f7d41d3de327c",
+      "current_sha256": "c7cc84c1b2dd70c05c883e2e1e0dd6ca70bf003040d4fbfc387f7d41d3de327c",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/views/settings/invitations/roles.html.erb"
+    },
+    {
+      "path": "app/views/settings/inbox_capacity/_step.html.erb",
+      "protected_sha256": "386fd7bcc56a29102527d206278d9e955cfc2caab7d336e55e24decb6c65af20",
+      "current_sha256": "386fd7bcc56a29102527d206278d9e955cfc2caab7d336e55e24decb6c65af20",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/views/settings/inbox_capacity/_step.html.erb"
+    },
+    {
+      "path": "app/views/settings/inbox_capacity/_option.html.erb",
+      "protected_sha256": "ac14f23a71e0219709b1554dc4922e5b73ebd0c1546bc5778caf08a91c90db36",
+      "current_sha256": "ac14f23a71e0219709b1554dc4922e5b73ebd0c1546bc5778caf08a91c90db36",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/views/settings/inbox_capacity/_option.html.erb"
+    },
+    {
+      "path": "config/locales/views/settings/privileges/es.yml",
+      "protected_sha256": "1752bf95b5543a8f358c47ff0228c41bcded191b2fc1a4271130a04134704225",
+      "current_sha256": "1752bf95b5543a8f358c47ff0228c41bcded191b2fc1a4271130a04134704225",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/config/locales/views/settings/privileges/es.yml"
+    },
+    {
+      "path": "config/locales/views/settings/privileges/en.yml",
+      "protected_sha256": "f3250a57517982b4408a27a01d0285470672385b0ab6fd8527099f25ffc239d5",
+      "current_sha256": "f3250a57517982b4408a27a01d0285470672385b0ab6fd8527099f25ffc239d5",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/config/locales/views/settings/privileges/en.yml"
+    },
+    {
+      "path": "app/models/user.rb",
+      "protected_sha256": "4e608381ee931d8ac1afaa47efabd0e37ac5044aad7054ed57a8fae076b113f4",
+      "current_sha256": "0d82acab9c8fdf8363be646d028b8b9f891a8e0b473a9db34d927f9b6668cc6b",
+      "identical": false,
+      "url": "https://github.com/hellotext/hellotext/blob/c9fa00a0dd46d870644af3ad9876b251501cc179/app/models/user.rb"
+    }
+  ],
+  "primary_external_sources": [],
+  "operations": "Read-only source comparison. Native screenshots use separate documented unsaved UI GETs and guarded locale changes; no send/save/activation or fixture creation."
+}

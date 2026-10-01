@@ -1,0 +1,456 @@
+{
+  "url": "http://127.0.0.1:3192/hellotext/settings/members/29D7LZXk/edit",
+  "title": "New Invite - Select Role - Hellotext",
+  "locale": "en",
+  "viewport": [
+    430,
+    800
+  ],
+  "dpr": 2,
+  "zoom": 1,
+  "scroll": [
+    0,
+    0
+  ],
+  "text": "What do you want this member to see\nAgent\n\nCan manage conversations and contacts. Ideal for an agent who will be mostly taking care of conversations.\n\nManager\nCan manage campaigns and see their reports, manage captures, and everything agents do.\nAdministrator\nCan manage all messages, contacts, business settings and billing.\nBack\nSave & Close\nNext",
+  "controls": [
+    {
+      "tag": "FORM",
+      "id": "",
+      "text": "What do you want this member to see\nAgent\n\nCan manage conversations and contacts. Ideal for an agent who will be mostly taking care of conversations.\n\nManager\nCan manage campaigns and see their reports, manage captures, and everything agents do.\nAdministrator\nCan manage all messages, contacts, business settings and billing.\nBack\nSave & Close\nNext",
+      "name": "",
+      "rect": [
+        0,
+        8,
+        430,
+        859
+      ]
+    },
+    {
+      "tag": "HEADER",
+      "id": "",
+      "text": "What do you want this member to see",
+      "rect": [
+        16,
+        56,
+        398,
+        68
+      ]
+    },
+    {
+      "tag": "H1",
+      "id": "wizard-header-title",
+      "text": "What do you want this member to see",
+      "rect": [
+        16,
+        56,
+        398,
+        68
+      ]
+    },
+    {
+      "tag": "LABEL",
+      "id": "",
+      "text": "Agent\n\nCan manage conversations and contacts. Ideal for an agent who will be mostly taking care of conversations.",
+      "rect": [
+        16,
+        196,
+        398,
+        117
+      ]
+    },
+    {
+      "tag": "INPUT",
+      "id": "agent",
+      "text": "",
+      "name": "role",
+      "value": "agent",
+      "checked": true,
+      "disabled": false,
+      "rect": [
+        16,
+        236,
+        20,
+        20
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "id": "",
+      "text": "Agent\n\nCan manage conversations and contacts. Ideal for an agent who will be mostly taking care of conversations.",
+      "rect": [
+        68,
+        196,
+        346,
+        100
+      ]
+    },
+    {
+      "tag": "LABEL",
+      "id": "",
+      "text": "Manager\nCan manage campaigns and see their reports, manage captures, and everything agents do.",
+      "rect": [
+        16,
+        345,
+        398,
+        117
+      ]
+    },
+    {
+      "tag": "INPUT",
+      "id": "manager",
+      "text": "",
+      "name": "role",
+      "value": "manager",
+      "checked": false,
+      "disabled": false,
+      "rect": [
+        16,
+        385,
+        20,
+        20
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "id": "",
+      "text": "Manager\nCan manage campaigns and see their reports, manage captures, and everything agents do.",
+      "rect": [
+        68,
+        345,
+        346,
+        100
+      ]
+    },
+    {
+      "tag": "LABEL",
+      "id": "",
+      "text": "Administrator\nCan manage all messages, contacts, business settings and billing.",
+      "rect": [
+        16,
+        494,
+        398,
+        93
+      ]
+    },
+    {
+      "tag": "INPUT",
+      "id": "administrator",
+      "text": "",
+      "name": "role",
+      "value": "administrator",
+      "checked": false,
+      "disabled": false,
+      "rect": [
+        16,
+        522,
+        20,
+        20
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "id": "",
+      "text": "Administrator\nCan manage all messages, contacts, business settings and billing.",
+      "rect": [
+        68,
+        494,
+        346,
+        76
+      ]
+    },
+    {
+      "tag": "MAIN",
+      "id": "",
+      "text": "Save & Close\nNext",
+      "rect": [
+        167.5625,
+        740,
+        246.4375,
+        44
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Save & Close",
+      "name": "commit",
+      "value": "save_and_close",
+      "disabled": false,
+      "rect": [
+        167.5625,
+        740,
+        153.296875,
+        44
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Next",
+      "name": "commit",
+      "value": "next",
+      "disabled": false,
+      "rect": [
+        328.859375,
+        740,
+        85.140625,
+        44
+      ]
+    }
+  ],
+  "requests": [
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/hellotext/settings/members/29D7LZXk/edit"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@vite/client"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/entrypoints/alt.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/translations/en/4897dbef0c51a33e9715bce192b75b617c6159a3.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/@hotwired_turbo-rails.js?v=2eb3672c"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/turbo___power.js?v=2eb3672c"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/@hotwired_stimulus.js?v=2eb3672c"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/@rails_activestorage.js?v=2eb3672c"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/trix.js?v=d3214812"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/@rails_actiontext.js?v=2eb3672c"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/channels/index.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/entrypoints/application/push_notifications.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/entrypoints/application/pane_viewport.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/entrypoints/stylesheets/application.scss"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/static/agreement_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/compose/email_color_field_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/artifact/image_gallery_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/form/dynamic_action_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/pane_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/payments/package_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/payments/packages_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/radio_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/settings/pane_frame_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/step/name_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/toast_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/toast_stack_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/ui/popover_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/settings/member_search_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/settings/template_preview_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/onboarding/wizard_history_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/entrypoints/application/conversation_stream_actions.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-editorial-screenshots-static/node_modules/vite/dist/client/env.mjs"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/rolldown-runtime-B-lAHAz2.js?v=a41ca255"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/@hotwired_turbo.js?v=26a24a72"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/concerns/closable_pane.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/application_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/@rails_request__js.js?v=9ea441b1"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/mixins/useAutoWidthInput.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/lottie-web.js?v=0e91dba8"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/@floating-ui_dom.js?v=f2a2bcb0"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/keyboard_navigation_mixin.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/popup/dropdown_highlight_styles.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/models/money_formatter.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/mixins/useNumberHelpers.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/lib/random_uuid.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/lib/number_formatter.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/src-eDHVofsP.js?v=a41ca255"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/user/online_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/progress_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/form/submit_inactive_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/util/multi_submit_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3ccircle cx='8' cy='8' r='3'/%3e%3c/svg%3e"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/app/assets/fonts/BagossExtended-SemiBold.woff2"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/app/assets/fonts/PPObjectSans-Medium.woff2"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/app/assets/fonts/PPObjectSans-Regular.woff2"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/animations/toast-success-confetti.json"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/channels/consumer.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/models/current.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/@rails_actioncable.js?v=1e575282"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/models/browser.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/hellotext/journeys/new"
+    }
+  ],
+  "guard": {
+    "pid": 57358,
+    "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+    "port": 9460,
+    "account": "design-system@example.test",
+    "single_local_page": true,
+    "color": "display-p3-d65"
+  }
+}
