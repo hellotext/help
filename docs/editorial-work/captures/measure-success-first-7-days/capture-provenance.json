@@ -1,6 +1,6 @@
 {
   "article_key": "getting-started/measure-success-first-7-days.md",
-  "status": "local_verified_publication_pending",
+  "status": "publicly_verified",
   "baseline_main": "03131d645e346be0193f5ca3d2ea1ad168f41630",
   "originals": [
     {
@@ -42,7 +42,9 @@
       "pixel_edits": "none",
       "limitations": [],
       "historical_capture_guard": "Retain exact original native window and fixture evidence; no retrospective automatic capture or per-shot account attestation is claimed.",
-      "consumer_publication_state": "pending"
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "reuse_note": "Existing approved native source reused without recapture or duplicate upload; consumer verified after #305."
     },
     {
       "name": "summary-period-es-mobile-wide",
@@ -66,7 +68,9 @@
       "pixel_edits": "none",
       "limitations": [],
       "historical_capture_guard": "Retain exact original native window and fixture evidence; no retrospective automatic capture or per-shot account attestation is claimed.",
-      "consumer_publication_state": "pending"
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "reuse_note": "Existing approved native source reused without recapture or duplicate upload; consumer verified after #305."
     },
     {
       "name": "time-to-conversion-es-desktop-wide",
@@ -92,7 +96,9 @@
         "The Spanish widget was captured at 150% browser zoom to separate the five category labels at its final Help size; the Help article itself retains its original width."
       ],
       "historical_capture_guard": "Retain exact original native window and fixture evidence; no retrospective automatic capture or per-shot account attestation is claimed.",
-      "consumer_publication_state": "pending"
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "reuse_note": "Existing approved native source reused without recapture or duplicate upload; consumer verified after #305."
     },
     {
       "name": "time-to-conversion-es-mobile-wide",
@@ -116,7 +122,9 @@
       "pixel_edits": "none",
       "limitations": [],
       "historical_capture_guard": "Retain exact original native window and fixture evidence; no retrospective automatic capture or per-shot account attestation is claimed.",
-      "consumer_publication_state": "pending"
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "reuse_note": "Existing approved native source reused without recapture or duplicate upload; consumer verified after #305."
     },
     {
       "name": "kpi-overview-es",
@@ -143,7 +151,9 @@
         "Source labels become compact at phone width; adjacent prose carries the essential values."
       ],
       "historical_capture_guard": "Retain exact original native window and fixture evidence; no retrospective automatic capture or per-shot account attestation is claimed.",
-      "consumer_publication_state": "pending"
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "reuse_note": "Existing approved native source reused without recapture or duplicate upload; consumer verified after #305."
     },
     {
       "name": "summary-period-en-wide-desktop",
@@ -167,7 +177,9 @@
       "pixel_edits": "none",
       "limitations": [],
       "historical_capture_guard": "Retain exact original native window and fixture evidence; no retrospective automatic capture or per-shot account attestation is claimed.",
-      "consumer_publication_state": "pending"
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "reuse_note": "Existing approved native source reused without recapture or duplicate upload; consumer verified after #305."
     },
     {
       "name": "summary-period-en-mobile-wide",
@@ -191,7 +203,9 @@
       "pixel_edits": "none",
       "limitations": [],
       "historical_capture_guard": "Retain exact original native window and fixture evidence; no retrospective automatic capture or per-shot account attestation is claimed.",
-      "consumer_publication_state": "pending"
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "reuse_note": "Existing approved native source reused without recapture or duplicate upload; consumer verified after #305."
     },
     {
       "name": "time-to-conversion-en-desktop-wide",
@@ -217,7 +231,9 @@
         "The widget is shown at 175% browser zoom to give the complete chart readable labels in its final Help frame; the Help article itself retains its original width."
       ],
       "historical_capture_guard": "Retain exact original native window and fixture evidence; no retrospective automatic capture or per-shot account attestation is claimed.",
-      "consumer_publication_state": "pending"
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "reuse_note": "Existing approved native source reused without recapture or duplicate upload; consumer verified after #305."
     },
     {
       "name": "time-to-conversion-en-mobile-wide",
@@ -241,7 +257,9 @@
       "pixel_edits": "none",
       "limitations": [],
       "historical_capture_guard": "Retain exact original native window and fixture evidence; no retrospective automatic capture or per-shot account attestation is claimed.",
-      "consumer_publication_state": "pending"
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "reuse_note": "Existing approved native source reused without recapture or duplicate upload; consumer verified after #305."
     },
     {
       "name": "kpi-overview-en",
@@ -268,7 +286,9 @@
         "Source labels become compact at phone width; adjacent prose carries the essential values."
       ],
       "historical_capture_guard": "Retain exact original native window and fixture evidence; no retrospective automatic capture or per-shot account attestation is claimed.",
-      "consumer_publication_state": "pending"
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "reuse_note": "Existing approved native source reused without recapture or duplicate upload; consumer verified after #305."
     }
   ],
   "new_captures": 0,
@@ -279,9 +299,7 @@
   "campaign_period": "2026-04-19 through 2026-05-02, first_14_days; not a first-week cohort",
   "green_indicators": "Workload historical source calculator proof and four green indicators retained; summary/conversion have no period-comparison indicators.",
   "protected_state": "No app/DB/UI/fixture/locale/token/object/event/message/send/test/worker changes; protected primary campaign branch and dirty Rails3191 untouched.",
-  "pending": [
-    "Protected checks/review, merge, exact main Build/normal production and public page/PNG verification"
-  ],
+  "pending": [],
   "visual_source_selection": {
     "reason": "Pixel inspection found a right-edge gray artifact in the historical narrow summary sources and English narrow conversion source. The existing approved mobile-wide sources of the identical route/state/locale are clean and complete; use those at every viewport through 600px. Spanish narrow conversion also omits two axis labels, while the wide sources retain all five. No recapture, cropping, pixel edits or duplicate upload. Historical originals remain intact.",
     "excluded_historical_consumer_sources": [
@@ -322,6 +340,19 @@
     "examples_per_locale": 0,
     "new_captures": 0,
     "new_png_uploads": 0,
-    "publication_state": "pending"
+    "publication_state": "Public verification completed after content merge; see root publication evidence."
+  },
+  "publication": {
+    "state": "publicly_verified",
+    "evidence": "public-verification.json",
+    "content_pr": "https://github.com/hellotext/help/pull/305",
+    "main_merge_sha": "ac3f34372c26e662a485d07fbdc59045449ea972",
+    "deploy_id": "6abdc6e42dc606000899a016",
+    "public_pages_http": 200,
+    "first_week_reused_assets": 10,
+    "all_affected_article_assets": 58,
+    "approved_hashes_match": true,
+    "new_captures": 0,
+    "new_png_uploads": 0
   }
 }

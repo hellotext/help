@@ -1,0 +1,611 @@
+{
+  "verified_at_utc": "2026-10-01T02:37:04.443361+00:00",
+  "verified_git_main_sha": "ac3f34372c26e662a485d07fbdc59045449ea972",
+  "production_deploy_id_sha_association": {
+    "id": "6abdc6e42dc606000899a016",
+    "site_id": "d66a79c1-b5de-44d1-bc47-bc7809f7f3b3",
+    "state": "ready",
+    "context": "production",
+    "branch": "main",
+    "commit_ref": "ac3f34372c26e662a485d07fbdc59045449ea972",
+    "created_at": "2026-10-01T02:35:16.518Z",
+    "published_at": "2026-10-01T02:36:12.979Z",
+    "deploy_ssl_url": "https://main--legendary-lollipop-e2d131.netlify.app"
+  },
+  "deployment_method": "Normal Netlify production after Git merge; no manual deploy. Accessible public site-alias listing provided exact commit_ref.",
+  "pages": [
+    {
+      "url": "https://help.hellotext.com/es/mide-exito-primeros-7-dias",
+      "status": 200,
+      "article_key": "getting-started/measure-success-first-7-days.md",
+      "locale": "es",
+      "figures": 3,
+      "sections": 8,
+      "approved_reused_assets_present": [
+        "/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-wide-desktop.png",
+        "/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-mobile-wide.png",
+        "/images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-es-desktop-wide.png",
+        "/images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-es-mobile-wide.png",
+        "/images/analytics-reporting-attribution/workload-capacity-report-guide/kpi-overview-es.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "4f447af8128524bf7e5b2c4818e1572ce4d19b518f1a34dd2ced667cb3c2a12e",
+      "html_sha256": "d931b5cbf0ec265bfc75bfe5917b42112f45aa58b6e3df380bd205a5b38071ab"
+    },
+    {
+      "url": "https://help.hellotext.com/measure-success-first-7-days",
+      "status": 200,
+      "article_key": "getting-started/measure-success-first-7-days.md",
+      "locale": "en",
+      "figures": 3,
+      "sections": 8,
+      "approved_reused_assets_present": [
+        "/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-wide-desktop.png",
+        "/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile-wide.png",
+        "/images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-en-desktop-wide.png",
+        "/images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-en-mobile-wide.png",
+        "/images/analytics-reporting-attribution/workload-capacity-report-guide/kpi-overview-en.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "2dc08e619c8508f425633ba8dbc991d645f1cecbb4e0790cf435db97620f798b",
+      "html_sha256": "9ea4e57f0d19cc321b7012c6e8c6b6818625bd0f4db3882d140ba95a21ae7565"
+    },
+    {
+      "url": "https://help.hellotext.com/es/reportes-de-campa\u00f1a",
+      "status": 200,
+      "article_key": "analytics-reporting-attribution/campaign-reporting.md",
+      "locale": "es",
+      "figures": 7,
+      "sections": 11,
+      "approved_reused_assets_present": [],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "ade097802c4b168949b788b641074498ebe18af60ff3c0179bbe412842bc967b",
+      "html_sha256": "a61baf6732495feac038486bbe6de6fe924888ee084553984df2187a0e87c089"
+    },
+    {
+      "url": "https://help.hellotext.com/campaign-reporting",
+      "status": 200,
+      "article_key": "analytics-reporting-attribution/campaign-reporting.md",
+      "locale": "en",
+      "figures": 7,
+      "sections": 11,
+      "approved_reused_assets_present": [],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "73993610a42832934e2f8c4660b6d411e362ac59803cca4c4380bbc6f922a623",
+      "html_sha256": "6c7a0fda21ad38efca976adf47aa175a9279736356fe344acb80bcfa767215d5"
+    },
+    {
+      "url": "https://help.hellotext.com/es/resumen-analitica-reportes-atribucion",
+      "status": 200,
+      "article_key": "analytics-reporting-attribution/analytics-overview.md",
+      "locale": "es",
+      "figures": 0,
+      "sections": 12,
+      "approved_reused_assets_present": [],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "7407fb006d38915f5fbf91ca9b77b91286c32e561fe3122e44421b95d515c58f",
+      "html_sha256": "ffa224ddb253cc4e3e12c5cb4c659c41a813f757f94478ebd2c1fab538ae0a45"
+    },
+    {
+      "url": "https://help.hellotext.com/analytics-reporting-attribution-overview",
+      "status": 200,
+      "article_key": "analytics-reporting-attribution/analytics-overview.md",
+      "locale": "en",
+      "figures": 0,
+      "sections": 12,
+      "approved_reused_assets_present": [],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "2b635455e2bad0050a60036874575efc3555a402d8407ca2bc77e8261723f09a",
+      "html_sha256": "3388518aa8416e2c7c4a22ce3e07bb80780ac18f4ac884f77e9f21d141ff91ad"
+    },
+    {
+      "url": "https://help.hellotext.com/es/integridad-datos-diferencias-reportes",
+      "status": 200,
+      "article_key": "analytics-reporting-attribution/data-completeness-and-reporting-gaps.md",
+      "locale": "es",
+      "figures": 0,
+      "sections": 10,
+      "approved_reused_assets_present": [],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "e04f5db85d4b0e2df7c61f5727dcce76ce911d4f8d81a531dbf93d1aa2454539",
+      "html_sha256": "1bc9dc4f92da90542d0f3a03561613b1b17a5f352c000681a3263f4509c1b191"
+    },
+    {
+      "url": "https://help.hellotext.com/data-completeness-and-reporting-gaps",
+      "status": 200,
+      "article_key": "analytics-reporting-attribution/data-completeness-and-reporting-gaps.md",
+      "locale": "en",
+      "figures": 0,
+      "sections": 10,
+      "approved_reused_assets_present": [],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "983d0c8263e123fa070ceb0cb3c8241490bc428657edb44013c2318b9f9dfe68",
+      "html_sha256": "3fdabddcf2ba69c6e29f94f28c7b97599fd509aca01608c913659d993a7fd814"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-wide-desktop.png",
+      "status": 200,
+      "sha256": "65bfef90c667cf5da787412ad4d2175652ea945e2b1c1c84c7fb4bdb6c9217fc",
+      "matches_approved_asset": true,
+      "first_week_reused_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-mobile-wide.png",
+      "status": 200,
+      "sha256": "71136b3c75dbbe12a40ad787057309089b29f7d83b49f1ae1426ea91887e34e3",
+      "matches_approved_asset": true,
+      "first_week_reused_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-es-desktop-wide.png",
+      "status": 200,
+      "sha256": "9770459fa4583f37638a479c24a7ba40fc102ee00580f049c783caabe2036983",
+      "matches_approved_asset": true,
+      "first_week_reused_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-es-mobile-wide.png",
+      "status": 200,
+      "sha256": "6d175b3a1d776b34b73c8d8cf72c093e87c829a829957e4763c5c38706aacab0",
+      "matches_approved_asset": true,
+      "first_week_reused_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/workload-capacity-report-guide/kpi-overview-es.png",
+      "status": 200,
+      "sha256": "204b9d561b55ae0ca1e426ce3a03d29b424d49bc2641bb184979c08ce077ae69",
+      "matches_approved_asset": true,
+      "first_week_reused_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-wide-desktop.png",
+      "status": 200,
+      "sha256": "470347c0697af60e59b6119e2c83bfb848fb9cbf69bd07ec4b14e451db40800e",
+      "matches_approved_asset": true,
+      "first_week_reused_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile-wide.png",
+      "status": 200,
+      "sha256": "244b1faacb31e3852d224f2db51c2efda234e4d57a54826aac83e726037efc36",
+      "matches_approved_asset": true,
+      "first_week_reused_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-en-desktop-wide.png",
+      "status": 200,
+      "sha256": "9f22daf2d5dcfa2e37c6b1a2efde2442733b176fefdb6d8f60ad94ae56e29e54",
+      "matches_approved_asset": true,
+      "first_week_reused_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-en-mobile-wide.png",
+      "status": 200,
+      "sha256": "0e02008d93a841958458ba2a4bdf74bc2c55a738d2540028111078c38987720a",
+      "matches_approved_asset": true,
+      "first_week_reused_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/workload-capacity-report-guide/kpi-overview-en.png",
+      "status": 200,
+      "sha256": "9c1bc7d426d829df67f03b4758984a6e8fa7ef2161cda28528a7322c2764262b",
+      "matches_approved_asset": true,
+      "first_week_reused_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-es-tablet.png",
+      "status": 200,
+      "sha256": "aa11da798d62f3ae35ae859ee4eb6d5f39420cf9b4c7f8458d0f538821364c0f",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/revenue-by-channel-es-mobile-wide.png",
+      "status": 200,
+      "sha256": "13130b06276a24aa16825bfcb982e58e7a7976a831addcc5ee8238d6a37a4fa1",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-es-wide-desktop.png",
+      "status": 200,
+      "sha256": "7e453d5559c57ff974d6afdc9027e732decc61e8af2b4194d588c58ec948734d",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-es-mobile.png",
+      "status": 200,
+      "sha256": "781f832d12cad84cdf560cc1079990aa77cd20cb96747e33b849a508b6dc134a",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-es-tablet.png",
+      "status": 200,
+      "sha256": "314016d072dce47b87007f9ae9497e4cb1e8307521e75d8eceb514d50900ecd3",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/message-comparison-es-tablet.png",
+      "status": 200,
+      "sha256": "135009837019a930b0e3c71aeb3781ca32e78f41b547fc7db3ac712fbcf61aa0",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/revenue-by-segment-es-tablet.png",
+      "status": 200,
+      "sha256": "b93ac979e566ab97fceeb739658845ea2ca870845411c54069d7b25513d7de31",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-es-mobile.png",
+      "status": 200,
+      "sha256": "7518f1dd3742d7cc8a2a0632bedf0828403fccd8dd714d5b17f3f8017535ed59",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/message-comparison-es-mobile-wide.png",
+      "status": 200,
+      "sha256": "504c0372ff250beef0741b49e61b66d7be0bd16085b8e5adcf6a636287cdcfee",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/revenue-by-segment-es-mobile.png",
+      "status": 200,
+      "sha256": "45b4f61981f7de25ff48903b8a561a427e6ae79a0822c6b8203a60e293a78f78",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/revenue-by-segment-es-mobile-wide.png",
+      "status": 200,
+      "sha256": "da03e2c6655f86fc19bb688609cb9555bfbddbf75d38a5ded020bb745dcb2f4d",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/revenue-by-channel-es-tablet.png",
+      "status": 200,
+      "sha256": "36067c2167a5fe8e9dcd5721b70b07d626d6f650a2e2e64703df7edf09e57dc5",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-mobile.png",
+      "status": 200,
+      "sha256": "02aac37bd3bac53b86c2d1907df021cbac0673a0b279eaf4bb1a821cb0464fcf",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-es-mobile.png",
+      "status": 200,
+      "sha256": "a9c36d3abe18aab598d2b1daffe50d9d3eb03726e0f5e002d5e2044ec550dfa1",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/message-comparison-es-mobile.png",
+      "status": 200,
+      "sha256": "e612bff53b5d4c2fc160156d62d6c42a1abbc109eabddaa7615197372467e2fc",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/revenue-by-channel-es-desktop-wide.png",
+      "status": 200,
+      "sha256": "c1fb0263ee2fddf807fd9632ac71a59ab0a2e6d97255f5770141ee91c9400ef7",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-es-phone.png",
+      "status": 200,
+      "sha256": "9e8a5ca1c94ed97d6a8b5ebc627da5961e10fc5a3078c8c825ff2ca5fffc204a",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/revenue-by-segment-es.png",
+      "status": 200,
+      "sha256": "8b25f7b86343319147cbb1df579e893f328a70eae2ff0b9496d15e50f722eb6a",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-es-tablet.png",
+      "status": 200,
+      "sha256": "da5f2468944eeaaa7fc247545d04b0cbcc5d4efee65ebdfe9a40f0a45f33b841",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-es-mobile-wide.png",
+      "status": 200,
+      "sha256": "df514589dfcd2821d245cb1ef39781250caa579083a1318aa52354aad429918c",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/message-comparison-es.png",
+      "status": 200,
+      "sha256": "ffd66b17b3c1c7c8a872403c618ddb90a131fd6b53eb010fe9c5cf214acd2d4a",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/revenue-by-channel-es-mobile.png",
+      "status": 200,
+      "sha256": "d784811c80f124820958b4809202d42a777e51301dcf93be1012623a99859681",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-es.png",
+      "status": 200,
+      "sha256": "97a7ffa8ab9ea3c57ec0efb2ec12eca5841b6019592bbdd92b49e16caa6b420e",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-tablet.png",
+      "status": 200,
+      "sha256": "a1e67e3920d6063eccd53e69489f80c03d05d2cef7e2c1cf17c61e939a9e0e28",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-en-mobile-wide.png",
+      "status": 200,
+      "sha256": "846b8db32650e253d4cca6cfa88520a91fcacb93039851ea3f77492c4b08215d",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-en-tablet.png",
+      "status": 200,
+      "sha256": "71575f54a62929993820d7c4993443f3d577517c01399e42f0837fa7045c935b",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-en.png",
+      "status": 200,
+      "sha256": "0464f0b52d1bac89129015255f2aee2ac8df40f73ec2ac3fe902152a6f923edf",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-en-mobile.png",
+      "status": 200,
+      "sha256": "292abf114fb66ccadf9b96bf5b73e0b3dc126ca0f8b6ad211ea9101208c8d2a7",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/message-comparison-en-mobile-wide.png",
+      "status": 200,
+      "sha256": "d8e1e95dd6c373d8b97f796c5257df58d4cf067fddd4a4401db57f4d31fb73e7",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/revenue-by-segment-en.png",
+      "status": 200,
+      "sha256": "e703294566a4417f90b0f67377051eb02459267e912f390c3b3ea6621ac311ad",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-en-phone.png",
+      "status": 200,
+      "sha256": "fff4478f37d200cdb6b91088715db237d30637817acbb13da0e0cc0b02645671",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-en-wide-desktop.png",
+      "status": 200,
+      "sha256": "f2af94fc2270735a4093f375652204daca1c8017120922c4b0fcdee66cc1ed05",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/revenue-by-channel-en-mobile-wide.png",
+      "status": 200,
+      "sha256": "b3e66854a42701bb63765ee0412278dca82422d5ce1baf85e85247be97b94bf4",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/revenue-by-channel-en-mobile.png",
+      "status": 200,
+      "sha256": "9d027e97bfcadde00915acb8980dc6372db137f04a95dc9a935a2aa517c82dd1",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/message-comparison-en-tablet.png",
+      "status": 200,
+      "sha256": "d0c299fe8ab138ad8746e0fd1b326a1fec4683aa223cd2f650b2037d1f2c602d",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/revenue-by-segment-en-mobile.png",
+      "status": 200,
+      "sha256": "0bbf098ae890eaf240b311fc42d7bda762857e7c961fb5547444cd23ec8d6d48",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/revenue-by-segment-en-mobile-wide.png",
+      "status": 200,
+      "sha256": "b3a6b029ceb9a7db2494e4e5e2a1d8f121d9df3dfa5ab7d4f99171ed2ba0cbbf",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-en-mobile.png",
+      "status": 200,
+      "sha256": "0498f8842afd448ad0b17ddb5c9d931efa25c0714854608ebc2d75a1a79c746f",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-en-tablet.png",
+      "status": 200,
+      "sha256": "dc980c31e849ece02197aa0128601b0a2a4a27599351128a4e87f9e73379dee6",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/delivery-funnel-en-tablet.png",
+      "status": 200,
+      "sha256": "82b1f4c3157a0d79812d2eed3eaa07dcdaa8b8ee86314b3c0adfec75c3e6ad42",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/revenue-by-channel-en-tablet.png",
+      "status": 200,
+      "sha256": "931be99071ba945a8e1dc384e404e1eaab94dab4ab1cfaa700a9b000b8fb4f65",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-tablet.png",
+      "status": 200,
+      "sha256": "fbd7e5537b5fa4a5794b222ab175b665e0594e87269a001d16d118ce883e8794",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/selected-kpi-chart-en-mobile.png",
+      "status": 200,
+      "sha256": "0a9653b9cdd1e1f8a89d7069c648091172c72d4ad1f2562e48139e1b5fd79818",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile.png",
+      "status": 200,
+      "sha256": "b9a86be327cddac98a55d19d9225869847d1f40fd440a995ba2a34b14d916cd0",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/revenue-by-segment-en-tablet.png",
+      "status": 200,
+      "sha256": "9cfd1909f7de7f7b3391d524f6fe46db90ed96f312eea7e56ab4bb5dcb8142f5",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/revenue-by-channel-en-desktop-wide.png",
+      "status": 200,
+      "sha256": "28e102c6615884e750d3235451e3b9182be48986eb61ae716f8778c09e5508be",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/message-comparison-en.png",
+      "status": 200,
+      "sha256": "64775ee63782afca9af37d01bab161c4672fb76ecec7e0e61343742d7806d6f7",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/message-comparison-en-mobile.png",
+      "status": 200,
+      "sha256": "6ed48b6f7916158629fb43f19e9b82d85f7e954b748428a2734e7be59dfbd170",
+      "matches_approved_asset": true,
+      "first_week_reused_source": false,
+      "reused": true
+    }
+  ],
+  "new_captures": 0,
+  "new_png_uploads": 0,
+  "first_week_reused_pngs": 10,
+  "all_affected_article_pngs": 58,
+  "main_build": {
+    "conclusion": "success",
+    "databaseId": 36806537350,
+    "event": "push",
+    "headSha": "ac3f34372c26e662a485d07fbdc59045449ea972",
+    "status": "completed",
+    "url": "https://github.com/hellotext/help/actions/runs/36806537350"
+  },
+  "content_pr": "https://github.com/hellotext/help/pull/305",
+  "content_pr_head": "8e52f4a331417e79ce5972b7607905f7437e1878",
+  "individual_commits_preserved": [
+    "f35070b3dcd8bc8639382937e6cd7c0b213df0e0",
+    "8e52f4a331417e79ce5972b7607905f7437e1878"
+  ],
+  "unresolved_review_threads_before_merge": 0
+}
