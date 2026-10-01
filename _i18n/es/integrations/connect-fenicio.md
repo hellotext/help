@@ -121,7 +121,7 @@ La figura de identidad muestra **Agenda semanal**, referencia **PRODUCT-GUIDE-10
   <figcaption class="ht-editorial-visual__caption">Fuente de interfaz aprobada; el estado ficticio se explica en el texto anterior.</figcaption>
 </figure>
 
-**3. Orden:** en **Configuración > Objetos > Pedidos**, abre **Editar** y contrasta referencia, artículos, cantidades, importes, moneda y modalidad con la orden de origen. El ID de la orden en Fenicio y su número visible pueden ser distintos. Busca la señal correspondiente en la actividad del perfil; no deduzcas envío, entrega o atribución sólo por los datos del pedido.
+**3. Orden:** en **Configuración > Objetos > Órdenes**, abre **Editar** y contrasta referencia, artículos, cantidades, importes, moneda y modalidad con la orden de origen. El ID de la orden en Fenicio y su número visible pueden ser distintos. Busca la señal correspondiente en la actividad del perfil; no deduzcas envío, entrega o atribución sólo por los datos del pedido.
 
 El ejemplo siguiente es **Pedido #1001**, referencia **ORDER-1001**, origen **custom_store**, **USD 89.90**, en borrador y sin eventos. **Order ID** muestra la referencia del objeto, no el ID público de Hellotext. **Deliver** indica modalidad de entrega, no que se haya enviado. Este pedido ficticio se reutiliza para mostrar el lugar de inspección y no demuestra sincronización con Fenicio.
 

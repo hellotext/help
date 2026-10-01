@@ -48,3 +48,7 @@ Protected publication and public proof remain pending.
 ## Ledger verifier
 
 Verifier `b4d8dcea091cd3f09a4c6651c7fe51b92981cc48` contains the completed articles, four new native captures, twelve unchanged reusable sources and local proof. This ledger commit is its direct child; all79 pair verifiers and both prior corrections are ancestors of the resulting head. Ledger now79 local_verified,74 pending,one out_of_scope. Exact PR checks/review, normal production deployment and public verification remain pending.
+
+## Exact-head review correction
+
+The independent review of bd7fd19c0ad4b3740ffdb6026f8c8a1145fbfc5c found a real P2: the Spanish navigation path said Pedidos, while preserved current `orders-with-api/details-es-ui.json` records the title and section heading Órdenes. Changed only that navigation label to **Configuración > Objetos > Órdenes**. The fictional object remains Pedido #1001. Original verifier and ledger ancestry, all other article contracts/figures/native sources and protected fixtures are retained. Rebuilt both locales, repeated all six complete browser views and hashes, and requested an independent review of the corrected exact head before merge.
