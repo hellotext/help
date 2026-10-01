@@ -1,0 +1,115 @@
+{
+  "url": "http://127.0.0.1:3192/hellotext/settings/integrations/push/new",
+  "title": "Configura las notificaciones Push - Hellotext",
+  "locale": "es",
+  "viewport": [
+    390,
+    844
+  ],
+  "dpr": 2,
+  "zoom": 1,
+  "scroll": [
+    0,
+    0
+  ],
+  "pageText": "Conecta tu tienda a Push\nURL de la tienda\n\nUsa la dirección HTTPS, como https://store.example.com, sin ruta, parámetros de consulta ni fragmentos.\n\nAtrás\nContinuar",
+  "text": "Conecta tu tienda a Push\nURL de la tienda\n\nUsa la dirección HTTPS, como https://store.example.com, sin ruta, parámetros de consulta ni fragmentos.\n\nAtrás\nContinuar",
+  "target": [
+    0,
+    8,
+    390,
+    618
+  ],
+  "controls": [
+    {
+      "tag": "H1",
+      "text": "Conecta tu tienda a Push",
+      "id": "wizard-header-title",
+      "role": null,
+      "target": null,
+      "rect": [
+        16,
+        56,
+        358,
+        68
+      ]
+    },
+    {
+      "tag": "LABEL",
+      "text": "URL de la tienda",
+      "id": "",
+      "role": null,
+      "target": null,
+      "rect": [
+        16,
+        204,
+        358,
+        24
+      ]
+    },
+    {
+      "tag": "INPUT",
+      "text": "",
+      "name": "push_channel[origin]",
+      "value": "https://shop.example.test",
+      "id": "push_channel_origin",
+      "role": null,
+      "target": null,
+      "rect": [
+        16,
+        236,
+        358,
+        42
+      ]
+    },
+    {
+      "tag": "P",
+      "text": "Usa la dirección HTTPS, como https://store.example.com, sin ruta, parámetros de consulta ni fragmentos.",
+      "id": "push-origin-hint",
+      "role": null,
+      "target": null,
+      "rect": [
+        16,
+        286,
+        358,
+        60
+      ]
+    },
+    {
+      "tag": "X-LABEL",
+      "text": "Atrás",
+      "id": "",
+      "role": null,
+      "target": null,
+      "rect": [
+        16,
+        794,
+        41.5078125,
+        24
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Continuar",
+      "name": "",
+      "id": "",
+      "role": null,
+      "target": null,
+      "rect": [
+        247.7265625,
+        784,
+        126.2734375,
+        44
+      ]
+    }
+  ],
+  "guard": {
+    "pid": 57358,
+    "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+    "port": 9460,
+    "one_local_page": true,
+    "account": "design-system@example.test",
+    "color_profile": "display-p3-d65",
+    "no_final_action": true
+  }
+}

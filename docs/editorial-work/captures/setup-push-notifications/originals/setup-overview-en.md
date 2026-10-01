@@ -85,7 +85,7 @@ Keep reading:
 
 For Push, separate **collecting subscriptions** from **sending notifications**. An active channel configured for the website origin allows subscription collection and management on any plan; sending requires Pro or Enterprise and is subject to platform availability and limits. If the channel is missing, confirm setup with Support: creating a custom channel in the interface may be plan restricted.
 
-Shopify and VTEX provide installation through their integrations; complete installation on the published site and check that the app or pixel is current. Custom storefronts use Hellotext.js and a compatible worker on the same HTTPS origin. Browser readiness, visitor permission, and subscription acknowledgement are separate checks. Follow [Set up Push notifications]({% link _integrations/setup-push-notifications.md %}) to choose an installation path; for custom storefronts use the current contracts in [Set up Push with Hellotext.js]({% link _developers/setup-push-with-hellotext-js.md %}).
+Shopify and VTEX provide installation through their integrations; complete installation on the published site and check that the app or pixel is current. Custom storefronts use Hellotext.js and a compatible worker on the same HTTPS origin. Browser readiness, visitor permission, and subscription acknowledgement are separate checks. Follow [Set up Push notifications]({% link _integrations/setup-push-notifications.md %}) to choose an installation path; for custom storefronts use the current contracts in [Set up Push with Hellotext.js]({% link _developers/setup-push-with-hellotext-js.md %}). The general Push guide still has earlier plan wording: apply the collection-versus-sending distinction here.
 
 ### 4. Add capture and checkout tools
 
