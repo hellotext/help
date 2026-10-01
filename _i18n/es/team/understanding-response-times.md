@@ -69,7 +69,7 @@ La cuenta ficticia de la figura tiene lunes a viernes de **9am a 6pm** y sábado
   <figcaption class="ht-editorial-visual__caption">Horario comercial real de cuenta ficticia: lunes a viernes de 9am a 6pm, sábado y domingo Cerrado; siete filas completas, sin editar.</figcaption>
 </figure>
 
-Al abrir **Lunes**, el formulario muestra **Abierto**, **Abre a las 09:00** y **Cierra a las 18:00**. No se tocó el interruptor, se eligieron horas ni se guardó. Configura cada día abierto con una hora de cierre posterior a la apertura en ese mismo día; el formulario no representa un turno que cruza medianoche. Se muestra el encabezado y los controles completos, sin el pie de guardado.
+Al abrir **Lunes**, el formulario muestra **Abierto**, **Abre a las 09:00** y **Cierra a las 18:00**. No se tocó el interruptor ni se eligieron horas ni se guardó. Configura cada día abierto con una hora de cierre posterior a la apertura en ese mismo día; el formulario no representa un turno que cruza medianoche. Se muestra el encabezado y los controles completos, sin el pie de guardado.
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Formulario real Lunes con Abierto activado y horas existentes 09:00–18:00 en cuenta ficticia; sin cambios ni guardado.">
   <div class="ht-editorial-visual__stage">
