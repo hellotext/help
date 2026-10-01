@@ -1,0 +1,237 @@
+{
+  "inspected_at_utc": "2026-10-01T04:23:13.903748+00:00",
+  "protected_rails_sha": "5403a7dcb567b63cae87d4c088112d65fad4eb7f",
+  "current_master_sha": "a6a32d95a0b6cdbd63342100012413446aa2a2f5",
+  "source_files": [
+    {
+      "path": "app/models/api/product_service.rb",
+      "protected_sha256": "25d3d4871728d8e30bbc23e72c8367103f03531e458c2c089b9141b2f9850a9d",
+      "current_sha256": "25d3d4871728d8e30bbc23e72c8367103f03531e458c2c089b9141b2f9850a9d",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/api/product_service.rb"
+    },
+    {
+      "path": "app/models/api/entity_service.rb",
+      "protected_sha256": "2f4574e778c43d19a60afe15d21f25ff3268a4d13e4a8fb2f4ccc39d09826afa",
+      "current_sha256": "2f4574e778c43d19a60afe15d21f25ff3268a4d13e4a8fb2f4ccc39d09826afa",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/api/entity_service.rb"
+    },
+    {
+      "path": "app/controllers/api/v1/attribution/products_controller.rb",
+      "protected_sha256": "76094bec32349a58cb49a82da792202218d996f68721a1226417fc3d4b14ebd8",
+      "current_sha256": "76094bec32349a58cb49a82da792202218d996f68721a1226417fc3d4b14ebd8",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/controllers/api/v1/attribution/products_controller.rb"
+    },
+    {
+      "path": "app/controllers/api/v1/attribution/product_variants_controller.rb",
+      "protected_sha256": "4ae7a8e941161b10296a9a996618983024baeb95e980eb84a57a7fb01861d24c",
+      "current_sha256": "4ae7a8e941161b10296a9a996618983024baeb95e980eb84a57a7fb01861d24c",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/controllers/api/v1/attribution/product_variants_controller.rb"
+    },
+    {
+      "path": "app/serializers/artifact/product_serializer.rb",
+      "protected_sha256": "c00f8dfe79b4aa56f02b5a29bfddbc2fb01a94c403db9ea0f1f1666721d35e2d",
+      "current_sha256": "c00f8dfe79b4aa56f02b5a29bfddbc2fb01a94c403db9ea0f1f1666721d35e2d",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/serializers/artifact/product_serializer.rb"
+    },
+    {
+      "path": "app/serializers/artifact/product_variant_serializer.rb",
+      "protected_sha256": "7b6473fdc6de59ea8ff512c3edba7ad1e6144e0a1a81165f596ac76b76c9e77b",
+      "current_sha256": "7b6473fdc6de59ea8ff512c3edba7ad1e6144e0a1a81165f596ac76b76c9e77b",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/serializers/artifact/product_variant_serializer.rb"
+    },
+    {
+      "path": "app/models/artifact/product.rb",
+      "protected_sha256": "b2cbcaefb33ddac30c2118a474330d57d8634d75f718f7e8d1a53500bb50991d",
+      "current_sha256": "b2cbcaefb33ddac30c2118a474330d57d8634d75f718f7e8d1a53500bb50991d",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/artifact/product.rb"
+    },
+    {
+      "path": "app/models/artifact/product/finders.rb",
+      "protected_sha256": "4dd7b67c5640be3b0e5290592ede138caef713d1ed3f79299f62f3150a755817",
+      "current_sha256": "4dd7b67c5640be3b0e5290592ede138caef713d1ed3f79299f62f3150a755817",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/artifact/product/finders.rb"
+    },
+    {
+      "path": "app/models/artifact/product/lookup.rb",
+      "protected_sha256": "48e68ed9ec84aa3103fcd07c55a5d8d802e7b7e2d7e3b79769f06aa15916aa8f",
+      "current_sha256": "48e68ed9ec84aa3103fcd07c55a5d8d802e7b7e2d7e3b79769f06aa15916aa8f",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/artifact/product/lookup.rb"
+    },
+    {
+      "path": "app/models/api/track/product.rb",
+      "protected_sha256": "b3eca485e3ca015aa817ea4c2ff5fb69fc9e4b95aaa10729e35b1780187abc3c",
+      "current_sha256": "b3eca485e3ca015aa817ea4c2ff5fb69fc9e4b95aaa10729e35b1780187abc3c",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/api/track/product.rb"
+    },
+    {
+      "path": "app/services/api/track/find_or_create_product_service.rb",
+      "protected_sha256": "133f8a322bf920898f871d0d9464620576b8de09b8411d7310b7605289284059",
+      "current_sha256": "133f8a322bf920898f871d0d9464620576b8de09b8411d7310b7605289284059",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/services/api/track/find_or_create_product_service.rb"
+    },
+    {
+      "path": "app/integrations/shopify/product/params.rb",
+      "protected_sha256": "6e2f96ecff9d494306d65a6fa90f2baa841d2c2db8955d775ce92716ed19c356",
+      "current_sha256": "6e2f96ecff9d494306d65a6fa90f2baa841d2c2db8955d775ce92716ed19c356",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/shopify/product/params.rb"
+    },
+    {
+      "path": "app/integrations/wix/product/params.rb",
+      "protected_sha256": "640da74530e00c37cf45e575bebd92253aac2149c9c240707266a3481d612256",
+      "current_sha256": "640da74530e00c37cf45e575bebd92253aac2149c9c240707266a3481d612256",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/wix/product/params.rb"
+    },
+    {
+      "path": "app/integrations/woo/product/params.rb",
+      "protected_sha256": "f1e986e762c0a666237329136b19866b2c1dc2f8d591b214a716ea9f3a0310ed",
+      "current_sha256": "f1e986e762c0a666237329136b19866b2c1dc2f8d591b214a716ea9f3a0310ed",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/woo/product/params.rb"
+    },
+    {
+      "path": "app/integrations/vtex/product/params.rb",
+      "protected_sha256": "9dd21e8dfef0cad83c81e77d04324cbb912d071d1099fb9fd9d54f60b14e7bc2",
+      "current_sha256": "9dd21e8dfef0cad83c81e77d04324cbb912d071d1099fb9fd9d54f60b14e7bc2",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/vtex/product/params.rb"
+    },
+    {
+      "path": "app/integrations/wix/product/create.rb",
+      "protected_sha256": "708c997bcb373f3600d6ed18455e194216fd5df68d4d28df191b3b99960fa2d6",
+      "current_sha256": "708c997bcb373f3600d6ed18455e194216fd5df68d4d28df191b3b99960fa2d6",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/wix/product/create.rb"
+    },
+    {
+      "path": "app/integrations/wix/product/update.rb",
+      "protected_sha256": "4df4eba3c19f290a0c67beb621826313911ad5e5cc26ab3e51dc7f7b0677d7c4",
+      "current_sha256": "4df4eba3c19f290a0c67beb621826313911ad5e5cc26ab3e51dc7f7b0677d7c4",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/wix/product/update.rb"
+    },
+    {
+      "path": "app/integrations/woo/product/create.rb",
+      "protected_sha256": "782aac0dc19285c9fc8dd248f9965de9e6360391d73addd5f2b180b727b16f39",
+      "current_sha256": "782aac0dc19285c9fc8dd248f9965de9e6360391d73addd5f2b180b727b16f39",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/woo/product/create.rb"
+    },
+    {
+      "path": "app/integrations/woo/product/update.rb",
+      "protected_sha256": "f81acdabf3dc34645584e492afae0863188a0181a794a27dd1a7c3cef21eedb3",
+      "current_sha256": "f81acdabf3dc34645584e492afae0863188a0181a794a27dd1a7c3cef21eedb3",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/woo/product/update.rb"
+    },
+    {
+      "path": "app/integrations/shopify/product/lookup.rb",
+      "protected_sha256": "1e864e2e97586c7246d68941c286cb9c2a112608e29fedefcce7446f1c450b02",
+      "current_sha256": "1e864e2e97586c7246d68941c286cb9c2a112608e29fedefcce7446f1c450b02",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/shopify/product/lookup.rb"
+    },
+    {
+      "path": "app/integrations/vtex/product/lookup.rb",
+      "protected_sha256": "55e59d2df1b11cf2e7c329ba096da8aec8193fa1eba697107f1b0b5b465d06d2",
+      "current_sha256": "55e59d2df1b11cf2e7c329ba096da8aec8193fa1eba697107f1b0b5b465d06d2",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/vtex/product/lookup.rb"
+    },
+    {
+      "path": "app/models/meta/catalog.rb",
+      "protected_sha256": "fc8902203160d02a1309dc6099224a741cc8f0e276bd3d2adc0ff320e2cc22fa",
+      "current_sha256": "fc8902203160d02a1309dc6099224a741cc8f0e276bd3d2adc0ff320e2cc22fa",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/meta/catalog.rb"
+    },
+    {
+      "path": "app/models/meta/catalog/seeder.rb",
+      "protected_sha256": "e6330704796c00420727735d42106a8250dbf35b0ed334e222ea60e15670533d",
+      "current_sha256": "e6330704796c00420727735d42106a8250dbf35b0ed334e222ea60e15670533d",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/meta/catalog/seeder.rb"
+    },
+    {
+      "path": "app/jobs/meta/catalog/sync_entry_job.rb",
+      "protected_sha256": "dfc0dbd2e1e7283d7aa7a4cb2513f2a594b3ab47e2c289cb69aa1e3c1507606a",
+      "current_sha256": "dfc0dbd2e1e7283d7aa7a4cb2513f2a594b3ab47e2c289cb69aa1e3c1507606a",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/jobs/meta/catalog/sync_entry_job.rb"
+    },
+    {
+      "path": "app/models/attribution/order_item.rb",
+      "protected_sha256": "3815f0e73884b28547c421015a9054f3ce5fd8e0d7051bd6e7f9c59c7973ffde",
+      "current_sha256": "3815f0e73884b28547c421015a9054f3ce5fd8e0d7051bd6e7f9c59c7973ffde",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/attribution/order_item.rb"
+    },
+    {
+      "path": "app/models/api/track/base.rb",
+      "protected_sha256": "6e9998516544bbb1e2e86cb6962599b50e8229f43dc358e8c0e5e8cc9df05a2a",
+      "current_sha256": "6e9998516544bbb1e2e86cb6962599b50e8229f43dc358e8c0e5e8cc9df05a2a",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/api/track/base.rb"
+    },
+    {
+      "path": "app/controllers/api/v1/track/events_controller.rb",
+      "protected_sha256": "eecdb61c10e1de2455effdfd51f784855755f96344561faa7bc4817c146b2360",
+      "current_sha256": "eecdb61c10e1de2455effdfd51f784855755f96344561faa7bc4817c146b2360",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/controllers/api/v1/track/events_controller.rb"
+    },
+    {
+      "path": "app/models/meta/catalog/entry.rb",
+      "protected_sha256": "b749b59d55269fd91bf942c488270069e7798f8d84f7f3286502a10989f464bd",
+      "current_sha256": "b749b59d55269fd91bf942c488270069e7798f8d84f7f3286502a10989f464bd",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/meta/catalog/entry.rb"
+    },
+    {
+      "path": "app/jobs/shopify/setup/import_products_job.rb",
+      "protected_sha256": "5be41ce402179ec347f67ec584132101f1b12dcf9fe4b19937bae221fa72baf9",
+      "current_sha256": "5be41ce402179ec347f67ec584132101f1b12dcf9fe4b19937bae221fa72baf9",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/jobs/shopify/setup/import_products_job.rb"
+    },
+    {
+      "path": "app/jobs/vtex/setup/import_products_job.rb",
+      "protected_sha256": "e0fd8a80cd6c95d78a9868fd6388a1eff44daa41a998d3ac365471a53770796b",
+      "current_sha256": "e0fd8a80cd6c95d78a9868fd6388a1eff44daa41a998d3ac365471a53770796b",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/jobs/vtex/setup/import_products_job.rb"
+    },
+    {
+      "path": "app/jobs/woo/import_products_job.rb",
+      "protected_sha256": "0b37bf1d0d1d9c835f32d8ecf85f62435842ef2e2594ca2fe0412f985378fc32",
+      "current_sha256": "0b37bf1d0d1d9c835f32d8ecf85f62435842ef2e2594ca2fe0412f985378fc32",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/jobs/woo/import_products_job.rb"
+    }
+  ],
+  "primary_api_reference": "https://www.hellotext.com/api#products",
+  "source_operations": "Read only. No app or API examples executed.",
+  "contracts": [
+    "Supported catalog fields vary per importer/API; fields/variants are not universally populated.",
+    "Public ID versus case-insensitive reference/source/SKU lookup and ambiguity.",
+    "Parent serializer includes parent/default representation plus kept variants.",
+    "API Products has no stock/state/sellable quantity parameters; metadata and internal in-stock fallback are not confirmed stock.",
+    "Shopify/VTEX availability lookup versus Woo/Wix mappings and cache/delay boundaries.",
+    "Amounts/currencies/converted amounts versus integer order-item quantity; custom_store unit amount, Shopify imported line total.",
+    "Async Meta feed destination requires eligible active kept nonzero-price products, not automatic checkout/purchase.",
+    "Object/readback versus real tracking event, authorization/identity/consent, reconciliation and uncertain write retries.",
+    "PATCH variants empty removal risk; preserve ID mapping and use documented individual variant operations."
+  ]
+}
