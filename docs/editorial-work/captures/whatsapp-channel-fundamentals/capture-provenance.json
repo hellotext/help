@@ -1,0 +1,667 @@
+{
+  "status": "locally_verified",
+  "base_revision": "988fc4f10ae1717f40d35c4ecab72de0e26b38e8",
+  "originals": [
+    {
+      "article": "_i18n/es/numbers/whatsapp-channel-fundamentals.md",
+      "snapshot": "docs/editorial-work/captures/whatsapp-channel-fundamentals/originals/es.md",
+      "sha256": "5407d71f2f664c5a0cc5f5f25c6e6e7f497b40d6888021683775234b5d8cab5b",
+      "headings": [
+        "## Para qué sirve mejor WhatsApp",
+        "## Prepara el canal antes de lanzar",
+        "## Entiende mensajes entrantes y salientes",
+        "## Plantillas y categorías de mensajes",
+        "## Cómo Hellotext usa WhatsApp",
+        "### Inbox",
+        "### Misiones y rutas",
+        "### Campañas",
+        "### Herramientas de captura",
+        "### Comercio",
+        "## Mantén WhatsApp saludable",
+        "## Checklist para tu primer lanzamiento por WhatsApp",
+        "## Guías relacionadas"
+      ],
+      "links": [
+        "_integrations/connect-whatsapp.md",
+        "_journeys/smart-recommender-playbook.md",
+        "_journeys/order-update-playbook.md",
+        "_numbers/sms-channel-fundamentals.md",
+        "_integrations/connect-catalog-to-whatsapp.md",
+        "_team/ai-handoff-to-inbox.md",
+        "_campaigns/campaigns-overview.md",
+        "_audience/consent-and-subscriber-status.md",
+        "_getting-started/go-live-checklist.md",
+        "_numbers/messaging-overview.md",
+        "_numbers/sms-channel-fundamentals.md",
+        "_integrations/connect-whatsapp.md",
+        "_integrations/connect-catalog-to-whatsapp.md",
+        "_journeys/order-update-playbook.md",
+        "_audience/consent-and-subscriber-status.md",
+        "_team/inbox-overview.md",
+        "_journeys/playbooks-overview.md"
+      ]
+    },
+    {
+      "article": "_i18n/en/numbers/whatsapp-channel-fundamentals.md",
+      "snapshot": "docs/editorial-work/captures/whatsapp-channel-fundamentals/originals/en.md",
+      "sha256": "93319a443b1fe01023d66ec1939116c3390adb1b55459463d7dd03accf7d9b8b",
+      "headings": [
+        "## What WhatsApp is best for",
+        "## Prepare the channel before launch",
+        "## Understand inbound and outbound messages",
+        "## Templates and message categories",
+        "## How Hellotext uses WhatsApp",
+        "### Inbox",
+        "### Playbooks and routes",
+        "### Campaigns",
+        "### Capture tools",
+        "### Commerce",
+        "## Keep WhatsApp healthy",
+        "## First WhatsApp launch checklist",
+        "## Related guides"
+      ],
+      "links": [
+        "_integrations/connect-whatsapp.md",
+        "_journeys/smart-recommender-playbook.md",
+        "_journeys/order-update-playbook.md",
+        "_numbers/sms-channel-fundamentals.md",
+        "_integrations/connect-catalog-to-whatsapp.md",
+        "_team/ai-handoff-to-inbox.md",
+        "_campaigns/campaigns-overview.md",
+        "_audience/consent-and-subscriber-status.md",
+        "_getting-started/go-live-checklist.md",
+        "_numbers/messaging-overview.md",
+        "_numbers/sms-channel-fundamentals.md",
+        "_integrations/connect-whatsapp.md",
+        "_integrations/connect-catalog-to-whatsapp.md",
+        "_journeys/order-update-playbook.md",
+        "_audience/consent-and-subscriber-status.md",
+        "_team/inbox-overview.md",
+        "_journeys/playbooks-overview.md"
+      ]
+    },
+    {
+      "article": "_numbers/whatsapp-channel-fundamentals.md",
+      "snapshot": "docs/editorial-work/captures/whatsapp-channel-fundamentals/originals/stub.md",
+      "sha256": "cc620bc45c5b61f76971108c0dedef9f798e752db03693df3784f7b1624b2c28",
+      "headings": [],
+      "links": []
+    }
+  ],
+  "images": [
+    {
+      "name": "format-es",
+      "concept": "format",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/message-editor-basics/format-es-original.png",
+      "published_asset": "images/numbers/message-editor-basics/format-es.png",
+      "sha256": "7c7077129a2901111f67109eb367a5bb54220ac11838f50b61e29b48a1603a1e",
+      "logical_size": [
+        624,
+        264
+      ],
+      "source_density": 2,
+      "reused": true,
+      "native": {
+        "output": "/private/tmp/hellotext-message-editor-basics-editorial-20261001/native/format-es-original.png",
+        "sha256": "7c7077129a2901111f67109eb367a5bb54220ac11838f50b61e29b48a1603a1e",
+        "url": "http://127.0.0.1:3192/hellotext/settings/templates/new?channel=sms&group=custom",
+        "locale": "es",
+        "cssViewport": [
+          1400,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          72,
+          257,
+          624,
+          264
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1248,
+          528
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "original_provenance": "docs/editorial-work/captures/message-editor-basics/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/message-editor-basics/format-es-ui.json",
+      "pixel_edits": "none",
+      "publication_status": "New native guarded capture and approved asset publicly verified with matching SHA256; no pixel edit.",
+      "new_capture": false
+    },
+    {
+      "name": "format-es-mobile",
+      "concept": "format",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/message-editor-basics/format-es-mobile-original.png",
+      "published_asset": "images/numbers/message-editor-basics/format-es-mobile.png",
+      "sha256": "eb624ee9580528cbc670313af7dea68bbe6a29ce42ea23c6747668029dce73b1",
+      "logical_size": [
+        326,
+        264
+      ],
+      "source_density": 2,
+      "reused": true,
+      "native": {
+        "output": "/private/tmp/hellotext-message-editor-basics-editorial-20261001/native/format-es-mobile-original.png",
+        "sha256": "eb624ee9580528cbc670313af7dea68bbe6a29ce42ea23c6747668029dce73b1",
+        "url": "http://127.0.0.1:3192/hellotext/settings/templates/new?channel=sms&group=custom",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          32,
+          155,
+          326,
+          264
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          652,
+          528
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "original_provenance": "docs/editorial-work/captures/message-editor-basics/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/message-editor-basics/format-es-mobile-ui.json",
+      "pixel_edits": "none",
+      "publication_status": "New native guarded capture and approved asset publicly verified with matching SHA256; no pixel edit.",
+      "new_capture": false
+    },
+    {
+      "name": "format-en",
+      "concept": "format",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/message-editor-basics/format-en-original.png",
+      "published_asset": "images/numbers/message-editor-basics/format-en.png",
+      "sha256": "2817aa394f2917c9e5faa0bc2e2a9eeebacdc62ba872e727b33f03c0c05d9d9a",
+      "logical_size": [
+        624,
+        264
+      ],
+      "source_density": 2,
+      "reused": true,
+      "native": {
+        "output": "/private/tmp/hellotext-message-editor-basics-editorial-20261001/native/format-en-original.png",
+        "sha256": "2817aa394f2917c9e5faa0bc2e2a9eeebacdc62ba872e727b33f03c0c05d9d9a",
+        "url": "http://127.0.0.1:3192/hellotext/settings/templates/new?channel=sms&group=custom",
+        "locale": "en",
+        "cssViewport": [
+          1400,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          72,
+          257,
+          624,
+          264
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1248,
+          528
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "original_provenance": "docs/editorial-work/captures/message-editor-basics/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/message-editor-basics/format-en-ui.json",
+      "pixel_edits": "none",
+      "publication_status": "New native guarded capture and approved asset publicly verified with matching SHA256; no pixel edit.",
+      "new_capture": false
+    },
+    {
+      "name": "format-en-mobile",
+      "concept": "format",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/message-editor-basics/format-en-mobile-original.png",
+      "published_asset": "images/numbers/message-editor-basics/format-en-mobile.png",
+      "sha256": "3754139f79d32c654e2bbcae936acfe841df4f4d687b33013e39ee6a5fd6643a",
+      "logical_size": [
+        326,
+        264
+      ],
+      "source_density": 2,
+      "reused": true,
+      "native": {
+        "output": "/private/tmp/hellotext-message-editor-basics-editorial-20261001/native/format-en-mobile-original.png",
+        "sha256": "3754139f79d32c654e2bbcae936acfe841df4f4d687b33013e39ee6a5fd6643a",
+        "url": "http://127.0.0.1:3192/hellotext/settings/templates/new?channel=sms&group=custom",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          32,
+          134,
+          326,
+          264
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          652,
+          528
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "original_provenance": "docs/editorial-work/captures/message-editor-basics/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/message-editor-basics/format-en-mobile-ui.json",
+      "pixel_edits": "none",
+      "publication_status": "New native guarded capture and approved asset publicly verified with matching SHA256; no pixel edit.",
+      "new_capture": false
+    },
+    {
+      "name": "identity-es",
+      "concept": "identity",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/products-and-inventory-with-api/identity-es-original.png",
+      "published_asset": "images/developers/products-and-inventory-with-api/identity-es.png",
+      "native": {
+        "output": "/private/tmp/hellotext-products-api-guide/native/identity-es.png",
+        "sha256": "cad5dac8389b4545324ad7b0d2cdc0c1cfd2d04a476b42f7bf5110530cc50f43",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/OKD0AZ37/instances",
+        "locale": "es",
+        "cssViewport": [
+          1400,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          897,
+          0,
+          503,
+          393
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1006,
+          786
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        503,
+        393
+      ],
+      "intended_max_display_width_css": 503,
+      "ui_evidence": "docs/editorial-work/captures/products-and-inventory-with-api/identity-es-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "reuse": false,
+      "publication_status": "New native P3 2x PNG published; public served hash matches approved source.",
+      "sha256": "cad5dac8389b4545324ad7b0d2cdc0c1cfd2d04a476b42f7bf5110530cc50f43",
+      "reused": true,
+      "new_capture": false,
+      "original_provenance": "docs/editorial-work/captures/products-and-inventory-with-api/capture-provenance.json"
+    },
+    {
+      "name": "identity-es-mobile",
+      "concept": "identity",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/products-and-inventory-with-api/identity-es-mobile-original.png",
+      "published_asset": "images/developers/products-and-inventory-with-api/identity-es-mobile.png",
+      "native": {
+        "output": "/private/tmp/hellotext-products-api-guide/native/identity-es-mobile.png",
+        "sha256": "e59c825526ab948c121cde309ff647e98d8b8b015546116fe91e5cdf15ebdb00",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/OKD0AZ37/instances",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1,
+          0,
+          389,
+          393
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          778,
+          786
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        389,
+        393
+      ],
+      "intended_max_display_width_css": 389,
+      "ui_evidence": "docs/editorial-work/captures/products-and-inventory-with-api/identity-es-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "reuse": false,
+      "publication_status": "New native P3 2x PNG published; public served hash matches approved source.",
+      "sha256": "e59c825526ab948c121cde309ff647e98d8b8b015546116fe91e5cdf15ebdb00",
+      "reused": true,
+      "new_capture": false,
+      "original_provenance": "docs/editorial-work/captures/products-and-inventory-with-api/capture-provenance.json"
+    },
+    {
+      "name": "identity-en",
+      "concept": "identity",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/products-and-inventory-with-api/identity-en-original.png",
+      "published_asset": "images/developers/products-and-inventory-with-api/identity-en.png",
+      "native": {
+        "output": "/private/tmp/hellotext-products-api-guide/native/identity-en.png",
+        "sha256": "0ad4775d9bd3d743c1aa60c89c9db36609032046126386e77710f41b682c78e8",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/OKD0AZ37/instances",
+        "locale": "en",
+        "cssViewport": [
+          1400,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          897,
+          0,
+          503,
+          393
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1006,
+          786
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        503,
+        393
+      ],
+      "intended_max_display_width_css": 503,
+      "ui_evidence": "docs/editorial-work/captures/products-and-inventory-with-api/identity-en-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "reuse": false,
+      "publication_status": "New native P3 2x PNG published; public served hash matches approved source.",
+      "sha256": "0ad4775d9bd3d743c1aa60c89c9db36609032046126386e77710f41b682c78e8",
+      "reused": true,
+      "new_capture": false,
+      "original_provenance": "docs/editorial-work/captures/products-and-inventory-with-api/capture-provenance.json"
+    },
+    {
+      "name": "identity-en-mobile",
+      "concept": "identity",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/products-and-inventory-with-api/identity-en-mobile-original.png",
+      "published_asset": "images/developers/products-and-inventory-with-api/identity-en-mobile.png",
+      "native": {
+        "output": "/private/tmp/hellotext-products-api-guide/native/identity-en-mobile.png",
+        "sha256": "ee47e9bab2033b8dc413e0eb63a5d89ad5f65f322dd07b4431e864677a332b60",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/OKD0AZ37/instances",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1,
+          0,
+          389,
+          393
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          778,
+          786
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        389,
+        393
+      ],
+      "intended_max_display_width_css": 389,
+      "ui_evidence": "docs/editorial-work/captures/products-and-inventory-with-api/identity-en-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "reuse": false,
+      "publication_status": "New native P3 2x PNG published; public served hash matches approved source.",
+      "sha256": "ee47e9bab2033b8dc413e0eb63a5d89ad5f65f322dd07b4431e864677a332b60",
+      "reused": true,
+      "new_capture": false,
+      "original_provenance": "docs/editorial-work/captures/products-and-inventory-with-api/capture-provenance.json"
+    },
+    {
+      "file": "type-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/captures/qr-codes/new",
+      "css_viewport": [
+        1200,
+        1000
+      ],
+      "clip_css": [
+        125,
+        115,
+        660,
+        655
+      ],
+      "pixels": [
+        1320,
+        1310
+      ],
+      "sha256": "eede258c9564f35a12937dc91e1dfe2ca1a42b55b91aa656eb43d4ba9adc6b68",
+      "color_profile": "Display P3",
+      "source_density": 2,
+      "capture_route": "isolated Chrome compositor via CDP",
+      "concept": "type",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/qr-codes/type-es.png",
+      "published_asset": "images/captures/qr-codes/type-es.png",
+      "logical_size": [
+        660.0,
+        655.0
+      ],
+      "original_provenance": "docs/editorial-work/captures/qr-codes/capture-provenance.json",
+      "reused": true,
+      "new_capture": false,
+      "original_capture_context": {
+        "captured_at": "2026-09-29",
+        "database": "hellotext_editorial_workload_20260928",
+        "business_id": 5,
+        "fictional_account": "design-system@example.test",
+        "chrome_profile": "/private/tmp/hellotext-qr-guide-headless-9447",
+        "cdp_loopback_port": 9447,
+        "zoom": 1,
+        "device_pixel_ratio": 2
+      }
+    },
+    {
+      "file": "type-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/captures/qr-codes/new",
+      "css_viewport": [
+        1200,
+        1000
+      ],
+      "clip_css": [
+        125,
+        115,
+        660,
+        655
+      ],
+      "pixels": [
+        1320,
+        1310
+      ],
+      "sha256": "ace129e7e733ed1a67517f502e903aa64e96147c056126dd034253f91b95ebac",
+      "color_profile": "Display P3",
+      "source_density": 2,
+      "capture_route": "isolated Chrome compositor via CDP",
+      "concept": "type",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/qr-codes/type-en.png",
+      "published_asset": "images/captures/qr-codes/type-en.png",
+      "logical_size": [
+        660.0,
+        655.0
+      ],
+      "original_provenance": "docs/editorial-work/captures/qr-codes/capture-provenance.json",
+      "reused": true,
+      "new_capture": false,
+      "original_capture_context": {
+        "captured_at": "2026-09-29",
+        "database": "hellotext_editorial_workload_20260928",
+        "business_id": 5,
+        "fictional_account": "design-system@example.test",
+        "chrome_profile": "/private/tmp/hellotext-qr-guide-headless-9447",
+        "cdp_loopback_port": 9447,
+        "zoom": 1,
+        "device_pixel_ratio": 2
+      }
+    },
+    {
+      "file": "type-es-mobile.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/captures/qr-codes/new",
+      "css_viewport": [
+        390,
+        1000
+      ],
+      "clip_css": [
+        10,
+        50,
+        370,
+        750
+      ],
+      "pixels": [
+        740,
+        1500
+      ],
+      "sha256": "64eb482e351a951426188c8219d6c581a8c1d2637f2a799395cd0e40ffcb0ee5",
+      "color_profile": "Display P3",
+      "source_density": 2,
+      "capture_route": "isolated Chrome compositor via CDP",
+      "concept": "type",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/qr-codes/type-es-mobile.png",
+      "published_asset": "images/captures/qr-codes/type-es-mobile.png",
+      "logical_size": [
+        370.0,
+        750.0
+      ],
+      "original_provenance": "docs/editorial-work/captures/qr-codes/capture-provenance.json",
+      "reused": true,
+      "new_capture": false,
+      "original_capture_context": {
+        "captured_at": "2026-09-29",
+        "database": "hellotext_editorial_workload_20260928",
+        "business_id": 5,
+        "fictional_account": "design-system@example.test",
+        "chrome_profile": "/private/tmp/hellotext-qr-guide-headless-9447",
+        "cdp_loopback_port": 9447,
+        "zoom": 1,
+        "device_pixel_ratio": 2
+      }
+    },
+    {
+      "file": "type-en-mobile.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/captures/qr-codes/new",
+      "css_viewport": [
+        390,
+        1000
+      ],
+      "clip_css": [
+        10,
+        50,
+        370,
+        750
+      ],
+      "pixels": [
+        740,
+        1500
+      ],
+      "sha256": "cffe0390ce515e36f8f3338747e94826de6bbb2e77e94f5780b2217003eded34",
+      "color_profile": "Display P3",
+      "source_density": 2,
+      "capture_route": "isolated Chrome compositor via CDP",
+      "concept": "type",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/qr-codes/type-en-mobile.png",
+      "published_asset": "images/captures/qr-codes/type-en-mobile.png",
+      "logical_size": [
+        370.0,
+        750.0
+      ],
+      "original_provenance": "docs/editorial-work/captures/qr-codes/capture-provenance.json",
+      "reused": true,
+      "new_capture": false,
+      "original_capture_context": {
+        "captured_at": "2026-09-29",
+        "database": "hellotext_editorial_workload_20260928",
+        "business_id": 5,
+        "fictional_account": "design-system@example.test",
+        "chrome_profile": "/private/tmp/hellotext-qr-guide-headless-9447",
+        "cdp_loopback_port": 9447,
+        "zoom": 1,
+        "device_pixel_ratio": 2
+      }
+    }
+  ],
+  "source_audit": "docs/editorial-work/captures/whatsapp-channel-fundamentals/source-audit.json",
+  "operations": "Read-only source/approved asset reuse. No app/DB/UI/locale/fixture/provider/API/example/token/template/link/object/event/message/test/send/worker action. No new DB audit or capture guards are claimed.",
+  "pending": [
+    "Protected PR/checks, independent exact-head review, normal production and public page/hash verification."
+  ],
+  "local_verification": "docs/editorial-work/captures/whatsapp-channel-fundamentals/local-verification.json"
+}
