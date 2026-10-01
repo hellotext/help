@@ -1,0 +1,1387 @@
+{
+  "status": "locally_verified",
+  "article_key": "troubleshooting-deliverability/troubleshoot-pages-that-do-not-load.md",
+  "base_revision": "15cfb84c45263efcaa9cf5f29e7a1a2643d9a18c",
+  "originals": [
+    {
+      "article": "_i18n/es/troubleshooting-deliverability/troubleshoot-pages-that-do-not-load.md",
+      "snapshot": "docs/editorial-work/captures/troubleshoot-pages-that-do-not-load/originals/es.md",
+      "sha256": "b6653cba5dd07330aa8c9deabfeb5717b7cf508986a9f5338d6fd2c0e381e7ed",
+      "headings": [
+        "## Antes de recargar",
+        "## Define el alcance",
+        "## Recupera la página",
+        "## Revisa permisos y contexto",
+        "## Obtén evidencia técnica",
+        "## Cuándo contactar a soporte",
+        "## Guías relacionadas"
+      ],
+      "links": [
+        "_troubleshooting-deliverability/contact-hellotext-support.md",
+        "_troubleshooting-deliverability/troubleshooting-checklist.md",
+        "_troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md",
+        "_troubleshooting-deliverability/troubleshoot-a-capture.md",
+        "_analytics-reporting-attribution/data-completeness-and-reporting-gaps.md"
+      ]
+    },
+    {
+      "article": "_i18n/en/troubleshooting-deliverability/troubleshoot-pages-that-do-not-load.md",
+      "snapshot": "docs/editorial-work/captures/troubleshoot-pages-that-do-not-load/originals/en.md",
+      "sha256": "cb36a400c1e4ab9aeefd898b70bad4393f5990277009e2c565ae666db0ba07f1",
+      "headings": [
+        "## Before reloading",
+        "## Define the scope",
+        "## Recover the page",
+        "## Check permissions and context",
+        "## Collect technical evidence",
+        "## When to contact Support",
+        "## Related guides"
+      ],
+      "links": [
+        "_troubleshooting-deliverability/contact-hellotext-support.md",
+        "_troubleshooting-deliverability/troubleshooting-checklist.md",
+        "_troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md",
+        "_troubleshooting-deliverability/troubleshoot-a-capture.md",
+        "_analytics-reporting-attribution/data-completeness-and-reporting-gaps.md"
+      ]
+    },
+    {
+      "article": "_troubleshooting-deliverability/troubleshoot-pages-that-do-not-load.md",
+      "snapshot": "docs/editorial-work/captures/troubleshoot-pages-that-do-not-load/originals/stub.md",
+      "sha256": "eb76684c76a4c9a820e05255c8d00bd5be46dec067a0b6b3c52f72c7a482b942",
+      "headings": [],
+      "links": []
+    }
+  ],
+  "images": [
+    {
+      "name": "business-es",
+      "concept": "business",
+      "locale": "es",
+      "mobile": false,
+      "published_asset": "images/developers/custom-store-integration/business-es.png",
+      "source": "docs/editorial-work/captures/custom-store-integration/business-es-original.png",
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+      "sha256": "17ec399500cee235d73459ced0de47fac99054987976a56f4e09603150ef5dfb",
+      "pixels": [
+        1736,
+        404
+      ],
+      "source_density": 2,
+      "logical_size": [
+        868.0,
+        202.0
+      ],
+      "icc": "Display P3 Gamut with sRGB Transfer",
+      "reused": true,
+      "pixel_edits": "none in this batch",
+      "capture_evidence": "Original retained native compositor guards; no retrospective capture claim.",
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "historical_consumer_record": {
+        "name": "business-es",
+        "concept": "business",
+        "locale": "es",
+        "mobile": false,
+        "published_asset": "images/developers/custom-store-integration/business-es.png",
+        "source": "docs/editorial-work/captures/custom-store-integration/business-es-original.png",
+        "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+        "sha256": "17ec399500cee235d73459ced0de47fac99054987976a56f4e09603150ef5dfb",
+        "pixels": [
+          1736,
+          404
+        ],
+        "source_density": 2,
+        "logical_size": [
+          868.0,
+          202.0
+        ],
+        "icc": "Display P3 Gamut with sRGB Transfer",
+        "reused": true,
+        "pixel_edits": "none",
+        "capture_evidence": "Original retained native compositor guards; no retrospective capture claim.",
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json"
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/setting-up-your-business/capture-provenance.json",
+      "new_capture": false,
+      "publication_status": "Existing approved native asset reused unchanged; current consumer not yet publicly verified."
+    },
+    {
+      "name": "business-es-mobile",
+      "concept": "business",
+      "locale": "es",
+      "mobile": true,
+      "published_asset": "images/developers/custom-store-integration/business-es-mobile.png",
+      "source": "docs/editorial-work/captures/custom-store-integration/business-es-mobile-original.png",
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+      "sha256": "0c7ac4c233075fa5d072e27ac33e7947092bf6406858524ab12fa546be553ed8",
+      "pixels": [
+        748,
+        524
+      ],
+      "source_density": 2,
+      "logical_size": [
+        374.0,
+        262.0
+      ],
+      "icc": "Display P3 Gamut with sRGB Transfer",
+      "reused": true,
+      "pixel_edits": "none in this batch",
+      "capture_evidence": "Original retained native compositor guards; no retrospective capture claim.",
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "historical_consumer_record": {
+        "name": "business-es-mobile",
+        "concept": "business",
+        "locale": "es",
+        "mobile": true,
+        "published_asset": "images/developers/custom-store-integration/business-es-mobile.png",
+        "source": "docs/editorial-work/captures/custom-store-integration/business-es-mobile-original.png",
+        "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+        "sha256": "0c7ac4c233075fa5d072e27ac33e7947092bf6406858524ab12fa546be553ed8",
+        "pixels": [
+          748,
+          524
+        ],
+        "source_density": 2,
+        "logical_size": [
+          374.0,
+          262.0
+        ],
+        "icc": "Display P3 Gamut with sRGB Transfer",
+        "reused": true,
+        "pixel_edits": "none",
+        "capture_evidence": "Original retained native compositor guards; no retrospective capture claim.",
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json"
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/setting-up-your-business/capture-provenance.json",
+      "new_capture": false,
+      "publication_status": "Existing approved native asset reused unchanged; current consumer not yet publicly verified."
+    },
+    {
+      "name": "business-en",
+      "concept": "business",
+      "locale": "en",
+      "mobile": false,
+      "published_asset": "images/developers/custom-store-integration/business-en.png",
+      "source": "docs/editorial-work/captures/custom-store-integration/business-en-original.png",
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+      "sha256": "1f7f132b2245056eda5166b1b1cfdbeee406ebcf7bad4a13a6eb3fd501184d7f",
+      "pixels": [
+        1736,
+        404
+      ],
+      "source_density": 2,
+      "logical_size": [
+        868.0,
+        202.0
+      ],
+      "icc": "Display P3 Gamut with sRGB Transfer",
+      "reused": true,
+      "pixel_edits": "none in this batch",
+      "capture_evidence": "Original retained native compositor guards; no retrospective capture claim.",
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "historical_consumer_record": {
+        "name": "business-en",
+        "concept": "business",
+        "locale": "en",
+        "mobile": false,
+        "published_asset": "images/developers/custom-store-integration/business-en.png",
+        "source": "docs/editorial-work/captures/custom-store-integration/business-en-original.png",
+        "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+        "sha256": "1f7f132b2245056eda5166b1b1cfdbeee406ebcf7bad4a13a6eb3fd501184d7f",
+        "pixels": [
+          1736,
+          404
+        ],
+        "source_density": 2,
+        "logical_size": [
+          868.0,
+          202.0
+        ],
+        "icc": "Display P3 Gamut with sRGB Transfer",
+        "reused": true,
+        "pixel_edits": "none",
+        "capture_evidence": "Original retained native compositor guards; no retrospective capture claim.",
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json"
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/setting-up-your-business/capture-provenance.json",
+      "new_capture": false,
+      "publication_status": "Existing approved native asset reused unchanged; current consumer not yet publicly verified."
+    },
+    {
+      "name": "business-en-mobile",
+      "concept": "business",
+      "locale": "en",
+      "mobile": true,
+      "published_asset": "images/developers/custom-store-integration/business-en-mobile.png",
+      "source": "docs/editorial-work/captures/custom-store-integration/business-en-mobile-original.png",
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+      "sha256": "c7badab42d6878393ab746c2950605b8153dc38d60ac1ae09c747a949706bfeb",
+      "pixels": [
+        748,
+        524
+      ],
+      "source_density": 2,
+      "logical_size": [
+        374.0,
+        262.0
+      ],
+      "icc": "Display P3 Gamut with sRGB Transfer",
+      "reused": true,
+      "pixel_edits": "none in this batch",
+      "capture_evidence": "Original retained native compositor guards; no retrospective capture claim.",
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "historical_consumer_record": {
+        "name": "business-en-mobile",
+        "concept": "business",
+        "locale": "en",
+        "mobile": true,
+        "published_asset": "images/developers/custom-store-integration/business-en-mobile.png",
+        "source": "docs/editorial-work/captures/custom-store-integration/business-en-mobile-original.png",
+        "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+        "sha256": "c7badab42d6878393ab746c2950605b8153dc38d60ac1ae09c747a949706bfeb",
+        "pixels": [
+          748,
+          524
+        ],
+        "source_density": 2,
+        "logical_size": [
+          374.0,
+          262.0
+        ],
+        "icc": "Display P3 Gamut with sRGB Transfer",
+        "reused": true,
+        "pixel_edits": "none",
+        "capture_evidence": "Original retained native compositor guards; no retrospective capture claim.",
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json"
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/setting-up-your-business/capture-provenance.json",
+      "new_capture": false,
+      "publication_status": "Existing approved native asset reused unchanged; current consumer not yet publicly verified."
+    },
+    {
+      "name": "summary-es",
+      "concept": "summary",
+      "locale": "es",
+      "mobile": false,
+      "published_asset": "images/analytics-reporting-attribution/campaign-reporting/summary-period-es-wide-desktop.png",
+      "source": "docs/editorial-work/captures/campaign-reporting/summary-period-es-wide-desktop-original.png",
+      "source_sha256": "0b3688dd3e368e00fe80b9f184477bb8423010778d51a8a22d85425ab20ec1cd",
+      "sha256": "65bfef90c667cf5da787412ad4d2175652ea945e2b1c1c84c7fb4bdb6c9217fc",
+      "pixels": [
+        2480,
+        610
+      ],
+      "logical_size": [
+        1240.0,
+        305.0
+      ],
+      "source_density": 2,
+      "icc": "Display P3",
+      "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "original_provenance": "docs/editorial-work/captures/tips-and-best-practices/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/campaign-reporting/summary-period-es-wide-desktop.json",
+      "reused": true,
+      "pixel_edits": "none in this batch",
+      "original_crop_rectangle_px": {
+        "x": 224,
+        "y": 0,
+        "width": 2480,
+        "height": 610
+      },
+      "original_record": {
+        "name": "summary-period-es-wide-desktop",
+        "locale": "es",
+        "published_asset": "images/analytics-reporting-attribution/campaign-reporting/summary-period-es-wide-desktop.png",
+        "original_source": "docs/editorial-work/captures/campaign-reporting/summary-period-es-wide-desktop-original.png",
+        "original_provenance": "docs/editorial-work/captures/campaign-reporting/summary-period-es-wide-desktop.json",
+        "original_sha256": "0b3688dd3e368e00fe80b9f184477bb8423010778d51a8a22d85425ab20ec1cd",
+        "asset_sha256": "65bfef90c667cf5da787412ad4d2175652ea945e2b1c1c84c7fb4bdb6c9217fc",
+        "pixels": [
+          2480,
+          610
+        ],
+        "source_density": 2,
+        "native_logical_size": [
+          1240.0,
+          305.0
+        ],
+        "icc": "Display P3",
+        "reuse": true,
+        "pixel_edits": "none",
+        "limitations": [],
+        "historical_capture_guard": "Retain exact original native window and fixture evidence; no retrospective automatic capture or per-shot account attestation is claimed.",
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "reuse_note": "Existing approved native source reused without recapture or duplicate upload; consumer verified after #305."
+      },
+      "original_guard_limitations": [
+        "Original desktop CSS viewport and browser zoom were not retained. Original native source and fixture evidence are preserved; no retrospective automatic guard is claimed."
+      ],
+      "capture_scope": "Existing approved native source/UI evidence retained; no recapture or retrospective guard assertion.",
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "original_source_pixels": [
+        2880,
+        610
+      ],
+      "publication_status": "Existing approved native asset reused unchanged; current consumer not yet publicly verified.",
+      "historical_consumer_record": {
+        "name": "summary-es",
+        "concept": "summary",
+        "locale": "es",
+        "mobile": false,
+        "published_asset": "images/analytics-reporting-attribution/campaign-reporting/summary-period-es-wide-desktop.png",
+        "source": "docs/editorial-work/captures/campaign-reporting/summary-period-es-wide-desktop-original.png",
+        "source_sha256": "0b3688dd3e368e00fe80b9f184477bb8423010778d51a8a22d85425ab20ec1cd",
+        "sha256": "65bfef90c667cf5da787412ad4d2175652ea945e2b1c1c84c7fb4bdb6c9217fc",
+        "pixels": [
+          2480,
+          610
+        ],
+        "logical_size": [
+          1240.0,
+          305.0
+        ],
+        "source_density": 2,
+        "icc": "Display P3",
+        "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+        "original_provenance": "docs/editorial-work/captures/tips-and-best-practices/capture-provenance.json",
+        "ui_evidence": "docs/editorial-work/captures/campaign-reporting/summary-period-es-wide-desktop.json",
+        "reused": true,
+        "pixel_edits": "none in this batch",
+        "original_crop_rectangle_px": {
+          "x": 224,
+          "y": 0,
+          "width": 2480,
+          "height": 610
+        },
+        "original_record": {
+          "name": "summary-period-es-wide-desktop",
+          "locale": "es",
+          "published_asset": "images/analytics-reporting-attribution/campaign-reporting/summary-period-es-wide-desktop.png",
+          "original_source": "docs/editorial-work/captures/campaign-reporting/summary-period-es-wide-desktop-original.png",
+          "original_provenance": "docs/editorial-work/captures/campaign-reporting/summary-period-es-wide-desktop.json",
+          "original_sha256": "0b3688dd3e368e00fe80b9f184477bb8423010778d51a8a22d85425ab20ec1cd",
+          "asset_sha256": "65bfef90c667cf5da787412ad4d2175652ea945e2b1c1c84c7fb4bdb6c9217fc",
+          "pixels": [
+            2480,
+            610
+          ],
+          "source_density": 2,
+          "native_logical_size": [
+            1240.0,
+            305.0
+          ],
+          "icc": "Display P3",
+          "reuse": true,
+          "pixel_edits": "none",
+          "limitations": [],
+          "historical_capture_guard": "Retain exact original native window and fixture evidence; no retrospective automatic capture or per-shot account attestation is claimed.",
+          "consumer_publication_state": "publicly_verified",
+          "consumer_publication_evidence": "public-verification.json",
+          "reuse_note": "Existing approved native source reused without recapture or duplicate upload; consumer verified after #305."
+        },
+        "original_guard_limitations": [
+          "Original desktop CSS viewport and browser zoom were not retained. Original native source and fixture evidence are preserved; no retrospective automatic guard is claimed."
+        ],
+        "capture_scope": "Existing approved native source/UI evidence retained; no recapture or retrospective guard assertion.",
+        "consumer_publication_state": "publicly_verified",
+        "original_source_pixels": [
+          2880,
+          610
+        ],
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Current consumer publicly verified using the existing approved native asset; no recapture, duplicate upload or pixel edit."
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/verify-data-and-signals/capture-provenance.json",
+      "new_capture": false
+    },
+    {
+      "name": "summary-es-mobile",
+      "concept": "summary",
+      "locale": "es",
+      "mobile": true,
+      "published_asset": "images/analytics-reporting-attribution/campaign-reporting/summary-period-es-mobile-wide.png",
+      "source": "docs/editorial-work/captures/campaign-reporting/summary-period-es-mobile-wide-original.png",
+      "source_sha256": "71136b3c75dbbe12a40ad787057309089b29f7d83b49f1ae1426ea91887e34e3",
+      "sha256": "71136b3c75dbbe12a40ad787057309089b29f7d83b49f1ae1426ea91887e34e3",
+      "pixels": [
+        1048,
+        580
+      ],
+      "logical_size": [
+        524.0,
+        290.0
+      ],
+      "source_density": 2,
+      "icc": "Display P3",
+      "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "original_provenance": "docs/editorial-work/captures/tips-and-best-practices/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/campaign-reporting/summary-period-es-mobile-wide.json",
+      "reused": true,
+      "pixel_edits": "none in this batch",
+      "original_crop_rectangle_px": null,
+      "original_record": {
+        "name": "summary-period-es-mobile-wide",
+        "locale": "es",
+        "published_asset": "images/analytics-reporting-attribution/campaign-reporting/summary-period-es-mobile-wide.png",
+        "original_source": "docs/editorial-work/captures/campaign-reporting/summary-period-es-mobile-wide-original.png",
+        "original_provenance": "docs/editorial-work/captures/campaign-reporting/summary-period-es-mobile-wide.json",
+        "original_sha256": "71136b3c75dbbe12a40ad787057309089b29f7d83b49f1ae1426ea91887e34e3",
+        "asset_sha256": "71136b3c75dbbe12a40ad787057309089b29f7d83b49f1ae1426ea91887e34e3",
+        "pixels": [
+          1048,
+          580
+        ],
+        "source_density": 2,
+        "native_logical_size": [
+          524.0,
+          290.0
+        ],
+        "icc": "Display P3",
+        "reuse": true,
+        "pixel_edits": "none",
+        "limitations": [],
+        "historical_capture_guard": "Retain exact original native window and fixture evidence; no retrospective automatic capture or per-shot account attestation is claimed.",
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "reuse_note": "Existing approved native source reused without recapture or duplicate upload; consumer verified after #305."
+      },
+      "original_guard_limitations": [],
+      "capture_scope": "Existing approved native source/UI evidence retained; no recapture or retrospective guard assertion.",
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "publication_status": "Existing approved native asset reused unchanged; current consumer not yet publicly verified.",
+      "historical_consumer_record": {
+        "name": "summary-es-mobile",
+        "concept": "summary",
+        "locale": "es",
+        "mobile": true,
+        "published_asset": "images/analytics-reporting-attribution/campaign-reporting/summary-period-es-mobile-wide.png",
+        "source": "docs/editorial-work/captures/campaign-reporting/summary-period-es-mobile-wide-original.png",
+        "source_sha256": "71136b3c75dbbe12a40ad787057309089b29f7d83b49f1ae1426ea91887e34e3",
+        "sha256": "71136b3c75dbbe12a40ad787057309089b29f7d83b49f1ae1426ea91887e34e3",
+        "pixels": [
+          1048,
+          580
+        ],
+        "logical_size": [
+          524.0,
+          290.0
+        ],
+        "source_density": 2,
+        "icc": "Display P3",
+        "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+        "original_provenance": "docs/editorial-work/captures/tips-and-best-practices/capture-provenance.json",
+        "ui_evidence": "docs/editorial-work/captures/campaign-reporting/summary-period-es-mobile-wide.json",
+        "reused": true,
+        "pixel_edits": "none in this batch",
+        "original_crop_rectangle_px": null,
+        "original_record": {
+          "name": "summary-period-es-mobile-wide",
+          "locale": "es",
+          "published_asset": "images/analytics-reporting-attribution/campaign-reporting/summary-period-es-mobile-wide.png",
+          "original_source": "docs/editorial-work/captures/campaign-reporting/summary-period-es-mobile-wide-original.png",
+          "original_provenance": "docs/editorial-work/captures/campaign-reporting/summary-period-es-mobile-wide.json",
+          "original_sha256": "71136b3c75dbbe12a40ad787057309089b29f7d83b49f1ae1426ea91887e34e3",
+          "asset_sha256": "71136b3c75dbbe12a40ad787057309089b29f7d83b49f1ae1426ea91887e34e3",
+          "pixels": [
+            1048,
+            580
+          ],
+          "source_density": 2,
+          "native_logical_size": [
+            524.0,
+            290.0
+          ],
+          "icc": "Display P3",
+          "reuse": true,
+          "pixel_edits": "none",
+          "limitations": [],
+          "historical_capture_guard": "Retain exact original native window and fixture evidence; no retrospective automatic capture or per-shot account attestation is claimed.",
+          "consumer_publication_state": "publicly_verified",
+          "consumer_publication_evidence": "public-verification.json",
+          "reuse_note": "Existing approved native source reused without recapture or duplicate upload; consumer verified after #305."
+        },
+        "original_guard_limitations": [],
+        "capture_scope": "Existing approved native source/UI evidence retained; no recapture or retrospective guard assertion.",
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Current consumer publicly verified using the existing approved native asset; no recapture, duplicate upload or pixel edit."
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/verify-data-and-signals/capture-provenance.json",
+      "new_capture": false
+    },
+    {
+      "name": "summary-en",
+      "concept": "summary",
+      "locale": "en",
+      "mobile": false,
+      "published_asset": "images/analytics-reporting-attribution/campaign-reporting/summary-period-en-wide-desktop.png",
+      "source": "docs/editorial-work/captures/campaign-reporting/summary-period-en-wide-desktop-original.png",
+      "source_sha256": "a5abb5d2044fa121b31494a6723398fa187fdcff53b9c73e27b68efe7bfc0829",
+      "sha256": "470347c0697af60e59b6119e2c83bfb848fb9cbf69bd07ec4b14e451db40800e",
+      "pixels": [
+        2480,
+        610
+      ],
+      "logical_size": [
+        1240.0,
+        305.0
+      ],
+      "source_density": 2,
+      "icc": "Display P3",
+      "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "original_provenance": "docs/editorial-work/captures/tips-and-best-practices/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/campaign-reporting/summary-period-en-wide-desktop.json",
+      "reused": true,
+      "pixel_edits": "none in this batch",
+      "original_crop_rectangle_px": {
+        "x": 224,
+        "y": 0,
+        "width": 2480,
+        "height": 610
+      },
+      "original_record": {
+        "name": "summary-period-en-wide-desktop",
+        "locale": "en",
+        "published_asset": "images/analytics-reporting-attribution/campaign-reporting/summary-period-en-wide-desktop.png",
+        "original_source": "docs/editorial-work/captures/campaign-reporting/summary-period-en-wide-desktop-original.png",
+        "original_provenance": "docs/editorial-work/captures/campaign-reporting/summary-period-en-wide-desktop.json",
+        "original_sha256": "a5abb5d2044fa121b31494a6723398fa187fdcff53b9c73e27b68efe7bfc0829",
+        "asset_sha256": "470347c0697af60e59b6119e2c83bfb848fb9cbf69bd07ec4b14e451db40800e",
+        "pixels": [
+          2480,
+          610
+        ],
+        "source_density": 2,
+        "native_logical_size": [
+          1240.0,
+          305.0
+        ],
+        "icc": "Display P3",
+        "reuse": true,
+        "pixel_edits": "none",
+        "limitations": [],
+        "historical_capture_guard": "Retain exact original native window and fixture evidence; no retrospective automatic capture or per-shot account attestation is claimed.",
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "reuse_note": "Existing approved native source reused without recapture or duplicate upload; consumer verified after #305."
+      },
+      "original_guard_limitations": [
+        "Original desktop CSS viewport and browser zoom were not retained. Original native source and fixture evidence are preserved; no retrospective automatic guard is claimed."
+      ],
+      "capture_scope": "Existing approved native source/UI evidence retained; no recapture or retrospective guard assertion.",
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "original_source_pixels": [
+        2880,
+        610
+      ],
+      "publication_status": "Existing approved native asset reused unchanged; current consumer not yet publicly verified.",
+      "historical_consumer_record": {
+        "name": "summary-en",
+        "concept": "summary",
+        "locale": "en",
+        "mobile": false,
+        "published_asset": "images/analytics-reporting-attribution/campaign-reporting/summary-period-en-wide-desktop.png",
+        "source": "docs/editorial-work/captures/campaign-reporting/summary-period-en-wide-desktop-original.png",
+        "source_sha256": "a5abb5d2044fa121b31494a6723398fa187fdcff53b9c73e27b68efe7bfc0829",
+        "sha256": "470347c0697af60e59b6119e2c83bfb848fb9cbf69bd07ec4b14e451db40800e",
+        "pixels": [
+          2480,
+          610
+        ],
+        "logical_size": [
+          1240.0,
+          305.0
+        ],
+        "source_density": 2,
+        "icc": "Display P3",
+        "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+        "original_provenance": "docs/editorial-work/captures/tips-and-best-practices/capture-provenance.json",
+        "ui_evidence": "docs/editorial-work/captures/campaign-reporting/summary-period-en-wide-desktop.json",
+        "reused": true,
+        "pixel_edits": "none in this batch",
+        "original_crop_rectangle_px": {
+          "x": 224,
+          "y": 0,
+          "width": 2480,
+          "height": 610
+        },
+        "original_record": {
+          "name": "summary-period-en-wide-desktop",
+          "locale": "en",
+          "published_asset": "images/analytics-reporting-attribution/campaign-reporting/summary-period-en-wide-desktop.png",
+          "original_source": "docs/editorial-work/captures/campaign-reporting/summary-period-en-wide-desktop-original.png",
+          "original_provenance": "docs/editorial-work/captures/campaign-reporting/summary-period-en-wide-desktop.json",
+          "original_sha256": "a5abb5d2044fa121b31494a6723398fa187fdcff53b9c73e27b68efe7bfc0829",
+          "asset_sha256": "470347c0697af60e59b6119e2c83bfb848fb9cbf69bd07ec4b14e451db40800e",
+          "pixels": [
+            2480,
+            610
+          ],
+          "source_density": 2,
+          "native_logical_size": [
+            1240.0,
+            305.0
+          ],
+          "icc": "Display P3",
+          "reuse": true,
+          "pixel_edits": "none",
+          "limitations": [],
+          "historical_capture_guard": "Retain exact original native window and fixture evidence; no retrospective automatic capture or per-shot account attestation is claimed.",
+          "consumer_publication_state": "publicly_verified",
+          "consumer_publication_evidence": "public-verification.json",
+          "reuse_note": "Existing approved native source reused without recapture or duplicate upload; consumer verified after #305."
+        },
+        "original_guard_limitations": [
+          "Original desktop CSS viewport and browser zoom were not retained. Original native source and fixture evidence are preserved; no retrospective automatic guard is claimed."
+        ],
+        "capture_scope": "Existing approved native source/UI evidence retained; no recapture or retrospective guard assertion.",
+        "consumer_publication_state": "publicly_verified",
+        "original_source_pixels": [
+          2880,
+          610
+        ],
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Current consumer publicly verified using the existing approved native asset; no recapture, duplicate upload or pixel edit."
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/verify-data-and-signals/capture-provenance.json",
+      "new_capture": false
+    },
+    {
+      "name": "summary-en-mobile",
+      "concept": "summary",
+      "locale": "en",
+      "mobile": true,
+      "published_asset": "images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile-wide.png",
+      "source": "docs/editorial-work/captures/campaign-reporting/summary-period-en-mobile-wide-original.png",
+      "source_sha256": "244b1faacb31e3852d224f2db51c2efda234e4d57a54826aac83e726037efc36",
+      "sha256": "244b1faacb31e3852d224f2db51c2efda234e4d57a54826aac83e726037efc36",
+      "pixels": [
+        1048,
+        580
+      ],
+      "logical_size": [
+        524.0,
+        290.0
+      ],
+      "source_density": 2,
+      "icc": "Display P3",
+      "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "original_provenance": "docs/editorial-work/captures/tips-and-best-practices/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/campaign-reporting/summary-period-en-mobile-wide.json",
+      "reused": true,
+      "pixel_edits": "none in this batch",
+      "original_crop_rectangle_px": null,
+      "original_record": {
+        "name": "summary-period-en-mobile-wide",
+        "locale": "en",
+        "published_asset": "images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile-wide.png",
+        "original_source": "docs/editorial-work/captures/campaign-reporting/summary-period-en-mobile-wide-original.png",
+        "original_provenance": "docs/editorial-work/captures/campaign-reporting/summary-period-en-mobile-wide.json",
+        "original_sha256": "244b1faacb31e3852d224f2db51c2efda234e4d57a54826aac83e726037efc36",
+        "asset_sha256": "244b1faacb31e3852d224f2db51c2efda234e4d57a54826aac83e726037efc36",
+        "pixels": [
+          1048,
+          580
+        ],
+        "source_density": 2,
+        "native_logical_size": [
+          524.0,
+          290.0
+        ],
+        "icc": "Display P3",
+        "reuse": true,
+        "pixel_edits": "none",
+        "limitations": [],
+        "historical_capture_guard": "Retain exact original native window and fixture evidence; no retrospective automatic capture or per-shot account attestation is claimed.",
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "reuse_note": "Existing approved native source reused without recapture or duplicate upload; consumer verified after #305."
+      },
+      "original_guard_limitations": [],
+      "capture_scope": "Existing approved native source/UI evidence retained; no recapture or retrospective guard assertion.",
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "publication_status": "Existing approved native asset reused unchanged; current consumer not yet publicly verified.",
+      "historical_consumer_record": {
+        "name": "summary-en-mobile",
+        "concept": "summary",
+        "locale": "en",
+        "mobile": true,
+        "published_asset": "images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile-wide.png",
+        "source": "docs/editorial-work/captures/campaign-reporting/summary-period-en-mobile-wide-original.png",
+        "source_sha256": "244b1faacb31e3852d224f2db51c2efda234e4d57a54826aac83e726037efc36",
+        "sha256": "244b1faacb31e3852d224f2db51c2efda234e4d57a54826aac83e726037efc36",
+        "pixels": [
+          1048,
+          580
+        ],
+        "logical_size": [
+          524.0,
+          290.0
+        ],
+        "source_density": 2,
+        "icc": "Display P3",
+        "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+        "original_provenance": "docs/editorial-work/captures/tips-and-best-practices/capture-provenance.json",
+        "ui_evidence": "docs/editorial-work/captures/campaign-reporting/summary-period-en-mobile-wide.json",
+        "reused": true,
+        "pixel_edits": "none in this batch",
+        "original_crop_rectangle_px": null,
+        "original_record": {
+          "name": "summary-period-en-mobile-wide",
+          "locale": "en",
+          "published_asset": "images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile-wide.png",
+          "original_source": "docs/editorial-work/captures/campaign-reporting/summary-period-en-mobile-wide-original.png",
+          "original_provenance": "docs/editorial-work/captures/campaign-reporting/summary-period-en-mobile-wide.json",
+          "original_sha256": "244b1faacb31e3852d224f2db51c2efda234e4d57a54826aac83e726037efc36",
+          "asset_sha256": "244b1faacb31e3852d224f2db51c2efda234e4d57a54826aac83e726037efc36",
+          "pixels": [
+            1048,
+            580
+          ],
+          "source_density": 2,
+          "native_logical_size": [
+            524.0,
+            290.0
+          ],
+          "icc": "Display P3",
+          "reuse": true,
+          "pixel_edits": "none",
+          "limitations": [],
+          "historical_capture_guard": "Retain exact original native window and fixture evidence; no retrospective automatic capture or per-shot account attestation is claimed.",
+          "consumer_publication_state": "publicly_verified",
+          "consumer_publication_evidence": "public-verification.json",
+          "reuse_note": "Existing approved native source reused without recapture or duplicate upload; consumer verified after #305."
+        },
+        "original_guard_limitations": [],
+        "capture_scope": "Existing approved native source/UI evidence retained; no recapture or retrospective guard assertion.",
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Current consumer publicly verified using the existing approved native asset; no recapture, duplicate upload or pixel edit."
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/verify-data-and-signals/capture-provenance.json",
+      "new_capture": false
+    },
+    {
+      "concept": "roles",
+      "locale": "es",
+      "mobile": false,
+      "published_asset": "images/team/understanding-team-roles/roles-es.png",
+      "sha256": "8f241c8a53e11aa119ddeb6f8d77dfaa571d697cda83a7a892de1d064b224b20",
+      "pixels": [
+        1226,
+        1054
+      ],
+      "logical_size": [
+        613.0,
+        527.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/understanding-team-roles/native/roles-es-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-team-roles-editorial-20261001/native/roles-es-original.png",
+        "sha256": "8f241c8a53e11aa119ddeb6f8d77dfaa571d697cda83a7a892de1d064b224b20",
+        "url": "http://127.0.0.1:3192/hellotext/settings/members/29D7LZXk/edit",
+        "locale": "es",
+        "cssViewport": [
+          1400,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          160,
+          140,
+          613,
+          527
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1226,
+          1054
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/settings/members/29D7LZXk/edit",
+        "title": "Nueva invitación - Seleccionar rol - Hellotext",
+        "locale": "es",
+        "viewport": [
+          1400,
+          800
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "reused": true,
+      "new_capture": false,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "historical_consumer_record": {
+        "concept": "roles",
+        "locale": "es",
+        "mobile": false,
+        "published_asset": "images/team/understanding-team-roles/roles-es.png",
+        "sha256": "8f241c8a53e11aa119ddeb6f8d77dfaa571d697cda83a7a892de1d064b224b20",
+        "pixels": [
+          1226,
+          1054
+        ],
+        "logical_size": [
+          613.0,
+          527.0
+        ],
+        "density": 2,
+        "source": "docs/editorial-work/captures/understanding-team-roles/native/roles-es-original.png",
+        "native": {
+          "output": "/private/tmp/hellotext-team-roles-editorial-20261001/native/roles-es-original.png",
+          "sha256": "8f241c8a53e11aa119ddeb6f8d77dfaa571d697cda83a7a892de1d064b224b20",
+          "url": "http://127.0.0.1:3192/hellotext/settings/members/29D7LZXk/edit",
+          "locale": "es",
+          "cssViewport": [
+            1400,
+            800
+          ],
+          "browserDpr": 2,
+          "clip": [
+            160,
+            140,
+            613,
+            527
+          ],
+          "pageScroll": [
+            0,
+            0
+          ],
+          "pixelSize": [
+            1226,
+            1054
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "isolated Chrome compositor via CDP"
+        },
+        "ui_guard": {
+          "url": "http://127.0.0.1:3192/hellotext/settings/members/29D7LZXk/edit",
+          "title": "Nueva invitación - Seleccionar rol - Hellotext",
+          "locale": "es",
+          "viewport": [
+            1400,
+            800
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            0
+          ],
+          "guard": {
+            "pid": 57358,
+            "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+            "port": 9460,
+            "account": "design-system@example.test",
+            "single_local_page": true,
+            "color": "display-p3-d65"
+          }
+        },
+        "observed_http_methods": [
+          "GET"
+        ],
+        "reused": false,
+        "new_capture": true,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json"
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/understanding-team-roles/capture-provenance.json",
+      "original_provenance": "docs/editorial-work/captures/understanding-team-roles/capture-provenance.json",
+      "publication_status": "Existing approved native asset reused unchanged; current consumer not yet publicly verified.",
+      "pixel_edits": "none in this batch"
+    },
+    {
+      "concept": "roles",
+      "locale": "es",
+      "mobile": true,
+      "published_asset": "images/team/understanding-team-roles/roles-es-mobile.png",
+      "sha256": "1b1ea07c8a1e1369b6010ede374de9b9b770108ad3f1dee51a54c6168f62ce4a",
+      "pixels": [
+        828,
+        1190
+      ],
+      "logical_size": [
+        414.0,
+        595.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/understanding-team-roles/native/roles-es-mobile-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-team-roles-editorial-20261001/native/roles-es-mobile-original.png",
+        "sha256": "1b1ea07c8a1e1369b6010ede374de9b9b770108ad3f1dee51a54c6168f62ce4a",
+        "url": "http://127.0.0.1:3192/hellotext/settings/members/29D7LZXk/edit",
+        "locale": "es",
+        "cssViewport": [
+          430,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          8,
+          48,
+          414,
+          595
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          828,
+          1190
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/settings/members/29D7LZXk/edit",
+        "title": "Nueva invitación - Seleccionar rol - Hellotext",
+        "locale": "es",
+        "viewport": [
+          430,
+          800
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "reused": true,
+      "new_capture": false,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "historical_consumer_record": {
+        "concept": "roles",
+        "locale": "es",
+        "mobile": true,
+        "published_asset": "images/team/understanding-team-roles/roles-es-mobile.png",
+        "sha256": "1b1ea07c8a1e1369b6010ede374de9b9b770108ad3f1dee51a54c6168f62ce4a",
+        "pixels": [
+          828,
+          1190
+        ],
+        "logical_size": [
+          414.0,
+          595.0
+        ],
+        "density": 2,
+        "source": "docs/editorial-work/captures/understanding-team-roles/native/roles-es-mobile-original.png",
+        "native": {
+          "output": "/private/tmp/hellotext-team-roles-editorial-20261001/native/roles-es-mobile-original.png",
+          "sha256": "1b1ea07c8a1e1369b6010ede374de9b9b770108ad3f1dee51a54c6168f62ce4a",
+          "url": "http://127.0.0.1:3192/hellotext/settings/members/29D7LZXk/edit",
+          "locale": "es",
+          "cssViewport": [
+            430,
+            800
+          ],
+          "browserDpr": 2,
+          "clip": [
+            8,
+            48,
+            414,
+            595
+          ],
+          "pageScroll": [
+            0,
+            0
+          ],
+          "pixelSize": [
+            828,
+            1190
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "isolated Chrome compositor via CDP"
+        },
+        "ui_guard": {
+          "url": "http://127.0.0.1:3192/hellotext/settings/members/29D7LZXk/edit",
+          "title": "Nueva invitación - Seleccionar rol - Hellotext",
+          "locale": "es",
+          "viewport": [
+            430,
+            800
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            0
+          ],
+          "guard": {
+            "pid": 57358,
+            "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+            "port": 9460,
+            "account": "design-system@example.test",
+            "single_local_page": true,
+            "color": "display-p3-d65"
+          }
+        },
+        "observed_http_methods": [
+          "GET"
+        ],
+        "reused": false,
+        "new_capture": true,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json"
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/understanding-team-roles/capture-provenance.json",
+      "original_provenance": "docs/editorial-work/captures/understanding-team-roles/capture-provenance.json",
+      "publication_status": "Existing approved native asset reused unchanged; current consumer not yet publicly verified.",
+      "pixel_edits": "none in this batch"
+    },
+    {
+      "concept": "roles",
+      "locale": "en",
+      "mobile": false,
+      "published_asset": "images/team/understanding-team-roles/roles-en.png",
+      "sha256": "354e9a49cf3664b913bac536d4ea45c8a90092fa508fb1b67a9ecdcde4a2191f",
+      "pixels": [
+        1226,
+        1006
+      ],
+      "logical_size": [
+        613.0,
+        503.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/understanding-team-roles/native/roles-en-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-team-roles-editorial-20261001/native/roles-en-original.png",
+        "sha256": "354e9a49cf3664b913bac536d4ea45c8a90092fa508fb1b67a9ecdcde4a2191f",
+        "url": "http://127.0.0.1:3192/hellotext/settings/members/29D7LZXk/edit",
+        "locale": "en",
+        "cssViewport": [
+          1400,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          160,
+          140,
+          613,
+          503
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1226,
+          1006
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/settings/members/29D7LZXk/edit",
+        "title": "New Invite - Select Role - Hellotext",
+        "locale": "en",
+        "viewport": [
+          1400,
+          800
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "reused": true,
+      "new_capture": false,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "historical_consumer_record": {
+        "concept": "roles",
+        "locale": "en",
+        "mobile": false,
+        "published_asset": "images/team/understanding-team-roles/roles-en.png",
+        "sha256": "354e9a49cf3664b913bac536d4ea45c8a90092fa508fb1b67a9ecdcde4a2191f",
+        "pixels": [
+          1226,
+          1006
+        ],
+        "logical_size": [
+          613.0,
+          503.0
+        ],
+        "density": 2,
+        "source": "docs/editorial-work/captures/understanding-team-roles/native/roles-en-original.png",
+        "native": {
+          "output": "/private/tmp/hellotext-team-roles-editorial-20261001/native/roles-en-original.png",
+          "sha256": "354e9a49cf3664b913bac536d4ea45c8a90092fa508fb1b67a9ecdcde4a2191f",
+          "url": "http://127.0.0.1:3192/hellotext/settings/members/29D7LZXk/edit",
+          "locale": "en",
+          "cssViewport": [
+            1400,
+            800
+          ],
+          "browserDpr": 2,
+          "clip": [
+            160,
+            140,
+            613,
+            503
+          ],
+          "pageScroll": [
+            0,
+            0
+          ],
+          "pixelSize": [
+            1226,
+            1006
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "isolated Chrome compositor via CDP"
+        },
+        "ui_guard": {
+          "url": "http://127.0.0.1:3192/hellotext/settings/members/29D7LZXk/edit",
+          "title": "New Invite - Select Role - Hellotext",
+          "locale": "en",
+          "viewport": [
+            1400,
+            800
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            0
+          ],
+          "guard": {
+            "pid": 57358,
+            "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+            "port": 9460,
+            "account": "design-system@example.test",
+            "single_local_page": true,
+            "color": "display-p3-d65"
+          }
+        },
+        "observed_http_methods": [
+          "GET"
+        ],
+        "reused": false,
+        "new_capture": true,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json"
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/understanding-team-roles/capture-provenance.json",
+      "original_provenance": "docs/editorial-work/captures/understanding-team-roles/capture-provenance.json",
+      "publication_status": "Existing approved native asset reused unchanged; current consumer not yet publicly verified.",
+      "pixel_edits": "none in this batch"
+    },
+    {
+      "concept": "roles",
+      "locale": "en",
+      "mobile": true,
+      "published_asset": "images/team/understanding-team-roles/roles-en-mobile.png",
+      "sha256": "7347515e91a48fc8563e6c29a61e725fe0a21ab070be1af01da147804052145a",
+      "pixels": [
+        828,
+        1094
+      ],
+      "logical_size": [
+        414.0,
+        547.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/understanding-team-roles/native/roles-en-mobile-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-team-roles-editorial-20261001/native/roles-en-mobile-original.png",
+        "sha256": "7347515e91a48fc8563e6c29a61e725fe0a21ab070be1af01da147804052145a",
+        "url": "http://127.0.0.1:3192/hellotext/settings/members/29D7LZXk/edit",
+        "locale": "en",
+        "cssViewport": [
+          430,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          8,
+          48,
+          414,
+          547
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          828,
+          1094
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/settings/members/29D7LZXk/edit",
+        "title": "New Invite - Select Role - Hellotext",
+        "locale": "en",
+        "viewport": [
+          430,
+          800
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "reused": true,
+      "new_capture": false,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "historical_consumer_record": {
+        "concept": "roles",
+        "locale": "en",
+        "mobile": true,
+        "published_asset": "images/team/understanding-team-roles/roles-en-mobile.png",
+        "sha256": "7347515e91a48fc8563e6c29a61e725fe0a21ab070be1af01da147804052145a",
+        "pixels": [
+          828,
+          1094
+        ],
+        "logical_size": [
+          414.0,
+          547.0
+        ],
+        "density": 2,
+        "source": "docs/editorial-work/captures/understanding-team-roles/native/roles-en-mobile-original.png",
+        "native": {
+          "output": "/private/tmp/hellotext-team-roles-editorial-20261001/native/roles-en-mobile-original.png",
+          "sha256": "7347515e91a48fc8563e6c29a61e725fe0a21ab070be1af01da147804052145a",
+          "url": "http://127.0.0.1:3192/hellotext/settings/members/29D7LZXk/edit",
+          "locale": "en",
+          "cssViewport": [
+            430,
+            800
+          ],
+          "browserDpr": 2,
+          "clip": [
+            8,
+            48,
+            414,
+            547
+          ],
+          "pageScroll": [
+            0,
+            0
+          ],
+          "pixelSize": [
+            828,
+            1094
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "isolated Chrome compositor via CDP"
+        },
+        "ui_guard": {
+          "url": "http://127.0.0.1:3192/hellotext/settings/members/29D7LZXk/edit",
+          "title": "New Invite - Select Role - Hellotext",
+          "locale": "en",
+          "viewport": [
+            430,
+            800
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            0
+          ],
+          "guard": {
+            "pid": 57358,
+            "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+            "port": 9460,
+            "account": "design-system@example.test",
+            "single_local_page": true,
+            "color": "display-p3-d65"
+          }
+        },
+        "observed_http_methods": [
+          "GET"
+        ],
+        "reused": false,
+        "new_capture": true,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json"
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/understanding-team-roles/capture-provenance.json",
+      "original_provenance": "docs/editorial-work/captures/understanding-team-roles/capture-provenance.json",
+      "publication_status": "Existing approved native asset reused unchanged; current consumer not yet publicly verified.",
+      "pixel_edits": "none in this batch"
+    }
+  ],
+  "operations": "Read-only protected/current source and primary browser documentation audit. Approved PNG reuse with original historical guards and limitations; no source app/DB/account/locale/fixture/API/example/event/message/submission/permission/subscription/provider/worker action or new fixture audit. Separate isolated Help browser only for rendering, scrolling and review captures; no Rails visit.",
+  "local_verification": "docs/editorial-work/captures/troubleshoot-pages-that-do-not-load/local-verification.json",
+  "pending": [
+    "Protected PR/checks, independent exact-head review, normal production and public page/hash verification."
+  ]
+}
