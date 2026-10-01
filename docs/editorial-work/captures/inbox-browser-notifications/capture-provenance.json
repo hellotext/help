@@ -1,5 +1,5 @@
 {
-  "status": "locally_verified",
+  "status": "publicly_verified",
   "article_key": "team/inbox-browser-notifications.md",
   "start_main_sha": "47ea3a0a72c777b61bfeed36935a6035659aad95",
   "originals": [
@@ -122,7 +122,9 @@
         "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
       },
       "guard_evidence": "ui-state/menu-es.json",
-      "raw_post_guard_retained": false
+      "raw_post_guard_retained": false,
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "push-es",
@@ -186,7 +188,9 @@
         "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
       },
       "guard_evidence": "ui-state/push-es.json",
-      "raw_post_guard_retained": false
+      "raw_post_guard_retained": false,
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "push-es-mobile",
@@ -250,7 +254,9 @@
         "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
       },
       "guard_evidence": "ui-state/push-es-mobile.json",
-      "raw_post_guard_retained": false
+      "raw_post_guard_retained": false,
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "menu-en",
@@ -314,7 +320,9 @@
         "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
       },
       "guard_evidence": "ui-state/menu-en.json",
-      "raw_post_guard_retained": false
+      "raw_post_guard_retained": false,
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "push-en",
@@ -378,7 +386,9 @@
         "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
       },
       "guard_evidence": "ui-state/push-en.json",
-      "raw_post_guard_retained": false
+      "raw_post_guard_retained": false,
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "push-en-mobile",
@@ -442,7 +452,9 @@
         "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
       },
       "guard_evidence": "ui-state/push-en-mobile.json",
-      "raw_post_guard_retained": false
+      "raw_post_guard_retained": false,
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     }
   ],
   "figures_per_locale": 2,
@@ -491,9 +503,7 @@
   ],
   "source_audit": "source-audit.json",
   "safety": "Browser actions: native Account GET and avatar-menu opening only, plus the capture helper GET used to verify the fictitious identity. Separately, the explicitly allowed account mutation was owner locale es→en→es through the protected Rails runner and User.update_columns(locale: l); restored Spanish is checked in DB and UI. Permission remains default, browser push subscription absent and Rails PushSubscription/PushNotification zero. The existing browser service worker is naturally registered/rechecked by the page; no notification/delivery worker executed. No forced/mocked permission/subscription/UI, Enable/Allow/Disable, other account or fixture change, messages/events, send/test/provider action. Measured fields equal after restoration; this does not claim no temporary mutation, whole-DB equality or last_online_at equality.",
-  "pending": [
-    "Protected PR/checks, independent exact-head review, normal production and public page/hash verification."
-  ],
+  "pending": [],
   "local_verification": "docs/editorial-work/captures/inbox-browser-notifications/local-verification.json",
   "allowed_account_mutations": [
     {
@@ -513,5 +523,6 @@
       ],
       "comparison_limit": "Measured rows match after restoration; this is not an assertion that no account write occurred."
     }
-  ]
+  ],
+  "public_verification": "docs/editorial-work/captures/inbox-browser-notifications/public-verification.json"
 }
