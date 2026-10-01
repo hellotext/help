@@ -1,0 +1,142 @@
+{
+  "protected_rails_revision": "5403a7dcb567b63cae87d4c088112d65fad4eb7f",
+  "fresh_github_revision": "a6a32d95a0b6cdbd63342100012413446aa2a2f5",
+  "sources": [
+    {
+      "path": "app/models/report/widget/campaign/delivery_funnel.rb",
+      "rails_revision": "5403a7dcb567b63cae87d4c088112d65fad4eb7f",
+      "sha256": "94fea8e772dc4224805b7288fa30f5341824ec9cb045eeb535f8228120a69840",
+      "read_only": true
+    },
+    {
+      "path": "app/models/message/daily_rollup.rb",
+      "rails_revision": "5403a7dcb567b63cae87d4c088112d65fad4eb7f",
+      "sha256": "bac75fe98deb1e0ee4c03c394b6c8d3e3f62ab862b9bb13bb568b7464199b598",
+      "read_only": true
+    },
+    {
+      "path": "app/models/report/widget/campaign/time_to_conversion.rb",
+      "rails_revision": "5403a7dcb567b63cae87d4c088112d65fad4eb7f",
+      "sha256": "109b52a32ebcfcdac3cd2f03b99809503796b7b6a3e4df06be458f367fa008b3",
+      "read_only": true
+    },
+    {
+      "path": "app/models/campaign/reports/broadcast.rb",
+      "rails_revision": "5403a7dcb567b63cae87d4c088112d65fad4eb7f",
+      "sha256": "b84c3369d08e5af9820ed334c6c27fd22d5994ef780258b933a6a70636180fdd",
+      "read_only": true
+    },
+    {
+      "path": "app/models/report/calculator/campaign/base.rb",
+      "rails_revision": "5403a7dcb567b63cae87d4c088112d65fad4eb7f",
+      "sha256": "1aebcf63b4bee06ffb578a0534e9362c757f4e3b4b5da83883aa4853d2a596ef",
+      "read_only": true
+    },
+    {
+      "path": "app/models/report/calculator/campaign/conversion_rate.rb",
+      "rails_revision": "5403a7dcb567b63cae87d4c088112d65fad4eb7f",
+      "sha256": "49181eb393eeccd8b8db52f34925e4a9e28b8aad32977c5747f0e72d9c468d9c",
+      "read_only": true
+    },
+    {
+      "path": "app/models/report/calculator/campaign/roi_avg.rb",
+      "rails_revision": "5403a7dcb567b63cae87d4c088112d65fad4eb7f",
+      "sha256": "074f778456328214f8e529f13113227964df31b23155bfdf67b95733f5326d6d",
+      "read_only": true
+    },
+    {
+      "path": "app/models/report/calculator/campaign/revenue_per_message.rb",
+      "rails_revision": "5403a7dcb567b63cae87d4c088112d65fad4eb7f",
+      "sha256": "6ca13e1bb75df60903303fca97e0cda7886420968896eae075b42fa2c52d5569",
+      "read_only": true
+    },
+    {
+      "path": "app/controllers/campaigns_controller.rb",
+      "rails_revision": "5403a7dcb567b63cae87d4c088112d65fad4eb7f",
+      "sha256": "ab211e71080f7f3480f5dff8aac546b0f6223345ed28e5ac8338b301e2beb2b7",
+      "read_only": true
+    },
+    {
+      "path": "app/models/report/channel_performance/README.md",
+      "rails_revision": "5403a7dcb567b63cae87d4c088112d65fad4eb7f",
+      "sha256": "b531244ddac2e671d2692f5152c1585925d301332050d82bef38f29d19a9a150",
+      "read_only": true
+    },
+    {
+      "path": "app/models/report/calculator/workload_and_capacity/active_load.rb",
+      "rails_revision": "5403a7dcb567b63cae87d4c088112d65fad4eb7f",
+      "sha256": "d3288f57b341158735d63f67c1fd6a8fc63ae54c375c04b0b9ffce23783039db",
+      "read_only": true
+    },
+    {
+      "path": "app/models/report/calculator/workload_and_capacity/conversations_handled.rb",
+      "rails_revision": "5403a7dcb567b63cae87d4c088112d65fad4eb7f",
+      "sha256": "e4a047ed91d4fc04298fa0e374f6ae176976d104c352757de06d8ecc1825128b",
+      "read_only": true
+    }
+  ],
+  "fresh_github_funnel": {
+    "revision": "a6a32d95a0b6cdbd63342100012413446aa2a2f5",
+    "blob_sha": "696cec5a21166fa574451310db0e44d6db0cc439",
+    "sha256": "94fea8e772dc4224805b7288fa30f5341824ec9cb045eeb535f8228120a69840",
+    "matches_protected_rails_file": true,
+    "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/report/widget/campaign/delivery_funnel.rb"
+  },
+  "new_confirmed_defect": "Completed Campaign/Analytics overview/Data completeness guides incorrectly limited Engaged to delivery and link click within the event-date range. The current presenter sums combined delivered-message seen/click/reply rollups by business-local dispatch date; later signals can update that cohort.",
+  "introducing_source_commit": "86ae5f2f94d5677a03e2a952ea7d00f7fe20aa08",
+  "related_corrections": [
+    {
+      "article": "_i18n/es/analytics-reporting-attribution/campaign-reporting.md",
+      "original": "docs/editorial-work/captures/measure-success-first-7-days/originals/related/es/campaign-reporting.md",
+      "original_sha256": "9e3b68b78252d3ab22565b99897362298a22e986ff7c6c93f788cdbbb3b95fe2",
+      "corrected_sha256": "3359f199fa48c53e27f9e3b833979f80a347d3d8544b8243b45f68bbe69a4b65",
+      "changed_clauses": 4,
+      "original_headings_links_figures_preserved": true
+    },
+    {
+      "article": "_i18n/es/analytics-reporting-attribution/analytics-overview.md",
+      "original": "docs/editorial-work/captures/measure-success-first-7-days/originals/related/es/analytics-overview.md",
+      "original_sha256": "f3d5b9280eaafc65e02501d03586da402eca21774ee806d6ac0ae113e179fd43",
+      "corrected_sha256": "673feaaf428e715aa7cd2d61d69bc24c6b36d775c272f305a14fe07952a330d5",
+      "changed_clauses": 1,
+      "original_headings_links_figures_preserved": true
+    },
+    {
+      "article": "_i18n/es/analytics-reporting-attribution/data-completeness-and-reporting-gaps.md",
+      "original": "docs/editorial-work/captures/measure-success-first-7-days/originals/related/es/data-completeness-and-reporting-gaps.md",
+      "original_sha256": "f286bf20eda7b98a29e325067f447d450f810b89159b00dcf035521c0213db34",
+      "corrected_sha256": "28e7bd53b494f76b3f152d376f562559325fb65a474748d41df2cba9202f8ab7",
+      "changed_clauses": 1,
+      "original_headings_links_figures_preserved": true
+    },
+    {
+      "article": "_i18n/en/analytics-reporting-attribution/campaign-reporting.md",
+      "original": "docs/editorial-work/captures/measure-success-first-7-days/originals/related/en/campaign-reporting.md",
+      "original_sha256": "08e95a40a1c6d1def1bc3573d0ffee46b78c79ce93efd480206e1ec764cbd56d",
+      "corrected_sha256": "e5b9c43423a2c101ee1af356e234d574a8da960aa59fb300dffa797343cd4e76",
+      "changed_clauses": 4,
+      "original_headings_links_figures_preserved": true
+    },
+    {
+      "article": "_i18n/en/analytics-reporting-attribution/analytics-overview.md",
+      "original": "docs/editorial-work/captures/measure-success-first-7-days/originals/related/en/analytics-overview.md",
+      "original_sha256": "40a53a8a92082bffc906b47ddcf7191d88f85fac016c4640d145464b4954876a",
+      "corrected_sha256": "fe45ac70c83e26dc3caa3e065d1b3c6f4b0874f5b963ae9e8a29a63e8d1be080",
+      "changed_clauses": 1,
+      "original_headings_links_figures_preserved": true
+    },
+    {
+      "article": "_i18n/en/analytics-reporting-attribution/data-completeness-and-reporting-gaps.md",
+      "original": "docs/editorial-work/captures/measure-success-first-7-days/originals/related/en/data-completeness-and-reporting-gaps.md",
+      "original_sha256": "584be9921eb37b0cb0bb5b937b9201f9d176e263464b5ef0e7fbf5fcc4bc8904",
+      "corrected_sha256": "26db1bcd93ecffe9fd26fb819461ae78f05000dfbb30d1f8b0cca998649318b2",
+      "changed_clauses": 1,
+      "original_headings_links_figures_preserved": true
+    }
+  ],
+  "limitations": [
+    "Combined engagement is intended as one contribution per message, distinct from unique people or total clicks. Additive job retries can duplicate projection counters; reporting discrepancies still require record reconciliation.",
+    "Historic fictional source metrics are illustrative, not a current first-week population. Source periods and original guarded capture limitations are retained."
+  ],
+  "app_db_ui_fixture_locale_delivery_actions": 0
+}

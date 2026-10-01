@@ -1,0 +1,575 @@
+{
+  "originals": [
+    {
+      "source": "_i18n/es/getting-started/measure-success-first-7-days.md",
+      "snapshot": "docs/editorial-work/captures/measure-success-first-7-days/originals/es.md",
+      "sha256": "3b4c82765c717c831ba9c854342dedca4727f976abc56d01da21e0724af5ca69",
+      "live_sha256": "868281d41f2007d48ffb6de07e9a0190d7607f99d096337627b5ded3eb21fb92",
+      "scope_preserved": true
+    },
+    {
+      "source": "_i18n/en/getting-started/measure-success-first-7-days.md",
+      "snapshot": "docs/editorial-work/captures/measure-success-first-7-days/originals/en.md",
+      "sha256": "5fa8efa50a171ff117c6f22829c151cb52abbd72df2290ea0136c2fa7a6d3953",
+      "live_sha256": "822c4e322d1e63406dbff6c2af91cc38ed94f25d6bda67f995e9e629c1768195",
+      "scope_preserved": true
+    },
+    {
+      "source": "_getting-started/measure-success-first-7-days.md",
+      "snapshot": "docs/editorial-work/captures/measure-success-first-7-days/originals/stub.md",
+      "sha256": "10325cb21983658037a3655805acc7a9ef50d9900a1b29895a191bde4bbea3c2",
+      "live_sha256": "10325cb21983658037a3655805acc7a9ef50d9900a1b29895a191bde4bbea3c2",
+      "scope_preserved": true
+    }
+  ],
+  "images": [
+    {
+      "asset": "images/analytics-reporting-attribution/campaign-reporting/summary-period-es-wide-desktop.png",
+      "sha256": "65bfef90c667cf5da787412ad4d2175652ea945e2b1c1c84c7fb4bdb6c9217fc",
+      "original_source_sha256": "0b3688dd3e368e00fe80b9f184477bb8423010778d51a8a22d85425ab20ec1cd",
+      "existing_crop_rectangle_px": [
+        224,
+        0,
+        2480,
+        610
+      ],
+      "exact_crop_or_source_match": true,
+      "source_asset_root_build_es_build_match": true,
+      "p3": true,
+      "density": 2,
+      "native_logical_size": [
+        1240.0,
+        305.0
+      ],
+      "original_profile_bytes_preserved": true,
+      "pixels_inspected": true,
+      "reused": true
+    },
+    {
+      "asset": "images/analytics-reporting-attribution/campaign-reporting/summary-period-es-mobile-wide.png",
+      "sha256": "71136b3c75dbbe12a40ad787057309089b29f7d83b49f1ae1426ea91887e34e3",
+      "original_source_sha256": "71136b3c75dbbe12a40ad787057309089b29f7d83b49f1ae1426ea91887e34e3",
+      "existing_crop_rectangle_px": null,
+      "exact_crop_or_source_match": true,
+      "source_asset_root_build_es_build_match": true,
+      "p3": true,
+      "density": 2,
+      "native_logical_size": [
+        524.0,
+        290.0
+      ],
+      "original_profile_bytes_preserved": true,
+      "pixels_inspected": true,
+      "reused": true
+    },
+    {
+      "asset": "images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-es-desktop-wide.png",
+      "sha256": "9770459fa4583f37638a479c24a7ba40fc102ee00580f049c783caabe2036983",
+      "original_source_sha256": "9770459fa4583f37638a479c24a7ba40fc102ee00580f049c783caabe2036983",
+      "existing_crop_rectangle_px": null,
+      "exact_crop_or_source_match": true,
+      "source_asset_root_build_es_build_match": true,
+      "p3": true,
+      "density": 3,
+      "native_logical_size": [
+        573.3333333333334,
+        366.6666666666667
+      ],
+      "original_profile_bytes_preserved": true,
+      "pixels_inspected": true,
+      "reused": true
+    },
+    {
+      "asset": "images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-es-mobile-wide.png",
+      "sha256": "6d175b3a1d776b34b73c8d8cf72c093e87c829a829957e4763c5c38706aacab0",
+      "original_source_sha256": "6d175b3a1d776b34b73c8d8cf72c093e87c829a829957e4763c5c38706aacab0",
+      "existing_crop_rectangle_px": null,
+      "exact_crop_or_source_match": true,
+      "source_asset_root_build_es_build_match": true,
+      "p3": true,
+      "density": 2,
+      "native_logical_size": [
+        524.0,
+        405.0
+      ],
+      "original_profile_bytes_preserved": true,
+      "pixels_inspected": true,
+      "reused": true
+    },
+    {
+      "asset": "images/analytics-reporting-attribution/workload-capacity-report-guide/kpi-overview-es.png",
+      "sha256": "204b9d561b55ae0ca1e426ce3a03d29b424d49bc2641bb184979c08ce077ae69",
+      "original_source_sha256": "204b9d561b55ae0ca1e426ce3a03d29b424d49bc2641bb184979c08ce077ae69",
+      "existing_crop_rectangle_px": null,
+      "exact_crop_or_source_match": true,
+      "source_asset_root_build_es_build_match": true,
+      "p3": true,
+      "density": 2,
+      "native_logical_size": [
+        1235.0,
+        302.5
+      ],
+      "original_profile_bytes_preserved": true,
+      "pixels_inspected": true,
+      "reused": true
+    },
+    {
+      "asset": "images/analytics-reporting-attribution/campaign-reporting/summary-period-en-wide-desktop.png",
+      "sha256": "470347c0697af60e59b6119e2c83bfb848fb9cbf69bd07ec4b14e451db40800e",
+      "original_source_sha256": "a5abb5d2044fa121b31494a6723398fa187fdcff53b9c73e27b68efe7bfc0829",
+      "existing_crop_rectangle_px": [
+        224,
+        0,
+        2480,
+        610
+      ],
+      "exact_crop_or_source_match": true,
+      "source_asset_root_build_es_build_match": true,
+      "p3": true,
+      "density": 2,
+      "native_logical_size": [
+        1240.0,
+        305.0
+      ],
+      "original_profile_bytes_preserved": true,
+      "pixels_inspected": true,
+      "reused": true
+    },
+    {
+      "asset": "images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile-wide.png",
+      "sha256": "244b1faacb31e3852d224f2db51c2efda234e4d57a54826aac83e726037efc36",
+      "original_source_sha256": "244b1faacb31e3852d224f2db51c2efda234e4d57a54826aac83e726037efc36",
+      "existing_crop_rectangle_px": null,
+      "exact_crop_or_source_match": true,
+      "source_asset_root_build_es_build_match": true,
+      "p3": true,
+      "density": 2,
+      "native_logical_size": [
+        524.0,
+        290.0
+      ],
+      "original_profile_bytes_preserved": true,
+      "pixels_inspected": true,
+      "reused": true
+    },
+    {
+      "asset": "images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-en-desktop-wide.png",
+      "sha256": "9f22daf2d5dcfa2e37c6b1a2efde2442733b176fefdb6d8f60ad94ae56e29e54",
+      "original_source_sha256": "9f22daf2d5dcfa2e37c6b1a2efde2442733b176fefdb6d8f60ad94ae56e29e54",
+      "existing_crop_rectangle_px": null,
+      "exact_crop_or_source_match": true,
+      "source_asset_root_build_es_build_match": true,
+      "p3": true,
+      "density": 3.5,
+      "native_logical_size": [
+        702.2857142857143,
+        388.57142857142856
+      ],
+      "original_profile_bytes_preserved": true,
+      "pixels_inspected": true,
+      "reused": true
+    },
+    {
+      "asset": "images/analytics-reporting-attribution/campaign-reporting/time-to-conversion-en-mobile-wide.png",
+      "sha256": "0e02008d93a841958458ba2a4bdf74bc2c55a738d2540028111078c38987720a",
+      "original_source_sha256": "0e02008d93a841958458ba2a4bdf74bc2c55a738d2540028111078c38987720a",
+      "existing_crop_rectangle_px": null,
+      "exact_crop_or_source_match": true,
+      "source_asset_root_build_es_build_match": true,
+      "p3": true,
+      "density": 2,
+      "native_logical_size": [
+        524.0,
+        405.0
+      ],
+      "original_profile_bytes_preserved": true,
+      "pixels_inspected": true,
+      "reused": true
+    },
+    {
+      "asset": "images/analytics-reporting-attribution/workload-capacity-report-guide/kpi-overview-en.png",
+      "sha256": "9c1bc7d426d829df67f03b4758984a6e8fa7ef2161cda28528a7322c2764262b",
+      "original_source_sha256": "9c1bc7d426d829df67f03b4758984a6e8fa7ef2161cda28528a7322c2764262b",
+      "existing_crop_rectangle_px": null,
+      "exact_crop_or_source_match": true,
+      "source_asset_root_build_es_build_match": true,
+      "p3": true,
+      "density": 2,
+      "native_logical_size": [
+        1235.0,
+        302.5
+      ],
+      "original_profile_bytes_preserved": true,
+      "pixels_inspected": true,
+      "reused": true
+    }
+  ],
+  "browser": [
+    {
+      "article": "first-week",
+      "locale": "es",
+      "device": "desktop",
+      "width_css": 1440,
+      "sections": 8,
+      "figures": 3,
+      "full_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "new_consumer_no_upscale": true,
+      "related_original_figures_unchanged": false
+    },
+    {
+      "article": "first-week",
+      "locale": "es",
+      "device": "mobile",
+      "width_css": 390,
+      "sections": 8,
+      "figures": 3,
+      "full_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "new_consumer_no_upscale": true,
+      "related_original_figures_unchanged": false
+    },
+    {
+      "article": "first-week",
+      "locale": "es",
+      "device": "narrow",
+      "width_css": 580,
+      "sections": 8,
+      "figures": 3,
+      "full_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "new_consumer_no_upscale": true,
+      "related_original_figures_unchanged": false
+    },
+    {
+      "article": "first-week",
+      "locale": "en",
+      "device": "desktop",
+      "width_css": 1440,
+      "sections": 8,
+      "figures": 3,
+      "full_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "new_consumer_no_upscale": true,
+      "related_original_figures_unchanged": false
+    },
+    {
+      "article": "first-week",
+      "locale": "en",
+      "device": "mobile",
+      "width_css": 390,
+      "sections": 8,
+      "figures": 3,
+      "full_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "new_consumer_no_upscale": true,
+      "related_original_figures_unchanged": false
+    },
+    {
+      "article": "first-week",
+      "locale": "en",
+      "device": "narrow",
+      "width_css": 580,
+      "sections": 8,
+      "figures": 3,
+      "full_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "new_consumer_no_upscale": true,
+      "related_original_figures_unchanged": false
+    },
+    {
+      "article": "campaign",
+      "locale": "es",
+      "device": "desktop",
+      "width_css": 1440,
+      "sections": 11,
+      "figures": 7,
+      "full_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "new_consumer_no_upscale": false,
+      "related_original_figures_unchanged": true
+    },
+    {
+      "article": "campaign",
+      "locale": "es",
+      "device": "mobile",
+      "width_css": 390,
+      "sections": 11,
+      "figures": 7,
+      "full_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "new_consumer_no_upscale": false,
+      "related_original_figures_unchanged": true
+    },
+    {
+      "article": "campaign",
+      "locale": "es",
+      "device": "narrow",
+      "width_css": 580,
+      "sections": 11,
+      "figures": 7,
+      "full_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "new_consumer_no_upscale": false,
+      "related_original_figures_unchanged": true
+    },
+    {
+      "article": "campaign",
+      "locale": "en",
+      "device": "desktop",
+      "width_css": 1440,
+      "sections": 11,
+      "figures": 7,
+      "full_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "new_consumer_no_upscale": false,
+      "related_original_figures_unchanged": true
+    },
+    {
+      "article": "campaign",
+      "locale": "en",
+      "device": "mobile",
+      "width_css": 390,
+      "sections": 11,
+      "figures": 7,
+      "full_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "new_consumer_no_upscale": false,
+      "related_original_figures_unchanged": true
+    },
+    {
+      "article": "campaign",
+      "locale": "en",
+      "device": "narrow",
+      "width_css": 580,
+      "sections": 11,
+      "figures": 7,
+      "full_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "new_consumer_no_upscale": false,
+      "related_original_figures_unchanged": true
+    },
+    {
+      "article": "overview",
+      "locale": "es",
+      "device": "desktop",
+      "width_css": 1440,
+      "sections": 12,
+      "figures": 0,
+      "full_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "new_consumer_no_upscale": false,
+      "related_original_figures_unchanged": true
+    },
+    {
+      "article": "overview",
+      "locale": "es",
+      "device": "mobile",
+      "width_css": 390,
+      "sections": 12,
+      "figures": 0,
+      "full_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "new_consumer_no_upscale": false,
+      "related_original_figures_unchanged": true
+    },
+    {
+      "article": "overview",
+      "locale": "es",
+      "device": "narrow",
+      "width_css": 580,
+      "sections": 12,
+      "figures": 0,
+      "full_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "new_consumer_no_upscale": false,
+      "related_original_figures_unchanged": true
+    },
+    {
+      "article": "overview",
+      "locale": "en",
+      "device": "desktop",
+      "width_css": 1440,
+      "sections": 12,
+      "figures": 0,
+      "full_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "new_consumer_no_upscale": false,
+      "related_original_figures_unchanged": true
+    },
+    {
+      "article": "overview",
+      "locale": "en",
+      "device": "mobile",
+      "width_css": 390,
+      "sections": 12,
+      "figures": 0,
+      "full_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "new_consumer_no_upscale": false,
+      "related_original_figures_unchanged": true
+    },
+    {
+      "article": "overview",
+      "locale": "en",
+      "device": "narrow",
+      "width_css": 580,
+      "sections": 12,
+      "figures": 0,
+      "full_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "new_consumer_no_upscale": false,
+      "related_original_figures_unchanged": true
+    },
+    {
+      "article": "gaps",
+      "locale": "es",
+      "device": "desktop",
+      "width_css": 1440,
+      "sections": 10,
+      "figures": 0,
+      "full_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "new_consumer_no_upscale": false,
+      "related_original_figures_unchanged": true
+    },
+    {
+      "article": "gaps",
+      "locale": "es",
+      "device": "mobile",
+      "width_css": 390,
+      "sections": 10,
+      "figures": 0,
+      "full_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "new_consumer_no_upscale": false,
+      "related_original_figures_unchanged": true
+    },
+    {
+      "article": "gaps",
+      "locale": "es",
+      "device": "narrow",
+      "width_css": 580,
+      "sections": 10,
+      "figures": 0,
+      "full_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "new_consumer_no_upscale": false,
+      "related_original_figures_unchanged": true
+    },
+    {
+      "article": "gaps",
+      "locale": "en",
+      "device": "desktop",
+      "width_css": 1440,
+      "sections": 10,
+      "figures": 0,
+      "full_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "new_consumer_no_upscale": false,
+      "related_original_figures_unchanged": true
+    },
+    {
+      "article": "gaps",
+      "locale": "en",
+      "device": "mobile",
+      "width_css": 390,
+      "sections": 10,
+      "figures": 0,
+      "full_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "new_consumer_no_upscale": false,
+      "related_original_figures_unchanged": true
+    },
+    {
+      "article": "gaps",
+      "locale": "en",
+      "device": "narrow",
+      "width_css": 580,
+      "sections": 10,
+      "figures": 0,
+      "full_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "new_consumer_no_upscale": false,
+      "related_original_figures_unchanged": true
+    }
+  ],
+  "related_corrections": [
+    {
+      "article": "_i18n/es/analytics-reporting-attribution/campaign-reporting.md",
+      "original": "docs/editorial-work/captures/measure-success-first-7-days/originals/related/es/campaign-reporting.md",
+      "original_sha256": "9e3b68b78252d3ab22565b99897362298a22e986ff7c6c93f788cdbbb3b95fe2",
+      "corrected_sha256": "3359f199fa48c53e27f9e3b833979f80a347d3d8544b8243b45f68bbe69a4b65",
+      "changed_clauses": 4,
+      "original_headings_links_figures_preserved": true,
+      "all_other_bytes_unchanged": true
+    },
+    {
+      "article": "_i18n/es/analytics-reporting-attribution/analytics-overview.md",
+      "original": "docs/editorial-work/captures/measure-success-first-7-days/originals/related/es/analytics-overview.md",
+      "original_sha256": "f3d5b9280eaafc65e02501d03586da402eca21774ee806d6ac0ae113e179fd43",
+      "corrected_sha256": "673feaaf428e715aa7cd2d61d69bc24c6b36d775c272f305a14fe07952a330d5",
+      "changed_clauses": 1,
+      "original_headings_links_figures_preserved": true,
+      "all_other_bytes_unchanged": true
+    },
+    {
+      "article": "_i18n/es/analytics-reporting-attribution/data-completeness-and-reporting-gaps.md",
+      "original": "docs/editorial-work/captures/measure-success-first-7-days/originals/related/es/data-completeness-and-reporting-gaps.md",
+      "original_sha256": "f286bf20eda7b98a29e325067f447d450f810b89159b00dcf035521c0213db34",
+      "corrected_sha256": "28e7bd53b494f76b3f152d376f562559325fb65a474748d41df2cba9202f8ab7",
+      "changed_clauses": 1,
+      "original_headings_links_figures_preserved": true,
+      "all_other_bytes_unchanged": true
+    },
+    {
+      "article": "_i18n/en/analytics-reporting-attribution/campaign-reporting.md",
+      "original": "docs/editorial-work/captures/measure-success-first-7-days/originals/related/en/campaign-reporting.md",
+      "original_sha256": "08e95a40a1c6d1def1bc3573d0ffee46b78c79ce93efd480206e1ec764cbd56d",
+      "corrected_sha256": "e5b9c43423a2c101ee1af356e234d574a8da960aa59fb300dffa797343cd4e76",
+      "changed_clauses": 4,
+      "original_headings_links_figures_preserved": true,
+      "all_other_bytes_unchanged": true
+    },
+    {
+      "article": "_i18n/en/analytics-reporting-attribution/analytics-overview.md",
+      "original": "docs/editorial-work/captures/measure-success-first-7-days/originals/related/en/analytics-overview.md",
+      "original_sha256": "40a53a8a92082bffc906b47ddcf7191d88f85fac016c4640d145464b4954876a",
+      "corrected_sha256": "fe45ac70c83e26dc3caa3e065d1b3c6f4b0874f5b963ae9e8a29a63e8d1be080",
+      "changed_clauses": 1,
+      "original_headings_links_figures_preserved": true,
+      "all_other_bytes_unchanged": true
+    },
+    {
+      "article": "_i18n/en/analytics-reporting-attribution/data-completeness-and-reporting-gaps.md",
+      "original": "docs/editorial-work/captures/measure-success-first-7-days/originals/related/en/data-completeness-and-reporting-gaps.md",
+      "original_sha256": "584be9921eb37b0cb0bb5b937b9201f9d176e263464b5ef0e7fbf5fcc4bc8904",
+      "corrected_sha256": "26db1bcd93ecffe9fd26fb819461ae78f05000dfbb30d1f8b0cca998649318b2",
+      "changed_clauses": 1,
+      "original_headings_links_figures_preserved": true,
+      "all_other_bytes_unchanged": true
+    }
+  ],
+  "examples": 0,
+  "publication_state": "not_yet_publicly_verified",
+  "build": {
+    "production_build_passed": true,
+    "security_headers_passed": true,
+    "log_sha256": "2eac58017b7e49be98618b790191960aedae65993586825946fc84bd11bbd2ee"
+  },
+  "visual_review": {
+    "source_density_min": 2,
+    "new_captures": 0,
+    "new_png_uploads": 0,
+    "sheets_inspected": 50,
+    "screenshots_kept_in_local_scratch_only": true,
+    "post_process_guard": {
+      "pid": 98125,
+      "profile": "/private/tmp/hellotext-subscriber-help-review-9452",
+      "cdp": "127.0.0.1:9452",
+      "single_local_tab": true,
+      "color_flag": "display-p3-d65",
+      "confirmed_after_browser_review": true
+    }
+  }
+}

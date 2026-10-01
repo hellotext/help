@@ -41,7 +41,7 @@ The report or section should explain which date it uses. The most common rules a
 | --- | --- |
 | Dashboard | Revenue uses purchase date, activity uses the date each event occurred, and current-state cards reflect the displayed time. |
 | Revenue report | Purchase date. Campaign and playbook rows identify the credited source for purchases completed during the selected period. |
-| Campaign detail report | Sends, deliveries, clicks, and attributed purchases count on the date of each event. The funnel's Engagement stage groups delivered messages seen, clicked, or replied to by dispatch day; later signals can update that period. |
+| Campaign detail report | Sends, deliveries, clicks, and attributed purchases count on the date of each event. The funnel's Engagement stage requires both delivery and a tracked click within the selected period. |
 | Playbook report | Sends, deliveries, and clicks use each event's date; revenue and conversion metrics can group purchases by the date of the credited source message. |
 | Performance | Interaction start date. A later recorded conversion or escalation follows the originating interaction. |
 | Service quality | AI resolution, team resolution, and unresolved rates use the start of the service interaction; SLA compliance and response-time distribution use the start of the response obligation; customer satisfaction uses the survey answer date. Agent-performance columns use their relevant handling, resolution, or response dates. |

@@ -41,7 +41,7 @@ El reporte o la sección debe explicar qué fecha utiliza. Estas son las reglas 
 | --- | --- |
 | Dashboard | Los ingresos usan la fecha de compra, la actividad usa la fecha de cada evento y las tarjetas de estado actual reflejan el momento indicado. |
 | Reporte de ingresos | Fecha de compra. Las filas de campañas y misiones identifican la fuente acreditada para compras completadas durante el período seleccionado. |
-| Reporte detallado de una campaña | Los envíos, entregas, clics y compras atribuidas se cuentan en la fecha de cada evento. Interacción en el embudo agrupa mensajes entregados vistos, clicados o respondidos por su día de despacho; las señales posteriores pueden actualizar ese período. |
+| Reporte detallado de una campaña | Los envíos, entregas, clics y compras atribuidas se cuentan en la fecha de cada evento. La etapa Interacción del embudo exige que la entrega y un clic rastreado ocurran dentro del período seleccionado. |
 | Reporte de una misión | Envíos, entregas y clics usan la fecha de cada evento; las métricas de ingresos y conversión pueden agrupar compras por la fecha del mensaje de origen acreditado. |
 | Rendimiento | Fecha de inicio de la interacción. La conversión o Derivación registrada después sigue a la interacción de origen. |
 | Calidad de servicio | Las tasas de resolución por IA, de resolución por equipo y de no resueltas usan el inicio de la interacción de servicio; el cumplimiento de SLA y la distribución del tiempo de respuesta usan el inicio de la obligación de respuesta; la satisfacción del cliente usa la fecha de respuesta a la encuesta. Las columnas de rendimiento de agentes usan las fechas de atención, resolución o respuesta que correspondan. |
