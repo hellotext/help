@@ -1,5 +1,5 @@
 {
-  "status": "local_verified_publication_pending",
+  "status": "publicly_verified",
   "article_key": "integrations/setup-push-notifications.md",
   "base_revision": "67078eed75f1b54eb0c8493bf3ce7dfaa8ff8012",
   "originals": [
@@ -116,9 +116,11 @@
       "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-es-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "publication_status": "Approved original source reused unchanged; current consumer publication pending.",
+      "publication_status": "Approved original source reused without recapture, pixel edits or duplicate upload; current consumer publicly verified, see public-verification.json.",
       "reuse": true,
-      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json"
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "business-es-mobile",
@@ -162,9 +164,11 @@
       "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-es-mobile-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "publication_status": "Approved original source reused unchanged; current consumer publication pending.",
+      "publication_status": "Approved original source reused without recapture, pixel edits or duplicate upload; current consumer publicly verified, see public-verification.json.",
       "reuse": true,
-      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json"
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "business-en",
@@ -208,9 +212,11 @@
       "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-en-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "publication_status": "Approved original source reused unchanged; current consumer publication pending.",
+      "publication_status": "Approved original source reused without recapture, pixel edits or duplicate upload; current consumer publicly verified, see public-verification.json.",
       "reuse": true,
-      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json"
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "business-en-mobile",
@@ -254,9 +260,11 @@
       "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-en-mobile-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "publication_status": "Approved original source reused unchanged; current consumer publication pending.",
+      "publication_status": "Approved original source reused without recapture, pixel edits or duplicate upload; current consumer publicly verified, see public-verification.json.",
       "reuse": true,
-      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json"
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "origin-es",
@@ -303,8 +311,10 @@
       "pointer": "absent",
       "pixel_edits": "none",
       "reuse": false,
-      "publication_status": "Native pixels inspected and approved locally; publication pending.",
-      "original_provenance": "docs/editorial-work/captures/setup-push-notifications/capture-provenance.json"
+      "publication_status": "New native P3 2x source published without pixel edits; current consumer publicly verified, see public-verification.json.",
+      "original_provenance": "docs/editorial-work/captures/setup-push-notifications/capture-provenance.json",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "origin-es-mobile",
@@ -351,8 +361,10 @@
       "pointer": "absent",
       "pixel_edits": "none",
       "reuse": false,
-      "publication_status": "Native pixels inspected and approved locally; publication pending.",
-      "original_provenance": "docs/editorial-work/captures/setup-push-notifications/capture-provenance.json"
+      "publication_status": "New native P3 2x source published without pixel edits; current consumer publicly verified, see public-verification.json.",
+      "original_provenance": "docs/editorial-work/captures/setup-push-notifications/capture-provenance.json",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "alert-es",
@@ -399,8 +411,10 @@
       "pointer": "absent",
       "pixel_edits": "none",
       "reuse": false,
-      "publication_status": "Native pixels inspected and approved locally; publication pending.",
-      "original_provenance": "docs/editorial-work/captures/setup-push-notifications/capture-provenance.json"
+      "publication_status": "New native P3 2x source published without pixel edits; current consumer publicly verified, see public-verification.json.",
+      "original_provenance": "docs/editorial-work/captures/setup-push-notifications/capture-provenance.json",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "alert-es-mobile",
@@ -447,8 +461,10 @@
       "pointer": "absent",
       "pixel_edits": "none",
       "reuse": false,
-      "publication_status": "Native pixels inspected and approved locally; publication pending.",
-      "original_provenance": "docs/editorial-work/captures/setup-push-notifications/capture-provenance.json"
+      "publication_status": "New native P3 2x source published without pixel edits; current consumer publicly verified, see public-verification.json.",
+      "original_provenance": "docs/editorial-work/captures/setup-push-notifications/capture-provenance.json",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "origin-en",
@@ -495,8 +511,10 @@
       "pointer": "absent",
       "pixel_edits": "none",
       "reuse": false,
-      "publication_status": "Native pixels inspected and approved locally; publication pending.",
-      "original_provenance": "docs/editorial-work/captures/setup-push-notifications/capture-provenance.json"
+      "publication_status": "New native P3 2x source published without pixel edits; current consumer publicly verified, see public-verification.json.",
+      "original_provenance": "docs/editorial-work/captures/setup-push-notifications/capture-provenance.json",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "origin-en-mobile",
@@ -543,8 +561,10 @@
       "pointer": "absent",
       "pixel_edits": "none",
       "reuse": false,
-      "publication_status": "Native pixels inspected and approved locally; publication pending.",
-      "original_provenance": "docs/editorial-work/captures/setup-push-notifications/capture-provenance.json"
+      "publication_status": "New native P3 2x source published without pixel edits; current consumer publicly verified, see public-verification.json.",
+      "original_provenance": "docs/editorial-work/captures/setup-push-notifications/capture-provenance.json",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "alert-en",
@@ -591,8 +611,10 @@
       "pointer": "absent",
       "pixel_edits": "none",
       "reuse": false,
-      "publication_status": "Native pixels inspected and approved locally; publication pending.",
-      "original_provenance": "docs/editorial-work/captures/setup-push-notifications/capture-provenance.json"
+      "publication_status": "New native P3 2x source published without pixel edits; current consumer publicly verified, see public-verification.json.",
+      "original_provenance": "docs/editorial-work/captures/setup-push-notifications/capture-provenance.json",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "alert-en-mobile",
@@ -639,8 +661,10 @@
       "pointer": "absent",
       "pixel_edits": "none",
       "reuse": false,
-      "publication_status": "Native pixels inspected and approved locally; publication pending.",
-      "original_provenance": "docs/editorial-work/captures/setup-push-notifications/capture-provenance.json"
+      "publication_status": "New native P3 2x source published without pixel edits; current consumer publicly verified, see public-verification.json.",
+      "original_provenance": "docs/editorial-work/captures/setup-push-notifications/capture-provenance.json",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     }
   ],
   "new_captures": 8,
@@ -674,9 +698,7 @@
     },
     "push_channel_creation_allowed": true
   },
-  "pending": [
-    "Protected exact-head checks/review, merge and public verification"
-  ],
+  "pending": [],
   "fixture_before_after_equal": true,
   "local_verification": {
     "evidence": "local-verification.json",
@@ -690,6 +712,18 @@
     "original_links_per_locale": 16,
     "figures_per_locale": 3,
     "examples_per_locale": 0,
-    "publication_state": "pending"
+    "publication_state": "Publicly verified after content merge; see public-verification.json."
+  },
+  "publication": {
+    "state": "publicly_verified",
+    "evidence": "public-verification.json",
+    "content_pr": "https://github.com/hellotext/help/pull/315",
+    "main_merge_sha": "da24bf26aa9d73d51c6a8f89778e34fc8d32d95b",
+    "deploy_id": "6abdf8ff313bcf0008f23c0a",
+    "public_pages_http": 200,
+    "approved_hashes_match": true,
+    "new_captures": 8,
+    "new_png_uploads": 8,
+    "reused_pngs": 4
   }
 }
