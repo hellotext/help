@@ -1,0 +1,68 @@
+{
+  "url": "http://127.0.0.1:4191/es/sincronizacion-catalogo-productos.html",
+  "lang": "es",
+  "title": "Sincronización del catálogo de productos | Hellotext",
+  "width": 580,
+  "dpr": 2,
+  "zoom": 1,
+  "articleRect": {
+    "x": 16,
+    "y": 536,
+    "width": 548,
+    "height": 9228.7890625,
+    "top": 536,
+    "right": 564,
+    "bottom": 9764.7890625,
+    "left": 16
+  },
+  "figures": [
+    {
+      "i": 0,
+      "top": 3997,
+      "height": 445,
+      "figWidth": 548,
+      "imageWidth": 471.9921875,
+      "naturalWidth": 503,
+      "src": "http://127.0.0.1:4191/images/developers/products-and-inventory-with-api/identity-es.png",
+      "whiteFrameWidth": 490,
+      "frameWidth": 548,
+      "imageLinked": false,
+      "caption": "Borrador existente sin eventos, reutilizado sin cambios. Referencia y SKU no son el ID público ni una señal de inventario."
+    },
+    {
+      "i": 1,
+      "top": 5554,
+      "height": 226,
+      "figWidth": 548,
+      "imageWidth": 471,
+      "naturalWidth": 471,
+      "src": "http://127.0.0.1:4191/images/developers/products-and-inventory-with-api/price-es.png",
+      "whiteFrameWidth": 489,
+      "frameWidth": 548,
+      "imageLinked": false,
+      "caption": "Control monetario abierto sin guardar: no representa stock, un precio actualizado por la tienda ni una prueba de sincronización."
+    },
+    {
+      "i": 2,
+      "top": 7640,
+      "height": 362,
+      "figWidth": 548,
+      "imageWidth": 471,
+      "naturalWidth": 471,
+      "src": "http://127.0.0.1:4191/images/developers/orders-with-api/items-es.png",
+      "whiteFrameWidth": 489,
+      "frameWidth": 548,
+      "imageLinked": false,
+      "caption": "Pedido existente en borrador y sin eventos. Para custom_store, dos unidades de USD 44.95 suman USD 89.90; no es una compra o entrega real."
+    }
+  ],
+  "scrollWidth": 580,
+  "postGuard": {
+    "url": "http://127.0.0.1:4191/es/sincronizacion-catalogo-productos.html",
+    "title": "Sincronización del catálogo de productos | Hellotext",
+    "locale": "es",
+    "width": 580,
+    "dpr": 2,
+    "zoom": 1
+  }
+}
