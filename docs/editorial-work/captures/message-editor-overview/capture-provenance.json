@@ -1,0 +1,533 @@
+{
+  "status": "locally_verified",
+  "base_revision": "74f336a047410be10bf7f5089bca6e911178a459",
+  "originals": [
+    {
+      "article": "_i18n/es/numbers/message-editor-overview.md",
+      "snapshot": "docs/editorial-work/captures/message-editor-overview/originals/es.md",
+      "sha256": "f4743b963f281ce5c23f625ad1444de6634cdd7f4bdfe41b4cd19d3327a2d849",
+      "headings": [
+        "## Qué puedes hacer",
+        "## Dónde aparece el editor",
+        "## Guías relacionadas"
+      ],
+      "links": [
+        "_campaigns/creating-a-campaign.md",
+        "_numbers/message-editor-basics.md",
+        "_analytics-reporting-attribution/tracked-links.md",
+        "_audience/personalization-tags.md",
+        "_numbers/share-a-location.md"
+      ]
+    },
+    {
+      "article": "_i18n/en/numbers/message-editor-overview.md",
+      "snapshot": "docs/editorial-work/captures/message-editor-overview/originals/en.md",
+      "sha256": "7b9a067373ea11718573e21f8395e8a64b0c4724890293274681e2ba9a3d0d1d",
+      "headings": [
+        "## What you can do",
+        "## Where the editor appears",
+        "## Related guides"
+      ],
+      "links": [
+        "_campaigns/creating-a-campaign.md",
+        "_numbers/message-editor-basics.md",
+        "_analytics-reporting-attribution/tracked-links.md",
+        "_audience/personalization-tags.md",
+        "_numbers/share-a-location.md"
+      ]
+    },
+    {
+      "article": "_numbers/message-editor-overview.md",
+      "snapshot": "docs/editorial-work/captures/message-editor-overview/originals/stub.md",
+      "sha256": "4caea21d18e4982d150af1ca3ebc8f73fec0b5d4041c3000cd2d50649a193ec6",
+      "headings": [],
+      "links": []
+    }
+  ],
+  "images": [
+    {
+      "name": "format-es",
+      "concept": "format",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/message-editor-basics/format-es-original.png",
+      "published_asset": "images/numbers/message-editor-basics/format-es.png",
+      "sha256": "7c7077129a2901111f67109eb367a5bb54220ac11838f50b61e29b48a1603a1e",
+      "logical_size": [
+        624,
+        264
+      ],
+      "source_density": 2,
+      "reused": true,
+      "native": {
+        "output": "/private/tmp/hellotext-message-editor-basics-editorial-20261001/native/format-es-original.png",
+        "sha256": "7c7077129a2901111f67109eb367a5bb54220ac11838f50b61e29b48a1603a1e",
+        "url": "http://127.0.0.1:3192/hellotext/settings/templates/new?channel=sms&group=custom",
+        "locale": "es",
+        "cssViewport": [
+          1400,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          72,
+          257,
+          624,
+          264
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1248,
+          528
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "original_provenance": "docs/editorial-work/captures/message-editor-basics/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/message-editor-basics/format-es-ui.json",
+      "pixel_edits": "none",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "New native guarded capture and approved asset publicly verified with matching SHA256; no pixel edit.",
+      "new_capture": false
+    },
+    {
+      "name": "format-es-mobile",
+      "concept": "format",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/message-editor-basics/format-es-mobile-original.png",
+      "published_asset": "images/numbers/message-editor-basics/format-es-mobile.png",
+      "sha256": "eb624ee9580528cbc670313af7dea68bbe6a29ce42ea23c6747668029dce73b1",
+      "logical_size": [
+        326,
+        264
+      ],
+      "source_density": 2,
+      "reused": true,
+      "native": {
+        "output": "/private/tmp/hellotext-message-editor-basics-editorial-20261001/native/format-es-mobile-original.png",
+        "sha256": "eb624ee9580528cbc670313af7dea68bbe6a29ce42ea23c6747668029dce73b1",
+        "url": "http://127.0.0.1:3192/hellotext/settings/templates/new?channel=sms&group=custom",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          32,
+          155,
+          326,
+          264
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          652,
+          528
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "original_provenance": "docs/editorial-work/captures/message-editor-basics/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/message-editor-basics/format-es-mobile-ui.json",
+      "pixel_edits": "none",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "New native guarded capture and approved asset publicly verified with matching SHA256; no pixel edit.",
+      "new_capture": false
+    },
+    {
+      "name": "link-es",
+      "concept": "link",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/message-editor-basics/link-es-original.png",
+      "published_asset": "images/numbers/message-editor-basics/link-es.png",
+      "sha256": "ecae4a8faae7de2738bdea87c8ea1896e7cf62303c129769905b2050f8ffe288",
+      "logical_size": [
+        446,
+        194
+      ],
+      "source_density": 2,
+      "reused": true,
+      "native": {
+        "output": "/private/tmp/hellotext-message-editor-basics-editorial-20261001/native/link-es-original.png",
+        "sha256": "ecae4a8faae7de2738bdea87c8ea1896e7cf62303c129769905b2050f8ffe288",
+        "url": "http://127.0.0.1:3192/hellotext/settings/templates/new?channel=sms&group=custom",
+        "locale": "es",
+        "cssViewport": [
+          1400,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          49,
+          518,
+          446,
+          194
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          892,
+          388
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "original_provenance": "docs/editorial-work/captures/message-editor-basics/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/message-editor-basics/link-es-ui.json",
+      "pixel_edits": "none",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "New native guarded capture and approved asset publicly verified with matching SHA256; no pixel edit.",
+      "new_capture": false
+    },
+    {
+      "name": "link-es-mobile",
+      "concept": "link",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/message-editor-basics/link-es-mobile-original.png",
+      "published_asset": "images/numbers/message-editor-basics/link-es-mobile.png",
+      "sha256": "e0d87adab619006f594d72e9bd1590f79bdc8bf1333fb272bdcfcd4ff672d4f5",
+      "logical_size": [
+        364,
+        214
+      ],
+      "source_density": 2,
+      "reused": true,
+      "native": {
+        "output": "/private/tmp/hellotext-message-editor-basics-editorial-20261001/native/link-es-mobile-original.png",
+        "sha256": "e0d87adab619006f594d72e9bd1590f79bdc8bf1333fb272bdcfcd4ff672d4f5",
+        "url": "http://127.0.0.1:3192/hellotext/settings/templates/new?channel=sms&group=custom",
+        "locale": "es",
+        "cssViewport": [
+          430,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          49,
+          395,
+          364,
+          214
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          728,
+          428
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "original_provenance": "docs/editorial-work/captures/message-editor-basics/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/message-editor-basics/link-es-mobile-ui.json",
+      "pixel_edits": "none",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "New native guarded capture and approved asset publicly verified with matching SHA256; no pixel edit.",
+      "new_capture": false
+    },
+    {
+      "name": "format-en",
+      "concept": "format",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/message-editor-basics/format-en-original.png",
+      "published_asset": "images/numbers/message-editor-basics/format-en.png",
+      "sha256": "2817aa394f2917c9e5faa0bc2e2a9eeebacdc62ba872e727b33f03c0c05d9d9a",
+      "logical_size": [
+        624,
+        264
+      ],
+      "source_density": 2,
+      "reused": true,
+      "native": {
+        "output": "/private/tmp/hellotext-message-editor-basics-editorial-20261001/native/format-en-original.png",
+        "sha256": "2817aa394f2917c9e5faa0bc2e2a9eeebacdc62ba872e727b33f03c0c05d9d9a",
+        "url": "http://127.0.0.1:3192/hellotext/settings/templates/new?channel=sms&group=custom",
+        "locale": "en",
+        "cssViewport": [
+          1400,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          72,
+          257,
+          624,
+          264
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1248,
+          528
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "original_provenance": "docs/editorial-work/captures/message-editor-basics/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/message-editor-basics/format-en-ui.json",
+      "pixel_edits": "none",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "New native guarded capture and approved asset publicly verified with matching SHA256; no pixel edit.",
+      "new_capture": false
+    },
+    {
+      "name": "format-en-mobile",
+      "concept": "format",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/message-editor-basics/format-en-mobile-original.png",
+      "published_asset": "images/numbers/message-editor-basics/format-en-mobile.png",
+      "sha256": "3754139f79d32c654e2bbcae936acfe841df4f4d687b33013e39ee6a5fd6643a",
+      "logical_size": [
+        326,
+        264
+      ],
+      "source_density": 2,
+      "reused": true,
+      "native": {
+        "output": "/private/tmp/hellotext-message-editor-basics-editorial-20261001/native/format-en-mobile-original.png",
+        "sha256": "3754139f79d32c654e2bbcae936acfe841df4f4d687b33013e39ee6a5fd6643a",
+        "url": "http://127.0.0.1:3192/hellotext/settings/templates/new?channel=sms&group=custom",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          32,
+          134,
+          326,
+          264
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          652,
+          528
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "original_provenance": "docs/editorial-work/captures/message-editor-basics/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/message-editor-basics/format-en-mobile-ui.json",
+      "pixel_edits": "none",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "New native guarded capture and approved asset publicly verified with matching SHA256; no pixel edit.",
+      "new_capture": false
+    },
+    {
+      "name": "link-en",
+      "concept": "link",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/message-editor-basics/link-en-original.png",
+      "published_asset": "images/numbers/message-editor-basics/link-en.png",
+      "sha256": "ee72b8b34eec69b1161ad3fc71b2b51aff5fc1abc6b597b15c6f5f89a6837f07",
+      "logical_size": [
+        446,
+        218
+      ],
+      "source_density": 2,
+      "reused": true,
+      "native": {
+        "output": "/private/tmp/hellotext-message-editor-basics-editorial-20261001/native/link-en-original.png",
+        "sha256": "ee72b8b34eec69b1161ad3fc71b2b51aff5fc1abc6b597b15c6f5f89a6837f07",
+        "url": "http://127.0.0.1:3192/hellotext/settings/templates/new?channel=sms&group=custom",
+        "locale": "en",
+        "cssViewport": [
+          1400,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          49,
+          518,
+          446,
+          218
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          892,
+          436
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "original_provenance": "docs/editorial-work/captures/message-editor-basics/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/message-editor-basics/link-en-ui.json",
+      "pixel_edits": "none",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "New native guarded capture and approved asset publicly verified with matching SHA256; no pixel edit.",
+      "new_capture": false
+    },
+    {
+      "name": "link-en-mobile",
+      "concept": "link",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/message-editor-basics/link-en-mobile-original.png",
+      "published_asset": "images/numbers/message-editor-basics/link-en-mobile.png",
+      "sha256": "51ea1259208d02a2e908389187c37282e68d5b2e3cd8e80550257fc043c6a9fe",
+      "logical_size": [
+        364,
+        214
+      ],
+      "source_density": 2,
+      "reused": true,
+      "native": {
+        "output": "/private/tmp/hellotext-message-editor-basics-editorial-20261001/native/link-en-mobile-original.png",
+        "sha256": "51ea1259208d02a2e908389187c37282e68d5b2e3cd8e80550257fc043c6a9fe",
+        "url": "http://127.0.0.1:3192/hellotext/settings/templates/new?channel=sms&group=custom",
+        "locale": "en",
+        "cssViewport": [
+          430,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          49,
+          395,
+          364,
+          214
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          728,
+          428
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "original_provenance": "docs/editorial-work/captures/message-editor-basics/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/message-editor-basics/link-en-mobile-ui.json",
+      "pixel_edits": "none",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "New native guarded capture and approved asset publicly verified with matching SHA256; no pixel edit.",
+      "new_capture": false
+    },
+    {
+      "concept": "selector",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/personalization-tags/selector-es-original.png",
+      "published_asset": "images/audience/personalization-tags/selector-es.png",
+      "sha256": "4d6643bf45c2f0dfd93a6ccc5b29768837a5afb3096b49507e0bca8ebac8f5b7",
+      "logical_size": [
+        800,
+        680
+      ],
+      "density": 2,
+      "reused": true,
+      "new_capture": false,
+      "original_provenance": "docs/editorial-work/captures/personalization-tags/capture-provenance.json",
+      "source_state": "Unsent fictitious campaign draft 95DJOZvb with the profile tag selector open; no save, test message, schedule or send action",
+      "responsive_role": "Complete desktop campaign tag selector",
+      "guard_limits": "Retain original account/route/viewport/zoom/DPR and native evidence exactly; no retroactive capture or app inspection"
+    },
+    {
+      "concept": "selector",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/personalization-tags/selector-en-original.png",
+      "published_asset": "images/audience/personalization-tags/selector-en.png",
+      "sha256": "093890c7b90d3b942c1bf755a14dc0fc55be0a95668b687cf93bbfbfc6aad89b",
+      "logical_size": [
+        800,
+        680
+      ],
+      "density": 2,
+      "reused": true,
+      "new_capture": false,
+      "original_provenance": "docs/editorial-work/captures/personalization-tags/capture-provenance.json",
+      "source_state": "Unsent fictitious campaign draft 95DJOZvb with the profile tag selector open; no save, test message, schedule or send action",
+      "responsive_role": "Complete desktop campaign tag selector",
+      "guard_limits": "Retain original account/route/viewport/zoom/DPR and native evidence exactly; no retroactive capture or app inspection"
+    },
+    {
+      "concept": "selector",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/personalization-tags/selector-es-mobile-original.png",
+      "published_asset": "images/audience/personalization-tags/selector-es-mobile.png",
+      "sha256": "0e088a7435f7ffcd2a858a90d6aefb863eb0ba1d58692834f746724a10bedb35",
+      "logical_size": [
+        510,
+        390
+      ],
+      "density": 2,
+      "reused": true,
+      "new_capture": false,
+      "original_provenance": "docs/editorial-work/captures/personalization-tags/capture-provenance.json",
+      "source_state": "Unsent fictitious campaign draft 95DJOZvb with the profile tag selector open; no save, test message, schedule or send action",
+      "responsive_role": "Focused crop of the same desktop UI, not a responsive mobile recapture",
+      "guard_limits": "Retain original account/route/viewport/zoom/DPR and native evidence exactly; no retroactive capture or app inspection"
+    },
+    {
+      "concept": "selector",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/personalization-tags/selector-en-mobile-original.png",
+      "published_asset": "images/audience/personalization-tags/selector-en-mobile.png",
+      "sha256": "755d3c948f40c17a3f50d59e7477afafaaf5f859718308290e6dce4fd9ce92d3",
+      "logical_size": [
+        510,
+        390
+      ],
+      "density": 2,
+      "reused": true,
+      "new_capture": false,
+      "original_provenance": "docs/editorial-work/captures/personalization-tags/capture-provenance.json",
+      "source_state": "Unsent fictitious campaign draft 95DJOZvb with the profile tag selector open; no save, test message, schedule or send action",
+      "responsive_role": "Focused crop of the same desktop UI, not a responsive mobile recapture",
+      "guard_limits": "Retain original account/route/viewport/zoom/DPR and native evidence exactly; no retroactive capture or app inspection"
+    }
+  ],
+  "new_captures": 0,
+  "new_png_uploads": 0,
+  "reused_pngs": 12,
+  "operations": "No application, database, UI, locale, fixture, example, API, provider, token, template, link, message, event, test, send or worker action. Approved original captures reused without recapture or duplicate uploads.",
+  "pending": [
+    "Protected PR/checks, independent exact-head review, normal production and public page/hash verification."
+  ],
+  "local_verification": "docs/editorial-work/captures/message-editor-overview/local-verification.json"
+}

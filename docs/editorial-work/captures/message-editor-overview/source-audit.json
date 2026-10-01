@@ -1,0 +1,285 @@
+{
+  "inspected_at_utc": "2026-10-01T10:46:51.300651+00:00",
+  "protected_rails_sha": "5403a7dcb567b63cae87d4c088112d65fad4eb7f",
+  "current_master_sha": "a6a32d95a0b6cdbd63342100012413446aa2a2f5",
+  "source_files": [
+    {
+      "path": "app/javascript/controllers/input_controller.js",
+      "protected_sha256": "947413e86c286b65fe611a3ad3a9a77be3546b657f3d742d2c2dd04215f35335",
+      "current_sha256": "2b0f0574f34267071d160e308a6e594c17c5c770ab8384eea38f64f47bb62cdf",
+      "identical": false,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/javascript/controllers/input_controller.js"
+    },
+    {
+      "path": "app/javascript/controllers/compose/models/character.js",
+      "protected_sha256": "f1cfcaba26be41b49214bf76fe216a4068fa6bbf081009ec2b6ab9205523038f",
+      "current_sha256": "f1cfcaba26be41b49214bf76fe216a4068fa6bbf081009ec2b6ab9205523038f",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/javascript/controllers/compose/models/character.js"
+    },
+    {
+      "path": "app/javascript/controllers/compose/models/links_manager.js",
+      "protected_sha256": "cf916b472a889b4bae0a97061fd35dc265285b8db017cc4bc90ec31a2795d982",
+      "current_sha256": "cf916b472a889b4bae0a97061fd35dc265285b8db017cc4bc90ec31a2795d982",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/javascript/controllers/compose/models/links_manager.js"
+    },
+    {
+      "path": "app/javascript/controllers/editor/link/form_controller.js",
+      "protected_sha256": "b9119d68307d72cd15903cbcf1170e7e501b071a3421bd6d3526a584fe7102ba",
+      "current_sha256": "b9119d68307d72cd15903cbcf1170e7e501b071a3421bd6d3526a584fe7102ba",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/javascript/controllers/editor/link/form_controller.js"
+    },
+    {
+      "path": "app/javascript/controllers/editor/link/base_controller.js",
+      "protected_sha256": "333e29ef5aaaa305614dd7f3057e1955bcf39121e26850dd5d6d6d16ebdc9d59",
+      "current_sha256": "333e29ef5aaaa305614dd7f3057e1955bcf39121e26850dd5d6d6d16ebdc9d59",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/javascript/controllers/editor/link/base_controller.js"
+    },
+    {
+      "path": "app/javascript/controllers/compose/email_design_controller.js",
+      "protected_sha256": "53ce577fa2421acb78351dd97b82e53846ce13d43ebc589f1bd409395c7113f6",
+      "current_sha256": "53ce577fa2421acb78351dd97b82e53846ce13d43ebc589f1bd409395c7113f6",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/javascript/controllers/compose/email_design_controller.js"
+    },
+    {
+      "path": "app/javascript/controllers/settings/template_editor_controller.js",
+      "protected_sha256": "24864f206a6c57d223bb7eb3b79c8665eb912ef270542f07e7e27b6a8935f918",
+      "current_sha256": "24864f206a6c57d223bb7eb3b79c8665eb912ef270542f07e7e27b6a8935f918",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/javascript/controllers/settings/template_editor_controller.js"
+    },
+    {
+      "path": "app/javascript/lib/template_message_preview.js",
+      "protected_sha256": "777c64131437b0a9e7ad5efc2cc0965cfcd9150796b6400184fccb41c7d94ace",
+      "current_sha256": "777c64131437b0a9e7ad5efc2cc0965cfcd9150796b6400184fccb41c7d94ace",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/javascript/lib/template_message_preview.js"
+    },
+    {
+      "path": "app/components/compose/toolbar/link_component/link_component.html.erb",
+      "protected_sha256": "6b52b52ca751c35566d03f4c0854166d276bdccf14b0cdbfdd7255a94c7cde68",
+      "current_sha256": "6b52b52ca751c35566d03f4c0854166d276bdccf14b0cdbfdd7255a94c7cde68",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/components/compose/toolbar/link_component/link_component.html.erb"
+    },
+    {
+      "path": "app/components/compose/link_form_component.html.erb",
+      "protected_sha256": "f51c1ab04f59117fec5ddcfe680b21fe3580d7b5499caff09f5e4f0d20958d17",
+      "current_sha256": "f51c1ab04f59117fec5ddcfe680b21fe3580d7b5499caff09f5e4f0d20958d17",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/components/compose/link_form_component.html.erb"
+    },
+    {
+      "path": "app/components/ui/popover.html.erb",
+      "protected_sha256": "9d823c3eb774148302913d4c3ef8bae67c4fd456d2b2b401a08ad41f3bf7388c",
+      "current_sha256": "9d823c3eb774148302913d4c3ef8bae67c4fd456d2b2b401a08ad41f3bf7388c",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/components/ui/popover.html.erb"
+    },
+    {
+      "path": "app/components/ui/popover.rb",
+      "protected_sha256": "317eb9e2113133fb757314b24577707bb06239fd96d4d5d29f15a0e5e2d5f491",
+      "current_sha256": "317eb9e2113133fb757314b24577707bb06239fd96d4d5d29f15a0e5e2d5f491",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/components/ui/popover.rb"
+    },
+    {
+      "path": "app/controllers/links_controller.rb",
+      "protected_sha256": "eac4990975bf3b7391902cf14cba36073b163611db92665353f0b67414b093cf",
+      "current_sha256": "eac4990975bf3b7391902cf14cba36073b163611db92665353f0b67414b093cf",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/controllers/links_controller.rb"
+    },
+    {
+      "path": "app/models/link.rb",
+      "protected_sha256": "004742f2a09bbdf7e4e4f112b52912e3cd9edb0f5d6151912ad05ba75bbf3952",
+      "current_sha256": "004742f2a09bbdf7e4e4f112b52912e3cd9edb0f5d6151912ad05ba75bbf3952",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/link.rb"
+    },
+    {
+      "path": "app/models/short_link.rb",
+      "protected_sha256": "c77678e8b1d9678725c602b90bbbde2bb95b7532d5cfd484cb49c643e2e0f0e8",
+      "current_sha256": "c77678e8b1d9678725c602b90bbbde2bb95b7532d5cfd484cb49c643e2e0f0e8",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/short_link.rb"
+    },
+    {
+      "path": "app/controllers/settings/templates_controller.rb",
+      "protected_sha256": "64b2697469ff17ee75505e770d4f1563aaad41d4315cb3495edc93514f491513",
+      "current_sha256": "64b2697469ff17ee75505e770d4f1563aaad41d4315cb3495edc93514f491513",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/controllers/settings/templates_controller.rb"
+    },
+    {
+      "path": "app/integrations/twilio/gateway/phone_number.rb",
+      "protected_sha256": "45248e8e50c8887be082e5015fd2bfc300dd5418f684ca9f0e555e685a7cc619",
+      "current_sha256": "45248e8e50c8887be082e5015fd2bfc300dd5418f684ca9f0e555e685a7cc619",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/twilio/gateway/phone_number.rb"
+    },
+    {
+      "path": "app/integrations/twilio/gateway/alphanumeric.rb",
+      "protected_sha256": "864950683d34e1a2944e594d05541b4f7ebf2053c1f886a9c3a3b7a7dc49527a",
+      "current_sha256": "864950683d34e1a2944e594d05541b4f7ebf2053c1f886a9c3a3b7a7dc49527a",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/twilio/gateway/alphanumeric.rb"
+    },
+    {
+      "path": "app/models/concerns/trixable.rb",
+      "protected_sha256": "a87c5a924120a921429b863a3e6468c1302b91bdc8ce0a7f697641ad9cab8af1",
+      "current_sha256": "a87c5a924120a921429b863a3e6468c1302b91bdc8ce0a7f697641ad9cab8af1",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/concerns/trixable.rb"
+    },
+    {
+      "path": "app/components/compose/component.rb",
+      "protected_sha256": "fa18360a1af012835aa38273ea9cb68f2ed23faefbfc0175ea93a610d432a5a5",
+      "current_sha256": "fa18360a1af012835aa38273ea9cb68f2ed23faefbfc0175ea93a610d432a5a5",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/components/compose/component.rb"
+    },
+    {
+      "path": "app/components/compose/toolbar.rb",
+      "protected_sha256": "04074de0b369a8250c6903b403a6ee6101b6cf8308af607af78644ff3f6b5904",
+      "current_sha256": "04074de0b369a8250c6903b403a6ee6101b6cf8308af607af78644ff3f6b5904",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/components/compose/toolbar.rb"
+    },
+    {
+      "path": "app/components/compose/toolbar/toolbar.html.erb",
+      "protected_sha256": "df6f69aaef9dde9b372b2a556d7414265be07912668519ba05bdb4c335b310db",
+      "current_sha256": "df6f69aaef9dde9b372b2a556d7414265be07912668519ba05bdb4c335b310db",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/components/compose/toolbar/toolbar.html.erb"
+    },
+    {
+      "path": "app/components/compose/toolbar/tags_component.rb",
+      "protected_sha256": "ff55858099d0db59d353198aa61a4ae5f3f101770a115295bb4904a8b11f6a82",
+      "current_sha256": "ff55858099d0db59d353198aa61a4ae5f3f101770a115295bb4904a8b11f6a82",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/components/compose/toolbar/tags_component.rb"
+    },
+    {
+      "path": "app/components/compose/toolbar/tags_component/tags_component.html.erb",
+      "protected_sha256": "cc7658fe3b0bd292f2cd71006f585b82723e3eff5f47e0f77c5fc21f13a0a3b6",
+      "current_sha256": "cc7658fe3b0bd292f2cd71006f585b82723e3eff5f47e0f77c5fc21f13a0a3b6",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/components/compose/toolbar/tags_component/tags_component.html.erb"
+    },
+    {
+      "path": "app/javascript/controllers/compose/toolbar/tags_controller.js",
+      "protected_sha256": "b7a58a674be9d3b48cbcfd69be0d3205345386d5d40237671fa8b50554adcbef",
+      "current_sha256": "b7a58a674be9d3b48cbcfd69be0d3205345386d5d40237671fa8b50554adcbef",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/javascript/controllers/compose/toolbar/tags_controller.js"
+    },
+    {
+      "path": "app/components/compose/toolbar/location_component.rb",
+      "protected_sha256": "515ca9fda16057c8fd075cf6fa8cfdef9e2cce5ed3de3657c179f4a2fcba6d9d",
+      "current_sha256": "515ca9fda16057c8fd075cf6fa8cfdef9e2cce5ed3de3657c179f4a2fcba6d9d",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/components/compose/toolbar/location_component.rb"
+    },
+    {
+      "path": "app/javascript/controllers/compose/toolbar/location_controller.js",
+      "protected_sha256": "690e45e6aeb5f951f13f49528000e4550ef5ca15546e81fed0973d896d9ae16f",
+      "current_sha256": "690e45e6aeb5f951f13f49528000e4550ef5ca15546e81fed0973d896d9ae16f",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/javascript/controllers/compose/toolbar/location_controller.js"
+    },
+    {
+      "path": "app/views/settings/templates/_message_compose.html.erb",
+      "protected_sha256": "78771facafb8dc14776d0a2c4d0f8d89968ffd39073dafdb0c551e305c544e95",
+      "current_sha256": "78771facafb8dc14776d0a2c4d0f8d89968ffd39073dafdb0c551e305c544e95",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/views/settings/templates/_message_compose.html.erb"
+    },
+    {
+      "path": "app/components/conversation/footer_component/footer_component.html.erb",
+      "protected_sha256": "151a19df4ff41b600f82f9c8bb09b005adf24e02626849ace31b3d3c6250ee34",
+      "current_sha256": "ff1991f1964f9676b9cdb79cf59b697817ff721f47c5168b7bc2700b17f967aa",
+      "identical": false,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/components/conversation/footer_component/footer_component.html.erb"
+    },
+    {
+      "path": "app/components/conversation/footer_component.rb",
+      "protected_sha256": "744898a6a3e27426f1e9f5bbb46bc66a8d0b1a782b4c5562f19fe5167772b2e3",
+      "current_sha256": "744898a6a3e27426f1e9f5bbb46bc66a8d0b1a782b4c5562f19fe5167772b2e3",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/components/conversation/footer_component.rb"
+    },
+    {
+      "path": "app/views/campaign/broadcasts/_broadcast.html.erb",
+      "protected_sha256": "a72f1c09a35574fcc2a5651cb7288b025be1ba9ec4f1b7ee5ac90de7e618a20d",
+      "current_sha256": "a72f1c09a35574fcc2a5651cb7288b025be1ba9ec4f1b7ee5ac90de7e618a20d",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/views/campaign/broadcasts/_broadcast.html.erb"
+    },
+    {
+      "path": "app/views/steps/messages/_email_preview_pane.html.erb",
+      "protected_sha256": "4785ae12ada1c40abd8d7ed57a5f867b52165f2a3c1a593315a5eff734990799",
+      "current_sha256": "4785ae12ada1c40abd8d7ed57a5f867b52165f2a3c1a593315a5eff734990799",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/views/steps/messages/_email_preview_pane.html.erb"
+    },
+    {
+      "path": "app/views/playbook/component/messages/_form.html.erb",
+      "protected_sha256": "d24cc792e64dd9b40c0bce10c6aabe9d9f36c00ee7bd5b44e47f6f5d267c4f30",
+      "current_sha256": "d24cc792e64dd9b40c0bce10c6aabe9d9f36c00ee7bd5b44e47f6f5d267c4f30",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/views/playbook/component/messages/_form.html.erb"
+    },
+    {
+      "path": "app/models/technology.rb",
+      "protected_sha256": "120b4ce8a9ece59b635505c28dbd1953de766481b9b73d4a194b7b2c9a7d83df",
+      "current_sha256": "120b4ce8a9ece59b635505c28dbd1953de766481b9b73d4a194b7b2c9a7d83df",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/technology.rb"
+    },
+    {
+      "path": "app/models/liquid.rb",
+      "protected_sha256": "26fd004866cb1bec581965a3f74ff01a04eae1e3c03c7adb783f0e5651f3734d",
+      "current_sha256": "26fd004866cb1bec581965a3f74ff01a04eae1e3c03c7adb783f0e5651f3734d",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/liquid.rb"
+    },
+    {
+      "path": "app/models/liquid/contact_v2.rb",
+      "protected_sha256": "357bed75756c54a0bed40b0ee37f57381f76c608aaed4e445555b41390d21449",
+      "current_sha256": "357bed75756c54a0bed40b0ee37f57381f76c608aaed4e445555b41390d21449",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/liquid/contact_v2.rb"
+    },
+    {
+      "path": "app/models/liquid/property.rb",
+      "protected_sha256": "fb59b238512c34f1c15125100ad113ba7bca8df7d951557d587a088062cfaa34",
+      "current_sha256": "fb59b238512c34f1c15125100ad113ba7bca8df7d951557d587a088062cfaa34",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/liquid/property.rb"
+    },
+    {
+      "path": "app/models/liquid/tag.rb",
+      "protected_sha256": "2cf1441a0527b686d4657e1c2c62c2e2e96809fc3d47fbf9728688c282dba7b2",
+      "current_sha256": "2cf1441a0527b686d4657e1c2c62c2e2e96809fc3d47fbf9728688c282dba7b2",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/liquid/tag.rb"
+    }
+  ],
+  "current_difference": "36 of38 files byte-identical. input_controller.js only adds composer timing instrumentation. Inbox footer removes campaign preview controller, adds contact_id to template-library GET, and changes note lazy-loading/loading partial; composition, toolbar and channel/context contracts retained. Exact diffs inspected. No app/config update or new Inbox capture.",
+  "contracts": [
+    "Toolbar tools are enabled by technology, compose include/exclude options and conversation window; contexts are not interchangeable",
+    "Template Message and Email are distinct editors; SMS actual gateways use Message.plain_text",
+    "Native formatting/Link contracts and actual shortcut evidence retained from #325 without re-execution",
+    "URL popup is static, Add/Enter creates Link before final template/message save; no dynamic name control",
+    "Tags menu uses default profile/business fields or conversation-specific allowed names; a campaign menu does not promise identical Inbox options",
+    "Valid profile/custom-property tokens use a fallback; object tokens require the actual flow context and are not all listed in the menu",
+    "Locations require channel and compose support; current playbook message form explicitly excludes location even though WhatsApp is its technology",
+    "Draft/editor preview does not establish approval, permission, delivery, click or attributed sale"
+  ],
+  "operations": "Read-only primary sources and reuse of approved P3 native assets; no application/DB/UI/locale/provider/fixture/example/API/worker action."
+}
