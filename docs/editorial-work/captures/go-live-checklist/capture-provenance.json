@@ -1,0 +1,625 @@
+{
+  "status": "local_verified_publication_pending",
+  "article_key": "getting-started/go-live-checklist.md",
+  "baseline_main": "b2ad6720fcf6f42e8a2c548ba43d534a6ef1f7dd",
+  "originals": [
+    {
+      "article": "_i18n/es/getting-started/go-live-checklist.md",
+      "snapshot": "docs/editorial-work/captures/go-live-checklist/originals/es.md",
+      "sha256": "12a3dc37899c50baffaa53d8e0861f3b9915e973018917aeaeb93ade39fbfd2f"
+    },
+    {
+      "article": "_i18n/en/getting-started/go-live-checklist.md",
+      "snapshot": "docs/editorial-work/captures/go-live-checklist/originals/en.md",
+      "sha256": "dd6defbe5d4ad4fe352293ba8b20095418c07f61a647731b900770d624640450"
+    },
+    {
+      "article": "_getting-started/go-live-checklist.md",
+      "snapshot": "docs/editorial-work/captures/go-live-checklist/originals/stub.md",
+      "sha256": "8b610e97e8d294158af0de65943c78bae03a5b5406900a54a88ef34c0de0d375"
+    }
+  ],
+  "images": [
+    {
+      "name": "consent-en",
+      "concept": "consent",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/import-customer-profiles/native/consent-en-native.png",
+      "source_sha256": "ac4f3c79d9c6c352264113ef7c2d7831737fad3b2dad71d09f4ffa040bdab1ab",
+      "published_asset": "images/audience/import-customer-profiles/import-consent-en-20260928-crop.png",
+      "native": {
+        "sha256": "f9857f0417d21d45939407689348edbd13117a3624a84133741845c3a9a505fa",
+        "pixelSize": [
+          2065,
+          705
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "macOS /usr/sbin/screencapture -l restricted to one previously authorized Chrome window ID; one persistent pinned-window helper process captured all accepted states without a per-image picker",
+        "url": "http://127.0.0.1:3191/hellotext/audience/imports/e9Z2LN51/consent"
+      },
+      "logical_size": [
+        1032.5,
+        352.5
+      ],
+      "original_crop_rectangle_px": [
+        215,
+        385,
+        2065,
+        705
+      ],
+      "original_provenance": "docs/editorial-work/captures/import-customer-profiles/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/import-customer-profiles/capture-provenance.json",
+      "original_guard_limitations": [
+        "Chrome hid the URL in the selected window; route and account were corroborated through the exact bound browser tab rather than native URL OCR.",
+        "Browser zoom percent was not independently measured; recorded visual viewport scale and device pixel ratio do not prove browser zoom.",
+        "No completed-import result was captured because the final Save & Start import would queue contact processing.",
+        "Phone-country and money-currency mapping controls were not staged because the fictitious file contains no phone or money column; the article explains these in text.",
+        "Provider-specific integration setup differs by provider and is explained in text, while the method chooser is shown."
+      ],
+      "reuse": true,
+      "publication_status": "Approved published original source reused; this guide publication pending."
+    },
+    {
+      "name": "consent-es",
+      "concept": "consent",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/import-customer-profiles/native/consent-es-native.png",
+      "source_sha256": "c8720879914858bd42ad5e81f90a990cf91d082a8a51ec6ab0f73a0982e4cad0",
+      "published_asset": "images/audience/import-customer-profiles/import-consent-es-20260928-crop.png",
+      "native": {
+        "sha256": "c13aa819df5bcd86180a5f0f455c520fdc7cb06d5bcb397eabc16036f915f683",
+        "pixelSize": [
+          2065,
+          705
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "macOS /usr/sbin/screencapture -l restricted to one previously authorized Chrome window ID; one persistent pinned-window helper process captured all accepted states without a per-image picker",
+        "url": "http://127.0.0.1:3191/hellotext/audience/imports/e9Z2LN51/consent"
+      },
+      "logical_size": [
+        1032.5,
+        352.5
+      ],
+      "original_crop_rectangle_px": [
+        215,
+        385,
+        2065,
+        705
+      ],
+      "original_provenance": "docs/editorial-work/captures/import-customer-profiles/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/import-customer-profiles/capture-provenance.json",
+      "original_guard_limitations": [
+        "Chrome hid the URL in the selected window; route and account were corroborated through the exact bound browser tab rather than native URL OCR.",
+        "Browser zoom percent was not independently measured; recorded visual viewport scale and device pixel ratio do not prove browser zoom.",
+        "No completed-import result was captured because the final Save & Start import would queue contact processing.",
+        "Phone-country and money-currency mapping controls were not staged because the fictitious file contains no phone or money column; the article explains these in text.",
+        "Provider-specific integration setup differs by provider and is explained in text, while the method chooser is shown."
+      ],
+      "reuse": true,
+      "publication_status": "Approved published original source reused; this guide publication pending."
+    },
+    {
+      "name": "consent-mobile-en",
+      "concept": "consent",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/import-customer-profiles/native/consent-mobile-en-native.png",
+      "source_sha256": "bca06f6a428c880cbebdb52ee538f70e4c903ff1d65322eab314e6484a8e697b",
+      "published_asset": "images/audience/import-customer-profiles/import-consent-mobile-en-20260928-crop.png",
+      "native": {
+        "sha256": "c5185ed2ab0d9a8a2b198f4df9e14d10b1e64bac51ad911d3ef21713e9c86bda",
+        "pixelSize": [
+          780,
+          1200
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "macOS /usr/sbin/screencapture -l restricted to one previously authorized Chrome window ID; one persistent pinned-window helper process captured all accepted states without a per-image picker",
+        "url": "http://127.0.0.1:3191/hellotext/audience/imports/e9Z2LN51/consent"
+      },
+      "logical_size": [
+        390.0,
+        600.0
+      ],
+      "original_crop_rectangle_px": [
+        0,
+        160,
+        780,
+        1200
+      ],
+      "original_provenance": "docs/editorial-work/captures/import-customer-profiles/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/import-customer-profiles/capture-provenance.json",
+      "original_guard_limitations": [
+        "Chrome hid the URL in the selected window; route and account were corroborated through the exact bound browser tab rather than native URL OCR.",
+        "Browser zoom percent was not independently measured; recorded visual viewport scale and device pixel ratio do not prove browser zoom.",
+        "No completed-import result was captured because the final Save & Start import would queue contact processing.",
+        "Phone-country and money-currency mapping controls were not staged because the fictitious file contains no phone or money column; the article explains these in text.",
+        "Provider-specific integration setup differs by provider and is explained in text, while the method chooser is shown."
+      ],
+      "reuse": true,
+      "publication_status": "Approved published original source reused; this guide publication pending."
+    },
+    {
+      "name": "consent-mobile-es",
+      "concept": "consent",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/import-customer-profiles/native/consent-mobile-es-native.png",
+      "source_sha256": "653f5b06dada082344e0e9052371b5439aef12c8bae9e239e2be6454bfed3c2b",
+      "published_asset": "images/audience/import-customer-profiles/import-consent-mobile-es-20260928-crop.png",
+      "native": {
+        "sha256": "3b1bb1b4170ab98a325779593a4a12971d015e3e5908c912cff88b372451839f",
+        "pixelSize": [
+          780,
+          1200
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "macOS /usr/sbin/screencapture -l restricted to one previously authorized Chrome window ID; one persistent pinned-window helper process captured all accepted states without a per-image picker",
+        "url": "http://127.0.0.1:3191/hellotext/audience/imports/e9Z2LN51/consent"
+      },
+      "logical_size": [
+        390.0,
+        600.0
+      ],
+      "original_crop_rectangle_px": [
+        0,
+        160,
+        780,
+        1200
+      ],
+      "original_provenance": "docs/editorial-work/captures/import-customer-profiles/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/import-customer-profiles/capture-provenance.json",
+      "original_guard_limitations": [
+        "Chrome hid the URL in the selected window; route and account were corroborated through the exact bound browser tab rather than native URL OCR.",
+        "Browser zoom percent was not independently measured; recorded visual viewport scale and device pixel ratio do not prove browser zoom.",
+        "No completed-import result was captured because the final Save & Start import would queue contact processing.",
+        "Phone-country and money-currency mapping controls were not staged because the fictitious file contains no phone or money column; the article explains these in text.",
+        "Provider-specific integration setup differs by provider and is explained in text, while the method chooser is shown."
+      ],
+      "reuse": true,
+      "publication_status": "Approved published original source reused; this guide publication pending."
+    },
+    {
+      "name": "editor-es",
+      "concept": "editor",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/send-messages-with-api/editor-es-original.png",
+      "published_asset": "images/developers/send-messages-with-api/editor-es.png",
+      "native": {
+        "output": "/private/tmp/hellotext-send-messages-api-guide/native/editor-es.png",
+        "sha256": "27cbe0e6670b0412f590a6030287ce264393c7d56f1ebaafb407d20dd059da02",
+        "url": "http://127.0.0.1:3192/hellotext/settings/templates/new?channel=sms&group=custom",
+        "locale": "es",
+        "cssViewport": [
+          1400,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          72,
+          174,
+          624,
+          354
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1248,
+          708
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        624,
+        354
+      ],
+      "intended_max_display_width_css": 624,
+      "ui_evidence": "docs/editorial-work/captures/send-messages-with-api/editor-es-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "reuse": true,
+      "publication_status": "Approved published original source reused; this guide publication pending.",
+      "original_provenance": "docs/editorial-work/captures/send-messages-with-api/capture-provenance.json"
+    },
+    {
+      "name": "editor-en",
+      "concept": "editor",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/send-messages-with-api/editor-en-original.png",
+      "published_asset": "images/developers/send-messages-with-api/editor-en.png",
+      "native": {
+        "output": "/private/tmp/hellotext-send-messages-api-guide/native/editor-en.png",
+        "sha256": "330f9832b65d012cbdb0cc97cb757f2c90ac197a37bbae711cb5285521261011",
+        "url": "http://127.0.0.1:3192/hellotext/settings/templates/new?channel=sms&group=custom",
+        "locale": "en",
+        "cssViewport": [
+          1400,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          72,
+          174,
+          624,
+          354
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1248,
+          708
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        624,
+        354
+      ],
+      "intended_max_display_width_css": 624,
+      "ui_evidence": "docs/editorial-work/captures/send-messages-with-api/editor-en-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "reuse": true,
+      "publication_status": "Approved published original source reused; this guide publication pending.",
+      "original_provenance": "docs/editorial-work/captures/send-messages-with-api/capture-provenance.json"
+    },
+    {
+      "name": "editor-es-mobile",
+      "concept": "editor",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/send-messages-with-api/editor-es-mobile-original.png",
+      "published_asset": "images/developers/send-messages-with-api/editor-es-mobile.png",
+      "native": {
+        "output": "/private/tmp/hellotext-send-messages-api-guide/native/editor-es-mobile.png",
+        "sha256": "0b6fcf98897f7a89bce1654e31fe8eb5fe31195f36ff3d1eb801ddfd76eb9639",
+        "url": "http://127.0.0.1:3192/hellotext/settings/templates/new?channel=sms&group=custom",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          28,
+          44,
+          334,
+          380
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          668,
+          760
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        334,
+        380
+      ],
+      "intended_max_display_width_css": 334,
+      "ui_evidence": "docs/editorial-work/captures/send-messages-with-api/editor-es-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "reuse": true,
+      "publication_status": "Approved published original source reused; this guide publication pending.",
+      "original_provenance": "docs/editorial-work/captures/send-messages-with-api/capture-provenance.json"
+    },
+    {
+      "name": "editor-en-mobile",
+      "concept": "editor",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/send-messages-with-api/editor-en-mobile-original.png",
+      "published_asset": "images/developers/send-messages-with-api/editor-en-mobile.png",
+      "native": {
+        "output": "/private/tmp/hellotext-send-messages-api-guide/native/editor-en-mobile.png",
+        "sha256": "d5f1753c4577120e5953e7b211cf36850141722623937bc72fccf729bf8b9ca2",
+        "url": "http://127.0.0.1:3192/hellotext/settings/templates/new?channel=sms&group=custom",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          28,
+          44,
+          334,
+          359
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          668,
+          718
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        334,
+        359
+      ],
+      "intended_max_display_width_css": 334,
+      "ui_evidence": "docs/editorial-work/captures/send-messages-with-api/editor-en-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "reuse": true,
+      "publication_status": "Approved published original source reused; this guide publication pending.",
+      "original_provenance": "docs/editorial-work/captures/send-messages-with-api/capture-provenance.json"
+    },
+    {
+      "name": "handoff-es",
+      "concept": "handoff",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/property-collector/handoff-es.png",
+      "published_asset": "images/captures/property-collector/handoff-es.png",
+      "native": {
+        "sha256": "ef1c8abc4712dacc2effa83f6c968dd4a9453a5b1be059609a877a91e1693356",
+        "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+        "pixelSize": [
+          1150,
+          660
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3 Gamut with sRGB Transfer",
+        "cssViewport": [
+          1200,
+          1000
+        ],
+        "clip": [
+          50,
+          100,
+          575,
+          330
+        ]
+      },
+      "logical_size": [
+        575.0,
+        330.0
+      ],
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "original_state": "Unsaved escalation control with fictional team Atención demo selected",
+      "reuse": true,
+      "publication_status": "Approved published original source reused; this guide publication pending."
+    },
+    {
+      "name": "handoff-en",
+      "concept": "handoff",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/property-collector/handoff-en.png",
+      "published_asset": "images/captures/property-collector/handoff-en.png",
+      "native": {
+        "sha256": "0c5506ceed87f6ed0c9e57a4969d80cee2dc41f04ab25b04969917ab3f3bdfe9",
+        "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+        "pixelSize": [
+          1150,
+          660
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3 Gamut with sRGB Transfer",
+        "cssViewport": [
+          1200,
+          1000
+        ],
+        "clip": [
+          50,
+          100,
+          575,
+          330
+        ]
+      },
+      "logical_size": [
+        575.0,
+        330.0
+      ],
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "original_state": "Unsaved escalation control with fictional team Atención demo selected",
+      "reuse": true,
+      "publication_status": "Approved published original source reused; this guide publication pending."
+    },
+    {
+      "name": "handoff-es-mobile",
+      "concept": "handoff",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/property-collector/handoff-es-mobile.png",
+      "published_asset": "images/captures/property-collector/handoff-es-mobile.png",
+      "native": {
+        "sha256": "4f252e8b5d86ad772df8b7f979ae8d61de1970ff36f7110f5f1e0b1b5867b2cc",
+        "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+        "pixelSize": [
+          780,
+          680
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3 Gamut with sRGB Transfer",
+        "cssViewport": [
+          390,
+          1000
+        ],
+        "clip": [
+          0,
+          120,
+          390,
+          340
+        ]
+      },
+      "logical_size": [
+        390.0,
+        340.0
+      ],
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "original_state": "Focused responsive mobile control using unsaved fictional editor state",
+      "reuse": true,
+      "publication_status": "Approved published original source reused; this guide publication pending."
+    },
+    {
+      "name": "handoff-en-mobile",
+      "concept": "handoff",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/property-collector/handoff-en-mobile.png",
+      "published_asset": "images/captures/property-collector/handoff-en-mobile.png",
+      "native": {
+        "sha256": "97bad463814d7ec88c224ea32ccf6500c65c8eed86a39ef83cd8fba79d2f3793",
+        "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+        "pixelSize": [
+          780,
+          680
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3 Gamut with sRGB Transfer",
+        "cssViewport": [
+          390,
+          1000
+        ],
+        "clip": [
+          0,
+          120,
+          390,
+          340
+        ]
+      },
+      "logical_size": [
+        390.0,
+        340.0
+      ],
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "original_state": "Focused responsive mobile control using unsaved fictional editor state",
+      "reuse": true,
+      "publication_status": "Approved published original source reused; this guide publication pending."
+    }
+  ],
+  "new_captures": 0,
+  "new_png_uploads": 0,
+  "source_audit": {
+    "rails_revision": "5403a7dcb567b63cae87d4c088112d65fad4eb7f",
+    "rails_files": [
+      {
+        "path": "app/models/contact/reachability_query.rb",
+        "sha256": "01ed1128699969441e7dfed957a1b1542070fe986a71f6c1fc083943c70c486a"
+      },
+      {
+        "path": "app/builders/import/builder.rb",
+        "sha256": "f99febbb2e9ea67fffafd4d8e754cad8ac27406f1208f5fedd80ae5bdaf83694"
+      },
+      {
+        "path": "app/models/import/scaffold.rb",
+        "sha256": "9710f26b461c6ae84981a5f18877195c56b714a81c506cefdfc12e8c5363905c"
+      },
+      {
+        "path": "app/models/import/deduplicate.rb",
+        "sha256": "2834f9e88967597cf845d8547cec6cd6e4be5bc3b51c897a94c29e43b5fd0d02"
+      },
+      {
+        "path": "app/views/imports/consent.html.erb",
+        "sha256": "6136706fdcb1398c2844adf1a52652e4ce60f2e94dd7c50fc1b6cc450d311206"
+      },
+      {
+        "path": "app/wizards/campaign/creation_wizard/technologies.rb",
+        "sha256": "aa816f004c0e8f1c936bbc18d640423842b3b66eb741372a77d24908bcea94b5"
+      },
+      {
+        "path": "app/models/template.rb",
+        "sha256": "5580d861be9d1142c8c2bdf9ef1e1267ca88beffb7028a96c1fc4a088c24f825"
+      },
+      {
+        "path": "app/models/business/night_hours.rb",
+        "sha256": "cbe147013a579e3814d9fb21ebe4a5a9920c7a647765de3c36a05652f2be1d87"
+      },
+      {
+        "path": "app/jobs/campaign/deliver_job.rb",
+        "sha256": "38c417b973d2f801c5d5143b9bd4e710f90c9e4d7cd7d42eaa50fb53c59fdbd3"
+      },
+      {
+        "path": "app/controllers/campaign/controls_controller.rb",
+        "sha256": "a3ed5f502f9c4654a936d2a6f59535900a18f38cbbe3af2ca42b9a775ee3cf1e"
+      },
+      {
+        "path": "app/models/campaign/states.rb",
+        "sha256": "2fc6ad49a08fcc09eedccf326ca52b3396da29d93ee2c056ed0cc2ecc3c84fa3"
+      },
+      {
+        "path": "app/policies/campaign_policy.rb",
+        "sha256": "3021bd27394428543a22429db77e7d0e11c077f4ec20f4e617f61fdfafab3cdc"
+      },
+      {
+        "path": "app/models/playbook/runner/assignment.rb",
+        "sha256": "faf2405b8c915fb9afbbe3b1863323b186f75415a392f221f38217ce1246ad43"
+      },
+      {
+        "path": "app/views/playbook/component/assignments/_form.html.erb",
+        "sha256": "796035fd7888972b730be52c701b0e76b0ab13bf41d7267efe29d96cfc979992"
+      },
+      {
+        "path": "app/models/automation/assignment.rb",
+        "sha256": "830b8311f743c987c2b8c23e26f6f94ac6be619b27d1f12d79b6c58526a3d889"
+      },
+      {
+        "path": "app/actors/journey/process_step/message/send.rb",
+        "sha256": "437693db626c2cda435871a1af6b28a98c5211efe363302d976003420ba173fc"
+      },
+      {
+        "path": "app/actors/journey/process_step/stop/terminate_journeys.rb",
+        "sha256": "cbce8e32e1b0b69d9415f92642ea3d7fda928312fb4339c427364d31c53a9f6a"
+      }
+    ],
+    "current_ui_reuse": "Import consent view/wizard/builder unchanged since449d6ccc; handoff form/Stimulus unchanged since26742adc. Current approved editor remains unaffected by token-only #6054. Original source guard limitations retained; no new capture guard is claimed.",
+    "requests_or_examples_executed": false
+  },
+  "content_sources": [
+    "https://whatsappbusiness.com/policy/",
+    "https://www.hellotext.com/api#create_a_message"
+  ],
+  "protected_state": "Only read-only source inspections and approved asset reuse. No app/DB/UI/fixture/locale/token/template/link/object/event/message/test/send/worker action.",
+  "pending": [
+    "Protected checks/review, merge, exact main Build/normal production and public page/PNG verification"
+  ],
+  "local_verification": {
+    "evidence": "local-verification.json",
+    "full_page_browser_review": "page-review/",
+    "widths_css": [
+      1440,
+      390,
+      580
+    ],
+    "sections": 8,
+    "figures_per_locale": 3,
+    "examples_per_locale": 0,
+    "new_captures": 0,
+    "new_png_uploads": 0,
+    "publication_state": "pending",
+    "verifier_commit": "2af0d8f720089cb0c3747ff90ec5d5179a0f9963"
+  }
+}
