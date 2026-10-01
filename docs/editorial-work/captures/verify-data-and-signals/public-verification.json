@@ -1,0 +1,464 @@
+{
+  "verified_at_utc": "2026-10-01T07:41:29.301221+00:00",
+  "verified_git_main_sha": "a06cab200fb7c952bb338b428bdca16313ea6218",
+  "production_deploy_id_sha_association": {
+    "id": "6abe0e3bd4d5b20008da779b",
+    "site_id": "d66a79c1-b5de-44d1-bc47-bc7809f7f3b3",
+    "state": "ready",
+    "context": "production",
+    "branch": "main",
+    "commit_ref": "a06cab200fb7c952bb338b428bdca16313ea6218",
+    "created_at": "2026-10-01T07:39:39.662Z",
+    "published_at": "2026-10-01T07:40:49.497Z",
+    "deploy_ssl_url": "https://main--legendary-lollipop-e2d131.netlify.app"
+  },
+  "deployment_method": "Normal Netlify production after Git merge; no manual deploy. Accessible public site-alias listing provided exact commit_ref.",
+  "pages": [
+    {
+      "url": "https://help.hellotext.com/es/verifica-datos-y-senales",
+      "status": 200,
+      "article_key": "integrations/verify-data-and-signals.md",
+      "locale": "es",
+      "figures": 5,
+      "sections": 10,
+      "approved_assets_present": [
+        "/images/audience/customer-profiles/profile-fields-es.png",
+        "/images/audience/customer-profiles/profile-fields-es-mobile.png",
+        "/images/developers/custom-actions/manual-es.png",
+        "/images/developers/custom-actions/manual-es-mobile.png",
+        "/images/developers/orders-with-api/details-es.png",
+        "/images/developers/orders-with-api/details-es-mobile.png",
+        "/images/captures/forms/ui-refresh/es/preview.png",
+        "/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-wide-desktop.png",
+        "/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-mobile-wide.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "169f890a9c1d7e2490370d76142bc26a9013d5a151e87f20f6cdd52eca1c14dc",
+      "html_sha256": "b65c32ef8d21dd9b8b25d7b7604d8aa055e810e7c51f00743b4d850c50fba591"
+    },
+    {
+      "url": "https://help.hellotext.com/verify-data-and-signals",
+      "status": 200,
+      "article_key": "integrations/verify-data-and-signals.md",
+      "locale": "en",
+      "figures": 5,
+      "sections": 10,
+      "approved_assets_present": [
+        "/images/audience/customer-profiles/profile-fields-en.png",
+        "/images/audience/customer-profiles/profile-fields-en-mobile.png",
+        "/images/developers/custom-actions/manual-en.png",
+        "/images/developers/custom-actions/manual-en-mobile.png",
+        "/images/developers/orders-with-api/details-en.png",
+        "/images/developers/orders-with-api/details-en-mobile.png",
+        "/images/captures/forms/ui-refresh/en/preview.png",
+        "/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-wide-desktop.png",
+        "/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile-wide.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "9e827ae0eaee10409ca09010d4a4f6eaae7b671a590a521717e3feaaabba21d0",
+      "html_sha256": "724e6b213d40a8194053e0d0c62a2f4cf55f8962db72360af95608b896211e58"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://help.hellotext.com/images/audience/customer-profiles/profile-fields-es.png",
+      "status": 200,
+      "sha256": "bf1ee79e29d0ef384913cad51a1792ddf0050d75a5b4e138bd49df682e203b40",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/audience/customer-profiles/profile-fields-en.png",
+      "status": 200,
+      "sha256": "9bbb727226b2a20d5df4be2ca7612d29037b9d18d8e7e2ec488c407c54945f5d",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/audience/customer-profiles/profile-fields-es-mobile.png",
+      "status": 200,
+      "sha256": "1525d3add44bb64b93d457bb3353f8bfdd9fe0f1f99b84580aed0807db7829c3",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/audience/customer-profiles/profile-fields-en-mobile.png",
+      "status": 200,
+      "sha256": "0e2c6a1622ea73ec0fa008f5100b7ce5f04e2695cdb1aa2414c855db6ca760cb",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-actions/manual-es.png",
+      "status": 200,
+      "sha256": "144e3281a27f8c6e5434f2e5e12585039d18bd9f300e259df95381af25c376a2",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-actions/manual-es-mobile.png",
+      "status": 200,
+      "sha256": "9cc3f116cb1a88b065f769c74e3b215dc3a39383af884a203e240a965970dacf",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-actions/manual-en.png",
+      "status": 200,
+      "sha256": "77dd2a9505cbc073897db00674689fcf819a0ace5b5b58bc53ad36e3aad8ba7b",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-actions/manual-en-mobile.png",
+      "status": 200,
+      "sha256": "77277beaf19ecfad6b22bb3933c8a563bedb3dabc0a43fbaff07a055358fa80e",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/orders-with-api/details-es.png",
+      "status": 200,
+      "sha256": "ce7071cd6129d589df554b45f6ead105ef20ce3b1b4eeaf6eace613f34b4bb00",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/orders-with-api/details-es-mobile.png",
+      "status": 200,
+      "sha256": "002115693247a8d96672d24a28406f0c452db72eb2df13ad721a9f3d12102ad9",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/orders-with-api/details-en.png",
+      "status": 200,
+      "sha256": "b728ba41fdd9c004408a7153f0f8f9a0bfc6634d0d9e44485db3dfc7b120b08b",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/orders-with-api/details-en-mobile.png",
+      "status": 200,
+      "sha256": "8d44d00464fcffb4c98684b550a95fd7df0a64360333a384e3d6eefca81d44c0",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/forms/ui-refresh/en/preview.png",
+      "status": 200,
+      "sha256": "fd99e7e004f2a1a0a084405aef1191469e23a7f034c83374caad6a38d48cc0e6",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/forms/ui-refresh/es/preview.png",
+      "status": 200,
+      "sha256": "8caa6c2618d9dfbff44dd7c9b5dc6048dd37020cc58e6b12479549be749550b2",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-wide-desktop.png",
+      "status": 200,
+      "sha256": "65bfef90c667cf5da787412ad4d2175652ea945e2b1c1c84c7fb4bdb6c9217fc",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-mobile-wide.png",
+      "status": 200,
+      "sha256": "71136b3c75dbbe12a40ad787057309089b29f7d83b49f1ae1426ea91887e34e3",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-wide-desktop.png",
+      "status": 200,
+      "sha256": "470347c0697af60e59b6119e2c83bfb848fb9cbf69bd07ec4b14e451db40800e",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile-wide.png",
+      "status": 200,
+      "sha256": "244b1faacb31e3852d224f2db51c2efda234e4d57a54826aac83e726037efc36",
+      "matches_approved_asset": true,
+      "reused": true
+    }
+  ],
+  "new_captures": 0,
+  "new_png_uploads": 0,
+  "reused_pngs": 18,
+  "all_affected_article_pngs": 18,
+  "main_build": {
+    "conclusion": "success",
+    "databaseId": 36831610640,
+    "event": "push",
+    "headSha": "a06cab200fb7c952bb338b428bdca16313ea6218",
+    "status": "completed",
+    "url": "https://github.com/hellotext/help/actions/runs/36831610640"
+  },
+  "content_pr": "https://github.com/hellotext/help/pull/319",
+  "content_pr_head": "42cf1d0fd4cdefba4c3acad52d98f8afc774d0e1",
+  "individual_commits_preserved": [
+    "299131d94e2040c023d19d5792c867d02de8839c",
+    "42cf1d0fd4cdefba4c3acad52d98f8afc774d0e1"
+  ],
+  "unresolved_review_threads_before_merge": 0,
+  "pre_merge_review": {
+    "head": "42cf1d0fd4cdefba4c3acad52d98f8afc774d0e1",
+    "checks": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T07:33:17Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/hellotext/help/actions/runs/36830942286/job/110267149413",
+        "name": "build",
+        "startedAt": "2026-10-01T07:32:48Z",
+        "status": "COMPLETED",
+        "workflowName": "Build"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T07:33:53Z",
+        "conclusion": "NEUTRAL",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abe0c9bf5afba00078c8025",
+        "name": "Pages changed - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T07:32:44Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T07:33:53Z",
+        "conclusion": "NEUTRAL",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abe0c9bf5afba00078c8025",
+        "name": "Redirect rules - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T07:32:44Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T07:33:08Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://app.aikido.dev/featurebranch/scan/209144185?groupId=34029",
+        "name": "Aikido Security: check code",
+        "startedAt": "2026-10-01T07:32:43Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T07:33:53Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abe0c9bf5afba00078c8025",
+        "name": "Header rules - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T07:32:44Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "StatusContext",
+        "context": "netlify/legendary-lollipop-e2d131/deploy-preview",
+        "startedAt": "2026-10-01T07:33:55Z",
+        "state": "SUCCESS",
+        "targetUrl": "https://deploy-preview-319--legendary-lollipop-e2d131.netlify.app"
+      }
+    ],
+    "actual_comment_urls": [
+      "https://github.com/hellotext/help/pull/319#issuecomment-5926867877",
+      "https://github.com/hellotext/help/pull/319#issuecomment-5926868673",
+      "https://github.com/hellotext/help/pull/319#issuecomment-5926872421",
+      "https://github.com/hellotext/help/pull/319#issuecomment-5926942357"
+    ],
+    "threads": [],
+    "all_actual_comments_reviews_threads_read": true
+  },
+  "preview_verification": {
+    "head": "42cf1d0fd4cdefba4c3acad52d98f8afc774d0e1",
+    "preview_url": "https://deploy-preview-319--legendary-lollipop-e2d131.netlify.app",
+    "deployment": {
+      "id": "6abe0c9bf5afba00078c8025",
+      "context": "deploy-preview",
+      "commit_ref": "42cf1d0fd4cdefba4c3acad52d98f8afc774d0e1",
+      "state": "ready",
+      "review_id": 319
+    },
+    "pages": [
+      {
+        "url": "https://deploy-preview-319--legendary-lollipop-e2d131.netlify.app/es/verifica-datos-y-senales",
+        "status": 200,
+        "article_key": "integrations/verify-data-and-signals.md",
+        "locale": "es",
+        "figures": 5,
+        "sections": 10,
+        "approved_assets_present": [
+          "/images/audience/customer-profiles/profile-fields-es.png",
+          "/images/audience/customer-profiles/profile-fields-es-mobile.png",
+          "/images/developers/custom-actions/manual-es.png",
+          "/images/developers/custom-actions/manual-es-mobile.png",
+          "/images/developers/orders-with-api/details-es.png",
+          "/images/developers/orders-with-api/details-es-mobile.png",
+          "/images/captures/forms/ui-refresh/es/preview.png",
+          "/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-wide-desktop.png",
+          "/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-mobile-wide.png"
+        ],
+        "complete_article_matches_verified_build": true,
+        "article_sha256": "169f890a9c1d7e2490370d76142bc26a9013d5a151e87f20f6cdd52eca1c14dc",
+        "html_sha256": "59a4db87e587f767aa3a40071523de7fdee105c3cb53c425b290c3a58ff4a5b0"
+      },
+      {
+        "url": "https://deploy-preview-319--legendary-lollipop-e2d131.netlify.app/verify-data-and-signals",
+        "status": 200,
+        "article_key": "integrations/verify-data-and-signals.md",
+        "locale": "en",
+        "figures": 5,
+        "sections": 10,
+        "approved_assets_present": [
+          "/images/audience/customer-profiles/profile-fields-en.png",
+          "/images/audience/customer-profiles/profile-fields-en-mobile.png",
+          "/images/developers/custom-actions/manual-en.png",
+          "/images/developers/custom-actions/manual-en-mobile.png",
+          "/images/developers/orders-with-api/details-en.png",
+          "/images/developers/orders-with-api/details-en-mobile.png",
+          "/images/captures/forms/ui-refresh/en/preview.png",
+          "/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-wide-desktop.png",
+          "/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile-wide.png"
+        ],
+        "complete_article_matches_verified_build": true,
+        "article_sha256": "9e827ae0eaee10409ca09010d4a4f6eaae7b671a590a521717e3feaaabba21d0",
+        "html_sha256": "9ce6bc82765a3222b4098707af4ae686c69ac36bd3931d025a1b58a5a9d9954a"
+      }
+    ],
+    "assets": [
+      {
+        "url": "https://deploy-preview-319--legendary-lollipop-e2d131.netlify.app/images/audience/customer-profiles/profile-fields-es.png",
+        "status": 200,
+        "sha256": "bf1ee79e29d0ef384913cad51a1792ddf0050d75a5b4e138bd49df682e203b40",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-319--legendary-lollipop-e2d131.netlify.app/images/audience/customer-profiles/profile-fields-en.png",
+        "status": 200,
+        "sha256": "9bbb727226b2a20d5df4be2ca7612d29037b9d18d8e7e2ec488c407c54945f5d",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-319--legendary-lollipop-e2d131.netlify.app/images/audience/customer-profiles/profile-fields-es-mobile.png",
+        "status": 200,
+        "sha256": "1525d3add44bb64b93d457bb3353f8bfdd9fe0f1f99b84580aed0807db7829c3",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-319--legendary-lollipop-e2d131.netlify.app/images/audience/customer-profiles/profile-fields-en-mobile.png",
+        "status": 200,
+        "sha256": "0e2c6a1622ea73ec0fa008f5100b7ce5f04e2695cdb1aa2414c855db6ca760cb",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-319--legendary-lollipop-e2d131.netlify.app/images/developers/custom-actions/manual-es.png",
+        "status": 200,
+        "sha256": "144e3281a27f8c6e5434f2e5e12585039d18bd9f300e259df95381af25c376a2",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-319--legendary-lollipop-e2d131.netlify.app/images/developers/custom-actions/manual-es-mobile.png",
+        "status": 200,
+        "sha256": "9cc3f116cb1a88b065f769c74e3b215dc3a39383af884a203e240a965970dacf",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-319--legendary-lollipop-e2d131.netlify.app/images/developers/custom-actions/manual-en.png",
+        "status": 200,
+        "sha256": "77dd2a9505cbc073897db00674689fcf819a0ace5b5b58bc53ad36e3aad8ba7b",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-319--legendary-lollipop-e2d131.netlify.app/images/developers/custom-actions/manual-en-mobile.png",
+        "status": 200,
+        "sha256": "77277beaf19ecfad6b22bb3933c8a563bedb3dabc0a43fbaff07a055358fa80e",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-319--legendary-lollipop-e2d131.netlify.app/images/developers/orders-with-api/details-es.png",
+        "status": 200,
+        "sha256": "ce7071cd6129d589df554b45f6ead105ef20ce3b1b4eeaf6eace613f34b4bb00",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-319--legendary-lollipop-e2d131.netlify.app/images/developers/orders-with-api/details-es-mobile.png",
+        "status": 200,
+        "sha256": "002115693247a8d96672d24a28406f0c452db72eb2df13ad721a9f3d12102ad9",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-319--legendary-lollipop-e2d131.netlify.app/images/developers/orders-with-api/details-en.png",
+        "status": 200,
+        "sha256": "b728ba41fdd9c004408a7153f0f8f9a0bfc6634d0d9e44485db3dfc7b120b08b",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-319--legendary-lollipop-e2d131.netlify.app/images/developers/orders-with-api/details-en-mobile.png",
+        "status": 200,
+        "sha256": "8d44d00464fcffb4c98684b550a95fd7df0a64360333a384e3d6eefca81d44c0",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-319--legendary-lollipop-e2d131.netlify.app/images/captures/forms/ui-refresh/en/preview.png",
+        "status": 200,
+        "sha256": "fd99e7e004f2a1a0a084405aef1191469e23a7f034c83374caad6a38d48cc0e6",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-319--legendary-lollipop-e2d131.netlify.app/images/captures/forms/ui-refresh/es/preview.png",
+        "status": 200,
+        "sha256": "8caa6c2618d9dfbff44dd7c9b5dc6048dd37020cc58e6b12479549be749550b2",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-319--legendary-lollipop-e2d131.netlify.app/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-wide-desktop.png",
+        "status": 200,
+        "sha256": "65bfef90c667cf5da787412ad4d2175652ea945e2b1c1c84c7fb4bdb6c9217fc",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-319--legendary-lollipop-e2d131.netlify.app/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-mobile-wide.png",
+        "status": 200,
+        "sha256": "71136b3c75dbbe12a40ad787057309089b29f7d83b49f1ae1426ea91887e34e3",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-319--legendary-lollipop-e2d131.netlify.app/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-wide-desktop.png",
+        "status": 200,
+        "sha256": "470347c0697af60e59b6119e2c83bfb848fb9cbf69bd07ec4b14e451db40800e",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-319--legendary-lollipop-e2d131.netlify.app/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile-wide.png",
+        "status": 200,
+        "sha256": "244b1faacb31e3852d224f2db51c2efda234e4d57a54826aac83e726037efc36",
+        "matches_approved_asset": true,
+        "reused": true
+      }
+    ]
+  }
+}
