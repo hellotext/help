@@ -1,0 +1,488 @@
+{
+  "url": "http://127.0.0.1:3192/hellotext/settings",
+  "title": "Modificar preferencias de Enterprise - Hellotext",
+  "locale": "es",
+  "viewport": [
+    1200,
+    900
+  ],
+  "dpr": 2,
+  "zoom": 1,
+  "scroll": [
+    0,
+    0
+  ],
+  "pageText": "Bandeja\nEstacionales\nMisiones\nAudiencia\nAjustes\nEnterprise\nD\nResumen\nAgente\nIntegraciones\nUso & Facturación\nNotificaciones\nAutorizaciones\nPlantillas\nCupones\nEquipo\nTiempo de respuesta\nObjetos\nAcciones\nEditar negocio\nNombre\nUsuario\nhellotext.com/\nIdioma\n\nEspañol\n\nZona horaria\n\nMontevideo\n\nDominios autorizados\n\nOpcional. Restringe la carga del webchat, popups y formularios a los dominios autorizados. Sepáralos con comas.\n\nDominio para enlaces cortos\n\nOpcional. Usa un dominio o subdominio propio para personalizar tus enlaces cortos y reforzar tu marca.\n\nMás información\nGuardar\nCancelar\nTu plan es Enterprise\nBasado en tu uso, pagarás $2,499 este mes (hasta ahora).\n\nPlan\n\nCambiar mi Plan\nHoras de la noche\n\nConfigura tus horas de la noche para evitar enviar mensajes de las campañas y rutas durante estas horas.\n\nConfigurar horarios\nDesactivar negocio\n\nEsta es una acción destructiva y no se puede revertir. Esto eliminará toda la información del negocio, incluidos los mensajes, suscriptores y cualquier suscripción activa.\n\nDesactivar negocio",
+  "controls": [
+    {
+      "tag": "ASIDE",
+      "text": "Resumen\nAgente\nIntegraciones\nUso & Facturación\nNotificaciones\nAutorizaciones\nPlantillas\nCupones\nEquipo\nTiempo de respuesta\nObjetos\nAcciones",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        32,
+        155,
+        284,
+        1198
+      ]
+    },
+    {
+      "tag": "MAIN",
+      "text": "Editar negocio\nNombre\nUsuario\nhellotext.com/\nIdioma\n\nEspañol\n\nZona horaria\n\nMontevideo\n\nDominios autorizados\n\nOpcional. Restringe la carga del webchat, popups y formularios a los dominios autorizados. Sepáralos con comas.\n\nDominio para enlaces cortos\n\nOpcional. Usa un dominio o subdominio propio para personalizar tus enlaces cortos y reforzar tu marca.\n\nMás información\nGuardar\nCancelar\nTu plan es Enterprise\nBasado en tu uso, pagarás $2,499 este mes (hasta ahora).\n\nPlan\n\nCambiar mi Plan\nHoras de la noche\n\nConfigura tus horas de la noche para evitar enviar mensajes de las campañas y rutas durante estas horas.\n\nConfigurar horarios\nDesactivar negocio\n\nEsta es una acción destructiva y no se puede revertir. Esto eliminará toda la información del negocio, incluidos los mensajes, suscriptores y cualquier suscripción activa.\n\nDesactivar negocio",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        316,
+        155,
+        852,
+        1222
+      ]
+    },
+    {
+      "tag": "FORM",
+      "text": "Editar negocio\nNombre\nUsuario\nhellotext.com/\nIdioma\n\nEspañol\n\nZona horaria\n\nMontevideo\n\nDominios autorizados\n\nOpcional. Restringe la carga del webchat, popups y formularios a los dominios autorizados. Sepáralos con comas.\n\nDominio para enlaces cortos\n\nOpcional. Usa un dominio o subdominio propio para personalizar tus enlaces cortos y reforzar tu marca.\n\nMás información\nGuardar\nCancelar",
+      "id": "general-information",
+      "name": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        349,
+        188,
+        786,
+        568
+      ]
+    },
+    {
+      "tag": "MAIN",
+      "text": "Nombre\nUsuario\nhellotext.com/\nIdioma\n\nEspañol\n\nZona horaria\n\nMontevideo\n\nDominios autorizados\n\nOpcional. Restringe la carga del webchat, popups y formularios a los dominios autorizados. Sepáralos con comas.\n\nDominio para enlaces cortos\n\nOpcional. Usa un dominio o subdominio propio para personalizar tus enlaces cortos y reforzar tu marca.\n\nMás información\nGuardar\nCancelar",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        349,
+        240,
+        786,
+        516
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "text": "Nombre",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        349,
+        240,
+        377,
+        74
+      ]
+    },
+    {
+      "tag": "LABEL",
+      "text": "Nombre",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        349,
+        240,
+        377,
+        24
+      ]
+    },
+    {
+      "tag": "INPUT",
+      "text": "",
+      "id": "business_name",
+      "name": "business[name]",
+      "role": null,
+      "action": "input->form--submit-inactive#syncInputTargets",
+      "disabled": false,
+      "value": "Enterprise",
+      "rect": [
+        349,
+        272,
+        377,
+        42
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "text": "Usuario\nhellotext.com/",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        758,
+        240,
+        377,
+        74
+      ]
+    },
+    {
+      "tag": "LABEL",
+      "text": "Usuario",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        758,
+        240,
+        377,
+        24
+      ]
+    },
+    {
+      "tag": "INPUT",
+      "text": "",
+      "id": "business_handle",
+      "name": "business[handle]",
+      "role": null,
+      "action": "input->form--submit-inactive#syncInputTargets",
+      "disabled": false,
+      "value": "hellotext",
+      "rect": [
+        883.2421875,
+        281,
+        238.7578125,
+        24
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "text": "Idioma\n\nEspañol",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        349,
+        346,
+        377,
+        74
+      ]
+    },
+    {
+      "tag": "MAIN",
+      "text": "Español",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        349,
+        378,
+        377,
+        42
+      ]
+    },
+    {
+      "tag": "P",
+      "text": "Español",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        362,
+        387,
+        331,
+        24
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "text": "Zona horaria\n\nMontevideo",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        758,
+        346,
+        377,
+        74
+      ]
+    },
+    {
+      "tag": "MAIN",
+      "text": "Montevideo",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        758,
+        378,
+        377,
+        42
+      ]
+    },
+    {
+      "tag": "P",
+      "text": "Montevideo",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        771,
+        387,
+        331,
+        24
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "text": "Dominios autorizados\n\nOpcional. Restringe la carga del webchat, popups y formularios a los dominios autorizados. Sepáralos con comas.",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        349,
+        452,
+        377,
+        228
+      ]
+    },
+    {
+      "tag": "LABEL",
+      "text": "Dominios autorizados",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        349,
+        452,
+        377,
+        24
+      ]
+    },
+    {
+      "tag": "P",
+      "text": "Opcional. Restringe la carga del webchat, popups y formularios a los dominios autorizados. Sepáralos con comas.",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        349,
+        620,
+        377,
+        60
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "text": "Dominio para enlaces cortos\n\nOpcional. Usa un dominio o subdominio propio para personalizar tus enlaces cortos y reforzar tu marca.\n\nMás información",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        758,
+        452,
+        377,
+        228
+      ]
+    },
+    {
+      "tag": "LABEL",
+      "text": "Dominio para enlaces cortos",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        758,
+        452,
+        377,
+        24
+      ]
+    },
+    {
+      "tag": "INPUT",
+      "text": "",
+      "id": "business_link_alias",
+      "name": "business[link_alias]",
+      "role": null,
+      "action": "input->form--submit-inactive#syncInputTargets",
+      "disabled": false,
+      "value": "go.example.test",
+      "rect": [
+        758,
+        484,
+        377,
+        42
+      ]
+    },
+    {
+      "tag": "P",
+      "text": "Opcional. Usa un dominio o subdominio propio para personalizar tus enlaces cortos y reforzar tu marca.",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        758,
+        534,
+        377,
+        40
+      ]
+    },
+    {
+      "tag": "A",
+      "text": "Más información",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": null,
+      "href": "https://help.hellotext.com/es/configurando-dominio-para-enlaces-cortos",
+      "rect": [
+        758,
+        582,
+        115.109375,
+        20
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Guardar",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": null,
+      "disabled": false,
+      "rect": [
+        349,
+        712,
+        112.578125,
+        44
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Cancelar",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": "turbo-stream#requestTurboStream",
+      "disabled": false,
+      "rect": [
+        477.578125,
+        712,
+        118.9140625,
+        44
+      ]
+    },
+    {
+      "tag": "MAIN",
+      "text": "Tu plan es Enterprise\nBasado en tu uso, pagarás $2,499 este mes (hasta ahora).\n\nPlan",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        349,
+        846,
+        546.3671875,
+        130
+      ]
+    },
+    {
+      "tag": "ASIDE",
+      "text": "Cambiar mi Plan",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        959.3671875,
+        889,
+        175.6328125,
+        44
+      ]
+    },
+    {
+      "tag": "MAIN",
+      "text": "Horas de la noche\n\nConfigura tus horas de la noche para evitar enviar mensajes de las campañas y rutas durante estas horas.",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        349,
+        1066,
+        551.6953125,
+        82
+      ]
+    },
+    {
+      "tag": "ASIDE",
+      "text": "Configurar horarios",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        932.6953125,
+        1085,
+        202.3046875,
+        44
+      ]
+    },
+    {
+      "tag": "MAIN",
+      "text": "Desactivar negocio\n\nEsta es una acción destructiva y no se puede revertir. Esto eliminará toda la información del negocio, incluidos los mensajes, suscriptores y cualquier suscripción activa.",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        349,
+        1238,
+        552.3671875,
+        106
+      ]
+    },
+    {
+      "tag": "ASIDE",
+      "text": "Desactivar negocio",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        933.3671875,
+        1269,
+        201.6328125,
+        44
+      ]
+    },
+    {
+      "tag": "FORM",
+      "text": "Desactivar negocio",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        933.3671875,
+        1269,
+        201.6328125,
+        44
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Desactivar negocio",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": null,
+      "disabled": false,
+      "rect": [
+        933.3671875,
+        1269,
+        201.6328125,
+        44
+      ]
+    }
+  ],
+  "guard": {
+    "pid": 57358,
+    "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+    "port": 9460,
+    "one_local_page": true,
+    "account": "design-system@example.test",
+    "color_profile": "display-p3-d65",
+    "no_final_action": true
+  }
+}
