@@ -1,5 +1,5 @@
 {
-  "status": "locally_verified",
+  "status": "publicly_verified",
   "base_main": "dad9ffabe8b3a0dd459e93358a2263dbcdb008fa",
   "originals": [
     {
@@ -99,7 +99,10 @@
       "reused": false,
       "pixel_edits": "none",
       "pointer": "absent",
-      "no_final_action": true
+      "no_final_action": true,
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "New native guarded capture and approved asset publicly verified with matching SHA256; no pixel edit."
     },
     {
       "name": "account-es-mobile",
@@ -145,7 +148,10 @@
       "reused": false,
       "pixel_edits": "none",
       "pointer": "absent",
-      "no_final_action": true
+      "no_final_action": true,
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "New native guarded capture and approved asset publicly verified with matching SHA256; no pixel edit."
     },
     {
       "name": "account-en",
@@ -191,7 +197,10 @@
       "reused": false,
       "pixel_edits": "none",
       "pointer": "absent",
-      "no_final_action": true
+      "no_final_action": true,
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "New native guarded capture and approved asset publicly verified with matching SHA256; no pixel edit."
     },
     {
       "name": "account-en-mobile",
@@ -237,7 +246,10 @@
       "reused": false,
       "pixel_edits": "none",
       "pointer": "absent",
-      "no_final_action": true
+      "no_final_action": true,
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "New native guarded capture and approved asset publicly verified with matching SHA256; no pixel edit."
     },
     {
       "name": "business-es",
@@ -281,10 +293,12 @@
       "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-es-ui.json",
       "pointer": "absent",
       "pixel_edits": "none in this batch",
-      "publication_status": "New native P3 2x source uploaded; public URL/hash verified in public-verification.json.",
+      "publication_status": "Current consumer publicly verified using the existing approved native asset; no recapture, duplicate upload or pixel edit.",
       "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
       "reused": true,
-      "sha256": "17ec399500cee235d73459ced0de47fac99054987976a56f4e09603150ef5dfb"
+      "sha256": "17ec399500cee235d73459ced0de47fac99054987976a56f4e09603150ef5dfb",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "business-es-mobile",
@@ -328,10 +342,12 @@
       "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-es-mobile-ui.json",
       "pointer": "absent",
       "pixel_edits": "none in this batch",
-      "publication_status": "New native P3 2x source uploaded; public URL/hash verified in public-verification.json.",
+      "publication_status": "Current consumer publicly verified using the existing approved native asset; no recapture, duplicate upload or pixel edit.",
       "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
       "reused": true,
-      "sha256": "0c7ac4c233075fa5d072e27ac33e7947092bf6406858524ab12fa546be553ed8"
+      "sha256": "0c7ac4c233075fa5d072e27ac33e7947092bf6406858524ab12fa546be553ed8",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "business-en",
@@ -375,10 +391,12 @@
       "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-en-ui.json",
       "pointer": "absent",
       "pixel_edits": "none in this batch",
-      "publication_status": "New native P3 2x source uploaded; public URL/hash verified in public-verification.json.",
+      "publication_status": "Current consumer publicly verified using the existing approved native asset; no recapture, duplicate upload or pixel edit.",
       "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
       "reused": true,
-      "sha256": "1f7f132b2245056eda5166b1b1cfdbeee406ebcf7bad4a13a6eb3fd501184d7f"
+      "sha256": "1f7f132b2245056eda5166b1b1cfdbeee406ebcf7bad4a13a6eb3fd501184d7f",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "business-en-mobile",
@@ -422,10 +440,12 @@
       "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-en-mobile-ui.json",
       "pointer": "absent",
       "pixel_edits": "none in this batch",
-      "publication_status": "New native P3 2x source uploaded; public URL/hash verified in public-verification.json.",
+      "publication_status": "Current consumer publicly verified using the existing approved native asset; no recapture, duplicate upload or pixel edit.",
       "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
       "reused": true,
-      "sha256": "c7badab42d6878393ab746c2950605b8153dc38d60ac1ae09c747a949706bfeb"
+      "sha256": "c7badab42d6878393ab746c2950605b8153dc38d60ac1ae09c747a949706bfeb",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "identity-es",
@@ -470,11 +490,13 @@
       "ui_evidence": "docs/editorial-work/captures/products-and-inventory-with-api/identity-es-ui.json",
       "pointer": "absent",
       "pixel_edits": "none in this batch",
-      "reuse": false,
-      "publication_status": "New native P3 2x PNG published; public served hash matches approved source.",
+      "publication_status": "Current consumer publicly verified using the existing approved native asset; no recapture, duplicate upload or pixel edit.",
       "original_provenance": "docs/editorial-work/captures/products-and-inventory-with-api/capture-provenance.json",
       "reused": true,
-      "sha256": "cad5dac8389b4545324ad7b0d2cdc0c1cfd2d04a476b42f7bf5110530cc50f43"
+      "sha256": "cad5dac8389b4545324ad7b0d2cdc0c1cfd2d04a476b42f7bf5110530cc50f43",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "original_source_batch_reuse": false
     },
     {
       "name": "identity-es-mobile",
@@ -519,11 +541,13 @@
       "ui_evidence": "docs/editorial-work/captures/products-and-inventory-with-api/identity-es-mobile-ui.json",
       "pointer": "absent",
       "pixel_edits": "none in this batch",
-      "reuse": false,
-      "publication_status": "New native P3 2x PNG published; public served hash matches approved source.",
+      "publication_status": "Current consumer publicly verified using the existing approved native asset; no recapture, duplicate upload or pixel edit.",
       "original_provenance": "docs/editorial-work/captures/products-and-inventory-with-api/capture-provenance.json",
       "reused": true,
-      "sha256": "e59c825526ab948c121cde309ff647e98d8b8b015546116fe91e5cdf15ebdb00"
+      "sha256": "e59c825526ab948c121cde309ff647e98d8b8b015546116fe91e5cdf15ebdb00",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "original_source_batch_reuse": false
     },
     {
       "name": "identity-en",
@@ -568,11 +592,13 @@
       "ui_evidence": "docs/editorial-work/captures/products-and-inventory-with-api/identity-en-ui.json",
       "pointer": "absent",
       "pixel_edits": "none in this batch",
-      "reuse": false,
-      "publication_status": "New native P3 2x PNG published; public served hash matches approved source.",
+      "publication_status": "Current consumer publicly verified using the existing approved native asset; no recapture, duplicate upload or pixel edit.",
       "original_provenance": "docs/editorial-work/captures/products-and-inventory-with-api/capture-provenance.json",
       "reused": true,
-      "sha256": "0ad4775d9bd3d743c1aa60c89c9db36609032046126386e77710f41b682c78e8"
+      "sha256": "0ad4775d9bd3d743c1aa60c89c9db36609032046126386e77710f41b682c78e8",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "original_source_batch_reuse": false
     },
     {
       "name": "identity-en-mobile",
@@ -617,11 +643,13 @@
       "ui_evidence": "docs/editorial-work/captures/products-and-inventory-with-api/identity-en-mobile-ui.json",
       "pointer": "absent",
       "pixel_edits": "none in this batch",
-      "reuse": false,
-      "publication_status": "New native P3 2x PNG published; public served hash matches approved source.",
+      "publication_status": "Current consumer publicly verified using the existing approved native asset; no recapture, duplicate upload or pixel edit.",
       "original_provenance": "docs/editorial-work/captures/products-and-inventory-with-api/capture-provenance.json",
       "reused": true,
-      "sha256": "ee47e9bab2033b8dc413e0eb63a5d89ad5f65f322dd07b4431e864677a332b60"
+      "sha256": "ee47e9bab2033b8dc413e0eb63a5d89ad5f65f322dd07b4431e864677a332b60",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "original_source_batch_reuse": false
     },
     {
       "name": "details-es",
@@ -666,11 +694,13 @@
       "ui_evidence": "docs/editorial-work/captures/orders-with-api/details-es-ui.json",
       "pointer": "absent",
       "pixel_edits": "none in this batch",
-      "reuse": false,
-      "publication_status": "New native P3 2x PNG published; public served hash matches approved source.",
+      "publication_status": "Current consumer publicly verified using the existing approved native asset; no recapture, duplicate upload or pixel edit.",
       "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json",
       "reused": true,
-      "sha256": "ce7071cd6129d589df554b45f6ead105ef20ce3b1b4eeaf6eace613f34b4bb00"
+      "sha256": "ce7071cd6129d589df554b45f6ead105ef20ce3b1b4eeaf6eace613f34b4bb00",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "original_source_batch_reuse": false
     },
     {
       "name": "details-es-mobile",
@@ -715,11 +745,13 @@
       "ui_evidence": "docs/editorial-work/captures/orders-with-api/details-es-mobile-ui.json",
       "pointer": "absent",
       "pixel_edits": "none in this batch",
-      "reuse": false,
-      "publication_status": "New native P3 2x PNG published; public served hash matches approved source.",
+      "publication_status": "Current consumer publicly verified using the existing approved native asset; no recapture, duplicate upload or pixel edit.",
       "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json",
       "reused": true,
-      "sha256": "002115693247a8d96672d24a28406f0c452db72eb2df13ad721a9f3d12102ad9"
+      "sha256": "002115693247a8d96672d24a28406f0c452db72eb2df13ad721a9f3d12102ad9",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "original_source_batch_reuse": false
     },
     {
       "name": "details-en",
@@ -764,11 +796,13 @@
       "ui_evidence": "docs/editorial-work/captures/orders-with-api/details-en-ui.json",
       "pointer": "absent",
       "pixel_edits": "none in this batch",
-      "reuse": false,
-      "publication_status": "New native P3 2x PNG published; public served hash matches approved source.",
+      "publication_status": "Current consumer publicly verified using the existing approved native asset; no recapture, duplicate upload or pixel edit.",
       "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json",
       "reused": true,
-      "sha256": "b728ba41fdd9c004408a7153f0f8f9a0bfc6634d0d9e44485db3dfc7b120b08b"
+      "sha256": "b728ba41fdd9c004408a7153f0f8f9a0bfc6634d0d9e44485db3dfc7b120b08b",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "original_source_batch_reuse": false
     },
     {
       "name": "details-en-mobile",
@@ -813,17 +847,17 @@
       "ui_evidence": "docs/editorial-work/captures/orders-with-api/details-en-mobile-ui.json",
       "pointer": "absent",
       "pixel_edits": "none in this batch",
-      "reuse": false,
-      "publication_status": "New native P3 2x PNG published; public served hash matches approved source.",
+      "publication_status": "Current consumer publicly verified using the existing approved native asset; no recapture, duplicate upload or pixel edit.",
       "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json",
       "reused": true,
-      "sha256": "8d44d00464fcffb4c98684b550a95fd7df0a64360333a384e3d6eefca81d44c0"
+      "sha256": "8d44d00464fcffb4c98684b550a95fd7df0a64360333a384e3d6eefca81d44c0",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "original_source_batch_reuse": false
     }
   ],
   "capture_plan": "New unsaved Fenicio domain/reference form ES/EN desktop/mobile; reuse approved public Hellotext Business ID, product identity and order details, with independent fictional source/state made explicit.",
-  "pending": [
-    "Commit/PR protected checks and independent review of exact head, normal production deployment and public page/hash verification."
-  ],
+  "pending": [],
   "article_key": "integrations/connect-fenicio.md",
   "new_captures": 4,
   "new_png_uploads": 4,
@@ -850,5 +884,17 @@
       ]
     ],
     "before_after_capture_guard": "script/capture_isolated_chrome.mjs validates before and after; measured viewports/DPR/scroll match saved UI/native metadata"
+  },
+  "publication": {
+    "state": "publicly_verified",
+    "evidence": "public-verification.json",
+    "content_pr": "https://github.com/hellotext/help/pull/321",
+    "main_merge_sha": "22a4ab87518e410573280f926286b4508e21505e",
+    "deploy_id": "6abe1cf2d9c1c40008c1116b",
+    "public_pages_http": 200,
+    "approved_hashes_match": true,
+    "new_captures": 4,
+    "new_png_uploads": 4,
+    "reused_pngs": 12
   }
 }

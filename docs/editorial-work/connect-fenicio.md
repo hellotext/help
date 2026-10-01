@@ -43,12 +43,46 @@ Read-only fixture snapshots before/after are identical: DB hellotext_editorial_w
 
 All16 PNGs are native Display P32×. Responsive pictures≤600px declare density and intrinsic dimensions for each source; no source is enlarged. Static lavender stage fills the article column and the white frame fits the image. Full ES/EN articles at1440/390/580px were visually inspected with no page overflow. The final verification categories use visible numbers1–5 to avoid the current renderer resetting ordered-list numbers across figures; the six views were rebuilt and reviewed after that local correction. No renderer/shared-rule/CSS change or CSS/migration test was added. Production build and security-header configuration passed; root/ES build copies and approved PNG/source/ICC hashes match. Original headings/links/stub checks and `git diff --check` passed; detailed evidence is `local-verification.json` and `page-review`.
 
-Protected publication and public proof remain pending.
+Protected publication and public proof are recorded below.
 
 ## Ledger verifier
 
-Verifier `b4d8dcea091cd3f09a4c6651c7fe51b92981cc48` contains the completed articles, four new native captures, twelve unchanged reusable sources and local proof. This ledger commit is its direct child; all79 pair verifiers and both prior corrections are ancestors of the resulting head. Ledger now79 local_verified,74 pending,one out_of_scope. Exact PR checks/review, normal production deployment and public verification remain pending.
+Verifier `b4d8dcea091cd3f09a4c6651c7fe51b92981cc48` contains the completed articles, four new native captures, twelve unchanged reusable sources and local proof. This ledger commit is its direct child; all79 pair verifiers and both prior corrections are ancestors of the resulting head. Ledger now79 local_verified,74 pending,one out_of_scope. Exact PR checks/review, normal production deployment and public verification passed as recorded below.
 
 ## Exact-head review correction
 
 The independent review of bd7fd19c0ad4b3740ffdb6026f8c8a1145fbfc5c found a real P2: the Spanish navigation path said Pedidos, while preserved current `orders-with-api/details-es-ui.json` records the title and section heading Órdenes. Changed only that navigation label to **Configuración > Objetos > Órdenes**. The fictional object remains Pedido #1001. Original verifier and ledger ancestry, all other article contracts/figures/native sources and protected fixtures are retained. Rebuilt both locales, repeated all six complete browser views and hashes, and requested an independent review of the corrected exact head before merge.
+
+## Public verification — 2026-10-01
+
+Help [#321](https://github.com/hellotext/help/pull/321) merged by `22a4ab87518e410573280f926286b4508e21505e`, retaining all individual commits. Build/Aikido/Netlify preview/header checks passed on exact head `170bbd7cdfa3d92fd1d4e822cdaf245f65196a33`. Independent review and every actual comment/review/thread were read before the separate merge call; zero unresolved findings. Attachment attempted; existing100-identity cap prevented it.
+
+Exact main [Build 36837999436](https://github.com/hellotext/help/actions/runs/36837999436) passed. Normal Netlify production `6abe1cf2d9c1c40008c1116b` is ready/published at `2026-10-01T08:43:40.465Z`, with commit_ref `22a4ab87518e410573280f926286b4508e21505e` verified from the public site-alias list. No manual deployment. Both complete localized articles match the verified build; all sixteen native PNGs returned HTTP200 with approved hashes. Four new guarded captures and twelve existing sources reused unchanged without duplicate upload; original source/UI provenance remains intact. Copied historical reuse flags are explicitly named original_source_batch_reuse, while reused records this consumer; their original provenance files remain unchanged.
+
+Seven original sections plus one email subsection and five original internal links per locale,titles/slugs/stub/locales/publication preserved; one Tracking events link added,four useful figures per language,zero executable examples. Full1440/390/580px visual review,2×/P3/intrinsic dimensions/logical-width+18px caps,no enlargement or page overflow. Fictional unsaved store fields and independent custom_store draft product/order are explained before their figures. Only local safe GET views, DOM drafts and account locale change, restored to ES; fixture snapshots are identical. No Next/import/check/finish/save/test/send, external store call, API/example, integration/property/object/event/message/subscription/worker creation.
+
+Pages:
+
+- [https://help.hellotext.com/es/conecta-fenicio](https://help.hellotext.com/es/conecta-fenicio) — HTTP200; complete verified article.
+- [https://help.hellotext.com/connect-fenicio](https://help.hellotext.com/connect-fenicio) — HTTP200; complete verified article.
+
+All sixteen native PNGs, including every responsive variant:
+
+- [https://help.hellotext.com/images/integrations/connect-fenicio/account-es.png](https://help.hellotext.com/images/integrations/connect-fenicio/account-es.png) — HTTP200,new guarded capture,SHA256 `c3c96ef39741897476371796b9015da195e52a7bea43a5881cd2f374551a1a6d`.
+- [https://help.hellotext.com/images/integrations/connect-fenicio/account-es-mobile.png](https://help.hellotext.com/images/integrations/connect-fenicio/account-es-mobile.png) — HTTP200,new guarded capture,SHA256 `907a6bf95f1ce326340c59db6f794fe411405bca7b785ea03fe232a9de987f5b`.
+- [https://help.hellotext.com/images/integrations/connect-fenicio/account-en.png](https://help.hellotext.com/images/integrations/connect-fenicio/account-en.png) — HTTP200,new guarded capture,SHA256 `b6381721f6993170101996d30a28e4ec27fb96576c50577c91d0552a18c1a882`.
+- [https://help.hellotext.com/images/integrations/connect-fenicio/account-en-mobile.png](https://help.hellotext.com/images/integrations/connect-fenicio/account-en-mobile.png) — HTTP200,new guarded capture,SHA256 `465536dac3217d0a513efcba94945c993f0c722a90d87e59e9703b4e393fc8c7`.
+- [https://help.hellotext.com/images/developers/custom-store-integration/business-es.png](https://help.hellotext.com/images/developers/custom-store-integration/business-es.png) — HTTP200,reused unchanged,SHA256 `17ec399500cee235d73459ced0de47fac99054987976a56f4e09603150ef5dfb`.
+- [https://help.hellotext.com/images/developers/custom-store-integration/business-es-mobile.png](https://help.hellotext.com/images/developers/custom-store-integration/business-es-mobile.png) — HTTP200,reused unchanged,SHA256 `0c7ac4c233075fa5d072e27ac33e7947092bf6406858524ab12fa546be553ed8`.
+- [https://help.hellotext.com/images/developers/custom-store-integration/business-en.png](https://help.hellotext.com/images/developers/custom-store-integration/business-en.png) — HTTP200,reused unchanged,SHA256 `1f7f132b2245056eda5166b1b1cfdbeee406ebcf7bad4a13a6eb3fd501184d7f`.
+- [https://help.hellotext.com/images/developers/custom-store-integration/business-en-mobile.png](https://help.hellotext.com/images/developers/custom-store-integration/business-en-mobile.png) — HTTP200,reused unchanged,SHA256 `c7badab42d6878393ab746c2950605b8153dc38d60ac1ae09c747a949706bfeb`.
+- [https://help.hellotext.com/images/developers/products-and-inventory-with-api/identity-es.png](https://help.hellotext.com/images/developers/products-and-inventory-with-api/identity-es.png) — HTTP200,reused unchanged,SHA256 `cad5dac8389b4545324ad7b0d2cdc0c1cfd2d04a476b42f7bf5110530cc50f43`.
+- [https://help.hellotext.com/images/developers/products-and-inventory-with-api/identity-es-mobile.png](https://help.hellotext.com/images/developers/products-and-inventory-with-api/identity-es-mobile.png) — HTTP200,reused unchanged,SHA256 `e59c825526ab948c121cde309ff647e98d8b8b015546116fe91e5cdf15ebdb00`.
+- [https://help.hellotext.com/images/developers/products-and-inventory-with-api/identity-en.png](https://help.hellotext.com/images/developers/products-and-inventory-with-api/identity-en.png) — HTTP200,reused unchanged,SHA256 `0ad4775d9bd3d743c1aa60c89c9db36609032046126386e77710f41b682c78e8`.
+- [https://help.hellotext.com/images/developers/products-and-inventory-with-api/identity-en-mobile.png](https://help.hellotext.com/images/developers/products-and-inventory-with-api/identity-en-mobile.png) — HTTP200,reused unchanged,SHA256 `ee47e9bab2033b8dc413e0eb63a5d89ad5f65f322dd07b4431e864677a332b60`.
+- [https://help.hellotext.com/images/developers/orders-with-api/details-es.png](https://help.hellotext.com/images/developers/orders-with-api/details-es.png) — HTTP200,reused unchanged,SHA256 `ce7071cd6129d589df554b45f6ead105ef20ce3b1b4eeaf6eace613f34b4bb00`.
+- [https://help.hellotext.com/images/developers/orders-with-api/details-es-mobile.png](https://help.hellotext.com/images/developers/orders-with-api/details-es-mobile.png) — HTTP200,reused unchanged,SHA256 `002115693247a8d96672d24a28406f0c452db72eb2df13ad721a9f3d12102ad9`.
+- [https://help.hellotext.com/images/developers/orders-with-api/details-en.png](https://help.hellotext.com/images/developers/orders-with-api/details-en.png) — HTTP200,reused unchanged,SHA256 `b728ba41fdd9c004408a7153f0f8f9a0bfc6634d0d9e44485db3dfc7b120b08b`.
+- [https://help.hellotext.com/images/developers/orders-with-api/details-en-mobile.png](https://help.hellotext.com/images/developers/orders-with-api/details-en-mobile.png) — HTTP200,reused unchanged,SHA256 `8d44d00464fcffb4c98684b550a95fd7df0a64360333a384e3d6eefca81d44c0`.
+
+Ledger:79 local_verified,74 pending,one out_of_scope; every verifier and both prior corrections are ancestors of main. The public-record PR receives its own exact-head review/main Build/normal production and repeated public checks, recorded in a GitHub comment without recursive commits.
