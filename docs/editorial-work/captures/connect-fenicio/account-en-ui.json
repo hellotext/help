@@ -1,0 +1,170 @@
+{
+  "url": "http://127.0.0.1:3192/hellotext/settings/integrations/fenicio/new",
+  "title": "Connect your Fenicio account - Hellotext",
+  "locale": "en",
+  "viewport": [
+    1200,
+    900
+  ],
+  "dpr": 2,
+  "zoom": 1,
+  "scroll": [
+    0,
+    0
+  ],
+  "pageText": "D\nConnect your Fenicio account\n\nEnter your Fenicio account credentials below\n\nDomain\nBusiness ID\nBack\nNext\n\nNeed help?\n\nFind the steps to continue setting up your store.\n\nRead the guide to connect Fenicio",
+  "controls": [
+    {
+      "tag": "FORM",
+      "text": "Connect your Fenicio account\n\nEnter your Fenicio account credentials below\n\nDomain\nBusiness ID\nBack\nNext\n\nNeed help?\n\nFind the steps to continue setting up your store.\n\nRead the guide to connect Fenicio",
+      "id": "new_fenicio_account_",
+      "name": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        0,
+        84,
+        1200,
+        816
+      ]
+    },
+    {
+      "tag": "H1",
+      "text": "Connect your Fenicio account",
+      "id": "wizard-header-title",
+      "role": null,
+      "action": null,
+      "rect": [
+        146.6640625,
+        148,
+        506.6640625,
+        104
+      ]
+    },
+    {
+      "tag": "LABEL",
+      "text": "Domain",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        146.6640625,
+        352,
+        506.6640625,
+        24
+      ]
+    },
+    {
+      "tag": "INPUT",
+      "text": "",
+      "id": "fenicio_account_domain",
+      "name": "fenicio_account[domain]",
+      "role": null,
+      "action": null,
+      "disabled": false,
+      "value": "shop.example.test",
+      "rect": [
+        146.6640625,
+        384,
+        506.6640625,
+        42
+      ]
+    },
+    {
+      "tag": "LABEL",
+      "text": "Business ID",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        146.6640625,
+        458,
+        506.6640625,
+        24
+      ]
+    },
+    {
+      "tag": "INPUT",
+      "text": "",
+      "id": "fenicio_account_reference",
+      "name": "fenicio_account[reference]",
+      "role": null,
+      "action": null,
+      "disabled": false,
+      "value": "1234567890",
+      "rect": [
+        146.6640625,
+        490,
+        506.6640625,
+        42
+      ]
+    },
+    {
+      "tag": "A",
+      "text": "Back",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": null,
+      "href": "http://127.0.0.1:3192/hellotext/settings/integrations/new",
+      "rect": [
+        32,
+        840,
+        62.625,
+        44
+      ]
+    },
+    {
+      "tag": "MAIN",
+      "text": "Next",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        682.859375,
+        840,
+        85.140625,
+        44
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Next",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": null,
+      "disabled": false,
+      "rect": [
+        682.859375,
+        840,
+        85.140625,
+        44
+      ]
+    },
+    {
+      "tag": "A",
+      "text": "Read the guide to connect Fenicio",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": null,
+      "href": "https://help.hellotext.com/connect-fenicio",
+      "rect": [
+        852,
+        441.5,
+        271.6640625,
+        21
+      ]
+    }
+  ],
+  "guard": {
+    "pid": 57358,
+    "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+    "port": 9460,
+    "one_local_page": true,
+    "account": "design-system@example.test",
+    "color_profile": "display-p3-d65",
+    "no_final_action": true
+  }
+}

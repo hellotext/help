@@ -1,0 +1,170 @@
+{
+  "url": "http://127.0.0.1:3192/hellotext/settings/integrations/fenicio/new",
+  "title": "Conecta tu cuenta de Fenicio - Hellotext",
+  "locale": "es",
+  "viewport": [
+    1200,
+    900
+  ],
+  "dpr": 2,
+  "zoom": 1,
+  "scroll": [
+    0,
+    0
+  ],
+  "pageText": "D\nConecta tu cuenta de Fenicio\n\nIngresa a continuación las credenciales de tu cuenta de Fenicio\n\nDominio\nID del negocio\nAtrás\nSiguiente\n\n¿Necesitas ayuda?\n\nEncuentra los pasos para continuar con la configuración.\n\nConsulta la guía para conectar Fenicio",
+  "controls": [
+    {
+      "tag": "FORM",
+      "text": "Conecta tu cuenta de Fenicio\n\nIngresa a continuación las credenciales de tu cuenta de Fenicio\n\nDominio\nID del negocio\nAtrás\nSiguiente\n\n¿Necesitas ayuda?\n\nEncuentra los pasos para continuar con la configuración.\n\nConsulta la guía para conectar Fenicio",
+      "id": "new_fenicio_account_",
+      "name": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        0,
+        84,
+        1200,
+        816
+      ]
+    },
+    {
+      "tag": "H1",
+      "text": "Conecta tu cuenta de Fenicio",
+      "id": "wizard-header-title",
+      "role": null,
+      "action": null,
+      "rect": [
+        146.6640625,
+        148,
+        506.6640625,
+        104
+      ]
+    },
+    {
+      "tag": "LABEL",
+      "text": "Dominio",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        146.6640625,
+        380,
+        506.6640625,
+        24
+      ]
+    },
+    {
+      "tag": "INPUT",
+      "text": "",
+      "id": "fenicio_account_domain",
+      "name": "fenicio_account[domain]",
+      "role": null,
+      "action": null,
+      "disabled": false,
+      "value": "shop.example.test",
+      "rect": [
+        146.6640625,
+        412,
+        506.6640625,
+        42
+      ]
+    },
+    {
+      "tag": "LABEL",
+      "text": "ID del negocio",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        146.6640625,
+        486,
+        506.6640625,
+        24
+      ]
+    },
+    {
+      "tag": "INPUT",
+      "text": "",
+      "id": "fenicio_account_reference",
+      "name": "fenicio_account[reference]",
+      "role": null,
+      "action": null,
+      "disabled": false,
+      "value": "1234567890",
+      "rect": [
+        146.6640625,
+        518,
+        506.6640625,
+        42
+      ]
+    },
+    {
+      "tag": "A",
+      "text": "Atrás",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": null,
+      "href": "http://127.0.0.1:3192/hellotext/settings/integrations/new",
+      "rect": [
+        32,
+        840,
+        65.5078125,
+        44
+      ]
+    },
+    {
+      "tag": "MAIN",
+      "text": "Siguiente",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        644.203125,
+        840,
+        123.796875,
+        44
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Siguiente",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": null,
+      "disabled": false,
+      "rect": [
+        644.203125,
+        840,
+        123.796875,
+        44
+      ]
+    },
+    {
+      "tag": "A",
+      "text": "Consulta la guía para conectar Fenicio",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": null,
+      "href": "https://help.hellotext.com/es/conecta-fenicio",
+      "rect": [
+        852,
+        469.5,
+        239.015625,
+        45
+      ]
+    }
+  ],
+  "guard": {
+    "pid": 57358,
+    "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+    "port": 9460,
+    "one_local_page": true,
+    "account": "design-system@example.test",
+    "color_profile": "display-p3-d65",
+    "no_final_action": true
+  }
+}
