@@ -1,0 +1,658 @@
+{
+  "originals": [
+    {
+      "article": "_i18n/es/team/ai-handoff-to-inbox.md",
+      "snapshot": "docs/editorial-work/captures/ai-handoff-to-inbox/originals/es.md",
+      "sha256": "ef2800badb855d56c3ff9c415ec8e0bcb551c6a6c067b2d4a24e9ae153a9573d",
+      "headings": [
+        "## C\u00f3mo funciona la derivaci\u00f3n",
+        "### Derivaci\u00f3n en misiones",
+        "### Step de Assignment en rutas",
+        "### Step de AI agent en una ruta",
+        "### Misiones personalizadas e intenciones",
+        "## Cu\u00e1ndo Hellotext deber\u00eda derivar",
+        "## Qu\u00e9 configurar antes de lanzar",
+        "## Qu\u00e9 deber\u00eda mostrar el Inbox",
+        "## Prueba el camino de derivaci\u00f3n",
+        "## Qu\u00e9 deber\u00eda hacer el equipo despu\u00e9s de la derivaci\u00f3n",
+        "## Revisa la calidad de derivaciones",
+        "## Gu\u00edas relacionadas"
+      ],
+      "links": [
+        "_journeys/custom-agent-playbook.md",
+        "_journeys/order-update-playbook.md",
+        "_journeys/custom-agent-playbook.md",
+        "_journeys/how-to-write-a-great-prompt.md",
+        "_analytics-reporting-attribution/sales-attribution.md",
+        "_team/inbox-overview.md",
+        "_team/assigning-conversations.md",
+        "_team/teams-and-inbox-capacity.md",
+        "_team/understanding-response-times.md",
+        "_getting-started/how-hellotext-works.md",
+        "_journeys/order-update-playbook.md",
+        "_journeys/review-builder-playbook.md",
+        "_journeys/csat-pulse-playbook.md",
+        "_journeys/nps-pulse-playbook.md",
+        "_journeys/order-cancellation-assistant-playbook.md",
+        "_journeys/custom-agent-playbook.md",
+        "_journeys/how-to-write-a-great-prompt.md",
+        "_getting-started/go-live-checklist.md"
+      ],
+      "live_sha256": "a6c8593d17344be9249a0242b4545ea3c28f4a9b43c679bb1415a478404fc71a",
+      "headings_original_links_stub_preserved": true
+    },
+    {
+      "article": "_i18n/en/team/ai-handoff-to-inbox.md",
+      "snapshot": "docs/editorial-work/captures/ai-handoff-to-inbox/originals/en.md",
+      "sha256": "d88be9f9e88b7950efe6be8759489a3974d5dc9939148e23e18feb56acd8b267",
+      "headings": [
+        "## How handoff works",
+        "### Playbook escalation",
+        "### Journey assignment step",
+        "### AI agent step in a journey",
+        "### Custom playbooks and intents",
+        "## When Hellotext should escalate",
+        "## What to configure before launch",
+        "## What the Inbox should show",
+        "## Test the handoff path",
+        "## What teammates should do after handoff",
+        "## Review handoff quality",
+        "## Related guides"
+      ],
+      "links": [
+        "_journeys/custom-agent-playbook.md",
+        "_journeys/order-update-playbook.md",
+        "_journeys/custom-agent-playbook.md",
+        "_journeys/how-to-write-a-great-prompt.md",
+        "_analytics-reporting-attribution/sales-attribution.md",
+        "_team/inbox-overview.md",
+        "_team/assigning-conversations.md",
+        "_team/teams-and-inbox-capacity.md",
+        "_team/understanding-response-times.md",
+        "_getting-started/how-hellotext-works.md",
+        "_journeys/order-update-playbook.md",
+        "_journeys/review-builder-playbook.md",
+        "_journeys/csat-pulse-playbook.md",
+        "_journeys/nps-pulse-playbook.md",
+        "_journeys/order-cancellation-assistant-playbook.md",
+        "_journeys/custom-agent-playbook.md",
+        "_journeys/how-to-write-a-great-prompt.md",
+        "_getting-started/go-live-checklist.md"
+      ],
+      "live_sha256": "afd83f69e16a4af164e6dbe0ee862b3328b2aa1c11f42675badd280b3fb06845",
+      "headings_original_links_stub_preserved": true
+    },
+    {
+      "article": "_team/ai-handoff-to-inbox.md",
+      "snapshot": "docs/editorial-work/captures/ai-handoff-to-inbox/originals/stub.md",
+      "sha256": "700999e3ed69a53f1559d92338c849a532ebea713c06725cee4bf8bbece9e0df",
+      "headings": [],
+      "links": [],
+      "live_sha256": "700999e3ed69a53f1559d92338c849a532ebea713c06725cee4bf8bbece9e0df",
+      "headings_original_links_stub_preserved": true
+    }
+  ],
+  "images": [
+    {
+      "asset": "images/team/ai-handoff-to-inbox/assignment-es.png",
+      "sha256": "db457b25763dd6a25ab63f08d9458bad3dda3f8b94742fcea626cb0b7773d91b",
+      "source_sha256": "db457b25763dd6a25ab63f08d9458bad3dda3f8b94742fcea626cb0b7773d91b",
+      "pixels": [
+        1006,
+        1300
+      ],
+      "logical_size": [
+        503.0,
+        650.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/team/ai-handoff-to-inbox/assignment-es-mobile.png",
+      "sha256": "76be7e894a13a02c072086a6084ab1e38ceb5520a0f4518026ec9ab805797dcf",
+      "source_sha256": "76be7e894a13a02c072086a6084ab1e38ceb5520a0f4518026ec9ab805797dcf",
+      "pixels": [
+        778,
+        1300
+      ],
+      "logical_size": [
+        389.0,
+        650.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/team/ai-handoff-to-inbox/target-es.png",
+      "sha256": "6195d0e9f7ec0f1ce637b1664ea544a8154dfa90808ad6d1f908715b88a6762e",
+      "source_sha256": "6195d0e9f7ec0f1ce637b1664ea544a8154dfa90808ad6d1f908715b88a6762e",
+      "pixels": [
+        1006,
+        840
+      ],
+      "logical_size": [
+        503.0,
+        420.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/team/ai-handoff-to-inbox/target-es-mobile.png",
+      "sha256": "e53e11a64f7baf5c3f4f6de277b7864d6c2db4f8fef760dd59f0971af88fb77b",
+      "source_sha256": "e53e11a64f7baf5c3f4f6de277b7864d6c2db4f8fef760dd59f0971af88fb77b",
+      "pixels": [
+        778,
+        840
+      ],
+      "logical_size": [
+        389.0,
+        420.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/team/ai-handoff-to-inbox/agent-settings-es.png",
+      "sha256": "7bced6a1d8fc61f6dbd4a0aaa3fddb3187a4e3218460b4213e22752cb1165f43",
+      "source_sha256": "7bced6a1d8fc61f6dbd4a0aaa3fddb3187a4e3218460b4213e22752cb1165f43",
+      "pixels": [
+        1006,
+        1500
+      ],
+      "logical_size": [
+        503.0,
+        750.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/team/ai-handoff-to-inbox/agent-settings-es-mobile.png",
+      "sha256": "fd77915787046f2c099249fd9c6e966ec8ba7a9f98e04b031dc1e6865b2a2fba",
+      "source_sha256": "fd77915787046f2c099249fd9c6e966ec8ba7a9f98e04b031dc1e6865b2a2fba",
+      "pixels": [
+        778,
+        1500
+      ],
+      "logical_size": [
+        389.0,
+        750.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/team/ai-handoff-to-inbox/agent-empty-es.png",
+      "sha256": "d8cf696965000520de025035d19df3730028b06f7d663b5fa2d6a9ecfb54d857",
+      "source_sha256": "60ae3d51fa4625dad42f84778139cff1967e3bf85c902308beb21e9dfdcd322f",
+      "pixels": [
+        878,
+        252
+      ],
+      "logical_size": [
+        439.0,
+        126.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/team/ai-handoff-to-inbox/agent-empty-es-mobile.png",
+      "sha256": "dc500bbb1b168c8094f02b50d014c247b3ecf12d43412f5b72794988cc261570",
+      "source_sha256": "3f509486659629de93df3710c48aac917388ed4f742278a556d07679dc96a8d2",
+      "pixels": [
+        650,
+        292
+      ],
+      "logical_size": [
+        325.0,
+        146.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/team/ai-handoff-to-inbox/assignment-en.png",
+      "sha256": "8dbe38274d6b7b6754262c448dd149be8174cd1922b7a81e6420299a62d5673a",
+      "source_sha256": "8dbe38274d6b7b6754262c448dd149be8174cd1922b7a81e6420299a62d5673a",
+      "pixels": [
+        1006,
+        1300
+      ],
+      "logical_size": [
+        503.0,
+        650.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/team/ai-handoff-to-inbox/assignment-en-mobile.png",
+      "sha256": "859f3b87ad11fea2952c91df5a0d57e3d833b3b7acfa033094283d223a7573ef",
+      "source_sha256": "859f3b87ad11fea2952c91df5a0d57e3d833b3b7acfa033094283d223a7573ef",
+      "pixels": [
+        778,
+        1300
+      ],
+      "logical_size": [
+        389.0,
+        650.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/team/ai-handoff-to-inbox/target-en.png",
+      "sha256": "fe6b4195211e5bad0d156f58bc3dd755daf03c316f54b7bb4b95c817d149079c",
+      "source_sha256": "fe6b4195211e5bad0d156f58bc3dd755daf03c316f54b7bb4b95c817d149079c",
+      "pixels": [
+        1006,
+        840
+      ],
+      "logical_size": [
+        503.0,
+        420.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/team/ai-handoff-to-inbox/target-en-mobile.png",
+      "sha256": "dc950591ae4a4e42f6bbe0ace904f21ad79035b557aaa7c2e9557dfd6fed1002",
+      "source_sha256": "dc950591ae4a4e42f6bbe0ace904f21ad79035b557aaa7c2e9557dfd6fed1002",
+      "pixels": [
+        778,
+        840
+      ],
+      "logical_size": [
+        389.0,
+        420.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/team/ai-handoff-to-inbox/agent-settings-en.png",
+      "sha256": "a9f29204bde17391f0b59b8732cddbd0ecff1b778c288c7abb28aaa74ed17fcd",
+      "source_sha256": "a9f29204bde17391f0b59b8732cddbd0ecff1b778c288c7abb28aaa74ed17fcd",
+      "pixels": [
+        1006,
+        1500
+      ],
+      "logical_size": [
+        503.0,
+        750.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/team/ai-handoff-to-inbox/agent-settings-en-mobile.png",
+      "sha256": "56684725426270e650bf0e189d2292a5a85e4ee6d5ae7b9db3e138b2e317c2dd",
+      "source_sha256": "56684725426270e650bf0e189d2292a5a85e4ee6d5ae7b9db3e138b2e317c2dd",
+      "pixels": [
+        778,
+        1500
+      ],
+      "logical_size": [
+        389.0,
+        750.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/team/ai-handoff-to-inbox/agent-empty-en.png",
+      "sha256": "1434fe9a50cb0f62cd8c05f3a67ec8e37a0728dd4ed6852e7bedef5e170504c0",
+      "source_sha256": "684fe18ff334026dfca135e6dd2f1cc9abf920fea5e1d11001a053534d113dac",
+      "pixels": [
+        878,
+        252
+      ],
+      "logical_size": [
+        439.0,
+        126.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/team/ai-handoff-to-inbox/agent-empty-en-mobile.png",
+      "sha256": "7bcfaabe7cb8427f4ea18e069a27cf932dd1b66fa52be1247e945b5942a42e2c",
+      "source_sha256": "4e807eaa5a3a511e9e7515ecb1947eb412ef4dbe65be66d8421d477eba7e181b",
+      "pixels": [
+        650,
+        252
+      ],
+      "logical_size": [
+        325.0,
+        126.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/team/ai-handoff-to-inbox/intents-es.png",
+      "sha256": "3ce141b0bcdd1fc102325fca3389e28f19158d1344b0c94ec725b6f99bc7ee50",
+      "source_sha256": "3ce141b0bcdd1fc102325fca3389e28f19158d1344b0c94ec725b6f99bc7ee50",
+      "pixels": [
+        1256,
+        520
+      ],
+      "logical_size": [
+        628.0,
+        260.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/team/ai-handoff-to-inbox/intents-es-mobile.png",
+      "sha256": "06a58e9ba16bdc719e9c1787edb0b699acc69e588cb43ae97295622b904c1e7f",
+      "source_sha256": "06a58e9ba16bdc719e9c1787edb0b699acc69e588cb43ae97295622b904c1e7f",
+      "pixels": [
+        764,
+        592
+      ],
+      "logical_size": [
+        382.0,
+        296.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/team/ai-handoff-to-inbox/intents-en.png",
+      "sha256": "58afbd5fd69c3e56c69b0cbfa41dd2e3c5946fa4884e1098436208e7237314d1",
+      "source_sha256": "58afbd5fd69c3e56c69b0cbfa41dd2e3c5946fa4884e1098436208e7237314d1",
+      "pixels": [
+        1256,
+        520
+      ],
+      "logical_size": [
+        628.0,
+        260.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/team/ai-handoff-to-inbox/intents-en-mobile.png",
+      "sha256": "574b86a078f6ac9efb168c67084d2b50a5187bfd67ab7cf72fc113197f739971",
+      "source_sha256": "574b86a078f6ac9efb168c67084d2b50a5187bfd67ab7cf72fc113197f739971",
+      "pixels": [
+        764,
+        544
+      ],
+      "logical_size": [
+        382.0,
+        272.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/captures/property-collector/handoff-es.png",
+      "sha256": "ef1c8abc4712dacc2effa83f6c968dd4a9453a5b1be059609a877a91e1693356",
+      "source_sha256": "ef1c8abc4712dacc2effa83f6c968dd4a9453a5b1be059609a877a91e1693356",
+      "pixels": [
+        1150,
+        660
+      ],
+      "logical_size": [
+        575.0,
+        330.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/captures/property-collector/handoff-en.png",
+      "sha256": "0c5506ceed87f6ed0c9e57a4969d80cee2dc41f04ab25b04969917ab3f3bdfe9",
+      "source_sha256": "0c5506ceed87f6ed0c9e57a4969d80cee2dc41f04ab25b04969917ab3f3bdfe9",
+      "pixels": [
+        1150,
+        660
+      ],
+      "logical_size": [
+        575.0,
+        330.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/captures/property-collector/handoff-es-mobile.png",
+      "sha256": "4f252e8b5d86ad772df8b7f979ae8d61de1970ff36f7110f5f1e0b1b5867b2cc",
+      "source_sha256": "4f252e8b5d86ad772df8b7f979ae8d61de1970ff36f7110f5f1e0b1b5867b2cc",
+      "pixels": [
+        780,
+        680
+      ],
+      "logical_size": [
+        390.0,
+        340.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/captures/property-collector/handoff-en-mobile.png",
+      "sha256": "97bad463814d7ec88c224ea32ccf6500c65c8eed86a39ef83cd8fba79d2f3793",
+      "source_sha256": "97bad463814d7ec88c224ea32ccf6500c65c8eed86a39ef83cd8fba79d2f3793",
+      "pixels": [
+        780,
+        680
+      ],
+      "logical_size": [
+        390.0,
+        340.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    }
+  ],
+  "browser": [
+    {
+      "locale": "es",
+      "device": "desktop",
+      "width_css": 1440,
+      "headings": 12,
+      "figures": 6,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    },
+    {
+      "locale": "es",
+      "device": "mobile",
+      "width_css": 390,
+      "headings": 12,
+      "figures": 6,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    },
+    {
+      "locale": "es",
+      "device": "narrow",
+      "width_css": 580,
+      "headings": 12,
+      "figures": 6,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    },
+    {
+      "locale": "en",
+      "device": "desktop",
+      "width_css": 1440,
+      "headings": 12,
+      "figures": 6,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    },
+    {
+      "locale": "en",
+      "device": "mobile",
+      "width_css": 390,
+      "headings": 12,
+      "figures": 6,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    },
+    {
+      "locale": "en",
+      "device": "narrow",
+      "width_css": 580,
+      "headings": 12,
+      "figures": 6,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    }
+  ],
+  "build": {
+    "command": "RBENV_VERSION=3.3.6 PATH=/Users/pel/.rbenv/shims:$PATH yarn build",
+    "exit_code": 0,
+    "production_bilingual_build": "passed",
+    "security_headers": "configured"
+  },
+  "publication_state": "Not yet publicly verified; protected PR and normal production verification pending."
+}

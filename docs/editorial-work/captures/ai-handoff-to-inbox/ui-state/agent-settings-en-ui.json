@@ -1,0 +1,1618 @@
+{
+  "url": "http://127.0.0.1:3192/hellotext/journeys/new?type=custom",
+  "title": "Craft a new Journey - Hellotext",
+  "locale": "en",
+  "viewport": [
+    1400,
+    750
+  ],
+  "dpr": 2,
+  "zoom": 1,
+  "scroll": [
+    0,
+    0
+  ],
+  "text": "Journey Begins\nChoose the trigger that will start this journey and, if applicable, which condition can initiate it.\nSelect\n\nConfigure entry policy\n\nConfigure restart policy\n\nFrom any channel\n\nConfirm\nCancel\nSteps\n\nDrag and drop the steps into the flow to construct your journey.\n\nCondition\n\nAI Agent\nSend a text message\nAsk a question\nAdd to property\nWait\nSEE MORE\nAI Agent\n\nChoose a playbook that handles this conversation.\n\nView playbooks\n\nAgent starts the conversation\n\nChoose whether the AI agent should send the first message, or wait for the customer to reply first.\n\nSend the first message\n\nWait for the customer to reply first\n\nLeave step if no answer in 6 hours\nSave changes\nCancel\nJourney Begins\nJourney Ends\n\nJourney Ends\n\nReturn to AI routing\n\nWhen this journey ends, the AI will decide which agent or playbook should respond next\n\nSave changes\nCancel\nJourney #2\nSave changes\nPublish",
+  "controls": [
+    {
+      "tag": "HEADER",
+      "id": "",
+      "popover": false,
+      "text": "Journey Begins",
+      "rect": [
+        897,
+        0,
+        503,
+        65
+      ]
+    },
+    {
+      "tag": "MAIN",
+      "id": "",
+      "popover": false,
+      "text": "Choose the trigger that will start this journey and, if applicable, which condition can initiate it.\nSelect\n\nConfigure entry policy\n\nConfigure restart policy\n\nFrom any channel",
+      "rect": [
+        897,
+        65,
+        503,
+        600
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "id": "popover_automation_trigger_",
+      "popover": false,
+      "text": "Select",
+      "action": "click@window->ui--popover#onClickOutside",
+      "rect": [
+        934,
+        158,
+        429,
+        42
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "id": "",
+      "popover": false,
+      "text": "Select",
+      "action": "click->ui--popover#toggle",
+      "rect": [
+        934,
+        158,
+        429,
+        42
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "id": "",
+      "popover": false,
+      "text": "Configure entry policy\n\nConfigure restart policy\n\nFrom any channel",
+      "rect": [
+        897,
+        237,
+        503,
+        220
+      ]
+    },
+    {
+      "tag": "DETAILS",
+      "id": "",
+      "popover": false,
+      "text": "Configure entry policy",
+      "name": "options",
+      "rect": [
+        897,
+        238,
+        503,
+        72
+      ]
+    },
+    {
+      "tag": "SUMMARY",
+      "id": "",
+      "popover": false,
+      "text": "Configure entry policy",
+      "rect": [
+        921,
+        262,
+        455,
+        24
+      ]
+    },
+    {
+      "tag": "INPUT",
+      "id": "journey_admission_policy_unlimited",
+      "popover": false,
+      "text": "",
+      "action": "change->journeys--pane#onAdmissionPolicyChange",
+      "name": "journey[admission_policy]",
+      "value": "unlimited",
+      "disabled": false,
+      "rect": [
+        921,
+        328,
+        20,
+        20
+      ]
+    },
+    {
+      "tag": "MAIN",
+      "id": "",
+      "popover": false,
+      "text": "",
+      "rect": [
+        949,
+        326,
+        275.4921875,
+        44
+      ]
+    },
+    {
+      "tag": "INPUT",
+      "id": "journey_admission_policy_once",
+      "popover": false,
+      "text": "",
+      "action": "change->journeys--pane#onAdmissionPolicyChange",
+      "name": "journey[admission_policy]",
+      "value": "once",
+      "disabled": false,
+      "rect": [
+        921,
+        388,
+        20,
+        20
+      ]
+    },
+    {
+      "tag": "MAIN",
+      "id": "",
+      "popover": false,
+      "text": "",
+      "rect": [
+        949,
+        386,
+        298.7890625,
+        44
+      ]
+    },
+    {
+      "tag": "INPUT",
+      "id": "journey_admission_policy_limited",
+      "popover": false,
+      "text": "",
+      "action": "change->journeys--pane#onAdmissionPolicyChange",
+      "name": "journey[admission_policy]",
+      "value": "limited",
+      "disabled": false,
+      "rect": [
+        921,
+        448,
+        20,
+        20
+      ]
+    },
+    {
+      "tag": "MAIN",
+      "id": "",
+      "popover": false,
+      "text": "",
+      "rect": [
+        949,
+        446,
+        427,
+        64
+      ]
+    },
+    {
+      "tag": "DETAILS",
+      "id": "",
+      "popover": false,
+      "text": "Configure restart policy",
+      "name": "options",
+      "rect": [
+        897,
+        310,
+        503,
+        73
+      ]
+    },
+    {
+      "tag": "SUMMARY",
+      "id": "",
+      "popover": false,
+      "text": "Configure restart policy",
+      "rect": [
+        921,
+        335,
+        455,
+        24
+      ]
+    },
+    {
+      "tag": "INPUT",
+      "id": "journey_restart_policy_restart",
+      "popover": false,
+      "text": "",
+      "name": "journey[restart_policy]",
+      "value": "restart",
+      "disabled": false,
+      "rect": [
+        921,
+        421,
+        20,
+        20
+      ]
+    },
+    {
+      "tag": "MAIN",
+      "id": "",
+      "popover": false,
+      "text": "",
+      "rect": [
+        949,
+        419,
+        427,
+        64
+      ]
+    },
+    {
+      "tag": "INPUT",
+      "id": "journey_restart_policy_none",
+      "popover": false,
+      "text": "",
+      "name": "journey[restart_policy]",
+      "value": "none",
+      "disabled": false,
+      "rect": [
+        921,
+        501,
+        20,
+        20
+      ]
+    },
+    {
+      "tag": "MAIN",
+      "id": "",
+      "popover": false,
+      "text": "",
+      "rect": [
+        949,
+        499,
+        427,
+        64
+      ]
+    },
+    {
+      "tag": "DETAILS",
+      "id": "",
+      "popover": false,
+      "text": "From any channel",
+      "name": "options",
+      "rect": [
+        897,
+        383,
+        503,
+        73
+      ]
+    },
+    {
+      "tag": "SUMMARY",
+      "id": "",
+      "popover": false,
+      "text": "From any channel",
+      "rect": [
+        921,
+        408,
+        455,
+        24
+      ]
+    },
+    {
+      "tag": "INPUT",
+      "id": "journey_technologies_",
+      "popover": false,
+      "text": "",
+      "action": "compose--technologies#onSendViaAllClick",
+      "name": "journey_technologies[]",
+      "value": "all",
+      "disabled": false,
+      "rect": [
+        921,
+        494,
+        20,
+        20
+      ]
+    },
+    {
+      "tag": "INPUT",
+      "id": "journey_technologies_",
+      "popover": false,
+      "text": "",
+      "action": "compose--technologies#onTechnologyClick",
+      "name": "journey_technologies[]",
+      "value": "2",
+      "disabled": true,
+      "rect": [
+        921,
+        530,
+        20,
+        20
+      ]
+    },
+    {
+      "tag": "INPUT",
+      "id": "journey_technologies_",
+      "popover": false,
+      "text": "",
+      "action": "compose--technologies#onTechnologyClick",
+      "name": "journey_technologies[]",
+      "value": "4",
+      "disabled": true,
+      "rect": [
+        921,
+        566,
+        20,
+        20
+      ]
+    },
+    {
+      "tag": "INPUT",
+      "id": "journey_technologies_",
+      "popover": false,
+      "text": "",
+      "action": "compose--technologies#onTechnologyClick",
+      "name": "journey_technologies[]",
+      "value": "8",
+      "disabled": true,
+      "rect": [
+        921,
+        602,
+        20,
+        20
+      ]
+    },
+    {
+      "tag": "FOOTER",
+      "id": "",
+      "popover": false,
+      "text": "Confirm\nCancel",
+      "rect": [
+        897,
+        665,
+        503,
+        69
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "popover": false,
+      "text": "Confirm",
+      "action": "click->journeys--pane#saveAndHide",
+      "name": "",
+      "value": "",
+      "disabled": true,
+      "rect": [
+        921,
+        682,
+        112.53125,
+        44
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "popover": false,
+      "text": "Cancel",
+      "action": "click->journeys--pane#cancel click->journeys--editor#removeActiveClass",
+      "name": "",
+      "value": "",
+      "disabled": false,
+      "rect": [
+        1041.53125,
+        682,
+        103.4296875,
+        44
+      ]
+    },
+    {
+      "tag": "HEADER",
+      "id": "",
+      "popover": false,
+      "text": "Steps\n\nDrag and drop the steps into the flow to construct your journey.",
+      "rect": [
+        49,
+        145,
+        254,
+        112
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "id": "8sSdXK_M-d",
+      "popover": false,
+      "text": "Condition",
+      "action": "click@window->ui--tooltip#onClickOutside",
+      "rect": [
+        49,
+        289,
+        254,
+        32
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "id": "",
+      "popover": false,
+      "text": "Condition",
+      "action": "mouseenter->ui--tooltip#show mouseleave->ui--tooltip#hide pointerdown->ui--tooltip#keep click->ui--tooltip#showImmediately",
+      "rect": [
+        49,
+        289,
+        254,
+        32
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "popover": false,
+      "text": "SEE MORE",
+      "action": "click->toggle#toggle click->journeys--editor#expand",
+      "name": "",
+      "value": "",
+      "disabled": false,
+      "rect": [
+        49,
+        579.5,
+        75.96875,
+        20
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "id": "step_62672dd55c1790868961_pane",
+      "popover": false,
+      "text": "AI Agent\n\nChoose a playbook that handles this conversation.\n\nView playbooks\n\nAgent starts the conversation\n\nChoose whether the AI agent should send the first message, or wait for the customer to reply first.\n\nSend the first message\n\nWait for the customer to reply first\n\nLeave step if no answer in 6 hours\nSave changes\nCancel",
+      "action": "keydown.esc@window->automation--agent-pane#closeByEscape automation--agent-action:set->automation--agent-pane#insertNewAction automation--agent:focus->automation--agent-pane#focus automation--typing-indicator:change->automation--agent-pane#onTypingIndicatorChange:stop click@window->automation--agent-pane#onClickOutside automation--property-collection:add->automation--agent-pane#addPropertyToCollect:stop",
+      "rect": [
+        896,
+        0,
+        504,
+        750
+      ]
+    },
+    {
+      "tag": "HEADER",
+      "id": "",
+      "popover": false,
+      "text": "AI Agent",
+      "rect": [
+        897,
+        0,
+        503,
+        73
+      ]
+    },
+    {
+      "tag": "MAIN",
+      "id": "",
+      "popover": false,
+      "text": "AI Agent",
+      "rect": [
+        977,
+        22,
+        399,
+        28
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "popover": false,
+      "text": "AI Agent",
+      "action": "click->step--name#edit",
+      "name": "",
+      "value": "",
+      "disabled": false,
+      "rect": [
+        977,
+        22,
+        96.484375,
+        28
+      ]
+    },
+    {
+      "tag": "MAIN",
+      "id": "",
+      "popover": false,
+      "text": "Choose a playbook that handles this conversation.\n\nView playbooks\n\nAgent starts the conversation\n\nChoose whether the AI agent should send the first message, or wait for the customer to reply first.\n\nSend the first message\n\nWait for the customer to reply first\n\nLeave step if no answer in 6 hours",
+      "rect": [
+        897,
+        73,
+        503,
+        592
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "id": "",
+      "popover": false,
+      "text": "Choose a playbook that handles this conversation.\n\nView playbooks",
+      "rect": [
+        897,
+        73,
+        503,
+        130
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "id": "2LXZkZhsOd",
+      "popover": false,
+      "text": "View playbooks",
+      "action": "click@window->ui--popover#onClickOutside",
+      "rect": [
+        921,
+        137,
+        455,
+        42
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "id": "",
+      "popover": false,
+      "text": "View playbooks",
+      "action": "click->ui--popover#toggle",
+      "rect": [
+        921,
+        137,
+        455,
+        42
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "id": "",
+      "popover": false,
+      "text": "Agent starts the conversation\n\nChoose whether the AI agent should send the first message, or wait for the customer to reply first.\n\nSend the first message\n\nWait for the customer to reply first\n\nLeave step if no answer in 6 hours",
+      "rect": [
+        897,
+        203,
+        503,
+        271
+      ]
+    },
+    {
+      "tag": "DETAILS",
+      "id": "",
+      "popover": false,
+      "text": "Agent starts the conversation\n\nChoose whether the AI agent should send the first message, or wait for the customer to reply first.\n\nSend the first message\n\nWait for the customer to reply first",
+      "name": "options",
+      "rect": [
+        897,
+        204,
+        503,
+        196
+      ]
+    },
+    {
+      "tag": "SUMMARY",
+      "id": "",
+      "popover": false,
+      "text": "Agent starts the conversation",
+      "rect": [
+        921,
+        228,
+        455,
+        24
+      ]
+    },
+    {
+      "tag": "INPUT",
+      "id": "step_62672dd55c1790868961_takeover_protocol_immediate",
+      "popover": false,
+      "text": "",
+      "action": "input->automation--agent-pane#onTakeoverProtocolChange",
+      "name": "step_62672dd55c1790868961[takeover_protocol]",
+      "value": "immediate",
+      "disabled": false,
+      "rect": [
+        921,
+        314,
+        20,
+        20
+      ]
+    },
+    {
+      "tag": "INPUT",
+      "id": "step_62672dd55c1790868961_takeover_protocol_await",
+      "popover": false,
+      "text": "",
+      "action": "input->automation--agent-pane#onTakeoverProtocolChange",
+      "name": "step_62672dd55c1790868961[takeover_protocol]",
+      "value": "await",
+      "disabled": false,
+      "rect": [
+        921,
+        354,
+        20,
+        20
+      ]
+    },
+    {
+      "tag": "DETAILS",
+      "id": "",
+      "popover": false,
+      "text": "Leave step if no answer in 6 hours",
+      "action": "periodicity-select:value-changed->automation--wait#onGracePeriodIntervalChange:stop automation--wait:change->automation--agent-pane#onWaitChange:stop",
+      "name": "options",
+      "rect": [
+        897,
+        400,
+        503,
+        73
+      ]
+    },
+    {
+      "tag": "SUMMARY",
+      "id": "",
+      "popover": false,
+      "text": "Leave step if no answer in 6 hours",
+      "rect": [
+        921,
+        425,
+        455,
+        24
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "id": "",
+      "popover": false,
+      "text": "",
+      "rect": [
+        921,
+        489,
+        455,
+        42
+      ]
+    },
+    {
+      "tag": "INPUT",
+      "id": "step_62672dd55c1790868961_wait_value",
+      "popover": false,
+      "text": "",
+      "action": "input->automation--wait#onValueChange",
+      "name": "step_62672dd55c1790868961[wait][value]",
+      "value": "6",
+      "disabled": false,
+      "rect": [
+        921,
+        489,
+        80,
+        42
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "id": "mtc2V3jGpX",
+      "popover": false,
+      "text": "",
+      "action": "click@window->ui--popover#onClickOutside periodicity-select:select->hidden-select#select",
+      "rect": [
+        1009,
+        489,
+        93.5234375,
+        42
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "id": "",
+      "popover": false,
+      "text": "",
+      "action": "click->ui--popover#toggle",
+      "rect": [
+        1009,
+        489,
+        93.5234375,
+        42
+      ]
+    },
+    {
+      "tag": "FOOTER",
+      "id": "",
+      "popover": false,
+      "text": "Save changes\nCancel",
+      "rect": [
+        897,
+        665,
+        503,
+        69
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "popover": false,
+      "text": "Save changes",
+      "action": "click->automation--agent-pane#save",
+      "name": "",
+      "value": "",
+      "disabled": true,
+      "rect": [
+        921,
+        682,
+        158.359375,
+        44
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "popover": false,
+      "text": "Cancel",
+      "action": "click->automation--agent-pane#requestPaneClose",
+      "name": "",
+      "value": "",
+      "disabled": false,
+      "rect": [
+        1103.359375,
+        682,
+        55.4296875,
+        44
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "id": "journeys--editor_trigger",
+      "popover": false,
+      "text": "",
+      "action": "click->journeys--editor#togglePane:stop",
+      "name": "button",
+      "value": "",
+      "disabled": false,
+      "rect": [
+        680,
+        148,
+        40,
+        40
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "popover": false,
+      "text": "",
+      "action": "automation--end#togglePane:stop",
+      "name": "",
+      "value": "",
+      "disabled": false,
+      "rect": [
+        679,
+        400,
+        42,
+        42
+      ]
+    },
+    {
+      "tag": "HEADER",
+      "id": "header",
+      "popover": false,
+      "text": "Journey #2\nSave changes\nPublish",
+      "action": "mouseenter->journeys--editor#disablePanning mouseleave->journeys--editor#enablePanning",
+      "rect": [
+        0,
+        0,
+        1400,
+        77
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "popover": false,
+      "text": "Journey #2",
+      "action": "click->toggle#toggle click->journeys--name#focusInput",
+      "name": "",
+      "value": "",
+      "disabled": false,
+      "rect": [
+        109,
+        24,
+        138.8359375,
+        28
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "popover": false,
+      "text": "Save changes",
+      "action": "input->journeys--editor#setUnsavedChangesToFalse",
+      "name": "commit",
+      "value": "save changes",
+      "disabled": false,
+      "rect": [
+        1095.65625,
+        16,
+        158.359375,
+        44
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "id": "submit-button",
+      "popover": false,
+      "text": "Publish",
+      "action": "input->journeys--editor#setUnsavedChangesToFalse",
+      "name": "commit",
+      "value": "publish",
+      "disabled": false,
+      "rect": [
+        1270.015625,
+        16,
+        105.984375,
+        44
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "popover": false,
+      "text": "",
+      "action": "click->journeys--editor#zoomOut",
+      "name": "",
+      "value": "",
+      "disabled": false,
+      "rect": [
+        17,
+        693,
+        48,
+        40
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "popover": false,
+      "text": "",
+      "action": "click->journeys--editor#zoomIn",
+      "name": "",
+      "value": "",
+      "disabled": true,
+      "rect": [
+        66,
+        693,
+        48,
+        40
+      ]
+    }
+  ],
+  "requests": [
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/hellotext/journeys/new?type=custom"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@vite/client"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/entrypoints/automations.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/translations/en/4897dbef0c51a33e9715bce192b75b617c6159a3.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/@hotwired_turbo-rails.js?v=2eb3672c"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/turbo___power.js?v=2eb3672c"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/@hotwired_stimulus.js?v=2eb3672c"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/@rails_activestorage.js?v=2eb3672c"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/trix.js?v=d3214812"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/entrypoints/application/push_notifications.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/entrypoints/application/pane_viewport.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/entrypoints/stylesheets/application.scss"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/mount_components.jsx"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/models/event_queue.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/settings/template_preview_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/tabs_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/toggle_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-editorial-screenshots-static/node_modules/vite/dist/client/env.mjs"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/rolldown-runtime-B-lAHAz2.js?v=a41ca255"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/@hotwired_turbo.js?v=26a24a72"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/@rails_request__js.js?v=9ea441b1"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/tailwindcss-stimulus-components.js?v=06ca2823"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/application_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/react.js?v=7b05a09b"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/react-dom_client.js?v=54e746b1"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/chart/index.jsx"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/date_picker/index.jsx"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/report/index.jsx"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/lib/random_uuid.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/chart/area_gradient.jsx"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/chart/horizontal_bar_distribution/index.jsx"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/chart/line_multiple.jsx"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/chart/pie_separator_none.jsx"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/chart/segmented_bar.jsx"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/chart/vertical_bar_distribution/index.jsx"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/report/chart.jsx"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/date_picker/date_picker.jsx"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/react-dom-IPwAU7Wf.js?v=a41ca255"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/report/empty_state.jsx"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/report/card.jsx"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/lib/utils.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/chart/horizontal_bar_distribution/bar.jsx"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/chart/horizontal_bar_distribution/limit_items.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=92597107"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/lucide-react.js?v=697fb61e"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/recharts.js?v=37251d97"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/ui/card.jsx"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/ui/section-header.jsx"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/ui/chart.jsx"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/report/palette.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/chart/recent_results_reference.jsx"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/chart/use_resize_aware_animation.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/report/legend.jsx"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/ui/tooltip.jsx"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/date-fns.js?v=0b0c3d0c"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/lib/events/contracts.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/hooks/use_bridge_event.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/report/breakdown_legend.jsx"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/report/breakdown_options_popover.jsx"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/report/breakdown_popover.jsx"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/report/breakdown_series_query.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/report/chart_bucket_label.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/report/chart_legend.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/report/chart_payload.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/report/chart_render_key.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/report/chart_state.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/report/chart_variant.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/report/metric_selection.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/report/recent_results.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/report/report_query.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/chart/vertical_bar_distribution/axis_padding.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/chart/vertical_bar_distribution/bar_tooltip.jsx"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/chart/vertical_bar_distribution/label_styles.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/chart/vertical_bar_distribution/tick_label.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/lib/events/bridge.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/lib/report/range_url.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/date_picker/button.jsx"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/date_picker/range_utils.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/chart/horizontal_bar_distribution/bar_styles.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/ui/button.jsx"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/clsx.js?v=50e7deee"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/tailwind-merge.js?v=93b9a59d"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/isSameWeek-BMR6iY6S.js?v=a41ca255"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/ui/chart_tooltip.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/@radix-ui_react-slot.js?v=ca6d06ce"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/chart/truncate_label.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/report/breakdown_label.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/report/select.jsx"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/ui/dropdown/index.jsx"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/report/breakdown_popover_items.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/ui/popover.jsx"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/date_picker/popover_content.jsx"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/date_picker/info_tooltip.jsx"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/class-variance-authority.js?v=f2e87263"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/lib/number_formatter.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/ui/dropdown/list.jsx"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/ui/dropdown/item.jsx"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/ui/select-trigger.jsx"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/date-fns_locale.js?v=6bec10b3"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/ui/calendar.jsx"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/date_picker/preset_button.jsx"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/date_picker/date_input_picker.jsx"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/dompurify.js?v=3cf09db2"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/react-day-picker.js?v=18e36e8d"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/journey/editor_flow.jsx"
+    },
+    {
+      "method": "GET",
+      "url": "data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M8%2010L12%2014L16%2010'%20stroke='currentColor'%20stroke-width='currentStroke'%20stroke-linecap='round'/%3e%3c/svg%3e"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/app/assets/fonts/PPObjectSans-Medium.woff2"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/app/assets/fonts/PPObjectSans-Regular.woff2"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/app/assets/fonts/BagossExtended-Medium.woff2"
+    },
+    {
+      "method": "GET",
+      "url": "data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3ccircle cx='8' cy='8' r='3'/%3e%3c/svg%3e"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/journeys/editor_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/modal_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/user/online_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/toast_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/form/no_enter_submit_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/journeys/pane_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/hidden_select_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/automation/trigger_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/automation/condition_pane_branch_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/ui/popover_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/automation/trigger_channel_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/automation/rule_condition_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/custom_dropdown_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/util/number_input_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/periodicity_select_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/compose/technologies_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/journeys/steps_menu_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/ui/tooltip_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/journeys/step_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/journeys/dropzone_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/automation/end_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/automation/end_pane_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/connected_dispatcher_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/journeys/name_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/journey/editor_flow_graph.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/journey/editor_flow_state_cache.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/journey/editor_flow_handoff.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/journey/editor_flow_render_state.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/journeys/canvas_drop_targeting.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/react/components/journey/editor_flow.css"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/pane_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/lottie-web.js?v=0e91dba8"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/channels/consumer.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/models/current.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/utils/filter_validation.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/journeys/line_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/models/sentence.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/@floating-ui_dom.js?v=f2a2bcb0"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/keyboard_navigation_mixin.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/popup/dropdown_highlight_styles.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/lib/safe_dom.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/interactjs.js?v=3b9d5be4"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/mixins/useToastNotifiers.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/mixins/useMoveCursorToEndOfInput.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/mixins/useAutoWidthInput.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/automation/condition_section_inputs.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/hellotext/journeys/new"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/compose/models/index.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/dropdown_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/concerns/closable_pane.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/@rails_actioncable.js?v=1e575282"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/models/browser.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/@jsplumb_browser-ui.js?v=6777d13a"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/models/jsplumb.js"
+    },
+    {
+      "method": "GET",
+      "url": "data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3e%3c/svg%3e"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/animations/toast-success-confetti.json"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/compose/models/cursor.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/compose/models/piece.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/compose/models/character.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/compose/models/links_manager.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/compose/models/tags_manager.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/compose/models/mentions_manager.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/compose/models/liquid/index.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/compose/models/attachment_manager.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/compose/models/liquid/parser.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/compose/models/liquid/token.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/compose/models/liquid/stack.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/compose/models/liquid/tag.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/hellotext/automation/agents/new?after=start_dropzone"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/automation/agent_pane_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/step/name_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/automation/wait_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/automation/typing_indicator_controller.js"
+    }
+  ],
+  "guard": {
+    "pid": 57358,
+    "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+    "port": 9460,
+    "account": "design-system@example.test",
+    "single_local_page": true,
+    "color": "display-p3-d65"
+  }
+}

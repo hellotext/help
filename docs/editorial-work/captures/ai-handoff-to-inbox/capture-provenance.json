@@ -1,0 +1,1818 @@
+{
+  "status": "locally_verified",
+  "base_revision": "ad6d6455d0671cda042dc5ef184f73c86d64f8fb",
+  "originals": [
+    {
+      "article": "_i18n/es/team/ai-handoff-to-inbox.md",
+      "snapshot": "docs/editorial-work/captures/ai-handoff-to-inbox/originals/es.md",
+      "sha256": "ef2800badb855d56c3ff9c415ec8e0bcb551c6a6c067b2d4a24e9ae153a9573d",
+      "headings": [
+        "## Cómo funciona la derivación",
+        "### Derivación en misiones",
+        "### Step de Assignment en rutas",
+        "### Step de AI agent en una ruta",
+        "### Misiones personalizadas e intenciones",
+        "## Cuándo Hellotext debería derivar",
+        "## Qué configurar antes de lanzar",
+        "## Qué debería mostrar el Inbox",
+        "## Prueba el camino de derivación",
+        "## Qué debería hacer el equipo después de la derivación",
+        "## Revisa la calidad de derivaciones",
+        "## Guías relacionadas"
+      ],
+      "links": [
+        "_journeys/custom-agent-playbook.md",
+        "_journeys/order-update-playbook.md",
+        "_journeys/custom-agent-playbook.md",
+        "_journeys/how-to-write-a-great-prompt.md",
+        "_analytics-reporting-attribution/sales-attribution.md",
+        "_team/inbox-overview.md",
+        "_team/assigning-conversations.md",
+        "_team/teams-and-inbox-capacity.md",
+        "_team/understanding-response-times.md",
+        "_getting-started/how-hellotext-works.md",
+        "_journeys/order-update-playbook.md",
+        "_journeys/review-builder-playbook.md",
+        "_journeys/csat-pulse-playbook.md",
+        "_journeys/nps-pulse-playbook.md",
+        "_journeys/order-cancellation-assistant-playbook.md",
+        "_journeys/custom-agent-playbook.md",
+        "_journeys/how-to-write-a-great-prompt.md",
+        "_getting-started/go-live-checklist.md"
+      ]
+    },
+    {
+      "article": "_i18n/en/team/ai-handoff-to-inbox.md",
+      "snapshot": "docs/editorial-work/captures/ai-handoff-to-inbox/originals/en.md",
+      "sha256": "d88be9f9e88b7950efe6be8759489a3974d5dc9939148e23e18feb56acd8b267",
+      "headings": [
+        "## How handoff works",
+        "### Playbook escalation",
+        "### Journey assignment step",
+        "### AI agent step in a journey",
+        "### Custom playbooks and intents",
+        "## When Hellotext should escalate",
+        "## What to configure before launch",
+        "## What the Inbox should show",
+        "## Test the handoff path",
+        "## What teammates should do after handoff",
+        "## Review handoff quality",
+        "## Related guides"
+      ],
+      "links": [
+        "_journeys/custom-agent-playbook.md",
+        "_journeys/order-update-playbook.md",
+        "_journeys/custom-agent-playbook.md",
+        "_journeys/how-to-write-a-great-prompt.md",
+        "_analytics-reporting-attribution/sales-attribution.md",
+        "_team/inbox-overview.md",
+        "_team/assigning-conversations.md",
+        "_team/teams-and-inbox-capacity.md",
+        "_team/understanding-response-times.md",
+        "_getting-started/how-hellotext-works.md",
+        "_journeys/order-update-playbook.md",
+        "_journeys/review-builder-playbook.md",
+        "_journeys/csat-pulse-playbook.md",
+        "_journeys/nps-pulse-playbook.md",
+        "_journeys/order-cancellation-assistant-playbook.md",
+        "_journeys/custom-agent-playbook.md",
+        "_journeys/how-to-write-a-great-prompt.md",
+        "_getting-started/go-live-checklist.md"
+      ]
+    },
+    {
+      "article": "_team/ai-handoff-to-inbox.md",
+      "snapshot": "docs/editorial-work/captures/ai-handoff-to-inbox/originals/stub.md",
+      "sha256": "700999e3ed69a53f1559d92338c849a532ebea713c06725cee4bf8bbece9e0df",
+      "headings": [],
+      "links": []
+    }
+  ],
+  "images": [
+    {
+      "concept": "assignment",
+      "locale": "es",
+      "mobile": false,
+      "published_asset": "images/team/ai-handoff-to-inbox/assignment-es.png",
+      "sha256": "db457b25763dd6a25ab63f08d9458bad3dda3f8b94742fcea626cb0b7773d91b",
+      "pixels": [
+        1006,
+        1300
+      ],
+      "logical_size": [
+        503.0,
+        650.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/assignment-es-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/assignment-es-original.png",
+        "sha256": "db457b25763dd6a25ab63f08d9458bad3dda3f8b94742fcea626cb0b7773d91b",
+        "url": "http://127.0.0.1:3192/hellotext/journeys/new?type=custom",
+        "locale": "es",
+        "cssViewport": [
+          1400,
+          650
+        ],
+        "browserDpr": 2,
+        "clip": [
+          897,
+          0,
+          503,
+          650
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1006,
+          1300
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/journeys/new?type=custom",
+        "title": "Crea una nueva ruta - Hellotext",
+        "locale": "es",
+        "viewport": [
+          1400,
+          650
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "derived_crop": null,
+      "reused": false,
+      "new_capture": true
+    },
+    {
+      "concept": "assignment",
+      "locale": "es",
+      "mobile": true,
+      "published_asset": "images/team/ai-handoff-to-inbox/assignment-es-mobile.png",
+      "sha256": "76be7e894a13a02c072086a6084ab1e38ceb5520a0f4518026ec9ab805797dcf",
+      "pixels": [
+        778,
+        1300
+      ],
+      "logical_size": [
+        389.0,
+        650.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/assignment-es-mobile-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/assignment-es-mobile-original.png",
+        "sha256": "76be7e894a13a02c072086a6084ab1e38ceb5520a0f4518026ec9ab805797dcf",
+        "url": "http://127.0.0.1:3192/hellotext/journeys/new?type=custom",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          650
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1,
+          0,
+          389,
+          650
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          778,
+          1300
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/journeys/new?type=custom",
+        "title": "Crea una nueva ruta - Hellotext",
+        "locale": "es",
+        "viewport": [
+          390,
+          650
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "derived_crop": null,
+      "reused": false,
+      "new_capture": true
+    },
+    {
+      "concept": "target",
+      "locale": "es",
+      "mobile": false,
+      "published_asset": "images/team/ai-handoff-to-inbox/target-es.png",
+      "sha256": "6195d0e9f7ec0f1ce637b1664ea544a8154dfa90808ad6d1f908715b88a6762e",
+      "pixels": [
+        1006,
+        840
+      ],
+      "logical_size": [
+        503.0,
+        420.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/target-es-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/target-es-original.png",
+        "sha256": "6195d0e9f7ec0f1ce637b1664ea544a8154dfa90808ad6d1f908715b88a6762e",
+        "url": "http://127.0.0.1:3192/hellotext/journeys/new?type=custom",
+        "locale": "es",
+        "cssViewport": [
+          1400,
+          420
+        ],
+        "browserDpr": 2,
+        "clip": [
+          897,
+          0,
+          503,
+          420
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1006,
+          840
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/journeys/new?type=custom",
+        "title": "Crea una nueva ruta - Hellotext",
+        "locale": "es",
+        "viewport": [
+          1400,
+          420
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "derived_crop": null,
+      "reused": false,
+      "new_capture": true
+    },
+    {
+      "concept": "target",
+      "locale": "es",
+      "mobile": true,
+      "published_asset": "images/team/ai-handoff-to-inbox/target-es-mobile.png",
+      "sha256": "e53e11a64f7baf5c3f4f6de277b7864d6c2db4f8fef760dd59f0971af88fb77b",
+      "pixels": [
+        778,
+        840
+      ],
+      "logical_size": [
+        389.0,
+        420.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/target-es-mobile-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/target-es-mobile-original.png",
+        "sha256": "e53e11a64f7baf5c3f4f6de277b7864d6c2db4f8fef760dd59f0971af88fb77b",
+        "url": "http://127.0.0.1:3192/hellotext/journeys/new?type=custom",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          420
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1,
+          0,
+          389,
+          420
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          778,
+          840
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/journeys/new?type=custom",
+        "title": "Crea una nueva ruta - Hellotext",
+        "locale": "es",
+        "viewport": [
+          390,
+          420
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "derived_crop": null,
+      "reused": false,
+      "new_capture": true
+    },
+    {
+      "concept": "agent-settings",
+      "locale": "es",
+      "mobile": false,
+      "published_asset": "images/team/ai-handoff-to-inbox/agent-settings-es.png",
+      "sha256": "7bced6a1d8fc61f6dbd4a0aaa3fddb3187a4e3218460b4213e22752cb1165f43",
+      "pixels": [
+        1006,
+        1500
+      ],
+      "logical_size": [
+        503.0,
+        750.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/agent-settings-es-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/agent-settings-es-original.png",
+        "sha256": "7bced6a1d8fc61f6dbd4a0aaa3fddb3187a4e3218460b4213e22752cb1165f43",
+        "url": "http://127.0.0.1:3192/hellotext/journeys/new?type=custom",
+        "locale": "es",
+        "cssViewport": [
+          1400,
+          750
+        ],
+        "browserDpr": 2,
+        "clip": [
+          897,
+          0,
+          503,
+          750
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1006,
+          1500
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/journeys/new?type=custom",
+        "title": "Crea una nueva ruta - Hellotext",
+        "locale": "es",
+        "viewport": [
+          1400,
+          750
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "derived_crop": null,
+      "reused": false,
+      "new_capture": true
+    },
+    {
+      "concept": "agent-settings",
+      "locale": "es",
+      "mobile": true,
+      "published_asset": "images/team/ai-handoff-to-inbox/agent-settings-es-mobile.png",
+      "sha256": "fd77915787046f2c099249fd9c6e966ec8ba7a9f98e04b031dc1e6865b2a2fba",
+      "pixels": [
+        778,
+        1500
+      ],
+      "logical_size": [
+        389.0,
+        750.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/agent-settings-es-mobile-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/agent-settings-es-mobile-original.png",
+        "sha256": "fd77915787046f2c099249fd9c6e966ec8ba7a9f98e04b031dc1e6865b2a2fba",
+        "url": "http://127.0.0.1:3192/hellotext/journeys/new?type=custom",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          750
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1,
+          0,
+          389,
+          750
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          778,
+          1500
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/journeys/new?type=custom",
+        "title": "Crea una nueva ruta - Hellotext",
+        "locale": "es",
+        "viewport": [
+          390,
+          750
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "derived_crop": null,
+      "reused": false,
+      "new_capture": true
+    },
+    {
+      "concept": "agent-empty",
+      "locale": "es",
+      "mobile": false,
+      "published_asset": "images/team/ai-handoff-to-inbox/agent-empty-es.png",
+      "sha256": "d8cf696965000520de025035d19df3730028b06f7d663b5fa2d6a9ecfb54d857",
+      "pixels": [
+        878,
+        252
+      ],
+      "logical_size": [
+        439.0,
+        126.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/agent-empty-es-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/agent-empty-es-original.png",
+        "sha256": "60ae3d51fa4625dad42f84778139cff1967e3bf85c902308beb21e9dfdcd322f",
+        "url": "http://127.0.0.1:3192/hellotext/journeys/new?type=custom",
+        "locale": "es",
+        "cssViewport": [
+          1400,
+          750
+        ],
+        "browserDpr": 2,
+        "clip": [
+          921,
+          184,
+          455,
+          142
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          910,
+          284
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/journeys/new?type=custom",
+        "title": "Crea una nueva ruta - Hellotext",
+        "locale": "es",
+        "viewport": [
+          1400,
+          750
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "derived_crop": {
+        "name": "agent-empty-es",
+        "source": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/agent-empty-es-original.png",
+        "derivative": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/agent-empty-es-focus.png",
+        "crop_pixels": [
+          16,
+          16,
+          878,
+          252
+        ],
+        "pixelSize": [
+          878,
+          252
+        ],
+        "sha256": "d8cf696965000520de025035d19df3730028b06f7d663b5fa2d6a9ecfb54d857",
+        "parent_sha256": "60ae3d51fa4625dad42f84778139cff1967e3bf85c902308beb21e9dfdcd322f",
+        "operation": "Lossless focused crop of the native popup contents; no resizing or pixel edits; identical crop pixels and ICC."
+      },
+      "reused": false,
+      "new_capture": true
+    },
+    {
+      "concept": "agent-empty",
+      "locale": "es",
+      "mobile": true,
+      "published_asset": "images/team/ai-handoff-to-inbox/agent-empty-es-mobile.png",
+      "sha256": "dc500bbb1b168c8094f02b50d014c247b3ecf12d43412f5b72794988cc261570",
+      "pixels": [
+        650,
+        292
+      ],
+      "logical_size": [
+        325.0,
+        146.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/agent-empty-es-mobile-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/agent-empty-es-mobile-original.png",
+        "sha256": "3f509486659629de93df3710c48aac917388ed4f742278a556d07679dc96a8d2",
+        "url": "http://127.0.0.1:3192/hellotext/journeys/new?type=custom",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          750
+        ],
+        "browserDpr": 2,
+        "clip": [
+          25,
+          208,
+          341,
+          162
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          682,
+          324
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/journeys/new?type=custom",
+        "title": "Crea una nueva ruta - Hellotext",
+        "locale": "es",
+        "viewport": [
+          390,
+          750
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "derived_crop": {
+        "name": "agent-empty-es-mobile",
+        "source": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/agent-empty-es-mobile-original.png",
+        "derivative": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/agent-empty-es-mobile-focus.png",
+        "crop_pixels": [
+          16,
+          16,
+          650,
+          292
+        ],
+        "pixelSize": [
+          650,
+          292
+        ],
+        "sha256": "dc500bbb1b168c8094f02b50d014c247b3ecf12d43412f5b72794988cc261570",
+        "parent_sha256": "3f509486659629de93df3710c48aac917388ed4f742278a556d07679dc96a8d2",
+        "operation": "Lossless focused crop of the native popup contents; no resizing or pixel edits; identical crop pixels and ICC."
+      },
+      "reused": false,
+      "new_capture": true
+    },
+    {
+      "concept": "assignment",
+      "locale": "en",
+      "mobile": false,
+      "published_asset": "images/team/ai-handoff-to-inbox/assignment-en.png",
+      "sha256": "8dbe38274d6b7b6754262c448dd149be8174cd1922b7a81e6420299a62d5673a",
+      "pixels": [
+        1006,
+        1300
+      ],
+      "logical_size": [
+        503.0,
+        650.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/assignment-en-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/assignment-en-original.png",
+        "sha256": "8dbe38274d6b7b6754262c448dd149be8174cd1922b7a81e6420299a62d5673a",
+        "url": "http://127.0.0.1:3192/hellotext/journeys/new?type=custom",
+        "locale": "en",
+        "cssViewport": [
+          1400,
+          650
+        ],
+        "browserDpr": 2,
+        "clip": [
+          897,
+          0,
+          503,
+          650
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1006,
+          1300
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/journeys/new?type=custom",
+        "title": "Craft a new Journey - Hellotext",
+        "locale": "en",
+        "viewport": [
+          1400,
+          650
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "derived_crop": null,
+      "reused": false,
+      "new_capture": true
+    },
+    {
+      "concept": "assignment",
+      "locale": "en",
+      "mobile": true,
+      "published_asset": "images/team/ai-handoff-to-inbox/assignment-en-mobile.png",
+      "sha256": "859f3b87ad11fea2952c91df5a0d57e3d833b3b7acfa033094283d223a7573ef",
+      "pixels": [
+        778,
+        1300
+      ],
+      "logical_size": [
+        389.0,
+        650.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/assignment-en-mobile-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/assignment-en-mobile-original.png",
+        "sha256": "859f3b87ad11fea2952c91df5a0d57e3d833b3b7acfa033094283d223a7573ef",
+        "url": "http://127.0.0.1:3192/hellotext/journeys/new?type=custom",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          650
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1,
+          0,
+          389,
+          650
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          778,
+          1300
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/journeys/new?type=custom",
+        "title": "Craft a new Journey - Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          650
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "derived_crop": null,
+      "reused": false,
+      "new_capture": true
+    },
+    {
+      "concept": "target",
+      "locale": "en",
+      "mobile": false,
+      "published_asset": "images/team/ai-handoff-to-inbox/target-en.png",
+      "sha256": "fe6b4195211e5bad0d156f58bc3dd755daf03c316f54b7bb4b95c817d149079c",
+      "pixels": [
+        1006,
+        840
+      ],
+      "logical_size": [
+        503.0,
+        420.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/target-en-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/target-en-original.png",
+        "sha256": "fe6b4195211e5bad0d156f58bc3dd755daf03c316f54b7bb4b95c817d149079c",
+        "url": "http://127.0.0.1:3192/hellotext/journeys/new?type=custom",
+        "locale": "en",
+        "cssViewport": [
+          1400,
+          420
+        ],
+        "browserDpr": 2,
+        "clip": [
+          897,
+          0,
+          503,
+          420
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1006,
+          840
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/journeys/new?type=custom",
+        "title": "Craft a new Journey - Hellotext",
+        "locale": "en",
+        "viewport": [
+          1400,
+          420
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "derived_crop": null,
+      "reused": false,
+      "new_capture": true
+    },
+    {
+      "concept": "target",
+      "locale": "en",
+      "mobile": true,
+      "published_asset": "images/team/ai-handoff-to-inbox/target-en-mobile.png",
+      "sha256": "dc950591ae4a4e42f6bbe0ace904f21ad79035b557aaa7c2e9557dfd6fed1002",
+      "pixels": [
+        778,
+        840
+      ],
+      "logical_size": [
+        389.0,
+        420.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/target-en-mobile-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/target-en-mobile-original.png",
+        "sha256": "dc950591ae4a4e42f6bbe0ace904f21ad79035b557aaa7c2e9557dfd6fed1002",
+        "url": "http://127.0.0.1:3192/hellotext/journeys/new?type=custom",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          420
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1,
+          0,
+          389,
+          420
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          778,
+          840
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/journeys/new?type=custom",
+        "title": "Craft a new Journey - Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          420
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "derived_crop": null,
+      "reused": false,
+      "new_capture": true
+    },
+    {
+      "concept": "agent-settings",
+      "locale": "en",
+      "mobile": false,
+      "published_asset": "images/team/ai-handoff-to-inbox/agent-settings-en.png",
+      "sha256": "a9f29204bde17391f0b59b8732cddbd0ecff1b778c288c7abb28aaa74ed17fcd",
+      "pixels": [
+        1006,
+        1500
+      ],
+      "logical_size": [
+        503.0,
+        750.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/agent-settings-en-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/agent-settings-en-original.png",
+        "sha256": "a9f29204bde17391f0b59b8732cddbd0ecff1b778c288c7abb28aaa74ed17fcd",
+        "url": "http://127.0.0.1:3192/hellotext/journeys/new?type=custom",
+        "locale": "en",
+        "cssViewport": [
+          1400,
+          750
+        ],
+        "browserDpr": 2,
+        "clip": [
+          897,
+          0,
+          503,
+          750
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1006,
+          1500
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/journeys/new?type=custom",
+        "title": "Craft a new Journey - Hellotext",
+        "locale": "en",
+        "viewport": [
+          1400,
+          750
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "derived_crop": null,
+      "reused": false,
+      "new_capture": true
+    },
+    {
+      "concept": "agent-settings",
+      "locale": "en",
+      "mobile": true,
+      "published_asset": "images/team/ai-handoff-to-inbox/agent-settings-en-mobile.png",
+      "sha256": "56684725426270e650bf0e189d2292a5a85e4ee6d5ae7b9db3e138b2e317c2dd",
+      "pixels": [
+        778,
+        1500
+      ],
+      "logical_size": [
+        389.0,
+        750.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/agent-settings-en-mobile-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/agent-settings-en-mobile-original.png",
+        "sha256": "56684725426270e650bf0e189d2292a5a85e4ee6d5ae7b9db3e138b2e317c2dd",
+        "url": "http://127.0.0.1:3192/hellotext/journeys/new?type=custom",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          750
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1,
+          0,
+          389,
+          750
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          778,
+          1500
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/journeys/new?type=custom",
+        "title": "Craft a new Journey - Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          750
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "derived_crop": null,
+      "reused": false,
+      "new_capture": true
+    },
+    {
+      "concept": "agent-empty",
+      "locale": "en",
+      "mobile": false,
+      "published_asset": "images/team/ai-handoff-to-inbox/agent-empty-en.png",
+      "sha256": "1434fe9a50cb0f62cd8c05f3a67ec8e37a0728dd4ed6852e7bedef5e170504c0",
+      "pixels": [
+        878,
+        252
+      ],
+      "logical_size": [
+        439.0,
+        126.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/agent-empty-en-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/agent-empty-en-original.png",
+        "sha256": "684fe18ff334026dfca135e6dd2f1cc9abf920fea5e1d11001a053534d113dac",
+        "url": "http://127.0.0.1:3192/hellotext/journeys/new?type=custom",
+        "locale": "en",
+        "cssViewport": [
+          1400,
+          750
+        ],
+        "browserDpr": 2,
+        "clip": [
+          921,
+          184,
+          455,
+          142
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          910,
+          284
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/journeys/new?type=custom",
+        "title": "Craft a new Journey - Hellotext",
+        "locale": "en",
+        "viewport": [
+          1400,
+          750
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "derived_crop": {
+        "name": "agent-empty-en",
+        "source": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/agent-empty-en-original.png",
+        "derivative": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/agent-empty-en-focus.png",
+        "crop_pixels": [
+          16,
+          16,
+          878,
+          252
+        ],
+        "pixelSize": [
+          878,
+          252
+        ],
+        "sha256": "1434fe9a50cb0f62cd8c05f3a67ec8e37a0728dd4ed6852e7bedef5e170504c0",
+        "parent_sha256": "684fe18ff334026dfca135e6dd2f1cc9abf920fea5e1d11001a053534d113dac",
+        "operation": "Lossless focused crop of the native popup contents; no resizing or pixel edits; identical crop pixels and ICC."
+      },
+      "reused": false,
+      "new_capture": true
+    },
+    {
+      "concept": "agent-empty",
+      "locale": "en",
+      "mobile": true,
+      "published_asset": "images/team/ai-handoff-to-inbox/agent-empty-en-mobile.png",
+      "sha256": "7bcfaabe7cb8427f4ea18e069a27cf932dd1b66fa52be1247e945b5942a42e2c",
+      "pixels": [
+        650,
+        252
+      ],
+      "logical_size": [
+        325.0,
+        126.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/agent-empty-en-mobile-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/agent-empty-en-mobile-original.png",
+        "sha256": "4e807eaa5a3a511e9e7515ecb1947eb412ef4dbe65be66d8421d477eba7e181b",
+        "url": "http://127.0.0.1:3192/hellotext/journeys/new?type=custom",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          750
+        ],
+        "browserDpr": 2,
+        "clip": [
+          25,
+          208,
+          341,
+          142
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          682,
+          284
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/journeys/new?type=custom",
+        "title": "Craft a new Journey - Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          750
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "derived_crop": {
+        "name": "agent-empty-en-mobile",
+        "source": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/agent-empty-en-mobile-original.png",
+        "derivative": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/agent-empty-en-mobile-focus.png",
+        "crop_pixels": [
+          16,
+          16,
+          650,
+          252
+        ],
+        "pixelSize": [
+          650,
+          252
+        ],
+        "sha256": "7bcfaabe7cb8427f4ea18e069a27cf932dd1b66fa52be1247e945b5942a42e2c",
+        "parent_sha256": "4e807eaa5a3a511e9e7515ecb1947eb412ef4dbe65be66d8421d477eba7e181b",
+        "operation": "Lossless focused crop of the native popup contents; no resizing or pixel edits; identical crop pixels and ICC."
+      },
+      "reused": false,
+      "new_capture": true
+    },
+    {
+      "concept": "intents",
+      "locale": "es",
+      "mobile": false,
+      "published_asset": "images/team/ai-handoff-to-inbox/intents-es.png",
+      "sha256": "3ce141b0bcdd1fc102325fca3389e28f19158d1344b0c94ec725b6f99bc7ee50",
+      "pixels": [
+        1256,
+        520
+      ],
+      "logical_size": [
+        628.0,
+        260.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/intents-es-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/intents-es-original.png",
+        "sha256": "3ce141b0bcdd1fc102325fca3389e28f19158d1344b0c94ec725b6f99bc7ee50",
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+        "locale": "es",
+        "cssViewport": [
+          1400,
+          1000
+        ],
+        "browserDpr": 2,
+        "clip": [
+          52,
+          125,
+          628,
+          260
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1256,
+          520
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+        "title": "Nueva misión Agente Personalizado | Hellotext",
+        "locale": "es",
+        "viewport": [
+          1400,
+          1000
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "derived_crop": null,
+      "reused": false,
+      "new_capture": true
+    },
+    {
+      "concept": "intents",
+      "locale": "es",
+      "mobile": true,
+      "published_asset": "images/team/ai-handoff-to-inbox/intents-es-mobile.png",
+      "sha256": "06a58e9ba16bdc719e9c1787edb0b699acc69e588cb43ae97295622b904c1e7f",
+      "pixels": [
+        764,
+        592
+      ],
+      "logical_size": [
+        382.0,
+        296.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/intents-es-mobile-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/intents-es-mobile-original.png",
+        "sha256": "06a58e9ba16bdc719e9c1787edb0b699acc69e588cb43ae97295622b904c1e7f",
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          1000
+        ],
+        "browserDpr": 2,
+        "clip": [
+          4,
+          121,
+          382,
+          296
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          764,
+          592
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+        "title": "Nueva misión Agente Personalizado | Hellotext",
+        "locale": "es",
+        "viewport": [
+          390,
+          1000
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "derived_crop": null,
+      "reused": false,
+      "new_capture": true
+    },
+    {
+      "concept": "intents",
+      "locale": "en",
+      "mobile": false,
+      "published_asset": "images/team/ai-handoff-to-inbox/intents-en.png",
+      "sha256": "58afbd5fd69c3e56c69b0cbfa41dd2e3c5946fa4884e1098436208e7237314d1",
+      "pixels": [
+        1256,
+        520
+      ],
+      "logical_size": [
+        628.0,
+        260.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/intents-en-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/intents-en-original.png",
+        "sha256": "58afbd5fd69c3e56c69b0cbfa41dd2e3c5946fa4884e1098436208e7237314d1",
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+        "locale": "en",
+        "cssViewport": [
+          1400,
+          1000
+        ],
+        "browserDpr": 2,
+        "clip": [
+          52,
+          125,
+          628,
+          260
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1256,
+          520
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+        "title": "New Custom Agent playbook | Hellotext",
+        "locale": "en",
+        "viewport": [
+          1400,
+          1000
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "derived_crop": null,
+      "reused": false,
+      "new_capture": true
+    },
+    {
+      "concept": "intents",
+      "locale": "en",
+      "mobile": true,
+      "published_asset": "images/team/ai-handoff-to-inbox/intents-en-mobile.png",
+      "sha256": "574b86a078f6ac9efb168c67084d2b50a5187bfd67ab7cf72fc113197f739971",
+      "pixels": [
+        764,
+        544
+      ],
+      "logical_size": [
+        382.0,
+        272.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/intents-en-mobile-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/intents-en-mobile-original.png",
+        "sha256": "574b86a078f6ac9efb168c67084d2b50a5187bfd67ab7cf72fc113197f739971",
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          1000
+        ],
+        "browserDpr": 2,
+        "clip": [
+          4,
+          121,
+          382,
+          272
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          764,
+          544
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+        "title": "New Custom Agent playbook | Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          1000
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "derived_crop": null,
+      "reused": false,
+      "new_capture": true
+    },
+    {
+      "file": "handoff-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+      "title": "Nueva misión Recolector de Propiedades | Hellotext",
+      "viewportCss": [
+        1200,
+        1000
+      ],
+      "clipCss": [
+        50,
+        100,
+        575,
+        330
+      ],
+      "pixelSize": [
+        1150,
+        660
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "ef1c8abc4712dacc2effa83f6c968dd4a9453a5b1be059609a877a91e1693356",
+      "state": "Unsaved escalation control with fictional team Atención demo selected",
+      "publicationDecision": "approved source; insert with bilingual counterpart after full guide review",
+      "concept": "handoff",
+      "mobile": false,
+      "published_asset": "images/captures/property-collector/handoff-es.png",
+      "pixels": [
+        1150,
+        660
+      ],
+      "logical_size": [
+        575.0,
+        330.0
+      ],
+      "source": "docs/editorial-work/captures/property-collector/handoff-es.png",
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "reused": true,
+      "new_capture": false
+    },
+    {
+      "file": "handoff-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+      "title": "New Property Collector playbook | Hellotext",
+      "viewportCss": [
+        1200,
+        1000
+      ],
+      "clipCss": [
+        50,
+        100,
+        575,
+        330
+      ],
+      "pixelSize": [
+        1150,
+        660
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "0c5506ceed87f6ed0c9e57a4969d80cee2dc41f04ab25b04969917ab3f3bdfe9",
+      "state": "Unsaved escalation control with fictional team Atención demo selected",
+      "publicationDecision": "approved source; insert with bilingual counterpart after full guide review",
+      "concept": "handoff",
+      "mobile": false,
+      "published_asset": "images/captures/property-collector/handoff-en.png",
+      "pixels": [
+        1150,
+        660
+      ],
+      "logical_size": [
+        575.0,
+        330.0
+      ],
+      "source": "docs/editorial-work/captures/property-collector/handoff-en.png",
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "reused": true,
+      "new_capture": false
+    },
+    {
+      "file": "handoff-es-mobile.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+      "title": "Nueva misión Recolector de Propiedades | Hellotext",
+      "viewportCss": [
+        390,
+        1000
+      ],
+      "clipCss": [
+        0,
+        120,
+        390,
+        340
+      ],
+      "pixelSize": [
+        780,
+        680
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "4f252e8b5d86ad772df8b7f979ae8d61de1970ff36f7110f5f1e0b1b5867b2cc",
+      "state": "Focused responsive mobile control using unsaved fictional editor state",
+      "publicationDecision": "approved source; pair with desktop asset",
+      "concept": "handoff",
+      "mobile": true,
+      "published_asset": "images/captures/property-collector/handoff-es-mobile.png",
+      "pixels": [
+        780,
+        680
+      ],
+      "logical_size": [
+        390.0,
+        340.0
+      ],
+      "source": "docs/editorial-work/captures/property-collector/handoff-es-mobile.png",
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "reused": true,
+      "new_capture": false
+    },
+    {
+      "file": "handoff-en-mobile.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+      "title": "New Property Collector playbook | Hellotext",
+      "viewportCss": [
+        390,
+        1000
+      ],
+      "clipCss": [
+        0,
+        120,
+        390,
+        340
+      ],
+      "pixelSize": [
+        780,
+        680
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "97bad463814d7ec88c224ea32ccf6500c65c8eed86a39ef83cd8fba79d2f3793",
+      "state": "Focused responsive mobile control using unsaved fictional editor state",
+      "publicationDecision": "approved source; pair with desktop asset",
+      "concept": "handoff",
+      "mobile": true,
+      "published_asset": "images/captures/property-collector/handoff-en-mobile.png",
+      "pixels": [
+        780,
+        680
+      ],
+      "logical_size": [
+        390.0,
+        340.0
+      ],
+      "source": "docs/editorial-work/captures/property-collector/handoff-en-mobile.png",
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "reused": true,
+      "new_capture": false
+    }
+  ],
+  "source_audit": "docs/editorial-work/captures/ai-handoff-to-inbox/source-audit.json",
+  "operations": {
+    "new_captures": 20,
+    "reused_assets": 4,
+    "locale_restored": "es",
+    "new_fixture": false,
+    "forms_saved": false,
+    "conversation_created": false,
+    "message_generated_or_sent": false,
+    "workers_started": false,
+    "measured_fixture_fields_identical": true,
+    "limits": "The measured fixture audit is not a whole-database byte comparison. Capture helpers validated before/after state but did not retain raw post snapshots. Reused sources retain original historical guards, without retroactive current guards."
+  },
+  "pending": [
+    "Protected PR/checks, independent exact-head review, normal production and public page/hash verification."
+  ],
+  "local_verification": "docs/editorial-work/captures/ai-handoff-to-inbox/local-verification.json"
+}
