@@ -21,3 +21,7 @@ Only safe local GET, DOM fictional return text/static URL, actual shortcuts and 
 ## Local verification
 
 Complete ES/EN article pixels reviewed at1440/390/580px, all four headings, both figures and footer; full-column static lavender stages, native logical-width+18px caps, no page overflow or source enlargement. Source/asset/root-build/ES-build PNG hashes, pixels and P3 ICC profiles match. Normal build/security headers passed, docs excluded, diff check clean. No CSS/migration tests or app/renderer changes. Original snapshots/headings/stub/title/slugs/locales/publication preserved, redundant inline SVG removed as prior screenshot checkpoint requires, source asset intact. No outstanding article visual debt. Protected publication workflow remains pending.
+
+## Ledger checkpoint
+
+Local verifier `08b588f6786c857070e350aeaa6396d85bcc004c` contains the complete reviewed bilingual article, eight approved native sources and local evidence. The ledger commit is its child, retaining the verifier as a main-reachable ancestor. Counts81 local_verified /72 pending /1 out_of_scope; public verification remains pending. Existing correction verifiers and protected campaign branch are preserved.
