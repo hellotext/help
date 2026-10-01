@@ -1,0 +1,92 @@
+Usa esta guía para decidir qué conectar primero cuando estás configurando Hellotext.
+
+La configuración funciona mejor cuando conectas las fuentes de datos antes de lanzar capturas, misiones, rutas o campañas. Así Hellotext puede crear perfiles de cliente, convertir actividad en señales y atribuir resultados desde el comienzo.
+
+## Orden de configuración recomendado
+
+### 1. Confirma tus accesos
+
+Antes de empezar, asegúrate de tener acceso de administrador a la tienda, marketplace, cuenta de Meta Business y negocio de Hellotext que quieres conectar.
+
+Para integraciones de eCommerce, ten a mano claves de API, tokens o acceso al plugin. Para WhatsApp, confirma que puedes recibir SMS o llamadas en el número que quieres conectar.
+
+Si debe cambiar el propietario del negocio, completa esa tarea de acceso antes de hacer cambios más amplios de configuración. Sigue leyendo: [Transfiere la propiedad del negocio]({% link _integrations/transferring-ownership.md %}).
+
+### 2. Conecta tu plataforma de eCommerce
+
+Conecta la plataforma donde viven tus clientes, productos, carritos, órdenes y actividad de compra.
+
+Elige la guía que corresponde a tu tienda:
+
+- [Conecta Shopify]({% link _integrations/connect-shopify.md %})
+- [Conecta Wix]({% link _integrations/connect-wix.md %})
+- [Conecta WooCommerce]({% link _integrations/connect-woo.md %})
+- [Conecta VTEX]({% link _integrations/connect-vtex.md %})
+- [Conecta Mercado Libre]({% link _integrations/connect-mercado-libre.md %})
+
+Después de conectar, revisa que los clientes, órdenes y actividad reciente aparezcan en Hellotext antes de crear misiones, rutas o campañas basadas en esos datos.
+
+También confirma que los productos, variantes, precios, imágenes y disponibilidades necesarios para tu primera misión se sincronicen correctamente.
+
+Sigue leyendo:
+
+- [Sincronización del catálogo de productos]({% link _integrations/product-catalog-sync.md %})
+- [Qué son las señales]({% link _journeys/what-are-signals.md %})
+
+### 3. Conecta los canales de mensajería que vas a usar
+
+Conecta WhatsApp antes de crear capturas, misiones, rutas o campañas de WhatsApp.
+
+Si vendes por WhatsApp, conecta primero tu plataforma de eCommerce y después conecta tu catálogo de productos a WhatsApp.
+
+Conecta Instagram cuando los clientes deban poder iniciar conversaciones por mensaje directo que lleguen a tu Inbox, misiones, rutas o agentes de IA. Instagram usa su propio inicio de sesión directo y es una integración separada de Facebook Messenger.
+
+Conecta Messenger cuando los clientes deban poder escribir a tu página de Facebook y llegar a tu Inbox, rutas o misiones compatibles. Messenger usa el inicio de sesión de Facebook y requiere acceso a la página y cuenta de Meta Business correctas.
+
+Para enviar correos desde el dominio de tu negocio, agrega un remitente y publica sus registros DNS de verificación. El envío de correos está disponible en Enterprise.
+
+Sigue leyendo:
+
+- [Conecta WhatsApp]({% link _integrations/connect-whatsapp.md %})
+- [Conecta tu catálogo a WhatsApp]({% link _integrations/connect-catalog-to-whatsapp.md %})
+- [Conecta Instagram DM]({% link _integrations/connect-instagram-dm.md %})
+- [Fundamentos de Instagram DM]({% link _numbers/instagram-dm-fundamentals.md %})
+- [Conecta Facebook Messenger]({% link _integrations/connect-facebook-messenger.md %})
+- [Fundamentos de Facebook Messenger]({% link _numbers/facebook-messenger-fundamentals.md %})
+- [Configura el envío de correos]({% link _integrations/set-up-email-sending.md %})
+
+Para las notificaciones push en Pro y Enterprise, Shopify y VTEX se encargan de la instalación automáticamente. Las tiendas personalizadas usan Hellotext.js. Sigue [Configura las notificaciones push]({% link _integrations/setup-push-notifications.md %}) para elegir cómo instalarlas y probar la suscripción.
+
+### 4. Agrega herramientas de captura y checkout
+
+Cuando tu fuente de datos y canal de mensajería estén listos, agrega las herramientas de captura que usarán tus clientes para suscribirse.
+
+Empieza por los lugares donde tus clientes ya interactúan con tu marca: tu sitio, checkout, packaging, tienda, anuncios, perfiles sociales o eventos.
+
+Sigue leyendo: [Resumen de herramientas de captura]({% link _captures/capture-overview.md %}).
+
+### 5. Verifica la configuración antes de lanzar
+
+Antes de enviar mensajes de forma masiva, haz una prueba completa en pequeño:
+
+- Crea o identifica un cliente de prueba.
+- Confirma que el cliente aparece en Audiencia.
+- Genera una actividad rastreada, como vista de producto, actualización de carrito, orden o venta en marketplace.
+- Confirma que la actividad aparece en el perfil del cliente.
+- Envía un mensaje de prueba por el canal que conectaste.
+- Revisa que los links, capturas y respuestas funcionen como esperas.
+
+Para un checklist más completo, usa [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %}).
+
+## Checklist de solución de problemas
+
+Si una integración no se comporta como esperas, revisa primero lo básico:
+
+- La cuenta conectada es la tienda, sitio, marketplace o cuenta de Meta Business correcta.
+- El negocio de Hellotext es el correcto.
+- Las claves de API, tokens, configuración del plugin o permisos de la app siguen vigentes.
+- Los dominios de la tienda y scripts de checkout corresponden a la tienda activa.
+- El navegador permite ventanas emergentes y redirecciones de autorización durante la configuración de canales.
+- La integración tuvo tiempo suficiente para sincronizar después de la primera conexión.
+
+Si la configuración sigue sin verse bien, contacta a soporte con el nombre del negocio, la integración que conectaste y el paso donde aparece el problema.
