@@ -33,3 +33,7 @@ Both complete articles were reread and visually reviewed at 1440/390/580 CSS px,
 ## Verifier and reconciliation
 
 Verifier commit `2c862e33f65e4690613c586987f0dea9bb757677` contains the completed articles and local evidence. The ledger child records 68 local_verified, 85 pending and one out_of_scope. Public verification remains pending until protected merge, exact main Build and normal production deployment, and page/PNG checks.
+
+## Review correction before merge
+
+The exact-head review identified a real P2: the failed-read retry bullet was too broad beside the permanent-error exclusions. Both locales now limit read retries to transient network failures or retryable 5xx responses. Production rebuild, complete guarded page QA at all six ES/EN desktop/mobile/narrow states, pixel review of the corrected section and adjacent layout, preserved source hashes and whitespace checks passed before requesting a new independent review.

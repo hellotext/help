@@ -182,7 +182,7 @@ Para eventos:
 Clasifica el resultado antes de programar otro intento:
 
 - No reintentes sin cambios respuestas `400`, `401`, `403`, `404` o `422`. Corrige la causa o envía el caso a una cola de revisión.
-- Una lectura fallida puede repetirse con espera progresiva, demora aleatoria y una cantidad máxima de intentos.
+- Reintenta una lectura sólo ante fallos transitorios de red o respuestas `5xx` que admitan reintento, con espera progresiva, demora aleatoria y una cantidad máxima de intentos.
 - Una escritura con timeout, desconexión o `5xx` tiene un resultado incierto: pudo completarse antes del fallo. Reconcilia primero; el código por sí solo no demuestra que no hubo efectos.
 - Una respuesta `received` queda aceptada pero con procesamiento pendiente; vigila su resultado sin reenviar el mismo hecho automáticamente.
 

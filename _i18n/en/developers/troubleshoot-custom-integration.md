@@ -182,7 +182,7 @@ For events:
 Classify the result before scheduling another attempt:
 
 - Do not retry `400`, `401`, `403`, `404`, or `422` unchanged. Correct the cause or send the case to a review queue.
-- A failed read can be retried with progressive backoff, random delay, and a maximum attempt count.
+- Retry a read only for transient network failures or retryable `5xx` responses, with progressive backoff, random delay, and a maximum attempt count.
 - A write with a timeout, disconnect, or `5xx` has an uncertain result: it may have completed before the failure. Reconcile first; the status alone does not prove there were no effects.
 - A `received` response is accepted with processing pending; monitor its outcome without automatically resending the same fact.
 

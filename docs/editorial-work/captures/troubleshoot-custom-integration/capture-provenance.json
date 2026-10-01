@@ -927,5 +927,11 @@
     "new_captures": 0,
     "new_png_uploads": 0,
     "publication_state": "pending"
+  },
+  "review_correction": {
+    "finding": "P2: qualify read retries to avoid contradicting permanent HTTP exclusions",
+    "change": "Both locales restrict read retries to transient network failures or retryable 5xx responses.",
+    "verification": "Production rebuild; six complete guarded browser states and corrected section pixels; unchanged approved source hashes; syntax and whitespace checks passed.",
+    "new_app_captures": 0
   }
 }
