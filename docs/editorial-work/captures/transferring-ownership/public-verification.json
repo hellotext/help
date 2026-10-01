@@ -1,0 +1,273 @@
+{
+  "verified_at_utc": "2026-10-01T06:59:06.861340+00:00",
+  "verified_git_main_sha": "455ef1dabc5d9bca50ba2d0671200bc96da46694",
+  "production_deploy_id_sha_association": {
+    "id": "6abe0468f62c350007798073",
+    "site_id": "d66a79c1-b5de-44d1-bc47-bc7809f7f3b3",
+    "state": "ready",
+    "context": "production",
+    "branch": "main",
+    "commit_ref": "455ef1dabc5d9bca50ba2d0671200bc96da46694",
+    "created_at": "2026-10-01T06:57:44.335Z",
+    "published_at": "2026-10-01T06:58:51.213Z",
+    "deploy_ssl_url": "https://main--legendary-lollipop-e2d131.netlify.app"
+  },
+  "deployment_method": "Normal Netlify production after Git merge; no manual deploy. Accessible public site-alias listing provided exact commit_ref.",
+  "pages": [
+    {
+      "url": "https://help.hellotext.com/es/transfiriendo-el-negocio",
+      "status": 200,
+      "article_key": "integrations/transferring-ownership.md",
+      "locale": "es",
+      "figures": 2,
+      "sections": 1,
+      "approved_assets_present": [
+        "/images/integrations/transferring-ownership/menu-es.png",
+        "/images/integrations/transferring-ownership/confirm-es.png",
+        "/images/integrations/transferring-ownership/confirm-es-mobile.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "615d8c707c1f0f591627c18839104f191222e124b3f045bd75b6c422587ce115",
+      "html_sha256": "ca2f5d4bdb575dcff1ba648f1960b2c5a35107051c5672e080ae64a0de22e9be"
+    },
+    {
+      "url": "https://help.hellotext.com/transferring-ownership",
+      "status": 200,
+      "article_key": "integrations/transferring-ownership.md",
+      "locale": "en",
+      "figures": 2,
+      "sections": 1,
+      "approved_assets_present": [
+        "/images/integrations/transferring-ownership/menu-en.png",
+        "/images/integrations/transferring-ownership/confirm-en.png",
+        "/images/integrations/transferring-ownership/confirm-en-mobile.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "31bdefaba8a5cb85e28651e7142a7feec75573aabb61053062575b36c0201ffb",
+      "html_sha256": "5e7c2a81b25eab1490c5c219853715fa846f8b8a8209217615629ea0986ffab4"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://help.hellotext.com/images/integrations/transferring-ownership/menu-es.png",
+      "status": 200,
+      "sha256": "85fa4488ac96b2b34e75faa7644695461b94045431901b9318138c6683c34737",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/integrations/transferring-ownership/menu-en.png",
+      "status": 200,
+      "sha256": "42e333981346b17efbdb34c7318346b504a44bb6a7fcb3b72d887ab47a0aadf8",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/integrations/transferring-ownership/confirm-es.png",
+      "status": 200,
+      "sha256": "e98d706b0f173e78bdce3efc82f65c13590c5a54305bcf69778c61d621a62323",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/integrations/transferring-ownership/confirm-es-mobile.png",
+      "status": 200,
+      "sha256": "19ba27f13fa4af77575b6512f9e0ee0d156e402d3e5b51325823f086478bcddf",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/integrations/transferring-ownership/confirm-en.png",
+      "status": 200,
+      "sha256": "bc3f87a5fa0a4fa8022afe1f530405735c581daf83da9853f2baa33323646414",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/integrations/transferring-ownership/confirm-en-mobile.png",
+      "status": 200,
+      "sha256": "5671fbad0a5530355220a7c4421529d43a2b8ed824e9be70d164c0789cd50bb4",
+      "matches_approved_asset": true,
+      "reused": false
+    }
+  ],
+  "new_captures": 6,
+  "new_png_uploads": 6,
+  "reused_pngs": 0,
+  "all_affected_article_pngs": 6,
+  "main_build": {
+    "conclusion": "success",
+    "databaseId": 36827605992,
+    "event": "push",
+    "headSha": "455ef1dabc5d9bca50ba2d0671200bc96da46694",
+    "status": "completed",
+    "url": "https://github.com/hellotext/help/actions/runs/36827605992"
+  },
+  "content_pr": "https://github.com/hellotext/help/pull/317",
+  "content_pr_head": "236525b2fd47039bf47282866d3cd4f67aff40c3",
+  "individual_commits_preserved": [
+    "b55c2ab691c07dcb6e85304f7cedbbb438b5137a",
+    "cde33e9ab37d683f9e90360a8c8808407836ae81",
+    "236525b2fd47039bf47282866d3cd4f67aff40c3"
+  ],
+  "unresolved_review_threads_before_merge": 0,
+  "pre_merge_review": {
+    "head": "236525b2fd47039bf47282866d3cd4f67aff40c3",
+    "checks": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T06:51:30Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/hellotext/help/actions/runs/36826993420/job/110254777691",
+        "name": "build",
+        "startedAt": "2026-10-01T06:51:02Z",
+        "status": "COMPLETED",
+        "workflowName": "Build"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T06:52:08Z",
+        "conclusion": "NEUTRAL",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abe02d33d64d100090250b4",
+        "name": "Pages changed - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T06:51:00Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T06:52:08Z",
+        "conclusion": "NEUTRAL",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abe02d33d64d100090250b4",
+        "name": "Redirect rules - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T06:51:00Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T06:51:26Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://app.aikido.dev/featurebranch/scan/209107301?groupId=34029",
+        "name": "Aikido Security: check code",
+        "startedAt": "2026-10-01T06:51:00Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T06:52:08Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abe02d33d64d100090250b4",
+        "name": "Header rules - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T06:51:00Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "StatusContext",
+        "context": "netlify/legendary-lollipop-e2d131/deploy-preview",
+        "startedAt": "2026-10-01T06:52:10Z",
+        "state": "SUCCESS",
+        "targetUrl": "https://deploy-preview-317--legendary-lollipop-e2d131.netlify.app"
+      }
+    ],
+    "actual_comment_urls": [
+      "https://github.com/hellotext/help/pull/317#issuecomment-5926261683",
+      "https://github.com/hellotext/help/pull/317#issuecomment-5926262753",
+      "https://github.com/hellotext/help/pull/317#issuecomment-5926263338",
+      "https://github.com/hellotext/help/pull/317#issuecomment-5926316454"
+    ],
+    "threads": [],
+    "all_actual_comments_reviews_threads_read": true
+  },
+  "preview_verification": {
+    "head": "236525b2fd47039bf47282866d3cd4f67aff40c3",
+    "preview_url": "https://deploy-preview-317--legendary-lollipop-e2d131.netlify.app",
+    "deployment": {
+      "id": "6abe02d33d64d100090250b4",
+      "context": "deploy-preview",
+      "commit_ref": "236525b2fd47039bf47282866d3cd4f67aff40c3",
+      "state": "ready",
+      "review_id": 317
+    },
+    "pages": [
+      {
+        "url": "https://deploy-preview-317--legendary-lollipop-e2d131.netlify.app/es/transfiriendo-el-negocio",
+        "status": 200,
+        "article_key": "integrations/transferring-ownership.md",
+        "locale": "es",
+        "figures": 2,
+        "sections": 1,
+        "approved_assets_present": [
+          "/images/integrations/transferring-ownership/menu-es.png",
+          "/images/integrations/transferring-ownership/confirm-es.png",
+          "/images/integrations/transferring-ownership/confirm-es-mobile.png"
+        ],
+        "complete_article_matches_verified_build": true,
+        "article_sha256": "615d8c707c1f0f591627c18839104f191222e124b3f045bd75b6c422587ce115",
+        "html_sha256": "6b3c62fa66e25902fdf21dfa4fa9bd0e03d5a0217a17e2f8f92625a803aaa477"
+      },
+      {
+        "url": "https://deploy-preview-317--legendary-lollipop-e2d131.netlify.app/transferring-ownership",
+        "status": 200,
+        "article_key": "integrations/transferring-ownership.md",
+        "locale": "en",
+        "figures": 2,
+        "sections": 1,
+        "approved_assets_present": [
+          "/images/integrations/transferring-ownership/menu-en.png",
+          "/images/integrations/transferring-ownership/confirm-en.png",
+          "/images/integrations/transferring-ownership/confirm-en-mobile.png"
+        ],
+        "complete_article_matches_verified_build": true,
+        "article_sha256": "31bdefaba8a5cb85e28651e7142a7feec75573aabb61053062575b36c0201ffb",
+        "html_sha256": "02a9a7fc014cd2abafdbd87f0d1b8420d2685d2149cdd0ce53ad5f4d6a68f48c"
+      }
+    ],
+    "assets": [
+      {
+        "url": "https://deploy-preview-317--legendary-lollipop-e2d131.netlify.app/images/integrations/transferring-ownership/menu-es.png",
+        "status": 200,
+        "sha256": "85fa4488ac96b2b34e75faa7644695461b94045431901b9318138c6683c34737",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-317--legendary-lollipop-e2d131.netlify.app/images/integrations/transferring-ownership/menu-en.png",
+        "status": 200,
+        "sha256": "42e333981346b17efbdb34c7318346b504a44bb6a7fcb3b72d887ab47a0aadf8",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-317--legendary-lollipop-e2d131.netlify.app/images/integrations/transferring-ownership/confirm-es.png",
+        "status": 200,
+        "sha256": "e98d706b0f173e78bdce3efc82f65c13590c5a54305bcf69778c61d621a62323",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-317--legendary-lollipop-e2d131.netlify.app/images/integrations/transferring-ownership/confirm-es-mobile.png",
+        "status": 200,
+        "sha256": "19ba27f13fa4af77575b6512f9e0ee0d156e402d3e5b51325823f086478bcddf",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-317--legendary-lollipop-e2d131.netlify.app/images/integrations/transferring-ownership/confirm-en.png",
+        "status": 200,
+        "sha256": "bc3f87a5fa0a4fa8022afe1f530405735c581daf83da9853f2baa33323646414",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-317--legendary-lollipop-e2d131.netlify.app/images/integrations/transferring-ownership/confirm-en-mobile.png",
+        "status": 200,
+        "sha256": "5671fbad0a5530355220a7c4421529d43a2b8ed824e9be70d164c0789cd50bb4",
+        "matches_approved_asset": true,
+        "reused": false
+      }
+    ]
+  }
+}

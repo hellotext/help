@@ -31,10 +31,34 @@ Two complete ES/EN articles inspected from introduction to section, all four ste
 
 29 current primary Rails files match protected5403a7dcb. Actual request authorization/current password, existing recipient, async email,one-week expiry,replacement of earlier ownership requests,matched confirmed account/explicit acceptance,pending-only cancellation,expiry-independent pending badge and current lack of automatic previous-owner revocation reviewed fully. Limitation visible at the start and role/access verification with support is concrete, without promising a completed exclusive transfer. Only safe GET/menu/modal and locale selection performed; all protected before/after fixture/member-role counts match,ES restored,zero ownership invitations. No password or final action executed.
 
-Production build/security headers and git diff --check passed. No Rails/shared renderer/canonical guide changes, CSS/migration tests, API/example execution or worker. Protected publication and public proof remain pending.
+Production build/security headers and git diff --check passed. No Rails/shared renderer/canonical guide changes, CSS/migration tests, API/example execution or worker. Protected publication and public proof are recorded below.
 
 Original English text contains inherited trailing whitespace. Its deterministic gzip archive retains every decompressed byte and original SHA; archive_sha256 is recorded separately. Protected fixture JSON whitespace normalized to one final newline. No original text content changed.
 
 ## Progress verifier
 
-Local verifier `cde33e9ab37d683f9e90360a8c8808407836ae81` precedes this progress record. Ledger77 local_verified,76 pending,one out_of_scope. Complete native visual/editorial/build evidence is local; protected publication and public proof remain pending.
+Local verifier `cde33e9ab37d683f9e90360a8c8808407836ae81` precedes this progress record. Ledger77 local_verified,76 pending,one out_of_scope. Complete native visual/editorial/build and public proof are recorded here.
+
+## Public verification — 2026-10-01
+
+Help [#317](https://github.com/hellotext/help/pull/317) merged by `455ef1dabc5d9bca50ba2d0671200bc96da46694`, retaining all individual commits. Build/Aikido/Netlify preview/header checks passed on exact head `236525b2fd47039bf47282866d3cd4f67aff40c3`. Independent review and every actual comment/review/thread were read before the separate merge call; zero unresolved findings. Attachment attempted; existing100-identity cap prevented it.
+
+Exact main [Build 36827605992](https://github.com/hellotext/help/actions/runs/36827605992) passed. Normal Netlify production `6abe0468f62c350007798073` is ready/published at `2026-10-01T06:58:51.213Z`, with commit_ref `455ef1dabc5d9bca50ba2d0671200bc96da46694` verified from the public site-alias list. No manual deployment. Both complete localized articles match the verified build; all six new native PNGs returned HTTP200 with approved hashes. Two menu sources also serve mobile without duplicate responsive assets; four confirmation sources cover desktop/mobile. Original source/UI provenance,fixtures and capture limits remain intact.
+
+One original section per locale,zero original links,titles/slugs/stub/locales/publication preserved; three useful Help links and two figures per language,zero executable examples. Full1440/390/580px visual review,2×/P3/dimensions/logical-width+18px caps, no enlargement or page overflow. Current acceptance does not revoke previous Owner access automatically; both guides state the limitation and require actual roles/access verification with support for exclusive handover. No ownership request/email/acceptance/cancellation/role change,password/API/example/worker operation was performed. ES restored and all member/fixture counts equal.
+
+Pages:
+
+- [https://help.hellotext.com/es/transfiriendo-el-negocio](https://help.hellotext.com/es/transfiriendo-el-negocio) — HTTP200; complete verified article.
+- [https://help.hellotext.com/transferring-ownership](https://help.hellotext.com/transferring-ownership) — HTTP200; complete verified article.
+
+Six new native PNGs, including every responsive variant:
+
+- [https://help.hellotext.com/images/integrations/transferring-ownership/menu-es.png](https://help.hellotext.com/images/integrations/transferring-ownership/menu-es.png) — HTTP200,new native source,SHA256 `85fa4488ac96b2b34e75faa7644695461b94045431901b9318138c6683c34737`.
+- [https://help.hellotext.com/images/integrations/transferring-ownership/menu-en.png](https://help.hellotext.com/images/integrations/transferring-ownership/menu-en.png) — HTTP200,new native source,SHA256 `42e333981346b17efbdb34c7318346b504a44bb6a7fcb3b72d887ab47a0aadf8`.
+- [https://help.hellotext.com/images/integrations/transferring-ownership/confirm-es.png](https://help.hellotext.com/images/integrations/transferring-ownership/confirm-es.png) — HTTP200,new native source,SHA256 `e98d706b0f173e78bdce3efc82f65c13590c5a54305bcf69778c61d621a62323`.
+- [https://help.hellotext.com/images/integrations/transferring-ownership/confirm-es-mobile.png](https://help.hellotext.com/images/integrations/transferring-ownership/confirm-es-mobile.png) — HTTP200,new native source,SHA256 `19ba27f13fa4af77575b6512f9e0ee0d156e402d3e5b51325823f086478bcddf`.
+- [https://help.hellotext.com/images/integrations/transferring-ownership/confirm-en.png](https://help.hellotext.com/images/integrations/transferring-ownership/confirm-en.png) — HTTP200,new native source,SHA256 `bc3f87a5fa0a4fa8022afe1f530405735c581daf83da9853f2baa33323646414`.
+- [https://help.hellotext.com/images/integrations/transferring-ownership/confirm-en-mobile.png](https://help.hellotext.com/images/integrations/transferring-ownership/confirm-en-mobile.png) — HTTP200,new native source,SHA256 `5671fbad0a5530355220a7c4421529d43a2b8ed824e9be70d164c0789cd50bb4`.
+
+Ledger:77 local_verified,76 pending,one out_of_scope; every verifier and prior correction is an ancestor of main. The public-record PR gets its own exact-head review/main Build/normal production and repeated public checks, recorded in a GitHub comment without recursive commits.
