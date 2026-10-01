@@ -1,0 +1,168 @@
+{
+  "protected_revision": "5403a7dcb567b63cae87d4c088112d65fad4eb7f",
+  "current_master_revision": "a6a32d95a0b6cdbd63342100012413446aa2a2f5",
+  "sources": [
+    {
+      "path": "app/views/imports/consent.html.erb",
+      "protected_sha256": "6136706fdcb1398c2844adf1a52652e4ce60f2e94dd7c50fc1b6cc450d311206",
+      "current_master_sha256": "6136706fdcb1398c2844adf1a52652e4ce60f2e94dd7c50fc1b6cc450d311206",
+      "current_matches_protected": true,
+      "primary_source_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/views/imports/consent.html.erb"
+    },
+    {
+      "path": "app/models/import.rb",
+      "protected_sha256": "8656cdaea9280be524e853065a1d86bfaa4b729acfa59f3b2e1aa7fed6aa0300",
+      "current_master_sha256": "8656cdaea9280be524e853065a1d86bfaa4b729acfa59f3b2e1aa7fed6aa0300",
+      "current_matches_protected": true,
+      "primary_source_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/import.rb"
+    },
+    {
+      "path": "app/models/import/deduplicate.rb",
+      "protected_sha256": "2834f9e88967597cf845d8547cec6cd6e4be5bc3b51c897a94c29e43b5fd0d02",
+      "current_master_sha256": "2834f9e88967597cf845d8547cec6cd6e4be5bc3b51c897a94c29e43b5fd0d02",
+      "current_matches_protected": true,
+      "primary_source_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/import/deduplicate.rb"
+    },
+    {
+      "path": "app/models/import/populate/name.rb",
+      "protected_sha256": "86db2a3339e124ec1c7d9307655cdeb9d92663158c40040b13831f1ddc4f8d9c",
+      "current_master_sha256": "86db2a3339e124ec1c7d9307655cdeb9d92663158c40040b13831f1ddc4f8d9c",
+      "current_matches_protected": true,
+      "primary_source_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/import/populate/name.rb"
+    },
+    {
+      "path": "app/models/contact/audience_query.rb",
+      "protected_sha256": "60f52b8f1c7efdf96838df053f7f45b2afb67b2d078fe8b299ca3380d45abcb6",
+      "current_master_sha256": "60f52b8f1c7efdf96838df053f7f45b2afb67b2d078fe8b299ca3380d45abcb6",
+      "current_matches_protected": true,
+      "primary_source_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/contact/audience_query.rb"
+    },
+    {
+      "path": "app/models/contact/reachability_query.rb",
+      "protected_sha256": "01ed1128699969441e7dfed957a1b1542070fe986a71f6c1fc083943c70c486a",
+      "current_master_sha256": "01ed1128699969441e7dfed957a1b1542070fe986a71f6c1fc083943c70c486a",
+      "current_matches_protected": true,
+      "primary_source_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/contact/reachability_query.rb"
+    },
+    {
+      "path": "app/models/business/night_hours.rb",
+      "protected_sha256": "cbe147013a579e3814d9fb21ebe4a5a9920c7a647765de3c36a05652f2be1d87",
+      "current_master_sha256": "cbe147013a579e3814d9fb21ebe4a5a9920c7a647765de3c36a05652f2be1d87",
+      "current_matches_protected": true,
+      "primary_source_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/business/night_hours.rb"
+    },
+    {
+      "path": "app/models/cg/admission/playbook_frequency.rb",
+      "protected_sha256": "dbe2a5f538be002f1f2e5cbbede63434893fdaed323e38ef137a9e47013b86b6",
+      "current_master_sha256": "dbe2a5f538be002f1f2e5cbbede63434893fdaed323e38ef137a9e47013b86b6",
+      "current_matches_protected": true,
+      "primary_source_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/cg/admission/playbook_frequency.rb"
+    },
+    {
+      "path": "app/models/cg/admission/contact_frequency.rb",
+      "protected_sha256": "f97632d8812eb01a0b3067862f76291f8051cd7e0608df5a3ad1bac1ab4e9d32",
+      "current_master_sha256": "f97632d8812eb01a0b3067862f76291f8051cd7e0608df5a3ad1bac1ab4e9d32",
+      "current_matches_protected": true,
+      "primary_source_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/cg/admission/contact_frequency.rb"
+    },
+    {
+      "path": "app/models/capture.rb",
+      "protected_sha256": "b2a2889447a6b5aad16465d360d6f1d24a6bfe7b81d860c95a583acb984038e3",
+      "current_master_sha256": "b2a2889447a6b5aad16465d360d6f1d24a6bfe7b81d860c95a583acb984038e3",
+      "current_matches_protected": true,
+      "primary_source_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/capture.rb"
+    },
+    {
+      "path": "app/models/qr_code.rb",
+      "protected_sha256": "d40dde16f2a69d96ab5fcca16a105de732c38bdedb3fb75d8b6d9b013e88fb60",
+      "current_master_sha256": "d40dde16f2a69d96ab5fcca16a105de732c38bdedb3fb75d8b6d9b013e88fb60",
+      "current_matches_protected": true,
+      "primary_source_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/qr_code.rb"
+    },
+    {
+      "path": "app/components/compose/toolbar/tags_component.rb",
+      "protected_sha256": "ff55858099d0db59d353198aa61a4ae5f3f101770a115295bb4904a8b11f6a82",
+      "current_master_sha256": "ff55858099d0db59d353198aa61a4ae5f3f101770a115295bb4904a8b11f6a82",
+      "current_matches_protected": true,
+      "primary_source_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/components/compose/toolbar/tags_component.rb"
+    },
+    {
+      "path": "app/models/liquid/contact.rb",
+      "protected_sha256": "002ece6b5bc255d9eea4df30483b8c32fbc7e27553cf71e9bfac0021e6160b89",
+      "current_master_sha256": "002ece6b5bc255d9eea4df30483b8c32fbc7e27553cf71e9bfac0021e6160b89",
+      "current_matches_protected": true,
+      "primary_source_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/liquid/contact.rb"
+    },
+    {
+      "path": "app/models/liquid/tag.rb",
+      "protected_sha256": "2cf1441a0527b686d4657e1c2c62c2e2e96809fc3d47fbf9728688c282dba7b2",
+      "current_master_sha256": "2cf1441a0527b686d4657e1c2c62c2e2e96809fc3d47fbf9728688c282dba7b2",
+      "current_matches_protected": true,
+      "primary_source_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/liquid/tag.rb"
+    },
+    {
+      "path": "app/models/conversation/closeable.rb",
+      "protected_sha256": "9f922cf52f36746596af7d437dde9990572ed81f8fb58bf3a0301312e1f7ad49",
+      "current_master_sha256": "9f922cf52f36746596af7d437dde9990572ed81f8fb58bf3a0301312e1f7ad49",
+      "current_matches_protected": true,
+      "primary_source_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/conversation/closeable.rb"
+    },
+    {
+      "path": "app/controllers/conversation/actions/close_controller.rb",
+      "protected_sha256": "3794224ce0434d99a5802e3243359d5c9b49f50e1132d70cf3baaef978310a63",
+      "current_master_sha256": "3794224ce0434d99a5802e3243359d5c9b49f50e1132d70cf3baaef978310a63",
+      "current_matches_protected": true,
+      "primary_source_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/controllers/conversation/actions/close_controller.rb"
+    },
+    {
+      "path": "app/models/report/date_picker.rb",
+      "protected_sha256": "308743ed197ecf8a67b14409bb92222484aad34b6d3d05749402d8e5649f553c",
+      "current_master_sha256": "308743ed197ecf8a67b14409bb92222484aad34b6d3d05749402d8e5649f553c",
+      "current_matches_protected": true,
+      "primary_source_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/report/date_picker.rb"
+    },
+    {
+      "path": "app/models/report/metric/campaign_presenter.rb",
+      "protected_sha256": "338d4db29c8695b8bd1ab8b5cd0be3d288760ed0a3f6f98120c81ec8dfcb0c85",
+      "current_master_sha256": "338d4db29c8695b8bd1ab8b5cd0be3d288760ed0a3f6f98120c81ec8dfcb0c85",
+      "current_matches_protected": true,
+      "primary_source_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/report/metric/campaign_presenter.rb"
+    },
+    {
+      "path": "app/models/report/widget/campaign/delivery_funnel.rb",
+      "protected_sha256": "94fea8e772dc4224805b7288fa30f5341824ec9cb045eeb535f8228120a69840",
+      "current_master_sha256": "94fea8e772dc4224805b7288fa30f5341824ec9cb045eeb535f8228120a69840",
+      "current_matches_protected": true,
+      "primary_source_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/report/widget/campaign/delivery_funnel.rb"
+    },
+    {
+      "path": "app/models/message/daily_rollup.rb",
+      "protected_sha256": "bac75fe98deb1e0ee4c03c394b6c8d3e3f62ab862b9bb13bb568b7464199b598",
+      "current_master_sha256": "bac75fe98deb1e0ee4c03c394b6c8d3e3f62ab862b9bb13bb568b7464199b598",
+      "current_matches_protected": true,
+      "primary_source_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/message/daily_rollup.rb"
+    },
+    {
+      "path": "app/models/import/scaffold.rb",
+      "protected_sha256": "9710f26b461c6ae84981a5f18877195c56b714a81c506cefdfc12e8c5363905c",
+      "current_master_sha256": "9710f26b461c6ae84981a5f18877195c56b714a81c506cefdfc12e8c5363905c",
+      "current_matches_protected": true,
+      "primary_source_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/import/scaffold.rb"
+    }
+  ],
+  "primary_public_sources": [
+    "https://whatsappbusiness.com/policy/"
+  ],
+  "policy_checked": "Current primary WhatsApp Business Messaging Policy, last modified September23,2026, checked October1,2026. Opt-in and opt-out plus approved templates outside the customer-service window; recent relationship alone is not permission.",
+  "findings": [
+    "Campaign eligible audience includes unconfirmed and subscribed states; available recipients do not prove channel/destination/message-type permission. Import consent applies to new contacts; deduplicated existing contact retains own state.",
+    "Small tests need explicit authorization and isolated destinations/conditions; draft, preview, acceptance and delivery are different stages. No sending performed for editorial work.",
+    "One clear action; final personalization, links and channel-specific unsubscribe need end-to-end verification. SMS draft does not prove WhatsApp active approval.",
+    "Business-local quiet hours and per-flow frequency policies differ; they do not automatically enforce a universal recipient-local cap for every campaign and route.",
+    "Capture naming identifies configured tool/report, not proof of origin, consent or attribution of every deduplicated profile.",
+    "Tags menu shows profile fields/kept properties; optional values may be empty, contextual tags depend on flow.",
+    "Closing conversation has real lifecycle/capacity/follow-up/CSAT effects. Do not close unresolved work to cosmetically improve metrics.",
+    "Campaign period is anchored to reporting launch; sent/delivered/engaged and conversion are different populations. Engaged counts delivered messages with seen/click/reply, grouped by business-local dispatch day, later signals may update cohort. Attribution windows and total/unique clicks differ."
+  ],
+  "execution": "Source read-only and GitHub content fetches. No examples or app actions performed."
+}
