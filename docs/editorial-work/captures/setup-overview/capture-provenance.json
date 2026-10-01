@@ -1,5 +1,5 @@
 {
-  "status": "local_verified_publication_pending",
+  "status": "publicly_verified",
   "article_key": "integrations/setup-overview.md",
   "base_revision": "d861fb49f460a90ecf29b7e49f4041aadcc9d9af",
   "originals": [
@@ -127,9 +127,11 @@
       "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-es-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "publication_status": "Approved original source reused without recapture, pixel edits or duplicate upload; current consumer not yet publicly verified.",
+      "publication_status": "Approved original source reused without recapture, pixel edits or duplicate upload; current consumer publicly verified, see public-verification.json.",
       "reuse": true,
-      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json"
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "business-es-mobile",
@@ -173,9 +175,11 @@
       "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-es-mobile-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "publication_status": "Approved original source reused without recapture, pixel edits or duplicate upload; current consumer not yet publicly verified.",
+      "publication_status": "Approved original source reused without recapture, pixel edits or duplicate upload; current consumer publicly verified, see public-verification.json.",
       "reuse": true,
-      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json"
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "business-en",
@@ -219,9 +223,11 @@
       "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-en-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "publication_status": "Approved original source reused without recapture, pixel edits or duplicate upload; current consumer not yet publicly verified.",
+      "publication_status": "Approved original source reused without recapture, pixel edits or duplicate upload; current consumer publicly verified, see public-verification.json.",
       "reuse": true,
-      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json"
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "business-en-mobile",
@@ -265,9 +271,11 @@
       "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-en-mobile-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "publication_status": "Approved original source reused without recapture, pixel edits or duplicate upload; current consumer not yet publicly verified.",
+      "publication_status": "Approved original source reused without recapture, pixel edits or duplicate upload; current consumer publicly verified, see public-verification.json.",
       "reuse": true,
-      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json"
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "details-es",
@@ -313,8 +321,10 @@
       "pointer": "absent",
       "pixel_edits": "none",
       "reuse": true,
-      "publication_status": "Approved original source reused without recapture, pixel edits or duplicate upload; current consumer not yet publicly verified.",
-      "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json"
+      "publication_status": "Approved original source reused without recapture, pixel edits or duplicate upload; current consumer publicly verified, see public-verification.json.",
+      "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "details-es-mobile",
@@ -360,8 +370,10 @@
       "pointer": "absent",
       "pixel_edits": "none",
       "reuse": true,
-      "publication_status": "Approved original source reused without recapture, pixel edits or duplicate upload; current consumer not yet publicly verified.",
-      "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json"
+      "publication_status": "Approved original source reused without recapture, pixel edits or duplicate upload; current consumer publicly verified, see public-verification.json.",
+      "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "details-en",
@@ -407,8 +419,10 @@
       "pointer": "absent",
       "pixel_edits": "none",
       "reuse": true,
-      "publication_status": "Approved original source reused without recapture, pixel edits or duplicate upload; current consumer not yet publicly verified.",
-      "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json"
+      "publication_status": "Approved original source reused without recapture, pixel edits or duplicate upload; current consumer publicly verified, see public-verification.json.",
+      "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "details-en-mobile",
@@ -454,8 +468,10 @@
       "pointer": "absent",
       "pixel_edits": "none",
       "reuse": true,
-      "publication_status": "Approved original source reused without recapture, pixel edits or duplicate upload; current consumer not yet publicly verified.",
-      "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json"
+      "publication_status": "Approved original source reused without recapture, pixel edits or duplicate upload; current consumer publicly verified, see public-verification.json.",
+      "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "form-en",
@@ -505,7 +521,9 @@
       "reuse": true,
       "pointer": "absent",
       "pixel_edits": "none",
-      "publication_status": "Approved original source reused without recapture, pixel edits or duplicate upload; current consumer not yet publicly verified."
+      "publication_status": "Approved original source reused without recapture, pixel edits or duplicate upload; current consumer publicly verified, see public-verification.json.",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "form-es",
@@ -555,16 +573,16 @@
       "reuse": true,
       "pointer": "absent",
       "pixel_edits": "none",
-      "publication_status": "Approved original source reused without recapture, pixel edits or duplicate upload; current consumer not yet publicly verified."
+      "publication_status": "Approved original source reused without recapture, pixel edits or duplicate upload; current consumer publicly verified, see public-verification.json.",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     }
   ],
   "new_captures": 0,
   "new_png_uploads": 0,
   "reused_pngs": 10,
   "protected_state": "Read source and historical approved evidence only; no app/DB/UI/fixture/locale/token/object/event/message/invitation/API/example/test/send/worker action. Protected campaign branch and old3191 changes untouched.",
-  "pending": [
-    "Protected exact-head checks/review, merge and public verification"
-  ],
+  "pending": [],
   "local_verification": {
     "evidence": "local-verification.json",
     "page_review": "page-review/",
@@ -579,6 +597,18 @@
     "added_links_per_locale": 1,
     "figures_per_locale": 3,
     "examples_per_locale": 0,
-    "publication_state": "pending"
+    "publication_state": "Publicly verified after content merge; see public-verification.json."
+  },
+  "publication": {
+    "state": "publicly_verified",
+    "evidence": "public-verification.json",
+    "content_pr": "https://github.com/hellotext/help/pull/313",
+    "main_merge_sha": "be575429ebf2516f8db11271951c091712a627d4",
+    "deploy_id": "6abdedc20ef48700086fd9f6",
+    "public_pages_http": 200,
+    "approved_hashes_match": true,
+    "new_captures": 0,
+    "new_png_uploads": 0,
+    "reused_pngs": 10
   }
 }
