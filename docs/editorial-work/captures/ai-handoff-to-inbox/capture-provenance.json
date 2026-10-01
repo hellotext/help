@@ -1,5 +1,5 @@
 {
-  "status": "locally_verified",
+  "status": "publicly_verified",
   "base_revision": "ad6d6455d0671cda042dc5ef184f73c86d64f8fb",
   "originals": [
     {
@@ -1811,8 +1811,7 @@
     "measured_fixture_fields_identical": true,
     "limits": "The measured fixture audit is not a whole-database byte comparison. Capture helpers validated before/after state but did not retain raw post snapshots. Reused sources retain original historical guards, without retroactive current guards."
   },
-  "pending": [
-    "Protected PR/checks, independent exact-head review, normal production and public page/hash verification."
-  ],
-  "local_verification": "docs/editorial-work/captures/ai-handoff-to-inbox/local-verification.json"
+  "pending": [],
+  "local_verification": "docs/editorial-work/captures/ai-handoff-to-inbox/local-verification.json",
+  "public_verification": "docs/editorial-work/captures/ai-handoff-to-inbox/public-verification.json"
 }
