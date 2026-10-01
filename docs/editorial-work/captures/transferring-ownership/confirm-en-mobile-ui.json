@@ -1,0 +1,421 @@
+{
+  "url": "http://127.0.0.1:3192/hellotext/settings/members",
+  "title": "Your Team",
+  "locale": "en",
+  "viewport": [
+    390,
+    844
+  ],
+  "dpr": 2,
+  "zoom": 1,
+  "scroll": [
+    0,
+    0
+  ],
+  "pageText": "D\nSETTINGS\nOverview\nAgent\nIntegrations\nUsage & Billing\nNotifications\nAuthorizations\nTemplates\nCoupons\nTeams\nResponse times\nObjects\nActions\nTeams\n\nGive access to your team to help you\n\nMembers\nInvitations\nTeams\nSingle Sign-On\nOptions\nDS\nDesign System\nOwner\nYou\nResponse on track\nCapacity OK\n\ndesign-system@example.test\n\nLM\nLucía Méndez\nAgent\nResponse on track\nCapacity OK\n\ndesign_system_reports_operations_5_0@example.test\n\nSettings\nTransfer ownership\nRemove\nDP\nDiego Pereira\nAgent\nResponse on track\nCapacity OK\n\ndesign_system_reports_operations_5_1@example.test\n\nVR\nValentina Rojas\nAgent\nResponse on track\nCapacity OK\n\ndesign_system_reports_operations_5_2@example.test\n\nMS\nMateo Silva\nAgent\nResponse on track\nCapacity OK\n\ndesign_system_reports_operations_5_3@example.test\n\nLD\nLucía Demo carga\nAgent\nResponse on track\nCapacity OK\n\neditorial_workload_20260928_low_a@example.test\n\nMD\nMateo Demo carga\nAgent\nResponse on track\nCapacity OK\n\neditorial_workload_20260928_low_b@example.test\n\nSD\nSara Demo carga\nAgent\nResponse overdue\nCapacity OK\n\neditorial_workload_20260928_high@example.test\n\nTD\nTomás Demo carga\nAgent\nResponse on track\nCapacity OK\n\neditorial_workload_20260928_watch@example.test\n\nInvite team member\nAre you sure you want to transfer the ownership of Enterprise\n\nThe transfer will be pending until Lucía Méndez accepts the invitation.\n\nEnter your password to confirm this process\nContinue\nCancel",
+  "controls": [
+    {
+      "tag": "UL",
+      "text": "DS\nDesign System\nOwner\nYou\nResponse on track\nCapacity OK\n\ndesign-system@example.test\n\nLM\nLucía Méndez\nAgent\nResponse on track\nCapacity OK\n\ndesign_system_reports_operations_5_0@example.test\n\nSettings\nTransfer ownership\nRemove\nDP\nDiego Pereira\nAgent\nResponse on track\nCapacity OK\n\ndesign_system_reports_operations_5_1@example.test\n\nVR\nValentina Rojas\nAgent\nResponse on track\nCapacity OK\n\ndesign_system_reports_operations_5_2@example.test\n\nMS\nMateo Silva\nAgent\nResponse on track\nCapacity OK\n\ndesign_system_reports_operations_5_3@example.test\n\nLD\nLucía Demo carga\nAgent\nResponse on track\nCapacity OK\n\neditorial_workload_20260928_low_a@example.test\n\nMD\nMateo Demo carga\nAgent\nResponse on track\nCapacity OK\n\neditorial_workload_20260928_low_b@example.test\n\nSD\nSara Demo carga\nAgent\nResponse overdue\nCapacity OK\n\neditorial_workload_20260928_high@example.test\n\nTD\nTomás Demo carga\nAgent\nResponse on track\nCapacity OK\n\neditorial_workload_20260928_watch@example.test\n\nInvite team member",
+      "id": "users-container",
+      "role": null,
+      "action": null,
+      "rect": [
+        16,
+        506,
+        358,
+        1313
+      ]
+    },
+    {
+      "tag": "LI",
+      "text": "DS\nDesign System\nOwner\nYou\nResponse on track\nCapacity OK\n\ndesign-system@example.test",
+      "id": "privilege_4ONLdN32",
+      "role": null,
+      "action": "",
+      "rect": [
+        16,
+        506,
+        358,
+        100
+      ]
+    },
+    {
+      "tag": "LI",
+      "text": "LM\nLucía Méndez\nAgent\nResponse on track\nCapacity OK\n\ndesign_system_reports_operations_5_0@example.test\n\nSettings\nTransfer ownership\nRemove",
+      "id": "privilege_29D7LZXk",
+      "role": null,
+      "action": "keydown.esc@window->modal#close",
+      "rect": [
+        16,
+        626,
+        358,
+        121
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": "click->dropdown#toggle click@window->dropdown#hide",
+      "disabled": false,
+      "rect": [
+        352.40625,
+        686.203125,
+        21.59375,
+        21.59375
+      ]
+    },
+    {
+      "tag": "DIV",
+      "text": "Settings\nTransfer ownership\nRemove",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        166,
+        506.203125,
+        192,
+        186
+      ]
+    },
+    {
+      "tag": "A",
+      "text": "Settings",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": null,
+      "href": "http://127.0.0.1:3192/hellotext/settings/members/29D7LZXk/edit",
+      "rect": [
+        189,
+        531.203125,
+        67.078125,
+        24
+      ]
+    },
+    {
+      "tag": "A",
+      "text": "Transfer ownership",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": null,
+      "href": "http://127.0.0.1:3192/hellotext/ownership/transfer?to=29D7LZXk",
+      "rect": [
+        175,
+        567.203125,
+        174,
+        64
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Remove",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": "click->modal#open",
+      "disabled": false,
+      "rect": [
+        175,
+        635.203125,
+        174,
+        40
+      ]
+    },
+    {
+      "tag": "LI",
+      "text": "DP\nDiego Pereira\nAgent\nResponse on track\nCapacity OK\n\ndesign_system_reports_operations_5_1@example.test",
+      "id": "privilege_nMNaOZrd",
+      "role": null,
+      "action": "keydown.esc@window->modal#close",
+      "rect": [
+        16,
+        767,
+        358,
+        121
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": "click->dropdown#toggle click@window->dropdown#hide",
+      "disabled": false,
+      "rect": [
+        352.40625,
+        827.203125,
+        21.59375,
+        21.59375
+      ]
+    },
+    {
+      "tag": "LI",
+      "text": "VR\nValentina Rojas\nAgent\nResponse on track\nCapacity OK\n\ndesign_system_reports_operations_5_2@example.test",
+      "id": "privilege_EqZvKQrp",
+      "role": null,
+      "action": "keydown.esc@window->modal#close",
+      "rect": [
+        16,
+        908,
+        358,
+        121
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": "click->dropdown#toggle click@window->dropdown#hide",
+      "disabled": false,
+      "rect": [
+        352.40625,
+        968.203125,
+        21.59375,
+        21.59375
+      ]
+    },
+    {
+      "tag": "LI",
+      "text": "MS\nMateo Silva\nAgent\nResponse on track\nCapacity OK\n\ndesign_system_reports_operations_5_3@example.test",
+      "id": "privilege_31Qb3NX0",
+      "role": null,
+      "action": "keydown.esc@window->modal#close",
+      "rect": [
+        16,
+        1049,
+        358,
+        121
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": "click->dropdown#toggle click@window->dropdown#hide",
+      "disabled": false,
+      "rect": [
+        352.40625,
+        1109.203125,
+        21.59375,
+        21.59375
+      ]
+    },
+    {
+      "tag": "LI",
+      "text": "LD\nLucía Demo carga\nAgent\nResponse on track\nCapacity OK\n\neditorial_workload_20260928_low_a@example.test",
+      "id": "privilege_PqQYxZ1a",
+      "role": null,
+      "action": "keydown.esc@window->modal#close",
+      "rect": [
+        16,
+        1190,
+        358,
+        121
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": "click->dropdown#toggle click@window->dropdown#hide",
+      "disabled": false,
+      "rect": [
+        352.40625,
+        1250.203125,
+        21.59375,
+        21.59375
+      ]
+    },
+    {
+      "tag": "LI",
+      "text": "MD\nMateo Demo carga\nAgent\nResponse on track\nCapacity OK\n\neditorial_workload_20260928_low_b@example.test",
+      "id": "privilege_yzZwyN3A",
+      "role": null,
+      "action": "keydown.esc@window->modal#close",
+      "rect": [
+        16,
+        1331,
+        358,
+        121
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": "click->dropdown#toggle click@window->dropdown#hide",
+      "disabled": false,
+      "rect": [
+        352.40625,
+        1391.203125,
+        21.59375,
+        21.59375
+      ]
+    },
+    {
+      "tag": "LI",
+      "text": "SD\nSara Demo carga\nAgent\nResponse overdue\nCapacity OK\n\neditorial_workload_20260928_high@example.test",
+      "id": "privilege_JwZVoQXo",
+      "role": null,
+      "action": "keydown.esc@window->modal#close",
+      "rect": [
+        16,
+        1472,
+        358,
+        121
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": "click->dropdown#toggle click@window->dropdown#hide",
+      "disabled": false,
+      "rect": [
+        352.40625,
+        1532.203125,
+        21.59375,
+        21.59375
+      ]
+    },
+    {
+      "tag": "LI",
+      "text": "TD\nTomás Demo carga\nAgent\nResponse on track\nCapacity OK\n\neditorial_workload_20260928_watch@example.test",
+      "id": "privilege_KXNorQxM",
+      "role": null,
+      "action": "keydown.esc@window->modal#close",
+      "rect": [
+        16,
+        1613,
+        358,
+        121
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": "click->dropdown#toggle click@window->dropdown#hide",
+      "disabled": false,
+      "rect": [
+        352.40625,
+        1673.203125,
+        21.59375,
+        21.59375
+      ]
+    },
+    {
+      "tag": "MAIN",
+      "text": "Are you sure you want to transfer the ownership of Enterprise\n\nThe transfer will be pending until Lucía Méndez accepts the invitation.\n\nEnter your password to confirm this process\nContinue\nCancel",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        19,
+        211,
+        352,
+        422
+      ]
+    },
+    {
+      "tag": "FORM",
+      "text": "Enter your password to confirm this process\nContinue\nCancel",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        55,
+        419,
+        280,
+        158
+      ]
+    },
+    {
+      "tag": "LABEL",
+      "text": "Enter your password to confirm this process",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        55,
+        419,
+        280,
+        48
+      ]
+    },
+    {
+      "tag": "INPUT",
+      "text": "",
+      "id": "password",
+      "name": "password",
+      "role": null,
+      "action": "input->form--submit-inactive#sync",
+      "disabled": false,
+      "value": "EMPTY",
+      "rect": [
+        55,
+        483,
+        280,
+        42
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Continue",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": null,
+      "disabled": true,
+      "rect": [
+        55,
+        533,
+        120.8828125,
+        44
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Cancel",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": "modal#close",
+      "disabled": false,
+      "rect": [
+        191.8828125,
+        533,
+        103.4296875,
+        44
+      ]
+    }
+  ],
+  "guard": {
+    "pid": 57358,
+    "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+    "port": 9460,
+    "one_local_page": true,
+    "account": "design-system@example.test",
+    "color_profile": "display-p3-d65",
+    "no_final_action": true
+  }
+}

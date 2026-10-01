@@ -1,0 +1,221 @@
+{
+  "inspected_at_utc": "2026-10-01T06:28:21.780359+00:00",
+  "protected_rails_sha": "5403a7dcb567b63cae87d4c088112d65fad4eb7f",
+  "current_master_sha": "a6a32d95a0b6cdbd63342100012413446aa2a2f5",
+  "source_files": [
+    {
+      "path": "app/controllers/teams/transfer_ownership_controller.rb",
+      "protected_sha256": "bd4a1f60d10ded1f0b73ffc9375a30c3c07437ebd1c28ff6bf1cd6088af84273",
+      "current_sha256": "bd4a1f60d10ded1f0b73ffc9375a30c3c07437ebd1c28ff6bf1cd6088af84273",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/controllers/teams/transfer_ownership_controller.rb"
+    },
+    {
+      "path": "app/views/teams/transfer_ownership/new.html.erb",
+      "protected_sha256": "d0750963425749a6d84f3df166669d6c5ccd604edaeb5f4f13ec43be5de485bf",
+      "current_sha256": "d0750963425749a6d84f3df166669d6c5ccd604edaeb5f4f13ec43be5de485bf",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/views/teams/transfer_ownership/new.html.erb"
+    },
+    {
+      "path": "app/views/teams/transfer_ownership/edit.html.erb",
+      "protected_sha256": "470beb68f256812caa1a830947c5b13d5d32c28275fbdcea9ff67a4ae8d56e75",
+      "current_sha256": "470beb68f256812caa1a830947c5b13d5d32c28275fbdcea9ff67a4ae8d56e75",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/views/teams/transfer_ownership/edit.html.erb"
+    },
+    {
+      "path": "app/views/teams/transfer_ownership/new.turbo_stream.erb",
+      "protected_sha256": "30d15c0302f5c04627f8feb1a6f548c912f00d8908ec23fc09c0264754591563",
+      "current_sha256": "30d15c0302f5c04627f8feb1a6f548c912f00d8908ec23fc09c0264754591563",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/views/teams/transfer_ownership/new.turbo_stream.erb"
+    },
+    {
+      "path": "app/controllers/settings/privileges_controller.rb",
+      "protected_sha256": "dfd8eb7cf16306c3681e2ac9e628c7b6bd219441de43658bf9fe56207c55e4ad",
+      "current_sha256": "dfd8eb7cf16306c3681e2ac9e628c7b6bd219441de43658bf9fe56207c55e4ad",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/controllers/settings/privileges_controller.rb"
+    },
+    {
+      "path": "app/views/settings/privileges/_privilege.html.erb",
+      "protected_sha256": "c9394126ada5e5dd59e12e3558d97d5dcfc23f84c6ea2465f22c5b96c9b9c16f",
+      "current_sha256": "c9394126ada5e5dd59e12e3558d97d5dcfc23f84c6ea2465f22c5b96c9b9c16f",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/views/settings/privileges/_privilege.html.erb"
+    },
+    {
+      "path": "app/views/settings/privileges/index.html.erb",
+      "protected_sha256": "cdec242d0d80ddd41147e8ccdc98c8abb3ad7b6d4c0d03d2860bc8d2f71c3cf3",
+      "current_sha256": "cdec242d0d80ddd41147e8ccdc98c8abb3ad7b6d4c0d03d2860bc8d2f71c3cf3",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/views/settings/privileges/index.html.erb"
+    },
+    {
+      "path": "app/views/settings/privileges/_nav_list.html.erb",
+      "protected_sha256": "d661a041e82fdc8da5bc258bae56d3b2c6cd0237e4d7ecaad6a8f6ad789b596e",
+      "current_sha256": "d661a041e82fdc8da5bc258bae56d3b2c6cd0237e4d7ecaad6a8f6ad789b596e",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/views/settings/privileges/_nav_list.html.erb"
+    },
+    {
+      "path": "app/policies/privilege_policy.rb",
+      "protected_sha256": "55f5aa67b2ebfc5e80bd9cd239cd0fae15f74721df974b67fab41cac3be10cd2",
+      "current_sha256": "55f5aa67b2ebfc5e80bd9cd239cd0fae15f74721df974b67fab41cac3be10cd2",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/policies/privilege_policy.rb"
+    },
+    {
+      "path": "app/policies/invitation_policy.rb",
+      "protected_sha256": "d151293a01cad796259dc237c60657ca5bb91a5ef6dc0e38e94ec280bf5a61e2",
+      "current_sha256": "d151293a01cad796259dc237c60657ca5bb91a5ef6dc0e38e94ec280bf5a61e2",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/policies/invitation_policy.rb"
+    },
+    {
+      "path": "app/policies/settings_policy.rb",
+      "protected_sha256": "053660c869008157e1db58c297f76546c4de59e07ed41be37100f1b8c3d22387",
+      "current_sha256": "053660c869008157e1db58c297f76546c4de59e07ed41be37100f1b8c3d22387",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/policies/settings_policy.rb"
+    },
+    {
+      "path": "app/models/privilege.rb",
+      "protected_sha256": "0961d7b6c10127123b31d65d4a73e8bab273e01d577fd2143a667785e3eec37d",
+      "current_sha256": "0961d7b6c10127123b31d65d4a73e8bab273e01d577fd2143a667785e3eec37d",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/privilege.rb"
+    },
+    {
+      "path": "app/models/invitation.rb",
+      "protected_sha256": "2cbbecdcb781007cf1cc72e1b4bc425e170f5da0ee9cdd4649d1ad560c399a35",
+      "current_sha256": "2cbbecdcb781007cf1cc72e1b4bc425e170f5da0ee9cdd4649d1ad560c399a35",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/invitation.rb"
+    },
+    {
+      "path": "app/models/user/invitable.rb",
+      "protected_sha256": "d3508e91ac253ed657c9469c19da5521a9ccc1ed5840f51aadd00e24fed1ad1d",
+      "current_sha256": "d3508e91ac253ed657c9469c19da5521a9ccc1ed5840f51aadd00e24fed1ad1d",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/user/invitable.rb"
+    },
+    {
+      "path": "app/models/user/privileges.rb",
+      "protected_sha256": "504f00e1d3f18ac4ab730f784c363d14cf7c3dd28a84d1cec36efb8ce8cd760f",
+      "current_sha256": "504f00e1d3f18ac4ab730f784c363d14cf7c3dd28a84d1cec36efb8ce8cd760f",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/user/privileges.rb"
+    },
+    {
+      "path": "app/models/business/privileges.rb",
+      "protected_sha256": "45c04ac9d114db843f9f9b0d79bf4bd281c6c1c3a0175a214d19fc4dd81bb548",
+      "current_sha256": "45c04ac9d114db843f9f9b0d79bf4bd281c6c1c3a0175a214d19fc4dd81bb548",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/business/privileges.rb"
+    },
+    {
+      "path": "app/models/business/plan_access.rb",
+      "protected_sha256": "bf51b7dbc509af9a9c2fade9d16b9eacac22e5ed29c79b09a77146cb44491fb8",
+      "current_sha256": "bf51b7dbc509af9a9c2fade9d16b9eacac22e5ed29c79b09a77146cb44491fb8",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/business/plan_access.rb"
+    },
+    {
+      "path": "app/controllers/invitation/accept_controller.rb",
+      "protected_sha256": "cd538c952dabc55ff436a38868eae9f5fc57ea8593da186bd259fd9e7f9f5782",
+      "current_sha256": "cd538c952dabc55ff436a38868eae9f5fc57ea8593da186bd259fd9e7f9f5782",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/controllers/invitation/accept_controller.rb"
+    },
+    {
+      "path": "app/controllers/onboarding/invitations_controller.rb",
+      "protected_sha256": "4a1bf685703a95548d9113bcb7740b2df42971dfe526eaff8884db454f3e970f",
+      "current_sha256": "4a1bf685703a95548d9113bcb7740b2df42971dfe526eaff8884db454f3e970f",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/controllers/onboarding/invitations_controller.rb"
+    },
+    {
+      "path": "app/views/onboarding/invitations/show.html.erb",
+      "protected_sha256": "6eff4200a2ecc23a504ff91010e2859330bb484403d37735829e6370b4a12575",
+      "current_sha256": "6eff4200a2ecc23a504ff91010e2859330bb484403d37735829e6370b4a12575",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/views/onboarding/invitations/show.html.erb"
+    },
+    {
+      "path": "app/mailers/invitation_mailer.rb",
+      "protected_sha256": "9a8ceefc81eda000cf4bc9de0d3713445c82623dfeddda9ae73b9f4f2907f0f5",
+      "current_sha256": "9a8ceefc81eda000cf4bc9de0d3713445c82623dfeddda9ae73b9f4f2907f0f5",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/mailers/invitation_mailer.rb"
+    },
+    {
+      "path": "app/views/invitation_mailer/send_ownership_transfer_request.text.erb",
+      "protected_sha256": "224053e9153ccc2f6cbd70a17eeac38bb1642b0533f127a7d3a97183f6c54fde",
+      "current_sha256": "224053e9153ccc2f6cbd70a17eeac38bb1642b0533f127a7d3a97183f6c54fde",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/views/invitation_mailer/send_ownership_transfer_request.text.erb"
+    },
+    {
+      "path": "config/locales/views/teams/transfer_ownership/es.yml",
+      "protected_sha256": "324395d9d7e1cc59e1affe7e8a183407de5b8f1cdca19a2055682881b2dbb973",
+      "current_sha256": "324395d9d7e1cc59e1affe7e8a183407de5b8f1cdca19a2055682881b2dbb973",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/config/locales/views/teams/transfer_ownership/es.yml"
+    },
+    {
+      "path": "config/locales/views/teams/transfer_ownership/en.yml",
+      "protected_sha256": "fc9eb650f0a04afd18b9e742bf2c50b2527258f9c7448e769bc118237d211126",
+      "current_sha256": "fc9eb650f0a04afd18b9e742bf2c50b2527258f9c7448e769bc118237d211126",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/config/locales/views/teams/transfer_ownership/en.yml"
+    },
+    {
+      "path": "config/locales/views/settings/privileges/es.yml",
+      "protected_sha256": "1752bf95b5543a8f358c47ff0228c41bcded191b2fc1a4271130a04134704225",
+      "current_sha256": "1752bf95b5543a8f358c47ff0228c41bcded191b2fc1a4271130a04134704225",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/config/locales/views/settings/privileges/es.yml"
+    },
+    {
+      "path": "config/locales/views/settings/privileges/en.yml",
+      "protected_sha256": "f3250a57517982b4408a27a01d0285470672385b0ab6fd8527099f25ffc239d5",
+      "current_sha256": "f3250a57517982b4408a27a01d0285470672385b0ab6fd8527099f25ffc239d5",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/config/locales/views/settings/privileges/en.yml"
+    },
+    {
+      "path": "config/locales/actions/es.yml",
+      "protected_sha256": "333774977aeab078a30cb11970978bf67c245ca0b2ccd11c05898f69a56ef6d0",
+      "current_sha256": "333774977aeab078a30cb11970978bf67c245ca0b2ccd11c05898f69a56ef6d0",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/config/locales/actions/es.yml"
+    },
+    {
+      "path": "config/locales/actions/en.yml",
+      "protected_sha256": "8e6980d19bd20a7d6f50c5018d53fbf1fbe0e0c2a4db913d5b97048b1be0bc58",
+      "current_sha256": "8e6980d19bd20a7d6f50c5018d53fbf1fbe0e0c2a4db913d5b97048b1be0bc58",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/config/locales/actions/en.yml"
+    },
+    {
+      "path": "config/routes.rb",
+      "protected_sha256": "80450392fdf79334ab528aba9c0ca182ca580b7ef6106645c97d759e3f53df5b",
+      "current_sha256": "80450392fdf79334ab528aba9c0ca182ca580b7ef6106645c97d759e3f53df5b",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/config/routes.rb"
+    }
+  ],
+  "operations": "Read-only source/GET inspection, no request creation, mail, acceptance, cancellation, role or fixture mutation.",
+  "contracts": [
+    "Normal business owner required by transfer policy; business Administrator differs, menu visibility alone does not authorize transfer.",
+    "Members tab/actual selected existing teammate versus Teams/routing; accepted ordinary membership required.",
+    "GET confirmation is inert; password and Continue POST create owner invitation with one-week expiry, replace other owner invitations, and enqueue async mail.",
+    "Pending owner invitation and current owner remain until acceptance; link requires matching confirmed recipient account, pending/unexpired invitation, explicit PATCH acceptance.",
+    "Current accept implementation updates only recipient privilege to owner; no removal/downgrade of earlier owner privilege was found. Do not promise exclusive ownership or automatic previous-access revocation. Verify roles/sole owner with Support before treating handover complete.",
+    "Pending badge uses pending invitations without expiry filter; expiry blocks acceptance but need not remove badge.",
+    "Cancel menu opens confirmation; DELETE removes pending request, not a completed owner role; new/retry request must first reconcile uncertain state.",
+    "No pending email/request/acceptance/cancel/result screenshot fabricated; owner and all member roles remain unchanged."
+  ]
+}
