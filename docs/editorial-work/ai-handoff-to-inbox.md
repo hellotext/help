@@ -53,3 +53,5 @@ Complete ES/EN articles, twelve original headings, six figures each, eighteen or
 ## Earlier production limitation
 
 WhatsApp record #332 exact main Build passed but normal Netlify deploy6abe590f2f5e500008a29f8b failed internal updateSiteDeploy HTTP500; final record SHA publication remains unverified. User explicitly requested continuing screenshots on2026-10-01. This genuine new batch proceeds under that direction. No manual deploy/retry or artificial commit; previous content remains publicly verified at #331. Do not retrospectively claim #332 published if a later genuine SHA succeeds.
+
+Local verifier commit: `cd1666d163b4e3ffed11f6c7518db5915d6e2152`. This ledger commit is its direct child; public verification is pending.
