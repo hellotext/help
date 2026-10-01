@@ -13,7 +13,23 @@ Create teams around real ownership boundaries. A team should describe who can ta
 5. Add the teammates who can handle conversations for that team.
 6. Set **Max concurrent conversations**.
 7. Set **Active teammate handling hours per day**.
-8. Save the team.
+8. Select **Save** to persist the name, members, and both capacity values.
+
+Creating or editing teams requires Owner, Administrator, or Manager permission and availability of the feature in the plan. Editing a member’s capacity has its own permissions: managing teams does not automatically grant access to every member form.
+
+The figure shows **Soporte demo** entered in a new unsaved form, with **5** conversations and **6** hours as initial values. On desktop, **Teammates** is empty; in the small view, **Lucía** is only search text, with no teammate selected or added. Search by name or email. It shows the complete heading and fields, with the saving footer omitted. No team was created and no work was assigned.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Real New team form with fictional Soporte demo unsaved, no members, and initial capacity of 5 conversations and 6 hours.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="width: fit-content; max-width: 504px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/team/teams-and-inbox-capacity/team-en-mobile.png 2x" width="824" height="1298" />
+        <img src="/images/team/teams-and-inbox-capacity/team-en.png" srcset="/images/team/teams-and-inbox-capacity/team-en.png 2x" style="width: auto; margin: 0 auto;" width="972" height="1298" loading="lazy" decoding="async" alt="Real New team form with fictional Soporte demo unsaved, no members, and initial capacity of 5 conversations and 6 hours." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real New team form with fictional Soporte demo unsaved, no members, and initial capacity of 5 conversations and 6 hours.</figcaption>
+</figure>
 
 A teammate can belong to more than one team. Hellotext uses the team selected by the playbook, journey, or routing rule as the context for that assignment.
 
@@ -23,7 +39,9 @@ A teammate can belong to more than one team. Hellotext uses the team selected by
 
 This is the maximum number of active conversations each eligible teammate can handle at the same time through automatic team routing.
 
-Capacity is based on assigned conversations that still need the teammate's attention. It is not a count of every historical conversation or every conversation that appears in the Inbox.
+Capacity is based on assigned conversations that still need the teammate’s attention within the business. It is not a count of every historical conversation or every conversation that appears in the Inbox. Reading a conversation does not mean it has been handled: team attention and personal reading state are separate.
+
+For example, if someone owns 12 conversations but only 3 need attention, with a limit of 5 for the target team, those 3 consume routing capacity. This is a conceptual example, not a result shown in the figures.
 
 ### Active teammate handling hours per day
 
@@ -43,7 +61,37 @@ When inviting a teammate or editing an existing member, choose one of these Inbo
 
 Use a custom capacity when someone's schedule or responsibilities differ consistently from the rest of the team. Exclude people who need access to Hellotext for management or reporting but should not receive Inbox work.
 
-These settings apply to Inbox handling and workload tracking. They do not change the teammate's role.
+These settings apply to Inbox handling and workload tracking. They do not change the teammate’s role or add team memberships.
+
+The figure reuses the real selector for fictional teammate **Lucía Méndez**, who already has **Different from the team** selected. Her mode was neither changed nor saved. This state is independent of the new Soporte demo form.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Three capacity modes for fictional Lucía Méndez, with Different from the team already selected and no changes.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="width: fit-content; max-width: 631px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/team/understanding-team-roles/capacity-en-mobile.png 2x" width="828" height="1202" />
+        <img src="/images/team/understanding-team-roles/capacity-en.png" srcset="/images/team/understanding-team-roles/capacity-en.png 2x" style="width: auto; margin: 0 auto;" width="1226" height="1262" loading="lazy" decoding="async" alt="Three capacity modes for fictional Lucía Méndez, with Different from the team already selected and no changes." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Three capacity modes for fictional Lucía Méndez, with Different from the team already selected and no changes.</figcaption>
+</figure>
+
+**Next** in the selector saves the mode before opening custom fields. **Save and Close** also saves; in custom mode it can fill initial values and exit. Do not use these buttons solely to inspect a setting without modifying it.
+
+In the custom form, set concurrent conversations to a positive integer and daily hours to whole hours from **1 to 24**. The figure shows Lucía’s existing **4** conversations and **6** hours, neither changed nor saved. The entire navigation footer is omitted. The custom limit applies when that member is eligible for the target team; it does not create availability or business hours.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Real custom-capacity fields for fictional Lucía: existing 4 conversations and 6 hours, without saved changes.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="width: fit-content; max-width: 630px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/team/teams-and-inbox-capacity/custom-en-mobile.png 2x" width="828" height="1090" />
+        <img src="/images/team/teams-and-inbox-capacity/custom-en.png" srcset="/images/team/teams-and-inbox-capacity/custom-en.png 2x" style="width: auto; margin: 0 auto;" width="1224" height="1162" loading="lazy" decoding="async" alt="Real custom-capacity fields for fictional Lucía: existing 4 conversations and 6 hours, without saved changes." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real custom-capacity fields for fictional Lucía: existing 4 conversations and 6 hours, without saved changes.</figcaption>
+</figure>
 
 ## Understand automatic assignment to a team
 
@@ -52,14 +100,16 @@ A playbook escalation, a journey Assignment step, or another routing rule can se
 When a conversation targets a team, Hellotext:
 
 1. Looks for members of that team who are allowed to handle Inbox messages.
-2. Considers availability, conversation capacity, and current active workload.
+2. Considers recent presence, conversation capacity, and current active workload. When some members have been present recently, it prioritizes that pool; absent members are not overflow capacity when the recent pool is full.
 3. Assigns the conversation to an eligible teammate.
 
 If all eligible members are at capacity, the conversation can remain **Unassigned** while preserving the team as its destination. When capacity becomes available, Hellotext can assign waiting conversations to an eligible member.
 
-Waiting conversations keep their order for that team. An unassigned conversation with a target team should not be treated as unrestricted work for every teammate.
+Waiting conversations are reviewed by when they started waiting for that team; later customer activity does not move them ahead. Clearing attention or changing capacity can queue a review in the background: there is no guaranteed assignment time. This queue is separate from waiting for any online person in the business.
 
-If a team has no eligible members, automatic routing cannot complete. Before enabling a playbook or route, confirm that the destination team has at least one member who handles Inbox messages and test the handoff.
+An unassigned conversation with a target team should not be treated as unrestricted work for every teammate. Automatic pickup on reply requires membership in the pending team and can happen even when that member is at capacity; manual reassignment has its own permissions. A routing limit does not universally block every human action.
+
+A team with no eligible members is different from a valid but full team: do not assume it creates a capacity queue or falls back to another team. Before enabling a playbook or journey, confirm members’ team membership, current access, and handling mode, and check the handoff target in your flow.
 
 Keep reading: [Assign conversations]({% link _team/assigning-conversations.md %}).
 
@@ -67,10 +117,24 @@ Keep reading: [Assign conversations]({% link _team/assigning-conversations.md %}
 
 The **Options** tab under **Your Team** controls what happens when a conversation reopens. This setting applies to all conversations across the business.
 
-- **Fastest response:** routes the conversation to the best available teammate at that moment.
-- **Keep same teammate:** favors continuity with the previous assignee.
-- **AI-first:** lets AI respond first and escalate when needed.
+- **Fastest response:** looks for an online person with capacity under the general protocol. Without one it can use an eligible AI path; without an active path or available person it can leave work waiting unassigned.
+- **Keep same teammate:** keeps the previous assignee while they retain valid business access. It does not require the same presence or capacity as a new team selection; without a valid assignee it falls back to Fastest response.
+- **AI-first:** first checks active journeys that can handle reopening, then eligible playbooks. It does not guarantee an AI reply: without an active path it can fall back to an online person or leave the conversation unassigned.
 - **Unassigned queue:** leaves the conversation open for a teammate to pick up manually.
+
+The figure shows all four options with **Fastest response** already selected in the fictional business. No other option was selected and no conversation was reopened. **Selecting a card saves the option automatically**: this screen has no final Save button.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Real reopened-conversation ownership options with Fastest response already selected, without changes.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="width: fit-content; max-width: 886px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/team/teams-and-inbox-capacity/options-en-mobile.png 2x" width="828" height="1964" />
+        <img src="/images/team/teams-and-inbox-capacity/options-en.png" srcset="/images/team/teams-and-inbox-capacity/options-en.png 2x" style="width: auto; margin: 0 auto;" width="1736" height="1520" loading="lazy" decoding="async" alt="Real reopened-conversation ownership options with Fastest response already selected, without changes." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real reopened-conversation ownership options with Fastest response already selected, without changes.</figcaption>
+</figure>
 
 This business-wide ownership protocol is different from a team target. The protocol decides how reopened conversations enter the workflow; a playbook, journey, or routing rule decides which team should receive a specific handoff.
 
@@ -89,6 +153,20 @@ Change capacity gradually and review the effect on the Inbox. A higher limit may
 
 Use response-time reporting to evaluate the result instead of treating capacity as a service-level promise.
 
+The figure reuses **Capacity pressure by team** from the fictional report for **September 11–24, 2026**. Bars compare consumed handling time and available capacity for the selected period; **Ventas demo** shows **42.9d** and **Atención demo**, **40.6d** of available capacity. These are aggregate durations, not conversations, business-hour schedules, or a current queue. Fictional names remain the same in both interfaces. Labels are compact on mobile; the values and period are also written here. This report is independent of the guide’s forms and does not prove the effect of a capacity change.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Fictional Capacity pressure by team report for September 11–24, 2026: available capacity Ventas demo 42.9d and Atención demo 40.6d.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="width: fit-content; max-width: 1253px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/analytics-reporting-attribution/workload-capacity-report-guide/capacity-pressure-team-en.png 2x" width="2470" height="1008" />
+        <img src="/images/analytics-reporting-attribution/workload-capacity-report-guide/capacity-pressure-team-en.png" srcset="/images/analytics-reporting-attribution/workload-capacity-report-guide/capacity-pressure-team-en.png 2x" style="width: auto; margin: 0 auto;" width="2470" height="1008" loading="lazy" decoding="async" alt="Fictional Capacity pressure by team report for September 11–24, 2026: available capacity Ventas demo 42.9d and Atención demo 40.6d." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Fictional Capacity pressure by team report for September 11–24, 2026: available capacity Ventas demo 42.9d and Atención demo 40.6d.</figcaption>
+</figure>
+
 Keep reading: [Response times and response rules]({% link _team/understanding-response-times.md %}).
 
 ## Change or remove a team safely
@@ -100,7 +178,7 @@ Before removing a teammate from a team or deleting the team:
 3. Review waiting and assigned conversations in the Inbox.
 4. Confirm that the replacement team has eligible members and enough capacity.
 
-Deleting a team clears that destination from conversations that were waiting for it. Review the Unassigned queue after the change so no customer work is left without a clear owner.
+Deleting a team clears the target and waiting timestamp from pending conversations; it also removes its members and certain Assignment references. It does not automatically choose a replacement team or change every existing assignee. Review flow references and the **Unassigned** queue after the change so no customer work is left without a clear owner. No team was deleted to obtain these figures.
 
 ## Related guides
 
