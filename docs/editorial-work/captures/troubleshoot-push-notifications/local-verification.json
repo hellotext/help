@@ -1,0 +1,317 @@
+{
+  "originals": [
+    {
+      "article": "_i18n/es/troubleshooting-deliverability/troubleshoot-push-notifications.md",
+      "snapshot": "docs/editorial-work/captures/troubleshoot-push-notifications/originals/es.md",
+      "sha256": "ee25c6b3e648d63f0ef5c723b281542b2f471c4eedd88e1c4779bbbcc7f972f0",
+      "headings": [
+        "## Antes de empezar",
+        "## 1. Una notificaci\u00f3n no llega",
+        "## 2. La configuraci\u00f3n falla o aparece un aviso sobre el service worker",
+        "### Shopify o VTEX",
+        "### Un sitio personalizado con Hellotext.js",
+        "## 3. La notificaci\u00f3n llega sin imagen o sin botones",
+        "## 4. Aparecen dos notificaciones por un mismo mensaje",
+        "## 5. Al hacer clic se abre la p\u00e1gina equivocada",
+        "## Cu\u00e1ndo contactar a Soporte",
+        "## Gu\u00edas relacionadas"
+      ],
+      "links": [
+        "_team/inbox-browser-notifications.md",
+        "_integrations/setup-push-notifications.md",
+        "_troubleshooting-deliverability/contact-hellotext-support.md",
+        "_developers/setup-push-with-hellotext-js.md",
+        "_developers/setup-push-with-hellotext-js.md",
+        "_troubleshooting-deliverability/contact-hellotext-support.md",
+        "_integrations/setup-push-notifications.md",
+        "_developers/setup-push-with-hellotext-js.md",
+        "_team/inbox-browser-notifications.md"
+      ],
+      "live_sha256": "63f021c54bb5d28fd44af0e59714841ffc5bb94358cc71b6c984a50975a48ca8",
+      "headings_original_links_stub_preserved": true
+    },
+    {
+      "article": "_i18n/en/troubleshooting-deliverability/troubleshoot-push-notifications.md",
+      "snapshot": "docs/editorial-work/captures/troubleshoot-push-notifications/originals/en.md",
+      "sha256": "8f810a6212a46c63c5acd7d98839cdc932a9ec0621889cdbc13639f07928b929",
+      "headings": [
+        "## Before you start",
+        "## 1. A notification does not arrive",
+        "## 2. Setup fails or a service-worker warning appears",
+        "### Shopify or VTEX",
+        "### A custom website using Hellotext.js",
+        "## 3. The notification arrives without an image or buttons",
+        "## 4. Two notifications appear for one message",
+        "## 5. Clicking the notification opens the wrong page",
+        "## When to contact Support",
+        "## Related guides"
+      ],
+      "links": [
+        "_team/inbox-browser-notifications.md",
+        "_integrations/setup-push-notifications.md",
+        "_troubleshooting-deliverability/contact-hellotext-support.md",
+        "_developers/setup-push-with-hellotext-js.md",
+        "_developers/setup-push-with-hellotext-js.md",
+        "_troubleshooting-deliverability/contact-hellotext-support.md",
+        "_integrations/setup-push-notifications.md",
+        "_developers/setup-push-with-hellotext-js.md",
+        "_team/inbox-browser-notifications.md"
+      ],
+      "live_sha256": "a5368eaf8e724effbd7a1e5d9cb1e507d753acceb474931fb787344396ec0034",
+      "headings_original_links_stub_preserved": true
+    },
+    {
+      "article": "_troubleshooting-deliverability/troubleshoot-push-notifications.md",
+      "snapshot": "docs/editorial-work/captures/troubleshoot-push-notifications/originals/stub.md",
+      "sha256": "32a1206f6027a43875bb63b39ff526a3114bfa3a5c9a11f84708a91d8222f4a8",
+      "headings": [],
+      "links": [],
+      "live_sha256": "32a1206f6027a43875bb63b39ff526a3114bfa3a5c9a11f84708a91d8222f4a8",
+      "headings_original_links_stub_preserved": true
+    }
+  ],
+  "images": [
+    {
+      "asset": "images/integrations/setup-push-notifications/origin-es.png",
+      "sha256": "fa59b9a6e10d67c3564f94e521167c033ca6919d38770e85479402e3626908d5",
+      "pixels": [
+        1064,
+        292
+      ],
+      "logical_size": [
+        532,
+        146
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/setup-push-notifications/capture-provenance.json"
+    },
+    {
+      "asset": "images/integrations/setup-push-notifications/origin-es-mobile.png",
+      "sha256": "14c8a9c76ffe7998b42e154756d3030b572c2fb509cbcc7b5a91b40ed7b7bc43",
+      "pixels": [
+        764,
+        332
+      ],
+      "logical_size": [
+        382,
+        166
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/setup-push-notifications/capture-provenance.json"
+    },
+    {
+      "asset": "images/integrations/setup-push-notifications/alert-es.png",
+      "sha256": "e02b43c9069d3d2a0c403fd2e07c625462e7c4b174903f68e3005e101931b4b3",
+      "pixels": [
+        992,
+        520
+      ],
+      "logical_size": [
+        496,
+        260
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/setup-push-notifications/capture-provenance.json"
+    },
+    {
+      "asset": "images/integrations/setup-push-notifications/alert-es-mobile.png",
+      "sha256": "c0949b17b4a60085477ec06d6c0ed1884a83a14496c52d6da4a0cf8941a60c43",
+      "pixels": [
+        732,
+        692
+      ],
+      "logical_size": [
+        366,
+        346
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/setup-push-notifications/capture-provenance.json"
+    },
+    {
+      "asset": "images/integrations/setup-push-notifications/origin-en.png",
+      "sha256": "dd56bbed90b8d9fc69ad9bae67f37f3eced0c3bc13211af14d27d8740a2b811f",
+      "pixels": [
+        1064,
+        292
+      ],
+      "logical_size": [
+        532,
+        146
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/setup-push-notifications/capture-provenance.json"
+    },
+    {
+      "asset": "images/integrations/setup-push-notifications/origin-en-mobile.png",
+      "sha256": "bb8c060dad6b6ab9a1d07a5f94175f1b7463cec61d1c73e03908215cd8ff6d8e",
+      "pixels": [
+        764,
+        332
+      ],
+      "logical_size": [
+        382,
+        166
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/setup-push-notifications/capture-provenance.json"
+    },
+    {
+      "asset": "images/integrations/setup-push-notifications/alert-en.png",
+      "sha256": "1f23f73197f7f471bd1d56e5fce8962d1eff0617d211767be5db8636d8dad6e4",
+      "pixels": [
+        992,
+        520
+      ],
+      "logical_size": [
+        496,
+        260
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/setup-push-notifications/capture-provenance.json"
+    },
+    {
+      "asset": "images/integrations/setup-push-notifications/alert-en-mobile.png",
+      "sha256": "8c1afef271e28d8977be58884d59c62285d7c1f3f6004459dce9638da0b7a91b",
+      "pixels": [
+        732,
+        632
+      ],
+      "logical_size": [
+        366,
+        316
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/setup-push-notifications/capture-provenance.json"
+    }
+  ],
+  "browser": [
+    {
+      "locale": "es",
+      "device": "desktop",
+      "width_css": 1440,
+      "headings": 10,
+      "figures": 2,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    },
+    {
+      "locale": "es",
+      "device": "mobile",
+      "width_css": 390,
+      "headings": 10,
+      "figures": 2,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    },
+    {
+      "locale": "es",
+      "device": "narrow",
+      "width_css": 580,
+      "headings": 10,
+      "figures": 2,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    },
+    {
+      "locale": "en",
+      "device": "desktop",
+      "width_css": 1440,
+      "headings": 10,
+      "figures": 2,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    },
+    {
+      "locale": "en",
+      "device": "mobile",
+      "width_css": 390,
+      "headings": 10,
+      "figures": 2,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    },
+    {
+      "locale": "en",
+      "device": "narrow",
+      "width_css": 580,
+      "headings": 10,
+      "figures": 2,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    }
+  ],
+  "build": {
+    "command": "RBENV_VERSION=3.3.6 PATH=/Users/pel/.rbenv/shims:$PATH yarn build",
+    "exit_code": 0,
+    "production_bilingual_build": "passed",
+    "security_headers": "configured"
+  },
+  "publication_state": "Not yet publicly verified; protected PR and normal production verification pending.",
+  "safety": "No application, DB, account/locale, fixture, permission, subscription, notification, API/example, provider, or worker operation in this consuming batch. Original Setup Push mutations/guards/state/route/locale and limits remain in its provenance; no retrospective guard or current fixture count asserted."
+}
