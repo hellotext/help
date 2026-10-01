@@ -1,0 +1,489 @@
+{
+  "url": "http://127.0.0.1:3192/hellotext/settings/members/29D7LZXk/capacity",
+  "title": "Edit Member - Inbox Capacity - Hellotext",
+  "locale": "en",
+  "viewport": [
+    1400,
+    1000
+  ],
+  "dpr": 2,
+  "zoom": 1,
+  "scroll": [
+    0,
+    0
+  ],
+  "text": "D\nHow should this member handle Inbox conversations?\n\nThese settings only apply to Inbox message handling and workload tracking.\n\nDoes not handle Inbox messages\n\nThis member won’t receive or reply to conversations in the Inbox.\n\nSame as the team\n\nThis member uses the team’s Inbox capacity limits.\n\nDifferent from the team\n\nSet custom concurrency and working hours for this member.\n\nBack\nSave & Close\nNext",
+  "controls": [
+    {
+      "tag": "HEADER",
+      "id": "",
+      "text": "D",
+      "rect": [
+        0,
+        16.5,
+        1400,
+        43
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "id": "xDXgzkHQke",
+      "text": "D",
+      "rect": [
+        1336,
+        18,
+        40,
+        40
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "id": "",
+      "text": "D",
+      "rect": [
+        1336,
+        18,
+        40,
+        40
+      ]
+    },
+    {
+      "tag": "FORM",
+      "id": "edit_privilege_29D7LZXk",
+      "text": "How should this member handle Inbox conversations?\n\nThese settings only apply to Inbox message handling and workload tracking.\n\nDoes not handle Inbox messages\n\nThis member won’t receive or reply to conversations in the Inbox.\n\nSame as the team\n\nThis member uses the team’s Inbox capacity limits.\n\nDifferent from the team\n\nSet custom concurrency and working hours for this member.\n\nBack\nSave & Close\nNext",
+      "name": "",
+      "rect": [
+        0,
+        84,
+        1400,
+        935
+      ]
+    },
+    {
+      "tag": "HEADER",
+      "id": "",
+      "text": "How should this member handle Inbox conversations?\n\nThese settings only apply to Inbox message handling and workload tracking.",
+      "rect": [
+        168.890625,
+        148,
+        595.546875,
+        220
+      ]
+    },
+    {
+      "tag": "H1",
+      "id": "wizard-header-title",
+      "text": "How should this member handle Inbox conversations?",
+      "rect": [
+        168.890625,
+        148,
+        595.546875,
+        156
+      ]
+    },
+    {
+      "tag": "LABEL",
+      "id": "",
+      "text": "Does not handle Inbox messages\n\nThis member won’t receive or reply to conversations in the Inbox.",
+      "rect": [
+        168.890625,
+        432,
+        496.2890625,
+        97
+      ]
+    },
+    {
+      "tag": "INPUT",
+      "id": "privilege_inbox_capacity_mode_excluded",
+      "text": "",
+      "name": "privilege[inbox_capacity_mode]",
+      "value": "excluded",
+      "checked": false,
+      "disabled": false,
+      "rect": [
+        168.890625,
+        462,
+        20,
+        20
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "id": "",
+      "text": "Does not handle Inbox messages\n\nThis member won’t receive or reply to conversations in the Inbox.",
+      "rect": [
+        220.890625,
+        432,
+        444.2890625,
+        80
+      ]
+    },
+    {
+      "tag": "LABEL",
+      "id": "",
+      "text": "Same as the team\n\nThis member uses the team’s Inbox capacity limits.",
+      "rect": [
+        168.890625,
+        561,
+        496.2890625,
+        73
+      ]
+    },
+    {
+      "tag": "INPUT",
+      "id": "privilege_inbox_capacity_mode_inherit_team",
+      "text": "",
+      "name": "privilege[inbox_capacity_mode]",
+      "value": "inherit_team",
+      "checked": false,
+      "disabled": false,
+      "rect": [
+        168.890625,
+        579,
+        20,
+        20
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "id": "",
+      "text": "Same as the team\n\nThis member uses the team’s Inbox capacity limits.",
+      "rect": [
+        220.890625,
+        561,
+        395.4921875,
+        56
+      ]
+    },
+    {
+      "tag": "LABEL",
+      "id": "",
+      "text": "Different from the team\n\nSet custom concurrency and working hours for this member.",
+      "rect": [
+        168.890625,
+        666,
+        496.2890625,
+        97
+      ]
+    },
+    {
+      "tag": "INPUT",
+      "id": "privilege_inbox_capacity_mode_custom",
+      "text": "",
+      "name": "privilege[inbox_capacity_mode]",
+      "value": "custom",
+      "checked": true,
+      "disabled": false,
+      "rect": [
+        168.890625,
+        696,
+        20,
+        20
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "id": "",
+      "text": "Different from the team\n\nSet custom concurrency and working hours for this member.",
+      "rect": [
+        220.890625,
+        666,
+        444.2890625,
+        80
+      ]
+    },
+    {
+      "tag": "MAIN",
+      "id": "",
+      "text": "Save & Close\nNext",
+      "rect": [
+        654.890625,
+        940,
+        246.4375,
+        44
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Save & Close",
+      "name": "commit",
+      "value": "save_and_close",
+      "disabled": false,
+      "rect": [
+        654.890625,
+        940,
+        153.296875,
+        44
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "id": "",
+      "text": "Next",
+      "name": "commit",
+      "value": "next",
+      "disabled": false,
+      "rect": [
+        816.1875,
+        940,
+        85.140625,
+        44
+      ]
+    }
+  ],
+  "requests": [
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/hellotext/settings/members/29D7LZXk/capacity"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@vite/client"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/entrypoints/alt.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/translations/en/4897dbef0c51a33e9715bce192b75b617c6159a3.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-editorial-screenshots-static/node_modules/vite/dist/client/env.mjs"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/@hotwired_turbo-rails.js?v=2eb3672c"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/turbo___power.js?v=2eb3672c"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/@hotwired_stimulus.js?v=2eb3672c"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/@rails_activestorage.js?v=2eb3672c"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/trix.js?v=d3214812"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/@rails_actiontext.js?v=2eb3672c"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/channels/index.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/entrypoints/application/push_notifications.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/entrypoints/application/pane_viewport.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/entrypoints/stylesheets/application.scss"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/static/agreement_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/compose/email_color_field_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/artifact/image_gallery_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/form/dynamic_action_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/pane_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/payments/package_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/payments/packages_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/radio_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/settings/pane_frame_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/step/name_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/toast_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/toast_stack_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/ui/popover_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/settings/member_search_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/settings/template_preview_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/onboarding/wizard_history_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/entrypoints/application/conversation_stream_actions.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/rolldown-runtime-B-lAHAz2.js?v=a41ca255"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/@hotwired_turbo.js?v=26a24a72"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/@rails_request__js.js?v=9ea441b1"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/application_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/concerns/closable_pane.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/models/money_formatter.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/mixins/useNumberHelpers.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/lottie-web.js?v=0e91dba8"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/mixins/useAutoWidthInput.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/@floating-ui_dom.js?v=f2a2bcb0"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/keyboard_navigation_mixin.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/popup/dropdown_highlight_styles.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/lib/random_uuid.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/lib/number_formatter.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/src-eDHVofsP.js?v=a41ca255"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/user/online_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/progress_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/form/submit_inactive_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/util/multi_submit_controller.js"
+    },
+    {
+      "method": "GET",
+      "url": "data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3ccircle cx='8' cy='8' r='3'/%3e%3c/svg%3e"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/app/assets/fonts/BagossExtended-SemiBold.woff2"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/app/assets/fonts/PPObjectSans-Regular.woff2"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/app/assets/fonts/PPObjectSans-Medium.woff2"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/animations/toast-success-confetti.json"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/channels/consumer.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/models/current.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/@fs/private/tmp/hellotext-forms-ui-refresh/node_modules/.vite/deps/@rails_actioncable.js?v=1e575282"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/vite-dev/controllers/models/browser.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:3192/hellotext/journeys/new"
+    }
+  ],
+  "guard": {
+    "pid": 57358,
+    "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+    "port": 9460,
+    "account": "design-system@example.test",
+    "single_local_page": true,
+    "color": "display-p3-d65"
+  }
+}

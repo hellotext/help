@@ -1,0 +1,913 @@
+{
+  "status": "locally_verified",
+  "base_revision": "80989111afbc77fbc36e4a1a5d6659364609f99f",
+  "originals": [
+    {
+      "article": "_i18n/es/team/understanding-team-roles.md",
+      "snapshot": "docs/editorial-work/captures/understanding-team-roles/originals/es.md",
+      "sha256": "b36966066ffa44f1ecfcabaa67cf7e1229700fcca0de81c7ec10d937d8d5f753",
+      "headings": [
+        "## Compara los roles",
+        "### Agente",
+        "### Manager",
+        "### Administrador",
+        "### Dueño",
+        "## Elige un rol según la responsabilidad",
+        "## Invita a una persona",
+        "## Cambia un rol existente",
+        "## Entiende roles, equipos y capacidad del Inbox",
+        "## Quita el acceso de forma segura",
+        "## Guías relacionadas"
+      ],
+      "links": [
+        "_integrations/transferring-ownership.md",
+        "_team/teams-and-inbox-capacity.md",
+        "_team/teams-and-inbox-capacity.md",
+        "_team/assigning-conversations.md",
+        "_team/conversation-lifecycle.md",
+        "_integrations/transferring-ownership.md"
+      ]
+    },
+    {
+      "article": "_i18n/en/team/understanding-team-roles.md",
+      "snapshot": "docs/editorial-work/captures/understanding-team-roles/originals/en.md",
+      "sha256": "a93fd0692e4a38306cb11ffaf6e2d731cc02669284cf7b80dc67e0bb85f03e43",
+      "headings": [
+        "## Compare the roles",
+        "### Agent",
+        "### Manager",
+        "### Administrator",
+        "### Owner",
+        "## Choose a role by responsibility",
+        "## Invite a teammate",
+        "## Change an existing role",
+        "## Understand roles, teams, and Inbox capacity",
+        "## Remove access safely",
+        "## Related guides"
+      ],
+      "links": [
+        "_integrations/transferring-ownership.md",
+        "_team/teams-and-inbox-capacity.md",
+        "_team/teams-and-inbox-capacity.md",
+        "_team/assigning-conversations.md",
+        "_team/conversation-lifecycle.md",
+        "_integrations/transferring-ownership.md"
+      ]
+    },
+    {
+      "article": "_team/understanding-team-roles.md",
+      "snapshot": "docs/editorial-work/captures/understanding-team-roles/originals/stub.md",
+      "sha256": "903f2917d4b5b2dd79fe220251ffdeacee4f5059d4aa3c6cbdf9849108457751",
+      "headings": [],
+      "links": []
+    }
+  ],
+  "images": [
+    {
+      "concept": "roles",
+      "locale": "es",
+      "mobile": false,
+      "published_asset": "images/team/understanding-team-roles/roles-es.png",
+      "sha256": "8f241c8a53e11aa119ddeb6f8d77dfaa571d697cda83a7a892de1d064b224b20",
+      "pixels": [
+        1226,
+        1054
+      ],
+      "logical_size": [
+        613.0,
+        527.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/understanding-team-roles/native/roles-es-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-team-roles-editorial-20261001/native/roles-es-original.png",
+        "sha256": "8f241c8a53e11aa119ddeb6f8d77dfaa571d697cda83a7a892de1d064b224b20",
+        "url": "http://127.0.0.1:3192/hellotext/settings/members/29D7LZXk/edit",
+        "locale": "es",
+        "cssViewport": [
+          1400,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          160,
+          140,
+          613,
+          527
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1226,
+          1054
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/settings/members/29D7LZXk/edit",
+        "title": "Nueva invitación - Seleccionar rol - Hellotext",
+        "locale": "es",
+        "viewport": [
+          1400,
+          800
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "reused": false,
+      "new_capture": true,
+      "consumer_publication_state": "pending_protected_pr_and_normal_production_verification"
+    },
+    {
+      "concept": "roles",
+      "locale": "es",
+      "mobile": true,
+      "published_asset": "images/team/understanding-team-roles/roles-es-mobile.png",
+      "sha256": "1b1ea07c8a1e1369b6010ede374de9b9b770108ad3f1dee51a54c6168f62ce4a",
+      "pixels": [
+        828,
+        1190
+      ],
+      "logical_size": [
+        414.0,
+        595.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/understanding-team-roles/native/roles-es-mobile-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-team-roles-editorial-20261001/native/roles-es-mobile-original.png",
+        "sha256": "1b1ea07c8a1e1369b6010ede374de9b9b770108ad3f1dee51a54c6168f62ce4a",
+        "url": "http://127.0.0.1:3192/hellotext/settings/members/29D7LZXk/edit",
+        "locale": "es",
+        "cssViewport": [
+          430,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          8,
+          48,
+          414,
+          595
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          828,
+          1190
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/settings/members/29D7LZXk/edit",
+        "title": "Nueva invitación - Seleccionar rol - Hellotext",
+        "locale": "es",
+        "viewport": [
+          430,
+          800
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "reused": false,
+      "new_capture": true,
+      "consumer_publication_state": "pending_protected_pr_and_normal_production_verification"
+    },
+    {
+      "concept": "capacity",
+      "locale": "es",
+      "mobile": false,
+      "published_asset": "images/team/understanding-team-roles/capacity-es.png",
+      "sha256": "0d1d09814783fd6d04d0448b1b287bd471d731e085cafe5b074fa327e1ce4acd",
+      "pixels": [
+        1226,
+        1414
+      ],
+      "logical_size": [
+        613.0,
+        707.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/understanding-team-roles/native/capacity-es-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-team-roles-editorial-20261001/native/capacity-es-original.png",
+        "sha256": "0d1d09814783fd6d04d0448b1b287bd471d731e085cafe5b074fa327e1ce4acd",
+        "url": "http://127.0.0.1:3192/hellotext/settings/members/29D7LZXk/capacity",
+        "locale": "es",
+        "cssViewport": [
+          1400,
+          1000
+        ],
+        "browserDpr": 2,
+        "clip": [
+          160,
+          140,
+          613,
+          707
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1226,
+          1414
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/settings/members/29D7LZXk/capacity",
+        "title": "Editar miembro - Capacidad de Inbox - Hellotext",
+        "locale": "es",
+        "viewport": [
+          1400,
+          1000
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "reused": false,
+      "new_capture": true,
+      "consumer_publication_state": "pending_protected_pr_and_normal_production_verification"
+    },
+    {
+      "concept": "capacity",
+      "locale": "es",
+      "mobile": true,
+      "published_asset": "images/team/understanding-team-roles/capacity-es-mobile.png",
+      "sha256": "2ca8c170f9ba507c113365ecac8232d8373a24f0766af7b1b9115d810ba19960",
+      "pixels": [
+        828,
+        1250
+      ],
+      "logical_size": [
+        414.0,
+        625.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/understanding-team-roles/native/capacity-es-mobile-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-team-roles-editorial-20261001/native/capacity-es-mobile-original.png",
+        "sha256": "2ca8c170f9ba507c113365ecac8232d8373a24f0766af7b1b9115d810ba19960",
+        "url": "http://127.0.0.1:3192/hellotext/settings/members/29D7LZXk/capacity",
+        "locale": "es",
+        "cssViewport": [
+          430,
+          900
+        ],
+        "browserDpr": 2,
+        "clip": [
+          8,
+          48,
+          414,
+          625
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          828,
+          1250
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/settings/members/29D7LZXk/capacity",
+        "title": "Editar miembro - Capacidad de Inbox - Hellotext",
+        "locale": "es",
+        "viewport": [
+          430,
+          900
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "reused": false,
+      "new_capture": true,
+      "consumer_publication_state": "pending_protected_pr_and_normal_production_verification"
+    },
+    {
+      "concept": "roles",
+      "locale": "en",
+      "mobile": false,
+      "published_asset": "images/team/understanding-team-roles/roles-en.png",
+      "sha256": "354e9a49cf3664b913bac536d4ea45c8a90092fa508fb1b67a9ecdcde4a2191f",
+      "pixels": [
+        1226,
+        1006
+      ],
+      "logical_size": [
+        613.0,
+        503.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/understanding-team-roles/native/roles-en-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-team-roles-editorial-20261001/native/roles-en-original.png",
+        "sha256": "354e9a49cf3664b913bac536d4ea45c8a90092fa508fb1b67a9ecdcde4a2191f",
+        "url": "http://127.0.0.1:3192/hellotext/settings/members/29D7LZXk/edit",
+        "locale": "en",
+        "cssViewport": [
+          1400,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          160,
+          140,
+          613,
+          503
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1226,
+          1006
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/settings/members/29D7LZXk/edit",
+        "title": "New Invite - Select Role - Hellotext",
+        "locale": "en",
+        "viewport": [
+          1400,
+          800
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "reused": false,
+      "new_capture": true,
+      "consumer_publication_state": "pending_protected_pr_and_normal_production_verification"
+    },
+    {
+      "concept": "roles",
+      "locale": "en",
+      "mobile": true,
+      "published_asset": "images/team/understanding-team-roles/roles-en-mobile.png",
+      "sha256": "7347515e91a48fc8563e6c29a61e725fe0a21ab070be1af01da147804052145a",
+      "pixels": [
+        828,
+        1094
+      ],
+      "logical_size": [
+        414.0,
+        547.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/understanding-team-roles/native/roles-en-mobile-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-team-roles-editorial-20261001/native/roles-en-mobile-original.png",
+        "sha256": "7347515e91a48fc8563e6c29a61e725fe0a21ab070be1af01da147804052145a",
+        "url": "http://127.0.0.1:3192/hellotext/settings/members/29D7LZXk/edit",
+        "locale": "en",
+        "cssViewport": [
+          430,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          8,
+          48,
+          414,
+          547
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          828,
+          1094
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/settings/members/29D7LZXk/edit",
+        "title": "New Invite - Select Role - Hellotext",
+        "locale": "en",
+        "viewport": [
+          430,
+          800
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "reused": false,
+      "new_capture": true,
+      "consumer_publication_state": "pending_protected_pr_and_normal_production_verification"
+    },
+    {
+      "concept": "capacity",
+      "locale": "en",
+      "mobile": false,
+      "published_asset": "images/team/understanding-team-roles/capacity-en.png",
+      "sha256": "261a3da15546d25bc4dd292468d9ac7f0c0e3191aee3df0a2f4017de51ec8337",
+      "pixels": [
+        1226,
+        1262
+      ],
+      "logical_size": [
+        613.0,
+        631.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/understanding-team-roles/native/capacity-en-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-team-roles-editorial-20261001/native/capacity-en-original.png",
+        "sha256": "261a3da15546d25bc4dd292468d9ac7f0c0e3191aee3df0a2f4017de51ec8337",
+        "url": "http://127.0.0.1:3192/hellotext/settings/members/29D7LZXk/capacity",
+        "locale": "en",
+        "cssViewport": [
+          1400,
+          1000
+        ],
+        "browserDpr": 2,
+        "clip": [
+          160,
+          140,
+          613,
+          631
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1226,
+          1262
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/settings/members/29D7LZXk/capacity",
+        "title": "Edit Member - Inbox Capacity - Hellotext",
+        "locale": "en",
+        "viewport": [
+          1400,
+          1000
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "reused": false,
+      "new_capture": true,
+      "consumer_publication_state": "pending_protected_pr_and_normal_production_verification"
+    },
+    {
+      "concept": "capacity",
+      "locale": "en",
+      "mobile": true,
+      "published_asset": "images/team/understanding-team-roles/capacity-en-mobile.png",
+      "sha256": "077a1fcea5a38d7cc698a7db3bd2402830453883313013c5b043ca23de70722f",
+      "pixels": [
+        828,
+        1202
+      ],
+      "logical_size": [
+        414.0,
+        601.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/understanding-team-roles/native/capacity-en-mobile-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-team-roles-editorial-20261001/native/capacity-en-mobile-original.png",
+        "sha256": "077a1fcea5a38d7cc698a7db3bd2402830453883313013c5b043ca23de70722f",
+        "url": "http://127.0.0.1:3192/hellotext/settings/members/29D7LZXk/capacity",
+        "locale": "en",
+        "cssViewport": [
+          430,
+          900
+        ],
+        "browserDpr": 2,
+        "clip": [
+          8,
+          48,
+          414,
+          601
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          828,
+          1202
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/settings/members/29D7LZXk/capacity",
+        "title": "Edit Member - Inbox Capacity - Hellotext",
+        "locale": "en",
+        "viewport": [
+          430,
+          900
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "reused": false,
+      "new_capture": true,
+      "consumer_publication_state": "pending_protected_pr_and_normal_production_verification"
+    },
+    {
+      "name": "invite-es",
+      "concept": "invite",
+      "locale": "es",
+      "mobile": false,
+      "published_asset": "images/getting-started/setting-up-your-business/invite-es.png",
+      "source": "docs/editorial-work/captures/setting-up-your-business/invite-es-original.png",
+      "original_provenance": "docs/editorial-work/captures/setting-up-your-business/capture-provenance.json",
+      "sha256": "0010b888702b74958041702cfd3452cdd8b3cda296792aab63e1048566b333b7",
+      "pixels": [
+        854,
+        196
+      ],
+      "source_density": 2,
+      "logical_size": [
+        427.0,
+        98.0
+      ],
+      "icc": "Display P3 Gamut with sRGB Transfer",
+      "reused": true,
+      "pixel_edits": "none",
+      "ui_evidence": "invite-es-ui.json",
+      "capture_evidence": "Dedicated headless Chrome 9460, native P3, one local fictional page, before/after exact account/URL/title/locale/viewport/zoom/DPR guards.",
+      "density": 2,
+      "new_capture": false,
+      "source_record_consumer_publication_state": "publicly_verified",
+      "source_record_consumer_publication_evidence": "public-verification.json",
+      "consumer_publication_state": "pending_protected_pr_and_normal_production_verification"
+    },
+    {
+      "name": "invite-es-mobile",
+      "concept": "invite",
+      "locale": "es",
+      "mobile": true,
+      "published_asset": "images/getting-started/setting-up-your-business/invite-es-mobile.png",
+      "source": "docs/editorial-work/captures/setting-up-your-business/invite-es-mobile-original.png",
+      "original_provenance": "docs/editorial-work/captures/setting-up-your-business/capture-provenance.json",
+      "sha256": "713cbb97bba5eb35b1ecee5a54109c6ee7ad851788c2bae403942e7f370e80ce",
+      "pixels": [
+        764,
+        196
+      ],
+      "source_density": 2,
+      "logical_size": [
+        382.0,
+        98.0
+      ],
+      "icc": "Display P3 Gamut with sRGB Transfer",
+      "reused": true,
+      "pixel_edits": "none",
+      "ui_evidence": "invite-es-mobile-ui.json",
+      "capture_evidence": "Dedicated headless Chrome 9460, native P3, one local fictional page, before/after exact account/URL/title/locale/viewport/zoom/DPR guards.",
+      "density": 2,
+      "new_capture": false,
+      "source_record_consumer_publication_state": "publicly_verified",
+      "source_record_consumer_publication_evidence": "public-verification.json",
+      "consumer_publication_state": "pending_protected_pr_and_normal_production_verification"
+    },
+    {
+      "name": "invite-en",
+      "concept": "invite",
+      "locale": "en",
+      "mobile": false,
+      "published_asset": "images/getting-started/setting-up-your-business/invite-en.png",
+      "source": "docs/editorial-work/captures/setting-up-your-business/invite-en-original.png",
+      "original_provenance": "docs/editorial-work/captures/setting-up-your-business/capture-provenance.json",
+      "sha256": "a75362c4e5cb1699355f490d9c17468e2ddef9ea2117b0aeeb78b37ba61e1d1a",
+      "pixels": [
+        854,
+        196
+      ],
+      "source_density": 2,
+      "logical_size": [
+        427.0,
+        98.0
+      ],
+      "icc": "Display P3 Gamut with sRGB Transfer",
+      "reused": true,
+      "pixel_edits": "none",
+      "ui_evidence": "invite-en-ui.json",
+      "capture_evidence": "Dedicated headless Chrome 9460, native P3, one local fictional page, before/after exact account/URL/title/locale/viewport/zoom/DPR guards.",
+      "density": 2,
+      "new_capture": false,
+      "source_record_consumer_publication_state": "publicly_verified",
+      "source_record_consumer_publication_evidence": "public-verification.json",
+      "consumer_publication_state": "pending_protected_pr_and_normal_production_verification"
+    },
+    {
+      "name": "invite-en-mobile",
+      "concept": "invite",
+      "locale": "en",
+      "mobile": true,
+      "published_asset": "images/getting-started/setting-up-your-business/invite-en-mobile.png",
+      "source": "docs/editorial-work/captures/setting-up-your-business/invite-en-mobile-original.png",
+      "original_provenance": "docs/editorial-work/captures/setting-up-your-business/capture-provenance.json",
+      "sha256": "d57606e286475037973f6ff1c88a57c5ae2cbbc4f17a589d8e978be0e2dfb88c",
+      "pixels": [
+        764,
+        196
+      ],
+      "source_density": 2,
+      "logical_size": [
+        382.0,
+        98.0
+      ],
+      "icc": "Display P3 Gamut with sRGB Transfer",
+      "reused": true,
+      "pixel_edits": "none",
+      "ui_evidence": "invite-en-mobile-ui.json",
+      "capture_evidence": "Dedicated headless Chrome 9460, native P3, one local fictional page, before/after exact account/URL/title/locale/viewport/zoom/DPR guards.",
+      "density": 2,
+      "new_capture": false,
+      "source_record_consumer_publication_state": "publicly_verified",
+      "source_record_consumer_publication_evidence": "public-verification.json",
+      "consumer_publication_state": "pending_protected_pr_and_normal_production_verification"
+    },
+    {
+      "name": "menu-es",
+      "concept": "menu",
+      "locale": "es",
+      "mobile": false,
+      "same_source_desktop_mobile": true,
+      "source": "docs/editorial-work/captures/transferring-ownership/menu-es-original.png",
+      "published_asset": "images/integrations/transferring-ownership/menu-es.png",
+      "native": {
+        "output": "/private/tmp/hellotext-ownership-editorial-20261001/native/menu-es-control-original.png",
+        "sha256": "85fa4488ac96b2b34e75faa7644695461b94045431901b9318138c6683c34737",
+        "url": "http://127.0.0.1:3192/hellotext/settings/members",
+        "locale": "es",
+        "cssViewport": [
+          1200,
+          1000
+        ],
+        "browserDpr": 2,
+        "clip": [
+          976,
+          573,
+          192,
+          187
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          384,
+          374
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        192.0,
+        187.0
+      ],
+      "intended_max_display_width_css": 192,
+      "ui_evidence": "docs/editorial-work/captures/transferring-ownership/menu-es-ui.json",
+      "native_evidence": "docs/editorial-work/captures/transferring-ownership/menu-es-native.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "original_provenance": "docs/editorial-work/captures/transferring-ownership/capture-provenance.json",
+      "pixels": [
+        384,
+        374
+      ],
+      "sha256": "85fa4488ac96b2b34e75faa7644695461b94045431901b9318138c6683c34737",
+      "density": 2,
+      "reused": true,
+      "new_capture": false,
+      "source_record_publication_status": "New native P3 2x source published without pixel edits; current consumer publicly verified, see public-verification.json.",
+      "source_record_consumer_publication_state": "publicly_verified",
+      "source_record_consumer_publication_evidence": "public-verification.json",
+      "source_record_reuse": false,
+      "consumer_publication_state": "pending_protected_pr_and_normal_production_verification"
+    },
+    {
+      "name": "menu-en",
+      "concept": "menu",
+      "locale": "en",
+      "mobile": false,
+      "same_source_desktop_mobile": true,
+      "source": "docs/editorial-work/captures/transferring-ownership/menu-en-original.png",
+      "published_asset": "images/integrations/transferring-ownership/menu-en.png",
+      "native": {
+        "output": "/private/tmp/hellotext-ownership-editorial-20261001/native/menu-en-control-original.png",
+        "sha256": "42e333981346b17efbdb34c7318346b504a44bb6a7fcb3b72d887ab47a0aadf8",
+        "url": "http://127.0.0.1:3192/hellotext/settings/members",
+        "locale": "en",
+        "cssViewport": [
+          1200,
+          1000
+        ],
+        "browserDpr": 2,
+        "clip": [
+          976,
+          573,
+          192,
+          187
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          384,
+          374
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        192.0,
+        187.0
+      ],
+      "intended_max_display_width_css": 192,
+      "ui_evidence": "docs/editorial-work/captures/transferring-ownership/menu-en-ui.json",
+      "native_evidence": "docs/editorial-work/captures/transferring-ownership/menu-en-native.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "original_provenance": "docs/editorial-work/captures/transferring-ownership/capture-provenance.json",
+      "pixels": [
+        384,
+        374
+      ],
+      "sha256": "42e333981346b17efbdb34c7318346b504a44bb6a7fcb3b72d887ab47a0aadf8",
+      "density": 2,
+      "reused": true,
+      "new_capture": false,
+      "source_record_publication_status": "New native P3 2x source published without pixel edits; current consumer publicly verified, see public-verification.json.",
+      "source_record_consumer_publication_state": "publicly_verified",
+      "source_record_consumer_publication_evidence": "public-verification.json",
+      "source_record_reuse": false,
+      "consumer_publication_state": "pending_protected_pr_and_normal_production_verification"
+    }
+  ],
+  "source_audit": "docs/editorial-work/captures/understanding-team-roles/source-audit.json",
+  "operations": {
+    "new_captures": 8,
+    "reused_assets": 6,
+    "locale_restored": "es",
+    "forms_saved": false,
+    "roles_teams_capacity_changed": false,
+    "invitation_created_or_sent": false,
+    "fixture_created": false,
+    "conversation_or_message_created": false,
+    "workers_started": false,
+    "measured_fixture_fields_identical": true,
+    "limits": "Measured fields only, not whole-DB equality. Capture helper validates before/after but returns no raw post snapshot. Reused sources retain their original evidence, without retroactive guards."
+  },
+  "pending": [
+    "Protected PR/checks, independent exact-head review, normal production and public page/hash verification."
+  ],
+  "local_verification": "docs/editorial-work/captures/understanding-team-roles/local-verification.json"
+}
