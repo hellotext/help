@@ -1,0 +1,854 @@
+{
+  "status": "locally_verified",
+  "base_main": "dad9ffabe8b3a0dd459e93358a2263dbcdb008fa",
+  "originals": [
+    {
+      "article": "_i18n/es/integrations/connect-fenicio.md",
+      "snapshot": "docs/editorial-work/captures/connect-fenicio/originals/es.md",
+      "sha256": "5e14cc6bb9cde170dfa653781da5bd316cc043134da510a3ffffe0203b787a24",
+      "headings": [
+        "## Qué sincroniza la integración",
+        "## Antes de conectar",
+        "## Conecta tu cuenta de Fenicio",
+        "## Solicita la autorización a Fenicio",
+        "### Modelo de correo para Fenicio",
+        "## Verifica los datos sincronizados",
+        "## Soluciona problemas de conexión",
+        "## Guías relacionadas"
+      ],
+      "links": [
+        "_integrations/verify-data-and-signals.md",
+        "_integrations/setup-overview.md",
+        "_integrations/product-catalog-sync.md",
+        "_integrations/verify-data-and-signals.md",
+        "_audience/customer-profiles.md"
+      ]
+    },
+    {
+      "article": "_i18n/en/integrations/connect-fenicio.md",
+      "snapshot": "docs/editorial-work/captures/connect-fenicio/originals/en.md",
+      "sha256": "b74013204172fbc81b5e2b27f28aa52277d6d9877111fa7df536340339100ad5",
+      "headings": [
+        "## What the integration syncs",
+        "## Before you connect",
+        "## Connect your Fenicio account",
+        "## Request authorization from Fenicio",
+        "### Email template for Fenicio",
+        "## Verify synchronized data",
+        "## Troubleshoot the connection",
+        "## Related guides"
+      ],
+      "links": [
+        "_integrations/verify-data-and-signals.md",
+        "_integrations/setup-overview.md",
+        "_integrations/product-catalog-sync.md",
+        "_integrations/verify-data-and-signals.md",
+        "_audience/customer-profiles.md"
+      ]
+    },
+    {
+      "article": "_integrations/connect-fenicio.md",
+      "snapshot": "docs/editorial-work/captures/connect-fenicio/originals/stub.md",
+      "sha256": "9002b6c80f827ad43b0f6044810f2ee1ec75100bcc2942ef3d9071b14d7c2a54",
+      "headings": [],
+      "links": []
+    }
+  ],
+  "images": [
+    {
+      "name": "account-es",
+      "concept": "account",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/connect-fenicio/account-es-original.png",
+      "published_asset": "images/integrations/connect-fenicio/account-es.png",
+      "sha256": "c3c96ef39741897476371796b9015da195e52a7bea43a5881cd2f374551a1a6d",
+      "native": {
+        "sha256": "c3c96ef39741897476371796b9015da195e52a7bea43a5881cd2f374551a1a6d",
+        "url": "http://127.0.0.1:3192/hellotext/settings/integrations/fenicio/new",
+        "locale": "es",
+        "cssViewport": [
+          1200,
+          900
+        ],
+        "browserDpr": 2,
+        "clip": [
+          134,
+          368,
+          532,
+          204
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1064,
+          408
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        532,
+        204
+      ],
+      "ui_evidence": "docs/editorial-work/captures/connect-fenicio/account-es-ui.json",
+      "original_provenance": "docs/editorial-work/captures/connect-fenicio/capture-provenance.json",
+      "reused": false,
+      "pixel_edits": "none",
+      "pointer": "absent",
+      "no_final_action": true
+    },
+    {
+      "name": "account-es-mobile",
+      "concept": "account",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/connect-fenicio/account-es-mobile-original.png",
+      "published_asset": "images/integrations/connect-fenicio/account-es-mobile.png",
+      "sha256": "907a6bf95f1ce326340c59db6f794fe411405bca7b785ea03fe232a9de987f5b",
+      "native": {
+        "sha256": "907a6bf95f1ce326340c59db6f794fe411405bca7b785ea03fe232a9de987f5b",
+        "url": "http://127.0.0.1:3192/hellotext/settings/integrations/fenicio/new",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          844
+        ],
+        "browserDpr": 2,
+        "clip": [
+          4,
+          272,
+          382,
+          204
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          764,
+          408
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        382,
+        204
+      ],
+      "ui_evidence": "docs/editorial-work/captures/connect-fenicio/account-es-mobile-ui.json",
+      "original_provenance": "docs/editorial-work/captures/connect-fenicio/capture-provenance.json",
+      "reused": false,
+      "pixel_edits": "none",
+      "pointer": "absent",
+      "no_final_action": true
+    },
+    {
+      "name": "account-en",
+      "concept": "account",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/connect-fenicio/account-en-original.png",
+      "published_asset": "images/integrations/connect-fenicio/account-en.png",
+      "sha256": "b6381721f6993170101996d30a28e4ec27fb96576c50577c91d0552a18c1a882",
+      "native": {
+        "sha256": "b6381721f6993170101996d30a28e4ec27fb96576c50577c91d0552a18c1a882",
+        "url": "http://127.0.0.1:3192/hellotext/settings/integrations/fenicio/new",
+        "locale": "en",
+        "cssViewport": [
+          1200,
+          900
+        ],
+        "browserDpr": 2,
+        "clip": [
+          134,
+          340,
+          532,
+          204
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1064,
+          408
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        532,
+        204
+      ],
+      "ui_evidence": "docs/editorial-work/captures/connect-fenicio/account-en-ui.json",
+      "original_provenance": "docs/editorial-work/captures/connect-fenicio/capture-provenance.json",
+      "reused": false,
+      "pixel_edits": "none",
+      "pointer": "absent",
+      "no_final_action": true
+    },
+    {
+      "name": "account-en-mobile",
+      "concept": "account",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/connect-fenicio/account-en-mobile-original.png",
+      "published_asset": "images/integrations/connect-fenicio/account-en-mobile.png",
+      "sha256": "465536dac3217d0a513efcba94945c993f0c722a90d87e59e9703b4e393fc8c7",
+      "native": {
+        "sha256": "465536dac3217d0a513efcba94945c993f0c722a90d87e59e9703b4e393fc8c7",
+        "url": "http://127.0.0.1:3192/hellotext/settings/integrations/fenicio/new",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          844
+        ],
+        "browserDpr": 2,
+        "clip": [
+          4,
+          248,
+          382,
+          204
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          764,
+          408
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        382,
+        204
+      ],
+      "ui_evidence": "docs/editorial-work/captures/connect-fenicio/account-en-mobile-ui.json",
+      "original_provenance": "docs/editorial-work/captures/connect-fenicio/capture-provenance.json",
+      "reused": false,
+      "pixel_edits": "none",
+      "pointer": "absent",
+      "no_final_action": true
+    },
+    {
+      "name": "business-es",
+      "concept": "business",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/custom-store-integration/business-es-original.png",
+      "published_asset": "images/developers/custom-store-integration/business-es.png",
+      "native": {
+        "sha256": "17ec399500cee235d73459ced0de47fac99054987976a56f4e09603150ef5dfb",
+        "url": "http://127.0.0.1:3192/hellotext/settings",
+        "locale": "es",
+        "cssViewport": [
+          1200,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          308,
+          147,
+          868,
+          202
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1736,
+          404
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        868.0,
+        202.0
+      ],
+      "intended_max_display_width_css": 868.0,
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-es-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none in this batch",
+      "publication_status": "New native P3 2x source uploaded; public URL/hash verified in public-verification.json.",
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+      "reused": true,
+      "sha256": "17ec399500cee235d73459ced0de47fac99054987976a56f4e09603150ef5dfb"
+    },
+    {
+      "name": "business-es-mobile",
+      "concept": "business",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/custom-store-integration/business-es-mobile-original.png",
+      "published_asset": "images/developers/custom-store-integration/business-es-mobile.png",
+      "native": {
+        "sha256": "0c7ac4c233075fa5d072e27ac33e7947092bf6406858524ab12fa546be553ed8",
+        "url": "http://127.0.0.1:3192/hellotext/settings",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          8,
+          336,
+          374,
+          262
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          748,
+          524
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        374.0,
+        262.0
+      ],
+      "intended_max_display_width_css": 374.0,
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-es-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none in this batch",
+      "publication_status": "New native P3 2x source uploaded; public URL/hash verified in public-verification.json.",
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+      "reused": true,
+      "sha256": "0c7ac4c233075fa5d072e27ac33e7947092bf6406858524ab12fa546be553ed8"
+    },
+    {
+      "name": "business-en",
+      "concept": "business",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/custom-store-integration/business-en-original.png",
+      "published_asset": "images/developers/custom-store-integration/business-en.png",
+      "native": {
+        "sha256": "1f7f132b2245056eda5166b1b1cfdbeee406ebcf7bad4a13a6eb3fd501184d7f",
+        "url": "http://127.0.0.1:3192/hellotext/settings",
+        "locale": "en",
+        "cssViewport": [
+          1200,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          308,
+          147,
+          868,
+          202
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1736,
+          404
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        868.0,
+        202.0
+      ],
+      "intended_max_display_width_css": 868.0,
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-en-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none in this batch",
+      "publication_status": "New native P3 2x source uploaded; public URL/hash verified in public-verification.json.",
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+      "reused": true,
+      "sha256": "1f7f132b2245056eda5166b1b1cfdbeee406ebcf7bad4a13a6eb3fd501184d7f"
+    },
+    {
+      "name": "business-en-mobile",
+      "concept": "business",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/custom-store-integration/business-en-mobile-original.png",
+      "published_asset": "images/developers/custom-store-integration/business-en-mobile.png",
+      "native": {
+        "sha256": "c7badab42d6878393ab746c2950605b8153dc38d60ac1ae09c747a949706bfeb",
+        "url": "http://127.0.0.1:3192/hellotext/settings",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          8,
+          336,
+          374,
+          262
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          748,
+          524
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        374.0,
+        262.0
+      ],
+      "intended_max_display_width_css": 374.0,
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-en-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none in this batch",
+      "publication_status": "New native P3 2x source uploaded; public URL/hash verified in public-verification.json.",
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+      "reused": true,
+      "sha256": "c7badab42d6878393ab746c2950605b8153dc38d60ac1ae09c747a949706bfeb"
+    },
+    {
+      "name": "identity-es",
+      "concept": "identity",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/products-and-inventory-with-api/identity-es-original.png",
+      "published_asset": "images/developers/products-and-inventory-with-api/identity-es.png",
+      "native": {
+        "output": "/private/tmp/hellotext-products-api-guide/native/identity-es.png",
+        "sha256": "cad5dac8389b4545324ad7b0d2cdc0c1cfd2d04a476b42f7bf5110530cc50f43",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/OKD0AZ37/instances",
+        "locale": "es",
+        "cssViewport": [
+          1400,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          897,
+          0,
+          503,
+          393
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1006,
+          786
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        503,
+        393
+      ],
+      "intended_max_display_width_css": 503,
+      "ui_evidence": "docs/editorial-work/captures/products-and-inventory-with-api/identity-es-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none in this batch",
+      "reuse": false,
+      "publication_status": "New native P3 2x PNG published; public served hash matches approved source.",
+      "original_provenance": "docs/editorial-work/captures/products-and-inventory-with-api/capture-provenance.json",
+      "reused": true,
+      "sha256": "cad5dac8389b4545324ad7b0d2cdc0c1cfd2d04a476b42f7bf5110530cc50f43"
+    },
+    {
+      "name": "identity-es-mobile",
+      "concept": "identity",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/products-and-inventory-with-api/identity-es-mobile-original.png",
+      "published_asset": "images/developers/products-and-inventory-with-api/identity-es-mobile.png",
+      "native": {
+        "output": "/private/tmp/hellotext-products-api-guide/native/identity-es-mobile.png",
+        "sha256": "e59c825526ab948c121cde309ff647e98d8b8b015546116fe91e5cdf15ebdb00",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/OKD0AZ37/instances",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1,
+          0,
+          389,
+          393
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          778,
+          786
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        389,
+        393
+      ],
+      "intended_max_display_width_css": 389,
+      "ui_evidence": "docs/editorial-work/captures/products-and-inventory-with-api/identity-es-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none in this batch",
+      "reuse": false,
+      "publication_status": "New native P3 2x PNG published; public served hash matches approved source.",
+      "original_provenance": "docs/editorial-work/captures/products-and-inventory-with-api/capture-provenance.json",
+      "reused": true,
+      "sha256": "e59c825526ab948c121cde309ff647e98d8b8b015546116fe91e5cdf15ebdb00"
+    },
+    {
+      "name": "identity-en",
+      "concept": "identity",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/products-and-inventory-with-api/identity-en-original.png",
+      "published_asset": "images/developers/products-and-inventory-with-api/identity-en.png",
+      "native": {
+        "output": "/private/tmp/hellotext-products-api-guide/native/identity-en.png",
+        "sha256": "0ad4775d9bd3d743c1aa60c89c9db36609032046126386e77710f41b682c78e8",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/OKD0AZ37/instances",
+        "locale": "en",
+        "cssViewport": [
+          1400,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          897,
+          0,
+          503,
+          393
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1006,
+          786
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        503,
+        393
+      ],
+      "intended_max_display_width_css": 503,
+      "ui_evidence": "docs/editorial-work/captures/products-and-inventory-with-api/identity-en-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none in this batch",
+      "reuse": false,
+      "publication_status": "New native P3 2x PNG published; public served hash matches approved source.",
+      "original_provenance": "docs/editorial-work/captures/products-and-inventory-with-api/capture-provenance.json",
+      "reused": true,
+      "sha256": "0ad4775d9bd3d743c1aa60c89c9db36609032046126386e77710f41b682c78e8"
+    },
+    {
+      "name": "identity-en-mobile",
+      "concept": "identity",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/products-and-inventory-with-api/identity-en-mobile-original.png",
+      "published_asset": "images/developers/products-and-inventory-with-api/identity-en-mobile.png",
+      "native": {
+        "output": "/private/tmp/hellotext-products-api-guide/native/identity-en-mobile.png",
+        "sha256": "ee47e9bab2033b8dc413e0eb63a5d89ad5f65f322dd07b4431e864677a332b60",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/OKD0AZ37/instances",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1,
+          0,
+          389,
+          393
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          778,
+          786
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        389,
+        393
+      ],
+      "intended_max_display_width_css": 389,
+      "ui_evidence": "docs/editorial-work/captures/products-and-inventory-with-api/identity-en-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none in this batch",
+      "reuse": false,
+      "publication_status": "New native P3 2x PNG published; public served hash matches approved source.",
+      "original_provenance": "docs/editorial-work/captures/products-and-inventory-with-api/capture-provenance.json",
+      "reused": true,
+      "sha256": "ee47e9bab2033b8dc413e0eb63a5d89ad5f65f322dd07b4431e864677a332b60"
+    },
+    {
+      "name": "details-es",
+      "concept": "details",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/orders-with-api/details-es-original.png",
+      "published_asset": "images/developers/orders-with-api/details-es.png",
+      "native": {
+        "output": "/private/tmp/hellotext-orders-api-guide/native/details-es.png",
+        "sha256": "ce7071cd6129d589df554b45f6ead105ef20ce3b1b4eeaf6eace613f34b4bb00",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/BbZzpNd9/instances",
+        "locale": "es",
+        "cssViewport": [
+          1400,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          897,
+          0,
+          503,
+          457
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1006,
+          914
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        503,
+        457
+      ],
+      "intended_max_display_width_css": 503,
+      "ui_evidence": "docs/editorial-work/captures/orders-with-api/details-es-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none in this batch",
+      "reuse": false,
+      "publication_status": "New native P3 2x PNG published; public served hash matches approved source.",
+      "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json",
+      "reused": true,
+      "sha256": "ce7071cd6129d589df554b45f6ead105ef20ce3b1b4eeaf6eace613f34b4bb00"
+    },
+    {
+      "name": "details-es-mobile",
+      "concept": "details",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/orders-with-api/details-es-mobile-original.png",
+      "published_asset": "images/developers/orders-with-api/details-es-mobile.png",
+      "native": {
+        "output": "/private/tmp/hellotext-orders-api-guide/native/details-es-mobile.png",
+        "sha256": "002115693247a8d96672d24a28406f0c452db72eb2df13ad721a9f3d12102ad9",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/BbZzpNd9/instances",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1,
+          0,
+          389,
+          457
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          778,
+          914
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        389,
+        457
+      ],
+      "intended_max_display_width_css": 389,
+      "ui_evidence": "docs/editorial-work/captures/orders-with-api/details-es-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none in this batch",
+      "reuse": false,
+      "publication_status": "New native P3 2x PNG published; public served hash matches approved source.",
+      "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json",
+      "reused": true,
+      "sha256": "002115693247a8d96672d24a28406f0c452db72eb2df13ad721a9f3d12102ad9"
+    },
+    {
+      "name": "details-en",
+      "concept": "details",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/orders-with-api/details-en-original.png",
+      "published_asset": "images/developers/orders-with-api/details-en.png",
+      "native": {
+        "output": "/private/tmp/hellotext-orders-api-guide/native/details-en.png",
+        "sha256": "b728ba41fdd9c004408a7153f0f8f9a0bfc6634d0d9e44485db3dfc7b120b08b",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/BbZzpNd9/instances",
+        "locale": "en",
+        "cssViewport": [
+          1400,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          897,
+          0,
+          503,
+          457
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1006,
+          914
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        503,
+        457
+      ],
+      "intended_max_display_width_css": 503,
+      "ui_evidence": "docs/editorial-work/captures/orders-with-api/details-en-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none in this batch",
+      "reuse": false,
+      "publication_status": "New native P3 2x PNG published; public served hash matches approved source.",
+      "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json",
+      "reused": true,
+      "sha256": "b728ba41fdd9c004408a7153f0f8f9a0bfc6634d0d9e44485db3dfc7b120b08b"
+    },
+    {
+      "name": "details-en-mobile",
+      "concept": "details",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/orders-with-api/details-en-mobile-original.png",
+      "published_asset": "images/developers/orders-with-api/details-en-mobile.png",
+      "native": {
+        "output": "/private/tmp/hellotext-orders-api-guide/native/details-en-mobile.png",
+        "sha256": "8d44d00464fcffb4c98684b550a95fd7df0a64360333a384e3d6eefca81d44c0",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/BbZzpNd9/instances",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1,
+          0,
+          389,
+          457
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          778,
+          914
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        389,
+        457
+      ],
+      "intended_max_display_width_css": 389,
+      "ui_evidence": "docs/editorial-work/captures/orders-with-api/details-en-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none in this batch",
+      "reuse": false,
+      "publication_status": "New native P3 2x PNG published; public served hash matches approved source.",
+      "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json",
+      "reused": true,
+      "sha256": "8d44d00464fcffb4c98684b550a95fd7df0a64360333a384e3d6eefca81d44c0"
+    }
+  ],
+  "capture_plan": "New unsaved Fenicio domain/reference form ES/EN desktop/mobile; reuse approved public Hellotext Business ID, product identity and order details, with independent fictional source/state made explicit.",
+  "pending": [
+    "Commit/PR protected checks and independent review of exact head, normal production deployment and public page/hash verification."
+  ],
+  "article_key": "integrations/connect-fenicio.md",
+  "new_captures": 4,
+  "new_png_uploads": 4,
+  "reused_pngs": 12,
+  "protected_state": "Only unsaved fictional DOM fields and locale ES/EN; Spanish restored; all fixture counts, roles, integrations, Fenicio accounts, imports and properties identical before/after.",
+  "local_verification": "docs/editorial-work/captures/connect-fenicio/local-verification.json",
+  "chrome": {
+    "port": 9460,
+    "pid": 57358,
+    "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+    "one_local_tab": true,
+    "color_profile": "display-p3-d65",
+    "native_density": 2,
+    "zoom": 1,
+    "account": "design-system@example.test",
+    "new_viewports_css": [
+      [
+        1200,
+        900
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "before_after_capture_guard": "script/capture_isolated_chrome.mjs validates before and after; measured viewports/DPR/scroll match saved UI/native metadata"
+  }
+}

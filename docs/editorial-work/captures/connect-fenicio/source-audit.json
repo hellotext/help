@@ -1,0 +1,482 @@
+{
+  "inspected_at_utc": "2026-10-01T08:03:49.524322+00:00",
+  "protected_rails_sha": "5403a7dcb567b63cae87d4c088112d65fad4eb7f",
+  "current_master_sha": "a6a32d95a0b6cdbd63342100012413446aa2a2f5",
+  "source_files": [
+    {
+      "path": "app/controllers/fenicio/accounts_controller.rb",
+      "protected_sha256": "9b590251e44a5d48b1f26e381568afd17262d23a9fcb8ae3aac52965449d6a66",
+      "current_sha256": "9b590251e44a5d48b1f26e381568afd17262d23a9fcb8ae3aac52965449d6a66",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/controllers/fenicio/accounts_controller.rb"
+    },
+    {
+      "path": "app/controllers/fenicio/account_statuses_controller.rb",
+      "protected_sha256": "f731c2cfcefa7e01ff7f254da9a838ff2a4998dfee6d336cf3451c58a4097785",
+      "current_sha256": "f731c2cfcefa7e01ff7f254da9a838ff2a4998dfee6d336cf3451c58a4097785",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/controllers/fenicio/account_statuses_controller.rb"
+    },
+    {
+      "path": "app/models/fenicio/account.rb",
+      "protected_sha256": "763800faa85435d27c87d38b0b3877413c74c6a786d3a0eee338af9f67d5a98c",
+      "current_sha256": "763800faa85435d27c87d38b0b3877413c74c6a786d3a0eee338af9f67d5a98c",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/fenicio/account.rb"
+    },
+    {
+      "path": "app/policies/fenicio/account_policy.rb",
+      "protected_sha256": "9096da89cd4a99af8a24f53bc8c36ed382fa72a28d5df5e4e49a153b3ada5a62",
+      "current_sha256": "9096da89cd4a99af8a24f53bc8c36ed382fa72a28d5df5e4e49a153b3ada5a62",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/policies/fenicio/account_policy.rb"
+    },
+    {
+      "path": "app/policies/fenicio/account_status_policy.rb",
+      "protected_sha256": "73a767405213ade53767d5cf75e2164d8c48b5111162e656142cf9c80f435bac",
+      "current_sha256": "73a767405213ade53767d5cf75e2164d8c48b5111162e656142cf9c80f435bac",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/policies/fenicio/account_status_policy.rb"
+    },
+    {
+      "path": "app/helpers/fenicio_helper.rb",
+      "protected_sha256": "af329189bf426afddde20c4919a9b5ef034ed2470045046a85d761577f018178",
+      "current_sha256": "af329189bf426afddde20c4919a9b5ef034ed2470045046a85d761577f018178",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/helpers/fenicio_helper.rb"
+    },
+    {
+      "path": "app/models/integration/category/ecommerce.rb",
+      "protected_sha256": "3e98bae981c1bd39c68baddc15154f0736a9218a015cfb695c7661ece7bf41bc",
+      "current_sha256": "3e98bae981c1bd39c68baddc15154f0736a9218a015cfb695c7661ece7bf41bc",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/integration/category/ecommerce.rb"
+    },
+    {
+      "path": "app/models/import/fenicio.rb",
+      "protected_sha256": "75ddba8485d2a57556d649081db1dde6df651e6fed2e0bc9170aac557d8be9b5",
+      "current_sha256": "75ddba8485d2a57556d649081db1dde6df651e6fed2e0bc9170aac557d8be9b5",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/import/fenicio.rb"
+    },
+    {
+      "path": "app/views/fenicio/accounts/_form.html.erb",
+      "protected_sha256": "adf227e147a612b09b797d29d70ffc21e9bdceffeefb74b0263a7f5be4ceab7d",
+      "current_sha256": "adf227e147a612b09b797d29d70ffc21e9bdceffeefb74b0263a7f5be4ceab7d",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/views/fenicio/accounts/_form.html.erb"
+    },
+    {
+      "path": "app/views/fenicio/accounts/import.html.erb",
+      "protected_sha256": "97653ce9e23da733e7b490575d815362747f793cdaaa1cf91c5bf2bf9c9f3cfd",
+      "current_sha256": "97653ce9e23da733e7b490575d815362747f793cdaaa1cf91c5bf2bf9c9f3cfd",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/views/fenicio/accounts/import.html.erb"
+    },
+    {
+      "path": "app/views/fenicio/accounts/ready.html.erb",
+      "protected_sha256": "fefc60d6d2ecf851f9c8850df8b151dc0fd20c0e80889b87a97c370202bc494c",
+      "current_sha256": "fefc60d6d2ecf851f9c8850df8b151dc0fd20c0e80889b87a97c370202bc494c",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/views/fenicio/accounts/ready.html.erb"
+    },
+    {
+      "path": "app/views/fenicio/accounts/_guide_aside.html.erb",
+      "protected_sha256": "e403585addd654a346a1f0ba48ff0dd73c09935ca157675d11206a041d70adbb",
+      "current_sha256": "e403585addd654a346a1f0ba48ff0dd73c09935ca157675d11206a041d70adbb",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/views/fenicio/accounts/_guide_aside.html.erb"
+    },
+    {
+      "path": "app/views/settings/integrations/integratables/_fenicio_account.html.erb",
+      "protected_sha256": "1d2e8ba758e69c601d70930c1e000194a4ef6fc2eafcaab0a9e1ded6d0630b32",
+      "current_sha256": "1d2e8ba758e69c601d70930c1e000194a4ef6fc2eafcaab0a9e1ded6d0630b32",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/views/settings/integrations/integratables/_fenicio_account.html.erb"
+    },
+    {
+      "path": "config/locales/views/fenicio/es.yml",
+      "protected_sha256": "6588ef7052d37e26f9273ade04076a00c4084969e42366ba26cd2aabae53d5b5",
+      "current_sha256": "6588ef7052d37e26f9273ade04076a00c4084969e42366ba26cd2aabae53d5b5",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/config/locales/views/fenicio/es.yml"
+    },
+    {
+      "path": "config/locales/views/fenicio/en.yml",
+      "protected_sha256": "6d155c30b9905f752799503c913cdc88f1e2fb2d15f6b0a5617752b0e8685b4d",
+      "current_sha256": "6d155c30b9905f752799503c913cdc88f1e2fb2d15f6b0a5617752b0e8685b4d",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/config/locales/views/fenicio/en.yml"
+    },
+    {
+      "path": "config/locales/activerecord/fenicio/es.yml",
+      "protected_sha256": "59da1694acbbb7980c3d5864b1770896604af2ffe4dd3048c7db35701438a54a",
+      "current_sha256": "59da1694acbbb7980c3d5864b1770896604af2ffe4dd3048c7db35701438a54a",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/config/locales/activerecord/fenicio/es.yml"
+    },
+    {
+      "path": "config/locales/activerecord/fenicio/en.yml",
+      "protected_sha256": "3f9e69debcc5e8153ff1684bb8a858017d8583c38b8fd22ecf5af1bd8465d521",
+      "current_sha256": "3f9e69debcc5e8153ff1684bb8a858017d8583c38b8fd22ecf5af1bd8465d521",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/config/locales/activerecord/fenicio/en.yml"
+    },
+    {
+      "path": "app/integrations/fenicio/identification.rb",
+      "protected_sha256": "f9e7444bd99718abc7fe70dd5e6a0e2ad5aa13b305a5990b58d198b620ef5de5",
+      "current_sha256": "f9e7444bd99718abc7fe70dd5e6a0e2ad5aa13b305a5990b58d198b620ef5de5",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/fenicio/identification.rb"
+    },
+    {
+      "path": "app/integrations/fenicio/product_variant/base.rb",
+      "protected_sha256": "d0b2449aa6150b23128e30947e0f582c5da98f6ae05516e230370b0262bc88bb",
+      "current_sha256": "d0b2449aa6150b23128e30947e0f582c5da98f6ae05516e230370b0262bc88bb",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/fenicio/product_variant/base.rb"
+    },
+    {
+      "path": "app/integrations/fenicio/product_variant/create.rb",
+      "protected_sha256": "c814f05215a17d3e17d94704bdf2d3c68688ae603699bab9edfe5b3480862074",
+      "current_sha256": "c814f05215a17d3e17d94704bdf2d3c68688ae603699bab9edfe5b3480862074",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/fenicio/product_variant/create.rb"
+    },
+    {
+      "path": "app/integrations/fenicio/product_variant/params.rb",
+      "protected_sha256": "61f5b1b221b494e5642248165f33275649a4539b4f5bd616195f5eb116615b19",
+      "current_sha256": "61f5b1b221b494e5642248165f33275649a4539b4f5bd616195f5eb116615b19",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/fenicio/product_variant/params.rb"
+    },
+    {
+      "path": "app/integrations/fenicio/order/base.rb",
+      "protected_sha256": "9c0c7e391ce506deb93bd831480131b88d4d5fb8ed0686bff7e4a4e48d86307e",
+      "current_sha256": "9c0c7e391ce506deb93bd831480131b88d4d5fb8ed0686bff7e4a4e48d86307e",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/fenicio/order/base.rb"
+    },
+    {
+      "path": "app/integrations/fenicio/order/fetcher.rb",
+      "protected_sha256": "7084e1e375d85b016f5b943f2e0ff6c18ee0262c51f1466694e9e4f5c4f2fafc",
+      "current_sha256": "7084e1e375d85b016f5b943f2e0ff6c18ee0262c51f1466694e9e4f5c4f2fafc",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/fenicio/order/fetcher.rb"
+    },
+    {
+      "path": "app/integrations/fenicio/order/confirmed.rb",
+      "protected_sha256": "92d52219b057f251f93b9b1ac820915b195512c726ff652bbf83654be86b8e40",
+      "current_sha256": "92d52219b057f251f93b9b1ac820915b195512c726ff652bbf83654be86b8e40",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/fenicio/order/confirmed.rb"
+    },
+    {
+      "path": "app/integrations/fenicio/order/cancelled.rb",
+      "protected_sha256": "46ce84ccf7be01f768bcfefe8093318131165bff7a98198754083973076e0415",
+      "current_sha256": "46ce84ccf7be01f768bcfefe8093318131165bff7a98198754083973076e0415",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/fenicio/order/cancelled.rb"
+    },
+    {
+      "path": "app/integrations/fenicio/order/delivered.rb",
+      "protected_sha256": "797427d67e9bc9a46cc599f215c3ffc3c3e8b96393d25368a74468a3c39db658",
+      "current_sha256": "797427d67e9bc9a46cc599f215c3ffc3c3e8b96393d25368a74468a3c39db658",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/fenicio/order/delivered.rb"
+    },
+    {
+      "path": "app/integrations/fenicio/order/poller.rb",
+      "protected_sha256": "5ba57936826f992d2d9ebb3bbe497fc7a345ae6f8387e70298914f06c210534a",
+      "current_sha256": "5ba57936826f992d2d9ebb3bbe497fc7a345ae6f8387e70298914f06c210534a",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/fenicio/order/poller.rb"
+    },
+    {
+      "path": "app/integrations/fenicio/order/shipped.rb",
+      "protected_sha256": "5b090ca9ee23d685dbe2d23ff8268a7f15c314faf9cac3e7bd62cdf8af96ae8f",
+      "current_sha256": "5b090ca9ee23d685dbe2d23ff8268a7f15c314faf9cac3e7bd62cdf8af96ae8f",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/fenicio/order/shipped.rb"
+    },
+    {
+      "path": "app/integrations/fenicio/order/placed.rb",
+      "protected_sha256": "67e6eba40735ad22515f479f2e8f49174dadd3916e52d1933b44fadb244a52b5",
+      "current_sha256": "67e6eba40735ad22515f479f2e8f49174dadd3916e52d1933b44fadb244a52b5",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/fenicio/order/placed.rb"
+    },
+    {
+      "path": "app/integrations/fenicio/order/create.rb",
+      "protected_sha256": "d092559aa18d4e497152c7b0a812a8e2f9ebf41d827c8ffef17f341c0d77967a",
+      "current_sha256": "d092559aa18d4e497152c7b0a812a8e2f9ebf41d827c8ffef17f341c0d77967a",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/fenicio/order/create.rb"
+    },
+    {
+      "path": "app/integrations/fenicio/order/params.rb",
+      "protected_sha256": "84c42c1155edff4c0adfe69669d413d237d5a6d1194113e2e8069172a642efda",
+      "current_sha256": "84c42c1155edff4c0adfe69669d413d237d5a6d1194113e2e8069172a642efda",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/fenicio/order/params.rb"
+    },
+    {
+      "path": "app/integrations/fenicio/order/event.rb",
+      "protected_sha256": "9b78ae25534644d50e5204dec82d2ca2ec57d8ddee6b3e329cb80bf4b51c9f4f",
+      "current_sha256": "9b78ae25534644d50e5204dec82d2ca2ec57d8ddee6b3e329cb80bf4b51c9f4f",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/fenicio/order/event.rb"
+    },
+    {
+      "path": "app/integrations/fenicio/product/base.rb",
+      "protected_sha256": "e1b3f9427c9cc0f8c2946937f662fb15bb928a1427f552eff655b90f13128f47",
+      "current_sha256": "e1b3f9427c9cc0f8c2946937f662fb15bb928a1427f552eff655b90f13128f47",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/fenicio/product/base.rb"
+    },
+    {
+      "path": "app/integrations/fenicio/product/fetcher.rb",
+      "protected_sha256": "11e7fd95936d1b0ba2eed2157e2fce7de2e04ee1ee671136d754e6bcc2cab96a",
+      "current_sha256": "11e7fd95936d1b0ba2eed2157e2fce7de2e04ee1ee671136d754e6bcc2cab96a",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/fenicio/product/fetcher.rb"
+    },
+    {
+      "path": "app/integrations/fenicio/product/lookup.rb",
+      "protected_sha256": "3e01577912a1e006a2001c948f20a611915b505af1a8cadc7132c1f3a4b1071f",
+      "current_sha256": "3e01577912a1e006a2001c948f20a611915b505af1a8cadc7132c1f3a4b1071f",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/fenicio/product/lookup.rb"
+    },
+    {
+      "path": "app/integrations/fenicio/product/create.rb",
+      "protected_sha256": "46bf14ecedc6a41cebfb9ee5e455c20656e8c9edd474df6abcd701aba0f9062e",
+      "current_sha256": "46bf14ecedc6a41cebfb9ee5e455c20656e8c9edd474df6abcd701aba0f9062e",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/fenicio/product/create.rb"
+    },
+    {
+      "path": "app/integrations/fenicio/product/params.rb",
+      "protected_sha256": "9f562e439b2b82c1f564f0377596286ec6ee0fa2dc568689a8550fd3b22723cb",
+      "current_sha256": "9f562e439b2b82c1f564f0377596286ec6ee0fa2dc568689a8550fd3b22723cb",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/fenicio/product/params.rb"
+    },
+    {
+      "path": "app/integrations/fenicio/order_item/upsert.rb",
+      "protected_sha256": "9a9d7b51525e3fdbcef9280a9add6d3ab66be12b409ecde1245a0edd6ea70e1f",
+      "current_sha256": "9a9d7b51525e3fdbcef9280a9add6d3ab66be12b409ecde1245a0edd6ea70e1f",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/fenicio/order_item/upsert.rb"
+    },
+    {
+      "path": "app/integrations/fenicio/account/setup.rb",
+      "protected_sha256": "eebfaac459bcf4c63272d72f032ed4867fd6f4f36a7ed5f0b6779bc0cf71f897",
+      "current_sha256": "eebfaac459bcf4c63272d72f032ed4867fd6f4f36a7ed5f0b6779bc0cf71f897",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/fenicio/account/setup.rb"
+    },
+    {
+      "path": "app/integrations/fenicio/client/base.rb",
+      "protected_sha256": "681c1d7eca0d6fefb8cb8d87bc70bd9758337236f86ef9624b993a50b98198d2",
+      "current_sha256": "681c1d7eca0d6fefb8cb8d87bc70bd9758337236f86ef9624b993a50b98198d2",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/fenicio/client/base.rb"
+    },
+    {
+      "path": "app/integrations/fenicio/client/account.rb",
+      "protected_sha256": "e8d716c4608a4ff48a5ea8e206ece298242669681d93973f6dda74a265b6ccf0",
+      "current_sha256": "e8d716c4608a4ff48a5ea8e206ece298242669681d93973f6dda74a265b6ccf0",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/fenicio/client/account.rb"
+    },
+    {
+      "path": "app/integrations/fenicio/client/customer.rb",
+      "protected_sha256": "a887deb923b6e06853c41f8cbfd0288fd9bc67b9b19c0ba6807bf698e2f6553c",
+      "current_sha256": "a887deb923b6e06853c41f8cbfd0288fd9bc67b9b19c0ba6807bf698e2f6553c",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/fenicio/client/customer.rb"
+    },
+    {
+      "path": "app/integrations/fenicio/client/product.rb",
+      "protected_sha256": "1cf837907befd3f34fe79ee2b3c1ded5811f16670f4c4b312d7d1718d639b1d7",
+      "current_sha256": "1cf837907befd3f34fe79ee2b3c1ded5811f16670f4c4b312d7d1718d639b1d7",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/fenicio/client/product.rb"
+    },
+    {
+      "path": "app/integrations/fenicio/client/order.rb",
+      "protected_sha256": "48311db8a2f287087be0098aa0047598c42f734707dfc089b7723842e6e5afea",
+      "current_sha256": "48311db8a2f287087be0098aa0047598c42f734707dfc089b7723842e6e5afea",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/fenicio/client/order.rb"
+    },
+    {
+      "path": "app/integrations/fenicio/client/product_variant.rb",
+      "protected_sha256": "8e9ae38501468dab2b3f66e9b8a6309158c9bb793b1f03508bebc1370323b5ec",
+      "current_sha256": "8e9ae38501468dab2b3f66e9b8a6309158c9bb793b1f03508bebc1370323b5ec",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/fenicio/client/product_variant.rb"
+    },
+    {
+      "path": "app/integrations/fenicio/client/persistent_connection_adapter.rb",
+      "protected_sha256": "d2bc003f7ef0a3b27567a62cd4f8a2c850b43f044b9e6559353455b4a2135cb2",
+      "current_sha256": "d2bc003f7ef0a3b27567a62cd4f8a2c850b43f044b9e6559353455b4a2135cb2",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/fenicio/client/persistent_connection_adapter.rb"
+    },
+    {
+      "path": "app/integrations/fenicio/customer/create.rb",
+      "protected_sha256": "7ecb0ddf824c23384f4f8c8dd5440152c73603895cce6cf8fc155c29df4adc0b",
+      "current_sha256": "7ecb0ddf824c23384f4f8c8dd5440152c73603895cce6cf8fc155c29df4adc0b",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/fenicio/customer/create.rb"
+    },
+    {
+      "path": "app/integrations/fenicio/customer/params.rb",
+      "protected_sha256": "62c0cdfc6ee6aca10be154758f9d95b3c65ace5fe6d99b21d48a09c397622baf",
+      "current_sha256": "62c0cdfc6ee6aca10be154758f9d95b3c65ace5fe6d99b21d48a09c397622baf",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/fenicio/customer/params.rb"
+    },
+    {
+      "path": "app/jobs/fenicio/ping_api_job.rb",
+      "protected_sha256": "1337e4f36dc2d16d338912897ef0d2a79dc90a34417c192af7e5e49f3fd1c58d",
+      "current_sha256": "1337e4f36dc2d16d338912897ef0d2a79dc90a34417c192af7e5e49f3fd1c58d",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/jobs/fenicio/ping_api_job.rb"
+    },
+    {
+      "path": "app/jobs/fenicio/activate_job.rb",
+      "protected_sha256": "9e9299990668a4dab8a0bf327c61a2d3cc88a975e7f4b3dd4cdedf8a2ab67673",
+      "current_sha256": "9e9299990668a4dab8a0bf327c61a2d3cc88a975e7f4b3dd4cdedf8a2ab67673",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/jobs/fenicio/activate_job.rb"
+    },
+    {
+      "path": "app/jobs/fenicio/order/poll_job.rb",
+      "protected_sha256": "4611839bee7938a06ac1922880862da6b8985c211289d1926656612fa03435e9",
+      "current_sha256": "4611839bee7938a06ac1922880862da6b8985c211289d1926656612fa03435e9",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/jobs/fenicio/order/poll_job.rb"
+    },
+    {
+      "path": "app/jobs/fenicio/order/poller_job.rb",
+      "protected_sha256": "66752f58a305bcc80f53a301961a3e29b2c9e009cdcbdf41a57c3c2cce5ef72e",
+      "current_sha256": "66752f58a305bcc80f53a301961a3e29b2c9e009cdcbdf41a57c3c2cce5ef72e",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/jobs/fenicio/order/poller_job.rb"
+    },
+    {
+      "path": "app/jobs/fenicio/order/poller_worker_job.rb",
+      "protected_sha256": "5ab98a66cdaad221923570ceaeb9a781043eb7f3526dabb03f1dd82aacb10b69",
+      "current_sha256": "5ab98a66cdaad221923570ceaeb9a781043eb7f3526dabb03f1dd82aacb10b69",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/jobs/fenicio/order/poller_worker_job.rb"
+    },
+    {
+      "path": "app/jobs/fenicio/setup/import_customers_job.rb",
+      "protected_sha256": "f3c686b0a91ec169a6424d417e92ec5caa718e0b81ad908a4daee0bf9150c5e6",
+      "current_sha256": "f3c686b0a91ec169a6424d417e92ec5caa718e0b81ad908a4daee0bf9150c5e6",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/jobs/fenicio/setup/import_customers_job.rb"
+    },
+    {
+      "path": "app/jobs/fenicio/setup/import_products_page_job.rb",
+      "protected_sha256": "9994388b410bf4977110e0aa9df8d5cf1fdbe3c1c0c64a32ad915c47964d1c48",
+      "current_sha256": "9994388b410bf4977110e0aa9df8d5cf1fdbe3c1c0c64a32ad915c47964d1c48",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/jobs/fenicio/setup/import_products_page_job.rb"
+    },
+    {
+      "path": "app/jobs/fenicio/setup/job.rb",
+      "protected_sha256": "f05946b44eb8a41c8b0e2163b8721e3b79d554cd9edb81a8e02b18209d5def12",
+      "current_sha256": "f05946b44eb8a41c8b0e2163b8721e3b79d554cd9edb81a8e02b18209d5def12",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/jobs/fenicio/setup/job.rb"
+    },
+    {
+      "path": "app/jobs/fenicio/setup/import_orders_page_job.rb",
+      "protected_sha256": "1841ebc84388fd5bb8a3b3125481045f8434d89b36b8d4d5b97c83666a035c21",
+      "current_sha256": "1841ebc84388fd5bb8a3b3125481045f8434d89b36b8d4d5b97c83666a035c21",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/jobs/fenicio/setup/import_orders_page_job.rb"
+    },
+    {
+      "path": "app/services/contact/finder.rb",
+      "protected_sha256": "45615f7190b06959c530a806d6901f831f8397ce2b9d49ac1764026a391dda86",
+      "current_sha256": "45615f7190b06959c530a806d6901f831f8397ce2b9d49ac1764026a391dda86",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/services/contact/finder.rb"
+    },
+    {
+      "path": "app/services/contact/creator.rb",
+      "protected_sha256": "ea4bafb6f79f0d9b8a25e8c5a20100cefcf24700b1f1e00117b6f73789090c94",
+      "current_sha256": "ea4bafb6f79f0d9b8a25e8c5a20100cefcf24700b1f1e00117b6f73789090c94",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/services/contact/creator.rb"
+    },
+    {
+      "path": "app/services/contact/attribute/creator/fenicio.rb",
+      "protected_sha256": "e8b4a5702fa922c35c35217f3cb8aec252da7f9c471de7323fb5ba0b59da733c",
+      "current_sha256": "e8b4a5702fa922c35c35217f3cb8aec252da7f9c471de7323fb5ba0b59da733c",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/services/contact/attribute/creator/fenicio.rb"
+    },
+    {
+      "path": "app/models/import/populate/fenicio.rb",
+      "protected_sha256": "e33482cc4c0c8cc941dad7a9a90f75006321fe8aa9d76ede57c7da6c3e757736",
+      "current_sha256": "e33482cc4c0c8cc941dad7a9a90f75006321fe8aa9d76ede57c7da6c3e757736",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/import/populate/fenicio.rb"
+    },
+    {
+      "path": "app/models/import/scaffold.rb",
+      "protected_sha256": "9710f26b461c6ae84981a5f18877195c56b714a81c506cefdfc12e8c5363905c",
+      "current_sha256": "9710f26b461c6ae84981a5f18877195c56b714a81c506cefdfc12e8c5363905c",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/import/scaffold.rb"
+    },
+    {
+      "path": "app/models/contact/audience_query.rb",
+      "protected_sha256": "60f52b8f1c7efdf96838df053f7f45b2afb67b2d078fe8b299ca3380d45abcb6",
+      "current_sha256": "60f52b8f1c7efdf96838df053f7f45b2afb67b2d078fe8b299ca3380d45abcb6",
+      "identical": true,
+      "current_primary_url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/contact/audience_query.rb"
+    }
+  ],
+  "sdk": {
+    "version": "2.6.0",
+    "tarball_url": "https://registry.npmjs.org/@hellotext/hellotext/-/hellotext-2.6.0.tgz",
+    "integrity_verified": true,
+    "tarball_sha256": "de0125ba4e8e920ec9f57a9d1fe4a8dd794ebd581030c11a5d37ffc55da859d4",
+    "source_files": [
+      {
+        "path": "src/hellotext.js",
+        "sha256": "76eafba301b960171dc358e7ccf6423618882c7d3f4dbcf2f63c1287d5fc24dc"
+      },
+      {
+        "path": "src/api/response.js",
+        "sha256": "fb91e76f6a0e8538931a70cd59d608906a9ba9c5a2aaaef04dd5637bde201aa0"
+      }
+    ],
+    "cdn_distribution": {
+      "url": "https://cdn.jsdelivr.net/npm/@hellotext/hellotext@2.6.0/dist/hellotext.js",
+      "matches_published_tarball": true,
+      "sha256": "0b0226a25c43002a9da506c80de12b576b0c0fd074a16e6d4f465a7748c26331"
+    }
+  },
+  "primary_sources": [
+    "https://www.hellotext.com/api",
+    "https://github.com/hellotext/hellotext.js/blob/main/docs/tracking.md"
+  ],
+  "operations": "Read-only source/official documentation and npm/CDN distribution. No store HEAD or API, example, import, authorization, tracking event, subscription, delivery or worker executed. Only isolated local new form GET, temporary fictional DOM values and account locale ES/EN with ES restored for captures.",
+  "specific_contracts": [
+    "Customer historical import enumerates buyers from exposed order pages, not an independently enumerated registered-user database. Existing identities/email/phone can match profiles; commerce and contact permission remain distinct.",
+    "First Next performs HEAD store reachability then can save a draft account/integration/properties. Customer choice writes pending/import timestamps before actual processing. API status check queries orders and can activate/schedule jobs; it does not check browser SDK installation.",
+    "No current primary evidence confirms inherited static IP 5.161.64.254. Replace with current authorization details confirmed by Hellotext support before sending editable ticket model.",
+    "Fenicio products use code; presentations become variants with SKU reference, stock-backed state and live lookup response. Order idOrden/numeroOrden, amount/currency and delivery modality versus derived lifecycle event are distinct; service lines without product SKU omitted.",
+    "Queue/API/subscription availability and incomplete or later data prevent guaranteed minutes-to-sync or complete lifecycle/history claims. Activation not full import proof.",
+    "Released 2.6.0 initialize asynchronous, no automatic page.viewed; explicit actual views once and session/identity/received versus processed remain distinct."
+  ]
+}

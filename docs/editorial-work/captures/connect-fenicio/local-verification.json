@@ -1,0 +1,481 @@
+{
+  "originals": [
+    {
+      "article": "_i18n/es/integrations/connect-fenicio.md",
+      "snapshot": "docs/editorial-work/captures/connect-fenicio/originals/es.md",
+      "sha256": "5e14cc6bb9cde170dfa653781da5bd316cc043134da510a3ffffe0203b787a24",
+      "headings": [
+        "## Qué sincroniza la integración",
+        "## Antes de conectar",
+        "## Conecta tu cuenta de Fenicio",
+        "## Solicita la autorización a Fenicio",
+        "### Modelo de correo para Fenicio",
+        "## Verifica los datos sincronizados",
+        "## Soluciona problemas de conexión",
+        "## Guías relacionadas"
+      ],
+      "links": [
+        "_integrations/verify-data-and-signals.md",
+        "_integrations/setup-overview.md",
+        "_integrations/product-catalog-sync.md",
+        "_integrations/verify-data-and-signals.md",
+        "_audience/customer-profiles.md"
+      ],
+      "live_sha256": "ec1e4806424f6ede2067926ef9f2e56ff40efb47f9ba02e893e8a1d8a18868b3",
+      "headings_links_stub_preserved": true,
+      "new_links": [
+        "_developers/tracking-events.md"
+      ]
+    },
+    {
+      "article": "_i18n/en/integrations/connect-fenicio.md",
+      "snapshot": "docs/editorial-work/captures/connect-fenicio/originals/en.md",
+      "sha256": "b74013204172fbc81b5e2b27f28aa52277d6d9877111fa7df536340339100ad5",
+      "headings": [
+        "## What the integration syncs",
+        "## Before you connect",
+        "## Connect your Fenicio account",
+        "## Request authorization from Fenicio",
+        "### Email template for Fenicio",
+        "## Verify synchronized data",
+        "## Troubleshoot the connection",
+        "## Related guides"
+      ],
+      "links": [
+        "_integrations/verify-data-and-signals.md",
+        "_integrations/setup-overview.md",
+        "_integrations/product-catalog-sync.md",
+        "_integrations/verify-data-and-signals.md",
+        "_audience/customer-profiles.md"
+      ],
+      "live_sha256": "5701f9535baf80a684322ab682b02b0a13f958fcb053018a7ce8aa3e4e590b2a",
+      "headings_links_stub_preserved": true,
+      "new_links": [
+        "_developers/tracking-events.md"
+      ]
+    },
+    {
+      "article": "_integrations/connect-fenicio.md",
+      "snapshot": "docs/editorial-work/captures/connect-fenicio/originals/stub.md",
+      "sha256": "9002b6c80f827ad43b0f6044810f2ee1ec75100bcc2942ef3d9071b14d7c2a54",
+      "headings": [],
+      "links": [],
+      "live_sha256": "9002b6c80f827ad43b0f6044810f2ee1ec75100bcc2942ef3d9071b14d7c2a54",
+      "headings_links_stub_preserved": true,
+      "new_links": []
+    }
+  ],
+  "images": [
+    {
+      "asset": "images/integrations/connect-fenicio/account-es.png",
+      "sha256": "c3c96ef39741897476371796b9015da195e52a7bea43a5881cd2f374551a1a6d",
+      "pixels": [
+        1064,
+        408
+      ],
+      "logical_size": [
+        532,
+        204
+      ],
+      "reused": false,
+      "new_capture": true,
+      "source_pixels_and_icc_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "original_provenance": "docs/editorial-work/captures/connect-fenicio/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/connect-fenicio/account-es-ui.json",
+      "source_asset_pixels_icc_and_both_builds_match": true
+    },
+    {
+      "asset": "images/integrations/connect-fenicio/account-es-mobile.png",
+      "sha256": "907a6bf95f1ce326340c59db6f794fe411405bca7b785ea03fe232a9de987f5b",
+      "pixels": [
+        764,
+        408
+      ],
+      "logical_size": [
+        382,
+        204
+      ],
+      "reused": false,
+      "new_capture": true,
+      "source_pixels_and_icc_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "original_provenance": "docs/editorial-work/captures/connect-fenicio/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/connect-fenicio/account-es-mobile-ui.json",
+      "source_asset_pixels_icc_and_both_builds_match": true
+    },
+    {
+      "asset": "images/integrations/connect-fenicio/account-en.png",
+      "sha256": "b6381721f6993170101996d30a28e4ec27fb96576c50577c91d0552a18c1a882",
+      "pixels": [
+        1064,
+        408
+      ],
+      "logical_size": [
+        532,
+        204
+      ],
+      "reused": false,
+      "new_capture": true,
+      "source_pixels_and_icc_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "original_provenance": "docs/editorial-work/captures/connect-fenicio/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/connect-fenicio/account-en-ui.json",
+      "source_asset_pixels_icc_and_both_builds_match": true
+    },
+    {
+      "asset": "images/integrations/connect-fenicio/account-en-mobile.png",
+      "sha256": "465536dac3217d0a513efcba94945c993f0c722a90d87e59e9703b4e393fc8c7",
+      "pixels": [
+        764,
+        408
+      ],
+      "logical_size": [
+        382,
+        204
+      ],
+      "reused": false,
+      "new_capture": true,
+      "source_pixels_and_icc_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "original_provenance": "docs/editorial-work/captures/connect-fenicio/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/connect-fenicio/account-en-mobile-ui.json",
+      "source_asset_pixels_icc_and_both_builds_match": true
+    },
+    {
+      "asset": "images/developers/custom-store-integration/business-es.png",
+      "sha256": "17ec399500cee235d73459ced0de47fac99054987976a56f4e09603150ef5dfb",
+      "pixels": [
+        1736,
+        404
+      ],
+      "logical_size": [
+        868.0,
+        202.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "source_pixels_and_icc_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-es-ui.json",
+      "source_asset_pixels_icc_and_both_builds_match": true
+    },
+    {
+      "asset": "images/developers/custom-store-integration/business-es-mobile.png",
+      "sha256": "0c7ac4c233075fa5d072e27ac33e7947092bf6406858524ab12fa546be553ed8",
+      "pixels": [
+        748,
+        524
+      ],
+      "logical_size": [
+        374.0,
+        262.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "source_pixels_and_icc_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-es-mobile-ui.json",
+      "source_asset_pixels_icc_and_both_builds_match": true
+    },
+    {
+      "asset": "images/developers/custom-store-integration/business-en.png",
+      "sha256": "1f7f132b2245056eda5166b1b1cfdbeee406ebcf7bad4a13a6eb3fd501184d7f",
+      "pixels": [
+        1736,
+        404
+      ],
+      "logical_size": [
+        868.0,
+        202.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "source_pixels_and_icc_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-en-ui.json",
+      "source_asset_pixels_icc_and_both_builds_match": true
+    },
+    {
+      "asset": "images/developers/custom-store-integration/business-en-mobile.png",
+      "sha256": "c7badab42d6878393ab746c2950605b8153dc38d60ac1ae09c747a949706bfeb",
+      "pixels": [
+        748,
+        524
+      ],
+      "logical_size": [
+        374.0,
+        262.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "source_pixels_and_icc_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-en-mobile-ui.json",
+      "source_asset_pixels_icc_and_both_builds_match": true
+    },
+    {
+      "asset": "images/developers/products-and-inventory-with-api/identity-es.png",
+      "sha256": "cad5dac8389b4545324ad7b0d2cdc0c1cfd2d04a476b42f7bf5110530cc50f43",
+      "pixels": [
+        1006,
+        786
+      ],
+      "logical_size": [
+        503,
+        393
+      ],
+      "reused": true,
+      "new_capture": false,
+      "source_pixels_and_icc_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "original_provenance": "docs/editorial-work/captures/products-and-inventory-with-api/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/products-and-inventory-with-api/identity-es-ui.json",
+      "source_asset_pixels_icc_and_both_builds_match": true
+    },
+    {
+      "asset": "images/developers/products-and-inventory-with-api/identity-es-mobile.png",
+      "sha256": "e59c825526ab948c121cde309ff647e98d8b8b015546116fe91e5cdf15ebdb00",
+      "pixels": [
+        778,
+        786
+      ],
+      "logical_size": [
+        389,
+        393
+      ],
+      "reused": true,
+      "new_capture": false,
+      "source_pixels_and_icc_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "original_provenance": "docs/editorial-work/captures/products-and-inventory-with-api/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/products-and-inventory-with-api/identity-es-mobile-ui.json",
+      "source_asset_pixels_icc_and_both_builds_match": true
+    },
+    {
+      "asset": "images/developers/products-and-inventory-with-api/identity-en.png",
+      "sha256": "0ad4775d9bd3d743c1aa60c89c9db36609032046126386e77710f41b682c78e8",
+      "pixels": [
+        1006,
+        786
+      ],
+      "logical_size": [
+        503,
+        393
+      ],
+      "reused": true,
+      "new_capture": false,
+      "source_pixels_and_icc_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "original_provenance": "docs/editorial-work/captures/products-and-inventory-with-api/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/products-and-inventory-with-api/identity-en-ui.json",
+      "source_asset_pixels_icc_and_both_builds_match": true
+    },
+    {
+      "asset": "images/developers/products-and-inventory-with-api/identity-en-mobile.png",
+      "sha256": "ee47e9bab2033b8dc413e0eb63a5d89ad5f65f322dd07b4431e864677a332b60",
+      "pixels": [
+        778,
+        786
+      ],
+      "logical_size": [
+        389,
+        393
+      ],
+      "reused": true,
+      "new_capture": false,
+      "source_pixels_and_icc_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "original_provenance": "docs/editorial-work/captures/products-and-inventory-with-api/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/products-and-inventory-with-api/identity-en-mobile-ui.json",
+      "source_asset_pixels_icc_and_both_builds_match": true
+    },
+    {
+      "asset": "images/developers/orders-with-api/details-es.png",
+      "sha256": "ce7071cd6129d589df554b45f6ead105ef20ce3b1b4eeaf6eace613f34b4bb00",
+      "pixels": [
+        1006,
+        914
+      ],
+      "logical_size": [
+        503,
+        457
+      ],
+      "reused": true,
+      "new_capture": false,
+      "source_pixels_and_icc_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/orders-with-api/details-es-ui.json",
+      "source_asset_pixels_icc_and_both_builds_match": true
+    },
+    {
+      "asset": "images/developers/orders-with-api/details-es-mobile.png",
+      "sha256": "002115693247a8d96672d24a28406f0c452db72eb2df13ad721a9f3d12102ad9",
+      "pixels": [
+        778,
+        914
+      ],
+      "logical_size": [
+        389,
+        457
+      ],
+      "reused": true,
+      "new_capture": false,
+      "source_pixels_and_icc_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/orders-with-api/details-es-mobile-ui.json",
+      "source_asset_pixels_icc_and_both_builds_match": true
+    },
+    {
+      "asset": "images/developers/orders-with-api/details-en.png",
+      "sha256": "b728ba41fdd9c004408a7153f0f8f9a0bfc6634d0d9e44485db3dfc7b120b08b",
+      "pixels": [
+        1006,
+        914
+      ],
+      "logical_size": [
+        503,
+        457
+      ],
+      "reused": true,
+      "new_capture": false,
+      "source_pixels_and_icc_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/orders-with-api/details-en-ui.json",
+      "source_asset_pixels_icc_and_both_builds_match": true
+    },
+    {
+      "asset": "images/developers/orders-with-api/details-en-mobile.png",
+      "sha256": "8d44d00464fcffb4c98684b550a95fd7df0a64360333a384e3d6eefca81d44c0",
+      "pixels": [
+        778,
+        914
+      ],
+      "logical_size": [
+        389,
+        457
+      ],
+      "reused": true,
+      "new_capture": false,
+      "source_pixels_and_icc_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/orders-with-api/details-en-mobile-ui.json",
+      "source_asset_pixels_icc_and_both_builds_match": true
+    }
+  ],
+  "browser": [
+    {
+      "locale": "es",
+      "device": "desktop",
+      "width_css": 1440,
+      "top_level_sections": 7,
+      "email_subsections": 1,
+      "figures": 4,
+      "full_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true
+    },
+    {
+      "locale": "es",
+      "device": "mobile",
+      "width_css": 390,
+      "top_level_sections": 7,
+      "email_subsections": 1,
+      "figures": 4,
+      "full_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true
+    },
+    {
+      "locale": "es",
+      "device": "narrow",
+      "width_css": 580,
+      "top_level_sections": 7,
+      "email_subsections": 1,
+      "figures": 4,
+      "full_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true
+    },
+    {
+      "locale": "en",
+      "device": "desktop",
+      "width_css": 1440,
+      "top_level_sections": 7,
+      "email_subsections": 1,
+      "figures": 4,
+      "full_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true
+    },
+    {
+      "locale": "en",
+      "device": "mobile",
+      "width_css": 390,
+      "top_level_sections": 7,
+      "email_subsections": 1,
+      "figures": 4,
+      "full_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true
+    },
+    {
+      "locale": "en",
+      "device": "narrow",
+      "width_css": 580,
+      "top_level_sections": 7,
+      "email_subsections": 1,
+      "figures": 4,
+      "full_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true
+    }
+  ],
+  "publication_state": "not_yet_publicly_verified"
+}
