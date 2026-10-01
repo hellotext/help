@@ -1,0 +1,554 @@
+{
+  "verified_at_utc": "2026-10-01T21:18:01.105357+00:00",
+  "verified_git_main_sha": "4f9b0547976a08549c4784b3f3b63ddb2e9fc395",
+  "production_deploy_id_sha_association": {
+    "id": "6abecdbb0c1f7c00088a6eb7",
+    "site_id": "d66a79c1-b5de-44d1-bc47-bc7809f7f3b3",
+    "state": "ready",
+    "context": "production",
+    "branch": "main",
+    "commit_ref": "4f9b0547976a08549c4784b3f3b63ddb2e9fc395",
+    "created_at": "2026-10-01T21:16:43.737Z",
+    "published_at": "2026-10-01T21:17:21.068Z",
+    "deploy_ssl_url": "https://main--legendary-lollipop-e2d131.netlify.app"
+  },
+  "deployment_method": "Normal Netlify production after Git merge; no manual deploy. Accessible public site-alias listing provided exact commit_ref.",
+  "pages": [
+    {
+      "url": "https://help.hellotext.com/es/solucionar-una-captura",
+      "status": 200,
+      "article_key": "troubleshooting-deliverability/troubleshoot-a-capture.md",
+      "locale": "es",
+      "figures": 6,
+      "sections": 10,
+      "approved_assets_present": [
+        "/images/captures/forms/es/catalog-desktop-row.png",
+        "/images/captures/capture-overview/desktop-form-es.png",
+        "/images/captures/website-popup/settings-es.png",
+        "/images/captures/webchat-widget/behavior-es.png",
+        "/images/captures/webchat-widget/behavior-mobile-es.png",
+        "/images/captures/forms/ui-refresh/es/preview.png",
+        "/images/captures/qr-codes/type-es.png",
+        "/images/captures/qr-codes/type-es-mobile.png",
+        "/images/audience/customer-profiles/profile-fields-es.png",
+        "/images/audience/customer-profiles/profile-fields-es-mobile.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "63310292504e6f36078aeb72af281acc46b3e25a068be6546069aa9e681a85c5",
+      "html_sha256": "faaff9ee68511f3d0bb9333ac34b9902e758aeec4e5782614848d18f4e420a69"
+    },
+    {
+      "url": "https://help.hellotext.com/troubleshoot-a-capture",
+      "status": 200,
+      "article_key": "troubleshooting-deliverability/troubleshoot-a-capture.md",
+      "locale": "en",
+      "figures": 6,
+      "sections": 10,
+      "approved_assets_present": [
+        "/images/captures/forms/en/catalog-desktop-row.png",
+        "/images/captures/capture-overview/desktop-form-en.png",
+        "/images/captures/website-popup/settings-en.png",
+        "/images/captures/webchat-widget/behavior-en.png",
+        "/images/captures/webchat-widget/behavior-mobile-en.png",
+        "/images/captures/forms/ui-refresh/en/preview.png",
+        "/images/captures/qr-codes/type-en.png",
+        "/images/captures/qr-codes/type-en-mobile.png",
+        "/images/audience/customer-profiles/profile-fields-en.png",
+        "/images/audience/customer-profiles/profile-fields-en-mobile.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "35c109ef98faa37fa6e8e60e833893159f62b3ceac4b5f5a5778bf7a8cf7970b",
+      "html_sha256": "4aefbc78ec5702346220898b03043733257a965d8c91bf191079362d9e5be140"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://help.hellotext.com/images/captures/forms/es/catalog-desktop-row.png",
+      "status": 200,
+      "sha256": "566beb2c6e7b0d3c249b910ae4f4e64b8af41f827f9278795129e4c677873e8a",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/forms/en/catalog-desktop-row.png",
+      "status": 200,
+      "sha256": "7ee2d1dc3d8e3f432ec838e55987946f00163e53400a3ce124721570517488cc",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/capture-overview/desktop-form-es.png",
+      "status": 200,
+      "sha256": "9ce384f09ff7528d172498cd65436a902ea3bfaf6ae3af46adafb33633f1e951",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/capture-overview/desktop-form-en.png",
+      "status": 200,
+      "sha256": "ac896380329371ff4ff4395b6b7e393eecf0075071f1f361daf273992236bbd4",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/website-popup/settings-en.png",
+      "status": 200,
+      "sha256": "0231cd9de10ea6889afcd48470746ec90793d797327ee2509aa6a4436b29a717",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/website-popup/settings-es.png",
+      "status": 200,
+      "sha256": "7426ccc4a876c7b8ab126171f1b800c4f6ec0080df80c700fe98cdd3587c479b",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/webchat-widget/behavior-en.png",
+      "status": 200,
+      "sha256": "c5027d4bdba0246c5264ccc0cdd762ab80520cfdf2c405279c58f464f9d07300",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/webchat-widget/behavior-es.png",
+      "status": 200,
+      "sha256": "0c66189d4751f9634a37408378a0d6c703edaf4661d552a3ac763f7684027b54",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/webchat-widget/behavior-mobile-en.png",
+      "status": 200,
+      "sha256": "2f47245fe9d08de0f099cd2ee216a00f54e76155fcfee1828439e4157ef3b66b",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/webchat-widget/behavior-mobile-es.png",
+      "status": 200,
+      "sha256": "14b9443d6cd63896109792495171d333f9ebadd7bfa4cf8528dcfa3f81dd1dc0",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/forms/ui-refresh/en/preview.png",
+      "status": 200,
+      "sha256": "fd99e7e004f2a1a0a084405aef1191469e23a7f034c83374caad6a38d48cc0e6",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/forms/ui-refresh/es/preview.png",
+      "status": 200,
+      "sha256": "8caa6c2618d9dfbff44dd7c9b5dc6048dd37020cc58e6b12479549be749550b2",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/qr-codes/type-es.png",
+      "status": 200,
+      "sha256": "eede258c9564f35a12937dc91e1dfe2ca1a42b55b91aa656eb43d4ba9adc6b68",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/qr-codes/type-en.png",
+      "status": 200,
+      "sha256": "ace129e7e733ed1a67517f502e903aa64e96147c056126dd034253f91b95ebac",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/qr-codes/type-es-mobile.png",
+      "status": 200,
+      "sha256": "64eb482e351a951426188c8219d6c581a8c1d2637f2a799395cd0e40ffcb0ee5",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/qr-codes/type-en-mobile.png",
+      "status": 200,
+      "sha256": "cffe0390ce515e36f8f3338747e94826de6bbb2e77e94f5780b2217003eded34",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/audience/customer-profiles/profile-fields-es.png",
+      "status": 200,
+      "sha256": "bf1ee79e29d0ef384913cad51a1792ddf0050d75a5b4e138bd49df682e203b40",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/audience/customer-profiles/profile-fields-en.png",
+      "status": 200,
+      "sha256": "9bbb727226b2a20d5df4be2ca7612d29037b9d18d8e7e2ec488c407c54945f5d",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/audience/customer-profiles/profile-fields-es-mobile.png",
+      "status": 200,
+      "sha256": "1525d3add44bb64b93d457bb3353f8bfdd9fe0f1f99b84580aed0807db7829c3",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/audience/customer-profiles/profile-fields-en-mobile.png",
+      "status": 200,
+      "sha256": "0e2c6a1622ea73ec0fa008f5100b7ce5f04e2695cdb1aa2414c855db6ca760cb",
+      "matches_approved_asset": true,
+      "reused": true
+    }
+  ],
+  "new_captures": 0,
+  "new_png_uploads": 0,
+  "reused_pngs": 20,
+  "all_affected_article_pngs": 20,
+  "main_build": {
+    "conclusion": "success",
+    "databaseId": 36927581063,
+    "event": "push",
+    "headSha": "4f9b0547976a08549c4784b3f3b63ddb2e9fc395",
+    "status": "completed",
+    "url": "https://github.com/hellotext/help/actions/runs/36927581063"
+  },
+  "content_pr": "https://github.com/hellotext/help/pull/345",
+  "content_pr_head": "6e39f262f1e4fc33eeddd5ca818e3551b7ebf8ac",
+  "individual_commits_preserved": [
+    "876184f5a152e7e4f67c1b21cc776a2ca70855f1",
+    "6e39f262f1e4fc33eeddd5ca818e3551b7ebf8ac"
+  ],
+  "unresolved_review_threads_before_merge": 0,
+  "pre_merge_review": {
+    "head": "6e39f262f1e4fc33eeddd5ca818e3551b7ebf8ac",
+    "checks": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T21:11:31Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/hellotext/help/actions/runs/36926913945/job/110586400529",
+        "name": "build",
+        "startedAt": "2026-10-01T21:11:00Z",
+        "status": "COMPLETED",
+        "workflowName": "Build"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T21:11:33Z",
+        "conclusion": "NEUTRAL",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abecc608e643c0008fbe1cc",
+        "name": "Pages changed - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T21:10:57Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T21:11:33Z",
+        "conclusion": "NEUTRAL",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abecc608e643c0008fbe1cc",
+        "name": "Redirect rules - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T21:10:57Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T21:11:22Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://app.aikido.dev/featurebranch/scan/209729375?groupId=34029",
+        "name": "Aikido Security: check code",
+        "startedAt": "2026-10-01T21:10:57Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T21:11:33Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abecc608e643c0008fbe1cc",
+        "name": "Header rules - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T21:10:57Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "StatusContext",
+        "context": "netlify/legendary-lollipop-e2d131/deploy-preview",
+        "startedAt": "2026-10-01T21:11:34Z",
+        "state": "SUCCESS",
+        "targetUrl": "https://deploy-preview-345--legendary-lollipop-e2d131.netlify.app"
+      }
+    ],
+    "comments": [
+      {
+        "id": "IC_kwDOIVbAxs8AAAABYhciKQ",
+        "author": {
+          "login": "netlify"
+        },
+        "authorAssociation": "NONE",
+        "body": "### <span aria-hidden=\"true\">\u2705</span> Deploy Preview for *legendary-lollipop-e2d131* ready!\n\n\n|  Name | Link |\n|:-:|------------------------|\n|<span aria-hidden=\"true\">\ud83d\udd28</span> Latest commit | 6e39f262f1e4fc33eeddd5ca818e3551b7ebf8ac |\n|<span aria-hidden=\"true\">\ud83d\udd0d</span> Latest deploy log | https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abecc608e643c0008fbe1cc |\n|<span aria-hidden=\"true\">\ud83d\ude0e</span> Deploy Preview | [https://deploy-preview-345--legendary-lollipop-e2d131.netlify.app](https://deploy-preview-345--legendary-lollipop-e2d131.netlify.app) |\n|<span aria-hidden=\"true\">\ud83d\udcf1</span> Preview on mobile | <details><summary> Toggle QR Code... </summary><br /><br />![QR Code](https://app.netlify.com/qr-code/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJodHRwczovL2RlcGxveS1wcmV2aWV3LTM0NS0tbGVnZW5kYXJ5LWxvbGxpcG9wLWUyZDEzMS5uZXRsaWZ5LmFwcCJ9.GOrsZbVUmWGXzd6LS9_ZF5V23CU1NqnB0BvH9DUbztU)<br /><br />_Use your smartphone camera to open QR code link._</details> |\n|<span aria-hidden=\"true\">\ud83e\udd16</span> Make changes | [Run an agent on this branch](https://app.netlify.com/projects/legendary-lollipop-e2d131/agent-runs#DcpBCoAgEADAv-w5yShE-kHPcNctA2vFFIro73mbw7yQshypwAzQAWZ3Umgm8Xz3JUvFyFcQKYpcKjWz2uruuV3PKcqz-LaNQyYy2rKZRtJa2xV5IILvBw) |\n---\n<!-- [legendary-lollipop-e2d131 Preview](https://deploy-preview-345--legendary-lollipop-e2d131.netlify.app) -->\n_To edit notification comments on pull requests, go to your [Netlify project configuration](https://app.netlify.com/projects/legendary-lollipop-e2d131/configuration/notifications#deploy-notifications)._",
+        "createdAt": "2026-10-01T21:10:58Z",
+        "includesCreatedEdit": true,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/hellotext/help/pull/345#issuecomment-5940650537",
+        "viewerDidAuthor": false
+      },
+      {
+        "id": "IC_kwDOIVbAxs8AAAABYhcroA",
+        "author": {
+          "login": "chatgpt-codex-connector"
+        },
+        "authorAssociation": "NONE",
+        "body": "<!-- codex-pull-request-review-summary -->\n\n## Codex Review Summary\n\nThis comment shows the latest Codex review activity on this pull request.\n\n| Review | Status | Commit | Review trigger |\n| --- | --- | --- | --- |\n| \ud83d\udcdd **Code Review** | \u2705 **Completed** <relative-time datetime=\"2026-10-01T21:15:16.627447Z\">2026-10-01T21:15:16.627447Z</relative-time> | `6e39f26` | Manual request |\n\n\n\n<details> <summary>\u2139\ufe0f About Codex in GitHub</summary>\n<br/>\n\n[Your team has set up Codex to review pull requests in this repo](https://chatgpt.com/codex/cloud/settings/general). Reviews are triggered when you\n- Open a pull request for review\n- Mark a draft as ready\n- Comment \"@codex review\" or \"@codex security review\".\n\nCodex reacts with \ud83d\udc40 while any review is running, comments if it has suggestions, and reacts with \ud83d\udc4d once all reviews finish with no findings.\n\n</details>",
+        "createdAt": "2026-10-01T21:11:05Z",
+        "includesCreatedEdit": true,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/hellotext/help/pull/345#issuecomment-5940652960",
+        "viewerDidAuthor": false
+      },
+      {
+        "id": "IC_kwDOIVbAxs8AAAABYhdBAA",
+        "author": {
+          "login": "pelcasandra"
+        },
+        "authorAssociation": "MEMBER",
+        "body": "@codex review the exact head 6e39f262f1e4fc33eeddd5ca818e3551b7ebf8ac. Verify bilingual contracts, preserved headings/links, approved source provenance and local verification. Verifier 876184f5a152e7e4f67c1b21cc776a2ca70855f1 is the direct parent of this ledger head; all commits are retained.",
+        "createdAt": "2026-10-01T21:11:22Z",
+        "includesCreatedEdit": false,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/hellotext/help/pull/345#issuecomment-5940658432",
+        "viewerDidAuthor": true
+      },
+      {
+        "id": "IC_kwDOIVbAxs8AAAABYhhz_Q",
+        "author": {
+          "login": "chatgpt-codex-connector"
+        },
+        "authorAssociation": "NONE",
+        "body": "Codex Review: Didn't find any major issues. :rocket:\n\n**Reviewed commit:** `6e39f262f1`\n\n<details> <summary>\u2139\ufe0f About Codex in GitHub</summary>\n<br/>\n\n[Your team has set up Codex to review pull requests in this repo](https://chatgpt.com/codex/cloud/settings/general). Reviews are triggered when you\n- Open a pull request for review\n- Mark a draft as ready\n- Comment \"@codex review\".\n\nIf Codex has suggestions, it will comment; otherwise it will react with \ud83d\udc4d.\n\n\n\n\nCodex can also answer questions or update the PR. Try commenting \"@codex address that feedback\".\n            \n</details>",
+        "createdAt": "2026-10-01T21:15:15Z",
+        "includesCreatedEdit": false,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/hellotext/help/pull/345#issuecomment-5940737021",
+        "viewerDidAuthor": false
+      }
+    ],
+    "reviews": [],
+    "threads": [],
+    "all_actual_comments_reviews_threads_read": true
+  },
+  "preview_verification": {
+    "head": "6e39f262f1e4fc33eeddd5ca818e3551b7ebf8ac",
+    "preview_url": "https://deploy-preview-345--legendary-lollipop-e2d131.netlify.app",
+    "deployment": {
+      "id": "6abecc608e643c0008fbe1cc",
+      "context": "deploy-preview",
+      "commit_ref": "6e39f262f1e4fc33eeddd5ca818e3551b7ebf8ac",
+      "state": "ready",
+      "review_id": 345
+    },
+    "pages": [
+      {
+        "url": "https://deploy-preview-345--legendary-lollipop-e2d131.netlify.app/es/solucionar-una-captura",
+        "status": 200,
+        "article_key": "troubleshooting-deliverability/troubleshoot-a-capture.md",
+        "locale": "es",
+        "figures": 6,
+        "sections": 10,
+        "approved_assets_present": [
+          "/images/captures/forms/es/catalog-desktop-row.png",
+          "/images/captures/capture-overview/desktop-form-es.png",
+          "/images/captures/website-popup/settings-es.png",
+          "/images/captures/webchat-widget/behavior-es.png",
+          "/images/captures/webchat-widget/behavior-mobile-es.png",
+          "/images/captures/forms/ui-refresh/es/preview.png",
+          "/images/captures/qr-codes/type-es.png",
+          "/images/captures/qr-codes/type-es-mobile.png",
+          "/images/audience/customer-profiles/profile-fields-es.png",
+          "/images/audience/customer-profiles/profile-fields-es-mobile.png"
+        ],
+        "complete_article_matches_verified_build": true,
+        "article_sha256": "63310292504e6f36078aeb72af281acc46b3e25a068be6546069aa9e681a85c5",
+        "html_sha256": "f583362c03187b4bc48ae03fce5b18f011607d83f3ae54926d13a70cdb0271e9"
+      },
+      {
+        "url": "https://deploy-preview-345--legendary-lollipop-e2d131.netlify.app/troubleshoot-a-capture",
+        "status": 200,
+        "article_key": "troubleshooting-deliverability/troubleshoot-a-capture.md",
+        "locale": "en",
+        "figures": 6,
+        "sections": 10,
+        "approved_assets_present": [
+          "/images/captures/forms/en/catalog-desktop-row.png",
+          "/images/captures/capture-overview/desktop-form-en.png",
+          "/images/captures/website-popup/settings-en.png",
+          "/images/captures/webchat-widget/behavior-en.png",
+          "/images/captures/webchat-widget/behavior-mobile-en.png",
+          "/images/captures/forms/ui-refresh/en/preview.png",
+          "/images/captures/qr-codes/type-en.png",
+          "/images/captures/qr-codes/type-en-mobile.png",
+          "/images/audience/customer-profiles/profile-fields-en.png",
+          "/images/audience/customer-profiles/profile-fields-en-mobile.png"
+        ],
+        "complete_article_matches_verified_build": true,
+        "article_sha256": "35c109ef98faa37fa6e8e60e833893159f62b3ceac4b5f5a5778bf7a8cf7970b",
+        "html_sha256": "7f3fb8b350a2d573d7e2d516febe3eb93013294ff5daa57f23ee170ff47686b6"
+      }
+    ],
+    "assets": [
+      {
+        "url": "https://deploy-preview-345--legendary-lollipop-e2d131.netlify.app/images/captures/forms/es/catalog-desktop-row.png",
+        "status": 200,
+        "sha256": "566beb2c6e7b0d3c249b910ae4f4e64b8af41f827f9278795129e4c677873e8a",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-345--legendary-lollipop-e2d131.netlify.app/images/captures/forms/en/catalog-desktop-row.png",
+        "status": 200,
+        "sha256": "7ee2d1dc3d8e3f432ec838e55987946f00163e53400a3ce124721570517488cc",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-345--legendary-lollipop-e2d131.netlify.app/images/captures/capture-overview/desktop-form-es.png",
+        "status": 200,
+        "sha256": "9ce384f09ff7528d172498cd65436a902ea3bfaf6ae3af46adafb33633f1e951",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-345--legendary-lollipop-e2d131.netlify.app/images/captures/capture-overview/desktop-form-en.png",
+        "status": 200,
+        "sha256": "ac896380329371ff4ff4395b6b7e393eecf0075071f1f361daf273992236bbd4",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-345--legendary-lollipop-e2d131.netlify.app/images/captures/website-popup/settings-en.png",
+        "status": 200,
+        "sha256": "0231cd9de10ea6889afcd48470746ec90793d797327ee2509aa6a4436b29a717",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-345--legendary-lollipop-e2d131.netlify.app/images/captures/website-popup/settings-es.png",
+        "status": 200,
+        "sha256": "7426ccc4a876c7b8ab126171f1b800c4f6ec0080df80c700fe98cdd3587c479b",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-345--legendary-lollipop-e2d131.netlify.app/images/captures/webchat-widget/behavior-en.png",
+        "status": 200,
+        "sha256": "c5027d4bdba0246c5264ccc0cdd762ab80520cfdf2c405279c58f464f9d07300",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-345--legendary-lollipop-e2d131.netlify.app/images/captures/webchat-widget/behavior-es.png",
+        "status": 200,
+        "sha256": "0c66189d4751f9634a37408378a0d6c703edaf4661d552a3ac763f7684027b54",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-345--legendary-lollipop-e2d131.netlify.app/images/captures/webchat-widget/behavior-mobile-en.png",
+        "status": 200,
+        "sha256": "2f47245fe9d08de0f099cd2ee216a00f54e76155fcfee1828439e4157ef3b66b",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-345--legendary-lollipop-e2d131.netlify.app/images/captures/webchat-widget/behavior-mobile-es.png",
+        "status": 200,
+        "sha256": "14b9443d6cd63896109792495171d333f9ebadd7bfa4cf8528dcfa3f81dd1dc0",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-345--legendary-lollipop-e2d131.netlify.app/images/captures/forms/ui-refresh/en/preview.png",
+        "status": 200,
+        "sha256": "fd99e7e004f2a1a0a084405aef1191469e23a7f034c83374caad6a38d48cc0e6",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-345--legendary-lollipop-e2d131.netlify.app/images/captures/forms/ui-refresh/es/preview.png",
+        "status": 200,
+        "sha256": "8caa6c2618d9dfbff44dd7c9b5dc6048dd37020cc58e6b12479549be749550b2",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-345--legendary-lollipop-e2d131.netlify.app/images/captures/qr-codes/type-es.png",
+        "status": 200,
+        "sha256": "eede258c9564f35a12937dc91e1dfe2ca1a42b55b91aa656eb43d4ba9adc6b68",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-345--legendary-lollipop-e2d131.netlify.app/images/captures/qr-codes/type-en.png",
+        "status": 200,
+        "sha256": "ace129e7e733ed1a67517f502e903aa64e96147c056126dd034253f91b95ebac",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-345--legendary-lollipop-e2d131.netlify.app/images/captures/qr-codes/type-es-mobile.png",
+        "status": 200,
+        "sha256": "64eb482e351a951426188c8219d6c581a8c1d2637f2a799395cd0e40ffcb0ee5",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-345--legendary-lollipop-e2d131.netlify.app/images/captures/qr-codes/type-en-mobile.png",
+        "status": 200,
+        "sha256": "cffe0390ce515e36f8f3338747e94826de6bbb2e77e94f5780b2217003eded34",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-345--legendary-lollipop-e2d131.netlify.app/images/audience/customer-profiles/profile-fields-es.png",
+        "status": 200,
+        "sha256": "bf1ee79e29d0ef384913cad51a1792ddf0050d75a5b4e138bd49df682e203b40",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-345--legendary-lollipop-e2d131.netlify.app/images/audience/customer-profiles/profile-fields-en.png",
+        "status": 200,
+        "sha256": "9bbb727226b2a20d5df4be2ca7612d29037b9d18d8e7e2ec488c407c54945f5d",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-345--legendary-lollipop-e2d131.netlify.app/images/audience/customer-profiles/profile-fields-es-mobile.png",
+        "status": 200,
+        "sha256": "1525d3add44bb64b93d457bb3353f8bfdd9fe0f1f99b84580aed0807db7829c3",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-345--legendary-lollipop-e2d131.netlify.app/images/audience/customer-profiles/profile-fields-en-mobile.png",
+        "status": 200,
+        "sha256": "0e2c6a1622ea73ec0fa008f5100b7ce5f04e2695cdb1aa2414c855db6ca760cb",
+        "matches_approved_asset": true,
+        "reused": true
+      }
+    ]
+  },
+  "earlier_record_332_limitation": "This genuine later content SHA published normally; it does not prove publication of ad6d6455d0671cda042dc5ef184f73c86d64f8fb. No manual deployment or retry."
+}
