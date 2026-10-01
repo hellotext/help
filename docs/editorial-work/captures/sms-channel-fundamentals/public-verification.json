@@ -1,0 +1,483 @@
+{
+  "verified_at_utc": "2026-10-01T12:08:53.034403+00:00",
+  "verified_git_main_sha": "1a859856f98b41ce5e02cfaccaae4c35d637239a",
+  "production_deploy_id_sha_association": {
+    "id": "6abe4ce8da4a0a0008b143cf",
+    "site_id": "d66a79c1-b5de-44d1-bc47-bc7809f7f3b3",
+    "state": "ready",
+    "context": "production",
+    "branch": "main",
+    "commit_ref": "1a859856f98b41ce5e02cfaccaae4c35d637239a",
+    "created_at": "2026-10-01T12:07:04.810Z",
+    "published_at": "2026-10-01T12:08:17.492Z",
+    "deploy_ssl_url": "https://main--legendary-lollipop-e2d131.netlify.app"
+  },
+  "deployment_method": "Normal Netlify production after Git merge; no manual deploy. Accessible public site-alias listing provided exact commit_ref.",
+  "pages": [
+    {
+      "url": "https://help.hellotext.com/es/fundamentos-canal-sms",
+      "status": 200,
+      "article_key": "numbers/sms-channel-fundamentals.md",
+      "locale": "es",
+      "figures": 2,
+      "sections": 12,
+      "approved_assets_present": [
+        "/images/developers/send-messages-with-api/editor-es.png",
+        "/images/developers/send-messages-with-api/editor-es-mobile.png",
+        "/images/audience/import-customer-profiles/import-consent-es-20260928-crop.png",
+        "/images/audience/import-customer-profiles/import-consent-mobile-es-20260928-crop.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "b54a44c49f2a062f55c9a5e07b1263c73319e01435e95656a5d26795e83cbe9c",
+      "html_sha256": "6024faf90d1aa5bd6af9a60523005a3c163176d5d0201de4eea8f9c32e5ec33a"
+    },
+    {
+      "url": "https://help.hellotext.com/sms-channel-fundamentals",
+      "status": 200,
+      "article_key": "numbers/sms-channel-fundamentals.md",
+      "locale": "en",
+      "figures": 2,
+      "sections": 12,
+      "approved_assets_present": [
+        "/images/developers/send-messages-with-api/editor-en.png",
+        "/images/developers/send-messages-with-api/editor-en-mobile.png",
+        "/images/audience/import-customer-profiles/import-consent-en-20260928-crop.png",
+        "/images/audience/import-customer-profiles/import-consent-mobile-en-20260928-crop.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "9d44cfd67926d2d244dca6d00997f9f9a2757486269781db152b7e154315e1b7",
+      "html_sha256": "3578a5f11e9aab30686b41678c675f7783502ca3025f5ffee8913aa26fb89e6e"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://help.hellotext.com/images/developers/send-messages-with-api/editor-es.png",
+      "status": 200,
+      "sha256": "27cbe0e6670b0412f590a6030287ce264393c7d56f1ebaafb407d20dd059da02",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/send-messages-with-api/editor-en.png",
+      "status": 200,
+      "sha256": "330f9832b65d012cbdb0cc97cb757f2c90ac197a37bbae711cb5285521261011",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/send-messages-with-api/editor-es-mobile.png",
+      "status": 200,
+      "sha256": "0b6fcf98897f7a89bce1654e31fe8eb5fe31195f36ff3d1eb801ddfd76eb9639",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/send-messages-with-api/editor-en-mobile.png",
+      "status": 200,
+      "sha256": "d5f1753c4577120e5953e7b211cf36850141722623937bc72fccf729bf8b9ca2",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/audience/import-customer-profiles/import-consent-en-20260928-crop.png",
+      "status": 200,
+      "sha256": "f9857f0417d21d45939407689348edbd13117a3624a84133741845c3a9a505fa",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/audience/import-customer-profiles/import-consent-es-20260928-crop.png",
+      "status": 200,
+      "sha256": "c13aa819df5bcd86180a5f0f455c520fdc7cb06d5bcb397eabc16036f915f683",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/audience/import-customer-profiles/import-consent-mobile-en-20260928-crop.png",
+      "status": 200,
+      "sha256": "c5185ed2ab0d9a8a2b198f4df9e14d10b1e64bac51ad911d3ef21713e9c86bda",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/audience/import-customer-profiles/import-consent-mobile-es-20260928-crop.png",
+      "status": 200,
+      "sha256": "3b1bb1b4170ab98a325779593a4a12971d015e3e5908c912cff88b372451839f",
+      "matches_approved_asset": true,
+      "reused": true
+    }
+  ],
+  "new_captures": 0,
+  "new_png_uploads": 0,
+  "reused_pngs": 8,
+  "all_affected_article_pngs": 8,
+  "ancestry_finding_resolution": {
+    "pr": 329,
+    "actual_head": "1d11b135498cc04652ac70cb555e4b7277dd9e89",
+    "verifier": "99ccf2d7c78105da8c244c3a1473469c9a4b5175",
+    "github_commits": {
+      "1d11b135498cc04652ac70cb555e4b7277dd9e89": {
+        "sha": "1d11b135498cc04652ac70cb555e4b7277dd9e89",
+        "node_id": "C_kwDOIVbAxtoAKDFkMTFiMTM1NDk4Y2MwNDY1MmFjNzBjYjU1NWU0YjcyNzdkZDllODk",
+        "url": "https://api.github.com/repos/hellotext/help/git/commits/1d11b135498cc04652ac70cb555e4b7277dd9e89",
+        "html_url": "https://github.com/hellotext/help/commit/1d11b135498cc04652ac70cb555e4b7277dd9e89",
+        "author": {
+          "name": "Martin Caetano",
+          "email": "martin.caetano@icloud.com",
+          "date": "2026-10-01T11:50:55Z"
+        },
+        "committer": {
+          "name": "Martin Caetano",
+          "email": "martin.caetano@icloud.com",
+          "date": "2026-10-01T11:50:55Z"
+        },
+        "tree": {
+          "sha": "3d8f7f1d199880efc4bb3a5d8ec48970582fa2d5",
+          "url": "https://api.github.com/repos/hellotext/help/git/trees/3d8f7f1d199880efc4bb3a5d8ec48970582fa2d5"
+        },
+        "message": "Record verified SMS channel fundamentals pair",
+        "parents": [
+          {
+            "sha": "99ccf2d7c78105da8c244c3a1473469c9a4b5175",
+            "url": "https://api.github.com/repos/hellotext/help/git/commits/99ccf2d7c78105da8c244c3a1473469c9a4b5175",
+            "html_url": "https://github.com/hellotext/help/commit/99ccf2d7c78105da8c244c3a1473469c9a4b5175"
+          }
+        ],
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "99ccf2d7c78105da8c244c3a1473469c9a4b5175": {
+        "sha": "99ccf2d7c78105da8c244c3a1473469c9a4b5175",
+        "node_id": "C_kwDOIVbAxtoAKDk5Y2NmMmQ3Yzc4MTA1ZGE4YzI0NGMzYTE0NzM0NjljOWE0YjUxNzU",
+        "url": "https://api.github.com/repos/hellotext/help/git/commits/99ccf2d7c78105da8c244c3a1473469c9a4b5175",
+        "html_url": "https://github.com/hellotext/help/commit/99ccf2d7c78105da8c244c3a1473469c9a4b5175",
+        "author": {
+          "name": "Martin Caetano",
+          "email": "martin.caetano@icloud.com",
+          "date": "2026-10-01T11:50:06Z"
+        },
+        "committer": {
+          "name": "Martin Caetano",
+          "email": "martin.caetano@icloud.com",
+          "date": "2026-10-01T11:50:06Z"
+        },
+        "tree": {
+          "sha": "816191d175acaca7e70a9fed2112e800a45cea4f",
+          "url": "https://api.github.com/repos/hellotext/help/git/trees/816191d175acaca7e70a9fed2112e800a45cea4f"
+        },
+        "message": "Clarify SMS channel fundamentals with approved bilingual visuals",
+        "parents": [
+          {
+            "sha": "6b9e35ffe135b7aa12873540d482b83d27a8fc88",
+            "url": "https://api.github.com/repos/hellotext/help/git/commits/6b9e35ffe135b7aa12873540d482b83d27a8fc88",
+            "html_url": "https://github.com/hellotext/help/commit/6b9e35ffe135b7aa12873540d482b83d27a8fc88"
+          }
+        ],
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      }
+    },
+    "local_parents": {
+      "1d11b135498cc04652ac70cb555e4b7277dd9e89": [
+        "99ccf2d7c78105da8c244c3a1473469c9a4b5175"
+      ],
+      "99ccf2d7c78105da8c244c3a1473469c9a4b5175": [
+        "6b9e35ffe135b7aa12873540d482b83d27a8fc88"
+      ]
+    },
+    "verifier_is_ancestor": true,
+    "pr_commits": [
+      {
+        "authoredDate": "2026-10-01T11:50:06Z",
+        "authors": [
+          {
+            "email": "martin.caetano@icloud.com",
+            "id": "MDQ6VXNlcjI5NTk5Ng==",
+            "login": "pelcasandra",
+            "name": "Martin Caetano"
+          }
+        ],
+        "committedDate": "2026-10-01T11:50:06Z",
+        "messageBody": "",
+        "messageHeadline": "Clarify SMS channel fundamentals with approved bilingual visuals",
+        "oid": "99ccf2d7c78105da8c244c3a1473469c9a4b5175"
+      },
+      {
+        "authoredDate": "2026-10-01T11:50:55Z",
+        "authors": [
+          {
+            "email": "martin.caetano@icloud.com",
+            "id": "MDQ6VXNlcjI5NTk5Ng==",
+            "login": "pelcasandra",
+            "name": "Martin Caetano"
+          }
+        ],
+        "committedDate": "2026-10-01T11:50:55Z",
+        "messageBody": "",
+        "messageHeadline": "Record verified SMS channel fundamentals pair",
+        "oid": "1d11b135498cc04652ac70cb555e4b7277dd9e89"
+      }
+    ],
+    "finding_refers_to_different_sha": "c31d3a3"
+  },
+  "main_build": {
+    "conclusion": "success",
+    "databaseId": 36859653558,
+    "event": "push",
+    "headSha": "1a859856f98b41ce5e02cfaccaae4c35d637239a",
+    "status": "completed",
+    "url": "https://github.com/hellotext/help/actions/runs/36859653558"
+  },
+  "content_pr": "https://github.com/hellotext/help/pull/329",
+  "content_pr_head": "1d11b135498cc04652ac70cb555e4b7277dd9e89",
+  "individual_commits_preserved": [
+    "99ccf2d7c78105da8c244c3a1473469c9a4b5175",
+    "1d11b135498cc04652ac70cb555e4b7277dd9e89"
+  ],
+  "unresolved_review_threads_before_merge": 0,
+  "pre_merge_review": {
+    "head": "1d11b135498cc04652ac70cb555e4b7277dd9e89",
+    "checks": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T11:52:08Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/hellotext/help/actions/runs/36858014578/job/110355051537",
+        "name": "build",
+        "startedAt": "2026-10-01T11:51:41Z",
+        "status": "COMPLETED",
+        "workflowName": "Build"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T11:52:50Z",
+        "conclusion": "NEUTRAL",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abe494a017101000939d326",
+        "name": "Pages changed - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T11:51:43Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T11:52:50Z",
+        "conclusion": "NEUTRAL",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abe494a017101000939d326",
+        "name": "Redirect rules - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T11:51:43Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T11:52:02Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://app.aikido.dev/featurebranch/scan/209360059?groupId=34029",
+        "name": "Aikido Security: check code",
+        "startedAt": "2026-10-01T11:51:39Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T11:52:50Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abe494a017101000939d326",
+        "name": "Header rules - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T11:51:43Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "StatusContext",
+        "context": "netlify/legendary-lollipop-e2d131/deploy-preview",
+        "startedAt": "2026-10-01T11:52:52Z",
+        "state": "SUCCESS",
+        "targetUrl": "https://deploy-preview-329--legendary-lollipop-e2d131.netlify.app"
+      }
+    ],
+    "actual_comment_urls": [
+      "https://github.com/hellotext/help/pull/329#issuecomment-5930713483",
+      "https://github.com/hellotext/help/pull/329#issuecomment-5930714627",
+      "https://github.com/hellotext/help/pull/329#issuecomment-5930715156",
+      "https://github.com/hellotext/help/pull/329#issuecomment-5930904263",
+      "https://github.com/hellotext/help/pull/329#issuecomment-5930998813"
+    ],
+    "threads": [
+      {
+        "id": "PRRT_kwDOIVbAxs6n7fCB",
+        "isResolved": true,
+        "comments": {
+          "nodes": [
+            {
+              "id": "PRRC_kwDOIVbAxs73qT-E",
+              "body": "**<sub><sub>![P1 Badge](https://img.shields.io/badge/P1-orange?style=flat)</sub></sub>  Preserve the recorded verifier in this head's ancestry**\n\nWhen this exact head is merged, the ledger will claim verification by `99ccf2d7c78105da8c244c3a1473469c9a4b5175`, but `c31d3a3` has `6b9e35f` as its sole parent and `git merge-base --is-ancestor 99ccf2d c31d3a3` fails. The actual verified chain is `6b9e35f -> 99ccf2d -> 1d11b13`; this squashed commit merely reproduces the final tree, so ancestry-based audits cannot establish that the recorded verifier is part of the delivered history. Preserve the two-commit chain (or otherwise ensure the recorded verifier is an ancestor) rather than merging this exact commit.\n\nUseful? React with \ud83d\udc4d\u00a0/ \ud83d\udc4e.",
+              "url": "https://github.com/hellotext/help/pull/329#discussion_r4155064196",
+              "path": "docs/editorial-work/progress.csv",
+              "originalCommit": {
+                "oid": "1d11b135498cc04652ac70cb555e4b7277dd9e89"
+              }
+            },
+            {
+              "id": "PRRC_kwDOIVbAxs73qfqe",
+              "body": "The recorded verifier is already the direct parent of the actual PR head. GitHub currently reports head `1d11b135498cc04652ac70cb555e4b7277dd9e89`; its Git commit API returns sole parent `99ccf2d7c78105da8c244c3a1473469c9a4b5175`. The verifier has sole parent `6b9e35ffe135b7aa12873540d482b83d27a8fc88`. Local Git agrees and `git merge-base --is-ancestor 99ccf2d7c78105da8c244c3a1473469c9a4b5175 1d11b135498cc04652ac70cb555e4b7277dd9e89` exits 0. The two commits are preserved in this PR. The finding describes `c31d3a3`, which is not this PR head. No squash or rewrite was performed. Please review the actual two-commit history; the normal merge will preserve both commits.\n\nGitHub source: https://api.github.com/repos/hellotext/help/git/commits/1d11b135498cc04652ac70cb555e4b7277dd9e89 and https://api.github.com/repos/hellotext/help/git/commits/99ccf2d7c78105da8c244c3a1473469c9a4b5175",
+              "url": "https://github.com/hellotext/help/pull/329#discussion_r4155112094",
+              "path": "docs/editorial-work/progress.csv",
+              "originalCommit": {
+                "oid": "1d11b135498cc04652ac70cb555e4b7277dd9e89"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "all_actual_comments_reviews_threads_read": true,
+    "actual_reviews": [
+      {
+        "id": "PRR_kwDOIVbAxs8AAAABQJsC-Q",
+        "author": {
+          "login": "chatgpt-codex-connector"
+        },
+        "authorAssociation": "NONE",
+        "body": "\n### \ud83d\udca1 Codex Review\n\nHere are some automated review suggestions for this pull request.\n\n**Reviewed commit:** `1d11b13549`\n    \n\n<details> <summary>\u2139\ufe0f About Codex in GitHub</summary>\n<br/>\n\n[Your team has set up Codex to review pull requests in this repo](https://chatgpt.com/codex/cloud/settings/general). Reviews are triggered when you\n- Open a pull request for review\n- Mark a draft as ready\n- Comment \"@codex review\".\n\nIf Codex has suggestions, it will comment; otherwise it will react with \ud83d\udc4d.\n\n\n\n\nCodex can also answer questions or update the PR. Try commenting \"@codex address that feedback\".\n            \n</details>",
+        "submittedAt": "2026-10-01T11:54:52Z",
+        "includesCreatedEdit": false,
+        "reactionGroups": [],
+        "state": "COMMENTED",
+        "commit": {
+          "oid": "1d11b135498cc04652ac70cb555e4b7277dd9e89"
+        }
+      },
+      {
+        "id": "PRR_kwDOIVbAxs8AAAABQJvrfQ",
+        "author": {
+          "login": "pelcasandra"
+        },
+        "authorAssociation": "MEMBER",
+        "body": "",
+        "submittedAt": "2026-10-01T12:01:02Z",
+        "includesCreatedEdit": false,
+        "reactionGroups": [],
+        "state": "COMMENTED",
+        "commit": {
+          "oid": "1d11b135498cc04652ac70cb555e4b7277dd9e89"
+        }
+      }
+    ]
+  },
+  "preview_verification": {
+    "head": "1d11b135498cc04652ac70cb555e4b7277dd9e89",
+    "preview_url": "https://deploy-preview-329--legendary-lollipop-e2d131.netlify.app",
+    "deployment": {
+      "id": "6abe494a017101000939d326",
+      "context": "deploy-preview",
+      "commit_ref": "1d11b135498cc04652ac70cb555e4b7277dd9e89",
+      "state": "ready",
+      "review_id": 329
+    },
+    "pages": [
+      {
+        "url": "https://deploy-preview-329--legendary-lollipop-e2d131.netlify.app/es/fundamentos-canal-sms",
+        "status": 200,
+        "article_key": "numbers/sms-channel-fundamentals.md",
+        "locale": "es",
+        "figures": 2,
+        "sections": 12,
+        "approved_assets_present": [
+          "/images/developers/send-messages-with-api/editor-es.png",
+          "/images/developers/send-messages-with-api/editor-es-mobile.png",
+          "/images/audience/import-customer-profiles/import-consent-es-20260928-crop.png",
+          "/images/audience/import-customer-profiles/import-consent-mobile-es-20260928-crop.png"
+        ],
+        "complete_article_matches_verified_build": true,
+        "article_sha256": "b54a44c49f2a062f55c9a5e07b1263c73319e01435e95656a5d26795e83cbe9c",
+        "html_sha256": "d0cd07fcad78287c369e875e1f744eaa50df6879321b77bec00687b10bb7011b"
+      },
+      {
+        "url": "https://deploy-preview-329--legendary-lollipop-e2d131.netlify.app/sms-channel-fundamentals",
+        "status": 200,
+        "article_key": "numbers/sms-channel-fundamentals.md",
+        "locale": "en",
+        "figures": 2,
+        "sections": 12,
+        "approved_assets_present": [
+          "/images/developers/send-messages-with-api/editor-en.png",
+          "/images/developers/send-messages-with-api/editor-en-mobile.png",
+          "/images/audience/import-customer-profiles/import-consent-en-20260928-crop.png",
+          "/images/audience/import-customer-profiles/import-consent-mobile-en-20260928-crop.png"
+        ],
+        "complete_article_matches_verified_build": true,
+        "article_sha256": "9d44cfd67926d2d244dca6d00997f9f9a2757486269781db152b7e154315e1b7",
+        "html_sha256": "be9e8d884a6af0f5544eb1b9ebd54bbc20c51f377e9e9b323171315181005e8b"
+      }
+    ],
+    "assets": [
+      {
+        "url": "https://deploy-preview-329--legendary-lollipop-e2d131.netlify.app/images/developers/send-messages-with-api/editor-es.png",
+        "status": 200,
+        "sha256": "27cbe0e6670b0412f590a6030287ce264393c7d56f1ebaafb407d20dd059da02",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-329--legendary-lollipop-e2d131.netlify.app/images/developers/send-messages-with-api/editor-en.png",
+        "status": 200,
+        "sha256": "330f9832b65d012cbdb0cc97cb757f2c90ac197a37bbae711cb5285521261011",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-329--legendary-lollipop-e2d131.netlify.app/images/developers/send-messages-with-api/editor-es-mobile.png",
+        "status": 200,
+        "sha256": "0b6fcf98897f7a89bce1654e31fe8eb5fe31195f36ff3d1eb801ddfd76eb9639",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-329--legendary-lollipop-e2d131.netlify.app/images/developers/send-messages-with-api/editor-en-mobile.png",
+        "status": 200,
+        "sha256": "d5f1753c4577120e5953e7b211cf36850141722623937bc72fccf729bf8b9ca2",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-329--legendary-lollipop-e2d131.netlify.app/images/audience/import-customer-profiles/import-consent-en-20260928-crop.png",
+        "status": 200,
+        "sha256": "f9857f0417d21d45939407689348edbd13117a3624a84133741845c3a9a505fa",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-329--legendary-lollipop-e2d131.netlify.app/images/audience/import-customer-profiles/import-consent-es-20260928-crop.png",
+        "status": 200,
+        "sha256": "c13aa819df5bcd86180a5f0f455c520fdc7cb06d5bcb397eabc16036f915f683",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-329--legendary-lollipop-e2d131.netlify.app/images/audience/import-customer-profiles/import-consent-mobile-en-20260928-crop.png",
+        "status": 200,
+        "sha256": "c5185ed2ab0d9a8a2b198f4df9e14d10b1e64bac51ad911d3ef21713e9c86bda",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-329--legendary-lollipop-e2d131.netlify.app/images/audience/import-customer-profiles/import-consent-mobile-es-20260928-crop.png",
+        "status": 200,
+        "sha256": "3b1bb1b4170ab98a325779593a4a12971d015e3e5908c912cff88b372451839f",
+        "matches_approved_asset": true,
+        "reused": true
+      }
+    ]
+  }
+}
