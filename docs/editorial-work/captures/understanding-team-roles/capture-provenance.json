@@ -1,5 +1,5 @@
 {
-  "status": "locally_verified",
+  "status": "publicly_verified",
   "base_revision": "80989111afbc77fbc36e4a1a5d6659364609f99f",
   "originals": [
     {
@@ -135,7 +135,8 @@
       ],
       "reused": false,
       "new_capture": true,
-      "consumer_publication_state": "pending_protected_pr_and_normal_production_verification"
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "concept": "roles",
@@ -209,7 +210,8 @@
       ],
       "reused": false,
       "new_capture": true,
-      "consumer_publication_state": "pending_protected_pr_and_normal_production_verification"
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "concept": "capacity",
@@ -283,7 +285,8 @@
       ],
       "reused": false,
       "new_capture": true,
-      "consumer_publication_state": "pending_protected_pr_and_normal_production_verification"
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "concept": "capacity",
@@ -357,7 +360,8 @@
       ],
       "reused": false,
       "new_capture": true,
-      "consumer_publication_state": "pending_protected_pr_and_normal_production_verification"
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "concept": "roles",
@@ -431,7 +435,8 @@
       ],
       "reused": false,
       "new_capture": true,
-      "consumer_publication_state": "pending_protected_pr_and_normal_production_verification"
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "concept": "roles",
@@ -505,7 +510,8 @@
       ],
       "reused": false,
       "new_capture": true,
-      "consumer_publication_state": "pending_protected_pr_and_normal_production_verification"
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "concept": "capacity",
@@ -579,7 +585,8 @@
       ],
       "reused": false,
       "new_capture": true,
-      "consumer_publication_state": "pending_protected_pr_and_normal_production_verification"
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "concept": "capacity",
@@ -653,7 +660,8 @@
       ],
       "reused": false,
       "new_capture": true,
-      "consumer_publication_state": "pending_protected_pr_and_normal_production_verification"
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "invite-es",
@@ -682,7 +690,8 @@
       "new_capture": false,
       "source_record_consumer_publication_state": "publicly_verified",
       "source_record_consumer_publication_evidence": "public-verification.json",
-      "consumer_publication_state": "pending_protected_pr_and_normal_production_verification"
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "invite-es-mobile",
@@ -711,7 +720,8 @@
       "new_capture": false,
       "source_record_consumer_publication_state": "publicly_verified",
       "source_record_consumer_publication_evidence": "public-verification.json",
-      "consumer_publication_state": "pending_protected_pr_and_normal_production_verification"
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "invite-en",
@@ -740,7 +750,8 @@
       "new_capture": false,
       "source_record_consumer_publication_state": "publicly_verified",
       "source_record_consumer_publication_evidence": "public-verification.json",
-      "consumer_publication_state": "pending_protected_pr_and_normal_production_verification"
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "invite-en-mobile",
@@ -769,7 +780,8 @@
       "new_capture": false,
       "source_record_consumer_publication_state": "publicly_verified",
       "source_record_consumer_publication_evidence": "public-verification.json",
-      "consumer_publication_state": "pending_protected_pr_and_normal_production_verification"
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "menu-es",
@@ -829,7 +841,8 @@
       "source_record_consumer_publication_state": "publicly_verified",
       "source_record_consumer_publication_evidence": "public-verification.json",
       "source_record_reuse": false,
-      "consumer_publication_state": "pending_protected_pr_and_normal_production_verification"
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "menu-en",
@@ -889,7 +902,8 @@
       "source_record_consumer_publication_state": "publicly_verified",
       "source_record_consumer_publication_evidence": "public-verification.json",
       "source_record_reuse": false,
-      "consumer_publication_state": "pending_protected_pr_and_normal_production_verification"
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     }
   ],
   "source_audit": "docs/editorial-work/captures/understanding-team-roles/source-audit.json",
@@ -906,8 +920,7 @@
     "measured_fixture_fields_identical": true,
     "limits": "Measured fields only, not whole-DB equality. Capture helper validates before/after but returns no raw post snapshot. Reused sources retain their original evidence, without retroactive guards."
   },
-  "pending": [
-    "Protected PR/checks, independent exact-head review, normal production and public page/hash verification."
-  ],
-  "local_verification": "docs/editorial-work/captures/understanding-team-roles/local-verification.json"
+  "pending": [],
+  "local_verification": "docs/editorial-work/captures/understanding-team-roles/local-verification.json",
+  "public_verification": "docs/editorial-work/captures/understanding-team-roles/public-verification.json"
 }
