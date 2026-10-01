@@ -20,7 +20,7 @@ The report opens with **First 14 days** selected. You can switch to the first 7 
   <figcaption class="ht-editorial-visual__caption">English demonstration report: all four summary cards appear on desktop; on narrower screens, use the arrow to move through them.</figcaption>
 </figure>
 
-The range filters results by when each event occurred. A send or delivery counts on its day; a click counts on the click date; and an attributed purchase counts on the purchase date. The summary cards and chart use those dates. The funnel's **Engaged** stage counts delivered messages seen, clicked, or replied to at least once, grouped by dispatch day in the business timezone; a later signal can update that source date. In the message list, the range affects deliveries, clicks, conversions, and revenue; per-message ROI compares revenue from the period with that message's estimated delivery cost. Revenue breakdowns and **Time to conversion** include attributed purchases made within the range.
+The range filters results by when each event occurred. A send or delivery counts on its day; a click counts on the click date; and an attributed purchase counts on the purchase date. The summary cards and chart use those dates. The funnel's **Engaged** stage requires both a delivery and a tracked link click within the same range. In the message list, the range affects deliveries, clicks, conversions, and revenue; per-message ROI compares revenue from the period with that message's estimated delivery cost. Revenue breakdowns and **Time to conversion** include attributed purchases made within the range.
 
 For example, if a message is delivered April 7 and an attributed purchase happens April 10, select a period that includes April 10 to see that revenue. The delivery still counts on April 7. If the range includes the purchase but no deliveries, the conversion rate can show zero because there are no delivered messages in its denominator.
 
@@ -59,10 +59,10 @@ The **Campaign delivery funnel** moves through four stages:
 
 * **Sent:** campaign messages dispatched during the selected period.
 * **Delivered:** messages that reached customers.
-* **Engaged:** delivered campaign messages seen, clicked, or replied to at least once, grouped by message dispatch day within the selected period. Each message contributes once to the combined count; a later signal can update that earlier day.
+* **Engaged:** campaign messages whose delivery and at least one tracked link click occurred within the selected period. Each message counts once, even if it has multiple clicks.
 * **Conversion:** purchases attributed to the campaign that happened during the period. Its percentage uses attributed purchases divided by delivered messages, matching the summary conversion metric.
 
-The funnel counts sends, deliveries, and conversions on their event dates, while **Engaged** groups signals from delivered messages by dispatch day, even if a view, click, or reply arrives later. In a short range, its stages may not represent the same cohort of messages. Use it to spot possible problems: a large gap between sent and delivered can signal delivery or contactability issues; strong delivery with little engagement calls for reviewing the audience, message, and call to action.
+The funnel counts sends, deliveries, and conversions on their event dates, while **Engaged** requires both a delivery and a click within the selected period. In a short range, its stages may not represent the same cohort of messages. Use it to spot possible problems: a large gap between sent and delivered can signal delivery or contactability issues; strong delivery with little engagement calls for reviewing the audience, message, and call to action.
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot ht-editorial-visual--campaign-report ht-editorial-visual--campaign-funnel" aria-label="Campaign delivery funnel stages">
   <div class="ht-editorial-visual__stage">
@@ -182,7 +182,7 @@ Hellotext evaluates the available evidence and its precedence before assigning a
 
 ## When results are missing or unexpected
 
-First confirm that the selected period includes the dates of the results you expect to see: deliveries, clicks, or attributed purchases. To interpret CTR and conversion, also include the delivery dates of messages in the denominator; a range containing only later clicks or purchases can show those rates as zero. In the funnel, **Engaged** uses dispatch day for delivered messages with a recorded view, click, or reply; a later signal can update the source period. Then verify that tracked links and purchase events are available. Supported commerce integrations can send purchase data automatically; custom storefronts can use [Hellotext.js or the API]({% link _developers/tracking-events.md %}).
+First confirm that the selected period includes the dates of the results you expect to see: deliveries, clicks, or attributed purchases. To interpret CTR and conversion, also include the delivery dates of messages in the denominator; a range containing only later clicks or purchases can show those rates as zero. In the funnel, **Engaged** requires both a delivery and a tracked link click within the selected period. Then verify that tracked links and purchase events are available. Supported commerce integrations can send purchase data automatically; custom storefronts can use [Hellotext.js or the API]({% link _developers/tracking-events.md %}).
 
 If activity is still missing, follow [Troubleshoot missing signals or activity]({% link _troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md %}).
 
