@@ -1,0 +1,488 @@
+{
+  "url": "http://127.0.0.1:3192/hellotext/settings",
+  "title": "Change Enterprise settings - Hellotext",
+  "locale": "en",
+  "viewport": [
+    1200,
+    900
+  ],
+  "dpr": 2,
+  "zoom": 1,
+  "scroll": [
+    0,
+    0
+  ],
+  "pageText": "Inbox\nSeasonal\nPlaybooks\nAudience\nSettings\nEnterprise\nD\nOverview\nAgent\nIntegrations\nUsage & Billing\nNotifications\nAuthorizations\nTemplates\nCoupons\nTeams\nResponse times\nObjects\nActions\nEdit business\nName\nUsername\nhellotext.com/\nLanguage\n\nSpanish\n\nTimezone\n\nMontevideo\n\nAuthorized domains\n\nOptional. Restrict the webchat, popups, and forms to the domains listed below. Separate them with commas.\n\nDomain for short links\n\nOptional. Use your own domain or subdomain to customize your short links and reinforce your brand.\n\nMore information\nSave\nCancel\nYour plan is Enterprise\nBased on your usage, you'll pay $2,499 this month (so far).\n\nPlan\n\nChange My Plan\nNight hours\n\nSet up your night hours to avoid sending messages from campaigns and playbooks during those hours.\n\nSetup night hours\nDeactivate business\n\nThis is a destructive action and can't be reversed. This will remove all the information of the business including messages, subscribers and any active subscription.\n\nDeactivate business",
+  "controls": [
+    {
+      "tag": "ASIDE",
+      "text": "Overview\nAgent\nIntegrations\nUsage & Billing\nNotifications\nAuthorizations\nTemplates\nCoupons\nTeams\nResponse times\nObjects\nActions",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        32,
+        155,
+        284,
+        1198
+      ]
+    },
+    {
+      "tag": "MAIN",
+      "text": "Edit business\nName\nUsername\nhellotext.com/\nLanguage\n\nSpanish\n\nTimezone\n\nMontevideo\n\nAuthorized domains\n\nOptional. Restrict the webchat, popups, and forms to the domains listed below. Separate them with commas.\n\nDomain for short links\n\nOptional. Use your own domain or subdomain to customize your short links and reinforce your brand.\n\nMore information\nSave\nCancel\nYour plan is Enterprise\nBased on your usage, you'll pay $2,499 this month (so far).\n\nPlan\n\nChange My Plan\nNight hours\n\nSet up your night hours to avoid sending messages from campaigns and playbooks during those hours.\n\nSetup night hours\nDeactivate business\n\nThis is a destructive action and can't be reversed. This will remove all the information of the business including messages, subscribers and any active subscription.\n\nDeactivate business",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        316,
+        155,
+        852,
+        1222
+      ]
+    },
+    {
+      "tag": "FORM",
+      "text": "Edit business\nName\nUsername\nhellotext.com/\nLanguage\n\nSpanish\n\nTimezone\n\nMontevideo\n\nAuthorized domains\n\nOptional. Restrict the webchat, popups, and forms to the domains listed below. Separate them with commas.\n\nDomain for short links\n\nOptional. Use your own domain or subdomain to customize your short links and reinforce your brand.\n\nMore information\nSave\nCancel",
+      "id": "general-information",
+      "name": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        349,
+        188,
+        786,
+        568
+      ]
+    },
+    {
+      "tag": "MAIN",
+      "text": "Name\nUsername\nhellotext.com/\nLanguage\n\nSpanish\n\nTimezone\n\nMontevideo\n\nAuthorized domains\n\nOptional. Restrict the webchat, popups, and forms to the domains listed below. Separate them with commas.\n\nDomain for short links\n\nOptional. Use your own domain or subdomain to customize your short links and reinforce your brand.\n\nMore information\nSave\nCancel",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        349,
+        240,
+        786,
+        516
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "text": "Name",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        349,
+        240,
+        377,
+        74
+      ]
+    },
+    {
+      "tag": "LABEL",
+      "text": "Name",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        349,
+        240,
+        377,
+        24
+      ]
+    },
+    {
+      "tag": "INPUT",
+      "text": "",
+      "id": "business_name",
+      "name": "business[name]",
+      "role": null,
+      "action": "input->form--submit-inactive#syncInputTargets",
+      "disabled": false,
+      "value": "Enterprise",
+      "rect": [
+        349,
+        272,
+        377,
+        42
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "text": "Username\nhellotext.com/",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        758,
+        240,
+        377,
+        74
+      ]
+    },
+    {
+      "tag": "LABEL",
+      "text": "Username",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        758,
+        240,
+        377,
+        24
+      ]
+    },
+    {
+      "tag": "INPUT",
+      "text": "",
+      "id": "business_handle",
+      "name": "business[handle]",
+      "role": null,
+      "action": "input->form--submit-inactive#syncInputTargets",
+      "disabled": false,
+      "value": "hellotext",
+      "rect": [
+        883.2421875,
+        281,
+        238.7578125,
+        24
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "text": "Language\n\nSpanish",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        349,
+        346,
+        377,
+        74
+      ]
+    },
+    {
+      "tag": "MAIN",
+      "text": "Spanish",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        349,
+        378,
+        377,
+        42
+      ]
+    },
+    {
+      "tag": "P",
+      "text": "Spanish",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        362,
+        387,
+        331,
+        24
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "text": "Timezone\n\nMontevideo",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        758,
+        346,
+        377,
+        74
+      ]
+    },
+    {
+      "tag": "MAIN",
+      "text": "Montevideo",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        758,
+        378,
+        377,
+        42
+      ]
+    },
+    {
+      "tag": "P",
+      "text": "Montevideo",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        771,
+        387,
+        331,
+        24
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "text": "Authorized domains\n\nOptional. Restrict the webchat, popups, and forms to the domains listed below. Separate them with commas.",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        349,
+        452,
+        377,
+        228
+      ]
+    },
+    {
+      "tag": "LABEL",
+      "text": "Authorized domains",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        349,
+        452,
+        377,
+        24
+      ]
+    },
+    {
+      "tag": "P",
+      "text": "Optional. Restrict the webchat, popups, and forms to the domains listed below. Separate them with commas.",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        349,
+        620,
+        377,
+        60
+      ]
+    },
+    {
+      "tag": "SECTION",
+      "text": "Domain for short links\n\nOptional. Use your own domain or subdomain to customize your short links and reinforce your brand.\n\nMore information",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        758,
+        452,
+        377,
+        228
+      ]
+    },
+    {
+      "tag": "LABEL",
+      "text": "Domain for short links",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        758,
+        452,
+        377,
+        24
+      ]
+    },
+    {
+      "tag": "INPUT",
+      "text": "",
+      "id": "business_link_alias",
+      "name": "business[link_alias]",
+      "role": null,
+      "action": "input->form--submit-inactive#syncInputTargets",
+      "disabled": false,
+      "value": "go.example.test",
+      "rect": [
+        758,
+        484,
+        377,
+        42
+      ]
+    },
+    {
+      "tag": "P",
+      "text": "Optional. Use your own domain or subdomain to customize your short links and reinforce your brand.",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        758,
+        534,
+        377,
+        40
+      ]
+    },
+    {
+      "tag": "A",
+      "text": "More information",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": null,
+      "href": "https://help.hellotext.com/setting-up-custom-shortlink-domain",
+      "rect": [
+        758,
+        582,
+        119.734375,
+        20
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Save",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": null,
+      "disabled": false,
+      "rect": [
+        349,
+        712,
+        86.65625,
+        44
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Cancel",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": "turbo-stream#requestTurboStream",
+      "disabled": false,
+      "rect": [
+        451.65625,
+        712,
+        103.4296875,
+        44
+      ]
+    },
+    {
+      "tag": "MAIN",
+      "text": "Your plan is Enterprise\nBased on your usage, you'll pay $2,499 this month (so far).\n\nPlan",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        349,
+        846,
+        546.09375,
+        130
+      ]
+    },
+    {
+      "tag": "ASIDE",
+      "text": "Change My Plan",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        959.09375,
+        889,
+        175.90625,
+        44
+      ]
+    },
+    {
+      "tag": "MAIN",
+      "text": "Night hours\n\nSet up your night hours to avoid sending messages from campaigns and playbooks during those hours.",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        349,
+        1066,
+        564.90625,
+        82
+      ]
+    },
+    {
+      "tag": "ASIDE",
+      "text": "Setup night hours",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        945.90625,
+        1085,
+        189.09375,
+        44
+      ]
+    },
+    {
+      "tag": "MAIN",
+      "text": "Deactivate business\n\nThis is a destructive action and can't be reversed. This will remove all the information of the business including messages, subscribers and any active subscription.",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        349,
+        1238,
+        545.578125,
+        106
+      ]
+    },
+    {
+      "tag": "ASIDE",
+      "text": "Deactivate business",
+      "id": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        926.578125,
+        1269,
+        208.421875,
+        44
+      ]
+    },
+    {
+      "tag": "FORM",
+      "text": "Deactivate business",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": null,
+      "rect": [
+        926.578125,
+        1269,
+        208.421875,
+        44
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Deactivate business",
+      "id": "",
+      "name": "",
+      "role": null,
+      "action": null,
+      "disabled": false,
+      "rect": [
+        926.578125,
+        1269,
+        208.421875,
+        44
+      ]
+    }
+  ],
+  "guard": {
+    "pid": 57358,
+    "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+    "port": 9460,
+    "one_local_page": true,
+    "account": "design-system@example.test",
+    "color_profile": "display-p3-d65",
+    "no_final_action": true
+  }
+}

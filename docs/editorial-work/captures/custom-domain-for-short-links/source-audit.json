@@ -1,0 +1,192 @@
+{
+  "inspected_at_utc": "2026-10-01T09:11:17.539627+00:00",
+  "protected_rails_sha": "5403a7dcb567b63cae87d4c088112d65fad4eb7f",
+  "current_master_sha": "a6a32d95a0b6cdbd63342100012413446aa2a2f5",
+  "source_files": [
+    {
+      "path": "app/models/business/link_alias.rb",
+      "protected_sha256": "5e10ca3266f14cb9c4dbcc3d43cd437ee14689f111c306ec4dd9c89c39ac13b5",
+      "current_sha256": "5e10ca3266f14cb9c4dbcc3d43cd437ee14689f111c306ec4dd9c89c39ac13b5",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/business/link_alias.rb"
+    },
+    {
+      "path": "app/models/link/heartbeat.rb",
+      "protected_sha256": "19dad5ae0f6a4b650315c6560c36e429c882ea7630d8127ff775d1bf98698438",
+      "current_sha256": "19dad5ae0f6a4b650315c6560c36e429c882ea7630d8127ff775d1bf98698438",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/link/heartbeat.rb"
+    },
+    {
+      "path": "app/models/link/click.rb",
+      "protected_sha256": "d41daca7c85a2458cab9d633caedc61cda99877b6f7a05a00388b45439262441",
+      "current_sha256": "d41daca7c85a2458cab9d633caedc61cda99877b6f7a05a00388b45439262441",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/link/click.rb"
+    },
+    {
+      "path": "app/models/link.rb",
+      "protected_sha256": "004742f2a09bbdf7e4e4f112b52912e3cd9edb0f5d6151912ad05ba75bbf3952",
+      "current_sha256": "004742f2a09bbdf7e4e4f112b52912e3cd9edb0f5d6151912ad05ba75bbf3952",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/link.rb"
+    },
+    {
+      "path": "app/models/short_link.rb",
+      "protected_sha256": "c77678e8b1d9678725c602b90bbbde2bb95b7532d5cfd484cb49c643e2e0f0e8",
+      "current_sha256": "c77678e8b1d9678725c602b90bbbde2bb95b7532d5cfd484cb49c643e2e0f0e8",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/short_link.rb"
+    },
+    {
+      "path": "app/controllers/application_controller/link_click_handler.rb",
+      "protected_sha256": "1a8b1878d228a8e5ef649f9ceb8e9fe9a7af7d38d7b52401e505858c6621d053",
+      "current_sha256": "1a8b1878d228a8e5ef649f9ceb8e9fe9a7af7d38d7b52401e505858c6621d053",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/controllers/application_controller/link_click_handler.rb"
+    },
+    {
+      "path": "app/controllers/businesses_controller.rb",
+      "protected_sha256": "63dbd02151e460a8065f355609aa3a146dde608e2a3017e23113599567e5bf54",
+      "current_sha256": "63dbd02151e460a8065f355609aa3a146dde608e2a3017e23113599567e5bf54",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/controllers/businesses_controller.rb"
+    },
+    {
+      "path": "app/policies/business_policy.rb",
+      "protected_sha256": "aa3d940e0887c2727e2531daacb133f84e666070c5cae68a3fab22a5d182abc2",
+      "current_sha256": "aa3d940e0887c2727e2531daacb133f84e666070c5cae68a3fab22a5d182abc2",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/policies/business_policy.rb"
+    },
+    {
+      "path": "app/views/businesses/_form.html.erb",
+      "protected_sha256": "ca0b3a52680ec3c38ff8d37570092d086a9702469b1b9432c58c422ed38e1c02",
+      "current_sha256": "ca0b3a52680ec3c38ff8d37570092d086a9702469b1b9432c58c422ed38e1c02",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/views/businesses/_form.html.erb"
+    },
+    {
+      "path": "app/views/businesses/_show.html.erb",
+      "protected_sha256": "2dd28dcfb5fba84b741d519d6d4932664c9b69f30f293f730a505d6ec35db8fc",
+      "current_sha256": "2dd28dcfb5fba84b741d519d6d4932664c9b69f30f293f730a505d6ec35db8fc",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/views/businesses/_show.html.erb"
+    },
+    {
+      "path": "app/views/businesses/edit.turbo_stream.erb",
+      "protected_sha256": "0b20a6ad11ebc08fce38707037c2ea6aa665cc1a711e31ee14f71e2ae07009d8",
+      "current_sha256": "0b20a6ad11ebc08fce38707037c2ea6aa665cc1a711e31ee14f71e2ae07009d8",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/views/businesses/edit.turbo_stream.erb"
+    },
+    {
+      "path": "config/locales/views/businesses/es.yml",
+      "protected_sha256": "f29b3031fac4de037791111eb0e2ce1f08f586d70062a11b5502d5c88e6d7906",
+      "current_sha256": "f29b3031fac4de037791111eb0e2ce1f08f586d70062a11b5502d5c88e6d7906",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/config/locales/views/businesses/es.yml"
+    },
+    {
+      "path": "config/locales/views/businesses/en.yml",
+      "protected_sha256": "05b6ff44e1d058110a6160451c33d89fa42ee4665889cc7a4abf00eee3cbb515",
+      "current_sha256": "05b6ff44e1d058110a6160451c33d89fa42ee4665889cc7a4abf00eee3cbb515",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/config/locales/views/businesses/en.yml"
+    },
+    {
+      "path": "config/locales/activerecord/business/es.yml",
+      "protected_sha256": "e089939fa0373e785f6807ace718dc62cbf39150714268763db645daf90b478d",
+      "current_sha256": "e089939fa0373e785f6807ace718dc62cbf39150714268763db645daf90b478d",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/config/locales/activerecord/business/es.yml"
+    },
+    {
+      "path": "config/locales/activerecord/business/en.yml",
+      "protected_sha256": "aa2d5a3fde8811a87bcd4661f52ad70971dfa7aca58cdb60ce5dd67d16d3d638",
+      "current_sha256": "aa2d5a3fde8811a87bcd4661f52ad70971dfa7aca58cdb60ce5dd67d16d3d638",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/config/locales/activerecord/business/en.yml"
+    },
+    {
+      "path": "app/jobs/business/link_alias/heartbeat_job.rb",
+      "protected_sha256": "ed0bcab56ca206933e82eeb980ffa064ebf7d795a45f5ed39ede8d9cf6d79ea1",
+      "current_sha256": "ed0bcab56ca206933e82eeb980ffa064ebf7d795a45f5ed39ede8d9cf6d79ea1",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/jobs/business/link_alias/heartbeat_job.rb"
+    },
+    {
+      "path": "app/jobs/business/link_alias/heartbeat_worker.rb",
+      "protected_sha256": "116bcc978612a8223d6c936729d500586c11752bd149ee1090a3e1776b8e5c6b",
+      "current_sha256": "116bcc978612a8223d6c936729d500586c11752bd149ee1090a3e1776b8e5c6b",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/jobs/business/link_alias/heartbeat_worker.rb"
+    },
+    {
+      "path": "app/jobs/business/link_alias/verified_heartbeat_worker.rb",
+      "protected_sha256": "7ee2ed93d1b176085b15d897cf52f03bb21db896cd9cbc45c8d92e1a604bc106",
+      "current_sha256": "7ee2ed93d1b176085b15d897cf52f03bb21db896cd9cbc45c8d92e1a604bc106",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/jobs/business/link_alias/verified_heartbeat_worker.rb"
+    },
+    {
+      "path": "config/initializers/sidekiq.rb",
+      "protected_sha256": "242b91ebd9639594c9e8998214cea016aedc7f70c84991e723c1ef0a759214ea",
+      "current_sha256": "242b91ebd9639594c9e8998214cea016aedc7f70c84991e723c1ef0a759214ea",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/config/initializers/sidekiq.rb"
+    },
+    {
+      "path": "config/application.rb",
+      "protected_sha256": "b90d364c9b9bef35bde1f7cef85bd537e97c5bbf4b10dc8ca1a10b241c445f62",
+      "current_sha256": "b90d364c9b9bef35bde1f7cef85bd537e97c5bbf4b10dc8ca1a10b241c445f62",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/config/application.rb"
+    },
+    {
+      "path": "app/models/products/feature.rb",
+      "protected_sha256": "c7c30b86c4bc80a5b54d27115cfc1c3d292248ad00d7d8aca85d3fbd5db24207",
+      "current_sha256": "c7c30b86c4bc80a5b54d27115cfc1c3d292248ad00d7d8aca85d3fbd5db24207",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/products/feature.rb"
+    },
+    {
+      "path": "db/seeds/packages.rb",
+      "protected_sha256": "c7b8315b2b3fa3600ecc318d2c99cc7467d5c5b1409ca296082a6d02d066b4d8",
+      "current_sha256": "c7b8315b2b3fa3600ecc318d2c99cc7467d5c5b1409ca296082a6d02d066b4d8",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/db/seeds/packages.rb"
+    },
+    {
+      "path": "app/models/products/package.rb",
+      "protected_sha256": "b0f7e9ef7d6bcb32aa5e7e8eaf3da8fdce192c200b841d04205bfcd110fef8d7",
+      "current_sha256": "b0f7e9ef7d6bcb32aa5e7e8eaf3da8fdce192c200b841d04205bfcd110fef8d7",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/products/package.rb"
+    },
+    {
+      "path": "app/models/business/quotas.rb",
+      "protected_sha256": "cfd93d982d6e5ab205317a1e8b798cd7722673752bbdf30f3f1cea4f49ab531d",
+      "current_sha256": "cfd93d982d6e5ab205317a1e8b798cd7722673752bbdf30f3f1cea4f49ab531d",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/business/quotas.rb"
+    }
+  ],
+  "primary_sources": [
+    "https://www.hellotext.com/pricing",
+    "https://developers.cloudflare.com/dns/manage-dns-records/how-to/create-subdomain/",
+    "https://developers.cloudflare.com/dns/cname-flattening/",
+    "https://developers.cloudflare.com/dns/manage-dns-records/troubleshooting/records-with-same-name/",
+    "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resource-record-sets-choosing-alias-non-alias.html"
+  ],
+  "contracts": [
+    "Role and active-quota feature gate; current localized field name versus legacy CNAME label; bare unique domain validation and change clearing verification",
+    "Optional whitelist concerns captures, distinct from link alias",
+    "Pending alias schedule every5min/daily verified checks; authenticated HTTPS heartbeat HTTP200 rather than ICMP or DNS proof; queue latency not SLA",
+    "New ShortLink chooses verified alias at creation or hello.link; existing client_url persists",
+    "Old aliases list is historical recognition, current request host lookup only current Business.link_alias; coordinated old-host path/query redirects required",
+    "Link branding not automatic trust/consent/identity/sale/attribution; do not open live message-specific tracking URLs for screenshots",
+    "DNS provider-specific host/target, same-name conflicts, apex ALIAS restrictions versus flattening, HTTPS service/certificate separate from DNS"
+  ],
+  "operations": "Read-only primary source/documents; no API example, heartbeat, domain save, DNS write, link creation or live click executed."
+}
