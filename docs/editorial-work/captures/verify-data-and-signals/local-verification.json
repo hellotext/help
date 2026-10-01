@@ -1,0 +1,654 @@
+{
+  "originals": [
+    {
+      "article": "_i18n/es/integrations/verify-data-and-signals.md",
+      "snapshot": "docs/editorial-work/captures/verify-data-and-signals/originals/es.md",
+      "sha256": "50c5ae6a11fb987ebeb2360e2d8498d9212c19d12cacb847238e9d3873c2cbfd",
+      "headings": [
+        "## Haz una prueba completa",
+        "## Perfiles de cliente",
+        "## Datos de comercio",
+        "## Eventos y señales",
+        "## Canales y consentimiento",
+        "## Capturas y seguimiento",
+        "## Reportes y atribución",
+        "## Antes de lanzar una misión",
+        "## Si falta algo",
+        "## Guías relacionadas"
+      ],
+      "links": [
+        "_journeys/order-update-playbook.md",
+        "_journeys/smart-recommender-playbook.md",
+        "_integrations/product-catalog-sync.md",
+        "_developers/tracking-events.md",
+        "_audience/consent-and-subscriber-status.md",
+        "_analytics-reporting-attribution/analytics-overview.md",
+        "_troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md",
+        "_integrations/setup-overview.md",
+        "_integrations/product-catalog-sync.md",
+        "_journeys/what-are-signals.md",
+        "_troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md",
+        "_developers/tracking-events.md",
+        "_journeys/choose-your-first-playbook.md",
+        "_journeys/order-update-playbook.md",
+        "_captures/capture-overview.md",
+        "_troubleshooting-deliverability/troubleshooting-checklist.md"
+      ],
+      "live_sha256": "8dbc2c88d52579690235b9562f529a59a8bde966ff3cca2e4f9456798cc5a2a7",
+      "heading_links_stub_preserved": true
+    },
+    {
+      "article": "_i18n/en/integrations/verify-data-and-signals.md",
+      "snapshot": "docs/editorial-work/captures/verify-data-and-signals/originals/en.md",
+      "sha256": "2933c6f16d28a5a4fb530a022120c2977a8ddfe78351cfb4e24ddf20411b2658",
+      "headings": [
+        "## Run one end-to-end test",
+        "## Customer profiles",
+        "## Commerce data",
+        "## Events and signals",
+        "## Channels and consent",
+        "## Captures and follow-up",
+        "## Reporting and attribution",
+        "## Before launching a playbook",
+        "## If something is missing",
+        "## Related guides"
+      ],
+      "links": [
+        "_journeys/order-update-playbook.md",
+        "_journeys/smart-recommender-playbook.md",
+        "_integrations/product-catalog-sync.md",
+        "_developers/tracking-events.md",
+        "_audience/consent-and-subscriber-status.md",
+        "_analytics-reporting-attribution/analytics-overview.md",
+        "_troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md",
+        "_integrations/setup-overview.md",
+        "_integrations/product-catalog-sync.md",
+        "_journeys/what-are-signals.md",
+        "_troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md",
+        "_developers/tracking-events.md",
+        "_journeys/choose-your-first-playbook.md",
+        "_journeys/order-update-playbook.md",
+        "_captures/capture-overview.md",
+        "_troubleshooting-deliverability/troubleshooting-checklist.md"
+      ],
+      "live_sha256": "795b5936838988ce502d57c3e51e81d2ce313de1cd5175097b1d2ad5f04cb875",
+      "heading_links_stub_preserved": true
+    },
+    {
+      "article": "_integrations/verify-data-and-signals.md",
+      "snapshot": "docs/editorial-work/captures/verify-data-and-signals/originals/stub.md",
+      "sha256": "4c370dad4cfeea0e3660324381ae01f8261062d5c3f7d4f4e260154af4146c96",
+      "headings": [],
+      "links": [],
+      "live_sha256": "4c370dad4cfeea0e3660324381ae01f8261062d5c3f7d4f4e260154af4146c96",
+      "heading_links_stub_preserved": true
+    }
+  ],
+  "images": [
+    {
+      "asset": "images/audience/customer-profiles/profile-fields-es.png",
+      "sha256": "bf1ee79e29d0ef384913cad51a1792ddf0050d75a5b4e138bd49df682e203b40",
+      "pixels": [
+        910,
+        1330
+      ],
+      "original_source_pixels": [
+        910,
+        1330
+      ],
+      "original_crop_rectangle_px": null,
+      "logical_size": [
+        455,
+        665
+      ],
+      "reused": true,
+      "new_capture": false,
+      "original_source_pixels_and_icc_unchanged": true,
+      "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "original_provenance": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+      "original_source_sha256": "bf1ee79e29d0ef384913cad51a1792ddf0050d75a5b4e138bd49df682e203b40",
+      "source_asset_pixels_icc_and_both_builds_match": true
+    },
+    {
+      "asset": "images/audience/customer-profiles/profile-fields-en.png",
+      "sha256": "9bbb727226b2a20d5df4be2ca7612d29037b9d18d8e7e2ec488c407c54945f5d",
+      "pixels": [
+        910,
+        1330
+      ],
+      "original_source_pixels": [
+        910,
+        1330
+      ],
+      "original_crop_rectangle_px": null,
+      "logical_size": [
+        455,
+        665
+      ],
+      "reused": true,
+      "new_capture": false,
+      "original_source_pixels_and_icc_unchanged": true,
+      "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "original_provenance": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+      "original_source_sha256": "9bbb727226b2a20d5df4be2ca7612d29037b9d18d8e7e2ec488c407c54945f5d",
+      "source_asset_pixels_icc_and_both_builds_match": true
+    },
+    {
+      "asset": "images/audience/customer-profiles/profile-fields-es-mobile.png",
+      "sha256": "1525d3add44bb64b93d457bb3353f8bfdd9fe0f1f99b84580aed0807db7829c3",
+      "pixels": [
+        700,
+        1330
+      ],
+      "original_source_pixels": [
+        700,
+        1330
+      ],
+      "original_crop_rectangle_px": null,
+      "logical_size": [
+        350,
+        665
+      ],
+      "reused": true,
+      "new_capture": false,
+      "original_source_pixels_and_icc_unchanged": true,
+      "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "original_provenance": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+      "original_source_sha256": "1525d3add44bb64b93d457bb3353f8bfdd9fe0f1f99b84580aed0807db7829c3",
+      "source_asset_pixels_icc_and_both_builds_match": true
+    },
+    {
+      "asset": "images/audience/customer-profiles/profile-fields-en-mobile.png",
+      "sha256": "0e2c6a1622ea73ec0fa008f5100b7ce5f04e2695cdb1aa2414c855db6ca760cb",
+      "pixels": [
+        700,
+        1330
+      ],
+      "original_source_pixels": [
+        700,
+        1330
+      ],
+      "original_crop_rectangle_px": null,
+      "logical_size": [
+        350,
+        665
+      ],
+      "reused": true,
+      "new_capture": false,
+      "original_source_pixels_and_icc_unchanged": true,
+      "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "original_provenance": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+      "original_source_sha256": "0e2c6a1622ea73ec0fa008f5100b7ce5f04e2695cdb1aa2414c855db6ca760cb",
+      "source_asset_pixels_icc_and_both_builds_match": true
+    },
+    {
+      "asset": "images/developers/custom-actions/manual-es.png",
+      "sha256": "144e3281a27f8c6e5434f2e5e12585039d18bd9f300e259df95381af25c376a2",
+      "pixels": [
+        862,
+        1300
+      ],
+      "original_source_pixels": [
+        862,
+        1300
+      ],
+      "original_crop_rectangle_px": null,
+      "logical_size": [
+        431.0,
+        650.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "original_source_pixels_and_icc_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "original_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/custom-actions/manual-es-ui.json",
+      "original_source_sha256": "144e3281a27f8c6e5434f2e5e12585039d18bd9f300e259df95381af25c376a2",
+      "source_asset_pixels_icc_and_both_builds_match": true
+    },
+    {
+      "asset": "images/developers/custom-actions/manual-es-mobile.png",
+      "sha256": "9cc3f116cb1a88b065f769c74e3b215dc3a39383af884a203e240a965970dacf",
+      "pixels": [
+        778,
+        1300
+      ],
+      "original_source_pixels": [
+        778,
+        1300
+      ],
+      "original_crop_rectangle_px": null,
+      "logical_size": [
+        389.0,
+        650.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "original_source_pixels_and_icc_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "original_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/custom-actions/manual-es-mobile-ui.json",
+      "original_source_sha256": "9cc3f116cb1a88b065f769c74e3b215dc3a39383af884a203e240a965970dacf",
+      "source_asset_pixels_icc_and_both_builds_match": true
+    },
+    {
+      "asset": "images/developers/custom-actions/manual-en.png",
+      "sha256": "77dd2a9505cbc073897db00674689fcf819a0ace5b5b58bc53ad36e3aad8ba7b",
+      "pixels": [
+        862,
+        1300
+      ],
+      "original_source_pixels": [
+        862,
+        1300
+      ],
+      "original_crop_rectangle_px": null,
+      "logical_size": [
+        431.0,
+        650.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "original_source_pixels_and_icc_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "original_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/custom-actions/manual-en-ui.json",
+      "original_source_sha256": "77dd2a9505cbc073897db00674689fcf819a0ace5b5b58bc53ad36e3aad8ba7b",
+      "source_asset_pixels_icc_and_both_builds_match": true
+    },
+    {
+      "asset": "images/developers/custom-actions/manual-en-mobile.png",
+      "sha256": "77277beaf19ecfad6b22bb3933c8a563bedb3dabc0a43fbaff07a055358fa80e",
+      "pixels": [
+        778,
+        1300
+      ],
+      "original_source_pixels": [
+        778,
+        1300
+      ],
+      "original_crop_rectangle_px": null,
+      "logical_size": [
+        389.0,
+        650.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "original_source_pixels_and_icc_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "original_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/custom-actions/manual-en-mobile-ui.json",
+      "original_source_sha256": "77277beaf19ecfad6b22bb3933c8a563bedb3dabc0a43fbaff07a055358fa80e",
+      "source_asset_pixels_icc_and_both_builds_match": true
+    },
+    {
+      "asset": "images/developers/orders-with-api/details-es.png",
+      "sha256": "ce7071cd6129d589df554b45f6ead105ef20ce3b1b4eeaf6eace613f34b4bb00",
+      "pixels": [
+        1006,
+        914
+      ],
+      "original_source_pixels": [
+        1006,
+        914
+      ],
+      "original_crop_rectangle_px": null,
+      "logical_size": [
+        503,
+        457
+      ],
+      "reused": true,
+      "new_capture": false,
+      "original_source_pixels_and_icc_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/orders-with-api/details-es-ui.json",
+      "original_source_sha256": "ce7071cd6129d589df554b45f6ead105ef20ce3b1b4eeaf6eace613f34b4bb00",
+      "source_asset_pixels_icc_and_both_builds_match": true
+    },
+    {
+      "asset": "images/developers/orders-with-api/details-es-mobile.png",
+      "sha256": "002115693247a8d96672d24a28406f0c452db72eb2df13ad721a9f3d12102ad9",
+      "pixels": [
+        778,
+        914
+      ],
+      "original_source_pixels": [
+        778,
+        914
+      ],
+      "original_crop_rectangle_px": null,
+      "logical_size": [
+        389,
+        457
+      ],
+      "reused": true,
+      "new_capture": false,
+      "original_source_pixels_and_icc_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/orders-with-api/details-es-mobile-ui.json",
+      "original_source_sha256": "002115693247a8d96672d24a28406f0c452db72eb2df13ad721a9f3d12102ad9",
+      "source_asset_pixels_icc_and_both_builds_match": true
+    },
+    {
+      "asset": "images/developers/orders-with-api/details-en.png",
+      "sha256": "b728ba41fdd9c004408a7153f0f8f9a0bfc6634d0d9e44485db3dfc7b120b08b",
+      "pixels": [
+        1006,
+        914
+      ],
+      "original_source_pixels": [
+        1006,
+        914
+      ],
+      "original_crop_rectangle_px": null,
+      "logical_size": [
+        503,
+        457
+      ],
+      "reused": true,
+      "new_capture": false,
+      "original_source_pixels_and_icc_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/orders-with-api/details-en-ui.json",
+      "original_source_sha256": "b728ba41fdd9c004408a7153f0f8f9a0bfc6634d0d9e44485db3dfc7b120b08b",
+      "source_asset_pixels_icc_and_both_builds_match": true
+    },
+    {
+      "asset": "images/developers/orders-with-api/details-en-mobile.png",
+      "sha256": "8d44d00464fcffb4c98684b550a95fd7df0a64360333a384e3d6eefca81d44c0",
+      "pixels": [
+        778,
+        914
+      ],
+      "original_source_pixels": [
+        778,
+        914
+      ],
+      "original_crop_rectangle_px": null,
+      "logical_size": [
+        389,
+        457
+      ],
+      "reused": true,
+      "new_capture": false,
+      "original_source_pixels_and_icc_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/orders-with-api/details-en-mobile-ui.json",
+      "original_source_sha256": "8d44d00464fcffb4c98684b550a95fd7df0a64360333a384e3d6eefca81d44c0",
+      "source_asset_pixels_icc_and_both_builds_match": true
+    },
+    {
+      "asset": "images/captures/forms/ui-refresh/en/preview.png",
+      "sha256": "fd99e7e004f2a1a0a084405aef1191469e23a7f034c83374caad6a38d48cc0e6",
+      "pixels": [
+        944,
+        692
+      ],
+      "original_source_pixels": [
+        944,
+        692
+      ],
+      "original_crop_rectangle_px": null,
+      "logical_size": [
+        472,
+        346
+      ],
+      "reused": true,
+      "new_capture": false,
+      "original_source_pixels_and_icc_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "original_provenance": "docs/editorial-work/captures/launch-checklist/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/forms/ui-refresh/preview-en-ui.json",
+      "original_source_sha256": "fd99e7e004f2a1a0a084405aef1191469e23a7f034c83374caad6a38d48cc0e6",
+      "source_asset_pixels_icc_and_both_builds_match": true
+    },
+    {
+      "asset": "images/captures/forms/ui-refresh/es/preview.png",
+      "sha256": "8caa6c2618d9dfbff44dd7c9b5dc6048dd37020cc58e6b12479549be749550b2",
+      "pixels": [
+        944,
+        780
+      ],
+      "original_source_pixels": [
+        944,
+        780
+      ],
+      "original_crop_rectangle_px": null,
+      "logical_size": [
+        472,
+        390
+      ],
+      "reused": true,
+      "new_capture": false,
+      "original_source_pixels_and_icc_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "original_provenance": "docs/editorial-work/captures/launch-checklist/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/forms/ui-refresh/preview-es-ui.json",
+      "original_source_sha256": "8caa6c2618d9dfbff44dd7c9b5dc6048dd37020cc58e6b12479549be749550b2",
+      "source_asset_pixels_icc_and_both_builds_match": true
+    },
+    {
+      "asset": "images/analytics-reporting-attribution/campaign-reporting/summary-period-es-wide-desktop.png",
+      "sha256": "65bfef90c667cf5da787412ad4d2175652ea945e2b1c1c84c7fb4bdb6c9217fc",
+      "pixels": [
+        2480,
+        610
+      ],
+      "original_source_pixels": [
+        2880,
+        610
+      ],
+      "original_crop_rectangle_px": {
+        "x": 224,
+        "y": 0,
+        "width": 2480,
+        "height": 610
+      },
+      "logical_size": [
+        1240.0,
+        305.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "original_source_pixels_and_icc_unchanged": true,
+      "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "original_provenance": "docs/editorial-work/captures/tips-and-best-practices/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/campaign-reporting/summary-period-es-wide-desktop.json",
+      "original_source_sha256": "0b3688dd3e368e00fe80b9f184477bb8423010778d51a8a22d85425ab20ec1cd",
+      "source_asset_pixels_icc_and_both_builds_match": true
+    },
+    {
+      "asset": "images/analytics-reporting-attribution/campaign-reporting/summary-period-es-mobile-wide.png",
+      "sha256": "71136b3c75dbbe12a40ad787057309089b29f7d83b49f1ae1426ea91887e34e3",
+      "pixels": [
+        1048,
+        580
+      ],
+      "original_source_pixels": [
+        1048,
+        580
+      ],
+      "original_crop_rectangle_px": null,
+      "logical_size": [
+        524.0,
+        290.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "original_source_pixels_and_icc_unchanged": true,
+      "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "original_provenance": "docs/editorial-work/captures/tips-and-best-practices/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/campaign-reporting/summary-period-es-mobile-wide.json",
+      "original_source_sha256": "71136b3c75dbbe12a40ad787057309089b29f7d83b49f1ae1426ea91887e34e3",
+      "source_asset_pixels_icc_and_both_builds_match": true
+    },
+    {
+      "asset": "images/analytics-reporting-attribution/campaign-reporting/summary-period-en-wide-desktop.png",
+      "sha256": "470347c0697af60e59b6119e2c83bfb848fb9cbf69bd07ec4b14e451db40800e",
+      "pixels": [
+        2480,
+        610
+      ],
+      "original_source_pixels": [
+        2880,
+        610
+      ],
+      "original_crop_rectangle_px": {
+        "x": 224,
+        "y": 0,
+        "width": 2480,
+        "height": 610
+      },
+      "logical_size": [
+        1240.0,
+        305.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "original_source_pixels_and_icc_unchanged": true,
+      "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "original_provenance": "docs/editorial-work/captures/tips-and-best-practices/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/campaign-reporting/summary-period-en-wide-desktop.json",
+      "original_source_sha256": "a5abb5d2044fa121b31494a6723398fa187fdcff53b9c73e27b68efe7bfc0829",
+      "source_asset_pixels_icc_and_both_builds_match": true
+    },
+    {
+      "asset": "images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile-wide.png",
+      "sha256": "244b1faacb31e3852d224f2db51c2efda234e4d57a54826aac83e726037efc36",
+      "pixels": [
+        1048,
+        580
+      ],
+      "original_source_pixels": [
+        1048,
+        580
+      ],
+      "original_crop_rectangle_px": null,
+      "logical_size": [
+        524.0,
+        290.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "original_source_pixels_and_icc_unchanged": true,
+      "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "original_provenance": "docs/editorial-work/captures/tips-and-best-practices/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/campaign-reporting/summary-period-en-mobile-wide.json",
+      "original_source_sha256": "244b1faacb31e3852d224f2db51c2efda234e4d57a54826aac83e726037efc36",
+      "source_asset_pixels_icc_and_both_builds_match": true
+    }
+  ],
+  "browser": [
+    {
+      "locale": "es",
+      "device": "desktop",
+      "width_css": 1440,
+      "top_level_sections": 10,
+      "figures": 5,
+      "full_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true
+    },
+    {
+      "locale": "es",
+      "device": "mobile",
+      "width_css": 390,
+      "top_level_sections": 10,
+      "figures": 5,
+      "full_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true
+    },
+    {
+      "locale": "es",
+      "device": "narrow",
+      "width_css": 580,
+      "top_level_sections": 10,
+      "figures": 5,
+      "full_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true
+    },
+    {
+      "locale": "en",
+      "device": "desktop",
+      "width_css": 1440,
+      "top_level_sections": 10,
+      "figures": 5,
+      "full_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true
+    },
+    {
+      "locale": "en",
+      "device": "mobile",
+      "width_css": 390,
+      "top_level_sections": 10,
+      "figures": 5,
+      "full_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true
+    },
+    {
+      "locale": "en",
+      "device": "narrow",
+      "width_css": 580,
+      "top_level_sections": 10,
+      "figures": 5,
+      "full_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true
+    }
+  ],
+  "publication_state": "not_yet_publicly_verified"
+}
