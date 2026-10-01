@@ -1,0 +1,937 @@
+{
+  "status": "local_verified_publication_pending",
+  "article_key": "developers/troubleshoot-custom-integration.md",
+  "baseline_main": "a63b5fc0437e08eb80a21b0d318b7d42904aa708",
+  "originals": [
+    {
+      "article": "_i18n/es/developers/troubleshoot-custom-integration.md",
+      "snapshot": "docs/editorial-work/captures/troubleshoot-custom-integration/originals/es.md",
+      "sha256": "54706bce0a47e8d4aca6f15ac3ca4c6856e6310fae8f1ccb401d39733e480f62"
+    },
+    {
+      "article": "_i18n/en/developers/troubleshoot-custom-integration.md",
+      "snapshot": "docs/editorial-work/captures/troubleshoot-custom-integration/originals/en.md",
+      "sha256": "f96a26f4ffe4c27ca1c01132a88cf5b521b05a29f70ca829f65aa05f3416704c"
+    },
+    {
+      "article": "_developers/troubleshoot-custom-integration.md",
+      "snapshot": "docs/editorial-work/captures/troubleshoot-custom-integration/originals/stub.md",
+      "sha256": "792ffc1b7f98f325a7f7b7a109edd81aaabb946bf6f234b7415d3cd3800e9398"
+    }
+  ],
+  "images": [
+    {
+      "name": "token-es",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/token-es-original.png",
+      "published_asset": "images/developers/custom-store-integration/token-spacing/token-es.png",
+      "native": {
+        "output": "/private/tmp/hellotext-token-spacing-refresh/native/token-es-original.png",
+        "sha256": "9edcb6a1e9354047b98feb41d5a10b613acdaed33e1dfce768406dd6f3504f8a",
+        "url": "http://127.0.0.1:3192/hellotext/settings/authorizations/new",
+        "locale": "es",
+        "cssViewport": [
+          1200,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          92,
+          124,
+          540,
+          238
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1080,
+          476
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        540,
+        238
+      ],
+      "intended_max_display_width_css": 540,
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/token-es-ui.json",
+      "corrected_label_input_gap_css": 8,
+      "reuse": true,
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved current original source reused without recapture or duplicate upload; this guide publication pending.",
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/capture-provenance.json",
+      "concept": "token"
+    },
+    {
+      "name": "token-es-mobile",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/token-es-mobile-original.png",
+      "published_asset": "images/developers/custom-store-integration/token-spacing/token-es-mobile.png",
+      "native": {
+        "output": "/private/tmp/hellotext-token-spacing-refresh/native/token-es-mobile-original.png",
+        "sha256": "6c9ef30747a2fe23a65542aa040142515cfe034a5df24c6a51e0161f4052b94b",
+        "url": "http://127.0.0.1:3192/hellotext/settings/authorizations/new",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          8,
+          40,
+          374,
+          216
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          748,
+          432
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        374,
+        216
+      ],
+      "intended_max_display_width_css": 374,
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/token-es-mobile-ui.json",
+      "corrected_label_input_gap_css": 8,
+      "reuse": true,
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved current original source reused without recapture or duplicate upload; this guide publication pending.",
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/capture-provenance.json",
+      "concept": "token"
+    },
+    {
+      "name": "token-en",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/token-en-original.png",
+      "published_asset": "images/developers/custom-store-integration/token-spacing/token-en.png",
+      "native": {
+        "output": "/private/tmp/hellotext-token-spacing-refresh/native/token-en-original.png",
+        "sha256": "efe16993a26fbf2e3047bc57da420ff888069022f45fcebd3af561965906a4c2",
+        "url": "http://127.0.0.1:3192/hellotext/settings/authorizations/new",
+        "locale": "en",
+        "cssViewport": [
+          1200,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          92,
+          124,
+          540,
+          238
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1080,
+          476
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        540,
+        238
+      ],
+      "intended_max_display_width_css": 540,
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/token-en-ui.json",
+      "corrected_label_input_gap_css": 8,
+      "reuse": true,
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved current original source reused without recapture or duplicate upload; this guide publication pending.",
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/capture-provenance.json",
+      "concept": "token"
+    },
+    {
+      "name": "token-en-mobile",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/token-en-mobile-original.png",
+      "published_asset": "images/developers/custom-store-integration/token-spacing/token-en-mobile.png",
+      "native": {
+        "output": "/private/tmp/hellotext-token-spacing-refresh/native/token-en-mobile-original.png",
+        "sha256": "2200d9bccae650ed15f47970ab7eb729365e544e6000b1bde4758e600697778b",
+        "url": "http://127.0.0.1:3192/hellotext/settings/authorizations/new",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          8,
+          40,
+          374,
+          216
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          748,
+          432
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        374,
+        216
+      ],
+      "intended_max_display_width_css": 374,
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/token-en-mobile-ui.json",
+      "corrected_label_input_gap_css": 8,
+      "reuse": true,
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved current original source reused without recapture or duplicate upload; this guide publication pending.",
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/token-spacing-refresh/capture-provenance.json",
+      "concept": "token"
+    },
+    {
+      "name": "manual-es",
+      "concept": "manual",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/custom-actions/manual-es-original.png",
+      "published_asset": "images/developers/custom-actions/manual-es.png",
+      "native": {
+        "sha256": "144e3281a27f8c6e5434f2e5e12585039d18bd9f300e259df95381af25c376a2",
+        "url": "http://127.0.0.1:3192/hellotext/audience/yXQ93DnM",
+        "locale": "es",
+        "cssViewport": [
+          1200,
+          650
+        ],
+        "browserDpr": 2,
+        "clip": [
+          769,
+          0,
+          431,
+          650
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          862,
+          1300
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        431.0,
+        650.0
+      ],
+      "intended_max_display_width_css": 431.0,
+      "ui_evidence": "docs/editorial-work/captures/custom-actions/manual-es-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved current original source reused without recapture or duplicate upload; this guide publication pending.",
+      "original_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
+      "reuse": true
+    },
+    {
+      "name": "manual-es-mobile",
+      "concept": "manual",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/custom-actions/manual-es-mobile-original.png",
+      "published_asset": "images/developers/custom-actions/manual-es-mobile.png",
+      "native": {
+        "sha256": "9cc3f116cb1a88b065f769c74e3b215dc3a39383af884a203e240a965970dacf",
+        "url": "http://127.0.0.1:3192/hellotext/audience/yXQ93DnM",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          650
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1,
+          0,
+          389,
+          650
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          778,
+          1300
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        389.0,
+        650.0
+      ],
+      "intended_max_display_width_css": 389.0,
+      "ui_evidence": "docs/editorial-work/captures/custom-actions/manual-es-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved current original source reused without recapture or duplicate upload; this guide publication pending.",
+      "original_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
+      "reuse": true
+    },
+    {
+      "name": "manual-en",
+      "concept": "manual",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/custom-actions/manual-en-original.png",
+      "published_asset": "images/developers/custom-actions/manual-en.png",
+      "native": {
+        "sha256": "77dd2a9505cbc073897db00674689fcf819a0ace5b5b58bc53ad36e3aad8ba7b",
+        "url": "http://127.0.0.1:3192/hellotext/audience/yXQ93DnM",
+        "locale": "en",
+        "cssViewport": [
+          1200,
+          650
+        ],
+        "browserDpr": 2,
+        "clip": [
+          769,
+          0,
+          431,
+          650
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          862,
+          1300
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        431.0,
+        650.0
+      ],
+      "intended_max_display_width_css": 431.0,
+      "ui_evidence": "docs/editorial-work/captures/custom-actions/manual-en-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved current original source reused without recapture or duplicate upload; this guide publication pending.",
+      "original_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
+      "reuse": true
+    },
+    {
+      "name": "manual-en-mobile",
+      "concept": "manual",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/custom-actions/manual-en-mobile-original.png",
+      "published_asset": "images/developers/custom-actions/manual-en-mobile.png",
+      "native": {
+        "sha256": "77277beaf19ecfad6b22bb3933c8a563bedb3dabc0a43fbaff07a055358fa80e",
+        "url": "http://127.0.0.1:3192/hellotext/audience/yXQ93DnM",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          650
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1,
+          0,
+          389,
+          650
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          778,
+          1300
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        389.0,
+        650.0
+      ],
+      "intended_max_display_width_css": 389.0,
+      "ui_evidence": "docs/editorial-work/captures/custom-actions/manual-en-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved current original source reused without recapture or duplicate upload; this guide publication pending.",
+      "original_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
+      "reuse": true
+    },
+    {
+      "name": "details-es",
+      "concept": "details",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/orders-with-api/details-es-original.png",
+      "published_asset": "images/developers/orders-with-api/details-es.png",
+      "native": {
+        "output": "/private/tmp/hellotext-orders-api-guide/native/details-es.png",
+        "sha256": "ce7071cd6129d589df554b45f6ead105ef20ce3b1b4eeaf6eace613f34b4bb00",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/BbZzpNd9/instances",
+        "locale": "es",
+        "cssViewport": [
+          1400,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          897,
+          0,
+          503,
+          457
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1006,
+          914
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        503,
+        457
+      ],
+      "intended_max_display_width_css": 503,
+      "ui_evidence": "docs/editorial-work/captures/orders-with-api/details-es-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "reuse": true,
+      "publication_status": "Approved current original source reused without recapture or duplicate upload; this guide publication pending.",
+      "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json"
+    },
+    {
+      "name": "details-es-mobile",
+      "concept": "details",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/orders-with-api/details-es-mobile-original.png",
+      "published_asset": "images/developers/orders-with-api/details-es-mobile.png",
+      "native": {
+        "output": "/private/tmp/hellotext-orders-api-guide/native/details-es-mobile.png",
+        "sha256": "002115693247a8d96672d24a28406f0c452db72eb2df13ad721a9f3d12102ad9",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/BbZzpNd9/instances",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1,
+          0,
+          389,
+          457
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          778,
+          914
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        389,
+        457
+      ],
+      "intended_max_display_width_css": 389,
+      "ui_evidence": "docs/editorial-work/captures/orders-with-api/details-es-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "reuse": true,
+      "publication_status": "Approved current original source reused without recapture or duplicate upload; this guide publication pending.",
+      "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json"
+    },
+    {
+      "name": "details-en",
+      "concept": "details",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/orders-with-api/details-en-original.png",
+      "published_asset": "images/developers/orders-with-api/details-en.png",
+      "native": {
+        "output": "/private/tmp/hellotext-orders-api-guide/native/details-en.png",
+        "sha256": "b728ba41fdd9c004408a7153f0f8f9a0bfc6634d0d9e44485db3dfc7b120b08b",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/BbZzpNd9/instances",
+        "locale": "en",
+        "cssViewport": [
+          1400,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          897,
+          0,
+          503,
+          457
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1006,
+          914
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        503,
+        457
+      ],
+      "intended_max_display_width_css": 503,
+      "ui_evidence": "docs/editorial-work/captures/orders-with-api/details-en-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "reuse": true,
+      "publication_status": "Approved current original source reused without recapture or duplicate upload; this guide publication pending.",
+      "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json"
+    },
+    {
+      "name": "details-en-mobile",
+      "concept": "details",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/orders-with-api/details-en-mobile-original.png",
+      "published_asset": "images/developers/orders-with-api/details-en-mobile.png",
+      "native": {
+        "output": "/private/tmp/hellotext-orders-api-guide/native/details-en-mobile.png",
+        "sha256": "8d44d00464fcffb4c98684b550a95fd7df0a64360333a384e3d6eefca81d44c0",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/BbZzpNd9/instances",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1,
+          0,
+          389,
+          457
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          778,
+          914
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        389,
+        457
+      ],
+      "intended_max_display_width_css": 389,
+      "ui_evidence": "docs/editorial-work/captures/orders-with-api/details-en-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "reuse": true,
+      "publication_status": "Approved current original source reused without recapture or duplicate upload; this guide publication pending.",
+      "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json"
+    },
+    {
+      "name": "business-es",
+      "concept": "business",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/custom-store-integration/business-es-original.png",
+      "published_asset": "images/developers/custom-store-integration/business-es.png",
+      "native": {
+        "sha256": "17ec399500cee235d73459ced0de47fac99054987976a56f4e09603150ef5dfb",
+        "url": "http://127.0.0.1:3192/hellotext/settings",
+        "locale": "es",
+        "cssViewport": [
+          1200,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          308,
+          147,
+          868,
+          202
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1736,
+          404
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        868.0,
+        202.0
+      ],
+      "intended_max_display_width_css": 868.0,
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-es-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved current original source reused without recapture or duplicate upload; this guide publication pending.",
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+      "reuse": true
+    },
+    {
+      "name": "business-es-mobile",
+      "concept": "business",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/custom-store-integration/business-es-mobile-original.png",
+      "published_asset": "images/developers/custom-store-integration/business-es-mobile.png",
+      "native": {
+        "sha256": "0c7ac4c233075fa5d072e27ac33e7947092bf6406858524ab12fa546be553ed8",
+        "url": "http://127.0.0.1:3192/hellotext/settings",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          8,
+          336,
+          374,
+          262
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          748,
+          524
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        374.0,
+        262.0
+      ],
+      "intended_max_display_width_css": 374.0,
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-es-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved current original source reused without recapture or duplicate upload; this guide publication pending.",
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+      "reuse": true
+    },
+    {
+      "name": "business-en",
+      "concept": "business",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/custom-store-integration/business-en-original.png",
+      "published_asset": "images/developers/custom-store-integration/business-en.png",
+      "native": {
+        "sha256": "1f7f132b2245056eda5166b1b1cfdbeee406ebcf7bad4a13a6eb3fd501184d7f",
+        "url": "http://127.0.0.1:3192/hellotext/settings",
+        "locale": "en",
+        "cssViewport": [
+          1200,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          308,
+          147,
+          868,
+          202
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1736,
+          404
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        868.0,
+        202.0
+      ],
+      "intended_max_display_width_css": 868.0,
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-en-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved current original source reused without recapture or duplicate upload; this guide publication pending.",
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+      "reuse": true
+    },
+    {
+      "name": "business-en-mobile",
+      "concept": "business",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/custom-store-integration/business-en-mobile-original.png",
+      "published_asset": "images/developers/custom-store-integration/business-en-mobile.png",
+      "native": {
+        "sha256": "c7badab42d6878393ab746c2950605b8153dc38d60ac1ae09c747a949706bfeb",
+        "url": "http://127.0.0.1:3192/hellotext/settings",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          8,
+          336,
+          374,
+          262
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          748,
+          524
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        374.0,
+        262.0
+      ],
+      "intended_max_display_width_css": 374.0,
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-en-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved current original source reused without recapture or duplicate upload; this guide publication pending.",
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+      "reuse": true
+    }
+  ],
+  "new_captures": 0,
+  "new_png_uploads": 0,
+  "source_audit": {
+    "rails_revision": "5403a7dcb567b63cae87d4c088112d65fad4eb7f",
+    "rails_files": [
+      {
+        "path": "app/controllers/api/v1/api_controller.rb",
+        "sha256": "782f068f20035706cd9ff5593c5ebd1ee6ad5cd2efe7f8ccb35444429fd16038"
+      },
+      {
+        "path": "app/controllers/api/v1/api_controller/authenticate_token.rb",
+        "sha256": "87d2b9046f07d4f4ef70731db750064edb82dfa6513f6cc8e2993d69b7986558"
+      },
+      {
+        "path": "app/controllers/concerns/checks_business_plan.rb",
+        "sha256": "e3a35cb3bbb36a78c91d21b7987e666abdbb2c5463e187c3c9aa700956aab308"
+      },
+      {
+        "path": "app/policies/api_policy.rb",
+        "sha256": "11303c68157d438a1ee39f5d238ad154d95d136c79c770bd793a69557565765a"
+      },
+      {
+        "path": "app/controllers/api/v1/errors/base.rb",
+        "sha256": "cd7ca6a455c641a2cca67a25748e1f058f8a402512ca9caa52b70f5348a76fd8"
+      },
+      {
+        "path": "app/controllers/api/v1/errors/generic.rb",
+        "sha256": "74340cab310a7e182d666a3a9865236a207a6f7f06bd3a5e0f5177ae71c14e3a"
+      },
+      {
+        "path": "app/controllers/api/v1/profiles_controller.rb",
+        "sha256": "6e95fd82bebf58a6a688dd86f92d9a343fc0a94e3e66b3f94b9095d83b50fc16"
+      },
+      {
+        "path": "app/models/api/profile.rb",
+        "sha256": "80155fdf48bb5c55f1a62801cade9e5e1cdcc6b7a10e856fc8b9ab170a46bccb"
+      },
+      {
+        "path": "app/models/api/profile/pagination.rb",
+        "sha256": "e8a56aa586ae476c9e02c7c96b8e7ebc843307a39e7d08dacfce4b60894dd842"
+      },
+      {
+        "path": "app/models/api/pagy_cursor.rb",
+        "sha256": "6ffdd929454188fa18e8a00fd01fb0b6a35dfa70f699a5652802424d425e6025"
+      },
+      {
+        "path": "app/controllers/api/v1/attribution/events_controller.rb",
+        "sha256": "d52abb290cb39f2cb77876fd8c207a0047f9303e87cb33264d76ee377455d72d"
+      },
+      {
+        "path": "app/controllers/api/v1/track/events_controller.rb",
+        "sha256": "eecdb61c10e1de2455effdfd51f784855755f96344561faa7bc4817c146b2360"
+      },
+      {
+        "path": "app/models/api/track/base.rb",
+        "sha256": "6e9998516544bbb1e2e86cb6962599b50e8229f43dc358e8c0e5e8cc9df05a2a"
+      },
+      {
+        "path": "app/models/api/track/custom.rb",
+        "sha256": "f9c62ce381d7afc78600d4bdcbd3938a142a1ab158e8deb0e3096cc0f200f0fa"
+      },
+      {
+        "path": "app/models/api/track/order.rb",
+        "sha256": "a95adf35af24a8d012d22e97ad3f9317075c50574083a6d27e8883bbd9d4c7f7"
+      },
+      {
+        "path": "app/models/api/track/product.rb",
+        "sha256": "b3eca485e3ca015aa817ea4c2ff5fb69fc9e4b95aaa10729e35b1780187abc3c"
+      },
+      {
+        "path": "app/models/api/track/event_tracker.rb",
+        "sha256": "d0e362717865b005efc82435324478e000bbc585dc4a8bcf3c553b6adcf3b9fd"
+      },
+      {
+        "path": "app/jobs/api/event_tracker_job.rb",
+        "sha256": "3a3dc9d360dd57b1f738a2153d29f97c985f7e12eae1f2f5aa1997c3680516db"
+      },
+      {
+        "path": "app/jobs/api/track_event_job.rb",
+        "sha256": "f51f840bb9beed2e655203e45c706835fdef3554ceed8f6a11b9949548f29b9f"
+      },
+      {
+        "path": "app/controllers/api/v1/status/received.rb",
+        "sha256": "fb2811faf32fb82661ccb2a6292194593abb717798ce90b386968a6b06cec3ef"
+      },
+      {
+        "path": "app/controllers/api/v1/concerns/session_scoped.rb",
+        "sha256": "764408cea50d67394dadb86d78fff3886f0da9b0e36bf9c7c67050c3145e3613"
+      },
+      {
+        "path": "app/controllers/api/v1/public/application_controller.rb",
+        "sha256": "cb898fef3bf5c0318bbe99fcd7108501be2192c822e0d8afe119d02b53f2e08d"
+      },
+      {
+        "path": "app/serializers/session_serializer.rb",
+        "sha256": "e12dcd73712fb1497341f0a3125ce833485bd7172a74180f06c35235412c4508"
+      },
+      {
+        "path": "app/models/artifact/order.rb",
+        "sha256": "13d42d3380e5dae3647ef64e77e672d4047eda00894afb975e3e88887d7280cb"
+      },
+      {
+        "path": "app/models/artifact/entity.rb",
+        "sha256": "61ed71b00d738fd168a62bb988846b7861372b834da87ceb8bb19678ee300c1a"
+      }
+    ],
+    "sdk_version": "2.6.0",
+    "sdk_tarball": "https://registry.npmjs.org/@hellotext/hellotext/-/hellotext-2.6.0.tgz",
+    "sdk_sha1": "6bf08779ceb04490d7e51449ea1d83d00b5e7efb",
+    "sdk_files": [
+      {
+        "path": "package/src/hellotext.js",
+        "sha256": "76eafba301b960171dc358e7ccf6423618882c7d3f4dbcf2f63c1287d5fc24dc"
+      },
+      {
+        "path": "package/src/api/response.js",
+        "sha256": "fb91e76f6a0e8538931a70cd59d608906a9ba9c5a2aaaef04dd5637bde201aa0"
+      },
+      {
+        "path": "package/src/api/identifications.js",
+        "sha256": "eb7e9d1f33d4ff8287eb4c305d54c7ab65f9aa4b3ddfd71e11ca873f8ad638f1"
+      },
+      {
+        "path": "package/src/models/session.js",
+        "sha256": "044a8aa34abb70a4cdfb26c9f38c2bf23af0eacc4229fb08ab0d78897f5fd745"
+      },
+      {
+        "path": "package/src/core/configuration.js",
+        "sha256": "fa33d89ce4e7463644d499ebf7608fba925c376b45454ee8c0eb1af16b5fc900"
+      }
+    ],
+    "examples_or_requests_executed": false
+  },
+  "content_sources": [
+    "https://www.hellotext.com/api#errors",
+    "https://www.hellotext.com/api#list_all_profiles",
+    "https://www.hellotext.com/api#track_custom_events",
+    "https://registry.npmjs.org/@hellotext/hellotext/2.6.0"
+  ],
+  "protected_state": "Read-only source/package inspection. No app/DB/UI/fixture/locale/token/object/event/message/test/send/worker action.",
+  "pending": [
+    "Protected PR checks/review, merge, exact main Build/production and public page/PNG verification"
+  ],
+  "local_verification": {
+    "evidence": "local-verification.json",
+    "full_page_browser_review": "page-review/",
+    "browser_widths_css": [
+      1440,
+      390,
+      580
+    ],
+    "figures_per_locale": 4,
+    "examples_per_locale": 2,
+    "syntax_only_checks": 4,
+    "build": "Ruby3.3.6 yarn build/security headers passed",
+    "new_captures": 0,
+    "new_png_uploads": 0,
+    "publication_state": "pending"
+  },
+  "review_correction": {
+    "finding": "P2: qualify read retries to avoid contradicting permanent HTTP exclusions",
+    "change": "Both locales restrict read retries to transient network failures or retryable 5xx responses.",
+    "verification": "Production rebuild; six complete guarded browser states and corrected section pixels; unchanged approved source hashes; syntax and whitespace checks passed.",
+    "new_app_captures": 0
+  }
+}

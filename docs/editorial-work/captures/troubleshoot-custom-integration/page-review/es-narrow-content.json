@@ -1,0 +1,75 @@
+{
+  "sections": [
+    {
+      "i": 0,
+      "text": "1. Confirma el token de la API y el negocioEnlace copiado",
+      "top": 788
+    },
+    {
+      "i": 1,
+      "text": "2. Lee el código HTTP antes del cuerpo de la respuestaEnlace copiado",
+      "top": 2096
+    },
+    {
+      "i": 2,
+      "text": "3. Reduce la request al ejemplo válido más pequeñoEnlace copiado",
+      "top": 3331
+    },
+    {
+      "i": 3,
+      "text": "4. Separa la creación de recursos del tracking de eventosEnlace copiado",
+      "top": 4371
+    },
+    {
+      "i": 4,
+      "text": "5. Interpreta correctamente un evento recibidoEnlace copiado",
+      "top": 6305
+    },
+    {
+      "i": 5,
+      "text": "6. Encuentra la causa de registros duplicadosEnlace copiado",
+      "top": 7405
+    },
+    {
+      "i": 6,
+      "text": "7. Reintenta sin crear duplicados inciertosEnlace copiado",
+      "top": 9410
+    },
+    {
+      "i": 7,
+      "text": "8. Registra suficiente contexto sin exponer secretosEnlace copiado",
+      "top": 10202
+    },
+    {
+      "i": 8,
+      "text": "9. Ejecuta un diagnóstico de principio a finEnlace copiado",
+      "top": 10810
+    },
+    {
+      "i": 9,
+      "text": "10. Contacta a Hellotext con un ejemplo reproducibleEnlace copiado",
+      "top": 11634
+    },
+    {
+      "i": 10,
+      "text": "Guías relacionadasEnlace copiado",
+      "top": 12536
+    }
+  ],
+  "codes": [
+    {
+      "i": 0,
+      "top": 964,
+      "text": "curl --request GET \\\n  --url 'https://api.hellotext.com/v1/profiles?limit=1' \\\n  --header \"Authorization: Bearer $HELLOTEXT_API_TOKEN\" \\\n  --include\n",
+      "width": 548,
+      "scrollWidth": 548
+    },
+    {
+      "i": 1,
+      "top": 6433,
+      "text": "{\n  \"status\": \"received\"\n}\n",
+      "width": 548,
+      "scrollWidth": 548
+    }
+  ]
+}
