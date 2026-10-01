@@ -28,8 +28,36 @@ Complete ES/EN articles inspected at1440/390/580px from introduction through all
 
 Compared23 protected Rails5403a7dcb files with fresh current master a6a32d95a0b6cdbd63342100012413446aa2a2f5: identical. Current npm2.6.0 tarball integrity verified, source and primary Push reference read. Plan wording separates configured-channel collection from sending and plan-gated channel creation; email depends on the enabled channel feature and verified active sender rather than an inherited exclusive-plan implication. Browser consent/subscription/worker readiness are separate. Source objects, real events, historical import, delivery/attribution, template approval, capture preview/install and known-record reconciliation remain distinct.
 
-Production build/security headers and git diff --check passed. No app/DB/UI/fixture/locale/token/template/link/object/invitation/event/message/test/send/worker action or example execution. Original source/UI evidence and safe states remain unchanged. General mobile username overflow remains a separate preexisting product limitation; its compliant identity header is reused. No Rails/shared renderer/canonical guide change, CSS or migration tests. Protected publication and public proof remain pending.
+Production build/security headers and git diff --check passed. No app/DB/UI/fixture/locale/token/template/link/object/invitation/event/message/test/send/worker action or example execution. Original source/UI evidence and safe states remain unchanged. General mobile username overflow remains a separate preexisting product limitation; its compliant identity header is reused. No Rails/shared renderer/canonical guide change, CSS or migration tests. Protected publication and public verification are recorded below.
 
 ## Local progress ledger
 
-Original content verifier `f7e828253f1987a03587f7cf6a0e17c01bf86c01` precedes this separate ledger commit and is retained as the CSV verifier. Reconciled totals: 75 local_verified, 78 pending, one out_of_scope. This records completed local review; protected publication and public verification are still pending.
+Original content verifier `f7e828253f1987a03587f7cf6a0e17c01bf86c01` precedes this separate ledger commit and is retained as the CSV verifier. Reconciled totals: 75 local_verified, 78 pending, one out_of_scope. Protected publication and public verification are recorded below.
+
+## Public verification — 2026-10-01
+
+Help [#313](https://github.com/hellotext/help/pull/313) merged by `be575429ebf2516f8db11271951c091712a627d4`, preserving all individual commits. Build/Aikido/Netlify preview/header checks passed on exact head `b0f5d465169674b6a9362191ff063de868d0d59d`. Independent review and every actual comment/review/thread were read before the separate merge call; zero unresolved findings. Attachment was attempted and hit the existing 100-identity cap.
+
+Exact main [Build 36819352557](https://github.com/hellotext/help/actions/runs/36819352557) passed. Normal Netlify production `6abdedc20ef48700086fd9f6` is ready/published at `2026-10-01T05:22:16.586Z`, with commit_ref `be575429ebf2516f8db11271951c091712a627d4` verified in the public site-alias list. No manual deployment. Both complete localized articles match the verified build; all ten reused PNGs returned HTTP200 with approved hashes. Zero new captures/uploads/duplicates; original UI source evidence and historical limitations remain intact.
+
+Two original headings, five numbered steps, eighteen original links plus one current Push developer guide per locale, titles/slugs/stub/locales/publication preserved; zero executable examples. Three useful figures per locale, native P3/2×, intrinsic dimensions/caps and no enlargement or page overflow at1440/390/580px. No app/DB/UI/fixture/locale/permission/template/token/link/object/invitation/event/message/test/delivery/worker action.
+
+Pages:
+
+- [https://help.hellotext.com/es/resumen-configuracion](https://help.hellotext.com/es/resumen-configuracion) — HTTP200; complete verified article.
+- [https://help.hellotext.com/setup-overview](https://help.hellotext.com/setup-overview) — HTTP200; complete verified article.
+
+Approved reused native PNGs, including every mobile variant (Forms shares its complete source across widths):
+
+- [https://help.hellotext.com/images/developers/custom-store-integration/business-es.png](https://help.hellotext.com/images/developers/custom-store-integration/business-es.png) — HTTP200, reused without duplicate upload, SHA256 `17ec399500cee235d73459ced0de47fac99054987976a56f4e09603150ef5dfb`.
+- [https://help.hellotext.com/images/developers/custom-store-integration/business-es-mobile.png](https://help.hellotext.com/images/developers/custom-store-integration/business-es-mobile.png) — HTTP200, reused without duplicate upload, SHA256 `0c7ac4c233075fa5d072e27ac33e7947092bf6406858524ab12fa546be553ed8`.
+- [https://help.hellotext.com/images/developers/custom-store-integration/business-en.png](https://help.hellotext.com/images/developers/custom-store-integration/business-en.png) — HTTP200, reused without duplicate upload, SHA256 `1f7f132b2245056eda5166b1b1cfdbeee406ebcf7bad4a13a6eb3fd501184d7f`.
+- [https://help.hellotext.com/images/developers/custom-store-integration/business-en-mobile.png](https://help.hellotext.com/images/developers/custom-store-integration/business-en-mobile.png) — HTTP200, reused without duplicate upload, SHA256 `c7badab42d6878393ab746c2950605b8153dc38d60ac1ae09c747a949706bfeb`.
+- [https://help.hellotext.com/images/developers/orders-with-api/details-es.png](https://help.hellotext.com/images/developers/orders-with-api/details-es.png) — HTTP200, reused without duplicate upload, SHA256 `ce7071cd6129d589df554b45f6ead105ef20ce3b1b4eeaf6eace613f34b4bb00`.
+- [https://help.hellotext.com/images/developers/orders-with-api/details-es-mobile.png](https://help.hellotext.com/images/developers/orders-with-api/details-es-mobile.png) — HTTP200, reused without duplicate upload, SHA256 `002115693247a8d96672d24a28406f0c452db72eb2df13ad721a9f3d12102ad9`.
+- [https://help.hellotext.com/images/developers/orders-with-api/details-en.png](https://help.hellotext.com/images/developers/orders-with-api/details-en.png) — HTTP200, reused without duplicate upload, SHA256 `b728ba41fdd9c004408a7153f0f8f9a0bfc6634d0d9e44485db3dfc7b120b08b`.
+- [https://help.hellotext.com/images/developers/orders-with-api/details-en-mobile.png](https://help.hellotext.com/images/developers/orders-with-api/details-en-mobile.png) — HTTP200, reused without duplicate upload, SHA256 `8d44d00464fcffb4c98684b550a95fd7df0a64360333a384e3d6eefca81d44c0`.
+- [https://help.hellotext.com/images/captures/forms/ui-refresh/en/preview.png](https://help.hellotext.com/images/captures/forms/ui-refresh/en/preview.png) — HTTP200, reused without duplicate upload, SHA256 `fd99e7e004f2a1a0a084405aef1191469e23a7f034c83374caad6a38d48cc0e6`.
+- [https://help.hellotext.com/images/captures/forms/ui-refresh/es/preview.png](https://help.hellotext.com/images/captures/forms/ui-refresh/es/preview.png) — HTTP200, reused without duplicate upload, SHA256 `8caa6c2618d9dfbff44dd7c9b5dc6048dd37020cc58e6b12479549be749550b2`.
+
+Ledger:75 local_verified,78 pending,1 out_of_scope; every verifier and prior correction remains an ancestor of main. The public-record PR gets its own exact review/main Build/normal production and repeated public checks, recorded in a GitHub comment without recursive commits.
