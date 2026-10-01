@@ -1,5 +1,5 @@
 {
-  "status": "local_verified_publication_pending",
+  "status": "publicly_verified",
   "article_key": "integrations/transferring-ownership.md",
   "base_revision": "6f45444c2b226e0094228e1613bfeaa2b0b535c3",
   "originals": [
@@ -78,8 +78,10 @@
       "pointer": "absent",
       "pixel_edits": "none",
       "reuse": false,
-      "publication_status": "Native pixels inspected and approved locally; publication pending.",
-      "original_provenance": "docs/editorial-work/captures/transferring-ownership/capture-provenance.json"
+      "publication_status": "New native P3 2x source published without pixel edits; current consumer publicly verified, see public-verification.json.",
+      "original_provenance": "docs/editorial-work/captures/transferring-ownership/capture-provenance.json",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "menu-en",
@@ -127,8 +129,10 @@
       "pointer": "absent",
       "pixel_edits": "none",
       "reuse": false,
-      "publication_status": "Native pixels inspected and approved locally; publication pending.",
-      "original_provenance": "docs/editorial-work/captures/transferring-ownership/capture-provenance.json"
+      "publication_status": "New native P3 2x source published without pixel edits; current consumer publicly verified, see public-verification.json.",
+      "original_provenance": "docs/editorial-work/captures/transferring-ownership/capture-provenance.json",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "confirm-es",
@@ -176,8 +180,10 @@
       "pointer": "absent",
       "pixel_edits": "none",
       "reuse": false,
-      "publication_status": "Native pixels inspected and approved locally; publication pending.",
-      "original_provenance": "docs/editorial-work/captures/transferring-ownership/capture-provenance.json"
+      "publication_status": "New native P3 2x source published without pixel edits; current consumer publicly verified, see public-verification.json.",
+      "original_provenance": "docs/editorial-work/captures/transferring-ownership/capture-provenance.json",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "confirm-es-mobile",
@@ -225,8 +231,10 @@
       "pointer": "absent",
       "pixel_edits": "none",
       "reuse": false,
-      "publication_status": "Native pixels inspected and approved locally; publication pending.",
-      "original_provenance": "docs/editorial-work/captures/transferring-ownership/capture-provenance.json"
+      "publication_status": "New native P3 2x source published without pixel edits; current consumer publicly verified, see public-verification.json.",
+      "original_provenance": "docs/editorial-work/captures/transferring-ownership/capture-provenance.json",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "confirm-en",
@@ -274,8 +282,10 @@
       "pointer": "absent",
       "pixel_edits": "none",
       "reuse": false,
-      "publication_status": "Native pixels inspected and approved locally; publication pending.",
-      "original_provenance": "docs/editorial-work/captures/transferring-ownership/capture-provenance.json"
+      "publication_status": "New native P3 2x source published without pixel edits; current consumer publicly verified, see public-verification.json.",
+      "original_provenance": "docs/editorial-work/captures/transferring-ownership/capture-provenance.json",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "confirm-en-mobile",
@@ -323,8 +333,10 @@
       "pointer": "absent",
       "pixel_edits": "none",
       "reuse": false,
-      "publication_status": "Native pixels inspected and approved locally; publication pending.",
-      "original_provenance": "docs/editorial-work/captures/transferring-ownership/capture-provenance.json"
+      "publication_status": "New native P3 2x source published without pixel edits; current consumer publicly verified, see public-verification.json.",
+      "original_provenance": "docs/editorial-work/captures/transferring-ownership/capture-provenance.json",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     }
   ],
   "protected_state": {
@@ -426,9 +438,7 @@
     "businesses": 6,
     "users": 9
   },
-  "pending": [
-    "Protected exact-head checks/review, merge and public verification"
-  ],
+  "pending": [],
   "new_captures": 6,
   "new_png_uploads": 6,
   "reused_pngs": 0,
@@ -446,6 +456,18 @@
     "added_help_links_per_locale": 3,
     "figures_per_locale": 2,
     "examples_per_locale": 0,
-    "publication_state": "pending"
+    "publication_state": "Publicly verified after content merge; see public-verification.json."
+  },
+  "publication": {
+    "state": "publicly_verified",
+    "evidence": "public-verification.json",
+    "content_pr": "https://github.com/hellotext/help/pull/317",
+    "main_merge_sha": "455ef1dabc5d9bca50ba2d0671200bc96da46694",
+    "deploy_id": "6abe0468f62c350007798073",
+    "public_pages_http": 200,
+    "approved_hashes_match": true,
+    "new_captures": 6,
+    "new_png_uploads": 6,
+    "reused_pngs": 0
   }
 }
