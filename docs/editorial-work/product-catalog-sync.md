@@ -37,3 +37,5 @@ Complete ES/EN article pixels inspected at 1440/390/580px, including the identit
 Production build and security headers passed; git diff --check clean. Nine original headings, five subheadings, sixteen original links per locale, titles/slugs/stub/locales/publication preserved. Zero executable examples or app/DB/UI actions. Compared 31 read-only protected Rails5403a7dcb source files with current GitHub master a6a32d95a0b6cdbd63342100012413446aa2a2f5: identical. Source audit covers API identity/variants/price, importer and availability differences, fallback/cache, Meta eligibility/jobs, order-item amount semantics, events and uncertain writes. Official current Products API reference read without executing examples.
 
 Exact protected PR review, merge and public verification pending.
+
+Local verifier `50dfa4510af32d1a51d47eb4639c477bea509d4d` records the final verified content before this separate ledger commit. Ledger: 74 local_verified, 79 pending, one out_of_scope; local verification is independent of public publication.
