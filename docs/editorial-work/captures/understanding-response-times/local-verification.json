@@ -1,0 +1,594 @@
+{
+  "originals": [
+    {
+      "article": "_i18n/es/team/understanding-response-times.md",
+      "snapshot": "docs/editorial-work/captures/understanding-response-times/originals/es.md",
+      "sha256": "95c82cc4081f04c4e244d7b87d705d58811f70d89119f9531ca1648c0f26bf44",
+      "headings": [
+        "## Qu\u00e9 son las reglas de respuesta",
+        "## C\u00f3mo funcionan",
+        "## Horario comercial",
+        "## Pol\u00edtica predeterminada y reglas por canal",
+        "## Estados en conversaciones",
+        "## Estados en Equipo y colaboradores",
+        "## Reportes",
+        "## C\u00f3mo configurar reglas de respuesta",
+        "## Plan necesario",
+        "## Buenas pr\u00e1cticas",
+        "## Gu\u00edas relacionadas"
+      ],
+      "links": [
+        "_team/conversation-lifecycle.md",
+        "_captures/webchat-widget-playbook.md",
+        "_analytics-reporting-attribution/service-quality-report-guide.md",
+        "_analytics-reporting-attribution/workload-capacity-report-guide.md",
+        "_team/teams-and-inbox-capacity.md",
+        "_team/assigning-conversations.md",
+        "_team/conversation-lifecycle.md"
+      ],
+      "live_sha256": "461163675e574d62854e5f28e0bfbea5d59d9247e6109e6125c5804c29c4ce5a",
+      "headings_original_links_stub_preserved": true
+    },
+    {
+      "article": "_i18n/en/team/understanding-response-times.md",
+      "snapshot": "docs/editorial-work/captures/understanding-response-times/originals/en.md",
+      "sha256": "edec577e978de2e757e85cdbe3e49dd1eca29b864f827074ec58ce483bb0a9e3",
+      "headings": [
+        "## What response rules do",
+        "## How response timers work",
+        "## Business hours",
+        "## Default policy and channel rules",
+        "## What teammates see in conversations",
+        "## What supervisors see in teams and teammates",
+        "## Reports",
+        "## How to configure response rules",
+        "## Plan requirements",
+        "## Best practices",
+        "## Related guides"
+      ],
+      "links": [
+        "_team/conversation-lifecycle.md",
+        "_captures/webchat-widget-playbook.md",
+        "_analytics-reporting-attribution/service-quality-report-guide.md",
+        "_analytics-reporting-attribution/workload-capacity-report-guide.md",
+        "_team/teams-and-inbox-capacity.md",
+        "_team/assigning-conversations.md",
+        "_team/conversation-lifecycle.md"
+      ],
+      "live_sha256": "b1b59e9c6a19ab25be8eae00d26f4bbfc685aba4ecb940eb176b3f064c89c124",
+      "headings_original_links_stub_preserved": true
+    },
+    {
+      "article": "_team/understanding-response-times.md",
+      "snapshot": "docs/editorial-work/captures/understanding-response-times/originals/stub.md",
+      "sha256": "9f42be1ea625fda32d77d57c39942a1f1d89509e3b1c632119876dac6c45ad6b",
+      "headings": [],
+      "links": [],
+      "live_sha256": "9f42be1ea625fda32d77d57c39942a1f1d89509e3b1c632119876dac6c45ad6b",
+      "headings_original_links_stub_preserved": true
+    }
+  ],
+  "images": [
+    {
+      "asset": "images/team/understanding-response-times/default-es.png",
+      "sha256": "339b5749ee334a9d43c5ba547e6d41248962a12c3854fd211e2bd982f04081d0",
+      "source_sha256": "339b5749ee334a9d43c5ba547e6d41248962a12c3854fd211e2bd982f04081d0",
+      "pixels": [
+        972,
+        820
+      ],
+      "logical_size": [
+        486.0,
+        410.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/team/understanding-response-times/default-es-mobile.png",
+      "sha256": "6e75d88d34ec270d7c1c65e424da76fbd1c27bd54975feda0fda196fa167455e",
+      "source_sha256": "6e75d88d34ec270d7c1c65e424da76fbd1c27bd54975feda0fda196fa167455e",
+      "pixels": [
+        824,
+        844
+      ],
+      "logical_size": [
+        412.0,
+        422.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/team/understanding-response-times/channel-es.png",
+      "sha256": "7b814dac69a499188aefcfd7f3fec160d44400d790eb997d47d6f47cf805a7b0",
+      "source_sha256": "7b814dac69a499188aefcfd7f3fec160d44400d790eb997d47d6f47cf805a7b0",
+      "pixels": [
+        972,
+        1018
+      ],
+      "logical_size": [
+        486.0,
+        509.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/team/understanding-response-times/channel-es-mobile.png",
+      "sha256": "74dae0acd6a53aab786b49b8845bf41bd966bf15e3184c6f952dc15823cee31f",
+      "source_sha256": "74dae0acd6a53aab786b49b8845bf41bd966bf15e3184c6f952dc15823cee31f",
+      "pixels": [
+        824,
+        1098
+      ],
+      "logical_size": [
+        412.0,
+        549.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/team/understanding-response-times/technology-es.png",
+      "sha256": "6abcce4baf749e138f4bd995b2a63f20cefbaf404b8e1e48c97c6a0772e4c197",
+      "source_sha256": "c2e341f75d74fdab5479ace4093f8ad5c2f543dcc71d3f4acd0ad8f6914c9c8f",
+      "pixels": [
+        890,
+        464
+      ],
+      "logical_size": [
+        445.0,
+        232.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/team/understanding-response-times/technology-es-mobile.png",
+      "sha256": "b0556faf2a11f2af702e5d533f40d2fcd651fbff783cca55dec9f920f27cbce2",
+      "source_sha256": "d36924f300bdb75592584b9a83bbaed1ddbdfce13477c755749de783c1b9d69d",
+      "pixels": [
+        742,
+        464
+      ],
+      "logical_size": [
+        371.0,
+        232.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/team/understanding-response-times/hours-es.png",
+      "sha256": "0dcd005f9ecd12ab58c192170e4bc695b6f511f2d8b99d7dfab7a9dfb5f7976e",
+      "source_sha256": "0dcd005f9ecd12ab58c192170e4bc695b6f511f2d8b99d7dfab7a9dfb5f7976e",
+      "pixels": [
+        1736,
+        1784
+      ],
+      "logical_size": [
+        868.0,
+        892.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/team/understanding-response-times/hours-es-mobile.png",
+      "sha256": "97977418bb3df59859f7db80eae7eb31e7bf956a3f670028bb9d5c79364be9c3",
+      "source_sha256": "97977418bb3df59859f7db80eae7eb31e7bf956a3f670028bb9d5c79364be9c3",
+      "pixels": [
+        828,
+        1608
+      ],
+      "logical_size": [
+        414.0,
+        804.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/team/understanding-response-times/weekday-es.png",
+      "sha256": "b856a4c0fd5d7890728635d4ea4cb078defb13497688d97c18bcb1ea21e59d0a",
+      "source_sha256": "b856a4c0fd5d7890728635d4ea4cb078defb13497688d97c18bcb1ea21e59d0a",
+      "pixels": [
+        972,
+        840
+      ],
+      "logical_size": [
+        486.0,
+        420.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/team/understanding-response-times/weekday-es-mobile.png",
+      "sha256": "6d81da268d8157ab9d734b8c49bc1df93246ab79da7587ec8db8162ac928ca68",
+      "source_sha256": "6d81da268d8157ab9d734b8c49bc1df93246ab79da7587ec8db8162ac928ca68",
+      "pixels": [
+        824,
+        840
+      ],
+      "logical_size": [
+        412.0,
+        420.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/team/understanding-response-times/default-en.png",
+      "sha256": "c377e27ca01cfa3614d3ca758985ec5a8b253d4bd3082d9b48cef4780a2cf6c3",
+      "source_sha256": "c377e27ca01cfa3614d3ca758985ec5a8b253d4bd3082d9b48cef4780a2cf6c3",
+      "pixels": [
+        972,
+        764
+      ],
+      "logical_size": [
+        486.0,
+        382.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/team/understanding-response-times/default-en-mobile.png",
+      "sha256": "a41cb142e4f4b31a3de34b0ce7af740611fa3f9063e675b3ec4c0ceb194f1c8e",
+      "source_sha256": "a41cb142e4f4b31a3de34b0ce7af740611fa3f9063e675b3ec4c0ceb194f1c8e",
+      "pixels": [
+        824,
+        804
+      ],
+      "logical_size": [
+        412.0,
+        402.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/team/understanding-response-times/channel-en.png",
+      "sha256": "0ad92dfa7162f469211ccfb870933f3dada0b1fb7a08420248b5fda644341b6c",
+      "source_sha256": "0ad92dfa7162f469211ccfb870933f3dada0b1fb7a08420248b5fda644341b6c",
+      "pixels": [
+        972,
+        1018
+      ],
+      "logical_size": [
+        486.0,
+        509.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/team/understanding-response-times/channel-en-mobile.png",
+      "sha256": "328460ee502502c09bd4c325ed15d4a9885f8254b310060d0cfd4d19a82c4bd3",
+      "source_sha256": "328460ee502502c09bd4c325ed15d4a9885f8254b310060d0cfd4d19a82c4bd3",
+      "pixels": [
+        824,
+        1058
+      ],
+      "logical_size": [
+        412.0,
+        529.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/team/understanding-response-times/technology-en.png",
+      "sha256": "6abcce4baf749e138f4bd995b2a63f20cefbaf404b8e1e48c97c6a0772e4c197",
+      "source_sha256": "7d85f94a4ab101baa8576590cee77c6f3d4f39367b7b877cd704ef18d3df61ec",
+      "pixels": [
+        890,
+        464
+      ],
+      "logical_size": [
+        445.0,
+        232.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/team/understanding-response-times/technology-en-mobile.png",
+      "sha256": "b0556faf2a11f2af702e5d533f40d2fcd651fbff783cca55dec9f920f27cbce2",
+      "source_sha256": "11a9d3689a5e5ef4f076f7b537e21a140767e54fb69a85b6e3e4bcfc80cd0c79",
+      "pixels": [
+        742,
+        464
+      ],
+      "logical_size": [
+        371.0,
+        232.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/team/understanding-response-times/hours-en.png",
+      "sha256": "bdabc81ad2bbee56ffec76fbce5a90f83ed045741c6bbc345ea44e4b0dde11b6",
+      "source_sha256": "bdabc81ad2bbee56ffec76fbce5a90f83ed045741c6bbc345ea44e4b0dde11b6",
+      "pixels": [
+        1736,
+        1784
+      ],
+      "logical_size": [
+        868.0,
+        892.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/team/understanding-response-times/hours-en-mobile.png",
+      "sha256": "f5d558fbe9d1613fd53cbd612847c83afb5de5ad758ff221217c54f3a0fc4f6b",
+      "source_sha256": "f5d558fbe9d1613fd53cbd612847c83afb5de5ad758ff221217c54f3a0fc4f6b",
+      "pixels": [
+        828,
+        1608
+      ],
+      "logical_size": [
+        414.0,
+        804.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/team/understanding-response-times/weekday-en.png",
+      "sha256": "3fef573a1cedc2f985c95d6dca01cd3310c30321f5322bcc28c6f64a7cacd2c3",
+      "source_sha256": "3fef573a1cedc2f985c95d6dca01cd3310c30321f5322bcc28c6f64a7cacd2c3",
+      "pixels": [
+        972,
+        840
+      ],
+      "logical_size": [
+        486.0,
+        420.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/team/understanding-response-times/weekday-en-mobile.png",
+      "sha256": "17803b6cee140d751e794d3558adee394b441b849fa1ce35884378c91afaeac2",
+      "source_sha256": "17803b6cee140d751e794d3558adee394b441b849fa1ce35884378c91afaeac2",
+      "pixels": [
+        824,
+        840
+      ],
+      "logical_size": [
+        412.0,
+        420.0
+      ],
+      "reused": false,
+      "new_capture": true,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/analytics-reporting-attribution/workload-capacity-report-guide/operational-pressure-team-es.png",
+      "sha256": "f80ae4e86f5544236440e62408dabb1c703f30e6a645c9ce5144a066c7e87156",
+      "source_sha256": "f80ae4e86f5544236440e62408dabb1c703f30e6a645c9ce5144a066c7e87156",
+      "pixels": [
+        2470,
+        950
+      ],
+      "logical_size": [
+        1235.0,
+        475.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    },
+    {
+      "asset": "images/analytics-reporting-attribution/workload-capacity-report-guide/operational-pressure-team-en.png",
+      "sha256": "713754b1a5b1cee0eb3a8073d29199ff0628b4190395f37013be58fb1e842b37",
+      "source_sha256": "713754b1a5b1cee0eb3a8073d29199ff0628b4190395f37013be58fb1e842b37",
+      "pixels": [
+        2470,
+        950
+      ],
+      "logical_size": [
+        1235.0,
+        475.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged_or_lossless_crop": true,
+      "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true
+    }
+  ],
+  "browser": [
+    {
+      "locale": "es",
+      "device": "desktop",
+      "width_css": 1440,
+      "headings": 11,
+      "figures": 6,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    },
+    {
+      "locale": "es",
+      "device": "mobile",
+      "width_css": 390,
+      "headings": 11,
+      "figures": 6,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    },
+    {
+      "locale": "es",
+      "device": "narrow",
+      "width_css": 580,
+      "headings": 11,
+      "figures": 6,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    },
+    {
+      "locale": "en",
+      "device": "desktop",
+      "width_css": 1440,
+      "headings": 11,
+      "figures": 6,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    },
+    {
+      "locale": "en",
+      "device": "mobile",
+      "width_css": 390,
+      "headings": 11,
+      "figures": 6,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    },
+    {
+      "locale": "en",
+      "device": "narrow",
+      "width_css": 580,
+      "headings": 11,
+      "figures": 6,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    }
+  ],
+  "build": {
+    "command": "RBENV_VERSION=3.3.6 PATH=/Users/pel/.rbenv/shims:$PATH yarn build",
+    "exit_code": 0,
+    "production_bilingual_build": "passed",
+    "security_headers": "configured"
+  },
+  "publication_state": "Not yet publicly verified; protected PR and normal production verification pending."
+}
