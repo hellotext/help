@@ -21,3 +21,7 @@ Contracts: configured origin/channel collection versus Pro/Enterprise delivery a
 ## Local verification
 
 Build Ruby 3.3.6/bilingual/security headers passed. Six full ES/EN browser views at 1440/390/580 inspected: ten original headings/nine original Liquid links in order and two useful figures per locale, no overflow or source enlargement. Static full-column lavender stages, accurate 2× responsive density/intrinsic dimensions; eight reused assets byte-identical to approved native parents and both locale builds, ICC/hashes/pixels intact. No new app/DB/locale/fixture audit or source capture; original Setup Push evidence retained. Clean diff/check passed; no CSS/migration tests. Verifier/ledger, protected exact-head checks/review and normal production/public proof follow.
+
+## Verification ledger
+
+Local verifier a7ab71b933db9a3224d09a354fd8d4fe44a23fea is the direct parent of the progress ledger commit. Reconciled totals: 90 locally verified, 63 pending, one out of scope. Public publication proof remains pending until the protected merge and normal production verification.
