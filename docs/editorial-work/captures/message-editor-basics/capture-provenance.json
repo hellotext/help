@@ -1,0 +1,416 @@
+{
+  "status": "locally_verified",
+  "base_revision": "1a23f5dc7c3406f3179b389d1e5b96047322501b",
+  "originals": [
+    {
+      "article": "_i18n/es/numbers/message-editor-basics.md",
+      "snapshot": "docs/editorial-work/captures/message-editor-basics/originals/es.md",
+      "sha256": "818c465ee9882c5481f33adc4bc45e925646532271c1db90e536ac8d8da834e1",
+      "headings": [
+        "### Cómo formatear tus mensajes",
+        "#### Negrita",
+        "#### Cursiva",
+        "#### Links"
+      ],
+      "links": []
+    },
+    {
+      "article": "_i18n/en/numbers/message-editor-basics.md",
+      "snapshot": "docs/editorial-work/captures/message-editor-basics/originals/en.md",
+      "sha256": "3825956f653b97a3559c29a0ffb83fdb94d6b098324dad71c64239759f21a4b2",
+      "headings": [
+        "### How to format your messages",
+        "#### Bold",
+        "#### Italic",
+        "#### Links"
+      ],
+      "links": []
+    },
+    {
+      "article": "_numbers/message-editor-basics.md",
+      "snapshot": "docs/editorial-work/captures/message-editor-basics/originals/stub.md",
+      "sha256": "39077c86d483c2a33f38a7e94e4367daafeda44ef1bab9f9fda776dae9f0a874",
+      "headings": [],
+      "links": []
+    }
+  ],
+  "images": [
+    {
+      "name": "format-es",
+      "concept": "format",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/message-editor-basics/format-es-original.png",
+      "published_asset": "images/numbers/message-editor-basics/format-es.png",
+      "sha256": "7c7077129a2901111f67109eb367a5bb54220ac11838f50b61e29b48a1603a1e",
+      "logical_size": [
+        624,
+        264
+      ],
+      "source_density": 2,
+      "reused": false,
+      "native": {
+        "output": "/private/tmp/hellotext-message-editor-basics-editorial-20261001/native/format-es-original.png",
+        "sha256": "7c7077129a2901111f67109eb367a5bb54220ac11838f50b61e29b48a1603a1e",
+        "url": "http://127.0.0.1:3192/hellotext/settings/templates/new?channel=sms&group=custom",
+        "locale": "es",
+        "cssViewport": [
+          1400,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          72,
+          257,
+          624,
+          264
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1248,
+          528
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "original_provenance": "docs/editorial-work/captures/message-editor-basics/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/message-editor-basics/format-es-ui.json",
+      "pixel_edits": "none"
+    },
+    {
+      "name": "format-es-mobile",
+      "concept": "format",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/message-editor-basics/format-es-mobile-original.png",
+      "published_asset": "images/numbers/message-editor-basics/format-es-mobile.png",
+      "sha256": "eb624ee9580528cbc670313af7dea68bbe6a29ce42ea23c6747668029dce73b1",
+      "logical_size": [
+        326,
+        264
+      ],
+      "source_density": 2,
+      "reused": false,
+      "native": {
+        "output": "/private/tmp/hellotext-message-editor-basics-editorial-20261001/native/format-es-mobile-original.png",
+        "sha256": "eb624ee9580528cbc670313af7dea68bbe6a29ce42ea23c6747668029dce73b1",
+        "url": "http://127.0.0.1:3192/hellotext/settings/templates/new?channel=sms&group=custom",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          32,
+          155,
+          326,
+          264
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          652,
+          528
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "original_provenance": "docs/editorial-work/captures/message-editor-basics/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/message-editor-basics/format-es-mobile-ui.json",
+      "pixel_edits": "none"
+    },
+    {
+      "name": "link-es",
+      "concept": "link",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/message-editor-basics/link-es-original.png",
+      "published_asset": "images/numbers/message-editor-basics/link-es.png",
+      "sha256": "ecae4a8faae7de2738bdea87c8ea1896e7cf62303c129769905b2050f8ffe288",
+      "logical_size": [
+        446,
+        194
+      ],
+      "source_density": 2,
+      "reused": false,
+      "native": {
+        "output": "/private/tmp/hellotext-message-editor-basics-editorial-20261001/native/link-es-original.png",
+        "sha256": "ecae4a8faae7de2738bdea87c8ea1896e7cf62303c129769905b2050f8ffe288",
+        "url": "http://127.0.0.1:3192/hellotext/settings/templates/new?channel=sms&group=custom",
+        "locale": "es",
+        "cssViewport": [
+          1400,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          49,
+          518,
+          446,
+          194
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          892,
+          388
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "original_provenance": "docs/editorial-work/captures/message-editor-basics/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/message-editor-basics/link-es-ui.json",
+      "pixel_edits": "none"
+    },
+    {
+      "name": "link-es-mobile",
+      "concept": "link",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/message-editor-basics/link-es-mobile-original.png",
+      "published_asset": "images/numbers/message-editor-basics/link-es-mobile.png",
+      "sha256": "e0d87adab619006f594d72e9bd1590f79bdc8bf1333fb272bdcfcd4ff672d4f5",
+      "logical_size": [
+        364,
+        214
+      ],
+      "source_density": 2,
+      "reused": false,
+      "native": {
+        "output": "/private/tmp/hellotext-message-editor-basics-editorial-20261001/native/link-es-mobile-original.png",
+        "sha256": "e0d87adab619006f594d72e9bd1590f79bdc8bf1333fb272bdcfcd4ff672d4f5",
+        "url": "http://127.0.0.1:3192/hellotext/settings/templates/new?channel=sms&group=custom",
+        "locale": "es",
+        "cssViewport": [
+          430,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          49,
+          395,
+          364,
+          214
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          728,
+          428
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "original_provenance": "docs/editorial-work/captures/message-editor-basics/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/message-editor-basics/link-es-mobile-ui.json",
+      "pixel_edits": "none"
+    },
+    {
+      "name": "format-en",
+      "concept": "format",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/message-editor-basics/format-en-original.png",
+      "published_asset": "images/numbers/message-editor-basics/format-en.png",
+      "sha256": "2817aa394f2917c9e5faa0bc2e2a9eeebacdc62ba872e727b33f03c0c05d9d9a",
+      "logical_size": [
+        624,
+        264
+      ],
+      "source_density": 2,
+      "reused": false,
+      "native": {
+        "output": "/private/tmp/hellotext-message-editor-basics-editorial-20261001/native/format-en-original.png",
+        "sha256": "2817aa394f2917c9e5faa0bc2e2a9eeebacdc62ba872e727b33f03c0c05d9d9a",
+        "url": "http://127.0.0.1:3192/hellotext/settings/templates/new?channel=sms&group=custom",
+        "locale": "en",
+        "cssViewport": [
+          1400,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          72,
+          257,
+          624,
+          264
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1248,
+          528
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "original_provenance": "docs/editorial-work/captures/message-editor-basics/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/message-editor-basics/format-en-ui.json",
+      "pixel_edits": "none"
+    },
+    {
+      "name": "format-en-mobile",
+      "concept": "format",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/message-editor-basics/format-en-mobile-original.png",
+      "published_asset": "images/numbers/message-editor-basics/format-en-mobile.png",
+      "sha256": "3754139f79d32c654e2bbcae936acfe841df4f4d687b33013e39ee6a5fd6643a",
+      "logical_size": [
+        326,
+        264
+      ],
+      "source_density": 2,
+      "reused": false,
+      "native": {
+        "output": "/private/tmp/hellotext-message-editor-basics-editorial-20261001/native/format-en-mobile-original.png",
+        "sha256": "3754139f79d32c654e2bbcae936acfe841df4f4d687b33013e39ee6a5fd6643a",
+        "url": "http://127.0.0.1:3192/hellotext/settings/templates/new?channel=sms&group=custom",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          32,
+          134,
+          326,
+          264
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          652,
+          528
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "original_provenance": "docs/editorial-work/captures/message-editor-basics/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/message-editor-basics/format-en-mobile-ui.json",
+      "pixel_edits": "none"
+    },
+    {
+      "name": "link-en",
+      "concept": "link",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/message-editor-basics/link-en-original.png",
+      "published_asset": "images/numbers/message-editor-basics/link-en.png",
+      "sha256": "ee72b8b34eec69b1161ad3fc71b2b51aff5fc1abc6b597b15c6f5f89a6837f07",
+      "logical_size": [
+        446,
+        218
+      ],
+      "source_density": 2,
+      "reused": false,
+      "native": {
+        "output": "/private/tmp/hellotext-message-editor-basics-editorial-20261001/native/link-en-original.png",
+        "sha256": "ee72b8b34eec69b1161ad3fc71b2b51aff5fc1abc6b597b15c6f5f89a6837f07",
+        "url": "http://127.0.0.1:3192/hellotext/settings/templates/new?channel=sms&group=custom",
+        "locale": "en",
+        "cssViewport": [
+          1400,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          49,
+          518,
+          446,
+          218
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          892,
+          436
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "original_provenance": "docs/editorial-work/captures/message-editor-basics/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/message-editor-basics/link-en-ui.json",
+      "pixel_edits": "none"
+    },
+    {
+      "name": "link-en-mobile",
+      "concept": "link",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/message-editor-basics/link-en-mobile-original.png",
+      "published_asset": "images/numbers/message-editor-basics/link-en-mobile.png",
+      "sha256": "51ea1259208d02a2e908389187c37282e68d5b2e3cd8e80550257fc043c6a9fe",
+      "logical_size": [
+        364,
+        214
+      ],
+      "source_density": 2,
+      "reused": false,
+      "native": {
+        "output": "/private/tmp/hellotext-message-editor-basics-editorial-20261001/native/link-en-mobile-original.png",
+        "sha256": "51ea1259208d02a2e908389187c37282e68d5b2e3cd8e80550257fc043c6a9fe",
+        "url": "http://127.0.0.1:3192/hellotext/settings/templates/new?channel=sms&group=custom",
+        "locale": "en",
+        "cssViewport": [
+          430,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          49,
+          395,
+          364,
+          214
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          728,
+          428
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "original_provenance": "docs/editorial-work/captures/message-editor-basics/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/message-editor-basics/link-en-mobile-ui.json",
+      "pixel_edits": "none"
+    }
+  ],
+  "new_pngs": 8,
+  "reused_pngs": 0,
+  "pending": [
+    "Commit/PR protected checks and independent exact-head review, normal production deployment and public page/hash verification."
+  ],
+  "section_visual_plan": "See ../../message-editor-basics.md",
+  "capture": "Native guarded isolated Chrome9460/PID57358/dedicatedprofile/P3D65/DPR2/zoom1/one local Rails3192 tab/design-system@example.test, guards before and after; no image pixel changes.",
+  "viewport_decision": "Format desktop1400x1200/mobile390x1200; Link desktop1400x1200/mobile430x1200, actual same mobile layout with full Add/Cancel. At390 the real popover clips Cancel; no defective390 source accepted, no UI/CSS changed. Complete focused form has12px genuine application background, with outer popover edge excluded.",
+  "local_verification": "docs/editorial-work/captures/message-editor-basics/local-verification.json"
+}
