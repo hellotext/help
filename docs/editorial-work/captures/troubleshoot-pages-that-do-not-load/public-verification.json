@@ -1,0 +1,396 @@
+{
+  "verified_at_utc": "2026-10-01T22:33:44.272101+00:00",
+  "verified_git_main_sha": "d3b9ebb172e2dfb496fd585ab8cbb6d3bbbaa1a8",
+  "production_deploy_id_sha_association": {
+    "id": "6abedf99dbbc1300085a64ce",
+    "site_id": "d66a79c1-b5de-44d1-bc47-bc7809f7f3b3",
+    "state": "ready",
+    "context": "production",
+    "branch": "main",
+    "commit_ref": "d3b9ebb172e2dfb496fd585ab8cbb6d3bbbaa1a8",
+    "created_at": "2026-10-01T22:32:57.913Z",
+    "published_at": "2026-10-01T22:33:36.996Z",
+    "deploy_ssl_url": "https://main--legendary-lollipop-e2d131.netlify.app"
+  },
+  "deployment_method": "Normal Netlify production after Git merge; no manual deploy. Accessible public site-alias listing provided exact commit_ref.",
+  "pages": [
+    {
+      "url": "https://help.hellotext.com/es/solucionar-paginas-que-no-cargan",
+      "status": 200,
+      "article_key": "troubleshooting-deliverability/troubleshoot-pages-that-do-not-load.md",
+      "locale": "es",
+      "figures": 3,
+      "sections": 7,
+      "approved_assets_present": [
+        "/images/developers/custom-store-integration/business-es.png",
+        "/images/developers/custom-store-integration/business-es-mobile.png",
+        "/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-wide-desktop.png",
+        "/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-mobile-wide.png",
+        "/images/team/understanding-team-roles/roles-es.png",
+        "/images/team/understanding-team-roles/roles-es-mobile.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "3796d1b023de79e63cee7e5508a7b7968bad918947024fb68116e0876d7bd32d",
+      "html_sha256": "ddaa8ba690e6fbbe01c34210b42b82f74a0309efcab50465fa5f95f4937816be"
+    },
+    {
+      "url": "https://help.hellotext.com/troubleshoot-pages-that-do-not-load",
+      "status": 200,
+      "article_key": "troubleshooting-deliverability/troubleshoot-pages-that-do-not-load.md",
+      "locale": "en",
+      "figures": 3,
+      "sections": 7,
+      "approved_assets_present": [
+        "/images/developers/custom-store-integration/business-en.png",
+        "/images/developers/custom-store-integration/business-en-mobile.png",
+        "/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-wide-desktop.png",
+        "/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile-wide.png",
+        "/images/team/understanding-team-roles/roles-en.png",
+        "/images/team/understanding-team-roles/roles-en-mobile.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "807f7d406c9cdab591d0a0a6cc48c8f0bf4df39fa7680948bf4b830d8df65937",
+      "html_sha256": "9e9c2a3f9600514ee8f401446c9a5c92694fe890e8ffba6ba174199c702232a7"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-store-integration/business-es.png",
+      "status": 200,
+      "sha256": "17ec399500cee235d73459ced0de47fac99054987976a56f4e09603150ef5dfb",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-store-integration/business-es-mobile.png",
+      "status": 200,
+      "sha256": "0c7ac4c233075fa5d072e27ac33e7947092bf6406858524ab12fa546be553ed8",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-store-integration/business-en.png",
+      "status": 200,
+      "sha256": "1f7f132b2245056eda5166b1b1cfdbeee406ebcf7bad4a13a6eb3fd501184d7f",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-store-integration/business-en-mobile.png",
+      "status": 200,
+      "sha256": "c7badab42d6878393ab746c2950605b8153dc38d60ac1ae09c747a949706bfeb",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-wide-desktop.png",
+      "status": 200,
+      "sha256": "65bfef90c667cf5da787412ad4d2175652ea945e2b1c1c84c7fb4bdb6c9217fc",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-mobile-wide.png",
+      "status": 200,
+      "sha256": "71136b3c75dbbe12a40ad787057309089b29f7d83b49f1ae1426ea91887e34e3",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-wide-desktop.png",
+      "status": 200,
+      "sha256": "470347c0697af60e59b6119e2c83bfb848fb9cbf69bd07ec4b14e451db40800e",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile-wide.png",
+      "status": 200,
+      "sha256": "244b1faacb31e3852d224f2db51c2efda234e4d57a54826aac83e726037efc36",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-team-roles/roles-es.png",
+      "status": 200,
+      "sha256": "8f241c8a53e11aa119ddeb6f8d77dfaa571d697cda83a7a892de1d064b224b20",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-team-roles/roles-es-mobile.png",
+      "status": 200,
+      "sha256": "1b1ea07c8a1e1369b6010ede374de9b9b770108ad3f1dee51a54c6168f62ce4a",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-team-roles/roles-en.png",
+      "status": 200,
+      "sha256": "354e9a49cf3664b913bac536d4ea45c8a90092fa508fb1b67a9ecdcde4a2191f",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-team-roles/roles-en-mobile.png",
+      "status": 200,
+      "sha256": "7347515e91a48fc8563e6c29a61e725fe0a21ab070be1af01da147804052145a",
+      "matches_approved_asset": true,
+      "reused": true
+    }
+  ],
+  "new_captures": 0,
+  "new_png_uploads": 0,
+  "reused_pngs": 12,
+  "all_affected_article_pngs": 12,
+  "main_build": {
+    "conclusion": "success",
+    "databaseId": 36935727018,
+    "event": "push",
+    "headSha": "d3b9ebb172e2dfb496fd585ab8cbb6d3bbbaa1a8",
+    "status": "completed",
+    "url": "https://github.com/hellotext/help/actions/runs/36935727018"
+  },
+  "content_pr": "https://github.com/hellotext/help/pull/349",
+  "content_pr_head": "5a11b7eb30bdcaa4ffc4e0e3adc9bd32030888a1",
+  "individual_commits_preserved": [
+    "97b816b80feea0d89b6726ed5d9aa3e0bd5f707b",
+    "5a11b7eb30bdcaa4ffc4e0e3adc9bd32030888a1"
+  ],
+  "unresolved_review_threads_before_merge": 0,
+  "pre_merge_review": {
+    "head": "5a11b7eb30bdcaa4ffc4e0e3adc9bd32030888a1",
+    "checks": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T22:29:12Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/hellotext/help/actions/runs/36935287366/job/110613987707",
+        "name": "build",
+        "startedAt": "2026-10-01T22:28:41Z",
+        "status": "COMPLETED",
+        "workflowName": "Build"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T22:29:20Z",
+        "conclusion": "NEUTRAL",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abede967ed8030008e49bfe",
+        "name": "Pages changed - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T22:28:39Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T22:29:20Z",
+        "conclusion": "NEUTRAL",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abede967ed8030008e49bfe",
+        "name": "Redirect rules - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T22:28:39Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T22:29:04Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://app.aikido.dev/featurebranch/scan/209777814?groupId=34029",
+        "name": "Aikido Security: check code",
+        "startedAt": "2026-10-01T22:28:39Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T22:29:20Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abede967ed8030008e49bfe",
+        "name": "Header rules - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T22:28:39Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "StatusContext",
+        "context": "netlify/legendary-lollipop-e2d131/deploy-preview",
+        "startedAt": "2026-10-01T22:29:22Z",
+        "state": "SUCCESS",
+        "targetUrl": "https://deploy-preview-349--legendary-lollipop-e2d131.netlify.app"
+      }
+    ],
+    "comments": [
+      {
+        "id": "IC_kwDOIVbAxs8AAAABYirjxw",
+        "author": {
+          "login": "netlify"
+        },
+        "authorAssociation": "NONE",
+        "body": "### <span aria-hidden=\"true\">\u2705</span> Deploy Preview for *legendary-lollipop-e2d131* ready!\n\n\n|  Name | Link |\n|:-:|------------------------|\n|<span aria-hidden=\"true\">\ud83d\udd28</span> Latest commit | 5a11b7eb30bdcaa4ffc4e0e3adc9bd32030888a1 |\n|<span aria-hidden=\"true\">\ud83d\udd0d</span> Latest deploy log | https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abede967ed8030008e49bfe |\n|<span aria-hidden=\"true\">\ud83d\ude0e</span> Deploy Preview | [https://deploy-preview-349--legendary-lollipop-e2d131.netlify.app](https://deploy-preview-349--legendary-lollipop-e2d131.netlify.app) |\n|<span aria-hidden=\"true\">\ud83d\udcf1</span> Preview on mobile | <details><summary> Toggle QR Code... </summary><br /><br />![QR Code](https://app.netlify.com/qr-code/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJodHRwczovL2RlcGxveS1wcmV2aWV3LTM0OS0tbGVnZW5kYXJ5LWxvbGxpcG9wLWUyZDEzMS5uZXRsaWZ5LmFwcCJ9.OMJT2J8aR9w0BraAT2L4k43vN9n1ZBJmfuHkqleRbjY)<br /><br />_Use your smartphone camera to open QR code link._</details> |\n|<span aria-hidden=\"true\">\ud83e\udd16</span> Make changes | [Run an agent on this branch](https://app.netlify.com/projects/legendary-lollipop-e2d131/agent-runs#DctLCoAgFEbhvdxxkVCUtoOWod2_B5hXzKCI9p6zb3DOSzHJETONRBW5ZMO8Fc_CuJuc5HIe5yaS62hXnHUo8mJ5D2vpGdHLM3E5euvAMP0A1qpVSml0xi2g7wc) |\n---\n<!-- [legendary-lollipop-e2d131 Preview](https://deploy-preview-349--legendary-lollipop-e2d131.netlify.app) -->\n_To edit notification comments on pull requests, go to your [Netlify project configuration](https://app.netlify.com/projects/legendary-lollipop-e2d131/configuration/notifications#deploy-notifications)._",
+        "createdAt": "2026-10-01T22:28:41Z",
+        "includesCreatedEdit": true,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/hellotext/help/pull/349#issuecomment-5941945287",
+        "viewerDidAuthor": false
+      },
+      {
+        "id": "IC_kwDOIVbAxs8AAAABYirmMA",
+        "author": {
+          "login": "chatgpt-codex-connector"
+        },
+        "authorAssociation": "NONE",
+        "body": "<!-- codex-pull-request-review-summary -->\n\n## Codex Review Summary\n\nThis comment shows the latest Codex review activity on this pull request.\n\n| Review | Status | Commit | Review trigger |\n| --- | --- | --- | --- |\n| \ud83d\udcdd **Code Review** | \u2705 **Completed** <relative-time datetime=\"2026-10-01T22:31:51.011613Z\">2026-10-01T22:31:51.011613Z</relative-time> | `5a11b7e` | PR opened |\n\n\n\n<details> <summary>\u2139\ufe0f About Codex in GitHub</summary>\n<br/>\n\n[Your team has set up Codex to review pull requests in this repo](https://chatgpt.com/codex/cloud/settings/general). Reviews are triggered when you\n- Open a pull request for review\n- Mark a draft as ready\n- Comment \"@codex review\" or \"@codex security review\".\n\nCodex reacts with \ud83d\udc40 while any review is running, comments if it has suggestions, and reacts with \ud83d\udc4d once all reviews finish with no findings.\n\n</details>",
+        "createdAt": "2026-10-01T22:28:43Z",
+        "includesCreatedEdit": true,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/hellotext/help/pull/349#issuecomment-5941945904",
+        "viewerDidAuthor": false
+      }
+    ],
+    "reviews": [],
+    "threads": [],
+    "all_actual_comments_reviews_threads_read": true
+  },
+  "preview_verification": {
+    "head": "5a11b7eb30bdcaa4ffc4e0e3adc9bd32030888a1",
+    "preview_url": "https://deploy-preview-349--legendary-lollipop-e2d131.netlify.app",
+    "deployment": {
+      "id": "6abede967ed8030008e49bfe",
+      "context": "deploy-preview",
+      "commit_ref": "5a11b7eb30bdcaa4ffc4e0e3adc9bd32030888a1",
+      "state": "ready",
+      "review_id": 349
+    },
+    "pages": [
+      {
+        "url": "https://deploy-preview-349--legendary-lollipop-e2d131.netlify.app/es/solucionar-paginas-que-no-cargan",
+        "status": 200,
+        "article_key": "troubleshooting-deliverability/troubleshoot-pages-that-do-not-load.md",
+        "locale": "es",
+        "figures": 3,
+        "sections": 7,
+        "approved_assets_present": [
+          "/images/developers/custom-store-integration/business-es.png",
+          "/images/developers/custom-store-integration/business-es-mobile.png",
+          "/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-wide-desktop.png",
+          "/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-mobile-wide.png",
+          "/images/team/understanding-team-roles/roles-es.png",
+          "/images/team/understanding-team-roles/roles-es-mobile.png"
+        ],
+        "complete_article_matches_verified_build": true,
+        "article_sha256": "3796d1b023de79e63cee7e5508a7b7968bad918947024fb68116e0876d7bd32d",
+        "html_sha256": "ee52a5d9a4d3e7fce4c84aad3f9215360739d69844a1b7eb1764b35053ad8c85"
+      },
+      {
+        "url": "https://deploy-preview-349--legendary-lollipop-e2d131.netlify.app/troubleshoot-pages-that-do-not-load",
+        "status": 200,
+        "article_key": "troubleshooting-deliverability/troubleshoot-pages-that-do-not-load.md",
+        "locale": "en",
+        "figures": 3,
+        "sections": 7,
+        "approved_assets_present": [
+          "/images/developers/custom-store-integration/business-en.png",
+          "/images/developers/custom-store-integration/business-en-mobile.png",
+          "/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-wide-desktop.png",
+          "/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile-wide.png",
+          "/images/team/understanding-team-roles/roles-en.png",
+          "/images/team/understanding-team-roles/roles-en-mobile.png"
+        ],
+        "complete_article_matches_verified_build": true,
+        "article_sha256": "807f7d406c9cdab591d0a0a6cc48c8f0bf4df39fa7680948bf4b830d8df65937",
+        "html_sha256": "7b469e8a03b1cd3095fef59662f9a14e2ba69cb0cac7fb5046ae6cd0f64542c6"
+      }
+    ],
+    "assets": [
+      {
+        "url": "https://deploy-preview-349--legendary-lollipop-e2d131.netlify.app/images/developers/custom-store-integration/business-es.png",
+        "status": 200,
+        "sha256": "17ec399500cee235d73459ced0de47fac99054987976a56f4e09603150ef5dfb",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-349--legendary-lollipop-e2d131.netlify.app/images/developers/custom-store-integration/business-es-mobile.png",
+        "status": 200,
+        "sha256": "0c7ac4c233075fa5d072e27ac33e7947092bf6406858524ab12fa546be553ed8",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-349--legendary-lollipop-e2d131.netlify.app/images/developers/custom-store-integration/business-en.png",
+        "status": 200,
+        "sha256": "1f7f132b2245056eda5166b1b1cfdbeee406ebcf7bad4a13a6eb3fd501184d7f",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-349--legendary-lollipop-e2d131.netlify.app/images/developers/custom-store-integration/business-en-mobile.png",
+        "status": 200,
+        "sha256": "c7badab42d6878393ab746c2950605b8153dc38d60ac1ae09c747a949706bfeb",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-349--legendary-lollipop-e2d131.netlify.app/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-wide-desktop.png",
+        "status": 200,
+        "sha256": "65bfef90c667cf5da787412ad4d2175652ea945e2b1c1c84c7fb4bdb6c9217fc",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-349--legendary-lollipop-e2d131.netlify.app/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-mobile-wide.png",
+        "status": 200,
+        "sha256": "71136b3c75dbbe12a40ad787057309089b29f7d83b49f1ae1426ea91887e34e3",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-349--legendary-lollipop-e2d131.netlify.app/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-wide-desktop.png",
+        "status": 200,
+        "sha256": "470347c0697af60e59b6119e2c83bfb848fb9cbf69bd07ec4b14e451db40800e",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-349--legendary-lollipop-e2d131.netlify.app/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile-wide.png",
+        "status": 200,
+        "sha256": "244b1faacb31e3852d224f2db51c2efda234e4d57a54826aac83e726037efc36",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-349--legendary-lollipop-e2d131.netlify.app/images/team/understanding-team-roles/roles-es.png",
+        "status": 200,
+        "sha256": "8f241c8a53e11aa119ddeb6f8d77dfaa571d697cda83a7a892de1d064b224b20",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-349--legendary-lollipop-e2d131.netlify.app/images/team/understanding-team-roles/roles-es-mobile.png",
+        "status": 200,
+        "sha256": "1b1ea07c8a1e1369b6010ede374de9b9b770108ad3f1dee51a54c6168f62ce4a",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-349--legendary-lollipop-e2d131.netlify.app/images/team/understanding-team-roles/roles-en.png",
+        "status": 200,
+        "sha256": "354e9a49cf3664b913bac536d4ea45c8a90092fa508fb1b67a9ecdcde4a2191f",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-349--legendary-lollipop-e2d131.netlify.app/images/team/understanding-team-roles/roles-en-mobile.png",
+        "status": 200,
+        "sha256": "7347515e91a48fc8563e6c29a61e725fe0a21ab070be1af01da147804052145a",
+        "matches_approved_asset": true,
+        "reused": true
+      }
+    ]
+  },
+  "earlier_record_332_limitation": "This genuine later content SHA published normally; it does not prove publication of ad6d6455d0671cda042dc5ef184f73c86d64f8fb. No manual deployment or retry."
+}
