@@ -25,3 +25,7 @@ Four approved Business ID PNGs reused without recapture or duplicate upload; ori
 ## Local verification
 
 Complete ES/EN article pixels reviewed at1440/390/580 including all six sections, both figures, readable two-column DNS table and footer. Native source/asset/root-build/ES-build PNG bytes, pixels, ICC and hashes match; no overflow or source enlargement. Both static lavender stages fill Help column with fit frames and18px inset/border. Original six headings, verification anchor, pricing link, titles/slugs/stub/publication preserved; added two internal Help links and three primary DNS documentation links, zero executable examples. Build/security headers passed, docs excluded from public build, diff check clean. No outstanding article visual debt. Content verifier/ledger, protected PR exact-head review/threads and normal production/public verification remain pending.
+
+## Original snapshot encoding
+
+Spanish original includes historical trailing whitespace. It is preserved byte-for-byte as deterministic lossless gzip; sha256 identifies decompressed original, archive_sha256 identifies the retained gzip. No original bytes normalized. This keeps the final patch whitespace-clean without changing provenance.
