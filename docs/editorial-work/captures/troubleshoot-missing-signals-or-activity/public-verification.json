@@ -1,0 +1,524 @@
+{
+  "verified_at_utc": "2026-10-01T22:01:51.863732+00:00",
+  "verified_git_main_sha": "1b254f452038f9658b3ea0bb9e63e9028d0b85c8",
+  "production_deploy_id_sha_association": {
+    "id": "6abed80b3265d100082363bc",
+    "site_id": "d66a79c1-b5de-44d1-bc47-bc7809f7f3b3",
+    "state": "ready",
+    "context": "production",
+    "branch": "main",
+    "commit_ref": "1b254f452038f9658b3ea0bb9e63e9028d0b85c8",
+    "created_at": "2026-10-01T22:00:43.158Z",
+    "published_at": "2026-10-01T22:01:19.520Z",
+    "deploy_ssl_url": "https://main--legendary-lollipop-e2d131.netlify.app"
+  },
+  "deployment_method": "Normal Netlify production after Git merge; no manual deploy. Accessible public site-alias listing provided exact commit_ref.",
+  "pages": [
+    {
+      "url": "https://help.hellotext.com/es/solucionar-senales-o-actividad-faltante",
+      "status": 200,
+      "article_key": "troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md",
+      "locale": "es",
+      "figures": 5,
+      "sections": 9,
+      "approved_assets_present": [
+        "/images/audience/customer-profiles/profile-fields-es.png",
+        "/images/audience/customer-profiles/profile-fields-es-mobile.png",
+        "/images/developers/custom-actions/manual-es.png",
+        "/images/developers/custom-actions/manual-es-mobile.png",
+        "/images/developers/orders-with-api/details-es.png",
+        "/images/developers/orders-with-api/details-es-mobile.png",
+        "/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-wide-desktop.png",
+        "/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-mobile-wide.png",
+        "/images/developers/custom-actions/catalog-es.png",
+        "/images/developers/custom-actions/catalog-es-mobile.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "a7543994a51940cbeceafe9117e5d0f43602e9bea30406f36b4b139c8f0da1f8",
+      "html_sha256": "715c97a297c0c8f611bca321f3a7660b98a48deeb593de65e19325da958d994d"
+    },
+    {
+      "url": "https://help.hellotext.com/troubleshoot-missing-signals-or-activity",
+      "status": 200,
+      "article_key": "troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md",
+      "locale": "en",
+      "figures": 5,
+      "sections": 9,
+      "approved_assets_present": [
+        "/images/audience/customer-profiles/profile-fields-en.png",
+        "/images/audience/customer-profiles/profile-fields-en-mobile.png",
+        "/images/developers/custom-actions/manual-en.png",
+        "/images/developers/custom-actions/manual-en-mobile.png",
+        "/images/developers/orders-with-api/details-en.png",
+        "/images/developers/orders-with-api/details-en-mobile.png",
+        "/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-wide-desktop.png",
+        "/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile-wide.png",
+        "/images/developers/custom-actions/catalog-en.png",
+        "/images/developers/custom-actions/catalog-en-mobile.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "d5fadc1915b9276c2031447c844627eb73bddf60854e067b723c546500a3cc1e",
+      "html_sha256": "bb0f4ddc583b0b559df9359ab06c9fa4f7bf3d27422d728e11d4f510dc0bc772"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://help.hellotext.com/images/audience/customer-profiles/profile-fields-es.png",
+      "status": 200,
+      "sha256": "bf1ee79e29d0ef384913cad51a1792ddf0050d75a5b4e138bd49df682e203b40",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/audience/customer-profiles/profile-fields-en.png",
+      "status": 200,
+      "sha256": "9bbb727226b2a20d5df4be2ca7612d29037b9d18d8e7e2ec488c407c54945f5d",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/audience/customer-profiles/profile-fields-es-mobile.png",
+      "status": 200,
+      "sha256": "1525d3add44bb64b93d457bb3353f8bfdd9fe0f1f99b84580aed0807db7829c3",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/audience/customer-profiles/profile-fields-en-mobile.png",
+      "status": 200,
+      "sha256": "0e2c6a1622ea73ec0fa008f5100b7ce5f04e2695cdb1aa2414c855db6ca760cb",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-actions/manual-es.png",
+      "status": 200,
+      "sha256": "144e3281a27f8c6e5434f2e5e12585039d18bd9f300e259df95381af25c376a2",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-actions/manual-es-mobile.png",
+      "status": 200,
+      "sha256": "9cc3f116cb1a88b065f769c74e3b215dc3a39383af884a203e240a965970dacf",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-actions/manual-en.png",
+      "status": 200,
+      "sha256": "77dd2a9505cbc073897db00674689fcf819a0ace5b5b58bc53ad36e3aad8ba7b",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-actions/manual-en-mobile.png",
+      "status": 200,
+      "sha256": "77277beaf19ecfad6b22bb3933c8a563bedb3dabc0a43fbaff07a055358fa80e",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/orders-with-api/details-es.png",
+      "status": 200,
+      "sha256": "ce7071cd6129d589df554b45f6ead105ef20ce3b1b4eeaf6eace613f34b4bb00",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/orders-with-api/details-es-mobile.png",
+      "status": 200,
+      "sha256": "002115693247a8d96672d24a28406f0c452db72eb2df13ad721a9f3d12102ad9",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/orders-with-api/details-en.png",
+      "status": 200,
+      "sha256": "b728ba41fdd9c004408a7153f0f8f9a0bfc6634d0d9e44485db3dfc7b120b08b",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/orders-with-api/details-en-mobile.png",
+      "status": 200,
+      "sha256": "8d44d00464fcffb4c98684b550a95fd7df0a64360333a384e3d6eefca81d44c0",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-wide-desktop.png",
+      "status": 200,
+      "sha256": "65bfef90c667cf5da787412ad4d2175652ea945e2b1c1c84c7fb4bdb6c9217fc",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-mobile-wide.png",
+      "status": 200,
+      "sha256": "71136b3c75dbbe12a40ad787057309089b29f7d83b49f1ae1426ea91887e34e3",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-wide-desktop.png",
+      "status": 200,
+      "sha256": "470347c0697af60e59b6119e2c83bfb848fb9cbf69bd07ec4b14e451db40800e",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile-wide.png",
+      "status": 200,
+      "sha256": "244b1faacb31e3852d224f2db51c2efda234e4d57a54826aac83e726037efc36",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-actions/catalog-es.png",
+      "status": 200,
+      "sha256": "a12712f6c78adc83c29a0c497ccb3a061449789f26a7d5cbaf6fdab127612389",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-actions/catalog-es-mobile.png",
+      "status": 200,
+      "sha256": "fab59f9490d84ad14feb17be6a5701ba29c39161fdc7bd5fbd391a2a16651d76",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-actions/catalog-en.png",
+      "status": 200,
+      "sha256": "6fdbbbe59759abe2be46c35406174c9dae62c52dcdb56d65f5875e003e278bef",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-actions/catalog-en-mobile.png",
+      "status": 200,
+      "sha256": "9f1460df43463d2eef8bbd04d6c550782d05bd4129eb7f9bf0faa5f553588561",
+      "matches_approved_asset": true,
+      "reused": true
+    }
+  ],
+  "new_captures": 0,
+  "new_png_uploads": 0,
+  "reused_pngs": 20,
+  "all_affected_article_pngs": 20,
+  "main_build": {
+    "conclusion": "success",
+    "databaseId": 36932396561,
+    "event": "push",
+    "headSha": "1b254f452038f9658b3ea0bb9e63e9028d0b85c8",
+    "status": "completed",
+    "url": "https://github.com/hellotext/help/actions/runs/36932396561"
+  },
+  "content_pr": "https://github.com/hellotext/help/pull/347",
+  "content_pr_head": "970b9428aa80fb5fc2748a5ab5f4c12c93e03eee",
+  "individual_commits_preserved": [
+    "be76a7fd942d8fd504171fdc576b02fd89f6f52a",
+    "970b9428aa80fb5fc2748a5ab5f4c12c93e03eee"
+  ],
+  "unresolved_review_threads_before_merge": 0,
+  "pre_merge_review": {
+    "head": "970b9428aa80fb5fc2748a5ab5f4c12c93e03eee",
+    "checks": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T21:54:59Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/hellotext/help/actions/runs/36931743979/job/110602445811",
+        "name": "build",
+        "startedAt": "2026-10-01T21:54:35Z",
+        "status": "COMPLETED",
+        "workflowName": "Build"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T21:55:09Z",
+        "conclusion": "NEUTRAL",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abed6981c335000098f48d7",
+        "name": "Pages changed - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T21:54:33Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T21:55:09Z",
+        "conclusion": "NEUTRAL",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abed6981c335000098f48d7",
+        "name": "Redirect rules - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T21:54:33Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T21:54:58Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://app.aikido.dev/featurebranch/scan/209757203?groupId=34029",
+        "name": "Aikido Security: check code",
+        "startedAt": "2026-10-01T21:54:33Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T21:55:09Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abed6981c335000098f48d7",
+        "name": "Header rules - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T21:54:33Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "StatusContext",
+        "context": "netlify/legendary-lollipop-e2d131/deploy-preview",
+        "startedAt": "2026-10-01T21:55:11Z",
+        "state": "SUCCESS",
+        "targetUrl": "https://deploy-preview-347--legendary-lollipop-e2d131.netlify.app"
+      }
+    ],
+    "comments": [
+      {
+        "id": "IC_kwDOIVbAxs8AAAABYiMZDw",
+        "author": {
+          "login": "netlify"
+        },
+        "authorAssociation": "NONE",
+        "body": "### <span aria-hidden=\"true\">\u2705</span> Deploy Preview for *legendary-lollipop-e2d131* ready!\n\n\n|  Name | Link |\n|:-:|------------------------|\n|<span aria-hidden=\"true\">\ud83d\udd28</span> Latest commit | 970b9428aa80fb5fc2748a5ab5f4c12c93e03eee |\n|<span aria-hidden=\"true\">\ud83d\udd0d</span> Latest deploy log | https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abed6981c335000098f48d7 |\n|<span aria-hidden=\"true\">\ud83d\ude0e</span> Deploy Preview | [https://deploy-preview-347--legendary-lollipop-e2d131.netlify.app](https://deploy-preview-347--legendary-lollipop-e2d131.netlify.app) |\n|<span aria-hidden=\"true\">\ud83d\udcf1</span> Preview on mobile | <details><summary> Toggle QR Code... </summary><br /><br />![QR Code](https://app.netlify.com/qr-code/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJodHRwczovL2RlcGxveS1wcmV2aWV3LTM0Ny0tbGVnZW5kYXJ5LWxvbGxpcG9wLWUyZDEzMS5uZXRsaWZ5LmFwcCJ9.j8UKLtFUP3vyFp3OcITGQyY1D9SODc1TApY_lf_0MPg)<br /><br />_Use your smartphone camera to open QR code link._</details> |\n|<span aria-hidden=\"true\">\ud83e\udd16</span> Make changes | [Run an agent on this branch](https://app.netlify.com/projects/legendary-lollipop-e2d131/agent-runs#DctBDoMgEEDRu8y6xDZWi97AYwAzRRJkCAOJTePd5a_-5v0hFz5yhRXgAbaY5Pb-jpHOoRZuNpLszFUdQSQkryT4ZKIo3wJSN0g58m_DrmZjCedFv9w4Ts_eor9vjR-4bg) |\n---\n<!-- [legendary-lollipop-e2d131 Preview](https://deploy-preview-347--legendary-lollipop-e2d131.netlify.app) -->\n_To edit notification comments on pull requests, go to your [Netlify project configuration](https://app.netlify.com/projects/legendary-lollipop-e2d131/configuration/notifications#deploy-notifications)._",
+        "createdAt": "2026-10-01T21:54:35Z",
+        "includesCreatedEdit": true,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/hellotext/help/pull/347#issuecomment-5941434639",
+        "viewerDidAuthor": false
+      },
+      {
+        "id": "IC_kwDOIVbAxs8AAAABYiMcRQ",
+        "author": {
+          "login": "chatgpt-codex-connector"
+        },
+        "authorAssociation": "NONE",
+        "body": "<!-- codex-pull-request-review-summary -->\n\n## Codex Review Summary\n\nThis comment shows the latest Codex review activity on this pull request.\n\n| Review | Status | Commit | Review trigger |\n| --- | --- | --- | --- |\n| \ud83d\udcdd **Code Review** | \u2705 **Completed** <relative-time datetime=\"2026-10-01T21:59:44.151732Z\">2026-10-01T21:59:44.151732Z</relative-time> | `970b942` | PR opened |\n\n\n\n<details> <summary>\u2139\ufe0f About Codex in GitHub</summary>\n<br/>\n\n[Your team has set up Codex to review pull requests in this repo](https://chatgpt.com/codex/cloud/settings/general). Reviews are triggered when you\n- Open a pull request for review\n- Mark a draft as ready\n- Comment \"@codex review\" or \"@codex security review\".\n\nCodex reacts with \ud83d\udc40 while any review is running, comments if it has suggestions, and reacts with \ud83d\udc4d once all reviews finish with no findings.\n\n</details>",
+        "createdAt": "2026-10-01T21:54:38Z",
+        "includesCreatedEdit": true,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/hellotext/help/pull/347#issuecomment-5941435461",
+        "viewerDidAuthor": false
+      }
+    ],
+    "reviews": [],
+    "threads": [],
+    "all_actual_comments_reviews_threads_read": true
+  },
+  "preview_verification": {
+    "head": "970b9428aa80fb5fc2748a5ab5f4c12c93e03eee",
+    "preview_url": "https://deploy-preview-347--legendary-lollipop-e2d131.netlify.app",
+    "deployment": {
+      "id": "6abed6981c335000098f48d7",
+      "context": "deploy-preview",
+      "commit_ref": "970b9428aa80fb5fc2748a5ab5f4c12c93e03eee",
+      "state": "ready",
+      "review_id": 347
+    },
+    "pages": [
+      {
+        "url": "https://deploy-preview-347--legendary-lollipop-e2d131.netlify.app/es/solucionar-senales-o-actividad-faltante",
+        "status": 200,
+        "article_key": "troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md",
+        "locale": "es",
+        "figures": 5,
+        "sections": 9,
+        "approved_assets_present": [
+          "/images/audience/customer-profiles/profile-fields-es.png",
+          "/images/audience/customer-profiles/profile-fields-es-mobile.png",
+          "/images/developers/custom-actions/manual-es.png",
+          "/images/developers/custom-actions/manual-es-mobile.png",
+          "/images/developers/orders-with-api/details-es.png",
+          "/images/developers/orders-with-api/details-es-mobile.png",
+          "/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-wide-desktop.png",
+          "/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-mobile-wide.png",
+          "/images/developers/custom-actions/catalog-es.png",
+          "/images/developers/custom-actions/catalog-es-mobile.png"
+        ],
+        "complete_article_matches_verified_build": true,
+        "article_sha256": "a7543994a51940cbeceafe9117e5d0f43602e9bea30406f36b4b139c8f0da1f8",
+        "html_sha256": "3efa78f878ae198264b3b0e4961c58eb7155870ad8e8e867a00785a01177af16"
+      },
+      {
+        "url": "https://deploy-preview-347--legendary-lollipop-e2d131.netlify.app/troubleshoot-missing-signals-or-activity",
+        "status": 200,
+        "article_key": "troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md",
+        "locale": "en",
+        "figures": 5,
+        "sections": 9,
+        "approved_assets_present": [
+          "/images/audience/customer-profiles/profile-fields-en.png",
+          "/images/audience/customer-profiles/profile-fields-en-mobile.png",
+          "/images/developers/custom-actions/manual-en.png",
+          "/images/developers/custom-actions/manual-en-mobile.png",
+          "/images/developers/orders-with-api/details-en.png",
+          "/images/developers/orders-with-api/details-en-mobile.png",
+          "/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-wide-desktop.png",
+          "/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile-wide.png",
+          "/images/developers/custom-actions/catalog-en.png",
+          "/images/developers/custom-actions/catalog-en-mobile.png"
+        ],
+        "complete_article_matches_verified_build": true,
+        "article_sha256": "d5fadc1915b9276c2031447c844627eb73bddf60854e067b723c546500a3cc1e",
+        "html_sha256": "18e03105383e3162ebad4ad7c6fa3d98b7976531ef84df29a183f73f26e572b0"
+      }
+    ],
+    "assets": [
+      {
+        "url": "https://deploy-preview-347--legendary-lollipop-e2d131.netlify.app/images/audience/customer-profiles/profile-fields-es.png",
+        "status": 200,
+        "sha256": "bf1ee79e29d0ef384913cad51a1792ddf0050d75a5b4e138bd49df682e203b40",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-347--legendary-lollipop-e2d131.netlify.app/images/audience/customer-profiles/profile-fields-en.png",
+        "status": 200,
+        "sha256": "9bbb727226b2a20d5df4be2ca7612d29037b9d18d8e7e2ec488c407c54945f5d",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-347--legendary-lollipop-e2d131.netlify.app/images/audience/customer-profiles/profile-fields-es-mobile.png",
+        "status": 200,
+        "sha256": "1525d3add44bb64b93d457bb3353f8bfdd9fe0f1f99b84580aed0807db7829c3",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-347--legendary-lollipop-e2d131.netlify.app/images/audience/customer-profiles/profile-fields-en-mobile.png",
+        "status": 200,
+        "sha256": "0e2c6a1622ea73ec0fa008f5100b7ce5f04e2695cdb1aa2414c855db6ca760cb",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-347--legendary-lollipop-e2d131.netlify.app/images/developers/custom-actions/manual-es.png",
+        "status": 200,
+        "sha256": "144e3281a27f8c6e5434f2e5e12585039d18bd9f300e259df95381af25c376a2",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-347--legendary-lollipop-e2d131.netlify.app/images/developers/custom-actions/manual-es-mobile.png",
+        "status": 200,
+        "sha256": "9cc3f116cb1a88b065f769c74e3b215dc3a39383af884a203e240a965970dacf",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-347--legendary-lollipop-e2d131.netlify.app/images/developers/custom-actions/manual-en.png",
+        "status": 200,
+        "sha256": "77dd2a9505cbc073897db00674689fcf819a0ace5b5b58bc53ad36e3aad8ba7b",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-347--legendary-lollipop-e2d131.netlify.app/images/developers/custom-actions/manual-en-mobile.png",
+        "status": 200,
+        "sha256": "77277beaf19ecfad6b22bb3933c8a563bedb3dabc0a43fbaff07a055358fa80e",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-347--legendary-lollipop-e2d131.netlify.app/images/developers/orders-with-api/details-es.png",
+        "status": 200,
+        "sha256": "ce7071cd6129d589df554b45f6ead105ef20ce3b1b4eeaf6eace613f34b4bb00",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-347--legendary-lollipop-e2d131.netlify.app/images/developers/orders-with-api/details-es-mobile.png",
+        "status": 200,
+        "sha256": "002115693247a8d96672d24a28406f0c452db72eb2df13ad721a9f3d12102ad9",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-347--legendary-lollipop-e2d131.netlify.app/images/developers/orders-with-api/details-en.png",
+        "status": 200,
+        "sha256": "b728ba41fdd9c004408a7153f0f8f9a0bfc6634d0d9e44485db3dfc7b120b08b",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-347--legendary-lollipop-e2d131.netlify.app/images/developers/orders-with-api/details-en-mobile.png",
+        "status": 200,
+        "sha256": "8d44d00464fcffb4c98684b550a95fd7df0a64360333a384e3d6eefca81d44c0",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-347--legendary-lollipop-e2d131.netlify.app/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-wide-desktop.png",
+        "status": 200,
+        "sha256": "65bfef90c667cf5da787412ad4d2175652ea945e2b1c1c84c7fb4bdb6c9217fc",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-347--legendary-lollipop-e2d131.netlify.app/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-mobile-wide.png",
+        "status": 200,
+        "sha256": "71136b3c75dbbe12a40ad787057309089b29f7d83b49f1ae1426ea91887e34e3",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-347--legendary-lollipop-e2d131.netlify.app/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-wide-desktop.png",
+        "status": 200,
+        "sha256": "470347c0697af60e59b6119e2c83bfb848fb9cbf69bd07ec4b14e451db40800e",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-347--legendary-lollipop-e2d131.netlify.app/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile-wide.png",
+        "status": 200,
+        "sha256": "244b1faacb31e3852d224f2db51c2efda234e4d57a54826aac83e726037efc36",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-347--legendary-lollipop-e2d131.netlify.app/images/developers/custom-actions/catalog-es.png",
+        "status": 200,
+        "sha256": "a12712f6c78adc83c29a0c497ccb3a061449789f26a7d5cbaf6fdab127612389",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-347--legendary-lollipop-e2d131.netlify.app/images/developers/custom-actions/catalog-es-mobile.png",
+        "status": 200,
+        "sha256": "fab59f9490d84ad14feb17be6a5701ba29c39161fdc7bd5fbd391a2a16651d76",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-347--legendary-lollipop-e2d131.netlify.app/images/developers/custom-actions/catalog-en.png",
+        "status": 200,
+        "sha256": "6fdbbbe59759abe2be46c35406174c9dae62c52dcdb56d65f5875e003e278bef",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-347--legendary-lollipop-e2d131.netlify.app/images/developers/custom-actions/catalog-en-mobile.png",
+        "status": 200,
+        "sha256": "9f1460df43463d2eef8bbd04d6c550782d05bd4129eb7f9bf0faa5f553588561",
+        "matches_approved_asset": true,
+        "reused": true
+      }
+    ]
+  },
+  "earlier_record_332_limitation": "This genuine later content SHA published normally; it does not prove publication of ad6d6455d0671cda042dc5ef184f73c86d64f8fb. No manual deployment or retry."
+}
