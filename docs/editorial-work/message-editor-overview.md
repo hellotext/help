@@ -21,3 +21,7 @@ Complete ES/EN articles, all three sections/figures, related links and footer pi
 Thirty-eight primary Rails source files compared against current mastera6a32d95a0b6cdbd63342100012413446aa2a2f5:36 byte-identical; input_controller instrumentation and Inbox footer controller/template-contact/lazy-note differences inspected without changing protectedRails5403a7dcb. No new Inbox screenshot or identical-menu guarantee. Channel/tool/context/window differences, Message/Email, SMS actual plain-text gateways, static Link URL/Add/Enter side effects, profile versus context/fallback, playbook location exclusion and authorized isolated preflight reviewed. Existing captures retain their original account/route/native guards; no retroactive capture evidence. No application/DB/UI/locale/fixture/provider/API/example/token/template/link/message/event/test/send or worker action.
 
 Protected publication workflow remains pending.
+
+## Ledger checkpoint
+
+Local verifier `7069de6a41a5082291dc259ab6cb19aabc7fdd38` contains the complete bilingual article, approved source references and local visual/build/hash evidence. The ledger commit is its child. Counts82 local_verified/71 pending/1 out_of_scope; public verification is still pending. Existing verifier commits and protected campaign branch preserved.
