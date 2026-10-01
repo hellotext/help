@@ -29,3 +29,7 @@ Eight new native PNG sources: actual HTTPS origin draft and unsaved/inactive col
 Business ID reuses four approved original PNGs and UI evidence unchanged, no duplicate asset upload. Logical sizes/caps: business868×202 desktop/374×262 mobile,cap886px; origin532×146/382×166,cap550px; alert496×260 desktop/366×346 ES mobile or366×316 EN mobile,cap514px. Every cap includes18px inset/border. Full static lavender stages,2× srcset and intrinsic dimensions for all sources, no source enlargement, complete controls/labels, no page overflow. Eight new PNGs and four reused PNGs plus six unchanged additional Overview PNGs match original/source/assets/both builds with native P3 ICC unchanged.
 
 Production build/security headers and git diff --check passed. Section omissions remain as planned: no fabricated provider installation, permission/subscription or delivered notification. No Rails/shared renderer/canonical-guide change, CSS/migration tests, example/API execution or worker started. Protected publication and public proof remain pending.
+
+## Verifier and local registry
+
+Verifier 0a3eac822ac85f351b4ed4ec1978aa81af663e15 follows the content commit and preserves every individual commit. It precedes this registry commit as its direct parent. Final complete batch diff, staged additions and audit snapshot endings pass git diff --check; registry now76 local_verified,77 pending,one out_of_scope. Original Setup overview verifier remains unchanged. Local verification is complete; protected review/merge and public proof are pending.
