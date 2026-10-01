@@ -32,3 +32,7 @@ Both complete articles were inspected in the browser at 1440/390/580px, includin
 Profile narrow sources retain their historical focused desktop crop identity; report desktop sources retain their missing CSS viewport/zoom evidence. Existing original UI guards and sources remain in their original folders. The real profile is fictional and unconfirmed, the order is a draft with no events, the manual form was not saved, the Form is an unsubmitted draft and the report retains its fictional First 14 days period. These separate fixtures do not document one completed validation. Captions are hidden, so these distinctions appear in visible article prose.
 
 Production build and security header verification passed. Original snapshots, native source hashes, approved asset hashes and both locale build copies were checked; historical report source and approved native pixel crop byte hashes are recorded separately. Every original and asset pixel/ICC profile is unchanged. No app, DB, UI, locale, fixture, token, object, event, message, invitation, subscription, API, example, send, test or delivery worker was executed or created. No renderer/shared rules, CSS or migration tests changed. Exact PR checks/review, normal production deployment and public verification remain pending.
+
+## Local ledger
+
+Verifier `299131d94e2040c023d19d5792c867d02de8839c` precedes this ledger commit; 78 local_verified,75 pending,one out_of_scope. Protected publication and public proof remain pending.
