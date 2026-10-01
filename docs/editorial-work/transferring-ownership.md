@@ -34,3 +34,7 @@ Two complete ES/EN articles inspected from introduction to section, all four ste
 Production build/security headers and git diff --check passed. No Rails/shared renderer/canonical guide changes, CSS/migration tests, API/example execution or worker. Protected publication and public proof remain pending.
 
 Original English text contains inherited trailing whitespace. Its deterministic gzip archive retains every decompressed byte and original SHA; archive_sha256 is recorded separately. Protected fixture JSON whitespace normalized to one final newline. No original text content changed.
+
+## Progress verifier
+
+Local verifier `cde33e9ab37d683f9e90360a8c8808407836ae81` precedes this progress record. Ledger77 local_verified,76 pending,one out_of_scope. Complete native visual/editorial/build evidence is local; protected publication and public proof remain pending.
