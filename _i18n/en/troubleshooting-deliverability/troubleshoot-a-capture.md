@@ -1,111 +1,190 @@
-Use this guide when a capture playbook is not available in the product, does not load for a customer, does not register submitted information, or does not start the configured action after capture.
+Use this guide when a capture playbook is missing from the product, does not load for a customer, does not register submitted information, or does not start its configured follow-up.
 
-All capture playbooks are under **Playbooks > Explore playbooks**, in the **Captures** group. They include different experiences: Website Popup, Website Form, Webchat Widget, QR codes, shareable links, checkout opt-in, and AI interactions such as Subscriber Booster and Property Collector.
+Find capture tools under **Playbooks > Explore playbooks**, in the **Capture** group. Website Popup, Website Form, Webchat Widget, QR codes, shareable links, Subscriber Booster and Property Collector have different flows. Checkout opt-in is configured through the relevant eCommerce integration; it has no separate card in that group.
 
 ## Identify where it stopped
 
-Before changing the configuration, reproduce the problem and place it in one of these stages:
+Before changing settings, identify the last stage you can verify. To reproduce the flow, use your own details or an authorized internal profile and record what you submitted and when.
 
 | Stage | What you observe |
 | --- | --- |
-| **Availability** | The playbook is missing from **Explore playbooks** or shown as **On request**. |
-| **Loading** | The capture exists but does not appear on the expected website, checkout, or channel. |
-| **Interaction** | The capture appears but does not open, advance, or submit. |
-| **Verification** | The customer submitted information but must still verify a new phone number or email. |
-| **Customer profile** | The interaction finished, but the information is not on the expected customer profile. |
-| **Next action** | The profile was updated, but a coupon was not delivered, a journey did not start, or a message was not sent. |
+| **Availability** | The playbook is missing from **Explore playbooks**, shown as **On request**, or requires another plan. |
+| **Loading** | The capture exists but does not appear on the expected website, checkout or channel. |
+| **Interaction** | The capture appears but does not open, advance or submit. |
+| **Verification** | The submission was received, but an identity still needs verification or processing. |
+| **Customer profile** | You cannot find the data on the expected profile or identifier. |
+| **Next action** | The profile was updated, but a coupon was not delivered, a journey did not start or a message was not sent. |
 
-This separation keeps you from reinstalling a capture when the problem is a pending verification or a later action.
+Keep evidence for each stage separately. A preview, network response or updated profile alone does not prove consent or delivery. If a network error left the result uncertain, inspect existing records before submitting again: another attempt can create another interaction.
 
 ## If the playbook is not available
 
 1. Open **Playbooks** and click **Explore playbooks**.
-2. Find the **Captures** group.
-3. Confirm that the playbook is available for your business and plan.
-4. If it is shown as **On request**, disabled, or not yet available, check with your Hellotext team before preparing the installation.
+2. Find the **Capture** group. If you filter for tools included in your plan, also check the full catalog.
+3. Confirm availability for your business, plan and permissions.
+4. If the tool is **On request** or disabled, check its stated reason and contact your Hellotext team when needed.
 
-After configuring it, confirm that it was saved and enabled. Popups and forms published on a website must also complete their installation or publishing step.
+These cards identify Popup and Form. They show a catalog example, not an installation or enabled capture; narrow screens show the Form card.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Desktop catalog cards for Popup and Form; narrow view of Form.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 834px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/capture-overview/desktop-form-en.png 2x" width="800" height="480" />
+        <img class="ht-editorial-visual__image" src="/images/captures/forms/en/catalog-desktop-row.png" srcset="/images/captures/forms/en/catalog-desktop-row.png 2x" width="1632" height="480" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Desktop catalog cards for Popup and Form; narrow view of Form." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Desktop catalog cards for Popup and Form; narrow view of Form.</figcaption>
+</figure>
+
+Check the specific tool's status: saving a draft does not establish publication. A popup must be published and visible; Webchat must be enabled and installed. For a form, distinguish its hosted link from the snippet placed on your website.
 
 ## If a popup or Webchat does not appear
 
 Check these points in order:
 
-1. Confirm that the playbook is enabled and its latest version was saved.
-2. Confirm that the supported integration, plugin, or Hellotext.js loads on the live page.
-3. For a manual installation, compare the code running on the website with the current code generated by Hellotext.
-4. Check the exact domain and URL where it should appear.
-5. Confirm that the configuration includes the device you are testing.
-6. Check whether the experience opens automatically, after a delay, or only when someone clicks a launcher, bubble, or teaser.
-7. Test in a private browser window and on a real phone to separate previous session state from an installation problem.
-8. Check whether website styles, consent banners, or other elements are hiding the capture.
+1. Confirm publication or enablement and that the changes you expect to see were saved.
+2. Confirm that the supported integration, plugin or Hellotext.js loads on the live page.
+3. For a manual installation, compare the website code with the current code generated by Hellotext, including the business and widget identifiers. SDK initialization is asynchronous; loading the JavaScript file does not establish widget readiness.
+4. Check the exact domain, URL and installation container.
+5. For Popup, check **Settings > Display on** and the bubble option. That panel has no delay selector.
+6. For Webchat, check opening on click or page load, the delay, and first-visit and session limits.
+7. Compare a private window and a real phone to distinguish prior browser state from an installation problem.
+8. Check whether website styles, consent banners or other elements are hiding the capture.
 
-For a Subscriber Booster teaser, both **Webchat Widget** and **Subscriber Booster** must be enabled. Webchat provides the visible entry point, while the other playbook handles the AI subscription invitation.
+This fictional popup remains hidden and draft. **Mobile and Desktop** and **Don't show bubble** identify the controls to inspect; they do not prove storefront visibility.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Fictional popup settings: Mobile and Desktop, Don’t show bubble selected.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 428px; width: fit-content; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/captures/website-popup/settings-en.png" srcset="/images/captures/website-popup/settings-en.png 2x" width="820" height="744" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Fictional popup settings: Mobile and Desktop, Don’t show bubble selected." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Fictional popup settings: Mobile and Desktop, Don’t show bubble selected.</figcaption>
+</figure>
+
+The separate Webchat example selects automatic opening after five seconds and both limits, without saving or enabling it. The narrow view focuses on the two limits. **First visit only** is remembered across visits; **Once per session** uses browser session state. These limits affect automatic opening; they do not establish that a manual click will fail.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Webchat opening with five seconds and both limits; narrow view of the limits.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 546px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/webchat-widget/behavior-mobile-en.png 2x" width="720" height="228" />
+        <img class="ht-editorial-visual__image" src="/images/captures/webchat-widget/behavior-en.png" srcset="/images/captures/webchat-widget/behavior-en.png 2x" width="1056" height="774" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Webchat opening with five seconds and both limits; narrow view of the limits." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Webchat opening with five seconds and both limits; narrow view of the limits.</figcaption>
+</figure>
+
+For a Subscriber Booster teaser, **Webchat Widget** and **Subscriber Booster** must be enabled, and the Booster's teaser option must allow it. Session and customer state also matter: a consumed invitation or an already subscribed customer can follow another flow. Webchat's configured teaser and the Booster invitation are distinct controls; enablement alone does not guarantee an invitation will appear.
 
 ## If a form does not load
 
-First, test the hosted link for the same form.
+First open the hosted link for the same form without submitting it.
 
-- If the hosted link works, inspect the installation, container, and website styles or scripts where the form is embedded.
-- If the hosted link also fails, inspect the form configuration, required fields, and status in Hellotext.
+- If it loads there, compare the snippet identifier, container and website styles or scripts where it is embedded.
+- If the hosted link also fails, check that the link and form belong to the correct business and inspect its configuration. Required fields explain submission errors; their presence does not establish a loading failure.
 
-For an embedded form, confirm that the current snippet is present and that the eCommerce integration or Hellotext.js loads successfully. A developer can also observe `forms:collected` to confirm that the library found the form definitions and `form:completed` to confirm that the process finished, including any required verification.
+This fictional form is a draft preview with no submissions. Compare its heading, Phone number field, button and SMS consent notice with what should load. It does not document publication, verification or subscription.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Fictional form preview with Phone number and SMS consent, without submission.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 490px; width: fit-content; margin: 0 auto;">
+      <img class="ht-editorial-visual__image" src="/images/captures/forms/ui-refresh/en/preview.png" srcset="/images/captures/forms/ui-refresh/en/preview.png 2x" width="944" height="692" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Fictional form preview with Phone number and SMS consent, without submission." />
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Fictional form preview with Phone number and SMS consent, without submission.</figcaption>
+</figure>
+
+For an embedded form, confirm that the current snippet is present and Hellotext.js initialized. In the published SDK, `forms:collected` means the collection obtained definitions; it does not prove mounting, submission or verification. `form:completed` fires after the browser accepts a submission and can also fire when restoring locally stored completion. It does not confirm phone or email verification or the later profile update. Check those stages separately in Hellotext.
 
 ## If a QR code or link does not register the subscription
 
-Scan or open the final version from a phone and confirm that it uses the expected number, channel, message, and capture reference.
+Inspect the final version on a phone and confirm its channel, number, message and generated reference. A default-number selection in the editor is insufficient: check the destination of the actual QR code or link.
 
-Opening the QR code or link does not complete the subscription. The customer must send the prefilled message through SMS or WhatsApp. Hellotext records the capture and updates the customer profile after receiving that message.
+In this fictional QR chooser, **SMS** is selected and **WhatsApp** is unavailable for the account. The form was not saved: it does not show a connected channel, scan or subscription.
 
-If the message does not leave the phone or reach Hellotext, inspect the channel and number before changing the capture.
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Fictional QR chooser with SMS selected and WhatsApp disabled.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 678px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/qr-codes/type-en-mobile.png 2x" width="740" height="1500" />
+        <img class="ht-editorial-visual__image" src="/images/captures/qr-codes/type-en.png" srcset="/images/captures/qr-codes/type-en.png 2x" width="1320" height="1310" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Fictional QR chooser with SMS selected and WhatsApp disabled." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Fictional QR chooser with SMS selected and WhatsApp disabled.</figcaption>
+</figure>
+
+Opening a QR code or link does not complete subscription. The customer must send the prefilled SMS or WhatsApp message with its reference intact. Hellotext must receive and process that message and recognize the corresponding capture. A message without its reference may arrive as a conversation without being attributed to that capture.
+
+If the message does not leave the phone or reach Hellotext, inspect the channel and number. If it arrived, compare its text and reference with the final version before creating another QR code or sending again. Recorded subscription and configured follow-up are separate steps.
 
 ## If checkout opt-in does not register the customer
 
 Confirm that:
 
-- the eCommerce integration is connected and syncing orders and customer profiles;
+- the eCommerce integration is connected and syncing the orders and profiles you expect;
 - the consent option is visible in the published checkout;
-- the customer selected the relevant option; and
-- you are checking consent for the correct channel on the customer profile.
+- the customer selected the relevant option;
+- the platform stored that consent and the integration received it; and
+- you are checking the correct state and channel in Hellotext.
 
-Creating a profile from a purchase does not mean that the customer accepted marketing messages. Subscription status depends on the consent they provided at checkout.
+Creating a profile from a purchase does not establish marketing permission. Profile import, subscription state and consent for a specific destination can follow different rules depending on the integration. Compare source data with Hellotext; do not infer SMS consent from an email option or the reverse.
 
 ## If data is missing from the customer profile
 
-1. Repeat the test with a phone number or email that you can safely inspect.
-2. Complete every required field.
-3. If Hellotext sends verification to a new phone number or email, complete it. The process is not finished while that verification is pending.
-4. Search for the customer profile using every identifier submitted. Hellotext may update an existing profile or merge matching profiles instead of creating a new one.
-5. Check that custom properties used by the capture still exist and match the configured fields.
-6. Confirm that consent was requested for the channel you are checking.
+1. First look for the existing submission and profile using the identifier and time you recorded. Repeat the flow with your own or authorized internal details after clarifying an uncertain result.
+2. Inspect required fields and returned errors; a visual success button does not replace that check.
+3. If the flow asks for phone or email verification, distinguish receipt, verification and processing. A provisional profile or unverified data can exist before that flow finishes.
+4. Search using every submitted identifier. Hellotext may update an existing profile or merge matches after verification; do not look only for a new profile.
+5. Check that custom properties still exist and match the configured fields.
+6. Confirm the consent requested, profile state and destination you are inspecting.
 
-The same browser can remember a completed capture. Use a private window when you need to repeat the experience from the beginning.
+Camila Torres is a separate example: **Unconfirmed**, with a fictional email and no phone number. She is not the result of the previous form; her properties do not establish subscription or an available SMS destination. Narrow screens use a focused crop of the same desktop panel.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Fictional Camila Torres profile, Unconfirmed, example email and no phone; focused crop on narrow screens.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 473px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/audience/customer-profiles/profile-fields-en-mobile.png 2x" width="700" height="1330" />
+        <img class="ht-editorial-visual__image" src="/images/audience/customer-profiles/profile-fields-en.png" srcset="/images/audience/customer-profiles/profile-fields-en.png 2x" width="910" height="1330" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Fictional Camila Torres profile, Unconfirmed, example email and no phone; focused crop on narrow screens." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Fictional Camila Torres profile, Unconfirmed, example email and no phone; focused crop on narrow screens.</figcaption>
+</figure>
+
+The browser can remember a completed form. A private window helps compare local state, but does not erase profiles or interactions already in Hellotext. For Popup, receiving fields alone does not establish completion of verification or journey entry: inspect that capture's steps and assignments.
 
 ## If the next action failed
 
-A completed capture and a later action are separate stages.
+Received capture, required verification, consent and follow-up are separate stages.
 
-- If the customer profile was updated but a coupon or message was not delivered, review [Why a message did not send]({% link _troubleshooting-deliverability/why-a-message-did-not-send.md %}).
-- If a journey should have started, confirm that the journey is enabled and inspect its activity.
-- If a Webchat conversation should have opened, confirm that the message reaches Inbox and inspect its assignment.
-- If Subscriber Booster did not participate, confirm that the conversation started through Webchat or was initiated by the customer on WhatsApp, and that the playbook is enabled.
+- If the profile was updated but a coupon or message was not delivered, review [Why a message did not send]({% link _troubleshooting-deliverability/why-a-message-did-not-send.md %}).
+- If a journey should have started, confirm it is assigned, enabled and that its event and filters include this capture. Inspect its activity; a capture without an assigned journey does not guarantee a welcome message.
+- If a Webchat conversation should have opened, confirm message receipt in Inbox and inspect assignment, team and capacity. Seeing the widget does not establish a received or assigned conversation.
+- If Subscriber Booster did not participate, inspect enablement, the selected channel, the previous invitation and the customer's response. Webchat or WhatsApp origin alone does not guarantee AI participation, a coupon or delivery.
 
-Do not use message delivery as the only test of whether capture failed. First confirm whether the profile and consent were updated.
+First confirm which data and consent changed, then inspect follow-up. Keep evidence from the first attempt before sending again or changing settings.
 
 ## What to include when asking for help
 
 Include:
 
 - business and capture name;
-- capture type;
-- URL, domain, or placement tested;
+- capture type and identifier;
+- URL, domain or placement tested;
 - device and browser;
 - approximate date and time with time zone;
-- exact stage where it stopped;
-- customer profile identifier used for the test;
+- last verified stage and first failed stage;
+- internal test profile identifier;
 - a screenshot or short recording; and
-- visible console errors or failed network requests, if you have technical access.
+- visible error, response code and failed request, if you have technical access.
 
-Do not include verification codes, tokens, passwords, or real payment information.
+Do not include verification codes, tokens, passwords or real payment information. Also inspect request headers and bodies before sharing them.
 
 ## Related guides
 
