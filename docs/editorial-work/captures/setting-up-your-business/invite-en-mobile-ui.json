@@ -1,0 +1,87 @@
+{
+  "url": "http://127.0.0.1:3192/hellotext/settings/invitations/new",
+  "title": "Invite a team member - Hellotext",
+  "locale": "en",
+  "viewport": [
+    390,
+    844
+  ],
+  "dpr": 2,
+  "zoom": 1,
+  "scroll": [
+    0,
+    0
+  ],
+  "text": "Invite a team member\n\nEnter the email of the person you'd like to invite below.\n\nEmail address\nBack\nNext",
+  "form": [
+    0,
+    8,
+    390,
+    432
+  ],
+  "controls": [
+    {
+      "tag": "H1",
+      "text": "Invite a team member",
+      "rect": [
+        16,
+        56,
+        314.3125,
+        34
+      ]
+    },
+    {
+      "tag": "P",
+      "text": "Enter the email of the person you'd like to invite below.",
+      "rect": [
+        16,
+        98,
+        358,
+        48
+      ]
+    },
+    {
+      "tag": "LABEL",
+      "text": "Email address",
+      "rect": [
+        16,
+        218,
+        358,
+        24
+      ]
+    },
+    {
+      "tag": "INPUT",
+      "text": "",
+      "name": "invitation[email]",
+      "value": "operations@example.test",
+      "rect": [
+        16,
+        250,
+        358,
+        42
+      ]
+    },
+    {
+      "tag": "X-LABEL",
+      "text": "Back",
+      "rect": [
+        16,
+        794,
+        38.625,
+        24
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Next",
+      "name": "",
+      "rect": [
+        288.859375,
+        784,
+        85.140625,
+        44
+      ]
+    }
+  ]
+}
