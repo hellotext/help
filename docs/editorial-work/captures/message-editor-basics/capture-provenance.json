@@ -1,5 +1,5 @@
 {
-  "status": "locally_verified",
+  "status": "publicly_verified",
   "base_revision": "1a23f5dc7c3406f3179b389d1e5b96047322501b",
   "originals": [
     {
@@ -79,7 +79,10 @@
       },
       "original_provenance": "docs/editorial-work/captures/message-editor-basics/capture-provenance.json",
       "ui_evidence": "docs/editorial-work/captures/message-editor-basics/format-es-ui.json",
-      "pixel_edits": "none"
+      "pixel_edits": "none",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "New native guarded capture and approved asset publicly verified with matching SHA256; no pixel edit."
     },
     {
       "name": "format-es-mobile",
@@ -125,7 +128,10 @@
       },
       "original_provenance": "docs/editorial-work/captures/message-editor-basics/capture-provenance.json",
       "ui_evidence": "docs/editorial-work/captures/message-editor-basics/format-es-mobile-ui.json",
-      "pixel_edits": "none"
+      "pixel_edits": "none",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "New native guarded capture and approved asset publicly verified with matching SHA256; no pixel edit."
     },
     {
       "name": "link-es",
@@ -171,7 +177,10 @@
       },
       "original_provenance": "docs/editorial-work/captures/message-editor-basics/capture-provenance.json",
       "ui_evidence": "docs/editorial-work/captures/message-editor-basics/link-es-ui.json",
-      "pixel_edits": "none"
+      "pixel_edits": "none",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "New native guarded capture and approved asset publicly verified with matching SHA256; no pixel edit."
     },
     {
       "name": "link-es-mobile",
@@ -217,7 +226,10 @@
       },
       "original_provenance": "docs/editorial-work/captures/message-editor-basics/capture-provenance.json",
       "ui_evidence": "docs/editorial-work/captures/message-editor-basics/link-es-mobile-ui.json",
-      "pixel_edits": "none"
+      "pixel_edits": "none",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "New native guarded capture and approved asset publicly verified with matching SHA256; no pixel edit."
     },
     {
       "name": "format-en",
@@ -263,7 +275,10 @@
       },
       "original_provenance": "docs/editorial-work/captures/message-editor-basics/capture-provenance.json",
       "ui_evidence": "docs/editorial-work/captures/message-editor-basics/format-en-ui.json",
-      "pixel_edits": "none"
+      "pixel_edits": "none",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "New native guarded capture and approved asset publicly verified with matching SHA256; no pixel edit."
     },
     {
       "name": "format-en-mobile",
@@ -309,7 +324,10 @@
       },
       "original_provenance": "docs/editorial-work/captures/message-editor-basics/capture-provenance.json",
       "ui_evidence": "docs/editorial-work/captures/message-editor-basics/format-en-mobile-ui.json",
-      "pixel_edits": "none"
+      "pixel_edits": "none",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "New native guarded capture and approved asset publicly verified with matching SHA256; no pixel edit."
     },
     {
       "name": "link-en",
@@ -355,7 +373,10 @@
       },
       "original_provenance": "docs/editorial-work/captures/message-editor-basics/capture-provenance.json",
       "ui_evidence": "docs/editorial-work/captures/message-editor-basics/link-en-ui.json",
-      "pixel_edits": "none"
+      "pixel_edits": "none",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "New native guarded capture and approved asset publicly verified with matching SHA256; no pixel edit."
     },
     {
       "name": "link-en-mobile",
@@ -401,16 +422,29 @@
       },
       "original_provenance": "docs/editorial-work/captures/message-editor-basics/capture-provenance.json",
       "ui_evidence": "docs/editorial-work/captures/message-editor-basics/link-en-mobile-ui.json",
-      "pixel_edits": "none"
+      "pixel_edits": "none",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "New native guarded capture and approved asset publicly verified with matching SHA256; no pixel edit."
     }
   ],
   "new_pngs": 8,
   "reused_pngs": 0,
-  "pending": [
-    "Commit/PR protected checks and independent exact-head review, normal production deployment and public page/hash verification."
-  ],
+  "pending": [],
   "section_visual_plan": "See ../../message-editor-basics.md",
   "capture": "Native guarded isolated Chrome9460/PID57358/dedicatedprofile/P3D65/DPR2/zoom1/one local Rails3192 tab/design-system@example.test, guards before and after; no image pixel changes.",
   "viewport_decision": "Format desktop1400x1200/mobile390x1200; Link desktop1400x1200/mobile430x1200, actual same mobile layout with full Add/Cancel. At390 the real popover clips Cancel; no defective390 source accepted, no UI/CSS changed. Complete focused form has12px genuine application background, with outer popover edge excluded.",
-  "local_verification": "docs/editorial-work/captures/message-editor-basics/local-verification.json"
+  "local_verification": "docs/editorial-work/captures/message-editor-basics/local-verification.json",
+  "publication": {
+    "state": "publicly_verified",
+    "evidence": "public-verification.json",
+    "content_pr": "https://github.com/hellotext/help/pull/325",
+    "main_merge_sha": "558a931643f08be97c61bb5d743bcb550c84530a",
+    "deploy_id": "6abe35d6d0fa6d000898d08a",
+    "public_pages_http": 200,
+    "approved_hashes_match": true,
+    "new_captures": 8,
+    "new_png_uploads": 8,
+    "reused_pngs": 0
+  }
 }
