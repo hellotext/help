@@ -1,0 +1,312 @@
+{
+  "inspected_at_utc": "2026-10-01T11:41:35.761038+00:00",
+  "protected_rails_sha": "5403a7dcb567b63cae87d4c088112d65fad4eb7f",
+  "current_master_sha": "a6a32d95a0b6cdbd63342100012413446aa2a2f5",
+  "source_files": [
+    {
+      "path": "app/models/sms/channel_finder.rb",
+      "protected_sha256": "e922ec399e66d095d3f31eb0feac3c393991aa4db46ce0be44b9273b958a2906",
+      "current_sha256": "e922ec399e66d095d3f31eb0feac3c393991aa4db46ce0be44b9273b958a2906",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/sms/channel_finder.rb"
+    },
+    {
+      "path": "app/models/channel/shareable.rb",
+      "protected_sha256": "70eeb2d1850c2da54bc67116163a40291d6c70d4c5f294bcf3d9f01f77552c31",
+      "current_sha256": "70eeb2d1850c2da54bc67116163a40291d6c70d4c5f294bcf3d9f01f77552c31",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/channel/shareable.rb"
+    },
+    {
+      "path": "app/models/message/deliverer.rb",
+      "protected_sha256": "41c9fde98bc5b5afc2c1e17585f510c55e48b4bd41d0d558144e9c16e280cdf4",
+      "current_sha256": "41c9fde98bc5b5afc2c1e17585f510c55e48b4bd41d0d558144e9c16e280cdf4",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/message/deliverer.rb"
+    },
+    {
+      "path": "app/models/message/delivery_channel_resolver.rb",
+      "protected_sha256": "2834f8f7b3d6bb8d5b28654171ee7c2c8fae19458b1699ac28a3f34b183a15f1",
+      "current_sha256": "2834f8f7b3d6bb8d5b28654171ee7c2c8fae19458b1699ac28a3f34b183a15f1",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/message/delivery_channel_resolver.rb"
+    },
+    {
+      "path": "app/models/business/message_limits.rb",
+      "protected_sha256": "d7b089ffae808e5db9fb0afc10423419dfbcb5d1e510d5305ddfc6bb6ba73b7b",
+      "current_sha256": "d7b089ffae808e5db9fb0afc10423419dfbcb5d1e510d5305ddfc6bb6ba73b7b",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/business/message_limits.rb"
+    },
+    {
+      "path": "app/models/business/balance.rb",
+      "protected_sha256": "3b16e501d95069782316ff209621381179f65e8461b309e4af926f42a80e6d86",
+      "current_sha256": "3b16e501d95069782316ff209621381179f65e8461b309e4af926f42a80e6d86",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/business/balance.rb"
+    },
+    {
+      "path": "app/javascript/controllers/compose/toolbar_controller.js",
+      "protected_sha256": "30c70bf27d04b931e02ed6e05a20128b8222fa7a2fc1a415f94cf4bd2a67b6d8",
+      "current_sha256": "30c70bf27d04b931e02ed6e05a20128b8222fa7a2fc1a415f94cf4bd2a67b6d8",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/javascript/controllers/compose/toolbar_controller.js"
+    },
+    {
+      "path": "app/models/smpp/encoder.rb",
+      "protected_sha256": "2026b55838d24708bcca493e022d7e0814a8cfda683fc2d8fbe7b0f5d226c1f0",
+      "current_sha256": "2026b55838d24708bcca493e022d7e0814a8cfda683fc2d8fbe7b0f5d226c1f0",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/smpp/encoder.rb"
+    },
+    {
+      "path": "app/models/quota/transaction.rb",
+      "protected_sha256": "ca62ee2313ba43ab0eae9569a9ee15d16a247963ec32ef8044b02b4158be7087",
+      "current_sha256": "ca62ee2313ba43ab0eae9569a9ee15d16a247963ec32ef8044b02b4158be7087",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/quota/transaction.rb"
+    },
+    {
+      "path": "app/models/quota/biller.rb",
+      "protected_sha256": "ea6547f64b7be0d0644f64dcc081e84a614cb8978c6f3bf464ed0f46d499f64b",
+      "current_sha256": "ea6547f64b7be0d0644f64dcc081e84a614cb8978c6f3bf464ed0f46d499f64b",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/quota/biller.rb"
+    },
+    {
+      "path": "app/integrations/twilio/sms/webhook.rb",
+      "protected_sha256": "141215f560e195b0ae666e0a39ccefdc8773f4458cee140e70606d61230751cd",
+      "current_sha256": "141215f560e195b0ae666e0a39ccefdc8773f4458cee140e70606d61230751cd",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/twilio/sms/webhook.rb"
+    },
+    {
+      "path": "app/integrations/infobip/sms/webhook.rb",
+      "protected_sha256": "bacffd98c64d185c540c5d352aacbdfe6231e3863c9f2aa190fb988f088d3462",
+      "current_sha256": "bacffd98c64d185c540c5d352aacbdfe6231e3863c9f2aa190fb988f088d3462",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/infobip/sms/webhook.rb"
+    },
+    {
+      "path": "app/models/cg/composer/delivery/selector.rb",
+      "protected_sha256": "f16ec5b6ff30a65ec2d2560168fbfe3d3e0448830178861ffa66abf93ba8a1d8",
+      "current_sha256": "f16ec5b6ff30a65ec2d2560168fbfe3d3e0448830178861ffa66abf93ba8a1d8",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/cg/composer/delivery/selector.rb"
+    },
+    {
+      "path": "app/models/cg/composer.rb",
+      "protected_sha256": "8d9e896ed9f86ec52f6b117e9216cde8659e71fb85c652febef43cc7cf60f6be",
+      "current_sha256": "8d9e896ed9f86ec52f6b117e9216cde8659e71fb85c652febef43cc7cf60f6be",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/cg/composer.rb"
+    },
+    {
+      "path": "app/components/compose/channel_select_component.rb",
+      "protected_sha256": "74fb612861601e36d31915e35ffef9027df3a5f2e5881e3655593b2e27e0429e",
+      "current_sha256": "74fb612861601e36d31915e35ffef9027df3a5f2e5881e3655593b2e27e0429e",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/components/compose/channel_select_component.rb"
+    },
+    {
+      "path": "app/models/message/stateful.rb",
+      "protected_sha256": "ea45d7f56db7508423563724c00bf1c06e7af52de29a27f1e68268fd12a0da34",
+      "current_sha256": "ea45d7f56db7508423563724c00bf1c06e7af52de29a27f1e68268fd12a0da34",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/message/stateful.rb"
+    },
+    {
+      "path": "app/models/concerns/campaign/targets_contactables.rb",
+      "protected_sha256": "32138a6432687aa6de2b2008451b850e9d2cd0e5f8934b986ac67387d4e6d332",
+      "current_sha256": "32138a6432687aa6de2b2008451b850e9d2cd0e5f8934b986ac67387d4e6d332",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/concerns/campaign/targets_contactables.rb"
+    },
+    {
+      "path": "app/models/contact/reachability_query.rb",
+      "protected_sha256": "01ed1128699969441e7dfed957a1b1542070fe986a71f6c1fc083943c70c486a",
+      "current_sha256": "01ed1128699969441e7dfed957a1b1542070fe986a71f6c1fc083943c70c486a",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/contact/reachability_query.rb"
+    },
+    {
+      "path": "app/models/message/effigy.rb",
+      "protected_sha256": "78664f82ad443fa3874443285cc93b07ecd1f8f14e6d7a4e88a9c93c507ba4f7",
+      "current_sha256": "78664f82ad443fa3874443285cc93b07ecd1f8f14e6d7a4e88a9c93c507ba4f7",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/message/effigy.rb"
+    },
+    {
+      "path": "app/models/technology/selection.rb",
+      "protected_sha256": "80b31c20d083291b8de21e021c7fd8b8843260dc8a2d0030cb9e3064210184c5",
+      "current_sha256": "80b31c20d083291b8de21e021c7fd8b8843260dc8a2d0030cb9e3064210184c5",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/technology/selection.rb"
+    },
+    {
+      "path": "app/models/contactable.rb",
+      "protected_sha256": "4ddc08c2581ce693c683634b994cb201b459fca4dc92d33ebb82da2ceccb644f",
+      "current_sha256": "4ddc08c2581ce693c683634b994cb201b459fca4dc92d33ebb82da2ceccb644f",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/contactable.rb"
+    },
+    {
+      "path": "app/models/phone_number.rb",
+      "protected_sha256": "7e7cbf8a9f9d6b88980657929d15dcd198f1429c72768044664177251e8776b3",
+      "current_sha256": "7e7cbf8a9f9d6b88980657929d15dcd198f1429c72768044664177251e8776b3",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/phone_number.rb"
+    },
+    {
+      "path": "app/controllers/api/v1/messages_controller.rb",
+      "protected_sha256": "4e1ebedb02135b4ed2649a5fac574ae00cffbcf66fb6abd2ea1fe07ee18e9ab7",
+      "current_sha256": "4e1ebedb02135b4ed2649a5fac574ae00cffbcf66fb6abd2ea1fe07ee18e9ab7",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/controllers/api/v1/messages_controller.rb"
+    },
+    {
+      "path": "app/models/api/message_creator.rb",
+      "protected_sha256": "ebbc8aad0b5aa02d3953e44d9ac7fa73ef63c6c8f43b0c67415bc25088eba2ea",
+      "current_sha256": "ebbc8aad0b5aa02d3953e44d9ac7fa73ef63c6c8f43b0c67415bc25088eba2ea",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/api/message_creator.rb"
+    },
+    {
+      "path": "app/jobs/api/create_message_job.rb",
+      "protected_sha256": "6bbea37c95d25dc02a5bd71769ebc584c4aee723670b2a05a192761690b9e473",
+      "current_sha256": "6bbea37c95d25dc02a5bd71769ebc584c4aee723670b2a05a192761690b9e473",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/jobs/api/create_message_job.rb"
+    },
+    {
+      "path": "app/serializers/message_serializer.rb",
+      "protected_sha256": "33ac4605fa5704b61b145351321a059731d5ba1764c17b16258f6a4cf4a8214f",
+      "current_sha256": "33ac4605fa5704b61b145351321a059731d5ba1764c17b16258f6a4cf4a8214f",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/serializers/message_serializer.rb"
+    },
+    {
+      "path": "app/integrations/twilio/gateway.rb",
+      "protected_sha256": "2a895900200e90b101bdd8f86f9f614c92515093aa841915f6e6491bf982aa9c",
+      "current_sha256": "2a895900200e90b101bdd8f86f9f614c92515093aa841915f6e6491bf982aa9c",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/twilio/gateway.rb"
+    },
+    {
+      "path": "app/integrations/twilio/gateway/phone_number.rb",
+      "protected_sha256": "45248e8e50c8887be082e5015fd2bfc300dd5418f684ca9f0e555e685a7cc619",
+      "current_sha256": "45248e8e50c8887be082e5015fd2bfc300dd5418f684ca9f0e555e685a7cc619",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/twilio/gateway/phone_number.rb"
+    },
+    {
+      "path": "app/integrations/twilio/gateway/alphanumeric.rb",
+      "protected_sha256": "864950683d34e1a2944e594d05541b4f7ebf2053c1f886a9c3a3b7a7dc49527a",
+      "current_sha256": "864950683d34e1a2944e594d05541b4f7ebf2053c1f886a9c3a3b7a7dc49527a",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/twilio/gateway/alphanumeric.rb"
+    },
+    {
+      "path": "app/integrations/infobip/sms/client.rb",
+      "protected_sha256": "e3bcae4f60cf138ac66f6d31dc862fd00b7f1d028b4bc991edf218397edf7f7e",
+      "current_sha256": "e3bcae4f60cf138ac66f6d31dc862fd00b7f1d028b4bc991edf218397edf7f7e",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/integrations/infobip/sms/client.rb"
+    },
+    {
+      "path": "app/models/message/scanner.rb",
+      "protected_sha256": "685f349a4319a5ebddc11334b5ae5610fb3fc08c8b1e02d0204c6a5619c6e443",
+      "current_sha256": "685f349a4319a5ebddc11334b5ae5610fb3fc08c8b1e02d0204c6a5619c6e443",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/message/scanner.rb"
+    },
+    {
+      "path": "app/models/keyword/unsubscription.rb",
+      "protected_sha256": "508048cdc9519e5f45045bbe6d23dd093bc2ac56421a92fbe7d5d68fbff4817a",
+      "current_sha256": "508048cdc9519e5f45045bbe6d23dd093bc2ac56421a92fbe7d5d68fbff4817a",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/keyword/unsubscription.rb"
+    },
+    {
+      "path": "app/models/steps/message/targets_technologies.rb",
+      "protected_sha256": "bd2d3dbe3b2dbead1f7ea94b055e5b86cff084b36efc27ed97f438e2d534eccf",
+      "current_sha256": "bd2d3dbe3b2dbead1f7ea94b055e5b86cff084b36efc27ed97f438e2d534eccf",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/steps/message/targets_technologies.rb"
+    },
+    {
+      "path": "app/models/concerns/trixable.rb",
+      "protected_sha256": "a87c5a924120a921429b863a3e6468c1302b91bdc8ce0a7f697641ad9cab8af1",
+      "current_sha256": "a87c5a924120a921429b863a3e6468c1302b91bdc8ce0a7f697641ad9cab8af1",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/concerns/trixable.rb"
+    },
+    {
+      "path": "app/controllers/imports_controller.rb",
+      "protected_sha256": "002c3661bae434173e91af68b9b572f14268cca7f273d1b3f13e6e102bd40247",
+      "current_sha256": "002c3661bae434173e91af68b9b572f14268cca7f273d1b3f13e6e102bd40247",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/controllers/imports_controller.rb"
+    },
+    {
+      "path": "app/builders/import/builder.rb",
+      "protected_sha256": "f99febbb2e9ea67fffafd4d8e754cad8ac27406f1208f5fedd80ae5bdaf83694",
+      "current_sha256": "f99febbb2e9ea67fffafd4d8e754cad8ac27406f1208f5fedd80ae5bdaf83694",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/builders/import/builder.rb"
+    },
+    {
+      "path": "app/models/import/scaffold.rb",
+      "protected_sha256": "9710f26b461c6ae84981a5f18877195c56b714a81c506cefdfc12e8c5363905c",
+      "current_sha256": "9710f26b461c6ae84981a5f18877195c56b714a81c506cefdfc12e8c5363905c",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/import/scaffold.rb"
+    },
+    {
+      "path": "app/models/import/deduplicate.rb",
+      "protected_sha256": "2834f9e88967597cf845d8547cec6cd6e4be5bc3b51c897a94c29e43b5fd0d02",
+      "current_sha256": "2834f9e88967597cf845d8547cec6cd6e4be5bc3b51c897a94c29e43b5fd0d02",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/models/import/deduplicate.rb"
+    },
+    {
+      "path": "app/views/imports/consent.html.erb",
+      "protected_sha256": "6136706fdcb1398c2844adf1a52652e4ce60f2e94dd7c50fc1b6cc450d311206",
+      "current_sha256": "6136706fdcb1398c2844adf1a52652e4ce60f2e94dd7c50fc1b6cc450d311206",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/views/imports/consent.html.erb"
+    },
+    {
+      "path": "app/views/messages/_delivered_info.html.erb",
+      "protected_sha256": "74d5f8ed3bdabd68581b58a31e59d3edf143b15708e42ad11dcfe10630271369",
+      "current_sha256": "74d5f8ed3bdabd68581b58a31e59d3edf143b15708e42ad11dcfe10630271369",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/a6a32d95a0b6cdbd63342100012413446aa2a2f5/app/views/messages/_delivered_info.html.erb"
+    }
+  ],
+  "contracts": [
+    "Sender/destination/account configuration and local/shared/external routing are conditional; no universal sender or cheapest-channel guarantee",
+    "Campaign technology selection and phone reachability do not establish positive SMS consent; WhatsApp error is not generic SMS retry trigger",
+    "Proactive selector uses runtime priority or strict allocated route; eligibility and opportunity can omit dispatch",
+    "Route targets and compatible reply sender differ by flow; shared shortcode business selection uses same channel/number and state_updated_at of outbound candidates",
+    "SMS actual gateway bodies are plain_text; editor Message/Email and formatting differ",
+    "Editor counter estimates GSM/Unicode and unresolved tags; server encoder has different Latin1/Unicode segmentation; Quota transaction uses final encoded parts",
+    "Opt-out scanner recognizes BAJA/STOP and unsubscribes profile; reply sender must support and route the inbound, no automatic universal provider promise",
+    "API HTTP200 received queues work without ID or guarantee of Message creation; serializer pending/dispatched/routed/delivered/error distinct from inbound received",
+    "Daily sandbox cap and monthly message ceiling, billing/payment and campaign pause remain distinct gates",
+    "Import consent choice is declared permission; new shells and deduplicated existing profile subscription remain distinct"
+  ],
+  "primary_external_sources": [
+    {
+      "url": "https://www.hellotext.com/pricing",
+      "checked": "2026-10-01",
+      "scope": "Current market-dependent rates and contract pricing; no rates copied as universal costs"
+    },
+    {
+      "url": "https://www.twilio.com/docs/glossary/what-sms-character-limit",
+      "checked": "2026-10-01",
+      "scope": "Encoding/concatenation affect capacity; carrier-specific exceptions; not used as exact Hellotext encoder or billing formula"
+    }
+  ],
+  "operations": "Read-only primary source and approved asset inspection; no application/DB/UI/locale/fixture/provider/API/example/token/template/link/message/event/test/send or worker action."
+}

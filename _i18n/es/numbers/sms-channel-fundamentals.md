@@ -1,122 +1,143 @@
-Usa SMS cuando necesitas un mensaje de texto conciso y alcance amplio sin depender de una aplicación de mensajería. Hellotext puede usar SMS en campañas, misiones autónomas, rutas, conversaciones de Inbox, capturas y mensajes por API.
+Usa SMS para un mensaje de texto conciso dirigido a un número de teléfono compatible. Hellotext puede usarlo en campañas, misiones autónomas, rutas, conversaciones de Inbox, capturas compatibles y mensajes por API. La disponibilidad depende del negocio, el destino y el flujo; tener un teléfono guardado no demuestra permiso para escribirle.
 
-SMS soporta texto y enlaces. No ofrece las experiencias más ricas de productos, botones, adjuntos y ubicaciones disponibles en WhatsApp. SMS no usa el proceso de aprobación de plantillas de WhatsApp de Meta, aunque siguen aplicando las reglas del operador, la cuenta, el consentimiento y el contenido.
+SMS admite texto y URLs. Los botones, adjuntos, productos y ubicaciones de otros canales no se trasladan automáticamente; el formato en negrita o cursiva del editor se convierte en texto plano. SMS no usa la aprobación de plantillas de WhatsApp de Meta, pero conserva los requisitos del remitente, operador, cuenta, contenido y consentimiento.
 
-Muchos negocios usan ambos canales y dejan que el tipo de mensaje y la disponibilidad de cada cliente determinen cuál encaja mejor.
-
-Las tarifas de mensajería varían según el país de destino, por lo que en algunos mercados SMS puede ser la opción más conveniente por precio. Revisa las tarifas vigentes para el país antes de elegir un canal predeterminado. Consulta [Precios de SMS y tipos de número]({% link _billing/sms-pricing-and-number-types.md %}).
+Las tarifas y tipos de remitente varían por destino y acuerdo de la cuenta. Consulta [Precios de SMS y tipos de número]({% link _billing/sms-pricing-and-number-types.md %}) y los [precios vigentes](https://www.hellotext.com/pricing) para tu mercado. La cantidad de partes afecta el uso de SMS; no equivale por sí sola al total de la factura.
 
 ## Antes de usar SMS
 
 Confirma que:
 
-- Haya un remitente SMS aprobado y activo para tu cuenta y país de destino.
-- Los perfiles del cliente tengan números de teléfono completos en formato internacional.
-- Tu audiencia tenga consentimiento válido para SMS.
-- Tu cuenta no tenga una restricción de facturación, saldo o envío temporal que bloquee SMS.
-- Las respuestas puedan llegar a las personas o misiones que deberían atenderlas.
+- Haya un remitente habilitado y una ruta SMS compatible con el país de destino.
+- El número completo incluya el código de país y corresponda al destinatario autorizado.
+- Exista permiso para ese canal, destino y tipo de mensaje; conserva cómo y cuándo se obtuvo.
+- El negocio tenga acceso al flujo y no esté detenido por saldo, facturación, límites o una campaña pausada.
+- El remitente admita las respuestas y bajas que prometes y que puedan atenderse en el negocio correcto.
 
-El remitente disponible para tu negocio depende de su país y configuración de cuenta. Hellotext puede usar remitentes aprobados o códigos cortos compartidos donde estén disponibles.
+Hellotext puede seleccionar números propios activos, códigos cortos compartidos o proveedores externos, según disponibilidad y configuración. El país del negocio por sí solo no garantiza un remitente, cobertura ni recepción de respuestas. Un remitente alfanumérico puede tener restricciones diferentes a las de un número bidireccional.
 
-Si tu cuenta no tiene un remitente SMS disponible, contacta a Hellotext antes de preparar un lanzamiento alrededor de SMS.
+Si falta una ruta compatible o necesitas una identidad dedicada, consulta con Hellotext antes de planificar el lanzamiento. Tener WhatsApp conectado no habilita automáticamente todos los destinos por SMS.
 
 ## Cómo usa Hellotext SMS
 
 ### Campañas
 
-Al crear una campaña, puedes elegir:
+Al crear una campaña compatible, puedes elegir:
 
-- **WhatsApp y SMS:** Hellotext intenta enviar primero por WhatsApp y usa SMS cuando WhatsApp no está disponible para un cliente elegible.
-- **Solo WhatsApp:** la campaña se mantiene en WhatsApp.
-- **Solo SMS:** la campaña se mantiene en SMS.
+- **WhatsApp y SMS:** permite los dos canales para destinos elegibles. La disponibilidad de WhatsApp, los destinos del perfil y el contenido determinan la ruta; no es una instrucción de reenviar por SMS cada error de WhatsApp.
+- **Solo WhatsApp:** limita la selección a WhatsApp.
+- **Solo SMS:** limita la selección a SMS.
 
-Las opciones disponibles dependen de los canales conectados al negocio. Usar SMS como alternativa no evita las reglas de suscripción, disponibilidad o consentimiento del canal.
+Las opciones dependen de los canales y funciones del negocio. Un respaldo por SMS debe estar permitido por el flujo y el contenido y contar con permiso para SMS. La lista de destinatarios alcanzables y un perfil **Sin confirmar** no prueban ese permiso. Revisa audiencia, exclusiones y canal final antes de lanzar.
 
 Sigue leyendo: [Mejores prácticas para campañas]({% link _campaigns/campaign-best-practices.md %}).
 
 ### Misiones autónomas
 
-Cuando una misión autónoma proactiva controla la selección de canal, Hellotext puede evaluar los canales elegibles disponibles para ese cliente y elegir la opción más eficiente en costos. La misión solo envía cuando su motor de decisión identifica una oportunidad válida según sus reglas.
+Una misión proactiva evalúa la oportunidad, elegibilidad, contenido y rutas disponibles. La selección puede seguir prioridades de canal o una ruta concreta ya asignada; **no garantiza elegir el canal más barato**. Puede omitir el envío si la oportunidad dejó de ser válida o no hay un destino compatible.
 
-No asumas que habilitar SMS hace que todas las misiones envíen un SMS. El cliente debe seguir siendo elegible, la oportunidad debe continuar vigente y la misión puede seleccionar otro canal disponible.
-
-Una misión reactiva de soporte normalmente responde en el canal donde el cliente inició la conversación, sujeta a la disponibilidad y reglas de conversación de ese canal.
+Habilitar SMS no hace que todas las misiones envíen un SMS. Revisa la configuración y alcance de esa misión, el permiso del destinatario y la versión de contenido activa. Una misión reactiva atiende la conversación según su canal y reglas; no presupongas un cambio automático a SMS si ese canal falla.
 
 ### Rutas
 
-Una ruta sigue los canales y la lógica configurados en sus pasos. Un paso de envío puede dirigirse a SMS, a otro canal o usar el comportamiento de canal elegible disponible para esa ruta.
+Los pasos siguen los canales y condiciones configurados. Elegir todos los canales disponibles no garantiza entregar por cada uno ni saltar una baja. Revisa el destino y contenido de cada rama, incluyendo teléfono ausente, perfil desuscrito y ruta no disponible.
 
-Prueba cada rama que pueda enviar o recibir SMS. Confirma qué ocurre cuando falta el número de teléfono, el cliente está desuscrito o el canal elegido no puede entregar.
+Valida las ramas con datos ficticios aislados y destinos autorizados antes de activar la ruta. Las restricciones de horario, frecuencia y acceso del flujo se revisan por separado; no asumas que un único ajuste cubre todas las rutas y misiones.
 
 ### Inbox y respuestas
 
-Cuando el remitente activo admite respuestas, una respuesta por SMS puede abrir o continuar una conversación en el Inbox. El equipo puede responder, asignar la conversación o dejar que una misión elegible la atienda según la configuración del negocio.
+Una respuesta puede abrir o continuar una conversación cuando el remitente y proveedor admiten recepción y la respuesta se enruta al negocio. El equipo o una misión compatible puede atenderla según su configuración y capacidad; una respuesta no asigna por sí sola a una persona concreta.
 
-Los códigos cortos compartidos pueden ser usados por más de un negocio. El mensaje saliente más reciente ayuda a determinar qué negocio recibe una respuesta, por lo que los negocios que necesitan un remitente dedicado deberían revisar [Códigos cortos exclusivos]({% link _numbers/exclusive-short-codes.md %}).
+Los códigos cortos compartidos pueden servir a varios negocios. Para una respuesta del mismo número y canal, Hellotext usa mensajes salientes previos y su actualización de estado para determinar el negocio. Esta asociación no constituye una identidad exclusiva ni garantiza que toda respuesta llegue al negocio que esperabas. Si necesitas continuidad dedicada, revisa [Códigos cortos exclusivos]({% link _numbers/exclusive-short-codes.md %}) con soporte y valida la recepción real.
 
 ### Mensajes por API
 
-Los envíos por API siguen el canal, remitente, destino y contenido enviados por la integración. Que una solicitud sea aceptada significa que Hellotext la recibió; todavía no confirma que el operador haya entregado el mensaje.
+La integración debe elegir tecnología, destino y contenido compatibles; si omite el origen, Hellotext puede resolver un remitente disponible. Un origen explícito no garantiza cobertura ni entrega. Protege el token privado y separa las pruebas de las audiencias reales.
+
+Una respuesta HTTP 200 **received** acusa la recepción de la solicitud y encola procesamiento; no devuelve el ID de un mensaje creado ni garantiza su creación o entrega. No es el estado de un SMS entrante. Reconcilia el resultado antes de repetir una solicitud cuyo resultado sea incierto.
 
 Sigue leyendo: [Envía mensajes con la API]({% link _developers/send-messages-with-api.md %}).
 
 ## Entiende la longitud y las partes de un SMS
 
-Un mensaje en el editor puede usar más de una parte de SMS facturable.
+Un texto puede dividirse en varias partes facturables aunque el teléfono lo muestre como un solo mensaje. Influyen los caracteres, la codificación, los valores de personalización y la URL y baja finales. Algunos símbolos usan más de una unidad; los emojis y ciertos caracteres pueden cambiar la codificación. Los mensajes concatenados reservan espacio para unir las partes.
 
-La cantidad de partes depende de:
+En la figura, **Seguimiento de devolución** es un borrador ficticio sin guardar, en la versión **Mensaje**, con `{name}` sin resolver, una URL de ejemplo y **BAJA para salir**. No se creó una plantilla ni se envió contenido. El campo permite revisar texto, etiqueta y URL; esta captura no muestra un contador de partes ni una aprobación de WhatsApp.
 
-- la longitud del mensaje;
-- los caracteres y la codificación usados;
-- la personalización después de reemplazar las etiquetas con datos del cliente; y
-- el enlace completo incluido en el mensaje final.
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Editor Mensaje con texto de devolución ficticio, etiqueta name sin resolver y URL de ejemplo; borrador sin guardar.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="width: fit-content; max-width: 642px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/developers/send-messages-with-api/editor-es-mobile.png 2x" width="668" height="760" />
+        <img src="/images/developers/send-messages-with-api/editor-es.png" srcset="/images/developers/send-messages-with-api/editor-es.png 2x" style="width: auto; margin: 0 auto;" width="1248" height="708" loading="lazy" decoding="async" alt="Editor Mensaje con texto de devolución ficticio, etiqueta name sin resolver y URL de ejemplo; borrador sin guardar." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real con datos ficticios; fuente aprobada reutilizada sin modificar sus píxeles. No se inició una importación ni se envió un mensaje.</figcaption>
+</figure>
 
-Algunos acentos, símbolos o emojis pueden cambiar la codificación y reducir la cantidad de caracteres que caben en una parte. Un valor personalizado largo también puede hacer que el mensaje final de un cliente sea más extenso que el ejemplo de la vista previa.
+Cuando el editor del flujo muestre una estimación SMS, úsala como orientación. Las etiquetas sin resolver pueden marcarla como aproximada; el tamaño del nombre real, URL resuelta y baja puede cambiar el resultado. La estimación del navegador y la segmentación del proveedor no son una fórmula universal equivalente: el envío se contabiliza a partir del texto y partes codificados al procesarlo. Conserva el propósito y una acción clara; comprueba valores reales representativos mediante una validación autorizada y aislada.
 
-Revisa la estimación de partes de SMS que muestra el editor antes de enviar. Mantén el propósito y el llamado a la acción concisos, y prueba con valores de personalización realistas. Cada parte puede afectar el uso y costo de SMS.
-
-Sigue leyendo: [Precios de SMS y tipos de número]({% link _billing/sms-pricing-and-number-types.md %}) y [Links con tracking]({% link _analytics-reporting-attribution/tracked-links.md %}).
+Sigue leyendo: [Precios de SMS y tipos de número]({% link _billing/sms-pricing-and-number-types.md %}), [Links con tracking]({% link _analytics-reporting-attribution/tracked-links.md %}) y la [referencia de codificación y partes de SMS](https://www.twilio.com/docs/glossary/what-sms-character-limit). Los límites de ese proveedor no sustituyen las condiciones de tu ruta Hellotext.
 
 ## Consentimiento y bajas
 
-Que un número de teléfono sea válido no demuestra que el cliente aceptó recibir SMS de marketing. Hellotext considera tanto el estado de suscripción del perfil del cliente como si el destino está disponible a través del canal seleccionado.
+Un número válido, un perfil **Suscrito**, una compra o una conversación reciente no demuestran permiso para todo canal y contenido. Los controles de disponibilidad y exclusión de Hellotext pueden filtrar destinos, pero no obtienen ni verifican por sí solos tu evidencia de permiso para SMS.
+
+La figura muestra la pregunta de consentimiento del importador, con **No, no actualizar estos clientes como suscritos** seleccionado. Es un estado ficticio anterior al inicio de la importación; el archivo aún figuraba **No seleccionado**. Declarar consentimiento en una importación no crea la evidencia original ni garantiza cambiar el estado de un perfil existente que se deduplica. Comprueba los perfiles resultantes y su permiso por canal antes de usarlos.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Pregunta de consentimiento del importador con No seleccionado; no se inició la importación.">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="width: fit-content; max-width: 1050.5px; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/audience/import-customer-profiles/import-consent-mobile-es-20260928-crop.png 2x" width="780" height="1200" />
+        <img src="/images/audience/import-customer-profiles/import-consent-es-20260928-crop.png" srcset="/images/audience/import-customer-profiles/import-consent-es-20260928-crop.png 2x" style="width: auto; margin: 0 auto;" width="2065" height="705" loading="lazy" decoding="async" alt="Pregunta de consentimiento del importador con No seleccionado; no se inició la importación." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real con datos ficticios; fuente aprobada reutilizada sin modificar sus píxeles. No se inició una importación ni se envió un mensaje.</figcaption>
+</figure>
 
 Antes de enviar:
 
-- Explica a qué se suscriben los clientes y qué canal usarás.
-- Conserva evidencia del origen de la suscripción.
-- Excluye perfiles desuscritos, inválidos, bloqueados, internos y de prueba según corresponda.
-- Deja claro qué negocio envía el mensaje y cuál es su propósito.
-- Respeta las bajas y no reintentes por SMS para evitar las reglas de consentimiento de otro canal.
+- Explica el negocio, propósito, canal y forma de baja; conserva la evidencia del permiso.
+- Excluye perfiles y destinos desuscritos, inválidos, internos y de prueba según corresponda.
+- Comprueba que la baja anunciada sea utilizable con ese remitente y que su respuesta llegue a Hellotext.
+- Atiende las solicitudes de baja y respeta el estado del perfil; no cambies de canal ni reimportes para eludirlo.
 
-Consulta [A quién puedo escribirle: consentimiento y estado de suscripción]({% link _audience/consent-and-subscriber-status.md %}) para entender la diferencia completa entre suscripción, identidad y disponibilidad.
+Hellotext reconoce respuestas de baja como **BAJA** o **STOP** cuando el mensaje entrante llega y se procesa; puede marcar el perfil como desuscrito. Es distinto de escribir esa palabra en el borrador: el texto no configura la recepción del remitente ni demuestra que una baja se haya procesado. Coordina también las solicitudes recibidas por soporte u otros medios.
+
+Consulta [A quién puedo escribirle: consentimiento y estado de suscripción]({% link _audience/consent-and-subscriber-status.md %}) para distinguir permiso, estado del perfil y disponibilidad del destino.
 
 ## Estados de entrega y mensajes fallidos
 
-Un SMS puede pasar por estos estados:
+Comprueba el estado y motivo del mensaje; la aceptación de una solicitud no es entrega. En los datos de mensajes puedes encontrar:
 
-- **Pendiente:** espera ser procesado.
-- **Enrutado:** fue enviado al proveedor externo.
-- **Entregado:** el proveedor confirmó la entrega.
-- **No enviado:** Hellotext o el proveedor no pudo completar la entrega y muestra un motivo.
+- **Pendiente (`pending`):** mensaje todavía sin confirmar para despacho.
+- **Despachado (`dispatched`):** empezó el intento de despacho; no confirma recepción del operador ni del teléfono.
+- **Enrutado (`routed`):** el proveedor aceptó el envío; puede seguir procesándolo.
+- **Entregado (`delivered`):** llegó una confirmación de entrega del proveedor. No demuestra lectura, clic ni compra atribuida.
+- **Error (`error`):** se registró un fallo con su motivo; la API usa `error`, aunque un timestamp se llame `failed_at`.
 
-No reintentes mientras un mensaje todavía se está procesando. Si no fue enviado, abre primero el motivo. Algunas causas comunes son un número inválido, rechazo del operador, remitente no disponible, límite de cuenta, condición de facturación o problema temporal del proveedor.
+Un mensaje entrante puede tener estado `received`; es distinto del acuse **received** al crear por API. Los flujos pueden omitir un destinatario o detenerse antes de crear un mensaje, así que un conteo de errores tampoco explica todas las omisiones.
 
-Los negocios nuevos con prepago también pueden comenzar con un límite temporal de SMS mientras Hellotext revisa la calidad de sus envíos.
+No repitas un envío mientras el resultado sea incierto. Revisa motivo, destino, remitente, canal final y horas de solicitud/despacho; consulta con soporte si no puedes reconciliarlo. Entre los bloqueos pueden estar un número inválido, rechazo del operador, ruta no disponible, saldo o facturación, límite y pausa del flujo.
+
+Un negocio nuevo con prepago puede tener un límite diario temporal de SMS durante la revisión de calidad. Ese límite es distinto del máximo mensual configurado y de las restricciones de cada campaña, ruta o misión; no asumas un límite único ni que esperar unos minutos lo restablezca.
 
 Sigue leyendo: [Por qué no se envió un mensaje]({% link _troubleshooting-deliverability/why-a-message-did-not-send.md %}) y [Límites de envío SMS para nuevos negocios]({% link _troubleshooting-deliverability/sms-sending-limits-for-new-businesses.md %}).
 
 ## Checklist para tu primer lanzamiento por SMS
 
-Antes de tu primer lanzamiento por SMS, confirma que:
+Antes de lanzar, confirma que:
 
-1. Haya un remitente SMS activo para el país de destino.
-2. La audiencia tenga consentimiento válido para SMS y números de teléfono disponibles.
-3. El mensaje final identifique al negocio y tenga un propósito claro.
-4. La estimación de partes de SMS sea aceptable después de personalizar.
-5. Las respuestas lleguen al Inbox, al equipo o a la misión que corresponda.
-6. Hayas probado la entrega, respuestas, enlaces, personalización y manejo de bajas.
-7. Sepas dónde revisar los motivos de entrega y los reportes después del lanzamiento.
+1. El remitente y la ruta SMS sean compatibles con el país de destino, incluidas respuestas si las prometes.
+2. Cada destino tenga permiso válido para SMS y el tipo de contenido; revisa exclusiones y perfiles existentes.
+3. El texto final identifique al negocio y tenga un propósito claro, URL correcta y baja utilizable.
+4. La estimación de partes sea aceptable con valores de personalización representativos y las tarifas del acuerdo actual.
+5. Las respuestas y bajas lleguen al negocio y al equipo o misión que puedan atenderlas.
+6. Hayas validado entrega, respuestas, URLs, personalización y baja con datos ficticios aislados y destinos autorizados, sin usar audiencias reales para probar.
+7. Sepas revisar estados, motivos y reportes; reconciliar resultados inciertos y pausar el flujo antes de nuevos intentos.
 
 ## Guías relacionadas
 
