@@ -1,0 +1,209 @@
+{
+  "verified_at_utc": "2026-10-01T03:17:38.495721+00:00",
+  "verified_git_main_sha": "9a0a16402d552fb844571ab1fcbd559ced2df7c7",
+  "production_deploy_id_sha_association": {
+    "id": "6abdd06782b8d100083c9874",
+    "site_id": "d66a79c1-b5de-44d1-bc47-bc7809f7f3b3",
+    "state": "ready",
+    "context": "production",
+    "branch": "main",
+    "commit_ref": "9a0a16402d552fb844571ab1fcbd559ced2df7c7",
+    "created_at": "2026-10-01T03:15:51.693Z",
+    "published_at": "2026-10-01T03:16:49.108Z",
+    "deploy_ssl_url": "https://main--legendary-lollipop-e2d131.netlify.app"
+  },
+  "deployment_method": "Normal Netlify production after Git merge; no manual deploy. Accessible public site-alias listing provided exact commit_ref.",
+  "pages": [
+    {
+      "url": "https://help.hellotext.com/es/comenzando-con-tu-negocio",
+      "status": 200,
+      "article_key": "getting-started/setting-up-your-business.md",
+      "locale": "es",
+      "figures": 4,
+      "sections": 7,
+      "approved_assets_present": [
+        "/images/developers/custom-store-integration/business-es.png",
+        "/images/developers/custom-store-integration/business-es-mobile.png",
+        "/images/billing/billing-settings-and-invoices/country-es.png",
+        "/images/billing/billing-settings-and-invoices/country-es-mobile.png",
+        "/images/billing/understanding-plan-quotas/plan-es.png",
+        "/images/billing/understanding-plan-quotas/plan-es-mobile.png",
+        "/images/getting-started/setting-up-your-business/invite-es.png",
+        "/images/getting-started/setting-up-your-business/invite-es-mobile.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "8fff19e8287156609a555e8989bb4c23eb4898467dfcc427c565918d859e17e4",
+      "html_sha256": "abc720d0cf2ef98dbfb496bec31e9baa039c7bb6f46101c20f46363bb7aa0d00"
+    },
+    {
+      "url": "https://help.hellotext.com/setting-up-your-business",
+      "status": 200,
+      "article_key": "getting-started/setting-up-your-business.md",
+      "locale": "en",
+      "figures": 4,
+      "sections": 7,
+      "approved_assets_present": [
+        "/images/developers/custom-store-integration/business-en.png",
+        "/images/developers/custom-store-integration/business-en-mobile.png",
+        "/images/billing/billing-settings-and-invoices/country-en.png",
+        "/images/billing/billing-settings-and-invoices/country-en-mobile.png",
+        "/images/billing/understanding-plan-quotas/plan-en.png",
+        "/images/billing/understanding-plan-quotas/plan-en-mobile.png",
+        "/images/getting-started/setting-up-your-business/invite-en.png",
+        "/images/getting-started/setting-up-your-business/invite-en-mobile.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "5d695bda77169f338fbc4e508d9a1c432362c0b867d867afdc6de103ee70d1ed",
+      "html_sha256": "775e880d39a00fb3611907e4221f9879de34a4e17d3344f58ee40b7e81c79aa0"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-store-integration/business-es.png",
+      "status": 200,
+      "sha256": "17ec399500cee235d73459ced0de47fac99054987976a56f4e09603150ef5dfb",
+      "matches_approved_asset": true,
+      "business_setup_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-store-integration/business-es-mobile.png",
+      "status": 200,
+      "sha256": "0c7ac4c233075fa5d072e27ac33e7947092bf6406858524ab12fa546be553ed8",
+      "matches_approved_asset": true,
+      "business_setup_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-store-integration/business-en.png",
+      "status": 200,
+      "sha256": "1f7f132b2245056eda5166b1b1cfdbeee406ebcf7bad4a13a6eb3fd501184d7f",
+      "matches_approved_asset": true,
+      "business_setup_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-store-integration/business-en-mobile.png",
+      "status": 200,
+      "sha256": "c7badab42d6878393ab746c2950605b8153dc38d60ac1ae09c747a949706bfeb",
+      "matches_approved_asset": true,
+      "business_setup_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/billing/billing-settings-and-invoices/country-es.png",
+      "status": 200,
+      "sha256": "832def5f71def559ed7bb7a5915d057785e78b75f5c765cfe2a2310b25bb7c88",
+      "matches_approved_asset": true,
+      "business_setup_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/billing/billing-settings-and-invoices/country-es-mobile.png",
+      "status": 200,
+      "sha256": "507ca867365d038486fc3c53c59cf3c241a3fd8aa6bf4358f5fdcf5b2b60b0a5",
+      "matches_approved_asset": true,
+      "business_setup_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/billing/billing-settings-and-invoices/country-en.png",
+      "status": 200,
+      "sha256": "6ec4df3a539a322dd748e7eeb9178070f6b230f50df7070d19f4cb892d108803",
+      "matches_approved_asset": true,
+      "business_setup_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/billing/billing-settings-and-invoices/country-en-mobile.png",
+      "status": 200,
+      "sha256": "d5566613e669f7abafc6a2e8638e8ef56f6806ef6f336aeb8c419abddd9bc5cf",
+      "matches_approved_asset": true,
+      "business_setup_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/billing/understanding-plan-quotas/plan-es.png",
+      "status": 200,
+      "sha256": "0b312959f5473fb03f12bab6d6c10a62ec725cd53158cee82a55834276e67601",
+      "matches_approved_asset": true,
+      "business_setup_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/billing/understanding-plan-quotas/plan-es-mobile.png",
+      "status": 200,
+      "sha256": "d006b7d640a46d094e9ef63510d5003273ca8d4329533b3f7038e95455fc04db",
+      "matches_approved_asset": true,
+      "business_setup_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/billing/understanding-plan-quotas/plan-en.png",
+      "status": 200,
+      "sha256": "3eb12f382cb915b934e304c8217e94ac07d658c21e3b2e431363f1c52d3e3b9a",
+      "matches_approved_asset": true,
+      "business_setup_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/billing/understanding-plan-quotas/plan-en-mobile.png",
+      "status": 200,
+      "sha256": "dc0e52bb026686bdd9611439f70ae686a525a835e17b5ca4bc25d8748e95e119",
+      "matches_approved_asset": true,
+      "business_setup_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/getting-started/setting-up-your-business/invite-es.png",
+      "status": 200,
+      "sha256": "0010b888702b74958041702cfd3452cdd8b3cda296792aab63e1048566b333b7",
+      "matches_approved_asset": true,
+      "business_setup_source": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/getting-started/setting-up-your-business/invite-es-mobile.png",
+      "status": 200,
+      "sha256": "713cbb97bba5eb35b1ecee5a54109c6ee7ad851788c2bae403942e7f370e80ce",
+      "matches_approved_asset": true,
+      "business_setup_source": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/getting-started/setting-up-your-business/invite-en.png",
+      "status": 200,
+      "sha256": "a75362c4e5cb1699355f490d9c17468e2ddef9ea2117b0aeeb78b37ba61e1d1a",
+      "matches_approved_asset": true,
+      "business_setup_source": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/getting-started/setting-up-your-business/invite-en-mobile.png",
+      "status": 200,
+      "sha256": "d57606e286475037973f6ff1c88a57c5ae2cbbc4f17a589d8e978be0e2dfb88c",
+      "matches_approved_asset": true,
+      "business_setup_source": true,
+      "reused": false
+    }
+  ],
+  "new_captures": 4,
+  "new_png_uploads": 4,
+  "reused_pngs": 12,
+  "all_affected_article_pngs": 16,
+  "main_build": {
+    "conclusion": "success",
+    "databaseId": 36809701291,
+    "event": "push",
+    "headSha": "9a0a16402d552fb844571ab1fcbd559ced2df7c7",
+    "status": "completed",
+    "url": "https://github.com/hellotext/help/actions/runs/36809701291"
+  },
+  "content_pr": "https://github.com/hellotext/help/pull/307",
+  "content_pr_head": "ad78eb77035d8341ce9bd8cdbf47ae497960f359",
+  "individual_commits_preserved": [
+    "5ff2269fdfdd73edb91b8d4e779954354ceff859",
+    "ad78eb77035d8341ce9bd8cdbf47ae497960f359"
+  ],
+  "unresolved_review_threads_before_merge": 0
+}
