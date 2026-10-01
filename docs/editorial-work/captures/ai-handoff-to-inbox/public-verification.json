@@ -1,0 +1,562 @@
+{
+  "verified_at_utc": "2026-10-01T16:13:17.355017+00:00",
+  "verified_git_main_sha": "9b5774a3452b6d81271006c383f192910ba67e3e",
+  "production_deploy_id_sha_association": {
+    "id": "6abe864a300c7200082fc1fb",
+    "site_id": "d66a79c1-b5de-44d1-bc47-bc7809f7f3b3",
+    "state": "ready",
+    "context": "production",
+    "branch": "main",
+    "commit_ref": "9b5774a3452b6d81271006c383f192910ba67e3e",
+    "created_at": "2026-10-01T16:11:54.158Z",
+    "published_at": "2026-10-01T16:12:34.081Z",
+    "deploy_ssl_url": "https://main--legendary-lollipop-e2d131.netlify.app"
+  },
+  "deployment_method": "Normal Netlify production after Git merge; no manual deploy. Accessible public site-alias listing provided exact commit_ref.",
+  "pages": [
+    {
+      "url": "https://help.hellotext.com/es/derivacion-ia-inbox",
+      "status": 200,
+      "article_key": "team/ai-handoff-to-inbox.md",
+      "locale": "es",
+      "figures": 6,
+      "sections": 12,
+      "approved_assets_present": [
+        "/images/team/ai-handoff-to-inbox/assignment-es.png",
+        "/images/team/ai-handoff-to-inbox/assignment-es-mobile.png",
+        "/images/team/ai-handoff-to-inbox/target-es.png",
+        "/images/team/ai-handoff-to-inbox/target-es-mobile.png",
+        "/images/team/ai-handoff-to-inbox/agent-settings-es.png",
+        "/images/team/ai-handoff-to-inbox/agent-settings-es-mobile.png",
+        "/images/team/ai-handoff-to-inbox/agent-empty-es.png",
+        "/images/team/ai-handoff-to-inbox/agent-empty-es-mobile.png",
+        "/images/team/ai-handoff-to-inbox/intents-es.png",
+        "/images/team/ai-handoff-to-inbox/intents-es-mobile.png",
+        "/images/captures/property-collector/handoff-es.png",
+        "/images/captures/property-collector/handoff-es-mobile.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "835da65cd890e8a37d3993455f2cecc0f9d93e1cab8282c96588971b126f4ceb",
+      "html_sha256": "29d5c8788d2ecf3ad8d68bf8581881b5852e57976323beb67ed1c415dfa2872e"
+    },
+    {
+      "url": "https://help.hellotext.com/ai-handoff-to-inbox",
+      "status": 200,
+      "article_key": "team/ai-handoff-to-inbox.md",
+      "locale": "en",
+      "figures": 6,
+      "sections": 12,
+      "approved_assets_present": [
+        "/images/team/ai-handoff-to-inbox/assignment-en.png",
+        "/images/team/ai-handoff-to-inbox/assignment-en-mobile.png",
+        "/images/team/ai-handoff-to-inbox/target-en.png",
+        "/images/team/ai-handoff-to-inbox/target-en-mobile.png",
+        "/images/team/ai-handoff-to-inbox/agent-settings-en.png",
+        "/images/team/ai-handoff-to-inbox/agent-settings-en-mobile.png",
+        "/images/team/ai-handoff-to-inbox/agent-empty-en.png",
+        "/images/team/ai-handoff-to-inbox/agent-empty-en-mobile.png",
+        "/images/team/ai-handoff-to-inbox/intents-en.png",
+        "/images/team/ai-handoff-to-inbox/intents-en-mobile.png",
+        "/images/captures/property-collector/handoff-en.png",
+        "/images/captures/property-collector/handoff-en-mobile.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "cdee5f09e20ebd5129e7d1a244988e39697912263e834a920f876acae28e4fd4",
+      "html_sha256": "c5cef4c5397eb59f4ed7877bbb3c46a18b111201f6a4045825a4281502374674"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://help.hellotext.com/images/team/ai-handoff-to-inbox/assignment-es.png",
+      "status": 200,
+      "sha256": "db457b25763dd6a25ab63f08d9458bad3dda3f8b94742fcea626cb0b7773d91b",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/ai-handoff-to-inbox/assignment-es-mobile.png",
+      "status": 200,
+      "sha256": "76be7e894a13a02c072086a6084ab1e38ceb5520a0f4518026ec9ab805797dcf",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/ai-handoff-to-inbox/target-es.png",
+      "status": 200,
+      "sha256": "6195d0e9f7ec0f1ce637b1664ea544a8154dfa90808ad6d1f908715b88a6762e",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/ai-handoff-to-inbox/target-es-mobile.png",
+      "status": 200,
+      "sha256": "e53e11a64f7baf5c3f4f6de277b7864d6c2db4f8fef760dd59f0971af88fb77b",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/ai-handoff-to-inbox/agent-settings-es.png",
+      "status": 200,
+      "sha256": "7bced6a1d8fc61f6dbd4a0aaa3fddb3187a4e3218460b4213e22752cb1165f43",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/ai-handoff-to-inbox/agent-settings-es-mobile.png",
+      "status": 200,
+      "sha256": "fd77915787046f2c099249fd9c6e966ec8ba7a9f98e04b031dc1e6865b2a2fba",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/ai-handoff-to-inbox/agent-empty-es.png",
+      "status": 200,
+      "sha256": "d8cf696965000520de025035d19df3730028b06f7d663b5fa2d6a9ecfb54d857",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/ai-handoff-to-inbox/agent-empty-es-mobile.png",
+      "status": 200,
+      "sha256": "dc500bbb1b168c8094f02b50d014c247b3ecf12d43412f5b72794988cc261570",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/ai-handoff-to-inbox/assignment-en.png",
+      "status": 200,
+      "sha256": "8dbe38274d6b7b6754262c448dd149be8174cd1922b7a81e6420299a62d5673a",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/ai-handoff-to-inbox/assignment-en-mobile.png",
+      "status": 200,
+      "sha256": "859f3b87ad11fea2952c91df5a0d57e3d833b3b7acfa033094283d223a7573ef",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/ai-handoff-to-inbox/target-en.png",
+      "status": 200,
+      "sha256": "fe6b4195211e5bad0d156f58bc3dd755daf03c316f54b7bb4b95c817d149079c",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/ai-handoff-to-inbox/target-en-mobile.png",
+      "status": 200,
+      "sha256": "dc950591ae4a4e42f6bbe0ace904f21ad79035b557aaa7c2e9557dfd6fed1002",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/ai-handoff-to-inbox/agent-settings-en.png",
+      "status": 200,
+      "sha256": "a9f29204bde17391f0b59b8732cddbd0ecff1b778c288c7abb28aaa74ed17fcd",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/ai-handoff-to-inbox/agent-settings-en-mobile.png",
+      "status": 200,
+      "sha256": "56684725426270e650bf0e189d2292a5a85e4ee6d5ae7b9db3e138b2e317c2dd",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/ai-handoff-to-inbox/agent-empty-en.png",
+      "status": 200,
+      "sha256": "1434fe9a50cb0f62cd8c05f3a67ec8e37a0728dd4ed6852e7bedef5e170504c0",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/ai-handoff-to-inbox/agent-empty-en-mobile.png",
+      "status": 200,
+      "sha256": "7bcfaabe7cb8427f4ea18e069a27cf932dd1b66fa52be1247e945b5942a42e2c",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/ai-handoff-to-inbox/intents-es.png",
+      "status": 200,
+      "sha256": "3ce141b0bcdd1fc102325fca3389e28f19158d1344b0c94ec725b6f99bc7ee50",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/ai-handoff-to-inbox/intents-es-mobile.png",
+      "status": 200,
+      "sha256": "06a58e9ba16bdc719e9c1787edb0b699acc69e588cb43ae97295622b904c1e7f",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/ai-handoff-to-inbox/intents-en.png",
+      "status": 200,
+      "sha256": "58afbd5fd69c3e56c69b0cbfa41dd2e3c5946fa4884e1098436208e7237314d1",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/ai-handoff-to-inbox/intents-en-mobile.png",
+      "status": 200,
+      "sha256": "574b86a078f6ac9efb168c67084d2b50a5187bfd67ab7cf72fc113197f739971",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/property-collector/handoff-es.png",
+      "status": 200,
+      "sha256": "ef1c8abc4712dacc2effa83f6c968dd4a9453a5b1be059609a877a91e1693356",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/property-collector/handoff-en.png",
+      "status": 200,
+      "sha256": "0c5506ceed87f6ed0c9e57a4969d80cee2dc41f04ab25b04969917ab3f3bdfe9",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/property-collector/handoff-es-mobile.png",
+      "status": 200,
+      "sha256": "4f252e8b5d86ad772df8b7f979ae8d61de1970ff36f7110f5f1e0b1b5867b2cc",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/property-collector/handoff-en-mobile.png",
+      "status": 200,
+      "sha256": "97bad463814d7ec88c224ea32ccf6500c65c8eed86a39ef83cd8fba79d2f3793",
+      "matches_approved_asset": true,
+      "reused": true
+    }
+  ],
+  "new_captures": 20,
+  "new_png_uploads": 20,
+  "reused_pngs": 4,
+  "all_affected_article_pngs": 24,
+  "main_build": {
+    "conclusion": "success",
+    "databaseId": 36890168102,
+    "event": "push",
+    "headSha": "9b5774a3452b6d81271006c383f192910ba67e3e",
+    "status": "completed",
+    "url": "https://github.com/hellotext/help/actions/runs/36890168102"
+  },
+  "content_pr": "https://github.com/hellotext/help/pull/333",
+  "content_pr_head": "8e6db6bfad37696d20b61fc88ab0bc89f5d0a730",
+  "individual_commits_preserved": [
+    "cd1666d163b4e3ffed11f6c7518db5915d6e2152",
+    "8e6db6bfad37696d20b61fc88ab0bc89f5d0a730"
+  ],
+  "unresolved_review_threads_before_merge": 0,
+  "pre_merge_review": {
+    "head": "8e6db6bfad37696d20b61fc88ab0bc89f5d0a730",
+    "checks": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T16:06:15Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/hellotext/help/actions/runs/36889373386/job/110460793297",
+        "name": "build",
+        "startedAt": "2026-10-01T16:05:48Z",
+        "status": "COMPLETED",
+        "workflowName": "Build"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T16:06:16Z",
+        "conclusion": "NEUTRAL",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abe84d743f209000879b3b1",
+        "name": "Pages changed - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T16:05:44Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T16:06:16Z",
+        "conclusion": "NEUTRAL",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abe84d743f209000879b3b1",
+        "name": "Redirect rules - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T16:05:44Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T16:06:47Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://app.aikido.dev/featurebranch/scan/209552174?groupId=34029",
+        "name": "Aikido Security: check code",
+        "startedAt": "2026-10-01T16:06:23Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T16:06:16Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abe84d743f209000879b3b1",
+        "name": "Header rules - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T16:05:44Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "StatusContext",
+        "context": "netlify/legendary-lollipop-e2d131/deploy-preview",
+        "startedAt": "2026-10-01T16:06:19Z",
+        "state": "SUCCESS",
+        "targetUrl": "https://deploy-preview-333--legendary-lollipop-e2d131.netlify.app"
+      }
+    ],
+    "actual_comment_urls": [
+      "https://github.com/hellotext/help/pull/333#issuecomment-5935380630",
+      "https://github.com/hellotext/help/pull/333#issuecomment-5935381800",
+      "https://github.com/hellotext/help/pull/333#issuecomment-5935389853",
+      "https://github.com/hellotext/help/pull/333#issuecomment-5935474589"
+    ],
+    "threads": [],
+    "all_actual_comments_reviews_threads_read": true,
+    "actual_reviews": []
+  },
+  "preview_verification": {
+    "head": "8e6db6bfad37696d20b61fc88ab0bc89f5d0a730",
+    "preview_url": "https://deploy-preview-333--legendary-lollipop-e2d131.netlify.app",
+    "deployment": {
+      "id": "6abe84d743f209000879b3b1",
+      "context": "deploy-preview",
+      "commit_ref": "8e6db6bfad37696d20b61fc88ab0bc89f5d0a730",
+      "state": "ready",
+      "review_id": 333
+    },
+    "pages": [
+      {
+        "url": "https://deploy-preview-333--legendary-lollipop-e2d131.netlify.app/es/derivacion-ia-inbox",
+        "status": 200,
+        "article_key": "team/ai-handoff-to-inbox.md",
+        "locale": "es",
+        "figures": 6,
+        "sections": 12,
+        "approved_assets_present": [
+          "/images/team/ai-handoff-to-inbox/assignment-es.png",
+          "/images/team/ai-handoff-to-inbox/assignment-es-mobile.png",
+          "/images/team/ai-handoff-to-inbox/target-es.png",
+          "/images/team/ai-handoff-to-inbox/target-es-mobile.png",
+          "/images/team/ai-handoff-to-inbox/agent-settings-es.png",
+          "/images/team/ai-handoff-to-inbox/agent-settings-es-mobile.png",
+          "/images/team/ai-handoff-to-inbox/agent-empty-es.png",
+          "/images/team/ai-handoff-to-inbox/agent-empty-es-mobile.png",
+          "/images/team/ai-handoff-to-inbox/intents-es.png",
+          "/images/team/ai-handoff-to-inbox/intents-es-mobile.png",
+          "/images/captures/property-collector/handoff-es.png",
+          "/images/captures/property-collector/handoff-es-mobile.png"
+        ],
+        "complete_article_matches_verified_build": true,
+        "article_sha256": "835da65cd890e8a37d3993455f2cecc0f9d93e1cab8282c96588971b126f4ceb",
+        "html_sha256": "fb78d991b9b02dcd05326e9a007e485d1d0a956b0f2081f0dd535436ded70521"
+      },
+      {
+        "url": "https://deploy-preview-333--legendary-lollipop-e2d131.netlify.app/ai-handoff-to-inbox",
+        "status": 200,
+        "article_key": "team/ai-handoff-to-inbox.md",
+        "locale": "en",
+        "figures": 6,
+        "sections": 12,
+        "approved_assets_present": [
+          "/images/team/ai-handoff-to-inbox/assignment-en.png",
+          "/images/team/ai-handoff-to-inbox/assignment-en-mobile.png",
+          "/images/team/ai-handoff-to-inbox/target-en.png",
+          "/images/team/ai-handoff-to-inbox/target-en-mobile.png",
+          "/images/team/ai-handoff-to-inbox/agent-settings-en.png",
+          "/images/team/ai-handoff-to-inbox/agent-settings-en-mobile.png",
+          "/images/team/ai-handoff-to-inbox/agent-empty-en.png",
+          "/images/team/ai-handoff-to-inbox/agent-empty-en-mobile.png",
+          "/images/team/ai-handoff-to-inbox/intents-en.png",
+          "/images/team/ai-handoff-to-inbox/intents-en-mobile.png",
+          "/images/captures/property-collector/handoff-en.png",
+          "/images/captures/property-collector/handoff-en-mobile.png"
+        ],
+        "complete_article_matches_verified_build": true,
+        "article_sha256": "cdee5f09e20ebd5129e7d1a244988e39697912263e834a920f876acae28e4fd4",
+        "html_sha256": "b5c419adbc2b9cefe2cee979c721f7bad207b3ec4a57a00ab57d9ac66e7c244d"
+      }
+    ],
+    "assets": [
+      {
+        "url": "https://deploy-preview-333--legendary-lollipop-e2d131.netlify.app/images/team/ai-handoff-to-inbox/assignment-es.png",
+        "status": 200,
+        "sha256": "db457b25763dd6a25ab63f08d9458bad3dda3f8b94742fcea626cb0b7773d91b",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-333--legendary-lollipop-e2d131.netlify.app/images/team/ai-handoff-to-inbox/assignment-es-mobile.png",
+        "status": 200,
+        "sha256": "76be7e894a13a02c072086a6084ab1e38ceb5520a0f4518026ec9ab805797dcf",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-333--legendary-lollipop-e2d131.netlify.app/images/team/ai-handoff-to-inbox/target-es.png",
+        "status": 200,
+        "sha256": "6195d0e9f7ec0f1ce637b1664ea544a8154dfa90808ad6d1f908715b88a6762e",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-333--legendary-lollipop-e2d131.netlify.app/images/team/ai-handoff-to-inbox/target-es-mobile.png",
+        "status": 200,
+        "sha256": "e53e11a64f7baf5c3f4f6de277b7864d6c2db4f8fef760dd59f0971af88fb77b",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-333--legendary-lollipop-e2d131.netlify.app/images/team/ai-handoff-to-inbox/agent-settings-es.png",
+        "status": 200,
+        "sha256": "7bced6a1d8fc61f6dbd4a0aaa3fddb3187a4e3218460b4213e22752cb1165f43",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-333--legendary-lollipop-e2d131.netlify.app/images/team/ai-handoff-to-inbox/agent-settings-es-mobile.png",
+        "status": 200,
+        "sha256": "fd77915787046f2c099249fd9c6e966ec8ba7a9f98e04b031dc1e6865b2a2fba",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-333--legendary-lollipop-e2d131.netlify.app/images/team/ai-handoff-to-inbox/agent-empty-es.png",
+        "status": 200,
+        "sha256": "d8cf696965000520de025035d19df3730028b06f7d663b5fa2d6a9ecfb54d857",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-333--legendary-lollipop-e2d131.netlify.app/images/team/ai-handoff-to-inbox/agent-empty-es-mobile.png",
+        "status": 200,
+        "sha256": "dc500bbb1b168c8094f02b50d014c247b3ecf12d43412f5b72794988cc261570",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-333--legendary-lollipop-e2d131.netlify.app/images/team/ai-handoff-to-inbox/assignment-en.png",
+        "status": 200,
+        "sha256": "8dbe38274d6b7b6754262c448dd149be8174cd1922b7a81e6420299a62d5673a",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-333--legendary-lollipop-e2d131.netlify.app/images/team/ai-handoff-to-inbox/assignment-en-mobile.png",
+        "status": 200,
+        "sha256": "859f3b87ad11fea2952c91df5a0d57e3d833b3b7acfa033094283d223a7573ef",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-333--legendary-lollipop-e2d131.netlify.app/images/team/ai-handoff-to-inbox/target-en.png",
+        "status": 200,
+        "sha256": "fe6b4195211e5bad0d156f58bc3dd755daf03c316f54b7bb4b95c817d149079c",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-333--legendary-lollipop-e2d131.netlify.app/images/team/ai-handoff-to-inbox/target-en-mobile.png",
+        "status": 200,
+        "sha256": "dc950591ae4a4e42f6bbe0ace904f21ad79035b557aaa7c2e9557dfd6fed1002",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-333--legendary-lollipop-e2d131.netlify.app/images/team/ai-handoff-to-inbox/agent-settings-en.png",
+        "status": 200,
+        "sha256": "a9f29204bde17391f0b59b8732cddbd0ecff1b778c288c7abb28aaa74ed17fcd",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-333--legendary-lollipop-e2d131.netlify.app/images/team/ai-handoff-to-inbox/agent-settings-en-mobile.png",
+        "status": 200,
+        "sha256": "56684725426270e650bf0e189d2292a5a85e4ee6d5ae7b9db3e138b2e317c2dd",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-333--legendary-lollipop-e2d131.netlify.app/images/team/ai-handoff-to-inbox/agent-empty-en.png",
+        "status": 200,
+        "sha256": "1434fe9a50cb0f62cd8c05f3a67ec8e37a0728dd4ed6852e7bedef5e170504c0",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-333--legendary-lollipop-e2d131.netlify.app/images/team/ai-handoff-to-inbox/agent-empty-en-mobile.png",
+        "status": 200,
+        "sha256": "7bcfaabe7cb8427f4ea18e069a27cf932dd1b66fa52be1247e945b5942a42e2c",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-333--legendary-lollipop-e2d131.netlify.app/images/team/ai-handoff-to-inbox/intents-es.png",
+        "status": 200,
+        "sha256": "3ce141b0bcdd1fc102325fca3389e28f19158d1344b0c94ec725b6f99bc7ee50",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-333--legendary-lollipop-e2d131.netlify.app/images/team/ai-handoff-to-inbox/intents-es-mobile.png",
+        "status": 200,
+        "sha256": "06a58e9ba16bdc719e9c1787edb0b699acc69e588cb43ae97295622b904c1e7f",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-333--legendary-lollipop-e2d131.netlify.app/images/team/ai-handoff-to-inbox/intents-en.png",
+        "status": 200,
+        "sha256": "58afbd5fd69c3e56c69b0cbfa41dd2e3c5946fa4884e1098436208e7237314d1",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-333--legendary-lollipop-e2d131.netlify.app/images/team/ai-handoff-to-inbox/intents-en-mobile.png",
+        "status": 200,
+        "sha256": "574b86a078f6ac9efb168c67084d2b50a5187bfd67ab7cf72fc113197f739971",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-333--legendary-lollipop-e2d131.netlify.app/images/captures/property-collector/handoff-es.png",
+        "status": 200,
+        "sha256": "ef1c8abc4712dacc2effa83f6c968dd4a9453a5b1be059609a877a91e1693356",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-333--legendary-lollipop-e2d131.netlify.app/images/captures/property-collector/handoff-en.png",
+        "status": 200,
+        "sha256": "0c5506ceed87f6ed0c9e57a4969d80cee2dc41f04ab25b04969917ab3f3bdfe9",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-333--legendary-lollipop-e2d131.netlify.app/images/captures/property-collector/handoff-es-mobile.png",
+        "status": 200,
+        "sha256": "4f252e8b5d86ad772df8b7f979ae8d61de1970ff36f7110f5f1e0b1b5867b2cc",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-333--legendary-lollipop-e2d131.netlify.app/images/captures/property-collector/handoff-en-mobile.png",
+        "status": 200,
+        "sha256": "97bad463814d7ec88c224ea32ccf6500c65c8eed86a39ef83cd8fba79d2f3793",
+        "matches_approved_asset": true,
+        "reused": true
+      }
+    ]
+  },
+  "earlier_record_332_limitation": "This later genuine content SHA was published normally. It does not prove publication of ad6d6455d0671cda042dc5ef184f73c86d64f8fb; its recorded Netlify internal deployment error remains historical."
+}
