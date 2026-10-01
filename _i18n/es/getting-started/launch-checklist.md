@@ -18,7 +18,7 @@ En **Configuración**, comprueba el **ID del negocio** para reconocer qué negoc
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 886px; width: fit-content; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/developers/custom-store-integration/business-es-mobile.png 2x" />
+        <source media="(max-width: 600px)" srcset="/images/developers/custom-store-integration/business-es-mobile.png 2x" width="748" height="524" />
         <img class="ht-editorial-visual__image" src="/images/developers/custom-store-integration/business-es.png" srcset="/images/developers/custom-store-integration/business-es.png 2x" width="1736" height="404" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Negocio ficticio Enterprise con ID del negocio 4ONLdN32 y control Editar negocio." />
       </picture>
     </div>
@@ -51,7 +51,7 @@ Este editor ayuda a reconocer los datos: **ID de la orden** muestra la referenci
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 521px; width: fit-content; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/developers/orders-with-api/details-es-mobile.png 2x" />
+        <source media="(max-width: 600px)" srcset="/images/developers/orders-with-api/details-es-mobile.png 2x" width="778" height="914" />
         <img class="ht-editorial-visual__image" src="/images/developers/orders-with-api/details-es.png" srcset="/images/developers/orders-with-api/details-es.png 2x" width="1006" height="914" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Editor real de un pedido ficticio con referencia ORDER-1001, importe 89,90 USD, origen custom_store y tipo de entrega Entregar." />
       </picture>
     </div>
@@ -155,7 +155,7 @@ En las misiones que ofrecen **Derivación**, revisa el interruptor y el equipo d
   <div class="ht-editorial-visual__stage">
     <div class="ht-editorial-visual__image-frame" style="max-width: 593px; width: fit-content; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/handoff-es-mobile.png 2x" />
+        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/handoff-es-mobile.png 2x" width="780" height="680" />
         <img class="ht-editorial-visual__image" src="/images/captures/property-collector/handoff-es.png" srcset="/images/captures/property-collector/handoff-es.png 2x" width="1150" height="660" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Borrador real de Recolector de Propiedades con Derivación habilitada en el editor y equipo ficticio Atención demo seleccionado." />
       </picture>
     </div>

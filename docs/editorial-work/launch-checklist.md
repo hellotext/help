@@ -31,3 +31,9 @@ Both complete articles were reread and visually inspected at 1440/390/580 CSS px
 ## Ledger verifier
 
 Local verifier `f01bf312d9d6162dd10fb75a9217c0f6c5d30e43` records the complete ES/EN browser/build/hash review. Progress becomes 70 local_verified, 83 pending and one out_of_scope. Ledger publication remains pending until protected merge and exact production checks.
+
+## Responsive source correction
+
+Exact-head independent review found a real P2: three mobile picture sources per locale omitted width/height, allowing lazy loading to reserve the desktop aspect ratio. Each source now declares the approved mobile PNG dimensions (Business 748×524, order 778×914, handoff 780×680). Asset bytes, density, caps, text, captions, original sections/links/stub and all safe states remain intact. Build and complete ES/EN browser review are repeated on this correction before requesting a new head review.
+
+The corrected production build/security headers and git diff --check passed. Full ES/EN browser review at 1440/390/580 CSS px and source/asset/build hash checks passed again. All 20 full-article inspection sheets have identical final rendered pixels to the previously inspected pages; mobile source intrinsic dimensions now reserve the selected aspect ratio.
