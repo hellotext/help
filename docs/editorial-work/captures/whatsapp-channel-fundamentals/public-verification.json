@@ -1,0 +1,369 @@
+{
+  "verified_at_utc": "2026-10-01T12:49:59.061964+00:00",
+  "verified_git_main_sha": "b2f62c996fabaafcd62903a840c4508504db7971",
+  "production_deploy_id_sha_association": {
+    "id": "6abe568981769b00089c9e7e",
+    "site_id": "d66a79c1-b5de-44d1-bc47-bc7809f7f3b3",
+    "state": "ready",
+    "context": "production",
+    "branch": "main",
+    "commit_ref": "b2f62c996fabaafcd62903a840c4508504db7971",
+    "created_at": "2026-10-01T12:48:09.469Z",
+    "published_at": "2026-10-01T12:49:18.994Z",
+    "deploy_ssl_url": "https://main--legendary-lollipop-e2d131.netlify.app"
+  },
+  "deployment_method": "Normal Netlify production after Git merge; no manual deploy. Accessible public site-alias listing provided exact commit_ref.",
+  "pages": [
+    {
+      "url": "https://help.hellotext.com/es/fundamentos-canal-whatsapp",
+      "status": 200,
+      "article_key": "numbers/whatsapp-channel-fundamentals.md",
+      "locale": "es",
+      "figures": 3,
+      "sections": 13,
+      "approved_assets_present": [
+        "/images/numbers/message-editor-basics/format-es.png",
+        "/images/numbers/message-editor-basics/format-es-mobile.png",
+        "/images/developers/products-and-inventory-with-api/identity-es.png",
+        "/images/developers/products-and-inventory-with-api/identity-es-mobile.png",
+        "/images/captures/qr-codes/type-es.png",
+        "/images/captures/qr-codes/type-es-mobile.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "38a3ad52646a2cf9392e2813b5a2be509428e8eabffc0ea000cbd0500937cbb1",
+      "html_sha256": "95da18d2cc4aeb79c633c2f8558a1e808a2d62ec29afafe92ca4875797689af0"
+    },
+    {
+      "url": "https://help.hellotext.com/whatsapp-channel-fundamentals",
+      "status": 200,
+      "article_key": "numbers/whatsapp-channel-fundamentals.md",
+      "locale": "en",
+      "figures": 3,
+      "sections": 13,
+      "approved_assets_present": [
+        "/images/numbers/message-editor-basics/format-en.png",
+        "/images/numbers/message-editor-basics/format-en-mobile.png",
+        "/images/developers/products-and-inventory-with-api/identity-en.png",
+        "/images/developers/products-and-inventory-with-api/identity-en-mobile.png",
+        "/images/captures/qr-codes/type-en.png",
+        "/images/captures/qr-codes/type-en-mobile.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "cda5d002597d70abac61b6e61c74cf6d10b770a7017902a5fa3239798a088b39",
+      "html_sha256": "fe386deeaf5d5e7f8e4205fd4ddcb82b631dabbfe5cadd19b4dddcbc7d714af6"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://help.hellotext.com/images/numbers/message-editor-basics/format-es.png",
+      "status": 200,
+      "sha256": "7c7077129a2901111f67109eb367a5bb54220ac11838f50b61e29b48a1603a1e",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/numbers/message-editor-basics/format-es-mobile.png",
+      "status": 200,
+      "sha256": "eb624ee9580528cbc670313af7dea68bbe6a29ce42ea23c6747668029dce73b1",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/numbers/message-editor-basics/format-en.png",
+      "status": 200,
+      "sha256": "2817aa394f2917c9e5faa0bc2e2a9eeebacdc62ba872e727b33f03c0c05d9d9a",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/numbers/message-editor-basics/format-en-mobile.png",
+      "status": 200,
+      "sha256": "3754139f79d32c654e2bbcae936acfe841df4f4d687b33013e39ee6a5fd6643a",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/products-and-inventory-with-api/identity-es.png",
+      "status": 200,
+      "sha256": "cad5dac8389b4545324ad7b0d2cdc0c1cfd2d04a476b42f7bf5110530cc50f43",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/products-and-inventory-with-api/identity-es-mobile.png",
+      "status": 200,
+      "sha256": "e59c825526ab948c121cde309ff647e98d8b8b015546116fe91e5cdf15ebdb00",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/products-and-inventory-with-api/identity-en.png",
+      "status": 200,
+      "sha256": "0ad4775d9bd3d743c1aa60c89c9db36609032046126386e77710f41b682c78e8",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/products-and-inventory-with-api/identity-en-mobile.png",
+      "status": 200,
+      "sha256": "ee47e9bab2033b8dc413e0eb63a5d89ad5f65f322dd07b4431e864677a332b60",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/qr-codes/type-es.png",
+      "status": 200,
+      "sha256": "eede258c9564f35a12937dc91e1dfe2ca1a42b55b91aa656eb43d4ba9adc6b68",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/qr-codes/type-en.png",
+      "status": 200,
+      "sha256": "ace129e7e733ed1a67517f502e903aa64e96147c056126dd034253f91b95ebac",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/qr-codes/type-es-mobile.png",
+      "status": 200,
+      "sha256": "64eb482e351a951426188c8219d6c581a8c1d2637f2a799395cd0e40ffcb0ee5",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/qr-codes/type-en-mobile.png",
+      "status": 200,
+      "sha256": "cffe0390ce515e36f8f3338747e94826de6bbb2e77e94f5780b2217003eded34",
+      "matches_approved_asset": true,
+      "reused": true
+    }
+  ],
+  "new_captures": 0,
+  "new_png_uploads": 0,
+  "reused_pngs": 12,
+  "all_affected_article_pngs": 12,
+  "main_build": {
+    "conclusion": "success",
+    "databaseId": 36864215198,
+    "event": "push",
+    "headSha": "b2f62c996fabaafcd62903a840c4508504db7971",
+    "status": "completed",
+    "url": "https://github.com/hellotext/help/actions/runs/36864215198"
+  },
+  "content_pr": "https://github.com/hellotext/help/pull/331",
+  "content_pr_head": "3b4bd5cc528ba5dc385dc4cf2db9862a7dd467d0",
+  "individual_commits_preserved": [
+    "1c50ccd00ce4fc17377e89cf270f6791351a6a56",
+    "3b4bd5cc528ba5dc385dc4cf2db9862a7dd467d0"
+  ],
+  "unresolved_review_threads_before_merge": 0,
+  "pre_merge_review": {
+    "head": "3b4bd5cc528ba5dc385dc4cf2db9862a7dd467d0",
+    "checks": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T12:42:57Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/hellotext/help/actions/runs/36863548139/job/110373373390",
+        "name": "build",
+        "startedAt": "2026-10-01T12:42:23Z",
+        "status": "COMPLETED",
+        "workflowName": "Build"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T12:43:35Z",
+        "conclusion": "NEUTRAL",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abe552b767d7b0008997df9",
+        "name": "Pages changed - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T12:42:27Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T12:43:35Z",
+        "conclusion": "NEUTRAL",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abe552b767d7b0008997df9",
+        "name": "Redirect rules - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T12:42:27Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T12:42:45Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://app.aikido.dev/featurebranch/scan/209398150?groupId=34029",
+        "name": "Aikido Security: check code",
+        "startedAt": "2026-10-01T12:42:20Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T12:43:35Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abe552b767d7b0008997df9",
+        "name": "Header rules - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T12:42:27Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "StatusContext",
+        "context": "netlify/legendary-lollipop-e2d131/deploy-preview",
+        "startedAt": "2026-10-01T12:43:36Z",
+        "state": "SUCCESS",
+        "targetUrl": "https://deploy-preview-331--legendary-lollipop-e2d131.netlify.app"
+      }
+    ],
+    "actual_comment_urls": [
+      "https://github.com/hellotext/help/pull/331#issuecomment-5931696205",
+      "https://github.com/hellotext/help/pull/331#issuecomment-5931697249",
+      "https://github.com/hellotext/help/pull/331#issuecomment-5931704740",
+      "https://github.com/hellotext/help/pull/331#issuecomment-5931773528"
+    ],
+    "threads": [],
+    "all_actual_comments_reviews_threads_read": true,
+    "actual_reviews": []
+  },
+  "preview_verification": {
+    "head": "3b4bd5cc528ba5dc385dc4cf2db9862a7dd467d0",
+    "preview_url": "https://deploy-preview-331--legendary-lollipop-e2d131.netlify.app",
+    "deployment": {
+      "id": "6abe552b767d7b0008997df9",
+      "context": "deploy-preview",
+      "commit_ref": "3b4bd5cc528ba5dc385dc4cf2db9862a7dd467d0",
+      "state": "ready",
+      "review_id": 331
+    },
+    "pages": [
+      {
+        "url": "https://deploy-preview-331--legendary-lollipop-e2d131.netlify.app/es/fundamentos-canal-whatsapp",
+        "status": 200,
+        "article_key": "numbers/whatsapp-channel-fundamentals.md",
+        "locale": "es",
+        "figures": 3,
+        "sections": 13,
+        "approved_assets_present": [
+          "/images/numbers/message-editor-basics/format-es.png",
+          "/images/numbers/message-editor-basics/format-es-mobile.png",
+          "/images/developers/products-and-inventory-with-api/identity-es.png",
+          "/images/developers/products-and-inventory-with-api/identity-es-mobile.png",
+          "/images/captures/qr-codes/type-es.png",
+          "/images/captures/qr-codes/type-es-mobile.png"
+        ],
+        "complete_article_matches_verified_build": true,
+        "article_sha256": "38a3ad52646a2cf9392e2813b5a2be509428e8eabffc0ea000cbd0500937cbb1",
+        "html_sha256": "56e378bb640321f79bbca68aa84d7387a992e0ea58c2f53c4e5ccd2893e3d3d6"
+      },
+      {
+        "url": "https://deploy-preview-331--legendary-lollipop-e2d131.netlify.app/whatsapp-channel-fundamentals",
+        "status": 200,
+        "article_key": "numbers/whatsapp-channel-fundamentals.md",
+        "locale": "en",
+        "figures": 3,
+        "sections": 13,
+        "approved_assets_present": [
+          "/images/numbers/message-editor-basics/format-en.png",
+          "/images/numbers/message-editor-basics/format-en-mobile.png",
+          "/images/developers/products-and-inventory-with-api/identity-en.png",
+          "/images/developers/products-and-inventory-with-api/identity-en-mobile.png",
+          "/images/captures/qr-codes/type-en.png",
+          "/images/captures/qr-codes/type-en-mobile.png"
+        ],
+        "complete_article_matches_verified_build": true,
+        "article_sha256": "cda5d002597d70abac61b6e61c74cf6d10b770a7017902a5fa3239798a088b39",
+        "html_sha256": "57f4d0668e4a91846025ff4c3b0a246883ec39ec1ef74eae2bdec62b18435109"
+      }
+    ],
+    "assets": [
+      {
+        "url": "https://deploy-preview-331--legendary-lollipop-e2d131.netlify.app/images/numbers/message-editor-basics/format-es.png",
+        "status": 200,
+        "sha256": "7c7077129a2901111f67109eb367a5bb54220ac11838f50b61e29b48a1603a1e",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-331--legendary-lollipop-e2d131.netlify.app/images/numbers/message-editor-basics/format-es-mobile.png",
+        "status": 200,
+        "sha256": "eb624ee9580528cbc670313af7dea68bbe6a29ce42ea23c6747668029dce73b1",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-331--legendary-lollipop-e2d131.netlify.app/images/numbers/message-editor-basics/format-en.png",
+        "status": 200,
+        "sha256": "2817aa394f2917c9e5faa0bc2e2a9eeebacdc62ba872e727b33f03c0c05d9d9a",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-331--legendary-lollipop-e2d131.netlify.app/images/numbers/message-editor-basics/format-en-mobile.png",
+        "status": 200,
+        "sha256": "3754139f79d32c654e2bbcae936acfe841df4f4d687b33013e39ee6a5fd6643a",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-331--legendary-lollipop-e2d131.netlify.app/images/developers/products-and-inventory-with-api/identity-es.png",
+        "status": 200,
+        "sha256": "cad5dac8389b4545324ad7b0d2cdc0c1cfd2d04a476b42f7bf5110530cc50f43",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-331--legendary-lollipop-e2d131.netlify.app/images/developers/products-and-inventory-with-api/identity-es-mobile.png",
+        "status": 200,
+        "sha256": "e59c825526ab948c121cde309ff647e98d8b8b015546116fe91e5cdf15ebdb00",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-331--legendary-lollipop-e2d131.netlify.app/images/developers/products-and-inventory-with-api/identity-en.png",
+        "status": 200,
+        "sha256": "0ad4775d9bd3d743c1aa60c89c9db36609032046126386e77710f41b682c78e8",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-331--legendary-lollipop-e2d131.netlify.app/images/developers/products-and-inventory-with-api/identity-en-mobile.png",
+        "status": 200,
+        "sha256": "ee47e9bab2033b8dc413e0eb63a5d89ad5f65f322dd07b4431e864677a332b60",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-331--legendary-lollipop-e2d131.netlify.app/images/captures/qr-codes/type-es.png",
+        "status": 200,
+        "sha256": "eede258c9564f35a12937dc91e1dfe2ca1a42b55b91aa656eb43d4ba9adc6b68",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-331--legendary-lollipop-e2d131.netlify.app/images/captures/qr-codes/type-en.png",
+        "status": 200,
+        "sha256": "ace129e7e733ed1a67517f502e903aa64e96147c056126dd034253f91b95ebac",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-331--legendary-lollipop-e2d131.netlify.app/images/captures/qr-codes/type-es-mobile.png",
+        "status": 200,
+        "sha256": "64eb482e351a951426188c8219d6c581a8c1d2637f2a799395cd0e40ffcb0ee5",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-331--legendary-lollipop-e2d131.netlify.app/images/captures/qr-codes/type-en-mobile.png",
+        "status": 200,
+        "sha256": "cffe0390ce515e36f8f3338747e94826de6bbb2e77e94f5780b2217003eded34",
+        "matches_approved_asset": true,
+        "reused": true
+      }
+    ]
+  }
+}
