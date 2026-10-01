@@ -27,3 +27,7 @@ Read-only Rails 5403a7dcb (#6054): selected business public ID versus handle; co
 ## Local verification completed
 
 Both complete articles were reread and visually inspected at 1440/390/580 CSS px: nine original sections, all 37 Liquid links, titles/slugs/locales/stub/publication and four useful figures per locale are preserved. Fourteen native P3 PNGs were inspected and match original approved source bytes/profiles and both built language trees. No recapture, pixel edits or duplicate upload. Every source declares 2×. Business/order/form/handoff frame caps are 886/521/490/593px, each including 18px inset/border; full-column lavender stages, no enlargement or page overflow. Forms reuses the same complete preview at all widths, with no separate mobile asset. Original source/UI evidence and safe fixture states remain unchanged. Guarded single-loopback-tab Help QA Chrome used P3/DPR2/zoom1. Ruby 3.3.6 production build/security headers and git diff --check passed. No example, renderer/shared-guide change, CSS/migration test, app/DB/UI/fixture/locale/token/template/link/object/event/message/test/send/worker action. Local verification complete; protected publication remains pending.
+
+## Ledger verifier
+
+Local verifier `f01bf312d9d6162dd10fb75a9217c0f6c5d30e43` records the complete ES/EN browser/build/hash review. Progress becomes 70 local_verified, 83 pending and one out_of_scope. Ledger publication remains pending until protected merge and exact production checks.
