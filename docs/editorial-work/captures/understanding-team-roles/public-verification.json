@@ -1,0 +1,403 @@
+{
+  "verified_at_utc": "2026-10-01T17:09:14.412426+00:00",
+  "verified_git_main_sha": "5b225c552bed78ac119abd7502e20cc60bd499d1",
+  "production_deploy_id_sha_association": {
+    "id": "6abe938cc0ee9300096e2d1d",
+    "site_id": "d66a79c1-b5de-44d1-bc47-bc7809f7f3b3",
+    "state": "ready",
+    "context": "production",
+    "branch": "main",
+    "commit_ref": "5b225c552bed78ac119abd7502e20cc60bd499d1",
+    "created_at": "2026-10-01T17:08:28.403Z",
+    "published_at": "2026-10-01T17:09:00.390Z",
+    "deploy_ssl_url": "https://main--legendary-lollipop-e2d131.netlify.app"
+  },
+  "deployment_method": "Normal Netlify production after Git merge; no manual deploy. Accessible public site-alias listing provided exact commit_ref.",
+  "pages": [
+    {
+      "url": "https://help.hellotext.com/es/diferencias-entre-roles-de-equipo",
+      "status": 200,
+      "article_key": "team/understanding-team-roles.md",
+      "locale": "es",
+      "figures": 4,
+      "sections": 11,
+      "approved_assets_present": [
+        "/images/team/understanding-team-roles/roles-es.png",
+        "/images/team/understanding-team-roles/roles-es-mobile.png",
+        "/images/team/understanding-team-roles/capacity-es.png",
+        "/images/team/understanding-team-roles/capacity-es-mobile.png",
+        "/images/getting-started/setting-up-your-business/invite-es.png",
+        "/images/getting-started/setting-up-your-business/invite-es-mobile.png",
+        "/images/integrations/transferring-ownership/menu-es.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "f6bba39fa0506c0a76220e6ac77505f1a3495322cce43be37c851061fe901dc8",
+      "html_sha256": "ecd077c0f690e803c39d6a6a3ffcffa89e130d9285b053cc51947d6350c38325"
+    },
+    {
+      "url": "https://help.hellotext.com/understanding-team-roles",
+      "status": 200,
+      "article_key": "team/understanding-team-roles.md",
+      "locale": "en",
+      "figures": 4,
+      "sections": 11,
+      "approved_assets_present": [
+        "/images/team/understanding-team-roles/roles-en.png",
+        "/images/team/understanding-team-roles/roles-en-mobile.png",
+        "/images/team/understanding-team-roles/capacity-en.png",
+        "/images/team/understanding-team-roles/capacity-en-mobile.png",
+        "/images/getting-started/setting-up-your-business/invite-en.png",
+        "/images/getting-started/setting-up-your-business/invite-en-mobile.png",
+        "/images/integrations/transferring-ownership/menu-en.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "bb43ec701da52c8f3afa14ff258793c1951c7dd9fcb433e7a4db739a5c335881",
+      "html_sha256": "7bc24744067c2fc67022986f56f8fd78cd5a4162cfbea35adaae7b1770ac3e08"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-team-roles/roles-es.png",
+      "status": 200,
+      "sha256": "8f241c8a53e11aa119ddeb6f8d77dfaa571d697cda83a7a892de1d064b224b20",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-team-roles/roles-es-mobile.png",
+      "status": 200,
+      "sha256": "1b1ea07c8a1e1369b6010ede374de9b9b770108ad3f1dee51a54c6168f62ce4a",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-team-roles/capacity-es.png",
+      "status": 200,
+      "sha256": "0d1d09814783fd6d04d0448b1b287bd471d731e085cafe5b074fa327e1ce4acd",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-team-roles/capacity-es-mobile.png",
+      "status": 200,
+      "sha256": "2ca8c170f9ba507c113365ecac8232d8373a24f0766af7b1b9115d810ba19960",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-team-roles/roles-en.png",
+      "status": 200,
+      "sha256": "354e9a49cf3664b913bac536d4ea45c8a90092fa508fb1b67a9ecdcde4a2191f",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-team-roles/roles-en-mobile.png",
+      "status": 200,
+      "sha256": "7347515e91a48fc8563e6c29a61e725fe0a21ab070be1af01da147804052145a",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-team-roles/capacity-en.png",
+      "status": 200,
+      "sha256": "261a3da15546d25bc4dd292468d9ac7f0c0e3191aee3df0a2f4017de51ec8337",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-team-roles/capacity-en-mobile.png",
+      "status": 200,
+      "sha256": "077a1fcea5a38d7cc698a7db3bd2402830453883313013c5b043ca23de70722f",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/getting-started/setting-up-your-business/invite-es.png",
+      "status": 200,
+      "sha256": "0010b888702b74958041702cfd3452cdd8b3cda296792aab63e1048566b333b7",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/getting-started/setting-up-your-business/invite-es-mobile.png",
+      "status": 200,
+      "sha256": "713cbb97bba5eb35b1ecee5a54109c6ee7ad851788c2bae403942e7f370e80ce",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/getting-started/setting-up-your-business/invite-en.png",
+      "status": 200,
+      "sha256": "a75362c4e5cb1699355f490d9c17468e2ddef9ea2117b0aeeb78b37ba61e1d1a",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/getting-started/setting-up-your-business/invite-en-mobile.png",
+      "status": 200,
+      "sha256": "d57606e286475037973f6ff1c88a57c5ae2cbbc4f17a589d8e978be0e2dfb88c",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/integrations/transferring-ownership/menu-es.png",
+      "status": 200,
+      "sha256": "85fa4488ac96b2b34e75faa7644695461b94045431901b9318138c6683c34737",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/integrations/transferring-ownership/menu-en.png",
+      "status": 200,
+      "sha256": "42e333981346b17efbdb34c7318346b504a44bb6a7fcb3b72d887ab47a0aadf8",
+      "matches_approved_asset": true,
+      "reused": true
+    }
+  ],
+  "new_captures": 8,
+  "new_png_uploads": 8,
+  "reused_pngs": 6,
+  "all_affected_article_pngs": 14,
+  "main_build": {
+    "conclusion": "success",
+    "databaseId": 36897185785,
+    "event": "push",
+    "headSha": "5b225c552bed78ac119abd7502e20cc60bd499d1",
+    "status": "completed",
+    "url": "https://github.com/hellotext/help/actions/runs/36897185785"
+  },
+  "content_pr": "https://github.com/hellotext/help/pull/335",
+  "content_pr_head": "e515423baa4f7a9cc0f72d2f36d3d583df0bc25e",
+  "individual_commits_preserved": [
+    "216c11cd58375929668a58df604d6ce110597423",
+    "5318587939065b406f31aab600a5b992373c00c8",
+    "e515423baa4f7a9cc0f72d2f36d3d583df0bc25e"
+  ],
+  "unresolved_review_threads_before_merge": 0,
+  "pre_merge_review": {
+    "head": "e515423baa4f7a9cc0f72d2f36d3d583df0bc25e",
+    "checks": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T17:03:13Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/hellotext/help/actions/runs/36896464290/job/110484575776",
+        "name": "build",
+        "startedAt": "2026-10-01T17:02:45Z",
+        "status": "COMPLETED",
+        "workflowName": "Build"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T17:03:14Z",
+        "conclusion": "NEUTRAL",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abe9230c0ee9300096dec0d",
+        "name": "Pages changed - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T17:02:43Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T17:03:14Z",
+        "conclusion": "NEUTRAL",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abe9230c0ee9300096dec0d",
+        "name": "Redirect rules - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T17:02:43Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T17:03:06Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://app.aikido.dev/featurebranch/scan/209581638?groupId=34029",
+        "name": "Aikido Security: check code",
+        "startedAt": "2026-10-01T17:02:41Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T17:03:14Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abe9230c0ee9300096dec0d",
+        "name": "Header rules - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T17:02:43Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "StatusContext",
+        "context": "netlify/legendary-lollipop-e2d131/deploy-preview",
+        "startedAt": "2026-10-01T17:03:16Z",
+        "state": "SUCCESS",
+        "targetUrl": "https://deploy-preview-335--legendary-lollipop-e2d131.netlify.app"
+      }
+    ],
+    "actual_comment_urls": [
+      "https://github.com/hellotext/help/pull/335#issuecomment-5936402911",
+      "https://github.com/hellotext/help/pull/335#issuecomment-5936404145",
+      "https://github.com/hellotext/help/pull/335#issuecomment-5936410708",
+      "https://github.com/hellotext/help/pull/335#issuecomment-5936475644"
+    ],
+    "threads": [],
+    "all_actual_comments_reviews_threads_read": true,
+    "actual_reviews": []
+  },
+  "preview_verification": {
+    "head": "e515423baa4f7a9cc0f72d2f36d3d583df0bc25e",
+    "preview_url": "https://deploy-preview-335--legendary-lollipop-e2d131.netlify.app",
+    "deployment": {
+      "id": "6abe9230c0ee9300096dec0d",
+      "context": "deploy-preview",
+      "commit_ref": "e515423baa4f7a9cc0f72d2f36d3d583df0bc25e",
+      "state": "ready",
+      "review_id": 335
+    },
+    "pages": [
+      {
+        "url": "https://deploy-preview-335--legendary-lollipop-e2d131.netlify.app/es/diferencias-entre-roles-de-equipo",
+        "status": 200,
+        "article_key": "team/understanding-team-roles.md",
+        "locale": "es",
+        "figures": 4,
+        "sections": 11,
+        "approved_assets_present": [
+          "/images/team/understanding-team-roles/roles-es.png",
+          "/images/team/understanding-team-roles/roles-es-mobile.png",
+          "/images/team/understanding-team-roles/capacity-es.png",
+          "/images/team/understanding-team-roles/capacity-es-mobile.png",
+          "/images/getting-started/setting-up-your-business/invite-es.png",
+          "/images/getting-started/setting-up-your-business/invite-es-mobile.png",
+          "/images/integrations/transferring-ownership/menu-es.png"
+        ],
+        "complete_article_matches_verified_build": true,
+        "article_sha256": "f6bba39fa0506c0a76220e6ac77505f1a3495322cce43be37c851061fe901dc8",
+        "html_sha256": "b89a893768792e881ec346501d461781fe727a2ba407bfba13981e21661aff26"
+      },
+      {
+        "url": "https://deploy-preview-335--legendary-lollipop-e2d131.netlify.app/understanding-team-roles",
+        "status": 200,
+        "article_key": "team/understanding-team-roles.md",
+        "locale": "en",
+        "figures": 4,
+        "sections": 11,
+        "approved_assets_present": [
+          "/images/team/understanding-team-roles/roles-en.png",
+          "/images/team/understanding-team-roles/roles-en-mobile.png",
+          "/images/team/understanding-team-roles/capacity-en.png",
+          "/images/team/understanding-team-roles/capacity-en-mobile.png",
+          "/images/getting-started/setting-up-your-business/invite-en.png",
+          "/images/getting-started/setting-up-your-business/invite-en-mobile.png",
+          "/images/integrations/transferring-ownership/menu-en.png"
+        ],
+        "complete_article_matches_verified_build": true,
+        "article_sha256": "bb43ec701da52c8f3afa14ff258793c1951c7dd9fcb433e7a4db739a5c335881",
+        "html_sha256": "62ef4f75af38255cd00b938b046c581af1eb3b6a3d0f06a7500d2ae79e32c2bd"
+      }
+    ],
+    "assets": [
+      {
+        "url": "https://deploy-preview-335--legendary-lollipop-e2d131.netlify.app/images/team/understanding-team-roles/roles-es.png",
+        "status": 200,
+        "sha256": "8f241c8a53e11aa119ddeb6f8d77dfaa571d697cda83a7a892de1d064b224b20",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-335--legendary-lollipop-e2d131.netlify.app/images/team/understanding-team-roles/roles-es-mobile.png",
+        "status": 200,
+        "sha256": "1b1ea07c8a1e1369b6010ede374de9b9b770108ad3f1dee51a54c6168f62ce4a",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-335--legendary-lollipop-e2d131.netlify.app/images/team/understanding-team-roles/capacity-es.png",
+        "status": 200,
+        "sha256": "0d1d09814783fd6d04d0448b1b287bd471d731e085cafe5b074fa327e1ce4acd",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-335--legendary-lollipop-e2d131.netlify.app/images/team/understanding-team-roles/capacity-es-mobile.png",
+        "status": 200,
+        "sha256": "2ca8c170f9ba507c113365ecac8232d8373a24f0766af7b1b9115d810ba19960",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-335--legendary-lollipop-e2d131.netlify.app/images/team/understanding-team-roles/roles-en.png",
+        "status": 200,
+        "sha256": "354e9a49cf3664b913bac536d4ea45c8a90092fa508fb1b67a9ecdcde4a2191f",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-335--legendary-lollipop-e2d131.netlify.app/images/team/understanding-team-roles/roles-en-mobile.png",
+        "status": 200,
+        "sha256": "7347515e91a48fc8563e6c29a61e725fe0a21ab070be1af01da147804052145a",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-335--legendary-lollipop-e2d131.netlify.app/images/team/understanding-team-roles/capacity-en.png",
+        "status": 200,
+        "sha256": "261a3da15546d25bc4dd292468d9ac7f0c0e3191aee3df0a2f4017de51ec8337",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-335--legendary-lollipop-e2d131.netlify.app/images/team/understanding-team-roles/capacity-en-mobile.png",
+        "status": 200,
+        "sha256": "077a1fcea5a38d7cc698a7db3bd2402830453883313013c5b043ca23de70722f",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-335--legendary-lollipop-e2d131.netlify.app/images/getting-started/setting-up-your-business/invite-es.png",
+        "status": 200,
+        "sha256": "0010b888702b74958041702cfd3452cdd8b3cda296792aab63e1048566b333b7",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-335--legendary-lollipop-e2d131.netlify.app/images/getting-started/setting-up-your-business/invite-es-mobile.png",
+        "status": 200,
+        "sha256": "713cbb97bba5eb35b1ecee5a54109c6ee7ad851788c2bae403942e7f370e80ce",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-335--legendary-lollipop-e2d131.netlify.app/images/getting-started/setting-up-your-business/invite-en.png",
+        "status": 200,
+        "sha256": "a75362c4e5cb1699355f490d9c17468e2ddef9ea2117b0aeeb78b37ba61e1d1a",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-335--legendary-lollipop-e2d131.netlify.app/images/getting-started/setting-up-your-business/invite-en-mobile.png",
+        "status": 200,
+        "sha256": "d57606e286475037973f6ff1c88a57c5ae2cbbc4f17a589d8e978be0e2dfb88c",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-335--legendary-lollipop-e2d131.netlify.app/images/integrations/transferring-ownership/menu-es.png",
+        "status": 200,
+        "sha256": "85fa4488ac96b2b34e75faa7644695461b94045431901b9318138c6683c34737",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-335--legendary-lollipop-e2d131.netlify.app/images/integrations/transferring-ownership/menu-en.png",
+        "status": 200,
+        "sha256": "42e333981346b17efbdb34c7318346b504a44bb6a7fcb3b72d887ab47a0aadf8",
+        "matches_approved_asset": true,
+        "reused": true
+      }
+    ]
+  },
+  "earlier_record_332_limitation": "This genuine later content SHA published normally; it does not prove publication of ad6d6455d0671cda042dc5ef184f73c86d64f8fb, whose internal Netlify deployment error remains historical."
+}
