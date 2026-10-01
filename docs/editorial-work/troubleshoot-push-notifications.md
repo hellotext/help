@@ -24,4 +24,6 @@ Build Ruby 3.3.6/bilingual/security headers passed. Six full ES/EN browser views
 
 ## Verification ledger
 
-Local verifier a7ab71b933db9a3224d09a354fd8d4fe44a23fea is the direct parent of the progress ledger commit. Reconciled totals: 90 locally verified, 63 pending, one out of scope. Public publication proof remains pending until the protected merge and normal production verification.
+Local verifier aa27f339576a56ac1d3e644e7529c341185c6739 is the direct parent of the progress ledger commit. Reconciled totals: 90 locally verified, 63 pending, one out of scope. Public publication proof remains pending until the protected merge and normal production verification.
+
+The initial verifier a7ab71b933db9a3224d09a354fd8d4fe44a23fea and ledger 779fd2dbb79e7a8c70fc656b31decc9728e5eca9 are retained. The final verifier only clarifies independent Help preview browser actions; original articles, sources, asset bytes and six view evidence remain unchanged.
