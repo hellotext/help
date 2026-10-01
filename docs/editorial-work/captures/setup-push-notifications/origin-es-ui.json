@@ -1,0 +1,128 @@
+{
+  "url": "http://127.0.0.1:3192/hellotext/settings/integrations/push/new",
+  "title": "Configura las notificaciones Push - Hellotext",
+  "locale": "es",
+  "viewport": [
+    1200,
+    900
+  ],
+  "dpr": 2,
+  "zoom": 1,
+  "scroll": [
+    0,
+    0
+  ],
+  "pageText": "D\nConecta tu tienda a Push\nURL de la tienda\n\nUsa la dirección HTTPS, como https://store.example.com, sin ruta, parámetros de consulta ni fragmentos.\n\nAtrás\nContinuar\n\nShopify y VTEX instalan Push automáticamente. Conecta tu tienda mediante la integración de Hellotext y completa la instalación en el sitio. No necesitas subir un archivo de service worker ni inicializar Hellotext.js por tu cuenta. Después, sigue la guía para agregar los controles de suscripción y verificar la configuración.",
+  "text": "Conecta tu tienda a Push\nURL de la tienda\n\nUsa la dirección HTTPS, como https://store.example.com, sin ruta, parámetros de consulta ni fragmentos.\n\nAtrás\nContinuar\n\nShopify y VTEX instalan Push automáticamente. Conecta tu tienda mediante la integración de Hellotext y completa la instalación en el sitio. No necesitas subir un archivo de service worker ni inicializar Hellotext.js por tu cuenta. Después, sigue la guía para agregar los controles de suscripción y verificar la configuración.",
+  "target": [
+    0,
+    84,
+    1200,
+    816
+  ],
+  "controls": [
+    {
+      "tag": "H1",
+      "text": "Conecta tu tienda a Push",
+      "id": "wizard-header-title",
+      "role": null,
+      "target": null,
+      "rect": [
+        146.6640625,
+        148,
+        506.6640625,
+        104
+      ]
+    },
+    {
+      "tag": "LABEL",
+      "text": "URL de la tienda",
+      "id": "",
+      "role": null,
+      "target": null,
+      "rect": [
+        146.6640625,
+        324,
+        506.6640625,
+        24
+      ]
+    },
+    {
+      "tag": "INPUT",
+      "text": "",
+      "name": "push_channel[origin]",
+      "value": "https://shop.example.test",
+      "id": "push_channel_origin",
+      "role": null,
+      "target": null,
+      "rect": [
+        146.6640625,
+        356,
+        506.6640625,
+        42
+      ]
+    },
+    {
+      "tag": "P",
+      "text": "Usa la dirección HTTPS, como https://store.example.com, sin ruta, parámetros de consulta ni fragmentos.",
+      "id": "push-origin-hint",
+      "role": null,
+      "target": null,
+      "rect": [
+        146.6640625,
+        406,
+        506.6640625,
+        40
+      ]
+    },
+    {
+      "tag": "X-LABEL",
+      "text": "Atrás",
+      "id": "",
+      "role": null,
+      "target": null,
+      "rect": [
+        32,
+        850,
+        41.5078125,
+        24
+      ]
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Continuar",
+      "name": "",
+      "id": "",
+      "role": null,
+      "target": null,
+      "rect": [
+        641.7265625,
+        840,
+        126.2734375,
+        44
+      ]
+    },
+    {
+      "tag": "P",
+      "text": "Shopify y VTEX instalan Push automáticamente. Conecta tu tienda mediante la integración de Hellotext y completa la instalación en el sitio. No necesitas subir un archivo de service worker ni inicializar Hellotext.js por tu cuenta. Después, sigue la guía para agregar los controles de suscripción y verificar la configuración.",
+      "id": "",
+      "role": null,
+      "target": null,
+      "rect": [
+        852,
+        324,
+        296,
+        216
+      ]
+    }
+  ],
+  "guard": {
+    "pid": 57358,
+    "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+    "port": 9460,
+    "one_local_page": true,
+    "account": "design-system@example.test",
+    "color_profile": "display-p3-d65",
+    "no_final_action": true
+  }
+}

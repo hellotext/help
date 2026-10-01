@@ -1,0 +1,695 @@
+{
+  "status": "local_verified_publication_pending",
+  "article_key": "integrations/setup-push-notifications.md",
+  "base_revision": "67078eed75f1b54eb0c8493bf3ce7dfaa8ff8012",
+  "originals": [
+    {
+      "article": "_i18n/es/integrations/setup-push-notifications.md",
+      "snapshot": "docs/editorial-work/captures/setup-push-notifications/originals/es.md",
+      "sha256": "745980dfe335e3034275b4810ae1d912ae3728890b8c9b6584014c4220cb7116",
+      "headings": [
+        "## 1. Elige cómo configurar tu tienda",
+        "## 2. Completa la instalación automática en Shopify o VTEX",
+        "## 3. Configura una tienda personalizada",
+        "## 4. Ofrece una forma de suscribirse y cancelar la suscripción",
+        "## 5. Verifica la configuración",
+        "## Guías relacionadas"
+      ],
+      "original_links": [
+        "_integrations/connect-shopify.md",
+        "_integrations/connect-vtex.md",
+        "_developers/setup-push-with-hellotext-js.md",
+        "_integrations/connect-shopify.md",
+        "_integrations/connect-vtex.md",
+        "_troubleshooting-deliverability/troubleshoot-push-notifications.md",
+        "_developers/setup-push-with-hellotext-js.md",
+        "_developers/custom-store-integration.md",
+        "_developers/setup-push-with-hellotext-js.md",
+        "_troubleshooting-deliverability/troubleshoot-push-notifications.md",
+        "_developers/setup-push-with-hellotext-js.md",
+        "_troubleshooting-deliverability/troubleshoot-push-notifications.md",
+        "_integrations/connect-shopify.md",
+        "_integrations/connect-vtex.md",
+        "_numbers/messaging-overview.md",
+        "_troubleshooting-deliverability/contact-hellotext-support.md"
+      ]
+    },
+    {
+      "article": "_i18n/en/integrations/setup-push-notifications.md",
+      "snapshot": "docs/editorial-work/captures/setup-push-notifications/originals/en.md",
+      "sha256": "40580720f0ad60d75d957f90d547d1047905ac53aba1df74d7d334a68335cb37",
+      "headings": [
+        "## 1. Choose your setup path",
+        "## 2. Complete automatic installation on Shopify or VTEX",
+        "## 3. Set up a custom storefront",
+        "## 4. Give visitors a way to subscribe and unsubscribe",
+        "## 5. Verify the setup",
+        "## Related guides"
+      ],
+      "original_links": [
+        "_integrations/connect-shopify.md",
+        "_integrations/connect-vtex.md",
+        "_developers/setup-push-with-hellotext-js.md",
+        "_integrations/connect-shopify.md",
+        "_integrations/connect-vtex.md",
+        "_troubleshooting-deliverability/troubleshoot-push-notifications.md",
+        "_developers/setup-push-with-hellotext-js.md",
+        "_developers/custom-store-integration.md",
+        "_developers/setup-push-with-hellotext-js.md",
+        "_troubleshooting-deliverability/troubleshoot-push-notifications.md",
+        "_developers/setup-push-with-hellotext-js.md",
+        "_troubleshooting-deliverability/troubleshoot-push-notifications.md",
+        "_integrations/connect-shopify.md",
+        "_integrations/connect-vtex.md",
+        "_numbers/messaging-overview.md",
+        "_troubleshooting-deliverability/contact-hellotext-support.md"
+      ]
+    },
+    {
+      "article": "_integrations/setup-push-notifications.md",
+      "snapshot": "docs/editorial-work/captures/setup-push-notifications/originals/stub.md",
+      "sha256": "4b9d67c69868f59a76af28bb06ffb2df40cea5f38d3f87a70ad0c35af2920e31",
+      "headings": [],
+      "original_links": []
+    }
+  ],
+  "images": [
+    {
+      "name": "business-es",
+      "concept": "business",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/custom-store-integration/business-es-original.png",
+      "published_asset": "images/developers/custom-store-integration/business-es.png",
+      "native": {
+        "sha256": "17ec399500cee235d73459ced0de47fac99054987976a56f4e09603150ef5dfb",
+        "url": "http://127.0.0.1:3192/hellotext/settings",
+        "locale": "es",
+        "cssViewport": [
+          1200,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          308,
+          147,
+          868,
+          202
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1736,
+          404
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        868.0,
+        202.0
+      ],
+      "intended_max_display_width_css": 868.0,
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-es-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved original source reused unchanged; current consumer publication pending.",
+      "reuse": true,
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json"
+    },
+    {
+      "name": "business-es-mobile",
+      "concept": "business",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/custom-store-integration/business-es-mobile-original.png",
+      "published_asset": "images/developers/custom-store-integration/business-es-mobile.png",
+      "native": {
+        "sha256": "0c7ac4c233075fa5d072e27ac33e7947092bf6406858524ab12fa546be553ed8",
+        "url": "http://127.0.0.1:3192/hellotext/settings",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          8,
+          336,
+          374,
+          262
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          748,
+          524
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        374.0,
+        262.0
+      ],
+      "intended_max_display_width_css": 374.0,
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-es-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved original source reused unchanged; current consumer publication pending.",
+      "reuse": true,
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json"
+    },
+    {
+      "name": "business-en",
+      "concept": "business",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/custom-store-integration/business-en-original.png",
+      "published_asset": "images/developers/custom-store-integration/business-en.png",
+      "native": {
+        "sha256": "1f7f132b2245056eda5166b1b1cfdbeee406ebcf7bad4a13a6eb3fd501184d7f",
+        "url": "http://127.0.0.1:3192/hellotext/settings",
+        "locale": "en",
+        "cssViewport": [
+          1200,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          308,
+          147,
+          868,
+          202
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1736,
+          404
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        868.0,
+        202.0
+      ],
+      "intended_max_display_width_css": 868.0,
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-en-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved original source reused unchanged; current consumer publication pending.",
+      "reuse": true,
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json"
+    },
+    {
+      "name": "business-en-mobile",
+      "concept": "business",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/custom-store-integration/business-en-mobile-original.png",
+      "published_asset": "images/developers/custom-store-integration/business-en-mobile.png",
+      "native": {
+        "sha256": "c7badab42d6878393ab746c2950605b8153dc38d60ac1ae09c747a949706bfeb",
+        "url": "http://127.0.0.1:3192/hellotext/settings",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          800
+        ],
+        "browserDpr": 2,
+        "clip": [
+          8,
+          336,
+          374,
+          262
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          748,
+          524
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        374.0,
+        262.0
+      ],
+      "intended_max_display_width_css": 374.0,
+      "ui_evidence": "docs/editorial-work/captures/custom-store-integration/business-en-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved original source reused unchanged; current consumer publication pending.",
+      "reuse": true,
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json"
+    },
+    {
+      "name": "origin-es",
+      "concept": "origin",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/setup-push-notifications/origin-es-original.png",
+      "published_asset": "images/integrations/setup-push-notifications/origin-es.png",
+      "native": {
+        "output": "/private/tmp/hellotext-push-notifications-editorial-20261001/native/origin-es-original.png",
+        "sha256": "fa59b9a6e10d67c3564f94e521167c033ca6919d38770e85479402e3626908d5",
+        "url": "http://127.0.0.1:3192/hellotext/settings/integrations/push/new",
+        "locale": "es",
+        "cssViewport": [
+          1200,
+          900
+        ],
+        "browserDpr": 2,
+        "clip": [
+          134,
+          312,
+          532,
+          146
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1064,
+          292
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        532,
+        146
+      ],
+      "intended_max_display_width_css": 532,
+      "ui_evidence": "docs/editorial-work/captures/setup-push-notifications/origin-es-ui.json",
+      "native_evidence": "docs/editorial-work/captures/setup-push-notifications/origin-es-native.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "reuse": false,
+      "publication_status": "Native pixels inspected and approved locally; publication pending.",
+      "original_provenance": "docs/editorial-work/captures/setup-push-notifications/capture-provenance.json"
+    },
+    {
+      "name": "origin-es-mobile",
+      "concept": "origin",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/setup-push-notifications/origin-es-mobile-original.png",
+      "published_asset": "images/integrations/setup-push-notifications/origin-es-mobile.png",
+      "native": {
+        "output": "/private/tmp/hellotext-push-notifications-editorial-20261001/native/origin-es-mobile-original.png",
+        "sha256": "14c8a9c76ffe7998b42e154756d3030b572c2fb509cbcc7b5a91b40ed7b7bc43",
+        "url": "http://127.0.0.1:3192/hellotext/settings/integrations/push/new",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          844
+        ],
+        "browserDpr": 2,
+        "clip": [
+          4,
+          192,
+          382,
+          166
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          764,
+          332
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        382,
+        166
+      ],
+      "intended_max_display_width_css": 382,
+      "ui_evidence": "docs/editorial-work/captures/setup-push-notifications/origin-es-mobile-ui.json",
+      "native_evidence": "docs/editorial-work/captures/setup-push-notifications/origin-es-mobile-native.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "reuse": false,
+      "publication_status": "Native pixels inspected and approved locally; publication pending.",
+      "original_provenance": "docs/editorial-work/captures/setup-push-notifications/capture-provenance.json"
+    },
+    {
+      "name": "alert-es",
+      "concept": "alert",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/setup-push-notifications/alert-es-original.png",
+      "published_asset": "images/integrations/setup-push-notifications/alert-es.png",
+      "native": {
+        "output": "/private/tmp/hellotext-push-notifications-editorial-20261001/native/alert-es-original.png",
+        "sha256": "e02b43c9069d3d2a0c403fd2e07c625462e7c4b174903f68e3005e101931b4b3",
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/smart-alert/new",
+        "locale": "es",
+        "cssViewport": [
+          1200,
+          900
+        ],
+        "browserDpr": 2,
+        "clip": [
+          668,
+          109,
+          496,
+          260
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          992,
+          520
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        496,
+        260
+      ],
+      "intended_max_display_width_css": 496,
+      "ui_evidence": "docs/editorial-work/captures/setup-push-notifications/alert-es-ui.json",
+      "native_evidence": "docs/editorial-work/captures/setup-push-notifications/alert-es-native.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "reuse": false,
+      "publication_status": "Native pixels inspected and approved locally; publication pending.",
+      "original_provenance": "docs/editorial-work/captures/setup-push-notifications/capture-provenance.json"
+    },
+    {
+      "name": "alert-es-mobile",
+      "concept": "alert",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/setup-push-notifications/alert-es-mobile-original.png",
+      "published_asset": "images/integrations/setup-push-notifications/alert-es-mobile.png",
+      "native": {
+        "output": "/private/tmp/hellotext-push-notifications-editorial-20261001/native/alert-es-mobile-original.png",
+        "sha256": "c0949b17b4a60085477ec06d6c0ed1884a83a14496c52d6da4a0cf8941a60c43",
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/smart-alert/new",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          844
+        ],
+        "browserDpr": 2,
+        "clip": [
+          12,
+          129,
+          366,
+          346
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          732,
+          692
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        366,
+        346
+      ],
+      "intended_max_display_width_css": 366,
+      "ui_evidence": "docs/editorial-work/captures/setup-push-notifications/alert-es-mobile-ui.json",
+      "native_evidence": "docs/editorial-work/captures/setup-push-notifications/alert-es-mobile-native.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "reuse": false,
+      "publication_status": "Native pixels inspected and approved locally; publication pending.",
+      "original_provenance": "docs/editorial-work/captures/setup-push-notifications/capture-provenance.json"
+    },
+    {
+      "name": "origin-en",
+      "concept": "origin",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/setup-push-notifications/origin-en-original.png",
+      "published_asset": "images/integrations/setup-push-notifications/origin-en.png",
+      "native": {
+        "output": "/private/tmp/hellotext-push-notifications-editorial-20261001/native/origin-en-original.png",
+        "sha256": "dd56bbed90b8d9fc69ad9bae67f37f3eced0c3bc13211af14d27d8740a2b811f",
+        "url": "http://127.0.0.1:3192/hellotext/settings/integrations/push/new",
+        "locale": "en",
+        "cssViewport": [
+          1200,
+          900
+        ],
+        "browserDpr": 2,
+        "clip": [
+          134,
+          312,
+          532,
+          146
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1064,
+          292
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        532,
+        146
+      ],
+      "intended_max_display_width_css": 532,
+      "ui_evidence": "docs/editorial-work/captures/setup-push-notifications/origin-en-ui.json",
+      "native_evidence": "docs/editorial-work/captures/setup-push-notifications/origin-en-native.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "reuse": false,
+      "publication_status": "Native pixels inspected and approved locally; publication pending.",
+      "original_provenance": "docs/editorial-work/captures/setup-push-notifications/capture-provenance.json"
+    },
+    {
+      "name": "origin-en-mobile",
+      "concept": "origin",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/setup-push-notifications/origin-en-mobile-original.png",
+      "published_asset": "images/integrations/setup-push-notifications/origin-en-mobile.png",
+      "native": {
+        "output": "/private/tmp/hellotext-push-notifications-editorial-20261001/native/origin-en-mobile-original.png",
+        "sha256": "bb8c060dad6b6ab9a1d07a5f94175f1b7463cec61d1c73e03908215cd8ff6d8e",
+        "url": "http://127.0.0.1:3192/hellotext/settings/integrations/push/new",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          844
+        ],
+        "browserDpr": 2,
+        "clip": [
+          4,
+          192,
+          382,
+          166
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          764,
+          332
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        382,
+        166
+      ],
+      "intended_max_display_width_css": 382,
+      "ui_evidence": "docs/editorial-work/captures/setup-push-notifications/origin-en-mobile-ui.json",
+      "native_evidence": "docs/editorial-work/captures/setup-push-notifications/origin-en-mobile-native.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "reuse": false,
+      "publication_status": "Native pixels inspected and approved locally; publication pending.",
+      "original_provenance": "docs/editorial-work/captures/setup-push-notifications/capture-provenance.json"
+    },
+    {
+      "name": "alert-en",
+      "concept": "alert",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/setup-push-notifications/alert-en-original.png",
+      "published_asset": "images/integrations/setup-push-notifications/alert-en.png",
+      "native": {
+        "output": "/private/tmp/hellotext-push-notifications-editorial-20261001/native/alert-en-original.png",
+        "sha256": "1f23f73197f7f471bd1d56e5fce8962d1eff0617d211767be5db8636d8dad6e4",
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/smart-alert/new",
+        "locale": "en",
+        "cssViewport": [
+          1200,
+          900
+        ],
+        "browserDpr": 2,
+        "clip": [
+          668,
+          109,
+          496,
+          260
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          992,
+          520
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        496,
+        260
+      ],
+      "intended_max_display_width_css": 496,
+      "ui_evidence": "docs/editorial-work/captures/setup-push-notifications/alert-en-ui.json",
+      "native_evidence": "docs/editorial-work/captures/setup-push-notifications/alert-en-native.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "reuse": false,
+      "publication_status": "Native pixels inspected and approved locally; publication pending.",
+      "original_provenance": "docs/editorial-work/captures/setup-push-notifications/capture-provenance.json"
+    },
+    {
+      "name": "alert-en-mobile",
+      "concept": "alert",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/setup-push-notifications/alert-en-mobile-original.png",
+      "published_asset": "images/integrations/setup-push-notifications/alert-en-mobile.png",
+      "native": {
+        "output": "/private/tmp/hellotext-push-notifications-editorial-20261001/native/alert-en-mobile-original.png",
+        "sha256": "8c1afef271e28d8977be58884d59c62285d7c1f3f6004459dce9638da0b7a91b",
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/smart-alert/new",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          844
+        ],
+        "browserDpr": 2,
+        "clip": [
+          12,
+          129,
+          366,
+          316
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          732,
+          632
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        366,
+        316
+      ],
+      "intended_max_display_width_css": 366,
+      "ui_evidence": "docs/editorial-work/captures/setup-push-notifications/alert-en-mobile-ui.json",
+      "native_evidence": "docs/editorial-work/captures/setup-push-notifications/alert-en-mobile-native.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "reuse": false,
+      "publication_status": "Native pixels inspected and approved locally; publication pending.",
+      "original_provenance": "docs/editorial-work/captures/setup-push-notifications/capture-provenance.json"
+    }
+  ],
+  "new_captures": 8,
+  "new_png_uploads": 8,
+  "reused_pngs": 4,
+  "protected_state": {
+    "database": "hellotext_editorial_workload_20260928",
+    "business_id": 5,
+    "business_public_id": "4ONLdN32",
+    "business_name": "Enterprise",
+    "account": "design-system@example.test",
+    "locale": "es",
+    "contacts": 127,
+    "messageable": 0,
+    "subscribed": 0,
+    "messages": 49,
+    "events": 318,
+    "enabled_playbooks": 0,
+    "tokens": 0,
+    "push_channels": 0,
+    "push_identities": 0,
+    "integrations": 0,
+    "smart_alert_playbooks": 0,
+    "smart_alert_submissions": 0,
+    "smart_alert_template": {
+      "code": "smart_alert_capture",
+      "components": [
+        "Playbook::Component::SmartAlert::Appearance",
+        "Playbook::Component::SmartAlert::Personalization"
+      ]
+    },
+    "push_channel_creation_allowed": true
+  },
+  "pending": [
+    "Protected exact-head checks/review, merge and public verification"
+  ],
+  "fixture_before_after_equal": true,
+  "local_verification": {
+    "evidence": "local-verification.json",
+    "page_review": "page-review/",
+    "widths_css": [
+      1440,
+      390,
+      580
+    ],
+    "top_level_sections": 6,
+    "original_links_per_locale": 16,
+    "figures_per_locale": 3,
+    "examples_per_locale": 0,
+    "publication_state": "pending"
+  }
+}
