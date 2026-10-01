@@ -1,5 +1,5 @@
 {
-  "status": "locally_verified",
+  "status": "publicly_verified",
   "base_revision": "6fe4adcc5230db4c318ee774b997648af62f6fd7",
   "originals": [
     {
@@ -138,7 +138,9 @@
         "GET"
       ],
       "reused": false,
-      "new_capture": true
+      "new_capture": true,
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "concept": "custom",
@@ -211,7 +213,9 @@
         "GET"
       ],
       "reused": false,
-      "new_capture": true
+      "new_capture": true,
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "concept": "custom",
@@ -284,7 +288,9 @@
         "GET"
       ],
       "reused": false,
-      "new_capture": true
+      "new_capture": true,
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "concept": "options",
@@ -357,7 +363,9 @@
         "GET"
       ],
       "reused": false,
-      "new_capture": true
+      "new_capture": true,
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "concept": "options",
@@ -430,7 +438,9 @@
         "GET"
       ],
       "reused": false,
-      "new_capture": true
+      "new_capture": true,
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "concept": "team",
@@ -503,7 +513,9 @@
         "GET"
       ],
       "reused": false,
-      "new_capture": true
+      "new_capture": true,
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "concept": "custom",
@@ -576,7 +588,9 @@
         "GET"
       ],
       "reused": false,
-      "new_capture": true
+      "new_capture": true,
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "concept": "custom",
@@ -649,7 +663,9 @@
         "GET"
       ],
       "reused": false,
-      "new_capture": true
+      "new_capture": true,
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "concept": "options",
@@ -722,7 +738,9 @@
         "GET"
       ],
       "reused": false,
-      "new_capture": true
+      "new_capture": true,
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "concept": "options",
@@ -795,7 +813,9 @@
         "GET"
       ],
       "reused": false,
-      "new_capture": true
+      "new_capture": true,
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "concept": "capacity",
@@ -1123,7 +1143,9 @@
       "historical_limits": [
         "Source labels become compact at phone width; adjacent prose carries the essential values."
       ],
-      "capture_route": "Native macOS selected-window /usr/sbin/screencapture -l, scoped to one SCContentSharingPicker-selected Chrome window. The helper checked the exact window ID, owner PID, title, bounds, 2x raster, Display P3 color space, embedded ICC, and report OCR before saving."
+      "capture_route": "Native macOS selected-window /usr/sbin/screencapture -l, scoped to one SCContentSharingPicker-selected Chrome window. The helper checked the exact window ID, owner PID, title, bounds, 2x raster, Display P3 color space, embedded ICC, and report OCR before saving.",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "concept": "pressure",
@@ -1148,7 +1170,9 @@
         "Team names remain Spanish fictional proper names in the English UI; product labels are localized.",
         "Source labels become compact at phone width; adjacent prose carries the essential values."
       ],
-      "capture_route": "Native macOS selected-window /usr/sbin/screencapture -l, scoped to one SCContentSharingPicker-selected Chrome window. The helper checked the exact window ID, owner PID, title, bounds, 2x raster, Display P3 color space, embedded ICC, and report OCR before saving."
+      "capture_route": "Native macOS selected-window /usr/sbin/screencapture -l, scoped to one SCContentSharingPicker-selected Chrome window. The helper checked the exact window ID, owner PID, title, bounds, 2x raster, Display P3 color space, embedded ICC, and report OCR before saving.",
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "concept": "team",
@@ -1221,7 +1245,9 @@
         "GET"
       ],
       "reused": false,
-      "new_capture": true
+      "new_capture": true,
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "concept": "team",
@@ -1294,7 +1320,9 @@
         "GET"
       ],
       "reused": false,
-      "new_capture": true
+      "new_capture": true,
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     }
   ],
   "source_audit": "docs/editorial-work/captures/teams-and-inbox-capacity/source-audit.json",
@@ -1310,8 +1338,7 @@
     "measured_fixture_fields_identical": true,
     "limits": "Measured fields only, not whole-DB equality or last_online_at guarantee. Capture helper validates before/after but returns no raw post snapshot. Reused sources retain their historical evidence; no retroactive guards. Initial native mobile team candidates with clipped placeholder rejected and never integrated. Accepted mobile sources use actual read-only member search Lucía, closed with Escape, no selection/add/save and empty hidden member_ids. Native pixels unchanged."
   },
-  "pending": [
-    "Protected PR/checks, independent exact-head review, normal production and public page/hash verification."
-  ],
-  "local_verification": "docs/editorial-work/captures/teams-and-inbox-capacity/local-verification.json"
+  "pending": [],
+  "local_verification": "docs/editorial-work/captures/teams-and-inbox-capacity/local-verification.json",
+  "public_verification": "docs/editorial-work/captures/teams-and-inbox-capacity/public-verification.json"
 }

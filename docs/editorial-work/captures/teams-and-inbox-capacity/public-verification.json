@@ -1,0 +1,522 @@
+{
+  "verified_at_utc": "2026-10-01T17:59:22.614675+00:00",
+  "verified_git_main_sha": "6b524f0995d4e387ff2571b5ecffd1928eb8f9d6",
+  "production_deploy_id_sha_association": {
+    "id": "6abe9f29cb88430008f1c84c",
+    "site_id": "d66a79c1-b5de-44d1-bc47-bc7809f7f3b3",
+    "state": "ready",
+    "context": "production",
+    "branch": "main",
+    "commit_ref": "6b524f0995d4e387ff2571b5ecffd1928eb8f9d6",
+    "created_at": "2026-10-01T17:58:01.736Z",
+    "published_at": "2026-10-01T17:58:34.464Z",
+    "deploy_ssl_url": "https://main--legendary-lollipop-e2d131.netlify.app"
+  },
+  "deployment_method": "Normal Netlify production after Git merge; no manual deploy. Accessible public site-alias listing provided exact commit_ref.",
+  "pages": [
+    {
+      "url": "https://help.hellotext.com/es/equipos-y-capacidad-inbox",
+      "status": 200,
+      "article_key": "team/teams-and-inbox-capacity.md",
+      "locale": "es",
+      "figures": 5,
+      "sections": 10,
+      "approved_assets_present": [
+        "/images/team/teams-and-inbox-capacity/team-es.png",
+        "/images/team/teams-and-inbox-capacity/custom-es.png",
+        "/images/team/teams-and-inbox-capacity/custom-es-mobile.png",
+        "/images/team/teams-and-inbox-capacity/options-es.png",
+        "/images/team/teams-and-inbox-capacity/options-es-mobile.png",
+        "/images/team/understanding-team-roles/capacity-es.png",
+        "/images/team/understanding-team-roles/capacity-es-mobile.png",
+        "/images/analytics-reporting-attribution/workload-capacity-report-guide/capacity-pressure-team-es.png",
+        "/images/team/teams-and-inbox-capacity/team-es-mobile.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "bb48304316bcfabec4b255dd7964fa1f0e5f067a3eeef7ac5c9f55fa0f4c5360",
+      "html_sha256": "9bb5ed5882c4d99170412b77999366763619d012ee5cf2bfb075166bb98a948d"
+    },
+    {
+      "url": "https://help.hellotext.com/teams-and-inbox-capacity",
+      "status": 200,
+      "article_key": "team/teams-and-inbox-capacity.md",
+      "locale": "en",
+      "figures": 5,
+      "sections": 10,
+      "approved_assets_present": [
+        "/images/team/teams-and-inbox-capacity/team-en.png",
+        "/images/team/teams-and-inbox-capacity/custom-en.png",
+        "/images/team/teams-and-inbox-capacity/custom-en-mobile.png",
+        "/images/team/teams-and-inbox-capacity/options-en.png",
+        "/images/team/teams-and-inbox-capacity/options-en-mobile.png",
+        "/images/team/understanding-team-roles/capacity-en.png",
+        "/images/team/understanding-team-roles/capacity-en-mobile.png",
+        "/images/analytics-reporting-attribution/workload-capacity-report-guide/capacity-pressure-team-en.png",
+        "/images/team/teams-and-inbox-capacity/team-en-mobile.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "030c691adc7764d31596f1003cb5d288f39d23f3a05e5f8b036c73672f8906e9",
+      "html_sha256": "3eeb73a7f5b9d3cee945d5da86f0091b7e947a3023694777b75aac5ada117b9d"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://help.hellotext.com/images/team/teams-and-inbox-capacity/team-es.png",
+      "status": 200,
+      "sha256": "cdb8ed96c8246701741a7501c1eba3b23665b14bf00153c09be66e2148be8156",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/teams-and-inbox-capacity/custom-es.png",
+      "status": 200,
+      "sha256": "b73cb6eadeb8b53e5451b77e49a5d84f91ec2fb2f478d1d2bc86ed641846bf6f",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/teams-and-inbox-capacity/custom-es-mobile.png",
+      "status": 200,
+      "sha256": "14a7953c80e17f4b02fc391bd9f91891fb22f8673980a11bf887c02f7a314aea",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/teams-and-inbox-capacity/options-es.png",
+      "status": 200,
+      "sha256": "9b2f74701fdc4e18c63d9cadd9258a31c17e27aa548cac15179ee81e605a19f3",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/teams-and-inbox-capacity/options-es-mobile.png",
+      "status": 200,
+      "sha256": "44e032d536de05372f9b9281ed39a9828ce75c3f5904853b6cc06541a30f1423",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/teams-and-inbox-capacity/team-en.png",
+      "status": 200,
+      "sha256": "0fdd0da08281b9c3a7ae0b57e8a1dfa30f1dd4a914f291314f3d7d46f0c847ee",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/teams-and-inbox-capacity/custom-en.png",
+      "status": 200,
+      "sha256": "7f1cf4bd8e157da08c68474eb5a3c3ac6a0e459736095acd1f338aee8f08af8c",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/teams-and-inbox-capacity/custom-en-mobile.png",
+      "status": 200,
+      "sha256": "1ebee7da66b30047cd8f2a14fb7e518708482a4ca8812cf3a39eb3d8d86dd64e",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/teams-and-inbox-capacity/options-en.png",
+      "status": 200,
+      "sha256": "175b175cc80b042bb81dbca8de68f8e35ece3581e3beab08b841d030634c3b19",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/teams-and-inbox-capacity/options-en-mobile.png",
+      "status": 200,
+      "sha256": "33bd0dcf13bc921a3c60bfc963bdccd195fb7c8c3d99448eccd1f84229472394",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-team-roles/capacity-es.png",
+      "status": 200,
+      "sha256": "0d1d09814783fd6d04d0448b1b287bd471d731e085cafe5b074fa327e1ce4acd",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-team-roles/capacity-es-mobile.png",
+      "status": 200,
+      "sha256": "2ca8c170f9ba507c113365ecac8232d8373a24f0766af7b1b9115d810ba19960",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-team-roles/capacity-en.png",
+      "status": 200,
+      "sha256": "261a3da15546d25bc4dd292468d9ac7f0c0e3191aee3df0a2f4017de51ec8337",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-team-roles/capacity-en-mobile.png",
+      "status": 200,
+      "sha256": "077a1fcea5a38d7cc698a7db3bd2402830453883313013c5b043ca23de70722f",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/workload-capacity-report-guide/capacity-pressure-team-es.png",
+      "status": 200,
+      "sha256": "caced6c015f19edfc8124d91784692cfcf051b2a0faeef23f15d605c2ae1ba3b",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/workload-capacity-report-guide/capacity-pressure-team-en.png",
+      "status": 200,
+      "sha256": "d11d44ac90cbf609c2608cec06af5779249adda7a92f2719f24cb3608e338784",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/teams-and-inbox-capacity/team-es-mobile.png",
+      "status": 200,
+      "sha256": "6765d3e145f283ece5db239bb58568298960bdc67c8ee4259e95d0907b532541",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/teams-and-inbox-capacity/team-en-mobile.png",
+      "status": 200,
+      "sha256": "426b38a4d5e4e7cc63290c0d412bff4a77377156f3bfea4c814233937ec46231",
+      "matches_approved_asset": true,
+      "reused": false
+    }
+  ],
+  "new_captures": 12,
+  "new_png_uploads": 12,
+  "reused_pngs": 6,
+  "all_affected_article_pngs": 18,
+  "main_build": {
+    "conclusion": "success",
+    "databaseId": 36903308184,
+    "event": "push",
+    "headSha": "6b524f0995d4e387ff2571b5ecffd1928eb8f9d6",
+    "status": "completed",
+    "url": "https://github.com/hellotext/help/actions/runs/36903308184"
+  },
+  "content_pr": "https://github.com/hellotext/help/pull/337",
+  "content_pr_head": "4dd69516644d992610bf22915f90dd72f0a362d6",
+  "individual_commits_preserved": [
+    "c0d8b63e1068eae01b028fb8d2d4d1f67d263101",
+    "4dd69516644d992610bf22915f90dd72f0a362d6"
+  ],
+  "unresolved_review_threads_before_merge": 0,
+  "pre_merge_review": {
+    "head": "4dd69516644d992610bf22915f90dd72f0a362d6",
+    "checks": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T17:53:46Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/hellotext/help/actions/runs/36902709430/job/110505519764",
+        "name": "build",
+        "startedAt": "2026-10-01T17:53:17Z",
+        "status": "COMPLETED",
+        "workflowName": "Build"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T17:53:45Z",
+        "conclusion": "NEUTRAL",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abe9e09920f000007086831",
+        "name": "Pages changed - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T17:53:14Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T17:53:45Z",
+        "conclusion": "NEUTRAL",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abe9e09920f000007086831",
+        "name": "Redirect rules - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T17:53:14Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T17:53:42Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://app.aikido.dev/featurebranch/scan/209617846?groupId=34029",
+        "name": "Aikido Security: check code",
+        "startedAt": "2026-10-01T17:53:14Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T17:53:45Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abe9e09920f000007086831",
+        "name": "Header rules - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T17:53:14Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "StatusContext",
+        "context": "netlify/legendary-lollipop-e2d131/deploy-preview",
+        "startedAt": "2026-10-01T17:53:47Z",
+        "state": "SUCCESS",
+        "targetUrl": "https://deploy-preview-337--legendary-lollipop-e2d131.netlify.app"
+      }
+    ],
+    "comments": [
+      {
+        "id": "IC_kwDOIVbAxs8AAAABYeLtCg",
+        "author": {
+          "login": "netlify"
+        },
+        "authorAssociation": "NONE",
+        "body": "### <span aria-hidden=\"true\">\u2705</span> Deploy Preview for *legendary-lollipop-e2d131* ready!\n\n\n|  Name | Link |\n|:-:|------------------------|\n|<span aria-hidden=\"true\">\ud83d\udd28</span> Latest commit | 4dd69516644d992610bf22915f90dd72f0a362d6 |\n|<span aria-hidden=\"true\">\ud83d\udd0d</span> Latest deploy log | https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abe9e09920f000007086831 |\n|<span aria-hidden=\"true\">\ud83d\ude0e</span> Deploy Preview | [https://deploy-preview-337--legendary-lollipop-e2d131.netlify.app](https://deploy-preview-337--legendary-lollipop-e2d131.netlify.app) |\n|<span aria-hidden=\"true\">\ud83d\udcf1</span> Preview on mobile | <details><summary> Toggle QR Code... </summary><br /><br />![QR Code](https://app.netlify.com/qr-code/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJodHRwczovL2RlcGxveS1wcmV2aWV3LTMzNy0tbGVnZW5kYXJ5LWxvbGxpcG9wLWUyZDEzMS5uZXRsaWZ5LmFwcCJ9.fkr3VB21Saa_oKmQ0uK3HLDWLXd2ABpqpW6-wzH3H74)<br /><br />_Use your smartphone camera to open QR code link._</details> |\n|<span aria-hidden=\"true\">\ud83e\udd16</span> Make changes | [Run an agent on this branch](https://app.netlify.com/projects/legendary-lollipop-e2d131/agent-runs#FcpBCoAgEEDRu8w6yQoqu0HHGMephFIxAyO6e_ZXf_EeCNEfIcEEUIGO6GgrT95wrhPjcQrrtM-CMCDZdIv1soaLNRx2f8-m6B41K5ZKtXKRf4Mc-7Fr4P0A) |\n---\n<!-- [legendary-lollipop-e2d131 Preview](https://deploy-preview-337--legendary-lollipop-e2d131.netlify.app) -->\n_To edit notification comments on pull requests, go to your [Netlify project configuration](https://app.netlify.com/projects/legendary-lollipop-e2d131/configuration/notifications#deploy-notifications)._",
+        "createdAt": "2026-10-01T17:53:16Z",
+        "includesCreatedEdit": true,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/hellotext/help/pull/337#issuecomment-5937229066",
+        "viewerDidAuthor": false
+      },
+      {
+        "id": "IC_kwDOIVbAxs8AAAABYeLzvg",
+        "author": {
+          "login": "chatgpt-codex-connector"
+        },
+        "authorAssociation": "NONE",
+        "body": "<!-- codex-pull-request-review-summary -->\n\n## Codex Review Summary\n\nThis comment shows the latest Codex review activity on this pull request.\n\n| Review | Status | Commit | Review trigger |\n| --- | --- | --- | --- |\n| \ud83d\udcdd **Code Review** | \u2705 **Completed** <relative-time datetime=\"2026-10-01T17:56:48.504604Z\">2026-10-01T17:56:48.504604Z</relative-time> | `4dd6951` | Manual request |\n\n\n\n<details> <summary>\u2139\ufe0f About Codex in GitHub</summary>\n<br/>\n\n[Your team has set up Codex to review pull requests in this repo](https://chatgpt.com/codex/cloud/settings/general). Reviews are triggered when you\n- Open a pull request for review\n- Mark a draft as ready\n- Comment \"@codex review\" or \"@codex security review\".\n\nCodex reacts with \ud83d\udc40 while any review is running, comments if it has suggestions, and reacts with \ud83d\udc4d once all reviews finish with no findings.\n\n</details>",
+        "createdAt": "2026-10-01T17:53:22Z",
+        "includesCreatedEdit": true,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/hellotext/help/pull/337#issuecomment-5937230782",
+        "viewerDidAuthor": false
+      },
+      {
+        "id": "IC_kwDOIVbAxs8AAAABYeL6ow",
+        "author": {
+          "login": "pelcasandra"
+        },
+        "authorAssociation": "MEMBER",
+        "body": "@codex review",
+        "createdAt": "2026-10-01T17:53:28Z",
+        "includesCreatedEdit": false,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/hellotext/help/pull/337#issuecomment-5937232547",
+        "viewerDidAuthor": true
+      },
+      {
+        "id": "IC_kwDOIVbAxs8AAAABYePmEg",
+        "author": {
+          "login": "chatgpt-codex-connector"
+        },
+        "authorAssociation": "NONE",
+        "body": "Codex Review: Didn't find any major issues. Keep it up!\n\n**Reviewed commit:** `4dd6951664`\n\n<details> <summary>\u2139\ufe0f About Codex in GitHub</summary>\n<br/>\n\n[Your team has set up Codex to review pull requests in this repo](https://chatgpt.com/codex/cloud/settings/general). Reviews are triggered when you\n- Open a pull request for review\n- Mark a draft as ready\n- Comment \"@codex review\".\n\nIf Codex has suggestions, it will comment; otherwise it will react with \ud83d\udc4d.\n\n\n\n\nCodex can also answer questions or update the PR. Try commenting \"@codex address that feedback\".\n            \n</details>",
+        "createdAt": "2026-10-01T17:56:47Z",
+        "includesCreatedEdit": false,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/hellotext/help/pull/337#issuecomment-5937292818",
+        "viewerDidAuthor": false
+      }
+    ],
+    "reviews": [],
+    "threads": [],
+    "all_actual_comments_reviews_threads_read": true
+  },
+  "preview_verification": {
+    "head": "4dd69516644d992610bf22915f90dd72f0a362d6",
+    "preview_url": "https://deploy-preview-337--legendary-lollipop-e2d131.netlify.app",
+    "deployment": {
+      "id": "6abe9e09920f000007086831",
+      "context": "deploy-preview",
+      "commit_ref": "4dd69516644d992610bf22915f90dd72f0a362d6",
+      "state": "ready",
+      "review_id": 337
+    },
+    "pages": [
+      {
+        "url": "https://deploy-preview-337--legendary-lollipop-e2d131.netlify.app/es/equipos-y-capacidad-inbox",
+        "status": 200,
+        "article_key": "team/teams-and-inbox-capacity.md",
+        "locale": "es",
+        "figures": 5,
+        "sections": 10,
+        "approved_assets_present": [
+          "/images/team/teams-and-inbox-capacity/team-es.png",
+          "/images/team/teams-and-inbox-capacity/custom-es.png",
+          "/images/team/teams-and-inbox-capacity/custom-es-mobile.png",
+          "/images/team/teams-and-inbox-capacity/options-es.png",
+          "/images/team/teams-and-inbox-capacity/options-es-mobile.png",
+          "/images/team/understanding-team-roles/capacity-es.png",
+          "/images/team/understanding-team-roles/capacity-es-mobile.png",
+          "/images/analytics-reporting-attribution/workload-capacity-report-guide/capacity-pressure-team-es.png",
+          "/images/team/teams-and-inbox-capacity/team-es-mobile.png"
+        ],
+        "complete_article_matches_verified_build": true,
+        "article_sha256": "bb48304316bcfabec4b255dd7964fa1f0e5f067a3eeef7ac5c9f55fa0f4c5360",
+        "html_sha256": "517c04cb3a7a30465ea1044808504cf70e91d6c907486cb8be282b519fb52803"
+      },
+      {
+        "url": "https://deploy-preview-337--legendary-lollipop-e2d131.netlify.app/teams-and-inbox-capacity",
+        "status": 200,
+        "article_key": "team/teams-and-inbox-capacity.md",
+        "locale": "en",
+        "figures": 5,
+        "sections": 10,
+        "approved_assets_present": [
+          "/images/team/teams-and-inbox-capacity/team-en.png",
+          "/images/team/teams-and-inbox-capacity/custom-en.png",
+          "/images/team/teams-and-inbox-capacity/custom-en-mobile.png",
+          "/images/team/teams-and-inbox-capacity/options-en.png",
+          "/images/team/teams-and-inbox-capacity/options-en-mobile.png",
+          "/images/team/understanding-team-roles/capacity-en.png",
+          "/images/team/understanding-team-roles/capacity-en-mobile.png",
+          "/images/analytics-reporting-attribution/workload-capacity-report-guide/capacity-pressure-team-en.png",
+          "/images/team/teams-and-inbox-capacity/team-en-mobile.png"
+        ],
+        "complete_article_matches_verified_build": true,
+        "article_sha256": "030c691adc7764d31596f1003cb5d288f39d23f3a05e5f8b036c73672f8906e9",
+        "html_sha256": "7e123b304d37310693d2233bce806b77e5f7711088d6fd1bc6eeba03729b5ac9"
+      }
+    ],
+    "assets": [
+      {
+        "url": "https://deploy-preview-337--legendary-lollipop-e2d131.netlify.app/images/team/teams-and-inbox-capacity/team-es.png",
+        "status": 200,
+        "sha256": "cdb8ed96c8246701741a7501c1eba3b23665b14bf00153c09be66e2148be8156",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-337--legendary-lollipop-e2d131.netlify.app/images/team/teams-and-inbox-capacity/custom-es.png",
+        "status": 200,
+        "sha256": "b73cb6eadeb8b53e5451b77e49a5d84f91ec2fb2f478d1d2bc86ed641846bf6f",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-337--legendary-lollipop-e2d131.netlify.app/images/team/teams-and-inbox-capacity/custom-es-mobile.png",
+        "status": 200,
+        "sha256": "14a7953c80e17f4b02fc391bd9f91891fb22f8673980a11bf887c02f7a314aea",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-337--legendary-lollipop-e2d131.netlify.app/images/team/teams-and-inbox-capacity/options-es.png",
+        "status": 200,
+        "sha256": "9b2f74701fdc4e18c63d9cadd9258a31c17e27aa548cac15179ee81e605a19f3",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-337--legendary-lollipop-e2d131.netlify.app/images/team/teams-and-inbox-capacity/options-es-mobile.png",
+        "status": 200,
+        "sha256": "44e032d536de05372f9b9281ed39a9828ce75c3f5904853b6cc06541a30f1423",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-337--legendary-lollipop-e2d131.netlify.app/images/team/teams-and-inbox-capacity/team-en.png",
+        "status": 200,
+        "sha256": "0fdd0da08281b9c3a7ae0b57e8a1dfa30f1dd4a914f291314f3d7d46f0c847ee",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-337--legendary-lollipop-e2d131.netlify.app/images/team/teams-and-inbox-capacity/custom-en.png",
+        "status": 200,
+        "sha256": "7f1cf4bd8e157da08c68474eb5a3c3ac6a0e459736095acd1f338aee8f08af8c",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-337--legendary-lollipop-e2d131.netlify.app/images/team/teams-and-inbox-capacity/custom-en-mobile.png",
+        "status": 200,
+        "sha256": "1ebee7da66b30047cd8f2a14fb7e518708482a4ca8812cf3a39eb3d8d86dd64e",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-337--legendary-lollipop-e2d131.netlify.app/images/team/teams-and-inbox-capacity/options-en.png",
+        "status": 200,
+        "sha256": "175b175cc80b042bb81dbca8de68f8e35ece3581e3beab08b841d030634c3b19",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-337--legendary-lollipop-e2d131.netlify.app/images/team/teams-and-inbox-capacity/options-en-mobile.png",
+        "status": 200,
+        "sha256": "33bd0dcf13bc921a3c60bfc963bdccd195fb7c8c3d99448eccd1f84229472394",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-337--legendary-lollipop-e2d131.netlify.app/images/team/understanding-team-roles/capacity-es.png",
+        "status": 200,
+        "sha256": "0d1d09814783fd6d04d0448b1b287bd471d731e085cafe5b074fa327e1ce4acd",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-337--legendary-lollipop-e2d131.netlify.app/images/team/understanding-team-roles/capacity-es-mobile.png",
+        "status": 200,
+        "sha256": "2ca8c170f9ba507c113365ecac8232d8373a24f0766af7b1b9115d810ba19960",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-337--legendary-lollipop-e2d131.netlify.app/images/team/understanding-team-roles/capacity-en.png",
+        "status": 200,
+        "sha256": "261a3da15546d25bc4dd292468d9ac7f0c0e3191aee3df0a2f4017de51ec8337",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-337--legendary-lollipop-e2d131.netlify.app/images/team/understanding-team-roles/capacity-en-mobile.png",
+        "status": 200,
+        "sha256": "077a1fcea5a38d7cc698a7db3bd2402830453883313013c5b043ca23de70722f",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-337--legendary-lollipop-e2d131.netlify.app/images/analytics-reporting-attribution/workload-capacity-report-guide/capacity-pressure-team-es.png",
+        "status": 200,
+        "sha256": "caced6c015f19edfc8124d91784692cfcf051b2a0faeef23f15d605c2ae1ba3b",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-337--legendary-lollipop-e2d131.netlify.app/images/analytics-reporting-attribution/workload-capacity-report-guide/capacity-pressure-team-en.png",
+        "status": 200,
+        "sha256": "d11d44ac90cbf609c2608cec06af5779249adda7a92f2719f24cb3608e338784",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-337--legendary-lollipop-e2d131.netlify.app/images/team/teams-and-inbox-capacity/team-es-mobile.png",
+        "status": 200,
+        "sha256": "6765d3e145f283ece5db239bb58568298960bdc67c8ee4259e95d0907b532541",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-337--legendary-lollipop-e2d131.netlify.app/images/team/teams-and-inbox-capacity/team-en-mobile.png",
+        "status": 200,
+        "sha256": "426b38a4d5e4e7cc63290c0d412bff4a77377156f3bfea4c814233937ec46231",
+        "matches_approved_asset": true,
+        "reused": false
+      }
+    ]
+  },
+  "earlier_record_332_limitation": "The genuine later content SHA published normally. It does not prove publication of ad6d6455d0671cda042dc5ef184f73c86d64f8fb, whose internal Netlify failure remains historical. No manual deployment or retry."
+}
