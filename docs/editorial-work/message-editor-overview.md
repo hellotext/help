@@ -57,3 +57,5 @@ All twelve reused PNGs, including every small variant; no duplicate uploads:
 - [https://help.hellotext.com/images/audience/personalization-tags/selector-en-mobile.png](https://help.hellotext.com/images/audience/personalization-tags/selector-en-mobile.png) — HTTP 200, reused original, SHA256 `755d3c948f40c17a3f50d59e7477afafaaf5f859718308290e6dce4fd9ce92d3`.
 
 Ledger: 82 local_verified / 71 pending / one out_of_scope. Public-record PR receives independent exact-head review, exact main Build, normal production and repeated page/asset checks; final proof recorded in its GitHub comment without recursive commits.
+
+Record PR #328 review identified a stale `publication_state` in the linked local verification record. It now refers to the existing public proof, matching the publicly verified provenance. All other local visual/build/hash evidence, article bodies, source PNGs and original snapshots remain byte-identical. The corrected record head receives fresh independent review and all required checks before the separate merge call.
