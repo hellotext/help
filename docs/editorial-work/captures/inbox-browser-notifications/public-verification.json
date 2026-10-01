@@ -1,0 +1,406 @@
+{
+  "verified_at_utc": "2026-10-01T19:49:32.052706+00:00",
+  "verified_git_main_sha": "10026655f84691b48fa45b5f1cce492a6d0c0a72",
+  "production_deploy_id_sha_association": {
+    "id": "6abeb9022b2e530008adf961",
+    "site_id": "d66a79c1-b5de-44d1-bc47-bc7809f7f3b3",
+    "state": "ready",
+    "context": "production",
+    "branch": "main",
+    "commit_ref": "10026655f84691b48fa45b5f1cce492a6d0c0a72",
+    "created_at": "2026-10-01T19:48:18.806Z",
+    "published_at": "2026-10-01T19:48:55.735Z",
+    "deploy_ssl_url": "https://main--legendary-lollipop-e2d131.netlify.app"
+  },
+  "deployment_method": "Normal Netlify production after Git merge; no manual deploy. Accessible public site-alias listing provided exact commit_ref.",
+  "pages": [
+    {
+      "url": "https://help.hellotext.com/es/notificaciones-navegador-inbox",
+      "status": 200,
+      "article_key": "team/inbox-browser-notifications.md",
+      "locale": "es",
+      "figures": 2,
+      "sections": 9,
+      "approved_assets_present": [
+        "/images/team/inbox-browser-notifications/menu-es.png",
+        "/images/team/inbox-browser-notifications/push-es.png",
+        "/images/team/inbox-browser-notifications/push-es-mobile.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "e7a02ef4c4b2ab274ecbc8a16a0efcaa7c2d8319483f5ead3840f39316a46467",
+      "html_sha256": "03d50c9033076e9ef810302497492789a70ed491fe5943e4d589118b8b8fc3f2"
+    },
+    {
+      "url": "https://help.hellotext.com/inbox-browser-notifications",
+      "status": 200,
+      "article_key": "team/inbox-browser-notifications.md",
+      "locale": "en",
+      "figures": 2,
+      "sections": 9,
+      "approved_assets_present": [
+        "/images/team/inbox-browser-notifications/menu-en.png",
+        "/images/team/inbox-browser-notifications/push-en.png",
+        "/images/team/inbox-browser-notifications/push-en-mobile.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "dd33c2b396e94bfe59059793e06af29c4a097289ce4df457edafa8001c3e3dd4",
+      "html_sha256": "4afee9cfe006e7b6d4488d7874a52ef87de838065559b648b01eff16eddfc6ef"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://help.hellotext.com/images/team/inbox-browser-notifications/menu-es.png",
+      "status": 200,
+      "sha256": "9c697f006152eff9cc275ac120e7173709b27e9df33b20d46e51891c5242992f",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/inbox-browser-notifications/push-es.png",
+      "status": 200,
+      "sha256": "a59f0431d22942a8e5741b6d9474c4335866bbcf4141650c9f7eaaab41f5240c",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/inbox-browser-notifications/push-es-mobile.png",
+      "status": 200,
+      "sha256": "cf6768c18c468863328034b1b6fae89f79aecac9537610dc950185408a3d3bdb",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/inbox-browser-notifications/menu-en.png",
+      "status": 200,
+      "sha256": "77951d677e7b195aa5135fd335faf083cf2921febbc766363635111b6badd5b3",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/inbox-browser-notifications/push-en.png",
+      "status": 200,
+      "sha256": "4a337245a2e604803b043ffb7f849f79df5fa60b3edc0b44c3bcb464cfca2d52",
+      "matches_approved_asset": true,
+      "reused": false
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/inbox-browser-notifications/push-en-mobile.png",
+      "status": 200,
+      "sha256": "a683090fe8bc58328552c6351846c3b27c5ed558bf0ee49d7b76cb20b45d70f7",
+      "matches_approved_asset": true,
+      "reused": false
+    }
+  ],
+  "new_captures": 6,
+  "new_png_uploads": 6,
+  "reused_pngs": 0,
+  "all_affected_article_pngs": 6,
+  "main_build": {
+    "conclusion": "success",
+    "databaseId": 36916977344,
+    "event": "push",
+    "headSha": "10026655f84691b48fa45b5f1cce492a6d0c0a72",
+    "status": "completed",
+    "url": "https://github.com/hellotext/help/actions/runs/36916977344"
+  },
+  "content_pr": "https://github.com/hellotext/help/pull/341",
+  "content_pr_head": "8066b3b200a181096c967eb8ccfc2a282793273d",
+  "individual_commits_preserved": [
+    "961b11ac73a3f4f515e825082d2f331f9f04bf94",
+    "aa2cc3aaf1d6f3166bf6911b4374d55d26ccb020",
+    "d1db59be7aac241cd37a1a5d99cf5d5a6e7bbe1b",
+    "351bdaed92afed9059af748025dc1e753c708040",
+    "8066b3b200a181096c967eb8ccfc2a282793273d"
+  ],
+  "unresolved_review_threads_before_merge": 0,
+  "pre_merge_review": {
+    "head": "8066b3b200a181096c967eb8ccfc2a282793273d",
+    "checks": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T19:43:13Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/hellotext/help/actions/runs/36916278428/job/110550918465",
+        "name": "build",
+        "startedAt": "2026-10-01T19:42:40Z",
+        "status": "COMPLETED",
+        "workflowName": "Build"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T19:43:09Z",
+        "conclusion": "NEUTRAL",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abeb7aa71f3050008ce3a8c",
+        "name": "Pages changed - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T19:42:36Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T19:43:09Z",
+        "conclusion": "NEUTRAL",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abeb7aa71f3050008ce3a8c",
+        "name": "Redirect rules - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T19:42:36Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T19:43:01Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://app.aikido.dev/featurebranch/scan/209677075?groupId=34029",
+        "name": "Aikido Security: check code",
+        "startedAt": "2026-10-01T19:42:36Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-01T19:43:09Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abeb7aa71f3050008ce3a8c",
+        "name": "Header rules - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-01T19:42:36Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "StatusContext",
+        "context": "netlify/legendary-lollipop-e2d131/deploy-preview",
+        "startedAt": "2026-10-01T19:43:10Z",
+        "state": "SUCCESS",
+        "targetUrl": "https://deploy-preview-341--legendary-lollipop-e2d131.netlify.app"
+      }
+    ],
+    "comments": [
+      {
+        "id": "IC_kwDOIVbAxs8AAAABYf8ZJg",
+        "author": {
+          "login": "netlify"
+        },
+        "authorAssociation": "NONE",
+        "body": "### <span aria-hidden=\"true\">\u2705</span> Deploy Preview for *legendary-lollipop-e2d131* ready!\n\n\n|  Name | Link |\n|:-:|------------------------|\n|<span aria-hidden=\"true\">\ud83d\udd28</span> Latest commit | 8066b3b200a181096c967eb8ccfc2a282793273d |\n|<span aria-hidden=\"true\">\ud83d\udd0d</span> Latest deploy log | https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abeb7aa71f3050008ce3a8c |\n|<span aria-hidden=\"true\">\ud83d\ude0e</span> Deploy Preview | [https://deploy-preview-341--legendary-lollipop-e2d131.netlify.app](https://deploy-preview-341--legendary-lollipop-e2d131.netlify.app) |\n|<span aria-hidden=\"true\">\ud83d\udcf1</span> Preview on mobile | <details><summary> Toggle QR Code... </summary><br /><br />![QR Code](https://app.netlify.com/qr-code/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJodHRwczovL2RlcGxveS1wcmV2aWV3LTM0MS0tbGVnZW5kYXJ5LWxvbGxpcG9wLWUyZDEzMS5uZXRsaWZ5LmFwcCJ9.HZ15vxyqWnCQgZJURPVDe49Okz9qg9Or6GEsR2xk9eY)<br /><br />_Use your smartphone camera to open QR code link._</details> |\n|<span aria-hidden=\"true\">\ud83e\udd16</span> Make changes | [Run an agent on this branch](https://app.netlify.com/projects/legendary-lollipop-e2d131/agent-runs#DctRCoMwDADQu-TbYkU2xRt4jCRNXcA1pVZ0jN19_Xs_7wu52DtXWAA6oIKJX81sQe5eE9ntqNh1SHHJqkZlrGrpcNupQVoJknf7rKGlJ5LQhDgNcfQP7_3MMuLM8PsD) |\n---\n<!-- [legendary-lollipop-e2d131 Preview](https://deploy-preview-341--legendary-lollipop-e2d131.netlify.app) -->\n_To edit notification comments on pull requests, go to your [Netlify project configuration](https://app.netlify.com/projects/legendary-lollipop-e2d131/configuration/notifications#deploy-notifications)._",
+        "createdAt": "2026-10-01T19:35:00Z",
+        "includesCreatedEdit": true,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/hellotext/help/pull/341#issuecomment-5939075366",
+        "viewerDidAuthor": false
+      },
+      {
+        "id": "IC_kwDOIVbAxs8AAAABYf8fIA",
+        "author": {
+          "login": "chatgpt-codex-connector"
+        },
+        "authorAssociation": "NONE",
+        "body": "<!-- codex-pull-request-review-summary -->\n\n## Codex Review Summary\n\nThis comment shows the latest Codex review activity on this pull request.\n\n| Review | Status | Commit | Review trigger |\n| --- | --- | --- | --- |\n| \ud83d\udcdd **Code Review** | \u2705 **Completed** <relative-time datetime=\"2026-10-01T19:47:24.183590Z\">2026-10-01T19:47:24.183590Z</relative-time> | `8066b3b` | Manual request |\n\n\n\n<details> <summary>\u2139\ufe0f About Codex in GitHub</summary>\n<br/>\n\n[Your team has set up Codex to review pull requests in this repo](https://chatgpt.com/codex/cloud/settings/general). Reviews are triggered when you\n- Open a pull request for review\n- Mark a draft as ready\n- Comment \"@codex review\" or \"@codex security review\".\n\nCodex reacts with \ud83d\udc40 while any review is running, comments if it has suggestions, and reacts with \ud83d\udc4d once all reviews finish with no findings.\n\n</details>",
+        "createdAt": "2026-10-01T19:35:07Z",
+        "includesCreatedEdit": true,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/hellotext/help/pull/341#issuecomment-5939076896",
+        "viewerDidAuthor": false
+      },
+      {
+        "id": "IC_kwDOIVbAxs8AAAABYf8nKA",
+        "author": {
+          "login": "pelcasandra"
+        },
+        "authorAssociation": "MEMBER",
+        "body": "@codex review\n\nPlease independently review the exact current head, including both complete languages, subscription/device/recipient contracts and native screenshot provenance. Final local verifier aa2cc3aaf1d6f3166bf6911b4374d55d26ccb020 is the direct parent of the ledger head, with the initial commit retained. Check GitHub parent commits for this head. Production verification remains explicitly pending. No permission request, subscription, notification, Inbox GET, fixture change or delivery worker was used for screenshots.\n",
+        "createdAt": "2026-10-01T19:35:15Z",
+        "includesCreatedEdit": false,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/hellotext/help/pull/341#issuecomment-5939078952",
+        "viewerDidAuthor": true
+      },
+      {
+        "id": "IC_kwDOIVbAxs8AAAABYgEEHg",
+        "author": {
+          "login": "pelcasandra"
+        },
+        "authorAssociation": "MEMBER",
+        "body": "@codex review\n\nPlease review corrected exact head 8066b3b200a181096c967eb8ccfc2a282793273d. The real P2 was fixed: permitted User.locale es\u2192en\u2192es, protected runner/update_columns and restoration are now explicit in provenance and local verification. Browser GET/menu actions are distinguished from that temporary account write, and equal restored measurements do not assert no mutation. Final verifier 351bdaed92afed9059af748025dc1e753c708040 is the direct parent of the ledger head. Articles/native pixels unchanged; rebuild, hashes and diff passed. All original commits retained.\n",
+        "createdAt": "2026-10-01T19:43:12Z",
+        "includesCreatedEdit": false,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/hellotext/help/pull/341#issuecomment-5939201054",
+        "viewerDidAuthor": true
+      },
+      {
+        "id": "IC_kwDOIVbAxs8AAAABYgH63g",
+        "author": {
+          "login": "chatgpt-codex-connector"
+        },
+        "authorAssociation": "NONE",
+        "body": "Codex Review: Didn't find any major issues. Keep them coming!\n\n**Reviewed commit:** `8066b3b200`\n\n<details> <summary>\u2139\ufe0f About Codex in GitHub</summary>\n<br/>\n\n[Your team has set up Codex to review pull requests in this repo](https://chatgpt.com/codex/cloud/settings/general). Reviews are triggered when you\n- Open a pull request for review\n- Mark a draft as ready\n- Comment \"@codex review\".\n\nIf Codex has suggestions, it will comment; otherwise it will react with \ud83d\udc4d.\n\n\n\n\nCodex can also answer questions or update the PR. Try commenting \"@codex address that feedback\".\n            \n</details>",
+        "createdAt": "2026-10-01T19:47:22Z",
+        "includesCreatedEdit": false,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/hellotext/help/pull/341#issuecomment-5939264222",
+        "viewerDidAuthor": false
+      }
+    ],
+    "reviews": [
+      {
+        "id": "PRR_kwDOIVbAxs8AAAABQPIMsg",
+        "author": {
+          "login": "chatgpt-codex-connector"
+        },
+        "authorAssociation": "NONE",
+        "body": "\n### \ud83d\udca1 Codex Review\n\nHere are some automated review suggestions for this pull request.\n\n**Reviewed commit:** `d1db59be7a`\n    \n\n<details> <summary>\u2139\ufe0f About Codex in GitHub</summary>\n<br/>\n\n[Your team has set up Codex to review pull requests in this repo](https://chatgpt.com/codex/cloud/settings/general). Reviews are triggered when you\n- Open a pull request for review\n- Mark a draft as ready\n- Comment \"@codex review\".\n\nIf Codex has suggestions, it will comment; otherwise it will react with \ud83d\udc4d.\n\n\n\n\nCodex can also answer questions or update the PR. Try commenting \"@codex address that feedback\".\n            \n</details>",
+        "submittedAt": "2026-10-01T19:39:34Z",
+        "includesCreatedEdit": false,
+        "reactionGroups": [],
+        "state": "COMMENTED",
+        "commit": {
+          "oid": "d1db59be7aac241cd37a1a5d99cf5d5a6e7bbe1b"
+        }
+      },
+      {
+        "id": "PRR_kwDOIVbAxs8AAAABQPKcpQ",
+        "author": {
+          "login": "pelcasandra"
+        },
+        "authorAssociation": "MEMBER",
+        "body": "",
+        "submittedAt": "2026-10-01T19:43:05Z",
+        "includesCreatedEdit": false,
+        "reactionGroups": [],
+        "state": "COMMENTED",
+        "commit": {
+          "oid": "8066b3b200a181096c967eb8ccfc2a282793273d"
+        }
+      }
+    ],
+    "threads": [
+      {
+        "id": "PRRT_kwDOIVbAxs6oG4sD",
+        "isResolved": true,
+        "comments": {
+          "nodes": [
+            {
+              "id": "PRRC_kwDOIVbAxs73782H",
+              "body": "**<sub><sub>![P2 Badge](https://img.shields.io/badge/P2-yellow?style=flat)</sub></sub>  Disclose the locale mutation as an account change**\n\nWhen this ledger is used to verify the promised read-only capture path, the `safety` statement says there were no account changes, but `docs/editorial-work/inbox-browser-notifications.md:17` explicitly records `Owner locale ES\u2192EN/restoredES in DB/UI`; the English screenshots were captured from that changed locale. Restoring the row afterward makes the before/after fixtures equal but does not mean no mutation was used, so record the temporary locale write and its mechanism as an allowed account/fixture change instead of asserting that only GETs and no account changes occurred.\n\nUseful? React with \ud83d\udc4d\u00a0/ \ud83d\udc4e.",
+              "url": "https://github.com/hellotext/help/pull/341#discussion_r4159688071",
+              "path": "docs/editorial-work/captures/inbox-browser-notifications/capture-provenance.json",
+              "originalCommit": {
+                "oid": "d1db59be7aac241cd37a1a5d99cf5d5a6e7bbe1b"
+              }
+            },
+            {
+              "id": "PRRC_kwDOIVbAxs738EiZ",
+              "body": "Fixed in verifier 351bdaed92afed9059af748025dc1e753c708040, with direct-child ledger 8066b3b200a181096c967eb8ccfc2a282793273d. Provenance and local verification now explicitly record the allowed User.locale write es\u2192en\u2192es, fictitious owner, guarded protected runner and update_columns mechanism, restoration evidence, and the limit of after-restoration equality. The broad no-account-changes assertion was removed. Bilingual rebuild, six prior complete browser views, native/built asset hashes and clean diff check passed; articles and all six native pixels remain unchanged. All earlier commits retained. Requesting a fresh independent review of the exact corrected head.",
+              "url": "https://github.com/hellotext/help/pull/341#discussion_r4159719577",
+              "path": "docs/editorial-work/captures/inbox-browser-notifications/capture-provenance.json",
+              "originalCommit": {
+                "oid": "d1db59be7aac241cd37a1a5d99cf5d5a6e7bbe1b"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "all_actual_comments_reviews_threads_read": true
+  },
+  "preview_verification": {
+    "head": "8066b3b200a181096c967eb8ccfc2a282793273d",
+    "preview_url": "https://deploy-preview-341--legendary-lollipop-e2d131.netlify.app",
+    "deployment": {
+      "id": "6abeb7aa71f3050008ce3a8c",
+      "context": "deploy-preview",
+      "commit_ref": "8066b3b200a181096c967eb8ccfc2a282793273d",
+      "state": "ready",
+      "review_id": 341
+    },
+    "pages": [
+      {
+        "url": "https://deploy-preview-341--legendary-lollipop-e2d131.netlify.app/es/notificaciones-navegador-inbox",
+        "status": 200,
+        "article_key": "team/inbox-browser-notifications.md",
+        "locale": "es",
+        "figures": 2,
+        "sections": 9,
+        "approved_assets_present": [
+          "/images/team/inbox-browser-notifications/menu-es.png",
+          "/images/team/inbox-browser-notifications/push-es.png",
+          "/images/team/inbox-browser-notifications/push-es-mobile.png"
+        ],
+        "complete_article_matches_verified_build": true,
+        "article_sha256": "e7a02ef4c4b2ab274ecbc8a16a0efcaa7c2d8319483f5ead3840f39316a46467",
+        "html_sha256": "14141a04e893fcb993c6844d1b64cd4f3b6ddcd0f2986d431aebe82c3ce0a4ef"
+      },
+      {
+        "url": "https://deploy-preview-341--legendary-lollipop-e2d131.netlify.app/inbox-browser-notifications",
+        "status": 200,
+        "article_key": "team/inbox-browser-notifications.md",
+        "locale": "en",
+        "figures": 2,
+        "sections": 9,
+        "approved_assets_present": [
+          "/images/team/inbox-browser-notifications/menu-en.png",
+          "/images/team/inbox-browser-notifications/push-en.png",
+          "/images/team/inbox-browser-notifications/push-en-mobile.png"
+        ],
+        "complete_article_matches_verified_build": true,
+        "article_sha256": "dd33c2b396e94bfe59059793e06af29c4a097289ce4df457edafa8001c3e3dd4",
+        "html_sha256": "7439343370b73be5820dbafe88e44e04caa9552f39d21c5f4f5c3e78fa085e80"
+      }
+    ],
+    "assets": [
+      {
+        "url": "https://deploy-preview-341--legendary-lollipop-e2d131.netlify.app/images/team/inbox-browser-notifications/menu-es.png",
+        "status": 200,
+        "sha256": "9c697f006152eff9cc275ac120e7173709b27e9df33b20d46e51891c5242992f",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-341--legendary-lollipop-e2d131.netlify.app/images/team/inbox-browser-notifications/push-es.png",
+        "status": 200,
+        "sha256": "a59f0431d22942a8e5741b6d9474c4335866bbcf4141650c9f7eaaab41f5240c",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-341--legendary-lollipop-e2d131.netlify.app/images/team/inbox-browser-notifications/push-es-mobile.png",
+        "status": 200,
+        "sha256": "cf6768c18c468863328034b1b6fae89f79aecac9537610dc950185408a3d3bdb",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-341--legendary-lollipop-e2d131.netlify.app/images/team/inbox-browser-notifications/menu-en.png",
+        "status": 200,
+        "sha256": "77951d677e7b195aa5135fd335faf083cf2921febbc766363635111b6badd5b3",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-341--legendary-lollipop-e2d131.netlify.app/images/team/inbox-browser-notifications/push-en.png",
+        "status": 200,
+        "sha256": "4a337245a2e604803b043ffb7f849f79df5fa60b3edc0b44c3bcb464cfca2d52",
+        "matches_approved_asset": true,
+        "reused": false
+      },
+      {
+        "url": "https://deploy-preview-341--legendary-lollipop-e2d131.netlify.app/images/team/inbox-browser-notifications/push-en-mobile.png",
+        "status": 200,
+        "sha256": "a683090fe8bc58328552c6351846c3b27c5ed558bf0ee49d7b76cb20b45d70f7",
+        "matches_approved_asset": true,
+        "reused": false
+      }
+    ]
+  },
+  "earlier_record_332_limitation": "This genuine later content SHA published normally; it does not prove publication of ad6d6455d0671cda042dc5ef184f73c86d64f8fb. No manual deployment or retry."
+}
