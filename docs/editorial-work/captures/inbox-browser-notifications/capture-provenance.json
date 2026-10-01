@@ -490,9 +490,28 @@
     "https://developer.mozilla.org/en-US/docs/Web/API/Notification/requestPermission_static"
   ],
   "source_audit": "source-audit.json",
-  "safety": "Only native Account GET and avatar menu opening; guarded owner locale ES/EN/restored ES. Permission remains default, browser push subscription absent and Rails PushSubscription/PushNotification zero. Existing browser service worker registration is present and naturally rechecked by the page; no notification/delivery worker executed. No forcing or mocking permission/subscription/UI, no Enable/Allow/Disable, account changes, fixture/messages/events or send/test/provider action. Measured fields equal; no whole-DB or last_online_at equality claim.",
+  "safety": "Browser actions: native Account GET and avatar-menu opening only, plus the capture helper GET used to verify the fictitious identity. Separately, the explicitly allowed account mutation was owner locale es→en→es through the protected Rails runner and User.update_columns(locale: l); restored Spanish is checked in DB and UI. Permission remains default, browser push subscription absent and Rails PushSubscription/PushNotification zero. The existing browser service worker is naturally registered/rechecked by the page; no notification/delivery worker executed. No forced/mocked permission/subscription/UI, Enable/Allow/Disable, other account or fixture change, messages/events, send/test/provider action. Measured fields equal after restoration; this does not claim no temporary mutation, whole-DB equality or last_online_at equality.",
   "pending": [
     "Protected PR/checks, independent exact-head review, normal production and public page/hash verification."
   ],
-  "local_verification": "docs/editorial-work/captures/inbox-browser-notifications/local-verification.json"
+  "local_verification": "docs/editorial-work/captures/inbox-browser-notifications/local-verification.json",
+  "allowed_account_mutations": [
+    {
+      "field": "User.locale",
+      "account": "design-system@example.test",
+      "sequence": [
+        "es",
+        "en",
+        "es"
+      ],
+      "purpose": "Capture the same real controls in both languages, then restore the original Spanish locale.",
+      "mechanism": "Protected Rails runner loads /private/tmp/hellotext-custom-store-guide/locale.rb, resolves User by the fictitious email and calls u.update_columns(locale: l) after business/token/locale guards. No role, team, capacity, permission, subscription or other account field is written by this locale helper.",
+      "restoration_evidence": [
+        "fixture-before.jsonl",
+        "fixture-after.jsonl",
+        "ui-state/push-es-mobile.json"
+      ],
+      "comparison_limit": "Measured rows match after restoration; this is not an assertion that no account write occurred."
+    }
+  ]
 }
