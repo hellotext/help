@@ -1,0 +1,1053 @@
+{
+  "status": "locally_verified",
+  "article_key": "integrations/verify-data-and-signals.md",
+  "base_revision": "53b10374f0594976833cc7721aeea954a4588022",
+  "originals": [
+    {
+      "article": "_i18n/es/integrations/verify-data-and-signals.md",
+      "snapshot": "docs/editorial-work/captures/verify-data-and-signals/originals/es.md",
+      "sha256": "50c5ae6a11fb987ebeb2360e2d8498d9212c19d12cacb847238e9d3873c2cbfd",
+      "headings": [
+        "## Haz una prueba completa",
+        "## Perfiles de cliente",
+        "## Datos de comercio",
+        "## Eventos y señales",
+        "## Canales y consentimiento",
+        "## Capturas y seguimiento",
+        "## Reportes y atribución",
+        "## Antes de lanzar una misión",
+        "## Si falta algo",
+        "## Guías relacionadas"
+      ],
+      "links": [
+        "_journeys/order-update-playbook.md",
+        "_journeys/smart-recommender-playbook.md",
+        "_integrations/product-catalog-sync.md",
+        "_developers/tracking-events.md",
+        "_audience/consent-and-subscriber-status.md",
+        "_analytics-reporting-attribution/analytics-overview.md",
+        "_troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md",
+        "_integrations/setup-overview.md",
+        "_integrations/product-catalog-sync.md",
+        "_journeys/what-are-signals.md",
+        "_troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md",
+        "_developers/tracking-events.md",
+        "_journeys/choose-your-first-playbook.md",
+        "_journeys/order-update-playbook.md",
+        "_captures/capture-overview.md",
+        "_troubleshooting-deliverability/troubleshooting-checklist.md"
+      ]
+    },
+    {
+      "article": "_i18n/en/integrations/verify-data-and-signals.md",
+      "snapshot": "docs/editorial-work/captures/verify-data-and-signals/originals/en.md",
+      "sha256": "2933c6f16d28a5a4fb530a022120c2977a8ddfe78351cfb4e24ddf20411b2658",
+      "headings": [
+        "## Run one end-to-end test",
+        "## Customer profiles",
+        "## Commerce data",
+        "## Events and signals",
+        "## Channels and consent",
+        "## Captures and follow-up",
+        "## Reporting and attribution",
+        "## Before launching a playbook",
+        "## If something is missing",
+        "## Related guides"
+      ],
+      "links": [
+        "_journeys/order-update-playbook.md",
+        "_journeys/smart-recommender-playbook.md",
+        "_integrations/product-catalog-sync.md",
+        "_developers/tracking-events.md",
+        "_audience/consent-and-subscriber-status.md",
+        "_analytics-reporting-attribution/analytics-overview.md",
+        "_troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md",
+        "_integrations/setup-overview.md",
+        "_integrations/product-catalog-sync.md",
+        "_journeys/what-are-signals.md",
+        "_troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md",
+        "_developers/tracking-events.md",
+        "_journeys/choose-your-first-playbook.md",
+        "_journeys/order-update-playbook.md",
+        "_captures/capture-overview.md",
+        "_troubleshooting-deliverability/troubleshooting-checklist.md"
+      ]
+    },
+    {
+      "article": "_integrations/verify-data-and-signals.md",
+      "snapshot": "docs/editorial-work/captures/verify-data-and-signals/originals/stub.md",
+      "sha256": "4c370dad4cfeea0e3660324381ae01f8261062d5c3f7d4f4e260154af4146c96",
+      "headings": [],
+      "links": []
+    }
+  ],
+  "images": [
+    {
+      "name": "profile-fields-es",
+      "concept": "profile",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/customer-profiles/profile-fields-es-original.png",
+      "published_asset": "images/audience/customer-profiles/profile-fields-es.png",
+      "native": {
+        "sha256": "bf1ee79e29d0ef384913cad51a1792ddf0050d75a5b4e138bd49df682e203b40",
+        "pixelSize": [
+          910,
+          1330
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "macOS ScreenCaptureKit exact-title and exact-window helper, filtered preflight, 15 s timeout, native 2x Display P3 PNG",
+        "url": "http://127.0.0.1:3190/hellotext/audience/29D7LZXk"
+      },
+      "logical_size": [
+        455,
+        665
+      ],
+      "original_record": {
+        "kind": "profile-fields",
+        "locale": "es",
+        "original": "docs/editorial-work/captures/customer-profiles/profile-fields-es-original.png",
+        "published_asset": "images/audience/customer-profiles/profile-fields-es.png",
+        "source_route": "http://127.0.0.1:3190/hellotext/audience/29D7LZXk",
+        "source_database": "hellotext_editorial_capture_20260926",
+        "native_crop_points": [
+          1335,
+          250,
+          455,
+          665
+        ],
+        "source_pixels": [
+          910,
+          1330
+        ],
+        "maximum_display_css_px": 455,
+        "native_scale": 2,
+        "icc_profile": "Display P3",
+        "sha256": "bf1ee79e29d0ef384913cad51a1792ddf0050d75a5b4e138bd49df682e203b40",
+        "pointer": "absent",
+        "layout_note": "Actual desktop app layout"
+      },
+      "ui_evidence": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+      "original_provenance": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+      "reused": true,
+      "pixel_edits": "none in this batch",
+      "sha256": "bf1ee79e29d0ef384913cad51a1792ddf0050d75a5b4e138bd49df682e203b40",
+      "consumer_publication_state": "not_yet_publicly_verified"
+    },
+    {
+      "name": "profile-fields-en",
+      "concept": "profile",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/customer-profiles/profile-fields-en-original.png",
+      "published_asset": "images/audience/customer-profiles/profile-fields-en.png",
+      "native": {
+        "sha256": "9bbb727226b2a20d5df4be2ca7612d29037b9d18d8e7e2ec488c407c54945f5d",
+        "pixelSize": [
+          910,
+          1330
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "macOS ScreenCaptureKit exact-title and exact-window helper, filtered preflight, 15 s timeout, native 2x Display P3 PNG",
+        "url": "http://127.0.0.1:3191/hellotext/audience/29D7LZXk"
+      },
+      "logical_size": [
+        455,
+        665
+      ],
+      "original_record": {
+        "kind": "profile-fields",
+        "locale": "en",
+        "original": "docs/editorial-work/captures/customer-profiles/profile-fields-en-original.png",
+        "published_asset": "images/audience/customer-profiles/profile-fields-en.png",
+        "source_route": "http://127.0.0.1:3191/hellotext/audience/29D7LZXk",
+        "source_database": "hellotext_editorial_workload_20260928 (isolated clone)",
+        "native_crop_points": [
+          1335,
+          250,
+          455,
+          665
+        ],
+        "source_pixels": [
+          910,
+          1330
+        ],
+        "maximum_display_css_px": 455,
+        "native_scale": 2,
+        "icc_profile": "Display P3",
+        "sha256": "9bbb727226b2a20d5df4be2ca7612d29037b9d18d8e7e2ec488c407c54945f5d",
+        "pointer": "absent",
+        "layout_note": "Actual desktop app layout"
+      },
+      "ui_evidence": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+      "original_provenance": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+      "reused": true,
+      "pixel_edits": "none in this batch",
+      "sha256": "9bbb727226b2a20d5df4be2ca7612d29037b9d18d8e7e2ec488c407c54945f5d",
+      "consumer_publication_state": "not_yet_publicly_verified"
+    },
+    {
+      "name": "profile-fields-mobile-es",
+      "concept": "profile",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/customer-profiles/profile-fields-es-mobile-original.png",
+      "published_asset": "images/audience/customer-profiles/profile-fields-es-mobile.png",
+      "native": {
+        "sha256": "1525d3add44bb64b93d457bb3353f8bfdd9fe0f1f99b84580aed0807db7829c3",
+        "pixelSize": [
+          700,
+          1330
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "macOS ScreenCaptureKit exact-title and exact-window helper, filtered preflight, 15 s timeout, native 2x Display P3 PNG",
+        "url": "http://127.0.0.1:3191/hellotext/audience/29D7LZXk"
+      },
+      "logical_size": [
+        350,
+        665
+      ],
+      "original_record": {
+        "kind": "profile-fields-mobile",
+        "locale": "es",
+        "original": "docs/editorial-work/captures/customer-profiles/profile-fields-es-mobile-original.png",
+        "published_asset": "images/audience/customer-profiles/profile-fields-es-mobile.png",
+        "source_route": "http://127.0.0.1:3191/hellotext/audience/29D7LZXk",
+        "source_database": "hellotext_editorial_workload_20260928 (isolated clone)",
+        "native_crop_points": [
+          1335,
+          250,
+          350,
+          665
+        ],
+        "source_pixels": [
+          700,
+          1330
+        ],
+        "maximum_display_css_px": 350,
+        "native_scale": 2,
+        "icc_profile": "Display P3",
+        "sha256": "1525d3add44bb64b93d457bb3353f8bfdd9fe0f1f99b84580aed0807db7829c3",
+        "pointer": "absent",
+        "layout_note": "Focused desktop-app crop for responsive Help rendering; not an app mobile screenshot"
+      },
+      "ui_evidence": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+      "original_provenance": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+      "reused": true,
+      "pixel_edits": "none in this batch",
+      "sha256": "1525d3add44bb64b93d457bb3353f8bfdd9fe0f1f99b84580aed0807db7829c3",
+      "consumer_publication_state": "not_yet_publicly_verified"
+    },
+    {
+      "name": "profile-fields-mobile-en",
+      "concept": "profile",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/customer-profiles/profile-fields-en-mobile-original.png",
+      "published_asset": "images/audience/customer-profiles/profile-fields-en-mobile.png",
+      "native": {
+        "sha256": "0e2c6a1622ea73ec0fa008f5100b7ce5f04e2695cdb1aa2414c855db6ca760cb",
+        "pixelSize": [
+          700,
+          1330
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "macOS ScreenCaptureKit exact-title and exact-window helper, filtered preflight, 15 s timeout, native 2x Display P3 PNG",
+        "url": "http://127.0.0.1:3191/hellotext/audience/29D7LZXk"
+      },
+      "logical_size": [
+        350,
+        665
+      ],
+      "original_record": {
+        "kind": "profile-fields-mobile",
+        "locale": "en",
+        "original": "docs/editorial-work/captures/customer-profiles/profile-fields-en-mobile-original.png",
+        "published_asset": "images/audience/customer-profiles/profile-fields-en-mobile.png",
+        "source_route": "http://127.0.0.1:3191/hellotext/audience/29D7LZXk",
+        "source_database": "hellotext_editorial_workload_20260928 (isolated clone)",
+        "native_crop_points": [
+          1335,
+          250,
+          350,
+          665
+        ],
+        "source_pixels": [
+          700,
+          1330
+        ],
+        "maximum_display_css_px": 350,
+        "native_scale": 2,
+        "icc_profile": "Display P3",
+        "sha256": "0e2c6a1622ea73ec0fa008f5100b7ce5f04e2695cdb1aa2414c855db6ca760cb",
+        "pointer": "absent",
+        "layout_note": "Focused desktop-app crop for responsive Help rendering; not an app mobile screenshot"
+      },
+      "ui_evidence": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+      "original_provenance": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+      "reused": true,
+      "pixel_edits": "none in this batch",
+      "sha256": "0e2c6a1622ea73ec0fa008f5100b7ce5f04e2695cdb1aa2414c855db6ca760cb",
+      "consumer_publication_state": "not_yet_publicly_verified"
+    },
+    {
+      "name": "manual-es",
+      "concept": "manual",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/custom-actions/manual-es-original.png",
+      "published_asset": "images/developers/custom-actions/manual-es.png",
+      "native": {
+        "sha256": "144e3281a27f8c6e5434f2e5e12585039d18bd9f300e259df95381af25c376a2",
+        "url": "http://127.0.0.1:3192/hellotext/audience/yXQ93DnM",
+        "locale": "es",
+        "cssViewport": [
+          1200,
+          650
+        ],
+        "browserDpr": 2,
+        "clip": [
+          769,
+          0,
+          431,
+          650
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          862,
+          1300
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        431.0,
+        650.0
+      ],
+      "intended_max_display_width_css": 431.0,
+      "ui_evidence": "docs/editorial-work/captures/custom-actions/manual-es-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none in this batch",
+      "publication_status": "New native P3 2x source uploaded; public URL/hash verified in public-verification.json.",
+      "original_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
+      "reused": true,
+      "sha256": "144e3281a27f8c6e5434f2e5e12585039d18bd9f300e259df95381af25c376a2",
+      "consumer_publication_state": "not_yet_publicly_verified"
+    },
+    {
+      "name": "manual-es-mobile",
+      "concept": "manual",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/custom-actions/manual-es-mobile-original.png",
+      "published_asset": "images/developers/custom-actions/manual-es-mobile.png",
+      "native": {
+        "sha256": "9cc3f116cb1a88b065f769c74e3b215dc3a39383af884a203e240a965970dacf",
+        "url": "http://127.0.0.1:3192/hellotext/audience/yXQ93DnM",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          650
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1,
+          0,
+          389,
+          650
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          778,
+          1300
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        389.0,
+        650.0
+      ],
+      "intended_max_display_width_css": 389.0,
+      "ui_evidence": "docs/editorial-work/captures/custom-actions/manual-es-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none in this batch",
+      "publication_status": "New native P3 2x source uploaded; public URL/hash verified in public-verification.json.",
+      "original_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
+      "reused": true,
+      "sha256": "9cc3f116cb1a88b065f769c74e3b215dc3a39383af884a203e240a965970dacf",
+      "consumer_publication_state": "not_yet_publicly_verified"
+    },
+    {
+      "name": "manual-en",
+      "concept": "manual",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/custom-actions/manual-en-original.png",
+      "published_asset": "images/developers/custom-actions/manual-en.png",
+      "native": {
+        "sha256": "77dd2a9505cbc073897db00674689fcf819a0ace5b5b58bc53ad36e3aad8ba7b",
+        "url": "http://127.0.0.1:3192/hellotext/audience/yXQ93DnM",
+        "locale": "en",
+        "cssViewport": [
+          1200,
+          650
+        ],
+        "browserDpr": 2,
+        "clip": [
+          769,
+          0,
+          431,
+          650
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          862,
+          1300
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        431.0,
+        650.0
+      ],
+      "intended_max_display_width_css": 431.0,
+      "ui_evidence": "docs/editorial-work/captures/custom-actions/manual-en-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none in this batch",
+      "publication_status": "New native P3 2x source uploaded; public URL/hash verified in public-verification.json.",
+      "original_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
+      "reused": true,
+      "sha256": "77dd2a9505cbc073897db00674689fcf819a0ace5b5b58bc53ad36e3aad8ba7b",
+      "consumer_publication_state": "not_yet_publicly_verified"
+    },
+    {
+      "name": "manual-en-mobile",
+      "concept": "manual",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/custom-actions/manual-en-mobile-original.png",
+      "published_asset": "images/developers/custom-actions/manual-en-mobile.png",
+      "native": {
+        "sha256": "77277beaf19ecfad6b22bb3933c8a563bedb3dabc0a43fbaff07a055358fa80e",
+        "url": "http://127.0.0.1:3192/hellotext/audience/yXQ93DnM",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          650
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1,
+          0,
+          389,
+          650
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          778,
+          1300
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        389.0,
+        650.0
+      ],
+      "intended_max_display_width_css": 389.0,
+      "ui_evidence": "docs/editorial-work/captures/custom-actions/manual-en-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none in this batch",
+      "publication_status": "New native P3 2x source uploaded; public URL/hash verified in public-verification.json.",
+      "original_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
+      "reused": true,
+      "sha256": "77277beaf19ecfad6b22bb3933c8a563bedb3dabc0a43fbaff07a055358fa80e",
+      "consumer_publication_state": "not_yet_publicly_verified"
+    },
+    {
+      "name": "details-es",
+      "concept": "order",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/orders-with-api/details-es-original.png",
+      "published_asset": "images/developers/orders-with-api/details-es.png",
+      "native": {
+        "output": "/private/tmp/hellotext-orders-api-guide/native/details-es.png",
+        "sha256": "ce7071cd6129d589df554b45f6ead105ef20ce3b1b4eeaf6eace613f34b4bb00",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/BbZzpNd9/instances",
+        "locale": "es",
+        "cssViewport": [
+          1400,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          897,
+          0,
+          503,
+          457
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1006,
+          914
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        503,
+        457
+      ],
+      "intended_max_display_width_css": 503,
+      "ui_evidence": "docs/editorial-work/captures/orders-with-api/details-es-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none in this batch",
+      "reuse": false,
+      "publication_status": "New native P3 2x PNG published; public served hash matches approved source.",
+      "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json",
+      "reused": true,
+      "sha256": "ce7071cd6129d589df554b45f6ead105ef20ce3b1b4eeaf6eace613f34b4bb00",
+      "consumer_publication_state": "not_yet_publicly_verified"
+    },
+    {
+      "name": "details-es-mobile",
+      "concept": "order",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/orders-with-api/details-es-mobile-original.png",
+      "published_asset": "images/developers/orders-with-api/details-es-mobile.png",
+      "native": {
+        "output": "/private/tmp/hellotext-orders-api-guide/native/details-es-mobile.png",
+        "sha256": "002115693247a8d96672d24a28406f0c452db72eb2df13ad721a9f3d12102ad9",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/BbZzpNd9/instances",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1,
+          0,
+          389,
+          457
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          778,
+          914
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        389,
+        457
+      ],
+      "intended_max_display_width_css": 389,
+      "ui_evidence": "docs/editorial-work/captures/orders-with-api/details-es-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none in this batch",
+      "reuse": false,
+      "publication_status": "New native P3 2x PNG published; public served hash matches approved source.",
+      "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json",
+      "reused": true,
+      "sha256": "002115693247a8d96672d24a28406f0c452db72eb2df13ad721a9f3d12102ad9",
+      "consumer_publication_state": "not_yet_publicly_verified"
+    },
+    {
+      "name": "details-en",
+      "concept": "order",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/orders-with-api/details-en-original.png",
+      "published_asset": "images/developers/orders-with-api/details-en.png",
+      "native": {
+        "output": "/private/tmp/hellotext-orders-api-guide/native/details-en.png",
+        "sha256": "b728ba41fdd9c004408a7153f0f8f9a0bfc6634d0d9e44485db3dfc7b120b08b",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/BbZzpNd9/instances",
+        "locale": "en",
+        "cssViewport": [
+          1400,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          897,
+          0,
+          503,
+          457
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1006,
+          914
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        503,
+        457
+      ],
+      "intended_max_display_width_css": 503,
+      "ui_evidence": "docs/editorial-work/captures/orders-with-api/details-en-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none in this batch",
+      "reuse": false,
+      "publication_status": "New native P3 2x PNG published; public served hash matches approved source.",
+      "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json",
+      "reused": true,
+      "sha256": "b728ba41fdd9c004408a7153f0f8f9a0bfc6634d0d9e44485db3dfc7b120b08b",
+      "consumer_publication_state": "not_yet_publicly_verified"
+    },
+    {
+      "name": "details-en-mobile",
+      "concept": "order",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/orders-with-api/details-en-mobile-original.png",
+      "published_asset": "images/developers/orders-with-api/details-en-mobile.png",
+      "native": {
+        "output": "/private/tmp/hellotext-orders-api-guide/native/details-en-mobile.png",
+        "sha256": "8d44d00464fcffb4c98684b550a95fd7df0a64360333a384e3d6eefca81d44c0",
+        "url": "http://127.0.0.1:3192/hellotext/settings/objects/BbZzpNd9/instances",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          1200
+        ],
+        "browserDpr": 2,
+        "clip": [
+          1,
+          0,
+          389,
+          457
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          778,
+          914
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        389,
+        457
+      ],
+      "intended_max_display_width_css": 389,
+      "ui_evidence": "docs/editorial-work/captures/orders-with-api/details-en-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none in this batch",
+      "reuse": false,
+      "publication_status": "New native P3 2x PNG published; public served hash matches approved source.",
+      "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json",
+      "reused": true,
+      "sha256": "8d44d00464fcffb4c98684b550a95fd7df0a64360333a384e3d6eefca81d44c0",
+      "consumer_publication_state": "not_yet_publicly_verified"
+    },
+    {
+      "name": "form-en",
+      "concept": "form",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/forms/ui-refresh/preview-en.png",
+      "published_asset": "images/captures/forms/ui-refresh/en/preview.png",
+      "native": {
+        "sha256": "fd99e7e004f2a1a0a084405aef1191469e23a7f034c83374caad6a38d48cc0e6",
+        "url": "http://127.0.0.1:3192/hellotext/captures/forms/3oDXBQG4/edit",
+        "locale": "en",
+        "cssViewport": [
+          1400,
+          1100
+        ],
+        "browserDpr": 2,
+        "clip": [
+          464,
+          152,
+          472,
+          346
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          944,
+          692
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP",
+        "file": "preview-en.png",
+        "asset": "/images/captures/forms/ui-refresh/en/preview.png"
+      },
+      "logical_size": [
+        472,
+        346
+      ],
+      "intended_max_display_width_css": 472,
+      "ui_evidence": "docs/editorial-work/captures/forms/ui-refresh/preview-en-ui.json",
+      "original_provenance": "docs/editorial-work/captures/launch-checklist/capture-provenance.json",
+      "original_state": "Existing fictional form 3oDXBQG4 remains draft with no submissions, coupon or journey; centered heading and SMS-matched consent notice.",
+      "responsive_decision": "Same complete native preview is legible on mobile when scaled down; no separate mobile capture exists or is needed.",
+      "reuse": true,
+      "pointer": "absent",
+      "pixel_edits": "none in this batch",
+      "publication_status": "Approved existing native source reused without recapture or duplicate upload; consumer publicly verified after #303.",
+      "consumer_publication": "Publicly verified after #303; see root publication evidence. Original source/UI evidence remains unchanged.",
+      "reused": true,
+      "sha256": "fd99e7e004f2a1a0a084405aef1191469e23a7f034c83374caad6a38d48cc0e6",
+      "consumer_publication_state": "not_yet_publicly_verified"
+    },
+    {
+      "name": "form-es",
+      "concept": "form",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/forms/ui-refresh/preview-es.png",
+      "published_asset": "images/captures/forms/ui-refresh/es/preview.png",
+      "native": {
+        "sha256": "8caa6c2618d9dfbff44dd7c9b5dc6048dd37020cc58e6b12479549be749550b2",
+        "url": "http://127.0.0.1:3192/hellotext/captures/forms/3oDXBQG4/edit",
+        "locale": "es",
+        "cssViewport": [
+          1400,
+          1100
+        ],
+        "browserDpr": 2,
+        "clip": [
+          464,
+          152,
+          472,
+          390
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          944,
+          780
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP",
+        "file": "preview-es.png",
+        "asset": "/images/captures/forms/ui-refresh/es/preview.png"
+      },
+      "logical_size": [
+        472,
+        390
+      ],
+      "intended_max_display_width_css": 472,
+      "ui_evidence": "docs/editorial-work/captures/forms/ui-refresh/preview-es-ui.json",
+      "original_provenance": "docs/editorial-work/captures/launch-checklist/capture-provenance.json",
+      "original_state": "Existing fictional form 3oDXBQG4 remains draft with no submissions, coupon or journey; centered heading and SMS-matched consent notice.",
+      "responsive_decision": "Same complete native preview is legible on mobile when scaled down; no separate mobile capture exists or is needed.",
+      "reuse": true,
+      "pointer": "absent",
+      "pixel_edits": "none in this batch",
+      "publication_status": "Approved existing native source reused without recapture or duplicate upload; consumer publicly verified after #303.",
+      "consumer_publication": "Publicly verified after #303; see root publication evidence. Original source/UI evidence remains unchanged.",
+      "reused": true,
+      "sha256": "8caa6c2618d9dfbff44dd7c9b5dc6048dd37020cc58e6b12479549be749550b2",
+      "consumer_publication_state": "not_yet_publicly_verified"
+    },
+    {
+      "name": "summary-es",
+      "concept": "summary",
+      "locale": "es",
+      "mobile": false,
+      "published_asset": "images/analytics-reporting-attribution/campaign-reporting/summary-period-es-wide-desktop.png",
+      "source": "docs/editorial-work/captures/campaign-reporting/summary-period-es-wide-desktop-original.png",
+      "source_sha256": "0b3688dd3e368e00fe80b9f184477bb8423010778d51a8a22d85425ab20ec1cd",
+      "sha256": "65bfef90c667cf5da787412ad4d2175652ea945e2b1c1c84c7fb4bdb6c9217fc",
+      "pixels": [
+        2480,
+        610
+      ],
+      "logical_size": [
+        1240.0,
+        305.0
+      ],
+      "source_density": 2,
+      "icc": "Display P3",
+      "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "original_provenance": "docs/editorial-work/captures/tips-and-best-practices/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/campaign-reporting/summary-period-es-wide-desktop.json",
+      "reused": true,
+      "pixel_edits": "none in this batch",
+      "original_crop_rectangle_px": {
+        "x": 224,
+        "y": 0,
+        "width": 2480,
+        "height": 610
+      },
+      "original_record": {
+        "name": "summary-period-es-wide-desktop",
+        "locale": "es",
+        "published_asset": "images/analytics-reporting-attribution/campaign-reporting/summary-period-es-wide-desktop.png",
+        "original_source": "docs/editorial-work/captures/campaign-reporting/summary-period-es-wide-desktop-original.png",
+        "original_provenance": "docs/editorial-work/captures/campaign-reporting/summary-period-es-wide-desktop.json",
+        "original_sha256": "0b3688dd3e368e00fe80b9f184477bb8423010778d51a8a22d85425ab20ec1cd",
+        "asset_sha256": "65bfef90c667cf5da787412ad4d2175652ea945e2b1c1c84c7fb4bdb6c9217fc",
+        "pixels": [
+          2480,
+          610
+        ],
+        "source_density": 2,
+        "native_logical_size": [
+          1240.0,
+          305.0
+        ],
+        "icc": "Display P3",
+        "reuse": true,
+        "pixel_edits": "none",
+        "limitations": [],
+        "historical_capture_guard": "Retain exact original native window and fixture evidence; no retrospective automatic capture or per-shot account attestation is claimed.",
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "reuse_note": "Existing approved native source reused without recapture or duplicate upload; consumer verified after #305."
+      },
+      "original_guard_limitations": [
+        "Original desktop CSS viewport and browser zoom were not retained. Original native source and fixture evidence are preserved; no retrospective automatic guard is claimed."
+      ],
+      "capture_scope": "Existing approved native source/UI evidence retained; no recapture or retrospective guard assertion.",
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "original_source_pixels": [
+        2880,
+        610
+      ]
+    },
+    {
+      "name": "summary-es-mobile",
+      "concept": "summary",
+      "locale": "es",
+      "mobile": true,
+      "published_asset": "images/analytics-reporting-attribution/campaign-reporting/summary-period-es-mobile-wide.png",
+      "source": "docs/editorial-work/captures/campaign-reporting/summary-period-es-mobile-wide-original.png",
+      "source_sha256": "71136b3c75dbbe12a40ad787057309089b29f7d83b49f1ae1426ea91887e34e3",
+      "sha256": "71136b3c75dbbe12a40ad787057309089b29f7d83b49f1ae1426ea91887e34e3",
+      "pixels": [
+        1048,
+        580
+      ],
+      "logical_size": [
+        524.0,
+        290.0
+      ],
+      "source_density": 2,
+      "icc": "Display P3",
+      "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "original_provenance": "docs/editorial-work/captures/tips-and-best-practices/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/campaign-reporting/summary-period-es-mobile-wide.json",
+      "reused": true,
+      "pixel_edits": "none in this batch",
+      "original_crop_rectangle_px": null,
+      "original_record": {
+        "name": "summary-period-es-mobile-wide",
+        "locale": "es",
+        "published_asset": "images/analytics-reporting-attribution/campaign-reporting/summary-period-es-mobile-wide.png",
+        "original_source": "docs/editorial-work/captures/campaign-reporting/summary-period-es-mobile-wide-original.png",
+        "original_provenance": "docs/editorial-work/captures/campaign-reporting/summary-period-es-mobile-wide.json",
+        "original_sha256": "71136b3c75dbbe12a40ad787057309089b29f7d83b49f1ae1426ea91887e34e3",
+        "asset_sha256": "71136b3c75dbbe12a40ad787057309089b29f7d83b49f1ae1426ea91887e34e3",
+        "pixels": [
+          1048,
+          580
+        ],
+        "source_density": 2,
+        "native_logical_size": [
+          524.0,
+          290.0
+        ],
+        "icc": "Display P3",
+        "reuse": true,
+        "pixel_edits": "none",
+        "limitations": [],
+        "historical_capture_guard": "Retain exact original native window and fixture evidence; no retrospective automatic capture or per-shot account attestation is claimed.",
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "reuse_note": "Existing approved native source reused without recapture or duplicate upload; consumer verified after #305."
+      },
+      "original_guard_limitations": [],
+      "capture_scope": "Existing approved native source/UI evidence retained; no recapture or retrospective guard assertion.",
+      "consumer_publication_state": "not_yet_publicly_verified"
+    },
+    {
+      "name": "summary-en",
+      "concept": "summary",
+      "locale": "en",
+      "mobile": false,
+      "published_asset": "images/analytics-reporting-attribution/campaign-reporting/summary-period-en-wide-desktop.png",
+      "source": "docs/editorial-work/captures/campaign-reporting/summary-period-en-wide-desktop-original.png",
+      "source_sha256": "a5abb5d2044fa121b31494a6723398fa187fdcff53b9c73e27b68efe7bfc0829",
+      "sha256": "470347c0697af60e59b6119e2c83bfb848fb9cbf69bd07ec4b14e451db40800e",
+      "pixels": [
+        2480,
+        610
+      ],
+      "logical_size": [
+        1240.0,
+        305.0
+      ],
+      "source_density": 2,
+      "icc": "Display P3",
+      "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "original_provenance": "docs/editorial-work/captures/tips-and-best-practices/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/campaign-reporting/summary-period-en-wide-desktop.json",
+      "reused": true,
+      "pixel_edits": "none in this batch",
+      "original_crop_rectangle_px": {
+        "x": 224,
+        "y": 0,
+        "width": 2480,
+        "height": 610
+      },
+      "original_record": {
+        "name": "summary-period-en-wide-desktop",
+        "locale": "en",
+        "published_asset": "images/analytics-reporting-attribution/campaign-reporting/summary-period-en-wide-desktop.png",
+        "original_source": "docs/editorial-work/captures/campaign-reporting/summary-period-en-wide-desktop-original.png",
+        "original_provenance": "docs/editorial-work/captures/campaign-reporting/summary-period-en-wide-desktop.json",
+        "original_sha256": "a5abb5d2044fa121b31494a6723398fa187fdcff53b9c73e27b68efe7bfc0829",
+        "asset_sha256": "470347c0697af60e59b6119e2c83bfb848fb9cbf69bd07ec4b14e451db40800e",
+        "pixels": [
+          2480,
+          610
+        ],
+        "source_density": 2,
+        "native_logical_size": [
+          1240.0,
+          305.0
+        ],
+        "icc": "Display P3",
+        "reuse": true,
+        "pixel_edits": "none",
+        "limitations": [],
+        "historical_capture_guard": "Retain exact original native window and fixture evidence; no retrospective automatic capture or per-shot account attestation is claimed.",
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "reuse_note": "Existing approved native source reused without recapture or duplicate upload; consumer verified after #305."
+      },
+      "original_guard_limitations": [
+        "Original desktop CSS viewport and browser zoom were not retained. Original native source and fixture evidence are preserved; no retrospective automatic guard is claimed."
+      ],
+      "capture_scope": "Existing approved native source/UI evidence retained; no recapture or retrospective guard assertion.",
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "original_source_pixels": [
+        2880,
+        610
+      ]
+    },
+    {
+      "name": "summary-en-mobile",
+      "concept": "summary",
+      "locale": "en",
+      "mobile": true,
+      "published_asset": "images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile-wide.png",
+      "source": "docs/editorial-work/captures/campaign-reporting/summary-period-en-mobile-wide-original.png",
+      "source_sha256": "244b1faacb31e3852d224f2db51c2efda234e4d57a54826aac83e726037efc36",
+      "sha256": "244b1faacb31e3852d224f2db51c2efda234e4d57a54826aac83e726037efc36",
+      "pixels": [
+        1048,
+        580
+      ],
+      "logical_size": [
+        524.0,
+        290.0
+      ],
+      "source_density": 2,
+      "icc": "Display P3",
+      "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "original_provenance": "docs/editorial-work/captures/tips-and-best-practices/capture-provenance.json",
+      "ui_evidence": "docs/editorial-work/captures/campaign-reporting/summary-period-en-mobile-wide.json",
+      "reused": true,
+      "pixel_edits": "none in this batch",
+      "original_crop_rectangle_px": null,
+      "original_record": {
+        "name": "summary-period-en-mobile-wide",
+        "locale": "en",
+        "published_asset": "images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile-wide.png",
+        "original_source": "docs/editorial-work/captures/campaign-reporting/summary-period-en-mobile-wide-original.png",
+        "original_provenance": "docs/editorial-work/captures/campaign-reporting/summary-period-en-mobile-wide.json",
+        "original_sha256": "244b1faacb31e3852d224f2db51c2efda234e4d57a54826aac83e726037efc36",
+        "asset_sha256": "244b1faacb31e3852d224f2db51c2efda234e4d57a54826aac83e726037efc36",
+        "pixels": [
+          1048,
+          580
+        ],
+        "source_density": 2,
+        "native_logical_size": [
+          524.0,
+          290.0
+        ],
+        "icc": "Display P3",
+        "reuse": true,
+        "pixel_edits": "none",
+        "limitations": [],
+        "historical_capture_guard": "Retain exact original native window and fixture evidence; no retrospective automatic capture or per-shot account attestation is claimed.",
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "reuse_note": "Existing approved native source reused without recapture or duplicate upload; consumer verified after #305."
+      },
+      "original_guard_limitations": [],
+      "capture_scope": "Existing approved native source/UI evidence retained; no recapture or retrospective guard assertion.",
+      "consumer_publication_state": "not_yet_publicly_verified"
+    }
+  ],
+  "new_captures": 0,
+  "new_png_uploads": 0,
+  "reused_pngs": 18,
+  "protected_state": "No app, database, UI, fixture, locale, event, message, subscription, API example or worker action required or performed.",
+  "historical_source_limits": [
+    "Profile narrower sources are focused crops of the desktop UI, not responsive app recaptures. Preserve original native selected-window provenance, original different fixture databases, and measured DPR/zoom limits; no retrospective automatic guards.",
+    "Campaign summary preserves original compositor/native provenance: desktop viewport CSS and zoom were not retained. Clean approved wide phone source retains First 14 days and one full carousel card. No charts or original pixels edited."
+  ],
+  "local_verification": "docs/editorial-work/captures/verify-data-and-signals/local-verification.json",
+  "pending": [
+    "Commit/PR protected checks and independent review of exact head, normal production deployment and public page/hash verification."
+  ],
+  "local_verified_commit": "299131d94e2040c023d19d5792c867d02de8839c"
+}
