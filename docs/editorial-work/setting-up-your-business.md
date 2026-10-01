@@ -67,3 +67,5 @@ Native PNGs, including every mobile variant:
 - [https://help.hellotext.com/images/getting-started/setting-up-your-business/invite-en-mobile.png](https://help.hellotext.com/images/getting-started/setting-up-your-business/invite-en-mobile.png) — HTTP 200, new native capture, SHA256 `d57606e286475037973f6ff1c88a57c5ae2cbbc4f17a589d8e978be0e2dfb88c`.
 
 Ledger: 72 local_verified, 81 pending, 1 out_of_scope; every verifier and prior correction remains an ancestor of main. The public-record PR gets its own exact review/main Build/normal production and repeated public checks, recorded in a GitHub comment without recursive commits.
+
+Record review corrected a real P2 metadata ambiguity: each locale lists all eight approved assets, including two new invitation fields. The field is now `approved_assets_present`, while each asset retains its explicit `reused` value and totals remain four new/twelve reused. Public HTML/PNG bytes and source evidence are unchanged. The corrected head requires a fresh independent review before the separate merge; final gates and repeated public verification are recorded in the record PR comment.
