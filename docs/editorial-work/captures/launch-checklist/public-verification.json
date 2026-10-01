@@ -1,0 +1,167 @@
+{
+  "verified_at_utc": "2026-10-01T01:45:48.371559+00:00",
+  "verified_git_main_sha": "bb46c52d95bbf76e2286c0d3ca31db2b1296ba2c",
+  "production_deploy_id_sha_association": {
+    "id": "6abdbaf492ac7300077481a0",
+    "site_id": "d66a79c1-b5de-44d1-bc47-bc7809f7f3b3",
+    "state": "ready",
+    "context": "production",
+    "branch": "main",
+    "commit_ref": "bb46c52d95bbf76e2286c0d3ca31db2b1296ba2c",
+    "created_at": "2026-10-01T01:44:20.147Z",
+    "published_at": "2026-10-01T01:45:21.854Z",
+    "deploy_ssl_url": "https://main--legendary-lollipop-e2d131.netlify.app"
+  },
+  "deployment_method": "Normal Netlify production after Git merge; no manual deploy. Accessible public site-alias listing provided exact commit_ref.",
+  "pages": [
+    {
+      "url": "https://help.hellotext.com/es/checklist-lanzamiento",
+      "status": 200,
+      "figures": 4,
+      "sections": 9,
+      "approved_reused_assets_present": [
+        "/images/developers/custom-store-integration/business-es.png",
+        "/images/developers/custom-store-integration/business-es-mobile.png",
+        "/images/developers/orders-with-api/details-es.png",
+        "/images/developers/orders-with-api/details-es-mobile.png",
+        "/images/captures/forms/ui-refresh/es/preview.png",
+        "/images/captures/property-collector/handoff-es.png",
+        "/images/captures/property-collector/handoff-es-mobile.png"
+      ],
+      "verified_updated_flow_text": true,
+      "html_sha256": "031d1389ba9b9edc041f42e809c8cf6700f4cedbf20415fc2cd8f0e6c7288266"
+    },
+    {
+      "url": "https://help.hellotext.com/launch-checklist",
+      "status": 200,
+      "figures": 4,
+      "sections": 9,
+      "approved_reused_assets_present": [
+        "/images/developers/custom-store-integration/business-en.png",
+        "/images/developers/custom-store-integration/business-en-mobile.png",
+        "/images/developers/orders-with-api/details-en.png",
+        "/images/developers/orders-with-api/details-en-mobile.png",
+        "/images/captures/forms/ui-refresh/en/preview.png",
+        "/images/captures/property-collector/handoff-en.png",
+        "/images/captures/property-collector/handoff-en-mobile.png"
+      ],
+      "verified_updated_flow_text": true,
+      "html_sha256": "f5c234186fe592d4c7d63e661379aa2369f3761be09e625364c7bbfb382514bc"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-store-integration/business-es.png",
+      "status": 200,
+      "sha256": "17ec399500cee235d73459ced0de47fac99054987976a56f4e09603150ef5dfb",
+      "matches_original_approved_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-store-integration/business-es-mobile.png",
+      "status": 200,
+      "sha256": "0c7ac4c233075fa5d072e27ac33e7947092bf6406858524ab12fa546be553ed8",
+      "matches_original_approved_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-store-integration/business-en.png",
+      "status": 200,
+      "sha256": "1f7f132b2245056eda5166b1b1cfdbeee406ebcf7bad4a13a6eb3fd501184d7f",
+      "matches_original_approved_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-store-integration/business-en-mobile.png",
+      "status": 200,
+      "sha256": "c7badab42d6878393ab746c2950605b8153dc38d60ac1ae09c747a949706bfeb",
+      "matches_original_approved_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/orders-with-api/details-es.png",
+      "status": 200,
+      "sha256": "ce7071cd6129d589df554b45f6ead105ef20ce3b1b4eeaf6eace613f34b4bb00",
+      "matches_original_approved_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/orders-with-api/details-es-mobile.png",
+      "status": 200,
+      "sha256": "002115693247a8d96672d24a28406f0c452db72eb2df13ad721a9f3d12102ad9",
+      "matches_original_approved_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/orders-with-api/details-en.png",
+      "status": 200,
+      "sha256": "b728ba41fdd9c004408a7153f0f8f9a0bfc6634d0d9e44485db3dfc7b120b08b",
+      "matches_original_approved_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/orders-with-api/details-en-mobile.png",
+      "status": 200,
+      "sha256": "8d44d00464fcffb4c98684b550a95fd7df0a64360333a384e3d6eefca81d44c0",
+      "matches_original_approved_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/forms/ui-refresh/en/preview.png",
+      "status": 200,
+      "sha256": "fd99e7e004f2a1a0a084405aef1191469e23a7f034c83374caad6a38d48cc0e6",
+      "matches_original_approved_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/forms/ui-refresh/es/preview.png",
+      "status": 200,
+      "sha256": "8caa6c2618d9dfbff44dd7c9b5dc6048dd37020cc58e6b12479549be749550b2",
+      "matches_original_approved_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/property-collector/handoff-es.png",
+      "status": 200,
+      "sha256": "ef1c8abc4712dacc2effa83f6c968dd4a9453a5b1be059609a877a91e1693356",
+      "matches_original_approved_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/property-collector/handoff-en.png",
+      "status": 200,
+      "sha256": "0c5506ceed87f6ed0c9e57a4969d80cee2dc41f04ab25b04969917ab3f3bdfe9",
+      "matches_original_approved_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/property-collector/handoff-es-mobile.png",
+      "status": 200,
+      "sha256": "4f252e8b5d86ad772df8b7f979ae8d61de1970ff36f7110f5f1e0b1b5867b2cc",
+      "matches_original_approved_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/property-collector/handoff-en-mobile.png",
+      "status": 200,
+      "sha256": "97bad463814d7ec88c224ea32ccf6500c65c8eed86a39ef83cd8fba79d2f3793",
+      "matches_original_approved_source": true,
+      "reused": true
+    }
+  ],
+  "new_captures": 0,
+  "new_png_uploads": 0,
+  "reused_pngs": 14,
+  "main_build": {
+    "conclusion": "success",
+    "databaseId": 36802517831,
+    "event": "push",
+    "headSha": "bb46c52d95bbf76e2286c0d3ca31db2b1296ba2c",
+    "status": "completed",
+    "url": "https://github.com/hellotext/help/actions/runs/36802517831"
+  },
+  "content_pr": "https://github.com/hellotext/help/pull/303",
+  "content_pr_head": "15e98a6d6cc6e3f921dd8593a8953eef0225fb08",
+  "all_individual_commits_preserved": true,
+  "unresolved_review_threads_before_merge": 0
+}
