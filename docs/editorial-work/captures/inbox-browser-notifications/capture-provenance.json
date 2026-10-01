@@ -1,0 +1,517 @@
+{
+  "status": "locally_verified",
+  "article_key": "team/inbox-browser-notifications.md",
+  "start_main_sha": "47ea3a0a72c777b61bfeed36935a6035659aad95",
+  "originals": [
+    {
+      "article": "_i18n/es/team/inbox-browser-notifications.md",
+      "snapshot": "docs/editorial-work/captures/inbox-browser-notifications/originals/es.md",
+      "sha256": "2fbfc0b0dab9ee50156742d405848e1bb2246604665265d860c56b800e07082b",
+      "headings": [
+        "## Qué puede generar una notificación",
+        "## Activa las notificaciones en un dispositivo",
+        "## Qué sucede cuando llega una notificación",
+        "## Desactiva las notificaciones en un dispositivo",
+        "## Si bloqueaste el permiso del navegador",
+        "## Si están activadas pero no aparecen",
+        "## Si aparece la notificación pero no suena",
+        "## Mantén útil la responsabilidad de las notificaciones",
+        "## Guías relacionadas"
+      ],
+      "links": [
+        "_team/filter-and-search-inbox.md",
+        "_team/inbox-overview.md",
+        "_team/filter-and-search-inbox.md",
+        "_team/assigning-conversations.md",
+        "_team/conversation-lifecycle.md",
+        "_team/teams-and-inbox-capacity.md"
+      ]
+    },
+    {
+      "article": "_i18n/en/team/inbox-browser-notifications.md",
+      "snapshot": "docs/editorial-work/captures/inbox-browser-notifications/originals/en.md",
+      "sha256": "cb6ec1ab8a3570cb1cecd06263ad79fdfa83aaed01a63eb1ce8fbb1c1ef5e337",
+      "headings": [
+        "## What can generate a notification?",
+        "## Enable notifications on a device",
+        "## What happens when a notification arrives?",
+        "## Disable notifications on one device",
+        "## If the browser permission was blocked",
+        "## If notifications are enabled but do not appear",
+        "## If the notification appears without sound",
+        "## Keep notification ownership useful",
+        "## Related guides"
+      ],
+      "links": [
+        "_team/filter-and-search-inbox.md",
+        "_team/inbox-overview.md",
+        "_team/filter-and-search-inbox.md",
+        "_team/assigning-conversations.md",
+        "_team/conversation-lifecycle.md",
+        "_team/teams-and-inbox-capacity.md"
+      ]
+    },
+    {
+      "article": "_team/inbox-browser-notifications.md",
+      "snapshot": "docs/editorial-work/captures/inbox-browser-notifications/originals/stub.md",
+      "sha256": "d9c2a2dccc00afd5bebe6d9b66307e144c1ee7e7bf4199ef9c895ac1788a5889",
+      "headings": [],
+      "links": []
+    }
+  ],
+  "images": [
+    {
+      "name": "menu-es",
+      "locale": "es",
+      "mobile": false,
+      "reused": false,
+      "published_asset": "images/team/inbox-browser-notifications/menu-es.png",
+      "sha256": "9c697f006152eff9cc275ac120e7173709b27e9df33b20d46e51891c5242992f",
+      "original_capture": "docs/editorial-work/captures/inbox-browser-notifications/native/menu-es-original.png",
+      "original_sha256": "9c697f006152eff9cc275ac120e7173709b27e9df33b20d46e51891c5242992f",
+      "pixel_size": [
+        512,
+        666
+      ],
+      "logical_size": [
+        256,
+        333
+      ],
+      "density": 2,
+      "icc": "Display P3",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "transform": "None; asset byte-identical to native compositor PNG.",
+      "css_viewport": [
+        1400,
+        1200
+      ],
+      "clip": [
+        1136,
+        9,
+        256,
+        333
+      ],
+      "source_route": "http://127.0.0.1:3192/my/account",
+      "account": "design-system@example.test",
+      "pid": 57358,
+      "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+      "zoom": 1,
+      "permission_before": {
+        "permission": "default",
+        "subscriptions": [
+          false
+        ]
+      },
+      "permission_after": {
+        "url": "http://127.0.0.1:3192/my/account",
+        "title": "Ver mi cuenta | Hellotext",
+        "locale": "es",
+        "permission": "default",
+        "subscriptions": [
+          {
+            "scope": "http://127.0.0.1:3192/",
+            "script": "http://127.0.0.1:3192/service_worker.js",
+            "subscription": false
+          }
+        ],
+        "userDisabled": null,
+        "migration": null,
+        "dpr": 2,
+        "zoom": 1,
+        "pid": 57358,
+        "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
+      },
+      "guard_evidence": "ui-state/menu-es.json",
+      "raw_post_guard_retained": false
+    },
+    {
+      "name": "push-es",
+      "locale": "es",
+      "mobile": false,
+      "reused": false,
+      "published_asset": "images/team/inbox-browser-notifications/push-es.png",
+      "sha256": "a59f0431d22942a8e5741b6d9474c4335866bbcf4141650c9f7eaaab41f5240c",
+      "original_capture": "docs/editorial-work/captures/inbox-browser-notifications/native/push-es-original.png",
+      "original_sha256": "a59f0431d22942a8e5741b6d9474c4335866bbcf4141650c9f7eaaab41f5240c",
+      "pixel_size": [
+        1376,
+        328
+      ],
+      "logical_size": [
+        688,
+        164
+      ],
+      "density": 2,
+      "icc": "Display P3",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "transform": "None; asset byte-identical to native compositor PNG.",
+      "css_viewport": [
+        1400,
+        1200
+      ],
+      "clip": [
+        356,
+        377,
+        688,
+        164
+      ],
+      "source_route": "http://127.0.0.1:3192/my/account",
+      "account": "design-system@example.test",
+      "pid": 57358,
+      "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+      "zoom": 1,
+      "permission_before": {
+        "permission": "default",
+        "subscriptions": [
+          false
+        ]
+      },
+      "permission_after": {
+        "url": "http://127.0.0.1:3192/my/account",
+        "title": "Ver mi cuenta | Hellotext",
+        "locale": "es",
+        "permission": "default",
+        "subscriptions": [
+          {
+            "scope": "http://127.0.0.1:3192/",
+            "script": "http://127.0.0.1:3192/service_worker.js",
+            "subscription": false
+          }
+        ],
+        "userDisabled": null,
+        "migration": null,
+        "dpr": 2,
+        "zoom": 1,
+        "pid": 57358,
+        "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
+      },
+      "guard_evidence": "ui-state/push-es.json",
+      "raw_post_guard_retained": false
+    },
+    {
+      "name": "push-es-mobile",
+      "locale": "es",
+      "mobile": true,
+      "reused": false,
+      "published_asset": "images/team/inbox-browser-notifications/push-es-mobile.png",
+      "sha256": "cf6768c18c468863328034b1b6fae89f79aecac9537610dc950185408a3d3bdb",
+      "original_capture": "docs/editorial-work/captures/inbox-browser-notifications/native/push-es-mobile-original.png",
+      "original_sha256": "cf6768c18c468863328034b1b6fae89f79aecac9537610dc950185408a3d3bdb",
+      "pixel_size": [
+        800,
+        440
+      ],
+      "logical_size": [
+        400,
+        220
+      ],
+      "density": 2,
+      "icc": "Display P3",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "transform": "None; asset byte-identical to native compositor PNG.",
+      "css_viewport": [
+        430,
+        1200
+      ],
+      "clip": [
+        15,
+        394,
+        400,
+        220
+      ],
+      "source_route": "http://127.0.0.1:3192/my/account",
+      "account": "design-system@example.test",
+      "pid": 57358,
+      "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+      "zoom": 1,
+      "permission_before": {
+        "permission": "default",
+        "subscriptions": [
+          false
+        ]
+      },
+      "permission_after": {
+        "url": "http://127.0.0.1:3192/my/account",
+        "title": "Ver mi cuenta | Hellotext",
+        "locale": "es",
+        "permission": "default",
+        "subscriptions": [
+          {
+            "scope": "http://127.0.0.1:3192/",
+            "script": "http://127.0.0.1:3192/service_worker.js",
+            "subscription": false
+          }
+        ],
+        "userDisabled": null,
+        "migration": null,
+        "dpr": 2,
+        "zoom": 1,
+        "pid": 57358,
+        "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
+      },
+      "guard_evidence": "ui-state/push-es-mobile.json",
+      "raw_post_guard_retained": false
+    },
+    {
+      "name": "menu-en",
+      "locale": "en",
+      "mobile": false,
+      "reused": false,
+      "published_asset": "images/team/inbox-browser-notifications/menu-en.png",
+      "sha256": "77951d677e7b195aa5135fd335faf083cf2921febbc766363635111b6badd5b3",
+      "original_capture": "docs/editorial-work/captures/inbox-browser-notifications/native/menu-en-original.png",
+      "original_sha256": "77951d677e7b195aa5135fd335faf083cf2921febbc766363635111b6badd5b3",
+      "pixel_size": [
+        512,
+        666
+      ],
+      "logical_size": [
+        256,
+        333
+      ],
+      "density": 2,
+      "icc": "Display P3",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "transform": "None; asset byte-identical to native compositor PNG.",
+      "css_viewport": [
+        1400,
+        1200
+      ],
+      "clip": [
+        1136,
+        9,
+        256,
+        333
+      ],
+      "source_route": "http://127.0.0.1:3192/my/account",
+      "account": "design-system@example.test",
+      "pid": 57358,
+      "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+      "zoom": 1,
+      "permission_before": {
+        "permission": "default",
+        "subscriptions": [
+          false
+        ]
+      },
+      "permission_after": {
+        "url": "http://127.0.0.1:3192/my/account",
+        "title": "View your account | Hellotext",
+        "locale": "en",
+        "permission": "default",
+        "subscriptions": [
+          {
+            "scope": "http://127.0.0.1:3192/",
+            "script": "http://127.0.0.1:3192/service_worker.js",
+            "subscription": false
+          }
+        ],
+        "userDisabled": null,
+        "migration": null,
+        "dpr": 2,
+        "zoom": 1,
+        "pid": 57358,
+        "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
+      },
+      "guard_evidence": "ui-state/menu-en.json",
+      "raw_post_guard_retained": false
+    },
+    {
+      "name": "push-en",
+      "locale": "en",
+      "mobile": false,
+      "reused": false,
+      "published_asset": "images/team/inbox-browser-notifications/push-en.png",
+      "sha256": "4a337245a2e604803b043ffb7f849f79df5fa60b3edc0b44c3bcb464cfca2d52",
+      "original_capture": "docs/editorial-work/captures/inbox-browser-notifications/native/push-en-original.png",
+      "original_sha256": "4a337245a2e604803b043ffb7f849f79df5fa60b3edc0b44c3bcb464cfca2d52",
+      "pixel_size": [
+        1376,
+        328
+      ],
+      "logical_size": [
+        688,
+        164
+      ],
+      "density": 2,
+      "icc": "Display P3",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "transform": "None; asset byte-identical to native compositor PNG.",
+      "css_viewport": [
+        1400,
+        1200
+      ],
+      "clip": [
+        356,
+        377,
+        688,
+        164
+      ],
+      "source_route": "http://127.0.0.1:3192/my/account",
+      "account": "design-system@example.test",
+      "pid": 57358,
+      "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+      "zoom": 1,
+      "permission_before": {
+        "permission": "default",
+        "subscriptions": [
+          false
+        ]
+      },
+      "permission_after": {
+        "url": "http://127.0.0.1:3192/my/account",
+        "title": "View your account | Hellotext",
+        "locale": "en",
+        "permission": "default",
+        "subscriptions": [
+          {
+            "scope": "http://127.0.0.1:3192/",
+            "script": "http://127.0.0.1:3192/service_worker.js",
+            "subscription": false
+          }
+        ],
+        "userDisabled": null,
+        "migration": null,
+        "dpr": 2,
+        "zoom": 1,
+        "pid": 57358,
+        "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
+      },
+      "guard_evidence": "ui-state/push-en.json",
+      "raw_post_guard_retained": false
+    },
+    {
+      "name": "push-en-mobile",
+      "locale": "en",
+      "mobile": true,
+      "reused": false,
+      "published_asset": "images/team/inbox-browser-notifications/push-en-mobile.png",
+      "sha256": "a683090fe8bc58328552c6351846c3b27c5ed558bf0ee49d7b76cb20b45d70f7",
+      "original_capture": "docs/editorial-work/captures/inbox-browser-notifications/native/push-en-mobile-original.png",
+      "original_sha256": "a683090fe8bc58328552c6351846c3b27c5ed558bf0ee49d7b76cb20b45d70f7",
+      "pixel_size": [
+        800,
+        440
+      ],
+      "logical_size": [
+        400,
+        220
+      ],
+      "density": 2,
+      "icc": "Display P3",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "transform": "None; asset byte-identical to native compositor PNG.",
+      "css_viewport": [
+        430,
+        1200
+      ],
+      "clip": [
+        15,
+        394,
+        400,
+        220
+      ],
+      "source_route": "http://127.0.0.1:3192/my/account",
+      "account": "design-system@example.test",
+      "pid": 57358,
+      "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+      "zoom": 1,
+      "permission_before": {
+        "permission": "default",
+        "subscriptions": [
+          false
+        ]
+      },
+      "permission_after": {
+        "url": "http://127.0.0.1:3192/my/account",
+        "title": "View your account | Hellotext",
+        "locale": "en",
+        "permission": "default",
+        "subscriptions": [
+          {
+            "scope": "http://127.0.0.1:3192/",
+            "script": "http://127.0.0.1:3192/service_worker.js",
+            "subscription": false
+          }
+        ],
+        "userDisabled": null,
+        "migration": null,
+        "dpr": 2,
+        "zoom": 1,
+        "pid": 57358,
+        "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
+      },
+      "guard_evidence": "ui-state/push-en-mobile.json",
+      "raw_post_guard_retained": false
+    }
+  ],
+  "figures_per_locale": 2,
+  "visual_coverage": [
+    {
+      "section": 1,
+      "decision": "Prose: recipient rules, Webchat exception, grouping and frequency are runtime contracts; no safe existing event or alert is manufactured."
+    },
+    {
+      "section": 2,
+      "decision": "Two complementary current native figures: complete avatar/account menu and disabled push card. Show navigation and the exact Enable control. Browser authorization prompt varies by browser and is described in prose; no request made. Enabled message belongs to the same card and is explained, not presented as evidence of delivery."
+    },
+    {
+      "section": 3,
+      "decision": "Prose: system notification, focus, grouped-link differences, lock-screen privacy and audio vary by browser/OS and actual delivery. No notification or message generated."
+    },
+    {
+      "section": 4,
+      "decision": "Prose: same Account card has Disable when permission/local subscription exist. No separate native enabled subscription exists safely. Label and server-priority/fallback consequences are source-verified; creating/disabling a subscription for an image is prohibited. No claim of tested success."
+    },
+    {
+      "section": 5,
+      "decision": "Prose with primary MDN references: browser permission UI varies, cannot be demonstrated by forcing a real permission state."
+    },
+    {
+      "section": 6,
+      "decision": "Prose checklist: already pictured card; no fabricated empty delivery/receipt or server result."
+    },
+    {
+      "section": 7,
+      "decision": "Prose checklist: audio and OS controls vary; no separate Hellotext sound control to picture."
+    },
+    {
+      "section": 8,
+      "decision": "Prose and original guide link: workflow choices, no unsafe Inbox GET or conversation action."
+    },
+    {
+      "section": 9,
+      "decision": "Original related-guide links; no new interface state."
+    }
+  ],
+  "external_sources": [
+    "https://developer.mozilla.org/en-US/docs/Web/API/Notification/permission_static",
+    "https://developer.mozilla.org/en-US/docs/Web/API/PushManager/getSubscription",
+    "https://developer.mozilla.org/en-US/docs/Web/API/Notification/requestPermission_static"
+  ],
+  "source_audit": "source-audit.json",
+  "safety": "Browser actions: native Account GET and avatar-menu opening only, plus the capture helper GET used to verify the fictitious identity. Separately, the explicitly allowed account mutation was owner locale es→en→es through the protected Rails runner and User.update_columns(locale: l); restored Spanish is checked in DB and UI. Permission remains default, browser push subscription absent and Rails PushSubscription/PushNotification zero. The existing browser service worker is naturally registered/rechecked by the page; no notification/delivery worker executed. No forced/mocked permission/subscription/UI, Enable/Allow/Disable, other account or fixture change, messages/events, send/test/provider action. Measured fields equal after restoration; this does not claim no temporary mutation, whole-DB equality or last_online_at equality.",
+  "pending": [
+    "Protected PR/checks, independent exact-head review, normal production and public page/hash verification."
+  ],
+  "local_verification": "docs/editorial-work/captures/inbox-browser-notifications/local-verification.json",
+  "allowed_account_mutations": [
+    {
+      "field": "User.locale",
+      "account": "design-system@example.test",
+      "sequence": [
+        "es",
+        "en",
+        "es"
+      ],
+      "purpose": "Capture the same real controls in both languages, then restore the original Spanish locale.",
+      "mechanism": "Protected Rails runner loads /private/tmp/hellotext-custom-store-guide/locale.rb, resolves User by the fictitious email and calls u.update_columns(locale: l) after business/token/locale guards. No role, team, capacity, permission, subscription or other account field is written by this locale helper.",
+      "restoration_evidence": [
+        "fixture-before.jsonl",
+        "fixture-after.jsonl",
+        "ui-state/push-es-mobile.json"
+      ],
+      "comparison_limit": "Measured rows match after restoration; this is not an assertion that no account write occurred."
+    }
+  ]
+}
