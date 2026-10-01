@@ -1,0 +1,209 @@
+{
+  "verified_at_utc": "2026-10-01T04:01:47.312600+00:00",
+  "verified_git_main_sha": "09a63d6e36c92b10deec6a65f95d7242f567552f",
+  "production_deploy_id_sha_association": {
+    "id": "6abddadf90e4e800083bfc1c",
+    "site_id": "d66a79c1-b5de-44d1-bc47-bc7809f7f3b3",
+    "state": "ready",
+    "context": "production",
+    "branch": "main",
+    "commit_ref": "09a63d6e36c92b10deec6a65f95d7242f567552f",
+    "created_at": "2026-10-01T04:00:31.760Z",
+    "published_at": "2026-10-01T04:01:37.354Z",
+    "deploy_ssl_url": "https://main--legendary-lollipop-e2d131.netlify.app"
+  },
+  "deployment_method": "Normal Netlify production after Git merge; no manual deploy. Accessible public site-alias listing provided exact commit_ref.",
+  "pages": [
+    {
+      "url": "https://help.hellotext.com/es/consejos-y-mejores-practicas",
+      "status": 200,
+      "article_key": "getting-started/tips-and-best-practices.md",
+      "locale": "es",
+      "figures": 4,
+      "sections": 7,
+      "approved_assets_present": [
+        "/images/audience/import-customer-profiles/import-consent-es-20260928-crop.png",
+        "/images/audience/import-customer-profiles/import-consent-mobile-es-20260928-crop.png",
+        "/images/developers/send-messages-with-api/editor-es.png",
+        "/images/developers/send-messages-with-api/editor-es-mobile.png",
+        "/images/audience/personalization-tags/selector-es.png",
+        "/images/audience/personalization-tags/selector-es-mobile.png",
+        "/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-wide-desktop.png",
+        "/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-mobile-wide.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "a7598a30ba8cd993273df125bc8e1f05a53db074b7d6047f9e30a61ab48ae5cc",
+      "html_sha256": "7a4de48644ba79d92a44aabe7da66b802064ef1373a1d902190e8f40861aa0a6"
+    },
+    {
+      "url": "https://help.hellotext.com/tips-and-best-practices",
+      "status": 200,
+      "article_key": "getting-started/tips-and-best-practices.md",
+      "locale": "en",
+      "figures": 4,
+      "sections": 7,
+      "approved_assets_present": [
+        "/images/audience/import-customer-profiles/import-consent-en-20260928-crop.png",
+        "/images/audience/import-customer-profiles/import-consent-mobile-en-20260928-crop.png",
+        "/images/developers/send-messages-with-api/editor-en.png",
+        "/images/developers/send-messages-with-api/editor-en-mobile.png",
+        "/images/audience/personalization-tags/selector-en.png",
+        "/images/audience/personalization-tags/selector-en-mobile.png",
+        "/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-wide-desktop.png",
+        "/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile-wide.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "aa59ae4ee371c14ab67285f7224a6fa2621eb5d6e7bd54a02dc5bbe9e452a150",
+      "html_sha256": "1477804bcb591eea277bbca423eb495a01de4b6d72b82744a264eb7dab1dc4b2"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://help.hellotext.com/images/audience/import-customer-profiles/import-consent-en-20260928-crop.png",
+      "status": 200,
+      "sha256": "f9857f0417d21d45939407689348edbd13117a3624a84133741845c3a9a505fa",
+      "matches_approved_asset": true,
+      "tips_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/audience/import-customer-profiles/import-consent-es-20260928-crop.png",
+      "status": 200,
+      "sha256": "c13aa819df5bcd86180a5f0f455c520fdc7cb06d5bcb397eabc16036f915f683",
+      "matches_approved_asset": true,
+      "tips_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/audience/import-customer-profiles/import-consent-mobile-en-20260928-crop.png",
+      "status": 200,
+      "sha256": "c5185ed2ab0d9a8a2b198f4df9e14d10b1e64bac51ad911d3ef21713e9c86bda",
+      "matches_approved_asset": true,
+      "tips_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/audience/import-customer-profiles/import-consent-mobile-es-20260928-crop.png",
+      "status": 200,
+      "sha256": "3b1bb1b4170ab98a325779593a4a12971d015e3e5908c912cff88b372451839f",
+      "matches_approved_asset": true,
+      "tips_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/send-messages-with-api/editor-es.png",
+      "status": 200,
+      "sha256": "27cbe0e6670b0412f590a6030287ce264393c7d56f1ebaafb407d20dd059da02",
+      "matches_approved_asset": true,
+      "tips_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/send-messages-with-api/editor-en.png",
+      "status": 200,
+      "sha256": "330f9832b65d012cbdb0cc97cb757f2c90ac197a37bbae711cb5285521261011",
+      "matches_approved_asset": true,
+      "tips_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/send-messages-with-api/editor-es-mobile.png",
+      "status": 200,
+      "sha256": "0b6fcf98897f7a89bce1654e31fe8eb5fe31195f36ff3d1eb801ddfd76eb9639",
+      "matches_approved_asset": true,
+      "tips_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/send-messages-with-api/editor-en-mobile.png",
+      "status": 200,
+      "sha256": "d5f1753c4577120e5953e7b211cf36850141722623937bc72fccf729bf8b9ca2",
+      "matches_approved_asset": true,
+      "tips_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/audience/personalization-tags/selector-es.png",
+      "status": 200,
+      "sha256": "4d6643bf45c2f0dfd93a6ccc5b29768837a5afb3096b49507e0bca8ebac8f5b7",
+      "matches_approved_asset": true,
+      "tips_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/audience/personalization-tags/selector-en.png",
+      "status": 200,
+      "sha256": "093890c7b90d3b942c1bf755a14dc0fc55be0a95668b687cf93bbfbfc6aad89b",
+      "matches_approved_asset": true,
+      "tips_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/audience/personalization-tags/selector-es-mobile.png",
+      "status": 200,
+      "sha256": "0e088a7435f7ffcd2a858a90d6aefb863eb0ba1d58692834f746724a10bedb35",
+      "matches_approved_asset": true,
+      "tips_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/audience/personalization-tags/selector-en-mobile.png",
+      "status": 200,
+      "sha256": "755d3c948f40c17a3f50d59e7477afafaaf5f859718308290e6dce4fd9ce92d3",
+      "matches_approved_asset": true,
+      "tips_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-wide-desktop.png",
+      "status": 200,
+      "sha256": "65bfef90c667cf5da787412ad4d2175652ea945e2b1c1c84c7fb4bdb6c9217fc",
+      "matches_approved_asset": true,
+      "tips_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-mobile-wide.png",
+      "status": 200,
+      "sha256": "71136b3c75dbbe12a40ad787057309089b29f7d83b49f1ae1426ea91887e34e3",
+      "matches_approved_asset": true,
+      "tips_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-wide-desktop.png",
+      "status": 200,
+      "sha256": "470347c0697af60e59b6119e2c83bfb848fb9cbf69bd07ec4b14e451db40800e",
+      "matches_approved_asset": true,
+      "tips_source": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile-wide.png",
+      "status": 200,
+      "sha256": "244b1faacb31e3852d224f2db51c2efda234e4d57a54826aac83e726037efc36",
+      "matches_approved_asset": true,
+      "tips_source": true,
+      "reused": true
+    }
+  ],
+  "new_captures": 0,
+  "new_png_uploads": 0,
+  "reused_pngs": 16,
+  "all_affected_article_pngs": 16,
+  "main_build": {
+    "conclusion": "success",
+    "databaseId": 36813110006,
+    "event": "push",
+    "headSha": "09a63d6e36c92b10deec6a65f95d7242f567552f",
+    "status": "completed",
+    "url": "https://github.com/hellotext/help/actions/runs/36813110006"
+  },
+  "content_pr": "https://github.com/hellotext/help/pull/309",
+  "content_pr_head": "bedd03bbb067146aafad4743169bd7146a22f7f4",
+  "individual_commits_preserved": [
+    "c5fcdf75b8938baa08223518bc874f45ea152d41",
+    "bedd03bbb067146aafad4743169bd7146a22f7f4"
+  ],
+  "unresolved_review_threads_before_merge": 0
+}
