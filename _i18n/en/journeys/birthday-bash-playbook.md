@@ -33,9 +33,9 @@ It is a good fit when:
 - The business wants to offer a greeting or approved coupon without creating a manual campaign every day.
 - Your team wants a retention moment that does not depend on inactivity or cart behavior.
 
-Do not use it to win back customers who have gone cold. For that, use [Soft Reactivation]({% link _journeys/soft-reactivation-playbook.md %}), [Dormant Revival]({% link _journeys/dormant-revival-playbook.md %}), or [Sunset Saver]({% link _journeys/sunset-saver-playbook.md %}) depending on the inactivity window.
+Do not use it to win back customers who have gone cold. For that, use [Soft Reactivation]({% link _journeys/soft-reactivation-playbook.md %}), [Dormant Revival]({% link _journeys/dormant-revival-playbook.md %}), or [Sunset Saver]({% link _journeys/sunset-saver-playbook.md %}) according to the valid stage signal and qualifying activity.
 
-Do not use it as a replacement for seasonal campaigns or purchase anniversaries. For a commercial date, use campaigns; for purchase or relationship anniversaries, use [Anniversary Surprise]({% link _journeys/anniversary-surprise-playbook.md %}).
+Do not use it as a replacement for seasonal campaigns or purchase anniversaries. For a commercial date, use campaigns; for the first recorded purchase anniversary with valid signals, use [Anniversary Surprise]({% link _journeys/anniversary-surprise-playbook.md %}).
 
 ## What it needs before launch
 
@@ -95,10 +95,10 @@ Use the type of moment to decide which playbook should act.
 | Customer moment | Better fit |
 | --- | --- |
 | It is the customer's birthday | Birthday Bash |
-| It is a purchase or relationship anniversary | [Anniversary Surprise]({% link _journeys/anniversary-surprise-playbook.md %}) |
+| It is the eligible anniversary of the first recorded purchase | [Anniversary Surprise]({% link _journeys/anniversary-surprise-playbook.md %}) |
 | Customer is starting to go quiet | [Soft Reactivation]({% link _journeys/soft-reactivation-playbook.md %}) |
-| Customer has been inactive for around 3 months | [Dormant Revival]({% link _journeys/dormant-revival-playbook.md %}) |
-| Customer has been inactive or not reactivated for around 12 months | [Sunset Saver]({% link _journeys/sunset-saver-playbook.md %}) |
+| Customer meets the prolonged-inactivity criteria | [Dormant Revival]({% link _journeys/dormant-revival-playbook.md %}) |
+| Customer meets the churn-risk criteria | [Sunset Saver]({% link _journeys/sunset-saver-playbook.md %}) |
 | You want to send a commercial date announcement | [Campaigns]({% link _campaigns/campaigns-overview.md %}) |
 
 Birthday Bash can coexist with other playbooks because its signal is a profile date. Still, avoid sending several promotional messages to the same customer at the same moment if another active playbook is a better fit.

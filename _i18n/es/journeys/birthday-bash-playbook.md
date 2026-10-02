@@ -33,9 +33,9 @@ Encaja bien cuando:
 - El negocio quiere ofrecer un saludo o cupón aprobado sin crear una campaña manual cada día.
 - Tu equipo quiere sumar un momento de retención que no dependa de inactividad o carrito.
 
-No la uses para reactivar clientes que están fríos. Para eso usa [Reactivación Suave]({% link _journeys/soft-reactivation-playbook.md %}), [Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %}) o [Último Intento]({% link _journeys/sunset-saver-playbook.md %}) según el tiempo de inactividad.
+No la uses para reactivar clientes que están fríos. Para eso usa [Reactivación Suave]({% link _journeys/soft-reactivation-playbook.md %}), [Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %}) o [Último Intento]({% link _journeys/sunset-saver-playbook.md %}) según la señal válida de etapa y su actividad calificante.
 
-Tampoco la uses como sustituto de campañas estacionales o aniversarios de compra. Para una fecha comercial usa campañas; para aniversarios de relación o compra usa [Sorpresa de Aniversario]({% link _journeys/anniversary-surprise-playbook.md %}).
+Tampoco la uses como sustituto de campañas estacionales o aniversarios de compra. Para una fecha comercial usa campañas; para el aniversario de la primera compra registrada con señales válidas usa [Sorpresa de Aniversario]({% link _journeys/anniversary-surprise-playbook.md %}).
 
 ## Qué necesita antes del lanzamiento
 
@@ -95,10 +95,10 @@ Usa el tipo de momento para decidir qué misión debería actuar.
 | Momento del cliente | Mejor opción |
 | --- | --- |
 | Es el cumpleaños del cliente | Celebra su Cumpleaños |
-| Es aniversario de compra o relación | [Sorpresa de Aniversario]({% link _journeys/anniversary-surprise-playbook.md %}) |
+| Es el aniversario elegible de la primera compra registrada | [Sorpresa de Aniversario]({% link _journeys/anniversary-surprise-playbook.md %}) |
 | El cliente empieza a enfriarse | [Reactivación Suave]({% link _journeys/soft-reactivation-playbook.md %}) |
-| El cliente lleva alrededor de 3 meses sin actividad | [Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %}) |
-| El cliente lleva alrededor de 12 meses sin actividad o sin reactivarse | [Último Intento]({% link _journeys/sunset-saver-playbook.md %}) |
+| El cliente cumple los criterios de inactividad prolongada | [Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %}) |
+| El cliente cumple los criterios de riesgo de abandono | [Último Intento]({% link _journeys/sunset-saver-playbook.md %}) |
 | Quieres hacer un anuncio con fecha comercial | [Campañas]({% link _campaigns/campaigns-overview.md %}) |
 
 Celebra su Cumpleaños puede convivir con otras misiones porque su señal es una fecha del perfil. Aun así, evita que el cliente reciba varios mensajes promocionales en el mismo momento si otra misión activa encaja mejor.

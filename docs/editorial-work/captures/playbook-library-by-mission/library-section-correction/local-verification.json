@@ -1,0 +1,2811 @@
+{
+  "verified_at_utc": "2026-10-02T08:55:27.344115+00:00",
+  "scope": "Exact-head review371/91d43d80 section-introduction correction only: Convert shoppers now covers both completing purchases and choosing complements for eligible confirmed orders; entry requirements remain mission-specific.",
+  "integrity": "Two pre-correction revised snapshots preserved separately from initial originals. Ten headings and118 original Liquid links retained per locale in identical order; titles/slugs/stub/languages/publication preserved.",
+  "static_verification": {
+    "verified_at_utc": "2026-10-02T08:54:49.303275+00:00",
+    "build": "yarn build with Ruby3.3.6; security headers passed",
+    "articles": [
+      {
+        "locale": "es",
+        "headings": 10,
+        "original_liquid_links": 118,
+        "total_liquid_links": 118,
+        "figures": 7,
+        "sha256": "c04509146acbbeabbbb29657020624317c9be9240110db76935a83a50a286d37"
+      },
+      {
+        "locale": "en",
+        "headings": 10,
+        "original_liquid_links": 118,
+        "total_liquid_links": 118,
+        "figures": 7,
+        "sha256": "4623d43660d4e0ec26ee41b96e6bb951ce22b6b7e9e2e30a02fb43b8325e558a"
+      }
+    ],
+    "assets": [
+      {
+        "asset": "images/captures/forms/es/catalog-desktop-row.png",
+        "sha256": "566beb2c6e7b0d3c249b910ae4f4e64b8af41f827f9278795129e4c677873e8a",
+        "pixels": [
+          1632,
+          480
+        ],
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "b34c11123642f5af1145733d0731f3d3776611960fc4a3cbeaf9da7d1a4abd00",
+        "source_density": 2,
+        "new": false,
+        "source_asset_both_builds_identical": true
+      },
+      {
+        "asset": "images/captures/capture-overview/desktop-form-es.png",
+        "sha256": "9ce384f09ff7528d172498cd65436a902ea3bfaf6ae3af46adafb33633f1e951",
+        "pixels": [
+          800,
+          480
+        ],
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "48852f8e0e89b27e570c7faa235e20800d2103a914d4314a9f241d5d7044159c",
+        "source_density": 2,
+        "new": false,
+        "source_asset_both_builds_identical": true
+      },
+      {
+        "asset": "images/captures/qr-codes/type-es.png",
+        "sha256": "eede258c9564f35a12937dc91e1dfe2ca1a42b55b91aa656eb43d4ba9adc6b68",
+        "pixels": [
+          1320,
+          1310
+        ],
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "2fcab55d35c9ac6fbb8e61608e0b60d724b4862fe8237483c22faba83ecc4dad",
+        "source_density": 2,
+        "new": false,
+        "source_asset_both_builds_identical": true
+      },
+      {
+        "asset": "images/captures/qr-codes/type-es-mobile.png",
+        "sha256": "64eb482e351a951426188c8219d6c581a8c1d2637f2a799395cd0e40ffcb0ee5",
+        "pixels": [
+          740,
+          1500
+        ],
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "80ae1df00c3b212601f35c4618d7ab1b54ab98b0a29ede075b5da5adecea5a76",
+        "source_density": 2,
+        "new": false,
+        "source_asset_both_builds_identical": true
+      },
+      {
+        "asset": "images/developers/products-and-inventory-with-api/identity-es.png",
+        "sha256": "cad5dac8389b4545324ad7b0d2cdc0c1cfd2d04a476b42f7bf5110530cc50f43",
+        "pixels": [
+          1006,
+          786
+        ],
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "5952af4d3fc955a10e8626a6d471a5a18fc082a911a55a1356d9f4acfe0ed816",
+        "source_density": 2,
+        "new": false,
+        "source_asset_both_builds_identical": true
+      },
+      {
+        "asset": "images/developers/products-and-inventory-with-api/identity-es-mobile.png",
+        "sha256": "e59c825526ab948c121cde309ff647e98d8b8b015546116fe91e5cdf15ebdb00",
+        "pixels": [
+          778,
+          786
+        ],
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "9101d2e620c82b85a66c3fc498b09db1ac737adb1b85557876dd381d867fe222",
+        "source_density": 2,
+        "new": false,
+        "source_asset_both_builds_identical": true
+      },
+      {
+        "asset": "images/captures/property-collector/handoff-es.png",
+        "sha256": "ef1c8abc4712dacc2effa83f6c968dd4a9453a5b1be059609a877a91e1693356",
+        "pixels": [
+          1150,
+          660
+        ],
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "8985fdd04b67b3b4bc3b967e577f6d57ad4d60a1861b807ba51fd8dcf8b12096",
+        "source_density": 2,
+        "new": false,
+        "source_asset_both_builds_identical": true
+      },
+      {
+        "asset": "images/captures/property-collector/handoff-es-mobile.png",
+        "sha256": "4f252e8b5d86ad772df8b7f979ae8d61de1970ff36f7110f5f1e0b1b5867b2cc",
+        "pixels": [
+          780,
+          680
+        ],
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "d60bd1960ab445759cc750f03a0035c7133e8d1b787d2700f70ab51c4994b766",
+        "source_density": 2,
+        "new": false,
+        "source_asset_both_builds_identical": true
+      },
+      {
+        "asset": "images/team/ai-handoff-to-inbox/assignment-es.png",
+        "sha256": "db457b25763dd6a25ab63f08d9458bad3dda3f8b94742fcea626cb0b7773d91b",
+        "pixels": [
+          1006,
+          1300
+        ],
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "9ed57965c926325adf3c8cafbf6bb44bfa1fd1e9b3d1adbb2d420778b7416242",
+        "source_density": 2,
+        "new": false,
+        "source_asset_both_builds_identical": true
+      },
+      {
+        "asset": "images/team/ai-handoff-to-inbox/assignment-es-mobile.png",
+        "sha256": "76be7e894a13a02c072086a6084ab1e38ceb5520a0f4518026ec9ab805797dcf",
+        "pixels": [
+          778,
+          1300
+        ],
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "d4f3673abff80809e39065c5d0de599d0f8468a6181f6f28fb2ddc0f77cf0b90",
+        "source_density": 2,
+        "new": false,
+        "source_asset_both_builds_identical": true
+      },
+      {
+        "asset": "images/journeys/how-to-customize-a-playbook-safely/prompt-es.png",
+        "sha256": "8eaf2061b629f46e8011029537ab69050d946517fd983b2574e38894edbc4d19",
+        "pixels": [
+          1256,
+          1108
+        ],
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "9928df1558a2b22b5d7e45c14e5a83f0296fe3e9b87d6066c4ff7a05b561fdb2",
+        "source_density": 2,
+        "new": false,
+        "source_asset_both_builds_identical": true
+      },
+      {
+        "asset": "images/journeys/how-to-customize-a-playbook-safely/prompt-es-mobile.png",
+        "sha256": "c99d3ae1c27595677f65b8db6de96a2e39e7d846ebec1116cfe31bd061b8a9c6",
+        "pixels": [
+          844,
+          956
+        ],
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "7245019ee45253b06ccd14fa3368a4950a76aed7e538b3ed28b84c9412ad51d6",
+        "source_density": 2,
+        "new": false,
+        "source_asset_both_builds_identical": true
+      },
+      {
+        "asset": "images/audience/customer-profiles/profile-fields-es.png",
+        "sha256": "bf1ee79e29d0ef384913cad51a1792ddf0050d75a5b4e138bd49df682e203b40",
+        "pixels": [
+          910,
+          1330
+        ],
+        "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+        "pixel_sha256": "ece9f2ffb4e4e739f0d2a45c1f2f3e311a38aa9c3b925dd37a54ead75dcc3c91",
+        "source_density": 2,
+        "new": false,
+        "source_asset_both_builds_identical": true
+      },
+      {
+        "asset": "images/audience/customer-profiles/profile-fields-es-mobile.png",
+        "sha256": "1525d3add44bb64b93d457bb3353f8bfdd9fe0f1f99b84580aed0807db7829c3",
+        "pixels": [
+          700,
+          1330
+        ],
+        "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+        "pixel_sha256": "fbf6c6b9873e60b9d0a2e29c949ecdbffe1b2f07db6ca37f93b858e65a36ca95",
+        "source_density": 2,
+        "new": false,
+        "source_asset_both_builds_identical": true
+      },
+      {
+        "asset": "images/captures/forms/en/catalog-desktop-row.png",
+        "sha256": "7ee2d1dc3d8e3f432ec838e55987946f00163e53400a3ce124721570517488cc",
+        "pixels": [
+          1632,
+          480
+        ],
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "60fcfd9ff0b962ee7f615e5a75f6523d59fd8367db235bdfb329de3a93a9e1f3",
+        "source_density": 2,
+        "new": false,
+        "source_asset_both_builds_identical": true
+      },
+      {
+        "asset": "images/captures/capture-overview/desktop-form-en.png",
+        "sha256": "ac896380329371ff4ff4395b6b7e393eecf0075071f1f361daf273992236bbd4",
+        "pixels": [
+          800,
+          480
+        ],
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "e510c0f182fc50d04a2b2d6dc84ed6c18ac0dbe59d0e5142c8f5c884b9aed012",
+        "source_density": 2,
+        "new": false,
+        "source_asset_both_builds_identical": true
+      },
+      {
+        "asset": "images/captures/qr-codes/type-en.png",
+        "sha256": "ace129e7e733ed1a67517f502e903aa64e96147c056126dd034253f91b95ebac",
+        "pixels": [
+          1320,
+          1310
+        ],
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "99362bfa570930f71bed668a78b15940703859fa98656cae85f760776083339b",
+        "source_density": 2,
+        "new": false,
+        "source_asset_both_builds_identical": true
+      },
+      {
+        "asset": "images/captures/qr-codes/type-en-mobile.png",
+        "sha256": "cffe0390ce515e36f8f3338747e94826de6bbb2e77e94f5780b2217003eded34",
+        "pixels": [
+          740,
+          1500
+        ],
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "377304930271c286d637e579f681225ea16edb2df42bd9575ddc6b90c02bdfa4",
+        "source_density": 2,
+        "new": false,
+        "source_asset_both_builds_identical": true
+      },
+      {
+        "asset": "images/developers/products-and-inventory-with-api/identity-en.png",
+        "sha256": "0ad4775d9bd3d743c1aa60c89c9db36609032046126386e77710f41b682c78e8",
+        "pixels": [
+          1006,
+          786
+        ],
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "b0b9fa3ed649add8754d2bb2cd58e7d4944be958df131426655dcfd790c85a5d",
+        "source_density": 2,
+        "new": false,
+        "source_asset_both_builds_identical": true
+      },
+      {
+        "asset": "images/developers/products-and-inventory-with-api/identity-en-mobile.png",
+        "sha256": "ee47e9bab2033b8dc413e0eb63a5d89ad5f65f322dd07b4431e864677a332b60",
+        "pixels": [
+          778,
+          786
+        ],
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "d0e6b49106a606476e7c92049fe55a0a22be653bafb4866ad231ffc3aa636d74",
+        "source_density": 2,
+        "new": false,
+        "source_asset_both_builds_identical": true
+      },
+      {
+        "asset": "images/captures/property-collector/handoff-en.png",
+        "sha256": "0c5506ceed87f6ed0c9e57a4969d80cee2dc41f04ab25b04969917ab3f3bdfe9",
+        "pixels": [
+          1150,
+          660
+        ],
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "621a09cebb609b727b88f8b708fd3200db19f0a552271c0a28d925f2b13d99a0",
+        "source_density": 2,
+        "new": false,
+        "source_asset_both_builds_identical": true
+      },
+      {
+        "asset": "images/captures/property-collector/handoff-en-mobile.png",
+        "sha256": "97bad463814d7ec88c224ea32ccf6500c65c8eed86a39ef83cd8fba79d2f3793",
+        "pixels": [
+          780,
+          680
+        ],
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "b3865f05a9fbf5b7ead5b49ef21cf9b19c4d40a0484426c01a4b07244042bc59",
+        "source_density": 2,
+        "new": false,
+        "source_asset_both_builds_identical": true
+      },
+      {
+        "asset": "images/team/ai-handoff-to-inbox/assignment-en.png",
+        "sha256": "8dbe38274d6b7b6754262c448dd149be8174cd1922b7a81e6420299a62d5673a",
+        "pixels": [
+          1006,
+          1300
+        ],
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "745c9be6f937b6b86e5b9286837dfca6c2219acb6bc42619e5cf4fe775b69ab3",
+        "source_density": 2,
+        "new": false,
+        "source_asset_both_builds_identical": true
+      },
+      {
+        "asset": "images/team/ai-handoff-to-inbox/assignment-en-mobile.png",
+        "sha256": "859f3b87ad11fea2952c91df5a0d57e3d833b3b7acfa033094283d223a7573ef",
+        "pixels": [
+          778,
+          1300
+        ],
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "2375ba631946ab1be801b67af93a1da2dbb08a5d24c170cd81ca41d77b1fb9f5",
+        "source_density": 2,
+        "new": false,
+        "source_asset_both_builds_identical": true
+      },
+      {
+        "asset": "images/journeys/how-to-customize-a-playbook-safely/prompt-en.png",
+        "sha256": "64ea8b35decf0e03633f421de5efb4b6045be7c935aed6f4072fc8138b11d99e",
+        "pixels": [
+          1256,
+          1108
+        ],
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "88ee984e77a9f2446e3b1e94fbd9a37916bcf8a0f56284d47993cd393b95266d",
+        "source_density": 2,
+        "new": false,
+        "source_asset_both_builds_identical": true
+      },
+      {
+        "asset": "images/journeys/how-to-customize-a-playbook-safely/prompt-en-mobile.png",
+        "sha256": "168c62527edf6a1d4663857308cef0bec7540cfa54876c8178a3ecbd92503d9c",
+        "pixels": [
+          844,
+          956
+        ],
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "29e4efafa3725339471d260323532dad1697c2a70cd27889f8c1442c871c9df7",
+        "source_density": 2,
+        "new": false,
+        "source_asset_both_builds_identical": true
+      },
+      {
+        "asset": "images/audience/customer-profiles/profile-fields-en.png",
+        "sha256": "9bbb727226b2a20d5df4be2ca7612d29037b9d18d8e7e2ec488c407c54945f5d",
+        "pixels": [
+          910,
+          1330
+        ],
+        "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+        "pixel_sha256": "ab9efe084af7d5ff495d33a247ec960b1d7801465f14541541d8fe02c3e0b2a3",
+        "source_density": 2,
+        "new": false,
+        "source_asset_both_builds_identical": true
+      },
+      {
+        "asset": "images/audience/customer-profiles/profile-fields-en-mobile.png",
+        "sha256": "0e2c6a1622ea73ec0fa008f5100b7ce5f04e2695cdb1aa2414c855db6ca760cb",
+        "pixels": [
+          700,
+          1330
+        ],
+        "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+        "pixel_sha256": "2c6d97f8fae45318da694722421ee28f5ca5e7b9bf5db7423580485bd8758f36",
+        "source_density": 2,
+        "new": false,
+        "source_asset_both_builds_identical": true
+      }
+    ],
+    "publication_state": "not_yet_publicly_verified"
+  },
+  "full_body_views": 6,
+  "order": "Spanish first then English, each1440/390/580 through every scroll and footer.",
+  "native_help_viewports": [
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-desktop-0.png",
+      "sha256": "6a306cd36a63dfc11a22bebe86120b66afbb72d716910122ea65d68057eda3a0",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-desktop-1.png",
+      "sha256": "b4cbc1e6d1b1cb31711ad9027943e400caed9ff5d2a48934c519d4ccd3cc51a8",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-desktop-2.png",
+      "sha256": "167cd641d576c3402c8ac69badc9bda7470587138ffae0cd6a8a7061a69312b6",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-desktop-3.png",
+      "sha256": "96a9e54b4a1262eddd0131f177b7d6bbfad68a1d87b228b233ff08c27b5c42f4",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-desktop-4.png",
+      "sha256": "5c0c5906b2285f192b1af5d2972e630d795e948086e5b10fef7556b72858ced0",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-desktop-5.png",
+      "sha256": "166d91b828e373b80b593ed31cee6df695f2ed60530515f9d71b5335fab9d6f9",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-desktop-6.png",
+      "sha256": "74e1807c15ccc5862b80b27761c29a3fb520c80c0c3aa51cf1432145d4ad7d93",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-desktop-all-0.png",
+      "sha256": "08b24ea55f83a4d239abf6e45093a3c3ff38817ccb4eb82f0df1e0d2df8b2a23",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-desktop-all-1.png",
+      "sha256": "696a80615b74eb9ac7ed44b02440ef7d5644df928fddcae22f4c625f03077d46",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-desktop-all-10.png",
+      "sha256": "f4cdb55ea4df72325670fdefe9d8ea7aace6a3194c1afaa236586fe13f5d353a",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-desktop-all-11.png",
+      "sha256": "8a0637a12e1663cccd5e92a4527403d5ffc3cae97c8628dc656d3def208a25e6",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-desktop-all-12.png",
+      "sha256": "1cb9ff6103af5fd3d9be8f21ac23dfc937758015a4cc639373f4b7c9b553636a",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-desktop-all-13.png",
+      "sha256": "89869f7878878933cc77c73f81afea066ee8cb39e4535ade9c7a296791a6023b",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-desktop-all-14.png",
+      "sha256": "1c30768a579cf21b6277e45d2ab495f403e63c9d837e0cae71260c68111da48d",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-desktop-all-15.png",
+      "sha256": "c7637accbf915a4e57750c9af9baa345c95ead4a6db8beddc385884c8bc04368",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-desktop-all-16.png",
+      "sha256": "84ebb604f7b8ab9c98c16d100f745c68ca5fe014211826b42e83d86b1d3d3723",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-desktop-all-2.png",
+      "sha256": "f8acd9b91efeb45211323c2b8a47a63b7fb7e474250e6eecb747c3c1e19da2c0",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-desktop-all-3.png",
+      "sha256": "ae53cb94599f4a365ec01d4e8c9d28524a524f76e386162a925f5db35a35e96e",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-desktop-all-4.png",
+      "sha256": "e9486237c01906bc23dece076e362df0cf0093fc9d80cd4abd48c6bac1c45a57",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-desktop-all-5.png",
+      "sha256": "64c1a8189838545b445bad9f9a16565b5c261cbe45872128d9e6a38621f782a3",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-desktop-all-6.png",
+      "sha256": "80c3e81b1195e020e27f37d6f942430260d55fb36a24a024f951c5565faad825",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-desktop-all-7.png",
+      "sha256": "1b678a6763f79addf4ddc442d92720d9780c9adf72a6ab659236e73415186a3b",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-desktop-all-8.png",
+      "sha256": "92df57410a03883695014c300714d65ef8a9abf33bd95c3743cdf3975a9c12a9",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-desktop-all-9.png",
+      "sha256": "4e23fabba0b474cb7aded884c1a5891a313f1163337c918354ef242fdede9618",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-desktop-bottom.png",
+      "sha256": "88e18bada162806145859730b54c97962720273aca09bfae4723c420e0ef3303",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-desktop-intro.png",
+      "sha256": "e841a2e606a5f8b43063bbf26447a9893a76c5844439fee7fc95363f2af710d8",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-desktop-section-0.png",
+      "sha256": "d3e602baf0688d79644646f0214c914826787ec9b79ba570ab66242829e3837a",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-desktop-section-1.png",
+      "sha256": "5d9cafda18b9e35db4dc69d23863a4b5f93e04d6b72b61dfc29032ff73ceb38e",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-desktop-section-2.png",
+      "sha256": "701fa7655f9eea8a1f021d0e8a4172d989d067e53f048c8f785cd73a0a4c4e44",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-desktop-section-3.png",
+      "sha256": "f0701e62dfd5509ab62da313d265ad42147812362d24babe7f161a5a50de326e",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-desktop-section-4.png",
+      "sha256": "c130129b5dd46b3c63237d87b9f50660557015b72dc3500bb3948693b4c99f7d",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-desktop-section-5.png",
+      "sha256": "955e0f2a77344d87ae3ad22e647e75d40b1173f354878c3bb87ab189b8889df5",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-desktop-section-6.png",
+      "sha256": "e484b903ac5da1b876ac7b445b84b4bf7d350bae45c19760ab7c15cc8b722dac",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-desktop-section-7.png",
+      "sha256": "59f0655254a31f15ae13f608f56a4baca2af2f50c575f91968b17e5d7c36f1f9",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-desktop-section-8.png",
+      "sha256": "92f4a56b65d5813d10571b26146ce2a1c982777ac9af13c93336dbea251d8e53",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-desktop-section-9.png",
+      "sha256": "fb4c87cf279ecea46151a7c5ef5addcd01b05ef2cfa20b909008f7d1a9835ab2",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-0.png",
+      "sha256": "f33467273fa0967e48862612abd6efd2288d9c50f71fb1eb87fe9fcb953b9fa9",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-1.png",
+      "sha256": "0661eeaa6fc0397adae642fcec5c464d4bfe1f9c5a8056e8c71f627cde518d7c",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-2.png",
+      "sha256": "5c2831a6186700e980645c3373bf4228616cb829dc80066be91a5cd8df26144d",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-3.png",
+      "sha256": "c2cf25e3b829e5d3fa661fd1e2c7ca1e7fd05b0386db050274b1ae11e88e7330",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-4.png",
+      "sha256": "b24a98957e4dfc1afcfc444b9425f0a19954fba05c4304ad046391695602d800",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-5.png",
+      "sha256": "cd6e8023231e84ef0c834130f8a6db8e0fe44bcc40234f82f1fdd9289f7a2a59",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-6.png",
+      "sha256": "01fb38c0b1bb8b5710ace2e8d8cadc333a9fb31a8cfdd33e6570af5fbbba3a5e",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-all-0.png",
+      "sha256": "1de2f0e78a5b4c7b5e62d06deb774cd86cc8dbaa5c64b44beee9a1481fa5b562",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-all-1.png",
+      "sha256": "749b7f1451817a1ab06c5884ff5472da4dc4019db30882fa42bc70802149bf7e",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-all-10.png",
+      "sha256": "e1591e39067a3f69e09de9e8bdb5b5e11eecf93df0cf3924e5be5d21502ac763",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-all-11.png",
+      "sha256": "a15bdcc632d785df137e5abc50a09a418ece0ee17c204d944ead673b6c284019",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-all-12.png",
+      "sha256": "d8871752e87f780b1138e32350fdc3b77e9653ebc5aca10ba33d8945c4b6c674",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-all-13.png",
+      "sha256": "3f44830724bb2440269523b8509d9a1c687ddb906bd28b70f9cd93f20ea2df01",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-all-14.png",
+      "sha256": "a4b25c53f103e608c85e824abbc55601726befa9549dc8f4feb9bf12acfcc022",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-all-15.png",
+      "sha256": "8de197d575f34123372f4f7ac466c5ef3c7c6744dacf5fbd448ce13178644618",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-all-16.png",
+      "sha256": "799cb546b76b1bdd41c9b6dd2ad2c639576c0350c388d7f98226d5b49f05d524",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-all-17.png",
+      "sha256": "644252195c3f9135457f9bdff4314962c5138484adc08c9168598b9ae2e70790",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-all-18.png",
+      "sha256": "e5dfdffb6f44555cf576e83b10b1c1b19e27ed5f194d985e42feebc6fc04e094",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-all-19.png",
+      "sha256": "7f077d75dd8eed515e0341ba51dfce5b0fca39fb548bc30654396c9caa0bd09c",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-all-2.png",
+      "sha256": "72e2a60b7f0987b04c301098512d9d31d28b84037a8a12c4294bbed2f23cf730",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-all-20.png",
+      "sha256": "84e516a3c7a37946ff3342f5b00efab9e3a1322570c531b3ee5ee17f05caf8aa",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-all-21.png",
+      "sha256": "6ec3bc8b6f99f2ac526ce16808b6453f48bdf7afdefce0ce6a378c311fde51e6",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-all-22.png",
+      "sha256": "62e24a450f57ed7a5d0e09b91cb8f23fb9e66aae441b2bda88860ef4df9ef7f6",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-all-23.png",
+      "sha256": "91ef5dcfe5eec042856c44c48f07d275b3cab17d0e4fb63f507703029aad3397",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-all-24.png",
+      "sha256": "5a252ca12bcb0c0908bb789d8274587a2ac85622a951dbdd059509e62a3cb21b",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-all-25.png",
+      "sha256": "f2499258fff51df4fa3a86d9b993852d0cc7111b6725b0da818bb7ead8029fa9",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-all-26.png",
+      "sha256": "2a32b45946cf1fea12d13a49d98226bc470694d2bb2ca13d7c1a2b0cd11b3106",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-all-3.png",
+      "sha256": "507d760c605a7f5e2a73047bbcd7010c9848e67f42d1d0ac7c12ec2e70a39ed0",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-all-4.png",
+      "sha256": "8a8fcb3c61881e50e091336a7f0c5db0a38d5e868275bf964a74fb3ed81f1ee3",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-all-5.png",
+      "sha256": "371cc113508db6d16edcf177af577b16276c8adf16d43d0f807082cc6c3e7e3d",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-all-6.png",
+      "sha256": "ebf7feee1c0381053924fea19db2aadecb7f3287be4a4dcda0a9953dd2e3de9d",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-all-7.png",
+      "sha256": "eabbc54f0a860c1deeb0fff7940ecd1e83ddcaf805f360ee4d341a0d76e83fa7",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-all-8.png",
+      "sha256": "5800335e4d3dc2dea9063f709604875730578f927b774f42c958773d98935de3",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-all-9.png",
+      "sha256": "e22ece8463dcbce3634c755c70d0d6ec63fc424fbf592967b6e40fb03e2fb831",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-bottom.png",
+      "sha256": "a994ddc91de8dc271c1c3e5519567b5de00a4d4bba07f0a6d083e9f12629cd13",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-intro.png",
+      "sha256": "5cfb268b66fb3769bf7ac27c3910fbfb402a0c298b0604696ddc8785ba5f5435",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-section-0.png",
+      "sha256": "11cf35d3c816447d91cd3420255578d05e627c9ce7e795a7f78cb4f1de220a60",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-section-1.png",
+      "sha256": "325180732cc08144f5a3be6147770b496346553d381d01ce89e14f53d919b604",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-section-2.png",
+      "sha256": "55d06473255886a4a9e17c993d0ce31f7e5b00bc799da9160a78f3780806ea14",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-section-3.png",
+      "sha256": "df1c4f88b45693705b5f6040f3c3f3faa241f01df33e8b830760470ede2d3882",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-section-4.png",
+      "sha256": "07d24dda9286ba2eb9c3d16cc2b27f276d515bae9e121fe7c3ea3ad1140eadf4",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-section-5.png",
+      "sha256": "43b2a172b8beb8a8bab1c25ea7c19660d96f5beb7b90c9d96df16da637fec555",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-section-6.png",
+      "sha256": "3858be6885393dbd25f2c38f28a6b47740e3af4fc6c5367ce778c28041e71c08",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-section-7.png",
+      "sha256": "f6ff1efc9eaad483aedd820b77229a028d4d8b0924fd423bf3f580f3c3fc42a9",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-section-8.png",
+      "sha256": "928da76aa8426fee9a8804d24b21a354568d4df06b182d607eb8183634452041",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-mobile-section-9.png",
+      "sha256": "6b14ee37b5e23b5d36264c7ac7e5a0c0e64ef370a2bde5d5af8b5b5d1bfafb33",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-0.png",
+      "sha256": "471ebcd4a1887bc69419f601c25e7fd4ab1e01a7f50ed5fd1b1ff5c91c84bfae",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-1.png",
+      "sha256": "2edaeec5982d054f7e8a6e24d5b0b18486e29c9a75a91a8746cf20a5e21ae708",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-2.png",
+      "sha256": "add5d51d5c4fa3e3c4f626eca06aa7107dd9559c5af5a908d2d49d74fa17584b",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-3.png",
+      "sha256": "5e3a9d65cc2365e6ebe52dcf353476c1243839480dfde5de67e899792d995ac0",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-4.png",
+      "sha256": "e13cf544a08a2bd80219400dfbdf4d0217ed21c42e708959881a84f999e48346",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-5.png",
+      "sha256": "fb434ad15d372a6e131fa2d5add8554461af32147ebd982649172a190679de99",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-6.png",
+      "sha256": "3efbcfea2cd9f81418ad7d5ce04c313d724d40c0fcc72d926c12d730ae034b60",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-all-0.png",
+      "sha256": "8d8c3669ff15c3752b92860f9191d157b375f56e39e7102446400b1bf53c2925",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-all-1.png",
+      "sha256": "75fa52d38c93a23b3517412632315e96971d33279108b78c8d0bcf833b71810e",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-all-10.png",
+      "sha256": "9513bf67a25dc728c37e82cbb405e864201abd6dfc8a165a9ac429f428a7e7d9",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-all-11.png",
+      "sha256": "335758c197908e80ef12e49b545b018966d59ba97c17a17315d0217e1155995f",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-all-12.png",
+      "sha256": "21387ca1866d70dfc830ced631d95938d94755a962c6e8631f7ca81cacd301a4",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-all-13.png",
+      "sha256": "b5591092f3c5fb6f4ca7fefe67979c20b26d33688ce73da40a713d455716e781",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-all-14.png",
+      "sha256": "4120b69a256e9d577a6b4bf1c20f3d5c5d6e76de88fd4ded418b2e24ae7dcb1b",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-all-15.png",
+      "sha256": "477f22b610ecb3c3466ded32c9ebdba13efe4bd3f367af976a1667e8e4c7b441",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-all-16.png",
+      "sha256": "7ef81dd8a5b64c26bd317fde48ce0e7b2413666fcb95edb9367a2c63d0475fdf",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-all-17.png",
+      "sha256": "9f3eb640519ebf42a89c1c896e03866617edf5852f5e9e70fd6bfd9c0a08db07",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-all-18.png",
+      "sha256": "02d95ec1edd238eb4f38f0b3861ed3fdc8b5cd2c49545bfb4c6e9877283b0f95",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-all-19.png",
+      "sha256": "ad5862fbb00ee1c594a6880bf947593a55f1bcfef6903c45e3ae71a6c445a0e1",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-all-2.png",
+      "sha256": "6bbb166b7a4809bbef165b3f40c79eb4eb603aaee0f184c3fcf1a8615b2feca1",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-all-20.png",
+      "sha256": "40a60dfc561f980e79f204c548c8c22e0375ddc84d6219e0b37c63f64aa34cd7",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-all-3.png",
+      "sha256": "d4bffecad5d1277671757b4b88c2e3bba9d4f52d8505bdf910406f7b5a9d9c6c",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-all-4.png",
+      "sha256": "5db520e0de77ce016a30b7b024b8d3a896ef5ed88acbdc2d5eb60c148be927d1",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-all-5.png",
+      "sha256": "6d9bce22419fe467ee441444d9f3fa813b57f9c009435b22b26cf5e26cc8330e",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-all-6.png",
+      "sha256": "d4ba990b9c2a183663296a486cae0429f00945b359ca589485bf1d4abfe3bee6",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-all-7.png",
+      "sha256": "fd53263772b5067c155a0469e014712121c4d4cfb588470196759b050a7c2553",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-all-8.png",
+      "sha256": "413ed0283248d9c3c12d85cf41084641f412d1cc768ed2bc55459cccd210feeb",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-all-9.png",
+      "sha256": "b6b7a1af7c4d5abf46b7daab1c806ef52ef03171ab999585e828efdaa201f5ab",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-bottom.png",
+      "sha256": "0d199402f132fef207566600b1123834e1d9e4bd870de19db0cd10ef413c7c65",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-intro.png",
+      "sha256": "8d8c3669ff15c3752b92860f9191d157b375f56e39e7102446400b1bf53c2925",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-section-0.png",
+      "sha256": "d1813920c66c6abffc1482d3fdb4fcc5d1a4c5c6b61320c32d5b34cd3154849f",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-section-1.png",
+      "sha256": "2f7246b47f2c4599aefd85927c3c1fb83f584fdd696a640ff477450273086463",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-section-2.png",
+      "sha256": "43bed99ed90c7ff3e29310b0dbf17df7e72911234d2235f733e858fa06602310",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-section-3.png",
+      "sha256": "5361531b0e26abb8d5559183f7361ba5028eda35d5c0d5f9662d04bbfd38cd31",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-section-4.png",
+      "sha256": "49220436f0353b4ae6697348b9d1bbe61fff85074f6968ec33252a255b351e36",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-section-5.png",
+      "sha256": "172405f7f7d39a539bd234473837f1bee0fe1c31b190424c3f0d84abffd60ee6",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-section-6.png",
+      "sha256": "cfe10df30dba6b25fbf7bb3e1ba75559e75223fbcc0326ddb516a525bbf5b7ae",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-section-7.png",
+      "sha256": "0c3d92343680a88e60c8e415e416009d1af61ebb5cb62f3d2a5451adc82256cc",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-section-8.png",
+      "sha256": "0e8e71aefb38ffac7a899ef2c2eee6651969e72620065cbe8e06e53520fa9eab",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-es-narrow-section-9.png",
+      "sha256": "825444bf4b855a1549163078d1231d22ef15b535aba492b54b0e4bff96cd3c8e",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-desktop-0.png",
+      "sha256": "af72900752b209e6c6d8b5bdecebc1c3ec5b150169c1c0c630ba2d4b652b604b",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-desktop-1.png",
+      "sha256": "2a514b1b1b06245068d44cbbd0e17a092ac61a1256244125fa7655380ee450af",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-desktop-2.png",
+      "sha256": "de4f9ae8a67e63f1dcd485fee8ec80ce852fbc02c7a569b28c0516486acb9a97",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-desktop-3.png",
+      "sha256": "49ae1705011e618a0bef0573492ce4de74f8044b5e80eadf821eed52b1737a3f",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-desktop-4.png",
+      "sha256": "1c7ccbd53af0e728b940a52d73db4d765e9efdd4ffbbec494fb6cdf82642a9c9",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-desktop-5.png",
+      "sha256": "75c645181c4020fb483fd4a291fdba89dc8c28ca0df1af2ec423701c60bb78b8",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-desktop-6.png",
+      "sha256": "f10a7616bd58811af465e86ba94ac8ec5b7fa3eb5f85d6c5fa6bccf7800a4cb9",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-desktop-all-0.png",
+      "sha256": "d7d328adb59ca60b1cce9c8657da0a3e1926481aa10f4cba142f61e689ef9ac6",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-desktop-all-1.png",
+      "sha256": "1731948068a14361d7688ae1f94f1fb10705a4c02659f9e96c8c0c7b61fddcf0",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-desktop-all-10.png",
+      "sha256": "0b6d68941d6f74c5dae19a7eefe6ee6a4307a25d62691d99d0063e6400abbb6e",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-desktop-all-11.png",
+      "sha256": "c9065a0528fb33c754ca0a65d3d9f75e4d16b06e2bbb4a29a9b2b248230d9df1",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-desktop-all-12.png",
+      "sha256": "a2891ce6ece004d433b708511c19eaaf52eeac66bdbffc07a3fa6d3773c42b61",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-desktop-all-13.png",
+      "sha256": "7a3456fa25a35e47c6a302ca3cdd34ad3f7c03cb74a2c0dcf39e4b2f3fe64203",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-desktop-all-14.png",
+      "sha256": "d7e1c23da60dfe4449413dcbf966d2cfed129ffbb4f12b07dbdb21e21d74392e",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-desktop-all-15.png",
+      "sha256": "d5df9e2c30865e56d00cd25d04e8a974f926e32a2268ec66250741c6e90df0fb",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-desktop-all-16.png",
+      "sha256": "618f33b6ec390026d6143f5c889bec43a6810115e8933503ca8c4773c5e7a7be",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-desktop-all-2.png",
+      "sha256": "c10276e31c2e5a2986d163a1460e5681afbe93bc8a38081e35b8042e6e8668c2",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-desktop-all-3.png",
+      "sha256": "580e5c95555dfefe083c2d59de1b8734e7abb5ace642898e11c9fb964ee5fb11",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-desktop-all-4.png",
+      "sha256": "5c008b04022784421628eb0abdc85aa417b9bbec548243339ed57c9a547c99d6",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-desktop-all-5.png",
+      "sha256": "43affbb853cca4dcf5d2d33e01be7da205705d7b0301f6633ec171556c895083",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-desktop-all-6.png",
+      "sha256": "9f86b8a5169fed31490fc7bdd4a31d4fafd840f57a5bbd0ef53efe89f1f9a982",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-desktop-all-7.png",
+      "sha256": "ea966531d5550af3b3253bf9ee5662a9b95cc857012e4d62fc71e7e9fe13ec05",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-desktop-all-8.png",
+      "sha256": "82eeb8a26fb3375fa7fd314f8e5267a2818eb2b9ab5e95272bdf0d51fe5987bb",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-desktop-all-9.png",
+      "sha256": "4da41188fd2b2746cbb76b9d0fa5f8926728eab5db5051bbabefadb41fe863ed",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-desktop-bottom.png",
+      "sha256": "9bdde55a042e0f1845f298e79a440f47013e18a86fc60b37f24e25b6caec4926",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-desktop-intro.png",
+      "sha256": "e215994a1708f1bccb042ff5401d76bd8ebb29f86c4844c69878e577faf04721",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-desktop-section-0.png",
+      "sha256": "aa878f53f7f366f92a1e4455a5db37fd40ecdeaeca0233bb503e9c04518cd114",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-desktop-section-1.png",
+      "sha256": "203e21d2fdaecab242159bed76a82ecdba973f44bc3162f73c06b0f2f9827384",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-desktop-section-2.png",
+      "sha256": "8ee63a6f1f410166935789c9de4d0fbbcd921726f6dbe98a272b2d54da2c912e",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-desktop-section-3.png",
+      "sha256": "1e3756cae18f4d68aa4ade6c043d3eeb8b47d22e32c3a24afd34b2f95efbbf61",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-desktop-section-4.png",
+      "sha256": "dc3c8d415ff0711a4a78472df7d122ca88e49bf6ec41b2f25b6b0953f34eeedd",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-desktop-section-5.png",
+      "sha256": "eebd7d4fec90ade7cebea1f5f7748f9fadfb5bfaad0c26fb7bd151569ba9e5f1",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-desktop-section-6.png",
+      "sha256": "ddcd24ecaa995b130e2bf62eab9c5738bb7099ae6bf7e90acb0b2b167153f696",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-desktop-section-7.png",
+      "sha256": "9b4749f5c3519ccb03e9af86cffc82a0602401468d988897a89f5d6e9dc2a96e",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-desktop-section-8.png",
+      "sha256": "91c4790419b2cdbe0c47a79b2e569598643d6889073671b6f2dfa00b60b3f98f",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-desktop-section-9.png",
+      "sha256": "90f334595850bbf8a11ca7f56fc1d8eb0ce9b8b4c36e03cc2435724c30f5f6dc",
+      "dimensions": [
+        2880,
+        2000
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-0.png",
+      "sha256": "13a04083ba62d9cf942530e3b67bbac2f92154c0f5ca3aad7d562c2c1053dbad",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-1.png",
+      "sha256": "1a774d9bcea681fbae7457f81a2013ea5a3285d7213e0c16d9e960a9067be2eb",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-2.png",
+      "sha256": "cc73016adf843515b9fb5ef0857137d0189a06b79475943c7db2f775f7e71f86",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-3.png",
+      "sha256": "2ca814ab478b73adf4d3abfa12bed122163e70308aecc08d1b55d12d0f20cb3d",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-4.png",
+      "sha256": "69d7d3e5a875a73b81a8db1d1d1819974f081398e61ef53c8cf1ec58dd232719",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-5.png",
+      "sha256": "fc222a28d6b25ac1a33e5bf5378a8c26f2d393b859bc4a238fb806fb0e85c079",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-6.png",
+      "sha256": "adb42f91b6e6179ba87f4a9c9de097076c27021fd733c1f1bede5ba827ebc1eb",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-all-0.png",
+      "sha256": "f806dda38ed7544b470cf870cd93142f3b2a76af718945005689c67d36f183f8",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-all-1.png",
+      "sha256": "1f8d296cdef63f55131779575fefc5a860ba17baa6beda03674fbfa654286a14",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-all-10.png",
+      "sha256": "fe9f4fc306642742df7bb6679d6024d27a70c2bab48f6e9906013800b4b90d5b",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-all-11.png",
+      "sha256": "074c23366512bc87ab4f729539842eb5c8008dc21b96d01c44d9b831acbb63e2",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-all-12.png",
+      "sha256": "902787faaae57be6d7753b3ff21d0bb18b694755241678695571113df831049d",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-all-13.png",
+      "sha256": "c611d6b20f307d66c6e93dfe4d431fc25624324153c47bc9cafae5cabb0f95c3",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-all-14.png",
+      "sha256": "709208937e0d872e49ab746df0e6cc37ab83fef7ae72b34739d4d9d4c2df0c83",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-all-15.png",
+      "sha256": "d147f2ecd2c909ab600db6de88257fb17a74e178d69f230f644ccf847e61463b",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-all-16.png",
+      "sha256": "7db0f7ed4b7bde807b199ff027c845e17ada77b8c98129f041ad1ec061551bc9",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-all-17.png",
+      "sha256": "62c8ead17043fc58c413f10fcbf3c2a53958910fc9684b72f07f9a2a12f20031",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-all-18.png",
+      "sha256": "ab8592e30396fcf33ee64f1795d45329cadc836d7bba508484b90c91549035e9",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-all-19.png",
+      "sha256": "1f5375e5cbcd6063cb8994eeb895d1222c36efc2c6a6c0d1b8241b597820aa6c",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-all-2.png",
+      "sha256": "c6f2e3366216507777728d9fdf0900335797f6e69c87efd12fe2a3704b4bace3",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-all-20.png",
+      "sha256": "6a32ca61929a8ac0f1b5d979bd1e34ebd055bf6ebc2cf8478af339fe5022ec05",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-all-21.png",
+      "sha256": "efa30f4fb2ba139df1a8d6f632f64a30b2d27ea4cf850c4d4df6fa239bca9d03",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-all-22.png",
+      "sha256": "d1cb8b3be439903a49aa45db7e96d232a0841c063b269145ebccfcbadd641618",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-all-23.png",
+      "sha256": "8c9c1516bd15ad5f5f39b83256cba3ac96b790c27f184b439ab46814a4babe9e",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-all-24.png",
+      "sha256": "2879f76f822979a238b83dcf597ebb163b1a70d866030afdbd9daf0afd7e5d75",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-all-3.png",
+      "sha256": "e193f212fbaabad304efa0230595b979a3093ed2bbeada0ba9089b897bfadba3",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-all-4.png",
+      "sha256": "33b1e154d22d98a94c288465bab402943275da3a869007579c142d7eccbd81d4",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-all-5.png",
+      "sha256": "50525214a09de56000b8ab0d7b35085b15378c5e513bdb7c777a97c86ba169de",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-all-6.png",
+      "sha256": "4b078893e7d281e7f85b06e5d35a86e11e51a8eec04616c8a9fdb2663cb198d6",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-all-7.png",
+      "sha256": "fb3c80529d5f8e11404424fcc38e52e0a559f3ffb0bac5ffb59c32aa5b12bbad",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-all-8.png",
+      "sha256": "ddc7a03b6c6bc7edbdb1518527b347816057bd0a83862bae0f42067d9fcff262",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-all-9.png",
+      "sha256": "a782c3f1d0c25aba3e923f18d561bd46fe5a162bbd09913044f196d1812ba85c",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-bottom.png",
+      "sha256": "7ea49287d8295aee42be9763a76bc687f81b246a5879d3c6addca54a03dc5d05",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-intro.png",
+      "sha256": "d629e33da26c3e26c0ee1c0bef4222e828152443775a045e80779e7f77a41820",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-section-0.png",
+      "sha256": "d7b791762b66067855b14088b466dc9c57f44c96e1d7c54e0dbf47f424327ae2",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-section-1.png",
+      "sha256": "35dabd768ab96b6c6c7c828840bdcc392554b0ba5b539474984262c9fb6ce5ce",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-section-2.png",
+      "sha256": "fa32f27e81d595ed43f6080c80ea9c62f15dd5c87dfadaaef85027014e4920c2",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-section-3.png",
+      "sha256": "dad8869532909259a8e65900bb363279f4e7fb66c0e0d56ea682950355f32bc7",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-section-4.png",
+      "sha256": "65813de900b4d9192e4fbb3360f93dc0a284e401bc15cd1493956ba00d2ac127",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-section-5.png",
+      "sha256": "80d9e41995bd53bf9e18e8ea87afd1e51488e45f5638ba4a549d930fac7ff327",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-section-6.png",
+      "sha256": "252d59a87545c34a509adbb93fc8bc3495e8c57098a2f073fbb97c91901f41fc",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-section-7.png",
+      "sha256": "09e355e747778f7301c2ee5485badae7ec1f0809dd895dcf4f095d084cdb94c2",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-section-8.png",
+      "sha256": "c1bf16454c36455efc07f7aeec825afaf5e254c622dbf293cbe16a8da076b05e",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-mobile-section-9.png",
+      "sha256": "71da9eef8be90cf14d6ae6adea346a116888b7e87f9cc88a0d795aa82b095b30",
+      "dimensions": [
+        780,
+        1688
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-narrow-0.png",
+      "sha256": "136d194b03b28ddecc415573e94fa9b184d4daebe65c1900a891698f418d0b3a",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-narrow-1.png",
+      "sha256": "4514bd89873c082405ac9d99a80d9e0c4ef0a8c4df07fbc621c1e67f27d26248",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-narrow-2.png",
+      "sha256": "15bcf42e0aa2ee5cc5d2f56c0e36d7f2c9de9a4f99ab997f0154f1e6907638cc",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-narrow-3.png",
+      "sha256": "3da17616f95514289da4f4273ba41f9cc019ecdec4c48c4967b52f38309f84af",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-narrow-4.png",
+      "sha256": "499a2ea1eba57866c84888bfca6137d3ee3b5713eeed43b11f3f588e9e5b3c82",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-narrow-5.png",
+      "sha256": "0b7122248c3e77914429934bb7aadea7ad21dde877920335fcc551f2816985dd",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-narrow-6.png",
+      "sha256": "0efbd15509f7d0fce91995d4fbca81b0f27947264a559fe4717aa2bcc08ae44b",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-narrow-all-0.png",
+      "sha256": "c53dbf86b38e502708263bcc90413476a921207d509780abd53c5c3ef9a9425e",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-narrow-all-1.png",
+      "sha256": "753f381510ed9a32bacf19e3ec26547b2c59c4534985124af32158b4f0c68ac8",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-narrow-all-10.png",
+      "sha256": "94def2dc210755189a8a6b3abc2436e8951b4ecf45a84665a44ea1db2ee1761a",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-narrow-all-11.png",
+      "sha256": "67cabd906d3a27e41eb6e691da753a258b5dd8f45f1d8d0d69fc33dc44e2d8c9",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-narrow-all-12.png",
+      "sha256": "95091395e772ad88c9ab4383c0928b5089d517139953c219c6068eab5db04f47",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-narrow-all-13.png",
+      "sha256": "95c8af8f8cd5ce1841d707dea09a761c801c2bba67223c2683152552628c94f2",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-narrow-all-14.png",
+      "sha256": "577ee5fff70070469ca47316467dc1965b75f42d091a63f69ec72ca998069acf",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-narrow-all-15.png",
+      "sha256": "c2875e2eb55bdf4cfc40167c8b0a54963569bc7606bb511e3bc3dadc3fa0aeb7",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-narrow-all-16.png",
+      "sha256": "dfce3a6828441f5e7fd9e0173b73298150346a2c8a8b0751d3b4ceab10bb2d5b",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-narrow-all-17.png",
+      "sha256": "4075f40c6f53b780bebfa3345395068a7e7786a50976774fbd8188e44692af26",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-narrow-all-18.png",
+      "sha256": "a728dbd04456757d674059cf90b3a7f7ed7dcc25ad8534c1ab8e9e01f04615f5",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-narrow-all-19.png",
+      "sha256": "6d21e3fa15102334e145c69bdffc08bfd201782201242287338f4d2ff39796e4",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-narrow-all-2.png",
+      "sha256": "7d4c9ff3fbb2d9ab982ea53e71bf8ff7bdefd4168a1471cf9922e41a0dbe300b",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-narrow-all-3.png",
+      "sha256": "4c2e91e5a39bfad22ab544be6990acf1419bfd7d4edc9f7c30f9fa5034d241c3",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-narrow-all-4.png",
+      "sha256": "909264a91d0dae134b8224df97e7128384ad7728c6914b305e629e54d877d130",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-narrow-all-5.png",
+      "sha256": "ffeeebf5d33340860b21b8befdcc62c8f25e731b8ee3c891e42dcd58ecfa9003",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-narrow-all-6.png",
+      "sha256": "41e92d62f1bfdce886fd6427bd637d25ed02f96aded6a894b14484fae29c1e63",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-narrow-all-7.png",
+      "sha256": "9a1806b790e3b248fe09884d4b54f60f5f0f12ecfbef4da5ea7b369df6faf497",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-narrow-all-8.png",
+      "sha256": "5fcf36751708bc73dcb2e926521c7e2dd1c724c2175edcaec65e2f39dbed8755",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-narrow-all-9.png",
+      "sha256": "852a70192fc2e9c5a35d0b4bc508ba4c85bd475cc44bf29910c3a88cb300792a",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-narrow-bottom.png",
+      "sha256": "13e38ee64125064828b6bb65e1f950267cdcd3660aca32764e4d0d47b0a37b7a",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-narrow-intro.png",
+      "sha256": "c53dbf86b38e502708263bcc90413476a921207d509780abd53c5c3ef9a9425e",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-narrow-section-0.png",
+      "sha256": "42c55dc316934d63f07073051c86d5446f6f8e84fe8149c5c73dffe1faa7e076",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-narrow-section-1.png",
+      "sha256": "1fe58f8cf1df93d602c542daed0b6d41f5a7b5a215a9e1581711a49d646e885e",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-narrow-section-2.png",
+      "sha256": "48efaf34a1f3dd87f3820188cc00d8ac1f0d00e14fb76bf1b4201f32b19dad5f",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-narrow-section-3.png",
+      "sha256": "6e26acf99abbfa0738ff37854c78a3141b13951f5eef053c8ddae1a8a9f5337f",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-narrow-section-4.png",
+      "sha256": "987e28b46166a0dc12162616f83b987972c91f489e2daa2e01b1c1d655919344",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-narrow-section-5.png",
+      "sha256": "503082cc3720af0beb8583da50c23b22a0a03f45ed08a63a4e352b5b3b6de7e0",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-narrow-section-6.png",
+      "sha256": "74ac5a5f34948b1c51277ad32f41231d4c8b185406cc6ac944f99eadafad44cb",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-narrow-section-7.png",
+      "sha256": "41534c9dc11e16e23e5a6fdf79a3659fcd3daf3b1de762042ac984d45653f522",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-narrow-section-8.png",
+      "sha256": "03240a62f20b299232e9fe024ff026e7a50f2469a60270aa25f88579292b9f1e",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    },
+    {
+      "path": "/private/tmp/hellotext-playbook-library-editorial-20261002/final-library-section-review/library-en-narrow-section-9.png",
+      "sha256": "b28903817159c9da42da4552758cff85eacd06d5b1e2e6a6b70d8d1e45a1bebc",
+      "dimensions": [
+        1160,
+        1800
+      ],
+      "icc_profile": "Display P3 Gamut with sRGB Transfer",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb"
+    }
+  ],
+  "build": "Ruby3.3.6 yarn build and security headers passed after section introduction correction.",
+  "operations": "Only isolated Help9452/PID98125/P3/DPR2/zoom1/one4191tab process/page guards before and after. No source app/browser9460 visit or DB/fixture/account/locale/permission/subscription audit/write; no tool/provider/Playground/send execution. Zero new app PNGs/assets/uploads.",
+  "publication_state": "Awaiting protected exact-head review and normal publication."
+}

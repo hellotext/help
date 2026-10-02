@@ -1,8 +1,8 @@
-Usa esta guía cuando los clientes empezaron a enfriarse y quieres que Hellotext los reactive antes de que queden totalmente inactivos. Reactivación Suave cubre inactividad reciente, normalmente alrededor de 30 días sin compra, visita, click, respuesta u otra interacción relevante.
+Usa esta guía cuando los clientes empezaron a enfriarse y quieres que Hellotext los reactive antes de que queden totalmente inactivos. Reactivación Suave requiere una señal válida de la etapa inicial de inactividad y comprueba la actividad calificante posterior; contar días desde cualquier mensaje no basta.
 
 Reactivación Suave es una misión de retención. Ayuda a Hellotext a reconocer clientes cuyo comportamiento reciente viene bajando, y luego enviar un empujón personalizado con productos, ofertas o contexto de mensaje relevantes cuando el cliente todavía puede ser alcanzado.
 
-No es una ruta, una campaña puntual ni un último intento de recuperación. Vive antes en el ciclo del cliente: después de que el cliente ya mostró valor, pero antes de que pase suficiente tiempo inactivo como para usar [Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %}), que apunta a clientes alrededor de 3 meses sin actividad. Para clientes alrededor de 12 meses sin actividad o sin reactivarse, usa [Último Intento]({% link _journeys/sunset-saver-playbook.md %}).
+No es una ruta, una campaña puntual ni un último intento de recuperación. Vive antes en el ciclo del cliente: después de que el cliente ya mostró valor, pero antes de que pase suficiente tiempo inactivo como para usar [Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %}), que requiere una señal válida de inactividad prolongada. Para clientes con una señal válida de riesgo de abandono, evalúa [Último Intento]({% link _journeys/sunset-saver-playbook.md %}).
 
 La disponibilidad puede variar según cuenta y estado de despliegue. Si la tarjeta aparece como a pedido o deshabilitada, confirma disponibilidad con tu equipo de Hellotext antes de planificar el lanzamiento.
 
@@ -18,7 +18,7 @@ Puede:
 - Generar ejemplos de mensajes personalizados que se adaptan por cliente.
 - Permitir que tu equipo dé feedback en Playground para que Hellotext aprenda qué encaja con el negocio.
 - Seguir reglas de oferta existentes del eCommerce, usar descuentos con IA hasta un porcentaje máximo aprobado o enviar sin descuentos.
-- Buscar el canal más eficiente en costo entre los disponibles, como WhatsApp, SMS u otros, y enviar solo cuando detecta internamente una oportunidad con ROI saludable.
+- Evaluar rutas de canal disponibles según permiso, destino, preparación y reglas de envío, sin garantía del menor costo ni de ROI.
 - Omitir clientes cuando una compra reciente, otra misión activa, falta de consentimiento, límites de canal o poco contexto de producto hacen que el envío no sea una buena idea.
 
 La configuración exacta puede variar según cuenta, tienda conectada, calidad del catálogo, canal, plantillas y estado de despliegue.
@@ -29,14 +29,14 @@ Usa Reactivación Suave cuando los clientes todavía no están completamente dor
 
 Encaja bien cuando:
 
-- El cliente lleva alrededor de 30 días sin actividad relevante.
+- El cliente tiene una señal válida de la etapa inicial de inactividad.
 - Un cliente compró antes, pero no volvió a comprar recientemente.
 - Un cliente solía hacer click, navegar o responder y bajó su actividad.
 - El negocio quiere un mensaje suave de regreso en lugar de una campaña fuerte de recuperación.
 - Hay productos, colecciones u ofertas relevantes para ese cliente.
 - El objetivo es mantener la relación antes de que el cliente sea más difícil de recuperar.
 
-No la uses para un momento específico de reposición de producto. Usa [Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %}) cuando el cliente podría necesitar volver a comprar un producto consumible. Usa [Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %}) cuando la mejor acción siguiente es un producto relacionado después de una compra. Usa [Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %}) cuando el cliente ya lleva alrededor de 3 meses sin actividad y [Último Intento]({% link _journeys/sunset-saver-playbook.md %}) cuando lleva alrededor de 12 meses sin actividad o sin reactivarse.
+No la uses para un momento específico de reposición de producto. Usa [Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %}) cuando el cliente podría necesitar volver a comprar un producto consumible. Usa [Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %}) cuando la mejor acción siguiente es un producto relacionado después de una compra. Usa [Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %}) cuando el cliente cumple los criterios de inactividad prolongada y [Último Intento]({% link _journeys/sunset-saver-playbook.md %}) cuando cumple los criterios de riesgo de abandono.
 
 ## Qué necesita antes del lanzamiento
 
@@ -69,7 +69,7 @@ Las tarjetas disponibles pueden variar, pero la configuración propuesta se conc
 - **Estrategia de descuento:** si la misión sigue las reglas de oferta del eCommerce, puede usar descuentos con IA hasta un porcentaje máximo o envía sin descuentos.
 - **Tono o feedback en Playground:** cómo deberían aprender los ejemplos generados qué encaja con tu negocio.
 
-Mantén la selección automática de canales salvo que tengas una razón clara para limitar la misión. Reactivación Suave depende de si el cliente puede ser alcanzado en un momento donde el empujón todavía se siente oportuno. Hellotext puede elegir internamente el canal más eficiente en costo, como WhatsApp, SMS u otros según disponibilidad, y evitar envíos cuando no detecta una oportunidad con ROI saludable.
+Mantén la selección automática de canales salvo que tengas una razón clara para limitar la misión. Reactivación Suave depende de si el cliente puede ser alcanzado en un momento donde el empujón todavía se siente oportuno. La selección depende de rutas elegibles y comprobaciones de envío; no garantiza el canal más barato ni un ROI específico.
 
 Si necesitas un agente conversacional a medida con instrucciones, conocimiento y reglas de derivación propias, usa [Agente Personalizado]({% link _journeys/custom-agent-playbook.md %}). Si necesitas una secuencia totalmente controlada de pasos, usa una ruta personalizada.
 
@@ -79,7 +79,7 @@ Reactivación Suave debería partir de una señal real de enfriamiento, no de un
 
 Hellotext puede usar señales como:
 
-- Días desde la última compra, última visita, último click, última respuesta o última interacción relevante.
+- La señal válida de etapa inicial, su origen y la actividad calificante del cliente.
 - Historial de compras y valor del cliente.
 - Interés reciente en productos, categorías navegadas o productos comprados antes.
 - Si otra misión ya se encarga de ese momento, como recuperación de carrito, recompra, venta cruzada o soporte.
@@ -92,7 +92,7 @@ Antes de enviar, Hellotext también puede considerar:
 - Si el mensaje tiene un producto, oferta o razón relevante para escribir.
 - Si el cliente compró, respondió, se dio de baja o quitó su consentimiento recientemente.
 - Si el perfil puede recibir un mensaje en un canal elegible.
-- Si existe una oportunidad interna de mantener un ROI saludable para ese envío.
+- Si la oportunidad pasa las reglas de admisión, frecuencia y envío aplicables.
 - Si otra misión activa encaja mejor.
 - Si timing, frecuencia, horarios silenciosos, plantillas o reglas de canal permiten el envío.
 
@@ -104,9 +104,9 @@ Usa el momento del cliente para decidir quién debería ser dueño.
 
 | Momento del cliente | Mejor opción |
 | --- | --- |
-| El cliente empieza a enfriarse y lleva alrededor de 30 días sin actividad relevante | Reactivación Suave |
-| El cliente lleva alrededor de 3 meses sin actividad relevante | [Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %}) |
-| El cliente lleva alrededor de 12 meses sin actividad o sin reactivarse | [Último Intento]({% link _journeys/sunset-saver-playbook.md %}) |
+| El cliente cumple los criterios de la etapa inicial de inactividad | Reactivación Suave |
+| El cliente cumple los criterios de inactividad prolongada | [Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %}) |
+| El cliente cumple los criterios de riesgo de abandono | [Último Intento]({% link _journeys/sunset-saver-playbook.md %}) |
 | El cliente podría necesitar reponer un producto consumible | [Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %}) |
 | El cliente compró recientemente y podría querer un producto relacionado | [Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %}) |
 | El cliente abandonó carrito o checkout | [Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}) o [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) |
@@ -163,7 +163,7 @@ La misión puede esperar, omitir, detenerse o dejar actuar a otra misión cuando
 - Los productos no están disponibles, no tienen stock, no tienen precio, no tienen imagen o no tienen un link usable.
 - El perfil no puede ser alcanzado en un canal elegible.
 - El cliente se dio de baja, no tiene consentimiento o no es elegible.
-- Hellotext no detecta una oportunidad con ROI saludable para escribir en ese momento.
+- La oportunidad no pasa las reglas de admisión o comprobaciones de envío aplicables.
 - Timing, frecuencia, horarios silenciosos, plantillas o reglas de canal impiden el envío.
 - El canal, remitente, plantilla, link o formato del mensaje no está listo.
 - Otra misión activa encaja mejor.
