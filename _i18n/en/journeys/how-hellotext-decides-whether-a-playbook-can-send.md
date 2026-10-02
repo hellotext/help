@@ -179,7 +179,7 @@ Depending on the playbook’s enabled rules and tools, this can happen when:
 
 For handoff behavior, use [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %}).
 
-In Property Collector’s **Escalation** panel, the fictional example allows escalation to **Atención demo** without saving or activating the workflow. It identifies the control and target playbook; it does not show an assigned conversation, a team accepting the case or a human reply.
+In Property Collector’s **Escalation** panel, the fictional example allows escalation to **Atención demo** without saving or activating the workflow. It identifies the control and target team; it does not show an assigned conversation, a team accepting the case or a human reply.
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Unsaved fictional escalation control targeting Atención demo">
   <div class="ht-editorial-visual__stage">

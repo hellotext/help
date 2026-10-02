@@ -179,7 +179,7 @@ Según las reglas y herramientas habilitadas de la misión, esto puede pasar cua
 
 Para comportamiento de derivación, usa [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %}).
 
-En el panel **Derivación** de Property Collector, el ejemplo ficticio permite derivar a **Atención demo** sin guardar ni activar el flujo. Identifica el control y la misión destino; no muestra una conversación asignada, un equipo que aceptó el caso o una respuesta humana.
+En el panel **Derivación** de Property Collector, el ejemplo ficticio permite derivar a **Atención demo** sin guardar ni activar el flujo. Identifica el control y el equipo de destino; no muestra una conversación asignada, un equipo que aceptó el caso o una respuesta humana.
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Control ficticio de derivación a Atención demo sin guardar">
   <div class="ht-editorial-visual__stage">
