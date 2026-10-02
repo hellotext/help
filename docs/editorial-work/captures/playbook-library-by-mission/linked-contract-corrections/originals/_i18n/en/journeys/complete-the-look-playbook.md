@@ -1,18 +1,18 @@
-Use this guide when an eligible confirmed order contains products and you want Hellotext to suggest items that complete the look, kit, routine, or set based on that purchase.
+Use this guide when shoppers are considering one or more products and you want Hellotext to suggest items that complete the look, kit, routine, or set.
 
 Complete-the-Look is an AI-assisted conversion playbook. It uses product context, audience rules, customer behavior, catalog relationships, channel eligibility, and offer rules to generate personalized matching-product suggestions.
 
-It is not a journey route and it is not a generic product recommendation chat. It starts from products in a confirmed order linked to the customer, then evaluates matching products. A product view or selection alone does not start this playbook.
+It is not a journey route and it is not a generic product recommendation chat. It starts from a product the shopper picked, viewed, or considered, then suggests something that naturally pairs with it.
 
 Availability can vary by account and rollout status. If the card appears as on request or disabled, confirm availability with your Hellotext team before planning a launch.
 
 ## What Complete-the-Look does
 
-Complete-the-Look can suggest complements based on an eligible confirmed purchase.
+Complete-the-Look helps turn product interest into a larger or more complete purchase.
 
 It can:
 
-- Suggest products that pair with items in the confirmed order that creates the opportunity.
+- Suggest products that pair well with what the shopper picked, viewed, or considered.
 - Apply only to selected products, collections, categories, or product groups.
 - Use customer, product, catalog, price, stock, and channel context before a message is sent.
 - Generate message examples that adapt per customer.
@@ -24,21 +24,21 @@ The exact configuration can vary by account, connected store, catalog quality, c
 
 ## When to use it
 
-Use Complete-the-Look when a confirmed customer order supplies anchor products and other items can complement them.
+Use Complete-the-Look when the customer already has an anchor product and a matching product can make the choice better.
 
 It is a good fit when:
 
-- A shopper has an eligible confirmed order and another item complements its products.
+- A shopper picked or viewed a product and another item completes the look, set, kit, or routine.
 - Your catalog has clear product relationships, matching collections, compatible accessories, or merchant-approved product groups.
 - Your team wants Hellotext to suggest matching products without manually building a campaign for every product.
-- The recommendation should explain how the complement pairs with products in that purchase.
+- The recommendation should feel like "this goes with what you picked," not like a broad sale.
 - Your catalog has reliable product images, prices, stock, variants, and links.
 
 It works especially well for apparel, footwear, accessories, beauty routines, home sets, electronics accessories, compatible product sets, and any catalog where the next product depends on the anchor product.
 
 Do not use it as a conversational recommender. If the customer asks what to buy, compares options, asks about sizes, or needs product guidance in chat, use [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}).
 
-For other related-product opportunities after an eligible purchase, consider [Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}). For browsing follow-up when there is no matching-product moment, use [Browse Recovery]({% link _journeys/browse-recovery-playbook.md %}).
+For post-purchase add-ons or repeat expansion after a completed purchase, use [Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}). For browsing follow-up when there is no matching-product moment, use [Browse Recovery]({% link _journeys/browse-recovery-playbook.md %}).
 
 ## What it needs before launch
 
@@ -51,7 +51,7 @@ Check that:
 - The products you want to include have meaningful complements, matching products, compatible accessories, or related items.
 - Product and variant identifiers are stable across catalog, product-view, cart, recommendation, and purchase signals.
 - The audience you want to reach is subscribed, identifiable, and eligible for the selected channel.
-- The confirmed-order signal is linked to the customer and retains valid products with positive quantities. Additional purchase, cart, and interest signals can supply context, but do not replace that source order.
+- Purchase, cart, and product-interest signals are available so Hellotext can avoid irrelevant suggestions.
 - If discounts are allowed, eCommerce offer rules and any maximum AI discount percentage are approved before launch.
 - Product cards, product links, or rich messages work in the channels you plan to use.
 
@@ -81,7 +81,7 @@ Complete-the-Look recommendations should start from a real anchor product.
 
 Hellotext can use signals like:
 
-- The valid products and quantities in the confirmed order that creates the opportunity.
+- The product, variant, collection, category, or style the shopper picked or viewed.
 - Products that match the anchor product by style, use case, collection, compatibility, or routine.
 - Merchant-provided product groups, catalog relationships, or recommendation logic.
 - Product availability, stock, price, images, product links, and variant quality.
@@ -89,9 +89,9 @@ Hellotext can use signals like:
 
 Before sending, Hellotext can also consider:
 
-- Whether the source order remains valid, is not cancelled, has no recorded received refund, and is linked to the customer.
+- Whether the anchor product is still valid and tied to a reachable customer profile.
 - Whether the matching product is available and within the configured product scope.
-- Whether the customer bought the suggested product after the proposal. Do not assume every close substitute is excluded.
+- Whether the customer already bought the suggested product or a close substitute.
 - Whether another playbook is a better owner for the same moment.
 - Whether consent, timing, frequency, and channel rules allow the send.
 
@@ -103,14 +103,14 @@ Use the customer moment to decide the owner.
 
 | Customer moment | Better fit |
 | --- | --- |
-| An eligible confirmed order supplies products that can be complemented | Complete-the-Look |
+| Shopper picked or viewed a product and a matching item completes it | Complete-the-Look |
 | Shopper viewed a product but there is no matching-product angle | [Browse Recovery]({% link _journeys/browse-recovery-playbook.md %}) |
 | Shopper added products to cart or checkout and left | [AI Cart Saver]({% link _journeys/ai-cart-saver-playbook.md %}) or [Cart Saver route]({% link _journeys/cart-saver-route.md %}) |
 | Shopper needs a recommendation through conversation | [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}) |
 | Customer already bought and may want an add-on later | [Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}) |
 | Customer may need to reorder a consumable product | [Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}) |
 
-Complete-the-Look can run alongside Browse Recovery and AI Cart Saver when the product moment is clear. Complete-the-Look starts from products in an eligible confirmed order; cart recovery owns abandoned cart or checkout; Browse Recovery owns earlier browsing intent.
+Complete-the-Look can run alongside Browse Recovery and AI Cart Saver when the product moment is clear. Complete-the-Look owns the "this pairs with what you picked" moment; cart recovery owns abandoned cart or checkout; Browse Recovery owns earlier browsing intent.
 
 ## Review messages in the Playground
 
@@ -135,7 +135,7 @@ Test with a small, realistic path before enabling it broadly.
 
 Use test customer profiles that have channel consent, then:
 
-- Identify an existing eligible confirmed order linked to the test profile, with a product that should have a clear complement.
+- Choose a product that should have a clear matching item.
 - Confirm the product and matching items exist in the catalog with correct images, prices, stock, variants, and links.
 - Confirm the product is inside the configured product scope.
 - Confirm the audience includes the test profile.
@@ -151,15 +151,15 @@ If tracking is custom, confirm that product identifiers, variant identifiers, pr
 
 ## Why it may not send
 
-Complete-the-Look being enabled does not mean every confirmed order produces a suggestion. A product view or selection alone does not satisfy the source requirement.
+Complete-the-Look being enabled does not mean every product view or product selection produces a suggestion.
 
 The playbook may wait, skip, stop, or let another playbook act when:
 
-- The confirmed-order signal is missing, delayed, lacks valid products, or is not linked to a usable customer.
+- Product-interest or purchase signals are missing, delayed, or not tied to a usable customer profile.
 - The anchor product is outside the configured product scope.
 - No relevant matching product can be found.
 - The matching product is unavailable, out of stock, missing a price, missing an image, or missing a usable link.
-- The source order was cancelled, has a recorded received refund, or the customer bought the suggested product after the proposal.
+- The customer already bought the suggested product or a close substitute.
 - The profile cannot be reached in an eligible channel.
 - The customer unsubscribed, opted out, or is otherwise not eligible.
 - Frequency, timing, or channel rules prevent the send.
@@ -172,7 +172,7 @@ For a step-by-step diagnosis, use [Troubleshoot a playbook that did not trigger 
 
 During the first days, review:
 
-- Which confirmed orders and source products created eligible Complete-the-Look opportunities.
+- Which products created eligible complete-the-look moments.
 - Which matching products were suggested, skipped, clicked, added to cart, or purchased.
 - Whether suggestions felt relevant by product, collection, style, size, or use case.
 - Whether product links, images, prices, variants, and stock were correct.

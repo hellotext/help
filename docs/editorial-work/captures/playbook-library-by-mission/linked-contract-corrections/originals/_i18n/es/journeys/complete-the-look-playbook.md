@@ -1,18 +1,18 @@
-Usa esta guía cuando una orden confirmada elegible contiene productos y quieres que Hellotext sugiera ítems que completan el look, kit, rutina o set a partir de esa compra.
+Usa esta guía cuando los compradores están considerando uno o más productos y quieres que Hellotext sugiera ítems que completan el look, kit, rutina o set.
 
 Completa el Look es una misión de conversión asistida por IA. Usa contexto de producto, reglas de audiencia, comportamiento del cliente, relaciones de catálogo, elegibilidad de canal y reglas de oferta para generar sugerencias personalizadas de productos que combinan.
 
-No es una ruta y no es un chat genérico de recomendación de productos. Parte de los productos de una orden confirmada vinculada al cliente y luego evalúa productos que combinan. Una vista o selección aislada de producto no inicia esta misión.
+No es una ruta y no es un chat genérico de recomendación de productos. Parte de un producto que el comprador eligió, vio o consideró, y luego sugiere algo que combina naturalmente.
 
 La disponibilidad puede variar según cuenta y estado de despliegue. Si la tarjeta aparece como bajo pedido o deshabilitada, confirma disponibilidad con tu equipo de Hellotext antes de planificar el lanzamiento.
 
 ## Qué hace Completa el Look
 
-Completa el Look puede sugerir complementos a partir de una compra confirmada elegible.
+Completa el Look ayuda a convertir interés de producto en una compra más completa.
 
 Puede:
 
-- Sugerir productos que combinan con los ítems de la orden confirmada que origina la oportunidad.
+- Sugerir productos que combinan con lo que el comprador eligió, vio o consideró.
 - Aplicarse solo a productos, colecciones, categorías o grupos de producto seleccionados.
 - Usar contexto de cliente, producto, catálogo, precio, stock y canal antes de enviar un mensaje.
 - Generar ejemplos de mensajes que se adaptan por cliente.
@@ -24,21 +24,21 @@ La configuración exacta puede variar según cuenta, tienda conectada, calidad d
 
 ## Cuándo usarla
 
-Usa Completa el Look cuando una orden confirmada del cliente aporta productos principales y otros ítems pueden complementarlos.
+Usa Completa el Look cuando el cliente ya tiene un producto principal y otro producto puede mejorar la elección.
 
 Encaja bien cuando:
 
-- Un comprador tiene una orden confirmada elegible y otro ítem complementa sus productos.
+- Un comprador eligió o vio un producto y otro ítem completa el look, set, kit o rutina.
 - Tu catálogo tiene relaciones claras entre productos, colecciones que combinan, accesorios compatibles o grupos de producto aprobados por el negocio.
 - Tu equipo quiere que Hellotext sugiera productos que combinan sin crear una campaña manual para cada producto.
-- La recomendación debería explicar cómo el complemento combina con los productos de esa compra.
+- La recomendación debería sentirse como "esto va con lo que elegiste", no como una oferta amplia.
 - Tu catálogo tiene imágenes, precios, stock, variantes y links de producto confiables.
 
 Funciona especialmente bien para indumentaria, calzado, accesorios, rutinas de belleza, sets de hogar, accesorios de electrónica, conjuntos de productos compatibles y cualquier catálogo donde el siguiente producto depende del producto principal.
 
 No la uses como recomendador conversacional. Si el cliente pregunta qué comprar, compara opciones, pregunta por talles o necesita guía de producto por chat, usa [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}).
 
-Para otras oportunidades de productos relacionados después de una compra elegible, evalúa [Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %}). Para seguimiento de navegación cuando no hay un momento claro de producto que combina, usa [Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}).
+Para complementos post-compra o expansión después de una compra completada, usa [Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %}). Para seguimiento de navegación cuando no hay un momento claro de producto que combina, usa [Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}).
 
 ## Qué necesita antes del lanzamiento
 
@@ -51,7 +51,7 @@ Revisa que:
 - Los productos que quieres incluir tengan complementos claros, productos que combinan, accesorios compatibles o ítems relacionados.
 - Identificadores de producto y variante sean estables entre catálogo, vista de producto, carrito, recomendación y compra.
 - La audiencia que quieres alcanzar esté suscrita, identificable y sea elegible para el canal seleccionado.
-- La señal de orden confirmada esté vinculada al cliente y conserve productos válidos con cantidades positivas. Las señales adicionales de compra, carrito e interés pueden aportar contexto, pero no reemplazan esa orden de origen.
+- Señales de compra, carrito e interés de producto estén disponibles para que Hellotext evite sugerencias irrelevantes.
 - Si se permiten descuentos, las reglas de oferta del eCommerce y cualquier porcentaje máximo de descuento con IA estén aprobados antes del lanzamiento.
 - Tarjetas de producto, links de producto o mensajes enriquecidos funcionen en los canales que quieres usar.
 
@@ -81,7 +81,7 @@ Las recomendaciones de Completa el Look deberían partir de un producto principa
 
 Hellotext puede usar señales como:
 
-- Los productos y cantidades válidos de la orden confirmada que origina la oportunidad.
+- El producto, variante, colección, categoría o estilo que el comprador eligió o vio.
 - Productos que combinan con el producto principal por estilo, caso de uso, colección, compatibilidad o rutina.
 - Grupos de producto definidos por el negocio, relaciones de catálogo o lógica de recomendación.
 - Disponibilidad, stock, precio, imágenes, links de producto y calidad de variantes.
@@ -89,9 +89,9 @@ Hellotext puede usar señales como:
 
 Antes de enviar, Hellotext también puede considerar:
 
-- Si la orden de origen sigue siendo válida, no está cancelada ni tiene un reembolso recibido registrado, y está vinculada al cliente.
+- Si el producto principal sigue siendo válido y está conectado a un perfil del cliente alcanzable.
 - Si el producto que combina está disponible y dentro del alcance de productos configurado.
-- Si el cliente compró el producto sugerido después de la propuesta. No asumas que todos los sustitutos cercanos quedan excluidos.
+- Si el cliente ya compró el producto sugerido o un sustituto cercano.
 - Si otra misión puede encargarse mejor del mismo momento.
 - Si consentimiento, timing, frecuencia y reglas de canal permiten el envío.
 
@@ -103,14 +103,14 @@ Usa el momento del cliente para decidir quién debería ser dueño.
 
 | Momento del cliente | Mejor opción |
 | --- | --- |
-| Una orden confirmada elegible aporta productos que pueden complementarse | Completa el Look |
+| El comprador eligió o vio un producto y otro ítem lo completa | Completa el Look |
 | El comprador vio un producto, pero no hay un ángulo claro de producto que combina | [Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}) |
 | El comprador agregó productos al carrito o checkout y se fue | [Recuperador de Carritos con IA]({% link _journeys/ai-cart-saver-playbook.md %}) o [Ruta Recuperador de Carritos]({% link _journeys/cart-saver-route.md %}) |
 | El comprador necesita una recomendación por conversación | [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) |
 | El cliente ya compró y podría querer un complemento más adelante | [Impulsor de Ventas Cruzadas]({% link _journeys/cross-sell-driver-playbook.md %}) |
 | El cliente podría necesitar reponer un producto consumible | [Impulsor de Recompra]({% link _journeys/replenishment-driver-playbook.md %}) |
 
-Completa el Look puede convivir con Recuperación de Navegación y Recuperador de Carritos con IA cuando el momento de producto está claro. Completa el Look usa los productos de una orden confirmada elegible como punto de partida; recuperación de carrito maneja carrito o checkout abandonado; Recuperación de Navegación maneja intención de navegación más temprana.
+Completa el Look puede convivir con Recuperación de Navegación y Recuperador de Carritos con IA cuando el momento de producto está claro. Completa el Look maneja el momento "esto combina con lo que elegiste"; recuperación de carrito maneja carrito o checkout abandonado; Recuperación de Navegación maneja intención de navegación más temprana.
 
 ## Revisa mensajes en el Playground
 
@@ -135,7 +135,7 @@ Prueba con un camino pequeño y realista antes de habilitarla ampliamente.
 
 Usa perfiles del cliente de prueba que tengan consentimiento de canal, luego:
 
-- Identifica una orden confirmada elegible ya existente, vinculada al perfil de prueba, con un producto que debería tener un complemento claro.
+- Elige un producto que debería tener un ítem que combine claramente.
 - Confirma que el producto y los ítems que combinan existan en el catálogo con imágenes, precios, stock, variantes y links correctos.
 - Confirma que el producto esté dentro del alcance de productos configurado.
 - Confirma que la audiencia incluya el perfil de prueba.
@@ -151,15 +151,15 @@ Si el tracking es personalizado, confirma que identificadores de producto, ident
 
 ## Por qué puede no enviar
 
-Que la misión Completa el Look esté habilitada no significa que cada orden confirmada produzca una sugerencia. Una vista o selección de producto por sí sola no satisface el requisito de origen.
+Que la misión Completa el Look esté habilitada no significa que cada vista o selección de producto produzca una sugerencia.
 
 La misión puede esperar, omitir, detenerse o dejar actuar a otra misión cuando:
 
-- La señal de orden confirmada falta, llega tarde, no conserva productos válidos o no está vinculada a un cliente usable.
+- Las señales de interés de producto o compra faltan, llegan tarde o no están conectadas a un perfil del cliente usable.
 - El producto principal está fuera del alcance de productos configurado.
 - No se encuentra un producto que combine de forma relevante.
 - El producto sugerido no está disponible, no tiene stock, no tiene precio, no tiene imagen o no tiene un link usable.
-- La orden de origen fue cancelada, tiene un reembolso recibido registrado o el cliente compró el producto sugerido después de la propuesta.
+- El cliente ya compró el producto sugerido o un sustituto cercano.
 - El perfil no puede ser alcanzado en un canal elegible.
 - El cliente se dio de baja, no tiene consentimiento o no es elegible.
 - Reglas de frecuencia, timing o canal impiden el envío.
@@ -172,7 +172,7 @@ Para un diagnóstico paso a paso, usa [Soluciona una misión que no se disparó 
 
 Durante los primeros días, revisa:
 
-- Qué órdenes confirmadas y productos de origen crearon oportunidades elegibles para Completa el Look.
+- Qué productos crearon momentos elegibles para Completa el Look.
 - Qué productos que combinan fueron sugeridos, omitidos, recibieron clicks, se agregaron al carrito o se compraron.
 - Si las sugerencias se sintieron relevantes por producto, colección, estilo, talle o caso de uso.
 - Si links, imágenes, precios, variantes y stock fueron correctos.

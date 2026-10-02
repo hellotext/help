@@ -8,10 +8,10 @@ avatar:
 
 en:
   title: Complete-the-Look playbook
-  description: Suggest matching products based on an eligible confirmed order linked to the customer.
+  description: Suggest matching products based on what shoppers picked, viewed, or considered.
 es:
   title: Misión Completa el Look
-  description: Sugiere productos que combinan a partir de una orden confirmada elegible vinculada al cliente.
+  description: Sugiere productos que combinan con lo que los compradores eligieron, vieron o consideraron.
 
 permalink: complete-the-look-playbook
 permalink_es: completa-el-look

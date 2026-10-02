@@ -1,6 +1,6 @@
-Usa esta guía cuando quieres celebrar el aniversario de la primera compra del cliente y Hellotext conserva señales válidas para reconocer esa compra.
+Usa esta guía cuando quieres celebrar aniversarios de compra o relación con clientes, y Hellotext tiene una fecha confiable para saber cuándo corresponde enviar el mensaje.
 
-Sorpresa de Aniversario usa el aniversario de la primera compra registrada. Requiere que la señal de aniversario conserve su vínculo válido con la primera compra y su objeto de origen. Una fecha de creación del perfil, suscripción, membresía o propiedad personalizada no reemplaza esa compra.
+Sorpresa de Aniversario es una misión basada en una fecha del cliente o de su historial. Puede ayudar a reconocer momentos como el aniversario de una primera compra, el aniversario de relación con el negocio o una fecha personalizada, según la fuente de datos disponible en tu cuenta.
 
 No es un saludo de cumpleaños, una campaña estacional ni una reactivación de clientes inactivos. Es una misión para un momento anual de relación: celebrar que el cliente cumple otro ciclo con la marca.
 
@@ -8,12 +8,12 @@ La disponibilidad puede variar según cuenta, plan, fuentes de datos conectadas 
 
 ## Qué hace Sorpresa de Aniversario
 
-Sorpresa de Aniversario puede convertir el aniversario de la primera compra en un mensaje de retención.
+Sorpresa de Aniversario ayuda a convertir una fecha relevante del cliente en un mensaje de retención.
 
 Puede:
 
-- Usar el historial válido de primera compra del cliente como fuente del aniversario.
-- Evaluar la señal de aniversario y su vínculo con la primera compra en la fecha correspondiente de la zona horaria del negocio.
+- Usar una fuente de aniversario, como primera compra, creación del perfil, fecha de suscripción o una fecha personalizada, cuando esté disponible.
+- Detectar cuándo el cliente llega a un aniversario según esa fuente.
 - Enviar un mensaje de celebración con tono de agradecimiento o reconocimiento.
 - Incluir un cupón aprobado o una oferta existente del eCommerce cuando el mensaje lo necesita.
 - Personalizar el mensaje con datos del perfil del cliente, historial de compra o contexto de relación cuando esos datos están disponibles.
@@ -27,8 +27,8 @@ Usa Sorpresa de Aniversario cuando tu marca quiere reconocer una relación exist
 
 Encaja bien cuando:
 
-- Tienes una primera compra registrada de forma confiable y vinculada al cliente.
-- Celebrar el aniversario de esa primera compra tiene sentido para tu marca.
+- Tienes una fecha confiable que representa la relación del cliente con el negocio.
+- El aniversario tiene sentido para tu marca: primera compra, primer opt-in, creación del perfil, membresía o una fecha custom.
 - El mensaje puede sentirse agradecido, personal y útil.
 - El negocio quiere ofrecer un saludo o cupón aprobado sin crear campañas manuales.
 - Tu equipo quiere sumar un momento de retención que no dependa de inactividad, carrito o cumpleaños.
@@ -37,21 +37,21 @@ Para cumpleaños personales, usa [Celebra su Cumpleaños]({% link _journeys/birt
 
 ## Qué necesita antes del lanzamiento
 
-Antes de habilitar Sorpresa de Aniversario, confirma la calidad y procedencia de la primera compra registrada.
+Antes de habilitar Sorpresa de Aniversario, confirma cuál será la fuente de aniversario.
 
 Revisa que:
 
-- La primera compra conserve un evento válido de orden confirmada o producto comprado, su fecha y su objeto de origen.
-- La señal de aniversario esté vinculada a esa primera compra y al mismo cliente.
-- La fecha sea precisa y el aniversario coincida con el día correspondiente en la zona horaria del negocio.
+- La fuente de aniversario esté clara: primera compra, creación del perfil, opt-in, membresía o fecha personalizada.
+- La fecha exista para los perfiles que quieres alcanzar.
+- La fecha tenga suficiente precisión para calcular el aniversario.
 - Los perfiles del cliente tengan identificadores confiables y consentimiento de canal.
 - La audiencia que quieres alcanzar sea identificable y elegible.
 - El canal, remitente o cuenta de WhatsApp esté listo.
 - El mensaje o plantilla esté aprobado si el canal lo requiere.
 - Si vas a incluir un cupón u oferta del eCommerce, esté aprobado y funcione antes del lanzamiento.
-- El historial de compra y sus identificadores estén sincronizados; una propiedad de fecha aislada no crea el vínculo requerido.
+- Los datos de compra, perfil o propiedades personalizadas estén sincronizados si el aniversario depende de ellos.
 
-Para validar la configuración, usa [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %}). Si importas perfiles, revisa [Importa perfiles del cliente]({% link _audience/import-customer-profiles.md %}). Para tracking personalizado, usa [Seguimiento de eventos]({% link _developers/tracking-events.md %}).
+Para validar la configuración, usa [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %}). Si importas perfiles o fechas personalizadas, revisa [Importa perfiles del cliente]({% link _audience/import-customer-profiles.md %}). Para tracking personalizado, usa [Seguimiento de eventos]({% link _developers/tracking-events.md %}).
 
 Después del lanzamiento, usa los reportes automáticos para revisar envíos, clicks, compras, ingresos atribuidos, respuestas, bajas y mensajes omitidos.
 
@@ -61,32 +61,32 @@ Abre **Misiones**, haz click en **Explorar misiones** y elige **Sorpresa de Aniv
 
 Las opciones disponibles pueden variar, pero revisa:
 
-- **Datos de primera compra:** verifica el historial del que depende la misión; no asumas que existe un selector genérico de fechas.
+- **Fuente de aniversario:** qué fecha inicia la misión si la cuenta expone ese control.
 - **Audiencia:** qué perfiles pueden recibir la misión.
 - **Canales de salida:** dónde Hellotext puede enviar el mensaje.
 - **Mensaje:** el texto de aniversario y las variables que usará.
 - **Cupón u oferta:** el cupón aprobado o la oferta existente del eCommerce que se incluirá si corresponde.
 - **Respuestas en Inbox:** cómo debería revisar tu equipo las respuestas si el cliente contesta.
 
-La fuente verificada es la primera compra registrada. Importar una fecha al perfil o escribir otra fuente en instrucciones no cambia ese contrato.
+No asumas que todas las cuentas tienen la misma fuente de aniversario. Si el control no aparece, confirma con tu equipo de Hellotext qué fecha está usando la misión antes de lanzar.
 
 Si necesitas una secuencia con pasos, condiciones o ramas propias, usa una ruta personalizada. Si necesitas un agente conversacional a medida, usa [Agente Personalizado]({% link _journeys/custom-agent-playbook.md %}).
 
 ## Cómo elige Hellotext el momento
 
-Sorpresa de Aniversario requiere una señal válida del aniversario de la primera compra.
+Sorpresa de Aniversario debería partir de una fecha confiable, no de una campaña amplia.
 
 Hellotext puede usar señales como:
 
-- Primera compra registrada, con evento y objeto de origen conservados.
-- Señal de aniversario cuyo año, fecha y vínculo coincidan con esa primera compra.
-- Que esa compra siga siendo la primera registrada para el cliente.
+- Fecha de primera compra, si el aniversario se basa en compra.
+- Fecha de creación, suscripción, opt-in o membresía, si el aniversario se basa en relación.
+- Una propiedad de fecha personalizada, si tu equipo la usa como aniversario.
 - Si el perfil pertenece a la audiencia configurada.
 - Si el perfil tiene consentimiento y puede recibir mensajes en el canal.
 - Si el canal, remitente, plantilla y cupón están listos.
 - Si reglas de frecuencia, consentimiento u horarios silenciosos permiten el envío.
 
-Una señal válida de aniversario también debe pasar las comprobaciones de envío. Si termina el día del aniversario en la zona del negocio o cambia el historial de primera compra, la oportunidad puede dejar de ser válida.
+El punto más importante es que tu equipo sepa qué fecha representa el aniversario. Dos negocios pueden usar fuentes distintas y aun así llamar a la misión Sorpresa de Aniversario.
 
 Para el modelo general de decisión, mira [Cómo decide Hellotext si una misión puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}).
 
@@ -97,10 +97,10 @@ Usa el tipo de fecha o señal para decidir qué misión debería actuar.
 | Momento del cliente | Mejor opción |
 | --- | --- |
 | Es el cumpleaños del cliente | [Celebra su Cumpleaños]({% link _journeys/birthday-bash-playbook.md %}) |
-| Es el aniversario elegible de la primera compra registrada | Sorpresa de Aniversario |
+| Es aniversario de compra, relación, membresía o fecha personalizada | Sorpresa de Aniversario |
 | El cliente empieza a enfriarse | [Reactivación Suave]({% link _journeys/soft-reactivation-playbook.md %}) |
-| El cliente cumple los criterios de la etapa de inactividad prolongada | [Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %}) |
-| El cliente cumple los criterios de riesgo de abandono | [Último Intento]({% link _journeys/sunset-saver-playbook.md %}) |
+| El cliente lleva alrededor de 3 meses sin actividad | [Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %}) |
+| El cliente lleva alrededor de 12 meses sin actividad o sin reactivarse | [Último Intento]({% link _journeys/sunset-saver-playbook.md %}) |
 | Tienes una fecha comercial o lanzamiento puntual | [Campañas]({% link _campaigns/campaigns-overview.md %}) |
 
 Sorpresa de Aniversario puede convivir con otras misiones cuando cada una responde a un momento distinto. Aun así, evita que el cliente reciba varios mensajes promocionales en el mismo momento si otra misión activa encaja mejor.
@@ -111,8 +111,8 @@ Prueba con perfiles del cliente controlados antes de habilitarla para una audien
 
 Usa perfiles del cliente de prueba que tengan consentimiento de canal, luego:
 
-- Confirma que la primera compra registrada sea la fuente de aniversario.
-- Identifica un historial de primera compra válido y la señal de aniversario vinculada a él; una fecha añadida al perfil no basta.
+- Confirma cuál es la fuente de aniversario que usará la misión.
+- Agrega o identifica una fecha de aniversario en el perfil o historial de compra.
 - Confirma que la fecha aparece correctamente en Hellotext.
 - Confirma que el perfil pertenece a la audiencia de la misión.
 - Revisa el mensaje, variables, cupón y links.
@@ -121,7 +121,7 @@ Usa perfiles del cliente de prueba que tengan consentimiento de canal, luego:
 - Prueba un perfil sin consentimiento o sin canal alcanzable.
 - Responde al mensaje de prueba y confirma que llega al Inbox o al responsable correcto si corresponde.
 
-Si sincronizas historial desde una tienda o fuente propia, confirma fechas, identificadores y vínculo con el objeto de compra. Importar perfiles no demuestra que existan esos eventos.
+Si importas fechas desde una tienda, CRM o archivo, confirma que el formato se interpreta bien antes de lanzar.
 
 ## Por qué puede no enviar
 
@@ -129,9 +129,9 @@ Que la misión Sorpresa de Aniversario esté habilitada no significa que todos l
 
 La misión puede omitir o esperar cuando:
 
-- No existe una señal válida de aniversario de primera compra.
-- Falta el evento de primera compra, su objeto de origen o el vínculo con el cliente.
-- La fecha no coincide con el aniversario en la zona del negocio, el día terminó o cambió el historial de primera compra.
+- No hay una fuente de aniversario configurada o disponible.
+- El perfil no tiene la fecha necesaria.
+- La fecha no coincide con el momento de aniversario esperado.
 - El perfil no pertenece a la audiencia configurada.
 - El cliente no tiene consentimiento o no es elegible para el canal.
 - El canal, remitente, plantilla, cupón o link no está listo.
@@ -145,14 +145,14 @@ Para un diagnóstico paso a paso, usa [Soluciona una misión que no se disparó 
 Durante los primeros días, revisa:
 
 - Qué perfiles generaron momentos de aniversario.
-- Qué primera compra y señal de aniversario produjeron esos momentos.
+- Qué fuente de aniversario produjo esos momentos.
 - Qué mensajes se enviaron, omitieron, recibieron clicks, recibieron respuestas o generaron compras.
 - Si el cupón o link funcionó correctamente.
 - Si el tono se sintió agradecido y natural para la marca.
 - Si hubo bajas, respuestas negativas o mensajes fallidos.
 - Si Sorpresa de Aniversario se superpone con cumpleaños, campañas, reactivación u otras misiones de retención.
 
-Revisa primero la calidad del historial de primera compra. Ajusta una cosa por vez: audiencia, canal, mensaje o cupón.
+Ajusta una cosa por vez: fuente de aniversario, audiencia, canal, mensaje o cupón.
 
 ## Guías relacionadas
 

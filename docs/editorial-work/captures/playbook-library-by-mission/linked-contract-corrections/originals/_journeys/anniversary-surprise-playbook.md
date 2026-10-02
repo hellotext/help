@@ -8,10 +8,10 @@ avatar:
 
 en:
   title: Anniversary Surprise playbook
-  description: Celebrate the first-purchase anniversary when Hellotext retains valid purchase history and anniversary signals.
+  description: Celebrate purchase or relationship anniversaries when Hellotext has a reliable anniversary date for the customer.
 es:
   title: Misión Sorpresa de Aniversario
-  description: Celebra el aniversario de la primera compra cuando Hellotext conserva historial y señales de aniversario válidos.
+  description: Celebra aniversarios de compra o relación cuando Hellotext tiene una fecha de aniversario confiable para el cliente.
 
 permalink: anniversary-surprise-playbook
 permalink_es: sorpresa-de-aniversario

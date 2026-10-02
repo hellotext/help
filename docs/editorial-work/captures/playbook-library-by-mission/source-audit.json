@@ -1562,7 +1562,8 @@
       "current_sha256": "7def152596ff7f06479ad80a40b0a7cfcad13176ae3aaca81d62cd27a77a10c7",
       "identical": true,
       "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/contact/lifecycle.rb",
-      "inspection": "New exact-master source comparison; Targeted mission-family eligibility, runtime guards, feedback schedules and frequency inspected."
+      "inspection": "New exact-master source comparison; Targeted mission-family eligibility, runtime guards, feedback schedules and frequency inspected.",
+      "post_review_inspection": "Read in full after PR371 review to reconcile three linked canonical contracts; read-only; existing comparison and historical scope preserved."
     },
     {
       "path": "app/models/contact/lifecycle/base.rb",
@@ -1602,7 +1603,8 @@
       "current_sha256": "222599d0de5ac9b85263106213446678ecc2b1dd44f253185dee4991c47fd558",
       "identical": true,
       "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/runtime/anniversary_surprise/context.rb",
-      "inspection": "New exact-master source comparison; Targeted mission-family eligibility, runtime guards, feedback schedules and frequency inspected."
+      "inspection": "New exact-master source comparison; Targeted mission-family eligibility, runtime guards, feedback schedules and frequency inspected.",
+      "post_review_inspection": "Read in full after PR371 review to reconcile three linked canonical contracts; read-only; existing comparison and historical scope preserved."
     },
     {
       "path": "app/models/cg/runtime/look_completer/context.rb",
@@ -1610,7 +1612,8 @@
       "current_sha256": "3c69971de73120bea6ea0e80ca848cd2a14abb5c5288e23cf907bbaff0f263c1",
       "identical": true,
       "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/runtime/look_completer/context.rb",
-      "inspection": "New exact-master source comparison; Targeted mission-family eligibility, runtime guards, feedback schedules and frequency inspected."
+      "inspection": "New exact-master source comparison; Targeted mission-family eligibility, runtime guards, feedback schedules and frequency inspected.",
+      "post_review_inspection": "Read in full after PR371 review to reconcile three linked canonical contracts; read-only; existing comparison and historical scope preserved."
     },
     {
       "path": "app/models/cg/matrix/posture/reactivation.rb",
@@ -1626,7 +1629,8 @@
       "current_sha256": "33257f74689ef4f50364817534d1cae3d1954461dad87495f200d18da00cfc69",
       "identical": true,
       "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/runtime/reactivation/context.rb",
-      "inspection": "New exact-master source comparison; Targeted mission-family eligibility, runtime guards, feedback schedules and frequency inspected."
+      "inspection": "New exact-master source comparison; Targeted mission-family eligibility, runtime guards, feedback schedules and frequency inspected.",
+      "post_review_inspection": "Read in full after PR371 review to reconcile three linked canonical contracts; read-only; existing comparison and historical scope preserved."
     },
     {
       "path": "app/models/cg/runtime/reactivation/send_guard.rb",
@@ -1634,7 +1638,8 @@
       "current_sha256": "4da45217018b2013ddc94c141db1487ce8470808e701e1c64de08574ceebd904",
       "identical": true,
       "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/runtime/reactivation/send_guard.rb",
-      "inspection": "New exact-master source comparison; Targeted mission-family eligibility, runtime guards, feedback schedules and frequency inspected."
+      "inspection": "New exact-master source comparison; Targeted mission-family eligibility, runtime guards, feedback schedules and frequency inspected.",
+      "post_review_inspection": "Read in full after PR371 review to reconcile three linked canonical contracts; read-only; existing comparison and historical scope preserved."
     },
     {
       "path": "app/models/cg/runtime/cross_sell_driver/send_guard.rb",
@@ -1666,7 +1671,8 @@
       "current_sha256": "152ea7bca3333ca5cdf6cbe8e505ac7e425d14a1f816bbf1f1096bf9a69c0ba2",
       "identical": true,
       "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/runtime/anniversary_surprise/send_guard.rb",
-      "inspection": "New exact-master source comparison; Targeted mission-family eligibility, runtime guards, feedback schedules and frequency inspected."
+      "inspection": "New exact-master source comparison; Targeted mission-family eligibility, runtime guards, feedback schedules and frequency inspected.",
+      "post_review_inspection": "Read in full after PR371 review to reconcile three linked canonical contracts; read-only; existing comparison and historical scope preserved."
     },
     {
       "path": "app/models/cg/runtime/browse_recovery/send_guard.rb",
@@ -1698,7 +1704,8 @@
       "current_sha256": "814107797ba1f36dc2ed4dd1599aa24c86e920251a6d3df05c44d465a5fae68c",
       "identical": true,
       "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/runtime/look_completer/send_guard.rb",
-      "inspection": "New exact-master source comparison; Targeted mission-family eligibility, runtime guards, feedback schedules and frequency inspected."
+      "inspection": "New exact-master source comparison; Targeted mission-family eligibility, runtime guards, feedback schedules and frequency inspected.",
+      "post_review_inspection": "Read in full after PR371 review to reconcile three linked canonical contracts; read-only; existing comparison and historical scope preserved."
     },
     {
       "path": "app/models/playbook/csat/interaction_selector.rb",
@@ -1749,5 +1756,18 @@
       "inspection": "New exact-master source comparison; Targeted mission-family eligibility, runtime guards, feedback schedules and frequency inspected."
     }
   ],
-  "operations": "Read-only source/GitHub inspection. No source app visit/update or DB/fixture/locale operation. Prior shared contract audits and eleven real differences retained at unchanged immutable master with protected hashes reconfirmed; not every reused source was freshly read in full. Library uses overview type/configuration/report/access contracts; new mission-family guards/schedules/lifecycle sweepers inspected in full; Anniversary Context fully read and LookCompleter source-order preconditions inspected without claiming a full read of its 491-line context. Individual pending operational/UI guides are not declared complete."
+  "operations": "Read-only source/GitHub inspection. No source app visit/update or DB/fixture/locale operation. Prior shared contract audits and eleven real differences retained at unchanged immutable master with protected hashes reconfirmed; not every reused source was freshly read in full. Library uses overview type/configuration/report/access contracts; new mission-family guards/schedules/lifecycle sweepers inspected in full; Anniversary Context fully read and LookCompleter source-order preconditions inspected without claiming a full read of its 491-line context. Individual pending operational/UI guides are not declared complete.",
+  "post_review_scope": {
+    "fully_read": [
+      "app/models/cg/runtime/look_completer/context.rb",
+      "app/models/cg/runtime/look_completer/send_guard.rb",
+      "app/models/cg/runtime/anniversary_surprise/context.rb",
+      "app/models/cg/runtime/anniversary_surprise/send_guard.rb",
+      "app/models/cg/runtime/reactivation/context.rb",
+      "app/models/cg/runtime/reactivation/send_guard.rb",
+      "app/models/contact/lifecycle.rb"
+    ],
+    "master_unchanged": "ed4b9a87cfba95431f5ffe0987a6413d4d538835",
+    "scope": "Seven already compared sources reconfirmed and read in full. LookCompleter Context full read is new at this review-correction stage; the earlier partial-inspection record remains intact. This is not completion of the three pending individual UI/operational/visual guides."
+  }
 }

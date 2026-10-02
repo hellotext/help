@@ -1,6 +1,6 @@
-Use this guide when you want to celebrate the anniversary of a customer's first purchase and Hellotext retains valid signals identifying that purchase.
+Use this guide when you want to celebrate customer purchase or relationship anniversaries, and Hellotext has a reliable date that defines when the message should be sent.
 
-Anniversary Surprise uses the anniversary of the first recorded purchase. The anniversary signal must retain a valid link to that first purchase and its source entity. Profile creation, subscription, membership, or a custom date property does not replace that purchase.
+Anniversary Surprise is a playbook based on a customer or history date. It can help recognize moments such as a first-purchase anniversary, customer relationship anniversary, or custom date, depending on the data source available in your account.
 
 It is not a birthday greeting, a seasonal campaign, or an inactive-customer reactivation playbook. It is a playbook for an annual relationship moment: celebrating that the customer has completed another cycle with the brand.
 
@@ -8,12 +8,12 @@ Availability can vary by account, plan, connected data sources, and rollout stat
 
 ## What Anniversary Surprise does
 
-Anniversary Surprise can turn the first-purchase anniversary into a retention message.
+Anniversary Surprise turns a meaningful customer date into a retention message.
 
 It can:
 
-- Use valid first-purchase history as the anniversary source.
-- Evaluate the anniversary signal and its first-purchase link on the corresponding date in the business timezone.
+- Use an anniversary source, such as first purchase, profile creation, subscription date, or a custom date, when available.
+- Detect when the customer reaches an anniversary based on that source.
 - Send a celebration message with a grateful or appreciative tone.
 - Include an approved coupon or existing eCommerce offer when the message calls for one.
 - Personalize the message with customer profile data, purchase history, or relationship context when that data is available.
@@ -27,8 +27,8 @@ Use Anniversary Surprise when your brand wants to recognize an existing relation
 
 It is a good fit when:
 
-- You have a reliably recorded first purchase linked to the customer.
-- Celebrating the anniversary of that first purchase makes sense for your brand.
+- You have a reliable date that represents the customer's relationship with the business.
+- The anniversary makes sense for your brand: first purchase, first opt-in, profile creation, membership, or a custom date.
 - The message can feel grateful, personal, and useful.
 - The business wants to offer a greeting or approved coupon without creating manual campaigns.
 - Your team wants a retention moment that does not depend on inactivity, cart behavior, or birthday.
@@ -37,21 +37,21 @@ For personal birthdays, use [Birthday Bash]({% link _journeys/birthday-bash-play
 
 ## What it needs before launch
 
-Before enabling Anniversary Surprise, confirm the quality and provenance of the first recorded purchase.
+Before enabling Anniversary Surprise, confirm which anniversary source it will use.
 
 Check that:
 
-- The first purchase retains a valid confirmed-order or product-purchase event, its timestamp, and its source entity.
-- The anniversary signal is linked to that first purchase and the same customer.
-- The date is precise and the anniversary falls on the corresponding day in the business timezone.
+- The anniversary source is clear: first purchase, profile creation, opt-in, membership, or a custom date.
+- The date exists for the profiles you want to reach.
+- The date is precise enough to calculate the anniversary.
 - Customer profiles include reliable identifiers and channel consent.
 - The audience you want to reach is identifiable and eligible.
 - The channel, sender, or WhatsApp account is ready.
 - The message or template is approved if the channel requires it.
 - If you include a coupon or eCommerce offer, it is approved and works before launch.
-- Purchase history and its identifiers are synced; a standalone date property does not create the required link.
+- Purchase, profile, or custom-property data is synced if the anniversary depends on it.
 
-For setup validation, use [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %}). If you import profiles, see [Import customer profiles]({% link _audience/import-customer-profiles.md %}). For custom tracking, use [Tracking events]({% link _developers/tracking-events.md %}).
+For setup validation, use [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %}). If you import profiles or custom dates, see [Import customer profiles]({% link _audience/import-customer-profiles.md %}). For custom tracking, use [Tracking events]({% link _developers/tracking-events.md %}).
 
 After launch, use the automatically generated reports to review sends, clicks, purchases, attributed revenue, replies, opt-outs, and skipped messages.
 
@@ -61,32 +61,32 @@ Open **Playbooks**, click **Explore playbooks**, and choose **Anniversary Surpri
 
 Available options can vary, but review:
 
-- **First-purchase data:** verify the history the playbook depends on; do not assume a generic date selector exists.
+- **Anniversary source:** which date starts the playbook if your account exposes that control.
 - **Audience:** which profiles can receive the playbook.
 - **Outgoing channels:** where Hellotext can send the message.
 - **Message:** the anniversary copy and variables it will use.
 - **Coupon or offer:** the approved coupon or existing eCommerce offer to include when relevant.
 - **Inbox replies:** how your team should review replies if the customer responds.
 
-The verified source is the first recorded purchase. Importing a profile date or naming another source in instructions does not change that contract.
+Do not assume every account uses the same anniversary source. If the control is not visible, confirm with your Hellotext team which date the playbook uses before launch.
 
 If you need a sequence with custom steps, conditions, or branches, use a custom journey. If you need a custom conversational agent, use [Custom Agent]({% link _journeys/custom-agent-playbook.md %}).
 
 ## How Hellotext chooses the moment
 
-Anniversary Surprise requires a valid first-purchase anniversary signal.
+Anniversary Surprise should start from a reliable date, not a broad campaign.
 
 Hellotext can use signals like:
 
-- The first recorded purchase, with its retained event and source entity.
-- An anniversary signal whose year, date, and lineage match that first purchase.
-- Whether that purchase remains the customer's first recorded purchase.
+- First-purchase date, if the anniversary is purchase-based.
+- Profile creation, subscription, opt-in, or membership date, if the anniversary is relationship-based.
+- A custom date property, if your team uses one as the anniversary.
 - Whether the profile belongs to the configured audience.
 - Whether the profile has consent and can receive messages on the channel.
 - Whether the channel, sender, template, and coupon are ready.
 - Whether frequency, consent, or quiet-hour rules allow the send.
 
-A valid anniversary signal must also pass send-time checks. If the anniversary day ends in the business timezone or the first-purchase history changes, the opportunity may become invalid.
+The most important point is that your team knows which date represents the anniversary. Two businesses can use different sources and still call the playbook Anniversary Surprise.
 
 For the broader decision model, see [How Hellotext decides whether a playbook can send]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}).
 
@@ -97,10 +97,10 @@ Use the type of date or signal to decide which playbook should act.
 | Customer moment | Better fit |
 | --- | --- |
 | It is the customer's birthday | [Birthday Bash]({% link _journeys/birthday-bash-playbook.md %}) |
-| It is the eligible anniversary of the first recorded purchase | Anniversary Surprise |
+| It is a purchase, relationship, membership, or custom-date anniversary | Anniversary Surprise |
 | Customer is starting to go quiet | [Soft Reactivation]({% link _journeys/soft-reactivation-playbook.md %}) |
-| Customer meets the prolonged-inactivity stage criteria | [Dormant Revival]({% link _journeys/dormant-revival-playbook.md %}) |
-| Customer meets the churn-risk stage criteria | [Sunset Saver]({% link _journeys/sunset-saver-playbook.md %}) |
+| Customer has been inactive for around 3 months | [Dormant Revival]({% link _journeys/dormant-revival-playbook.md %}) |
+| Customer has been inactive or not reactivated for around 12 months | [Sunset Saver]({% link _journeys/sunset-saver-playbook.md %}) |
 | You have a commercial date or one-time launch | [Campaigns]({% link _campaigns/campaigns-overview.md %}) |
 
 Anniversary Surprise can coexist with other playbooks when each one responds to a different moment. Still, avoid sending several promotional messages to the same customer at the same moment if another active playbook is a better fit.
@@ -111,8 +111,8 @@ Test with controlled customer profiles before enabling it for a broad audience.
 
 Use test customer profiles that have channel consent, then:
 
-- Confirm that the first recorded purchase is the anniversary source.
-- Identify valid first-purchase history and its linked anniversary signal; a date added to the profile is insufficient.
+- Confirm which anniversary source the playbook will use.
+- Add or identify an anniversary date on the profile or purchase history.
 - Confirm the date appears correctly in Hellotext.
 - Confirm the profile belongs to the playbook audience.
 - Review the message, variables, coupon, and links.
@@ -121,7 +121,7 @@ Use test customer profiles that have channel consent, then:
 - Test a profile without consent or without a reachable channel.
 - Reply to the test message and confirm it reaches the Inbox or the right owner when relevant.
 
-If you sync history from a store or custom source, confirm timestamps, identifiers, and purchase-entity lineage. Importing profiles does not demonstrate that those events exist.
+If you import dates from a store, CRM, or file, confirm that the date format is interpreted correctly before launch.
 
 ## Why it may not send
 
@@ -129,9 +129,9 @@ Anniversary Surprise being enabled does not mean every profile receives a messag
 
 The playbook may skip or wait when:
 
-- There is no valid first-purchase anniversary signal.
-- The first-purchase event, source entity, or customer link is missing.
-- The date does not match the anniversary in the business timezone, the day has ended, or first-purchase history has changed.
+- No anniversary source is configured or available.
+- The profile does not have the required date.
+- The date does not match the expected anniversary moment.
 - The profile does not belong to the configured audience.
 - The customer does not have consent or is not eligible for the channel.
 - The channel, sender, template, coupon, or link is not ready.
@@ -145,14 +145,14 @@ For a step-by-step diagnosis, use [Troubleshoot a playbook that did not trigger 
 During the first days, review:
 
 - Which profiles created anniversary moments.
-- Which first purchase and anniversary signal produced those moments.
+- Which anniversary source produced those moments.
 - Which messages were sent, skipped, clicked, replied to, or purchased from.
 - Whether the coupon or link worked correctly.
 - Whether the tone felt grateful and natural for the brand.
 - Whether there were opt-outs, negative replies, or failed messages.
 - Whether Anniversary Surprise overlaps with birthdays, campaigns, reactivation, or other retention playbooks.
 
-Review first-purchase history quality first. Tune one thing at a time: audience, channel, message, or coupon.
+Tune one thing at a time: anniversary source, audience, channel, message, or coupon.
 
 ## Related guides
 
