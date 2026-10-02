@@ -1,0 +1,556 @@
+{
+  "verified_at_utc": "2026-10-02T04:46:36.962019+00:00",
+  "verified_git_main_sha": "61ab412ecc1dc36cd09f46bb1aebe476e884d861",
+  "production_deploy_id_sha_association": {
+    "id": "6abf36eb6d2c1a0008920df2",
+    "site_id": "d66a79c1-b5de-44d1-bc47-bc7809f7f3b3",
+    "state": "ready",
+    "context": "production",
+    "branch": "main",
+    "commit_ref": "61ab412ecc1dc36cd09f46bb1aebe476e884d861",
+    "created_at": "2026-10-02T04:45:31.202Z",
+    "published_at": "2026-10-02T04:46:16.865Z",
+    "deploy_ssl_url": "https://main--legendary-lollipop-e2d131.netlify.app"
+  },
+  "deployment_method": "Normal Netlify production after Git merge; no manual deploy. Accessible public site-alias listing provided exact commit_ref.",
+  "pages": [
+    {
+      "url": "https://help.hellotext.com/es/respuestas-instantaneas",
+      "status": 200,
+      "article_key": "journeys/instant-answers-playbook.md",
+      "locale": "es",
+      "figures": 6,
+      "sections": 11,
+      "approved_assets_present": [
+        "/images/journeys/how-to-customize-a-playbook-safely/upload-es.png",
+        "/images/journeys/how-to-customize-a-playbook-safely/upload-es-mobile.png",
+        "/images/captures/property-collector/handoff-es.png",
+        "/images/captures/property-collector/handoff-es-mobile.png",
+        "/images/captures/property-collector/channels-es.png",
+        "/images/captures/property-collector/tone-es.png",
+        "/images/captures/property-collector/channels-es-mobile.png",
+        "/images/captures/property-collector/tone-es-mobile.png",
+        "/images/team/understanding-response-times/default-es.png",
+        "/images/team/understanding-response-times/default-es-mobile.png",
+        "/images/captures/webchat-widget/preview-follow-up/es/preview.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "24a1a5643e0df71a6b132285ad966fbba766e315e4b410630c5f26953a172615",
+      "html_sha256": "91bee69ebf99386276b30199bb94cd12d44ddf077cd28563577cdf20cd32bffb"
+    },
+    {
+      "url": "https://help.hellotext.com/instant-answers-playbook",
+      "status": 200,
+      "article_key": "journeys/instant-answers-playbook.md",
+      "locale": "en",
+      "figures": 6,
+      "sections": 11,
+      "approved_assets_present": [
+        "/images/journeys/how-to-customize-a-playbook-safely/upload-en.png",
+        "/images/journeys/how-to-customize-a-playbook-safely/upload-en-mobile.png",
+        "/images/captures/property-collector/handoff-en.png",
+        "/images/captures/property-collector/handoff-en-mobile.png",
+        "/images/captures/property-collector/channels-en.png",
+        "/images/captures/property-collector/tone-en.png",
+        "/images/captures/property-collector/channels-en-mobile.png",
+        "/images/captures/property-collector/tone-en-mobile.png",
+        "/images/team/understanding-response-times/default-en.png",
+        "/images/team/understanding-response-times/default-en-mobile.png",
+        "/images/captures/webchat-widget/preview-follow-up/en/preview.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "ab974a1efe4ddb42210f7664b93b77eb827b8ee2baaa9f6e20c08a01b038bb62",
+      "html_sha256": "003ec570e89430d0f61f2a0cef606b58d2ace9bc00bbd5414da30b19ac38626d"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/upload-es.png",
+      "status": 200,
+      "sha256": "0234f096438a251156c5b3d34a412eb1b918cf7055ecd8127992b2d19ce182db",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/upload-es-mobile.png",
+      "status": 200,
+      "sha256": "a621c5d4b43684ef799ae062ae426a13bf4dffac82787c36ae2e938ae22ba7e0",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/upload-en.png",
+      "status": 200,
+      "sha256": "39dab76063709ddf8dcc36668aea7cade842a8a920822d00e2e7025359c01950",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/upload-en-mobile.png",
+      "status": 200,
+      "sha256": "1ed6d37acc14e4902de468040fb58befa371aa4e4c3221b6f98124a71f97de92",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/property-collector/handoff-es.png",
+      "status": 200,
+      "sha256": "ef1c8abc4712dacc2effa83f6c968dd4a9453a5b1be059609a877a91e1693356",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/property-collector/handoff-en.png",
+      "status": 200,
+      "sha256": "0c5506ceed87f6ed0c9e57a4969d80cee2dc41f04ab25b04969917ab3f3bdfe9",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/property-collector/handoff-es-mobile.png",
+      "status": 200,
+      "sha256": "4f252e8b5d86ad772df8b7f979ae8d61de1970ff36f7110f5f1e0b1b5867b2cc",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/property-collector/handoff-en-mobile.png",
+      "status": 200,
+      "sha256": "97bad463814d7ec88c224ea32ccf6500c65c8eed86a39ef83cd8fba79d2f3793",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/property-collector/channels-es.png",
+      "status": 200,
+      "sha256": "09a69bcc4d04170870d9e7123c84391069810694179dc20ac44248df0abc1571",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/property-collector/channels-en.png",
+      "status": 200,
+      "sha256": "fed5b1e6710e0f6ad456ee06a4cae92680c2d85f1a78fef79dbe95d08a18222d",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/property-collector/tone-es.png",
+      "status": 200,
+      "sha256": "f97c2e66346680730e6c64708e701b95a3abf460ac099a1cb214d8baf22fdd8d",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/property-collector/tone-en.png",
+      "status": 200,
+      "sha256": "b8c33b227fbb6fc79ab89a2eccc079f9a9b0c8a06cf21773005ad1ffcec1d053",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/property-collector/channels-es-mobile.png",
+      "status": 200,
+      "sha256": "213da9d4c0fa8688e03ce9f368928e7df240b1d538670285a437c5935c0a24a3",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/property-collector/channels-en-mobile.png",
+      "status": 200,
+      "sha256": "260918096cf05d4ac82990773682e76fa51ea9b3478ab6e6305d67cc8fcbaf0e",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/property-collector/tone-es-mobile.png",
+      "status": 200,
+      "sha256": "bb6765e4ad6cfca6b321bf5ed74fd9c37e89be50045c6649cfbd640120decf62",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/property-collector/tone-en-mobile.png",
+      "status": 200,
+      "sha256": "5b59a2acc71f53d84aa7bb1d7280af18a300e2fe34a7a0bf3058f52328f7a21f",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-response-times/default-es.png",
+      "status": 200,
+      "sha256": "339b5749ee334a9d43c5ba547e6d41248962a12c3854fd211e2bd982f04081d0",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-response-times/default-es-mobile.png",
+      "status": 200,
+      "sha256": "6e75d88d34ec270d7c1c65e424da76fbd1c27bd54975feda0fda196fa167455e",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-response-times/default-en.png",
+      "status": 200,
+      "sha256": "c377e27ca01cfa3614d3ca758985ec5a8b253d4bd3082d9b48cef4780a2cf6c3",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-response-times/default-en-mobile.png",
+      "status": 200,
+      "sha256": "a41cb142e4f4b31a3de34b0ce7af740611fa3f9063e675b3ec4c0ceb194f1c8e",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/webchat-widget/preview-follow-up/es/preview.png",
+      "status": 200,
+      "sha256": "9ad90405a4d502c312d2abd2cdd2034911ab3d8b19aae970ffafbf106cb9fb12",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/webchat-widget/preview-follow-up/en/preview.png",
+      "status": 200,
+      "sha256": "9bc7e2dd9e3a3584edf7a4582b4b434a4a799a2c54382aa8a3771c3b45c73c51",
+      "matches_approved_asset": true,
+      "reused": true
+    }
+  ],
+  "new_captures": 0,
+  "new_png_uploads": 0,
+  "reused_pngs": 22,
+  "all_affected_article_pngs": 22,
+  "main_build": {
+    "conclusion": "success",
+    "databaseId": 36965947012,
+    "event": "push",
+    "headSha": "61ab412ecc1dc36cd09f46bb1aebe476e884d861",
+    "status": "completed",
+    "url": "https://github.com/hellotext/help/actions/runs/36965947012"
+  },
+  "content_pr": "https://github.com/hellotext/help/pull/365",
+  "content_pr_head": "143277873fdf0ee80bfd4500d5b6dff0046c894e",
+  "individual_commits_preserved": [
+    "306e88ff9a90094ce0e65e615ffe6bb3573da9ee",
+    "143277873fdf0ee80bfd4500d5b6dff0046c894e"
+  ],
+  "unresolved_review_threads_before_merge": 0,
+  "pre_merge_review": {
+    "head": "143277873fdf0ee80bfd4500d5b6dff0046c894e",
+    "checks": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-02T04:41:10Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/hellotext/help/actions/runs/36965590488/job/110708528050",
+        "name": "build",
+        "startedAt": "2026-10-02T04:40:41Z",
+        "status": "COMPLETED",
+        "workflowName": "Build"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-02T04:41:26Z",
+        "conclusion": "NEUTRAL",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abf35c6433328000875d704",
+        "name": "Pages changed - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-02T04:40:39Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-02T04:41:26Z",
+        "conclusion": "NEUTRAL",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abf35c6433328000875d704",
+        "name": "Redirect rules - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-02T04:40:39Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-02T04:41:04Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://app.aikido.dev/featurebranch/scan/210055311?groupId=34029",
+        "name": "Aikido Security: check code",
+        "startedAt": "2026-10-02T04:40:39Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-02T04:41:26Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abf35c6433328000875d704",
+        "name": "Header rules - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-02T04:40:39Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "StatusContext",
+        "context": "netlify/legendary-lollipop-e2d131/deploy-preview",
+        "startedAt": "2026-10-02T04:41:28Z",
+        "state": "SUCCESS",
+        "targetUrl": "https://deploy-preview-365--legendary-lollipop-e2d131.netlify.app"
+      }
+    ],
+    "comments": [
+      {
+        "id": "IC_kwDOIVbAxs8AAAABYmRxaA",
+        "author": {
+          "login": "netlify"
+        },
+        "authorAssociation": "NONE",
+        "body": "### <span aria-hidden=\"true\">\u2705</span> Deploy Preview for *legendary-lollipop-e2d131* ready!\n\n\n|  Name | Link |\n|:-:|------------------------|\n|<span aria-hidden=\"true\">\ud83d\udd28</span> Latest commit | 143277873fdf0ee80bfd4500d5b6dff0046c894e |\n|<span aria-hidden=\"true\">\ud83d\udd0d</span> Latest deploy log | https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abf35c6433328000875d704 |\n|<span aria-hidden=\"true\">\ud83d\ude0e</span> Deploy Preview | [https://deploy-preview-365--legendary-lollipop-e2d131.netlify.app](https://deploy-preview-365--legendary-lollipop-e2d131.netlify.app) |\n|<span aria-hidden=\"true\">\ud83d\udcf1</span> Preview on mobile | <details><summary> Toggle QR Code... </summary><br /><br />![QR Code](https://app.netlify.com/qr-code/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJodHRwczovL2RlcGxveS1wcmV2aWV3LTM2NS0tbGVnZW5kYXJ5LWxvbGxpcG9wLWUyZDEzMS5uZXRsaWZ5LmFwcCJ9.I6m2KI98v9HHFY4SSr1PMH5YpDrqglc2pFAx-tPTxcs)<br /><br />_Use your smartphone camera to open QR code link._</details> |\n|<span aria-hidden=\"true\">\ud83e\udd16</span> Make changes | [Run an agent on this branch](https://app.netlify.com/projects/legendary-lollipop-e2d131/agent-runs#DcpLCoAgFADAu7x1keSXbtAx1GcllIoaFdHdczeLeSHleKQKE0AHJutgt2Yb0d2DD6XqUHsdyuVy6dfTo2sNXdrjM2OLQpuFcisYpXRUhBAlOUrC4PsB) |\n---\n<!-- [legendary-lollipop-e2d131 Preview](https://deploy-preview-365--legendary-lollipop-e2d131.netlify.app) -->\n_To edit notification comments on pull requests, go to your [Netlify project configuration](https://app.netlify.com/projects/legendary-lollipop-e2d131/configuration/notifications#deploy-notifications)._",
+        "createdAt": "2026-10-02T04:40:41Z",
+        "includesCreatedEdit": true,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/hellotext/help/pull/365#issuecomment-5945717096",
+        "viewerDidAuthor": false
+      },
+      {
+        "id": "IC_kwDOIVbAxs8AAAABYmRzyQ",
+        "author": {
+          "login": "chatgpt-codex-connector"
+        },
+        "authorAssociation": "NONE",
+        "body": "<!-- codex-pull-request-review-summary -->\n\n## Codex Review Summary\n\nThis comment shows the latest Codex review activity on this pull request.\n\n| Review | Status | Commit | Review trigger |\n| --- | --- | --- | --- |\n| \ud83d\udcdd **Code Review** | \u2705 **Completed** <relative-time datetime=\"2026-10-02T04:43:49.555508Z\">2026-10-02T04:43:49.555508Z</relative-time> | `1432778` | PR opened |\n\n\n\n<details> <summary>\u2139\ufe0f About Codex in GitHub</summary>\n<br/>\n\n[Your team has set up Codex to review pull requests in this repo](https://chatgpt.com/codex/cloud/settings/general). Reviews are triggered when you\n- Open a pull request for review\n- Mark a draft as ready\n- Comment \"@codex review\" or \"@codex security review\".\n\nCodex reacts with \ud83d\udc40 while any review is running, comments if it has suggestions, and reacts with \ud83d\udc4d once all reviews finish with no findings.\n\n</details>",
+        "createdAt": "2026-10-02T04:40:45Z",
+        "includesCreatedEdit": true,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/hellotext/help/pull/365#issuecomment-5945717705",
+        "viewerDidAuthor": false
+      }
+    ],
+    "reviews": [],
+    "threads": [],
+    "all_actual_comments_reviews_threads_read": true
+  },
+  "preview_verification": {
+    "head": "143277873fdf0ee80bfd4500d5b6dff0046c894e",
+    "preview_url": "https://deploy-preview-365--legendary-lollipop-e2d131.netlify.app",
+    "deployment": {
+      "id": "6abf35c6433328000875d704",
+      "context": "deploy-preview",
+      "commit_ref": "143277873fdf0ee80bfd4500d5b6dff0046c894e",
+      "state": "ready",
+      "review_id": 365
+    },
+    "pages": [
+      {
+        "url": "https://deploy-preview-365--legendary-lollipop-e2d131.netlify.app/es/respuestas-instantaneas",
+        "status": 200,
+        "article_key": "journeys/instant-answers-playbook.md",
+        "locale": "es",
+        "figures": 6,
+        "sections": 11,
+        "approved_assets_present": [
+          "/images/journeys/how-to-customize-a-playbook-safely/upload-es.png",
+          "/images/journeys/how-to-customize-a-playbook-safely/upload-es-mobile.png",
+          "/images/captures/property-collector/handoff-es.png",
+          "/images/captures/property-collector/handoff-es-mobile.png",
+          "/images/captures/property-collector/channels-es.png",
+          "/images/captures/property-collector/tone-es.png",
+          "/images/captures/property-collector/channels-es-mobile.png",
+          "/images/captures/property-collector/tone-es-mobile.png",
+          "/images/team/understanding-response-times/default-es.png",
+          "/images/team/understanding-response-times/default-es-mobile.png",
+          "/images/captures/webchat-widget/preview-follow-up/es/preview.png"
+        ],
+        "complete_article_matches_verified_build": true,
+        "article_sha256": "24a1a5643e0df71a6b132285ad966fbba766e315e4b410630c5f26953a172615",
+        "html_sha256": "eb6114b511946d68a0cc2213dba1ffeae47778538b62dc1a6699115ce6b11118"
+      },
+      {
+        "url": "https://deploy-preview-365--legendary-lollipop-e2d131.netlify.app/instant-answers-playbook",
+        "status": 200,
+        "article_key": "journeys/instant-answers-playbook.md",
+        "locale": "en",
+        "figures": 6,
+        "sections": 11,
+        "approved_assets_present": [
+          "/images/journeys/how-to-customize-a-playbook-safely/upload-en.png",
+          "/images/journeys/how-to-customize-a-playbook-safely/upload-en-mobile.png",
+          "/images/captures/property-collector/handoff-en.png",
+          "/images/captures/property-collector/handoff-en-mobile.png",
+          "/images/captures/property-collector/channels-en.png",
+          "/images/captures/property-collector/tone-en.png",
+          "/images/captures/property-collector/channels-en-mobile.png",
+          "/images/captures/property-collector/tone-en-mobile.png",
+          "/images/team/understanding-response-times/default-en.png",
+          "/images/team/understanding-response-times/default-en-mobile.png",
+          "/images/captures/webchat-widget/preview-follow-up/en/preview.png"
+        ],
+        "complete_article_matches_verified_build": true,
+        "article_sha256": "ab974a1efe4ddb42210f7664b93b77eb827b8ee2baaa9f6e20c08a01b038bb62",
+        "html_sha256": "03f0d2be39ca5aa55dc564de72c4bf4748ea2887c8140d6948e6bffe55d609e7"
+      }
+    ],
+    "assets": [
+      {
+        "url": "https://deploy-preview-365--legendary-lollipop-e2d131.netlify.app/images/journeys/how-to-customize-a-playbook-safely/upload-es.png",
+        "status": 200,
+        "sha256": "0234f096438a251156c5b3d34a412eb1b918cf7055ecd8127992b2d19ce182db",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-365--legendary-lollipop-e2d131.netlify.app/images/journeys/how-to-customize-a-playbook-safely/upload-es-mobile.png",
+        "status": 200,
+        "sha256": "a621c5d4b43684ef799ae062ae426a13bf4dffac82787c36ae2e938ae22ba7e0",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-365--legendary-lollipop-e2d131.netlify.app/images/journeys/how-to-customize-a-playbook-safely/upload-en.png",
+        "status": 200,
+        "sha256": "39dab76063709ddf8dcc36668aea7cade842a8a920822d00e2e7025359c01950",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-365--legendary-lollipop-e2d131.netlify.app/images/journeys/how-to-customize-a-playbook-safely/upload-en-mobile.png",
+        "status": 200,
+        "sha256": "1ed6d37acc14e4902de468040fb58befa371aa4e4c3221b6f98124a71f97de92",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-365--legendary-lollipop-e2d131.netlify.app/images/captures/property-collector/handoff-es.png",
+        "status": 200,
+        "sha256": "ef1c8abc4712dacc2effa83f6c968dd4a9453a5b1be059609a877a91e1693356",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-365--legendary-lollipop-e2d131.netlify.app/images/captures/property-collector/handoff-en.png",
+        "status": 200,
+        "sha256": "0c5506ceed87f6ed0c9e57a4969d80cee2dc41f04ab25b04969917ab3f3bdfe9",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-365--legendary-lollipop-e2d131.netlify.app/images/captures/property-collector/handoff-es-mobile.png",
+        "status": 200,
+        "sha256": "4f252e8b5d86ad772df8b7f979ae8d61de1970ff36f7110f5f1e0b1b5867b2cc",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-365--legendary-lollipop-e2d131.netlify.app/images/captures/property-collector/handoff-en-mobile.png",
+        "status": 200,
+        "sha256": "97bad463814d7ec88c224ea32ccf6500c65c8eed86a39ef83cd8fba79d2f3793",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-365--legendary-lollipop-e2d131.netlify.app/images/captures/property-collector/channels-es.png",
+        "status": 200,
+        "sha256": "09a69bcc4d04170870d9e7123c84391069810694179dc20ac44248df0abc1571",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-365--legendary-lollipop-e2d131.netlify.app/images/captures/property-collector/channels-en.png",
+        "status": 200,
+        "sha256": "fed5b1e6710e0f6ad456ee06a4cae92680c2d85f1a78fef79dbe95d08a18222d",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-365--legendary-lollipop-e2d131.netlify.app/images/captures/property-collector/tone-es.png",
+        "status": 200,
+        "sha256": "f97c2e66346680730e6c64708e701b95a3abf460ac099a1cb214d8baf22fdd8d",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-365--legendary-lollipop-e2d131.netlify.app/images/captures/property-collector/tone-en.png",
+        "status": 200,
+        "sha256": "b8c33b227fbb6fc79ab89a2eccc079f9a9b0c8a06cf21773005ad1ffcec1d053",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-365--legendary-lollipop-e2d131.netlify.app/images/captures/property-collector/channels-es-mobile.png",
+        "status": 200,
+        "sha256": "213da9d4c0fa8688e03ce9f368928e7df240b1d538670285a437c5935c0a24a3",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-365--legendary-lollipop-e2d131.netlify.app/images/captures/property-collector/channels-en-mobile.png",
+        "status": 200,
+        "sha256": "260918096cf05d4ac82990773682e76fa51ea9b3478ab6e6305d67cc8fcbaf0e",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-365--legendary-lollipop-e2d131.netlify.app/images/captures/property-collector/tone-es-mobile.png",
+        "status": 200,
+        "sha256": "bb6765e4ad6cfca6b321bf5ed74fd9c37e89be50045c6649cfbd640120decf62",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-365--legendary-lollipop-e2d131.netlify.app/images/captures/property-collector/tone-en-mobile.png",
+        "status": 200,
+        "sha256": "5b59a2acc71f53d84aa7bb1d7280af18a300e2fe34a7a0bf3058f52328f7a21f",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-365--legendary-lollipop-e2d131.netlify.app/images/team/understanding-response-times/default-es.png",
+        "status": 200,
+        "sha256": "339b5749ee334a9d43c5ba547e6d41248962a12c3854fd211e2bd982f04081d0",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-365--legendary-lollipop-e2d131.netlify.app/images/team/understanding-response-times/default-es-mobile.png",
+        "status": 200,
+        "sha256": "6e75d88d34ec270d7c1c65e424da76fbd1c27bd54975feda0fda196fa167455e",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-365--legendary-lollipop-e2d131.netlify.app/images/team/understanding-response-times/default-en.png",
+        "status": 200,
+        "sha256": "c377e27ca01cfa3614d3ca758985ec5a8b253d4bd3082d9b48cef4780a2cf6c3",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-365--legendary-lollipop-e2d131.netlify.app/images/team/understanding-response-times/default-en-mobile.png",
+        "status": 200,
+        "sha256": "a41cb142e4f4b31a3de34b0ce7af740611fa3f9063e675b3ec4c0ceb194f1c8e",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-365--legendary-lollipop-e2d131.netlify.app/images/captures/webchat-widget/preview-follow-up/es/preview.png",
+        "status": 200,
+        "sha256": "9ad90405a4d502c312d2abd2cdd2034911ab3d8b19aae970ffafbf106cb9fb12",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-365--legendary-lollipop-e2d131.netlify.app/images/captures/webchat-widget/preview-follow-up/en/preview.png",
+        "status": 200,
+        "sha256": "9bc7e2dd9e3a3584edf7a4582b4b434a4a799a2c54382aa8a3771c3b45c73c51",
+        "matches_approved_asset": true,
+        "reused": true
+      }
+    ]
+  },
+  "earlier_record_332_limitation": "This genuine later content SHA published normally; it does not prove publication of ad6d6455d0671cda042dc5ef184f73c86d64f8fb. No manual deployment or retry."
+}
