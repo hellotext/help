@@ -1,13 +1,8 @@
-In Hellotext, every AI Agent begins with a single, simple ingredient: its prompt.
+The prompt describes your AI agent's purpose, voice, and boundaries. It is one part of the configuration: the playbook's tools, knowledge, channels, and rules determine what the agent can actually do.
 
-The prompt defines the agent’s personality, tone, purpose, and limits.
-
-It is what turns an AI agent or playbook into a real brand voice — one that can sell, assist, or delight customers as if it were a person on your team.
-
-Writing a great prompt is less about technical detail and more about clarity and intent. The better you define who the agent is, how it should speak, and what it must never do, the more consistently it will represent your brand.
+Writing a great prompt means giving clear instructions that fit that configuration. Describe whom the agent helps, which information it should use, and what to do when it cannot confirm an answer.
 
 If you are writing the prompt for a custom agent, first define the agent's mission, intents, knowledge, channels, and handoff path in [Custom Agent playbook]({% link _journeys/custom-agent-playbook.md %}).
-
 
 In this article:
 
@@ -25,132 +20,202 @@ In this article:
 
 ## What agents can do by default
 
-<img src="images/journeys/en/ai-agent-prompt.jpg" alt="" width="768" />
+Capabilities depend on the playbook type, available features, and configuration. Writing “check inventory” or “save the size” does not connect a store, add a tool, or authorize an operation.
 
-Every agent in Hellotext can perform a wide range of actions automatically. It can read your product catalog and inventory in real time, recommend products, check stock, and guide customers through decisions.
+When product search is available to the agent, it can use the available data to recommend items. Check the integration and source information before promising stock, prices, or delivery; a prompt does not guarantee store inventory updated in real time.
 
-It can also search across URLs or documents you attach—such as a FAQ, policy guide, or product manual—to help the agent answer with supported information and reduce unverified responses.
+Documents, web search, property collection, and handoff also require their controls and dependencies. We will review each below. System instructions and checks help define behavior, but they do not by themselves guarantee perfect answers, identical voice in every case, or regulatory compliance.
 
-Agents can collect and store any customer profile properties you choose, from name and city to preferred size or interests. They can also decide when to escalate a conversation to a human, following the handoff rules you define.
+The example shows **Agent prompt** in a new fictitious Custom Agent. The field is empty: the gray text is a placeholder, not a saved prompt. The playbook was not enabled and the Playground was not run.
 
-And, most importantly, every message they send passes through Hellotext’s privacy and tone guardrails, ensuring consistent brand voice and compliance across all channels.
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Empty prompt field in a fictitious draft">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 646px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/journeys/how-to-customize-a-playbook-safely/prompt-en-mobile.png 2x" width="844" height="956" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-customize-a-playbook-safely/prompt-en.png" srcset="/images/journeys/how-to-customize-a-playbook-safely/prompt-en.png 2x" width="1256" height="1108" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Empty prompt field in a fictitious draft" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real interface with an independent fictitious state; no save or execution in this batch.</figcaption>
+</figure>
+
+If that component is available, write your instructions there. Access depends on the playbook type and account features. **Go back** returns to the editor cards; check the final playbook save afterward. Seeing text in the form does not confirm it was saved. If an action's result is uncertain, read the saved configuration again before repeating it.
 
 ## The anatomy of a good prompt
 
-A strong prompt has four main parts: identity, tone, context, and behavior.
+A strong prompt has four main parts: identity, tone, context, and behavior. This guide's examples use **Astra** and **Lumina Atelier**, a fictitious agent and brand. They do not describe a connected store, real data, or generated replies.
 
 ### Identity
 
-Begin by describing who the agent is and what role it plays for your brand. Give it a name if you wish. Make it sound like a person the customer would naturally trust.
+Describe who the agent is and which task it performs. You may give it a name while making clear that it is the brand's digital assistant.
 
-> Example:
-> 
-> You are **Astra**, the digital stylist of the brand *Lumina Atelier*. Your role is to welcome every visitor warmly, help them find the right pieces for their style and mood, and answer questions with precision and grace.
+> You are **Astra**, the digital assistant of *Lumina Atelier*. You help people learn about the brand's garments and choose options based on their preferences. Answer clearly and recognize when you need confirmation from the team.
 
-This opening tells the system how to embody the brand. It’s short, human, and specific.
+This opening defines a specific role. Avoid attributing system access or authority to accept orders, returns, or agreements that the agent does not have configured.
 
 ### Tone
 
-Define how the agent should sound. Choose the voice that reflects your brand culture — calm and elegant, youthful and friendly, professional and precise.
+Choose a voice consistent with your brand and describe observable behavior: length, vocabulary, sales pressure, and questions. For example:
 
-Describe it in full sentences, not bullet points. For example:
+> Astra uses clear, short sentences with a friendly, calm tone. She asks one question at a time. She does not exaggerate benefits or pressure anyone to buy. When information is missing, she explains it directly.
 
-> “Astra speaks in a confident and thoughtful tone. She writes in clear, concise sentences, with a friendly rhythm. She never oversells or pressures. Her language feels warm and intelligent, as if she were a trusted in-store advisor.”
+If the **Tone** card is available, align its selection with the prompt. It allows one to three tones. This independent Property Collector draft shows **Friendly**, **Playful**, and **Exclusive** selected without saving. It is a fictitious combination; it does not correspond to the Astra example or demonstrate a generated reply. Tone changes wording, not facts or permissions.
 
-Tone is one of the most powerful elements of a prompt. It determines whether your customers feel cared for or managed by a machine.
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Three tones selected without saving">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 593px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/tone-en-mobile.png 2x" width="780" height="970" />
+        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/tone-en.png" srcset="/images/captures/property-collector/tone-en.png 2x" width="1150" height="1030" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Three tones selected without saving" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real interface with an independent fictitious state; no save or execution in this batch.</figcaption>
+</figure>
 
 ### Context
 
-Here, give the agent the brand and product background it needs to understand the world it speaks from. Include your brand values, materials, and any factual information that shapes the way it answers.
+Provide the brand facts needed for the task. Separate verified facts, policies that must be consulted, and style preferences. For the fictitious brand, for example:
 
-> Lumina Atelier is a contemporary womenswear label that designs modular, timeless garments made from organic cotton and soft viscose blends. Each piece is designed in Lisbon and produced locally. Comfort, durability, and quiet elegance define the brand.
+> Lumina Atelier designs modular cotton and viscose garments. Its style is simple and comfortable. Use authorized product descriptions for materials and care; do not extend those characteristics to every item.
 
-This information gives the agent a reference point to ground its recommendations and reduce the risk of filling in unsupported details.
+Keep that information current. A brand description in the prompt does not replace a specific product description, the current policy, or data returned by a tool.
 
 ### Behavior and boundaries
 
-End by stating what the agent can and cannot do. Think of this as its code of conduct.
+Define when to ask a question, acknowledge uncertainty, and request human involvement. Write boundaries you can review in a conversation:
 
-Include when to ask for more information, when to stop, and when to escalate to a human.
+> Use the customer's name if available and relevant. Ask one question at a time to understand the occasion or preference.
+>
+> If available tools return suitable products, recommend up to three options with a clear reason and the links they provide. Do not invent products or URLs.
+>
+> Do not assume stock, prices, delivery times, or return terms. If the available sources cannot confirm them, explain what still needs verification.
+>
+> If the inquiry needs the human team, use the configured handoff when available. If you cannot perform it, explain the limitation and the authorized next step. Do not promise that someone has received the case or will reply within an unconfirmed time.
 
-> Astra should always greet the visitor by name if available, and ask one question at a time to understand the occasion or preference.
-> 
-> She can recommend up to three products per message, each with a clear reason and link.
-> 
-> She should never make assumptions about stock, delivery times, or pricing.
-> 
-> If a question requires confirmation from the team—for example, regarding international shipping or custom orders—she must not invent an answer. Instead, she should explain that a specialist will confirm and ask for contact details to follow up.
-
-This structure gives the agent enough freedom to sound natural, but enough discipline to stay reliable.
+Requesting a handoff in the prompt does not create a team or by itself change a conversation's owner. Configure and review that destination separately.
 
 ## Enriching the prompt with knowledge and rules
 
-Once the tone and behavior are set, you can enrich the agent’s abilities by connecting it to your existing knowledge.
+Connect instructions to sources and controls available for that playbook. A document or URL may help ground an answer, but does not guarantee that every fact will be found, current, or interpreted correctly.
 
-Attach any relevant documents, such as product guides, policies, or manuals. The agent will use these as authoritative sources.
+If **Upload documents** is available, choose relevant, reviewed documents. Avoid conflicting versions and personal data or secrets the agent does not need. The figure retains the complete upload area and **Choose files to upload**, with no file selected or uploaded. Selecting, saving, and making a document available for retrieval are separate states; later processing may be asynchronous.
 
-You can also add URLs, like your brand’s FAQ or “About Us” page, to anchor its answers in up-to-date, verifiable content.
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Knowledge upload area without selected files">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 646px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/journeys/how-to-customize-a-playbook-safely/upload-en-mobile.png 2x" width="844" height="804" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-customize-a-playbook-safely/upload-en.png" srcset="/images/journeys/how-to-customize-a-playbook-safely/upload-en.png 2x" width="1256" height="732" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Knowledge upload area without selected files" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real interface with an independent fictitious state; no save or execution in this batch.</figcaption>
+</figure>
 
-If you want the agent to collect or update profile data during conversations, specify it in the prompt. For example:
-“Whenever a customer mentions their city or size, save that information automatically to their profile.”
+If **Web search** is available, configure relevant sites and check answers that depend on them. The restriction uses domains: it does not guarantee retrieval of an exact path, port, or page, or turn the site into a store integration. This draft field is empty; **https://www.example.com** is the native placeholder. No site was added and no search was run.
 
-You can also instruct it on how to handle handoffs:
-“If the customer expresses dissatisfaction or mentions a refund, escalate to the human support team ‘Returns Desk’.”
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Empty web search with native placeholder">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 646px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/journeys/how-to-customize-a-playbook-safely/web_search-en-mobile.png 2x" width="844" height="408" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-customize-a-playbook-safely/web_search-en.png" srcset="/images/journeys/how-to-customize-a-playbook-safely/web_search-en.png 2x" width="1256" height="432" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Empty web search with native placeholder" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real interface with an independent fictitious state; no save or execution in this batch.</figcaption>
+</figure>
 
-Behind the scenes, the Supervisor routes these intents — whether product recommendation, support question, or profile update — through the appropriate agents defined in your workspace.
+To collect data, configure permitted properties and explain when they are useful. Instructions do not allow saving any arbitrary profile field. Another playbook's prerequisite collection keeps its own list and needs the configured, enabled Property Collector to run. Ask only for relevant data and respect that flow's decline options and attempt limits.
 
-Keep reading: [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %}).
+The independent Property Collector draft shows **Name** marked **Important** and **Email** optional. Nothing was saved or collected. That priority does not establish identity, messaging consent, or sending permission.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Important name and optional email without collection">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 666px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/style-refresh/fields-en-mobile.png 2x" width="764" height="722" />
+        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/style-refresh/fields-en.png" srcset="/images/captures/property-collector/style-refresh/fields-en.png 2x" width="1296" height="698" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Important name and optional email without collection" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real interface with an independent fictitious state; no save or execution in this batch.</figcaption>
+</figure>
+
+A compatible instruction might be: “When relevant to the inquiry, request city or size through the configured properties. Do not invent values or claim they were saved without confirming the result.” Before adding it, check that those properties and the collection tool are available in your flow.
+
+For handoff, write the reason and configure the actual destination. In the independent example, **Escalation** shows the fictitious team **Atención demo** in an unsaved draft. It is a destination team, not a playbook or an assigned conversation. It does not demonstrate availability, capacity, a human reply, or a permanent AI pause.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Fictitious handoff team without assignment">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 593px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/handoff-en-mobile.png 2x" width="780" height="680" />
+        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/handoff-en.png" srcset="/images/captures/property-collector/handoff-en.png 2x" width="1150" height="660" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Fictitious handoff team without assignment" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real interface with an independent fictitious state; no save or execution in this batch.</figcaption>
+</figure>
+
+You can instruct: “If a return requires human review, use the configured destination and explain what needs confirmation.” Naming “Returns Desk” in the text does not create that team or replace the selector. Check the destination's protocol and capacity, and keep reading [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %}).
 
 ## A Model prompt example
 
-Here’s a full, clean example you can adapt for your own brand.
+This is illustrative text to adapt. **lumina.example.test** is a fictitious domain; the documents, catalog, properties, and team mentioned are not configured by writing the prompt.
 
 > **Prompt Example – Lumina Atelier**
 >
-> You are **Astra**, the digital stylist of *Lumina Atelier*, a contemporary womenswear brand that creates modular and timeless pieces for modern women.
-> 
-> Your mission is to guide each visitor with warmth and clarity, help them discover garments that fit their needs, and respond with precision.
-> 
-> Speak in a confident, intelligent tone — calm, thoughtful, and elegant — using clear, natural sentences. Avoid slang or exaggeration.
-> 
-> You can access the full catalog of products and stock information, so you may recommend items that match the client’s preferences.
-> 
-> You may also consult the following resources: luminaatelier.com, the product FAQ PDF, and the Returns & Shipping Guide.
-> If you’re uncertain about any information, never guess. Tell the customer you will confirm with a team member and ask for their name and contact to follow up.
-> 
-> Automatically collect and save the customer’s name, city, and preferred sizes for future reference.
-> 
-> Escalate any complex inquiries about stock, wholesale orders, or special collaborations to the human team “Client Care”.
+> You are **Astra**, the digital assistant of *Lumina Atelier*, a fictitious brand of modular, timeless garments.
+>
+> Your mission is to understand what each visitor needs and help clearly. Use short sentences, a friendly, calm tone, and one question at a time. Do not pressure anyone to buy or exaggerate benefits.
+>
+> When catalog tools are available, recommend options based on the data they return. Do not invent stock, prices, links, or delivery dates. If information is missing, explain what needs confirmation.
+>
+> Consult authorized documents and lumina.example.test only if configured and available for this playbook. Prioritize the current policy relevant to the inquiry. If sources conflict or do not answer the question, do not guess.
+>
+> Request name, city, or size only when useful to the task and included in the configured collection. Respect customer refusals and the flow's limits. Do not claim a value was saved without confirming its result, or interpret providing data as consent to receive messages.
+>
+> If a complex inquiry needs a person, use the available handoff to the team configured for that case. If you cannot do so, explain the authorized next step. Do not promise assignment, replies, discounts, or results that have not been confirmed.
 
-This prompt is simple yet complete: it defines voice, purpose, access, and limits. It’s written in the same natural tone that customers will later experience.
+The example defines voice, purpose, and boundaries without attributing unavailable capabilities. Before using it, replace the fictitious data and verify each dependency of your playbook.
 
 ## Best practices
 
-When writing your own prompt, focus on clarity and restraint. A good agent doesn’t need paragraphs of brand philosophy; it needs a compass.
+Write specific instructions you can review. Avoid slogans, contradictory rules, and action lists that the agent cannot perform. Keep the previous version and change one part at a time.
 
-Describe what the agent should care about, not what it should say in every case. Let Hellotext’s AI adapt dynamically based on the conversation and the data it can access.
+Review cases with insufficient information, conflicting sources, declined data, and requests outside the scope. Check that the agent acknowledges its limits and that the chosen tone does not lead it to invent facts or commitments.
 
-Keep your language precise. Avoid marketing slogans. Make sure every instruction is actionable.
+If you use the Playground in an authorized environment, remember that it runs a simulation and may consult tools or providers. It does not establish identity, consent, eligibility, or delivery to a real customer. This guide did not run a simulation, test, or send.
 
-And remember: the prompt is not static. Review your agents’ conversations from the Inbox, observe how customers respond, and refine the text until the tone feels perfectly aligned with your brand.
+Check the save and review conversations you can access. Distinguish the visible draft from the saved configuration and what happened during a conversation. If a result is uncertain, reconcile the state before repeating. To edit a playbook in use, see [How to customize a playbook safely]({% link _journeys/how-to-customize-a-playbook-safely.md %}).
 
 ## How Hellotext uses your prompt
 
-When a conversation starts, Hellotext’s Supervisor reads the intent behind each message, whether it’s an order inquiry, a product recommendation, or a support question, and routes it to the correct agent.
+Depending on the playbook type, Hellotext considers activity, context, and intents when deciding which flow may respond. Intents are not a word list that always triggers an agent; flow availability and eligibility also matter.
 
-Each response passes through several services before it reaches the customer:
+The figure shows **Intents** in a fictitious Custom Agent. **I want to ask about a return.** remains in the input without being added: **New intent**, Enter, and Save were not used. It is not a received message, a saved intent, or a completed classification.
 
-1. The **Creative Lab** drafts the message based on your tone and content.
-2. The **Guardrails** module checks that the text complies with privacy, tone, and brand guidelines.
-3. The **Send-Time Optimization (STO)** engine decides the ideal time to deliver it.
-4. The **Channel Dispatcher** sends it through the right medium — WhatsApp, SMS, Instagram, or Webchat.
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Intent phrase without addition or classification">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 646px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/team/ai-handoff-to-inbox/intents-en-mobile.png 2x" width="764" height="544" />
+        <img class="ht-editorial-visual__image" src="/images/team/ai-handoff-to-inbox/intents-en.png" srcset="/images/team/ai-handoff-to-inbox/intents-en.png 2x" width="1256" height="520" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Intent phrase without addition or classification" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real interface with an independent fictitious state; no save or execution in this batch.</figcaption>
+</figure>
 
-Your prompt is the foundation on which all these systems operate. It defines how intelligence, business rules, and brand personality merge into a single, coherent experience.
+The agent combines instructions with context and tools enabled for that flow. A prompt does not bypass access checks, property configuration, channel readiness, or sending rules.
+
+Generation, content checks, channel selection, and scheduling vary by flow. A content check does not guarantee accuracy or regulatory compliance either. Review actual replies and results; saving a prompt or producing a proposal does not confirm a delivered message.
 
 ## Final reflection
 
-Think of your agent prompt as a creative brief for a person you’re about to hire — someone who will speak to thousands of your customers.
+Think of the prompt as a specific brief: whom the agent helps, how it speaks, which sources it may use, and when it should acknowledge a limitation.
 
-Be specific about what they represent, how they speak, and where their knowledge ends.
-
-A few well-chosen paragraphs can define a voice that feels unmistakably yours, working around the clock with warmth, precision, and consistency.
+A few clear instructions that fit the configuration and are reviewed against real cases help maintain a consistent voice without promising capabilities or results the agent cannot confirm.
