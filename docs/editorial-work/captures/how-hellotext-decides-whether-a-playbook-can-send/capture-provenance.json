@@ -1,0 +1,1889 @@
+{
+  "status": "locally_verified",
+  "article_key": "journeys/how-hellotext-decides-whether-a-playbook-can-send.md",
+  "base_revision": "4d68d5de460e5520110adf474a74d3a84ef7874a",
+  "originals": [
+    {
+      "article": "_i18n/es/journeys/how-hellotext-decides-whether-a-playbook-can-send.md",
+      "snapshot": "docs/editorial-work/captures/how-hellotext-decides-whether-a-playbook-can-send/originals/es.md",
+      "sha256": "fe652edd8cb3ef1f817a5ec6a93cacb06d94cee6cab5a3f51554f7881524e1bf",
+      "headings": [
+        "## Primero, separa disparo de envío",
+        "## El mapa de decisión",
+        "### 1. ¿La misión está habilitada y disponible?",
+        "### 2. ¿Ocurrió la señal, intención o condición correcta?",
+        "### 3. ¿El perfil del cliente es elegible para recibir un mensaje?",
+        "### 4. ¿El canal está listo para este mensaje?",
+        "### 5. ¿Esto enviaría demasiados mensajes al cliente?",
+        "### 6. ¿Es un horario permitido para enviar?",
+        "### 7. ¿Hellotext puede construir un candidato de envío válido?",
+        "### 8. ¿La conversación debería derivarse?",
+        "## Qué revisar cuando una misión no envió",
+        "## Cuándo editar la misión",
+        "## Guías relacionadas"
+      ],
+      "links": [
+        "_troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md",
+        "_journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md",
+        "_journeys/custom-agent-playbook.md",
+        "_journeys/custom-agent-playbook.md",
+        "_audience/consent-and-subscriber-status.md",
+        "_team/ai-handoff-to-inbox.md",
+        "_analytics-reporting-attribution/playbook-reporting.md",
+        "_journeys/how-to-customize-a-playbook-safely.md",
+        "_journeys/how-to-enable-a-playbook.md",
+        "_journeys/how-to-customize-a-playbook-safely.md",
+        "_journeys/custom-agent-playbook.md",
+        "_journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md",
+        "_journeys/what-are-signals.md",
+        "_audience/consent-and-subscriber-status.md",
+        "_numbers/whatsapp-channel-fundamentals.md",
+        "_team/ai-handoff-to-inbox.md",
+        "_troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md",
+        "_analytics-reporting-attribution/playbook-reporting.md"
+      ]
+    },
+    {
+      "article": "_i18n/en/journeys/how-hellotext-decides-whether-a-playbook-can-send.md",
+      "snapshot": "docs/editorial-work/captures/how-hellotext-decides-whether-a-playbook-can-send/originals/en.md",
+      "sha256": "60dbc7144dcb38d0bedba80baecae1cca87746592cfdeae8179266ecc18a3f90",
+      "headings": [
+        "## First, separate trigger from send",
+        "## The decision map",
+        "### 1. Is the playbook enabled and available?",
+        "### 2. Did the right signal, intent, or condition happen?",
+        "### 3. Is the customer profile eligible to receive a message?",
+        "### 4. Is the channel ready for this message?",
+        "### 5. Would this over-message the customer?",
+        "### 6. Is it an allowed time to send?",
+        "### 7. Can Hellotext build a valid send candidate?",
+        "### 8. Should the conversation be handed off instead?",
+        "## What to check when a playbook did not send",
+        "## When to edit the playbook",
+        "## Related guides"
+      ],
+      "links": [
+        "_troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md",
+        "_journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md",
+        "_journeys/custom-agent-playbook.md",
+        "_journeys/custom-agent-playbook.md",
+        "_audience/consent-and-subscriber-status.md",
+        "_team/ai-handoff-to-inbox.md",
+        "_analytics-reporting-attribution/playbook-reporting.md",
+        "_journeys/how-to-customize-a-playbook-safely.md",
+        "_journeys/how-to-enable-a-playbook.md",
+        "_journeys/how-to-customize-a-playbook-safely.md",
+        "_journeys/custom-agent-playbook.md",
+        "_journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md",
+        "_journeys/what-are-signals.md",
+        "_audience/consent-and-subscriber-status.md",
+        "_numbers/whatsapp-channel-fundamentals.md",
+        "_team/ai-handoff-to-inbox.md",
+        "_troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md",
+        "_analytics-reporting-attribution/playbook-reporting.md"
+      ]
+    },
+    {
+      "article": "_journeys/how-hellotext-decides-whether-a-playbook-can-send.md",
+      "snapshot": "docs/editorial-work/captures/how-hellotext-decides-whether-a-playbook-can-send/originals/stub.md",
+      "sha256": "5991ea265d79a0aa193686eeed74f3e4090d584716ed5ae66878e921dafedd86",
+      "headings": [],
+      "links": []
+    }
+  ],
+  "images": [
+    {
+      "name": "catalog-es",
+      "concept": "catalog",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/custom-actions/catalog-es-original.png",
+      "published_asset": "images/developers/custom-actions/catalog-es.png",
+      "native": {
+        "sha256": "a12712f6c78adc83c29a0c497ccb3a061449789f26a7d5cbaf6fdab127612389",
+        "url": "http://127.0.0.1:3192/hellotext/settings/actions?tab=custom",
+        "locale": "es",
+        "cssViewport": [
+          1200,
+          900
+        ],
+        "browserDpr": 2,
+        "clip": [
+          304,
+          143,
+          876,
+          419
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1752,
+          838
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP",
+        "guard_result": "Required capture tool pre/post guards passed; source hash retained in first batch output."
+      },
+      "logical_size": [
+        876.0,
+        419.0
+      ],
+      "intended_max_display_width_css": 876.0,
+      "ui_evidence": "docs/editorial-work/captures/custom-actions/catalog-es-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved existing native asset reused unchanged; this consumer awaits public verification.",
+      "historical_consumer_record": {
+        "name": "catalog-es",
+        "concept": "catalog",
+        "locale": "es",
+        "mobile": false,
+        "source": "docs/editorial-work/captures/custom-actions/catalog-es-original.png",
+        "published_asset": "images/developers/custom-actions/catalog-es.png",
+        "native": {
+          "sha256": "a12712f6c78adc83c29a0c497ccb3a061449789f26a7d5cbaf6fdab127612389",
+          "url": "http://127.0.0.1:3192/hellotext/settings/actions?tab=custom",
+          "locale": "es",
+          "cssViewport": [
+            1200,
+            900
+          ],
+          "browserDpr": 2,
+          "clip": [
+            304,
+            143,
+            876,
+            419
+          ],
+          "pageScroll": [
+            0,
+            0
+          ],
+          "pixelSize": [
+            1752,
+            838
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "isolated Chrome compositor via CDP",
+          "guard_result": "Required capture tool pre/post guards passed; source hash retained in first batch output."
+        },
+        "logical_size": [
+          876.0,
+          419.0
+        ],
+        "intended_max_display_width_css": 876.0,
+        "ui_evidence": "catalog-es-ui.json",
+        "pointer": "absent",
+        "pixel_edits": "none",
+        "publication_status": "New native P3 2x source uploaded; public URL/hash verified in public-verification.json."
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
+      "original_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
+      "sha256": "a12712f6c78adc83c29a0c497ccb3a061449789f26a7d5cbaf6fdab127612389",
+      "source_density": 2,
+      "reused": true,
+      "new_capture": false,
+      "consumer_publication_state": "not_yet_publicly_verified"
+    },
+    {
+      "name": "catalog-es-mobile",
+      "concept": "catalog",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/custom-actions/catalog-es-mobile-original.png",
+      "published_asset": "images/developers/custom-actions/catalog-es-mobile.png",
+      "native": {
+        "sha256": "fab59f9490d84ad14feb17be6a5701ba29c39161fdc7bd5fbd391a2a16651d76",
+        "url": "http://127.0.0.1:3192/hellotext/settings/actions?tab=custom",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          900
+        ],
+        "browserDpr": 2,
+        "clip": [
+          4,
+          518,
+          382,
+          173
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          764,
+          346
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        382.0,
+        173.0
+      ],
+      "intended_max_display_width_css": 382.0,
+      "ui_evidence": "docs/editorial-work/captures/custom-actions/catalog-es-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved existing native asset reused unchanged; this consumer awaits public verification.",
+      "historical_consumer_record": {
+        "name": "catalog-es-mobile",
+        "concept": "catalog",
+        "locale": "es",
+        "mobile": true,
+        "source": "docs/editorial-work/captures/custom-actions/catalog-es-mobile-original.png",
+        "published_asset": "images/developers/custom-actions/catalog-es-mobile.png",
+        "native": {
+          "sha256": "fab59f9490d84ad14feb17be6a5701ba29c39161fdc7bd5fbd391a2a16651d76",
+          "url": "http://127.0.0.1:3192/hellotext/settings/actions?tab=custom",
+          "locale": "es",
+          "cssViewport": [
+            390,
+            900
+          ],
+          "browserDpr": 2,
+          "clip": [
+            4,
+            518,
+            382,
+            173
+          ],
+          "pageScroll": [
+            0,
+            0
+          ],
+          "pixelSize": [
+            764,
+            346
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "isolated Chrome compositor via CDP"
+        },
+        "logical_size": [
+          382.0,
+          173.0
+        ],
+        "intended_max_display_width_css": 382.0,
+        "ui_evidence": "catalog-es-mobile-ui.json",
+        "pointer": "absent",
+        "pixel_edits": "none",
+        "publication_status": "New native P3 2x source uploaded; public URL/hash verified in public-verification.json."
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
+      "original_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
+      "sha256": "fab59f9490d84ad14feb17be6a5701ba29c39161fdc7bd5fbd391a2a16651d76",
+      "source_density": 2,
+      "reused": true,
+      "new_capture": false,
+      "consumer_publication_state": "not_yet_publicly_verified"
+    },
+    {
+      "name": "catalog-en",
+      "concept": "catalog",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/custom-actions/catalog-en-original.png",
+      "published_asset": "images/developers/custom-actions/catalog-en.png",
+      "native": {
+        "sha256": "6fdbbbe59759abe2be46c35406174c9dae62c52dcdb56d65f5875e003e278bef",
+        "url": "http://127.0.0.1:3192/hellotext/settings/actions?tab=custom",
+        "locale": "en",
+        "cssViewport": [
+          1200,
+          900
+        ],
+        "browserDpr": 2,
+        "clip": [
+          304,
+          143,
+          876,
+          419
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1752,
+          838
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP",
+        "guard_result": "Required capture tool pre/post guards passed; source hash retained in first batch output."
+      },
+      "logical_size": [
+        876.0,
+        419.0
+      ],
+      "intended_max_display_width_css": 876.0,
+      "ui_evidence": "docs/editorial-work/captures/custom-actions/catalog-en-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved existing native asset reused unchanged; this consumer awaits public verification.",
+      "historical_consumer_record": {
+        "name": "catalog-en",
+        "concept": "catalog",
+        "locale": "en",
+        "mobile": false,
+        "source": "docs/editorial-work/captures/custom-actions/catalog-en-original.png",
+        "published_asset": "images/developers/custom-actions/catalog-en.png",
+        "native": {
+          "sha256": "6fdbbbe59759abe2be46c35406174c9dae62c52dcdb56d65f5875e003e278bef",
+          "url": "http://127.0.0.1:3192/hellotext/settings/actions?tab=custom",
+          "locale": "en",
+          "cssViewport": [
+            1200,
+            900
+          ],
+          "browserDpr": 2,
+          "clip": [
+            304,
+            143,
+            876,
+            419
+          ],
+          "pageScroll": [
+            0,
+            0
+          ],
+          "pixelSize": [
+            1752,
+            838
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "isolated Chrome compositor via CDP",
+          "guard_result": "Required capture tool pre/post guards passed; source hash retained in first batch output."
+        },
+        "logical_size": [
+          876.0,
+          419.0
+        ],
+        "intended_max_display_width_css": 876.0,
+        "ui_evidence": "catalog-en-ui.json",
+        "pointer": "absent",
+        "pixel_edits": "none",
+        "publication_status": "New native P3 2x source uploaded; public URL/hash verified in public-verification.json."
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
+      "original_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
+      "sha256": "6fdbbbe59759abe2be46c35406174c9dae62c52dcdb56d65f5875e003e278bef",
+      "source_density": 2,
+      "reused": true,
+      "new_capture": false,
+      "consumer_publication_state": "not_yet_publicly_verified"
+    },
+    {
+      "name": "catalog-en-mobile",
+      "concept": "catalog",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/custom-actions/catalog-en-mobile-original.png",
+      "published_asset": "images/developers/custom-actions/catalog-en-mobile.png",
+      "native": {
+        "sha256": "9f1460df43463d2eef8bbd04d6c550782d05bd4129eb7f9bf0faa5f553588561",
+        "url": "http://127.0.0.1:3192/hellotext/settings/actions?tab=custom",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          900
+        ],
+        "browserDpr": 2,
+        "clip": [
+          4,
+          518,
+          382,
+          173
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          764,
+          346
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "logical_size": [
+        382.0,
+        173.0
+      ],
+      "intended_max_display_width_css": 382.0,
+      "ui_evidence": "docs/editorial-work/captures/custom-actions/catalog-en-mobile-ui.json",
+      "pointer": "absent",
+      "pixel_edits": "none",
+      "publication_status": "Approved existing native asset reused unchanged; this consumer awaits public verification.",
+      "historical_consumer_record": {
+        "name": "catalog-en-mobile",
+        "concept": "catalog",
+        "locale": "en",
+        "mobile": true,
+        "source": "docs/editorial-work/captures/custom-actions/catalog-en-mobile-original.png",
+        "published_asset": "images/developers/custom-actions/catalog-en-mobile.png",
+        "native": {
+          "sha256": "9f1460df43463d2eef8bbd04d6c550782d05bd4129eb7f9bf0faa5f553588561",
+          "url": "http://127.0.0.1:3192/hellotext/settings/actions?tab=custom",
+          "locale": "en",
+          "cssViewport": [
+            390,
+            900
+          ],
+          "browserDpr": 2,
+          "clip": [
+            4,
+            518,
+            382,
+            173
+          ],
+          "pageScroll": [
+            0,
+            0
+          ],
+          "pixelSize": [
+            764,
+            346
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "isolated Chrome compositor via CDP"
+        },
+        "logical_size": [
+          382.0,
+          173.0
+        ],
+        "intended_max_display_width_css": 382.0,
+        "ui_evidence": "catalog-en-mobile-ui.json",
+        "pointer": "absent",
+        "pixel_edits": "none",
+        "publication_status": "New native P3 2x source uploaded; public URL/hash verified in public-verification.json."
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
+      "original_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
+      "sha256": "9f1460df43463d2eef8bbd04d6c550782d05bd4129eb7f9bf0faa5f553588561",
+      "source_density": 2,
+      "reused": true,
+      "new_capture": false,
+      "consumer_publication_state": "not_yet_publicly_verified"
+    },
+    {
+      "concept": "intents",
+      "locale": "es",
+      "mobile": false,
+      "published_asset": "images/team/ai-handoff-to-inbox/intents-es.png",
+      "sha256": "3ce141b0bcdd1fc102325fca3389e28f19158d1344b0c94ec725b6f99bc7ee50",
+      "pixels": [
+        1256,
+        520
+      ],
+      "logical_size": [
+        628.0,
+        260.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/intents-es-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/intents-es-original.png",
+        "sha256": "3ce141b0bcdd1fc102325fca3389e28f19158d1344b0c94ec725b6f99bc7ee50",
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+        "locale": "es",
+        "cssViewport": [
+          1400,
+          1000
+        ],
+        "browserDpr": 2,
+        "clip": [
+          52,
+          125,
+          628,
+          260
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1256,
+          520
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+        "title": "Nueva misión Agente Personalizado | Hellotext",
+        "locale": "es",
+        "viewport": [
+          1400,
+          1000
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "derived_crop": null,
+      "reused": true,
+      "new_capture": false,
+      "historical_consumer_record": {
+        "concept": "intents",
+        "locale": "es",
+        "mobile": false,
+        "published_asset": "images/team/ai-handoff-to-inbox/intents-es.png",
+        "sha256": "3ce141b0bcdd1fc102325fca3389e28f19158d1344b0c94ec725b6f99bc7ee50",
+        "pixels": [
+          1256,
+          520
+        ],
+        "logical_size": [
+          628.0,
+          260.0
+        ],
+        "density": 2,
+        "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/intents-es-original.png",
+        "native": {
+          "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/intents-es-original.png",
+          "sha256": "3ce141b0bcdd1fc102325fca3389e28f19158d1344b0c94ec725b6f99bc7ee50",
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+          "locale": "es",
+          "cssViewport": [
+            1400,
+            1000
+          ],
+          "browserDpr": 2,
+          "clip": [
+            52,
+            125,
+            628,
+            260
+          ],
+          "pageScroll": [
+            0,
+            0
+          ],
+          "pixelSize": [
+            1256,
+            520
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "isolated Chrome compositor via CDP"
+        },
+        "ui_guard": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+          "title": "Nueva misión Agente Personalizado | Hellotext",
+          "locale": "es",
+          "viewport": [
+            1400,
+            1000
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            0
+          ],
+          "guard": {
+            "pid": 57358,
+            "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+            "port": 9460,
+            "account": "design-system@example.test",
+            "single_local_page": true,
+            "color": "display-p3-d65"
+          }
+        },
+        "observed_http_methods": [
+          "GET"
+        ],
+        "derived_crop": null,
+        "reused": false,
+        "new_capture": true
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+      "original_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+      "name": "intents-es",
+      "source_density": 2,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "publication_status": "Approved existing native asset reused unchanged; this consumer awaits public verification."
+    },
+    {
+      "concept": "intents",
+      "locale": "es",
+      "mobile": true,
+      "published_asset": "images/team/ai-handoff-to-inbox/intents-es-mobile.png",
+      "sha256": "06a58e9ba16bdc719e9c1787edb0b699acc69e588cb43ae97295622b904c1e7f",
+      "pixels": [
+        764,
+        592
+      ],
+      "logical_size": [
+        382.0,
+        296.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/intents-es-mobile-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/intents-es-mobile-original.png",
+        "sha256": "06a58e9ba16bdc719e9c1787edb0b699acc69e588cb43ae97295622b904c1e7f",
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          1000
+        ],
+        "browserDpr": 2,
+        "clip": [
+          4,
+          121,
+          382,
+          296
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          764,
+          592
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+        "title": "Nueva misión Agente Personalizado | Hellotext",
+        "locale": "es",
+        "viewport": [
+          390,
+          1000
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "derived_crop": null,
+      "reused": true,
+      "new_capture": false,
+      "historical_consumer_record": {
+        "concept": "intents",
+        "locale": "es",
+        "mobile": true,
+        "published_asset": "images/team/ai-handoff-to-inbox/intents-es-mobile.png",
+        "sha256": "06a58e9ba16bdc719e9c1787edb0b699acc69e588cb43ae97295622b904c1e7f",
+        "pixels": [
+          764,
+          592
+        ],
+        "logical_size": [
+          382.0,
+          296.0
+        ],
+        "density": 2,
+        "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/intents-es-mobile-original.png",
+        "native": {
+          "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/intents-es-mobile-original.png",
+          "sha256": "06a58e9ba16bdc719e9c1787edb0b699acc69e588cb43ae97295622b904c1e7f",
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+          "locale": "es",
+          "cssViewport": [
+            390,
+            1000
+          ],
+          "browserDpr": 2,
+          "clip": [
+            4,
+            121,
+            382,
+            296
+          ],
+          "pageScroll": [
+            0,
+            0
+          ],
+          "pixelSize": [
+            764,
+            592
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "isolated Chrome compositor via CDP"
+        },
+        "ui_guard": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+          "title": "Nueva misión Agente Personalizado | Hellotext",
+          "locale": "es",
+          "viewport": [
+            390,
+            1000
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            0
+          ],
+          "guard": {
+            "pid": 57358,
+            "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+            "port": 9460,
+            "account": "design-system@example.test",
+            "single_local_page": true,
+            "color": "display-p3-d65"
+          }
+        },
+        "observed_http_methods": [
+          "GET"
+        ],
+        "derived_crop": null,
+        "reused": false,
+        "new_capture": true
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+      "original_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+      "name": "intents-es-mobile",
+      "source_density": 2,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "publication_status": "Approved existing native asset reused unchanged; this consumer awaits public verification."
+    },
+    {
+      "concept": "intents",
+      "locale": "en",
+      "mobile": false,
+      "published_asset": "images/team/ai-handoff-to-inbox/intents-en.png",
+      "sha256": "58afbd5fd69c3e56c69b0cbfa41dd2e3c5946fa4884e1098436208e7237314d1",
+      "pixels": [
+        1256,
+        520
+      ],
+      "logical_size": [
+        628.0,
+        260.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/intents-en-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/intents-en-original.png",
+        "sha256": "58afbd5fd69c3e56c69b0cbfa41dd2e3c5946fa4884e1098436208e7237314d1",
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+        "locale": "en",
+        "cssViewport": [
+          1400,
+          1000
+        ],
+        "browserDpr": 2,
+        "clip": [
+          52,
+          125,
+          628,
+          260
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1256,
+          520
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+        "title": "New Custom Agent playbook | Hellotext",
+        "locale": "en",
+        "viewport": [
+          1400,
+          1000
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "derived_crop": null,
+      "reused": true,
+      "new_capture": false,
+      "historical_consumer_record": {
+        "concept": "intents",
+        "locale": "en",
+        "mobile": false,
+        "published_asset": "images/team/ai-handoff-to-inbox/intents-en.png",
+        "sha256": "58afbd5fd69c3e56c69b0cbfa41dd2e3c5946fa4884e1098436208e7237314d1",
+        "pixels": [
+          1256,
+          520
+        ],
+        "logical_size": [
+          628.0,
+          260.0
+        ],
+        "density": 2,
+        "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/intents-en-original.png",
+        "native": {
+          "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/intents-en-original.png",
+          "sha256": "58afbd5fd69c3e56c69b0cbfa41dd2e3c5946fa4884e1098436208e7237314d1",
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+          "locale": "en",
+          "cssViewport": [
+            1400,
+            1000
+          ],
+          "browserDpr": 2,
+          "clip": [
+            52,
+            125,
+            628,
+            260
+          ],
+          "pageScroll": [
+            0,
+            0
+          ],
+          "pixelSize": [
+            1256,
+            520
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "isolated Chrome compositor via CDP"
+        },
+        "ui_guard": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+          "title": "New Custom Agent playbook | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1400,
+            1000
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            0
+          ],
+          "guard": {
+            "pid": 57358,
+            "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+            "port": 9460,
+            "account": "design-system@example.test",
+            "single_local_page": true,
+            "color": "display-p3-d65"
+          }
+        },
+        "observed_http_methods": [
+          "GET"
+        ],
+        "derived_crop": null,
+        "reused": false,
+        "new_capture": true
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+      "original_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+      "name": "intents-en",
+      "source_density": 2,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "publication_status": "Approved existing native asset reused unchanged; this consumer awaits public verification."
+    },
+    {
+      "concept": "intents",
+      "locale": "en",
+      "mobile": true,
+      "published_asset": "images/team/ai-handoff-to-inbox/intents-en-mobile.png",
+      "sha256": "574b86a078f6ac9efb168c67084d2b50a5187bfd67ab7cf72fc113197f739971",
+      "pixels": [
+        764,
+        544
+      ],
+      "logical_size": [
+        382.0,
+        272.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/intents-en-mobile-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/intents-en-mobile-original.png",
+        "sha256": "574b86a078f6ac9efb168c67084d2b50a5187bfd67ab7cf72fc113197f739971",
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          1000
+        ],
+        "browserDpr": 2,
+        "clip": [
+          4,
+          121,
+          382,
+          272
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          764,
+          544
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+        "title": "New Custom Agent playbook | Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          1000
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "derived_crop": null,
+      "reused": true,
+      "new_capture": false,
+      "historical_consumer_record": {
+        "concept": "intents",
+        "locale": "en",
+        "mobile": true,
+        "published_asset": "images/team/ai-handoff-to-inbox/intents-en-mobile.png",
+        "sha256": "574b86a078f6ac9efb168c67084d2b50a5187bfd67ab7cf72fc113197f739971",
+        "pixels": [
+          764,
+          544
+        ],
+        "logical_size": [
+          382.0,
+          272.0
+        ],
+        "density": 2,
+        "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/intents-en-mobile-original.png",
+        "native": {
+          "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/intents-en-mobile-original.png",
+          "sha256": "574b86a078f6ac9efb168c67084d2b50a5187bfd67ab7cf72fc113197f739971",
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+          "locale": "en",
+          "cssViewport": [
+            390,
+            1000
+          ],
+          "browserDpr": 2,
+          "clip": [
+            4,
+            121,
+            382,
+            272
+          ],
+          "pageScroll": [
+            0,
+            0
+          ],
+          "pixelSize": [
+            764,
+            544
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "isolated Chrome compositor via CDP"
+        },
+        "ui_guard": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+          "title": "New Custom Agent playbook | Hellotext",
+          "locale": "en",
+          "viewport": [
+            390,
+            1000
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            0
+          ],
+          "guard": {
+            "pid": 57358,
+            "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+            "port": 9460,
+            "account": "design-system@example.test",
+            "single_local_page": true,
+            "color": "display-p3-d65"
+          }
+        },
+        "observed_http_methods": [
+          "GET"
+        ],
+        "derived_crop": null,
+        "reused": false,
+        "new_capture": true
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+      "original_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+      "name": "intents-en-mobile",
+      "source_density": 2,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "publication_status": "Approved existing native asset reused unchanged; this consumer awaits public verification."
+    },
+    {
+      "name": "profile-fields-es",
+      "concept": "profile",
+      "locale": "es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/customer-profiles/profile-fields-es-original.png",
+      "published_asset": "images/audience/customer-profiles/profile-fields-es.png",
+      "native": {
+        "sha256": "bf1ee79e29d0ef384913cad51a1792ddf0050d75a5b4e138bd49df682e203b40",
+        "pixelSize": [
+          910,
+          1330
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "macOS ScreenCaptureKit exact-title and exact-window helper, filtered preflight, 15 s timeout, native 2x Display P3 PNG",
+        "url": "http://127.0.0.1:3190/hellotext/audience/29D7LZXk"
+      },
+      "logical_size": [
+        455,
+        665
+      ],
+      "original_record": {
+        "kind": "profile-fields",
+        "locale": "es",
+        "original": "docs/editorial-work/captures/customer-profiles/profile-fields-es-original.png",
+        "published_asset": "images/audience/customer-profiles/profile-fields-es.png",
+        "source_route": "http://127.0.0.1:3190/hellotext/audience/29D7LZXk",
+        "source_database": "hellotext_editorial_capture_20260926",
+        "native_crop_points": [
+          1335,
+          250,
+          455,
+          665
+        ],
+        "source_pixels": [
+          910,
+          1330
+        ],
+        "maximum_display_css_px": 455,
+        "native_scale": 2,
+        "icc_profile": "Display P3",
+        "sha256": "bf1ee79e29d0ef384913cad51a1792ddf0050d75a5b4e138bd49df682e203b40",
+        "pointer": "absent",
+        "layout_note": "Actual desktop app layout"
+      },
+      "ui_evidence": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+      "original_provenance": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+      "reused": true,
+      "pixel_edits": "none in this batch",
+      "sha256": "bf1ee79e29d0ef384913cad51a1792ddf0050d75a5b4e138bd49df682e203b40",
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "publication_status": "Approved existing native asset reused unchanged; this consumer awaits public verification.",
+      "historical_consumer_record": {
+        "name": "profile-fields-es",
+        "concept": "profile",
+        "locale": "es",
+        "mobile": false,
+        "source": "docs/editorial-work/captures/customer-profiles/profile-fields-es-original.png",
+        "published_asset": "images/audience/customer-profiles/profile-fields-es.png",
+        "native": {
+          "sha256": "bf1ee79e29d0ef384913cad51a1792ddf0050d75a5b4e138bd49df682e203b40",
+          "pixelSize": [
+            910,
+            1330
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "macOS ScreenCaptureKit exact-title and exact-window helper, filtered preflight, 15 s timeout, native 2x Display P3 PNG",
+          "url": "http://127.0.0.1:3190/hellotext/audience/29D7LZXk"
+        },
+        "logical_size": [
+          455,
+          665
+        ],
+        "original_record": {
+          "kind": "profile-fields",
+          "locale": "es",
+          "original": "docs/editorial-work/captures/customer-profiles/profile-fields-es-original.png",
+          "published_asset": "images/audience/customer-profiles/profile-fields-es.png",
+          "source_route": "http://127.0.0.1:3190/hellotext/audience/29D7LZXk",
+          "source_database": "hellotext_editorial_capture_20260926",
+          "native_crop_points": [
+            1335,
+            250,
+            455,
+            665
+          ],
+          "source_pixels": [
+            910,
+            1330
+          ],
+          "maximum_display_css_px": 455,
+          "native_scale": 2,
+          "icc_profile": "Display P3",
+          "sha256": "bf1ee79e29d0ef384913cad51a1792ddf0050d75a5b4e138bd49df682e203b40",
+          "pointer": "absent",
+          "layout_note": "Actual desktop app layout"
+        },
+        "ui_evidence": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+        "original_provenance": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+        "reused": true,
+        "pixel_edits": "none in this batch",
+        "sha256": "bf1ee79e29d0ef384913cad51a1792ddf0050d75a5b4e138bd49df682e203b40",
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Current consumer publicly verified using the existing approved native asset; no recapture, duplicate upload or pixel edit."
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/verify-data-and-signals/capture-provenance.json",
+      "source_density": 2,
+      "new_capture": false
+    },
+    {
+      "name": "profile-fields-en",
+      "concept": "profile",
+      "locale": "en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/customer-profiles/profile-fields-en-original.png",
+      "published_asset": "images/audience/customer-profiles/profile-fields-en.png",
+      "native": {
+        "sha256": "9bbb727226b2a20d5df4be2ca7612d29037b9d18d8e7e2ec488c407c54945f5d",
+        "pixelSize": [
+          910,
+          1330
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "macOS ScreenCaptureKit exact-title and exact-window helper, filtered preflight, 15 s timeout, native 2x Display P3 PNG",
+        "url": "http://127.0.0.1:3191/hellotext/audience/29D7LZXk"
+      },
+      "logical_size": [
+        455,
+        665
+      ],
+      "original_record": {
+        "kind": "profile-fields",
+        "locale": "en",
+        "original": "docs/editorial-work/captures/customer-profiles/profile-fields-en-original.png",
+        "published_asset": "images/audience/customer-profiles/profile-fields-en.png",
+        "source_route": "http://127.0.0.1:3191/hellotext/audience/29D7LZXk",
+        "source_database": "hellotext_editorial_workload_20260928 (isolated clone)",
+        "native_crop_points": [
+          1335,
+          250,
+          455,
+          665
+        ],
+        "source_pixels": [
+          910,
+          1330
+        ],
+        "maximum_display_css_px": 455,
+        "native_scale": 2,
+        "icc_profile": "Display P3",
+        "sha256": "9bbb727226b2a20d5df4be2ca7612d29037b9d18d8e7e2ec488c407c54945f5d",
+        "pointer": "absent",
+        "layout_note": "Actual desktop app layout"
+      },
+      "ui_evidence": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+      "original_provenance": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+      "reused": true,
+      "pixel_edits": "none in this batch",
+      "sha256": "9bbb727226b2a20d5df4be2ca7612d29037b9d18d8e7e2ec488c407c54945f5d",
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "publication_status": "Approved existing native asset reused unchanged; this consumer awaits public verification.",
+      "historical_consumer_record": {
+        "name": "profile-fields-en",
+        "concept": "profile",
+        "locale": "en",
+        "mobile": false,
+        "source": "docs/editorial-work/captures/customer-profiles/profile-fields-en-original.png",
+        "published_asset": "images/audience/customer-profiles/profile-fields-en.png",
+        "native": {
+          "sha256": "9bbb727226b2a20d5df4be2ca7612d29037b9d18d8e7e2ec488c407c54945f5d",
+          "pixelSize": [
+            910,
+            1330
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "macOS ScreenCaptureKit exact-title and exact-window helper, filtered preflight, 15 s timeout, native 2x Display P3 PNG",
+          "url": "http://127.0.0.1:3191/hellotext/audience/29D7LZXk"
+        },
+        "logical_size": [
+          455,
+          665
+        ],
+        "original_record": {
+          "kind": "profile-fields",
+          "locale": "en",
+          "original": "docs/editorial-work/captures/customer-profiles/profile-fields-en-original.png",
+          "published_asset": "images/audience/customer-profiles/profile-fields-en.png",
+          "source_route": "http://127.0.0.1:3191/hellotext/audience/29D7LZXk",
+          "source_database": "hellotext_editorial_workload_20260928 (isolated clone)",
+          "native_crop_points": [
+            1335,
+            250,
+            455,
+            665
+          ],
+          "source_pixels": [
+            910,
+            1330
+          ],
+          "maximum_display_css_px": 455,
+          "native_scale": 2,
+          "icc_profile": "Display P3",
+          "sha256": "9bbb727226b2a20d5df4be2ca7612d29037b9d18d8e7e2ec488c407c54945f5d",
+          "pointer": "absent",
+          "layout_note": "Actual desktop app layout"
+        },
+        "ui_evidence": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+        "original_provenance": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+        "reused": true,
+        "pixel_edits": "none in this batch",
+        "sha256": "9bbb727226b2a20d5df4be2ca7612d29037b9d18d8e7e2ec488c407c54945f5d",
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Current consumer publicly verified using the existing approved native asset; no recapture, duplicate upload or pixel edit."
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/verify-data-and-signals/capture-provenance.json",
+      "source_density": 2,
+      "new_capture": false
+    },
+    {
+      "name": "profile-fields-mobile-es",
+      "concept": "profile",
+      "locale": "es",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/customer-profiles/profile-fields-es-mobile-original.png",
+      "published_asset": "images/audience/customer-profiles/profile-fields-es-mobile.png",
+      "native": {
+        "sha256": "1525d3add44bb64b93d457bb3353f8bfdd9fe0f1f99b84580aed0807db7829c3",
+        "pixelSize": [
+          700,
+          1330
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "macOS ScreenCaptureKit exact-title and exact-window helper, filtered preflight, 15 s timeout, native 2x Display P3 PNG",
+        "url": "http://127.0.0.1:3191/hellotext/audience/29D7LZXk"
+      },
+      "logical_size": [
+        350,
+        665
+      ],
+      "original_record": {
+        "kind": "profile-fields-mobile",
+        "locale": "es",
+        "original": "docs/editorial-work/captures/customer-profiles/profile-fields-es-mobile-original.png",
+        "published_asset": "images/audience/customer-profiles/profile-fields-es-mobile.png",
+        "source_route": "http://127.0.0.1:3191/hellotext/audience/29D7LZXk",
+        "source_database": "hellotext_editorial_workload_20260928 (isolated clone)",
+        "native_crop_points": [
+          1335,
+          250,
+          350,
+          665
+        ],
+        "source_pixels": [
+          700,
+          1330
+        ],
+        "maximum_display_css_px": 350,
+        "native_scale": 2,
+        "icc_profile": "Display P3",
+        "sha256": "1525d3add44bb64b93d457bb3353f8bfdd9fe0f1f99b84580aed0807db7829c3",
+        "pointer": "absent",
+        "layout_note": "Focused desktop-app crop for responsive Help rendering; not an app mobile screenshot"
+      },
+      "ui_evidence": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+      "original_provenance": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+      "reused": true,
+      "pixel_edits": "none in this batch",
+      "sha256": "1525d3add44bb64b93d457bb3353f8bfdd9fe0f1f99b84580aed0807db7829c3",
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "publication_status": "Approved existing native asset reused unchanged; this consumer awaits public verification.",
+      "historical_consumer_record": {
+        "name": "profile-fields-mobile-es",
+        "concept": "profile",
+        "locale": "es",
+        "mobile": true,
+        "source": "docs/editorial-work/captures/customer-profiles/profile-fields-es-mobile-original.png",
+        "published_asset": "images/audience/customer-profiles/profile-fields-es-mobile.png",
+        "native": {
+          "sha256": "1525d3add44bb64b93d457bb3353f8bfdd9fe0f1f99b84580aed0807db7829c3",
+          "pixelSize": [
+            700,
+            1330
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "macOS ScreenCaptureKit exact-title and exact-window helper, filtered preflight, 15 s timeout, native 2x Display P3 PNG",
+          "url": "http://127.0.0.1:3191/hellotext/audience/29D7LZXk"
+        },
+        "logical_size": [
+          350,
+          665
+        ],
+        "original_record": {
+          "kind": "profile-fields-mobile",
+          "locale": "es",
+          "original": "docs/editorial-work/captures/customer-profiles/profile-fields-es-mobile-original.png",
+          "published_asset": "images/audience/customer-profiles/profile-fields-es-mobile.png",
+          "source_route": "http://127.0.0.1:3191/hellotext/audience/29D7LZXk",
+          "source_database": "hellotext_editorial_workload_20260928 (isolated clone)",
+          "native_crop_points": [
+            1335,
+            250,
+            350,
+            665
+          ],
+          "source_pixels": [
+            700,
+            1330
+          ],
+          "maximum_display_css_px": 350,
+          "native_scale": 2,
+          "icc_profile": "Display P3",
+          "sha256": "1525d3add44bb64b93d457bb3353f8bfdd9fe0f1f99b84580aed0807db7829c3",
+          "pointer": "absent",
+          "layout_note": "Focused desktop-app crop for responsive Help rendering; not an app mobile screenshot"
+        },
+        "ui_evidence": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+        "original_provenance": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+        "reused": true,
+        "pixel_edits": "none in this batch",
+        "sha256": "1525d3add44bb64b93d457bb3353f8bfdd9fe0f1f99b84580aed0807db7829c3",
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Current consumer publicly verified using the existing approved native asset; no recapture, duplicate upload or pixel edit."
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/verify-data-and-signals/capture-provenance.json",
+      "source_density": 2,
+      "new_capture": false
+    },
+    {
+      "name": "profile-fields-mobile-en",
+      "concept": "profile",
+      "locale": "en",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/customer-profiles/profile-fields-en-mobile-original.png",
+      "published_asset": "images/audience/customer-profiles/profile-fields-en-mobile.png",
+      "native": {
+        "sha256": "0e2c6a1622ea73ec0fa008f5100b7ce5f04e2695cdb1aa2414c855db6ca760cb",
+        "pixelSize": [
+          700,
+          1330
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "macOS ScreenCaptureKit exact-title and exact-window helper, filtered preflight, 15 s timeout, native 2x Display P3 PNG",
+        "url": "http://127.0.0.1:3191/hellotext/audience/29D7LZXk"
+      },
+      "logical_size": [
+        350,
+        665
+      ],
+      "original_record": {
+        "kind": "profile-fields-mobile",
+        "locale": "en",
+        "original": "docs/editorial-work/captures/customer-profiles/profile-fields-en-mobile-original.png",
+        "published_asset": "images/audience/customer-profiles/profile-fields-en-mobile.png",
+        "source_route": "http://127.0.0.1:3191/hellotext/audience/29D7LZXk",
+        "source_database": "hellotext_editorial_workload_20260928 (isolated clone)",
+        "native_crop_points": [
+          1335,
+          250,
+          350,
+          665
+        ],
+        "source_pixels": [
+          700,
+          1330
+        ],
+        "maximum_display_css_px": 350,
+        "native_scale": 2,
+        "icc_profile": "Display P3",
+        "sha256": "0e2c6a1622ea73ec0fa008f5100b7ce5f04e2695cdb1aa2414c855db6ca760cb",
+        "pointer": "absent",
+        "layout_note": "Focused desktop-app crop for responsive Help rendering; not an app mobile screenshot"
+      },
+      "ui_evidence": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+      "original_provenance": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+      "reused": true,
+      "pixel_edits": "none in this batch",
+      "sha256": "0e2c6a1622ea73ec0fa008f5100b7ce5f04e2695cdb1aa2414c855db6ca760cb",
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "publication_status": "Approved existing native asset reused unchanged; this consumer awaits public verification.",
+      "historical_consumer_record": {
+        "name": "profile-fields-mobile-en",
+        "concept": "profile",
+        "locale": "en",
+        "mobile": true,
+        "source": "docs/editorial-work/captures/customer-profiles/profile-fields-en-mobile-original.png",
+        "published_asset": "images/audience/customer-profiles/profile-fields-en-mobile.png",
+        "native": {
+          "sha256": "0e2c6a1622ea73ec0fa008f5100b7ce5f04e2695cdb1aa2414c855db6ca760cb",
+          "pixelSize": [
+            700,
+            1330
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "macOS ScreenCaptureKit exact-title and exact-window helper, filtered preflight, 15 s timeout, native 2x Display P3 PNG",
+          "url": "http://127.0.0.1:3191/hellotext/audience/29D7LZXk"
+        },
+        "logical_size": [
+          350,
+          665
+        ],
+        "original_record": {
+          "kind": "profile-fields-mobile",
+          "locale": "en",
+          "original": "docs/editorial-work/captures/customer-profiles/profile-fields-en-mobile-original.png",
+          "published_asset": "images/audience/customer-profiles/profile-fields-en-mobile.png",
+          "source_route": "http://127.0.0.1:3191/hellotext/audience/29D7LZXk",
+          "source_database": "hellotext_editorial_workload_20260928 (isolated clone)",
+          "native_crop_points": [
+            1335,
+            250,
+            350,
+            665
+          ],
+          "source_pixels": [
+            700,
+            1330
+          ],
+          "maximum_display_css_px": 350,
+          "native_scale": 2,
+          "icc_profile": "Display P3",
+          "sha256": "0e2c6a1622ea73ec0fa008f5100b7ce5f04e2695cdb1aa2414c855db6ca760cb",
+          "pointer": "absent",
+          "layout_note": "Focused desktop-app crop for responsive Help rendering; not an app mobile screenshot"
+        },
+        "ui_evidence": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+        "original_provenance": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+        "reused": true,
+        "pixel_edits": "none in this batch",
+        "sha256": "0e2c6a1622ea73ec0fa008f5100b7ce5f04e2695cdb1aa2414c855db6ca760cb",
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Current consumer publicly verified using the existing approved native asset; no recapture, duplicate upload or pixel edit."
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/verify-data-and-signals/capture-provenance.json",
+      "source_density": 2,
+      "new_capture": false
+    },
+    {
+      "file": "handoff-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+      "title": "Nueva misión Recolector de Propiedades | Hellotext",
+      "viewportCss": [
+        1200,
+        1000
+      ],
+      "clipCss": [
+        50,
+        100,
+        575,
+        330
+      ],
+      "pixelSize": [
+        1150,
+        660
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "ef1c8abc4712dacc2effa83f6c968dd4a9453a5b1be059609a877a91e1693356",
+      "state": "Unsaved escalation control with fictional team Atención demo selected",
+      "publicationDecision": "approved source; insert with bilingual counterpart after full guide review",
+      "concept": "handoff",
+      "mobile": false,
+      "published_asset": "images/captures/property-collector/handoff-es.png",
+      "pixels": [
+        1150,
+        660
+      ],
+      "logical_size": [
+        575.0,
+        330.0
+      ],
+      "source": "docs/editorial-work/captures/property-collector/handoff-es.png",
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "reused": true,
+      "new_capture": false,
+      "historical_consumer_record": {
+        "file": "handoff-es.png",
+        "locale": "es",
+        "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+        "title": "Nueva misión Recolector de Propiedades | Hellotext",
+        "viewportCss": [
+          1200,
+          1000
+        ],
+        "clipCss": [
+          50,
+          100,
+          575,
+          330
+        ],
+        "pixelSize": [
+          1150,
+          660
+        ],
+        "density": 2,
+        "iccProfile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "ef1c8abc4712dacc2effa83f6c968dd4a9453a5b1be059609a877a91e1693356",
+        "state": "Unsaved escalation control with fictional team Atención demo selected",
+        "publicationDecision": "approved source; insert with bilingual counterpart after full guide review",
+        "concept": "handoff",
+        "mobile": false,
+        "published_asset": "images/captures/property-collector/handoff-es.png",
+        "pixels": [
+          1150,
+          660
+        ],
+        "logical_size": [
+          575.0,
+          330.0
+        ],
+        "source": "docs/editorial-work/captures/property-collector/handoff-es.png",
+        "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "reused": true,
+        "new_capture": false
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+      "name": "handoff-es",
+      "source_density": 2,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "publication_status": "Approved existing native asset reused unchanged; this consumer awaits public verification."
+    },
+    {
+      "file": "handoff-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+      "title": "New Property Collector playbook | Hellotext",
+      "viewportCss": [
+        1200,
+        1000
+      ],
+      "clipCss": [
+        50,
+        100,
+        575,
+        330
+      ],
+      "pixelSize": [
+        1150,
+        660
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "0c5506ceed87f6ed0c9e57a4969d80cee2dc41f04ab25b04969917ab3f3bdfe9",
+      "state": "Unsaved escalation control with fictional team Atención demo selected",
+      "publicationDecision": "approved source; insert with bilingual counterpart after full guide review",
+      "concept": "handoff",
+      "mobile": false,
+      "published_asset": "images/captures/property-collector/handoff-en.png",
+      "pixels": [
+        1150,
+        660
+      ],
+      "logical_size": [
+        575.0,
+        330.0
+      ],
+      "source": "docs/editorial-work/captures/property-collector/handoff-en.png",
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "reused": true,
+      "new_capture": false,
+      "historical_consumer_record": {
+        "file": "handoff-en.png",
+        "locale": "en",
+        "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+        "title": "New Property Collector playbook | Hellotext",
+        "viewportCss": [
+          1200,
+          1000
+        ],
+        "clipCss": [
+          50,
+          100,
+          575,
+          330
+        ],
+        "pixelSize": [
+          1150,
+          660
+        ],
+        "density": 2,
+        "iccProfile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "0c5506ceed87f6ed0c9e57a4969d80cee2dc41f04ab25b04969917ab3f3bdfe9",
+        "state": "Unsaved escalation control with fictional team Atención demo selected",
+        "publicationDecision": "approved source; insert with bilingual counterpart after full guide review",
+        "concept": "handoff",
+        "mobile": false,
+        "published_asset": "images/captures/property-collector/handoff-en.png",
+        "pixels": [
+          1150,
+          660
+        ],
+        "logical_size": [
+          575.0,
+          330.0
+        ],
+        "source": "docs/editorial-work/captures/property-collector/handoff-en.png",
+        "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "reused": true,
+        "new_capture": false
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+      "name": "handoff-en",
+      "source_density": 2,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "publication_status": "Approved existing native asset reused unchanged; this consumer awaits public verification."
+    },
+    {
+      "file": "handoff-es-mobile.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+      "title": "Nueva misión Recolector de Propiedades | Hellotext",
+      "viewportCss": [
+        390,
+        1000
+      ],
+      "clipCss": [
+        0,
+        120,
+        390,
+        340
+      ],
+      "pixelSize": [
+        780,
+        680
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "4f252e8b5d86ad772df8b7f979ae8d61de1970ff36f7110f5f1e0b1b5867b2cc",
+      "state": "Focused responsive mobile control using unsaved fictional editor state",
+      "publicationDecision": "approved source; pair with desktop asset",
+      "concept": "handoff",
+      "mobile": true,
+      "published_asset": "images/captures/property-collector/handoff-es-mobile.png",
+      "pixels": [
+        780,
+        680
+      ],
+      "logical_size": [
+        390.0,
+        340.0
+      ],
+      "source": "docs/editorial-work/captures/property-collector/handoff-es-mobile.png",
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "reused": true,
+      "new_capture": false,
+      "historical_consumer_record": {
+        "file": "handoff-es-mobile.png",
+        "locale": "es",
+        "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+        "title": "Nueva misión Recolector de Propiedades | Hellotext",
+        "viewportCss": [
+          390,
+          1000
+        ],
+        "clipCss": [
+          0,
+          120,
+          390,
+          340
+        ],
+        "pixelSize": [
+          780,
+          680
+        ],
+        "density": 2,
+        "iccProfile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "4f252e8b5d86ad772df8b7f979ae8d61de1970ff36f7110f5f1e0b1b5867b2cc",
+        "state": "Focused responsive mobile control using unsaved fictional editor state",
+        "publicationDecision": "approved source; pair with desktop asset",
+        "concept": "handoff",
+        "mobile": true,
+        "published_asset": "images/captures/property-collector/handoff-es-mobile.png",
+        "pixels": [
+          780,
+          680
+        ],
+        "logical_size": [
+          390.0,
+          340.0
+        ],
+        "source": "docs/editorial-work/captures/property-collector/handoff-es-mobile.png",
+        "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "reused": true,
+        "new_capture": false
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+      "name": "handoff-es-mobile",
+      "source_density": 2,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "publication_status": "Approved existing native asset reused unchanged; this consumer awaits public verification."
+    },
+    {
+      "file": "handoff-en-mobile.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+      "title": "New Property Collector playbook | Hellotext",
+      "viewportCss": [
+        390,
+        1000
+      ],
+      "clipCss": [
+        0,
+        120,
+        390,
+        340
+      ],
+      "pixelSize": [
+        780,
+        680
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "97bad463814d7ec88c224ea32ccf6500c65c8eed86a39ef83cd8fba79d2f3793",
+      "state": "Focused responsive mobile control using unsaved fictional editor state",
+      "publicationDecision": "approved source; pair with desktop asset",
+      "concept": "handoff",
+      "mobile": true,
+      "published_asset": "images/captures/property-collector/handoff-en-mobile.png",
+      "pixels": [
+        780,
+        680
+      ],
+      "logical_size": [
+        390.0,
+        340.0
+      ],
+      "source": "docs/editorial-work/captures/property-collector/handoff-en-mobile.png",
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "reused": true,
+      "new_capture": false,
+      "historical_consumer_record": {
+        "file": "handoff-en-mobile.png",
+        "locale": "en",
+        "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+        "title": "New Property Collector playbook | Hellotext",
+        "viewportCss": [
+          390,
+          1000
+        ],
+        "clipCss": [
+          0,
+          120,
+          390,
+          340
+        ],
+        "pixelSize": [
+          780,
+          680
+        ],
+        "density": 2,
+        "iccProfile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "97bad463814d7ec88c224ea32ccf6500c65c8eed86a39ef83cd8fba79d2f3793",
+        "state": "Focused responsive mobile control using unsaved fictional editor state",
+        "publicationDecision": "approved source; pair with desktop asset",
+        "concept": "handoff",
+        "mobile": true,
+        "published_asset": "images/captures/property-collector/handoff-en-mobile.png",
+        "pixels": [
+          780,
+          680
+        ],
+        "logical_size": [
+          390.0,
+          340.0
+        ],
+        "source": "docs/editorial-work/captures/property-collector/handoff-en-mobile.png",
+        "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "reused": true,
+        "new_capture": false
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+      "name": "handoff-en-mobile",
+      "source_density": 2,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "publication_status": "Approved existing native asset reused unchanged; this consumer awaits public verification."
+    }
+  ],
+  "operations": "Read-only protected/current source and approved native source reuse. No app, DB, account, locale, fixture, API/example, event, message, support request, submission, provider, permission, subscription or worker operation; no new fixture audit. Separate isolated Help preview for render/scroll/review only, no Rails visit.",
+  "local_verification": "docs/editorial-work/captures/how-hellotext-decides-whether-a-playbook-can-send/local-verification.json",
+  "pending": [
+    "Protected PR/checks, independent exact-head review, normal production and public page/hash verification."
+  ]
+}
