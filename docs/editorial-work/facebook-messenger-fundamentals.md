@@ -26,8 +26,37 @@ Public primary pricing and canonical fair-use guide reconfirm non-SMS Messenger 
 
 ## Operations and verification
 
-Only source/GitHub/primary-documentation reads and existing PNG inspection. No source app/browser9460, Inbox GET cursor, DB/fixture/account/locale/permission/subscription audit/write or source capture; no catalog/identity/connection/team/role/hours/event/order/queue/template/message/stock/review/UGC/AI/provider/Playground/test/send/job/worker generated or executed. Historical mutations/limits retained in original records. Separate exclusive Help9452/one4191tab/P3/DPR2/zoom1 reviews local Help only. Local build/security headers passed. Complete ES first then EN articles reviewed at1440/390/580px through every overlapping500ms scroll to footer. Five figures,12 headings,17 original Liquid links per language. All20 assets/both builds byte-identical, pixels/ICC/hashes and16 original byte-identical sources/four approved parent crops verified. Native controls and responsive variants visually inspected; no enlargement, page overflow or stage defect. Process/page guards before/after retained. Native Help-only TMP screenshot hashes/pixels/ICC in help-review-evidence.json; 211 PNGs, no new source app capture. git diff --check passed. Local verification is complete; protected publication/public verification pending.
+Only source/GitHub/primary-documentation reads and existing PNG inspection. No source app/browser9460, Inbox GET cursor, DB/fixture/account/locale/permission/subscription audit/write or source capture; no catalog/identity/connection/team/role/hours/event/order/queue/template/message/stock/review/UGC/AI/provider/Playground/test/send/job/worker generated or executed. Historical mutations/limits retained in original records. Separate exclusive Help9452/one4191tab/P3/DPR2/zoom1 reviews local Help only. Local build/security headers passed. Complete ES first then EN articles reviewed at1440/390/580px through every overlapping500ms scroll to footer. Five figures,12 headings,17 original Liquid links per language. All20 assets/both builds byte-identical, pixels/ICC/hashes and16 original byte-identical sources/four approved parent crops verified. Native controls and responsive variants visually inspected; no enlargement, page overflow or stage defect. Process/page guards before/after retained. Native Help-only TMP screenshot hashes/pixels/ICC in help-review-evidence.json; 211 PNGs, no new source app capture. git diff --check passed. Local verification is complete; protected publication and public verification are recorded in public-verification.json.
 
 Current Rails master later advanced to7db0d872d5b1c0f9f4210f086e5bf935d6c35478, one commit changing only app/prompts/product.recommender.txt. Exact comparison metadata confirms none of66 audited paths changed; original19bde audit/hashes retained. The unrelated long prompt patch was truncated in output, not claimed as a complete reread or provider audit. See source-head-follow-up.json. No app update/execution.
 
 Full immutable diff snapshots retain their exact bytes in deterministic gzip archives because blank context lines contain the diff marker followed by a space. No source content normalized; uncompressed and archive hashes recorded separately. Raw TMP originals remain intact.
+
+## Public verification
+
+Protected content PR #377 merged as d9433d842fe47dab2fbf7d5e750f9b54a7e17514 with all checks passed and exact-head independent review and fully paginated comments/reviews/threads read before a separate merge call; zero unresolved findings. All commits, including verifier2c71d7b6db11ed57836af245e376d51119d92fba and its direct-child ledgere7812025874e60d59b4e5561f4dcef30882d1b5c, are retained. Exact main push Build 37011448953 passed. Normal Netlify production 6abfadb56659fa00098bd510 is ready/published with actual commit_ref equal to the merge SHA. No manual deploy/retry. Both complete articles match the verified build, and all20 approved reused PNGs return HTTP200 with approved hashes. Zero new app captures/PNG uploads/duplicates. Public proof is in public-verification.json; this record is a separate protected metadata PR. Current consumer image states and local publication state refer to that public proof; all nested historical source records remain intact.
+
+Pages: [es](https://help.hellotext.com/es/fundamentos-facebook-messenger), [en](https://help.hellotext.com/facebook-messenger-fundamentals).
+
+Reused images, original paths and bytes (no duplicate uploads):
+
+- [link-es.png](https://help.hellotext.com/images/numbers/message-editor-basics/link-es.png)
+- [link-es-mobile.png](https://help.hellotext.com/images/numbers/message-editor-basics/link-es-mobile.png)
+- [link-en.png](https://help.hellotext.com/images/numbers/message-editor-basics/link-en.png)
+- [link-en-mobile.png](https://help.hellotext.com/images/numbers/message-editor-basics/link-en-mobile.png)
+- [channel-es.png](https://help.hellotext.com/images/team/understanding-response-times/channel-es.png)
+- [channel-es-mobile.png](https://help.hellotext.com/images/team/understanding-response-times/channel-es-mobile.png)
+- [technology-es.png](https://help.hellotext.com/images/team/understanding-response-times/technology-es.png)
+- [technology-es-mobile.png](https://help.hellotext.com/images/team/understanding-response-times/technology-es-mobile.png)
+- [channel-en.png](https://help.hellotext.com/images/team/understanding-response-times/channel-en.png)
+- [channel-en-mobile.png](https://help.hellotext.com/images/team/understanding-response-times/channel-en-mobile.png)
+- [technology-en.png](https://help.hellotext.com/images/team/understanding-response-times/technology-en.png)
+- [technology-en-mobile.png](https://help.hellotext.com/images/team/understanding-response-times/technology-en-mobile.png)
+- [assignment-es.png](https://help.hellotext.com/images/team/ai-handoff-to-inbox/assignment-es.png)
+- [assignment-es-mobile.png](https://help.hellotext.com/images/team/ai-handoff-to-inbox/assignment-es-mobile.png)
+- [assignment-en.png](https://help.hellotext.com/images/team/ai-handoff-to-inbox/assignment-en.png)
+- [assignment-en-mobile.png](https://help.hellotext.com/images/team/ai-handoff-to-inbox/assignment-en-mobile.png)
+- [profile-fields-es.png](https://help.hellotext.com/images/audience/customer-profiles/profile-fields-es.png)
+- [profile-fields-en.png](https://help.hellotext.com/images/audience/customer-profiles/profile-fields-en.png)
+- [profile-fields-es-mobile.png](https://help.hellotext.com/images/audience/customer-profiles/profile-fields-es-mobile.png)
+- [profile-fields-en-mobile.png](https://help.hellotext.com/images/audience/customer-profiles/profile-fields-en-mobile.png)
