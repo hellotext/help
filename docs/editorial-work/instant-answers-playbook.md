@@ -64,4 +64,48 @@ No source app/browser9460 visit, DB/account/locale/fixture/permission/subscripti
 
 Complete ES then EN 1440/390/580 px articles reviewed through every scroll to the footer with stable 500 ms painting. Six figures/eleven original headings/twenty-five original Liquid links per locale; build (Ruby3.3.6 yarn build/security headers), source/asset/both-build bytes/pixels/ICC and git diff --check passed. Native source controls in both languages and responsive variants visually inspected; no enlargement or page overflow. Only the separate exclusive Help preview browser9452, one local4191 tab, P3/DPR2/zoom1, with process/page guards before and after; no source app visit. Evidence in local-verification.json and help-page-review.json.
 
-Local build/browser/hash/diff verification passed; protected publication remains pending.
+Local build/browser/hash/diff and protected publication verification passed as recorded below.
+
+Help [#365](https://github.com/hellotext/help/pull/365) merged by `61ab412ecc1dc36cd09f46bb1aebe476e884d861`.
+
+## Public verification — 2026-10-02
+
+Normal Netlify production `6abf36eb6d2c1a0008920df2` is ready/published, with actual `commit_ref` `61ab412ecc1dc36cd09f46bb1aebe476e884d861` and published_at `2026-10-02T04:46:16.865Z`. Exact main Build `36965947012` passed. No manual deploy/retry.
+
+Both complete articles match the verified build, including six useful figures, eleven original headings and twenty-five original Liquid links per locale in order. All twenty-two reused PNGs return HTTP200 with approved hashes; zero source-app captures, new PNGs or duplicate uploads. Per-file source/asset/root and ES builds retain bytes, pixels and ICC. Complete ES then EN at1440/390/580 reviewed through every scroll to footer with stable500ms painting. Explicit native2× intrinsic density, frame caps native logical width+18px, static full-column lavender stage; no page overflow or enlargement. Titles/slugs/stub/languages/publication and exact original snapshots retained; zero executable examples.
+
+Independent fictitious states: shared Collector incoming channels/all/manual, three tones and Atención demo destination team without saving; empty shared Custom Upload without a file; full Webchat editor greeting/customer bubble/online/composer/launcher demonstration; existing five/five-minute Inbox policy unchanged. They do not prove Instant configuration, knowledge readiness, classification, assignment, human availability, AI response or delivery. Original source versions/routes/actions/guards/locale/fixture/history preserved without retroactive guards or new counts.
+
+159 protected source comparisons at5403a7dcb versus master ed4b9a87cfba95431f5ffe0987a6413d4d538835:149 identical, ten real differences. Prior149-file immutable Custom audit reused at unchanged master with local protected hashes reconfirmed; no claim every reused file was freshly read in full. Instant type/topics/prompt/tools/seed blocks and targeted forms/upload/routing/SLA/report contracts inspected. New Instant prompt property-collection difference read fully; required items pursued naturally, optional items may be declined, bounded resolution is not necessarily collection. No source app update or app/DB/account/locale/fixture/API/example/Playground/provider/classifier/conversation/message/event/submission/permission/subscription/delivery-worker operation; no new fixture audit. Only exclusive Help browser9452/P3/DPR2/zoom1/one4191tab with guards.
+
+Verifier `306e88ff9a90094ce0e65e615ffe6bb3573da9ee` is direct parent of ledger `143277873fdf0ee80bfd4500d5b6dff0046c894e`. Exact-head `143277873fdf0ee80bfd4500d5b6dff0046c894e` checks/review passed; actual comments/reviews/threads read before separate merge call, zero unresolved findings, every individual commit retained.
+
+- [ES article](https://help.hellotext.com/es/respuestas-instantaneas) — HTTP200, complete article matches verified build.
+- [EN article](https://help.hellotext.com/instant-answers-playbook) — HTTP200, complete article matches verified build.
+
+All reused images, including responsive variants (no duplicate uploads):
+
+- [journeys/how-to-customize-a-playbook-safely/upload-es.png](https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/upload-es.png) — HTTP200, approved SHA256 `0234f096438a251156c5b3d34a412eb1b918cf7055ecd8127992b2d19ce182db`.
+- [journeys/how-to-customize-a-playbook-safely/upload-es-mobile.png](https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/upload-es-mobile.png) — HTTP200, approved SHA256 `a621c5d4b43684ef799ae062ae426a13bf4dffac82787c36ae2e938ae22ba7e0`.
+- [journeys/how-to-customize-a-playbook-safely/upload-en.png](https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/upload-en.png) — HTTP200, approved SHA256 `39dab76063709ddf8dcc36668aea7cade842a8a920822d00e2e7025359c01950`.
+- [journeys/how-to-customize-a-playbook-safely/upload-en-mobile.png](https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/upload-en-mobile.png) — HTTP200, approved SHA256 `1ed6d37acc14e4902de468040fb58befa371aa4e4c3221b6f98124a71f97de92`.
+- [captures/property-collector/handoff-es.png](https://help.hellotext.com/images/captures/property-collector/handoff-es.png) — HTTP200, approved SHA256 `ef1c8abc4712dacc2effa83f6c968dd4a9453a5b1be059609a877a91e1693356`.
+- [captures/property-collector/handoff-en.png](https://help.hellotext.com/images/captures/property-collector/handoff-en.png) — HTTP200, approved SHA256 `0c5506ceed87f6ed0c9e57a4969d80cee2dc41f04ab25b04969917ab3f3bdfe9`.
+- [captures/property-collector/handoff-es-mobile.png](https://help.hellotext.com/images/captures/property-collector/handoff-es-mobile.png) — HTTP200, approved SHA256 `4f252e8b5d86ad772df8b7f979ae8d61de1970ff36f7110f5f1e0b1b5867b2cc`.
+- [captures/property-collector/handoff-en-mobile.png](https://help.hellotext.com/images/captures/property-collector/handoff-en-mobile.png) — HTTP200, approved SHA256 `97bad463814d7ec88c224ea32ccf6500c65c8eed86a39ef83cd8fba79d2f3793`.
+- [captures/property-collector/channels-es.png](https://help.hellotext.com/images/captures/property-collector/channels-es.png) — HTTP200, approved SHA256 `09a69bcc4d04170870d9e7123c84391069810694179dc20ac44248df0abc1571`.
+- [captures/property-collector/channels-en.png](https://help.hellotext.com/images/captures/property-collector/channels-en.png) — HTTP200, approved SHA256 `fed5b1e6710e0f6ad456ee06a4cae92680c2d85f1a78fef79dbe95d08a18222d`.
+- [captures/property-collector/tone-es.png](https://help.hellotext.com/images/captures/property-collector/tone-es.png) — HTTP200, approved SHA256 `f97c2e66346680730e6c64708e701b95a3abf460ac099a1cb214d8baf22fdd8d`.
+- [captures/property-collector/tone-en.png](https://help.hellotext.com/images/captures/property-collector/tone-en.png) — HTTP200, approved SHA256 `b8c33b227fbb6fc79ab89a2eccc079f9a9b0c8a06cf21773005ad1ffcec1d053`.
+- [captures/property-collector/channels-es-mobile.png](https://help.hellotext.com/images/captures/property-collector/channels-es-mobile.png) — HTTP200, approved SHA256 `213da9d4c0fa8688e03ce9f368928e7df240b1d538670285a437c5935c0a24a3`.
+- [captures/property-collector/channels-en-mobile.png](https://help.hellotext.com/images/captures/property-collector/channels-en-mobile.png) — HTTP200, approved SHA256 `260918096cf05d4ac82990773682e76fa51ea9b3478ab6e6305d67cc8fcbaf0e`.
+- [captures/property-collector/tone-es-mobile.png](https://help.hellotext.com/images/captures/property-collector/tone-es-mobile.png) — HTTP200, approved SHA256 `bb6765e4ad6cfca6b321bf5ed74fd9c37e89be50045c6649cfbd640120decf62`.
+- [captures/property-collector/tone-en-mobile.png](https://help.hellotext.com/images/captures/property-collector/tone-en-mobile.png) — HTTP200, approved SHA256 `5b59a2acc71f53d84aa7bb1d7280af18a300e2fe34a7a0bf3058f52328f7a21f`.
+- [team/understanding-response-times/default-es.png](https://help.hellotext.com/images/team/understanding-response-times/default-es.png) — HTTP200, approved SHA256 `339b5749ee334a9d43c5ba547e6d41248962a12c3854fd211e2bd982f04081d0`.
+- [team/understanding-response-times/default-es-mobile.png](https://help.hellotext.com/images/team/understanding-response-times/default-es-mobile.png) — HTTP200, approved SHA256 `6e75d88d34ec270d7c1c65e424da76fbd1c27bd54975feda0fda196fa167455e`.
+- [team/understanding-response-times/default-en.png](https://help.hellotext.com/images/team/understanding-response-times/default-en.png) — HTTP200, approved SHA256 `c377e27ca01cfa3614d3ca758985ec5a8b253d4bd3082d9b48cef4780a2cf6c3`.
+- [team/understanding-response-times/default-en-mobile.png](https://help.hellotext.com/images/team/understanding-response-times/default-en-mobile.png) — HTTP200, approved SHA256 `a41cb142e4f4b31a3de34b0ce7af740611fa3f9063e675b3ec4c0ceb194f1c8e`.
+- [captures/webchat-widget/preview-follow-up/es/preview.png](https://help.hellotext.com/images/captures/webchat-widget/preview-follow-up/es/preview.png) — HTTP200, approved SHA256 `9ad90405a4d502c312d2abd2cdd2034911ab3d8b19aae970ffafbf106cb9fb12`.
+- [captures/webchat-widget/preview-follow-up/en/preview.png](https://help.hellotext.com/images/captures/webchat-widget/preview-follow-up/en/preview.png) — HTTP200, approved SHA256 `9bc7e2dd9e3a3584edf7a4582b4b434a4a799a2c54382aa8a3771c3b45c73c51`.
+
+Ledger101 local_verified /52 pending /one out_of_scope. The public-record PR receives its own protected exact-head review/checks; final Build/deployment/repeated pages/PNG proof is recorded in a GitHub comment without recursive commits.
