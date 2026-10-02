@@ -1,0 +1,633 @@
+{
+  "verified_at_utc": "2026-10-02T02:24:36.075987+00:00",
+  "build": "yarn build with Ruby3.3.6; security headers passed",
+  "articles": [
+    {
+      "locale": "es",
+      "headings": 15,
+      "original_liquid_links": 28,
+      "figures": 10,
+      "sha256": "050810235cfa453ad08ccf8f4e66fde03e089013a7ebead2c8b04fc8d813c266"
+    },
+    {
+      "locale": "en",
+      "headings": 15,
+      "original_liquid_links": 28,
+      "figures": 10,
+      "sha256": "965a78cc4088cd9bf896fbc61ae9405cc8146e530931723bbd83402b8c61249b"
+    }
+  ],
+  "assets": [
+    {
+      "asset": "images/journeys/how-to-customize-a-playbook-safely/prompt-es.png",
+      "sha256": "8eaf2061b629f46e8011029537ab69050d946517fd983b2574e38894edbc4d19",
+      "pixels": [
+        1256,
+        1108
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "9928df1558a2b22b5d7e45c14e5a83f0296fe3e9b87d6066c4ff7a05b561fdb2",
+      "source_density": 2,
+      "new": true,
+      "source_asset_both_builds_identical": true
+    },
+    {
+      "asset": "images/journeys/how-to-customize-a-playbook-safely/prompt-es-mobile.png",
+      "sha256": "c99d3ae1c27595677f65b8db6de96a2e39e7d846ebec1116cfe31bd061b8a9c6",
+      "pixels": [
+        844,
+        956
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "7245019ee45253b06ccd14fa3368a4950a76aed7e538b3ed28b84c9412ad51d6",
+      "source_density": 2,
+      "new": true,
+      "source_asset_both_builds_identical": true
+    },
+    {
+      "asset": "images/journeys/how-to-customize-a-playbook-safely/upload-es.png",
+      "sha256": "0234f096438a251156c5b3d34a412eb1b918cf7055ecd8127992b2d19ce182db",
+      "pixels": [
+        1256,
+        732
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "f4231caa64846ffdb7535777a1cba49b1ab9f5c4b5ba55872d87ddea42031840",
+      "source_density": 2,
+      "new": true,
+      "source_asset_both_builds_identical": true
+    },
+    {
+      "asset": "images/journeys/how-to-customize-a-playbook-safely/upload-es-mobile.png",
+      "sha256": "a621c5d4b43684ef799ae062ae426a13bf4dffac82787c36ae2e938ae22ba7e0",
+      "pixels": [
+        844,
+        804
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "7fd2be71cf60a61dc675811487ee0a7ff17826319d33f8fa6dc40a442bc7b347",
+      "source_density": 2,
+      "new": true,
+      "source_asset_both_builds_identical": true
+    },
+    {
+      "asset": "images/journeys/how-to-customize-a-playbook-safely/web_search-es.png",
+      "sha256": "88c9fed5e13991d0f77cfd6acf51bc618a671f0dae2c90fb1754ecc01c54937f",
+      "pixels": [
+        1256,
+        384
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "d2836c227a3b85f80304f960df10fabc6c600e5d65ab011a63188c69993d9ab2",
+      "source_density": 2,
+      "new": true,
+      "source_asset_both_builds_identical": true
+    },
+    {
+      "asset": "images/journeys/how-to-customize-a-playbook-safely/web_search-es-mobile.png",
+      "sha256": "364ff829a380fb4a643dbcd9f7027781b0aac3aa5ce56bc073d4cf44f88395d2",
+      "pixels": [
+        844,
+        408
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "fab957b77b2bad2549d57c937c6e0751faf0f93d42f4d298540d83774fd9fb18",
+      "source_density": 2,
+      "new": true,
+      "source_asset_both_builds_identical": true
+    },
+    {
+      "asset": "images/journeys/how-to-customize-a-playbook-safely/prompt-en.png",
+      "sha256": "64ea8b35decf0e03633f421de5efb4b6045be7c935aed6f4072fc8138b11d99e",
+      "pixels": [
+        1256,
+        1108
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "88ee984e77a9f2446e3b1e94fbd9a37916bcf8a0f56284d47993cd393b95266d",
+      "source_density": 2,
+      "new": true,
+      "source_asset_both_builds_identical": true
+    },
+    {
+      "asset": "images/journeys/how-to-customize-a-playbook-safely/prompt-en-mobile.png",
+      "sha256": "168c62527edf6a1d4663857308cef0bec7540cfa54876c8178a3ecbd92503d9c",
+      "pixels": [
+        844,
+        956
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "29e4efafa3725339471d260323532dad1697c2a70cd27889f8c1442c871c9df7",
+      "source_density": 2,
+      "new": true,
+      "source_asset_both_builds_identical": true
+    },
+    {
+      "asset": "images/journeys/how-to-customize-a-playbook-safely/upload-en.png",
+      "sha256": "39dab76063709ddf8dcc36668aea7cade842a8a920822d00e2e7025359c01950",
+      "pixels": [
+        1256,
+        732
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "69b79eb4ada40c9479e6a558480ff9ad2a52299687966a1f3cb04be14e42e3b9",
+      "source_density": 2,
+      "new": true,
+      "source_asset_both_builds_identical": true
+    },
+    {
+      "asset": "images/journeys/how-to-customize-a-playbook-safely/upload-en-mobile.png",
+      "sha256": "1ed6d37acc14e4902de468040fb58befa371aa4e4c3221b6f98124a71f97de92",
+      "pixels": [
+        844,
+        804
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "989ead0fa341aad71aa26648052652b1ba7b2d6c8cacaa0c64910f8e68730003",
+      "source_density": 2,
+      "new": true,
+      "source_asset_both_builds_identical": true
+    },
+    {
+      "asset": "images/journeys/how-to-customize-a-playbook-safely/web_search-en.png",
+      "sha256": "4336ad08637c31a36fcf67e92368c567e618fe96d135feabff8d2737764e04c7",
+      "pixels": [
+        1256,
+        432
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "ce05895725b1af26378ce2f7563bc237924151f22936f047325a0820dc459d86",
+      "source_density": 2,
+      "new": true,
+      "source_asset_both_builds_identical": true
+    },
+    {
+      "asset": "images/journeys/how-to-customize-a-playbook-safely/web_search-en-mobile.png",
+      "sha256": "61a0d21c1723fc520232f1245b1a95fe4eb24e95866609f7b95de15d1e1fd4ca",
+      "pixels": [
+        844,
+        408
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "6ff70298f3f99b564bbf4075c8ba575215b009f0571a025bfbdd445e571f0384",
+      "source_density": 2,
+      "new": true,
+      "source_asset_both_builds_identical": true
+    },
+    {
+      "asset": "images/team/ai-handoff-to-inbox/assignment-es.png",
+      "sha256": "db457b25763dd6a25ab63f08d9458bad3dda3f8b94742fcea626cb0b7773d91b",
+      "pixels": [
+        1006,
+        1300
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "9ed57965c926325adf3c8cafbf6bb44bfa1fd1e9b3d1adbb2d420778b7416242",
+      "source_density": 2,
+      "new": false,
+      "source_asset_both_builds_identical": true
+    },
+    {
+      "asset": "images/team/ai-handoff-to-inbox/assignment-es-mobile.png",
+      "sha256": "76be7e894a13a02c072086a6084ab1e38ceb5520a0f4518026ec9ab805797dcf",
+      "pixels": [
+        778,
+        1300
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "d4f3673abff80809e39065c5d0de599d0f8468a6181f6f28fb2ddc0f77cf0b90",
+      "source_density": 2,
+      "new": false,
+      "source_asset_both_builds_identical": true
+    },
+    {
+      "asset": "images/team/ai-handoff-to-inbox/assignment-en.png",
+      "sha256": "8dbe38274d6b7b6754262c448dd149be8174cd1922b7a81e6420299a62d5673a",
+      "pixels": [
+        1006,
+        1300
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "745c9be6f937b6b86e5b9286837dfca6c2219acb6bc42619e5cf4fe775b69ab3",
+      "source_density": 2,
+      "new": false,
+      "source_asset_both_builds_identical": true
+    },
+    {
+      "asset": "images/team/ai-handoff-to-inbox/assignment-en-mobile.png",
+      "sha256": "859f3b87ad11fea2952c91df5a0d57e3d833b3b7acfa033094283d223a7573ef",
+      "pixels": [
+        778,
+        1300
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "2375ba631946ab1be801b67af93a1da2dbb08a5d24c170cd81ca41d77b1fb9f5",
+      "source_density": 2,
+      "new": false,
+      "source_asset_both_builds_identical": true
+    },
+    {
+      "asset": "images/team/ai-handoff-to-inbox/intents-es.png",
+      "sha256": "3ce141b0bcdd1fc102325fca3389e28f19158d1344b0c94ec725b6f99bc7ee50",
+      "pixels": [
+        1256,
+        520
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "8d9a97f0a6b522f6058e8435135327d65d61904426285fe56518d524fd08ec9b",
+      "source_density": 2,
+      "new": false,
+      "source_asset_both_builds_identical": true
+    },
+    {
+      "asset": "images/team/ai-handoff-to-inbox/intents-es-mobile.png",
+      "sha256": "06a58e9ba16bdc719e9c1787edb0b699acc69e588cb43ae97295622b904c1e7f",
+      "pixels": [
+        764,
+        592
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "e7c86b8b7fd936e4cd20efc644ad0b788b76415228648f1f2ff88a797d0c547d",
+      "source_density": 2,
+      "new": false,
+      "source_asset_both_builds_identical": true
+    },
+    {
+      "asset": "images/team/ai-handoff-to-inbox/intents-en.png",
+      "sha256": "58afbd5fd69c3e56c69b0cbfa41dd2e3c5946fa4884e1098436208e7237314d1",
+      "pixels": [
+        1256,
+        520
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "d649bae3bbb39a77f5a469edf5df2317854b4c0213bed5205e5c8938e0d1b628",
+      "source_density": 2,
+      "new": false,
+      "source_asset_both_builds_identical": true
+    },
+    {
+      "asset": "images/team/ai-handoff-to-inbox/intents-en-mobile.png",
+      "sha256": "574b86a078f6ac9efb168c67084d2b50a5187bfd67ab7cf72fc113197f739971",
+      "pixels": [
+        764,
+        544
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "2e9b8fa4bc2732cac855164343451e6201d73e128070e15aed0c05bd326df623",
+      "source_density": 2,
+      "new": false,
+      "source_asset_both_builds_identical": true
+    },
+    {
+      "asset": "images/captures/property-collector/handoff-es.png",
+      "sha256": "ef1c8abc4712dacc2effa83f6c968dd4a9453a5b1be059609a877a91e1693356",
+      "pixels": [
+        1150,
+        660
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "8985fdd04b67b3b4bc3b967e577f6d57ad4d60a1861b807ba51fd8dcf8b12096",
+      "source_density": 2,
+      "new": false,
+      "source_asset_both_builds_identical": true
+    },
+    {
+      "asset": "images/captures/property-collector/handoff-en.png",
+      "sha256": "0c5506ceed87f6ed0c9e57a4969d80cee2dc41f04ab25b04969917ab3f3bdfe9",
+      "pixels": [
+        1150,
+        660
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "621a09cebb609b727b88f8b708fd3200db19f0a552271c0a28d925f2b13d99a0",
+      "source_density": 2,
+      "new": false,
+      "source_asset_both_builds_identical": true
+    },
+    {
+      "asset": "images/captures/property-collector/handoff-es-mobile.png",
+      "sha256": "4f252e8b5d86ad772df8b7f979ae8d61de1970ff36f7110f5f1e0b1b5867b2cc",
+      "pixels": [
+        780,
+        680
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "d60bd1960ab445759cc750f03a0035c7133e8d1b787d2700f70ab51c4994b766",
+      "source_density": 2,
+      "new": false,
+      "source_asset_both_builds_identical": true
+    },
+    {
+      "asset": "images/captures/property-collector/handoff-en-mobile.png",
+      "sha256": "97bad463814d7ec88c224ea32ccf6500c65c8eed86a39ef83cd8fba79d2f3793",
+      "pixels": [
+        780,
+        680
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "b3865f05a9fbf5b7ead5b49ef21cf9b19c4d40a0484426c01a4b07244042bc59",
+      "source_density": 2,
+      "new": false,
+      "source_asset_both_builds_identical": true
+    },
+    {
+      "asset": "images/captures/property-collector/channels-es.png",
+      "sha256": "09a69bcc4d04170870d9e7123c84391069810694179dc20ac44248df0abc1571",
+      "pixels": [
+        1150,
+        1180
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "f0e6045320a954609e2efc3b384afff8a8c496d35a559f3080f29cd54d506b52",
+      "source_density": 2,
+      "new": false,
+      "source_asset_both_builds_identical": true
+    },
+    {
+      "asset": "images/captures/property-collector/channels-en.png",
+      "sha256": "fed5b1e6710e0f6ad456ee06a4cae92680c2d85f1a78fef79dbe95d08a18222d",
+      "pixels": [
+        1150,
+        1180
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "89ce9c2c10e041f7b39da67c093de35e25e990ed4388d01ebd337c5874649a19",
+      "source_density": 2,
+      "new": false,
+      "source_asset_both_builds_identical": true
+    },
+    {
+      "asset": "images/captures/property-collector/tone-es.png",
+      "sha256": "f97c2e66346680730e6c64708e701b95a3abf460ac099a1cb214d8baf22fdd8d",
+      "pixels": [
+        1150,
+        1030
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "93c58786ad8b060baa865e00d9dae98f30e6ae8e6e7080db36301f6f2b50e2e8",
+      "source_density": 2,
+      "new": false,
+      "source_asset_both_builds_identical": true
+    },
+    {
+      "asset": "images/captures/property-collector/tone-en.png",
+      "sha256": "b8c33b227fbb6fc79ab89a2eccc079f9a9b0c8a06cf21773005ad1ffcec1d053",
+      "pixels": [
+        1150,
+        1030
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "52a008ba0239c1328c2bb3cc3a1b390950984118587b837123c8d1da3291a876",
+      "source_density": 2,
+      "new": false,
+      "source_asset_both_builds_identical": true
+    },
+    {
+      "asset": "images/captures/property-collector/channels-es-mobile.png",
+      "sha256": "213da9d4c0fa8688e03ce9f368928e7df240b1d538670285a437c5935c0a24a3",
+      "pixels": [
+        780,
+        1520
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "4881c3359f4cf9155da1a3ea05f3037d80da1d555ec0607cb54a82c8ab1d136e",
+      "source_density": 2,
+      "new": false,
+      "source_asset_both_builds_identical": true
+    },
+    {
+      "asset": "images/captures/property-collector/channels-en-mobile.png",
+      "sha256": "260918096cf05d4ac82990773682e76fa51ea9b3478ab6e6305d67cc8fcbaf0e",
+      "pixels": [
+        780,
+        1520
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "82b4ddba2f407c05703459b28cc05792dbdade51c584ad7c08ff0b108c675b41",
+      "source_density": 2,
+      "new": false,
+      "source_asset_both_builds_identical": true
+    },
+    {
+      "asset": "images/captures/property-collector/tone-es-mobile.png",
+      "sha256": "bb6765e4ad6cfca6b321bf5ed74fd9c37e89be50045c6649cfbd640120decf62",
+      "pixels": [
+        780,
+        970
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "2be716475bbc5ba2e069270b697de1ef4331629d46d4481b271f24fc29f80402",
+      "source_density": 2,
+      "new": false,
+      "source_asset_both_builds_identical": true
+    },
+    {
+      "asset": "images/captures/property-collector/tone-en-mobile.png",
+      "sha256": "5b59a2acc71f53d84aa7bb1d7280af18a300e2fe34a7a0bf3058f52328f7a21f",
+      "pixels": [
+        780,
+        970
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "704a4d2dbfbb9995124952153d4a73e5c038d93e8ce5d8a046c38ee351bd173f",
+      "source_density": 2,
+      "new": false,
+      "source_asset_both_builds_identical": true
+    },
+    {
+      "asset": "images/captures/property-collector/style-refresh/fields-es.png",
+      "sha256": "8157b63ff509e328f393e8fc43f4e7f45c8dcbc3c0354c2900a32e5704c852a2",
+      "pixels": [
+        1296,
+        698
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "7073e1a8f9c3907435676b1dddb8dd4c7ccc69b9cbfdf059ee143789a4d6dba9",
+      "source_density": 2,
+      "new": false,
+      "source_asset_both_builds_identical": true
+    },
+    {
+      "asset": "images/captures/property-collector/style-refresh/fields-es-mobile.png",
+      "sha256": "6e431ef02b114b2aafcdfd27f5bbb76c0d52147595af89ff6450c9957ad9cd87",
+      "pixels": [
+        764,
+        674
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "12541ec85f37565beaa91c786f3d0a11d3b16b5f02b6a6b25808ddbade5a60c8",
+      "source_density": 2,
+      "new": false,
+      "source_asset_both_builds_identical": true
+    },
+    {
+      "asset": "images/captures/property-collector/style-refresh/fields-en.png",
+      "sha256": "e7bd719c54c7c1e5de9a18225dd24df91ed0cb7eeaf551c1927ebfca88d0bc3a",
+      "pixels": [
+        1296,
+        698
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "5d9ecf255e624fe3e947448ad7c0486f53ccddd02282384258b3b33f4c23be4c",
+      "source_density": 2,
+      "new": false,
+      "source_asset_both_builds_identical": true
+    },
+    {
+      "asset": "images/captures/property-collector/style-refresh/fields-en-mobile.png",
+      "sha256": "4be584eb90d9e7f2b14b7f8bd2dad78954b3f611562d507853f74d7622e1d6a7",
+      "pixels": [
+        764,
+        722
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "f9e9543e2e537e7b3ac0d4b43e06b928d24a286e639d174fbbdaf2622819588a",
+      "source_density": 2,
+      "new": false,
+      "source_asset_both_builds_identical": true
+    },
+    {
+      "asset": "images/captures/subscriber-booster/discount-es.png",
+      "sha256": "b16e9fae47f891feb37c964fd3639d6835dbcdbdc45baaadff667bf3636620ef",
+      "pixels": [
+        1060,
+        820
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "07b9d4f1a77278c83d4811274c47e136d2ca1026313aef6d498c1e4f763e67d9",
+      "source_density": 2,
+      "new": false,
+      "source_asset_both_builds_identical": true
+    },
+    {
+      "asset": "images/captures/subscriber-booster/discount-mobile-es.png",
+      "sha256": "cd5fcbea434337a3801f63e4e55567971f4fe2c8e6523ea7ed088be345f33244",
+      "pixels": [
+        490,
+        236
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "14879542c4516d8376eeab420d21bb39ec44e864dc0c0f5a7d6f2d7a6cc9895a",
+      "source_density": 2,
+      "new": false,
+      "source_asset_both_builds_identical": true
+    },
+    {
+      "asset": "images/captures/subscriber-booster/discount-en.png",
+      "sha256": "c440f5593cfd8b908d1370b983d12ac715999948a59f6b483574f77187ccf970",
+      "pixels": [
+        1060,
+        772
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "14aeac3a5bfc71a161decdb401d9d26fdbc5524b2085ec219310a740a79d057f",
+      "source_density": 2,
+      "new": false,
+      "source_asset_both_builds_identical": true
+    },
+    {
+      "asset": "images/captures/subscriber-booster/discount-mobile-en.png",
+      "sha256": "31bba2b28a7d595ecec1a26541e58681d137e919b5289ffeabaa0b4b3cbbf315",
+      "pixels": [
+        660,
+        236
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "a25d9592c46a6d2a0c18473de914e919955392d251954f389cd972f8142a5db3",
+      "source_density": 2,
+      "new": false,
+      "source_asset_both_builds_identical": true
+    }
+  ],
+  "publication_state": "not_yet_publicly_verified",
+  "visual_review_at_utc": "2026-10-02T02:31:43.997071+00:00",
+  "operations": "New safe GET/Turbo Custom Agent forms; no Save/Enable/Add/Enter/file selection/Playground or delivery. Only explicit fictitious User.locale es\u2192en\u2192es through guarded update_columns; restored Spanish DB/UI. Measured fixture fields before/after equal, not whole-DB equality or last_online_at. Reused sources retain original routes/fixtures/guards and historical limits without retroactive counts. Old3191 and primary campaign branch untouched.",
+  "browser": [
+    {
+      "locale": "es",
+      "device": "desktop",
+      "width_css": 1440,
+      "headings": 15,
+      "figures": 10,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    },
+    {
+      "locale": "es",
+      "device": "mobile",
+      "width_css": 390,
+      "headings": 15,
+      "figures": 10,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    },
+    {
+      "locale": "es",
+      "device": "narrow",
+      "width_css": 580,
+      "headings": 15,
+      "figures": 10,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    },
+    {
+      "locale": "en",
+      "device": "desktop",
+      "width_css": 1440,
+      "headings": 15,
+      "figures": 10,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    },
+    {
+      "locale": "en",
+      "device": "mobile",
+      "width_css": 390,
+      "headings": 15,
+      "figures": 10,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    },
+    {
+      "locale": "en",
+      "device": "narrow",
+      "width_css": 580,
+      "headings": 15,
+      "figures": 10,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    }
+  ],
+  "preview_browser": {
+    "port": 9452,
+    "pid": 98125,
+    "profile": "/private/tmp/hellotext-subscriber-help-review-9452",
+    "single_local_page": true,
+    "origin": "http://127.0.0.1:4191",
+    "color": "display-p3-d65",
+    "dpr": 2,
+    "zoom": 1,
+    "source_app_not_visited": true
+  },
+  "review_follow_up": "One Spanish 580px immediate-scroll screenshot painted blank below a paragraph. A stable 500ms compositor view at the same location showed the complete disable heading, paragraph and list; no content or renderer change required.",
+  "measured_fixture_fields_unchanged": true,
+  "whole_database_equality_claimed": false
+}
