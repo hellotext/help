@@ -63,3 +63,5 @@ Complete ES then EN 1440/390/580 px articles reviewed through every scroll to th
 Local build/browser/hash/diff verification passed; protected publication remains pending.
 
 Initial content commit `17dac9e72af92a45d453b94b407df115aa56d45b` retained. A follow-up verifier removes only extra blank EOF lines from the two deferred Order probe text logs; measured before/after content remains equal, and the initial exact bytes remain in Git history and original temporary logs. No article, PNG or browser evidence changed.
+
+Local verifier `f8edf7bd5fb9ff66687d64a29472ab850c4ea05f` is the direct parent of this ledger commit. Progress is102 local_verified /51 pending /one out_of_scope; public production verification remains pending.
