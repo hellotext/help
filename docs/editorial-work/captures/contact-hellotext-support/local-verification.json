@@ -1,0 +1,677 @@
+{
+  "originals": [
+    {
+      "article": "_i18n/es/troubleshooting-deliverability/contact-hellotext-support.md",
+      "snapshot": "docs/editorial-work/captures/contact-hellotext-support/originals/es.md",
+      "sha256": "a03e97fbb12d6f78b2181949ce446f37c34176c70212cf9329b12bb890ec9c1b",
+      "headings": [
+        "## Antes de contactar",
+        "## Informaci\u00f3n b\u00e1sica que debes incluir",
+        "## Informaci\u00f3n seg\u00fan el problema",
+        "## Informaci\u00f3n que no debes enviar",
+        "## C\u00f3mo indicar el impacto",
+        "## Qu\u00e9 esperar despu\u00e9s",
+        "## Gu\u00edas relacionadas"
+      ],
+      "links": [
+        "_troubleshooting-deliverability/troubleshooting-overview.md",
+        "_troubleshooting-deliverability/troubleshooting-checklist.md",
+        "_troubleshooting-deliverability/troubleshoot-pages-that-do-not-load.md",
+        "_troubleshooting-deliverability/why-a-message-did-not-send.md",
+        "_troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md"
+      ],
+      "live_sha256": "a3e02001d150da072fc9842dc2e16248054565b2ab6236fabbad5cd0e194188e",
+      "headings_original_links_stub_preserved": true
+    },
+    {
+      "article": "_i18n/en/troubleshooting-deliverability/contact-hellotext-support.md",
+      "snapshot": "docs/editorial-work/captures/contact-hellotext-support/originals/en.md",
+      "sha256": "f5d97f77a32285030f962ea561061a26824e04f4d8298b324d03566d0ef330df",
+      "headings": [
+        "## Before contacting Support",
+        "## Basic information to include",
+        "## Information by problem type",
+        "## Information not to send",
+        "## How to describe impact",
+        "## What to expect next",
+        "## Related guides"
+      ],
+      "links": [
+        "_troubleshooting-deliverability/troubleshooting-overview.md",
+        "_troubleshooting-deliverability/troubleshooting-checklist.md",
+        "_troubleshooting-deliverability/troubleshoot-pages-that-do-not-load.md",
+        "_troubleshooting-deliverability/why-a-message-did-not-send.md",
+        "_troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md"
+      ],
+      "live_sha256": "b0efdf14a02deb34cfce15cc0c46c7461068064c6f0274c4b97c0688da0cac32",
+      "headings_original_links_stub_preserved": true
+    },
+    {
+      "article": "_troubleshooting-deliverability/contact-hellotext-support.md",
+      "snapshot": "docs/editorial-work/captures/contact-hellotext-support/originals/stub.md",
+      "sha256": "18e4a251b10be97626828389a0b31bb9d16e6b11bbcd40eb08588e69d507b224",
+      "headings": [],
+      "links": [],
+      "live_sha256": "18e4a251b10be97626828389a0b31bb9d16e6b11bbcd40eb08588e69d507b224",
+      "headings_original_links_stub_preserved": true
+    }
+  ],
+  "images": [
+    {
+      "asset": "images/developers/custom-store-integration/business-es.png",
+      "sha256": "17ec399500cee235d73459ced0de47fac99054987976a56f4e09603150ef5dfb",
+      "original_source_sha256": "17ec399500cee235d73459ced0de47fac99054987976a56f4e09603150ef5dfb",
+      "pixels": [
+        1736,
+        404
+      ],
+      "logical_size": [
+        868.0,
+        202.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "original_source_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "parent_crop_icc_bytes_identical": true,
+      "parent_crop_rgb_colorants_equivalent": true,
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+      "original_crop_rectangle_px": null,
+      "original_guard_limitations": []
+    },
+    {
+      "asset": "images/developers/custom-store-integration/business-es-mobile.png",
+      "sha256": "0c7ac4c233075fa5d072e27ac33e7947092bf6406858524ab12fa546be553ed8",
+      "original_source_sha256": "0c7ac4c233075fa5d072e27ac33e7947092bf6406858524ab12fa546be553ed8",
+      "pixels": [
+        748,
+        524
+      ],
+      "logical_size": [
+        374.0,
+        262.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "original_source_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "parent_crop_icc_bytes_identical": true,
+      "parent_crop_rgb_colorants_equivalent": true,
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+      "original_crop_rectangle_px": null,
+      "original_guard_limitations": []
+    },
+    {
+      "asset": "images/developers/custom-store-integration/business-en.png",
+      "sha256": "1f7f132b2245056eda5166b1b1cfdbeee406ebcf7bad4a13a6eb3fd501184d7f",
+      "original_source_sha256": "1f7f132b2245056eda5166b1b1cfdbeee406ebcf7bad4a13a6eb3fd501184d7f",
+      "pixels": [
+        1736,
+        404
+      ],
+      "logical_size": [
+        868.0,
+        202.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "original_source_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "parent_crop_icc_bytes_identical": true,
+      "parent_crop_rgb_colorants_equivalent": true,
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+      "original_crop_rectangle_px": null,
+      "original_guard_limitations": []
+    },
+    {
+      "asset": "images/developers/custom-store-integration/business-en-mobile.png",
+      "sha256": "c7badab42d6878393ab746c2950605b8153dc38d60ac1ae09c747a949706bfeb",
+      "original_source_sha256": "c7badab42d6878393ab746c2950605b8153dc38d60ac1ae09c747a949706bfeb",
+      "pixels": [
+        748,
+        524
+      ],
+      "logical_size": [
+        374.0,
+        262.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "original_source_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "parent_crop_icc_bytes_identical": true,
+      "parent_crop_rgb_colorants_equivalent": true,
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
+      "original_crop_rectangle_px": null,
+      "original_guard_limitations": []
+    },
+    {
+      "asset": "images/developers/orders-with-api/details-es.png",
+      "sha256": "ce7071cd6129d589df554b45f6ead105ef20ce3b1b4eeaf6eace613f34b4bb00",
+      "original_source_sha256": "ce7071cd6129d589df554b45f6ead105ef20ce3b1b4eeaf6eace613f34b4bb00",
+      "pixels": [
+        1006,
+        914
+      ],
+      "logical_size": [
+        503,
+        457
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "original_source_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "parent_crop_icc_bytes_identical": true,
+      "parent_crop_rgb_colorants_equivalent": true,
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json",
+      "original_crop_rectangle_px": null,
+      "original_guard_limitations": []
+    },
+    {
+      "asset": "images/developers/orders-with-api/details-es-mobile.png",
+      "sha256": "002115693247a8d96672d24a28406f0c452db72eb2df13ad721a9f3d12102ad9",
+      "original_source_sha256": "002115693247a8d96672d24a28406f0c452db72eb2df13ad721a9f3d12102ad9",
+      "pixels": [
+        778,
+        914
+      ],
+      "logical_size": [
+        389,
+        457
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "original_source_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "parent_crop_icc_bytes_identical": true,
+      "parent_crop_rgb_colorants_equivalent": true,
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json",
+      "original_crop_rectangle_px": null,
+      "original_guard_limitations": []
+    },
+    {
+      "asset": "images/developers/orders-with-api/details-en.png",
+      "sha256": "b728ba41fdd9c004408a7153f0f8f9a0bfc6634d0d9e44485db3dfc7b120b08b",
+      "original_source_sha256": "b728ba41fdd9c004408a7153f0f8f9a0bfc6634d0d9e44485db3dfc7b120b08b",
+      "pixels": [
+        1006,
+        914
+      ],
+      "logical_size": [
+        503,
+        457
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "original_source_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "parent_crop_icc_bytes_identical": true,
+      "parent_crop_rgb_colorants_equivalent": true,
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json",
+      "original_crop_rectangle_px": null,
+      "original_guard_limitations": []
+    },
+    {
+      "asset": "images/developers/orders-with-api/details-en-mobile.png",
+      "sha256": "8d44d00464fcffb4c98684b550a95fd7df0a64360333a384e3d6eefca81d44c0",
+      "original_source_sha256": "8d44d00464fcffb4c98684b550a95fd7df0a64360333a384e3d6eefca81d44c0",
+      "pixels": [
+        778,
+        914
+      ],
+      "logical_size": [
+        389,
+        457
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "original_source_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "parent_crop_icc_bytes_identical": true,
+      "parent_crop_rgb_colorants_equivalent": true,
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/orders-with-api/capture-provenance.json",
+      "original_crop_rectangle_px": null,
+      "original_guard_limitations": []
+    },
+    {
+      "asset": "images/analytics-reporting-attribution/campaign-reporting/summary-period-es-wide-desktop.png",
+      "sha256": "65bfef90c667cf5da787412ad4d2175652ea945e2b1c1c84c7fb4bdb6c9217fc",
+      "original_source_sha256": "0b3688dd3e368e00fe80b9f184477bb8423010778d51a8a22d85425ab20ec1cd",
+      "pixels": [
+        2480,
+        610
+      ],
+      "logical_size": [
+        1240.0,
+        305.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "original_source_icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "parent_crop_icc_bytes_identical": true,
+      "parent_crop_rgb_colorants_equivalent": true,
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/tips-and-best-practices/capture-provenance.json",
+      "original_crop_rectangle_px": {
+        "x": 224,
+        "y": 0,
+        "width": 2480,
+        "height": 610
+      },
+      "original_guard_limitations": [
+        "Original desktop CSS viewport and browser zoom were not retained. Original native source and fixture evidence are preserved; no retrospective automatic guard is claimed."
+      ]
+    },
+    {
+      "asset": "images/analytics-reporting-attribution/campaign-reporting/summary-period-es-mobile-wide.png",
+      "sha256": "71136b3c75dbbe12a40ad787057309089b29f7d83b49f1ae1426ea91887e34e3",
+      "original_source_sha256": "71136b3c75dbbe12a40ad787057309089b29f7d83b49f1ae1426ea91887e34e3",
+      "pixels": [
+        1048,
+        580
+      ],
+      "logical_size": [
+        524.0,
+        290.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "original_source_icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "parent_crop_icc_bytes_identical": true,
+      "parent_crop_rgb_colorants_equivalent": true,
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/tips-and-best-practices/capture-provenance.json",
+      "original_crop_rectangle_px": null,
+      "original_guard_limitations": []
+    },
+    {
+      "asset": "images/analytics-reporting-attribution/campaign-reporting/summary-period-en-wide-desktop.png",
+      "sha256": "470347c0697af60e59b6119e2c83bfb848fb9cbf69bd07ec4b14e451db40800e",
+      "original_source_sha256": "a5abb5d2044fa121b31494a6723398fa187fdcff53b9c73e27b68efe7bfc0829",
+      "pixels": [
+        2480,
+        610
+      ],
+      "logical_size": [
+        1240.0,
+        305.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "original_source_icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "parent_crop_icc_bytes_identical": true,
+      "parent_crop_rgb_colorants_equivalent": true,
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/tips-and-best-practices/capture-provenance.json",
+      "original_crop_rectangle_px": {
+        "x": 224,
+        "y": 0,
+        "width": 2480,
+        "height": 610
+      },
+      "original_guard_limitations": [
+        "Original desktop CSS viewport and browser zoom were not retained. Original native source and fixture evidence are preserved; no retrospective automatic guard is claimed."
+      ]
+    },
+    {
+      "asset": "images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile-wide.png",
+      "sha256": "244b1faacb31e3852d224f2db51c2efda234e4d57a54826aac83e726037efc36",
+      "original_source_sha256": "244b1faacb31e3852d224f2db51c2efda234e4d57a54826aac83e726037efc36",
+      "pixels": [
+        1048,
+        580
+      ],
+      "logical_size": [
+        524.0,
+        290.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "original_source_icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "parent_crop_icc_bytes_identical": true,
+      "parent_crop_rgb_colorants_equivalent": true,
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/tips-and-best-practices/capture-provenance.json",
+      "original_crop_rectangle_px": null,
+      "original_guard_limitations": []
+    },
+    {
+      "asset": "images/audience/customer-profiles/profile-fields-es.png",
+      "sha256": "bf1ee79e29d0ef384913cad51a1792ddf0050d75a5b4e138bd49df682e203b40",
+      "original_source_sha256": "bf1ee79e29d0ef384913cad51a1792ddf0050d75a5b4e138bd49df682e203b40",
+      "pixels": [
+        910,
+        1330
+      ],
+      "logical_size": [
+        455,
+        665
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "original_source_icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "parent_crop_icc_bytes_identical": true,
+      "parent_crop_rgb_colorants_equivalent": true,
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+      "original_crop_rectangle_px": null,
+      "original_guard_limitations": []
+    },
+    {
+      "asset": "images/audience/customer-profiles/profile-fields-en.png",
+      "sha256": "9bbb727226b2a20d5df4be2ca7612d29037b9d18d8e7e2ec488c407c54945f5d",
+      "original_source_sha256": "9bbb727226b2a20d5df4be2ca7612d29037b9d18d8e7e2ec488c407c54945f5d",
+      "pixels": [
+        910,
+        1330
+      ],
+      "logical_size": [
+        455,
+        665
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "original_source_icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "parent_crop_icc_bytes_identical": true,
+      "parent_crop_rgb_colorants_equivalent": true,
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+      "original_crop_rectangle_px": null,
+      "original_guard_limitations": []
+    },
+    {
+      "asset": "images/audience/customer-profiles/profile-fields-es-mobile.png",
+      "sha256": "1525d3add44bb64b93d457bb3353f8bfdd9fe0f1f99b84580aed0807db7829c3",
+      "original_source_sha256": "1525d3add44bb64b93d457bb3353f8bfdd9fe0f1f99b84580aed0807db7829c3",
+      "pixels": [
+        700,
+        1330
+      ],
+      "logical_size": [
+        350,
+        665
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "original_source_icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "parent_crop_icc_bytes_identical": true,
+      "parent_crop_rgb_colorants_equivalent": true,
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+      "original_crop_rectangle_px": null,
+      "original_guard_limitations": []
+    },
+    {
+      "asset": "images/audience/customer-profiles/profile-fields-en-mobile.png",
+      "sha256": "0e2c6a1622ea73ec0fa008f5100b7ce5f04e2695cdb1aa2414c855db6ca760cb",
+      "original_source_sha256": "0e2c6a1622ea73ec0fa008f5100b7ce5f04e2695cdb1aa2414c855db6ca760cb",
+      "pixels": [
+        700,
+        1330
+      ],
+      "logical_size": [
+        350,
+        665
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "original_source_icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "parent_crop_icc_bytes_identical": true,
+      "parent_crop_rgb_colorants_equivalent": true,
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+      "original_crop_rectangle_px": null,
+      "original_guard_limitations": []
+    },
+    {
+      "asset": "images/team/understanding-response-times/default-es.png",
+      "sha256": "339b5749ee334a9d43c5ba547e6d41248962a12c3854fd211e2bd982f04081d0",
+      "original_source_sha256": "339b5749ee334a9d43c5ba547e6d41248962a12c3854fd211e2bd982f04081d0",
+      "pixels": [
+        972,
+        820
+      ],
+      "logical_size": [
+        486.0,
+        410.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "original_source_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "parent_crop_icc_bytes_identical": true,
+      "parent_crop_rgb_colorants_equivalent": true,
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/understanding-response-times/capture-provenance.json",
+      "original_crop_rectangle_px": null,
+      "original_guard_limitations": []
+    },
+    {
+      "asset": "images/team/understanding-response-times/default-es-mobile.png",
+      "sha256": "6e75d88d34ec270d7c1c65e424da76fbd1c27bd54975feda0fda196fa167455e",
+      "original_source_sha256": "6e75d88d34ec270d7c1c65e424da76fbd1c27bd54975feda0fda196fa167455e",
+      "pixels": [
+        824,
+        844
+      ],
+      "logical_size": [
+        412.0,
+        422.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "original_source_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "parent_crop_icc_bytes_identical": true,
+      "parent_crop_rgb_colorants_equivalent": true,
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/understanding-response-times/capture-provenance.json",
+      "original_crop_rectangle_px": null,
+      "original_guard_limitations": []
+    },
+    {
+      "asset": "images/team/understanding-response-times/default-en.png",
+      "sha256": "c377e27ca01cfa3614d3ca758985ec5a8b253d4bd3082d9b48cef4780a2cf6c3",
+      "original_source_sha256": "c377e27ca01cfa3614d3ca758985ec5a8b253d4bd3082d9b48cef4780a2cf6c3",
+      "pixels": [
+        972,
+        764
+      ],
+      "logical_size": [
+        486.0,
+        382.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "original_source_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "parent_crop_icc_bytes_identical": true,
+      "parent_crop_rgb_colorants_equivalent": true,
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/understanding-response-times/capture-provenance.json",
+      "original_crop_rectangle_px": null,
+      "original_guard_limitations": []
+    },
+    {
+      "asset": "images/team/understanding-response-times/default-en-mobile.png",
+      "sha256": "a41cb142e4f4b31a3de34b0ce7af740611fa3f9063e675b3ec4c0ceb194f1c8e",
+      "original_source_sha256": "a41cb142e4f4b31a3de34b0ce7af740611fa3f9063e675b3ec4c0ceb194f1c8e",
+      "pixels": [
+        824,
+        804
+      ],
+      "logical_size": [
+        412.0,
+        402.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "original_source_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "parent_crop_icc_bytes_identical": true,
+      "parent_crop_rgb_colorants_equivalent": true,
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/understanding-response-times/capture-provenance.json",
+      "original_crop_rectangle_px": null,
+      "original_guard_limitations": []
+    }
+  ],
+  "browser": [
+    {
+      "locale": "es",
+      "device": "desktop",
+      "width_css": 1440,
+      "headings": 7,
+      "figures": 5,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    },
+    {
+      "locale": "es",
+      "device": "mobile",
+      "width_css": 390,
+      "headings": 7,
+      "figures": 5,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    },
+    {
+      "locale": "es",
+      "device": "narrow",
+      "width_css": 580,
+      "headings": 7,
+      "figures": 5,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    },
+    {
+      "locale": "en",
+      "device": "desktop",
+      "width_css": 1440,
+      "headings": 7,
+      "figures": 5,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    },
+    {
+      "locale": "en",
+      "device": "mobile",
+      "width_css": 390,
+      "headings": 7,
+      "figures": 5,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    },
+    {
+      "locale": "en",
+      "device": "narrow",
+      "width_css": 580,
+      "headings": 7,
+      "figures": 5,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    }
+  ],
+  "build": {
+    "command": "RBENV_VERSION=3.3.6 PATH=/Users/pel/.rbenv/shims:$PATH yarn build",
+    "exit_code": 0,
+    "production_bilingual_build": "passed",
+    "security_headers": "configured"
+  },
+  "publication_state": "Not yet publicly verified; protected PR and normal production verification pending.",
+  "operations": "Read-only protected/current source, public contact pages and published SDK/API documentation audit. Approved PNG reuse with original historical guards and limitations; no source app/DB/account/locale/fixture/API/example/event/message/submission/permission/subscription/provider/worker action or new fixture audit. Separate isolated Help browser only for rendering, scrolling and review captures; no Rails visit. No support request or message submitted."
+}
