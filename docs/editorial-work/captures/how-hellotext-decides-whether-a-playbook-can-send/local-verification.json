@@ -1,0 +1,597 @@
+{
+  "originals": [
+    {
+      "article": "_i18n/es/journeys/how-hellotext-decides-whether-a-playbook-can-send.md",
+      "snapshot": "docs/editorial-work/captures/how-hellotext-decides-whether-a-playbook-can-send/originals/es.md",
+      "sha256": "fe652edd8cb3ef1f817a5ec6a93cacb06d94cee6cab5a3f51554f7881524e1bf",
+      "headings": [
+        "## Primero, separa disparo de env\u00edo",
+        "## El mapa de decisi\u00f3n",
+        "### 1. \u00bfLa misi\u00f3n est\u00e1 habilitada y disponible?",
+        "### 2. \u00bfOcurri\u00f3 la se\u00f1al, intenci\u00f3n o condici\u00f3n correcta?",
+        "### 3. \u00bfEl perfil del cliente es elegible para recibir un mensaje?",
+        "### 4. \u00bfEl canal est\u00e1 listo para este mensaje?",
+        "### 5. \u00bfEsto enviar\u00eda demasiados mensajes al cliente?",
+        "### 6. \u00bfEs un horario permitido para enviar?",
+        "### 7. \u00bfHellotext puede construir un candidato de env\u00edo v\u00e1lido?",
+        "### 8. \u00bfLa conversaci\u00f3n deber\u00eda derivarse?",
+        "## Qu\u00e9 revisar cuando una misi\u00f3n no envi\u00f3",
+        "## Cu\u00e1ndo editar la misi\u00f3n",
+        "## Gu\u00edas relacionadas"
+      ],
+      "links": [
+        "_troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md",
+        "_journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md",
+        "_journeys/custom-agent-playbook.md",
+        "_journeys/custom-agent-playbook.md",
+        "_audience/consent-and-subscriber-status.md",
+        "_team/ai-handoff-to-inbox.md",
+        "_analytics-reporting-attribution/playbook-reporting.md",
+        "_journeys/how-to-customize-a-playbook-safely.md",
+        "_journeys/how-to-enable-a-playbook.md",
+        "_journeys/how-to-customize-a-playbook-safely.md",
+        "_journeys/custom-agent-playbook.md",
+        "_journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md",
+        "_journeys/what-are-signals.md",
+        "_audience/consent-and-subscriber-status.md",
+        "_numbers/whatsapp-channel-fundamentals.md",
+        "_team/ai-handoff-to-inbox.md",
+        "_troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md",
+        "_analytics-reporting-attribution/playbook-reporting.md"
+      ],
+      "live_sha256": "f36ce4cfb7d1e64d6562a308c7989784d3dbb5dcbd8236f9e3e1608493cd6d87",
+      "headings_original_links_stub_preserved": true
+    },
+    {
+      "article": "_i18n/en/journeys/how-hellotext-decides-whether-a-playbook-can-send.md",
+      "snapshot": "docs/editorial-work/captures/how-hellotext-decides-whether-a-playbook-can-send/originals/en.md",
+      "sha256": "60dbc7144dcb38d0bedba80baecae1cca87746592cfdeae8179266ecc18a3f90",
+      "headings": [
+        "## First, separate trigger from send",
+        "## The decision map",
+        "### 1. Is the playbook enabled and available?",
+        "### 2. Did the right signal, intent, or condition happen?",
+        "### 3. Is the customer profile eligible to receive a message?",
+        "### 4. Is the channel ready for this message?",
+        "### 5. Would this over-message the customer?",
+        "### 6. Is it an allowed time to send?",
+        "### 7. Can Hellotext build a valid send candidate?",
+        "### 8. Should the conversation be handed off instead?",
+        "## What to check when a playbook did not send",
+        "## When to edit the playbook",
+        "## Related guides"
+      ],
+      "links": [
+        "_troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md",
+        "_journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md",
+        "_journeys/custom-agent-playbook.md",
+        "_journeys/custom-agent-playbook.md",
+        "_audience/consent-and-subscriber-status.md",
+        "_team/ai-handoff-to-inbox.md",
+        "_analytics-reporting-attribution/playbook-reporting.md",
+        "_journeys/how-to-customize-a-playbook-safely.md",
+        "_journeys/how-to-enable-a-playbook.md",
+        "_journeys/how-to-customize-a-playbook-safely.md",
+        "_journeys/custom-agent-playbook.md",
+        "_journeys/troubleshoot-a-playbook-that-did-not-trigger-or-send.md",
+        "_journeys/what-are-signals.md",
+        "_audience/consent-and-subscriber-status.md",
+        "_numbers/whatsapp-channel-fundamentals.md",
+        "_team/ai-handoff-to-inbox.md",
+        "_troubleshooting-deliverability/troubleshoot-missing-signals-or-activity.md",
+        "_analytics-reporting-attribution/playbook-reporting.md"
+      ],
+      "live_sha256": "840140f7bc5f339f69168d24e78eeaa567b6a998f4d54f66a7590d29b7850700",
+      "headings_original_links_stub_preserved": true
+    },
+    {
+      "article": "_journeys/how-hellotext-decides-whether-a-playbook-can-send.md",
+      "snapshot": "docs/editorial-work/captures/how-hellotext-decides-whether-a-playbook-can-send/originals/stub.md",
+      "sha256": "5991ea265d79a0aa193686eeed74f3e4090d584716ed5ae66878e921dafedd86",
+      "headings": [],
+      "links": [],
+      "live_sha256": "5991ea265d79a0aa193686eeed74f3e4090d584716ed5ae66878e921dafedd86",
+      "headings_original_links_stub_preserved": true
+    }
+  ],
+  "images": [
+    {
+      "asset": "images/developers/custom-actions/catalog-es.png",
+      "sha256": "a12712f6c78adc83c29a0c497ccb3a061449789f26a7d5cbaf6fdab127612389",
+      "original_source_sha256": "a12712f6c78adc83c29a0c497ccb3a061449789f26a7d5cbaf6fdab127612389",
+      "pixels": [
+        1752,
+        838
+      ],
+      "logical_size": [
+        876.0,
+        419.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "original_source_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "parent_crop_icc_bytes_identical": true,
+      "parent_crop_rgb_colorants_equivalent": true,
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
+      "original_crop_rectangle_px": null,
+      "original_guard_limitations": []
+    },
+    {
+      "asset": "images/developers/custom-actions/catalog-es-mobile.png",
+      "sha256": "fab59f9490d84ad14feb17be6a5701ba29c39161fdc7bd5fbd391a2a16651d76",
+      "original_source_sha256": "fab59f9490d84ad14feb17be6a5701ba29c39161fdc7bd5fbd391a2a16651d76",
+      "pixels": [
+        764,
+        346
+      ],
+      "logical_size": [
+        382.0,
+        173.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "original_source_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "parent_crop_icc_bytes_identical": true,
+      "parent_crop_rgb_colorants_equivalent": true,
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
+      "original_crop_rectangle_px": null,
+      "original_guard_limitations": []
+    },
+    {
+      "asset": "images/developers/custom-actions/catalog-en.png",
+      "sha256": "6fdbbbe59759abe2be46c35406174c9dae62c52dcdb56d65f5875e003e278bef",
+      "original_source_sha256": "6fdbbbe59759abe2be46c35406174c9dae62c52dcdb56d65f5875e003e278bef",
+      "pixels": [
+        1752,
+        838
+      ],
+      "logical_size": [
+        876.0,
+        419.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "original_source_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "parent_crop_icc_bytes_identical": true,
+      "parent_crop_rgb_colorants_equivalent": true,
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
+      "original_crop_rectangle_px": null,
+      "original_guard_limitations": []
+    },
+    {
+      "asset": "images/developers/custom-actions/catalog-en-mobile.png",
+      "sha256": "9f1460df43463d2eef8bbd04d6c550782d05bd4129eb7f9bf0faa5f553588561",
+      "original_source_sha256": "9f1460df43463d2eef8bbd04d6c550782d05bd4129eb7f9bf0faa5f553588561",
+      "pixels": [
+        764,
+        346
+      ],
+      "logical_size": [
+        382.0,
+        173.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "original_source_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "parent_crop_icc_bytes_identical": true,
+      "parent_crop_rgb_colorants_equivalent": true,
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/custom-actions/capture-provenance.json",
+      "original_crop_rectangle_px": null,
+      "original_guard_limitations": []
+    },
+    {
+      "asset": "images/team/ai-handoff-to-inbox/intents-es.png",
+      "sha256": "3ce141b0bcdd1fc102325fca3389e28f19158d1344b0c94ec725b6f99bc7ee50",
+      "original_source_sha256": "3ce141b0bcdd1fc102325fca3389e28f19158d1344b0c94ec725b6f99bc7ee50",
+      "pixels": [
+        1256,
+        520
+      ],
+      "logical_size": [
+        628.0,
+        260.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "original_source_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "parent_crop_icc_bytes_identical": true,
+      "parent_crop_rgb_colorants_equivalent": true,
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+      "original_crop_rectangle_px": null,
+      "original_guard_limitations": []
+    },
+    {
+      "asset": "images/team/ai-handoff-to-inbox/intents-es-mobile.png",
+      "sha256": "06a58e9ba16bdc719e9c1787edb0b699acc69e588cb43ae97295622b904c1e7f",
+      "original_source_sha256": "06a58e9ba16bdc719e9c1787edb0b699acc69e588cb43ae97295622b904c1e7f",
+      "pixels": [
+        764,
+        592
+      ],
+      "logical_size": [
+        382.0,
+        296.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "original_source_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "parent_crop_icc_bytes_identical": true,
+      "parent_crop_rgb_colorants_equivalent": true,
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+      "original_crop_rectangle_px": null,
+      "original_guard_limitations": []
+    },
+    {
+      "asset": "images/team/ai-handoff-to-inbox/intents-en.png",
+      "sha256": "58afbd5fd69c3e56c69b0cbfa41dd2e3c5946fa4884e1098436208e7237314d1",
+      "original_source_sha256": "58afbd5fd69c3e56c69b0cbfa41dd2e3c5946fa4884e1098436208e7237314d1",
+      "pixels": [
+        1256,
+        520
+      ],
+      "logical_size": [
+        628.0,
+        260.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "original_source_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "parent_crop_icc_bytes_identical": true,
+      "parent_crop_rgb_colorants_equivalent": true,
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+      "original_crop_rectangle_px": null,
+      "original_guard_limitations": []
+    },
+    {
+      "asset": "images/team/ai-handoff-to-inbox/intents-en-mobile.png",
+      "sha256": "574b86a078f6ac9efb168c67084d2b50a5187bfd67ab7cf72fc113197f739971",
+      "original_source_sha256": "574b86a078f6ac9efb168c67084d2b50a5187bfd67ab7cf72fc113197f739971",
+      "pixels": [
+        764,
+        544
+      ],
+      "logical_size": [
+        382.0,
+        272.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "original_source_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "parent_crop_icc_bytes_identical": true,
+      "parent_crop_rgb_colorants_equivalent": true,
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+      "original_crop_rectangle_px": null,
+      "original_guard_limitations": []
+    },
+    {
+      "asset": "images/audience/customer-profiles/profile-fields-es.png",
+      "sha256": "bf1ee79e29d0ef384913cad51a1792ddf0050d75a5b4e138bd49df682e203b40",
+      "original_source_sha256": "bf1ee79e29d0ef384913cad51a1792ddf0050d75a5b4e138bd49df682e203b40",
+      "pixels": [
+        910,
+        1330
+      ],
+      "logical_size": [
+        455,
+        665
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "original_source_icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "parent_crop_icc_bytes_identical": true,
+      "parent_crop_rgb_colorants_equivalent": true,
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+      "original_crop_rectangle_px": null,
+      "original_guard_limitations": []
+    },
+    {
+      "asset": "images/audience/customer-profiles/profile-fields-en.png",
+      "sha256": "9bbb727226b2a20d5df4be2ca7612d29037b9d18d8e7e2ec488c407c54945f5d",
+      "original_source_sha256": "9bbb727226b2a20d5df4be2ca7612d29037b9d18d8e7e2ec488c407c54945f5d",
+      "pixels": [
+        910,
+        1330
+      ],
+      "logical_size": [
+        455,
+        665
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "original_source_icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "parent_crop_icc_bytes_identical": true,
+      "parent_crop_rgb_colorants_equivalent": true,
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+      "original_crop_rectangle_px": null,
+      "original_guard_limitations": []
+    },
+    {
+      "asset": "images/audience/customer-profiles/profile-fields-es-mobile.png",
+      "sha256": "1525d3add44bb64b93d457bb3353f8bfdd9fe0f1f99b84580aed0807db7829c3",
+      "original_source_sha256": "1525d3add44bb64b93d457bb3353f8bfdd9fe0f1f99b84580aed0807db7829c3",
+      "pixels": [
+        700,
+        1330
+      ],
+      "logical_size": [
+        350,
+        665
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "original_source_icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "parent_crop_icc_bytes_identical": true,
+      "parent_crop_rgb_colorants_equivalent": true,
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+      "original_crop_rectangle_px": null,
+      "original_guard_limitations": []
+    },
+    {
+      "asset": "images/audience/customer-profiles/profile-fields-en-mobile.png",
+      "sha256": "0e2c6a1622ea73ec0fa008f5100b7ce5f04e2695cdb1aa2414c855db6ca760cb",
+      "original_source_sha256": "0e2c6a1622ea73ec0fa008f5100b7ce5f04e2695cdb1aa2414c855db6ca760cb",
+      "pixels": [
+        700,
+        1330
+      ],
+      "logical_size": [
+        350,
+        665
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "original_source_icc_sha256": "0ff6958f98684c61f6bbdce1368ddeaf3873baf84545baba482e920d92a914c0",
+      "parent_crop_icc_bytes_identical": true,
+      "parent_crop_rgb_colorants_equivalent": true,
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/customer-profiles/capture-provenance.json",
+      "original_crop_rectangle_px": null,
+      "original_guard_limitations": []
+    },
+    {
+      "asset": "images/captures/property-collector/handoff-es.png",
+      "sha256": "ef1c8abc4712dacc2effa83f6c968dd4a9453a5b1be059609a877a91e1693356",
+      "original_source_sha256": "ef1c8abc4712dacc2effa83f6c968dd4a9453a5b1be059609a877a91e1693356",
+      "pixels": [
+        1150,
+        660
+      ],
+      "logical_size": [
+        575.0,
+        330.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "original_source_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "parent_crop_icc_bytes_identical": true,
+      "parent_crop_rgb_colorants_equivalent": true,
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "original_crop_rectangle_px": null,
+      "original_guard_limitations": []
+    },
+    {
+      "asset": "images/captures/property-collector/handoff-en.png",
+      "sha256": "0c5506ceed87f6ed0c9e57a4969d80cee2dc41f04ab25b04969917ab3f3bdfe9",
+      "original_source_sha256": "0c5506ceed87f6ed0c9e57a4969d80cee2dc41f04ab25b04969917ab3f3bdfe9",
+      "pixels": [
+        1150,
+        660
+      ],
+      "logical_size": [
+        575.0,
+        330.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "original_source_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "parent_crop_icc_bytes_identical": true,
+      "parent_crop_rgb_colorants_equivalent": true,
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "original_crop_rectangle_px": null,
+      "original_guard_limitations": []
+    },
+    {
+      "asset": "images/captures/property-collector/handoff-es-mobile.png",
+      "sha256": "4f252e8b5d86ad772df8b7f979ae8d61de1970ff36f7110f5f1e0b1b5867b2cc",
+      "original_source_sha256": "4f252e8b5d86ad772df8b7f979ae8d61de1970ff36f7110f5f1e0b1b5867b2cc",
+      "pixels": [
+        780,
+        680
+      ],
+      "logical_size": [
+        390.0,
+        340.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "original_source_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "parent_crop_icc_bytes_identical": true,
+      "parent_crop_rgb_colorants_equivalent": true,
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "original_crop_rectangle_px": null,
+      "original_guard_limitations": []
+    },
+    {
+      "asset": "images/captures/property-collector/handoff-en-mobile.png",
+      "sha256": "97bad463814d7ec88c224ea32ccf6500c65c8eed86a39ef83cd8fba79d2f3793",
+      "original_source_sha256": "97bad463814d7ec88c224ea32ccf6500c65c8eed86a39ef83cd8fba79d2f3793",
+      "pixels": [
+        780,
+        680
+      ],
+      "logical_size": [
+        390.0,
+        340.0
+      ],
+      "reused": true,
+      "new_capture": false,
+      "pixels_unchanged": true,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "original_source_icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "parent_crop_icc_bytes_identical": true,
+      "parent_crop_rgb_colorants_equivalent": true,
+      "source_density": 2,
+      "pixels_inspected": true,
+      "asset_and_both_builds_match": true,
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "original_crop_rectangle_px": null,
+      "original_guard_limitations": []
+    }
+  ],
+  "browser": [
+    {
+      "locale": "es",
+      "device": "desktop",
+      "width_css": 1440,
+      "headings": 13,
+      "figures": 4,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    },
+    {
+      "locale": "es",
+      "device": "mobile",
+      "width_css": 390,
+      "headings": 13,
+      "figures": 4,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    },
+    {
+      "locale": "es",
+      "device": "narrow",
+      "width_css": 580,
+      "headings": 13,
+      "figures": 4,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    },
+    {
+      "locale": "en",
+      "device": "desktop",
+      "width_css": 1440,
+      "headings": 13,
+      "figures": 4,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    },
+    {
+      "locale": "en",
+      "device": "mobile",
+      "width_css": 390,
+      "headings": 13,
+      "figures": 4,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    },
+    {
+      "locale": "en",
+      "device": "narrow",
+      "width_css": 580,
+      "headings": 13,
+      "figures": 4,
+      "complete_article_pixels_inspected": true,
+      "no_page_overflow": true,
+      "no_source_enlargement": true,
+      "static_full_column_lavender_stage": true,
+      "complete_controls_readable": true
+    }
+  ],
+  "build": {
+    "command": "RBENV_VERSION=3.3.6 PATH=/Users/pel/.rbenv/shims:$PATH yarn build",
+    "exit_code": 0,
+    "production_bilingual_build": "passed",
+    "security_headers": "configured"
+  },
+  "publication_state": "Not yet publicly verified; protected PR and normal production verification pending.",
+  "operations": "Read-only protected/current source and approved native source reuse. No app, DB, account, locale, fixture, API/example, event, message, support request, submission, provider, permission, subscription or worker operation; no new fixture audit. Separate isolated Help preview for render/scroll/review only, no Rails visit."
+}
