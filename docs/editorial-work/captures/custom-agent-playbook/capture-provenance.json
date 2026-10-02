@@ -1,0 +1,5252 @@
+{
+  "status": "locally_verified",
+  "article_key": "journeys/custom-agent-playbook.md",
+  "base_revision": "fa35f4a140f388e429dc649eb5d607e6dc3994cf",
+  "originals": [
+    {
+      "article": "_i18n/es/journeys/custom-agent-playbook.md",
+      "snapshot": "docs/editorial-work/captures/custom-agent-playbook/originals/es.md",
+      "sha256": "7741af7ae28fc34557100be3e19197a80e9e59b39f370e4b0fcc1533072bf6c6",
+      "headings": [
+        "## Qué hace Agente Personalizado",
+        "## Cuándo usarlo",
+        "## Cuándo no usarlo",
+        "## Qué necesita antes del lanzamiento",
+        "## Qué puedes configurar",
+        "## Define intenciones claras",
+        "## Escribe el prompt del agente",
+        "## Agrega conocimiento con cuidado",
+        "## Configura derivación",
+        "## Cómo probarlo",
+        "## Qué revisar después del lanzamiento",
+        "## Guías relacionadas"
+      ],
+      "links": [
+        "_journeys/smart-recommender-playbook.md",
+        "_journeys/order-update-playbook.md",
+        "_journeys/instant-answers-playbook.md",
+        "_journeys/return-and-exchange-helper-playbook.md",
+        "_journeys/order-cancellation-assistant-playbook.md",
+        "_journeys/ai-cart-saver-playbook.md",
+        "_journeys/cart-saver-route.md",
+        "_journeys/csat-pulse-playbook.md",
+        "_journeys/getting-started-with-journeys.md",
+        "_integrations/verify-data-and-signals.md",
+        "_journeys/how-to-write-a-great-prompt.md",
+        "_team/ai-handoff-to-inbox.md",
+        "_journeys/playbook-library-by-mission.md",
+        "_journeys/how-to-enable-a-playbook.md",
+        "_journeys/how-to-customize-a-playbook-safely.md",
+        "_journeys/instant-answers-playbook.md",
+        "_journeys/return-and-exchange-helper-playbook.md",
+        "_journeys/order-cancellation-assistant-playbook.md",
+        "_journeys/how-to-write-a-great-prompt.md",
+        "_journeys/how-hellotext-decides-whether-a-playbook-can-send.md",
+        "_team/ai-handoff-to-inbox.md",
+        "_journeys/csat-pulse-playbook.md",
+        "_analytics-reporting-attribution/playbook-reporting.md",
+        "_integrations/verify-data-and-signals.md"
+      ]
+    },
+    {
+      "article": "_i18n/en/journeys/custom-agent-playbook.md",
+      "snapshot": "docs/editorial-work/captures/custom-agent-playbook/originals/en.md",
+      "sha256": "2b561e4e421f57db68e500543a19063c8ef9f4457fa0649803a33b9da2baed44",
+      "headings": [
+        "## What Custom Agent does",
+        "## When to use it",
+        "## When not to use it",
+        "## What it needs before launch",
+        "## What you can configure",
+        "## Define clear intents",
+        "## Write the agent prompt",
+        "## Add knowledge carefully",
+        "## Configure handoff",
+        "## How to test it",
+        "## What to review after launch",
+        "## Related guides"
+      ],
+      "links": [
+        "_journeys/smart-recommender-playbook.md",
+        "_journeys/order-update-playbook.md",
+        "_journeys/instant-answers-playbook.md",
+        "_journeys/return-and-exchange-helper-playbook.md",
+        "_journeys/order-cancellation-assistant-playbook.md",
+        "_journeys/ai-cart-saver-playbook.md",
+        "_journeys/cart-saver-route.md",
+        "_journeys/csat-pulse-playbook.md",
+        "_journeys/getting-started-with-journeys.md",
+        "_integrations/verify-data-and-signals.md",
+        "_journeys/how-to-write-a-great-prompt.md",
+        "_team/ai-handoff-to-inbox.md",
+        "_journeys/playbook-library-by-mission.md",
+        "_journeys/how-to-enable-a-playbook.md",
+        "_journeys/how-to-customize-a-playbook-safely.md",
+        "_journeys/instant-answers-playbook.md",
+        "_journeys/return-and-exchange-helper-playbook.md",
+        "_journeys/order-cancellation-assistant-playbook.md",
+        "_journeys/how-to-write-a-great-prompt.md",
+        "_journeys/how-hellotext-decides-whether-a-playbook-can-send.md",
+        "_team/ai-handoff-to-inbox.md",
+        "_journeys/csat-pulse-playbook.md",
+        "_analytics-reporting-attribution/playbook-reporting.md",
+        "_integrations/verify-data-and-signals.md"
+      ]
+    },
+    {
+      "article": "_journeys/custom-agent-playbook.md",
+      "snapshot": "docs/editorial-work/captures/custom-agent-playbook/originals/stub.md",
+      "sha256": "cf3999d5e722b67f4f0b07871d0dc9eae9f87671bc9b29a0efce0354feab8502",
+      "headings": [],
+      "links": []
+    }
+  ],
+  "images": [
+    {
+      "name": "prompt-es",
+      "concept": "prompt",
+      "locale": "es",
+      "mobile": false,
+      "published_asset": "images/journeys/how-to-customize-a-playbook-safely/prompt-es.png",
+      "source": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/prompt-es-original.png",
+      "sha256": "8eaf2061b629f46e8011029537ab69050d946517fd983b2574e38894edbc4d19",
+      "new_capture": false,
+      "reused": true,
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=prompt",
+        "title": "Nueva misión Agente Personalizado | Hellotext",
+        "locale": "es",
+        "viewport": [
+          1400,
+          900
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "permission_before": {
+            "permission": "default",
+            "subscriptions": [
+              false
+            ]
+          },
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "native": {
+        "output": "/private/tmp/hellotext-playbook-customization-editorial-20261002/native/prompt-es-original.png",
+        "sha256": "8eaf2061b629f46e8011029537ab69050d946517fd983b2574e38894edbc4d19",
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=prompt",
+        "locale": "es",
+        "cssViewport": [
+          1400,
+          900
+        ],
+        "browserDpr": 2,
+        "clip": [
+          52,
+          121,
+          628,
+          554
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1256,
+          1108
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "permission_after": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=prompt",
+        "title": "Nueva misión Agente Personalizado | Hellotext",
+        "locale": "es",
+        "permission": "default",
+        "subscriptions": [
+          {
+            "scope": "http://127.0.0.1:3192/",
+            "script": "http://127.0.0.1:3192/service_worker.js",
+            "subscription": false
+          }
+        ],
+        "userDisabled": null,
+        "migration": null,
+        "dpr": 2,
+        "zoom": 1,
+        "pid": 57358,
+        "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "state": "Real empty unsaved Custom Agent component; no text/file/URL added, Save/Enable/Enter/Add/Playground not used. Header and complete control; entire footer omitted.",
+      "pixels": [
+        1256,
+        1108
+      ],
+      "logical_size": [
+        628.0,
+        554.0
+      ],
+      "density": 2,
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "9928df1558a2b22b5d7e45c14e5a83f0296fe3e9b87d6066c4ff7a05b561fdb2",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 646.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Current consumer pending local/protected/public verification; original historical publication evidence retained.",
+      "historical_source_record": {
+        "name": "prompt-es",
+        "concept": "prompt",
+        "locale": "es",
+        "mobile": false,
+        "published_asset": "images/journeys/how-to-customize-a-playbook-safely/prompt-es.png",
+        "source": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/prompt-es-original.png",
+        "sha256": "8eaf2061b629f46e8011029537ab69050d946517fd983b2574e38894edbc4d19",
+        "new_capture": true,
+        "reused": false,
+        "ui_guard": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=prompt",
+          "title": "Nueva misión Agente Personalizado | Hellotext",
+          "locale": "es",
+          "viewport": [
+            1400,
+            900
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            0
+          ],
+          "guard": {
+            "pid": 57358,
+            "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+            "port": 9460,
+            "account": "design-system@example.test",
+            "permission_before": {
+              "permission": "default",
+              "subscriptions": [
+                false
+              ]
+            },
+            "single_local_page": true,
+            "color": "display-p3-d65"
+          }
+        },
+        "native": {
+          "output": "/private/tmp/hellotext-playbook-customization-editorial-20261002/native/prompt-es-original.png",
+          "sha256": "8eaf2061b629f46e8011029537ab69050d946517fd983b2574e38894edbc4d19",
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=prompt",
+          "locale": "es",
+          "cssViewport": [
+            1400,
+            900
+          ],
+          "browserDpr": 2,
+          "clip": [
+            52,
+            121,
+            628,
+            554
+          ],
+          "pageScroll": [
+            0,
+            0
+          ],
+          "pixelSize": [
+            1256,
+            1108
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "isolated Chrome compositor via CDP"
+        },
+        "permission_after": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=prompt",
+          "title": "Nueva misión Agente Personalizado | Hellotext",
+          "locale": "es",
+          "permission": "default",
+          "subscriptions": [
+            {
+              "scope": "http://127.0.0.1:3192/",
+              "script": "http://127.0.0.1:3192/service_worker.js",
+              "subscription": false
+            }
+          ],
+          "userDisabled": null,
+          "migration": null,
+          "dpr": 2,
+          "zoom": 1,
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
+        },
+        "observed_http_methods": [
+          "GET"
+        ],
+        "state": "Real empty unsaved Custom Agent component; no text/file/URL added, Save/Enable/Enter/Add/Playground not used. Header and complete control; entire footer omitted.",
+        "pixels": [
+          1256,
+          1108
+        ],
+        "logical_size": [
+          628.0,
+          554.0
+        ],
+        "density": 2,
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "9928df1558a2b22b5d7e45c14e5a83f0296fe3e9b87d6066c4ff7a05b561fdb2",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 646.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "name": "prompt-es-mobile",
+      "concept": "prompt",
+      "locale": "es",
+      "mobile": true,
+      "published_asset": "images/journeys/how-to-customize-a-playbook-safely/prompt-es-mobile.png",
+      "source": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/prompt-es-mobile-original.png",
+      "sha256": "c99d3ae1c27595677f65b8db6de96a2e39e7d846ebec1116cfe31bd061b8a9c6",
+      "new_capture": false,
+      "reused": true,
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=prompt",
+        "title": "Nueva misión Agente Personalizado | Hellotext",
+        "locale": "es",
+        "viewport": [
+          430,
+          900
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "permission_before": {
+            "permission": "default",
+            "subscriptions": [
+              false
+            ]
+          },
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "native": {
+        "output": "/private/tmp/hellotext-playbook-customization-editorial-20261002/native/prompt-es-mobile-original.png",
+        "sha256": "c99d3ae1c27595677f65b8db6de96a2e39e7d846ebec1116cfe31bd061b8a9c6",
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=prompt",
+        "locale": "es",
+        "cssViewport": [
+          430,
+          900
+        ],
+        "browserDpr": 2,
+        "clip": [
+          4,
+          117,
+          422,
+          478
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          844,
+          956
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "permission_after": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=prompt",
+        "title": "Nueva misión Agente Personalizado | Hellotext",
+        "locale": "es",
+        "permission": "default",
+        "subscriptions": [
+          {
+            "scope": "http://127.0.0.1:3192/",
+            "script": "http://127.0.0.1:3192/service_worker.js",
+            "subscription": false
+          }
+        ],
+        "userDisabled": null,
+        "migration": null,
+        "dpr": 2,
+        "zoom": 1,
+        "pid": 57358,
+        "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "state": "Real empty unsaved Custom Agent component; no text/file/URL added, Save/Enable/Enter/Add/Playground not used. Header and complete control; entire footer omitted.",
+      "pixels": [
+        844,
+        956
+      ],
+      "logical_size": [
+        422.0,
+        478.0
+      ],
+      "density": 2,
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "7245019ee45253b06ccd14fa3368a4950a76aed7e538b3ed28b84c9412ad51d6",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 440.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Current consumer pending local/protected/public verification; original historical publication evidence retained.",
+      "historical_source_record": {
+        "name": "prompt-es-mobile",
+        "concept": "prompt",
+        "locale": "es",
+        "mobile": true,
+        "published_asset": "images/journeys/how-to-customize-a-playbook-safely/prompt-es-mobile.png",
+        "source": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/prompt-es-mobile-original.png",
+        "sha256": "c99d3ae1c27595677f65b8db6de96a2e39e7d846ebec1116cfe31bd061b8a9c6",
+        "new_capture": true,
+        "reused": false,
+        "ui_guard": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=prompt",
+          "title": "Nueva misión Agente Personalizado | Hellotext",
+          "locale": "es",
+          "viewport": [
+            430,
+            900
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            0
+          ],
+          "guard": {
+            "pid": 57358,
+            "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+            "port": 9460,
+            "account": "design-system@example.test",
+            "permission_before": {
+              "permission": "default",
+              "subscriptions": [
+                false
+              ]
+            },
+            "single_local_page": true,
+            "color": "display-p3-d65"
+          }
+        },
+        "native": {
+          "output": "/private/tmp/hellotext-playbook-customization-editorial-20261002/native/prompt-es-mobile-original.png",
+          "sha256": "c99d3ae1c27595677f65b8db6de96a2e39e7d846ebec1116cfe31bd061b8a9c6",
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=prompt",
+          "locale": "es",
+          "cssViewport": [
+            430,
+            900
+          ],
+          "browserDpr": 2,
+          "clip": [
+            4,
+            117,
+            422,
+            478
+          ],
+          "pageScroll": [
+            0,
+            0
+          ],
+          "pixelSize": [
+            844,
+            956
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "isolated Chrome compositor via CDP"
+        },
+        "permission_after": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=prompt",
+          "title": "Nueva misión Agente Personalizado | Hellotext",
+          "locale": "es",
+          "permission": "default",
+          "subscriptions": [
+            {
+              "scope": "http://127.0.0.1:3192/",
+              "script": "http://127.0.0.1:3192/service_worker.js",
+              "subscription": false
+            }
+          ],
+          "userDisabled": null,
+          "migration": null,
+          "dpr": 2,
+          "zoom": 1,
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
+        },
+        "observed_http_methods": [
+          "GET"
+        ],
+        "state": "Real empty unsaved Custom Agent component; no text/file/URL added, Save/Enable/Enter/Add/Playground not used. Header and complete control; entire footer omitted.",
+        "pixels": [
+          844,
+          956
+        ],
+        "logical_size": [
+          422.0,
+          478.0
+        ],
+        "density": 2,
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "7245019ee45253b06ccd14fa3368a4950a76aed7e538b3ed28b84c9412ad51d6",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 440.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "name": "upload-es",
+      "concept": "upload",
+      "locale": "es",
+      "mobile": false,
+      "published_asset": "images/journeys/how-to-customize-a-playbook-safely/upload-es.png",
+      "source": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/upload-es-original.png",
+      "sha256": "0234f096438a251156c5b3d34a412eb1b918cf7055ecd8127992b2d19ce182db",
+      "new_capture": false,
+      "reused": true,
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+        "title": "Nueva misión Agente Personalizado | Hellotext",
+        "locale": "es",
+        "viewport": [
+          1400,
+          900
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "permission_before": {
+            "permission": "default",
+            "subscriptions": [
+              false
+            ]
+          },
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "native": {
+        "output": "/private/tmp/hellotext-playbook-customization-editorial-20261002/native/upload-es-original.png",
+        "sha256": "0234f096438a251156c5b3d34a412eb1b918cf7055ecd8127992b2d19ce182db",
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+        "locale": "es",
+        "cssViewport": [
+          1400,
+          900
+        ],
+        "browserDpr": 2,
+        "clip": [
+          52,
+          121,
+          628,
+          366
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1256,
+          732
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "permission_after": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+        "title": "Nueva misión Agente Personalizado | Hellotext",
+        "locale": "es",
+        "permission": "default",
+        "subscriptions": [
+          {
+            "scope": "http://127.0.0.1:3192/",
+            "script": "http://127.0.0.1:3192/service_worker.js",
+            "subscription": false
+          }
+        ],
+        "userDisabled": null,
+        "migration": null,
+        "dpr": 2,
+        "zoom": 1,
+        "pid": 57358,
+        "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "state": "Real empty unsaved Custom Agent component; no text/file/URL added, Save/Enable/Enter/Add/Playground not used. Header and complete control; entire footer omitted.",
+      "pixels": [
+        1256,
+        732
+      ],
+      "logical_size": [
+        628.0,
+        366.0
+      ],
+      "density": 2,
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "f4231caa64846ffdb7535777a1cba49b1ab9f5c4b5ba55872d87ddea42031840",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 646.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Current consumer pending local/protected/public verification; original historical publication evidence retained.",
+      "historical_source_record": {
+        "name": "upload-es",
+        "concept": "upload",
+        "locale": "es",
+        "mobile": false,
+        "published_asset": "images/journeys/how-to-customize-a-playbook-safely/upload-es.png",
+        "source": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/upload-es-original.png",
+        "sha256": "0234f096438a251156c5b3d34a412eb1b918cf7055ecd8127992b2d19ce182db",
+        "new_capture": true,
+        "reused": false,
+        "ui_guard": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+          "title": "Nueva misión Agente Personalizado | Hellotext",
+          "locale": "es",
+          "viewport": [
+            1400,
+            900
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            0
+          ],
+          "guard": {
+            "pid": 57358,
+            "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+            "port": 9460,
+            "account": "design-system@example.test",
+            "permission_before": {
+              "permission": "default",
+              "subscriptions": [
+                false
+              ]
+            },
+            "single_local_page": true,
+            "color": "display-p3-d65"
+          }
+        },
+        "native": {
+          "output": "/private/tmp/hellotext-playbook-customization-editorial-20261002/native/upload-es-original.png",
+          "sha256": "0234f096438a251156c5b3d34a412eb1b918cf7055ecd8127992b2d19ce182db",
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+          "locale": "es",
+          "cssViewport": [
+            1400,
+            900
+          ],
+          "browserDpr": 2,
+          "clip": [
+            52,
+            121,
+            628,
+            366
+          ],
+          "pageScroll": [
+            0,
+            0
+          ],
+          "pixelSize": [
+            1256,
+            732
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "isolated Chrome compositor via CDP"
+        },
+        "permission_after": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+          "title": "Nueva misión Agente Personalizado | Hellotext",
+          "locale": "es",
+          "permission": "default",
+          "subscriptions": [
+            {
+              "scope": "http://127.0.0.1:3192/",
+              "script": "http://127.0.0.1:3192/service_worker.js",
+              "subscription": false
+            }
+          ],
+          "userDisabled": null,
+          "migration": null,
+          "dpr": 2,
+          "zoom": 1,
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
+        },
+        "observed_http_methods": [
+          "GET"
+        ],
+        "state": "Real empty unsaved Custom Agent component; no text/file/URL added, Save/Enable/Enter/Add/Playground not used. Header and complete control; entire footer omitted.",
+        "pixels": [
+          1256,
+          732
+        ],
+        "logical_size": [
+          628.0,
+          366.0
+        ],
+        "density": 2,
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "f4231caa64846ffdb7535777a1cba49b1ab9f5c4b5ba55872d87ddea42031840",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 646.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "name": "upload-es-mobile",
+      "concept": "upload",
+      "locale": "es",
+      "mobile": true,
+      "published_asset": "images/journeys/how-to-customize-a-playbook-safely/upload-es-mobile.png",
+      "source": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/upload-es-mobile-original.png",
+      "sha256": "a621c5d4b43684ef799ae062ae426a13bf4dffac82787c36ae2e938ae22ba7e0",
+      "new_capture": false,
+      "reused": true,
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+        "title": "Nueva misión Agente Personalizado | Hellotext",
+        "locale": "es",
+        "viewport": [
+          430,
+          900
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "permission_before": {
+            "permission": "default",
+            "subscriptions": [
+              false
+            ]
+          },
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "native": {
+        "output": "/private/tmp/hellotext-playbook-customization-editorial-20261002/native/upload-es-mobile-original.png",
+        "sha256": "a621c5d4b43684ef799ae062ae426a13bf4dffac82787c36ae2e938ae22ba7e0",
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+        "locale": "es",
+        "cssViewport": [
+          430,
+          900
+        ],
+        "browserDpr": 2,
+        "clip": [
+          4,
+          117,
+          422,
+          402
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          844,
+          804
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "permission_after": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+        "title": "Nueva misión Agente Personalizado | Hellotext",
+        "locale": "es",
+        "permission": "default",
+        "subscriptions": [
+          {
+            "scope": "http://127.0.0.1:3192/",
+            "script": "http://127.0.0.1:3192/service_worker.js",
+            "subscription": false
+          }
+        ],
+        "userDisabled": null,
+        "migration": null,
+        "dpr": 2,
+        "zoom": 1,
+        "pid": 57358,
+        "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "state": "Real empty unsaved Custom Agent component; no text/file/URL added, Save/Enable/Enter/Add/Playground not used. Header and complete control; entire footer omitted.",
+      "pixels": [
+        844,
+        804
+      ],
+      "logical_size": [
+        422.0,
+        402.0
+      ],
+      "density": 2,
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "7fd2be71cf60a61dc675811487ee0a7ff17826319d33f8fa6dc40a442bc7b347",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 440.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Current consumer pending local/protected/public verification; original historical publication evidence retained.",
+      "historical_source_record": {
+        "name": "upload-es-mobile",
+        "concept": "upload",
+        "locale": "es",
+        "mobile": true,
+        "published_asset": "images/journeys/how-to-customize-a-playbook-safely/upload-es-mobile.png",
+        "source": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/upload-es-mobile-original.png",
+        "sha256": "a621c5d4b43684ef799ae062ae426a13bf4dffac82787c36ae2e938ae22ba7e0",
+        "new_capture": true,
+        "reused": false,
+        "ui_guard": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+          "title": "Nueva misión Agente Personalizado | Hellotext",
+          "locale": "es",
+          "viewport": [
+            430,
+            900
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            0
+          ],
+          "guard": {
+            "pid": 57358,
+            "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+            "port": 9460,
+            "account": "design-system@example.test",
+            "permission_before": {
+              "permission": "default",
+              "subscriptions": [
+                false
+              ]
+            },
+            "single_local_page": true,
+            "color": "display-p3-d65"
+          }
+        },
+        "native": {
+          "output": "/private/tmp/hellotext-playbook-customization-editorial-20261002/native/upload-es-mobile-original.png",
+          "sha256": "a621c5d4b43684ef799ae062ae426a13bf4dffac82787c36ae2e938ae22ba7e0",
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+          "locale": "es",
+          "cssViewport": [
+            430,
+            900
+          ],
+          "browserDpr": 2,
+          "clip": [
+            4,
+            117,
+            422,
+            402
+          ],
+          "pageScroll": [
+            0,
+            0
+          ],
+          "pixelSize": [
+            844,
+            804
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "isolated Chrome compositor via CDP"
+        },
+        "permission_after": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+          "title": "Nueva misión Agente Personalizado | Hellotext",
+          "locale": "es",
+          "permission": "default",
+          "subscriptions": [
+            {
+              "scope": "http://127.0.0.1:3192/",
+              "script": "http://127.0.0.1:3192/service_worker.js",
+              "subscription": false
+            }
+          ],
+          "userDisabled": null,
+          "migration": null,
+          "dpr": 2,
+          "zoom": 1,
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
+        },
+        "observed_http_methods": [
+          "GET"
+        ],
+        "state": "Real empty unsaved Custom Agent component; no text/file/URL added, Save/Enable/Enter/Add/Playground not used. Header and complete control; entire footer omitted.",
+        "pixels": [
+          844,
+          804
+        ],
+        "logical_size": [
+          422.0,
+          402.0
+        ],
+        "density": 2,
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "7fd2be71cf60a61dc675811487ee0a7ff17826319d33f8fa6dc40a442bc7b347",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 440.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "name": "web_search-es",
+      "concept": "web_search",
+      "locale": "es",
+      "mobile": false,
+      "published_asset": "images/journeys/how-to-customize-a-playbook-safely/web_search-es.png",
+      "source": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/web_search-es-original.png",
+      "sha256": "88c9fed5e13991d0f77cfd6acf51bc618a671f0dae2c90fb1754ecc01c54937f",
+      "new_capture": false,
+      "reused": true,
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=web_search",
+        "title": "Nueva misión Agente Personalizado | Hellotext",
+        "locale": "es",
+        "viewport": [
+          1400,
+          900
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "permission_before": {
+            "permission": "default",
+            "subscriptions": [
+              false
+            ]
+          },
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "native": {
+        "output": "/private/tmp/hellotext-playbook-customization-editorial-20261002/native/web_search-es-original.png",
+        "sha256": "88c9fed5e13991d0f77cfd6acf51bc618a671f0dae2c90fb1754ecc01c54937f",
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=web_search",
+        "locale": "es",
+        "cssViewport": [
+          1400,
+          900
+        ],
+        "browserDpr": 2,
+        "clip": [
+          52,
+          125,
+          628,
+          192
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1256,
+          384
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "permission_after": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=web_search",
+        "title": "Nueva misión Agente Personalizado | Hellotext",
+        "locale": "es",
+        "permission": "default",
+        "subscriptions": [
+          {
+            "scope": "http://127.0.0.1:3192/",
+            "script": "http://127.0.0.1:3192/service_worker.js",
+            "subscription": false
+          }
+        ],
+        "userDisabled": null,
+        "migration": null,
+        "dpr": 2,
+        "zoom": 1,
+        "pid": 57358,
+        "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "state": "Real empty unsaved Custom Agent component; no text/file/URL added, Save/Enable/Enter/Add/Playground not used. Header and complete control; entire footer omitted.",
+      "pixels": [
+        1256,
+        384
+      ],
+      "logical_size": [
+        628.0,
+        192.0
+      ],
+      "density": 2,
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "d2836c227a3b85f80304f960df10fabc6c600e5d65ab011a63188c69993d9ab2",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 646.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Current consumer pending local/protected/public verification; original historical publication evidence retained.",
+      "historical_source_record": {
+        "name": "web_search-es",
+        "concept": "web_search",
+        "locale": "es",
+        "mobile": false,
+        "published_asset": "images/journeys/how-to-customize-a-playbook-safely/web_search-es.png",
+        "source": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/web_search-es-original.png",
+        "sha256": "88c9fed5e13991d0f77cfd6acf51bc618a671f0dae2c90fb1754ecc01c54937f",
+        "new_capture": true,
+        "reused": false,
+        "ui_guard": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=web_search",
+          "title": "Nueva misión Agente Personalizado | Hellotext",
+          "locale": "es",
+          "viewport": [
+            1400,
+            900
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            0
+          ],
+          "guard": {
+            "pid": 57358,
+            "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+            "port": 9460,
+            "account": "design-system@example.test",
+            "permission_before": {
+              "permission": "default",
+              "subscriptions": [
+                false
+              ]
+            },
+            "single_local_page": true,
+            "color": "display-p3-d65"
+          }
+        },
+        "native": {
+          "output": "/private/tmp/hellotext-playbook-customization-editorial-20261002/native/web_search-es-original.png",
+          "sha256": "88c9fed5e13991d0f77cfd6acf51bc618a671f0dae2c90fb1754ecc01c54937f",
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=web_search",
+          "locale": "es",
+          "cssViewport": [
+            1400,
+            900
+          ],
+          "browserDpr": 2,
+          "clip": [
+            52,
+            125,
+            628,
+            192
+          ],
+          "pageScroll": [
+            0,
+            0
+          ],
+          "pixelSize": [
+            1256,
+            384
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "isolated Chrome compositor via CDP"
+        },
+        "permission_after": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=web_search",
+          "title": "Nueva misión Agente Personalizado | Hellotext",
+          "locale": "es",
+          "permission": "default",
+          "subscriptions": [
+            {
+              "scope": "http://127.0.0.1:3192/",
+              "script": "http://127.0.0.1:3192/service_worker.js",
+              "subscription": false
+            }
+          ],
+          "userDisabled": null,
+          "migration": null,
+          "dpr": 2,
+          "zoom": 1,
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
+        },
+        "observed_http_methods": [
+          "GET"
+        ],
+        "state": "Real empty unsaved Custom Agent component; no text/file/URL added, Save/Enable/Enter/Add/Playground not used. Header and complete control; entire footer omitted.",
+        "pixels": [
+          1256,
+          384
+        ],
+        "logical_size": [
+          628.0,
+          192.0
+        ],
+        "density": 2,
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "d2836c227a3b85f80304f960df10fabc6c600e5d65ab011a63188c69993d9ab2",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 646.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "name": "web_search-es-mobile",
+      "concept": "web_search",
+      "locale": "es",
+      "mobile": true,
+      "published_asset": "images/journeys/how-to-customize-a-playbook-safely/web_search-es-mobile.png",
+      "source": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/web_search-es-mobile-original.png",
+      "sha256": "364ff829a380fb4a643dbcd9f7027781b0aac3aa5ce56bc073d4cf44f88395d2",
+      "new_capture": false,
+      "reused": true,
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=web_search",
+        "title": "Nueva misión Agente Personalizado | Hellotext",
+        "locale": "es",
+        "viewport": [
+          430,
+          900
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "permission_before": {
+            "permission": "default",
+            "subscriptions": [
+              false
+            ]
+          },
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "native": {
+        "output": "/private/tmp/hellotext-playbook-customization-editorial-20261002/native/web_search-es-mobile-original.png",
+        "sha256": "364ff829a380fb4a643dbcd9f7027781b0aac3aa5ce56bc073d4cf44f88395d2",
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=web_search",
+        "locale": "es",
+        "cssViewport": [
+          430,
+          900
+        ],
+        "browserDpr": 2,
+        "clip": [
+          4,
+          121,
+          422,
+          204
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          844,
+          408
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "permission_after": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=web_search",
+        "title": "Nueva misión Agente Personalizado | Hellotext",
+        "locale": "es",
+        "permission": "default",
+        "subscriptions": [
+          {
+            "scope": "http://127.0.0.1:3192/",
+            "script": "http://127.0.0.1:3192/service_worker.js",
+            "subscription": false
+          }
+        ],
+        "userDisabled": null,
+        "migration": null,
+        "dpr": 2,
+        "zoom": 1,
+        "pid": 57358,
+        "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "state": "Real empty unsaved Custom Agent component; no text/file/URL added, Save/Enable/Enter/Add/Playground not used. Header and complete control; entire footer omitted.",
+      "pixels": [
+        844,
+        408
+      ],
+      "logical_size": [
+        422.0,
+        204.0
+      ],
+      "density": 2,
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "fab957b77b2bad2549d57c937c6e0751faf0f93d42f4d298540d83774fd9fb18",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 440.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Current consumer pending local/protected/public verification; original historical publication evidence retained.",
+      "historical_source_record": {
+        "name": "web_search-es-mobile",
+        "concept": "web_search",
+        "locale": "es",
+        "mobile": true,
+        "published_asset": "images/journeys/how-to-customize-a-playbook-safely/web_search-es-mobile.png",
+        "source": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/web_search-es-mobile-original.png",
+        "sha256": "364ff829a380fb4a643dbcd9f7027781b0aac3aa5ce56bc073d4cf44f88395d2",
+        "new_capture": true,
+        "reused": false,
+        "ui_guard": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=web_search",
+          "title": "Nueva misión Agente Personalizado | Hellotext",
+          "locale": "es",
+          "viewport": [
+            430,
+            900
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            0
+          ],
+          "guard": {
+            "pid": 57358,
+            "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+            "port": 9460,
+            "account": "design-system@example.test",
+            "permission_before": {
+              "permission": "default",
+              "subscriptions": [
+                false
+              ]
+            },
+            "single_local_page": true,
+            "color": "display-p3-d65"
+          }
+        },
+        "native": {
+          "output": "/private/tmp/hellotext-playbook-customization-editorial-20261002/native/web_search-es-mobile-original.png",
+          "sha256": "364ff829a380fb4a643dbcd9f7027781b0aac3aa5ce56bc073d4cf44f88395d2",
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=web_search",
+          "locale": "es",
+          "cssViewport": [
+            430,
+            900
+          ],
+          "browserDpr": 2,
+          "clip": [
+            4,
+            121,
+            422,
+            204
+          ],
+          "pageScroll": [
+            0,
+            0
+          ],
+          "pixelSize": [
+            844,
+            408
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "isolated Chrome compositor via CDP"
+        },
+        "permission_after": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=web_search",
+          "title": "Nueva misión Agente Personalizado | Hellotext",
+          "locale": "es",
+          "permission": "default",
+          "subscriptions": [
+            {
+              "scope": "http://127.0.0.1:3192/",
+              "script": "http://127.0.0.1:3192/service_worker.js",
+              "subscription": false
+            }
+          ],
+          "userDisabled": null,
+          "migration": null,
+          "dpr": 2,
+          "zoom": 1,
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
+        },
+        "observed_http_methods": [
+          "GET"
+        ],
+        "state": "Real empty unsaved Custom Agent component; no text/file/URL added, Save/Enable/Enter/Add/Playground not used. Header and complete control; entire footer omitted.",
+        "pixels": [
+          844,
+          408
+        ],
+        "logical_size": [
+          422.0,
+          204.0
+        ],
+        "density": 2,
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "fab957b77b2bad2549d57c937c6e0751faf0f93d42f4d298540d83774fd9fb18",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 440.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "name": "prompt-en",
+      "concept": "prompt",
+      "locale": "en",
+      "mobile": false,
+      "published_asset": "images/journeys/how-to-customize-a-playbook-safely/prompt-en.png",
+      "source": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/prompt-en-original.png",
+      "sha256": "64ea8b35decf0e03633f421de5efb4b6045be7c935aed6f4072fc8138b11d99e",
+      "new_capture": false,
+      "reused": true,
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=prompt",
+        "title": "New Custom Agent playbook | Hellotext",
+        "locale": "en",
+        "viewport": [
+          1400,
+          900
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "permission_before": {
+            "permission": "default",
+            "subscriptions": [
+              false
+            ]
+          },
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "native": {
+        "output": "/private/tmp/hellotext-playbook-customization-editorial-20261002/native/prompt-en-original.png",
+        "sha256": "64ea8b35decf0e03633f421de5efb4b6045be7c935aed6f4072fc8138b11d99e",
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=prompt",
+        "locale": "en",
+        "cssViewport": [
+          1400,
+          900
+        ],
+        "browserDpr": 2,
+        "clip": [
+          52,
+          121,
+          628,
+          554
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1256,
+          1108
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "permission_after": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=prompt",
+        "title": "New Custom Agent playbook | Hellotext",
+        "locale": "en",
+        "permission": "default",
+        "subscriptions": [
+          {
+            "scope": "http://127.0.0.1:3192/",
+            "script": "http://127.0.0.1:3192/service_worker.js",
+            "subscription": false
+          }
+        ],
+        "userDisabled": null,
+        "migration": null,
+        "dpr": 2,
+        "zoom": 1,
+        "pid": 57358,
+        "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "state": "Real empty unsaved Custom Agent component; no text/file/URL added, Save/Enable/Enter/Add/Playground not used. Header and complete control; entire footer omitted.",
+      "pixels": [
+        1256,
+        1108
+      ],
+      "logical_size": [
+        628.0,
+        554.0
+      ],
+      "density": 2,
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "88ee984e77a9f2446e3b1e94fbd9a37916bcf8a0f56284d47993cd393b95266d",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 646.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Current consumer pending local/protected/public verification; original historical publication evidence retained.",
+      "historical_source_record": {
+        "name": "prompt-en",
+        "concept": "prompt",
+        "locale": "en",
+        "mobile": false,
+        "published_asset": "images/journeys/how-to-customize-a-playbook-safely/prompt-en.png",
+        "source": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/prompt-en-original.png",
+        "sha256": "64ea8b35decf0e03633f421de5efb4b6045be7c935aed6f4072fc8138b11d99e",
+        "new_capture": true,
+        "reused": false,
+        "ui_guard": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=prompt",
+          "title": "New Custom Agent playbook | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1400,
+            900
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            0
+          ],
+          "guard": {
+            "pid": 57358,
+            "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+            "port": 9460,
+            "account": "design-system@example.test",
+            "permission_before": {
+              "permission": "default",
+              "subscriptions": [
+                false
+              ]
+            },
+            "single_local_page": true,
+            "color": "display-p3-d65"
+          }
+        },
+        "native": {
+          "output": "/private/tmp/hellotext-playbook-customization-editorial-20261002/native/prompt-en-original.png",
+          "sha256": "64ea8b35decf0e03633f421de5efb4b6045be7c935aed6f4072fc8138b11d99e",
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=prompt",
+          "locale": "en",
+          "cssViewport": [
+            1400,
+            900
+          ],
+          "browserDpr": 2,
+          "clip": [
+            52,
+            121,
+            628,
+            554
+          ],
+          "pageScroll": [
+            0,
+            0
+          ],
+          "pixelSize": [
+            1256,
+            1108
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "isolated Chrome compositor via CDP"
+        },
+        "permission_after": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=prompt",
+          "title": "New Custom Agent playbook | Hellotext",
+          "locale": "en",
+          "permission": "default",
+          "subscriptions": [
+            {
+              "scope": "http://127.0.0.1:3192/",
+              "script": "http://127.0.0.1:3192/service_worker.js",
+              "subscription": false
+            }
+          ],
+          "userDisabled": null,
+          "migration": null,
+          "dpr": 2,
+          "zoom": 1,
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
+        },
+        "observed_http_methods": [
+          "GET"
+        ],
+        "state": "Real empty unsaved Custom Agent component; no text/file/URL added, Save/Enable/Enter/Add/Playground not used. Header and complete control; entire footer omitted.",
+        "pixels": [
+          1256,
+          1108
+        ],
+        "logical_size": [
+          628.0,
+          554.0
+        ],
+        "density": 2,
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "88ee984e77a9f2446e3b1e94fbd9a37916bcf8a0f56284d47993cd393b95266d",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 646.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "name": "prompt-en-mobile",
+      "concept": "prompt",
+      "locale": "en",
+      "mobile": true,
+      "published_asset": "images/journeys/how-to-customize-a-playbook-safely/prompt-en-mobile.png",
+      "source": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/prompt-en-mobile-original.png",
+      "sha256": "168c62527edf6a1d4663857308cef0bec7540cfa54876c8178a3ecbd92503d9c",
+      "new_capture": false,
+      "reused": true,
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=prompt",
+        "title": "New Custom Agent playbook | Hellotext",
+        "locale": "en",
+        "viewport": [
+          430,
+          900
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "permission_before": {
+            "permission": "default",
+            "subscriptions": [
+              false
+            ]
+          },
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "native": {
+        "output": "/private/tmp/hellotext-playbook-customization-editorial-20261002/native/prompt-en-mobile-original.png",
+        "sha256": "168c62527edf6a1d4663857308cef0bec7540cfa54876c8178a3ecbd92503d9c",
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=prompt",
+        "locale": "en",
+        "cssViewport": [
+          430,
+          900
+        ],
+        "browserDpr": 2,
+        "clip": [
+          4,
+          117,
+          422,
+          478
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          844,
+          956
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "permission_after": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=prompt",
+        "title": "New Custom Agent playbook | Hellotext",
+        "locale": "en",
+        "permission": "default",
+        "subscriptions": [
+          {
+            "scope": "http://127.0.0.1:3192/",
+            "script": "http://127.0.0.1:3192/service_worker.js",
+            "subscription": false
+          }
+        ],
+        "userDisabled": null,
+        "migration": null,
+        "dpr": 2,
+        "zoom": 1,
+        "pid": 57358,
+        "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "state": "Real empty unsaved Custom Agent component; no text/file/URL added, Save/Enable/Enter/Add/Playground not used. Header and complete control; entire footer omitted.",
+      "pixels": [
+        844,
+        956
+      ],
+      "logical_size": [
+        422.0,
+        478.0
+      ],
+      "density": 2,
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "29e4efafa3725339471d260323532dad1697c2a70cd27889f8c1442c871c9df7",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 440.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Current consumer pending local/protected/public verification; original historical publication evidence retained.",
+      "historical_source_record": {
+        "name": "prompt-en-mobile",
+        "concept": "prompt",
+        "locale": "en",
+        "mobile": true,
+        "published_asset": "images/journeys/how-to-customize-a-playbook-safely/prompt-en-mobile.png",
+        "source": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/prompt-en-mobile-original.png",
+        "sha256": "168c62527edf6a1d4663857308cef0bec7540cfa54876c8178a3ecbd92503d9c",
+        "new_capture": true,
+        "reused": false,
+        "ui_guard": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=prompt",
+          "title": "New Custom Agent playbook | Hellotext",
+          "locale": "en",
+          "viewport": [
+            430,
+            900
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            0
+          ],
+          "guard": {
+            "pid": 57358,
+            "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+            "port": 9460,
+            "account": "design-system@example.test",
+            "permission_before": {
+              "permission": "default",
+              "subscriptions": [
+                false
+              ]
+            },
+            "single_local_page": true,
+            "color": "display-p3-d65"
+          }
+        },
+        "native": {
+          "output": "/private/tmp/hellotext-playbook-customization-editorial-20261002/native/prompt-en-mobile-original.png",
+          "sha256": "168c62527edf6a1d4663857308cef0bec7540cfa54876c8178a3ecbd92503d9c",
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=prompt",
+          "locale": "en",
+          "cssViewport": [
+            430,
+            900
+          ],
+          "browserDpr": 2,
+          "clip": [
+            4,
+            117,
+            422,
+            478
+          ],
+          "pageScroll": [
+            0,
+            0
+          ],
+          "pixelSize": [
+            844,
+            956
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "isolated Chrome compositor via CDP"
+        },
+        "permission_after": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=prompt",
+          "title": "New Custom Agent playbook | Hellotext",
+          "locale": "en",
+          "permission": "default",
+          "subscriptions": [
+            {
+              "scope": "http://127.0.0.1:3192/",
+              "script": "http://127.0.0.1:3192/service_worker.js",
+              "subscription": false
+            }
+          ],
+          "userDisabled": null,
+          "migration": null,
+          "dpr": 2,
+          "zoom": 1,
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
+        },
+        "observed_http_methods": [
+          "GET"
+        ],
+        "state": "Real empty unsaved Custom Agent component; no text/file/URL added, Save/Enable/Enter/Add/Playground not used. Header and complete control; entire footer omitted.",
+        "pixels": [
+          844,
+          956
+        ],
+        "logical_size": [
+          422.0,
+          478.0
+        ],
+        "density": 2,
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "29e4efafa3725339471d260323532dad1697c2a70cd27889f8c1442c871c9df7",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 440.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "name": "upload-en",
+      "concept": "upload",
+      "locale": "en",
+      "mobile": false,
+      "published_asset": "images/journeys/how-to-customize-a-playbook-safely/upload-en.png",
+      "source": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/upload-en-original.png",
+      "sha256": "39dab76063709ddf8dcc36668aea7cade842a8a920822d00e2e7025359c01950",
+      "new_capture": false,
+      "reused": true,
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+        "title": "New Custom Agent playbook | Hellotext",
+        "locale": "en",
+        "viewport": [
+          1400,
+          900
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "permission_before": {
+            "permission": "default",
+            "subscriptions": [
+              false
+            ]
+          },
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "native": {
+        "output": "/private/tmp/hellotext-playbook-customization-editorial-20261002/native/upload-en-original.png",
+        "sha256": "39dab76063709ddf8dcc36668aea7cade842a8a920822d00e2e7025359c01950",
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+        "locale": "en",
+        "cssViewport": [
+          1400,
+          900
+        ],
+        "browserDpr": 2,
+        "clip": [
+          52,
+          121,
+          628,
+          366
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1256,
+          732
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "permission_after": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+        "title": "New Custom Agent playbook | Hellotext",
+        "locale": "en",
+        "permission": "default",
+        "subscriptions": [
+          {
+            "scope": "http://127.0.0.1:3192/",
+            "script": "http://127.0.0.1:3192/service_worker.js",
+            "subscription": false
+          }
+        ],
+        "userDisabled": null,
+        "migration": null,
+        "dpr": 2,
+        "zoom": 1,
+        "pid": 57358,
+        "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "state": "Real empty unsaved Custom Agent component; no text/file/URL added, Save/Enable/Enter/Add/Playground not used. Header and complete control; entire footer omitted.",
+      "pixels": [
+        1256,
+        732
+      ],
+      "logical_size": [
+        628.0,
+        366.0
+      ],
+      "density": 2,
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "69b79eb4ada40c9479e6a558480ff9ad2a52299687966a1f3cb04be14e42e3b9",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 646.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Current consumer pending local/protected/public verification; original historical publication evidence retained.",
+      "historical_source_record": {
+        "name": "upload-en",
+        "concept": "upload",
+        "locale": "en",
+        "mobile": false,
+        "published_asset": "images/journeys/how-to-customize-a-playbook-safely/upload-en.png",
+        "source": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/upload-en-original.png",
+        "sha256": "39dab76063709ddf8dcc36668aea7cade842a8a920822d00e2e7025359c01950",
+        "new_capture": true,
+        "reused": false,
+        "ui_guard": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+          "title": "New Custom Agent playbook | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1400,
+            900
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            0
+          ],
+          "guard": {
+            "pid": 57358,
+            "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+            "port": 9460,
+            "account": "design-system@example.test",
+            "permission_before": {
+              "permission": "default",
+              "subscriptions": [
+                false
+              ]
+            },
+            "single_local_page": true,
+            "color": "display-p3-d65"
+          }
+        },
+        "native": {
+          "output": "/private/tmp/hellotext-playbook-customization-editorial-20261002/native/upload-en-original.png",
+          "sha256": "39dab76063709ddf8dcc36668aea7cade842a8a920822d00e2e7025359c01950",
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+          "locale": "en",
+          "cssViewport": [
+            1400,
+            900
+          ],
+          "browserDpr": 2,
+          "clip": [
+            52,
+            121,
+            628,
+            366
+          ],
+          "pageScroll": [
+            0,
+            0
+          ],
+          "pixelSize": [
+            1256,
+            732
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "isolated Chrome compositor via CDP"
+        },
+        "permission_after": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+          "title": "New Custom Agent playbook | Hellotext",
+          "locale": "en",
+          "permission": "default",
+          "subscriptions": [
+            {
+              "scope": "http://127.0.0.1:3192/",
+              "script": "http://127.0.0.1:3192/service_worker.js",
+              "subscription": false
+            }
+          ],
+          "userDisabled": null,
+          "migration": null,
+          "dpr": 2,
+          "zoom": 1,
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
+        },
+        "observed_http_methods": [
+          "GET"
+        ],
+        "state": "Real empty unsaved Custom Agent component; no text/file/URL added, Save/Enable/Enter/Add/Playground not used. Header and complete control; entire footer omitted.",
+        "pixels": [
+          1256,
+          732
+        ],
+        "logical_size": [
+          628.0,
+          366.0
+        ],
+        "density": 2,
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "69b79eb4ada40c9479e6a558480ff9ad2a52299687966a1f3cb04be14e42e3b9",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 646.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "name": "upload-en-mobile",
+      "concept": "upload",
+      "locale": "en",
+      "mobile": true,
+      "published_asset": "images/journeys/how-to-customize-a-playbook-safely/upload-en-mobile.png",
+      "source": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/upload-en-mobile-original.png",
+      "sha256": "1ed6d37acc14e4902de468040fb58befa371aa4e4c3221b6f98124a71f97de92",
+      "new_capture": false,
+      "reused": true,
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+        "title": "New Custom Agent playbook | Hellotext",
+        "locale": "en",
+        "viewport": [
+          430,
+          900
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "permission_before": {
+            "permission": "default",
+            "subscriptions": [
+              false
+            ]
+          },
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "native": {
+        "output": "/private/tmp/hellotext-playbook-customization-editorial-20261002/native/upload-en-mobile-original.png",
+        "sha256": "1ed6d37acc14e4902de468040fb58befa371aa4e4c3221b6f98124a71f97de92",
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+        "locale": "en",
+        "cssViewport": [
+          430,
+          900
+        ],
+        "browserDpr": 2,
+        "clip": [
+          4,
+          117,
+          422,
+          402
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          844,
+          804
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "permission_after": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+        "title": "New Custom Agent playbook | Hellotext",
+        "locale": "en",
+        "permission": "default",
+        "subscriptions": [
+          {
+            "scope": "http://127.0.0.1:3192/",
+            "script": "http://127.0.0.1:3192/service_worker.js",
+            "subscription": false
+          }
+        ],
+        "userDisabled": null,
+        "migration": null,
+        "dpr": 2,
+        "zoom": 1,
+        "pid": 57358,
+        "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "state": "Real empty unsaved Custom Agent component; no text/file/URL added, Save/Enable/Enter/Add/Playground not used. Header and complete control; entire footer omitted.",
+      "pixels": [
+        844,
+        804
+      ],
+      "logical_size": [
+        422.0,
+        402.0
+      ],
+      "density": 2,
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "989ead0fa341aad71aa26648052652b1ba7b2d6c8cacaa0c64910f8e68730003",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 440.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Current consumer pending local/protected/public verification; original historical publication evidence retained.",
+      "historical_source_record": {
+        "name": "upload-en-mobile",
+        "concept": "upload",
+        "locale": "en",
+        "mobile": true,
+        "published_asset": "images/journeys/how-to-customize-a-playbook-safely/upload-en-mobile.png",
+        "source": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/upload-en-mobile-original.png",
+        "sha256": "1ed6d37acc14e4902de468040fb58befa371aa4e4c3221b6f98124a71f97de92",
+        "new_capture": true,
+        "reused": false,
+        "ui_guard": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+          "title": "New Custom Agent playbook | Hellotext",
+          "locale": "en",
+          "viewport": [
+            430,
+            900
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            0
+          ],
+          "guard": {
+            "pid": 57358,
+            "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+            "port": 9460,
+            "account": "design-system@example.test",
+            "permission_before": {
+              "permission": "default",
+              "subscriptions": [
+                false
+              ]
+            },
+            "single_local_page": true,
+            "color": "display-p3-d65"
+          }
+        },
+        "native": {
+          "output": "/private/tmp/hellotext-playbook-customization-editorial-20261002/native/upload-en-mobile-original.png",
+          "sha256": "1ed6d37acc14e4902de468040fb58befa371aa4e4c3221b6f98124a71f97de92",
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+          "locale": "en",
+          "cssViewport": [
+            430,
+            900
+          ],
+          "browserDpr": 2,
+          "clip": [
+            4,
+            117,
+            422,
+            402
+          ],
+          "pageScroll": [
+            0,
+            0
+          ],
+          "pixelSize": [
+            844,
+            804
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "isolated Chrome compositor via CDP"
+        },
+        "permission_after": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+          "title": "New Custom Agent playbook | Hellotext",
+          "locale": "en",
+          "permission": "default",
+          "subscriptions": [
+            {
+              "scope": "http://127.0.0.1:3192/",
+              "script": "http://127.0.0.1:3192/service_worker.js",
+              "subscription": false
+            }
+          ],
+          "userDisabled": null,
+          "migration": null,
+          "dpr": 2,
+          "zoom": 1,
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
+        },
+        "observed_http_methods": [
+          "GET"
+        ],
+        "state": "Real empty unsaved Custom Agent component; no text/file/URL added, Save/Enable/Enter/Add/Playground not used. Header and complete control; entire footer omitted.",
+        "pixels": [
+          844,
+          804
+        ],
+        "logical_size": [
+          422.0,
+          402.0
+        ],
+        "density": 2,
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "989ead0fa341aad71aa26648052652b1ba7b2d6c8cacaa0c64910f8e68730003",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 440.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "name": "web_search-en",
+      "concept": "web_search",
+      "locale": "en",
+      "mobile": false,
+      "published_asset": "images/journeys/how-to-customize-a-playbook-safely/web_search-en.png",
+      "source": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/web_search-en-original.png",
+      "sha256": "4336ad08637c31a36fcf67e92368c567e618fe96d135feabff8d2737764e04c7",
+      "new_capture": false,
+      "reused": true,
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=web_search",
+        "title": "New Custom Agent playbook | Hellotext",
+        "locale": "en",
+        "viewport": [
+          1400,
+          900
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "permission_before": {
+            "permission": "default",
+            "subscriptions": [
+              false
+            ]
+          },
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "native": {
+        "output": "/private/tmp/hellotext-playbook-customization-editorial-20261002/native/web_search-en-original.png",
+        "sha256": "4336ad08637c31a36fcf67e92368c567e618fe96d135feabff8d2737764e04c7",
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=web_search",
+        "locale": "en",
+        "cssViewport": [
+          1400,
+          900
+        ],
+        "browserDpr": 2,
+        "clip": [
+          52,
+          125,
+          628,
+          216
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1256,
+          432
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "permission_after": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=web_search",
+        "title": "New Custom Agent playbook | Hellotext",
+        "locale": "en",
+        "permission": "default",
+        "subscriptions": [
+          {
+            "scope": "http://127.0.0.1:3192/",
+            "script": "http://127.0.0.1:3192/service_worker.js",
+            "subscription": false
+          }
+        ],
+        "userDisabled": null,
+        "migration": null,
+        "dpr": 2,
+        "zoom": 1,
+        "pid": 57358,
+        "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "state": "Real empty unsaved Custom Agent component; no text/file/URL added, Save/Enable/Enter/Add/Playground not used. Header and complete control; entire footer omitted.",
+      "pixels": [
+        1256,
+        432
+      ],
+      "logical_size": [
+        628.0,
+        216.0
+      ],
+      "density": 2,
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "ce05895725b1af26378ce2f7563bc237924151f22936f047325a0820dc459d86",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 646.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Current consumer pending local/protected/public verification; original historical publication evidence retained.",
+      "historical_source_record": {
+        "name": "web_search-en",
+        "concept": "web_search",
+        "locale": "en",
+        "mobile": false,
+        "published_asset": "images/journeys/how-to-customize-a-playbook-safely/web_search-en.png",
+        "source": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/web_search-en-original.png",
+        "sha256": "4336ad08637c31a36fcf67e92368c567e618fe96d135feabff8d2737764e04c7",
+        "new_capture": true,
+        "reused": false,
+        "ui_guard": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=web_search",
+          "title": "New Custom Agent playbook | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1400,
+            900
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            0
+          ],
+          "guard": {
+            "pid": 57358,
+            "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+            "port": 9460,
+            "account": "design-system@example.test",
+            "permission_before": {
+              "permission": "default",
+              "subscriptions": [
+                false
+              ]
+            },
+            "single_local_page": true,
+            "color": "display-p3-d65"
+          }
+        },
+        "native": {
+          "output": "/private/tmp/hellotext-playbook-customization-editorial-20261002/native/web_search-en-original.png",
+          "sha256": "4336ad08637c31a36fcf67e92368c567e618fe96d135feabff8d2737764e04c7",
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=web_search",
+          "locale": "en",
+          "cssViewport": [
+            1400,
+            900
+          ],
+          "browserDpr": 2,
+          "clip": [
+            52,
+            125,
+            628,
+            216
+          ],
+          "pageScroll": [
+            0,
+            0
+          ],
+          "pixelSize": [
+            1256,
+            432
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "isolated Chrome compositor via CDP"
+        },
+        "permission_after": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=web_search",
+          "title": "New Custom Agent playbook | Hellotext",
+          "locale": "en",
+          "permission": "default",
+          "subscriptions": [
+            {
+              "scope": "http://127.0.0.1:3192/",
+              "script": "http://127.0.0.1:3192/service_worker.js",
+              "subscription": false
+            }
+          ],
+          "userDisabled": null,
+          "migration": null,
+          "dpr": 2,
+          "zoom": 1,
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
+        },
+        "observed_http_methods": [
+          "GET"
+        ],
+        "state": "Real empty unsaved Custom Agent component; no text/file/URL added, Save/Enable/Enter/Add/Playground not used. Header and complete control; entire footer omitted.",
+        "pixels": [
+          1256,
+          432
+        ],
+        "logical_size": [
+          628.0,
+          216.0
+        ],
+        "density": 2,
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "ce05895725b1af26378ce2f7563bc237924151f22936f047325a0820dc459d86",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 646.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "name": "web_search-en-mobile",
+      "concept": "web_search",
+      "locale": "en",
+      "mobile": true,
+      "published_asset": "images/journeys/how-to-customize-a-playbook-safely/web_search-en-mobile.png",
+      "source": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/web_search-en-mobile-original.png",
+      "sha256": "61a0d21c1723fc520232f1245b1a95fe4eb24e95866609f7b95de15d1e1fd4ca",
+      "new_capture": false,
+      "reused": true,
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=web_search",
+        "title": "New Custom Agent playbook | Hellotext",
+        "locale": "en",
+        "viewport": [
+          430,
+          900
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "permission_before": {
+            "permission": "default",
+            "subscriptions": [
+              false
+            ]
+          },
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "native": {
+        "output": "/private/tmp/hellotext-playbook-customization-editorial-20261002/native/web_search-en-mobile-original.png",
+        "sha256": "61a0d21c1723fc520232f1245b1a95fe4eb24e95866609f7b95de15d1e1fd4ca",
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=web_search",
+        "locale": "en",
+        "cssViewport": [
+          430,
+          900
+        ],
+        "browserDpr": 2,
+        "clip": [
+          4,
+          121,
+          422,
+          204
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          844,
+          408
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "permission_after": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=web_search",
+        "title": "New Custom Agent playbook | Hellotext",
+        "locale": "en",
+        "permission": "default",
+        "subscriptions": [
+          {
+            "scope": "http://127.0.0.1:3192/",
+            "script": "http://127.0.0.1:3192/service_worker.js",
+            "subscription": false
+          }
+        ],
+        "userDisabled": null,
+        "migration": null,
+        "dpr": 2,
+        "zoom": 1,
+        "pid": 57358,
+        "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "state": "Real empty unsaved Custom Agent component; no text/file/URL added, Save/Enable/Enter/Add/Playground not used. Header and complete control; entire footer omitted.",
+      "pixels": [
+        844,
+        408
+      ],
+      "logical_size": [
+        422.0,
+        204.0
+      ],
+      "density": 2,
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "6ff70298f3f99b564bbf4075c8ba575215b009f0571a025bfbdd445e571f0384",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 440.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Current consumer pending local/protected/public verification; original historical publication evidence retained.",
+      "historical_source_record": {
+        "name": "web_search-en-mobile",
+        "concept": "web_search",
+        "locale": "en",
+        "mobile": true,
+        "published_asset": "images/journeys/how-to-customize-a-playbook-safely/web_search-en-mobile.png",
+        "source": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/web_search-en-mobile-original.png",
+        "sha256": "61a0d21c1723fc520232f1245b1a95fe4eb24e95866609f7b95de15d1e1fd4ca",
+        "new_capture": true,
+        "reused": false,
+        "ui_guard": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=web_search",
+          "title": "New Custom Agent playbook | Hellotext",
+          "locale": "en",
+          "viewport": [
+            430,
+            900
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            0
+          ],
+          "guard": {
+            "pid": 57358,
+            "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+            "port": 9460,
+            "account": "design-system@example.test",
+            "permission_before": {
+              "permission": "default",
+              "subscriptions": [
+                false
+              ]
+            },
+            "single_local_page": true,
+            "color": "display-p3-d65"
+          }
+        },
+        "native": {
+          "output": "/private/tmp/hellotext-playbook-customization-editorial-20261002/native/web_search-en-mobile-original.png",
+          "sha256": "61a0d21c1723fc520232f1245b1a95fe4eb24e95866609f7b95de15d1e1fd4ca",
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=web_search",
+          "locale": "en",
+          "cssViewport": [
+            430,
+            900
+          ],
+          "browserDpr": 2,
+          "clip": [
+            4,
+            121,
+            422,
+            204
+          ],
+          "pageScroll": [
+            0,
+            0
+          ],
+          "pixelSize": [
+            844,
+            408
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "isolated Chrome compositor via CDP"
+        },
+        "permission_after": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=web_search",
+          "title": "New Custom Agent playbook | Hellotext",
+          "locale": "en",
+          "permission": "default",
+          "subscriptions": [
+            {
+              "scope": "http://127.0.0.1:3192/",
+              "script": "http://127.0.0.1:3192/service_worker.js",
+              "subscription": false
+            }
+          ],
+          "userDisabled": null,
+          "migration": null,
+          "dpr": 2,
+          "zoom": 1,
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
+        },
+        "observed_http_methods": [
+          "GET"
+        ],
+        "state": "Real empty unsaved Custom Agent component; no text/file/URL added, Save/Enable/Enter/Add/Playground not used. Header and complete control; entire footer omitted.",
+        "pixels": [
+          844,
+          408
+        ],
+        "logical_size": [
+          422.0,
+          204.0
+        ],
+        "density": 2,
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "6ff70298f3f99b564bbf4075c8ba575215b009f0571a025bfbdd445e571f0384",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 440.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "concept": "intents",
+      "locale": "es",
+      "mobile": false,
+      "published_asset": "images/team/ai-handoff-to-inbox/intents-es.png",
+      "sha256": "3ce141b0bcdd1fc102325fca3389e28f19158d1344b0c94ec725b6f99bc7ee50",
+      "pixels": [
+        1256,
+        520
+      ],
+      "logical_size": [
+        628.0,
+        260.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/intents-es-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/intents-es-original.png",
+        "sha256": "3ce141b0bcdd1fc102325fca3389e28f19158d1344b0c94ec725b6f99bc7ee50",
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+        "locale": "es",
+        "cssViewport": [
+          1400,
+          1000
+        ],
+        "browserDpr": 2,
+        "clip": [
+          52,
+          125,
+          628,
+          260
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1256,
+          520
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+        "title": "Nueva misión Agente Personalizado | Hellotext",
+        "locale": "es",
+        "viewport": [
+          1400,
+          1000
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "derived_crop": null,
+      "reused": true,
+      "new_capture": false,
+      "historical_source_record": {
+        "concept": "intents",
+        "locale": "es",
+        "mobile": false,
+        "published_asset": "images/team/ai-handoff-to-inbox/intents-es.png",
+        "sha256": "3ce141b0bcdd1fc102325fca3389e28f19158d1344b0c94ec725b6f99bc7ee50",
+        "pixels": [
+          1256,
+          520
+        ],
+        "logical_size": [
+          628.0,
+          260.0
+        ],
+        "density": 2,
+        "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/intents-es-original.png",
+        "native": {
+          "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/intents-es-original.png",
+          "sha256": "3ce141b0bcdd1fc102325fca3389e28f19158d1344b0c94ec725b6f99bc7ee50",
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+          "locale": "es",
+          "cssViewport": [
+            1400,
+            1000
+          ],
+          "browserDpr": 2,
+          "clip": [
+            52,
+            125,
+            628,
+            260
+          ],
+          "pageScroll": [
+            0,
+            0
+          ],
+          "pixelSize": [
+            1256,
+            520
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "isolated Chrome compositor via CDP"
+        },
+        "ui_guard": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+          "title": "Nueva misión Agente Personalizado | Hellotext",
+          "locale": "es",
+          "viewport": [
+            1400,
+            1000
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            0
+          ],
+          "guard": {
+            "pid": 57358,
+            "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+            "port": 9460,
+            "account": "design-system@example.test",
+            "single_local_page": true,
+            "color": "display-p3-d65"
+          }
+        },
+        "observed_http_methods": [
+          "GET"
+        ],
+        "derived_crop": null,
+        "reused": true,
+        "new_capture": false,
+        "historical_source_record": {
+          "concept": "intents",
+          "locale": "es",
+          "mobile": false,
+          "published_asset": "images/team/ai-handoff-to-inbox/intents-es.png",
+          "sha256": "3ce141b0bcdd1fc102325fca3389e28f19158d1344b0c94ec725b6f99bc7ee50",
+          "pixels": [
+            1256,
+            520
+          ],
+          "logical_size": [
+            628.0,
+            260.0
+          ],
+          "density": 2,
+          "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/intents-es-original.png",
+          "native": {
+            "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/intents-es-original.png",
+            "sha256": "3ce141b0bcdd1fc102325fca3389e28f19158d1344b0c94ec725b6f99bc7ee50",
+            "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+            "locale": "es",
+            "cssViewport": [
+              1400,
+              1000
+            ],
+            "browserDpr": 2,
+            "clip": [
+              52,
+              125,
+              628,
+              260
+            ],
+            "pageScroll": [
+              0,
+              0
+            ],
+            "pixelSize": [
+              1256,
+              520
+            ],
+            "sourceDensity": 2,
+            "icc": "Display P3",
+            "route": "isolated Chrome compositor via CDP"
+          },
+          "ui_guard": {
+            "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+            "title": "Nueva misión Agente Personalizado | Hellotext",
+            "locale": "es",
+            "viewport": [
+              1400,
+              1000
+            ],
+            "dpr": 2,
+            "zoom": 1,
+            "scroll": [
+              0,
+              0
+            ],
+            "guard": {
+              "pid": 57358,
+              "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+              "port": 9460,
+              "account": "design-system@example.test",
+              "single_local_page": true,
+              "color": "display-p3-d65"
+            }
+          },
+          "observed_http_methods": [
+            "GET"
+          ],
+          "derived_crop": null,
+          "reused": false,
+          "new_capture": true
+        },
+        "original_consumer_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+        "original_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+        "name": "intents-es",
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "8d9a97f0a6b522f6058e8435135327d65d61904426285fe56518d524fd08ec9b",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 646.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+      "original_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+      "name": "intents-es",
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "8d9a97f0a6b522f6058e8435135327d65d61904426285fe56518d524fd08ec9b",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 646.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Current consumer pending local/protected/public verification; original historical publication evidence retained.",
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "concept": "intents",
+      "locale": "es",
+      "mobile": true,
+      "published_asset": "images/team/ai-handoff-to-inbox/intents-es-mobile.png",
+      "sha256": "06a58e9ba16bdc719e9c1787edb0b699acc69e588cb43ae97295622b904c1e7f",
+      "pixels": [
+        764,
+        592
+      ],
+      "logical_size": [
+        382.0,
+        296.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/intents-es-mobile-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/intents-es-mobile-original.png",
+        "sha256": "06a58e9ba16bdc719e9c1787edb0b699acc69e588cb43ae97295622b904c1e7f",
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+        "locale": "es",
+        "cssViewport": [
+          390,
+          1000
+        ],
+        "browserDpr": 2,
+        "clip": [
+          4,
+          121,
+          382,
+          296
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          764,
+          592
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+        "title": "Nueva misión Agente Personalizado | Hellotext",
+        "locale": "es",
+        "viewport": [
+          390,
+          1000
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "derived_crop": null,
+      "reused": true,
+      "new_capture": false,
+      "historical_source_record": {
+        "concept": "intents",
+        "locale": "es",
+        "mobile": true,
+        "published_asset": "images/team/ai-handoff-to-inbox/intents-es-mobile.png",
+        "sha256": "06a58e9ba16bdc719e9c1787edb0b699acc69e588cb43ae97295622b904c1e7f",
+        "pixels": [
+          764,
+          592
+        ],
+        "logical_size": [
+          382.0,
+          296.0
+        ],
+        "density": 2,
+        "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/intents-es-mobile-original.png",
+        "native": {
+          "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/intents-es-mobile-original.png",
+          "sha256": "06a58e9ba16bdc719e9c1787edb0b699acc69e588cb43ae97295622b904c1e7f",
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+          "locale": "es",
+          "cssViewport": [
+            390,
+            1000
+          ],
+          "browserDpr": 2,
+          "clip": [
+            4,
+            121,
+            382,
+            296
+          ],
+          "pageScroll": [
+            0,
+            0
+          ],
+          "pixelSize": [
+            764,
+            592
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "isolated Chrome compositor via CDP"
+        },
+        "ui_guard": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+          "title": "Nueva misión Agente Personalizado | Hellotext",
+          "locale": "es",
+          "viewport": [
+            390,
+            1000
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            0
+          ],
+          "guard": {
+            "pid": 57358,
+            "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+            "port": 9460,
+            "account": "design-system@example.test",
+            "single_local_page": true,
+            "color": "display-p3-d65"
+          }
+        },
+        "observed_http_methods": [
+          "GET"
+        ],
+        "derived_crop": null,
+        "reused": true,
+        "new_capture": false,
+        "historical_source_record": {
+          "concept": "intents",
+          "locale": "es",
+          "mobile": true,
+          "published_asset": "images/team/ai-handoff-to-inbox/intents-es-mobile.png",
+          "sha256": "06a58e9ba16bdc719e9c1787edb0b699acc69e588cb43ae97295622b904c1e7f",
+          "pixels": [
+            764,
+            592
+          ],
+          "logical_size": [
+            382.0,
+            296.0
+          ],
+          "density": 2,
+          "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/intents-es-mobile-original.png",
+          "native": {
+            "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/intents-es-mobile-original.png",
+            "sha256": "06a58e9ba16bdc719e9c1787edb0b699acc69e588cb43ae97295622b904c1e7f",
+            "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+            "locale": "es",
+            "cssViewport": [
+              390,
+              1000
+            ],
+            "browserDpr": 2,
+            "clip": [
+              4,
+              121,
+              382,
+              296
+            ],
+            "pageScroll": [
+              0,
+              0
+            ],
+            "pixelSize": [
+              764,
+              592
+            ],
+            "sourceDensity": 2,
+            "icc": "Display P3",
+            "route": "isolated Chrome compositor via CDP"
+          },
+          "ui_guard": {
+            "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+            "title": "Nueva misión Agente Personalizado | Hellotext",
+            "locale": "es",
+            "viewport": [
+              390,
+              1000
+            ],
+            "dpr": 2,
+            "zoom": 1,
+            "scroll": [
+              0,
+              0
+            ],
+            "guard": {
+              "pid": 57358,
+              "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+              "port": 9460,
+              "account": "design-system@example.test",
+              "single_local_page": true,
+              "color": "display-p3-d65"
+            }
+          },
+          "observed_http_methods": [
+            "GET"
+          ],
+          "derived_crop": null,
+          "reused": false,
+          "new_capture": true
+        },
+        "original_consumer_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+        "original_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+        "name": "intents-es-mobile",
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "e7c86b8b7fd936e4cd20efc644ad0b788b76415228648f1f2ff88a797d0c547d",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 400.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+      "original_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+      "name": "intents-es-mobile",
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "e7c86b8b7fd936e4cd20efc644ad0b788b76415228648f1f2ff88a797d0c547d",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 400.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Current consumer pending local/protected/public verification; original historical publication evidence retained.",
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "concept": "intents",
+      "locale": "en",
+      "mobile": false,
+      "published_asset": "images/team/ai-handoff-to-inbox/intents-en.png",
+      "sha256": "58afbd5fd69c3e56c69b0cbfa41dd2e3c5946fa4884e1098436208e7237314d1",
+      "pixels": [
+        1256,
+        520
+      ],
+      "logical_size": [
+        628.0,
+        260.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/intents-en-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/intents-en-original.png",
+        "sha256": "58afbd5fd69c3e56c69b0cbfa41dd2e3c5946fa4884e1098436208e7237314d1",
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+        "locale": "en",
+        "cssViewport": [
+          1400,
+          1000
+        ],
+        "browserDpr": 2,
+        "clip": [
+          52,
+          125,
+          628,
+          260
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1256,
+          520
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+        "title": "New Custom Agent playbook | Hellotext",
+        "locale": "en",
+        "viewport": [
+          1400,
+          1000
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "derived_crop": null,
+      "reused": true,
+      "new_capture": false,
+      "historical_source_record": {
+        "concept": "intents",
+        "locale": "en",
+        "mobile": false,
+        "published_asset": "images/team/ai-handoff-to-inbox/intents-en.png",
+        "sha256": "58afbd5fd69c3e56c69b0cbfa41dd2e3c5946fa4884e1098436208e7237314d1",
+        "pixels": [
+          1256,
+          520
+        ],
+        "logical_size": [
+          628.0,
+          260.0
+        ],
+        "density": 2,
+        "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/intents-en-original.png",
+        "native": {
+          "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/intents-en-original.png",
+          "sha256": "58afbd5fd69c3e56c69b0cbfa41dd2e3c5946fa4884e1098436208e7237314d1",
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+          "locale": "en",
+          "cssViewport": [
+            1400,
+            1000
+          ],
+          "browserDpr": 2,
+          "clip": [
+            52,
+            125,
+            628,
+            260
+          ],
+          "pageScroll": [
+            0,
+            0
+          ],
+          "pixelSize": [
+            1256,
+            520
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "isolated Chrome compositor via CDP"
+        },
+        "ui_guard": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+          "title": "New Custom Agent playbook | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1400,
+            1000
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            0
+          ],
+          "guard": {
+            "pid": 57358,
+            "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+            "port": 9460,
+            "account": "design-system@example.test",
+            "single_local_page": true,
+            "color": "display-p3-d65"
+          }
+        },
+        "observed_http_methods": [
+          "GET"
+        ],
+        "derived_crop": null,
+        "reused": true,
+        "new_capture": false,
+        "historical_source_record": {
+          "concept": "intents",
+          "locale": "en",
+          "mobile": false,
+          "published_asset": "images/team/ai-handoff-to-inbox/intents-en.png",
+          "sha256": "58afbd5fd69c3e56c69b0cbfa41dd2e3c5946fa4884e1098436208e7237314d1",
+          "pixels": [
+            1256,
+            520
+          ],
+          "logical_size": [
+            628.0,
+            260.0
+          ],
+          "density": 2,
+          "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/intents-en-original.png",
+          "native": {
+            "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/intents-en-original.png",
+            "sha256": "58afbd5fd69c3e56c69b0cbfa41dd2e3c5946fa4884e1098436208e7237314d1",
+            "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+            "locale": "en",
+            "cssViewport": [
+              1400,
+              1000
+            ],
+            "browserDpr": 2,
+            "clip": [
+              52,
+              125,
+              628,
+              260
+            ],
+            "pageScroll": [
+              0,
+              0
+            ],
+            "pixelSize": [
+              1256,
+              520
+            ],
+            "sourceDensity": 2,
+            "icc": "Display P3",
+            "route": "isolated Chrome compositor via CDP"
+          },
+          "ui_guard": {
+            "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+            "title": "New Custom Agent playbook | Hellotext",
+            "locale": "en",
+            "viewport": [
+              1400,
+              1000
+            ],
+            "dpr": 2,
+            "zoom": 1,
+            "scroll": [
+              0,
+              0
+            ],
+            "guard": {
+              "pid": 57358,
+              "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+              "port": 9460,
+              "account": "design-system@example.test",
+              "single_local_page": true,
+              "color": "display-p3-d65"
+            }
+          },
+          "observed_http_methods": [
+            "GET"
+          ],
+          "derived_crop": null,
+          "reused": false,
+          "new_capture": true
+        },
+        "original_consumer_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+        "original_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+        "name": "intents-en",
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "d649bae3bbb39a77f5a469edf5df2317854b4c0213bed5205e5c8938e0d1b628",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 646.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+      "original_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+      "name": "intents-en",
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "d649bae3bbb39a77f5a469edf5df2317854b4c0213bed5205e5c8938e0d1b628",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 646.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Current consumer pending local/protected/public verification; original historical publication evidence retained.",
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "concept": "intents",
+      "locale": "en",
+      "mobile": true,
+      "published_asset": "images/team/ai-handoff-to-inbox/intents-en-mobile.png",
+      "sha256": "574b86a078f6ac9efb168c67084d2b50a5187bfd67ab7cf72fc113197f739971",
+      "pixels": [
+        764,
+        544
+      ],
+      "logical_size": [
+        382.0,
+        272.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/intents-en-mobile-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/intents-en-mobile-original.png",
+        "sha256": "574b86a078f6ac9efb168c67084d2b50a5187bfd67ab7cf72fc113197f739971",
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+        "locale": "en",
+        "cssViewport": [
+          390,
+          1000
+        ],
+        "browserDpr": 2,
+        "clip": [
+          4,
+          121,
+          382,
+          272
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          764,
+          544
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+        "title": "New Custom Agent playbook | Hellotext",
+        "locale": "en",
+        "viewport": [
+          390,
+          1000
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "derived_crop": null,
+      "reused": true,
+      "new_capture": false,
+      "historical_source_record": {
+        "concept": "intents",
+        "locale": "en",
+        "mobile": true,
+        "published_asset": "images/team/ai-handoff-to-inbox/intents-en-mobile.png",
+        "sha256": "574b86a078f6ac9efb168c67084d2b50a5187bfd67ab7cf72fc113197f739971",
+        "pixels": [
+          764,
+          544
+        ],
+        "logical_size": [
+          382.0,
+          272.0
+        ],
+        "density": 2,
+        "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/intents-en-mobile-original.png",
+        "native": {
+          "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/intents-en-mobile-original.png",
+          "sha256": "574b86a078f6ac9efb168c67084d2b50a5187bfd67ab7cf72fc113197f739971",
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+          "locale": "en",
+          "cssViewport": [
+            390,
+            1000
+          ],
+          "browserDpr": 2,
+          "clip": [
+            4,
+            121,
+            382,
+            272
+          ],
+          "pageScroll": [
+            0,
+            0
+          ],
+          "pixelSize": [
+            764,
+            544
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "isolated Chrome compositor via CDP"
+        },
+        "ui_guard": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+          "title": "New Custom Agent playbook | Hellotext",
+          "locale": "en",
+          "viewport": [
+            390,
+            1000
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            0
+          ],
+          "guard": {
+            "pid": 57358,
+            "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+            "port": 9460,
+            "account": "design-system@example.test",
+            "single_local_page": true,
+            "color": "display-p3-d65"
+          }
+        },
+        "observed_http_methods": [
+          "GET"
+        ],
+        "derived_crop": null,
+        "reused": true,
+        "new_capture": false,
+        "historical_source_record": {
+          "concept": "intents",
+          "locale": "en",
+          "mobile": true,
+          "published_asset": "images/team/ai-handoff-to-inbox/intents-en-mobile.png",
+          "sha256": "574b86a078f6ac9efb168c67084d2b50a5187bfd67ab7cf72fc113197f739971",
+          "pixels": [
+            764,
+            544
+          ],
+          "logical_size": [
+            382.0,
+            272.0
+          ],
+          "density": 2,
+          "source": "docs/editorial-work/captures/ai-handoff-to-inbox/native/intents-en-mobile-original.png",
+          "native": {
+            "output": "/private/tmp/hellotext-ai-handoff-inbox-editorial-20261001/native/intents-en-mobile-original.png",
+            "sha256": "574b86a078f6ac9efb168c67084d2b50a5187bfd67ab7cf72fc113197f739971",
+            "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+            "locale": "en",
+            "cssViewport": [
+              390,
+              1000
+            ],
+            "browserDpr": 2,
+            "clip": [
+              4,
+              121,
+              382,
+              272
+            ],
+            "pageScroll": [
+              0,
+              0
+            ],
+            "pixelSize": [
+              764,
+              544
+            ],
+            "sourceDensity": 2,
+            "icc": "Display P3",
+            "route": "isolated Chrome compositor via CDP"
+          },
+          "ui_guard": {
+            "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=intent",
+            "title": "New Custom Agent playbook | Hellotext",
+            "locale": "en",
+            "viewport": [
+              390,
+              1000
+            ],
+            "dpr": 2,
+            "zoom": 1,
+            "scroll": [
+              0,
+              0
+            ],
+            "guard": {
+              "pid": 57358,
+              "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+              "port": 9460,
+              "account": "design-system@example.test",
+              "single_local_page": true,
+              "color": "display-p3-d65"
+            }
+          },
+          "observed_http_methods": [
+            "GET"
+          ],
+          "derived_crop": null,
+          "reused": false,
+          "new_capture": true
+        },
+        "original_consumer_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+        "original_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+        "name": "intents-en-mobile",
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "2e9b8fa4bc2732cac855164343451e6201d73e128070e15aed0c05bd326df623",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 400.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+      "original_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+      "name": "intents-en-mobile",
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "2e9b8fa4bc2732cac855164343451e6201d73e128070e15aed0c05bd326df623",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 400.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Current consumer pending local/protected/public verification; original historical publication evidence retained.",
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "file": "handoff-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+      "title": "Nueva misión Recolector de Propiedades | Hellotext",
+      "viewportCss": [
+        1200,
+        1000
+      ],
+      "clipCss": [
+        50,
+        100,
+        575,
+        330
+      ],
+      "pixelSize": [
+        1150,
+        660
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "ef1c8abc4712dacc2effa83f6c968dd4a9453a5b1be059609a877a91e1693356",
+      "state": "Unsaved escalation control with fictional team Atención demo selected",
+      "publicationDecision": "approved source; insert with bilingual counterpart after full guide review",
+      "concept": "handoff",
+      "mobile": false,
+      "published_asset": "images/captures/property-collector/handoff-es.png",
+      "pixels": [
+        1150,
+        660
+      ],
+      "logical_size": [
+        575.0,
+        330.0
+      ],
+      "source": "docs/editorial-work/captures/property-collector/handoff-es.png",
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "reused": true,
+      "new_capture": false,
+      "historical_source_record": {
+        "file": "handoff-es.png",
+        "locale": "es",
+        "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+        "title": "Nueva misión Recolector de Propiedades | Hellotext",
+        "viewportCss": [
+          1200,
+          1000
+        ],
+        "clipCss": [
+          50,
+          100,
+          575,
+          330
+        ],
+        "pixelSize": [
+          1150,
+          660
+        ],
+        "density": 2,
+        "iccProfile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "ef1c8abc4712dacc2effa83f6c968dd4a9453a5b1be059609a877a91e1693356",
+        "state": "Unsaved escalation control with fictional team Atención demo selected",
+        "publicationDecision": "approved source; insert with bilingual counterpart after full guide review",
+        "concept": "handoff",
+        "mobile": false,
+        "published_asset": "images/captures/property-collector/handoff-es.png",
+        "pixels": [
+          1150,
+          660
+        ],
+        "logical_size": [
+          575.0,
+          330.0
+        ],
+        "source": "docs/editorial-work/captures/property-collector/handoff-es.png",
+        "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "reused": true,
+        "new_capture": false,
+        "historical_source_record": {
+          "file": "handoff-es.png",
+          "locale": "es",
+          "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+          "title": "Nueva misión Recolector de Propiedades | Hellotext",
+          "viewportCss": [
+            1200,
+            1000
+          ],
+          "clipCss": [
+            50,
+            100,
+            575,
+            330
+          ],
+          "pixelSize": [
+            1150,
+            660
+          ],
+          "density": 2,
+          "iccProfile": "Display P3 Gamut with sRGB Transfer",
+          "sha256": "ef1c8abc4712dacc2effa83f6c968dd4a9453a5b1be059609a877a91e1693356",
+          "state": "Unsaved escalation control with fictional team Atención demo selected",
+          "publicationDecision": "approved source; insert with bilingual counterpart after full guide review",
+          "concept": "handoff",
+          "mobile": false,
+          "published_asset": "images/captures/property-collector/handoff-es.png",
+          "pixels": [
+            1150,
+            660
+          ],
+          "logical_size": [
+            575.0,
+            330.0
+          ],
+          "source": "docs/editorial-work/captures/property-collector/handoff-es.png",
+          "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+          "reused": true,
+          "new_capture": false
+        },
+        "original_consumer_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+        "name": "handoff-es",
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "8985fdd04b67b3b4bc3b967e577f6d57ad4d60a1861b807ba51fd8dcf8b12096",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 593.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+      "name": "handoff-es",
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "8985fdd04b67b3b4bc3b967e577f6d57ad4d60a1861b807ba51fd8dcf8b12096",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 593.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Current consumer pending local/protected/public verification; original historical publication evidence retained.",
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "file": "handoff-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+      "title": "New Property Collector playbook | Hellotext",
+      "viewportCss": [
+        1200,
+        1000
+      ],
+      "clipCss": [
+        50,
+        100,
+        575,
+        330
+      ],
+      "pixelSize": [
+        1150,
+        660
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "0c5506ceed87f6ed0c9e57a4969d80cee2dc41f04ab25b04969917ab3f3bdfe9",
+      "state": "Unsaved escalation control with fictional team Atención demo selected",
+      "publicationDecision": "approved source; insert with bilingual counterpart after full guide review",
+      "concept": "handoff",
+      "mobile": false,
+      "published_asset": "images/captures/property-collector/handoff-en.png",
+      "pixels": [
+        1150,
+        660
+      ],
+      "logical_size": [
+        575.0,
+        330.0
+      ],
+      "source": "docs/editorial-work/captures/property-collector/handoff-en.png",
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "reused": true,
+      "new_capture": false,
+      "historical_source_record": {
+        "file": "handoff-en.png",
+        "locale": "en",
+        "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+        "title": "New Property Collector playbook | Hellotext",
+        "viewportCss": [
+          1200,
+          1000
+        ],
+        "clipCss": [
+          50,
+          100,
+          575,
+          330
+        ],
+        "pixelSize": [
+          1150,
+          660
+        ],
+        "density": 2,
+        "iccProfile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "0c5506ceed87f6ed0c9e57a4969d80cee2dc41f04ab25b04969917ab3f3bdfe9",
+        "state": "Unsaved escalation control with fictional team Atención demo selected",
+        "publicationDecision": "approved source; insert with bilingual counterpart after full guide review",
+        "concept": "handoff",
+        "mobile": false,
+        "published_asset": "images/captures/property-collector/handoff-en.png",
+        "pixels": [
+          1150,
+          660
+        ],
+        "logical_size": [
+          575.0,
+          330.0
+        ],
+        "source": "docs/editorial-work/captures/property-collector/handoff-en.png",
+        "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "reused": true,
+        "new_capture": false,
+        "historical_source_record": {
+          "file": "handoff-en.png",
+          "locale": "en",
+          "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+          "title": "New Property Collector playbook | Hellotext",
+          "viewportCss": [
+            1200,
+            1000
+          ],
+          "clipCss": [
+            50,
+            100,
+            575,
+            330
+          ],
+          "pixelSize": [
+            1150,
+            660
+          ],
+          "density": 2,
+          "iccProfile": "Display P3 Gamut with sRGB Transfer",
+          "sha256": "0c5506ceed87f6ed0c9e57a4969d80cee2dc41f04ab25b04969917ab3f3bdfe9",
+          "state": "Unsaved escalation control with fictional team Atención demo selected",
+          "publicationDecision": "approved source; insert with bilingual counterpart after full guide review",
+          "concept": "handoff",
+          "mobile": false,
+          "published_asset": "images/captures/property-collector/handoff-en.png",
+          "pixels": [
+            1150,
+            660
+          ],
+          "logical_size": [
+            575.0,
+            330.0
+          ],
+          "source": "docs/editorial-work/captures/property-collector/handoff-en.png",
+          "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+          "reused": true,
+          "new_capture": false
+        },
+        "original_consumer_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+        "name": "handoff-en",
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "621a09cebb609b727b88f8b708fd3200db19f0a552271c0a28d925f2b13d99a0",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 593.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+      "name": "handoff-en",
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "621a09cebb609b727b88f8b708fd3200db19f0a552271c0a28d925f2b13d99a0",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 593.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Current consumer pending local/protected/public verification; original historical publication evidence retained.",
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "file": "handoff-es-mobile.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+      "title": "Nueva misión Recolector de Propiedades | Hellotext",
+      "viewportCss": [
+        390,
+        1000
+      ],
+      "clipCss": [
+        0,
+        120,
+        390,
+        340
+      ],
+      "pixelSize": [
+        780,
+        680
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "4f252e8b5d86ad772df8b7f979ae8d61de1970ff36f7110f5f1e0b1b5867b2cc",
+      "state": "Focused responsive mobile control using unsaved fictional editor state",
+      "publicationDecision": "approved source; pair with desktop asset",
+      "concept": "handoff",
+      "mobile": true,
+      "published_asset": "images/captures/property-collector/handoff-es-mobile.png",
+      "pixels": [
+        780,
+        680
+      ],
+      "logical_size": [
+        390.0,
+        340.0
+      ],
+      "source": "docs/editorial-work/captures/property-collector/handoff-es-mobile.png",
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "reused": true,
+      "new_capture": false,
+      "historical_source_record": {
+        "file": "handoff-es-mobile.png",
+        "locale": "es",
+        "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+        "title": "Nueva misión Recolector de Propiedades | Hellotext",
+        "viewportCss": [
+          390,
+          1000
+        ],
+        "clipCss": [
+          0,
+          120,
+          390,
+          340
+        ],
+        "pixelSize": [
+          780,
+          680
+        ],
+        "density": 2,
+        "iccProfile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "4f252e8b5d86ad772df8b7f979ae8d61de1970ff36f7110f5f1e0b1b5867b2cc",
+        "state": "Focused responsive mobile control using unsaved fictional editor state",
+        "publicationDecision": "approved source; pair with desktop asset",
+        "concept": "handoff",
+        "mobile": true,
+        "published_asset": "images/captures/property-collector/handoff-es-mobile.png",
+        "pixels": [
+          780,
+          680
+        ],
+        "logical_size": [
+          390.0,
+          340.0
+        ],
+        "source": "docs/editorial-work/captures/property-collector/handoff-es-mobile.png",
+        "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "reused": true,
+        "new_capture": false,
+        "historical_source_record": {
+          "file": "handoff-es-mobile.png",
+          "locale": "es",
+          "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+          "title": "Nueva misión Recolector de Propiedades | Hellotext",
+          "viewportCss": [
+            390,
+            1000
+          ],
+          "clipCss": [
+            0,
+            120,
+            390,
+            340
+          ],
+          "pixelSize": [
+            780,
+            680
+          ],
+          "density": 2,
+          "iccProfile": "Display P3 Gamut with sRGB Transfer",
+          "sha256": "4f252e8b5d86ad772df8b7f979ae8d61de1970ff36f7110f5f1e0b1b5867b2cc",
+          "state": "Focused responsive mobile control using unsaved fictional editor state",
+          "publicationDecision": "approved source; pair with desktop asset",
+          "concept": "handoff",
+          "mobile": true,
+          "published_asset": "images/captures/property-collector/handoff-es-mobile.png",
+          "pixels": [
+            780,
+            680
+          ],
+          "logical_size": [
+            390.0,
+            340.0
+          ],
+          "source": "docs/editorial-work/captures/property-collector/handoff-es-mobile.png",
+          "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+          "reused": true,
+          "new_capture": false
+        },
+        "original_consumer_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+        "name": "handoff-es-mobile",
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "d60bd1960ab445759cc750f03a0035c7133e8d1b787d2700f70ab51c4994b766",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 408.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+      "name": "handoff-es-mobile",
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "d60bd1960ab445759cc750f03a0035c7133e8d1b787d2700f70ab51c4994b766",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 408.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Current consumer pending local/protected/public verification; original historical publication evidence retained.",
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "file": "handoff-en-mobile.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+      "title": "New Property Collector playbook | Hellotext",
+      "viewportCss": [
+        390,
+        1000
+      ],
+      "clipCss": [
+        0,
+        120,
+        390,
+        340
+      ],
+      "pixelSize": [
+        780,
+        680
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "97bad463814d7ec88c224ea32ccf6500c65c8eed86a39ef83cd8fba79d2f3793",
+      "state": "Focused responsive mobile control using unsaved fictional editor state",
+      "publicationDecision": "approved source; pair with desktop asset",
+      "concept": "handoff",
+      "mobile": true,
+      "published_asset": "images/captures/property-collector/handoff-en-mobile.png",
+      "pixels": [
+        780,
+        680
+      ],
+      "logical_size": [
+        390.0,
+        340.0
+      ],
+      "source": "docs/editorial-work/captures/property-collector/handoff-en-mobile.png",
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "reused": true,
+      "new_capture": false,
+      "historical_source_record": {
+        "file": "handoff-en-mobile.png",
+        "locale": "en",
+        "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+        "title": "New Property Collector playbook | Hellotext",
+        "viewportCss": [
+          390,
+          1000
+        ],
+        "clipCss": [
+          0,
+          120,
+          390,
+          340
+        ],
+        "pixelSize": [
+          780,
+          680
+        ],
+        "density": 2,
+        "iccProfile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "97bad463814d7ec88c224ea32ccf6500c65c8eed86a39ef83cd8fba79d2f3793",
+        "state": "Focused responsive mobile control using unsaved fictional editor state",
+        "publicationDecision": "approved source; pair with desktop asset",
+        "concept": "handoff",
+        "mobile": true,
+        "published_asset": "images/captures/property-collector/handoff-en-mobile.png",
+        "pixels": [
+          780,
+          680
+        ],
+        "logical_size": [
+          390.0,
+          340.0
+        ],
+        "source": "docs/editorial-work/captures/property-collector/handoff-en-mobile.png",
+        "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "reused": true,
+        "new_capture": false,
+        "historical_source_record": {
+          "file": "handoff-en-mobile.png",
+          "locale": "en",
+          "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+          "title": "New Property Collector playbook | Hellotext",
+          "viewportCss": [
+            390,
+            1000
+          ],
+          "clipCss": [
+            0,
+            120,
+            390,
+            340
+          ],
+          "pixelSize": [
+            780,
+            680
+          ],
+          "density": 2,
+          "iccProfile": "Display P3 Gamut with sRGB Transfer",
+          "sha256": "97bad463814d7ec88c224ea32ccf6500c65c8eed86a39ef83cd8fba79d2f3793",
+          "state": "Focused responsive mobile control using unsaved fictional editor state",
+          "publicationDecision": "approved source; pair with desktop asset",
+          "concept": "handoff",
+          "mobile": true,
+          "published_asset": "images/captures/property-collector/handoff-en-mobile.png",
+          "pixels": [
+            780,
+            680
+          ],
+          "logical_size": [
+            390.0,
+            340.0
+          ],
+          "source": "docs/editorial-work/captures/property-collector/handoff-en-mobile.png",
+          "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+          "reused": true,
+          "new_capture": false
+        },
+        "original_consumer_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+        "name": "handoff-en-mobile",
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "b3865f05a9fbf5b7ead5b49ef21cf9b19c4d40a0484426c01a4b07244042bc59",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 408.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+      "name": "handoff-en-mobile",
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "b3865f05a9fbf5b7ead5b49ef21cf9b19c4d40a0484426c01a4b07244042bc59",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 408.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Current consumer pending local/protected/public verification; original historical publication evidence retained.",
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "file": "channels-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=channel",
+      "title": "Nueva misión Recolector de Propiedades | Hellotext",
+      "viewportCss": [
+        1200,
+        1000
+      ],
+      "clipCss": [
+        50,
+        100,
+        575,
+        590
+      ],
+      "pixelSize": [
+        1150,
+        1180
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "09a69bcc4d04170870d9e7123c84391069810694179dc20ac44248df0abc1571",
+      "state": "Unsaved incoming-channel choice: all channels selected and manual selection available",
+      "publicationDecision": "approved source; insert with bilingual counterpart after full guide review",
+      "historical_source_record": {
+        "file": "channels-es.png",
+        "locale": "es",
+        "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=channel",
+        "title": "Nueva misión Recolector de Propiedades | Hellotext",
+        "viewportCss": [
+          1200,
+          1000
+        ],
+        "clipCss": [
+          50,
+          100,
+          575,
+          590
+        ],
+        "pixelSize": [
+          1150,
+          1180
+        ],
+        "density": 2,
+        "iccProfile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "09a69bcc4d04170870d9e7123c84391069810694179dc20ac44248df0abc1571",
+        "state": "Unsaved incoming-channel choice: all channels selected and manual selection available",
+        "publicationDecision": "approved source; insert with bilingual counterpart after full guide review",
+        "historical_source_record": {
+          "file": "channels-es.png",
+          "locale": "es",
+          "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=channel",
+          "title": "Nueva misión Recolector de Propiedades | Hellotext",
+          "viewportCss": [
+            1200,
+            1000
+          ],
+          "clipCss": [
+            50,
+            100,
+            575,
+            590
+          ],
+          "pixelSize": [
+            1150,
+            1180
+          ],
+          "density": 2,
+          "iccProfile": "Display P3 Gamut with sRGB Transfer",
+          "sha256": "09a69bcc4d04170870d9e7123c84391069810694179dc20ac44248df0abc1571",
+          "state": "Unsaved incoming-channel choice: all channels selected and manual selection available",
+          "publicationDecision": "approved source; insert with bilingual counterpart after full guide review"
+        },
+        "concept": "channels",
+        "name": "channels-es",
+        "mobile": false,
+        "source": "docs/editorial-work/captures/property-collector/channels-es.png",
+        "published_asset": "images/captures/property-collector/channels-es.png",
+        "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "new_capture": false,
+        "reused": true,
+        "pixels": [
+          1150,
+          1180
+        ],
+        "logical_size": [
+          575.0,
+          590.0
+        ],
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "f0e6045320a954609e2efc3b384afff8a8c496d35a559f3080f29cd54d506b52",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 593.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "concept": "channels",
+      "name": "channels-es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/property-collector/channels-es.png",
+      "published_asset": "images/captures/property-collector/channels-es.png",
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "new_capture": false,
+      "reused": true,
+      "pixels": [
+        1150,
+        1180
+      ],
+      "logical_size": [
+        575.0,
+        590.0
+      ],
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "f0e6045320a954609e2efc3b384afff8a8c496d35a559f3080f29cd54d506b52",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 593.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Current consumer pending local/protected/public verification; original historical publication evidence retained.",
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "file": "channels-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=channel",
+      "title": "New Property Collector playbook | Hellotext",
+      "viewportCss": [
+        1200,
+        1000
+      ],
+      "clipCss": [
+        50,
+        100,
+        575,
+        590
+      ],
+      "pixelSize": [
+        1150,
+        1180
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "fed5b1e6710e0f6ad456ee06a4cae92680c2d85f1a78fef79dbe95d08a18222d",
+      "state": "Unsaved incoming-channel choice: all channels selected and manual selection available",
+      "publicationDecision": "approved source; insert with bilingual counterpart after full guide review",
+      "historical_source_record": {
+        "file": "channels-en.png",
+        "locale": "en",
+        "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=channel",
+        "title": "New Property Collector playbook | Hellotext",
+        "viewportCss": [
+          1200,
+          1000
+        ],
+        "clipCss": [
+          50,
+          100,
+          575,
+          590
+        ],
+        "pixelSize": [
+          1150,
+          1180
+        ],
+        "density": 2,
+        "iccProfile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "fed5b1e6710e0f6ad456ee06a4cae92680c2d85f1a78fef79dbe95d08a18222d",
+        "state": "Unsaved incoming-channel choice: all channels selected and manual selection available",
+        "publicationDecision": "approved source; insert with bilingual counterpart after full guide review",
+        "historical_source_record": {
+          "file": "channels-en.png",
+          "locale": "en",
+          "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=channel",
+          "title": "New Property Collector playbook | Hellotext",
+          "viewportCss": [
+            1200,
+            1000
+          ],
+          "clipCss": [
+            50,
+            100,
+            575,
+            590
+          ],
+          "pixelSize": [
+            1150,
+            1180
+          ],
+          "density": 2,
+          "iccProfile": "Display P3 Gamut with sRGB Transfer",
+          "sha256": "fed5b1e6710e0f6ad456ee06a4cae92680c2d85f1a78fef79dbe95d08a18222d",
+          "state": "Unsaved incoming-channel choice: all channels selected and manual selection available",
+          "publicationDecision": "approved source; insert with bilingual counterpart after full guide review"
+        },
+        "concept": "channels",
+        "name": "channels-en",
+        "mobile": false,
+        "source": "docs/editorial-work/captures/property-collector/channels-en.png",
+        "published_asset": "images/captures/property-collector/channels-en.png",
+        "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "new_capture": false,
+        "reused": true,
+        "pixels": [
+          1150,
+          1180
+        ],
+        "logical_size": [
+          575.0,
+          590.0
+        ],
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "89ce9c2c10e041f7b39da67c093de35e25e990ed4388d01ebd337c5874649a19",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 593.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "concept": "channels",
+      "name": "channels-en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/property-collector/channels-en.png",
+      "published_asset": "images/captures/property-collector/channels-en.png",
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "new_capture": false,
+      "reused": true,
+      "pixels": [
+        1150,
+        1180
+      ],
+      "logical_size": [
+        575.0,
+        590.0
+      ],
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "89ce9c2c10e041f7b39da67c093de35e25e990ed4388d01ebd337c5874649a19",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 593.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Current consumer pending local/protected/public verification; original historical publication evidence retained.",
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "file": "tone-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=tone",
+      "title": "Nueva misión Recolector de Propiedades | Hellotext",
+      "viewportCss": [
+        1200,
+        1000
+      ],
+      "clipCss": [
+        50,
+        100,
+        575,
+        515
+      ],
+      "pixelSize": [
+        1150,
+        1030
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "f97c2e66346680730e6c64708e701b95a3abf460ac099a1cb214d8baf22fdd8d",
+      "state": "Unsaved tone choice: three selected tones",
+      "publicationDecision": "approved source; insert with bilingual counterpart after full guide review",
+      "historical_source_record": {
+        "file": "tone-es.png",
+        "locale": "es",
+        "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=tone",
+        "title": "Nueva misión Recolector de Propiedades | Hellotext",
+        "viewportCss": [
+          1200,
+          1000
+        ],
+        "clipCss": [
+          50,
+          100,
+          575,
+          515
+        ],
+        "pixelSize": [
+          1150,
+          1030
+        ],
+        "density": 2,
+        "iccProfile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "f97c2e66346680730e6c64708e701b95a3abf460ac099a1cb214d8baf22fdd8d",
+        "state": "Unsaved tone choice: three selected tones",
+        "publicationDecision": "approved source; insert with bilingual counterpart after full guide review",
+        "historical_source_record": {
+          "file": "tone-es.png",
+          "locale": "es",
+          "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=tone",
+          "title": "Nueva misión Recolector de Propiedades | Hellotext",
+          "viewportCss": [
+            1200,
+            1000
+          ],
+          "clipCss": [
+            50,
+            100,
+            575,
+            515
+          ],
+          "pixelSize": [
+            1150,
+            1030
+          ],
+          "density": 2,
+          "iccProfile": "Display P3 Gamut with sRGB Transfer",
+          "sha256": "f97c2e66346680730e6c64708e701b95a3abf460ac099a1cb214d8baf22fdd8d",
+          "state": "Unsaved tone choice: three selected tones",
+          "publicationDecision": "approved source; insert with bilingual counterpart after full guide review"
+        },
+        "concept": "tone",
+        "name": "tone-es",
+        "mobile": false,
+        "source": "docs/editorial-work/captures/property-collector/tone-es.png",
+        "published_asset": "images/captures/property-collector/tone-es.png",
+        "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "new_capture": false,
+        "reused": true,
+        "pixels": [
+          1150,
+          1030
+        ],
+        "logical_size": [
+          575.0,
+          515.0
+        ],
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "93c58786ad8b060baa865e00d9dae98f30e6ae8e6e7080db36301f6f2b50e2e8",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 593.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "concept": "tone",
+      "name": "tone-es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/property-collector/tone-es.png",
+      "published_asset": "images/captures/property-collector/tone-es.png",
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "new_capture": false,
+      "reused": true,
+      "pixels": [
+        1150,
+        1030
+      ],
+      "logical_size": [
+        575.0,
+        515.0
+      ],
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "93c58786ad8b060baa865e00d9dae98f30e6ae8e6e7080db36301f6f2b50e2e8",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 593.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Current consumer pending local/protected/public verification; original historical publication evidence retained.",
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "file": "tone-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=tone",
+      "title": "New Property Collector playbook | Hellotext",
+      "viewportCss": [
+        1200,
+        1000
+      ],
+      "clipCss": [
+        50,
+        100,
+        575,
+        515
+      ],
+      "pixelSize": [
+        1150,
+        1030
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "b8c33b227fbb6fc79ab89a2eccc079f9a9b0c8a06cf21773005ad1ffcec1d053",
+      "state": "Unsaved tone choice: three selected tones",
+      "publicationDecision": "approved source; insert with bilingual counterpart after full guide review",
+      "historical_source_record": {
+        "file": "tone-en.png",
+        "locale": "en",
+        "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=tone",
+        "title": "New Property Collector playbook | Hellotext",
+        "viewportCss": [
+          1200,
+          1000
+        ],
+        "clipCss": [
+          50,
+          100,
+          575,
+          515
+        ],
+        "pixelSize": [
+          1150,
+          1030
+        ],
+        "density": 2,
+        "iccProfile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "b8c33b227fbb6fc79ab89a2eccc079f9a9b0c8a06cf21773005ad1ffcec1d053",
+        "state": "Unsaved tone choice: three selected tones",
+        "publicationDecision": "approved source; insert with bilingual counterpart after full guide review",
+        "historical_source_record": {
+          "file": "tone-en.png",
+          "locale": "en",
+          "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=tone",
+          "title": "New Property Collector playbook | Hellotext",
+          "viewportCss": [
+            1200,
+            1000
+          ],
+          "clipCss": [
+            50,
+            100,
+            575,
+            515
+          ],
+          "pixelSize": [
+            1150,
+            1030
+          ],
+          "density": 2,
+          "iccProfile": "Display P3 Gamut with sRGB Transfer",
+          "sha256": "b8c33b227fbb6fc79ab89a2eccc079f9a9b0c8a06cf21773005ad1ffcec1d053",
+          "state": "Unsaved tone choice: three selected tones",
+          "publicationDecision": "approved source; insert with bilingual counterpart after full guide review"
+        },
+        "concept": "tone",
+        "name": "tone-en",
+        "mobile": false,
+        "source": "docs/editorial-work/captures/property-collector/tone-en.png",
+        "published_asset": "images/captures/property-collector/tone-en.png",
+        "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "new_capture": false,
+        "reused": true,
+        "pixels": [
+          1150,
+          1030
+        ],
+        "logical_size": [
+          575.0,
+          515.0
+        ],
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "52a008ba0239c1328c2bb3cc3a1b390950984118587b837123c8d1da3291a876",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 593.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "concept": "tone",
+      "name": "tone-en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/property-collector/tone-en.png",
+      "published_asset": "images/captures/property-collector/tone-en.png",
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "new_capture": false,
+      "reused": true,
+      "pixels": [
+        1150,
+        1030
+      ],
+      "logical_size": [
+        575.0,
+        515.0
+      ],
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "52a008ba0239c1328c2bb3cc3a1b390950984118587b837123c8d1da3291a876",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 593.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Current consumer pending local/protected/public verification; original historical publication evidence retained.",
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "file": "channels-es-mobile.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=channel",
+      "title": "Nueva misión Recolector de Propiedades | Hellotext",
+      "viewportCss": [
+        390,
+        1000
+      ],
+      "clipCss": [
+        0,
+        120,
+        390,
+        760
+      ],
+      "pixelSize": [
+        780,
+        1520
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "213da9d4c0fa8688e03ce9f368928e7df240b1d538670285a437c5935c0a24a3",
+      "state": "Focused responsive mobile control using unsaved fictional editor state",
+      "publicationDecision": "approved source; pair with desktop asset",
+      "historical_source_record": {
+        "file": "channels-es-mobile.png",
+        "locale": "es",
+        "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=channel",
+        "title": "Nueva misión Recolector de Propiedades | Hellotext",
+        "viewportCss": [
+          390,
+          1000
+        ],
+        "clipCss": [
+          0,
+          120,
+          390,
+          760
+        ],
+        "pixelSize": [
+          780,
+          1520
+        ],
+        "density": 2,
+        "iccProfile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "213da9d4c0fa8688e03ce9f368928e7df240b1d538670285a437c5935c0a24a3",
+        "state": "Focused responsive mobile control using unsaved fictional editor state",
+        "publicationDecision": "approved source; pair with desktop asset",
+        "historical_source_record": {
+          "file": "channels-es-mobile.png",
+          "locale": "es",
+          "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=channel",
+          "title": "Nueva misión Recolector de Propiedades | Hellotext",
+          "viewportCss": [
+            390,
+            1000
+          ],
+          "clipCss": [
+            0,
+            120,
+            390,
+            760
+          ],
+          "pixelSize": [
+            780,
+            1520
+          ],
+          "density": 2,
+          "iccProfile": "Display P3 Gamut with sRGB Transfer",
+          "sha256": "213da9d4c0fa8688e03ce9f368928e7df240b1d538670285a437c5935c0a24a3",
+          "state": "Focused responsive mobile control using unsaved fictional editor state",
+          "publicationDecision": "approved source; pair with desktop asset"
+        },
+        "concept": "channels",
+        "name": "channels-es-mobile",
+        "mobile": true,
+        "source": "docs/editorial-work/captures/property-collector/channels-es-mobile.png",
+        "published_asset": "images/captures/property-collector/channels-es-mobile.png",
+        "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "new_capture": false,
+        "reused": true,
+        "pixels": [
+          780,
+          1520
+        ],
+        "logical_size": [
+          390.0,
+          760.0
+        ],
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "4881c3359f4cf9155da1a3ea05f3037d80da1d555ec0607cb54a82c8ab1d136e",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 408.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "concept": "channels",
+      "name": "channels-es-mobile",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/property-collector/channels-es-mobile.png",
+      "published_asset": "images/captures/property-collector/channels-es-mobile.png",
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "new_capture": false,
+      "reused": true,
+      "pixels": [
+        780,
+        1520
+      ],
+      "logical_size": [
+        390.0,
+        760.0
+      ],
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "4881c3359f4cf9155da1a3ea05f3037d80da1d555ec0607cb54a82c8ab1d136e",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 408.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Current consumer pending local/protected/public verification; original historical publication evidence retained.",
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "file": "channels-en-mobile.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=channel",
+      "title": "New Property Collector playbook | Hellotext",
+      "viewportCss": [
+        390,
+        1000
+      ],
+      "clipCss": [
+        0,
+        120,
+        390,
+        760
+      ],
+      "pixelSize": [
+        780,
+        1520
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "260918096cf05d4ac82990773682e76fa51ea9b3478ab6e6305d67cc8fcbaf0e",
+      "state": "Focused responsive mobile control using unsaved fictional editor state",
+      "publicationDecision": "approved source; pair with desktop asset",
+      "historical_source_record": {
+        "file": "channels-en-mobile.png",
+        "locale": "en",
+        "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=channel",
+        "title": "New Property Collector playbook | Hellotext",
+        "viewportCss": [
+          390,
+          1000
+        ],
+        "clipCss": [
+          0,
+          120,
+          390,
+          760
+        ],
+        "pixelSize": [
+          780,
+          1520
+        ],
+        "density": 2,
+        "iccProfile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "260918096cf05d4ac82990773682e76fa51ea9b3478ab6e6305d67cc8fcbaf0e",
+        "state": "Focused responsive mobile control using unsaved fictional editor state",
+        "publicationDecision": "approved source; pair with desktop asset",
+        "historical_source_record": {
+          "file": "channels-en-mobile.png",
+          "locale": "en",
+          "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=channel",
+          "title": "New Property Collector playbook | Hellotext",
+          "viewportCss": [
+            390,
+            1000
+          ],
+          "clipCss": [
+            0,
+            120,
+            390,
+            760
+          ],
+          "pixelSize": [
+            780,
+            1520
+          ],
+          "density": 2,
+          "iccProfile": "Display P3 Gamut with sRGB Transfer",
+          "sha256": "260918096cf05d4ac82990773682e76fa51ea9b3478ab6e6305d67cc8fcbaf0e",
+          "state": "Focused responsive mobile control using unsaved fictional editor state",
+          "publicationDecision": "approved source; pair with desktop asset"
+        },
+        "concept": "channels",
+        "name": "channels-en-mobile",
+        "mobile": true,
+        "source": "docs/editorial-work/captures/property-collector/channels-en-mobile.png",
+        "published_asset": "images/captures/property-collector/channels-en-mobile.png",
+        "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "new_capture": false,
+        "reused": true,
+        "pixels": [
+          780,
+          1520
+        ],
+        "logical_size": [
+          390.0,
+          760.0
+        ],
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "82b4ddba2f407c05703459b28cc05792dbdade51c584ad7c08ff0b108c675b41",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 408.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "concept": "channels",
+      "name": "channels-en-mobile",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/property-collector/channels-en-mobile.png",
+      "published_asset": "images/captures/property-collector/channels-en-mobile.png",
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "new_capture": false,
+      "reused": true,
+      "pixels": [
+        780,
+        1520
+      ],
+      "logical_size": [
+        390.0,
+        760.0
+      ],
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "82b4ddba2f407c05703459b28cc05792dbdade51c584ad7c08ff0b108c675b41",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 408.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Current consumer pending local/protected/public verification; original historical publication evidence retained.",
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "file": "tone-es-mobile.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=tone",
+      "title": "Nueva misión Recolector de Propiedades | Hellotext",
+      "viewportCss": [
+        390,
+        1000
+      ],
+      "clipCss": [
+        0,
+        120,
+        390,
+        485
+      ],
+      "pixelSize": [
+        780,
+        970
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "bb6765e4ad6cfca6b321bf5ed74fd9c37e89be50045c6649cfbd640120decf62",
+      "state": "Focused responsive mobile control using unsaved fictional editor state",
+      "publicationDecision": "approved source; pair with desktop asset",
+      "historical_source_record": {
+        "file": "tone-es-mobile.png",
+        "locale": "es",
+        "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=tone",
+        "title": "Nueva misión Recolector de Propiedades | Hellotext",
+        "viewportCss": [
+          390,
+          1000
+        ],
+        "clipCss": [
+          0,
+          120,
+          390,
+          485
+        ],
+        "pixelSize": [
+          780,
+          970
+        ],
+        "density": 2,
+        "iccProfile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "bb6765e4ad6cfca6b321bf5ed74fd9c37e89be50045c6649cfbd640120decf62",
+        "state": "Focused responsive mobile control using unsaved fictional editor state",
+        "publicationDecision": "approved source; pair with desktop asset",
+        "historical_source_record": {
+          "file": "tone-es-mobile.png",
+          "locale": "es",
+          "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=tone",
+          "title": "Nueva misión Recolector de Propiedades | Hellotext",
+          "viewportCss": [
+            390,
+            1000
+          ],
+          "clipCss": [
+            0,
+            120,
+            390,
+            485
+          ],
+          "pixelSize": [
+            780,
+            970
+          ],
+          "density": 2,
+          "iccProfile": "Display P3 Gamut with sRGB Transfer",
+          "sha256": "bb6765e4ad6cfca6b321bf5ed74fd9c37e89be50045c6649cfbd640120decf62",
+          "state": "Focused responsive mobile control using unsaved fictional editor state",
+          "publicationDecision": "approved source; pair with desktop asset"
+        },
+        "concept": "tone",
+        "name": "tone-es-mobile",
+        "mobile": true,
+        "source": "docs/editorial-work/captures/property-collector/tone-es-mobile.png",
+        "published_asset": "images/captures/property-collector/tone-es-mobile.png",
+        "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "new_capture": false,
+        "reused": true,
+        "pixels": [
+          780,
+          970
+        ],
+        "logical_size": [
+          390.0,
+          485.0
+        ],
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "2be716475bbc5ba2e069270b697de1ef4331629d46d4481b271f24fc29f80402",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 408.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "concept": "tone",
+      "name": "tone-es-mobile",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/property-collector/tone-es-mobile.png",
+      "published_asset": "images/captures/property-collector/tone-es-mobile.png",
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "new_capture": false,
+      "reused": true,
+      "pixels": [
+        780,
+        970
+      ],
+      "logical_size": [
+        390.0,
+        485.0
+      ],
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "2be716475bbc5ba2e069270b697de1ef4331629d46d4481b271f24fc29f80402",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 408.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Current consumer pending local/protected/public verification; original historical publication evidence retained.",
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "file": "tone-en-mobile.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=tone",
+      "title": "New Property Collector playbook | Hellotext",
+      "viewportCss": [
+        390,
+        1000
+      ],
+      "clipCss": [
+        0,
+        120,
+        390,
+        485
+      ],
+      "pixelSize": [
+        780,
+        970
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "5b59a2acc71f53d84aa7bb1d7280af18a300e2fe34a7a0bf3058f52328f7a21f",
+      "state": "Focused responsive mobile control using unsaved fictional editor state",
+      "publicationDecision": "approved source; pair with desktop asset",
+      "historical_source_record": {
+        "file": "tone-en-mobile.png",
+        "locale": "en",
+        "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=tone",
+        "title": "New Property Collector playbook | Hellotext",
+        "viewportCss": [
+          390,
+          1000
+        ],
+        "clipCss": [
+          0,
+          120,
+          390,
+          485
+        ],
+        "pixelSize": [
+          780,
+          970
+        ],
+        "density": 2,
+        "iccProfile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "5b59a2acc71f53d84aa7bb1d7280af18a300e2fe34a7a0bf3058f52328f7a21f",
+        "state": "Focused responsive mobile control using unsaved fictional editor state",
+        "publicationDecision": "approved source; pair with desktop asset",
+        "historical_source_record": {
+          "file": "tone-en-mobile.png",
+          "locale": "en",
+          "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=tone",
+          "title": "New Property Collector playbook | Hellotext",
+          "viewportCss": [
+            390,
+            1000
+          ],
+          "clipCss": [
+            0,
+            120,
+            390,
+            485
+          ],
+          "pixelSize": [
+            780,
+            970
+          ],
+          "density": 2,
+          "iccProfile": "Display P3 Gamut with sRGB Transfer",
+          "sha256": "5b59a2acc71f53d84aa7bb1d7280af18a300e2fe34a7a0bf3058f52328f7a21f",
+          "state": "Focused responsive mobile control using unsaved fictional editor state",
+          "publicationDecision": "approved source; pair with desktop asset"
+        },
+        "concept": "tone",
+        "name": "tone-en-mobile",
+        "mobile": true,
+        "source": "docs/editorial-work/captures/property-collector/tone-en-mobile.png",
+        "published_asset": "images/captures/property-collector/tone-en-mobile.png",
+        "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "new_capture": false,
+        "reused": true,
+        "pixels": [
+          780,
+          970
+        ],
+        "logical_size": [
+          390.0,
+          485.0
+        ],
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "704a4d2dbfbb9995124952153d4a73e5c038d93e8ce5d8a046c38ee351bd173f",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 408.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "concept": "tone",
+      "name": "tone-en-mobile",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/property-collector/tone-en-mobile.png",
+      "published_asset": "images/captures/property-collector/tone-en-mobile.png",
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "new_capture": false,
+      "reused": true,
+      "pixels": [
+        780,
+        970
+      ],
+      "logical_size": [
+        390.0,
+        485.0
+      ],
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "704a4d2dbfbb9995124952153d4a73e5c038d93e8ce5d8a046c38ee351bd173f",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 408.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Current consumer pending local/protected/public verification; original historical publication evidence retained.",
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    }
+  ],
+  "operations": "All 28 PNGs reused unchanged. No source-app visit, DB/account/locale/fixture/provider/Playground/message/event/API/example/permission/subscription or delivery-worker operation; no new fixture audit. Historical source actions, guards, routes, versions and limits remain in their original records without retroactive guards or counts.",
+  "pending": [
+    "Protected exact-head PR checks/review",
+    "Actual production/public verification"
+  ],
+  "local_verification": "local-verification.json"
+}

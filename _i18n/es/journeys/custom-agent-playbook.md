@@ -1,6 +1,6 @@
 Usa esta guía cuando necesitas un agente de IA para un trabajo de negocio específico que una misión preconstruida de Hellotext no cubre.
 
-Agente Personalizado es una misión reactiva con IA. Escucha las intenciones que defines, sigue tus instrucciones, usa conocimiento aprobado, responde en los canales de entrada seleccionados y deriva cuando no debería seguir automáticamente.
+Agente Personalizado es una misión de IA reactiva para una tarea concreta. Las intenciones ayudan a seleccionar una misión habilitada a partir del contexto del mensaje; el prompt guía su respuesta y los componentes configurados delimitan el conocimiento, los canales de entrada y la derivación disponibles.
 
 No es una ruta. No construyes una secuencia fija de esperas, mensajes, condiciones y ramas. Defines qué trabajo tiene el agente, qué debería activarlo, qué conocimiento puede usar y quién debería tomar la conversación cuando hace falta una persona.
 
@@ -10,12 +10,12 @@ Agente Personalizado te ayuda a crear uno o varios agentes de IA especializados.
 
 Puede:
 
-- Activarse cuando un mensaje del cliente coincide con una de las intenciones que defines.
+- Participar en la selección contextual cuando una misión habilitada tiene una intención relevante para el mensaje del cliente.
 - Seguir un prompt personalizado para una misión específica.
 - Usar documentos cargados, sitios web aprobados u otras fuentes de conocimiento habilitadas.
 - Responder en los canales de entrada que permites.
 - Usar el tono que eliges para el agente.
-- Derivar a la persona o equipo configurado cuando el cliente necesita ayuda humana.
+- Solicitar derivación al compañero o equipo configurado cuando el cliente necesita ayuda humana, sujeta a la recepción, asignación y capacidad disponibles.
 - Trabajar junto a otras misiones activas, siempre que cada una tenga un trabajo claro.
 
 Agente Personalizado funciona mejor cuando cada agente tiene una misión acotada. Un buen agente personalizado no es "responder cualquier cosa". Es más cercano a "responder preguntas de garantía para esta línea de productos", "calificar pedidos mayoristas", "ayudar a elegir una rutina de skincare" o "manejar preguntas sobre retiro en tienda".
@@ -62,32 +62,76 @@ Revisa que:
 - El prompt explique qué debería hacer el agente, qué no debería hacer y cuándo debería derivar.
 - Los documentos cargados o sitios aprobados estén actualizados y no se contradigan.
 - Los canales de entrada seleccionados estén conectados y listos.
-- El agente tenga un owner de derivación configurado.
+- El agente tenga un destino de derivación válido y el equipo conozca su capacidad, horarios y protocolo de atención.
 - Tu equipo sepa cómo revisar conversaciones respondidas, no resueltas o derivadas.
 
 Para validar la configuración, usa [Verifica tus datos y señales después de configurar]({% link _integrations/verify-data-and-signals.md %}).
 
 ## Qué puedes configurar
 
-Abre **Misiones**, haz click en **Explorar misiones** y elige **Agente Personalizado**.
+Abre **Misiones**, haz click en **Explorar misiones** y elige **Agente Personalizado**. La disponibilidad depende del tipo de misión, las funciones de tu cuenta, tu rol y el cupo de configuración. Que un componente exista en otra misión no significa que esté disponible en esta.
+
+Abrir la misión nueva prepara un borrador; no la crea ni la habilita por sí solo. Volver desde un componente conserva cambios locales. El guardado final puede crear o clonar la misión y persistir su configuración; habilitarla también puede enviar esos cambios. Antes de continuar, comprueba qué quedó guardado y qué está habilitado.
 
 Agente Personalizado expone:
 
-- **Intenciones:** necesidades o frases del cliente que deberían activar el agente.
+- **Intenciones:** necesidades del cliente que ayudan a seleccionar el agente por contexto, no palabras clave exactas.
 - **Prompt del agente:** misión, instrucciones, límites, guía de tono y reglas de derivación.
 - **Documentos cargados:** políticas, notas de producto, preguntas frecuentes, guías de talle, reglas de garantía, instrucciones operativas u otro contexto aprobado.
 - **Canales de entrada:** dónde puede responder el agente cuando los clientes escriben.
 - **Derivación o asignación:** quién debería tomar la conversación cuando el agente necesita ayuda.
 - **Tono:** la voz usada en las respuestas.
-- **Búsqueda web o solicitud externa, cuando esté disponible:** sitios web aprobados o fuentes externas de datos que el agente puede usar para esta misión.
+- **Búsqueda web, cuando esté disponible:** dominios aprobados para la herramienta de búsqueda. Una integración o herramienta externa necesita su propia configuración y acceso; escribir una solicitud HTTP en el prompt no agrega una herramienta de solicitudes externas.
 
-Mantén la selección automática de canales salvo que tengas una razón clara para limitar el agente. La mayoría de las cuentas no necesita cambiar canales en el primer lanzamiento.
+**Canales de entrada** delimita qué mensajes entrantes pueden participar. Todos los canales de entrada y la selección manual son opciones distintas; elige las que correspondan a tu alcance y conexiones reales. Este control no configura el canal de salida, el destino, el consentimiento ni una garantía de respuesta o entrega.
+
+La figura muestra el control compartido en un borrador ficticio independiente de Recolector de Propiedades: **Todos los canales de entrada** está seleccionado y la opción manual está disponible. No se guardó ni conectó un canal.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Todos los canales de entrada seleccionados sin conexión ni envío">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 593px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/channels-es-mobile.png 2x" width="780" height="1520" />
+        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/channels-es.png" srcset="/images/captures/property-collector/channels-es.png 2x" width="1150" height="1180" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Todos los canales de entrada seleccionados sin conexión ni envío" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real con estado ficticio independiente; no guardado ni ejecución en este lote.</figcaption>
+</figure>
+
+**Tono** permite elegir de uno a tres tonos para orientar la voz. No reemplaza las instrucciones ni garantiza una respuesta determinada. La figura corresponde a otro borrador ficticio independiente del Recolector: **Amigable**, **Juguetón** y **Exclusivo** están seleccionados sin guardar; no es una respuesta generada.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Tres tonos seleccionados sin guardar">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 593px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/tone-es-mobile.png 2x" width="780" height="970" />
+        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/tone-es.png" srcset="/images/captures/property-collector/tone-es.png 2x" width="1150" height="1030" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Tres tonos seleccionados sin guardar" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real con estado ficticio independiente; no guardado ni ejecución en este lote.</figcaption>
+</figure>
 
 ## Define intenciones claras
 
-Una intención es la necesidad del cliente que debería activar el agente.
+Una intención describe la necesidad del cliente. La clasificación usa el contexto de la conversación y las misiones habilitadas; no es una búsqueda literal de una frase ni una promesa de selección exclusiva. Habilitar o deshabilitar la misión afecta la admisión de nuevo trabajo, pero no demuestra que se haya cancelado trabajo ya en cola.
 
 Escribe las intenciones en lenguaje de cliente, no en lenguaje interno de producto. Incluye formas realistas en que un cliente pediría lo mismo.
+
+El borrador ficticio de **Intenciones** muestra «Quiero consultar una devolución.» en el campo, sin agregar, guardar ni clasificar la frase. No representa una conversación recibida ni una misión activada.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Frase de intención sin agregar ni clasificar">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 646px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/team/ai-handoff-to-inbox/intents-es-mobile.png 2x" width="764" height="592" />
+        <img class="ht-editorial-visual__image" src="/images/team/ai-handoff-to-inbox/intents-es.png" srcset="/images/team/ai-handoff-to-inbox/intents-es.png 2x" width="1256" height="520" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Frase de intención sin agregar ni clasificar" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real con estado ficticio independiente; no guardado ni ejecución en este lote.</figcaption>
+</figure>
 
 Buenas intenciones son específicas:
 
@@ -106,7 +150,21 @@ Si dos agentes personalizados tienen intenciones parecidas, los clientes pueden 
 
 ## Escribe el prompt del agente
 
-El prompt le dice al agente cómo hacer el trabajo después de activarse.
+El prompt le dice al agente cómo hacer el trabajo cuando es seleccionado. Agente Personalizado necesita instrucciones guardadas no vacías. El prompt no agrega herramientas, permisos, integraciones, consentimiento ni capacidad para modificar datos por sí solo.
+
+La figura muestra **Prompt** vacío en un borrador ficticio de Agente Personalizado. El texto gris es un placeholder, no instrucciones guardadas ni una respuesta del agente.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Campo de prompt vacío en un borrador ficticio">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 646px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/journeys/how-to-customize-a-playbook-safely/prompt-es-mobile.png 2x" width="844" height="956" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-customize-a-playbook-safely/prompt-es.png" srcset="/images/journeys/how-to-customize-a-playbook-safely/prompt-es.png 2x" width="1256" height="1108" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Campo de prompt vacío en un borrador ficticio" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real con estado ficticio independiente; no guardado ni ejecución en este lote.</figcaption>
+</figure>
 
 Incluye:
 
@@ -125,7 +183,39 @@ Para estructura de prompt, usa [Cómo escribir un gran prompt para tu agente]({%
 
 ## Agrega conocimiento con cuidado
 
-Los documentos cargados y sitios aprobados ayudan al agente a responder con contexto específico del negocio.
+Los documentos cargados y sitios aprobados pueden aportar contexto específico del negocio cuando sus componentes y herramientas están disponibles.
+
+En **Conocimiento**, elegir un archivo, guardar la misión y tenerlo listo para recuperación son etapas diferentes. El procesamiento posterior es asíncrono: un archivo guardado no demuestra que la herramienta ya pueda encontrar su contenido. Comprueba la preparación y la respuesta frente a la fuente, no solo el nombre del archivo.
+
+La figura es un borrador ficticio independiente de Agente Personalizado con el área de conocimiento vacía. No se eligió ni subió un archivo.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Área de conocimiento sin archivos elegidos">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 646px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/journeys/how-to-customize-a-playbook-safely/upload-es-mobile.png 2x" width="844" height="804" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-customize-a-playbook-safely/upload-es.png" srcset="/images/journeys/how-to-customize-a-playbook-safely/upload-es.png 2x" width="1256" height="732" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Área de conocimiento sin archivos elegidos" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real con estado ficticio independiente; no guardado ni ejecución en este lote.</figcaption>
+</figure>
+
+**Búsqueda web** configura dominios para la búsqueda disponible. El sitio se normaliza a su hostname; no es una garantía de consultar una página, ruta o puerto exactos, recuperar todo el sitio ni obtener información siempre actualizada.
+
+La figura muestra el campo vacío con el placeholder nativo `https://www.example.com`, sin añadir un sitio ni ejecutar una búsqueda.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Búsqueda web vacía con placeholder nativo">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 646px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/journeys/how-to-customize-a-playbook-safely/web_search-es-mobile.png 2x" width="844" height="408" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-customize-a-playbook-safely/web_search-es.png" srcset="/images/journeys/how-to-customize-a-playbook-safely/web_search-es.png 2x" width="1256" height="384" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Búsqueda web vacía con placeholder nativo" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real con estado ficticio independiente; no guardado ni ejecución en este lote.</figcaption>
+</figure>
 
 Úsalos para:
 
@@ -135,13 +225,27 @@ Los documentos cargados y sitios aprobados ayudan al agente a responder con cont
 
 No uses archivos desactualizados, políticas contradictorias, borradores internos o afirmaciones sin respaldo. Si la fuente cambia, actualiza el documento o sitio aprobado antes de esperar que el agente responda correctamente.
 
-El conocimiento no reemplaza los datos estructurados. Si el agente necesita estado de pedido, productos del catálogo, propiedades del perfil, consentimiento o eventos de tracking, asegúrate de que esas señales estén conectadas y actualizadas.
+El conocimiento no reemplaza los datos estructurados. Si la misión necesita pedidos, catálogo, propiedades del perfil, consentimiento o eventos de tracking, verifica la integración y la herramienta concreta que los expone. No todos los tipos de agente reciben todas las propiedades ni inventario universal en tiempo real. Recopilar una propiedad requiere los elementos válidos configurados y, cuando corresponde, un Recolector de Propiedades habilitado; pedirla en el prompt no amplía ese alcance ni concede consentimiento.
 
 ## Configura derivación
 
 Los agentes personalizados deberían saber cuándo detenerse.
 
-Configura derivación o asignación para que la persona o equipo correcto reciba conversaciones que necesitan ayuda humana.
+Configura un destino válido de derivación o asignación y explica cuándo usarlo. Seleccionar un equipo, recibir la conversación, asignar un owner y obtener una respuesta son etapas diferentes. La capacidad, las personas asignables, los horarios y el protocolo de atención pueden dejar trabajo pendiente; no prometas respuesta inmediata ni que toda derivación pausa la IA permanentemente.
+
+La figura muestra el control compartido **Derivación** en un borrador ficticio independiente de Recolector de Propiedades, con **Atención demo** como equipo de destino. No es el nombre de una misión, una asignación realizada ni una respuesta; no se guardó ni activó este borrador.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Equipo de derivación ficticio sin asignación">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 593px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/handoff-es-mobile.png 2x" width="780" height="680" />
+        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/handoff-es.png" srcset="/images/captures/property-collector/handoff-es.png 2x" width="1150" height="660" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Equipo de derivación ficticio sin asignación" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real con estado ficticio independiente; no guardado ni ejecución en este lote.</figcaption>
+</figure>
 
 Casos comunes de derivación incluyen:
 
@@ -157,9 +261,9 @@ Para el modelo de derivación, usa [Derivación de IA al Inbox]({% link _team/ai
 
 ## Cómo probarlo
 
-Prueba con mensajes realistas antes de habilitar el agente ampliamente.
+Primero revisa las instrucciones, fuentes, intenciones y destinos con ejemplos escritos. Si tu cuenta y el tipo de misión ofrecen Playground, úsalo como simulación: puede guardar una conversación de prueba, aplicar cambios del borrador a la simulación y consultar proveedores de IA. No utiliza la identidad de un contacto real ni demuestra consentimiento, elegibilidad, envío o entrega por un canal.
 
-Usa perfiles de cliente y canales de prueba que coincidan con tu plan de lanzamiento, luego prueba:
+Para comprobar el comportamiento real, acuerda un entorno de prueba aislado, perfiles ficticios y canales propios autorizados. Separa la revisión del contenido de la prueba de recepción, clasificación, asignación y entrega; habilitar o enviar son acciones con efectos. Evalúa:
 
 - Un mensaje que debería activar el agente personalizado.
 - Un mensaje parecido que debería activar otra misión.
@@ -169,9 +273,9 @@ Usa perfiles de cliente y canales de prueba que coincidan con tu plan de lanzami
 - Un mensaje donde el conocimiento cargado falta o no es claro.
 - Un mensaje que debería derivarse porque el cliente está molesto, reporta un producto defectuoso o pide una decisión humana.
 - Un mensaje en cada canal de entrada que planeas usar.
-- Un caso donde hace falta búsqueda web o una solicitud externa, si esa opción está habilitada.
+- Un caso que necesita búsqueda web o una herramienta integrada realmente disponible, junto con otro donde no puede obtener una fuente suficiente.
 
-Revisa si el agente se activa por las intenciones correctas, se mantiene dentro de alcance, usa la fuente adecuada, evita adivinar, formatea bien la respuesta para el canal y deriva al owner correcto.
+Revisa si el agente se selecciona por las intenciones correctas, se mantiene dentro de alcance, usa la fuente adecuada, evita adivinar y formatea bien la respuesta. Verifica por separado el destino de derivación, el owner asignado y la respuesta. Las figuras de esta guía son borradores independientes; no prueban ninguno de esos resultados. Si guardar, habilitar o ejecutar una prueba da un resultado incierto, reconcilia el estado antes de repetir la acción.
 
 ## Qué revisar después del lanzamiento
 
@@ -184,9 +288,9 @@ Durante los primeros días, revisa:
 - Si el conocimiento cargado respondió las preguntas reales de clientes.
 - Si las derivaciones fueron esperadas y llegaron a la persona o equipo correcto.
 - Si el agente respondió preguntas sin respaldo o evitó respuestas útiles que podía manejar.
-- Tasa de resolución, tasa de derivación, velocidad de respuesta, respuestas de clientes, bajas, mensajes fallidos, conversión e ingresos atribuidos cuando corresponda.
+- Resolución, derivación y tiempos de respuesta con las conversaciones y herramientas disponibles. Revisa bajas, fallos, conversión e ingresos atribuidos solo cuando correspondan al flujo y al reporte consultado; no son todas métricas garantizadas de un reporte propio de Agente Personalizado.
 
-Ajusta una cosa por vez: texto de intención, prompt, conocimiento cargado, sitios aprobados, selección de canal, tono o owner de derivación.
+Compara el mismo período y población, conserva los denominadores y distingue una conversación resuelta de un mensaje entregado o una venta atribuida. Ajusta una cosa por vez: texto de intención, prompt, conocimiento cargado, sitios aprobados, selección de canal, tono o destino de derivación. Revisa el estado guardado y habilitado después del cambio.
 
 ## Guías relacionadas
 
