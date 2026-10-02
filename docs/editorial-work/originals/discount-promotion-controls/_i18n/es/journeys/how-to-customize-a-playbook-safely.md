@@ -51,7 +51,7 @@ Usa esta tabla como mapa rápido:
 | **Conocimiento** | Agentes de IA de venta o atención | Qué información usa el agente para responder. |
 | **Propiedades** | Misiones que incluyen el subcomponente Recolector de Propiedades | Qué datos faltantes del perfil debe pedir antes de continuar. |
 | **Canales de entrada/salida** | Misiones que permiten selección de canales | Dónde puede responder o enviar mensajes. |
-| **Descuentos** | Misiones de venta que permiten ofertas | La estrategia, los límites de incentivos de IA y las promociones importadas que puede usar el agente. |
+| **Descuentos** | Misiones de venta que permiten ofertas | Qué reglas de oferta del eCommerce y límites de descuento con IA puede usar el agente. |
 | **Derivación** | Agentes de IA, atención, [Webchat]({% link _captures/webchat-widget-playbook.md %}) y algunas misiones personalizadas | Quién toma la conversación cuando el agente no debe seguir. |
 | **Pasos de ruta** | Journeys o rutas | Secuencia, esperas, ramas, asignaciones y salida del flujo. |
 
@@ -253,23 +253,23 @@ Si cambias canales, prueba el mismo escenario en cada canal seleccionado. Alguno
 
 ## Personaliza la estrategia de descuento
 
-Abre **Descuentos** para decidir qué ofertas puede usar la misión. Esta configuración también está disponible en [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}) cuando tu cuenta tiene acceso al componente.
+Esta sección aplica a misiones de venta que muestran configuración de **Descuentos**.
 
-Una tienda puede tener promociones para empleados, pruebas o usos internos. Revisa cuáles quieres que el agente pueda consultar antes de permitirle usar las ofertas importadas.
+Las reglas de descuento afectan expectativas del cliente e ingresos, así que cámbialas con cuidado.
 
-### Elige una estrategia
+Antes de cambiar descuentos:
 
-| Opción | Cómo orienta al agente |
-| --- | --- |
-| **Combinar ofertas de la tienda con incentivos de IA** | Usa ofertas existentes y permite incentivos adicionales de IA dentro del límite configurado. Puedes elegir qué promociones importadas estarán disponibles. |
-| **Usar solo ofertas existentes de la tienda** | Usa ofertas de tu tienda o sitio web sin crear incentivos nuevos de IA. Puedes elegir qué promociones importadas estarán disponibles. |
-| **Crear solo ofertas impulsadas por IA** | Permite incentivos de IA dentro del límite configurado, sin combinarlos con ofertas de la tienda. |
-| **Usar un cupón creado en Hellotext** | Usa el cupón que seleccionas en **Elegir cupón**. Revisa su código y sus condiciones. |
-| **Sin estrategia de descuentos** | Indica al agente que no ofrezca descuentos, envío gratis, cupones ni otros incentivos. |
+- Confirma si la misión debería seguir las reglas de oferta del eCommerce, crear descuentos con IA hasta un porcentaje máximo, combinar ambos o enviar sin descuentos.
+- Define máximos claros para cualquier descuento generado por IA.
+- Evita acumular descuentos más allá de tus reglas de negocio.
+- Prueba qué pasa cuando un cliente pide un mejor descuento.
+- Revisa reportes después del cambio para confirmar que la estrategia de descuento mejora el resultado correcto.
 
-Las opciones con IA muestran **Hasta 5%**, **Hasta 10%**, **Hasta 15%** y **Hasta 20%**. Elige un límite que respete tus márgenes y reglas de acumulación. La creación y aplicación del incentivo dependen de la misión y de la integración de tienda.
+Si la misión nunca debería ofrecer descuentos, déjalo explícito en la configuración de descuentos y, si existe, en el prompt.
 
-La figura muestra **Hasta 10%** seleccionado en un borrador del **Impulsor de Suscriptores** sin guardar. En esa misión, el incentivo generado usa el porcentaje configurado como tasa fija; no lo interpretes como un máximo variable de IA para todas las misiones. La imagen ilustra el selector de porcentaje y no muestra el panel de promociones importadas. No se generó un descuento ni se cambió una promoción de tienda.
+Si tu misión ofrece un cupón del negocio, verifica el cupón concreto y sus condiciones además de la estrategia. La disponibilidad, integración y reglas de la oferta se comprueban por flujo; un selector de porcentaje no acredita creación ni canje.
+
+La tarjeta compartida de ejemplo tiene **Hasta 10%** seleccionado en un borrador del **Impulsor de Suscriptores** sin guardar. En esa misión, el incentivo generado usa el porcentaje configurado como tasa fija; no lo interpretes como un máximo variable de IA para todas las misiones. El foco estrecho muestra los cuatro porcentajes de la fuente de escritorio. No se generó un descuento ni se cambió una promoción de tienda.
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Porcentaje en la tarjeta de descuento compartida">
   <div class="ht-editorial-visual__stage">
@@ -282,49 +282,6 @@ La figura muestra **Hasta 10%** seleccionado en un borrador del **Impulsor de Su
   </div>
   <figcaption class="ht-editorial-visual__caption">Borrador de Subscriber Booster; tasa fija por ese flujo.</figcaption>
 </figure>
-
-### Elige qué promociones de la tienda puede usar la misión
-
-El panel **Promociones de la tienda** muestra las promociones importadas de VTEX. Para abrirlo:
-
-1. Elige **Combinar ofertas de la tienda con incentivos de IA** o **Usar solo ofertas existentes de la tienda**.
-2. Pulsa **Ver promociones de la tienda** en la tarjeta seleccionada. En la opción combinada, el botón está junto a los porcentajes, después de **Hasta 20%**.
-3. Revisa cada promoción y su programación. Activa su interruptor para permitirla en esta misión o desactívalo para excluirla.
-4. Usa **Buscar promociones** para encontrarla por nombre. El icono de filtro junto a la búsqueda permite limitar la lista por tipo.
-5. Cierra el panel con su botón de cerrar o con Escape cuando termines.
-
-Elegir una estrategia mantiene el panel cerrado hasta que pulses **Ver promociones de la tienda**. Al abrirlo, aparece a la izquierda y desplaza la configuración a la derecha. Al cerrarlo, recuperas la configuración y la vista previa de la conversación.
-
-El filtro ofrece **Todos los tipos**, **Combos**, **Compra y recibe un regalo**, **Lleva más, paga menos** y **Descuentos**. La búsqueda y el tipo se combinan; **Mostrar más** amplía los resultados de esa selección.
-
-Buscar o cambiar el filtro conserva tus selecciones, incluso las de promociones que ya no ves. Cambiar el tipo vuelve al inicio de la lista y mantiene el texto de búsqueda. Filtrar una promoción fuera de la vista no la excluye del agente: para excluirla, desactiva su interruptor. Cerrar y volver a abrir el panel también conserva la búsqueda, el filtro y las selecciones mientras sigas en el editor.
-
-### Cómo funcionan los interruptores y los horarios
-
-Cada interruptor decide si esta misión puede usar esa promoción importada. Tus cambios se aplican a la misión que estás editando; no modifican la promoción en VTEX ni las selecciones de otras misiones.
-
-Sin una selección propia, la misión usa la disponibilidad predeterminada de la promoción en Hellotext. Las promociones importadas del tipo **Descuentos** están desactivadas para el agente por defecto; puedes permitir las que quieras con sus interruptores.
-
-El estado **Habilitada en la tienda** o **Deshabilitada en la tienda** describe la promoción de origen. Puede diferir del interruptor de la misión. Una selección explícita sustituye la disponibilidad predeterminada para esta misión, incluso si la promoción figura como deshabilitada en la tienda. Esto no la activa en VTEX ni garantiza que se aplique en el checkout.
-
-La programación importada sigue vigente:
-
-- Una promoción solo está disponible para el agente dentro de sus fechas y días activos, según la zona horaria del negocio.
-- El panel permite configurar promociones futuras o pausadas; verlas en la lista no significa que estén disponibles ahora.
-- Las promociones vencidas ya no aparecen en la lista.
-- Las fechas y los días se consultan en el panel. Para cambiarlos, modifica la promoción en la tienda y espera su sincronización.
-
-Por ejemplo, puedes permitir una promoción que solo funciona los viernes. El agente seguirá respetando ese día; activar el interruptor no la habilita el resto de la semana.
-
-### Guarda o restaura tus selecciones
-
-Cierra el panel, pulsa **Volver** para regresar a las tarjetas y guarda la misión con la acción final del editor. Cerrar el panel o regresar a las tarjetas conserva el borrador; completa el guardado para conservar los cambios al salir del editor.
-
-**Restaurar valores predeterminados** aparece cuando hay selecciones propias que borrar. Restablece todas las promociones de esta misión, incluidas las ocultas por la búsqueda o el filtro, y vuelve a ocultarse cuando ya no quedan selecciones propias. Guarda la misión para conservar el restablecimiento. Las promociones del tipo **Descuentos** vuelven a quedar desactivadas por defecto.
-
-Si eliges solo incentivos de IA, un cupón o la opción sin descuentos, el panel se cierra y conserva las selecciones de promociones. Puedes volver a revisarlas al elegir una estrategia que use ofertas de la tienda.
-
-Antes de dar el cambio por terminado, revisa que las promociones internas estén excluidas, que las públicas necesarias estén permitidas y que sus fechas y días sean correctos. Prueba una consulta de oferta y otra que pida un descuento mayor para comprobar que el agente sigue la estrategia elegida.
 
 ## Personaliza derivación
 
