@@ -1,0 +1,2157 @@
+{
+  "inspected_at_utc": "2026-10-02T11:10:26.787310+00:00",
+  "protected_rails_sha": "5403a7dcb567b63cae87d4c088112d65fad4eb7f",
+  "current_master_sha": "ed4b9a87cfba95431f5ffe0987a6413d4d538835",
+  "reused_immutable_audit": "docs/editorial-work/captures/troubleshoot-a-playbook-that-did-not-trigger-or-send/source-audit.json",
+  "reused_scope": "Troubleshooting250 compared at the same immutable master with protected file hashes reconfirmed; historical12 differences/read boundaries retained. 12 new unique comparisons (all complete except the long recommender prompt examined by relevant sections); one new prompt difference read in full. Not all262 files freshly read in full.",
+  "source_files": [
+    {
+      "path": "app/controllers/automation/assignments_controller.rb",
+      "protected_sha256": "b988a81cdcae79eeb69af544179449ca95c271eb17cb05734d4b4a2bd5b7f45b",
+      "current_sha256": "b988a81cdcae79eeb69af544179449ca95c271eb17cb05734d4b4a2bd5b7f45b",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/controllers/automation/assignments_controller.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/controllers/automation/agents_controller.rb",
+      "protected_sha256": "22179a1a23fb3ea44bb798c9f07f23d4499313bc2be0022b2f9d647d9110aa5a",
+      "current_sha256": "22179a1a23fb3ea44bb798c9f07f23d4499313bc2be0022b2f9d647d9110aa5a",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/controllers/automation/agents_controller.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/controllers/journeys_controller.rb",
+      "protected_sha256": "7cc88f2596b81f7755ef9ae49430e60fe8b6e007c91bdf7733ef0ab695216764",
+      "current_sha256": "7cc88f2596b81f7755ef9ae49430e60fe8b6e007c91bdf7733ef0ab695216764",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/controllers/journeys_controller.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/journey_template/factory.rb",
+      "protected_sha256": "4e70059d4b58beed5d3a789bf049a817aec780b8132da9cba0a5c4dff3081f30",
+      "current_sha256": "4e70059d4b58beed5d3a789bf049a817aec780b8132da9cba0a5c4dff3081f30",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/journey_template/factory.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/views/automation/agents/_pane.html.erb",
+      "protected_sha256": "8c63d9e67bbe940c1c8d984ba7a1c86d1e08542ba40fe0ffa65f542276d3e94f",
+      "current_sha256": "8c63d9e67bbe940c1c8d984ba7a1c86d1e08542ba40fe0ffa65f542276d3e94f",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/automation/agents/_pane.html.erb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/views/automation/assignments/_pane.html.erb",
+      "protected_sha256": "2c24f40992cecfdc013a92ec4b0c44661e4e9b0ae53dea9bd6dc090e5e7b4aaa",
+      "current_sha256": "2c24f40992cecfdc013a92ec4b0c44661e4e9b0ae53dea9bd6dc090e5e7b4aaa",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/automation/assignments/_pane.html.erb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/views/automation/assignment_actions/_assignment_action.html.erb",
+      "protected_sha256": "cbfc77edf5e4a9ab8566d53fae703cb2da732bb5ab0589156ae7feffc7895754",
+      "current_sha256": "cbfc77edf5e4a9ab8566d53fae703cb2da732bb5ab0589156ae7feffc7895754",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/automation/assignment_actions/_assignment_action.html.erb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/views/playbook/component/assignments/_form.html.erb",
+      "protected_sha256": "796035fd7888972b730be52c701b0e76b0ab13bf41d7267efe29d96cfc979992",
+      "current_sha256": "796035fd7888972b730be52c701b0e76b0ab13bf41d7267efe29d96cfc979992",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook/component/assignments/_form.html.erb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/views/playbook/component/intents/_form.html.erb",
+      "protected_sha256": "6d713c8b925104c808492b3fcd5688300d07e5bf344d3f0b9818f71a913a4c2f",
+      "current_sha256": "6d713c8b925104c808492b3fcd5688300d07e5bf344d3f0b9818f71a913a4c2f",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook/component/intents/_form.html.erb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/runner/assignment.rb",
+      "protected_sha256": "faf2405b8c915fb9afbbe3b1863323b186f75415a392f221f38217ce1246ad43",
+      "current_sha256": "bceb8913c95a5bce46a4c9f6693bb91972e5a9e941d8063294153ca8223561a7",
+      "identical": false,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/runner/assignment.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/automation/process/agent.rb",
+      "protected_sha256": "a6c27fdba4130ec46d36e2957cbd06be3a64b25c65423a8f56a90ef5b9bdd9ed",
+      "current_sha256": "a6c27fdba4130ec46d36e2957cbd06be3a64b25c65423a8f56a90ef5b9bdd9ed",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/automation/process/agent.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/automation/agent_action.rb",
+      "protected_sha256": "e1078b988e87ee186e0a8bc0b315b0c7f05d7fe63fd5ef4024977c2a5cb3989e",
+      "current_sha256": "e1078b988e87ee186e0a8bc0b315b0c7f05d7fe63fd5ef4024977c2a5cb3989e",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/automation/agent_action.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/actors/journey/process_step/assignment/assign.rb",
+      "protected_sha256": "c07d59aecfb0c79cf4fc289556bc8d2a99bcd2b0e29f941a8889e7836b5171ff",
+      "current_sha256": "c07d59aecfb0c79cf4fc289556bc8d2a99bcd2b0e29f941a8889e7836b5171ff",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/actors/journey/process_step/assignment/assign.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/conversation/ownership/team_member_pool.rb",
+      "protected_sha256": "68f755d5f4d265da86928100994f51f017557c2ad4c702b450e7fd0b857a44e7",
+      "current_sha256": "68f755d5f4d265da86928100994f51f017557c2ad4c702b450e7fd0b857a44e7",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/conversation/ownership/team_member_pool.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/automation/end_policy/handoff_to_supervisor.rb",
+      "protected_sha256": "95e982b49fe01536010a24b6db8747de6f80cab46a1362841b02389f2c825e30",
+      "current_sha256": "95e982b49fe01536010a24b6db8747de6f80cab46a1362841b02389f2c825e30",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/automation/end_policy/handoff_to_supervisor.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook.rb",
+      "protected_sha256": "14c91253a79dfc925c88c7ab54d76ded0586b682f38ac60d602b8d02b3a106cd",
+      "current_sha256": "14c91253a79dfc925c88c7ab54d76ded0586b682f38ac60d602b8d02b3a106cd",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/supervisor/classifier.rb",
+      "protected_sha256": "8422de81b7f6f893139f1a2704a83e5c0684a4ce54d4a90683d58cfcc412e4f6",
+      "current_sha256": "8422de81b7f6f893139f1a2704a83e5c0684a4ce54d4a90683d58cfcc412e4f6",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/supervisor/classifier.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/javascript/controllers/automation/assignment_pane_controller.js",
+      "protected_sha256": "ad27fcd385c432aaf227a50c8820dc6c69e23d3c79ec8fbda4ca31eb89327f29",
+      "current_sha256": "ad27fcd385c432aaf227a50c8820dc6c69e23d3c79ec8fbda4ca31eb89327f29",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/javascript/controllers/automation/assignment_pane_controller.js",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/javascript/controllers/automation/assignment_action_controller.js",
+      "protected_sha256": "a330ddbfec4c01fea3f8aa2f53eca6e0b8b1fb88b9492a0e7732f5964d530ed6",
+      "current_sha256": "a330ddbfec4c01fea3f8aa2f53eca6e0b8b1fb88b9492a0e7732f5964d530ed6",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/javascript/controllers/automation/assignment_action_controller.js",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/javascript/controllers/automation/agent_pane_controller.js",
+      "protected_sha256": "17aa4b76546da66efdcf6f55120b452e62042a448a7a9cd6aaccdb586eb38b91",
+      "current_sha256": "17aa4b76546da66efdcf6f55120b452e62042a448a7a9cd6aaccdb586eb38b91",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/javascript/controllers/automation/agent_pane_controller.js",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "config/locales/views/automation/es.yml",
+      "protected_sha256": "667e52da8944966360cfa62aca2849cce84d595914313afaf0f428840cacb74e",
+      "current_sha256": "667e52da8944966360cfa62aca2849cce84d595914313afaf0f428840cacb74e",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/config/locales/views/automation/es.yml",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "config/locales/views/automation/en.yml",
+      "protected_sha256": "684a3f379d925316a92ff2ea40cc348847a8c30c68a8a92e6ea31ba2d2d7fa8f",
+      "current_sha256": "684a3f379d925316a92ff2ea40cc348847a8c30c68a8a92e6ea31ba2d2d7fa8f",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/config/locales/views/automation/en.yml",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "config/locales/views/playbooks/es.yml",
+      "protected_sha256": "bd4b4e660d155e67adb09e937b3aaa821b41b4ca7f9f067d1f35af56c96b99fe",
+      "current_sha256": "bd4b4e660d155e67adb09e937b3aaa821b41b4ca7f9f067d1f35af56c96b99fe",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/config/locales/views/playbooks/es.yml",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "config/locales/views/playbooks/en.yml",
+      "protected_sha256": "9e96ab1a1bc517612ec0d3c1f8da22bbb095e5d4f9d4f4d7dcd6a85d986b877c",
+      "current_sha256": "9e96ab1a1bc517612ec0d3c1f8da22bbb095e5d4f9d4f4d7dcd6a85d986b877c",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/config/locales/views/playbooks/en.yml",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/conversation/assignable.rb",
+      "protected_sha256": "68617f1e3c728b7552aff8f3a44483888dd09388d43e02ec048de43b6a327ebe",
+      "current_sha256": "68617f1e3c728b7552aff8f3a44483888dd09388d43e02ec048de43b6a327ebe",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/conversation/assignable.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/conversation/closeable.rb",
+      "protected_sha256": "9f922cf52f36746596af7d437dde9990572ed81f8fb58bf3a0301312e1f7ad49",
+      "current_sha256": "9f922cf52f36746596af7d437dde9990572ed81f8fb58bf3a0301312e1f7ad49",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/conversation/closeable.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/conversation/window.rb",
+      "protected_sha256": "cc0ce95e3ed3d745bcf8a78ce62e7b1f1579e7fa73c4051f35f5e57ff7982ac3",
+      "current_sha256": "cc0ce95e3ed3d745bcf8a78ce62e7b1f1579e7fa73c4051f35f5e57ff7982ac3",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/conversation/window.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/controllers/playbooks_controller.rb",
+      "protected_sha256": "a6ad61417600b5bd45b083f3094da32fddbec158029d703591a993e5e35d7538",
+      "current_sha256": "a6ad61417600b5bd45b083f3094da32fddbec158029d703591a993e5e35d7538",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/controllers/playbooks_controller.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/javascript/controllers/playbook/intent_controller.js",
+      "protected_sha256": "ed6a557d2553ea8c75f7c87543c0e6c2ff007000d1614e5bc7548cb232f57141",
+      "current_sha256": "ed6a557d2553ea8c75f7c87543c0e6c2ff007000d1614e5bc7548cb232f57141",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/javascript/controllers/playbook/intent_controller.js",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/views/playbook/component/intent_items/_intent_item.html.erb",
+      "protected_sha256": "0d42b83d98efd77bc1689501a7c4269e1d2cd586d3face56365bf6d529e38f0c",
+      "current_sha256": "0d42b83d98efd77bc1689501a7c4269e1d2cd586d3face56365bf6d529e38f0c",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook/component/intent_items/_intent_item.html.erb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/preview.rb",
+      "protected_sha256": "c23bca136cdaade6968eb20dd0483961f1de98b76c606b10fc28207cf10c8510",
+      "current_sha256": "c23bca136cdaade6968eb20dd0483961f1de98b76c606b10fc28207cf10c8510",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/preview.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/custom.rb",
+      "protected_sha256": "9c250c15f0abeb2ced580300eca12da196c48875b282fdaddd3876bcc249b293",
+      "current_sha256": "9c250c15f0abeb2ced580300eca12da196c48875b282fdaddd3876bcc249b293",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/custom.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/ai/conversation.rb",
+      "protected_sha256": "0f1336cf61f16cbf5989b0ec5ab186a4bc03e993ae6c24f089a0916b63f2e558",
+      "current_sha256": "0f1336cf61f16cbf5989b0ec5ab186a4bc03e993ae6c24f089a0916b63f2e558",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/ai/conversation.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/conversation/ownership/refill_pending_team_assignment.rb",
+      "protected_sha256": "fdc73f0e07f9f3433472e6d71ec0c5de8fe99b217c10432dc31d5336625d55de",
+      "current_sha256": "fdc73f0e07f9f3433472e6d71ec0c5de8fe99b217c10432dc31d5336625d55de",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/conversation/ownership/refill_pending_team_assignment.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/conversation/ownership/refill_awaiting_online_assignment.rb",
+      "protected_sha256": "89039d675d6a2ae820afb43369f18cfad3bad85a9304ab203ed330f1d3c6c09d",
+      "current_sha256": "89039d675d6a2ae820afb43369f18cfad3bad85a9304ab203ed330f1d3c6c09d",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/conversation/ownership/refill_awaiting_online_assignment.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/user.rb",
+      "protected_sha256": "4e608381ee931d8ac1afaa47efabd0e37ac5044aad7054ed57a8fae076b113f4",
+      "current_sha256": "0d82acab9c8fdf8363be646d028b8b9f891a8e0b473a9db34d927f9b6668cc6b",
+      "identical": false,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/user.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/views/journeys/partials/_steps.html.erb",
+      "protected_sha256": "c03e75129c436db72f2d3260ca96be616204d98c8d73b20b6dc4584269d64c21",
+      "current_sha256": "c03e75129c436db72f2d3260ca96be616204d98c8d73b20b6dc4584269d64c21",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/journeys/partials/_steps.html.erb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/automation/workflow.rb",
+      "protected_sha256": "0bfbb9337321a382464d31eb7304e06dc2256f038188952125f94983b1d2e262",
+      "current_sha256": "0bfbb9337321a382464d31eb7304e06dc2256f038188952125f94983b1d2e262",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/automation/workflow.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/contact/reachability_query.rb",
+      "protected_sha256": "01ed1128699969441e7dfed957a1b1542070fe986a71f6c1fc083943c70c486a",
+      "current_sha256": "01ed1128699969441e7dfed957a1b1542070fe986a71f6c1fc083943c70c486a",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/contact/reachability_query.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/contact/audience_query.rb",
+      "protected_sha256": "60f52b8f1c7efdf96838df053f7f45b2afb67b2d078fe8b299ca3380d45abcb6",
+      "current_sha256": "60f52b8f1c7efdf96838df053f7f45b2afb67b2d078fe8b299ca3380d45abcb6",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/contact/audience_query.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/contactable.rb",
+      "protected_sha256": "4ddc08c2581ce693c683634b994cb201b459fca4dc92d33ebb82da2ceccb644f",
+      "current_sha256": "4ddc08c2581ce693c683634b994cb201b459fca4dc92d33ebb82da2ceccb644f",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/contactable.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/channel.rb",
+      "protected_sha256": "77802efe45a261e418006e37903da333ec31448ae62bce427d6689523539d8d4",
+      "current_sha256": "77802efe45a261e418006e37903da333ec31448ae62bce427d6689523539d8d4",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/channel.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/template.rb",
+      "protected_sha256": "5580d861be9d1142c8c2bdf9ef1e1267ca88beffb7028a96c1fc4a088c24f825",
+      "current_sha256": "5580d861be9d1142c8c2bdf9ef1e1267ca88beffb7028a96c1fc4a088c24f825",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/template.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/views/contacts/_details.html.erb",
+      "protected_sha256": "84805264a41e4e1dfa93a301a8d5f24e82742358faa32a66b0fa21a4eef37fb8",
+      "current_sha256": "8205ec4eca3b311b4cd6f7bb6c6cc2cb9eae58b37bfba810ab6fe2d91aa06950",
+      "identical": false,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/contacts/_details.html.erb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/track/action/custom.rb",
+      "protected_sha256": "facdf51b3d9f3fd332d9587da2bd82cc54d1406ce4f2ba37d2baa01ae858f9d1",
+      "current_sha256": "facdf51b3d9f3fd332d9587da2bd82cc54d1406ce4f2ba37d2baa01ae858f9d1",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/track/action/custom.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/track/event.rb",
+      "protected_sha256": "39e1345fd2d4f7a8fcb9ba144d80ee1e5afb3b61a0bed34fc60cc6c43e2ae99e",
+      "current_sha256": "48bb0933847d45766e15fdf786951cf071faf6e9409544344ddec01c05583abe",
+      "identical": false,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/track/event.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/track/event/runner.rb",
+      "protected_sha256": "4a3cda3a04ce62c9ff24b2bd31b5c8f212383c792a3fad12e3b8261ab6c0e0f2",
+      "current_sha256": "4a3cda3a04ce62c9ff24b2bd31b5c8f212383c792a3fad12e3b8261ab6c0e0f2",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/track/event/runner.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/track/event/post_creation_runner.rb",
+      "protected_sha256": "fd4820b573703a20a394b80845a2cfe41beee8d15fc07eebaa9e9c87a265b5e1",
+      "current_sha256": "05fca71b3f339e5aa85b75099073b6d12a3e13afbd980ddc841c987ed9a6e186",
+      "identical": false,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/track/event/post_creation_runner.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/controllers/settings/actions_controller.rb",
+      "protected_sha256": "3bd0c428a5281da03b97438e5b4f25825ebe6fd2c236c08bd41386eedd10b463",
+      "current_sha256": "3bd0c428a5281da03b97438e5b4f25825ebe6fd2c236c08bd41386eedd10b463",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/controllers/settings/actions_controller.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/views/settings/actions/index.html.erb",
+      "protected_sha256": "ecbdf8322f693eaacafe15c993c590a49356d84cc0a374d38a0a38bd5a35c470",
+      "current_sha256": "ecbdf8322f693eaacafe15c993c590a49356d84cc0a374d38a0a38bd5a35c470",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/settings/actions/index.html.erb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/cg/admission/runner.rb",
+      "protected_sha256": "d3d08b22d3da7a0ae104f41c95a6694dc155d6b5da68f6ae9db205c83335d3ba",
+      "current_sha256": "d3d08b22d3da7a0ae104f41c95a6694dc155d6b5da68f6ae9db205c83335d3ba",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/admission/runner.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/cg/admission/playbook_frequency.rb",
+      "protected_sha256": "dbe2a5f538be002f1f2e5cbbede63434893fdaed323e38ef137a9e47013b86b6",
+      "current_sha256": "dbe2a5f538be002f1f2e5cbbede63434893fdaed323e38ef137a9e47013b86b6",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/admission/playbook_frequency.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/cg/admission/contact_frequency.rb",
+      "protected_sha256": "f97632d8812eb01a0b3067862f76291f8051cd7e0608df5a3ad1bac1ab4e9d32",
+      "current_sha256": "f97632d8812eb01a0b3067862f76291f8051cd7e0608df5a3ad1bac1ab4e9d32",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/admission/contact_frequency.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/cg/admission/recent_purchase.rb",
+      "protected_sha256": "dc3296014934b470ab1a54868ea37d8c6176f8c2b424057abb3c37d62aa13bfa",
+      "current_sha256": "dc3296014934b470ab1a54868ea37d8c6176f8c2b424057abb3c37d62aa13bfa",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/admission/recent_purchase.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/cg/runtime/runner.rb",
+      "protected_sha256": "368d9505dda50e0fe3424ae7b192990892dbecb158b42ab8fba405237447e235",
+      "current_sha256": "368d9505dda50e0fe3424ae7b192990892dbecb158b42ab8fba405237447e235",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/runtime/runner.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/cg/runtime/runner/evaluation.rb",
+      "protected_sha256": "522a8f373eb9db17e65f04340ec7f0d42544bff34a761fe54ab6edbf7a52eb9e",
+      "current_sha256": "522a8f373eb9db17e65f04340ec7f0d42544bff34a761fe54ab6edbf7a52eb9e",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/runtime/runner/evaluation.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/cg/runtime/runner/routing.rb",
+      "protected_sha256": "e1af3cff867c5c2a9f4544d8fcd74cb59ce014d260560bb3b7ec525c05a615d2",
+      "current_sha256": "e1af3cff867c5c2a9f4544d8fcd74cb59ce014d260560bb3b7ec525c05a615d2",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/runtime/runner/routing.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/cg/runtime/runner/scheduling.rb",
+      "protected_sha256": "910ba36932444ec51d8e48a38ddc0f4eee64a66f5f6fc9d5fbd1cb47593eb425",
+      "current_sha256": "910ba36932444ec51d8e48a38ddc0f4eee64a66f5f6fc9d5fbd1cb47593eb425",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/runtime/runner/scheduling.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/cg/runtime/runner/materialization.rb",
+      "protected_sha256": "293fede60ded12dca6e0692ad5a707c2f94f7a82019bd0595a6f9d5dbaa2b301",
+      "current_sha256": "293fede60ded12dca6e0692ad5a707c2f94f7a82019bd0595a6f9d5dbaa2b301",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/runtime/runner/materialization.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/cg/runtime/send_guard.rb",
+      "protected_sha256": "acd7023e5227b3858105089d26fbe42ded7d1da4bc510e216da6450646c18467",
+      "current_sha256": "acd7023e5227b3858105089d26fbe42ded7d1da4bc510e216da6450646c18467",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/runtime/send_guard.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/cg/compliance/communication_window/runner.rb",
+      "protected_sha256": "34c1587bd023942a1337b88a64bcbb7512a15ccf5254ff68b481ff48001ea669",
+      "current_sha256": "34c1587bd023942a1337b88a64bcbb7512a15ccf5254ff68b481ff48001ea669",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/compliance/communication_window/runner.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/business/night_hours.rb",
+      "protected_sha256": "cbe147013a579e3814d9fb21ebe4a5a9920c7a647765de3c36a05652f2be1d87",
+      "current_sha256": "cbe147013a579e3814d9fb21ebe4a5a9920c7a647765de3c36a05652f2be1d87",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/business/night_hours.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/business/message_limits.rb",
+      "protected_sha256": "d7b089ffae808e5db9fb0afc10423419dfbcb5d1e510d5305ddfc6bb6ba73b7b",
+      "current_sha256": "d7b089ffae808e5db9fb0afc10423419dfbcb5d1e510d5305ddfc6bb6ba73b7b",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/business/message_limits.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/message/delivery_channel_resolver.rb",
+      "protected_sha256": "2834f8f7b3d6bb8d5b28654171ee7c2c8fae19458b1699ac28a3f34b183a15f1",
+      "current_sha256": "2834f8f7b3d6bb8d5b28654171ee7c2c8fae19458b1699ac28a3f34b183a15f1",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/message/delivery_channel_resolver.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/message/deliverer.rb",
+      "protected_sha256": "41c9fde98bc5b5afc2c1e17585f510c55e48b4bd41d0d558144e9c16e280cdf4",
+      "current_sha256": "41c9fde98bc5b5afc2c1e17585f510c55e48b4bd41d0d558144e9c16e280cdf4",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/message/deliverer.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/message/stateful.rb",
+      "protected_sha256": "ea45d7f56db7508423563724c00bf1c06e7af52de29a27f1e68268fd12a0da34",
+      "current_sha256": "b56a4f840155f3beabbc656662c6e668a4ac8b55400b419d02e375692953de2e",
+      "identical": false,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/message/stateful.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/message/delivery_failure.rb",
+      "protected_sha256": "210568950f64bdb004d1668f432bb7acd5300724fac44bf2dd8a331a8c4ab436",
+      "current_sha256": "210568950f64bdb004d1668f432bb7acd5300724fac44bf2dd8a331a8c4ab436",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/message/delivery_failure.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/compliance/reputation.rb",
+      "protected_sha256": "da61020edf11adca63a36c761cf12d009c7f8fac958a92387151e92cb7b64784",
+      "current_sha256": "da61020edf11adca63a36c761cf12d009c7f8fac958a92387151e92cb7b64784",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/compliance/reputation.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/message/scanner.rb",
+      "protected_sha256": "685f349a4319a5ebddc11334b5ae5610fb3fc08c8b1e02d0204c6a5619c6e443",
+      "current_sha256": "b4eed0b3a59e0728eb14dbb90855f27c5a9b48a4b2baea9c81db2f6e85e9543b",
+      "identical": false,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/message/scanner.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/cg/sto/runner.rb",
+      "protected_sha256": "037dc2475e156ff155169a65d6b476af5c2c868a6372a56282a5f6f542eeee72",
+      "current_sha256": "037dc2475e156ff155169a65d6b476af5c2c868a6372a56282a5f6f542eeee72",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/sto/runner.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/cg/sto/horizon.rb",
+      "protected_sha256": "55aaf7266fcbae3d03f2c329d688bd1c731dc1b7be5c75c0d9eb402f3905a477",
+      "current_sha256": "55aaf7266fcbae3d03f2c329d688bd1c731dc1b7be5c75c0d9eb402f3905a477",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/sto/horizon.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/cg/sto/contact_pacing.rb",
+      "protected_sha256": "b95d7712bda2c914e50b7ba3404818dcb44563b5356b3b0f2cf727720690cfb1",
+      "current_sha256": "b95d7712bda2c914e50b7ba3404818dcb44563b5356b3b0f2cf727720690cfb1",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/sto/contact_pacing.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/cg/sto/annotation.rb",
+      "protected_sha256": "072be70f04c4c80ca0241b4a04aba96f60ac7cd98baf46f0c85fdcd7e407519b",
+      "current_sha256": "072be70f04c4c80ca0241b4a04aba96f60ac7cd98baf46f0c85fdcd7e407519b",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/sto/annotation.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/cg/composer/engine/eligibility.rb",
+      "protected_sha256": "aa76427915498794bced5d34f874edb0f034de36aaa21e99eddbf57f470d370c",
+      "current_sha256": "aa76427915498794bced5d34f874edb0f034de36aaa21e99eddbf57f470d370c",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/composer/engine/eligibility.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/intent.rb",
+      "protected_sha256": "37eaeece19f0f4ebb66d6393cc61cc3ee8443df8667a1538ebed91ffe29fd68e",
+      "current_sha256": "37eaeece19f0f4ebb66d6393cc61cc3ee8443df8667a1538ebed91ffe29fd68e",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/intent.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/component/channel.rb",
+      "protected_sha256": "029179339af82e512e009478cbe3878826849a0e18a19d1c7ea22e853e19b6ae",
+      "current_sha256": "029179339af82e512e009478cbe3878826849a0e18a19d1c7ea22e853e19b6ae",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/component/channel.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/cg/sto/ranking.rb",
+      "protected_sha256": "734a3c64adcef3bffcf9f6562565762db006d5592ccff8ca48f0f3ccb0da1b5a",
+      "current_sha256": "734a3c64adcef3bffcf9f6562565762db006d5592ccff8ca48f0f3ccb0da1b5a",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/sto/ranking.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/controllers/playbook/components_controller.rb",
+      "protected_sha256": "7e8172a984635abc1ca5ce0aa7ddd317dc8605ba5ec36cbe6b6499f0169155ac",
+      "current_sha256": "7e8172a984635abc1ca5ce0aa7ddd317dc8605ba5ec36cbe6b6499f0169155ac",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/controllers/playbook/components_controller.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/controllers/concerns/playbook/component_params.rb",
+      "protected_sha256": "873ef4061f7c3eba1ff3533c9e5afcaec2d7e255061bffdb44ebaa3f74c7e47d",
+      "current_sha256": "873ef4061f7c3eba1ff3533c9e5afcaec2d7e255061bffdb44ebaa3f74c7e47d",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/controllers/concerns/playbook/component_params.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/javascript/controllers/playbook_controller.js",
+      "protected_sha256": "1f566d5a88ddf6182781bc5327b65457804e42a04b33e2ef54a155ee7a2b25da",
+      "current_sha256": "1f566d5a88ddf6182781bc5327b65457804e42a04b33e2ef54a155ee7a2b25da",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/javascript/controllers/playbook_controller.js",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/javascript/controllers/playbook/component_controller.js",
+      "protected_sha256": "6e8becb4b16eb37398c33841e13a746c01f09628d52339c3fbdffce8f4f77bf3",
+      "current_sha256": "6e8becb4b16eb37398c33841e13a746c01f09628d52339c3fbdffce8f4f77bf3",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/javascript/controllers/playbook/component_controller.js",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/javascript/controllers/playbook/prompt_controller.js",
+      "protected_sha256": "73bcfeb374e91be65acc8bf4e2fc82a954ed0a1ee1675ce97b1c782b8e7ad24b",
+      "current_sha256": "73bcfeb374e91be65acc8bf4e2fc82a954ed0a1ee1675ce97b1c782b8e7ad24b",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/javascript/controllers/playbook/prompt_controller.js",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/javascript/controllers/playbook/upload_controller.js",
+      "protected_sha256": "fa00dc42022bc40434b0594dbb3acc656168b3e10ee5b56b1681c708a3a9ced9",
+      "current_sha256": "fa00dc42022bc40434b0594dbb3acc656168b3e10ee5b56b1681c708a3a9ced9",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/javascript/controllers/playbook/upload_controller.js",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/javascript/controllers/playbook/web_search_controller.js",
+      "protected_sha256": "844336c98d13490a3767f95b2b420d9d734461ab913ba585c76f400f7d3d2f7e",
+      "current_sha256": "844336c98d13490a3767f95b2b420d9d734461ab913ba585c76f400f7d3d2f7e",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/javascript/controllers/playbook/web_search_controller.js",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/javascript/controllers/automation/agent_domains_controller.js",
+      "protected_sha256": "69da60983941d7e474ab8c9e0f6aa0f31044c64c1cc8fb734558cb0c7a5cb5ca",
+      "current_sha256": "69da60983941d7e474ab8c9e0f6aa0f31044c64c1cc8fb734558cb0c7a5cb5ca",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/javascript/controllers/automation/agent_domains_controller.js",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/javascript/controllers/playbook/form_controller.js",
+      "protected_sha256": "4a06123c6ac02aea769a4fc0026f47e316cd52a6afc0a04b0e5a8c89f95f15a7",
+      "current_sha256": "4a06123c6ac02aea769a4fc0026f47e316cd52a6afc0a04b0e5a8c89f95f15a7",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/javascript/controllers/playbook/form_controller.js",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/javascript/controllers/playbook/playground_controller.js",
+      "protected_sha256": "da60d543cc7ac6e62628f45bb108298ad1fa13fe5821da2470715c467dc8e9bc",
+      "current_sha256": "da60d543cc7ac6e62628f45bb108298ad1fa13fe5821da2470715c467dc8e9bc",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/javascript/controllers/playbook/playground_controller.js",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/saver.rb",
+      "protected_sha256": "dbc39b78cd975fdc86bb9d2e21e3b7ae29d5b24104436ac7da247beb5b8e448a",
+      "current_sha256": "dbc39b78cd975fdc86bb9d2e21e3b7ae29d5b24104436ac7da247beb5b8e448a",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/saver.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/saver/prompt.rb",
+      "protected_sha256": "afdb4ba5e17da2db77363f6b2c830f7a69b9f5bc06f25b833d24b81296f6678b",
+      "current_sha256": "afdb4ba5e17da2db77363f6b2c830f7a69b9f5bc06f25b833d24b81296f6678b",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/saver/prompt.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/saver/upload.rb",
+      "protected_sha256": "5161281934a09778ef32e5c8383af3340ebd33ed48111aac0821691ae2635258",
+      "current_sha256": "5161281934a09778ef32e5c8383af3340ebd33ed48111aac0821691ae2635258",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/saver/upload.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/saver/web_search.rb",
+      "protected_sha256": "33cfd43c76abe5048a0e328c23899c9563f127ff2241acff568a9a35c7ae9a33",
+      "current_sha256": "33cfd43c76abe5048a0e328c23899c9563f127ff2241acff568a9a35c7ae9a33",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/saver/web_search.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/saver/tone.rb",
+      "protected_sha256": "58e46dd14f831aee0e067ae81dea2bfabf3a0e98472f05fb166ce1e7c499608d",
+      "current_sha256": "58e46dd14f831aee0e067ae81dea2bfabf3a0e98472f05fb166ce1e7c499608d",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/saver/tone.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/saver/discount.rb",
+      "protected_sha256": "8c7fae0046c2697a019a9db3f23c3561dfea68cb5138d48a102281e1a42597aa",
+      "current_sha256": "8c7fae0046c2697a019a9db3f23c3561dfea68cb5138d48a102281e1a42597aa",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/saver/discount.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/saver/property_collection.rb",
+      "protected_sha256": "6c96000ff6e0b48243c0f7a29fd499e23f26f16d569b7cb4238c55bc8ebd67a6",
+      "current_sha256": "6c96000ff6e0b48243c0f7a29fd499e23f26f16d569b7cb4238c55bc8ebd67a6",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/saver/property_collection.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/component/prompt.rb",
+      "protected_sha256": "651024d4dcbee5156a6d903d3208c40c0d80541b21f17496969fb41a0e9552be",
+      "current_sha256": "651024d4dcbee5156a6d903d3208c40c0d80541b21f17496969fb41a0e9552be",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/component/prompt.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/component/upload.rb",
+      "protected_sha256": "63ac69529104a0edec73918f773109fbb7754a5f11999ba3832427a911fffac2",
+      "current_sha256": "63ac69529104a0edec73918f773109fbb7754a5f11999ba3832427a911fffac2",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/component/upload.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/component/upload_file.rb",
+      "protected_sha256": "800e47ec94e8c28aa1e5699af41398b49ac09e8c52f094d930963c92823394c8",
+      "current_sha256": "800e47ec94e8c28aa1e5699af41398b49ac09e8c52f094d930963c92823394c8",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/component/upload_file.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/component/web_search.rb",
+      "protected_sha256": "e04e92c53887554a62a0d08032277a93befba2c0e7a9acb65ca482f54590cc3a",
+      "current_sha256": "e04e92c53887554a62a0d08032277a93befba2c0e7a9acb65ca482f54590cc3a",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/component/web_search.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/component/property_collection.rb",
+      "protected_sha256": "a26ce75c851370c5630acc8ea93402586aca9acba66cfb73e2a8709ca654c35f",
+      "current_sha256": "a26ce75c851370c5630acc8ea93402586aca9acba66cfb73e2a8709ca654c35f",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/component/property_collection.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/component/discount.rb",
+      "protected_sha256": "26db3bf7bba82a30f63d84ea0905133f24c52a34cec037879ced4d92a8e69957",
+      "current_sha256": "26db3bf7bba82a30f63d84ea0905133f24c52a34cec037879ced4d92a8e69957",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/component/discount.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/component/access.rb",
+      "protected_sha256": "958475d69045296d950d41a96f460868bd30a4c980e4d99a7c409c855fea137e",
+      "current_sha256": "958475d69045296d950d41a96f460868bd30a4c980e4d99a7c409c855fea137e",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/component/access.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/concerns/playbook/component/composable.rb",
+      "protected_sha256": "f689a1160ca7dcd6e2744bcb708b410837b132e59ea2fe6829b1a8bce8ebac64",
+      "current_sha256": "f689a1160ca7dcd6e2744bcb708b410837b132e59ea2fe6829b1a8bce8ebac64",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/concerns/playbook/component/composable.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/persona.rb",
+      "protected_sha256": "2a9888df1520e926c0aa8ec14802ea130c95ebb79c4aa851758c2e92b46adda2",
+      "current_sha256": "2a9888df1520e926c0aa8ec14802ea130c95ebb79c4aa851758c2e92b46adda2",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/persona.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/persona_tone.rb",
+      "protected_sha256": "e71ac168fa3cfd037d0a4c4fce3fedc2f4f827b22509acdf918a2455c9071b1c",
+      "current_sha256": "e71ac168fa3cfd037d0a4c4fce3fedc2f4f827b22509acdf918a2455c9071b1c",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/persona_tone.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/policies/playbook_policy.rb",
+      "protected_sha256": "142f231b5cedb9d8e63e035f647fbccb59ab424974cd8f31ff78cb9858a3a7cf",
+      "current_sha256": "142f231b5cedb9d8e63e035f647fbccb59ab424974cd8f31ff78cb9858a3a7cf",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/policies/playbook_policy.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/jobs/playbook/component/upload_attachments_to_openai_job.rb",
+      "protected_sha256": "d4b25aa614bef9317d5f05a5ead6ea3ef068881920fd082dc4df25a2b0332500",
+      "current_sha256": "d4b25aa614bef9317d5f05a5ead6ea3ef068881920fd082dc4df25a2b0332500",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/jobs/playbook/component/upload_attachments_to_openai_job.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/views/playbooks/new.html.erb",
+      "protected_sha256": "65470bc265242a81d34ecb4776343492bc15ec28ddc759527f39a8f4bdc1d7f6",
+      "current_sha256": "65470bc265242a81d34ecb4776343492bc15ec28ddc759527f39a8f4bdc1d7f6",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbooks/new.html.erb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/views/playbooks/edit.html.erb",
+      "protected_sha256": "65470bc265242a81d34ecb4776343492bc15ec28ddc759527f39a8f4bdc1d7f6",
+      "current_sha256": "65470bc265242a81d34ecb4776343492bc15ec28ddc759527f39a8f4bdc1d7f6",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbooks/edit.html.erb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/views/playbooks/_form.html.erb",
+      "protected_sha256": "0d18a5bbffd043b4669b705d6d5ba168dc14f68c6ee22527e63f509c8587e85b",
+      "current_sha256": "0d18a5bbffd043b4669b705d6d5ba168dc14f68c6ee22527e63f509c8587e85b",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbooks/_form.html.erb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/views/playbook_components/_playbook_component.html.erb",
+      "protected_sha256": "21955c956a6a5e5cf0667121eadf25567430a8f994bf523a515ae74d8aec313f",
+      "current_sha256": "21955c956a6a5e5cf0667121eadf25567430a8f994bf523a515ae74d8aec313f",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook_components/_playbook_component.html.erb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/views/playbook/component/prompts/_prompt.html.erb",
+      "protected_sha256": "36b65f1a9417499fc15a6d110e08cff39fccedd09a218b821165de3084ae3bd3",
+      "current_sha256": "36b65f1a9417499fc15a6d110e08cff39fccedd09a218b821165de3084ae3bd3",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook/component/prompts/_prompt.html.erb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/views/playbook/component/prompts/_form.html.erb",
+      "protected_sha256": "54acde051632f6ca6c3805e55c9aa2fcc304fb210d91d082f8616c391500a315",
+      "current_sha256": "54acde051632f6ca6c3805e55c9aa2fcc304fb210d91d082f8616c391500a315",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook/component/prompts/_form.html.erb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/views/playbook/component/uploads/_upload.html.erb",
+      "protected_sha256": "26a5ce7e0c7d2cdc270d8eb70b21d75961be170313df2d4cba1044752562de14",
+      "current_sha256": "26a5ce7e0c7d2cdc270d8eb70b21d75961be170313df2d4cba1044752562de14",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook/component/uploads/_upload.html.erb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/views/playbook/component/uploads/_form.html.erb",
+      "protected_sha256": "509d60efd774bef6a3384c76fa6fe3866f44904e565484cfe8df7b516ed6239a",
+      "current_sha256": "509d60efd774bef6a3384c76fa6fe3866f44904e565484cfe8df7b516ed6239a",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook/component/uploads/_form.html.erb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/views/playbook/component/web_searches/_form.html.erb",
+      "protected_sha256": "8fa2da4217c8c6e59c5ca224e87c808e999e0ad408ae3229b07c53c7957ddf3e",
+      "current_sha256": "8fa2da4217c8c6e59c5ca224e87c808e999e0ad408ae3229b07c53c7957ddf3e",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook/component/web_searches/_form.html.erb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/views/playbook/component/web_searches/_web_search.html.erb",
+      "protected_sha256": "f96db24d5ce1ede58f3f1bbb785952b0694520275dadd28bcad14fb711f63deb",
+      "current_sha256": "f96db24d5ce1ede58f3f1bbb785952b0694520275dadd28bcad14fb711f63deb",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook/component/web_searches/_web_search.html.erb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/views/playbook/previews/_chat.html.erb",
+      "protected_sha256": "943936bf412a7382b0f36c01741f5100a2875ac87bbfc335664232f7af0c2514",
+      "current_sha256": "943936bf412a7382b0f36c01741f5100a2875ac87bbfc335664232f7af0c2514",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook/previews/_chat.html.erb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/views/playbook/component/tones/_form.html.erb",
+      "protected_sha256": "41d3676610285f484a05f699538ed717af6c574ed15ad0e59dbeeba9791da182",
+      "current_sha256": "41d3676610285f484a05f699538ed717af6c574ed15ad0e59dbeeba9791da182",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook/component/tones/_form.html.erb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/views/playbook/component/discounts/_form.html.erb",
+      "protected_sha256": "9332e2cae12c802a03e6c6cee48f9184263afa847d6841c661759ae333be9d4d",
+      "current_sha256": "9332e2cae12c802a03e6c6cee48f9184263afa847d6841c661759ae333be9d4d",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook/component/discounts/_form.html.erb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/views/playbook/component/channels/_form.html.erb",
+      "protected_sha256": "77365e1727617c2fd93184dfb6ee089d53645648c494f4926a8e87d02f11bdc5",
+      "current_sha256": "77365e1727617c2fd93184dfb6ee089d53645648c494f4926a8e87d02f11bdc5",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook/component/channels/_form.html.erb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/ai/context.rb",
+      "protected_sha256": "3790ea2df2e8b2479393e12a7caee910d4028b37726ed00e31027eb13e6d154c",
+      "current_sha256": "3790ea2df2e8b2479393e12a7caee910d4028b37726ed00e31027eb13e6d154c",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/ai/context.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/integrations/ai/openai/function.rb",
+      "protected_sha256": "3c69c0cd492c8ccf3695e3ae00c94cc723a0c523ac28bd41d750488920611060",
+      "current_sha256": "3c69c0cd492c8ccf3695e3ae00c94cc723a0c523ac28bd41d750488920611060",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/integrations/ai/openai/function.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/integrations/ai/openai/client/response.rb",
+      "protected_sha256": "fb676035496b28c989f755a36c48d3d429cf155eab7020ae58c76e7802e8237d",
+      "current_sha256": "fb676035496b28c989f755a36c48d3d429cf155eab7020ae58c76e7802e8237d",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/integrations/ai/openai/client/response.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/tone.rb",
+      "protected_sha256": "c1ff72da7418b65aea3b8ed7effc0b87d156caf4b1c5bb0645097c853721c468",
+      "current_sha256": "c1ff72da7418b65aea3b8ed7effc0b87d156caf4b1c5bb0645097c853721c468",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/tone.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/subscriber_booster/discount_generation.rb",
+      "protected_sha256": "8c3046ee53bf333c551b5314234fed03e07733982e9b475634405d1be1e36cab",
+      "current_sha256": "8c3046ee53bf333c551b5314234fed03e07733982e9b475634405d1be1e36cab",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/subscriber_booster/discount_generation.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/playground/conversation.rb",
+      "protected_sha256": "2bfd8eb73f7707af567b4fa9c786b96101e4005fad9313074c721dfb1c928ac5",
+      "current_sha256": "2bfd8eb73f7707af567b4fa9c786b96101e4005fad9313074c721dfb1c928ac5",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/playground/conversation.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/agent.rb",
+      "protected_sha256": "2bb89f47207d7565d25d09d33a1ddb1f2f1c5ee313d1c40ab4d4d272e53980f1",
+      "current_sha256": "2bb89f47207d7565d25d09d33a1ddb1f2f1c5ee313d1c40ab4d4d272e53980f1",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/agent.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/ai/agent_prompt.rb",
+      "protected_sha256": "0e4f648eea3de7f0d566e1aec6bfe66333d176feadb219eb87d742673a189254",
+      "current_sha256": "0e4f648eea3de7f0d566e1aec6bfe66333d176feadb219eb87d742673a189254",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/ai/agent_prompt.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook_component.rb",
+      "protected_sha256": "d3f68c3ebb8d6886b2fb4e91861242f71d442f06a90e903570056001d70f31ea",
+      "current_sha256": "d3f68c3ebb8d6886b2fb4e91861242f71d442f06a90e903570056001d70f31ea",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook_component.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/integrations/ai/openai/function/search_products.rb",
+      "protected_sha256": "25d3ce62cfe30ace630aee058eb25f1d549850f81d3a10ae62df08e8d5b4b277",
+      "current_sha256": "25d3ce62cfe30ace630aee058eb25f1d549850f81d3a10ae62df08e8d5b4b277",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/integrations/ai/openai/function/search_products.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/integrations/ai/openai/function/request_property_collection.rb",
+      "protected_sha256": "5d9e5cef89da85147fe123450d7e1fd5c344f7b04d6b0fbe191da98a37182ca9",
+      "current_sha256": "8002201479d4e2981a6cf789cc38bde36c227462dc29ec9ff3d3318efc4d7a9e",
+      "identical": false,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/integrations/ai/openai/function/request_property_collection.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/integrations/ai/openai/function/add_to_property.rb",
+      "protected_sha256": "55617b16a056b5c2f8e49fa7668960ab34c7b84df9cee59d6b00fc97a8b3dc08",
+      "current_sha256": "55617b16a056b5c2f8e49fa7668960ab34c7b84df9cee59d6b00fc97a8b3dc08",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/integrations/ai/openai/function/add_to_property.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/integrations/ai/openai/function/escalate.rb",
+      "protected_sha256": "5b6d1ec567c3bbebea0c3b6ec48da39cb217d2622317eae1ef540cc96999dc46",
+      "current_sha256": "5b6d1ec567c3bbebea0c3b6ec48da39cb217d2622317eae1ef540cc96999dc46",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/integrations/ai/openai/function/escalate.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/integrations/ai/openai/client/supervisor.rb",
+      "protected_sha256": "7bf3cea45a7b6a875cd0d7bf19403e1ade1e53cf8ab5ba54723b3e904240d408",
+      "current_sha256": "7bf3cea45a7b6a875cd0d7bf19403e1ade1e53cf8ab5ba54723b3e904240d408",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/integrations/ai/openai/client/supervisor.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/integrations/ai/openai/client/guardrail.rb",
+      "protected_sha256": "bf9ced7b4377ca1a1f8228af8dc9a8a3c29efcd163f83532ba470119e950439a",
+      "current_sha256": "bf9ced7b4377ca1a1f8228af8dc9a8a3c29efcd163f83532ba470119e950439a",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/integrations/ai/openai/client/guardrail.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/saver/channel.rb",
+      "protected_sha256": "2f4f628d1ec326468e35eb0fc3d84eb4148ee0c36a90a60be5b27a78894e985c",
+      "current_sha256": "2f4f628d1ec326468e35eb0fc3d84eb4148ee0c36a90a60be5b27a78894e985c",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/saver/channel.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/saver/intent.rb",
+      "protected_sha256": "388704c7fe18f72fa124886a21e888eafde5e1a8c88550aed11f8c650f791683",
+      "current_sha256": "388704c7fe18f72fa124886a21e888eafde5e1a8c88550aed11f8c650f791683",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/saver/intent.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/saver/assignment.rb",
+      "protected_sha256": "a5e697de449144f209a9e6227da45c7e8acb226d8ab38d6f526a244a0cde0823",
+      "current_sha256": "a5e697de449144f209a9e6227da45c7e8acb226d8ab38d6f526a244a0cde0823",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/saver/assignment.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/component/intent.rb",
+      "protected_sha256": "4fa4401a1677c12dab79b0539c3b99c1ee35958ddeef8571465e3c40d905ade8",
+      "current_sha256": "4fa4401a1677c12dab79b0539c3b99c1ee35958ddeef8571465e3c40d905ade8",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/component/intent.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/component/intent_item.rb",
+      "protected_sha256": "86e07ecf9d2bf685b6b7822b7d43312d7138607412c32d0ce0bbd6962ddde613",
+      "current_sha256": "86e07ecf9d2bf685b6b7822b7d43312d7138607412c32d0ce0bbd6962ddde613",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/component/intent_item.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/playground.rb",
+      "protected_sha256": "3503aca11aab2479b3b0269c4107d2007b555b212ed5eb14fecc4310996ee52b",
+      "current_sha256": "3503aca11aab2479b3b0269c4107d2007b555b212ed5eb14fecc4310996ee52b",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/playground.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/playground/runner.rb",
+      "protected_sha256": "69557bc857a1e9f49787617a96169f267025a25d4689463f14ae257344d1a06f",
+      "current_sha256": "71bbe5b78ab89a440f74c5aa3e0ed7bff1dd17ecc3d94432af77e4fd23fe9bed",
+      "identical": false,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/playground/runner.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/playground/escalation.rb",
+      "protected_sha256": "86f3f30273cb752c8d7be832d93dd41490d02eaec4c345966e9a8a7ab13f7b21",
+      "current_sha256": "86f3f30273cb752c8d7be832d93dd41490d02eaec4c345966e9a8a7ab13f7b21",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/playground/escalation.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/playground/property_collection.rb",
+      "protected_sha256": "c4cbfd80a1d78cd6c89871cc4b3484ee46d6e986da2be2f464f076185178d0d0",
+      "current_sha256": "c4cbfd80a1d78cd6c89871cc4b3484ee46d6e986da2be2f464f076185178d0d0",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/playground/property_collection.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/playground/response.rb",
+      "protected_sha256": "e0cd41c2661d363555871a7c919f3874b9254fba5aa5128f38d3439591086c96",
+      "current_sha256": "e0cd41c2661d363555871a7c919f3874b9254fba5aa5128f38d3439591086c96",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/playground/response.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/views/playbook/component/channels/_channel.html.erb",
+      "protected_sha256": "8f5d32437d55c59737465fbd1aeb7522a6782ff037d7e690dd4c77ba1760d43d",
+      "current_sha256": "8f5d32437d55c59737465fbd1aeb7522a6782ff037d7e690dd4c77ba1760d43d",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook/component/channels/_channel.html.erb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/views/playbook/component/assignments/_assignment.html.erb",
+      "protected_sha256": "e7b65ce14df008ac5094ec9aae07617916a10182ce49569ee825b3462b94cd63",
+      "current_sha256": "e7b65ce14df008ac5094ec9aae07617916a10182ce49569ee825b3462b94cd63",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook/component/assignments/_assignment.html.erb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/views/playbook/component/intents/_intent.html.erb",
+      "protected_sha256": "f7edcefbfb7d5f62c768412bc715dc37f5afdb960e3ca7a245577942f6c0582c",
+      "current_sha256": "f7edcefbfb7d5f62c768412bc715dc37f5afdb960e3ca7a245577942f6c0582c",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook/component/intents/_intent.html.erb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/controllers/playbook/messages_controller.rb",
+      "protected_sha256": "08d7f9cced16dd96bab34d3bac88ba01e74ebfd87a41a7750405e98f1162bb37",
+      "current_sha256": "08d7f9cced16dd96bab34d3bac88ba01e74ebfd87a41a7750405e98f1162bb37",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/controllers/playbook/messages_controller.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/instant_answer.rb",
+      "protected_sha256": "39b136ecc7c640c54eae47f2f13fda840aec59240cb9e2e26b63ca28e10ede8b",
+      "current_sha256": "39b136ecc7c640c54eae47f2f13fda840aec59240cb9e2e26b63ca28e10ede8b",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/instant_answer.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/prompts/prompt/instant_answer.rb",
+      "protected_sha256": "647517806038536a2d28f10e457310ff11ee3f620914b9315a13df50a2a14316",
+      "current_sha256": "647517806038536a2d28f10e457310ff11ee3f620914b9315a13df50a2a14316",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/prompts/prompt/instant_answer.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/prompts/instant.answer.txt",
+      "protected_sha256": "401eca9612d915b0dc5413e6b96bda5b82fab15a61b0c800a182c063e060a3d5",
+      "current_sha256": "0d940aee626f3715b4949a9246be5f5c6de84e0e9d2ee56375fedb761efdc127",
+      "identical": false,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/prompts/instant.answer.txt",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "db/seeds/playbooks.rb",
+      "protected_sha256": "a541b1bb9cfdc2fcf904228264f797ea86ec0227d49e9819b1e4655acfeb664c",
+      "current_sha256": "a541b1bb9cfdc2fcf904228264f797ea86ec0227d49e9819b1e4655acfeb664c",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/db/seeds/playbooks.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "db/seeds/intents.rb",
+      "protected_sha256": "a6d1c6e85dcc717062479afe0f9374edbf969c0441957c21937995241670c4da",
+      "current_sha256": "a6d1c6e85dcc717062479afe0f9374edbf969c0441957c21937995241670c4da",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/db/seeds/intents.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/plan_catalog.rb",
+      "protected_sha256": "16ea42a8058b8402341cc96486e218fedd65ea045d468509f91ec7d3fecb3f11",
+      "current_sha256": "16ea42a8058b8402341cc96486e218fedd65ea045d468509f91ec7d3fecb3f11",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/plan_catalog.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/sla/human_handoff_cycle_touchpoint.rb",
+      "protected_sha256": "27bcea22b7cde91f8a8faf27a400c809c153e0720f9db86c25ed925bd294c56a",
+      "current_sha256": "27bcea22b7cde91f8a8faf27a400c809c153e0720f9db86c25ed925bd294c56a",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/sla/human_handoff_cycle_touchpoint.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/sla/cycle.rb",
+      "protected_sha256": "77d13ce340c4af01fc8e3ce125ae7502e7057272b10a4a5af8364f36da3fa45c",
+      "current_sha256": "77d13ce340c4af01fc8e3ce125ae7502e7057272b10a4a5af8364f36da3fa45c",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/sla/cycle.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/report.rb",
+      "protected_sha256": "da2dbbea32fc08e2ffe7c5eed3239c907bb463f51f24af177c65935a23762573",
+      "current_sha256": "da2dbbea32fc08e2ffe7c5eed3239c907bb463f51f24af177c65935a23762573",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/report.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/views/playbook/previews/_webchat.html.erb",
+      "protected_sha256": "9060ca7ded7bfb9955dc7930e2586d144f505c42d533596b2b4c4234402df336",
+      "current_sha256": "9060ca7ded7bfb9955dc7930e2586d144f505c42d533596b2b4c4234402df336",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook/previews/_webchat.html.erb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/return_exchange.rb",
+      "protected_sha256": "fab69e4d78ce949352eaa11c12eed675df52f2cb0c456b3b4a7a8dd3192bd9a3",
+      "current_sha256": "fab69e4d78ce949352eaa11c12eed675df52f2cb0c456b3b4a7a8dd3192bd9a3",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/return_exchange.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/prompts/prompt/return_exchange.rb",
+      "protected_sha256": "c01f38e10a7ae43f60cc73ed6d03699077d55d4d30d8fde77ba77e8040627ece",
+      "current_sha256": "c01f38e10a7ae43f60cc73ed6d03699077d55d4d30d8fde77ba77e8040627ece",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/prompts/prompt/return_exchange.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/prompts/return.exchange.txt",
+      "protected_sha256": "46fff69a851109e2a0c501f880fe2751e91f9d6b13b24e6d83edd35616026315",
+      "current_sha256": "84623fe11633ee36c5136eb67eb6d8b97f381e4e64b68972626396cc681c01e1",
+      "identical": false,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/prompts/return.exchange.txt",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/integrations/ai/openai/function/send_message_with_buttons.rb",
+      "protected_sha256": "ed0ce02a531bbfcb46daf58d51a025dd421d406bc1b0a1cbc2dae0cdecf21870",
+      "current_sha256": "ed0ce02a531bbfcb46daf58d51a025dd421d406bc1b0a1cbc2dae0cdecf21870",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/integrations/ai/openai/function/send_message_with_buttons.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/integrations/ai/openai/function/send_interactive_url_message.rb",
+      "protected_sha256": "3021a7a27dbaa6b94107c9fb713e12bdfd3c9b2296ae79d25b6d9c4cb3a4ba9f",
+      "current_sha256": "3021a7a27dbaa6b94107c9fb713e12bdfd3c9b2296ae79d25b6d9c4cb3a4ba9f",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/integrations/ai/openai/function/send_interactive_url_message.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/back_in_stock_pouncer.rb",
+      "protected_sha256": "1ef3362f8b30d4241da4983cd9e8f5c7e0059dc7be7bb3f1c3777b9653219f3b",
+      "current_sha256": "1ef3362f8b30d4241da4983cd9e8f5c7e0059dc7be7bb3f1c3777b9653219f3b",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/back_in_stock_pouncer.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/birthday_bash.rb",
+      "protected_sha256": "cafc235f5a15256246687d9afa1e096ca891a38e58f2f9e8eb8a0adabfb3eef9",
+      "current_sha256": "cafc235f5a15256246687d9afa1e096ca891a38e58f2f9e8eb8a0adabfb3eef9",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/birthday_bash.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/anniversary_surprise.rb",
+      "protected_sha256": "2c019ed6477a4c7120b6fd6189dcaa640762a8abb5d2fac0f979f516886dd955",
+      "current_sha256": "2c019ed6477a4c7120b6fd6189dcaa640762a8abb5d2fac0f979f516886dd955",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/anniversary_surprise.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/browse_recovery.rb",
+      "protected_sha256": "be1989fbd62aef7681b066e819846562d04c032463e856ae67da7382bd2cfcd3",
+      "current_sha256": "be1989fbd62aef7681b066e819846562d04c032463e856ae67da7382bd2cfcd3",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/browse_recovery.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/cart_saver.rb",
+      "protected_sha256": "1d7c3732853724a567c77bd082b44737e40529bc9a3857cd0bb120b04d7c3f36",
+      "current_sha256": "1d7c3732853724a567c77bd082b44737e40529bc9a3857cd0bb120b04d7c3f36",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/cart_saver.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/cross_sell_driver.rb",
+      "protected_sha256": "d469dc8d7b1292b9fae8025a955f2cbb7c2d7bd5562e395b3fca734f86945ecf",
+      "current_sha256": "d469dc8d7b1292b9fae8025a955f2cbb7c2d7bd5562e395b3fca734f86945ecf",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/cross_sell_driver.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/dormant_revival.rb",
+      "protected_sha256": "3ba9608418d59d4a16d66370a6dead671065877e7a3cac8ee511b84a573decb1",
+      "current_sha256": "3ba9608418d59d4a16d66370a6dead671065877e7a3cac8ee511b84a573decb1",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/dormant_revival.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/soft_reactivation.rb",
+      "protected_sha256": "6a4969af2674352366075eb9abea6ac87ce49933442846c021feadaf65001eb3",
+      "current_sha256": "6a4969af2674352366075eb9abea6ac87ce49933442846c021feadaf65001eb3",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/soft_reactivation.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/sunset_saver.rb",
+      "protected_sha256": "2d4b8a57c570877e7c5a69aa7ba18d2d3b463578b3df486243ccd7b640803153",
+      "current_sha256": "2d4b8a57c570877e7c5a69aa7ba18d2d3b463578b3df486243ccd7b640803153",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/sunset_saver.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/csat.rb",
+      "protected_sha256": "49be4e35caaf1e04f514406373550e4698262d39617c0d4a6c38ebcfe7f63838",
+      "current_sha256": "49be4e35caaf1e04f514406373550e4698262d39617c0d4a6c38ebcfe7f63838",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/csat.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/nps.rb",
+      "protected_sha256": "c663367f3372e35d9311343b76b17dabe366b679d890b8dc9083598f4407359e",
+      "current_sha256": "c663367f3372e35d9311343b76b17dabe366b679d890b8dc9083598f4407359e",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/nps.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/review_builder.rb",
+      "protected_sha256": "e9841a33a340def50124b80e307f7b5a8850fe6fc1b2d79ce80a355d6f080402",
+      "current_sha256": "e9841a33a340def50124b80e307f7b5a8850fe6fc1b2d79ce80a355d6f080402",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/review_builder.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/product_recommender.rb",
+      "protected_sha256": "99d49165d12afe6c0dc3ecdeeb22ee5bea53644936b07e78279406e44b8f03f3",
+      "current_sha256": "99d49165d12afe6c0dc3ecdeeb22ee5bea53644936b07e78279406e44b8f03f3",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/product_recommender.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/order_update.rb",
+      "protected_sha256": "9f452002b72d0209499eb6b8b865f410e744b64302b8ac692f6f739f01d8061f",
+      "current_sha256": "9f452002b72d0209499eb6b8b865f410e744b64302b8ac692f6f739f01d8061f",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/order_update.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/look_completer.rb",
+      "protected_sha256": "802ccbdfd5b6afac98df568ef99687d2d383be646fdb822198d1fe0138a8710b",
+      "current_sha256": "802ccbdfd5b6afac98df568ef99687d2d383be646fdb822198d1fe0138a8710b",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/look_completer.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/price_drop_pouncer.rb",
+      "protected_sha256": "a06f9cb3c1ac7c8f289c36bd43db42e97ea528652e3385a59dd0a95cc60451e2",
+      "current_sha256": "a06f9cb3c1ac7c8f289c36bd43db42e97ea528652e3385a59dd0a95cc60451e2",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/price_drop_pouncer.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/replenishment_driver.rb",
+      "protected_sha256": "4f5f0b7e26d03fdb34bee40784fc7d2b9690e1fd25c53d86c1d4c5f941d01e09",
+      "current_sha256": "4f5f0b7e26d03fdb34bee40784fc7d2b9690e1fd25c53d86c1d4c5f941d01e09",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/replenishment_driver.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/order_cancellation.rb",
+      "protected_sha256": "8e50e77bac6e18633b9605fd015a1fbb52e633014449f7f3a459318fd0e429bc",
+      "current_sha256": "8e50e77bac6e18633b9605fd015a1fbb52e633014449f7f3a459318fd0e429bc",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/order_cancellation.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/journey_template.rb",
+      "protected_sha256": "62dba143b0d8f0422c29a9f38fd0f3c50994d84137fc49525b92f9e845c197f1",
+      "current_sha256": "62dba143b0d8f0422c29a9f38fd0f3c50994d84137fc49525b92f9e845c197f1",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/journey_template.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/helpers/integrations_helper.rb",
+      "protected_sha256": "bc8f9b9ed30ba9e3e9257c0a2197c619a8eacac969b001bd5d1666046f74d712",
+      "current_sha256": "bc8f9b9ed30ba9e3e9257c0a2197c619a8eacac969b001bd5d1666046f74d712",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/helpers/integrations_helper.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/component/order_cancellation/policy.rb",
+      "protected_sha256": "2cbcf66616c2f4370dbc32fad4fb08e2aa3e97be13ade3feb948796766abde08",
+      "current_sha256": "2cbcf66616c2f4370dbc32fad4fb08e2aa3e97be13ade3feb948796766abde08",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/component/order_cancellation/policy.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/component/order_cancellation/save_strategy.rb",
+      "protected_sha256": "1860b5835eeeff9b6985da31b217b570311f3dea921a7e72b4e75315abd56046",
+      "current_sha256": "1860b5835eeeff9b6985da31b217b570311f3dea921a7e72b4e75315abd56046",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/component/order_cancellation/save_strategy.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/saver/order_cancellation/policy.rb",
+      "protected_sha256": "833f6c960febbe22f95947410e6f5bd4fa115e3094a9f2c7940189779b37c9b0",
+      "current_sha256": "833f6c960febbe22f95947410e6f5bd4fa115e3094a9f2c7940189779b37c9b0",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/saver/order_cancellation/policy.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/saver/order_cancellation/save_strategy.rb",
+      "protected_sha256": "42ab635a06095957baf111876fdf49182ba20576da48a6f10e0db59ed3508bbe",
+      "current_sha256": "42ab635a06095957baf111876fdf49182ba20576da48a6f10e0db59ed3508bbe",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/saver/order_cancellation/save_strategy.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/views/playbook/component/order_cancellation/policies/_form.html.erb",
+      "protected_sha256": "5a57a4ea6d8049352d1e01a151be08dc823e1208c8b1d88408a14609de06df00",
+      "current_sha256": "5a57a4ea6d8049352d1e01a151be08dc823e1208c8b1d88408a14609de06df00",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook/component/order_cancellation/policies/_form.html.erb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/views/playbook/component/order_cancellation/save_strategies/_form.html.erb",
+      "protected_sha256": "57a361696c07b86ce318cc6df923213585f08ba3b990d76df86919543965b6f9",
+      "current_sha256": "57a361696c07b86ce318cc6df923213585f08ba3b990d76df86919543965b6f9",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook/component/order_cancellation/save_strategies/_form.html.erb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/javascript/controllers/playbook/order_cancellation/save_strategy_controller.js",
+      "protected_sha256": "579ccb39d8ba1d3f80d7014302bc440f39ad9a1765ca321d8a8eb0102ffa2145",
+      "current_sha256": "579ccb39d8ba1d3f80d7014302bc440f39ad9a1765ca321d8a8eb0102ffa2145",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/javascript/controllers/playbook/order_cancellation/save_strategy_controller.js",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/controllers/steps/waits_controller.rb",
+      "protected_sha256": "f3f91bf4144fb9709f2378197dda0e9fbcfa9d7f53763fe3f7c24a9d37738abd",
+      "current_sha256": "f3f91bf4144fb9709f2378197dda0e9fbcfa9d7f53763fe3f7c24a9d37738abd",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/controllers/steps/waits_controller.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/controllers/steps/conditions_controller.rb",
+      "protected_sha256": "b75a6828b491c5e6ce87590e1e60e765e17c6a03fbf3e92a76625a70956336f1",
+      "current_sha256": "b75a6828b491c5e6ce87590e1e60e765e17c6a03fbf3e92a76625a70956336f1",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/controllers/steps/conditions_controller.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/controllers/steps/messages_controller.rb",
+      "protected_sha256": "e20bc1c64cc63c72c6cdba963603a8be95b9c8a5c115a0398a3391634075a2c1",
+      "current_sha256": "e20bc1c64cc63c72c6cdba963603a8be95b9c8a5c115a0398a3391634075a2c1",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/controllers/steps/messages_controller.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/contact/lifecycle.rb",
+      "protected_sha256": "7def152596ff7f06479ad80a40b0a7cfcad13176ae3aaca81d62cd27a77a10c7",
+      "current_sha256": "7def152596ff7f06479ad80a40b0a7cfcad13176ae3aaca81d62cd27a77a10c7",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/contact/lifecycle.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/contact/lifecycle/base.rb",
+      "protected_sha256": "628b9c0d39aadb4405029c5596646d0a7125d5ed4bab248236aad2ffddf3d8e5",
+      "current_sha256": "628b9c0d39aadb4405029c5596646d0a7125d5ed4bab248236aad2ffddf3d8e5",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/contact/lifecycle/base.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/contact/lifecycle/lapsed_sweeper.rb",
+      "protected_sha256": "0b78ab88cde1a4008f2ae89ae630cb9cccaaf4008218d0a19c9cb81710a96b32",
+      "current_sha256": "0b78ab88cde1a4008f2ae89ae630cb9cccaaf4008218d0a19c9cb81710a96b32",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/contact/lifecycle/lapsed_sweeper.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/contact/lifecycle/dormant_sweeper.rb",
+      "protected_sha256": "ba8c60bba72bf8c9390798b83ac90b8c4d7653e43a4db4251b23538986333436",
+      "current_sha256": "ba8c60bba72bf8c9390798b83ac90b8c4d7653e43a4db4251b23538986333436",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/contact/lifecycle/dormant_sweeper.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/contact/lifecycle/churn_imminent_sweeper.rb",
+      "protected_sha256": "e796ff34d104d64a7c5c7876e556e7f6e27d7dc235605185ef313cfcb7d0e091",
+      "current_sha256": "e796ff34d104d64a7c5c7876e556e7f6e27d7dc235605185ef313cfcb7d0e091",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/contact/lifecycle/churn_imminent_sweeper.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/cg/runtime/anniversary_surprise/context.rb",
+      "protected_sha256": "222599d0de5ac9b85263106213446678ecc2b1dd44f253185dee4991c47fd558",
+      "current_sha256": "222599d0de5ac9b85263106213446678ecc2b1dd44f253185dee4991c47fd558",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/runtime/anniversary_surprise/context.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/cg/runtime/look_completer/context.rb",
+      "protected_sha256": "3c69971de73120bea6ea0e80ca848cd2a14abb5c5288e23cf907bbaff0f263c1",
+      "current_sha256": "3c69971de73120bea6ea0e80ca848cd2a14abb5c5288e23cf907bbaff0f263c1",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/runtime/look_completer/context.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/cg/matrix/posture/reactivation.rb",
+      "protected_sha256": "5650af847a3d52a962a7632f0dbb676ec1e74f3b7e982bf17496de0ea1b7b5ce",
+      "current_sha256": "5650af847a3d52a962a7632f0dbb676ec1e74f3b7e982bf17496de0ea1b7b5ce",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/matrix/posture/reactivation.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/cg/runtime/reactivation/context.rb",
+      "protected_sha256": "33257f74689ef4f50364817534d1cae3d1954461dad87495f200d18da00cfc69",
+      "current_sha256": "33257f74689ef4f50364817534d1cae3d1954461dad87495f200d18da00cfc69",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/runtime/reactivation/context.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/cg/runtime/reactivation/send_guard.rb",
+      "protected_sha256": "4da45217018b2013ddc94c141db1487ce8470808e701e1c64de08574ceebd904",
+      "current_sha256": "4da45217018b2013ddc94c141db1487ce8470808e701e1c64de08574ceebd904",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/runtime/reactivation/send_guard.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/cg/runtime/cross_sell_driver/send_guard.rb",
+      "protected_sha256": "5ebaa818bcae67cd5c7324c5b99db2b64b8767cb65078a930ca5fddf17b5aa2d",
+      "current_sha256": "5ebaa818bcae67cd5c7324c5b99db2b64b8767cb65078a930ca5fddf17b5aa2d",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/runtime/cross_sell_driver/send_guard.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/cg/runtime/replenishment_driver/send_guard.rb",
+      "protected_sha256": "d6bab646c137db4b5b2733b1d9c76ce21f22836366d450632eac0de38153bb81",
+      "current_sha256": "d6bab646c137db4b5b2733b1d9c76ce21f22836366d450632eac0de38153bb81",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/runtime/replenishment_driver/send_guard.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/cg/runtime/birthday_bash/send_guard.rb",
+      "protected_sha256": "147996d3c7254de354fe8fb43e4c2cee09af20115249454bd01e75a69bc3e69e",
+      "current_sha256": "147996d3c7254de354fe8fb43e4c2cee09af20115249454bd01e75a69bc3e69e",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/runtime/birthday_bash/send_guard.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/cg/runtime/anniversary_surprise/send_guard.rb",
+      "protected_sha256": "152ea7bca3333ca5cdf6cbe8e505ac7e425d14a1f816bbf1f1096bf9a69c0ba2",
+      "current_sha256": "152ea7bca3333ca5cdf6cbe8e505ac7e425d14a1f816bbf1f1096bf9a69c0ba2",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/runtime/anniversary_surprise/send_guard.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/cg/runtime/browse_recovery/send_guard.rb",
+      "protected_sha256": "a1e3380830b6ab93221c1a0f40a0255e5dea2ade61f3c5edef54f736b4cf5e91",
+      "current_sha256": "a1e3380830b6ab93221c1a0f40a0255e5dea2ade61f3c5edef54f736b4cf5e91",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/runtime/browse_recovery/send_guard.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/cg/runtime/back_in_stock_pouncer/send_guard.rb",
+      "protected_sha256": "ad89e233fbc4375e8cab0facb6fd59e14c785d7061bade38b99929e713eb052e",
+      "current_sha256": "ad89e233fbc4375e8cab0facb6fd59e14c785d7061bade38b99929e713eb052e",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/runtime/back_in_stock_pouncer/send_guard.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/cg/runtime/price_drop_pouncer/send_guard.rb",
+      "protected_sha256": "6b051637f3557e7a8d6ded06836602c9c1ee05e2648b50ba813644aed674daf1",
+      "current_sha256": "6b051637f3557e7a8d6ded06836602c9c1ee05e2648b50ba813644aed674daf1",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/runtime/price_drop_pouncer/send_guard.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/cg/runtime/look_completer/send_guard.rb",
+      "protected_sha256": "814107797ba1f36dc2ed4dd1599aa24c86e920251a6d3df05c44d465a5fae68c",
+      "current_sha256": "814107797ba1f36dc2ed4dd1599aa24c86e920251a6d3df05c44d465a5fae68c",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/runtime/look_completer/send_guard.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/csat/interaction_selector.rb",
+      "protected_sha256": "b4b20db66cc9e2dfddc8f89930ccaacd988d79d3938104e9e5850f6b6c4b4ec6",
+      "current_sha256": "b4b20db66cc9e2dfddc8f89930ccaacd988d79d3938104e9e5850f6b6c4b4ec6",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/csat/interaction_selector.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/csat/send_attempt.rb",
+      "protected_sha256": "cf09654d64ca4792a6da80eb7ec88d2fcbbbdafb44767392157e1bb620d2cb72",
+      "current_sha256": "cf09654d64ca4792a6da80eb7ec88d2fcbbbdafb44767392157e1bb620d2cb72",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/csat/send_attempt.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/nps/schedule_attempt.rb",
+      "protected_sha256": "02591112205df53af8fd3f57c2818f2852d917abbb9ed4251eff1368a0794db0",
+      "current_sha256": "02591112205df53af8fd3f57c2818f2852d917abbb9ed4251eff1368a0794db0",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/nps/schedule_attempt.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/nps/send_guard.rb",
+      "protected_sha256": "fa25ee9cdc525d143943c2a26ee90ff4950e2095dca000ebd6c7c75e4ebebeb7",
+      "current_sha256": "fa25ee9cdc525d143943c2a26ee90ff4950e2095dca000ebd6c7c75e4ebebeb7",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/nps/send_guard.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/review_builder/schedule_attempt.rb",
+      "protected_sha256": "19321e51d10d4fd4556c88f0060968b700e17d6a076476cf063661afd5139c10",
+      "current_sha256": "19321e51d10d4fd4556c88f0060968b700e17d6a076476cf063661afd5139c10",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/review_builder/schedule_attempt.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/playbook/review_builder/send_guard.rb",
+      "protected_sha256": "12f431f278d0a45a9e8c359270c8746ad623f87b45ab944225e741a0abb81bf8",
+      "current_sha256": "12f431f278d0a45a9e8c359270c8746ad623f87b45ab944225e741a0abb81bf8",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/review_builder/send_guard.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/supervisor/automation/reactivation.rb",
+      "protected_sha256": "5be7dfc69963513e4f6cd83ec543f8ebcb829938b2eb4babcabf88269131ef58",
+      "current_sha256": "6f39afdc9d84652c5217cccc839def70cfad8a1018c2bec1adcc24ed850e0b81",
+      "identical": false,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/supervisor/automation/reactivation.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/contact/lifecycle/churned_sweeper.rb",
+      "protected_sha256": "b22d96c4ec9776b89d1bad8b750407d0165d94bf6669a9e846732e57e2c1ba62",
+      "current_sha256": "b22d96c4ec9776b89d1bad8b750407d0165d94bf6669a9e846732e57e2c1ba62",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/contact/lifecycle/churned_sweeper.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/controllers/concerns/journey/editor_topology_repairable.rb",
+      "protected_sha256": "31542c0e25fbeb7cdb75bae82a28c56648ba8f6f946ba28699e47f04dcc517fe",
+      "current_sha256": "31542c0e25fbeb7cdb75bae82a28c56648ba8f6f946ba28699e47f04dcc517fe",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/controllers/concerns/journey/editor_topology_repairable.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/controllers/journey/activate_controller.rb",
+      "protected_sha256": "047127565cd817cf04015c1eda0c6c4d74261e8b9bc9ec428e2e02096e0e26a6",
+      "current_sha256": "047127565cd817cf04015c1eda0c6c4d74261e8b9bc9ec428e2e02096e0e26a6",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/controllers/journey/activate_controller.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/controllers/journey/deactivate_controller.rb",
+      "protected_sha256": "f4361a771bfb8974e68831bc94ddd5e1a6028210a765bc7e09cb1f8bc4b4b8b4",
+      "current_sha256": "f4361a771bfb8974e68831bc94ddd5e1a6028210a765bc7e09cb1f8bc4b4b8b4",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/controllers/journey/deactivate_controller.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/views/journeys/partials/editor/_header.html.erb",
+      "protected_sha256": "943efe159df67f52a75162d189d88e61ce92e15b12c0f88eb9a28d8dc01fb4ea",
+      "current_sha256": "943efe159df67f52a75162d189d88e61ce92e15b12c0f88eb9a28d8dc01fb4ea",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/journeys/partials/editor/_header.html.erb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/views/journeys/partials/editor/_select_trigger_pane.html.erb",
+      "protected_sha256": "01f1ba995d4aeeb9b1233cfe29c710f06b21b949554bfa2d58849d7c66caf0ba",
+      "current_sha256": "01f1ba995d4aeeb9b1233cfe29c710f06b21b949554bfa2d58849d7c66caf0ba",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/journeys/partials/editor/_select_trigger_pane.html.erb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/views/journeys/new_journey_type.html.erb",
+      "protected_sha256": "a67efc62ecbae91b862e8c3bc3864032cda33931c0416bb200b4f6a5025f0293",
+      "current_sha256": "a67efc62ecbae91b862e8c3bc3864032cda33931c0416bb200b4f6a5025f0293",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/journeys/new_journey_type.html.erb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/views/journeys/new.html.erb",
+      "protected_sha256": "899b1f979b9511acd0ac5243c21628e0b9cc7e370d827fbab5cc89243b2cd5f5",
+      "current_sha256": "899b1f979b9511acd0ac5243c21628e0b9cc7e370d827fbab5cc89243b2cd5f5",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/journeys/new.html.erb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/views/journeys/edit.html.erb",
+      "protected_sha256": "92a74a42adbaa38de3c634d21d19230389be6746f1d558a96bc49d5e6d37cee1",
+      "current_sha256": "92a74a42adbaa38de3c634d21d19230389be6746f1d558a96bc49d5e6d37cee1",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/journeys/edit.html.erb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/policies/journey_policy.rb",
+      "protected_sha256": "7ad1d31cfe963331be3138b647d08bfac7e3471ca3db18a4850e94f597c34491",
+      "current_sha256": "7ad1d31cfe963331be3138b647d08bfac7e3471ca3db18a4850e94f597c34491",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/policies/journey_policy.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/journey.rb",
+      "protected_sha256": "e4b6489fa6e10a4b8c164a3cd9c238877af0d7f7793ede74cad0c969c590935b",
+      "current_sha256": "e4b6489fa6e10a4b8c164a3cd9c238877af0d7f7793ede74cad0c969c590935b",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/journey.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/journey/stateful.rb",
+      "protected_sha256": "cb55051dfde1a3089487bfca087d336ffd8f611b2fa04c6aa86dc027dc39f483",
+      "current_sha256": "cb55051dfde1a3089487bfca087d336ffd8f611b2fa04c6aa86dc027dc39f483",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/journey/stateful.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/journey/triggerable.rb",
+      "protected_sha256": "6e308052dd1f2c323d621e5c80577645b7337eb49fa3bb4db8104b3b322728f8",
+      "current_sha256": "6e308052dd1f2c323d621e5c80577645b7337eb49fa3bb4db8104b3b322728f8",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/journey/triggerable.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/journey/queueable.rb",
+      "protected_sha256": "c2ffcad3a9f86a04c98754d9bb6725a8ebbde10bb225bfe0453689c99c629a75",
+      "current_sha256": "c2ffcad3a9f86a04c98754d9bb6725a8ebbde10bb225bfe0453689c99c629a75",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/journey/queueable.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/journey/trigger.rb",
+      "protected_sha256": "0b649b59b1536bfb7a495f9807f7fde63992805156413644999f93d63236f9c1",
+      "current_sha256": "0b649b59b1536bfb7a495f9807f7fde63992805156413644999f93d63236f9c1",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/journey/trigger.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/journey_queue.rb",
+      "protected_sha256": "a47fc9767b14a86fd0911abc3402ba1de3da226211fa657f2b706ca556eab1bf",
+      "current_sha256": "a47fc9767b14a86fd0911abc3402ba1de3da226211fa657f2b706ca556eab1bf",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/journey_queue.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/automation/journey_queue_step.rb",
+      "protected_sha256": "b43dcb48d3845729cecefdc7a18a5b7704886f1318ec811be18f129a51a32fb6",
+      "current_sha256": "b43dcb48d3845729cecefdc7a18a5b7704886f1318ec811be18f129a51a32fb6",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/automation/journey_queue_step.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/automation/journey_queue_message.rb",
+      "protected_sha256": "58135cd092d22e3c4c0e7df531732cc3e8a5b65a1e72241da33bacb066a9b329",
+      "current_sha256": "58135cd092d22e3c4c0e7df531732cc3e8a5b65a1e72241da33bacb066a9b329",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/automation/journey_queue_message.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/actors/journey_creator.rb",
+      "protected_sha256": "c5fbc4e076d05ce6e449089a03295d69a5429b5caece1d4435f438d26af662dc",
+      "current_sha256": "c5fbc4e076d05ce6e449089a03295d69a5429b5caece1d4435f438d26af662dc",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/actors/journey_creator.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/actors/journey/update_journey.rb",
+      "protected_sha256": "40f9bcca6ac07a09a2dc9526c0f33a9292dbdeab898f624269628322dc28cd64",
+      "current_sha256": "40f9bcca6ac07a09a2dc9526c0f33a9292dbdeab898f624269628322dc28cd64",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/actors/journey/update_journey.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/actors/journey/create_journey.rb",
+      "protected_sha256": "fc30f983cfd812b33cf92dcec4c68315c472a36a2777d25c419ab5dcdc01d3bf",
+      "current_sha256": "fc30f983cfd812b33cf92dcec4c68315c472a36a2777d25c419ab5dcdc01d3bf",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/actors/journey/create_journey.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/actors/journey/update.rb",
+      "protected_sha256": "a3b41063335b2dc524a6f4c2d2f0c6967e9b57415758f057474ef77043f6d98d",
+      "current_sha256": "a3b41063335b2dc524a6f4c2d2f0c6967e9b57415758f057474ef77043f6d98d",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/actors/journey/update.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/jobs/journey/trigger_journey_job.rb",
+      "protected_sha256": "1bf716d7105f74c8fe50819e10e2eaf162fe0ace27c09a4ed753c8ac40760ad8",
+      "current_sha256": "1bf716d7105f74c8fe50819e10e2eaf162fe0ace27c09a4ed753c8ac40760ad8",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/jobs/journey/trigger_journey_job.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/jobs/journey/resume_queue_job.rb",
+      "protected_sha256": "6135e2d7b9a3986338118ead40a370ef579f82cb12d3307fc07b3cbe678d4c3f",
+      "current_sha256": "6135e2d7b9a3986338118ead40a370ef579f82cb12d3307fc07b3cbe678d4c3f",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/jobs/journey/resume_queue_job.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/actors/journey/process_step/process.rb",
+      "protected_sha256": "9ff5952f37b26d0491a340db0d6898c8eeebc2b9293f1bdb28890f563041d359",
+      "current_sha256": "9ff5952f37b26d0491a340db0d6898c8eeebc2b9293f1bdb28890f563041d359",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/actors/journey/process_step/process.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/actors/journey/process_step/wait.rb",
+      "protected_sha256": "d7cf5de9f34b69cbfb0fd1e5438e3b37465c185bef63c907275d3a20cbeddd33",
+      "current_sha256": "d7cf5de9f34b69cbfb0fd1e5438e3b37465c185bef63c907275d3a20cbeddd33",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/actors/journey/process_step/wait.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/flux/resolver.rb",
+      "protected_sha256": "fe6565c2ff53d42e4b64d80a9cdb31577d6a04f3aa20c4ca9bd0ece16771e72a",
+      "current_sha256": "fe6565c2ff53d42e4b64d80a9cdb31577d6a04f3aa20c4ca9bd0ece16771e72a",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/flux/resolver.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/flux/base.rb",
+      "protected_sha256": "6354910dcbd8a028bef064ee96879841cd96c5810647c89c84ef10ddb7727d43",
+      "current_sha256": "6354910dcbd8a028bef064ee96879841cd96c5810647c89c84ef10ddb7727d43",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/flux/base.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/flux/hibernation.rb",
+      "protected_sha256": "57286e5d1e3c3f6a50b33e243685d8ef529fbdb2c5f1e578e16bdb307f81309f",
+      "current_sha256": "57286e5d1e3c3f6a50b33e243685d8ef529fbdb2c5f1e578e16bdb307f81309f",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/flux/hibernation.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/steps/wait.rb",
+      "protected_sha256": "ea1dec0850315d7ca382ba5ad74759d9647be24e259afa5c389cd25aaee5e91d",
+      "current_sha256": "ea1dec0850315d7ca382ba5ad74759d9647be24e259afa5c389cd25aaee5e91d",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/steps/wait.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/models/automation/process.rb",
+      "protected_sha256": "f3824f7d62d5aff568d5625f3d5c903e7c296e1d316abfbc938eb0484b30966e",
+      "current_sha256": "f3824f7d62d5aff568d5625f3d5c903e7c296e1d316abfbc938eb0484b30966e",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/automation/process.rb",
+      "inspection": "Reused Troubleshooting250 immutable comparison and original audit scope; protected local hash reconfirmed. No claim of fresh full read of every reused source."
+    },
+    {
+      "path": "app/javascript/controllers/playbook/assignment_controller.js",
+      "protected_sha256": "2563464ab1d1f3f7897f94abf7fffe4a4eb2bbba6fd3fc9da3d02785c4641573",
+      "current_sha256": "2563464ab1d1f3f7897f94abf7fffe4a4eb2bbba6fd3fc9da3d02785c4641573",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/javascript/controllers/playbook/assignment_controller.js",
+      "inspection": "New exact-master comparison for Smart Recommender configuration and article contracts. Selected Smart Recommender configuration, prompt/tool, routing and persistence contracts inspected; article does not claim universal live stock or outcomes."
+    },
+    {
+      "path": "app/prompts/prompt/smart_recommender.rb",
+      "protected_sha256": "c961746a80f1556525e9bdc61fe575d641d98433f53e5ce2c8e08ccff12b3290",
+      "current_sha256": "c961746a80f1556525e9bdc61fe575d641d98433f53e5ce2c8e08ccff12b3290",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/prompts/prompt/smart_recommender.rb",
+      "inspection": "New exact-master comparison for Smart Recommender configuration and article contracts. Selected Smart Recommender configuration, prompt/tool, routing and persistence contracts inspected; article does not claim universal live stock or outcomes."
+    },
+    {
+      "path": "app/prompts/product.recommender.txt",
+      "protected_sha256": "b7aea808d6a62c1d9b76a5bd3bdad17cd02103765a6a3fc1d98e6628370f2457",
+      "current_sha256": "116c7c562f73de60a55fbb19ffb6ecb480dd8934bd5aa38e932156c9f4cc0eff",
+      "identical": false,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/prompts/product.recommender.txt",
+      "inspection": "New exact-master comparison for Smart Recommender configuration and article contracts. Selected Smart Recommender configuration, prompt/tool, routing and persistence contracts inspected; article does not claim universal live stock or outcomes."
+    },
+    {
+      "path": "app/integrations/ai/openai/function/search_products_by_image.rb",
+      "protected_sha256": "7ea728eebbe0ba3a1a3bb6a9dbe54420cb4d352638c5e86bf303956db0434131",
+      "current_sha256": "7ea728eebbe0ba3a1a3bb6a9dbe54420cb4d352638c5e86bf303956db0434131",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/integrations/ai/openai/function/search_products_by_image.rb",
+      "inspection": "New exact-master comparison for Smart Recommender configuration and article contracts. Selected Smart Recommender configuration, prompt/tool, routing and persistence contracts inspected; article does not claim universal live stock or outcomes."
+    },
+    {
+      "path": "app/integrations/ai/openai/function/send_product_message.rb",
+      "protected_sha256": "39a56f1d0e4b862b41195c1fd9fa4eb93b0614815b6ba797bc735688798a597c",
+      "current_sha256": "39a56f1d0e4b862b41195c1fd9fa4eb93b0614815b6ba797bc735688798a597c",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/integrations/ai/openai/function/send_product_message.rb",
+      "inspection": "New exact-master comparison for Smart Recommender configuration and article contracts. Selected Smart Recommender configuration, prompt/tool, routing and persistence contracts inspected; article does not claim universal live stock or outcomes."
+    },
+    {
+      "path": "app/integrations/ai/openai/function/send_product_carousel_message.rb",
+      "protected_sha256": "b543de61081247f50f70d19942aaaf65824749f40de8a23c44008680bd705a8b",
+      "current_sha256": "b543de61081247f50f70d19942aaaf65824749f40de8a23c44008680bd705a8b",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/integrations/ai/openai/function/send_product_carousel_message.rb",
+      "inspection": "New exact-master comparison for Smart Recommender configuration and article contracts. Selected Smart Recommender configuration, prompt/tool, routing and persistence contracts inspected; article does not claim universal live stock or outcomes."
+    },
+    {
+      "path": "app/integrations/ai/openai/function/search_bundles.rb",
+      "protected_sha256": "07094892b2c5a49f064827b6845722ec09d26ed20252d684b9395380a9befc4a",
+      "current_sha256": "07094892b2c5a49f064827b6845722ec09d26ed20252d684b9395380a9befc4a",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/integrations/ai/openai/function/search_bundles.rb",
+      "inspection": "New exact-master comparison for Smart Recommender configuration and article contracts. Selected Smart Recommender configuration, prompt/tool, routing and persistence contracts inspected; article does not claim universal live stock or outcomes."
+    },
+    {
+      "path": "app/models/playbook/component.rb",
+      "protected_sha256": "63be962fec08a65ffde004dc3844f46629678c5e298bd1cf95619e06eb9ed75e",
+      "current_sha256": "63be962fec08a65ffde004dc3844f46629678c5e298bd1cf95619e06eb9ed75e",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/component.rb",
+      "inspection": "New exact-master comparison for Smart Recommender configuration and article contracts. Selected Smart Recommender configuration, prompt/tool, routing and persistence contracts inspected; article does not claim universal live stock or outcomes."
+    },
+    {
+      "path": "app/models/playbook/component/audience.rb",
+      "protected_sha256": "ed9ff38350cd3b52a3dd67ff0812b71f23216746b7ba33f82a085b2ef4970b61",
+      "current_sha256": "ed9ff38350cd3b52a3dd67ff0812b71f23216746b7ba33f82a085b2ef4970b61",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/component/audience.rb",
+      "inspection": "New exact-master comparison for Smart Recommender configuration and article contracts. Selected Smart Recommender configuration, prompt/tool, routing and persistence contracts inspected; article does not claim universal live stock or outcomes."
+    },
+    {
+      "path": "app/models/playbook/component/tone.rb",
+      "protected_sha256": "2da5d3c95ac5baca586fc88e46db51376a2fbee03df518226cef77171b1a5288",
+      "current_sha256": "2da5d3c95ac5baca586fc88e46db51376a2fbee03df518226cef77171b1a5288",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/component/tone.rb",
+      "inspection": "New exact-master comparison for Smart Recommender configuration and article contracts. Selected Smart Recommender configuration, prompt/tool, routing and persistence contracts inspected; article does not claim universal live stock or outcomes."
+    },
+    {
+      "path": "app/controllers/playbook_components_controller.rb",
+      "protected_sha256": "a5de3c3fca8002696d32bcccd1cc4bd3d678c8179a7d4cb5675409b1547673a0",
+      "current_sha256": "a5de3c3fca8002696d32bcccd1cc4bd3d678c8179a7d4cb5675409b1547673a0",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/controllers/playbook_components_controller.rb",
+      "inspection": "New exact-master comparison for Smart Recommender configuration and article contracts. Selected Smart Recommender configuration, prompt/tool, routing and persistence contracts inspected; article does not claim universal live stock or outcomes."
+    },
+    {
+      "path": "app/models/automation/assignment.rb",
+      "protected_sha256": "830b8311f743c987c2b8c23e26f6f94ac6be619b27d1f12d79b6c58526a3d889",
+      "current_sha256": "830b8311f743c987c2b8c23e26f6f94ac6be619b27d1f12d79b6c58526a3d889",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/automation/assignment.rb",
+      "inspection": "New exact-master comparison for Smart Recommender configuration and article contracts. Selected Smart Recommender configuration, prompt/tool, routing and persistence contracts inspected; article does not claim universal live stock or outcomes."
+    }
+  ],
+  "operations": "Read-only GitHub/source comparison only. No source app/browser9460 visit, new DB/fixture/account/locale/permission/subscription audit or write, source capture, graph construction, save, enable, provider/tool/Playground/API/example/send/test/message/event/worker execution. Historical differences and their original scope retained.",
+  "smart_recommender_configuration_paths": [
+    "app/views/playbook/component/assignments/_assignment.html.erb",
+    "app/views/playbook/component/assignments/_form.html.erb",
+    "app/models/playbook/saver/assignment.rb",
+    "app/javascript/controllers/playbook/assignment_controller.js",
+    "config/locales/views/playbooks/es.yml",
+    "config/locales/views/playbooks/en.yml",
+    "app/models/playbook/product_recommender.rb",
+    "app/prompts/prompt/smart_recommender.rb",
+    "app/prompts/product.recommender.txt",
+    "app/models/ai/context.rb",
+    "app/integrations/ai/openai/function/search_products.rb",
+    "app/integrations/ai/openai/function/search_products_by_image.rb",
+    "app/integrations/ai/openai/function/send_product_message.rb",
+    "app/integrations/ai/openai/function/send_product_carousel_message.rb",
+    "app/integrations/ai/openai/function/search_bundles.rb",
+    "app/models/playbook/report.rb",
+    "app/models/playbook.rb",
+    "app/models/playbook/agent.rb",
+    "app/models/playbook/component.rb",
+    "app/models/playbook/component/prompt.rb",
+    "app/models/playbook/component/web_search.rb",
+    "app/models/playbook/component/upload.rb",
+    "app/models/playbook/component/channel.rb",
+    "app/models/playbook/component/audience.rb",
+    "app/models/playbook/component/tone.rb",
+    "app/models/playbook/saver.rb",
+    "app/models/playbook/saver/prompt.rb",
+    "app/models/playbook/saver/web_search.rb",
+    "app/models/playbook/saver/upload.rb",
+    "app/controllers/playbooks_controller.rb",
+    "app/controllers/playbook_components_controller.rb",
+    "app/controllers/playbook/messages_controller.rb",
+    "app/models/playbook/preview.rb",
+    "app/models/ai/conversation.rb",
+    "app/models/playbook/playground/runner.rb",
+    "app/models/playbook/playground/conversation.rb",
+    "app/models/automation/assignment.rb",
+    "app/policies/playbook_policy.rb",
+    "app/models/playbook/plan_catalog.rb",
+    "app/views/playbook/component/prompts/_prompt.html.erb",
+    "app/views/playbook/component/prompts/_form.html.erb",
+    "app/views/playbook/component/web_searches/_web_search.html.erb",
+    "app/views/playbook/component/web_searches/_form.html.erb",
+    "app/views/playbook/component/uploads/_upload.html.erb",
+    "app/views/playbook/component/uploads/_form.html.erb",
+    "app/views/playbook/component/channels/_channel.html.erb",
+    "app/views/playbook/component/channels/_form.html.erb",
+    "app/views/playbooks/_form.html.erb",
+    "db/seeds/playbooks.rb"
+  ]
+}
