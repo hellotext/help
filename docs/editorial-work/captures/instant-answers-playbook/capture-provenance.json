@@ -1,0 +1,4732 @@
+{
+  "status": "locally_verified",
+  "article_key": "journeys/instant-answers-playbook.md",
+  "base_revision": "47e8f5a6458629410e8291a3649dc345a55927cd",
+  "originals": [
+    {
+      "article": "_i18n/es/journeys/instant-answers-playbook.md",
+      "snapshot": "docs/editorial-work/captures/instant-answers-playbook/originals/es.md",
+      "sha256": "370d5333636c2a007fdcd6c7f1b6eb2e6433ae3a1c7d89a0cb149fa4a1ebc820",
+      "headings": [
+        "## Qué hace Respuestas Instantáneas",
+        "## Cuándo usarla",
+        "## Cuándo no usarla",
+        "## Qué necesita antes de lanzarla",
+        "## Qué puedes configurar",
+        "## Prepara el conocimiento",
+        "## Define límites de derivación",
+        "## Conéctalo con Webchat e Inbox",
+        "## Cómo probarla",
+        "## Qué revisar después del lanzamiento",
+        "## Guías relacionadas"
+      ],
+      "links": [
+        "_journeys/order-update-playbook.md",
+        "_journeys/smart-recommender-playbook.md",
+        "_journeys/return-and-exchange-helper-playbook.md",
+        "_journeys/order-cancellation-assistant-playbook.md",
+        "_journeys/custom-agent-playbook.md",
+        "_journeys/getting-started-with-journeys.md",
+        "_integrations/verify-data-and-signals.md",
+        "_journeys/order-update-playbook.md",
+        "_team/ai-handoff-to-inbox.md",
+        "_captures/webchat-widget-playbook.md",
+        "_journeys/csat-pulse-playbook.md",
+        "_journeys/playbook-library-by-mission.md",
+        "_journeys/how-to-enable-a-playbook.md",
+        "_journeys/how-to-customize-a-playbook-safely.md",
+        "_team/ai-handoff-to-inbox.md",
+        "_journeys/csat-pulse-playbook.md",
+        "_captures/webchat-widget-playbook.md",
+        "_journeys/order-update-playbook.md",
+        "_journeys/return-and-exchange-helper-playbook.md",
+        "_journeys/order-cancellation-assistant-playbook.md",
+        "_journeys/smart-recommender-playbook.md",
+        "_journeys/custom-agent-playbook.md",
+        "_team/inbox-overview.md",
+        "_team/understanding-response-times.md",
+        "_analytics-reporting-attribution/playbook-reporting.md"
+      ]
+    },
+    {
+      "article": "_i18n/en/journeys/instant-answers-playbook.md",
+      "snapshot": "docs/editorial-work/captures/instant-answers-playbook/originals/en.md",
+      "sha256": "3ea57aa9af972a15c7f4940fd561a8fff6f87e13a21932c1594e3787cacefba4",
+      "headings": [
+        "## What Instant Answers does",
+        "## When to use it",
+        "## When not to use it",
+        "## What it needs before launch",
+        "## What you can configure",
+        "## Prepare knowledge",
+        "## Define handoff boundaries",
+        "## Connect it to Webchat and Inbox",
+        "## How to test it",
+        "## What to review after launch",
+        "## Related guides"
+      ],
+      "links": [
+        "_journeys/order-update-playbook.md",
+        "_journeys/smart-recommender-playbook.md",
+        "_journeys/return-and-exchange-helper-playbook.md",
+        "_journeys/order-cancellation-assistant-playbook.md",
+        "_journeys/custom-agent-playbook.md",
+        "_journeys/getting-started-with-journeys.md",
+        "_integrations/verify-data-and-signals.md",
+        "_journeys/order-update-playbook.md",
+        "_team/ai-handoff-to-inbox.md",
+        "_captures/webchat-widget-playbook.md",
+        "_journeys/csat-pulse-playbook.md",
+        "_journeys/playbook-library-by-mission.md",
+        "_journeys/how-to-enable-a-playbook.md",
+        "_journeys/how-to-customize-a-playbook-safely.md",
+        "_team/ai-handoff-to-inbox.md",
+        "_journeys/csat-pulse-playbook.md",
+        "_captures/webchat-widget-playbook.md",
+        "_journeys/order-update-playbook.md",
+        "_journeys/return-and-exchange-helper-playbook.md",
+        "_journeys/order-cancellation-assistant-playbook.md",
+        "_journeys/smart-recommender-playbook.md",
+        "_journeys/custom-agent-playbook.md",
+        "_team/inbox-overview.md",
+        "_team/understanding-response-times.md",
+        "_analytics-reporting-attribution/playbook-reporting.md"
+      ]
+    },
+    {
+      "article": "_journeys/instant-answers-playbook.md",
+      "snapshot": "docs/editorial-work/captures/instant-answers-playbook/originals/stub.md",
+      "sha256": "2a075ee4a15cffa461d0bfc8d91ccf2f0a91eba619db8fc9679d5a6d4b491841",
+      "headings": [],
+      "links": []
+    }
+  ],
+  "images": [
+    {
+      "name": "upload-es",
+      "concept": "upload",
+      "locale": "es",
+      "mobile": false,
+      "published_asset": "images/journeys/how-to-customize-a-playbook-safely/upload-es.png",
+      "source": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/upload-es-original.png",
+      "sha256": "0234f096438a251156c5b3d34a412eb1b918cf7055ecd8127992b2d19ce182db",
+      "new_capture": false,
+      "reused": true,
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+        "title": "Nueva misión Agente Personalizado | Hellotext",
+        "locale": "es",
+        "viewport": [
+          1400,
+          900
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "permission_before": {
+            "permission": "default",
+            "subscriptions": [
+              false
+            ]
+          },
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "native": {
+        "output": "/private/tmp/hellotext-playbook-customization-editorial-20261002/native/upload-es-original.png",
+        "sha256": "0234f096438a251156c5b3d34a412eb1b918cf7055ecd8127992b2d19ce182db",
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+        "locale": "es",
+        "cssViewport": [
+          1400,
+          900
+        ],
+        "browserDpr": 2,
+        "clip": [
+          52,
+          121,
+          628,
+          366
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1256,
+          732
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "permission_after": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+        "title": "Nueva misión Agente Personalizado | Hellotext",
+        "locale": "es",
+        "permission": "default",
+        "subscriptions": [
+          {
+            "scope": "http://127.0.0.1:3192/",
+            "script": "http://127.0.0.1:3192/service_worker.js",
+            "subscription": false
+          }
+        ],
+        "userDisabled": null,
+        "migration": null,
+        "dpr": 2,
+        "zoom": 1,
+        "pid": 57358,
+        "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "state": "Real empty unsaved Custom Agent component; no text/file/URL added, Save/Enable/Enter/Add/Playground not used. Header and complete control; entire footer omitted.",
+      "pixels": [
+        1256,
+        732
+      ],
+      "logical_size": [
+        628.0,
+        366.0
+      ],
+      "density": 2,
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "f4231caa64846ffdb7535777a1cba49b1ab9f5c4b5ba55872d87ddea42031840",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 646.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Approved historical source reused unchanged; this consumer article awaits protected merge and actual public verification.",
+      "historical_source_record": {
+        "name": "upload-es",
+        "concept": "upload",
+        "locale": "es",
+        "mobile": false,
+        "published_asset": "images/journeys/how-to-customize-a-playbook-safely/upload-es.png",
+        "source": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/upload-es-original.png",
+        "sha256": "0234f096438a251156c5b3d34a412eb1b918cf7055ecd8127992b2d19ce182db",
+        "new_capture": true,
+        "reused": false,
+        "ui_guard": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+          "title": "Nueva misión Agente Personalizado | Hellotext",
+          "locale": "es",
+          "viewport": [
+            1400,
+            900
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            0
+          ],
+          "guard": {
+            "pid": 57358,
+            "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+            "port": 9460,
+            "account": "design-system@example.test",
+            "permission_before": {
+              "permission": "default",
+              "subscriptions": [
+                false
+              ]
+            },
+            "single_local_page": true,
+            "color": "display-p3-d65"
+          }
+        },
+        "native": {
+          "output": "/private/tmp/hellotext-playbook-customization-editorial-20261002/native/upload-es-original.png",
+          "sha256": "0234f096438a251156c5b3d34a412eb1b918cf7055ecd8127992b2d19ce182db",
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+          "locale": "es",
+          "cssViewport": [
+            1400,
+            900
+          ],
+          "browserDpr": 2,
+          "clip": [
+            52,
+            121,
+            628,
+            366
+          ],
+          "pageScroll": [
+            0,
+            0
+          ],
+          "pixelSize": [
+            1256,
+            732
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "isolated Chrome compositor via CDP"
+        },
+        "permission_after": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+          "title": "Nueva misión Agente Personalizado | Hellotext",
+          "locale": "es",
+          "permission": "default",
+          "subscriptions": [
+            {
+              "scope": "http://127.0.0.1:3192/",
+              "script": "http://127.0.0.1:3192/service_worker.js",
+              "subscription": false
+            }
+          ],
+          "userDisabled": null,
+          "migration": null,
+          "dpr": 2,
+          "zoom": 1,
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
+        },
+        "observed_http_methods": [
+          "GET"
+        ],
+        "state": "Real empty unsaved Custom Agent component; no text/file/URL added, Save/Enable/Enter/Add/Playground not used. Header and complete control; entire footer omitted.",
+        "pixels": [
+          1256,
+          732
+        ],
+        "logical_size": [
+          628.0,
+          366.0
+        ],
+        "density": 2,
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "f4231caa64846ffdb7535777a1cba49b1ab9f5c4b5ba55872d87ddea42031840",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 646.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "name": "upload-es-mobile",
+      "concept": "upload",
+      "locale": "es",
+      "mobile": true,
+      "published_asset": "images/journeys/how-to-customize-a-playbook-safely/upload-es-mobile.png",
+      "source": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/upload-es-mobile-original.png",
+      "sha256": "a621c5d4b43684ef799ae062ae426a13bf4dffac82787c36ae2e938ae22ba7e0",
+      "new_capture": false,
+      "reused": true,
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+        "title": "Nueva misión Agente Personalizado | Hellotext",
+        "locale": "es",
+        "viewport": [
+          430,
+          900
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "permission_before": {
+            "permission": "default",
+            "subscriptions": [
+              false
+            ]
+          },
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "native": {
+        "output": "/private/tmp/hellotext-playbook-customization-editorial-20261002/native/upload-es-mobile-original.png",
+        "sha256": "a621c5d4b43684ef799ae062ae426a13bf4dffac82787c36ae2e938ae22ba7e0",
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+        "locale": "es",
+        "cssViewport": [
+          430,
+          900
+        ],
+        "browserDpr": 2,
+        "clip": [
+          4,
+          117,
+          422,
+          402
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          844,
+          804
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "permission_after": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+        "title": "Nueva misión Agente Personalizado | Hellotext",
+        "locale": "es",
+        "permission": "default",
+        "subscriptions": [
+          {
+            "scope": "http://127.0.0.1:3192/",
+            "script": "http://127.0.0.1:3192/service_worker.js",
+            "subscription": false
+          }
+        ],
+        "userDisabled": null,
+        "migration": null,
+        "dpr": 2,
+        "zoom": 1,
+        "pid": 57358,
+        "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "state": "Real empty unsaved Custom Agent component; no text/file/URL added, Save/Enable/Enter/Add/Playground not used. Header and complete control; entire footer omitted.",
+      "pixels": [
+        844,
+        804
+      ],
+      "logical_size": [
+        422.0,
+        402.0
+      ],
+      "density": 2,
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "7fd2be71cf60a61dc675811487ee0a7ff17826319d33f8fa6dc40a442bc7b347",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 440.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Approved historical source reused unchanged; this consumer article awaits protected merge and actual public verification.",
+      "historical_source_record": {
+        "name": "upload-es-mobile",
+        "concept": "upload",
+        "locale": "es",
+        "mobile": true,
+        "published_asset": "images/journeys/how-to-customize-a-playbook-safely/upload-es-mobile.png",
+        "source": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/upload-es-mobile-original.png",
+        "sha256": "a621c5d4b43684ef799ae062ae426a13bf4dffac82787c36ae2e938ae22ba7e0",
+        "new_capture": true,
+        "reused": false,
+        "ui_guard": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+          "title": "Nueva misión Agente Personalizado | Hellotext",
+          "locale": "es",
+          "viewport": [
+            430,
+            900
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            0
+          ],
+          "guard": {
+            "pid": 57358,
+            "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+            "port": 9460,
+            "account": "design-system@example.test",
+            "permission_before": {
+              "permission": "default",
+              "subscriptions": [
+                false
+              ]
+            },
+            "single_local_page": true,
+            "color": "display-p3-d65"
+          }
+        },
+        "native": {
+          "output": "/private/tmp/hellotext-playbook-customization-editorial-20261002/native/upload-es-mobile-original.png",
+          "sha256": "a621c5d4b43684ef799ae062ae426a13bf4dffac82787c36ae2e938ae22ba7e0",
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+          "locale": "es",
+          "cssViewport": [
+            430,
+            900
+          ],
+          "browserDpr": 2,
+          "clip": [
+            4,
+            117,
+            422,
+            402
+          ],
+          "pageScroll": [
+            0,
+            0
+          ],
+          "pixelSize": [
+            844,
+            804
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "isolated Chrome compositor via CDP"
+        },
+        "permission_after": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+          "title": "Nueva misión Agente Personalizado | Hellotext",
+          "locale": "es",
+          "permission": "default",
+          "subscriptions": [
+            {
+              "scope": "http://127.0.0.1:3192/",
+              "script": "http://127.0.0.1:3192/service_worker.js",
+              "subscription": false
+            }
+          ],
+          "userDisabled": null,
+          "migration": null,
+          "dpr": 2,
+          "zoom": 1,
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
+        },
+        "observed_http_methods": [
+          "GET"
+        ],
+        "state": "Real empty unsaved Custom Agent component; no text/file/URL added, Save/Enable/Enter/Add/Playground not used. Header and complete control; entire footer omitted.",
+        "pixels": [
+          844,
+          804
+        ],
+        "logical_size": [
+          422.0,
+          402.0
+        ],
+        "density": 2,
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "7fd2be71cf60a61dc675811487ee0a7ff17826319d33f8fa6dc40a442bc7b347",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 440.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "name": "upload-en",
+      "concept": "upload",
+      "locale": "en",
+      "mobile": false,
+      "published_asset": "images/journeys/how-to-customize-a-playbook-safely/upload-en.png",
+      "source": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/upload-en-original.png",
+      "sha256": "39dab76063709ddf8dcc36668aea7cade842a8a920822d00e2e7025359c01950",
+      "new_capture": false,
+      "reused": true,
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+        "title": "New Custom Agent playbook | Hellotext",
+        "locale": "en",
+        "viewport": [
+          1400,
+          900
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "permission_before": {
+            "permission": "default",
+            "subscriptions": [
+              false
+            ]
+          },
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "native": {
+        "output": "/private/tmp/hellotext-playbook-customization-editorial-20261002/native/upload-en-original.png",
+        "sha256": "39dab76063709ddf8dcc36668aea7cade842a8a920822d00e2e7025359c01950",
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+        "locale": "en",
+        "cssViewport": [
+          1400,
+          900
+        ],
+        "browserDpr": 2,
+        "clip": [
+          52,
+          121,
+          628,
+          366
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          1256,
+          732
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "permission_after": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+        "title": "New Custom Agent playbook | Hellotext",
+        "locale": "en",
+        "permission": "default",
+        "subscriptions": [
+          {
+            "scope": "http://127.0.0.1:3192/",
+            "script": "http://127.0.0.1:3192/service_worker.js",
+            "subscription": false
+          }
+        ],
+        "userDisabled": null,
+        "migration": null,
+        "dpr": 2,
+        "zoom": 1,
+        "pid": 57358,
+        "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "state": "Real empty unsaved Custom Agent component; no text/file/URL added, Save/Enable/Enter/Add/Playground not used. Header and complete control; entire footer omitted.",
+      "pixels": [
+        1256,
+        732
+      ],
+      "logical_size": [
+        628.0,
+        366.0
+      ],
+      "density": 2,
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "69b79eb4ada40c9479e6a558480ff9ad2a52299687966a1f3cb04be14e42e3b9",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 646.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Approved historical source reused unchanged; this consumer article awaits protected merge and actual public verification.",
+      "historical_source_record": {
+        "name": "upload-en",
+        "concept": "upload",
+        "locale": "en",
+        "mobile": false,
+        "published_asset": "images/journeys/how-to-customize-a-playbook-safely/upload-en.png",
+        "source": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/upload-en-original.png",
+        "sha256": "39dab76063709ddf8dcc36668aea7cade842a8a920822d00e2e7025359c01950",
+        "new_capture": true,
+        "reused": false,
+        "ui_guard": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+          "title": "New Custom Agent playbook | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1400,
+            900
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            0
+          ],
+          "guard": {
+            "pid": 57358,
+            "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+            "port": 9460,
+            "account": "design-system@example.test",
+            "permission_before": {
+              "permission": "default",
+              "subscriptions": [
+                false
+              ]
+            },
+            "single_local_page": true,
+            "color": "display-p3-d65"
+          }
+        },
+        "native": {
+          "output": "/private/tmp/hellotext-playbook-customization-editorial-20261002/native/upload-en-original.png",
+          "sha256": "39dab76063709ddf8dcc36668aea7cade842a8a920822d00e2e7025359c01950",
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+          "locale": "en",
+          "cssViewport": [
+            1400,
+            900
+          ],
+          "browserDpr": 2,
+          "clip": [
+            52,
+            121,
+            628,
+            366
+          ],
+          "pageScroll": [
+            0,
+            0
+          ],
+          "pixelSize": [
+            1256,
+            732
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "isolated Chrome compositor via CDP"
+        },
+        "permission_after": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+          "title": "New Custom Agent playbook | Hellotext",
+          "locale": "en",
+          "permission": "default",
+          "subscriptions": [
+            {
+              "scope": "http://127.0.0.1:3192/",
+              "script": "http://127.0.0.1:3192/service_worker.js",
+              "subscription": false
+            }
+          ],
+          "userDisabled": null,
+          "migration": null,
+          "dpr": 2,
+          "zoom": 1,
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
+        },
+        "observed_http_methods": [
+          "GET"
+        ],
+        "state": "Real empty unsaved Custom Agent component; no text/file/URL added, Save/Enable/Enter/Add/Playground not used. Header and complete control; entire footer omitted.",
+        "pixels": [
+          1256,
+          732
+        ],
+        "logical_size": [
+          628.0,
+          366.0
+        ],
+        "density": 2,
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "69b79eb4ada40c9479e6a558480ff9ad2a52299687966a1f3cb04be14e42e3b9",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 646.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "name": "upload-en-mobile",
+      "concept": "upload",
+      "locale": "en",
+      "mobile": true,
+      "published_asset": "images/journeys/how-to-customize-a-playbook-safely/upload-en-mobile.png",
+      "source": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/upload-en-mobile-original.png",
+      "sha256": "1ed6d37acc14e4902de468040fb58befa371aa4e4c3221b6f98124a71f97de92",
+      "new_capture": false,
+      "reused": true,
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+        "title": "New Custom Agent playbook | Hellotext",
+        "locale": "en",
+        "viewport": [
+          430,
+          900
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "permission_before": {
+            "permission": "default",
+            "subscriptions": [
+              false
+            ]
+          },
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "native": {
+        "output": "/private/tmp/hellotext-playbook-customization-editorial-20261002/native/upload-en-mobile-original.png",
+        "sha256": "1ed6d37acc14e4902de468040fb58befa371aa4e4c3221b6f98124a71f97de92",
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+        "locale": "en",
+        "cssViewport": [
+          430,
+          900
+        ],
+        "browserDpr": 2,
+        "clip": [
+          4,
+          117,
+          422,
+          402
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          844,
+          804
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "permission_after": {
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+        "title": "New Custom Agent playbook | Hellotext",
+        "locale": "en",
+        "permission": "default",
+        "subscriptions": [
+          {
+            "scope": "http://127.0.0.1:3192/",
+            "script": "http://127.0.0.1:3192/service_worker.js",
+            "subscription": false
+          }
+        ],
+        "userDisabled": null,
+        "migration": null,
+        "dpr": 2,
+        "zoom": 1,
+        "pid": 57358,
+        "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "state": "Real empty unsaved Custom Agent component; no text/file/URL added, Save/Enable/Enter/Add/Playground not used. Header and complete control; entire footer omitted.",
+      "pixels": [
+        844,
+        804
+      ],
+      "logical_size": [
+        422.0,
+        402.0
+      ],
+      "density": 2,
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "989ead0fa341aad71aa26648052652b1ba7b2d6c8cacaa0c64910f8e68730003",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 440.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Approved historical source reused unchanged; this consumer article awaits protected merge and actual public verification.",
+      "historical_source_record": {
+        "name": "upload-en-mobile",
+        "concept": "upload",
+        "locale": "en",
+        "mobile": true,
+        "published_asset": "images/journeys/how-to-customize-a-playbook-safely/upload-en-mobile.png",
+        "source": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/native/upload-en-mobile-original.png",
+        "sha256": "1ed6d37acc14e4902de468040fb58befa371aa4e4c3221b6f98124a71f97de92",
+        "new_capture": true,
+        "reused": false,
+        "ui_guard": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+          "title": "New Custom Agent playbook | Hellotext",
+          "locale": "en",
+          "viewport": [
+            430,
+            900
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            0
+          ],
+          "guard": {
+            "pid": 57358,
+            "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+            "port": 9460,
+            "account": "design-system@example.test",
+            "permission_before": {
+              "permission": "default",
+              "subscriptions": [
+                false
+              ]
+            },
+            "single_local_page": true,
+            "color": "display-p3-d65"
+          }
+        },
+        "native": {
+          "output": "/private/tmp/hellotext-playbook-customization-editorial-20261002/native/upload-en-mobile-original.png",
+          "sha256": "1ed6d37acc14e4902de468040fb58befa371aa4e4c3221b6f98124a71f97de92",
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+          "locale": "en",
+          "cssViewport": [
+            430,
+            900
+          ],
+          "browserDpr": 2,
+          "clip": [
+            4,
+            117,
+            422,
+            402
+          ],
+          "pageScroll": [
+            0,
+            0
+          ],
+          "pixelSize": [
+            844,
+            804
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "isolated Chrome compositor via CDP"
+        },
+        "permission_after": {
+          "url": "http://127.0.0.1:3192/hellotext/playbooks/custom/new?component=upload",
+          "title": "New Custom Agent playbook | Hellotext",
+          "locale": "en",
+          "permission": "default",
+          "subscriptions": [
+            {
+              "scope": "http://127.0.0.1:3192/",
+              "script": "http://127.0.0.1:3192/service_worker.js",
+              "subscription": false
+            }
+          ],
+          "userDisabled": null,
+          "migration": null,
+          "dpr": 2,
+          "zoom": 1,
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460"
+        },
+        "observed_http_methods": [
+          "GET"
+        ],
+        "state": "Real empty unsaved Custom Agent component; no text/file/URL added, Save/Enable/Enter/Add/Playground not used. Header and complete control; entire footer omitted.",
+        "pixels": [
+          844,
+          804
+        ],
+        "logical_size": [
+          422.0,
+          402.0
+        ],
+        "density": 2,
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "989ead0fa341aad71aa26648052652b1ba7b2d6c8cacaa0c64910f8e68730003",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 440.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "file": "handoff-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+      "title": "Nueva misión Recolector de Propiedades | Hellotext",
+      "viewportCss": [
+        1200,
+        1000
+      ],
+      "clipCss": [
+        50,
+        100,
+        575,
+        330
+      ],
+      "pixelSize": [
+        1150,
+        660
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "ef1c8abc4712dacc2effa83f6c968dd4a9453a5b1be059609a877a91e1693356",
+      "state": "Unsaved escalation control with fictional team Atención demo selected",
+      "publicationDecision": "approved source; insert with bilingual counterpart after full guide review",
+      "concept": "handoff",
+      "mobile": false,
+      "published_asset": "images/captures/property-collector/handoff-es.png",
+      "pixels": [
+        1150,
+        660
+      ],
+      "logical_size": [
+        575.0,
+        330.0
+      ],
+      "source": "docs/editorial-work/captures/property-collector/handoff-es.png",
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "reused": true,
+      "new_capture": false,
+      "historical_source_record": {
+        "file": "handoff-es.png",
+        "locale": "es",
+        "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+        "title": "Nueva misión Recolector de Propiedades | Hellotext",
+        "viewportCss": [
+          1200,
+          1000
+        ],
+        "clipCss": [
+          50,
+          100,
+          575,
+          330
+        ],
+        "pixelSize": [
+          1150,
+          660
+        ],
+        "density": 2,
+        "iccProfile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "ef1c8abc4712dacc2effa83f6c968dd4a9453a5b1be059609a877a91e1693356",
+        "state": "Unsaved escalation control with fictional team Atención demo selected",
+        "publicationDecision": "approved source; insert with bilingual counterpart after full guide review",
+        "concept": "handoff",
+        "mobile": false,
+        "published_asset": "images/captures/property-collector/handoff-es.png",
+        "pixels": [
+          1150,
+          660
+        ],
+        "logical_size": [
+          575.0,
+          330.0
+        ],
+        "source": "docs/editorial-work/captures/property-collector/handoff-es.png",
+        "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "reused": true,
+        "new_capture": false,
+        "historical_source_record": {
+          "file": "handoff-es.png",
+          "locale": "es",
+          "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+          "title": "Nueva misión Recolector de Propiedades | Hellotext",
+          "viewportCss": [
+            1200,
+            1000
+          ],
+          "clipCss": [
+            50,
+            100,
+            575,
+            330
+          ],
+          "pixelSize": [
+            1150,
+            660
+          ],
+          "density": 2,
+          "iccProfile": "Display P3 Gamut with sRGB Transfer",
+          "sha256": "ef1c8abc4712dacc2effa83f6c968dd4a9453a5b1be059609a877a91e1693356",
+          "state": "Unsaved escalation control with fictional team Atención demo selected",
+          "publicationDecision": "approved source; insert with bilingual counterpart after full guide review",
+          "concept": "handoff",
+          "mobile": false,
+          "published_asset": "images/captures/property-collector/handoff-es.png",
+          "pixels": [
+            1150,
+            660
+          ],
+          "logical_size": [
+            575.0,
+            330.0
+          ],
+          "source": "docs/editorial-work/captures/property-collector/handoff-es.png",
+          "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+          "reused": true,
+          "new_capture": false
+        },
+        "original_consumer_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+        "name": "handoff-es",
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "8985fdd04b67b3b4bc3b967e577f6d57ad4d60a1861b807ba51fd8dcf8b12096",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 593.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+      "name": "handoff-es",
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "8985fdd04b67b3b4bc3b967e577f6d57ad4d60a1861b807ba51fd8dcf8b12096",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 593.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Approved historical source reused unchanged; this consumer article awaits protected merge and actual public verification.",
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "file": "handoff-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+      "title": "New Property Collector playbook | Hellotext",
+      "viewportCss": [
+        1200,
+        1000
+      ],
+      "clipCss": [
+        50,
+        100,
+        575,
+        330
+      ],
+      "pixelSize": [
+        1150,
+        660
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "0c5506ceed87f6ed0c9e57a4969d80cee2dc41f04ab25b04969917ab3f3bdfe9",
+      "state": "Unsaved escalation control with fictional team Atención demo selected",
+      "publicationDecision": "approved source; insert with bilingual counterpart after full guide review",
+      "concept": "handoff",
+      "mobile": false,
+      "published_asset": "images/captures/property-collector/handoff-en.png",
+      "pixels": [
+        1150,
+        660
+      ],
+      "logical_size": [
+        575.0,
+        330.0
+      ],
+      "source": "docs/editorial-work/captures/property-collector/handoff-en.png",
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "reused": true,
+      "new_capture": false,
+      "historical_source_record": {
+        "file": "handoff-en.png",
+        "locale": "en",
+        "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+        "title": "New Property Collector playbook | Hellotext",
+        "viewportCss": [
+          1200,
+          1000
+        ],
+        "clipCss": [
+          50,
+          100,
+          575,
+          330
+        ],
+        "pixelSize": [
+          1150,
+          660
+        ],
+        "density": 2,
+        "iccProfile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "0c5506ceed87f6ed0c9e57a4969d80cee2dc41f04ab25b04969917ab3f3bdfe9",
+        "state": "Unsaved escalation control with fictional team Atención demo selected",
+        "publicationDecision": "approved source; insert with bilingual counterpart after full guide review",
+        "concept": "handoff",
+        "mobile": false,
+        "published_asset": "images/captures/property-collector/handoff-en.png",
+        "pixels": [
+          1150,
+          660
+        ],
+        "logical_size": [
+          575.0,
+          330.0
+        ],
+        "source": "docs/editorial-work/captures/property-collector/handoff-en.png",
+        "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "reused": true,
+        "new_capture": false,
+        "historical_source_record": {
+          "file": "handoff-en.png",
+          "locale": "en",
+          "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+          "title": "New Property Collector playbook | Hellotext",
+          "viewportCss": [
+            1200,
+            1000
+          ],
+          "clipCss": [
+            50,
+            100,
+            575,
+            330
+          ],
+          "pixelSize": [
+            1150,
+            660
+          ],
+          "density": 2,
+          "iccProfile": "Display P3 Gamut with sRGB Transfer",
+          "sha256": "0c5506ceed87f6ed0c9e57a4969d80cee2dc41f04ab25b04969917ab3f3bdfe9",
+          "state": "Unsaved escalation control with fictional team Atención demo selected",
+          "publicationDecision": "approved source; insert with bilingual counterpart after full guide review",
+          "concept": "handoff",
+          "mobile": false,
+          "published_asset": "images/captures/property-collector/handoff-en.png",
+          "pixels": [
+            1150,
+            660
+          ],
+          "logical_size": [
+            575.0,
+            330.0
+          ],
+          "source": "docs/editorial-work/captures/property-collector/handoff-en.png",
+          "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+          "reused": true,
+          "new_capture": false
+        },
+        "original_consumer_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+        "name": "handoff-en",
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "621a09cebb609b727b88f8b708fd3200db19f0a552271c0a28d925f2b13d99a0",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 593.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+      "name": "handoff-en",
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "621a09cebb609b727b88f8b708fd3200db19f0a552271c0a28d925f2b13d99a0",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 593.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Approved historical source reused unchanged; this consumer article awaits protected merge and actual public verification.",
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "file": "handoff-es-mobile.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+      "title": "Nueva misión Recolector de Propiedades | Hellotext",
+      "viewportCss": [
+        390,
+        1000
+      ],
+      "clipCss": [
+        0,
+        120,
+        390,
+        340
+      ],
+      "pixelSize": [
+        780,
+        680
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "4f252e8b5d86ad772df8b7f979ae8d61de1970ff36f7110f5f1e0b1b5867b2cc",
+      "state": "Focused responsive mobile control using unsaved fictional editor state",
+      "publicationDecision": "approved source; pair with desktop asset",
+      "concept": "handoff",
+      "mobile": true,
+      "published_asset": "images/captures/property-collector/handoff-es-mobile.png",
+      "pixels": [
+        780,
+        680
+      ],
+      "logical_size": [
+        390.0,
+        340.0
+      ],
+      "source": "docs/editorial-work/captures/property-collector/handoff-es-mobile.png",
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "reused": true,
+      "new_capture": false,
+      "historical_source_record": {
+        "file": "handoff-es-mobile.png",
+        "locale": "es",
+        "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+        "title": "Nueva misión Recolector de Propiedades | Hellotext",
+        "viewportCss": [
+          390,
+          1000
+        ],
+        "clipCss": [
+          0,
+          120,
+          390,
+          340
+        ],
+        "pixelSize": [
+          780,
+          680
+        ],
+        "density": 2,
+        "iccProfile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "4f252e8b5d86ad772df8b7f979ae8d61de1970ff36f7110f5f1e0b1b5867b2cc",
+        "state": "Focused responsive mobile control using unsaved fictional editor state",
+        "publicationDecision": "approved source; pair with desktop asset",
+        "concept": "handoff",
+        "mobile": true,
+        "published_asset": "images/captures/property-collector/handoff-es-mobile.png",
+        "pixels": [
+          780,
+          680
+        ],
+        "logical_size": [
+          390.0,
+          340.0
+        ],
+        "source": "docs/editorial-work/captures/property-collector/handoff-es-mobile.png",
+        "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "reused": true,
+        "new_capture": false,
+        "historical_source_record": {
+          "file": "handoff-es-mobile.png",
+          "locale": "es",
+          "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+          "title": "Nueva misión Recolector de Propiedades | Hellotext",
+          "viewportCss": [
+            390,
+            1000
+          ],
+          "clipCss": [
+            0,
+            120,
+            390,
+            340
+          ],
+          "pixelSize": [
+            780,
+            680
+          ],
+          "density": 2,
+          "iccProfile": "Display P3 Gamut with sRGB Transfer",
+          "sha256": "4f252e8b5d86ad772df8b7f979ae8d61de1970ff36f7110f5f1e0b1b5867b2cc",
+          "state": "Focused responsive mobile control using unsaved fictional editor state",
+          "publicationDecision": "approved source; pair with desktop asset",
+          "concept": "handoff",
+          "mobile": true,
+          "published_asset": "images/captures/property-collector/handoff-es-mobile.png",
+          "pixels": [
+            780,
+            680
+          ],
+          "logical_size": [
+            390.0,
+            340.0
+          ],
+          "source": "docs/editorial-work/captures/property-collector/handoff-es-mobile.png",
+          "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+          "reused": true,
+          "new_capture": false
+        },
+        "original_consumer_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+        "name": "handoff-es-mobile",
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "d60bd1960ab445759cc750f03a0035c7133e8d1b787d2700f70ab51c4994b766",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 408.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+      "name": "handoff-es-mobile",
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "d60bd1960ab445759cc750f03a0035c7133e8d1b787d2700f70ab51c4994b766",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 408.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Approved historical source reused unchanged; this consumer article awaits protected merge and actual public verification.",
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "file": "handoff-en-mobile.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+      "title": "New Property Collector playbook | Hellotext",
+      "viewportCss": [
+        390,
+        1000
+      ],
+      "clipCss": [
+        0,
+        120,
+        390,
+        340
+      ],
+      "pixelSize": [
+        780,
+        680
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "97bad463814d7ec88c224ea32ccf6500c65c8eed86a39ef83cd8fba79d2f3793",
+      "state": "Focused responsive mobile control using unsaved fictional editor state",
+      "publicationDecision": "approved source; pair with desktop asset",
+      "concept": "handoff",
+      "mobile": true,
+      "published_asset": "images/captures/property-collector/handoff-en-mobile.png",
+      "pixels": [
+        780,
+        680
+      ],
+      "logical_size": [
+        390.0,
+        340.0
+      ],
+      "source": "docs/editorial-work/captures/property-collector/handoff-en-mobile.png",
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "reused": true,
+      "new_capture": false,
+      "historical_source_record": {
+        "file": "handoff-en-mobile.png",
+        "locale": "en",
+        "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+        "title": "New Property Collector playbook | Hellotext",
+        "viewportCss": [
+          390,
+          1000
+        ],
+        "clipCss": [
+          0,
+          120,
+          390,
+          340
+        ],
+        "pixelSize": [
+          780,
+          680
+        ],
+        "density": 2,
+        "iccProfile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "97bad463814d7ec88c224ea32ccf6500c65c8eed86a39ef83cd8fba79d2f3793",
+        "state": "Focused responsive mobile control using unsaved fictional editor state",
+        "publicationDecision": "approved source; pair with desktop asset",
+        "concept": "handoff",
+        "mobile": true,
+        "published_asset": "images/captures/property-collector/handoff-en-mobile.png",
+        "pixels": [
+          780,
+          680
+        ],
+        "logical_size": [
+          390.0,
+          340.0
+        ],
+        "source": "docs/editorial-work/captures/property-collector/handoff-en-mobile.png",
+        "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "reused": true,
+        "new_capture": false,
+        "historical_source_record": {
+          "file": "handoff-en-mobile.png",
+          "locale": "en",
+          "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=escalation",
+          "title": "New Property Collector playbook | Hellotext",
+          "viewportCss": [
+            390,
+            1000
+          ],
+          "clipCss": [
+            0,
+            120,
+            390,
+            340
+          ],
+          "pixelSize": [
+            780,
+            680
+          ],
+          "density": 2,
+          "iccProfile": "Display P3 Gamut with sRGB Transfer",
+          "sha256": "97bad463814d7ec88c224ea32ccf6500c65c8eed86a39ef83cd8fba79d2f3793",
+          "state": "Focused responsive mobile control using unsaved fictional editor state",
+          "publicationDecision": "approved source; pair with desktop asset",
+          "concept": "handoff",
+          "mobile": true,
+          "published_asset": "images/captures/property-collector/handoff-en-mobile.png",
+          "pixels": [
+            780,
+            680
+          ],
+          "logical_size": [
+            390.0,
+            340.0
+          ],
+          "source": "docs/editorial-work/captures/property-collector/handoff-en-mobile.png",
+          "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+          "reused": true,
+          "new_capture": false
+        },
+        "original_consumer_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+        "name": "handoff-en-mobile",
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "b3865f05a9fbf5b7ead5b49ef21cf9b19c4d40a0484426c01a4b07244042bc59",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 408.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "original_consumer_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
+      "name": "handoff-en-mobile",
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "b3865f05a9fbf5b7ead5b49ef21cf9b19c4d40a0484426c01a4b07244042bc59",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 408.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Approved historical source reused unchanged; this consumer article awaits protected merge and actual public verification.",
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "file": "channels-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=channel",
+      "title": "Nueva misión Recolector de Propiedades | Hellotext",
+      "viewportCss": [
+        1200,
+        1000
+      ],
+      "clipCss": [
+        50,
+        100,
+        575,
+        590
+      ],
+      "pixelSize": [
+        1150,
+        1180
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "09a69bcc4d04170870d9e7123c84391069810694179dc20ac44248df0abc1571",
+      "state": "Unsaved incoming-channel choice: all channels selected and manual selection available",
+      "publicationDecision": "approved source; insert with bilingual counterpart after full guide review",
+      "historical_source_record": {
+        "file": "channels-es.png",
+        "locale": "es",
+        "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=channel",
+        "title": "Nueva misión Recolector de Propiedades | Hellotext",
+        "viewportCss": [
+          1200,
+          1000
+        ],
+        "clipCss": [
+          50,
+          100,
+          575,
+          590
+        ],
+        "pixelSize": [
+          1150,
+          1180
+        ],
+        "density": 2,
+        "iccProfile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "09a69bcc4d04170870d9e7123c84391069810694179dc20ac44248df0abc1571",
+        "state": "Unsaved incoming-channel choice: all channels selected and manual selection available",
+        "publicationDecision": "approved source; insert with bilingual counterpart after full guide review",
+        "historical_source_record": {
+          "file": "channels-es.png",
+          "locale": "es",
+          "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=channel",
+          "title": "Nueva misión Recolector de Propiedades | Hellotext",
+          "viewportCss": [
+            1200,
+            1000
+          ],
+          "clipCss": [
+            50,
+            100,
+            575,
+            590
+          ],
+          "pixelSize": [
+            1150,
+            1180
+          ],
+          "density": 2,
+          "iccProfile": "Display P3 Gamut with sRGB Transfer",
+          "sha256": "09a69bcc4d04170870d9e7123c84391069810694179dc20ac44248df0abc1571",
+          "state": "Unsaved incoming-channel choice: all channels selected and manual selection available",
+          "publicationDecision": "approved source; insert with bilingual counterpart after full guide review"
+        },
+        "concept": "channels",
+        "name": "channels-es",
+        "mobile": false,
+        "source": "docs/editorial-work/captures/property-collector/channels-es.png",
+        "published_asset": "images/captures/property-collector/channels-es.png",
+        "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "new_capture": false,
+        "reused": true,
+        "pixels": [
+          1150,
+          1180
+        ],
+        "logical_size": [
+          575.0,
+          590.0
+        ],
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "f0e6045320a954609e2efc3b384afff8a8c496d35a559f3080f29cd54d506b52",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 593.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "concept": "channels",
+      "name": "channels-es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/property-collector/channels-es.png",
+      "published_asset": "images/captures/property-collector/channels-es.png",
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "new_capture": false,
+      "reused": true,
+      "pixels": [
+        1150,
+        1180
+      ],
+      "logical_size": [
+        575.0,
+        590.0
+      ],
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "f0e6045320a954609e2efc3b384afff8a8c496d35a559f3080f29cd54d506b52",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 593.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Approved historical source reused unchanged; this consumer article awaits protected merge and actual public verification.",
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "file": "channels-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=channel",
+      "title": "New Property Collector playbook | Hellotext",
+      "viewportCss": [
+        1200,
+        1000
+      ],
+      "clipCss": [
+        50,
+        100,
+        575,
+        590
+      ],
+      "pixelSize": [
+        1150,
+        1180
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "fed5b1e6710e0f6ad456ee06a4cae92680c2d85f1a78fef79dbe95d08a18222d",
+      "state": "Unsaved incoming-channel choice: all channels selected and manual selection available",
+      "publicationDecision": "approved source; insert with bilingual counterpart after full guide review",
+      "historical_source_record": {
+        "file": "channels-en.png",
+        "locale": "en",
+        "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=channel",
+        "title": "New Property Collector playbook | Hellotext",
+        "viewportCss": [
+          1200,
+          1000
+        ],
+        "clipCss": [
+          50,
+          100,
+          575,
+          590
+        ],
+        "pixelSize": [
+          1150,
+          1180
+        ],
+        "density": 2,
+        "iccProfile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "fed5b1e6710e0f6ad456ee06a4cae92680c2d85f1a78fef79dbe95d08a18222d",
+        "state": "Unsaved incoming-channel choice: all channels selected and manual selection available",
+        "publicationDecision": "approved source; insert with bilingual counterpart after full guide review",
+        "historical_source_record": {
+          "file": "channels-en.png",
+          "locale": "en",
+          "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=channel",
+          "title": "New Property Collector playbook | Hellotext",
+          "viewportCss": [
+            1200,
+            1000
+          ],
+          "clipCss": [
+            50,
+            100,
+            575,
+            590
+          ],
+          "pixelSize": [
+            1150,
+            1180
+          ],
+          "density": 2,
+          "iccProfile": "Display P3 Gamut with sRGB Transfer",
+          "sha256": "fed5b1e6710e0f6ad456ee06a4cae92680c2d85f1a78fef79dbe95d08a18222d",
+          "state": "Unsaved incoming-channel choice: all channels selected and manual selection available",
+          "publicationDecision": "approved source; insert with bilingual counterpart after full guide review"
+        },
+        "concept": "channels",
+        "name": "channels-en",
+        "mobile": false,
+        "source": "docs/editorial-work/captures/property-collector/channels-en.png",
+        "published_asset": "images/captures/property-collector/channels-en.png",
+        "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "new_capture": false,
+        "reused": true,
+        "pixels": [
+          1150,
+          1180
+        ],
+        "logical_size": [
+          575.0,
+          590.0
+        ],
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "89ce9c2c10e041f7b39da67c093de35e25e990ed4388d01ebd337c5874649a19",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 593.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "concept": "channels",
+      "name": "channels-en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/property-collector/channels-en.png",
+      "published_asset": "images/captures/property-collector/channels-en.png",
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "new_capture": false,
+      "reused": true,
+      "pixels": [
+        1150,
+        1180
+      ],
+      "logical_size": [
+        575.0,
+        590.0
+      ],
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "89ce9c2c10e041f7b39da67c093de35e25e990ed4388d01ebd337c5874649a19",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 593.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Approved historical source reused unchanged; this consumer article awaits protected merge and actual public verification.",
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "file": "tone-es.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=tone",
+      "title": "Nueva misión Recolector de Propiedades | Hellotext",
+      "viewportCss": [
+        1200,
+        1000
+      ],
+      "clipCss": [
+        50,
+        100,
+        575,
+        515
+      ],
+      "pixelSize": [
+        1150,
+        1030
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "f97c2e66346680730e6c64708e701b95a3abf460ac099a1cb214d8baf22fdd8d",
+      "state": "Unsaved tone choice: three selected tones",
+      "publicationDecision": "approved source; insert with bilingual counterpart after full guide review",
+      "historical_source_record": {
+        "file": "tone-es.png",
+        "locale": "es",
+        "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=tone",
+        "title": "Nueva misión Recolector de Propiedades | Hellotext",
+        "viewportCss": [
+          1200,
+          1000
+        ],
+        "clipCss": [
+          50,
+          100,
+          575,
+          515
+        ],
+        "pixelSize": [
+          1150,
+          1030
+        ],
+        "density": 2,
+        "iccProfile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "f97c2e66346680730e6c64708e701b95a3abf460ac099a1cb214d8baf22fdd8d",
+        "state": "Unsaved tone choice: three selected tones",
+        "publicationDecision": "approved source; insert with bilingual counterpart after full guide review",
+        "historical_source_record": {
+          "file": "tone-es.png",
+          "locale": "es",
+          "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=tone",
+          "title": "Nueva misión Recolector de Propiedades | Hellotext",
+          "viewportCss": [
+            1200,
+            1000
+          ],
+          "clipCss": [
+            50,
+            100,
+            575,
+            515
+          ],
+          "pixelSize": [
+            1150,
+            1030
+          ],
+          "density": 2,
+          "iccProfile": "Display P3 Gamut with sRGB Transfer",
+          "sha256": "f97c2e66346680730e6c64708e701b95a3abf460ac099a1cb214d8baf22fdd8d",
+          "state": "Unsaved tone choice: three selected tones",
+          "publicationDecision": "approved source; insert with bilingual counterpart after full guide review"
+        },
+        "concept": "tone",
+        "name": "tone-es",
+        "mobile": false,
+        "source": "docs/editorial-work/captures/property-collector/tone-es.png",
+        "published_asset": "images/captures/property-collector/tone-es.png",
+        "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "new_capture": false,
+        "reused": true,
+        "pixels": [
+          1150,
+          1030
+        ],
+        "logical_size": [
+          575.0,
+          515.0
+        ],
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "93c58786ad8b060baa865e00d9dae98f30e6ae8e6e7080db36301f6f2b50e2e8",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 593.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "concept": "tone",
+      "name": "tone-es",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/property-collector/tone-es.png",
+      "published_asset": "images/captures/property-collector/tone-es.png",
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "new_capture": false,
+      "reused": true,
+      "pixels": [
+        1150,
+        1030
+      ],
+      "logical_size": [
+        575.0,
+        515.0
+      ],
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "93c58786ad8b060baa865e00d9dae98f30e6ae8e6e7080db36301f6f2b50e2e8",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 593.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Approved historical source reused unchanged; this consumer article awaits protected merge and actual public verification.",
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "file": "tone-en.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=tone",
+      "title": "New Property Collector playbook | Hellotext",
+      "viewportCss": [
+        1200,
+        1000
+      ],
+      "clipCss": [
+        50,
+        100,
+        575,
+        515
+      ],
+      "pixelSize": [
+        1150,
+        1030
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "b8c33b227fbb6fc79ab89a2eccc079f9a9b0c8a06cf21773005ad1ffcec1d053",
+      "state": "Unsaved tone choice: three selected tones",
+      "publicationDecision": "approved source; insert with bilingual counterpart after full guide review",
+      "historical_source_record": {
+        "file": "tone-en.png",
+        "locale": "en",
+        "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=tone",
+        "title": "New Property Collector playbook | Hellotext",
+        "viewportCss": [
+          1200,
+          1000
+        ],
+        "clipCss": [
+          50,
+          100,
+          575,
+          515
+        ],
+        "pixelSize": [
+          1150,
+          1030
+        ],
+        "density": 2,
+        "iccProfile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "b8c33b227fbb6fc79ab89a2eccc079f9a9b0c8a06cf21773005ad1ffcec1d053",
+        "state": "Unsaved tone choice: three selected tones",
+        "publicationDecision": "approved source; insert with bilingual counterpart after full guide review",
+        "historical_source_record": {
+          "file": "tone-en.png",
+          "locale": "en",
+          "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=tone",
+          "title": "New Property Collector playbook | Hellotext",
+          "viewportCss": [
+            1200,
+            1000
+          ],
+          "clipCss": [
+            50,
+            100,
+            575,
+            515
+          ],
+          "pixelSize": [
+            1150,
+            1030
+          ],
+          "density": 2,
+          "iccProfile": "Display P3 Gamut with sRGB Transfer",
+          "sha256": "b8c33b227fbb6fc79ab89a2eccc079f9a9b0c8a06cf21773005ad1ffcec1d053",
+          "state": "Unsaved tone choice: three selected tones",
+          "publicationDecision": "approved source; insert with bilingual counterpart after full guide review"
+        },
+        "concept": "tone",
+        "name": "tone-en",
+        "mobile": false,
+        "source": "docs/editorial-work/captures/property-collector/tone-en.png",
+        "published_asset": "images/captures/property-collector/tone-en.png",
+        "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "new_capture": false,
+        "reused": true,
+        "pixels": [
+          1150,
+          1030
+        ],
+        "logical_size": [
+          575.0,
+          515.0
+        ],
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "52a008ba0239c1328c2bb3cc3a1b390950984118587b837123c8d1da3291a876",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 593.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "concept": "tone",
+      "name": "tone-en",
+      "mobile": false,
+      "source": "docs/editorial-work/captures/property-collector/tone-en.png",
+      "published_asset": "images/captures/property-collector/tone-en.png",
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "new_capture": false,
+      "reused": true,
+      "pixels": [
+        1150,
+        1030
+      ],
+      "logical_size": [
+        575.0,
+        515.0
+      ],
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "52a008ba0239c1328c2bb3cc3a1b390950984118587b837123c8d1da3291a876",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 593.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Approved historical source reused unchanged; this consumer article awaits protected merge and actual public verification.",
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "file": "channels-es-mobile.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=channel",
+      "title": "Nueva misión Recolector de Propiedades | Hellotext",
+      "viewportCss": [
+        390,
+        1000
+      ],
+      "clipCss": [
+        0,
+        120,
+        390,
+        760
+      ],
+      "pixelSize": [
+        780,
+        1520
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "213da9d4c0fa8688e03ce9f368928e7df240b1d538670285a437c5935c0a24a3",
+      "state": "Focused responsive mobile control using unsaved fictional editor state",
+      "publicationDecision": "approved source; pair with desktop asset",
+      "historical_source_record": {
+        "file": "channels-es-mobile.png",
+        "locale": "es",
+        "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=channel",
+        "title": "Nueva misión Recolector de Propiedades | Hellotext",
+        "viewportCss": [
+          390,
+          1000
+        ],
+        "clipCss": [
+          0,
+          120,
+          390,
+          760
+        ],
+        "pixelSize": [
+          780,
+          1520
+        ],
+        "density": 2,
+        "iccProfile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "213da9d4c0fa8688e03ce9f368928e7df240b1d538670285a437c5935c0a24a3",
+        "state": "Focused responsive mobile control using unsaved fictional editor state",
+        "publicationDecision": "approved source; pair with desktop asset",
+        "historical_source_record": {
+          "file": "channels-es-mobile.png",
+          "locale": "es",
+          "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=channel",
+          "title": "Nueva misión Recolector de Propiedades | Hellotext",
+          "viewportCss": [
+            390,
+            1000
+          ],
+          "clipCss": [
+            0,
+            120,
+            390,
+            760
+          ],
+          "pixelSize": [
+            780,
+            1520
+          ],
+          "density": 2,
+          "iccProfile": "Display P3 Gamut with sRGB Transfer",
+          "sha256": "213da9d4c0fa8688e03ce9f368928e7df240b1d538670285a437c5935c0a24a3",
+          "state": "Focused responsive mobile control using unsaved fictional editor state",
+          "publicationDecision": "approved source; pair with desktop asset"
+        },
+        "concept": "channels",
+        "name": "channels-es-mobile",
+        "mobile": true,
+        "source": "docs/editorial-work/captures/property-collector/channels-es-mobile.png",
+        "published_asset": "images/captures/property-collector/channels-es-mobile.png",
+        "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "new_capture": false,
+        "reused": true,
+        "pixels": [
+          780,
+          1520
+        ],
+        "logical_size": [
+          390.0,
+          760.0
+        ],
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "4881c3359f4cf9155da1a3ea05f3037d80da1d555ec0607cb54a82c8ab1d136e",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 408.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "concept": "channels",
+      "name": "channels-es-mobile",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/property-collector/channels-es-mobile.png",
+      "published_asset": "images/captures/property-collector/channels-es-mobile.png",
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "new_capture": false,
+      "reused": true,
+      "pixels": [
+        780,
+        1520
+      ],
+      "logical_size": [
+        390.0,
+        760.0
+      ],
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "4881c3359f4cf9155da1a3ea05f3037d80da1d555ec0607cb54a82c8ab1d136e",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 408.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Approved historical source reused unchanged; this consumer article awaits protected merge and actual public verification.",
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "file": "channels-en-mobile.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=channel",
+      "title": "New Property Collector playbook | Hellotext",
+      "viewportCss": [
+        390,
+        1000
+      ],
+      "clipCss": [
+        0,
+        120,
+        390,
+        760
+      ],
+      "pixelSize": [
+        780,
+        1520
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "260918096cf05d4ac82990773682e76fa51ea9b3478ab6e6305d67cc8fcbaf0e",
+      "state": "Focused responsive mobile control using unsaved fictional editor state",
+      "publicationDecision": "approved source; pair with desktop asset",
+      "historical_source_record": {
+        "file": "channels-en-mobile.png",
+        "locale": "en",
+        "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=channel",
+        "title": "New Property Collector playbook | Hellotext",
+        "viewportCss": [
+          390,
+          1000
+        ],
+        "clipCss": [
+          0,
+          120,
+          390,
+          760
+        ],
+        "pixelSize": [
+          780,
+          1520
+        ],
+        "density": 2,
+        "iccProfile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "260918096cf05d4ac82990773682e76fa51ea9b3478ab6e6305d67cc8fcbaf0e",
+        "state": "Focused responsive mobile control using unsaved fictional editor state",
+        "publicationDecision": "approved source; pair with desktop asset",
+        "historical_source_record": {
+          "file": "channels-en-mobile.png",
+          "locale": "en",
+          "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=channel",
+          "title": "New Property Collector playbook | Hellotext",
+          "viewportCss": [
+            390,
+            1000
+          ],
+          "clipCss": [
+            0,
+            120,
+            390,
+            760
+          ],
+          "pixelSize": [
+            780,
+            1520
+          ],
+          "density": 2,
+          "iccProfile": "Display P3 Gamut with sRGB Transfer",
+          "sha256": "260918096cf05d4ac82990773682e76fa51ea9b3478ab6e6305d67cc8fcbaf0e",
+          "state": "Focused responsive mobile control using unsaved fictional editor state",
+          "publicationDecision": "approved source; pair with desktop asset"
+        },
+        "concept": "channels",
+        "name": "channels-en-mobile",
+        "mobile": true,
+        "source": "docs/editorial-work/captures/property-collector/channels-en-mobile.png",
+        "published_asset": "images/captures/property-collector/channels-en-mobile.png",
+        "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "new_capture": false,
+        "reused": true,
+        "pixels": [
+          780,
+          1520
+        ],
+        "logical_size": [
+          390.0,
+          760.0
+        ],
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "82b4ddba2f407c05703459b28cc05792dbdade51c584ad7c08ff0b108c675b41",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 408.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "concept": "channels",
+      "name": "channels-en-mobile",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/property-collector/channels-en-mobile.png",
+      "published_asset": "images/captures/property-collector/channels-en-mobile.png",
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "new_capture": false,
+      "reused": true,
+      "pixels": [
+        780,
+        1520
+      ],
+      "logical_size": [
+        390.0,
+        760.0
+      ],
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "82b4ddba2f407c05703459b28cc05792dbdade51c584ad7c08ff0b108c675b41",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 408.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Approved historical source reused unchanged; this consumer article awaits protected merge and actual public verification.",
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "file": "tone-es-mobile.png",
+      "locale": "es",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=tone",
+      "title": "Nueva misión Recolector de Propiedades | Hellotext",
+      "viewportCss": [
+        390,
+        1000
+      ],
+      "clipCss": [
+        0,
+        120,
+        390,
+        485
+      ],
+      "pixelSize": [
+        780,
+        970
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "bb6765e4ad6cfca6b321bf5ed74fd9c37e89be50045c6649cfbd640120decf62",
+      "state": "Focused responsive mobile control using unsaved fictional editor state",
+      "publicationDecision": "approved source; pair with desktop asset",
+      "historical_source_record": {
+        "file": "tone-es-mobile.png",
+        "locale": "es",
+        "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=tone",
+        "title": "Nueva misión Recolector de Propiedades | Hellotext",
+        "viewportCss": [
+          390,
+          1000
+        ],
+        "clipCss": [
+          0,
+          120,
+          390,
+          485
+        ],
+        "pixelSize": [
+          780,
+          970
+        ],
+        "density": 2,
+        "iccProfile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "bb6765e4ad6cfca6b321bf5ed74fd9c37e89be50045c6649cfbd640120decf62",
+        "state": "Focused responsive mobile control using unsaved fictional editor state",
+        "publicationDecision": "approved source; pair with desktop asset",
+        "historical_source_record": {
+          "file": "tone-es-mobile.png",
+          "locale": "es",
+          "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=tone",
+          "title": "Nueva misión Recolector de Propiedades | Hellotext",
+          "viewportCss": [
+            390,
+            1000
+          ],
+          "clipCss": [
+            0,
+            120,
+            390,
+            485
+          ],
+          "pixelSize": [
+            780,
+            970
+          ],
+          "density": 2,
+          "iccProfile": "Display P3 Gamut with sRGB Transfer",
+          "sha256": "bb6765e4ad6cfca6b321bf5ed74fd9c37e89be50045c6649cfbd640120decf62",
+          "state": "Focused responsive mobile control using unsaved fictional editor state",
+          "publicationDecision": "approved source; pair with desktop asset"
+        },
+        "concept": "tone",
+        "name": "tone-es-mobile",
+        "mobile": true,
+        "source": "docs/editorial-work/captures/property-collector/tone-es-mobile.png",
+        "published_asset": "images/captures/property-collector/tone-es-mobile.png",
+        "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "new_capture": false,
+        "reused": true,
+        "pixels": [
+          780,
+          970
+        ],
+        "logical_size": [
+          390.0,
+          485.0
+        ],
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "2be716475bbc5ba2e069270b697de1ef4331629d46d4481b271f24fc29f80402",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 408.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "concept": "tone",
+      "name": "tone-es-mobile",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/property-collector/tone-es-mobile.png",
+      "published_asset": "images/captures/property-collector/tone-es-mobile.png",
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "new_capture": false,
+      "reused": true,
+      "pixels": [
+        780,
+        970
+      ],
+      "logical_size": [
+        390.0,
+        485.0
+      ],
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "2be716475bbc5ba2e069270b697de1ef4331629d46d4481b271f24fc29f80402",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 408.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Approved historical source reused unchanged; this consumer article awaits protected merge and actual public verification.",
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "file": "tone-en-mobile.png",
+      "locale": "en",
+      "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=tone",
+      "title": "New Property Collector playbook | Hellotext",
+      "viewportCss": [
+        390,
+        1000
+      ],
+      "clipCss": [
+        0,
+        120,
+        390,
+        485
+      ],
+      "pixelSize": [
+        780,
+        970
+      ],
+      "density": 2,
+      "iccProfile": "Display P3 Gamut with sRGB Transfer",
+      "sha256": "5b59a2acc71f53d84aa7bb1d7280af18a300e2fe34a7a0bf3058f52328f7a21f",
+      "state": "Focused responsive mobile control using unsaved fictional editor state",
+      "publicationDecision": "approved source; pair with desktop asset",
+      "historical_source_record": {
+        "file": "tone-en-mobile.png",
+        "locale": "en",
+        "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=tone",
+        "title": "New Property Collector playbook | Hellotext",
+        "viewportCss": [
+          390,
+          1000
+        ],
+        "clipCss": [
+          0,
+          120,
+          390,
+          485
+        ],
+        "pixelSize": [
+          780,
+          970
+        ],
+        "density": 2,
+        "iccProfile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "5b59a2acc71f53d84aa7bb1d7280af18a300e2fe34a7a0bf3058f52328f7a21f",
+        "state": "Focused responsive mobile control using unsaved fictional editor state",
+        "publicationDecision": "approved source; pair with desktop asset",
+        "historical_source_record": {
+          "file": "tone-en-mobile.png",
+          "locale": "en",
+          "url": "http://127.0.0.1:3191/hellotext/playbooks/property-collector/new?component=tone",
+          "title": "New Property Collector playbook | Hellotext",
+          "viewportCss": [
+            390,
+            1000
+          ],
+          "clipCss": [
+            0,
+            120,
+            390,
+            485
+          ],
+          "pixelSize": [
+            780,
+            970
+          ],
+          "density": 2,
+          "iccProfile": "Display P3 Gamut with sRGB Transfer",
+          "sha256": "5b59a2acc71f53d84aa7bb1d7280af18a300e2fe34a7a0bf3058f52328f7a21f",
+          "state": "Focused responsive mobile control using unsaved fictional editor state",
+          "publicationDecision": "approved source; pair with desktop asset"
+        },
+        "concept": "tone",
+        "name": "tone-en-mobile",
+        "mobile": true,
+        "source": "docs/editorial-work/captures/property-collector/tone-en-mobile.png",
+        "published_asset": "images/captures/property-collector/tone-en-mobile.png",
+        "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+        "new_capture": false,
+        "reused": true,
+        "pixels": [
+          780,
+          970
+        ],
+        "logical_size": [
+          390.0,
+          485.0
+        ],
+        "source_density": 2,
+        "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "pixel_sha256": "704a4d2dbfbb9995124952153d4a73e5c038d93e8ce5d8a046c38ee351bd173f",
+        "icc_description": "Display P3 Gamut with sRGB Transfer",
+        "frame_cap": 408.0,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json",
+        "publication_status": "Complete consumer article and native public asset verified. Per-source provenance, actions and historical limits retained. See public-verification.json."
+      },
+      "concept": "tone",
+      "name": "tone-en-mobile",
+      "mobile": true,
+      "source": "docs/editorial-work/captures/property-collector/tone-en-mobile.png",
+      "published_asset": "images/captures/property-collector/tone-en-mobile.png",
+      "original_provenance": "docs/editorial-work/captures/property-collector/capture-provenance.json",
+      "new_capture": false,
+      "reused": true,
+      "pixels": [
+        780,
+        970
+      ],
+      "logical_size": [
+        390.0,
+        485.0
+      ],
+      "source_density": 2,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "704a4d2dbfbb9995124952153d4a73e5c038d93e8ce5d8a046c38ee351bd173f",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "frame_cap": 408.0,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "publication_status": "Approved historical source reused unchanged; this consumer article awaits protected merge and actual public verification.",
+      "previous_consumer_provenance": "docs/editorial-work/captures/how-to-customize-a-playbook-safely/capture-provenance.json"
+    },
+    {
+      "concept": "default",
+      "locale": "es",
+      "mobile": false,
+      "published_asset": "images/team/understanding-response-times/default-es.png",
+      "sha256": "339b5749ee334a9d43c5ba547e6d41248962a12c3854fd211e2bd982f04081d0",
+      "pixels": [
+        972,
+        820
+      ],
+      "logical_size": [
+        486.0,
+        410.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/understanding-response-times/native/default-es-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-response-times-editorial-20261001/native/default-es-original.png",
+        "sha256": "339b5749ee334a9d43c5ba547e6d41248962a12c3854fd211e2bd982f04081d0",
+        "url": "http://127.0.0.1:3192/hellotext/settings/slas/4ONLdN32/edit",
+        "locale": "es",
+        "cssViewport": [
+          1400,
+          1600
+        ],
+        "browserDpr": 2,
+        "clip": [
+          905,
+          8,
+          486,
+          410
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          972,
+          820
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/settings/slas/4ONLdN32/edit",
+        "title": "Tiempo de respuesta - Hellotext",
+        "locale": "es",
+        "viewport": [
+          1400,
+          1600
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "reused": true,
+      "new_capture": false,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "historical_source_record": {
+        "concept": "default",
+        "locale": "es",
+        "mobile": false,
+        "published_asset": "images/team/understanding-response-times/default-es.png",
+        "sha256": "339b5749ee334a9d43c5ba547e6d41248962a12c3854fd211e2bd982f04081d0",
+        "pixels": [
+          972,
+          820
+        ],
+        "logical_size": [
+          486.0,
+          410.0
+        ],
+        "density": 2,
+        "source": "docs/editorial-work/captures/understanding-response-times/native/default-es-original.png",
+        "native": {
+          "output": "/private/tmp/hellotext-response-times-editorial-20261001/native/default-es-original.png",
+          "sha256": "339b5749ee334a9d43c5ba547e6d41248962a12c3854fd211e2bd982f04081d0",
+          "url": "http://127.0.0.1:3192/hellotext/settings/slas/4ONLdN32/edit",
+          "locale": "es",
+          "cssViewport": [
+            1400,
+            1600
+          ],
+          "browserDpr": 2,
+          "clip": [
+            905,
+            8,
+            486,
+            410
+          ],
+          "pageScroll": [
+            0,
+            0
+          ],
+          "pixelSize": [
+            972,
+            820
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "isolated Chrome compositor via CDP"
+        },
+        "ui_guard": {
+          "url": "http://127.0.0.1:3192/hellotext/settings/slas/4ONLdN32/edit",
+          "title": "Tiempo de respuesta - Hellotext",
+          "locale": "es",
+          "viewport": [
+            1400,
+            1600
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            0
+          ],
+          "guard": {
+            "pid": 57358,
+            "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+            "port": 9460,
+            "account": "design-system@example.test",
+            "single_local_page": true,
+            "color": "display-p3-d65"
+          }
+        },
+        "observed_http_methods": [
+          "GET"
+        ],
+        "reused": false,
+        "new_capture": true,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json"
+      },
+      "previous_consumer_provenance": "docs/editorial-work/captures/understanding-response-times/capture-provenance.json",
+      "frame_cap": 504,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "3acec469bca46b1102f3090e7d2166b87a7f1bbf74c355c8fbe18371da5075b0",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "publication_status": "Approved historical source reused unchanged; this consumer article awaits protected merge and actual public verification."
+    },
+    {
+      "concept": "default",
+      "locale": "es",
+      "mobile": true,
+      "published_asset": "images/team/understanding-response-times/default-es-mobile.png",
+      "sha256": "6e75d88d34ec270d7c1c65e424da76fbd1c27bd54975feda0fda196fa167455e",
+      "pixels": [
+        824,
+        844
+      ],
+      "logical_size": [
+        412.0,
+        422.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/understanding-response-times/native/default-es-mobile-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-response-times-editorial-20261001/native/default-es-mobile-original.png",
+        "sha256": "6e75d88d34ec270d7c1c65e424da76fbd1c27bd54975feda0fda196fa167455e",
+        "url": "http://127.0.0.1:3192/hellotext/settings/slas/4ONLdN32/edit",
+        "locale": "es",
+        "cssViewport": [
+          430,
+          1600
+        ],
+        "browserDpr": 2,
+        "clip": [
+          9,
+          8,
+          412,
+          422
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          824,
+          844
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/settings/slas/4ONLdN32/edit",
+        "title": "Tiempo de respuesta - Hellotext",
+        "locale": "es",
+        "viewport": [
+          430,
+          1600
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "reused": true,
+      "new_capture": false,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "historical_source_record": {
+        "concept": "default",
+        "locale": "es",
+        "mobile": true,
+        "published_asset": "images/team/understanding-response-times/default-es-mobile.png",
+        "sha256": "6e75d88d34ec270d7c1c65e424da76fbd1c27bd54975feda0fda196fa167455e",
+        "pixels": [
+          824,
+          844
+        ],
+        "logical_size": [
+          412.0,
+          422.0
+        ],
+        "density": 2,
+        "source": "docs/editorial-work/captures/understanding-response-times/native/default-es-mobile-original.png",
+        "native": {
+          "output": "/private/tmp/hellotext-response-times-editorial-20261001/native/default-es-mobile-original.png",
+          "sha256": "6e75d88d34ec270d7c1c65e424da76fbd1c27bd54975feda0fda196fa167455e",
+          "url": "http://127.0.0.1:3192/hellotext/settings/slas/4ONLdN32/edit",
+          "locale": "es",
+          "cssViewport": [
+            430,
+            1600
+          ],
+          "browserDpr": 2,
+          "clip": [
+            9,
+            8,
+            412,
+            422
+          ],
+          "pageScroll": [
+            0,
+            0
+          ],
+          "pixelSize": [
+            824,
+            844
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "isolated Chrome compositor via CDP"
+        },
+        "ui_guard": {
+          "url": "http://127.0.0.1:3192/hellotext/settings/slas/4ONLdN32/edit",
+          "title": "Tiempo de respuesta - Hellotext",
+          "locale": "es",
+          "viewport": [
+            430,
+            1600
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            0
+          ],
+          "guard": {
+            "pid": 57358,
+            "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+            "port": 9460,
+            "account": "design-system@example.test",
+            "single_local_page": true,
+            "color": "display-p3-d65"
+          }
+        },
+        "observed_http_methods": [
+          "GET"
+        ],
+        "reused": false,
+        "new_capture": true,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json"
+      },
+      "previous_consumer_provenance": "docs/editorial-work/captures/understanding-response-times/capture-provenance.json",
+      "frame_cap": 504,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "ce0ccdb660aa77bf0d0c09f897b4fbc11ff0352a949fff5082fb971155c15476",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "publication_status": "Approved historical source reused unchanged; this consumer article awaits protected merge and actual public verification."
+    },
+    {
+      "concept": "default",
+      "locale": "en",
+      "mobile": false,
+      "published_asset": "images/team/understanding-response-times/default-en.png",
+      "sha256": "c377e27ca01cfa3614d3ca758985ec5a8b253d4bd3082d9b48cef4780a2cf6c3",
+      "pixels": [
+        972,
+        764
+      ],
+      "logical_size": [
+        486.0,
+        382.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/understanding-response-times/native/default-en-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-response-times-editorial-20261001/native/default-en-original.png",
+        "sha256": "c377e27ca01cfa3614d3ca758985ec5a8b253d4bd3082d9b48cef4780a2cf6c3",
+        "url": "http://127.0.0.1:3192/hellotext/settings/slas/4ONLdN32/edit",
+        "locale": "en",
+        "cssViewport": [
+          1400,
+          1600
+        ],
+        "browserDpr": 2,
+        "clip": [
+          905,
+          8,
+          486,
+          382
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          972,
+          764
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/settings/slas/4ONLdN32/edit",
+        "title": "Response times - Hellotext",
+        "locale": "en",
+        "viewport": [
+          1400,
+          1600
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "reused": true,
+      "new_capture": false,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "historical_source_record": {
+        "concept": "default",
+        "locale": "en",
+        "mobile": false,
+        "published_asset": "images/team/understanding-response-times/default-en.png",
+        "sha256": "c377e27ca01cfa3614d3ca758985ec5a8b253d4bd3082d9b48cef4780a2cf6c3",
+        "pixels": [
+          972,
+          764
+        ],
+        "logical_size": [
+          486.0,
+          382.0
+        ],
+        "density": 2,
+        "source": "docs/editorial-work/captures/understanding-response-times/native/default-en-original.png",
+        "native": {
+          "output": "/private/tmp/hellotext-response-times-editorial-20261001/native/default-en-original.png",
+          "sha256": "c377e27ca01cfa3614d3ca758985ec5a8b253d4bd3082d9b48cef4780a2cf6c3",
+          "url": "http://127.0.0.1:3192/hellotext/settings/slas/4ONLdN32/edit",
+          "locale": "en",
+          "cssViewport": [
+            1400,
+            1600
+          ],
+          "browserDpr": 2,
+          "clip": [
+            905,
+            8,
+            486,
+            382
+          ],
+          "pageScroll": [
+            0,
+            0
+          ],
+          "pixelSize": [
+            972,
+            764
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "isolated Chrome compositor via CDP"
+        },
+        "ui_guard": {
+          "url": "http://127.0.0.1:3192/hellotext/settings/slas/4ONLdN32/edit",
+          "title": "Response times - Hellotext",
+          "locale": "en",
+          "viewport": [
+            1400,
+            1600
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            0
+          ],
+          "guard": {
+            "pid": 57358,
+            "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+            "port": 9460,
+            "account": "design-system@example.test",
+            "single_local_page": true,
+            "color": "display-p3-d65"
+          }
+        },
+        "observed_http_methods": [
+          "GET"
+        ],
+        "reused": false,
+        "new_capture": true,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json"
+      },
+      "previous_consumer_provenance": "docs/editorial-work/captures/understanding-response-times/capture-provenance.json",
+      "frame_cap": 504,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "00f131543b0fa8fdd7333c70ee3f16ccb72ac0a41ae81ff2ffb355b146199aed",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "publication_status": "Approved historical source reused unchanged; this consumer article awaits protected merge and actual public verification."
+    },
+    {
+      "concept": "default",
+      "locale": "en",
+      "mobile": true,
+      "published_asset": "images/team/understanding-response-times/default-en-mobile.png",
+      "sha256": "a41cb142e4f4b31a3de34b0ce7af740611fa3f9063e675b3ec4c0ceb194f1c8e",
+      "pixels": [
+        824,
+        804
+      ],
+      "logical_size": [
+        412.0,
+        402.0
+      ],
+      "density": 2,
+      "source": "docs/editorial-work/captures/understanding-response-times/native/default-en-mobile-original.png",
+      "native": {
+        "output": "/private/tmp/hellotext-response-times-editorial-20261001/native/default-en-mobile-original.png",
+        "sha256": "a41cb142e4f4b31a3de34b0ce7af740611fa3f9063e675b3ec4c0ceb194f1c8e",
+        "url": "http://127.0.0.1:3192/hellotext/settings/slas/4ONLdN32/edit",
+        "locale": "en",
+        "cssViewport": [
+          430,
+          1600
+        ],
+        "browserDpr": 2,
+        "clip": [
+          9,
+          8,
+          412,
+          402
+        ],
+        "pageScroll": [
+          0,
+          0
+        ],
+        "pixelSize": [
+          824,
+          804
+        ],
+        "sourceDensity": 2,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP"
+      },
+      "ui_guard": {
+        "url": "http://127.0.0.1:3192/hellotext/settings/slas/4ONLdN32/edit",
+        "title": "Response times - Hellotext",
+        "locale": "en",
+        "viewport": [
+          430,
+          1600
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          0
+        ],
+        "guard": {
+          "pid": 57358,
+          "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+          "port": 9460,
+          "account": "design-system@example.test",
+          "single_local_page": true,
+          "color": "display-p3-d65"
+        }
+      },
+      "observed_http_methods": [
+        "GET"
+      ],
+      "reused": true,
+      "new_capture": false,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "consumer_publication_evidence": "public-verification.json",
+      "historical_source_record": {
+        "concept": "default",
+        "locale": "en",
+        "mobile": true,
+        "published_asset": "images/team/understanding-response-times/default-en-mobile.png",
+        "sha256": "a41cb142e4f4b31a3de34b0ce7af740611fa3f9063e675b3ec4c0ceb194f1c8e",
+        "pixels": [
+          824,
+          804
+        ],
+        "logical_size": [
+          412.0,
+          402.0
+        ],
+        "density": 2,
+        "source": "docs/editorial-work/captures/understanding-response-times/native/default-en-mobile-original.png",
+        "native": {
+          "output": "/private/tmp/hellotext-response-times-editorial-20261001/native/default-en-mobile-original.png",
+          "sha256": "a41cb142e4f4b31a3de34b0ce7af740611fa3f9063e675b3ec4c0ceb194f1c8e",
+          "url": "http://127.0.0.1:3192/hellotext/settings/slas/4ONLdN32/edit",
+          "locale": "en",
+          "cssViewport": [
+            430,
+            1600
+          ],
+          "browserDpr": 2,
+          "clip": [
+            9,
+            8,
+            412,
+            402
+          ],
+          "pageScroll": [
+            0,
+            0
+          ],
+          "pixelSize": [
+            824,
+            804
+          ],
+          "sourceDensity": 2,
+          "icc": "Display P3",
+          "route": "isolated Chrome compositor via CDP"
+        },
+        "ui_guard": {
+          "url": "http://127.0.0.1:3192/hellotext/settings/slas/4ONLdN32/edit",
+          "title": "Response times - Hellotext",
+          "locale": "en",
+          "viewport": [
+            430,
+            1600
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            0
+          ],
+          "guard": {
+            "pid": 57358,
+            "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+            "port": 9460,
+            "account": "design-system@example.test",
+            "single_local_page": true,
+            "color": "display-p3-d65"
+          }
+        },
+        "observed_http_methods": [
+          "GET"
+        ],
+        "reused": false,
+        "new_capture": true,
+        "consumer_publication_state": "publicly_verified",
+        "consumer_publication_evidence": "public-verification.json"
+      },
+      "previous_consumer_provenance": "docs/editorial-work/captures/understanding-response-times/capture-provenance.json",
+      "frame_cap": 504,
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "56ceec69a79ed3d62aa41aa58af42e81f0edb5fe4553ac4f15e5de7c623c5e60",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "publication_status": "Approved historical source reused unchanged; this consumer article awaits protected merge and actual public verification."
+    },
+    {
+      "concept": "webchat",
+      "locale": "es",
+      "mobile": false,
+      "published_asset": "images/captures/webchat-widget/preview-follow-up/es/preview.png",
+      "source": "docs/editorial-work/captures/webchat-widget/preview-follow-up/preview-es.png",
+      "sha256": "9ad90405a4d502c312d2abd2cdd2034911ab3d8b19aae970ffafbf106cb9fb12",
+      "pixels": [
+        808,
+        1380
+      ],
+      "logical_size": [
+        404,
+        690
+      ],
+      "density": 2,
+      "source_density": 2,
+      "frame_cap": 422,
+      "new_capture": false,
+      "reused": true,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "historical_source_record": {
+        "file": "preview-es.png",
+        "asset": "/images/captures/webchat-widget/preview-follow-up/es/preview.png",
+        "sha256": "9ad90405a4d502c312d2abd2cdd2034911ab3d8b19aae970ffafbf106cb9fb12",
+        "pixelSize": [
+          808,
+          1380
+        ],
+        "logicalSize": [
+          404,
+          690
+        ],
+        "clip": [
+          856,
+          290,
+          404,
+          690
+        ],
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/RbQxgZdE/edit?pp=disable",
+        "title": "Editar misión Widget de Webchat | Hellotext",
+        "locale": "es",
+        "cssViewport": [
+          1280,
+          1000
+        ],
+        "browserDpr": 2,
+        "zoom": 1,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP",
+        "state": {
+          "cards": [
+            {
+              "type": "webchat--appearance",
+              "text": "Apariencia\n\nPersonaliza la apariencia de tu webchat para que coincida con la marca de tu sitio web.",
+              "rect": [
+                64,
+                137,
+                256,
+                272
+              ],
+              "visible": true
+            },
+            {
+              "type": "webchat--sequence",
+              "text": "Secuencia inicial\n\nCrea los primeros mensajes que se muestran en una nueva conversación.",
+              "rect": [
+                352,
+                137,
+                256,
+                272
+              ],
+              "visible": true
+            },
+            {
+              "type": "webchat--teaser",
+              "text": "Teaser\n\nInvita a los clientes a abrir el chat.",
+              "rect": [
+                64,
+                441,
+                256,
+                236
+              ],
+              "visible": true
+            },
+            {
+              "type": "webchat--behaviour",
+              "text": "Comportamiento\nPredeterminado\n\nControla cuándo y cómo aparece el webchat.",
+              "rect": [
+                352,
+                441,
+                256,
+                236
+              ],
+              "visible": true
+            },
+            {
+              "type": "webchat--handoff",
+              "text": "Canales\n\nPermite que los clientes continúen la conversación por otro canal.",
+              "rect": [
+                64,
+                709,
+                256,
+                220
+              ],
+              "visible": true
+            }
+          ],
+          "preview": [
+            868,
+            302,
+            380,
+            600
+          ],
+          "launcher": [
+            1192,
+            912,
+            56,
+            56
+          ]
+        }
+      },
+      "historical_provenance": {
+        "article": "captures/webchat-widget-playbook.md",
+        "status": "published_verified",
+        "source_rails_revision": "11731d118e581bb1d67853b1add1f4f495160288",
+        "source_rails_pr": "https://github.com/hellotext/hellotext/pull/6043",
+        "capture_date_utc": "2026-09-30",
+        "capture_route": "dedicated headless Chrome compositor via loopback CDP",
+        "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+        "cdp_port": 9460,
+        "browser_pid": 57358,
+        "source_account": "design-system@example.test",
+        "database": "hellotext_editorial_workload_20260928",
+        "business_id": 5,
+        "fixture_webchat": "RbQxgZdE",
+        "fixture_state": "disabled; no workflow; five existing components; unsaved localized greeting; zero delivery actions",
+        "identity_url": "http://127.0.0.1:3192/hellotext/journeys/new",
+        "sources": [
+          {
+            "file": "overview-es.png",
+            "asset": "/images/captures/webchat-widget/preview-follow-up/es/overview.png",
+            "sha256": "0502e7c860a0f81ddc53ac37e5edf74466ad0c146996d84662a2a2b8e81ec53c",
+            "pixelSize": [
+              2432,
+              1726
+            ],
+            "logicalSize": [
+              1216,
+              863
+            ],
+            "clip": [
+              48,
+              121,
+              1216,
+              863
+            ],
+            "url": "http://127.0.0.1:3192/hellotext/playbooks/RbQxgZdE/edit?pp=disable",
+            "title": "Editar misión Widget de Webchat | Hellotext",
+            "locale": "es",
+            "cssViewport": [
+              1280,
+              1000
+            ],
+            "browserDpr": 2,
+            "zoom": 1,
+            "icc": "Display P3",
+            "route": "isolated Chrome compositor via CDP",
+            "state": {
+              "cards": [
+                {
+                  "type": "webchat--appearance",
+                  "text": "Apariencia\n\nPersonaliza la apariencia de tu webchat para que coincida con la marca de tu sitio web.",
+                  "rect": [
+                    64,
+                    137,
+                    256,
+                    272
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--sequence",
+                  "text": "Secuencia inicial\n\nCrea los primeros mensajes que se muestran en una nueva conversación.",
+                  "rect": [
+                    352,
+                    137,
+                    256,
+                    272
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--teaser",
+                  "text": "Teaser\n\nInvita a los clientes a abrir el chat.",
+                  "rect": [
+                    64,
+                    441,
+                    256,
+                    236
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--behaviour",
+                  "text": "Comportamiento\nPredeterminado\n\nControla cuándo y cómo aparece el webchat.",
+                  "rect": [
+                    352,
+                    441,
+                    256,
+                    236
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--handoff",
+                  "text": "Canales\n\nPermite que los clientes continúen la conversación por otro canal.",
+                  "rect": [
+                    64,
+                    709,
+                    256,
+                    220
+                  ],
+                  "visible": true
+                }
+              ],
+              "preview": [
+                868,
+                302,
+                380,
+                600
+              ],
+              "launcher": [
+                1192,
+                912,
+                56,
+                56
+              ]
+            }
+          },
+          {
+            "file": "preview-es.png",
+            "asset": "/images/captures/webchat-widget/preview-follow-up/es/preview.png",
+            "sha256": "9ad90405a4d502c312d2abd2cdd2034911ab3d8b19aae970ffafbf106cb9fb12",
+            "pixelSize": [
+              808,
+              1380
+            ],
+            "logicalSize": [
+              404,
+              690
+            ],
+            "clip": [
+              856,
+              290,
+              404,
+              690
+            ],
+            "url": "http://127.0.0.1:3192/hellotext/playbooks/RbQxgZdE/edit?pp=disable",
+            "title": "Editar misión Widget de Webchat | Hellotext",
+            "locale": "es",
+            "cssViewport": [
+              1280,
+              1000
+            ],
+            "browserDpr": 2,
+            "zoom": 1,
+            "icc": "Display P3",
+            "route": "isolated Chrome compositor via CDP",
+            "state": {
+              "cards": [
+                {
+                  "type": "webchat--appearance",
+                  "text": "Apariencia\n\nPersonaliza la apariencia de tu webchat para que coincida con la marca de tu sitio web.",
+                  "rect": [
+                    64,
+                    137,
+                    256,
+                    272
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--sequence",
+                  "text": "Secuencia inicial\n\nCrea los primeros mensajes que se muestran en una nueva conversación.",
+                  "rect": [
+                    352,
+                    137,
+                    256,
+                    272
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--teaser",
+                  "text": "Teaser\n\nInvita a los clientes a abrir el chat.",
+                  "rect": [
+                    64,
+                    441,
+                    256,
+                    236
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--behaviour",
+                  "text": "Comportamiento\nPredeterminado\n\nControla cuándo y cómo aparece el webchat.",
+                  "rect": [
+                    352,
+                    441,
+                    256,
+                    236
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--handoff",
+                  "text": "Canales\n\nPermite que los clientes continúen la conversación por otro canal.",
+                  "rect": [
+                    64,
+                    709,
+                    256,
+                    220
+                  ],
+                  "visible": true
+                }
+              ],
+              "preview": [
+                868,
+                302,
+                380,
+                600
+              ],
+              "launcher": [
+                1192,
+                912,
+                56,
+                56
+              ]
+            }
+          },
+          {
+            "file": "overview-mobile-es.png",
+            "asset": "/images/captures/webchat-widget/preview-follow-up/es/overview-mobile.png",
+            "sha256": "cd9e36910658ddcdddfed3c0b52622e6b18ecda4e5514c96a6a9373618540444",
+            "pixelSize": [
+              872,
+              1872
+            ],
+            "logicalSize": [
+              436,
+              936
+            ],
+            "clip": [
+              48,
+              121,
+              436,
+              936
+            ],
+            "url": "http://127.0.0.1:3192/hellotext/playbooks/RbQxgZdE/edit?pp=disable",
+            "title": "Editar misión Widget de Webchat | Hellotext",
+            "locale": "es",
+            "cssViewport": [
+              1000,
+              1120
+            ],
+            "browserDpr": 2,
+            "zoom": 1,
+            "icc": "Display P3",
+            "route": "isolated Chrome compositor via CDP",
+            "state": {
+              "cards": [
+                {
+                  "type": "webchat--appearance",
+                  "text": "Apariencia\n\nPersonaliza la apariencia de tu webchat para que coincida con la marca de tu sitio web.",
+                  "rect": [
+                    64,
+                    137,
+                    404,
+                    160
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--sequence",
+                  "text": "Secuencia inicial\n\nCrea los primeros mensajes que se muestran en una nueva conversación.",
+                  "rect": [
+                    64,
+                    321,
+                    404,
+                    160
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--teaser",
+                  "text": "Teaser\n\nInvita a los clientes a abrir el chat.",
+                  "rect": [
+                    64,
+                    505,
+                    404,
+                    160
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--behaviour",
+                  "text": "Comportamiento\nPredeterminado\n\nControla cuándo y cómo aparece el webchat.",
+                  "rect": [
+                    64,
+                    689,
+                    404,
+                    168
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--handoff",
+                  "text": "Canales\n\nPermite que los clientes continúen la conversación por otro canal.",
+                  "rect": [
+                    64,
+                    881,
+                    404,
+                    160
+                  ],
+                  "visible": true
+                }
+              ],
+              "preview": [
+                588,
+                422,
+                380,
+                600
+              ],
+              "launcher": [
+                912,
+                1032,
+                56,
+                56
+              ]
+            }
+          },
+          {
+            "file": "overview-en.png",
+            "asset": "/images/captures/webchat-widget/preview-follow-up/en/overview.png",
+            "sha256": "e8e8a979bdffaadda0d7c66705c9ac049363a6586c505f69b81106fe53dd32fe",
+            "pixelSize": [
+              2432,
+              1726
+            ],
+            "logicalSize": [
+              1216,
+              863
+            ],
+            "clip": [
+              48,
+              121,
+              1216,
+              863
+            ],
+            "url": "http://127.0.0.1:3192/hellotext/playbooks/RbQxgZdE/edit?pp=disable",
+            "title": "Edit Webchat Widget playbook | Hellotext",
+            "locale": "en",
+            "cssViewport": [
+              1280,
+              1000
+            ],
+            "browserDpr": 2,
+            "zoom": 1,
+            "icc": "Display P3",
+            "route": "isolated Chrome compositor via CDP",
+            "state": {
+              "cards": [
+                {
+                  "type": "webchat--appearance",
+                  "text": "Appearance\n\nCustomize the appearance of your webchat to match your website’s branding.",
+                  "rect": [
+                    64,
+                    137,
+                    256,
+                    244
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--sequence",
+                  "text": "Opening sequence\n\nCreate the first messages shown in a new conversation.",
+                  "rect": [
+                    352,
+                    137,
+                    256,
+                    244
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--teaser",
+                  "text": "Teaser\n\nInvite customers to open the chat.",
+                  "rect": [
+                    64,
+                    413,
+                    256,
+                    236
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--behaviour",
+                  "text": "Behavior\nDefault\n\nControl when and how the webchat appears.",
+                  "rect": [
+                    352,
+                    413,
+                    256,
+                    236
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--handoff",
+                  "text": "Channels\n\nLet customers continue the conversation through another channel.",
+                  "rect": [
+                    64,
+                    681,
+                    256,
+                    244
+                  ],
+                  "visible": true
+                }
+              ],
+              "preview": [
+                868,
+                302,
+                380,
+                600
+              ],
+              "launcher": [
+                1192,
+                912,
+                56,
+                56
+              ]
+            }
+          },
+          {
+            "file": "preview-en.png",
+            "asset": "/images/captures/webchat-widget/preview-follow-up/en/preview.png",
+            "sha256": "9bc7e2dd9e3a3584edf7a4582b4b434a4a799a2c54382aa8a3771c3b45c73c51",
+            "pixelSize": [
+              808,
+              1380
+            ],
+            "logicalSize": [
+              404,
+              690
+            ],
+            "clip": [
+              856,
+              290,
+              404,
+              690
+            ],
+            "url": "http://127.0.0.1:3192/hellotext/playbooks/RbQxgZdE/edit?pp=disable",
+            "title": "Edit Webchat Widget playbook | Hellotext",
+            "locale": "en",
+            "cssViewport": [
+              1280,
+              1000
+            ],
+            "browserDpr": 2,
+            "zoom": 1,
+            "icc": "Display P3",
+            "route": "isolated Chrome compositor via CDP",
+            "state": {
+              "cards": [
+                {
+                  "type": "webchat--appearance",
+                  "text": "Appearance\n\nCustomize the appearance of your webchat to match your website’s branding.",
+                  "rect": [
+                    64,
+                    137,
+                    256,
+                    244
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--sequence",
+                  "text": "Opening sequence\n\nCreate the first messages shown in a new conversation.",
+                  "rect": [
+                    352,
+                    137,
+                    256,
+                    244
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--teaser",
+                  "text": "Teaser\n\nInvite customers to open the chat.",
+                  "rect": [
+                    64,
+                    413,
+                    256,
+                    236
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--behaviour",
+                  "text": "Behavior\nDefault\n\nControl when and how the webchat appears.",
+                  "rect": [
+                    352,
+                    413,
+                    256,
+                    236
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--handoff",
+                  "text": "Channels\n\nLet customers continue the conversation through another channel.",
+                  "rect": [
+                    64,
+                    681,
+                    256,
+                    244
+                  ],
+                  "visible": true
+                }
+              ],
+              "preview": [
+                868,
+                302,
+                380,
+                600
+              ],
+              "launcher": [
+                1192,
+                912,
+                56,
+                56
+              ]
+            }
+          },
+          {
+            "file": "overview-mobile-en.png",
+            "asset": "/images/captures/webchat-widget/preview-follow-up/en/overview-mobile.png",
+            "sha256": "4b3d66337bdac7b4876f51a9b384e13220c08332461ed9e826226b04c5e97912",
+            "pixelSize": [
+              872,
+              1872
+            ],
+            "logicalSize": [
+              436,
+              936
+            ],
+            "clip": [
+              48,
+              121,
+              436,
+              936
+            ],
+            "url": "http://127.0.0.1:3192/hellotext/playbooks/RbQxgZdE/edit?pp=disable",
+            "title": "Edit Webchat Widget playbook | Hellotext",
+            "locale": "en",
+            "cssViewport": [
+              1000,
+              1120
+            ],
+            "browserDpr": 2,
+            "zoom": 1,
+            "icc": "Display P3",
+            "route": "isolated Chrome compositor via CDP",
+            "state": {
+              "cards": [
+                {
+                  "type": "webchat--appearance",
+                  "text": "Appearance\n\nCustomize the appearance of your webchat to match your website’s branding.",
+                  "rect": [
+                    64,
+                    137,
+                    404,
+                    160
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--sequence",
+                  "text": "Opening sequence\n\nCreate the first messages shown in a new conversation.",
+                  "rect": [
+                    64,
+                    321,
+                    404,
+                    160
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--teaser",
+                  "text": "Teaser\n\nInvite customers to open the chat.",
+                  "rect": [
+                    64,
+                    505,
+                    404,
+                    160
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--behaviour",
+                  "text": "Behavior\nDefault\n\nControl when and how the webchat appears.",
+                  "rect": [
+                    64,
+                    689,
+                    404,
+                    168
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--handoff",
+                  "text": "Channels\n\nLet customers continue the conversation through another channel.",
+                  "rect": [
+                    64,
+                    881,
+                    404,
+                    160
+                  ],
+                  "visible": true
+                }
+              ],
+              "preview": [
+                588,
+                422,
+                380,
+                600
+              ],
+              "launcher": [
+                912,
+                1032,
+                56,
+                56
+              ]
+            }
+          }
+        ],
+        "restored": {
+          "database": "hellotext_editorial_workload_20260928",
+          "business_id": 5,
+          "account": "design-system@example.test",
+          "locale": "es",
+          "business_name": "Enterprise",
+          "contacts": 127,
+          "messageable": 0,
+          "subscribers": 0,
+          "messages": 49,
+          "saved_boosters": 0
+        },
+        "postflight": {
+          "database": "hellotext_editorial_workload_20260928",
+          "account": "design-system@example.test",
+          "business_id": 5,
+          "business_name": "Enterprise",
+          "locale": "es",
+          "webchat": "RbQxgZdE",
+          "enabled": false,
+          "workflow": null,
+          "components": 5,
+          "contacts": 127,
+          "messageable": 0,
+          "subscribed": 0,
+          "messages": 49
+        },
+        "preview_semantics": "The customer bubble and online status are native editor examples. No live customer conversation, sent message, or successful installation is represented.",
+        "responsive_plan": "Overview: full editor composite from 1400 CSS px; through 1399 px, a focus of all five complete cards taken from a real 1000 CSS px desktop layout. Complete preview: one 404 CSS px source serves desktop and mobile without enlargement.",
+        "unchanged_figures": 7,
+        "new_figures_per_locale": 2,
+        "public_verification": "public-verification.json"
+      },
+      "previous_consumer_provenance": "docs/editorial-work/captures/webchat-widget/preview-follow-up/capture-provenance.json",
+      "responsive_plan": "Same approved full desktop preview used at both widths, constrained to native 404 CSS px; not a new mobile UI or duplicated asset.",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "0abe4d2cb4058c7078bc382fbbb2c0d8d7f95c742a1262151b3cf33dab566921",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "publication_status": "Approved historical source reused unchanged; this consumer article awaits protected merge and actual public verification."
+    },
+    {
+      "concept": "webchat",
+      "locale": "en",
+      "mobile": false,
+      "published_asset": "images/captures/webchat-widget/preview-follow-up/en/preview.png",
+      "source": "docs/editorial-work/captures/webchat-widget/preview-follow-up/preview-en.png",
+      "sha256": "9bc7e2dd9e3a3584edf7a4582b4b434a4a799a2c54382aa8a3771c3b45c73c51",
+      "pixels": [
+        808,
+        1380
+      ],
+      "logical_size": [
+        404,
+        690
+      ],
+      "density": 2,
+      "source_density": 2,
+      "frame_cap": 422,
+      "new_capture": false,
+      "reused": true,
+      "consumer_publication_state": "not_yet_publicly_verified",
+      "historical_source_record": {
+        "file": "preview-en.png",
+        "asset": "/images/captures/webchat-widget/preview-follow-up/en/preview.png",
+        "sha256": "9bc7e2dd9e3a3584edf7a4582b4b434a4a799a2c54382aa8a3771c3b45c73c51",
+        "pixelSize": [
+          808,
+          1380
+        ],
+        "logicalSize": [
+          404,
+          690
+        ],
+        "clip": [
+          856,
+          290,
+          404,
+          690
+        ],
+        "url": "http://127.0.0.1:3192/hellotext/playbooks/RbQxgZdE/edit?pp=disable",
+        "title": "Edit Webchat Widget playbook | Hellotext",
+        "locale": "en",
+        "cssViewport": [
+          1280,
+          1000
+        ],
+        "browserDpr": 2,
+        "zoom": 1,
+        "icc": "Display P3",
+        "route": "isolated Chrome compositor via CDP",
+        "state": {
+          "cards": [
+            {
+              "type": "webchat--appearance",
+              "text": "Appearance\n\nCustomize the appearance of your webchat to match your website’s branding.",
+              "rect": [
+                64,
+                137,
+                256,
+                244
+              ],
+              "visible": true
+            },
+            {
+              "type": "webchat--sequence",
+              "text": "Opening sequence\n\nCreate the first messages shown in a new conversation.",
+              "rect": [
+                352,
+                137,
+                256,
+                244
+              ],
+              "visible": true
+            },
+            {
+              "type": "webchat--teaser",
+              "text": "Teaser\n\nInvite customers to open the chat.",
+              "rect": [
+                64,
+                413,
+                256,
+                236
+              ],
+              "visible": true
+            },
+            {
+              "type": "webchat--behaviour",
+              "text": "Behavior\nDefault\n\nControl when and how the webchat appears.",
+              "rect": [
+                352,
+                413,
+                256,
+                236
+              ],
+              "visible": true
+            },
+            {
+              "type": "webchat--handoff",
+              "text": "Channels\n\nLet customers continue the conversation through another channel.",
+              "rect": [
+                64,
+                681,
+                256,
+                244
+              ],
+              "visible": true
+            }
+          ],
+          "preview": [
+            868,
+            302,
+            380,
+            600
+          ],
+          "launcher": [
+            1192,
+            912,
+            56,
+            56
+          ]
+        }
+      },
+      "historical_provenance": {
+        "article": "captures/webchat-widget-playbook.md",
+        "status": "published_verified",
+        "source_rails_revision": "11731d118e581bb1d67853b1add1f4f495160288",
+        "source_rails_pr": "https://github.com/hellotext/hellotext/pull/6043",
+        "capture_date_utc": "2026-09-30",
+        "capture_route": "dedicated headless Chrome compositor via loopback CDP",
+        "profile": "/private/tmp/hellotext-forms-ui-refresh-headless-9460",
+        "cdp_port": 9460,
+        "browser_pid": 57358,
+        "source_account": "design-system@example.test",
+        "database": "hellotext_editorial_workload_20260928",
+        "business_id": 5,
+        "fixture_webchat": "RbQxgZdE",
+        "fixture_state": "disabled; no workflow; five existing components; unsaved localized greeting; zero delivery actions",
+        "identity_url": "http://127.0.0.1:3192/hellotext/journeys/new",
+        "sources": [
+          {
+            "file": "overview-es.png",
+            "asset": "/images/captures/webchat-widget/preview-follow-up/es/overview.png",
+            "sha256": "0502e7c860a0f81ddc53ac37e5edf74466ad0c146996d84662a2a2b8e81ec53c",
+            "pixelSize": [
+              2432,
+              1726
+            ],
+            "logicalSize": [
+              1216,
+              863
+            ],
+            "clip": [
+              48,
+              121,
+              1216,
+              863
+            ],
+            "url": "http://127.0.0.1:3192/hellotext/playbooks/RbQxgZdE/edit?pp=disable",
+            "title": "Editar misión Widget de Webchat | Hellotext",
+            "locale": "es",
+            "cssViewport": [
+              1280,
+              1000
+            ],
+            "browserDpr": 2,
+            "zoom": 1,
+            "icc": "Display P3",
+            "route": "isolated Chrome compositor via CDP",
+            "state": {
+              "cards": [
+                {
+                  "type": "webchat--appearance",
+                  "text": "Apariencia\n\nPersonaliza la apariencia de tu webchat para que coincida con la marca de tu sitio web.",
+                  "rect": [
+                    64,
+                    137,
+                    256,
+                    272
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--sequence",
+                  "text": "Secuencia inicial\n\nCrea los primeros mensajes que se muestran en una nueva conversación.",
+                  "rect": [
+                    352,
+                    137,
+                    256,
+                    272
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--teaser",
+                  "text": "Teaser\n\nInvita a los clientes a abrir el chat.",
+                  "rect": [
+                    64,
+                    441,
+                    256,
+                    236
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--behaviour",
+                  "text": "Comportamiento\nPredeterminado\n\nControla cuándo y cómo aparece el webchat.",
+                  "rect": [
+                    352,
+                    441,
+                    256,
+                    236
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--handoff",
+                  "text": "Canales\n\nPermite que los clientes continúen la conversación por otro canal.",
+                  "rect": [
+                    64,
+                    709,
+                    256,
+                    220
+                  ],
+                  "visible": true
+                }
+              ],
+              "preview": [
+                868,
+                302,
+                380,
+                600
+              ],
+              "launcher": [
+                1192,
+                912,
+                56,
+                56
+              ]
+            }
+          },
+          {
+            "file": "preview-es.png",
+            "asset": "/images/captures/webchat-widget/preview-follow-up/es/preview.png",
+            "sha256": "9ad90405a4d502c312d2abd2cdd2034911ab3d8b19aae970ffafbf106cb9fb12",
+            "pixelSize": [
+              808,
+              1380
+            ],
+            "logicalSize": [
+              404,
+              690
+            ],
+            "clip": [
+              856,
+              290,
+              404,
+              690
+            ],
+            "url": "http://127.0.0.1:3192/hellotext/playbooks/RbQxgZdE/edit?pp=disable",
+            "title": "Editar misión Widget de Webchat | Hellotext",
+            "locale": "es",
+            "cssViewport": [
+              1280,
+              1000
+            ],
+            "browserDpr": 2,
+            "zoom": 1,
+            "icc": "Display P3",
+            "route": "isolated Chrome compositor via CDP",
+            "state": {
+              "cards": [
+                {
+                  "type": "webchat--appearance",
+                  "text": "Apariencia\n\nPersonaliza la apariencia de tu webchat para que coincida con la marca de tu sitio web.",
+                  "rect": [
+                    64,
+                    137,
+                    256,
+                    272
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--sequence",
+                  "text": "Secuencia inicial\n\nCrea los primeros mensajes que se muestran en una nueva conversación.",
+                  "rect": [
+                    352,
+                    137,
+                    256,
+                    272
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--teaser",
+                  "text": "Teaser\n\nInvita a los clientes a abrir el chat.",
+                  "rect": [
+                    64,
+                    441,
+                    256,
+                    236
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--behaviour",
+                  "text": "Comportamiento\nPredeterminado\n\nControla cuándo y cómo aparece el webchat.",
+                  "rect": [
+                    352,
+                    441,
+                    256,
+                    236
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--handoff",
+                  "text": "Canales\n\nPermite que los clientes continúen la conversación por otro canal.",
+                  "rect": [
+                    64,
+                    709,
+                    256,
+                    220
+                  ],
+                  "visible": true
+                }
+              ],
+              "preview": [
+                868,
+                302,
+                380,
+                600
+              ],
+              "launcher": [
+                1192,
+                912,
+                56,
+                56
+              ]
+            }
+          },
+          {
+            "file": "overview-mobile-es.png",
+            "asset": "/images/captures/webchat-widget/preview-follow-up/es/overview-mobile.png",
+            "sha256": "cd9e36910658ddcdddfed3c0b52622e6b18ecda4e5514c96a6a9373618540444",
+            "pixelSize": [
+              872,
+              1872
+            ],
+            "logicalSize": [
+              436,
+              936
+            ],
+            "clip": [
+              48,
+              121,
+              436,
+              936
+            ],
+            "url": "http://127.0.0.1:3192/hellotext/playbooks/RbQxgZdE/edit?pp=disable",
+            "title": "Editar misión Widget de Webchat | Hellotext",
+            "locale": "es",
+            "cssViewport": [
+              1000,
+              1120
+            ],
+            "browserDpr": 2,
+            "zoom": 1,
+            "icc": "Display P3",
+            "route": "isolated Chrome compositor via CDP",
+            "state": {
+              "cards": [
+                {
+                  "type": "webchat--appearance",
+                  "text": "Apariencia\n\nPersonaliza la apariencia de tu webchat para que coincida con la marca de tu sitio web.",
+                  "rect": [
+                    64,
+                    137,
+                    404,
+                    160
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--sequence",
+                  "text": "Secuencia inicial\n\nCrea los primeros mensajes que se muestran en una nueva conversación.",
+                  "rect": [
+                    64,
+                    321,
+                    404,
+                    160
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--teaser",
+                  "text": "Teaser\n\nInvita a los clientes a abrir el chat.",
+                  "rect": [
+                    64,
+                    505,
+                    404,
+                    160
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--behaviour",
+                  "text": "Comportamiento\nPredeterminado\n\nControla cuándo y cómo aparece el webchat.",
+                  "rect": [
+                    64,
+                    689,
+                    404,
+                    168
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--handoff",
+                  "text": "Canales\n\nPermite que los clientes continúen la conversación por otro canal.",
+                  "rect": [
+                    64,
+                    881,
+                    404,
+                    160
+                  ],
+                  "visible": true
+                }
+              ],
+              "preview": [
+                588,
+                422,
+                380,
+                600
+              ],
+              "launcher": [
+                912,
+                1032,
+                56,
+                56
+              ]
+            }
+          },
+          {
+            "file": "overview-en.png",
+            "asset": "/images/captures/webchat-widget/preview-follow-up/en/overview.png",
+            "sha256": "e8e8a979bdffaadda0d7c66705c9ac049363a6586c505f69b81106fe53dd32fe",
+            "pixelSize": [
+              2432,
+              1726
+            ],
+            "logicalSize": [
+              1216,
+              863
+            ],
+            "clip": [
+              48,
+              121,
+              1216,
+              863
+            ],
+            "url": "http://127.0.0.1:3192/hellotext/playbooks/RbQxgZdE/edit?pp=disable",
+            "title": "Edit Webchat Widget playbook | Hellotext",
+            "locale": "en",
+            "cssViewport": [
+              1280,
+              1000
+            ],
+            "browserDpr": 2,
+            "zoom": 1,
+            "icc": "Display P3",
+            "route": "isolated Chrome compositor via CDP",
+            "state": {
+              "cards": [
+                {
+                  "type": "webchat--appearance",
+                  "text": "Appearance\n\nCustomize the appearance of your webchat to match your website’s branding.",
+                  "rect": [
+                    64,
+                    137,
+                    256,
+                    244
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--sequence",
+                  "text": "Opening sequence\n\nCreate the first messages shown in a new conversation.",
+                  "rect": [
+                    352,
+                    137,
+                    256,
+                    244
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--teaser",
+                  "text": "Teaser\n\nInvite customers to open the chat.",
+                  "rect": [
+                    64,
+                    413,
+                    256,
+                    236
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--behaviour",
+                  "text": "Behavior\nDefault\n\nControl when and how the webchat appears.",
+                  "rect": [
+                    352,
+                    413,
+                    256,
+                    236
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--handoff",
+                  "text": "Channels\n\nLet customers continue the conversation through another channel.",
+                  "rect": [
+                    64,
+                    681,
+                    256,
+                    244
+                  ],
+                  "visible": true
+                }
+              ],
+              "preview": [
+                868,
+                302,
+                380,
+                600
+              ],
+              "launcher": [
+                1192,
+                912,
+                56,
+                56
+              ]
+            }
+          },
+          {
+            "file": "preview-en.png",
+            "asset": "/images/captures/webchat-widget/preview-follow-up/en/preview.png",
+            "sha256": "9bc7e2dd9e3a3584edf7a4582b4b434a4a799a2c54382aa8a3771c3b45c73c51",
+            "pixelSize": [
+              808,
+              1380
+            ],
+            "logicalSize": [
+              404,
+              690
+            ],
+            "clip": [
+              856,
+              290,
+              404,
+              690
+            ],
+            "url": "http://127.0.0.1:3192/hellotext/playbooks/RbQxgZdE/edit?pp=disable",
+            "title": "Edit Webchat Widget playbook | Hellotext",
+            "locale": "en",
+            "cssViewport": [
+              1280,
+              1000
+            ],
+            "browserDpr": 2,
+            "zoom": 1,
+            "icc": "Display P3",
+            "route": "isolated Chrome compositor via CDP",
+            "state": {
+              "cards": [
+                {
+                  "type": "webchat--appearance",
+                  "text": "Appearance\n\nCustomize the appearance of your webchat to match your website’s branding.",
+                  "rect": [
+                    64,
+                    137,
+                    256,
+                    244
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--sequence",
+                  "text": "Opening sequence\n\nCreate the first messages shown in a new conversation.",
+                  "rect": [
+                    352,
+                    137,
+                    256,
+                    244
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--teaser",
+                  "text": "Teaser\n\nInvite customers to open the chat.",
+                  "rect": [
+                    64,
+                    413,
+                    256,
+                    236
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--behaviour",
+                  "text": "Behavior\nDefault\n\nControl when and how the webchat appears.",
+                  "rect": [
+                    352,
+                    413,
+                    256,
+                    236
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--handoff",
+                  "text": "Channels\n\nLet customers continue the conversation through another channel.",
+                  "rect": [
+                    64,
+                    681,
+                    256,
+                    244
+                  ],
+                  "visible": true
+                }
+              ],
+              "preview": [
+                868,
+                302,
+                380,
+                600
+              ],
+              "launcher": [
+                1192,
+                912,
+                56,
+                56
+              ]
+            }
+          },
+          {
+            "file": "overview-mobile-en.png",
+            "asset": "/images/captures/webchat-widget/preview-follow-up/en/overview-mobile.png",
+            "sha256": "4b3d66337bdac7b4876f51a9b384e13220c08332461ed9e826226b04c5e97912",
+            "pixelSize": [
+              872,
+              1872
+            ],
+            "logicalSize": [
+              436,
+              936
+            ],
+            "clip": [
+              48,
+              121,
+              436,
+              936
+            ],
+            "url": "http://127.0.0.1:3192/hellotext/playbooks/RbQxgZdE/edit?pp=disable",
+            "title": "Edit Webchat Widget playbook | Hellotext",
+            "locale": "en",
+            "cssViewport": [
+              1000,
+              1120
+            ],
+            "browserDpr": 2,
+            "zoom": 1,
+            "icc": "Display P3",
+            "route": "isolated Chrome compositor via CDP",
+            "state": {
+              "cards": [
+                {
+                  "type": "webchat--appearance",
+                  "text": "Appearance\n\nCustomize the appearance of your webchat to match your website’s branding.",
+                  "rect": [
+                    64,
+                    137,
+                    404,
+                    160
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--sequence",
+                  "text": "Opening sequence\n\nCreate the first messages shown in a new conversation.",
+                  "rect": [
+                    64,
+                    321,
+                    404,
+                    160
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--teaser",
+                  "text": "Teaser\n\nInvite customers to open the chat.",
+                  "rect": [
+                    64,
+                    505,
+                    404,
+                    160
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--behaviour",
+                  "text": "Behavior\nDefault\n\nControl when and how the webchat appears.",
+                  "rect": [
+                    64,
+                    689,
+                    404,
+                    168
+                  ],
+                  "visible": true
+                },
+                {
+                  "type": "webchat--handoff",
+                  "text": "Channels\n\nLet customers continue the conversation through another channel.",
+                  "rect": [
+                    64,
+                    881,
+                    404,
+                    160
+                  ],
+                  "visible": true
+                }
+              ],
+              "preview": [
+                588,
+                422,
+                380,
+                600
+              ],
+              "launcher": [
+                912,
+                1032,
+                56,
+                56
+              ]
+            }
+          }
+        ],
+        "restored": {
+          "database": "hellotext_editorial_workload_20260928",
+          "business_id": 5,
+          "account": "design-system@example.test",
+          "locale": "es",
+          "business_name": "Enterprise",
+          "contacts": 127,
+          "messageable": 0,
+          "subscribers": 0,
+          "messages": 49,
+          "saved_boosters": 0
+        },
+        "postflight": {
+          "database": "hellotext_editorial_workload_20260928",
+          "account": "design-system@example.test",
+          "business_id": 5,
+          "business_name": "Enterprise",
+          "locale": "es",
+          "webchat": "RbQxgZdE",
+          "enabled": false,
+          "workflow": null,
+          "components": 5,
+          "contacts": 127,
+          "messageable": 0,
+          "subscribed": 0,
+          "messages": 49
+        },
+        "preview_semantics": "The customer bubble and online status are native editor examples. No live customer conversation, sent message, or successful installation is represented.",
+        "responsive_plan": "Overview: full editor composite from 1400 CSS px; through 1399 px, a focus of all five complete cards taken from a real 1000 CSS px desktop layout. Complete preview: one 404 CSS px source serves desktop and mobile without enlargement.",
+        "unchanged_figures": 7,
+        "new_figures_per_locale": 2,
+        "public_verification": "public-verification.json"
+      },
+      "previous_consumer_provenance": "docs/editorial-work/captures/webchat-widget/preview-follow-up/capture-provenance.json",
+      "responsive_plan": "Same approved full desktop preview used at both widths, constrained to native 404 CSS px; not a new mobile UI or duplicated asset.",
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "pixel_sha256": "e43ed8d0dd91cd264db6a17454f8c2e3656a84cfa84c05fe1d9cb0467eb978c0",
+      "icc_description": "Display P3 Gamut with sRGB Transfer",
+      "publication_status": "Approved historical source reused unchanged; this consumer article awaits protected merge and actual public verification."
+    }
+  ],
+  "operations": "All 22 PNGs reused unchanged. No source-app/browser9460 visit, DB/account/locale/fixture/provider/Playground/classifier/message/event/API/example/permission/subscription or delivery-worker operation; no new fixture audit. Historical source actions, guards, routes, versions and limits retained without retroactive guards or counts.",
+  "pending": [
+    "Protected exact-head PR checks/review",
+    "Actual production/public verification"
+  ],
+  "local_verification": "local-verification.json"
+}
