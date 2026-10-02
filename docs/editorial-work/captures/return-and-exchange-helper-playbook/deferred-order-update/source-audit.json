@@ -1,0 +1,1417 @@
+{
+  "inspected_at_utc": "2026-10-02T05:04:58.574941+00:00",
+  "protected_rails_sha": "5403a7dcb567b63cae87d4c088112d65fad4eb7f",
+  "current_master_sha": "ed4b9a87cfba95431f5ffe0987a6413d4d538835",
+  "reused_immutable_audit": "docs/editorial-work/captures/instant-answers-playbook/source-audit.json",
+  "source_files": [
+    {
+      "path": "app/controllers/automation/assignments_controller.rb",
+      "protected_sha256": "b988a81cdcae79eeb69af544179449ca95c271eb17cb05734d4b4a2bd5b7f45b",
+      "current_sha256": "b988a81cdcae79eeb69af544179449ca95c271eb17cb05734d4b4a2bd5b7f45b",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/controllers/automation/assignments_controller.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/controllers/automation/agents_controller.rb",
+      "protected_sha256": "22179a1a23fb3ea44bb798c9f07f23d4499313bc2be0022b2f9d647d9110aa5a",
+      "current_sha256": "22179a1a23fb3ea44bb798c9f07f23d4499313bc2be0022b2f9d647d9110aa5a",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/controllers/automation/agents_controller.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/controllers/journeys_controller.rb",
+      "protected_sha256": "7cc88f2596b81f7755ef9ae49430e60fe8b6e007c91bdf7733ef0ab695216764",
+      "current_sha256": "7cc88f2596b81f7755ef9ae49430e60fe8b6e007c91bdf7733ef0ab695216764",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/controllers/journeys_controller.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/journey_template/factory.rb",
+      "protected_sha256": "4e70059d4b58beed5d3a789bf049a817aec780b8132da9cba0a5c4dff3081f30",
+      "current_sha256": "4e70059d4b58beed5d3a789bf049a817aec780b8132da9cba0a5c4dff3081f30",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/journey_template/factory.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/views/automation/agents/_pane.html.erb",
+      "protected_sha256": "8c63d9e67bbe940c1c8d984ba7a1c86d1e08542ba40fe0ffa65f542276d3e94f",
+      "current_sha256": "8c63d9e67bbe940c1c8d984ba7a1c86d1e08542ba40fe0ffa65f542276d3e94f",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/automation/agents/_pane.html.erb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/views/automation/assignments/_pane.html.erb",
+      "protected_sha256": "2c24f40992cecfdc013a92ec4b0c44661e4e9b0ae53dea9bd6dc090e5e7b4aaa",
+      "current_sha256": "2c24f40992cecfdc013a92ec4b0c44661e4e9b0ae53dea9bd6dc090e5e7b4aaa",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/automation/assignments/_pane.html.erb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/views/automation/assignment_actions/_assignment_action.html.erb",
+      "protected_sha256": "cbfc77edf5e4a9ab8566d53fae703cb2da732bb5ab0589156ae7feffc7895754",
+      "current_sha256": "cbfc77edf5e4a9ab8566d53fae703cb2da732bb5ab0589156ae7feffc7895754",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/automation/assignment_actions/_assignment_action.html.erb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/views/playbook/component/assignments/_form.html.erb",
+      "protected_sha256": "796035fd7888972b730be52c701b0e76b0ab13bf41d7267efe29d96cfc979992",
+      "current_sha256": "796035fd7888972b730be52c701b0e76b0ab13bf41d7267efe29d96cfc979992",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook/component/assignments/_form.html.erb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/views/playbook/component/intents/_form.html.erb",
+      "protected_sha256": "6d713c8b925104c808492b3fcd5688300d07e5bf344d3f0b9818f71a913a4c2f",
+      "current_sha256": "6d713c8b925104c808492b3fcd5688300d07e5bf344d3f0b9818f71a913a4c2f",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook/component/intents/_form.html.erb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook/runner/assignment.rb",
+      "protected_sha256": "faf2405b8c915fb9afbbe3b1863323b186f75415a392f221f38217ce1246ad43",
+      "current_sha256": "bceb8913c95a5bce46a4c9f6693bb91972e5a9e941d8063294153ca8223561a7",
+      "identical": false,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/runner/assignment.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/automation/process/agent.rb",
+      "protected_sha256": "a6c27fdba4130ec46d36e2957cbd06be3a64b25c65423a8f56a90ef5b9bdd9ed",
+      "current_sha256": "a6c27fdba4130ec46d36e2957cbd06be3a64b25c65423a8f56a90ef5b9bdd9ed",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/automation/process/agent.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/automation/agent_action.rb",
+      "protected_sha256": "e1078b988e87ee186e0a8bc0b315b0c7f05d7fe63fd5ef4024977c2a5cb3989e",
+      "current_sha256": "e1078b988e87ee186e0a8bc0b315b0c7f05d7fe63fd5ef4024977c2a5cb3989e",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/automation/agent_action.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/actors/journey/process_step/assignment/assign.rb",
+      "protected_sha256": "c07d59aecfb0c79cf4fc289556bc8d2a99bcd2b0e29f941a8889e7836b5171ff",
+      "current_sha256": "c07d59aecfb0c79cf4fc289556bc8d2a99bcd2b0e29f941a8889e7836b5171ff",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/actors/journey/process_step/assignment/assign.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/conversation/ownership/team_member_pool.rb",
+      "protected_sha256": "68f755d5f4d265da86928100994f51f017557c2ad4c702b450e7fd0b857a44e7",
+      "current_sha256": "68f755d5f4d265da86928100994f51f017557c2ad4c702b450e7fd0b857a44e7",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/conversation/ownership/team_member_pool.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/automation/end_policy/handoff_to_supervisor.rb",
+      "protected_sha256": "95e982b49fe01536010a24b6db8747de6f80cab46a1362841b02389f2c825e30",
+      "current_sha256": "95e982b49fe01536010a24b6db8747de6f80cab46a1362841b02389f2c825e30",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/automation/end_policy/handoff_to_supervisor.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook.rb",
+      "protected_sha256": "14c91253a79dfc925c88c7ab54d76ded0586b682f38ac60d602b8d02b3a106cd",
+      "current_sha256": "14c91253a79dfc925c88c7ab54d76ded0586b682f38ac60d602b8d02b3a106cd",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/supervisor/classifier.rb",
+      "protected_sha256": "8422de81b7f6f893139f1a2704a83e5c0684a4ce54d4a90683d58cfcc412e4f6",
+      "current_sha256": "8422de81b7f6f893139f1a2704a83e5c0684a4ce54d4a90683d58cfcc412e4f6",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/supervisor/classifier.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/javascript/controllers/automation/assignment_pane_controller.js",
+      "protected_sha256": "ad27fcd385c432aaf227a50c8820dc6c69e23d3c79ec8fbda4ca31eb89327f29",
+      "current_sha256": "ad27fcd385c432aaf227a50c8820dc6c69e23d3c79ec8fbda4ca31eb89327f29",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/javascript/controllers/automation/assignment_pane_controller.js",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/javascript/controllers/automation/assignment_action_controller.js",
+      "protected_sha256": "a330ddbfec4c01fea3f8aa2f53eca6e0b8b1fb88b9492a0e7732f5964d530ed6",
+      "current_sha256": "a330ddbfec4c01fea3f8aa2f53eca6e0b8b1fb88b9492a0e7732f5964d530ed6",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/javascript/controllers/automation/assignment_action_controller.js",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/javascript/controllers/automation/agent_pane_controller.js",
+      "protected_sha256": "17aa4b76546da66efdcf6f55120b452e62042a448a7a9cd6aaccdb586eb38b91",
+      "current_sha256": "17aa4b76546da66efdcf6f55120b452e62042a448a7a9cd6aaccdb586eb38b91",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/javascript/controllers/automation/agent_pane_controller.js",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "config/locales/views/automation/es.yml",
+      "protected_sha256": "667e52da8944966360cfa62aca2849cce84d595914313afaf0f428840cacb74e",
+      "current_sha256": "667e52da8944966360cfa62aca2849cce84d595914313afaf0f428840cacb74e",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/config/locales/views/automation/es.yml",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "config/locales/views/automation/en.yml",
+      "protected_sha256": "684a3f379d925316a92ff2ea40cc348847a8c30c68a8a92e6ea31ba2d2d7fa8f",
+      "current_sha256": "684a3f379d925316a92ff2ea40cc348847a8c30c68a8a92e6ea31ba2d2d7fa8f",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/config/locales/views/automation/en.yml",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "config/locales/views/playbooks/es.yml",
+      "protected_sha256": "bd4b4e660d155e67adb09e937b3aaa821b41b4ca7f9f067d1f35af56c96b99fe",
+      "current_sha256": "bd4b4e660d155e67adb09e937b3aaa821b41b4ca7f9f067d1f35af56c96b99fe",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/config/locales/views/playbooks/es.yml",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "config/locales/views/playbooks/en.yml",
+      "protected_sha256": "9e96ab1a1bc517612ec0d3c1f8da22bbb095e5d4f9d4f4d7dcd6a85d986b877c",
+      "current_sha256": "9e96ab1a1bc517612ec0d3c1f8da22bbb095e5d4f9d4f4d7dcd6a85d986b877c",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/config/locales/views/playbooks/en.yml",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/conversation/assignable.rb",
+      "protected_sha256": "68617f1e3c728b7552aff8f3a44483888dd09388d43e02ec048de43b6a327ebe",
+      "current_sha256": "68617f1e3c728b7552aff8f3a44483888dd09388d43e02ec048de43b6a327ebe",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/conversation/assignable.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/conversation/closeable.rb",
+      "protected_sha256": "9f922cf52f36746596af7d437dde9990572ed81f8fb58bf3a0301312e1f7ad49",
+      "current_sha256": "9f922cf52f36746596af7d437dde9990572ed81f8fb58bf3a0301312e1f7ad49",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/conversation/closeable.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/conversation/window.rb",
+      "protected_sha256": "cc0ce95e3ed3d745bcf8a78ce62e7b1f1579e7fa73c4051f35f5e57ff7982ac3",
+      "current_sha256": "cc0ce95e3ed3d745bcf8a78ce62e7b1f1579e7fa73c4051f35f5e57ff7982ac3",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/conversation/window.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/controllers/playbooks_controller.rb",
+      "protected_sha256": "a6ad61417600b5bd45b083f3094da32fddbec158029d703591a993e5e35d7538",
+      "current_sha256": "a6ad61417600b5bd45b083f3094da32fddbec158029d703591a993e5e35d7538",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/controllers/playbooks_controller.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/javascript/controllers/playbook/intent_controller.js",
+      "protected_sha256": "ed6a557d2553ea8c75f7c87543c0e6c2ff007000d1614e5bc7548cb232f57141",
+      "current_sha256": "ed6a557d2553ea8c75f7c87543c0e6c2ff007000d1614e5bc7548cb232f57141",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/javascript/controllers/playbook/intent_controller.js",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/views/playbook/component/intent_items/_intent_item.html.erb",
+      "protected_sha256": "0d42b83d98efd77bc1689501a7c4269e1d2cd586d3face56365bf6d529e38f0c",
+      "current_sha256": "0d42b83d98efd77bc1689501a7c4269e1d2cd586d3face56365bf6d529e38f0c",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook/component/intent_items/_intent_item.html.erb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook/preview.rb",
+      "protected_sha256": "c23bca136cdaade6968eb20dd0483961f1de98b76c606b10fc28207cf10c8510",
+      "current_sha256": "c23bca136cdaade6968eb20dd0483961f1de98b76c606b10fc28207cf10c8510",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/preview.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook/custom.rb",
+      "protected_sha256": "9c250c15f0abeb2ced580300eca12da196c48875b282fdaddd3876bcc249b293",
+      "current_sha256": "9c250c15f0abeb2ced580300eca12da196c48875b282fdaddd3876bcc249b293",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/custom.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/ai/conversation.rb",
+      "protected_sha256": "0f1336cf61f16cbf5989b0ec5ab186a4bc03e993ae6c24f089a0916b63f2e558",
+      "current_sha256": "0f1336cf61f16cbf5989b0ec5ab186a4bc03e993ae6c24f089a0916b63f2e558",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/ai/conversation.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/conversation/ownership/refill_pending_team_assignment.rb",
+      "protected_sha256": "fdc73f0e07f9f3433472e6d71ec0c5de8fe99b217c10432dc31d5336625d55de",
+      "current_sha256": "fdc73f0e07f9f3433472e6d71ec0c5de8fe99b217c10432dc31d5336625d55de",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/conversation/ownership/refill_pending_team_assignment.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/conversation/ownership/refill_awaiting_online_assignment.rb",
+      "protected_sha256": "89039d675d6a2ae820afb43369f18cfad3bad85a9304ab203ed330f1d3c6c09d",
+      "current_sha256": "89039d675d6a2ae820afb43369f18cfad3bad85a9304ab203ed330f1d3c6c09d",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/conversation/ownership/refill_awaiting_online_assignment.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/user.rb",
+      "protected_sha256": "4e608381ee931d8ac1afaa47efabd0e37ac5044aad7054ed57a8fae076b113f4",
+      "current_sha256": "0d82acab9c8fdf8363be646d028b8b9f891a8e0b473a9db34d927f9b6668cc6b",
+      "identical": false,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/user.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/views/journeys/partials/_steps.html.erb",
+      "protected_sha256": "c03e75129c436db72f2d3260ca96be616204d98c8d73b20b6dc4584269d64c21",
+      "current_sha256": "c03e75129c436db72f2d3260ca96be616204d98c8d73b20b6dc4584269d64c21",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/journeys/partials/_steps.html.erb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/automation/workflow.rb",
+      "protected_sha256": "0bfbb9337321a382464d31eb7304e06dc2256f038188952125f94983b1d2e262",
+      "current_sha256": "0bfbb9337321a382464d31eb7304e06dc2256f038188952125f94983b1d2e262",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/automation/workflow.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/contact/reachability_query.rb",
+      "protected_sha256": "01ed1128699969441e7dfed957a1b1542070fe986a71f6c1fc083943c70c486a",
+      "current_sha256": "01ed1128699969441e7dfed957a1b1542070fe986a71f6c1fc083943c70c486a",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/contact/reachability_query.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/contact/audience_query.rb",
+      "protected_sha256": "60f52b8f1c7efdf96838df053f7f45b2afb67b2d078fe8b299ca3380d45abcb6",
+      "current_sha256": "60f52b8f1c7efdf96838df053f7f45b2afb67b2d078fe8b299ca3380d45abcb6",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/contact/audience_query.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/contactable.rb",
+      "protected_sha256": "4ddc08c2581ce693c683634b994cb201b459fca4dc92d33ebb82da2ceccb644f",
+      "current_sha256": "4ddc08c2581ce693c683634b994cb201b459fca4dc92d33ebb82da2ceccb644f",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/contactable.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/channel.rb",
+      "protected_sha256": "77802efe45a261e418006e37903da333ec31448ae62bce427d6689523539d8d4",
+      "current_sha256": "77802efe45a261e418006e37903da333ec31448ae62bce427d6689523539d8d4",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/channel.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/template.rb",
+      "protected_sha256": "5580d861be9d1142c8c2bdf9ef1e1267ca88beffb7028a96c1fc4a088c24f825",
+      "current_sha256": "5580d861be9d1142c8c2bdf9ef1e1267ca88beffb7028a96c1fc4a088c24f825",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/template.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/views/contacts/_details.html.erb",
+      "protected_sha256": "84805264a41e4e1dfa93a301a8d5f24e82742358faa32a66b0fa21a4eef37fb8",
+      "current_sha256": "8205ec4eca3b311b4cd6f7bb6c6cc2cb9eae58b37bfba810ab6fe2d91aa06950",
+      "identical": false,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/contacts/_details.html.erb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/track/action/custom.rb",
+      "protected_sha256": "facdf51b3d9f3fd332d9587da2bd82cc54d1406ce4f2ba37d2baa01ae858f9d1",
+      "current_sha256": "facdf51b3d9f3fd332d9587da2bd82cc54d1406ce4f2ba37d2baa01ae858f9d1",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/track/action/custom.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/track/event.rb",
+      "protected_sha256": "39e1345fd2d4f7a8fcb9ba144d80ee1e5afb3b61a0bed34fc60cc6c43e2ae99e",
+      "current_sha256": "48bb0933847d45766e15fdf786951cf071faf6e9409544344ddec01c05583abe",
+      "identical": false,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/track/event.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/track/event/runner.rb",
+      "protected_sha256": "4a3cda3a04ce62c9ff24b2bd31b5c8f212383c792a3fad12e3b8261ab6c0e0f2",
+      "current_sha256": "4a3cda3a04ce62c9ff24b2bd31b5c8f212383c792a3fad12e3b8261ab6c0e0f2",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/track/event/runner.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/track/event/post_creation_runner.rb",
+      "protected_sha256": "fd4820b573703a20a394b80845a2cfe41beee8d15fc07eebaa9e9c87a265b5e1",
+      "current_sha256": "05fca71b3f339e5aa85b75099073b6d12a3e13afbd980ddc841c987ed9a6e186",
+      "identical": false,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/track/event/post_creation_runner.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/controllers/settings/actions_controller.rb",
+      "protected_sha256": "3bd0c428a5281da03b97438e5b4f25825ebe6fd2c236c08bd41386eedd10b463",
+      "current_sha256": "3bd0c428a5281da03b97438e5b4f25825ebe6fd2c236c08bd41386eedd10b463",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/controllers/settings/actions_controller.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/views/settings/actions/index.html.erb",
+      "protected_sha256": "ecbdf8322f693eaacafe15c993c590a49356d84cc0a374d38a0a38bd5a35c470",
+      "current_sha256": "ecbdf8322f693eaacafe15c993c590a49356d84cc0a374d38a0a38bd5a35c470",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/settings/actions/index.html.erb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/cg/admission/runner.rb",
+      "protected_sha256": "d3d08b22d3da7a0ae104f41c95a6694dc155d6b5da68f6ae9db205c83335d3ba",
+      "current_sha256": "d3d08b22d3da7a0ae104f41c95a6694dc155d6b5da68f6ae9db205c83335d3ba",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/admission/runner.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/cg/admission/playbook_frequency.rb",
+      "protected_sha256": "dbe2a5f538be002f1f2e5cbbede63434893fdaed323e38ef137a9e47013b86b6",
+      "current_sha256": "dbe2a5f538be002f1f2e5cbbede63434893fdaed323e38ef137a9e47013b86b6",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/admission/playbook_frequency.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/cg/admission/contact_frequency.rb",
+      "protected_sha256": "f97632d8812eb01a0b3067862f76291f8051cd7e0608df5a3ad1bac1ab4e9d32",
+      "current_sha256": "f97632d8812eb01a0b3067862f76291f8051cd7e0608df5a3ad1bac1ab4e9d32",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/admission/contact_frequency.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/cg/admission/recent_purchase.rb",
+      "protected_sha256": "dc3296014934b470ab1a54868ea37d8c6176f8c2b424057abb3c37d62aa13bfa",
+      "current_sha256": "dc3296014934b470ab1a54868ea37d8c6176f8c2b424057abb3c37d62aa13bfa",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/admission/recent_purchase.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/cg/runtime/runner.rb",
+      "protected_sha256": "368d9505dda50e0fe3424ae7b192990892dbecb158b42ab8fba405237447e235",
+      "current_sha256": "368d9505dda50e0fe3424ae7b192990892dbecb158b42ab8fba405237447e235",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/runtime/runner.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/cg/runtime/runner/evaluation.rb",
+      "protected_sha256": "522a8f373eb9db17e65f04340ec7f0d42544bff34a761fe54ab6edbf7a52eb9e",
+      "current_sha256": "522a8f373eb9db17e65f04340ec7f0d42544bff34a761fe54ab6edbf7a52eb9e",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/runtime/runner/evaluation.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/cg/runtime/runner/routing.rb",
+      "protected_sha256": "e1af3cff867c5c2a9f4544d8fcd74cb59ce014d260560bb3b7ec525c05a615d2",
+      "current_sha256": "e1af3cff867c5c2a9f4544d8fcd74cb59ce014d260560bb3b7ec525c05a615d2",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/runtime/runner/routing.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/cg/runtime/runner/scheduling.rb",
+      "protected_sha256": "910ba36932444ec51d8e48a38ddc0f4eee64a66f5f6fc9d5fbd1cb47593eb425",
+      "current_sha256": "910ba36932444ec51d8e48a38ddc0f4eee64a66f5f6fc9d5fbd1cb47593eb425",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/runtime/runner/scheduling.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/cg/runtime/runner/materialization.rb",
+      "protected_sha256": "293fede60ded12dca6e0692ad5a707c2f94f7a82019bd0595a6f9d5dbaa2b301",
+      "current_sha256": "293fede60ded12dca6e0692ad5a707c2f94f7a82019bd0595a6f9d5dbaa2b301",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/runtime/runner/materialization.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/cg/runtime/send_guard.rb",
+      "protected_sha256": "acd7023e5227b3858105089d26fbe42ded7d1da4bc510e216da6450646c18467",
+      "current_sha256": "acd7023e5227b3858105089d26fbe42ded7d1da4bc510e216da6450646c18467",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/runtime/send_guard.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/cg/compliance/communication_window/runner.rb",
+      "protected_sha256": "34c1587bd023942a1337b88a64bcbb7512a15ccf5254ff68b481ff48001ea669",
+      "current_sha256": "34c1587bd023942a1337b88a64bcbb7512a15ccf5254ff68b481ff48001ea669",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/compliance/communication_window/runner.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/business/night_hours.rb",
+      "protected_sha256": "cbe147013a579e3814d9fb21ebe4a5a9920c7a647765de3c36a05652f2be1d87",
+      "current_sha256": "cbe147013a579e3814d9fb21ebe4a5a9920c7a647765de3c36a05652f2be1d87",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/business/night_hours.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/business/message_limits.rb",
+      "protected_sha256": "d7b089ffae808e5db9fb0afc10423419dfbcb5d1e510d5305ddfc6bb6ba73b7b",
+      "current_sha256": "d7b089ffae808e5db9fb0afc10423419dfbcb5d1e510d5305ddfc6bb6ba73b7b",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/business/message_limits.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/message/delivery_channel_resolver.rb",
+      "protected_sha256": "2834f8f7b3d6bb8d5b28654171ee7c2c8fae19458b1699ac28a3f34b183a15f1",
+      "current_sha256": "2834f8f7b3d6bb8d5b28654171ee7c2c8fae19458b1699ac28a3f34b183a15f1",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/message/delivery_channel_resolver.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/message/deliverer.rb",
+      "protected_sha256": "41c9fde98bc5b5afc2c1e17585f510c55e48b4bd41d0d558144e9c16e280cdf4",
+      "current_sha256": "41c9fde98bc5b5afc2c1e17585f510c55e48b4bd41d0d558144e9c16e280cdf4",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/message/deliverer.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/message/stateful.rb",
+      "protected_sha256": "ea45d7f56db7508423563724c00bf1c06e7af52de29a27f1e68268fd12a0da34",
+      "current_sha256": "b56a4f840155f3beabbc656662c6e668a4ac8b55400b419d02e375692953de2e",
+      "identical": false,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/message/stateful.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/message/delivery_failure.rb",
+      "protected_sha256": "210568950f64bdb004d1668f432bb7acd5300724fac44bf2dd8a331a8c4ab436",
+      "current_sha256": "210568950f64bdb004d1668f432bb7acd5300724fac44bf2dd8a331a8c4ab436",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/message/delivery_failure.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/compliance/reputation.rb",
+      "protected_sha256": "da61020edf11adca63a36c761cf12d009c7f8fac958a92387151e92cb7b64784",
+      "current_sha256": "da61020edf11adca63a36c761cf12d009c7f8fac958a92387151e92cb7b64784",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/compliance/reputation.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/message/scanner.rb",
+      "protected_sha256": "685f349a4319a5ebddc11334b5ae5610fb3fc08c8b1e02d0204c6a5619c6e443",
+      "current_sha256": "b4eed0b3a59e0728eb14dbb90855f27c5a9b48a4b2baea9c81db2f6e85e9543b",
+      "identical": false,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/message/scanner.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/cg/sto/runner.rb",
+      "protected_sha256": "037dc2475e156ff155169a65d6b476af5c2c868a6372a56282a5f6f542eeee72",
+      "current_sha256": "037dc2475e156ff155169a65d6b476af5c2c868a6372a56282a5f6f542eeee72",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/sto/runner.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/cg/sto/horizon.rb",
+      "protected_sha256": "55aaf7266fcbae3d03f2c329d688bd1c731dc1b7be5c75c0d9eb402f3905a477",
+      "current_sha256": "55aaf7266fcbae3d03f2c329d688bd1c731dc1b7be5c75c0d9eb402f3905a477",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/sto/horizon.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/cg/sto/contact_pacing.rb",
+      "protected_sha256": "b95d7712bda2c914e50b7ba3404818dcb44563b5356b3b0f2cf727720690cfb1",
+      "current_sha256": "b95d7712bda2c914e50b7ba3404818dcb44563b5356b3b0f2cf727720690cfb1",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/sto/contact_pacing.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/cg/sto/annotation.rb",
+      "protected_sha256": "072be70f04c4c80ca0241b4a04aba96f60ac7cd98baf46f0c85fdcd7e407519b",
+      "current_sha256": "072be70f04c4c80ca0241b4a04aba96f60ac7cd98baf46f0c85fdcd7e407519b",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/sto/annotation.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/cg/composer/engine/eligibility.rb",
+      "protected_sha256": "aa76427915498794bced5d34f874edb0f034de36aaa21e99eddbf57f470d370c",
+      "current_sha256": "aa76427915498794bced5d34f874edb0f034de36aaa21e99eddbf57f470d370c",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/composer/engine/eligibility.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook/intent.rb",
+      "protected_sha256": "37eaeece19f0f4ebb66d6393cc61cc3ee8443df8667a1538ebed91ffe29fd68e",
+      "current_sha256": "37eaeece19f0f4ebb66d6393cc61cc3ee8443df8667a1538ebed91ffe29fd68e",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/intent.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook/component/channel.rb",
+      "protected_sha256": "029179339af82e512e009478cbe3878826849a0e18a19d1c7ea22e853e19b6ae",
+      "current_sha256": "029179339af82e512e009478cbe3878826849a0e18a19d1c7ea22e853e19b6ae",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/component/channel.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/cg/sto/ranking.rb",
+      "protected_sha256": "734a3c64adcef3bffcf9f6562565762db006d5592ccff8ca48f0f3ccb0da1b5a",
+      "current_sha256": "734a3c64adcef3bffcf9f6562565762db006d5592ccff8ca48f0f3ccb0da1b5a",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/cg/sto/ranking.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/controllers/playbook/components_controller.rb",
+      "protected_sha256": "7e8172a984635abc1ca5ce0aa7ddd317dc8605ba5ec36cbe6b6499f0169155ac",
+      "current_sha256": "7e8172a984635abc1ca5ce0aa7ddd317dc8605ba5ec36cbe6b6499f0169155ac",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/controllers/playbook/components_controller.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/controllers/concerns/playbook/component_params.rb",
+      "protected_sha256": "873ef4061f7c3eba1ff3533c9e5afcaec2d7e255061bffdb44ebaa3f74c7e47d",
+      "current_sha256": "873ef4061f7c3eba1ff3533c9e5afcaec2d7e255061bffdb44ebaa3f74c7e47d",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/controllers/concerns/playbook/component_params.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/javascript/controllers/playbook_controller.js",
+      "protected_sha256": "1f566d5a88ddf6182781bc5327b65457804e42a04b33e2ef54a155ee7a2b25da",
+      "current_sha256": "1f566d5a88ddf6182781bc5327b65457804e42a04b33e2ef54a155ee7a2b25da",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/javascript/controllers/playbook_controller.js",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/javascript/controllers/playbook/component_controller.js",
+      "protected_sha256": "6e8becb4b16eb37398c33841e13a746c01f09628d52339c3fbdffce8f4f77bf3",
+      "current_sha256": "6e8becb4b16eb37398c33841e13a746c01f09628d52339c3fbdffce8f4f77bf3",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/javascript/controllers/playbook/component_controller.js",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/javascript/controllers/playbook/prompt_controller.js",
+      "protected_sha256": "73bcfeb374e91be65acc8bf4e2fc82a954ed0a1ee1675ce97b1c782b8e7ad24b",
+      "current_sha256": "73bcfeb374e91be65acc8bf4e2fc82a954ed0a1ee1675ce97b1c782b8e7ad24b",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/javascript/controllers/playbook/prompt_controller.js",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/javascript/controllers/playbook/upload_controller.js",
+      "protected_sha256": "fa00dc42022bc40434b0594dbb3acc656168b3e10ee5b56b1681c708a3a9ced9",
+      "current_sha256": "fa00dc42022bc40434b0594dbb3acc656168b3e10ee5b56b1681c708a3a9ced9",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/javascript/controllers/playbook/upload_controller.js",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/javascript/controllers/playbook/web_search_controller.js",
+      "protected_sha256": "844336c98d13490a3767f95b2b420d9d734461ab913ba585c76f400f7d3d2f7e",
+      "current_sha256": "844336c98d13490a3767f95b2b420d9d734461ab913ba585c76f400f7d3d2f7e",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/javascript/controllers/playbook/web_search_controller.js",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/javascript/controllers/automation/agent_domains_controller.js",
+      "protected_sha256": "69da60983941d7e474ab8c9e0f6aa0f31044c64c1cc8fb734558cb0c7a5cb5ca",
+      "current_sha256": "69da60983941d7e474ab8c9e0f6aa0f31044c64c1cc8fb734558cb0c7a5cb5ca",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/javascript/controllers/automation/agent_domains_controller.js",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/javascript/controllers/playbook/form_controller.js",
+      "protected_sha256": "4a06123c6ac02aea769a4fc0026f47e316cd52a6afc0a04b0e5a8c89f95f15a7",
+      "current_sha256": "4a06123c6ac02aea769a4fc0026f47e316cd52a6afc0a04b0e5a8c89f95f15a7",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/javascript/controllers/playbook/form_controller.js",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/javascript/controllers/playbook/playground_controller.js",
+      "protected_sha256": "da60d543cc7ac6e62628f45bb108298ad1fa13fe5821da2470715c467dc8e9bc",
+      "current_sha256": "da60d543cc7ac6e62628f45bb108298ad1fa13fe5821da2470715c467dc8e9bc",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/javascript/controllers/playbook/playground_controller.js",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook/saver.rb",
+      "protected_sha256": "dbc39b78cd975fdc86bb9d2e21e3b7ae29d5b24104436ac7da247beb5b8e448a",
+      "current_sha256": "dbc39b78cd975fdc86bb9d2e21e3b7ae29d5b24104436ac7da247beb5b8e448a",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/saver.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook/saver/prompt.rb",
+      "protected_sha256": "afdb4ba5e17da2db77363f6b2c830f7a69b9f5bc06f25b833d24b81296f6678b",
+      "current_sha256": "afdb4ba5e17da2db77363f6b2c830f7a69b9f5bc06f25b833d24b81296f6678b",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/saver/prompt.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook/saver/upload.rb",
+      "protected_sha256": "5161281934a09778ef32e5c8383af3340ebd33ed48111aac0821691ae2635258",
+      "current_sha256": "5161281934a09778ef32e5c8383af3340ebd33ed48111aac0821691ae2635258",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/saver/upload.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook/saver/web_search.rb",
+      "protected_sha256": "33cfd43c76abe5048a0e328c23899c9563f127ff2241acff568a9a35c7ae9a33",
+      "current_sha256": "33cfd43c76abe5048a0e328c23899c9563f127ff2241acff568a9a35c7ae9a33",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/saver/web_search.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook/saver/tone.rb",
+      "protected_sha256": "58e46dd14f831aee0e067ae81dea2bfabf3a0e98472f05fb166ce1e7c499608d",
+      "current_sha256": "58e46dd14f831aee0e067ae81dea2bfabf3a0e98472f05fb166ce1e7c499608d",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/saver/tone.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook/saver/discount.rb",
+      "protected_sha256": "8c7fae0046c2697a019a9db3f23c3561dfea68cb5138d48a102281e1a42597aa",
+      "current_sha256": "8c7fae0046c2697a019a9db3f23c3561dfea68cb5138d48a102281e1a42597aa",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/saver/discount.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook/saver/property_collection.rb",
+      "protected_sha256": "6c96000ff6e0b48243c0f7a29fd499e23f26f16d569b7cb4238c55bc8ebd67a6",
+      "current_sha256": "6c96000ff6e0b48243c0f7a29fd499e23f26f16d569b7cb4238c55bc8ebd67a6",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/saver/property_collection.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook/component/prompt.rb",
+      "protected_sha256": "651024d4dcbee5156a6d903d3208c40c0d80541b21f17496969fb41a0e9552be",
+      "current_sha256": "651024d4dcbee5156a6d903d3208c40c0d80541b21f17496969fb41a0e9552be",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/component/prompt.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook/component/upload.rb",
+      "protected_sha256": "63ac69529104a0edec73918f773109fbb7754a5f11999ba3832427a911fffac2",
+      "current_sha256": "63ac69529104a0edec73918f773109fbb7754a5f11999ba3832427a911fffac2",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/component/upload.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook/component/upload_file.rb",
+      "protected_sha256": "800e47ec94e8c28aa1e5699af41398b49ac09e8c52f094d930963c92823394c8",
+      "current_sha256": "800e47ec94e8c28aa1e5699af41398b49ac09e8c52f094d930963c92823394c8",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/component/upload_file.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook/component/web_search.rb",
+      "protected_sha256": "e04e92c53887554a62a0d08032277a93befba2c0e7a9acb65ca482f54590cc3a",
+      "current_sha256": "e04e92c53887554a62a0d08032277a93befba2c0e7a9acb65ca482f54590cc3a",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/component/web_search.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook/component/property_collection.rb",
+      "protected_sha256": "a26ce75c851370c5630acc8ea93402586aca9acba66cfb73e2a8709ca654c35f",
+      "current_sha256": "a26ce75c851370c5630acc8ea93402586aca9acba66cfb73e2a8709ca654c35f",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/component/property_collection.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook/component/discount.rb",
+      "protected_sha256": "26db3bf7bba82a30f63d84ea0905133f24c52a34cec037879ced4d92a8e69957",
+      "current_sha256": "26db3bf7bba82a30f63d84ea0905133f24c52a34cec037879ced4d92a8e69957",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/component/discount.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook/component/access.rb",
+      "protected_sha256": "958475d69045296d950d41a96f460868bd30a4c980e4d99a7c409c855fea137e",
+      "current_sha256": "958475d69045296d950d41a96f460868bd30a4c980e4d99a7c409c855fea137e",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/component/access.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/concerns/playbook/component/composable.rb",
+      "protected_sha256": "f689a1160ca7dcd6e2744bcb708b410837b132e59ea2fe6829b1a8bce8ebac64",
+      "current_sha256": "f689a1160ca7dcd6e2744bcb708b410837b132e59ea2fe6829b1a8bce8ebac64",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/concerns/playbook/component/composable.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook/persona.rb",
+      "protected_sha256": "2a9888df1520e926c0aa8ec14802ea130c95ebb79c4aa851758c2e92b46adda2",
+      "current_sha256": "2a9888df1520e926c0aa8ec14802ea130c95ebb79c4aa851758c2e92b46adda2",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/persona.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook/persona_tone.rb",
+      "protected_sha256": "e71ac168fa3cfd037d0a4c4fce3fedc2f4f827b22509acdf918a2455c9071b1c",
+      "current_sha256": "e71ac168fa3cfd037d0a4c4fce3fedc2f4f827b22509acdf918a2455c9071b1c",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/persona_tone.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/policies/playbook_policy.rb",
+      "protected_sha256": "142f231b5cedb9d8e63e035f647fbccb59ab424974cd8f31ff78cb9858a3a7cf",
+      "current_sha256": "142f231b5cedb9d8e63e035f647fbccb59ab424974cd8f31ff78cb9858a3a7cf",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/policies/playbook_policy.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/jobs/playbook/component/upload_attachments_to_openai_job.rb",
+      "protected_sha256": "d4b25aa614bef9317d5f05a5ead6ea3ef068881920fd082dc4df25a2b0332500",
+      "current_sha256": "d4b25aa614bef9317d5f05a5ead6ea3ef068881920fd082dc4df25a2b0332500",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/jobs/playbook/component/upload_attachments_to_openai_job.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/views/playbooks/new.html.erb",
+      "protected_sha256": "65470bc265242a81d34ecb4776343492bc15ec28ddc759527f39a8f4bdc1d7f6",
+      "current_sha256": "65470bc265242a81d34ecb4776343492bc15ec28ddc759527f39a8f4bdc1d7f6",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbooks/new.html.erb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/views/playbooks/edit.html.erb",
+      "protected_sha256": "65470bc265242a81d34ecb4776343492bc15ec28ddc759527f39a8f4bdc1d7f6",
+      "current_sha256": "65470bc265242a81d34ecb4776343492bc15ec28ddc759527f39a8f4bdc1d7f6",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbooks/edit.html.erb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/views/playbooks/_form.html.erb",
+      "protected_sha256": "0d18a5bbffd043b4669b705d6d5ba168dc14f68c6ee22527e63f509c8587e85b",
+      "current_sha256": "0d18a5bbffd043b4669b705d6d5ba168dc14f68c6ee22527e63f509c8587e85b",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbooks/_form.html.erb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/views/playbook_components/_playbook_component.html.erb",
+      "protected_sha256": "21955c956a6a5e5cf0667121eadf25567430a8f994bf523a515ae74d8aec313f",
+      "current_sha256": "21955c956a6a5e5cf0667121eadf25567430a8f994bf523a515ae74d8aec313f",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook_components/_playbook_component.html.erb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/views/playbook/component/prompts/_prompt.html.erb",
+      "protected_sha256": "36b65f1a9417499fc15a6d110e08cff39fccedd09a218b821165de3084ae3bd3",
+      "current_sha256": "36b65f1a9417499fc15a6d110e08cff39fccedd09a218b821165de3084ae3bd3",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook/component/prompts/_prompt.html.erb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/views/playbook/component/prompts/_form.html.erb",
+      "protected_sha256": "54acde051632f6ca6c3805e55c9aa2fcc304fb210d91d082f8616c391500a315",
+      "current_sha256": "54acde051632f6ca6c3805e55c9aa2fcc304fb210d91d082f8616c391500a315",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook/component/prompts/_form.html.erb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/views/playbook/component/uploads/_upload.html.erb",
+      "protected_sha256": "26a5ce7e0c7d2cdc270d8eb70b21d75961be170313df2d4cba1044752562de14",
+      "current_sha256": "26a5ce7e0c7d2cdc270d8eb70b21d75961be170313df2d4cba1044752562de14",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook/component/uploads/_upload.html.erb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/views/playbook/component/uploads/_form.html.erb",
+      "protected_sha256": "509d60efd774bef6a3384c76fa6fe3866f44904e565484cfe8df7b516ed6239a",
+      "current_sha256": "509d60efd774bef6a3384c76fa6fe3866f44904e565484cfe8df7b516ed6239a",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook/component/uploads/_form.html.erb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/views/playbook/component/web_searches/_form.html.erb",
+      "protected_sha256": "8fa2da4217c8c6e59c5ca224e87c808e999e0ad408ae3229b07c53c7957ddf3e",
+      "current_sha256": "8fa2da4217c8c6e59c5ca224e87c808e999e0ad408ae3229b07c53c7957ddf3e",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook/component/web_searches/_form.html.erb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/views/playbook/component/web_searches/_web_search.html.erb",
+      "protected_sha256": "f96db24d5ce1ede58f3f1bbb785952b0694520275dadd28bcad14fb711f63deb",
+      "current_sha256": "f96db24d5ce1ede58f3f1bbb785952b0694520275dadd28bcad14fb711f63deb",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook/component/web_searches/_web_search.html.erb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/views/playbook/previews/_chat.html.erb",
+      "protected_sha256": "943936bf412a7382b0f36c01741f5100a2875ac87bbfc335664232f7af0c2514",
+      "current_sha256": "943936bf412a7382b0f36c01741f5100a2875ac87bbfc335664232f7af0c2514",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook/previews/_chat.html.erb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/views/playbook/component/tones/_form.html.erb",
+      "protected_sha256": "41d3676610285f484a05f699538ed717af6c574ed15ad0e59dbeeba9791da182",
+      "current_sha256": "41d3676610285f484a05f699538ed717af6c574ed15ad0e59dbeeba9791da182",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook/component/tones/_form.html.erb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/views/playbook/component/discounts/_form.html.erb",
+      "protected_sha256": "9332e2cae12c802a03e6c6cee48f9184263afa847d6841c661759ae333be9d4d",
+      "current_sha256": "9332e2cae12c802a03e6c6cee48f9184263afa847d6841c661759ae333be9d4d",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook/component/discounts/_form.html.erb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/views/playbook/component/channels/_form.html.erb",
+      "protected_sha256": "77365e1727617c2fd93184dfb6ee089d53645648c494f4926a8e87d02f11bdc5",
+      "current_sha256": "77365e1727617c2fd93184dfb6ee089d53645648c494f4926a8e87d02f11bdc5",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook/component/channels/_form.html.erb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/ai/context.rb",
+      "protected_sha256": "3790ea2df2e8b2479393e12a7caee910d4028b37726ed00e31027eb13e6d154c",
+      "current_sha256": "3790ea2df2e8b2479393e12a7caee910d4028b37726ed00e31027eb13e6d154c",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/ai/context.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/integrations/ai/openai/function.rb",
+      "protected_sha256": "3c69c0cd492c8ccf3695e3ae00c94cc723a0c523ac28bd41d750488920611060",
+      "current_sha256": "3c69c0cd492c8ccf3695e3ae00c94cc723a0c523ac28bd41d750488920611060",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/integrations/ai/openai/function.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/integrations/ai/openai/client/response.rb",
+      "protected_sha256": "fb676035496b28c989f755a36c48d3d429cf155eab7020ae58c76e7802e8237d",
+      "current_sha256": "fb676035496b28c989f755a36c48d3d429cf155eab7020ae58c76e7802e8237d",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/integrations/ai/openai/client/response.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook/tone.rb",
+      "protected_sha256": "c1ff72da7418b65aea3b8ed7effc0b87d156caf4b1c5bb0645097c853721c468",
+      "current_sha256": "c1ff72da7418b65aea3b8ed7effc0b87d156caf4b1c5bb0645097c853721c468",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/tone.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook/subscriber_booster/discount_generation.rb",
+      "protected_sha256": "8c3046ee53bf333c551b5314234fed03e07733982e9b475634405d1be1e36cab",
+      "current_sha256": "8c3046ee53bf333c551b5314234fed03e07733982e9b475634405d1be1e36cab",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/subscriber_booster/discount_generation.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook/playground/conversation.rb",
+      "protected_sha256": "2bfd8eb73f7707af567b4fa9c786b96101e4005fad9313074c721dfb1c928ac5",
+      "current_sha256": "2bfd8eb73f7707af567b4fa9c786b96101e4005fad9313074c721dfb1c928ac5",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/playground/conversation.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook/agent.rb",
+      "protected_sha256": "2bb89f47207d7565d25d09d33a1ddb1f2f1c5ee313d1c40ab4d4d272e53980f1",
+      "current_sha256": "2bb89f47207d7565d25d09d33a1ddb1f2f1c5ee313d1c40ab4d4d272e53980f1",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/agent.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/ai/agent_prompt.rb",
+      "protected_sha256": "0e4f648eea3de7f0d566e1aec6bfe66333d176feadb219eb87d742673a189254",
+      "current_sha256": "0e4f648eea3de7f0d566e1aec6bfe66333d176feadb219eb87d742673a189254",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/ai/agent_prompt.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook_component.rb",
+      "protected_sha256": "d3f68c3ebb8d6886b2fb4e91861242f71d442f06a90e903570056001d70f31ea",
+      "current_sha256": "d3f68c3ebb8d6886b2fb4e91861242f71d442f06a90e903570056001d70f31ea",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook_component.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/integrations/ai/openai/function/search_products.rb",
+      "protected_sha256": "25d3ce62cfe30ace630aee058eb25f1d549850f81d3a10ae62df08e8d5b4b277",
+      "current_sha256": "25d3ce62cfe30ace630aee058eb25f1d549850f81d3a10ae62df08e8d5b4b277",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/integrations/ai/openai/function/search_products.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/integrations/ai/openai/function/request_property_collection.rb",
+      "protected_sha256": "5d9e5cef89da85147fe123450d7e1fd5c344f7b04d6b0fbe191da98a37182ca9",
+      "current_sha256": "8002201479d4e2981a6cf789cc38bde36c227462dc29ec9ff3d3318efc4d7a9e",
+      "identical": false,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/integrations/ai/openai/function/request_property_collection.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/integrations/ai/openai/function/add_to_property.rb",
+      "protected_sha256": "55617b16a056b5c2f8e49fa7668960ab34c7b84df9cee59d6b00fc97a8b3dc08",
+      "current_sha256": "55617b16a056b5c2f8e49fa7668960ab34c7b84df9cee59d6b00fc97a8b3dc08",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/integrations/ai/openai/function/add_to_property.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/integrations/ai/openai/function/escalate.rb",
+      "protected_sha256": "5b6d1ec567c3bbebea0c3b6ec48da39cb217d2622317eae1ef540cc96999dc46",
+      "current_sha256": "5b6d1ec567c3bbebea0c3b6ec48da39cb217d2622317eae1ef540cc96999dc46",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/integrations/ai/openai/function/escalate.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/integrations/ai/openai/client/supervisor.rb",
+      "protected_sha256": "7bf3cea45a7b6a875cd0d7bf19403e1ade1e53cf8ab5ba54723b3e904240d408",
+      "current_sha256": "7bf3cea45a7b6a875cd0d7bf19403e1ade1e53cf8ab5ba54723b3e904240d408",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/integrations/ai/openai/client/supervisor.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/integrations/ai/openai/client/guardrail.rb",
+      "protected_sha256": "bf9ced7b4377ca1a1f8228af8dc9a8a3c29efcd163f83532ba470119e950439a",
+      "current_sha256": "bf9ced7b4377ca1a1f8228af8dc9a8a3c29efcd163f83532ba470119e950439a",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/integrations/ai/openai/client/guardrail.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook/saver/channel.rb",
+      "protected_sha256": "2f4f628d1ec326468e35eb0fc3d84eb4148ee0c36a90a60be5b27a78894e985c",
+      "current_sha256": "2f4f628d1ec326468e35eb0fc3d84eb4148ee0c36a90a60be5b27a78894e985c",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/saver/channel.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook/saver/intent.rb",
+      "protected_sha256": "388704c7fe18f72fa124886a21e888eafde5e1a8c88550aed11f8c650f791683",
+      "current_sha256": "388704c7fe18f72fa124886a21e888eafde5e1a8c88550aed11f8c650f791683",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/saver/intent.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook/saver/assignment.rb",
+      "protected_sha256": "a5e697de449144f209a9e6227da45c7e8acb226d8ab38d6f526a244a0cde0823",
+      "current_sha256": "a5e697de449144f209a9e6227da45c7e8acb226d8ab38d6f526a244a0cde0823",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/saver/assignment.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook/component/intent.rb",
+      "protected_sha256": "4fa4401a1677c12dab79b0539c3b99c1ee35958ddeef8571465e3c40d905ade8",
+      "current_sha256": "4fa4401a1677c12dab79b0539c3b99c1ee35958ddeef8571465e3c40d905ade8",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/component/intent.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook/component/intent_item.rb",
+      "protected_sha256": "86e07ecf9d2bf685b6b7822b7d43312d7138607412c32d0ce0bbd6962ddde613",
+      "current_sha256": "86e07ecf9d2bf685b6b7822b7d43312d7138607412c32d0ce0bbd6962ddde613",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/component/intent_item.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook/playground.rb",
+      "protected_sha256": "3503aca11aab2479b3b0269c4107d2007b555b212ed5eb14fecc4310996ee52b",
+      "current_sha256": "3503aca11aab2479b3b0269c4107d2007b555b212ed5eb14fecc4310996ee52b",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/playground.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook/playground/runner.rb",
+      "protected_sha256": "69557bc857a1e9f49787617a96169f267025a25d4689463f14ae257344d1a06f",
+      "current_sha256": "71bbe5b78ab89a440f74c5aa3e0ed7bff1dd17ecc3d94432af77e4fd23fe9bed",
+      "identical": false,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/playground/runner.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook/playground/escalation.rb",
+      "protected_sha256": "86f3f30273cb752c8d7be832d93dd41490d02eaec4c345966e9a8a7ab13f7b21",
+      "current_sha256": "86f3f30273cb752c8d7be832d93dd41490d02eaec4c345966e9a8a7ab13f7b21",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/playground/escalation.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook/playground/property_collection.rb",
+      "protected_sha256": "c4cbfd80a1d78cd6c89871cc4b3484ee46d6e986da2be2f464f076185178d0d0",
+      "current_sha256": "c4cbfd80a1d78cd6c89871cc4b3484ee46d6e986da2be2f464f076185178d0d0",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/playground/property_collection.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook/playground/response.rb",
+      "protected_sha256": "e0cd41c2661d363555871a7c919f3874b9254fba5aa5128f38d3439591086c96",
+      "current_sha256": "e0cd41c2661d363555871a7c919f3874b9254fba5aa5128f38d3439591086c96",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/playground/response.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/views/playbook/component/channels/_channel.html.erb",
+      "protected_sha256": "8f5d32437d55c59737465fbd1aeb7522a6782ff037d7e690dd4c77ba1760d43d",
+      "current_sha256": "8f5d32437d55c59737465fbd1aeb7522a6782ff037d7e690dd4c77ba1760d43d",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook/component/channels/_channel.html.erb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/views/playbook/component/assignments/_assignment.html.erb",
+      "protected_sha256": "e7b65ce14df008ac5094ec9aae07617916a10182ce49569ee825b3462b94cd63",
+      "current_sha256": "e7b65ce14df008ac5094ec9aae07617916a10182ce49569ee825b3462b94cd63",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook/component/assignments/_assignment.html.erb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/views/playbook/component/intents/_intent.html.erb",
+      "protected_sha256": "f7edcefbfb7d5f62c768412bc715dc37f5afdb960e3ca7a245577942f6c0582c",
+      "current_sha256": "f7edcefbfb7d5f62c768412bc715dc37f5afdb960e3ca7a245577942f6c0582c",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook/component/intents/_intent.html.erb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/controllers/playbook/messages_controller.rb",
+      "protected_sha256": "08d7f9cced16dd96bab34d3bac88ba01e74ebfd87a41a7750405e98f1162bb37",
+      "current_sha256": "08d7f9cced16dd96bab34d3bac88ba01e74ebfd87a41a7750405e98f1162bb37",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/controllers/playbook/messages_controller.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook/instant_answer.rb",
+      "protected_sha256": "39b136ecc7c640c54eae47f2f13fda840aec59240cb9e2e26b63ca28e10ede8b",
+      "current_sha256": "39b136ecc7c640c54eae47f2f13fda840aec59240cb9e2e26b63ca28e10ede8b",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/instant_answer.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/prompts/prompt/instant_answer.rb",
+      "protected_sha256": "647517806038536a2d28f10e457310ff11ee3f620914b9315a13df50a2a14316",
+      "current_sha256": "647517806038536a2d28f10e457310ff11ee3f620914b9315a13df50a2a14316",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/prompts/prompt/instant_answer.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/prompts/instant.answer.txt",
+      "protected_sha256": "401eca9612d915b0dc5413e6b96bda5b82fab15a61b0c800a182c063e060a3d5",
+      "current_sha256": "0d940aee626f3715b4949a9246be5f5c6de84e0e9d2ee56375fedb761efdc127",
+      "identical": false,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/prompts/instant.answer.txt",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "db/seeds/playbooks.rb",
+      "protected_sha256": "a541b1bb9cfdc2fcf904228264f797ea86ec0227d49e9819b1e4655acfeb664c",
+      "current_sha256": "a541b1bb9cfdc2fcf904228264f797ea86ec0227d49e9819b1e4655acfeb664c",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/db/seeds/playbooks.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "db/seeds/intents.rb",
+      "protected_sha256": "a6d1c6e85dcc717062479afe0f9374edbf969c0441957c21937995241670c4da",
+      "current_sha256": "a6d1c6e85dcc717062479afe0f9374edbf969c0441957c21937995241670c4da",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/db/seeds/intents.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook/plan_catalog.rb",
+      "protected_sha256": "16ea42a8058b8402341cc96486e218fedd65ea045d468509f91ec7d3fecb3f11",
+      "current_sha256": "16ea42a8058b8402341cc96486e218fedd65ea045d468509f91ec7d3fecb3f11",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/plan_catalog.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/sla/human_handoff_cycle_touchpoint.rb",
+      "protected_sha256": "27bcea22b7cde91f8a8faf27a400c809c153e0720f9db86c25ed925bd294c56a",
+      "current_sha256": "27bcea22b7cde91f8a8faf27a400c809c153e0720f9db86c25ed925bd294c56a",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/sla/human_handoff_cycle_touchpoint.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/sla/cycle.rb",
+      "protected_sha256": "77d13ce340c4af01fc8e3ce125ae7502e7057272b10a4a5af8364f36da3fa45c",
+      "current_sha256": "77d13ce340c4af01fc8e3ce125ae7502e7057272b10a4a5af8364f36da3fa45c",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/sla/cycle.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook/report.rb",
+      "protected_sha256": "da2dbbea32fc08e2ffe7c5eed3239c907bb463f51f24af177c65935a23762573",
+      "current_sha256": "da2dbbea32fc08e2ffe7c5eed3239c907bb463f51f24af177c65935a23762573",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/report.rb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/views/playbook/previews/_webchat.html.erb",
+      "protected_sha256": "9060ca7ded7bfb9955dc7930e2586d144f505c42d533596b2b4c4234402df336",
+      "current_sha256": "9060ca7ded7bfb9955dc7930e2586d144f505c42d533596b2b4c4234402df336",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook/previews/_webchat.html.erb",
+      "inspection": "Reused immutable source comparison from Instant Answers audit at unchanged master, local protected hash reconfirmed."
+    },
+    {
+      "path": "app/models/playbook/order_update.rb",
+      "protected_sha256": "9f452002b72d0209499eb6b8b865f410e744b64302b8ac692f6f739f01d8061f",
+      "current_sha256": "9f452002b72d0209499eb6b8b865f410e744b64302b8ac692f6f739f01d8061f",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/order_update.rb",
+      "inspection": "New exact-master source comparison; targeted Order Update contracts inspected."
+    },
+    {
+      "path": "app/prompts/prompt/order_tracker.rb",
+      "protected_sha256": "aef996d9e32869851013c3cf0c23c7f8af3f56094ec50a3e9832b480e8646a2b",
+      "current_sha256": "aef996d9e32869851013c3cf0c23c7f8af3f56094ec50a3e9832b480e8646a2b",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/prompts/prompt/order_tracker.rb",
+      "inspection": "New exact-master source comparison; targeted Order Update contracts inspected."
+    },
+    {
+      "path": "app/prompts/order.update.txt",
+      "protected_sha256": "9fdcd028b955d68480c368b6a70aa35160661f85362d3b4d2d950b2cd04c2ae2",
+      "current_sha256": "5c86c3704efe8f4d6eb175e23c8d984f5ea20bf4a86512b1a1db372d13c901e7",
+      "identical": false,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/prompts/order.update.txt",
+      "inspection": "New exact-master source comparison; targeted Order Update contracts inspected."
+    },
+    {
+      "path": "app/integrations/ai/openai/function/check_order_status.rb",
+      "protected_sha256": "a2b03ee744d3ca58febeca158144f8ba33e2b4cccb943384a4207a90b5c9d585",
+      "current_sha256": "a2b03ee744d3ca58febeca158144f8ba33e2b4cccb943384a4207a90b5c9d585",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/integrations/ai/openai/function/check_order_status.rb",
+      "inspection": "New exact-master source comparison; targeted Order Update contracts inspected."
+    },
+    {
+      "path": "app/integrations/ai/openai/function/get_contact_shipments.rb",
+      "protected_sha256": "3fd2d3389ad5d57ef7e0d70a6f68b0ce8c759dcfe71be71c3bcebf31c16ad051",
+      "current_sha256": "3fd2d3389ad5d57ef7e0d70a6f68b0ce8c759dcfe71be71c3bcebf31c16ad051",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/integrations/ai/openai/function/get_contact_shipments.rb",
+      "inspection": "New exact-master source comparison; targeted Order Update contracts inspected."
+    },
+    {
+      "path": "app/integrations/ai/openai/function/send_order_status.rb",
+      "protected_sha256": "f3edfda0839f3e15f7dec21ca9db3d7f24c4f2302ef7c90194aa1a0b2d4e849a",
+      "current_sha256": "f3edfda0839f3e15f7dec21ca9db3d7f24c4f2302ef7c90194aa1a0b2d4e849a",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/integrations/ai/openai/function/send_order_status.rb",
+      "inspection": "New exact-master source comparison; targeted Order Update contracts inspected."
+    },
+    {
+      "path": "app/models/artifact/order.rb",
+      "protected_sha256": "13d42d3380e5dae3647ef64e77e672d4047eda00894afb975e3e88887d7280cb",
+      "current_sha256": "73c01a6c2a18ab7c2c699d56951a8d1b234e22add7ea902644921769c9bb8b52",
+      "identical": false,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/artifact/order.rb",
+      "inspection": "New exact-master source comparison; targeted Order Update contracts inspected."
+    },
+    {
+      "path": "app/models/artifact/order/shipment.rb",
+      "protected_sha256": "3c8078d38bc06055e4bcd3fd57cb89a5a177fc3cb37290112aee5f425809a448",
+      "current_sha256": "3c8078d38bc06055e4bcd3fd57cb89a5a177fc3cb37290112aee5f425809a448",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/artifact/order/shipment.rb",
+      "inspection": "New exact-master source comparison; targeted Order Update contracts inspected."
+    },
+    {
+      "path": "app/models/artifact/order/shipment_synchronizer.rb",
+      "protected_sha256": "9ac5b842cb7a6a08f4baafcc2b0011f8684e5f287be7e55da9111ab3dc79522c",
+      "current_sha256": "9ac5b842cb7a6a08f4baafcc2b0011f8684e5f287be7e55da9111ab3dc79522c",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/artifact/order/shipment_synchronizer.rb",
+      "inspection": "New exact-master source comparison; targeted Order Update contracts inspected."
+    },
+    {
+      "path": "app/jobs/artifact/order/shipment_fetcher_job.rb",
+      "protected_sha256": "651201544b5d259990d65d0a08ccd56dd0acebe77c0ae102db7cb00746ac5302",
+      "current_sha256": "651201544b5d259990d65d0a08ccd56dd0acebe77c0ae102db7cb00746ac5302",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/jobs/artifact/order/shipment_fetcher_job.rb",
+      "inspection": "New exact-master source comparison; targeted Order Update contracts inspected."
+    },
+    {
+      "path": "app/integrations/vtex/order/shipment_synchronizer.rb",
+      "protected_sha256": "9e6d6b91e0b5a9ad5bd72c99c29565d9143fde91015091c9a3f3db54ab9478c0",
+      "current_sha256": "9e6d6b91e0b5a9ad5bd72c99c29565d9143fde91015091c9a3f3db54ab9478c0",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/integrations/vtex/order/shipment_synchronizer.rb",
+      "inspection": "New exact-master source comparison; targeted Order Update contracts inspected."
+    },
+    {
+      "path": "app/integrations/vtex/shipment/params.rb",
+      "protected_sha256": "968199969745bb5db73701314afedeb3c53330050c107ae7efd62fa120d9b3d4",
+      "current_sha256": "968199969745bb5db73701314afedeb3c53330050c107ae7efd62fa120d9b3d4",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/integrations/vtex/shipment/params.rb",
+      "inspection": "New exact-master source comparison; targeted Order Update contracts inspected."
+    },
+    {
+      "path": "app/integrations/vtex/shipment/tracking_url.rb",
+      "protected_sha256": "6449707eaf70757bf8ef287279e773a537d85150d77467daf7dc585b507253c8",
+      "current_sha256": "6449707eaf70757bf8ef287279e773a537d85150d77467daf7dc585b507253c8",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/integrations/vtex/shipment/tracking_url.rb",
+      "inspection": "New exact-master source comparison; targeted Order Update contracts inspected."
+    },
+    {
+      "path": "app/integrations/vtex/shipment/upsert.rb",
+      "protected_sha256": "db6c9eb5f36c9222553599baf90506723a88bfe66dead4d4a21f1180a85c2f60",
+      "current_sha256": "db6c9eb5f36c9222553599baf90506723a88bfe66dead4d4a21f1180a85c2f60",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/integrations/vtex/shipment/upsert.rb",
+      "inspection": "New exact-master source comparison; targeted Order Update contracts inspected."
+    },
+    {
+      "path": "app/integrations/coordinadora/client/shipment.rb",
+      "protected_sha256": "458f3fe34a6a5e946a5c5b1616c6520076aff5b099199066dd6a381bf17d0c59",
+      "current_sha256": "458f3fe34a6a5e946a5c5b1616c6520076aff5b099199066dd6a381bf17d0c59",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/integrations/coordinadora/client/shipment.rb",
+      "inspection": "New exact-master source comparison; targeted Order Update contracts inspected."
+    },
+    {
+      "path": "app/integrations/coordinadora/shipment/params.rb",
+      "protected_sha256": "beaebf75734fb767bd09edcdca1b4d8951c04be80280bb82b249c07e1c343aac",
+      "current_sha256": "beaebf75734fb767bd09edcdca1b4d8951c04be80280bb82b249c07e1c343aac",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/integrations/coordinadora/shipment/params.rb",
+      "inspection": "New exact-master source comparison; targeted Order Update contracts inspected."
+    },
+    {
+      "path": "app/javascript/controllers/playbook/channel_controller.js",
+      "protected_sha256": "d46268498b91782ee6ddededb0281776c44171e93000affaaf2f28150654768e",
+      "current_sha256": "d46268498b91782ee6ddededb0281776c44171e93000affaaf2f28150654768e",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/javascript/controllers/playbook/channel_controller.js",
+      "inspection": "New exact-master source comparison; targeted Order Update contracts inspected."
+    }
+  ],
+  "operations": "Read-only source/GitHub inspection. No source app visit or update, DB/fixture/locale audit or operation. Hash comparison does not claim every reused file was freshly read in full; prior contract audits and ten real differences retained. Current OrderUpdate type, topics, prompt, lookup/send tools, seed blocks, forms, shipment/provider scope, routing and report contracts inspected."
+}
