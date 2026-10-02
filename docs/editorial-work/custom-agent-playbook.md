@@ -43,4 +43,54 @@ New GET creates configuration in memory; final Save can clone global templates, 
 
 Complete ES then EN 1440/390/580 px articles reviewed through every scroll to the footer with stable 500 ms painting. Seven figures/twelve original headings/twenty-four original Liquid links per locale; build (Ruby3.3.6 yarn build/security headers), source/asset/both-build bytes/pixels/ICC and git diff --check passed. Native source controls in both languages and responsive variants visually inspected; no enlargement or page overflow. Only the separate exclusive Help preview browser9452, one local4191 tab, P3/DPR2/zoom1, with process/page guards before and after; no source app visit. Evidence in local-verification.json and help-page-review.json.
 
-Local build/browser/hash/diff verification passed; protected publication remains pending.
+Local build/browser/hash/diff and protected publication verification passed as recorded below.
+
+Help [#363](https://github.com/hellotext/help/pull/363) merged by `e090a9dfdcd5ee7979fc8237e4a2c7fe03013682`.
+
+## Public verification — 2026-10-02
+
+Exact main Build [36962609086](https://github.com/hellotext/help/actions/runs/36962609086) passed for `e090a9dfdcd5ee7979fc8237e4a2c7fe03013682`. Normal Netlify production `6abf2c457965070008c274d0` is `ready` / published `2026-10-02T04:00:57.216Z` with actual `commit_ref=e090a9dfdcd5ee7979fc8237e4a2c7fe03013682` from the accessible site-alias listing. No manual deployment or retry. This later published SHA does not prove the historical failed record #332 was published.
+
+Both complete articles match the locally verified build, including seven useful figures and twelve original headings per locale. All twenty-eight reused public PNGs return HTTP 200 and match approved hashes; zero app capture, new PNG or duplicate upload. Per-file source/asset/root and ES builds retain pixels and ICC. Complete ES then EN at 1440/390/580 px reviewed through every scroll to the footer with stable 500 ms painting. Explicit native 2× intrinsic density, frames capped at logical source width +18 px, static full-column lavender stage; no page overflow or enlargement. Titles/slugs/stub/languages/publication and all twenty-four original Liquid links per locale in order remain intact; zero executable examples.
+
+Visible prose explains independent fictitious Custom empty Prompt/Upload/Web search, unadded return-intent phrase, and shared Collector controls with three unsaved tones, all incoming channels selected, and Atención demo destination team. No saved Custom configuration, file/search/classification, integration, consent, assignment, response or delivery result represented. Historical source routes/locale/version/actions/guards retained without retroactive guards or new fixture counts. No source-app/browser9460 visit, DB/account/locale/fixture/permission/subscription/provider/API/example/Playground/classifier/conversation/message/event/submission/delivery-worker operation or new fixture audit. Only independent Help browser9452 / P3 / DPR2 / zoom1 / one local4191 tab, guarded before/after. Primary 6664a8c/campaign and old3191 untouched.
+
+Compared 149 protected Rails sources at 5403a7dcb with exact master ed4b9a87cfba95431f5ffe0987a6413d4d538835: 140 identical, nine actual differences inspected. Targeted controller/saver/components/AI Context/Playground and assignment contracts were read; no generic HTTP external-request capability inferred from prompt text. No protected app update. Verifier `9952235cc0353a17ceb6339c24156c5d080bd2b4` is direct parent of ledger `a5a5a619dad63083eed722a469ce21a34ea98d09`. Exact-head `a5a5a619dad63083eed722a469ce21a34ea98d09` checks passed, and actual comments/reviews/threads were read before a separate merge call with zero unresolved findings. Every commit retained.
+
+### Public pages
+
+- https://help.hellotext.com/es/agente-personalizado
+- https://help.hellotext.com/custom-agent-playbook
+
+### Reused PNGs — desktop and mobile, no duplicate uploads
+
+- https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/prompt-es.png — HTTP 200, approved SHA `8eaf2061b629f46e8011029537ab69050d946517fd983b2574e38894edbc4d19`
+- https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/prompt-es-mobile.png — HTTP 200, approved SHA `c99d3ae1c27595677f65b8db6de96a2e39e7d846ebec1116cfe31bd061b8a9c6`
+- https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/upload-es.png — HTTP 200, approved SHA `0234f096438a251156c5b3d34a412eb1b918cf7055ecd8127992b2d19ce182db`
+- https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/upload-es-mobile.png — HTTP 200, approved SHA `a621c5d4b43684ef799ae062ae426a13bf4dffac82787c36ae2e938ae22ba7e0`
+- https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/web_search-es.png — HTTP 200, approved SHA `88c9fed5e13991d0f77cfd6acf51bc618a671f0dae2c90fb1754ecc01c54937f`
+- https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/web_search-es-mobile.png — HTTP 200, approved SHA `364ff829a380fb4a643dbcd9f7027781b0aac3aa5ce56bc073d4cf44f88395d2`
+- https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/prompt-en.png — HTTP 200, approved SHA `64ea8b35decf0e03633f421de5efb4b6045be7c935aed6f4072fc8138b11d99e`
+- https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/prompt-en-mobile.png — HTTP 200, approved SHA `168c62527edf6a1d4663857308cef0bec7540cfa54876c8178a3ecbd92503d9c`
+- https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/upload-en.png — HTTP 200, approved SHA `39dab76063709ddf8dcc36668aea7cade842a8a920822d00e2e7025359c01950`
+- https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/upload-en-mobile.png — HTTP 200, approved SHA `1ed6d37acc14e4902de468040fb58befa371aa4e4c3221b6f98124a71f97de92`
+- https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/web_search-en.png — HTTP 200, approved SHA `4336ad08637c31a36fcf67e92368c567e618fe96d135feabff8d2737764e04c7`
+- https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/web_search-en-mobile.png — HTTP 200, approved SHA `61a0d21c1723fc520232f1245b1a95fe4eb24e95866609f7b95de15d1e1fd4ca`
+- https://help.hellotext.com/images/team/ai-handoff-to-inbox/intents-es.png — HTTP 200, approved SHA `3ce141b0bcdd1fc102325fca3389e28f19158d1344b0c94ec725b6f99bc7ee50`
+- https://help.hellotext.com/images/team/ai-handoff-to-inbox/intents-es-mobile.png — HTTP 200, approved SHA `06a58e9ba16bdc719e9c1787edb0b699acc69e588cb43ae97295622b904c1e7f`
+- https://help.hellotext.com/images/team/ai-handoff-to-inbox/intents-en.png — HTTP 200, approved SHA `58afbd5fd69c3e56c69b0cbfa41dd2e3c5946fa4884e1098436208e7237314d1`
+- https://help.hellotext.com/images/team/ai-handoff-to-inbox/intents-en-mobile.png — HTTP 200, approved SHA `574b86a078f6ac9efb168c67084d2b50a5187bfd67ab7cf72fc113197f739971`
+- https://help.hellotext.com/images/captures/property-collector/handoff-es.png — HTTP 200, approved SHA `ef1c8abc4712dacc2effa83f6c968dd4a9453a5b1be059609a877a91e1693356`
+- https://help.hellotext.com/images/captures/property-collector/handoff-en.png — HTTP 200, approved SHA `0c5506ceed87f6ed0c9e57a4969d80cee2dc41f04ab25b04969917ab3f3bdfe9`
+- https://help.hellotext.com/images/captures/property-collector/handoff-es-mobile.png — HTTP 200, approved SHA `4f252e8b5d86ad772df8b7f979ae8d61de1970ff36f7110f5f1e0b1b5867b2cc`
+- https://help.hellotext.com/images/captures/property-collector/handoff-en-mobile.png — HTTP 200, approved SHA `97bad463814d7ec88c224ea32ccf6500c65c8eed86a39ef83cd8fba79d2f3793`
+- https://help.hellotext.com/images/captures/property-collector/channels-es.png — HTTP 200, approved SHA `09a69bcc4d04170870d9e7123c84391069810694179dc20ac44248df0abc1571`
+- https://help.hellotext.com/images/captures/property-collector/channels-en.png — HTTP 200, approved SHA `fed5b1e6710e0f6ad456ee06a4cae92680c2d85f1a78fef79dbe95d08a18222d`
+- https://help.hellotext.com/images/captures/property-collector/tone-es.png — HTTP 200, approved SHA `f97c2e66346680730e6c64708e701b95a3abf460ac099a1cb214d8baf22fdd8d`
+- https://help.hellotext.com/images/captures/property-collector/tone-en.png — HTTP 200, approved SHA `b8c33b227fbb6fc79ab89a2eccc079f9a9b0c8a06cf21773005ad1ffcec1d053`
+- https://help.hellotext.com/images/captures/property-collector/channels-es-mobile.png — HTTP 200, approved SHA `213da9d4c0fa8688e03ce9f368928e7df240b1d538670285a437c5935c0a24a3`
+- https://help.hellotext.com/images/captures/property-collector/channels-en-mobile.png — HTTP 200, approved SHA `260918096cf05d4ac82990773682e76fa51ea9b3478ab6e6305d67cc8fcbaf0e`
+- https://help.hellotext.com/images/captures/property-collector/tone-es-mobile.png — HTTP 200, approved SHA `bb6765e4ad6cfca6b321bf5ed74fd9c37e89be50045c6649cfbd640120decf62`
+- https://help.hellotext.com/images/captures/property-collector/tone-en-mobile.png — HTTP 200, approved SHA `5b59a2acc71f53d84aa7bb1d7280af18a300e2fe34a7a0bf3058f52328f7a21f`
+
+Ledger: 100 local_verified / 53 pending / one out_of_scope. The public-record PR receives its own protected exact-head review/checks; final Build/deployment/repeated pages/PNG proof is recorded in a GitHub comment without recursive commits.
