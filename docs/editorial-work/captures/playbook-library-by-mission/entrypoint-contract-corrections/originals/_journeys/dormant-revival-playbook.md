@@ -8,10 +8,10 @@ avatar:
 
 en:
   title: Dormant Revival playbook
-  description: Evaluate re-engagement for customers with a valid prolonged-inactivity stage signal, using history, product context, and send checks.
+  description: Re-engage customers who have been inactive for around three months, using customer history, product context, and send checks.
 es:
   title: Misión Reactivación de Inactivos
-  description: Evalúa la reactivación de clientes con una señal válida de inactividad prolongada usando historial, contexto de producto y chequeos de envío.
+  description: Reactiva clientes que llevan alrededor de tres meses sin actividad usando historial del cliente, contexto de producto y chequeos de envío.
 
 permalink: dormant-revival-playbook
 permalink_es: reactivacion-inactivos

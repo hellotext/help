@@ -1754,6 +1754,22 @@
       "identical": true,
       "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/review_builder/send_guard.rb",
       "inspection": "New exact-master source comparison; Targeted mission-family eligibility, runtime guards, feedback schedules and frequency inspected."
+    },
+    {
+      "path": "app/models/supervisor/automation/reactivation.rb",
+      "protected_sha256": "5be7dfc69963513e4f6cd83ec543f8ebcb829938b2eb4babcabf88269131ef58",
+      "current_sha256": "6f39afdc9d84652c5217cccc839def70cfad8a1018c2bec1adcc24ed850e0b81",
+      "identical": false,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/supervisor/automation/reactivation.rb",
+      "inspection": "New immutable-master source comparison; protected and current files read fully during entry-point correction phase."
+    },
+    {
+      "path": "app/models/contact/lifecycle/churned_sweeper.rb",
+      "protected_sha256": "b22d96c4ec9776b89d1bad8b750407d0165d94bf6669a9e846732e57e2c1ba62",
+      "current_sha256": "b22d96c4ec9776b89d1bad8b750407d0165d94bf6669a9e846732e57e2c1ba62",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/contact/lifecycle/churned_sweeper.rb",
+      "inspection": "New immutable-master source comparison; protected and current files read fully during entry-point correction phase."
     }
   ],
   "operations": "Read-only source/GitHub inspection. No source app visit/update or DB/fixture/locale operation. Prior shared contract audits and eleven real differences retained at unchanged immutable master with protected hashes reconfirmed; not every reused source was freshly read in full. Library uses overview type/configuration/report/access contracts; new mission-family guards/schedules/lifecycle sweepers inspected in full; Anniversary Context fully read and LookCompleter source-order preconditions inspected without claiming a full read of its 491-line context. Individual pending operational/UI guides are not declared complete.",
@@ -1769,5 +1785,29 @@
     ],
     "master_unchanged": "ed4b9a87cfba95431f5ffe0987a6413d4d538835",
     "scope": "Seven already compared sources reconfirmed and read in full. LookCompleter Context full read is new at this review-correction stage; the earlier partial-inspection record remains intact. This is not completion of the three pending individual UI/operational/visual guides."
+  },
+  "entrypoint_review_scope": {
+    "fully_read": [
+      "app/models/playbook/dormant_revival.rb",
+      "app/models/playbook/soft_reactivation.rb",
+      "app/models/cg/runtime/reactivation/context.rb",
+      "app/models/cg/runtime/reactivation/send_guard.rb",
+      "app/models/contact/lifecycle.rb",
+      "app/models/contact/lifecycle/base.rb",
+      "app/models/contact/lifecycle/lapsed_sweeper.rb",
+      "app/models/contact/lifecycle/dormant_sweeper.rb",
+      "app/models/contact/lifecycle/churn_imminent_sweeper.rb",
+      "app/models/supervisor/automation/reactivation.rb",
+      "app/models/contact/lifecycle/churned_sweeper.rb"
+    ],
+    "comparison_counts": "Initial218/207/11 retained, plus two new sources: final220 comparisons/208 identical/12 real differences. Supervisor queues EventJob on current master instead of protected inline Runtime; stage/enabled/active workflow selection preserved, queued kept/enabled/workflow guard read in current EventJob.",
+    "scope": "Stage admission by matching lifecycle action and active workflow; qualifying activity summaries/source states/ranges/batch guards, defaults30/90/365days are not universal dispatch promises since any message; no worker/sweeper/provider executed.",
+    "current_only_event_job": {
+      "path": "app/jobs/cg/runtime/event_job.rb",
+      "sha256": "3cb9ddc728242a627d77ad34f751085806b9342947b1e511f6f36ebc8eb3761f",
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/jobs/cg/runtime/event_job.rb",
+      "current_only": true,
+      "inspection": "Read in full: queued event/playbook kept+enabled+active workflow rechecked, limiter retries; no execution."
+    }
   }
 }

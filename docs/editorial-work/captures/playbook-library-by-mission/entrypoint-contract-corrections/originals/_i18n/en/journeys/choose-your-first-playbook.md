@@ -44,9 +44,9 @@ After you choose the first option to launch, follow [How to enable a playbook]({
 
   **Why:** Use this when catalog price changes are reliable and Hellotext can see recent product, cart, or recommendation interest.
 
-- **Suggest complements based on an eligible confirmed order** — **Start with:** [Complete-the-Look]({% link _journeys/complete-the-look-playbook.md %})
+- **Suggest matching products around what shoppers picked or viewed** — **Start with:** [Complete-the-Look]({% link _journeys/complete-the-look-playbook.md %})
 
-  **Why:** Use this when a confirmed order linked to the customer supplies valid products with positive quantities and your catalog has clear complements. A product view or selection alone does not start the playbook.
+  **Why:** Use this when your catalog has clear matching products, compatible accessories, looks, kits, or routines.
 
 - **Convert new subscribers or window shoppers** — **Start with:** For new subscribers, check availability of [First-Purchase Driver]({% link _journeys/first-purchase-driver-playbook.md %}); for product views, use [Browse Recovery]({% link _journeys/browse-recovery-playbook.md %}); for incoming product questions, use [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}).
 
@@ -58,7 +58,7 @@ After you choose the first option to launch, follow [How to enable a playbook]({
 
 - **Win back inactive customers** — **Start with:** [Dormant Revival]({% link _journeys/dormant-revival-playbook.md %}) or [Sunset Saver]({% link _journeys/sunset-saver-playbook.md %})
 
-  **Why:** Choose Dormant Revival for a valid prolonged-inactivity signal and Sunset Saver for a valid churn-risk signal. Verify the stage and qualifying activity; counting months since any interaction is insufficient.
+  **Why:** Use Dormant Revival around 3 months of inactivity. Use Sunset Saver around 12 months inactive or not reactivated.
 
 - **Collect product reviews after delivery** — **Start with:** [Review Builder]({% link _journeys/review-builder-playbook.md %})
 

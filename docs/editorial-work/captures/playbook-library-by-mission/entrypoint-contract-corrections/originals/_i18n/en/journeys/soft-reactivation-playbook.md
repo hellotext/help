@@ -1,8 +1,8 @@
-Use this guide when customers have started to go quiet and you want Hellotext to re-engage them before they become fully inactive. Soft Reactivation requires a valid initial-inactivity stage signal and checks subsequent qualifying activity; counting days since any message is insufficient.
+Use this guide when customers have started to go quiet and you want Hellotext to re-engage them before they become fully inactive. Soft Reactivation covers recent inactivity, usually around 30 days without a purchase, visit, click, reply, or other meaningful engagement.
 
 Soft Reactivation is a retention playbook. It helps Hellotext recognize customers whose recent behavior is cooling down, then send a personalized nudge with relevant products, offers, or messaging context when the customer is still reachable.
 
-It is not a journey route, a one-time campaign, or a final win-back attempt. It sits earlier in the customer lifecycle: after the customer has shown value, but before they have been inactive long enough for [Dormant Revival]({% link _journeys/dormant-revival-playbook.md %}), which requires a valid prolonged-inactivity signal. For customers with a valid churn-risk signal, consider [Sunset Saver]({% link _journeys/sunset-saver-playbook.md %}).
+It is not a journey route, a one-time campaign, or a final win-back attempt. It sits earlier in the customer lifecycle: after the customer has shown value, but before they have been inactive long enough for [Dormant Revival]({% link _journeys/dormant-revival-playbook.md %}), which is for customers around 3 months inactive. For customers around 12 months inactive or not reactivated, use [Sunset Saver]({% link _journeys/sunset-saver-playbook.md %}).
 
 Availability can vary by account and rollout status. If the card appears as on request or disabled, confirm availability with your Hellotext team before planning a launch.
 
@@ -18,7 +18,7 @@ It can:
 - Generate personalized message examples that adapt per customer.
 - Let your team give Playground feedback on examples so Hellotext learns what fits the business.
 - Follow existing eCommerce offer rules, use AI-driven discounts up to an approved maximum percentage, or send without discounts.
-- Evaluate available channel routes according to permission, destination, readiness, and sending rules, without a lowest-cost or ROI guarantee.
+- Choose the most cost-efficient available channel, such as WhatsApp, SMS, or others, and send only when it internally detects an opportunity to keep ROI healthy.
 - Skip customers when a recent purchase, another active playbook, missing consent, channel limits, or poor product context makes the send a bad fit.
 
 The exact configuration can vary by account, connected store, catalog quality, channel, templates, and rollout status.
@@ -29,14 +29,14 @@ Use Soft Reactivation when customers are not fully dormant yet, but their engage
 
 It is a good fit when:
 
-- The customer has a valid initial-inactivity stage signal.
+- The customer has been inactive for around 30 days.
 - A customer bought before but has not bought again recently.
 - A customer used to click, browse, or reply and has slowed down.
 - The business wants a gentle return message instead of a heavy win-back campaign.
 - There are relevant products, collections, or offers that make sense for the customer.
 - The goal is to maintain the relationship before the customer becomes difficult to recover.
 
-Do not use it for a specific product replenishment moment. Use [Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}) when the customer may need to reorder a consumable product. Use [Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}) when the next best action is a related product after a purchase. Use [Dormant Revival]({% link _journeys/dormant-revival-playbook.md %}) when the customer meets the prolonged-inactivity criteria and [Sunset Saver]({% link _journeys/sunset-saver-playbook.md %}) when the customer meets the churn-risk criteria.
+Do not use it for a specific product replenishment moment. Use [Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}) when the customer may need to reorder a consumable product. Use [Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}) when the next best action is a related product after a purchase. Use [Dormant Revival]({% link _journeys/dormant-revival-playbook.md %}) when the customer has been inactive for around 3 months and [Sunset Saver]({% link _journeys/sunset-saver-playbook.md %}) when the customer has been inactive or not reactivated for around 12 months.
 
 ## What it needs before launch
 
@@ -69,7 +69,7 @@ The available cards can vary, but the proposed setup focuses on:
 - **Discount strategy:** whether the playbook follows existing eCommerce offer rules, can use AI-driven discounts up to a maximum percentage, or sends without discounts.
 - **Tone or Playground feedback:** how generated examples should learn what fits your business.
 
-Keep automatic channel selection unless you have a clear reason to limit the playbook. Soft Reactivation depends on whether the customer can be reached at a moment when the nudge still feels timely. Selection depends on eligible routes and sending checks; it does not guarantee the cheapest channel or a particular ROI.
+Keep automatic channel selection unless you have a clear reason to limit the playbook. Soft Reactivation depends on whether the customer can be reached at a moment when the nudge still feels timely. Hellotext can internally choose the most cost-efficient channel, such as WhatsApp, SMS, or others depending on availability, and avoid sends when it does not detect an opportunity to keep ROI healthy.
 
 If you need a custom conversational agent with its own instructions, knowledge, and handoff rules, use [Custom Agent]({% link _journeys/custom-agent-playbook.md %}). If you need a fully controlled sequence of steps, use a custom journey.
 
@@ -79,7 +79,7 @@ Soft Reactivation should start from a real cooling-down signal, not from a stati
 
 Hellotext can use signals like:
 
-- The valid initial-stage signal, its source, and the customer’s qualifying activity.
+- Days since last purchase, last visit, last click, last reply, or last meaningful engagement.
 - Prior purchase history and customer value.
 - Recent product interest, categories browsed, or products previously bought.
 - Whether another playbook already owns the moment, such as cart recovery, replenishment, cross-sell, or support.
@@ -92,7 +92,7 @@ Before sending, Hellotext can also consider:
 - Whether the message has a relevant product, offer, or reason to reach out.
 - Whether the customer recently bought, replied, unsubscribed, or opted out.
 - Whether the profile can receive a message in an eligible channel.
-- Whether the opportunity passes applicable admission, frequency, and sending rules.
+- Whether there is an internal opportunity to keep ROI healthy for that send.
 - Whether another active playbook is a better fit.
 - Whether timing, frequency, quiet hours, templates, or channel rules allow the send.
 
@@ -104,9 +104,9 @@ Use the customer moment to decide the owner.
 
 | Customer moment | Better fit |
 | --- | --- |
-| Customer meets the initial-inactivity stage criteria | Soft Reactivation |
-| Customer meets the prolonged-inactivity criteria | [Dormant Revival]({% link _journeys/dormant-revival-playbook.md %}) |
-| Customer meets the churn-risk criteria | [Sunset Saver]({% link _journeys/sunset-saver-playbook.md %}) |
+| Customer is starting to go quiet and has been inactive for around 30 days | Soft Reactivation |
+| Customer has been inactive for around 3 months | [Dormant Revival]({% link _journeys/dormant-revival-playbook.md %}) |
+| Customer has been inactive or not reactivated for around 12 months | [Sunset Saver]({% link _journeys/sunset-saver-playbook.md %}) |
 | Customer may need to reorder a consumable product | [Replenishment Driver]({% link _journeys/replenishment-driver-playbook.md %}) |
 | Customer recently bought and may want a related product | [Cross-Sell Driver]({% link _journeys/cross-sell-driver-playbook.md %}) |
 | Customer abandoned a cart or checkout | [AI Cart Saver]({% link _journeys/ai-cart-saver-playbook.md %}) or [Cart Saver route]({% link _journeys/cart-saver-route.md %}) |
@@ -163,7 +163,7 @@ The playbook may wait, skip, stop, or let another playbook act when:
 - Products are unavailable, out of stock, missing prices, missing images, or missing usable links.
 - The profile cannot be reached in an eligible channel.
 - The customer unsubscribed, opted out, or is otherwise not eligible.
-- The opportunity does not pass applicable admission or sending checks.
+- Hellotext does not detect a healthy-ROI opportunity to message at that moment.
 - Timing, frequency, quiet hours, templates, or channel rules prevent the send.
 - The channel, sender, template, link, or message format is not ready.
 - Another active playbook is a better fit.

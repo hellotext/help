@@ -44,9 +44,9 @@ Después de elegir la primera opción para lanzar, sigue [Cómo habilitar una mi
 
   **Por qué:** Úsala cuando los cambios de precio del catálogo son confiables y Hellotext puede ver interés reciente de producto, carrito o recomendación.
 
-- **Sugerir complementos a partir de una orden confirmada elegible** — **Empieza con:** [Completa el Look]({% link _journeys/complete-the-look-playbook.md %})
+- **Sugerir productos que combinan con lo que compradores eligieron o vieron** — **Empieza con:** [Completa el Look]({% link _journeys/complete-the-look-playbook.md %})
 
-  **Por qué:** Úsala cuando una orden confirmada vinculada al cliente aporta productos válidos con cantidades positivas y tu catálogo tiene complementos claros. Una vista o selección aislada no inicia la misión.
+  **Por qué:** Úsala cuando tu catálogo tiene productos que combinan, accesorios compatibles, looks, kits o rutinas claras.
 
 - **Convertir nuevos suscriptores o visitantes que miran sin comprar** — **Empieza con:** Para nuevos suscriptores, consulta la disponibilidad de [Impulsor de Primera Compra]({% link _journeys/first-purchase-driver-playbook.md %}); para visitas de producto, usa [Recuperación de Navegación]({% link _journeys/browse-recovery-playbook.md %}); para preguntas entrantes sobre productos, usa [Recomendador Inteligente]({% link _journeys/smart-recommender-playbook.md %}).
 
@@ -58,7 +58,7 @@ Después de elegir la primera opción para lanzar, sigue [Cómo habilitar una mi
 
 - **Recuperar clientes inactivos** — **Empieza con:** [Reactivación de Inactivos]({% link _journeys/dormant-revival-playbook.md %}) o [Último Intento]({% link _journeys/sunset-saver-playbook.md %})
 
-  **Por qué:** Elige Reactivación de Inactivos para una señal válida de inactividad prolongada y Último Intento para una señal válida de riesgo de abandono. Verifica la etapa y la actividad calificante; contar meses desde cualquier interacción no basta.
+  **Por qué:** Usa Reactivación de Inactivos alrededor de 3 meses sin actividad. Usa Último Intento alrededor de 12 meses sin actividad o sin reactivarse.
 
 - **Recopilar reseñas de productos después de la entrega** — **Empieza con:** [Generador de Reseñas]({% link _journeys/review-builder-playbook.md %})
 
