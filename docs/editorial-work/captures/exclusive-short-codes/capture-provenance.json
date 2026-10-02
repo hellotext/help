@@ -1,5 +1,5 @@
 {
-  "status": "locally_verified",
+  "status": "publicly_verified",
   "base_main": "2f9834c98ec6dae94f4994810067428377c79204",
   "originals": [
     {
@@ -96,9 +96,10 @@
       },
       "source_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
       "source_asset_verification": "Byte-identical original and approved published PNG; no edits/crop/resize/duplicate asset",
-      "consumer_publication_state": "awaiting_protected_publication_and_public_verification",
+      "consumer_publication_state": "publicly_verified",
       "locale": "es",
-      "mobile": false
+      "mobile": false,
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "published_asset": "images/developers/custom-store-integration/business-es-mobile.png",
@@ -162,9 +163,10 @@
       },
       "source_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
       "source_asset_verification": "Byte-identical original and approved published PNG; no edits/crop/resize/duplicate asset",
-      "consumer_publication_state": "awaiting_protected_publication_and_public_verification",
+      "consumer_publication_state": "publicly_verified",
       "locale": "es",
-      "mobile": true
+      "mobile": true,
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "published_asset": "images/developers/custom-store-integration/business-en.png",
@@ -228,9 +230,10 @@
       },
       "source_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
       "source_asset_verification": "Byte-identical original and approved published PNG; no edits/crop/resize/duplicate asset",
-      "consumer_publication_state": "awaiting_protected_publication_and_public_verification",
+      "consumer_publication_state": "publicly_verified",
       "locale": "en",
-      "mobile": false
+      "mobile": false,
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "published_asset": "images/developers/custom-store-integration/business-en-mobile.png",
@@ -294,9 +297,10 @@
       },
       "source_provenance": "docs/editorial-work/captures/custom-store-integration/capture-provenance.json",
       "source_asset_verification": "Byte-identical original and approved published PNG; no edits/crop/resize/duplicate asset",
-      "consumer_publication_state": "awaiting_protected_publication_and_public_verification",
+      "consumer_publication_state": "publicly_verified",
       "locale": "en",
-      "mobile": true
+      "mobile": true,
+      "consumer_publication_evidence": "public-verification.json"
     }
   ],
   "source_capture_operations": "None this batch; original source record including locale write/fixture/route/version/guards retained unchanged under historical_source_record",
@@ -325,9 +329,8 @@
     }
   ],
   "scope": "Commercial request guide, not self-service sender activation UI or operational provisioning audit",
-  "pending": [
-    "Exact-head protected PR checks and independent review",
-    "Production/public verification"
-  ],
-  "local_verification": "local-verification.json"
+  "pending": [],
+  "local_verification": "local-verification.json",
+  "public_verification": "public-verification.json",
+  "publication_state": "publicly_verified_in_public-verification.json"
 }
