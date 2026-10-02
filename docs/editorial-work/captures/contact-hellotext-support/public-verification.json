@@ -1,0 +1,655 @@
+{
+  "verified_at_utc": "2026-10-02T00:39:40.516921+00:00",
+  "verified_git_main_sha": "e1a9f04b301b39a182a22a3ec4469f4764aa658a",
+  "production_deploy_id_sha_association": {
+    "id": "6abefcfa5cc52100082f52c5",
+    "site_id": "d66a79c1-b5de-44d1-bc47-bc7809f7f3b3",
+    "state": "ready",
+    "context": "production",
+    "branch": "main",
+    "commit_ref": "e1a9f04b301b39a182a22a3ec4469f4764aa658a",
+    "created_at": "2026-10-02T00:38:18.465Z",
+    "published_at": "2026-10-02T00:39:00.484Z",
+    "deploy_ssl_url": "https://main--legendary-lollipop-e2d131.netlify.app"
+  },
+  "deployment_method": "Normal Netlify production after Git merge; no manual deploy. Accessible public site-alias listing provided exact commit_ref.",
+  "pages": [
+    {
+      "url": "https://help.hellotext.com/es/contactar-soporte-hellotext",
+      "status": 200,
+      "article_key": "troubleshooting-deliverability/contact-hellotext-support.md",
+      "locale": "es",
+      "figures": 5,
+      "sections": 7,
+      "approved_assets_present": [
+        "/images/developers/custom-store-integration/business-es.png",
+        "/images/developers/custom-store-integration/business-es-mobile.png",
+        "/images/developers/orders-with-api/details-es.png",
+        "/images/developers/orders-with-api/details-es-mobile.png",
+        "/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-wide-desktop.png",
+        "/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-mobile-wide.png",
+        "/images/audience/customer-profiles/profile-fields-es.png",
+        "/images/audience/customer-profiles/profile-fields-es-mobile.png",
+        "/images/team/understanding-response-times/default-es.png",
+        "/images/team/understanding-response-times/default-es-mobile.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "aa532b8d37980787e4ae9c0e6108eecb9f8a194bff6bbfde05f8e454349dc8d3",
+      "html_sha256": "3184b7acdf6b186db1e272cd1ab9addf57f1c5d8af7ac9c356cc3bda916c76d9"
+    },
+    {
+      "url": "https://help.hellotext.com/contact-hellotext-support",
+      "status": 200,
+      "article_key": "troubleshooting-deliverability/contact-hellotext-support.md",
+      "locale": "en",
+      "figures": 5,
+      "sections": 7,
+      "approved_assets_present": [
+        "/images/developers/custom-store-integration/business-en.png",
+        "/images/developers/custom-store-integration/business-en-mobile.png",
+        "/images/developers/orders-with-api/details-en.png",
+        "/images/developers/orders-with-api/details-en-mobile.png",
+        "/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-wide-desktop.png",
+        "/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile-wide.png",
+        "/images/audience/customer-profiles/profile-fields-en.png",
+        "/images/audience/customer-profiles/profile-fields-en-mobile.png",
+        "/images/team/understanding-response-times/default-en.png",
+        "/images/team/understanding-response-times/default-en-mobile.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "0dd6794d6cc7303d36a8fdb4f873db6c295eb17df866a664f3e8cef6505f13c9",
+      "html_sha256": "fccb511c0cd7f60536d5678913abf5a90e79e956ac3ebe8ec3b90ff9917c4321"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-store-integration/business-es.png",
+      "status": 200,
+      "sha256": "17ec399500cee235d73459ced0de47fac99054987976a56f4e09603150ef5dfb",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-store-integration/business-es-mobile.png",
+      "status": 200,
+      "sha256": "0c7ac4c233075fa5d072e27ac33e7947092bf6406858524ab12fa546be553ed8",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-store-integration/business-en.png",
+      "status": 200,
+      "sha256": "1f7f132b2245056eda5166b1b1cfdbeee406ebcf7bad4a13a6eb3fd501184d7f",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-store-integration/business-en-mobile.png",
+      "status": 200,
+      "sha256": "c7badab42d6878393ab746c2950605b8153dc38d60ac1ae09c747a949706bfeb",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/orders-with-api/details-es.png",
+      "status": 200,
+      "sha256": "ce7071cd6129d589df554b45f6ead105ef20ce3b1b4eeaf6eace613f34b4bb00",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/orders-with-api/details-es-mobile.png",
+      "status": 200,
+      "sha256": "002115693247a8d96672d24a28406f0c452db72eb2df13ad721a9f3d12102ad9",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/orders-with-api/details-en.png",
+      "status": 200,
+      "sha256": "b728ba41fdd9c004408a7153f0f8f9a0bfc6634d0d9e44485db3dfc7b120b08b",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/orders-with-api/details-en-mobile.png",
+      "status": 200,
+      "sha256": "8d44d00464fcffb4c98684b550a95fd7df0a64360333a384e3d6eefca81d44c0",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-wide-desktop.png",
+      "status": 200,
+      "sha256": "65bfef90c667cf5da787412ad4d2175652ea945e2b1c1c84c7fb4bdb6c9217fc",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-mobile-wide.png",
+      "status": 200,
+      "sha256": "71136b3c75dbbe12a40ad787057309089b29f7d83b49f1ae1426ea91887e34e3",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-wide-desktop.png",
+      "status": 200,
+      "sha256": "470347c0697af60e59b6119e2c83bfb848fb9cbf69bd07ec4b14e451db40800e",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile-wide.png",
+      "status": 200,
+      "sha256": "244b1faacb31e3852d224f2db51c2efda234e4d57a54826aac83e726037efc36",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/audience/customer-profiles/profile-fields-es.png",
+      "status": 200,
+      "sha256": "bf1ee79e29d0ef384913cad51a1792ddf0050d75a5b4e138bd49df682e203b40",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/audience/customer-profiles/profile-fields-en.png",
+      "status": 200,
+      "sha256": "9bbb727226b2a20d5df4be2ca7612d29037b9d18d8e7e2ec488c407c54945f5d",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/audience/customer-profiles/profile-fields-es-mobile.png",
+      "status": 200,
+      "sha256": "1525d3add44bb64b93d457bb3353f8bfdd9fe0f1f99b84580aed0807db7829c3",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/audience/customer-profiles/profile-fields-en-mobile.png",
+      "status": 200,
+      "sha256": "0e2c6a1622ea73ec0fa008f5100b7ce5f04e2695cdb1aa2414c855db6ca760cb",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-response-times/default-es.png",
+      "status": 200,
+      "sha256": "339b5749ee334a9d43c5ba547e6d41248962a12c3854fd211e2bd982f04081d0",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-response-times/default-es-mobile.png",
+      "status": 200,
+      "sha256": "6e75d88d34ec270d7c1c65e424da76fbd1c27bd54975feda0fda196fa167455e",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-response-times/default-en.png",
+      "status": 200,
+      "sha256": "c377e27ca01cfa3614d3ca758985ec5a8b253d4bd3082d9b48cef4780a2cf6c3",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-response-times/default-en-mobile.png",
+      "status": 200,
+      "sha256": "a41cb142e4f4b31a3de34b0ce7af740611fa3f9063e675b3ec4c0ceb194f1c8e",
+      "matches_approved_asset": true,
+      "reused": true
+    }
+  ],
+  "new_captures": 0,
+  "new_png_uploads": 0,
+  "reused_pngs": 20,
+  "all_affected_article_pngs": 20,
+  "main_build": {
+    "conclusion": "success",
+    "databaseId": 36946988216,
+    "event": "push",
+    "headSha": "e1a9f04b301b39a182a22a3ec4469f4764aa658a",
+    "status": "completed",
+    "url": "https://github.com/hellotext/help/actions/runs/36946988216"
+  },
+  "content_pr": "https://github.com/hellotext/help/pull/355",
+  "content_pr_head": "b0cae88a1f42e4330b2988b10d951138ed1c0d8b",
+  "individual_commits_preserved": [
+    "42e5dede9eab925124d10f3b9031f26b76ecf40f",
+    "57363ccda7f053934b2baa2cc43bed68e04c561a",
+    "d11c5e102d42e9f46635eeb6ced8c7936612382b",
+    "b0cae88a1f42e4330b2988b10d951138ed1c0d8b"
+  ],
+  "unresolved_review_threads_before_merge": 0,
+  "pre_merge_review": {
+    "head": "b0cae88a1f42e4330b2988b10d951138ed1c0d8b",
+    "checks": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-02T00:33:45Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/hellotext/help/actions/runs/36946571056/job/110649947542",
+        "name": "build",
+        "startedAt": "2026-10-02T00:33:18Z",
+        "status": "COMPLETED",
+        "workflowName": "Build"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-02T00:33:56Z",
+        "conclusion": "NEUTRAL",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abefbcadbf9000008e9db4e",
+        "name": "Pages changed - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-02T00:33:16Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-02T00:33:56Z",
+        "conclusion": "NEUTRAL",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abefbcadbf9000008e9db4e",
+        "name": "Redirect rules - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-02T00:33:16Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-02T00:33:41Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://app.aikido.dev/featurebranch/scan/209853937?groupId=34029",
+        "name": "Aikido Security: check code",
+        "startedAt": "2026-10-02T00:33:16Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-02T00:33:56Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abefbcadbf9000008e9db4e",
+        "name": "Header rules - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-02T00:33:16Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "StatusContext",
+        "context": "netlify/legendary-lollipop-e2d131/deploy-preview",
+        "startedAt": "2026-10-02T00:33:58Z",
+        "state": "SUCCESS",
+        "targetUrl": "https://deploy-preview-355--legendary-lollipop-e2d131.netlify.app"
+      }
+    ],
+    "comments": [
+      {
+        "id": "IC_kwDOIVbAxs8AAAABYj3y5Q",
+        "author": {
+          "login": "netlify"
+        },
+        "authorAssociation": "NONE",
+        "body": "### <span aria-hidden=\"true\">\u2705</span> Deploy Preview for *legendary-lollipop-e2d131* ready!\n\n\n|  Name | Link |\n|:-:|------------------------|\n|<span aria-hidden=\"true\">\ud83d\udd28</span> Latest commit | b0cae88a1f42e4330b2988b10d951138ed1c0d8b |\n|<span aria-hidden=\"true\">\ud83d\udd0d</span> Latest deploy log | https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abefbcadbf9000008e9db4e |\n|<span aria-hidden=\"true\">\ud83d\ude0e</span> Deploy Preview | [https://deploy-preview-355--legendary-lollipop-e2d131.netlify.app](https://deploy-preview-355--legendary-lollipop-e2d131.netlify.app) |\n|<span aria-hidden=\"true\">\ud83d\udcf1</span> Preview on mobile | <details><summary> Toggle QR Code... </summary><br /><br />![QR Code](https://app.netlify.com/qr-code/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJodHRwczovL2RlcGxveS1wcmV2aWV3LTM1NS0tbGVnZW5kYXJ5LWxvbGxpcG9wLWUyZDEzMS5uZXRsaWZ5LmFwcCJ9.0R609R5nHbAhm8-o4L_YvvPDRO2EquAEBgW-FMpO-Zk)<br /><br />_Use your smartphone camera to open QR code link._</details> |\n|<span aria-hidden=\"true\">\ud83e\udd16</span> Make changes | [Run an agent on this branch](https://app.netlify.com/projects/legendary-lollipop-e2d131/agent-runs#FctNCoMwEEDhu8y6wS6KVG_QY2R-YoQ0M6QjKOLdG9_qbb4TrOnXHGaAB2CLlXJ_UpZ9IK0eyUOWUtRl9_DbzLR5WLaVpQMWK3p8uJMxoiSkyJim591bJsaXwPUH) |\n---\n<!-- [legendary-lollipop-e2d131 Preview](https://deploy-preview-355--legendary-lollipop-e2d131.netlify.app) -->\n_To edit notification comments on pull requests, go to your [Netlify project configuration](https://app.netlify.com/projects/legendary-lollipop-e2d131/configuration/notifications#deploy-notifications)._",
+        "createdAt": "2026-10-02T00:19:53Z",
+        "includesCreatedEdit": true,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/hellotext/help/pull/355#issuecomment-5943194341",
+        "viewerDidAuthor": false
+      },
+      {
+        "id": "IC_kwDOIVbAxs8AAAABYj33sw",
+        "author": {
+          "login": "chatgpt-codex-connector"
+        },
+        "authorAssociation": "NONE",
+        "body": "<!-- codex-pull-request-review-summary -->\n\n## Codex Review Summary\n\nThis comment shows the latest Codex review activity on this pull request.\n\n| Review | Status | Commit | Review trigger |\n| --- | --- | --- | --- |\n| \ud83d\udcdd **Code Review** | \u2705 **Completed** <relative-time datetime=\"2026-10-02T00:36:57.166297Z\">2026-10-02T00:36:57.166297Z</relative-time> | `b0cae88` | New commits |\n\n\n\n<details> <summary>\u2139\ufe0f About Codex in GitHub</summary>\n<br/>\n\n[Your team has set up Codex to review pull requests in this repo](https://chatgpt.com/codex/cloud/settings/general). Reviews are triggered when you\n- Open a pull request for review\n- Mark a draft as ready\n- Comment \"@codex review\" or \"@codex security review\".\n\nCodex reacts with \ud83d\udc40 while any review is running, comments if it has suggestions, and reacts with \ud83d\udc4d once all reviews finish with no findings.\n\n</details>",
+        "createdAt": "2026-10-02T00:20:01Z",
+        "includesCreatedEdit": true,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/hellotext/help/pull/355#issuecomment-5943195571",
+        "viewerDidAuthor": false
+      },
+      {
+        "id": "IC_kwDOIVbAxs8AAAABYj7CFg",
+        "author": {
+          "login": "pelcasandra"
+        },
+        "authorAssociation": "MEMBER",
+        "body": "@codex review\n\nPlease review the exact current head `57363ccda7f053934b2baa2cc43bed68e04c561a` after reading the resolved order-total thread. The four original PNGs show `89.9 USD` with a decimal point; the retained read-only serializer confirms the same amount, equivalent to the prose's `USD 89.90`. No source or image change was needed. Please inspect the complete bilingual article and evidence.\n",
+        "createdAt": "2026-10-02T00:24:57Z",
+        "includesCreatedEdit": false,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/hellotext/help/pull/355#issuecomment-5943247382",
+        "viewerDidAuthor": true
+      }
+    ],
+    "reviews": [
+      {
+        "id": "PRR_kwDOIVbAxs8AAAABQRg1Ag",
+        "author": {
+          "login": "chatgpt-codex-connector"
+        },
+        "authorAssociation": "NONE",
+        "body": "\n### \ud83d\udca1 Codex Review\n\nHere are some automated review suggestions for this pull request.\n\n**Reviewed commit:** `57363ccda7`\n    \n\n<details> <summary>\u2139\ufe0f About Codex in GitHub</summary>\n<br/>\n\n[Your team has set up Codex to review pull requests in this repo](https://chatgpt.com/codex/cloud/settings/general). Reviews are triggered when you\n- Open a pull request for review\n- Mark a draft as ready\n- Comment \"@codex review\".\n\nIf Codex has suggestions, it will comment; otherwise it will react with \ud83d\udc4d.\n\n\n\n\nCodex can also answer questions or update the PR. Try commenting \"@codex address that feedback\".\n            \n</details>",
+        "submittedAt": "2026-10-02T00:22:55Z",
+        "includesCreatedEdit": false,
+        "reactionGroups": [],
+        "state": "COMMENTED",
+        "commit": {
+          "oid": "57363ccda7f053934b2baa2cc43bed68e04c561a"
+        }
+      },
+      {
+        "id": "PRR_kwDOIVbAxs8AAAABQRhaOA",
+        "author": {
+          "login": "pelcasandra"
+        },
+        "authorAssociation": "MEMBER",
+        "body": "",
+        "submittedAt": "2026-10-02T00:24:43Z",
+        "includesCreatedEdit": false,
+        "reactionGroups": [],
+        "state": "COMMENTED",
+        "commit": {
+          "oid": "57363ccda7f053934b2baa2cc43bed68e04c561a"
+        }
+      },
+      {
+        "id": "PRR_kwDOIVbAxs8AAAABQRisuA",
+        "author": {
+          "login": "chatgpt-codex-connector"
+        },
+        "authorAssociation": "NONE",
+        "body": "\n### \ud83d\udca1 Codex Review\n\nHere are some automated review suggestions for this pull request.\n\n**Reviewed commit:** `57363ccda7`\n    \n\n<details> <summary>\u2139\ufe0f About Codex in GitHub</summary>\n<br/>\n\n[Your team has set up Codex to review pull requests in this repo](https://chatgpt.com/codex/cloud/settings/general). Reviews are triggered when you\n- Open a pull request for review\n- Mark a draft as ready\n- Comment \"@codex review\".\n\nIf Codex has suggestions, it will comment; otherwise it will react with \ud83d\udc4d.\n\n\n\n\nCodex can also answer questions or update the PR. Try commenting \"@codex address that feedback\".\n            \n</details>",
+        "submittedAt": "2026-10-02T00:28:51Z",
+        "includesCreatedEdit": false,
+        "reactionGroups": [],
+        "state": "COMMENTED",
+        "commit": {
+          "oid": "57363ccda7f053934b2baa2cc43bed68e04c561a"
+        }
+      },
+      {
+        "id": "PRR_kwDOIVbAxs8AAAABQRkIIQ",
+        "author": {
+          "login": "pelcasandra"
+        },
+        "authorAssociation": "MEMBER",
+        "body": "",
+        "submittedAt": "2026-10-02T00:33:30Z",
+        "includesCreatedEdit": false,
+        "reactionGroups": [],
+        "state": "COMMENTED",
+        "commit": {
+          "oid": "b0cae88a1f42e4330b2988b10d951138ed1c0d8b"
+        }
+      }
+    ],
+    "threads": [
+      {
+        "id": "PRRT_kwDOIVbAxs6oL9AV",
+        "isResolved": true,
+        "comments": {
+          "nodes": [
+            {
+              "id": "PRRC_kwDOIVbAxs74D6xE",
+              "body": "**<sub><sub>![P2 Badge](https://img.shields.io/badge/P2-yellow?style=flat)</sub></sub>  Match the order total to the screenshot**\n\nThe order figure displays `899 USD` for both total fields, while this paragraph states `USD 89.90`; the Spanish paragraph repeats the same mismatch. Readers using the example to identify which values to report therefore receive contradictory information, so update both translations or use an asset containing the stated amount.\n\nUseful? React with \ud83d\udc4d\u00a0/ \ud83d\udc4e.",
+              "url": "https://github.com/hellotext/help/pull/355#discussion_r4161776708",
+              "path": "_i18n/en/troubleshooting-deliverability/contact-hellotext-support.md",
+              "originalCommit": {
+                "oid": "57363ccda7f053934b2baa2cc43bed68e04c561a"
+              }
+            },
+            {
+              "id": "PRRC_kwDOIVbAxs74D811",
+              "body": "I inspected all four exact-head native PNGs at original resolution. Both total fields display `89.9 USD`, including the decimal point, rather than `899 USD`. This is numerically the same amount as the prose's `USD 89.90`. The retained read-only serializer evidence at `docs/editorial-work/captures/orders-with-api/fixture-readonly.json` independently records `total.amount: \"89.9\"`, `converted_amount: \"89.9\"`, USD, and two items at 44.95 each. The approved English desktop asset SHA256 is `b728ba41fdd9c004408a7153f0f8f9a0bfc6634d0d9e44485db3dfc7b120b08b`; the Spanish desktop asset is `ce7071cd6129d589df554b45f6ead105ef20ce3b1b4eeaf6eace613f34b4bb00`. Preview checks confirmed all four assets are unchanged and match their approved source hashes. The stated mismatch is not present, so no article or screenshot alteration is warranted.",
+              "url": "https://github.com/hellotext/help/pull/355#discussion_r4161785205",
+              "path": "_i18n/en/troubleshooting-deliverability/contact-hellotext-support.md",
+              "originalCommit": {
+                "oid": "57363ccda7f053934b2baa2cc43bed68e04c561a"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "PRRT_kwDOIVbAxs6oMBPM",
+        "isResolved": true,
+        "comments": {
+          "nodes": [
+            {
+              "id": "PRRC_kwDOIVbAxs74EBnE",
+              "body": "**<sub><sub>![P2 Badge](https://img.shields.io/badge/P2-yellow?style=flat)</sub></sub>  Direct Spanish readers to the localized contact form**\n\nThe primary instruction sends Spanish readers to `/contact/`, which the retained evidence confirms remains the English form with options such as \u201cI need help.\u201d Consequently, readers following this instruction will not see the Spanish labels described later in the same sentence, even though `/contacto` is already verified as the localized form; use that URL for the primary new-request link.\n\nUseful? React with \ud83d\udc4d\u00a0/ \ud83d\udc4e.",
+              "url": "https://github.com/hellotext/help/pull/355#discussion_r4161804740",
+              "path": "_i18n/es/troubleshooting-deliverability/contact-hellotext-support.md",
+              "originalCommit": {
+                "oid": "57363ccda7f053934b2baa2cc43bed68e04c561a"
+              }
+            },
+            {
+              "id": "PRRC_kwDOIVbAxs74EG16",
+              "body": "Fixed in verifier `d11c5e102d42e9f46635eeb6ced8c7936612382b` and its direct-child ledger `b0cae88a1f42e4330b2988b10d951138ed1c0d8b`. The primary Spanish new-request link now opens verified `/contacto`, matching Necesito ayuda/Quiero una demo. The original English `/contact/` link remains an explicit language choice; existing support@ correspondence and all original Liquid links are preserved. Both locale builds/security headers, six complete local browser views at1440/390/580 and twenty approved source/asset/both-build hashes passed again. Spanish intro layout inspected in all three widths with no overflow or enlargement. No form submission, new app capture or native image change. All previous commits remain in history; a new exact-head review is required before merge.",
+              "url": "https://github.com/hellotext/help/pull/355#discussion_r4161826170",
+              "path": "_i18n/es/troubleshooting-deliverability/contact-hellotext-support.md",
+              "originalCommit": {
+                "oid": "57363ccda7f053934b2baa2cc43bed68e04c561a"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "all_actual_comments_reviews_threads_read": true
+  },
+  "preview_verification": {
+    "head": "b0cae88a1f42e4330b2988b10d951138ed1c0d8b",
+    "preview_url": "https://deploy-preview-355--legendary-lollipop-e2d131.netlify.app",
+    "deployment": {
+      "id": "6abefbcadbf9000008e9db4e",
+      "context": "deploy-preview",
+      "commit_ref": "b0cae88a1f42e4330b2988b10d951138ed1c0d8b",
+      "state": "ready",
+      "review_id": 355
+    },
+    "pages": [
+      {
+        "url": "https://deploy-preview-355--legendary-lollipop-e2d131.netlify.app/es/contactar-soporte-hellotext",
+        "status": 200,
+        "article_key": "troubleshooting-deliverability/contact-hellotext-support.md",
+        "locale": "es",
+        "figures": 5,
+        "sections": 7,
+        "approved_assets_present": [
+          "/images/developers/custom-store-integration/business-es.png",
+          "/images/developers/custom-store-integration/business-es-mobile.png",
+          "/images/developers/orders-with-api/details-es.png",
+          "/images/developers/orders-with-api/details-es-mobile.png",
+          "/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-wide-desktop.png",
+          "/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-mobile-wide.png",
+          "/images/audience/customer-profiles/profile-fields-es.png",
+          "/images/audience/customer-profiles/profile-fields-es-mobile.png",
+          "/images/team/understanding-response-times/default-es.png",
+          "/images/team/understanding-response-times/default-es-mobile.png"
+        ],
+        "complete_article_matches_verified_build": true,
+        "article_sha256": "aa532b8d37980787e4ae9c0e6108eecb9f8a194bff6bbfde05f8e454349dc8d3",
+        "html_sha256": "1fa99e970af24d8185a85c31a7358753e0aab520347c7d27efad89d05aee0ec0"
+      },
+      {
+        "url": "https://deploy-preview-355--legendary-lollipop-e2d131.netlify.app/contact-hellotext-support",
+        "status": 200,
+        "article_key": "troubleshooting-deliverability/contact-hellotext-support.md",
+        "locale": "en",
+        "figures": 5,
+        "sections": 7,
+        "approved_assets_present": [
+          "/images/developers/custom-store-integration/business-en.png",
+          "/images/developers/custom-store-integration/business-en-mobile.png",
+          "/images/developers/orders-with-api/details-en.png",
+          "/images/developers/orders-with-api/details-en-mobile.png",
+          "/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-wide-desktop.png",
+          "/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile-wide.png",
+          "/images/audience/customer-profiles/profile-fields-en.png",
+          "/images/audience/customer-profiles/profile-fields-en-mobile.png",
+          "/images/team/understanding-response-times/default-en.png",
+          "/images/team/understanding-response-times/default-en-mobile.png"
+        ],
+        "complete_article_matches_verified_build": true,
+        "article_sha256": "0dd6794d6cc7303d36a8fdb4f873db6c295eb17df866a664f3e8cef6505f13c9",
+        "html_sha256": "7b0067e1dd8e75e9b2ec9490c04f8b9579e018fa12544e3324c48da8a46e9954"
+      }
+    ],
+    "assets": [
+      {
+        "url": "https://deploy-preview-355--legendary-lollipop-e2d131.netlify.app/images/developers/custom-store-integration/business-es.png",
+        "status": 200,
+        "sha256": "17ec399500cee235d73459ced0de47fac99054987976a56f4e09603150ef5dfb",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-355--legendary-lollipop-e2d131.netlify.app/images/developers/custom-store-integration/business-es-mobile.png",
+        "status": 200,
+        "sha256": "0c7ac4c233075fa5d072e27ac33e7947092bf6406858524ab12fa546be553ed8",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-355--legendary-lollipop-e2d131.netlify.app/images/developers/custom-store-integration/business-en.png",
+        "status": 200,
+        "sha256": "1f7f132b2245056eda5166b1b1cfdbeee406ebcf7bad4a13a6eb3fd501184d7f",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-355--legendary-lollipop-e2d131.netlify.app/images/developers/custom-store-integration/business-en-mobile.png",
+        "status": 200,
+        "sha256": "c7badab42d6878393ab746c2950605b8153dc38d60ac1ae09c747a949706bfeb",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-355--legendary-lollipop-e2d131.netlify.app/images/developers/orders-with-api/details-es.png",
+        "status": 200,
+        "sha256": "ce7071cd6129d589df554b45f6ead105ef20ce3b1b4eeaf6eace613f34b4bb00",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-355--legendary-lollipop-e2d131.netlify.app/images/developers/orders-with-api/details-es-mobile.png",
+        "status": 200,
+        "sha256": "002115693247a8d96672d24a28406f0c452db72eb2df13ad721a9f3d12102ad9",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-355--legendary-lollipop-e2d131.netlify.app/images/developers/orders-with-api/details-en.png",
+        "status": 200,
+        "sha256": "b728ba41fdd9c004408a7153f0f8f9a0bfc6634d0d9e44485db3dfc7b120b08b",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-355--legendary-lollipop-e2d131.netlify.app/images/developers/orders-with-api/details-en-mobile.png",
+        "status": 200,
+        "sha256": "8d44d00464fcffb4c98684b550a95fd7df0a64360333a384e3d6eefca81d44c0",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-355--legendary-lollipop-e2d131.netlify.app/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-wide-desktop.png",
+        "status": 200,
+        "sha256": "65bfef90c667cf5da787412ad4d2175652ea945e2b1c1c84c7fb4bdb6c9217fc",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-355--legendary-lollipop-e2d131.netlify.app/images/analytics-reporting-attribution/campaign-reporting/summary-period-es-mobile-wide.png",
+        "status": 200,
+        "sha256": "71136b3c75dbbe12a40ad787057309089b29f7d83b49f1ae1426ea91887e34e3",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-355--legendary-lollipop-e2d131.netlify.app/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-wide-desktop.png",
+        "status": 200,
+        "sha256": "470347c0697af60e59b6119e2c83bfb848fb9cbf69bd07ec4b14e451db40800e",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-355--legendary-lollipop-e2d131.netlify.app/images/analytics-reporting-attribution/campaign-reporting/summary-period-en-mobile-wide.png",
+        "status": 200,
+        "sha256": "244b1faacb31e3852d224f2db51c2efda234e4d57a54826aac83e726037efc36",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-355--legendary-lollipop-e2d131.netlify.app/images/audience/customer-profiles/profile-fields-es.png",
+        "status": 200,
+        "sha256": "bf1ee79e29d0ef384913cad51a1792ddf0050d75a5b4e138bd49df682e203b40",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-355--legendary-lollipop-e2d131.netlify.app/images/audience/customer-profiles/profile-fields-en.png",
+        "status": 200,
+        "sha256": "9bbb727226b2a20d5df4be2ca7612d29037b9d18d8e7e2ec488c407c54945f5d",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-355--legendary-lollipop-e2d131.netlify.app/images/audience/customer-profiles/profile-fields-es-mobile.png",
+        "status": 200,
+        "sha256": "1525d3add44bb64b93d457bb3353f8bfdd9fe0f1f99b84580aed0807db7829c3",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-355--legendary-lollipop-e2d131.netlify.app/images/audience/customer-profiles/profile-fields-en-mobile.png",
+        "status": 200,
+        "sha256": "0e2c6a1622ea73ec0fa008f5100b7ce5f04e2695cdb1aa2414c855db6ca760cb",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-355--legendary-lollipop-e2d131.netlify.app/images/team/understanding-response-times/default-es.png",
+        "status": 200,
+        "sha256": "339b5749ee334a9d43c5ba547e6d41248962a12c3854fd211e2bd982f04081d0",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-355--legendary-lollipop-e2d131.netlify.app/images/team/understanding-response-times/default-es-mobile.png",
+        "status": 200,
+        "sha256": "6e75d88d34ec270d7c1c65e424da76fbd1c27bd54975feda0fda196fa167455e",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-355--legendary-lollipop-e2d131.netlify.app/images/team/understanding-response-times/default-en.png",
+        "status": 200,
+        "sha256": "c377e27ca01cfa3614d3ca758985ec5a8b253d4bd3082d9b48cef4780a2cf6c3",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-355--legendary-lollipop-e2d131.netlify.app/images/team/understanding-response-times/default-en-mobile.png",
+        "status": 200,
+        "sha256": "a41cb142e4f4b31a3de34b0ce7af740611fa3f9063e675b3ec4c0ceb194f1c8e",
+        "matches_approved_asset": true,
+        "reused": true
+      }
+    ]
+  },
+  "earlier_record_332_limitation": "This genuine later content SHA published normally; it does not prove publication of ad6d6455d0671cda042dc5ef184f73c86d64f8fb. No manual deployment or retry."
+}
