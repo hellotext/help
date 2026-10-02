@@ -1,0 +1,920 @@
+{
+  "verified_at_utc": "2026-10-02T14:09:38.684875+00:00",
+  "production_deploy_id_sha_association": {
+    "id": "6abfbad56a62950009ca88c4",
+    "site_id": "d66a79c1-b5de-44d1-bc47-bc7809f7f3b3",
+    "state": "ready",
+    "context": "production",
+    "branch": "main",
+    "commit_ref": "756dc032dabd62227922dfa59f1a194c46b2aab3",
+    "review_id": null,
+    "created_at": "2026-10-02T14:08:21.904Z",
+    "published_at": "2026-10-02T14:08:58.240Z",
+    "deploy_ssl_url": "https://main--legendary-lollipop-e2d131.netlify.app"
+  },
+  "deployment_method": "Normal Netlify from Git; no manual deploy/retry. Actual public site-alias listing confirms exact commit_ref.",
+  "pages": [
+    {
+      "url": "https://help.hellotext.com/es/fundamentos-instagram-dm",
+      "status": 200,
+      "locale": "es",
+      "article_key": "numbers/instagram-dm-fundamentals.md",
+      "figures": 6,
+      "sections": 11,
+      "complete_article_matches_verified_build": true,
+      "approved_assets_present": [
+        "/images/numbers/message-editor-basics/link-es.png",
+        "/images/numbers/message-editor-basics/link-es-mobile.png",
+        "/images/team/understanding-response-times/channel-es.png",
+        "/images/team/understanding-response-times/channel-es-mobile.png",
+        "/images/team/understanding-response-times/technology-es.png",
+        "/images/team/understanding-response-times/technology-es-mobile.png",
+        "/images/team/ai-handoff-to-inbox/assignment-es.png",
+        "/images/team/ai-handoff-to-inbox/assignment-es-mobile.png",
+        "/images/audience/customer-profiles/profile-fields-es.png",
+        "/images/audience/customer-profiles/profile-fields-es-mobile.png",
+        "/images/captures/property-collector/channels-es.png",
+        "/images/captures/property-collector/channels-es-mobile.png"
+      ],
+      "article_sha256": "99adfaf40095914ac49e8497877a320f7510ac7a94f3f2efdbda1502769c9ba6",
+      "html_sha256": "25f665d081b0e9377218fc6917890efd463485530f3715703546b29b4ad306d6"
+    },
+    {
+      "url": "https://help.hellotext.com/instagram-dm-fundamentals",
+      "status": 200,
+      "locale": "en",
+      "article_key": "numbers/instagram-dm-fundamentals.md",
+      "figures": 6,
+      "sections": 11,
+      "complete_article_matches_verified_build": true,
+      "approved_assets_present": [
+        "/images/numbers/message-editor-basics/link-en.png",
+        "/images/numbers/message-editor-basics/link-en-mobile.png",
+        "/images/team/understanding-response-times/channel-en.png",
+        "/images/team/understanding-response-times/channel-en-mobile.png",
+        "/images/team/understanding-response-times/technology-en.png",
+        "/images/team/understanding-response-times/technology-en-mobile.png",
+        "/images/team/ai-handoff-to-inbox/assignment-en.png",
+        "/images/team/ai-handoff-to-inbox/assignment-en-mobile.png",
+        "/images/audience/customer-profiles/profile-fields-en.png",
+        "/images/audience/customer-profiles/profile-fields-en-mobile.png",
+        "/images/captures/property-collector/channels-en.png",
+        "/images/captures/property-collector/channels-en-mobile.png"
+      ],
+      "article_sha256": "7f3e36522784761642650342b77f4cba2812bc1c5770eb8d7c0e1ac9344a199f",
+      "html_sha256": "0987fb1d277e49fe5bba6db34c8fc031a2547a284a529842a46440f91e8540b3"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://help.hellotext.com/images/numbers/message-editor-basics/link-es.png",
+      "status": 200,
+      "sha256": "ecae4a8faae7de2738bdea87c8ea1896e7cf62303c129769905b2050f8ffe288",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/numbers/message-editor-basics/link-es-mobile.png",
+      "status": 200,
+      "sha256": "e0d87adab619006f594d72e9bd1590f79bdc8bf1333fb272bdcfcd4ff672d4f5",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/numbers/message-editor-basics/link-en.png",
+      "status": 200,
+      "sha256": "ee72b8b34eec69b1161ad3fc71b2b51aff5fc1abc6b597b15c6f5f89a6837f07",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/numbers/message-editor-basics/link-en-mobile.png",
+      "status": 200,
+      "sha256": "51ea1259208d02a2e908389187c37282e68d5b2e3cd8e80550257fc043c6a9fe",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-response-times/channel-es.png",
+      "status": 200,
+      "sha256": "7b814dac69a499188aefcfd7f3fec160d44400d790eb997d47d6f47cf805a7b0",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-response-times/channel-es-mobile.png",
+      "status": 200,
+      "sha256": "74dae0acd6a53aab786b49b8845bf41bd966bf15e3184c6f952dc15823cee31f",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-response-times/technology-es.png",
+      "status": 200,
+      "sha256": "6abcce4baf749e138f4bd995b2a63f20cefbaf404b8e1e48c97c6a0772e4c197",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-response-times/technology-es-mobile.png",
+      "status": 200,
+      "sha256": "b0556faf2a11f2af702e5d533f40d2fcd651fbff783cca55dec9f920f27cbce2",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-response-times/channel-en.png",
+      "status": 200,
+      "sha256": "0ad92dfa7162f469211ccfb870933f3dada0b1fb7a08420248b5fda644341b6c",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-response-times/channel-en-mobile.png",
+      "status": 200,
+      "sha256": "328460ee502502c09bd4c325ed15d4a9885f8254b310060d0cfd4d19a82c4bd3",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-response-times/technology-en.png",
+      "status": 200,
+      "sha256": "6abcce4baf749e138f4bd995b2a63f20cefbaf404b8e1e48c97c6a0772e4c197",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/understanding-response-times/technology-en-mobile.png",
+      "status": 200,
+      "sha256": "b0556faf2a11f2af702e5d533f40d2fcd651fbff783cca55dec9f920f27cbce2",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/ai-handoff-to-inbox/assignment-es.png",
+      "status": 200,
+      "sha256": "db457b25763dd6a25ab63f08d9458bad3dda3f8b94742fcea626cb0b7773d91b",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/ai-handoff-to-inbox/assignment-es-mobile.png",
+      "status": 200,
+      "sha256": "76be7e894a13a02c072086a6084ab1e38ceb5520a0f4518026ec9ab805797dcf",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/ai-handoff-to-inbox/assignment-en.png",
+      "status": 200,
+      "sha256": "8dbe38274d6b7b6754262c448dd149be8174cd1922b7a81e6420299a62d5673a",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/ai-handoff-to-inbox/assignment-en-mobile.png",
+      "status": 200,
+      "sha256": "859f3b87ad11fea2952c91df5a0d57e3d833b3b7acfa033094283d223a7573ef",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/audience/customer-profiles/profile-fields-es.png",
+      "status": 200,
+      "sha256": "bf1ee79e29d0ef384913cad51a1792ddf0050d75a5b4e138bd49df682e203b40",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/audience/customer-profiles/profile-fields-en.png",
+      "status": 200,
+      "sha256": "9bbb727226b2a20d5df4be2ca7612d29037b9d18d8e7e2ec488c407c54945f5d",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/audience/customer-profiles/profile-fields-es-mobile.png",
+      "status": 200,
+      "sha256": "1525d3add44bb64b93d457bb3353f8bfdd9fe0f1f99b84580aed0807db7829c3",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/audience/customer-profiles/profile-fields-en-mobile.png",
+      "status": 200,
+      "sha256": "0e2c6a1622ea73ec0fa008f5100b7ce5f04e2695cdb1aa2414c855db6ca760cb",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/property-collector/channels-es.png",
+      "status": 200,
+      "sha256": "09a69bcc4d04170870d9e7123c84391069810694179dc20ac44248df0abc1571",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/property-collector/channels-en.png",
+      "status": 200,
+      "sha256": "fed5b1e6710e0f6ad456ee06a4cae92680c2d85f1a78fef79dbe95d08a18222d",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/property-collector/channels-es-mobile.png",
+      "status": 200,
+      "sha256": "213da9d4c0fa8688e03ce9f368928e7df240b1d538670285a437c5935c0a24a3",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/property-collector/channels-en-mobile.png",
+      "status": 200,
+      "sha256": "260918096cf05d4ac82990773682e76fa51ea9b3478ab6e6305d67cc8fcbaf0e",
+      "matches_approved_asset": true,
+      "reused": true
+    }
+  ],
+  "new_captures": 0,
+  "new_png_uploads": 0,
+  "reused_pngs": 24,
+  "verified_git_main_sha": "756dc032dabd62227922dfa59f1a194c46b2aab3",
+  "main_build": {
+    "conclusion": "success",
+    "databaseId": 37017771334,
+    "event": "push",
+    "headSha": "756dc032dabd62227922dfa59f1a194c46b2aab3",
+    "name": "Build",
+    "status": "completed",
+    "url": "https://github.com/hellotext/help/actions/runs/37017771334",
+    "workflowName": "Build"
+  },
+  "content_pr": "https://github.com/hellotext/help/pull/379",
+  "content_pr_head": "6d716506af6bbbbd42fb30596fee08cbd95e432f",
+  "individual_commits_preserved": [
+    "4a707bd63db12e5e91b311fe66e2c5c71c8a960f",
+    "6d716506af6bbbbd42fb30596fee08cbd95e432f"
+  ],
+  "unresolved_review_threads_before_merge": 0,
+  "pre_merge_review": {
+    "head": "6d716506af6bbbbd42fb30596fee08cbd95e432f",
+    "state": "OPEN",
+    "mergeStateStatus": "CLEAN",
+    "checks": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-02T14:02:39Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/hellotext/help/actions/runs/37017041430/job/110870353806",
+        "name": "build",
+        "startedAt": "2026-10-02T14:02:07Z",
+        "status": "COMPLETED",
+        "workflowName": "Build"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-02T14:02:43Z",
+        "conclusion": "NEUTRAL",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abfb95b3a83170008d26016",
+        "name": "Pages changed - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-02T14:02:06Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-02T14:02:43Z",
+        "conclusion": "NEUTRAL",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abfb95b3a83170008d26016",
+        "name": "Redirect rules - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-02T14:02:06Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-02T14:02:30Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://app.aikido.dev/featurebranch/scan/210480565?groupId=34029",
+        "name": "Aikido Security: check code",
+        "startedAt": "2026-10-02T14:02:04Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-02T14:02:43Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abfb95b3a83170008d26016",
+        "name": "Header rules - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-02T14:02:06Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "StatusContext",
+        "context": "netlify/legendary-lollipop-e2d131/deploy-preview",
+        "startedAt": "2026-10-02T14:02:45Z",
+        "state": "SUCCESS",
+        "targetUrl": "https://deploy-preview-379--legendary-lollipop-e2d131.netlify.app"
+      }
+    ],
+    "comments": [
+      {
+        "url": "https://api.github.com/repos/hellotext/help/issues/comments/5954135036",
+        "html_url": "https://github.com/hellotext/help/pull/379#issuecomment-5954135036",
+        "issue_url": "https://api.github.com/repos/hellotext/help/issues/379",
+        "id": 5954135036,
+        "node_id": "IC_kwDOIVbAxs8AAAABYuTj_A",
+        "user": {
+          "login": "netlify[bot]",
+          "id": 40209326,
+          "node_id": "MDM6Qm90NDAyMDkzMjY=",
+          "avatar_url": "https://avatars.githubusercontent.com/in/13473?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/netlify%5Bbot%5D",
+          "html_url": "https://github.com/apps/netlify",
+          "followers_url": "https://api.github.com/users/netlify%5Bbot%5D/followers",
+          "following_url": "https://api.github.com/users/netlify%5Bbot%5D/following{/other_user}",
+          "gists_url": "https://api.github.com/users/netlify%5Bbot%5D/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/netlify%5Bbot%5D/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/netlify%5Bbot%5D/subscriptions",
+          "organizations_url": "https://api.github.com/users/netlify%5Bbot%5D/orgs",
+          "repos_url": "https://api.github.com/users/netlify%5Bbot%5D/repos",
+          "events_url": "https://api.github.com/users/netlify%5Bbot%5D/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/netlify%5Bbot%5D/received_events",
+          "type": "Bot",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "created_at": "2026-10-02T14:02:08Z",
+        "updated_at": "2026-10-02T14:02:47Z",
+        "body": "### <span aria-hidden=\"true\">\u2705</span> Deploy Preview for *legendary-lollipop-e2d131* ready!\n\n\n|  Name | Link |\n|:-:|------------------------|\n|<span aria-hidden=\"true\">\ud83d\udd28</span> Latest commit | 6d716506af6bbbbd42fb30596fee08cbd95e432f |\n|<span aria-hidden=\"true\">\ud83d\udd0d</span> Latest deploy log | https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abfb95b3a83170008d26016 |\n|<span aria-hidden=\"true\">\ud83d\ude0e</span> Deploy Preview | [https://deploy-preview-379--legendary-lollipop-e2d131.netlify.app](https://deploy-preview-379--legendary-lollipop-e2d131.netlify.app) |\n|<span aria-hidden=\"true\">\ud83d\udcf1</span> Preview on mobile | <details><summary> Toggle QR Code... </summary><br /><br />![QR Code](https://app.netlify.com/qr-code/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJodHRwczovL2RlcGxveS1wcmV2aWV3LTM3OS0tbGVnZW5kYXJ5LWxvbGxpcG9wLWUyZDEzMS5uZXRsaWZ5LmFwcCJ9.9OTG4Vy2WTSs36sYhM6UrmlD6wm47nHB7tQE-oK6B_E)<br /><br />_Use your smartphone camera to open QR code link._</details> |\n|<span aria-hidden=\"true\">\ud83e\udd16</span> Make changes | [Run an agent on this branch](https://app.netlify.com/projects/legendary-lollipop-e2d131/agent-runs#DctLCoAgEADQu8w6SYvsc4OOMTZqQX5QgyK6e-7e5r0QU3CxwALQgErot716C6Tv9vC5oE3oGDlmLk_otC94Zmavg3QNpOMZnpVqkaiMmgfV49SLkXM-USe5kPD9) |\n---\n<!-- [legendary-lollipop-e2d131 Preview](https://deploy-preview-379--legendary-lollipop-e2d131.netlify.app) -->\n_To edit notification comments on pull requests, go to your [Netlify project configuration](https://app.netlify.com/projects/legendary-lollipop-e2d131/configuration/notifications#deploy-notifications)._",
+        "author_association": "NONE",
+        "reactions": {
+          "url": "https://api.github.com/repos/hellotext/help/issues/comments/5954135036/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "performed_via_github_app": {
+          "id": 13473,
+          "client_id": "Iv1.0acdee22e0bba5eb",
+          "slug": "netlify",
+          "node_id": "MDM6QXBwMTM0NzM=",
+          "owner": {
+            "login": "netlify",
+            "id": 7892489,
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjc4OTI0ODk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/7892489?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/netlify",
+            "html_url": "https://github.com/netlify",
+            "followers_url": "https://api.github.com/users/netlify/followers",
+            "following_url": "https://api.github.com/users/netlify/following{/other_user}",
+            "gists_url": "https://api.github.com/users/netlify/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/netlify/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/netlify/subscriptions",
+            "organizations_url": "https://api.github.com/users/netlify/orgs",
+            "repos_url": "https://api.github.com/users/netlify/repos",
+            "events_url": "https://api.github.com/users/netlify/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/netlify/received_events",
+            "type": "Organization",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "name": "Netlify",
+          "description": "Publish incredibly high performance websites and applications right from GitHub. The Netlify platform connects your repositories to an all-in-one workflow for global CDN deployment, continuous integration, and automatic (and free) HTTPS. Each time you commit changes, Netlify builds your site, prerenders markup, and optimizes assets on dedicated build infrastructure. Easily create an entirely automated workflows for your web applications\r\n\r\n## Features\r\n\r\n### Push your site live, directly from GitHub\r\nDeploy your site to an ultra-redundant global CDN that\u2019s purpose built for serving pages and assets quickly and consistently.\r\n\r\n### Automate deployment\r\nNetlify\u2019s built-in Continuous Deployment automatically runs your build commands and deploys the result whenever you push to your Git repository.\r\n\r\n### Add a custom domain\r\nPurchase domains and manage DNS zones and records right inside of Netlify.\r\n\r\n### HTTPS is automatic\r\nYour site will automatically be secured with a free TLS certificate from Let\u2019s Encrypt.\r\n\r\n### Deploy Previews\r\nNetlify\u2019s Deploy Previews streamlined your workflow by giving you a unique, permanent URL to check what your changes will be like in production whenever you submit a pull request.\r\n\r\n### And a lot more!\r\nNetlify includes solutions for forms, identity, and even custom functions powered by AWS Lambda. And all this functionality can be configured directly in your repo.\r\n",
+          "external_url": "https://www.netlify.com",
+          "html_url": "https://github.com/apps/netlify",
+          "created_at": "2018-06-12T15:16:51Z",
+          "updated_at": "2025-07-17T12:19:42Z",
+          "permissions": {
+            "checks": "write",
+            "contents": "read",
+            "emails": "read",
+            "issues": "write",
+            "metadata": "read",
+            "pull_requests": "write",
+            "statuses": "write"
+          },
+          "events": [
+            "create",
+            "delete",
+            "issue_comment",
+            "pull_request",
+            "pull_request_review",
+            "pull_request_review_comment",
+            "push"
+          ]
+        },
+        "minimized": null
+      },
+      {
+        "url": "https://api.github.com/repos/hellotext/help/issues/comments/5954136744",
+        "html_url": "https://github.com/hellotext/help/pull/379#issuecomment-5954136744",
+        "issue_url": "https://api.github.com/repos/hellotext/help/issues/379",
+        "id": 5954136744,
+        "node_id": "IC_kwDOIVbAxs8AAAABYuTqqA",
+        "user": {
+          "login": "pelcasandra",
+          "id": 295996,
+          "node_id": "MDQ6VXNlcjI5NTk5Ng==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/295996?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/pelcasandra",
+          "html_url": "https://github.com/pelcasandra",
+          "followers_url": "https://api.github.com/users/pelcasandra/followers",
+          "following_url": "https://api.github.com/users/pelcasandra/following{/other_user}",
+          "gists_url": "https://api.github.com/users/pelcasandra/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/pelcasandra/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/pelcasandra/subscriptions",
+          "organizations_url": "https://api.github.com/users/pelcasandra/orgs",
+          "repos_url": "https://api.github.com/users/pelcasandra/repos",
+          "events_url": "https://api.github.com/users/pelcasandra/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/pelcasandra/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "created_at": "2026-10-02T14:02:13Z",
+        "updated_at": "2026-10-02T14:02:13Z",
+        "body": "@codex review",
+        "author_association": "MEMBER",
+        "reactions": {
+          "url": "https://api.github.com/repos/hellotext/help/issues/comments/5954136744/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "performed_via_github_app": null,
+        "minimized": null
+      },
+      {
+        "url": "https://api.github.com/repos/hellotext/help/issues/comments/5954136962",
+        "html_url": "https://github.com/hellotext/help/pull/379#issuecomment-5954136962",
+        "issue_url": "https://api.github.com/repos/hellotext/help/issues/379",
+        "id": 5954136962,
+        "node_id": "IC_kwDOIVbAxs8AAAABYuTrgg",
+        "user": {
+          "login": "chatgpt-codex-connector[bot]",
+          "id": 199175422,
+          "node_id": "BOT_kgDOC98s_g",
+          "avatar_url": "https://avatars.githubusercontent.com/in/1144995?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/chatgpt-codex-connector%5Bbot%5D",
+          "html_url": "https://github.com/apps/chatgpt-codex-connector",
+          "followers_url": "https://api.github.com/users/chatgpt-codex-connector%5Bbot%5D/followers",
+          "following_url": "https://api.github.com/users/chatgpt-codex-connector%5Bbot%5D/following{/other_user}",
+          "gists_url": "https://api.github.com/users/chatgpt-codex-connector%5Bbot%5D/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/chatgpt-codex-connector%5Bbot%5D/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/chatgpt-codex-connector%5Bbot%5D/subscriptions",
+          "organizations_url": "https://api.github.com/users/chatgpt-codex-connector%5Bbot%5D/orgs",
+          "repos_url": "https://api.github.com/users/chatgpt-codex-connector%5Bbot%5D/repos",
+          "events_url": "https://api.github.com/users/chatgpt-codex-connector%5Bbot%5D/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/chatgpt-codex-connector%5Bbot%5D/received_events",
+          "type": "Bot",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "created_at": "2026-10-02T14:02:13Z",
+        "updated_at": "2026-10-02T14:06:54Z",
+        "body": "<!-- codex-pull-request-review-summary -->\n\n## Codex Review Summary\n\nThis comment shows the latest Codex review activity on this pull request.\n\n| Review | Status | Commit | Review trigger |\n| --- | --- | --- | --- |\n| \ud83d\udcdd **Code Review** | \u2705 **Completed** <relative-time datetime=\"2026-10-02T14:06:53.850520Z\">2026-10-02T14:06:53.850520Z</relative-time> | `6d71650` | Manual request |\n\n\n\n<details> <summary>\u2139\ufe0f About Codex in GitHub</summary>\n<br/>\n\n[Your team has set up Codex to review pull requests in this repo](https://chatgpt.com/codex/cloud/settings/general). Reviews are triggered when you\n- Open a pull request for review\n- Mark a draft as ready\n- Comment \"@codex review\" or \"@codex security review\".\n\nCodex reacts with \ud83d\udc40 while any review is running, comments if it has suggestions, and reacts with \ud83d\udc4d once all reviews finish with no findings.\n\n</details>",
+        "author_association": "NONE",
+        "reactions": {
+          "url": "https://api.github.com/repos/hellotext/help/issues/comments/5954136962/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "performed_via_github_app": {
+          "id": 1144995,
+          "client_id": "Iv23liVemv8A9if9v0F2",
+          "slug": "chatgpt-codex-connector",
+          "node_id": "A_kwHOAOQ6Gs4AEXij",
+          "owner": {
+            "login": "openai",
+            "id": 14957082,
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE0OTU3MDgy",
+            "avatar_url": "https://avatars.githubusercontent.com/u/14957082?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/openai",
+            "html_url": "https://github.com/openai",
+            "followers_url": "https://api.github.com/users/openai/followers",
+            "following_url": "https://api.github.com/users/openai/following{/other_user}",
+            "gists_url": "https://api.github.com/users/openai/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/openai/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/openai/subscriptions",
+            "organizations_url": "https://api.github.com/users/openai/orgs",
+            "repos_url": "https://api.github.com/users/openai/repos",
+            "events_url": "https://api.github.com/users/openai/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/openai/received_events",
+            "type": "Organization",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "name": "ChatGPT Codex Connector",
+          "description": "Bring ChatGPT and Codex to your GitHub repositories.",
+          "external_url": "https://www.chatgpt.com",
+          "html_url": "https://github.com/apps/chatgpt-codex-connector",
+          "created_at": "2025-02-14T01:37:05Z",
+          "updated_at": "2026-09-23T18:52:59Z",
+          "permissions": {
+            "actions": "write",
+            "checks": "read",
+            "contents": "write",
+            "emails": "read",
+            "issues": "write",
+            "metadata": "read",
+            "pull_requests": "write",
+            "statuses": "read",
+            "workflows": "write"
+          },
+          "events": [
+            "check_run",
+            "check_suite",
+            "commit_comment",
+            "issues",
+            "issue_comment",
+            "pull_request",
+            "pull_request_review",
+            "pull_request_review_comment",
+            "pull_request_review_thread",
+            "repository",
+            "status",
+            "sub_issues"
+          ]
+        },
+        "minimized": null
+      },
+      {
+        "url": "https://api.github.com/repos/hellotext/help/issues/comments/5954247830",
+        "html_url": "https://github.com/hellotext/help/pull/379#issuecomment-5954247830",
+        "issue_url": "https://api.github.com/repos/hellotext/help/issues/379",
+        "id": 5954247830,
+        "node_id": "IC_kwDOIVbAxs8AAAABYuaclg",
+        "user": {
+          "login": "chatgpt-codex-connector[bot]",
+          "id": 199175422,
+          "node_id": "BOT_kgDOC98s_g",
+          "avatar_url": "https://avatars.githubusercontent.com/in/1144995?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/chatgpt-codex-connector%5Bbot%5D",
+          "html_url": "https://github.com/apps/chatgpt-codex-connector",
+          "followers_url": "https://api.github.com/users/chatgpt-codex-connector%5Bbot%5D/followers",
+          "following_url": "https://api.github.com/users/chatgpt-codex-connector%5Bbot%5D/following{/other_user}",
+          "gists_url": "https://api.github.com/users/chatgpt-codex-connector%5Bbot%5D/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/chatgpt-codex-connector%5Bbot%5D/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/chatgpt-codex-connector%5Bbot%5D/subscriptions",
+          "organizations_url": "https://api.github.com/users/chatgpt-codex-connector%5Bbot%5D/orgs",
+          "repos_url": "https://api.github.com/users/chatgpt-codex-connector%5Bbot%5D/repos",
+          "events_url": "https://api.github.com/users/chatgpt-codex-connector%5Bbot%5D/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/chatgpt-codex-connector%5Bbot%5D/received_events",
+          "type": "Bot",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "created_at": "2026-10-02T14:06:52Z",
+        "updated_at": "2026-10-02T14:06:52Z",
+        "body": "Codex Review: Didn't find any major issues. Chef's kiss.\n\n**Reviewed commit:** `6d716506af`\n\n<details> <summary>\u2139\ufe0f About Codex in GitHub</summary>\n<br/>\n\n[Your team has set up Codex to review pull requests in this repo](https://chatgpt.com/codex/cloud/settings/general). Reviews are triggered when you\n- Open a pull request for review\n- Mark a draft as ready\n- Comment \"@codex review\".\n\nIf Codex has suggestions, it will comment; otherwise it will react with \ud83d\udc4d.\n\n\n\n\nCodex can also answer questions or update the PR. Try commenting \"@codex address that feedback\".\n            \n</details>",
+        "author_association": "NONE",
+        "reactions": {
+          "url": "https://api.github.com/repos/hellotext/help/issues/comments/5954247830/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "performed_via_github_app": {
+          "id": 1144995,
+          "client_id": "Iv23liVemv8A9if9v0F2",
+          "slug": "chatgpt-codex-connector",
+          "node_id": "A_kwHOAOQ6Gs4AEXij",
+          "owner": {
+            "login": "openai",
+            "id": 14957082,
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE0OTU3MDgy",
+            "avatar_url": "https://avatars.githubusercontent.com/u/14957082?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/openai",
+            "html_url": "https://github.com/openai",
+            "followers_url": "https://api.github.com/users/openai/followers",
+            "following_url": "https://api.github.com/users/openai/following{/other_user}",
+            "gists_url": "https://api.github.com/users/openai/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/openai/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/openai/subscriptions",
+            "organizations_url": "https://api.github.com/users/openai/orgs",
+            "repos_url": "https://api.github.com/users/openai/repos",
+            "events_url": "https://api.github.com/users/openai/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/openai/received_events",
+            "type": "Organization",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "name": "ChatGPT Codex Connector",
+          "description": "Bring ChatGPT and Codex to your GitHub repositories.",
+          "external_url": "https://www.chatgpt.com",
+          "html_url": "https://github.com/apps/chatgpt-codex-connector",
+          "created_at": "2025-02-14T01:37:05Z",
+          "updated_at": "2026-09-23T18:52:59Z",
+          "permissions": {
+            "actions": "write",
+            "checks": "read",
+            "contents": "write",
+            "emails": "read",
+            "issues": "write",
+            "metadata": "read",
+            "pull_requests": "write",
+            "statuses": "read",
+            "workflows": "write"
+          },
+          "events": [
+            "check_run",
+            "check_suite",
+            "commit_comment",
+            "issues",
+            "issue_comment",
+            "pull_request",
+            "pull_request_review",
+            "pull_request_review_comment",
+            "pull_request_review_thread",
+            "repository",
+            "status",
+            "sub_issues"
+          ]
+        },
+        "minimized": null
+      }
+    ],
+    "reviews": [],
+    "inline_comments": [],
+    "threads": [],
+    "pagination_complete": true
+  },
+  "preview_verification": {
+    "verified_at_utc": "2026-10-02T14:05:02.040557+00:00",
+    "verified_git_sha": "6d716506af6bbbbd42fb30596fee08cbd95e432f",
+    "production_deploy_id_sha_association": {
+      "id": "6abfb95b3a83170008d26016",
+      "site_id": "d66a79c1-b5de-44d1-bc47-bc7809f7f3b3",
+      "state": "ready",
+      "context": "deploy-preview",
+      "branch": "codex/instagram-dm-fundamentals-guide",
+      "commit_ref": "6d716506af6bbbbd42fb30596fee08cbd95e432f",
+      "review_id": 379,
+      "created_at": "2026-10-02T14:02:03.405Z",
+      "published_at": null,
+      "deploy_ssl_url": "https://deploy-preview-379--legendary-lollipop-e2d131.netlify.app"
+    },
+    "deployment_method": "Normal Netlify from Git; no manual deploy/retry. Actual public site-alias listing confirms exact commit_ref.",
+    "pages": [
+      {
+        "url": "https://deploy-preview-379--legendary-lollipop-e2d131.netlify.app/es/fundamentos-instagram-dm",
+        "status": 200,
+        "locale": "es",
+        "article_key": "numbers/instagram-dm-fundamentals.md",
+        "figures": 6,
+        "sections": 11,
+        "complete_article_matches_verified_build": true,
+        "approved_assets_present": [
+          "/images/numbers/message-editor-basics/link-es.png",
+          "/images/numbers/message-editor-basics/link-es-mobile.png",
+          "/images/team/understanding-response-times/channel-es.png",
+          "/images/team/understanding-response-times/channel-es-mobile.png",
+          "/images/team/understanding-response-times/technology-es.png",
+          "/images/team/understanding-response-times/technology-es-mobile.png",
+          "/images/team/ai-handoff-to-inbox/assignment-es.png",
+          "/images/team/ai-handoff-to-inbox/assignment-es-mobile.png",
+          "/images/audience/customer-profiles/profile-fields-es.png",
+          "/images/audience/customer-profiles/profile-fields-es-mobile.png",
+          "/images/captures/property-collector/channels-es.png",
+          "/images/captures/property-collector/channels-es-mobile.png"
+        ],
+        "article_sha256": "99adfaf40095914ac49e8497877a320f7510ac7a94f3f2efdbda1502769c9ba6",
+        "html_sha256": "32e56b72c178e7aae4cfb183c6d37259fd284892d209f720c716d55d1681d740"
+      },
+      {
+        "url": "https://deploy-preview-379--legendary-lollipop-e2d131.netlify.app/instagram-dm-fundamentals",
+        "status": 200,
+        "locale": "en",
+        "article_key": "numbers/instagram-dm-fundamentals.md",
+        "figures": 6,
+        "sections": 11,
+        "complete_article_matches_verified_build": true,
+        "approved_assets_present": [
+          "/images/numbers/message-editor-basics/link-en.png",
+          "/images/numbers/message-editor-basics/link-en-mobile.png",
+          "/images/team/understanding-response-times/channel-en.png",
+          "/images/team/understanding-response-times/channel-en-mobile.png",
+          "/images/team/understanding-response-times/technology-en.png",
+          "/images/team/understanding-response-times/technology-en-mobile.png",
+          "/images/team/ai-handoff-to-inbox/assignment-en.png",
+          "/images/team/ai-handoff-to-inbox/assignment-en-mobile.png",
+          "/images/audience/customer-profiles/profile-fields-en.png",
+          "/images/audience/customer-profiles/profile-fields-en-mobile.png",
+          "/images/captures/property-collector/channels-en.png",
+          "/images/captures/property-collector/channels-en-mobile.png"
+        ],
+        "article_sha256": "7f3e36522784761642650342b77f4cba2812bc1c5770eb8d7c0e1ac9344a199f",
+        "html_sha256": "2a466de1d0d7b9a040124f9961f6b370f4844e6f5eef067590145595bf6cc8bc"
+      }
+    ],
+    "assets": [
+      {
+        "url": "https://deploy-preview-379--legendary-lollipop-e2d131.netlify.app/images/numbers/message-editor-basics/link-es.png",
+        "status": 200,
+        "sha256": "ecae4a8faae7de2738bdea87c8ea1896e7cf62303c129769905b2050f8ffe288",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-379--legendary-lollipop-e2d131.netlify.app/images/numbers/message-editor-basics/link-es-mobile.png",
+        "status": 200,
+        "sha256": "e0d87adab619006f594d72e9bd1590f79bdc8bf1333fb272bdcfcd4ff672d4f5",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-379--legendary-lollipop-e2d131.netlify.app/images/numbers/message-editor-basics/link-en.png",
+        "status": 200,
+        "sha256": "ee72b8b34eec69b1161ad3fc71b2b51aff5fc1abc6b597b15c6f5f89a6837f07",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-379--legendary-lollipop-e2d131.netlify.app/images/numbers/message-editor-basics/link-en-mobile.png",
+        "status": 200,
+        "sha256": "51ea1259208d02a2e908389187c37282e68d5b2e3cd8e80550257fc043c6a9fe",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-379--legendary-lollipop-e2d131.netlify.app/images/team/understanding-response-times/channel-es.png",
+        "status": 200,
+        "sha256": "7b814dac69a499188aefcfd7f3fec160d44400d790eb997d47d6f47cf805a7b0",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-379--legendary-lollipop-e2d131.netlify.app/images/team/understanding-response-times/channel-es-mobile.png",
+        "status": 200,
+        "sha256": "74dae0acd6a53aab786b49b8845bf41bd966bf15e3184c6f952dc15823cee31f",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-379--legendary-lollipop-e2d131.netlify.app/images/team/understanding-response-times/technology-es.png",
+        "status": 200,
+        "sha256": "6abcce4baf749e138f4bd995b2a63f20cefbaf404b8e1e48c97c6a0772e4c197",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-379--legendary-lollipop-e2d131.netlify.app/images/team/understanding-response-times/technology-es-mobile.png",
+        "status": 200,
+        "sha256": "b0556faf2a11f2af702e5d533f40d2fcd651fbff783cca55dec9f920f27cbce2",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-379--legendary-lollipop-e2d131.netlify.app/images/team/understanding-response-times/channel-en.png",
+        "status": 200,
+        "sha256": "0ad92dfa7162f469211ccfb870933f3dada0b1fb7a08420248b5fda644341b6c",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-379--legendary-lollipop-e2d131.netlify.app/images/team/understanding-response-times/channel-en-mobile.png",
+        "status": 200,
+        "sha256": "328460ee502502c09bd4c325ed15d4a9885f8254b310060d0cfd4d19a82c4bd3",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-379--legendary-lollipop-e2d131.netlify.app/images/team/understanding-response-times/technology-en.png",
+        "status": 200,
+        "sha256": "6abcce4baf749e138f4bd995b2a63f20cefbaf404b8e1e48c97c6a0772e4c197",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-379--legendary-lollipop-e2d131.netlify.app/images/team/understanding-response-times/technology-en-mobile.png",
+        "status": 200,
+        "sha256": "b0556faf2a11f2af702e5d533f40d2fcd651fbff783cca55dec9f920f27cbce2",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-379--legendary-lollipop-e2d131.netlify.app/images/team/ai-handoff-to-inbox/assignment-es.png",
+        "status": 200,
+        "sha256": "db457b25763dd6a25ab63f08d9458bad3dda3f8b94742fcea626cb0b7773d91b",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-379--legendary-lollipop-e2d131.netlify.app/images/team/ai-handoff-to-inbox/assignment-es-mobile.png",
+        "status": 200,
+        "sha256": "76be7e894a13a02c072086a6084ab1e38ceb5520a0f4518026ec9ab805797dcf",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-379--legendary-lollipop-e2d131.netlify.app/images/team/ai-handoff-to-inbox/assignment-en.png",
+        "status": 200,
+        "sha256": "8dbe38274d6b7b6754262c448dd149be8174cd1922b7a81e6420299a62d5673a",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-379--legendary-lollipop-e2d131.netlify.app/images/team/ai-handoff-to-inbox/assignment-en-mobile.png",
+        "status": 200,
+        "sha256": "859f3b87ad11fea2952c91df5a0d57e3d833b3b7acfa033094283d223a7573ef",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-379--legendary-lollipop-e2d131.netlify.app/images/audience/customer-profiles/profile-fields-es.png",
+        "status": 200,
+        "sha256": "bf1ee79e29d0ef384913cad51a1792ddf0050d75a5b4e138bd49df682e203b40",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-379--legendary-lollipop-e2d131.netlify.app/images/audience/customer-profiles/profile-fields-en.png",
+        "status": 200,
+        "sha256": "9bbb727226b2a20d5df4be2ca7612d29037b9d18d8e7e2ec488c407c54945f5d",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-379--legendary-lollipop-e2d131.netlify.app/images/audience/customer-profiles/profile-fields-es-mobile.png",
+        "status": 200,
+        "sha256": "1525d3add44bb64b93d457bb3353f8bfdd9fe0f1f99b84580aed0807db7829c3",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-379--legendary-lollipop-e2d131.netlify.app/images/audience/customer-profiles/profile-fields-en-mobile.png",
+        "status": 200,
+        "sha256": "0e2c6a1622ea73ec0fa008f5100b7ce5f04e2695cdb1aa2414c855db6ca760cb",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-379--legendary-lollipop-e2d131.netlify.app/images/captures/property-collector/channels-es.png",
+        "status": 200,
+        "sha256": "09a69bcc4d04170870d9e7123c84391069810694179dc20ac44248df0abc1571",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-379--legendary-lollipop-e2d131.netlify.app/images/captures/property-collector/channels-en.png",
+        "status": 200,
+        "sha256": "fed5b1e6710e0f6ad456ee06a4cae92680c2d85f1a78fef79dbe95d08a18222d",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-379--legendary-lollipop-e2d131.netlify.app/images/captures/property-collector/channels-es-mobile.png",
+        "status": 200,
+        "sha256": "213da9d4c0fa8688e03ce9f368928e7df240b1d538670285a437c5935c0a24a3",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-379--legendary-lollipop-e2d131.netlify.app/images/captures/property-collector/channels-en-mobile.png",
+        "status": 200,
+        "sha256": "260918096cf05d4ac82990773682e76fa51ea9b3478ab6e6305d67cc8fcbaf0e",
+        "matches_approved_asset": true,
+        "reused": true
+      }
+    ],
+    "new_captures": 0,
+    "new_png_uploads": 0,
+    "reused_pngs": 24
+  },
+  "earlier_record_332_limitation": "Historical record #332 SHA ad6d6455d0671cda042dc5ef184f73c86d64f8fb failed normal Netlify publication with internal HTTP500; later successful normal deployments do not prove that historical SHA published. No manual deploy/retry."
+}
