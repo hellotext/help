@@ -10,7 +10,7 @@ If you need a checklist for one example, use [Troubleshoot a playbook that did n
 
 ## Before you edit
 
-Open **Playbooks**, choose the playbook, and review its configuration cards. Each playbook shows only the parts that can be customized for that case.
+Open **Playbooks**, choose the playbook, and review its configuration cards. Controls depend on the type, plan features, and your access. A card may show a plan upgrade; seeing it does not guarantee that you can save it. Also confirm the correct business and playbook.
 
 Ask based on the playbook type:
 
@@ -20,30 +20,24 @@ Ask based on the playbook type:
 - For a route: which trigger, steps, waits, conditions, branches, and assignments make up the flow?
 - For any playbook: which report, Inbox conversation, or Playground test will show whether the change worked?
 
+Before changing a control, keep the previous configuration and define one specific change. In the component editor, **Go back** returns to the cards; it does not confirm the final playbook save. Check the final save action and its result. Other controls, such as enabling the playbook, may persist immediately. If the result is uncertain, read the saved state again before repeating.
+
 Not every playbook has a visible stop rule. In a route, there may be exit conditions or steps that end the flow. In a support agent, the conversation may end naturally if the customer stops replying, or it may hand off based on rules. In active sales playbooks, many eligibility, frequency, or completion rules are internal or controlled by the playbook logic.
 
 ## When to disable
 
-You do not need to disable a playbook for every edit.
+Decide based on the change's effect on real customers and when it is saved. Tone, documents, web search sites, and the handoff team can also change the next reply or its destination; their category does not automatically make them safe.
 
-You can usually edit and test without disabling when you change:
+For a small clarification, keep the previous version, change one part, and review the result before continuing. Consider disabling temporarily when you change:
 
-- Tone.
-- Knowledge documents.
-- Web search sites.
-- Handoff team.
-- Small examples or clarifications.
+- The prompt's purpose or boundaries.
+- Intents used to select an agent.
+- Properties it must collect.
+- Incoming or outgoing channels.
+- Discount strategy or offer rules.
+- Route steps, conditions, branches, or assignments.
 
-Consider disabling temporarily only when the change could affect live customers while you edit, for example:
-
-- You are changing the prompt of a playbook that allows prompt edits and the agent could reply incorrectly.
-- You are changing intents for a custom agent.
-- You are changing which properties a playbook must collect.
-- You are changing incoming or outgoing channels.
-- You are changing discounts or eCommerce offer rules.
-- You are editing a route with steps, conditions, branches, or assignments.
-
-For active sales playbooks, the risk depends on which card you are changing. Many adjustments do not affect customers immediately, but a prompt, discount strategy, channel, or route logic change should be tested before you broaden it again.
+Disabling affects admission of new activity according to the playbook type. It does not guarantee cancellation of every existing conversation, proposal, message, or queued job. Check their current state before expecting an immediate stop. Enabling again does not confirm eligibility or delivery either: first check the saved change and that flow's dependencies.
 
 ## What you can customize
 
@@ -61,13 +55,27 @@ Use this table as a quick map:
 | **Escalation** | AI agents, support, [Webchat]({% link _captures/webchat-widget-playbook.md %}), and some custom playbooks | Who takes over when the agent should not continue. |
 | **Route steps** | Journeys or routes | Sequence, waits, branches, assignments, and exit from the flow. |
 
-If a card does not appear in the playbook, do not force that concept into the setup. It means that part does not apply or is handled by the playbook's logic.
+If a card is missing, check the playbook type, access, and available features. That part may not apply, may be controlled internally, or may be unavailable to your account. A prompt does not replace a missing control or enable a tool, permission, or channel.
 
 ## Customize the prompt
 
 This section applies only to playbooks that show the **Agent prompt** card.
 
 The prompt should tell the agent what job it owns, how it should speak, what information it can use, and when it should hand off. Not every playbook has an editable prompt; many prebuilt playbooks already include internal logic.
+
+The example shows the **Agent prompt** field of a new fictitious Custom Agent. It is empty: the gray text is a placeholder, not saved instructions. The playbook was not enabled and the Playground was not run.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Empty prompt field in a fictitious draft">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 646px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/journeys/how-to-customize-a-playbook-safely/prompt-en-mobile.png 2x" width="844" height="956" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-customize-a-playbook-safely/prompt-en.png" srcset="/images/journeys/how-to-customize-a-playbook-safely/prompt-en.png 2x" width="1256" height="1108" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Empty prompt field in a fictitious draft" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Complete field without editing or saving.</figcaption>
+</figure>
 
 Good prompt changes are specific:
 
@@ -87,6 +95,20 @@ This section applies to playbooks that show the **Tone** card.
 
 Tone controls the voice and style of AI-generated replies or messages. It does not change the playbook's mission, scope, knowledge, eligibility, discounts, or handoff rules; use the corresponding component for those changes.
 
+The card allows one to three tones. The independent Property Collector draft shows **Friendly**, **Playful**, and **Exclusive** selected without saving. This is an example combination, not a universal recommendation or a generated reply.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Three tones selected in a draft">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 593px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/tone-en-mobile.png 2x" width="780" height="970" />
+        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/tone-en.png" srcset="/images/captures/property-collector/tone-en.png 2x" width="1150" height="1030" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Three tones selected in a draft" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Selected options without saving.</figcaption>
+</figure>
+
 Choose a specific voice that is consistent with your brand:
 
 - Use two or three compatible attributes, such as "warm, clear, and direct."
@@ -105,6 +127,20 @@ Intents define which customer messages should activate that agent. A prebuilt pl
 
 Use customer language, not internal labels. For example, "I want to change my order" is clearer than "post-purchase modification."
 
+Selection considers conversation context and active playbooks; it is not an exact keyword match. In this draft, **I want to ask about a return.** remains in the input without being added: **New intent**, Enter, and Save were not used. It is not a received message or a completed classification.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Intent phrase without adding">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 646px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/team/ai-handoff-to-inbox/intents-en-mobile.png 2x" width="764" height="544" />
+        <img class="ht-editorial-visual__image" src="/images/team/ai-handoff-to-inbox/intents-en.png" srcset="/images/team/ai-handoff-to-inbox/intents-en.png 2x" width="1256" height="520" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Intent phrase without adding" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Independent draft without classification.</figcaption>
+</figure>
+
 After editing intents, test:
 
 - A message that should activate the agent.
@@ -121,6 +157,20 @@ This section applies to playbooks with a **Knowledge** card or document uploads.
 
 Knowledge should make the agent more accurate. It does not change the playbook type and it does not replace a store, catalog, or order integration.
 
+The figure shows **Upload documents** in the fictitious Custom Agent: the complete upload area and **Choose files to upload**, with no files selected or uploaded. Choosing a file, saving it, and making it available for retrieval are separate states; later processing may be asynchronous.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Knowledge upload area without files">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 646px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/journeys/how-to-customize-a-playbook-safely/upload-en-mobile.png 2x" width="844" height="804" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-customize-a-playbook-safely/upload-en.png" srcset="/images/journeys/how-to-customize-a-playbook-safely/upload-en.png 2x" width="1256" height="732" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Knowledge upload area without files" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Empty form without document uploads.</figcaption>
+</figure>
+
 Before uploading or replacing documents:
 
 - Remove outdated policies, old prices, expired offers, and duplicated FAQs.
@@ -131,17 +181,45 @@ Before uploading or replacing documents:
 
 After updating knowledge, use the Playground to ask questions that depend on the changed information.
 
+If **Web search** is available, configure official sites relevant to the playbook and review the information it finds. A URL restricts search domains; it is not an integration, installation, or guarantee that one exact page will be read. This draft field is empty: **https://www.example.com** is the native placeholder, not an added or searched site.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Empty web search field">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 646px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/journeys/how-to-customize-a-playbook-safely/web_search-en-mobile.png 2x" width="844" height="408" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-customize-a-playbook-safely/web_search-en.png" srcset="/images/journeys/how-to-customize-a-playbook-safely/web_search-en.png 2x" width="1256" height="432" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Empty web search field" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Placeholder without an added URL or an executed search.</figcaption>
+</figure>
+
 ## Customize properties
 
 This section applies to playbooks that show a **Properties** card or a **Property Collector** subcomponent.
 
 Select only the profile data that the playbook actually needs. When it is time to collect that data, the playbook skips properties already present on the customer profile and asks only for the selected properties that are still missing.
 
+The Property Collector draft shows **Name** marked **Important** and **Email** optional. Nothing was saved or collected. The option expresses a collection priority; it does not establish a verified value, messaging consent, or sending permission.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Important name and optional email">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 666px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/style-refresh/fields-en-mobile.png 2x" width="764" height="722" />
+        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/style-refresh/fields-en.png" srcset="/images/captures/property-collector/style-refresh/fields-en.png 2x" width="1296" height="698" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Important name and optional email" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Fictitious selection without collection.</figcaption>
+</figure>
+
 When configuring properties:
 
 - Use properties with customer-friendly names instead of internal CRM terms.
 - Keep the list short so the conversation does not become a long form.
-- If **Must collect** is available, select it only when the playbook cannot continue without that value. Other properties can remain optional.
+- If **Important** is available, select it only when the playbook cannot continue without that value. Other properties can remain optional.
 - Test with a profile missing every property, one that already has some of them, and a customer who declines an optional property.
 
 Behind the scenes, the playbook uses the [Property Collector]({% link _captures/property-collector-playbook.md %}) agent to ask for, validate, and save the answers. The playbook you are configuring keeps its own selection of prerequisite properties, but the business must also enable the standalone Property Collector playbook for its agent to run that collection. You can configure the standalone playbook's own property list separately if you also want to use it directly as a capture experience.
@@ -149,6 +227,20 @@ Behind the scenes, the playbook uses the [Property Collector]({% link _captures/
 ## Customize channels
 
 In general, keep automatic channel selection if the playbook already works well. Many playbooks manage channels automatically based on the conversation type, customer availability, and business setup.
+
+In the independent Property Collector example, **Incoming channels** shows **All incoming channels** selected and **Manual selection** available, without saving. It limits where that playbook may respond; it does not prove connected channels, a reachable profile, or delivered outbound messages. Check whether your card controls incoming or outgoing channels before changing it.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Unsaved incoming channel selection">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 593px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/channels-en-mobile.png 2x" width="780" height="1520" />
+        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/channels-en.png" srcset="/images/captures/property-collector/channels-en.png 2x" width="1150" height="1180" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Unsaved incoming channel selection" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Automatic incoming selection and manual option; no sending result.</figcaption>
+</figure>
 
 Change channels only when you have a clear reason:
 
@@ -175,6 +267,22 @@ Before changing discount settings:
 
 If the playbook should never offer discounts, make that explicit in the discount settings and, if present, in the prompt.
 
+If your playbook offers a business coupon, verify that specific coupon and its terms as well as the strategy. Availability, integration, and offer rules are checked per flow; a percentage selector does not establish creation or redemption.
+
+The example shared card has **Up to 10%** selected in an unsaved **Subscriber Booster** draft. In that playbook, the generated incentive uses the configured percentage as a fixed rate; do not treat it as a variable AI ceiling for every playbook. The narrow focus shows the four percentages from the desktop source. No discount was generated or store promotion changed.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Percentage in the shared discount card">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 548px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/subscriber-booster/discount-mobile-en.png 2x" width="660" height="236" />
+        <img class="ht-editorial-visual__image" src="/images/captures/subscriber-booster/discount-en.png" srcset="/images/captures/subscriber-booster/discount-en.png 2x" width="1060" height="772" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Percentage in the shared discount card" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Subscriber Booster draft; fixed rate for that flow.</figcaption>
+</figure>
+
 ## Customize handoff rules
 
 This section applies to AI agents, support playbooks, [Webchat]({% link _captures/webchat-widget-playbook.md %}), and custom playbooks that show **Escalation** settings.
@@ -187,6 +295,20 @@ Review:
 - Which cases should always hand off.
 - What context the agent should leave for the team.
 - Whether the Inbox team knows this playbook is active.
+
+**Atención demo** is the fictitious team selected in this Property Collector **Escalation** draft. It is not a playbook or an assigned conversation. Destination, assignable members, capacity, conversation state, and a human reply are separate stages. The protocol may retain AI collaboration or pause according to the flow; do not assume a universal, permanent pause.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Fictitious team in the escalation control">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 593px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/handoff-en-mobile.png 2x" width="780" height="680" />
+        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/handoff-en.png" srcset="/images/captures/property-collector/handoff-en.png 2x" width="1150" height="660" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Fictitious team in the escalation control" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Destination without saving or assigning a conversation.</figcaption>
+</figure>
 
 Keep reading: [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %}).
 
@@ -204,11 +326,27 @@ Routes have visible steps and are sensitive to sequence changes. When editing a 
 - An exit or stop condition.
 - A coupon, link, or product recommendation.
 
+The figure identifies the **Assignment** component in a fictitious new route form, without saving. Its five complete actions are step controls; they do not represent a constructed route or a processed conversation. Review their order and targets: closing, assigning, and changing AI attention are different actions. A step edit does not establish that existing work was canceled.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Five actions in the Assignment component">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 521px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/team/ai-handoff-to-inbox/assignment-en-mobile.png 2x" width="778" height="1300" />
+        <img class="ht-editorial-visual__image" src="/images/team/ai-handoff-to-inbox/assignment-en.png" srcset="/images/team/ai-handoff-to-inbox/assignment-en.png 2x" width="1006" height="1300" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Five actions in the Assignment component" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Independent component; no executed route.</figcaption>
+</figure>
+
 If a route has no more steps to run, the flow ends. If you add conditions or branches, test both the expected path and the path that should not run.
 
 ## Test based on playbook type
 
 Use the Playground or preview whenever it is available.
+
+Check which configuration the test uses: a draft or the saved version. The Playground can run AI and save a simulation conversation; it is not just a static image. A reply there does not confirm identity, consent, channel, eligibility, assignment, or delivery in a real conversation. The figures in this guide did not run tests. To validate a real flow, use only authorized test data and recipients and review each stage separately.
 
 For an AI agent, test realistic language with typos, short replies, objections, and unclear intent.
 
@@ -233,7 +371,9 @@ Look for:
 - Customers entering the wrong playbook.
 - Changes in conversion, revenue, replies, opt-outs, or handoff rate.
 
-If results move in the wrong direction, revert the smallest change first.
+Compare the same playbook type, population, and period, with the report's units and rules. A change after an edit does not by itself prove that the edit caused it; some signals and attribution arrive later.
+
+If results move in the wrong direction, revert the smallest change first. Check the saved state and pending work again: restoring configuration does not undo sent messages, provider actions, or already saved data.
 
 ## Related guides
 
