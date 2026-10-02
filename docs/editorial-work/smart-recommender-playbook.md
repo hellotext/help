@@ -38,3 +38,42 @@ This batch reads source/GitHub and reuses assets only. No source app/browser9460
 ## Local verification
 
 Complete ES then EN 1440/390/580px articles reviewed through every scroll to the footer with stable500ms painting. Seven figures/nine original headings/23 original Liquid links per locale; build (Ruby3.3.6 yarn build/security headers), all28 source/asset/both-build bytes/pixels/ICC and git diff --check passed. Native controls and responsive variants visually inspected; no enlargement or page overflow. Only exclusive Help preview9452/one4191tab/P3/DPR2/zoom1 with process/page guards before and after; no source app visit. Evidence in local-verification.json and help-page-review.json; 216 native Help review PNGs in TMP have hashes/pixels/ICC in help-review-evidence.json. Local verification passed; protected publication remains pending.
+
+The initial P2 ancestry finding described another SHA c8d530e. GitHub/local parents and merge-base confirm the real head 575c4d49 has verifier d84f01ba as direct parent and all 106 verifiers as ancestors. The full finding was read, answered with evidence, resolved, and a fresh exact-head review read before merge. No history rewrite or commit omission.
+
+## Public verification
+
+Protected content PR #375 merged as 1930354d5bb66213c26399dcb91be4598ed3c0be with all checks passed and exact-head fully paginated comments/reviews/threads read before a separate merge call; zero unresolved findings. All commits, including verifier d84f01ba7cc51c090ae5c2794157a00adfe4874e and its direct-child ledger 575c4d4992f87954bb0f05ff24442907be60f080, are retained. Exact main push Build 37002162935 passed. Normal Netlify production 6abf97d4d08d8100085fe35b is ready/published with actual commit_ref equal to the merge SHA. No manual deploy/retry. Both complete articles match the verified build, and all 28 approved reused PNGs return HTTP 200 with approved hashes. Zero new app captures/PNG uploads/duplicates. Public proof is in public-verification.json; this record is a separate protected metadata PR. Current consumer image states refer to that public proof; all nested historical source records remain intact.
+
+Pages: [es](https://help.hellotext.com/es/recomendador-inteligente), [en](https://help.hellotext.com/smart-recommender-playbook).
+
+Reused images, original paths and bytes (no duplicate uploads):
+
+- [identity-es.png](https://help.hellotext.com/images/developers/products-and-inventory-with-api/identity-es.png)
+- [identity-es-mobile.png](https://help.hellotext.com/images/developers/products-and-inventory-with-api/identity-es-mobile.png)
+- [upload-es.png](https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/upload-es.png)
+- [upload-es-mobile.png](https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/upload-es-mobile.png)
+- [channels-es.png](https://help.hellotext.com/images/captures/property-collector/channels-es.png)
+- [channels-es-mobile.png](https://help.hellotext.com/images/captures/property-collector/channels-es-mobile.png)
+- [tone-es.png](https://help.hellotext.com/images/captures/property-collector/tone-es.png)
+- [tone-es-mobile.png](https://help.hellotext.com/images/captures/property-collector/tone-es-mobile.png)
+- [handoff-es.png](https://help.hellotext.com/images/captures/property-collector/handoff-es.png)
+- [handoff-es-mobile.png](https://help.hellotext.com/images/captures/property-collector/handoff-es-mobile.png)
+- [web_search-es.png](https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/web_search-es.png)
+- [web_search-es-mobile.png](https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/web_search-es-mobile.png)
+- [prompt-es.png](https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/prompt-es.png)
+- [prompt-es-mobile.png](https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/prompt-es-mobile.png)
+- [identity-en.png](https://help.hellotext.com/images/developers/products-and-inventory-with-api/identity-en.png)
+- [identity-en-mobile.png](https://help.hellotext.com/images/developers/products-and-inventory-with-api/identity-en-mobile.png)
+- [upload-en.png](https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/upload-en.png)
+- [upload-en-mobile.png](https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/upload-en-mobile.png)
+- [channels-en.png](https://help.hellotext.com/images/captures/property-collector/channels-en.png)
+- [channels-en-mobile.png](https://help.hellotext.com/images/captures/property-collector/channels-en-mobile.png)
+- [tone-en.png](https://help.hellotext.com/images/captures/property-collector/tone-en.png)
+- [tone-en-mobile.png](https://help.hellotext.com/images/captures/property-collector/tone-en-mobile.png)
+- [handoff-en.png](https://help.hellotext.com/images/captures/property-collector/handoff-en.png)
+- [handoff-en-mobile.png](https://help.hellotext.com/images/captures/property-collector/handoff-en-mobile.png)
+- [web_search-en.png](https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/web_search-en.png)
+- [web_search-en-mobile.png](https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/web_search-en-mobile.png)
+- [prompt-en.png](https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/prompt-en.png)
+- [prompt-en-mobile.png](https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/prompt-en-mobile.png)
