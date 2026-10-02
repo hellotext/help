@@ -1,5 +1,5 @@
 {
-  "status": "locally_verified",
+  "status": "publicly_verified",
   "article_key": "journeys/how-hellotext-decides-whether-a-playbook-can-send.md",
   "base_revision": "4d68d5de460e5520110adf474a74d3a84ef7874a",
   "originals": [
@@ -135,7 +135,7 @@
       "ui_evidence": "docs/editorial-work/captures/custom-actions/catalog-es-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "publication_status": "Approved existing native asset reused unchanged; this consumer awaits public verification.",
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
       "historical_consumer_record": {
         "name": "catalog-es",
         "concept": "catalog",
@@ -187,7 +187,8 @@
       "source_density": 2,
       "reused": true,
       "new_capture": false,
-      "consumer_publication_state": "not_yet_publicly_verified"
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "catalog-es-mobile",
@@ -231,7 +232,7 @@
       "ui_evidence": "docs/editorial-work/captures/custom-actions/catalog-es-mobile-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "publication_status": "Approved existing native asset reused unchanged; this consumer awaits public verification.",
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
       "historical_consumer_record": {
         "name": "catalog-es-mobile",
         "concept": "catalog",
@@ -282,7 +283,8 @@
       "source_density": 2,
       "reused": true,
       "new_capture": false,
-      "consumer_publication_state": "not_yet_publicly_verified"
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "catalog-en",
@@ -327,7 +329,7 @@
       "ui_evidence": "docs/editorial-work/captures/custom-actions/catalog-en-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "publication_status": "Approved existing native asset reused unchanged; this consumer awaits public verification.",
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
       "historical_consumer_record": {
         "name": "catalog-en",
         "concept": "catalog",
@@ -379,7 +381,8 @@
       "source_density": 2,
       "reused": true,
       "new_capture": false,
-      "consumer_publication_state": "not_yet_publicly_verified"
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "catalog-en-mobile",
@@ -423,7 +426,7 @@
       "ui_evidence": "docs/editorial-work/captures/custom-actions/catalog-en-mobile-ui.json",
       "pointer": "absent",
       "pixel_edits": "none",
-      "publication_status": "Approved existing native asset reused unchanged; this consumer awaits public verification.",
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
       "historical_consumer_record": {
         "name": "catalog-en-mobile",
         "concept": "catalog",
@@ -474,7 +477,8 @@
       "source_density": 2,
       "reused": true,
       "new_capture": false,
-      "consumer_publication_state": "not_yet_publicly_verified"
+      "consumer_publication_state": "publicly_verified",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "concept": "intents",
@@ -627,8 +631,9 @@
       "original_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
       "name": "intents-es",
       "source_density": 2,
-      "consumer_publication_state": "not_yet_publicly_verified",
-      "publication_status": "Approved existing native asset reused unchanged; this consumer awaits public verification."
+      "consumer_publication_state": "publicly_verified",
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "concept": "intents",
@@ -781,8 +786,9 @@
       "original_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
       "name": "intents-es-mobile",
       "source_density": 2,
-      "consumer_publication_state": "not_yet_publicly_verified",
-      "publication_status": "Approved existing native asset reused unchanged; this consumer awaits public verification."
+      "consumer_publication_state": "publicly_verified",
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "concept": "intents",
@@ -935,8 +941,9 @@
       "original_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
       "name": "intents-en",
       "source_density": 2,
-      "consumer_publication_state": "not_yet_publicly_verified",
-      "publication_status": "Approved existing native asset reused unchanged; this consumer awaits public verification."
+      "consumer_publication_state": "publicly_verified",
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "concept": "intents",
@@ -1089,8 +1096,9 @@
       "original_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
       "name": "intents-en-mobile",
       "source_density": 2,
-      "consumer_publication_state": "not_yet_publicly_verified",
-      "publication_status": "Approved existing native asset reused unchanged; this consumer awaits public verification."
+      "consumer_publication_state": "publicly_verified",
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "profile-fields-es",
@@ -1143,8 +1151,8 @@
       "reused": true,
       "pixel_edits": "none in this batch",
       "sha256": "bf1ee79e29d0ef384913cad51a1792ddf0050d75a5b4e138bd49df682e203b40",
-      "consumer_publication_state": "not_yet_publicly_verified",
-      "publication_status": "Approved existing native asset reused unchanged; this consumer awaits public verification.",
+      "consumer_publication_state": "publicly_verified",
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
       "historical_consumer_record": {
         "name": "profile-fields-es",
         "concept": "profile",
@@ -1202,7 +1210,8 @@
       },
       "original_consumer_provenance": "docs/editorial-work/captures/verify-data-and-signals/capture-provenance.json",
       "source_density": 2,
-      "new_capture": false
+      "new_capture": false,
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "profile-fields-en",
@@ -1255,8 +1264,8 @@
       "reused": true,
       "pixel_edits": "none in this batch",
       "sha256": "9bbb727226b2a20d5df4be2ca7612d29037b9d18d8e7e2ec488c407c54945f5d",
-      "consumer_publication_state": "not_yet_publicly_verified",
-      "publication_status": "Approved existing native asset reused unchanged; this consumer awaits public verification.",
+      "consumer_publication_state": "publicly_verified",
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
       "historical_consumer_record": {
         "name": "profile-fields-en",
         "concept": "profile",
@@ -1314,7 +1323,8 @@
       },
       "original_consumer_provenance": "docs/editorial-work/captures/verify-data-and-signals/capture-provenance.json",
       "source_density": 2,
-      "new_capture": false
+      "new_capture": false,
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "profile-fields-mobile-es",
@@ -1367,8 +1377,8 @@
       "reused": true,
       "pixel_edits": "none in this batch",
       "sha256": "1525d3add44bb64b93d457bb3353f8bfdd9fe0f1f99b84580aed0807db7829c3",
-      "consumer_publication_state": "not_yet_publicly_verified",
-      "publication_status": "Approved existing native asset reused unchanged; this consumer awaits public verification.",
+      "consumer_publication_state": "publicly_verified",
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
       "historical_consumer_record": {
         "name": "profile-fields-mobile-es",
         "concept": "profile",
@@ -1426,7 +1436,8 @@
       },
       "original_consumer_provenance": "docs/editorial-work/captures/verify-data-and-signals/capture-provenance.json",
       "source_density": 2,
-      "new_capture": false
+      "new_capture": false,
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "name": "profile-fields-mobile-en",
@@ -1479,8 +1490,8 @@
       "reused": true,
       "pixel_edits": "none in this batch",
       "sha256": "0e2c6a1622ea73ec0fa008f5100b7ce5f04e2695cdb1aa2414c855db6ca760cb",
-      "consumer_publication_state": "not_yet_publicly_verified",
-      "publication_status": "Approved existing native asset reused unchanged; this consumer awaits public verification.",
+      "consumer_publication_state": "publicly_verified",
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
       "historical_consumer_record": {
         "name": "profile-fields-mobile-en",
         "concept": "profile",
@@ -1538,7 +1549,8 @@
       },
       "original_consumer_provenance": "docs/editorial-work/captures/verify-data-and-signals/capture-provenance.json",
       "source_density": 2,
-      "new_capture": false
+      "new_capture": false,
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "file": "handoff-es.png",
@@ -1622,8 +1634,9 @@
       "original_consumer_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
       "name": "handoff-es",
       "source_density": 2,
-      "consumer_publication_state": "not_yet_publicly_verified",
-      "publication_status": "Approved existing native asset reused unchanged; this consumer awaits public verification."
+      "consumer_publication_state": "publicly_verified",
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "file": "handoff-en.png",
@@ -1707,8 +1720,9 @@
       "original_consumer_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
       "name": "handoff-en",
       "source_density": 2,
-      "consumer_publication_state": "not_yet_publicly_verified",
-      "publication_status": "Approved existing native asset reused unchanged; this consumer awaits public verification."
+      "consumer_publication_state": "publicly_verified",
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "file": "handoff-es-mobile.png",
@@ -1792,8 +1806,9 @@
       "original_consumer_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
       "name": "handoff-es-mobile",
       "source_density": 2,
-      "consumer_publication_state": "not_yet_publicly_verified",
-      "publication_status": "Approved existing native asset reused unchanged; this consumer awaits public verification."
+      "consumer_publication_state": "publicly_verified",
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
+      "consumer_publication_evidence": "public-verification.json"
     },
     {
       "file": "handoff-en-mobile.png",
@@ -1877,13 +1892,13 @@
       "original_consumer_provenance": "docs/editorial-work/captures/ai-handoff-to-inbox/capture-provenance.json",
       "name": "handoff-en-mobile",
       "source_density": 2,
-      "consumer_publication_state": "not_yet_publicly_verified",
-      "publication_status": "Approved existing native asset reused unchanged; this consumer awaits public verification."
+      "consumer_publication_state": "publicly_verified",
+      "publication_status": "Approved native source reused; complete consumer article and unchanged public asset verified. Original source provenance and historical limits retained. See public-verification.json.",
+      "consumer_publication_evidence": "public-verification.json"
     }
   ],
   "operations": "Read-only protected/current source and approved native source reuse. No app, DB, account, locale, fixture, API/example, event, message, support request, submission, provider, permission, subscription or worker operation; no new fixture audit. Separate isolated Help preview for render/scroll/review only, no Rails visit.",
   "local_verification": "docs/editorial-work/captures/how-hellotext-decides-whether-a-playbook-can-send/local-verification.json",
-  "pending": [
-    "Protected PR/checks, independent exact-head review, normal production and public page/hash verification."
-  ]
+  "pending": [],
+  "public_verification": "docs/editorial-work/captures/how-hellotext-decides-whether-a-playbook-can-send/public-verification.json"
 }

@@ -1,0 +1,707 @@
+{
+  "verified_at_utc": "2026-10-02T01:45:46.237589+00:00",
+  "verified_git_main_sha": "363bca146744e45ff3a66535113e842500fa27c5",
+  "production_deploy_id_sha_association": {
+    "id": "6abf0c791354f600088536a3",
+    "site_id": "d66a79c1-b5de-44d1-bc47-bc7809f7f3b3",
+    "state": "ready",
+    "context": "production",
+    "branch": "main",
+    "commit_ref": "363bca146744e45ff3a66535113e842500fa27c5",
+    "created_at": "2026-10-02T01:44:25.506Z",
+    "published_at": "2026-10-02T01:45:06.643Z",
+    "deploy_ssl_url": "https://main--legendary-lollipop-e2d131.netlify.app"
+  },
+  "deployment_method": "Normal Netlify production after Git merge; no manual deploy. Accessible public site-alias listing provided exact commit_ref.",
+  "pages": [
+    {
+      "url": "https://help.hellotext.com/es/como-decide-hellotext-si-una-mision-puede-enviar",
+      "status": 200,
+      "article_key": "journeys/how-hellotext-decides-whether-a-playbook-can-send.md",
+      "locale": "es",
+      "figures": 4,
+      "sections": 13,
+      "approved_assets_present": [
+        "/images/developers/custom-actions/catalog-es.png",
+        "/images/developers/custom-actions/catalog-es-mobile.png",
+        "/images/team/ai-handoff-to-inbox/intents-es.png",
+        "/images/team/ai-handoff-to-inbox/intents-es-mobile.png",
+        "/images/audience/customer-profiles/profile-fields-es.png",
+        "/images/audience/customer-profiles/profile-fields-es-mobile.png",
+        "/images/captures/property-collector/handoff-es.png",
+        "/images/captures/property-collector/handoff-es-mobile.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "cd78454329481d7e273005ac3830363c368c086462fbd06124ba381dd8a9a086",
+      "html_sha256": "f5b17aeecc5aeb15c4e3a34ad93ba0b0a1a262d34884d798a20791a2333743bc"
+    },
+    {
+      "url": "https://help.hellotext.com/how-hellotext-decides-whether-a-playbook-can-send",
+      "status": 200,
+      "article_key": "journeys/how-hellotext-decides-whether-a-playbook-can-send.md",
+      "locale": "en",
+      "figures": 4,
+      "sections": 13,
+      "approved_assets_present": [
+        "/images/developers/custom-actions/catalog-en.png",
+        "/images/developers/custom-actions/catalog-en-mobile.png",
+        "/images/team/ai-handoff-to-inbox/intents-en.png",
+        "/images/team/ai-handoff-to-inbox/intents-en-mobile.png",
+        "/images/audience/customer-profiles/profile-fields-en.png",
+        "/images/audience/customer-profiles/profile-fields-en-mobile.png",
+        "/images/captures/property-collector/handoff-en.png",
+        "/images/captures/property-collector/handoff-en-mobile.png"
+      ],
+      "complete_article_matches_verified_build": true,
+      "article_sha256": "6ec2c6ec808f7cd9ef17ab383fd614d121e5d748d8ef2e14f929cf1e23cd662e",
+      "html_sha256": "c256deecb3abea73e4aa6ac70277942864c9007e9a58521dc1e053b9caf661ab"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-actions/catalog-es.png",
+      "status": 200,
+      "sha256": "a12712f6c78adc83c29a0c497ccb3a061449789f26a7d5cbaf6fdab127612389",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-actions/catalog-es-mobile.png",
+      "status": 200,
+      "sha256": "fab59f9490d84ad14feb17be6a5701ba29c39161fdc7bd5fbd391a2a16651d76",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-actions/catalog-en.png",
+      "status": 200,
+      "sha256": "6fdbbbe59759abe2be46c35406174c9dae62c52dcdb56d65f5875e003e278bef",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/developers/custom-actions/catalog-en-mobile.png",
+      "status": 200,
+      "sha256": "9f1460df43463d2eef8bbd04d6c550782d05bd4129eb7f9bf0faa5f553588561",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/ai-handoff-to-inbox/intents-es.png",
+      "status": 200,
+      "sha256": "3ce141b0bcdd1fc102325fca3389e28f19158d1344b0c94ec725b6f99bc7ee50",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/ai-handoff-to-inbox/intents-es-mobile.png",
+      "status": 200,
+      "sha256": "06a58e9ba16bdc719e9c1787edb0b699acc69e588cb43ae97295622b904c1e7f",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/ai-handoff-to-inbox/intents-en.png",
+      "status": 200,
+      "sha256": "58afbd5fd69c3e56c69b0cbfa41dd2e3c5946fa4884e1098436208e7237314d1",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/team/ai-handoff-to-inbox/intents-en-mobile.png",
+      "status": 200,
+      "sha256": "574b86a078f6ac9efb168c67084d2b50a5187bfd67ab7cf72fc113197f739971",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/audience/customer-profiles/profile-fields-es.png",
+      "status": 200,
+      "sha256": "bf1ee79e29d0ef384913cad51a1792ddf0050d75a5b4e138bd49df682e203b40",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/audience/customer-profiles/profile-fields-en.png",
+      "status": 200,
+      "sha256": "9bbb727226b2a20d5df4be2ca7612d29037b9d18d8e7e2ec488c407c54945f5d",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/audience/customer-profiles/profile-fields-es-mobile.png",
+      "status": 200,
+      "sha256": "1525d3add44bb64b93d457bb3353f8bfdd9fe0f1f99b84580aed0807db7829c3",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/audience/customer-profiles/profile-fields-en-mobile.png",
+      "status": 200,
+      "sha256": "0e2c6a1622ea73ec0fa008f5100b7ce5f04e2695cdb1aa2414c855db6ca760cb",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/property-collector/handoff-es.png",
+      "status": 200,
+      "sha256": "ef1c8abc4712dacc2effa83f6c968dd4a9453a5b1be059609a877a91e1693356",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/property-collector/handoff-en.png",
+      "status": 200,
+      "sha256": "0c5506ceed87f6ed0c9e57a4969d80cee2dc41f04ab25b04969917ab3f3bdfe9",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/property-collector/handoff-es-mobile.png",
+      "status": 200,
+      "sha256": "4f252e8b5d86ad772df8b7f979ae8d61de1970ff36f7110f5f1e0b1b5867b2cc",
+      "matches_approved_asset": true,
+      "reused": true
+    },
+    {
+      "url": "https://help.hellotext.com/images/captures/property-collector/handoff-en-mobile.png",
+      "status": 200,
+      "sha256": "97bad463814d7ec88c224ea32ccf6500c65c8eed86a39ef83cd8fba79d2f3793",
+      "matches_approved_asset": true,
+      "reused": true
+    }
+  ],
+  "new_captures": 0,
+  "new_png_uploads": 0,
+  "reused_pngs": 16,
+  "all_affected_article_pngs": 16,
+  "main_build": {
+    "conclusion": "success",
+    "databaseId": 36952373487,
+    "event": "push",
+    "headSha": "363bca146744e45ff3a66535113e842500fa27c5",
+    "status": "completed",
+    "url": "https://github.com/hellotext/help/actions/runs/36952373487"
+  },
+  "content_pr": "https://github.com/hellotext/help/pull/357",
+  "content_pr_head": "5f2c362364306fcb277ac40ac28669589539b592",
+  "individual_commits_preserved": [
+    "29b80f48ec5dbdb8c8dc775741e18b7954a03d52",
+    "104a3a1a27afd4a3de303958905b58a0aa2925d6",
+    "211a6e145ab49b1199cc2faccbfd39a98163f4d6",
+    "5f2c362364306fcb277ac40ac28669589539b592"
+  ],
+  "unresolved_review_threads_before_merge": 0,
+  "pre_merge_review": {
+    "head": "5f2c362364306fcb277ac40ac28669589539b592",
+    "checks": [
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-02T01:35:15Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/hellotext/help/actions/runs/36951600879/job/110665539691",
+        "name": "build",
+        "startedAt": "2026-10-02T01:34:47Z",
+        "status": "COMPLETED",
+        "workflowName": "Build"
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-02T01:35:27Z",
+        "conclusion": "NEUTRAL",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abf0a325c6c5500084097e2",
+        "name": "Pages changed - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-02T01:34:44Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-02T01:35:27Z",
+        "conclusion": "NEUTRAL",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abf0a325c6c5500084097e2",
+        "name": "Redirect rules - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-02T01:34:44Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-02T01:35:07Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://app.aikido.dev/featurebranch/scan/209894492?groupId=34029",
+        "name": "Aikido Security: check code",
+        "startedAt": "2026-10-02T01:34:44Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "CheckRun",
+        "completedAt": "2026-10-02T01:35:27Z",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abf0a325c6c5500084097e2",
+        "name": "Header rules - legendary-lollipop-e2d131",
+        "startedAt": "2026-10-02T01:34:44Z",
+        "status": "COMPLETED",
+        "workflowName": ""
+      },
+      {
+        "__typename": "StatusContext",
+        "context": "netlify/legendary-lollipop-e2d131/deploy-preview",
+        "startedAt": "2026-10-02T01:35:29Z",
+        "state": "SUCCESS",
+        "targetUrl": "https://deploy-preview-357--legendary-lollipop-e2d131.netlify.app"
+      }
+    ],
+    "comments": [
+      {
+        "id": "IC_kwDOIVbAxs8AAAABYkbuaA",
+        "author": {
+          "login": "netlify"
+        },
+        "authorAssociation": "NONE",
+        "body": "### <span aria-hidden=\"true\">\u2705</span> Deploy Preview for *legendary-lollipop-e2d131* ready!\n\n\n|  Name | Link |\n|:-:|------------------------|\n|<span aria-hidden=\"true\">\ud83d\udd28</span> Latest commit | 5f2c362364306fcb277ac40ac28669589539b592 |\n|<span aria-hidden=\"true\">\ud83d\udd0d</span> Latest deploy log | https://app.netlify.com/projects/legendary-lollipop-e2d131/deploys/6abf0a325c6c5500084097e2 |\n|<span aria-hidden=\"true\">\ud83d\ude0e</span> Deploy Preview | [https://deploy-preview-357--legendary-lollipop-e2d131.netlify.app](https://deploy-preview-357--legendary-lollipop-e2d131.netlify.app) |\n|<span aria-hidden=\"true\">\ud83d\udcf1</span> Preview on mobile | <details><summary> Toggle QR Code... </summary><br /><br />![QR Code](https://app.netlify.com/qr-code/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJodHRwczovL2RlcGxveS1wcmV2aWV3LTM1Ny0tbGVnZW5kYXJ5LWxvbGxpcG9wLWUyZDEzMS5uZXRsaWZ5LmFwcCJ9.S0hITmOJiShXd73mDiwpcj1tZsooMbqjCzbeyGyQ2d0)<br /><br />_Use your smartphone camera to open QR code link._</details> |\n|<span aria-hidden=\"true\">\ud83e\udd16</span> Make changes | [Run an agent on this branch](https://app.netlify.com/projects/legendary-lollipop-e2d131/agent-runs#DcvBDYMwDEDRXXxuhAUE2m7AGIltICqNIwISCLE7uf3D-xekVf9pgy_AC_zqIs2lSVmOKi3u9Ko_kyWyYaGQg8Zspj2wFM6SFj0HLkPn_IiuqS11ZC0ivlv89FLD_QA) |\n---\n<!-- [legendary-lollipop-e2d131 Preview](https://deploy-preview-357--legendary-lollipop-e2d131.netlify.app) -->\n_To edit notification comments on pull requests, go to your [Netlify project configuration](https://app.netlify.com/projects/legendary-lollipop-e2d131/configuration/notifications#deploy-notifications)._",
+        "createdAt": "2026-10-02T01:18:25Z",
+        "includesCreatedEdit": true,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/hellotext/help/pull/357#issuecomment-5943783016",
+        "viewerDidAuthor": false
+      },
+      {
+        "id": "IC_kwDOIVbAxs8AAAABYkbwkQ",
+        "author": {
+          "login": "chatgpt-codex-connector"
+        },
+        "authorAssociation": "NONE",
+        "body": "<!-- codex-pull-request-review-summary -->\n\n## Codex Review Summary\n\nThis comment shows the latest Codex review activity on this pull request.\n\n| Review | Status | Commit | Review trigger |\n| --- | --- | --- | --- |\n| \ud83d\udcdd **Code Review** | \u2705 **Completed** <relative-time datetime=\"2026-10-02T01:42:21.354078Z\">2026-10-02T01:42:21.354078Z</relative-time> | `5f2c362` | Manual request |\n\n\n\n<details> <summary>\u2139\ufe0f About Codex in GitHub</summary>\n<br/>\n\n[Your team has set up Codex to review pull requests in this repo](https://chatgpt.com/codex/cloud/settings/general). Reviews are triggered when you\n- Open a pull request for review\n- Mark a draft as ready\n- Comment \"@codex review\" or \"@codex security review\".\n\nCodex reacts with \ud83d\udc40 while any review is running, comments if it has suggestions, and reacts with \ud83d\udc4d once all reviews finish with no findings.\n\n</details>",
+        "createdAt": "2026-10-02T01:18:29Z",
+        "includesCreatedEdit": true,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/hellotext/help/pull/357#issuecomment-5943783569",
+        "viewerDidAuthor": false
+      },
+      {
+        "id": "IC_kwDOIVbAxs8AAAABYkcFjA",
+        "author": {
+          "login": "pelcasandra"
+        },
+        "authorAssociation": "MEMBER",
+        "body": "@codex review",
+        "createdAt": "2026-10-02T01:19:00Z",
+        "includesCreatedEdit": false,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/hellotext/help/pull/357#issuecomment-5943788940",
+        "viewerDidAuthor": true
+      },
+      {
+        "id": "IC_kwDOIVbAxs8AAAABYkfTcQ",
+        "author": {
+          "login": "pelcasandra"
+        },
+        "authorAssociation": "MEMBER",
+        "body": "@codex review",
+        "createdAt": "2026-10-02T01:24:27Z",
+        "includesCreatedEdit": false,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/hellotext/help/pull/357#issuecomment-5943841649",
+        "viewerDidAuthor": true
+      },
+      {
+        "id": "IC_kwDOIVbAxs8AAAABYklj9w",
+        "author": {
+          "login": "pelcasandra"
+        },
+        "authorAssociation": "MEMBER",
+        "body": "@codex review",
+        "createdAt": "2026-10-02T01:35:06Z",
+        "includesCreatedEdit": false,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/hellotext/help/pull/357#issuecomment-5943944183",
+        "viewerDidAuthor": true
+      },
+      {
+        "id": "IC_kwDOIVbAxs8AAAABYkoPVA",
+        "author": {
+          "login": "pelcasandra"
+        },
+        "authorAssociation": "MEMBER",
+        "body": "@codex review",
+        "createdAt": "2026-10-02T01:39:48Z",
+        "includesCreatedEdit": false,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/hellotext/help/pull/357#issuecomment-5943988052",
+        "viewerDidAuthor": true
+      },
+      {
+        "id": "IC_kwDOIVbAxs8AAAABYkptYA",
+        "author": {
+          "login": "chatgpt-codex-connector"
+        },
+        "authorAssociation": "NONE",
+        "body": "Codex Review: Didn't find any major issues. You're on a roll.\n\n**Reviewed commit:** `5f2c362364`\n\n<details> <summary>\u2139\ufe0f About Codex in GitHub</summary>\n<br/>\n\n[Your team has set up Codex to review pull requests in this repo](https://chatgpt.com/codex/cloud/settings/general). Reviews are triggered when you\n- Open a pull request for review\n- Mark a draft as ready\n- Comment \"@codex review\".\n\nIf Codex has suggestions, it will comment; otherwise it will react with \ud83d\udc4d.\n\n\n\n\nCodex can also answer questions or update the PR. Try commenting \"@codex address that feedback\".\n            \n</details>",
+        "createdAt": "2026-10-02T01:42:20Z",
+        "includesCreatedEdit": false,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/hellotext/help/pull/357#issuecomment-5944012128",
+        "viewerDidAuthor": false
+      }
+    ],
+    "reviews": [
+      {
+        "id": "PRR_kwDOIVbAxs8AAAABQR0OOw",
+        "author": {
+          "login": "chatgpt-codex-connector"
+        },
+        "authorAssociation": "NONE",
+        "body": "\n### \ud83d\udca1 Codex Review\n\nHere are some automated review suggestions for this pull request.\n\n**Reviewed commit:** `104a3a1a27`\n    \n\n<details> <summary>\u2139\ufe0f About Codex in GitHub</summary>\n<br/>\n\n[Your team has set up Codex to review pull requests in this repo](https://chatgpt.com/codex/cloud/settings/general). Reviews are triggered when you\n- Open a pull request for review\n- Mark a draft as ready\n- Comment \"@codex review\".\n\nIf Codex has suggestions, it will comment; otherwise it will react with \ud83d\udc4d.\n\n\n\n\nCodex can also answer questions or update the PR. Try commenting \"@codex address that feedback\".\n            \n</details>",
+        "submittedAt": "2026-10-02T01:22:55Z",
+        "includesCreatedEdit": false,
+        "reactionGroups": [],
+        "state": "COMMENTED",
+        "commit": {
+          "oid": "104a3a1a27afd4a3de303958905b58a0aa2925d6"
+        }
+      },
+      {
+        "id": "PRR_kwDOIVbAxs8AAAABQR0rPQ",
+        "author": {
+          "login": "pelcasandra"
+        },
+        "authorAssociation": "MEMBER",
+        "body": "",
+        "submittedAt": "2026-10-02T01:24:24Z",
+        "includesCreatedEdit": false,
+        "reactionGroups": [],
+        "state": "COMMENTED",
+        "commit": {
+          "oid": "104a3a1a27afd4a3de303958905b58a0aa2925d6"
+        }
+      },
+      {
+        "id": "PRR_kwDOIVbAxs8AAAABQR18hg",
+        "author": {
+          "login": "chatgpt-codex-connector"
+        },
+        "authorAssociation": "NONE",
+        "body": "\n### \ud83d\udca1 Codex Review\n\nHere are some automated review suggestions for this pull request.\n\n**Reviewed commit:** `104a3a1a27`\n    \n\n<details> <summary>\u2139\ufe0f About Codex in GitHub</summary>\n<br/>\n\n[Your team has set up Codex to review pull requests in this repo](https://chatgpt.com/codex/cloud/settings/general). Reviews are triggered when you\n- Open a pull request for review\n- Mark a draft as ready\n- Comment \"@codex review\".\n\nIf Codex has suggestions, it will comment; otherwise it will react with \ud83d\udc4d.\n\n\n\n\nCodex can also answer questions or update the PR. Try commenting \"@codex address that feedback\".\n            \n</details>",
+        "submittedAt": "2026-10-02T01:28:37Z",
+        "includesCreatedEdit": false,
+        "reactionGroups": [],
+        "state": "COMMENTED",
+        "commit": {
+          "oid": "104a3a1a27afd4a3de303958905b58a0aa2925d6"
+        }
+      },
+      {
+        "id": "PRR_kwDOIVbAxs8AAAABQR363A",
+        "author": {
+          "login": "pelcasandra"
+        },
+        "authorAssociation": "MEMBER",
+        "body": "",
+        "submittedAt": "2026-10-02T01:35:02Z",
+        "includesCreatedEdit": false,
+        "reactionGroups": [],
+        "state": "COMMENTED",
+        "commit": {
+          "oid": "5f2c362364306fcb277ac40ac28669589539b592"
+        }
+      },
+      {
+        "id": "PRR_kwDOIVbAxs8AAAABQR4uTg",
+        "author": {
+          "login": "chatgpt-codex-connector"
+        },
+        "authorAssociation": "NONE",
+        "body": "\n### \ud83d\udca1 Codex Review\n\nHere are some automated review suggestions for this pull request.\n\n**Reviewed commit:** `5f2c362364`\n    \n\n<details> <summary>\u2139\ufe0f About Codex in GitHub</summary>\n<br/>\n\n[Your team has set up Codex to review pull requests in this repo](https://chatgpt.com/codex/cloud/settings/general). Reviews are triggered when you\n- Open a pull request for review\n- Mark a draft as ready\n- Comment \"@codex review\".\n\nIf Codex has suggestions, it will comment; otherwise it will react with \ud83d\udc4d.\n\n\n\n\nCodex can also answer questions or update the PR. Try commenting \"@codex address that feedback\".\n            \n</details>",
+        "submittedAt": "2026-10-02T01:37:50Z",
+        "includesCreatedEdit": false,
+        "reactionGroups": [],
+        "state": "COMMENTED",
+        "commit": {
+          "oid": "5f2c362364306fcb277ac40ac28669589539b592"
+        }
+      },
+      {
+        "id": "PRR_kwDOIVbAxs8AAAABQR5RwA",
+        "author": {
+          "login": "pelcasandra"
+        },
+        "authorAssociation": "MEMBER",
+        "body": "",
+        "submittedAt": "2026-10-02T01:39:45Z",
+        "includesCreatedEdit": false,
+        "reactionGroups": [],
+        "state": "COMMENTED",
+        "commit": {
+          "oid": "5f2c362364306fcb277ac40ac28669589539b592"
+        }
+      }
+    ],
+    "threads": [
+      {
+        "id": "PRRT_kwDOIVbAxs6oMnmf",
+        "isResolved": true,
+        "comments": {
+          "nodes": [
+            {
+              "id": "PRRC_kwDOIVbAxs74E-ej",
+              "body": "**<sub><sub>![P2 Badge](https://img.shields.io/badge/P2-yellow?style=flat)</sub></sub>  Keep the recorded verifier reachable from this commit**\n\nWhen this change is consumed as commit `52df2a3`, `git merge-base --is-ancestor 29b80f48ec5dbdb8c8dc775741e18b7954a03d52 52df2a3` fails; this is the only populated verifier in `progress.csv` that is not an ancestor. Consequently, a clone containing this history cannot reliably inspect the content snapshot that supposedly earned `local_verified` status once the unreachable object is pruned. Preserve `29b80f4` as the parent of the ledger update, as the work record describes, or record a verifier that is reachable from the reviewed history.\n\nUseful? React with \ud83d\udc4d\u00a0/ \ud83d\udc4e.",
+              "url": "https://github.com/hellotext/help/pull/357#discussion_r4162054051",
+              "path": "docs/editorial-work/progress.csv",
+              "originalCommit": {
+                "oid": "104a3a1a27afd4a3de303958905b58a0aa2925d6"
+              }
+            },
+            {
+              "id": "PRRC_kwDOIVbAxs74FABz",
+              "body": "The actual PR head is 104a3a1a27afd4a3de303958905b58a0aa2925d6, not 52df2a3. GitHub GET /repos/hellotext/help/commits/104a3a1a27afd4a3de303958905b58a0aa2925d6 returns the sole parent 29b80f48ec5dbdb8c8dc775741e18b7954a03d52; the verifier in turn has parent 4d68d5de460e5520110adf474a74d3a84ef7874a. Local git rev-parse 104a3a1^ agrees, and git merge-base --is-ancestor 29b80f48ec5dbdb8c8dc775741e18b7954a03d52 104a3a1a27afd4a3de303958905b58a0aa2925d6 exits 0. All 97 populated local verifiers are ancestors of this exact head. Both individual commits appear in the current GitHub PR commit list and remain preserved. The cited 52df2a3 is not this PR head or either PR commit; no history rewrite or replacement verifier is needed.",
+              "url": "https://github.com/hellotext/help/pull/357#discussion_r4162060403",
+              "path": "docs/editorial-work/progress.csv",
+              "originalCommit": {
+                "oid": "104a3a1a27afd4a3de303958905b58a0aa2925d6"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "PRRT_kwDOIVbAxs6oMrYk",
+        "isResolved": true,
+        "comments": {
+          "nodes": [
+            {
+              "id": "PRRC_kwDOIVbAxs74FEpN",
+              "body": "**<sub><sub>![P2 Badge](https://img.shields.io/badge/P2-yellow?style=flat)</sub></sub>  Identify the escalation target as a team**\n\nIn the shown Property Collector control, **Atenci\u00f3n demo** is selected as the escalation team\u2014the UI explicitly refers to teammates and the capture provenance also describes it as a fictional team\u2014not as another playbook. Calling it the \u201ctarget playbook,\u201d and similarly `misi\u00f3n destino` in the Spanish article, directs readers to the wrong configuration object when diagnosing a handoff; describe it as the target team in both locales.\n\nUseful? React with \ud83d\udc4d\u00a0/ \ud83d\udc4e.",
+              "url": "https://github.com/hellotext/help/pull/357#discussion_r4162079309",
+              "path": "_i18n/en/journeys/how-hellotext-decides-whether-a-playbook-can-send.md",
+              "originalCommit": {
+                "oid": "104a3a1a27afd4a3de303958905b58a0aa2925d6"
+              }
+            },
+            {
+              "id": "PRRC_kwDOIVbAxs74FLoL",
+              "body": "Corrected both locales in 211a6e145ab49b1199cc2faccbfd39a98163f4d6: ES now says \"el equipo de destino\" and EN \"target team\". Reread the native ES/EN Escalation controls and original provenance, preserving the independent unsaved state and lack of assignment/acceptance/human reply. Build/security headers, all six complete 1440/390/580 Help views and sixteen unchanged native/built asset hashes, pixels and ICC checks passed again. The new verifier is the direct parent of ledger/head 5f2c362364306fcb277ac40ac28669589539b592; initial verifier/ledger and all correction commits remain preserved.",
+              "url": "https://github.com/hellotext/help/pull/357#discussion_r4162107915",
+              "path": "_i18n/en/journeys/how-hellotext-decides-whether-a-playbook-can-send.md",
+              "originalCommit": {
+                "oid": "104a3a1a27afd4a3de303958905b58a0aa2925d6"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "PRRT_kwDOIVbAxs6oMxgo",
+        "isResolved": true,
+        "comments": {
+          "nodes": [
+            {
+              "id": "PRRC_kwDOIVbAxs74FOj0",
+              "body": "**<sub><sub>![P2 Badge](https://img.shields.io/badge/P2-yellow?style=flat)</sub></sub>  Record a verifier reachable from the reviewed commit**\n\nThe fresh evidence relative to the earlier thread is that the requested commit `a7e7fa4` has sole parent `4d68d5d`, and `git merge-base --is-ancestor 211a6e145ab49b1199cc2faccbfd39a98163f4d6 a7e7fa4` returns false; this is the only populated `local_verified` entry whose verifier is not in this commit's history. A clone containing the reviewed history may therefore lose the object needed to inspect the verification after unreachable objects are pruned, so record a reachable verifier or preserve the verification commits as ancestors.\n\nUseful? React with \ud83d\udc4d\u00a0/ \ud83d\udc4e.",
+              "url": "https://github.com/hellotext/help/pull/357#discussion_r4162119924",
+              "path": "docs/editorial-work/progress.csv",
+              "originalCommit": {
+                "oid": "5f2c362364306fcb277ac40ac28669589539b592"
+              }
+            },
+            {
+              "id": "PRRC_kwDOIVbAxs74FQo1",
+              "body": "The current provider head remains 5f2c362364306fcb277ac40ac28669589539b592, whose sole parent is 211a6e145ab49b1199cc2faccbfd39a98163f4d6, as freshly verified with GitHub GET /repos/hellotext/help/commits/5f2c362364306fcb277ac40ac28669589539b592 and local git rev-parse 5f2c362364306fcb277ac40ac28669589539b592^. GitHub also confirms 211a6e145ab49b1199cc2faccbfd39a98163f4d6 has parent 104a3a1a27afd4a3de303958905b58a0aa2925d6, which has parent 29b80f48ec5dbdb8c8dc775741e18b7954a03d52. git merge-base --is-ancestor 211a6e145ab49b1199cc2faccbfd39a98163f4d6 5f2c362364306fcb277ac40ac28669589539b592 exits 0, and all 97 populated verifier checks passed against this actual head. The four actual PR commits are preserved as a chain. The reported a7e7fa4 is not the GitHub PR head or any of its commits. Comparing a separate synthesized commit with only the base parent does not establish an ancestry defect in this PR, and replacing the genuine verifier or rewriting the retained history would be incorrect.",
+              "url": "https://github.com/hellotext/help/pull/357#discussion_r4162128437",
+              "path": "docs/editorial-work/progress.csv",
+              "originalCommit": {
+                "oid": "5f2c362364306fcb277ac40ac28669589539b592"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "all_actual_comments_reviews_threads_read": true
+  },
+  "preview_verification": {
+    "head": "5f2c362364306fcb277ac40ac28669589539b592",
+    "preview_url": "https://deploy-preview-357--legendary-lollipop-e2d131.netlify.app",
+    "deployment": {
+      "id": "6abf0a325c6c5500084097e2",
+      "context": "deploy-preview",
+      "commit_ref": "5f2c362364306fcb277ac40ac28669589539b592",
+      "state": "ready",
+      "review_id": 357
+    },
+    "pages": [
+      {
+        "url": "https://deploy-preview-357--legendary-lollipop-e2d131.netlify.app/es/como-decide-hellotext-si-una-mision-puede-enviar",
+        "status": 200,
+        "article_key": "journeys/how-hellotext-decides-whether-a-playbook-can-send.md",
+        "locale": "es",
+        "figures": 4,
+        "sections": 13,
+        "approved_assets_present": [
+          "/images/developers/custom-actions/catalog-es.png",
+          "/images/developers/custom-actions/catalog-es-mobile.png",
+          "/images/team/ai-handoff-to-inbox/intents-es.png",
+          "/images/team/ai-handoff-to-inbox/intents-es-mobile.png",
+          "/images/audience/customer-profiles/profile-fields-es.png",
+          "/images/audience/customer-profiles/profile-fields-es-mobile.png",
+          "/images/captures/property-collector/handoff-es.png",
+          "/images/captures/property-collector/handoff-es-mobile.png"
+        ],
+        "complete_article_matches_verified_build": true,
+        "article_sha256": "cd78454329481d7e273005ac3830363c368c086462fbd06124ba381dd8a9a086",
+        "html_sha256": "ecb38370f859fb53157d312061b64e22530544ae9e24235c6d81fcf39f6adfbb"
+      },
+      {
+        "url": "https://deploy-preview-357--legendary-lollipop-e2d131.netlify.app/how-hellotext-decides-whether-a-playbook-can-send",
+        "status": 200,
+        "article_key": "journeys/how-hellotext-decides-whether-a-playbook-can-send.md",
+        "locale": "en",
+        "figures": 4,
+        "sections": 13,
+        "approved_assets_present": [
+          "/images/developers/custom-actions/catalog-en.png",
+          "/images/developers/custom-actions/catalog-en-mobile.png",
+          "/images/team/ai-handoff-to-inbox/intents-en.png",
+          "/images/team/ai-handoff-to-inbox/intents-en-mobile.png",
+          "/images/audience/customer-profiles/profile-fields-en.png",
+          "/images/audience/customer-profiles/profile-fields-en-mobile.png",
+          "/images/captures/property-collector/handoff-en.png",
+          "/images/captures/property-collector/handoff-en-mobile.png"
+        ],
+        "complete_article_matches_verified_build": true,
+        "article_sha256": "6ec2c6ec808f7cd9ef17ab383fd614d121e5d748d8ef2e14f929cf1e23cd662e",
+        "html_sha256": "7040fbd5704920e6655d3ee256b4971a3ed59f8f6553dba726cc5940daeec23d"
+      }
+    ],
+    "assets": [
+      {
+        "url": "https://deploy-preview-357--legendary-lollipop-e2d131.netlify.app/images/developers/custom-actions/catalog-es.png",
+        "status": 200,
+        "sha256": "a12712f6c78adc83c29a0c497ccb3a061449789f26a7d5cbaf6fdab127612389",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-357--legendary-lollipop-e2d131.netlify.app/images/developers/custom-actions/catalog-es-mobile.png",
+        "status": 200,
+        "sha256": "fab59f9490d84ad14feb17be6a5701ba29c39161fdc7bd5fbd391a2a16651d76",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-357--legendary-lollipop-e2d131.netlify.app/images/developers/custom-actions/catalog-en.png",
+        "status": 200,
+        "sha256": "6fdbbbe59759abe2be46c35406174c9dae62c52dcdb56d65f5875e003e278bef",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-357--legendary-lollipop-e2d131.netlify.app/images/developers/custom-actions/catalog-en-mobile.png",
+        "status": 200,
+        "sha256": "9f1460df43463d2eef8bbd04d6c550782d05bd4129eb7f9bf0faa5f553588561",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-357--legendary-lollipop-e2d131.netlify.app/images/team/ai-handoff-to-inbox/intents-es.png",
+        "status": 200,
+        "sha256": "3ce141b0bcdd1fc102325fca3389e28f19158d1344b0c94ec725b6f99bc7ee50",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-357--legendary-lollipop-e2d131.netlify.app/images/team/ai-handoff-to-inbox/intents-es-mobile.png",
+        "status": 200,
+        "sha256": "06a58e9ba16bdc719e9c1787edb0b699acc69e588cb43ae97295622b904c1e7f",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-357--legendary-lollipop-e2d131.netlify.app/images/team/ai-handoff-to-inbox/intents-en.png",
+        "status": 200,
+        "sha256": "58afbd5fd69c3e56c69b0cbfa41dd2e3c5946fa4884e1098436208e7237314d1",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-357--legendary-lollipop-e2d131.netlify.app/images/team/ai-handoff-to-inbox/intents-en-mobile.png",
+        "status": 200,
+        "sha256": "574b86a078f6ac9efb168c67084d2b50a5187bfd67ab7cf72fc113197f739971",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-357--legendary-lollipop-e2d131.netlify.app/images/audience/customer-profiles/profile-fields-es.png",
+        "status": 200,
+        "sha256": "bf1ee79e29d0ef384913cad51a1792ddf0050d75a5b4e138bd49df682e203b40",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-357--legendary-lollipop-e2d131.netlify.app/images/audience/customer-profiles/profile-fields-en.png",
+        "status": 200,
+        "sha256": "9bbb727226b2a20d5df4be2ca7612d29037b9d18d8e7e2ec488c407c54945f5d",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-357--legendary-lollipop-e2d131.netlify.app/images/audience/customer-profiles/profile-fields-es-mobile.png",
+        "status": 200,
+        "sha256": "1525d3add44bb64b93d457bb3353f8bfdd9fe0f1f99b84580aed0807db7829c3",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-357--legendary-lollipop-e2d131.netlify.app/images/audience/customer-profiles/profile-fields-en-mobile.png",
+        "status": 200,
+        "sha256": "0e2c6a1622ea73ec0fa008f5100b7ce5f04e2695cdb1aa2414c855db6ca760cb",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-357--legendary-lollipop-e2d131.netlify.app/images/captures/property-collector/handoff-es.png",
+        "status": 200,
+        "sha256": "ef1c8abc4712dacc2effa83f6c968dd4a9453a5b1be059609a877a91e1693356",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-357--legendary-lollipop-e2d131.netlify.app/images/captures/property-collector/handoff-en.png",
+        "status": 200,
+        "sha256": "0c5506ceed87f6ed0c9e57a4969d80cee2dc41f04ab25b04969917ab3f3bdfe9",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-357--legendary-lollipop-e2d131.netlify.app/images/captures/property-collector/handoff-es-mobile.png",
+        "status": 200,
+        "sha256": "4f252e8b5d86ad772df8b7f979ae8d61de1970ff36f7110f5f1e0b1b5867b2cc",
+        "matches_approved_asset": true,
+        "reused": true
+      },
+      {
+        "url": "https://deploy-preview-357--legendary-lollipop-e2d131.netlify.app/images/captures/property-collector/handoff-en-mobile.png",
+        "status": 200,
+        "sha256": "97bad463814d7ec88c224ea32ccf6500c65c8eed86a39ef83cd8fba79d2f3793",
+        "matches_approved_asset": true,
+        "reused": true
+      }
+    ]
+  },
+  "earlier_record_332_limitation": "This genuine later content SHA published normally; it does not prove publication of ad6d6455d0671cda042dc5ef184f73c86d64f8fb. No manual deployment or retry."
+}
