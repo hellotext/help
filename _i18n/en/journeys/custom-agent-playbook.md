@@ -1,6 +1,6 @@
 Use this guide when you need an AI agent for a specific business job that a prebuilt Hellotext playbook does not cover.
 
-Custom Agent is a reactive AI playbook. It listens for the intents you define, follows your instructions, uses approved knowledge, responds in selected incoming channels, and hands off when it should not continue automatically.
+Custom Agent is a reactive AI playbook for a specific job. Intents help select an enabled playbook from the message context; the prompt guides its response, and configured components define the available knowledge, incoming channels, and handoff destinations.
 
 It is not a journey route. You do not build a fixed sequence of waits, messages, conditions, and branches. You define what the agent owns, what should activate it, what knowledge it can use, and who should take over when the conversation needs a person.
 
@@ -10,12 +10,12 @@ Custom Agent helps you create one or more specialized AI agents.
 
 It can:
 
-- Activate when a customer message matches one of the intents you define.
+- Participate in contextual selection when an enabled playbook has an intent relevant to the customer message.
 - Follow a custom agent prompt for a specific mission.
 - Use uploaded documents, approved websites, or other enabled knowledge sources.
 - Respond in the incoming channels you allow.
 - Use the tone you choose for the agent.
-- Hand off to the configured teammate or team when the customer needs human help.
+- Request handoff to the configured teammate or team when the customer needs human help, subject to available reception, assignment, and capacity.
 - Work alongside other active playbooks, as long as each one has a clear job.
 
 Custom Agent works best when each agent owns a narrow mission. A good custom agent is not "answer anything." It is closer to "answer warranty questions for this product line," "qualify wholesale requests," "help customers choose a skincare routine," or "handle store pickup questions."
@@ -62,32 +62,76 @@ Check that:
 - The prompt explains what the agent should do, what it should not do, and when it should hand off.
 - Uploaded documents or approved sites are current and do not contradict each other.
 - The selected incoming channels are connected and ready.
-- The agent has a configured handoff owner.
+- The agent has a valid handoff destination, and the team understands its capacity, business hours, and handling protocol.
 - Your team knows how to review conversations that were answered, unresolved, or handed off.
 
 For setup validation, use [Verify your data and signals after setup]({% link _integrations/verify-data-and-signals.md %}).
 
 ## What you can configure
 
-Open **Playbooks**, click **Explore playbooks**, and choose **Custom Agent**.
+Open **Playbooks**, click **Explore playbooks**, and choose **Custom Agent**. Availability depends on the playbook type, account features, your role, and configuration quota. A component available in another playbook may not be available here.
+
+Opening a new playbook prepares a draft; it does not create or enable it on its own. Going back from a component retains local changes. The final save can create or clone the playbook and persist its configuration; enabling it can also submit those changes. Check what was saved and what is enabled before continuing.
 
 Custom Agent exposes:
 
-- **Intents:** the customer needs or phrases that should activate the agent.
+- **Intents:** customer needs that help select the agent by context, rather than exact keywords.
 - **Agent prompt:** the agent's mission, instructions, boundaries, tone guidance, and escalation rules.
 - **Upload documents:** policies, product notes, FAQs, size guides, warranty rules, operational instructions, or other approved context.
 - **Incoming channels:** where the agent can respond when customers message you.
 - **Escalation or assignment:** who should take over when the agent needs help.
 - **Tone:** the voice used in replies.
-- **Web search or external request, when available:** approved websites or external data sources the agent can use for this mission.
+- **Web search, when available:** approved domains for the search tool. An integration or external tool needs its own configuration and access; writing an HTTP request in the prompt does not add an external request tool.
 
-Keep automatic channel selection unless you have a clear reason to limit the agent. Most accounts do not need to change channels during the first launch.
+**Incoming channels** determines which incoming messages can participate. All incoming channels and manual selection are different options; choose according to your scope and actual connections. This control does not configure the outgoing channel, destination, consent, or a guarantee of response or delivery.
+
+The figure shows the shared control in an independent fictitious Property Collector draft: **All incoming channels** is selected, with manual selection available. No channel was saved or connected.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="All incoming channels selected without connection or sending">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 593px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/channels-en-mobile.png 2x" width="780" height="1520" />
+        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/channels-en.png" srcset="/images/captures/property-collector/channels-en.png 2x" width="1150" height="1180" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="All incoming channels selected without connection or sending" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real interface with an independent fictitious state; no save or execution in this batch.</figcaption>
+</figure>
+
+**Tone** lets you choose one to three tones to guide the voice. It does not replace instructions or guarantee a particular response. The figure is another independent fictitious Collector draft: **Friendly**, **Playful**, and **Exclusive** are selected without saving; it is not a generated reply.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Three tones selected without saving">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 593px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/tone-en-mobile.png 2x" width="780" height="970" />
+        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/tone-en.png" srcset="/images/captures/property-collector/tone-en.png 2x" width="1150" height="1030" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Three tones selected without saving" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real interface with an independent fictitious state; no save or execution in this batch.</figcaption>
+</figure>
 
 ## Define clear intents
 
-An intent is the customer need that should activate the agent.
+An intent describes a customer need. Classification uses conversation context and enabled playbooks; it is not a literal phrase search or a promise of exclusive selection. Enabling or disabling a playbook affects admission of new work, but does not prove that already queued work was canceled.
 
 Write intents in customer language, not internal feature language. Include a few realistic ways a customer would ask for the same thing.
+
+The fictitious **Intents** draft shows “I want to ask about a return.” in the field, without adding, saving, or classifying it. It does not show a received conversation or an activated playbook.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Intent phrase without addition or classification">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 646px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/team/ai-handoff-to-inbox/intents-en-mobile.png 2x" width="764" height="544" />
+        <img class="ht-editorial-visual__image" src="/images/team/ai-handoff-to-inbox/intents-en.png" srcset="/images/team/ai-handoff-to-inbox/intents-en.png 2x" width="1256" height="520" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Intent phrase without addition or classification" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real interface with an independent fictitious state; no save or execution in this batch.</figcaption>
+</figure>
 
 Good intents are specific:
 
@@ -106,7 +150,21 @@ If two custom agents have similar intents, customers may route to the wrong one.
 
 ## Write the agent prompt
 
-The prompt tells the agent how to do the job once it is activated.
+The prompt tells the agent how to do the job when selected. Custom Agent requires nonempty saved instructions. The prompt does not add tools, permissions, integrations, consent, or authority to modify data on its own.
+
+The figure shows an empty **Prompt** in a fictitious Custom Agent draft. The gray text is a placeholder, not saved instructions or an agent response.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Empty prompt field in a fictitious draft">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 646px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/journeys/how-to-customize-a-playbook-safely/prompt-en-mobile.png 2x" width="844" height="956" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-customize-a-playbook-safely/prompt-en.png" srcset="/images/journeys/how-to-customize-a-playbook-safely/prompt-en.png 2x" width="1256" height="1108" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Empty prompt field in a fictitious draft" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real interface with an independent fictitious state; no save or execution in this batch.</figcaption>
+</figure>
 
 Include:
 
@@ -125,7 +183,39 @@ For prompt structure, use [How to write a great agent prompt]({% link _journeys/
 
 ## Add knowledge carefully
 
-Uploaded documents and approved sites help the agent answer with business-specific context.
+Uploaded documents and approved sites can provide business context when their components and tools are available.
+
+In **Upload documents**, choosing a file, saving the playbook, and having the file ready for retrieval are separate stages. Subsequent processing is asynchronous: a saved file does not prove the tool can already find its contents. Check readiness and the answer against its source, rather than relying on the filename.
+
+The figure is an independent fictitious Custom Agent draft with an empty upload area. No file was chosen or uploaded.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Knowledge upload area without selected files">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 646px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/journeys/how-to-customize-a-playbook-safely/upload-en-mobile.png 2x" width="844" height="804" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-customize-a-playbook-safely/upload-en.png" srcset="/images/journeys/how-to-customize-a-playbook-safely/upload-en.png 2x" width="1256" height="732" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Knowledge upload area without selected files" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real interface with an independent fictitious state; no save or execution in this batch.</figcaption>
+</figure>
+
+**Web search** configures domains for the available search tool. A site is normalized to its hostname; this does not guarantee retrieval of an exact page, path, or port, the whole website, or always current information.
+
+The figure shows an empty field with the native `https://www.example.com` placeholder. No site was added or search executed.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Empty web search with native placeholder">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 646px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/journeys/how-to-customize-a-playbook-safely/web_search-en-mobile.png 2x" width="844" height="408" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-customize-a-playbook-safely/web_search-en.png" srcset="/images/journeys/how-to-customize-a-playbook-safely/web_search-en.png 2x" width="1256" height="432" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Empty web search with native placeholder" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real interface with an independent fictitious state; no save or execution in this batch.</figcaption>
+</figure>
 
 Use them for:
 
@@ -135,13 +225,27 @@ Use them for:
 
 Do not use stale files, conflicting policies, draft internal notes, or unsupported claims. If the source changes, update the document or approved website before expecting the agent to answer correctly.
 
-Knowledge does not replace structured data. If the agent needs order status, catalog products, profile properties, consent, or tracking events, make sure those signals are connected and current.
+Knowledge does not replace structured data. If the mission needs orders, a catalog, profile properties, consent, or tracking events, verify the integration and specific tool that exposes them. Not every agent type receives all properties or universal real-time inventory. Collecting a property requires the configured valid items and, where applicable, an enabled Property Collector; requesting it in the prompt does not expand that scope or grant consent.
 
 ## Configure handoff
 
 Custom agents should know when to stop.
 
-Configure escalation or assignment so the right teammate or team receives conversations that need a person.
+Configure a valid escalation or assignment destination and explain when to use it. Selecting a team, receiving the conversation, assigning an owner, and obtaining a reply are separate stages. Capacity, assignable people, business hours, and handling protocol can leave work pending; do not promise an immediate reply or that every handoff permanently pauses AI.
+
+The figure shows the shared **Escalation** control in an independent fictitious Property Collector draft, with **Atención demo** as the destination team. It is not a playbook name, completed assignment, or reply; this draft was not saved or enabled.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Fictitious handoff team without assignment">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 593px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/captures/property-collector/handoff-en-mobile.png 2x" width="780" height="680" />
+        <img class="ht-editorial-visual__image" src="/images/captures/property-collector/handoff-en.png" srcset="/images/captures/property-collector/handoff-en.png 2x" width="1150" height="660" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Fictitious handoff team without assignment" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real interface with an independent fictitious state; no save or execution in this batch.</figcaption>
+</figure>
 
 Common handoff cases include:
 
@@ -157,9 +261,9 @@ For the handoff model, use [AI handoff to Inbox]({% link _team/ai-handoff-to-inb
 
 ## How to test it
 
-Test with realistic messages before enabling the agent broadly.
+First review instructions, sources, intents, and destinations using written examples. If your account and playbook type offer Playground, treat it as a simulation: it can save a test conversation, apply draft changes to the simulation, and call AI providers. It does not use a real contact identity or prove consent, eligibility, channel sending, or delivery.
 
-Use test customer profiles and channels that match your launch plan, then try:
+To check actual behavior, agree on an isolated test environment, fictitious profiles, and authorized channels you control. Separate content review from testing reception, classification, assignment, and delivery; enabling or sending has effects. Evaluate:
 
 - A message that should activate the custom agent.
 - A message that sounds similar but should activate a different playbook.
@@ -169,9 +273,9 @@ Use test customer profiles and channels that match your launch plan, then try:
 - A message where the uploaded knowledge is missing or unclear.
 - A message that should hand off because the customer is upset, reports a defective product, or asks for a human decision.
 - A message in each incoming channel you plan to use.
-- A case where web search or an external request is needed, if that option is enabled.
+- A case needing web search or an integrated tool that is actually available, alongside a case where it cannot obtain a sufficient source.
 
-Review whether the agent activates from the right intents, stays in scope, uses the right source, avoids guessing, formats the reply well for the channel, and hands off to the correct owner.
+Review whether the agent is selected from the right intents, stays in scope, uses the right source, avoids guessing, and formats the reply correctly. Verify the handoff destination, assigned owner, and reply separately. This guide’s figures are independent drafts; they do not prove any of those results. If saving, enabling, or running a test has an uncertain outcome, reconcile the state before repeating the action.
 
 ## What to review after launch
 
@@ -184,9 +288,9 @@ During the first days, review:
 - Whether uploaded knowledge answered the real questions customers asked.
 - Whether handoffs were expected and went to the right teammate or team.
 - Whether the agent answered unsupported questions or avoided useful answers it could have handled.
-- Resolution rate, handoff rate, response speed, customer replies, opt-outs, failed messages, conversion, and attributed revenue when relevant.
+- Resolution, handoff, and response times using the available conversations and tools. Review opt-outs, failures, conversion, and attributed revenue only when relevant to the flow and report being consulted; these are not all guaranteed metrics in a dedicated Custom Agent report.
 
-Tune one thing at a time: intent wording, prompt, uploaded knowledge, approved websites, channel selection, tone, or handoff owner.
+Compare the same period and population, retain denominators, and distinguish a resolved conversation from a delivered message or an attributed sale. Tune one thing at a time: intent wording, prompt, uploaded knowledge, approved websites, channel selection, tone, or handoff destination. Review the saved and enabled state after the change.
 
 ## Related guides
 
