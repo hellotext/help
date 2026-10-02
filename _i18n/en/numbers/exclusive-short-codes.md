@@ -1,29 +1,43 @@
-SMS campaigns can be sent from approved senders available on your Hellotext account or from 4-5 digit short codes that are shared among different businesses on Hellotext.
+An **exclusive short code** is an SMS sender dedicated to your business. It can be useful if you need your own sender or plan a messaging volume that requires a specific commercial assessment. Availability depends on the destination country and provisioning process.
 
-Customers can reply back to messages received from a shared short code and their reply will appear on the Inbox of the business. It's also possible to continue a conversation with a customer using a shared short code.
+Hellotext can also use approved senders or shared short codes where available. With a shared code, other businesses can contact the same number from that sender. To associate an ordinary reply, Hellotext considers the channel, number, and compatible outgoing records; the reply can end up with another business. Capture references have their own handling. The person's text alone does not identify which business they intended to answer.
 
-However, this is not always ideal. Other businesses may be also using the same short code when sending their campaigns. We try to minimize the impact by extending the number of short codes but it is still possible that a subscriber receives a message from a different business after yours. When the subscriber replies, the message will be associated to the business they received the last message from, and in this case it will be a different business than yours.
-
-If your business plans to send a higher number of messages, or if you must ensure that the short code is only used by your business, it is possible to request an exclusive short code.
+If you need to prevent other Hellotext businesses from using your code, ask about an exclusive one. Sender exclusivity does not verify customer identity or grant consent for campaigns. Also review [SMS channel fundamentals]({% link _numbers/sms-channel-fundamentals.md %}).
 
 ## Pricing
 
-Starting on Scale plans onwards one exclusive short code in one country is already included in the plan when signed as an annual agreement. Annual agreements can also be paid monthly.
+The [current Hellotext pricing page](https://www.hellotext.com/pricing) lists an exclusive short code within Enterprise terms, **subject to country availability**. Confirm the offer that applies to your business; having a plan or requesting a code does not establish that it is assigned or active.
 
-It is possible to request an exclusive short code, available on all major networks on these countries:
+Before accepting a proposal, confirm with Hellotext:
 
-* Colombia
-* United States
-* Uruguay
+- destination country and covered mobile networks, including reply reception;
+- supported format and length, and whether you can choose the number;
+- applicable plan or agreement, term, and payment arrangement;
+- any provisioning, maintenance, and usage costs; and
+- approval requirements and an estimated process, without assuming a guaranteed date.
 
-An exclusive short code requires you to sign an annual agreement, payable on monthly basis. 
+Do not apply one country's terms to another or assume a national code works for international destinations. Message and part costs are covered separately in [SMS pricing and sender types]({% link _billing/sms-pricing-and-number-types.md %}).
 
 ## Requesting a short code
 
-Contact your account executive to get started with the process. 
+Contact your account executive or use [Hellotext's contact channels](https://www.hellotext.com/contact/). Explain the intended use, destination countries and mobile networks, estimated volume, and whether you need to receive replies. Include the business name and **Business ID** to identify the correct account.
 
-They will ask you to sign the annual agreement if needed. They may also suggest a list of existing exclusive short codes to choose from that are ready-to-use.
+If you have access to **Settings > General**, the ID appears below the name. The figure shows the fictional business **Enterprise** and public ID **4ONLdN32**. Enterprise is its name, not proof of the plan; the ID is not a short code, token, or approved request. You do not need to edit the business to copy it. If you cannot access it, ask someone with permissions in your business for help.
 
-If you want to choose your own 4-5 digit short code you need to provide a list of at least 3 possible and different numbers, ordered in priority from most wanted to least. 
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Public Business ID of the fictional business in General">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 886px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/developers/custom-store-integration/business-en-mobile.png 2x" width="748" height="524" />
+        <img class="ht-editorial-visual__image" src="/images/developers/custom-store-integration/business-en.png" srcset="/images/developers/custom-store-integration/business-en.png 2x" width="1736" height="404" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Public Business ID of the fictional business in General" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Public Business ID of the fictional business in General.</figcaption>
+</figure>
 
-Our team will obtain from the mobile operators the first that is available on all networks.
+If you prefer a particular number, ask which choices that market allows. Provide alternatives in preference order when Hellotext requests them; proposing a number does not reserve it or guarantee approval by every mobile network.
+
+Before announcing the sender or scheduling sends, obtain confirmation of the assigned code, country and coverage, operational account status, reply handling, and commercial terms. A request, an approval, and an active channel are different stages.
+
+Continue respecting each recipient's consent and opt-outs, account limits and balance, and flow compatibility. An active code does not guarantee that every message is sent, delivered, or read. If an operation's outcome is uncertain, check its state and references before repeating it.

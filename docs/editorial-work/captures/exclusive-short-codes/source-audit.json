@@ -1,0 +1,171 @@
+{
+  "inspected_at_utc": "2026-10-02T14:34:25.418535+00:00",
+  "protected_rails_sha": "5403a7dcb567b63cae87d4c088112d65fad4eb7f",
+  "current_master_sha": "4d949d3fb9e98937a26aefb0c1216a4481e8d1c6",
+  "scope": "Sender selection, shared reply association, destination compatibility, commercial plan and General public Business ID contracts; not a complete provider/provisioning/runtime/permission audit",
+  "source_files": [
+    {
+      "path": "app/models/sms/channel_finder.rb",
+      "protected_sha256": "e922ec399e66d095d3f31eb0feac3c393991aa4db46ce0be44b9273b958a2906",
+      "current_sha256": "e922ec399e66d095d3f31eb0feac3c393991aa4db46ce0be44b9273b958a2906",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/4d949d3fb9e98937a26aefb0c1216a4481e8d1c6/app/models/sms/channel_finder.rb",
+      "read_scope": "Complete protected file read this heartbeat; current immutable content hash compared; current differing Technology::Selection file and diff completely read"
+    },
+    {
+      "path": "app/models/channel/shareable.rb",
+      "protected_sha256": "70eeb2d1850c2da54bc67116163a40291d6c70d4c5f294bcf3d9f01f77552c31",
+      "current_sha256": "70eeb2d1850c2da54bc67116163a40291d6c70d4c5f294bcf3d9f01f77552c31",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/4d949d3fb9e98937a26aefb0c1216a4481e8d1c6/app/models/channel/shareable.rb",
+      "read_scope": "Complete protected file read this heartbeat; current immutable content hash compared; current differing Technology::Selection file and diff completely read"
+    },
+    {
+      "path": "app/models/channel.rb",
+      "protected_sha256": "77802efe45a261e418006e37903da333ec31448ae62bce427d6689523539d8d4",
+      "current_sha256": "77802efe45a261e418006e37903da333ec31448ae62bce427d6689523539d8d4",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/4d949d3fb9e98937a26aefb0c1216a4481e8d1c6/app/models/channel.rb",
+      "read_scope": "Complete protected file read this heartbeat; current immutable content hash compared; current differing Technology::Selection file and diff completely read"
+    },
+    {
+      "path": "app/models/channel/scopes.rb",
+      "protected_sha256": "280d62a1f858d9a7d9ea8173c80336a4c7cab9693d0003cddf39d07936c6adc9",
+      "current_sha256": "280d62a1f858d9a7d9ea8173c80336a4c7cab9693d0003cddf39d07936c6adc9",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/4d949d3fb9e98937a26aefb0c1216a4481e8d1c6/app/models/channel/scopes.rb",
+      "read_scope": "Complete protected file read this heartbeat; current immutable content hash compared; current differing Technology::Selection file and diff completely read"
+    },
+    {
+      "path": "app/models/channel/supportable.rb",
+      "protected_sha256": "599e28f7ac4f696510bf4522152627f36eb9d5d1c39efce7b994a4b91cffeba0",
+      "current_sha256": "599e28f7ac4f696510bf4522152627f36eb9d5d1c39efce7b994a4b91cffeba0",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/4d949d3fb9e98937a26aefb0c1216a4481e8d1c6/app/models/channel/supportable.rb",
+      "read_scope": "Complete protected file read this heartbeat; current immutable content hash compared; current differing Technology::Selection file and diff completely read"
+    },
+    {
+      "path": "app/models/shared_channel.rb",
+      "protected_sha256": "7256d6c9105963ae43520b82ebf2d9e46c978a3948f6cc41012164c556b2505d",
+      "current_sha256": "7256d6c9105963ae43520b82ebf2d9e46c978a3948f6cc41012164c556b2505d",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/4d949d3fb9e98937a26aefb0c1216a4481e8d1c6/app/models/shared_channel.rb",
+      "read_scope": "Complete protected file read this heartbeat; current immutable content hash compared; current differing Technology::Selection file and diff completely read"
+    },
+    {
+      "path": "app/models/phone_number.rb",
+      "protected_sha256": "7e7cbf8a9f9d6b88980657929d15dcd198f1429c72768044664177251e8776b3",
+      "current_sha256": "7e7cbf8a9f9d6b88980657929d15dcd198f1429c72768044664177251e8776b3",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/4d949d3fb9e98937a26aefb0c1216a4481e8d1c6/app/models/phone_number.rb",
+      "read_scope": "Complete protected file read this heartbeat; current immutable content hash compared; current differing Technology::Selection file and diff completely read"
+    },
+    {
+      "path": "app/models/keyword/unsubscription.rb",
+      "protected_sha256": "508048cdc9519e5f45045bbe6d23dd093bc2ac56421a92fbe7d5d68fbff4817a",
+      "current_sha256": "508048cdc9519e5f45045bbe6d23dd093bc2ac56421a92fbe7d5d68fbff4817a",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/4d949d3fb9e98937a26aefb0c1216a4481e8d1c6/app/models/keyword/unsubscription.rb",
+      "read_scope": "Complete protected file read this heartbeat; current immutable content hash compared; current differing Technology::Selection file and diff completely read"
+    },
+    {
+      "path": "app/models/business/message_limits.rb",
+      "protected_sha256": "d7b089ffae808e5db9fb0afc10423419dfbcb5d1e510d5305ddfc6bb6ba73b7b",
+      "current_sha256": "d7b089ffae808e5db9fb0afc10423419dfbcb5d1e510d5305ddfc6bb6ba73b7b",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/4d949d3fb9e98937a26aefb0c1216a4481e8d1c6/app/models/business/message_limits.rb",
+      "read_scope": "Complete protected file read this heartbeat; current immutable content hash compared; current differing Technology::Selection file and diff completely read"
+    },
+    {
+      "path": "app/models/technology/selection.rb",
+      "protected_sha256": "80b31c20d083291b8de21e021c7fd8b8843260dc8a2d0030cb9e3064210184c5",
+      "current_sha256": "ff346af7fad778f419ce4b9d1871f7ef2e688327f2c1ffd455a6774f1bc224aa",
+      "identical": false,
+      "url": "https://github.com/hellotext/hellotext/blob/4d949d3fb9e98937a26aefb0c1216a4481e8d1c6/app/models/technology/selection.rb",
+      "read_scope": "Complete protected file read this heartbeat; current immutable content hash compared; current differing Technology::Selection file and diff completely read",
+      "diff": "/private/tmp/hellotext-exclusive-short-codes-editorial-20261002/diffs/app__models__technology__selection.rb.diff",
+      "diff_archive": "technology-selection.diff.gz",
+      "diff_sha256": "0404900c050c280c9aa9563e6ba6837321ea2c0ee50b511f90618568c3b62595",
+      "diff_archive_sha256": "9ea3d1ffc0e92bd1ace0cdb4ac0af7e2cc49cf618cc88c633a679120ad7df307",
+      "reviewed_difference": "contacts_count uses cached active count or selected cached sums clamped to active; actual contacts relation and SMS technology selection unchanged; no new campaign UI observation"
+    },
+    {
+      "path": "app/models/products/package.rb",
+      "protected_sha256": "b0f7e9ef7d6bcb32aa5e7e8eaf3da8fdce192c200b841d04205bfcd110fef8d7",
+      "current_sha256": "b0f7e9ef7d6bcb32aa5e7e8eaf3da8fdce192c200b841d04205bfcd110fef8d7",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/4d949d3fb9e98937a26aefb0c1216a4481e8d1c6/app/models/products/package.rb",
+      "read_scope": "Complete protected file read this heartbeat; current immutable content hash compared; current differing Technology::Selection file and diff completely read"
+    },
+    {
+      "path": "app/integrations/twilio/sms/webhook.rb",
+      "protected_sha256": "141215f560e195b0ae666e0a39ccefdc8773f4458cee140e70606d61230751cd",
+      "current_sha256": "141215f560e195b0ae666e0a39ccefdc8773f4458cee140e70606d61230751cd",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/4d949d3fb9e98937a26aefb0c1216a4481e8d1c6/app/integrations/twilio/sms/webhook.rb",
+      "read_scope": "Complete protected file read this heartbeat; current immutable content hash compared; current differing Technology::Selection file and diff completely read"
+    },
+    {
+      "path": "app/integrations/infobip/sms/webhook.rb",
+      "protected_sha256": "bacffd98c64d185c540c5d352aacbdfe6231e3863c9f2aa190fb988f088d3462",
+      "current_sha256": "bacffd98c64d185c540c5d352aacbdfe6231e3863c9f2aa190fb988f088d3462",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/4d949d3fb9e98937a26aefb0c1216a4481e8d1c6/app/integrations/infobip/sms/webhook.rb",
+      "read_scope": "Complete protected file read this heartbeat; current immutable content hash compared; current differing Technology::Selection file and diff completely read"
+    },
+    {
+      "path": "app/views/businesses/_show.html.erb",
+      "protected_sha256": "2dd28dcfb5fba84b741d519d6d4932664c9b69f30f293f730a505d6ec35db8fc",
+      "current_sha256": "2dd28dcfb5fba84b741d519d6d4932664c9b69f30f293f730a505d6ec35db8fc",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/4d949d3fb9e98937a26aefb0c1216a4481e8d1c6/app/views/businesses/_show.html.erb",
+      "read_scope": "Complete protected file read this heartbeat; current immutable content hash compared; current differing Technology::Selection file and diff completely read"
+    },
+    {
+      "path": "app/controllers/business/settings_controller.rb",
+      "protected_sha256": "54caf2efa89e40909098967ff6fb67017f6938aa5c5c61921336d9796410c528",
+      "current_sha256": "54caf2efa89e40909098967ff6fb67017f6938aa5c5c61921336d9796410c528",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/4d949d3fb9e98937a26aefb0c1216a4481e8d1c6/app/controllers/business/settings_controller.rb",
+      "read_scope": "Complete protected file read this heartbeat; current immutable content hash compared; current differing Technology::Selection file and diff completely read"
+    },
+    {
+      "path": "app/views/business/settings/show.html.erb",
+      "protected_sha256": "1e3ddfd687d3975903a5a3e96f85917ad453db844baa36a7021fc3ff7a702c99",
+      "current_sha256": "1e3ddfd687d3975903a5a3e96f85917ad453db844baa36a7021fc3ff7a702c99",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/4d949d3fb9e98937a26aefb0c1216a4481e8d1c6/app/views/business/settings/show.html.erb",
+      "read_scope": "Complete protected file read this heartbeat; current immutable content hash compared; current differing Technology::Selection file and diff completely read"
+    },
+    {
+      "path": "app/policies/settings_policy.rb",
+      "protected_sha256": "053660c869008157e1db58c297f76546c4de59e07ed41be37100f1b8c3d22387",
+      "current_sha256": "053660c869008157e1db58c297f76546c4de59e07ed41be37100f1b8c3d22387",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/4d949d3fb9e98937a26aefb0c1216a4481e8d1c6/app/policies/settings_policy.rb",
+      "read_scope": "Complete protected file read this heartbeat; current immutable content hash compared; current differing Technology::Selection file and diff completely read"
+    },
+    {
+      "path": "app/models/contact/reachability_query.rb",
+      "protected_sha256": "01ed1128699969441e7dfed957a1b1542070fe986a71f6c1fc083943c70c486a",
+      "current_sha256": "01ed1128699969441e7dfed957a1b1542070fe986a71f6c1fc083943c70c486a",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/4d949d3fb9e98937a26aefb0c1216a4481e8d1c6/app/models/contact/reachability_query.rb",
+      "read_scope": "Complete protected file read this heartbeat; current immutable content hash compared; current differing Technology::Selection file and diff completely read"
+    },
+    {
+      "path": "app/models/inbound_message/smpp.rb",
+      "protected_sha256": "97ce70913ee393befef9d73a8115393be136203b274a577b23c4ad3a8cc6c5a2",
+      "current_sha256": "97ce70913ee393befef9d73a8115393be136203b274a577b23c4ad3a8cc6c5a2",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/4d949d3fb9e98937a26aefb0c1216a4481e8d1c6/app/models/inbound_message/smpp.rb",
+      "read_scope": "Complete protected file read this heartbeat; current immutable content hash compared; current differing Technology::Selection file and diff completely read"
+    }
+  ],
+  "summary": {
+    "compared": 19,
+    "identical": 18,
+    "different": 1
+  },
+  "operations": "File/GitHub/primary public page/approved PNG reads only; no source app, DB, account, fixture, provider, API example, job or worker execution"
+}
