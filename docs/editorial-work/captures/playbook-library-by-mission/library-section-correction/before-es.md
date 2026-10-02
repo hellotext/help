@@ -54,7 +54,7 @@ Sigue leyendo: [Resumen de herramientas de captura]({% link _captures/capture-ov
 
 ## Convertir compradores
 
-Empieza acá cuando los clientes necesitan ayuda para completar una compra o elegir productos que complementen un pedido confirmado elegible. Comprueba las señales y condiciones de entrada de cada misión.
+Empieza acá cuando los clientes muestran intención de compra pero no completan la compra.
 
 Opciones comunes incluyen:
 

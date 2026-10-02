@@ -54,7 +54,7 @@ Keep reading: [Capture tools overview]({% link _captures/capture-overview.md %})
 
 ## Convert shoppers
 
-Start here when shoppers need help completing a purchase or choosing products that complement an eligible confirmed order. Check each playbook’s signals and entry conditions.
+Start here when customers show buying intent but do not complete a purchase.
 
 Common options include:
 
