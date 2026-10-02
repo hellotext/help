@@ -42,3 +42,48 @@ Complete ES then EN 1440/390/580px articles reviewed through every scroll to the
 Pre-commit native ES Upload source inspection corrected the draft’s nonexistent Cargar documentos label to actual Conocimiento before verification. EN retains actual Upload documents. Initial Help preview is preparatory; final corrected full-body review is the accepted evidence. No source UI/pixel change.
 
 The type table uses the existing internal horizontal scroller at390px in both locales; all rows/columns were inspected after scrolling, without page overflow. All accepted native Help review PNGs retained privately with per-file hashes/ICC in help-review-evidence.json; these review captures are not new app sources or published PNGs.
+
+## Public verification
+
+Protected content PR#373 merged as 216101d7c5eefd462bc7c1b4f892ec3cc96de917 with all checks passed and exact-head fully paginated comments/reviews/threads read before a separate merge call; zero unresolved findings. Both commits, including verifier95ff05bd and its direct-child ledger9043808b, are retained. Exact main push Build 36992889166 passed. Normal Netlify production 6abf8060f53992000882776e is ready/published with actual commit_ref equal to the merge SHA. No manual deploy/retry. Both complete articles match the verified build, and all32 approved reused PNGs return HTTP200 with approved hashes. Zero new app captures/PNG uploads/duplicates. Public proof is in public-verification.json; this record is a separate protected metadata PR.
+
+Pages: [es](https://help.hellotext.com/es/soluciona-una-mision-que-no-se-disparo-o-no-envio), [en](https://help.hellotext.com/troubleshoot-a-playbook-that-did-not-trigger-or-send).
+
+Reused images, original paths and bytes (no duplicate uploads):
+
+- [catalog-es.png](https://help.hellotext.com/images/developers/custom-actions/catalog-es.png)
+- [catalog-es-mobile.png](https://help.hellotext.com/images/developers/custom-actions/catalog-es-mobile.png)
+- [intents-es.png](https://help.hellotext.com/images/team/ai-handoff-to-inbox/intents-es.png)
+- [intents-es-mobile.png](https://help.hellotext.com/images/team/ai-handoff-to-inbox/intents-es-mobile.png)
+- [profile-fields-es.png](https://help.hellotext.com/images/audience/customer-profiles/profile-fields-es.png)
+- [profile-fields-es-mobile.png](https://help.hellotext.com/images/audience/customer-profiles/profile-fields-es-mobile.png)
+- [channels-es.png](https://help.hellotext.com/images/captures/property-collector/channels-es.png)
+- [channels-es-mobile.png](https://help.hellotext.com/images/captures/property-collector/channels-es-mobile.png)
+- [handoff-es.png](https://help.hellotext.com/images/captures/property-collector/handoff-es.png)
+- [handoff-es-mobile.png](https://help.hellotext.com/images/captures/property-collector/handoff-es-mobile.png)
+- [assignment-es.png](https://help.hellotext.com/images/team/ai-handoff-to-inbox/assignment-es.png)
+- [assignment-es-mobile.png](https://help.hellotext.com/images/team/ai-handoff-to-inbox/assignment-es-mobile.png)
+- [prompt-es.png](https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/prompt-es.png)
+- [prompt-es-mobile.png](https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/prompt-es-mobile.png)
+- [upload-es.png](https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/upload-es.png)
+- [upload-es-mobile.png](https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/upload-es-mobile.png)
+- [catalog-en.png](https://help.hellotext.com/images/developers/custom-actions/catalog-en.png)
+- [catalog-en-mobile.png](https://help.hellotext.com/images/developers/custom-actions/catalog-en-mobile.png)
+- [intents-en.png](https://help.hellotext.com/images/team/ai-handoff-to-inbox/intents-en.png)
+- [intents-en-mobile.png](https://help.hellotext.com/images/team/ai-handoff-to-inbox/intents-en-mobile.png)
+- [profile-fields-en.png](https://help.hellotext.com/images/audience/customer-profiles/profile-fields-en.png)
+- [profile-fields-en-mobile.png](https://help.hellotext.com/images/audience/customer-profiles/profile-fields-en-mobile.png)
+- [channels-en.png](https://help.hellotext.com/images/captures/property-collector/channels-en.png)
+- [channels-en-mobile.png](https://help.hellotext.com/images/captures/property-collector/channels-en-mobile.png)
+- [handoff-en.png](https://help.hellotext.com/images/captures/property-collector/handoff-en.png)
+- [handoff-en-mobile.png](https://help.hellotext.com/images/captures/property-collector/handoff-en-mobile.png)
+- [assignment-en.png](https://help.hellotext.com/images/team/ai-handoff-to-inbox/assignment-en.png)
+- [assignment-en-mobile.png](https://help.hellotext.com/images/team/ai-handoff-to-inbox/assignment-en-mobile.png)
+- [prompt-en.png](https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/prompt-en.png)
+- [prompt-en-mobile.png](https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/prompt-en-mobile.png)
+- [upload-en.png](https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/upload-en.png)
+- [upload-en-mobile.png](https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/upload-en-mobile.png)
+
+The P2 ancestry claim described SHA53bb5da. Actual GitHub/local parents confirmed verifier95ff05bdae0f7b5a5402dae49fd47f005dfbf108 is the direct parent of head9043808b7d8807c4e1359d22bc6beef79db8dd60, itself based on8bbfa773; all105 verifiers are ancestors. The finding was read, answered and resolved with real evidence, then a fresh exact-head independent review found no major issues. No history was rewritten or omitted.
+
+Metadata review P2 corrected: all32 current image records now mark consumer_publication_state publicly_verified and point to public-verification.json, matching their HTTP200/hash evidence. Only current consumer fields changed; every historical_source_record, native/source/asset byte/pixel/ICC/guard, article and local review is preserved.
