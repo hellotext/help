@@ -38,3 +38,10 @@ Official API reference read alongside current Rails/SDK contracts; no example ex
 ## Progress ledger
 
 Verified content/provenance commit `42e5dede9eab925124d10f3b9031f26b76ecf40f` is the parent of this separate ledger update. Local ledger96 verified/57 pending/one out_of_scope. Protected checks/exact-head independent review and normal production proof still required; retain both commits.
+
+
+## Review correction — localized contact entry
+
+Confirmed P2: the Spanish primary new-request link pointed to the English contact form while the adjacent instructions named Spanish options. It now opens the verified Spanish /contacto page first; the original English /contact/ link remains an explicit language choice. info@, existing support@ correspondence and all original Liquid links remain. No form submission or source-app operation. Bilingual build/security headers, complete ES/EN1440/390/580 browser views and all20 native source/asset/both-build hashes passed again; no overflow or enlargement. Original snapshots and images unchanged. Initial verifier42e5dede9eab925124d10f3b9031f26b76ecf40f and ledger57363ccda7f053934b2baa2cc43bed68e04c561a remain in history; corrected verifier and its new direct-child ledger follow, without rewriting.
+
+The earlier alleged899USD mismatch was refuted by inspecting all four exact native order PNGs: both total fields display89.9USD with a decimal point, equivalent to89.90USD. Retained read-only serializer and approved original/preview hashes agree. Thread answered with evidence and resolved; no article/image change warranted. Fresh exact-head review required after the genuine localized-link correction.

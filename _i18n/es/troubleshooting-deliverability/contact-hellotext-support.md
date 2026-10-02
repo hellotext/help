@@ -1,4 +1,4 @@
-Para una solicitud nueva, usa [hellotext.com/contact](https://www.hellotext.com/contact/). La [página de contacto en español](https://www.hellotext.com/contacto) publica [info@hellotext.com](mailto:info@hellotext.com) y un enlace de WhatsApp. Si usas el formulario para un problema, elige **Necesito ayuda**; la opción inicial es **Quiero una demo**. Si ya tienes un hilo con [support@hellotext.com](mailto:support@hellotext.com), responde en ese mismo hilo para conservar el contexto.
+Para una solicitud nueva, usa la [página de contacto en español](https://www.hellotext.com/contacto), que publica [info@hellotext.com](mailto:info@hellotext.com) y un enlace de WhatsApp. Si usas el formulario para un problema, elige **Necesito ayuda**; la opción inicial es **Quiero una demo**. Si prefieres inglés, usa [hellotext.com/contact](https://www.hellotext.com/contact/). Si ya tienes un hilo con [support@hellotext.com](mailto:support@hellotext.com), responde en ese mismo hilo para conservar el contexto.
 
 Un reporte concreto permite identificar antes el negocio, objeto y momento afectados. No es necesario diagnosticar la causa técnica antes de pedir ayuda.
 
