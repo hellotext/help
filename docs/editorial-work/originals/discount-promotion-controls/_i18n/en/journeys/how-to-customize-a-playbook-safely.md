@@ -51,7 +51,7 @@ Use this table as a quick map:
 | **Knowledge** | Sales or support AI agents | What information the agent uses to answer. |
 | **Properties** | Playbooks that include the Property Collector subcomponent | Which missing profile data the playbook should ask for before continuing. |
 | **Incoming/outgoing channels** | Playbooks that allow channel selection | Where the playbook can reply or send. |
-| **Discounts** | Sales playbooks that allow offers | The strategy, AI incentive limits, and imported promotions the agent may use. |
+| **Discounts** | Sales playbooks that allow offers | Which eCommerce offer rules and AI discount limits the agent may use. |
 | **Escalation** | AI agents, support, [Webchat]({% link _captures/webchat-widget-playbook.md %}), and some custom playbooks | Who takes over when the agent should not continue. |
 | **Route steps** | Journeys or routes | Sequence, waits, branches, assignments, and exit from the flow. |
 
@@ -253,23 +253,23 @@ If you change channels, test the same scenario in each selected channel. Some co
 
 ## Customize discount strategy
 
-Open **Discounts** to decide which offers the playbook may use. This setting is also available in [Smart Recommender]({% link _journeys/smart-recommender-playbook.md %}) when your account has access to the component.
+This section applies to sales playbooks that show **Discounts** or discount settings.
 
-A store may have promotions for employees, testing, or internal use. Review which ones the agent should be able to look up before allowing it to use imported offers.
+Discount rules affect customer expectations and revenue, so change them carefully.
 
-### Choose a strategy
+Before changing discount settings:
 
-| Option | How it guides the agent |
-| --- | --- |
-| **Combine store offers with AI incentives** | Uses existing offers and allows extra AI incentives within the configured limit. You can choose which imported promotions are available. |
-| **Use existing store offers only** | Uses offers from your store or website without creating new AI incentives. You can choose which imported promotions are available. |
-| **Create new AI-driven offers only** | Allows AI incentives within the configured limit, without combining them with store offers. |
-| **Use a coupon created in Hellotext** | Uses the coupon you select through **Choose coupon**. Check its code and terms. |
-| **No discount strategy** | Instructs the agent not to offer discounts, free shipping, coupons, or other incentives. |
+- Confirm whether the playbook should follow eCommerce offer rules, create AI-driven discounts up to a maximum percentage, combine both, or send without discounts.
+- Set clear maximums for any AI-driven discount.
+- Avoid stacking discounts beyond your business rules.
+- Test what happens when a customer asks for a better discount.
+- Review reports after the change to confirm the discount strategy improves the right outcome.
 
-The AI options show **Up to 5%**, **Up to 10%**, **Up to 15%**, and **Up to 20%**. Choose a limit that respects your margins and stacking rules. Creating and applying an incentive depends on the playbook and store integration.
+If the playbook should never offer discounts, make that explicit in the discount settings and, if present, in the prompt.
 
-The figure shows **Up to 10%** selected in an unsaved **Subscriber Booster** draft. In that playbook, the generated incentive uses the configured percentage as a fixed rate; do not treat it as a variable AI ceiling for every playbook. The image illustrates the percentage selector and does not show the imported promotions panel. No discount was generated or store promotion changed.
+If your playbook offers a business coupon, verify that specific coupon and its terms as well as the strategy. Availability, integration, and offer rules are checked per flow; a percentage selector does not establish creation or redemption.
+
+The example shared card has **Up to 10%** selected in an unsaved **Subscriber Booster** draft. In that playbook, the generated incentive uses the configured percentage as a fixed rate; do not treat it as a variable AI ceiling for every playbook. The narrow focus shows the four percentages from the desktop source. No discount was generated or store promotion changed.
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Percentage in the shared discount card">
   <div class="ht-editorial-visual__stage">
@@ -282,49 +282,6 @@ The figure shows **Up to 10%** selected in an unsaved **Subscriber Booster** dra
   </div>
   <figcaption class="ht-editorial-visual__caption">Subscriber Booster draft; fixed rate for that flow.</figcaption>
 </figure>
-
-### Choose which store promotions the playbook may use
-
-The **Store promotions** panel lists promotions imported from VTEX. To open it:
-
-1. Select **Combine store offers with AI incentives** or **Use existing store offers only**.
-2. Click **View store promotions** in the selected card. In the combined option, this button sits alongside the percentages, after **Up to 20%**.
-3. Review each promotion and its schedule. Turn its switch on to allow it for this playbook, or off to exclude it.
-4. Use **Search promotions** to find it by name. The filter icon beside search lets you narrow the list by kind.
-5. Close the panel with its close button or Escape when you finish.
-
-Selecting a strategy keeps the panel closed until you click **View store promotions**. It opens on the left and moves configuration to the right. Closing it restores configuration and the conversation preview.
-
-The filter offers **All kinds**, **Combos**, **Buy and get a gift**, **Buy more, pay for fewer**, and **Discounts**. Search and kind work together; **Show more** extends the results for that selection.
-
-Searching or changing the filter keeps your selections, including promotions you can no longer see. Changing the kind returns to the start of the list and keeps the search text. Filtering a promotion out of view does not exclude it from the agent: turn its switch off to exclude it. Closing and reopening the panel also keeps the search, filter, and selections while you remain in the editor.
-
-### How switches and schedules work
-
-Each switch decides whether this playbook may use that imported promotion. Your changes apply to the playbook you are editing; they do not change the promotion in VTEX or other playbooks' selections.
-
-Without a playbook selection, the promotion follows its default availability in Hellotext. Imported promotions in the **Discounts** kind are off for the agent by default; turn on the ones you want to allow.
-
-**Enabled in the store** or **Disabled in the store** describes the source promotion's status. This can differ from the playbook switch. An explicit selection replaces the default availability for this playbook, even if the promotion is listed as disabled in the store. It does not activate the promotion in VTEX or guarantee that it will apply at checkout.
-
-The imported schedule still applies:
-
-- A promotion is available to the agent only within its date window and active weekdays, using the business time zone.
-- You can configure upcoming or paused promotions in the panel; being listed does not mean they are available now.
-- Expired promotions no longer appear in the list.
-- Dates and weekdays are displayed in the panel. To change them, edit the promotion in your store and wait for synchronization.
-
-For example, you can allow a promotion that only runs on Fridays. The agent will still respect that day; turning the switch on does not make it available for the rest of the week.
-
-### Save or restore your selections
-
-Close the panel, click **Go back** to return to the cards, and save the playbook with the editor's final save action. Closing the panel or returning to the cards keeps the draft; complete the save to keep your changes after leaving the editor.
-
-**Restore defaults** appears when there are playbook selections to clear. It resets every promotion for this playbook, including those hidden by search or the kind filter, and disappears when no playbook selections remain. Save the playbook to keep the reset. Promotions in the **Discounts** kind return to being off by default.
-
-If you choose the AI-only, coupon, or no-discount strategy, the panel closes and keeps your promotion selections. You can review them again when you choose a strategy that uses store offers.
-
-Before finishing, check that internal promotions are excluded, the public promotions you need are allowed, and their dates and weekdays are correct. Test an offer question and a request for a larger discount to check that the agent follows the selected strategy.
 
 ## Customize handoff rules
 
