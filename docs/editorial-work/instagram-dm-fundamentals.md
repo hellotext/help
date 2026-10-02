@@ -26,4 +26,39 @@ Current campaign options all/SMS/WA/Email, no Instagram. Shared incoming helper 
 
 ## Operations and verification
 
-Only source/GitHub/primary documentation and existing PNG reads. No source app/browser9460, Inbox GET cursor, DB/fixture/account/locale/permission/subscription audit/write, new source capture, Meta token/OAuth/connection, stock/product preview/AI/classifier/provider/API/example/test/send/Playground/job/worker; no identity/catalog/queue/order/template/event/message/response/review/UGC/score fabricated. Historical original mutations remain intact. Separate Help9452/exclusive profile/one4191tab/P3/DPR2/zoom1 review is limited to local Help. Local build/security headers and diff check passed. Complete ES first then EN articles visually inspected at1440/390/580 through every overlapping500ms scroll to footer. Six figures,11 headings,16 original Liquid links per language. All24 assets match both builds with hashes/pixels/ICC;20 source pairs byte-identical/four existing approved crops with parent identity verified. Native controls/variants inspected with no enlargement, page overflow or stage defect. Help-only process/page guards before/after retained. 214 native Help PNG hashes/pixels/ICC recorded in help-review-evidence.json; no source-app capture. Local verification complete; protected publication/public verification pending.
+Only source/GitHub/primary documentation and existing PNG reads. No source app/browser9460, Inbox GET cursor, DB/fixture/account/locale/permission/subscription audit/write, new source capture, Meta token/OAuth/connection, stock/product preview/AI/classifier/provider/API/example/test/send/Playground/job/worker; no identity/catalog/queue/order/template/event/message/response/review/UGC/score fabricated. Historical original mutations remain intact. Separate Help9452/exclusive profile/one4191tab/P3/DPR2/zoom1 review is limited to local Help. Local build/security headers and diff check passed. Complete ES first then EN articles visually inspected at1440/390/580 through every overlapping500ms scroll to footer. Six figures,11 headings,16 original Liquid links per language. All24 assets match both builds with hashes/pixels/ICC;20 source pairs byte-identical/four existing approved crops with parent identity verified. Native controls/variants inspected with no enlargement, page overflow or stage defect. Help-only process/page guards before/after retained. 214 native Help PNG hashes/pixels/ICC recorded in help-review-evidence.json; no source-app capture. Local verification complete; protected publication and public verification are recorded in public-verification.json.
+
+## Public verification
+
+Protected content PR #379 merged as 756dc032dabd62227922dfa59f1a194c46b2aab3 with all checks passed and exact-head independent review and fully paginated comments/reviews/threads read before a separate merge call; zero unresolved findings. All commits, including verifier4a707bd63db12e5e91b311fe66e2c5c71c8a960f and its direct-child ledger6d716506af6bbbbd42fb30596fee08cbd95e432f, are retained. Exact main push Build 37017771334 passed. Normal Netlify production 6abfbad56a62950009ca88c4 is ready/published with actual commit_ref equal to the merge SHA. No manual deploy/retry. Both complete articles match the verified build, and all24 approved reused PNGs return HTTP200 with approved hashes. Zero new app captures/PNG uploads/duplicates. Public proof is in public-verification.json; this record is a separate protected metadata PR. Current consumer image states and local publication state refer to that public proof; all nested historical source records remain intact.
+
+Pages: [es](https://help.hellotext.com/es/fundamentos-instagram-dm), [en](https://help.hellotext.com/instagram-dm-fundamentals).
+
+Reused images, original paths and bytes (no duplicate uploads):
+
+- [link-es.png](https://help.hellotext.com/images/numbers/message-editor-basics/link-es.png)
+- [link-es-mobile.png](https://help.hellotext.com/images/numbers/message-editor-basics/link-es-mobile.png)
+- [link-en.png](https://help.hellotext.com/images/numbers/message-editor-basics/link-en.png)
+- [link-en-mobile.png](https://help.hellotext.com/images/numbers/message-editor-basics/link-en-mobile.png)
+- [channel-es.png](https://help.hellotext.com/images/team/understanding-response-times/channel-es.png)
+- [channel-es-mobile.png](https://help.hellotext.com/images/team/understanding-response-times/channel-es-mobile.png)
+- [technology-es.png](https://help.hellotext.com/images/team/understanding-response-times/technology-es.png)
+- [technology-es-mobile.png](https://help.hellotext.com/images/team/understanding-response-times/technology-es-mobile.png)
+- [channel-en.png](https://help.hellotext.com/images/team/understanding-response-times/channel-en.png)
+- [channel-en-mobile.png](https://help.hellotext.com/images/team/understanding-response-times/channel-en-mobile.png)
+- [technology-en.png](https://help.hellotext.com/images/team/understanding-response-times/technology-en.png)
+- [technology-en-mobile.png](https://help.hellotext.com/images/team/understanding-response-times/technology-en-mobile.png)
+- [assignment-es.png](https://help.hellotext.com/images/team/ai-handoff-to-inbox/assignment-es.png)
+- [assignment-es-mobile.png](https://help.hellotext.com/images/team/ai-handoff-to-inbox/assignment-es-mobile.png)
+- [assignment-en.png](https://help.hellotext.com/images/team/ai-handoff-to-inbox/assignment-en.png)
+- [assignment-en-mobile.png](https://help.hellotext.com/images/team/ai-handoff-to-inbox/assignment-en-mobile.png)
+- [profile-fields-es.png](https://help.hellotext.com/images/audience/customer-profiles/profile-fields-es.png)
+- [profile-fields-en.png](https://help.hellotext.com/images/audience/customer-profiles/profile-fields-en.png)
+- [profile-fields-es-mobile.png](https://help.hellotext.com/images/audience/customer-profiles/profile-fields-es-mobile.png)
+- [profile-fields-en-mobile.png](https://help.hellotext.com/images/audience/customer-profiles/profile-fields-en-mobile.png)
+- [channels-es.png](https://help.hellotext.com/images/captures/property-collector/channels-es.png)
+- [channels-en.png](https://help.hellotext.com/images/captures/property-collector/channels-en.png)
+- [channels-es-mobile.png](https://help.hellotext.com/images/captures/property-collector/channels-es-mobile.png)
+- [channels-en-mobile.png](https://help.hellotext.com/images/captures/property-collector/channels-en-mobile.png)
+
+Source-head follow-up: current Rails master advanced from audited7db0d872 to4d949d3fb9e98937a26aefb0c1216a4481e8d1c6 by one campaign preparing-pill/locales commit. Exact metadata shows three changed paths and zero intersection with the90 audited paths. New unrelated source contents/patches were not reviewed; immutable audit/hashes remain intact. See source-head-follow-up.json. No app update/provider/job.
