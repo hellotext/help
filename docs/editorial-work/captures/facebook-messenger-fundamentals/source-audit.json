@@ -1,0 +1,550 @@
+{
+  "inspected_at_utc": "2026-10-02T12:44:52.030502+00:00",
+  "protected_rails_sha": "5403a7dcb567b63cae87d4c088112d65fad4eb7f",
+  "current_master_sha": "19bde9bab6b62308350d6fa429408049911dc1e8",
+  "scope": "Messenger channel contracts and shared control equivalence, not an operational provider/queue/permission audit",
+  "source_files": [
+    {
+      "path": "app/components/compose/channel_select_component.rb",
+      "protected_sha256": "74fb612861601e36d31915e35ffef9027df3a5f2e5881e3655593b2e27e0429e",
+      "current_sha256": "74fb612861601e36d31915e35ffef9027df3a5f2e5881e3655593b2e27e0429e",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/components/compose/channel_select_component.rb"
+    },
+    {
+      "path": "app/components/compose/component.rb",
+      "protected_sha256": "fa18360a1af012835aa38273ea9cb68f2ed23faefbfc0175ea93a610d432a5a5",
+      "current_sha256": "fa18360a1af012835aa38273ea9cb68f2ed23faefbfc0175ea93a610d432a5a5",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/components/compose/component.rb"
+    },
+    {
+      "path": "app/components/compose/technology_component.rb",
+      "protected_sha256": "7cc717c8d3ae9a053febc39924a688870c7f05fb2e5fae8e0aed6f5fe8afa2af",
+      "current_sha256": "7cc717c8d3ae9a053febc39924a688870c7f05fb2e5fae8e0aed6f5fe8afa2af",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/components/compose/technology_component.rb"
+    },
+    {
+      "path": "app/components/compose/toolbar.rb",
+      "protected_sha256": "04074de0b369a8250c6903b403a6ee6101b6cf8308af607af78644ff3f6b5904",
+      "current_sha256": "04074de0b369a8250c6903b403a6ee6101b6cf8308af607af78644ff3f6b5904",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/components/compose/toolbar.rb"
+    },
+    {
+      "path": "app/components/compose/toolbar/link_component.rb",
+      "protected_sha256": "5699e212d2752328a583445dbf595c08b2658a330180fa3c8364d34121584594",
+      "current_sha256": "5699e212d2752328a583445dbf595c08b2658a330180fa3c8364d34121584594",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/components/compose/toolbar/link_component.rb"
+    },
+    {
+      "path": "app/components/compose/toolbar/link_component/link_component.html.erb",
+      "protected_sha256": "6b52b52ca751c35566d03f4c0854166d276bdccf14b0cdbfdd7255a94c7cde68",
+      "current_sha256": "6b52b52ca751c35566d03f4c0854166d276bdccf14b0cdbfdd7255a94c7cde68",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/components/compose/toolbar/link_component/link_component.html.erb"
+    },
+    {
+      "path": "app/components/conversation/footer_component.rb",
+      "protected_sha256": "744898a6a3e27426f1e9f5bbb46bc66a8d0b1a782b4c5562f19fe5167772b2e3",
+      "current_sha256": "744898a6a3e27426f1e9f5bbb46bc66a8d0b1a782b4c5562f19fe5167772b2e3",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/components/conversation/footer_component.rb"
+    },
+    {
+      "path": "app/components/conversation/footer_component/footer_component.html.erb",
+      "protected_sha256": "151a19df4ff41b600f82f9c8bb09b005adf24e02626849ace31b3d3c6250ee34",
+      "current_sha256": "ff1991f1964f9676b9cdb79cf59b697817ff721f47c5168b7bc2700b17f967aa",
+      "identical": false,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/components/conversation/footer_component/footer_component.html.erb",
+      "diff": "diffs/app__components__conversation__footer_component__footer_component.html.erb.diff.gz",
+      "diff_uncompressed_sha256": "fddba2b2f8adc24b2ab25448d945cfe17d6b2364eb856cbef6f51f7637d98f73",
+      "diff_archive_sha256": "03497d212fe68c5367d9f067d9704729c9fa3db539082aa6dce65ac559809c55"
+    },
+    {
+      "path": "app/controllers/conversation/actions/assign_controller.rb",
+      "protected_sha256": "51ca74eb68549b0b2eca9dda4451bd88f3a5acd0a15c90a67dac4fae1fa695f3",
+      "current_sha256": "51ca74eb68549b0b2eca9dda4451bd88f3a5acd0a15c90a67dac4fae1fa695f3",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/controllers/conversation/actions/assign_controller.rb"
+    },
+    {
+      "path": "app/controllers/conversation/actions/close_controller.rb",
+      "protected_sha256": "3794224ce0434d99a5802e3243359d5c9b49f50e1132d70cf3baaef978310a63",
+      "current_sha256": "3794224ce0434d99a5802e3243359d5c9b49f50e1132d70cf3baaef978310a63",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/controllers/conversation/actions/close_controller.rb"
+    },
+    {
+      "path": "app/controllers/conversation/actions_controller.rb",
+      "protected_sha256": "00925da7c6de675ef178b30c82da811c9eb39e703691c67d10032a7abf4bd3ee",
+      "current_sha256": "00925da7c6de675ef178b30c82da811c9eb39e703691c67d10032a7abf4bd3ee",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/controllers/conversation/actions_controller.rb"
+    },
+    {
+      "path": "app/controllers/conversation/events_controller.rb",
+      "protected_sha256": "17259fc6f1da69a9a17020e6ea3bf9cf4c0657969a33ae0cfc30d868ed57e760",
+      "current_sha256": "17259fc6f1da69a9a17020e6ea3bf9cf4c0657969a33ae0cfc30d868ed57e760",
+      "identical": true,
+      "read_scope": "read-cursor scheduling lines 180-240, not complete file",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/controllers/conversation/events_controller.rb"
+    },
+    {
+      "path": "app/controllers/conversations_controller.rb",
+      "protected_sha256": "763899540f1730f98bf77e563863246d604010a2c785f0bfc0d866770a13a22c",
+      "current_sha256": "763899540f1730f98bf77e563863246d604010a2c785f0bfc0d866770a13a22c",
+      "identical": true,
+      "read_scope": "lines 1-160 index/show/auth and preload selection, not complete file",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/controllers/conversations_controller.rb"
+    },
+    {
+      "path": "app/controllers/links_controller.rb",
+      "protected_sha256": "eac4990975bf3b7391902cf14cba36073b163611db92665353f0b67414b093cf",
+      "current_sha256": "eac4990975bf3b7391902cf14cba36073b163611db92665353f0b67414b093cf",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/controllers/links_controller.rb"
+    },
+    {
+      "path": "app/controllers/settings/slas_controller.rb",
+      "protected_sha256": "7b6dbe1dc683a7e8f7e93542fe77a0e058e1a46a8990510379ea222db631f2c3",
+      "current_sha256": "7b6dbe1dc683a7e8f7e93542fe77a0e058e1a46a8990510379ea222db631f2c3",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/controllers/settings/slas_controller.rb"
+    },
+    {
+      "path": "app/helpers/playbook_components_helper.rb",
+      "protected_sha256": "2e9c3723764deb9d5f215975a048033842733cb617976478a47c08c6785f4477",
+      "current_sha256": "2e9c3723764deb9d5f215975a048033842733cb617976478a47c08c6785f4477",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/helpers/playbook_components_helper.rb"
+    },
+    {
+      "path": "app/integrations/meta/contact/upsert.rb",
+      "protected_sha256": "75632b484b95623674cf217bb35e9cfc6907a730feded21893c2c5e080fba053",
+      "current_sha256": "75632b484b95623674cf217bb35e9cfc6907a730feded21893c2c5e080fba053",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/integrations/meta/contact/upsert.rb"
+    },
+    {
+      "path": "app/integrations/meta/page/gateway.rb",
+      "protected_sha256": "2198d89c7b57f714426455aa270138a6a500b3c7bcea7f3c9095cfb9c65e4a95",
+      "current_sha256": "2198d89c7b57f714426455aa270138a6a500b3c7bcea7f3c9095cfb9c65e4a95",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/integrations/meta/page/gateway.rb"
+    },
+    {
+      "path": "app/integrations/meta/page/gateway/attachment.rb",
+      "protected_sha256": "e26fddc40d010a18a20928505479fa2907f21378bf9b1d7b4a25b62ed96933d9",
+      "current_sha256": "e26fddc40d010a18a20928505479fa2907f21378bf9b1d7b4a25b62ed96933d9",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/integrations/meta/page/gateway/attachment.rb"
+    },
+    {
+      "path": "app/integrations/meta/page/gateway/base.rb",
+      "protected_sha256": "15d8dbf0b60048c4388b9823f0054f54537201a7f4589f8391c2e7324cd34dc6",
+      "current_sha256": "15d8dbf0b60048c4388b9823f0054f54537201a7f4589f8391c2e7324cd34dc6",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/integrations/meta/page/gateway/base.rb"
+    },
+    {
+      "path": "app/integrations/meta/page/gateway/button_template.rb",
+      "protected_sha256": "35a6b2d2358534d77eb414d663beaad5df9a5758168c9b1b53862d5e0f408823",
+      "current_sha256": "35a6b2d2358534d77eb414d663beaad5df9a5758168c9b1b53862d5e0f408823",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/integrations/meta/page/gateway/button_template.rb"
+    },
+    {
+      "path": "app/integrations/meta/page/gateway/generic_template.rb",
+      "protected_sha256": "931dd7645f73b7537fc1c889005c6ca12ab664f119bc2a2417cdbbe7d35c5ccc",
+      "current_sha256": "931dd7645f73b7537fc1c889005c6ca12ab664f119bc2a2417cdbbe7d35c5ccc",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/integrations/meta/page/gateway/generic_template.rb"
+    },
+    {
+      "path": "app/integrations/meta/page/gateway/quick_replies.rb",
+      "protected_sha256": "005292b6005ecab87f5fa3fe0c023ff267e26cb13699c5aaccc559ff188e6e22",
+      "current_sha256": "005292b6005ecab87f5fa3fe0c023ff267e26cb13699c5aaccc559ff188e6e22",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/integrations/meta/page/gateway/quick_replies.rb"
+    },
+    {
+      "path": "app/integrations/meta/page/gateway/text.rb",
+      "protected_sha256": "d6d457453db15e227db0d9f5e109fa8387d8989575d6c528928490c8280e70b9",
+      "current_sha256": "d6d457453db15e227db0d9f5e109fa8387d8989575d6c528928490c8280e70b9",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/integrations/meta/page/gateway/text.rb"
+    },
+    {
+      "path": "app/integrations/meta/page/gateway/voice.rb",
+      "protected_sha256": "7289f8c0f6251b15e137c8b59b80b9d4a68b11054be263584b9ba70e4b6e484a",
+      "current_sha256": "7289f8c0f6251b15e137c8b59b80b9d4a68b11054be263584b9ba70e4b6e484a",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/integrations/meta/page/gateway/voice.rb"
+    },
+    {
+      "path": "app/integrations/meta/webhook/conversation/read.rb",
+      "protected_sha256": "29771b9a56f6ab0deeb61872cde038e9af5d9bffb169dc97bdeac07c0598ff49",
+      "current_sha256": "29771b9a56f6ab0deeb61872cde038e9af5d9bffb169dc97bdeac07c0598ff49",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/integrations/meta/webhook/conversation/read.rb"
+    },
+    {
+      "path": "app/integrations/meta/webhook/message/delivered.rb",
+      "protected_sha256": "5357a811fcfe3fa3527493c3d42caa1f86aef03db0e1ae6d5018b03874eaf895",
+      "current_sha256": "5357a811fcfe3fa3527493c3d42caa1f86aef03db0e1ae6d5018b03874eaf895",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/integrations/meta/webhook/message/delivered.rb"
+    },
+    {
+      "path": "app/integrations/meta/webhook/message/edited.rb",
+      "protected_sha256": "3b33c4d2f86d8cfa14e1402926872b34f6d06dad672ef94ae0b57561df7c742d",
+      "current_sha256": "3b33c4d2f86d8cfa14e1402926872b34f6d06dad672ef94ae0b57561df7c742d",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/integrations/meta/webhook/message/edited.rb"
+    },
+    {
+      "path": "app/integrations/meta/webhook/message/reaction.rb",
+      "protected_sha256": "462a8259b865e1ad692cecc9e117ef8836e8560e1f302d6885bd82903abf37ef",
+      "current_sha256": "462a8259b865e1ad692cecc9e117ef8836e8560e1f302d6885bd82903abf37ef",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/integrations/meta/webhook/message/reaction.rb"
+    },
+    {
+      "path": "app/integrations/meta/webhook/message/received.rb",
+      "protected_sha256": "d2031449326ac77c530823c282bce63186b09d8086d15d161360c1ad35782070",
+      "current_sha256": "d2031449326ac77c530823c282bce63186b09d8086d15d161360c1ad35782070",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/integrations/meta/webhook/message/received.rb"
+    },
+    {
+      "path": "app/javascript/controllers/compose/toolbar_controller.js",
+      "protected_sha256": "30c70bf27d04b931e02ed6e05a20128b8222fa7a2fc1a415f94cf4bd2a67b6d8",
+      "current_sha256": "30c70bf27d04b931e02ed6e05a20128b8222fa7a2fc1a415f94cf4bd2a67b6d8",
+      "identical": true,
+      "read_scope": "lines 1-225 tools/window/media/length handling, not complete file",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/javascript/controllers/compose/toolbar_controller.js"
+    },
+    {
+      "path": "app/javascript/controllers/editor/link/form_controller.js",
+      "protected_sha256": "b9119d68307d72cd15903cbcf1170e7e501b071a3421bd6d3526a584fe7102ba",
+      "current_sha256": "b9119d68307d72cd15903cbcf1170e7e501b071a3421bd6d3526a584fe7102ba",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/javascript/controllers/editor/link/form_controller.js"
+    },
+    {
+      "path": "app/javascript/controllers/input_controller.js",
+      "protected_sha256": "947413e86c286b65fe611a3ad3a9a77be3546b657f3d742d2c2dd04215f35335",
+      "current_sha256": "2b0f0574f34267071d160e308a6e594c17c5c770ab8384eea38f64f47bb62cdf",
+      "identical": false,
+      "read_scope": "technology/window change, reset/enable, formatting and link contracts; selected sections",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/javascript/controllers/input_controller.js",
+      "diff": "diffs/app__javascript__controllers__input_controller.js.diff.gz",
+      "diff_uncompressed_sha256": "47dca13a867d4858ef1b52c18b2174c105f554a81334b45a69acc933a3c62638",
+      "diff_archive_sha256": "75fa5223ac721c347f47e3c8746fcd6840ffe2e4527fa31e473e132e44e98d81"
+    },
+    {
+      "path": "app/models/automation/assignment.rb",
+      "protected_sha256": "830b8311f743c987c2b8c23e26f6f94ac6be619b27d1f12d79b6c58526a3d889",
+      "current_sha256": "830b8311f743c987c2b8c23e26f6f94ac6be619b27d1f12d79b6c58526a3d889",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/models/automation/assignment.rb"
+    },
+    {
+      "path": "app/models/automation/trigger_channel.rb",
+      "protected_sha256": "0af93ebb74e2e2c51e419f1c3fd65d8ee133f82396f0d6b637c5d13d59c30ba1",
+      "current_sha256": "0af93ebb74e2e2c51e419f1c3fd65d8ee133f82396f0d6b637c5d13d59c30ba1",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/models/automation/trigger_channel.rb"
+    },
+    {
+      "path": "app/models/business/compose_channels.rb",
+      "protected_sha256": "4fbedec8a2325674606937cd28c04844c104aea67909d88d5506334e568357f4",
+      "current_sha256": "4fbedec8a2325674606937cd28c04844c104aea67909d88d5506334e568357f4",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/models/business/compose_channels.rb"
+    },
+    {
+      "path": "app/models/cg/composer.rb",
+      "protected_sha256": "8d9e896ed9f86ec52f6b117e9216cde8659e71fb85c652febef43cc7cf60f6be",
+      "current_sha256": "8d9e896ed9f86ec52f6b117e9216cde8659e71fb85c652febef43cc7cf60f6be",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/models/cg/composer.rb"
+    },
+    {
+      "path": "app/models/contact/interactivity.rb",
+      "protected_sha256": "5d4e5aee45f8338a9d19c52a1f9410f19d1f822a84846f630b30b41a9553a381",
+      "current_sha256": "5d4e5aee45f8338a9d19c52a1f9410f19d1f822a84846f630b30b41a9553a381",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/models/contact/interactivity.rb"
+    },
+    {
+      "path": "app/models/conversation/assignable.rb",
+      "protected_sha256": "68617f1e3c728b7552aff8f3a44483888dd09388d43e02ec048de43b6a327ebe",
+      "current_sha256": "68617f1e3c728b7552aff8f3a44483888dd09388d43e02ec048de43b6a327ebe",
+      "identical": true,
+      "read_scope": "ownership/quiet/team/capacity/reply-claim sections; prior output was truncated, not complete file",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/models/conversation/assignable.rb"
+    },
+    {
+      "path": "app/models/conversation/closeable.rb",
+      "protected_sha256": "9f922cf52f36746596af7d437dde9990572ed81f8fb58bf3a0301312e1f7ad49",
+      "current_sha256": "9f922cf52f36746596af7d437dde9990572ed81f8fb58bf3a0301312e1f7ad49",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/models/conversation/closeable.rb"
+    },
+    {
+      "path": "app/models/conversation/window.rb",
+      "protected_sha256": "cc0ce95e3ed3d745bcf8a78ce62e7b1f1579e7fa73c4051f35f5e57ff7982ac3",
+      "current_sha256": "cc0ce95e3ed3d745bcf8a78ce62e7b1f1579e7fa73c4051f35f5e57ff7982ac3",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/models/conversation/window.rb"
+    },
+    {
+      "path": "app/models/dashboard/message.rb",
+      "protected_sha256": "235ae9c5b9115617925ecaf5fc53a30e2ecec59bead0444dc1a31813d4ac8d4b",
+      "current_sha256": "235ae9c5b9115617925ecaf5fc53a30e2ecec59bead0444dc1a31813d4ac8d4b",
+      "identical": true,
+      "read_scope": "run/send preconditions and route/destination/attribute/window helpers; selected sections, not complete file",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/models/dashboard/message.rb"
+    },
+    {
+      "path": "app/models/flux/messenger.rb",
+      "protected_sha256": "c18f720d2f63f64715915578c5166df525d755e4abc009a30029be1665d63b87",
+      "current_sha256": "c18f720d2f63f64715915578c5166df525d755e4abc009a30029be1665d63b87",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/models/flux/messenger.rb"
+    },
+    {
+      "path": "app/models/flux/resolver.rb",
+      "protected_sha256": "fe6565c2ff53d42e4b64d80a9cdb31577d6a04f3aa20c4ca9bd0ece16771e72a",
+      "current_sha256": "fe6565c2ff53d42e4b64d80a9cdb31577d6a04f3aa20c4ca9bd0ece16771e72a",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/models/flux/resolver.rb"
+    },
+    {
+      "path": "app/models/message/deliverable.rb",
+      "protected_sha256": "d197653b75ad30c06243f0fee9af657f545cf3268b431b3293d1da42e5c7a7dc",
+      "current_sha256": "d197653b75ad30c06243f0fee9af657f545cf3268b431b3293d1da42e5c7a7dc",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/models/message/deliverable.rb"
+    },
+    {
+      "path": "app/models/message/deliverer.rb",
+      "protected_sha256": "41c9fde98bc5b5afc2c1e17585f510c55e48b4bd41d0d558144e9c16e280cdf4",
+      "current_sha256": "41c9fde98bc5b5afc2c1e17585f510c55e48b4bd41d0d558144e9c16e280cdf4",
+      "identical": true,
+      "read_scope": "selected public guards and route branches, not complete file",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/models/message/deliverer.rb"
+    },
+    {
+      "path": "app/models/message/delivery_channel_resolver.rb",
+      "protected_sha256": "2834f8f7b3d6bb8d5b28654171ee7c2c8fae19458b1699ac28a3f34b183a15f1",
+      "current_sha256": "2834f8f7b3d6bb8d5b28654171ee7c2c8fae19458b1699ac28a3f34b183a15f1",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/models/message/delivery_channel_resolver.rb"
+    },
+    {
+      "path": "app/models/meta/identity.rb",
+      "protected_sha256": "8fcfc18b569c31488787a96acfdf783de2600810e9de9d6ecb099850569786ae",
+      "current_sha256": "8fcfc18b569c31488787a96acfdf783de2600810e9de9d6ecb099850569786ae",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/models/meta/identity.rb"
+    },
+    {
+      "path": "app/models/playbook.rb",
+      "protected_sha256": "14c91253a79dfc925c88c7ab54d76ded0586b682f38ac60d602b8d02b3a106cd",
+      "current_sha256": "14c91253a79dfc925c88c7ab54d76ded0586b682f38ac60d602b8d02b3a106cd",
+      "identical": true,
+      "read_scope": "outgoing_channel_identifiers and general availability/runtime contracts, not complete file",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/models/playbook.rb"
+    },
+    {
+      "path": "app/models/playbook/component/channel.rb",
+      "protected_sha256": "029179339af82e512e009478cbe3878826849a0e18a19d1c7ea22e853e19b6ae",
+      "current_sha256": "029179339af82e512e009478cbe3878826849a0e18a19d1c7ea22e853e19b6ae",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/models/playbook/component/channel.rb"
+    },
+    {
+      "path": "app/models/playbook/custom.rb",
+      "protected_sha256": "9c250c15f0abeb2ced580300eca12da196c48875b282fdaddd3876bcc249b293",
+      "current_sha256": "9c250c15f0abeb2ced580300eca12da196c48875b282fdaddd3876bcc249b293",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/models/playbook/custom.rb"
+    },
+    {
+      "path": "app/models/playbook/route_evaluation.rb",
+      "protected_sha256": "c9af31c1c5cfb4f64369a18996802781c51f5a5b8d21431302182666b397c0be",
+      "current_sha256": "c9af31c1c5cfb4f64369a18996802781c51f5a5b8d21431302182666b397c0be",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/models/playbook/route_evaluation.rb"
+    },
+    {
+      "path": "app/models/sla/rule.rb",
+      "protected_sha256": "23a776be6139c44dc43e9848ed197b70b20a3c3ea065ac8b28cf543b37365711",
+      "current_sha256": "23a776be6139c44dc43e9848ed197b70b20a3c3ea065ac8b28cf543b37365711",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/models/sla/rule.rb"
+    },
+    {
+      "path": "app/models/technology.rb",
+      "protected_sha256": "120b4ce8a9ece59b635505c28dbd1953de766481b9b73d4a194b7b2c9a7d83df",
+      "current_sha256": "120b4ce8a9ece59b635505c28dbd1953de766481b9b73d4a194b7b2c9a7d83df",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/models/technology.rb"
+    },
+    {
+      "path": "app/policies/conversation_policy.rb",
+      "protected_sha256": "cc0e1d8690afedc373c73ef5ae3c94de35458062a5d17193247f796af2dd32db",
+      "current_sha256": "cc0e1d8690afedc373c73ef5ae3c94de35458062a5d17193247f796af2dd32db",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/policies/conversation_policy.rb"
+    },
+    {
+      "path": "app/services/contact/attribute/creator/messenger.rb",
+      "protected_sha256": "09f27bcd79c76b4572a3dd040da4494426125ebc15866140472beafa90d576a2",
+      "current_sha256": "09f27bcd79c76b4572a3dd040da4494426125ebc15866140472beafa90d576a2",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/services/contact/attribute/creator/messenger.rb"
+    },
+    {
+      "path": "app/views/automation/assignments/_assignment.html.erb",
+      "protected_sha256": "f773f50a1ecf088a1b7b63abf7432edf5c9eb983d66be81f2f3cffdd5877974d",
+      "current_sha256": "f773f50a1ecf088a1b7b63abf7432edf5c9eb983d66be81f2f3cffdd5877974d",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/views/automation/assignments/_assignment.html.erb"
+    },
+    {
+      "path": "app/views/automation/assignments/_pane.html.erb",
+      "protected_sha256": "2c24f40992cecfdc013a92ec4b0c44661e4e9b0ae53dea9bd6dc090e5e7b4aaa",
+      "current_sha256": "2c24f40992cecfdc013a92ec4b0c44661e4e9b0ae53dea9bd6dc090e5e7b4aaa",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/views/automation/assignments/_pane.html.erb"
+    },
+    {
+      "path": "app/views/campaigns/wizard/technologies.html.erb",
+      "protected_sha256": "f61b78a9adc73b29ae2a019c99b102c8cc9adcf058a7a20efc91fc246d350e68",
+      "current_sha256": "f61b78a9adc73b29ae2a019c99b102c8cc9adcf058a7a20efc91fc246d350e68",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/views/campaigns/wizard/technologies.html.erb"
+    },
+    {
+      "path": "app/views/conversations/partials/_footer.erb",
+      "protected_sha256": "2b373fccbf6f680acb7f4883f725c00784ffafb01a81b13e29cc11e6ab963650",
+      "current_sha256": "2b373fccbf6f680acb7f4883f725c00784ffafb01a81b13e29cc11e6ab963650",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/views/conversations/partials/_footer.erb"
+    },
+    {
+      "path": "app/views/playbook/component/channels/_channel.html.erb",
+      "protected_sha256": "8f5d32437d55c59737465fbd1aeb7522a6782ff037d7e690dd4c77ba1760d43d",
+      "current_sha256": "8f5d32437d55c59737465fbd1aeb7522a6782ff037d7e690dd4c77ba1760d43d",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/views/playbook/component/channels/_channel.html.erb"
+    },
+    {
+      "path": "app/views/playbook/component/channels/_form.html.erb",
+      "protected_sha256": "77365e1727617c2fd93184dfb6ee089d53645648c494f4926a8e87d02f11bdc5",
+      "current_sha256": "77365e1727617c2fd93184dfb6ee089d53645648c494f4926a8e87d02f11bdc5",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/views/playbook/component/channels/_form.html.erb"
+    },
+    {
+      "path": "app/views/settings/slas/_form.html.erb",
+      "protected_sha256": "c438638d351ed9a04e42e33e44e23a508b480c9bf2a7dce8fba99881ef5660e5",
+      "current_sha256": "c438638d351ed9a04e42e33e44e23a508b480c9bf2a7dce8fba99881ef5660e5",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/views/settings/slas/_form.html.erb"
+    },
+    {
+      "path": "app/wizards/campaign/creation_wizard/technologies.rb",
+      "protected_sha256": "aa816f004c0e8f1c936bbc18d640423842b3b66eb741372a77d24908bcea94b5",
+      "current_sha256": "aa816f004c0e8f1c936bbc18d640423842b3b66eb741372a77d24908bcea94b5",
+      "identical": true,
+      "read_scope": "complete protected file read during preliminary or continuation preparation",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/app/wizards/campaign/creation_wizard/technologies.rb"
+    },
+    {
+      "path": "db/seeds/playbooks.rb",
+      "protected_sha256": "a541b1bb9cfdc2fcf904228264f797ea86ec0227d49e9819b1e4655acfeb664c",
+      "current_sha256": "a541b1bb9cfdc2fcf904228264f797ea86ec0227d49e9819b1e4655acfeb664c",
+      "identical": true,
+      "read_scope": "Custom component/channel selection and neighboring type definitions, not complete file",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/db/seeds/playbooks.rb"
+    },
+    {
+      "path": "db/seeds/technologies.rb",
+      "protected_sha256": "215eb07e6a9c2035e8f48a39cf11138945687fbfb69a4af1d32b9e2146038f45",
+      "current_sha256": "215eb07e6a9c2035e8f48a39cf11138945687fbfb69a4af1d32b9e2146038f45",
+      "identical": true,
+      "read_scope": "complete technology seed file; source defaults, no fresh DB audit",
+      "url": "https://github.com/hellotext/hellotext/blob/19bde9bab6b62308350d6fa429408049911dc1e8/db/seeds/technologies.rb"
+    }
+  ],
+  "summary": {
+    "compared": 66,
+    "identical": 64,
+    "different": 2
+  },
+  "operations": "file/GitHub reads only; no source app, DB, provider, job or example execution",
+  "initial_diagnostic": "Local git comparison was rejected because current master objects are absent from the protected checkout. No successful comparisons were recorded from that attempt; immutable GitHub contents were read instead.",
+  "current_differences_read": "Both full immutable diffs read; footer removes Email preview controller, adds contact_id to templates and lazily loads notes; input diff adds composer timing instrumentation. Shared Link/form/window contracts unchanged. No app update."
+}
