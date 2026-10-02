@@ -22,4 +22,17 @@ Four original Business ID PNGs from custom-store-integration are reused, each ma
 
 Only source/GitHub/public primary page reads and approved PNG inspection before editing. No source browser9460, Rails/DB/account/locale/fixture/permission/subscription visit/audit/write; no connection/token/channel/sender/request/carrier/consent/message/event/stock/provider/API example/Send/Test/Inbox cursor/job/worker. Primary campaign branch6664a8c and old3191 unchanged. No renderer/shared-guide/CSS/test changes.
 
-Local build/security headers and diff check passed. Complete ES first then EN articles visually inspected at1440/390/580 through every overlapping500ms scroll to footer. One useful figure/two headings/two new contextual Liquid links per locale; original stub and zero original links preserved. All4 assets match sources and both builds with hashes/pixels/ICC. No image enlargement/page overflow/stage defect. Help-only process/page guards before/after retained, 55 native Help PNG hashes/pixels/ICC in help-review-evidence.json. Initial sandbox process guard stopped on ps EPERM before capture; approved guarded retry completed without changing browser/profile. Protected publication/public verification pending.
+Local build/security headers and diff check passed. Complete ES first then EN articles visually inspected at1440/390/580 through every overlapping500ms scroll to footer. One useful figure/two headings/two new contextual Liquid links per locale; original stub and zero original links preserved. All4 assets match sources and both builds with hashes/pixels/ICC. No image enlargement/page overflow/stage defect. Help-only process/page guards before/after retained, 55 native Help PNG hashes/pixels/ICC in help-review-evidence.json. Initial sandbox process guard stopped on ps EPERM before capture; approved guarded retry completed without changing browser/profile. Protected publication/public verification recorded in public-verification.json.
+
+## Public verification
+
+Protected content PR #381 merged as 5234e8ae0d24fdfc969f0bd7d615acdc72ed6a87 with all checks passed and exact-head independent review and fully paginated comments/reviews/threads read before a separate merge call; zero unresolved findings. All commits, including verifier9251b8e6dc577e3642d0a3a03cd0105c5003fb6a and its direct-child ledger35487587dc58b0ab70d88ebb476201bd9d395d6b, are retained. Exact main push Build 37022090263 passed. Normal Netlify production 6abfc382f081bb0008c9b048 is ready/published with actual commit_ref equal to the merge SHA. No manual deploy/retry. Both complete articles match the verified build, and all4 approved reused PNGs return HTTP200 with approved hashes. Zero new app captures/PNG uploads/duplicates. Public proof is in public-verification.json; this record is a separate protected metadata PR. Current consumer image states and local publication state refer to that public proof; all nested historical source records remain intact.
+
+Pages: [es](https://help.hellotext.com/es/codigos-cortos-exclusivos), [en](https://help.hellotext.com/exclusive-short-codes).
+
+Reused images, original paths and bytes (no duplicate uploads):
+
+- [business-es.png](https://help.hellotext.com/images/developers/custom-store-integration/business-es.png)
+- [business-es-mobile.png](https://help.hellotext.com/images/developers/custom-store-integration/business-es-mobile.png)
+- [business-en.png](https://help.hellotext.com/images/developers/custom-store-integration/business-en.png)
+- [business-en-mobile.png](https://help.hellotext.com/images/developers/custom-store-integration/business-en-mobile.png)
