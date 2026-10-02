@@ -1,0 +1,98 @@
+{
+  "status": "pending",
+  "scope": "Configuration/visual-feasibility only, operational/tool/gateway audit incomplete. No fresh app visit, fixture probe or capture.",
+  "originals": [
+    {
+      "article": "_i18n/es/journeys/order-cancellation-assistant-playbook.md",
+      "sha256": "37d4496e4f46a6ad6a3a8063ff1c38d25d1588af3f3183886eda15765de5be34",
+      "snapshot": "originals/_i18n/es/journeys/order-cancellation-assistant-playbook.md"
+    },
+    {
+      "article": "_i18n/en/journeys/order-cancellation-assistant-playbook.md",
+      "sha256": "8d625a2fa7079a76fb9c6d785a88df2c1ca0ea3e39da1ac2f79c680296453c41",
+      "snapshot": "originals/_i18n/en/journeys/order-cancellation-assistant-playbook.md"
+    },
+    {
+      "article": "_journeys/order-cancellation-assistant-playbook.md",
+      "sha256": "1b244bb6cbc310d15eaf0ef7b0bcf0f7dbdc0a91dee14aa8f4fbf98d828394e3",
+      "snapshot": "originals/_journeys/order-cancellation-assistant-playbook.md"
+    }
+  ],
+  "master": "ed4b9a87cfba95431f5ffe0987a6413d4d538835",
+  "configuration_sources": [
+    {
+      "path": "app/models/playbook/order_cancellation.rb",
+      "protected_sha256": "8e50e77bac6e18633b9605fd015a1fbb52e633014449f7f3a459318fd0e429bc",
+      "current_sha256": "8e50e77bac6e18633b9605fd015a1fbb52e633014449f7f3a459318fd0e429bc",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/order_cancellation.rb",
+      "inspection": "New exact-master source comparison; targeted overview types/configuration contracts inspected; cancellation configuration assessed for visual feasibility."
+    },
+    {
+      "path": "app/helpers/integrations_helper.rb",
+      "protected_sha256": "bc8f9b9ed30ba9e3e9257c0a2197c619a8eacac969b001bd5d1666046f74d712",
+      "current_sha256": "bc8f9b9ed30ba9e3e9257c0a2197c619a8eacac969b001bd5d1666046f74d712",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/helpers/integrations_helper.rb",
+      "inspection": "New exact-master source comparison; targeted overview types/configuration contracts inspected; cancellation configuration assessed for visual feasibility."
+    },
+    {
+      "path": "app/models/playbook/component/order_cancellation/policy.rb",
+      "protected_sha256": "2cbcf66616c2f4370dbc32fad4fb08e2aa3e97be13ade3feb948796766abde08",
+      "current_sha256": "2cbcf66616c2f4370dbc32fad4fb08e2aa3e97be13ade3feb948796766abde08",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/component/order_cancellation/policy.rb",
+      "inspection": "New exact-master source comparison; targeted overview types/configuration contracts inspected; cancellation configuration assessed for visual feasibility."
+    },
+    {
+      "path": "app/models/playbook/component/order_cancellation/save_strategy.rb",
+      "protected_sha256": "1860b5835eeeff9b6985da31b217b570311f3dea921a7e72b4e75315abd56046",
+      "current_sha256": "1860b5835eeeff9b6985da31b217b570311f3dea921a7e72b4e75315abd56046",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/component/order_cancellation/save_strategy.rb",
+      "inspection": "New exact-master source comparison; targeted overview types/configuration contracts inspected; cancellation configuration assessed for visual feasibility."
+    },
+    {
+      "path": "app/models/playbook/saver/order_cancellation/policy.rb",
+      "protected_sha256": "833f6c960febbe22f95947410e6f5bd4fa115e3094a9f2c7940189779b37c9b0",
+      "current_sha256": "833f6c960febbe22f95947410e6f5bd4fa115e3094a9f2c7940189779b37c9b0",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/saver/order_cancellation/policy.rb",
+      "inspection": "New exact-master source comparison; targeted overview types/configuration contracts inspected; cancellation configuration assessed for visual feasibility."
+    },
+    {
+      "path": "app/models/playbook/saver/order_cancellation/save_strategy.rb",
+      "protected_sha256": "42ab635a06095957baf111876fdf49182ba20576da48a6f10e0db59ed3508bbe",
+      "current_sha256": "42ab635a06095957baf111876fdf49182ba20576da48a6f10e0db59ed3508bbe",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/models/playbook/saver/order_cancellation/save_strategy.rb",
+      "inspection": "New exact-master source comparison; targeted overview types/configuration contracts inspected; cancellation configuration assessed for visual feasibility."
+    },
+    {
+      "path": "app/views/playbook/component/order_cancellation/policies/_form.html.erb",
+      "protected_sha256": "5a57a4ea6d8049352d1e01a151be08dc823e1208c8b1d88408a14609de06df00",
+      "current_sha256": "5a57a4ea6d8049352d1e01a151be08dc823e1208c8b1d88408a14609de06df00",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook/component/order_cancellation/policies/_form.html.erb",
+      "inspection": "New exact-master source comparison; targeted overview types/configuration contracts inspected; cancellation configuration assessed for visual feasibility."
+    },
+    {
+      "path": "app/views/playbook/component/order_cancellation/save_strategies/_form.html.erb",
+      "protected_sha256": "57a361696c07b86ce318cc6df923213585f08ba3b990d76df86919543965b6f9",
+      "current_sha256": "57a361696c07b86ce318cc6df923213585f08ba3b990d76df86919543965b6f9",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/views/playbook/component/order_cancellation/save_strategies/_form.html.erb",
+      "inspection": "New exact-master source comparison; targeted overview types/configuration contracts inspected; cancellation configuration assessed for visual feasibility."
+    },
+    {
+      "path": "app/javascript/controllers/playbook/order_cancellation/save_strategy_controller.js",
+      "protected_sha256": "579ccb39d8ba1d3f80d7014302bc440f39ad9a1765ca321d8a8eb0102ffa2145",
+      "current_sha256": "579ccb39d8ba1d3f80d7014302bc440f39ad9a1765ca321d8a8eb0102ffa2145",
+      "identical": true,
+      "url": "https://github.com/hellotext/hellotext/blob/ed4b9a87cfba95431f5ffe0987a6413d4d538835/app/javascript/controllers/playbook/order_cancellation/save_strategy_controller.js",
+      "inspection": "New exact-master source comparison; targeted overview types/configuration contracts inspected; cancellation configuration assessed for visual feasibility."
+    }
+  ],
+  "block": "No approved native bilingual central policy/retention/credit capability figures. Disabled/inert retention and hidden credit amount/currency without prerequisite integration; no fixture/integration/DOM/pixel changes permitted to manufacture them. Previously documented outgoing Channel label contradiction remains.",
+  "next_condition": "Verified equivalent safe state coverage or current UI change; do not repeat unchanged block."
+}
