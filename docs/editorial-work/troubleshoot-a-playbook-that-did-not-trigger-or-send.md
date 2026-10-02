@@ -85,3 +85,5 @@ Reused images, original paths and bytes (no duplicate uploads):
 - [upload-en-mobile.png](https://help.hellotext.com/images/journeys/how-to-customize-a-playbook-safely/upload-en-mobile.png)
 
 The P2 ancestry claim described SHA53bb5da. Actual GitHub/local parents confirmed verifier95ff05bdae0f7b5a5402dae49fd47f005dfbf108 is the direct parent of head9043808b7d8807c4e1359d22bc6beef79db8dd60, itself based on8bbfa773; all105 verifiers are ancestors. The finding was read, answered and resolved with real evidence, then a fresh exact-head independent review found no major issues. No history was rewritten or omitted.
+
+Metadata review P2 corrected: all32 current image records now mark consumer_publication_state publicly_verified and point to public-verification.json, matching their HTTP200/hash evidence. Only current consumer fields changed; every historical_source_record, native/source/asset byte/pixel/ICC/guard, article and local review is preserved.
