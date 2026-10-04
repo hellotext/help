@@ -21,7 +21,35 @@ If the playbook depends on product, order, cart, policy, or FAQ information, mak
 
 Go to **Playbooks**, click **Explore playbooks**, and choose the playbook you want to configure.
 
-Some playbooks can be enabled once for the business. If you already enabled that playbook before, Hellotext opens the existing configuration instead of creating a second copy.
+Use **All** to explore the catalog and **In my plan** to filter included options. A card may require a plan upgrade or a request; catalog presence does not establish editor access or a ready channel.
+
+These screenshots show a fictional account and two catalog filters. No playbook was installed or enabled.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Real catalog with All selected in a fictional account">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 1070px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/journeys/how-to-enable-a-playbook/catalog-all-en-mobile.png 2x" width="828" height="876" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-enable-a-playbook/catalog-all-en-desktop.png" srcset="/images/journeys/how-to-enable-a-playbook/catalog-all-en-desktop.png 2x" width="2104" height="992" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Real catalog with All selected in a fictional account" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real catalog with All selected in a fictional account</figcaption>
+</figure>
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Real catalog with In my plan selected in a fictional account">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 1070px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/journeys/how-to-enable-a-playbook/catalog-plan-en-mobile.png 2x" width="828" height="876" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-enable-a-playbook/catalog-plan-en-desktop.png" srcset="/images/journeys/how-to-enable-a-playbook/catalog-plan-en-desktop.png 2x" width="2104" height="992" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Real catalog with In my plan selected in a fictional account" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real catalog with In my plan selected in a fictional account</figcaption>
+</figure>
+
+Some types allow one playbook per business. If a copy already exists, including an inactive copy, Hellotext opens its configuration instead of creating another.
 
 Custom playbooks and [custom agents]({% link _journeys/custom-agent-playbook.md %}) may allow multiple versions. Give each version a clear name that explains its mission, audience, or channel.
 
@@ -35,12 +63,26 @@ You may see cards such as:
 - **Outgoing channels**, for channels the playbook can use when sending messages.
 - **Agent prompt**, for instructions that tell the AI agent what to do and how to respond.
 - **Intents**, for customer intentions that should activate a custom agent.
-- **Knowledge**, for FAQs, policies, product notes, or documents the agent can use.
+- **Uploads**, for knowledge such as FAQs, policies, product notes, or documents the agent can use.
 - **Discounts**, for eCommerce offer rules and maximum AI discount limits.
 - **Tone**, for the voice used in AI-generated responses.
 - **Escalation**, for the teammate or team that should take over when the agent needs help.
 - **Web search**, for approved websites the agent can use when searching online.
 - **[Webchat settings]({% link _captures/webchat-widget-playbook.md %})**, for appearance, behavior, sequence, teaser, and handoff settings when the playbook is a webchat.
+
+This example is a new **Custom Agent**, without saving or enabling it. The desktop view shows Intents, Agent prompt, Uploads, and Incoming channels; the mobile view focuses on the first two cards. These are configuration controls, not executed instructions, uploaded documents, or connected channels.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Configuration cards in a new fictional Custom Agent without saving">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 646px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/journeys/how-to-enable-a-playbook/cards-en-mobile.png 2x" width="828" height="720" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-enable-a-playbook/cards-en-desktop.png" srcset="/images/journeys/how-to-enable-a-playbook/cards-en-desktop.png 2x" width="1256" height="984" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Configuration cards in a new fictional Custom Agent without saving" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Configuration cards in a new fictional Custom Agent without saving</figcaption>
+</figure>
 
 You do not need to change every card. Change only what affects the customer experience, the playbook's permissions, or the team that will own exceptions.
 
@@ -76,7 +118,9 @@ Use the smallest setup that can prove the playbook works. It is easier to expand
 
 ## Test before enabling
 
-Use the playbook preview or playground when available.
+Use the playbook preview or **Playground** when available. It is a simulation: a reply there does not establish a real profile’s eligibility, channel readiness, or receipt by a teammate.
+
+A test may use AI, documents, or external tools. Use test data you control and review the effects before running it. Check eligibility, channel readiness, and receipt separately in the authorized live workflow.
 
 Test:
 
@@ -92,13 +136,42 @@ For AI playbooks, test several realistic messages. Confirm that the agent stays 
 
 ## Save and enable
 
-When the setup looks ready, save the playbook and turn on **Enable this playbook**.
+When the setup is ready, review its name and **Enable this playbook**. On mobile, the switch appears without that label.
+
+In this editor, changing the switch submits the configuration: enabling is not a local change awaiting another Save click. On an existing playbook, **Save changes** appears when you edit; on a new one, enabling may save the first copy. Some types also require installation.
+
+The screenshot shows an empty fictional draft with the switch off. The name is proposed for that new copy; it does not indicate a saved playbook or readiness for customers. The mobile interface itself hides the name.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="New fictional Custom Agent header with the switch off">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 918px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/journeys/how-to-enable-a-playbook/header-en-mobile.png 2x" width="860" height="234" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-enable-a-playbook/header-en-desktop.png" srcset="/images/journeys/how-to-enable-a-playbook/header-en-desktop.png 2x" width="1800" height="194" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="New fictional Custom Agent header with the switch off" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">New fictional Custom Agent header with the switch off</figcaption>
+</figure>
 
 After a playbook is enabled, Hellotext can mark its workflow as active and customers who match the playbook conditions may begin entering it.
 
 Enabled does not mean every matching signal will send immediately. Hellotext still checks customer eligibility, channel readiness, frequency, timing, and handoff rules before each send. For details, see [How Hellotext decides whether a playbook can send]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}).
 
-If you need to stop it, open the playbook list and disable the playbook. Disabling stops the workflow from accepting new eligible customers while you review or edit the setup.
+To stop new entries, open the playbook list and use **Disable** on the active playbook. Check its saved state afterward. Disabling does not guarantee cancellation of queued work, provider messages, or every process already running. If a change’s result is uncertain, verify its state before repeating it: a second toggle can reverse the first.
+
+This separate example is an existing fictional playbook, **Asistente de atención · Demo**, with the saved **Inactive** label. It is independent of the earlier draft; it was not enabled, disabled, or renamed for the screenshot.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Existing fictional playbook with the saved Inactive state">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 352px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-enable-a-playbook/inactive-en-desktop.png" srcset="/images/journeys/how-to-enable-a-playbook/inactive-en-desktop.png 2x" width="668" height="242" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Existing fictional playbook with the saved Inactive state" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Existing fictional playbook with the saved Inactive state</figcaption>
+</figure>
 
 ## Watch the first activity
 

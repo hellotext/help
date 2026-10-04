@@ -1,0 +1,20 @@
+{
+  "copy_database": "hellotext_editorial_recovery_20261004",
+  "read_only_guard_transactions": true,
+  "ui_operations": [
+    "catalog-listed Custom new GET; actual lazy component GETs",
+    "existing disabled Custom BbZzpNd9 edit GET without writes",
+    "inactive list GET and native menu open without selecting Edit/Enable",
+    "copied owner locale es -> en -> es by guarded update_columns"
+  ],
+  "product_actions": [
+    "No Save/Enable/Confirm/Publish/send",
+    "No Inbox/cursor or saved Journey editor/repair",
+    "No field/name/component edit",
+    "No preview generation/Playground submission/provider/AI/tools",
+    "No synthetic scores/messages/events/receipts/outcomes",
+    "No role/grant/plan/subscription/consent/owner/team/capacity changes",
+    "No delivery worker"
+  ],
+  "instrumentation_limit": "Normal authentication/session/presence writes only the copied DB; selected baseline equality is not whole DB equality. Test jobs queued by normal presence are not executed. Guard script corrected migration-context/subscription-scope/computed-hash-ID lookup errors before successful capture checks; failed output is not evidence."
+}
