@@ -1,0 +1,33 @@
+{
+  "copy_db": "hellotext_editorial_recovery_20261004",
+  "original_db_untouched": true,
+  "fixture_prepare": "prepare.json",
+  "fixture_restore": "restore.json",
+  "final_guard": "final-guard.json",
+  "definition": "synthetic-state-definition.rb",
+  "test_adapter_no_jobs_executed": true,
+  "mail_deliveries": false,
+  "no_delivery_worker_started": true,
+  "provider_credentials_disabled_and_not_printed": true,
+  "save_enable_disable_publish_send_buttons_not_clicked": true,
+  "playground": "Empty new draft, mobile visibility tab and desktop native inert text click only; no question/attachment/AI/provider/send; zero Playground conversations after",
+  "locale": "ES to EN to ES, original fixture locale restored; active-state round in locale-actions.txt; subsequent Playground rounds in playground-locale-actions.txt",
+  "instrumentation": "Normal login/presence/session writes in COPY DB; Test adapter can enqueue presence jobs without execution. No whole-DB equality claimed.",
+  "rejected_candidates": [
+    {
+      "sha256": "5ca52ed0bc1c24bbe4cf12b0a72ee9a4ff0c237090fee9df377395553d8b1826",
+      "reason": "900px active header ellipsized full fixture name; replaced by native 1100px capture"
+    },
+    {
+      "sha256": "c39a3675e8c7db7209bcb8908db006f3c165ae6934cb4d049a50d49b33bd1975",
+      "reason": "ES desktop Playground caret; replaced after native click on inert empty-chat text"
+    },
+    {
+      "sha256": "4bd2074a9aa88698e1254e414847ff67e1c5f97d286126066af6488ba9cae287",
+      "reason": "EN desktop Playground caret; replaced after native click on inert empty-chat text"
+    }
+  ],
+  "capture_helper": "Only two final desktop Playground sources use capture-clear-focus.mjs, a TMP copy of standard helper plus one guarded native click on inert #empty p before unchanged capture checks. No pixel/CSS manipulation; standard Help capture script unchanged.",
+  "raw_pre_post": "Capture helper verifies equality internally but does not emit raw snapshots; retained state JSON is preparatory, not invented post-state",
+  "inactive_quality_correction": "New native 1400px source after restoration, 400x64 logical crop, no table separator. Earlier 334x121 captures retained in 652ca history; replaced in public assets. A first wrong-row/no-scroll attempt and narrow tight-margin attempt were rejected, no derived pixel repair."
+}

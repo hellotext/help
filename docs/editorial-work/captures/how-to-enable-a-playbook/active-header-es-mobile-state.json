@@ -1,0 +1,205 @@
+{
+  "url": "http://127.0.0.1:3193/hellotext/playbooks/BbZzpNd9/edit",
+  "title": "Editar misión Agente Personalizado | Hellotext",
+  "locale": "es",
+  "width": 430,
+  "height": 1200,
+  "dpr": 2,
+  "zoom": 1,
+  "rects": [
+    {
+      "text": "",
+      "rect": [
+        0,
+        0,
+        430,
+        73
+      ]
+    },
+    {
+      "text": "\n          \n            Asistente de atención · Demo\n          \n",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "text": "",
+      "rect": [
+        358,
+        20,
+        56,
+        32
+      ]
+    },
+    {
+      "text": "\n            \n            \n          ",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "text": "Propiedades a recopilar\n\nRecopila datos de tus clientes durante la conversación y completa sus perfiles automáticamente.",
+      "rect": [
+        0,
+        117,
+        430,
+        1083
+      ]
+    },
+    {
+      "text": "\n            Cambios no guardados\n\n\n            \n              Tienes cambios no guardados. ¿Estás seguro de querer cerrar esta página?\n            \n\n        ",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "text": "Configuración\nPlayground\nPropiedades a recopilar\n\nRecopila datos de tus clientes durante la conversación y completa sus perfiles automáticamente.",
+  "links": [
+    {
+      "text": "Leer más",
+      "href": "https://help.hellotext.com/es/agente-personalizado"
+    },
+    {
+      "text": "Cerrar",
+      "href": "/hellotext/journeys"
+    },
+    {
+      "text": "Propiedades a recopilar\n\nRecopila datos de tus clientes durante la conversación y completa sus perfiles automáticamente.",
+      "href": "/hellotext/playbooks/BbZzpNd9/components?type=property_collection"
+    },
+    {
+      "text": "Descartar",
+      "href": "/hellotext/journeys"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Guardar",
+      "id": ""
+    },
+    {
+      "text": "Habilitar esta misión",
+      "id": "",
+      "action": "playbook--form#toggleEnabled"
+    },
+    {
+      "text": "Guardar",
+      "id": ""
+    },
+    {
+      "text": "Configuración",
+      "id": "",
+      "action": "click->playbook#showConfig"
+    },
+    {
+      "text": "Playground",
+      "id": "",
+      "action": "click->playbook#showPlayground"
+    },
+    {
+      "text": "Bold",
+      "id": ""
+    },
+    {
+      "text": "Italic",
+      "id": ""
+    },
+    {
+      "text": "Strikethrough",
+      "id": ""
+    },
+    {
+      "text": "Link",
+      "id": ""
+    },
+    {
+      "text": "Heading",
+      "id": ""
+    },
+    {
+      "text": "Quote",
+      "id": ""
+    },
+    {
+      "text": "Code",
+      "id": ""
+    },
+    {
+      "text": "Bullets",
+      "id": ""
+    },
+    {
+      "text": "Numbers",
+      "id": ""
+    },
+    {
+      "text": "Decrease Level",
+      "id": ""
+    },
+    {
+      "text": "Increase Level",
+      "id": ""
+    },
+    {
+      "text": "Attach Files",
+      "id": ""
+    },
+    {
+      "text": "Undo",
+      "id": ""
+    },
+    {
+      "text": "Redo",
+      "id": ""
+    },
+    {
+      "text": "Eliminar",
+      "id": "",
+      "action": "editor--attached-media#remove"
+    },
+    {
+      "text": "Eliminar",
+      "id": "",
+      "action": "editor--attached-media#remove"
+    },
+    {
+      "text": "Grabar mensaje de voz",
+      "id": "",
+      "action": "click->compose--toolbar--voice#record"
+    },
+    {
+      "text": "Enviar mensaje de voz",
+      "id": "",
+      "action": "click->input#submit"
+    },
+    {
+      "text": "Detener grabación",
+      "id": "",
+      "action": "compose--toolbar--voice#pause"
+    },
+    {
+      "text": "Eliminar",
+      "id": "",
+      "action": "editor--recorded-voice#remove"
+    },
+    {
+      "text": "Re-intentar",
+      "id": "",
+      "action": "editor--recorded-voice#retryUpload"
+    },
+    {
+      "text": "Cancelar",
+      "id": "",
+      "action": "click->modal#hide"
+    }
+  ]
+}

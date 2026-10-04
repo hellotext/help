@@ -1,0 +1,278 @@
+{
+  "checked_at_utc": "2026-10-04T23:11:29.790343+00:00",
+  "captured_source_head": "b7b5bbad7bf8e5b20a2fba797ea5e90f18bd0c32",
+  "current_rails_head": "b554da21e019d9f41b1f52696ea666f15e34e6d1",
+  "current_rails_parents": [
+    "430a4d10a5481401238bf9cd71cc58176047cd6e",
+    "1c5d64b3bd28c4a5bbb47728e6d8e579ddae58f9"
+  ],
+  "help_main": "72bd234f7cf45d212c102d07a58fdc204701a1a4",
+  "help_open_prs": [],
+  "compare": {
+    "files": [
+      {
+        "filename": "app/javascript/entrypoints/stylesheets/whatsapp_landing.scss",
+        "sha": "476b154405105e3b62f84496be95d8ea1993e4e7",
+        "status": "modified"
+      },
+      {
+        "filename": "app/javascript/lib/browser_performance.js",
+        "sha": "e608d4c00527ada975a57bf3d73b986a395eb115",
+        "status": "modified"
+      },
+      {
+        "filename": "app/javascript/lib/realtime_monitoring.js",
+        "sha": "0a53edd70e9fd89e031b98faaf266d09ec4bdbd6",
+        "status": "modified"
+      },
+      {
+        "filename": "app/views/dev/design_system/_marketing.html.erb",
+        "sha": "427d13edd8a3f4d4858ffa6ccba5e353d7f6b505",
+        "status": "modified"
+      },
+      {
+        "filename": "config/monitoring/newrelic.json",
+        "sha": "a27f57e87f72fd721d59893280191564061299ce",
+        "status": "modified"
+      },
+      {
+        "filename": "docs/monitoring-realtime.md",
+        "sha": "f5fafdca2a23ef17ea971a64fe9fb0d442be57e4",
+        "status": "modified"
+      },
+      {
+        "filename": "docs/monitoring.md",
+        "sha": "bd779ce7a4d7150d0f0e92c9d75208a1171e9a3a",
+        "status": "modified"
+      },
+      {
+        "filename": "docs/ui/design-system-changelog.md",
+        "sha": "d4bb93dbf8bb8b9004ae1ba02c3f8d06a389ae66",
+        "status": "modified"
+      },
+      {
+        "filename": "docs/ui/design-system.md",
+        "sha": "e4634cae698ae683fe2128fea6153e3468c1a443",
+        "status": "modified"
+      },
+      {
+        "filename": "docs/ui/marketing-components.md",
+        "sha": "c4f5369099d98f37db175f0785fd18a83fe5e4a5",
+        "status": "modified"
+      },
+      {
+        "filename": "package.json",
+        "sha": "8fbeb2430dc0d75b637421cdefd0d0da01f1c7b1",
+        "status": "modified"
+      },
+      {
+        "filename": "yarn.lock",
+        "sha": "14ee20bae2336d0089656445214e118eeb235d6b",
+        "status": "modified"
+      }
+    ],
+    "status": "ahead",
+    "total_commits": 4
+  },
+  "scoped_object_pairs": [
+    {
+      "path": "app/controllers/playbooks_controller.rb",
+      "captured_version_blob": "0d8dfae5a885daeeafee3fa76eaa2b5f11b113a7",
+      "current_blob": "0d8dfae5a885daeeafee3fa76eaa2b5f11b113a7",
+      "same": true
+    },
+    {
+      "path": "app/views/playbooks/_form.html.erb",
+      "captured_version_blob": "50025c9d3ccdc3b13dd26ce3c0c69709885cf64c",
+      "current_blob": "50025c9d3ccdc3b13dd26ce3c0c69709885cf64c",
+      "same": true
+    },
+    {
+      "path": "app/javascript/controllers/playbook_controller.js",
+      "captured_version_blob": "82cac5fe4684e4b8873380c432201e38134e5ae0",
+      "current_blob": "82cac5fe4684e4b8873380c432201e38134e5ae0",
+      "same": true
+    },
+    {
+      "path": "app/javascript/controllers/playbook/form_controller.js",
+      "captured_version_blob": "23e40acb3e0c4206b4b1a061b986f68a335baa4f",
+      "current_blob": "23e40acb3e0c4206b4b1a061b986f68a335baa4f",
+      "same": true
+    },
+    {
+      "path": "app/javascript/controllers/playbook/playground_controller.js",
+      "captured_version_blob": "0099d51a7a0741b03e94466bf66fa58e3b99b84e",
+      "current_blob": "0099d51a7a0741b03e94466bf66fa58e3b99b84e",
+      "same": true
+    },
+    {
+      "path": "app/views/playbook_components/_skeleton.html.erb",
+      "captured_version_blob": "4c6749001822746ed548dafdf9322d8eb17bcd19",
+      "current_blob": "4c6749001822746ed548dafdf9322d8eb17bcd19",
+      "same": true
+    },
+    {
+      "path": "app/views/playbook/previews/_chat.html.erb",
+      "captured_version_blob": "7deb2765cdffe312ad871be6d1d075f2bfcd3ef1",
+      "current_blob": "7deb2765cdffe312ad871be6d1d075f2bfcd3ef1",
+      "same": true
+    },
+    {
+      "path": "app/controllers/playbook/components_controller.rb",
+      "captured_version_blob": "726a081095ce965292b1ba722f00ce47f2e64c65",
+      "current_blob": "726a081095ce965292b1ba722f00ce47f2e64c65",
+      "same": true
+    },
+    {
+      "path": "app/controllers/playbook_components_controller.rb",
+      "captured_version_blob": "2e90bce801ce393530528e43a1dc91f4624b50da",
+      "current_blob": "2e90bce801ce393530528e43a1dc91f4624b50da",
+      "same": true
+    },
+    {
+      "path": "app/policies/playbook_policy.rb",
+      "captured_version_blob": "2c27f1c8579b3d6164f9e2a1992ccf6b5589e559",
+      "current_blob": "2c27f1c8579b3d6164f9e2a1992ccf6b5589e559",
+      "same": true
+    },
+    {
+      "path": "app/helpers/playbook_components_helper.rb",
+      "captured_version_blob": "323cc5ab3f9a8646de4d957a0850c8de6f95b841",
+      "current_blob": "323cc5ab3f9a8646de4d957a0850c8de6f95b841",
+      "same": true
+    },
+    {
+      "path": "app/models/playbook/preview.rb",
+      "captured_version_blob": "c9963061c1f0b2c3a880eec9bb4a841ab54ad52e",
+      "current_blob": "c9963061c1f0b2c3a880eec9bb4a841ab54ad52e",
+      "same": true
+    },
+    {
+      "path": "app/models/playbook.rb",
+      "captured_version_blob": "ccfc2563a8bece4e87a6f2f2392658095afedbc4",
+      "current_blob": "ccfc2563a8bece4e87a6f2f2392658095afedbc4",
+      "same": true
+    },
+    {
+      "path": "app/controllers/journeys_controller.rb",
+      "captured_version_blob": "3c3fd79a104fee8c9eacd2e7e2658c1ffdc9fc69",
+      "current_blob": "3c3fd79a104fee8c9eacd2e7e2658c1ffdc9fc69",
+      "same": true
+    },
+    {
+      "path": "app/controllers/journeys/inactive_journeys_controller.rb",
+      "captured_version_blob": "5d6d9a2cd9f9c22854c410a40b8772c0e9b70cf2",
+      "current_blob": "5d6d9a2cd9f9c22854c410a40b8772c0e9b70cf2",
+      "same": true
+    },
+    {
+      "path": "app/views/journeys/index.html.erb",
+      "captured_version_blob": "8b3bcf2338dceab11da802b2cbfdcc09ac4c3805",
+      "current_blob": "8b3bcf2338dceab11da802b2cbfdcc09ac4c3805",
+      "same": true
+    },
+    {
+      "path": "app/views/playbooks/_playbook.html.erb",
+      "captured_version_blob": "bd0c3e7f566b79de0f578c8d92197bacb0486dee",
+      "current_blob": "bd0c3e7f566b79de0f578c8d92197bacb0486dee",
+      "same": true
+    },
+    {
+      "path": "app/views/playbooks/_actions.html.erb",
+      "captured_version_blob": "f58fa65a68ea57a5ba318278226da9b611d4be66",
+      "current_blob": "f58fa65a68ea57a5ba318278226da9b611d4be66",
+      "same": true
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "captured_version_blob": "be5b5555c76ec04db366aa6edd2ff1311ea762f9",
+      "current_blob": "be5b5555c76ec04db366aa6edd2ff1311ea762f9",
+      "same": true
+    },
+    {
+      "path": "app/models/automation/workflow.rb",
+      "captured_version_blob": "3bd09885b7e9717949f6c8d13de9cac7f54a2e71",
+      "current_blob": "3bd09885b7e9717949f6c8d13de9cac7f54a2e71",
+      "same": true
+    },
+    {
+      "path": "app/models/playbook/custom.rb",
+      "captured_version_blob": "0ea6435c12f5d7bbf033c01a71006d000b0a6b4b",
+      "current_blob": "0ea6435c12f5d7bbf033c01a71006d000b0a6b4b",
+      "same": true
+    },
+    {
+      "path": "app/models/playbook/saver.rb",
+      "captured_version_blob": "f60c90f9c8eeeb99974d20d68f78ad7952978f36",
+      "current_blob": "f60c90f9c8eeeb99974d20d68f78ad7952978f36",
+      "same": true
+    },
+    {
+      "path": "app/controllers/journeys/active_journeys_controller.rb",
+      "captured_version_blob": "56a3f9415aff61bab44b6b7ce681fa02e480d11f",
+      "current_blob": "56a3f9415aff61bab44b6b7ce681fa02e480d11f",
+      "same": true
+    },
+    {
+      "path": "app/models/application_record.rb",
+      "captured_version_blob": "1bbee657a51f5874c38c12adbdfe5f6fc21855d3",
+      "current_blob": "1bbee657a51f5874c38c12adbdfe5f6fc21855d3",
+      "same": true
+    },
+    {
+      "path": "app/models/concerns/filter/message/acts_as_origin.rb",
+      "captured_version_blob": "c8f3dd1a610d53862f49a5603cd610302bc48ba6",
+      "current_blob": "c8f3dd1a610d53862f49a5603cd610302bc48ba6",
+      "same": true
+    },
+    {
+      "path": "app/models/journey_template/factory.rb",
+      "captured_version_blob": "6646524beda41d7e79028a0de0fad8005812517d",
+      "current_blob": "6646524beda41d7e79028a0de0fad8005812517d",
+      "same": true
+    },
+    {
+      "path": "app/views/journeys/new.html.erb",
+      "captured_version_blob": "1e8f18e4ca7ff1c5c4f8e336cdfc29030ef6eee3",
+      "current_blob": "1e8f18e4ca7ff1c5c4f8e336cdfc29030ef6eee3",
+      "same": true
+    },
+    {
+      "path": "app/javascript/controllers/journeys/editor_controller.js",
+      "captured_version_blob": "8571f6537c05bb060b9d679e7eb4c77056aebca8",
+      "current_blob": "8571f6537c05bb060b9d679e7eb4c77056aebca8",
+      "same": true
+    },
+    {
+      "path": "app/views/journeys/partials/editor/_journey_starts.html.erb",
+      "captured_version_blob": "f8cc03de3eccb4949f2e841ab2490a6676e40a58",
+      "current_blob": "f8cc03de3eccb4949f2e841ab2490a6676e40a58",
+      "same": true
+    },
+    {
+      "path": "app/views/journeys/partials/editor/_header.html.erb",
+      "captured_version_blob": "6d2ff1bd4910d04ca92e98c163d8c403ff65d604",
+      "current_blob": "6d2ff1bd4910d04ca92e98c163d8c403ff65d604",
+      "same": true
+    },
+    {
+      "path": "app/helpers/journeys_helper.rb",
+      "captured_version_blob": "b674302282938cc9db4a1d1f0676562af8b8a265",
+      "current_blob": "b674302282938cc9db4a1d1f0676562af8b8a265",
+      "same": true
+    },
+    {
+      "path": "app/views/journeys/new_journey_type.html.erb",
+      "captured_version_blob": "8c43e4ad46fe530d3e4793f03188f20ede1d8df2",
+      "current_blob": "8c43e4ad46fe530d3e4793f03188f20ede1d8df2",
+      "same": true
+    },
+    {
+      "path": "app/views/journeys/_selection_card.html.erb",
+      "captured_version_blob": "051faa8f9498cb49c65d7371aea88bedf0322b96",
+      "current_blob": "051faa8f9498cb49c65d7371aea88bedf0322b96",
+      "same": true
+    }
+  ],
+  "limits": "Fresh complete Git tree metadata only; same scoped objects preserves the existing source read scopes and captured control version. No new whole-body hashes/human reads or global dependency, deployed equivalence, access or provider audit. Package/monitoring and marketing changes are filename metadata, not reviewed code. Successful deployment of captured b7 is retained separately; no manual deploy or Rails changes."
+}

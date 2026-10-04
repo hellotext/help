@@ -122,6 +122,20 @@ Use the playbook preview or **Playground** when available. It is a simulation: a
 
 A test may use AI, documents, or external tools. Use test data you control and review the effects before running it. Check eligibility, channel readiness, and receipt separately in the authorized live workflow.
 
+This Playground belongs to the earlier fictional draft. It is empty: no question was entered and no AI reply was generated. On mobile, open the **Playground** tab to see the test area.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Real empty Playground in a fictional Custom Agent without running a test">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 686px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/journeys/how-to-enable-a-playbook/playground-en-mobile.png 2x" width="860" height="1154" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-enable-a-playbook/playground-en-desktop.png" srcset="/images/journeys/how-to-enable-a-playbook/playground-en-desktop.png 2x" width="1336" height="1106" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Real empty Playground in a fictional Custom Agent without running a test" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real empty Playground in a fictional Custom Agent without running a test</figcaption>
+</figure>
+
 Test:
 
 - A customer who should enter the playbook.
@@ -154,19 +168,57 @@ The screenshot shows an empty fictional draft with the switch off. The name is p
   <figcaption class="ht-editorial-visual__caption">New fictional Custom Agent header with the switch off</figcaption>
 </figure>
 
+The next views show **Asistente de atención · Demo**, an existing fictional playbook. Its active state was prepared temporarily in an isolated demonstration environment with jobs and deliveries disabled, then restored. The ON switch and **Active** label show configuration state; they do not establish eligibility, an agent reply, or a delivered message.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Native header with the switch ON in a fictional demonstration playbook">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 1118px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/journeys/how-to-enable-a-playbook/active-header-en-mobile.png 2x" width="860" height="234" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-enable-a-playbook/active-header-en-desktop.png" srcset="/images/journeys/how-to-enable-a-playbook/active-header-en-desktop.png 2x" width="2200" height="194" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Native header with the switch ON in a fictional demonstration playbook" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Native header with the switch ON in a fictional demonstration playbook</figcaption>
+</figure>
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Active label on a fictional playbook in the demonstration environment">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 352px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-enable-a-playbook/active-en-desktop.png" srcset="/images/journeys/how-to-enable-a-playbook/active-en-desktop.png 2x" width="668" height="242" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Active label on a fictional playbook in the demonstration environment" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Active label on a fictional playbook in the demonstration environment</figcaption>
+</figure>
+
 After a playbook is enabled, Hellotext can mark its workflow as active and customers who match the playbook conditions may begin entering it.
 
 Enabled does not mean every matching signal will send immediately. Hellotext still checks customer eligibility, channel readiness, frequency, timing, and handoff rules before each send. For details, see [How Hellotext decides whether a playbook can send]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}).
 
 To stop new entries, open the playbook list and use **Disable** on the active playbook. Check its saved state afterward. Disabling does not guarantee cancellation of queued work, provider messages, or every process already running. If a change’s result is uncertain, verify its state before repeating it: a second toggle can reverse the first.
 
-This separate example is an existing fictional playbook, **Asistente de atención · Demo**, with the saved **Inactive** label. It is independent of the earlier draft; it was not enabled, disabled, or renamed for the screenshot.
+The same active playbook’s menu offers **Disable**. It was opened to show the option without selecting it.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Real menu with Disable on a fictional active playbook, without selecting the option">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 210px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-enable-a-playbook/disable-menu-en-desktop.png" srcset="/images/journeys/how-to-enable-a-playbook/disable-menu-en-desktop.png 2x" width="384" height="238" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Real menu with Disable on a fictional active playbook, without selecting the option" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real menu with Disable on a fictional active playbook, without selecting the option</figcaption>
+</figure>
+
+The **Inactive** view shows the same fictional playbook’s original state, captured after restoring the active demonstration to its original inactive state. It is a saved copy separate from the new draft; these screenshots do not show a delivery or provider cancellation.
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Existing fictional playbook with the saved Inactive state">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 352px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 418px; width: fit-content; margin: 0 auto;">
       <picture>
-        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-enable-a-playbook/inactive-en-desktop.png" srcset="/images/journeys/how-to-enable-a-playbook/inactive-en-desktop.png 2x" width="668" height="242" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Existing fictional playbook with the saved Inactive state" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-enable-a-playbook/inactive-en-desktop.png" srcset="/images/journeys/how-to-enable-a-playbook/inactive-en-desktop.png 2x" width="800" height="128" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Existing fictional playbook with the saved Inactive state" />
       </picture>
     </div>
   </div>
