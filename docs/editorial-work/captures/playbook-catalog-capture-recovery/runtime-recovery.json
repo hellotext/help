@@ -1,0 +1,107 @@
+{
+  "source_database_read_only": {
+    "source_database": "hellotext_editorial_workload_20260928",
+    "target_database": "hellotext_editorial_recovery_20261004",
+    "business_id": 5,
+    "source_read_only": true,
+    "baseline": {
+      "contacts": 127,
+      "messageable": 0,
+      "subscribed": 0,
+      "tokens": 0,
+      "integrations": 0,
+      "enabled_playbooks": 0,
+      "active_workflows": 0,
+      "non_fictional_users": 0
+    },
+    "copied_baseline": {
+      "contacts": 127,
+      "messageable": 0,
+      "subscribed": 0,
+      "tokens": 0,
+      "integrations": 0,
+      "enabled_playbooks": 0,
+      "active_workflows": 0,
+      "non_fictional_users": 0
+    }
+  },
+  "after_capture": {
+    "baseline": {
+      "contacts": 127,
+      "messageable": 0,
+      "subscribed": 0,
+      "tokens": 0,
+      "integrations": 0,
+      "enabled_playbooks": 0,
+      "active_workflows": 0,
+      "non_fictional_users": 0
+    },
+    "extra": {
+      "messages": 49,
+      "composer_runs": 0,
+      "composer_drafts": 0,
+      "locale": "es",
+      "job_adapter": "ActiveJob::QueueAdapters::TestAdapter",
+      "mail_deliveries": false,
+      "pending_migrations": false
+    }
+  },
+  "new_checkout": "/private/tmp/hellotext-editorial-recovery-20261004",
+  "rails_source_head": "b7b5bbad7bf8e5b20a2fba797ea5e90f18bd0c32",
+  "runtime_commit": "5de75f125464fb0bfc70575b84211531d49284b6",
+  "ports": {
+    "rails": 3193,
+    "vite": 3043,
+    "redis": 6384,
+    "chrome": 9462
+  },
+  "bind": "127.0.0.1",
+  "original_checkouts_untouched": [
+    "/private/tmp/hellotext-forms-ui-refresh",
+    "/private/tmp/hellotext-workload-fixed",
+    "old 3191 checkout",
+    "/Users/pel/.codex/worktrees/dad4/hellotext-help"
+  ],
+  "original_environment_failure": {
+    "forms_git_absent": true,
+    "forms_gemfile_absent": true,
+    "workload_gemfile_absent": true,
+    "capture_password_absent": true,
+    "rails_3192_and_vite_3042_not_listening": true,
+    "protected_historical_head": "5403a7dcb567b63cae87d4c088112d65fad4eb7f",
+    "current_local_protected_head_not_verified": true
+  },
+  "private_configuration": "Mode-0600 JSON overrides; only local fixture HASH_ID_SALT inherited, local encryption/session keys generated; provider values disabled placeholders; tracked .env.development untouched. Private files/dump/password excluded from this bundle.",
+  "migration_phase": "25 existing migrations read completely and applied to the copied DB only. Zero eligible seasonal grant recipients; no delivery jobs or outcomes created. No migration tests.",
+  "copy_account_changes": [
+    "guarded fictional owner encrypted_password update only in copy without callbacks/mail",
+    "locale es -> en -> es via guarded update_columns",
+    "native authentication/presence/fingerprint/session instrumentation in copy; not whole DB equality"
+  ],
+  "queue_mail_guards": {
+    "active_job_adapter": "Test",
+    "perform_deliveries": false,
+    "delivery_workers_started": false,
+    "native_presence_refill_jobs_queued_not_run": true
+  },
+  "validated": [
+    "bundle check",
+    "immutable yarn install --mode=skip-build",
+    "guarded copy DB/no pending migrations/test queue/mail false",
+    "authenticated catalog GETs",
+    "eight P3 2x source captures and visual QA",
+    "critical baseline counts unchanged; es DB/UI restored",
+    "local diff --check and runtime commit"
+  ],
+  "failed_attempts_resolved": [
+    "Unsupported classic Yarn flags, then wrong skip-builds mode; valid immutable skip-build completed.",
+    "Private crypto-key fetch aborted before writes; tracked environment detected and preserved; private wrapper added.",
+    "First app bootstrap guard rejected default database before task model operations; explicit copy override then passed.",
+    "Owner guard initially used nonexistent Business.user_id, corrected to Privilege before password write.",
+    "Chrome sandbox start failed; authorized isolated start succeeded under escalation.",
+    "Vite host CLI argument rejected; configured loopback host started without that argument.",
+    "Post-capture count used nonexistent messageable scope; corrected to actual boolean column and exact baseline passed."
+  ],
+  "prohibited_product_actions_performed": false,
+  "limit": "Recovery uses Rails/DB/browser on an independent fictional copy. These actions are separate from source-only guardrail supplement70c4 and do not rewrite its historical operation limits. No provider/AI/Playground/Inbox/Save/Enable/Confirm/Publish/send/outcome generation."
+}
