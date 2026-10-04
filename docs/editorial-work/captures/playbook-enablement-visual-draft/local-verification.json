@@ -1,0 +1,230 @@
+{
+  "state": "local draft QA passed; visual_pending, no completed/publicly verified pair",
+  "build": {
+    "command": "RBENV_VERSION=3.3.6 PATH=/Users/pel/.rbenv/shims:$PATH yarn build",
+    "exit_code": 0,
+    "log_path": "/private/tmp/hellotext-enablement-draft-build-20261004.log",
+    "log_sha256": "4e9ce53e344f3252d34899f06c04de1fc7572ae155eaa553464e612d7c270bad",
+    "initial_command_failure": "rbenv exec yarn build had no yarn shim; corrected PATH command built successfully, no dependency or product change"
+  },
+  "html": [
+    {
+      "path": "es/como-habilitar-una-mision.html",
+      "sha256": "39bbb5b981a0c29faa18641041891ee4b46e240903682864653cc782c6264661"
+    },
+    {
+      "path": "how-to-enable-a-playbook.html",
+      "sha256": "4843d992aa2c065083cdde84b0ad5ff7f5fdeb9b52bd961b175e0e435d799994"
+    }
+  ],
+  "assets": [
+    {
+      "asset": "images/journeys/how-to-enable-a-playbook/catalog-all-en-desktop.png",
+      "sha256": "e2d296cf1ff692e1a86e572174015f0315b5eb2338d42cd5ee810df73ba3ae04",
+      "pixel_size": [
+        2104,
+        992
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_and_root_es_builds_identical": true
+    },
+    {
+      "asset": "images/journeys/how-to-enable-a-playbook/catalog-all-en-mobile.png",
+      "sha256": "dcf16bb6c0d127cba427d6aad623e5e4ca964f7e55a504bd5d865a145aad1cac",
+      "pixel_size": [
+        828,
+        876
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_and_root_es_builds_identical": true
+    },
+    {
+      "asset": "images/journeys/how-to-enable-a-playbook/catalog-all-es-desktop.png",
+      "sha256": "92d2737954323528961fceca889c9dd4f62f825a6ab92171997ad0bf6efaaed4",
+      "pixel_size": [
+        2104,
+        1096
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_and_root_es_builds_identical": true
+    },
+    {
+      "asset": "images/journeys/how-to-enable-a-playbook/catalog-all-es-mobile.png",
+      "sha256": "e733e419a67d289c77f00a2ec8a9a6d10a3b8425ad1ce824ae37937e68d7c946",
+      "pixel_size": [
+        828,
+        876
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_and_root_es_builds_identical": true
+    },
+    {
+      "asset": "images/journeys/how-to-enable-a-playbook/catalog-plan-en-desktop.png",
+      "sha256": "c65c85573fcc093fa25639a9b3a05132d5c259ec58b293f536cef115257def5f",
+      "pixel_size": [
+        2104,
+        992
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_and_root_es_builds_identical": true
+    },
+    {
+      "asset": "images/journeys/how-to-enable-a-playbook/catalog-plan-en-mobile.png",
+      "sha256": "1d817c73033d99165460cfecdde924eb7985ce1651d8902940967e640f402b95",
+      "pixel_size": [
+        828,
+        876
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_and_root_es_builds_identical": true
+    },
+    {
+      "asset": "images/journeys/how-to-enable-a-playbook/catalog-plan-es-desktop.png",
+      "sha256": "cc3b7eab86237716881063bcf4090c846be5b7209acec94f6437f4c8837bd381",
+      "pixel_size": [
+        2104,
+        1096
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_and_root_es_builds_identical": true
+    },
+    {
+      "asset": "images/journeys/how-to-enable-a-playbook/catalog-plan-es-mobile.png",
+      "sha256": "69831f4ec00cbe867e5df28428be91ec149efa86badcee5476ded3618ee06903",
+      "pixel_size": [
+        828,
+        876
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_and_root_es_builds_identical": true
+    },
+    {
+      "asset": "images/journeys/how-to-enable-a-playbook/cards-en-desktop.png",
+      "sha256": "8eadf88562b08343dbfeb56068440999735bbfb936dbe8a08a415d1517793a72",
+      "pixel_size": [
+        1256,
+        984
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_and_root_es_builds_identical": true
+    },
+    {
+      "asset": "images/journeys/how-to-enable-a-playbook/cards-en-mobile.png",
+      "sha256": "07f111463f3c1eb489b76b6febd25057db7cfa53924daba987af2469d370c6ad",
+      "pixel_size": [
+        828,
+        720
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_and_root_es_builds_identical": true
+    },
+    {
+      "asset": "images/journeys/how-to-enable-a-playbook/cards-es-desktop.png",
+      "sha256": "4e5accc1d15371943830b1a29d9a222abf0562fd66fcac695c306a1a08b1b9d3",
+      "pixel_size": [
+        1256,
+        984
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_and_root_es_builds_identical": true
+    },
+    {
+      "asset": "images/journeys/how-to-enable-a-playbook/cards-es-mobile.png",
+      "sha256": "7c15f8352adf775a57b5adaf19eaaee60c78c1121c779779a5f6b76c6f971c8b",
+      "pixel_size": [
+        828,
+        720
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_and_root_es_builds_identical": true
+    },
+    {
+      "asset": "images/journeys/how-to-enable-a-playbook/header-en-desktop.png",
+      "sha256": "123c5a1ea29e0ea48e73952700a73c556d91b193e5ea16a50297e8784fce6778",
+      "pixel_size": [
+        1800,
+        194
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_and_root_es_builds_identical": true
+    },
+    {
+      "asset": "images/journeys/how-to-enable-a-playbook/header-en-mobile.png",
+      "sha256": "e265168679352727c4da58ac998c9111afe708cd8bfbb4298a89095b929e3cae",
+      "pixel_size": [
+        860,
+        234
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_and_root_es_builds_identical": true
+    },
+    {
+      "asset": "images/journeys/how-to-enable-a-playbook/header-es-desktop.png",
+      "sha256": "2151e312f734d41de5a8d05d024280be8eda5eb5e46896a4ba0e6364267efa66",
+      "pixel_size": [
+        1800,
+        194
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_and_root_es_builds_identical": true
+    },
+    {
+      "asset": "images/journeys/how-to-enable-a-playbook/header-es-mobile.png",
+      "sha256": "7760df3b2604a8c6124e9de13d7b91ac60b02edc87e4cb34b4471bf800e91527",
+      "pixel_size": [
+        860,
+        234
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_and_root_es_builds_identical": true
+    },
+    {
+      "asset": "images/journeys/how-to-enable-a-playbook/inactive-en-desktop.png",
+      "sha256": "df4d263c5cfc2eb392806a2501f8ab16365fe24379f2c1205703046446a7f9ce",
+      "pixel_size": [
+        668,
+        242
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_and_root_es_builds_identical": true
+    },
+    {
+      "asset": "images/journeys/how-to-enable-a-playbook/inactive-es-desktop.png",
+      "sha256": "83e4878c9e5db0b4d3f163a382cd4821abfbdb934eecc835bb61459582e00ecf",
+      "pixel_size": [
+        668,
+        242
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "source_and_root_es_builds_identical": true
+    }
+  ],
+  "full_pages": {
+    "locales": [
+      "es",
+      "en"
+    ],
+    "widths": [
+      1440,
+      390,
+      580
+    ],
+    "shots": 73,
+    "pixel_review_complete": true,
+    "footer": true,
+    "page_overflow": false,
+    "image_enlargement": false,
+    "linked_images": false
+  },
+  "source_png_density": 2,
+  "frame_caps_with_18px_inset_border": {
+    "catalog": 1070,
+    "cards": 646,
+    "header": 918,
+    "inactive": 352
+  },
+  "excluded_work_documents_absent_in_both_builds": true,
+  "no_css_or_migration_tests": true,
+  "public_verification_performed": false,
+  "independent_review_performed": false
+}

@@ -21,7 +21,35 @@ Si la misión depende de información de productos, órdenes, carrito, política
 
 Ve a **Misiones**, haz clic en **Explorar misiones** y elige la misión que quieres configurar.
 
-Algunas misiones se pueden habilitar una sola vez para el negocio. Si ya habilitaste esa misión antes, Hellotext abre la configuración existente en lugar de crear una segunda copia.
+Usa **Todas** para explorar el catálogo y **En mi plan** para filtrar las opciones incluidas. Una tarjeta puede pedir una mejora de plan o una solicitud; verla en el catálogo no garantiza acceso a su editor ni un canal listo.
+
+Las capturas muestran una cuenta ficticia y dos filtros del catálogo. No se instaló ni habilitó una misión.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Catálogo real con el filtro Todas en una cuenta ficticia">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 1070px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/journeys/how-to-enable-a-playbook/catalog-all-es-mobile.png 2x" width="828" height="876" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-enable-a-playbook/catalog-all-es-desktop.png" srcset="/images/journeys/how-to-enable-a-playbook/catalog-all-es-desktop.png 2x" width="2104" height="1096" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Catálogo real con el filtro Todas en una cuenta ficticia" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Catálogo real con el filtro Todas en una cuenta ficticia</figcaption>
+</figure>
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Catálogo real con el filtro En mi plan en una cuenta ficticia">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 1070px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/journeys/how-to-enable-a-playbook/catalog-plan-es-mobile.png 2x" width="828" height="876" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-enable-a-playbook/catalog-plan-es-desktop.png" srcset="/images/journeys/how-to-enable-a-playbook/catalog-plan-es-desktop.png 2x" width="2104" height="1096" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Catálogo real con el filtro En mi plan en una cuenta ficticia" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Catálogo real con el filtro En mi plan en una cuenta ficticia</figcaption>
+</figure>
+
+Algunos tipos permiten una sola misión por negocio. Si ya existe una copia, aunque esté inactiva, Hellotext abre su configuración en lugar de crear otra.
 
 Las misiones personalizadas y los [agentes personalizados]({% link _journeys/custom-agent-playbook.md %}) pueden permitir varias versiones. Dale a cada versión un nombre claro que explique su objetivo, audiencia o canal.
 
@@ -41,6 +69,20 @@ Puedes ver tarjetas como:
 - **Derivación**, para la persona o equipo que debería tomar la conversación cuando el agente necesita ayuda.
 - **Búsqueda web**, para sitios aprobados donde el agente puede buscar información online.
 - **[Configuración de Webchat]({% link _captures/webchat-widget-playbook.md %})**, para apariencia, comportamiento, secuencia, teaser y derivación cuando la misión es un webchat.
+
+El ejemplo es un **Agente Personalizado** nuevo, sin guardar ni habilitar. En escritorio muestra Intenciones, Prompt del agente, Conocimiento y Canales de entrada; la captura móvil enfoca las dos primeras tarjetas. Son controles de configuración, no instrucciones ejecutadas, documentos cargados ni canales conectados.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Tarjetas de un Agente Personalizado ficticio nuevo sin guardar">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 646px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/journeys/how-to-enable-a-playbook/cards-es-mobile.png 2x" width="828" height="720" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-enable-a-playbook/cards-es-desktop.png" srcset="/images/journeys/how-to-enable-a-playbook/cards-es-desktop.png 2x" width="1256" height="984" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Tarjetas de un Agente Personalizado ficticio nuevo sin guardar" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Tarjetas de un Agente Personalizado ficticio nuevo sin guardar</figcaption>
+</figure>
 
 No necesitas cambiar todas las tarjetas. Cambia solo lo que afecta la experiencia del cliente, los permisos de la misión o el equipo que manejará excepciones.
 
@@ -76,7 +118,23 @@ Usa la configuración más pequeña que pueda demostrar que la misión funciona.
 
 ## Prueba antes de habilitar
 
-Usa la vista previa o playground de la misión cuando esté disponible.
+Usa la vista previa o **Playground** de la misión cuando esté disponible. Es una simulación: una respuesta allí no demuestra que un perfil real sea elegible, que un canal pueda enviar ni que una persona haya recibido una derivación.
+
+La prueba puede usar IA, documentos o herramientas externas. Usa datos de prueba bajo tu control y revisa sus efectos antes de ejecutarla. Comprueba la elegibilidad, el canal y la recepción por separado en el flujo real autorizado.
+
+Este Playground pertenece al borrador ficticio anterior. Está vacío: no se escribió una pregunta ni se ejecutó una respuesta de IA. En móvil, abre la pestaña **Playground** para ver el área de prueba.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Playground real vacío en un Agente Personalizado ficticio sin ejecutar una prueba">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 686px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/journeys/how-to-enable-a-playbook/playground-es-mobile.png 2x" width="860" height="1154" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-enable-a-playbook/playground-es-desktop.png" srcset="/images/journeys/how-to-enable-a-playbook/playground-es-desktop.png 2x" width="1336" height="1106" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Playground real vacío en un Agente Personalizado ficticio sin ejecutar una prueba" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Playground real vacío en un Agente Personalizado ficticio sin ejecutar una prueba</figcaption>
+</figure>
 
 Prueba:
 
@@ -92,13 +150,80 @@ Para misiones con IA, prueba varios mensajes realistas. Confirma que el agente s
 
 ## Guarda y habilita
 
-Cuando la configuración esté lista, guarda la misión y enciende la opción **Habilitar esta misión**.
+Cuando la configuración esté lista, revisa el nombre y el control **Habilitar esta misión**. En móvil aparece el interruptor sin esa etiqueta.
+
+En este editor, cambiar el interruptor envía la configuración: habilitar no es un cambio local pendiente de otro clic en Guardar. En una misión existente, **Guardar cambios** aparece al editar; en una nueva, habilitar puede guardar la primera copia. Algunos tipos también requieren completar su instalación.
+
+La captura muestra un borrador ficticio vacío con el interruptor apagado. El nombre se propone para esa copia nueva; no indica una misión guardada ni lista para clientes. En móvil, el nombre está oculto por la propia interfaz.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Cabecera de un Agente Personalizado nuevo con el interruptor apagado">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 918px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/journeys/how-to-enable-a-playbook/header-es-mobile.png 2x" width="860" height="234" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-enable-a-playbook/header-es-desktop.png" srcset="/images/journeys/how-to-enable-a-playbook/header-es-desktop.png 2x" width="1800" height="194" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Cabecera de un Agente Personalizado nuevo con el interruptor apagado" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Cabecera de un Agente Personalizado nuevo con el interruptor apagado</figcaption>
+</figure>
+
+Las siguientes vistas muestran **Asistente de atención · Demo**, una misión ficticia guardada. Su estado activo se preparó temporalmente en un entorno de demostración aislado, sin ejecutar trabajos ni entregas, y después se restauró. El interruptor encendido y la etiqueta **Activa** muestran el estado de configuración; no prueban elegibilidad, una respuesta del agente ni un mensaje entregado.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Cabecera nativa con el interruptor encendido en una misión ficticia de demostración">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 1118px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/journeys/how-to-enable-a-playbook/active-header-es-mobile.png 2x" width="860" height="234" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-enable-a-playbook/active-header-es-desktop.png" srcset="/images/journeys/how-to-enable-a-playbook/active-header-es-desktop.png 2x" width="2200" height="194" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Cabecera nativa con el interruptor encendido en una misión ficticia de demostración" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Cabecera nativa con el interruptor encendido en una misión ficticia de demostración</figcaption>
+</figure>
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Etiqueta Activa de una misión ficticia en el entorno de demostración">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 352px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-enable-a-playbook/active-es-desktop.png" srcset="/images/journeys/how-to-enable-a-playbook/active-es-desktop.png 2x" width="668" height="242" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Etiqueta Activa de una misión ficticia en el entorno de demostración" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Etiqueta Activa de una misión ficticia en el entorno de demostración</figcaption>
+</figure>
 
 Después de habilitar una misión, Hellotext puede marcar su flujo como activo y los clientes que coincidan con las condiciones de la misión pueden empezar a entrar.
 
 Habilitada no significa que cada señal coincidente vaya a enviar inmediatamente. Hellotext todavía revisa elegibilidad del perfil del cliente, preparación del canal, frecuencia, timing y reglas de derivación antes de cada envío. Para más detalle, mira [Cómo decide Hellotext si una misión puede enviar]({% link _journeys/how-hellotext-decides-whether-a-playbook-can-send.md %}).
 
-Si necesitas detenerla, abre la lista de misiones y deshabilita la misión. Deshabilitarla evita que el flujo acepte nuevos clientes elegibles mientras revisas o editas la configuración.
+Si necesitas detener nuevas entradas, abre la lista de misiones y usa **Deshabilitar** en la misión activa. Revisa después el estado guardado. Deshabilitar no garantiza cancelar trabajo ya en cola, mensajes en el proveedor ni todos los procesos en curso. Si no sabes si un cambio se guardó, verifica el estado antes de repetirlo: un segundo cambio puede invertir el primero.
+
+El menú de la misma misión activa ofrece **Deshabilitar**. Se abrió para mostrar la opción, sin seleccionarla.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Menú real con Deshabilitar en una misión ficticia activa, sin seleccionar la opción">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 210px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-enable-a-playbook/disable-menu-es-desktop.png" srcset="/images/journeys/how-to-enable-a-playbook/disable-menu-es-desktop.png 2x" width="384" height="238" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Menú real con Deshabilitar en una misión ficticia activa, sin seleccionar la opción" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Menú real con Deshabilitar en una misión ficticia activa, sin seleccionar la opción</figcaption>
+</figure>
+
+La vista **Inactiva** muestra el estado original de esa misma misión ficticia, capturado después de restaurar la demostración activa a su estado inactivo original. Es una copia guardada distinta del borrador nuevo; las capturas no muestran una entrega ni una cancelación en un proveedor.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Misión ficticia existente con el estado guardado Inactiva">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 418px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-enable-a-playbook/inactive-es-desktop.png" srcset="/images/journeys/how-to-enable-a-playbook/inactive-es-desktop.png 2x" width="800" height="128" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Misión ficticia existente con el estado guardado Inactiva" />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Misión ficticia existente con el estado guardado Inactiva</figcaption>
+</figure>
 
 ## Observa la primera actividad
 

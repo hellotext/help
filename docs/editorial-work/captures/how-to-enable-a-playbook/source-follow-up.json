@@ -1,0 +1,259 @@
+{
+  "rails_head": "b7b5bbad7bf8e5b20a2fba797ea5e90f18bd0c32",
+  "prior_source_audit": {
+    "commit": "652ca238a2e3ea1d7acf7e9d374ad91cafd77539",
+    "path": "../playbook-enablement-visual-draft/current-control-source-audit.json"
+  },
+  "current_source_reads": [
+    {
+      "path": "app/models/playbook.rb",
+      "git_blob": "ccfc2563a8bece4e87a6f2f2392658095afedbc4",
+      "whole_bytes_sha256": "5ac5845456909f92e8fa156499bbd19d5694b13f63a84bae6901ab89cc2fd770",
+      "bytes": 70131,
+      "lines": 1615,
+      "human_read": "selected",
+      "human_ranges": [
+        [
+          1070,
+          1155
+        ],
+        [
+          1270,
+          1340
+        ],
+        [
+          1152,
+          1169
+        ]
+      ],
+      "body_archive": "Immutable Git object; no duplicate whole source archive"
+    },
+    {
+      "path": "app/models/automation/workflow.rb",
+      "git_blob": "3bd09885b7e9717949f6c8d13de9cac7f54a2e71",
+      "whole_bytes_sha256": "0bfbb9337321a382464d31eb7304e06dc2256f038188952125f94983b1d2e262",
+      "bytes": 1725,
+      "lines": 54,
+      "human_read": "complete",
+      "human_ranges": [
+        [
+          1,
+          54
+        ]
+      ],
+      "body_archive": "Immutable Git object; no duplicate whole source archive"
+    },
+    {
+      "path": "app/models/playbook/custom.rb",
+      "git_blob": "0ea6435c12f5d7bbf033c01a71006d000b0a6b4b",
+      "whole_bytes_sha256": "9c250c15f0abeb2ced580300eca12da196c48875b282fdaddd3876bcc249b293",
+      "bytes": 2173,
+      "lines": 56,
+      "human_read": "complete",
+      "human_ranges": [
+        [
+          1,
+          56
+        ]
+      ],
+      "body_archive": "Immutable Git object; no duplicate whole source archive"
+    },
+    {
+      "path": "app/models/playbook/saver.rb",
+      "git_blob": "f60c90f9c8eeeb99974d20d68f78ad7952978f36",
+      "whole_bytes_sha256": "dbc39b78cd975fdc86bb9d2e21e3b7ae29d5b24104436ac7da247beb5b8e448a",
+      "bytes": 6972,
+      "lines": 220,
+      "human_read": "selected",
+      "human_ranges": [
+        [
+          1,
+          135
+        ]
+      ],
+      "body_archive": "Immutable Git object; no duplicate whole source archive"
+    },
+    {
+      "path": "app/controllers/journeys_controller.rb",
+      "git_blob": "3c3fd79a104fee8c9eacd2e7e2658c1ffdc9fc69",
+      "whole_bytes_sha256": "7cc88f2596b81f7755ef9ae49430e60fe8b6e007c91bdf7733ef0ab695216764",
+      "bytes": 9093,
+      "lines": 291,
+      "human_read": "selected",
+      "human_ranges": [
+        [
+          1,
+          254
+        ]
+      ],
+      "body_archive": "Immutable Git object; no duplicate whole source archive"
+    },
+    {
+      "path": "app/controllers/journeys/active_journeys_controller.rb",
+      "git_blob": "56a3f9415aff61bab44b6b7ce681fa02e480d11f",
+      "whole_bytes_sha256": "8eaa04acfd1eec35e778a583cf8ce8c5ee45b748e48b049f33dd9435740ecee9",
+      "bytes": 275,
+      "lines": 12,
+      "human_read": "complete",
+      "human_ranges": [
+        [
+          1,
+          12
+        ]
+      ],
+      "body_archive": "Immutable Git object; no duplicate whole source archive"
+    },
+    {
+      "path": "app/models/application_record.rb",
+      "git_blob": "1bbee657a51f5874c38c12adbdfe5f6fc21855d3",
+      "whole_bytes_sha256": "2473975c506ad02c2aa77593304e5b542baa45d79d8fb423edea5f83aed2d326",
+      "bytes": 1333,
+      "lines": 47,
+      "human_read": "complete",
+      "human_ranges": [
+        [
+          1,
+          47
+        ]
+      ],
+      "body_archive": "Immutable Git object; no duplicate whole source archive"
+    },
+    {
+      "path": "app/models/concerns/filter/message/acts_as_origin.rb",
+      "git_blob": "c8f3dd1a610d53862f49a5603cd610302bc48ba6",
+      "whole_bytes_sha256": "5ba8b48f8d829e3951aeed03471af14a712af496de2d20cb347bde6bc71c72bb",
+      "bytes": 299,
+      "lines": 8,
+      "human_read": "complete",
+      "human_ranges": [
+        [
+          1,
+          8
+        ]
+      ],
+      "body_archive": "Immutable Git object; no duplicate whole source archive"
+    },
+    {
+      "path": "app/javascript/controllers/playbook/playground_controller.js",
+      "git_blob": "0099d51a7a0741b03e94466bf66fa58e3b99b84e",
+      "whole_bytes_sha256": "da60d543cc7ac6e62628f45bb108298ad1fa13fe5821da2470715c467dc8e9bc",
+      "bytes": 11160,
+      "lines": 391,
+      "human_read": "complete",
+      "human_ranges": [
+        [
+          1,
+          391
+        ]
+      ],
+      "body_archive": "Immutable Git object; no duplicate whole source archive"
+    },
+    {
+      "path": "app/views/playbook/previews/_chat.html.erb",
+      "git_blob": "7deb2765cdffe312ad871be6d1d075f2bfcd3ef1",
+      "whole_bytes_sha256": "943936bf412a7382b0f36c01741f5100a2875ac87bbfc335664232f7af0c2514",
+      "bytes": 3179,
+      "lines": 122,
+      "human_read": "complete",
+      "human_ranges": [
+        [
+          1,
+          122
+        ]
+      ],
+      "body_archive": "Immutable Git object; no duplicate whole source archive"
+    },
+    {
+      "path": "app/models/journey_template/factory.rb",
+      "git_blob": "6646524beda41d7e79028a0de0fad8005812517d",
+      "whole_bytes_sha256": "4e70059d4b58beed5d3a789bf049a817aec780b8132da9cba0a5c4dff3081f30",
+      "bytes": 815,
+      "lines": 37,
+      "human_read": "complete",
+      "human_ranges": [
+        [
+          1,
+          37
+        ]
+      ],
+      "body_archive": "Immutable Git object; no duplicate whole source archive"
+    },
+    {
+      "path": "app/views/journeys/new.html.erb",
+      "git_blob": "1e8f18e4ca7ff1c5c4f8e336cdfc29030ef6eee3",
+      "whole_bytes_sha256": "899b1f979b9511acd0ac5243c21628e0b9cc7e370d827fbab5cc89243b2cd5f5",
+      "bytes": 1408,
+      "lines": 47,
+      "human_read": "complete",
+      "human_ranges": [
+        [
+          1,
+          47
+        ]
+      ],
+      "body_archive": "Immutable Git object; no duplicate whole source archive"
+    },
+    {
+      "path": "app/javascript/controllers/journeys/editor_controller.js",
+      "git_blob": "8571f6537c05bb060b9d679e7eb4c77056aebca8",
+      "whole_bytes_sha256": "78a97e7b7e6a5de718a43b8d6e6f9980e6c21bc40bdccbbe76ee9a1453df3cfe",
+      "bytes": 83950,
+      "lines": 2514,
+      "human_read": "selected",
+      "human_ranges": [
+        [
+          1,
+          180
+        ]
+      ],
+      "body_archive": "Immutable Git object; no duplicate whole source archive"
+    },
+    {
+      "path": "app/views/journeys/partials/editor/_journey_starts.html.erb",
+      "git_blob": "f8cc03de3eccb4949f2e841ab2490a6676e40a58",
+      "whole_bytes_sha256": "23ce5b23f0ddc40f8136db62500933b0e3ad61f69dc1f7da1fc110e14a059b4f",
+      "bytes": 1283,
+      "lines": 31,
+      "human_read": "complete",
+      "human_ranges": [
+        [
+          1,
+          31
+        ]
+      ],
+      "body_archive": "Immutable Git object; no duplicate whole source archive"
+    },
+    {
+      "path": "app/views/journeys/partials/editor/_header.html.erb",
+      "git_blob": "6d2ff1bd4910d04ca92e98c163d8c403ff65d604",
+      "whole_bytes_sha256": "943efe159df67f52a75162d189d88e61ce92e15b12c0f88eb9a28d8dc01fb4ea",
+      "bytes": 3773,
+      "lines": 112,
+      "human_read": "complete",
+      "human_ranges": [
+        [
+          1,
+          112
+        ]
+      ],
+      "body_archive": "Immutable Git object; no duplicate whole source archive"
+    },
+    {
+      "path": "app/helpers/journeys_helper.rb",
+      "git_blob": "b674302282938cc9db4a1d1f0676562af8b8a265",
+      "whole_bytes_sha256": "de232e23442fbfbb46b960737e81a547ed6691662f7ed7f451441c176ff5d62a",
+      "bytes": 18286,
+      "lines": 514,
+      "human_read": "selected",
+      "human_ranges": [
+        [
+          1,
+          110
+        ]
+      ],
+      "body_archive": "Immutable Git object; no duplicate whole source archive"
+    }
+  ],
+  "limit": "Source paths and complete/selected scopes only; no whole production/provider/runtime/tenant/queue guarantee. Route source reviewed but no route UI visit or construction. No CSS/test/spec content or tests added.",
+  "boundary": "Saver can enqueue UploadAttachmentsToOpenAIJob; synthetic fixture uses callback-free existing-record updates, actual UI only GET/menu/mobile tab/native inert text click."
+}

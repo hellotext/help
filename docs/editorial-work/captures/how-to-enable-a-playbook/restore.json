@@ -1,0 +1,28 @@
+{
+  "at_utc": "2026-10-04T22:32:20Z",
+  "action": "restore",
+  "database": "hellotext_editorial_recovery_20261004",
+  "fixture": {
+    "playbook_id": 33,
+    "public_id": "BbZzpNd9",
+    "name": "Asistente de atención · Demo",
+    "enabled": false,
+    "workflow_id": 6,
+    "workflow_state": "disabled"
+  },
+  "counts": {
+    "contacts": 127,
+    "messageable": 0,
+    "subscribed": 0,
+    "messages": 49,
+    "enabled_playbooks": 0,
+    "active_workflows": 0,
+    "composer_runs": 0,
+    "composer_drafts": 0
+  },
+  "job_adapter": "ActiveJob::QueueAdapters::TestAdapter",
+  "perform_deliveries": false,
+  "fixture_mutation": "update_columns on the existing synthetic playbook and workflow only; no callbacks, jobs or Saver invocation",
+  "no_outbound_execution": true,
+  "provider_values_printed": false
+}

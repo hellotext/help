@@ -1,0 +1,205 @@
+{
+  "url": "http://127.0.0.1:3193/hellotext/playbooks/BbZzpNd9/edit",
+  "title": "Edit Custom Agent playbook | Hellotext",
+  "locale": "en",
+  "width": 430,
+  "height": 1200,
+  "dpr": 2,
+  "zoom": 1,
+  "rects": [
+    {
+      "text": "",
+      "rect": [
+        0,
+        0,
+        430,
+        73
+      ]
+    },
+    {
+      "text": "\n          \n            Asistente de atención · Demo\n          \n",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "text": "",
+      "rect": [
+        358,
+        20,
+        56,
+        32
+      ]
+    },
+    {
+      "text": "\n            \n            \n          ",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "text": "Properties to collect\n\nCollect customer details during the conversation and enrich their profiles automatically.",
+      "rect": [
+        0,
+        117,
+        430,
+        1083
+      ]
+    },
+    {
+      "text": "\n            Unsaved changes\n\n\n            \n              You have unsaved changes. Are you sure you want to close this page?\n            \n\n        ",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "text": "Configuration\nPlayground\nProperties to collect\n\nCollect customer details during the conversation and enrich their profiles automatically.",
+  "links": [
+    {
+      "text": "Learn more",
+      "href": "https://help.hellotext.com/custom-agent-playbook"
+    },
+    {
+      "text": "Close",
+      "href": "/hellotext/journeys"
+    },
+    {
+      "text": "Properties to collect\n\nCollect customer details during the conversation and enrich their profiles automatically.",
+      "href": "/hellotext/playbooks/BbZzpNd9/components?type=property_collection"
+    },
+    {
+      "text": "Discard",
+      "href": "/hellotext/journeys"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Save changes",
+      "id": ""
+    },
+    {
+      "text": "Enable this playbook",
+      "id": "",
+      "action": "playbook--form#toggleEnabled"
+    },
+    {
+      "text": "Save changes",
+      "id": ""
+    },
+    {
+      "text": "Configuration",
+      "id": "",
+      "action": "click->playbook#showConfig"
+    },
+    {
+      "text": "Playground",
+      "id": "",
+      "action": "click->playbook#showPlayground"
+    },
+    {
+      "text": "Bold",
+      "id": ""
+    },
+    {
+      "text": "Italic",
+      "id": ""
+    },
+    {
+      "text": "Strikethrough",
+      "id": ""
+    },
+    {
+      "text": "Link",
+      "id": ""
+    },
+    {
+      "text": "Heading",
+      "id": ""
+    },
+    {
+      "text": "Quote",
+      "id": ""
+    },
+    {
+      "text": "Code",
+      "id": ""
+    },
+    {
+      "text": "Bullets",
+      "id": ""
+    },
+    {
+      "text": "Numbers",
+      "id": ""
+    },
+    {
+      "text": "Decrease Level",
+      "id": ""
+    },
+    {
+      "text": "Increase Level",
+      "id": ""
+    },
+    {
+      "text": "Attach Files",
+      "id": ""
+    },
+    {
+      "text": "Undo",
+      "id": ""
+    },
+    {
+      "text": "Redo",
+      "id": ""
+    },
+    {
+      "text": "Remove",
+      "id": "",
+      "action": "editor--attached-media#remove"
+    },
+    {
+      "text": "Remove",
+      "id": "",
+      "action": "editor--attached-media#remove"
+    },
+    {
+      "text": "Record voice message",
+      "id": "",
+      "action": "click->compose--toolbar--voice#record"
+    },
+    {
+      "text": "Send voice message",
+      "id": "",
+      "action": "click->input#submit"
+    },
+    {
+      "text": "Stop recording",
+      "id": "",
+      "action": "compose--toolbar--voice#pause"
+    },
+    {
+      "text": "Remove",
+      "id": "",
+      "action": "editor--recorded-voice#remove"
+    },
+    {
+      "text": "Retry upload",
+      "id": "",
+      "action": "editor--recorded-voice#retryUpload"
+    },
+    {
+      "text": "Cancel",
+      "id": "",
+      "action": "click->modal#hide"
+    }
+  ]
+}
