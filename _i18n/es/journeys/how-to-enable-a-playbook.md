@@ -30,7 +30,7 @@ Las capturas muestran una cuenta ficticia y dos filtros del catálogo. No se ins
     <div class="ht-editorial-visual__image-frame" style="max-width: 1070px; width: fit-content; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/journeys/how-to-enable-a-playbook/catalog-all-es-mobile.png 2x" width="828" height="876" />
-        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-enable-a-playbook/catalog-all-es-desktop.png" srcset="/images/journeys/how-to-enable-a-playbook/catalog-all-es-desktop.png 2x" width="2104" height="1096" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Catálogo real con el filtro Todas en una cuenta ficticia" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-enable-a-playbook/catalog-all-es-desktop.png" srcset="/images/journeys/how-to-enable-a-playbook/catalog-all-es-desktop.png 2x" width="2104" height="1032" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Catálogo real con el filtro Todas en una cuenta ficticia" />
       </picture>
     </div>
   </div>
@@ -42,7 +42,7 @@ Las capturas muestran una cuenta ficticia y dos filtros del catálogo. No se ins
     <div class="ht-editorial-visual__image-frame" style="max-width: 1070px; width: fit-content; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/journeys/how-to-enable-a-playbook/catalog-plan-es-mobile.png 2x" width="828" height="876" />
-        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-enable-a-playbook/catalog-plan-es-desktop.png" srcset="/images/journeys/how-to-enable-a-playbook/catalog-plan-es-desktop.png 2x" width="2104" height="1096" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Catálogo real con el filtro En mi plan en una cuenta ficticia" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-enable-a-playbook/catalog-plan-es-desktop.png" srcset="/images/journeys/how-to-enable-a-playbook/catalog-plan-es-desktop.png 2x" width="2104" height="1032" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Catálogo real con el filtro En mi plan en una cuenta ficticia" />
       </picture>
     </div>
   </div>

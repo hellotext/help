@@ -1,0 +1,11 @@
+--- capture-b7/app/helpers/journeys_helper.rb
++++ 7146907c560443841af826191c8fadfd1631331f/app/helpers/journeys_helper.rb
+@@ -273,7 +273,7 @@
+         items: [
+           { code: :webchat_widget, icon: 'message', color: Color.tiger, kind: :selection_card, playbook_identifier: :webchat_widget },
+           { code: :whatsapp_widget, icon: 'whatsapp', color: Color.seafoam, kind: :selection_card, playbook_identifier: :whatsapp_widget },
+-          { code: :qr_code_subscriber, icon: 'qrcode', color: Color.seafoam, kind: :selection_card, badges: [t('journeys.new_journey_type.badges.popular')] },
++          { code: :qr_code_subscriber, icon: 'qrcode', color: Color.seafoam, kind: :selection_card },
+           { code: :website_popup, icon: 'popup', color: Color.lavender, kind: :selection_card },
+           { code: :website_form, icon: 'form', color: Color.blush, kind: :selection_card },
+           { code: :shareable_link, icon: 'link', color: Color.indigo, kind: :selection_card },

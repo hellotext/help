@@ -1,0 +1,43 @@
+{
+  "head_sha": "7146907c560443841af826191c8fadfd1631331f",
+  "workflow_run": {
+    "id": 37249962504,
+    "event": "push",
+    "status": "completed",
+    "conclusion": "success",
+    "created_at": "2026-10-05T01:04:38Z",
+    "updated_at": "2026-10-05T01:15:27Z",
+    "html_url": "https://github.com/hellotext/hellotext/actions/runs/37249962504"
+  },
+  "deploy_job": {
+    "id": 111576801105,
+    "name": "deploy",
+    "status": "completed",
+    "conclusion": "success",
+    "started_at": "2026-10-05T01:11:30Z",
+    "completed_at": "2026-10-05T01:15:26Z",
+    "html_url": "https://github.com/hellotext/hellotext/actions/runs/37249962504/job/111576801105"
+  },
+  "deployment_step": [
+    {
+      "name": "Deploy pre-built image",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 8,
+      "started_at": "2026-10-05T01:11:59Z",
+      "completed_at": "2026-10-05T01:15:21Z"
+    }
+  ],
+  "workflow_sha256": "8a6667c7422097c2e9a66cab8065820d1a8eea50ebe323b7daa751fc84696796",
+  "image_tag": "github-7146907",
+  "gate_and_command": [
+    "          export KAMAL_VERSION=\"github-${GITHUB_SHA::7}\"",
+    "          echo \"Building image with version: $KAMAL_VERSION\"",
+    "          kamal build push --version=$KAMAL_VERSION",
+    "          echo \"Successfully built and pushed version: $KAMAL_VERSION\"",
+    "          export KAMAL_VERSION=\"github-${GITHUB_SHA::7}\"",
+    "          echo \"Deploying pre-built image version: $KAMAL_VERSION\"",
+    "          kamal deploy --skip-push --version=$KAMAL_VERSION"
+  ],
+  "limit": "Published deployment workflow metadata and immutable command, not production account HTTP or universal grant/frontend availability."
+}
