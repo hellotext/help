@@ -30,7 +30,7 @@ These screenshots show a fictional account and two catalog filters. No playbook 
     <div class="ht-editorial-visual__image-frame" style="max-width: 1070px; width: fit-content; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/journeys/how-to-enable-a-playbook/catalog-all-en-mobile.png 2x" width="828" height="876" />
-        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-enable-a-playbook/catalog-all-en-desktop.png" srcset="/images/journeys/how-to-enable-a-playbook/catalog-all-en-desktop.png 2x" width="2104" height="992" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Real catalog with All selected in a fictional account" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-enable-a-playbook/catalog-all-en-desktop.png" srcset="/images/journeys/how-to-enable-a-playbook/catalog-all-en-desktop.png 2x" width="2104" height="984" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Real catalog with All selected in a fictional account" />
       </picture>
     </div>
   </div>
@@ -42,7 +42,7 @@ These screenshots show a fictional account and two catalog filters. No playbook 
     <div class="ht-editorial-visual__image-frame" style="max-width: 1070px; width: fit-content; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/journeys/how-to-enable-a-playbook/catalog-plan-en-mobile.png 2x" width="828" height="876" />
-        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-enable-a-playbook/catalog-plan-en-desktop.png" srcset="/images/journeys/how-to-enable-a-playbook/catalog-plan-en-desktop.png 2x" width="2104" height="992" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Real catalog with In my plan selected in a fictional account" />
+        <img class="ht-editorial-visual__image" src="/images/journeys/how-to-enable-a-playbook/catalog-plan-en-desktop.png" srcset="/images/journeys/how-to-enable-a-playbook/catalog-plan-en-desktop.png 2x" width="2104" height="984" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Real catalog with In my plan selected in a fictional account" />
       </picture>
     </div>
   </div>

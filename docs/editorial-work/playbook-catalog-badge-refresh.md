@@ -1,0 +1,15 @@
+# How to enable a playbook — native catalog badge refresh
+
+Explicit human authorization: replace and publish the catalog screenshot without Popular.
+
+Four native desktop PNG replace All and In my plan in ES and EN. The actual merged helper from Rails 7146907 removes the QR Popular badge. Its successful deployment job 111576801105/run37249962504 and immutable image version github-7146907 are recorded. No DOM hiding, pixel editing, resize, fake state, product UI repair or renderer change.
+
+Runtime local commit 021c6c95e977e6efb4f1e06f27ec4b7c01d3cd37 preserves parent 5de75f1. Only the exact current helper blob is refreshed; nine other scoped catalog objects match. This is a scoped native capture environment, not a whole checkout of 7146907 or universal production/grant audit. No Rails push/PR.
+
+The source browser is isolated loopback 9462/PID81146/profile hellotext-editorial-recovery-chrome-20261004, one Rails3193 tab, fictional owner, Display P3 D65/DPR2/zoom1. Native GETs only; owner locale ES → EN → ES restored in COPY database/UI. Runtime before/after baseline, extras and nine inactive Custom records agree. Normal authentication/session/presence writes and unexecuted Test jobs are outside this guard; no whole-database equality claim. No editor/Save/Enable/Confirm/Publish, AI/provider/preview generation, messages or delivery worker.
+
+Header, subtitle, both filters, category and three first-row cards are complete, with native 8px perimeter. ES logical 1052×516/PNG2104×1032; EN logical1052×492/PNG2104×984. Frame cap1070 includes18px. Both bodies change only intrinsic heights. All ten H2 headings, 23 ordered links, titles/slugs/stub/languages/publication/prose and nine figures are preserved. Four mobile catalog sources omit QR and are unchanged; 26 prior assets retain bytes and profiles. Historical source/original records remain unchanged and reachable.
+
+Ruby3.3.6 Help build/security headers succeeded. All30 PNG match both root and ES build copies with ICC intact. Complete ES/EN1440/390/580 pages were reviewed through footer with settled fonts/images500ms, using CSS-resolution TMP contact sheets; four source captures were inspected separately. Initial intact-image decode failures in ES580/EN1440 resolved by guarded native reload; final six views decoded. No overflow, missing/enlarged source or frame issue. QA viewport images remain TMP, not public uploads. No CSS/migration tests.
+
+All110 verifier ancestors and57 retained preparation objects/parents/refs were verified, including the preserved getting-started local draft3efdae2a. Ledger/inventory and protected primary/editorial pins are unchanged. No additional pair is claimed complete. New evidence is in captures/playbook-catalog-badge-refresh; independent exact-head PR review and normal deployment/public hash verification are separate publication gates.

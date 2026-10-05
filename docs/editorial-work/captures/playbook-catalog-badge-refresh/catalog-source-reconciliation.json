@@ -1,0 +1,99 @@
+{
+  "heads": {
+    "at_utc": "2026-10-05T01:09:01.771749+00:00",
+    "rails_master": "7146907c560443841af826191c8fadfd1631331f",
+    "rails_parents": [
+      "b1445f7ff9b989b6024c0e39fd26aa7a685eeb3b"
+    ],
+    "help_main": "61d3a4d517cd8b1c1bb7127eddd405b1394239cc",
+    "help_parents": [
+      "ef5817f92258cfeab864a8aaa1b995c4833c5b5a",
+      "a05ac572df33b0a0dfb689e8353b6554782da4c8"
+    ]
+  },
+  "object_pairs": [
+    {
+      "path": "app/views/journeys/new_journey_type.html.erb",
+      "capture_blob": "8c43e4ad46fe530d3e4793f03188f20ede1d8df2",
+      "current_blob": "8c43e4ad46fe530d3e4793f03188f20ede1d8df2",
+      "same": true,
+      "capture_body_sha256": "a67efc62ecbae91b862e8c3bc3864032cda33931c0416bb200b4f6a5025f0293",
+      "bytes": 1870
+    },
+    {
+      "path": "app/views/journeys/_selection_card.html.erb",
+      "capture_blob": "051faa8f9498cb49c65d7371aea88bedf0322b96",
+      "current_blob": "051faa8f9498cb49c65d7371aea88bedf0322b96",
+      "same": true,
+      "capture_body_sha256": "d641564d1f6303e44fe92f8e5832ce2b91ec52de6b03044fae09bd4e410aa860",
+      "bytes": 2956
+    },
+    {
+      "path": "app/views/journey_templates/_journey_template.html.erb",
+      "capture_blob": "c9abe8c860cda7d435702cfdc10ed421a7960412",
+      "current_blob": "c9abe8c860cda7d435702cfdc10ed421a7960412",
+      "same": true,
+      "capture_body_sha256": "2695a311a7560945910c87fc7c7c83d1560b35c1b47753317d632d598bb2b2b5",
+      "bytes": 3496
+    },
+    {
+      "path": "app/helpers/journeys_helper.rb",
+      "capture_blob": "b674302282938cc9db4a1d1f0676562af8b8a265",
+      "current_blob": "3c685b0de0304ee58c7fbba0c7d7ce34f2283358",
+      "same": false,
+      "capture_body_sha256": "de232e23442fbfbb46b960737e81a547ed6691662f7ed7f451441c176ff5d62a",
+      "bytes": 18286,
+      "current_body_sha256": "10ba9413a4d048e857771608c3e145b69a75971d7b11c833a680f688050def03",
+      "diff_sha256": "38e41e87d25c98e6a0bbd7338c92ae46c285c24dcc4be5caeb45c257210b3ad8"
+    },
+    {
+      "path": "app/controllers/journeys_controller.rb",
+      "capture_blob": "3c3fd79a104fee8c9eacd2e7e2658c1ffdc9fc69",
+      "current_blob": "3c3fd79a104fee8c9eacd2e7e2658c1ffdc9fc69",
+      "same": true,
+      "capture_body_sha256": "7cc88f2596b81f7755ef9ae49430e60fe8b6e007c91bdf7733ef0ab695216764",
+      "bytes": 9093
+    },
+    {
+      "path": "app/models/journey_template/factory.rb",
+      "capture_blob": "6646524beda41d7e79028a0de0fad8005812517d",
+      "current_blob": "6646524beda41d7e79028a0de0fad8005812517d",
+      "same": true,
+      "capture_body_sha256": "4e70059d4b58beed5d3a789bf049a817aec780b8132da9cba0a5c4dff3081f30",
+      "bytes": 815
+    },
+    {
+      "path": "app/models/journey_template.rb",
+      "capture_blob": "e03d7901f8c497c7278c12be7263ab3f0508a3e5",
+      "current_blob": "e03d7901f8c497c7278c12be7263ab3f0508a3e5",
+      "same": true,
+      "capture_body_sha256": "62dba143b0d8f0422c29a9f38fd0f3c50994d84137fc49525b92f9e845c197f1",
+      "bytes": 5904
+    },
+    {
+      "path": "app/policies/journey_policy.rb",
+      "capture_blob": "6df5f31e50dd04d15734e639538e3b67f67be2f2",
+      "current_blob": "6df5f31e50dd04d15734e639538e3b67f67be2f2",
+      "same": true,
+      "capture_body_sha256": "7ad1d31cfe963331be3138b647d08bfac7e3471ca3db18a4850e94f597c34491",
+      "bytes": 355
+    },
+    {
+      "path": "config/locales/views/journeys/es.yml",
+      "capture_blob": "f705eeee1be17c7568781c9ef007b6d874a9007d",
+      "current_blob": "f705eeee1be17c7568781c9ef007b6d874a9007d",
+      "same": true,
+      "capture_body_sha256": "4bfc329940497019edb2538ca633190c8b62cddfb41adda042abda70c9e8ef0d",
+      "bytes": 20019
+    },
+    {
+      "path": "config/locales/views/journeys/en.yml",
+      "capture_blob": "0ff536c20475c36c06ad035dfae146c6e5000f5b",
+      "current_blob": "0ff536c20475c36c06ad035dfae146c6e5000f5b",
+      "same": true,
+      "capture_body_sha256": "4c37cd552cb8812202879a6cf4cf019504867c362461a342bc5c35687b50dbc0",
+      "bytes": 18722
+    }
+  ],
+  "limits": "Eight scoped Git objects/capture bytes; one current helper wholebyte plus full diff, not full raw human current helper; no whole deployed frontend or grant availability."
+}
