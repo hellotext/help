@@ -58,7 +58,8 @@ Checked the Rails `playbook-followups` implementation at
   retained counts and configuration changes.
 - `Flux::Agent::Analyzer` for final actions and Automation branch advancement.
 
-No Rails source, business configuration or running application was changed.
+The initial documentation batch did not change Rails source, business
+configuration or the running application.
 
 ## Verification
 
@@ -83,3 +84,19 @@ Browser review and the optional product screenshot remain deferred under the
 user's instruction to stop inspecting the browser. The progress register stays
 `in_progress` rather than claiming the workflow's browser verification. No public
 checks, publication, push or pull request are claimed.
+
+## Order Update defaults — 2026-10-06
+
+At the user's request, changed Order Update's seeded Follow-up policy to one
+nudge and a ten-minute interval. The final action remains closure. The Rails
+change is recorded in `c1787f92582a77eb6d77ba3759d01215b5cabe20`; the English and
+Spanish starting-value rows now match it. The guarded seed creation still
+preserves any existing component's saved settings; no seed run or backfill was
+performed.
+
+Ruby syntax validation and RuboCop for `db/seeds/playbooks.rb` passed with zero
+offenses. Rebuilt both Help locales in the same isolated copy; the production
+build completed in 8.423 seconds and security-header verification passed.
+Checked that the English and Spanish rows show one nudge, ten minutes and
+closure in both generated files and the running local preview. No browser
+inspection or screenshot capture was performed. `git diff --check` passed.

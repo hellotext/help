@@ -380,7 +380,7 @@ Las misiones nuevas parten de estos valores. Revisa la tarjeta de tu misión: un
 | Respuestas Instantáneas | 2 | 10 minutos | Análisis de IA |
 | Asistente de Cambios y Devoluciones | 1 | 1 hora | Análisis de IA |
 | Asistente de Cancelación de Pedidos | 1 | 1 hora | Análisis de IA |
-| Seguimiento de Pedidos | Ninguno | 2 minutos | Cerrar la conversación |
+| Seguimiento de Pedidos | 1 | 10 minutos | Cerrar la conversación |
 
 ### Si usas el agente dentro de una ruta
 

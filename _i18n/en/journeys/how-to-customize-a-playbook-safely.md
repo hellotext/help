@@ -380,7 +380,7 @@ New playbooks start with these values. Check your playbook's card: previously sa
 | Instant Answers | 2 | 10 minutes | AI Analysis |
 | Return & Exchange Helper | 1 | 1 hour | AI Analysis |
 | Order Cancellation Assistant | 1 | 1 hour | AI Analysis |
-| Order-Update Delight | None | 2 minutes | Close the conversation |
+| Order-Update Delight | 1 | 10 minutes | Close the conversation |
 
 ### When using the agent in a route
 
