@@ -76,6 +76,7 @@ Las tarjetas disponibles pueden variar, pero podrías revisar:
 - **Derivación o asignación:** quién debería tomar la conversación cuando hace falta una persona.
 - **Prompt o instrucciones, cuando esté disponible:** qué puede explicar la misión, qué no debe aprobar y cuándo debe derivar.
 - **Propiedades previas, cuando corresponda:** una lista válida de datos de cliente que puede solicitar el Recolector de Propiedades habilitado. La configuración inicial de esta misión no incluye una tarjeta de Búsqueda web; no asumas que añadir una URL habilita consultas de sitios externos.
+- **[Seguimiento]({% link _journeys/how-to-customize-a-playbook-safely.md %}#personaliza-el-seguimiento):** la cantidad de recordatorios, la espera y la acción final si el cliente deja de responder.
 
 Abrir una misión nueva prepara un borrador. Guardar puede crear o actualizar la configuración y su flujo; habilitar es otra acción con efectos persistentes. Los cambios locales de una tarjeta y volver a las tarjetas no prueban que la configuración final esté guardada. Deshabilitar no garantiza cancelar todo trabajo ya en cola.
 

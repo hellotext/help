@@ -85,6 +85,7 @@ Smart Recommender includes:
 - **Tone:** the voice used in replies.
 - **Escalation:** whether a handoff can be requested and its destination team or teammate.
 - **Web search:** approved websites the agent can use for the recommendation mission.
+- **[Follow-up]({% link _journeys/how-to-customize-a-playbook-safely.md %}#customize-follow-up):** the number of nudges, the wait, and the final action if the customer stops replying.
 
 Components and permissions may vary; also review **Audience** when available. Its filter limits admission and does not provide identity, consent, or a ready channel. The following figures show the same shared controls in independent fictional drafts; they do not show a saved or running Smart Recommender playbook.
 

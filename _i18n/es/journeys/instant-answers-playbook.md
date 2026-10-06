@@ -78,6 +78,7 @@ Las tarjetas disponibles pueden variar, pero podrías revisar:
 - **Tono:** de uno a tres tonos para orientar la voz, sin garantizar una respuesta exacta.
 - **Derivación o asignación:** quién debería tomar la conversación cuando la misión no puede resolverla.
 - **Fuentes y herramientas disponibles:** comprueba cuáles admite esta misión. No presupongas una tarjeta de Búsqueda web por haberla visto en Agente Personalizado. Escribir una URL en instrucciones no añade ni consulta un sitio. Cuando otra configuración sí admite búsqueda por dominio, no garantiza la ruta, puerto, página exacta ni frescura de la información.
+- **[Seguimiento]({% link _journeys/how-to-customize-a-playbook-safely.md %}#personaliza-el-seguimiento):** la cantidad de recordatorios, la espera y la acción final si el cliente deja de responder.
 
 **Ejemplo ficticio independiente:** este control compartido de Canales de Entrada proviene de un borrador de Recolector de Propiedades. Muestra **Todos los canales de entrada** y la alternativa manual, sin guardar. No representa una misión Respuestas Instantáneas configurada, una conexión ni una respuesta enviada.
 

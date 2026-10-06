@@ -53,7 +53,6 @@ Usa esta tabla como mapa rápido:
 | **Canales de entrada/salida** | Misiones que permiten selección de canales | Dónde puede responder o enviar mensajes. |
 | **Descuentos** | Misiones de venta que permiten ofertas | La estrategia, los límites de incentivos de IA y las promociones importadas que puede usar el agente. |
 | **Derivación** | Agentes de IA, atención, [Webchat]({% link _captures/webchat-widget-playbook.md %}) y algunas misiones personalizadas | Quién toma la conversación cuando el agente no debe seguir. |
-| **Seguimiento** | Misiones que muestran esta tarjeta | Cuántos recordatorios puede enviar el agente, cuánto espera y qué hace si el cliente sigue sin responder. |
 | **Pasos de ruta** | Journeys o rutas | Secuencia, esperas, ramas, asignaciones y salida del flujo. |
 
 Si una tarjeta no aparece, revisa el tipo de misión, acceso y funciones disponibles. Esa parte puede no aplicar, estar controlada por lógica interna o no estar disponible para tu cuenta. Un prompt no sustituye un control ausente ni habilita una herramienta, permiso o canal.
@@ -326,69 +325,6 @@ Cierra el panel, pulsa **Volver** para regresar a las tarjetas y guarda la misi�
 Si eliges solo incentivos de IA, un cupón o la opción sin descuentos, el panel se cierra y conserva las selecciones de promociones. Puedes volver a revisarlas al elegir una estrategia que use ofertas de la tienda.
 
 Antes de dar el cambio por terminado, revisa que las promociones internas estén excluidas, que las públicas necesarias estén permitidas y que sus fechas y días sean correctos. Prueba una consulta de oferta y otra que pida un descuento mayor para comprobar que el agente sigue la estrategia elegida.
-
-## Personaliza el seguimiento
-
-Abre **Seguimiento** para decidir qué hace el agente cuando un cliente deja de responder. Esta tarjeta está disponible en Recomendador Inteligente, Agente Personalizado, Respuestas Instantáneas, Asistente de Cambios y Devoluciones, Asistente de Cancelación de Pedidos y Seguimiento de Pedidos cuando tu misión incluye el componente.
-
-El agente redacta cada recordatorio según la conversación. Configuras la cantidad, la espera y la acción final; no necesitas escribir mensajes fijos.
-
-### Elige la cantidad y la espera
-
-1. En **Cantidad de recordatorios**, elige entre **1** y **10**, o **Ninguno** para no enviar recordatorios.
-2. En **Esperar una respuesta**, introduce un número entero de al menos **1** y elige minutos u horas.
-3. En **Si todavía no hay respuesta**, elige la acción final.
-
-La misma espera se aplica antes de cada recordatorio y una vez más antes de la acción final. No se configura una duración distinta para cada recordatorio.
-
-Por ejemplo, con dos recordatorios disponibles y una espera de diez minutos, si el cliente no responde después de la respuesta del agente:
-
-| Tiempo sin respuesta | Qué ocurre |
-| --- | --- |
-| 10 minutos | El agente intenta enviar el primer recordatorio. |
-| 20 minutos | El agente intenta enviar el segundo recordatorio. |
-| 30 minutos | Se realiza la acción final. |
-
-**Ninguno** equivale a cero recordatorios. El agente conserva una espera y luego realiza la acción final; no desactiva el seguimiento. Las reglas de envío del canal siguen aplicándose, y un intento que no se entrega también puede consumir un recordatorio.
-
-### Elige la acción final
-
-En **Si todavía no hay respuesta**, elige qué ocurre después de la última espera: **Análisis de IA**, **Cerrar la conversación** o **Transferir a una persona**.
-
-Con **Transferir a una persona**, pulsa **Asignación** para revisar el destino en el mismo editor. La flecha de volver o **Volver** te lleva de nuevo a Seguimiento. Revisa también el destino si eliges **Análisis de IA**, porque el análisis puede decidir transferir la conversación.
-
-La vista previa muestra una conversación de ejemplo con las esperas, los recordatorios y la acción elegida. Sus mensajes son ilustrativos; el agente redacta los mensajes reales según cada conversación.
-
-### Respuestas y cambios posteriores
-
-Una respuesta del cliente detiene la espera pendiente para que el agente pueda responder. Después de la respuesta del agente, empieza una nueva espera. Los recordatorios ya utilizados siguen contando dentro del límite de esa conversación; responder no vuelve a poner el contador en cero. Si el límite ya se alcanzó, la próxima espera lleva directamente a la acción final.
-
-Pulsa **Volver** para regresar a las tarjetas y completa el guardado de la misión. Los cambios guardados se usan cuando el agente vuelve a responder al cliente; no modifican una espera que ya está en curso.
-
-### Valores iniciales
-
-Las acciones finales determinan qué ocurre después de la última espera:
-
-- **Análisis de IA (predeterminado, recomendado):** Analiza la conversación y decide si cerrarla o transferirla a una persona mediante **Asignación**.
-- **Cerrar la conversación:** Cierra la conversación sin enviar otro recordatorio.
-- **Transferir a una persona:** Transfiere la conversación al equipo o miembro configurado en **Asignación**.
-
-Las misiones nuevas parten de estos valores:
-
-| Misión | Recordatorios | Espera antes de cada recordatorio y de la acción final | Acción final |
-| --- | --- | --- | --- |
-| Recomendador Inteligente | 1 | 2 minutos | Análisis de IA |
-| Agente Personalizado | 1 | 2 minutos | Análisis de IA |
-| Respuestas Instantáneas | 2 | 10 minutos | Análisis de IA |
-| Asistente de Cambios y Devoluciones | 1 | 1 hora | Análisis de IA |
-| Asistente de Cancelación de Pedidos | 1 | 1 hora | Análisis de IA |
-| Seguimiento de Pedidos | 1 | 10 minutos | Cerrar la conversación |
-
-### Si usas el agente dentro de una ruta
-
-Cuando la misión elegida incluye Seguimiento, este componente controla la espera del paso de agente, incluso con **Ninguno**. Puedes abrir la sección de espera para consultar su valor, pero sus controles están deshabilitados. Usa **Editar Seguimiento** en el aviso para cambiar la configuración de la misión.
-
-Si el paso tiene ramas **Resuelto** y **No resuelto**, cerrar continúa por Resuelto y una transferencia completada continúa por No resuelto. Análisis de IA decide cuál de esas acciones realizar. Los demás pasos de espera de la ruta conservan su propia configuración.
 
 ## Personaliza derivación
 

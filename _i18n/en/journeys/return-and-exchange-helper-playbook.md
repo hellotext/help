@@ -76,6 +76,7 @@ The available cards can vary, but you may be able to review:
 - **Escalation or assignment:** who should take over when a person is needed.
 - **Prompt or instructions, when available:** what the playbook may explain, what it must not approve, and when to hand off.
 - **Prerequisite properties, when applicable:** a valid list of customer details the enabled Property Collector may request. This playbook's initial configuration does not include a Web search card; adding a URL does not enable external website queries.
+- **[Follow-up]({% link _journeys/how-to-customize-a-playbook-safely.md %}#customize-follow-up):** the number of nudges, the wait, and the final action if the customer stops replying.
 
 Opening a new playbook prepares a draft. Save can create or update configuration and its workflow; enabling is a separate action with persistent effects. Local card changes and returning to the cards do not prove final configuration was saved. Disabling does not guarantee cancellation of all queued work.
 

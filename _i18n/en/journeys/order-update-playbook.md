@@ -62,6 +62,7 @@ Order-Update Delight exposes:
 - **Outgoing channels:** where the playbook can send order-status replies or tracking CTAs.
 - **Escalation or assignment:** who should take over when a person is needed.
 - **Tone:** the voice used in replies.
+- **[Follow-up]({% link _journeys/how-to-customize-a-playbook-safely.md %}#customize-follow-up):** the number of nudges, the wait, and the final action if the customer stops replying.
 
 Order-Update Delight uses a built-in order-update intent. You usually do not need to create manual intents for it. It also does not work like a custom agent prompt; the main setup work is making sure the order data, channels, and handoff path are correct.
 
