@@ -79,6 +79,7 @@ Then configure the supporting components:
 - **Prompt:** additional instructions for your business, including exceptions and handoff expectations.
 - **Discount:** discount permissions and limits. Configure discounts here, separately from the store-credit limit in Save Strategy.
 - **Web search:** approved websites the assistant can consult for policy information.
+- **[Follow-up]({% link _journeys/how-to-customize-a-playbook-safely.md %}#customize-follow-up):** the number of nudges, the wait, and the final action if the customer stops replying.
 
 The two components set your business's rules and permissions. Enabling an option does not itself cancel an order, change an item, issue a refund, or grant credit. The assistant should only confirm an action after it has been completed; requests that cannot be completed through the available store connection need your team.
 

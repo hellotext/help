@@ -53,7 +53,6 @@ Use this table as a quick map:
 | **Incoming/outgoing channels** | Playbooks that allow channel selection | Where the playbook can reply or send. |
 | **Discounts** | Sales playbooks that allow offers | The strategy, AI incentive limits, and imported promotions the agent may use. |
 | **Escalation** | AI agents, support, [Webchat]({% link _captures/webchat-widget-playbook.md %}), and some custom playbooks | Who takes over when the agent should not continue. |
-| **Follow-up** | Playbooks that show this card | How many nudges the agent may send, how long it waits, and what it does if the customer still does not reply. |
 | **Route steps** | Journeys or routes | Sequence, waits, branches, assignments, and exit from the flow. |
 
 If a card is missing, check the playbook type, access, and available features. That part may not apply, may be controlled internally, or may be unavailable to your account. A prompt does not replace a missing control or enable a tool, permission, or channel.
@@ -326,67 +325,6 @@ Close the panel, click **Go back** to return to the cards, and save the playbook
 If you choose the AI-only, coupon, or no-discount strategy, the panel closes and keeps your promotion selections. You can review them again when you choose a strategy that uses store offers.
 
 Before finishing, check that internal promotions are excluded, the public promotions you need are allowed, and their dates and weekdays are correct. Test an offer question and a request for a larger discount to check that the agent follows the selected strategy.
-
-## Customize follow-up
-
-Open **Follow-up** to decide what the agent does when a customer stops replying. This card is available in Smart Recommender, Custom Agent, Instant Answers, Return & Exchange Helper, Order Cancellation Assistant, and Order-Update Delight when your playbook includes the component.
-
-The agent writes each nudge based on the conversation. You configure the count, wait, and final action; you do not need to write fixed messages.
-
-### Choose the count and wait
-
-1. Under **Number of nudges**, choose **1** to **10**, or **None** to send no nudges.
-2. Under **Wait for a reply**, enter a whole number of at least **1** and choose minutes or hours.
-3. Under **If there’s still no reply**, choose the final action.
-
-The same wait applies before each nudge and once more before the final action. There is no separate duration for each nudge.
-
-For example, with two nudges available and a ten-minute wait, if the customer does not reply after the agent's response:
-
-| Time without a reply | What happens |
-| --- | --- |
-| 10 minutes | The agent attempts to send the first nudge. |
-| 20 minutes | The agent attempts to send the second nudge. |
-| 30 minutes | The final action runs. |
-
-**None** means zero nudges. The agent keeps one wait and then runs the final action; it does not disable follow-up. Channel sending rules still apply, and an attempt that is not delivered can also use up a nudge.
-
-### Choose the final action
-
-| Option | What it does after the last wait |
-| --- | --- |
-| **AI Analysis** — **Recommended** | Analyzes the conversation and decides whether to close it or hand it off to a person. |
-| **Close the conversation** | Closes the conversation without sending another nudge. |
-| **Hand off to a person** | Uses the playbook's **Assignment** configuration to hand off the conversation. |
-
-With **Hand off to a person**, click **Assignment** to review the destination in the same editor. The back arrow or **Go back** returns you to Follow-up. Also review the destination when choosing **AI Analysis**, because analysis may decide to hand off the conversation.
-
-The preview shows an example conversation with the waits, nudges, and selected action. Its messages are illustrative; the agent writes real messages based on each conversation.
-
-### Replies and later changes
-
-A customer reply stops the pending wait so the agent can answer. After the agent's response, a new wait starts. Nudges already used still count toward that conversation's limit; replying does not reset the count. If the limit has already been reached, the next wait leads directly to the final action.
-
-Click **Go back** to return to the cards and complete the playbook's final save. Saved changes are used when the agent next answers the customer; they do not change a wait already in progress.
-
-### Starting values
-
-New playbooks start with these values. Check your playbook's card: previously saved settings may differ.
-
-| Playbook | Nudges | Wait before each nudge and the final action | Final action |
-| --- | --- | --- | --- |
-| Smart Recommender | 1 | 2 minutes | AI Analysis |
-| Custom Agent | 1 | 2 minutes | AI Analysis |
-| Instant Answers | 2 | 10 minutes | AI Analysis |
-| Return & Exchange Helper | 1 | 1 hour | AI Analysis |
-| Order Cancellation Assistant | 1 | 1 hour | AI Analysis |
-| Order-Update Delight | None | 2 minutes | Close the conversation |
-
-### When using the agent in a route
-
-When the selected playbook includes Follow-up, this component controls the Agent step's wait, including with **None**. You can expand the Wait section to review its value, but its controls are disabled. Use **Edit Follow-up** in the notice to change the playbook's settings.
-
-If the step has **Resolved** and **Unresolved** branches, closing continues through Resolved and a completed handoff continues through Unresolved. AI Analysis decides which action to take. Other Wait steps in the route keep their own settings.
 
 ## Customize handoff rules
 

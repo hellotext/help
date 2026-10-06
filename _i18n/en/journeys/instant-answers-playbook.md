@@ -78,6 +78,7 @@ The available cards can vary, but you may be able to review:
 - **Tone:** one to three tones to guide the voice, without guaranteeing an exact reply.
 - **Escalation or assignment:** who should take over when the playbook cannot resolve the request.
 - **Available sources and tools:** check which ones this playbook supports. Do not assume a Web search card is present because you saw one in Custom Agent. Writing a URL in instructions does not add or query a site. When another configuration supports domain search, it does not guarantee the path, port, exact page or freshness of the information.
+- **[Follow-up]({% link _journeys/how-to-customize-a-playbook-safely.md %}#customize-follow-up):** the number of nudges, the wait, and the final action if the customer stops replying.
 
 **Independent fictitious example:** this shared Incoming channels control comes from a Property Collector draft. It shows **All incoming channels** and the manual alternative, without saving. It does not represent a configured Instant Answers playbook, a connection or a sent reply.
 

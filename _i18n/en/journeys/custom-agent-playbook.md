@@ -82,6 +82,7 @@ Custom Agent exposes:
 - **Escalation or assignment:** who should take over when the agent needs help.
 - **Tone:** the voice used in replies.
 - **Web search, when available:** approved domains for the search tool. An integration or external tool needs its own configuration and access; writing an HTTP request in the prompt does not add an external request tool.
+- **[Follow-up]({% link _journeys/how-to-customize-a-playbook-safely.md %}#customize-follow-up):** the number of nudges, the wait, and the final action if the customer stops replying.
 
 **Incoming channels** determines which incoming messages can participate. All incoming channels and manual selection are different options; choose according to your scope and actual connections. This control does not configure the outgoing channel, destination, consent, or a guarantee of response or delivery.
 

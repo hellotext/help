@@ -85,6 +85,7 @@ Recomendador Inteligente incluye:
 - **Tono:** la voz usada en las respuestas.
 - **Derivación:** si se permite solicitar una derivación y su equipo o persona de destino.
 - **Búsqueda web:** sitios aprobados que el agente puede usar para la misión de recomendación.
+- **[Seguimiento]({% link _journeys/how-to-customize-a-playbook-safely.md %}#personaliza-el-seguimiento):** la cantidad de recordatorios, la espera y la acción final si el cliente deja de responder.
 
 Los componentes y permisos pueden variar; revisa también **Audiencia** cuando esté disponible. El filtro limita admisión y no concede identidad, consentimiento o un canal listo. Las figuras siguientes muestran los mismos controles compartidos en borradores ficticios independientes; no presentan una misión Recomendador Inteligente guardada o ejecutada.
 

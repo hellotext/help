@@ -82,6 +82,7 @@ Agente Personalizado expone:
 - **Derivación o asignación:** quién debería tomar la conversación cuando el agente necesita ayuda.
 - **Tono:** la voz usada en las respuestas.
 - **Búsqueda web, cuando esté disponible:** dominios aprobados para la herramienta de búsqueda. Una integración o herramienta externa necesita su propia configuración y acceso; escribir una solicitud HTTP en el prompt no agrega una herramienta de solicitudes externas.
+- **[Seguimiento]({% link _journeys/how-to-customize-a-playbook-safely.md %}#personaliza-el-seguimiento):** la cantidad de recordatorios, la espera y la acción final si el cliente deja de responder.
 
 **Canales de entrada** delimita qué mensajes entrantes pueden participar. Todos los canales de entrada y la selección manual son opciones distintas; elige las que correspondan a tu alcance y conexiones reales. Este control no configura el canal de salida, el destino, el consentimiento ni una garantía de respuesta o entrega.
 

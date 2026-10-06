@@ -78,6 +78,7 @@ Configura estas tarjetas en el orden en que aparecen:
 | **Prompt del agente** | Instrucciones adicionales sobre cómo responder, qué explicar y cuándo pedir apoyo. |
 | **Descuentos** | La estrategia de descuentos y los límites de los incentivos permitidos. |
 | **Búsqueda web** | Los sitios web donde el asistente puede consultar información. |
+| **[Seguimiento]({% link _journeys/how-to-customize-a-playbook-safely.md %}#personaliza-el-seguimiento)** | La cantidad de recordatorios, la espera y la acción final si el cliente deja de responder. |
 
 Mantén la primera configuración acotada. Es más fácil ampliar un flujo claro de cancelación que diagnosticar una misión que intenta resolver todos los problemas post-compra.
 

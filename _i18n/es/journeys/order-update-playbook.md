@@ -62,6 +62,7 @@ Seguimiento de Pedidos expone:
 - **Canales de salida:** dónde la misión puede enviar respuestas de estado o CTAs de tracking.
 - **Derivación o asignación:** quién debería tomar la conversación cuando hace falta una persona.
 - **Tono:** la voz usada en las respuestas.
+- **[Seguimiento]({% link _journeys/how-to-customize-a-playbook-safely.md %}#personaliza-el-seguimiento):** la cantidad de recordatorios, la espera y la acción final si el cliente deja de responder.
 
 Seguimiento de Pedidos usa una intención interna de estado de pedido. Normalmente no necesitas crear intenciones manuales para esta misión. Tampoco funciona como un agente personalizado con prompt editable; el trabajo principal de configuración es confirmar que los datos de orden, canales y camino de derivación estén correctos.
 
