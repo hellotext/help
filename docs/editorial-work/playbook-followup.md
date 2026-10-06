@@ -10,8 +10,10 @@ Order-Update Delight. Preserve existing titles, routes and figures.
 
 The Help checkout switched to `main`, pulled with `--ff-only` to
 `c946993b2aebbe61e7da4a3daf65b639a0ec59d5`, then created
-`codex/document-playbook-followup`. This is local documentation work; no push,
-pull request, deployment or public verification is authorized or claimed.
+`codex/document-playbook-followup`. The initial task was local documentation
+work. The user subsequently authorized pushing the branch and opening its pull
+request alongside the application PR. No deployment or public verification is
+claimed.
 
 ## Originals and plan
 
@@ -100,3 +102,22 @@ build completed in 8.423 seconds and security-header verification passed.
 Checked that the English and Spanish rows show one nudge, ten minutes and
 closure in both generated files and the running local preview. No browser
 inspection or screenshot capture was performed. `git diff --check` passed.
+
+## Pull request preparation — 2026-10-06
+
+The application's Followup form now renders the shared Learn more partial in
+its SectionHeader description slot, matching the other component forms. Its
+localized destinations are this guide's `customize-follow-up` anchor in English
+and `personaliza-el-seguimiento` anchor in Spanish. The user requested PRs for
+the application and this documentation branch; publication checks remain
+separate from creating those PRs.
+
+The application PR includes the user-supplied Spanish editor image, preserved
+unchanged in the application repository with its provenance. No image is added
+to the Help articles; their existing figures and assets remain unchanged.
+
+Local verification confirms both application link destinations match the built
+guide anchors and all twelve localized component links resolve. The article
+sources still match the successful production build recorded above. Browser
+inspection remains deferred under the user's instruction, and the progress
+register retains its existing `in_progress` state.
