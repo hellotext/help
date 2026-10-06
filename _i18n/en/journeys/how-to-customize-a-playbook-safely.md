@@ -353,11 +353,7 @@ For example, with two nudges available and a ten-minute wait, if the customer do
 
 ### Choose the final action
 
-| Option | What it does after the last wait |
-| --- | --- |
-| **AI Analysis** — **Recommended** | Analyzes the conversation and decides whether to close it or hand it off to a person. |
-| **Close the conversation** | Closes the conversation without sending another nudge. |
-| **Hand off to a person** | Uses the playbook's **Assignment** configuration to hand off the conversation. |
+Under **If there’s still no reply**, choose what happens after the final wait: **AI Analysis**, **Close the conversation**, or **Hand off to a person**.
 
 With **Hand off to a person**, click **Assignment** to review the destination in the same editor. The back arrow or **Go back** returns you to Follow-up. Also review the destination when choosing **AI Analysis**, because analysis may decide to hand off the conversation.
 
@@ -371,7 +367,13 @@ Click **Go back** to return to the cards and complete the playbook's final save.
 
 ### Starting values
 
-New playbooks start with these values. Check your playbook's card: previously saved settings may differ.
+The final actions determine what happens after the last wait:
+
+- **AI Analysis (default, recommended):** Analyzes the conversation and decides whether to close it or hand it off to a person through **Assignment**.
+- **Close the conversation:** Closes the conversation without sending another nudge.
+- **Hand off to a person:** Transfers the conversation to the team or teammate configured in **Assignment**.
+
+New playbooks start with these values:
 
 | Playbook | Nudges | Wait before each nudge and the final action | Final action |
 | --- | --- | --- | --- |

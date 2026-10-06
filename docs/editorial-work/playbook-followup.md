@@ -121,3 +121,17 @@ guide anchors and all twelve localized component links resolve. The article
 sources still match the successful production build recorded above. Browser
 inspection remains deferred under the user's instruction, and the progress
 register retains its existing `in_progress` state.
+
+## Clarify final actions — 2026-10-06
+
+At the user's request, remove the previously saved settings caveat from both
+translations. Place concise definitions of AI Analysis, closure and Assignment
+handoff before the template defaults table, marking AI Analysis as default and
+recommended. Replace the earlier action comparison table so the definitions
+appear once; retain the form navigation, preview and reply behavior guidance.
+
+The production build completed in 9.652 seconds and security-header verification
+passed. Checked both generated pages and both running preview pages: the removed
+caveat is absent, all three action definitions precede the defaults table, and
+the default label appears on AI Analysis. `git diff --check` passed. No browser
+inspection or new screenshot capture was performed.

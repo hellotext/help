@@ -353,11 +353,7 @@ Por ejemplo, con dos recordatorios disponibles y una espera de diez minutos, si 
 
 ### Elige la acción final
 
-| Opción | Qué hace después de la última espera |
-| --- | --- |
-| **Análisis de IA** — **Recomendado** | Analiza la conversación y decide si cerrarla o transferirla a una persona. |
-| **Cerrar la conversación** | Cierra la conversación sin enviar otro recordatorio. |
-| **Transferir a una persona** | Usa la configuración de **Asignación** de la misión para realizar la transferencia. |
+En **Si todavía no hay respuesta**, elige qué ocurre después de la última espera: **Análisis de IA**, **Cerrar la conversación** o **Transferir a una persona**.
 
 Con **Transferir a una persona**, pulsa **Asignación** para revisar el destino en el mismo editor. La flecha de volver o **Volver** te lleva de nuevo a Seguimiento. Revisa también el destino si eliges **Análisis de IA**, porque el análisis puede decidir transferir la conversación.
 
@@ -371,7 +367,13 @@ Pulsa **Volver** para regresar a las tarjetas y completa el guardado de la misi�
 
 ### Valores iniciales
 
-Las misiones nuevas parten de estos valores. Revisa la tarjeta de tu misión: una configuración guardada anteriormente puede ser diferente.
+Las acciones finales determinan qué ocurre después de la última espera:
+
+- **Análisis de IA (predeterminado, recomendado):** Analiza la conversación y decide si cerrarla o transferirla a una persona mediante **Asignación**.
+- **Cerrar la conversación:** Cierra la conversación sin enviar otro recordatorio.
+- **Transferir a una persona:** Transfiere la conversación al equipo o miembro configurado en **Asignación**.
+
+Las misiones nuevas parten de estos valores:
 
 | Misión | Recordatorios | Espera antes de cada recordatorio y de la acción final | Acción final |
 | --- | --- | --- | --- |
