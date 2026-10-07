@@ -1,10 +1,22 @@
+import argparse
 import json
 from pathlib import Path
 import subprocess
 
 ROOT = Path(__file__).resolve().parent
-RECORDS = ROOT / 'help-visual-batch/docs/editorial-work/captures/message-delivery-failure/page-review'
-RECORDS.mkdir(exist_ok=True)
+HELP = ROOT.parents[3]
+parser = argparse.ArgumentParser(description='Review the built delivery-failure guides in isolated Chrome.')
+parser.add_argument('--output-dir', type=Path, help='Write fresh reviews outside accepted evidence.')
+parser.add_argument('--check-only', action='store_true', help='Check checked-in paths and the browser dependency without connecting.')
+options = parser.parse_args()
+RECORDS = options.output_dir.resolve() if options.output_dir else ROOT / 'page-review'
+assert (HELP / '_config.yml').is_file(), 'Missing Help checkout'
+assert (ROOT / 'help-browser.mjs').is_file(), 'Missing browser helper'
+if options.check_only:
+    subprocess.run(['node', str(ROOT / 'help-browser.mjs'), '--check-only'], check=True)
+    print(json.dumps({'checkout': str(HELP), 'records': str(RECORDS)}))
+    raise SystemExit(0)
+RECORDS.mkdir(parents=True, exist_ok=True)
 results = []
 for locale, route in [('es', 'es/por-que-no-se-envio-un-mensaje'), ('en', 'why-a-message-did-not-send')]:
     for label, width in [('desktop', 1440), ('narrow', 580), ('mobile', 390)]:
