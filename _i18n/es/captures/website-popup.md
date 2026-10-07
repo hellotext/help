@@ -176,6 +176,23 @@ El panel **Ajustes** muestra la selección de dispositivos y las opciones **No m
 
 El editor revisado no ofrece condiciones por URL, scroll, ubicación o visualizaciones anteriores. Confirma con Hellotext cualquier requisito de segmentación adicional antes de planificar el lanzamiento.
 
+## Elige el tamaño correcto de la imagen
+
+La imagen del encabezado es el elemento visual más grande del popup, así que prepárala según el layout que elegiste. Sube cada imagen al doble del tamaño en que se muestra, para que se vea nítida en pantallas de alta densidad. Usa archivos JPG o PNG de hasta 10 MB.
+
+| Dónde se ve | Se muestra a | Sube a (2×) | Forma |
+| --- | --- | --- | --- |
+| Desktop, imagen arriba | 768 × 200 px | 1536 × 400 px | Franja ancha, cerca de 4:1 |
+| Desktop, imagen a un lado | Cerca de 307 × 450 px | 620 × 900 px | Vertical, cerca de 2:3 |
+| Mobile (todos los layouts) | 350 × 200 px | 700 × 400 px | Ancha, cerca de 7:4 |
+
+- **Altura mínima:** en desktop el popup nunca es más bajo que 450 px, así que una imagen a un lado debe cubrir al menos esa altura.
+- **Mobile siempre usa la imagen arriba,** sin importar el layout que elegiste para desktop.
+- **Cubrir o Ajustar:** **Cubrir** llena el espacio y recorta los bordes cuando la proporción no coincide. **Ajustar** muestra la imagen completa y deja franjas del color de fondo.
+- **Deja lo importante cerca del centro,** como un logo o el producto. Evita poner texto importante dentro de la imagen, porque se reduce en el teléfono.
+
+Revisa la vista previa en desktop y mobile antes de publicar.
+
 ## Asigna un cupón y una ruta
 
 La asignación de cupón y ruta es opcional.

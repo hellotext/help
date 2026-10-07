@@ -162,6 +162,7 @@ Before the final send, confirm that:
 
 - [Campaigns overview]({% link _campaigns/campaigns-overview.md %})
 - [Campaign best practices]({% link _campaigns/campaign-best-practices.md %})
+- [Image sizes for emails]({% link _campaigns/email-image-sizes.md %})
 - [Who can I message?]({% link _audience/consent-and-subscriber-status.md %})
 - [Messaging channels overview]({% link _numbers/messaging-overview.md %})
 - [Message editor overview]({% link _numbers/message-editor-overview.md %})

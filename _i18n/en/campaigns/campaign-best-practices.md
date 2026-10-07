@@ -155,6 +155,7 @@ Before selecting **Send**, confirm that:
 
 - [Campaigns overview]({% link _campaigns/campaigns-overview.md %})
 - [Create a campaign]({% link _campaigns/creating-a-campaign.md %})
+- [Image sizes for emails]({% link _campaigns/email-image-sizes.md %})
 - [Who can I message?]({% link _audience/consent-and-subscriber-status.md %})
 - [Message editor overview]({% link _numbers/message-editor-overview.md %})
 - [Campaign reporting]({% link _analytics-reporting-attribution/campaign-reporting.md %})
