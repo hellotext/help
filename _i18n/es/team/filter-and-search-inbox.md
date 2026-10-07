@@ -4,7 +4,9 @@ La búsqueda y los filtros funcionan juntos. Elige primero la vista operativa, a
 
 ## Busca una conversación
 
-Usa el campo de búsqueda en la parte superior de la lista de conversaciones.
+Antes de buscar, abre **Mostrar filtros**, junto al campo **Buscar**, y elige el estado que quieres consultar en **Acciones**, aunque ya aparezca seleccionado. Revisa también los integrantes y las etiquetas de esa vista.
+
+Después, escribe el nombre u otro dato del cliente en **Buscar**, en la parte superior de la lista de conversaciones.
 
 Puedes buscar por:
 
@@ -16,23 +18,37 @@ Puedes buscar por:
 
 La búsqueda está pensada para encontrar conversaciones mediante la identidad del cliente o un ID de conversación. No busca una palabra o frase dentro de todo el historial de mensajes.
 
-Los filtros activos de estado, integrante y etiqueta también se aplican a los resultados de búsqueda. Si un cliente no aparece, elimina o amplía esos filtros antes de asumir que falta la conversación.
+Los filtros de estado, integrante y etiqueta que apliques desde **Mostrar filtros** también acotan los resultados de búsqueda. Si un cliente no aparece, elimina o amplía esos filtros y vuelve a escribir la búsqueda antes de asumir que falta la conversación.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Ubica la búsqueda y los filtros">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 438px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/inbox-filter-search/search-es-mobile.png 4x" width="1656" height="1040" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-filter-search/search-es-desktop.png" srcset="/images/editorial/inbox-filter-search/search-es-desktop.png 4x" width="1288" height="1000" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Campo Buscar y control Mostrar filtros encima de una cola ficticia con Benjamín López y Emma Vargas. No se ha escrito una búsqueda." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real con datos ficticios. No se envió ningún mensaje.</figcaption>
+</figure>
 
 ## Entiende los filtros de estado
 
-Abre el menú de filtros junto al campo de búsqueda para elegir el tipo de trabajo que quieres ver.
+Abre **Mostrar filtros**, junto al campo **Buscar**, y elige una vista en la sección **Acciones**.
 
 ### Abiertas
 
-Muestra conversaciones activas que están sin asignar o asignadas a los integrantes seleccionados. Tu cuenta está seleccionada de forma predeterminada, por lo que esta vista normalmente reúne tu trabajo activo y las conversaciones que todavía no tienen responsable.
+**Abiertas** reúne las conversaciones activas asignadas y sin asignar cuando no hay ningún integrante seleccionado. Si seleccionas integrantes, muestra sólo las conversaciones asignadas a esas personas.
 
-Agrega otro integrante cuando también necesites revisar su trabajo activo.
+Tu cuenta se selecciona de forma predeterminada. Conserva sólo tu nombre para revisar tu trabajo, agrega otros integrantes para ver sus conversaciones o quita todos los nombres para incluir también las conversaciones sin asignar.
 
 ### Necesita atención
 
-Muestra las conversaciones donde el cliente o workflow está esperando una acción.
+Muestra conversaciones con trabajo pendiente de atención para el cliente.
 
-**Necesita atención** es una señal de prioridad, no el responsable ni el estado del ciclo. Una conversación puede estar asignada y aun así necesitar atención.
+**Necesita atención** es una señal de trabajo pendiente, no el responsable ni el estado del ciclo. Una conversación puede estar asignada y aun así necesitar atención.
+
+Si tienes el rol Agente, esta vista incluye conversaciones sin asignar y las asignadas a ti; elegir otro integrante no cambia ese alcance. Los propietarios, administradores y gerentes pueden revisar la atención del equipo y acotarla por integrante.
 
 ### Asignados
 
@@ -62,9 +78,24 @@ Una mención pide atención o contexto. No asigna automáticamente la conversaci
 
 ## Filtra por integrante
 
+En **Mostrar filtros**, busca **Equipo** y abre **Elegir** para agregar un integrante. Esta sección selecciona personas; no cambia la asignación de ninguna conversación.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Selecciona los integrantes del filtro">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 304px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/inbox-filter-search/team-es-mobile.png 4x" width="1120" height="768" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-filter-search/team-es-desktop.png" srcset="/images/editorial/inbox-filter-search/team-es-desktop.png 4x" width="1112" height="768" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Equipo con Lucía Méndez y Sofía Castro seleccionadas, botones para quitarlas y la opción Elegir." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real con datos ficticios. No se envió ningún mensaje.</figcaption>
+</figure>
+
 La sección de integrantes cambia el significado de la vista seleccionada:
 
-- En **Abiertas** o **Necesita atención**, incluye conversaciones sin asignar y conversaciones asignadas a los integrantes seleccionados.
+- En **Abiertas**, muestra las conversaciones asignadas a los integrantes seleccionados. Quita todos los nombres para incluir también las sin asignar.
+- En **Necesita atención**, los propietarios, administradores y gerentes pueden incluir conversaciones sin asignar y las asignadas a los integrantes seleccionados. Para el rol Agente, se mantiene el alcance descrito arriba.
 - En **Asignados**, muestra las conversaciones asignadas actualmente a los integrantes seleccionados.
 - En **Cerrados**, muestra las conversaciones que cerraron esos integrantes.
 - En **Recordatorios**, muestra las conversaciones que pospusieron esos integrantes.
@@ -72,11 +103,25 @@ La sección de integrantes cambia el significado de la vista seleccionada:
 
 La vista **Sin asignar** no necesita un filtro por integrante porque esas conversaciones no tienen un responsable humano.
 
-Elige más de un integrante cuando una persona responsable necesite revisar el trabajo de un grupo. Elimina integrantes del filtro cuando quieras regresar a tu propia vista.
+Elige más de un integrante para revisar el trabajo de varias personas. Usa el botón para quitar junto a un nombre para eliminarlo del filtro. Para volver a tu propia vista, conserva sólo tu nombre; quitar todos los nombres amplía la vista.
 
 ## Filtra por etiqueta
 
 Usa etiquetas para categorías operativas duraderas, como devoluciones, problemas de producto, oportunidades de venta o tipos de seguimiento.
+
+En **Mostrar filtros**, busca **Etiquetas**, abre **Elegir** y selecciona una etiqueta. Usa el botón para quitar junto a una etiqueta seleccionada para eliminar ese filtro.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Revisa la etiqueta seleccionada">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 302px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/inbox-filter-search/labels-es-mobile.png 4x" width="1112" height="512" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-filter-search/labels-es-desktop.png" srcset="/images/editorial/inbox-filter-search/labels-es-desktop.png 4x" width="1112" height="512" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Etiquetas con la etiqueta ficticia Prioridad seleccionada, su botón para quitar y la opción Elegir." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real con datos ficticios. No se envió ningún mensaje.</figcaption>
+</figure>
 
 Cuando seleccionas etiquetas, el Inbox conserva las conversaciones que tienen alguna de esas etiquetas dentro de la vista activa de estado e integrante. Las etiquetas no cambian el estado ni el responsable de la conversación.
 
@@ -86,11 +131,11 @@ Si la lista de etiquetas está vacía, crea y aplica las que necesita tu equipo 
 
 Un orden útil es:
 
-1. Elige el estado, como Necesita atención o Sin asignar.
-2. Selecciona los integrantes responsables de esa vista.
+1. Abre **Mostrar filtros** y elige el estado en **Acciones**, como **Necesita atención** o **Sin asignar**, aunque ya aparezca seleccionado.
+2. Selecciona los integrantes que quieres revisar, según el alcance de la vista.
 3. Agrega una o más etiquetas cuando necesites una categoría operativa.
 4. Busca un cliente específico dentro de ese conjunto de resultados.
-5. Borra la búsqueda o los filtros individuales para volver a ampliar la lista.
+5. Borra el texto de **Buscar** o quita integrantes y etiquetas para ampliar la lista. Vuelve a escribir la búsqueda después de cambiar los filtros.
 
 Esto resulta especialmente útil cuando una persona responsable del equipo necesita encontrar a un cliente sin perder el contexto operativo de la cola actual.
 
@@ -100,7 +145,7 @@ Esto resulta especialmente útil cuando una persona responsable del equipo neces
 2. Toma o dirige las conversaciones **Sin asignar**.
 3. Continúa el trabajo en **Asignados** o **Abiertas**.
 4. Revisa **Mencionados** para responder preguntas o tomar decisiones.
-5. Revisa los **Recordatorios** que regresaron.
+5. Consulta **Recordatorios** para revisar las conversaciones pospuestas.
 6. Cierra conversaciones cuando no se requiera ninguna otra acción.
 
 ## Si no aparece la conversación esperada
@@ -111,6 +156,7 @@ Revisa:
 - El nombre, alias, email, teléfono o ID de conversación del cliente es correcto.
 - El estado seleccionado incluye el estado actual del ciclo de la conversación.
 - El filtro por integrante coincide con la asignación, la persona que cerró o pospuso, o la persona mencionada según la vista.
+- Si tienes el rol Agente y buscas en **Necesita atención**, la conversación está sin asignar o asignada a ti.
 - Las etiquetas seleccionadas están aplicadas a la conversación.
 - La actividad se encuentra en otro perfil del cliente debido a una identidad duplicada.
 

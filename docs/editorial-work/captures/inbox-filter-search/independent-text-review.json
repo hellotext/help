@@ -1,0 +1,45 @@
+{
+  "reviewed_utc": "2026-10-07T02:20:58.198391+00:00",
+  "scope": "Independent read-only review of the ES/EN text corrections before screenshot integration; no Help edits by this reviewer.",
+  "product_revision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+  "article_files": [
+    {
+      "path": "/Users/pel/Documents/Codex/2026-10-06/task-8/help-local/_i18n/es/team/filter-and-search-inbox.md",
+      "sha256": "fb9b97d0140886897b059651e060134e182fa48385f7b781644678ad485235c6"
+    },
+    {
+      "path": "/Users/pel/Documents/Codex/2026-10-06/task-8/help-local/_i18n/en/team/filter-and-search-inbox.md",
+      "sha256": "7ac6e392ca141d3848bbc6c6db30102be0b3b8a50f351e70c80e9a9d34a173d4"
+    }
+  ],
+  "correct_claims": [
+    "Open plus explicit teammate selection excludes unassigned work; removing all names removes the member boundary.",
+    "Agent Needs attention retains own assigned and unassigned scope irrespective of teammate picks.",
+    "Monitor roles can narrow Needs attention to chosen assigned users plus unassigned.",
+    "Closed and Reminders use the actor who changed state; Mentioned uses mentionee; Unassigned ignores teammate filter.",
+    "Label matching is any selected label.",
+    "Identity search does not search message-body history.",
+    "Re-enter query after changing filters is sound for current request flow."
+  ],
+  "finding": {
+    "severity": "low",
+    "title": "Qualify default-filter search behavior",
+    "status": "resolved in both locales",
+    "affected_article_lines": [
+      20,
+      28
+    ],
+    "description": "On an initial Inbox URL without explicit filter/member parameters, the list defaults to Open/current user but Search only reads filter/member/label from the browser URL. Typing immediately can therefore search beyond the visually selected personal list. The blanket sentence that active filters always apply is overbroad for this initial state.",
+    "evidence": [
+      "app/views/inbox/partials/_left_panel.html.erb:22-24,96,124-125",
+      "app/javascript/controllers/conversations/search_controller.js:46-59",
+      "app/controllers/conversations_controller.rb:177-179,195-205,229-241",
+      "app/models/conversation/filter/state.rb:7-9"
+    ],
+    "suggestion": "Tell readers to explicitly choose the desired state from Show filters before typing, even if that state appears selected already; then refer to the applied filters. Keep exact F1 query/state/member/label in capture provenance.",
+    "limit": "This is source-backed pre-existing product behavior, not introduced by these article edits. No application fix or external write requested.",
+    "resolution": "Search opening explicitly requires choosing the desired state via Show filters > Actions even if it appears selected, then checking teammate/label and entering the query. Constraint sentence is limited to filters applied through Show filters. Combined procedure repeats the explicit state selection."
+  },
+  "approval": "Approved text corrections against immutable Rails6dc36367. Zero outstanding text findings. Screenshot and complete rendered-page review remain separate.",
+  "final_text_reviewed_utc": "2026-10-07T02:21:58.756661+00:00"
+}

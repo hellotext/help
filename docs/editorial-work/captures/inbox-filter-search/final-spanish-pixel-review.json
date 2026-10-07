@@ -1,0 +1,69 @@
+{
+  "reviewer": "root",
+  "reviewed_at": "2026-10-07T02:45:49.127255+00:00",
+  "locale": "es",
+  "scope": "Complete desktop/mobile pages and all three figures; final regenerated evidence only",
+  "files": [
+    {
+      "file": "page-review/es-desktop-figure-1.png",
+      "sha256": "e1e7b9972434239b6ac34dad13ec68746ee2dc896c9fc81189314bef5e07ef7a"
+    },
+    {
+      "file": "page-review/es-desktop-figure-2.png",
+      "sha256": "92131bfc6f66554cd2c3ee818850dc75ad3b40c25c62c7cbcb9fe8fdb13833e7"
+    },
+    {
+      "file": "page-review/es-desktop-figure-3.png",
+      "sha256": "a75584cb91266f505da1348f7c811d5087a5bc43769864d716ff614142d06933"
+    },
+    {
+      "file": "page-review/es-desktop-page-1.png",
+      "sha256": "c4568a6bd6009a0d8514fde5a00a8303dfe8cab5c78cd0c78be6cd7e7bfab1c5"
+    },
+    {
+      "file": "page-review/es-desktop-page-2.png",
+      "sha256": "10aee894545364c8e38062600af72afe8bb8f3f06dc3ba3cedda1a4dc30c74c6"
+    },
+    {
+      "file": "page-review/es-desktop-page-3.png",
+      "sha256": "0063fcdd6fbe65f00466ad54bb0fe11fa3c4e3e49fa27616df7240a45542c282"
+    },
+    {
+      "file": "page-review/es-mobile-figure-1.png",
+      "sha256": "1377984cf3f2c4343ef748a9024df2fd56d0d67e7dba0fe58d66fd6a8f4adb1d"
+    },
+    {
+      "file": "page-review/es-mobile-figure-2.png",
+      "sha256": "39d36d3a40fe2517eccd56eac634d4ef5fd16e3e99edd8971fefb933a523841e"
+    },
+    {
+      "file": "page-review/es-mobile-figure-3.png",
+      "sha256": "0a84633ed2fb348f1ee50b8ad51def16318aa79738bc2f05dee80b61959c5ad5"
+    },
+    {
+      "file": "page-review/es-mobile-page-1.png",
+      "sha256": "8df1925e608d836cc1bd5a2bb6de3fc7416ba921658889c5c0e8de4122885d8f"
+    },
+    {
+      "file": "page-review/es-mobile-page-2.png",
+      "sha256": "e45191eb37e928a044f42ae8f6ea2daa789ad0752f4c2944d75580adcd8f9be6"
+    },
+    {
+      "file": "page-review/es-mobile-page-3.png",
+      "sha256": "e788d79612a951f6c8a7d07c50c61712c1fd4ec3074ba2ee024fe6614d9f726d"
+    },
+    {
+      "file": "page-review/es-mobile-page-4.png",
+      "sha256": "cc2be6595bd13baa318865ca6928f0523f199e8afadc0313deb67f2620464572"
+    }
+  ],
+  "result": "passed",
+  "observations": [
+    "Complete text and all figures are readable at desktop and mobile widths.",
+    "Lavender full-column stages retain white inset frames, correct borders and native-size limits.",
+    "No image links, overflow, invented state, pointer overlays or raster edits.",
+    "English independent pixel review is recorded separately."
+  ],
+  "evidence_repair": "Initial page-review captures were rejected because CDP viewport metrics reset between connections. Every final screenshot now reapplies and verifies the requested viewport and decodes lazy images before capture. All rejected files were overwritten by final verified captures.",
+  "remaining_work": "Executed search result remains deferred: isolated Elasticsearch unavailable; visual_pending."
+}

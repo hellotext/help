@@ -1,0 +1,169 @@
+{
+  "article_pair": "team/filter-and-search-inbox",
+  "prepared_at": "2026-10-07",
+  "status": "visual_pending",
+  "help_revision": "99b9bd63e6e984d8abc7fe84854dca4c5f7ddaf8",
+  "product_revision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+  "editorial_revision": "d5319b02e1c6a85f3a6294f11763b9be8dd58a43",
+  "authoring_scope": "English and Spanish article bodies with 12 accepted responsive source images and local verification records; no product changes",
+  "corrections": [
+    {
+      "claim": "Open with teammates selected includes only assigned conversations for those people; clearing all names also includes unassigned work",
+      "evidence": [
+        "app/models/conversation/filter.rb:135-170"
+      ]
+    },
+    {
+      "claim": "Agent role has fixed own-assigned plus unassigned scope in Needs attention; monitor roles can narrow by teammate",
+      "evidence": [
+        "app/models/conversation/badge.rb:20-32",
+        "app/models/conversation/badge.rb:111-120",
+        "app/models/conversation/filter.rb:153-170"
+      ]
+    },
+    {
+      "claim": "Keep only your own name to return to personal work; removing every name broadens applicable views",
+      "evidence": [
+        "app/views/inbox/partials/_left_panel.html.erb",
+        "app/javascript/controllers/conversations/filters_controller.js"
+      ]
+    },
+    {
+      "claim": "Reminders lists snoozed conversations; awakened conversations change to assigned/unassigned",
+      "evidence": [
+        "app/models/concerns/reopens_conversations.rb#awaken"
+      ]
+    },
+    {
+      "claim": "Exact controls are Search, Show filters, Actions, Team, Labels, Choose and their ES equivalents",
+      "evidence": [
+        "config/locales/en.yml",
+        "config/locales/es.yml",
+        "config/locales/informational/en.yml",
+        "config/locales/informational/es.yml",
+        "app/views/inbox/filters/filters.html.erb"
+      ]
+    },
+    {
+      "claim": "Re-enter search after changing filters, since search copies current filter parameters when entered",
+      "evidence": [
+        "app/javascript/controllers/conversations/search_controller.js#searchUrl",
+        "app/javascript/controllers/conversations/filters_controller.js#getFilteredResults"
+      ]
+    },
+    {
+      "claim": "Explicitly choose the desired state through Show filters before searching, even when it is initially shown as selected; search constraints refer to filters applied through the menu",
+      "evidence": [
+        "app/views/inbox/partials/_left_panel.html.erb uses implicit Open/current-user defaults",
+        "app/javascript/controllers/conversations/search_controller.js#searchUrl copies only filter/member/label present in browser URL",
+        "app/javascript/controllers/conversations/filters_controller.js#changeStateFilter writes state/member/label to URL",
+        "app/controllers/conversations_controller.rb#search does not supply initial UI defaults"
+      ],
+      "review_trigger": "Independent source review identified that an initial Inbox URL without filter/member parameters does not convey implicit UI defaults to the search request.",
+      "product_changes": false
+    }
+  ],
+  "coverage": [
+    {
+      "section": "Introduction",
+      "decision": "prose",
+      "reason": "Explains task and order; search figure supplies interface context."
+    },
+    {
+      "section": "Search for a conversation",
+      "decision": "control-location-figure; result-pending",
+      "figure": "search-control",
+      "reader_question": "Where do I type and identify the matching customer?",
+      "required_state": "Native Search field above a coherent fictional queue, before typing. Mobile navigation retains visible selections but removes URL query parameters, so no future search scope is implied.",
+      "remaining_question": "Recognize a successfully matched fictional search result; blocked by missing local Elasticsearch"
+    },
+    {
+      "section": "Understand state filters and seven state subsections",
+      "decision": "prose-with-shared-filter-trigger",
+      "reader_question": "Where are the seven production queue choices?",
+      "reason": "The guide names all seven production choices exactly and explains each in prose. The shared Show filters control is included with the other planned figures. A separate complete menu image would add a development-only choice and is omitted from this focused three-figure batch.",
+      "limitation": "The development/test menu includes My unread while production omits it. No screenshot claims to show the complete production state menu; no source, DOM or pixels are altered to hide it."
+    },
+    {
+      "section": "Open and Needs attention behavior",
+      "decision": "prose",
+      "reason": "Assignment/role semantics need explicit text; static screenshots cannot demonstrate cross-role scope."
+    },
+    {
+      "section": "Assigned, Unassigned, Closed, Reminders, Mentioned",
+      "decision": "prose-with-shared-filter-trigger",
+      "reason": "The exact labels and queue behavior are explained in separate subsections. Near-identical list images would not illustrate ownership, closing or reminder semantics better."
+    },
+    {
+      "section": "Filter by teammate",
+      "decision": "figure-accepted",
+      "figure": "team-menu",
+      "reader_question": "How do I choose an additional teammate and remove a name?",
+      "required_state": "Real Team section with Lucía Méndez and Sofía Castro selected, remove buttons and the Choose trigger visible."
+    },
+    {
+      "section": "Filter by label",
+      "decision": "figure-accepted",
+      "figure": "label-menu",
+      "reader_question": "How do I select a label and identify the applied filter?",
+      "required_state": "Real Labels section with saved fictional Prioridad label selected, remove button and the Choose trigger visible."
+    },
+    {
+      "section": "Combine search and filters",
+      "decision": "prose-with-existing-figures",
+      "reason": "Step order combines the preceding controls; repeating them adds no new reader decision."
+    },
+    {
+      "section": "Suggested daily workflow",
+      "decision": "prose",
+      "reason": "Operational ordering of previously shown views; no additional UI."
+    },
+    {
+      "section": "If the expected conversation does not appear",
+      "decision": "prose-with-existing-figures",
+      "reason": "Diagnostic checklist refers to search and remove-filter controls already planned; there is no specific application error state to show."
+    },
+    {
+      "section": "Related guides",
+      "decision": "prose",
+      "reason": "Navigation links do not benefit from a screenshot."
+    }
+  ],
+  "local_validation": {
+    "git_diff_check": "passed after copy edit",
+    "structural_checks": [
+      {
+        "locale": "es",
+        "preserved_link_count": 6,
+        "preserved_heading_count": 15,
+        "link_targets_exist": true
+      },
+      {
+        "locale": "en",
+        "preserved_link_count": 6,
+        "preserved_heading_count": 15,
+        "link_targets_exist": true
+      }
+    ],
+    "product_execution_tests": "Isolated local real UI used for queue and filter controls; no successful search execution.",
+    "article_build": "Production Jekyll build, security headers and both locale image/JS byte checks passed.",
+    "rendered_pixel_review": "Passed complete ES/EN pages and all figures at desktop/mobile; DOM checks also passed at 580 CSS px.",
+    "role_name_review": "Source confirms Owner/Propietario, Administrator/Administrador, Manager/Gerente and Agent/Agente. English and Spanish article role wording matches.",
+    "daily_workflow_review": "Suggestion orders existing queues; it does not promise automatic assignment, message sending, delivery or irreversible completion. Reminder step now describes currently snoozed conversations. Closing is conditional on no further action being required.",
+    "copy_followup_review": "Independent draft_audit reviewer read both complete files after correction and approved against immutable product revision 6dc36367: zero outstanding text findings. Resolved initial URL-default mismatch by instructing explicit menu state selection; no product fix is claimed.",
+    "independent_review_record": "independent-text-review.json",
+    "independent_pixel_review_record": "independent-final-pixel-review.json",
+    "spanish_pixel_review_record": "final-spanish-pixel-review.json"
+  },
+  "publication": {
+    "status": "not attempted by article agent",
+    "public_urls_verified": false
+  },
+  "scope_review": {
+    "original_headings_preserved_per_locale": 15,
+    "original_liquid_links_preserved_per_locale": 6,
+    "source_revision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31"
+  },
+  "runtime_search": "blocked: no isolated Elasticsearch service; no successful search-result capture or runtime search check",
+  "visual_completion": "pending matching-result evidence"
+}

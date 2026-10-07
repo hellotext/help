@@ -1,0 +1,78 @@
+{
+  "reviewed_at_utc": "2026-10-07T02:49:11.987615+00:00",
+  "reviewer": "draft_audit",
+  "scope": "Read-only text, evidence and artifact consistency review during two-pair integration. Overview final page pixels await parent notification. No article, fixture, runtime, configuration, repository or external-service writes by this reviewer.",
+  "help_base": "99b9bd63e6e984d8abc7fe84854dca4c5f7ddaf8",
+  "product_revision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+  "result": "no_material_findings_in_reviewed_snapshot; final_overview_integration_pending",
+  "material_findings": [],
+  "articles": [
+    {
+      "path": "/Users/pel/Documents/Codex/2026-10-06/task-8/help-local/_i18n/en/team/filter-and-search-inbox.md",
+      "sha256": "4e3bc2b2f8e2c356c3bde0600dc0aa732c056b7eac33052bbda4d2014dfb960e",
+      "links_preserved": true,
+      "headings_preserved": true
+    },
+    {
+      "path": "/Users/pel/Documents/Codex/2026-10-06/task-8/help-local/_i18n/es/team/filter-and-search-inbox.md",
+      "sha256": "097a16a3a3f7dc181ba5b5fab9da2be2dc21945ea618c024b72c0b414c4a37c5",
+      "links_preserved": true,
+      "headings_preserved": true
+    },
+    {
+      "path": "/Users/pel/Documents/Codex/2026-10-06/task-8/help-local/_i18n/en/team/inbox-overview.md",
+      "sha256": "d9764a326a6ac91aa24d07c44c53079f0da22b026250834fc3528c2969c99074",
+      "links_preserved": true,
+      "headings_preserved": true
+    },
+    {
+      "path": "/Users/pel/Documents/Codex/2026-10-06/task-8/help-local/_i18n/es/team/inbox-overview.md",
+      "sha256": "d4815ffe3bb77ebd6c127e62de4da8d0a558295b8418bf2719a23158b8fd9847",
+      "links_preserved": true,
+      "headings_preserved": true
+    }
+  ],
+  "verified": [
+    "All five retained original article/stub files match Help HEAD bytes exactly.",
+    "All twelve filter PNGs match source-manifest SHA256 and pixel dimensions.",
+    "The four changed article bodies preserve all original headings and ordered Liquid links: 6 filter links and 21 overview links per locale.",
+    "Tracked diff contains only the four article bodies and progress.csv; no tracked product source or package/config changes.",
+    "Filter work record and article review explicitly remain visual_pending; CSV uses in_progress, never local_verified.",
+    "Search figure alt text explicitly says no search has been entered; records disclose missing Elasticsearch and no successful search execution.",
+    "Overview assignment instruction is conditional on button visibility; overview plan describes pre-action controls and no assignment/send result.",
+    "Captured source identities are fictional example.test accounts and named fictional fixtures. Safety records show no messageable contacts, integrations, authorization tokens, provider links, enabled playbooks or active workflows; test jobs and mail delivery disabled.",
+    "Source UI evidence exposes paths and hashes only, not application source bodies. Custom runtime/helper scripts are identifiable as fixture/capture tooling.",
+    "Capture and review helpers restrict browser targets to loopback, validate their dedicated Chrome profile and verify page state/locale. Review helper asserts requested viewport and decodes images before capture."
+  ],
+  "limited_secret_scan": {
+    "text_files_scanned": 52,
+    "candidate_files_excluding_node_modules": 90,
+    "matched_secret_patterns": 0,
+    "nonloopback_url_hosts": [],
+    "patterns": [
+      "PEM private keys",
+      "AWS access-key format",
+      "GitHub token formats",
+      "Slack token formats",
+      "live Stripe secret format",
+      "JWT-shaped values"
+    ],
+    "limitation": "Pattern checks plus manual script/manifest reading, not a complete repository security audit or independent network trace."
+  },
+  "bookkeeping_followups_reported_to_parent": [
+    {
+      "record": "docs/editorial-work/filter-and-search-inbox.md",
+      "note": "39 pending / 7 in_progress is the baseline. Reviewed current ledger is 38 pending / 8 in_progress, with 46 unresolved. Label baseline or update when finalizing two-pair counts."
+    },
+    {
+      "record": "docs/editorial-work/captures/inbox-filter-search/source-manifest.json",
+      "note": "Capture-agent limitation says full built-page checks had not yet been done by capturing agent. Final independent page review now exists; preserve stage context or add final-review cross-reference."
+    }
+  ],
+  "pending": [
+    "Overview figure integration and complete-page English pixel review when root confirms ready.",
+    "Final two-pair inventory totals/work-record reconciliation after overview completion.",
+    "Filter actual matching-search result remains deferred."
+  ],
+  "prior_pixel_review": "audit/inbox-filter-and-search/final-pixel-review.json"
+}
