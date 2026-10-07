@@ -31,3 +31,9 @@ Open dependency: the 450 px desktop minimum height of the popup is implemented i
 - Finding fixed: the first popup table had four columns and scrolled horizontally at 390 px with size values breaking across lines. The "Shape" column was removed and each `px` unit is bound to its number with a non-breaking space. After the fix every table fits its container at 390 px in both languages.
 - No screenshots were added; the sections describe values, not product controls. The shared screenshot checks do not apply.
 - This is a local build, not public publication.
+
+## Ledger and release gate
+
+- `campaigns/email-image-sizes.md` is a new article with no public original, so it has no row in `inventory.csv` or `progress.csv`; this record is its only ledger. Add it to both registers after it is published, with the observed public state.
+- The popup section is tracked from the `captures/website-popup.md` work record, which links here.
+- Do not merge or announce this change until the popup minimum height ships (hellotext/hellotext#6220). After it deploys, confirm the popup renders at 450 px or more on desktop, then publish and record the public check.
