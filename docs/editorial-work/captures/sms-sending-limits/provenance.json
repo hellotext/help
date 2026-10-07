@@ -1,0 +1,53 @@
+{
+  "checked_at": "2026-10-07T00:35:04.447335+00:00",
+  "application_revision": "992de02f9ff379bf248a8f88e611d484d53bf7d7",
+  "deployment": {
+    "url": "https://github.com/hellotext/hellotext/actions/runs/37547475320",
+    "deploy_job": "112557436242",
+    "conclusion": "success",
+    "completed_at": "2026-10-06T23:48:42Z"
+  },
+  "ui_source_diff": "No changes in app/views, app/components, app/helpers, app/javascript or config/locales",
+  "capture_route": "Own isolated headless Chrome at loopback, dedicated new profile; not a personal browser session",
+  "capture_count": 8,
+  "source_density": 4,
+  "source_profile": "Native Display P3, compositor flag display-p3-d65; verified embedded profile Display P3 Gamut with sRGB Transfer",
+  "image_editing": "None; source PNGs are untouched compositor CSS clips; no upscaling, relabeling, generated pixels or annotations",
+  "pointer": "Not present in accepted PNGs",
+  "source_database": "Read-only snapshot of prior fictional editorial recovery demo; original untouched",
+  "owned_database": "hellotext_help_batch_20261007",
+  "fixture_changes": [
+    "All copied contacts non-messageable; all copied playbooks disabled; no active workflows, integrations or tokens",
+    "Business 5 renamed Casa Lila, prepaid fixture, sandboxed reputation with 50 SMS limit",
+    "One new fictional SMS error message, deliver:false; stored error code daily_message_limit_reached; no sending or retry calls",
+    "Locale es -> en -> es; message text translated only in this copied fixture"
+  ],
+  "runtime_guards": {
+    "active_job_adapter": "TestAdapter",
+    "mail_deliveries": false,
+    "redis": "Dedicated loopback instance with no workers",
+    "external_credentials": "Dummy provider values; no connected integrations or authorization tokens"
+  },
+  "application_setup": "Six inspected migrations applied only to owned database; dependencies aligned with immutable lockfile; local initializer guards DB/Redis and disables deliveries; no production changes",
+  "source_corrections": {
+    "reset": [
+      "app/models/compliance/reputation.rb#capped?",
+      "#increment_usage",
+      "#reset?",
+      "app/models/business/message_limits.rb",
+      "app/models/message/deliverer.rb#run"
+    ],
+    "notification_recipients": "app/models/compliance/reputation.rb#send_business_verified_email",
+    "status_and_tooltip": [
+      "app/views/businesses/_show.html.erb",
+      "config/locales/views/businesses/en.yml",
+      "config/locales/views/businesses/es.yml"
+    ],
+    "failure_reason": [
+      "app/models/message/delivery_failure.rb",
+      "app/components/message/retry_component/retry_component.html.erb",
+      "app/views/messages/_message.erb"
+    ]
+  },
+  "public_verification": "Pending publication"
+}
