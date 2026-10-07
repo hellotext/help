@@ -26,43 +26,15 @@ A message can exist without a final confirmation yet:
 
 Check the message time and allow a reasonable processing period before retrying. A provider delay does not always end in failure, and creating another message too soon can produce a duplicate.
 
-### The message appears as not delivered
+### The message appears as not sent
 
-Open the message in the conversation and read the reason shown next to **Not delivered**. Hellotext normalizes the channel response to explain what prevented delivery and, when appropriate, can offer **Try again**, a selection of available channels, or an action that corrects the account.
+Open the message in the conversation and read the reason shown next to **Not sent**. Hellotext normalizes the channel response to explain what prevented delivery and, when appropriate, can offer **Try again**, **Choose channel**, or an action that corrects the account.
 
 The exact reason is more useful than the general state. Record it before changing settings.
-
-For example, **Not delivered · Daily limit reached** identifies an account limit. The error icon and reason appear beside the message.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Identify the reason beside the message">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 410px; width: fit-content; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/editorial/sms-sending-limits/error-en-mobile.png 4x" width="1624" height="528" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/sms-sending-limits/error-en-desktop.png" srcset="/images/editorial/sms-sending-limits/error-en-desktop.png 4x" width="1568" height="528" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Fictional message in the Inbox showing Not delivered · Daily limit reached." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Real interface with fictional data. No message was sent or retried.</figcaption>
-</figure>
 
 ## Customer data and consent
 
 Do not retry a message when the customer profile is unsubscribed. The opt-out must be respected for every send that depends on that consent.
-
-The **Customer unsubscribed** reason identifies this case in the Inbox. Hellotext does not offer **Try again** for this failure.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Recognize a message blocked by an unsubscribe">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 410px; width: fit-content; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/editorial/message-delivery-failure/unsubscribed-en-mobile.png 4x" width="1624" height="432" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/message-delivery-failure/unsubscribed-en-desktop.png" srcset="/images/editorial/message-delivery-failure/unsubscribed-en-desktop.png 4x" width="1568" height="432" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Fictional message showing Not delivered · Customer unsubscribed without a Try again action." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Real interface with fictional data. No message was sent or retried.</figcaption>
-</figure>
 
 Also check that the customer profile has a valid identity for the channel:
 
@@ -143,20 +115,6 @@ Some playbook messages are intentionally canceled before sending because the opp
 
 Do not retry the message in these cases. The cancellation prevents outdated information or unnecessary contact after the customer already converted.
 
-For example, **Cart converted** means that the reminder is no longer relevant. No retry action appears.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Recognize a cancellation after a cart converted">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 410px; width: fit-content; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/editorial/message-delivery-failure/converted-en-mobile.png 4x" width="1624" height="432" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/message-delivery-failure/converted-en-desktop.png" srcset="/images/editorial/message-delivery-failure/converted-en-desktop.png 4x" width="1568" height="432" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Canceled fictional reminder showing Not delivered · Cart converted without a retry action." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Real interface with fictional data. No message was sent or retried.</figcaption>
-</figure>
-
 ## Decide whether to retry
 
 Retry only when:
@@ -164,20 +122,6 @@ Retry only when:
 - the reason was temporary;
 - you corrected the setup, payment, or permissions; and
 - Hellotext shows a valid option to retry or choose another channel.
-
-If several options are available, **Try again** opens a menu of eligible channels or senders. Choose one only after resolving the cause. When the only option is the same channel, **Try again** can start the new attempt directly, without opening a menu.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Choose among the available senders for a retry">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 410px; width: fit-content; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/editorial/message-delivery-failure/retry-en-mobile.png 4x" width="1624" height="788" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/message-delivery-failure/retry-en-desktop.png" srcset="/images/editorial/message-delivery-failure/retry-en-desktop.png 4x" width="1568" height="788" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Real Try again menu open beside Delivery issue, with two fictional mobile numbers. No sender was selected." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Real interface with fictional data. No message was sent or retried.</figcaption>
-</figure>
 
 Do not retry when:
 
@@ -197,7 +141,7 @@ If the reason is not enough to resolve the problem, include:
 - source campaign, playbook, route, or integration;
 - channel and sender;
 - date, time, and time zone;
-- exact reason shown under **Not delivered**;
+- exact reason shown under **Not sent**;
 - result of any retry; and
 - screenshot and recent setup changes.
 

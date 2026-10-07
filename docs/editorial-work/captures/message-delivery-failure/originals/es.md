@@ -28,41 +28,13 @@ Revisa la hora del mensaje y espera un tiempo razonable antes de reintentar. Una
 
 ### El mensaje aparece como no enviado
 
-Abre el mensaje dentro de la conversación y lee el motivo mostrado junto a **No enviado**. Hellotext normaliza la respuesta del canal para explicar qué impidió la entrega y, cuando corresponde, puede ofrecer **Reintentar**, una selección de canales disponibles o una acción para corregir la cuenta.
+Abre el mensaje dentro de la conversación y lee el motivo mostrado junto a **No enviado**. Hellotext normaliza la respuesta del canal para explicar qué impidió la entrega y, cuando corresponde, puede ofrecer **Reintentar**, **Elegir canal** o una acción para corregir la cuenta.
 
 El motivo exacto es más útil que el estado general. Anótalo antes de cambiar configuración.
-
-Por ejemplo, **No enviado · Límite diario alcanzado** identifica un límite de la cuenta. El ícono de error y el motivo aparecen junto al mensaje.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Identifica el motivo junto al mensaje">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 410px; width: fit-content; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/editorial/sms-sending-limits/error-es-mobile.png 4x" width="1624" height="528" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/sms-sending-limits/error-es-desktop.png" srcset="/images/editorial/sms-sending-limits/error-es-desktop.png 4x" width="1568" height="528" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Mensaje ficticio en la Bandeja con el motivo No enviado · Límite diario alcanzado." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Interfaz real con datos ficticios. No se envió ni reintentó ningún mensaje.</figcaption>
-</figure>
 
 ## Consentimiento y datos del cliente
 
 No reintentes un mensaje cuando el perfil del cliente está desuscrito. La baja debe respetarse en todos los envíos que dependan de ese consentimiento.
-
-El motivo **Cliente desuscripto** identifica este caso en la Bandeja. Hellotext no ofrece **Reintentar** para este fallo.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Reconoce un mensaje bloqueado por una baja">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 410px; width: fit-content; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/editorial/message-delivery-failure/unsubscribed-es-mobile.png 4x" width="1624" height="432" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/message-delivery-failure/unsubscribed-es-desktop.png" srcset="/images/editorial/message-delivery-failure/unsubscribed-es-desktop.png 4x" width="1568" height="432" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Mensaje ficticio con el motivo No enviado · Cliente desuscripto y sin acción Reintentar." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Interfaz real con datos ficticios. No se envió ni reintentó ningún mensaje.</figcaption>
-</figure>
 
 También revisa que el perfil del cliente tenga una identidad válida para el canal:
 
@@ -143,20 +115,6 @@ Algunos mensajes de misiones se cancelan intencionalmente antes de salir porque 
 
 En estos casos no reintentes el mensaje. La cancelación evita comunicar información vencida o insistir después de que el cliente ya convirtió.
 
-Por ejemplo, **Carrito convertido** indica que el recordatorio ya no corresponde. No aparece una acción para reintentarlo.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Reconoce una cancelación porque el carrito ya convirtió">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 410px; width: fit-content; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/editorial/message-delivery-failure/converted-es-mobile.png 4x" width="1624" height="432" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/message-delivery-failure/converted-es-desktop.png" srcset="/images/editorial/message-delivery-failure/converted-es-desktop.png 4x" width="1568" height="432" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Recordatorio ficticio cancelado con el motivo No enviado · Carrito convertido y sin acción de reintento." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Interfaz real con datos ficticios. No se envió ni reintentó ningún mensaje.</figcaption>
-</figure>
-
 ## Decide si debes reintentar
 
 Reintenta solamente cuando:
@@ -164,20 +122,6 @@ Reintenta solamente cuando:
 - el motivo era temporal;
 - corregiste la configuración, el pago o los permisos; y
 - Hellotext muestra una opción válida para reintentar o elegir otro canal.
-
-Si hay varias opciones disponibles, **Reintentar** abre un menú con los canales o remitentes elegibles. Elige uno solo después de resolver la causa. Cuando la única opción es el mismo canal, **Reintentar** puede iniciar el nuevo intento directamente, sin abrir un menú.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Elige entre los remitentes disponibles para un reintento">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 410px; width: fit-content; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/editorial/message-delivery-failure/retry-es-mobile.png 4x" width="1624" height="788" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/message-delivery-failure/retry-es-desktop.png" srcset="/images/editorial/message-delivery-failure/retry-es-desktop.png 4x" width="1568" height="788" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Menú real de Reintentar abierto junto a Problema de entrega, con dos números móviles ficticios. No se seleccionó ningún remitente." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Interfaz real con datos ficticios. No se envió ni reintentó ningún mensaje.</figcaption>
-</figure>
 
 No reintentes cuando:
 
