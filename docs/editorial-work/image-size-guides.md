@@ -2,7 +2,7 @@
 
 ## Source and reader task
 
-- Pairs: `captures/website-popup.md` (new section "Choose the right image size" / "Elige el tamaño correcto de la imagen") and `campaigns/email-image-sizes.md` (new article). Public routes once published: EN `/website-popup`, ES `/popup-sitio-web`, EN `/email-image-sizes`, ES `/es/tamanos-imagen-emails`.
+- Pairs: `captures/website-popup.md` (new section "Choose the right image size" / "Elige el tamaño correcto de la imagen") and `campaigns/email-image-sizes.md` (new article). Public routes once published: EN `/website-popup`, ES `/es/popup-sitio-web`, EN `/email-image-sizes`, ES `/es/tamanos-imagen-emails`.
 - Reader task: prepare an image at the right size before uploading it to a popup or an email, without trial and error.
 - No translated body existed for the email article, so there is no original to preserve. The popup bodies were edited only by inserting the new section before "Assign a coupon and journey".
 

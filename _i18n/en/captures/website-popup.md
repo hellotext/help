@@ -188,7 +188,7 @@ The sizes below are for the default settings: a 200 px high image on top and a s
 | Desktop, image on the side | About 307 × 450 px | 620 × 900 px |
 | Mobile (all layouts) | 350 × 200 px | 700 × 400 px |
 
-- **Minimum height:** on desktop the popup is never shorter than 450 px, so an image on the side should cover at least that height.
+- **Minimum height:** on desktop the popup is never shorter than 450 px, so an image on the side should cover at least that height. If your popup is taller because of its content, the side image grows with it: check the height in the preview and upload at twice that height.
 - **Mobile always uses the top image,** whichever layout you picked for desktop.
 - **Cover or Fit:** **Cover** fills the space and crops the edges when the proportions differ. **Fit** shows the whole image and leaves bands of the background color.
 - **Keep what matters near the center,** such as a logo or the product. Avoid putting important text inside the image, because it shrinks on phones.

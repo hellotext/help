@@ -188,7 +188,7 @@ Las medidas siguientes corresponden a la configuración por defecto: una imagen 
 | Desktop, imagen a un lado | Cerca de 307 × 450 px | 620 × 900 px |
 | Mobile (todos los layouts) | 350 × 200 px | 700 × 400 px |
 
-- **Altura mínima:** en desktop el popup nunca es más bajo que 450 px, así que una imagen a un lado debe cubrir al menos esa altura.
+- **Altura mínima:** en desktop el popup nunca es más bajo que 450 px, así que una imagen a un lado debe cubrir al menos esa altura. Si tu popup es más alto por su contenido, la imagen lateral crece con él: revisa la altura en la vista previa y súbela al doble de esa altura.
 - **Mobile siempre usa la imagen arriba,** sin importar el layout que elegiste para desktop.
 - **Cubrir o Ajustar:** **Cubrir** llena el espacio y recorta los bordes cuando la proporción no coincide. **Ajustar** muestra la imagen completa y deja franjas del color de fondo.
 - **Deja lo importante cerca del centro,** como un logo o el producto. Evita poner texto importante dentro de la imagen, porque se reduce en el teléfono.
