@@ -180,11 +180,11 @@ El editor revisado no ofrece condiciones por URL, scroll, ubicación o visualiza
 
 La imagen del encabezado es el elemento visual más grande del popup, así que prepárala según el layout que elegiste. Sube cada imagen al doble del tamaño en que se muestra, para que se vea nítida en pantallas de alta densidad. Usa archivos JPG o PNG de hasta 10 MB.
 
-| Dónde se ve | Se muestra a | Sube a (2×) | Forma |
-| --- | --- | --- | --- |
-| Desktop, imagen arriba | 768 × 200 px | 1536 × 400 px | Franja ancha, cerca de 4:1 |
-| Desktop, imagen a un lado | Cerca de 307 × 450 px | 620 × 900 px | Vertical, cerca de 2:3 |
-| Mobile (todos los layouts) | 350 × 200 px | 700 × 400 px | Ancha, cerca de 7:4 |
+| Dónde se ve | Se muestra a | Sube a (2×) |
+| --- | --- | --- |
+| Desktop, imagen arriba | 768 × 200 px | 1536 × 400 px |
+| Desktop, imagen a un lado | Cerca de 307 × 450 px | 620 × 900 px |
+| Mobile (todos los layouts) | 350 × 200 px | 700 × 400 px |
 
 - **Altura mínima:** en desktop el popup nunca es más bajo que 450 px, así que una imagen a un lado debe cubrir al menos esa altura.
 - **Mobile siempre usa la imagen arriba,** sin importar el layout que elegiste para desktop.

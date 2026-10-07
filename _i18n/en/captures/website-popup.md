@@ -180,11 +180,11 @@ The reviewed editor does not offer page-path, scroll-depth, location, or previou
 
 The header image is the largest visual in the popup, so prepare it for the layout you picked. Upload each image at twice the size it is displayed, so it stays sharp on high-density screens. Use JPG or PNG files of up to 10 MB.
 
-| Where it appears | Displayed at | Upload at (2×) | Shape |
-| --- | --- | --- | --- |
-| Desktop, image on top | 768 × 200 px | 1536 × 400 px | Wide strip, about 4:1 |
-| Desktop, image on the side | About 307 × 450 px | 620 × 900 px | Tall, about 2:3 |
-| Mobile (all layouts) | 350 × 200 px | 700 × 400 px | Wide, about 7:4 |
+| Where it appears | Displayed at | Upload at (2×) |
+| --- | --- | --- |
+| Desktop, image on top | 768 × 200 px | 1536 × 400 px |
+| Desktop, image on the side | About 307 × 450 px | 620 × 900 px |
+| Mobile (all layouts) | 350 × 200 px | 700 × 400 px |
 
 - **Minimum height:** on desktop the popup is never shorter than 450 px, so an image on the side should cover at least that height.
 - **Mobile always uses the top image,** whichever layout you picked for desktop.
