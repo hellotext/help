@@ -1,0 +1,69 @@
+{
+  "verified_at": "2026-10-07T01:25:37.593688+00:00",
+  "checkout_paths_resolve": true,
+  "execution_cwd": "/tmp",
+  "browser_helper": "help-browser.mjs",
+  "dependency": "existing ws devDependency",
+  "capture_command": "python3 <checkout>/docs/editorial-work/captures/message-delivery-failure/capture_delivery_failures.py es unsubscribed --output-dir=/tmp/help-delivery-helper-verification-20261007/captures",
+  "review_command": "python3 <checkout>/docs/editorial-work/captures/message-delivery-failure/review_delivery_guide.py --output-dir=/tmp/help-delivery-helper-verification-20261007/reviews",
+  "application_revision": "992de02f9ff379bf248a8f88e611d484d53bf7d7",
+  "captures": [
+    {
+      "file": "unsubscribed-es-desktop.png",
+      "sha256": "e4542c09cc4a4260c27a53b4edb075e13b1fada6b213437ddf7a1c73fabd8791",
+      "matches_published_source": true
+    },
+    {
+      "file": "unsubscribed-es-mobile.png",
+      "sha256": "b6d2c9d2b69f6ed6c5b5a842aa62f319a7dc55a31a6872b0bdbd34000e3922e8",
+      "matches_published_source": true
+    }
+  ],
+  "page_reviews": [
+    {
+      "locale": "es",
+      "viewport": 1440,
+      "figures": 4,
+      "overflow": false,
+      "density_and_native_size": "passed"
+    },
+    {
+      "locale": "es",
+      "viewport": 580,
+      "figures": 4,
+      "overflow": false,
+      "density_and_native_size": "passed"
+    },
+    {
+      "locale": "es",
+      "viewport": 390,
+      "figures": 4,
+      "overflow": false,
+      "density_and_native_size": "passed"
+    },
+    {
+      "locale": "en",
+      "viewport": 1440,
+      "figures": 4,
+      "overflow": false,
+      "density_and_native_size": "passed"
+    },
+    {
+      "locale": "en",
+      "viewport": 580,
+      "figures": 4,
+      "overflow": false,
+      "density_and_native_size": "passed"
+    },
+    {
+      "locale": "en",
+      "viewport": 390,
+      "figures": 4,
+      "overflow": false,
+      "density_and_native_size": "passed"
+    }
+  ],
+  "review_pngs": 28,
+  "accepted_assets_overwritten": false,
+  "public_article_changes": false
+}

@@ -1,0 +1,252 @@
+{
+  "verified_at": "2026-10-07T01:13:40.594348+00:00",
+  "merge_revision": "4321bf17dcbea04af138399ba99598d05c4abca4",
+  "pr": "https://github.com/hellotext/help/pull/390",
+  "verified": true,
+  "checks_passed": 18,
+  "checks_total": 18,
+  "results": [
+    {
+      "kind": "page",
+      "locale": "es",
+      "url": "https://help.hellotext.com/es/por-que-no-se-envio-un-mensaje",
+      "markers": [
+        "Cliente desuscripto",
+        "Carrito convertido",
+        "sin abrir un men\u00fa"
+      ],
+      "status": 200,
+      "final_url": "https://help.hellotext.com/es/por-que-no-se-envio-un-mensaje",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 31739,
+      "sha256": "d80b5696577d932387930c7458e01e63ca664a8a6e705476457b496acee0d3c9",
+      "image_refs": {
+        "error-es-desktop.png": true,
+        "error-es-mobile.png": true,
+        "unsubscribed-es-desktop.png": true,
+        "unsubscribed-es-mobile.png": true,
+        "converted-es-desktop.png": true,
+        "converted-es-mobile.png": true,
+        "retry-es-desktop.png": true,
+        "retry-es-mobile.png": true
+      },
+      "wording": {
+        "Cliente desuscripto": true,
+        "Carrito convertido": true,
+        "sin abrir un men\u00fa": true
+      },
+      "figures": 4,
+      "verified": true
+    },
+    {
+      "kind": "page",
+      "locale": "en",
+      "url": "https://help.hellotext.com/why-a-message-did-not-send",
+      "markers": [
+        "Not delivered",
+        "Customer unsubscribed",
+        "Cart converted",
+        "without opening a menu"
+      ],
+      "status": 200,
+      "final_url": "https://help.hellotext.com/why-a-message-did-not-send",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 30644,
+      "sha256": "0ed997206d3feaa160110c8cd6e0f82bc306ac29b5099ff6fccc2f4bfb764cb7",
+      "image_refs": {
+        "error-en-desktop.png": true,
+        "error-en-mobile.png": true,
+        "unsubscribed-en-desktop.png": true,
+        "unsubscribed-en-mobile.png": true,
+        "converted-en-desktop.png": true,
+        "converted-en-mobile.png": true,
+        "retry-en-desktop.png": true,
+        "retry-en-mobile.png": true
+      },
+      "wording": {
+        "Not delivered": true,
+        "Customer unsubscribed": true,
+        "Cart converted": true,
+        "without opening a menu": true
+      },
+      "figures": 4,
+      "verified": true
+    },
+    {
+      "kind": "asset",
+      "url": "https://help.hellotext.com/images/editorial/message-delivery-failure/converted-en-desktop.png",
+      "expected_sha256": "7bac2b3f2a36315e72808f4f4641d97041b98e6120c6e025bdebb220b96ed8bb",
+      "status": 200,
+      "final_url": "https://help.hellotext.com/images/editorial/message-delivery-failure/converted-en-desktop.png",
+      "content_type": "image/png",
+      "bytes": 45388,
+      "sha256": "7bac2b3f2a36315e72808f4f4641d97041b98e6120c6e025bdebb220b96ed8bb",
+      "verified": true
+    },
+    {
+      "kind": "asset",
+      "url": "https://help.hellotext.com/images/editorial/message-delivery-failure/converted-en-mobile.png",
+      "expected_sha256": "69c411c3c4754c950dfd8939f2b0f9c77cb8a226188e403b14b4bd1071f60536",
+      "status": 200,
+      "final_url": "https://help.hellotext.com/images/editorial/message-delivery-failure/converted-en-mobile.png",
+      "content_type": "image/png",
+      "bytes": 44117,
+      "sha256": "69c411c3c4754c950dfd8939f2b0f9c77cb8a226188e403b14b4bd1071f60536",
+      "verified": true
+    },
+    {
+      "kind": "asset",
+      "url": "https://help.hellotext.com/images/editorial/message-delivery-failure/converted-es-desktop.png",
+      "expected_sha256": "102060c6722b68f98aabc359637edb9bebd0d91b1d6d4ac93f8889101d98bf10",
+      "status": 200,
+      "final_url": "https://help.hellotext.com/images/editorial/message-delivery-failure/converted-es-desktop.png",
+      "content_type": "image/png",
+      "bytes": 44528,
+      "sha256": "102060c6722b68f98aabc359637edb9bebd0d91b1d6d4ac93f8889101d98bf10",
+      "verified": true
+    },
+    {
+      "kind": "asset",
+      "url": "https://help.hellotext.com/images/editorial/message-delivery-failure/converted-es-mobile.png",
+      "expected_sha256": "6eabcffb675e0b7d58a4593ecb361a016c53d24b24ddcda8f553ab6f36c37267",
+      "status": 200,
+      "final_url": "https://help.hellotext.com/images/editorial/message-delivery-failure/converted-es-mobile.png",
+      "content_type": "image/png",
+      "bytes": 44679,
+      "sha256": "6eabcffb675e0b7d58a4593ecb361a016c53d24b24ddcda8f553ab6f36c37267",
+      "verified": true
+    },
+    {
+      "kind": "asset",
+      "url": "https://help.hellotext.com/images/editorial/message-delivery-failure/retry-en-desktop.png",
+      "expected_sha256": "ac79a04413ca51e2bdbc5b626ef9900a2b0f13975a045043c5cebc6b379efb0d",
+      "status": 200,
+      "final_url": "https://help.hellotext.com/images/editorial/message-delivery-failure/retry-en-desktop.png",
+      "content_type": "image/png",
+      "bytes": 97202,
+      "sha256": "ac79a04413ca51e2bdbc5b626ef9900a2b0f13975a045043c5cebc6b379efb0d",
+      "verified": true
+    },
+    {
+      "kind": "asset",
+      "url": "https://help.hellotext.com/images/editorial/message-delivery-failure/retry-en-mobile.png",
+      "expected_sha256": "1bbc79e11b687d23473d830d2adee94dcf36d4ff032a6fdffa5c8b1a47c3bb2b",
+      "status": 200,
+      "final_url": "https://help.hellotext.com/images/editorial/message-delivery-failure/retry-en-mobile.png",
+      "content_type": "image/png",
+      "bytes": 92474,
+      "sha256": "1bbc79e11b687d23473d830d2adee94dcf36d4ff032a6fdffa5c8b1a47c3bb2b",
+      "verified": true
+    },
+    {
+      "kind": "asset",
+      "url": "https://help.hellotext.com/images/editorial/message-delivery-failure/retry-es-desktop.png",
+      "expected_sha256": "90ce8985dda8bc0960d1f1b66e914fd37030c21af42d6d2aa24da4f78201a7fd",
+      "status": 200,
+      "final_url": "https://help.hellotext.com/images/editorial/message-delivery-failure/retry-es-desktop.png",
+      "content_type": "image/png",
+      "bytes": 99563,
+      "sha256": "90ce8985dda8bc0960d1f1b66e914fd37030c21af42d6d2aa24da4f78201a7fd",
+      "verified": true
+    },
+    {
+      "kind": "asset",
+      "url": "https://help.hellotext.com/images/editorial/message-delivery-failure/retry-es-mobile.png",
+      "expected_sha256": "8fb8c4fe3353c4098d72190f0df53e70e2298b3fbac0ad107128c08d50ee89e3",
+      "status": 200,
+      "final_url": "https://help.hellotext.com/images/editorial/message-delivery-failure/retry-es-mobile.png",
+      "content_type": "image/png",
+      "bytes": 96442,
+      "sha256": "8fb8c4fe3353c4098d72190f0df53e70e2298b3fbac0ad107128c08d50ee89e3",
+      "verified": true
+    },
+    {
+      "kind": "asset",
+      "url": "https://help.hellotext.com/images/editorial/message-delivery-failure/unsubscribed-en-desktop.png",
+      "expected_sha256": "09010010e206f3be6513494ed70d9f79a87d5a39943e0124f7ca436aa84741b9",
+      "status": 200,
+      "final_url": "https://help.hellotext.com/images/editorial/message-delivery-failure/unsubscribed-en-desktop.png",
+      "content_type": "image/png",
+      "bytes": 53900,
+      "sha256": "09010010e206f3be6513494ed70d9f79a87d5a39943e0124f7ca436aa84741b9",
+      "verified": true
+    },
+    {
+      "kind": "asset",
+      "url": "https://help.hellotext.com/images/editorial/message-delivery-failure/unsubscribed-en-mobile.png",
+      "expected_sha256": "81f1b4d736ddd4dfc721dfb679f8bc35e3f07bc3d9da804f4631c0cfcdb575c5",
+      "status": 200,
+      "final_url": "https://help.hellotext.com/images/editorial/message-delivery-failure/unsubscribed-en-mobile.png",
+      "content_type": "image/png",
+      "bytes": 53204,
+      "sha256": "81f1b4d736ddd4dfc721dfb679f8bc35e3f07bc3d9da804f4631c0cfcdb575c5",
+      "verified": true
+    },
+    {
+      "kind": "asset",
+      "url": "https://help.hellotext.com/images/editorial/message-delivery-failure/unsubscribed-es-desktop.png",
+      "expected_sha256": "e4542c09cc4a4260c27a53b4edb075e13b1fada6b213437ddf7a1c73fabd8791",
+      "status": 200,
+      "final_url": "https://help.hellotext.com/images/editorial/message-delivery-failure/unsubscribed-es-desktop.png",
+      "content_type": "image/png",
+      "bytes": 56068,
+      "sha256": "e4542c09cc4a4260c27a53b4edb075e13b1fada6b213437ddf7a1c73fabd8791",
+      "verified": true
+    },
+    {
+      "kind": "asset",
+      "url": "https://help.hellotext.com/images/editorial/message-delivery-failure/unsubscribed-es-mobile.png",
+      "expected_sha256": "b6d2c9d2b69f6ed6c5b5a842aa62f319a7dc55a31a6872b0bdbd34000e3922e8",
+      "status": 200,
+      "final_url": "https://help.hellotext.com/images/editorial/message-delivery-failure/unsubscribed-es-mobile.png",
+      "content_type": "image/png",
+      "bytes": 56429,
+      "sha256": "b6d2c9d2b69f6ed6c5b5a842aa62f319a7dc55a31a6872b0bdbd34000e3922e8",
+      "verified": true
+    },
+    {
+      "kind": "asset",
+      "url": "https://help.hellotext.com/images/editorial/sms-sending-limits/error-en-desktop.png",
+      "expected_sha256": "7c9ecf1722cdba94ba00bf35d93cc56c2d5a8ac4b686aa9369416294c8407d8e",
+      "status": 200,
+      "final_url": "https://help.hellotext.com/images/editorial/sms-sending-limits/error-en-desktop.png",
+      "content_type": "image/png",
+      "bytes": 61227,
+      "sha256": "7c9ecf1722cdba94ba00bf35d93cc56c2d5a8ac4b686aa9369416294c8407d8e",
+      "verified": true
+    },
+    {
+      "kind": "asset",
+      "url": "https://help.hellotext.com/images/editorial/sms-sending-limits/error-en-mobile.png",
+      "expected_sha256": "d9f06f6a29bbd2bd8594064e94413cb3f8e4f1aa23be2bcac1cc7f87a1daee4b",
+      "status": 200,
+      "final_url": "https://help.hellotext.com/images/editorial/sms-sending-limits/error-en-mobile.png",
+      "content_type": "image/png",
+      "bytes": 60189,
+      "sha256": "d9f06f6a29bbd2bd8594064e94413cb3f8e4f1aa23be2bcac1cc7f87a1daee4b",
+      "verified": true
+    },
+    {
+      "kind": "asset",
+      "url": "https://help.hellotext.com/images/editorial/sms-sending-limits/error-es-desktop.png",
+      "expected_sha256": "72c1888e383f9f4f1c78e644dc925d4a4b75011bb90347bed9e2440b300b9b2c",
+      "status": 200,
+      "final_url": "https://help.hellotext.com/images/editorial/sms-sending-limits/error-es-desktop.png",
+      "content_type": "image/png",
+      "bytes": 60950,
+      "sha256": "72c1888e383f9f4f1c78e644dc925d4a4b75011bb90347bed9e2440b300b9b2c",
+      "verified": true
+    },
+    {
+      "kind": "asset",
+      "url": "https://help.hellotext.com/images/editorial/sms-sending-limits/error-es-mobile.png",
+      "expected_sha256": "82fc68bb9cb220be8d9f0c0e807f7c19acd8f7870c542ddab847ea5c92201865",
+      "status": 200,
+      "final_url": "https://help.hellotext.com/images/editorial/sms-sending-limits/error-es-mobile.png",
+      "content_type": "image/png",
+      "bytes": 58031,
+      "sha256": "82fc68bb9cb220be8d9f0c0e807f7c19acd8f7870c542ddab847ea5c92201865",
+      "verified": true
+    }
+  ]
+}

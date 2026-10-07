@@ -1,6 +1,6 @@
 # Message delivery failures — 2026-10-07
 
-Status: locally verified and ready for the normal PR workflow; not yet published.
+Status: published and publicly verified on 2026-10-07 at 01:13 UTC.
 
 The Spanish and English guide now illustrates four decisions: reading the exact
 failure reason, respecting an unsubscribe, recognizing a converted-cart
@@ -81,9 +81,55 @@ review image was discarded; accepted images retain their genuine Display P3 prof
 - No competing Help PR was open, and main remained
   `817032f6eb795ac52e0137ac94a9c12edf155722` before preparing publication.
 
-Public routes to verify after the normal PR merge:
+Published routes, verified after the normal PR merge:
 
 - <https://help.hellotext.com/es/por-que-no-se-envio-un-mensaje>
 - <https://help.hellotext.com/why-a-message-did-not-send>
 
-No useful visual remains pending for this article pair. Publication is recorded separately after the served pages and assets are verified.
+[PR #390](https://github.com/hellotext/help/pull/390) merged at 01:13:02 UTC as
+`4321bf17dcbea04af138399ba99598d05c4abca4`. The normal PR checks passed, and the
+[main build](https://github.com/hellotext/help/actions/runs/37555981946/job/112582197171)
+also passed. The Aikido PR check reported six low-severity findings below its
+blocking threshold and completed successfully; this is not a claim of zero findings.
+
+Public verification at 01:13:40 UTC passed all 18 checks: both localized pages
+returned HTTP 200 with their four figures and corrected wording, and all 16 served
+PNG assets matched the reviewed source SHA-256 hashes. The full results are in
+[`public-verification.json`](captures/message-delivery-failure/public-verification.json).
+No visual or publication step remains pending for this article pair.
+
+## Capture helper reproducibility — 2026-10-07
+
+The review on PR #390 found that the archived Python helpers still assumed their
+former workspace location and referenced an untracked browser helper. Both now
+resolve the checkout from their checked-in directory, and `help-browser.mjs` is
+included beside them using the repository's existing `ws` devDependency. No
+public article or image changed.
+
+Install the Help dependencies, build `_site`, and restore the documented isolated
+fictional app/profile before a full run. The browser helper is deliberately bound
+to this batch's own profile and loopback ports 9475 (Chrome), 3291 (app), and 4197
+(Help preview); it does not discover or attach to another browser. Fixture routes,
+locale and fictional login must match the capture records. The helper does not
+start servers, change locale, prepare records or sign in.
+
+From any working directory, use an absolute checkout path:
+
+```sh
+python3 <checkout>/docs/editorial-work/captures/message-delivery-failure/capture_delivery_failures.py es --check-only
+python3 <checkout>/docs/editorial-work/captures/message-delivery-failure/review_delivery_guide.py --check-only
+python3 <checkout>/docs/editorial-work/captures/message-delivery-failure/capture_delivery_failures.py es unsubscribed --output-dir=/tmp/help-delivery-recapture
+python3 <checkout>/docs/editorial-work/captures/message-delivery-failure/review_delivery_guide.py --output-dir=/tmp/help-delivery-review
+```
+
+`--check-only` verifies paths and the Node dependency without opening a connection.
+Use a fresh `--output-dir` to preserve accepted evidence; without it, the original
+record and image locations are used. The review helper resumes already recorded
+viewport states, so use an empty output directory when validating a new revision.
+
+Actual execution from `/tmp` passed: two native Spanish captures exactly matched
+the published source hashes; both full localized pages passed at 1440, 580 and
+390px, generating 28 native review PNGs outside the repository. Cold app loading
+initially hit the message-readiness guard; the capture helper now waits up to ten
+seconds for that required message before evaluating its state. Full results are
+recorded in `captures/message-delivery-failure/helper-verification.json`.
