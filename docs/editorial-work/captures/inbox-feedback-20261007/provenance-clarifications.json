@@ -1,0 +1,19 @@
+{
+  "status": "Corrections supplied by the parent task; not a fresh safety preflight by this authoring subagent.",
+  "database_message_count": 60,
+  "fixture_business_id": 5,
+  "fixture_business_message_count": 55,
+  "new_received_message_ids": [
+    60,
+    61
+  ],
+  "new_received_messages_user_id": 1,
+  "provider_zero_scope": "fixture business5 only; no database-global provider absence claim",
+  "corrections_required": [
+    "Do not state that55 is the whole database message count.",
+    "Do not state that received messages60/61 have user_id:null. Their user_id is1.",
+    "Do not broaden zero-provider observations from fixture business5 to every business/database."
+  ],
+  "immutable_history": "Keep prior source records unchanged as historical evidence; add corrected scoped provenance for this feedback batch.",
+  "before_capture": "Parent must retain fresh fixture-scoped checks and observed request origins for each new capture."
+}

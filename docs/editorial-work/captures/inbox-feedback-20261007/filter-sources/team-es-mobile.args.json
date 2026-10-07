@@ -1,0 +1,13 @@
+{
+  "url": "http://127.0.0.1:3298/hellotext/inbox/PqQYxZ1a?filter=opened&member=e9Z2LN51%2C3oDXBQG4",
+  "viewport": [
+    430,
+    1000
+  ],
+  "locale": "es",
+  "text": "Sof\u00eda Castro",
+  "menuSection": "users-filters",
+  "requireSubmenu": false,
+  "expression": "(async()=>{document.querySelector('#inbox-link').click();await new Promise(r=>setTimeout(r,350));document.querySelector('[data-conversations--inbox-target=filterIconButton]').click();await new Promise(r=>setTimeout(r,350));document.querySelector('#opened-filter').click();await new Promise(r=>setTimeout(r,900));if(!document.querySelector('[data-conversations--inbox-target=filterIconButton]').closest('[data-controller=\"ui--popover\"]').querySelector('[popover]').matches(':popover-open'))document.querySelector('[data-conversations--inbox-target=filterIconButton]').click();await new Promise(r=>setTimeout(r,350));return {url:location.href,openMenus:[...document.querySelectorAll(':popover-open')].map(e=>({id:e.id,rect:e.getBoundingClientRect().toJSON()}))}})()",
+  "screenshot": "/Users/pel/Documents/Codex/2026-10-06/task-8/help-inbox-feedback-local/docs/editorial-work/captures/inbox-feedback-20261007/filter-sources/team-es-mobile.png"
+}

@@ -1,0 +1,67 @@
+{
+  "fixture": "inbox-feedback-context-20261007",
+  "purpose": "Native conversation rows behind open filters and in the full Inbox overview",
+  "before": {
+    "messages": 60,
+    "business_messages": 55,
+    "contacts": 132,
+    "conversations": 128
+  },
+  "created": [
+    {
+      "contact_id": 134,
+      "conversation_id": 130,
+      "name": "Valentina Ríos",
+      "assigned_user_id": 1,
+      "state": "assigned",
+      "last_active_event_at": "2026-10-06 21:23:05 -0500"
+    },
+    {
+      "contact_id": 135,
+      "conversation_id": 131,
+      "name": "Mateo Silva",
+      "assigned_user_id": 2,
+      "state": "assigned",
+      "last_active_event_at": "2026-10-06 21:22:05 -0500"
+    },
+    {
+      "contact_id": 136,
+      "conversation_id": 132,
+      "name": "Camila Torres",
+      "assigned_user_id": 1,
+      "state": "assigned",
+      "last_active_event_at": "2026-10-06 21:21:05 -0500"
+    },
+    {
+      "contact_id": 137,
+      "conversation_id": 133,
+      "name": "Diego Navarro",
+      "assigned_user_id": 2,
+      "state": "assigned",
+      "last_active_event_at": "2026-10-06 21:20:05 -0500"
+    },
+    {
+      "contact_id": 138,
+      "conversation_id": 134,
+      "name": "Paula Medina",
+      "assigned_user_id": 1,
+      "state": "assigned",
+      "last_active_event_at": "2026-10-06 21:19:05 -0500"
+    },
+    {
+      "contact_id": 139,
+      "conversation_id": 135,
+      "name": "Nicolás Vega",
+      "assigned_user_id": 2,
+      "state": "assigned",
+      "last_active_event_at": "2026-10-06 21:18:05 -0500"
+    }
+  ],
+  "business_messages_after": 55,
+  "database_messages_after": 60,
+  "deliveries_executed": 0,
+  "endpoints_added": 0,
+  "roles_or_permissions_changed": false,
+  "configuration_changed": false,
+  "note": "Assigned state is initial fictional source data; no assignment workflow result is claimed."
+}

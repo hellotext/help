@@ -1,0 +1,18 @@
+{
+  "viewport": [
+    430,
+    1000
+  ],
+  "url": "http://127.0.0.1:3298/hellotext/inbox?filter=opened&member=e9Z2LN51%2C3oDXBQG4",
+  "locale": "es",
+  "text": "Emma Vargas",
+  "typeSearch": "Emma",
+  "clip": [
+    8,
+    68,
+    414,
+    72
+  ],
+  "screenshot": "/Users/pel/Documents/Codex/2026-10-06/task-8/help-inbox-feedback-local/docs/editorial-work/captures/inbox-feedback-20261007/filter-sources/search-es-mobile.png",
+  "expression": "(async()=>{document.querySelector('#inbox-link').click();await new Promise(r=>setTimeout(r,350));document.querySelector('[data-conversations--inbox-target=filterIconButton]').click();await new Promise(r=>setTimeout(r,350));document.querySelector('#opened-filter').click();await new Promise(r=>setTimeout(r,900));return {url:location.href,inputs:[...document.querySelectorAll('input[type=search]')].map(e=>({r:e.getBoundingClientRect().toJSON()}))}})()"
+}

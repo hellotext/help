@@ -1,5 +1,27 @@
 # Inbox overview — 2026-10-07
 
+## Feedback revision — 2026-10-07
+
+Status: local correction validated; no new publication. Four new native 4×
+Display P3 context captures show the desktop conversation list, history and
+customer Activity together, with a genuine separate list view on mobile. The
+previous history and ownership details remain, for three figures per locale.
+The introduction describes the actual responsive views and native Activity
+scroll position. All original image files remain unchanged.
+
+The correction's [capture and validation record](captures/inbox-feedback-20261007/README.md)
+contains the exact sources, scoped fixture provenance, source freshness check,
+build and complete-page ES/EN desktop/mobile pixel reviews. Both translations
+passed responsive checks at 1440/580/390px. The combined two-guide build verified
+24 referenced PNGs against both locale outputs, or 48 image byte comparisons.
+Seven headings and 21 ordered links per overview translation are preserved.
+
+This correction starts at the published PR 393 merge `616bc90f`; it remains
+local pending separate approval. The ledger remains `local_verified` for this
+pair, with 45 unresolved pairs overall. The companion filter guide still lacks
+executed matching-search-result evidence. The following sections preserve the
+previous batch's validation history; their two-figure counts predate this revision.
+
 Status: `local_verified`. Both complete translations, all accepted figures, the production build and final independent review passed.
 
 ## Scope and source
@@ -62,14 +84,17 @@ retain the 4× descriptor and natural-size cap; images are not links. The
 ownership crop is intentionally small on desktop because it illustrates one
 control, while the mobile crop includes the actual conversation header.
 
-Only the owned fictional database was used. Two incoming Message records were
-created with `deliver:false`, no user or provider endpoints, and one internal
-Note. Actual Event models render their history. The fixture has 132
-non-messageable contacts, zero connected integrations, authorization tokens,
-provider connections on the checked fixture numbers, enabled playbooks, active workflows and workers. Jobs use
-TestAdapter and mail delivery is disabled. The retained final safety files
-record 55 total messages, exactly two new incoming messages and no send or
-assignment action. No live-channel or delivery claim is made.
+Only the owned fictional database was used. The two incoming Message records,
+IDs 60 and 61, use `deliver:false` and have `user_id: 1`; one internal Note was
+also created. Actual Event models render their history. The checked fixture
+business, ID 5, has 132 non-messageable contacts and zero connected integrations,
+authorization tokens, enabled playbooks and active workflows. Zero provider
+connections were checked for that fixture business's numbers; this is not a
+database-wide provider-absence claim. The owned runtime uses TestAdapter, has
+mail delivery disabled and had no running delivery workers in the retained
+checks. Business 5 contains 55 messages, including the two new received records;
+the complete database contains 60 messages. No send or assignment action was
+performed. No live-channel or delivery claim is made.
 
 The credential-free helpers and their prerequisites are documented in
 [reproduction.md](captures/inbox-overview/reproduction.md). No database dump,

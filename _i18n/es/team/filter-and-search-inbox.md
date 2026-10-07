@@ -8,6 +8,18 @@ Antes de buscar, abre **Mostrar filtros**, junto al campo **Buscar**, y elige el
 
 Después, escribe el nombre u otro dato del cliente en **Buscar**, en la parte superior de la lista de conversaciones.
 
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Escribe el nombre del cliente en Buscar">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 502px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/inbox-filter-context/search-es-mobile.png 4x" width="1656" height="288" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-filter-context/search-es-desktop.png" srcset="/images/editorial/inbox-filter-context/search-es-desktop.png 4x" width="1936" height="256" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Campo Buscar del Inbox enfocado, con Emma escrito y el cursor de texto visible." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Entrada de una consulta en la interfaz real con datos ficticios. La captura no verifica resultados de búsqueda.</figcaption>
+</figure>
+
 Puedes buscar por:
 
 - Nombre del cliente o parte del nombre.
@@ -19,18 +31,6 @@ Puedes buscar por:
 La búsqueda está pensada para encontrar conversaciones mediante la identidad del cliente o un ID de conversación. No busca una palabra o frase dentro de todo el historial de mensajes.
 
 Los filtros de estado, integrante y etiqueta que apliques desde **Mostrar filtros** también acotan los resultados de búsqueda. Si un cliente no aparece, elimina o amplía esos filtros y vuelve a escribir la búsqueda antes de asumir que falta la conversación.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Ubica la búsqueda y los filtros">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 438px; width: fit-content; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/editorial/inbox-filter-search/search-es-mobile.png 4x" width="1656" height="1040" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-filter-search/search-es-desktop.png" srcset="/images/editorial/inbox-filter-search/search-es-desktop.png 4x" width="1288" height="1000" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Campo Buscar y control Mostrar filtros encima de una cola ficticia con Benjamín López y Emma Vargas. No se ha escrito una búsqueda." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Interfaz real con datos ficticios. No se envió ningún mensaje.</figcaption>
-</figure>
 
 ## Entiende los filtros de estado
 
@@ -80,16 +80,16 @@ Una mención pide atención o contexto. No asigna automáticamente la conversaci
 
 En **Mostrar filtros**, busca **Equipo** y abre **Elegir** para agregar un integrante. Esta sección selecciona personas; no cambia la asignación de ninguna conversación.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Selecciona los integrantes del filtro">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Selecciona integrantes con la lista del Inbox a la vista">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 304px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 617px; width: fit-content; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/editorial/inbox-filter-search/team-es-mobile.png 4x" width="1120" height="768" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-filter-search/team-es-desktop.png" srcset="/images/editorial/inbox-filter-search/team-es-desktop.png 4x" width="1112" height="768" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Equipo con Lucía Méndez y Sofía Castro seleccionadas, botones para quitarlas y la opción Elegir." />
+        <source media="(max-width: 600px)" srcset="/images/editorial/inbox-filter-context/team-es-mobile.png 4x" width="1656" height="1280" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-filter-context/team-es-desktop.png" srcset="/images/editorial/inbox-filter-context/team-es-desktop.png 4x" width="2396" height="1280" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Sección Equipo del menú Mostrar filtros abierta sobre la lista del Inbox, con Lucía Méndez y Sofía Castro seleccionadas y el control Elegir." />
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Interfaz real con datos ficticios. No se envió ningún mensaje.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real con datos ficticios. Los controles acotan la lista por integrante; no muestran un cambio de asignación.</figcaption>
 </figure>
 
 La sección de integrantes cambia el significado de la vista seleccionada:
@@ -111,16 +111,16 @@ Usa etiquetas para categorías operativas duraderas, como devoluciones, problema
 
 En **Mostrar filtros**, busca **Etiquetas**, abre **Elegir** y selecciona una etiqueta. Usa el botón para quitar junto a una etiqueta seleccionada para eliminar ese filtro.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Revisa la etiqueta seleccionada">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Abre las opciones del filtro por etiqueta">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 302px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 723px; width: fit-content; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/editorial/inbox-filter-search/labels-es-mobile.png 4x" width="1112" height="512" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-filter-search/labels-es-desktop.png" srcset="/images/editorial/inbox-filter-search/labels-es-desktop.png 4x" width="1112" height="512" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Etiquetas con la etiqueta ficticia Prioridad seleccionada, su botón para quitar y la opción Elegir." />
+        <source media="(max-width: 600px)" srcset="/images/editorial/inbox-filter-context/labels-es-mobile.png 4x" width="1656" height="1196" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-filter-context/labels-es-desktop.png" srcset="/images/editorial/inbox-filter-context/labels-es-desktop.png 4x" width="2820" height="1080" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Selector Elegir de Etiquetas abierto sobre el Inbox, con las opciones Prioridad, Devoluciones y Ventas y una conversación ficticia visible detrás." />
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Interfaz real con datos ficticios. No se envió ningún mensaje.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real con datos ficticios. El selector muestra las etiquetas disponibles; todavía no hay ninguna etiqueta aplicada como filtro.</figcaption>
 </figure>
 
 Cuando seleccionas etiquetas, el Inbox conserva las conversaciones que tienen alguna de esas etiquetas dentro de la vista activa de estado e integrante. Las etiquetas no cambian el estado ni el responsable de la conversación.

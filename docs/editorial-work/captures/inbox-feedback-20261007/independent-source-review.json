@@ -1,0 +1,162 @@
+{
+  "reviewed_at": "2026-10-07T23:18:24.275422+00:00",
+  "reviewer": "draft_audit",
+  "scope": "Local source review only; no browser, service, data or external writes. Final rendered-page review remains separate.",
+  "search_sources": {
+    "status": "approved_as_query_entry_controls_only",
+    "images": [
+      {
+        "path": "docs/editorial-work/captures/inbox-feedback-20261007/filter-sources/search-en-desktop.png",
+        "sha256": "c0df4a4eab0a74ba7aedd0be18170ee2578afeed01d2d187fac66ed26f32e5e9",
+        "pixel_size": [
+          1936,
+          256
+        ],
+        "native_logical_size": [
+          484.0,
+          64.0
+        ],
+        "native_density": 4,
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "pixels_independently_viewed": true
+      },
+      {
+        "path": "docs/editorial-work/captures/inbox-feedback-20261007/filter-sources/search-en-mobile.png",
+        "sha256": "d1726ded00b238daa9ac3c5912406486b44bd140e118051007aedc53e17c621d",
+        "pixel_size": [
+          1656,
+          288
+        ],
+        "native_logical_size": [
+          414.0,
+          72.0
+        ],
+        "native_density": 4,
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "pixels_independently_viewed": true
+      },
+      {
+        "path": "docs/editorial-work/captures/inbox-feedback-20261007/filter-sources/search-es-desktop.png",
+        "sha256": "c0df4a4eab0a74ba7aedd0be18170ee2578afeed01d2d187fac66ed26f32e5e9",
+        "pixel_size": [
+          1936,
+          256
+        ],
+        "native_logical_size": [
+          484.0,
+          64.0
+        ],
+        "native_density": 4,
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "pixels_independently_viewed": true
+      },
+      {
+        "path": "docs/editorial-work/captures/inbox-feedback-20261007/filter-sources/search-es-mobile.png",
+        "sha256": "d1726ded00b238daa9ac3c5912406486b44bd140e118051007aedc53e17c621d",
+        "pixel_size": [
+          1656,
+          288
+        ],
+        "native_logical_size": [
+          414.0,
+          72.0
+        ],
+        "native_density": 4,
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "pixels_independently_viewed": true
+      }
+    ],
+    "observations": [
+      "Emma is entered and the native caret is visible.",
+      "Search and filter icons are complete and sharp.",
+      "The crops include no result rows, loading placeholders or errors.",
+      "Identical ES/EN PNG bytes are consistent with the visible name and nonlinguistic icons.",
+      "The integrated alt and accessible caption describe query entry and explicitly do not verify results."
+    ],
+    "truth_boundary": "Actual matching search results remain unverified because Elasticsearch is unavailable. Keep the pair visual_pending."
+  },
+  "source_currency": {
+    "status": "no_source_change_found_that_invalidates_the_captured_overview_state",
+    "runtime_revision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+    "comparison_revision": "7fdca3183697ba5099c9ce1d2f944d2c04a21917",
+    "compare_url": "https://github.com/hellotext/hellotext/compare/6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31...7fdca3183697ba5099c9ce1d2f944d2c04a21917",
+    "compare_status": "ahead",
+    "commits": 101,
+    "changed_files": 204,
+    "changed_file_list_complete": true,
+    "comparison_method": "Read-only GitHub compare and immutable head file reads; diffs against local Git base objects. No checkout fetch or mutation.",
+    "runtime_integrity": {
+      "manifest": "current-app-capture/artifacts/source-ui-hashes.json",
+      "files_rehashed": 4473,
+      "mismatches": 0
+    },
+    "unchanged_render_chain": [
+      "Inbox right_panel and participants_frame; conversation participants controller/index",
+      "contacts details/activity; profiles header/form/avatar/actions/extras/minimal_properties/properties_expander",
+      "contact events and track events controllers; UI::ActivityTrail Page/Item; track event/group/row/action templates",
+      "profile notes controller/button/label/index and notes note",
+      "profile header preloader; track event/group/preloader/action; profile/track icon/application helpers",
+      "conversation Inbox/activity-trail controllers; shared contact/avatar/adornment components; corresponding locales"
+    ],
+    "changed_shared_dependencies_reviewed": [
+      {
+        "path": "app/javascript/entrypoints/stylesheets/application.scss",
+        "assessment": "Changes are scoped to campaign/report tables and previews; the Inbox layout and avatar rules are unchanged."
+      },
+      {
+        "path": "app/javascript/entrypoints/stylesheets/editorial_visuals.scss",
+        "assessment": "New Action Text attachment wrapper rule concerns editorial content, outside the captured Inbox state."
+      },
+      {
+        "path": "app/models/user.rb",
+        "assessment": "Registration metadata and more robust initials calculation; ordinary complete fictional names retain the same initials."
+      },
+      {
+        "path": "app/components/copy_component.rb",
+        "assessment": "Inline positioning now uses inline-flex. The captured Activity list has no opened inline-copy control."
+      },
+      {
+        "path": "app/components/copy_to_clipboard/button_component.rb",
+        "assessment": "Keyboard focus and tooltip handling; no focused copy tooltip in the captured state."
+      },
+      {
+        "path": "app/models/property/url.rb",
+        "assessment": "Changes destination URL parsing, not the visible Activity order rows or internal note."
+      },
+      {
+        "path": "app/views/active_storage/blobs/_blob.html.erb",
+        "assessment": "New branch preserves animated GIFs; the captured state has no GIF attachment."
+      },
+      {
+        "path": "app/components/message/order_component/order_component.html.erb",
+        "assessment": "Adds w-full to message order line items. Activity order rows use track/events action partials, not this message component."
+      },
+      {
+        "path": "app/components/table/section/row.rb and row/row.html.erb",
+        "assessment": "Native table handling; no Table::Section::Row in the inspected Activity render chain."
+      },
+      {
+        "path": "app/components/compose/toolbar and emoji controller",
+        "assessment": "Campaign eager loading and picker handling; no open emoji picker in the captured state."
+      },
+      {
+        "path": "app/controllers/application_controller.rb and concerns/hotjar_tracking.rb",
+        "assessment": "Tracking gates exclude this signed-in local Inbox route."
+      },
+      {
+        "path": "app/views/html/inputs/_input.html.erb",
+        "assessment": "Popup-editor-only dropdown flag, outside the captured Inbox state."
+      },
+      {
+        "path": "app/javascript/controllers/util/multi_submit_controller.js",
+        "assessment": "Submission lifecycle behavior; no submission in the captured state."
+      }
+    ],
+    "limits": [
+      "Keep sourceRevision as the actual runtime revision 6dc36367; the comparison does not recast it as a 7fd runtime capture.",
+      "This is source consistency evidence, not a new live-app execution test.",
+      "Activity uses Track::Event records; the fictional conversation message and note alone do not prove Activity rows.",
+      "The final Help-column and mobile pixel review is still pending at the time of this record."
+    ]
+  }
+}
