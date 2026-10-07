@@ -1,6 +1,6 @@
 # Message delivery failures — 2026-10-07
 
-Status: locally verified and ready for the normal PR workflow; not yet published.
+Status: published and publicly verified on 2026-10-07 at 01:13 UTC.
 
 The Spanish and English guide now illustrates four decisions: reading the exact
 failure reason, respecting an unsubscribe, recognizing a converted-cart
@@ -81,9 +81,19 @@ review image was discarded; accepted images retain their genuine Display P3 prof
 - No competing Help PR was open, and main remained
   `817032f6eb795ac52e0137ac94a9c12edf155722` before preparing publication.
 
-Public routes to verify after the normal PR merge:
+Published routes, verified after the normal PR merge:
 
 - <https://help.hellotext.com/es/por-que-no-se-envio-un-mensaje>
 - <https://help.hellotext.com/why-a-message-did-not-send>
 
-No useful visual remains pending for this article pair. Publication is recorded separately after the served pages and assets are verified.
+[PR #390](https://github.com/hellotext/help/pull/390) merged at 01:13:02 UTC as
+`4321bf17dcbea04af138399ba99598d05c4abca4`. The normal PR checks passed, and the
+[main build](https://github.com/hellotext/help/actions/runs/37555981946/job/112582197171)
+also passed. The Aikido PR check reported six low-severity findings below its
+blocking threshold and completed successfully; this is not a claim of zero findings.
+
+Public verification at 01:13:40 UTC passed all 18 checks: both localized pages
+returned HTTP 200 with their four figures and corrected wording, and all 16 served
+PNG assets matched the reviewed source SHA-256 hashes. The full results are in
+[`public-verification.json`](captures/message-delivery-failure/public-verification.json).
+No visual or publication step remains pending for this article pair.
