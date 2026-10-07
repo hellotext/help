@@ -20,7 +20,7 @@ Inside a table, the width of each image depends on its column, so size the image
 
 ## If you change the email width
 
-The email width can be set between 320 and 1200 px in the theme. Multiply your width by 2 to know how wide to make the image.
+The email width can be set between 320 and 1200 px in the theme. A full-width image is as wide as the email, so upload it at twice that width. An image that fills half the width or one column needs twice its own displayed width, not twice the email width.
 
 ## Related guides
 

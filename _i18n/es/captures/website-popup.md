@@ -180,6 +180,8 @@ El editor revisado no ofrece condiciones por URL, scroll, ubicación o visualiza
 
 La imagen del encabezado es el elemento visual más grande del popup, así que prepárala según el layout que elegiste. Sube cada imagen al doble del tamaño en que se muestra, para que se vea nítida en pantallas de alta densidad. Usa archivos JPG o PNG de hasta 10 MB.
 
+Las medidas siguientes corresponden a la configuración por defecto: una imagen de 200 px de alto arriba y una imagen lateral que ocupa el 40 % del ancho. Si cambias el alto o el ancho de la imagen en el editor, súbela al doble del tamaño con el que termina mostrándose.
+
 | Dónde se ve | Se muestra a | Sube a (2×) |
 | --- | --- | --- |
 | Desktop, imagen arriba | 768 × 200 px | 1536 × 400 px |

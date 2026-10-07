@@ -180,6 +180,8 @@ The reviewed editor does not offer page-path, scroll-depth, location, or previou
 
 The header image is the largest visual in the popup, so prepare it for the layout you picked. Upload each image at twice the size it is displayed, so it stays sharp on high-density screens. Use JPG or PNG files of up to 10 MB.
 
+The sizes below are for the default settings: a 200 px high image on top and a side image that takes 40% of the width. If you change the image height or width in the editor, upload at twice the size it ends up displayed.
+
 | Where it appears | Displayed at | Upload at (2×) |
 | --- | --- | --- |
 | Desktop, image on top | 768 × 200 px | 1536 × 400 px |

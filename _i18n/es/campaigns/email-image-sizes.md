@@ -20,7 +20,7 @@ Dentro de una tabla, el ancho de cada imagen depende de su columna, así que pre
 
 ## Si cambias el ancho del email
 
-El ancho del email se puede configurar entre 320 y 1200 px en el tema. Multiplica tu ancho por 2 para saber qué ancho debe tener la imagen.
+El ancho del email se puede configurar entre 320 y 1200 px en el tema. Una imagen a todo el ancho mide lo mismo que el email, así que súbela al doble de ese ancho. Una imagen que ocupa la mitad del ancho o una columna necesita el doble de su propio ancho en pantalla, no el doble del ancho del email.
 
 ## Guías relacionadas
 
