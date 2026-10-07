@@ -155,6 +155,7 @@ Antes de seleccionar **Enviar**, confirma que:
 
 - [Resumen de campañas]({% link _campaigns/campaigns-overview.md %})
 - [Crea una campaña]({% link _campaigns/creating-a-campaign.md %})
+- [Tamaños de imagen para emails]({% link _campaigns/email-image-sizes.md %})
 - [¿A quién puedo escribirle?]({% link _audience/consent-and-subscriber-status.md %})
 - [Resumen del editor de mensajes]({% link _numbers/message-editor-overview.md %})
 - [Reportes de campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %})

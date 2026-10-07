@@ -162,6 +162,7 @@ Antes del envío final, confirma que:
 
 - [Resumen de campañas]({% link _campaigns/campaigns-overview.md %})
 - [Buenas prácticas para campañas]({% link _campaigns/campaign-best-practices.md %})
+- [Tamaños de imagen para emails]({% link _campaigns/email-image-sizes.md %})
 - [¿A quién puedo escribirle?]({% link _audience/consent-and-subscriber-status.md %})
 - [Resumen de canales de mensajería]({% link _numbers/messaging-overview.md %})
 - [Resumen del editor de mensajes]({% link _numbers/message-editor-overview.md %})

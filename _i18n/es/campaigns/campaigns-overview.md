@@ -114,6 +114,7 @@ Sigue leyendo: [Reportes de campaña]({% link _analytics-reporting-attribution/c
 
 - [Crea una campaña]({% link _campaigns/creating-a-campaign.md %})
 - [Buenas prácticas para campañas]({% link _campaigns/campaign-best-practices.md %})
+- [Tamaños de imagen para emails]({% link _campaigns/email-image-sizes.md %})
 - [Reportes de campaña]({% link _analytics-reporting-attribution/campaign-reporting.md %})
 - [¿A quién puedo escribirle?]({% link _audience/consent-and-subscriber-status.md %})
 - [Resumen de canales de mensajería]({% link _numbers/messaging-overview.md %})

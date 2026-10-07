@@ -103,3 +103,7 @@ Help PR [#255](https://github.com/hellotext/help/pull/255) merged by `11d1050dd2
 Main [Build 36665385834](https://github.com/hellotext/help/actions/runs/36665385834) succeeded for the exact merge SHA. Normal Netlify production deploy `6abc847bd93d5b000808f292` is ready with matching commit_ref and published_at `2026-09-30T03:40:14.057Z`, verified through the public site-alias API; no manual deployment.
 
 The public [ES page](https://help.hellotext.com/es/popup-sitio-web) and [EN page](https://help.hellotext.com/website-popup) returned HTTP 200 with eleven figures per locale and the refreshed assignment panels. Both new native PNGs and all twenty-six preserved referenced assets returned HTTP 200 and matched approved SHA-256 hashes. Exact URLs and hashes are in captures/website-popup/assignment-label-refresh/public-verification.json. Previously published PNGs remain available and no unchanged figure was duplicated. The protected fixture and its header remain unchanged, with locale ES restored. Inventory remains 52 local_verified,101 pending,1 out_of_scope.
+
+## Follow-up: image size section
+
+The "Choose the right image size" section was added in the Help PR for the image size guides. Its sources, checks and the open dependency on the unshipped popup minimum height are recorded in [image-size-guides.md](image-size-guides.md). This article keeps its ledger row above; the new section does not change its publication state.

@@ -114,6 +114,7 @@ Keep reading: [Campaign reporting]({% link _analytics-reporting-attribution/camp
 
 - [Create a campaign]({% link _campaigns/creating-a-campaign.md %})
 - [Campaign best practices]({% link _campaigns/campaign-best-practices.md %})
+- [Image sizes for emails]({% link _campaigns/email-image-sizes.md %})
 - [Campaign reporting]({% link _analytics-reporting-attribution/campaign-reporting.md %})
 - [Who can I message?]({% link _audience/consent-and-subscriber-status.md %})
 - [Messaging channels overview]({% link _numbers/messaging-overview.md %})
