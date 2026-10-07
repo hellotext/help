@@ -1,6 +1,6 @@
 # SMS sending limits — 2026-10-07
 
-Status: locally verified and ready for publication. Public verification is pending.
+Status: published and publicly verified on 2026-10-07 at 00:41 UTC.
 
 The Spanish and English guides now show the actual Settings summary status and
 the Inbox's explicit daily-limit failure reason. Each figure has matching desktop
@@ -76,3 +76,13 @@ it does not close any of the other pending or in-progress guides.
 
 Record the actual merge/deployment revision and served page/asset checks after
 publication; local verification alone does not establish a public result.
+
+## Publication result
+
+[PR #389](https://github.com/hellotext/help/pull/389) merged at 00:39:21 UTC as
+`817032f6eb795ac52e0137ac94a9c12edf155722`. The normal main build passed.
+Public HTTP checks passed 10/10 at 00:41:11 UTC: both routes returned 200 with
+the new figures and reset wording, and all eight served PNGs matched their
+reviewed SHA-256 hashes. See `captures/sms-sending-limits/public-verification.json`.
+This records observed publication of this batch; it does not assert that the
+separate GitHub deployment API returned a Netlify production deployment object.

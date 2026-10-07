@@ -49,5 +49,12 @@
       "app/views/messages/_message.erb"
     ]
   },
-  "public_verification": "Pending publication"
+  "public_verification": {
+    "verified_at": "2026-10-07T00:41:11.859411+00:00",
+    "merge_revision": "817032f6eb795ac52e0137ac94a9c12edf155722",
+    "pr": "https://github.com/hellotext/help/pull/389",
+    "checks_passed": 10,
+    "checks_total": 10,
+    "result": "Both live pages contain the new localized figures and corrected reset text; all eight publicly served PNGs match source hashes."
+  }
 }

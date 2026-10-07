@@ -1,0 +1,19 @@
+{
+  "article": "troubleshooting-deliverability/why-a-message-did-not-send.md",
+  "base": "817032f6eb795ac52e0137ac94a9c12edf155722",
+  "public_ready": true,
+  "sections": {
+    "identify": "Reuse current localized SMS error captures to explain reading the explicit reason; no fabricated send or processing outcome. Source enum examples remain text.",
+    "consent": "Native unsubscribe failure label and absence of retry; a separate profile badge would repeat this decision.",
+    "billing": "Existing SMS limit figure and linked dedicated guide cover temporary limits; payment guidance is conceptual and does not require a payment mutation.",
+    "channel_reasons": "Reason lists explain conditional behavior and link to each channel setup, rather than showing an unrelated integration screen.",
+    "no_longer_relevant": "Native canceled-message reason from an isolated saved error fixture; no automation run.",
+    "retry": "Native Try again menu with reserved fictional senders; no sender selected and no retry submitted. Prose explains direct single-channel behavior.",
+    "support": "Checklist and links, no screenshot needed."
+  },
+  "remaining": [],
+  "publication_remaining": [
+    "Normal PR checks and merge",
+    "Public page and asset verification"
+  ]
+}

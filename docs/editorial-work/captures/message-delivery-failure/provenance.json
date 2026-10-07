@@ -1,0 +1,30 @@
+{
+  "application_revision": "992de02f9ff379bf248a8f88e611d484d53bf7d7",
+  "deployment": {
+    "url": "https://github.com/hellotext/hellotext/actions/runs/37547475320",
+    "deploy_job": "112557436242",
+    "conclusion": "success",
+    "completed_at": "2026-10-06T23:48:42Z"
+  },
+  "ui_source_diff": "No changes in app/views, app/components, app/helpers, app/javascript or config/locales",
+  "capture_route": "Own isolated headless Chrome at loopback, dedicated new profile; not a personal browser session",
+  "source_density": 4,
+  "source_profile": "Native Display P3, compositor flag display-p3-d65; verified embedded profile Display P3 Gamut with sRGB Transfer",
+  "image_editing": "None; source PNGs are untouched compositor CSS clips; no upscaling, relabeling, generated pixels or annotations",
+  "pointer": "Not present in accepted PNGs",
+  "owned_database": "hellotext_help_batch_20261007",
+  "runtime_guards": {
+    "active_job_adapter": "TestAdapter",
+    "mail_deliveries": false,
+    "redis": "Dedicated loopback instance with no workers",
+    "external_credentials": "Dummy provider values; no connected integrations or authorization tokens"
+  },
+  "checked_at": "2026-10-07T01:04:56.452610+00:00",
+  "new_capture_count": 12,
+  "reused_capture_count": 4,
+  "fixture_source": "prepare_failure_fixtures.rb",
+  "locale_source": "localize_failure_fixtures.rb",
+  "runtime_verification": "runtime-verification.json",
+  "retries_executed": 0,
+  "sends_executed": 0
+}

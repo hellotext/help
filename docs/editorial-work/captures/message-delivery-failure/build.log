@@ -1,0 +1,20 @@
+yarn run v1.22.19
+warning package.json: No license field
+$ JEKYLL_ENV=production bundle exec jekyll build && ruby script/verify_security_headers.rb
+Configuration file: /Users/pel/Documents/Codex/2026-10-03/task-5/help-visual-batch/_config.yml
+            Source: /Users/pel/Documents/Codex/2026-10-03/task-5/help-visual-batch
+       Destination: /Users/pel/Documents/Codex/2026-10-03/task-5/help-visual-batch/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating...
+Building site for language: "en" to: /Users/pel/Documents/Codex/2026-10-03/task-5/help-visual-batch/_site
+Loading translation from file /Users/pel/Documents/Codex/2026-10-03/task-5/help-visual-batch/_i18n/en.yml
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Building site for language: "es" to: /Users/pel/Documents/Codex/2026-10-03/task-5/help-visual-batch/_site/es
+Loading translation from file /Users/pel/Documents/Codex/2026-10-03/task-5/help-visual-batch/_i18n/es.yml
+Build complete
+                    done in 8.99 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+Security headers are configured
+Done in 9.92s.

@@ -1,0 +1,41 @@
+{
+  "cases": [
+    {
+      "case": "retry",
+      "message": 57,
+      "conversation": "nMNaOZrd",
+      "reason": "Delivery issue",
+      "retry_channels": 2
+    },
+    {
+      "case": "unsubscribed",
+      "message": 58,
+      "conversation": "EqZvKQrp",
+      "reason": "Customer unsubscribed",
+      "retry_channels": 0
+    },
+    {
+      "case": "converted",
+      "message": 59,
+      "conversation": "31Qb3NX0",
+      "reason": "Cart converted",
+      "retry_channels": 0
+    }
+  ],
+  "reserved_numbers": [
+    "+12025550100",
+    "+12025550101",
+    "+12025550123"
+  ],
+  "provider_connections": 0,
+  "messages": 53,
+  "messageable": 0,
+  "active_fixture_channels": [
+    58,
+    59
+  ],
+  "sends_executed": 0,
+  "retries_executed": 0,
+  "jobs": "ActiveJob::QueueAdapters::TestAdapter",
+  "mail_deliveries": false
+}
