@@ -1,0 +1,162 @@
+{
+  "source_manifest_sha256": "3cb38f3f21517be5aaebfdf965fa9671cc4f8eb3ed4c689924d0c924a57b3245",
+  "imported_manifest_sha256": "d8d6dc219e62cace7f0b5f517089147aeb23765ad13770305767a889f82adec0",
+  "manifest_change": "source_ui_evidence remapped to retained sibling evidence; runtime provider-connection statement narrowed to checked fixture numbers; JSON formatting normalized.",
+  "image_count": 8,
+  "images": [
+    {
+      "file": "workspace-es-desktop.png",
+      "sha256": "840205f4e2f05343f1954c45e17f475b1243473473baca10acba13552cd827a6",
+      "pixelSize": [
+        3840,
+        1536
+      ],
+      "nativeCssSize": [
+        960,
+        384
+      ],
+      "sourceDensity": 4,
+      "icc": "Display P3",
+      "import_byte_equal": true
+    },
+    {
+      "file": "workspace-es-mobile.png",
+      "sha256": "fac53da2ba4b58de62445b62056d238184fe81620d29a5424cc5c2f38d5b7925",
+      "pixelSize": [
+        1720,
+        1800
+      ],
+      "nativeCssSize": [
+        430,
+        450
+      ],
+      "sourceDensity": 4,
+      "icc": "Display P3",
+      "import_byte_equal": true
+    },
+    {
+      "file": "workspace-en-desktop.png",
+      "sha256": "759d6073fb0ec3631062ea11aa15c73fc936f38a07707fac341b511f895bbbf7",
+      "pixelSize": [
+        3840,
+        1536
+      ],
+      "nativeCssSize": [
+        960,
+        384
+      ],
+      "sourceDensity": 4,
+      "icc": "Display P3",
+      "import_byte_equal": true
+    },
+    {
+      "file": "workspace-en-mobile.png",
+      "sha256": "ffc4412883eee99d2d0e9810642c4e1b0062e35304c644be3b707106e1f3e9ed",
+      "pixelSize": [
+        1720,
+        1800
+      ],
+      "nativeCssSize": [
+        430,
+        450
+      ],
+      "sourceDensity": 4,
+      "icc": "Display P3",
+      "import_byte_equal": true
+    },
+    {
+      "file": "ownership-es-desktop.png",
+      "sha256": "06f1b2a275410f8637f23086deb8ff8e02be9ab9ff9d35e49c5bfa1538f9cbd4",
+      "pixelSize": [
+        1060,
+        288
+      ],
+      "nativeCssSize": [
+        265,
+        72
+      ],
+      "sourceDensity": 4,
+      "icc": "Display P3",
+      "import_byte_equal": true
+    },
+    {
+      "file": "ownership-es-mobile.png",
+      "sha256": "6f4ba369b21d5f90abbf2e09c49157a358e9dd1b2acd54e445195e4eb26088a4",
+      "pixelSize": [
+        1720,
+        344
+      ],
+      "nativeCssSize": [
+        430,
+        86
+      ],
+      "sourceDensity": 4,
+      "icc": "Display P3",
+      "import_byte_equal": true
+    },
+    {
+      "file": "ownership-en-desktop.png",
+      "sha256": "95a7935400fb3f324cfb455c082145aa7bf08135746ce4fa8871e732de4c0b90",
+      "pixelSize": [
+        1060,
+        288
+      ],
+      "nativeCssSize": [
+        265,
+        72
+      ],
+      "sourceDensity": 4,
+      "icc": "Display P3",
+      "import_byte_equal": true
+    },
+    {
+      "file": "ownership-en-mobile.png",
+      "sha256": "55233117d28930df72a094bf6f6962268e4061b3c04f20009a8abea1ae1194ee",
+      "pixelSize": [
+        1720,
+        344
+      ],
+      "nativeCssSize": [
+        430,
+        86
+      ],
+      "sourceDensity": 4,
+      "icc": "Display P3",
+      "import_byte_equal": true
+    }
+  ],
+  "metadata_files": [
+    {
+      "file": "prepare_overview_fixture.rb",
+      "sha256": "1e6863f1dc8b350c73970833ff4ad1fcce1f984c177d0f98f9506b22dc821baf",
+      "import_byte_equal": true
+    },
+    {
+      "file": "localize_overview_fixture.rb",
+      "sha256": "005703eb85ebd8f2d96f286fda5ac9ae8440e153939b952ad10e49ccc3416d28",
+      "import_byte_equal": true
+    },
+    {
+      "file": "overview-fixture-complete.json",
+      "sha256": "e2369f2af5b4aca58fefb6b7eabf5203e8090677fa550ea6960d79d491738db7",
+      "import_byte_equal": true
+    },
+    {
+      "file": "overview-safety-detail.json",
+      "sha256": "562c2605780419f0d4c1cffdde75d41981ffc8bd51efd6e3be414858997b7329",
+      "import_byte_equal": true
+    },
+    {
+      "file": "safety-overview-after.json",
+      "sha256": "e11d0350862f590d7e09ba89ac35c84035ba5e2b0ac60c8a4e353ee4af1a82dd",
+      "import_byte_equal": true
+    },
+    {
+      "file": "owned-redis-worker-count.txt",
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "import_byte_equal": true
+    }
+  ],
+  "raw_pixel_review": "All eight source PNGs inspected: real fictional question/internal note and pre-assignment control; no send or assignment result.",
+  "build_review": "Final yarn build/security headers passed; 8 source images match both locale copies. Complete ES/EN desktop/mobile pixels and all6responsiveDOMstates passed, with independent English approval. See final review records."
+}

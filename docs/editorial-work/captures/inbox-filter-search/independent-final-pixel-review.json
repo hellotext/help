@@ -1,0 +1,239 @@
+{
+  "reviewed_at_utc": "2026-10-07T02:44:03.052696+00:00",
+  "reviewer": "draft_audit",
+  "scope": "Independent local English page and figure pixel review; no article edits or external writes.",
+  "product_source_revision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+  "help_baseline_revision": "99b9bd63e6e984d8abc7fe84854dca4c5f7ddaf8",
+  "article": {
+    "path": "/Users/pel/Documents/Codex/2026-10-06/task-8/help-local/_i18n/en/team/filter-and-search-inbox.md",
+    "sha256": "4e3bc2b2f8e2c356c3bde0600dc0aa732c056b7eac33052bbda4d2014dfb960e"
+  },
+  "result": "approved_for_local_visual_presentation",
+  "issues": [],
+  "article_completion_status": "visual_pending",
+  "remaining_blocker": "The initial search figure locates the empty Search field and Show filters above a coherent fictional queue. It does not demonstrate an executed search or search result. Local Elasticsearch was unavailable; retain the original useful-result coverage requirement as pending.",
+  "review_method": {
+    "image_tool": "tools.view_image",
+    "individually_viewed_final_pngs": 13,
+    "full_page_tiles_css_height_max": 2500,
+    "screenshot_dpr": 2,
+    "pixel_review_css_widths": [
+      1440,
+      390
+    ],
+    "dom_only_css_widths": [
+      580
+    ],
+    "large_image_viewer_note": "Large saved page tiles were viewed with tool display downscaling. Dedicated figure viewport images supplemented the complete-page tile review. This is not a claim to inspect each native pixel at 1:1.",
+    "spanish_review": "Assigned to parent; outside this independent English record."
+  },
+  "observations": [
+    "Desktop page tiles cover the complete article through its footer. Navigation, article column and right contents index do not overlap. Title and headings wrap cleanly.",
+    "Mobile page tiles show the actual 390 CSS-pixel layout, without desktop sidebars. Breadcrumb, title, lists, figures, related guides and footer remain within the page width.",
+    "All three figures appear immediately after the relevant explanatory text. Following prose returns to ordinary full-column flow; no text wraps beside a figure.",
+    "Search, teammate and label controls are readable in desktop and mobile figure views. No blank figure, broken image, clipped UI control, pointer or debug overlay is visible in inserted assets.",
+    "Figures preserve native density caps: desktop widths 322/278/278 CSS px; mobile search shrinks to about 316 CSS px and the other two remain at 278 CSS px. No figure is enlarged beyond its logical native size.",
+    "Frames retain the prescribed lavender stage, subtle border and native white UI interior. Desktop space around narrow originals is balanced; mobile figures fit the column.",
+    "The Spanish word Prioridad is a fictional saved label, not an untranslated application control. Native English controls and truthful alt descriptions match the pictured state.",
+    "Accessible captions are visually clipped and figures contain no image links. Browser scrollbars at the far right of QA viewport images are page review chrome, not part of inserted app assets."
+  ],
+  "discarded_initial_attempt": {
+    "reason": "Earlier review images used incorrect desktop metrics in mobile captures and included an undecoded blank label image. Parent regenerated every capture with per-call viewport assertions and image decode waits.",
+    "assessment": "Superseded QA artifacts, not final article layout defects. This record hashes and approves only final regenerated files."
+  },
+  "files_reviewed": [
+    {
+      "path": "/Users/pel/Documents/Codex/2026-10-06/task-8/help-local/docs/editorial-work/captures/inbox-filter-search/page-review/en-desktop-page-1.png",
+      "sha256": "7c07f102f34fe6bdc2fac2c2cd62efe27d473a8c138258d5fd34ab426a0f9f5b",
+      "width_px": 2880,
+      "height_px": 5000,
+      "visually_reviewed": true
+    },
+    {
+      "path": "/Users/pel/Documents/Codex/2026-10-06/task-8/help-local/docs/editorial-work/captures/inbox-filter-search/page-review/en-desktop-page-2.png",
+      "sha256": "fb6cbe0db7371b80e16998b9dcf24f378430a538ba66ce72d2f4c89f2faa5f70",
+      "width_px": 2880,
+      "height_px": 5000,
+      "visually_reviewed": true
+    },
+    {
+      "path": "/Users/pel/Documents/Codex/2026-10-06/task-8/help-local/docs/editorial-work/captures/inbox-filter-search/page-review/en-desktop-page-3.png",
+      "sha256": "e9005fc9aac3ebc9e1cc88bfcc78af0cb97c7daaddaee8e918f311ffc79da2bb",
+      "width_px": 2880,
+      "height_px": 3668,
+      "visually_reviewed": true
+    },
+    {
+      "path": "/Users/pel/Documents/Codex/2026-10-06/task-8/help-local/docs/editorial-work/captures/inbox-filter-search/page-review/en-mobile-page-1.png",
+      "sha256": "e7c5d3a082ccf3ef9ed321f5c865c8b94347d1cd1678ed41fdc57606db20f865",
+      "width_px": 780,
+      "height_px": 5000,
+      "visually_reviewed": true
+    },
+    {
+      "path": "/Users/pel/Documents/Codex/2026-10-06/task-8/help-local/docs/editorial-work/captures/inbox-filter-search/page-review/en-mobile-page-2.png",
+      "sha256": "dca010a3582e894a1d60e17f72449e4bad159bf6fa36ff87ae68c4c36603202d",
+      "width_px": 780,
+      "height_px": 5000,
+      "visually_reviewed": true
+    },
+    {
+      "path": "/Users/pel/Documents/Codex/2026-10-06/task-8/help-local/docs/editorial-work/captures/inbox-filter-search/page-review/en-mobile-page-3.png",
+      "sha256": "3a1faf763b51e9d58da28d676fba7a6d40816d5710b74cf89c44a580fb76fe56",
+      "width_px": 780,
+      "height_px": 5000,
+      "visually_reviewed": true
+    },
+    {
+      "path": "/Users/pel/Documents/Codex/2026-10-06/task-8/help-local/docs/editorial-work/captures/inbox-filter-search/page-review/en-mobile-page-4.png",
+      "sha256": "ee0cfef37b2dba3e55138aebad3bca861bea3e90c946e7f2029310cf0d3de9b1",
+      "width_px": 780,
+      "height_px": 1772,
+      "visually_reviewed": true
+    },
+    {
+      "path": "/Users/pel/Documents/Codex/2026-10-06/task-8/help-local/docs/editorial-work/captures/inbox-filter-search/page-review/en-desktop-figure-1.png",
+      "sha256": "41e8bfa9140b591ca145161c7185b67d244dfadbc81e611f40a56d232ba9bb14",
+      "width_px": 2880,
+      "height_px": 2000,
+      "visually_reviewed": true
+    },
+    {
+      "path": "/Users/pel/Documents/Codex/2026-10-06/task-8/help-local/docs/editorial-work/captures/inbox-filter-search/page-review/en-desktop-figure-2.png",
+      "sha256": "fa9b9c2adff50010fb09b54d6ca37e47c4c628f2e4b3bd7519efab4be750d2a7",
+      "width_px": 2880,
+      "height_px": 2000,
+      "visually_reviewed": true
+    },
+    {
+      "path": "/Users/pel/Documents/Codex/2026-10-06/task-8/help-local/docs/editorial-work/captures/inbox-filter-search/page-review/en-desktop-figure-3.png",
+      "sha256": "19bb0e098552d0d1ff079a8d8ec0ceebff4c8cc6b21982c34337f57c2ead3d71",
+      "width_px": 2880,
+      "height_px": 2000,
+      "visually_reviewed": true
+    },
+    {
+      "path": "/Users/pel/Documents/Codex/2026-10-06/task-8/help-local/docs/editorial-work/captures/inbox-filter-search/page-review/en-mobile-figure-1.png",
+      "sha256": "67594769895df4ce3997a60a3187304aeb8db1256dda6c58e5f7bd36a48c8d61",
+      "width_px": 780,
+      "height_px": 2000,
+      "visually_reviewed": true
+    },
+    {
+      "path": "/Users/pel/Documents/Codex/2026-10-06/task-8/help-local/docs/editorial-work/captures/inbox-filter-search/page-review/en-mobile-figure-2.png",
+      "sha256": "f16ed5192d0df44c3ce4f0e4749ad71d9f40b49dbdd212948ef4110085ef6e41",
+      "width_px": 780,
+      "height_px": 2000,
+      "visually_reviewed": true
+    },
+    {
+      "path": "/Users/pel/Documents/Codex/2026-10-06/task-8/help-local/docs/editorial-work/captures/inbox-filter-search/page-review/en-mobile-figure-3.png",
+      "sha256": "28e565f2b7b224bc09c0b1aff101fa99c890bdd8b83ef5bcb6ed5561a6124540",
+      "width_px": 780,
+      "height_px": 2000,
+      "visually_reviewed": true
+    }
+  ],
+  "dom_evidence": [
+    {
+      "path": "/Users/pel/Documents/Codex/2026-10-06/task-8/help-local/docs/editorial-work/captures/inbox-filter-search/page-review/en-desktop.json",
+      "sha256": "bc836998105493b1bccaf002f385c1d7100bf91fc1a54406c430bde85e42b797",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "height_css_px": 6834,
+      "overflow": false,
+      "figures": [
+        {
+          "src": "http://127.0.0.1:4298/images/editorial/inbox-filter-search/search-en-desktop.png",
+          "rendered_width_css_px": 322,
+          "native_logical_width_css_px": 322,
+          "links": 0,
+          "caption_clipped": "inset(50%)"
+        },
+        {
+          "src": "http://127.0.0.1:4298/images/editorial/inbox-filter-search/team-en-desktop.png",
+          "rendered_width_css_px": 278,
+          "native_logical_width_css_px": 278,
+          "links": 0,
+          "caption_clipped": "inset(50%)"
+        },
+        {
+          "src": "http://127.0.0.1:4298/images/editorial/inbox-filter-search/labels-en-desktop.png",
+          "rendered_width_css_px": 278,
+          "native_logical_width_css_px": 278,
+          "links": 0,
+          "caption_clipped": "inset(50%)"
+        }
+      ]
+    },
+    {
+      "path": "/Users/pel/Documents/Codex/2026-10-06/task-8/help-local/docs/editorial-work/captures/inbox-filter-search/page-review/en-narrow.json",
+      "sha256": "5870e848f8d387c3d96e534674b05ee11bddddd44d05637e07b9e8cd590de755",
+      "viewport": [
+        580,
+        1000
+      ],
+      "height_css_px": 7059,
+      "overflow": false,
+      "figures": [
+        {
+          "src": "http://127.0.0.1:4298/images/editorial/inbox-filter-search/search-en-mobile.png",
+          "rendered_width_css_px": 414,
+          "native_logical_width_css_px": 414,
+          "links": 0,
+          "caption_clipped": "inset(50%)"
+        },
+        {
+          "src": "http://127.0.0.1:4298/images/editorial/inbox-filter-search/team-en-mobile.png",
+          "rendered_width_css_px": 278,
+          "native_logical_width_css_px": 278,
+          "links": 0,
+          "caption_clipped": "inset(50%)"
+        },
+        {
+          "src": "http://127.0.0.1:4298/images/editorial/inbox-filter-search/labels-en-mobile.png",
+          "rendered_width_css_px": 278,
+          "native_logical_width_css_px": 278,
+          "links": 0,
+          "caption_clipped": "inset(50%)"
+        }
+      ]
+    },
+    {
+      "path": "/Users/pel/Documents/Codex/2026-10-06/task-8/help-local/docs/editorial-work/captures/inbox-filter-search/page-review/en-mobile.json",
+      "sha256": "245c4ee024310065dd5563d492536ee34de9bfee14ecc48011d76db461422314",
+      "viewport": [
+        390,
+        1000
+      ],
+      "height_css_px": 8386,
+      "overflow": false,
+      "figures": [
+        {
+          "src": "http://127.0.0.1:4298/images/editorial/inbox-filter-search/search-en-mobile.png",
+          "rendered_width_css_px": 315.9921875,
+          "native_logical_width_css_px": 414,
+          "links": 0,
+          "caption_clipped": "inset(50%)"
+        },
+        {
+          "src": "http://127.0.0.1:4298/images/editorial/inbox-filter-search/team-en-mobile.png",
+          "rendered_width_css_px": 278,
+          "native_logical_width_css_px": 278,
+          "links": 0,
+          "caption_clipped": "inset(50%)"
+        },
+        {
+          "src": "http://127.0.0.1:4298/images/editorial/inbox-filter-search/labels-en-mobile.png",
+          "rendered_width_css_px": 278,
+          "native_logical_width_css_px": 278,
+          "links": 0,
+          "caption_clipped": "inset(50%)"
+        }
+      ]
+    }
+  ],
+  "no_publication_or_completion_claim": true
+}

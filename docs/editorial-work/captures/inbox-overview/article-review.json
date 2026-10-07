@@ -1,0 +1,241 @@
+{
+  "article": "team/inbox-overview",
+  "stage": "local_verified",
+  "product_revision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+  "reviewer": "overview_claim_check",
+  "independent_findings": [
+    {
+      "claim": "Any new activity automatically reopens closed conversations",
+      "assessment": "overbroad",
+      "resolution": "Use qualified customer-reply reopening sentence; no generic new-activity promise. Playbook open is explicit; quiet assignment can preserve closed state.",
+      "evidence": [
+        "app/models/message/recorder.rb:19-25,48-49,308-312",
+        "app/actors/journey/process_step/assignment/assign.rb:30-35,55-63",
+        "app/models/conversation/assignable.rb:93-115"
+      ]
+    },
+    {
+      "claim": "Inbox capacity controls all active work received",
+      "assessment": "narrow to automatic distribution",
+      "resolution": "Proposed ES/EN copy now says capacity helps distribute work automatically among eligible teammates; no universal cap on manual assignment or absolute independence of permissions and workload.",
+      "evidence": [
+        "app/models/privilege.rb:31-36",
+        "app/policies/business_policy.rb:8-20",
+        "app/models/conversation/ownership/team_member_pool.rb:59-68,143-177,188-191",
+        "app/models/conversation/assignable.rb:14-42"
+      ]
+    },
+    {
+      "claim": "Response health across channels, teammates and teams",
+      "assessment": "source-backed conceptual text can remain",
+      "evidence": [
+        "app/models/sla/rule.rb:31-46",
+        "app/models/conversation/sla_risk.rb:14-24,54-63",
+        "app/models/report/breakdown/service_quality/channel.rb:3-15",
+        "app/models/report/section/service_quality/agent_performance/base.rb:20-30,93-97"
+      ]
+    }
+  ],
+  "remaining": [
+    "parent production build and locale-output checks",
+    "parent complete rendered article and figure pixel review",
+    "any authorized publication handled separately"
+  ],
+  "authoring_scope": "Two bilingual overview bodies, eight immutable PNG assets, retained credential-free capture metadata/helpers, reproducible validation scripts and this work record. No product edits or external writes.",
+  "baseline_help_revision": "99b9bd63e6e984d8abc7fe84854dca4c5f7ddaf8",
+  "checks": [
+    {
+      "locale": "es",
+      "preserved_headings": 7,
+      "preserved_links": 21,
+      "all_targets_exist": true,
+      "approved_text_sha256": "22de63f8447ddfaeeb9c4b86f4b0340ac5607ef59ecac58b1b417c44d6f9239b",
+      "text_unchanged_since_approval": true,
+      "current_sha256": "d4815ffe3bb77ebd6c127e62de4da8d0a558295b8418bf2719a23158b8fd9847",
+      "figures": 2
+    },
+    {
+      "locale": "en",
+      "preserved_headings": 7,
+      "preserved_links": 21,
+      "all_targets_exist": true,
+      "approved_text_sha256": "dc803578d6c64d5a59493eb2800bc8d5097e9151ba31d65134184691b38ffffe",
+      "text_unchanged_since_approval": true,
+      "current_sha256": "d9764a326a6ac91aa24d07c44c53079f0da22b026250834fc3528c2969c99074",
+      "figures": 2
+    }
+  ],
+  "additional_copy_evidence": [
+    {
+      "claim": "Choose explicit filter state before searching, even if initially shown selected",
+      "source": [
+        "app/views/inbox/partials/_left_panel.html.erb",
+        "app/javascript/controllers/conversations/search_controller.js#searchUrl",
+        "app/javascript/controllers/conversations/filters_controller.js#changeStateFilter"
+      ]
+    },
+    {
+      "claim": "Mobile presents list/conversation/profile in separate views",
+      "source": [
+        "app/views/layouts/inbox.html.erb",
+        "app/views/conversations/_pane.html.erb",
+        "app/views/inbox/partials/_right_panel.html.erb",
+        "app/javascript/controllers/conversations/inbox_controller.js#showConversationsList",
+        "#showMobileProfile"
+      ]
+    },
+    {
+      "claim": "Asignarme / Assign to me appears for an open conversation without human/playbook owner",
+      "source": [
+        "app/views/inbox/partials/_actions.html.erb",
+        "config/locales/actions/en.yml",
+        "config/locales/actions/es.yml"
+      ]
+    },
+    {
+      "claim": "Editor tools depend on channel and conversation context; context includes channel window rather than merely conversation lifecycle state",
+      "source": [
+        "app/components/conversation/footer_component.rb#compose?",
+        "app/components/compose/component.rb#enabled_tools",
+        "#disabled?",
+        "app/components/compose/toolbar.rb#disabled?"
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "section": "Introduction and setup links",
+      "decision": "F1 workspace context integrated",
+      "reason": "Shows real Inbox orientation; linked playbook/satisfaction setup is separate."
+    },
+    {
+      "section": "How conversations move",
+      "decision": "F1 history and F2 ownership plus prose",
+      "reason": "Overview explains conversation lifecycle, not configuration or a performed reopen."
+    },
+    {
+      "section": "Find the work you need",
+      "decision": "F1 list/search/filter context plus prose/link",
+      "reason": "Detailed filtering and search results belong to the dedicated guide. No completed search is claimed by these figures."
+    },
+    {
+      "section": "Assign clear ownership",
+      "decision": "F2 ownership control integrated",
+      "reason": "Shows actual open unassigned conversation with Asignarme/Assign to me, before action; no assigned-result claim."
+    },
+    {
+      "section": "Organize access, teams, capacity",
+      "decision": "Prose and links",
+      "reason": "Conceptual distinction with automatic-capacity qualifier; no settings procedure."
+    },
+    {
+      "section": "Track response health",
+      "decision": "Prose and links",
+      "reason": "Purpose and links only; no metric values, report outcomes or rule setup."
+    },
+    {
+      "section": "Admin and ownership tasks",
+      "decision": "Prose and link",
+      "reason": "Account control concept; no transfer operation or administrator settings instruction."
+    },
+    {
+      "section": "Replying with message editor",
+      "decision": "Prose and link",
+      "reason": "Dedicated complete editor guide covers tools. This overview explains context dependence; an unreachable local footer would be misleading and is not shown."
+    },
+    {
+      "section": "Channel and satisfaction links",
+      "decision": "Prose navigation",
+      "reason": "No new reader action to illustrate."
+    }
+  ],
+  "capture_feasibility": {
+    "F1": "Accepted native 4× ES/EN desktop/mobile UI images of real incoming Message, Note and Event models in the owned fictional database. No live-channel or outgoing-delivery claim.",
+    "F2": "Accepted native 4× ES/EN desktop/mobile header images of the open unassigned fictional conversation. Button observed; no assignment action performed.",
+    "composer": "Not required; existing nonmessageable contact fixture notice should be outside context crop.",
+    "Elasticsearch": "Not required by either overview figure."
+  },
+  "originals_snapshot_checks_before_edits": [
+    {
+      "locale": "es",
+      "article_unchanged": true,
+      "headings": 7,
+      "links": 21,
+      "all_link_targets_exist": true
+    },
+    {
+      "locale": "en",
+      "article_unchanged": true,
+      "headings": 7,
+      "links": 21,
+      "all_link_targets_exist": true
+    }
+  ],
+  "independent_text_review": {
+    "status": "approved",
+    "outstanding_findings": 0,
+    "reviewer": "draft_audit",
+    "record": "independent-review.json",
+    "resolved_finding": "The Asignarme/Assign to me instruction is conditional on the button appearing at the top of an open conversation, avoiding an availability promise for AI-owned, closed or snoozed conversations."
+  },
+  "fixture_source_audit": {
+    "mode": "read-only advice; execution owned by capture agent",
+    "source_revision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+    "findings": [
+      "Message origin, destination, channel, technology, provider are optional; plain received body path nil-guards endpoints.",
+      "Message body uses ActionText; state_updated_at is required by received timestamp rendering.",
+      "Message after_create_commit only delivers if deliver is true. Do not call Message::Recorder, which runs classifications, reopen, notifications and other lifecycle actions.",
+      "Note with notable:nil does not invoke Mercadolibre note creation; mention callback queues a job. Event can use skip_broadcast:true; ES update job is queued. Keep test adapter/no workers.",
+      "Browser message viewing posts local sightings; nil source_id prevents the third-party received read-receipt branch. No connected-channel claim is made."
+    ],
+    "anchors": [
+      "app/models/message.rb",
+      "app/views/messages/_message.erb",
+      "app/components/message/state_component.rb",
+      "app/models/note.rb",
+      "app/models/concerns/acts_as_mentioner.rb",
+      "app/models/event.rb",
+      "app/models/event/broadcasting.rb",
+      "app/models/message/viewable.rb",
+      "app/controllers/message/sightings_controller.rb"
+    ]
+  },
+  "visual_integration": {
+    "figures_per_locale": 2,
+    "source_pngs": 8,
+    "source_density": 4,
+    "manifest": "manifest.json",
+    "import_record": "import-verification.json",
+    "native_caps_css": {
+      "workspace-desktop": [
+        960,
+        384
+      ],
+      "workspace-mobile": [
+        430,
+        450
+      ],
+      "ownership-desktop": [
+        265,
+        72
+      ],
+      "ownership-mobile": [
+        430,
+        86
+      ]
+    },
+    "raw_pixels_reviewed": true,
+    "final_render_status": "passed ES/EN complete pages and both figures desktop/mobile; 1440/580/390 responsive DOM checks passed",
+    "static_syntax_checks": "passed",
+    "collection_stub_unchanged": true
+  },
+  "final_validation": {
+    "build": "yarn build passed; security headers passed",
+    "images": "8 source PNGs, 16 byte-identical built copies; native 4x Display P3",
+    "english_review": "independent-final-pixel-review.json",
+    "spanish_review": "final-spanish-pixel-review.json",
+    "responsive_checks": "page-review/summary.json",
+    "pending_useful_visuals": [],
+    "publication": "Local verification complete; publication tracked separately"
+  }
+}

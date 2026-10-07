@@ -1,0 +1,222 @@
+{
+  "reviewed_at_utc": "2026-10-07T02:55:08.399170+00:00",
+  "reviewer": "draft_audit",
+  "article_pair": "team/inbox-overview",
+  "scope": "Independent English complete-page and figure pixel review plus final bilingual two-pair text/evidence consistency checks. No external writes or application actions by reviewer.",
+  "help_baseline_revision": "99b9bd63e6e984d8abc7fe84854dca4c5f7ddaf8",
+  "product_revision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+  "result": "approved",
+  "issues": [],
+  "pixel_review": {
+    "individually_viewed_final_pngs": 9,
+    "method": "tools.view_image on each saved final image",
+    "css_widths": [
+      1440,
+      390
+    ],
+    "dom_only_css_width": 580,
+    "screenshot_dpr": 2,
+    "coverage": "Two desktop full-page tiles and three mobile full-page tiles cover the complete page through footer. Each of two figures also reviewed in separate desktop/mobile viewport images.",
+    "viewer_limitation": "Large saved page tiles are displayed downscaled by the image viewer. Dedicated figure viewport views supplement this review; no claim of inspecting every native pixel at 1:1.",
+    "spanish": "Parent separately reviews all nine Spanish page/figure PNGs; not independently pixel-reviewed in this record."
+  },
+  "observations": [
+    "Desktop and mobile pages render the complete title, article, original related-guide links, feedback block and footer without visible overflow, overlap or broken imagery.",
+    "Workspace figure follows the opening orientation paragraph. Desktop shows the fictional queue beside actual history; mobile uses the genuine conversation layout. Incoming size question and internal size-guide note are distinct and readable.",
+    "Ownership figure follows the conditional Assign to me instruction. Both layouts show the unclicked control; mobile includes the fictional Isabella header. No assigned-result or sent-reply claim appears.",
+    "Both figures remain within their native logical width: desktop workspace about 698.4 CSS px against 960 native, ownership 265 against 265; mobile figures about 316 against 430. No enlargement beyond native size.",
+    "Lavender stages, white inset frames and subtle borders remain consistent. Hidden captions and truthful alt text are present; figures are not image links.",
+    "No debug overlay, pointer, blank figure or unsupported active composer appears inside the inserted assets. Right-edge page scrollbars belong to QA viewport captures, outside source figures.",
+    "The previously approved qualified reopening, automatic capacity, editor-context and conditional ownership claims remain intact after figure integration."
+  ],
+  "two_pair_consistency": {
+    "result": "approved_for_local_preparation",
+    "articles": [
+      {
+        "path": "_i18n/en/team/filter-and-search-inbox.md",
+        "sha256": "4e3bc2b2f8e2c356c3bde0600dc0aa732c056b7eac33052bbda4d2014dfb960e",
+        "headings_preserved": 15,
+        "links_preserved": 6
+      },
+      {
+        "path": "_i18n/es/team/filter-and-search-inbox.md",
+        "sha256": "097a16a3a3f7dc181ba5b5fab9da2be2dc21945ea618c024b72c0b414c4a37c5",
+        "headings_preserved": 15,
+        "links_preserved": 6
+      },
+      {
+        "path": "_i18n/en/team/inbox-overview.md",
+        "sha256": "d9764a326a6ac91aa24d07c44c53079f0da22b026250834fc3528c2969c99074",
+        "headings_preserved": 7,
+        "links_preserved": 21
+      },
+      {
+        "path": "_i18n/es/team/inbox-overview.md",
+        "sha256": "d4815ffe3bb77ebd6c127e62de4da8d0a558295b8418bf2719a23158b8fd9847",
+        "headings_preserved": 7,
+        "links_preserved": 21
+      }
+    ],
+    "source_images_matching_manifests": 20,
+    "built_locale_image_byte_comparisons_passed": 40,
+    "originals": "All five retained original body/stub files matched the explicit Help baseline in preceding consistency pass.",
+    "filter_status": "visual_pending in work record; in_progress in ledger. Its accepted figures and page presentation do not prove an executed search result.",
+    "overview_status": "Conceptual overview text and two-figure coverage approved. Parent owns final status/commit reconciliation after its Spanish review.",
+    "safety": "Reviewed fixture helpers require the owned synthetic database and runtime safeguards. Retained final safety reports show two received fixture messages, one note, unassigned Isabella, no send or assignment UI action, zero external integrations/tokens, test jobs and disabled mail delivery.",
+    "limited_secret_pattern_scan": {
+      "text_files": 86,
+      "matches": 0,
+      "scope": "Changed/untracked text relative to explicit Help baseline, excluding node_modules. Common credential formats plus manual helper and evidence review; not an exhaustive security audit."
+    },
+    "private_source_bodies": "No application source bodies copied; UI evidence retains paths/hashes. Only custom fixture/capture/review helpers are included.",
+    "scope_check": "No changed paths outside the four article bodies, editorial-work records and two image directories relative to baseline.",
+    "records": "Earlier baseline inventory wording was corrected to baseline. Historical capture-stage pending statements are qualified by their owner/stage; final parent work record will cite this approval.",
+    "remaining_blocker": "Filter/search guide still lacks an actual useful matching-search result because local Elasticsearch was unavailable. No fabricated result or complete status is approved."
+  },
+  "files_reviewed": [
+    {
+      "path": "docs/editorial-work/captures/inbox-overview/page-review/en-desktop-page-1.png",
+      "sha256": "fac1efbb6059109f806abe267d913911418272f329405beacdbff9558920792f",
+      "width_px": 2880,
+      "height_px": 5000,
+      "visually_reviewed": true
+    },
+    {
+      "path": "docs/editorial-work/captures/inbox-overview/page-review/en-desktop-page-2.png",
+      "sha256": "57962b133794377b791bf18fd014045c98cc181ba694a8d6d01af9b2bfd35917",
+      "width_px": 2880,
+      "height_px": 3392,
+      "visually_reviewed": true
+    },
+    {
+      "path": "docs/editorial-work/captures/inbox-overview/page-review/en-mobile-page-1.png",
+      "sha256": "db4f822c5951691a837ead0146fdb1983df8605d2a0b4c5bb30bd20ba938896d",
+      "width_px": 780,
+      "height_px": 5000,
+      "visually_reviewed": true
+    },
+    {
+      "path": "docs/editorial-work/captures/inbox-overview/page-review/en-mobile-page-2.png",
+      "sha256": "65658fd6a7e7d4c2973763188739ce8e2db987bca6aac7f3774279daa3842491",
+      "width_px": 780,
+      "height_px": 5000,
+      "visually_reviewed": true
+    },
+    {
+      "path": "docs/editorial-work/captures/inbox-overview/page-review/en-mobile-page-3.png",
+      "sha256": "407e167bbd53a35fffb9bf30273035faed53bc1b786dc1256c012e494e5e7204",
+      "width_px": 780,
+      "height_px": 774,
+      "visually_reviewed": true
+    },
+    {
+      "path": "docs/editorial-work/captures/inbox-overview/page-review/en-desktop-figure-1.png",
+      "sha256": "da4d168d82fc6743c33dddf94a1db58fdcefd0324bc15a4243c39a3f602ca29f",
+      "width_px": 2880,
+      "height_px": 2000,
+      "visually_reviewed": true
+    },
+    {
+      "path": "docs/editorial-work/captures/inbox-overview/page-review/en-desktop-figure-2.png",
+      "sha256": "281cea4fdde2849b9e1d1f2e24953043f3f53cceb5fec3a90ea033d1cf7258ab",
+      "width_px": 2880,
+      "height_px": 2000,
+      "visually_reviewed": true
+    },
+    {
+      "path": "docs/editorial-work/captures/inbox-overview/page-review/en-mobile-figure-1.png",
+      "sha256": "c3ccccb0e252e5c2d08bbca6f635a5127e43275abfcc326c9ba05b2414e20470",
+      "width_px": 780,
+      "height_px": 2000,
+      "visually_reviewed": true
+    },
+    {
+      "path": "docs/editorial-work/captures/inbox-overview/page-review/en-mobile-figure-2.png",
+      "sha256": "bc460e5031ebba34365a9dc4002c23c3c1dd73d23b3cab0404c87cab182310b0",
+      "width_px": 780,
+      "height_px": 2000,
+      "visually_reviewed": true
+    }
+  ],
+  "dom_evidence": [
+    {
+      "path": "docs/editorial-work/captures/inbox-overview/page-review/en-desktop.json",
+      "sha256": "b32f9e3073cf10f3dcd9ab82ffee33c67aa346501da00c05d92ac8fb0e230def",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "height_css_px": 4196,
+      "overflow": false,
+      "figures": [
+        {
+          "src": "http://127.0.0.1:4298/images/editorial/inbox-overview/workspace-en-desktop.png",
+          "rendered_width_css_px": 698.3984375,
+          "native_logical_width_css_px": 960,
+          "links": 0,
+          "caption_clip": "inset(50%)"
+        },
+        {
+          "src": "http://127.0.0.1:4298/images/editorial/inbox-overview/ownership-en-desktop.png",
+          "rendered_width_css_px": 265,
+          "native_logical_width_css_px": 265,
+          "links": 0,
+          "caption_clip": "inset(50%)"
+        }
+      ]
+    },
+    {
+      "path": "docs/editorial-work/captures/inbox-overview/page-review/en-narrow.json",
+      "sha256": "f7887189d1b9b5905022df195a6d970bb2d14036b65bf37d32e7e917d1467f84",
+      "viewport": [
+        580,
+        1000
+      ],
+      "height_css_px": 4780,
+      "overflow": false,
+      "figures": [
+        {
+          "src": "http://127.0.0.1:4298/images/editorial/inbox-overview/workspace-en-mobile.png",
+          "rendered_width_css_px": 430,
+          "native_logical_width_css_px": 430,
+          "links": 0,
+          "caption_clip": "inset(50%)"
+        },
+        {
+          "src": "http://127.0.0.1:4298/images/editorial/inbox-overview/ownership-en-mobile.png",
+          "rendered_width_css_px": 430,
+          "native_logical_width_css_px": 430,
+          "links": 0,
+          "caption_clip": "inset(50%)"
+        }
+      ]
+    },
+    {
+      "path": "docs/editorial-work/captures/inbox-overview/page-review/en-mobile.json",
+      "sha256": "8fe2395d970e4fbf9988b31e2f8aa1bbccac7af4c417b15fc2c3441463659f44",
+      "viewport": [
+        390,
+        1000
+      ],
+      "height_css_px": 5387,
+      "overflow": false,
+      "figures": [
+        {
+          "src": "http://127.0.0.1:4298/images/editorial/inbox-overview/workspace-en-mobile.png",
+          "rendered_width_css_px": 315.9921875,
+          "native_logical_width_css_px": 430,
+          "links": 0,
+          "caption_clip": "inset(50%)"
+        },
+        {
+          "src": "http://127.0.0.1:4298/images/editorial/inbox-overview/ownership-en-mobile.png",
+          "rendered_width_css_px": 315.9765625,
+          "native_logical_width_css_px": 430,
+          "links": 0,
+          "caption_clip": "inset(50%)"
+        }
+      ]
+    }
+  ],
+  "external_writes_by_reviewer": false
+}

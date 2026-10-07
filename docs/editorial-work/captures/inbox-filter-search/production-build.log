@@ -1,0 +1,22 @@
+yarn run v1.22.19
+warning package.json: No license field
+warning Skipping preferred cache folder "/Users/pel/Library/Caches/Yarn" because it is not writable.
+warning Selected the next writable cache folder in the list, will be "/var/folders/2g/vbdf658d6yn_ssz9f354rdkm0000gn/T/.yarn-cache-501".
+$ JEKYLL_ENV=production bundle exec jekyll build && ruby script/verify_security_headers.rb
+Configuration file: /Users/pel/Documents/Codex/2026-10-06/task-8/help-local/_config.yml
+            Source: /Users/pel/Documents/Codex/2026-10-06/task-8/help-local
+       Destination: /Users/pel/Documents/Codex/2026-10-06/task-8/help-local/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating...
+Building site for language: "en" to: /Users/pel/Documents/Codex/2026-10-06/task-8/help-local/_site
+Loading translation from file /Users/pel/Documents/Codex/2026-10-06/task-8/help-local/_i18n/en.yml
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Building site for language: "es" to: /Users/pel/Documents/Codex/2026-10-06/task-8/help-local/_site/es
+Loading translation from file /Users/pel/Documents/Codex/2026-10-06/task-8/help-local/_i18n/es.yml
+Build complete
+                    done in 8.98 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+Security headers are configured
+Done in 9.84s.

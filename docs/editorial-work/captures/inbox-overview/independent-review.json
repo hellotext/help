@@ -1,0 +1,54 @@
+{
+  "reviewed_utc": "2026-10-07T02:35:36.683790+00:00",
+  "scope": "Independent text and section-coverage review before native screenshot integration. No Help article/application/external edits by reviewer.",
+  "product_revision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+  "files": [
+    {
+      "path": "/Users/pel/Documents/Codex/2026-10-06/task-8/help-local/_i18n/es/team/inbox-overview.md",
+      "sha256": "22de63f8447ddfaeeb9c4b86f4b0340ac5607ef59ecac58b1b417c44d6f9239b",
+      "headings_preserved": true,
+      "ordered_liquid_links_preserved": true
+    },
+    {
+      "path": "/Users/pel/Documents/Codex/2026-10-06/task-8/help-local/_i18n/en/team/inbox-overview.md",
+      "sha256": "dc803578d6c64d5a59493eb2800bc8d5097e9151ba31d65134184691b38ffffe",
+      "headings_preserved": true,
+      "ordered_liquid_links_preserved": true
+    }
+  ],
+  "source_reads": {
+    "app/views/inbox/partials/_actions.html.erb": "complete",
+    "app/models/conversation/assignable.rb": "1-125",
+    "app/models/concerns/reopens_conversations.rb": "complete",
+    "app/models/message/recorder.rb": "1-63,297-320",
+    "app/actors/journey/process_step/assignment/assign.rb": "1-78",
+    "app/views/layouts/inbox.html.erb": "1-150",
+    "app/views/conversations/_pane.html.erb": "1-42 retained visible text; later template scope not needed",
+    "app/javascript/controllers/conversations/inbox_controller.js": "545-581",
+    "app/models/conversation/ownership/team_member_pool.rb": "59-68,143-191",
+    "app/components/conversation/footer_component.rb": "compose?/compose_include_options/messageable? and channel availability selected ranges",
+    "app/components/compose/component.rb": "152-166,194-195"
+  },
+  "approved_claims": [
+    "Qualified customer-reply reopening with ownership-settings dependency; no generic any-event guarantee.",
+    "Explicit Show filters state selection before search; no claim the screenshot demonstrates runtime search.",
+    "Capacity helps automatic distribution among eligible members; no universal cap on direct manual assignment.",
+    "Mobile list/conversation/profile separate views.",
+    "Editor tools depend on channel and conversation context; no assertion of universal rich-content availability."
+  ],
+  "coverage_assessment": "Two genuine images can fully cover this conceptual overview: current workspace/history/context and an actual unclicked ownership control. The article links dedicated filter/lifecycle/assignment/settings/editor guides rather than teaching their complete workflows; search success and an active composer are therefore not required visuals here. This rationale is specific to the overview and does not close the detailed filter-and-search guide\u2019s pending F1.",
+  "findings": [
+    {
+      "severity": "low",
+      "title": "Qualify Assign to me availability",
+      "status": "resolved in both actual files",
+      "description": "The added paragraph says any conversation without an owner exposes Assign to me. Source requires open/unassigned and no assigned user or playbook. A closed or snoozed ownerless conversation shows Reopen.",
+      "article_line": 37,
+      "source": "app/views/inbox/partials/_actions.html.erb:7-10,30-33",
+      "recommendation": "Condition the instruction on the control appearing in an open conversation; do not imply every ownerless state shows it.",
+      "resolution": "The copy now conditions Assign to me on that control appearing at the top of an open conversation, avoiding a promise for closed/snoozed ownerless states."
+    }
+  ],
+  "approval": "Approved text and conceptual two-figure coverage against pinned Rails6dc36367. Zero outstanding text findings. Actual accepted native figures and full ES/EN desktop/mobile page QA remain required.",
+  "final_reviewed_utc": "2026-10-07T02:35:49.167599+00:00"
+}

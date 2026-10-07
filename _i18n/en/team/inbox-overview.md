@@ -2,6 +2,20 @@ Use the inbox to manage the conversations that need attention from your team.
 
 The inbox brings together customer replies, support questions, order follow-up, and conversations that a playbook, route, or AI agent escalates to a person.
 
+Open a conversation from the list to review its history and customer context. On mobile, the list, conversation, and profile appear in separate views.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Read a conversation and its internal context">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 984px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/inbox-overview/workspace-en-mobile.png 4x" width="1720" height="1800" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-overview/workspace-en-desktop.png" srcset="/images/editorial/inbox-overview/workspace-en-desktop.png 4x" width="3840" height="1536" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Conversation history showing a fictional customer asking about jacket sizing and an internal note to check the size guide before replying." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real interface with a fictional incoming question and internal note. No reply was sent.</figcaption>
+</figure>
+
 If you are comparing the Inbox with playbooks and campaigns, start with [How Hellotext works]({% link _getting-started/how-hellotext-works.md %}).
 
 If you are setting up AI or playbook escalations, read [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %}).
@@ -12,17 +26,17 @@ If you want to follow up on low loyalty scores after delivery, use [NPS Pulse]({
 
 ## How conversations move through the inbox
 
-A conversation can start when a customer replies to a message, writes through a connected channel such as [Webchat]({% link _captures/webchat-widget-playbook.md %}), or needs attention after a playbook, route, order, or tracked event.
+A conversation can start when a customer replies to a message or writes through a connected channel such as [Webchat]({% link _captures/webchat-widget-playbook.md %}). The Inbox also receives cases that a playbook, route, or AI agent hands off to the team.
 
 Your team can keep the conversation unassigned, assign it to a teammate, reassign it to someone else, or close it when no further action is needed.
 
-Closed conversations reopen automatically when the customer replies again or when new activity requires your team to act.
+A new customer reply can reopen a closed conversation. Its assignment depends on the business's conversation ownership settings.
 
 Keep reading: [Conversation lifecycle in Inbox]({% link _team/conversation-lifecycle.md %}).
 
 ## Find the work you need
 
-Use state, teammate, and label filters to move between priority work, unassigned conversations, your assigned queue, reminders, mentions, and completed conversations. Search can then locate a customer by name, alias, email, phone number, or conversation ID inside the selected view.
+Use state, teammate, and label filters to move between priority work, unassigned conversations, your assigned queue, reminders, mentions, and completed conversations. Before searching within a view, open **Show filters** and choose its state, even if it already appears selected; check the teammates and labels. Then search for the customer by name, alias, email, phone number, or conversation ID.
 
 Keep reading: [Filter and search conversations in Inbox]({% link _team/filter-and-search-inbox.md %}).
 
@@ -32,15 +46,29 @@ Every conversation should have a clear owner when a person needs to respond.
 
 Use assignments to decide who is responsible for the next reply. This keeps customers from waiting while multiple teammates assume someone else is handling the conversation.
 
+When **Assign to me** appears at the top of an open conversation, you can use it to take responsibility for the next reply.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Find the Assign to me control">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 454px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/inbox-overview/ownership-en-mobile.png 4x" width="1720" height="344" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-overview/ownership-en-desktop.png" srcset="/images/editorial/inbox-overview/ownership-en-desktop.png 4x" width="1060" height="288" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Assign to me button in the header of an open, unassigned conversation, before the assignment action." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real interface with fictional data. The conversation remains unassigned; the button has not been used.</figcaption>
+</figure>
+
 Keep reading: [Assign conversations]({% link _team/assigning-conversations.md %}).
 
 If the conversation was escalated by an AI agent, playbook, or route, also review [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %}).
 
 ## Organize access, teams, and capacity
 
-Roles define what each teammate can see and do. Teams identify the operational groups that can receive routed conversations, while Inbox capacity controls how much active work eligible teammates receive.
+Roles define what each teammate can see and do. Teams group the people who can receive routed conversations, while Inbox capacity helps distribute work automatically among eligible teammates.
 
-Keep these settings separate so a person's product access does not accidentally determine their workload.
+Configure access permissions and workload distribution according to each person's responsibilities.
 
 Keep reading: [Team roles and permissions]({% link _team/understanding-team-roles.md %}).
 
@@ -64,7 +92,7 @@ Keep reading: [Transfer business ownership]({% link _integrations/transferring-o
 
 ## Replying with the message editor
 
-When a teammate replies from the inbox, the message editor provides formatting, tracked links, personalization tags, and supported rich content for the active channel.
+When replying from the inbox, the editor's available tools depend on the active channel and conversation context. Depending on the channel, you can use formatting, tracked links, personalization tags, and rich content.
 
 Keep reading: [Message editor overview]({% link _numbers/message-editor-overview.md %}).
 
