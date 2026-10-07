@@ -1,0 +1,17 @@
+{
+  "article": "troubleshooting-deliverability/sms-sending-limits-for-new-businesses.md",
+  "base": "7eeb71e0f26c84d7633f8027a34499cc33a305d9",
+  "app_revision": "992de02f9ff379bf248a8f88e611d484d53bf7d7",
+  "scope": "Spanish first, matching English; current native UI and reset-window correction",
+  "sections": {
+    "why_limited": "Policy explanation; no interface action",
+    "under_review": "Settings summary badge, desktop/mobile. Native tooltip inspected, but a separate image duplicates the adjacent limit explanation and its translucent overlay obscures the business name; retain badge views plus accessible prose.",
+    "failure_reason": "Complete native failed-message bubble and explicit daily-limit status, with matching desktop/mobile and ES/EN sources. Genuine tooltip inspected by hover; no retry action. New isolated fixture was created directly in error state with deliver:false, not by sending.",
+    "limit_increases": "Explains review and email notification; do not fabricate verification email",
+    "sending_quality": "Editorial guidance; no screenshot adds a useful control",
+    "credit_accounts": "Scope explanation, no account changes",
+    "faq": "Text answers and source-backed reset correction"
+  },
+  "public_ready": true,
+  "visual_pending": []
+}
