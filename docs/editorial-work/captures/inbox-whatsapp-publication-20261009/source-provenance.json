@@ -1,0 +1,448 @@
+{
+  "recorded_at": "2026-10-09T13:11:49.805384+00:00",
+  "status": "scoped_source_comparison_reviewed_pixels_pending",
+  "curation": "Compact references and review conclusions only; no application source bodies.",
+  "runtime_revision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+  "comparison_revision": "9b59f5ce5056952d26336edc318eba4457a8e4a4",
+  "comparison_revision_meaning": "Current app master only; deployment to production has not been established.",
+  "immutable_source_url_pattern": "https://github.com/hellotext/hellotext/blob/{revision}/{path}",
+  "comparison_url": "https://github.com/hellotext/hellotext/compare/6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31...9b59f5ce5056952d26336edc318eba4457a8e4a4",
+  "reviewed_at": "2026-10-09T13:06:25.271340+00:00",
+  "target": "Twelve ES/EN desktop/mobile context, profile and empty WhatsApp composer captures; closed tool menus and untouched copy controls.",
+  "method": "One immutable recursive Git tree GET, complete and non-truncated; Git blob hashes of actual runtime bytes. Six newly needed changed blobs read in memory only. Ten cached patches applied in memory to runtime files and resulting blobs matched immutable current tree. No source bodies copied into Help.",
+  "broad_scan": {
+    "current_ui_js_css_locale_files": 6027,
+    "identical": 5895,
+    "changed_or_added": 132,
+    "runtime_files_removed_in_current": 0
+  },
+  "target_records_reviewed": 410,
+  "selected_source_references": [
+    {
+      "path": "app/components/avatar_component.rb",
+      "runtime_blob": "e5918c57b608d3bfb174c41e4452a79f374eca65",
+      "current_blob": "e5918c57b608d3bfb174c41e4452a79f374eca65",
+      "identical": true
+    },
+    {
+      "path": "app/components/avatar_component/avatar_component.html.erb",
+      "runtime_blob": "702b4d134554a94e1427107aed3a5b8314b79341",
+      "current_blob": "702b4d134554a94e1427107aed3a5b8314b79341",
+      "identical": true
+    },
+    {
+      "path": "app/components/compose/component.rb",
+      "runtime_blob": "67b8c15b2824c77bdb98803c09613d422a9caa78",
+      "current_blob": "8f7ce91de2f304a26741daab68055a56b1e206ff",
+      "identical": false
+    },
+    {
+      "path": "app/components/compose/component/component.html.erb",
+      "runtime_blob": "297e15584ec8885a58b75686f371abf1cec75751",
+      "current_blob": "297e15584ec8885a58b75686f371abf1cec75751",
+      "identical": true
+    },
+    {
+      "path": "app/components/compose/toolbar/emoji_component.html.erb",
+      "runtime_blob": "f2b1291d07b4436368d4e59bc918a0316a3a93d5",
+      "current_blob": "cecefd5a090cb64f65cfbd0f9fc92b9656d65e36",
+      "identical": false
+    },
+    {
+      "path": "app/components/compose/toolbar/tags_component.rb",
+      "runtime_blob": "89905e4dd6f11a67bc1eb055761480d9d9d58558",
+      "current_blob": "cb2561200e3e2fd0cae7d08ec852f098aba8c63e",
+      "identical": false
+    },
+    {
+      "path": "app/components/compose/toolbar/toolbar.html.erb",
+      "runtime_blob": "65d219d09f979597eb71d75774eb423ededde7dd",
+      "current_blob": "3ef59166964713057c6cb0e5c2145b8b1b4f6bc3",
+      "identical": false
+    },
+    {
+      "path": "app/components/contact/avatar.html.erb",
+      "runtime_blob": "2367ddf93ad58efbb0828355f6ed6e8da22acec0",
+      "current_blob": "2367ddf93ad58efbb0828355f6ed6e8da22acec0",
+      "identical": true
+    },
+    {
+      "path": "app/components/contact/avatar.rb",
+      "runtime_blob": "22693402cdcf6641b9c32034cfd72a4974156c37",
+      "current_blob": "22693402cdcf6641b9c32034cfd72a4974156c37",
+      "identical": true
+    },
+    {
+      "path": "app/components/conversation/compose_context_component.rb",
+      "runtime_blob": "081389c16f78d4c81a98acd8da55f90f7071690d",
+      "current_blob": "081389c16f78d4c81a98acd8da55f90f7071690d",
+      "identical": true
+    },
+    {
+      "path": "app/components/conversation/footer_component.rb",
+      "runtime_blob": "e3f48e7e0b28c86df80118b262ea8401e739acc9",
+      "current_blob": "e3f48e7e0b28c86df80118b262ea8401e739acc9",
+      "identical": true
+    },
+    {
+      "path": "app/components/conversation/footer_component/footer_component.html.erb",
+      "runtime_blob": "b022a2e24f9e63537f8e8ffdb1413c61d41a8c86",
+      "current_blob": "b022a2e24f9e63537f8e8ffdb1413c61d41a8c86",
+      "identical": true
+    },
+    {
+      "path": "app/components/copy_component.rb",
+      "runtime_blob": "973e2d429003f064a50c1d14793c87f81243f041",
+      "current_blob": "47f7102d86a77adf41b5f60aad375a226726a6f5",
+      "identical": false
+    },
+    {
+      "path": "app/components/copy_to_clipboard/button_component.rb",
+      "runtime_blob": "465c30582cb6041f453ebb62a17d5f86b72173f4",
+      "current_blob": "6d6f70685b1e298cbbd1c15ff7523ef61b481a7f",
+      "identical": false
+    },
+    {
+      "path": "app/components/property/copy_component.rb",
+      "runtime_blob": "8984030712878d0fc8a87d14968fcfc42bf9dd3c",
+      "current_blob": "3205a68823627a8310d6d7c1081a31caf9313ccc",
+      "identical": false
+    },
+    {
+      "path": "app/controllers/profiles_controller.rb",
+      "runtime_blob": "d795c7f51b2de93bb7114c76860f901672bc28cf",
+      "current_blob": "d795c7f51b2de93bb7114c76860f901672bc28cf",
+      "identical": true
+    },
+    {
+      "path": "app/javascript/controllers/compose/toolbar/emoji_controller.js",
+      "runtime_blob": "daf931f0b3ea4369b699890be2aa55f431077618",
+      "current_blob": "81fa252896fb5661a034ba5aea78af87b081d477",
+      "identical": false
+    },
+    {
+      "path": "app/javascript/controllers/compose/toolbar/vcards_controller.js",
+      "runtime_blob": "69ea3fc2bc734f724c831e459e1471dc80e2b745",
+      "current_blob": "ce38f40be59b589ada5bf001fed267a03bafd28f",
+      "identical": false
+    },
+    {
+      "path": "app/javascript/entrypoints/stylesheets/application.scss",
+      "runtime_blob": "2be9c868f409174ee3a995ee73cb1f9958a5932d",
+      "current_blob": "2638d46277205d96968a7b08c76ac5a0dacd1c4b",
+      "identical": false
+    },
+    {
+      "path": "app/models/business/compose_channels.rb",
+      "runtime_blob": "648cbd7f504222be0daae48e24f564ed73b089d5",
+      "current_blob": "648cbd7f504222be0daae48e24f564ed73b089d5",
+      "identical": true
+    },
+    {
+      "path": "app/models/business/integrations.rb",
+      "runtime_blob": "4416d934ace51aee9fb91cf26f54d5314b8fb031",
+      "current_blob": "4416d934ace51aee9fb91cf26f54d5314b8fb031",
+      "identical": true
+    },
+    {
+      "path": "app/models/channel.rb",
+      "runtime_blob": "ca001ffa55bee95846f696c5affa0b991ff1b123",
+      "current_blob": "ca001ffa55bee95846f696c5affa0b991ff1b123",
+      "identical": true
+    },
+    {
+      "path": "app/models/contact/interactivity.rb",
+      "runtime_blob": "c67febbdd06a9d7d1385a0cf75968061e17036cc",
+      "current_blob": "c67febbdd06a9d7d1385a0cf75968061e17036cc",
+      "identical": true
+    },
+    {
+      "path": "app/models/conversation/window.rb",
+      "runtime_blob": "8f990097bf0aae933d56078c414c60b6f52060ad",
+      "current_blob": "8f990097bf0aae933d56078c414c60b6f52060ad",
+      "identical": true
+    },
+    {
+      "path": "app/models/identity.rb",
+      "runtime_blob": "042045bafad5bf98a6390d1c97147402d8b7744e",
+      "current_blob": "042045bafad5bf98a6390d1c97147402d8b7744e",
+      "identical": true
+    },
+    {
+      "path": "app/models/profile/header/preloader.rb",
+      "current_blob": "2d6d60b76df33cf4636c15a07c20d387d3e1905e",
+      "cached_patch_sha256": "eed9fa8f27c31d76b1d36f21f2addc6d530023db5aca6c0b8982a179ef1e632b",
+      "matches_current": true,
+      "method": "Independent reviewer applied cached patch in memory and matched immutable current blob."
+    },
+    {
+      "path": "app/models/whatsapp/identity.rb",
+      "runtime_blob": "a87f0b8a6ea479c5b89d4b7a5914a76fb49c9acf",
+      "current_blob": "a87f0b8a6ea479c5b89d4b7a5914a76fb49c9acf",
+      "identical": true
+    },
+    {
+      "path": "app/models/whatsapp/profile.rb",
+      "runtime_blob": "43c0b8fd855ed9cd9a195c737664bea8b8300fb1",
+      "current_blob": "1ab8394717e3802006c3fbca21c86669349dc7a3",
+      "identical": false
+    },
+    {
+      "path": "app/models/whatsapp/profile_phone_number.rb",
+      "runtime_blob": "34862789f761cc66ccb6eb240665cc44637754b6",
+      "current_blob": "34862789f761cc66ccb6eb240665cc44637754b6",
+      "identical": true
+    },
+    {
+      "path": "app/models/whatsapp/profile_phone_number/registrable.rb",
+      "runtime_blob": "75a32b6ebfae5953937ae45db84a19c8240a0ab7",
+      "current_blob": "75a32b6ebfae5953937ae45db84a19c8240a0ab7",
+      "identical": true
+    },
+    {
+      "path": "app/views/conversation/events/_page_content.html.erb",
+      "runtime_blob": "a578ad59d31ff43e008a0c907553c88df3954339",
+      "current_blob": "a578ad59d31ff43e008a0c907553c88df3954339",
+      "identical": true
+    },
+    {
+      "path": "app/views/conversation/events/index.html.erb",
+      "runtime_blob": "b3e69454a0017f24f36ba749f0a4306eebb606ef",
+      "current_blob": "b3e69454a0017f24f36ba749f0a4306eebb606ef",
+      "identical": true
+    },
+    {
+      "path": "app/views/conversation/participants/index.html.erb",
+      "runtime_blob": "f096e8dc7e0eb0222353047b78a63ab899083edd",
+      "current_blob": "f096e8dc7e0eb0222353047b78a63ab899083edd",
+      "identical": true
+    },
+    {
+      "path": "app/views/conversations/_content.html.erb",
+      "runtime_blob": "e8e47384e280018f29d92ab1e4d036e4568151c5",
+      "current_blob": "e8e47384e280018f29d92ab1e4d036e4568151c5",
+      "identical": true
+    },
+    {
+      "path": "app/views/conversations/_context.html.erb",
+      "runtime_blob": "049737c398a5b6b7ee4e65f0906fa259c4c77a58",
+      "current_blob": "049737c398a5b6b7ee4e65f0906fa259c4c77a58",
+      "identical": true
+    },
+    {
+      "path": "app/views/conversations/_conversation.erb",
+      "runtime_blob": "abc639a497ba67c7ef51df5ba05d54c4d0a5bc7b",
+      "current_blob": "abc639a497ba67c7ef51df5ba05d54c4d0a5bc7b",
+      "identical": true
+    },
+    {
+      "path": "app/views/conversations/_last_event.html.erb",
+      "runtime_blob": "5f20a29a0fe7bd2171488d7993e5a4cc50b433df",
+      "current_blob": "5f20a29a0fe7bd2171488d7993e5a4cc50b433df",
+      "identical": true
+    },
+    {
+      "path": "app/views/conversations/show.html.erb",
+      "runtime_blob": "ba85fe79b838b765cb613f958111782a0b5fec10",
+      "current_blob": "ba85fe79b838b765cb613f958111782a0b5fec10",
+      "identical": true
+    },
+    {
+      "path": "app/views/inbox/partials/_left_panel.html.erb",
+      "runtime_blob": "24cb37b496ddeab9a6bdf482a6f011c6946a0399",
+      "current_blob": "24cb37b496ddeab9a6bdf482a6f011c6946a0399",
+      "identical": true
+    },
+    {
+      "path": "app/views/inbox/partials/_right_panel.html.erb",
+      "runtime_blob": "24bd8bd193c8d4b45cf7c4f114df039beabece4a",
+      "current_blob": "24bd8bd193c8d4b45cf7c4f114df039beabece4a",
+      "identical": true
+    },
+    {
+      "path": "app/views/profile/properties/form/_preferred_locale.html.erb",
+      "runtime_blob": null,
+      "current_blob": "1a1afc068bd6315bcb38db1f934ff72759fd764e",
+      "identical": false
+    },
+    {
+      "path": "app/views/profile/properties/form/_text.html.erb",
+      "runtime_blob": "40ed69dc174ace79cf271001cd661b516291737c",
+      "current_blob": "eeb160d4b98a75700ee436a427c2678fa98ba01b",
+      "identical": false
+    },
+    {
+      "path": "app/views/profile/property/preferred_locales/update.turbo_stream.erb",
+      "runtime_blob": null,
+      "current_blob": "07d89dbdf85ac04c1fd564658977bfd00260651d",
+      "identical": false
+    },
+    {
+      "path": "app/views/profiles/_header.html.erb",
+      "runtime_blob": "3998569d5248a18c9502e6cec736228a9a4f3239",
+      "current_blob": "3998569d5248a18c9502e6cec736228a9a4f3239",
+      "identical": true
+    },
+    {
+      "path": "app/views/profiles/header/_avatar.html.erb",
+      "runtime_blob": "dc9693bfc95c30220559e892cd31f1ee2a97cffd",
+      "current_blob": "dc9693bfc95c30220559e892cd31f1ee2a97cffd",
+      "identical": true
+    },
+    {
+      "path": "app/views/profiles/header/_extras.html.erb",
+      "runtime_blob": "a1f37c98630ff40e717cc8288926a05f49e3a56d",
+      "current_blob": "a1f37c98630ff40e717cc8288926a05f49e3a56d",
+      "identical": true
+    },
+    {
+      "path": "app/views/profiles/header/_minimal_properties.html.erb",
+      "runtime_blob": "c5fd3c6591fdb657fd99b7961d8666f49c10fb47",
+      "current_blob": "c5fd3c6591fdb657fd99b7961d8666f49c10fb47",
+      "identical": true
+    },
+    {
+      "path": "app/views/profiles/header/_properties_expander.html.erb",
+      "runtime_blob": "d42e7057c5ed21f9827979b0e76ebdca69f09d06",
+      "current_blob": "d42e7057c5ed21f9827979b0e76ebdca69f09d06",
+      "identical": true
+    },
+    {
+      "path": "app/views/profiles/show.turbo_stream.erb",
+      "runtime_blob": "71b7f58d28fb123d031a1d18436afc7340c4c58e",
+      "current_blob": "71b7f58d28fb123d031a1d18436afc7340c4c58e",
+      "identical": true
+    },
+    {
+      "path": "config/application.rb",
+      "runtime_blob": "b0cf25a7d16405956a0c59ab7540dd6cb3cf6820",
+      "current_blob": "b0cf25a7d16405956a0c59ab7540dd6cb3cf6820",
+      "identical": true
+    },
+    {
+      "path": "config/environments/production.rb",
+      "runtime_blob": "a728fca3f260c48acc271594dba17ee10b62670d",
+      "current_blob": "a728fca3f260c48acc271594dba17ee10b62670d",
+      "identical": true
+    },
+    {
+      "path": "config/environments/test.rb",
+      "runtime_blob": "5098d173870cbd3d4ee6bfdc0d3850bc2b31b1c5",
+      "current_blob": "5098d173870cbd3d4ee6bfdc0d3850bc2b31b1c5",
+      "identical": true
+    },
+    {
+      "path": "config/initializers/session_store.rb",
+      "runtime_blob": "e57debf2c79d5fad38032228aa07a57a341928e6",
+      "current_blob": "e57debf2c79d5fad38032228aa07a57a341928e6",
+      "identical": true
+    },
+    {
+      "path": "config/locales/fields/en.yml",
+      "runtime_blob": "42b08ed3ed6524f749a5d80e5ac738b58ffe4bf4",
+      "current_blob": "898566a4c3185a6011666b2e0addf7037c61738b",
+      "identical": false
+    },
+    {
+      "path": "config/locales/fields/es.yml",
+      "runtime_blob": "e5b56350a40a1ef6a2c575bc9db969f56d43517f",
+      "current_blob": "75a3fa1d497307d96a5f6919a1f0786ddae5d18c",
+      "identical": false
+    },
+    {
+      "path": "config/locales/views/properties/en.yml",
+      "runtime_blob": "389a08ad35996c8ab34a14dfc5161e356c07e758",
+      "current_blob": "149241c038437167cac06d290d737e97ce5aae09",
+      "identical": false
+    },
+    {
+      "path": "config/locales/views/properties/es.yml",
+      "runtime_blob": "61689c5727801306e93f04ca9051d56e3b3aac39",
+      "current_blob": "2329c7b823511201135da3e16263f1cb28948fed",
+      "identical": false
+    },
+    {
+      "path": "config/vite.json",
+      "runtime_blob": "b05f64a87cd42ebc03e04d240a255625195fdf36",
+      "current_blob": "b05f64a87cd42ebc03e04d240a255625195fdf36",
+      "identical": true
+    }
+  ],
+  "selected_reference_scope": "Core rendering, avatar, profile, composer, native test environment, model gates and every assessed changed path. This is a compact subset, not the complete source review.",
+  "differences_assessed": [
+    {
+      "paths": [
+        "app/components/compose/toolbar/emoji_component.html.erb",
+        "app/components/compose/toolbar/toolbar.html.erb",
+        "app/javascript/controllers/compose/toolbar/emoji_controller.js"
+      ],
+      "difference": "Adds eager picker preparation for campaign mode and changes picker open/autoFocus lifecycle. Toolbar#campaign? is @compose.mode == campaign.",
+      "target_effect": "No visible change to the closed empty Inbox toolbar. Do not use this comparison to approve an opened emoji picker."
+    },
+    {
+      "paths": [
+        "app/components/compose/component.rb",
+        "app/components/compose/toolbar/tags_component.rb",
+        "app/javascript/controllers/compose/toolbar/vcards_controller.js"
+      ],
+      "difference": "Excludes preferred_locale personalization and changes Escape handling for an open vCard popover.",
+      "target_effect": "No visible change with the tag and vCard menus closed."
+    },
+    {
+      "paths": [
+        "app/javascript/entrypoints/stylesheets/application.scss"
+      ],
+      "difference": "Campaign-report layout/styles and table-section-label preview exception only.",
+      "target_effect": "No changed Inbox layout selector; target screens contain no campaign-report rows or message preview carousel."
+    },
+    {
+      "paths": [
+        "app/components/copy_component.rb",
+        "app/components/copy_to_clipboard/button_component.rb"
+      ],
+      "difference": "Generic inline copy alignment and copy tooltip keyboard/focus/escape behavior.",
+      "target_effect": "Profile uses Property::CopyComponent and explicit CopyToClipboard button container classes. No visible change to the non-hovered, non-focused static profile."
+    },
+    {
+      "paths": [
+        "app/models/profile/header/preloader.rb",
+        "app/components/property/copy_component.rb",
+        "app/views/profile/properties/form/_text.html.erb",
+        "app/views/profile/properties/form/_preferred_locale.html.erb",
+        "app/views/profile/property/preferred_locales/update.turbo_stream.erb",
+        "config/locales/fields/en.yml",
+        "config/locales/fields/es.yml",
+        "config/locales/views/properties/en.yml",
+        "config/locales/views/properties/es.yml"
+      ],
+      "difference": "Preferred-language field, conditional header backfill, editing and localized labels.",
+      "target_effect": "Captured fixture has the established phone/email/address placeholders plus company/birthday, filling the five-slot header. Menus/edit forms and preferred-language values are not part of these targets. Confirm this same fieldset in final pixels; do not claim profiles with language data are unchanged."
+    }
+  ],
+  "required_source_update_for_targets": false,
+  "product_or_dependency_changes_required": false,
+  "remaining_pixel_conditions": [
+    "Real WhatsApp icon/control and selected open window visible.",
+    "No Impersonate, no fabricated photo avatars, no changed DOM or pixels.",
+    "Composer remains empty, all emoji/tag/vCard menus closed; copy tooltips not focused or hovered.",
+    "Profile retains the fixture five-slot fieldset; no unreviewed preferred-language control is depicted."
+  ],
+  "limits": [
+    "No global source parity or test/production operational parity.",
+    "No certificate that master9b59 is deployed.",
+    "No send, delivery, connected-service, read-receipt or configured-channel-selector outcome."
+  ],
+  "upstream_review_bindings": [
+    {
+      "record": "renderer-source-currency.json",
+      "sha256": "27723252219029aadf0d2e2e28e002b1f25b6a5495b7717a8ce9c2d709cf6b1a",
+      "content_included": false
+    },
+    {
+      "record": "scoped-source-currency.json",
+      "sha256": "0457e41a7bdf71729c09710cf0ebd24ec27068659e5cd4069c98e819408cd682",
+      "content_included": false
+    }
+  ],
+  "complete_review_files_stay_local": "Upstream review files and source bodies are not copied into this publication candidate."
+}

@@ -1,0 +1,49 @@
+{
+  "status": "verified",
+  "scope": "newly_accepted_captures_only",
+  "channel": "whatsapp",
+  "source_revision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+  "reviewer": "root; draft_audit",
+  "reviewed_at": "2026-10-09T13:17:51.615150+00:00",
+  "authentic_application_state": true,
+  "development_controls_absent": true,
+  "impersonation_controls_absent": true,
+  "no_dom_or_pixel_fabrication": true,
+  "no_messages_sent": true,
+  "evidence_files": [
+    {
+      "path": "source-provenance.json",
+      "sha256": "0a00bd780098741ab6c12dc03cdcc34d16b1fa4d024d66d248d2bf3003dbc238"
+    },
+    {
+      "path": "fixture-provenance.json",
+      "sha256": "bf76d83e75e06b861d28550b94e3a452cf4289f6069ea44d6c4d614a958adf44"
+    },
+    {
+      "path": "first-candidate-review.json",
+      "sha256": "4eddf57cd89785fcd10a3111b6301e433f43ac1dc8352d7ce4e8167768c94810"
+    },
+    {
+      "path": "raw-review-es.json",
+      "sha256": "87e4833701ea7d5be495770c8811489807c11214dfa0d023215b2730f8297fc6"
+    },
+    {
+      "path": "raw-review-en.json",
+      "sha256": "6a1cca7cd6cabbf9b244b2cbf4017459a979fd534a6f992510d92dfa32f0b462"
+    },
+    {
+      "path": "capture-final-safety.json",
+      "sha256": "1f9316a4301f2039fa5811bbf3a8480539dc1d43a5bb8deb698e8eba7c758c1b"
+    }
+  ],
+  "limits": [
+    "Verification applies only to the twelve accepted context/profile/composer captures. App master comparison is scoped static compatibility, not proof of that revision being deployed or global environment parity.",
+    "The real captured source is6dc36367;9b59f5ce is the comparison revision.",
+    "Disconnected fictional WhatsApp window; no send, registration, connected-service, configured-selector, cursor, seen or delivery outcome is claimed.",
+    "Native initials, notification notices, user-created labels and natural truncation are retained. The Spanish mobile profile has native overflow in a nonessential empty-activity placeholder; relevant profile fields and controls are complete.",
+    "Published filters remain byte-exact from main. This revision does not correct filter legibility or search-result coverage.",
+    "Rendered Help-page review and publication verification are separate gates."
+  ],
+  "runtime_revision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+  "comparison_revision": "9b59f5ce5056952d26336edc318eba4457a8e4a4"
+}

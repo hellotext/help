@@ -1,0 +1,72 @@
+{
+  "recorded_at": "2026-10-09T13:18:57.525610+00:00",
+  "status": "curation_and_combined_source_acceptance_passed",
+  "publicable_records": [
+    {
+      "path": "source-provenance.json",
+      "sha256": "0a00bd780098741ab6c12dc03cdcc34d16b1fa4d024d66d248d2bf3003dbc238",
+      "bytes": 19025
+    },
+    {
+      "path": "fixture-provenance.json",
+      "sha256": "bf76d83e75e06b861d28550b94e3a452cf4289f6069ea44d6c4d614a958adf44",
+      "bytes": 6612
+    },
+    {
+      "path": "first-candidate-review.json",
+      "sha256": "4eddf57cd89785fcd10a3111b6301e433f43ac1dc8352d7ce4e8167768c94810",
+      "bytes": 1138
+    },
+    {
+      "path": "source-review.json",
+      "sha256": "3c1cbef7147b4c67f1bf519391ed91d24065900f8816a677ba1fb05bec11960a",
+      "bytes": 2341
+    },
+    {
+      "path": "raw-review-es.json",
+      "sha256": "87e4833701ea7d5be495770c8811489807c11214dfa0d023215b2730f8297fc6",
+      "bytes": 2484
+    },
+    {
+      "path": "raw-review-en.json",
+      "sha256": "6a1cca7cd6cabbf9b244b2cbf4017459a979fd534a6f992510d92dfa32f0b462",
+      "bytes": 6083
+    },
+    {
+      "path": "capture-final-safety.json",
+      "sha256": "1f9316a4301f2039fa5811bbf3a8480539dc1d43a5bb8deb698e8eba7c758c1b",
+      "bytes": 2096
+    }
+  ],
+  "reviewed_helpers_config_copy_unchanged": true,
+  "source_revision_meaning": "Comparison to app master9b59, not proof of production deployment.",
+  "no_private_source_bodies_or_access_material_copied": true,
+  "first_candidate_hash_rechecked": true,
+  "native_pngs_imported": 12,
+  "source_review_pending": false,
+  "articles_integrated": true,
+  "final_post_capture_table_verification": "Capture-owner final aggregate reports all unrelated rows preserved, original ES values restored, timestamps unchanged.",
+  "complete_raw_matrix_review": "ES six reviewed by root; EN six reviewed by draft_audit; all twelve current PNG hashes match.",
+  "build": "not_run",
+  "browser": "not_run",
+  "commit": "not_performed",
+  "publication": "not_performed",
+  "spanish_native_pixel_acceptance_records_copied_byte_exact": true,
+  "spanish_accepted_source_hashes_rechecked": 6,
+  "spanish_rendered_article_review": "pending",
+  "manifest_sha256": "ec55c4ae37a02a76861b217ee71a60c8ead9850207fd4c9288f261efd4f13e16",
+  "asset_import_record_sha256": "9795a5519465ce1340b69c037dbd979ce8fb826c68b13efe1623c7c82ceddcf9",
+  "independent_curation_review": {
+    "reviewer": "/root/draft_audit",
+    "result": "Privacy and claim boundaries approved; source_revision corrected to executed6dc and comparison_revision separately9b59."
+  },
+  "combined_acceptance": "root authorized local preview after raw ES/EN and final fixture verification",
+  "combined_acceptance_sha256": "36d2a869d9f288be94d9860d81d1daabe207fc8c03a2c0dc6ef34f4ba3e3fac6",
+  "integration_record_sha256": "247c1d38b998c92eaf38f8787686b488b34930064b46d7d87b96d2cb43b53968",
+  "remaining_gates": [
+    "Production build and source-to-built checks",
+    "Both overview pages at desktop/narrow/mobile and pixel review",
+    "Independent minimal diff review",
+    "Root-managed commit, authorized publication and public HTTP verification"
+  ]
+}

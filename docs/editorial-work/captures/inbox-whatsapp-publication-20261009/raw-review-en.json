@@ -1,0 +1,155 @@
+{
+  "status": "accepted_for_local_preview",
+  "reviewer": "draft_audit",
+  "reviewed_at": "2026-10-09T13:15:02.158253+00:00",
+  "locale": "en",
+  "scope": "All six native English context/profile/composer desktop/mobile source PNGs; not rendered article approval.",
+  "manifest_sha256": "ec55c4ae37a02a76861b217ee71a60c8ead9850207fd4c9288f261efd4f13e16",
+  "runtime_revision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+  "source_currency_review_sha256": "27723252219029aadf0d2e2e28e002b1f25b6a5495b7717a8ce9c2d709cf6b1a",
+  "files": [
+    {
+      "file": "context-en-desktop.png",
+      "sha256": "f02e9fe5897079957fd8d13a76fa302dd7cb0b30b8f3189484ea8111bfa8f505",
+      "pixelSize": [
+        4720,
+        3480
+      ],
+      "native_css_size": [
+        1180,
+        870
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3 Gamut with sRGB Transfer",
+      "viewed_with": "view_image",
+      "pixel_review": "approved_for_local_preview",
+      "observations": [
+        "Native three-panel Inbox with nine visible fictional conversations.",
+        "Selected conversation history, internal note, empty WhatsApp editor and five-field customer profile visible.",
+        "English interface; preserved fictional customer content/labels in other rows may remain Spanish."
+      ]
+    },
+    {
+      "file": "context-en-mobile.png",
+      "sha256": "75fa23fab3410502dc7f972807f2b0669ecd7b4dd5bd0e7d3ac62cf4329bea86",
+      "pixelSize": [
+        1560,
+        3920
+      ],
+      "native_css_size": [
+        390,
+        980
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3 Gamut with sRGB Transfer",
+      "viewed_with": "view_image",
+      "pixel_review": "approved_for_local_preview",
+      "observations": [
+        "Native mobile conversation-list view with nine complete visible rows.",
+        "Search and top navigation fit; truncation in previews uses native ellipsis.",
+        "Labels and some unrelated fictional message content remain Spanish user data, not mistranslated interface controls."
+      ]
+    },
+    {
+      "file": "profile-en-desktop.png",
+      "sha256": "6a43dd02deb9c9f615834e5cea5d1b3ef1f050a1b5b0e548d7548b24a7fd5712",
+      "pixelSize": [
+        1884,
+        3276
+      ],
+      "native_css_size": [
+        471,
+        819
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3 Gamut with sRGB Transfer",
+      "viewed_with": "view_image",
+      "pixel_review": "approved_for_local_preview",
+      "observations": [
+        "Clean isolated profile crop without neighboring-panel stroke.",
+        "Phone/email/address placeholders, company and birthday visible; native initials, no Impersonate or preferred-language control.",
+        "Activity/Note and empty-activity message retained; no tooltip or edit form open."
+      ]
+    },
+    {
+      "file": "profile-en-mobile.png",
+      "sha256": "62936faace846da6a08cb72871441c848086850818a3d0507cdc54b1215eed6a",
+      "pixelSize": [
+        1560,
+        3600
+      ],
+      "native_css_size": [
+        390,
+        900
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3 Gamut with sRGB Transfer",
+      "viewed_with": "view_image",
+      "pixel_review": "approved_for_local_preview",
+      "observations": [
+        "Native separate mobile profile view with back control and full five-field profile.",
+        "Bottom activity text/add control intact; no modal, tooltip, dev control or cut-off field."
+      ]
+    },
+    {
+      "file": "composer-en-desktop.png",
+      "sha256": "44777d9edeb021f93bd0570c0acd31d0bcd3bd58d222d2de849f516a3b253639",
+      "pixelSize": [
+        3512,
+        3276
+      ],
+      "native_css_size": [
+        878,
+        819
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3 Gamut with sRGB Transfer",
+      "viewed_with": "view_image",
+      "pixel_review": "approved_for_local_preview",
+      "observations": [
+        "Native WhatsApp icon visible in received message and empty reply editor.",
+        "English question/history/internal note plus customer context; all toolbar controls intact.",
+        "Menus closed, no message typed or outgoing/success state; native notification prompt retained."
+      ]
+    },
+    {
+      "file": "composer-en-mobile.png",
+      "sha256": "6184d10c5a94b42b7986db81a59e41d2cdc610eacd6233ec285134c7abfbbe2e",
+      "pixelSize": [
+        1560,
+        3600
+      ],
+      "native_css_size": [
+        390,
+        900
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3 Gamut with sRGB Transfer",
+      "viewed_with": "view_image",
+      "pixel_review": "approved_for_local_preview",
+      "observations": [
+        "Native mobile conversation view; header uses natural contact-name ellipsis.",
+        "Received history/internal note and empty WhatsApp reply editor fit without clipped toolbar controls.",
+        "Notification prompt retained; no opened picker, copy tooltip or Impersonate."
+      ]
+    }
+  ],
+  "issues": [],
+  "nonblocking_native_details": [
+    "English UI retains untranslated fictional user-created labels and older message snippets in unrelated rows.",
+    "Native notification permission notice remains; no permission action is evidenced or claimed.",
+    "Native initials are the supported avatar rendering.",
+    "Native ellipsis preserves compact mobile header and conversation previews."
+  ],
+  "source_currency_conditions_verified": [
+    "Empty WhatsApp editor and real WhatsApp icons; no opened emoji/tag/vCard menu.",
+    "Five-slot profile has phone/email/address placeholders plus company/birthday; no preferred-language field.",
+    "No Impersonate, copy tooltip or fabricated portrait; no neighboring-panel artifact in profile crop."
+  ],
+  "limitations": [
+    "No send, delivery, registration, connected-provider or read-receipt outcome.",
+    "Current app master9b59 comparison does not establish production deployment or global test/production parity.",
+    "Rendered Help-page legibility/layout remains a separate gate.",
+    "Final post-capture database preservation and Spanish restoration remain capture-owner checks."
+  ]
+}

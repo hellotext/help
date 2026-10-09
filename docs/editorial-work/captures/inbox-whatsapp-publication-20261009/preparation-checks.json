@@ -1,0 +1,53 @@
+{
+  "recorded_at": "2026-10-09T13:00:07.949349+00:00",
+  "status": "preparation_checks_passed",
+  "baseline": "0729ce7cb263ad0c481f4938a6dfb6be10db6070",
+  "branch": "codex/inbox-whatsapp-publication",
+  "remote_publication_url": "https://github.com/hellotext/help",
+  "existing_origin_is_local_do_not_push": true,
+  "article_and_stub_snapshots_identical": 6,
+  "old_referenced_pngs_preserved": 24,
+  "planned_new_overview_pngs": 12,
+  "planned_retained_ownership_pngs": 4,
+  "preserved_filter_pngs": 12,
+  "planned_total_referenced_sources": 28,
+  "planned_built_byte_comparisons": 56,
+  "retained_filter_corrections_claimed": false,
+  "inventory_unresolved": 45,
+  "ledger_unchanged": true,
+  "tracked_files_unchanged": true,
+  "shared_guide_pin_unchanged": true,
+  "syntax_checks": "Python compile and node --check passed",
+  "local_plan_checks": "integration --plan and page-review --plan passed without browser or article writes",
+  "relative_document_links_checked": 7,
+  "prose_anchor_checks": 6,
+  "existing_ruby_dependencies": "bundle check passed with Ruby3.3.6; no install",
+  "existing_node_dependencies": "tracked packages reused; only ws linked to existing isolated worktree; no install",
+  "local_only_excluded_from_commit": [
+    "node_modules/ws"
+  ],
+  "independent_review": {
+    "reviewer": "/root/draft_audit",
+    "result": "No blocking findings in read-only helper/copy/config review. No build or browser run; WhatsApp copy remains contingent on accepted actual control."
+  },
+  "experimental_ancestor_delta_files": 272,
+  "experimental_ancestor_cherry_picked": false,
+  "capture_status": "pending actual raw acceptance",
+  "integration": "not_run",
+  "build": "not_run",
+  "browser": "not_run",
+  "commit": "not_performed",
+  "publication": "not_performed",
+  "helper_hashes": {
+    "verify-build.py": "e5176424d3a36c821308459c838705162828a81652faeed8e0dee9d3b6bf603f",
+    "review-browser.mjs": "87804a86febebc8fa42bd16fff77cd6447a1391b2a140a3a4277efa412b1fb0c",
+    "preservation-baseline.json": "4a11e740cd60d77f1f9da6659f25e7f99dfcbb50c0f8d608855dd50487c7e8f9",
+    "integrate-candidates.py": "264baf1c68cb7ce96c4ca8e72b0976ea3a5dabf252b6d4b8af48ddc2dbeb58d7",
+    "source-review.template.json": "1989e994cacc344c7be29d5869908d09934a94336dbff03ad59a50804380896b",
+    "proposed-figure-copy.json": "e505220dd67ca3f6b6236557a7c69850cceb061cffed38702b8e74ebb1219c4a",
+    "revision_support.py": "89570d762b25b2dbf6cdf363c34f25d4e7f082a71c832e591b9ea48ff9529586",
+    "review-local-pages.py": "f9ac8f41bf0f69b02b98ceb15574a88c69c31f12b0cd44f8d4e88b659fa92029",
+    "raw-acceptance.template.json": "afdea45b992b6b8d4e34b8752c17d2dccae222281cdc45598c9a05a58cdec577",
+    "revision-config.json": "d6d76ebaea440c392dcc94ff8089a667e3551c7708fe2d800bc1cec2c426961b"
+  }
+}
