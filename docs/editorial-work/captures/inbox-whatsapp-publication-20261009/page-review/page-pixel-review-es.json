@@ -1,0 +1,114 @@
+{
+  "status": "passed",
+  "reviewer": "root",
+  "locale": "es",
+  "reviewed_at": "2026-10-09T13:22:34.034196+00:00",
+  "integration_sha256": "247c1d38b998c92eaf38f8787686b488b34930064b46d7d87b96d2cb43b53968",
+  "build_verification_sha256": "2e952f003bc5b8642f05a93df05f5f63563986b9a163fede9c1a2a17f8976d83",
+  "geometry": [
+    {
+      "file": "overview-es-desktop.json",
+      "sha256": "82c7c320e789b6a4af0a51f13875b1796c89699ad261a285dc2b1c4d25064f16",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "max_display_to_native_ratio": 1.0,
+      "minimum_source_pixels_per_display_pixel": 4.0,
+      "pixel_review": "passed"
+    },
+    {
+      "file": "overview-es-narrow.json",
+      "sha256": "107ffb4e018a38574784cdc9b08011cf6ad2373a10b1ce4807162ed9b7352fda",
+      "viewport": [
+        580,
+        1000
+      ],
+      "max_display_to_native_ratio": 1.0,
+      "minimum_source_pixels_per_display_pixel": 4.0,
+      "pixel_review": "geometry only; same mobile sources, no separate pixel capture"
+    },
+    {
+      "file": "overview-es-mobile.json",
+      "sha256": "ff67e5a4b05334380fe5472dc5d3b3b1edd2e797015e8b0e60544ec2de43d0c4",
+      "viewport": [
+        390,
+        1000
+      ],
+      "max_display_to_native_ratio": 0.8102363782051282,
+      "minimum_source_pixels_per_display_pixel": 4.936830914530126,
+      "pixel_review": "passed"
+    }
+  ],
+  "viewed_images": [
+    {
+      "file": "overview-es-desktop-figure-1.png",
+      "sha256": "e656c988f5855e9711b1bade5542427b872c39315ab3ed3c9ed23e44a77f5f31"
+    },
+    {
+      "file": "overview-es-desktop-figure-2.png",
+      "sha256": "2c99723b174028f1dd85a46d3c2612040f3cbf3e366f3fd8c6425df97f0790ea"
+    },
+    {
+      "file": "overview-es-desktop-figure-3.png",
+      "sha256": "954f221cf44600cea6bc1269a2eed47f516973511e8e0def9718797de15556a3"
+    },
+    {
+      "file": "overview-es-desktop-figure-4.png",
+      "sha256": "ae945fe5af2eaebb1387866109157f7c9ea7e17e080f0ec4e23b9831081c3ea1"
+    },
+    {
+      "file": "overview-es-desktop-page-1.png",
+      "sha256": "522bd0c5406142371c83e6b8b27fc74009204f501702728bbbce5ab1523c37a3"
+    },
+    {
+      "file": "overview-es-desktop-page-2.png",
+      "sha256": "892c4750f5bbb34b3c565c5502b57fd0f2ad45693b27d6ff72e6b7be4b58ca43"
+    },
+    {
+      "file": "overview-es-desktop-page-3.png",
+      "sha256": "5cfbc5634009ac9dd073f97f23017040938895b536145ab2a3b169ad55947986"
+    },
+    {
+      "file": "overview-es-mobile-figure-1.png",
+      "sha256": "2ebf0d326c97634205375c4c920261e625aaf37e45421d7ca5567639f1ca9826"
+    },
+    {
+      "file": "overview-es-mobile-figure-2.png",
+      "sha256": "91b3342ea89ec91f2d78dadf8c800227f4a6b1061c0a934cfedc894b9f0346f4"
+    },
+    {
+      "file": "overview-es-mobile-figure-3.png",
+      "sha256": "5a5752aa9bc7c1f6b70d5889d0f8b31a4d8e5decef4cf903872d1f61cfa8fee4"
+    },
+    {
+      "file": "overview-es-mobile-figure-4.png",
+      "sha256": "175002b83e7194e1b7eb572953398bcf90deda0e97b385739b8262e43338e44f"
+    },
+    {
+      "file": "overview-es-mobile-page-1.png",
+      "sha256": "d862672560f5eeef1227260af368f0fe7b3edf06023baa4a98976bcd890c23fd"
+    },
+    {
+      "file": "overview-es-mobile-page-2.png",
+      "sha256": "5d11f667ee6c7605eb34aca4840941aa6b3a46a50ea903371f7c861d96202310"
+    },
+    {
+      "file": "overview-es-mobile-page-3.png",
+      "sha256": "f233e63265404e0b082db26c43873635ea5880cec927166fec1829a069aa5d1b"
+    },
+    {
+      "file": "overview-es-mobile-page-4.png",
+      "sha256": "de44a87e0cf92b2b71a56e934f8ac3ad3f92eccc7b836b69bc8847b32d930418"
+    }
+  ],
+  "findings": [
+    "Complete desktop and mobile page tiles and all four figure strips inspected",
+    "Prose establishes the purpose before each new figure; surrounding links, navigation and headings remain intact",
+    "Context shows the native three-pane arrangement; dedicated profile and composer sources provide the detailed views",
+    "Desktop and mobile sources stay inside the article column, retain the bordered lavender stage and separate white inset, and never upscale",
+    "All figures remain static with zero links or open controls; accessible descriptions distinguish fictional data and an empty unsent composer",
+    "The mobile profile retains native truncation in the nonessential empty-activity placeholder; its relevant fields and controls remain complete"
+  ],
+  "review_artifacts": "PNG page-review images are retained locally, not included in the publication commit; these hashes identify the inspected artifacts."
+}

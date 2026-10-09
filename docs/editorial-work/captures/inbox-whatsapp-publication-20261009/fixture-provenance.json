@@ -1,0 +1,137 @@
+{
+  "recorded_at": "2026-10-09T13:11:49.805384+00:00",
+  "status": "fixture_preparation_capture_and_restoration_reviewed",
+  "runtime_revision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+  "baseline_bootstrap": {
+    "recorded_at": "2026-10-09T12:46:57.828776+00:00",
+    "scope": "Isolated snapshot before the WhatsApp demonstration fixture was applied.",
+    "verified_app_lib_config_files": 10939,
+    "source_left_unchanged": true,
+    "rails_environment": "test",
+    "queue_adapter": "ActiveJob::QueueAdapters::TestAdapter",
+    "workers": 0,
+    "performed_jobs": 0,
+    "no_shared_configuration_or_role_changes": true,
+    "previous_runtime_database_and_files_untouched": true,
+    "external_network_denied": true,
+    "network_smoke_scope": "Local stubs only; no app, PostgreSQL, Redis, Vite, browser or DNS query",
+    "network_smoke_passed": true,
+    "network_smoke_limit": "Local stub checks; this record does not establish delivery or production connectivity."
+  },
+  "fictional_scene": {
+    "technology": "WhatsApp",
+    "window_open": true,
+    "composer_outer_gate": "existing_webchat_identity",
+    "business_whatsapp_enabled": false,
+    "contact_whatsapp_reachable": false,
+    "channel_status": "inactive",
+    "profile_state": "draft",
+    "line_status": "pending",
+    "created_record_types": [
+      "channel",
+      "contactable",
+      "customer_identity",
+      "customer_wa_identity",
+      "event",
+      "message",
+      "message_rich_text",
+      "profile",
+      "profile_line",
+      "sender_identity",
+      "sender_phone",
+      "window"
+    ],
+    "created_record_total": 12,
+    "limits": [
+      "Disconnected fictional WhatsApp window; no integration, registration, delivery or configured-selector claim.",
+      "Existing Webchat identity supplies the native outer composer gate; native window/technology selects WhatsApp.",
+      "Browser/DOM/pixel evidence still required; no corrected image is claimed."
+    ]
+  },
+  "preparation": {
+    "status": "prepared_locally_no_jobs_executed",
+    "performed_jobs": 0,
+    "outgoing_messages_created": 0,
+    "queued_job_total": 5,
+    "queued_jobs_executed": false,
+    "queue_scope": "Five native preparation jobs were retained in the test adapter, including registration, contact, message and indexing work; no worker or queue drain ran."
+  },
+  "fixture_verification": {
+    "status": "read_only_verification_passed",
+    "checked_at": "2026-10-09T07:54:02-05:00",
+    "all_unrelated_database_rows_unchanged": true,
+    "performed_jobs_in_verifier": 0,
+    "queue_verification_limit": "Bound to preparation receipt; this new runner does not reconstruct an in-memory TestAdapter queue.",
+    "render_verified": false
+  },
+  "independent_review": {
+    "status": "fixture_apply_and_read_only_verification_reviewed",
+    "reviewed_at": "2026-10-09T12:55:54.307489+00:00",
+    "table_count_compared": 538,
+    "all_unrelated_rows_preserved": true,
+    "bindings_match_current_files": true,
+    "render_verified": false,
+    "binding_scope": "The independent reviewer inspected the complete private fixture receipt and private verification stdout. Their hashes differ from the separate compact preparation/verification JSON summaries, by design. Neither private input is included here."
+  },
+  "later_read_only_verification": {
+    "status": "read_only_verification_passed",
+    "checked_at": "2026-10-09T07:57:03-05:00",
+    "all_unrelated_database_rows_unchanged": true,
+    "performed_jobs_in_verifier": 0,
+    "render_verified": false
+  },
+  "capture_prerequisites_reported_by_independent_reviewer": {
+    "reviewer": "/root/draft_audit",
+    "reported_at": "2026-10-09T13:11:49.805384+00:00",
+    "status": "historical_capture_control_prerequisites_superseded_by_final_verification_above",
+    "authentic_session": "A native test session was prepared for the fictional user in a read-only runner, preserving authentication eligibility; no permissions were changed. No login test or production account is implied.",
+    "expected_read_effects": "Initial event rendering queues a cursor job retained by the test adapter. Three expected sightings POST requests are aborted by capture controls; the proxy blocks all POST requests. No seen or cursor outcome is claimed.",
+    "required_final_check": "Completed: capture owner final verification reports preservation after the batch and exact Spanish restoration. Root reviewed the result."
+  },
+  "upstream_review_bindings": [
+    {
+      "record": "native-test-bootstrap.json",
+      "sha256": "482fe44c8b0af15badb85912e6f107d45dd42bbf131721e7dec726fb6446cac3",
+      "content_included": false
+    },
+    {
+      "record": "prepare-whatsapp-result.json",
+      "sha256": "57d1339d5be29dff1d8bb36b45d9ac53cc474464a44c4061e5ff3bd3e70b7d80",
+      "content_included": false
+    },
+    {
+      "record": "verify-whatsapp-result.json",
+      "sha256": "1c8544a8e2eaa01257cd53631d5490959cecd47ae23195fbea57994664dc4767",
+      "content_included": false
+    },
+    {
+      "record": "independent-fixture-apply-review.json",
+      "sha256": "d6545b9546830c72c08646632ff7e0778a82543a14c7ca6eed83ede27be3943e",
+      "content_included": false
+    },
+    {
+      "record": "verify-session-result.json",
+      "sha256": "7473c678ed86b231ab32af5974f000fb6a0615c732d79fee9cf6de2effec534c",
+      "content_included": false
+    }
+  ],
+  "privacy": "No local database names, record identifiers, account exports, environment variables, session data, credential material or source bodies are retained here.",
+  "final_capture_verification": {
+    "capture_owner_summary": "capture-final-safety.json",
+    "summary_sha256": "1f9316a4301f2039fa5811bbf3a8480539dc1d43a5bb8deb698e8eba7c758c1b",
+    "private_verification_record_sha256": "e4934dcf5da675bc113267d08e633ba79cd88acc99186f6884e350806c82baf3",
+    "private_verification_record_included": false,
+    "status": "read_only_verification_passed",
+    "checked_at": "2026-10-09T08:14:42-05:00",
+    "source_revision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+    "all_unrelated_database_rows_unchanged": true,
+    "performed_jobs_in_verifier": 0,
+    "localization_restored": "exact original ES values and table hashes; timestamps unchanged",
+    "outgoing_messages_created": 0,
+    "sighting_posts_blocked_across_batch": 15,
+    "transport_mutations_forwarded": 0,
+    "external_requests_allowed": 0,
+    "root_signoff": "Root reviewed the final safe summary and private final-verification result; 538-table preservation and ES restoration accepted.",
+    "rendered_help_article_review": "pending; source pixels accepted separately"
+  }
+}

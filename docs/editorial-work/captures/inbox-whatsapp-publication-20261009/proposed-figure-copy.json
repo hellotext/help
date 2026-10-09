@@ -1,0 +1,61 @@
+{
+  "status": "proposed; WhatsApp copy may be integrated only after verified source evidence and raw acceptance",
+  "locales": {
+    "es": {
+      "overview": {
+        "context": [
+          "Ubica las vistas del Inbox",
+          "Inbox con conversaciones ficticias. En escritorio se ven la lista, la conversación seleccionada y el perfil del cliente abierto; en móvil se ve la lista.",
+          "Interfaz real con datos ficticios. El escritorio muestra los tres paneles; el móvil muestra la lista en su vista nativa."
+        ],
+        "profile": [
+          "Revisa el perfil del cliente",
+          "Perfil del cliente abierto desde una conversación ficticia del Inbox, con su información nativa visible.",
+          "Interfaz real con datos ficticios. El perfil se abrió desde la conversación."
+        ],
+        "composer": [
+          "Ubica el editor de respuesta",
+          "Editor de respuesta WhatsApp vacío debajo del historial de una conversación ficticia del Inbox, con sus controles nativos visibles.",
+          "Interfaz real con datos ficticios. El editor está vacío; no se escribió ni envió una respuesta."
+        ]
+      }
+    },
+    "en": {
+      "overview": {
+        "context": [
+          "Locate the Inbox views",
+          "Inbox with fictional conversations. Desktop shows the list, selected conversation and open customer profile; mobile shows the list.",
+          "Real interface with fictional data. Desktop shows all three panels; mobile shows the list in its native view."
+        ],
+        "profile": [
+          "Review the customer profile",
+          "Customer profile opened from a fictional Inbox conversation with its native information visible.",
+          "Real interface with fictional data. The profile was opened from the conversation."
+        ],
+        "composer": [
+          "Locate the reply editor",
+          "Empty WhatsApp reply editor below the history of a fictional Inbox conversation with its native controls visible.",
+          "Real interface with fictional data. The editor is empty; no reply was typed or sent."
+        ]
+      }
+    }
+  },
+  "prose": {
+    "es": {
+      "intro_old": "En escritorio, el Inbox muestra la lista de conversaciones a la izquierda, el historial de la conversación seleccionada en el centro y el contexto del cliente a la derecha. En este ejemplo, el panel del cliente está desplazado a **Actividad**. En el móvil, la lista, la conversación y el perfil se muestran en vistas separadas.",
+      "intro_new": "En escritorio, el Inbox muestra la lista de conversaciones a la izquierda, el historial de la conversación seleccionada en el centro y el perfil del cliente a la derecha. En el móvil, la lista, la conversación y el perfil se muestran en vistas separadas. Las capturas usan datos ficticios.",
+      "profile_anchor": "Abre una conversación para leer la consulta y las notas internas antes de responder.",
+      "profile_paragraph": "Revisa también el perfil del cliente para consultar la información disponible junto a la conversación. En el móvil, el perfil tiene su propia vista.",
+      "composer_anchor": "Al responder desde el inbox, las herramientas disponibles en el editor dependen del canal activo y del contexto de la conversación. Según el canal, puedes usar formato, links con tracking, etiquetas de personalización y contenido enriquecido.",
+      "composer_paragraph": "En este ejemplo de WhatsApp, el editor de respuesta está vacío debajo del historial. Antes de escribir, revisa la consulta del cliente y las notas internas de la conversación."
+    },
+    "en": {
+      "intro_old": "On desktop, the Inbox shows the conversation list on the left, the selected conversation history in the center, and customer context on the right. In this example, the customer panel is scrolled to **Activity**. On mobile, the list, conversation, and profile appear in separate views.",
+      "intro_new": "On desktop, the Inbox shows the conversation list on the left, the selected conversation history in the center, and the customer profile on the right. On mobile, the list, conversation, and profile appear in separate views. The screenshots use fictional data.",
+      "profile_anchor": "Open a conversation to read the question and internal notes before replying.",
+      "profile_paragraph": "Also review the customer profile for the information available alongside the conversation. On mobile, the profile has its own view.",
+      "composer_anchor": "When replying from the inbox, the editor's available tools depend on the active channel and conversation context. Depending on the channel, you can use formatting, tracked links, personalization tags, and rich content.",
+      "composer_paragraph": "In this WhatsApp example, the reply editor is empty below the history. Before typing, review the customer’s question and the conversation’s internal notes."
+    }
+  }
+}

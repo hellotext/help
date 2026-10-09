@@ -1,0 +1,72 @@
+{
+  "status": "local_checks_passed",
+  "checked_at": "2026-10-09T13:28:34.205222+00:00",
+  "base_commit": "0729ce7cb263ad0c481f4938a6dfb6be10db6070",
+  "article_hashes": {
+    "_i18n/en/team/inbox-overview.md": "6b8d61809bdf9b3fa8aa4acc24628f65eae461ea5565fa1995e1104c4fe34892",
+    "_i18n/es/team/inbox-overview.md": "693f20449a3c6820b93e02824f2c38051eda1aa02c5c953cc10dd541abfd07ef"
+  },
+  "checks": {
+    "production_build": "passed; Ruby 3.3.6; yarn build; security headers included",
+    "native_png_sources": 12,
+    "referenced_png_sources": 28,
+    "built_png_byte_comparisons": 56,
+    "exported_js_byte_comparisons": 4,
+    "geometry_checks": 6,
+    "pixel_review_artifacts": 30,
+    "pixel_review_sizes": [
+      "desktop 1440px",
+      "mobile 390px"
+    ],
+    "narrow_580px": "geometry only",
+    "inventory_unresolved_pairs": 45
+  },
+  "evidence": [
+    {
+      "path": "manifest.json",
+      "sha256": "ec55c4ae37a02a76861b217ee71a60c8ead9850207fd4c9288f261efd4f13e16"
+    },
+    {
+      "path": "raw-acceptance.json",
+      "sha256": "36d2a869d9f288be94d9860d81d1daabe207fc8c03a2c0dc6ef34f4ba3e3fac6"
+    },
+    {
+      "path": "source-review.json",
+      "sha256": "3c1cbef7147b4c67f1bf519391ed91d24065900f8816a677ba1fb05bec11960a"
+    },
+    {
+      "path": "integration-record.json",
+      "sha256": "247c1d38b998c92eaf38f8787686b488b34930064b46d7d87b96d2cb43b53968"
+    },
+    {
+      "path": "build-verification.json",
+      "sha256": "2e952f003bc5b8642f05a93df05f5f63563986b9a163fede9c1a2a17f8976d83"
+    },
+    {
+      "path": "independent-patch-review.json",
+      "sha256": "c47203c0a98b7c88d41d5ef3950461490148797cce11a603291b7eacdb01d552"
+    },
+    {
+      "path": "page-review/summary-overview.json",
+      "sha256": "28bc5543e52092ed6665b5d4fc300cee502abff93dc5d62aaf417d8f5403efc0"
+    }
+  ],
+  "pixel_reviews": [
+    {
+      "locale": "es",
+      "path": "page-review/page-pixel-review-es.json",
+      "sha256": "31a5bcae15500203c88880d66c2b52c2e48f49db6fcdb96f09b35551fb9811d2"
+    },
+    {
+      "locale": "en",
+      "path": "page-review/page-pixel-review-en.json",
+      "sha256": "0c437e97740ee02c5d08f68decad9bcdc009170695e1baf707356c21b7b7023f"
+    }
+  ],
+  "local_only_artifacts": "Thirty rendered-page PNGs are retained locally and identified by hashes in the pixel verdicts. They are not duplicated in the publication commit.",
+  "remaining_gates": [
+    "remote checks on immutable PR head",
+    "authorized merge and normal deployment",
+    "public article and PNG byte verification"
+  ]
+}

@@ -2,34 +2,32 @@ Use the inbox to manage the conversations that need attention from your team.
 
 The inbox brings together customer replies, support questions, order follow-up, and conversations that a playbook, route, or AI agent escalates to a person.
 
-On desktop, the Inbox shows the conversation list on the left, the selected conversation history in the center, and the customer profile on the right. On mobile, the list, conversation, and profile appear in separate views. The screenshots use fictional data.
+On desktop, the Inbox shows the conversation list on the left, the selected conversation history in the center, and customer context on the right. In this example, the customer panel is scrolled to **Activity**. On mobile, the list, conversation, and profile appear in separate views.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-inbox-figure="context" aria-label="Locate the Inbox views">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Locate the Inbox views">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 1198px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 1138px; width: fit-content; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/editorial/inbox-whatsapp-20261009/context-en-mobile.png 4x" width="1560" height="3920" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-whatsapp-20261009/context-en-desktop.png" srcset="/images/editorial/inbox-whatsapp-20261009/context-en-desktop.png 4x" width="4720" height="3480" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Inbox with fictional conversations. Desktop shows the list, selected conversation and open customer profile; mobile shows the list." />
+        <source media="(max-width: 600px)" srcset="/images/editorial/inbox-context/context-en-mobile.png 4x" width="1720" height="3040" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-context/context-en-desktop.png" srcset="/images/editorial/inbox-context/context-en-desktop.png 4x" width="4480" height="2552" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Inbox with a list of fictional conversations. Desktop also shows Emma Vargas’s question, an internal note, and customer activity." />
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Real interface with fictional data. Desktop shows all three panels; mobile shows the list in its native view.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Real interface with fictional data. Desktop shows all three panels; mobile shows the conversation list in its own view.</figcaption>
 </figure>
 
 Open a conversation to read the question and internal notes before replying.
 
-Also review the customer profile for the information available alongside the conversation. On mobile, the profile has its own view.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-inbox-figure="profile" aria-label="Review the customer profile">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Read a conversation and its internal context">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 489px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 984px; width: fit-content; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/editorial/inbox-whatsapp-20261009/profile-en-mobile.png 4x" width="1560" height="3600" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-whatsapp-20261009/profile-en-desktop.png" srcset="/images/editorial/inbox-whatsapp-20261009/profile-en-desktop.png 4x" width="1884" height="3276" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Customer profile opened from a fictional Inbox conversation with its native information visible." />
+        <source media="(max-width: 600px)" srcset="/images/editorial/inbox-overview/workspace-en-mobile.png 4x" width="1720" height="1800" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-overview/workspace-en-desktop.png" srcset="/images/editorial/inbox-overview/workspace-en-desktop.png 4x" width="3840" height="1536" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Conversation history showing a fictional customer asking about jacket sizing and an internal note to check the size guide before replying." />
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Real interface with fictional data. The profile was opened from the conversation.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Real interface with a fictional incoming question and internal note. No reply was sent.</figcaption>
 </figure>
 
 If you are comparing the Inbox with playbooks and campaigns, start with [How Hellotext works]({% link _getting-started/how-hellotext-works.md %}).
@@ -109,20 +107,6 @@ Keep reading: [Transfer business ownership]({% link _integrations/transferring-o
 ## Replying with the message editor
 
 When replying from the inbox, the editor's available tools depend on the active channel and conversation context. Depending on the channel, you can use formatting, tracked links, personalization tags, and rich content.
-
-In this WhatsApp example, the reply editor is empty below the history. Before typing, review the customer’s question and the conversation’s internal notes.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-inbox-figure="composer" aria-label="Locate the reply editor">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 896px; width: fit-content; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/editorial/inbox-whatsapp-20261009/composer-en-mobile.png 4x" width="1560" height="3600" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-whatsapp-20261009/composer-en-desktop.png" srcset="/images/editorial/inbox-whatsapp-20261009/composer-en-desktop.png 4x" width="3512" height="3276" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Empty WhatsApp reply editor below the history of a fictional Inbox conversation with its native controls visible." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Real interface with fictional data. The editor is empty; no reply was typed or sent.</figcaption>
-</figure>
 
 Keep reading: [Message editor overview]({% link _numbers/message-editor-overview.md %}).
 

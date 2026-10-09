@@ -1,0 +1,576 @@
+{
+  "status": "integrated_locally_pending_build_and_page_review",
+  "recorded_at": "2026-10-09T13:17:58.540660+00:00",
+  "baseline": "0729ce7cb263ad0c481f4938a6dfb6be10db6070",
+  "manifest": "docs/editorial-work/captures/inbox-whatsapp-publication-20261009/manifest.json",
+  "manifest_sha256": "ec55c4ae37a02a76861b217ee71a60c8ead9850207fd4c9288f261efd4f13e16",
+  "acceptance": "docs/editorial-work/captures/inbox-whatsapp-publication-20261009/raw-acceptance.json",
+  "acceptance_sha256": "36d2a869d9f288be94d9860d81d1daabe207fc8c03a2c0dc6ef34f4ba3e3fac6",
+  "revision_config_sha256": "d6d76ebaea440c392dcc94ff8089a667e3551c7708fe2d800bc1cec2c426961b",
+  "source_review": "docs/editorial-work/captures/inbox-whatsapp-publication-20261009/source-review.json",
+  "source_review_sha256": "3c1cbef7147b4c67f1bf519391ed91d24065900f8816a677ba1fb05bec11960a",
+  "verified_example_channel": "whatsapp",
+  "figure_ids": [
+    "context",
+    "profile",
+    "composer"
+  ],
+  "assets": [
+    {
+      "file": "context-es-desktop.png",
+      "id": "context",
+      "locale": "es",
+      "layout": "desktop",
+      "clip": [
+        0,
+        0,
+        1180,
+        870
+      ],
+      "pixelSize": [
+        4720,
+        3480
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "icc": "Display P3",
+      "sha256": "ba0037cdcfc6e656f3eac94c4269561a31d1f3d46acbaf7b87f2b0c3e7f615cc",
+      "sourceRevision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+      "capturedAt": "2026-10-09T13:08:22.996Z",
+      "viewport": [
+        1180,
+        870
+      ],
+      "candidateOnly": true,
+      "limitations": [
+        "Native Rails test environment; Impersonate is absent through its real environment predicate.",
+        "My unread remains a non-production filter option; filters are outside this batch.",
+        "Notification permission remains at native default.",
+        "Native sighting POSTs are blocked: capture does not mark messages read or update cursors.",
+        "Disconnected fictional WhatsApp window; no provider, registration, delivery or configured-selector claim."
+      ],
+      "transformations": "none",
+      "nativeWidth": 1180,
+      "nativeHeight": 870,
+      "profile_verified": "Display P3",
+      "source": "images/editorial/inbox-whatsapp-20261009/context-es-desktop.png",
+      "destination": "images/editorial/inbox-whatsapp-20261009/context-es-desktop.png"
+    },
+    {
+      "file": "context-es-mobile.png",
+      "id": "context",
+      "locale": "es",
+      "layout": "mobile",
+      "clip": [
+        0,
+        0,
+        390,
+        980
+      ],
+      "pixelSize": [
+        1560,
+        3920
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "icc": "Display P3",
+      "sha256": "f5f7d1b2c05966154bdf88a22f45243f408ddcdf9f4f1bfe1132031751336103",
+      "sourceRevision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+      "capturedAt": "2026-10-09T13:11:18.701Z",
+      "viewport": [
+        390,
+        980
+      ],
+      "candidateOnly": true,
+      "limitations": [
+        "Native Rails test environment; Impersonate is absent through its real environment predicate.",
+        "My unread remains a non-production filter option; filters are outside this batch.",
+        "Notification permission remains at native default.",
+        "Native sighting POSTs are blocked: capture does not mark messages read or update cursors.",
+        "Disconnected fictional WhatsApp window; no provider, registration, delivery or configured-selector claim."
+      ],
+      "transformations": "none",
+      "nativeWidth": 390,
+      "nativeHeight": 980,
+      "profile_verified": "Display P3",
+      "source": "images/editorial/inbox-whatsapp-20261009/context-es-mobile.png",
+      "destination": "images/editorial/inbox-whatsapp-20261009/context-es-mobile.png"
+    },
+    {
+      "file": "profile-es-desktop.png",
+      "id": "profile",
+      "locale": "es",
+      "layout": "desktop",
+      "clip": [
+        1449,
+        81,
+        471,
+        819
+      ],
+      "pixelSize": [
+        1884,
+        3276
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "icc": "Display P3",
+      "sha256": "5ba2c538e1a917a58289bfbf840ff39f308c6f2b33c410a46d8327117862991e",
+      "sourceRevision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+      "capturedAt": "2026-10-09T13:10:08.115Z",
+      "viewport": [
+        1920,
+        900
+      ],
+      "candidateOnly": true,
+      "limitations": [
+        "Native Rails test environment; Impersonate is absent through its real environment predicate.",
+        "My unread remains a non-production filter option; filters are outside this batch.",
+        "Notification permission remains at native default.",
+        "Native sighting POSTs are blocked: capture does not mark messages read or update cursors.",
+        "Disconnected fictional WhatsApp window; no provider, registration, delivery or configured-selector claim."
+      ],
+      "transformations": "none",
+      "nativeWidth": 471,
+      "nativeHeight": 819,
+      "profile_verified": "Display P3",
+      "source": "images/editorial/inbox-whatsapp-20261009/profile-es-desktop.png",
+      "destination": "images/editorial/inbox-whatsapp-20261009/profile-es-desktop.png"
+    },
+    {
+      "file": "profile-es-mobile.png",
+      "id": "profile",
+      "locale": "es",
+      "layout": "mobile",
+      "clip": [
+        0,
+        0,
+        390,
+        900
+      ],
+      "pixelSize": [
+        1560,
+        3600
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "icc": "Display P3",
+      "sha256": "37358b21ac06d889da745f2e1022ffd0f66473a52c1429f1433d7472d94e988c",
+      "sourceRevision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+      "capturedAt": "2026-10-09T13:11:01.243Z",
+      "viewport": [
+        390,
+        900
+      ],
+      "candidateOnly": true,
+      "limitations": [
+        "Native Rails test environment; Impersonate is absent through its real environment predicate.",
+        "My unread remains a non-production filter option; filters are outside this batch.",
+        "Notification permission remains at native default.",
+        "Native sighting POSTs are blocked: capture does not mark messages read or update cursors.",
+        "Disconnected fictional WhatsApp window; no provider, registration, delivery or configured-selector claim."
+      ],
+      "transformations": "none",
+      "nativeWidth": 390,
+      "nativeHeight": 900,
+      "profile_verified": "Display P3",
+      "source": "images/editorial/inbox-whatsapp-20261009/profile-es-mobile.png",
+      "destination": "images/editorial/inbox-whatsapp-20261009/profile-es-mobile.png"
+    },
+    {
+      "file": "composer-es-desktop.png",
+      "id": "composer",
+      "locale": "es",
+      "layout": "desktop",
+      "clip": [
+        302,
+        81,
+        878,
+        819
+      ],
+      "pixelSize": [
+        3512,
+        3276
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "icc": "Display P3",
+      "sha256": "0692d497cb5a483474e18b321f52eaae18bfc1e17cd97d13f4040b8d24e3280c",
+      "sourceRevision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+      "capturedAt": "2026-10-09T13:09:58.095Z",
+      "viewport": [
+        1180,
+        900
+      ],
+      "candidateOnly": true,
+      "limitations": [
+        "Native Rails test environment; Impersonate is absent through its real environment predicate.",
+        "My unread remains a non-production filter option; filters are outside this batch.",
+        "Notification permission remains at native default.",
+        "Native sighting POSTs are blocked: capture does not mark messages read or update cursors.",
+        "Disconnected fictional WhatsApp window; no provider, registration, delivery or configured-selector claim."
+      ],
+      "transformations": "none",
+      "nativeWidth": 878,
+      "nativeHeight": 819,
+      "profile_verified": "Display P3",
+      "source": "images/editorial/inbox-whatsapp-20261009/composer-es-desktop.png",
+      "destination": "images/editorial/inbox-whatsapp-20261009/composer-es-desktop.png"
+    },
+    {
+      "file": "composer-es-mobile.png",
+      "id": "composer",
+      "locale": "es",
+      "layout": "mobile",
+      "clip": [
+        0,
+        0,
+        390,
+        900
+      ],
+      "pixelSize": [
+        1560,
+        3600
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "icc": "Display P3",
+      "sha256": "b492ae2c87edaa8002db33a08ee75214233e2a7ef6be03b85d2d7fe02630747e",
+      "sourceRevision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+      "capturedAt": "2026-10-09T13:11:00.110Z",
+      "viewport": [
+        390,
+        900
+      ],
+      "candidateOnly": true,
+      "limitations": [
+        "Native Rails test environment; Impersonate is absent through its real environment predicate.",
+        "My unread remains a non-production filter option; filters are outside this batch.",
+        "Notification permission remains at native default.",
+        "Native sighting POSTs are blocked: capture does not mark messages read or update cursors.",
+        "Disconnected fictional WhatsApp window; no provider, registration, delivery or configured-selector claim."
+      ],
+      "transformations": "none",
+      "nativeWidth": 390,
+      "nativeHeight": 900,
+      "profile_verified": "Display P3",
+      "source": "images/editorial/inbox-whatsapp-20261009/composer-es-mobile.png",
+      "destination": "images/editorial/inbox-whatsapp-20261009/composer-es-mobile.png"
+    },
+    {
+      "file": "context-en-desktop.png",
+      "id": "context",
+      "locale": "en",
+      "layout": "desktop",
+      "clip": [
+        0,
+        0,
+        1180,
+        870
+      ],
+      "pixelSize": [
+        4720,
+        3480
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "icc": "Display P3",
+      "sha256": "f02e9fe5897079957fd8d13a76fa302dd7cb0b30b8f3189484ea8111bfa8f505",
+      "sourceRevision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+      "capturedAt": "2026-10-09T13:12:22.498Z",
+      "viewport": [
+        1180,
+        870
+      ],
+      "candidateOnly": true,
+      "limitations": [
+        "Native Rails test environment; Impersonate is absent through its real environment predicate.",
+        "My unread remains a non-production filter option; filters are outside this batch.",
+        "Notification permission remains at native default.",
+        "Native sighting POSTs are blocked: capture does not mark messages read or update cursors.",
+        "Disconnected fictional WhatsApp window; no provider, registration, delivery or configured-selector claim."
+      ],
+      "transformations": "none",
+      "nativeWidth": 1180,
+      "nativeHeight": 870,
+      "profile_verified": "Display P3",
+      "source": "images/editorial/inbox-whatsapp-20261009/context-en-desktop.png",
+      "destination": "images/editorial/inbox-whatsapp-20261009/context-en-desktop.png"
+    },
+    {
+      "file": "context-en-mobile.png",
+      "id": "context",
+      "locale": "en",
+      "layout": "mobile",
+      "clip": [
+        0,
+        0,
+        390,
+        980
+      ],
+      "pixelSize": [
+        1560,
+        3920
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "icc": "Display P3",
+      "sha256": "75fa23fab3410502dc7f972807f2b0669ecd7b4dd5bd0e7d3ac62cf4329bea86",
+      "sourceRevision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+      "capturedAt": "2026-10-09T13:12:50.737Z",
+      "viewport": [
+        390,
+        980
+      ],
+      "candidateOnly": true,
+      "limitations": [
+        "Native Rails test environment; Impersonate is absent through its real environment predicate.",
+        "My unread remains a non-production filter option; filters are outside this batch.",
+        "Notification permission remains at native default.",
+        "Native sighting POSTs are blocked: capture does not mark messages read or update cursors.",
+        "Disconnected fictional WhatsApp window; no provider, registration, delivery or configured-selector claim."
+      ],
+      "transformations": "none",
+      "nativeWidth": 390,
+      "nativeHeight": 980,
+      "profile_verified": "Display P3",
+      "source": "images/editorial/inbox-whatsapp-20261009/context-en-mobile.png",
+      "destination": "images/editorial/inbox-whatsapp-20261009/context-en-mobile.png"
+    },
+    {
+      "file": "profile-en-desktop.png",
+      "id": "profile",
+      "locale": "en",
+      "layout": "desktop",
+      "clip": [
+        1449,
+        81,
+        471,
+        819
+      ],
+      "pixelSize": [
+        1884,
+        3276
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "icc": "Display P3",
+      "sha256": "6a43dd02deb9c9f615834e5cea5d1b3ef1f050a1b5b0e548d7548b24a7fd5712",
+      "sourceRevision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+      "capturedAt": "2026-10-09T13:12:26.324Z",
+      "viewport": [
+        1920,
+        900
+      ],
+      "candidateOnly": true,
+      "limitations": [
+        "Native Rails test environment; Impersonate is absent through its real environment predicate.",
+        "My unread remains a non-production filter option; filters are outside this batch.",
+        "Notification permission remains at native default.",
+        "Native sighting POSTs are blocked: capture does not mark messages read or update cursors.",
+        "Disconnected fictional WhatsApp window; no provider, registration, delivery or configured-selector claim."
+      ],
+      "transformations": "none",
+      "nativeWidth": 471,
+      "nativeHeight": 819,
+      "profile_verified": "Display P3",
+      "source": "images/editorial/inbox-whatsapp-20261009/profile-en-desktop.png",
+      "destination": "images/editorial/inbox-whatsapp-20261009/profile-en-desktop.png"
+    },
+    {
+      "file": "profile-en-mobile.png",
+      "id": "profile",
+      "locale": "en",
+      "layout": "mobile",
+      "clip": [
+        0,
+        0,
+        390,
+        900
+      ],
+      "pixelSize": [
+        1560,
+        3600
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "icc": "Display P3",
+      "sha256": "62936faace846da6a08cb72871441c848086850818a3d0507cdc54b1215eed6a",
+      "sourceRevision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+      "capturedAt": "2026-10-09T13:12:47.724Z",
+      "viewport": [
+        390,
+        900
+      ],
+      "candidateOnly": true,
+      "limitations": [
+        "Native Rails test environment; Impersonate is absent through its real environment predicate.",
+        "My unread remains a non-production filter option; filters are outside this batch.",
+        "Notification permission remains at native default.",
+        "Native sighting POSTs are blocked: capture does not mark messages read or update cursors.",
+        "Disconnected fictional WhatsApp window; no provider, registration, delivery or configured-selector claim."
+      ],
+      "transformations": "none",
+      "nativeWidth": 390,
+      "nativeHeight": 900,
+      "profile_verified": "Display P3",
+      "source": "images/editorial/inbox-whatsapp-20261009/profile-en-mobile.png",
+      "destination": "images/editorial/inbox-whatsapp-20261009/profile-en-mobile.png"
+    },
+    {
+      "file": "composer-en-desktop.png",
+      "id": "composer",
+      "locale": "en",
+      "layout": "desktop",
+      "clip": [
+        302,
+        81,
+        878,
+        819
+      ],
+      "pixelSize": [
+        3512,
+        3276
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "icc": "Display P3",
+      "sha256": "44777d9edeb021f93bd0570c0acd31d0bcd3bd58d222d2de849f516a3b253639",
+      "sourceRevision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+      "capturedAt": "2026-10-09T13:12:24.461Z",
+      "viewport": [
+        1180,
+        900
+      ],
+      "candidateOnly": true,
+      "limitations": [
+        "Native Rails test environment; Impersonate is absent through its real environment predicate.",
+        "My unread remains a non-production filter option; filters are outside this batch.",
+        "Notification permission remains at native default.",
+        "Native sighting POSTs are blocked: capture does not mark messages read or update cursors.",
+        "Disconnected fictional WhatsApp window; no provider, registration, delivery or configured-selector claim."
+      ],
+      "transformations": "none",
+      "nativeWidth": 878,
+      "nativeHeight": 819,
+      "profile_verified": "Display P3",
+      "source": "images/editorial/inbox-whatsapp-20261009/composer-en-desktop.png",
+      "destination": "images/editorial/inbox-whatsapp-20261009/composer-en-desktop.png"
+    },
+    {
+      "file": "composer-en-mobile.png",
+      "id": "composer",
+      "locale": "en",
+      "layout": "mobile",
+      "clip": [
+        0,
+        0,
+        390,
+        900
+      ],
+      "pixelSize": [
+        1560,
+        3600
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "icc": "Display P3",
+      "sha256": "6184d10c5a94b42b7986db81a59e41d2cdc610eacd6233ec285134c7abfbbe2e",
+      "sourceRevision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+      "capturedAt": "2026-10-09T13:12:46.567Z",
+      "viewport": [
+        390,
+        900
+      ],
+      "candidateOnly": true,
+      "limitations": [
+        "Native Rails test environment; Impersonate is absent through its real environment predicate.",
+        "My unread remains a non-production filter option; filters are outside this batch.",
+        "Notification permission remains at native default.",
+        "Native sighting POSTs are blocked: capture does not mark messages read or update cursors.",
+        "Disconnected fictional WhatsApp window; no provider, registration, delivery or configured-selector claim."
+      ],
+      "transformations": "none",
+      "nativeWidth": 390,
+      "nativeHeight": 900,
+      "profile_verified": "Display P3",
+      "source": "images/editorial/inbox-whatsapp-20261009/composer-en-mobile.png",
+      "destination": "images/editorial/inbox-whatsapp-20261009/composer-en-mobile.png"
+    }
+  ],
+  "articles": [
+    {
+      "path": "_i18n/es/team/inbox-overview.md",
+      "sha256": "693f20449a3c6820b93e02824f2c38051eda1aa02c5c953cc10dd541abfd07ef",
+      "figures": 4,
+      "new_figure_ids": [
+        "context",
+        "profile",
+        "composer"
+      ],
+      "all_figure_ids": [
+        "context",
+        "profile",
+        "composer"
+      ],
+      "headings": 7,
+      "links": 21
+    },
+    {
+      "path": "_i18n/en/team/inbox-overview.md",
+      "sha256": "6b8d61809bdf9b3fa8aa4acc24628f65eae461ea5565fa1995e1104c4fe34892",
+      "figures": 4,
+      "new_figure_ids": [
+        "context",
+        "profile",
+        "composer"
+      ],
+      "all_figure_ids": [
+        "context",
+        "profile",
+        "composer"
+      ],
+      "headings": 7,
+      "links": 21
+    },
+    {
+      "path": "_i18n/es/team/filter-and-search-inbox.md",
+      "sha256": "6e3dbf65ada7bf9ee1032c7c4e4f031fae149d079ce0788297345266216faffe",
+      "figures": 3,
+      "new_figure_ids": [],
+      "all_figure_ids": [],
+      "headings": 15,
+      "links": 6
+    },
+    {
+      "path": "_i18n/en/team/filter-and-search-inbox.md",
+      "sha256": "8e03dac5720813768983e1c9d7e990fb674b23658106afda59c59e4afa333ced",
+      "figures": 3,
+      "new_figure_ids": [],
+      "all_figure_ids": [],
+      "headings": 15,
+      "links": 6
+    }
+  ],
+  "headings_links_stubs_preserved": true,
+  "old_image_assets_changed": false,
+  "deferred_figure_ids": [
+    "team",
+    "labels"
+  ],
+  "retained_filter_limit": "Published filter articles and all twelve filter sources are preserved byte-for-byte from main0729ce7. This overview-only revision does not resolve filter legibility or search-result coverage; experimental My unread screenshots are excluded.",
+  "build": "not_run",
+  "page_review": "not_run",
+  "publication": "not_requested_by_this_helper"
+}
