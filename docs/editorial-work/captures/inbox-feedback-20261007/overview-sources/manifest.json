@@ -1,0 +1,104 @@
+{
+  "status": "raw_sources_reviewed_article_review_pending",
+  "purpose": "New full Inbox context figure; preserve prior history and ownership detail figures",
+  "sourceRevision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+  "freshnessCheckedAgainst": "7fdca3183697ba5099c9ce1d2f944d2c04a21917",
+  "runtime": "owned loopback app3298 / Chrome9489",
+  "fixtureAccount": "design-system@example.test",
+  "queue": {
+    "state": "opened",
+    "members": [
+      "e9Z2LN51",
+      "3oDXBQG4"
+    ],
+    "label": null,
+    "search": ""
+  },
+  "conversationNames": [
+    "Emma Vargas",
+    "Benjamín López",
+    "Valentina Ríos",
+    "Mateo Silva",
+    "Camila Torres",
+    "Diego Navarro",
+    "Paula Medina",
+    "Nicolás Vega"
+  ],
+  "scopeNotes": [
+    "Desktop shows all three native panes at full viewport width; right customer pane is naturally scrolled to Activity.",
+    "Mobile is the real list view reached via Inbox navigation; no simultaneous three-pane simulation.",
+    "Disabled contact and notification permission prompt remain native and unchanged. No permissions were granted.",
+    "Only existing marked fictional message/note bodies and fixture owner locale were localized through the guarded helper. No messages were sent.",
+    "No pixel transforms, CSS/DOM injection, application source/configuration changes or external publication."
+  ],
+  "files": [
+    {
+      "file": "context-es-desktop.png",
+      "record": "context-es-desktop.json",
+      "sha256": "bb29ce622862c35d72e7806d855512eccc7c14854245a98d94cc32db22a3e208",
+      "viewport": [
+        1120,
+        638
+      ],
+      "pixelSize": [
+        4480,
+        2552
+      ],
+      "locale": "es",
+      "layout": "desktop",
+      "nativeDensity": 4,
+      "icc": "Display P3"
+    },
+    {
+      "file": "context-es-mobile.png",
+      "record": "context-es-mobile.json",
+      "sha256": "9b6ad177fe82c4d27db577aba4cd2a2e8bbce614d3b71387da115e88dbd4ceae",
+      "viewport": [
+        430,
+        760
+      ],
+      "pixelSize": [
+        1720,
+        3040
+      ],
+      "locale": "es",
+      "layout": "mobile",
+      "nativeDensity": 4,
+      "icc": "Display P3"
+    },
+    {
+      "file": "context-en-desktop.png",
+      "record": "context-en-desktop.json",
+      "sha256": "02a10587294c8e8256bc64c85b1ce29bfc28a4f3d52d41788b3b19127c74464e",
+      "viewport": [
+        1120,
+        638
+      ],
+      "pixelSize": [
+        4480,
+        2552
+      ],
+      "locale": "en",
+      "layout": "desktop",
+      "nativeDensity": 4,
+      "icc": "Display P3"
+    },
+    {
+      "file": "context-en-mobile.png",
+      "record": "context-en-mobile.json",
+      "sha256": "9eb9fe3eaac0a1568c20b3e3a8b65bf0e9a032f2dbddcd7c8d19b6447681a19f",
+      "viewport": [
+        430,
+        760
+      ],
+      "pixelSize": [
+        1720,
+        3040
+      ],
+      "locale": "en",
+      "layout": "mobile",
+      "nativeDensity": 4,
+      "icc": "Display P3"
+    }
+  ]
+}

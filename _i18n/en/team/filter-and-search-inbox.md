@@ -8,6 +8,18 @@ Before searching, open **Show filters**, next to **Search**, and choose the stat
 
 Then enter the customer's name or another identifying detail in **Search** at the top of the conversation list.
 
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Enter the customer name in Search">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 502px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/inbox-filter-context/search-en-mobile.png 4x" width="1656" height="288" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-filter-context/search-en-desktop.png" srcset="/images/editorial/inbox-filter-context/search-en-desktop.png 4x" width="1936" height="256" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Focused Inbox Search field with Emma entered and the text caret visible." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Entering a query in the real interface with fictional data. This capture does not verify search results.</figcaption>
+</figure>
+
 You can search with:
 
 - Customer name or part of the name.
@@ -19,18 +31,6 @@ You can search with:
 Search is designed to find conversations through customer identity or a conversation ID. It does not search the complete message history for a word or phrase.
 
 The state, teammate, and label filters you apply through **Show filters** also narrow the search results. If a customer does not appear, clear or widen those filters and re-enter the search before assuming the conversation is missing.
-
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Locate search and filters">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 438px; width: fit-content; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/editorial/inbox-filter-search/search-en-mobile.png 4x" width="1656" height="1040" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-filter-search/search-en-desktop.png" srcset="/images/editorial/inbox-filter-search/search-en-desktop.png 4x" width="1288" height="1000" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Search field and Show filters control above a fictional queue with Benjamín López and Emma Vargas. No search has been entered." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Real interface with fictional data. No message was sent.</figcaption>
-</figure>
 
 ## Understand the state filters
 
@@ -80,16 +80,16 @@ A mention requests attention or context. It does not assign the conversation aut
 
 In **Show filters**, find **Team** and open **Choose** to add a teammate. This section selects individual people; it does not change a conversation's assignment.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Select teammates for the filter">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Select teammates with the Inbox list in view">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 302px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 617px; width: fit-content; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/editorial/inbox-filter-search/team-en-mobile.png 4x" width="1112" height="768" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-filter-search/team-en-desktop.png" srcset="/images/editorial/inbox-filter-search/team-en-desktop.png 4x" width="1112" height="768" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Team with Lucía Méndez and Sofía Castro selected, remove controls, and the Choose option." />
+        <source media="(max-width: 600px)" srcset="/images/editorial/inbox-filter-context/team-en-mobile.png 4x" width="1656" height="1280" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-filter-context/team-en-desktop.png" srcset="/images/editorial/inbox-filter-context/team-en-desktop.png 4x" width="2396" height="1280" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Team section of Show filters open over the Inbox list, with Lucía Méndez and Sofía Castro selected and the Choose control visible." />
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Real interface with fictional data. No message was sent.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Real interface with fictional data. These controls narrow the list by teammate; they do not show an assignment change.</figcaption>
 </figure>
 
 The teammate section changes the meaning of the selected view:
@@ -111,16 +111,16 @@ Use labels for durable operational categories such as returns, product issues, s
 
 In **Show filters**, find **Labels**, open **Choose**, and select a label. Use the remove button beside a selected label to remove that filter.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Review the selected label">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Open the label filter choices">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 302px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 723px; width: fit-content; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/editorial/inbox-filter-search/labels-en-mobile.png 4x" width="1112" height="560" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-filter-search/labels-en-desktop.png" srcset="/images/editorial/inbox-filter-search/labels-en-desktop.png 4x" width="1112" height="512" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Labels with the fictional saved label Prioridad selected, its remove button, and the Choose option." />
+        <source media="(max-width: 600px)" srcset="/images/editorial/inbox-filter-context/labels-en-mobile.png 4x" width="1656" height="1196" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-filter-context/labels-en-desktop.png" srcset="/images/editorial/inbox-filter-context/labels-en-desktop.png 4x" width="2820" height="1080" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Labels Choose menu open over the Inbox, with Prioridad, Devoluciones and Ventas available and a fictional conversation visible behind it." />
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Real interface with fictional data. No message was sent.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Real interface with fictional data. The chooser shows available custom labels; no label filter has been applied yet.</figcaption>
 </figure>
 
 When you select labels, the Inbox keeps conversations with any of those labels inside the active state and teammate view. Labels do not change the conversation state or owner.

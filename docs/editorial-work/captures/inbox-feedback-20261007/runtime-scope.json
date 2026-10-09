@@ -1,0 +1,58 @@
+{
+  "recorded_at": "2026-10-07T22:53:17.966764+00:00",
+  "application_source": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+  "current_source_reviewed": "7fdca3183697ba5099c9ce1d2f944d2c04a21917",
+  "database": "hellotext_help_inbox_task8_20261007",
+  "business_id": 5,
+  "runtime": "http://127.0.0.1:3298",
+  "browser_port": 9489,
+  "guard_verified_by_rails_runner": {
+    "business_messages": 55,
+    "messageable_contacts": 0,
+    "enabled_playbooks": 0,
+    "active_workflows": 0,
+    "connected_integrations": 0,
+    "authorization_tokens": 0,
+    "fixture_provider_connections": 0,
+    "job_adapter": "ActiveJob::QueueAdapters::TestAdapter",
+    "mail_deliveries": false
+  },
+  "read_only_supplement_by_current_app_capture": {
+    "database_messages": 60,
+    "all_contact_count": 132,
+    "push_subscriptions": 0,
+    "demo_users": 9,
+    "demo_email_domain": "example.test",
+    "contacts_11_12_13_have_contactables_or_identities": false,
+    "business_active_phone_channels": 2,
+    "business_active_phone_channel_provider_ids": null,
+    "global_provider_ids_present_in_baseline": true,
+    "received_fixture_messages": [
+      60,
+      61
+    ],
+    "received_fixture_message_user_id": 1
+  },
+  "restarted_only_owned_processes": [
+    "Rails3298",
+    "Vite3098",
+    "Chrome9489"
+  ],
+  "settings_changes": false,
+  "workers_started": false,
+  "deliveries_executed": false,
+  "fixture_changes": "Existing guarded locale helper only: fictional message/note translations and fictional owner UI locale.",
+  "rejected_diagnostic": "audit/overview-complete-candidate.png includes development-only Impersonate control; excluded from accepted assets.",
+  "overview_plan": "Use native scrolling of customer profile pane to show customer activity as context; do not hide or alter the development control with DOM/pixel changes.",
+  "fixture_update": {
+    "at": "2026-10-07T23:08:04.805279+00:00",
+    "contacts_added": 6,
+    "conversations_added": 6,
+    "total_contacts_after": 138,
+    "total_conversations_after": 134,
+    "message_counts_unchanged": true,
+    "record": "feedback-context-fixture.json",
+    "helper": "prepare_feedback_context.rb",
+    "direct_model_callback_audit": "Contact creation does not auto-create conversations or subscribe. Existing per-instance skip_inbox_broadcast avoids synchronous broadcast; duplicate/index/import jobs remain queued in TestAdapter. Assigned state initialized only on new fictional records; no assignment outcome claimed."
+  }
+}

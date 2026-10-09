@@ -1,0 +1,27 @@
+{
+  "url": "http://127.0.0.1:3298/hellotext/inbox/PqQYxZ1a?filter=opened&member=e9Z2LN51%2C3oDXBQG4",
+  "expectedUrl": "http://127.0.0.1:3298/hellotext/inbox",
+  "viewport": [
+    430,
+    760
+  ],
+  "locale": "en",
+  "layout": "mobile",
+  "actions": [
+    {
+      "type": "click",
+      "selector": "#inbox-link"
+    }
+  ],
+  "requiredText": [
+    "Emma Vargas",
+    "Benjamín López",
+    "Valentina Ríos",
+    "Mateo Silva",
+    "Camila Torres",
+    "Diego Navarro",
+    "Paula Medina",
+    "Nicolás Vega"
+  ],
+  "screenshot": "context-en-mobile.png"
+}

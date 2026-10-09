@@ -1,0 +1,34 @@
+{
+  "url": "http://127.0.0.1:3298/hellotext/inbox/PqQYxZ1a?filter=opened&member=e9Z2LN51%2C3oDXBQG4",
+  "expectedUrl": "http://127.0.0.1:3298/hellotext/inbox/PqQYxZ1a?filter=opened&member=e9Z2LN51%2C3oDXBQG4",
+  "viewport": [
+    1120,
+    638
+  ],
+  "locale": "en",
+  "layout": "desktop",
+  "actions": [
+    {
+      "type": "wheel",
+      "selector": "aside[data-right-pane]",
+      "deltaY": 680
+    },
+    {
+      "type": "wheel",
+      "selector": "[data-conversations--events-target=scrollable]",
+      "deltaY": -50
+    }
+  ],
+  "requiredText": [
+    "Emma Vargas",
+    "Benjamín López",
+    "Valentina Ríos",
+    "Mateo Silva",
+    "Camila Torres",
+    "Diego Navarro",
+    "Paula Medina",
+    "Nicolás Vega",
+    "Activity"
+  ],
+  "screenshot": "context-en-desktop.png"
+}

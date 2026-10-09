@@ -1,0 +1,31 @@
+{
+  "application_revision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+  "files": [
+    {
+      "path": "app/javascript/controllers/conversations/search_controller.js",
+      "sha256": "3bdbe2de0c42d5aa1b79354bfed5ab246c8eff28a6f35c81ae7ee8a99ef6be82",
+      "source_url": "https://github.com/hellotext/hellotext/blob/6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31/app/javascript/controllers/conversations/search_controller.js"
+    },
+    {
+      "path": "app/javascript/controllers/popup/dropdown_highlight_styles.js",
+      "sha256": "8be82ced967e0e02e5910338c110af3550988cde14728cff096c42edbc354821",
+      "source_url": "https://github.com/hellotext/hellotext/blob/6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31/app/javascript/controllers/popup/dropdown_highlight_styles.js"
+    },
+    {
+      "path": "app/views/inbox/filters/_state_filters.html.erb",
+      "sha256": "863adb0d662e704154bed160b6a450d775689a98ae65f0010c2fab1c0387bdc6",
+      "source_url": "https://github.com/hellotext/hellotext/blob/6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31/app/views/inbox/filters/_state_filters.html.erb"
+    },
+    {
+      "path": "app/views/inbox/filters/filters.html.erb",
+      "sha256": "816953a4b8fd7802dae93d8e2c0a047b92371d00c0fe69d2809d214514c4874f",
+      "source_url": "https://github.com/hellotext/hellotext/blob/6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31/app/views/inbox/filters/filters.html.erb"
+    }
+  ],
+  "notes": [
+    "Search executes a native request after300ms; missing Elasticsearch prevents matching results.",
+    "My unread is omitted by production server-side rendering, not a normal end-user filter.",
+    "Viewport-constrained popup styling is scoped to popup-editor; Inbox root menu remains h-fit.",
+    "Internal application source bodies are excluded from the public Help repository; immutable source paths and hashes retain provenance."
+  ]
+}

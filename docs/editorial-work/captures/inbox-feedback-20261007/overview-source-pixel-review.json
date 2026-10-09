@@ -1,0 +1,30 @@
+{
+  "reviewed_at": "2026-10-07T23:13:42.539176+00:00",
+  "reviewer": "root",
+  "sources": [
+    {
+      "file": "context-en-desktop.png",
+      "sha256": "02a10587294c8e8256bc64c85b1ce29bfc28a4f3d52d41788b3b19127c74464e"
+    },
+    {
+      "file": "context-en-mobile.png",
+      "sha256": "9eb9fe3eaac0a1568c20b3e3a8b65bf0e9a032f2dbddcd7c8d19b6447681a19f"
+    },
+    {
+      "file": "context-es-desktop.png",
+      "sha256": "bb29ce622862c35d72e7806d855512eccc7c14854245a98d94cc32db22a3e208"
+    },
+    {
+      "file": "context-es-mobile.png",
+      "sha256": "9b6ad177fe82c4d27db577aba4cd2a2e8bbce614d3b71387da115e88dbd4ceae"
+    }
+  ],
+  "result": "approved_source_pixels",
+  "findings": [],
+  "notes": [
+    "Desktop: full1120px viewport retains left conversation list, real history/internal note and customer Activity pane. Native right-pane scrolling excludes development control without editing UI.",
+    "Mobile: actual eight-row Inbox list; existing conversation-detail and ownership captures retained separately.",
+    "Blank composer and notification prompts are real disabled local states; no enabled delivery or notification permission is claimed.",
+    "Article-width review remains pending."
+  ]
+}

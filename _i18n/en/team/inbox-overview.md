@@ -2,7 +2,21 @@ Use the inbox to manage the conversations that need attention from your team.
 
 The inbox brings together customer replies, support questions, order follow-up, and conversations that a playbook, route, or AI agent escalates to a person.
 
-Open a conversation from the list to review its history and customer context. On mobile, the list, conversation, and profile appear in separate views.
+On desktop, the Inbox shows the conversation list on the left, the selected conversation history in the center, and customer context on the right. In this example, the customer panel is scrolled to **Activity**. On mobile, the list, conversation, and profile appear in separate views.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Locate the Inbox views">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 1138px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/inbox-context/context-en-mobile.png 4x" width="1720" height="3040" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-context/context-en-desktop.png" srcset="/images/editorial/inbox-context/context-en-desktop.png 4x" width="4480" height="2552" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Inbox with a list of fictional conversations. Desktop also shows Emma Vargas’s question, an internal note, and customer activity." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real interface with fictional data. Desktop shows all three panels; mobile shows the conversation list in its own view.</figcaption>
+</figure>
+
+Open a conversation to read the question and internal notes before replying.
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Read a conversation and its internal context">
   <div class="ht-editorial-visual__stage">

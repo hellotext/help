@@ -1,5 +1,27 @@
 # Filter and search Inbox — 2026-10-07
 
+## Feedback revision — 2026-10-07
+
+Status: local correction validated; no new publication. Twelve replacement
+native 4× Display P3 sources show an actual `Emma` query with its focused caret,
+Team controls over real fictional queue rows, and the open Labels Choose flyout
+with three available labels. No label is applied in the chooser captures.
+Desktop and mobile crops use actual responsive UI; no image enlargement or
+interface manipulation was used. All original image files remain unchanged.
+
+The [capture and validation record](captures/inbox-feedback-20261007/README.md)
+contains exact sources, scoped fixture checks, build and complete-page ES/EN
+pixel reviews. All three figures passed checks at 1440/580/390px. Together with
+the overview, 24 referenced PNGs match both locale outputs (48 comparisons).
+All 15 headings, six ordered links and prior prose remain intact per locale.
+
+The pair remains `visual_pending`: the isolated Elasticsearch service is
+unavailable, so the typed query proves input only, not returned results. The
+inventory still contains 45 unresolved pairs. This correction starts at the
+published PR 393 merge `616bc90f` and remains local pending separate approval.
+The following sections preserve the previous batch's validation history and
+are not evidence of a new publication.
+
 Status: `visual_pending`. Bilingual text, accepted control figures, build and complete-page browser checks passed. A useful executed-search result remains deferred.
 
 ## Scope and baseline

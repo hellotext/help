@@ -1,0 +1,235 @@
+{
+  "reviewedAt": "2026-10-07T23:21:48.437771+00:00",
+  "reviewer": "current_app_capture",
+  "independence": "Did not create or recapture these eight Team/Labels sources. Read only PNG/JSON/article files; no browser interaction.",
+  "verdict": "pass_with_minor_framing_note",
+  "blocking_findings": [],
+  "non_blocking_findings": [
+    {
+      "id": "labels-en-top-context",
+      "severity": "low",
+      "files": [
+        "labels-en-desktop.png",
+        "labels-en-mobile.png"
+      ],
+      "description": "The incidental Choose from the preceding Team section sits against the top crop boundary and is slightly trimmed. The Labels heading, actionable Labels Choose and all three options are complete.",
+      "impact": "Cosmetic context framing only; does not obscure the documented controls or misrepresent their state.",
+      "required_action": null
+    }
+  ],
+  "files": [
+    {
+      "file": "team-es-desktop.png",
+      "sha256": "35bc711d4a75c0bfea25cdcf567097ebac12a1156f81ba7878cee65e89da933c",
+      "pixelSize": [
+        2396,
+        1280
+      ],
+      "cssClip": [
+        8,
+        541,
+        599,
+        320
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "viewed_with": "view_image",
+      "verdict": "pass",
+      "observations": [
+        "Team heading, both selected names, remove controls and Choose/Elegir control are complete and legible.",
+        "Shows selected teammate controls, not an expanded list of additional teammate options.",
+        "Fictional conversation rows remain visible behind the native popover."
+      ]
+    },
+    {
+      "file": "team-es-mobile.png",
+      "sha256": "16fb42803fa0702dfa43b51b96130e277d7badbf9e51ce08ac573d963a00db06",
+      "pixelSize": [
+        1656,
+        1280
+      ],
+      "cssClip": [
+        8,
+        526,
+        414,
+        320
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "viewed_with": "view_image",
+      "verdict": "pass",
+      "observations": [
+        "Team heading, both selected names, remove controls and Choose/Elegir control are complete and legible.",
+        "Shows selected teammate controls, not an expanded list of additional teammate options.",
+        "Fictional conversation rows remain visible behind the native popover.",
+        "Background names are partly occluded by the real popover; the menu controls themselves are not clipped."
+      ]
+    },
+    {
+      "file": "team-en-desktop.png",
+      "sha256": "641426edf4babf3e45e1a6e5b71ac27a9ebe9861f678565d6e63759866beaed0",
+      "pixelSize": [
+        2396,
+        1280
+      ],
+      "cssClip": [
+        8,
+        541,
+        599,
+        320
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "viewed_with": "view_image",
+      "verdict": "pass",
+      "observations": [
+        "Team heading, both selected names, remove controls and Choose/Elegir control are complete and legible.",
+        "Shows selected teammate controls, not an expanded list of additional teammate options.",
+        "Fictional conversation rows remain visible behind the native popover."
+      ]
+    },
+    {
+      "file": "team-en-mobile.png",
+      "sha256": "83bbb6aca79cb322d1dbdc5385c145fd27d55b504b402b9b8cd740f96837b25a",
+      "pixelSize": [
+        1656,
+        1280
+      ],
+      "cssClip": [
+        8,
+        526,
+        414,
+        320
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "viewed_with": "view_image",
+      "verdict": "pass",
+      "observations": [
+        "Team heading, both selected names, remove controls and Choose/Elegir control are complete and legible.",
+        "Shows selected teammate controls, not an expanded list of additional teammate options.",
+        "Fictional conversation rows remain visible behind the native popover.",
+        "Background names are partly occluded by the real popover; the menu controls themselves are not clipped."
+      ]
+    },
+    {
+      "file": "labels-es-desktop.png",
+      "sha256": "06c5119e89feef4e74702ab4f5fdc089aa85e114d0bc0ddc867f6cb56665d075",
+      "pixelSize": [
+        2820,
+        1080
+      ],
+      "cssClip": [
+        8,
+        696,
+        705,
+        270
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "viewed_with": "view_image",
+      "verdict": "pass",
+      "observations": [
+        "Labels heading, its Choose/Elegir control, submenu perimeter and all three label options are complete.",
+        "Prioridad is highlighted; no selected-label pill is shown and the captured URL contains no label filter.",
+        "The Spanish strings Prioridad, Devoluciones and Ventas are custom saved names, including in the English UI."
+      ]
+    },
+    {
+      "file": "labels-es-mobile.png",
+      "sha256": "4803bb898eb39637278ac07bc595746fc5e2b7f0a11efa6d5d7010d1b52c2ea9",
+      "pixelSize": [
+        1656,
+        1196
+      ],
+      "cssClip": [
+        8,
+        681,
+        414,
+        299
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "viewed_with": "view_image",
+      "verdict": "pass",
+      "observations": [
+        "Labels heading, its Choose/Elegir control, submenu perimeter and all three label options are complete.",
+        "Prioridad is highlighted; no selected-label pill is shown and the captured URL contains no label filter.",
+        "The Spanish strings Prioridad, Devoluciones and Ventas are custom saved names, including in the English UI.",
+        "Background names are partly occluded by the real popover; the menu controls themselves are not clipped."
+      ]
+    },
+    {
+      "file": "labels-en-desktop.png",
+      "sha256": "b4d5bd618d2b6cd5c3daf9bda9f1e59d148c7948c3c5a27985bc41c632e25c6b",
+      "pixelSize": [
+        2820,
+        1080
+      ],
+      "cssClip": [
+        8,
+        696,
+        705,
+        270
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "viewed_with": "view_image",
+      "verdict": "pass_with_minor_framing_note",
+      "observations": [
+        "Labels heading, its Choose/Elegir control, submenu perimeter and all three label options are complete.",
+        "Prioridad is highlighted; no selected-label pill is shown and the captured URL contains no label filter.",
+        "The Spanish strings Prioridad, Devoluciones and Ventas are custom saved names, including in the English UI.",
+        "Minor framing note: the incidental Choose control from the preceding Team section touches/is slightly trimmed at the upper image edge; the primary Labels controls and all options remain complete."
+      ]
+    },
+    {
+      "file": "labels-en-mobile.png",
+      "sha256": "8f96ff6b9d694b434a24a503a68ca86c0aef6dd6cfcea844627742690bc797f7",
+      "pixelSize": [
+        1656,
+        1196
+      ],
+      "cssClip": [
+        8,
+        681,
+        414,
+        299
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "viewed_with": "view_image",
+      "verdict": "pass_with_minor_framing_note",
+      "observations": [
+        "Labels heading, its Choose/Elegir control, submenu perimeter and all three label options are complete.",
+        "Prioridad is highlighted; no selected-label pill is shown and the captured URL contains no label filter.",
+        "The Spanish strings Prioridad, Devoluciones and Ventas are custom saved names, including in the English UI.",
+        "Background names are partly occluded by the real popover; the menu controls themselves are not clipped.",
+        "Minor framing note: the incidental Choose control from the preceding Team section touches/is slightly trimmed at the upper image edge; the primary Labels controls and all options remain complete."
+      ]
+    }
+  ],
+  "article_scope_review": [
+    {
+      "path": "_i18n/es/team/filter-and-search-inbox.md",
+      "sha256_at_review": "6e3dbf65ada7bf9ee1032c7c4e4f031fae149d079ce0788297345266216faffe",
+      "reviewed_scope": "Team/Labels figure alt and captions, source references and image dimensions"
+    },
+    {
+      "path": "_i18n/en/team/filter-and-search-inbox.md",
+      "sha256_at_review": "8e03dac5720813768983e1c9d7e990fb674b23658106afda59c59e4afa333ced",
+      "reviewed_scope": "Team/Labels figure alt and captions, source references and image dimensions"
+    }
+  ],
+  "expected_alt_and_caption_scope": {
+    "team": "Describe the Team section open over the Inbox with Lucía Méndez and Sofía Castro selected and Choose visible. Do not claim a reassignment, assignment result or expanded teammate chooser.",
+    "labels": "Describe an open Labels Choose submenu offering Prioridad, Devoluciones and Ventas. Explain that no label filter is applied yet. Do not call the grey highlight an applied label or a verified filtered result.",
+    "background": "Rows provide actual fictional Inbox context; they do not independently prove search or label-match behavior.",
+    "languages": "UI chrome follows ES/EN; custom names and labels legitimately retain their saved Spanish spelling."
+  },
+  "integrated_alt_and_captions": "Checked current ES/EN Team/Labels alt and captions: match the observed sources and the limited states above.",
+  "limits": [
+    "Source-pixel review only; final responsive Help page review remains separate.",
+    "No current app freshness recheck, database mutation, browser access, permission/configuration changes or external writes performed."
+  ]
+}

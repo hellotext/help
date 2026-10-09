@@ -1,0 +1,403 @@
+{
+  "checked_at_utc": "2026-10-07T23:21:50.675479+00:00",
+  "review_type": "Read-only static article and asset audit; no browser or capture execution.",
+  "baseline_commit": "616bc90f55f09b9ec92ee3ee35f58dd6694c6d10",
+  "reviewed_worktree": "/Users/pel/Documents/Codex/2026-10-06/task-8/help-inbox-feedback-local",
+  "integration_stage": "Final static preservation audit after all overview/search/team/label integrations; three figures in each of four articles. Build and page pixel review remain separately owned by parent.",
+  "result": "passed",
+  "findings": [],
+  "articles": [
+    {
+      "path": "_i18n/es/team/inbox-overview.md",
+      "baseline_sha256": "d4815ffe3bb77ebd6c127e62de4da8d0a558295b8418bf2719a23158b8fd9847",
+      "reviewed_sha256": "57ae0d3f373430c8db963d1240a511f04bdad3557b851923af6c2a43aa9ae3d3",
+      "headings_count": 7,
+      "headings_preserved": true,
+      "links_count": 21,
+      "ordered_link_targets_preserved": true,
+      "link_targets_exist": true,
+      "baseline_figure_count": 2,
+      "reviewed_figure_count": 3,
+      "prior_prose_preserved_except_requested_context": true,
+      "new_search_caption_has_no_result_claim": null,
+      "asset_paths": [
+        "/images/editorial/inbox-context/context-es-desktop.png",
+        "/images/editorial/inbox-context/context-es-mobile.png",
+        "/images/editorial/inbox-overview/ownership-es-desktop.png",
+        "/images/editorial/inbox-overview/ownership-es-mobile.png",
+        "/images/editorial/inbox-overview/workspace-es-desktop.png",
+        "/images/editorial/inbox-overview/workspace-es-mobile.png"
+      ]
+    },
+    {
+      "path": "_i18n/es/team/filter-and-search-inbox.md",
+      "baseline_sha256": "097a16a3a3f7dc181ba5b5fab9da2be2dc21945ea618c024b72c0b414c4a37c5",
+      "reviewed_sha256": "6e3dbf65ada7bf9ee1032c7c4e4f031fae149d079ce0788297345266216faffe",
+      "headings_count": 15,
+      "headings_preserved": true,
+      "links_count": 6,
+      "ordered_link_targets_preserved": true,
+      "link_targets_exist": true,
+      "baseline_figure_count": 3,
+      "reviewed_figure_count": 3,
+      "prior_prose_preserved_except_requested_context": true,
+      "new_search_caption_has_no_result_claim": true,
+      "asset_paths": [
+        "/images/editorial/inbox-filter-context/labels-es-desktop.png",
+        "/images/editorial/inbox-filter-context/labels-es-mobile.png",
+        "/images/editorial/inbox-filter-context/search-es-desktop.png",
+        "/images/editorial/inbox-filter-context/search-es-mobile.png",
+        "/images/editorial/inbox-filter-context/team-es-desktop.png",
+        "/images/editorial/inbox-filter-context/team-es-mobile.png"
+      ]
+    },
+    {
+      "path": "_i18n/en/team/inbox-overview.md",
+      "baseline_sha256": "d9764a326a6ac91aa24d07c44c53079f0da22b026250834fc3528c2969c99074",
+      "reviewed_sha256": "6173c31cd4829ee2ee226dea9a876a34085dafd98896783abddaa98a2432e5c8",
+      "headings_count": 7,
+      "headings_preserved": true,
+      "links_count": 21,
+      "ordered_link_targets_preserved": true,
+      "link_targets_exist": true,
+      "baseline_figure_count": 2,
+      "reviewed_figure_count": 3,
+      "prior_prose_preserved_except_requested_context": true,
+      "new_search_caption_has_no_result_claim": null,
+      "asset_paths": [
+        "/images/editorial/inbox-context/context-en-desktop.png",
+        "/images/editorial/inbox-context/context-en-mobile.png",
+        "/images/editorial/inbox-overview/ownership-en-desktop.png",
+        "/images/editorial/inbox-overview/ownership-en-mobile.png",
+        "/images/editorial/inbox-overview/workspace-en-desktop.png",
+        "/images/editorial/inbox-overview/workspace-en-mobile.png"
+      ]
+    },
+    {
+      "path": "_i18n/en/team/filter-and-search-inbox.md",
+      "baseline_sha256": "4e3bc2b2f8e2c356c3bde0600dc0aa732c056b7eac33052bbda4d2014dfb960e",
+      "reviewed_sha256": "8e03dac5720813768983e1c9d7e990fb674b23658106afda59c59e4afa333ced",
+      "headings_count": 15,
+      "headings_preserved": true,
+      "links_count": 6,
+      "ordered_link_targets_preserved": true,
+      "link_targets_exist": true,
+      "baseline_figure_count": 3,
+      "reviewed_figure_count": 3,
+      "prior_prose_preserved_except_requested_context": true,
+      "new_search_caption_has_no_result_claim": true,
+      "asset_paths": [
+        "/images/editorial/inbox-filter-context/labels-en-desktop.png",
+        "/images/editorial/inbox-filter-context/labels-en-mobile.png",
+        "/images/editorial/inbox-filter-context/search-en-desktop.png",
+        "/images/editorial/inbox-filter-context/search-en-mobile.png",
+        "/images/editorial/inbox-filter-context/team-en-desktop.png",
+        "/images/editorial/inbox-filter-context/team-en-mobile.png"
+      ]
+    }
+  ],
+  "collection_stubs": [
+    {
+      "path": "_team/inbox-overview.md",
+      "byte_equal": true
+    },
+    {
+      "path": "_team/filter-and-search-inbox.md",
+      "byte_equal": true
+    }
+  ],
+  "original_asset_count": 20,
+  "original_assets": [
+    {
+      "path": "images/editorial/inbox-filter-search/labels-en-desktop.png",
+      "baseline_sha256": "ccb2401de6507cb96358d00e24187221412e65464eb33ab7816c271115a0656b",
+      "current_sha256": "ccb2401de6507cb96358d00e24187221412e65464eb33ab7816c271115a0656b",
+      "byte_equal": true
+    },
+    {
+      "path": "images/editorial/inbox-filter-search/labels-en-mobile.png",
+      "baseline_sha256": "18daa6e035fa69ac21be907a62dd7c87ef9e01ef42ebbb38e9cf800b923fdec7",
+      "current_sha256": "18daa6e035fa69ac21be907a62dd7c87ef9e01ef42ebbb38e9cf800b923fdec7",
+      "byte_equal": true
+    },
+    {
+      "path": "images/editorial/inbox-filter-search/labels-es-desktop.png",
+      "baseline_sha256": "d95783076dd8bcfc8856a0fe6721d949651aece815757e8b4f8da859961e2a0a",
+      "current_sha256": "d95783076dd8bcfc8856a0fe6721d949651aece815757e8b4f8da859961e2a0a",
+      "byte_equal": true
+    },
+    {
+      "path": "images/editorial/inbox-filter-search/labels-es-mobile.png",
+      "baseline_sha256": "c6e2fb68b6805e1016ba9a09fb6c7b3437ae852be53281ea17061b6d244dad98",
+      "current_sha256": "c6e2fb68b6805e1016ba9a09fb6c7b3437ae852be53281ea17061b6d244dad98",
+      "byte_equal": true
+    },
+    {
+      "path": "images/editorial/inbox-filter-search/search-en-desktop.png",
+      "baseline_sha256": "2772b355c74d3208c3fdd94115f975a7751dd72edaa5bbef66734717814d9e70",
+      "current_sha256": "2772b355c74d3208c3fdd94115f975a7751dd72edaa5bbef66734717814d9e70",
+      "byte_equal": true
+    },
+    {
+      "path": "images/editorial/inbox-filter-search/search-en-mobile.png",
+      "baseline_sha256": "e1b1c1cb0841e17021b7921fe12b8b7b23d375f12de67e4cfbe54f4fe6e961e1",
+      "current_sha256": "e1b1c1cb0841e17021b7921fe12b8b7b23d375f12de67e4cfbe54f4fe6e961e1",
+      "byte_equal": true
+    },
+    {
+      "path": "images/editorial/inbox-filter-search/search-es-desktop.png",
+      "baseline_sha256": "5411bb22147e5f30ef25b1b372c7c45f29294add978c613e82f8307286bceaa5",
+      "current_sha256": "5411bb22147e5f30ef25b1b372c7c45f29294add978c613e82f8307286bceaa5",
+      "byte_equal": true
+    },
+    {
+      "path": "images/editorial/inbox-filter-search/search-es-mobile.png",
+      "baseline_sha256": "c07d85d18af99dc5ceba94315044794d224a899c573422f27a19ed7ade0eec39",
+      "current_sha256": "c07d85d18af99dc5ceba94315044794d224a899c573422f27a19ed7ade0eec39",
+      "byte_equal": true
+    },
+    {
+      "path": "images/editorial/inbox-filter-search/team-en-desktop.png",
+      "baseline_sha256": "2d3a07bedc9b84150d3ef15e9efc841b77e0d4224c7c779da0a8c1f30c6d0b23",
+      "current_sha256": "2d3a07bedc9b84150d3ef15e9efc841b77e0d4224c7c779da0a8c1f30c6d0b23",
+      "byte_equal": true
+    },
+    {
+      "path": "images/editorial/inbox-filter-search/team-en-mobile.png",
+      "baseline_sha256": "7865ddcc07b652185355248960976f3a22fa700f36bbc455f1963f8bb46a446c",
+      "current_sha256": "7865ddcc07b652185355248960976f3a22fa700f36bbc455f1963f8bb46a446c",
+      "byte_equal": true
+    },
+    {
+      "path": "images/editorial/inbox-filter-search/team-es-desktop.png",
+      "baseline_sha256": "259cb31cb025a567b4ec3197cbeda801ebd0011bcbaad5dc3b882b904ae79a5a",
+      "current_sha256": "259cb31cb025a567b4ec3197cbeda801ebd0011bcbaad5dc3b882b904ae79a5a",
+      "byte_equal": true
+    },
+    {
+      "path": "images/editorial/inbox-filter-search/team-es-mobile.png",
+      "baseline_sha256": "9d55ab0dc158d87590f70b8ca5f73d74fa25da6f71de291e67b3da6b7560dea7",
+      "current_sha256": "9d55ab0dc158d87590f70b8ca5f73d74fa25da6f71de291e67b3da6b7560dea7",
+      "byte_equal": true
+    },
+    {
+      "path": "images/editorial/inbox-overview/ownership-en-desktop.png",
+      "baseline_sha256": "95a7935400fb3f324cfb455c082145aa7bf08135746ce4fa8871e732de4c0b90",
+      "current_sha256": "95a7935400fb3f324cfb455c082145aa7bf08135746ce4fa8871e732de4c0b90",
+      "byte_equal": true
+    },
+    {
+      "path": "images/editorial/inbox-overview/ownership-en-mobile.png",
+      "baseline_sha256": "55233117d28930df72a094bf6f6962268e4061b3c04f20009a8abea1ae1194ee",
+      "current_sha256": "55233117d28930df72a094bf6f6962268e4061b3c04f20009a8abea1ae1194ee",
+      "byte_equal": true
+    },
+    {
+      "path": "images/editorial/inbox-overview/ownership-es-desktop.png",
+      "baseline_sha256": "06f1b2a275410f8637f23086deb8ff8e02be9ab9ff9d35e49c5bfa1538f9cbd4",
+      "current_sha256": "06f1b2a275410f8637f23086deb8ff8e02be9ab9ff9d35e49c5bfa1538f9cbd4",
+      "byte_equal": true
+    },
+    {
+      "path": "images/editorial/inbox-overview/ownership-es-mobile.png",
+      "baseline_sha256": "6f4ba369b21d5f90abbf2e09c49157a358e9dd1b2acd54e445195e4eb26088a4",
+      "current_sha256": "6f4ba369b21d5f90abbf2e09c49157a358e9dd1b2acd54e445195e4eb26088a4",
+      "byte_equal": true
+    },
+    {
+      "path": "images/editorial/inbox-overview/workspace-en-desktop.png",
+      "baseline_sha256": "759d6073fb0ec3631062ea11aa15c73fc936f38a07707fac341b511f895bbbf7",
+      "current_sha256": "759d6073fb0ec3631062ea11aa15c73fc936f38a07707fac341b511f895bbbf7",
+      "byte_equal": true
+    },
+    {
+      "path": "images/editorial/inbox-overview/workspace-en-mobile.png",
+      "baseline_sha256": "ffc4412883eee99d2d0e9810642c4e1b0062e35304c644be3b707106e1f3e9ed",
+      "current_sha256": "ffc4412883eee99d2d0e9810642c4e1b0062e35304c644be3b707106e1f3e9ed",
+      "byte_equal": true
+    },
+    {
+      "path": "images/editorial/inbox-overview/workspace-es-desktop.png",
+      "baseline_sha256": "840205f4e2f05343f1954c45e17f475b1243473473baca10acba13552cd827a6",
+      "current_sha256": "840205f4e2f05343f1954c45e17f475b1243473473baca10acba13552cd827a6",
+      "byte_equal": true
+    },
+    {
+      "path": "images/editorial/inbox-overview/workspace-es-mobile.png",
+      "baseline_sha256": "fac53da2ba4b58de62445b62056d238184fe81620d29a5424cc5c2f38d5b7925",
+      "current_sha256": "fac53da2ba4b58de62445b62056d238184fe81620d29a5424cc5c2f38d5b7925",
+      "byte_equal": true
+    }
+  ],
+  "ledger": {
+    "sha256": "d27fc6217ffa944d49a246e8d30da0e327e8b7b2c52ea1bd0c64c7e32375a245",
+    "byte_equal_to_baseline": true,
+    "total_pairs": 154,
+    "status_counts": {
+      "in_progress": 7,
+      "local_verified": 108,
+      "out_of_scope": 1,
+      "pending": 37,
+      "visual_pending": 1
+    },
+    "unresolved_pairs": 45,
+    "duplicate_article_keys": 0,
+    "selected_rows": [
+      {
+        "article_key": "team/assigning-conversations.md",
+        "editorial_status": "pending",
+        "local_verified_commit": "",
+        "work_record": ""
+      },
+      {
+        "article_key": "team/filter-and-search-inbox.md",
+        "editorial_status": "visual_pending",
+        "local_verified_commit": "d6d37946bd150ac95f45f0f75dcf6d816ea87a4e",
+        "work_record": "docs/editorial-work/filter-and-search-inbox.md"
+      },
+      {
+        "article_key": "team/inbox-overview.md",
+        "editorial_status": "local_verified",
+        "local_verified_commit": "d6d37946bd150ac95f45f0f75dcf6d816ea87a4e",
+        "work_record": "docs/editorial-work/inbox-overview.md"
+      }
+    ]
+  },
+  "live_main_and_open_pr_check": {
+    "status": "verified by parent read-only tool calls",
+    "reported_at_utc": "2026-10-07T23:19:23.369704+00:00",
+    "source": "root reported successful gh api repos/hellotext/help/commits/main and gh pr list --state open using approved network execution in this turn",
+    "main_sha": "616bc90f55f09b9ec92ee3ee35f58dd6694c6d10",
+    "open_prs": [],
+    "open_pr_count": 0,
+    "duplicate_live_pr": false,
+    "own_sandbox_attempt": {
+      "status": "unavailable",
+      "attempt": "gh api repos/hellotext/help/commits/main; planned open PR list depended on this read",
+      "error": "error connecting to api.github.com",
+      "conclusion": "Current remote main and live duplicate status are not revalidated by this audit. No fetch, external mutation, escalation or browser used."
+    },
+    "scope": "Fresh parent-verified repository state; no fetch or external write. Timestamp records receipt of the root verification."
+  },
+  "writes": "Only this evidence JSON; article/assets/ledger/sharedguide/assignment worktree unchanged.",
+  "previous_partial_review_checked_at_utc": "2026-10-07T23:19:14.052673+00:00",
+  "filter_alt_caption_review": {
+    "manifest": "filter-sources/manifest.json",
+    "manifest_sha256": "82e47c1b215e9caa0b651e09826977f9b197a57db9b9cb3dbc3a062c388cac74",
+    "source": "retained native capture manifest and imported PNG bytes; no browser or new pixel review in this task",
+    "custom_labels": "Prioridad, Devoluciones and Ventas are saved business data and correctly remain Spanish in English UI/copy.",
+    "labels_state": "Choose flyout open; labels listed as available, with none applied.",
+    "team_state": "Lucía Méndez and Sofía Castro selected; main filter menu open, Choose control present. No teammate chooser expansion is claimed.",
+    "figures": [
+      {
+        "locale": "es",
+        "kind": "team",
+        "alt": "Sección Equipo del menú Mostrar filtros abierta sobre la lista del Inbox, con Lucía Méndez y Sofía Castro seleccionadas y el control Elegir.",
+        "caption": "Interfaz real con datos ficticios. Los controles acotan la lista por integrante; no muestran un cambio de asignación.",
+        "assessment": "consistent with both desktop and mobile manifest states",
+        "captures": [
+          {
+            "file": "team-es-desktop.png",
+            "sha256": "35bc711d4a75c0bfea25cdcf567097ebac12a1156f81ba7878cee65e89da933c",
+            "menu_open": true,
+            "section": "users-filters",
+            "menu_text": "EQUIPO\nL\n\nLucía Méndez\n\nS\n\nSofía Castro\n\nTú\n\nElegir",
+            "label_param_absent": true,
+            "import_matches_manifest": true
+          },
+          {
+            "file": "team-es-mobile.png",
+            "sha256": "16fb42803fa0702dfa43b51b96130e277d7badbf9e51ce08ac573d963a00db06",
+            "menu_open": true,
+            "section": "users-filters",
+            "menu_text": "EQUIPO\nL\n\nLucía Méndez\n\nS\n\nSofía Castro\n\nTú\n\nElegir",
+            "label_param_absent": true,
+            "import_matches_manifest": true
+          }
+        ]
+      },
+      {
+        "locale": "es",
+        "kind": "labels",
+        "alt": "Selector Elegir de Etiquetas abierto sobre el Inbox, con las opciones Prioridad, Devoluciones y Ventas y una conversación ficticia visible detrás.",
+        "caption": "Interfaz real con datos ficticios. El selector muestra las etiquetas disponibles; todavía no hay ninguna etiqueta aplicada como filtro.",
+        "assessment": "consistent with both desktop and mobile manifest states",
+        "captures": [
+          {
+            "file": "labels-es-desktop.png",
+            "sha256": "06c5119e89feef4e74702ab4f5fdc089aa85e114d0bc0ddc867f6cb56665d075",
+            "menu_open": true,
+            "section": "labels-filters",
+            "menu_text": "ETIQUETAS\n\nElegir\n\nPrioridad\n\nDevoluciones\n\nVentas",
+            "label_param_absent": true,
+            "import_matches_manifest": true
+          },
+          {
+            "file": "labels-es-mobile.png",
+            "sha256": "4803bb898eb39637278ac07bc595746fc5e2b7f0a11efa6d5d7010d1b52c2ea9",
+            "menu_open": true,
+            "section": "labels-filters",
+            "menu_text": "ETIQUETAS\n\nElegir\n\nPrioridad\n\nDevoluciones\n\nVentas",
+            "label_param_absent": true,
+            "import_matches_manifest": true
+          }
+        ]
+      },
+      {
+        "locale": "en",
+        "kind": "team",
+        "alt": "Team section of Show filters open over the Inbox list, with Lucía Méndez and Sofía Castro selected and the Choose control visible.",
+        "caption": "Real interface with fictional data. These controls narrow the list by teammate; they do not show an assignment change.",
+        "assessment": "consistent with both desktop and mobile manifest states",
+        "captures": [
+          {
+            "file": "team-en-desktop.png",
+            "sha256": "641426edf4babf3e45e1a6e5b71ac27a9ebe9861f678565d6e63759866beaed0",
+            "menu_open": true,
+            "section": "users-filters",
+            "menu_text": "TEAM\nL\n\nLucía Méndez\n\nS\n\nSofía Castro\n\nYou\n\nChoose",
+            "label_param_absent": true,
+            "import_matches_manifest": true
+          },
+          {
+            "file": "team-en-mobile.png",
+            "sha256": "83bbb6aca79cb322d1dbdc5385c145fd27d55b504b402b9b8cd740f96837b25a",
+            "menu_open": true,
+            "section": "users-filters",
+            "menu_text": "TEAM\nL\n\nLucía Méndez\n\nS\n\nSofía Castro\n\nYou\n\nChoose",
+            "label_param_absent": true,
+            "import_matches_manifest": true
+          }
+        ]
+      },
+      {
+        "locale": "en",
+        "kind": "labels",
+        "alt": "Labels Choose menu open over the Inbox, with Prioridad, Devoluciones and Ventas available and a fictional conversation visible behind it.",
+        "caption": "Real interface with fictional data. The chooser shows available custom labels; no label filter has been applied yet.",
+        "assessment": "consistent with both desktop and mobile manifest states",
+        "captures": [
+          {
+            "file": "labels-en-desktop.png",
+            "sha256": "b4d5bd618d2b6cd5c3daf9bda9f1e59d148c7948c3c5a27985bc41c632e25c6b",
+            "menu_open": true,
+            "section": "labels-filters",
+            "menu_text": "LABELS\n\nChoose\n\nPrioridad\n\nDevoluciones\n\nVentas",
+            "label_param_absent": true,
+            "import_matches_manifest": true
+          },
+          {
+            "file": "labels-en-mobile.png",
+            "sha256": "8f96ff6b9d694b434a24a503a68ca86c0aef6dd6cfcea844627742690bc797f7",
+            "menu_open": true,
+            "section": "labels-filters",
+            "menu_text": "LABELS\n\nChoose\n\nPrioridad\n\nDevoluciones\n\nVentas",
+            "label_param_absent": true,
+            "import_matches_manifest": true
+          }
+        ]
+      }
+    ],
+    "result": "passed"
+  }
+}
