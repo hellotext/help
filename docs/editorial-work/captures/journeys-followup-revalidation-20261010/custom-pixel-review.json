@@ -1,0 +1,1817 @@
+{
+  "status": "passed_complete_saved_pixel_review",
+  "reviewer": "/root/draft_audit",
+  "reviewed_at": "2026-10-10T21:11:44.976694+00:00",
+  "scope": {
+    "article": "journeys/custom-agent-playbook.md",
+    "locales": [
+      "es",
+      "en"
+    ],
+    "viewports_css": [
+      [
+        1440,
+        1000
+      ],
+      [
+        580,
+        1000
+      ],
+      [
+        390,
+        1000
+      ]
+    ],
+    "complete_header_to_footer": true,
+    "view_count": 6,
+    "actually_viewed_png_count": 104,
+    "figures_per_view": 7
+  },
+  "contract": {
+    "file": "audit/journeys-completion-20261010/complete-review-contract.json",
+    "sha256": "cb18f3e687a4733f4054613c10610741709e5e0622e4833c332530dddd8d502e"
+  },
+  "custom_corrections": {
+    "file": "audit/journeys-completion-20261010/custom-agent-corrections-final.json",
+    "sha256": "8bf57584bfbc375ac311cfe952ed7a98c43ebcd314f3b4cf59f3f2f53d1e6c43"
+  },
+  "component_reviews": [
+    {
+      "file": "audit/journeys-completion-20261010/custom-pixel-review-es.json",
+      "sha256": "cbc2b46e3d54e4bebc274b134c63a1079d632b9cdfaf764e753188871bc90cb4"
+    },
+    {
+      "file": "audit/journeys-completion-20261010/custom-pixel-review-en.json",
+      "sha256": "1b31d97cd787f630e0541b728f935f4263b1574d9bd1ee214a2924a8a53b7561"
+    }
+  ],
+  "article_and_html_bindings": [
+    {
+      "file": "help-journeys-completion-local-20261010/_i18n/es/journeys/custom-agent-playbook.md",
+      "sha256": "7969a9b3d162ddecd3fe12929d9c19ba2cc44ddcf0e49de3d764f493f3a83203"
+    },
+    {
+      "file": "help-journeys-completion-local-20261010/_site/es/agente-personalizado.html",
+      "sha256": "2ee05b4df4f388d6f914e42a163ae5389c4adb52cf9753a09a0c377cee5a051e"
+    },
+    {
+      "file": "help-journeys-completion-local-20261010/_i18n/en/journeys/custom-agent-playbook.md",
+      "sha256": "ed1f5ecadf08662019a7970a026a743d12f47f22ac45faeca9b817f578a90260"
+    },
+    {
+      "file": "help-journeys-completion-local-20261010/_site/custom-agent-playbook.html",
+      "sha256": "8289a676a3958d570ad861a6bf514ebcb3a8304042569d6757d22b5a001f1180"
+    }
+  ],
+  "method": "Each listed saved PNG was individually inspected with view_image by its named reviewer. This consolidation reread both receipts and rechecked every PNG/metadata/source binding; it did not claim one reviewer viewed both locales.",
+  "views": [
+    {
+      "locale": "es",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "reviewer": "/root/draft_audit",
+      "state": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-custom-agent-playbook-1440.json",
+        "sha256": "6cb2f9872dcbd570808024bdd75f79417b5052039f96a6cccb5d69e7f3b5b6ba"
+      },
+      "captures": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-custom-agent-playbook-1440-captures.json",
+        "sha256": "8c617526c8c5217b1f8a197a52266c910770090ff53d3cfc5229287894e87b2b"
+      },
+      "coverage": {
+        "start": 0,
+        "end": 13513,
+        "document_height": 13513,
+        "content_bottom": 13513.7421875,
+        "header_to_footer": true
+      },
+      "figure_count": 7,
+      "png_count": 15,
+      "result": "passed",
+      "inspected": [
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-custom-agent-playbook-1440-tile-001.png",
+          "sha256": "d32f6db9bea4a019f9aaa77ab4614ac5592986bf3ccacb039bf58fe4efa6d87e",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            0
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-custom-agent-playbook-1440-tile-002.png",
+          "sha256": "18545f2d5dae6164d2f52658dc20912da8bd03739bb51e36e56f0eff2843cb7d",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            900
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-custom-agent-playbook-1440-tile-003.png",
+          "sha256": "9e2fcdc2b3c2a108db6d2a3b44c00d6cda2caf1bb7d9e99c8409cd3789b58f9b",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            1800
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-custom-agent-playbook-1440-tile-004.png",
+          "sha256": "91f00612e6c57cd6f8d0a1068105a1ac5c26d2dcf528b1a8a8fee155e2ccb0cf",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            2700
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-custom-agent-playbook-1440-tile-005.png",
+          "sha256": "0c7f92145d37aa35f7697ef3c851ea71f8134c9ab9ef63bd0781347508b592b8",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            3600
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-custom-agent-playbook-1440-tile-006.png",
+          "sha256": "5d5473d2c089766b0e2cac5f47ddbd442bc8fab84a35415509f684436970f1c9",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            4500
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-custom-agent-playbook-1440-tile-007.png",
+          "sha256": "28bd15a9ec94714b8a6ad6745b5cffcc06ca063e858b38e7897db860834c42f7",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            5400
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-custom-agent-playbook-1440-tile-008.png",
+          "sha256": "06a2d11471637e24e0a52219a0fb8f835fa6ec84dc4fdf5c16a3f060af885a5c",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            6300
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-custom-agent-playbook-1440-tile-009.png",
+          "sha256": "2fb3125fc19acb26c21a5c22812d507d4d2664e31861ea4aea287c70508cc2c6",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            7200
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-custom-agent-playbook-1440-tile-010.png",
+          "sha256": "9a0a696bc1e93cd5e43285e0885d6bcd81670bfa9e8f4af5ca091f3e5ade3f06",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            8100
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-custom-agent-playbook-1440-tile-011.png",
+          "sha256": "b33de2531ac75d9838dd9c4143dcdc85f54565e97f6b2d66269ba10466da02fe",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            9000
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-custom-agent-playbook-1440-tile-012.png",
+          "sha256": "7299fe0070bc682f2ca004af3a7c53731a5a9b64b9794fd278c033ba851cd2ec",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            9900
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-custom-agent-playbook-1440-tile-013.png",
+          "sha256": "63bc9efab97326c736321aeb1d5205964cc81a8076bc726aa65e3c9c348dd6c9",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            10800
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-custom-agent-playbook-1440-tile-014.png",
+          "sha256": "3c6383c3f0cc3b0f8f5eba39171345d0bed1297d4ace7e065003181e8b0f57ad",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            11700
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-custom-agent-playbook-1440-tile-015.png",
+          "sha256": "de9f0611fcaea67ce4dcc18029fa3441ee1b044477a2790105032c8b0b6d4133",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            12513
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        }
+      ]
+    },
+    {
+      "locale": "es",
+      "viewport": [
+        580,
+        1000
+      ],
+      "reviewer": "/root/draft_audit",
+      "state": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-580.json",
+        "sha256": "99eab5eb118bc8b90b94e707340dd68b6051923484dc0533ce24f11e83eea62a"
+      },
+      "captures": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-580-captures.json",
+        "sha256": "113403cb1a4f414617d55aa906e1bc700d99f686b80d81a5533acc1261ce5c38"
+      },
+      "coverage": {
+        "start": 0,
+        "end": 15297,
+        "document_height": 15297,
+        "content_bottom": 15297,
+        "header_to_footer": true
+      },
+      "figure_count": 7,
+      "png_count": 17,
+      "result": "passed",
+      "inspected": [
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-580-tile-001.png",
+          "sha256": "5fa99d19a9380595605d99ee9c2c776d11b29888e3d2b23f0b0992076fc226ff",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            0
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-580-tile-002.png",
+          "sha256": "2f2eae1e4dc776c8b97c4eefea1b48949c00f33c21a8b3fdc1ab0b9c9de805f8",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            900
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-580-tile-003.png",
+          "sha256": "d68b2daee45c65cb107338837c5de087ec6ada50bbb7c89bd910d52c854a5c38",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            1800
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-580-tile-004.png",
+          "sha256": "9bc66a5c59ae8c1f9e54ba32a26ff7cd1ed066ce7407e1518b606c21ad268ff8",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            2700
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-580-tile-005.png",
+          "sha256": "4732583a9395a41fd2610e1e6a519f438c98faca512d1a764ab1046544e9556f",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            3600
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-580-tile-006.png",
+          "sha256": "c7c1264078dedfa390b01017b14c3b1fc054a0301cc1ab24110bc0fea03f699a",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            4500
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-580-tile-007.png",
+          "sha256": "20f1a3864eaff9d956ad454c3a492d78c86f7cb819c1eb136724800b2a98a664",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            5400
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-580-tile-008.png",
+          "sha256": "51031a3cfbfabe1dc4e05e8a6cfa090c0fd5049a6415acaaf777ef1c6c260a6e",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            6300
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-580-tile-009.png",
+          "sha256": "b9396ae6089f6bb29af62760830f3a9ae2d30e3f39ec4a3392a2c951c1cab439",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            7200
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-580-tile-010.png",
+          "sha256": "637022a9ec6b1480ae9d2eef07610d1beff2c01ea53d993c6164b1e48b710124",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            8100
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-580-tile-011.png",
+          "sha256": "d638d8fb7c4c99b23cbbb59bb3416bdb3a10c72ccb0998bdfb554e9367fd9962",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            9000
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-580-tile-012.png",
+          "sha256": "bcfa2c89cb4890313364304816ae1068c37822c97570bb35fde9d1914ca0bcd8",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            9900
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-580-tile-013.png",
+          "sha256": "10b9d4e896f4d43bff637acc4d670361ceb1c4cefc8ba1cf172511077c3de080",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            10800
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-580-tile-014.png",
+          "sha256": "8121b50b8e0e3664e12b720afec2c513f1602d7ef3dc43d3006b11e04c99a216",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            11700
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-580-tile-015.png",
+          "sha256": "41dc86ed169a3b8993943e83683d934d998566a3cdfe3d28dbf0c7ced166f1cd",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            12600
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-580-tile-016.png",
+          "sha256": "52fe01a4f32cf5812792e38735fe1bff8ea886e048fd79a4fde5a93c37b6caa6",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            13500
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-580-tile-017.png",
+          "sha256": "8c757b20855cee9558c23859dd1fa526e8a27f99f72cf4e187da788b36fae1b8",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            14297
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        }
+      ]
+    },
+    {
+      "locale": "es",
+      "viewport": [
+        390,
+        1000
+      ],
+      "reviewer": "/root/draft_audit",
+      "state": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-390.json",
+        "sha256": "b4cda2240ec8c0d22769c6e54268a492b2aac2b762fa2023840181f2c40ba641"
+      },
+      "captures": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-390-captures.json",
+        "sha256": "016468731377f3830866e9a76f537e47498c0142dd39130830ee51d1f11ef7bf"
+      },
+      "coverage": {
+        "start": 0,
+        "end": 18272,
+        "document_height": 18272,
+        "content_bottom": 18272.046875,
+        "header_to_footer": true
+      },
+      "figure_count": 7,
+      "png_count": 21,
+      "result": "passed",
+      "inspected": [
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-390-tile-001.png",
+          "sha256": "d91324f701627b423c9f5ab071010f4a05c29f95b18b23e6d1190bc220a8834a",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            0
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-390-tile-002.png",
+          "sha256": "bbe47c4540bd4683d9946f5bd82ec3eff5d51484fe030b14b4faf30563472bcb",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            900
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-390-tile-003.png",
+          "sha256": "4ebadb386e58401e596a371996bee06af58ceb630274f31356a075b69b70172c",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            1800
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-390-tile-004.png",
+          "sha256": "d854ad67d2574ac57f065324f52bc8ea96448b69ec93c195dc8ad61febbe6d98",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            2700
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-390-tile-005.png",
+          "sha256": "61a2b45a55405557fb041002372cd90f95c56f27e74b9ba7be9a03a5a07e61c9",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            3600
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-390-tile-006.png",
+          "sha256": "94fa19b7655d842ce8c2b3a53ddccfee9fdc8d39ea721343c4f04e0b845b3ec6",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            4500
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-390-tile-007.png",
+          "sha256": "452dc01ac3ede6fa44246336ccf3539f0a09862d586e1950e2e1cbea58cfd6e1",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            5400
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-390-tile-008.png",
+          "sha256": "6aba677378a963c2ea063ced46a96052fcbd88a33f32f4f360776b04eede3084",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            6300
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-390-tile-009.png",
+          "sha256": "d97d17eac0834fc2025f9238bd6fc2192d10811941d17561923ecd950e9f3576",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            7200
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-390-tile-010.png",
+          "sha256": "ed5e866ab7e6710fe8ab05fd3551bbc497b2085474c640b88e0290cca3a5fb25",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            8100
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-390-tile-011.png",
+          "sha256": "1f8ce8beb4a28a12036af707e9105ec93b8531b3296537fa869e74a2d70211de",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            9000
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-390-tile-012.png",
+          "sha256": "12541fbede02133241606944eec166007a6f3433ef5329261d57f922953349d8",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            9900
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-390-tile-013.png",
+          "sha256": "b196b69365d15e96d484c115405ddc963699a8a09e9d351bec9171d783dfc57a",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            10800
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-390-tile-014.png",
+          "sha256": "39e5126b18c540e7508d85c28f370ab8e9017c8cf519a3a180971aabd9d2d006",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            11700
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-390-tile-015.png",
+          "sha256": "13de6522b5427993376164781ec55846d53a602bf5af43a30005c43d2cde3a15",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            12600
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-390-tile-016.png",
+          "sha256": "4d042a61f8e67cd1f682fb1a7d42f001c0d6f7e79f95bce944bc1bf54abd03cf",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            13500
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-390-tile-017.png",
+          "sha256": "598526f32968e774de965ee7edcc3cb55fb2088bf8b8514ddcf3acc1ff13ac18",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            14400
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-390-tile-018.png",
+          "sha256": "0ae0081383fc6fae8ea5b052500742b20f16b4f8f8f387f6bcfec40cccb687e5",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            15300
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-390-tile-019.png",
+          "sha256": "45f41443a33fefa2369ee9cdc6d48c4c002ce8d78ec780286beee1ea7c0fddb7",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            16200
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-390-tile-020.png",
+          "sha256": "e5ba7ac3adfa1d3efb6ab07749bee6259879daede2f6ce3afe34a972f52f2eb7",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            17100
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-390-tile-021.png",
+          "sha256": "5484310e6a0a13516a63667b1bcc0f7a94ce2038d8c9a9f6c581eef7788908f8",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            17272
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit",
+          "result": "passed"
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "reviewer": "/root/draft_audit/next_candidate",
+      "state": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-1440.json",
+        "sha256": "bf174f3b0865e4ad2e72b62e337fcd3e51d6e2895b4b463a36090ed3fa78413b"
+      },
+      "captures": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-1440-captures.json",
+        "sha256": "7aa01066c4d0e80eefd49cac3e8be6a5d3f3f9942867e2a946ad4c891245250b"
+      },
+      "coverage": {
+        "scope": "full",
+        "start": 0,
+        "end": 13297,
+        "requested_end": 13297,
+        "document_height": 13297,
+        "header_to_footer": true
+      },
+      "figure_count": 7,
+      "png_count": 15,
+      "result": "passed",
+      "inspected": [
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-1440-tile-001.png",
+          "sha256": "947773e750656ef79044f13cd979ea0e7b2713bb496dd89b1bf3b9a6030fb0e7",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            0
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-1440-tile-002.png",
+          "sha256": "8268971fc2a6964e9d45e739bb6f85ea0e657f9f6c1dc1b1f5c2059bccbd3269",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            900
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-1440-tile-003.png",
+          "sha256": "1100280c91320c7ca7178349e5373b6720e875344996e5e46b2111dff48b7c36",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            1800
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-1440-tile-004.png",
+          "sha256": "a1ca500b941b7a0c8a6c209117ea2c1dd6bb8cc28459fc7b8d0458ba25260db7",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            2700
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-1440-tile-005.png",
+          "sha256": "41d1ff852b38090b31663e996c1c7a7b5ea6e74fe5903ea34bd0f0edeac44f67",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            3600
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-1440-tile-006.png",
+          "sha256": "dfefc6fb10fbe068c9fbf4a7562618ef70e5e2fe60794c48a5dd3df5aeafd804",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            4500
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-1440-tile-007.png",
+          "sha256": "6243a42957ab7172f89c13a4e8f46d099d9044b2b242c7b3ace246715f6321cd",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            5400
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-1440-tile-008.png",
+          "sha256": "348b65e0bc066538599a28a2fc95487fbf828536c5da839eea4bb3d54aafab04",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            6300
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-1440-tile-009.png",
+          "sha256": "9409ae95aae9bcb2b84fee18e089ecc48409d44929c7a4a0e1c64d2c26d6749e",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            7200
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-1440-tile-010.png",
+          "sha256": "0ece1a6eadb2a360b21b1fcbc3471ae99509e5b9e3e5334a6bbb19b08c7f9005",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            8100
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-1440-tile-011.png",
+          "sha256": "a6113f052b04ca956e60cf467c1465e227655bc4dac5f1f26961ea5b283fa8dc",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            9000
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-1440-tile-012.png",
+          "sha256": "27e288e9b1cc0434a274ce14b2b5036a3b69aa8a81229e26cf571f618ef4e49f",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            9900
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-1440-tile-013.png",
+          "sha256": "7281fdb31929afcde6e8d83e539cd298b6594ae6367e52218f465a7ef2cd4307",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            10800
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-1440-tile-014.png",
+          "sha256": "92cce722bfec35f69c77edc1c17b44ab378188084ebe8315614fa5220b22d705",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            11700
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-1440-tile-015.png",
+          "sha256": "434c0c6a1b4def978337136639c0a3ae24b46b6610ceb1b077d186af2c39ce99",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            12297
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "viewport": [
+        580,
+        1000
+      ],
+      "reviewer": "/root/draft_audit/next_candidate",
+      "state": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-580.json",
+        "sha256": "54573dc157835dd675a3ab01835eb30107bace82630f4fbf993e6601769aa11e"
+      },
+      "captures": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-580-captures.json",
+        "sha256": "d1658597a13e2e8038193a5297acc9db021e1d55c7c8af978537473924c21208"
+      },
+      "coverage": {
+        "scope": "full",
+        "start": 0,
+        "end": 14561,
+        "requested_end": 14561,
+        "document_height": 14561,
+        "header_to_footer": true
+      },
+      "figure_count": 7,
+      "png_count": 17,
+      "result": "passed",
+      "inspected": [
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-580-tile-001.png",
+          "sha256": "b3cdc759c0a4412a7882901867928ca474638bfd177fe971d9de24fc4f16fa6b",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            0
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-580-tile-002.png",
+          "sha256": "9893cf228389bd89fa59bb3ec546899fee4c4ff8f84514a77ff6ac8525fd425c",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            900
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-580-tile-003.png",
+          "sha256": "2e9bbf318d6c581aa421eaeb47c39577db777a66d79244756324cf4a88b7dd9f",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            1800
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-580-tile-004.png",
+          "sha256": "b11c6f87e0cafac68f86ea0dd1050874298a57995a79da9a33d156f984c5e03e",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            2700
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-580-tile-005.png",
+          "sha256": "418d8ef9bade6d2a19e8bdace685e96883c1f78be7beb211297428c5a8571299",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            3600
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-580-tile-006.png",
+          "sha256": "27618176c474b5f754e5bb5b1533182335a97804bfecebdf352c5db6e88a138e",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            4500
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-580-tile-007.png",
+          "sha256": "91671e3e2897d70e2bd6b799069731e7fc37be5f0524a5e1b27e095b183522de",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            5400
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-580-tile-008.png",
+          "sha256": "db75f8ba067c07b4df9e29e8f0091e8129014a2ea70d7bac02ca25f4eda06ccb",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            6300
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-580-tile-009.png",
+          "sha256": "6af1ff2d6dd2160cd5a5dce422bb26530ce7da1cfe74ece89ff234606972c916",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            7200
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-580-tile-010.png",
+          "sha256": "e0eb813cb06d4f32ca7b0f8dea6393f0bccebffac3e3cccf0db5410f8e6c9dbe",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            8100
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-580-tile-011.png",
+          "sha256": "51c35503079ae966f8b2330e773e8cf599265162d51a4c52c59074f22a51ff6e",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            9000
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-580-tile-012.png",
+          "sha256": "2c358228aa9e56f3cacf5b8235350f5d17429e277438d07b68356c887ac80595",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            9900
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-580-tile-013.png",
+          "sha256": "01647fabbf150ec0a2695ab2fa44130722e7c7ab9d4e7aa6171abd0e0a1eabdb",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            10800
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-580-tile-014.png",
+          "sha256": "d8b554b1a8c41bf294976a984fed63e74863fed583d5655d724b3019603ab52d",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            11700
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-580-tile-015.png",
+          "sha256": "0a66af3e66b48e3e6b175ccd7f938c535c0446d991c2c19c8b3410fa1968c8f4",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            12600
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-580-tile-016.png",
+          "sha256": "b171f9cf7c99f15afcc6d43e96e994fc03b7b36489af142b319d2091dd109c2d",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            13500
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-580-tile-017.png",
+          "sha256": "4a47703b1649e7e31c57e86ab783882cde2ca7adb0e69266ed03d6d57adced81",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            13561
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "viewport": [
+        390,
+        1000
+      ],
+      "reviewer": "/root/draft_audit/next_candidate",
+      "state": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-390.json",
+        "sha256": "1e7f6356f145b871f24dea61e38a38708b7a0c7c357c90915214292d7ed59a4c"
+      },
+      "captures": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-390-captures.json",
+        "sha256": "b21c631daf005669d6d81540bd2bb8a24765714923121c59a97b67f0fb6d9516"
+      },
+      "coverage": {
+        "scope": "full",
+        "start": 0,
+        "end": 17094,
+        "requested_end": 17094,
+        "document_height": 17094,
+        "header_to_footer": true
+      },
+      "figure_count": 7,
+      "png_count": 19,
+      "result": "passed",
+      "inspected": [
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-390-tile-001.png",
+          "sha256": "9c1ebdb5633d63c9ac5140f706ec5ac9b017abc5624661202588ba419d3ae886",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            0
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-390-tile-002.png",
+          "sha256": "6940cf1fa3674aa25646b6cc0c9232163f651da2d0846ead4128182a1205ed32",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            900
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-390-tile-003.png",
+          "sha256": "d5a0babce05d161f9f1f3764f938a2565aaee812fdc3be95ec1a15da88d0ca39",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            1800
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-390-tile-004.png",
+          "sha256": "be69c9af26b463bf3e146ab3491cd4d3c75712d881d582a8f979d8d1688984f0",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            2700
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-390-tile-005.png",
+          "sha256": "098b3d989af3c5c018598357b82d29e10dfed9dfecbb3a7fc9b491b8c674b86c",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            3600
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-390-tile-006.png",
+          "sha256": "36875378c64f4cac4b5d4b3369c91fc9265b7e3c04d5ce7a28fb896c4167c929",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            4500
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-390-tile-007.png",
+          "sha256": "3f2e959a10b49815adea1e6cc7e399d847ffe349216500f5513639b7b36a1e00",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            5400
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-390-tile-008.png",
+          "sha256": "2fe1a482f27c2efc027cb081e835cc35f89dc492a0676c9331829c295ebb7bb9",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            6300
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-390-tile-009.png",
+          "sha256": "1ebd895d7c8ed5bc1a36457ae4bba5310d5fd3d69f9c2566381c613ddbed3b6a",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            7200
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-390-tile-010.png",
+          "sha256": "81014795e3903e323f0311e7676bc42888c203cfdf18396bece75e4ecc5a3b6f",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            8100
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-390-tile-011.png",
+          "sha256": "fbfd13f157bb7f7ea864d99ae4a0bef2ea0227a98ee66db9ba2ebf484683492b",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            9000
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-390-tile-012.png",
+          "sha256": "2797b77b2e8c5846d0893dff7d7a806dd93593f1179cd0df8e335b4bbd3595b4",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            9900
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-390-tile-013.png",
+          "sha256": "21c9d32fd3dcb937a42c14463da1ca95bf3425af5d6af4779acf6dda7061334b",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            10800
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-390-tile-014.png",
+          "sha256": "ea569d05284566e5e8dfdf344235f33e2c6b661476fa48f8e0669468fb011702",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            11700
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-390-tile-015.png",
+          "sha256": "7cf487730bf29b0315176064e504721a95b334c66cd4020845a1d774afc16d76",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            12600
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-390-tile-016.png",
+          "sha256": "f829a323edbacaf4822517465d209b55d7719a779e1a6e0a1d04e5d5611dae77",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            13500
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-390-tile-017.png",
+          "sha256": "7aa157c018214e2ecbc2aec7e9631ad9316a23c6486893479113e8e8e02d7a13",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            14400
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-390-tile-018.png",
+          "sha256": "866b5f3a21f97513104f85c434f1d017c619dd4e54b5ecf1c4c5e6d3c74a17dd",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            15300
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-390-tile-019.png",
+          "sha256": "e74b9092ca6933c94263cdb493a68242bd7e192b58d114ecf39b5959ade505d9",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "documentScroll": [
+            0,
+            16094
+          ],
+          "actually_viewed": true,
+          "reviewer": "/root/draft_audit/next_candidate",
+          "result": "passed"
+        }
+      ]
+    }
+  ],
+  "findings": [],
+  "conclusions": [
+    "All six complete article views are readable from header through footer, including seven figures per view, corrected guidance, the Follow-up link, related guides and feedback/contact/footer controls.",
+    "No confirmed missing paint, broken figure, article overflow, prose/figure overlap, incorrect locale or clipped essential article control remains.",
+    "Native responsive images remain within their source display size, with static non-linked figures and hidden captions as checked in saved metadata."
+  ],
+  "limitations": [
+    "Saved-page QA does not certify AI results, activation, delivery, channel configuration, ingestion, assignment or other app operations.",
+    "The six focused Follow-up destination views and other two guide pairs have separate reviews; this receipt does not certify them.",
+    "Native viewport tile boundaries split content intentionally; overlapping tiles provide complete article coverage. Desktop sticky sidebar internal clipping is not an article defect and interactive navigation was not tested.",
+    "Footer outer-boundary rounding remains within the frozen one-CSS-pixel tolerance; all footer text and controls were visually inspected.",
+    "Historical figure source PNGs are native 2x; new page-review viewport PNGs are4x. No image pixels were edited."
+  ],
+  "resolved_visual_suspicions": "Reduced-preview list-marker suspicions in ES and EN were disproved by original-resolution reinspection; no defect retained.",
+  "publication": false,
+  "help_changes_by_reviewers": false,
+  "browser_operations_by_reviewers": false
+}

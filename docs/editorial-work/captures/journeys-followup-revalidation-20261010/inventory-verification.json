@@ -1,0 +1,46 @@
+{
+  "status": "passed_three_local_inventory_rows_only",
+  "recorded_at": "2026-10-10T21:20:47.484654+00:00",
+  "help_main_base": "85518c21cd4ec676c5566c4967b6bf6121812ce2",
+  "source_and_evidence_commit": "c9c77bc46cb5abcdce68febcbb7a74504c73e373",
+  "rows": 154,
+  "unchanged_rows": 151,
+  "before_counts": {
+    "local_verified": 108,
+    "pending": 35,
+    "out_of_scope": 1,
+    "in_progress": 9,
+    "visual_pending": 1
+  },
+  "after_counts": {
+    "local_verified": 111,
+    "pending": 35,
+    "out_of_scope": 1,
+    "in_progress": 6,
+    "visual_pending": 1
+  },
+  "main_unresolved": 45,
+  "local_unresolved": 42,
+  "journeys_unresolved_before": 26,
+  "journeys_unresolved_after": 23,
+  "changes": [
+    {
+      "article_key": "journeys/custom-agent-playbook.md",
+      "before": "journeys/custom-agent-playbook.md,in_progress,9952235cc0353a17ceb6339c24156c5d080bd2b4,docs/editorial-work/playbook-followup.md",
+      "after": "journeys/custom-agent-playbook.md,local_verified,c9c77bc46cb5abcdce68febcbb7a74504c73e373,docs/editorial-work/journeys-followup-revalidation-20261010.md"
+    },
+    {
+      "article_key": "journeys/instant-answers-playbook.md",
+      "before": "journeys/instant-answers-playbook.md,in_progress,306e88ff9a90094ce0e65e615ffe6bb3573da9ee,docs/editorial-work/playbook-followup.md",
+      "after": "journeys/instant-answers-playbook.md,local_verified,c9c77bc46cb5abcdce68febcbb7a74504c73e373,docs/editorial-work/journeys-followup-revalidation-20261010.md"
+    },
+    {
+      "article_key": "journeys/return-and-exchange-helper-playbook.md",
+      "before": "journeys/return-and-exchange-helper-playbook.md,in_progress,f8edf7bd5fb9ff66687d64a29472ab850c4ea05f,docs/editorial-work/playbook-followup.md",
+      "after": "journeys/return-and-exchange-helper-playbook.md,local_verified,c9c77bc46cb5abcdce68febcbb7a74504c73e373,docs/editorial-work/journeys-followup-revalidation-20261010.md"
+    }
+  ],
+  "before_sha256": "d0f124e7582ab049a80eac01d7274815d59bad531d1eb38c7a4abb232df2c11b",
+  "after_sha256": "d70db8acd0c80ef02be9b32efe502845bc33fa062cf8c2968a8985fc933ee0d6",
+  "scope": "Local inventory only; no publication or update to remote main."
+}

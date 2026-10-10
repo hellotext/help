@@ -1,0 +1,87 @@
+{
+  "status": "applied_local_pending_independent_review",
+  "help_base": "85518c21cd4ec676c5566c4967b6bf6121812ce2",
+  "app_source_revision": "4eece183a68b1bf3d480ff403e0f39eca4be507d",
+  "source_paths": [
+    "app/prompts/custom.agent.txt",
+    "app/prompts/prompt/custom_agent.rb"
+  ],
+  "reason": "Align informational scope and handoff examples with the current Custom Agent contract; frustration alone does not authorize redirect.",
+  "headings_links_figures_unchanged": true,
+  "records": [
+    {
+      "path": "_i18n/es/journeys/custom-agent-playbook.md",
+      "before_sha256": "f28f75aa55b6c10967f6d54d50dc3ce1d87e74c540710ca6fbd42678e88ae02f",
+      "after_sha256": "7969a9b3d162ddecd3fe12929d9c19ba2cc44ddcf0e49de3d764f493f3a83203",
+      "replacements": [
+        {
+          "before": "\"calificar pedidos mayoristas\", \"ayudar a elegir una rutina de skincare\"",
+          "after": "\"explicar requisitos documentados de compra mayorista\", \"explicar instrucciones de cuidado de una línea de productos\""
+        },
+        {
+          "before": "- El agente debería responder primero y derivar solo cuando el caso es sensible, no resuelto o está fuera de alcance.",
+          "after": "- El agente debería responder con información autorizada y solicitar derivación cuando el cliente pide una persona o la gestión queda fuera de su alcance."
+        },
+        {
+          "before": "- \"El cliente quiere saber si un producto está cubierto por garantía.\"\n- \"El cliente quiere ayuda para elegir un regalo para un niño.\"\n- \"El cliente pregunta si hoy hay retiro en tienda.\"",
+          "after": "- \"El cliente quiere conocer las condiciones documentadas de garantía de un producto.\"\n- \"El cliente pregunta cómo cuidar un producto según sus instrucciones aprobadas.\"\n- \"El cliente quiere conocer los requisitos documentados para retirar una compra en tienda.\""
+        },
+        {
+          "before": "El prompt no agrega herramientas, permisos, integraciones, consentimiento ni capacidad para modificar datos por sí solo.",
+          "after": "El prompt no agrega herramientas, permisos, integraciones, consentimiento ni capacidad para modificar datos por sí solo. Tampoco habilita recomendaciones de productos ni seguimiento en vivo de pedidos: esas tareas corresponden a las misiones especializadas."
+        },
+        {
+          "before": "- El cliente pide hablar con una persona.\n- El cliente está enojado, frustrado o insatisfecho.\n- El cliente reporta un producto defectuoso, dañado, incorrecto o faltante.\n- El pedido está fuera de la misión del agente.\n- El agente no puede verificar la respuesta con el conocimiento o datos disponibles.\n- El cliente pide un reembolso, cancelación, excepción, cambio de cuenta, detalle de pago o acción de venta humana.\n- Ninguna misión activa puede resolver el pedido de forma segura.",
+          "after": "- El cliente pide explícitamente hablar con una persona.\n- El cliente solicita una gestión fuera del alcance de la misión o no autorizada por sus instrucciones y herramientas.\n- El cliente pide gestionar un producto defectuoso, dañado, incorrecto o faltante, o ejecutar un reembolso, cancelación, excepción, cambio de cuenta o acción de venta humana que el agente no puede realizar.\n- Una consulta dentro de alcance sigue sin solución después de al menos dos intentos reales con herramientas, la necesidad supera claramente las herramientas o la información verificada disponibles y no se puede avanzar reintentando, con otra acción disponible, con contexto verificado o con una aclaración útil.\n\nLa frustración, una búsqueda fallida o un error aislado de herramienta no bastan para derivar. Una pregunta informativa sobre una política puede responderse con información autorizada; no equivale a pedir que se ejecute una operación. Si la solicitud es ambigua y podría estar dentro de alcance, el agente debe pedir una aclaración antes de decidir."
+        },
+        {
+          "before": "- Un mensaje ambiguo que debería pedir una aclaración o derivar.",
+          "after": "- Un mensaje ambiguo que debería pedir una aclaración antes de decidir si está fuera de alcance."
+        },
+        {
+          "before": "- Un mensaje que debería derivarse porque el cliente está molesto, reporta un producto defectuoso o pide una decisión humana.",
+          "after": "- Una solicitud explícita de atención humana o de una operación fuera de alcance; compárala con una queja o pregunta de política que el agente puede atender sin derivar."
+        }
+      ]
+    },
+    {
+      "path": "_i18n/en/journeys/custom-agent-playbook.md",
+      "before_sha256": "940681c2f459cd996d62cd92f447e4d641146bd72d4b03328ce360d65cbd36c2",
+      "after_sha256": "ed1f5ecadf08662019a7970a026a743d12f47f22ac45faeca9b817f578a90260",
+      "replacements": [
+        {
+          "before": "\"qualify wholesale requests,\" \"help customers choose a skincare routine,\"",
+          "after": "\"explain documented wholesale purchase requirements,\" \"explain care instructions for a product line,\""
+        },
+        {
+          "before": "- The agent should answer first, then hand off only when the request is sensitive, unresolved, or outside scope.",
+          "after": "- The agent should answer from authorized information and request handoff when the customer asks for a person or the work is outside its scope."
+        },
+        {
+          "before": "- \"The customer wants to know if a product is covered by warranty.\"\n- \"The customer wants help choosing a gift for a child.\"\n- \"The customer is asking whether store pickup is available today.\"",
+          "after": "- \"The customer wants to know the documented warranty conditions for a product.\"\n- \"The customer asks how to care for a product according to its approved instructions.\"\n- \"The customer wants to know the documented requirements for collecting a purchase in store.\""
+        },
+        {
+          "before": "The prompt does not add tools, permissions, integrations, consent, or authority to modify data on its own.",
+          "after": "The prompt does not add tools, permissions, integrations, consent, or authority to modify data on its own. It also does not enable product recommendations or live order tracking: those tasks belong to specialized playbooks."
+        },
+        {
+          "before": "- The customer asks for a person.\n- The customer is angry, frustrated, or dissatisfied.\n- The customer reports a defective, damaged, wrong, or missing product.\n- The request is outside the agent's mission.\n- The agent cannot verify the answer from available knowledge or data.\n- The customer asks for a refund, cancellation, exception, account change, payment detail, or human sales action.\n- No active playbook can resolve the request safely.",
+          "after": "- The customer explicitly asks for a person.\n- The customer requests work outside the playbook's scope or not authorized by its instructions and tools.\n- The customer asks to manage a defective, damaged, wrong, or missing product, or to perform a refund, cancellation, exception, account change, or human sales action that the agent cannot carry out.\n- An in-scope request remains unresolved after at least two genuine tool attempts, the need is clearly beyond the available tools or verified information, and retrying, another available action, grounded context, or useful clarification cannot make progress.\n\nFrustration, one failed search, or an isolated tool error is not enough for handoff. An informational policy question can be answered from authorized information; it is different from asking the agent to perform an operation. If a request is ambiguous and could be in scope, the agent should ask a clarifying question before deciding."
+        },
+        {
+          "before": "- An ambiguous message that should ask a clarifying question or hand off.",
+          "after": "- An ambiguous message that should prompt a clarifying question before deciding whether it is outside scope."
+        },
+        {
+          "before": "- A message that should hand off because the customer is upset, reports a defective product, or asks for a human decision.",
+          "after": "- An explicit request for a person or an out-of-scope operation; compare it with a complaint or policy question that the agent can handle without handoff."
+        }
+      ]
+    }
+  ],
+  "app_mutations": 0,
+  "publication_performed": false,
+  "supersedes_sha256": "5d85149eff6134dd788db0146fc95d59c91e6d486713fd2a5367fea7da4332f1",
+  "revision_note": "Clarify all three in-scope redirect gates, including useful retry, from independent semantic review."
+}
