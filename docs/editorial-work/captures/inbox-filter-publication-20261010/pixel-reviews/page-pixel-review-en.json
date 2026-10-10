@@ -1,0 +1,1205 @@
+{
+  "schema_version": 1,
+  "reviewer": "draft_audit",
+  "reviewed_at": "2026-10-10T02:25:35.651793+00:00",
+  "status": "passed_with_nonblocking_capture_observation",
+  "result": "passed",
+  "scope": "English article content and all three figures at 1440/580/390 CSS pixels in final local Help build. All 40 listed PNGs were individually inspected with view_image. No browser operation or Help modification by reviewer.",
+  "accepted_run": "20261010T021801419082Z",
+  "rejected_runs_not_used": [
+    "20261010T020555511789Z",
+    "20261010T021051243644Z"
+  ],
+  "summary_file": "help-filter-publication-20261010/docs/editorial-work/captures/inbox-filter-publication-20261010/page-review/20261010T021801419082Z/summary-filters.json",
+  "summary_sha256": "5a89af2f9e3b1301e73b618f04156554523166a8f25dd069d57763f8e3dbdb36",
+  "build_verification_sha256": "9b0c73607f8435c2ce228369349b2e2faeb7db1218cb99184f82862aca888dbd",
+  "integration_sha256": "ef0dbe2634b835e85e6ce9606045bfea47919f15c82a2adfc3c3fd8e8c3335fc",
+  "article": {
+    "path": "_i18n/en/team/filter-and-search-inbox.md",
+    "sha256": "b13b955fdf472356b503eeecbd80360ba007de90a7df67145bace4a50f8fe7c6",
+    "built_html_sha256": "a68e1014d08aa6a72d11190f7eac6044bb1aa47114355624d22d6e13c69ea02b",
+    "headings": 15,
+    "links": 6
+  },
+  "layouts": [
+    {
+      "layout": "desktop",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "metadata": "help-filter-publication-20261010/docs/editorial-work/captures/inbox-filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-desktop.json",
+      "metadata_sha256": "00ffb2a8c1e08f20d201bf00e035819c3fea17cb5ff6c4581ce4d59b64ace511",
+      "page_tiles": 9,
+      "figure_capture_files": 4,
+      "article_height": 8106,
+      "footer_bottom": 8105.828125,
+      "covered_document_ranges": [
+        [
+          0,
+          1000
+        ],
+        [
+          1000,
+          2000
+        ],
+        [
+          2000,
+          3000
+        ],
+        [
+          3000,
+          4000
+        ],
+        [
+          4000,
+          5000
+        ],
+        [
+          5000,
+          6000
+        ],
+        [
+          6000,
+          7000
+        ],
+        [
+          7000,
+          8000
+        ],
+        [
+          7106,
+          8106
+        ]
+      ],
+      "coverage_through_footer": true,
+      "horizontal_overflow": false,
+      "column_width": 774.4140625,
+      "figures": [
+        {
+          "id": "search",
+          "source": "/images/editorial/inbox-filter-context/search-en-desktop.png",
+          "source_sha256": "c0df4a4eab0a74ba7aedd0be18170ee2578afeed01d2d187fac66ed26f32e5e9",
+          "image_css_size": [
+            484,
+            64
+          ],
+          "native_css_size": [
+            484.0,
+            64.0
+          ],
+          "source_pixels_per_displayed_css_pixel": 4.0,
+          "stage_width": 774.4140625,
+          "alt": "Focused Inbox Search field with Emma entered and the text caret visible.",
+          "caption_text": "Entering a query in the real interface with fictional data. This capture does not verify search results.",
+          "caption_visually_hidden": true,
+          "figure_links": 0,
+          "open_controls": 0
+        },
+        {
+          "id": "team",
+          "source": "/images/editorial/inbox-filters-20261010/team-en-desktop.png",
+          "source_sha256": "cdd17f83f4521c870bf7e627c6a60080e8a6291a1f90b74c275d13bf0eb2e33f",
+          "image_css_size": [
+            698.40625,
+            932.4921875
+          ],
+          "native_css_size": [
+            728,
+            972
+          ],
+          "source_pixels_per_displayed_css_pixel": 4.169493042194282,
+          "stage_width": 774.4140625,
+          "alt": "Inbox Show filters menu with Team and the Choose selector open, available teammates, and the conversation list behind it.",
+          "caption_text": "Real interface with fictional data. The chooser shows teammates available to narrow the list; it does not show an assignment change.",
+          "caption_visually_hidden": true,
+          "figure_links": 0,
+          "open_controls": 0
+        },
+        {
+          "id": "labels",
+          "source": "/images/editorial/inbox-filters-20261010/labels-en-desktop.png",
+          "source_sha256": "bceaa0b33b2c7b839b8461f1fe2c1a7fb369b385b45e1164003c893b26f8b7a5",
+          "image_css_size": [
+            698.40625,
+            824.6796875
+          ],
+          "native_css_size": [
+            708,
+            836
+          ],
+          "source_pixels_per_displayed_css_pixel": 4.054946530046087,
+          "stage_width": 774.4140625,
+          "alt": "Inbox Show filters menu with Labels and the Choose selector open, available labels, and the conversation list behind it.",
+          "caption_text": "Real interface with fictional data. The chooser shows labels available to narrow the list.",
+          "caption_visually_hidden": true,
+          "figure_links": 0,
+          "open_controls": 0
+        }
+      ]
+    },
+    {
+      "layout": "narrow",
+      "viewport": [
+        580,
+        1000
+      ],
+      "metadata": "help-filter-publication-20261010/docs/editorial-work/captures/inbox-filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-narrow.json",
+      "metadata_sha256": "50392e7f0e970df39b62888702dc68c70c48d7cfffab8792864932af51f094a3",
+      "page_tiles": 9,
+      "figure_capture_files": 5,
+      "article_height": 8425,
+      "footer_bottom": 8425.421875,
+      "covered_document_ranges": [
+        [
+          0,
+          1000
+        ],
+        [
+          1000,
+          2000
+        ],
+        [
+          2000,
+          3000
+        ],
+        [
+          3000,
+          4000
+        ],
+        [
+          4000,
+          5000
+        ],
+        [
+          5000,
+          6000
+        ],
+        [
+          6000,
+          7000
+        ],
+        [
+          7000,
+          8000
+        ],
+        [
+          7425.5,
+          8425.5
+        ]
+      ],
+      "coverage_through_footer": true,
+      "horizontal_overflow": false,
+      "column_width": 548,
+      "figures": [
+        {
+          "id": "search",
+          "source": "/images/editorial/inbox-filter-context/search-en-mobile.png",
+          "source_sha256": "d1726ded00b238daa9ac3c5912406486b44bd140e118051007aedc53e17c621d",
+          "image_css_size": [
+            414,
+            72
+          ],
+          "native_css_size": [
+            414.0,
+            72.0
+          ],
+          "source_pixels_per_displayed_css_pixel": 4.0,
+          "stage_width": 548,
+          "alt": "Focused Inbox Search field with Emma entered and the text caret visible.",
+          "caption_text": "Entering a query in the real interface with fictional data. This capture does not verify search results.",
+          "caption_visually_hidden": true,
+          "figure_links": 0,
+          "open_controls": 0
+        },
+        {
+          "id": "team",
+          "source": "/images/editorial/inbox-filters-20261010/team-en-mobile.png",
+          "source_sha256": "6dab5a649f2754b890e3e39f22f1343bbe3c9de4195c7b65036874e92b319e16",
+          "image_css_size": [
+            374,
+            1002
+          ],
+          "native_css_size": [
+            374,
+            1002
+          ],
+          "source_pixels_per_displayed_css_pixel": 4.0,
+          "stage_width": 548,
+          "alt": "Inbox Show filters menu with Team and the Choose selector open, available teammates, and the conversation list behind it.",
+          "caption_text": "Real interface with fictional data. The chooser shows teammates available to narrow the list; it does not show an assignment change.",
+          "caption_visually_hidden": true,
+          "figure_links": 0,
+          "open_controls": 0
+        },
+        {
+          "id": "labels",
+          "source": "/images/editorial/inbox-filters-20261010/labels-en-mobile.png",
+          "source_sha256": "78a4e69fc4260a49e09082cdc7d05281ae63f8605d2903dddccdbd5ceb648b07",
+          "image_css_size": [
+            374,
+            864
+          ],
+          "native_css_size": [
+            374,
+            864
+          ],
+          "source_pixels_per_displayed_css_pixel": 4.0,
+          "stage_width": 548,
+          "alt": "Inbox Show filters menu with Labels and the Choose selector open, available labels, and the conversation list behind it.",
+          "caption_text": "Real interface with fictional data. The chooser shows labels available to narrow the list.",
+          "caption_visually_hidden": true,
+          "figure_links": 0,
+          "open_controls": 0
+        }
+      ]
+    },
+    {
+      "layout": "mobile",
+      "viewport": [
+        390,
+        1000
+      ],
+      "metadata": "help-filter-publication-20261010/docs/editorial-work/captures/inbox-filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-mobile.json",
+      "metadata_sha256": "d176e3c6d0810c7d806c820e13eb34e98447081000cf6b5c8fddc4776a39b178",
+      "page_tiles": 10,
+      "figure_capture_files": 3,
+      "article_height": 9507,
+      "footer_bottom": 9506.9609375,
+      "covered_document_ranges": [
+        [
+          0,
+          1000
+        ],
+        [
+          1000,
+          2000
+        ],
+        [
+          2000,
+          3000
+        ],
+        [
+          3000,
+          4000
+        ],
+        [
+          4000,
+          5000
+        ],
+        [
+          5000,
+          6000
+        ],
+        [
+          6000,
+          7000
+        ],
+        [
+          7000,
+          8000
+        ],
+        [
+          8000,
+          9000
+        ],
+        [
+          8507,
+          9507
+        ]
+      ],
+      "coverage_through_footer": true,
+      "horizontal_overflow": false,
+      "column_width": 358,
+      "figures": [
+        {
+          "id": "search",
+          "source": "/images/editorial/inbox-filter-context/search-en-mobile.png",
+          "source_sha256": "d1726ded00b238daa9ac3c5912406486b44bd140e118051007aedc53e17c621d",
+          "image_css_size": [
+            315.9765625,
+            54.953125
+          ],
+          "native_css_size": [
+            414.0,
+            72.0
+          ],
+          "source_pixels_per_displayed_css_pixel": 5.240895042650513,
+          "stage_width": 358,
+          "alt": "Focused Inbox Search field with Emma entered and the text caret visible.",
+          "caption_text": "Entering a query in the real interface with fictional data. This capture does not verify search results.",
+          "caption_visually_hidden": true,
+          "figure_links": 0,
+          "open_controls": 0
+        },
+        {
+          "id": "team",
+          "source": "/images/editorial/inbox-filters-20261010/team-en-mobile.png",
+          "source_sha256": "6dab5a649f2754b890e3e39f22f1343bbe3c9de4195c7b65036874e92b319e16",
+          "image_css_size": [
+            315.9921875,
+            846.609375
+          ],
+          "native_css_size": [
+            374,
+            1002
+          ],
+          "source_pixels_per_displayed_css_pixel": 4.734294261626326,
+          "stage_width": 358,
+          "alt": "Inbox Show filters menu with Team and the Choose selector open, available teammates, and the conversation list behind it.",
+          "caption_text": "Real interface with fictional data. The chooser shows teammates available to narrow the list; it does not show an assignment change.",
+          "caption_visually_hidden": true,
+          "figure_links": 0,
+          "open_controls": 0
+        },
+        {
+          "id": "labels",
+          "source": "/images/editorial/inbox-filters-20261010/labels-en-mobile.png",
+          "source_sha256": "78a4e69fc4260a49e09082cdc7d05281ae63f8605d2903dddccdbd5ceb648b07",
+          "image_css_size": [
+            315.9921875,
+            730.0078125
+          ],
+          "native_css_size": [
+            374,
+            864
+          ],
+          "source_pixels_per_displayed_css_pixel": 4.734294261626326,
+          "stage_width": 358,
+          "alt": "Inbox Show filters menu with Labels and the Choose selector open, available labels, and the conversation list behind it.",
+          "caption_text": "Real interface with fictional data. The chooser shows labels available to narrow the list.",
+          "caption_visually_hidden": true,
+          "figure_links": 0,
+          "open_controls": 0
+        }
+      ]
+    }
+  ],
+  "pngs": [
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-desktop-page-1.png",
+      "sha256": "9321acb0bc375f2b21fd18532a688951a4538c556df8d0708d14f4f521b1bfee",
+      "pixel_size": [
+        5760,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "desktop",
+      "part": "page-1",
+      "document_clip": [
+        0,
+        0,
+        1440,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    },
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-desktop-page-2.png",
+      "sha256": "7cc6f73d6aa34dc4203e7adadbac6058c5970d6606536e93cc06709607a50973",
+      "pixel_size": [
+        5760,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "desktop",
+      "part": "page-2",
+      "document_clip": [
+        0,
+        1000,
+        1440,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    },
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-desktop-page-3.png",
+      "sha256": "67a7b382e86f9d92df394af415155131e3ef246ff802ed109116e76c5e76ed0e",
+      "pixel_size": [
+        5760,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "desktop",
+      "part": "page-3",
+      "document_clip": [
+        0,
+        2000,
+        1440,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    },
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-desktop-page-4.png",
+      "sha256": "c1d2b8449bad5097a1312907a611538635c0568b713db32a9ac5f0e754bed6c9",
+      "pixel_size": [
+        5760,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "desktop",
+      "part": "page-4",
+      "document_clip": [
+        0,
+        3000,
+        1440,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    },
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-desktop-page-5.png",
+      "sha256": "3e71d3e8cb6fd0d8961927a08560373c5e0457c6b73f512a3731cf76f7e994e3",
+      "pixel_size": [
+        5760,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "desktop",
+      "part": "page-5",
+      "document_clip": [
+        0,
+        4000,
+        1440,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    },
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-desktop-page-6.png",
+      "sha256": "ac88adc510f3e2869820dbc83e9bdfe5edf6b037d2c1080ce925aeaf6f149acc",
+      "pixel_size": [
+        5760,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "desktop",
+      "part": "page-6",
+      "document_clip": [
+        0,
+        5000,
+        1440,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    },
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-desktop-page-7.png",
+      "sha256": "2a2c34972ef3b995e3b763a59b754b92784e32ac1bd3714e5dc1ee6f0496b390",
+      "pixel_size": [
+        5760,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "desktop",
+      "part": "page-7",
+      "document_clip": [
+        0,
+        6000,
+        1440,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    },
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-desktop-page-8.png",
+      "sha256": "0eacf4d38c0d34bc0ce3986a140c5086a5e7b7c31ea920682796a9aad9666264",
+      "pixel_size": [
+        5760,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "desktop",
+      "part": "page-8",
+      "document_clip": [
+        0,
+        7000,
+        1440,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    },
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-desktop-page-9.png",
+      "sha256": "5d7f9e8a3f7a75181a43d09dd56aabe1b7633b3d3a574b1bf8a772faea891f27",
+      "pixel_size": [
+        5760,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "desktop",
+      "part": "page-9",
+      "document_clip": [
+        0,
+        7106,
+        1440,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    },
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-desktop-figure-1.png",
+      "sha256": "c95a9a3c0fb1596e827392147b1efc82b1ddc36b122fb7e2ffb90a433820a8ba",
+      "pixel_size": [
+        5760,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "desktop",
+      "part": "figure-1",
+      "document_clip": [
+        0,
+        1109,
+        1440,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    },
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-desktop-figure-2-part-1.png",
+      "sha256": "9bf0bfdd7639326f65868e35b7f69cbc9827dadc7241a2664ed659ca18a6887e",
+      "pixel_size": [
+        5760,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "desktop",
+      "part": "figure-2-part-1",
+      "document_clip": [
+        0,
+        3321,
+        1440,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    },
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-desktop-figure-2-part-2.png",
+      "sha256": "19410ef1f36bb8573e6fb3fd096492fef0d29d9925ba1477444370b917a44eaa",
+      "pixel_size": [
+        5760,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "desktop",
+      "part": "figure-2-part-2",
+      "document_clip": [
+        0,
+        4321,
+        1440,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    },
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-desktop-figure-3.png",
+      "sha256": "6b2d55e595e69a8347b8749275a7d11ca53b31786b40d394198b9199b621acec",
+      "pixel_size": [
+        5760,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "desktop",
+      "part": "figure-3",
+      "document_clip": [
+        0,
+        5072,
+        1440,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    },
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-narrow-page-1.png",
+      "sha256": "50d442104c5b0ba3e5dcc1ba75d8952076f8f5f4e917f5f42d63a394d1ab1715",
+      "pixel_size": [
+        2320,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "narrow",
+      "part": "page-1",
+      "document_clip": [
+        0,
+        0,
+        580,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    },
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-narrow-page-2.png",
+      "sha256": "1e72c6acad5ef0bd4b560d951906abf57abbcd4d8ffd01494d7f5d389462621e",
+      "pixel_size": [
+        2320,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "narrow",
+      "part": "page-2",
+      "document_clip": [
+        0,
+        1000,
+        580,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    },
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-narrow-page-3.png",
+      "sha256": "eb90af319fc42878a246dcfce263736361c7db6b4f60e41733edcd9b8e6bfad3",
+      "pixel_size": [
+        2320,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "narrow",
+      "part": "page-3",
+      "document_clip": [
+        0,
+        2000,
+        580,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    },
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-narrow-page-4.png",
+      "sha256": "55ef6ba59863c8af5dbb7a6f8df356e9fabd6168d4ed7af9d81f18b8a993057b",
+      "pixel_size": [
+        2320,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "narrow",
+      "part": "page-4",
+      "document_clip": [
+        0,
+        3000,
+        580,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    },
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-narrow-page-5.png",
+      "sha256": "c1352b5fb7381ba1d3fd6852485f8a0016f544ee01dddea76905f3f0eb259814",
+      "pixel_size": [
+        2320,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "narrow",
+      "part": "page-5",
+      "document_clip": [
+        0,
+        4000,
+        580,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    },
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-narrow-page-6.png",
+      "sha256": "d690ef5bacdb1e6e9e3245ceae715b906b4cf8d86e459c7a2e2d676d092fe922",
+      "pixel_size": [
+        2320,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "narrow",
+      "part": "page-6",
+      "document_clip": [
+        0,
+        5000,
+        580,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    },
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-narrow-page-7.png",
+      "sha256": "df3768cc08fd78e627946d31bf5bdacd75d9b3aaa0411ba4234f133c73394dfa",
+      "pixel_size": [
+        2320,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "narrow",
+      "part": "page-7",
+      "document_clip": [
+        0,
+        6000,
+        580,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    },
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-narrow-page-8.png",
+      "sha256": "2e5403864b270bbae1e70ee3f0bd8d884d1e5647e7dbf530ccc6196223412981",
+      "pixel_size": [
+        2320,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "narrow",
+      "part": "page-8",
+      "document_clip": [
+        0,
+        7000,
+        580,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    },
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-narrow-page-9.png",
+      "sha256": "d0fda78862f67d3a20799b99665c8ff20ce492f44ce4638b4c680ef2ff9d7fc4",
+      "pixel_size": [
+        2320,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "narrow",
+      "part": "page-9",
+      "document_clip": [
+        0,
+        7425.5,
+        580,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    },
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-narrow-figure-1.png",
+      "sha256": "6c1dc2e939d6fc07f2556454f916d94c303c63b79349c189538310f74cb25f4b",
+      "pixel_size": [
+        2320,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "narrow",
+      "part": "figure-1",
+      "document_clip": [
+        0,
+        876,
+        580,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    },
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-narrow-figure-2-part-1.png",
+      "sha256": "4b6dfe4f0876f8f399dbbf974bbade6698528ca091df8717ea641da4d9950fdd",
+      "pixel_size": [
+        2320,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "narrow",
+      "part": "figure-2-part-1",
+      "document_clip": [
+        0,
+        3259,
+        580,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    },
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-narrow-figure-2-part-2.png",
+      "sha256": "28c8ee238486afbf1c27c30854755eb176bc870b8d3a95bd053a7293b158f746",
+      "pixel_size": [
+        2320,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "narrow",
+      "part": "figure-2-part-2",
+      "document_clip": [
+        0,
+        4259,
+        580,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    },
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-narrow-figure-3-part-1.png",
+      "sha256": "27edd4affb87b510bebc45d55a5243fb89e23e63bb60067679200ad684d7e316",
+      "pixel_size": [
+        2320,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "narrow",
+      "part": "figure-3-part-1",
+      "document_clip": [
+        0,
+        5157,
+        580,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    },
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-narrow-figure-3-part-2.png",
+      "sha256": "2524dd92f08e6bf5141c7fd294722dfe830697a7f94483f191c7cb8c2aa04192",
+      "pixel_size": [
+        2320,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "narrow",
+      "part": "figure-3-part-2",
+      "document_clip": [
+        0,
+        6157,
+        580,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    },
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-mobile-page-1.png",
+      "sha256": "66424b3365d4c939457354a53d35edb3368d35ffca57e804d0a8b08e369a2f1d",
+      "pixel_size": [
+        1560,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "mobile",
+      "part": "page-1",
+      "document_clip": [
+        0,
+        0,
+        390,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    },
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-mobile-page-2.png",
+      "sha256": "fb4547ebeae1d39d96926d7dea4b202ba7922af8d4ad1d8813a2b8a8af74d33c",
+      "pixel_size": [
+        1560,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "mobile",
+      "part": "page-2",
+      "document_clip": [
+        0,
+        1000,
+        390,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    },
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-mobile-page-3.png",
+      "sha256": "cb740d1a76cebf94b5a3a23af012ddd6a364580f673b1169fb51a5dd2c1143f5",
+      "pixel_size": [
+        1560,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "mobile",
+      "part": "page-3",
+      "document_clip": [
+        0,
+        2000,
+        390,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    },
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-mobile-page-4.png",
+      "sha256": "abe9dae7b683b51a7a94059970628b1632a47c40d9e5dd58079d18c0060fe944",
+      "pixel_size": [
+        1560,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "mobile",
+      "part": "page-4",
+      "document_clip": [
+        0,
+        3000,
+        390,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    },
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-mobile-page-5.png",
+      "sha256": "154aa465305d8a5937d01879d5278811b5d7ea180c74c5fdd4c174b8271b7881",
+      "pixel_size": [
+        1560,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "mobile",
+      "part": "page-5",
+      "document_clip": [
+        0,
+        4000,
+        390,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    },
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-mobile-page-6.png",
+      "sha256": "e13263e1edabd78a8af25dd5a140d2133e6d8ccc9074206005be4efe18aa5108",
+      "pixel_size": [
+        1560,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "mobile",
+      "part": "page-6",
+      "document_clip": [
+        0,
+        5000,
+        390,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    },
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-mobile-page-7.png",
+      "sha256": "dfa8cbc9198467dea807475634d05be7e5f55c2e8fe2c490e51c82e949f79b58",
+      "pixel_size": [
+        1560,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "mobile",
+      "part": "page-7",
+      "document_clip": [
+        0,
+        6000,
+        390,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    },
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-mobile-page-8.png",
+      "sha256": "5d3fe5f14f631a77e76e689b464d87059b76af0d783f94f4523cc970ab479981",
+      "pixel_size": [
+        1560,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "mobile",
+      "part": "page-8",
+      "document_clip": [
+        0,
+        7000,
+        390,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    },
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-mobile-page-9.png",
+      "sha256": "84cd780ffa69956c27a14e31c50c8bb7b28cfcfd69ff445cdd005fa10aff047a",
+      "pixel_size": [
+        1560,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "mobile",
+      "part": "page-9",
+      "document_clip": [
+        0,
+        8000,
+        390,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    },
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-mobile-page-10.png",
+      "sha256": "7052fc2f2cdbb1286729437cf89cb76b90256cf955bfa2adb27ba6337e4b8513",
+      "pixel_size": [
+        1560,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "mobile",
+      "part": "page-10",
+      "document_clip": [
+        0,
+        8507,
+        390,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    },
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-mobile-figure-1.png",
+      "sha256": "3f01b20eab8f6166dc64161da8eb68007b7eeafec3540f4bc6aaaf2be80bde16",
+      "pixel_size": [
+        1560,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "mobile",
+      "part": "figure-1",
+      "document_clip": [
+        0,
+        1069,
+        390,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    },
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-mobile-figure-2.png",
+      "sha256": "ee48b7f88b37ecb4c0da1194eac35240f532addb8150e6115d6dc9eec211d89b",
+      "pixel_size": [
+        1560,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "mobile",
+      "part": "figure-2",
+      "document_clip": [
+        0,
+        3902,
+        390,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    },
+    {
+      "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-mobile-figure-3.png",
+      "sha256": "7d467a64c5969fc335f086f96ca84e10648d392897fb0e9c8273b9da37866838",
+      "pixel_size": [
+        1560,
+        4000
+      ],
+      "profile": "Display P3 Gamut with sRGB Transfer",
+      "layout": "mobile",
+      "part": "figure-3",
+      "document_clip": [
+        0,
+        5882,
+        390,
+        1000
+      ],
+      "actually_viewed": true,
+      "pixel_review": "passed_for_article_content"
+    }
+  ],
+  "png_count_actually_viewed": 40,
+  "png_hash_crc_dimensions_profile_checks_passed": 40,
+  "english_source_images_rechecked": 6,
+  "built_image_byte_comparisons": 12,
+  "visual_conclusion": [
+    "The complete article is painted from title to footer in each layout, with no missing body sections or horizontal overflow. Figure tiles and page tiles jointly cover every image edge and menu option.",
+    "Team/Choose and all seven available teammates remain readable; Labels/Choose and Priority, Returns and Sales remain readable. Context shows the real fictional queue behind the native choosers.",
+    "At 1440 the new images display at about 698.41 CSS px within a 774.41 px column. At 580 they remain native 374 px within the 548 px column. At 390 they scale down to about 315.99 px within the 358 px column. No source is enlarged.",
+    "Search remains the prior query-entry figure with Emma and caret, without a result claim. Both new figures follow their own introduction and retain their surrounding guidance.",
+    "White image frames, lavender stages, inset spacing, rounded border, hidden captions, accessible descriptions and zero figure links/open controls agree with measured DOM and visible output.",
+    "No My unread, Impersonate, Demo carga, external overlay or error/loading state appears in the integrated figures. Natural initial-letter avatars and menu overlays remain unchanged."
+  ],
+  "blocking_findings": [],
+  "nonblocking_observations": [
+    {
+      "files": [
+        {
+          "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-desktop-page-3.png",
+          "sha256": "67a7b382e86f9d92df394af415155131e3ef246ff802ed109116e76c5e76ed0e"
+        },
+        {
+          "file": "audit/filter-publication-20261010/page-review/20261010T021801419082Z/filters-en-desktop-page-7.png",
+          "sha256": "2a2c34972ef3b995e3b763a59b754b92784e32ac1bd3714e5dc1ee6f0496b390"
+        }
+      ],
+      "observation": "The left Help navigation panel is not painted in these two viewport captures; it appears in adjacent and figure captures. The full article column remains painted.",
+      "impact": "Acceptance covers editorial article content and figures at all three widths. These two captures do not certify complete sticky-navigation rendering. Sidebar is outside this patch; no product regression or CSS fix is inferred."
+    },
+    {
+      "figure": "team on narrow/mobile",
+      "observation": "The native child chooser overlaps the separate Labels section while leaving Team/Choose and all seven member choices complete.",
+      "impact": "Accepted for the teammate step; no claim that all parent controls are simultaneously visible."
+    }
+  ],
+  "limits": [
+    "view_image automatically downsized large review PNGs for inspection; PNG bytes were not edited. CSS sizes and density are independently bound to the DOM records.",
+    "Screenshots show choices, not a newly applied filter result or assignment change.",
+    "Search execution and results remain unverified/visual_pending; this review does not close that existing gap or the 45 unresolved pairs.",
+    "This is local build evidence, not public deployment verification or authorization to publish."
+  ],
+  "restoration_evidence": [
+    {
+      "file": "filter-app-capture-20261010/captures/scene-restore-result.json",
+      "sha256": "bf6d4b83f2d934815499c88b571c4e0dade170a37b9531dfa156bb8d0fae6d58",
+      "phase": "original",
+      "compared_tables": 538,
+      "original_restored": true,
+      "timestamps_unchanged": true,
+      "runner_enqueued_delta": 0,
+      "runner_performed_jobs": 0,
+      "counter_scope": "Only the runner which emitted this receipt; not a global Puma job counter."
+    },
+    {
+      "file": "filter-app-capture-20261010/captures/verify-final-result.json",
+      "sha256": "16a1028447a23cfefa518e945a5b6bab98abc9c7283cc50b230314f2358eef4a",
+      "phase": "original",
+      "compared_tables": 538,
+      "original_restored": true,
+      "timestamps_unchanged": true,
+      "runner_enqueued_delta": 0,
+      "runner_performed_jobs": 0,
+      "counter_scope": "Only the runner which emitted this receipt; not a global Puma job counter."
+    }
+  ],
+  "publication": "not_performed"
+}

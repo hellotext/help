@@ -1,0 +1,114 @@
+{
+  "status": "reviewed_by_root",
+  "scope": "new_filter_captures_only",
+  "source_revision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+  "comparison_revision": "dbbae13227696ac31ec9e2338a654e682920433e",
+  "compatibility": {
+    "status": "scoped_static_compatibility_passed_with_environment_and_fixture_conditions",
+    "target_paths": 218,
+    "byte_identical_paths": 207,
+    "different_shared_paths": 11
+  },
+  "compatibility_limit": "Compatibility reviewed only for Inbox Team/Labels rendering and the ordinary fictional names shown. Shared differences were reviewed; global production equivalence or deployment of the comparison revision is not established.",
+  "runtime": {
+    "rails_environment": "production",
+    "vite_mode": "production",
+    "ui_source_unchanged": true,
+    "source_files_rechecked": 10939,
+    "private_assets": "Native production build without minification after the original minifier failed; no UI source patch. Private assets remain outside Help."
+  },
+  "static_byte_bridge": {
+    "sha256": "55f0732201265c268130759ac94f3cde146c3c7add6c9690f273725f40b59485",
+    "index_sha256": "d44970993f4f832caaf0a8a0ef9a03630a6747e4227e464877ced89638353914",
+    "indexed_files": 2409,
+    "indexed_bytes": 115210784,
+    "purpose": "Serve original indexed asset Buffers after native sendfile failed in the local sandbox; no pixel or DOM transformation."
+  },
+  "smokes": {
+    "transport_cases": 26,
+    "denied_upstream_requests": 0,
+    "static_cases": 10,
+    "static_requests": 34,
+    "static_upstream_attempts": 0
+  },
+  "fixture_journal": [
+    {
+      "action": "prepare-es",
+      "phase": "es",
+      "compared_tables": 538,
+      "unrelated_rows_unchanged": true,
+      "timestamps_unchanged": true,
+      "enqueued_delta": 0,
+      "performed_jobs": 0,
+      "original_restored": false,
+      "journaled_field_count": 19
+    },
+    {
+      "action": "localize-en",
+      "phase": "en",
+      "compared_tables": 538,
+      "unrelated_rows_unchanged": true,
+      "timestamps_unchanged": true,
+      "enqueued_delta": 0,
+      "performed_jobs": 0,
+      "original_restored": false,
+      "journaled_field_count": 19
+    },
+    {
+      "action": "restore",
+      "phase": "original",
+      "compared_tables": 538,
+      "unrelated_rows_unchanged": true,
+      "timestamps_unchanged": true,
+      "enqueued_delta": 0,
+      "performed_jobs": 0,
+      "original_restored": true,
+      "journaled_field_count": 19
+    }
+  ],
+  "native_overlap": "On mobile the Team chooser naturally covers the unrelated Labels section. Team heading, Choose control, two selected teammates and seven available options remain visible. This does not claim that every parent section remains visible simultaneously.",
+  "claim_limits": [
+    "Expanded choosers and real Inbox background only; no applied-filter or new-assignment result is demonstrated.",
+    "Retained Search remains input-only; no successful search result or completion of the visual-pending search is claimed.",
+    "Job counters belong to the runner processes executing the journal phases; they are not global counters for Puma workers or every process.",
+    "Capture guards and fixture restoration describe this isolated local run, not global absence of providers or production-wide state."
+  ],
+  "private_receipt_digests": [
+    {
+      "file": "manifest.json",
+      "sha256": "cac8a01dce64950aae3729afb2edea414610aab440fb3741c13faf7f60364bc1"
+    },
+    {
+      "file": "readiness-audit.json",
+      "sha256": "1706331135af8de6906f086360d59c1f03130e9f0cf41b83c1ebf3a2b580fb1e"
+    },
+    {
+      "file": "asset-build-result.json",
+      "sha256": "7ac161e39cbf76df6e44b9d8003b2e48b43151f40644c8ef4b6ebf70f772f028"
+    },
+    {
+      "file": "capture-proxy-smoke.json",
+      "sha256": "35cdffb0dbc6819b1fbcad268374d53a87cbd875e0fdb29e25b4dd8c07877449"
+    },
+    {
+      "file": "static-byte-smoke-result.json",
+      "sha256": "206e36fd718ae246a8f1dbc1ab7b0dee50f60ccab2ee7e77fbc38226f8160a67"
+    },
+    {
+      "file": "static-byte-index-smoke.json",
+      "sha256": "0c2d67af99f24eb1082889da7413dbae9ffcd6e5a08786aa9178a9f8a67adcad"
+    },
+    {
+      "file": "scene-prepare-es-result.json",
+      "sha256": "adfe2dbf305a431d76df845372f033e0e85bcb50a4416bfc7a041e5f0a47e3c0"
+    },
+    {
+      "file": "scene-localize-en-result.json",
+      "sha256": "f89532f8e870ca19b8e3d5e9a08c5cd3edd7696bca6a44fe8a671cb285fa18b7"
+    },
+    {
+      "file": "scene-restore-result.json",
+      "sha256": "bf6d4b83f2d934815499c88b571c4e0dade170a37b9531dfa156bb8d0fae6d58"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "checked_at": "2026-10-10T01:18:45.259489+00:00",
+  "status": "helper_preparation_verified_no_integration",
+  "baseline_revision": "570208d5a3fe900811572be6014136e06aa33c3f",
+  "editorial_pin": "d5319b02e1c6a85f3a6294f11763b9be8dd58a43",
+  "checks": {
+    "integrate_plan": "passed; no writes",
+    "verify_build_plan": "passed; no writes",
+    "review_pages_plan": "passed; no browser calls",
+    "review_browser_check_only": "passed; no CDP/network calls",
+    "python_ast": "passed for four helpers; no bytecode",
+    "node_check": "passed",
+    "json_parse": "passed for six baseline/config/template JSON files",
+    "whitespace": "passed",
+    "tracked_article_asset_config_diff": []
+  },
+  "bound_files": [
+    {
+      "path": "revision_support.py",
+      "sha256": "7e2c59ce99a03f17259509124222783f3b9978e4a59cca59d8db3ea577583d37"
+    },
+    {
+      "path": "integrate-candidates.py",
+      "sha256": "3bd9e88dcd4054476eb1d844eb282a03e557ac18b56849c64ab0b8a4e8430003"
+    },
+    {
+      "path": "verify-build.py",
+      "sha256": "45c0ab9a24571665373405fd93c5e114af9585eaa877e8324e20ed999b169156"
+    },
+    {
+      "path": "review-local-pages.py",
+      "sha256": "2673dbcc372566b71027a7c90aee46a68be240928d5f943292c7c703ca3cbb93"
+    },
+    {
+      "path": "review-browser.mjs",
+      "sha256": "6fef1db9021c3149fb24e1820b03830f80c5160c3632839b76005facec736390"
+    },
+    {
+      "path": "revision-config.json",
+      "sha256": "8c555002c090fca17e2a33c90be88cfb66ebf5290c8dd29e69c33429f54c5081"
+    },
+    {
+      "path": "proposed-figure-copy.json",
+      "sha256": "b6641324940eb8c3999e5cf3ae13ecbadf86c706bf70c3ac2777e10069b10311"
+    },
+    {
+      "path": "originals/baseline.json",
+      "sha256": "cbf8098b08f3fe2e552c7cb7d279519db287de6ee0cc30d76c58bd6e5337eb20"
+    },
+    {
+      "path": "preservation-baseline.json",
+      "sha256": "2ef68060a9a83ea20e86243ce3181c1f8b8ebc751d4a110c35baa3ffbe47b5a2"
+    }
+  ],
+  "writes_performed": [
+    "new local helper/evidence folder",
+    "new local work record"
+  ],
+  "not_performed": [
+    "candidate acceptance",
+    "image import",
+    "article integration",
+    "build",
+    "browser/server/runtime launch",
+    "app or DB access",
+    "commit",
+    "external write or publication"
+  ],
+  "pending": [
+    "root code review",
+    "eight accepted native source captures",
+    "current reviewed source/copy evidence",
+    "candidate dry run and authorized apply",
+    "normal build and build-byte verification",
+    "complete-page pixel review ES/EN at 1440/580/390"
+  ],
+  "canonical_guide_status": "Keep the published d5319 pin for local QA. Any guide-publication approval block is separate; never pin an unpublished commit as a workaround."
+}

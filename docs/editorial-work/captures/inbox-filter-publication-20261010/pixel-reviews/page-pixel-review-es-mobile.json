@@ -1,0 +1,134 @@
+{
+  "status": "passed",
+  "reviewer": "root",
+  "reviewed_at": "2026-10-10T02:20:47.021264+00:00",
+  "run": "20261010T021801419082Z",
+  "locale": "es",
+  "viewport": [
+    390,
+    1000
+  ],
+  "captures_reviewed": 13,
+  "page_tiles": 10,
+  "figure_views": 3,
+  "metadata_sha256": "c2de97bd5ae8a067409c2d86a9e9c72d20b7d4c1e9c95a5ed47705adc5ea2618",
+  "records": [
+    {
+      "file": "filters-es-mobile-page-1.png",
+      "sha256": "76716b061b12bdca9fa30a6b1e06ade7b4d0257b5cef6e08f9c9b1f4bee5098a",
+      "pixel_review": "passed",
+      "viewed_with": "view_image"
+    },
+    {
+      "file": "filters-es-mobile-page-2.png",
+      "sha256": "9eb89e8d7b54fde6cf56db5ab7e939e43d1da231b98cd8e27a91e925267932ab",
+      "pixel_review": "passed",
+      "viewed_with": "view_image"
+    },
+    {
+      "file": "filters-es-mobile-page-3.png",
+      "sha256": "1bf76c18f279473702df383f7d0510dfef30f4a01b3ea0edadec246cc918990a",
+      "pixel_review": "passed",
+      "viewed_with": "view_image"
+    },
+    {
+      "file": "filters-es-mobile-page-4.png",
+      "sha256": "0a140fceeb1356535959c3aadf07f3f220def629eaf0e9c7508bd202a68b365b",
+      "pixel_review": "passed",
+      "viewed_with": "view_image"
+    },
+    {
+      "file": "filters-es-mobile-page-5.png",
+      "sha256": "b36a588d2e0376a9707fbf1aebbe1fcc33b82c5f24345417b4fb05cb79150e2c",
+      "pixel_review": "passed",
+      "viewed_with": "view_image"
+    },
+    {
+      "file": "filters-es-mobile-page-6.png",
+      "sha256": "322753fae57dbd741964754485620e92737127bab44ff65bf1bad9b79f2530f9",
+      "pixel_review": "passed",
+      "viewed_with": "view_image"
+    },
+    {
+      "file": "filters-es-mobile-page-7.png",
+      "sha256": "1296324b26cdca8ccd583d218ef8fa3c19298e035737d3f7de5196e5b3bd4bee",
+      "pixel_review": "passed",
+      "viewed_with": "view_image"
+    },
+    {
+      "file": "filters-es-mobile-page-8.png",
+      "sha256": "03a675c7881852ec1d19dc77de07aaa79becf3b4031f14a4bacb0cfa7eaf83f8",
+      "pixel_review": "passed",
+      "viewed_with": "view_image"
+    },
+    {
+      "file": "filters-es-mobile-page-9.png",
+      "sha256": "ada6b2082e71041ed56fa3735b50a0c64eb106d8af0782e3f1681708ab47c9cc",
+      "pixel_review": "passed",
+      "viewed_with": "view_image"
+    },
+    {
+      "file": "filters-es-mobile-page-10.png",
+      "sha256": "fdb3679bd3b82f8298a24f1d13d85e1c3d3e0c8e25a2e8ddaa899e955004cf4c",
+      "pixel_review": "passed",
+      "viewed_with": "view_image"
+    },
+    {
+      "file": "filters-es-mobile-figure-1.png",
+      "sha256": "8469b42df8954ea2d1b2ab9918be2354c426b3182569ebaf29abd4c1cb330486",
+      "pixel_review": "passed",
+      "viewed_with": "view_image"
+    },
+    {
+      "file": "filters-es-mobile-figure-2.png",
+      "sha256": "9fba84bbca4f3052f3fc9b5c0cbc08936bd6bba354aa34368cfb3af4a6b761c6",
+      "pixel_review": "passed",
+      "viewed_with": "view_image"
+    },
+    {
+      "file": "filters-es-mobile-figure-3.png",
+      "sha256": "56257b932b48ce0fe685c429f3d80ad8caa5addd76cebcea815c09f666b5c35b",
+      "pixel_review": "passed",
+      "viewed_with": "view_image"
+    }
+  ],
+  "findings": [
+    "Complete page content and footer painted; intentional tile boundaries continue in the next native viewport.",
+    "Team heading, Choose, two selected teammates and all seven available choices readable; Labels heading, Choose and all three choices readable.",
+    "Lavender stage, white frame and both insets remain inside the column; no horizontal clipping or logical upscaling.",
+    "Native Team submenu overlap of the separate Labels section is preserved and disclosed.",
+    "Search remains the unchanged typed-query example; no successful search result is inferred.",
+    "No development controls, debug overlay, cursor or unexpected whitespace from missing paint."
+  ],
+  "figure_geometry": [
+    {
+      "id": null,
+      "width": 315.9765625,
+      "native": [
+        414.0,
+        72.0
+      ],
+      "density": 5.240895042650513
+    },
+    {
+      "id": "team",
+      "width": 315.9921875,
+      "native": [
+        374,
+        1002
+      ],
+      "density": 4.734294261626326
+    },
+    {
+      "id": "labels",
+      "width": 315.9921875,
+      "native": [
+        374,
+        864
+      ],
+      "density": 4.734294261626326
+    }
+  ],
+  "blocking_findings": [],
+  "publication_approved_by_this_receipt": false
+}

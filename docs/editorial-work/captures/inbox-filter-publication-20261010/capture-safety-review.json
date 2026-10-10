@@ -1,0 +1,49 @@
+{
+  "status": "reviewed_by_root",
+  "reviewed_at": "2026-10-10T01:59:00.511563+00:00",
+  "receipt_sha256": "2d552f330b43f5b6f54048edfc5d1792faa26449dcf97e95f632c61db4a4cdc4",
+  "nativeCapture": {
+    "density": 4,
+    "colorProfile": "Display P3",
+    "resampling": false,
+    "domOrCssOverrides": false,
+    "sourceUiPatches": false,
+    "nativeControlsHidden": false,
+    "pointerOmittedByCaptureScreenshot": true
+  },
+  "database": {
+    "restoredFields": 19,
+    "comparedTables": 538,
+    "originalFullyRestored": true,
+    "timestampsUnchanged": true
+  },
+  "queueEvidence": {
+    "runnerEnqueuedDelta": 0,
+    "runnerPerformedJobs": 0,
+    "scope": "The receipt counters describe the verifier/scene runner only, not a census of in-memory queues in all Puma HTTP workers. All runtime processes use retained TestAdapter/Sidekiq fake with no queue workers; no queues were drained."
+  },
+  "transport": {
+    "observedRequests": 1918,
+    "observedPostRequests": 47,
+    "allowedMutationRequests": 0,
+    "blockedRequests": 106,
+    "blockedSightings": 36,
+    "blockedAnalytics": 33,
+    "blockedIndexPrefetch": 4,
+    "websocketPolicy": "Proxy rejects Upgrade; presence cannot reach Rails through the capture transport.",
+    "appEgress": "Process sandbox permits only owned Redis and the exact local PostgreSQL socket.",
+    "assets": "Immutable buffers of privately compiled native production assets, verified byte-exact by index; native Rails HTML. This avoids macOS sandbox sendfile EPERM without relaxing the network boundary."
+  },
+  "localization": {
+    "esAndEnEquivalent": true,
+    "labelsTranslated": true,
+    "noteFragmentCache": "Two exact Note2 fragments invalidated only in owned ephemeral Redis DB1; key digests recorded separately. No timestamps or source changed."
+  },
+  "scopeLimits": [
+    "Team mobile submenu natively overlaps the unrelated Labels section; target Team controls and all seven available names are complete.",
+    "Labels chooser is open; no label is applied.",
+    "The scoped source comparison does not assert whole-application deployment parity.",
+    "Search images and article meaning are outside this replacement batch."
+  ],
+  "verification_receipt_sha256": "16a1028447a23cfefa518e945a5b6bab98abc9c7283cc50b230314f2358eef4a"
+}
