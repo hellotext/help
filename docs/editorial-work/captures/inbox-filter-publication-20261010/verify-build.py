@@ -196,7 +196,7 @@ def verify():
         articles.append({'path': path, 'locale': locale, 'route': route, 'sha256': sha(HELP / path),
                          'built_html_sha256': sha(built_path), 'figures': 3, 'new_figure_ids': IDS,
                          'headings': 15, 'links': 6, 'full_article_content_matches': True,
-                         'article_content_tokens_sha256': digest(json.dumps(actual_content, ensure_ascii=False).encode())})
+                         'article_content_sha256': digest(json.dumps(actual_content, ensure_ascii=False).encode())})
     require(len(images) == 12, 'Expected eight new and four retained Search sources')
     # Existing overview sources and markup must remain intact in the same build.
     overview_stub = (HELP / '_team/inbox-overview.md').read_text()

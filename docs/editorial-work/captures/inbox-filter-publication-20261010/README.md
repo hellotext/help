@@ -99,3 +99,12 @@ desktop tiles omit sticky-sidebar paint while preserving the full article; this
 acceptance covers article content and figures, not sticky-navigation behavior.
 The earlier offscreen/partial diagnostic runs were rejected and stay outside
 the repository. Publication and public-byte verification are separate steps.
+
+The metadata-only follow-up in `metadata-reverification.json` renames the
+rendered-content checksum field after a secret scanner mistook its old name for
+a credential. The verifier passed again with identical checksum values and
+results. Existing browser/pixel receipts remain immutable and bind to the
+original build record and verifier at commit
+`a1d21c79214c088b992066231200287336524626`; the follow-up records both old and
+current hashes. No article, image, styling, security setting or browser output
+changed.
