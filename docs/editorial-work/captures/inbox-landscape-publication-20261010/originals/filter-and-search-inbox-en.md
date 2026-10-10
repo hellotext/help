@@ -82,10 +82,10 @@ In **Show filters**, find **Team** and open **Choose** to add a teammate. This s
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-inbox-figure="team" aria-label="Open the teammate filter choices">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 1618px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 746px; width: fit-content; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/editorial/inbox-filters-20261010/team-en-mobile.png 4x" width="1496" height="4008" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-filters-landscape-20261010/team-en-desktop.png" srcset="/images/editorial/inbox-filters-landscape-20261010/team-en-desktop.png 4x" width="6400" height="4000" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Inbox Show filters menu with Team and the Choose selector open, available teammates, and the conversation list behind it." />
+        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-filters-20261010/team-en-desktop.png" srcset="/images/editorial/inbox-filters-20261010/team-en-desktop.png 4x" width="2912" height="3888" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Inbox Show filters menu with Team and the Choose selector open, available teammates, and the conversation list behind it." />
       </picture>
     </div>
   </div>
@@ -113,10 +113,10 @@ In **Show filters**, find **Labels**, open **Choose**, and select a label. Use t
 
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-inbox-figure="labels" aria-label="Open the label filter choices">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 1618px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 726px; width: fit-content; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/editorial/inbox-filters-20261010/labels-en-mobile.png 4x" width="1496" height="3456" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-filters-landscape-20261010/labels-en-desktop.png" srcset="/images/editorial/inbox-filters-landscape-20261010/labels-en-desktop.png 4x" width="6400" height="4000" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Inbox Show filters menu with Labels and the Choose selector open, available labels, and the conversation list behind it." />
+        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-filters-20261010/labels-en-desktop.png" srcset="/images/editorial/inbox-filters-20261010/labels-en-desktop.png 4x" width="2832" height="3344" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Inbox Show filters menu with Labels and the Choose selector open, available labels, and the conversation list behind it." />
       </picture>
     </div>
   </div>

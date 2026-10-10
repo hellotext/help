@@ -1,0 +1,661 @@
+{
+  "status": "passed",
+  "verified_at": "2026-10-10T18:19:02.510157+00:00",
+  "base_commit": "26c500197b3bc10ea5898db7d41f9c336891f1dc",
+  "manifest_sha256": "60893207c7a68e091f4d71b3d71d1f0f0b0bda32ec01816b58e3f8ab597c5cbd",
+  "integration_record_sha256": "a544cd4c5a4fe09dc52f1c5296d91e68ebd16829de89a9d960e240db7121b7df",
+  "build": {
+    "status": "passed",
+    "build_command": "PATH=<Ruby 3.3.6>/bin:$PATH yarn build",
+    "security_headers": "passed",
+    "docs_absent_from_public_build": true,
+    "generated_js_preserved": {
+      "assets/editorial/editorial_visuals.js": "cea90dc15466e55016ac00bb5420b966022270a95f93380a7485a0982bb6a07d",
+      "assets/editorial/editorial_tabs.js": "39e1533fa19b21d927b5172e41156317a3bca29a3366348d36870147e53b2287"
+    },
+    "built_css_matches_previous_build": "648ad42d28fa176b2b3403528204016c138df7acae3b31549e6b46f1e6399e03",
+    "css_note": "Existing production CSS minification retained; source CSS unchanged.",
+    "build_log_sha256": "186cfa7464284a624a7361d0496949de15f3c1de971d4e6d5f6c877acc0b0433",
+    "inventory": {
+      "local_verified": 108,
+      "pending": 37,
+      "out_of_scope": 1,
+      "in_progress": 7,
+      "visual_pending": 1
+    },
+    "unresolved_pairs": 45,
+    "gitlink": "d5319b02e1c6a85f3a6294f11763b9be8dd58a43"
+  },
+  "views": [
+    {
+      "locale": "es",
+      "layout": "desktop",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "rendered_figures": [
+        {
+          "id": "search",
+          "source": "images/editorial/inbox-filter-context/search-es-desktop.png",
+          "image_width_css": 484,
+          "native_width_css": 484.0,
+          "source_sha256": "c0df4a4eab0a74ba7aedd0be18170ee2578afeed01d2d187fac66ed26f32e5e9"
+        },
+        {
+          "id": "team",
+          "source": "images/editorial/inbox-filters-landscape-20261010/team-es-desktop.png",
+          "image_width_css": 698.40625,
+          "native_width_css": 1600.0,
+          "source_sha256": "2bbbeef72b62dda659161a7aff30a4f93e73bababa53606f9fe4dbb69fa71a0f"
+        },
+        {
+          "id": "labels",
+          "source": "images/editorial/inbox-filters-landscape-20261010/labels-es-desktop.png",
+          "image_width_css": 698.40625,
+          "native_width_css": 1600.0,
+          "source_sha256": "9203ec925acd31936cbc7c694e86adc31e8801c7507e8f574a5d1f1b3870288f"
+        }
+      ],
+      "html_sha256": "4893d9f828a376a26db4fc0ce83aeda8b90fbdbab9c74d8a4714d30199dd5f89",
+      "geometry_and_source_bytes": "passed",
+      "pixel_review": "passed",
+      "review_pngs": [
+        {
+          "file": "es-desktop-page-1.png",
+          "sha256": "12655ef503131bd23cc0b793b8ff06ab63f0890ef4b9f91b7db5d9562e2666ea",
+          "pixel_size": [
+            5760,
+            4000
+          ],
+          "icc": "Display P3"
+        },
+        {
+          "file": "es-desktop-page-2.png",
+          "sha256": "817a93c8b10899a6ad6e778a894fdc89b16f1c893e973d1093d9f3a749b99683",
+          "pixel_size": [
+            5760,
+            4000
+          ],
+          "icc": "Display P3"
+        },
+        {
+          "file": "es-desktop-page-3.png",
+          "sha256": "e0a3c93be9b62ea821f6f50b939ebe630200c13948bed6352d06362ee330d252",
+          "pixel_size": [
+            5760,
+            4000
+          ],
+          "icc": "Display P3"
+        },
+        {
+          "file": "es-desktop-page-4.png",
+          "sha256": "fc1f8fb54b80ada0bcd38d046204bbf31d15ba20e666ce26e8451b473582c053",
+          "pixel_size": [
+            5760,
+            4000
+          ],
+          "icc": "Display P3"
+        },
+        {
+          "file": "es-desktop-page-5.png",
+          "sha256": "d151dc59dd08f94a6f0b6c7bcc5f697c5620ed184428dfcfb97a270ac5cd2373",
+          "pixel_size": [
+            5760,
+            4000
+          ],
+          "icc": "Display P3"
+        },
+        {
+          "file": "es-desktop-page-6.png",
+          "sha256": "0042835ecc6a9fd7e518c33b8c89e39c5084ce1817a691dcb3d73706d4ae40a5",
+          "pixel_size": [
+            5760,
+            4000
+          ],
+          "icc": "Display P3"
+        },
+        {
+          "file": "es-desktop-page-7.png",
+          "sha256": "063ce0636e6113fc34a5f0e37bcefcbe33e6f5a57a9f2c23328845235748276e",
+          "pixel_size": [
+            5760,
+            4000
+          ],
+          "icc": "Display P3"
+        },
+        {
+          "file": "es-desktop-page-8.png",
+          "sha256": "ff162f7b231dfadd9d8d6e7dbf3546c074c2e0f518cdeba50da2473e416c4008",
+          "pixel_size": [
+            5760,
+            4000
+          ],
+          "icc": "Display P3"
+        }
+      ]
+    },
+    {
+      "locale": "es",
+      "layout": "mobile",
+      "viewport": [
+        390,
+        1000
+      ],
+      "rendered_figures": [
+        {
+          "id": "search",
+          "source": "images/editorial/inbox-filter-context/search-es-mobile.png",
+          "image_width_css": 315.9765625,
+          "native_width_css": 414.0,
+          "source_sha256": "d1726ded00b238daa9ac3c5912406486b44bd140e118051007aedc53e17c621d"
+        },
+        {
+          "id": "team",
+          "source": "images/editorial/inbox-filters-20261010/team-es-mobile.png",
+          "image_width_css": 315.9921875,
+          "native_width_css": 374.0,
+          "source_sha256": "5be982cf7b38322703fcee5d81bf138fe44f3e644a9ad61f1ee657c6459c5b0d"
+        },
+        {
+          "id": "labels",
+          "source": "images/editorial/inbox-filters-20261010/labels-es-mobile.png",
+          "image_width_css": 315.9921875,
+          "native_width_css": 374.0,
+          "source_sha256": "e925da27186cee02883abe7ddf1a5d52c9481a8ca70ea72f55abe7c8f42431f7"
+        }
+      ],
+      "html_sha256": "4893d9f828a376a26db4fc0ce83aeda8b90fbdbab9c74d8a4714d30199dd5f89",
+      "geometry_and_source_bytes": "passed",
+      "pixel_review": "passed",
+      "review_pngs": [
+        {
+          "file": "es-mobile-page-1.png",
+          "sha256": "0efa0fddd1c5ab21edff8fd7e4e71bfcfe9ae4a81e0f65c22b23865fd9b8ee17",
+          "pixel_size": [
+            1560,
+            4000
+          ],
+          "icc": "Display P3"
+        },
+        {
+          "file": "es-mobile-page-2.png",
+          "sha256": "b4f0e4b3a279bd91f2a7c65ae2614eb9d30b2361f990615732a5cb80ce61a3f5",
+          "pixel_size": [
+            1560,
+            4000
+          ],
+          "icc": "Display P3"
+        },
+        {
+          "file": "es-mobile-page-3.png",
+          "sha256": "1bf76c18f279473702df383f7d0510dfef30f4a01b3ea0edadec246cc918990a",
+          "pixel_size": [
+            1560,
+            4000
+          ],
+          "icc": "Display P3"
+        },
+        {
+          "file": "es-mobile-page-4.png",
+          "sha256": "0a140fceeb1356535959c3aadf07f3f220def629eaf0e9c7508bd202a68b365b",
+          "pixel_size": [
+            1560,
+            4000
+          ],
+          "icc": "Display P3"
+        },
+        {
+          "file": "es-mobile-page-5.png",
+          "sha256": "bbff38025bdfaae80958765acefaa16db833445627e6c27dcbedbef706af74b2",
+          "pixel_size": [
+            1560,
+            4000
+          ],
+          "icc": "Display P3"
+        },
+        {
+          "file": "es-mobile-page-6.png",
+          "sha256": "322753fae57dbd741964754485620e92737127bab44ff65bf1bad9b79f2530f9",
+          "pixel_size": [
+            1560,
+            4000
+          ],
+          "icc": "Display P3"
+        },
+        {
+          "file": "es-mobile-page-7.png",
+          "sha256": "46baa5948b63ef9806120444c048beeb2b3122a9f7d3701f67cdb4d027b470cb",
+          "pixel_size": [
+            1560,
+            4000
+          ],
+          "icc": "Display P3"
+        },
+        {
+          "file": "es-mobile-page-8.png",
+          "sha256": "f6c47689811d87c4a128381352df0f99008c1a7a7c6df42e77e7c1c1b13d9af5",
+          "pixel_size": [
+            1560,
+            4000
+          ],
+          "icc": "Display P3"
+        },
+        {
+          "file": "es-mobile-page-9.png",
+          "sha256": "ada6b2082e71041ed56fa3735b50a0c64eb106d8af0782e3f1681708ab47c9cc",
+          "pixel_size": [
+            1560,
+            4000
+          ],
+          "icc": "Display P3"
+        },
+        {
+          "file": "es-mobile-page-10.png",
+          "sha256": "fdb3679bd3b82f8298a24f1d13d85e1c3d3e0c8e25a2e8ddaa899e955004cf4c",
+          "pixel_size": [
+            1560,
+            4000
+          ],
+          "icc": "Display P3"
+        }
+      ]
+    },
+    {
+      "locale": "es",
+      "layout": "narrow",
+      "viewport": [
+        580,
+        1000
+      ],
+      "rendered_figures": [
+        {
+          "id": "search",
+          "source": "images/editorial/inbox-filter-context/search-es-mobile.png",
+          "image_width_css": 414,
+          "native_width_css": 414.0,
+          "source_sha256": "d1726ded00b238daa9ac3c5912406486b44bd140e118051007aedc53e17c621d"
+        },
+        {
+          "id": "team",
+          "source": "images/editorial/inbox-filters-20261010/team-es-mobile.png",
+          "image_width_css": 374,
+          "native_width_css": 374.0,
+          "source_sha256": "5be982cf7b38322703fcee5d81bf138fe44f3e644a9ad61f1ee657c6459c5b0d"
+        },
+        {
+          "id": "labels",
+          "source": "images/editorial/inbox-filters-20261010/labels-es-mobile.png",
+          "image_width_css": 374,
+          "native_width_css": 374.0,
+          "source_sha256": "e925da27186cee02883abe7ddf1a5d52c9481a8ca70ea72f55abe7c8f42431f7"
+        }
+      ],
+      "html_sha256": "4893d9f828a376a26db4fc0ce83aeda8b90fbdbab9c74d8a4714d30199dd5f89",
+      "geometry_and_source_bytes": "passed",
+      "pixel_review": "passed",
+      "review_pngs": [
+        {
+          "file": "es-narrow-team-1.png",
+          "sha256": "458d5824c5c9a8b2b5cd2152cff2470ee0cb59eb5cbe76f2e1b18dae3a0c5699",
+          "pixel_size": [
+            2320,
+            4000
+          ],
+          "icc": "Display P3"
+        },
+        {
+          "file": "es-narrow-team-2.png",
+          "sha256": "4a2432c260b1b269bc13bf3199b6fd0b16a8096fc70187267f567ce8c0e7fd05",
+          "pixel_size": [
+            2320,
+            4000
+          ],
+          "icc": "Display P3"
+        },
+        {
+          "file": "es-narrow-labels-1.png",
+          "sha256": "801d7e6a25192f79711a5f855cfa2780ae06b1b170d5d94df28ddb4283c381bd",
+          "pixel_size": [
+            2320,
+            4000
+          ],
+          "icc": "Display P3"
+        },
+        {
+          "file": "es-narrow-labels-2.png",
+          "sha256": "71bdcb2acfff6c596ae08417ee36de32f27338560308d4389ffb1d1d353d50bf",
+          "pixel_size": [
+            2320,
+            4000
+          ],
+          "icc": "Display P3"
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "layout": "desktop",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "rendered_figures": [
+        {
+          "id": "search",
+          "source": "images/editorial/inbox-filter-context/search-en-desktop.png",
+          "image_width_css": 484,
+          "native_width_css": 484.0,
+          "source_sha256": "c0df4a4eab0a74ba7aedd0be18170ee2578afeed01d2d187fac66ed26f32e5e9"
+        },
+        {
+          "id": "team",
+          "source": "images/editorial/inbox-filters-landscape-20261010/team-en-desktop.png",
+          "image_width_css": 698.40625,
+          "native_width_css": 1600.0,
+          "source_sha256": "4604ec2115c1de5fd9e6704c5666bac09bf5923e0255a36c4e017b5fd937d5c1"
+        },
+        {
+          "id": "labels",
+          "source": "images/editorial/inbox-filters-landscape-20261010/labels-en-desktop.png",
+          "image_width_css": 698.40625,
+          "native_width_css": 1600.0,
+          "source_sha256": "21fa94a8e89384721017dfaa8dcd18f51a51b344bed24f3b196b6000d8c07088"
+        }
+      ],
+      "html_sha256": "378a8b02c27450c0cb60bfb96d466d682fc68621ff3a0d28628194135364908a",
+      "geometry_and_source_bytes": "passed",
+      "pixel_review": "passed",
+      "review_pngs": [
+        {
+          "file": "en-desktop-page-1.png",
+          "sha256": "9321acb0bc375f2b21fd18532a688951a4538c556df8d0708d14f4f521b1bfee",
+          "pixel_size": [
+            5760,
+            4000
+          ],
+          "icc": "Display P3"
+        },
+        {
+          "file": "en-desktop-page-2.png",
+          "sha256": "49a2f01d46bf45920771f6479a438f88fc023ad7a9a4c5c126bb2796be6bda71",
+          "pixel_size": [
+            5760,
+            4000
+          ],
+          "icc": "Display P3"
+        },
+        {
+          "file": "en-desktop-page-3.png",
+          "sha256": "67a7b382e86f9d92df394af415155131e3ef246ff802ed109116e76c5e76ed0e",
+          "pixel_size": [
+            5760,
+            4000
+          ],
+          "icc": "Display P3"
+        },
+        {
+          "file": "en-desktop-page-4.png",
+          "sha256": "193b502a484809b8e96a57e9c484b296580c5fcf9b70d86ea135e66570ce9331",
+          "pixel_size": [
+            5760,
+            4000
+          ],
+          "icc": "Display P3"
+        },
+        {
+          "file": "en-desktop-page-5.png",
+          "sha256": "b22f31a5e6aaab568626230331b86c2626770614a7c9987ae39079138403f02e",
+          "pixel_size": [
+            5760,
+            4000
+          ],
+          "icc": "Display P3"
+        },
+        {
+          "file": "en-desktop-page-6.png",
+          "sha256": "30fdfbbf9a0ee555d8b991bb902de8c469b2aabf389534a455251cd405715970",
+          "pixel_size": [
+            5760,
+            4000
+          ],
+          "icc": "Display P3"
+        },
+        {
+          "file": "en-desktop-page-7.png",
+          "sha256": "3198fc7fa13a661daabbb7de5aaac9a51b257e620b827fa2d9562e934493c712",
+          "pixel_size": [
+            5760,
+            4000
+          ],
+          "icc": "Display P3"
+        },
+        {
+          "file": "en-desktop-page-8.png",
+          "sha256": "673b58592d2de5b317c0a1e2a915625f45ae8701a3acfb9f9b3d660dd44ba2e3",
+          "pixel_size": [
+            5760,
+            4000
+          ],
+          "icc": "Display P3"
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "layout": "mobile",
+      "viewport": [
+        390,
+        1000
+      ],
+      "rendered_figures": [
+        {
+          "id": "search",
+          "source": "images/editorial/inbox-filter-context/search-en-mobile.png",
+          "image_width_css": 315.9765625,
+          "native_width_css": 414.0,
+          "source_sha256": "d1726ded00b238daa9ac3c5912406486b44bd140e118051007aedc53e17c621d"
+        },
+        {
+          "id": "team",
+          "source": "images/editorial/inbox-filters-20261010/team-en-mobile.png",
+          "image_width_css": 315.9921875,
+          "native_width_css": 374.0,
+          "source_sha256": "6dab5a649f2754b890e3e39f22f1343bbe3c9de4195c7b65036874e92b319e16"
+        },
+        {
+          "id": "labels",
+          "source": "images/editorial/inbox-filters-20261010/labels-en-mobile.png",
+          "image_width_css": 315.9921875,
+          "native_width_css": 374.0,
+          "source_sha256": "78a4e69fc4260a49e09082cdc7d05281ae63f8605d2903dddccdbd5ceb648b07"
+        }
+      ],
+      "html_sha256": "378a8b02c27450c0cb60bfb96d466d682fc68621ff3a0d28628194135364908a",
+      "geometry_and_source_bytes": "passed",
+      "pixel_review": "passed",
+      "review_pngs": [
+        {
+          "file": "en-mobile-page-1.png",
+          "sha256": "e4ca58066ec70337ab0903aac894432037dc8c382b235e8cdd69eb4d4f27a250",
+          "pixel_size": [
+            1560,
+            4000
+          ],
+          "icc": "Display P3"
+        },
+        {
+          "file": "en-mobile-page-2.png",
+          "sha256": "fb4547ebeae1d39d96926d7dea4b202ba7922af8d4ad1d8813a2b8a8af74d33c",
+          "pixel_size": [
+            1560,
+            4000
+          ],
+          "icc": "Display P3"
+        },
+        {
+          "file": "en-mobile-page-3.png",
+          "sha256": "cb740d1a76cebf94b5a3a23af012ddd6a364580f673b1169fb51a5dd2c1143f5",
+          "pixel_size": [
+            1560,
+            4000
+          ],
+          "icc": "Display P3"
+        },
+        {
+          "file": "en-mobile-page-4.png",
+          "sha256": "fba7f9e7a80e6bcc9f22e906b02982ff0fe8833a903a35d594c271fcc1fb47da",
+          "pixel_size": [
+            1560,
+            4000
+          ],
+          "icc": "Display P3"
+        },
+        {
+          "file": "en-mobile-page-5.png",
+          "sha256": "46a9feaa1053abd1093db6f2f9a392cfa265c2f01a0763bb9d3610576ab928ca",
+          "pixel_size": [
+            1560,
+            4000
+          ],
+          "icc": "Display P3"
+        },
+        {
+          "file": "en-mobile-page-6.png",
+          "sha256": "9599750f06aa5249bf4ab8019f879aa17412d6671868fbbe904a37add81403d0",
+          "pixel_size": [
+            1560,
+            4000
+          ],
+          "icc": "Display P3"
+        },
+        {
+          "file": "en-mobile-page-7.png",
+          "sha256": "9644418f62ad2683c0289617dd422f62932a6133991124d7d66a864527f27852",
+          "pixel_size": [
+            1560,
+            4000
+          ],
+          "icc": "Display P3"
+        },
+        {
+          "file": "en-mobile-page-8.png",
+          "sha256": "5d3fe5f14f631a77e76e689b464d87059b76af0d783f94f4523cc970ab479981",
+          "pixel_size": [
+            1560,
+            4000
+          ],
+          "icc": "Display P3"
+        },
+        {
+          "file": "en-mobile-page-9.png",
+          "sha256": "e9d4daf0cc8982107f92fb3e6e0ad8eff790f6eea176c81a92f55adfd87c4eba",
+          "pixel_size": [
+            1560,
+            4000
+          ],
+          "icc": "Display P3"
+        },
+        {
+          "file": "en-mobile-page-10.png",
+          "sha256": "7052fc2f2cdbb1286729437cf89cb76b90256cf955bfa2adb27ba6337e4b8513",
+          "pixel_size": [
+            1560,
+            4000
+          ],
+          "icc": "Display P3"
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "layout": "narrow",
+      "viewport": [
+        580,
+        1000
+      ],
+      "rendered_figures": [
+        {
+          "id": "search",
+          "source": "images/editorial/inbox-filter-context/search-en-mobile.png",
+          "image_width_css": 414,
+          "native_width_css": 414.0,
+          "source_sha256": "d1726ded00b238daa9ac3c5912406486b44bd140e118051007aedc53e17c621d"
+        },
+        {
+          "id": "team",
+          "source": "images/editorial/inbox-filters-20261010/team-en-mobile.png",
+          "image_width_css": 374,
+          "native_width_css": 374.0,
+          "source_sha256": "6dab5a649f2754b890e3e39f22f1343bbe3c9de4195c7b65036874e92b319e16"
+        },
+        {
+          "id": "labels",
+          "source": "images/editorial/inbox-filters-20261010/labels-en-mobile.png",
+          "image_width_css": 374,
+          "native_width_css": 374.0,
+          "source_sha256": "78a4e69fc4260a49e09082cdc7d05281ae63f8605d2903dddccdbd5ceb648b07"
+        }
+      ],
+      "html_sha256": "378a8b02c27450c0cb60bfb96d466d682fc68621ff3a0d28628194135364908a",
+      "geometry_and_source_bytes": "passed",
+      "pixel_review": "passed",
+      "review_pngs": [
+        {
+          "file": "en-narrow-team-1.png",
+          "sha256": "4b6dfe4f0876f8f399dbbf974bbade6698528ca091df8717ea641da4d9950fdd",
+          "pixel_size": [
+            2320,
+            4000
+          ],
+          "icc": "Display P3"
+        },
+        {
+          "file": "en-narrow-team-2.png",
+          "sha256": "28c8ee238486afbf1c27c30854755eb176bc870b8d3a95bd053a7293b158f746",
+          "pixel_size": [
+            2320,
+            4000
+          ],
+          "icc": "Display P3"
+        },
+        {
+          "file": "en-narrow-labels-1.png",
+          "sha256": "27edd4affb87b510bebc45d55a5243fb89e23e63bb60067679200ad684d7e316",
+          "pixel_size": [
+            2320,
+            4000
+          ],
+          "icc": "Display P3"
+        },
+        {
+          "file": "en-narrow-labels-2.png",
+          "sha256": "2524dd92f08e6bf5141c7fd294722dfe830697a7f94483f191c7cb8c2aa04192",
+          "pixel_size": [
+            2320,
+            4000
+          ],
+          "icc": "Display P3"
+        }
+      ]
+    }
+  ],
+  "native_review_pngs": 44,
+  "review_artifact_storage": "Review PNGs retained outside the repository; filenames and hashes identify the exact inspected compositor output.",
+  "capture_settings": "Dedicated loopback Chrome, native Display P3, DPR 2 and capture scale 2, zoom 1. No bitmap transformations.",
+  "pixel_review_receipts": {
+    "es": "71d03f61da594f423d1aa1e18ec47b3ce118c31e0275007aed18b14f4d8d19be",
+    "en": "efa70e8d60d658d37a805b240f76e562c4c240ffb59dc458ff273664edfc7cc2"
+  },
+  "findings": [
+    "Both desktop choosers retain complete options and surrounding Inbox context at 698.406 CSS pixels. Smaller controls are named in adjacent prose.",
+    "Mobile sources retained at 315.992 CSS pixels on mobile and capped at native 374 CSS pixels at narrow width.",
+    "Complete desktop and mobile article bodies inspected through footer in both languages; narrow review covers both changed figure containers and adjacent prose."
+  ],
+  "limitations": [
+    "Small transcript text and native menu overlap provide context, not a complete transcript.",
+    "Two Spanish desktop review tiles show pre-existing sticky-sidebar paint gaps outside the article body; article content and source images are intact.",
+    "Search evidence remains typed input only; executed matching results remain pending."
+  ],
+  "publication": "not_yet_performed"
+}
