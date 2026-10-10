@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "recorded_at": "2026-10-10T02:34:41.898612+00:00",
+  "prior_capture_revision": "a1d21c79214c088b992066231200287336524626",
+  "reason": "Use a content-checksum field name that cannot be confused with an authentication credential. Both values are SHA-256 hashes of normalized rendered article markup/text, independently reproduced by verify-build.py.",
+  "change": "JSON output field rename only; same checksum values and verification logic.",
+  "previous_build_record_sha256": "9b0c73607f8435c2ce228369349b2e2faeb7db1218cb99184f82862aca888dbd",
+  "current_build_record_sha256": "f9628cf4f32c1cfdeb9b4f4cb95ab7e42a899a6a54ae8bd3b980b3bda35917fd",
+  "previous_verifier_sha256": "4cb31459cfb4e34e2bc3766bab4094653c2777f45ff3d52d6b56a8aa49fc52f6",
+  "current_verifier_sha256": "aba152d84bf3b32afb49439109a42266512d6089933a1bb11f3c5ee004f0dc62",
+  "existing_build_reverification": "passed",
+  "normalized_record_comparison": "identical except field name, execution timestamp and verifier hash",
+  "public_site_sources_changed": false,
+  "prior_browser_review": "Retained unchanged. SHA-bound build/verifier references in the capture metadata, pixel reviews and local-qa.json describe the original files at prior_capture_revision. This receipt connects that immutable evidence to the rerun record.",
+  "new_browser_capture_required": false,
+  "security_checks_suppressed": false,
+  "configuration_changed": false
+}

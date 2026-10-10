@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "recorded_at": "2026-10-10T02:39:53.712146+00:00",
+  "prior_revision": "de093d9ec8c848e01e8ab2f8322461455eb60642",
+  "review_comment": "https://github.com/hellotext/help/pull/396#discussion_r4236056707",
+  "change": "Derive screenshot output from the checkout parent and compact JSON output from the checkout; preserve the outside-repository PNG constraint.",
+  "bindings": [
+    {
+      "file": "revision-config.json",
+      "previous_sha256": "a00debcebc13e107e8c461a9dcdb960541410bf5a941db3858abbc656df78f14",
+      "current_sha256": "36a12a7df7da69e6fcf8f14dc12938aa6b101bc2cce8eefd340049a44318472d"
+    },
+    {
+      "file": "raw-acceptance.json",
+      "previous_sha256": "ea625feab363b1a90b517e264d6d325fead3b351447e9af123046a1745021648",
+      "current_sha256": "89e8798082f1a1d8b98f2824e2f8eb99bd2fd4a1f543157594956079620b5835"
+    },
+    {
+      "file": "integration-record.json",
+      "previous_sha256": "ef0dbe2634b835e85e6ce9606045bfea47919f15c82a2adfc3c3fd8e8c3335fc",
+      "current_sha256": "c330b838a91d08378d5cb0c22e04de670dc511f64d6f7a5d2675d7dc24496ae2"
+    },
+    {
+      "file": "build-verification.json",
+      "previous_sha256": "f9628cf4f32c1cfdeb9b4f4cb95ab7e42a899a6a54ae8bd3b980b3bda35917fd",
+      "current_sha256": "15fc1660b78e15e2a50979e6be22d5480c1dc8ae7a58b0032e6c9bb2e881d382"
+    },
+    {
+      "file": "review-local-pages.py",
+      "previous_sha256": "e1fc4b1ba55bd8b7e9e74794bb1c0401aecfd3e47a7aa4faaca3ad0897159800",
+      "current_sha256": "17678a4cdc67567633d303d34a52cb91a240de79b7143da5632af0a167a2bd1d"
+    },
+    {
+      "file": "review-browser.mjs",
+      "previous_sha256": "a319143ccc0c21d059b20ad01c96b0966efd43952c822e7ed20ebfea48c36ed8",
+      "current_sha256": "fda5467fb684f796cae7189a70f2fce66e3b58a9e085f273d3429a6e71f36885"
+    }
+  ],
+  "acceptance_followup": "Only the two review output path settings changed. The original accepted PNG, copy and source-review hashes remain identical. Root reviewed the updated configuration binding.",
+  "integration_followup": "Reapplied the existing accepted figures idempotently; article bytes stayed identical.",
+  "existing_build_reverification": "passed with all article/image/retention results unchanged",
+  "capture_preflight": "verify_inputs passed for both articles and all twelve images",
+  "browser_pixel_receipts": "Retained unchanged at the original a1d21c79214c088b992066231200287336524626 revision. metadata-reverification.json records the intermediate metadata-only update.",
+  "public_site_sources_changed": false,
+  "new_browser_capture_required": false,
+  "app_or_deployment_configuration_changed": false,
+  "scanner_suppression_added": false,
+  "offline_portability_validation": {
+    "status": "passed",
+    "checks": 7,
+    "evidence_sha256": "1686b3a1861818ad6b9d6a0dcbd4f33bb89dd9616b129c2c25a54ddba10988c8",
+    "coverage": [
+      "current checkout plan/check-only",
+      "relocated checkout plan/check-only",
+      "scoped JSON override accepted",
+      "escaped JSON override rejected",
+      "PNG symlink into Help rejected"
+    ]
+  }
+}

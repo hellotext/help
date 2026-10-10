@@ -1,0 +1,117 @@
+{
+  "status": "accepted_for_local_preview",
+  "records": [
+    {
+      "file": "team-es-desktop.png",
+      "sha256": "9d959939d7763d7299da0b0feabbfc3fa277d5c580be31655e1ac86856f41518",
+      "reviewer": "root",
+      "reviewed_at": "2026-10-10T01:49:09.928727+00:00",
+      "pixel_review": "passed",
+      "findings": [
+        "Full native filter panel and open chooser visible",
+        "Required choices/names readable and unclipped",
+        "Real conversation list and chat background preserve Inbox context",
+        "No development controls, load-test names, cursor or clipped footer notice",
+        "Background chat is contextual; no filter application or assignment result claimed"
+      ],
+      "native_overlap": null
+    },
+    {
+      "file": "labels-es-desktop.png",
+      "sha256": "03ea9b3421bbe0fcc229151a5df849e7d3a1418c1d1b28be90df53b1dc35cefd",
+      "reviewer": "root",
+      "reviewed_at": "2026-10-10T01:49:09.928727+00:00",
+      "pixel_review": "passed",
+      "findings": [
+        "Full native filter panel and open chooser visible",
+        "Required choices/names readable and unclipped",
+        "Real conversation list and chat background preserve Inbox context",
+        "No development controls, load-test names, cursor or clipped footer notice",
+        "Background chat is contextual; no filter application or assignment result claimed"
+      ],
+      "native_overlap": null
+    },
+    {
+      "file": "team-es-mobile.png",
+      "sha256": "5be982cf7b38322703fcee5d81bf138fe44f3e644a9ad61f1ee657c6459c5b0d",
+      "reviewer": "root",
+      "reviewed_at": "2026-10-10T01:49:09.928727+00:00",
+      "pixel_review": "passed",
+      "findings": [
+        "Complete target chooser, target section and Choose control readable",
+        "Seven teammates or three labels visible without clipping",
+        "Native list background, real narrow viewport and useful Search/filter context",
+        "No development controls, technical names, cursor or clipped unrelated footer notice"
+      ],
+      "native_overlap": "Team chooser naturally covers the unrelated Labels section; the target Team section and all teammate choices remain visible."
+    },
+    {
+      "file": "labels-es-mobile.png",
+      "sha256": "e925da27186cee02883abe7ddf1a5d52c9481a8ca70ea72f55abe7c8f42431f7",
+      "reviewer": "root",
+      "reviewed_at": "2026-10-10T01:49:09.928727+00:00",
+      "pixel_review": "passed",
+      "findings": [
+        "Complete target chooser, target section and Choose control readable",
+        "Seven teammates or three labels visible without clipping",
+        "Native list background, real narrow viewport and useful Search/filter context",
+        "No development controls, technical names, cursor or clipped unrelated footer notice"
+      ],
+      "native_overlap": "Native submenu overlaps the bottom of the parent; Labels heading, Choose and all three options remain visible."
+    },
+    {
+      "file": "team-en-desktop.png",
+      "sha256": "cdd17f83f4521c870bf7e627c6a60080e8a6291a1f90b74c275d13bf0eb2e33f",
+      "reviewer": "draft_audit",
+      "reviewed_at": "2026-10-10T01:55:33.279821+00:00",
+      "pixel_review": "passed",
+      "findings": [
+        "Search/filter trigger, seven Actions states, Team heading, two selected teammates, Team Choose and all seven available teammates are readable.",
+        "The child menu, border, shadow and bottom/right margin are complete. Labels heading and its Choose remain visible."
+      ],
+      "native_overlap": null
+    },
+    {
+      "file": "labels-en-desktop.png",
+      "sha256": "bceaa0b33b2c7b839b8461f1fe2c1a7fb369b385b45e1164003c893b26f8b7a5",
+      "reviewer": "draft_audit",
+      "reviewed_at": "2026-10-10T01:55:33.279821+00:00",
+      "pixel_review": "passed",
+      "findings": [
+        "Search/filter trigger, seven Actions states, Team context and Labels Choose are readable.",
+        "Priority, Returns and Sales are fully visible in the native child chooser with complete border, shadow and margin."
+      ],
+      "native_overlap": null
+    },
+    {
+      "file": "team-en-mobile.png",
+      "sha256": "6dab5a649f2754b890e3e39f22f1343bbe3c9de4195c7b65036874e92b319e16",
+      "reviewer": "draft_audit",
+      "reviewed_at": "2026-10-10T01:55:33.279821+00:00",
+      "pixel_review": "passed",
+      "findings": [
+        "Search/filter trigger, seven Actions states, Team heading, two selected teammates and Team Choose are readable.",
+        "All seven available teammates fit completely in the native child menu.",
+        "The child menu naturally covers the separate Labels section. This is accepted for the Team step; this image does not show every parent control simultaneously."
+      ],
+      "native_overlap": null
+    },
+    {
+      "file": "labels-en-mobile.png",
+      "sha256": "78a4e69fc4260a49e09082cdc7d05281ae63f8605d2903dddccdbd5ceb648b07",
+      "reviewer": "draft_audit",
+      "reviewed_at": "2026-10-10T01:55:33.279821+00:00",
+      "pixel_review": "passed",
+      "findings": [
+        "Search/filter trigger, seven Actions states, Team context, Labels heading and Labels Choose are readable.",
+        "Priority, Returns and Sales are fully visible with complete child-menu border and bottom margin."
+      ],
+      "native_overlap": null
+    }
+  ],
+  "limits": [
+    "Mobile Team chooser naturally overlaps Labels; the target Team controls and all seven available choices remain complete.",
+    "Full Help rendering remains a separate check.",
+    "Open choices do not establish applied-filter, assignment or search results."
+  ]
+}

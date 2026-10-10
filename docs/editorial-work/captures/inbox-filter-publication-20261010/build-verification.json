@@ -1,0 +1,272 @@
+{
+  "status": "passed",
+  "result": "passed",
+  "verified_at": "2026-10-10T02:39:33.337895+00:00",
+  "integration_sha256": "c330b838a91d08378d5cb0c22e04de670dc511f64d6f7a5d2675d7dc24496ae2",
+  "manifest_sha256": "14b7223c36f83354a20de3ced582dffd304182712d1697377f65db9683bdc51a",
+  "acceptance_sha256": "89e8798082f1a1d8b98f2824e2f8eb99bd2fd4a1f543157594956079620b5835",
+  "source_review_sha256": "9f13955f03f6a9b0e40a3ff92bd03b4d5cea0c1e9f8826fcd5ec0489e3fc5bd2",
+  "revision_config_sha256": "36a12a7df7da69e6fcf8f14dc12938aa6b101bc2cce8eefd340049a44318472d",
+  "verifier_sha256": "aba152d84bf3b32afb49439109a42266512d6089933a1bb11f3c5ee004f0dc62",
+  "support_sha256": "7e2c59ce99a03f17259509124222783f3b9978e4a59cca59d8db3ea577583d37",
+  "editorial_pin": {
+    "checked_out": "d5319b02e1c6a85f3a6294f11763b9be8dd58a43",
+    "indexed": "d5319b02e1c6a85f3a6294f11763b9be8dd58a43",
+    "allowed": "d5319b02e1c6a85f3a6294f11763b9be8dd58a43",
+    "staging_pending": false
+  },
+  "article_renderer": "Jekyll 4.4.1",
+  "full_article_render_comparisons": 2,
+  "articles": [
+    {
+      "path": "_i18n/es/team/filter-and-search-inbox.md",
+      "locale": "es",
+      "route": "es/filtrar-buscar-conversaciones-inbox.html",
+      "sha256": "2a34bfb96c8245eaf06ed7a86c725d1a765d0951c5ab0bf21dcea96f809f9147",
+      "built_html_sha256": "9f973151bd031c178b7173cb562134c17f58a114f94a7173e5029e0f7d97ae87",
+      "figures": 3,
+      "new_figure_ids": [
+        "team",
+        "labels"
+      ],
+      "headings": 15,
+      "links": 6,
+      "full_article_content_matches": true,
+      "article_content_sha256": "f3c62a61fd82811f7c64c7b8f3232718b9cf2492f1a29657faecdf0db966157e"
+    },
+    {
+      "path": "_i18n/en/team/filter-and-search-inbox.md",
+      "locale": "en",
+      "route": "filter-and-search-inbox.html",
+      "sha256": "b13b955fdf472356b503eeecbd80360ba007de90a7df67145bace4a50f8fe7c6",
+      "built_html_sha256": "a68e1014d08aa6a72d11190f7eac6044bb1aa47114355624d22d6e13c69ea02b",
+      "figures": 3,
+      "new_figure_ids": [
+        "team",
+        "labels"
+      ],
+      "headings": 15,
+      "links": 6,
+      "full_article_content_matches": true,
+      "article_content_sha256": "c26326c3e5e9b3645a71ccbb75f4035bae771809b87389cb9481c8eb32b22c30"
+    }
+  ],
+  "images": [
+    {
+      "source": "/images/editorial/inbox-filter-context/search-es-desktop.png",
+      "sha256": "c0df4a4eab0a74ba7aedd0be18170ee2578afeed01d2d187fac66ed26f32e5e9",
+      "pixels": [
+        1936,
+        256
+      ],
+      "native_css_size": [
+        484.0,
+        64.0
+      ],
+      "density": 4,
+      "profile": "Display P3",
+      "origin": "retained_published_search",
+      "built_copies_equal": 2
+    },
+    {
+      "source": "/images/editorial/inbox-filter-context/search-es-mobile.png",
+      "sha256": "d1726ded00b238daa9ac3c5912406486b44bd140e118051007aedc53e17c621d",
+      "pixels": [
+        1656,
+        288
+      ],
+      "native_css_size": [
+        414.0,
+        72.0
+      ],
+      "density": 4,
+      "profile": "Display P3",
+      "origin": "retained_published_search",
+      "built_copies_equal": 2
+    },
+    {
+      "source": "/images/editorial/inbox-filters-20261010/team-es-desktop.png",
+      "sha256": "9d959939d7763d7299da0b0feabbfc3fa277d5c580be31655e1ac86856f41518",
+      "pixels": [
+        2912,
+        3888
+      ],
+      "native_css_size": [
+        728,
+        972
+      ],
+      "density": 4,
+      "profile": "Display P3",
+      "origin": "new_accepted_native_capture",
+      "built_copies_equal": 2
+    },
+    {
+      "source": "/images/editorial/inbox-filters-20261010/team-es-mobile.png",
+      "sha256": "5be982cf7b38322703fcee5d81bf138fe44f3e644a9ad61f1ee657c6459c5b0d",
+      "pixels": [
+        1496,
+        4008
+      ],
+      "native_css_size": [
+        374,
+        1002
+      ],
+      "density": 4,
+      "profile": "Display P3",
+      "origin": "new_accepted_native_capture",
+      "built_copies_equal": 2
+    },
+    {
+      "source": "/images/editorial/inbox-filters-20261010/labels-es-desktop.png",
+      "sha256": "03ea9b3421bbe0fcc229151a5df849e7d3a1418c1d1b28be90df53b1dc35cefd",
+      "pixels": [
+        2832,
+        3344
+      ],
+      "native_css_size": [
+        708,
+        836
+      ],
+      "density": 4,
+      "profile": "Display P3",
+      "origin": "new_accepted_native_capture",
+      "built_copies_equal": 2
+    },
+    {
+      "source": "/images/editorial/inbox-filters-20261010/labels-es-mobile.png",
+      "sha256": "e925da27186cee02883abe7ddf1a5d52c9481a8ca70ea72f55abe7c8f42431f7",
+      "pixels": [
+        1496,
+        3456
+      ],
+      "native_css_size": [
+        374,
+        864
+      ],
+      "density": 4,
+      "profile": "Display P3",
+      "origin": "new_accepted_native_capture",
+      "built_copies_equal": 2
+    },
+    {
+      "source": "/images/editorial/inbox-filter-context/search-en-desktop.png",
+      "sha256": "c0df4a4eab0a74ba7aedd0be18170ee2578afeed01d2d187fac66ed26f32e5e9",
+      "pixels": [
+        1936,
+        256
+      ],
+      "native_css_size": [
+        484.0,
+        64.0
+      ],
+      "density": 4,
+      "profile": "Display P3",
+      "origin": "retained_published_search",
+      "built_copies_equal": 2
+    },
+    {
+      "source": "/images/editorial/inbox-filter-context/search-en-mobile.png",
+      "sha256": "d1726ded00b238daa9ac3c5912406486b44bd140e118051007aedc53e17c621d",
+      "pixels": [
+        1656,
+        288
+      ],
+      "native_css_size": [
+        414.0,
+        72.0
+      ],
+      "density": 4,
+      "profile": "Display P3",
+      "origin": "retained_published_search",
+      "built_copies_equal": 2
+    },
+    {
+      "source": "/images/editorial/inbox-filters-20261010/team-en-desktop.png",
+      "sha256": "cdd17f83f4521c870bf7e627c6a60080e8a6291a1f90b74c275d13bf0eb2e33f",
+      "pixels": [
+        2912,
+        3888
+      ],
+      "native_css_size": [
+        728,
+        972
+      ],
+      "density": 4,
+      "profile": "Display P3",
+      "origin": "new_accepted_native_capture",
+      "built_copies_equal": 2
+    },
+    {
+      "source": "/images/editorial/inbox-filters-20261010/team-en-mobile.png",
+      "sha256": "6dab5a649f2754b890e3e39f22f1343bbe3c9de4195c7b65036874e92b319e16",
+      "pixels": [
+        1496,
+        4008
+      ],
+      "native_css_size": [
+        374,
+        1002
+      ],
+      "density": 4,
+      "profile": "Display P3",
+      "origin": "new_accepted_native_capture",
+      "built_copies_equal": 2
+    },
+    {
+      "source": "/images/editorial/inbox-filters-20261010/labels-en-desktop.png",
+      "sha256": "bceaa0b33b2c7b839b8461f1fe2c1a7fb369b385b45e1164003c893b26f8b7a5",
+      "pixels": [
+        2832,
+        3344
+      ],
+      "native_css_size": [
+        708,
+        836
+      ],
+      "density": 4,
+      "profile": "Display P3",
+      "origin": "new_accepted_native_capture",
+      "built_copies_equal": 2
+    },
+    {
+      "source": "/images/editorial/inbox-filters-20261010/labels-en-mobile.png",
+      "sha256": "78a4e69fc4260a49e09082cdc7d05281ae63f8605d2903dddccdbd5ceb648b07",
+      "pixels": [
+        1496,
+        3456
+      ],
+      "native_css_size": [
+        374,
+        864
+      ],
+      "density": 4,
+      "profile": "Display P3",
+      "origin": "new_accepted_native_capture",
+      "built_copies_equal": 2
+    }
+  ],
+  "new_native_images": 8,
+  "retained_search_images": 4,
+  "source_images_referenced": 12,
+  "filter_image_byte_comparisons": 24,
+  "preserved_prior_article_images": 28,
+  "prior_article_image_byte_comparisons": 56,
+  "preserved_overview": [
+    {
+      "path": "_i18n/es/team/inbox-overview.md",
+      "sha256": "693f20449a3c6820b93e02824f2c38051eda1aa02c5c953cc10dd541abfd07ef",
+      "route": "es/resumen-inbox-conversaciones.html"
+    },
+    {
+      "path": "_i18n/en/team/inbox-overview.md",
+      "sha256": "6b8d61809bdf9b3fa8aa4acc24628f65eae461ea5565fa1995e1104c4fe34892",
+      "route": "inbox-conversations-overview.html"
+    }
+  ],
+  "javascript_byte_comparisons": 4,
+  "editorial_work_excluded": true,
+  "inventory_unresolved_pairs": 45,
+  "search_result_coverage": "unchanged_visual_pending",
+  "browser_and_pixels": "not_checked_by_this_helper",
+  "publication": "not_performed"
+}

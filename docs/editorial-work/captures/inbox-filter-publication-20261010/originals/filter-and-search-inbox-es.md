@@ -80,16 +80,16 @@ Una mención pide atención o contexto. No asigna automáticamente la conversaci
 
 En **Mostrar filtros**, busca **Equipo** y abre **Elegir** para agregar un integrante. Esta sección selecciona personas; no cambia la asignación de ninguna conversación.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-inbox-figure="team" aria-label="Abre las opciones del filtro por integrante">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Selecciona integrantes con la lista del Inbox a la vista">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 746px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 617px; width: fit-content; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/editorial/inbox-filters-20261010/team-es-mobile.png 4x" width="1496" height="4008" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-filters-20261010/team-es-desktop.png" srcset="/images/editorial/inbox-filters-20261010/team-es-desktop.png 4x" width="2912" height="3888" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Menú Mostrar filtros del Inbox con Equipo y el selector Elegir abierto, los integrantes disponibles y la lista de conversaciones al fondo." />
+        <source media="(max-width: 600px)" srcset="/images/editorial/inbox-filter-context/team-es-mobile.png 4x" width="1656" height="1280" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-filter-context/team-es-desktop.png" srcset="/images/editorial/inbox-filter-context/team-es-desktop.png 4x" width="2396" height="1280" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Sección Equipo del menú Mostrar filtros abierta sobre la lista del Inbox, con Lucía Méndez y Sofía Castro seleccionadas y el control Elegir." />
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Interfaz real con datos ficticios. El selector muestra integrantes disponibles para acotar la lista; no muestra un cambio de asignación.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real con datos ficticios. Los controles acotan la lista por integrante; no muestran un cambio de asignación.</figcaption>
 </figure>
 
 La sección de integrantes cambia el significado de la vista seleccionada:
@@ -111,16 +111,16 @@ Usa etiquetas para categorías operativas duraderas, como devoluciones, problema
 
 En **Mostrar filtros**, busca **Etiquetas**, abre **Elegir** y selecciona una etiqueta. Usa el botón para quitar junto a una etiqueta seleccionada para eliminar ese filtro.
 
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-inbox-figure="labels" aria-label="Abre las opciones del filtro por etiqueta">
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" aria-label="Abre las opciones del filtro por etiqueta">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 726px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 723px; width: fit-content; margin: 0 auto;">
       <picture>
-        <source media="(max-width: 600px)" srcset="/images/editorial/inbox-filters-20261010/labels-es-mobile.png 4x" width="1496" height="3456" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-filters-20261010/labels-es-desktop.png" srcset="/images/editorial/inbox-filters-20261010/labels-es-desktop.png 4x" width="2832" height="3344" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Menú Mostrar filtros del Inbox con Etiquetas y el selector Elegir abierto, las etiquetas disponibles y la lista de conversaciones al fondo." />
+        <source media="(max-width: 600px)" srcset="/images/editorial/inbox-filter-context/labels-es-mobile.png 4x" width="1656" height="1196" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-filter-context/labels-es-desktop.png" srcset="/images/editorial/inbox-filter-context/labels-es-desktop.png 4x" width="2820" height="1080" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Selector Elegir de Etiquetas abierto sobre el Inbox, con las opciones Prioridad, Devoluciones y Ventas y una conversación ficticia visible detrás." />
       </picture>
     </div>
   </div>
-  <figcaption class="ht-editorial-visual__caption">Interfaz real con datos ficticios. El selector muestra etiquetas disponibles para acotar la lista.</figcaption>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real con datos ficticios. El selector muestra las etiquetas disponibles; todavía no hay ninguna etiqueta aplicada como filtro.</figcaption>
 </figure>
 
 Cuando seleccionas etiquetas, el Inbox conserva las conversaciones que tienen alguna de esas etiquetas dentro de la vista activa de estado e integrante. Las etiquetas no cambian el estado ni el responsable de la conversación.

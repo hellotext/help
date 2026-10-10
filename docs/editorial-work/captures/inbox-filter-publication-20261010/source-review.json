@@ -1,0 +1,35 @@
+{
+  "status": "verified",
+  "scope": "new_filter_captures_only",
+  "reviewer": "root, with independent English pixel review by draft_audit",
+  "reviewed_at": "2026-10-10T01:59:00.511563+00:00",
+  "source_revision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+  "comparison_revision": "dbbae13227696ac31ec9e2338a654e682920433e",
+  "production_equivalence_scope": "Native production environment with unchanged source. Scoped Inbox Team/Labels compatibility only; no global runtime or deployed-master parity claim. Target menu and all chooser options are complete; Team mobile naturally overlaps the unrelated Labels section.",
+  "authentic_application_state": true,
+  "isolated_fictional_data": true,
+  "menu_and_chooser_complete": true,
+  "inbox_context_visible": true,
+  "development_controls_absent": true,
+  "impersonation_controls_absent": true,
+  "no_dom_or_pixel_fabrication": true,
+  "no_messages_sent": true,
+  "evidence_files": [
+    {
+      "path": "source-mapping.json",
+      "sha256": "7090f97ad36980244b709b3de66e3c8389de657b5a239c58c2c2032f21718717"
+    },
+    {
+      "path": "source-provenance.json",
+      "sha256": "d06014b8e942c13640d7d62b9295c7755863ee4d7d5ed5e891ee7b830cc87e07"
+    },
+    {
+      "path": "raw-pixel-review.json",
+      "sha256": "8f6062e0e87a5564e51e07aa227caf749c93a17b384b80ab736bd8f4b0cda0dd"
+    },
+    {
+      "path": "capture-safety-review.json",
+      "sha256": "b3389d1988c9aa6596a6a0aeb6fae22803bee482e602a0a7d0186c6a17e1e9db"
+    }
+  ]
+}

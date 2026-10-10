@@ -1,0 +1,66 @@
+{
+  "status": "passed_for_article_and_figure_publication",
+  "reviewed_at": "2026-10-10T02:27:10.825269+00:00",
+  "reviewer": "root with independent ES desktop/narrow and EN reviewers",
+  "run": "20261010T021801419082Z",
+  "new_native_pngs": 8,
+  "changed_articles": 2,
+  "changed_figures": 4,
+  "viewports_css": [
+    1440,
+    580,
+    390
+  ],
+  "locales": [
+    "es",
+    "en"
+  ],
+  "views": 6,
+  "page_and_figure_pngs_reviewed": 80,
+  "geometry_and_continuous_native_coverage": "passed",
+  "pixel_review": "passed for full editorial content and all three figures per view",
+  "pixel_reviews": [
+    {
+      "file": "pixel-reviews/page-pixel-review-es-desktop.json",
+      "sha256": "b45a9de6bb58cdda2e01854d785eb13a34bcfe5aeec37bc656e0e573182701ff",
+      "status": "pass_es_desktop_complete_article_and_figures"
+    },
+    {
+      "file": "pixel-reviews/page-pixel-review-es-narrow.json",
+      "sha256": "98cb598c235ed0f08bbf71cb2077a5fff4ba8db7a5b1efc183584c23ae888088",
+      "status": "pass"
+    },
+    {
+      "file": "pixel-reviews/page-pixel-review-es-mobile.json",
+      "sha256": "10a314b5fa1f4b38a775cd6f1bbf95ee0bcd0ca36ee436349f3ee30eb84312b6",
+      "status": "passed"
+    },
+    {
+      "file": "pixel-reviews/page-pixel-review-en.json",
+      "sha256": "97c650fc0e7f4e582c614d7df6e9254b99636f746dfe1550fd928ce62e3b2d4e",
+      "status": "passed_with_nonblocking_capture_observation"
+    }
+  ],
+  "build_verification_sha256": "9b0c73607f8435c2ce228369349b2e2faeb7db1218cb99184f82862aca888dbd",
+  "page_summary": "page-review/20261010T021801419082Z/summary-filters.json",
+  "page_summary_sha256": "5a89af2f9e3b1301e73b618f04156554523166a8f25dd069d57763f8e3dbdb36",
+  "raw_acceptance_sha256": "ea625feab363b1a90b517e264d6d325fead3b351447e9af123046a1745021648",
+  "source_review_sha256": "9f13955f03f6a9b0e40a3ff92bd03b4d5cea0c1e9f8826fcd5ec0489e3fc5bd2",
+  "helper_sha256": {
+    "review-browser.mjs": "a319143ccc0c21d059b20ad01c96b0966efd43952c822e7ed20ebfea48c36ed8",
+    "review-local-pages.py": "e1fc4b1ba55bd8b7e9e74794bb1c0401aecfd3e47a7aa4faaca3ad0897159800",
+    "verify-build.py": "4cb31459cfb4e34e2bc3766bab4094653c2777f45ff3d52d6b56a8aa49fc52f6",
+    "revision_support.py": "7e2c59ce99a03f17259509124222783f3b9978e4a59cca59d8db3ea577583d37"
+  },
+  "preserved_prior_pngs": 28,
+  "inventory_unresolved_pairs": 45,
+  "search_result_coverage": "unchanged_visual_pending",
+  "editorial_pin": "d5319b02e1c6a85f3a6294f11763b9be8dd58a43",
+  "limits": [
+    "Native mobile Team chooser overlaps the separate Labels section; target controls and all choices remain complete.",
+    "Two English desktop viewport captures omit sticky left-navigation paint; article content is complete and adjacent captures show navigation. Acceptance does not certify sticky-navigation rendering.",
+    "Open chooser screenshots do not demonstrate an applied filter or assignment change.",
+    "Source compatibility is scoped to these controls, not global deployed-app parity."
+  ],
+  "publication": "not_performed_by_local_checks"
+}
