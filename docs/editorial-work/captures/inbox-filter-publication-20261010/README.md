@@ -84,7 +84,16 @@ viewport parts; these can include surrounding prose. No stitched strip, silent
 tail crop or offscreen capture is used.
 
 Keep all page-review PNGs outside Help at
-`/Users/pel/Documents/Codex/2026-10-06/task-8/audit/filter-publication-20261010/page-review`.
+`<checkout-parent>/audit/filter-publication-20261010/page-review`.
+The config's PNG path is relative to the current Help checkout's parent; its
+JSON path is relative to the current Help checkout and defaults to this
+folder's `page-review/`. Both helpers derive these roots from their own location,
+so moving the checkout does not require a configuration edit. PNGs cannot be
+redirected into Help, including through symlinks. The optional
+`--json-output-directory` remains limited to this revision or its external
+audit output. Use `review-local-pages.py --plan` and
+`node "$FILTER_CAPTURE/review-browser.mjs" --check-only` to inspect these paths
+without connecting to a browser or creating output directories.
 Only compact metadata, exact hashes and review findings belong in the consuming
 repository. Do not include private app source bodies, sessions or private URLs.
 No helper publishes, commits, pushes, posts comments, changes app data or touches
@@ -108,3 +117,8 @@ original build record and verifier at commit
 `a1d21c79214c088b992066231200287336524626`; the follow-up records both old and
 current hashes. No article, image, styling, security setting or browser output
 changed.
+
+`portability-reverification.json` records the subsequent output-path correction,
+its configuration/acceptance/integration/build bindings and offline relocation
+checks. The accepted article/image bytes and historical pixel receipts remain
+unchanged; the refreshed verifier and capture preflight both passed.

@@ -19,7 +19,8 @@ HELP = HERE.parents[3]
 CONFIG_PATH = HERE / 'revision-config.json'
 BROWSER = HERE / 'review-browser.mjs'
 ORIGIN = 'http://127.0.0.1:4301'
-EXTERNAL_OUTPUT = HELP.parent / 'audit/filter-publication-20261010/page-review'
+EXTERNAL_RELATIVE = 'audit/filter-publication-20261010/page-review'
+EXTERNAL_OUTPUT = HELP.parent / EXTERNAL_RELATIVE
 ROUTES = {'es': 'es/filtrar-buscar-conversaciones-inbox.html', 'en': 'filter-and-search-inbox.html'}
 VIEWPORTS = [('desktop', 1440), ('narrow', 580), ('mobile', 390)]
 ASSETS = 'images/editorial/inbox-filters-20261010'
@@ -168,9 +169,11 @@ def main():
     config = read_json(CONFIG_PATH)
     require(config['preview_origin'] == ORIGIN and config['browser_port'] == 9488, 'Unexpected review origin/port')
     require(config['asset_directory'] == ASSETS and config['figure_ids'] == ['team', 'labels'], 'Unexpected figure scope')
-    require(Path(config['page_review_output_directory']) == EXTERNAL_OUTPUT, 'PNG output must remain outside the repository')
+    require(config['page_review_output_directory'] == EXTERNAL_RELATIVE, 'Expected the parent-relative external PNG directory')
+    require(EXTERNAL_OUTPUT.resolve() == EXTERNAL_OUTPUT and not EXTERNAL_OUTPUT.is_relative_to(HELP), 'PNG output must remain outside the repository without symlink redirection')
+    require(config['page_review_json_directory'] == str((HERE / 'page-review').relative_to(HELP)), 'Expected the Help-relative revision JSON directory')
     require(isinstance(config['bootstrap_urls'], list), 'Explicit bootstrap URLs required')
-    json_root = (args.json_output_directory or Path(config['page_review_json_directory'])).resolve()
+    json_root = (args.json_output_directory or HELP / config['page_review_json_directory']).resolve()
     require(json_root.is_relative_to(HERE) or json_root.is_relative_to(EXTERNAL_OUTPUT), 'JSON output escaped the review scope')
     if args.plan:
         print(json.dumps({'status':'not_run', 'origin':ORIGIN, 'routes':ROUTES, 'viewports':VIEWPORTS,

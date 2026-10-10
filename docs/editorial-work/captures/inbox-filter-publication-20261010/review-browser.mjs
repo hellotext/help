@@ -11,7 +11,9 @@ const config = JSON.parse(readFileSync(resolve(here, 'revision-config.json'), 'u
 const origin = 'http://127.0.0.1:4301';
 const port = 9488;
 const profile = '/private/tmp/hellotext-inbox-help-review-20261007';
-const outputRoot = resolve(help, '../audit/filter-publication-20261010/page-review');
+const outputRelative = 'audit/filter-publication-20261010/page-review';
+const outputRoot = resolve(help, '..', outputRelative);
+const jsonRoot = resolve(here, 'page-review');
 const routes = new Map([
   [`${origin}/es/filtrar-buscar-conversaciones-inbox.html`, 'es'],
   [`${origin}/filter-and-search-inbox.html`, 'en'],
@@ -22,8 +24,10 @@ const inside = (root, path) => {
 };
 if (config.preview_origin !== origin || config.browser_port !== port || config.browser_profile !== profile)
   throw Error('Unexpected preview/browser configuration');
-if (config.page_review_output_directory !== outputRoot)
-  throw Error('PNG output must be the external filter review directory');
+if (config.page_review_output_directory !== outputRelative)
+  throw Error('PNG output must be the parent-relative external filter review directory');
+if (config.page_review_json_directory !== relative(help, jsonRoot))
+  throw Error('JSON output must be the Help-relative revision directory');
 const bootstrap = config.bootstrap_urls;
 if (!Array.isArray(bootstrap)) throw Error('bootstrap_urls must be an explicit array');
 if (typeof WebSocket !== 'function') throw Error('This helper requires the native WebSocket API in Node 22 or newer');
@@ -33,7 +37,7 @@ for (const value of bootstrap) {
     throw Error('Bootstrap URLs must be exact loopback URLs');
 }
 if (process.argv[2] === '--check-only') {
-  console.log(JSON.stringify({status:'offline_contract_checked', origin, port, profile, outputRoot, routes:[...routes.keys()]}));
+  console.log(JSON.stringify({status:'offline_contract_checked', origin, port, profile, outputRoot, jsonRoot, routes:[...routes.keys()]}));
   process.exit(0);
 }
 const args = JSON.parse(process.argv[2] || '{}');
