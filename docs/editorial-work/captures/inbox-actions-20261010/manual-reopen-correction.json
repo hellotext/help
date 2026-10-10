@@ -1,0 +1,48 @@
+{
+  "recorded_at": "2026-10-10T18:24:36.420756+00:00",
+  "status": "minimal_bilingual_correction_applied_locally",
+  "sources": [
+    {
+      "path": "app/models/concerns/reopens_conversations.rb",
+      "sha256": "d9b27d86eb1d5c3b9c81489f17950ad4fc43b948357483e791130cdfffffdcc3",
+      "git_blob_sha1": "58b4e165cea0cd9c50593514f3b3e8c2da76283a",
+      "source_revision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+      "lines": [
+        17,
+        19,
+        42,
+        80,
+        98
+      ],
+      "source_url": "https://github.com/hellotext/hellotext/blob/6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31/app/models/concerns/reopens_conversations.rb"
+    },
+    {
+      "path": "app/controllers/conversation/actions/open_controller.rb",
+      "sha256": "679f34107f54ce5c2979f0bedc754d5b22d57f349c2cb7d42ea9b5afb4f1442f",
+      "git_blob_sha1": "e4e7e3d22f74cbcc128e62e4b2b2333e9988d63a",
+      "source_revision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+      "lines": [
+        9
+      ],
+      "source_url": "https://github.com/hellotext/hellotext/blob/6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31/app/controllers/conversation/actions/open_controller.rb"
+    }
+  ],
+  "basis": "Manual reopen retains the attached assigned_user_id without a membership or availability condition. Scheduled awaken performs a kept-membership check separately.",
+  "corrections": {
+    "es": {
+      "article": "_i18n/es/team/conversation-lifecycle.md",
+      "original_paragraph": "Cuando alguien reabre una conversación manualmente, Hellotext conserva al responsable anterior si esa persona todavía está disponible en el negocio. De lo contrario, la conversación vuelve sin asignar.",
+      "replacement_paragraph": "Cuando reabres una conversación manualmente, Hellotext conserva al responsable humano que todavía tenga asignado. Si no tiene uno, vuelve sin asignar. Revisa el responsable antes de continuar.",
+      "article_sha256_after_correction": "f7d8b6b19c271f929058bb5c57f2a3d1ebb340fc0f7adfcb2148029dca112967"
+    },
+    "en": {
+      "article": "_i18n/en/team/conversation-lifecycle.md",
+      "original_paragraph": "When a teammate manually reopens a conversation, Hellotext keeps the previous assignee when that teammate is still available to the business. Otherwise, the conversation returns unassigned.",
+      "replacement_paragraph": "When you manually reopen a conversation, Hellotext keeps the human assignee still attached to it. If there is none, it returns unassigned. Check the assignee before continuing.",
+      "article_sha256_after_correction": "64d8b290733e279ccf6fa4c2f432a857ff68806f174cf7b833bee9227418742d"
+    }
+  },
+  "capture_limit": "A retained-owner screenshot verifies only the observed case; no-owner branching and eligibility are not runtime-tested.",
+  "source_bodies_copied": false,
+  "publication": false
+}

@@ -1,0 +1,115 @@
+{
+  "source_revision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+  "source_manifest_sha256": "60f853a9785a81a1a32b6dfd29257e241ef615b85c2ae6f41ad5c54ab5eadfb5",
+  "environment": "isolated local native production runtime with fictional data",
+  "transformations": "none",
+  "records": [
+    {
+      "file": "assignment-menu-en-desktop.png",
+      "id": "assignment-menu",
+      "locale": "en",
+      "layout": "desktop",
+      "clip": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "pixelSize": [
+        6400,
+        4000
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "sha256": "bccf7dbda659c452bc0882a39bb30df30480bba1d33a3559e12810e64f6860fc",
+      "capturedAt": "2026-10-10T18:24:50.110Z",
+      "viewport": [
+        1600,
+        1000
+      ]
+    },
+    {
+      "file": "assignment-menu-en-mobile.png",
+      "id": "assignment-menu",
+      "locale": "en",
+      "layout": "mobile",
+      "clip": [
+        0,
+        0,
+        390,
+        1000
+      ],
+      "pixelSize": [
+        1560,
+        4000
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "sha256": "ce94aaf4b87afe7d6d210db10d16defef9d8f354d2531296b3ae6ca0c02edbf1",
+      "capturedAt": "2026-10-10T18:25:16.217Z",
+      "viewport": [
+        390,
+        1000
+      ]
+    },
+    {
+      "file": "assignment-menu-es-desktop.png",
+      "id": "assignment-menu",
+      "locale": "es",
+      "layout": "desktop",
+      "clip": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "pixelSize": [
+        6400,
+        4000
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "sha256": "806dcdf7f291c492770821f7b0c9c8c36166ab76474b952b15255e91b73f73ce",
+      "capturedAt": "2026-10-10T18:22:12.201Z",
+      "viewport": [
+        1600,
+        1000
+      ]
+    },
+    {
+      "file": "assignment-menu-es-mobile.png",
+      "id": "assignment-menu",
+      "locale": "es",
+      "layout": "mobile",
+      "clip": [
+        0,
+        0,
+        390,
+        1000
+      ],
+      "pixelSize": [
+        1560,
+        4000
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "sha256": "f776e121085bac8d2f02c9af32e9f4a61100e6589d256e4344ee222b9700dd0c",
+      "capturedAt": "2026-10-10T18:23:13.055Z",
+      "viewport": [
+        390,
+        1000
+      ]
+    }
+  ],
+  "limits": [
+    "Initial assignment POST returned a CSRF error. A temporary private cookie option change was reverted before any explicit navigation, capture or repeated POST; background requests are not claimed to be zero. Native CSRF remains enabled. Restoration verified all 538 tables with the original 19 localized fields and timestamps intact. No shared configuration changed.",
+    "Assignment, saved reminder, closing and reopening results remain blocked and unillustrated.",
+    "Human assignment choices only; no self-claim, AI or batch outcome is certified.",
+    "Snooze choices only; no reminder saved, custom date or scheduled expiry is certified.",
+    "The manual reopening paragraph correction is source-verified, not a newly exercised result.",
+    "Desktop is full landscape context; menus can cover adjacent history/profile.",
+    "Native notification banner and expired WhatsApp window may remain visible.",
+    "Snooze has only ES desktop/mobile and EN mobile sources. EN desktop failed before capture; all Snooze sources remain outside Help and no lifecycle figure is inserted."
+  ],
+  "publication": false
+}

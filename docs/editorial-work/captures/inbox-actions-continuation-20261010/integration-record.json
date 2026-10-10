@@ -1,0 +1,342 @@
+{
+  "status": "integrated_locally_pending_build_and_page_review",
+  "publication": false,
+  "manifest_sha256": "a24191fd09b5b73598bbeb51057289fb7f2e6f45e3588f5fe8ad9c70ede37520",
+  "plan_sha256": "e2438f6f1949e3417cb640c9ef531f586a32fdaeb7f8e4372794948a80c4e848",
+  "preparation_record_sha256": "14a14787a496c786ba0db4ddf3225699fe36cfedafd9c100d6e660576f708384",
+  "original_baseline_sha256": "b4b400777b8cc3626719dd039836853407c9c2781242df9192e0abc81bc76fd6",
+  "manual_correction_sha256": "be1d4ef2eeded9d53dabb485f8a0bcce6e3a1fddf1b8f5ddd09b16e4314ab7c9",
+  "prior_integration_sha256": "3cd421eb0d0190296ce5fa90d699bf12508aa663d6850329386b853b7e549e9b",
+  "articles": [
+    {
+      "path": "_i18n/es/team/assigning-conversations.md",
+      "sha256": "c7129d6ffab1b082fb321e1d7f90d261396d82e1b0e1c25e56c7a121dfc704d3",
+      "figures": [
+        "assignment-menu",
+        "assignment-result"
+      ]
+    },
+    {
+      "path": "_i18n/en/team/assigning-conversations.md",
+      "sha256": "86dbfc1fb4b0be421e3a00ba3c1eddaaf7a892d794dd08a98726348288ec2060",
+      "figures": [
+        "assignment-menu",
+        "assignment-result"
+      ]
+    },
+    {
+      "path": "_i18n/es/team/conversation-lifecycle.md",
+      "sha256": "4976ccdacbdbbd077f1307b4861beb43b7ed37cac8e024039430623533e836c8",
+      "figures": [
+        "snooze-options",
+        "snoozed-result",
+        "closed-result",
+        "reopened-result"
+      ]
+    },
+    {
+      "path": "_i18n/en/team/conversation-lifecycle.md",
+      "sha256": "56c2c5fc36c66f4b168e38e9ee16c393e618fcf004757eba3547da824746fe39",
+      "figures": [
+        "snooze-options",
+        "snoozed-result",
+        "closed-result",
+        "reopened-result"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "images/editorial/inbox-actions-20261010/assignment-menu-en-desktop.png",
+      "id": "assignment-menu",
+      "locale": "en",
+      "layout": "desktop",
+      "sha256": "bccf7dbda659c452bc0882a39bb30df30480bba1d33a3559e12810e64f6860fc",
+      "pixelSize": [
+        6400,
+        4000
+      ],
+      "nativeDensity": 4
+    },
+    {
+      "path": "images/editorial/inbox-actions-20261010/assignment-menu-en-mobile.png",
+      "id": "assignment-menu",
+      "locale": "en",
+      "layout": "mobile",
+      "sha256": "ce94aaf4b87afe7d6d210db10d16defef9d8f354d2531296b3ae6ca0c02edbf1",
+      "pixelSize": [
+        1560,
+        4000
+      ],
+      "nativeDensity": 4
+    },
+    {
+      "path": "images/editorial/inbox-actions-20261010/assignment-menu-es-desktop.png",
+      "id": "assignment-menu",
+      "locale": "es",
+      "layout": "desktop",
+      "sha256": "806dcdf7f291c492770821f7b0c9c8c36166ab76474b952b15255e91b73f73ce",
+      "pixelSize": [
+        6400,
+        4000
+      ],
+      "nativeDensity": 4
+    },
+    {
+      "path": "images/editorial/inbox-actions-20261010/assignment-menu-es-mobile.png",
+      "id": "assignment-menu",
+      "locale": "es",
+      "layout": "mobile",
+      "sha256": "f776e121085bac8d2f02c9af32e9f4a61100e6589d256e4344ee222b9700dd0c",
+      "pixelSize": [
+        1560,
+        4000
+      ],
+      "nativeDensity": 4
+    },
+    {
+      "path": "images/editorial/inbox-actions-continuation-20261010/assignment-result-en-desktop.png",
+      "id": "assignment-result",
+      "locale": "en",
+      "layout": "desktop",
+      "sha256": "05f93c25170a7b1ad6f470ab780bfef800775bae2ccf5863747c1a5745138dba",
+      "pixelSize": [
+        6400,
+        4000
+      ],
+      "nativeDensity": 4
+    },
+    {
+      "path": "images/editorial/inbox-actions-continuation-20261010/assignment-result-en-mobile.png",
+      "id": "assignment-result",
+      "locale": "en",
+      "layout": "mobile",
+      "sha256": "d5aa61706023b820170221d098d991a8df8fddc07d2c657cc037d6927c27ee7f",
+      "pixelSize": [
+        1560,
+        4000
+      ],
+      "nativeDensity": 4
+    },
+    {
+      "path": "images/editorial/inbox-actions-continuation-20261010/assignment-result-es-desktop.png",
+      "id": "assignment-result",
+      "locale": "es",
+      "layout": "desktop",
+      "sha256": "ae4fdae8bd78d1e7909de493ed519b7540450986aad04af3a0d45c88b0aa9e9b",
+      "pixelSize": [
+        6400,
+        4000
+      ],
+      "nativeDensity": 4
+    },
+    {
+      "path": "images/editorial/inbox-actions-continuation-20261010/assignment-result-es-mobile.png",
+      "id": "assignment-result",
+      "locale": "es",
+      "layout": "mobile",
+      "sha256": "fea95c1b1df5b9df14b249a3e0128b5281a71675f916e5e6e8ff96288390d31b",
+      "pixelSize": [
+        1560,
+        4000
+      ],
+      "nativeDensity": 4
+    },
+    {
+      "path": "images/editorial/inbox-actions-continuation-20261010/closed-result-en-desktop.png",
+      "id": "closed-result",
+      "locale": "en",
+      "layout": "desktop",
+      "sha256": "f89ca38b38f8759db5450a3a46324ee0a74a3de219d8a227ff35e3f6687de177",
+      "pixelSize": [
+        6400,
+        4000
+      ],
+      "nativeDensity": 4
+    },
+    {
+      "path": "images/editorial/inbox-actions-continuation-20261010/closed-result-en-mobile.png",
+      "id": "closed-result",
+      "locale": "en",
+      "layout": "mobile",
+      "sha256": "b0c2cd0b5c04d1429e8eeb797379ba66cb0a4ea19500e53bb904305dfc9391cc",
+      "pixelSize": [
+        1560,
+        4000
+      ],
+      "nativeDensity": 4
+    },
+    {
+      "path": "images/editorial/inbox-actions-continuation-20261010/closed-result-es-desktop.png",
+      "id": "closed-result",
+      "locale": "es",
+      "layout": "desktop",
+      "sha256": "5d6e710b35445b83067ecc65e945395aaca30929d589b36dc144424ee708d257",
+      "pixelSize": [
+        6400,
+        4000
+      ],
+      "nativeDensity": 4
+    },
+    {
+      "path": "images/editorial/inbox-actions-continuation-20261010/closed-result-es-mobile.png",
+      "id": "closed-result",
+      "locale": "es",
+      "layout": "mobile",
+      "sha256": "69847f028ee0dda8469932d807f5cf9ddbda0f224cd7ae70d8ffd2c36dff8f35",
+      "pixelSize": [
+        1560,
+        4000
+      ],
+      "nativeDensity": 4
+    },
+    {
+      "path": "images/editorial/inbox-actions-continuation-20261010/reopened-result-en-desktop.png",
+      "id": "reopened-result",
+      "locale": "en",
+      "layout": "desktop",
+      "sha256": "58c30411480fb06d22558d6e67cd987c5f0b9295e12ec35d3cfdd6caa0772168",
+      "pixelSize": [
+        6400,
+        4000
+      ],
+      "nativeDensity": 4
+    },
+    {
+      "path": "images/editorial/inbox-actions-continuation-20261010/reopened-result-en-mobile.png",
+      "id": "reopened-result",
+      "locale": "en",
+      "layout": "mobile",
+      "sha256": "39aa087299409ec3a39275c4b6594e32307d987b18ece65bf4aef450b35e5007",
+      "pixelSize": [
+        1560,
+        4000
+      ],
+      "nativeDensity": 4
+    },
+    {
+      "path": "images/editorial/inbox-actions-continuation-20261010/reopened-result-es-desktop.png",
+      "id": "reopened-result",
+      "locale": "es",
+      "layout": "desktop",
+      "sha256": "2f67d8d6ae2879c0f56992e55d17ef9629d45b39f251c73923ffc59c5bafcba6",
+      "pixelSize": [
+        6400,
+        4000
+      ],
+      "nativeDensity": 4
+    },
+    {
+      "path": "images/editorial/inbox-actions-continuation-20261010/reopened-result-es-mobile.png",
+      "id": "reopened-result",
+      "locale": "es",
+      "layout": "mobile",
+      "sha256": "61c5ad6bf0656ec70490c932b738156977f3adaccf5c478431f5e1dc22ccd2cc",
+      "pixelSize": [
+        1560,
+        4000
+      ],
+      "nativeDensity": 4
+    },
+    {
+      "path": "images/editorial/inbox-actions-continuation-20261010/snooze-options-en-desktop.png",
+      "id": "snooze-options",
+      "locale": "en",
+      "layout": "desktop",
+      "sha256": "a44086d571d4e703b52c149d3b5a6f64eb1c71ed7832b305d1dfa788d0df1a8f",
+      "pixelSize": [
+        6400,
+        4000
+      ],
+      "nativeDensity": 4
+    },
+    {
+      "path": "images/editorial/inbox-actions-continuation-20261010/snooze-options-en-mobile.png",
+      "id": "snooze-options",
+      "locale": "en",
+      "layout": "mobile",
+      "sha256": "bc58089f0c7c5cd1c555595cd6ffecdde7ffb13c35087d420662736c797832db",
+      "pixelSize": [
+        1560,
+        4000
+      ],
+      "nativeDensity": 4
+    },
+    {
+      "path": "images/editorial/inbox-actions-continuation-20261010/snooze-options-es-desktop.png",
+      "id": "snooze-options",
+      "locale": "es",
+      "layout": "desktop",
+      "sha256": "f2d4d90876a1d09937f1ffb8585025d55cb6a8609b27cb509b5455f3bda38fd9",
+      "pixelSize": [
+        6400,
+        4000
+      ],
+      "nativeDensity": 4
+    },
+    {
+      "path": "images/editorial/inbox-actions-continuation-20261010/snooze-options-es-mobile.png",
+      "id": "snooze-options",
+      "locale": "es",
+      "layout": "mobile",
+      "sha256": "11841db1acc1e623af2688272a0e96036755b59ec0b3425feba17b1d673c2b4a",
+      "pixelSize": [
+        1560,
+        4000
+      ],
+      "nativeDensity": 4
+    },
+    {
+      "path": "images/editorial/inbox-actions-continuation-20261010/snoozed-result-en-desktop.png",
+      "id": "snoozed-result",
+      "locale": "en",
+      "layout": "desktop",
+      "sha256": "cf614f38dad4c9579b66a1528ca9b6cb010098186642491b98be3f1208dac721",
+      "pixelSize": [
+        6400,
+        4000
+      ],
+      "nativeDensity": 4
+    },
+    {
+      "path": "images/editorial/inbox-actions-continuation-20261010/snoozed-result-en-mobile.png",
+      "id": "snoozed-result",
+      "locale": "en",
+      "layout": "mobile",
+      "sha256": "935dc4563a7271fe5516ead654c84ac9f6e91e2de5ca445eeed2915ab6dd8f74",
+      "pixelSize": [
+        1560,
+        4000
+      ],
+      "nativeDensity": 4
+    },
+    {
+      "path": "images/editorial/inbox-actions-continuation-20261010/snoozed-result-es-desktop.png",
+      "id": "snoozed-result",
+      "locale": "es",
+      "layout": "desktop",
+      "sha256": "0ef497dcd2c1335373757128bbc4e26131f90af6c2c26ff37ef63e035db7a504",
+      "pixelSize": [
+        6400,
+        4000
+      ],
+      "nativeDensity": 4
+    },
+    {
+      "path": "images/editorial/inbox-actions-continuation-20261010/snoozed-result-es-mobile.png",
+      "id": "snoozed-result",
+      "locale": "es",
+      "layout": "mobile",
+      "sha256": "f046a599e723ab093e7cfa617e5f59f9e5638f4b50c5efba11615a112cf0dec9",
+      "pixelSize": [
+        1560,
+        4000
+      ],
+      "nativeDensity": 4
+    }
+  ],
+  "unresolved_pairs": 45,
+  "historical_assets_unchanged": 4,
+  "additional_assets": 20,
+  "verifier_sha256": "a924552b3290c36bbc2ab90c400f3b0056f07387822bcf4c5c716db268608da0"
+}

@@ -1,0 +1,128 @@
+{
+  "status": "passed",
+  "concept": "reopened-result",
+  "recorded_at": "2026-10-10T19:28:07.290051+00:00",
+  "scope": "Four raw sources and persisted native manual reopening. Final Help pixel review and final scene restoration are separate gates.",
+  "sources": [
+    {
+      "file": "reopened-result-es-desktop.png",
+      "locale": "es",
+      "layout": "desktop",
+      "clip": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "pixelSize": [
+        6400,
+        4000
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "sha256": "2f67d8d6ae2879c0f56992e55d17ef9629d45b39f251c73923ffc59c5bafcba6",
+      "metadata_sha256": "8812a5c459b5167f5f42c5991114dbb60d6e1b14a5368b982fc4c739823382b6",
+      "viewed_with": "view_image",
+      "blocking_findings": []
+    },
+    {
+      "file": "reopened-result-es-mobile.png",
+      "locale": "es",
+      "layout": "mobile",
+      "clip": [
+        0,
+        0,
+        390,
+        1000
+      ],
+      "pixelSize": [
+        1560,
+        4000
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "sha256": "61c5ad6bf0656ec70490c932b738156977f3adaccf5c478431f5e1dc22ccd2cc",
+      "metadata_sha256": "cefbb8ed4d74ee280adf5eff880010376f3c29882375924c8df8b32a2cd6fc6b",
+      "viewed_with": "view_image",
+      "blocking_findings": []
+    },
+    {
+      "file": "reopened-result-en-desktop.png",
+      "locale": "en",
+      "layout": "desktop",
+      "clip": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "pixelSize": [
+        6400,
+        4000
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "sha256": "58c30411480fb06d22558d6e67cd987c5f0b9295e12ec35d3cfdd6caa0772168",
+      "metadata_sha256": "683358531e56d0257675d09a103e2781324badc7c656b376baa8a688d37de4ed",
+      "viewed_with": "view_image",
+      "blocking_findings": []
+    },
+    {
+      "file": "reopened-result-en-mobile.png",
+      "locale": "en",
+      "layout": "mobile",
+      "clip": [
+        0,
+        0,
+        390,
+        1000
+      ],
+      "pixelSize": [
+        1560,
+        4000
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "sha256": "39aa087299409ec3a39275c4b6594e32307d987b18ece65bf4aef450b35e5007",
+      "metadata_sha256": "f3ab2f27a97eaece6e9134fead2905dafffd239e86d13c1060fd8872f8a50925",
+      "viewed_with": "view_image",
+      "blocking_findings": []
+    }
+  ],
+  "postcondition_evidence": {
+    "receipt_sha256": "6a2f27b1febcf621326582f52949978a4ebafc7c08b2858db08bf64dc1be7d0e",
+    "before_snapshot_sha256": "9f72b87793dbbf3f6da77ed82b41a5bcbed2b3e7a57c618d91595e3cf77683d2",
+    "after_snapshot_sha256": "60e34428621061ea06499c9aaf221288c4cede86f32d7d0827fd0aa8291a031d",
+    "changed_tables": [
+      "conversations",
+      "workload_team_intervals",
+      "workload_user_intervals"
+    ],
+    "unchanged_whole_tables": 535
+  },
+  "persisted_checks": {
+    "native_http_status": 200,
+    "state_before": "closed",
+    "state_after": "assigned",
+    "same_human_owner_retained": true,
+    "manual_actor_preserved": true,
+    "messages_preserved": true,
+    "tracks_and_timeline_events_unchanged": true,
+    "roles_and_actor_unchanged": true
+  },
+  "observed": [
+    "The final canonical view shows assignee S and the native Completo/Complete control in all four screenshots.",
+    "The existing closure entry remains; no fabricated reopening event appears.",
+    "Relevant history and note remain complete; desktop uses the full native landscape Inbox and mobile the native conversation view."
+  ],
+  "limits": [
+    "Mobile contact name uses native Valen… truncation; in Spanish mobile the prior day divider is partly beyond the naturally scrolled history pane. Required control/result/note are complete.",
+    "Automatically assigned/Asignado automáticamente describes the renderer wording for the earlier manual self-assignment; it is not evidence of an automation.",
+    "The immediate transient response is not accepted as a result; final screenshots use the canonical GET after persisted verification.",
+    "Only this owner-retained manual reopening branch was observed. No unassigned, owner eligibility, automatic wake-up or new reopening event claim.",
+    "Separate runner job counts do not prove web-process queue counts or execution."
+  ],
+  "help_written": false,
+  "pixels_modified": false,
+  "publication": false
+}

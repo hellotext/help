@@ -43,35 +43,7 @@ Sigue leyendo: [Asigna conversaciones]({% link _team/assigning-conversations.md 
 
 Usa **Posponer** cuando la conversación no necesita acción ahora, pero debería volver más adelante. Hellotext ofrece tiempos comunes como una hora, cuatro horas, mañana o una fecha y hora personalizada.
 
-<!-- inbox-actions:snooze-options:start -->
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-inbox-figure="snooze-options" aria-label="Elige cuándo volver a la conversación">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 1618px; width: fit-content; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/editorial/inbox-actions-continuation-20261010/snooze-options-es-mobile.png 4x" width="1560" height="4000" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-actions-continuation-20261010/snooze-options-es-desktop.png" srcset="/images/editorial/inbox-actions-continuation-20261010/snooze-options-es-desktop.png 4x" width="6400" height="4000" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Menú Posponer abierto en una conversación del Inbox, con las opciones de tiempo disponibles." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Interfaz real con datos ficticios. Opciones para posponer una conversación antes de confirmar el recordatorio.</figcaption>
-</figure>
-<!-- inbox-actions:snooze-options:end -->
-
 Las conversaciones pospuestas aparecen en **Recordatorios** en lugar de la lista activa de Abiertas. Cuando llega el momento del recordatorio, la conversación vuelve a su responsable anterior si esa asignación sigue siendo válida; de lo contrario, vuelve sin asignar. Una nueva actividad del cliente también puede hacerla volver antes.
-
-<!-- inbox-actions:snoozed-result:start -->
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-inbox-figure="snoozed-result" aria-label="Comprueba la conversación pospuesta">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 1618px; width: fit-content; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/editorial/inbox-actions-continuation-20261010/snoozed-result-es-mobile.png 4x" width="1560" height="4000" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-actions-continuation-20261010/snoozed-result-es-desktop.png" srcset="/images/editorial/inbox-actions-continuation-20261010/snoozed-result-es-desktop.png 4x" width="6400" height="4000" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Conversación pospuesta en el Inbox, con Reabrir y el registro de Posponer visibles." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Interfaz real con datos ficticios después de posponer una conversación.</figcaption>
-</figure>
-<!-- inbox-actions:snoozed-result:end -->
 
 Pospone el trabajo que realmente está esperando. Cierra el trabajo que ya terminó.
 
@@ -79,37 +51,9 @@ Pospone el trabajo que realmente está esperando. Cierra el trabajo que ya termi
 
 Cierra una conversación cuando ya no requiere ninguna acción del equipo. El cierre la quita del trabajo activo y limpia la atención vigente, pero no elimina la conversación ni su timeline.
 
-<!-- inbox-actions:closed-result:start -->
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-inbox-figure="closed-result" aria-label="Comprueba la conversación cerrada">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 1618px; width: fit-content; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/editorial/inbox-actions-continuation-20261010/closed-result-es-mobile.png 4x" width="1560" height="4000" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-actions-continuation-20261010/closed-result-es-desktop.png" srcset="/images/editorial/inbox-actions-continuation-20261010/closed-result-es-desktop.png 4x" width="6400" height="4000" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Conversación cerrada en el Inbox, con Reabrir y el registro de cierre visibles." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Interfaz real con datos ficticios después de cerrar una conversación.</figcaption>
-</figure>
-<!-- inbox-actions:closed-result:end -->
-
 Las conversaciones cerradas siguen disponibles mediante el filtro **Cerradas**. Una persona puede reabrirlas manualmente. Una respuesta del cliente o una nueva actividad también puede reabrirlas y aplicar las reglas actuales de asignación del negocio.
 
-Cuando reabres una conversación manualmente, Hellotext conserva al responsable humano que todavía tenga asignado. Si no tiene uno, vuelve sin asignar. Revisa el responsable antes de continuar.
-
-<!-- inbox-actions:reopened-result:start -->
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-inbox-figure="reopened-result" aria-label="Comprueba la conversación reabierta">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 1618px; width: fit-content; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/editorial/inbox-actions-continuation-20261010/reopened-result-es-mobile.png 4x" width="1560" height="4000" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-actions-continuation-20261010/reopened-result-es-desktop.png" srcset="/images/editorial/inbox-actions-continuation-20261010/reopened-result-es-desktop.png 4x" width="6400" height="4000" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Conversación reabierta en el Inbox, con su responsable humano y los controles activos visibles." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Interfaz real con datos ficticios tras reabrir manualmente una conversación cerrada.</figcaption>
-</figure>
-<!-- inbox-actions:reopened-result:end -->
+Cuando alguien reabre una conversación manualmente, Hellotext conserva al responsable anterior si esa persona todavía está disponible en el negocio. De lo contrario, la conversación vuelve sin asignar.
 
 ## Señales de atención y menciones
 

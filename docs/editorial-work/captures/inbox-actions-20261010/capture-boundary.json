@@ -1,0 +1,72 @@
+{
+  "status": "local_scene_restored_after_partial_capture",
+  "source_manifest_sha256": "60f853a9785a81a1a32b6dfd29257e241ef615b85c2ae6f41ad5c54ab5eadfb5",
+  "restore_receipt_sha256": "ec59ac831e7e2d1ef5fc060a6ffd4d4d9a1b7f53044c66249486007d933f1e2d",
+  "csrf_attempt_receipt_sha256": "e1f8f9a7cf598c0b452861e68d589191fa05e559a4bf66c4b0ab56710f46a464",
+  "transport_rollback_receipt_sha256": "fc3727c07003fea5e13fed47f13872015706121bafd271d416b28b6e9bff9ee3",
+  "native_action_attempts": 1,
+  "native_action_outcome": {
+    "http_status": 500,
+    "exception": "ActionController::InvalidAuthenticityToken",
+    "successful_native_actions": 0
+  },
+  "transport": {
+    "temporary_private_helper_change_reverted": true,
+    "explicit_navigations_under_temporary_helper": 0,
+    "captures_under_temporary_helper": 0,
+    "repeated_posts": 0,
+    "background_requests_not_claimed_zero": true,
+    "native_csrf_enabled": true,
+    "shared_configuration_changed": false
+  },
+  "restoration": {
+    "phase": "original",
+    "compared_tables": 538,
+    "unrelated_rows_unchanged": true,
+    "timestamps_unchanged": true,
+    "original_restored": true
+  },
+  "authorized_localization_fields_restored": 19,
+  "runner_job_counters": {
+    "enqueued_delta": 0,
+    "performed_jobs": 0,
+    "scope": "Restoration runner only; not a census of the web process."
+  },
+  "saved_sources": 7,
+  "integrated_source_ids": [
+    "assignment-menu"
+  ],
+  "preparation_only_ids": [
+    "snooze-options"
+  ],
+  "missing_variants": [
+    "snooze-options-en-desktop"
+  ],
+  "historical_receipt_note": "The initial CSRF receipt proposed a transport change; that resolution was superseded by the rollback receipt. Native CSRF was retained and no further action was attempted.",
+  "source_revision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+  "capture_owner_scoped_source_comparison": "dbbae13227696ac31ec9e2338a654e682920433e",
+  "publication": false,
+  "final_readonly_verification_receipt_sha256": "753a9c45ace3d5a258110eff26a4693f91edbd0861c50a17c4592751a6f1a5a3",
+  "final_readonly_verification": {
+    "status": "scene_action_verified",
+    "action": "verify",
+    "phase": "original",
+    "compared_tables": 538,
+    "unrelated_rows_unchanged": true,
+    "timestamps_unchanged": true,
+    "original_restored": true
+  },
+  "shutdown_receipt_sha256": "0ba8f5133ddb492e1849f33f9f77a98f051e72b31ea4efca2181e823c70f2529",
+  "owned_services_closed": [
+    "chrome",
+    "proxy",
+    "rails",
+    "redis"
+  ],
+  "protected_port_touched": false,
+  "other_services_signaled": false,
+  "source_manifest_binding_update": {
+    "prior_pre_shutdown_manifest_sha256": "8cbdfdaedf2342e924d3cb5671e5523044b775a3f57f5d8a488633e81e919c02",
+    "reason": "Final capture closure added explicit superseded-CSRF-resolution metadata; every integrated PNG record is unchanged."
+  }
+}

@@ -43,35 +43,7 @@ Keep reading: [Assign conversations]({% link _team/assigning-conversations.md %}
 
 Use **Snooze** when the conversation does not need action now but should return later. Hellotext offers common reminder times such as one hour, four hours, tomorrow, or a custom date and time.
 
-<!-- inbox-actions:snooze-options:start -->
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-inbox-figure="snooze-options" aria-label="Choose when to return to the conversation">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 1618px; width: fit-content; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/editorial/inbox-actions-continuation-20261010/snooze-options-en-mobile.png 4x" width="1560" height="4000" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-actions-continuation-20261010/snooze-options-en-desktop.png" srcset="/images/editorial/inbox-actions-continuation-20261010/snooze-options-en-desktop.png 4x" width="6400" height="4000" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Open Snooze menu in an Inbox conversation, showing the available time options." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Real interface with fictional data. Options for snoozing a conversation before confirming the reminder.</figcaption>
-</figure>
-<!-- inbox-actions:snooze-options:end -->
-
 Snoozed conversations appear under **Reminders** instead of the active Open list. When the reminder is due, the conversation returns to its previous owner when that assignment is still valid; otherwise, it returns unassigned. New customer activity can also bring it back before the reminder time.
-
-<!-- inbox-actions:snoozed-result:start -->
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-inbox-figure="snoozed-result" aria-label="Check the snoozed conversation">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 1618px; width: fit-content; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/editorial/inbox-actions-continuation-20261010/snoozed-result-en-mobile.png 4x" width="1560" height="4000" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-actions-continuation-20261010/snoozed-result-en-desktop.png" srcset="/images/editorial/inbox-actions-continuation-20261010/snoozed-result-en-desktop.png 4x" width="6400" height="4000" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Snoozed Inbox conversation with Reopen and the snooze record visible." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Real interface with fictional data after snoozing a conversation.</figcaption>
-</figure>
-<!-- inbox-actions:snoozed-result:end -->
 
 Snooze work that is genuinely waiting. Close work that is complete.
 
@@ -79,37 +51,9 @@ Snooze work that is genuinely waiting. Close work that is complete.
 
 Close a conversation when no further team action is required. Closing removes it from the active working set and clears active attention, but it does not delete the conversation or its timeline.
 
-<!-- inbox-actions:closed-result:start -->
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-inbox-figure="closed-result" aria-label="Check the closed conversation">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 1618px; width: fit-content; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/editorial/inbox-actions-continuation-20261010/closed-result-en-mobile.png 4x" width="1560" height="4000" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-actions-continuation-20261010/closed-result-en-desktop.png" srcset="/images/editorial/inbox-actions-continuation-20261010/closed-result-en-desktop.png 4x" width="6400" height="4000" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Closed Inbox conversation with Reopen and the closure record visible." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Real interface with fictional data after closing a conversation.</figcaption>
-</figure>
-<!-- inbox-actions:closed-result:end -->
-
 Closed conversations remain available through the **Closed** filter. A teammate can reopen one manually. Customer replies or new activity can also reopen it and apply the business's current conversation ownership rules.
 
-When you manually reopen a conversation, Hellotext keeps the human assignee still attached to it. If there is none, it returns unassigned. Check the assignee before continuing.
-
-<!-- inbox-actions:reopened-result:start -->
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-inbox-figure="reopened-result" aria-label="Check the reopened conversation">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 1618px; width: fit-content; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/editorial/inbox-actions-continuation-20261010/reopened-result-en-mobile.png 4x" width="1560" height="4000" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-actions-continuation-20261010/reopened-result-en-desktop.png" srcset="/images/editorial/inbox-actions-continuation-20261010/reopened-result-en-desktop.png 4x" width="6400" height="4000" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Reopened Inbox conversation with its human assignee and active controls visible." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Real interface with fictional data after manually reopening a closed conversation.</figcaption>
-</figure>
-<!-- inbox-actions:reopened-result:end -->
+When a teammate manually reopens a conversation, Hellotext keeps the previous assignee when that teammate is still available to the business. Otherwise, the conversation returns unassigned.
 
 ## Attention and mention signals
 
