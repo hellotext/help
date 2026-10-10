@@ -28,35 +28,7 @@ If a routing or escalation rule is already holding the conversation for a specif
 3. Select **Assign**.
 4. Choose the teammate who should own the next action.
 
-<!-- inbox-actions:assignment-menu:start -->
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-inbox-figure="assignment-menu" aria-label="Choose a teammate from Assign">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 1618px; width: fit-content; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/editorial/inbox-actions-20261010/assignment-menu-en-mobile.png 4x" width="1560" height="4000" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-actions-20261010/assignment-menu-en-desktop.png" srcset="/images/editorial/inbox-actions-20261010/assignment-menu-en-desktop.png 4x" width="6400" height="4000" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Inbox Actions menu with Assign open and teammate options to choose." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Real interface with fictional data. The menu lets you choose the teammate who will own the conversation.</figcaption>
-</figure>
-<!-- inbox-actions:assignment-menu:end -->
-
 Use the same steps to reassign a conversation that already has an owner. Hellotext updates the assignee shown in the header and records the assignment in the conversation timeline. The new assignee can also receive an assignment notification.
-
-<!-- inbox-actions:assignment-result:start -->
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-inbox-figure="assignment-result" aria-label="Check the new assignee">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 1618px; width: fit-content; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/editorial/inbox-actions-continuation-20261010/assignment-result-en-mobile.png 4x" width="1560" height="4000" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-actions-continuation-20261010/assignment-result-en-desktop.png" srcset="/images/editorial/inbox-actions-continuation-20261010/assignment-result-en-desktop.png 4x" width="6400" height="4000" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Inbox conversation after a manual assignment, showing the assignee and assignment record." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Real interface with fictional data after assigning the conversation to another teammate.</figcaption>
-</figure>
-<!-- inbox-actions:assignment-result:end -->
 
 Before reassigning, add an internal note when the reason or next step is not already clear from the timeline. Assignment transfers responsibility, but it does not replace the context needed to continue the conversation.
 

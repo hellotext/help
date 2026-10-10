@@ -1,0 +1,167 @@
+{
+  "status": "passed",
+  "concept": "closed-result",
+  "recorded_at": "2026-10-10T19:24:40.013546+00:00",
+  "scope": "Four raw sources and persisted native closure, including native open/self-assignment prerequisites. Final Help pixel review pending.",
+  "sources": [
+    {
+      "file": "closed-result-es-desktop.png",
+      "locale": "es",
+      "layout": "desktop",
+      "clip": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "pixelSize": [
+        6400,
+        4000
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "sha256": "5d6e710b35445b83067ecc65e945395aaca30929d589b36dc144424ee708d257",
+      "metadata_sha256": "31a8057cdf61a6b5ee7d77753a6b8317889c6078c4e4a1bdcc2aeb22641144bf",
+      "viewed_with": "view_image",
+      "blocking_findings": []
+    },
+    {
+      "file": "closed-result-es-mobile.png",
+      "locale": "es",
+      "layout": "mobile",
+      "clip": [
+        0,
+        0,
+        390,
+        1000
+      ],
+      "pixelSize": [
+        1560,
+        4000
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "sha256": "69847f028ee0dda8469932d807f5cf9ddbda0f224cd7ae70d8ffd2c36dff8f35",
+      "metadata_sha256": "9327de120da9233c51f9dbdf91a5185b997cee41f0d6f6562b34b0d357d89a08",
+      "viewed_with": "view_image",
+      "blocking_findings": []
+    },
+    {
+      "file": "closed-result-en-desktop.png",
+      "locale": "en",
+      "layout": "desktop",
+      "clip": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "pixelSize": [
+        6400,
+        4000
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "sha256": "f89ca38b38f8759db5450a3a46324ee0a74a3de219d8a227ff35e3f6687de177",
+      "metadata_sha256": "2b8d9d8eb64e6afe233f444a8c5a0e4f188de499f3e8835d824c00e4d596a48c",
+      "viewed_with": "view_image",
+      "blocking_findings": []
+    },
+    {
+      "file": "closed-result-en-mobile.png",
+      "locale": "en",
+      "layout": "mobile",
+      "clip": [
+        0,
+        0,
+        390,
+        1000
+      ],
+      "pixelSize": [
+        1560,
+        4000
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "sha256": "b0c2cd0b5c04d1429e8eeb797379ba66cb0a4ea19500e53bb904305dfc9391cc",
+      "metadata_sha256": "f8096a36f8e5dd94b401e5ccb0423230175d132c7851dc45731d0fa28d63f3e6",
+      "viewed_with": "view_image",
+      "blocking_findings": []
+    }
+  ],
+  "postcondition_evidence": {
+    "open-snoozed": {
+      "receipt_sha256": "a3024ce74516343fbc6abe78da642094ea210a16112eb07d888156d2637d0886",
+      "before_snapshot_sha256": "46493fe9a1e0b13ddf84965a2de80dd37e369ca4c265caee50e2d8aed1965117",
+      "after_snapshot_sha256": "8d8e016692f9c7134a570c4a11245f546083ea8b7126303c45797865ce4264ae",
+      "changed_tables": [
+        "conversations",
+        "workload_team_intervals",
+        "workload_user_intervals"
+      ],
+      "unchanged_whole_tables": 535
+    },
+    "reassign-self": {
+      "receipt_sha256": "136591acef1ec0ac2e1ccc3098cf70abf8de6329eb32ae11879cc4b420911fa3",
+      "before_snapshot_sha256": "8d8e016692f9c7134a570c4a11245f546083ea8b7126303c45797865ce4264ae",
+      "after_snapshot_sha256": "10019f6e0cee17be1c97f33de229354fe71928d388a643a73bd24910e4b4b721",
+      "changed_tables": [
+        "conversations",
+        "dashboard_metrics",
+        "events",
+        "track_events",
+        "workload_user_intervals"
+      ],
+      "unchanged_whole_tables": 533
+    },
+    "close": {
+      "receipt_sha256": "ca8d74c2ab5328f7f09c032c6605c57c5cbf7bcc12022394c485d4cd798de8a7",
+      "before_snapshot_sha256": "10019f6e0cee17be1c97f33de229354fe71928d388a643a73bd24910e4b4b721",
+      "after_snapshot_sha256": "9f72b87793dbbf3f6da77ed82b41a5bcbed2b3e7a57c618d91595e3cf77683d2",
+      "changed_tables": [
+        "contact_action_summaries",
+        "contacts",
+        "conversations",
+        "dashboard_metrics",
+        "events",
+        "track_events",
+        "workload_handles",
+        "workload_team_intervals",
+        "workload_user_intervals"
+      ],
+      "unchanged_whole_tables": 529
+    }
+  },
+  "persisted_checks": {
+    "native_http_status": 200,
+    "state_before": "assigned",
+    "state_after": "closed",
+    "same_human_owner_retained": true,
+    "close_actor_timestamp_track_and_linked_event_match": true,
+    "messages_preserved": true,
+    "attention_present_before": false,
+    "precondition_manual_self_assignment_observed": true,
+    "role_or_actor_changed": false
+  },
+  "observed": [
+    "All four screenshots show Reopen/Reabrir and a genuine closure entry at16:20.",
+    "Existing note and relevant action history remain visible; desktop is a full landscape native Inbox and mobile is the native conversation view.",
+    "The prior assignment to Lucía remains in history; closure belongs to Sofía after a separate real manual self-assignment."
+  ],
+  "limits": [
+    "In the Spanish mobile screenshot the previous day divider is partially outside the naturally scrolled history pane. Closure/control/note are complete; no full-history claim.",
+    "Automatically assigned/Asignado automáticamente is native wording for self-assignment in this renderer; the observed action was manual, not proof of an automation.",
+    "No active attention existed before this closure, so these figures do not demonstrate clearing an existing attention item.",
+    "Queued closure work, CSAT, notifications and web-process job execution counts are not asserted from these images or separate-runner counts.",
+    "Only unchanged whole tables are proven by the snapshot comparison; no global unchanged claim for action-mutated tables."
+  ],
+  "self_assignment_renderer": {
+    "source_revision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+    "path": "app/views/track/events/actions/conversation/_assigned.html.erb",
+    "sha256": "7be91cb719836568cf1090d2e161db59261d629077f99721171f25fff2edadbb",
+    "meaning": "The User branch uses other when performer differs from trackable, and automatically otherwise, including this self-assignment."
+  },
+  "help_written": false,
+  "pixels_modified": false,
+  "publication": false
+}

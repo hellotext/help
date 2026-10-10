@@ -1,0 +1,157 @@
+{
+  "status": "reviewed_local_publication_candidate",
+  "recorded_at": "2026-10-10T19:44:49.333927+00:00",
+  "base_commit": "2aa002407e25e8743bcb372452138c3bff45589a",
+  "articles": [
+    {
+      "path": "_i18n/es/team/assigning-conversations.md",
+      "sha256": "c7129d6ffab1b082fb321e1d7f90d261396d82e1b0e1c25e56c7a121dfc704d3",
+      "figures": [
+        "assignment-menu",
+        "assignment-result"
+      ]
+    },
+    {
+      "path": "_i18n/en/team/assigning-conversations.md",
+      "sha256": "86dbfc1fb4b0be421e3a00ba3c1eddaaf7a892d794dd08a98726348288ec2060",
+      "figures": [
+        "assignment-menu",
+        "assignment-result"
+      ]
+    },
+    {
+      "path": "_i18n/es/team/conversation-lifecycle.md",
+      "sha256": "4976ccdacbdbbd077f1307b4861beb43b7ed37cac8e024039430623533e836c8",
+      "figures": [
+        "snooze-options",
+        "snoozed-result",
+        "closed-result",
+        "reopened-result"
+      ]
+    },
+    {
+      "path": "_i18n/en/team/conversation-lifecycle.md",
+      "sha256": "56c2c5fc36c66f4b168e38e9ee16c393e618fcf004757eba3547da824746fe39",
+      "figures": [
+        "snooze-options",
+        "snoozed-result",
+        "closed-result",
+        "reopened-result"
+      ]
+    }
+  ],
+  "concepts": 6,
+  "source_pngs": 24,
+  "localized_figures": 12,
+  "menu_only": [
+    "assignment-menu",
+    "snooze-options"
+  ],
+  "persisted_action_results": [
+    "assignment-result",
+    "snoozed-result",
+    "closed-result",
+    "reopened-result"
+  ],
+  "capture_provenance": {
+    "application_revision": "6dc36367bdd8f1b0ac9daea26660a6af4dbb1b31",
+    "scoped_comparison_revision": "dbbae13227696ac31ec9e2338a654e682920433e",
+    "route": "Native local Rails UI with isolated fictional data; Chrome Display P3 compositor.",
+    "desktop_css": [
+      1600,
+      1000
+    ],
+    "mobile_css": [
+      390,
+      1000
+    ],
+    "device_scale": 2,
+    "capture_scale": 2,
+    "native_density": 4,
+    "transformations": "none",
+    "csrf_protection": "Native session recovery retained CSRF validation; no application source changes."
+  },
+  "verification": {
+    "production_build": "passed",
+    "security_headers": "passed",
+    "source_pngs": 24,
+    "built_png_copies": 48,
+    "responsive_views": 12,
+    "view_widths_css_px": [
+      1440,
+      390,
+      580
+    ],
+    "native_review_pngs_visually_inspected": 68,
+    "scope": "Headers, complete inserted figures through native viewport tiles and adjacent prose; not exhaustive article/footer/navigation review.",
+    "findings": []
+  },
+  "inventory": {
+    "unresolved_pairs": 45,
+    "target_pair_status": "in_progress",
+    "reason": "These six concepts do not complete all visual coverage in either guide."
+  },
+  "restoration": {
+    "original_localization_fields_restored": 19,
+    "post_action_history_preserved": true,
+    "old_pre_action_database_restored": false,
+    "owned_capture_services_stopped": true,
+    "owned_help_preview_stopped": true,
+    "owned_review_tab": "about:blank"
+  },
+  "limits": [
+    "Desktop full Inbox context has smaller controls at the actual article width, as accepted in the visual brief.",
+    "Native mobile name truncation, popover overlap, template-only composer and notification prompt remain; prior-day divider clipping in lifecycle sources does not obscure demonstrated result controls.",
+    "Snooze persisted after the selected four-hour action, but the web job payload, actual due time and future wake-up were not observed.",
+    "Native self-assignment history says Automatically assigned although the observed action was manual; no automation is inferred.",
+    "Manual reopening retained the human owner without generating a new Track or timeline Event.",
+    "Focused page review is not exhaustive footer, navigation or complete-guide verification. AI, bulk assignment, custom reminders and other unexercised branches remain open.",
+    "The final restoration comparison covers 538 normalized post-action tables. During the action sequence, 528 tables were unchanged and ten had native changes; unrelated rows within those ten were not fully enumerated.",
+    "No real sends, notification delivery or future queue execution are certified."
+  ],
+  "portable_files_sha256": {
+    "docs/editorial-work/captures/inbox-actions-20261010/preservation-baseline.json": "b4b400777b8cc3626719dd039836853407c9c2781242df9192e0abc81bc76fd6",
+    "docs/editorial-work/captures/inbox-actions-20261010/manual-reopen-correction.json": "be1d4ef2eeded9d53dabb485f8a0bcce6e3a1fddf1b8f5ddd09b16e4314ab7c9",
+    "docs/editorial-work/captures/inbox-actions-20261010/integration-record.json": "3cd421eb0d0190296ce5fa90d699bf12508aa663d6850329386b853b7e549e9b",
+    "docs/editorial-work/captures/inbox-actions-20261010/manifest.json": "0399d37a0e7bdb1fa78ebbc7068ef6213d9bd85e2f308c97840a2d18ea6356ad",
+    "docs/editorial-work/captures/inbox-actions-20261010/figure-plan.json": "b4e43ba41512586c5351390b23d373570afa6ff33f1e0253adb7bf6ae51371f6",
+    "docs/editorial-work/captures/inbox-actions-20261010/capture-boundary.json": "f8d9bdc749d622e30e6d800897147ba19361833daf525b1a14f4ae82dd5c6f40",
+    "docs/editorial-work/captures/inbox-actions-20261010/originals/assigning-conversations-stub.md": "47b3cfde9b69b1d202818989774a1bf71438aa4c06cba8859e87ef6f9c669265",
+    "docs/editorial-work/captures/inbox-actions-20261010/originals/assigning-conversations-es.md": "f1fabc315f829c84057a4f216b08a3c51c0cf9304465856b6cc3dffabc626cf7",
+    "docs/editorial-work/captures/inbox-actions-20261010/originals/assigning-conversations-en.md": "57b35a32456c13e2f771fa21fc7a15b2081cdb69d3f9f3542b030a719af8c3fa",
+    "docs/editorial-work/captures/inbox-actions-20261010/originals/conversation-lifecycle-es.md": "e306dca15c1f838c9b3f58074364a1eaaf2bab17d3311a4cb6dd4a26818217ba",
+    "docs/editorial-work/captures/inbox-actions-20261010/originals/conversation-lifecycle-en.md": "866bd7a5e2ea4b1648dc77b31d70cad4ce47c3484d077083ce3a55da731461fc",
+    "docs/editorial-work/captures/inbox-actions-20261010/originals/conversation-lifecycle-stub.md": "3cddf5f365559a1e48c30e5d1b61590053fb9857903bce332cf537267e538aea",
+    "docs/editorial-work/captures/inbox-actions-continuation-20261010/figure-plan.json": "e2438f6f1949e3417cb640c9ef531f586a32fdaeb7f8e4372794948a80c4e848",
+    "docs/editorial-work/captures/inbox-actions-continuation-20261010/manifest.json": "a24191fd09b5b73598bbeb51057289fb7f2e6f45e3588f5fe8ad9c70ede37520",
+    "docs/editorial-work/captures/inbox-actions-continuation-20261010/preparation-record.json": "14a14787a496c786ba0db4ddf3225699fe36cfedafd9c100d6e660576f708384",
+    "docs/editorial-work/captures/inbox-actions-continuation-20261010/integration-record.json": "d2a17f9174b52349ba8c73aaac58cdd1e9c3809cc585a7ca6e7f4e226198d87d",
+    "docs/editorial-work/captures/inbox-actions-continuation-20261010/verify-integration.py": "a22c3cd64a8f473458f6d975082899ca411cfdfca9522d6498b5ea809363754e",
+    "docs/editorial-work/captures/inbox-actions-continuation-20261010/assignment-result-group-review.json": "1e0dd1828eab66ea822f48196bf3b547c03b5fb50ffd075bfc5a44f07a16a4b1",
+    "docs/editorial-work/captures/inbox-actions-continuation-20261010/snoozed-result-group-review.json": "f676734ded90ca11cb57b5d6c86806b2e4e85455121fbeb8bbe4f2d13dbea73f",
+    "docs/editorial-work/captures/inbox-actions-continuation-20261010/closed-result-group-review.json": "84fb5a0cbd6699b0e072c5ab2fac9cba250f01ca5c8d51081d340890f6764732",
+    "docs/editorial-work/captures/inbox-actions-continuation-20261010/reopened-result-group-review.json": "9d5c5e85ad97df1accf31675e38052870372843c4529285dc5a503e6b9fb264d",
+    "docs/editorial-work/captures/inbox-actions-continuation-20261010/pixel-review-es.json": "80aea7ec8ed98238204db6bdaafd8f6f298278f18c3e5fa1b4b3952a69d6fb11",
+    "docs/editorial-work/captures/inbox-actions-continuation-20261010/pixel-review-en-assigning.json": "bc71045662de3dc0ca8116e83bcbca83565792b68ed9da5c1745075f4fd952c0",
+    "docs/editorial-work/captures/inbox-actions-continuation-20261010/pixel-review-en-lifecycle.json": "6cc63537a3c5ebc572f7c55428241c3789f2ac540c87b2f0cb5a011250cd5f76"
+  },
+  "external_evidence_sha256": {
+    "local-qa.json": "5525ae68de7cf189f57823a60b30c57c2ca3a47088dbc4f312a06b766c45f2cd",
+    "final-scene-review.json": "b05c7d746a4a04fa50a844973041cc370355c90ddce7c606bd4574b46a1992b4",
+    "shutdown-result.json": "6be8ac95e2b1c888796e0060696b85b870ca19eece80e74253835448bad0bfab",
+    "native-session-bootstrap-review.json": "ce78d64d7ce1829f6aec129e8fae8a279a772d145875fc6be73c0c4021925293"
+  },
+  "packaging": "Article and screenshot bytes exactly match the accepted local batch. Original proof records are preserved byte-for-byte and reflect their historical stage. This new summary records completed local QA; machine paths, browser profiles, local logs, private Library identifiers and workspace-only drivers remain outside the Git patch.",
+  "publication": {
+    "state": "not_yet_published",
+    "note": "PR, merge, deploy and public verification are recorded separately after they occur."
+  },
+  "packaging_derivations": [
+    {
+      "path": "docs/editorial-work/captures/inbox-actions-continuation-20261010/verify-integration.py",
+      "source_sha256": "a924552b3290c36bbc2ab90c400f3b0056f07387822bcf4c5c716db268608da0",
+      "packaged_sha256": "a22c3cd64a8f473458f6d975082899ca411cfdfca9522d6498b5ea809363754e",
+      "change": "Remove one surplus final blank line to satisfy git diff --check; no executable code or behavior changed."
+    }
+  ]
+}

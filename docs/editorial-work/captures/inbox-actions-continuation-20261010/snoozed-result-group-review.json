@@ -1,0 +1,130 @@
+{
+  "status": "passed",
+  "concept": "snoozed-result",
+  "recorded_at": "2026-10-10T19:16:34.404286+00:00",
+  "scope": "Four raw sources and observed native snoozed state; scheduled deadline and future wakeup are not verified.",
+  "sources": [
+    {
+      "file": "snoozed-result-es-desktop.png",
+      "locale": "es",
+      "layout": "desktop",
+      "clip": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "pixelSize": [
+        6400,
+        4000
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "sha256": "0ef497dcd2c1335373757128bbc4e26131f90af6c2c26ff37ef63e035db7a504",
+      "metadata_sha256": "499b6b42e58caf6ca78241558a35734ef473a50649740c5ef00f17bce661ea48",
+      "viewed_with": "view_image",
+      "findings": []
+    },
+    {
+      "file": "snoozed-result-es-mobile.png",
+      "locale": "es",
+      "layout": "mobile",
+      "clip": [
+        0,
+        0,
+        390,
+        1000
+      ],
+      "pixelSize": [
+        1560,
+        4000
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "sha256": "f046a599e723ab093e7cfa617e5f59f9e5638f4b50c5efba11615a112cf0dec9",
+      "metadata_sha256": "b11e7b9c8db8d549e89291079075523da3c1c6050606c4bd8f1bc1b9cdd367f7",
+      "viewed_with": "view_image",
+      "findings": []
+    },
+    {
+      "file": "snoozed-result-en-desktop.png",
+      "locale": "en",
+      "layout": "desktop",
+      "clip": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "pixelSize": [
+        6400,
+        4000
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "sha256": "cf614f38dad4c9579b66a1528ca9b6cb010098186642491b98be3f1208dac721",
+      "metadata_sha256": "19be02a2ce69910d29ec466f9a9093963594f1d594ff956d7471c34f87d8269b",
+      "viewed_with": "view_image",
+      "findings": []
+    },
+    {
+      "file": "snoozed-result-en-mobile.png",
+      "locale": "en",
+      "layout": "mobile",
+      "clip": [
+        0,
+        0,
+        390,
+        1000
+      ],
+      "pixelSize": [
+        1560,
+        4000
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "sha256": "935dc4563a7271fe5516ead654c84ac9f6e91e2de5ca445eeed2915ab6dd8f74",
+      "metadata_sha256": "cea8fa6da5cc74e0d426148277dcd9973aba9f6b44532681193060aefd129a61",
+      "viewed_with": "view_image",
+      "findings": []
+    }
+  ],
+  "postcondition_receipt_sha256": "c9d1170c2dfe55678aad7411bc431f14ca105dd9150c63ff3dfe4878ef955f29",
+  "before_snapshot_sha256": "20533d7567867ce677788765a0dc8ec494e379637d5f855de7a6312de62f7d61",
+  "after_snapshot_sha256": "46493fe9a1e0b13ddf84965a2de80dd37e369ca4c265caee50e2d8aed1965117",
+  "persisted_checks": {
+    "native_http_status": 200,
+    "selected_preset": "4 Hours",
+    "state_before": "assigned",
+    "state_after": "snoozed",
+    "human_assignee_retained": true,
+    "actor_and_snoozed_track_and_event_match": true,
+    "same_target_and_messages_preserved": true,
+    "unchanged_whole_tables": 533,
+    "compared_tables": 538,
+    "changed_tables": [
+      "conversations",
+      "dashboard_metrics",
+      "events",
+      "track_events",
+      "workload_user_intervals"
+    ]
+  },
+  "pixel_findings": [],
+  "observed": [
+    "All four raw screenshots show Reopen/Reabrir and the native Snoozed/Pospuesto event, with the prior assignment history intact.",
+    "Locale matches the UI and fictional conversation text; proper names are preserved.",
+    "Result controls and history are not cut; desktop remains full native landscape context and mobile remains a native conversation view."
+  ],
+  "limits": [
+    "The native selected preset and submitted commit=4 are reported by the capture owner, but the web-process job record and due time were not observed. Source-backed scheduling behavior is not proof of an observed scheduled wakeup.",
+    "Event16:12 is the time of the snooze action, not its deadline. No job was run to manufacture a later state.",
+    "The Reminders filter label is not visible in the screenshots; no caption claims that label is shown.",
+    "Final Help build/column pixel review remains pending.",
+    "Job counters in separate runners do not establish a global web-process count.",
+    "HTTP200 is bound to the capture owner receipt; reviewer independently compared saved persisted snapshots."
+  ],
+  "help_written": false,
+  "pixels_modified": false,
+  "publication": false
+}

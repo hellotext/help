@@ -1,0 +1,82 @@
+{
+  "status": "integrated_locally_build_and_page_review_pending",
+  "manifest_sha256": "0399d37a0e7bdb1fa78ebbc7068ef6213d9bd85e2f308c97840a2d18ea6356ad",
+  "plan_sha256": "b4e43ba41512586c5351390b23d373570afa6ff33f1e0253adb7bf6ae51371f6",
+  "original_baseline_sha256": "b4b400777b8cc3626719dd039836853407c9c2781242df9192e0abc81bc76fd6",
+  "manual_correction_sha256": "be1d4ef2eeded9d53dabb485f8a0bcce6e3a1fddf1b8f5ddd09b16e4314ab7c9",
+  "capture_boundary_sha256": "f8d9bdc749d622e30e6d800897147ba19361833daf525b1a14f4ae82dd5c6f40",
+  "assets": [
+    {
+      "id": "assignment-menu",
+      "locale": "en",
+      "layout": "desktop",
+      "sha256": "bccf7dbda659c452bc0882a39bb30df30480bba1d33a3559e12810e64f6860fc",
+      "pixelSize": [
+        6400,
+        4000
+      ],
+      "path": "images/editorial/inbox-actions-20261010/assignment-menu-en-desktop.png"
+    },
+    {
+      "id": "assignment-menu",
+      "locale": "en",
+      "layout": "mobile",
+      "sha256": "ce94aaf4b87afe7d6d210db10d16defef9d8f354d2531296b3ae6ca0c02edbf1",
+      "pixelSize": [
+        1560,
+        4000
+      ],
+      "path": "images/editorial/inbox-actions-20261010/assignment-menu-en-mobile.png"
+    },
+    {
+      "id": "assignment-menu",
+      "locale": "es",
+      "layout": "desktop",
+      "sha256": "806dcdf7f291c492770821f7b0c9c8c36166ab76474b952b15255e91b73f73ce",
+      "pixelSize": [
+        6400,
+        4000
+      ],
+      "path": "images/editorial/inbox-actions-20261010/assignment-menu-es-desktop.png"
+    },
+    {
+      "id": "assignment-menu",
+      "locale": "es",
+      "layout": "mobile",
+      "sha256": "f776e121085bac8d2f02c9af32e9f4a61100e6589d256e4344ee222b9700dd0c",
+      "pixelSize": [
+        1560,
+        4000
+      ],
+      "path": "images/editorial/inbox-actions-20261010/assignment-menu-es-mobile.png"
+    }
+  ],
+  "articles": [
+    {
+      "path": "_i18n/es/team/assigning-conversations.md",
+      "sha256": "7276a5d0a56f9d58b68a181209627562e249ba1853eb235df55b67c1d3affd1a",
+      "figures": [
+        "assignment-menu"
+      ]
+    },
+    {
+      "path": "_i18n/en/team/assigning-conversations.md",
+      "sha256": "7d33f8e97937542e0490d7a4ac720cdc7125214dbeeadd0c1fab76c1bd8c6002",
+      "figures": [
+        "assignment-menu"
+      ]
+    },
+    {
+      "path": "_i18n/es/team/conversation-lifecycle.md",
+      "sha256": "f7d8b6b19c271f929058bb5c57f2a3d1ebb340fc0f7adfcb2148029dca112967",
+      "figures": []
+    },
+    {
+      "path": "_i18n/en/team/conversation-lifecycle.md",
+      "sha256": "64d8b290733e279ccf6fa4c2f432a857ff68806f174cf7b833bee9227418742d",
+      "figures": []
+    }
+  ],
+  "unresolved_pairs": 45,
+  "publication": false
+}

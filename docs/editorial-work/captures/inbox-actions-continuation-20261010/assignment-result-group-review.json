@@ -1,0 +1,120 @@
+{
+  "status": "passed",
+  "concept": "assignment-result",
+  "recorded_at": "2026-10-10T19:10:19.222955+00:00",
+  "scope": "Complete four-source raw group and saved native assignment persistence evidence; final Help layout review pending.",
+  "sources": [
+    {
+      "file": "assignment-result-es-desktop.png",
+      "locale": "es",
+      "layout": "desktop",
+      "clip": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "pixelSize": [
+        6400,
+        4000
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "sha256": "ae4fdae8bd78d1e7909de493ed519b7540450986aad04af3a0d45c88b0aa9e9b",
+      "metadata_sha256": "991276a0b14a9fd2314035d8d56239c16d29ab064589cffa499efa6760905e15",
+      "viewed_with": "view_image",
+      "findings": []
+    },
+    {
+      "file": "assignment-result-es-mobile.png",
+      "locale": "es",
+      "layout": "mobile",
+      "clip": [
+        0,
+        0,
+        390,
+        1000
+      ],
+      "pixelSize": [
+        1560,
+        4000
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "sha256": "fea95c1b1df5b9df14b249a3e0128b5281a71675f916e5e6e8ff96288390d31b",
+      "metadata_sha256": "c6a046400ed421566db1e8ea1429a06512243f83504216cee2350588cee62b94",
+      "viewed_with": "view_image",
+      "findings": []
+    },
+    {
+      "file": "assignment-result-en-desktop.png",
+      "locale": "en",
+      "layout": "desktop",
+      "clip": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "pixelSize": [
+        6400,
+        4000
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "sha256": "05f93c25170a7b1ad6f470ab780bfef800775bae2ccf5863747c1a5745138dba",
+      "metadata_sha256": "35128eb95ffdd311916a2df79c9babf52bd9b4b87f5312adf7e1aae96d9e6fac",
+      "viewed_with": "view_image",
+      "findings": []
+    },
+    {
+      "file": "assignment-result-en-mobile.png",
+      "locale": "en",
+      "layout": "mobile",
+      "clip": [
+        0,
+        0,
+        390,
+        1000
+      ],
+      "pixelSize": [
+        1560,
+        4000
+      ],
+      "nativeDensity": 4,
+      "icc": "Display P3",
+      "sha256": "d5aa61706023b820170221d098d991a8df8fddc07d2c657cc037d6927c27ee7f",
+      "metadata_sha256": "0004a328f73321b399aede8db767f88357736333370c3cbaa42d5bcd81fb76da",
+      "viewed_with": "view_image",
+      "findings": []
+    }
+  ],
+  "postcondition_receipt_sha256": "91aebf9a66528a1d0b56592246a252eddb64c732e3c38aff37f839deb4e5409e",
+  "independent_persistence_review_sha256": "9bd867c833e24aabecde4fd65ddabe3faee82e92ec0ddd3910057df614f9f6e3",
+  "persisted_checks": {
+    "native_http_status": 200,
+    "assignee_changed_to_selected_human": true,
+    "assignment_track_and_timeline_event_match": true,
+    "state": "assigned",
+    "same_target_and_messages_preserved": true,
+    "unchanged_whole_tables": 532,
+    "compared_tables": 538
+  },
+  "pixel_findings": [],
+  "observed": [
+    "All four raw screenshots show selected human initial L and the native assignment event naming Sofía Castro and Lucía Méndez.",
+    "The customer note and relevant conversation content remain readable; desktop shows the full landscape Inbox, mobile the native conversation view.",
+    "UI and fixture text match each locale, with proper names unchanged."
+  ],
+  "limits": [
+    "Native timeline time16:03 is the action time; no delivery or notification outcome is claimed.",
+    "WhatsApp template-only footer and notification permission notice are unchanged native context.",
+    "HTML/build/actual Help-column pixel QA remains pending.",
+    "HTTP200 is bound to the capture owner receipt; reviewer independently checked persisted snapshots, not the live network.",
+    "Only 532 whole tables are proven unchanged; the six expected changed tables are not claimed globally unchanged.",
+    "Jobs assertions are process-scoped runner evidence, not a web-process census."
+  ],
+  "help_written": false,
+  "pixels_modified": false,
+  "publication": false
+}

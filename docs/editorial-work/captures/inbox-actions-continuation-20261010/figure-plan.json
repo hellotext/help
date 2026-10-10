@@ -1,0 +1,121 @@
+{
+  "figures": [
+    {
+      "id": "assignment-menu",
+      "article_key": "team/assigning-conversations.md",
+      "locales": {
+        "es": {
+          "anchor": "4. Elige la persona que debería encargarse de la próxima acción.",
+          "label": "Elige a una persona desde Asignar",
+          "alt": "Menú Acciones del Inbox con Asignar abierto y opciones de integrantes para elegir.",
+          "caption": "Interfaz real con datos ficticios. El menú permite elegir a la persona que se encargará de la conversación."
+        },
+        "en": {
+          "anchor": "4. Choose the teammate who should own the next action.",
+          "label": "Choose a teammate from Assign",
+          "alt": "Inbox Actions menu with Assign open and teammate options to choose.",
+          "caption": "Real interface with fictional data. The menu lets you choose the teammate who will own the conversation."
+        }
+      }
+    },
+    {
+      "id": "assignment-result",
+      "article_key": "team/assigning-conversations.md",
+      "locales": {
+        "es": {
+          "anchor": "Usa los mismos pasos para reasignar una conversación que ya tiene responsable. Hellotext actualiza el avatar del encabezado y registra la asignación en el timeline de la conversación. La nueva persona asignada también puede recibir una notificación.",
+          "label": "Comprueba el nuevo responsable",
+          "alt": "Conversación del Inbox después de una asignación manual, con el responsable y el registro de asignación visibles.",
+          "caption": "Interfaz real con datos ficticios después de asignar la conversación a otra persona."
+        },
+        "en": {
+          "anchor": "Use the same steps to reassign a conversation that already has an owner. Hellotext updates the assignee shown in the header and records the assignment in the conversation timeline. The new assignee can also receive an assignment notification.",
+          "label": "Check the new assignee",
+          "alt": "Inbox conversation after a manual assignment, showing the assignee and assignment record.",
+          "caption": "Real interface with fictional data after assigning the conversation to another teammate."
+        }
+      }
+    },
+    {
+      "id": "snooze-options",
+      "article_key": "team/conversation-lifecycle.md",
+      "locales": {
+        "es": {
+          "anchor": "Usa **Posponer** cuando la conversación no necesita acción ahora, pero debería volver más adelante. Hellotext ofrece tiempos comunes como una hora, cuatro horas, mañana o una fecha y hora personalizada.",
+          "label": "Elige cuándo volver a la conversación",
+          "alt": "Menú Posponer abierto en una conversación del Inbox, con las opciones de tiempo disponibles.",
+          "caption": "Interfaz real con datos ficticios. Opciones para posponer una conversación antes de confirmar el recordatorio."
+        },
+        "en": {
+          "anchor": "Use **Snooze** when the conversation does not need action now but should return later. Hellotext offers common reminder times such as one hour, four hours, tomorrow, or a custom date and time.",
+          "label": "Choose when to return to the conversation",
+          "alt": "Open Snooze menu in an Inbox conversation, showing the available time options.",
+          "caption": "Real interface with fictional data. Options for snoozing a conversation before confirming the reminder."
+        }
+      }
+    },
+    {
+      "id": "snoozed-result",
+      "article_key": "team/conversation-lifecycle.md",
+      "locales": {
+        "es": {
+          "anchor": "Las conversaciones pospuestas aparecen en **Recordatorios** en lugar de la lista activa de Abiertas. Cuando llega el momento del recordatorio, la conversación vuelve a su responsable anterior si esa asignación sigue siendo válida; de lo contrario, vuelve sin asignar. Una nueva actividad del cliente también puede hacerla volver antes.",
+          "label": "Comprueba la conversación pospuesta",
+          "alt": "Conversación pospuesta en el Inbox, con Reabrir y el registro de Posponer visibles.",
+          "caption": "Interfaz real con datos ficticios después de posponer una conversación."
+        },
+        "en": {
+          "anchor": "Snoozed conversations appear under **Reminders** instead of the active Open list. When the reminder is due, the conversation returns to its previous owner when that assignment is still valid; otherwise, it returns unassigned. New customer activity can also bring it back before the reminder time.",
+          "label": "Check the snoozed conversation",
+          "alt": "Snoozed Inbox conversation with Reopen and the snooze record visible.",
+          "caption": "Real interface with fictional data after snoozing a conversation."
+        }
+      }
+    },
+    {
+      "id": "closed-result",
+      "article_key": "team/conversation-lifecycle.md",
+      "locales": {
+        "es": {
+          "anchor": "Cierra una conversación cuando ya no requiere ninguna acción del equipo. El cierre la quita del trabajo activo y limpia la atención vigente, pero no elimina la conversación ni su timeline.",
+          "label": "Comprueba la conversación cerrada",
+          "alt": "Conversación cerrada en el Inbox, con Reabrir y el registro de cierre visibles.",
+          "caption": "Interfaz real con datos ficticios después de cerrar una conversación."
+        },
+        "en": {
+          "anchor": "Close a conversation when no further team action is required. Closing removes it from the active working set and clears active attention, but it does not delete the conversation or its timeline.",
+          "label": "Check the closed conversation",
+          "alt": "Closed Inbox conversation with Reopen and the closure record visible.",
+          "caption": "Real interface with fictional data after closing a conversation."
+        }
+      }
+    },
+    {
+      "id": "reopened-result",
+      "article_key": "team/conversation-lifecycle.md",
+      "locales": {
+        "es": {
+          "anchor": "Cuando reabres una conversación manualmente, Hellotext conserva al responsable humano que todavía tenga asignado. Si no tiene uno, vuelve sin asignar. Revisa el responsable antes de continuar.",
+          "label": "Comprueba la conversación reabierta",
+          "alt": "Conversación reabierta en el Inbox, con su responsable humano y los controles activos visibles.",
+          "caption": "Interfaz real con datos ficticios tras reabrir manualmente una conversación cerrada."
+        },
+        "en": {
+          "anchor": "When you manually reopen a conversation, Hellotext keeps the human assignee still attached to it. If there is none, it returns unassigned. Check the assignee before continuing.",
+          "label": "Check the reopened conversation",
+          "alt": "Reopened Inbox conversation with its human assignee and active controls visible.",
+          "caption": "Real interface with fictional data after manually reopening a closed conversation."
+        }
+      }
+    }
+  ],
+  "native_density": 4,
+  "desktop_viewport": [
+    1600,
+    1000
+  ],
+  "status": "accepted_for_local_integration",
+  "asset_directory": "images/editorial/inbox-actions-continuation-20261010",
+  "prior_asset_directory": "images/editorial/inbox-actions-20261010",
+  "publication": false
+}

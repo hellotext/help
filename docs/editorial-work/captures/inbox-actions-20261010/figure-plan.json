@@ -1,0 +1,80 @@
+{
+  "status": "assignment_menu_sources_accepted",
+  "asset_directory": "images/editorial/inbox-actions-20261010",
+  "expected_source_count": 4,
+  "required_layouts": [
+    "desktop",
+    "mobile"
+  ],
+  "required_locales": [
+    "es",
+    "en"
+  ],
+  "native_density": 4,
+  "desktop_viewport": [
+    1600,
+    1000
+  ],
+  "figures": [
+    {
+      "id": "assignment-menu",
+      "article_key": "team/assigning-conversations.md",
+      "locales": {
+        "es": {
+          "anchor": "4. Elige la persona que debería encargarse de la próxima acción.",
+          "label": "Elige a una persona desde Asignar",
+          "alt": "Menú Acciones del Inbox con Asignar abierto y opciones de integrantes para elegir.",
+          "caption": "Interfaz real con datos ficticios. El menú permite elegir a la persona que se encargará de la conversación."
+        },
+        "en": {
+          "anchor": "4. Choose the teammate who should own the next action.",
+          "label": "Choose a teammate from Assign",
+          "alt": "Inbox Actions menu with Assign open and teammate options to choose.",
+          "caption": "Real interface with fictional data. The menu lets you choose the teammate who will own the conversation."
+        }
+      }
+    }
+  ],
+  "requirements": [
+    "All four locale/layout sources per concept must be genuine and accepted before insertion.",
+    "No image references are inserted before the PNG files exist and pass metadata and pixel review.",
+    "An open menu certifies only the displayed choices; no completed action is claimed."
+  ],
+  "limits": [
+    "Initial assignment POST returned a CSRF error. A temporary private cookie option change was reverted before any explicit navigation, capture or repeated POST; background requests are not claimed to be zero. Native CSRF remains enabled. Restoration verified all 538 tables with the original 19 localized fields and timestamps intact. No shared configuration changed.",
+    "Assignment, saved reminder, closing and reopening results remain blocked and unillustrated.",
+    "Human assignment choices only; no self-claim, AI or batch outcome is certified.",
+    "Snooze choices only; no reminder saved, custom date or scheduled expiry is certified.",
+    "The manual reopening paragraph correction is source-verified, not a newly exercised result.",
+    "Desktop is full landscape context; menus can cover adjacent history/profile.",
+    "Native notification banner and expired WhatsApp window may remain visible.",
+    "Snooze has only ES desktop/mobile and EN mobile sources. EN desktop failed before capture; all Snooze sources remain outside Help and no lifecycle figure is inserted."
+  ],
+  "publication": false,
+  "deferred_result_ids": [
+    "assignment-result",
+    "snoozed-result",
+    "closed-result",
+    "reopened-result"
+  ],
+  "deferred_menu_specs": [
+    {
+      "id": "snooze-options",
+      "article_key": "team/conversation-lifecycle.md",
+      "locales": {
+        "es": {
+          "anchor": "Usa **Posponer** cuando la conversación no necesita acción ahora, pero debería volver más adelante. Hellotext ofrece tiempos comunes como una hora, cuatro horas, mañana o una fecha y hora personalizada.",
+          "label": "Elige cuándo volver a la conversación",
+          "alt": "Menú Posponer abierto en una conversación del Inbox, con las opciones de tiempo disponibles.",
+          "caption": "Interfaz real con datos ficticios. Opciones para posponer una conversación antes de confirmar el recordatorio."
+        },
+        "en": {
+          "anchor": "Use **Snooze** when the conversation does not need action now but should return later. Hellotext offers common reminder times such as one hour, four hours, tomorrow, or a custom date and time.",
+          "label": "Choose when to return to the conversation",
+          "alt": "Open Snooze menu in an Inbox conversation, showing the available time options.",
+          "caption": "Real interface with fictional data. Options for snoozing a conversation before confirming the reminder."
+        }
+      }
+    }
+  ]
+}

@@ -28,35 +28,7 @@ Si una regla de enrutamiento o Derivación ya mantiene la conversación para un 
 3. Selecciona **Asignar**.
 4. Elige la persona que debería encargarse de la próxima acción.
 
-<!-- inbox-actions:assignment-menu:start -->
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-inbox-figure="assignment-menu" aria-label="Elige a una persona desde Asignar">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 1618px; width: fit-content; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/editorial/inbox-actions-20261010/assignment-menu-es-mobile.png 4x" width="1560" height="4000" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-actions-20261010/assignment-menu-es-desktop.png" srcset="/images/editorial/inbox-actions-20261010/assignment-menu-es-desktop.png 4x" width="6400" height="4000" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Menú Acciones del Inbox con Asignar abierto y opciones de integrantes para elegir." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Interfaz real con datos ficticios. El menú permite elegir a la persona que se encargará de la conversación.</figcaption>
-</figure>
-<!-- inbox-actions:assignment-menu:end -->
-
 Usa los mismos pasos para reasignar una conversación que ya tiene responsable. Hellotext actualiza el avatar del encabezado y registra la asignación en el timeline de la conversación. La nueva persona asignada también puede recibir una notificación.
-
-<!-- inbox-actions:assignment-result:start -->
-<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-inbox-figure="assignment-result" aria-label="Comprueba el nuevo responsable">
-  <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 1618px; width: fit-content; margin: 0 auto;">
-      <picture>
-        <source media="(max-width: 600px)" srcset="/images/editorial/inbox-actions-continuation-20261010/assignment-result-es-mobile.png 4x" width="1560" height="4000" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-actions-continuation-20261010/assignment-result-es-desktop.png" srcset="/images/editorial/inbox-actions-continuation-20261010/assignment-result-es-desktop.png 4x" width="6400" height="4000" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Conversación del Inbox después de una asignación manual, con el responsable y el registro de asignación visibles." />
-      </picture>
-    </div>
-  </div>
-  <figcaption class="ht-editorial-visual__caption">Interfaz real con datos ficticios después de asignar la conversación a otra persona.</figcaption>
-</figure>
-<!-- inbox-actions:assignment-result:end -->
 
 Antes de reasignar, agrega una nota interna cuando el motivo o el próximo paso no estén claros en el timeline. La asignación transfiere la responsabilidad, pero no reemplaza el contexto necesario para continuar.
 
