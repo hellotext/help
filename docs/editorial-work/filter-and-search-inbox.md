@@ -1,5 +1,39 @@
 # Filter and search Inbox — 2026-10-07
 
+## Landscape desktop revision — 2026-10-10
+
+Status: locally validated; publication checks remain pending. Production build,
+security headers, PNG byte preservation and six responsive page checks passed.
+All 44 native review PNGs were inspected; see the
+[local QA receipt](captures/inbox-landscape-publication-20261010/local-qa.json). This revision starts at Help
+`26c500197b3bc10ea5898db7d41f9c336891f1dc` and replaces only the desktop
+sources of the Team and Labels figures in Spanish and English. Each new source
+captures the full native 1600 × 1000 CSS-pixel Inbox viewport as an unmodified
+6400 × 4000 Display P3 PNG at 4× density. The horizontal framing retains the
+conversation list, open chooser, conversation panel and customer profile.
+
+The four previous desktop assets remain at their original paths. Mobile
+sources, Search, article prose, headings, links, alternative text and captions
+remain byte-for-byte unchanged. The desktop image metadata and native-size
+frame cap are updated for the new sources; shared styles and rendering modules
+are unchanged. The [portable manifest](captures/inbox-landscape-publication-20261010/manifest.json)
+and [integration checks](captures/inbox-landscape-publication-20261010/integration-record.json)
+record exact hashes, dimensions, preserved originals and pending validation.
+
+These are open filter choosers, not assignment changes or executed search
+results. The native notification notice and any empty-composer focus ring
+remain visible. Open menus cover some conversation text; the surrounding panels
+provide context rather than a complete transcript. The captures crossed local
+midnight, so native Today/Yesterday labels differ without altered timestamps.
+Final article review passed: chooser labels remain identifiable at 698.406 CSS
+pixels on desktop, with the exact controls also named in the adjacent prose.
+The smaller transcript is contextual. Two desktop review tiles retain a known
+sticky-sidebar paint gap outside the article body; the article content is intact.
+
+The inventory remains `visual_pending`: a successful isolated search-result
+capture is still missing. The unresolved total remains 45. The earlier records
+below retain their original historical scope and do not certify this revision.
+
 ## Feedback revision — 2026-10-07
 
 Status: local correction validated; no new publication. Twelve replacement
