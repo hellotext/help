@@ -1,0 +1,2988 @@
+{
+  "schema": 1,
+  "reviewer": "integration_review",
+  "status": "passed",
+  "reviewed_at_utc": "2026-10-10T21:08:21.309870+00:00",
+  "scope": "Independent read-only visual, file-integrity and supplied-DOM geometry review of the complete Return & Exchange Helper Help article pair. This receipt is not application runtime or publication verification.",
+  "help_baseline": "85518c21cd4ec676c5566c4967b6bf6121812ce2",
+  "counts": {
+    "views": 6,
+    "personally_inspected_pngs": 102,
+    "spanish_pngs": 52,
+    "english_pngs": 50,
+    "figures_per_view": 7,
+    "unique_selected_article_assets": 26
+  },
+  "matrix": [
+    {
+      "locale": "es",
+      "width": 1440,
+      "tile_count": 15,
+      "run": "20261010T204629263934Z",
+      "header_to_footer": true,
+      "all_figures_and_adjacent_prose": true,
+      "status": "passed"
+    },
+    {
+      "locale": "es",
+      "width": 580,
+      "tile_count": 17,
+      "run": "20261010T204629263934Z",
+      "header_to_footer": true,
+      "all_figures_and_adjacent_prose": true,
+      "status": "passed"
+    },
+    {
+      "locale": "es",
+      "width": 390,
+      "tile_count": 20,
+      "run": "20261010T204629263934Z",
+      "header_to_footer": true,
+      "all_figures_and_adjacent_prose": true,
+      "status": "passed"
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "tile_count": 15,
+      "run": "20261010T205644192708Z-resume",
+      "header_to_footer": true,
+      "all_figures_and_adjacent_prose": true,
+      "status": "passed"
+    },
+    {
+      "locale": "en",
+      "width": 580,
+      "tile_count": 16,
+      "run": "20261010T205644192708Z-resume",
+      "header_to_footer": true,
+      "all_figures_and_adjacent_prose": true,
+      "status": "passed"
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "tile_count": 19,
+      "run": "20261010T205644192708Z-resume",
+      "header_to_footer": true,
+      "all_figures_and_adjacent_prose": true,
+      "status": "passed"
+    }
+  ],
+  "criteria": {
+    "readability_and_flow": "All native viewport tiles inspected individually in order, including header, full prose, seven figures, related links, feedback and footer. No unintended clipping, overlap, distortion, broken or blank images, browser chrome or loading artifacts.",
+    "figure_semantics": "The surrounding prose explicitly identifies independent Collector or Custom draft controls, empty upload and prompt examples, an unsaved Webchat preview and an existing Inbox response policy. It does not depict a saved Return playbook or an executed refund, handoff, delivery, policy retrieval or approval.",
+    "density_and_color": "Each new Help QA viewport is a native 4x Display P3 PNG. Selected retained article images remain byte-exact Display P3 sources with at least 2x physical pixels for rendered CSS dimensions; they are not claimed as new 4x app captures.",
+    "static_and_responsive": "Seven complete figures on every view; supplied DOM shows zero figure links/open controls, no horizontal overflow, no upscale, accessible figure descriptions and adjacent explanatory prose. Desktop and mobile source selection matched bytes.",
+    "coverage": "Overlapping native viewport clips cover document start to end, every figure and footer. Fractional footer bounds are checked using the documented maximum 1 CSS pixel tolerance; visible footer content is complete."
+  },
+  "capture_run_handling": {
+    "runs": [
+      "20261010T204629263934Z",
+      "20261010T205644192708Z-resume"
+    ],
+    "first_run_status": "Interrupted later by a browser interception error on another article; the three completed Return ES views were retained with their complete manifests.",
+    "resume_status": "The three Return EN views were captured in the resumed run under the same immutable contract.",
+    "excluded": "No incomplete or missing view is counted as passed; no unrelated failed capture is substituted."
+  },
+  "bindings": [
+    {
+      "path": "audit/journeys-completion-20261010/complete-review-contract.json",
+      "sha256": "cb18f3e687a4733f4054613c10610741709e5e0622e4833c332530dddd8d502e"
+    },
+    {
+      "path": "audit/journeys-completion-20261010/footer-rounding-fix.json",
+      "sha256": "860309945eadeda14f9a4914042359737ff168b0cea7134ee86df68de6926548"
+    },
+    {
+      "path": "audit/journeys-completion-20261010/final-v2-rendered-body-verification.json",
+      "sha256": "74b041e97419c9c51811712f186caf5d91e50c510e64b4a9470826eebf0cdc95"
+    },
+    {
+      "path": "audit/journeys-completion-20261010/completion-contract-review.json",
+      "sha256": "2c81e78d08cbbfb24ff2993e34f7fb716b618efa1b8c859645ecdfdab5832fa9"
+    },
+    {
+      "path": "audit/journeys-completion-20261010/completion-contract-current-source-binding.json",
+      "sha256": "3778cec6a3cc87a7cee04f1329584dfa36aea6879b5d6c553ba91188968ad8a9"
+    },
+    {
+      "path": "audit/journeys-completion-20261010/return-pixel-review-progress.json",
+      "sha256": "1236fab0d3c770818036395e9c06d9c03b40000abdd43a8d1491c241807bb1f2"
+    },
+    {
+      "path": "help-journeys-completion-local-20261010/_i18n/es/journeys/return-and-exchange-helper-playbook.md",
+      "sha256": "5bfcd065a6c01ec356a645a624d1afb0f4db8dd9513b2029148374a9172821e5"
+    },
+    {
+      "path": "help-journeys-completion-local-20261010/_i18n/en/journeys/return-and-exchange-helper-playbook.md",
+      "sha256": "afe51a0cb6e10ae1606cd5c2f93bc8f15d9aac729c5e28598eacd5d99adf2728"
+    }
+  ],
+  "views": [
+    {
+      "locale": "es",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "status": "passed_pixel_and_independent_bytes_geometry_review",
+      "manifest": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-1440-captures.json",
+      "manifest_sha256": "01ea87e03341d5567fce9b4173efb4e3a548f34e853b09f3eb48422a8f4d627a",
+      "measurement_sha256": "fd14daf79c10d039deac1d951be9b33d3357dffe89bf50bbcd640256685842b6",
+      "served_html_sha256": "6744275c8936a39436c2590963a854e7eede65bf39fc0f20f4aa2b805ff2875a",
+      "source_sha256": "5bfcd065a6c01ec356a645a624d1afb0f4db8dd9513b2029148374a9172821e5",
+      "tile_count": 15,
+      "blocked_external_requests": [
+        {
+          "method": "GET",
+          "destination": "https://www.googletagmanager.com/gtm.js"
+        }
+      ],
+      "coverage": {
+        "start": 0,
+        "end": 13543,
+        "document_height": 13543,
+        "footer_bottom": 13543.65625,
+        "footer_rounding_tolerance_css": 1,
+        "header_to_footer": true,
+        "all7_figures_and_adjacent_prose": true,
+        "continuous_overlap": true
+      },
+      "figures": [
+        {
+          "id": "figure-01",
+          "asset": "images/captures/property-collector/channels-es.png",
+          "sha256": "09a69bcc4d04170870d9e7123c84391069810694179dc20ac44248df0abc1571",
+          "source_pixels": [
+            1150,
+            1180
+          ],
+          "rendered_css": [
+            575,
+            590
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        },
+        {
+          "id": "figure-02",
+          "asset": "images/captures/property-collector/tone-es.png",
+          "sha256": "f97c2e66346680730e6c64708e701b95a3abf460ac099a1cb214d8baf22fdd8d",
+          "source_pixels": [
+            1150,
+            1030
+          ],
+          "rendered_css": [
+            575,
+            515
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        },
+        {
+          "id": "figure-03",
+          "asset": "images/journeys/how-to-customize-a-playbook-safely/upload-es.png",
+          "sha256": "0234f096438a251156c5b3d34a412eb1b918cf7055ecd8127992b2d19ce182db",
+          "source_pixels": [
+            1256,
+            732
+          ],
+          "rendered_css": [
+            628,
+            366
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        },
+        {
+          "id": "figure-04",
+          "asset": "images/journeys/how-to-customize-a-playbook-safely/prompt-es.png",
+          "sha256": "8eaf2061b629f46e8011029537ab69050d946517fd983b2574e38894edbc4d19",
+          "source_pixels": [
+            1256,
+            1108
+          ],
+          "rendered_css": [
+            628,
+            554
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        },
+        {
+          "id": "figure-05",
+          "asset": "images/captures/property-collector/handoff-es.png",
+          "sha256": "ef1c8abc4712dacc2effa83f6c968dd4a9453a5b1be059609a877a91e1693356",
+          "source_pixels": [
+            1150,
+            660
+          ],
+          "rendered_css": [
+            575,
+            330
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        },
+        {
+          "id": "figure-06",
+          "asset": "images/captures/webchat-widget/preview-follow-up/es/preview.png",
+          "sha256": "9ad90405a4d502c312d2abd2cdd2034911ab3d8b19aae970ffafbf106cb9fb12",
+          "source_pixels": [
+            808,
+            1380
+          ],
+          "rendered_css": [
+            404,
+            690
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        },
+        {
+          "id": "figure-07",
+          "asset": "images/team/understanding-response-times/default-es.png",
+          "sha256": "339b5749ee334a9d43c5ba547e6d41248962a12c3854fd211e2bd982f04081d0",
+          "source_pixels": [
+            972,
+            820
+          ],
+          "rendered_css": [
+            486,
+            410
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        }
+      ],
+      "files": [
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-1440-tile-001.png",
+          "sha256": "86c19bd4fc9eba9a1004675229f38ac22d609169be23fa587e652eed676877b7",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "document_clip": [
+            0,
+            0,
+            1440,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-1440-tile-002.png",
+          "sha256": "73af6a54531b370266a7a6091e4cc4516833e924f8be976edb17e28dd9480b05",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "document_clip": [
+            0,
+            900,
+            1440,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-1440-tile-003.png",
+          "sha256": "9817a2a563628468db623908bd08c4f3b456b88e6dcbd683c781a474bb791fff",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "document_clip": [
+            0,
+            1800,
+            1440,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-1440-tile-004.png",
+          "sha256": "8fc223e649d2db56993a02d7660a98168f5913b851dae2845d90a57082c13123",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "document_clip": [
+            0,
+            2700,
+            1440,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-1440-tile-005.png",
+          "sha256": "1e047af70636743ab5da40e6ed1fa99312a7c050a92ef40b20369b31f21a41a4",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "document_clip": [
+            0,
+            3600,
+            1440,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-01"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-1440-tile-006.png",
+          "sha256": "3adb72433abe3716020de688de871d6e3900ae1c27f2205c547868f557bb1c0c",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "document_clip": [
+            0,
+            4500,
+            1440,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-01",
+            "figure-02"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-1440-tile-007.png",
+          "sha256": "f24e52e83eee834613d75e9731a1883a4fbeac42858ee6ad677b8fc1db64921e",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "document_clip": [
+            0,
+            5400,
+            1440,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-02",
+            "figure-03"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-1440-tile-008.png",
+          "sha256": "fbc461dd7776244f84790c7fe404695f327fdce956d7c0bccbf80f5a87ed1bd5",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "document_clip": [
+            0,
+            6300,
+            1440,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-03",
+            "figure-04"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-1440-tile-009.png",
+          "sha256": "e369132ccfedc51494810f575417a134ca3473f8930ea0ded907afab2d80319a",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "document_clip": [
+            0,
+            7200,
+            1440,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-04"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-1440-tile-010.png",
+          "sha256": "a3807c1ebe932124785d46a14e83bb951e0c6a7dfbba48f7b21543cd2c8d67f8",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "document_clip": [
+            0,
+            8100,
+            1440,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-05"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-1440-tile-011.png",
+          "sha256": "969e288d9e9104d02771919ef361e8e603dff9e911adfced927ad2fdbe285ade",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "document_clip": [
+            0,
+            9000,
+            1440,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-05",
+            "figure-06"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-1440-tile-012.png",
+          "sha256": "f0ef51d084f5b47afea0702d97b274251fd8c23e20cdec57333c1e3ccd89c420",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "document_clip": [
+            0,
+            9900,
+            1440,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-06",
+            "figure-07"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-1440-tile-013.png",
+          "sha256": "a6246611c36bbaa34d21ddeee939b2547b9400a5969412682b7c5294347fc7be",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "document_clip": [
+            0,
+            10800,
+            1440,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-07"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-1440-tile-014.png",
+          "sha256": "4477199a8542c448548f128a1882c5f5b0eed75d8793ffb0dadd676e46c0c872",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "document_clip": [
+            0,
+            11700,
+            1440,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-1440-tile-015.png",
+          "sha256": "acb9f62ae51b53829c8c8ead5402a6dc533493bc1da9d05dad1e9a83a698fd0f",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "document_clip": [
+            0,
+            12543,
+            1440,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        }
+      ],
+      "issues": [],
+      "run": "20261010T204629263934Z"
+    },
+    {
+      "locale": "es",
+      "viewport": [
+        580,
+        1000
+      ],
+      "status": "passed_pixel_and_independent_bytes_geometry_review",
+      "manifest": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-580-captures.json",
+      "manifest_sha256": "ff38b517896aedb8872f8c927393b251bb59adfc9a6bdae9e1b0a7145da3ae9e",
+      "measurement_sha256": "e7c2238b84fdcf46af14e450a977b73a843804ac6fb5256b2952c039738cce75",
+      "served_html_sha256": "6744275c8936a39436c2590963a854e7eede65bf39fc0f20f4aa2b805ff2875a",
+      "source_sha256": "5bfcd065a6c01ec356a645a624d1afb0f4db8dd9513b2029148374a9172821e5",
+      "tile_count": 17,
+      "blocked_external_requests": [
+        {
+          "method": "GET",
+          "destination": "https://www.googletagmanager.com/gtm.js"
+        }
+      ],
+      "coverage": {
+        "start": 0,
+        "end": 15197,
+        "document_height": 15197,
+        "footer_bottom": 15197,
+        "footer_rounding_tolerance_css": 1,
+        "header_to_footer": true,
+        "all7_figures_and_adjacent_prose": true,
+        "continuous_overlap": true
+      },
+      "figures": [
+        {
+          "id": "figure-01",
+          "asset": "images/captures/property-collector/channels-es-mobile.png",
+          "sha256": "213da9d4c0fa8688e03ce9f368928e7df240b1d538670285a437c5935c0a24a3",
+          "source_pixels": [
+            780,
+            1520
+          ],
+          "rendered_css": [
+            390,
+            760
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        },
+        {
+          "id": "figure-02",
+          "asset": "images/captures/property-collector/tone-es-mobile.png",
+          "sha256": "bb6765e4ad6cfca6b321bf5ed74fd9c37e89be50045c6649cfbd640120decf62",
+          "source_pixels": [
+            780,
+            970
+          ],
+          "rendered_css": [
+            390,
+            485
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        },
+        {
+          "id": "figure-03",
+          "asset": "images/journeys/how-to-customize-a-playbook-safely/upload-es-mobile.png",
+          "sha256": "a621c5d4b43684ef799ae062ae426a13bf4dffac82787c36ae2e938ae22ba7e0",
+          "source_pixels": [
+            844,
+            804
+          ],
+          "rendered_css": [
+            422,
+            402
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        },
+        {
+          "id": "figure-04",
+          "asset": "images/journeys/how-to-customize-a-playbook-safely/prompt-es-mobile.png",
+          "sha256": "c99d3ae1c27595677f65b8db6de96a2e39e7d846ebec1116cfe31bd061b8a9c6",
+          "source_pixels": [
+            844,
+            956
+          ],
+          "rendered_css": [
+            422,
+            478
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        },
+        {
+          "id": "figure-05",
+          "asset": "images/captures/property-collector/handoff-es-mobile.png",
+          "sha256": "4f252e8b5d86ad772df8b7f979ae8d61de1970ff36f7110f5f1e0b1b5867b2cc",
+          "source_pixels": [
+            780,
+            680
+          ],
+          "rendered_css": [
+            390,
+            340
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        },
+        {
+          "id": "figure-06",
+          "asset": "images/captures/webchat-widget/preview-follow-up/es/preview.png",
+          "sha256": "9ad90405a4d502c312d2abd2cdd2034911ab3d8b19aae970ffafbf106cb9fb12",
+          "source_pixels": [
+            808,
+            1380
+          ],
+          "rendered_css": [
+            404,
+            690
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        },
+        {
+          "id": "figure-07",
+          "asset": "images/team/understanding-response-times/default-es-mobile.png",
+          "sha256": "6e75d88d34ec270d7c1c65e424da76fbd1c27bd54975feda0fda196fa167455e",
+          "source_pixels": [
+            824,
+            844
+          ],
+          "rendered_css": [
+            412,
+            422
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        }
+      ],
+      "files": [
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-580-tile-001.png",
+          "sha256": "b7103686fdf4d68048db9f3ddfa00af39bfc3fa8a6ffda1fc62f61b7e70d38cf",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "document_clip": [
+            0,
+            0,
+            580,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-580-tile-002.png",
+          "sha256": "8c31e3229326f39b49d1d3cf4e7af6c552d852e2b9ce223d0a65842e3a8602a1",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "document_clip": [
+            0,
+            900,
+            580,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-580-tile-003.png",
+          "sha256": "0f5e48ddf79ee65ef061de2ab41048e068912588cfbebbaa06f806d9077fa171",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "document_clip": [
+            0,
+            1800,
+            580,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-580-tile-004.png",
+          "sha256": "403ff2d8b67d93dfa67d65ffe50a70d4141a43fb4ec447ebef203229d28ea5ee",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "document_clip": [
+            0,
+            2700,
+            580,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-580-tile-005.png",
+          "sha256": "70965f07f022f1070e266f9c4fccee1c62d012b9f4011aa5fd04e36e523f2038",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "document_clip": [
+            0,
+            3600,
+            580,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-580-tile-006.png",
+          "sha256": "3c7b83c2f36d5495d8e1513490822773f45fe12995c61f047e960e0adf09fd3a",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "document_clip": [
+            0,
+            4500,
+            580,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-01"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-580-tile-007.png",
+          "sha256": "4b7464506314089f232fe8a73bb865cb6468da8e9fc023b6aa5cff6cb6c20bfe",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "document_clip": [
+            0,
+            5400,
+            580,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-01",
+            "figure-02"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-580-tile-008.png",
+          "sha256": "825096fd23cbaa436871a8ee5603d97dbaec3ec0cc604f025011377abac696aa",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "document_clip": [
+            0,
+            6300,
+            580,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-02",
+            "figure-03"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-580-tile-009.png",
+          "sha256": "2b3b6941144bd6c517bb4f3b44c416963c644965d0659f8cadd4940ca8e19a18",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "document_clip": [
+            0,
+            7200,
+            580,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-03",
+            "figure-04"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-580-tile-010.png",
+          "sha256": "755d20ca60c52b804961e5a633dfed3fcbf33e75eb5d94cdca3be735204b2f1b",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "document_clip": [
+            0,
+            8100,
+            580,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-04"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-580-tile-011.png",
+          "sha256": "7958e2c60af5c0823fbf737ed115433884980902ca99985b7bcefa739695a9d1",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "document_clip": [
+            0,
+            9000,
+            580,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-05"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-580-tile-012.png",
+          "sha256": "d1c00fbb45136756b0612377e98f30b3eb0b51ae32be1fa83cfc20260c7dbe87",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "document_clip": [
+            0,
+            9900,
+            580,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-05",
+            "figure-06"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-580-tile-013.png",
+          "sha256": "723a2867ca50b080cd88647054ec56498c5119f4ddb8545f17c5915ddf30d1ec",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "document_clip": [
+            0,
+            10800,
+            580,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-06"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-580-tile-014.png",
+          "sha256": "4e86a4012c8538650a950647cebc40401c94d7c4239003d8b0309155bf400e37",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "document_clip": [
+            0,
+            11700,
+            580,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-07"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-580-tile-015.png",
+          "sha256": "313ca1c6b08cf6a5c4c5f9b94233b31275894a7488446fda9afe40ef1aae74f3",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "document_clip": [
+            0,
+            12600,
+            580,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-580-tile-016.png",
+          "sha256": "c7a7e6a6b49eb00168c3871e6c45ff76317425f9fd59ed6fb3f62f08a80677f3",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "document_clip": [
+            0,
+            13500,
+            580,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-580-tile-017.png",
+          "sha256": "80a270010c52f2accf4ec11fb6ab8c279f0cfed81982705a530a03b36250bdb1",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "document_clip": [
+            0,
+            14197,
+            580,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        }
+      ],
+      "issues": [],
+      "run": "20261010T204629263934Z"
+    },
+    {
+      "locale": "es",
+      "viewport": [
+        390,
+        1000
+      ],
+      "status": "passed_pixel_and_independent_bytes_geometry_review",
+      "manifest": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-390-captures.json",
+      "manifest_sha256": "157d96c873b5622c605ddc88ca679689c033adfc482507b15acbae01ecdbf945",
+      "measurement_sha256": "9273245931916f67aeeb9649b703eff0412d43c9a6ae1e71bb2ab7bf10db2539",
+      "served_html_sha256": "6744275c8936a39436c2590963a854e7eede65bf39fc0f20f4aa2b805ff2875a",
+      "source_sha256": "5bfcd065a6c01ec356a645a624d1afb0f4db8dd9513b2029148374a9172821e5",
+      "tile_count": 20,
+      "blocked_external_requests": [
+        {
+          "method": "GET",
+          "destination": "https://www.googletagmanager.com/gtm.js"
+        }
+      ],
+      "coverage": {
+        "start": 0,
+        "end": 17734,
+        "document_height": 17734,
+        "footer_bottom": 17733.7734375,
+        "footer_rounding_tolerance_css": 1,
+        "header_to_footer": true,
+        "all7_figures_and_adjacent_prose": true,
+        "continuous_overlap": true
+      },
+      "figures": [
+        {
+          "id": "figure-01",
+          "asset": "images/captures/property-collector/channels-es-mobile.png",
+          "sha256": "213da9d4c0fa8688e03ce9f368928e7df240b1d538670285a437c5935c0a24a3",
+          "source_pixels": [
+            780,
+            1520
+          ],
+          "rendered_css": [
+            315.9921875,
+            615.7890625
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        },
+        {
+          "id": "figure-02",
+          "asset": "images/captures/property-collector/tone-es-mobile.png",
+          "sha256": "bb6765e4ad6cfca6b321bf5ed74fd9c37e89be50045c6649cfbd640120decf62",
+          "source_pixels": [
+            780,
+            970
+          ],
+          "rendered_css": [
+            315.9921875,
+            392.96875
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        },
+        {
+          "id": "figure-03",
+          "asset": "images/journeys/how-to-customize-a-playbook-safely/upload-es-mobile.png",
+          "sha256": "a621c5d4b43684ef799ae062ae426a13bf4dffac82787c36ae2e938ae22ba7e0",
+          "source_pixels": [
+            844,
+            804
+          ],
+          "rendered_css": [
+            315.9921875,
+            301.0234375
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        },
+        {
+          "id": "figure-04",
+          "asset": "images/journeys/how-to-customize-a-playbook-safely/prompt-es-mobile.png",
+          "sha256": "c99d3ae1c27595677f65b8db6de96a2e39e7d846ebec1116cfe31bd061b8a9c6",
+          "source_pixels": [
+            844,
+            956
+          ],
+          "rendered_css": [
+            315.9921875,
+            357.9296875
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        },
+        {
+          "id": "figure-05",
+          "asset": "images/captures/property-collector/handoff-es-mobile.png",
+          "sha256": "4f252e8b5d86ad772df8b7f979ae8d61de1970ff36f7110f5f1e0b1b5867b2cc",
+          "source_pixels": [
+            780,
+            680
+          ],
+          "rendered_css": [
+            315.9921875,
+            275.484375
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        },
+        {
+          "id": "figure-06",
+          "asset": "images/captures/webchat-widget/preview-follow-up/es/preview.png",
+          "sha256": "9ad90405a4d502c312d2abd2cdd2034911ab3d8b19aae970ffafbf106cb9fb12",
+          "source_pixels": [
+            808,
+            1380
+          ],
+          "rendered_css": [
+            315.9921875,
+            539.6953125
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        },
+        {
+          "id": "figure-07",
+          "asset": "images/team/understanding-response-times/default-es-mobile.png",
+          "sha256": "6e75d88d34ec270d7c1c65e424da76fbd1c27bd54975feda0fda196fa167455e",
+          "source_pixels": [
+            824,
+            844
+          ],
+          "rendered_css": [
+            315.9921875,
+            323.6640625
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        }
+      ],
+      "files": [
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-390-tile-001.png",
+          "sha256": "037cc6acb16ba48fb161990f4aa95bf0af6cbbd6a12784bf5450e3eb65efd620",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "document_clip": [
+            0,
+            0,
+            390,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-390-tile-002.png",
+          "sha256": "7b0de20dd7ef24ff74cd69720e10faaf24af90c0b02087e1d7ff5b8326dcd448",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "document_clip": [
+            0,
+            900,
+            390,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-390-tile-003.png",
+          "sha256": "58529bc5fd9b929c97932a0b43b2302fc4207a0cc880b79bd6794d80720a92ff",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "document_clip": [
+            0,
+            1800,
+            390,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-390-tile-004.png",
+          "sha256": "e53550ed829b4cc2cf984dd2f2e1b208e95dd342fca379dbfc8fe096a681b0d3",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "document_clip": [
+            0,
+            2700,
+            390,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-390-tile-005.png",
+          "sha256": "c9d4386a3714f78a5b5fda9510fe84c14970965f16c705075f731dc308e17d4b",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "document_clip": [
+            0,
+            3600,
+            390,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-390-tile-006.png",
+          "sha256": "b675c0b719979bb7ec99f8f7dc778c2bcaaf8e54103b25439e4dbf4c278b9869",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "document_clip": [
+            0,
+            4500,
+            390,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-390-tile-007.png",
+          "sha256": "377b33f65589f478c2d99124a7c9f3407bd18f54690f18bfe60c76de52b2478e",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "document_clip": [
+            0,
+            5400,
+            390,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-01"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-390-tile-008.png",
+          "sha256": "74dadad8151fb3548fa396a240886989e2eda5ae83fd91ab2889e6098ca3a466",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "document_clip": [
+            0,
+            6300,
+            390,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-01",
+            "figure-02"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-390-tile-009.png",
+          "sha256": "be1337a960976875c1546b8a43d3ced17ebf8c7c23b8e8277c61f36b1a8a61d2",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "document_clip": [
+            0,
+            7200,
+            390,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-02"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-390-tile-010.png",
+          "sha256": "e38054cec36a430d76e4de73d6b1ab8a7369967eb55366e11f06681e61000ac6",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "document_clip": [
+            0,
+            8100,
+            390,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-03"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-390-tile-011.png",
+          "sha256": "00cc4024dc72445cf8537d7d916874de0a288ac1cd01264e0ecc8495ee7a6f87",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "document_clip": [
+            0,
+            9000,
+            390,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-03",
+            "figure-04"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-390-tile-012.png",
+          "sha256": "2e109d2c3fdf04bc3c2bf8d3b7bf0afb3d616b687047092f544e9a7566f1e78b",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "document_clip": [
+            0,
+            9900,
+            390,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-04"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-390-tile-013.png",
+          "sha256": "828f9ce120b1a29b5bd914ada1d3cb5a5c37d9ff2597d498be0a4521f251b74d",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "document_clip": [
+            0,
+            10800,
+            390,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-390-tile-014.png",
+          "sha256": "fbf8f9f605f58607ddb4026d8179ace1c67cec77f4c3b6b4f9a2bb923b781d4e",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "document_clip": [
+            0,
+            11700,
+            390,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-05"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-390-tile-015.png",
+          "sha256": "aa478858a1082b534d48b21af5ce2e4f41ecbfe6e897e3c5d4b11e980cde38b4",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "document_clip": [
+            0,
+            12600,
+            390,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-06"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-390-tile-016.png",
+          "sha256": "f38f2d82784d8f35ecedf4c53ded04b21cde2ebf9959edbed3b642ff815dd7bd",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "document_clip": [
+            0,
+            13500,
+            390,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-07"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-390-tile-017.png",
+          "sha256": "f6075685bd2c7e7647e59bad1d664a6c53573d2ebacd3d0427f9b5dd918446de",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "document_clip": [
+            0,
+            14400,
+            390,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-390-tile-018.png",
+          "sha256": "183d56f512878d0ce4d295ad462fd8de2e32c54eb0a673f97b71766650ce4ebc",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "document_clip": [
+            0,
+            15300,
+            390,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-390-tile-019.png",
+          "sha256": "59e89d7534ac45493f079737ae5b57f9ba9cdfb9bc27faea811c4ae7960deaeb",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "document_clip": [
+            0,
+            16200,
+            390,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-390-tile-020.png",
+          "sha256": "b92046a182e68c6a29f6869b904abe05d9e75015a0db2359b1bd702682b0edca",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "document_clip": [
+            0,
+            16734,
+            390,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        }
+      ],
+      "issues": [],
+      "run": "20261010T204629263934Z"
+    },
+    {
+      "run": "20261010T205644192708Z-resume",
+      "locale": "en",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "status": "passed_pixel_and_independent_bytes_geometry_review",
+      "manifest": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-1440-captures.json",
+      "manifest_sha256": "97bb632d2d1c2c9f1ea5b645cadc8b9ebf25dcf493e7c8a86e2dc06eca93546d",
+      "measurement_sha256": "981f0621dc06c10faab56a7b30a637822b22ed272b6e418b774fbdef9c8d2ba7",
+      "served_html_sha256": "74ccdcc38faf79c761133bbeced82f310881a0c5e5bc74b910a68704d7a25f6a",
+      "source_sha256": "afe51a0cb6e10ae1606cd5c2f93bc8f15d9aac729c5e28598eacd5d99adf2728",
+      "tile_count": 15,
+      "blocked_external_requests": [
+        {
+          "method": "GET",
+          "destination": "https://www.googletagmanager.com/gtm.js"
+        }
+      ],
+      "coverage": {
+        "start": 0,
+        "end": 13137,
+        "document_height": 13137,
+        "footer_bottom": 13137.65625,
+        "footer_rounding_tolerance_css": 1,
+        "header_to_footer": true,
+        "all7_figures_and_adjacent_prose": true,
+        "continuous_overlap": true
+      },
+      "figures": [
+        {
+          "id": "figure-01",
+          "asset": "images/captures/property-collector/channels-en.png",
+          "sha256": "fed5b1e6710e0f6ad456ee06a4cae92680c2d85f1a78fef79dbe95d08a18222d",
+          "source_pixels": [
+            1150,
+            1180
+          ],
+          "rendered_css": [
+            575,
+            590
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        },
+        {
+          "id": "figure-02",
+          "asset": "images/captures/property-collector/tone-en.png",
+          "sha256": "b8c33b227fbb6fc79ab89a2eccc079f9a9b0c8a06cf21773005ad1ffcec1d053",
+          "source_pixels": [
+            1150,
+            1030
+          ],
+          "rendered_css": [
+            575,
+            515
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        },
+        {
+          "id": "figure-03",
+          "asset": "images/journeys/how-to-customize-a-playbook-safely/upload-en.png",
+          "sha256": "39dab76063709ddf8dcc36668aea7cade842a8a920822d00e2e7025359c01950",
+          "source_pixels": [
+            1256,
+            732
+          ],
+          "rendered_css": [
+            628,
+            366
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        },
+        {
+          "id": "figure-04",
+          "asset": "images/journeys/how-to-customize-a-playbook-safely/prompt-en.png",
+          "sha256": "64ea8b35decf0e03633f421de5efb4b6045be7c935aed6f4072fc8138b11d99e",
+          "source_pixels": [
+            1256,
+            1108
+          ],
+          "rendered_css": [
+            628,
+            554
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        },
+        {
+          "id": "figure-05",
+          "asset": "images/captures/property-collector/handoff-en.png",
+          "sha256": "0c5506ceed87f6ed0c9e57a4969d80cee2dc41f04ab25b04969917ab3f3bdfe9",
+          "source_pixels": [
+            1150,
+            660
+          ],
+          "rendered_css": [
+            575,
+            330
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        },
+        {
+          "id": "figure-06",
+          "asset": "images/captures/webchat-widget/preview-follow-up/en/preview.png",
+          "sha256": "9bc7e2dd9e3a3584edf7a4582b4b434a4a799a2c54382aa8a3771c3b45c73c51",
+          "source_pixels": [
+            808,
+            1380
+          ],
+          "rendered_css": [
+            404,
+            690
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        },
+        {
+          "id": "figure-07",
+          "asset": "images/team/understanding-response-times/default-en.png",
+          "sha256": "c377e27ca01cfa3614d3ca758985ec5a8b253d4bd3082d9b48cef4780a2cf6c3",
+          "source_pixels": [
+            972,
+            764
+          ],
+          "rendered_css": [
+            486,
+            382
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        }
+      ],
+      "files": [
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-1440-tile-001.png",
+          "sha256": "79f52a46052fcaf5055f4f0433edacfb1659ae01e855db61cfcdc9dde023b9da",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "document_clip": [
+            0,
+            0,
+            1440,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-1440-tile-002.png",
+          "sha256": "7a0f78c28a1ca7ec07b320934375604dac169e568bdb441ce6626d76d27d1677",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "document_clip": [
+            0,
+            900,
+            1440,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-1440-tile-003.png",
+          "sha256": "01ed0bf65e456ca44a0edf0c72030b2447083a85fd7fc95a939f50ef111188ff",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "document_clip": [
+            0,
+            1800,
+            1440,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-1440-tile-004.png",
+          "sha256": "e5194407ee4ec35ccc76e4f75c28816c1596380879893b3b2a6ade0b912a321e",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "document_clip": [
+            0,
+            2700,
+            1440,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-1440-tile-005.png",
+          "sha256": "f5eca4c4f7f8fc0e898a18d0b6c7f77b5da8c444178cb368e8e9491de68f4c44",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "document_clip": [
+            0,
+            3600,
+            1440,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-01"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-1440-tile-006.png",
+          "sha256": "ffb8b3619dadba4b88cd8b7948f41b807ad47c57f0507a45a3345dc49402bede",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "document_clip": [
+            0,
+            4500,
+            1440,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-01",
+            "figure-02"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-1440-tile-007.png",
+          "sha256": "f62dc3565cc0214d077a29f0629f6ea88b6a94404d2704d1d9f90eb4216e945b",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "document_clip": [
+            0,
+            5400,
+            1440,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-03"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-1440-tile-008.png",
+          "sha256": "407175f9dd0b29866c3fdbe5ccd23a49967f648ddf6a3874cc6ee74f5767d157",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "document_clip": [
+            0,
+            6300,
+            1440,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-03",
+            "figure-04"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-1440-tile-009.png",
+          "sha256": "2947514b4ebc3d15a3e915dcf5d25a6d705aa59d7d18a2e4f021ac49c7a1adf4",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "document_clip": [
+            0,
+            7200,
+            1440,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-04"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-1440-tile-010.png",
+          "sha256": "da95a33872e18ac4121bbc14e06fa3e87a734159fbeda950756116e6faaa9297",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "document_clip": [
+            0,
+            8100,
+            1440,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-05"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-1440-tile-011.png",
+          "sha256": "bcd92e7d2786f6253caf4e9dbddb45df5434ef9d9c9abeafdd8aedfcdc2b6a13",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "document_clip": [
+            0,
+            9000,
+            1440,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-06"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-1440-tile-012.png",
+          "sha256": "2c7c319c8199ec5e09ebb5bf693a67351a32fbf9820314a6380b46a35c749426",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "document_clip": [
+            0,
+            9900,
+            1440,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-06",
+            "figure-07"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-1440-tile-013.png",
+          "sha256": "440ba0f87e29a0c06683af50204e446b89ecd98be9c6c3498a268e3ddd6ec2ca",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "document_clip": [
+            0,
+            10800,
+            1440,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-1440-tile-014.png",
+          "sha256": "92771e46204a6293e117473369cfb3840c785410ae4ed4cb87d9971b15e0f850",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "document_clip": [
+            0,
+            11700,
+            1440,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-1440-tile-015.png",
+          "sha256": "a9ae9f4a782124c841958cfb942cf318bd76e5c6b777218fd31372635961e5aa",
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "document_clip": [
+            0,
+            12137,
+            1440,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "run": "20261010T205644192708Z-resume",
+      "locale": "en",
+      "viewport": [
+        580,
+        1000
+      ],
+      "status": "passed_pixel_and_independent_bytes_geometry_review",
+      "manifest": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-580-captures.json",
+      "manifest_sha256": "c22f82a10ae62bb4dd23465b471cbd629eee555287fb99db3afe5e7fc8554547",
+      "measurement_sha256": "3ab08d97cd09981503412992ad4e7dc629335b7cb10d84c988cb69055b168393",
+      "served_html_sha256": "74ccdcc38faf79c761133bbeced82f310881a0c5e5bc74b910a68704d7a25f6a",
+      "source_sha256": "afe51a0cb6e10ae1606cd5c2f93bc8f15d9aac729c5e28598eacd5d99adf2728",
+      "tile_count": 16,
+      "blocked_external_requests": [
+        {
+          "method": "GET",
+          "destination": "https://www.googletagmanager.com/gtm.js"
+        }
+      ],
+      "coverage": {
+        "start": 0,
+        "end": 14417,
+        "document_height": 14417,
+        "footer_bottom": 14417,
+        "footer_rounding_tolerance_css": 1,
+        "header_to_footer": true,
+        "all7_figures_and_adjacent_prose": true,
+        "continuous_overlap": true
+      },
+      "figures": [
+        {
+          "id": "figure-01",
+          "asset": "images/captures/property-collector/channels-en-mobile.png",
+          "sha256": "260918096cf05d4ac82990773682e76fa51ea9b3478ab6e6305d67cc8fcbaf0e",
+          "source_pixels": [
+            780,
+            1520
+          ],
+          "rendered_css": [
+            390,
+            760
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        },
+        {
+          "id": "figure-02",
+          "asset": "images/captures/property-collector/tone-en-mobile.png",
+          "sha256": "5b59a2acc71f53d84aa7bb1d7280af18a300e2fe34a7a0bf3058f52328f7a21f",
+          "source_pixels": [
+            780,
+            970
+          ],
+          "rendered_css": [
+            390,
+            485
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        },
+        {
+          "id": "figure-03",
+          "asset": "images/journeys/how-to-customize-a-playbook-safely/upload-en-mobile.png",
+          "sha256": "1ed6d37acc14e4902de468040fb58befa371aa4e4c3221b6f98124a71f97de92",
+          "source_pixels": [
+            844,
+            804
+          ],
+          "rendered_css": [
+            422,
+            402
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        },
+        {
+          "id": "figure-04",
+          "asset": "images/journeys/how-to-customize-a-playbook-safely/prompt-en-mobile.png",
+          "sha256": "168c62527edf6a1d4663857308cef0bec7540cfa54876c8178a3ecbd92503d9c",
+          "source_pixels": [
+            844,
+            956
+          ],
+          "rendered_css": [
+            422,
+            478
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        },
+        {
+          "id": "figure-05",
+          "asset": "images/captures/property-collector/handoff-en-mobile.png",
+          "sha256": "97bad463814d7ec88c224ea32ccf6500c65c8eed86a39ef83cd8fba79d2f3793",
+          "source_pixels": [
+            780,
+            680
+          ],
+          "rendered_css": [
+            390,
+            340
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        },
+        {
+          "id": "figure-06",
+          "asset": "images/captures/webchat-widget/preview-follow-up/en/preview.png",
+          "sha256": "9bc7e2dd9e3a3584edf7a4582b4b434a4a799a2c54382aa8a3771c3b45c73c51",
+          "source_pixels": [
+            808,
+            1380
+          ],
+          "rendered_css": [
+            404,
+            690
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        },
+        {
+          "id": "figure-07",
+          "asset": "images/team/understanding-response-times/default-en-mobile.png",
+          "sha256": "a41cb142e4f4b31a3de34b0ce7af740611fa3f9063e675b3ec4c0ceb194f1c8e",
+          "source_pixels": [
+            824,
+            804
+          ],
+          "rendered_css": [
+            412,
+            402
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        }
+      ],
+      "files": [
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-580-tile-001.png",
+          "sha256": "0dc5c4ab5f387a9fa8cca8f221a409e5b8091991f1768bb4e1957284bfe21021",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "document_clip": [
+            0,
+            0,
+            580,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-580-tile-002.png",
+          "sha256": "e0a435eabd957e1a210b78a5ffc145879cb58b49d4657b6a8268a72232db3e0b",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "document_clip": [
+            0,
+            900,
+            580,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-580-tile-003.png",
+          "sha256": "cd17f3c361dbcaab9a4b6d7a3e661d31e25c1bd9ae9cf5438460c5bbe8bfa8f4",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "document_clip": [
+            0,
+            1800,
+            580,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-580-tile-004.png",
+          "sha256": "7e60f3f1cb7630ce28ea842836ba17d80d3bf2171360e71ee0f7d97314ca75eb",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "document_clip": [
+            0,
+            2700,
+            580,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-580-tile-005.png",
+          "sha256": "a82e758b00e9d72de575e5e2edb1533ba80b12ddb32bf9504b1ba77bcf58d360",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "document_clip": [
+            0,
+            3600,
+            580,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-01"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-580-tile-006.png",
+          "sha256": "afaf6a4868d38bfd81b0f06d704fcc4d6965f6d4487393e490820c300eebddc0",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "document_clip": [
+            0,
+            4500,
+            580,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-01",
+            "figure-02"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-580-tile-007.png",
+          "sha256": "414b49eb88aeb8bbeeed3eaf344b21f8221f4936f4f5f3b6b0de12251159c985",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "document_clip": [
+            0,
+            5400,
+            580,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-02"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-580-tile-008.png",
+          "sha256": "981b20afd12e8feede66923da34fcec8cda9b9d6aeeb914767ba7681131007a4",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "document_clip": [
+            0,
+            6300,
+            580,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-03"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-580-tile-009.png",
+          "sha256": "759d7180b4b808abed2a008f04dde55949202ac8de8de1b83684fc6f4d28e4bd",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "document_clip": [
+            0,
+            7200,
+            580,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-03",
+            "figure-04"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-580-tile-010.png",
+          "sha256": "16302e878ea843b08be8c30f68947d04e3340b7de1c7605f4ca0e1b79742d7af",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "document_clip": [
+            0,
+            8100,
+            580,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-580-tile-011.png",
+          "sha256": "aa253e9a811e20137d0a1a3be75ce2cef1445be770c7e10ba203a62fd255722e",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "document_clip": [
+            0,
+            9000,
+            580,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-05"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-580-tile-012.png",
+          "sha256": "18a7f7fd1e9156d511ddf187d263685704e23c682d37e710ae3861b96339f5a3",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "document_clip": [
+            0,
+            9900,
+            580,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-06"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-580-tile-013.png",
+          "sha256": "39662d0e3f1de465b2f6723a01bc2c007327b7d017560f713e63030c5e79bec4",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "document_clip": [
+            0,
+            10800,
+            580,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-06",
+            "figure-07"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-580-tile-014.png",
+          "sha256": "8c9456b8d02b0d9d7a04b5c6a1a5b18d170f5a10cbd1c9e45d661ba30389528d",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "document_clip": [
+            0,
+            11700,
+            580,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-07"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-580-tile-015.png",
+          "sha256": "2a25f53296984f3da3267e466e507ec697d45537d162977e0c6eab953d3c0cc8",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "document_clip": [
+            0,
+            12600,
+            580,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-580-tile-016.png",
+          "sha256": "77a96e980edabaf473193c8316f1c8b8347933687e8b23a71bfd38be5d9ca17a",
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "document_clip": [
+            0,
+            13417,
+            580,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "run": "20261010T205644192708Z-resume",
+      "locale": "en",
+      "viewport": [
+        390,
+        1000
+      ],
+      "status": "passed_pixel_and_independent_bytes_geometry_review",
+      "manifest": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-390-captures.json",
+      "manifest_sha256": "0017361efbe74fe4f1d7c8ef0325d5d8a8f87a16eb4ee16e5dd2feab464637a6",
+      "measurement_sha256": "588bbf331d02fd179dad2690f9cc021449d024311cce8d468454566a7e45389f",
+      "served_html_sha256": "74ccdcc38faf79c761133bbeced82f310881a0c5e5bc74b910a68704d7a25f6a",
+      "source_sha256": "afe51a0cb6e10ae1606cd5c2f93bc8f15d9aac729c5e28598eacd5d99adf2728",
+      "tile_count": 19,
+      "blocked_external_requests": [
+        {
+          "method": "GET",
+          "destination": "https://www.googletagmanager.com/gtm.js"
+        }
+      ],
+      "coverage": {
+        "start": 0,
+        "end": 16579,
+        "document_height": 16579,
+        "footer_bottom": 16579.21875,
+        "footer_rounding_tolerance_css": 1,
+        "header_to_footer": true,
+        "all7_figures_and_adjacent_prose": true,
+        "continuous_overlap": true
+      },
+      "figures": [
+        {
+          "id": "figure-01",
+          "asset": "images/captures/property-collector/channels-en-mobile.png",
+          "sha256": "260918096cf05d4ac82990773682e76fa51ea9b3478ab6e6305d67cc8fcbaf0e",
+          "source_pixels": [
+            780,
+            1520
+          ],
+          "rendered_css": [
+            315.9921875,
+            615.7890625
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        },
+        {
+          "id": "figure-02",
+          "asset": "images/captures/property-collector/tone-en-mobile.png",
+          "sha256": "5b59a2acc71f53d84aa7bb1d7280af18a300e2fe34a7a0bf3058f52328f7a21f",
+          "source_pixels": [
+            780,
+            970
+          ],
+          "rendered_css": [
+            315.9921875,
+            392.96875
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        },
+        {
+          "id": "figure-03",
+          "asset": "images/journeys/how-to-customize-a-playbook-safely/upload-en-mobile.png",
+          "sha256": "1ed6d37acc14e4902de468040fb58befa371aa4e4c3221b6f98124a71f97de92",
+          "source_pixels": [
+            844,
+            804
+          ],
+          "rendered_css": [
+            315.9921875,
+            301.0234375
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        },
+        {
+          "id": "figure-04",
+          "asset": "images/journeys/how-to-customize-a-playbook-safely/prompt-en-mobile.png",
+          "sha256": "168c62527edf6a1d4663857308cef0bec7540cfa54876c8178a3ecbd92503d9c",
+          "source_pixels": [
+            844,
+            956
+          ],
+          "rendered_css": [
+            315.9921875,
+            357.9296875
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        },
+        {
+          "id": "figure-05",
+          "asset": "images/captures/property-collector/handoff-en-mobile.png",
+          "sha256": "97bad463814d7ec88c224ea32ccf6500c65c8eed86a39ef83cd8fba79d2f3793",
+          "source_pixels": [
+            780,
+            680
+          ],
+          "rendered_css": [
+            315.9921875,
+            275.484375
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        },
+        {
+          "id": "figure-06",
+          "asset": "images/captures/webchat-widget/preview-follow-up/en/preview.png",
+          "sha256": "9bc7e2dd9e3a3584edf7a4582b4b434a4a799a2c54382aa8a3771c3b45c73c51",
+          "source_pixels": [
+            808,
+            1380
+          ],
+          "rendered_css": [
+            315.9921875,
+            539.6953125
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        },
+        {
+          "id": "figure-07",
+          "asset": "images/team/understanding-response-times/default-en-mobile.png",
+          "sha256": "a41cb142e4f4b31a3de34b0ce7af740611fa3f9063e675b3ec4c0ceb194f1c8e",
+          "source_pixels": [
+            824,
+            804
+          ],
+          "rendered_css": [
+            315.9921875,
+            308.328125
+          ],
+          "static_links_and_open_controls": 0,
+          "native_density_at_least2": true,
+          "caption_accessible_and_adjacent_prose_present": true
+        }
+      ],
+      "files": [
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-390-tile-001.png",
+          "sha256": "d4c3158a21fe047f22fdaeba996fe9299f07d03af206526d08bbcc6729104928",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "document_clip": [
+            0,
+            0,
+            390,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-390-tile-002.png",
+          "sha256": "344efbc468922fb7b3c36cb57896245602d6e129b4fc183bff4dac7bd8e21536",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "document_clip": [
+            0,
+            900,
+            390,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-390-tile-003.png",
+          "sha256": "4feb85c28141056a0b1f31a5f1c4cd5ac88613eda14dbe7c7455a558600ad7d5",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "document_clip": [
+            0,
+            1800,
+            390,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-390-tile-004.png",
+          "sha256": "e955eaede21d784beac4722dc56e3b310837fbfdad72fbcbea5bbdde88928906",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "document_clip": [
+            0,
+            2700,
+            390,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-390-tile-005.png",
+          "sha256": "b504608223830a1b44dcae19f3259ca36b55e52155e3cdf8dae2b9d74346e572",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "document_clip": [
+            0,
+            3600,
+            390,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-390-tile-006.png",
+          "sha256": "15e5c79313b33e3c0f3757f38719c6dfeaec61a82fad64f0b636f550966a1e48",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "document_clip": [
+            0,
+            4500,
+            390,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-390-tile-007.png",
+          "sha256": "0873f965c8272752742261250c73aaeab8c6e2af9264b56daeeacf4c5e3d77b6",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "document_clip": [
+            0,
+            5400,
+            390,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-01"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-390-tile-008.png",
+          "sha256": "88565ccb814727b6bdb7af06a5df0ec90451b2569d3ffe3808d982a2f2f8ae7e",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "document_clip": [
+            0,
+            6300,
+            390,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-01",
+            "figure-02"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-390-tile-009.png",
+          "sha256": "140633aa028631e972480942022bc2cd79752afc3b4c4c89bf745b26874dde8b",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "document_clip": [
+            0,
+            7200,
+            390,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-03"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-390-tile-010.png",
+          "sha256": "a0c2e9c7b3ce41039efc47ff005fc415a55818d0e1f58322df5112536514c80b",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "document_clip": [
+            0,
+            8100,
+            390,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-03",
+            "figure-04"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-390-tile-011.png",
+          "sha256": "1584234441b5ca616adb79a6ddfe871ca676d2bef7f2b0242e2a6abee293d7c9",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "document_clip": [
+            0,
+            9000,
+            390,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-04"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-390-tile-012.png",
+          "sha256": "8cd39c5f2d6311bed92778b86b0a8241b54f86667073169b9f48abe16df636a4",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "document_clip": [
+            0,
+            9900,
+            390,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-390-tile-013.png",
+          "sha256": "df064316c927b03782ec281a953ece3f221be96ac70e7b47161d77846b1ee13d",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "document_clip": [
+            0,
+            10800,
+            390,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-05",
+            "figure-06"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-390-tile-014.png",
+          "sha256": "3b51677ee541b54e417c13a04bd0a35c26ba2b326e1cd5ab87e8ca364352bb98",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "document_clip": [
+            0,
+            11700,
+            390,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-06"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-390-tile-015.png",
+          "sha256": "e915d1301e0125ddd51d64d6575d724b57e5faa736cf54739b54ce29402bc5ff",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "document_clip": [
+            0,
+            12600,
+            390,
+            1000
+          ],
+          "figures_overlapping_viewport": [
+            "figure-07"
+          ],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-390-tile-016.png",
+          "sha256": "2c0c95374e5cd7d7873da3ef672479ad120ff5e167882e6fea3cb2d7b6966df0",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "document_clip": [
+            0,
+            13500,
+            390,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-390-tile-017.png",
+          "sha256": "9db34b249efcd2978d10ea5a647639fc6383c4b4d06f5f7cbe15899675234b14",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "document_clip": [
+            0,
+            14400,
+            390,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-390-tile-018.png",
+          "sha256": "07bb0d7d1605f1275a48414fb4b157be39b10706d12f76e2aba9bf666356e77c",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "document_clip": [
+            0,
+            15300,
+            390,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        },
+        {
+          "path": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-390-tile-019.png",
+          "sha256": "adc965219eeaefa071d6f1890df2f1769be5ed77d1663799636f7e83799b9070",
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "document_clip": [
+            0,
+            15579,
+            390,
+            1000
+          ],
+          "figures_overlapping_viewport": [],
+          "personally_inspected_with_view_image": true,
+          "status": "passed",
+          "observations": "Readable text and depicted controls; no unintended horizontal clipping, overlap, distortion, blank capture, browser chrome or loading artifact. Tile-edge cuts continue in the adjacent overlapping native viewport."
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "issues": [],
+  "remaining_pixel_blockers": [],
+  "limits": [
+    "Review is limited to the rendered Help article pair and supplied bytes/measurements. No application runtime, persistent save, enablement, message sending, external delivery, refunds, account permissions or production behavior was tested.",
+    "The Webchat picture is a retained independent editor preview, including in mobile Help layout; it does not establish current mobile application Webchat behavior.",
+    "Source semantics and historical screenshot provenance are recorded separately; this pixel receipt does not convert illustrative shared controls into evidence of Return-specific execution.",
+    "The full local_verified decision and durable-package review remain with the parent after all article, source, inventory and peer review gates."
+  ],
+  "reviewer_operations": {
+    "browser_sessions": 0,
+    "app_or_database_operations": 0,
+    "network_requests": 0,
+    "help_edits": 0,
+    "external_writes": 0,
+    "only_review_receipts_written": true
+  }
+}

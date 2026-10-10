@@ -18,7 +18,7 @@ Puede:
 - Solicitar derivación al compañero o equipo configurado cuando el cliente necesita ayuda humana, sujeta a la recepción, asignación y capacidad disponibles.
 - Trabajar junto a otras misiones activas, siempre que cada una tenga un trabajo claro.
 
-Agente Personalizado funciona mejor cuando cada agente tiene una misión acotada. Un buen agente personalizado no es "responder cualquier cosa". Es más cercano a "responder preguntas de garantía para esta línea de productos", "calificar pedidos mayoristas", "ayudar a elegir una rutina de skincare" o "manejar preguntas sobre retiro en tienda".
+Agente Personalizado funciona mejor cuando cada agente tiene una misión acotada. Un buen agente personalizado no es "responder cualquier cosa". Es más cercano a "responder preguntas de garantía para esta línea de productos", "explicar requisitos documentados de compra mayorista", "explicar instrucciones de cuidado de una línea de productos" o "manejar preguntas sobre retiro en tienda".
 
 ## Cuándo usarlo
 
@@ -30,7 +30,7 @@ Encaja bien cuando:
 - Necesitas varios agentes que se activen por distintas intenciones del cliente.
 - El agente necesita instrucciones propias de tu negocio.
 - La respuesta depende de políticas cargadas, notas de producto, guías de talle, reglas de garantía, información de tiendas o sitios web aprobados.
-- El agente debería responder primero y derivar solo cuando el caso es sensible, no resuelto o está fuera de alcance.
+- El agente debería responder con información autorizada y solicitar derivación cuando el cliente pide una persona o la gestión queda fuera de su alcance.
 - Una ruta sería demasiado rígida porque el cliente puede pedir lo mismo de muchas formas.
 
 ## Cuándo no usarlo
@@ -136,9 +136,9 @@ El borrador ficticio de **Intenciones** muestra «Quiero consultar una devoluci�
 
 Buenas intenciones son específicas:
 
-- "El cliente quiere saber si un producto está cubierto por garantía."
-- "El cliente quiere ayuda para elegir un regalo para un niño."
-- "El cliente pregunta si hoy hay retiro en tienda."
+- "El cliente quiere conocer las condiciones documentadas de garantía de un producto."
+- "El cliente pregunta cómo cuidar un producto según sus instrucciones aprobadas."
+- "El cliente quiere conocer los requisitos documentados para retirar una compra en tienda."
 
 Intenciones débiles son demasiado amplias:
 
@@ -151,7 +151,7 @@ Si dos agentes personalizados tienen intenciones parecidas, los clientes pueden 
 
 ## Escribe el prompt del agente
 
-El prompt le dice al agente cómo hacer el trabajo cuando es seleccionado. Agente Personalizado necesita instrucciones guardadas no vacías. El prompt no agrega herramientas, permisos, integraciones, consentimiento ni capacidad para modificar datos por sí solo.
+El prompt le dice al agente cómo hacer el trabajo cuando es seleccionado. Agente Personalizado necesita instrucciones guardadas no vacías. El prompt no agrega herramientas, permisos, integraciones, consentimiento ni capacidad para modificar datos por sí solo. Tampoco habilita recomendaciones de productos ni seguimiento en vivo de pedidos: esas tareas corresponden a las misiones especializadas.
 
 La figura muestra **Prompt** vacío en un borrador ficticio de Agente Personalizado. El texto gris es un placeholder, no instrucciones guardadas ni una respuesta del agente.
 
@@ -250,13 +250,12 @@ La figura muestra el control compartido **Derivación** en un borrador ficticio 
 
 Casos comunes de derivación incluyen:
 
-- El cliente pide hablar con una persona.
-- El cliente está enojado, frustrado o insatisfecho.
-- El cliente reporta un producto defectuoso, dañado, incorrecto o faltante.
-- El pedido está fuera de la misión del agente.
-- El agente no puede verificar la respuesta con el conocimiento o datos disponibles.
-- El cliente pide un reembolso, cancelación, excepción, cambio de cuenta, detalle de pago o acción de venta humana.
-- Ninguna misión activa puede resolver el pedido de forma segura.
+- El cliente pide explícitamente hablar con una persona.
+- El cliente solicita una gestión fuera del alcance de la misión o no autorizada por sus instrucciones y herramientas.
+- El cliente pide gestionar un producto defectuoso, dañado, incorrecto o faltante, o ejecutar un reembolso, cancelación, excepción, cambio de cuenta o acción de venta humana que el agente no puede realizar.
+- Una consulta dentro de alcance sigue sin solución después de al menos dos intentos reales con herramientas, la necesidad supera claramente las herramientas o la información verificada disponibles y no se puede avanzar reintentando, con otra acción disponible, con contexto verificado o con una aclaración útil.
+
+La frustración, una búsqueda fallida o un error aislado de herramienta no bastan para derivar. Una pregunta informativa sobre una política puede responderse con información autorizada; no equivale a pedir que se ejecute una operación. Si la solicitud es ambigua y podría estar dentro de alcance, el agente debe pedir una aclaración antes de decidir.
 
 Para el modelo de derivación, usa [Derivación de IA al Inbox]({% link _team/ai-handoff-to-inbox.md %}).
 
@@ -269,10 +268,10 @@ Para comprobar el comportamiento real, acuerda un entorno de prueba aislado, per
 - Un mensaje que debería activar el agente personalizado.
 - Un mensaje parecido que debería activar otra misión.
 - Un mensaje que no debería activar ningún agente personalizado.
-- Un mensaje ambiguo que debería pedir una aclaración o derivar.
+- Un mensaje ambiguo que debería pedir una aclaración antes de decidir si está fuera de alcance.
 - Un mensaje que requiere conocimiento cargado.
 - Un mensaje donde el conocimiento cargado falta o no es claro.
-- Un mensaje que debería derivarse porque el cliente está molesto, reporta un producto defectuoso o pide una decisión humana.
+- Una solicitud explícita de atención humana o de una operación fuera de alcance; compárala con una queja o pregunta de política que el agente puede atender sin derivar.
 - Un mensaje en cada canal de entrada que planeas usar.
 - Un caso que necesita búsqueda web o una herramienta integrada realmente disponible, junto con otro donde no puede obtener una fuente suficiente.
 

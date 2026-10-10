@@ -1,0 +1,695 @@
+{
+  "status": "passed_local_source_build_geometry_and_saved_pixel_review",
+  "recorded_at": "2026-10-10T21:19:44.024057+00:00",
+  "help_base": "85518c21cd4ec676c5566c4967b6bf6121812ce2",
+  "app_detailed_review_revision": "4eece183a68b1bf3d480ff403e0f39eca4be507d",
+  "app_scoped_continuity_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+  "build": {
+    "command": "yarn build",
+    "jekyll_seconds": 8.999,
+    "exit_code": 0,
+    "security_headers": "passed",
+    "log_sha256": "20dea2f469e5a62aad04d9329a5d31f88214769e6e0a8659e24d1e66334c81f8"
+  },
+  "source_contract_sha256": "cb18f3e687a4733f4054613c10610741709e5e0622e4833c332530dddd8d502e",
+  "source_build_inputs_unchanged": true,
+  "complete_page_views": 18,
+  "focused_followup_views": 6,
+  "standard_review_pngs": 327,
+  "mobile_table_supplement_pngs": 4,
+  "total_explicitly_reviewed_pngs": 331,
+  "review_density": 4,
+  "review_icc": "Display P3",
+  "retained_unique_article_pngs": 34,
+  "retained_article_density": 2,
+  "new_article_pngs": 0,
+  "receipt_bindings": [
+    {
+      "file": "instant-pixel-review.json",
+      "sha256": "326a6033aa64dc248a3e3d5f15d2c9e5fb14a576863fba6663576ca587f211c4",
+      "status": "passed_saved_pixel_review_all_six_views"
+    },
+    {
+      "file": "return-pixel-review.json",
+      "sha256": "eb9b08e538b5b37cf6bf113e2085077385e7abff6d1c2418c5f1027599310f97",
+      "status": "passed"
+    },
+    {
+      "file": "custom-pixel-review.json",
+      "sha256": "0335c0c1a547405e7a5414664bfaa529dcdb40f464e8710998744a28a229ad8f",
+      "status": "passed_complete_saved_pixel_review"
+    },
+    {
+      "file": "followup-pixel-review.json",
+      "sha256": "3bcc68dd6f9893f2a59d91a4e5fb469419d4f1c24a0c9b40c67a649e3471fe47",
+      "status": "passed_focused_saved_pixels_and_native_mobile_table_scroll"
+    }
+  ],
+  "summary": {
+    "file": "audit/journeys-completion-20261010/complete-page-review/20261010T211043923345Z-finish/summary.json",
+    "sha256": "a1a77dea965fc212c54d636c413e72337503d65ea7414e4f4554e0e4b8939680"
+  },
+  "views": [
+    {
+      "locale": "es",
+      "article": "instant-answers-playbook",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "coverage": {
+        "scope": "full",
+        "start": 0,
+        "end": 12673,
+        "requested_end": 12673,
+        "document_height": 12673,
+        "header_to_footer": true
+      },
+      "measurement": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-1440.json",
+        "sha256": "318cb009aaaca09da4a6386fe4185a0585adcb275812763803c3af9c6e4d9eb1"
+      },
+      "capture_manifest": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-1440-captures.json",
+        "sha256": "9a16928c141c63a1978efda2748a272a179586632c41114a402c91d73019c558"
+      },
+      "png_count": 14,
+      "all_saved_pixels_reviewed": true
+    },
+    {
+      "locale": "es",
+      "article": "instant-answers-playbook",
+      "viewport": [
+        580,
+        1000
+      ],
+      "coverage": {
+        "scope": "full",
+        "start": 0,
+        "end": 14323,
+        "requested_end": 14323,
+        "document_height": 14323,
+        "header_to_footer": true
+      },
+      "measurement": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-580.json",
+        "sha256": "3f2ba5da78fd7eec78310d75a11f60407238b34bf9ca7f5a961e6de3d2aa5c0d"
+      },
+      "capture_manifest": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-580-captures.json",
+        "sha256": "ac6f1e64ed84aa57f307c828197dfab050ef17be795f2baeaa38443497754bb5"
+      },
+      "png_count": 16,
+      "all_saved_pixels_reviewed": true
+    },
+    {
+      "locale": "es",
+      "article": "instant-answers-playbook",
+      "viewport": [
+        390,
+        1000
+      ],
+      "coverage": {
+        "scope": "full",
+        "start": 0,
+        "end": 16950,
+        "requested_end": 16950,
+        "document_height": 16950,
+        "header_to_footer": true
+      },
+      "measurement": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-390.json",
+        "sha256": "e45a7518c3f1f241e7eca8beb16fae72a094d6666ceece96028a97d52d602041"
+      },
+      "capture_manifest": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-390-captures.json",
+        "sha256": "7f18cf78f2f93685afd121439815a618cbcca04b8e6e23b16c05f6f08daad1af"
+      },
+      "png_count": 19,
+      "all_saved_pixels_reviewed": true
+    },
+    {
+      "locale": "es",
+      "article": "return-and-exchange-helper-playbook",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "coverage": {
+        "scope": "full",
+        "start": 0,
+        "end": 13543,
+        "requested_end": 13543,
+        "document_height": 13543,
+        "header_to_footer": true
+      },
+      "measurement": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-1440.json",
+        "sha256": "fd14daf79c10d039deac1d951be9b33d3357dffe89bf50bbcd640256685842b6"
+      },
+      "capture_manifest": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-1440-captures.json",
+        "sha256": "01ea87e03341d5567fce9b4173efb4e3a548f34e853b09f3eb48422a8f4d627a"
+      },
+      "png_count": 15,
+      "all_saved_pixels_reviewed": true
+    },
+    {
+      "locale": "es",
+      "article": "return-and-exchange-helper-playbook",
+      "viewport": [
+        580,
+        1000
+      ],
+      "coverage": {
+        "scope": "full",
+        "start": 0,
+        "end": 15197,
+        "requested_end": 15197,
+        "document_height": 15197,
+        "header_to_footer": true
+      },
+      "measurement": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-580.json",
+        "sha256": "e7c2238b84fdcf46af14e450a977b73a843804ac6fb5256b2952c039738cce75"
+      },
+      "capture_manifest": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-580-captures.json",
+        "sha256": "ff38b517896aedb8872f8c927393b251bb59adfc9a6bdae9e1b0a7145da3ae9e"
+      },
+      "png_count": 17,
+      "all_saved_pixels_reviewed": true
+    },
+    {
+      "locale": "es",
+      "article": "return-and-exchange-helper-playbook",
+      "viewport": [
+        390,
+        1000
+      ],
+      "coverage": {
+        "scope": "full",
+        "start": 0,
+        "end": 17734,
+        "requested_end": 17734,
+        "document_height": 17734,
+        "header_to_footer": true
+      },
+      "measurement": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-390.json",
+        "sha256": "9273245931916f67aeeb9649b703eff0412d43c9a6ae1e71bb2ab7bf10db2539"
+      },
+      "capture_manifest": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-return-and-exchange-helper-playbook-390-captures.json",
+        "sha256": "157d96c873b5622c605ddc88ca679689c033adfc482507b15acbae01ecdbf945"
+      },
+      "png_count": 20,
+      "all_saved_pixels_reviewed": true
+    },
+    {
+      "locale": "es",
+      "article": "custom-agent-playbook",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "coverage": {
+        "scope": "full",
+        "start": 0,
+        "end": 13513,
+        "requested_end": 13513,
+        "document_height": 13513,
+        "header_to_footer": true
+      },
+      "measurement": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-custom-agent-playbook-1440.json",
+        "sha256": "6cb2f9872dcbd570808024bdd75f79417b5052039f96a6cccb5d69e7f3b5b6ba"
+      },
+      "capture_manifest": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-custom-agent-playbook-1440-captures.json",
+        "sha256": "8c617526c8c5217b1f8a197a52266c910770090ff53d3cfc5229287894e87b2b"
+      },
+      "png_count": 15,
+      "all_saved_pixels_reviewed": true
+    },
+    {
+      "locale": "es",
+      "article": "custom-agent-playbook",
+      "viewport": [
+        580,
+        1000
+      ],
+      "coverage": {
+        "scope": "full",
+        "start": 0,
+        "end": 15297,
+        "requested_end": 15297,
+        "document_height": 15297,
+        "header_to_footer": true
+      },
+      "measurement": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-580.json",
+        "sha256": "99eab5eb118bc8b90b94e707340dd68b6051923484dc0533ce24f11e83eea62a"
+      },
+      "capture_manifest": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-580-captures.json",
+        "sha256": "113403cb1a4f414617d55aa906e1bc700d99f686b80d81a5533acc1261ce5c38"
+      },
+      "png_count": 17,
+      "all_saved_pixels_reviewed": true
+    },
+    {
+      "locale": "es",
+      "article": "custom-agent-playbook",
+      "viewport": [
+        390,
+        1000
+      ],
+      "coverage": {
+        "scope": "full",
+        "start": 0,
+        "end": 18272,
+        "requested_end": 18272,
+        "document_height": 18272,
+        "header_to_footer": true
+      },
+      "measurement": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-390.json",
+        "sha256": "b4cda2240ec8c0d22769c6e54268a492b2aac2b762fa2023840181f2c40ba641"
+      },
+      "capture_manifest": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-custom-agent-playbook-390-captures.json",
+        "sha256": "016468731377f3830866e9a76f537e47498c0142dd39130830ee51d1f11ef7bf"
+      },
+      "png_count": 21,
+      "all_saved_pixels_reviewed": true
+    },
+    {
+      "locale": "en",
+      "article": "instant-answers-playbook",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "coverage": {
+        "scope": "full",
+        "start": 0,
+        "end": 12357,
+        "requested_end": 12357,
+        "document_height": 12357,
+        "header_to_footer": true
+      },
+      "measurement": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-1440.json",
+        "sha256": "00ab5383a31889f78c30a9fe971e8fe7d8974a896be0d67c9954cc64d0399c6a"
+      },
+      "capture_manifest": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-1440-captures.json",
+        "sha256": "0f8b0b669030c90ce28c9067074bfed62ede642991799e39452d70faf3f11f9c"
+      },
+      "png_count": 14,
+      "all_saved_pixels_reviewed": true
+    },
+    {
+      "locale": "en",
+      "article": "instant-answers-playbook",
+      "viewport": [
+        580,
+        1000
+      ],
+      "coverage": {
+        "scope": "full",
+        "start": 0,
+        "end": 13683,
+        "requested_end": 13683,
+        "document_height": 13683,
+        "header_to_footer": true
+      },
+      "measurement": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-580.json",
+        "sha256": "b6b62b2ddccdafc7980cc50ab2b02cc2efc43eac2a6efc28942d0a5aba1766bd"
+      },
+      "capture_manifest": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-580-captures.json",
+        "sha256": "c1631501ba665fdccd1a5c9bbc02c8a5f4ec9b91ec4cf312ea15ce8364529eb8"
+      },
+      "png_count": 16,
+      "all_saved_pixels_reviewed": true
+    },
+    {
+      "locale": "en",
+      "article": "instant-answers-playbook",
+      "viewport": [
+        390,
+        1000
+      ],
+      "coverage": {
+        "scope": "full",
+        "start": 0,
+        "end": 15885,
+        "requested_end": 15885,
+        "document_height": 15885,
+        "header_to_footer": true
+      },
+      "measurement": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-390.json",
+        "sha256": "30c0c849ac0ea6a64c58b1b00ac8e1d656fb25441d12926f2426dc0ed25ec02b"
+      },
+      "capture_manifest": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-390-captures.json",
+        "sha256": "12efd8df48cd4a2767182bdf37b896bdb1c25b1a64301a7512935739a15e445a"
+      },
+      "png_count": 18,
+      "all_saved_pixels_reviewed": true
+    },
+    {
+      "locale": "en",
+      "article": "return-and-exchange-helper-playbook",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "coverage": {
+        "scope": "full",
+        "start": 0,
+        "end": 13137,
+        "requested_end": 13137,
+        "document_height": 13137,
+        "header_to_footer": true
+      },
+      "measurement": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-1440.json",
+        "sha256": "981f0621dc06c10faab56a7b30a637822b22ed272b6e418b774fbdef9c8d2ba7"
+      },
+      "capture_manifest": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-1440-captures.json",
+        "sha256": "97bb632d2d1c2c9f1ea5b645cadc8b9ebf25dcf493e7c8a86e2dc06eca93546d"
+      },
+      "png_count": 15,
+      "all_saved_pixels_reviewed": true
+    },
+    {
+      "locale": "en",
+      "article": "return-and-exchange-helper-playbook",
+      "viewport": [
+        580,
+        1000
+      ],
+      "coverage": {
+        "scope": "full",
+        "start": 0,
+        "end": 14417,
+        "requested_end": 14417,
+        "document_height": 14417,
+        "header_to_footer": true
+      },
+      "measurement": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-580.json",
+        "sha256": "3ab08d97cd09981503412992ad4e7dc629335b7cb10d84c988cb69055b168393"
+      },
+      "capture_manifest": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-580-captures.json",
+        "sha256": "c22f82a10ae62bb4dd23465b471cbd629eee555287fb99db3afe5e7fc8554547"
+      },
+      "png_count": 16,
+      "all_saved_pixels_reviewed": true
+    },
+    {
+      "locale": "en",
+      "article": "return-and-exchange-helper-playbook",
+      "viewport": [
+        390,
+        1000
+      ],
+      "coverage": {
+        "scope": "full",
+        "start": 0,
+        "end": 16579,
+        "requested_end": 16579,
+        "document_height": 16579,
+        "header_to_footer": true
+      },
+      "measurement": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-390.json",
+        "sha256": "588bbf331d02fd179dad2690f9cc021449d024311cce8d468454566a7e45389f"
+      },
+      "capture_manifest": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-return-and-exchange-helper-playbook-390-captures.json",
+        "sha256": "0017361efbe74fe4f1d7c8ef0325d5d8a8f87a16eb4ee16e5dd2feab464637a6"
+      },
+      "png_count": 19,
+      "all_saved_pixels_reviewed": true
+    },
+    {
+      "locale": "en",
+      "article": "custom-agent-playbook",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "coverage": {
+        "scope": "full",
+        "start": 0,
+        "end": 13297,
+        "requested_end": 13297,
+        "document_height": 13297,
+        "header_to_footer": true
+      },
+      "measurement": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-1440.json",
+        "sha256": "bf174f3b0865e4ad2e72b62e337fcd3e51d6e2895b4b463a36090ed3fa78413b"
+      },
+      "capture_manifest": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-1440-captures.json",
+        "sha256": "7aa01066c4d0e80eefd49cac3e8be6a5d3f3f9942867e2a946ad4c891245250b"
+      },
+      "png_count": 15,
+      "all_saved_pixels_reviewed": true
+    },
+    {
+      "locale": "en",
+      "article": "custom-agent-playbook",
+      "viewport": [
+        580,
+        1000
+      ],
+      "coverage": {
+        "scope": "full",
+        "start": 0,
+        "end": 14561,
+        "requested_end": 14561,
+        "document_height": 14561,
+        "header_to_footer": true
+      },
+      "measurement": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-580.json",
+        "sha256": "54573dc157835dd675a3ab01835eb30107bace82630f4fbf993e6601769aa11e"
+      },
+      "capture_manifest": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-580-captures.json",
+        "sha256": "d1658597a13e2e8038193a5297acc9db021e1d55c7c8af978537473924c21208"
+      },
+      "png_count": 17,
+      "all_saved_pixels_reviewed": true
+    },
+    {
+      "locale": "en",
+      "article": "custom-agent-playbook",
+      "viewport": [
+        390,
+        1000
+      ],
+      "coverage": {
+        "scope": "full",
+        "start": 0,
+        "end": 17094,
+        "requested_end": 17094,
+        "document_height": 17094,
+        "header_to_footer": true
+      },
+      "measurement": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-390.json",
+        "sha256": "1e7f6356f145b871f24dea61e38a38708b7a0c7c357c90915214292d7ed59a4c"
+      },
+      "capture_manifest": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-custom-agent-playbook-390-captures.json",
+        "sha256": "b21c631daf005669d6d81540bd2bb8a24765714923121c59a97b67f0fb6d9516"
+      },
+      "png_count": 19,
+      "all_saved_pixels_reviewed": true
+    },
+    {
+      "locale": "es",
+      "article": "how-to-customize-a-playbook-safely",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "coverage": {
+        "scope": "focused",
+        "start": 14644,
+        "end": 17444,
+        "requested_end": 17328,
+        "document_height": 22068,
+        "header_to_footer": false
+      },
+      "measurement": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-how-to-customize-a-playbook-safely-1440.json",
+        "sha256": "2a74de646f85cc28732c508a8b38a058852e80e8a71510b83b8e4374fe210be1"
+      },
+      "capture_manifest": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/es-how-to-customize-a-playbook-safely-1440-captures.json",
+        "sha256": "771b8e42985af72d57e139754c8e6b896f13ce69298a4026d5278dbf8d05db8b"
+      },
+      "png_count": 3,
+      "all_saved_pixels_reviewed": true
+    },
+    {
+      "locale": "es",
+      "article": "how-to-customize-a-playbook-safely",
+      "viewport": [
+        580,
+        1000
+      ],
+      "coverage": {
+        "scope": "focused",
+        "start": 16381,
+        "end": 20081,
+        "requested_end": 19564,
+        "document_height": 24642,
+        "header_to_footer": false
+      },
+      "measurement": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T211043923345Z-finish/es-how-to-customize-a-playbook-safely-580.json",
+        "sha256": "348350ab15cdf2f313ffff58472d1178a1e0cb717bd794b5687aeb8369bb02b7"
+      },
+      "capture_manifest": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T211043923345Z-finish/es-how-to-customize-a-playbook-safely-580-captures.json",
+        "sha256": "5c3c4270a9bb27a46bdf40cc010733c6f83f3c94aec71091fe71b4d3098b2664"
+      },
+      "png_count": 4,
+      "all_saved_pixels_reviewed": true
+    },
+    {
+      "locale": "es",
+      "article": "how-to-customize-a-playbook-safely",
+      "viewport": [
+        390,
+        1000
+      ],
+      "coverage": {
+        "scope": "focused",
+        "start": 20064,
+        "end": 24664,
+        "requested_end": 24075,
+        "document_height": 29982,
+        "header_to_footer": false
+      },
+      "measurement": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T211043923345Z-finish/es-how-to-customize-a-playbook-safely-390.json",
+        "sha256": "451e27fd9e2725027947ea7885ecd33e368d6e74bfd60fec17966b6f895f215a"
+      },
+      "capture_manifest": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T211043923345Z-finish/es-how-to-customize-a-playbook-safely-390-captures.json",
+        "sha256": "09269f0d8da4f6f81462cd2ba0cdaa2c65ca95ec0faf122686a6795b7cb1f06e"
+      },
+      "png_count": 5,
+      "all_saved_pixels_reviewed": true
+    },
+    {
+      "locale": "en",
+      "article": "how-to-customize-a-playbook-safely",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "coverage": {
+        "scope": "focused",
+        "start": 14230,
+        "end": 17030,
+        "requested_end": 16746,
+        "document_height": 21414,
+        "header_to_footer": false
+      },
+      "measurement": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T211043923345Z-finish/en-how-to-customize-a-playbook-safely-1440.json",
+        "sha256": "80fdddfd3ab5376700d49e36c5b27ccbaba637a41b4e6f73660be220be1cfe9f"
+      },
+      "capture_manifest": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T211043923345Z-finish/en-how-to-customize-a-playbook-safely-1440-captures.json",
+        "sha256": "521d739fcaf8896cbac6379648f98183f23b984be9164aa438c789e85f75c975"
+      },
+      "png_count": 3,
+      "all_saved_pixels_reviewed": true
+    },
+    {
+      "locale": "en",
+      "article": "how-to-customize-a-playbook-safely",
+      "viewport": [
+        580,
+        1000
+      ],
+      "coverage": {
+        "scope": "focused",
+        "start": 15805,
+        "end": 19505,
+        "requested_end": 18724,
+        "document_height": 23706,
+        "header_to_footer": false
+      },
+      "measurement": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T211043923345Z-finish/en-how-to-customize-a-playbook-safely-580.json",
+        "sha256": "6680fa9c421b1c578bd2877e14dcd7ced1831270516b2645be3ec7e9df45da14"
+      },
+      "capture_manifest": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T211043923345Z-finish/en-how-to-customize-a-playbook-safely-580-captures.json",
+        "sha256": "c090bcb65b5326a2d3c4a6104261f12682b183335422e790b8b5c10f5624a43f"
+      },
+      "png_count": 4,
+      "all_saved_pixels_reviewed": true
+    },
+    {
+      "locale": "en",
+      "article": "how-to-customize-a-playbook-safely",
+      "viewport": [
+        390,
+        1000
+      ],
+      "coverage": {
+        "scope": "focused",
+        "start": 18828,
+        "end": 23428,
+        "requested_end": 22639,
+        "document_height": 28258,
+        "header_to_footer": false
+      },
+      "measurement": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T211043923345Z-finish/en-how-to-customize-a-playbook-safely-390.json",
+        "sha256": "f8cf9933af97e925f8af896d5a2f291b1659b50e6d900e5446389109c86953f5"
+      },
+      "capture_manifest": {
+        "file": "audit/journeys-completion-20261010/complete-page-review/20261010T211043923345Z-finish/en-how-to-customize-a-playbook-safely-390-captures.json",
+        "sha256": "78a343b46c282300a3ea7a616257df8a778acf078080faf9b68c41ed57e502e1"
+      },
+      "png_count": 5,
+      "all_saved_pixels_reviewed": true
+    }
+  ],
+  "source_helper_hashes": {
+    "review-complete-pages.py": "77d9abe5c51adc051995e0668e62f60f38e3fa3856ddb5e0981f8f7f163a23b1",
+    "review-complete-browser.mjs": "c260a7f1dddbf5939a39291af19686333399414c4444fd45e38029db9b0b1529"
+  },
+  "completion_helpers": {
+    "resume-complete-pages.py": "fbb836968f9b3511d90a29ffa4cbb8a5de886b3cd6a0dece58cb7804c6f61bc2",
+    "finish-complete-pages.py": "774be7f5fb554d40386161e12505d7b118b916c5ff912a3d00d6e2dd78ab2039",
+    "review-mobile-followup-table.mjs": "4c03c5346b458d89d74deab8af242db03ddc068dc0c6d8edc579a4787ce7baec"
+  },
+  "recovery": "Only complete manifests from three runs accepted. Interrupted measures preserved separately; bounded fresh-process retries never retried failed captures. Footer check allows one CSS pixel of native integer/fraction rounding without changing pixels.",
+  "remaining_visual_blockers": [],
+  "scope_limits": [
+    "Only three playbook pairs complete; customization destinations received focused Follow-up review and remain in_progress.",
+    "No new application image, AI execution, customer event, save, activation, send, delivery, timed follow-up or successful handoff claimed.",
+    "Scoped source continuity only; no compiled-pixel, recommendation-output or production parity."
+  ],
+  "publication": "Local preparation only; no push, PR, merge or deployment for this batch."
+}

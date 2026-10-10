@@ -1,0 +1,140 @@
+{
+  "status": "passed_scoped_continuity_with_explicit_custom_prompt_binding",
+  "reviewer": "/root",
+  "recorded_at": "2026-10-10T21:08:24.428587+00:00",
+  "from_revision": "4eece183a68b1bf3d480ff403e0f39eca4be507d",
+  "to_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+  "prior_review": {
+    "file": "latest-source-continuity.json",
+    "sha256": "1d63f553fa624e866ac7c8572bf9b783ff35707e656a761cd991af748ce879bb"
+  },
+  "custom_semantic_review": {
+    "file": "custom-agent-semantic-review.json",
+    "sha256": "22879541d22b7684916f05006ea5612e4f1a1aa9be33e68842b127d715c34754"
+  },
+  "compare_sha256": "e99addd1d690b1d3c6e1160c9d8d8a67fa649574953a1c658b057107720f62c3",
+  "reference_normalization": "The prior157 entries are path references, including one {es,en} notation already represented by both concrete paths. This supplement normalizes that notation and explicitly includes the18 Custom semantic bindings; it does not assert a new full-source audit or runtime parity.",
+  "prior_reference_count": 157,
+  "prior_concrete_paths": 156,
+  "custom_semantic_paths": 18,
+  "combined_concrete_paths": 166,
+  "changed_intersection": [],
+  "custom_bindings": [
+    {
+      "path": "app/prompts/custom.agent.txt",
+      "current_sha256": "6cf3dfa6c452a31865dacb4962afe49e82a4b5fc85e5c1810fde20ef2d6353c4",
+      "historical_sha256": "7fce9724a96447bb9c96e4a0f01445aeae5827240f7f203d183ade15a098b9de",
+      "in_historical_149_path_audit": false
+    },
+    {
+      "path": "app/prompts/prompt/custom_agent.rb",
+      "current_sha256": "bebccfef9bc7ad24cd1cde9651b10554e491675dd0e01d76b60f9661e1d8418a",
+      "historical_sha256": "7bc51fb1a994fc12308c13c6ab29dbb5a7db65462d20de771f57df84deaec1b8",
+      "in_historical_149_path_audit": false
+    },
+    {
+      "path": "app/prompts/fragments/agent_introduction.txt",
+      "current_sha256": "9da3cb1fae3b5c63298fe148ec7a8dd05d7213214faf8007ef6e2f1b8ce6ea64",
+      "historical_sha256": null,
+      "in_historical_149_path_audit": false
+    },
+    {
+      "path": "app/prompts/fragments/playbook_prompt_analysis.txt",
+      "current_sha256": "f4dc2f7ce9bd3a3e7971dbc092f0031927058afd57897b26daf3807d0f1b4288",
+      "historical_sha256": null,
+      "in_historical_149_path_audit": false
+    },
+    {
+      "path": "app/models/playbook.rb",
+      "current_sha256": "5ac5845456909f92e8fa156499bbd19d5694b13f63a84bae6901ab89cc2fd770",
+      "historical_sha256": "14c91253a79dfc925c88c7ab54d76ded0586b682f38ac60d602b8d02b3a106cd",
+      "in_historical_149_path_audit": true
+    },
+    {
+      "path": "app/models/ai/context.rb",
+      "current_sha256": "0da2ae8666f87b706d8f9968e01d3d15c2d5beb4ef11f460f6f304c6e4af1d55",
+      "historical_sha256": "3790ea2df2e8b2479393e12a7caee910d4028b37726ed00e31027eb13e6d154c",
+      "in_historical_149_path_audit": true
+    },
+    {
+      "path": "app/models/playbook/custom.rb",
+      "current_sha256": "9c250c15f0abeb2ced580300eca12da196c48875b282fdaddd3876bcc249b293",
+      "historical_sha256": "9c250c15f0abeb2ced580300eca12da196c48875b282fdaddd3876bcc249b293",
+      "in_historical_149_path_audit": true
+    },
+    {
+      "path": "app/models/playbook/intent.rb",
+      "current_sha256": "37eaeece19f0f4ebb66d6393cc61cc3ee8443df8667a1538ebed91ffe29fd68e",
+      "historical_sha256": "37eaeece19f0f4ebb66d6393cc61cc3ee8443df8667a1538ebed91ffe29fd68e",
+      "in_historical_149_path_audit": true
+    },
+    {
+      "path": "app/models/playbook/component/intent.rb",
+      "current_sha256": "4fa4401a1677c12dab79b0539c3b99c1ee35958ddeef8571465e3c40d905ade8",
+      "historical_sha256": "4fa4401a1677c12dab79b0539c3b99c1ee35958ddeef8571465e3c40d905ade8",
+      "in_historical_149_path_audit": true
+    },
+    {
+      "path": "app/models/playbook/component/intent_item.rb",
+      "current_sha256": "86e07ecf9d2bf685b6b7822b7d43312d7138607412c32d0ce0bbd6962ddde613",
+      "historical_sha256": "86e07ecf9d2bf685b6b7822b7d43312d7138607412c32d0ce0bbd6962ddde613",
+      "in_historical_149_path_audit": true
+    },
+    {
+      "path": "app/models/playbook/saver/intent.rb",
+      "current_sha256": "388704c7fe18f72fa124886a21e888eafde5e1a8c88550aed11f8c650f791683",
+      "historical_sha256": "388704c7fe18f72fa124886a21e888eafde5e1a8c88550aed11f8c650f791683",
+      "in_historical_149_path_audit": true
+    },
+    {
+      "path": "app/models/playbook/saver/prompt.rb",
+      "current_sha256": "afdb4ba5e17da2db77363f6b2c830f7a69b9f5bc06f25b833d24b81296f6678b",
+      "historical_sha256": "afdb4ba5e17da2db77363f6b2c830f7a69b9f5bc06f25b833d24b81296f6678b",
+      "in_historical_149_path_audit": true
+    },
+    {
+      "path": "app/javascript/controllers/playbook/intent_controller.js",
+      "current_sha256": "ed6a557d2553ea8c75f7c87543c0e6c2ff007000d1614e5bc7548cb232f57141",
+      "historical_sha256": "ed6a557d2553ea8c75f7c87543c0e6c2ff007000d1614e5bc7548cb232f57141",
+      "in_historical_149_path_audit": true
+    },
+    {
+      "path": "app/views/playbook/component/intents/_form.html.erb",
+      "current_sha256": "6d713c8b925104c808492b3fcd5688300d07e5bf344d3f0b9818f71a913a4c2f",
+      "historical_sha256": "6d713c8b925104c808492b3fcd5688300d07e5bf344d3f0b9818f71a913a4c2f",
+      "in_historical_149_path_audit": true
+    },
+    {
+      "path": "app/views/playbook/component/intents/_intent.html.erb",
+      "current_sha256": "f7edcefbfb7d5f62c768412bc715dc37f5afdb960e3ca7a245577942f6c0582c",
+      "historical_sha256": "f7edcefbfb7d5f62c768412bc715dc37f5afdb960e3ca7a245577942f6c0582c",
+      "in_historical_149_path_audit": true
+    },
+    {
+      "path": "app/views/playbook/component/intent_items/_intent_item.html.erb",
+      "current_sha256": "0d42b83d98efd77bc1689501a7c4269e1d2cd586d3face56365bf6d529e38f0c",
+      "historical_sha256": "0d42b83d98efd77bc1689501a7c4269e1d2cd586d3face56365bf6d529e38f0c",
+      "in_historical_149_path_audit": true
+    },
+    {
+      "path": "app/views/playbook/component/prompts/_form.html.erb",
+      "current_sha256": "54acde051632f6ca6c3805e55c9aa2fcc304fb210d91d082f8616c391500a315",
+      "historical_sha256": "54acde051632f6ca6c3805e55c9aa2fcc304fb210d91d082f8616c391500a315",
+      "in_historical_149_path_audit": true
+    },
+    {
+      "path": "app/views/playbook/component/prompts/_prompt.html.erb",
+      "current_sha256": "36b65f1a9417499fc15a6d110e08cff39fccedd09a218b821165de3084ae3bd3",
+      "historical_sha256": "36b65f1a9417499fc15a6d110e08cff39fccedd09a218b821165de3084ae3bd3",
+      "in_historical_149_path_audit": true
+    }
+  ],
+  "changed_paths": [
+    "app/models/ai/catalog/vector.rb",
+    "app/models/supervisor/recommendation/engine/context_guard.rb",
+    "app/models/supervisor/recommendation/engine/contextual.rb",
+    "spec/models/supervisor/recommendation/engine/context_guard_spec.rb",
+    "spec/models/supervisor/recommendation/engine/contextual_spec.rb"
+  ],
+  "conclusion": "Five-file complete comparison changes only the recommendation vector engine and its specs. No Custom prompt, Follow-up, guide UI or scoped bound path changes. Prior cropped-control and semantic acceptance carries forward; recommendation output/freshness equivalence is not claimed."
+}

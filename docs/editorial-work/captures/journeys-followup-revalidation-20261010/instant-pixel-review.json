@@ -1,0 +1,1229 @@
+{
+  "status": "passed_saved_pixel_review_all_six_views",
+  "reviewer": "/root/current_app_capture",
+  "reviewed_at": "2026-10-10T21:04:25.693887+00:00",
+  "runs": {
+    "es": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z",
+    "en": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume"
+  },
+  "contract_sha256": "cb18f3e687a4733f4054613c10610741709e5e0622e4833c332530dddd8d502e",
+  "method": "Every listed PNG opened individually with view_image after its captures manifest existed. All PNG SHA256 values recomputed against manifests. Saved pixels and hashes only; no browser, runtime, navigation or application operation performed or inferred.",
+  "reviewed_views": 6,
+  "expected_views": 6,
+  "reviewed_pngs": 97,
+  "findings": [],
+  "limitations": [
+    "Viewport tiles overlap; cuts at viewport edges are reviewed across adjacent tiles, not treated as source-image truncation.",
+    "Inherited illustrative app PNGs retain existing state and source limits; this review does not establish live app execution, current compiled-CSS parity, navigation or delivery.",
+    "The English escalation example preserves the fictional saved team name Atención demo; this is disclosed in adjacent prose.",
+    "Webchat is an illustrative editor preview, not proof of live conversation, human availability or Instant Answers execution."
+  ],
+  "excluded_attempts": [
+    {
+      "run": "20261010T204330000068Z",
+      "reason": "No PNG; initial PATH lacked lsof."
+    },
+    {
+      "run": "20261010T204407209523Z",
+      "reason": "Incomplete capture manifest; footer fractional rounding stopped the run. Not included in the 97 reviewed records."
+    }
+  ],
+  "resume_note": "The completed Spanish Instant manifests in 20261010T204629263934Z precede a later Custom-page interception failure. English uses the completed resume manifests under the same contract. This does not assert completion of other article reviews.",
+  "views": [
+    {
+      "locale": "es",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "capture_manifest": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-1440-captures.json",
+      "capture_manifest_sha256": "9a16928c141c63a1978efda2748a272a179586632c41114a402c91d73019c558",
+      "state": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-1440.json",
+      "state_sha256": "318cb009aaaca09da4a6386fe4185a0585adcb275812763803c3af9c6e4d9eb1",
+      "status": "passed_saved_pixel_review",
+      "figure_count": 6,
+      "observations": [
+        "Encabezado, índice lateral, columna principal y pie completos en cobertura de tiles.",
+        "Seis figuras con stage lavanda e inset blanco; controles legibles, sin desbordes ni pérdida de contenido entre tiles.",
+        "Bullet Seguimiento visible completo en tile005. Figure Webchat continúa entre010–011; política entre011–012, con solapamiento."
+      ],
+      "findings": [],
+      "records": [
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-1440-tile-001.png",
+          "sha256": "954ec0f7738655062d8cb4507df85ce7eb66bc43896e92db2bab0e4bd625bee7",
+          "tile": 1,
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-1440-tile-002.png",
+          "sha256": "66a992a2e90d56a8692857761f99393cfef8c65e362bbb5cb1c82aca8bfa9176",
+          "tile": 2,
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-1440-tile-003.png",
+          "sha256": "1fabbb98c8e42a1ce73a6045c62de2a1759eff61e4b93900d8eb44bca627c241",
+          "tile": 3,
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-1440-tile-004.png",
+          "sha256": "edf1a7eb80dc24e980e9b34b63fc9216e6ba907e8a5737fbf668a4ecab56a504",
+          "tile": 4,
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-1440-tile-005.png",
+          "sha256": "2dcf84a35305d9fca6993439ebfa0bbe69499b4dfeb2c970ac9609a8a4d2c447",
+          "tile": 5,
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-1440-tile-006.png",
+          "sha256": "e0a5004b98bde712084a9c9b324d444ca06ae2c1bc7079603917a833162b17c5",
+          "tile": 6,
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-1440-tile-007.png",
+          "sha256": "16b4d6d49129179c5b04220348a2ca52e1f37a512e10f5567938e84e9d73f5c2",
+          "tile": 7,
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-1440-tile-008.png",
+          "sha256": "538359d451d09dd548a8e8032b78eea5d6c9678dabde96afa5a30f6b854545ad",
+          "tile": 8,
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-1440-tile-009.png",
+          "sha256": "fd917dd2b61accf29e9c913cba6071d47e3ece18d23006c69dfbbcf7b1e7d411",
+          "tile": 9,
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-1440-tile-010.png",
+          "sha256": "910cc8eeebc2cdd9aba6ffcc6a1bee17d692d0ba9d3d64ffd052364ace155088",
+          "tile": 10,
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-1440-tile-011.png",
+          "sha256": "7d8c15e94ed783e2f7a4d4fc5297b8a9d9962e1cc40bc7275eb1ae2375b5f0cf",
+          "tile": 11,
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-1440-tile-012.png",
+          "sha256": "6f261490a05b34844c093a170f5988ac67f593322d120d2eeecc384aa4ce6bc9",
+          "tile": 12,
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-1440-tile-013.png",
+          "sha256": "0c5db009cd3f259f60db841d4a0494bc6b8a3dd0735a460ce61b36a417204f64",
+          "tile": 13,
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-1440-tile-014.png",
+          "sha256": "a7529dfdd0092c3fa7c3238070197d712518b8ca52c521a4391131116c78fd48",
+          "tile": 14,
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        }
+      ]
+    },
+    {
+      "locale": "es",
+      "viewport": [
+        580,
+        1000
+      ],
+      "capture_manifest": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-580-captures.json",
+      "capture_manifest_sha256": "ac6f1e64ed84aa57f307c828197dfab050ef17be795f2baeaa38443497754bb5",
+      "state": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-580.json",
+      "state_sha256": "3f2ba5da78fd7eec78310d75a11f60407238b34bf9ca7f5a961e6de3d2aa5c0d",
+      "status": "passed_saved_pixel_review",
+      "figure_count": 6,
+      "observations": [
+        "16 tiles vistos; encabezado adaptado sin sidebar y pie completo.",
+        "Seis figuras responsive con márgenes blancos y stage lavanda completos por solapamiento; textos legibles.",
+        "Seguimiento completo en tile005; Webchat completo por011–012 y política en013."
+      ],
+      "findings": [],
+      "records": [
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-580-tile-001.png",
+          "sha256": "c71b084f8d9fa5800789f3bd5be28f4215fa923660249fa99f8b75699f33cb42",
+          "tile": 1,
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-580-tile-002.png",
+          "sha256": "ed322002da699875872968db118c42e493faf5b3f5e50a31aa4ae436410e5899",
+          "tile": 2,
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-580-tile-003.png",
+          "sha256": "b8c3e05897abda6ed5a1bc0c1921b228cd938e5cc891507848325c47d4d857d9",
+          "tile": 3,
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-580-tile-004.png",
+          "sha256": "66bfafcd51e02186f00fa2aab5818e1fa1b7dbca6ffe961ddc998b0f09c83183",
+          "tile": 4,
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-580-tile-005.png",
+          "sha256": "49913c9b0cfd0384e751e8692a6348ce523d629f48fa6ac4502d0c05e7369f77",
+          "tile": 5,
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-580-tile-006.png",
+          "sha256": "6e50fe6fd04c3341d0d52f3188a18f1fcd7d8dc1cdfcb7ca317f2e140cf7040f",
+          "tile": 6,
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-580-tile-007.png",
+          "sha256": "6b5faffd35a385466a7d091e2a10153e4b67c6ec2e90c7f7b9c5f8f1d911951c",
+          "tile": 7,
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-580-tile-008.png",
+          "sha256": "f5f98ce43bc1b4a1491fdfae82a2777995a6bd0fea1a2b46762061be0e11470a",
+          "tile": 8,
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-580-tile-009.png",
+          "sha256": "5433b64fc9e8844bf37378b3b40d69dc5382cafbd8c700d7e97fc52ddfbc1b9e",
+          "tile": 9,
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-580-tile-010.png",
+          "sha256": "9b74df244c4bcdca8914db5dc0f2fb2fed85590b24d872d8b163495df62b7f15",
+          "tile": 10,
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-580-tile-011.png",
+          "sha256": "5eb024e2fa60aeb63e8ee660e385b01db13d1acabc3841dd684f16f2ada4cfd4",
+          "tile": 11,
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-580-tile-012.png",
+          "sha256": "f1f858b9313ef7ceb36961a72fb31297bb4f963a73ea08a0292312915e7bdc76",
+          "tile": 12,
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-580-tile-013.png",
+          "sha256": "0b9651f95d021c2330c6b3bd01ce86ef816fcaf950bed3a5268b16a93dab114a",
+          "tile": 13,
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-580-tile-014.png",
+          "sha256": "92c5887d350f193413eebc1dfa2cec2b569d0fcf0db388eaaad2f4a79c2e4ed9",
+          "tile": 14,
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-580-tile-015.png",
+          "sha256": "00f31f3af0ee435098a8f904ec222763c1c14fe03d9450c9ee719d841715fafc",
+          "tile": 15,
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-580-tile-016.png",
+          "sha256": "084da88674cdc5b51ffa9b75cee42d5f5095f49215fac4b0b55482c38e0121c9",
+          "tile": 16,
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        }
+      ]
+    },
+    {
+      "locale": "es",
+      "viewport": [
+        390,
+        1000
+      ],
+      "capture_manifest": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-390-captures.json",
+      "capture_manifest_sha256": "7f18cf78f2f93685afd121439815a618cbcca04b8e6e23b16c05f6f08daad1af",
+      "state": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-390.json",
+      "state_sha256": "e45a7518c3f1f241e7eca8beb16fae72a094d6666ceece96028a97d52d602041",
+      "status": "passed_saved_pixel_review",
+      "figure_count": 6,
+      "observations": [
+        "19 tiles vistos: encabezado móvil, párrafos/listas y pie sin desborde horizontal ni texto perdido entre tiles.",
+        "Seis figuras legibles con inset/stage; Webchat completo en014 y política completa en015.",
+        "Seguimiento completo en007. Título largo se ajusta a tres líneas; figuras Canales/Tono se distribuyen en tiles adyacentes con solapamiento."
+      ],
+      "findings": [],
+      "records": [
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-390-tile-001.png",
+          "sha256": "1fe6817bebc5adb06a93de7c48af8068832c16cc9b46386b390a70a168cc75f7",
+          "tile": 1,
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-390-tile-002.png",
+          "sha256": "ec4b55b787e0364420bfb7406f4d917a490d6de057d4176a5a9ba4df9585fda0",
+          "tile": 2,
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-390-tile-003.png",
+          "sha256": "2471f9d5a0a18b4d14bf1699041613cdb35ace8a2a44167fa9a370b63353d7d9",
+          "tile": 3,
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-390-tile-004.png",
+          "sha256": "fa4ff38e867b36269305f168e6c8f80c1315c9302a532d31d808142386771d27",
+          "tile": 4,
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-390-tile-005.png",
+          "sha256": "c878c5cd3b75225937ca2c66b782be1b01cc024d144a4dbbb792132aacb7fc67",
+          "tile": 5,
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-390-tile-006.png",
+          "sha256": "d405eae89bee2c5574f857e6718c6d65edde3d44055116bc71f2c1cd512451ed",
+          "tile": 6,
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-390-tile-007.png",
+          "sha256": "92893781b414c0df171322107afaa27efb70cc760fb377c2725404fef26f244f",
+          "tile": 7,
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-390-tile-008.png",
+          "sha256": "39d1209505fc99ffffd051142def8695edbc677efd42664f9afe897f1951c08d",
+          "tile": 8,
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-390-tile-009.png",
+          "sha256": "50c6e4f6ea3222fb2b40a952d9e06de0583c6add2ca058f69ca1265997515586",
+          "tile": 9,
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-390-tile-010.png",
+          "sha256": "11db3b1ed0ec6f94e166316d7abb1cfab9ae4ad2cf7ae3a0a6770aa98c215d32",
+          "tile": 10,
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-390-tile-011.png",
+          "sha256": "4f77481cb4f2e4c089bffdbec2c19dc45c14212733a92616ef47eb21352fdfd5",
+          "tile": 11,
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-390-tile-012.png",
+          "sha256": "fc45555450d151fb9d661712c0afca9a91f2efc5902a7235f58b61f9ab3145e0",
+          "tile": 12,
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-390-tile-013.png",
+          "sha256": "fe8219b7158fa6883e3cd56e98093544e9f6a39d62677c404ed1cea60d84a20e",
+          "tile": 13,
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-390-tile-014.png",
+          "sha256": "2ca9745b825aa9051650f9625d66eec39af0238be80896763f6a4956e92f3afc",
+          "tile": 14,
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-390-tile-015.png",
+          "sha256": "295608fff2b29edd6d324fa332a365c78b5b637e1c71b98f325c565b797618c9",
+          "tile": 15,
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-390-tile-016.png",
+          "sha256": "9b54f10854201fbe956ba742e22e55d4b357c3cd0ada7d030443417cdd02ca61",
+          "tile": 16,
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-390-tile-017.png",
+          "sha256": "ddc6f72cec7a87f4b813d5d13c1efaf1385741bb55239904b3a71cf111852ff3",
+          "tile": 17,
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-390-tile-018.png",
+          "sha256": "463c7cf6707f47f366869c13e67722c975c16b8ad6e5eb5bc5f340779912797a",
+          "tile": 18,
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T204629263934Z/es-instant-answers-playbook-390-tile-019.png",
+          "sha256": "af590ab1d2cd7de3825588ea64e67d6419cfb21b5508049c2d43a543e44f9410",
+          "tile": 19,
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "capture_manifest": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-1440-captures.json",
+      "capture_manifest_sha256": "0f8b0b669030c90ce28c9067074bfed62ede642991799e39452d70faf3f11f9c",
+      "state": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-1440.json",
+      "state_sha256": "00ab5383a31889f78c30a9fe971e8fe7d8974a896be0d67c9954cc64d0399c6a",
+      "status": "passed_saved_pixel_review",
+      "figure_count": 6,
+      "observations": [
+        "14 tiles vistos: encabezado, columna central, tabla de contenidos y pie completos.",
+        "Seis figuras y sus explicaciones legibles; inset blanco/stage lavanda estables y sin invasión de columnas.",
+        "Follow-up completo en005. Atención demo es nombre de equipo ficticio conservado, no error de localización. Webchat se completa entre010–011; política íntegra en011."
+      ],
+      "findings": [],
+      "records": [
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-1440-tile-001.png",
+          "sha256": "2422c5684dd4fe3e24b8d0940f3f8bfbb1af4bb4a9db0cd15fce47b53f0b7008",
+          "tile": 1,
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-1440-tile-002.png",
+          "sha256": "c5de95425d59ed8c403b17295e567f5e3e8945446b63ba31fb246c41d4703ca5",
+          "tile": 2,
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-1440-tile-003.png",
+          "sha256": "4a1ca4d9a9e43521c8f07ef73254819f97fbddcc9e0e14fd564253391591ad9d",
+          "tile": 3,
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-1440-tile-004.png",
+          "sha256": "8a936553b0a04ae800550aa2742278faf4a149fd7fec43b662525ca535ae008e",
+          "tile": 4,
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-1440-tile-005.png",
+          "sha256": "e6ebcfcae76473cda09e7e5f7d28dbee43de4bc1476dca0f0dba9ccd1f1211b3",
+          "tile": 5,
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-1440-tile-006.png",
+          "sha256": "9e6336763fe0605dad231b943be3ffc3ecec3156c1021ffbbb8e329966924112",
+          "tile": 6,
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-1440-tile-007.png",
+          "sha256": "0a73d5985ce96174f991dee28d896db20b278da6b53f60de05b4a99a94b96275",
+          "tile": 7,
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-1440-tile-008.png",
+          "sha256": "c1d1cbe03ef6bc04e0adc47102709eaccf621fede158b999fa89be89172b9c20",
+          "tile": 8,
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-1440-tile-009.png",
+          "sha256": "5eb204ab5a01daa583048095b00d271d96e384ae6f5ed055d38204599ecf4e6f",
+          "tile": 9,
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-1440-tile-010.png",
+          "sha256": "642cde34ce3ce04f96f76bda90189b390576d3cd536c81bacd27100e8c235cf2",
+          "tile": 10,
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-1440-tile-011.png",
+          "sha256": "3c999c779c382271f24543b63bae2da5255da0f792efcbdd91290aaaa72d39e5",
+          "tile": 11,
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-1440-tile-012.png",
+          "sha256": "a02837999adb6352939122192cc64a5cc46ba1ca23a955dd34f39cfb0d47d57f",
+          "tile": 12,
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-1440-tile-013.png",
+          "sha256": "9b93276b0c4130b584a5ed523fd2bb53346661dc6b80ce8e6edb73cb56b45ea2",
+          "tile": 13,
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-1440-tile-014.png",
+          "sha256": "b26572e6c73c1530c8f5bb324f97034db7986c4cb77ea2c31a72c42d2ed454f9",
+          "tile": 14,
+          "pixelSize": [
+            5760,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "viewport": [
+        580,
+        1000
+      ],
+      "capture_manifest": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-580-captures.json",
+      "capture_manifest_sha256": "c1631501ba665fdccd1a5c9bbc02c8a5f4ec9b91ec4cf312ea15ce8364529eb8",
+      "state": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-580.json",
+      "state_sha256": "b6b62b2ddccdafc7980cc50ab2b02cc2efc43eac2a6efc28942d0a5aba1766bd",
+      "status": "passed_saved_pixel_review",
+      "figure_count": 6,
+      "observations": [
+        "Header, single text column and footer are complete across overlapping tiles.",
+        "All six figures are readable with consistent lavender stage and white inset; no article overflow.",
+        "Follow-up bullet visible in tile 005; complete escalation example in 010, Webchat preview in 011 and response policy across 012–013.",
+        "Atención demo is the saved fictional team name and is not a UI translation defect."
+      ],
+      "findings": [],
+      "records": [
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-580-tile-001.png",
+          "sha256": "caebe1178e1056dabebc9aed6c96e0612efa41c53e968c1bfa2c9e837821cc22",
+          "tile": 1,
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-580-tile-002.png",
+          "sha256": "6fb2c08523b08924c6896127b5a447b2694a6961d350f0fd77838c3dcaabea4b",
+          "tile": 2,
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-580-tile-003.png",
+          "sha256": "e6525e7d4b8e565f827173c33f9b9e624d8c4ad13a9ecaf1304df7f2add3efd0",
+          "tile": 3,
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-580-tile-004.png",
+          "sha256": "6f69b8da140cffb9b025260dddf84d2b80b5f7c05c39ca4c9b8b80790940d9f4",
+          "tile": 4,
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-580-tile-005.png",
+          "sha256": "b193e2e7d8764af9d2592b1ff579317bb2baf87d547312604a63ce95f67752a4",
+          "tile": 5,
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-580-tile-006.png",
+          "sha256": "ddbeb17f5bc999b12a4ad9d7a9dd3e9a6a6fdb10bca3880d5fd3d9c4219d2d27",
+          "tile": 6,
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-580-tile-007.png",
+          "sha256": "f1dbe2a6aa327ff9bc47b1230b50b2e80ae56eb5dd2d69b848ee5e79ea62aedd",
+          "tile": 7,
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-580-tile-008.png",
+          "sha256": "e37d96857b33bd49385d80f9617bb438f9aefd9f379efa53c8943a7a0324f9b2",
+          "tile": 8,
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-580-tile-009.png",
+          "sha256": "38152bc1ac39b908e1e727209d2fc5e7d21df88cc1763475acde4170dfd014af",
+          "tile": 9,
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-580-tile-010.png",
+          "sha256": "b52cfe9d7456b5a77d3c321344164ff8b3c52183477c3989677099f59daaf961",
+          "tile": 10,
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-580-tile-011.png",
+          "sha256": "5d11c5178a14388dcff34c48c1c5c143fb7722fc6c29ce7382085374b44b6925",
+          "tile": 11,
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-580-tile-012.png",
+          "sha256": "1e9e92f1630c5b2658eae8868eeab698241b4ed321db221a649856438a59385c",
+          "tile": 12,
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-580-tile-013.png",
+          "sha256": "81b39d81739a3327102cd8c4655fccb413766c55e6c70a983352eff250c33fd5",
+          "tile": 13,
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-580-tile-014.png",
+          "sha256": "82820340b6c2364bbdfca12fcf78b36d9d020012a1129e844ca83aca9e8aa908",
+          "tile": 14,
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-580-tile-015.png",
+          "sha256": "8eeb6c6d92ac639ae88ac547f48e6f7adfb24f52d96ed95709fda8d88fa6a8c4",
+          "tile": 15,
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-580-tile-016.png",
+          "sha256": "d08dcc6cc167fb40df4926d025b3c356f074cc2c722080288e594000cd4808e1",
+          "tile": 16,
+          "pixelSize": [
+            2320,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "viewport": [
+        390,
+        1000
+      ],
+      "capture_manifest": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-390-captures.json",
+      "capture_manifest_sha256": "12efd8df48cd4a2767182bdf37b896bdb1c25b1a64301a7512935739a15e445a",
+      "state": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-390.json",
+      "state_sha256": "30c0c849ac0ea6a64c58b1b00ac8e1d656fb25441d12926f2426dc0ed25ec02b",
+      "status": "passed_saved_pixel_review",
+      "figure_count": 6,
+      "observations": [
+        "Header and three-line title fit the mobile column; all text, links and footer are readable without horizontal overflow.",
+        "All six figures are readable within lavender stages and white insets, including complete channels 007, tone 008, upload 010, escalation 012, Webchat 013 and response policy 014.",
+        "Follow-up bullet is visible and fully readable in tile 006.",
+        "Atención demo remains the literal saved fictional team name; captions distinguish examples from live operation."
+      ],
+      "findings": [],
+      "records": [
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-390-tile-001.png",
+          "sha256": "afd1141fe5b61e2d355ab79b246eb4405ef111a803289206bc6738701122940e",
+          "tile": 1,
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-390-tile-002.png",
+          "sha256": "a8c386ff4bb9da8693c3e154eba4c36cc92f251d8576d00b74390f7d4b64c8dc",
+          "tile": 2,
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-390-tile-003.png",
+          "sha256": "4ab0fdb50a05b369f11a0d9b6e22512f10379bfd51c7bdd638c4cf1359663dcc",
+          "tile": 3,
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-390-tile-004.png",
+          "sha256": "daf0035ae3da9011f0e79bb0a359f2e5eb0e8e364029d802119a54d5e4f98092",
+          "tile": 4,
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-390-tile-005.png",
+          "sha256": "9455fee7693c73a387911eacd2d984d56aa1cdcfb2f7df705aace9a139965d04",
+          "tile": 5,
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-390-tile-006.png",
+          "sha256": "0feea6f8fba236f34e82007f36d1dc320531a6444e76343fc20e9cbf181eb33c",
+          "tile": 6,
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-390-tile-007.png",
+          "sha256": "82a4f002b12c46db29fcf46005918a54a0a5fc4470927445b748d3e38ea752a4",
+          "tile": 7,
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-390-tile-008.png",
+          "sha256": "75c4dc8bb661727b43f3c55940de106a3e40ce48fc7a574b9d898c71fb7d8571",
+          "tile": 8,
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-390-tile-009.png",
+          "sha256": "57baaff7c6f9b25bc01fbc27be7e63d0a7016bb8cdde81c1fb487377553b8116",
+          "tile": 9,
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-390-tile-010.png",
+          "sha256": "44f88710736360fbff403751924844de12b50c81268a70dbda4478d5ef12a436",
+          "tile": 10,
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-390-tile-011.png",
+          "sha256": "3fb89f703c77a16fab0254f85c0690559c56b117c8d1e3b01a79dd8fd1c9f401",
+          "tile": 11,
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-390-tile-012.png",
+          "sha256": "67e3c557f8515c3fbcd26e6eaeaa9426f584f350460ffbecfb1cfd1f13af6cfe",
+          "tile": 12,
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-390-tile-013.png",
+          "sha256": "83b308c3e3089cc0183308b0cc6c030d1c93954357b763b0dd56969337de6f38",
+          "tile": 13,
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-390-tile-014.png",
+          "sha256": "78eb2f42259a3e1840ee3349cefece2b2e77e2175b725cafe39b42c6b1b5ad34",
+          "tile": 14,
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-390-tile-015.png",
+          "sha256": "f708db32f9168d0316d5430ed383d196e1586c4a203df4de6ed36e16b1e31728",
+          "tile": 15,
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-390-tile-016.png",
+          "sha256": "1d4bcaaa31ee03e063d6a5659cf182cb809fd4b6b39d207c333b8a78ba0b4ebf",
+          "tile": 16,
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-390-tile-017.png",
+          "sha256": "4de37700d9935efe5ad8b096663afc28d30c636d9cc7228e95bc20b4420b3246",
+          "tile": 17,
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        },
+        {
+          "file": "audit/journeys-completion-20261010/complete-page-review/20261010T205644192708Z-resume/en-instant-answers-playbook-390-tile-018.png",
+          "sha256": "01db27618edf491071a5fc70bec6fbb92ae126bc756237d41b3a16c0b475d4a8",
+          "tile": 18,
+          "pixelSize": [
+            1560,
+            4000
+          ],
+          "view_image_inspected": true,
+          "findings": []
+        }
+      ]
+    }
+  ]
+}

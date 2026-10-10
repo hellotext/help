@@ -18,7 +18,7 @@ It can:
 - Request handoff to the configured teammate or team when the customer needs human help, subject to available reception, assignment, and capacity.
 - Work alongside other active playbooks, as long as each one has a clear job.
 
-Custom Agent works best when each agent owns a narrow mission. A good custom agent is not "answer anything." It is closer to "answer warranty questions for this product line," "qualify wholesale requests," "help customers choose a skincare routine," or "handle store pickup questions."
+Custom Agent works best when each agent owns a narrow mission. A good custom agent is not "answer anything." It is closer to "answer warranty questions for this product line," "explain documented wholesale purchase requirements," "explain care instructions for a product line," or "handle store pickup questions."
 
 ## When to use it
 
@@ -30,7 +30,7 @@ It is a good fit when:
 - You need multiple agents that activate from different customer intentions.
 - The agent needs custom instructions that are specific to your business.
 - The answer depends on uploaded policies, product notes, sizing guidance, warranty rules, store information, or approved websites.
-- The agent should answer first, then hand off only when the request is sensitive, unresolved, or outside scope.
+- The agent should answer from authorized information and request handoff when the customer asks for a person or the work is outside its scope.
 - A journey route would be too rigid because the customer can ask the same thing in many ways.
 
 ## When not to use it
@@ -136,9 +136,9 @@ The fictitious **Intents** draft shows “I want to ask about a return.” in th
 
 Good intents are specific:
 
-- "The customer wants to know if a product is covered by warranty."
-- "The customer wants help choosing a gift for a child."
-- "The customer is asking whether store pickup is available today."
+- "The customer wants to know the documented warranty conditions for a product."
+- "The customer asks how to care for a product according to its approved instructions."
+- "The customer wants to know the documented requirements for collecting a purchase in store."
 
 Weak intents are too broad:
 
@@ -151,7 +151,7 @@ If two custom agents have similar intents, customers may route to the wrong one.
 
 ## Write the agent prompt
 
-The prompt tells the agent how to do the job when selected. Custom Agent requires nonempty saved instructions. The prompt does not add tools, permissions, integrations, consent, or authority to modify data on its own.
+The prompt tells the agent how to do the job when selected. Custom Agent requires nonempty saved instructions. The prompt does not add tools, permissions, integrations, consent, or authority to modify data on its own. It also does not enable product recommendations or live order tracking: those tasks belong to specialized playbooks.
 
 The figure shows an empty **Prompt** in a fictitious Custom Agent draft. The gray text is a placeholder, not saved instructions or an agent response.
 
@@ -250,13 +250,12 @@ The figure shows the shared **Escalation** control in an independent fictitious 
 
 Common handoff cases include:
 
-- The customer asks for a person.
-- The customer is angry, frustrated, or dissatisfied.
-- The customer reports a defective, damaged, wrong, or missing product.
-- The request is outside the agent's mission.
-- The agent cannot verify the answer from available knowledge or data.
-- The customer asks for a refund, cancellation, exception, account change, payment detail, or human sales action.
-- No active playbook can resolve the request safely.
+- The customer explicitly asks for a person.
+- The customer requests work outside the playbook's scope or not authorized by its instructions and tools.
+- The customer asks to manage a defective, damaged, wrong, or missing product, or to perform a refund, cancellation, exception, account change, or human sales action that the agent cannot carry out.
+- An in-scope request remains unresolved after at least two genuine tool attempts, the need is clearly beyond the available tools or verified information, and retrying, another available action, grounded context, or useful clarification cannot make progress.
+
+Frustration, one failed search, or an isolated tool error is not enough for handoff. An informational policy question can be answered from authorized information; it is different from asking the agent to perform an operation. If a request is ambiguous and could be in scope, the agent should ask a clarifying question before deciding.
 
 For the handoff model, use [AI handoff to Inbox]({% link _team/ai-handoff-to-inbox.md %}).
 
@@ -269,10 +268,10 @@ To check actual behavior, agree on an isolated test environment, fictitious prof
 - A message that should activate the custom agent.
 - A message that sounds similar but should activate a different playbook.
 - A message that should not activate any custom agent.
-- An ambiguous message that should ask a clarifying question or hand off.
+- An ambiguous message that should prompt a clarifying question before deciding whether it is outside scope.
 - A message that requires uploaded knowledge.
 - A message where the uploaded knowledge is missing or unclear.
-- A message that should hand off because the customer is upset, reports a defective product, or asks for a human decision.
+- An explicit request for a person or an out-of-scope operation; compare it with a complaint or policy question that the agent can handle without handoff.
 - A message in each incoming channel you plan to use.
 - A case needing web search or an integrated tool that is actually available, alongside a case where it cannot obtain a sufficient source.
 
