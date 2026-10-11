@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-11T06:28:34.826969+00:00",
+  "reviewer": "integration_review",
+  "status": "passed_scoped_copy_and_preservation",
+  "help_head": "3738f78b4d0ffaf7022c1948004da70becec4566",
+  "scope": "Independent read-only complete ES/EN body review of prepared semantic corrections; preservation and old fixture limits. No new image or integrated page acceptance.",
+  "inputs": [
+    {
+      "path": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/copy-corrections.json",
+      "sha256": "05d43a07df69c6a30b6f7c85df6e2fdbb56ade7d7e990ad6d2f888501f405483"
+    },
+    {
+      "path": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/semantic-source-review.json",
+      "sha256": "74d3ac89866913b2149bb7dcbb21220f093b01ae410d2c98c5faca87afe164dd"
+    },
+    {
+      "path": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/retained-source-register.json",
+      "sha256": "5ac2efb2fb81f45115399089c7dfc7f09c8a59e9d3c0865438dc8ba5f217afbb"
+    },
+    {
+      "path": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/figure-plan.json",
+      "sha256": "70bab7080ae8fe97053b181c77e31857fe408f3f59e7116fcb8c10d01f8a8387"
+    },
+    {
+      "path": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/preparation.json",
+      "sha256": "d6b69e97f25461ba9e05740d82f3e7bcf4e68d190dbe6cd318a5ef3de6775e91"
+    },
+    {
+      "path": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/base-integration.json",
+      "sha256": "e580e0595e481cb43b5e78d78d26c386873edf756c02f7712d2ca6a56967e7e1"
+    }
+  ],
+  "articles": [
+    {
+      "path": "_i18n/es/team/conversation-lifecycle.md",
+      "locale": "es",
+      "sha256": "b2d8053d73499287ddc04c5baf5600136f99d3501a6f645f2c3a71db79095330",
+      "original_sha256": "4976ccdacbdbbd077f1307b4861beb43b7ed37cac8e024039430623533e836c8",
+      "declared_exact_replacements": 13,
+      "full_prose_read": true,
+      "headings_preserved": 14,
+      "ordered_links_preserved": 12,
+      "historical_figure_blocks_byte_exact": 4,
+      "figure_block_sha256": [
+        "0cd57a896996fa49c09f68b54ff23d95569812ad4735178e6ceee1d1a1d50292",
+        "4550ff5224b1559bf05e6a8922030e861df337bc67fc91c7f455c2a4c29a86c1",
+        "fe9b7f65c8cbd9f192ec226209d2fea3287db8d67f5d0f37f5c5ea139c15cca6",
+        "7c4bf8de25983640d984737e9f664d46602ce01b59608527acc20e1b3a7cb048"
+      ]
+    },
+    {
+      "path": "_i18n/en/team/conversation-lifecycle.md",
+      "locale": "en",
+      "sha256": "7408af2dd3f4811048beba4799d598f3d5ab21ad3d999a8db3665bc9d1a3a538",
+      "original_sha256": "56c2c5fc36c66f4b168e38e9ee16c393e618fcf004757eba3547da824746fe39",
+      "declared_exact_replacements": 10,
+      "full_prose_read": true,
+      "headings_preserved": 14,
+      "ordered_links_preserved": 12,
+      "historical_figure_blocks_byte_exact": 4,
+      "figure_block_sha256": [
+        "69611a32ccf8a8f0ee8385fe9b69f24162bc98062003860caab01bd19836567a",
+        "53d29facecd68256665cd75351c990f926bdc0c93b37e830fc2e6fe6fdacaa86",
+        "e1d2d68e7cd92292e3c1add417447a02f294f3062542765a0bb4dfd162615375",
+        "de8559ee35d7d8dc88a774cfe222b064fdf87ace51be43b6a6273375b8788c4a"
+      ]
+    }
+  ],
+  "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+  "known_comparison_head": "afacda5636225888e44666da2e6d76fdd6a1425f",
+  "source_hashes_bound_to_8e_git_objects": 18,
+  "source_review_boundary": "Read scoped affected methods and small models/controls; hash checked all 18 writer bindings. Previous full-app or full-file read scopes are not expanded. No runtime behavioral test was performed.",
+  "checks": [
+    {
+      "topic": "Entry and assignment",
+      "result": "passed",
+      "source": [
+        "app/actors/journey/process_step/assignment/assign.rb",
+        "app/models/track/event/recordable.rb"
+      ],
+      "assessment": "An explicit Assignment open action differs from quiet assignment. Generic activity recording requires an existing conversation and is not described as independently opening one. Timeline wording now refers to recorded changes without promising a reopening event."
+    },
+    {
+      "topic": "Assigned ownership and reply recording",
+      "result": "passed",
+      "source": [
+        "app/models/conversation/assignable.rb",
+        "app/models/dashboard/message.rb"
+      ],
+      "assessment": "Assigned can include a human or AI playbook owner. Automatic claiming is guarded by unassigned state, current user and pending-team membership; the copy correctly says can, and does not wait for or promise customer delivery."
+    },
+    {
+      "topic": "Scheduled versus manual reopening",
+      "result": "passed",
+      "source": [
+        "app/models/concerns/reopens_conversations.rb"
+      ],
+      "assessment": "Scheduled awaken checks retained assigned_user_id against kept business privilege. Manual reopen retains a present human assignment without that eligibility check. The articles preserve this distinction and do not claim observed reminder expiry."
+    },
+    {
+      "topic": "Mention signals and ownership",
+      "result": "passed",
+      "source": [
+        "app/models/conversation/filter.rb",
+        "app/models/note.rb",
+        "app/models/concerns/acts_as_mentioner.rb",
+        "app/controllers/conversation/notes_controller.rb"
+      ],
+      "assessment": "Mentioned joins actual mention rows; teammate filtering selects mentioned User IDs. Internal notes are the current ActsAsMentioner model. Neither a note nor a mention is presented as an assignment or delivered customer reply."
+    },
+    {
+      "topic": "Notes, labels and side effects",
+      "result": "passed",
+      "source": [
+        "app/models/conversation/labelable.rb",
+        "app/models/workload/handle_touchpoint.rb"
+      ],
+      "assessment": "The text confines its assertions to state/owner and customer-response meaning. It does not claim notes have no handling metrics, labels have no index/timeline effects, or no jobs are queued."
+    },
+    {
+      "topic": "Closure and controls",
+      "result": "passed",
+      "source": [
+        "app/models/conversation/closeable.rb",
+        "app/views/conversation/snooze_options/_index.html.erb",
+        "config/locales/es.yml",
+        "config/locales/en.yml"
+      ],
+      "assessment": "Closure clears attention after persisting state and before deferred cleanup. This is source-backed behavior, not evidence of a new attention-clearing action. Exact snooze labels and Spanish Asignados/Cerrados filter references match source; the list no longer mislabels all filters as lifecycle states."
+    }
+  ],
+  "findings": [],
+  "preservation": {
+    "headers_per_locale": 14,
+    "ordered_links_per_locale": 12,
+    "historical_figures_per_locale": 4,
+    "historical_png_count": 16,
+    "all_16_pngs_match_registered_sha256_and_head_bytes": true,
+    "shared_stub_matches_preserved_original": true,
+    "ledger_matches_current_head": true,
+    "copy_reconstructed_from_declared_edits": true
+  },
+  "historical_fixture_proofs": [
+    {
+      "id": "snoozed-result",
+      "path": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/inbox-actions-continuation-20261010/snoozed-result-group-review.json",
+      "sha256": "f676734ded90ca11cb57b5d6c86806b2e4e85455121fbeb8bbe4f2d13dbea73f",
+      "historical_status": "passed"
+    },
+    {
+      "id": "closed-result",
+      "path": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/inbox-actions-continuation-20261010/closed-result-group-review.json",
+      "sha256": "84fb5a0cbd6699b0e072c5ab2fac9cba250f01ca5c8d51081d340890f6764732",
+      "historical_status": "passed"
+    },
+    {
+      "id": "reopened-result",
+      "path": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/inbox-actions-continuation-20261010/reopened-result-group-review.json",
+      "sha256": "9d5c5e85ad97df1accf31675e38052870372843c4529285dc5a503e6b9fb264d",
+      "historical_status": "passed"
+    }
+  ],
+  "historical_limits": [
+    "Existing preset Snooze result is historical saved evidence. The timeline time is action time, not a proved deadline, worker execution or wakeup.",
+    "Historical closure began without active attention; its pixels do not prove clearing a live attention item. Deferred closure/CSAT/notifications/delivery were not demonstrated.",
+    "The native automatically-assigned label belongs to a historical manual self-assignment; it is not proof of automation.",
+    "Manual reopening retained Sofía and created no Track/timeline reopening event. Unassigned/eligibility/automatic-reopen branches are source explanations, not observed actions in these figures.",
+    "The original result pictures do not show applying the Reminders, Closed or Open list filters; captions must keep that boundary."
+  ],
+  "new_fixture_and_visual_gates": [
+    "The planned note/mention result must be identified as a separately prepared local fictional Note/Mention, preserving owner; do not present it as a captured browser save or notification delivery.",
+    "The internal-note draft and custom reminder dialog are unsubmitted states. Opening a label chooser is distinct from clicking a label, which persists immediately.",
+    "Four new source groups, exact native controls/captions, final integration and full ES/EN page/figure QA are still pending. No completeness, build or publication PASS follows from this copy receipt."
+  ],
+  "operations": {
+    "application_runtime": false,
+    "database": false,
+    "browser": false,
+    "help_edits": false,
+    "external_writes": false,
+    "new_pixel_review": false,
+    "own_audit_receipt_only": true
+  }
+}

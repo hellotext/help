@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "at": "2026-10-11T07:13:27.179140+00:00",
+  "owned_services": [
+    {
+      "role": "chrome",
+      "pid": 22277,
+      "port": 9492,
+      "identity_verified": true,
+      "process_absent": true,
+      "port_free": true
+    },
+    {
+      "role": "proxy",
+      "pid": 24176,
+      "port": 3305,
+      "identity_verified": true,
+      "process_absent": true,
+      "port_free": true
+    }
+  ],
+  "controller_session": 55845,
+  "controller_exited_before_shutdown": true,
+  "blank_before_disconnect": {
+    "href": "about:blank",
+    "ready": "complete"
+  },
+  "manifest_sha256": "e6e95ce65a521f666563de153b2f2383174ad0da40588e1211d20bb1de39cb7b",
+  "other_services_touched": false,
+  "database_or_files_deleted": false
+}

@@ -1,0 +1,661 @@
+{
+  "status": "passed_complete_view_and_all_eight_figure_details",
+  "reviewed_at": "2026-10-11T07:35:38.034832+00:00",
+  "reviewer": "integration_review",
+  "findings": [],
+  "packet": {
+    "path": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/views/en-390.json",
+    "sha256": "6a14d4ec4d8fbecd0b8f9598ee5b439e773f0d030ebb7f3a900611844afe1124"
+  },
+  "checkpoint_sha256": "0bd6cb163addafb1b9aec4223fbb752ae92d83f95df58191b8c18c45a45f917c",
+  "source_sha256": "d788905e523c5fa53f46f51c55c91042e80cde15200d476f2d10883344547af6",
+  "built_html_sha256": "caa106488fbc48fce3bc4bad35f3263bea4e20f85ced6ee930336dd676bb76f1",
+  "viewport_css": [
+    390,
+    1200
+  ],
+  "source_register_sha256": "d584342dbd290bcec1af431b18e86a984bab2c367a3e8d4a1421c9f2b196c320",
+  "coverage": {
+    "segments": 12,
+    "details": 8,
+    "images_individually_seen": 20,
+    "from_css_y": 0,
+    "through_css_y": 13060,
+    "document_height_css": 13060,
+    "header_and_footer_seen": true,
+    "native_segments_not_stitched": true
+  },
+  "files": [
+    {
+      "file": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-full-part1.png",
+      "sha256": "b554932613d6f5601aeee14438ddb72564d14fb903e2e01b1b56c2fe2a56f95a",
+      "kind": "complete-page-segment",
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "display_p3_embedded": true,
+      "dpr": 2,
+      "clip_css": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 1200
+      },
+      "native_scroll_css": [
+        0,
+        0
+      ],
+      "pixel_inspected": true,
+      "visual_status": "passed"
+    },
+    {
+      "file": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-full-part2.png",
+      "sha256": "23f6daa0d75516acc70e3f2321dd4c1d3c89756401aee433b8e782ac17661d6d",
+      "kind": "complete-page-segment",
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "display_p3_embedded": true,
+      "dpr": 2,
+      "clip_css": {
+        "x": 0,
+        "y": 1100,
+        "width": 390,
+        "height": 1200
+      },
+      "native_scroll_css": [
+        0,
+        1100
+      ],
+      "pixel_inspected": true,
+      "visual_status": "passed"
+    },
+    {
+      "file": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-full-part3.png",
+      "sha256": "1d7f4b69e1dbd8021c1749c7b60e8404c288f7cba23186eb5dd3b02126d36b89",
+      "kind": "complete-page-segment",
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "display_p3_embedded": true,
+      "dpr": 2,
+      "clip_css": {
+        "x": 0,
+        "y": 2200,
+        "width": 390,
+        "height": 1200
+      },
+      "native_scroll_css": [
+        0,
+        2200
+      ],
+      "pixel_inspected": true,
+      "visual_status": "passed"
+    },
+    {
+      "file": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-full-part4.png",
+      "sha256": "5912ae0414250b262bac1b36c46530c0926d6ba5767fd7f721cd7a745a0e12f8",
+      "kind": "complete-page-segment",
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "display_p3_embedded": true,
+      "dpr": 2,
+      "clip_css": {
+        "x": 0,
+        "y": 3300,
+        "width": 390,
+        "height": 1200
+      },
+      "native_scroll_css": [
+        0,
+        3300
+      ],
+      "pixel_inspected": true,
+      "visual_status": "passed"
+    },
+    {
+      "file": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-full-part5.png",
+      "sha256": "2d96ccf0326f17176d65744ce5c5b244735bf4a8f951a6fe96376f11ed00b97a",
+      "kind": "complete-page-segment",
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "display_p3_embedded": true,
+      "dpr": 2,
+      "clip_css": {
+        "x": 0,
+        "y": 4400,
+        "width": 390,
+        "height": 1200
+      },
+      "native_scroll_css": [
+        0,
+        4400
+      ],
+      "pixel_inspected": true,
+      "visual_status": "passed"
+    },
+    {
+      "file": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-full-part6.png",
+      "sha256": "6c56c67256a580abbd870b6ea74336af82547731e462747b86715feae4609676",
+      "kind": "complete-page-segment",
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "display_p3_embedded": true,
+      "dpr": 2,
+      "clip_css": {
+        "x": 0,
+        "y": 5500,
+        "width": 390,
+        "height": 1200
+      },
+      "native_scroll_css": [
+        0,
+        5500
+      ],
+      "pixel_inspected": true,
+      "visual_status": "passed"
+    },
+    {
+      "file": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-full-part7.png",
+      "sha256": "d7d8d6a0057bb8d94b0c79110348df21097eaffd8f3be94f6db84343c8405e05",
+      "kind": "complete-page-segment",
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "display_p3_embedded": true,
+      "dpr": 2,
+      "clip_css": {
+        "x": 0,
+        "y": 6600,
+        "width": 390,
+        "height": 1200
+      },
+      "native_scroll_css": [
+        0,
+        6600
+      ],
+      "pixel_inspected": true,
+      "visual_status": "passed"
+    },
+    {
+      "file": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-full-part8.png",
+      "sha256": "fb0e5445f3c48c68ffcdc7ce41953b01fab703641e62e19a9fac47ae31d9ba2f",
+      "kind": "complete-page-segment",
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "display_p3_embedded": true,
+      "dpr": 2,
+      "clip_css": {
+        "x": 0,
+        "y": 7700,
+        "width": 390,
+        "height": 1200
+      },
+      "native_scroll_css": [
+        0,
+        7700
+      ],
+      "pixel_inspected": true,
+      "visual_status": "passed"
+    },
+    {
+      "file": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-full-part9.png",
+      "sha256": "915054eb70cd1def41fb4a0ab4aa019344928009ad6cd7a23a66090c9cba472f",
+      "kind": "complete-page-segment",
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "display_p3_embedded": true,
+      "dpr": 2,
+      "clip_css": {
+        "x": 0,
+        "y": 8800,
+        "width": 390,
+        "height": 1200
+      },
+      "native_scroll_css": [
+        0,
+        8800
+      ],
+      "pixel_inspected": true,
+      "visual_status": "passed"
+    },
+    {
+      "file": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-full-part10.png",
+      "sha256": "7c84fb50b026f0c00191e4e185e9cbb98d8c11847a49d0e9177d699d17024615",
+      "kind": "complete-page-segment",
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "display_p3_embedded": true,
+      "dpr": 2,
+      "clip_css": {
+        "x": 0,
+        "y": 9900,
+        "width": 390,
+        "height": 1200
+      },
+      "native_scroll_css": [
+        0,
+        9900
+      ],
+      "pixel_inspected": true,
+      "visual_status": "passed"
+    },
+    {
+      "file": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-full-part11.png",
+      "sha256": "3b8321520bfe7fd744bba82e1511d5eb3f3048b2c6359f56e32fd153d392b4dd",
+      "kind": "complete-page-segment",
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "display_p3_embedded": true,
+      "dpr": 2,
+      "clip_css": {
+        "x": 0,
+        "y": 11000,
+        "width": 390,
+        "height": 1200
+      },
+      "native_scroll_css": [
+        0,
+        11000
+      ],
+      "pixel_inspected": true,
+      "visual_status": "passed"
+    },
+    {
+      "file": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-full-part12.png",
+      "sha256": "d813a47f60aacdaa518154a4539a3da26cb272651bbe62680afb9e65023241d6",
+      "kind": "complete-page-segment",
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "display_p3_embedded": true,
+      "dpr": 2,
+      "clip_css": {
+        "x": 0,
+        "y": 11860,
+        "width": 390,
+        "height": 1200
+      },
+      "native_scroll_css": [
+        0,
+        11860
+      ],
+      "pixel_inspected": true,
+      "visual_status": "passed"
+    },
+    {
+      "file": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-snooze-options.png",
+      "sha256": "fab1fa40285f4498c5dd71c59cabec990e5ed56b7085332e2c2856682109bec3",
+      "kind": "figure-detail",
+      "pixel_size": [
+        764,
+        1770
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "display_p3_embedded": true,
+      "dpr": 2,
+      "clip_css": {
+        "x": 4,
+        "y": 2959,
+        "width": 382,
+        "height": 885
+      },
+      "native_scroll_css": [
+        0,
+        2801.5
+      ],
+      "pixel_inspected": true,
+      "visual_status": "passed"
+    },
+    {
+      "file": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-custom-reminder.png",
+      "sha256": "79d5b12d6126c354520b0d4d9a1de5fb6fccac4585206168f72091faefc7f49d",
+      "kind": "figure-detail",
+      "pixel_size": [
+        764,
+        472
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "display_p3_embedded": true,
+      "dpr": 2,
+      "clip_css": {
+        "x": 4,
+        "y": 3939,
+        "width": 382,
+        "height": 236
+      },
+      "native_scroll_css": [
+        0,
+        3457.5
+      ],
+      "pixel_inspected": true,
+      "visual_status": "passed"
+    },
+    {
+      "file": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-snoozed-result.png",
+      "sha256": "a8430c68c8c920533e50045dad5de7c02b053d8f04be284ceb448100a1284000",
+      "kind": "figure-detail",
+      "pixel_size": [
+        764,
+        1772
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "display_p3_embedded": true,
+      "dpr": 2,
+      "clip_css": {
+        "x": 4,
+        "y": 4414,
+        "width": 382,
+        "height": 886
+      },
+      "native_scroll_css": [
+        0,
+        4257
+      ],
+      "pixel_inspected": true,
+      "visual_status": "passed"
+    },
+    {
+      "file": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-closed-result.png",
+      "sha256": "cd31650acbc79a2f92b482104ca46eb551ef6197ec4af35e21f2b743e1afc94a",
+      "kind": "figure-detail",
+      "pixel_size": [
+        764,
+        1770
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "display_p3_embedded": true,
+      "dpr": 2,
+      "clip_css": {
+        "x": 4,
+        "y": 5625,
+        "width": 382,
+        "height": 885
+      },
+      "native_scroll_css": [
+        0,
+        5467.5
+      ],
+      "pixel_inspected": true,
+      "visual_status": "passed"
+    },
+    {
+      "file": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-reopened-result.png",
+      "sha256": "fa473e94a1a3114d9f4cac88d5ee0e363665fddf6beb235064d300ca645de303",
+      "kind": "figure-detail",
+      "pixel_size": [
+        764,
+        1770
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "display_p3_embedded": true,
+      "dpr": 2,
+      "clip_css": {
+        "x": 4,
+        "y": 6813,
+        "width": 382,
+        "height": 885
+      },
+      "native_scroll_css": [
+        0,
+        6655.5
+      ],
+      "pixel_inspected": true,
+      "visual_status": "passed"
+    },
+    {
+      "file": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-mentioned-context.png",
+      "sha256": "241d1d920ed36ec1727d3280dcd09b9b2bab236d071d95a80769e1381f874fdf",
+      "kind": "figure-detail",
+      "pixel_size": [
+        764,
+        1038
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "display_p3_embedded": true,
+      "dpr": 2,
+      "clip_css": {
+        "x": 4,
+        "y": 8526,
+        "width": 382,
+        "height": 519
+      },
+      "native_scroll_css": [
+        0,
+        8185
+      ],
+      "pixel_inspected": true,
+      "visual_status": "passed"
+    },
+    {
+      "file": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-note-mention-draft.png",
+      "sha256": "ebc248818f086b3101149773e7f62c32b10e71dcc4b90b09bafa4e45ba60e0c2",
+      "kind": "figure-detail",
+      "pixel_size": [
+        764,
+        656
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "display_p3_embedded": true,
+      "dpr": 2,
+      "clip_css": {
+        "x": 4,
+        "y": 9432,
+        "width": 382,
+        "height": 328
+      },
+      "native_scroll_css": [
+        0,
+        8995.5
+      ],
+      "pixel_inspected": true,
+      "visual_status": "passed"
+    },
+    {
+      "file": "help-conversation-lifecycle-20261011/docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/conversation-lifecycle-en-390-conversation-labels.png",
+      "sha256": "30f7642415bf0d64d678948067356767b612e4e4b80d26b57349042d79e4a3bd",
+      "kind": "figure-detail",
+      "pixel_size": [
+        764,
+        962
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "display_p3_embedded": true,
+      "dpr": 2,
+      "clip_css": {
+        "x": 4,
+        "y": 10127,
+        "width": 382,
+        "height": 481
+      },
+      "native_scroll_css": [
+        0,
+        9767.5
+      ],
+      "pixel_inspected": true,
+      "visual_status": "passed"
+    }
+  ],
+  "figures": [
+    {
+      "id": "snooze-options",
+      "source": "images/editorial/inbox-actions-continuation-20261010/snooze-options-en-mobile.png",
+      "source_sha256": "bc58089f0c7c5cd1c555595cd6ffecdde7ffb13c35087d420662736c797832db",
+      "image_css_size": [
+        315.9921875,
+        810.25
+      ],
+      "source_native_logical_size": [
+        390,
+        1000
+      ],
+      "effective_source_density": 4.936830914530126,
+      "static_unlinked": true,
+      "stage_border_and_two_insets": true,
+      "legibility": "passed by individual full-page and detail pixel review"
+    },
+    {
+      "id": "custom-reminder",
+      "source": "images/editorial/conversation-lifecycle-20261011/custom-reminder-en-mobile-540.png",
+      "source_sha256": "667e5a9d0955fee232fcdac5de36256ad0290146802223bdf61bb5b137d6c28b",
+      "image_css_size": [
+        315.9921875,
+        161.171875
+      ],
+      "source_native_logical_size": [
+        498,
+        254
+      ],
+      "effective_source_density": 6.303953321630776,
+      "static_unlinked": true,
+      "stage_border_and_two_insets": true,
+      "legibility": "passed by individual full-page and detail pixel review"
+    },
+    {
+      "id": "snoozed-result",
+      "source": "images/editorial/inbox-actions-continuation-20261010/snoozed-result-en-mobile.png",
+      "source_sha256": "935dc4563a7271fe5516ead654c84ac9f6e91e2de5ca445eeed2915ab6dd8f74",
+      "image_css_size": [
+        315.9921875,
+        810.25
+      ],
+      "source_native_logical_size": [
+        390,
+        1000
+      ],
+      "effective_source_density": 4.936830914530126,
+      "static_unlinked": true,
+      "stage_border_and_two_insets": true,
+      "legibility": "passed by individual full-page and detail pixel review"
+    },
+    {
+      "id": "closed-result",
+      "source": "images/editorial/inbox-actions-continuation-20261010/closed-result-en-mobile.png",
+      "source_sha256": "b0c2cd0b5c04d1429e8eeb797379ba66cb0a4ea19500e53bb904305dfc9391cc",
+      "image_css_size": [
+        315.9921875,
+        810.25
+      ],
+      "source_native_logical_size": [
+        390,
+        1000
+      ],
+      "effective_source_density": 4.936830914530126,
+      "static_unlinked": true,
+      "stage_border_and_two_insets": true,
+      "legibility": "passed by individual full-page and detail pixel review"
+    },
+    {
+      "id": "reopened-result",
+      "source": "images/editorial/inbox-actions-continuation-20261010/reopened-result-en-mobile.png",
+      "source_sha256": "39aa087299409ec3a39275c4b6594e32307d987b18ece65bf4aef450b35e5007",
+      "image_css_size": [
+        315.9921875,
+        810.25
+      ],
+      "source_native_logical_size": [
+        390,
+        1000
+      ],
+      "effective_source_density": 4.936830914530126,
+      "static_unlinked": true,
+      "stage_border_and_two_insets": true,
+      "legibility": "passed by individual full-page and detail pixel review"
+    },
+    {
+      "id": "mentioned-context",
+      "source": "images/editorial/conversation-lifecycle-20261011/mentioned-context-en-mobile.png",
+      "source_sha256": "6e075df8777e278eb98a9b1965b8d6c46c73e1a16478a749ce39669a97fc8f0c",
+      "image_css_size": [
+        315.9921875,
+        444.015625
+      ],
+      "source_native_logical_size": [
+        390,
+        548
+      ],
+      "effective_source_density": 4.936830914530126,
+      "static_unlinked": true,
+      "stage_border_and_two_insets": true,
+      "legibility": "passed by individual full-page and detail pixel review"
+    },
+    {
+      "id": "note-mention-draft",
+      "source": "images/editorial/conversation-lifecycle-20261011/note-mention-draft-en-mobile.png",
+      "source_sha256": "c2812d29537f9bcf699cc4004019018d34263435f0e390eb2af269889ad32cc5",
+      "image_css_size": [
+        315.9921875,
+        252.796875
+      ],
+      "source_native_logical_size": [
+        390,
+        312
+      ],
+      "effective_source_density": 4.936830914530126,
+      "static_unlinked": true,
+      "stage_border_and_two_insets": true,
+      "legibility": "passed by individual full-page and detail pixel review"
+    },
+    {
+      "id": "conversation-labels",
+      "source": "images/editorial/conversation-lifecycle-20261011/conversation-labels-en-mobile.png",
+      "source_sha256": "09cfa543fe824589111611ef634547f2ba83f78093f4cf55b697299ca5fb1686",
+      "image_css_size": [
+        315.9921875,
+        406.7421875
+      ],
+      "source_native_logical_size": [
+        390,
+        502
+      ],
+      "effective_source_density": 4.936830914530126,
+      "static_unlinked": true,
+      "stage_border_and_two_insets": true,
+      "legibility": "passed by individual full-page and detail pixel review"
+    }
+  ],
+  "observations": [
+    "Complete reading flow, headings, new instruction paragraphs, all figures and footer were individually inspected in native overlapping scroll captures.",
+    "No blank loading figure, clipped essential text, figure overflow, visible scrollbar/pointer, debug overlay or unexpected visible caption was found.",
+    "Historical mobile sources are displayed at both Help viewport classes without claiming a new desktop-app capture.",
+    "New note and reminder figures remain drafts; prepared note/mention/label context is distinct from native browser submission.",
+    "The reminder date, time, Snooze and Cancel controls remain complete and readable at this Help width."
+  ],
+  "limits": [
+    "This record covers this one EN Help viewport only; other views require their own receipts.",
+    "Native app mobile reminder source is app540, not app390; responsive Help display does not certify app390 behavior.",
+    "Source semantics/admission/build/HTTP checks are separate bound evidence; no browser, application, DB or network operation performed by this reviewer.",
+    "Tool display may resize PNGs; exact source file bytes, capture geometry, density and ICC profile are verified independently."
+  ]
+}

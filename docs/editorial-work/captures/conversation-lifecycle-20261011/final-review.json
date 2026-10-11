@@ -1,0 +1,484 @@
+{
+  "schema": "conversation-lifecycle-final-review-v1",
+  "reviewed_at": "2026-10-11T07:38:00.554440+00:00",
+  "status": "passed",
+  "ready_for_local_verifying_commit": true,
+  "article_key": "team/conversation-lifecycle.md",
+  "baseline": "3738f78b4d0ffaf7022c1948004da70becec4566",
+  "articles": [
+    {
+      "locale": "es",
+      "source": "_i18n/es/team/conversation-lifecycle.md",
+      "source_sha256": "c3509b86c6186e1c9cf6dc5a8b28dc9c4659eb4c7c2f9ad9c615c0a9ad5350f7",
+      "built_html": "_site/es/ciclo-conversacion-inbox.html",
+      "built_html_sha256": "9e75b1eedad65a58512a11863274d2f1716f1bf1befff073e5deb0514e0b4e1a",
+      "route": "/es/ciclo-conversacion-inbox.html",
+      "figure_sources": {
+        "snooze-options": {
+          "mobile": "/images/editorial/inbox-actions-continuation-20261010/snooze-options-es-mobile.png",
+          "desktop": "/images/editorial/inbox-actions-continuation-20261010/snooze-options-es-mobile.png"
+        },
+        "custom-reminder": {
+          "mobile": "/images/editorial/conversation-lifecycle-20261011/custom-reminder-es-mobile-540.png",
+          "desktop": "/images/editorial/conversation-lifecycle-20261011/custom-reminder-es-desktop.png"
+        },
+        "snoozed-result": {
+          "mobile": "/images/editorial/inbox-actions-continuation-20261010/snoozed-result-es-mobile.png",
+          "desktop": "/images/editorial/inbox-actions-continuation-20261010/snoozed-result-es-mobile.png"
+        },
+        "closed-result": {
+          "mobile": "/images/editorial/inbox-actions-continuation-20261010/closed-result-es-mobile.png",
+          "desktop": "/images/editorial/inbox-actions-continuation-20261010/closed-result-es-mobile.png"
+        },
+        "reopened-result": {
+          "mobile": "/images/editorial/inbox-actions-continuation-20261010/reopened-result-es-mobile.png",
+          "desktop": "/images/editorial/inbox-actions-continuation-20261010/reopened-result-es-mobile.png"
+        },
+        "mentioned-context": {
+          "mobile": "/images/editorial/conversation-lifecycle-20261011/mentioned-context-es-mobile.png",
+          "desktop": "/images/editorial/conversation-lifecycle-20261011/mentioned-context-es-desktop.png"
+        },
+        "note-mention-draft": {
+          "mobile": "/images/editorial/conversation-lifecycle-20261011/note-mention-draft-es-mobile.png",
+          "desktop": "/images/editorial/conversation-lifecycle-20261011/note-mention-draft-es-desktop.png"
+        },
+        "conversation-labels": {
+          "mobile": "/images/editorial/conversation-lifecycle-20261011/conversation-labels-es-mobile.png",
+          "desktop": "/images/editorial/conversation-lifecycle-20261011/conversation-labels-es-desktop.png"
+        }
+      },
+      "ordered_links": [
+        "_team/assigning-conversations.md",
+        "_team/understanding-response-times.md",
+        "_team/filter-and-search-inbox.md",
+        "_team/ai-handoff-to-inbox.md",
+        "_team/inbox-overview.md",
+        "_team/filter-and-search-inbox.md",
+        "_team/assigning-conversations.md",
+        "_team/teams-and-inbox-capacity.md",
+        "_team/ai-handoff-to-inbox.md",
+        "_team/understanding-response-times.md",
+        "_team/understanding-team-roles.md",
+        "_numbers/message-editor-overview.md"
+      ],
+      "heading_count": 14
+    },
+    {
+      "locale": "en",
+      "source": "_i18n/en/team/conversation-lifecycle.md",
+      "source_sha256": "d788905e523c5fa53f46f51c55c91042e80cde15200d476f2d10883344547af6",
+      "built_html": "_site/conversation-lifecycle.html",
+      "built_html_sha256": "caa106488fbc48fce3bc4bad35f3263bea4e20f85ced6ee930336dd676bb76f1",
+      "route": "/conversation-lifecycle.html",
+      "figure_sources": {
+        "snooze-options": {
+          "mobile": "/images/editorial/inbox-actions-continuation-20261010/snooze-options-en-mobile.png",
+          "desktop": "/images/editorial/inbox-actions-continuation-20261010/snooze-options-en-mobile.png"
+        },
+        "custom-reminder": {
+          "mobile": "/images/editorial/conversation-lifecycle-20261011/custom-reminder-en-mobile-540.png",
+          "desktop": "/images/editorial/conversation-lifecycle-20261011/custom-reminder-en-desktop.png"
+        },
+        "snoozed-result": {
+          "mobile": "/images/editorial/inbox-actions-continuation-20261010/snoozed-result-en-mobile.png",
+          "desktop": "/images/editorial/inbox-actions-continuation-20261010/snoozed-result-en-mobile.png"
+        },
+        "closed-result": {
+          "mobile": "/images/editorial/inbox-actions-continuation-20261010/closed-result-en-mobile.png",
+          "desktop": "/images/editorial/inbox-actions-continuation-20261010/closed-result-en-mobile.png"
+        },
+        "reopened-result": {
+          "mobile": "/images/editorial/inbox-actions-continuation-20261010/reopened-result-en-mobile.png",
+          "desktop": "/images/editorial/inbox-actions-continuation-20261010/reopened-result-en-mobile.png"
+        },
+        "mentioned-context": {
+          "mobile": "/images/editorial/conversation-lifecycle-20261011/mentioned-context-en-mobile.png",
+          "desktop": "/images/editorial/conversation-lifecycle-20261011/mentioned-context-en-desktop.png"
+        },
+        "note-mention-draft": {
+          "mobile": "/images/editorial/conversation-lifecycle-20261011/note-mention-draft-en-mobile.png",
+          "desktop": "/images/editorial/conversation-lifecycle-20261011/note-mention-draft-en-desktop.png"
+        },
+        "conversation-labels": {
+          "mobile": "/images/editorial/conversation-lifecycle-20261011/conversation-labels-en-mobile.png",
+          "desktop": "/images/editorial/conversation-lifecycle-20261011/conversation-labels-en-desktop.png"
+        }
+      },
+      "ordered_links": [
+        "_team/assigning-conversations.md",
+        "_team/understanding-response-times.md",
+        "_team/filter-and-search-inbox.md",
+        "_team/ai-handoff-to-inbox.md",
+        "_team/inbox-overview.md",
+        "_team/filter-and-search-inbox.md",
+        "_team/assigning-conversations.md",
+        "_team/teams-and-inbox-capacity.md",
+        "_team/ai-handoff-to-inbox.md",
+        "_team/understanding-response-times.md",
+        "_team/understanding-team-roles.md",
+        "_numbers/message-editor-overview.md"
+      ],
+      "heading_count": 14
+    }
+  ],
+  "evidence": [
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/base-integration.json",
+      "sha256": "e580e0595e481cb43b5e78d78d26c386873edf756c02f7712d2ca6a56967e7e1"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/capture-closure.json",
+      "sha256": "ff03a1c71b0c0d92fbf2904f607b9507518df597054e2596930fa52949183bc4"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/capture-runtime-final.json",
+      "sha256": "7d9c973c71c76783e811f33444e8edf9f96cb6a46486c09ee899d2cbbfd95bec"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/copy-corrections.json",
+      "sha256": "05d43a07df69c6a30b6f7c85df6e2fdbb56ade7d7e990ad6d2f888501f405483"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/copy-independent-review.json",
+      "sha256": "71cda855a207878792cfc8e54d2b3881d838b329486e37d7da1535c60cd0ec81"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/custom-reminder-source-limitation.json",
+      "sha256": "f7a08f3046bfaad2c08218a82d69154f3ea1161b397d7ebe2f914c1ecc10c56a"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/figure-plan.json",
+      "sha256": "5446d490ea6b3b3adb737e08bdfd1fd4dc27e99c4a493f69d42332da0a2173ac"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/final-figure-copy-independent-review.json",
+      "sha256": "5a6f9d6c2330ff51b8053e83c62c36eb07d64b3c7cb6ba6306a78cd576b240b7"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/integrations/final-figure-integration.json",
+      "sha256": "752ba2605313de78f983a272c7e9927fbadbc75c00f120785413902dc2f24967"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/integrations/retained-mobile-presentation.json",
+      "sha256": "5a3d696a35a6e0807d2c5a4b801551209f77c561fdd1ab1af1fa7aedfae35b05"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/manifest.json",
+      "sha256": "e6e95ce65a521f666563de153b2f2383174ad0da40588e1211d20bb1de39cb7b"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/note-entry-source-supplement.json",
+      "sha256": "e9ee0178104218ab8ee064d17770193e731ecd72eddfa0899635eb322a4ac644"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/preparation.json",
+      "sha256": "d6b69e97f25461ba9e05740d82f3e7bcf4e68d190dbe6cd318a5ef3de6775e91"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/prepublication-remote-readonly-check.json",
+      "sha256": "eda69ef7a0f469f45c9a2e43b3b10ee4127ffb35e5f6316c207f09bd52223859"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/prior-draft-readonly-review.json",
+      "sha256": "596fa20da2ce19c20f3ca856126ce007ecb957c49e9e36e215b91ef3493ecdbe"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/retained-source-register.json",
+      "sha256": "5ac2efb2fb81f45115399089c7dfc7f09c8a59e9d3c0865438dc8ba5f217afbb"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/root-es-source-pixel-review.json",
+      "sha256": "2724218026b4c936761f4ecfc83066d01cadb7f18b5fc3217bf2f928479c28a2"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/root-legacy-readability-decision.json",
+      "sha256": "f29a4b7461fba53c5a07c35fa1b18773c3ec55ca67847a81c7e0c4214ef4cf95"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/runtime-shutdown.json",
+      "sha256": "3832e9334f2b7f45466150e0c2a217d44c0fb51c89be28d17ebd581ef0574a56"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/semantic-source-review.json",
+      "sha256": "74d3ac89866913b2149bb7dcbb21220f093b01ae410d2c98c5faca87afe164dd"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/source-admission.json",
+      "sha256": "a59acb106ca58c1dd2107ed4742e1586b5c61f8fbffee82ad1ed53a488a1ff14"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/source-en-pixel-review.json",
+      "sha256": "930c96c4e7d38b68f8f170b38415912494da40723487ba0f79921cce5b9de941"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/source-register.json",
+      "sha256": "d584342dbd290bcec1af431b18e86a984bab2c367a3e8d4a1421c9f2b196c320"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/build-execution.json",
+      "sha256": "cc2121687de3d65f59b883491147d09c843716ac016f7033bffe4907afa50f7a"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/build.log",
+      "sha256": "211c62881368ef43146f90e24d8a7774811dc1bae50a4317ad2c148ccc10bbd7"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/checkpoint.json",
+      "sha256": "0bd6cb163addafb1b9aec4223fbb752ae92d83f95df58191b8c18c45a45f917c"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/es-detail-pixel-review-1440.json",
+      "sha256": "510beca6e39715e96dc08de6f11df6adb7abc2b55d9f65575a472f0469a73b20"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/es-detail-pixel-review-390.json",
+      "sha256": "48b85177b735dbb6d9a32a4cfd47c2d79095fda937dfba69edfe14bbbc487314"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/es-detail-pixel-review-580.json",
+      "sha256": "c48f47c899dfd214290aa5fa4150b18fbaeb1358abae342c1cdabedd3913dd88"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/es-detail-pixel-review.json",
+      "sha256": "5b6e679470b6226968c00ad6cf01201a934e9dbb4462a9ceef9eb878a914825b"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/es580-full-page-independent-review.json",
+      "sha256": "56b06a3194c87b5ce6e75d66aa615960e9a1ca56e3ee3b346f9799b8d589152f"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/helper-bindings.json",
+      "sha256": "5c0b3927d18096af782c1b927f563e5b3e13bafbb9ecb06b936d5bff7b311635"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/http-checks.json",
+      "sha256": "49f3a2e46b69bcfbeb1c26979234cd3195428dcdc1a1fd4bfb569c55482561e1"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/local-scope-checks.json",
+      "sha256": "58c537991c59db38866315a282e424b470b6a7ccd4e913ebdb8ffe1c98d6beec"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-en-1440-independent-review.json",
+      "sha256": "2bfc83c3c8bf3f9e3e05310fef53fcc79319877fda9a40aa908b508ffc6cdc42"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-en-390-independent-review.json",
+      "sha256": "59d4330c2940a6d3fa97434aae8afb5631318306afa7d49e4bb6d624ec45c41c"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-en-580-independent-review.json",
+      "sha256": "509e40b8bfa7dca26ba3e05d7ed471c5ab21c97bb7fefe8438839e8ac5fa387e"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-en-independent-review.json",
+      "sha256": "b8e175ee662708640b7bdfdc1b4b35256cc7b6697e3d82f7fea12779cae4b2b9"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/capture-receipt.json",
+      "sha256": "eb17ff65e3ce907125cd9c08059ad6cf187600080d2c53f8e0f4dee294191868"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/views/en-1440.json",
+      "sha256": "750fa06c80fc77a63df32a61b3025e38915fa1d336ac2cb6d0b42cecf3f58de1"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/views/en-390.json",
+      "sha256": "6a14d4ec4d8fbecd0b8f9598ee5b439e773f0d030ebb7f3a900611844afe1124"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/views/en-580.json",
+      "sha256": "9d3efbcc3dbcf9ffa6c675762c45767e7089557d31006ae56069448fac1d4227"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/views/es-1440.json",
+      "sha256": "8316e38554c5952a3393cfabd2e0d324b822be8aaf69235b4a68d761c770c9d1"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/views/es-390.json",
+      "sha256": "134bb68810e978a638fd01d6fd7472b29c916c37d38bf363f9c39a3c09c32ad8"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/views/es-580.json",
+      "sha256": "bf284132cf2484a9a1ff50741f4c9190aee9706945550cf35738ba455a332654"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/root-es1440-full-page-review.json",
+      "sha256": "e1c250748c9058700d38008db6edf6c40a785fd29b072860377d355f4731e78c"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/root-es390-full-page-review.json",
+      "sha256": "6b7987214cce077b1a99f53067a6b6794672d0adcf87559138102eb301bb8f48"
+    },
+    {
+      "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/static-review-shutdown.json",
+      "sha256": "bfc3ad67193b8c3f1f6f1b7d3f6b46d63a8370a5bd9525477f20c79e4563cf70"
+    }
+  ],
+  "page_review": {
+    "checkpoint_sha256": "0bd6cb163addafb1b9aec4223fbb752ae92d83f95df58191b8c18c45a45f917c",
+    "capture_receipt_sha256": "eb17ff65e3ce907125cd9c08059ad6cf187600080d2c53f8e0f4dee294191868",
+    "views": [
+      {
+        "locale": "es",
+        "width": 1440,
+        "packet": {
+          "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/views/es-1440.json",
+          "sha256": "8316e38554c5952a3393cfabd2e0d324b822be8aaf69235b4a68d761c770c9d1"
+        },
+        "complete_page_review": {
+          "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/root-es1440-full-page-review.json",
+          "sha256": "e1c250748c9058700d38008db6edf6c40a785fd29b072860377d355f4731e78c"
+        },
+        "figure_detail_review": {
+          "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/es-detail-pixel-review-1440.json",
+          "sha256": "510beca6e39715e96dc08de6f11df6adb7abc2b55d9f65575a472f0469a73b20"
+        },
+        "segments": 12,
+        "details": 8,
+        "document_height_css": 12541,
+        "status": "passed"
+      },
+      {
+        "locale": "es",
+        "width": 580,
+        "packet": {
+          "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/views/es-580.json",
+          "sha256": "bf284132cf2484a9a1ff50741f4c9190aee9706945550cf35738ba455a332654"
+        },
+        "complete_page_review": {
+          "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/es580-full-page-independent-review.json",
+          "sha256": "56b06a3194c87b5ce6e75d66aa615960e9a1ca56e3ee3b346f9799b8d589152f"
+        },
+        "figure_detail_review": {
+          "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/es-detail-pixel-review-580.json",
+          "sha256": "c48f47c899dfd214290aa5fa4150b18fbaeb1358abae342c1cdabedd3913dd88"
+        },
+        "segments": 12,
+        "details": 8,
+        "document_height_css": 13278,
+        "status": "passed"
+      },
+      {
+        "locale": "es",
+        "width": 390,
+        "packet": {
+          "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/views/es-390.json",
+          "sha256": "134bb68810e978a638fd01d6fd7472b29c916c37d38bf363f9c39a3c09c32ad8"
+        },
+        "complete_page_review": {
+          "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/root-es390-full-page-review.json",
+          "sha256": "6b7987214cce077b1a99f53067a6b6794672d0adcf87559138102eb301bb8f48"
+        },
+        "figure_detail_review": {
+          "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/es-detail-pixel-review-390.json",
+          "sha256": "48b85177b735dbb6d9a32a4cfd47c2d79095fda937dfba69edfe14bbbc487314"
+        },
+        "segments": 13,
+        "details": 8,
+        "document_height_css": 13306,
+        "status": "passed"
+      },
+      {
+        "locale": "en",
+        "width": 1440,
+        "packet": {
+          "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/views/en-1440.json",
+          "sha256": "750fa06c80fc77a63df32a61b3025e38915fa1d336ac2cb6d0b42cecf3f58de1"
+        },
+        "complete_page_review": {
+          "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-en-1440-independent-review.json",
+          "sha256": "2bfc83c3c8bf3f9e3e05310fef53fcc79319877fda9a40aa908b508ffc6cdc42"
+        },
+        "figure_detail_review": {
+          "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-en-1440-independent-review.json",
+          "sha256": "2bfc83c3c8bf3f9e3e05310fef53fcc79319877fda9a40aa908b508ffc6cdc42"
+        },
+        "segments": 12,
+        "details": 8,
+        "document_height_css": 12349,
+        "status": "passed"
+      },
+      {
+        "locale": "en",
+        "width": 580,
+        "packet": {
+          "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/views/en-580.json",
+          "sha256": "9d3efbcc3dbcf9ffa6c675762c45767e7089557d31006ae56069448fac1d4227"
+        },
+        "complete_page_review": {
+          "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-en-580-independent-review.json",
+          "sha256": "509e40b8bfa7dca26ba3e05d7ed471c5ab21c97bb7fefe8438839e8ac5fa387e"
+        },
+        "figure_detail_review": {
+          "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-en-580-independent-review.json",
+          "sha256": "509e40b8bfa7dca26ba3e05d7ed471c5ab21c97bb7fefe8438839e8ac5fa387e"
+        },
+        "segments": 12,
+        "details": 8,
+        "document_height_css": 12766,
+        "status": "passed"
+      },
+      {
+        "locale": "en",
+        "width": 390,
+        "packet": {
+          "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-review/views/en-390.json",
+          "sha256": "6a14d4ec4d8fbecd0b8f9598ee5b439e773f0d030ebb7f3a900611844afe1124"
+        },
+        "complete_page_review": {
+          "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-en-390-independent-review.json",
+          "sha256": "59d4330c2940a6d3fa97434aae8afb5631318306afa7d49e4bb6d624ec45c41c"
+        },
+        "figure_detail_review": {
+          "path": "docs/editorial-work/captures/conversation-lifecycle-20261011/validation/page-en-390-independent-review.json",
+          "sha256": "59d4330c2940a6d3fa97434aae8afb5631318306afa7d49e4bb6d624ec45c41c"
+        },
+        "segments": 12,
+        "details": 8,
+        "document_height_css": 13060,
+        "status": "passed"
+      }
+    ],
+    "segments": 73,
+    "details": 48,
+    "method": "Native overlapping Chrome viewport segments and figure clips, 2x Display P3; no stitching, pixel edits or synthetic UI"
+  },
+  "assets": {
+    "preserved": 32,
+    "selected": 24,
+    "new_native_4x_p3": 16,
+    "retained_selected_mobile": 8,
+    "retained_unselected_desktop": 8,
+    "built_byte_copies": 64,
+    "figures_per_locale": 8
+  },
+  "checks": {
+    "production_build": "passed",
+    "security_headers": "passed",
+    "generated_js_byte_copies": 4,
+    "local_http_resources": 72,
+    "article_link_targets": 24,
+    "excluded_authoring_paths": 7,
+    "copy_and_source_reviews": "passed",
+    "complete_page_and_all_figure_pixels": "passed",
+    "capture_runtime_closed": true,
+    "help_review_runtime_closed": true,
+    "browser_runtime_errors": 0,
+    "external_analytics_requests_blocked": 6
+  },
+  "limits": [
+    "Custom reminder mobile source was captured at app540 with a native498 crop; readable at Help390, without claiming unclipped app390 UI.",
+    "Eight inherited mobile sources are selected at every Help width for legibility; sixteen historical PNGs retain original bytes and provenance, and eight desktop originals remain unselected.",
+    "New note/reminder/label controls were not submitted through the captured UI. Note, mention and existing label result came from a separately prepared fictional model fixture; owner/state remained unchanged.",
+    "Mentioned result crop shows the prepared note and owner, not the filter label. Native secondary Spanish label ellipsis remains visible.",
+    "Historical preset snooze/close/reopen screenshots are not newly performed transitions. No future expiry, background execution, delivery or customer-send claim.",
+    "Runtime closure distinguishes runner job counters from uncounted web enqueues held by the test adapter.",
+    "Extensionless article links were checked against existing built targets; local Python routing and public deployment were not asserted.",
+    "Earlier immutable receipts keep their original pending statuses; this aggregate closes only the exact sources and review packets bound here."
+  ],
+  "findings": [],
+  "editorial_status": "in_progress",
+  "verifying_commit": null,
+  "publication_verified": false
+}

@@ -1,0 +1,117 @@
+{
+  "status": "source_backed_copy_prepared; new figure lead-ins pending native controls",
+  "changes": [
+    {
+      "locale": "es",
+      "source": "_i18n/es/team/conversation-lifecycle.md",
+      "original_sha256": "4976ccdacbdbbd077f1307b4861beb43b7ed37cac8e024039430623533e836c8",
+      "new_sha256": "b2d8053d73499287ddc04c5baf5600136f99d3501a6f645f2c3a71db79095330",
+      "edits": [
+        {
+          "old": "- Un step de Asignación (Assignment) de una ruta abre o asigna la conversación.",
+          "new": "- Un step de Asignación (Assignment) de una ruta ejecuta una acción para abrir la conversación. Asignar un responsable desde ese step no siempre la abre."
+        },
+        {
+          "old": "- Una nueva actividad del cliente, pedido o negocio crea trabajo que necesita atención.",
+          "new": "- Una automatización abre o deriva una conversación para atender actividad del cliente, un pedido o el negocio."
+        },
+        {
+          "old": "El timeline reúne mensajes del cliente, respuestas del equipo, actividad de automatización, asignaciones, notas, etiquetas, cierres y reaperturas para que la próxima persona pueda entender qué pasó.",
+          "new": "El timeline reúne los mensajes del cliente, respuestas del equipo y cambios registrados, como asignaciones, notas, etiquetas y cierres, para que la próxima persona pueda entender qué pasó."
+        },
+        {
+          "old": "Una conversación asignada tiene un responsable claro para la próxima acción. Una persona puede asignársela o reasignarla cuando alguien más debería continuar.",
+          "new": "El filtro **Asignados** reúne conversaciones con un responsable para la próxima acción, que puede ser una persona o un agente de IA. Una persona puede asignársela o reasignarla cuando alguien más debería continuar."
+        },
+        {
+          "old": "Responder una conversación sin asignar normalmente la asigna a la persona que envía la respuesta, siempre que esa conversación esté disponible para que la tome.",
+          "new": "Cuando se registra una respuesta en el Inbox, una conversación sin asignar puede asignarse a quien responde. Si está esperando a un equipo específico, esta autoasignación requiere pertenecer a ese equipo. Registrar la respuesta no confirma que el cliente ya la recibió."
+        },
+        {
+          "old": "Hellotext ofrece tiempos comunes como una hora, cuatro horas, mañana o una fecha y hora personalizada.",
+          "new": "Abre **Acciones** y elige **Posponer** para seleccionar **1 Hora**, **4 Horas**, **Hasta mañana** o **Personalizado**."
+        },
+        {
+          "old": "Cuando llega el momento del recordatorio, la conversación vuelve a su responsable anterior si esa asignación sigue siendo válida; de lo contrario, vuelve sin asignar.",
+          "new": "Cuando se procesa el recordatorio programado, la conversación vuelve a la persona que conservaba asignada si todavía pertenece al negocio; de lo contrario, vuelve sin asignar."
+        },
+        {
+          "old": "Cierra una conversación cuando ya no requiere ninguna acción del equipo.",
+          "new": "Cierra una conversación cuando ya no requiere ninguna acción del equipo. Selecciona **Completo** en el encabezado cuando aparezca ese control."
+        },
+        {
+          "old": "mediante el filtro **Cerradas**",
+          "new": "mediante el filtro **Cerrados**"
+        },
+        {
+          "old": "El filtro **Mencionados** ayuda a encontrar conversaciones donde una persona fue mencionada en una nota interna u otro evento de colaboración compatible.",
+          "new": "El filtro **Mencionados** muestra conversaciones con menciones en notas internas. Usa el filtro de integrantes para elegir de quién quieres revisar las menciones."
+        },
+        {
+          "old": "- **Asignadas**",
+          "new": "- **Asignados**"
+        },
+        {
+          "old": "- **Cerradas**",
+          "new": "- **Cerrados**"
+        },
+        {
+          "old": "El Inbox ofrece filtros de estado para:",
+          "new": "El Inbox ofrece filtros para:",
+          "reason": "The list includes Needs attention and Mentioned, which this same guide correctly defines as signals rather than lifecycle states."
+        }
+      ],
+      "headings_links_existing_figures_preserved": true
+    },
+    {
+      "locale": "en",
+      "source": "_i18n/en/team/conversation-lifecycle.md",
+      "original_sha256": "56c2c5fc36c66f4b168e38e9ee16c393e618fcf004757eba3547da824746fe39",
+      "new_sha256": "7408af2dd3f4811048beba4799d598f3d5ab21ad3d999a8db3665bc9d1a3a538",
+      "edits": [
+        {
+          "old": "- A journey Assignment step opens or assigns the conversation.",
+          "new": "- A journey Assignment step runs an action to open the conversation. Assigning an owner from that step does not always open it."
+        },
+        {
+          "old": "- New customer, order, or business activity creates work that needs attention.",
+          "new": "- An automation opens or escalates a conversation to handle customer, order, or business activity."
+        },
+        {
+          "old": "The conversation timeline keeps customer messages, team replies, automation activity, assignments, notes, labels, closes, and reopens together so the next person can understand what happened.",
+          "new": "The timeline keeps customer messages, team replies, and recorded changes, such as assignments, notes, labels, and closes, together so the next person can understand what happened."
+        },
+        {
+          "old": "An assigned conversation has a clear owner for the next action. Teammates can assign a conversation to themselves or reassign it when another person should continue.",
+          "new": "The **Assigned** filter contains conversations with an owner for the next action, who can be a teammate or an AI agent. Teammates can assign a conversation to themselves or reassign it when another person should continue."
+        },
+        {
+          "old": "Replying to an unassigned conversation normally assigns it to the teammate who sends the reply, as long as the conversation is available for that person to claim.",
+          "new": "When an Inbox reply is recorded, an unassigned conversation can be assigned to the teammate who replies. If it is waiting for a specific team, this automatic assignment requires membership of that team. Recording the reply does not confirm that the customer has received it."
+        },
+        {
+          "old": "Hellotext offers common reminder times such as one hour, four hours, tomorrow, or a custom date and time.",
+          "new": "Open **Actions** and choose **Snooze** to select **1 Hour**, **4 Hours**, **Until tomorrow**, or **Custom**."
+        },
+        {
+          "old": "When the reminder is due, the conversation returns to its previous owner when that assignment is still valid; otherwise, it returns unassigned.",
+          "new": "When the scheduled reminder is processed, the conversation returns to its retained human assignee if that person still belongs to the business; otherwise, it returns unassigned."
+        },
+        {
+          "old": "Close a conversation when no further team action is required.",
+          "new": "Close a conversation when no further team action is required. Select **Complete** in the header when that control is shown."
+        },
+        {
+          "old": "The **Mentioned** filter helps teammates find conversations where they were mentioned in an internal note or another supported collaboration event.",
+          "new": "The **Mentioned** filter shows conversations with mentions in internal notes. Use the teammate filter to choose whose mentions to review."
+        },
+        {
+          "old": "The Inbox provides state filters for:",
+          "new": "The Inbox provides filters for:",
+          "reason": "The list includes Needs attention and Mentioned, which this same guide correctly defines as signals rather than lifecycle states."
+        }
+      ],
+      "headings_links_existing_figures_preserved": true
+    }
+  ]
+}

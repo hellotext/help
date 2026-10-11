@@ -1,0 +1,62 @@
+{
+  "status": "prepared_fixture_and_readonly_preflight_passed",
+  "recorded_at": "2026-10-11T06:28:34.789113+00:00",
+  "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+  "scope": "New isolated fictional copy; native Note/Mention/Label relations prepared before browser. No UI save or notification delivery is demonstrated.",
+  "original_tables_preserved": 541,
+  "comparison": "All original rows and fields are exact after normalizing only the nineteen authorized fictional fields and removing the six explicitly created rows.",
+  "created_row_counts": {
+    "notes": 1,
+    "action_text_rich_texts": 1,
+    "events": 1,
+    "mentions": 1,
+    "label_items": 1,
+    "push_notifications": 1
+  },
+  "conversation_unchanged": true,
+  "native_mention_resolved_before_write": true,
+  "notification_delivered": false,
+  "default_read_only_restored": true,
+  "runner_jobs": {
+    "performed": 0,
+    "held": {
+      "ActsAsMentioner::CreateMentionsJob": 1,
+      "Elasticsearch::IndexJob": 1,
+      "PushNotification::Deliverable::DeliverJob": 1
+    },
+    "scope": "this runner only; no web-wide queue census"
+  },
+  "preflight_jobs": {
+    "performed": 0,
+    "held": {},
+    "scope": "this runner only; no web-wide queue census"
+  },
+  "browser_not_started": true,
+  "bindings": {
+    "baseline-rows.json": "0a93b9b77ef09c535e3ff0d7a90ba246edc1288506066c17f3e7267d5eda3bd5",
+    "conversation-fixture.rb": "526993ef7676d8f5b508e00704f896ce7fe83c2e227babbbbb4f135ac9913ed3",
+    "prepare-es-result.json": "6536252fc61d1fea800e35061a5eb2c32f5bc89ff7f919473295312597a8e4c4",
+    "preflight-result.json": "eaeb528c2f1fe7985c7da456e401ab5581ac6ce683df2c5a42939fe53ed8852b",
+    "prepared-state.json": "b5c51ab09b83cdb988112be93cdc02d93d94f2ffa81e5fc83496c4778b80b42b",
+    "fixture-journal.json": "f91c00f07f88642a35278ff28c8f0c18625c5b280fb807b7b3c7810aa89c2b86"
+  },
+  "earlier_attempts": [
+    {
+      "attempt": 1,
+      "outcome": "Native attachment API arity error before write access; exact readonly rows/sequences/schema proof retained.",
+      "receipt": "failed-prepare-v1-zero-delta.json"
+    },
+    {
+      "attempt": 2,
+      "outcome": "Redis unavailable during read-only boot before fixture helper; no preparation code entered. Original log retained."
+    }
+  ],
+  "fix_receipts": [
+    "native-attachment-api-fix.json",
+    "native-attachment-sgid-fix.json"
+  ],
+  "limitations": [
+    "Counters describe their own runner; not a census of future web-process queues.",
+    "Temporary fixture text and prepared note are not evidence of a browser save transition."
+  ]
+}

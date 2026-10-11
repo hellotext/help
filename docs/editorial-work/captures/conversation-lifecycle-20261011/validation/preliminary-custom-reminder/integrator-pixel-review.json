@@ -1,0 +1,106 @@
+{
+  "status": "passed_scoped_integrator_pixel_review; root_and_complete_batch_review_pending",
+  "at": "2026-10-11T06:47:26.948848+00:00",
+  "source_sha256": "a78d04a4f46dd4bdcab708374d84406a6e1a1a50efb345c30fa8c158433bb682",
+  "source_app_viewport": [
+    540,
+    844
+  ],
+  "source_native_crop": [
+    498,
+    254
+  ],
+  "source_density": 4,
+  "help_viewport": [
+    390,
+    1200
+  ],
+  "rendered_image_width": 315.9921875,
+  "captures": [
+    {
+      "file": "custom-reminder-es-help390-detail.png",
+      "clip": {
+        "x": 4,
+        "y": 4010,
+        "width": 382,
+        "height": 236
+      },
+      "page_state": {
+        "url": "http://127.0.0.1:4312/es/ciclo-conversacion-inbox.html",
+        "title": "Ciclo de una conversación en el Inbox | Hellotext",
+        "locale": "es",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          3528
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        764,
+        472
+      ],
+      "icc": "Display P3",
+      "sha256": "50d10978f4e09639bc187b0d1b4de6e29577862bde535c6b07e1d0afb4cfb8ca"
+    },
+    {
+      "file": "custom-reminder-es-help390-context.png",
+      "clip": {
+        "x": 0,
+        "y": 3528,
+        "width": 390,
+        "height": 1200
+      },
+      "page_state": {
+        "url": "http://127.0.0.1:4312/es/ciclo-conversacion-inbox.html",
+        "title": "Ciclo de una conversación en el Inbox | Hellotext",
+        "locale": "es",
+        "viewport": [
+          390,
+          1200
+        ],
+        "dpr": 2,
+        "zoom": 1,
+        "scroll": [
+          0,
+          3528
+        ]
+      },
+      "viewport": [
+        390,
+        1200
+      ],
+      "dpr": 2,
+      "pixelSize": [
+        780,
+        2400
+      ],
+      "icc": "Display P3",
+      "sha256": "718322645e418f399ded06570b4a72a638d87ddf1984a2c575bb094c680f6e51"
+    }
+  ],
+  "pixel_observations": [
+    "Whole dialog title, date15Oct2026, hour10:00, nativeSnooze andCancelar controls are complete and legible in the actual Help390 figure.",
+    "Full-width lavender stage preserves border and rounded corners, separate white inset and genuine captured background margin.",
+    "No scrollbar, pointer, debug overlay, artificial image edits, overflow or enlargement control.",
+    "Spanish lead-in quotes nativeSnooze; no custom save is claimed."
+  ],
+  "view_image_scope": {
+    "detail": "Native764x472 output viewed at original dimensions; primary legibility judgment.",
+    "context": "Native780x2400 output was viewer-resized to666x2048; composition and adjacency only."
+  },
+  "not_proven": [
+    "Native app390 dialog remains clipped; this is a genuine540viewport capture with498CSS crop.",
+    "No reminder submission, deadline persistence or wakeup execution.",
+    "Whole article/bilingual final review is not complete."
+  ]
+}

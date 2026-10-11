@@ -1,0 +1,118 @@
+{
+  "status": "capture_fixture_restored_and_owned_runtime_closed",
+  "recorded_at": "2026-10-11T07:16:10.437191+00:00",
+  "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+  "capture_source_count": 16,
+  "capture_concepts": 4,
+  "fixture_preparation_not_browser_result": true,
+  "fixture": {
+    "original_fictional_fields_restored": 19,
+    "actor_locale_restored": "es",
+    "prepared_note_locale_restored": "es",
+    "original_tables_preserved": 541,
+    "comparison": "Exact original rows and fields after excluding only six explicitly prepared native fixture rows; nineteen temporary fictional fields restored to their original bytes.",
+    "created_row_counts": {
+      "notes": 1,
+      "action_text_rich_texts": 1,
+      "events": 1,
+      "mentions": 1,
+      "label_items": 1,
+      "push_notifications": 1
+    },
+    "created_rows_preserved": true,
+    "conversation_owner_state_and_cursors_unchanged": true,
+    "prepared_notification_delivered": false,
+    "original_closed_source_database_rows_schema_sequences_unchanged": true
+  },
+  "jobs": {
+    "prepare_runner": {
+      "performed": 0,
+      "held": {
+        "ActsAsMentioner::CreateMentionsJob": 1,
+        "Elasticsearch::IndexJob": 1,
+        "PushNotification::Deliverable::DeliverJob": 1
+      },
+      "scope": "this runner only; no web-wide queue census"
+    },
+    "final_verifier_runner": {
+      "performed": 0,
+      "held": {},
+      "scope": "this runner only; no web-wide queue census"
+    },
+    "web": "Native ActiveJob TestAdapter retained perform_later jobs; Sidekiq fake, no workers or drains. This is not a census of web-process enqueued jobs or a delivery test."
+  },
+  "transport": {
+    "browser_submission_of_note_label_or_reminder": false,
+    "observed_forwarded_non_read_methods": 0,
+    "proxy_method_status_counts": [
+      {
+        "method": "CONNECT",
+        "status": 403,
+        "count": 664
+      },
+      {
+        "method": "GET",
+        "status": 200,
+        "count": 2353
+      },
+      {
+        "method": "GET",
+        "status": 403,
+        "count": 15
+      },
+      {
+        "method": "GET",
+        "status": 502,
+        "count": 4
+      }
+    ],
+    "automatic_message_sighting_posts": "Blocked before forwarding; no cursor/seen update claim.",
+    "external_connections": "Denied by browser proxy and OS process egress sandbox.",
+    "measurement_limit": "Proxy logs report headers/denials, not a proof that every response body completed. All non-GET/HEAD methods default-denied; automatic sightings were also blocked in CDP before proxy. No external connection forwarded."
+  },
+  "runtime": {
+    "owned_puma_redis_chrome_proxy_closed": true,
+    "ports_verified_free": [
+      3304,
+      3305,
+      6421,
+      9492
+    ],
+    "database_and_artifacts_preserved": true,
+    "other_services_changed": false
+  },
+  "source_integrity": {
+    "tracked_file_count": 17691,
+    "source_manifest_sha256": "d28b8d6b6975cc08fa885adf7157af117863987f1e5ff427ca9671a68a8a576c",
+    "validation": "Launcher rehashed every source file before restore and final read-only verification; no app source, DOM, styles or image pixel edits."
+  },
+  "bindings": {
+    "fixture-preparation-result.json": "c89b1f41e1ac0f723aa2bb321b28cc88f304deeed01feebec32a399b87473786",
+    "original-source-final-preservation.json": "282e1aa3c88fbdfceab12c565c029cfa53ad9f46806ac7aa921cab4cb16a125e",
+    "runtime-shutdown.json": "3832e9334f2b7f45466150e0c2a217d44c0fb51c89be28d17ebd581ef0574a56",
+    "browser-proxy-shutdown.json": "d84cc1576e3bdda255b7adb62a828fcf7f4c22c7ae604750a0bff3d0dbacb402",
+    "transport-final-summary.json": "a961a80906d4c9b19abe231f4b0ebf2472304388b77d75f2ff2a2603dab79328",
+    "capture-network-observations.json": "8d75ddda1bf5dadee6f470cb441e04604e1d9b293050ef52bdbd9913e5345dd5",
+    "locale-cache-restart-result.json": "b82f4d35a69a0c935341a90abb8f8a09b87199a1bc22c3cbec9eb9bd85d7d7b7"
+  },
+  "private_receipt_sha256": {
+    "prepare-es-result.json": "6536252fc61d1fea800e35061a5eb2c32f5bc89ff7f919473295312597a8e4c4",
+    "preflight-result.json": "eaeb528c2f1fe7985c7da456e401ab5581ac6ce683df2c5a42939fe53ed8852b",
+    "locale-en-result.json": "89f7855ec895213468cb27237764a21fcce3e05b91be4bd7d72f0d56803be678",
+    "restore-result.json": "f0a2063282079e62a2d975baecdd6a3226e9751c07b8abf769940b2619c3c8dc",
+    "verify-final-result.json": "218b3bfc05a062e9bfdbcffa3424b7e69e76d40c0ab7928ffa933e7576609f0b",
+    "verify-final-after-rows.json": "7c1ac6620033e514705d576f4689434558bbf584af560b72394ab2e833e7fb7d",
+    "contract.json": "6f386997b061d53168711eeb004b0cc99a720e7b0fdcbd51619f29b0965c1d79",
+    "read-contract.json": "1d6a56407c3513e136893c28c488839093b81f601205d86e213f4239dac7a151",
+    "conversation-fixture.rb": "526993ef7676d8f5b508e00704f896ce7fe83c2e227babbbbb4f135ac9913ed3",
+    "fixture-journal.json": "f91c00f07f88642a35278ff28c8f0c18625c5b280fb807b7b3c7810aa89c2b86"
+  },
+  "capture_manifest_sha256": "e6e95ce65a521f666563de153b2f2383174ad0da40588e1211d20bb1de39cb7b",
+  "limitations": [
+    "Prepared Note/Mention/LabelItem is prior fictional fixture, not proof of a browser save transition.",
+    "Reminder and typed note were not submitted; label options were not toggled.",
+    "Four local GET502 transport failures are preserved; recovered through authorized reading routes, with no proven root cause.",
+    "Custom reminder narrow source uses a native540px viewport because the native dialog clips at390px; rejected390px diagnostic preserved.",
+    "No claim of global production parity, notification delivery, read-cursor advancement or zero web enqueued jobs."
+  ]
+}

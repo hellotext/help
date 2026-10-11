@@ -1,0 +1,39 @@
+{
+  "status": "stopped_owned_help_review_processes",
+  "verified_at": "2026-10-11T07:37:22.012597+00:00",
+  "started_at": "2026-10-11T06:45:40.830787+00:00",
+  "stopped_at": "2026-10-11T07:37:03.477649+00:00",
+  "owned_launcher_pid": 26789,
+  "process_checks": [
+    {
+      "pid": 26789,
+      "absent": true
+    },
+    {
+      "pid": 26800,
+      "absent": true
+    },
+    {
+      "pid": 26801,
+      "absent": true
+    }
+  ],
+  "port_checks": [
+    {
+      "port": 4312,
+      "listener_absent": true
+    },
+    {
+      "port": 9498,
+      "listener_absent": true
+    }
+  ],
+  "exit_codes": [
+    -15,
+    0
+  ],
+  "only_owned_process_groups_terminated": true,
+  "private_profile_remains_outside_help": true,
+  "process_metadata_sha256": "aea6424c85334c7e8ac09110ca84629057d125c697bfc0ecf0da4239dba1ca29",
+  "scope": "Only the dedicated Help static review launcher, HTTP server and Chrome were stopped. The separately owned application capture shutdown is bound by capture-runtime-final.json."
+}

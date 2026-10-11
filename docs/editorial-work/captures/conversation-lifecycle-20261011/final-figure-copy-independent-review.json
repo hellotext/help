@@ -1,0 +1,220 @@
+{
+  "status": "passed_static_figure_copy_and_preservation_delta",
+  "reviewed_at": "2026-10-11T07:22:19.211340+00:00",
+  "findings": [],
+  "scope": "Four new concepts with three new lead paragraphs per locale, accessible descriptions, responsive source selection and exact restoration of previously approved prose; no fresh app or page pixel claim.",
+  "bindings": {
+    "source_register_sha256": "d584342dbd290bcec1af431b18e86a984bab2c367a3e8d4a1421c9f2b196c320",
+    "integration_record_sha256": "752ba2605313de78f983a272c7e9927fbadbc75c00f120785413902dc2f24967",
+    "new_figure_copy_proposal_sha256": "59abfc73e5d9aa8d0b34ca3b61a84aff50f102925e323cb15f6731ce76ec5def",
+    "retained_mobile_presentation_sha256": "5a3d696a35a6e0807d2c5a4b801551209f77c561fdd1ab1af1fa7aedfae35b05",
+    "previous_copy_review_sha256": "71cda855a207878792cfc8e54d2b3881d838b329486e37d7da1535c60cd0ec81",
+    "new_en_source_pixel_review_sha256": "930c96c4e7d38b68f8f170b38415912494da40723487ba0f79921cce5b9de941"
+  },
+  "articles": [
+    {
+      "locale": "es",
+      "path": "_i18n/es/team/conversation-lifecycle.md",
+      "sha256": "c3509b86c6186e1c9cf6dc5a8b28dc9c4659eb4c7c2f9ad9c615c0a9ad5350f7",
+      "approved_copy_reconstructed_sha256": "b2d8053d73499287ddc04c5baf5600136f99d3501a6f645f2c3a71db79095330",
+      "new_concepts": 4,
+      "new_lead_paragraphs": 3,
+      "unchanged_existing_mentioned_paragraph": true,
+      "headings_preserved": 14,
+      "ordered_liquid_links_preserved": 12,
+      "figures": [
+        {
+          "id": "snooze-options",
+          "figure_sha256": "7e1bfb1f992a867e72d33f835b7b106cc1eb8e384e35b5bba5b776704c77bae0",
+          "frame_cap_css": 408,
+          "selected_sources": [
+            "/images/editorial/inbox-actions-continuation-20261010/snooze-options-es-mobile.png"
+          ],
+          "static_unlinked": true
+        },
+        {
+          "id": "custom-reminder",
+          "figure_sha256": "ee5f11da6595f5d8502b5d1d5ee1abc200e5fc4e61aa1a830066c90cb0377c5a",
+          "frame_cap_css": 516,
+          "selected_sources": [
+            "/images/editorial/conversation-lifecycle-20261011/custom-reminder-es-desktop.png",
+            "/images/editorial/conversation-lifecycle-20261011/custom-reminder-es-mobile-540.png"
+          ],
+          "static_unlinked": true
+        },
+        {
+          "id": "snoozed-result",
+          "figure_sha256": "cdd708b69a7dc40f72f399cc6a290236b60054e9626e44e56a00ecc4edf3b1c4",
+          "frame_cap_css": 408,
+          "selected_sources": [
+            "/images/editorial/inbox-actions-continuation-20261010/snoozed-result-es-mobile.png"
+          ],
+          "static_unlinked": true
+        },
+        {
+          "id": "closed-result",
+          "figure_sha256": "167b838ec1bf3534d28613a56221324e0b1bb7c73825a22530e2fae7a256c640",
+          "frame_cap_css": 408,
+          "selected_sources": [
+            "/images/editorial/inbox-actions-continuation-20261010/closed-result-es-mobile.png"
+          ],
+          "static_unlinked": true
+        },
+        {
+          "id": "reopened-result",
+          "figure_sha256": "c00951822ef360fc2527cf6a1128fcd8869989f50525c7e152b875f71bbbef09",
+          "frame_cap_css": 408,
+          "selected_sources": [
+            "/images/editorial/inbox-actions-continuation-20261010/reopened-result-es-mobile.png"
+          ],
+          "static_unlinked": true
+        },
+        {
+          "id": "mentioned-context",
+          "figure_sha256": "30d0408ab66005edd82f4402e11f9b9cbda0e4e4387d564f6d366c456ae4decc",
+          "frame_cap_css": 805,
+          "selected_sources": [
+            "/images/editorial/conversation-lifecycle-20261011/mentioned-context-es-desktop.png",
+            "/images/editorial/conversation-lifecycle-20261011/mentioned-context-es-mobile.png"
+          ],
+          "static_unlinked": true
+        },
+        {
+          "id": "note-mention-draft",
+          "figure_sha256": "1a28460da31e003fb052d47bb3682ada19d69c3e45fe916dde328141e2b6640e",
+          "frame_cap_css": 805,
+          "selected_sources": [
+            "/images/editorial/conversation-lifecycle-20261011/note-mention-draft-es-desktop.png",
+            "/images/editorial/conversation-lifecycle-20261011/note-mention-draft-es-mobile.png"
+          ],
+          "static_unlinked": true
+        },
+        {
+          "id": "conversation-labels",
+          "figure_sha256": "525e0dffb6c8f0db7f6d8ed1bc3b1fd5d69aad7b9e758842a2a9bf76444d4657",
+          "frame_cap_css": 483,
+          "selected_sources": [
+            "/images/editorial/conversation-lifecycle-20261011/conversation-labels-es-desktop.png",
+            "/images/editorial/conversation-lifecycle-20261011/conversation-labels-es-mobile.png"
+          ],
+          "static_unlinked": true
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "path": "_i18n/en/team/conversation-lifecycle.md",
+      "sha256": "d788905e523c5fa53f46f51c55c91042e80cde15200d476f2d10883344547af6",
+      "approved_copy_reconstructed_sha256": "7408af2dd3f4811048beba4799d598f3d5ab21ad3d999a8db3665bc9d1a3a538",
+      "new_concepts": 4,
+      "new_lead_paragraphs": 3,
+      "unchanged_existing_mentioned_paragraph": true,
+      "headings_preserved": 14,
+      "ordered_liquid_links_preserved": 12,
+      "figures": [
+        {
+          "id": "snooze-options",
+          "figure_sha256": "00c184f3731dcf092ebbed2c2391f8d5ff00c8d86e5cba02ab45d3bbd94b03bd",
+          "frame_cap_css": 408,
+          "selected_sources": [
+            "/images/editorial/inbox-actions-continuation-20261010/snooze-options-en-mobile.png"
+          ],
+          "static_unlinked": true
+        },
+        {
+          "id": "custom-reminder",
+          "figure_sha256": "eb0e82a27e3076b44ba09babc5936935d48f01dfc73a9165fec093d71c2be678",
+          "frame_cap_css": 516,
+          "selected_sources": [
+            "/images/editorial/conversation-lifecycle-20261011/custom-reminder-en-desktop.png",
+            "/images/editorial/conversation-lifecycle-20261011/custom-reminder-en-mobile-540.png"
+          ],
+          "static_unlinked": true
+        },
+        {
+          "id": "snoozed-result",
+          "figure_sha256": "696bfd21367479114f945995bc46b8c38ff04cb4e6cda4bc9b13b377b27ef55c",
+          "frame_cap_css": 408,
+          "selected_sources": [
+            "/images/editorial/inbox-actions-continuation-20261010/snoozed-result-en-mobile.png"
+          ],
+          "static_unlinked": true
+        },
+        {
+          "id": "closed-result",
+          "figure_sha256": "a463312f12a12f1d9e98851b81e6542f5b5cd7d672719ce0d98086ebe218e979",
+          "frame_cap_css": 408,
+          "selected_sources": [
+            "/images/editorial/inbox-actions-continuation-20261010/closed-result-en-mobile.png"
+          ],
+          "static_unlinked": true
+        },
+        {
+          "id": "reopened-result",
+          "figure_sha256": "1b23b3e39bc7d02fd5b8c53e21b7d6168847025281d469b92f686a1c4f59fbcc",
+          "frame_cap_css": 408,
+          "selected_sources": [
+            "/images/editorial/inbox-actions-continuation-20261010/reopened-result-en-mobile.png"
+          ],
+          "static_unlinked": true
+        },
+        {
+          "id": "mentioned-context",
+          "figure_sha256": "12d2ab4040de991b1bda2636ecb8a95bc37bd15960495b81bf4cf56dd6268c7b",
+          "frame_cap_css": 805,
+          "selected_sources": [
+            "/images/editorial/conversation-lifecycle-20261011/mentioned-context-en-desktop.png",
+            "/images/editorial/conversation-lifecycle-20261011/mentioned-context-en-mobile.png"
+          ],
+          "static_unlinked": true
+        },
+        {
+          "id": "note-mention-draft",
+          "figure_sha256": "60f8ea5a9c67bf8a29c6c1ef627d6a59087f03818f2db54bbae75d6ce6766924",
+          "frame_cap_css": 805,
+          "selected_sources": [
+            "/images/editorial/conversation-lifecycle-20261011/note-mention-draft-en-desktop.png",
+            "/images/editorial/conversation-lifecycle-20261011/note-mention-draft-en-mobile.png"
+          ],
+          "static_unlinked": true
+        },
+        {
+          "id": "conversation-labels",
+          "figure_sha256": "ce6e525547bff9db82591354a8f8c4ba73b0d843115c1c49573ca74dd8e8dc0e",
+          "frame_cap_css": 483,
+          "selected_sources": [
+            "/images/editorial/conversation-lifecycle-20261011/conversation-labels-en-desktop.png",
+            "/images/editorial/conversation-lifecycle-20261011/conversation-labels-en-mobile.png"
+          ],
+          "static_unlinked": true
+        }
+      ]
+    }
+  ],
+  "assets": {
+    "preserved": 32,
+    "selected": 24,
+    "retained_originals": 16,
+    "retained_selected_mobile": 8,
+    "retained_unselected_desktop": 8,
+    "new_sources": 16,
+    "all_byte_hashes_match_register": true,
+    "new_sources_match_originals": true
+  },
+  "conclusions": [
+    "Custom reminder lead names the actual Snooze action in both locales. Instruction is prospective; accessible caption explicitly says the illustrated draft has not been saved.",
+    "Note composer lead names Add private note / Agregar nota privada and @ teammate selection. Captions describe an unsaved draft and candidate picker, not a completed selection or save.",
+    "Mentioned context uses its existing approved explanatory paragraph; new description says prepared note/mention already exists and owner retained. It does not assert the cropped filter label is visible.",
+    "Labels lead and descriptions correspond to the native menu and pre-existing checked label; no toggle/application action inferred.",
+    "Historical mobile390 sources now serve both Help viewport classes with frame408, preserving bytes, descriptions and markup except declared source/dimensions/cap changes. This does not claim desktop-app capture provenance.",
+    "Both final bodies reconstruct the exact historical copy-review hashes after removing the new blocks/leads and restoring the four prior figure blocks. No unrelated prose/header/link delta."
+  ],
+  "pending": [
+    "Final Help EN native complete-page and all24 figure-detail pixels at1440/580/390; no passed claim yet.",
+    "Actual runtime image geometry/density/visual readability, especially custom-reminder app540 atHelp390, must be bound to final page receipt."
+  ],
+  "notes": [
+    "The integration record status describes build pending at its creation time; writer reports later build/HTTP PASS. This receipt does not re-run or independently certify those checks.",
+    "Independent source pixel inspection covers the note draft and picker; its toolbar entry label is corroborated by native capture-owner admission and locale sources, not asserted visible in the cropped PNG."
+  ]
+}

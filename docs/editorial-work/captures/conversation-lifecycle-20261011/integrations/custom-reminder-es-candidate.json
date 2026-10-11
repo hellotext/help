@@ -1,0 +1,93 @@
+{
+  "status": "provisional_help_integration_for_390_readability; not_complete_batch",
+  "sources": [
+    {
+      "file": "custom-reminder-es-desktop.png",
+      "id": "custom-reminder",
+      "locale": "es",
+      "layout": "desktop",
+      "clip": [
+        551,
+        371,
+        498,
+        258
+      ],
+      "pixelSize": [
+        1992,
+        1032
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "icc": "Display P3",
+      "sha256": "8910d2f3f4af4998d444774fb1fde1eb1f1af01e7c477236bbc5c152e33cba15",
+      "sourceRevision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "capturedAt": "2026-10-11T06:39:10.674Z",
+      "viewport": [
+        1600,
+        1000
+      ],
+      "zoom": 1,
+      "transformations": "none",
+      "limitations": [
+        "Native isolated Rails production UI; environment predicates unchanged.",
+        "Notification permission remains native. Exact owned-message sighting POSTs are denied; no message-read or cursor-update claim.",
+        "Only reviewed exact Inbox/translation GETs and indexed static files; all writes and WebSockets are denied. Five seconds of native idle follow pointer parking before every screenshot.",
+        "Notes/mentions/labels shown as persisted context are prepared fictional model fixtures, not proof of a browser submission. Date/time and typed note controls remain unsubmitted drafts.",
+        "No sends, entry events, job draining, DOM/CSS alterations or screenshot pixel transformations are authorized by this helper."
+      ]
+    },
+    {
+      "file": "custom-reminder-es-mobile-540.png",
+      "id": "custom-reminder",
+      "locale": "es",
+      "layout": "mobile",
+      "clip": [
+        21,
+        295,
+        498,
+        254
+      ],
+      "pixelSize": [
+        1992,
+        1016
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "icc": "Display P3",
+      "sha256": "a78d04a4f46dd4bdcab708374d84406a6e1a1a50efb345c30fa8c158433bb682",
+      "sourceRevision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "capturedAt": "2026-10-11T06:41:34.621Z",
+      "viewport": [
+        540,
+        844
+      ],
+      "zoom": 1,
+      "transformations": "none",
+      "limitations": [
+        "Native isolated Rails production UI; environment predicates unchanged.",
+        "Notification permission remains native. Exact owned-message sighting POSTs are denied; no message-read or cursor-update claim.",
+        "Only reviewed exact Inbox/translation GETs and indexed static files; all writes and WebSockets are denied. Five seconds of native idle follow pointer parking before every screenshot.",
+        "Notes/mentions/labels shown as persisted context are prepared fictional model fixtures, not proof of a browser submission. Date/time and typed note controls remain unsubmitted drafts.",
+        "No sends, entry events, job draining, DOM/CSS alterations or screenshot pixel transformations are authorized by this helper."
+      ]
+    }
+  ],
+  "raw_visual_acceptance": "Root inspected both saved originals; source-complete native540 mobile remains subject to actual Help390 reading. App390 rejected capture is retained externally, never selected.",
+  "before_sha256": "b2d8053d73499287ddc04c5baf5600136f99d3501a6f645f2c3a71db79095330",
+  "after_sha256": "f201364ccbb32dd997c71bf5473e1768d5431ad2eac9dd1a0ab4171db923fa3c",
+  "article": "_i18n/es/team/conversation-lifecycle.md",
+  "native_image_width_cap": 498,
+  "frame_width_cap": 516,
+  "copy": {
+    "lead": "Para elegir otro momento, selecciona **Personalizado**, establece la fecha y la hora y confirma con **Snooze**.",
+    "aria": "Elige un recordatorio personalizado",
+    "alt": "Diálogo Posponer conversación con los campos de fecha y hora y el botón Snooze.",
+    "caption": "Interfaz real con datos ficticios. La fecha y la hora están elegidas; este recordatorio todavía no se ha guardado."
+  },
+  "root_approved_sha256": [
+    "8910d2f3f4af4998d444774fb1fde1eb1f1af01e7c477236bbc5c152e33cba15",
+    "a78d04a4f46dd4bdcab708374d84406a6e1a1a50efb345c30fa8c158433bb682"
+  ]
+}

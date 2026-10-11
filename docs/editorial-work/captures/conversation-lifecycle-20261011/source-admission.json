@@ -1,0 +1,61 @@
+{
+  "schema": "conversation-lifecycle-source-admission-v1",
+  "status": "accepted_source_pixels_for_local_integration",
+  "scope": "Four scenes in two locales and two layouts, sixteen immutable native source PNGs. This does not close Help build, full-page or 390px mounting QA.",
+  "manifest_file": "manifest.json",
+  "manifest_sha256": "e6e95ce65a521f666563de153b2f2383174ad0da40588e1211d20bb1de39cb7b",
+  "source_count": 16,
+  "concepts": [
+    "conversation-labels",
+    "custom-reminder",
+    "mentioned-context",
+    "note-mention-draft"
+  ],
+  "review_bindings": {
+    "root-es-source-pixel-review.json": "2724218026b4c936761f4ecfc83066d01cadb7f18b5fc3217bf2f928479c28a2",
+    "root-es-frozen-manifest-binding.json": "41d0997aae87b8fee52ad1d2f61bf2198d93a0aaa7f816423c7358c107cfe27a",
+    "source-en-pixel-review.json": "930c96c4e7d38b68f8f170b38415912494da40723487ba0f79921cce5b9de941",
+    "fixture-preparation-result.json": "c89b1f41e1ac0f723aa2bb321b28cc88f304deeed01feebec32a399b87473786",
+    "original-source-final-preservation.json": "282e1aa3c88fbdfceab12c565c029cfa53ad9f46806ac7aa921cab4cb16a125e",
+    "transport-final-summary.json": "a961a80906d4c9b19abe231f4b0ebf2472304388b77d75f2ff2a2603dab79328",
+    "capture-network-observations.json": "8d75ddda1bf5dadee6f470cb441e04604e1d9b293050ef52bdbd9913e5345dd5",
+    "browser-proxy-shutdown.json": "d84cc1576e3bdda255b7adb62a828fcf7f4c22c7ae604750a0bff3d0dbacb402"
+  },
+  "native_density": 4,
+  "icc": "Display P3",
+  "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+  "limitation_summary": {
+    "custom-reminder": [
+      "Date/time draft only; confirm button not activated.",
+      "Spanish modal native action label is Snooze.",
+      "Mobile source uses viewport540x844 and clip498x254 in both locales. Native application ES at390 clipped the time control and was rejected. This source does not certify app390. Help390 mounting is a separate QA gate."
+    ],
+    "note-mention-draft": [
+      "Visible Add private note toolbar entry used natively; Trix text and @ picker were not submitted.",
+      "Existing prepared note is partially covered by native picker."
+    ],
+    "conversation-labels": [
+      "Existing Prioridad checked by prepared model fixture; no toggle/new label action.",
+      "Secondary label Devoluciones truncates natively; mobile contact title also truncates."
+    ],
+    "mentioned-context": [
+      "Prepared note/mention inspected via native mentioned filter URL; filter label is not visible in cropped pixels.",
+      "Actor and owner remain User1 while Mentioned member is User2; no delivery, creation, read-cursor or notification assertion."
+    ]
+  },
+  "rejected_evidence_excluded": [
+    {
+      "file": "custom-reminder-es-mobile-390-rejected.png",
+      "sha256": "e38014de448b34a2d7fb541d77af8273eab2c92eb5d385759efe6570c3acda84",
+      "status": "rejected",
+      "reason": "Native date/time row exceeds viewport390; not imported as accepted source."
+    }
+  ],
+  "explicit_browser_note_label_snooze_submits": 0,
+  "browser_transport_nonread_forwarded": 0,
+  "prepared_fixture_not_ui_submission": true,
+  "own_browser_proxy_closed": true,
+  "owner_runtime_restore_verify": "Reported passed; final curated runtime receipt will be bound by separate closure record.",
+  "publication": false,
+  "article_completion": false
+}

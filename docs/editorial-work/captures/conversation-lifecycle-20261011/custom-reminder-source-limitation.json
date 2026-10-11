@@ -1,0 +1,52 @@
+{
+  "status": "native_app_limitation_recorded; selected540variant_Help390_integrator_passed",
+  "rejected": {
+    "file": "custom-reminder-es-mobile-390-rejected.png",
+    "sha256": "e38014de448b34a2d7fb541d77af8273eab2c92eb5d385759efe6570c3acda84",
+    "source_viewport": [
+      390,
+      844
+    ],
+    "native_clip": [
+      0,
+      295,
+      390,
+      254
+    ],
+    "pixel_size": [
+      1560,
+      1016
+    ],
+    "reason": "At native app viewport390 the custom reminder dialog clips the time control. This PNG is excluded from all article source references.",
+    "original_preserved": "conversation-lifecycle-capture-20261011/captures/custom-reminder-es-mobile-390-rejected.png",
+    "captured_at": "2026-10-11T06:42:22.876Z",
+    "chronology": "Initial app390 failure was measured in native DOM geometry before a PNG existed. This later diagnostic native PNG preserves the visible defect; it is not represented as the initial observation."
+  },
+  "alternative": {
+    "file": "custom-reminder-es-mobile-540.png",
+    "source_viewport": [
+      540,
+      844
+    ],
+    "native_crop_size": [
+      498,
+      254
+    ],
+    "pixel_size": [
+      1992,
+      1016
+    ],
+    "density": 4,
+    "sha256": "a78d04a4f46dd4bdcab708374d84406a6e1a1a50efb345c30fa8c158433bb682",
+    "app390_claim": false,
+    "transformations": [],
+    "help390_validation": "validation/preliminary-custom-reminder/integrator-pixel-review.json",
+    "root_preliminary_review": {
+      "file": "root-es-source-review-progress-v2.json",
+      "sha256": "fb1c477c6b4368ec120950c6037f933a57ae897596ab4c016c3c7865805614da",
+      "status": "pass_for_provisional_Help390; final_complete_page_review_pending"
+    }
+  },
+  "native_locale": "Spanish title Posponer conversación; native confirm label Snooze preserved exactly.",
+  "product_changes": false
+}

@@ -1,0 +1,94 @@
+{
+  "status": "planned; new captures and complete-page QA pending",
+  "preserve": [
+    "shared stub, titles, routes, headings and guide links",
+    "16 existing source PNGs byte for byte",
+    "neutral Spanish with tú; bilingual instruction parity"
+  ],
+  "sections": [
+    {
+      "section": "Entry channels and recorded activity",
+      "decision": "Prose only",
+      "reason": "Conceptual overview of several entry paths; no single screenshot proves them. Qualify assignment-only and generic activity using real source."
+    },
+    {
+      "section": "Open / Unassigned / Assigned",
+      "decision": "Prose plus existing assignment guide link",
+      "reason": "Meaning and ownership distinctions; duplicating that guide’s assignment sequence would not explain a new lifecycle action."
+    },
+    {
+      "section": "Reminders / Snooze choices",
+      "decision": "Reuse snooze-options ES/EN desktop/mobile",
+      "question": "Where do I choose a preset or custom reminder?"
+    },
+    {
+      "section": "Reminders / Custom",
+      "decision": "New custom-reminder ES/EN desktop/mobile, after a short exact-control instruction",
+      "question": "Where do I choose the date and time?",
+      "scope": "An unsubmitted settings dialog. No new saved deadline or reminder execution is claimed."
+    },
+    {
+      "section": "Reminders / Snoozed result",
+      "decision": "Reuse snoozed-result ES/EN desktop/mobile",
+      "question": "How do I recognize the snoozed state and Reopen control?",
+      "scope": "Historical native preset action; not new custom scheduling, expiry or wakeup evidence."
+    },
+    {
+      "section": "Closed and manual reopening",
+      "decision": "Reuse closed-result and reopened-result ES/EN desktop/mobile",
+      "question": "How do I recognize closure and recover active controls with the retained human owner?",
+      "scope": "No new close/reopen. Live attention clearing and deferred jobs are source-reviewed behavior, not claimed screenshot actions."
+    },
+    {
+      "section": "Needs attention",
+      "decision": "Prose and existing response/filter links",
+      "reason": "Priority signal separate from lifecycle state; no new live clearing demonstration is needed or implied."
+    },
+    {
+      "section": "Mentioned",
+      "decision": "New mentioned-context ES/EN desktop/mobile",
+      "question": "How does a recorded internal-note mention appear in the Mentioned view?",
+      "scope": "Result from a prepared local fictional Note/Mention, not a browser save or notification delivery."
+    },
+    {
+      "section": "Notes",
+      "decision": "New note-mention-draft ES/EN desktop/mobile after exact-control instruction",
+      "question": "How do I use the internal-note composer and teammate mention selection?",
+      "scope": "Unsaved native draft; distinguish it from the separately prepared fictional result."
+    },
+    {
+      "section": "Labels",
+      "decision": "New conversation-labels ES/EN desktop/mobile",
+      "question": "Where are conversation labels selected without changing the owner?",
+      "scope": "Native chooser with local existing label data; no browser apply claim."
+    },
+    {
+      "section": "Deliberate filters and daily order",
+      "decision": "Prose and existing comprehensive filter guide link",
+      "reason": "Summarizes meanings already explained; an extra repeated filter menu is redundant."
+    },
+    {
+      "section": "Automation and related guides",
+      "decision": "Prose and existing handoff guide link",
+      "reason": "Conceptual effects and navigation. No automation execution or product changes in this batch."
+    }
+  ],
+  "presentation": "Existing static lavender figure component, responsive ES/EN sources, native logical caps, no link/open control, retained border and two insets.",
+  "validation_pending": [
+    "Current exact controls/source for four new states",
+    "Approved native P3 PNGs and fixture/read-only runtime receipt",
+    "Production build and strict security verifier",
+    "Exact built/served assets, docs exclusion and guide links",
+    "Complete ES/EN pages 1440/580/390 plus all figure details at native 2x P3",
+    "Actual verifying commit and ledger closure by parent"
+  ],
+  "retained_presentation_revision": {
+    "decision": "Use the eight native390 mobile PNGs in their four inherited figures at every Help viewport; preserve eight desktop originals as unselected references.",
+    "reason": "Original desktop source1600 rendered698CSS failed native CSS-size reading review; root approved source selection and390 image cap without pixel changes.",
+    "record": "integrations/retained-mobile-presentation.json",
+    "preserved_sources": 32,
+    "selected_sources": 24,
+    "native_source_density_minimum": 4,
+    "diagnostic_1x_not_a_source": true
+  }
+}
