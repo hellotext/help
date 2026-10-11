@@ -1,0 +1,960 @@
+{
+  "checkpoint_sha256": "e0d55dce8b3a72bb6eee08d854d8a99a221a89aed9e9230f87548c8d59f1963e",
+  "view": {
+    "source": "_i18n/en/numbers/email-channel-fundamentals.md",
+    "source_sha256": "19175d63f4cd706e2442f3081dda2455f1751a393aa5900261fb5d4d23490995",
+    "built_html": "_site/email-channel-fundamentals.html",
+    "built_html_sha256": "1d68672df4cf56cee93ba3bd6a16055a5eb7437bfeac6672f1091ee1654ab85f",
+    "geometry": {
+      "url": "http://127.0.0.1:3368/email-channel-fundamentals.html",
+      "title": "Email channel fundamentals | Hellotext",
+      "locale": "en",
+      "viewport": [
+        1440,
+        1200
+      ],
+      "dpr": 2,
+      "zoom": 1,
+      "documentWidth": 1440,
+      "documentHeight": 11935,
+      "article": {
+        "x": 375.9921875,
+        "y": 563.828125,
+        "width": 774.4140625,
+        "height": 10934,
+        "right": 1150.40625,
+        "bottom": 11497.828125
+      },
+      "headings": [
+        "What Email is best forLink copied",
+        "Before sending from the InboxLink copied",
+        "Where you can use EmailLink copied",
+        "Understand the sender, recipient, and reply addressLink copied",
+        "Send an email from the InboxLink copied",
+        "What the customer receivesLink copied",
+        "Links and personalizationLink copied",
+        "Text length and attachmentsLink copied",
+        "How customer replies reach the InboxLink copied",
+        "Replies from another addressLink copied",
+        "New emails sent to your existing business mailboxLink copied",
+        "Conversation ownership and reply windowsLink copied",
+        "Subscription status and unsubscribe requestsLink copied",
+        "Understand sending, delivery, and read informationLink copied",
+        "Troubleshoot an Email conversationLink copied",
+        "Email is missing from the destination menuLink copied",
+        "The message used an unexpected sender or subjectLink copied",
+        "The customer cannot find a sent emailLink copied",
+        "The customer’s reply does not appearLink copied",
+        "An attachment fails or looks differentLink copied",
+        "First Email conversation checklistLink copied",
+        "Related guidesLink copied"
+      ],
+      "figures": [
+        {
+          "id": "email-recipient-menu",
+          "figure": {
+            "x": 375.9921875,
+            "y": 2873.828125,
+            "width": 774.4140625,
+            "height": 234,
+            "right": 1150.40625,
+            "bottom": 3107.828125
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 2873.828125,
+            "width": 774.4140625,
+            "height": 234,
+            "right": 1150.40625,
+            "bottom": 3107.828125
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 420.1953125,
+            "y": 2902.828125,
+            "width": 686,
+            "height": 176,
+            "right": 1106.1953125,
+            "bottom": 3078.828125
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 429.1953125,
+            "y": 2911.828125,
+            "width": 668,
+            "height": 158,
+            "right": 1097.1953125,
+            "bottom": 3069.828125
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3368/images/editorial/email-completion-20261011/email-recipient-menu-en-desktop.png",
+          "naturalSize": [
+            668,
+            158
+          ],
+          "loaded": true,
+          "alt": "Inbox Email menu showing two email addresses for the same example customer.",
+          "caption": "Real interface with fictional data: choose the customer's intended recipient address under Email.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "email-compose",
+          "figure": {
+            "x": 375.9921875,
+            "y": 3777.828125,
+            "width": 774.4140625,
+            "height": 321,
+            "right": 1150.40625,
+            "bottom": 4098.828125
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 3777.828125,
+            "width": 774.4140625,
+            "height": 321,
+            "right": 1150.40625,
+            "bottom": 4098.828125
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 495.6953125,
+            "y": 3806.828125,
+            "width": 535,
+            "height": 263,
+            "right": 1030.6953125,
+            "bottom": 4069.828125
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 504.6953125,
+            "y": 3815.828125,
+            "width": 517,
+            "height": 245,
+            "right": 1021.6953125,
+            "bottom": 4060.828125
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3368/images/editorial/email-completion-20261011/email-compose-en-desktop.png",
+          "naturalSize": [
+            517,
+            245
+          ],
+          "loaded": true,
+          "alt": "Inbox Email editor showing the subject and body of an unsent draft about picking up an example order.",
+          "caption": "Draft with fictional data: review the email subject and body before sending.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        },
+        {
+          "id": "email-inline-preview",
+          "figure": {
+            "x": 375.9921875,
+            "y": 4924.828125,
+            "width": 774.4140625,
+            "height": 646,
+            "right": 1150.40625,
+            "bottom": 5570.828125
+          },
+          "stage": {
+            "x": 375.9921875,
+            "y": 4924.828125,
+            "width": 774.4140625,
+            "height": 646,
+            "right": 1150.40625,
+            "bottom": 5570.828125
+          },
+          "stageStyle": {
+            "padding": [
+              "28px",
+              "28px",
+              "28px",
+              "28px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(srgb 0.0882121 0.0125694 0.213533 / 0.04)"
+            ],
+            "radius": "24px",
+            "background": "color(display-p3 0.9333 0.898 1)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "frame": {
+            "x": 446.1953125,
+            "y": 4953.828125,
+            "width": 634,
+            "height": 588,
+            "right": 1080.1953125,
+            "bottom": 5541.828125
+          },
+          "frameStyle": {
+            "padding": [
+              "8px",
+              "8px",
+              "8px",
+              "8px"
+            ],
+            "border": [
+              "1px",
+              "solid",
+              "color(display-p3 0.9059 0.898 0.9176)"
+            ],
+            "radius": "16px",
+            "background": "rgb(255, 255, 255)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "image": {
+            "x": 455.1953125,
+            "y": 4962.828125,
+            "width": 616,
+            "height": 570,
+            "right": 1071.1953125,
+            "bottom": 5532.828125
+          },
+          "imageStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "8px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "static",
+            "visibility": "visible"
+          },
+          "currentSrc": "http://127.0.0.1:3368/images/editorial/email-completion-20261011/email-inline-preview-en-desktop.png",
+          "naturalSize": [
+            616,
+            570
+          ],
+          "loaded": true,
+          "alt": "Preview of the Casa Lila draft with the example message, footer, and desktop and mobile selector.",
+          "caption": "Preview of the draft with fictional data. Switch between desktop and mobile to check how the content is arranged.",
+          "captionStyle": {
+            "padding": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "border": [
+              "0px",
+              "none",
+              "color(display-p3 0.0784 0.0157 0.2039)"
+            ],
+            "radius": "0px",
+            "background": "rgba(0, 0, 0, 0)",
+            "display": "block",
+            "position": "absolute",
+            "visibility": "visible"
+          },
+          "interactiveCount": 0,
+          "ancestorsLinked": false
+        }
+      ]
+    },
+    "captures": [
+      {
+        "file": "email-en-1440-full-part1.png",
+        "clip": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3368/email-channel-fundamentals.html",
+          "title": "Email channel fundamentals | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            0
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "a4b3f30a22e89f0de56368f8005e861340f9e71be8da779704f8af35936cbc86",
+        "complete_page_segment": true,
+        "documentHeight": 11935,
+        "overlap_css": 0
+      },
+      {
+        "file": "email-en-1440-full-part2.png",
+        "clip": {
+          "x": 0,
+          "y": 1100,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3368/email-channel-fundamentals.html",
+          "title": "Email channel fundamentals | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            1100
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "3244e6470d1cc240e4f86cb6a472813b0e64700649f8c019f3db85c986f94263",
+        "complete_page_segment": true,
+        "documentHeight": 11935,
+        "overlap_css": 100
+      },
+      {
+        "file": "email-en-1440-full-part3.png",
+        "clip": {
+          "x": 0,
+          "y": 2200,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3368/email-channel-fundamentals.html",
+          "title": "Email channel fundamentals | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            2200
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "d3e52d354e8dc14a13bba86ca2ae59edf3bb1df85cd2e6064584abda7e7d0999",
+        "complete_page_segment": true,
+        "documentHeight": 11935,
+        "overlap_css": 100
+      },
+      {
+        "file": "email-en-1440-full-part4.png",
+        "clip": {
+          "x": 0,
+          "y": 3300,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3368/email-channel-fundamentals.html",
+          "title": "Email channel fundamentals | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            3300
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "30ed5eaca681cb05a1cb1890a97f7fc0465274ca6f7bed52c0561309823d6ebd",
+        "complete_page_segment": true,
+        "documentHeight": 11935,
+        "overlap_css": 100
+      },
+      {
+        "file": "email-en-1440-full-part5.png",
+        "clip": {
+          "x": 0,
+          "y": 4400,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3368/email-channel-fundamentals.html",
+          "title": "Email channel fundamentals | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            4400
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "ede43fac6c61dad76e7154fd0e7406972d0e397bc2e13ca9cd1c446e4d0f67b9",
+        "complete_page_segment": true,
+        "documentHeight": 11935,
+        "overlap_css": 100
+      },
+      {
+        "file": "email-en-1440-full-part6.png",
+        "clip": {
+          "x": 0,
+          "y": 5500,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3368/email-channel-fundamentals.html",
+          "title": "Email channel fundamentals | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            5500
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "513bfa3144d2e1457753f5d079a9c27401878f5aa0cc87f0a1b35aef93a76272",
+        "complete_page_segment": true,
+        "documentHeight": 11935,
+        "overlap_css": 100
+      },
+      {
+        "file": "email-en-1440-full-part7.png",
+        "clip": {
+          "x": 0,
+          "y": 6600,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3368/email-channel-fundamentals.html",
+          "title": "Email channel fundamentals | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            6600
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "54781bed1ffe326e79c14c69b75059fa283394c25a439db353f428f6b3b84f72",
+        "complete_page_segment": true,
+        "documentHeight": 11935,
+        "overlap_css": 100
+      },
+      {
+        "file": "email-en-1440-full-part8.png",
+        "clip": {
+          "x": 0,
+          "y": 7700,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3368/email-channel-fundamentals.html",
+          "title": "Email channel fundamentals | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            7700
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "1641d631e2cab4a75c0cc2965184e2204acf2e5f7778bf7838a0424e6169db9f",
+        "complete_page_segment": true,
+        "documentHeight": 11935,
+        "overlap_css": 100
+      },
+      {
+        "file": "email-en-1440-full-part9.png",
+        "clip": {
+          "x": 0,
+          "y": 8800,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3368/email-channel-fundamentals.html",
+          "title": "Email channel fundamentals | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            8800
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "26d83deb23e93f173eff06479c97cd06be4b48553d66db4c992fcfbe6a583b44",
+        "complete_page_segment": true,
+        "documentHeight": 11935,
+        "overlap_css": 100
+      },
+      {
+        "file": "email-en-1440-full-part10.png",
+        "clip": {
+          "x": 0,
+          "y": 9900,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3368/email-channel-fundamentals.html",
+          "title": "Email channel fundamentals | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            9900
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "d281204854ab6f8ae677f94b6dac235ac0513adf2b135938d247717d7152e63e",
+        "complete_page_segment": true,
+        "documentHeight": 11935,
+        "overlap_css": 100
+      },
+      {
+        "file": "email-en-1440-full-part11.png",
+        "clip": {
+          "x": 0,
+          "y": 10735,
+          "width": 1440,
+          "height": 1200
+        },
+        "viewport_capture": true,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3368/email-channel-fundamentals.html",
+          "title": "Email channel fundamentals | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            10735
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          2880,
+          2400
+        ],
+        "icc": "Display P3",
+        "sha256": "3aa9e9b735f32a0aa9e1cacdb8134ff3e8b4555792ea563f17101f3d010cbe35",
+        "complete_page_segment": true,
+        "documentHeight": 11935,
+        "overlap_css": 365
+      },
+      {
+        "file": "email-en-1440-email-recipient-menu.png",
+        "clip": {
+          "x": 363,
+          "y": 2861,
+          "width": 800,
+          "height": 259
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3368/email-channel-fundamentals.html",
+          "title": "Email channel fundamentals | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            2391
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          518
+        ],
+        "icc": "Display P3",
+        "sha256": "3f08f2bdb80ba752f493d0ac7a7832deb30283bffe6e1bb6ac0828e2aac396f5"
+      },
+      {
+        "file": "email-en-1440-email-compose.png",
+        "clip": {
+          "x": 363,
+          "y": 3765,
+          "width": 800,
+          "height": 346
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3368/email-channel-fundamentals.html",
+          "title": "Email channel fundamentals | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            3338.5
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          692
+        ],
+        "icc": "Display P3",
+        "sha256": "c0f5a9d0b849b5013363e69ebb0811cceb8274aba853559d66236ef1341a14ca"
+      },
+      {
+        "file": "email-en-1440-email-inline-preview.png",
+        "clip": {
+          "x": 363,
+          "y": 4912,
+          "width": 800,
+          "height": 671
+        },
+        "viewport_capture": false,
+        "capture_beyond_viewport": false,
+        "page_state": {
+          "url": "http://127.0.0.1:3368/email-channel-fundamentals.html",
+          "title": "Email channel fundamentals | Hellotext",
+          "locale": "en",
+          "viewport": [
+            1440,
+            1200
+          ],
+          "dpr": 2,
+          "zoom": 1,
+          "scroll": [
+            0,
+            4648
+          ]
+        },
+        "viewport": [
+          1440,
+          1200
+        ],
+        "dpr": 2,
+        "pixelSize": [
+          1600,
+          1342
+        ],
+        "icc": "Display P3",
+        "sha256": "79d3bcd10e5dd875fa7a131a8145a1c388c072a72d3c505e3e6f08438e3700ad"
+      }
+    ]
+  }
+}

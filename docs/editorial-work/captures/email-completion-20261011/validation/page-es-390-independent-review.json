@@ -1,0 +1,424 @@
+{
+  "status": "passed",
+  "locale": "es",
+  "width": 390,
+  "reviewer": "root",
+  "at": "2026-10-11T17:15:00.214155+00:00",
+  "packet": {
+    "path": "docs/editorial-work/captures/email-completion-20261011/validation/page-review/views/es-390.json",
+    "sha256": "85624a638c0c9221cf0753d33c6e32d31e686aaa782ef25414cc1af2259f016d"
+  },
+  "checkpoint_sha256": "e0d55dce8b3a72bb6eee08d854d8a99a221a89aed9e9230f87548c8d59f1963e",
+  "source": "_i18n/es/numbers/email-channel-fundamentals.md",
+  "source_sha256": "3114208e2f27837e1d1a3b068f450fba23f086f351d2150ec96198e17d8ffb3a",
+  "built_html": "_site/es/fundamentos-canal-correo-electronico.html",
+  "built_html_sha256": "b08fd8f45f4366718ffb83f3639412506ce92f1e3e16a4dbf6cb8cafaf65c961",
+  "complete_page_review": {
+    "status": "passed",
+    "segments": 18,
+    "coverage_start_css": 0,
+    "coverage_end_css": 18922.5,
+    "document_height_css": 18922,
+    "notes": [
+      "18 segmentos abiertos individualmente: cabecera, título,22secciones, listas,guías,valoración,contacto y pie completos.",
+      "Tabla de identidades usa desplazamiento horizontal nativo: ambas posiciones inspeccionadas en suplemento ligado; contenido completo accesible. Las otras tablas caben.",
+      "Texto, enlaces, etapas y figuras conservan flujo y legibilidad; sin desbordamiento horizontal del documento."
+    ]
+  },
+  "figure_detail_review": {
+    "status": "passed",
+    "details": 3,
+    "notes": [
+      "Menú a315.976CSS: las dos direcciones .test completas y Email legibles.",
+      "Compositor a315.992CSS: asunto,cuerpo,URL de ejemplo,barra y vista previa legibles; icono de mano es control nativo.",
+      "Vista previa a315.992CSS: selector,marca,mensaje,baja y Abrir correo completos. Aclaración de baja manual visible en texto adyacente.",
+      "Stages lavanda con borde y marco blanco mantienen separación; figuras estáticas, sin enlaces envolventes ni controles HTML añadidos."
+    ]
+  },
+  "method": "21PNG principales y2PNG suplementarios abiertos individualmente mediante view_image detalle original; visor reduce780x2400 a666x2048. Verificación posterior de hashes,CRC,ICC,2x,cobertura y fuente/build.",
+  "files": [
+    {
+      "file": "email-es-390-full-part1.png",
+      "sha256": "141e1e536a7fe75f6b4aca051715ebbb73c3277a86045f134d9fbb3af095821d",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visually_reviewed_individually": true
+    },
+    {
+      "file": "email-es-390-full-part2.png",
+      "sha256": "f8832c4da035c620bb6f3630178492d95f03628ed793327373c80d5ab39c73a7",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 1100,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visually_reviewed_individually": true
+    },
+    {
+      "file": "email-es-390-full-part3.png",
+      "sha256": "fec3aaecc753c0645771828670598d5af452f77b5dabdc297b2eda357b948cd2",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 2200,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visually_reviewed_individually": true
+    },
+    {
+      "file": "email-es-390-full-part4.png",
+      "sha256": "c08c2677ec648a43f51753ecce19cb740311c945ad117f7472a8a8852fa7c4d3",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 3300,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visually_reviewed_individually": true
+    },
+    {
+      "file": "email-es-390-full-part5.png",
+      "sha256": "e696aacc62f377bcf038ec84348605a5115f322bc93efd2e25beef12f2dc55a4",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 4400,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visually_reviewed_individually": true
+    },
+    {
+      "file": "email-es-390-full-part6.png",
+      "sha256": "74887047ac9d46522f94b52198c189a2a753cf58977ebaae6b59dcac594c9038",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 5500,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visually_reviewed_individually": true
+    },
+    {
+      "file": "email-es-390-full-part7.png",
+      "sha256": "3c21bedf36f559e4b53644222786c42db533a9359a9d1edaa084e1f531861d2b",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 6600,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visually_reviewed_individually": true
+    },
+    {
+      "file": "email-es-390-full-part8.png",
+      "sha256": "ae480ac9a0a50ea66151bffc43c3fc9772d99d34902a53aa29da3c2ac4561f30",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 7700,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visually_reviewed_individually": true
+    },
+    {
+      "file": "email-es-390-full-part9.png",
+      "sha256": "9d42806c7be8945e4e0a64d6fa6ee95a62d7f33c03b967349f595963af8b5e7e",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 8800,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visually_reviewed_individually": true
+    },
+    {
+      "file": "email-es-390-full-part10.png",
+      "sha256": "f7d11ddb375a0a2620ac2a3290f451b8a38b4b7c8110a4c5f3f0f220a1454ec5",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 9900,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visually_reviewed_individually": true
+    },
+    {
+      "file": "email-es-390-full-part11.png",
+      "sha256": "57fffbed673cc8ad8f4cb8a1b5cdaadc3d2616d1de304923a35da56ac8744446",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 11000,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visually_reviewed_individually": true
+    },
+    {
+      "file": "email-es-390-full-part12.png",
+      "sha256": "136680fa26e0cf412b77c7b7db20316e3b07b4099580974dc2456e3c243e92bd",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 12100,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visually_reviewed_individually": true
+    },
+    {
+      "file": "email-es-390-full-part13.png",
+      "sha256": "7b6b06ad45507d8a8e336e14b89d75f8601efa06f8ba6d43865c825cadef5dce",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 13200,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visually_reviewed_individually": true
+    },
+    {
+      "file": "email-es-390-full-part14.png",
+      "sha256": "09a778a16ffb6cdf5f201a3923092ebbfdb7ee72517be072bff3e4140f5c7b14",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 14300,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visually_reviewed_individually": true
+    },
+    {
+      "file": "email-es-390-full-part15.png",
+      "sha256": "446f907cfaefdd74d398d976e15dd09808252067fe8c2ba6a73de10e9f63e585",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 15400,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visually_reviewed_individually": true
+    },
+    {
+      "file": "email-es-390-full-part16.png",
+      "sha256": "893c18752d18dce0a4904a49c11a37013f7865fc4443180f12b8384d45284c87",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 16500,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visually_reviewed_individually": true
+    },
+    {
+      "file": "email-es-390-full-part17.png",
+      "sha256": "2ed5551858db2e1592940db98143d7838de689de459388d986c85b7f32ee8229",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 17600,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visually_reviewed_individually": true
+    },
+    {
+      "file": "email-es-390-full-part18.png",
+      "sha256": "9ffa4f608b345aa320e23900c8724445b3dc2accba6616d6ed9b2a927d967746",
+      "kind": "page_segment",
+      "clip": {
+        "x": 0,
+        "y": 17722.5,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visually_reviewed_individually": true
+    },
+    {
+      "file": "email-es-390-email-recipient-menu.png",
+      "sha256": "8d8a938360a0e873312a803be50fc408091825041d1051477904c5037f846e2c",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 4725,
+        "width": 382,
+        "height": 191
+      },
+      "pixel_size": [
+        764,
+        382
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visually_reviewed_individually": true
+    },
+    {
+      "file": "email-es-390-email-compose.png",
+      "sha256": "d07dcd4edc03eb22feda46cfbb8325c189ac2fabf59d710e9b84c2220eaf07b7",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 5987,
+        "width": 382,
+        "height": 299
+      },
+      "pixel_size": [
+        764,
+        598
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visually_reviewed_individually": true
+    },
+    {
+      "file": "email-es-390-email-inline-preview.png",
+      "sha256": "1ccdbcff24333efa35453203258486a1a6a71b43683bc544852115040245de92",
+      "kind": "figure_detail",
+      "clip": {
+        "x": 4,
+        "y": 7669,
+        "width": 382,
+        "height": 567
+      },
+      "pixel_size": [
+        764,
+        1134
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visually_reviewed_individually": true
+    }
+  ],
+  "table_scroll_supplement": {
+    "path": "docs/editorial-work/captures/email-completion-20261011/validation/table-scroll-es-review.json",
+    "sha256": "c28d43ac43080bbe31d09ba9ff13c7906d4853f97593e46d0813ed393a120786"
+  },
+  "findings": []
+}

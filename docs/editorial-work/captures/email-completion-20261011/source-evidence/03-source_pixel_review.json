@@ -1,0 +1,199 @@
+{
+  "status": "passed",
+  "reviewer": "root",
+  "at": "2026-10-11T16:49:03.919686+00:00",
+  "manifest": {
+    "path": "audit/email-completion-preparation-20261011/capture/source-manifest.json",
+    "sha256": "619e0dade81ea362bcd56ff327953e20288972ecefd16c9f46b37f99d788903b"
+  },
+  "records": [
+    {
+      "id": "email-compose",
+      "locale": "en",
+      "layout": "desktop",
+      "file": "email-compose-en-desktop.png",
+      "sha256": "dca9d83767687997ffedfdd68a5cce6987ee3769af13c854b0e87aa776533653",
+      "pixelSize": [
+        2068,
+        980
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 302,
+        "y": 632,
+        "width": 517,
+        "height": 245
+      },
+      "individually_viewed": true,
+      "status": "passed",
+      "pixel_notes": "Full native composer border, complete English Subject/body/reserved URL, send icon and toolbar including Preview eye. Native text insertion caret visible at end of URL, not an added pointer or annotation."
+    },
+    {
+      "id": "email-compose",
+      "locale": "en",
+      "layout": "mobile",
+      "file": "email-compose-en-mobile.png",
+      "sha256": "1633bb19ace6e63796708337cea4c59dab9cb0b2ed5157e74103efa972349096",
+      "pixelSize": [
+        1560,
+        1108
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 0,
+        "y": 573,
+        "width": 390,
+        "height": 277
+      },
+      "individually_viewed": true,
+      "status": "passed",
+      "pixel_notes": "Complete English Subject/body/URL and native composer border, responsive toolbar/Preview eye. URL wraps naturally after pickup- at390 viewport; no truncation. Native send control shown without execution."
+    },
+    {
+      "id": "email-inline-preview",
+      "locale": "en",
+      "layout": "desktop",
+      "file": "email-inline-preview-en-desktop.png",
+      "sha256": "084ba9845b9ea1cb0be692eda804d2ba21d60017d8a5dca6392159490728e9ca",
+      "pixelSize": [
+        2464,
+        2280
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 242,
+        "y": 215,
+        "width": 616,
+        "height": 570
+      },
+      "individually_viewed": true,
+      "status": "passed",
+      "pixel_notes": "Complete Preview dialog and native desktop selector, brand/body/URL/unsubscribe/Open email; eight CSS pixels of genuine dimmed backdrop around full panel. Draft only; footer clarification source reviewed."
+    },
+    {
+      "id": "email-inline-preview",
+      "locale": "en",
+      "layout": "mobile",
+      "file": "email-inline-preview-en-mobile.png",
+      "sha256": "f6e2e1b7d5b30c20f88a8e19dc196937fcf36ec5dd91fce22f200d6cf7b8ec53",
+      "pixelSize": [
+        1464,
+        2280
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 12,
+        "y": 190,
+        "width": 366,
+        "height": 570
+      },
+      "individually_viewed": true,
+      "status": "passed",
+      "pixel_notes": "Complete native Preview at390CSS with active phone selector; Casa Lila branding, full body/reserved URL, Unsubscribe and Open email controls. Genuine dim backdrop retained. No delivery or clicked external action claimed."
+    },
+    {
+      "id": "email-recipient-menu",
+      "locale": "en",
+      "layout": "desktop",
+      "file": "email-recipient-menu-en-desktop.png",
+      "sha256": "f074689a94aa3609ab02c70a080ae5031ffe6e309ada819d4fbd4e629b9b34f0",
+      "pixelSize": [
+        2672,
+        632
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 397,
+        "y": 591,
+        "width": 668,
+        "height": 158
+      },
+      "individually_viewed": true,
+      "status": "passed",
+      "pixel_notes": "Both fictional addresses, native Email submenu and English Subject/placeholder context complete, clean native crop."
+    },
+    {
+      "id": "email-recipient-menu",
+      "locale": "en",
+      "layout": "mobile",
+      "file": "email-recipient-menu-en-mobile.png",
+      "sha256": "19a5fee49bed8e470ad9e95739a4f6142a8d424890f6d37251a39c09ffb41d48",
+      "pixelSize": [
+        2000,
+        736
+      ],
+      "nativeDensity": 4,
+      "devicePixelRatio": 2,
+      "captureScale": 2,
+      "sourceRevision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+      "transformations": "none",
+      "icc": {
+        "profile": "Display P3 Gamut with sRGB Transfer",
+        "sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+        "bytes": 520
+      },
+      "clip": {
+        "x": 16,
+        "y": 558,
+        "width": 500,
+        "height": 184
+      },
+      "individually_viewed": true,
+      "status": "passed",
+      "pixel_notes": "Native mobile layout at580CSS viewport/crop500 shows both complete fictional addresses and Email. Underlying icon/placeholder overlap belongs to the native open submenu. No added or clipped menu labels; final Help390 readability pending."
+    }
+  ],
+  "metadata_inspection": {
+    "path": "audit/email-help-preparation-20261011/root-png-byte-inspection.json",
+    "sha256": "dd99afd4df832a839ceccc79b968687cc898658d5411d6362c7f90763c787f83"
+  },
+  "limitations": [
+    "Native mobile recipient menu captured at580CSS rather than390 to retain both complete address rows. Final Help390 readability is required.",
+    "Source acceptance only; full rendered Help QA remains separate."
+  ]
+}

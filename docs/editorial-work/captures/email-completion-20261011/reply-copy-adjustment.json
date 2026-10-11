@@ -1,0 +1,114 @@
+{
+  "status": "source_correction_applied_independent_review_pending",
+  "at": "2026-10-11T15:53:36.460717+00:00",
+  "records": [
+    {
+      "locale": "es",
+      "path": "_i18n/es/numbers/email-channel-fundamentals.md",
+      "before_sha256": "3ad1b1bfcccd4e822691afd89e3c94c3211f0cede8f4397e94bba5346e40b14d",
+      "after_sha256": "468b1665404cdb4851958932d623539eb442c30837c74f6d50e76bca2295fa61",
+      "before": "Una respuesta puede incluir texto y adjuntos compatibles. El Inbox muestra el contenido y los archivos con su presentación habitual de mensajes. No reproduce el diseño HTML completo del correo del cliente como una vista de su casilla.",
+      "after": "Una respuesta puede incluir texto y adjuntos compatibles. El Inbox conserva elementos compatibles del correo recibido, como imágenes, tablas y listas, y puede agrupar el texto citado de mensajes anteriores. Algunos estilos o elementos del correo original pueden mostrarse de otra forma."
+    },
+    {
+      "locale": "en",
+      "path": "_i18n/en/numbers/email-channel-fundamentals.md",
+      "before_sha256": "dc82c9c4cf627826b2681d51bf80526d73f76dfd91029e6fc48828826f24f3b2",
+      "after_sha256": "912f2218984e3f3f2fca7ab8d7873190655e2f5b70d82a7fa752324dcc0fb073",
+      "before": "A reply can include text and supported attachments. The Inbox shows the reply content and attachments using its usual message presentation. It does not reproduce the customer's complete HTML email layout as a mailbox view.",
+      "after": "A reply can include text and supported attachments. The Inbox retains supported elements of the received email, such as images, tables, and lists, and can group quoted text from earlier messages. Some styles or elements of the original email may appear differently."
+    }
+  ],
+  "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+  "compared_revision": "afacda5636225888e44666da2e6d76fdd6a1425f",
+  "source_groups": {
+    "received_html_and_matching": [
+      "app/integrations/ses/mail/received.rb",
+      "app/integrations/ses/mail/content.rb",
+      "app/components/message/email_content_component.rb",
+      "app/views/messages/_email_content.html.erb"
+    ],
+    "retained_unsubscribe_and_delivery_facts": [
+      "app/integrations/ses/gateway.rb",
+      "app/integrations/ses/mail/complained.rb",
+      "app/integrations/ses/mail/delivered.rb",
+      "app/integrations/ses/mail/failed.rb",
+      "app/integrations/ses/mail/seen.rb",
+      "app/controllers/landing/unsubscriptions_controller.rb",
+      "app/jobs/contact/unsubscribe_from_email_job.rb",
+      "app/views/landing/unsubscriptions/show.html.erb"
+    ]
+  },
+  "source_bindings": [
+    {
+      "path": "app/components/message/email_content_component.rb",
+      "sha256": "5afe8c4df8931e7f14aced00407acb675f9323b5b323aab56616b1832b97fd68",
+      "bytes": 1481
+    },
+    {
+      "path": "app/controllers/landing/unsubscriptions_controller.rb",
+      "sha256": "71f0d076d2e62ef6cca7558cea3057fba28be94327ccbffa6416934f7bbbcab8",
+      "bytes": 1778
+    },
+    {
+      "path": "app/integrations/ses/gateway.rb",
+      "sha256": "104a605a54ba8582dd37f5ad40b0250e91bd8b364a39e006e60b488c119c861b",
+      "bytes": 8040
+    },
+    {
+      "path": "app/integrations/ses/mail/complained.rb",
+      "sha256": "560af53358f7fcddb6a8998e9b0a4180c58128ca2de6a862eaaf94230a8598b7",
+      "bytes": 349
+    },
+    {
+      "path": "app/integrations/ses/mail/content.rb",
+      "sha256": "4a23fc1407921e5fd9c7e1a21c3b60541d52e329e44fc944f67f3c9453f85bd1",
+      "bytes": 1856
+    },
+    {
+      "path": "app/integrations/ses/mail/delivered.rb",
+      "sha256": "272d2253343a2e2906f6bcd8811633d4abdda2500052057fde8b026731ca3409",
+      "bytes": 137
+    },
+    {
+      "path": "app/integrations/ses/mail/failed.rb",
+      "sha256": "f2f162a4b27d5c2a2693fdaa40bb3e86ff0e3e256b5f0e5b988d8e53b141f17a",
+      "bytes": 155
+    },
+    {
+      "path": "app/integrations/ses/mail/received.rb",
+      "sha256": "efef5b72a1757805a79a959f5471917b966fd2a770ec237828935abefeebef65",
+      "bytes": 5176
+    },
+    {
+      "path": "app/integrations/ses/mail/seen.rb",
+      "sha256": "a0b8cdd39933f005a69a21ff276e568724f1ca5b666f48293989c0ba98c4d1f0",
+      "bytes": 139
+    },
+    {
+      "path": "app/jobs/contact/unsubscribe_from_email_job.rb",
+      "sha256": "f117e0c0e83d49ccfdd6653945fad48197f14a858313667d72475b6725619d72",
+      "bytes": 264
+    },
+    {
+      "path": "app/views/landing/unsubscriptions/show.html.erb",
+      "sha256": "71264f9e0c55832f9dad76d53011e9462320012c58488a6768cfaa78c9a9ff82",
+      "bytes": 1871
+    },
+    {
+      "path": "app/views/messages/_email_content.html.erb",
+      "sha256": "4ec07d336ca71123bc1df1cd2904167a4ad5a758704c047f075099f2bce92ecf",
+      "bytes": 567
+    }
+  ],
+  "changed_path_intersection": [],
+  "retained_facts_checked": [
+    "Manual non-campaign/non-proactive Email has no automatic unsubscribe URL.",
+    "Unsubscribe GET renders confirmation and POST queues the preference update.",
+    "Abuse complaint updates metadata and unsubscribes contact without changing delivery state.",
+    "Delivery and open events have separate paths; seen does not mark delivered.",
+    "Replies match the signed reply-token message and original recipient address; arbitrary subject is not sufficient."
+  ],
+  "runtime_operations": 0,
+  "provider_operations": 0
+}

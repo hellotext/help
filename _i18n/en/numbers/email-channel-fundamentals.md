@@ -3,7 +3,7 @@ Use Email when customers need a message they can receive and reply to in their u
 This guide explains everyday use of the Email channel after you have added a sender. For the sender form, DNS records, and domain verification, follow [Set up email sending]({% link _integrations/set-up-email-sending.md %}).
 
 <div class="note">
-  Email is available on Enterprise. A saved sender must finish domain verification before its channel becomes available for sending.
+  Email is available on Pro and Enterprise. A saved sender must finish domain verification before its channel becomes available for sending.
 </div>
 
 ## What Email is best for
@@ -13,7 +13,7 @@ Use Email for:
 - One-to-one customer conversations from the Inbox.
 - Detailed answers that benefit from paragraphs and a written record.
 - Support and order follow-up with customers who prefer email.
-- Sharing documents, images, and other supported files.
+- Sharing images and information, with links to documents when needed.
 - Continuing a conversation after the customer replies to an email sent from Hellotext.
 
 Email does not require the customer to install a messaging app or have a phone number on their profile. You do need the correct email address and permission to contact the customer for the purpose of the message.
@@ -35,7 +35,7 @@ Keep reading: [Customer profiles]({% link _audience/customer-profiles.md %}) and
 
 ## Where you can use Email
 
-The Inbox provides an Email destination for customers with an email address when the business has an active Email sender.
+The Inbox destination menu can show **Email** before sending is ready. To send, you need an address on the customer profile, channel access, and an active sender; seeing the option does not confirm those requirements.
 
 The campaign creator shows Email as a delivery option, but selecting it does not by itself enable sending. To send an Email campaign, the business needs Email access through its subscription and a verified, active sender. Connecting a sender does not automatically change the delivery channels of an existing campaign.
 
@@ -51,9 +51,21 @@ An email conversation uses three addresses or identities:
 | **Recipient** | The customer's address that will receive this message. | The email address you select from the customer's profile in the destination menu. |
 | **Reply address** | The address the customer's email application uses when they choose Reply. | Hellotext supplies it automatically so it can associate the response with the conversation. |
 
-For example, your sender might be `support@acme.com` and your customer might receive the message at `alex@example.com`. The reply address can be different from `support@acme.com`; that is how Hellotext receives the response for the conversation.
+For example, your sender might be `support@example.com` and your customer might receive the message at `alex@example.com`. The reply address can be different from `support@example.com`; that is how Hellotext receives the response for the conversation.
 
 The destination menu lists the customer's email addresses. It is not a list of your business's senders. When you choose an address, Hellotext uses the existing Email conversation's active sender when available, or an available Email channel for a new destination.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-email-figure="email-recipient-menu" aria-label="Choose the recipient address">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 686px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/email-completion-20261011/email-recipient-menu-en-mobile.png 4x" width="2000" height="736" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/email-completion-20261011/email-recipient-menu-en-desktop.png" srcset="/images/editorial/email-completion-20261011/email-recipient-menu-en-desktop.png 4x" width="2672" height="632" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Inbox Email menu showing two email addresses for the same example customer." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Real interface with fictional data: choose the customer&#x27;s intended recipient address under Email.</figcaption>
+</figure>
 
 If your business has several active senders, verify which one is used before relying on a particular From address. The Inbox destination menu does not currently provide a separate Email sender picker.
 
@@ -66,27 +78,53 @@ To change a sender's name or email address, use its **Edit** action in **Setting
 3. Open the destination menu beside the message editor.
 4. Find the **Email** group.
 5. Select the customer's intended email address. If the profile has more than one, choose the address that should receive this message.
-6. Write your message. Use clear paragraphs, add any required links, and attach supported files when needed.
-7. Check that Email is selected before sending, especially if you were previously replying over another channel.
+6. Write the **Subject** and prepare the body in the Email editor. Organize the content into text blocks, adding images or actions when they help the customer.
+7. Open **Preview** to review the desktop and mobile layouts. Check the recipient, subject, text, and links before sending, especially if you were previously replying over another channel.
 8. Send the message and review its sending or delivery information in the conversation.
 
-Selecting one email address sends to that destination. It does not send copies to every email address on the profile. The Email destination menu does not provide CC or BCC fields.
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-email-figure="email-compose" aria-label="Prepare the email subject and body">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 535px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/email-completion-20261011/email-compose-en-mobile.png 4x" width="1560" height="1108" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/email-completion-20261011/email-compose-en-desktop.png" srcset="/images/editorial/email-completion-20261011/email-compose-en-desktop.png 4x" width="2068" height="980" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Inbox Email editor showing the subject and body of an unsent draft about picking up an example order." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Draft with fictional data: review the email subject and body before sending.</figcaption>
+</figure>
+
+When you send, only the selected address is used. No copies are sent to the other addresses on the profile. The Email destination menu does not provide CC or BCC fields.
 
 For a customer whose only available destination is Email, Hellotext can open the composer with Email selected when an active sender is available. Always check the destination when the customer also has phone numbers or other connected channels.
 
-If the Email group is missing, check the profile's email address and the sender's activation before trying to send. A pending domain verification does not provide an active sending channel.
+If you cannot send through Email, check the profile's address, your plan access, and the sender's activation. A pending domain verification does not provide an active sending channel, even if the menu lets you explore the Email option.
 
 Keep reading: [Message editor overview]({% link _numbers/message-editor-overview.md %}).
 
 ## What the customer receives
 
-Hellotext renders the message as an email with the business name, message body, and a footer showing the sender name and email address. It also includes a plain-text version for email applications that use it.
+Hellotext prepares the email from the design you edited. The selected appearance supplies its branding and footer; the sender name and address come from the Email channel. A plain-text version is also included for email applications that use it.
 
-The current email subject uses the business name. The Inbox composer does not provide a separate subject field for each message. The sender name comes from the sender integration; it does not automatically change to the teammate who clicked Send.
+Use **Subject** to write the email title. It is separate from the body and sender name; the sender name does not automatically change to the teammate who clicked Send.
 
-The message body uses the text and paragraph breaks from your message. Do not rely on copied styling, custom HTML, or another channel's interactive controls to appear identically in the email. Files are delivered as email attachments, and the customer's email application controls their preview or download experience.
+The body retains the design's blocks, such as text, images, and buttons. Images added to the design appear within the email; they are not automatically offered as downloadable file attachments. Do not rely on copied styling or another channel's controls to appear identically.
 
-The layout adapts to smaller screens, but email applications can display the same message differently. Check an actual received message when evaluating appearance, line breaks, and attachments.
+Use **Preview** to review the unsent draft and switch between desktop and mobile layouts. Email applications can display the same design differently; a received test message lets you check the final appearance, line breaks, and links.
+
+The preview footer may show **Unsubscribe**. That link is not automatically added when you send a manual email from the Inbox.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-email-figure="email-inline-preview" aria-label="Review the design in Preview">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 634px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/email-completion-20261011/email-inline-preview-en-mobile.png 4x" width="1464" height="2280" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/email-completion-20261011/email-inline-preview-en-desktop.png" srcset="/images/editorial/email-completion-20261011/email-inline-preview-en-desktop.png 4x" width="2464" height="2280" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Preview of the Casa Lila draft with the example message, footer, and desktop and mobile selector." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Preview of the draft with fictional data. Switch between desktop and mobile to check how the content is arranged.</figcaption>
+</figure>
 
 ### Links and personalization
 
@@ -98,29 +136,21 @@ Keep reading: [Tracked links]({% link _analytics-reporting-attribution/tracked-l
 
 ## Text length and attachments
 
-Email allows longer text than a short chat reply, but the editor still applies limits:
+The Email editor organizes content into blocks. Use its image controls; the file list for other channels does not describe what you can add to this design.
 
 | Item | Limit or behavior |
 | --- | --- |
-| **Message text** | Up to 100,000 characters in the Email editor. |
-| **An uploaded image** | Up to 25 MB per file. |
-| **An uploaded document** | Up to 25 MB per file. |
-| **An uploaded audio or video file** | Up to 25 MB per file. |
-| **Several attachments** | Each file must be accepted by the uploader. The complete email must also fit the sending and receiving services' message-size limits. |
+| **Subject** | Up to 998 characters. |
+| **Formatted text** | Validated per block; formatting also uses space. Simplify or split a block if the editor rejects its length. |
+| **Top-level blocks** | Up to 30 in the design. |
+| **An uploaded image** | PNG, JPEG, GIF, or WebP up to 5 MB. It becomes part of the email body. |
+| **Documents, audio, or video** | Share an appropriate link; the current Email editor does not offer the general file uploader for these attachments. |
 
-An accepted upload is not a guarantee that every recipient's email service will accept the complete message. Several large files can make an email too large even when each file is individually allowed. Use smaller files or share an appropriate download link when a message does not need to carry the full file itself.
+The formatted-text limit is not a fixed character count for the entire email. The combined design size is also validated. Keep the message concise and split information into useful blocks without repeating content.
 
-Supported file types include:
+Wait for each image to finish loading and check its content in **Preview**. An accepted image does not guarantee that every email service will accept the complete message. Use smaller images when possible.
 
-- **Images:** JPEG, PNG, GIF, WebP, AVIF, HEIC, HEIF, BMP, TIFF, and SVG.
-- **Documents:** PDF, Word, Excel, PowerPoint, OpenDocument files, RTF, plain text, and CSV.
-- **Audio:** supported AAC, MP4 audio, MP3, AMR, Ogg, Opus, WAV, FLAC, and WebM audio files.
-- **Video:** supported MP4, MPEG, 3GP, QuickTime, WebM, and AVI files.
-- **Other files:** supported ZIP, Gzip, EPUB, JSON, XML, HTML, calendar, and contact files.
-
-Choose a supported file type and keep each file within the size limit. If a file is rejected, use a supported export or share a suitable link. Changing only the filename extension does not convert the file.
-
-Use the attachment control in the composer, wait for the upload to finish, and confirm that the intended files are attached before sending. Review filenames and contents so you send the correct version to the correct customer.
+To share a document or a large file, add a download link and check that the customer has access. Changing only a filename extension does not convert the file to a supported format.
 
 ## How customer replies reach the Inbox
 
@@ -133,7 +163,7 @@ After receiving an email sent from Hellotext, the customer should:
 
 Hellotext associates a supported reply with the original outgoing email, customer profile, and conversation. Your team can then read and answer it from the Inbox.
 
-A reply can include text and supported attachments. The Inbox shows the reply content and attachments using its usual message presentation. It does not reproduce the customer's complete HTML email layout as a mailbox view.
+A reply can include text and supported attachments. The Inbox retains supported elements of the received email, such as images, tables, and lists, and can group quoted text from earlier messages. Some styles or elements of the original email may appear differently.
 
 ### Replies from another address
 
@@ -143,7 +173,7 @@ When testing replies, use the same address that received the email and leave the
 
 ### New emails sent to your existing business mailbox
 
-Verifying a sending domain does not move an existing mailbox into Hellotext. A new email written directly to `support@acme.com` continues to follow that address's existing incoming-mail setup.
+Verifying a sending domain does not move an existing mailbox into Hellotext. A new email written directly to `support@example.com` continues to follow that address's existing incoming-mail setup.
 
 Sending from that address in Hellotext and receiving replies through the supplied reply address are separate from importing mailbox history or receiving every new email sent to the domain. If you need broader incoming-mail routing, discuss the setup with [Hellotext support]({% link _troubleshooting-deliverability/contact-hellotext-support.md %}).
 
@@ -204,7 +234,7 @@ If the only destination on the profile is Email and no Email sender is active, t
 
 ### The message used an unexpected sender or subject
 
-The destination menu chooses the recipient. The sender comes from the Email channel, and the current subject comes from the business name.
+The destination menu chooses the recipient. The sender comes from the Email channel; you write the subject in **Subject**. Check that field before sending, including when replying to an earlier email.
 
 Review the sender's name and address in **Settings > Integrations**. If you have several senders, check which channel the conversation used. Contact support if you need help identifying the sender before sending further messages.
 
@@ -212,7 +242,7 @@ Review the sender's name and address in **Settings > Integrations**. If you have
 
 Confirm the exact recipient address and review whether the message has delivery information or a failure. Ask the customer to check their spam or junk folder as well as their usual inbox.
 
-If the email is still sending, give processing time to complete. If it failed, review the available reason, correct the destination or content when appropriate, and check the total attachment size before retrying.
+If the email is still sending, give processing time to complete. If it failed, review the available reason, correct the destination or content when appropriate, and reduce images or simplify the design if its size prevents sending.
 
 ### The customer's reply does not appear
 
@@ -222,7 +252,7 @@ Incoming replies must also pass the receiving checks. If a reply still does not 
 
 ### An attachment fails or looks different
 
-Check the accepted file type and size, confirm that the upload finished, and try a smaller supported export when necessary. A file's appearance in the customer's email application may differ from its preview in Hellotext.
+In the Email editor, add images through its image blocks. Check that they are PNG, JPEG, GIF, or WebP files up to 5 MB and wait for the upload to finish. A design image appears within the email; its appearance can vary between email applications.
 
 For a large document or media file, consider sharing an appropriate download link. Keep access to the linked file suitable for the intended customer.
 
@@ -232,8 +262,8 @@ Before your team relies on Email conversations in the Inbox, confirm that:
 
 1. The intended sender is verified and active in the correct business.
 2. A test customer's email address is saved correctly on the profile.
-3. Selecting that address sends through Email.
-4. The received message shows the expected sender, business name, text, and attachments.
+3. The selected destination is Email and shows the correct address.
+4. The received test message shows the expected sender, subject, design, images, and links.
 5. A reply from the same recipient address appears in the correct Inbox conversation.
 6. The right teammate or team takes responsibility for the reply.
 7. Your team understands sender selection, delivery information, and the scope of unsubscribe requests.

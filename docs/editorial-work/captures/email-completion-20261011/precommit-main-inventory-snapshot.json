@@ -1,0 +1,67 @@
+{
+  "status": "read_only_refresh_complete",
+  "main_sha": "83709b00e107739ba3679d7ce8a80388f804eecf",
+  "main_tree": "18a6e12504bfb9cb054c43efd1088dd5d004d607",
+  "main_stable_during_refresh": true,
+  "open_prs": [],
+  "open_pr_count": 0,
+  "pagination_complete": true,
+  "email_open_pr_overlaps": [],
+  "inventory": {
+    "source_ref": "83709b00e107739ba3679d7ce8a80388f804eecf",
+    "rows": 154,
+    "counts": {
+      "local_verified": 119,
+      "pending": 31,
+      "out_of_scope": 1,
+      "in_progress": 2,
+      "visual_pending": 1
+    },
+    "unresolved_pairs": 34,
+    "sha256": "28bb3c6450425e0c7a48c63e29eead7eed61d7a6c70e35e3e267510692024192",
+    "local_file": "main-progress.csv",
+    "email_rows": [
+      {
+        "article_key": "numbers/email-channel-fundamentals.md",
+        "editorial_status": "pending",
+        "local_verified_commit": "",
+        "work_record": ""
+      }
+    ]
+  },
+  "scope": "Help main/open PRs and CSV only. No app source/deployment parity or local-draft completeness inferred.",
+  "observed_at": "2026-10-11T17:09:10.364092+00:00",
+  "repository": "hellotext/help",
+  "external_mutations_performed": 0,
+  "public_help_HTTP_verification_performed": false,
+  "evidence": [
+    {
+      "path": "remote-refresh-20261011T170907.434674Z/main-after.json",
+      "sha256": "87d2493b1179212b4e48acd34921add51755752ad797bf984082543a203f7c6e"
+    },
+    {
+      "path": "remote-refresh-20261011T170907.434674Z/main-before.json",
+      "sha256": "87d2493b1179212b4e48acd34921add51755752ad797bf984082543a203f7c6e"
+    },
+    {
+      "path": "remote-refresh-20261011T170907.434674Z/main-commit.json",
+      "sha256": "95eb7f03925419efee7689d0076d244f7bc8746be50122ee190a2f5a55e0c24f"
+    },
+    {
+      "path": "remote-refresh-20261011T170907.434674Z/main-progress.csv",
+      "sha256": "28bb3c6450425e0c7a48c63e29eead7eed61d7a6c70e35e3e267510692024192"
+    },
+    {
+      "path": "remote-refresh-20261011T170907.434674Z/main-progress.json",
+      "sha256": "ab75b98ed6ae26f058b2160711488f42f9845fb5279772b7107ba621d4748bcd"
+    },
+    {
+      "path": "remote-refresh-20261011T170907.434674Z/open-prs-after.json",
+      "sha256": "a930ec39e7339fde7af6a7f1009d621c595aab52ec9324dde1e8387212ae64aa"
+    },
+    {
+      "path": "remote-refresh-20261011T170907.434674Z/open-prs-before.json",
+      "sha256": "a930ec39e7339fde7af6a7f1009d621c595aab52ec9324dde1e8387212ae64aa"
+    }
+  ]
+}

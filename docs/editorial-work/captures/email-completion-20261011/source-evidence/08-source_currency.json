@@ -1,0 +1,39 @@
+{
+  "schema": "email-scoped-source-currency-final-v1",
+  "status": "passed_scoped_source_only",
+  "at": "2026-10-11T16:54:37.754920+00:00",
+  "captured_source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+  "initial_scoped_target_revision": "afacda5636225888e44666da2e6d76fdd6a1425f",
+  "latest_observed_app_master": "dfd68fd5019936dc1046dcd76cfa9be529a1eb38",
+  "prior_scoped_source_files_rehashed": 147,
+  "prior_scoped_currency_sha256": "9a203fb43ee456ba494b222826d0b899135d8e23d3f3412176824081ee31fa9e",
+  "new_compare_sha256": "6cb4a5cdd5b2b61687e2472dd51859ab08f3f4f316a712342c87bf3996bf240a",
+  "new_commits": 5,
+  "new_changed_paths": [
+    "app/integrations/shopify/client/product.rb",
+    "app/integrations/shopify/client/product_variant.rb",
+    "app/integrations/shopify/product/params.rb",
+    "app/integrations/shopify/product_variant/params.rb",
+    "app/jobs/artifact/entity/download_image_job.rb",
+    "app/models/ai/replenishment/runner.rb",
+    "app/models/artifact/entity/imageable.rb",
+    "app/models/supervisor/recommendation/engine/runner.rb",
+    "spec/integrations/ai/openai/webhook/response/completed_spec.rb",
+    "spec/integrations/shopify/product/params_spec.rb",
+    "spec/integrations/shopify/product_variant/params_spec.rb",
+    "spec/jobs/artifact/entity/download_image_job_spec.rb",
+    "spec/models/ai/replenishment/runner_spec.rb",
+    "spec/models/artifact/product_spec.rb",
+    "spec/models/supervisor/recommendation/engine/runner_spec.rb"
+  ],
+  "new_changed_path_intersection_with_email_scope": [],
+  "assessment": "Root reviewed the full new compare: Shopify media reconciliation/download, Imageable, AI replenishment image queue and recommendation timing changes; no Email UI, shared CSS or routes changed. The 147-path Email source scope has no intersection.",
+  "source_bytes_final": {
+    "file": "source-bytes-final.json",
+    "sha256": "81a26bcbf7dd8c31acdabf92ddadc51a32981f6c689f6440566c7866166f059e"
+  },
+  "limits": [
+    "Scoped code continuity only; no current deployment identity or global production pixel/CSS parity claim.",
+    "Runtime retained its reviewed immutable source and scoped contract; the later master observation did not alter that runtime."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "status": "passed_for_frozen_integration_and_build_bytes",
+  "at": "2026-10-11T17:01:25.058103+00:00",
+  "checkpoint_sha256": "e0d55dce8b3a72bb6eee08d854d8a99a221a89aed9e9230f87548c8d59f1963e",
+  "integration_sha256": "3c6dbb5673d2dbffb5308d210b25c59d94af8cd9582db55b3bbec8df4fbec4d3",
+  "source_register_sha256": "956dce071a2d2c979bc6aa6778191d53d9f81739183c737b1dba772d650d0595",
+  "native_manifest_sha256": "619e0dade81ea362bcd56ff327953e20288972ecefd16c9f46b37f99d788903b",
+  "new_sources_preserved": 12,
+  "built_png_copies_preserved": 24,
+  "articles": [
+    {
+      "locale": "es",
+      "path": "_i18n/es/numbers/email-channel-fundamentals.md",
+      "sha256": "3114208e2f27837e1d1a3b068f450fba23f086f351d2150ec96198e17d8ffb3a",
+      "copy_baseline_sha256": "beb9cf44197a248bb49efce30f52e41ed4690294762507a9d2dc5cff0182e007",
+      "figures_removed_restore_copy_exactly": true,
+      "headings": 22,
+      "liquid_links": 20
+    },
+    {
+      "locale": "en",
+      "path": "_i18n/en/numbers/email-channel-fundamentals.md",
+      "sha256": "19175d63f4cd706e2442f3081dda2455f1751a393aa5900261fb5d4d23490995",
+      "copy_baseline_sha256": "29ed9c667abcc334e4e9618a8a9dc68f4d036731b166158ef6c899678ec3a0aa",
+      "figures_removed_restore_copy_exactly": true,
+      "headings": 22,
+      "liquid_links": 20
+    }
+  ],
+  "source_evidence_copies_exact": 10,
+  "build_execution_sha256": "a3ea16e6cb3f03fc5a8a57bd76715985c6576cd6f789f4d67a85f0cf08aa7063",
+  "build_log_sha256": "46ddcab36c34357b1cd015c54173327dbff0d89e9bd0a91b06cee943eb6253f3",
+  "build_exit_code": 0,
+  "stub_and_inventory_preserved": true,
+  "tracked_delta_only_bilingual_article": true,
+  "untracked_paths_within_expected_assets_docs": true,
+  "raw_capture_sidecars_or_runtime_private_files_imported": false,
+  "findings": [],
+  "limits": [
+    "Visual page acceptance is separate and pending its real complete-page and figure receipts.",
+    "No build rerun, browser launch, database access, git index write or Help edit was performed by this review."
+  ]
+}

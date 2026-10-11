@@ -1,0 +1,18 @@
+{
+  "schema": "email-integration-inputs-v1",
+  "status": "ready_for_integration",
+  "admission": {
+    "path": "audit/email-help-preparation-20261011/source-admission.json",
+    "sha256": "df01e909f3073b5ec85d2f6c326c6aca96eac89e899837fb062bff9627eeb38a"
+  },
+  "insertion_plan": {
+    "path": "audit/email-help-preparation-20261011/final-insertion-plan.json",
+    "sha256": "55f4a5f7cf1e5684b419e8afeac3a101aa93b011663b2d528396002706476528"
+  },
+  "copy_review": {
+    "path": "audit/email-completion-preparation-20261011/preview-footer-copy-independent-review.json",
+    "sha256": "a867d459a33352a2fe32c2db501ff067db2bfe27921f83a887b89f50c552d1a6"
+  },
+  "source_root": "audit/email-completion-preparation-20261011/capture/sources",
+  "pending": []
+}

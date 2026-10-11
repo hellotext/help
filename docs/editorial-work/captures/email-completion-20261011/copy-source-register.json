@@ -1,0 +1,171 @@
+{
+  "status": "source_facts_checked_native_pixels_and_independent_copy_review_pending",
+  "at": "2026-10-11T15:49:50.677692+00:00",
+  "source_revision": "8e27a524a1a1354385c7d2fd22de8e568c2112cb",
+  "compared_revision": "afacda5636225888e44666da2e6d76fdd6a1425f",
+  "manifest": {
+    "path": "audit/journeys-workflow-local-20261010/source-files.json",
+    "sha256": "d28b8d6b6975cc08fa885adf7157af117863987f1e5ff427ca9671a68a8a576c"
+  },
+  "compare": {
+    "path": "audit/journeys-workflow-local-20261010/scoped-currency-compare.json",
+    "sha256": "7c6e23bc24c5e0e6e03bbbf3bf18fedbdb865d4b9f8b288358c2cb5e5c19e81c"
+  },
+  "copy_adjustment": {
+    "path": "audit/email-help-preparation-20261011/copy-adjustment.json",
+    "sha256": "9be905fbc24d623ffd431ce4101b8b10eaef012e548b3b76d13fa38a45849172"
+  },
+  "facts": [
+    {
+      "claim": "Email editor availability is grade >=3; current package seeds identify Pro=3 and Enterprise=4, both with email_channel.",
+      "paths": [
+        "app/helpers/email_compose_helper.rb",
+        "db/seeds/packages.rb"
+      ]
+    },
+    {
+      "claim": "The Email menu can be visible before sending is ready. Actual route requires an address and an active channel; menu presence does not prove these prerequisites.",
+      "paths": [
+        "app/components/compose/destination_component.html.erb",
+        "app/components/conversation/footer_component.rb",
+        "app/javascript/controllers/compose/inbox_email_controller.js"
+      ]
+    },
+    {
+      "claim": "Inbox has its own Subject control and sends subject from the current editor state. Authored Email subject validates a maximum of998 characters.",
+      "paths": [
+        "app/components/compose/email_subject_component.html.erb",
+        "app/javascript/controllers/compose/inbox_email_controller.js",
+        "app/models/message/email_content.rb",
+        "config/locales/views/compose/es.yml"
+      ]
+    },
+    {
+      "claim": "Current inline Email designer edits blocks and previews desktop/mobile. Its image input accepts PNG/JPEG/GIF/WebP; JS caps one image at5*1024*1024 bytes, presented as5MB in native UI.",
+      "paths": [
+        "app/controllers/conversation/email_designers_controller.rb",
+        "app/components/compose/email_design_component.html.erb",
+        "app/javascript/controllers/compose/email_design_controller.js",
+        "app/components/compose/email_preview_devices_component.html.erb",
+        "config/locales/views/compose/email_design/es.yml"
+      ]
+    },
+    {
+      "claim": "Email document permits30 root blocks; text HTML has100000 bytes per block and combined canonical JSON1MiB. These byte budgets are not a whole-email character count; uploaded asset bytes are separate. Public prose uses practical simplification advice instead of false character units.",
+      "paths": [
+        "app/models/mailing/document.rb",
+        "app/models/mailing/blocks/text.rb",
+        "app/models/message/email_content.rb"
+      ]
+    },
+    {
+      "claim": "Design image blocks render in the email body. The inline Email composer serializes owned design resources and does not forward native legacy attachments. General attachment upload is not offered by the current inline design.",
+      "paths": [
+        "app/javascript/controllers/compose/inbox_email_controller.js",
+        "app/components/compose/email_design_component.html.erb",
+        "app/mailers/ses/mailer.rb",
+        "app/models/message/email_content.rb"
+      ]
+    },
+    {
+      "claim": "Email delivery renders design HTML and plain text; branding/footer derive from appearance independently of the sending identity.",
+      "paths": [
+        "app/mailers/ses/mailer.rb",
+        "app/models/mailing/rendering/source.rb"
+      ]
+    }
+  ],
+  "source_bindings": [
+    {
+      "path": "app/components/compose/destination_component.html.erb",
+      "sha256": "596a8e4889cb85fe4acc0591a0c6ab150a9d1800803b54ca2c8346acb35eb3eb",
+      "bytes": 12267
+    },
+    {
+      "path": "app/components/compose/email_design_component.html.erb",
+      "sha256": "c8b80169649a191e7bae0f03d8a6e8a2b923883737c6bad1d4ecbaf6aca78064",
+      "bytes": 37084
+    },
+    {
+      "path": "app/components/compose/email_preview_devices_component.html.erb",
+      "sha256": "6a95d7fdd03f0f342314a068775bca8c4156dd9212561a35978e28dd3c6146f0",
+      "bytes": 530
+    },
+    {
+      "path": "app/components/compose/email_subject_component.html.erb",
+      "sha256": "421c2aa921f93e79a8f013883db0db5eb4d0dff5357c1013e2285756c9f4ddf1",
+      "bytes": 530
+    },
+    {
+      "path": "app/components/conversation/footer_component.rb",
+      "sha256": "43e80de4cb6c5b957b7c60654b943ca6ee22e4235163c27c27eeb4f919a7662c",
+      "bytes": 5021
+    },
+    {
+      "path": "app/controllers/conversation/email_designers_controller.rb",
+      "sha256": "8f335974cb20c0c110a820f9b2856709abc096d1c2c3447573b372642346d562",
+      "bytes": 517
+    },
+    {
+      "path": "app/helpers/email_compose_helper.rb",
+      "sha256": "8a5fdeedacc5c36a63b2f75429df574a5def8df54ff83230b2b5d4e00e246697",
+      "bytes": 356
+    },
+    {
+      "path": "app/javascript/controllers/compose/email_design_controller.js",
+      "sha256": "72bd388d9d041fbe95830ce6c78c30ccd5263eefa77857de474badbc14228aee",
+      "bytes": 266777
+    },
+    {
+      "path": "app/javascript/controllers/compose/inbox_email_controller.js",
+      "sha256": "a7cd122352d10ea8e1f658c9a99ed64bb6a8d393d1f77f456a1415ca73e4f5a7",
+      "bytes": 39968
+    },
+    {
+      "path": "app/mailers/ses/mailer.rb",
+      "sha256": "eda3bf5bddf5680a5fa80ebdc301b213eb5ccca5d5c6f85a6abec8aba1d6709a",
+      "bytes": 2822
+    },
+    {
+      "path": "app/models/mailing/blocks/text.rb",
+      "sha256": "223e3ffcf09aea8b81a47a9566ba8bd24721fb386e01525559c946e7108d5c2b",
+      "bytes": 3941
+    },
+    {
+      "path": "app/models/mailing/document.rb",
+      "sha256": "aafcb5c130bcf6d956166db173e2371a9bdf54a16ddf6124c79428a2e0ef5dd1",
+      "bytes": 12944
+    },
+    {
+      "path": "app/models/mailing/rendering/source.rb",
+      "sha256": "be885326eeb89c871d78fe9d36aba063d880148b96a3f72afcbd3c5ee6e4be54",
+      "bytes": 22239
+    },
+    {
+      "path": "app/models/message/email_content.rb",
+      "sha256": "a6541c28e23f3bf2bd3864318b90d9645fede8c910c18175ca979c838dcb59cf",
+      "bytes": 4808
+    },
+    {
+      "path": "config/locales/views/compose/email_design/es.yml",
+      "sha256": "375fd7ad42095569e3410dda8dca093be25eca0a46c17175c710da4179a4b331",
+      "bytes": 8092
+    },
+    {
+      "path": "config/locales/views/compose/es.yml",
+      "sha256": "17d6c64baa6442fc642fd1ee7323decf8ad4ca33088449c25b8224c7dfe4c845",
+      "bytes": 3743
+    },
+    {
+      "path": "db/seeds/packages.rb",
+      "sha256": "47ea3e4feb70a889ba3f89c51bf3261c42953e0dd0aec71550dde28858808e0d",
+      "bytes": 20782
+    }
+  ],
+  "changed_path_intersection": [],
+  "limits": [
+    "Scoped source continuity only; not deployed rendering or global CSS/asset parity.",
+    "No delivery, provider registration, DNS verification, upload or consent transition executed.",
+    "Native source pixels and independent review must confirm article-facing controls before publication."
+  ]
+}

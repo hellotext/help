@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "reviewer": "root",
+  "at": "2026-10-11T17:15:00.213772+00:00",
+  "locale": "es",
+  "width": 390,
+  "capture_receipt": {
+    "path": "docs/editorial-work/captures/email-completion-20261011/validation/table-scroll-review/capture-receipt.json",
+    "sha256": "7fbf3f3999c4b82893e56c607104e904253b931ff4452d38dabd23d4dcddd663"
+  },
+  "checkpoint_sha256": "e0d55dce8b3a72bb6eee08d854d8a99a221a89aed9e9230f87548c8d59f1963e",
+  "files": [
+    {
+      "file": "email-table-es-390-table1-x1-part1.png",
+      "sha256": "f610a83f3c772cdd83fdc288065174a345504708633b85f352a1a9726093cc19",
+      "kind": "native_table_scroll",
+      "clip": {
+        "x": 0,
+        "y": 3489,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visually_reviewed_individually": true
+    },
+    {
+      "file": "email-table-es-390-table1-x2-part1.png",
+      "sha256": "a33db11ce7a012cc86bef7263dcec508ec6eeb0d2847153fc8922741aeb0420f",
+      "kind": "native_table_scroll",
+      "clip": {
+        "x": 0,
+        "y": 3489,
+        "width": 390,
+        "height": 1200
+      },
+      "pixel_size": [
+        780,
+        2400
+      ],
+      "icc_sha256": "6e72ac49fd45d1275f29daca1038a0b9af5befd0e891af9267f47ab066a5dffb",
+      "all_chunk_crcs_valid": true,
+      "visually_reviewed_individually": true
+    }
+  ],
+  "notes": [
+    "Ambos PNG abiertos individualmente; las tres columnas y las tres filas se leen completas entre scrollLeft 0 y 51.5 CSS px.",
+    "La columna De dónde proviene es íntegra en el extremo derecho: remitente activo, dirección elegida del perfil, y dirección automática para asociar respuestas.",
+    "Tabla nativa con overflow-x auto, clientWidth358/scrollWidth410; no desbordamiento del documento ni modificación de HTML/CSS. Las otras dos tablas ES caben en358CSS.",
+    "Dos fallos de carga corresponden a los dos scripts externos bloqueados; cero errores runtime/Fetch."
+  ],
+  "findings": []
+}

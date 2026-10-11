@@ -3,7 +3,7 @@ Usa Correo electrónico cuando tus clientes necesiten un mensaje que puedan reci
 Esta guía explica el uso diario del canal de correo electrónico después de agregar un remitente. Para conocer el formulario del remitente, los registros DNS y la verificación del dominio, sigue [Configura el envío de correos]({% link _integrations/set-up-email-sending.md %}).
 
 <div class="note">
-  Correo electrónico está disponible en Enterprise. El dominio de un remitente guardado debe terminar de verificarse antes de que su canal esté disponible para enviar.
+  Correo electrónico está disponible en Pro y Enterprise. El dominio de un remitente guardado debe terminar de verificarse antes de que su canal esté disponible para enviar.
 </div>
 
 ## Para qué sirve mejor el correo electrónico
@@ -13,7 +13,7 @@ Usa Correo electrónico para:
 - Conversaciones individuales con clientes desde el Inbox.
 - Respuestas detalladas que necesitan párrafos y un registro escrito.
 - Soporte y seguimiento de pedidos con clientes que prefieren el correo.
-- Compartir documentos, imágenes y otros archivos compatibles.
+- Compartir imágenes e información, con links a documentos cuando haga falta.
 - Continuar una conversación después de que el cliente responda a un correo enviado desde Hellotext.
 
 El correo electrónico no requiere que el cliente instale una aplicación de mensajería ni que tenga un número de teléfono en su perfil. Sí necesitas la dirección correcta y permiso para contactar al cliente con el propósito del mensaje.
@@ -35,7 +35,7 @@ Sigue leyendo: [Cómo funcionan los perfiles de clientes]({% link _audience/cust
 
 ## Dónde puedes usar correo electrónico
 
-El Inbox ofrece un destino de correo electrónico para los clientes que tienen una dirección de correo cuando el negocio cuenta con un remitente de correo activo.
+El menú de destino del Inbox puede mostrar **Email** antes de que el envío esté listo. Para enviar necesitas una dirección en el perfil del cliente, acceso al canal y un remitente activo; ver la opción no confirma esos requisitos.
 
 El creador de campañas muestra Correo electrónico como opción de entrega, pero seleccionarla por sí sola no habilita el envío. Para enviar una campaña por correo, el negocio necesita acceso al canal según su suscripción y un remitente verificado y activo. Conectar un remitente no cambia automáticamente los canales de una campaña existente.
 
@@ -51,9 +51,21 @@ Una conversación por correo utiliza tres direcciones o identidades:
 | **Destinatario** | La dirección del cliente que recibirá este mensaje. | La dirección de correo que eliges del perfil del cliente en el menú de destino. |
 | **Dirección de respuesta** | La dirección que utiliza la aplicación de correo del cliente cuando elige Responder. | Hellotext la proporciona automáticamente para asociar la respuesta con la conversación. |
 
-Por ejemplo, tu remitente puede ser `support@acme.com` y tu cliente puede recibir el mensaje en `alex@example.com`. La dirección de respuesta puede ser distinta de `support@acme.com`; así recibe Hellotext la respuesta para la conversación.
+Por ejemplo, tu remitente puede ser `support@example.com` y tu cliente puede recibir el mensaje en `alex@example.com`. La dirección de respuesta puede ser distinta de `support@example.com`; así recibe Hellotext la respuesta para la conversación.
 
 El menú de destino muestra las direcciones de correo del cliente. No es una lista de los remitentes de tu negocio. Cuando eliges una dirección, Hellotext usa el remitente activo de la conversación de correo existente, si está disponible, o un canal de correo electrónico disponible para un destino nuevo.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-email-figure="email-recipient-menu" aria-label="Elige la dirección del destinatario">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 686px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/email-completion-20261011/email-recipient-menu-es-mobile.png 4x" width="2000" height="736" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/email-completion-20261011/email-recipient-menu-es-desktop.png" srcset="/images/editorial/email-completion-20261011/email-recipient-menu-es-desktop.png 4x" width="2672" height="628" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Menú Email del Inbox con dos direcciones de correo del mismo cliente de ejemplo." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Interfaz real con datos ficticios: elige en Email la dirección del cliente que recibirá el mensaje.</figcaption>
+</figure>
 
 Si tu negocio tiene varios remitentes activos, verifica cuál se utiliza antes de depender de una dirección de origen específica. El menú de destino del Inbox no ofrece actualmente un selector separado de remitentes de correo.
 
@@ -64,29 +76,55 @@ Para cambiar el nombre o la dirección de un remitente, usa su acción **Editar*
 1. Abre la conversación del cliente en el **Inbox**.
 2. Revisa el perfil del cliente y confirma que la dirección de correo sea correcta. Agrega o corrige la dirección en el perfil si es necesario.
 3. Abre el menú de destino junto al editor de mensajes.
-4. Busca el grupo **Correo electrónico**.
+4. Busca la opción **Email**.
 5. Selecciona la dirección del cliente a la que quieres enviar. Si el perfil tiene más de una, elige la que debe recibir este mensaje.
-6. Escribe tu mensaje. Usa párrafos claros, agrega los links necesarios y adjunta archivos compatibles cuando haga falta.
-7. Comprueba que Correo electrónico esté seleccionado antes de enviar, especialmente si antes estabas respondiendo por otro canal.
+6. Escribe el **Asunto** y prepara el cuerpo en el editor de correo. Organiza el contenido en bloques de texto y agrega imágenes o acciones cuando ayuden al cliente.
+7. Abre **Vista previa** para revisar el diseño en escritorio y móvil. Comprueba el destinatario, el asunto, el texto y los links antes de enviar, especialmente si antes estabas respondiendo por otro canal.
 8. Envía el mensaje y revisa su información de envío o entrega en la conversación.
 
-Seleccionar una dirección de correo envía el mensaje a ese destino. No envía copias a todas las direcciones del perfil. El menú de destino de correo electrónico no ofrece campos CC ni CCO.
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-email-figure="email-compose" aria-label="Prepara el asunto y el cuerpo del correo">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 535px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/email-completion-20261011/email-compose-es-mobile.png 4x" width="1560" height="1108" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/email-completion-20261011/email-compose-es-desktop.png" srcset="/images/editorial/email-completion-20261011/email-compose-es-desktop.png 4x" width="2068" height="980" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Editor de correo del Inbox con el asunto y el cuerpo de un borrador sobre el retiro de un pedido de ejemplo." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Borrador con datos ficticios: revisa el asunto y el cuerpo del correo antes de enviarlo.</figcaption>
+</figure>
+
+Al enviar, se usa únicamente la dirección seleccionada. No se envían copias a todas las direcciones del perfil. El menú de destino de correo electrónico no ofrece campos CC ni CCO.
 
 Si Correo electrónico es el único destino disponible del cliente, Hellotext puede abrir el editor con ese canal seleccionado cuando hay un remitente activo. Revisa siempre el destino si el cliente también tiene números de teléfono u otros canales conectados.
 
-Si falta el grupo Correo electrónico, revisa la dirección del perfil y la activación del remitente antes de intentar enviar. Un dominio pendiente de verificación no ofrece un canal de envío activo.
+Si no puedes enviar por Email, revisa la dirección del perfil, el acceso de tu plan y la activación del remitente. Un dominio pendiente de verificación no ofrece un canal de envío activo, aunque el menú permita explorar la opción Email.
 
 Sigue leyendo: [Resumen del editor de mensajes]({% link _numbers/message-editor-overview.md %}).
 
 ## Qué recibe el cliente
 
-Hellotext presenta el mensaje como un correo con el nombre del negocio, el cuerpo del mensaje y un pie que muestra el nombre y la dirección del remitente. También incluye una versión de texto sin formato para las aplicaciones de correo que la utilizan.
+Hellotext prepara el correo a partir del diseño que editaste. La apariencia elegida aporta la marca y el pie del mensaje; el nombre y la dirección del remitente provienen del canal de correo. También se incluye una versión de texto sin formato para las aplicaciones de correo que la utilizan.
 
-El asunto actual del correo usa el nombre del negocio. El editor del Inbox no ofrece un campo de asunto separado para cada mensaje. El nombre del remitente proviene de su integración; no cambia automáticamente al nombre de la persona del equipo que hizo clic en enviar.
+Usa **Asunto** para escribir el título del correo. Es independiente del cuerpo y del nombre del remitente; este último no cambia automáticamente al nombre de la persona del equipo que hizo clic en enviar.
 
-El cuerpo usa el texto y los saltos de párrafo de tu mensaje. No dependas de que los estilos copiados, el HTML personalizado o los controles interactivos de otro canal se vean exactamente igual en el correo. Los archivos se entregan como adjuntos y la aplicación de correo del cliente controla cómo se previsualizan o descargan.
+El cuerpo conserva los bloques del diseño, como texto, imágenes y botones. Las imágenes que agregas al diseño aparecen dentro del correo; no se ofrecen automáticamente como archivos adjuntos descargables. No dependas de que los estilos copiados o los controles de otro canal se vean exactamente igual.
 
-El diseño se adapta a pantallas más pequeñas, pero distintas aplicaciones de correo pueden mostrar el mismo mensaje de manera diferente. Revisa un mensaje recibido real para evaluar la apariencia, los saltos de línea y los adjuntos.
+Usa **Vista previa** para revisar el borrador sin enviarlo y alterna entre escritorio y móvil. Distintas aplicaciones de correo pueden mostrar el mismo diseño de manera diferente; una prueba recibida te permite comprobar la apariencia final, los saltos de línea y los links.
+
+El pie de la vista previa puede mostrar **Cancelar suscripción**. En un correo manual del Inbox ese enlace no se agrega automáticamente al envío.
+
+<figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-email-figure="email-inline-preview" aria-label="Revisa el diseño en Vista previa">
+  <div class="ht-editorial-visual__stage">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 634px; width: fit-content; margin: 0 auto;">
+      <picture>
+        <source media="(max-width: 600px)" srcset="/images/editorial/email-completion-20261011/email-inline-preview-es-mobile.png 4x" width="1464" height="2280" />
+        <img class="ht-editorial-visual__image" src="/images/editorial/email-completion-20261011/email-inline-preview-es-desktop.png" srcset="/images/editorial/email-completion-20261011/email-inline-preview-es-desktop.png 4x" width="2464" height="2280" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Vista previa del borrador de Casa Lila, con el mensaje de ejemplo, el pie y el selector de escritorio y móvil." />
+      </picture>
+    </div>
+  </div>
+  <figcaption class="ht-editorial-visual__caption">Vista previa del borrador con datos ficticios. Alterna entre escritorio y móvil para revisar cómo se distribuye el contenido.</figcaption>
+</figure>
 
 ### Links y personalización
 
@@ -98,29 +136,21 @@ Sigue leyendo: [Links con tracking]({% link _analytics-reporting-attribution/tra
 
 ## Longitud del texto y archivos adjuntos
 
-El correo electrónico permite textos más largos que una respuesta breve de chat, pero el editor sigue aplicando límites:
+El editor de correo organiza el contenido en bloques. Usa sus controles de imagen; la lista de archivos de otros canales no describe lo que puedes agregar a este diseño.
 
 | Elemento | Límite o comportamiento |
 | --- | --- |
-| **Texto del mensaje** | Hasta 100.000 caracteres en el editor de correo electrónico. |
-| **Una imagen cargada** | Hasta 25 MB por archivo. |
-| **Un documento cargado** | Hasta 25 MB por archivo. |
-| **Un archivo de audio o video cargado** | Hasta 25 MB por archivo. |
-| **Varios adjuntos** | Cada archivo debe ser aceptado al cargarlo. El correo completo también debe respetar los límites de tamaño de mensaje de los servicios de envío y recepción. |
+| **Asunto** | Hasta 998 caracteres. |
+| **Texto con formato** | Se valida por bloque; el formato también ocupa espacio. Simplifica o divide un bloque si el editor rechaza su longitud. |
+| **Bloques principales** | Hasta 30 en el diseño. |
+| **Una imagen cargada** | PNG, JPEG, GIF o WebP de hasta 5 MB. Se incorpora al cuerpo del correo. |
+| **Documentos, audio o video** | Comparte un link adecuado; el editor de correo actual no ofrece la carga general de estos archivos como adjuntos. |
 
-Que la carga de un archivo se acepte no garantiza que el servicio de correo de cada destinatario acepte el mensaje completo. Varios archivos grandes pueden hacer que el correo sea demasiado pesado, aunque cada archivo esté permitido por separado. Usa archivos más pequeños o comparte un link de descarga adecuado cuando no sea necesario incluir el archivo completo en el mensaje.
+El límite del texto con formato no equivale a un número fijo de caracteres para todo el correo. También se valida el tamaño conjunto del diseño. Mantén el mensaje breve y divide la información en bloques útiles, sin repetir contenido.
 
-Los tipos de archivo compatibles incluyen:
+Espera a que termine la carga de cada imagen y revisa su contenido en **Vista previa**. Que una imagen se acepte no garantiza que todos los servicios de correo acepten el mensaje completo. Usa imágenes más pequeñas cuando sea posible.
 
-- **Imágenes:** JPEG, PNG, GIF, WebP, AVIF, HEIC, HEIF, BMP, TIFF y SVG.
-- **Documentos:** PDF, Word, Excel, PowerPoint, archivos OpenDocument, RTF, texto sin formato y CSV.
-- **Audio:** archivos compatibles AAC, audio MP4, MP3, AMR, Ogg, Opus, WAV, FLAC y audio WebM.
-- **Video:** archivos compatibles MP4, MPEG, 3GP, QuickTime, WebM y AVI.
-- **Otros archivos:** archivos compatibles ZIP, Gzip, EPUB, JSON, XML, HTML, de calendario y de contactos.
-
-Elige un tipo de archivo compatible y mantén cada archivo dentro del límite de tamaño. Si se rechaza un archivo, usa una exportación compatible o comparte un link adecuado. Cambiar solo la extensión del nombre no convierte el archivo.
-
-Usa el control de adjuntos del editor, espera a que termine la carga y confirma que los archivos correctos estén adjuntos antes de enviar. Revisa sus nombres y contenidos para enviar la versión correcta al cliente correcto.
+Para compartir un documento o un archivo grande, agrega un link de descarga y comprueba que el cliente tenga acceso. Cambiar solo la extensión de un archivo no lo convierte a un formato compatible.
 
 ## Cómo llegan las respuestas del cliente al Inbox
 
@@ -133,7 +163,7 @@ Después de recibir un correo enviado desde Hellotext, el cliente debe:
 
 Hellotext asocia una respuesta compatible con el correo saliente original, el perfil del cliente y la conversación. Tu equipo puede leerla y responder desde el Inbox.
 
-Una respuesta puede incluir texto y adjuntos compatibles. El Inbox muestra el contenido y los archivos con su presentación habitual de mensajes. No reproduce el diseño HTML completo del correo del cliente como una vista de su casilla.
+Una respuesta puede incluir texto y adjuntos compatibles. El Inbox conserva elementos compatibles del correo recibido, como imágenes, tablas y listas, y puede agrupar el texto citado de mensajes anteriores. Algunos estilos o elementos del correo original pueden mostrarse de otra forma.
 
 ### Respuestas desde otra dirección
 
@@ -143,7 +173,7 @@ Cuando pruebes las respuestas, usa la misma dirección que recibió el correo y 
 
 ### Correos nuevos enviados a la casilla existente de tu negocio
 
-Verificar un dominio de envío no traslada una casilla existente a Hellotext. Un correo nuevo escrito directamente a `support@acme.com` sigue la configuración de recepción que ya tenga esa dirección.
+Verificar un dominio de envío no traslada una casilla existente a Hellotext. Un correo nuevo escrito directamente a `support@example.com` sigue la configuración de recepción que ya tenga esa dirección.
 
 Enviar desde esa dirección en Hellotext y recibir respuestas mediante la dirección de respuesta proporcionada son funciones distintas de importar el historial de una casilla o recibir todos los correos nuevos enviados al dominio. Si necesitas una configuración más amplia de recepción, consúltala con el [soporte de Hellotext]({% link _troubleshooting-deliverability/contact-hellotext-support.md %}).
 
@@ -204,7 +234,7 @@ Si Correo electrónico es el único destino del perfil y no hay un remitente de 
 
 ### El mensaje usó un remitente o un asunto inesperados
 
-El menú de destino elige el destinatario. El remitente proviene del canal de correo electrónico y el asunto actual proviene del nombre del negocio.
+El menú de destino elige el destinatario. El remitente proviene del canal de correo electrónico; el asunto se escribe en **Asunto**. Revisa ese campo antes de enviar, también cuando respondes a un correo anterior.
 
 Revisa el nombre y la dirección del remitente en **Ajustes > Integraciones**. Si tienes varios remitentes, comprueba qué canal usó la conversación. Contacta al soporte si necesitas ayuda para identificar el remitente antes de enviar más mensajes.
 
@@ -212,7 +242,7 @@ Revisa el nombre y la dirección del remitente en **Ajustes > Integraciones**. S
 
 Confirma la dirección exacta del destinatario y revisa si el mensaje tiene información de entrega o un fallo. Pide al cliente que revise la carpeta de spam o correo no deseado, además de su bandeja de entrada habitual.
 
-Si el correo todavía se está enviando, espera a que termine el procesamiento. Si falló, revisa el motivo disponible, corrige el destino o el contenido cuando corresponda y comprueba el tamaño total de los adjuntos antes de volver a intentarlo.
+Si el correo todavía se está enviando, espera a que termine el procesamiento. Si falló, revisa el motivo disponible, corrige el destino o el contenido cuando corresponda y reduce las imágenes o simplifica el diseño si el tamaño impide el envío.
 
 ### La respuesta del cliente no aparece
 
@@ -222,7 +252,7 @@ Las respuestas entrantes también deben superar las comprobaciones de recepción
 
 ### Un adjunto falla o se ve diferente
 
-Revisa el tipo y el tamaño de archivo aceptados, confirma que la carga haya terminado y prueba una exportación compatible más pequeña cuando sea necesario. La apariencia del archivo en la aplicación de correo del cliente puede diferir de su vista previa en Hellotext.
+En el editor de correo, agrega las imágenes mediante sus bloques de imagen. Comprueba que sean PNG, JPEG, GIF o WebP de hasta 5 MB y espera a que termine la carga. Una imagen del diseño se muestra dentro del correo; su apariencia puede variar entre aplicaciones.
 
 Para un documento o archivo multimedia grande, considera compartir un link de descarga adecuado. Mantén el acceso al archivo enlazado apropiado para el cliente al que se dirige.
 
@@ -232,8 +262,8 @@ Antes de que tu equipo dependa de las conversaciones por correo en el Inbox, con
 
 1. El remitente elegido esté verificado y activo en el negocio correcto.
 2. La dirección de un cliente de prueba esté guardada correctamente en su perfil.
-3. Seleccionar esa dirección envíe a través de Correo electrónico.
-4. El mensaje recibido muestre el remitente, el nombre del negocio, el texto y los adjuntos esperados.
+3. El destino seleccionado sea Email y muestre la dirección correcta.
+4. El mensaje de prueba recibido muestre el remitente, el asunto, el diseño, las imágenes y los links esperados.
 5. Una respuesta desde la misma dirección del destinatario aparezca en la conversación correcta del Inbox.
 6. La persona o el equipo adecuados se hagan responsables de la respuesta.
 7. Tu equipo entienda la selección del remitente, la información de entrega y el alcance de las solicitudes de baja.

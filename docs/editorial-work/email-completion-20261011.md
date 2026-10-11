@@ -1,0 +1,39 @@
+# Email fundamentals completion
+
+Status: bilingual article locally verified at `df2b62ca32f148d6058ee02a1ee1973a9c82d380`; the inventory is closed by this separate follow-up change. Publication and public-resource verification remain separate later actions.
+
+This batch owns the Spanish and English Email channel fundamentals bodies and their capture evidence. It starts from Help `83709b00e107739ba3679d7ce8a80388f804eecf` with editorial submodule `d5319b02e1c6a85f3a6294f11763b9be8dd58a43`. Complete originals, route stub and inventory are preserved under `captures/email-completion-20261011/originals/`. All 22 headings and 20 ordered Liquid links per locale remain unchanged. The inventory remained pending in verifying commit `df2b62ca32f148d6058ee02a1ee1973a9c82d380`. The separate closure records that commit in the inventory and `local-verification-committed.json`; no commit was created by the integration or QA helpers.
+
+## Copy and source
+
+`copy-adjustment.json` records the concrete replacements: Pro/Enterprise availability, recipient selection without sending, the separate Subject control, the current block editor and desktop/mobile preview, and inline image behavior. The obsolete fixed business-name subject, general attachment list and 25 MB upload instructions were removed. The current image control accepts PNG, JPEG, GIF and WebP up to 5 MB; the Subject limit is 998 characters and the design permits 30 top-level blocks. Internal byte budgets are source-bound without presenting them as a whole-message character limit.
+
+`reply-copy-adjustment.json` records the correction for received mail: the current Inbox preserves compatible HTML elements and can group quoted text. Its source pins also confirm reply matching, separate delivery/open signals, the manual-email unsubscribe boundary and confirmation-page behavior. These were source reads; no inbound mail or subscription action was executed.
+
+Both complete articles passed independent copy review with 29 cited source files rehashed. The native preview then exposed an Unsubscribe footer. `preview-footer-copy-adjustment.json`, the independent delta review and the root review bind the adjacent clarification: the preview may display that label, while an ordinary manual Inbox message does not automatically receive the unsubscribe link. The 11 relevant source files were rechecked and reversing that sole paragraph restores the earlier reviewed bodies exactly.
+
+`root-current-source-review.json` records scoped Email source continuity from immutable app `8e27a524a1a1354385c7d2fd22de8e568c2112cb` through `afacda5636225888e44666da2e6d76fdd6a1425f` and `dfd68fd5019936dc1046dcd76cfa9be529a1eb38`. The newer paths do not intersect the Email scope. This is source continuity, not a claim about current production pixels or global asset parity.
+
+## Native visual evidence
+
+`section-coverage.json` accounts for every heading. Twelve admitted PNGs provide three responsive figures per locale: the recipient menu with two fictional reserved addresses, an unsent pickup-details draft with Subject/body controls, and its native inline preview. The menu appears after the recipient/sender distinction, the composer follows the composition steps, and the preview accompanies the explanation of what the recipient sees. `integration-record.json`, `source-register.json` and `accepted-source-manifest.json` bind all original bytes, native clip geometry, responsive selection and independent admission.
+
+Every source is a native 4× Display P3 PNG with no pixel, crop, profile or CSS transformations after capture. The narrow recipient-menu source uses a real 580-pixel app viewport and 500-pixel crop; its labels were separately verified at the Help page's actual 390-pixel width. Composer and preview mobile crops are 390 and 366 CSS pixels. Help figures preserve the standard static lavender stage and white inset frame without links, buttons or enlargement behavior.
+
+The isolated fixture used a fictional local sender/channel and conversation with two reserved recipient addresses. Its synthetic active sender is local routing data, not SES/DNS verification. Native callbacks and held jobs are recorded in the runtime evidence. No email was sent, no draft was persisted, no queued job was performed and no link or subscription action was activated. Browser mutations and external forwarding remained blocked. Source evidence records the local asset setting and browser isolation limits explicitly; it does not claim production asset parity.
+
+The original 541-table/536-sequence database and all 17,691 source files plus 2,417 static assets were verified unchanged. The captured fixture was restored to its prepared state and Spanish locale; all four runtime services were closed. The curated proof, network summary, closure, source continuity and byte checks are preserved under `source-evidence/`.
+
+## Completed local checks
+
+The full `yarn build`, including repository security checks, passed with Ruby 3.3.6 in 9.05 seconds. `validation/checkpoint.json` verifies both article structures, all 12 original PNGs and their 24 byte-identical localized build copies, four editorial module copies, the preserved route stub and authoring-document exclusion. An independent integration/build review also reversed the figure insertion to the approved copy bytes.
+
+All six complete Help views at 1440, 580 and 390 CSS pixels were captured natively at DPR 2 with Display P3 and reviewed individually through the footer. The primary evidence contains 84 complete-page segments and 18 figure details (102 PNGs); all six independent review receipts passed. The three figures in each view remained readable, unclipped and within native size limits. Capture validation recorded zero Runtime exceptions and zero interception-action errors; six external analytics requests were blocked, with their failed loads explicitly correlated.
+
+At 390 pixels, the Spanish identity table has a native scrollable width of 410 pixels inside a 358-pixel viewport. Two separate supplemental PNGs cover its complete height and all columns using native scrollLeft 0 and 51.5. Root reviewed both images and closed the finding. The other Spanish tables and all three English tables measured 358/358 with no horizontal overflow. The supplemental receipt and pixel review remain separate under `validation/table-scroll-review/` and `validation/table-scroll-es-review.json`; they do not inflate primary segment or figure-detail counts. No article or CSS change was needed.
+
+Local HTTP checks passed for 32 exact resources, 40 article links and eight authoring-document exclusions. The local server's extensionless routing limitation is documented in that receipt; actual deployment routing remains a publication check. Both QA service groups were stopped, their processes and profile descendants were absent, and ports 3368 and 9549 were verified closed. `validation/help-process-closure.json` binds the actual shutdown receipt.
+
+`precommit-main-inventory-snapshot.json` records a read-only 17:09 UTC refresh: Help main remains `83709b00e107739ba3679d7ce8a80388f804eecf`, with no open PRs and 34 unresolved article pairs. It is a preparation-time inventory observation, not a merge or deployment gate. Earlier receipts keep their historical pending statuses; `final-review.json` and `evidence-index.json` consolidate the completed local evidence. A real verifying commit must precede the separate inventory-closing commit, and preview/production identity and exact public resources must be verified by the publication owner.
+
+The local inventory closure changes only this article pair: 119 to 120 locally verified pairs and 34 to 33 unresolved pairs across 154 rows. The preserved literal build log contains one trailing space at line 10; every other changed file passes `git diff --check`. The original log bytes were not rewritten.
