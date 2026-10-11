@@ -59,10 +59,10 @@ If a routing or escalation rule is already holding the conversation for a specif
 <!-- inbox-actions:assignment-menu:start -->
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-inbox-figure="assignment-menu" aria-label="Choose a teammate from Assign">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 408px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 1207px; width: fit-content; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/editorial/inbox-actions-20261010/assignment-menu-en-mobile.png 4x" width="1560" height="4000" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-actions-20261010/assignment-menu-en-mobile.png" srcset="/images/editorial/inbox-actions-20261010/assignment-menu-en-mobile.png 4x" width="1560" height="4000" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Inbox Actions menu with Assign open and teammate options to choose." />
+        <img class="ht-editorial-visual__image" src="/images/editorial/assigning-desktop-correction-20261011/assignment-menu-en-desktop.png" srcset="/images/editorial/assigning-desktop-correction-20261011/assignment-menu-en-desktop.png 4x" width="4756" height="2424" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Inbox Actions menu with Assign open and teammate options to choose." />
       </picture>
     </div>
   </div>
@@ -75,10 +75,10 @@ Use the same steps to reassign a conversation that already has an owner. Hellote
 <!-- inbox-actions:assignment-result:start -->
 <figure class="ht-editorial-visual ht-editorial-visual--screenshot" data-inbox-figure="assignment-result" aria-label="Check the new assignee">
   <div class="ht-editorial-visual__stage">
-    <div class="ht-editorial-visual__image-frame" style="max-width: 408px; width: fit-content; margin: 0 auto;">
+    <div class="ht-editorial-visual__image-frame" style="max-width: 816px; width: fit-content; margin: 0 auto;">
       <picture>
         <source media="(max-width: 600px)" srcset="/images/editorial/inbox-actions-continuation-20261010/assignment-result-en-mobile.png 4x" width="1560" height="4000" />
-        <img class="ht-editorial-visual__image" src="/images/editorial/inbox-actions-continuation-20261010/assignment-result-en-mobile.png" srcset="/images/editorial/inbox-actions-continuation-20261010/assignment-result-en-mobile.png 4x" width="1560" height="4000" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Inbox conversation after a manual assignment, showing the assignee and assignment record." />
+        <img class="ht-editorial-visual__image" src="/images/editorial/assigning-desktop-correction-20261011/assignment-result-en-desktop.png" srcset="/images/editorial/assigning-desktop-correction-20261011/assignment-result-en-desktop.png 4x" width="3192" height="2128" style="width: auto; margin: 0 auto;" loading="lazy" decoding="async" alt="Inbox conversation after a manual assignment, showing the assignee and assignment record." />
       </picture>
     </div>
   </div>
